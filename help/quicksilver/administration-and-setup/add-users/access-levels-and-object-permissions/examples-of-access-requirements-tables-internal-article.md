@@ -4,9 +4,9 @@ description: Dit is een intern artikel voor ons team om een inventaris van de li
 author: Alina
 hide: true
 hidefromtoc: true
-source-git-commit: a00776ecd9f8dc14b9dce14ce9463c2bb709a363
+source-git-commit: 4745b93e02c9de087afbee752e0303280e52d688
 workflow-type: tm+mt
-source-wordcount: '1063'
+source-wordcount: '1071'
 ht-degree: 0%
 
 ---
@@ -406,6 +406,8 @@ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te gev
 
 Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
+## Toegangsvereisten voor Adobe Workfront Automation and Integration
+
 <p>Connectorgebaseerde (verouderde): Workfront Fusion for Work Automation and Integration </p>
    </td> 
   </tr> 
@@ -418,9 +420,10 @@ Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](https://experienceleague.adobe.com/nl/docs/workfront-fusion/using/references/licenses-and-roles/access-level-requirements-in-documentation).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/licenses-and-roles/access-level-requirements-in-documentation).
 
-Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [ de Fusie van Adobe Workfront vergunningen ](https://experienceleague.adobe.com/nl/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration).
+
+Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [ de Fusie van Adobe Workfront vergunningen ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration).
 
 ## Geavanceerde bedrijfsbesturingselementen
 

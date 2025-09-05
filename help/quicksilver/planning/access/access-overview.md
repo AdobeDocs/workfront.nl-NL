@@ -6,9 +6,9 @@ feature: Workfront Planning
 recommendations: noDisplay, noCatalog
 role: User, Admin
 exl-id: 99fac041-a235-4991-b826-d19944164bc9
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: 4745b93e02c9de087afbee752e0303280e52d688
 workflow-type: tm+mt
-source-wordcount: '711'
+source-wordcount: '692'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 >
 >De informatie in dit artikel verwijst naar Adobe Workfront Planning, een extra mogelijkheid van Adobe Workfront.
 >
->Uw bedrijf moet een extra licentie voor Workfront Planning aanschaffen om toegang te krijgen tot zijn mogelijkheden.
+>Uw bedrijf moet een extra pakket aanschaffen voor Workfront Planning om toegang te krijgen tot zijn mogelijkheden.
 >
 >Neem voor meer informatie contact op met uw accountmanager
 >
@@ -51,44 +51,27 @@ U moet de volgende toegang tot de Planning van Workfront hebben:
  </col>
  <tbody>
     <tr>
-<tr>
-<td>
-   <p> Producten</p> </td>
-   <td>
-   <ul><li><p> Adobe Workfront</p></li>
-   <li><p> Adobe Workfront Planning<p></li></ul></td>
-  </tr>  
  <tr>
-   <td role="rowheader"><p>Adobe Workfront-abonnement*</p></td>
+   <td role="rowheader"><p>Adobe Workfront-pakket</p></td>
    <td>
-<p>Een van de volgende Workfront-plannen:</p>
+<p>Een of meer van de volgende Workfront-pakketten:</p>
 <ul><li>Selecteren</li>
 <li>Prime</li>
 <li>Ultimate</li></ul>
-<p>Workfront Planning is niet beschikbaar voor oudere Workfront-plannen</p>
-   </td>
-
-<tr>
-   <td role="rowheader"><p>Adobe Workfront-planningspakket*</p></td>
-   <td>
-<p>Een of meer van de volgende plannen voor Workfront-planning:</p>
-<ul><li>Planning</li>
-<li>Planning Plus</li>
-</ul>
+<p>Workfront Planning is niet beschikbaar voor oudere Workfront-pakketten</p>
+<ul><li><p>Willekeurig planningspakket</p></li></ul>
 <p>Neem contact op met uw Workfront-accountmanager voor meer informatie over wat er in elk Workfront-planningsplan is opgenomen. </p>
    </td>
-
 <tr>
    <td role="rowheader"><p>Adobe Workfront-platform</p></td>
    <td>
 <p>Het geval van Workfront van uw organisatie moet aan de Verenigde Ervaring van Adobe worden genegeerd om tot de Planning van Workfront te kunnen toegang hebben.</p>
 <p>Voor meer informatie, zie <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md"> Adobe Verenigde Ervaring voor Workfront </a>. </p>
    </td>
-
-</tr>
+  </tr>
   </tr>
   <tr>
-   <td role="rowheader"><p>Adobe Workfront-licentie*</p></td>
+   <td role="rowheader"><p>Adobe Workfront-licentie</p></td>
    <td>
    <ul><li><p>Standaard, Licht of Medewerker om informatie over Workfront Planning weer te geven</p></li>
    <li><p>Standaard, werkruimten en weergaven maken</p></li></ul>
@@ -96,7 +79,7 @@ U moet de volgende toegang tot de Planning van Workfront hebben:
   </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Configuratie op toegangsniveau</p></td>
+   <td role="rowheader"><p>Configuraties op toegangsniveau</p></td>
    <td> <p>Er zijn geen toegangsniveaucontroles voor de Planning van Adobe Workfront</p>  
 </td>
   </tr>
@@ -121,32 +104,32 @@ U moet de volgende toegang tot de Planning van Workfront hebben:
 <p> De gebruikers met een Licht of de vergunning van de Medewerker moeten een lay-outmalplaatje worden toegewezen dat de optie van de Planning op de volgende gebieden omvat:</p>
    <ul><li>Hoofdmenu</li>
    <li>Deelvenster links van projecten, portfolio's en programma's</li>
-   </ul>
-   <p>Voor meer informatie, zie <a href="/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md"> lay-outmalplaatjes </a> creëren en beheren.</p>
-
+   </ul>   
 </td>
   </tr>
  </tbody>
 </table>
 
-*Voor meer informatie over de toegangsvereisten van Workfront, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 
 ## Het planningsgebied delen met een lay-outsjabloon
 
 <!--First, contact your account manager to obtain access to the current Workfront Planning program.-->
 
-Nadat uw organisatie een extra vergunning van de Planning van Workfront heeft gekocht, kan uw systeembeheerder de optie van de Planning aan de volgende gebieden toevoegen door u aan een lay-outmalplaatje te wijzigen en toe te wijzen:
+De standaardgebruikers en de Beheerders van het Systeem hebben de Gebieden van de Planning die door gebrek op de volgende gebieden worden toegelaten:
+
+* Hoofdmenu
+* Deelvenster links van projecten, portfolio&#39;s of programma&#39;s
+
+Uw systeembeheerder moet de Gebieden van de Planning aan u toevoegen, als u een andere vergunning van Workfront hebt en u moet bijdragen aan het de Planningswerk van Workfront.
+
+De beheerder kan de optie van de Planning aan de volgende gebieden toevoegen door u aan een lay-outmalplaatje te wijzigen en toe te wijzen:
 
 * Hoofdmenu
 * Openingspagina
 * Deelvenster Links voor projecten, portfolio&#39;s en programma&#39;s
 * Punten
-
-De standaardgebruikers en de Beheerders van het Systeem hebben de Gebieden van de Planning die door gebrek op de volgende gebieden worden toegelaten:
-
-* Hoofdmenu
-* Deelvenster links van projecten, portfolio&#39;s of programma&#39;s
 
 Workfront-planningsgebieden toevoegen aan of verwijderen uit gebruikers van uw Workfront-exemplaar:
 
@@ -174,7 +157,11 @@ Gebruikers met een Workfront-licentie hebben toegang tot Workfront Planning.
 
 ## Rechten verlenen
 
-U moet gebruikers toestemmingen aan de werkruimten en meningen geven van de Planning van Workfront die u voor hen creeert om tot hen toegang te hebben.
+U kunt toestemmingen aan de volgende entiteiten in de Planning van Workfront verlenen:
+
+* Werkruimten
+* Recordtypen
+* Weergaven
 
 Voor meer informatie, zie [ Overzicht van het delen van toestemmingen in de Planning van Adobe Workfront ](/help/quicksilver/planning/access/sharing-permissions-overview.md).
 
