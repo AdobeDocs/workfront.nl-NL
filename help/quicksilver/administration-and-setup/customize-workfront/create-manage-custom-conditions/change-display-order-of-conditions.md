@@ -29,7 +29,7 @@ U kunt de volgorde wijzigen waarin voorwaarden worden weergegeven in projecten, 
 
   >[!NOTE]
   >
-  >In de standaardmening van de Voorwaarde, is het **1} gebied van de Voorwaarde een type van gebied dat niet inline kan worden uitgegeven.** Wanneer u het **gebied van de Voorwaarde** aan een mening afzonderlijk toevoegt, is het editable. Voor informatie over gealigneerde het uitgeven, zie [ gealigneerd punten in een lijst in Adobe Workfront ](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/inline-edit-objects.md) uitgeven.
+  >In de standaardmening van de Voorwaarde, is het **1&rbrace; gebied van de Voorwaarde een type van gebied dat niet inline kan worden uitgegeven.** Wanneer u het **gebied van de Voorwaarde** aan een mening afzonderlijk toevoegt, is het editable. Voor informatie over gealigneerde het uitgeven, zie [ gealigneerd punten in een lijst in Adobe Workfront ](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/inline-edit-objects.md) uitgeven.
 
 ## Toegangsvereisten
 
