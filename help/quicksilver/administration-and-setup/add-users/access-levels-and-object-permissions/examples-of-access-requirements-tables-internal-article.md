@@ -4,9 +4,9 @@ description: Dit is een intern artikel voor ons team om een inventaris van de li
 author: Alina
 hide: true
 hidefromtoc: true
-source-git-commit: 4745b93e02c9de087afbee752e0303280e52d688
+source-git-commit: 12b7638472b2138896a283283d368b4092a1e67b
 workflow-type: tm+mt
-source-wordcount: '1071'
+source-wordcount: '1138'
 ht-degree: 0%
 
 ---
@@ -420,10 +420,10 @@ Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](https://experienceleague.adobe.com/nl/docs/workfront-fusion/using/references/licenses-and-roles/access-level-requirements-in-documentation).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/licenses-and-roles/access-level-requirements-in-documentation).
 
 
-Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [ de Fusie van Adobe Workfront vergunningen ](https://experienceleague.adobe.com/nl/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration).
+Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [ de Fusie van Adobe Workfront vergunningen ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration).
 
 ## Geavanceerde bedrijfsbesturingselementen
 
@@ -450,3 +450,37 @@ Geavanceerde bedrijfsbesturingselementen:
 * Groepbeheerders toewijzen aan subgroepen
 * Groepbeheerders toestaan subgroepen te maken
 
+## Toegangsvereisten voor proefdrukken
+
+## Toegangsvereisten
+
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
+   <td> <p>Alle</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront-licentie*</td> 
+   <td>  <p>Standard</p>
+   <p>Werken of plannen</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Bewijs van machtigingsprofiel </td> 
+   <td>Manager of hoger</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Proefdrukrol</td> 
+   <td>Revisor, Reviewer en fiatteur, Moderator, Auteur</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Configuraties op toegangsniveau*</td> 
+   <td> <p>Toegang tot documenten bewerken</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+&#42; om te weten te komen welk plan, rol, of Profiel van de Toestemming van het Bewijs u hebt, contacteer uw beheerder van Workfront of van Workfront Proof.
