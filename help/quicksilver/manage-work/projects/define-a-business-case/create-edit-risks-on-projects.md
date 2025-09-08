@@ -6,9 +6,9 @@ description: Risico's zijn mogelijke gebeurtenissen of factoren die verhinderen 
 author: Alina
 feature: Work Management
 exl-id: 6125c477-c0d8-43b4-88d8-35b0c2412468
-source-git-commit: 14b6b9c4a184131cfdc33b6156c578218ed9119a
+source-git-commit: 724c507dd5ee09b3364fc2037380a8cb18be08f2
 workflow-type: tm+mt
-source-wordcount: '1107'
+source-wordcount: '1103'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ Risico&#39;s kunnen verband houden met kosten, maar de werkelijke risicokosten h
 
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
-+++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -88,16 +88,16 @@ Een risico maken of bewerken in de Business Case:
 
    * **Beschrijving:** beschrijf het risico.
 
-   * **Potentiële Kosten**: wijs op de geschatte kosten als het risico zou moeten voorkomen.
+   * **Potentiële Kosten**: Ga de geschatte kosten in als het risico zou moeten voorkomen.
 
-   * **Kans**: wijs op de waarschijnlijkheid van het risico dat als percentagewaarde voorkomt.
+   * **Kans**: Ga de waarschijnlijkheid van het risico in dat als percentagewaarde voorkomt.
 
-   * **Type:** wijs op welke categorie het risico onder valt.
-   * **Plan van de Vermindering**: werk de beschrijving van het plan bij om het risico te verlichten.
+   * **Type:** selecteer welke categorie het risico onder valt.
+   * **Plan van de Vermindering**: Werk de beschrijving van het plan bij om het risico te verlichten.
 
-   * **Kosten van de Vermindering**: wijs op de kosten van het matigingsplan dat u moet plaatsen om het risico te verhinderen voor te komen.
+   * **Kosten van de Vermindering**: Ga de kosten van het matigingsplan in dat u op zijn plaats moet zetten om het risico te verhinderen voor te komen.
 
-   <!--![Risks](assets/crp1-350x117.png)-->
+   ![ Risks ](assets/edit-risk.png)
 
 1. (Facultatief) klik **Voeg een ander Risico** toe om extra risico&#39;s toe te voegen.
 1. Klik **sparen**.
@@ -115,13 +115,11 @@ U kunt risico&#39;s in de sectie van Risico&#39;s van een project of een malplaa
 
    ![ sectie van de Risico&#39;s van taak ](assets/risks-section-on-project-2022.png)
 
-1. Klik **Begin Toevoegend Risken** en creeer risico&#39;s door in-lijn het uitgeven van hun informatie. **Beschrijving** is een vereist gebied
+1. Klik **Begin Toevoegend Risken** en creeer risico&#39;s door in-lijn het uitgeven van hun informatie.
 
    of
 
-   Klik **Nieuw Risico**.
-
-   Het **Nieuwe risico** vakje opent.
+   Klik **Nieuw Risico** om de **Nieuwe risicobak** te openen.
 
    ![ Nieuwe risicodoos ](assets/new-risk-box.png)
 
@@ -143,15 +141,15 @@ U kunt risico&#39;s in de sectie van Risico&#39;s van een project of een malplaa
 
    Klik **sparen** als u de informatie in de **Nieuwe risico** doos uitgeeft.
 
-1. (Facultatief) selecteer een verschillende **Status** voor het risico, in het **3&rbrace; drop-down menu van de Status &lbrace;, wanneer het toepassen van de** Standaard **mening voor de lijst van risico&#39;s.**
+1. (Facultatief) selecteer een verschillende **Status** voor het risico, in het **3} drop-down menu van de Status {, wanneer het toepassen van de** Standaard **mening voor de lijst van risico&#39;s.**
 
    Door gebrek, wordt de **Status** van een risico **geïdentificeerd**.
 
 ### Risico&#39;s bewerken in het risicogebied {#edit-risks-in-the-risks-area}
 
-U kunt risico&#39;s bewerken tijdens de levensduur van een project, wanneer bijvoorbeeld de waarschijnlijkheid, de potentiële kosten of de status van de wijzigingen veranderen.
+U kunt risico&#39;s bewerken tijdens de levensduur van een project of wanneer er wijzigingen optreden (bijvoorbeeld een wijziging in de waarschijnlijkheid, potentiële kosten of status).
 
-U kunt één risico tegelijkertijd uitgeven, of u kunt veelvoudige risico&#39;s in bulk uitgeven.
+U kunt één risico tegelijkertijd uitgeven of veelvoudige risico&#39;s in bulk uitgeven.
 
 Risico&#39;s bewerken:
 
@@ -172,7 +170,7 @@ Risico&#39;s bewerken:
    U kunt de volgende velden bewerken:
 
    * **Beschrijving**: geef de beschrijving van het risico uit.
-   * **Type van Risico**: wijs op welke categorie het risico onder valt.
+   * **Type van Risico**: Werk welke categorie bij het risico onder valt.
    * **Kans**: Verwijs de waarschijnlijkheid van het risico dat als percentagewaarde voorkomt.
    * **Potentiële Kosten**: Verwijs op de geschatte kosten als het risico zou moeten voorkomen.
    * **Kosten van de Vermindering**: Wijs op de kosten van het matigingsplan dat u moet plaatsen om het risico te verhinderen voor te komen.
@@ -180,7 +178,7 @@ Risico&#39;s bewerken:
    * **Plan van de Vermindering**: Werk de beschrijving van het plan bij om het risico te verlichten.
 
 1. Klik **sparen**.
-1. (Facultatief) geef de **Status** voor een risico, in het **3&rbrace; drop-down menu van de Status &lbrace;uit, wanneer het toepassen van de** Standaard **mening voor de lijst van risico&#39;s.**
+1. (Facultatief) geef de **Status** voor een risico, in het **3} drop-down menu van de Status {uit, wanneer het toepassen van de** Standaard **mening voor de lijst van risico&#39;s.**
 
    >[!NOTE]
    >

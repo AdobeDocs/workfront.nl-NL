@@ -5,9 +5,9 @@ description: Als deel van het creëren van een BedrijfsGeval, kunt u een reeks d
 author: Alina
 feature: Work Management
 exl-id: c5f4c095-ea21-4205-a747-e8923de7030f
-source-git-commit: 14b6b9c4a184131cfdc33b6156c578218ed9119a
+source-git-commit: 724c507dd5ee09b3364fc2037380a8cb18be08f2
 workflow-type: tm+mt
-source-wordcount: '441'
+source-wordcount: '445'
 ht-degree: 0%
 
 ---
@@ -81,9 +81,10 @@ Overweeg het volgende wanneer het creëren van de doelstellingen van BedrijfsGev
 {{step1-to-projects}}
 
 1. In de projectlijst, selecteer het project u de doelstellingen van BedrijfsGeval voor wilt bepalen.
+
 1. In het linkerpaneel, klik **Bedrijfs Geval**. De **de sectievertoningen van het BedrijfsGeval**.
 
-   <!--![Business case info](assets/business-case-page-info-goals-expenses-nwe-350x123.png)-->
+   ![ Bedrijfs gevalinfo ](assets/business-case-info.png)
 
 1. In de **sectie van Doelen**, klik **uitgeven Doelstellingen**.
 
@@ -97,11 +98,11 @@ Overweeg het volgende wanneer het creëren van de doelstellingen van BedrijfsGev
    * Laag
    * Laagste
 
-     <!--![Importance](assets/g1-350x76.png)-->
+   ![ Belangrijkheid ](assets/goals-section.png)
 
-     >[!NOTE]
-     >
-     >U kunt de niveaus van het BELANG van doelstellingen niet aanpassen.
+   >[!NOTE]
+   >
+   >U kunt de niveaus van het BELANG van doelstellingen niet aanpassen.
 
 1. (Facultatief) om een ander doel toe te voegen, klik **Voeg een ander Doel** toe en herhaal stappen 5-6.
 

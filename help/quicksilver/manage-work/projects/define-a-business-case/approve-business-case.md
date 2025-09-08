@@ -5,9 +5,9 @@ description: Nadat u de Business Case voor een projectverzoek hebt voltooid en i
 author: Alina
 feature: Work Management
 exl-id: 60abb054-5cb0-4dd6-9091-c9dcd635a630
-source-git-commit: 14b6b9c4a184131cfdc33b6156c578218ed9119a
+source-git-commit: 724c507dd5ee09b3364fc2037380a8cb18be08f2
 workflow-type: tm+mt
-source-wordcount: '692'
+source-wordcount: '690'
 ht-degree: 0%
 
 ---
@@ -80,15 +80,15 @@ Een rapport opstellen voor projecten die in afwachting zijn van de goedkeuring v
 
 1. Selecteer het **lusje van de Mening** van het rapport, dan klik **toevoegen Kolom**.
 
-1. Begin typend &quot;Status&quot;in **tonen in dit kolom** gebied, en selecteer dit gebied wanneer het in de lijst verschijnt.
+1. Begin het typen *Status* in **tonen in dit kolom** gebied, en selecteer dit gebied wanneer het in de lijst verschijnt.
 
    Deze kolom zal de status van de projecten tonen.
 
 1. Selecteer het **lusje van Filters** van het rapport, dan klik **voeg een Regel van de Filter** toe.
 
-1. Begin typend &quot;Status&quot;in **toont me slechts Projecten waarin het...** gebied, en selecteert het wanneer het in de lijst verschijnt.
+1. Begin het typen *Status* in **toont me slechts Projecten waarin het...** gebied, en selecteert het wanneer het in de lijst verschijnt.
 1. Selecteer **Gelijk** voor de filterbepaling.
-1. Typ &quot;Gevraagd&quot; in het beschikbare veld.
+1. Begin typend *Gevraagde* op het beschikbare gebied.
 
    Dit zorgt ervoor dat het rapport slechts projecten omvat die in de Gevraagde status zijn.
 
@@ -126,15 +126,15 @@ Een rapport opstellen voor projecten die in afwachting zijn van de goedkeuring v
 1. Klik **Bedrijfs Geval** in het linkerpaneel.
 1. Klik **goedkeuren** of **verwerping** in het BedrijfsGeval Summiere gebied om het BedrijfsGeval goed te keuren of te verwerpen.
 
-   &lt;!—![ Bedrijfs geval ](assets/business-case-summary-with-rp-information--1-.png)—>
+<!-- ![Business case](assets/business-case-summary-with-rp-information--1-.png) -->
 
-   De projectstatus wordt veranderd in **Goedgekeurd** als het BedrijfsGeval wordt goedgekeurd.
+De projectstatus wordt veranderd in **Goedgekeurd** als het BedrijfsGeval wordt goedgekeurd.
 
-   De projectstatus wordt veranderd in **Verworpen** als het Bedrijfs geval wordt verworpen.
+De projectstatus wordt veranderd in **Verworpen** als het Bedrijfs geval wordt verworpen.
 
-   >[!NOTE]
-   >
-   >Er zijn geen meldingen die de gebruiker die de goedkeuring van de bedrijfscase heeft ingediend, waarschuwen of zijn projectaanvraag is goedgekeurd of afgewezen.
+>[!NOTE]
+>
+>Er zijn geen meldingen die de gebruiker die de goedkeuring van de bedrijfscase heeft ingediend, waarschuwen of zijn projectaanvraag is goedgekeurd of afgewezen.
 
 ## Goedkeuren van de bedrijfscase door toegang te krijgen tot aangevraagde projecten in een portfolio
 

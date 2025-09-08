@@ -6,16 +6,16 @@ description: U kunt de Business Case exporteren naar een PDF-bestand, voor het g
 author: Alina
 feature: Work Management
 exl-id: 834c56c4-ca11-4aff-b67e-0eac9fa23403
-source-git-commit: 14b6b9c4a184131cfdc33b6156c578218ed9119a
+source-git-commit: 724c507dd5ee09b3364fc2037380a8cb18be08f2
 workflow-type: tm+mt
-source-wordcount: '209'
+source-wordcount: '183'
 ht-degree: 0%
 
 ---
 
 # De bedrijfscase van een project exporteren
 
-U kunt de Business Case exporteren naar een PDF-bestand, voor het geval u deze wilt afdrukken of in een gecondenseerde indeling aan een e-mail wilt koppelen.
+U kunt de Business Case naar een PDF-bestand exporteren voor het geval u deze wilt afdrukken of in een gecondenseerde indeling aan een e-mail wilt koppelen.
 
 ## Toegangsvereisten
 
@@ -52,13 +52,12 @@ U kunt de Business Case exporteren naar een PDF-bestand, voor het geval u deze w
 
 ## De Business Case exporteren
 
-1. Ga naar het project u de BedrijfsGeval van wilt uitvoeren.
+{{step1-to-projects}}
+
+1. Voor de **pagina van Projecten**, selecteer het project u het BedrijfsGeval van wilt uitvoeren.
 1. Klik **Bedrijfs Geval** in het linkerpaneel.
-1. In het hoger-juiste **gebied van het BedrijfsGeval Summiere**, klik **Uitvoer**.
+1. In de hoger-juiste hoek van het **Samenvatting van BedrijfsGeval** gebied, klik **Uitvoer**. Er wordt een PDF-bestand naar de computer gedownload.
 
-   &lt;!—![ Samenvatting van BedrijfsGeval ](assets/bc-summary--350x587.png)—>\
-   A PDF   wordt gedownload naar uw computer. Het bestand bevat alle gebieden van de Business Case in een eenvoudig leesbare indeling.
+   ![ Samenvatting Bedrijfs van het Geval ](assets/bc-summary.png)
 
-   <!--![BC_Summary_exported.png](assets/bc-summary-exported-350x160.png)-->
 
-1. (Optioneel) Voeg het PDF-bestand toe aan een e-mail of druk het af om het te delen met anderen.

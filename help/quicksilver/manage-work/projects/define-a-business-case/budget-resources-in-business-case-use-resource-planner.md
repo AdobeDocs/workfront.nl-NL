@@ -5,9 +5,9 @@ description: Als deel van middelplanning, kunt u de project-vlakke Planner van h
 author: Alina
 feature: Work Management
 exl-id: 51ebb940-111c-442f-a8a6-287a04d2db68
-source-git-commit: 14b6b9c4a184131cfdc33b6156c578218ed9119a
+source-git-commit: 724c507dd5ee09b3364fc2037380a8cb18be08f2
 workflow-type: tm+mt
-source-wordcount: '1229'
+source-wordcount: '1224'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ U kunt middelen in de bedrijfscase ook begroten gebruikend de Planner van het Sc
 
 ## Toegangsvereisten
 
-+++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -106,13 +106,13 @@ Om de Pools van het Middel en de middelen van het begrotingsproject in het Bedri
 
 1. (Facultatief en voorwaardelijk) als de projectinformatie van een initiatief op de Planner Scenario is gepubliceerd, doe één van het volgende:
 
-   * Selecteer de Planner van het Middel in **kiezen welke uren om de Begrotende Kosten van de Arbeid van het project** gebied te gebruiken, dan **kiezen > uitgeven Middel het Begrotend**.
+   * Selecteer de Planner van het Middel in **kiezen welke uren om de Begrotende Kosten van de Arbeid van het project** gebied te gebruiken, dan **kiezen** > **Middel het Begrotend** uitgeven.
 
-     <!--![Business case in Resource Planner](assets/business-case-rp-selected-with-choose-button-350x120.png)-->
+   <!-- ![Business case in Resource Planner](assets/business-case-rp-selected-with-choose-button-350x120.png)-->
 
    * Als de Planner van het Scenario voor het in de begroting opnemen van middelen voor het project werd geselecteerd, klik **Verandering** > **geef het Middel in de begroting op**.
 
-     <!--![Business case in Scenario Planner](assets/business-case-sp-selected-change-option-to-switch-to-rp-highlighted-350x88.png)-->
+     <!-- ![Business case in Scenario Planner](assets/business-case-sp-selected-change-option-to-switch-to-rp-highlighted-350x88.png)-->
 
    Dit gebruikt de begrotingsuren van het project om de begrote arbeidskosten voor het project te berekenen.
 
@@ -156,9 +156,9 @@ Om de Pools van het Middel en de middelen van het begrotingsproject in het Bedri
 
     
 
-1. Klik **vandaag** om aan het tijdkader van vandaag terug te keren.
-1. (Facultatief) klik **Week**, **Maand** of **Kwartaal** aan vertoningsinformatie voor het project in verschillende tijdkaders.
-1. (Facultatief) klik het **drop-down menu van Uren**, en selecteer **Uren**, **VTE**, of **Kosten** om te veranderen hoe de informatievertoningen in de Planner van het Middel. Standaardweergave in uren.
+1. Klik **vandaag** om aan timeframe van vandaag terug te keren.
+1. (Facultatief) klik **Week**, **Maand** of **Kwartaal** aan vertoningsinformatie voor het project in verschillende timeframes.
+1. (Facultatief) klik het **drop-down menu van de Uren** Uren **,** VTE **, of** Kosten **om te veranderen hoe de informatievertoningen in de Planner van het Middel.** Standaardweergave in uren.
 
 1. (Facultatief) klik **Uitvoer** om de Planner van het Middel naar een dossier van Excel uit te voeren.
 
@@ -180,9 +180,9 @@ Om de Pools van het Middel en de middelen van het begrotingsproject in het Bedri
 
    >[!NOTE]
    >
-   >U kunt uren, FTEs, of kosten voor uw middelen voor om het even welk tijdkader begroten dat in het het Begrotinggebied van het Middel wordt getoond, onafhankelijk van de chronologie van het project. Als u bijvoorbeeld wilt aangeven dat uw bronnen mogelijk niet beschikbaar zijn tijdens de tijdlijn van het project (waar ze zijn gekoppeld aan geplande uren), maar wel op een ander tijdstip beschikbaar zijn, kunt u dit doen door de bronnen in te voegen voor tijdframes waarin de geplande uren nul zijn, als dat het moment is waarop ze beschikbaar zijn om te werken.
+   >U kunt uren, FTEs, of kosten voor uw middelen voor om het even welk tijdkader begroten dat in het het Begrotinggebied van het Middel wordt getoond, onafhankelijk van de chronologie van het project. Als u bijvoorbeeld wilt aangeven dat uw bronnen mogelijk niet beschikbaar zijn tijdens de tijdlijn van het project (waar ze zijn gekoppeld aan geplande uren), maar wel op een ander tijdstip beschikbaar zijn, kunt u dit doen door de bronnen in de begroting op te nemen voor tijdframes waarin de geplande uren nul zijn, als dat het moment is waarop ze beschikbaar zijn om te werken.
 
-1. (Facultatief) om te begrijpen of u de in de begroting opgenomen Uren, FTEs, of Kosten aan een ander tijdkader kunt bewegen, klik het **pictogram van Opties**, dan **Adjust Budgeting Dates**.
+1. (Facultatief) om te begrijpen of u de in de begroting opgenomen Uren, FTEs, of Kosten aan een ander tijdkader kunt bewegen, klik het **pictogram van Opties**, dan **Adjust het Begrotende Datums**.
 
    Voor meer informatie over het aanpassen van in de begroting opgenomen data, zie [ het opnemen van data in de Planner van het Middel ](../../../resource-mgmt/resource-planning/adjust-budgeting-dates.md) aanpassen.
 

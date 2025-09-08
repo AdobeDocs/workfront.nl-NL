@@ -5,9 +5,9 @@ description: Aangepaste Forms wordt gebruikt om informatie te verzamelen die nie
 author: Alina
 feature: Work Management
 exl-id: f781fd00-968c-4e5d-b82c-a74acedb2734
-source-git-commit: 14b6b9c4a184131cfdc33b6156c578218ed9119a
+source-git-commit: 724c507dd5ee09b3364fc2037380a8cb18be08f2
 workflow-type: tm+mt
-source-wordcount: '327'
+source-wordcount: '332'
 ht-degree: 0%
 
 ---
@@ -70,19 +70,19 @@ Voor informatie over het vastmaken van douaneformulieren aan voorwerpen, zie [ e
 
 ## Aangepaste Forms aan de bedrijfscase koppelen
 
-Als u een aangepaste versie wilt toevoegen van een Business Case, moet uw Workfront-beheerder deze optie selecteren in Setup. Voor meer informatie over het toelaten van douaneformulieren in Opstelling, zie de sectie [ systeem-brede projectvoorkeur ](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) in het artikel [ vorm systeem-brede projectvoorkeur ](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+Als u een aangepaste versie wilt toevoegen van een Business Case, moet uw Workfront-beheerder deze optie selecteren in Setup. Voor meer informatie over het toelaten van douaneformulieren in Opstelling, zie [ systeem-brede projectvoorkeur ](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) vormen.
 
 Een aangepast formulier bijvoegen:
 
-1. Ga naar het project u de vorm aan wilt vastmaken, dan klik **BedrijfsGeval** in het linkerpaneel.
+1. Ga naar het project u de vorm aan wilt vastmaken, dan klik **BedrijfsGeval** in het linkerpaneel. De Business Case-displays.
 
-   De Business Case-displays.
+1. In de **sectie van de Vorm van de Douane**, selecteer de douanevorm u van het drop-down menu wilt vastmaken. De douanevorm verschijnt in de **Toegevoegde vormen** hieronder sectie.
 
-1. In de **sectie van de Vorm van de Douane**, selecteer de douanevorm u van het drop-down menu wilt vastmaken.
+1. (Optioneel) Als u de aangepaste formulierdetails wilt uitbreiden, klikt u op de pijl links van de aangepaste formuliernaam.
 
-   <!--![Custom forms dropdown](assets/custom-forms-drop-down-menu.png)-->
+   ![ breid de details van de douanevorm uit ](assets/expand-custom-form-details.png)
 
-1. (Optioneel) Selecteer **Aangepaste vorm bewerken** .\
-   <!--![Edit custom form](assets/acf1-350x122.png)-->
+<!--1. (Optional) Select&nbsp;**Edit Custom Form**.  
+  ![Edit custom form](assets/acf1-350x122.png)
 
-1. (Facultatief) specificeer informatie op de gebieden van de douanevorm, dan klik **sparen**.
+1. (Optional) Specify information in the fields of the custom form, then click&nbsp;**Save** . -->
