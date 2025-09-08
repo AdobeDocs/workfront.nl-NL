@@ -3,9 +3,9 @@ title: Overzicht van gecentraliseerde recordtypen
 description: De gecentraliseerde verslagtypes kunnen aan veelvoudige werkruimten van een centrale of primaire werkruimte in de Planning van Adobe Workfront worden toegevoegd.
 hidefromtoc: true
 hide: true
-source-git-commit: 4e295b4fdbbde7439567ef2a4f4383ad8dea738c
+source-git-commit: 9b95b5a52576327a3df8d6955925b96c2e45848f
 workflow-type: tm+mt
-source-wordcount: '841'
+source-wordcount: '1019'
 ht-degree: 0%
 
 ---
@@ -20,120 +20,109 @@ recommendations: noDisplay, noCatalog
 
 # Overzicht van gecentraliseerde recordtypen
 
-
 De gecentraliseerde verslagtypes kunnen aan veelvoudige werkruimten van een centrale of primaire werkruimte in de Planning van Adobe Workfront worden toegevoegd.
 
 ## Overzicht van gecentraliseerde recordtypen
 
 Wanneer het uitvoeren van de Planning van Workfront voor een multi-teamorganisatie met gemeenschappelijke werkschema&#39;s, zou u een samenhangende structuur en meta-gegevens voor zeer belangrijke verslagtypes (zoals Campagnes of Deliverables) kunnen moeten bepalen die aan de werkruimten van elk team kunnen worden toegevoegd om hun werk te vangen en te beheren.
 
-Ook, zou u het werk van elk team kunnen nodig hebben om tot een centraal, meer globaal niveau te rollen.
+Ook, zou u het werk van elk team kunnen nodig hebben om tot een centraal niveau te rollen.
 
-In deze workflow kunt u ervoor zorgen dat teams hun werk consistent vastleggen en tegelijkertijd de zichtbaarheid van verschillende teams ontgrendelen, zonder dat iedereen in de organisatie aan één werkruimte moet worden toegevoegd.
+In zo&#39;n werkschema, kunt u ervoor zorgen dat de teams hun werk constant vangen terwijl het ontgrendelen van dwars-teamzicht, zonder de behoefte om alles aan één werkruimte, of iedereen in de organisatie aan elke werkruimte toe te voegen. Hiervoor kunt u gecentraliseerde recordtypen gebruiken.
 
 Ga als volgt te werk om gecentraliseerde recordtypen te gebruiken:
 
-1. Configureer een recordtype dat moet worden gecentraliseerd.
+1. Configureer een recordtype dat in een specifieke werkruimte moet worden gecentraliseerd.
+
+   Een werkruimtemanager kan gebruikers met een Standaardvergunning, teams, groepen, rollen, of bedrijven selecteren om een gekozen verslagtype aan een werkruimten toe te voegen zij leiden.
+
+   Het oorspronkelijke recordtype bestaat in de oorspronkelijke werkruimte, maar wordt zichtbaar gemaakt vanuit alle andere werkruimten.
 
    Voor informatie, zie [ mogelijkheden van de dwars-werkruimte voor verslagtypes ](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md) vormen.
-1. Voeg een bestaand recordtype van gecentraliseerde toe.
+1. Voeg een bestaand verslagtype van bestaande toe die als gecentraliseerde aan de werkruimte van een team is gevormd.
+
+   Het recordtype bestaat in de volgende werkruimten:
+
+   * Zijn originele werkruimte waar het als gecentraliseerd verslagtype werd aangewezen.
+   * De werkruimte van het team.
 
    Voor informatie, zie [ bestaande verslagtypes ](/help/quicksilver/planning/architecture/add-cross-workspace-record-types.md) toevoegen.
 
+   De volgende secties beschrijven overwegingen over gecentraliseerde verslagtypes in of hun originele werkruimten of nadat zij aan de werkruimten van een team worden toegevoegd.
 
+## Overwegingen over de gecentraliseerde recordtypen in hun oorspronkelijke werkruimte
 
+Het recordtype dat is geconfigureerd om te worden gecentraliseerd, heeft de volgende eigenschappen:
 
-・ Een nieuwe instelling &quot;Toestaan dat het recordtype in andere werkruimten wordt toegevoegd&quot; is beschikbaar in Geavanceerde instellingen voor recordtypen.
+* Alle gegevens kunnen alleen worden bewerkt in de oorspronkelijke werkruimte.
 
-・ Indien toegelaten, kan de werkruimtemanager gebruikers met Standaardvergunning, teams, groepen, rollen, of bedrijven selecteren die het verslagtype in de werkruimten kunnen toevoegen zij leiden.
+* U kunt de volgende handelingen uitvoeren op het gecentraliseerde recordtype vanuit de oorspronkelijke werkruimte van een gecentraliseerd recordtype:
 
-・ De werkruimtebeheerder die de instelling bewerkt, wordt standaard automatisch toegevoegd aan de lijst met geselecteerde gebruikers
+   * Bewerk het
 
-o Werkruimtemanager kan zijn eigen naam verwijderen nadat het minstens 1 andere entiteit heeft toegevoegd
+     Het bewerken van een gecentraliseerd recordtype omvat het bewerken van de weergave, de mogelijkheden van de werkruimte en alle velden die in de oorspronkelijke werkruimte zijn gemaakt.
+   * Aanvraagformulieren maken
+   * Aanvraagformulieren beheren
 
-o Er moet ten minste 1 gebruiker/team/... geselecteerd zijn om de instelling op te slaan
+* U kunt een gecentraliseerd recordtype alleen verwijderen als het niet aan een teamwerkruimte is toegevoegd. Nadat het aan de werkruimte van een team wordt toegevoegd, zal het proberen om het van de originele werkruimte te schrappen een fout veroorzaken.
 
-o Wanneer het recordtype in ten minste 1 andere werkruimte is toegevoegd, kunnen alle geselecteerde gebruikers worden verwijderd
+  Dit wordt gedaan zodat het gecentraliseerde verslagtype in de werkruimten kan blijven waar het reeds is toegevoegd.
+* De verslagen die u aan een gecentraliseerd verslagtype toevoegt zijn zichtbaar slechts aan gebruikers die de toestemmingen van de Mening aan zijn originele werkruimte hebben.
+* De verslagen die u van de werkruimte van het team toevoegt rollen omhoog en tonen in de originele werkruimte. Alle leden van de oorspronkelijke werkruimte krijgen hier weergavemachtigingen voor.
 
-§ Dit wordt gedaan zodat het mogelijk is om het globale verslagtype in nieuwe werkruimten te verhinderen toe te voegen maar het te houden in werkruimten die het reeds gebruiken.
+* De aangesloten recordtypen van een gecentraliseerd recordtype worden beschikbaar voor verbinding vanuit de werkruimten waar dit recordtype wordt toegevoegd.
 
-・ In fase 1 worden alle records van de verbonden recordtypen automatisch gedeeld met elke werkruimte waarin het recordtype is toegevoegd.
+* Velden die voor een gecentraliseerd recordtype zijn gemaakt in de oorspronkelijke werkruimte, zijn zichtbaar in alle werkruimten waar het recordtype is toegevoegd.
 
-・ Als het recordtype is ingeschakeld als een cross-workspace, wordt een door het systeem gegenereerd &quot;Workspace&quot; veld toegevoegd aan het recordtype
+## Overwegingen over gecentraliseerde verslagtypes na het toevoegen van hen aan de werkruimte van een team
 
-o Het toont de werkruimte van waar elke record is gemaakt.
+* Deelnemers aan de teamwerkruimte krijgen Contribute-machtigingen voor het gecentraliseerde recordtype in de teamwerkruimte. Ze kunnen er records in toevoegen en beheren.
 
-o Dit veld is alleen-lezen en kan niet worden verwijderd.
+* De de werkruimtekijkers van het team krijgen de toestemming van de Mening aan het gecentraliseerde verslagtype in de teamwerkruimte. Ze kunnen er geen records in toevoegen en beheren.
 
-o Deze kan worden verborgen in weergavevelden.
+* De werkruimtemanagers van het team kunnen de volgende acties op het verslagtype uitvoeren dat van een gecentraliseerd verslagtype in de werkruimte van een team wordt toegevoegd:
 
-o Het werkruimteveld kan worden gebruikt voor filteren, groeperen en sorteren, en in alle weergave-instellingen, zoals in andere velden.
+   * Nieuwe velden toevoegen
 
+     Velden die vanuit een teamwerkruimte aan een gecentraliseerde record worden toegevoegd, zijn alleen zichtbaar vanuit de werkruimte van het team.
+   * Delen
+   * Verwijder het bestand.
 
-Typen records van verschillende Workspace in lokale werkruimten
+     Als u het recordtype uit de werkruimte van een team verwijdert, wordt dit alleen verwijderd uit de werkruimte van het team. De records die vanuit de werkruimte van het team aan het team zijn toegevoegd, worden ook verwijderd. Hierdoor wordt het recordtype niet verwijderd uit de oorspronkelijke werkruimte of uit andere teamwerkruimten waar het is toegevoegd.
 
-・ Bij het toevoegen van een nieuw recordtype aan hun werkruimte zien lokale werkruimtemanagers een optie uit de lijst van globale verslagtypes te selecteren die voor hen beschikbaar zijn
+     Dit wordt gedaan zodat het mogelijk is om reeds toegevoegde gecentraliseerde verslagtype in werkruimten te houden die het reeds gebruiken.
 
-・ Wanneer ze een van de algemene recordtypen selecteren, wordt deze direct toegevoegd aan de werkruimte
+* U kunt niet de volgende acties op het verslagtype uitvoeren dat van een gecentraliseerd verslagtype in de werkruimte van een team wordt toegevoegd:
 
-・ Het is mogelijk het algemene recordtype naar een willekeurige sectie en positie in de lokale werkruimte te verplaatsen
+   * Bewerk het
 
+     U kunt de weergave, de mogelijkheden van de werkruimte of de velden die u uit de oorspronkelijke werkruimte hebt geïmporteerd, niet bewerken.
+   * Aanvraagformulieren maken
+   * Aanvraagformulieren beheren
 
-Machtigingen voor het algemene recordtype in lokale werkruimten
+* Records die zijn toegevoegd in de werkruimten van een team, zijn zichtbaar vanuit de volgende werkruimten als u over weergave of hogere machtigingen voor deze werkruimten beschikt:
 
-Binnen lokale werkruimten winnen de leden na toegang tot het globale verslagtype:
+   * De werkruimte van het team waar ze zijn toegevoegd.
+   * De oorspronkelijke werkruimte van het gecentraliseerde recordtype.
+   * Alle andere werkruimten waar de gecentraliseerde werkruimte wordt toegevoegd.
 
-・ In Fase 1 krijgen lokale werkruimtebeheerders Contribute-machtigingen. Dit betekent:
+* De volgende scenario&#39;s bestaan voor verslagen die in de werkruimten van teams worden gecreeerd:
 
-o Lokale werkruimtemanagers kunnen:
+   * Als u beheermachtigingen hebt in de oorspronkelijke werkruimte en geen machtigingen hebt voor de werkruimten van de teams, kunt u records die zijn toegevoegd vanuit de werkruimten van het team weergeven in de oorspronkelijke werkruimte, maar kunt u deze records niet vanuit de oorspronkelijke werkruimte beheren.
+   * Als u beheermachtigingen hebt in de werkruimte van het team, kunt u de records beheren in de oorspronkelijke werkruimte van het gecentraliseerde recordtype of vanuit de werkruimte waar ze zijn toegevoegd.
 
-§ Voeg het algemene recordtype toe
+     U kunt de verslagen in extra teamwerkruimten bekijken waar het gecentraliseerde verslagtype slechts wordt toegevoegd als u de toestemmingen van de Mening aan die werkruimten hebt.
 
-§ Alle records in het algemene recordtype toevoegen/bewerken/verwijderen, ongeacht de werkruimte waaruit de record is toegevoegd.
+## Toegang tot verbindingen
 
-§ Verwijder het algemene recordtype uit de lokale werkruimte
+Recordtypen die zijn verbonden met het gecentraliseerde recordtype in de oorspronkelijke werkruimte, worden zichtbaar voor teamwerkruimten waar het gecentraliseerde recordtype wordt toegevoegd.
 
-o Beheerders van lokale werkruimten kunnen:
+## API-gedrag
 
-§ Velden toevoegen, bewerken, verwijderen
+Wanneer het toevoegen van verslagen aan een gecentraliseerd verslagtype van een teamwerkruimte gebruikend de Planning API van Workfront, controleert het systeem of de gebruiker toegang heeft om verslagen in de originele werkruimte van het gecentraliseerde verslagtype tot stand te brengen.
 
-§ De vormgeving en het label van het recordtype bijwerken
+De volgende gevallen bestaan:
 
-§ Zie de geavanceerde instellingen voor het recordtype
+* Als de gebruiker toegang heeft, wordt de record gemaakt in de oorspronkelijke werkruimte van de gecentraliseerde recordtypen.
 
-§ Automatisering beheren
-
-§ Aanvraagformulieren beheren
-
-§ Het delen van het recordtype aanpassen voor het bereik van de werkruimte
-
-§ Schakel de instelling voor het algemene recordtype uit in de geavanceerde instellingen.
-
-・ Medewerkers in de lokale werkruimte krijgen Contribute-machtiging voor het algemene recordtype en kunnen hierin records toevoegen en beheren
-
-・ Gebruikers in de lokale werkruimte krijgen Weergavemachtiging voor het algemene recordtype
-
-・ Zodra een record vanuit een lokale werkruimte aan het algemene recordtype is toegevoegd, wordt die naam in het Workspace-veld weergegeven
-
-o Op dit moment is het niet mogelijk het werkruimteveld te bewerken en te wijzigen
-
-・ De verslagen die aan lokale werkruimten worden toegevoegd worden allen opgerold en getoond in de primaire werkruimte, en alle leden van de primaire werkruimte krijgen meningstoegang tot het.
-
-・ Records die zijn toegevoegd in lokale werkruimten, worden niet weergegeven in andere lokale werkruimten met hetzelfde algemene recordtype en hun leden krijgen geen toegang tot de records.
-
-
-
-Toegang tot verbindingen:
-
-・ MVP-bereik
-
-o De recordtypen die met het algemene recordtype zijn verbonden, worden zichtbaar voor lokale werkruimten waar het algemene recordtype is toegevoegd, zodat zij de verbindingsvelden kunnen gebruiken voor het toevoegen van tags
-
-
-API-gedrag
-
-Als de gebruiker via API records probeert te maken in een algemeen recordtype zonder de werkruimte-id op te geven, controleert het systeem of de gebruiker toegang heeft om records te maken in de primaire werkruimte (waar een algemeen recordtype wordt gemaakt)
-
-・ Zo ja, dan wordt de record gemaakt in de primaire werkruimte
-
-・ Als dat niet het geval is, krijgt de gebruiker een validatiefout die hij niet kan gebruiken voor de primaire werkruimte en moet hij de werkruimte-id opgeven waar hij toegang heeft om te maken.
+* Als de gebruiker geen toegang heeft, krijgt de gebruiker een fout dat zij geen toegang tot de originele werkruimte van het gecentraliseerde verslagtype hebben en zij moeten werkruimte identiteitskaart verstrekken waar zij toegang hebben om verslagen tot stand te brengen.
