@@ -7,9 +7,9 @@ author: Jenny
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 5fbcd807-e152-4e93-a895-2028ed089f72
-source-git-commit: 8fdf48c5b17a17e4dd1ef2e441659155ae0b9905
+source-git-commit: db08403c62cc85d6ccb705bb84c9c277e94f8635
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: '530'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 >[!IMPORTANT]
 >
 >De functie Canvasdashboards is momenteel alleen beschikbaar voor gebruikers die deelnemen aan de bètafase. Onderdelen van het onderdeel zijn mogelijk niet compleet of werken niet zoals bedoeld in deze fase. Gelieve te dienen om het even welke terugkoppelen betreffende uw ervaring door de instructies in [ te volgen geef hieronder ](#provide-feedback) sectie terug.<br>
->&#x200B;>Deze bètaversie is niet beschikbaar op de volgende cloudproviders:
+>>Deze bètaversie is niet beschikbaar op de volgende cloudproviders:
 >
 >* Je eigen sleutel voor Amazon Web Services
 >* Azure
@@ -55,7 +55,7 @@ Voor meer informatie, zie [ Overzicht van de Dashboards van het Canvas ](/help/q
   </tr> 
   <tr> 
    <td role="rowheader"><p>Configuraties op toegangsniveau</p></td> 
-   <td><p>Toegang tot rapporten, dashboards en kalenders bewerken</p>
+   <td><p>Systeembeheerderstoegang om dashboards van Canvas in te schakelen</p>
   </td> 
   </tr>  
 </tbody> 
@@ -73,9 +73,15 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
    >[!NOTE]
    >
-   > **sluit zich aan bij de bèta** knoop van de Dashboards van het Canvas slechts beschikbaar als uw organisatie aan bèta is uitgenodigd.
+   > **sluit zich aan bij de bèta** knoop van de Dashboards van het Canvas is slechts toegankelijk voor systeembeheerders. Alle andere gebruikers zien deze knop in gedeactiveerde toestand.
 
 1. Herzie de termijnen in de **de overeenkomst van Beta** doos, dan klik **ga** overeen. U bent nu ingeschreven voor de bètaversie. Houd er rekening mee dat het enkele minuten kan duren voordat uw Workfront-gegevens volledig toegankelijk zijn in Canvasdashboards.
+
+   >[!NOTE]
+   >
+   >Zodra de bètavoorwaarden zijn geaccepteerd, worden de mogelijkheden van het dashboard van het canvas ingeschakeld voor alle gebruikers in de Workfront-omgeving. Om het even welke gebruiker met Mening en leidt toegang tot dashboards zal kunnen om de Dashboards van het Canvas per hun toegangsniveau bekijken en uitgeven.<br>
+   >Houd er rekening mee dat de zichtbaarheid van de bestemmingspagina van de canvasdashboards wordt geregeld via de toegewezen lay-outsjabloon van de gebruiker. Voor meer, zie [ lay-outmalplaatjes ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md) creëren en beheren.
+
 
 ## Feedback geven
 
