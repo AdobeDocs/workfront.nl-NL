@@ -6,7 +6,7 @@ description: U kunt werkitems toewijzen met de Adobe Workfront Workload Balancer
 author: Lisa
 feature: Resource Management
 exl-id: caffcde8-3953-44a4-b945-76f2de84f4c6
-source-git-commit: 69ac06c36440d9fbbf0c8c9f3e019374da2e2f91
+source-git-commit: bf1a8e4384360554c6245b455650f30976e82ce1
 workflow-type: tm+mt
 source-wordcount: '991'
 ht-degree: 0%
@@ -23,7 +23,7 @@ Voor algemene informatie over het toewijzen van het werk aan gebruikers die de B
 
 ## Toegangsvereisten
 
-+++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven. 
 
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
@@ -95,7 +95,7 @@ U kunt een item uit het gebied Niet toegewezen werk toewijzen aan een gebruiker 
    >* De optie Alle gebruikers weergeven is alleen beschikbaar in Workload Balancer van een project.
    >* Gebruik filters om alleen de gebruikers weer te geven die voor u van belang zijn. Gebruik bijvoorbeeld een filter om alleen gebruikers van uw teams of groepen weer te geven.
 
-1. Klik de bar van een het werkpunt <span class="preview"> of roltaak </span> die of de geplande of geprojecteerde chronologie wijst en het over de naam van een gebruiker in het **Toegewezen** gebied sleept.
+1. Klik de bar van een het werkpunt <span class="preview"> of roltaak </span> die of de geplande of de geprojecteerde chronologie wijst en het over de uren voor een gebruiker in het **Toegewezen** gebied sleept.
 
    De gebruiker waarop u de muisaanwijzer plaatst om het werkitem naar te zetten, wordt gemarkeerd.
 
