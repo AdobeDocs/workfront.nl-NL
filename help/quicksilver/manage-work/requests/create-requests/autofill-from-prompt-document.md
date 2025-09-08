@@ -5,9 +5,9 @@ description: Met AI kunt u aanvraagvelden automatisch invullen door een vraag in
 author: Becky
 feature: Get Started with Workfront
 exl-id: 4a22f9ea-c9ee-4947-8683-9989c54903b1
-source-git-commit: b8c29ecb30dda449bc604f585a06b5a6663994f9
+source-git-commit: 3351a928ba20d1509f99a63c98b3e106c58fb43f
 workflow-type: tm+mt
-source-wordcount: '1144'
+source-wordcount: '1336'
 ht-degree: 0%
 
 ---
@@ -105,7 +105,7 @@ Suggesties gebruiken op basis van een geplakte tekstprompt:
 1. Klik **Vul de vorm**.
 
    Workfront genereert suggesties voor het formulier.
-1. Voor elke gebiedssuggestie, keurt de uitgezochte **&#x200B;**&#x200B;goed of **verwerpt** voor dat gebied.
+1. Voor elke gebiedssuggestie, keurt de uitgezochte **** goed of **verwerpt** voor dat gebied.
 
    ![ Accepteer of verwerp suggestie ](assets/accept-reject-suggestion.png)
 
@@ -121,41 +121,54 @@ Suggesties gebruiken op basis van een geplakte tekstprompt:
 
 Deze voorbeelden tonen herinneringen voor diverse manieren dat AI andere projecten kan van verwijzingen voorzien.
 
-* Verwijzen naar een vroegere klantencampagne
+#### Verwijzen naar een vroegere klantencampagne
 
-  ```
-  Create a similar campaign request as we did for (Client Company)'s Q2 launch, but this time for their Automotive division. Keep the same deliverable set and audience profile.
-  ```
+>[!BEGINSHADEBOX]
 
-* Voortbouwen op een bestaand project
+Maak een vergelijkbaar campagneverzoek zoals we deden voor de introductie van Q2 van (Client Company), maar dit keer voor hun afdeling Automotive. Houd dezelfde te leveren set en hetzelfde publieksprofiel.
 
-  ```
-  Use the same setup we had in the (Client Company) project kickoff last spring. I want to run a digital ad campaign targeting the same executive audience, but with updated dates for this quarter.
-  ```
+>[!ENDSHADEBOX]
 
-* Een stijl uit een eerder te leveren item opnieuw gebruiken
+#### Voortbouwen op een bestaand project
 
-  ```
-  Prepare a request similar to the (Client Company) summer promotion campaign we ran last year. Focus on social media assets, keep Spanish as the primary language, and adjust the budget to $75,000.
-  ```
+>[!BEGINSHADEBOX]
 
-* Uitbreiden op een ouder type campagne
+Gebruik de zelfde opstelling wij in het (Bedrijf van de Cliënt) projectkickoff vorig voorjaar hadden. Ik wil een digitale advertentiecampagne voeren die gericht is op hetzelfde uitvoerende publiek, maar met bijgewerkte data voor dit kwartaal.
 
-  ```
-  Take the (Client Company) webinar series campaign from Q1 as a reference. I want the same registration workflow and assets, but this time the topic is 'AI in Financial Planning' and the audience is young professionals.
-  ```
+>[!ENDSHADEBOX]
 
-* Herhaling van een aanvraag voor een ander product
+#### Een stijl uit een eerder te leveren item opnieuw gebruiken
 
-  ```
-  Set up a campaign request just like the (Client Company) rebranding project we handled, but replace with (New Client Company) as the client. Keep all deliverables aligned to corporate branding.
-  ```
+>[!BEGINSHADEBOX]
 
-* Narratieve stijl met impliciete verwijzingen
+Bereid een verzoek voor gelijkend op (het Bedrijf van de Cliënt) zomerpromotiecampagne wij vorig jaar uitvoerden. Focus op sociale media, houd het Spaans als primaire taal en pas het budget aan $75.000 aan.
 
-  ```
-  We're planning a campaign similar to the holiday social ads we ran last year. Budget should be about 50k, goal is lead generation, and deliverables should include Instagram and TikTok assets.
-  ```
+>[!ENDSHADEBOX]
+
+#### Uitbreiden op een ouder type campagne
+
+>[!BEGINSHADEBOX]
+
+Neem (het Bedrijf van de Cliënt) webinar reekscampagne van Q1 als verwijzing. Ik wil dezelfde registratiewerkstroom en activa, maar dit keer is het onderwerp &#39;AI in Financiële Planning&#39; en het publiek is jonge professionals.
+
+>[!ENDSHADEBOX]
+
+#### Herhaling van een aanvraag voor een ander product
+
+>[!BEGINSHADEBOX]
+
+Opstelling een campagneverzoek enkel zoals het (Bedrijf van de Cliënt) herbrandend project dat wij, maar vervangen met (Nieuw Bedrijf van de Cliënt) als cliënt behandelden. Houd alle te leveren items op één lijn met bedrijfsbranding.
+
+>[!ENDSHADEBOX]
+
+#### Narratieve stijl met impliciete verwijzingen
+
+>[!BEGINSHADEBOX]
+
+We plannen een campagne vergelijkbaar met de vakantiegroepen die we vorig jaar hebben uitgevoerd. Het budget moet ongeveer 50 kB bedragen, het doel is het genereren van leads en de te leveren items moeten de middelen Instagram en TikTok bevatten.
+
+>[!ENDSHADEBOX]
+
 
 ## Suggesties ophalen op basis van een document dat u uploadt
 
@@ -279,7 +292,7 @@ U kunt een document uploaden dat op het volledige formulier of op één sectie v
 1. Klik **Vul de vorm** van **Vul de sectie**.
 
    Workfront genereert suggesties voor het formulier.
-1. Voor elke gebiedssuggestie, keurt de uitgezochte **&#x200B;**&#x200B;goed of **verwerpt** voor dat gebied.
+1. Voor elke gebiedssuggestie, keurt de uitgezochte **** goed of **verwerpt** voor dat gebied.
 
    ![ Accepteer of verwerp suggestie ](assets/accept-reject-suggestion.png)
 
