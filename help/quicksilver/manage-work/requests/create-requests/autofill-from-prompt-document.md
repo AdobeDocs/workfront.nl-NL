@@ -5,7 +5,7 @@ description: Met AI kunt u aanvraagvelden automatisch invullen door een vraag in
 author: Becky
 feature: Get Started with Workfront
 exl-id: 4a22f9ea-c9ee-4947-8683-9989c54903b1
-source-git-commit: 3351a928ba20d1509f99a63c98b3e106c58fb43f
+source-git-commit: 6aab36ee2839fdf32f5606d2070d1e52d7f44753
 workflow-type: tm+mt
 source-wordcount: '1336'
 ht-degree: 0%
@@ -105,7 +105,7 @@ Suggesties gebruiken op basis van een geplakte tekstprompt:
 1. Klik **Vul de vorm**.
 
    Workfront genereert suggesties voor het formulier.
-1. Voor elke gebiedssuggestie, keurt de uitgezochte **&#x200B;**&#x200B;goed of **verwerpt** voor dat gebied.
+1. Voor elke gebiedssuggestie, keurt de uitgezochte **** goed of **verwerpt** voor dat gebied.
 
    ![ Accepteer of verwerp suggestie ](assets/accept-reject-suggestion.png)
 
@@ -125,7 +125,7 @@ Deze voorbeelden tonen herinneringen voor diverse manieren dat AI andere project
 
 >[!BEGINSHADEBOX]
 
-Maak een vergelijkbaar campagneverzoek zoals we deden voor de introductie van Q2 van (Client Company), maar dit keer voor hun afdeling Automotive. Houd dezelfde te leveren set en hetzelfde publieksprofiel.
+Maak een soortgelijk campagneverzoek als we deden voor de introductie van Q2 van (client company), maar dit keer voor hun afdeling Automotive. Houd dezelfde te leveren set en hetzelfde publieksprofiel.
 
 >[!ENDSHADEBOX]
 
@@ -133,7 +133,7 @@ Maak een vergelijkbaar campagneverzoek zoals we deden voor de introductie van Q2
 
 >[!BEGINSHADEBOX]
 
-Gebruik de zelfde opstelling wij in het (Bedrijf van de Cliënt) projectkickoff vorig voorjaar hadden. Ik wil een digitale advertentiecampagne voeren die gericht is op hetzelfde uitvoerende publiek, maar met bijgewerkte data voor dit kwartaal.
+Gebruik de zelfde opstelling wij in het (projectnaam) projectkickoff vorig voorjaar hadden. Ik wil een digitale advertentiecampagne voeren die gericht is op hetzelfde uitvoerende publiek, maar met bijgewerkte data voor dit kwartaal.
 
 >[!ENDSHADEBOX]
 
@@ -141,7 +141,7 @@ Gebruik de zelfde opstelling wij in het (Bedrijf van de Cliënt) projectkickoff 
 
 >[!BEGINSHADEBOX]
 
-Bereid een verzoek voor gelijkend op (het Bedrijf van de Cliënt) zomerpromotiecampagne wij vorig jaar uitvoerden. Focus op sociale media, houd het Spaans als primaire taal en pas het budget aan $75.000 aan.
+Een aanvraag voorbereiden die vergelijkbaar is met de zomerpromotiecampagne van het (bedrijf van de klant) die we vorig jaar hebben uitgevoerd. Focus op sociale media, houd het Spaans als primaire taal en pas het budget aan $75.000 aan.
 
 >[!ENDSHADEBOX]
 
@@ -149,7 +149,7 @@ Bereid een verzoek voor gelijkend op (het Bedrijf van de Cliënt) zomerpromotiec
 
 >[!BEGINSHADEBOX]
 
-Neem (het Bedrijf van de Cliënt) webinar reekscampagne van Q1 als verwijzing. Ik wil dezelfde registratiewerkstroom en activa, maar dit keer is het onderwerp &#39;AI in Financiële Planning&#39; en het publiek is jonge professionals.
+Neem de (naam van de campagne) webinar reekscampagne van Q1 als verwijzing. Ik wil dezelfde registratiewerkstroom en activa, maar dit keer is het onderwerp &#39;AI in Financiële Planning&#39; en het publiek is jonge professionals.
 
 >[!ENDSHADEBOX]
 
@@ -157,7 +157,7 @@ Neem (het Bedrijf van de Cliënt) webinar reekscampagne van Q1 als verwijzing. I
 
 >[!BEGINSHADEBOX]
 
-Opstelling een campagneverzoek enkel zoals het (Bedrijf van de Cliënt) herbrandend project dat wij, maar vervangen met (Nieuw Bedrijf van de Cliënt) als cliënt behandelden. Houd alle te leveren items op één lijn met bedrijfsbranding.
+Opstelling een campagneverzoek enkel zoals het (cliëntbedrijf) herbrandend project dat wij, maar vervangen met (nieuw cliëntbedrijf) als cliënt behandelden. Houd alle te leveren items op één lijn met bedrijfsbranding.
 
 >[!ENDSHADEBOX]
 
@@ -292,7 +292,7 @@ U kunt een document uploaden dat op het volledige formulier of op één sectie v
 1. Klik **Vul de vorm** van **Vul de sectie**.
 
    Workfront genereert suggesties voor het formulier.
-1. Voor elke gebiedssuggestie, keurt de uitgezochte **&#x200B;**&#x200B;goed of **verwerpt** voor dat gebied.
+1. Voor elke gebiedssuggestie, keurt de uitgezochte **** goed of **verwerpt** voor dat gebied.
 
    ![ Accepteer of verwerp suggestie ](assets/accept-reject-suggestion.png)
 
