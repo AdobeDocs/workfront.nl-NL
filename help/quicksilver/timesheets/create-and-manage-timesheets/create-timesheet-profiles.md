@@ -182,7 +182,7 @@ Voor meer informatie over het creëren van manueel timesheet, zie [ een enig-geb
     </tbody> 
     </table>
 
-1. <!--In the Production environment, or when creating group-level timesheet profiles,--> Klik **toewijzen de Mensen** tabel om het timesheet profiel met specifieke gebruikers, groepen, of (als u een beheerder van Workfront) teams bent te associëren. <!--Keep the reference to the group upon release to Prod-->
+1. &#x200B;<!--In the Production environment, or when creating group-level timesheet profiles,--> Klik **toewijzen de Mensen** tabel om het timesheet profiel met specifieke gebruikers, groepen, of (als u een beheerder van Workfront) teams bent te associëren. <!--Keep the reference to the group upon release to Prod-->
 
    <!--<span class="preview">In the Preview environment when creating timesheet profiles for the system, scroll towards the bottom of the page to find the Assign People section.</span>--> <!--Keep the reference to the system when releasing to Prod-->
 
