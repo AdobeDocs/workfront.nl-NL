@@ -18,8 +18,8 @@ ht-degree: 0%
 >[!IMPORTANT]
 >
 >De functie Canvasdashboards is momenteel alleen beschikbaar voor gebruikers die deelnemen aan de bètafase. Onderdelen van het onderdeel zijn mogelijk niet compleet of werken niet zoals bedoeld in deze fase. Gelieve te dienen om het even welke terugkoppelen betreffende uw ervaring door de instructies in [ te volgen verstrekt ](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) sectie in het de bètaoverzichtsartikel van de dashboards van het Canvas.<br>
->>Als u feedback hebt over een mogelijk probleem met een probleem of een technisch probleem, stuurt u een ticket naar Workfront Support. Voor meer informatie, zie [ de Steun van de Klant van het Contact ](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
->>Deze bètaversie is niet beschikbaar op de volgende cloudproviders:
+>&#x200B;>Als u feedback hebt over een mogelijk probleem met een probleem of een technisch probleem, stuurt u een ticket naar Workfront Support. Voor meer informatie, zie [ de Steun van de Klant van het Contact ](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
+>&#x200B;>Deze bètaversie is niet beschikbaar op de volgende cloudproviders:
 >
 >* Je eigen sleutel voor Amazon Web Services
 >* Azure
@@ -84,7 +84,7 @@ U moet rapporten aan een dashboard toevoegen alvorens zij kunnen worden herschik
 
    ![ het rapportwidget van de Beweging ](assets/moving-report-widget.png)
 
-1. (Facultatief) om de lengte en de breedte van een rapportwidget aan te passen, klik en houd **** resize pictogram ![ in de laag-juiste hoek van widget, dan aanpassen de grootte zoals nodig.](assets/resize-icon.png)
+1. (Facultatief) om de lengte en de breedte van een rapportwidget aan te passen, klik en houd **&#x200B;**&#x200B;resize pictogram ![ in de laag-juiste hoek van widget, dan aanpassen de grootte zoals nodig.](assets/resize-icon.png)
 
 1. Herhaal stap 4-5 voor elke widget die u opnieuw wilt rangschikken.
 

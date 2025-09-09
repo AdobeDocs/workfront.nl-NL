@@ -18,8 +18,8 @@ ht-degree: 0%
 >[!IMPORTANT]
 >
 >De functie Canvasdashboards is momenteel alleen beschikbaar voor gebruikers die deelnemen aan de bètafase. Onderdelen van het onderdeel zijn mogelijk niet compleet of werken niet zoals bedoeld in deze fase. Gelieve te dienen om het even welke terugkoppelen betreffende uw ervaring door de instructies in [ te volgen verstrekt ](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) sectie in het de bètaoverzichtsartikel van de dashboards van het Canvas.<br>
->>Als u feedback hebt over een mogelijk probleem met een probleem of een technisch probleem, stuurt u een ticket naar Workfront Support. Voor meer informatie, zie [ de Steun van de Klant van het Contact ](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
->>Deze bètaversie is niet beschikbaar op de volgende cloudproviders:
+>&#x200B;>Als u feedback hebt over een mogelijk probleem met een probleem of een technisch probleem, stuurt u een ticket naar Workfront Support. Voor meer informatie, zie [ de Steun van de Klant van het Contact ](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
+>&#x200B;>Deze bètaversie is niet beschikbaar op de volgende cloudproviders:
 >
 >* Je eigen sleutel voor Amazon Web Services
 >* Azure
@@ -80,7 +80,7 @@ Voor meer informatie, zie [ een Dashboard van het Canvas ](/help/quicksilver/rep
 >[!WARNING]
 >
 > Zodra een dashboard wordt geschrapt, kunnen het dashboard en elk van zijn aangepaste rapporten en/of visualisaties niet worden teruggekregen.<br>
-> > Als u een dashboard verwijdert dat een klassiek rapport bevat, wordt het klassieke rapport niet verwijderd.
+> &#x200B;> Als u een dashboard verwijdert dat een klassiek rapport bevat, wordt het klassieke rapport niet verwijderd.
 
 {{step1-to-dashboards}}
 
