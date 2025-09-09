@@ -6,9 +6,9 @@ description: U kunt een lijstrapport aan een Dashboard van het Canvas toevoegen 
 author: Courtney and Jenny
 feature: Reports and Dashboards
 exl-id: a7aa8614-6e80-4fc1-88ff-d952d87ddcbc
-source-git-commit: d76ad0d51f28191cbd04af950e10a2247414830e
+source-git-commit: 56d0b9281387cc7b35055461e7868c7e4a194f81
 workflow-type: tm+mt
-source-wordcount: '1045'
+source-wordcount: '1070'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,8 @@ ht-degree: 0%
 >[!IMPORTANT]
 >
 >De functie Canvasdashboards is momenteel alleen beschikbaar voor gebruikers die deelnemen aan de bètafase. Onderdelen van het onderdeel zijn mogelijk niet compleet of werken niet zoals bedoeld in deze fase. Gelieve te dienen om het even welke terugkoppelen betreffende uw ervaring door de instructies in [ te volgen verstrekt ](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) sectie in het de bètaoverzichtsartikel van de dashboards van het Canvas.<br>
->&#x200B;>Deze bètaversie is niet beschikbaar op de volgende cloudproviders:
+>>Als u feedback hebt over een mogelijk probleem met een probleem of een technisch probleem, stuurt u een ticket naar Workfront Support. Voor meer informatie, zie [ de Steun van de Klant van het Contact ](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
+>>Deze bètaversie is niet beschikbaar op de volgende cloudproviders:
 >
 >* Je eigen sleutel voor Amazon Web Services
 >* Azure
@@ -78,7 +79,7 @@ Er zijn vele configuratieopties beschikbaar voor het bouwen van een lijstrapport
 
 1. Klik **Nieuw Dashboard** in de hoger-juiste hoek.
 
-1. In **creeer dashboard** doos, ga de 2&rbrace; Naam van het dashboard **en** Beschrijving **in.**
+1. In **creeer dashboard** doos, ga de 2} Naam van het dashboard **en** Beschrijving **in.**
 
 1. Klik **creëren**.
 
@@ -116,7 +117,7 @@ Er zijn vele configuratieopties beschikbaar voor het bouwen van een lijstrapport
 
 1. Volg hieronder de stappen om de **sectie van de Montages van de Groep van de Drilldown** te vormen:
 
-   1. In het linkerpaneel, klik het **&#x200B;**&#x200B;pictogram van de montages van de Groep ![ van de Montages van de Groep ](assets/drilldown-group-icon.png).
+   1. In het linkerpaneel, klik het **** pictogram van de montages van de Groep ![ van de Montages van de Groep ](assets/drilldown-group-icon.png).
 
    1. Klik **toevoegen groeperend** knoop en dan het gebied selecteren u als groepering wilt tot stand brengen. De kolom voor cijfergroepering wordt weergegeven in de voorbeeldsectie aan de rechterkant.
 
@@ -134,7 +135,7 @@ Voor meer informatie over de voorbeelden van het lijstrapport, zie [ een rapport
 
 1. Klik **Nieuw Dashboard** in de hoger-juiste hoek.
 
-1. In **creeer dashboard** doos, ga de 2&rbrace; Naam van het dashboard **en** Beschrijving **in.**
+1. In **creeer dashboard** doos, ga de 2} Naam van het dashboard **en** Beschrijving **in.**
 
 1. Klik **creëren**.
 
@@ -192,7 +193,7 @@ Voor meer informatie over de voorbeelden van het lijstrapport, zie [ een rapport
 
 
 1. Volg hieronder de stappen om de **sectie van de Filter** te vormen:
-   1. In het linkerpaneel, klik het **&#x200B;**&#x200B;pictogram van het filterlusje van de Filter ![ pictogram.](assets/filter-tab.png)
+   1. In het linkerpaneel, klik het **** pictogram van het filterlusje van de Filter ![ pictogram.](assets/filter-tab.png)
    1. Klik **uitgeven Filter**, dan **voeg voorwaarde** toe.
    1. Klik in de lege voorwaardenfilter, dan klik **kiezen een Gebied**.
    1. Selecteer **Status**.
