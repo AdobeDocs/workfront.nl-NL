@@ -3,12 +3,12 @@ product-area: timesheets;system-administration
 navigation-topic: create-and-manage-timesheets
 title: Werkbladprofielen maken, bewerken en toewijzen
 description: U kunt timesheet-profielen maken, bewerken en toewijzen die terugkerende tijdbladen voor uw gebruikers genereren zonder tussenkomst van u. Zo bespaart u tijd en bent u verzekerd van consistentie tussen gebruikers.
-author: Alina
+author: Lisa
 feature: Timesheets
 exl-id: 8f4826bd-82b4-4157-a7d4-a7c94b8fc879
-source-git-commit: a4bb3582eb476acbefa5d11db1f2c06eafc13cdd
+source-git-commit: 5590477efa2beb6590581ce9e5e33e264fb95390
 workflow-type: tm+mt
-source-wordcount: '1604'
+source-wordcount: '1610'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,8 @@ ht-degree: 0%
 # Werkbladprofielen maken, bewerken en toewijzen
 
 <!--Audited: 06/2025-->
+
+<!--at the Prod release, remove the Production and Preview references from this article-->
 
 <!--<div class="preview">
 
@@ -91,10 +93,10 @@ Voor meer informatie over het creëren van manueel timesheet, zie [ een enig-geb
 
    Om een bestaand timesheet profiel uit te geven, selecteer het timesheet profiel u wilt uitgeven, dan klik **uitgeven**.
 
-   Het nieuwe of bestaande tijdbladprofiel wordt weergegeven.
+   De nieuwe of bestaande pagina van het timesheet- profiel toont.
 
 
-1. Klik het **Vastgestelde Details** lusje, dan werk de volgende informatie bij:
+1. Klik het **Vastgestelde Details** lusje, dan werk de volgende informatie bij: <!-- at the Production release, change the order of some of these rows, as they changed in the unshimmed UI-->
 
    <table style="table-layout:auto"> 
     <col> 
@@ -102,7 +104,7 @@ Voor meer informatie over het creëren van manueel timesheet, zie [ een enig-geb
     <tbody> 
      <tr> 
       <td role="rowheader"><strong> Naam </strong> </td> 
-      <td> <p> Voeg een naam voor het timesheet profiel toe. Het zou de naam van een team of een groep kunnen zijn waarvan de mensen het zelfde tijdsbestek voor hun timesheets delen. </p> </td> 
+      <td> <p> Voeg een naam voor het timesheet profiel toe. Het zou de naam van een team of een groep kunnen zijn waarvan de mensen het zelfde tijdsbestek voor hun timesheets delen. </p> <p>Dit is een verplicht veld.</p> </td> 
      </tr>
 
    <tr> 
@@ -111,10 +113,8 @@ Voor meer informatie over het creëren van manueel timesheet, zie [ een enig-geb
       </p> </td> 
      </tr>
 
-
-
    <tr> 
-      <td role="rowheader"><strong> Groep met de Toegang van het Beleid </strong> </td> 
+   <td role="rowheader"><strong> Groep met de Toegang van het Beleid </strong> </td> 
       <td> <p> 
       <ul> 
       <li> <p>Laat dit veld leeg als u een tijdbladprofiel op systeemniveau maakt.</p> <p>Om het even welke gebruiker die gebruikersrekeningen kan uitgeven kan een systeem-vlakke timesheet aan andere gebruikers vastmaken.</p> <p>Alleen een Workfront-beheerder kan een tijdbladprofiel op systeemniveau bewerken.</p> </li> 
@@ -132,7 +132,7 @@ Voor meer informatie over het creëren van manueel timesheet, zie [ een enig-geb
 
 
    <p><b> NOTA </b>: Workfront leidt altijd tot twee timesheets in een tijd: eerste timesheet omvat altijd de huidige datum, en tweede timesheet begint wanneer het tijdkader van eerste beëindigt.</p> </p> </td> 
-    </tr> 
+   </tr> 
      <tr> 
       <td role="rowheader"><p><strong>Fiatteurs</strong></p> </td> 
       <td> <p> <p>Approvers zijn gebruikers die timesheet voor de gebruikers goedkeuren verbonden aan timesheet. U kunt maximaal 7 gebruikers identificeren als fiatteurs op een timesheet. Het identificeren van veelvoudige gebruikers is nuttig om een fiatteur beschikbaar te verzekeren wanneer iemand uit het bureau is. Alle fiatteurs worden op de hoogte gesteld wanneer een gebruiker het tijdspad ter goedkeuring indient. Slechts één gebruiker wordt vereist om timesheet goed te keuren om het te worden goedgekeurd.</p> <p>Alleen gebruikers met beheerdersrechten voor tijdschriften kunnen worden ingesteld als fiatteurs. Voor meer informatie over timesheet administratieve rechten, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref"> gebruikers administratieve toegang van de Verlening tot bepaalde gebieden </a>.</p> <p>Gebruik het drop-down menu om fiatteur voor timesheet (als een fiatteur wordt vereist) te selecteren. U kunt uit de volgende opties selecteren:</p> 
@@ -146,9 +146,9 @@ Voor meer informatie over het creëren van manueel timesheet, zie [ een enig-geb
       <td role="rowheader"><strong> Kan tijd bewerken </strong> </td> 
       <td> <p> <p>Selecteer deze optie als de fiatteurs de uren op het tijdblad mogen bewerken.
 
-   Deze optie werkt samen met **beperkt timesheet het uitgeven aan eigenaars en beheert** plaatsen in de Opstelling > de Tijdopmaak &amp; het gebied van de Uren > van de Voorkeur. Voor meer informatie, zie <a href="../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md"> timesheet en uurvoorkeur </a> vormen.
+   <p>Deze optie werkt samen met de instelling **Tijdschema's bewerken beperken tot eigenaars en beheerders** in het gebied Voorkeuren &gt; Instellen &gt; Timesheet &amp; uur. Voor meer informatie, zie <a href="../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md"> timesheet en uurvoorkeur </a> vormen.</p>
 
-   De volgende scenario&#39;s bestaan:
+   <p>De volgende scenario's bestaan: </p>
 
    <ul>
       <li>Wanneer <b> timesheet het uitgeven aan eigenaars en beheert </b> optie wordt toegelaten:</li>
@@ -182,7 +182,11 @@ Voor meer informatie over het creëren van manueel timesheet, zie [ een enig-geb
     </tbody> 
     </table>
 
-1. Klik **toewijzen de Mensen** tabel om het timesheet profiel met specifieke gebruikers, groepen, of (als u een beheerder van Workfront) teams bent te associëren. Typ de naam van de gebruiker, groep of team en klik vervolgens op de naam wanneer deze in de vervolgkeuzelijst wordt weergegeven.
+1. <!--In the Production environment, or when creating group-level timesheet profiles,--> Klik **toewijzen de Mensen** tabel om het timesheet profiel met specifieke gebruikers, groepen, of (als u een beheerder van Workfront) teams bent te associëren. <!--Keep the reference to the group upon release to Prod-->
+
+   <!--<span class="preview">In the Preview environment when creating timesheet profiles for the system, scroll towards the bottom of the page to find the Assign People section.</span>--> <!--Keep the reference to the system when releasing to Prod-->
+
+   Typ de naam van de gebruiker, groep of team en klik vervolgens op de naam wanneer deze in de vervolgkeuzelijst wordt weergegeven.
 
    Als u een groepsbeheerder bent, kunt u het timesheet-profiel toewijzen aan groepen die u beheert, maar niet aan teams. Voor meer informatie, zie [ Beperkingen voor een groepsbeheerder die een timesheet profiel ](#limitations-for-a-group-administrator-assigning-a-timesheet-profile) in dit artikel toewijst.
 
@@ -229,4 +233,4 @@ U kunt meer dan één timesheet profiel voor uw organisatie hebben als er zijn:
 * Unieke fiatteurs voor verschillende groepen gebruikers
 * Unieke algemene urenvereisten voor verschillende gebruikersgroepen
 
-Eén gebruiker kan niet aan meerdere tijdlijnprofielen tegelijk worden gekoppeld. 
+Eén gebruiker kan niet aan meerdere tijdlijnprofielen tegelijk worden gekoppeld.

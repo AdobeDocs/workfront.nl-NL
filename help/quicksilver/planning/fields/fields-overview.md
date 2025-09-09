@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: a1ad5ada-5010-4dec-934e-a49a3e28aa5f
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: 3667359ba2c6ea0aab3ce6845f1a537183f304ec
 workflow-type: tm+mt
-source-wordcount: '444'
+source-wordcount: '481'
 ht-degree: 0%
 
 ---
@@ -94,3 +94,5 @@ U kunt nieuwe gebieden in de Planning van Adobe Workfront toevoegen die op de le
 * Veldnamen kunnen maximaal 250 tekens bevatten.
 
 * Wanneer u een recordtype of werkruimte verwijdert, worden ook alle bijbehorende velden en de waarden van de velden verwijderd en kunnen deze niet worden hersteld. <!-- this might change with a possible recycle bin solution?!-->
+* Wanneer u velden verwijdert die deel uitmaken van een formule-expressie, verandert het veld van de formule.
+* Wanneer u een formule-expressie wijzigt en er in andere formulevelden naar wordt verwezen, heeft dit ook invloed op de aanvullende formules.

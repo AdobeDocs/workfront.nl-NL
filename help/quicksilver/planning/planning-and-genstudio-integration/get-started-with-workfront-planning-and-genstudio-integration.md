@@ -4,9 +4,9 @@ description: De GenStudio for Performance Marketing-werkruimte is beschikbaar in
 hide: true
 hidefromtoc: true
 exl-id: 3b2fc764-f384-41bb-9d88-b2b88434ffc6
-source-git-commit: 9b95b5a52576327a3df8d6955925b96c2e45848f
+source-git-commit: 3667359ba2c6ea0aab3ce6845f1a537183f304ec
 workflow-type: tm+mt
-source-wordcount: '1855'
+source-wordcount: '1899'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ Uw organisatie moet voldoen aan de volgende vereisten voor de integratie tussen 
 
 * Workfront en GenStudio for Performance Marketing moeten worden ingeschakeld bij dezelfde organisatie.
 
-  Voor meer informatie over GenStudio, zie {de Gids van de Gebruiker van 0} Adobe GenStudio for Performance Marketing [.](https://experienceleague.adobe.com/nl/docs/genstudio-for-performance-marketing/user-guide/home)
+  Voor meer informatie over GenStudio, zie {de Gids van de Gebruiker van 0} Adobe GenStudio for Performance Marketing [.](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/home)
 
 <!--No longer the case: * Your organization must have only one Workfront instance. GenStudio will not be available in Workfront Planning when your company has multiple Workfront instances. -->
 
@@ -103,7 +103,7 @@ Uw organisatie moet voldoen aan de volgende vereisten voor de integratie tussen 
    <td role="rowheader"><p>Adobe GenStudio for Performance Marketing-gebruikersrollen</p></td> 
    <td><p><ul><li>Elke GenStudio-gebruikersrol voor toegang tot campagnes, producten en persoonlijke instellingen</li>
    <li>GenSudio System Manager toegang tot activeringen en gebeurtenissen</li></ul>
-   Voor informatie, zie <a href="https://experienceleague.adobe.com/nl/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles"> de rollen en de toestemmingen van de Gebruiker </a>. 
+   Voor informatie, zie <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles"> de rollen en de toestemmingen van de Gebruiker </a>. 
    </p>
   </td> 
   </tr>   
@@ -127,7 +127,7 @@ Uw organisatie moet voldoen aan de volgende vereisten voor de integratie tussen 
 
 Voor informatie over de toegang van de Planning van Adobe Workfront, zie [ Adobe Workfront het toegangsoverzicht van de Planning ](/help/quicksilver/planning/access/access-overview.md).
 
-Voor meer informatie over Adobe GenStudio for Performance Marketing, zie {de Gids van de Gebruiker van 0} Adobe GenStudio for Performance Marketing [.](https://experienceleague.adobe.com/nl/docs/genstudio-for-performance-marketing/user-guide/home)
+Voor meer informatie over Adobe GenStudio for Performance Marketing, zie {de Gids van de Gebruiker van 0} Adobe GenStudio for Performance Marketing [.](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/home)
 
 
 ## Overzicht van de integratiemogelijkheden van Workfront Planning and GenStudio for Performance Marketing
@@ -146,15 +146,18 @@ Afhankelijk van het aantal Workfront-instanties in uw organisatie, hebt u automa
     <td role="rowheader"><p>Eén exemplaar van Workfront</p></td> 
    <td> 
 <p>De GenStudio-werkruimte is zichtbaar in uw exemplaar van Workfront Planning</p>
-<p>Workfront-beheerders hebben beheerdersmachtigingen voor de GenStudio-werkruimte in Planning</p>
-<p>Alle andere gebruikers hebben Contribute toegang tot de GenStudio-werkruimte bij het plannen</p>
+<p>Alle gebruikers, inclusief Workfront-beheerders, hebben standaard Contribute-toegang tot de GenStudio-werkruimte in Planning</p>
+<p>Workfront-beheerders kunnen beheermachtigingen in de GenStudio-werkruimte wijzigen en aan iedereen verlenen</p>
 </td> </tr>
    <tr> 
 <td> 
    <p> Meerdere versies van Workfront</p> </td> 
    <td> 
    <p>De GenStudio-werkruimte is zichtbaar vanuit alle Workfront-instanties</p>
-<p>Alle gebruikers met toegang tot GenStudio for Performance Marketing en Workfront Planning beschikken over Contribute-machtigingen voor de GenStudio in Planning</p> </td> 
+<p>Alle gebruikers met toegang tot GenStudio for Performance Marketing en Workfront Planning beschikken standaard over Contribute-machtigingen voor de GenStudio in Planning.</p> 
+<p>Workfront-beheerders kunnen aan niemand de machtiging Beheren verlenen aan de GenStudio-werkruimte</p>
+
+</td> 
   </tr>
    </tbody> 
 </table>
@@ -199,6 +202,8 @@ In de onderstaande secties wordt het volgende beschreven:
    * Gegevens over GenStudio-recordtypen bewerken (weergave, geavanceerde instellingen).
    * GenStudio-recordtypen delen met anderen.
    * Recordtypen maken. Deze recordtypen blijven alleen beschikbaar in Workfront Planning. Ze worden niet weergegeven in GenStudio.
+   * Schakel records in de GenStudio-werkruimte in om verbinding te maken met andere werkruimten.
+   * Hiermee kunnen records uit de GenStudio-werkruimte worden toegevoegd aan andere werkruimten.
 * Als u over Contribute-machtigingen voor de GenStudio-werkruimte in Planning beschikt, kunt u de GenStudio-recordtypen niet wijzigen vanuit Planning.
 
 ### Records in de GenStudio-werkruimte
