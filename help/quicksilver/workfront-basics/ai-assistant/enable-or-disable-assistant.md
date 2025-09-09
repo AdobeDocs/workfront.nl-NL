@@ -5,9 +5,9 @@ description: U kunt bepalen welke toegangsniveaus in uw organisatie toegang hebb
 author: Becky
 feature: Get Started with Workfront
 exl-id: eec9f484-e29b-4256-b9ef-b45eb2e78eac
-source-git-commit: d5693657695b2c0e89a69afc8cf90b34d2036f3e
+source-git-commit: d929599ccdbfb90d731a3dfb9d83d3eb54d345ea
 workflow-type: tm+mt
-source-wordcount: '245'
+source-wordcount: '213'
 ht-degree: 0%
 
 ---
@@ -60,6 +60,3 @@ AI-assistent inschakelen voor een bepaald toegangsniveau:
 1. Klik **sparen**.
 1. Herhaal stap 3-5 voor elk toegangsniveau u AI Medewerker voor wilt toelaten.
 
->[!NOTE]
->
->Wanneer AI-functies aan Workfront worden toegevoegd, zullen sommige AI-functies de basis vormen voor de werking van Workfront. De mogelijkheid om alle AI-functies uit te schakelen wordt in de nabije toekomst waarschijnlijk verouderd.
