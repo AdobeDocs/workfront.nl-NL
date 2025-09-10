@@ -6,14 +6,16 @@ description: Naast het gebruik van de beschikbare concepten die Workfront u voor
 author: Alina
 feature: Work Management
 exl-id: 664004e7-04c8-4a1f-b682-7b82d349643d
-source-git-commit: 0ffae8ed285f6e9164a239552feb90465bea3cca
+source-git-commit: 2c2ccbadd6470773808bbd5a205310fbb1e1944e
 workflow-type: tm+mt
-source-wordcount: '599'
+source-wordcount: '687'
 ht-degree: 0%
 
 ---
 
 # Verzoeken maken op basis van concepten
+
+<span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>
 
 Naast het gebruik van de beschikbare concepten die Workfront u voorstelt wanneer u een nieuw verzoek invoert, kunt u ook een conceptverzoek vanuit de sectie Concepten openen en de aanvraag van daaruit voltooien.
 
@@ -105,3 +107,9 @@ U moet het volgende doen alvorens u een verzoek van een ontwerp kunt tot stand b
      ![](assets/nwe-submit-close-discard-draft-buttons-on-new-request-350x340.png)
 
      Wanneer u het verzoek indient, wordt het concept verwijderd en kan het niet worden hersteld.
+
+   >[!NOTE]
+   >
+   >* <span class="preview"> in de nieuwe het vragen ervaring, zijn de concepten in de zelfde lijst zoals voorgelegde verzoeken.</span>
+   ><span class="preview"> voor meer informatie bij het creëren van verzoeken in de nieuwe ervaring, zie [ verzoeken creëren en ontwerpen in het Web van Workfront produceren app ](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md#create-requests-and-generate-drafts-in-the-workfront-web-app) in het artikel creëren en verzoeken voorleggen.</span>
+

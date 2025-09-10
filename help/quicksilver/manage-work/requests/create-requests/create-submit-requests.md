@@ -6,9 +6,9 @@ description: Geplande werkzaamheden worden in Adobe Workfront vertegenwoordigd d
 author: Alina
 feature: Work Management
 exl-id: 8b023a3d-326d-4d63-9e1e-8171553a9e23
-source-git-commit: b24b1e481bbe726aaf9810124fcf55bdac866cb0
+source-git-commit: 2c2ccbadd6470773808bbd5a205310fbb1e1944e
 workflow-type: tm+mt
-source-wordcount: '2841'
+source-wordcount: '2856'
 ht-degree: 0%
 
 ---
@@ -163,6 +163,7 @@ Een aanvraag maken in de Workfront-webapp:
    >* <span class="preview"> de lijst omvat zowel de verzoekrijen van Workfront als de verzoekvormen van de Planning van Workfront.</span>
    >* <span class="preview"> u kunt de lijst door objecten type filtreren.</span>
    >* <span class="preview"> om slechts de rijen van het Verzoek van Workfront te tonen, filter voor `Issue` objecten types.</span>
+   >* <span class="preview"> in de nieuwe het vragen ervaring, worden de ontwerpen gevonden in de zelfde lijst zoals voorgelegde verzoeken.</span>
 
 1. (Voorwaardelijk) als u op de nieuwe ervaring schakelde die de Planning van Workfront omvat, uw onderwerpgroepen en rijonderwerpen selecteert en blijft het formulier bijwerken.
 
