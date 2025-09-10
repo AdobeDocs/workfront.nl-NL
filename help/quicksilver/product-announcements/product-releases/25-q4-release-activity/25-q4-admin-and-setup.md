@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: d560a3b7-81a0-41b2-a40e-81c784a42bf6
-source-git-commit: a4aa7a6f8909dc3f7212f78391f28068d50a2786
+source-git-commit: 2bcba734ebfa8efbef8f401394a576c59ae22d5d
 workflow-type: tm+mt
-source-wordcount: '398'
+source-wordcount: '408'
 ht-degree: 0%
 
 ---
@@ -35,6 +35,11 @@ Voor meer informatie bij het plaatsen van systeemvoorkeur, zie [ systeemvoorkeur
 Voor eerste vereisten aan het toelaten van AI eigenschappen, zie [ Vereisten aan AI Medewerker ](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant).
 
 ## Updates voor het Workfront-gebruikersprofiel
+
+>[!IMPORTANT]
+>
+>Deze update is tijdelijk verwijderd uit Voorvertoning en Productie.
+
 
 >[!NOTE]
 >
