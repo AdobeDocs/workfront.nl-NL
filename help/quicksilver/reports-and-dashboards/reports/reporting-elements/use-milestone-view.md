@@ -168,7 +168,7 @@ Wanneer het bekijken van een projectlijst of een projectrapport in de mening van
 
   U kunt deze statuspictogrammen van worden getoond onbruikbaar maken, zoals die in de sectie [ wordt beschreven vormt welke informatie in de mening van de Mijlpaal ](#configure-what-information-displays-in-the-milestone-view) in dit artikel toont.
 
-  Voor meer gedetailleerde informatie over elk statustype, zie het overzicht van de Status van de Voortgang van de taak van artikel [ ](../../../manage-work/tasks/task-information/task-progress-status.md).
+  Voor meer gedetailleerde informatie over elk statustype, zie het overzicht van de Status van de Voortgang van de taak van artikel [&#128279;](../../../manage-work/tasks/task-information/task-progress-status.md).
 
 * **de status die van de Taak voor voltooide taken** wordt in de schaduw gesteld: Nadat een taak voltooid is, wordt de achtergrond van de taak gearceerd in de mening van de Mijlpaal om erop te wijzen of de taak op tijd of laat werd voltooid:
 
@@ -240,7 +240,7 @@ Om te vormen of de pictogrammen van de projectstatus en voltooiingspercentage va
 1. Klik het **drop-down menu van de Mening**, dan klik **Mijlpaal**.
    <!--No longer available: If you are viewing a list of projects inside a Portfolio or a Program, select the **Milestone** subtab.  -->
 
-1. <!--In the Production environment,--> Klik **Opties** in de hoger-juiste hoek van de mening van de Mijlpaal.
+1. &#x200B;<!--In the Production environment,--> Klik **Opties** in de hoger-juiste hoek van de mening van de Mijlpaal.
 
    <!--<div class="preview">In the Preview environment, select from the options in the next step, from the upper-right corner of the Milestone view.</div>-->
 
@@ -277,6 +277,6 @@ Om het percentage aan te passen volledig voor een taak in de mening van de Mijlp
 
 1. (Voorwaardelijk) als de voltooiingspercentages niet huidig zijn die in de mening van de Mijlpaal tonen, laat het bekijken van Percentage van taken en projecten toe, zoals die in de sectie [ worden beschreven vormt welke informatievertoningen in de mening van de Mijlpaal ](#configure-what-information-displays-in-the-milestone-view) in dit artikel.
 
-1. <!--In the Production environment,--> Klik op het voltooiingspercentage onder een taak, geef een nieuw percentage op en druk op Enter.
+1. &#x200B;<!--In the Production environment,--> Klik op het voltooiingspercentage onder een taak, geef een nieuw percentage op en druk op Enter.
 
    <!--<div class="preview">In the Preview environment, move the Percent Complete slide to the new percent complete to update it. </div>-->
