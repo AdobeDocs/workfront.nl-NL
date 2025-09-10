@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bd73b7df-ad4e-43dc-8ddf-23e0da24ec0f
-source-git-commit: f9e1bfc5670754a8fc4aafb360b41c2721de4154
+source-git-commit: a6aa03157d44da8267faaa77bed83f07a03a24b3
 workflow-type: tm+mt
-source-wordcount: '318'
+source-wordcount: '341'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ Deze update bevat ook wijzigingen in de vormgeving van de pagina.
 
 Houd rekening met het volgende wanneer u de nieuwe aanvraagervaring gebruikt:
 
-* Concepten staan nu in dezelfde lijst als de ingediende aanvragen
+* Concepten kunt u momenteel alleen vinden in de oudere toepassing waarin u een aanvraag indient. In de nieuwe ervaring kunt u concepten alleen zien in een werkstroomwachtrij als u een concept in hetzelfde pad hebt.
 * De nieuwe ervaring toont momenteel slechts verzoeken die in de afgelopen 1.5 maanden worden gecreeerd. Om oudere verzoeken te zien, kunt u de nieuwe ervaring tijdelijk onbruikbaar maken en tot de oudere verzoeken door de oude ervaring toegang hebben.
 
 Eerder stonden Workfront- en Workfront-planningsverzoeken op aparte tabbladen en konden de filters niet worden aangepast.
