@@ -7,9 +7,9 @@ feature: Get Started with Workfront
 exl-id: e4d200c6-7f35-4919-96d3-2880a655ed62
 hide: true
 hidefromtoc: true
-source-git-commit: 97b2118b1897f75dea0e45758e3d7f7c3409b234
+source-git-commit: 16e8213197e881d4d7b1a4b1bf8d3a43438ab938
 workflow-type: tm+mt
-source-wordcount: '1862'
+source-wordcount: '1488'
 ht-degree: 0%
 
 ---
@@ -121,18 +121,47 @@ Hieronder ziet u de beschikbare voorwaarden die AI Assistant aan uw project of p
     <tr>
         <td><b>Projectvoorwaarde</b></td>
         <td><b>Voortgang van project</b></td>
+        <td><b>Projectvoorwaardelementen</b></td>
     </tr>
     <tr>
         <td>Op doel</td>
-        <td>Wanneer de de Voortgangsstatus van het project op Tijd is, is de projectvoorwaarde op Doel.</td>
+        <td>Deze analyse wordt toegepast wanneer het gemiddelde risiconiveau voor de volgende factoren binnen de gezonde drempel valt.
+        </td>
+        <td> 
+        <ul><li>kneep</li>
+        <li>Ontbrekende velden</li>
+        <li>Wijzigingen plannen</li>
+        <li>Onderschat werk</li>
+        <li>Voortgang van project</li>
+        <li>Achterstallige taken</li>
+        <li>Begroting</li>
+        </ul></td>
     </tr>
     <tr>
         <td>Risico</td>
-        <td>Wanneer de de Voortgangsstatus van het project achter of op Risico is, is de projectvoorwaarde Op Risico.</td>
+        <td>Deze analyse wordt toegepast wanneer het gemiddelde risiconiveau voor de volgende factoren net onder de gezonde drempel daalt.</td>
+        <td>
+        <ul><li>kneep</li>
+        <li>Ontbrekende velden</li>
+        <li>Wijzigingen plannen</li>
+        <li>Onderschat werk</li>
+        <li>Voortgang van project</li>
+        <li>Achterstallige taken</li>
+        <li>Begroting</li>
+        </ul></td>
     </tr>
     <tr>
         <td>In problemen</td>
-        <td>Wanneer de de Voortgangsstatus van het project te laat is, is de projectvoorwaarde Op Risico.</td>
+        <td>Deze analyse wordt toegepast wanneer het gemiddelde risiconiveau voor de volgende factoren onder de gezonde drempel daalt.</td>
+        <td>
+        <ul><li>kneep</li>
+        <li>Ontbrekende velden</li>
+        <li>Wijzigingen plannen</li>
+        <li>Onderschat werk</li>
+        <li>Voortgang van project</li>
+        <li>Achterstallige taken</li>
+        <li>Begroting</li>
+        </ul></td>
     </tr>
     </tr>
    </table>
@@ -193,7 +222,7 @@ Zodra een beheerder een configuratie van de Gezondheid van het Project heeft gec
 
 1. In het linkerpaneel, uitgezochte **Montages van het Project**.
 
-1. Op het **gebied van de Configuratie van de Gezondheid van het 0&rbrace; Project, selecteer de configuratie u op dit project wilt toepassen.**
+1. Op het **gebied van de Configuratie van de Gezondheid van het 0} Project, selecteer de configuratie u op dit project wilt toepassen.**
 
    ![ gebied van de Configuratie van de Gezondheid van het Project ](assets/project-health-configurations.png)
 
@@ -264,57 +293,60 @@ Een project wordt alleen opgenomen in de gecombineerde projectevaluatie als het 
 
 1. Na het herzien van de de gezondheidsdetails van projecten, klik het **dichte pictogram** dicht pictogram ![ in de hoger-juiste hoek van AI Medewerker om het te sluiten.](assets/close-icon.png)
 
+<!--
 
-## Een rapport met een projectgezondheidstabel maken op een Canvasdashboard
+## Build a Project Health table report in a Canvas Dashboard
 
 >[!IMPORTANT]
 >
->De functie Canvasdashboards is momenteel alleen beschikbaar voor gebruikers die deelnemen aan de bètafase. Voor meer informatie, zie {de bètainformatie van de Dashboards van het 0} Canvas [.](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md)
+>The Canvas Dashboards feature is currently only available for users participating in the beta stage. For more information, see [Canvas Dashboards beta information](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md). 
 
-U kunt een lijstrapport aan een Dashboard van het Canvas toevoegen om uw gegevens van de Gezondheid van het Project in een lijstformaat gemakkelijk te visualiseren.
+You can add a table report to a Canvas Dashboard in order to easily visualize your Project Health data in a table format.  
 
-### Vereisten
+### Prerequisites 
 
-U moet een dashboard tot stand brengen alvorens u een lijstrapport kunt bouwen.
+You must create a dashboard before you can build a table report. 
 
-Voor meer, zie [ een Dashboard van het Canvas ](/help/quicksilver/reports-and-dashboards/canvas-dashboards/create-dashboards/create-dashboards.md) creëren.
+For more, see [Create a Canvas Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/create-dashboards/create-dashboards.md).
 
-### Een rapport met een projectgezondheidstabel samenstellen
+### Build a Project Health table report 
 
-Er zijn vele configuratieopties beschikbaar voor de bouw van een de lijstrapport van de Gezondheid van het Project. In deze sectie, zullen wij u door het proces lopen om één tot stand te brengen die de volgende kolommen toont:
+There are many configuration options available for building a Project Health table report. In this section, we'll walk you through the process of creating one that displays the following columns: 
 
-* **Naam**: Bevat de projectnaam.
-* **Analyse van de Gezondheid van het Project**: Bevat een samenvatting van de beoordeling van de Gezondheid van het Project.
-* **Gezondheid van het Project creeerde bij**: Bevat de datum/de tijd toen de beoordeling van de Gezondheid van het Project het laatst werd geproduceerd.
-* **Etiket van de Gezondheid van het Project**: Bevat het etiket van het project (b.v. Op streefwaarde, Risico, of in problemen).
+* **Name**: Contains the project name. 
+* **Project Health Analysis**: Contains a summary of the Project Health assessment. 
+* **Project Health Created At**: Contains the date/time when the Project Health assessment was last generated. 
+* **Project Health Label**: Contains the project's label (e.g. On Target, At Risk, or In Trouble).
 
 {{step1-to-dashboards}}
 
-1. In het linkerpaneel, klik **de Dashboards van het Canvas**.
-1. In de hoger-juiste hoek, klik **Nieuw Dashboard**.
-1. In **creeer dashboard** doos, ga de 2&rbrace; Naam van het dashboard **en** Beschrijving **in.**
-1. Klik **creëren**.
-1. In **voeg rapport** doos toe, uitgezocht **creeer rapport**.
-1. Voor de linkerkant, uitgezochte **Lijst**.
-1. In de hoger-juiste hoek, klik **creëren rapport**.
-1. (Facultatief) volg de stappen hieronder om de **het pictogram van Details** ![ ](assets/details-icon.png) sectie van Details te vormen:
-   1. Ga een rapport **Naam** in.
-   1. Ga een rapport **Beschrijving** in.
-1. Volg hieronder de stappen om de **bouwt lijst** ![ bouwt lijstpictogram ](assets/drilldown-column.png) sectie te vormen:
-   1. In het linkerpaneel, klik het **kolommen van de Lijst** pictogram.
-   1. Klik **toevoegen kolom**, dan selecteren **Project** > **Naam**.
-   1. Klik **toevoegen kolom**, dan selecteren **Project** > **Gezondheid van het Project** > **de Analyse van de Gezondheid**.
-   1. Klik **toevoegen kolom**, dan uitgezocht **Project** > **Gezondheid van het Project** > **creeerde bij**.
-   1. Klik **toevoegen kolom**, dan selecteren **Project** > **Gezondheid van het Project** > **Etiket van de Gezondheid**.
+1. In the left panel, click **Canvas Dashboards**. 
+1. In the upper-right corner, click **New Dashboard**. 
+1. In the **Create dashboard** box, enter the dashboard's **Name** and **Description**. 
+1. Click **Create**. 
+1. In the **Add report** box, select **Create report**. 
+1. On the left side, select **Table**. 
+1. In the upper-right corner, click **Create report**. 
+1. (Optional) Follow the steps below to configure the **Details** ![Details icon](assets/details-icon.png) section: 
+    1. Enter a report **Name**. 
+    1. Enter a report **Description**. 
+1. Follow the steps below to configure the **Build table** ![Build table icon](assets/drilldown-column.png) section: 
+    1. In the left panel, click the **Table columns** icon. 
+    1. Click **Add column**, then select **Project** > **Name**. 
+    1. Click **Add column**, then select **Project** > **Project Health** > **Health Analysis**. 
+    1. Click **Add column**, then select **Project** > **Project Health** > **Created At**. 
+    1. Click **Add column**, then select **Project** > **Project Health** > **Health Label**. 
 
-1. Volg hieronder de stappen om de **&#x200B;**&#x200B;het pictogram van de Filter ![ sectie te vormen van de Filter ](assets/filter-icon.png) &lbrace;:
-   1. In het linkerpaneel, klik het **pictogram van de Filter**.
-   1. Selecteer **filter uitgeven**.
-   1. Klik **toevoegen voorwaarde** en specificeer dan het gebied u tegen en de bepaling wilt filtreren die bepaalt welk soort voorwaarde het gebied moet ontmoeten. De kolom verschijnt in de voorproefsectie op het recht.
-   1. (Facultatief) klik **toevoegen filtergroep** om een andere reeks het filtreren criteria toe te voegen. De standaardoperator tussen de sets is AND. Klik op de operator om deze te wijzigen in OR.
+1. Follow the steps below to configure the **Filter** ![Filter icon](assets/filter-icon.png) section: 
+    1. In the left panel, click the **Filter** icon. 
+    1. Select **Edit filter**. 
+    1. Click **Add condition** and then specify the field you want to filter by and the modifier that defines what kind of condition the field must meet. The column appears in the preview section on the right.
+    1. (Optional) Click **Add filter group** to add another set of filtering criteria. The default operator between the sets is AND. Click the operator to change it to OR. 
 
-1. Volg hieronder de stappen om de **&#x200B;**&#x200B;montages van de Groep 1&rbrace; ![ sectie te vormen van de Montages van de DrilldownGroep ](assets/drilldown-group-icon.png):
-   1. In het linkerpaneel, klik het **pictogram van de Montages van de Groep**.
-   1. Klik **toevoegen groeperend** knoop en dan het gebied selecteren u als groepering wilt tot stand brengen. De kolom voor cijfergroepering wordt weergegeven in de voorbeeldsectie aan de rechterkant.
+1. Follow the steps below to configure the **Drilldown Group Settings** ![Group settings](assets/drilldown-group-icon.png) section: 
+    1. In the left panel, click the **Group Settings** icon. 
+    1. Click the **Add grouping** button and then select the field you want to create as a grouping. The grouping column appears in the preview section on the right. 
 
-1. Klik **sparen** om het rapport tot stand te brengen.
+1. Click **Save** to create the report.
+
+-->
