@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bd73b7df-ad4e-43dc-8ddf-23e0da24ec0f
-source-git-commit: 9be63f4242db71b2e08ae528f39d639f8f59c75c
+source-git-commit: f9e1bfc5670754a8fc4aafb360b41c2721de4154
 workflow-type: tm+mt
-source-wordcount: '263'
+source-wordcount: '318'
 ht-degree: 0%
 
 ---
@@ -49,6 +49,11 @@ Om een betere gebruikerservaring te creëren wanneer het doen van verzoeken in d
 * Kolommen in de lijst met ingediende aanvragen verbergen en opnieuw ordenen.
 
 Deze update bevat ook wijzigingen in de vormgeving van de pagina.
+
+Houd rekening met het volgende wanneer u de nieuwe aanvraagervaring gebruikt:
+
+* Concepten staan nu in dezelfde lijst als de ingediende aanvragen
+* De nieuwe ervaring toont momenteel slechts verzoeken die in de afgelopen 1.5 maanden worden gecreeerd. Om oudere verzoeken te zien, kunt u de nieuwe ervaring tijdelijk onbruikbaar maken en tot de oudere verzoeken door de oude ervaring toegang hebben.
 
 Eerder stonden Workfront- en Workfront-planningsverzoeken op aparte tabbladen en konden de filters niet worden aangepast.
 

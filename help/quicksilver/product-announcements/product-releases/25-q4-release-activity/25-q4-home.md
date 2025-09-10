@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 2d8c5d2b-a026-4741-b907-aac4c0eac98f
-source-git-commit: 2fe55f61bd24ebb3ecfe09fff29c4aad2ca33608
+source-git-commit: f9e1bfc5670754a8fc4aafb360b41c2721de4154
 workflow-type: tm+mt
-source-wordcount: '188'
+source-wordcount: '219'
 ht-degree: 0%
 
 ---
@@ -34,4 +34,8 @@ Voor een naadloze ervaring tussen Workfront en Workfront Planning hebben we de w
 
 De nieuwe widget kan alleen worden weergegeven als u de nieuwe ervaring voor aanvragen hebt ingeschakeld. U kunt de nieuwe verzoekervaring op uw gebied van Verzoeken toelaten.
 
+De nieuwe widget Mijn verzoeken geeft alleen die verzoeken weer die zijn gemaakt in de nieuwe ervaring die u opvraagt.
+
 Voor meer informatie over nieuwe Mijn widget van Verzoeken, zie [ Gebruik Mijn widget van Verzoeken ](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md).
+
+Voor de versienota betreffende de nieuwe het vragen ervaring, zie [ Updates aan het verzoeken van ervaring ](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-requests.md#updates-to-requesting-experience).
