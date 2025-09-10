@@ -3,7 +3,7 @@ title: Overzicht van gecentraliseerde recordtypen
 description: De gecentraliseerde verslagtypes kunnen aan veelvoudige werkruimten van een centrale of primaire werkruimte in de Planning van Adobe Workfront worden toegevoegd.
 hidefromtoc: true
 hide: true
-source-git-commit: 9b95b5a52576327a3df8d6955925b96c2e45848f
+source-git-commit: 38c397594449856a0f1404848a527b86083654b8
 workflow-type: tm+mt
 source-wordcount: '1019'
 ht-degree: 0%
@@ -96,7 +96,7 @@ Het recordtype dat is geconfigureerd om te worden gecentraliseerd, heeft de volg
 
    * Bewerk het
 
-     U kunt de weergave, de mogelijkheden van de werkruimte of de velden die u uit de oorspronkelijke werkruimte hebt geïmporteerd, niet bewerken.
+     U kunt de weergave, de mogelijkheden van de werkruimte of de toegevoegde velden niet bewerken vanuit de oorspronkelijke werkruimte.
    * Aanvraagformulieren maken
    * Aanvraagformulieren beheren
 

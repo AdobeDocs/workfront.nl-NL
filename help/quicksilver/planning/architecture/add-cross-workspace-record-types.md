@@ -1,12 +1,12 @@
 ---
 title: Bestaande recordtypen toevoegen
-description: Recordtypen zijn de objecttypen voor Adobe Workfront Planning. In de Planning van Workfront, kunt u een bestaand verslagtype van een andere werkruimte invoeren.
+description: Recordtypen zijn de objecttypen voor Adobe Workfront Planning. In de Planning van Workfront, kunt u een bestaand verslagtype toevoegen dat in een andere werkruimte wordt gecreeerd.
 hidefromtoc: true
 hide: true
 exl-id: b977d5dd-8975-42c4-9968-a7ac357972e6
-source-git-commit: 9b95b5a52576327a3df8d6955925b96c2e45848f
+source-git-commit: 38c397594449856a0f1404848a527b86083654b8
 workflow-type: tm+mt
-source-wordcount: '651'
+source-wordcount: '666'
 ht-degree: 0%
 
 ---
@@ -25,9 +25,9 @@ recommendations: noDisplay, noCatalog
 
 <span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
 
-Als werkruimtebeheerder kunt u een bestaand recordtype importeren of toevoegen aan een andere werkruimte.
+Als werkruimtenmanager, kunt u een verslagtype toevoegen dat in een werkruimte aan een werkruimte bestaat die u in de Planning van Adobe Workfront beheert.
 
-U moet een recordtype eerst als gecentraliseerd aanwijzen voordat werkruimtenmanagers het in andere werkruimten kunnen importeren.
+U moet een recordtype eerst als gecentraliseerd aanwijzen voordat werkruimtenmanagers het als een bestaand recordtype in andere werkruimten kunnen toevoegen.
 
 U kunt een recordtype instellen als gecentraliseerd wanneer u het maakt of bewerkt terwijl u de instellingen voor de werkruimte van het recordtype definieert.
 
@@ -83,7 +83,7 @@ Voor meer informatie over de toegangsvereisten van Workfront, zie [ vereisten va
 
 1. Begin creërend een verslagtype, zoals die in het artikel [ wordt beschreven creeer verslagtypes ](/help/quicksilver/planning/architecture/create-record-types.md), dan klik **voegt bestaand** toe. <!--check this - the option might have been renamed in the UI-->
 
-   ![ Modal om verslagtype met optie toe te voegen om van een andere werkruimte in te voeren ](assets/add-record-type-from-existing-workspace-option-when-creating-records.png)
+   ![ Modal om verslagtype met optie toe te voegen van een andere werkruimte ](assets/add-record-type-from-existing-workspace-option-when-creating-records.png)
 
 1. Klik **verdergaan**.
 1. In **kies verslagtype** doos, klik de kaart voor het verslagtype dat u van een bestaande werkruimte wilt toevoegen, dan **toevoegen** klikken.
@@ -92,7 +92,7 @@ Voor meer informatie over de toegangsvereisten van Workfront, zie [ vereisten va
 
    >[!TIP]
    >
-   >Als er geen recordtypen zijn geconfigureerd om aan een andere werkruimte te worden toegevoegd, wordt de optie om deze uit een andere werkruimte te importeren niet weergegeven wanneer u een recordtype maakt.
+   >Als er geen recordtypen zijn geconfigureerd om aan een andere werkruimte te worden toegevoegd, wordt de optie om deze uit een andere werkruimte toe te voegen niet weergegeven wanneer u een recordtype maakt.
 
    De volgende dingen doen zich voor:
 
@@ -101,25 +101,25 @@ Voor meer informatie over de toegangsvereisten van Workfront, zie [ vereisten va
       * Alle oorspronkelijke velden
       * Alle recordverbindingen
    * U kunt records weergeven die zijn toegevoegd vanuit andere werkruimten, alleen als u ten minste weergavemachtigingen hebt voor die werkruimten.
-   * Het **gecentraliseerde verslagtype** pictogram ![ Gecentraliseerde verslagtype pictogram ](assets/global-icon.png) wordt toegevoegd aan de kaart van het ingevoerde verslagtype.
-   * Het read-only **Workspace** gebied wordt toegevoegd aan de ingevoerde lijst van het verslagtype. In het veld wordt weergegeven in welke werkruimte elke record is gemaakt.
+   * Het **gecentraliseerde verslagtype** pictogram ![ Gecentraliseerde verslagtype pictogram ](assets/global-icon.png) wordt toegevoegd aan de kaart van het nieuwe verslagtype.
+   * Het read-only **Workspace** gebied wordt toegevoegd aan de nieuwe lijst van het verslagtype mening. In het veld wordt weergegeven in welke werkruimte elke record is gemaakt.
 
      >[!NOTE]
      >
-     >* U kunt de weergave, geavanceerde instellingen of originele velden van het geïmporteerde recordtype niet bewerken. U kunt het recordtype en alle oorspronkelijke velden en instellingen alleen vanuit de oorspronkelijke werkruimte bewerken.
+     >* U kunt de weergave, geavanceerde instellingen of originele velden van het nieuwe recordtype niet bewerken. U kunt het recordtype en alle oorspronkelijke velden en instellingen alleen vanuit de oorspronkelijke werkruimte bewerken.
 
 1. (Optioneel) Klik en sleep het nieuwe recordtype naar een willekeurige sectie in de werkruimte.
 
-1. (Facultatief) klik op **Meer** menu ![ Meer menu ](assets/more-menu.png) in de ingevoerde kaart van het verslagtype, of rechts van de naam van het verslagtype op zijn pagina, dan klik **Aandeel** om het met andere gebruikers in de zelfde werkruimte te delen.
+1. (Facultatief) klik op **Meer** menu ![ Meer menu ](assets/more-menu.png) in de kaart van het nieuwe recordtype, of rechts van de naam van het verslagtype op zijn pagina, dan klik **Aandeel** om het met andere gebruikers in de zelfde werkruimte te delen.
 
-1. (Facultatief) klik op **Meer** menu ![ Meer menu ](assets/more-menu.png) in de ingevoerde kaart van het verslagtype, of rechts van de naam van het verslagtype op zijn pagina, dan klik **Schrapping**.
+1. (Facultatief) klik op **Meer** menu ![ Meer menu ](assets/more-menu.png) in de kaart van het nieuwe verslagtype, of rechts van de naam van het verslagtype op zijn pagina, dan klik **Schrapping**.
 1. (Voorwaardelijk) Type **schrapt** op het verstrekte gebied, dan klik **permanent schrapt**.
 
    De volgende dingen doen zich voor:
 
    * Het recordtype dat is gemaakt op basis van een gecentraliseerd recordtype, wordt verwijderd uit de geselecteerde werkruimte.
    * Het oorspronkelijke recordtype en de bijbehorende velden blijven in de oorspronkelijke werkruimte staan.
-   * Alle andere recordtypen die uit dezelfde gecentraliseerde record worden geïmporteerd, blijven in de werkruimte staan.
+   * Alle andere recordtypen die van hetzelfde gecentraliseerde recordtype zijn toegevoegd, blijven in de werkruimte staan.
    * De records die vanuit de huidige werkruimte aan het recordtype zijn toegevoegd, worden verwijderd. Alle andere records die zijn toegevoegd vanuit extra werkruimten waar het gecentraliseerde recordtype is toegevoegd, blijven behouden.
 
 

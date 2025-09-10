@@ -6,7 +6,7 @@ description: U kunt de mening van de Mijlpaal op een projectlijst of een rapport
 author: Courtney, Alina
 feature: Reports and Dashboards
 exl-id: c55e53b5-5559-4b6a-a8d7-5028be6af30f
-source-git-commit: 5590477efa2beb6590581ce9e5e33e264fb95390
+source-git-commit: 38c397594449856a0f1404848a527b86083654b8
 workflow-type: tm+mt
 source-wordcount: '1420'
 ht-degree: 0%
@@ -106,7 +106,7 @@ De mening van de Mijlpaal is beschikbaar op projectlijsten en projectrapporten. 
 
 Voor informatie over hoe te om aan de mening van de Mijlpaal over te schakelen, zie de sectie [ Schakelaar aan de mening van de Mijlpaal ](#switch-to-the-milestone-view) in dit artikel.
 
-<!--add new screen shot-->
+<!--add new screen shot for preview or prod release-->
 
 ![ Project met milestone mening ](assets/project-with-milestone-view-with-complete.png)
 
@@ -145,7 +145,7 @@ Wanneer het bekijken van een projectlijst of een projectrapport in de mening van
 
   U kunt het voltooiingspercentage direct van de mening van de Mijlpaal aanpassen, zoals die in de sectie [ wordt beschreven Pas Percentage volledig voor taken in de mening van de Mijlpaal ](#adjust-percent-complete-for-tasks-in-the-milestone-view) in dit artikel aan.
 
-* **de statuspictogrammen van de Taakvooruitgang:** Een statuspictogram wordt getoond naast elk project en taak in de mening van de Mijlpaal. <!--get new screen shots or hide them - could not display all in devtest; idea: use color dots from Task Details tab - New status is blue; Some concerns condition is yellow etc-->
+* **de statuspictogrammen van de Taakvooruitgang:** Een statuspictogram wordt getoond naast elk project en taak in de mening van de Mijlpaal. <!--get new screen shots or hide them for preview or prod - could not display all in devtest; idea: use color dots from Task Details tab - New status is blue; Some concerns condition is yellow etc-->
 
   <!--A progress status icon in the shape of a colored circle displays next to each project and task in the Milestone view. The possible statuses and circle colors are: 
    * On Time - green
@@ -168,7 +168,7 @@ Wanneer het bekijken van een projectlijst of een projectrapport in de mening van
 
   U kunt deze statuspictogrammen van worden getoond onbruikbaar maken, zoals die in de sectie [ wordt beschreven vormt welke informatie in de mening van de Mijlpaal ](#configure-what-information-displays-in-the-milestone-view) in dit artikel toont.
 
-  Voor meer gedetailleerde informatie over elk statustype, zie het overzicht van de Status van de Voortgang van de taak van artikel [&#128279;](../../../manage-work/tasks/task-information/task-progress-status.md).
+  Voor meer gedetailleerde informatie over elk statustype, zie het overzicht van de Status van de Voortgang van de taak van artikel [ ](../../../manage-work/tasks/task-information/task-progress-status.md).
 
 * **de status die van de Taak voor voltooide taken** wordt in de schaduw gesteld: Nadat een taak voltooid is, wordt de achtergrond van de taak gearceerd in de mening van de Mijlpaal om erop te wijzen of de taak op tijd of laat werd voltooid:
 
@@ -200,7 +200,7 @@ Wanneer het bekijken van een projectlijst of een projectrapport in de mening van
 
    * Er wordt geen kleurschaduw toegewezen aan de kolommen Start en Voltooiing wanneer de taken de status Voortgang hebben van Op risico of Achter.
 
-  <!--add new screen shot-->
+  <!--add new screen shot for preview or prod release-->
 
   ![ Mijlsteenmening met het in de schaduw stellen ](assets/milestone-view-with-shading.png)
 
@@ -240,7 +240,7 @@ Om te vormen of de pictogrammen van de projectstatus en voltooiingspercentage va
 1. Klik het **drop-down menu van de Mening**, dan klik **Mijlpaal**.
    <!--No longer available: If you are viewing a list of projects inside a Portfolio or a Program, select the **Milestone** subtab.  -->
 
-1. &#x200B;<!--In the Production environment,--> Klik **Opties** in de hoger-juiste hoek van de mening van de Mijlpaal.
+1. <!--In the Production environment,--> Klik **Opties** in de hoger-juiste hoek van de mening van de Mijlpaal.
 
    <!--<div class="preview">In the Preview environment, select from the options in the next step, from the upper-right corner of the Milestone view.</div>-->
 
@@ -277,6 +277,6 @@ Om het percentage aan te passen volledig voor een taak in de mening van de Mijlp
 
 1. (Voorwaardelijk) als de voltooiingspercentages niet huidig zijn die in de mening van de Mijlpaal tonen, laat het bekijken van Percentage van taken en projecten toe, zoals die in de sectie [ worden beschreven vormt welke informatievertoningen in de mening van de Mijlpaal ](#configure-what-information-displays-in-the-milestone-view) in dit artikel.
 
-1. &#x200B;<!--In the Production environment,--> Klik op het voltooiingspercentage onder een taak, geef een nieuw percentage op en druk op Enter.
+1. <!--In the Production environment,--> Klik op het voltooiingspercentage onder een taak, geef een nieuw percentage op en druk op Enter.
 
    <!--<div class="preview">In the Preview environment, move the Percent Complete slide to the new percent complete to update it. </div>-->

@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: a4bb3582eb476acbefa5d11db1f2c06eafc13cdd
+source-git-commit: 38c397594449856a0f1404848a527b86083654b8
 workflow-type: tm+mt
-source-wordcount: '1211'
+source-wordcount: '1216'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ Raadpleeg ook de volgende artikelen voor meer informatie over het beheren van de
 
 ## Toegangsvereisten
 
-+++ Vouw uit om de vereisten voor toegang weer te geven.
++++ Vouw uit om de vereisten voor toegang weer te geven. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -119,7 +119,7 @@ Raadpleeg ook de volgende artikelen voor meer informatie over het beheren van de
 
 *Voor meer informatie over de toegangsvereisten van Workfront, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-+++
++++   
 
 ## Overwegingen bij het werken met recordweergaven
 
@@ -170,6 +170,7 @@ In de volgende tabel worden de overeenkomsten en verschillen tussen de tabel-, t
 | Records per week weergeven |           |               | ✓ |
 | Informatie exporteren uit een weergave | ✓ |               |    |
 | <span class="preview"> Vertoning in volledig scherm </span> | ✓ | ✓ | ✓ |
+| <span class="preview"> creeer verslagen in de mening </span> | ✓ | ✓ | ✓ |
 
 ## Weergaven maken of bewerken {#create-or-edit-views}
 
@@ -187,6 +188,12 @@ In de volgende tabel worden de overeenkomsten en verschillen tussen de tabel-, t
    Standaard worden alle records van het geselecteerde type weergegeven in de tabelweergave.
 
 1. Klik op **+ Weergave** om een nieuwe weergave toe te voegen.
+
+   <!--at preview release, replace the step above with this one: 
+    1. Depending on which environment you use, do the following: 
+    * In the Production environment, click the **+View** tab. 
+    * <span class="preview">In the Preview environment, click the drop-down icon ![Dropdown icon](assets/drop-down-icon.png) next to the current view name, then click **+New view**.</span>-->
+
 1. Selecteer een van de volgende typen weergaven:
 
    * Tabel
@@ -206,6 +213,8 @@ In de volgende tabel worden de overeenkomsten en verschillen tussen de tabel-, t
 >
 >Anders worden de opties Tijdlijn en Kalender grijs weergegeven.
 >
+
+<!-- replace screen shot at production??-->
 
 ![ de types van Mening drop-down van verslagtype lijst ](assets/view-types-drop-down-from-record-type-list.png)
 
