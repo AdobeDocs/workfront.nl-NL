@@ -35,7 +35,7 @@ De werkruimte van Adobe GenStudio for Performance Marketing is beschikbaar in Ad
 
 U kunt de GenStudio-werkruimte vanuit plannings- en updategegevens weergeven in beide systemen.
 
-Voor informatie over het gebruiken van en het beheren van de werkruimte van GenStudio van de Marketing van de Prestaties van GenStudio, zie {de Gids van de Gebruiker van 0} Adobe GenStudio for Performance Marketing [.](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/home)
+Voor informatie over het gebruiken van en het beheren van de werkruimte van GenStudio van de Marketing van de Prestaties van GenStudio, zie {de Gids van de Gebruiker van 0} Adobe GenStudio for Performance Marketing [.](https://experienceleague.adobe.com/nl/docs/genstudio-for-performance-marketing/user-guide/home)
 
 Voor algemene informatie over GenStudio aan de Planningsintegratie van Workfront, zie [ begonnen met de Planning van Adobe Workfront en de integratie van Adobe GenStudio for Performance Marketing ](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md).
 
@@ -79,7 +79,7 @@ Voor algemene informatie over GenStudio aan de Planningsintegratie van Workfront
    <td role="rowheader"><p>Adobe GenStudio for Performance Marketing-gebruikersrollen</p></td> 
    <td><p><ul><li>Elke GenStudio-gebruikersrol voor toegang tot campagnes, producten en persoonlijke instellingen</li>
    <li>GenSudio System Manager toegang tot activeringen <!--and Events--></li></ul>
-   Voor informatie, zie <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles"> de rollen en de toestemmingen van de Gebruiker </a>. 
+   Voor informatie, zie <a href="https://experienceleague.adobe.com/nl/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles"> de rollen en de toestemmingen van de Gebruiker </a>. 
    </p>
   </td> 
   </tr>   
@@ -103,7 +103,7 @@ Voor algemene informatie over GenStudio aan de Planningsintegratie van Workfront
 
 Voor informatie over de toegang van de Planning van Adobe Workfront, zie [ Adobe Workfront het toegangsoverzicht van de Planning ](/help/quicksilver/planning/access/access-overview.md).
 
-Voor meer informatie over Adobe GenStudio for Performance Marketing, zie {de Gids van de Gebruiker van 0} Adobe GenStudio for Performance Marketing [.](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/home)
+Voor meer informatie over Adobe GenStudio for Performance Marketing, zie {de Gids van de Gebruiker van 0} Adobe GenStudio for Performance Marketing [.](https://experienceleague.adobe.com/nl/docs/genstudio-for-performance-marketing/user-guide/home)
 
 +++   
 
