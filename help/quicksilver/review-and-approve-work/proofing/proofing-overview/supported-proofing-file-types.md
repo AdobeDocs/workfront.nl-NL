@@ -7,9 +7,9 @@ description: U kunt verschillende bestandstypen delen en reviseren met uw reviso
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 647edda3-de52-4bb9-b202-36c5cf832fb0
-source-git-commit: 1df1eff727ff2044eee0f5c0e79794c109d16c7a
+source-git-commit: 52b0389e9f5d8618106d9b511591afb0b6eb216f
 workflow-type: tm+mt
-source-wordcount: '1057'
+source-wordcount: '1101'
 ht-degree: 0%
 
 ---
@@ -133,6 +133,12 @@ Workfront heeft de volgende limieten:
 * PNM - Portable Bitmap Utilities
 * PPM - Portable Bitmap Utilities
 * PPT - PowerPoint-presentatie
+
+  >[!NOTE]
+  >
+  >Er is een bekend probleem met het momenteel niet uploaden van PowerPoint-presentatiebestanden. Als dit probleem optreedt, converteert u het bestand naar PDF en uploadt u de PDF. Voor meer informatie, zie [ Proofs: Kan geen bewijs van een dossier van PowerPoint ](https://experienceleague.adobe.com/en/docs/workfront-known-issues/issues/new-workfront-experience/wf-current/wf-proofs-cannot-generate-from-pptx) produceren.
+
+
 * PPTX - PowerPoint-presentatie 2007 PS - PostScript-bestand
 * PSD - PHOTOSHOP
 * PSP - Verfshop Pro
