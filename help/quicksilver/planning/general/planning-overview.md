@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 3667359ba2c6ea0aab3ce6845f1a537183f304ec
+source-git-commit: d7af8c5888147e847b4e239b629373b4b72541f7
 workflow-type: tm+mt
-source-wordcount: '1973'
+source-wordcount: '2003'
 ht-degree: 0%
 
 ---
@@ -353,7 +353,7 @@ Workfront-planning zoeken:
    * **Werkruimten ik** ben: De werkruimten van vertoningen die u creeerde of werkruimten die met u worden gedeeld.
    * **Andere werkruimten**: Toont alle andere werkruimten in het systeem.
 
-   Voor alle andere gebruikers, zowel werkruimten die zij creeerden of met hen worden gedeeld tonen in het **1&rbrace; gebied van de Werkruimten &lbrace;.**
+   Voor alle andere gebruikers, zowel werkruimten die zij creeerden of met hen worden gedeeld tonen in het **1} gebied van de Werkruimten {.**
 
 1. (Optioneel en aanbevolen) Ga door met een aantal van de volgende acties om uw werkstructuur te maken:
 
@@ -395,18 +395,11 @@ Voor een bijgewerkte lijst van vrijgegeven eigenschappen, zie [ de versieactivit
     >
     >    The Workfront AI Assistant has been temporarily removed and it will be available at a later date.-->
 
-* [ Adobe Workfront planningsmodules voor de Fusie van Workfront ](https://experienceleague.adobe.com/nl/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules): Met de modules van de Planning van Adobe Workfront, kunt u een scenario teweegbrengen wanneer de gebeurtenissen in de Planning van Workfront voorkomen. U kunt ook records maken, lezen, bijwerken en verwijderen of een aangepaste API-aanroep naar uw Adobe Workfront Planning-account uitvoeren.
+* [ Adobe Workfront planningsmodules voor de Fusie van Workfront ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules): Met de modules van de Planning van Adobe Workfront, kunt u een scenario teweegbrengen wanneer de gebeurtenissen in de Planning van Workfront voorkomen. U kunt ook records maken, lezen, bijwerken en verwijderen of een aangepaste API-aanroep naar uw Adobe Workfront Planning-account uitvoeren.
 
 * [ de Planning API van Adobe Workfront basiscs ](/help/quicksilver/planning/general/planning-api-basics.md): Het doel voor de Planning API van Adobe Workfront is bouwintegratie met Planning te vereenvoudigen door een REST-ful architectuur te introduceren die over HTTP werkt.
 
-<!--
-<div class="preview">
-
-* [Get started with the Adobe Workfront Planning and Adobe GenStudio for Performance Marketing integration](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md): You can manage records from GenStudio for Performance Marketing in the GenStudio workspace in Workfront Planning.
-
-</div>
-
--->
+* [ worden begonnen met de de Planning van Adobe Workfront en integratie van Adobe GenStudio for Performance Marketing ](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md): U kunt verslagen van GenStudio for Performance Marketing in de werkruimte van GenStudio in de Planning van Workfront beheren.
 
 * **de Planning van Workfront rapporteringsmogelijkheden**: U kunt de informatie van de Planning van Workfront in een rapport in Workfront nu bekijken gebruikend het Dashboard van het Canvas van Workfront. Voor informatie, zie [ Overzicht van de Dashboards van het Canvas ](/help/quicksilver/reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md).
 

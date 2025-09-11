@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 5027d611-916e-492d-9a44-841bdde11c94
-source-git-commit: 3667359ba2c6ea0aab3ce6845f1a537183f304ec
+source-git-commit: d7af8c5888147e847b4e239b629373b4b72541f7
 workflow-type: tm+mt
-source-wordcount: '889'
+source-wordcount: '990'
 ht-degree: 0%
 
 ---
@@ -113,17 +113,16 @@ Voor informatie, zie de &quot;sectie van de Formule&quot;in artikel [ gebieden ]
   Voor meer informatie, zie de &quot;sectie van de Formule&quot;in artikel [ gebieden ](/help/quicksilver/planning/fields/create-fields.md) creëren.
 * U kunt in nieuwe formules verwijzen naar formuleringsvelden. Zodra de waarde wordt bijgewerkt in een veld waarnaar wordt verwezen in een formuleveld, worden alle volgende velden die verwijzen naar dat veld of naar formulevelden die dat veld bevatten, automatisch bijgewerkt.
 
-<!--
 <div class="preview">
 
-* When you update a formula field or a field that could impact it, an alert notifies you of the impact of your change. The alert displays in the following cases:   
+* Wanneer u een formuleringsgebied of een gebied bijwerkt dat het kon beïnvloeden, brengt een alarm u op de hoogte van de invloed van uw verandering. De waarschuwing wordt in de volgende gevallen weergegeven:
 
-   * When you update a formula field (excluding name and description changes) when that field has dependent formula or lookup fields. The alert lists those dependent fields and asks you whether you want to continue. 
+   * Wanneer u een formuleringsgebied (exclusief naam en beschrijvingsveranderingen) bijwerkt wanneer dat gebied afhankelijke formule of raadplegingsgebieden heeft. In de waarschuwing worden die afhankelijke velden vermeld en wordt u gevraagd of u wilt doorgaan.
 
-   * When you delete a field that is used in a formula expression or as a lookup field. The alert lists the dependent formula and lookup fields and asks you whether you want to continue with the deletion.
+   * Wanneer u een veld verwijdert dat wordt gebruikt in een formule-expressie of als opzoekveld. De waarschuwing maakt een lijst van de afhankelijke formule en raadplegingsgebieden en vraagt u of u met de schrapping wilt verdergaan.
 
 </div>
--->
+
 
 
 <div class="preview">
