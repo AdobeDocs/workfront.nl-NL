@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 2fb8fcb4-eb82-4ac5-8b09-8577fecb9bc4
-source-git-commit: d7af8c5888147e847b4e239b629373b4b72541f7
+source-git-commit: ff5bc262a5ed2a22099c058ebdb61bc32485b201
 workflow-type: tm+mt
-source-wordcount: '101'
-ht-degree: 1%
+source-wordcount: '114'
+ht-degree: 0%
 
 ---
 
@@ -31,6 +31,6 @@ De werkruimte van GenStudio is beschikbaar in Adobe Workfront Planning wanneer u
 
 De artikelen in deze sectie beschrijven de functionaliteit beschikbaar voor deze integratie.
 
-* [Aan de slag](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md)
-* [ beheert de werkruimte van GenStudio in Planning ](/help/quicksilver/planning/planning-and-genstudio-integration/manage-gen-studio-workspace-in-planning.md)
+* [Aan de slag met de Workfront Planning and GenStudio for Performance Marketing Integration](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md)
+* [ beheer GenStudio Workspace in de Planning van Adobe Workfront ](/help/quicksilver/planning/planning-and-genstudio-integration/manage-gen-studio-workspace-in-planning.md)
   <!--* [Promote Adobe Workfront Planning workspace to GenStudio](/help/quicksilver/planning/planning-and-genstudio-integration/promote-planning-workspace-to-genstudio.md)-->

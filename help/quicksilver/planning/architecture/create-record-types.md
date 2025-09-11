@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
-source-git-commit: 4569b5bd004a93396257f3f1f8964831f69399dc
+source-git-commit: ff5bc262a5ed2a22099c058ebdb61bc32485b201
 workflow-type: tm+mt
 source-wordcount: '1102'
 ht-degree: 0%
@@ -117,7 +117,7 @@ Voor meer informatie over verslagtypes, zie [ overzicht van de types van Verslag
 
      <!--
         * <span class="preview">By importing them from another workspace or adding cross-workspace record types</span>
-            <span class="preview">For information, see [Add existing record types](/help/quicksilver/planning/architecture/add-cross-workspace-record-types.md). </span>-->
+            <span class="preview">For information, see [Add existing record types from another workspace](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md). </span>-->
 
 
 * U kunt recordtypen binnen een sectie en van de ene sectie van een werkruimte naar de andere verplaatsen. U kunt recordtypen niet van de ene werkruimte naar de andere verplaatsen.
@@ -259,7 +259,7 @@ Voor meer informatie, zie [ de Types van Verslag tot stand brengen door informat
 
 You can add record types to a workspace by importing them from another workspace. You can only add record types that have been configured as centralized record types. 
 
-For information, see [Add existing record types](/help/quicksilver/planning/architecture/add-cross-workspace-record-types.md).
+For information, see [Add existing record types from another workspace](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md).
 
 </div>
 

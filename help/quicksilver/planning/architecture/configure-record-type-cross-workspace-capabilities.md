@@ -4,9 +4,9 @@ description: U kunt instellen dat een recordtype wordt toegevoegd aan een andere
 hidefromtoc: true
 hide: true
 exl-id: d36ab9fb-0275-483d-97be-0a88e170f8e0
-source-git-commit: 38c397594449856a0f1404848a527b86083654b8
+source-git-commit: ff5bc262a5ed2a22099c058ebdb61bc32485b201
 workflow-type: tm+mt
-source-wordcount: '1131'
+source-wordcount: '1134'
 ht-degree: 0%
 
 ---
@@ -118,7 +118,7 @@ Een werkruimtemanager kan een gecentraliseerd recordtype toevoegen aan een werkr
 
 Gebruikers kunnen records toevoegen aan een gecentraliseerd recordtype vanuit elke werkruimte die zij met Contribute-machtigingen hebben en waarin het gecentraliseerde recordtype is toegevoegd, inclusief de oorspronkelijke werkruimte. Zij kunnen verslagen van werkruimte bekijken zij slechts toestemmingen van de Mening hebben aan.
 
-Voor meer informatie, zie [ Gecentraliseerd overzicht van verslagtypes ](/help/quicksilver/planning/architecture/centralized-record-types-overview.md)
+Voor meer informatie, zie [ overzicht van de types van het werkruimterecord over de werkruimte ](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md)
 
 Om het toevoegen van een verslagtype als gecentraliseerd verslagtype te vormen:
 
@@ -179,7 +179,7 @@ of
      Dit veld is alleen-lezen en kan niet worden verwijderd.
 1. (Optioneel) Ga naar een andere werkruimte en maak een recordtype met een bestaand recordtype. Selecteer het recordtype dat u in de bovenstaande stappen hebt ingeschakeld.
 
-   Voor informatie, zie [ bestaande verslagtypes ](/help/quicksilver/planning/architecture/add-cross-workspace-record-types.md) toevoegen.
+   Voor informatie, zie [ bestaande verslagtypes van een andere werkruimte ](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md) toevoegen.
 
 ## Verbindbare recordtypen configureren
 

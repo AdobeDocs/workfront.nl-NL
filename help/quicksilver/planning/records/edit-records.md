@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 38c397594449856a0f1404848a527b86083654b8
+source-git-commit: ff5bc262a5ed2a22099c058ebdb61bc32485b201
 workflow-type: tm+mt
-source-wordcount: '2688'
+source-wordcount: '2701'
 ht-degree: 0%
 
 ---
@@ -97,7 +97,6 @@ Voor informatie over het creëren van verslagen, zie [ verslagen ](/help/quicksi
 
 +++   
 
-
 ## Overwegingen bij het bewerken van records
 
 * U kunt records bewerken die u hebt gemaakt of records die door anderen zijn gemaakt, als u machtigingen hebt gekregen voor de werkruimte.
@@ -106,18 +105,7 @@ Voor informatie over het creëren van verslagen, zie [ verslagen ](/help/quicksi
    * De voorvertoning van de record in een recordweergave
    * De detailpagina van de record
    * Inline, in een lijstmening.
-<!--* You can edit a record's dates from the following areas:
-        * All areas listed above
-        * <span class="preview">In a timeline view, by resizing the record bars</span>
-         * <span class="preview">In a calendar monthly view, by resizing the record bars</span>
-        For information, see [Create records](/help/quicksilver/planning/records/create-records.md). -->
-
-<!-- when drag and drop is available replace the last 2 points with this:
-
-* <span class="preview">In a timeline view, by resizing the record bars or dragging and dropping the record bars in a new position</span>
-* <span class="preview">In a calendar view, by resizing the record bars when viewing it by month, or by dragging and dropping the record bars in a new position</span>
-    For information, see [Create records](/help/quicksilver/planning/records/create-records.md).
--->
+   * <span class="preview"> De kalender en tijdlijnweergave wanneer u de grootte van de records wijzigt in <!--or dragging and dropping--> . Hiermee werkt u de datums van de records bij.</span>
 
 * Wanneer een gebruiker een record bewerkt in een weergave, zijn de wijzigingen direct zichtbaar in alle weergaven en zijn de recordpagina&#39;s voor alle andere gebruikers.
 
@@ -178,7 +166,7 @@ Voor informatie, zie [ verslagen ](/help/quicksilver/planning/records/create-rec
    >  * Gekoppelde velden die worden gemaakt door het verbinden van recordtypen. Voor meer informatie, zie [ Connect verslagtypes ](/help/quicksilver/planning/architecture/connect-record-types.md).
    >  * Velden van de volgende typen: Gemaakt door, Gemaakt op datum, Laatst gewijzigd door, Datum Laatst gewijzigd, Formule.
 
-1. (Facultatief en voorwaardelijk) wanneer u een alinea-type gebied uitgeeft, gebruik de volgende **het formatteren opties van de Tekst 0&rbrace; Rich &lbrace;:**
+1. (Facultatief en voorwaardelijk) wanneer u een alinea-type gebied uitgeeft, gebruik de volgende **het formatteren opties van de Tekst 0} Rich {:**
 
    * Vet
    * Cursief
@@ -258,10 +246,17 @@ Voor informatie, zie [ verslagen ](/help/quicksilver/planning/records/create-rec
 <!--add another step about drag and drop here when that is available-->
 
 1. Open de pagina met recordtypen in een kalenderweergave. Voor informatie, zie [ de kalendermening ](/help/quicksilver/planning/views/manage-the-calendar-view.md) leiden.
-1. (Voorwaardelijk) Selecteer **Maand** in het hoger-juiste dropdown menu.
-1. <span class="preview"> Beweeg over de einden van de bar van een verslag, klik, sleep en laat vallen zijn marges aan een andere datum. Hiermee werkt u automatisch de begin- of einddatum van de record bij.</span>
+1. <span class="preview"> (Voorwaardelijk) Houd de muisaanwijzer boven de uiteinden van de balk met records in de maandelijkse kalenderweergave, klik, sleep de marges naar een andere datum en zet deze neer. Hiermee werkt u automatisch de begin- of einddatum van de record bij.</span>  <!--when the calendar weekly resize is released to Preview, take out "monthly" from the sentence above-->
 
    <span class="preview">![ Linker-eind bar op kalendermening resize ](assets/left-end-bar-handle-to-resize-calendar-monthly-view.png)</span>
+
+   <!--At preview release, add one of the following depending on which one is releasing: 
+    Scenario one: only drag and drop in the weekly view is releasing:
+    1. <span class="preview">Click a record bar in the calendar weekly view, then drag and drop it in another position to update its timeline and dates. The Start and End dates of the record update automatically.</span>
+    Scenario two: only drag and drop in the monthly view is releasing:
+    1. <span class="preview">Click a record bar in the calendar monthly view, then drag and drop it in another position to update its timeline and dates. The Start and End dates of the record update automatically.</span>
+    Scenario 3: both the weekly and monthly drag and drop are releasing at the same time:
+    1. <span class="preview">Click a record bar, then drag and drop it in another position to update its timeline and dates. The Start and End dates of the record update automatically.</span>-->
 
 1. Klik op de balk van een record om het detailgebied te openen en alle velden te bewerken.
 

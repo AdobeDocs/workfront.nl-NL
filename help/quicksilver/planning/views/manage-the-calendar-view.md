@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 45b5be81-703c-45d5-a08c-60cb8ec5b103
-source-git-commit: a00776ecd9f8dc14b9dce14ce9463c2bb709a363
+source-git-commit: ff5bc262a5ed2a22099c058ebdb61bc32485b201
 workflow-type: tm+mt
-source-wordcount: '1860'
+source-wordcount: '1874'
 ht-degree: 0%
 
 ---
@@ -111,13 +111,6 @@ Overweeg het volgende:
    * Als de begin- of einddatum geen waarde hebben, wordt de record weergegeven als een eendaagse gebeurtenis
    * Wanneer de begindatum na de einddatum ligt, wordt de record niet weergegeven in de kalender.
 
-<div class="preview">
-
-* U kunt records maken en bewerken in de kalenderweergave. Voor informatie, zie [ verslagen ](/help/quicksilver/planning/records/create-records.md) creëren.
-* U kunt de grootte van de recordbalken in de maandelijkse kalenderweergave wijzigen door te klikken, de marges vervolgens op een nieuwe positie te slepen en neer te zetten. Als u de grootte van de balken van de records wijzigt, worden de begin- en einddatums onmiddellijk bijgewerkt. Voor informatie, zie [ verslagen ](/help/quicksilver/planning/records/edit-records.md) uitgeven.
-
-</div>
-
 Een kalenderweergave beheren:
 
 1. Ga naar de recordtypepagina waarvoor u de kalender wilt bekijken.
@@ -141,6 +134,25 @@ Een kalenderweergave beheren:
          * Records die een dag of minder duren, worden weergegeven in de onderste helft van de kalenderweergave. Als u hebt opgegeven dat u het uur van de begin- en einddatum wilt weergeven, wordt de record op het juiste tijdstip weergegeven binnen de dag dat deze plaatsvindt.
 
 1. <span class="preview"> (Facultatief) klik het **Volledige scherm** pictogram ![ Open volledig het schermpictogram ](assets/open-full-screen-icon.png) om de mening in volledig scherm te openen, dan de **Uitgang volledig scherm** pictogram ![ het volledige het schermpictogram van de Uitgang ](assets/exit-full-screen-icon.png) of Escape op uw toetsenbord om het volledige scherm weg te gaan.  </span>
+
+1. <span class="preview"> om verslagen in de kalendermening tot stand te brengen of hun data uit te geven doe één van het volgende:</span>
+
+   * <span class="preview"> tweemaal klik overal op de kalender om een verslag tot stand te brengen. </span>
+
+     <span class="preview"> voor informatie, zie [ verslagen ](/help/quicksilver/planning/records/create-records.md) creëren.</span>
+
+   * <span class="preview"> in de kalendermaandmening, klik op het eind van een verslagbar, dan belemmering en laat vallen het in een nieuwe positie. Als u de grootte van de balken van de records wijzigt, worden de begin- en einddatums onmiddellijk bijgewerkt. </span> <!--when resizing in the calendar weekly view is released, modify the sentence above to take out 'monthly', since it will be available in both-->
+
+     <span class="preview"> voor informatie, zie [ verslagen ](/help/quicksilver/planning/records/edit-records.md) uitgeven.</span>
+
+   <!--ADD ONE OF THE FOLLOWING DEPENDING ON WHAT RELEASES: 
+    Scenario 1: drag and drop in the calendar weekly view: 
+    * <span class="preview">In the weekly calendar view, drag and drop records to update their position and dates in the timeline.</span>
+    Scenario 2: drag and drop in the calendar monthly view: 
+    * <span class="preview">In the monthly calendar view, drag and drop records to update their position and dates in the timeline.</span>
+    Scenario 3: drag and drop in the calendar view (both weekly and monthly are supported): 
+    * <span class="preview">Drag and drop records to update their position and dates in the timeline.</span>
+        <span class="preview">For information, see [Edit records](/help/quicksilver/planning/records/edit-records.md).</span>-->
 
 1. Werk de volgende weergave-elementen bij zoals in de onderstaande subsecties wordt beschreven:
    * [Filters](#add-filters)

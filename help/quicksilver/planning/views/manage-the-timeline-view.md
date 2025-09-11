@@ -6,7 +6,7 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 38c397594449856a0f1404848a527b86083654b8
+source-git-commit: ff5bc262a5ed2a22099c058ebdb61bc32485b201
 workflow-type: tm+mt
 source-wordcount: '3920'
 ht-degree: 0%
@@ -173,7 +173,7 @@ Een tijdlijnweergave beheren:
 
 1. Ga als volgt te werk om snel records te zoeken die overeenkomen met een trefwoord:
 
-   1. Klik het **pictogram van het Onderzoek** pictogram van het 1&rbrace; Onderzoek ![ en begin een sleutelwoord verbonden aan om het even welk gebied van een verslag te typen dat op het scherm toont. ](assets/search-icon.png) Het aantal juiste overeenkomsten wordt weergegeven naast het zoekitem en de record met de juiste overeenkomst wordt gemarkeerd.
+   1. Klik het **pictogram van het Onderzoek** pictogram van het 1} Onderzoek ![ en begin een sleutelwoord verbonden aan om het even welk gebied van een verslag te typen dat op het scherm toont. ](assets/search-icon.png) Het aantal juiste overeenkomsten wordt weergegeven naast het zoekitem en de record met de juiste overeenkomst wordt gemarkeerd.
 
       ![ vakje van het Onderzoek en de mening van de resultaatchronologie ](assets/search-box-and-results-timeline-view.png)
 
@@ -186,12 +186,6 @@ Een tijdlijnweergave beheren:
    1. Klik het **x** pictogram in het onderzoeksvakje om het onderzoekssleutelwoord te ontruimen.
 
    1. <span class="preview"> (Facultatief) klik het **Volledige scherm** pictogram ![ Open volledig het schermpictogram ](assets/open-full-screen-icon.png) om de mening in volledig scherm te openen, dan de **Uitgang volledig scherm** pictogram ![ het volledige het schermpictogram van de Uitgang ](assets/exit-full-screen-icon.png) of Escape op uw toetsenbord om het volledige scherm weg te gaan.  </span>
-
-1. Werk de volgende weergave-elementen bij zoals in de onderstaande subsecties wordt beschreven:
-   * [Filters](#add-filters)
-   * [Groepering](#add-grouping)
-   * [ Montages ](#edit-the-timeline-view-settings)
-     <!--* [Sort](#add-sort) not yet in timeline; also check the anchor and make sure it's correct-->
 
 1. (Facultatief) klik **Uitsplitsing** om verbonden verslagen op de chronologie te tonen.
 
@@ -209,7 +203,11 @@ Een tijdlijnweergave beheren:
    <!--* <span class="preview">Drag and drop records to update their position and dates in the timeline.</span>
         <span class="preview">For information, see [Edit records](/help/quicksilver/planning/records/edit-records.md).</span>-->
 
-
+1. Werk de volgende weergave-elementen bij zoals in de onderstaande subsecties wordt beschreven:
+   * [Filters](#add-filters)
+   * [Groepering](#add-grouping)
+   * [ Montages ](#edit-the-timeline-view-settings)
+     <!--* [Sort](#add-sort) not yet in timeline; also check the anchor and make sure it's correct-->
 
 ### Filters toevoegen
 

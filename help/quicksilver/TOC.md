@@ -3,9 +3,9 @@ user-guide-title: Handleiding voor Workfront
 user-guide-description: Gebruik de documenten, zelfstudies en aanvullende bronnen om te leren hoe u Adobe Workfront in uw organisatie implementeert en effectief gebruikt.
 role: User
 feature-set: Workfront
-source-git-commit: 464700fc84ee3d687d903a0c1f677ebbef11be60
+source-git-commit: ff5bc262a5ed2a22099c058ebdb61bc32485b201
 workflow-type: tm+mt
-source-wordcount: '13494'
+source-wordcount: '13497'
 ht-degree: 0%
 
 ---
@@ -1153,7 +1153,7 @@ ht-degree: 0%
          * [Elementen en mappen ontkoppelen of verwijderen uit Experience Manager Assets of Elementen.](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/unlink-or-delete-aem-assets.md)
          * [Workflows gebruiken in de integratie met Experience Manager Assets Essentials](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md)
          * [Workfront Fusion gebruiken om een Workfront-uitgave om te zetten in een project dat Adobe Experience Manager-workflows bevat](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-fusion-to-create-project-with-workflows.md)
-         * [ los de Integratie van Adobe Experience Manager  problemen op](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/troubleshoot-aem-asset-integration.md)
+         * [ los de Integratie van Adobe Experience Manager ](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/troubleshoot-aem-asset-integration.md) problemen op
    * Migreren vanaf verouderde of verbeterde connectors {#migrate-from-legacy-enhanced-connectors}
       * [Migreren vanaf verouderde of verbeterde connectors](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/migrate-from-legacy-enhanced-connectors.md)
       * [Migreren van de verouderde of verbeterde aansluiting naar Workfront for Adobe Experience Manager as a Cloud Service-integratie](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/migrate-to-workfont-integration.md)
@@ -2078,9 +2078,9 @@ ht-degree: 0%
       * [Overzicht van recordtypen](planning/architecture/overview-of-record-types.md)
       * [Recordtypen maken](planning/architecture/create-record-types.md)
       * [Recordtypen maken door informatie uit een CSV- of Excel-bestand te importeren](planning/architecture/import-file-to-create-record-types.md)
-      * [Overzicht van gecentraliseerde recordtypen](planning/architecture/centralized-record-types-overview.md)
+      * [Overzicht van recordtypen voor verschillende werkruimten](planning/architecture/cross-workspace-record-types-overview.md)
       * [Mogelijkheden tussen werkruimten configureren voor recordtypen](planning/architecture/configure-record-type-cross-workspace-capabilities.md)
-      * [Bestaande recordtypen toevoegen](planning/architecture/add-cross-workspace-record-types.md)
+      * [Bestaande recordtypen uit een andere werkruimte toevoegen](planning/architecture/add-existing-record-types-from-another-workspace.md)
       * [Overzicht van Connect-recordtypen](planning/architecture/connect-record-types-overview.md)
       * [Verbind recordtypen](planning/architecture/connect-record-types.md)
       * [Recordtypen bewerken](planning/architecture/edit-record-types.md)
@@ -2508,8 +2508,8 @@ ht-degree: 0%
       * [Configureer en gebruik de aangepaste OAuth 2-toepassingen van uw organisatie met behulp van JWT-flow](wf-api/api/oauth-app-jwt-flow.md)
       * [ vorm en gebruik de douane OAuth 2 toepassingen van uw organisatie die de stroom PKCE gebruiken ](wf-api/api/oauth-app-pkce-flow.md)
       * [Vervalsing van API-intern](wf-api/api/deprecation-api-internal.md)
-      * [ wat in API versie 20  nieuw is](wf-api/api/new-api-version-20.md)
-      * [ wat in API versie 19  nieuw is](wf-api/api/new-api-version-19.md)
+      * [ wat in API versie 20 ](wf-api/api/new-api-version-20.md) nieuw is
+      * [ wat in API versie 19 ](wf-api/api/new-api-version-19.md) nieuw is
       * [Nieuwe functies in API-versie 18](wf-api/api/new-api-version-18.md)
       * [Nieuwe functies in API-versie 17](wf-api/api/new-api-version-17.md)
       * [Nieuwe functies in API-versie 16](wf-api/api/new-api-version-16.md)
