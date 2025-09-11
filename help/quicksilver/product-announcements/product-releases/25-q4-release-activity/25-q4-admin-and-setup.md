@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: d560a3b7-81a0-41b2-a40e-81c784a42bf6
-source-git-commit: 2bcba734ebfa8efbef8f401394a576c59ae22d5d
+source-git-commit: dcdd74e8293a5e695600f08536c8fc2ad36c3a31
 workflow-type: tm+mt
-source-wordcount: '408'
+source-wordcount: '473'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,18 @@ ht-degree: 0%
 Op deze pagina vindt u een beschrijving van de verbeteringen die door de beheerder zijn aangebracht in de release Vierde kwartaal 2025 voor de voorvertoningsomgeving. Deze verbeteringen zullen beschikbaar worden gesteld in de productieomgeving, zoals vermeld.
 
 Voor een lijst van alle veranderingen beschikbaar op dit punt in het Vierde Kwartaal 2025 versiecyclus, zie [ Vierde Kwartaal 2025 releaseoverzicht ](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-release-overview.md).
+
+## Nieuwe Admin-weergave voor raden
+
+>[!NOTE]
+>
+>* Voorbeeld: 11 september 2025
+>* Snelle productie: 15 oktober 2025
+>* Productie voor alle afnemers: 16 oktober 2025
+
+De mening van Admin van Boards bevat een lijst van elke Raad in uw rekening die de Beheerders van het Systeem kunnen gebruiken om een snelle momentopname van de algemene details van Boards te krijgen, met inbegrip van toen zij het laatst werden bijgewerkt, hoeveel kaarten elk heeft, en meer.
+
+Voor meer, zie [ de Mening van Admin van Borden beheren ](/help/quicksilver/agile/get-started-with-boards/manage-boards-admin-view.md).
 
 ## AI Beta-functies inschakelen voor uw organisatie
 

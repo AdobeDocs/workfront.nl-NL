@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 65012e89-3e3e-42b7-94af-8fa3687501ed
-source-git-commit: 0937f9b1246b92aa080349f0293674455d21ed70
+source-git-commit: 1dc8591dd0da3c3b6030bd643bf80dbe1ee97ea9
 workflow-type: tm+mt
-source-wordcount: '237'
+source-wordcount: '305'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,21 @@ ht-degree: 0%
 Op deze pagina worden de projectverbeteringen beschreven die zijn aangebracht met de release van het vierde kwartaal van 2025 voor de voorvertoningsomgeving. Deze verbeteringen zullen beschikbaar worden gesteld in de productieomgeving, zoals vermeld.
 
 Voor een lijst van alle veranderingen beschikbaar op dit punt in het Vierde Kwartaal 2025 versiecyclus, zie [ Vierde Kwartaal 2025 releaseoverzicht ](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-release-overview.md).
+
+## New Project Health bèta
+
+>[!NOTE]
+>
+>* Voorbeeld: 11 september 2025
+>* Productie voor alle afnemers: 11 september 2025
+
+De nieuwe functie Projectgezondheid gebruikt de kracht van AI Assistant om u direct een beoordeling te geven van hoe uw projecten presteren en welke gebieden uw aandacht behoeven.
+
+De Medewerker van AI kan een beoordeling van de Gezondheid van het Project voor een project, een programma, en veelvoudige projecten produceren.
+
+Voor meer, zie [ Overzicht van de Gezondheid van het Project ](/help/quicksilver/workfront-basics/ai-assistant/project-health-overview.md).
+
+Deze functie is momenteel in bèta.
 
 <!--
 ## Create project intake forms in Workfront

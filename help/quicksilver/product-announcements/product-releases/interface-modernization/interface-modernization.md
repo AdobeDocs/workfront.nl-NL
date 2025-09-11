@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 09c41ed117660c67c3890ebbaabae73c60cd4a9a
+source-git-commit: abe76998e8d98bf47e45e01ff6b27610955177c5
 workflow-type: tm+mt
-source-wordcount: '7542'
+source-wordcount: '7673'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,16 @@ Deze pagina bevat een overzicht van de interface-updates die we in Adobe Workfro
 Voor alle andere veranderingen in Adobe Workfront, zie {de versies van het 0} Product [.](/help/quicksilver/product-announcements/product-releases/product-releases.md)
 
 ## Beheer en installatie
+
+### Interface werkt bij het toevoegen of bewerken van het tijdbladprofiel in het gedeelte Setup
+
+**de versie van de Voorproef: 11 September, 2025; De versie van de Productie: 18 september, 2025**
+
+We hebben de vormgeving van de pagina Timesheet Profile (Engelstalig) bijgewerkt tijdens het bewerken of toevoegen van een systeembreed tijdbladprofiel.
+
+Als u deze wijzigingen wilt weergeven, gaat u naar Instellen > Tijdschema en uren > Werkbladprofielen en voegt u een nieuw profiel toe of bewerkt u een bestaand profiel.
+
+Voor meer informatie, zie [ creeer, geef uit, en wijs timesheet profielen ](/help/quicksilver/timesheets/create-and-manage-timesheets/create-timesheet-profiles.md) toe.
 
 ### Interface-updates voor de vakken New en Copy Scorecard
 
@@ -153,6 +163,14 @@ We hebben interface-updates geïntroduceerd tijdens het bewerken van portfolio&#
 Voor informatie, zie [ portefeuilles ](/help/quicksilver/manage-work/portfolios/create-and-manage-portfolios/edit-portfolios.md) uitgeven.
 
 ## Projecten
+
+### De updates van de interface voor een projectlijst of rapport wanneer het toepassen van de mening van de Mijlpaal
+
+**de versie van de Voorproef: 11 September, 2025; De versie van de Productie: 18 september, 2025**
+
+Wij hebben de blik en het gevoel van een projectlijst of een rapport bijgewerkt wanneer u de mening van de Mijlpaal op hen toepast.
+
+De projectlijst of het rapport komt nu overeen met het ontwerp van andere gebieden van Workfront. Voor informatie, zie [ Gebruik de mening van de Mijlpaal ](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-milestone-view.md).
 
 ### De veranderingen van de interface voor Converteren een taak in een project zonder een malplaatje
 
@@ -357,6 +375,18 @@ Zie voor meer informatie
 * [ creeer het Verpletteren van Regels ](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-routing-rules.md).
 
 ## Gebruikers
+
+<!--
+### Interface updates for the New User dialog
+
+**Preview release: September 11, 2025; Production release: September 18, 2025**
+
+We have updated the look and feel of the New User dialog to match the design in other areas of the application.
+
+To view this change, go to Users > New User > New User.
+
+For information, see [Add users](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/add-users.md) and [Updates to the Workfront user profile](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md#updates-to-the-workfront-user-profile) on the [Fourth Quarter 2025 Administrator enhancements page](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md).
+-->
 
 ### Interface-updates voor het dialoogvenster Gebruikers importeren
 

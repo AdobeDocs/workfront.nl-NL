@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 4e1761f9-bf73-4355-925a-9136f2787a3f
-source-git-commit: 09c41ed117660c67c3890ebbaabae73c60cd4a9a
+source-git-commit: d0fbeb7b04d2bf632e04e1764a3ffff9abcfb231
 workflow-type: tm+mt
-source-wordcount: '1450'
+source-wordcount: '1796'
 ht-degree: 0%
 
 ---
@@ -35,6 +35,45 @@ To make it easier to find the request form you're looking for in Workfront Plann
 Previously, request forms were located only on the object for which they were created.
 
 For more information on request forms, see [Create and manage a request form in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md). -->
+
+## Nieuw informatievak wordt weergegeven wanneer u een veld wijzigt of verwijdert
+
+>[!NOTE]
+>
+>* Voorbeeld: 11 september 2025
+>* Snelle productie: 15 oktober 2025
+>* Alle productie: 16 oktober 2025
+
+Wanneer u een formuleringsgebied of een gebied bijwerkt dat het kon beïnvloeden, brengt een alarm u op de hoogte van de invloed van uw verandering. De waarschuwing wordt in de volgende gevallen weergegeven:
+
+* Wanneer u een formuleringsgebied (exclusief naam en beschrijvingsveranderingen) bijwerkt wanneer dat gebied afhankelijke formule of raadplegingsgebieden heeft. In de waarschuwing worden die afhankelijke velden vermeld en wordt u gevraagd of u wilt doorgaan.
+
+* Wanneer u een veld verwijdert dat wordt gebruikt in een formule-expressie of als opzoekveld. De waarschuwing maakt een lijst van de afhankelijke formule en raadplegingsgebieden en vraagt u of u met de schrapping wilt verdergaan.
+
+Voor informatie, zie [ overzicht van de gebieden van de Formule ](/help/quicksilver/planning/fields/formula-fields.md).
+
+## Integratie tussen Adobe Workfront Planning en Adobe GenStudio for Performance Marketing
+
+>[!NOTE]
+>
+>Voorbeeld: 11 september 2025
+>>Productie voor alle afnemers: 11 september 2025
+>>[!BADGE Uit schema ]{type=Neutral}
+
+Als uw organisatie zowel de Planning van Adobe Workfront als Adobe GenStudio for Performance Marketing gebruikt, zou u marketing concepten zoals Campagnes, Producten, en Personas meer in detail kunnen willen bepalen dan wat GenStudio door gebrek steunt.
+
+Met de nieuwe native integratie tussen GenStudio for Performance Marketing en Workfront Planning kunt u nu de Campagnes, Producten, Persona&#39;s, Activations, Kanalen, en Gebieden beheren die in GenStudio for Performance Marketing in de Planning van Workfront worden gebruikt. Dankzij deze integratie kunt u GenStudio for Performance Marketing ook configureren om te verwijzen naar bestaande recordtypen via Workfront Planning, waardoor een meer verbonden en consistente marketingworkflow wordt gemaakt.
+
+De werkruimte van GenStudio for Performance Marketing is nu beschikbaar in Adobe Workfront Planning wanneer uw bedrijf beide producten heeft aangeschaft.
+Met de integratie tussen Workfront Planning en GenStudio for Performance Marketing kunt u:
+
+* Bekijk de GenStudio-werkruimte in Workfront Planning.
+* Wijzig uw campagnes, producten, persona&#39;s, en activering in GenStudio for Performance Marketing en heb updates in real time van de zelfde informatie in de Planning van Workfront.
+* Wijzig uw campagnes, producten, persona&#39;s, en activering in de Planning van Workfront en hebben real time
+* Vermijd dubbele gegevensinvoer.
+* Houd de afstemming over planning en activering.
+
+Voor informatie, zie [ begonnen worden met de Planning van Adobe Workfront en de integratie van Adobe GenStudio for Performance Marketing ](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md).
 
 ## Formaat van records wijzigen in de maandelijkse kalenderweergave
 
@@ -184,8 +223,8 @@ Voor informatie, zie [ overzicht van de gebieden van de Formule ](/help/quicksil
 >[!NOTE]
 >
 >Voorbeeld: 7 augustus 2025
->&#x200B;>Productie voor alle klanten :August, 2025
->&#x200B;>[!BADGE Uit schema &#x200B;]{type=Neutral}
+>>Productie voor alle klanten :August, 2025
+>>[!BADGE Uit schema ]{type=Neutral}
 
 We hebben nieuwe expressies toegevoegd met het volgende gebruik voor formuleringsvelden in Workfront Planning en voor berekende aangepaste velden in Workfront:
 
@@ -200,8 +239,8 @@ Voor meer informatie, zie [ Overzicht van berekende gegevensuitdrukkingen ](/hel
 >[!NOTE]
 >
 >Voorbeeld: 31 juli 2025
->&#x200B;>Productie voor alle afnemers: 31 juli 2025
->&#x200B;>[!BADGE Uit schema &#x200B;]{type=Neutral}
+>>Productie voor alle afnemers: 31 juli 2025
+>>[!BADGE Uit schema ]{type=Neutral}
 
 Er is een knop Maximaliseren toegevoegd om het veld Formule te vergroten wanneer u het veld maakt of bewerkt in een recordtabelweergave. Bovendien hebben we een knop Minimaliseren toegevoegd in het nieuwe vergrote venster om terug te keren naar het vak voor het maken van velden.
 
@@ -250,8 +289,8 @@ For more information on creating requests see:
 >[!NOTE]
 >
 >Voorbeeld: 24 juli 2025
->&#x200B;>Snelle productie: 14 augustus 2025
->&#x200B;>Productie voor alle afnemers: 16 oktober 2025
+>>Snelle productie: 14 augustus 2025
+>>Productie voor alle afnemers: 16 oktober 2025
 
 U kunt nu records van een recordtype maken in de tijdlijnweergave door ergens op de tijdlijn te dubbelklikken.
 
@@ -266,8 +305,8 @@ Voor informatie, zie [ verslagen ](/help/quicksilver/planning/records/create-rec
 >[!NOTE]
 >
 >Voorbeeld: 24 juli 2025
->&#x200B;>Snelle productie: 14 augustus 2025
->&#x200B;>Productie voor alle afnemers: 16 oktober 2025
+>>Snelle productie: 14 augustus 2025
+>>Productie voor alle afnemers: 16 oktober 2025
 
 U kunt nu een recordtype delen via het menu Meer van de kaart met recordtypen op de pagina Werkruimte. Vóór deze verbetering, was de optie van het Aandeel beschikbaar slechts binnen de verslagtype pagina.
 
@@ -278,8 +317,8 @@ Voor informatie, zie [ recordtypes van het Aandeel ](/help/quicksilver/planning/
 >[!NOTE]
 >
 >Voorbeeld: 24 juli 2025
->&#x200B;>Snelle productie: 14 augustus 2025
->&#x200B;>Productie voor alle afnemers: 16 oktober 2025
+>>Snelle productie: 14 augustus 2025
+>>Productie voor alle afnemers: 16 oktober 2025
 
 U kunt nu alle Workfront-planningsweergaven (tabel, tijdlijn en kalender) op een volledig scherm weergeven. De weergavefunctionaliteit blijft behouden en u kunt de weergave ook wijzigen op volledig scherm.
 
@@ -292,8 +331,8 @@ Voor informatie, zie [ verslagmeningen ](/help/quicksilver/planning/views/manage
 >[!NOTE]
 >
 >Voorbeeld: 22 juli 2025
->&#x200B;>Productie voor snelle release: 14 augustus 2025
->&#x200B;>Productie voor alle afnemers: 16 oktober 2025
+>>Productie voor snelle release: 14 augustus 2025
+>>Productie voor alle afnemers: 16 oktober 2025
 
 Om het goedkeuringsproces flexibeler te maken, hebben wij de capaciteit toegevoegd om teams als fiatteurs op de aanvraagformulieren van de Planning toe te voegen. Nu kunt u teamnamen invoeren en selecteren wanneer u fiatteurs instelt. Om het even welke teamleden kunnen een besluit nemen, dat als goedkeuringsbesluit voor het volledige team telt.
 
@@ -306,8 +345,8 @@ Voor meer informatie, zie [ een goedkeuring aan een verzoekvorm in de Planning v
 >[!NOTE]
 >
 >Voorbeeld: 17 juli 2025
->&#x200B;>Productie voor snelle release: 14 augustus 2025
->&#x200B;>Productie voor alle afnemers: 16 oktober 2025
+>>Productie voor snelle release: 14 augustus 2025
+>>Productie voor alle afnemers: 16 oktober 2025
 
 Wij introduceren de volgende gebieden om goedkeuringsinformatie voor verslagen te vangen die door een verzoek met een goedkeuring wordt gecreeerd voor te leggen:
 
@@ -321,8 +360,8 @@ Voor informatie, zie [ gebieden ](/help/quicksilver/planning/fields/create-field
 >[!NOTE]
 >
 >Voorbeeld: 10 juli 2025
->&#x200B;>Snelle productie: 14 augustus 2025
->&#x200B;>Productie voor alle afnemers: 16 oktober 2025
+>>Snelle productie: 14 augustus 2025
+>>Productie voor alle afnemers: 16 oktober 2025
 
 
 Als u nu groepen hebt toegepast op een tabelweergave, wordt automatisch ingevuld wanneer u een record aan de tabel toevoegt, welke velden zijn gekoppeld aan de groepen waaraan u de record toevoegt.
