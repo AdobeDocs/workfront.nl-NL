@@ -44,7 +44,7 @@ Voor algemene informatie over GenStudio aan de Planningsintegratie van Workfront
 >[!IMPORTANT]
 >
 >De stappen die in dit artikel worden beschreven, illustreren hoe u de GenStudio-werkruimte kunt bijwerken via Workfront Planning wanneer u beheerdersmachtigingen hebt.
->> Niet alle mogelijkheden zijn beschikbaar wanneer u Contribute-machtigingen hebt voor de GenStudio-werkruimte.
+>&#x200B;> Niet alle mogelijkheden zijn beschikbaar wanneer u Contribute-machtigingen hebt voor de GenStudio-werkruimte.
 >
 >Als uw bedrijf meerdere exemplaren van Workfront heeft, krijgen alle gebruikers Contribute-machtigingen voor de GenStudio-werkruimte in Workfront Planning.
 
