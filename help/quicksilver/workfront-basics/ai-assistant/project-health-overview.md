@@ -220,7 +220,7 @@ Zodra een beheerder een configuratie van de Gezondheid van het Project heeft gec
 
 1. In het linkerpaneel, uitgezochte **Montages van het Project**.
 
-1. Op het **gebied van de Configuratie van de Gezondheid van het 0} Project, selecteer de configuratie u op dit project wilt toepassen.**
+1. Op het **gebied van de Configuratie van de Gezondheid van het 0&rbrace; Project, selecteer de configuratie u op dit project wilt toepassen.**
 
    ![ gebied van de Configuratie van de Gezondheid van het Project ](assets/project-health-configurations.png)
 
