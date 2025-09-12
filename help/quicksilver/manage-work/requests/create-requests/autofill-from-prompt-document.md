@@ -1,18 +1,18 @@
 ---
-title: Een aanvraag automatisch invullen met vragen of documenten
+title: Gebruik de Vulling van het AI-formulier om een aanvraag in te vullen met aanwijzingen of documenten
 content-type: reference
 description: Met AI kunt u aanvraagvelden automatisch invullen door een vraag in te voeren of een document te leveren.
 author: Becky
 feature: Get Started with Workfront
 exl-id: 4a22f9ea-c9ee-4947-8683-9989c54903b1
-source-git-commit: 6aab36ee2839fdf32f5606d2070d1e52d7f44753
+source-git-commit: 2c46145ef24c6870239edc1e5fa96f88f4cb2fd7
 workflow-type: tm+mt
-source-wordcount: '1336'
+source-wordcount: '1368'
 ht-degree: 0%
 
 ---
 
-# Een aanvraag automatisch invullen met vragen of documenten
+# Gebruik de Vulling van het AI-formulier om een aanvraag in te vullen met aanwijzingen of documenten
 
 >[!NOTE]
 >
@@ -23,9 +23,9 @@ ht-degree: 0%
 >
 >* Als u deze functionaliteit wilt gebruiken, moet uw organisatie voldoen aan de vereisten voor het gebruik van de Workfront AI Assistant. Voor details, zie [ Vereisten aan AI Medewerker ](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant).
 
-Met AI kunt u aanvraagvelden automatisch invullen op basis van een vraag die u invoert. U kunt ook velden vullen op basis van tekst, zoals e-mails, die zijn geüpload naar documenten. U kunt deze suggesties goedkeuren of verwerpen alvorens het verzoek in te dienen.
+Met AI-formuliervulling kunt u aanvraagvelden automatisch invullen op basis van een vraag die u invoert. U kunt ook velden vullen op basis van tekst, zoals e-mails, die zijn geüpload naar documenten. U kunt deze suggesties goedkeuren of verwerpen alvorens het verzoek in te dienen.
 
-Met Automatisch vullen worden geen velden overschreven die u al hebt ingevuld.
+Met AI-formuliervulling worden geen velden overschreven die u al hebt ingevuld.
 
 Gebruikers ontvangen geen suggesties voor gegevens waartoe zij anders geen toegang hebben.
 
@@ -67,7 +67,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 ## Vereisten
 
-Aan auto-vul verzoeken gebruikend een herinnering of een document, **allen** van het volgende moet van toepassing zijn:
+Om AI de Vulling van de Vorm te gebruiken om verzoeken te vullen gebruikend een herinnering of een document, **allen** van het volgende moet van toepassing zijn:
 
 * Uw organisatie moet zijn gemigreerd naar Adobe IMS (Identity Management System)
 * De Adobe Unified Experience moet worden ingeschakeld
@@ -81,11 +81,11 @@ Aan auto-vul verzoeken gebruikend een herinnering of een document, **allen** van
 
 ## Suggesties ophalen van een tekstprompt
 
-Met Automatisch vullen kunt u veldwaarden voorstellen op basis van tekst, zoals e-mails. U plakt in een tekstblok en Workfront verwerkt de tekst om veldwaarden voor te stellen op basis van de tekst.
+Met AI-formuliervulling kunt u veldwaarden voorstellen op basis van tekst, zoals e-mails. U plakt in een tekstblok en Workfront verwerkt de tekst om veldwaarden voor te stellen op basis van de tekst.
 
-Als het e-mailbericht bijvoorbeeld &#39;Dit moet gebeuren op 1 juni&#39; bevat en het aanvraagformulier een veld voor de vervaldatum bevat, stelt Workfront voor de veldwaarde op 1 juni in te voeren.
+Als het e-mailbericht bijvoorbeeld &#39;Dit is verschuldigd op 1 juni&#39; bevat en het aanvraagformulier een veld voor de vervaldatum heeft, wordt voor die veldwaarde aanbevolen dat het formulier in de AI-formuliervulling juni 1 bevat.
 
-Dit soort voorstellen controleert ook eerdere verzoeken om vergelijkbare contexten. Als de vraag bijvoorbeeld vermeldt dat de aanvraag voor een bepaalde client is, kan Workfront het factureringsadres voor die client automatisch zoeken en invoeren op basis van eerdere aanvragen.
+Bij het invullen van een formulier controleert Workfront ook eerdere aanvragen op vergelijkbare contexten. Als de vraag bijvoorbeeld vermeldt dat de aanvraag voor een bepaalde client is, kan Workfront het factureringsadres voor die client automatisch zoeken en invoeren op basis van eerdere aanvragen.
 
 U kunt tekst plakken die op het volledige formulier of op één sectie van het formulier moet worden toegepast.
 
@@ -105,7 +105,7 @@ Suggesties gebruiken op basis van een geplakte tekstprompt:
 1. Klik **Vul de vorm**.
 
    Workfront genereert suggesties voor het formulier.
-1. Voor elke gebiedssuggestie, keurt de uitgezochte **&#x200B;**&#x200B;goed of **verwerpt** voor dat gebied.
+1. Voor elke gebiedssuggestie, keurt de uitgezochte **** goed of **verwerpt** voor dat gebied.
 
    ![ Accepteer of verwerp suggestie ](assets/accept-reject-suggestion.png)
 
@@ -263,11 +263,11 @@ Workfront-veldtypen bepalen of een veld automatisch kan worden ingevuld.
 
 #### Andere beste praktijken
 
-Houd rekening met het volgende wanneer u een document uploadt voor automatisch invullen van aanvragen:
+Houd rekening met het volgende wanneer u een document uploadt naar AI-formuliervulling:
 
-* Automatisch vullen is momenteel geoptimaliseerd voor het Latijnse alfabet.
+* AI-formuliervulling is momenteel geoptimaliseerd voor het Latijnse alfabet.
 * We raden u aan een tekstgrootte van 8 punten of groter te gebruiken.
-* Automatisch vullen kan problemen opleveren met afbeeldingen in het document, zoals geroteerde of vervormde afbeeldingen, grafieken en het tellen of gebruiken van ruimtelijke redenen voor objecten in afbeeldingen.
+* AI-formuliervulling kan problemen opleveren met afbeeldingen in het document, zoals geroteerde of vervormde afbeeldingen, grafieken en het tellen of gebruiken van ruimtelijke redenen voor objecten in afbeeldingen.
 * Zoals altijd adviseren wij controleresultaten voor nauwkeurigheid alvorens het verzoek voor te leggen.
 
 ### Een document uploaden om een aanvraag automatisch in te vullen
@@ -292,7 +292,7 @@ U kunt een document uploaden dat op het volledige formulier of op één sectie v
 1. Klik **Vul de vorm** van **Vul de sectie**.
 
    Workfront genereert suggesties voor het formulier.
-1. Voor elke gebiedssuggestie, keurt de uitgezochte **&#x200B;**&#x200B;goed of **verwerpt** voor dat gebied.
+1. Voor elke gebiedssuggestie, keurt de uitgezochte **** goed of **verwerpt** voor dat gebied.
 
    ![ Accepteer of verwerp suggestie ](assets/accept-reject-suggestion.png)
 

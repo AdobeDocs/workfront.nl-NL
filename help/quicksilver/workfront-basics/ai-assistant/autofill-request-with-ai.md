@@ -5,9 +5,9 @@ description: U kunt AI gebruiken om aanvraagvelden automatisch in te vullen.
 author: Becky
 feature: Get Started with Workfront
 exl-id: d053e604-5a28-4fd3-8f89-4467b6e46f02
-source-git-commit: b3d025be9d6ae8fef15157435bf462c3368c686f
+source-git-commit: 2c46145ef24c6870239edc1e5fa96f88f4cb2fd7
 workflow-type: tm+mt
-source-wordcount: '127'
+source-wordcount: '135'
 ht-degree: 0%
 
 ---
@@ -24,8 +24,8 @@ Gebruikers ontvangen geen suggesties voor gegevens waartoe zij anders geen toega
 
 Zie het volgende voor instructies:
 
-* [Een verzoek uit vorige gegevens automatisch invullen](/help/quicksilver/manage-work/requests/create-requests/autofill-suggestions-from-previous.md)
-* [Een aanvraag automatisch invullen met vragen of documenten](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md)
+* [Een aanvraag automatisch aanvullen met gegevens uit eerdere aanvragen](/help/quicksilver/manage-work/requests/create-requests/autofill-suggestions-from-previous.md)
+* [Gebruik de Vulling van het AI-formulier om een aanvraag in te vullen met aanwijzingen of documenten](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md)
 
   Als u automatisch invullen via vragen of documenten wilt gebruiken, moet uw organisatie voldoen aan de vereisten voor het gebruik van de Workfront AI Assistant. Voor details, zie [ Vereisten aan AI Medewerker ](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant).
 

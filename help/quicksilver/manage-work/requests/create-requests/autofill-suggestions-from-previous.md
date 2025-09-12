@@ -1,18 +1,18 @@
 ---
-title: Een verzoek uit vorige gegevens automatisch invullen
+title: Een aanvraag automatisch aanvullen met gegevens uit eerdere aanvragen
 content-type: reference
-description: Met AI kunt u aanvraagvelden automatisch invullen met gegevens uit vorige aanvragen.
+description: Met AI kunt u aanvraagvelden automatisch aanvullen met gegevens uit eerdere aanvragen.
 author: Becky
 feature: Get Started with Workfront
 exl-id: a0cd1fbf-d3c6-454c-a85a-ceca4b1e8a7b
-source-git-commit: fd42ac97be05df9499ea3214642099738ccc69b1
+source-git-commit: 1c2e382908ed8fead7c2222e8d46988656df29c4
 workflow-type: tm+mt
-source-wordcount: '346'
+source-wordcount: '350'
 ht-degree: 0%
 
 ---
 
-# Een verzoek uit vorige gegevens automatisch invullen
+# Een aanvraag automatisch aanvullen met gegevens uit eerdere aanvragen
 
 >[!NOTE]
 >
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 Met AI kunt u aanvraagvelden automatisch invullen op basis van eerdere aanvragen. U kunt deze suggesties goedkeuren of verwerpen alvorens het verzoek in te dienen.
 
-Met Automatisch vullen worden geen velden overschreven die u al hebt ingevuld.
+Met Automatisch aanvullen overschrijft u geen velden die u al hebt ingevuld.
 
 Gebruikers ontvangen geen suggesties voor gegevens waartoe zij anders geen toegang hebben.
 
@@ -65,7 +65,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 ## Suggesties ophalen bij het invullen van het formulier
 
-Als u het formulier automatisch invult, kunt u aangeven welke veldwaarden u wilt gebruiken. Als u waarden invoert in de aanvraagvelden, vergelijkt Workfront deze waarden met eerdere aanvragen. Als de ingevoerde waarde in eerdere verzoeken in een vergelijkbare context nauw samenvalt met andere veldwaarden, stelt Workfront deze waarden voor.
+Met Automatisch aanvullen kunt u veldwaarden voorstellen terwijl u het formulier invult. Als u waarden invoert in de aanvraagvelden, vergelijkt Workfront deze waarden met eerdere aanvragen. Als de ingevoerde waarde in eerdere verzoeken in een vergelijkbare context nauw samenvalt met andere veldwaarden, stelt Workfront deze waarden voor.
 
 Als een kliniek bijvoorbeeld altijd dezelfde factureringscode gebruikt, suggereert Workfront dat factureringscode in het juiste veld wordt gebruikt wanneer de naam van de kliniek wordt ingevoerd.
 
@@ -79,7 +79,7 @@ Op eerdere verzoeken gebaseerde suggesties gebruiken:
 
    Terwijl u velden invult, kunnen in andere velden suggesties worden weergegeven.
 
-1. Voor elke gebiedssuggestie, keurt de uitgezochte **&#x200B;**&#x200B;goed of **verwerpt** voor dat gebied.
+1. Voor elke gebiedssuggestie, keurt de uitgezochte **** goed of **verwerpt** voor dat gebied.
 
    ![ Accepteer of verwerp suggestie ](assets/accept-reject-suggestion.png)
 
