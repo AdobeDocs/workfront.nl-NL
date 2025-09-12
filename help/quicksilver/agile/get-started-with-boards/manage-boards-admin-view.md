@@ -5,9 +5,9 @@ title: De Admin-weergave voor raden beheren
 description: De mening van Admin van Boards bevat een lijst van elke Raad in uw rekening die de Beheerders van het Systeem kunnen gebruiken om een snelle momentopname van de algemene details van Boards te krijgen.
 author: Jenny
 feature: Agile
-source-git-commit: 464700fc84ee3d687d903a0c1f677ebbef11be60
+source-git-commit: 56263c3f868e7abdaf973c5c03411a2e63ba645d
 workflow-type: tm+mt
-source-wordcount: '617'
+source-wordcount: '618'
 ht-degree: 0%
 
 ---
@@ -38,8 +38,13 @@ Vanuit dit gebied kunt u de volgende handelingen uitvoeren:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie</td> 
-   <td> <p>Medewerker of hoger </p>
-        <p> Aanvraag of hoger </p></td> 
+   <td> <p>Standard</p>
+        <p> Plan </p></td> 
+  </tr> 
+    <tr> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
+   <td> <p>Systeembeheerder </p>
+        </td> 
   </tr> 
  </tbody> 
 </table>
