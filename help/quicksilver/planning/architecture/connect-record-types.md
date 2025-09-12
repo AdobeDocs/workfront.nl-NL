@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: bfb0fd2956ffb9384a09882864668d5dba33a53b
 workflow-type: tm+mt
-source-wordcount: '2499'
+source-wordcount: '2512'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ Voor een voorbeeld van het verbinden van verslagtypes en verslagen, zie [ Voorbe
 
 ## Toegangsvereisten
 
-+++ Vouw uit om de vereisten voor toegang weer te geven.
++++ Vouw uit om de vereisten voor toegang weer te geven. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -90,7 +90,7 @@ Voor een voorbeeld van het verbinden van verslagtypes en verslagen, zie [ Voorbe
   </tr> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront-licentie*</p></td> 
-   <td> <p>Standaard</p> 
+   <td> <p>Standard</p> 
    <p>Workfront Planning is niet beschikbaar voor oudere Workfront-licenties</p> 
   </td> 
   </tr> 
@@ -159,61 +159,78 @@ Voor een voorbeeld van het verbinden van verslagtypes en verslagen, zie [ Voorbe
 
      ![ de verbindingsselectie van AEM Assets ](assets/aem-assets-connection-selection.png)
 
-1. Werk de volgende gegevens bij:
+     Er wordt een tabblad Nieuwe verbinding geopend voor de geselecteerde record of het geselecteerde objecttype.
 
-   * **Naam**: De naam van verbonden gebied, aangezien het in de lijstmening of de verslagpagina van het originele verslagtype zal verschijnen. Hiermee maakt u de gekoppelde recordkolom in de tabelweergave van het oorspronkelijke recordtype of het gekoppelde recordveld voor de oorspronkelijke records. Standaard is de naam van het veld de naam van de record of het object waarmee u verbinding maakt.
+1. Werk het **gebied van de Naam** met de naam van het nieuwe verbonden gebied bij, aangezien het in de lijstmening of de verslagpagina van het originele verslagtype zal verschijnen. Hiermee maakt u de verbonden recordkolom (of het gekoppelde veld) in de tabelweergave van het oorspronkelijke recordtype. Standaard is de naam van het veld de naam van de record of het object waarmee u verbinding maakt.
 
    >[!TIP]
    >
    >U kunt meerdere verbindingen met hetzelfde record- of objecttype hebben. Als u de naam van het verbonden veld niet bewerkt, voegt Workfront een cijfer toe achter de naam van de verbonden record om het aantal verbonden recordtypen aan te geven met dezelfde naam.
 
-   * **Beschrijving**: De extra informatie over het verbonden verslaggebied. De beschrijving van een veld wordt weergegeven wanneer u de cursor op de kolom van het veld in een tabel plaatst.
-   * **staat veelvoudige verslagen** toe: Selecteer deze optie om erop te wijzen dat u gebruikers toestaat om veelvoudige verslagen toe te voegen wanneer het verbonden verslagtype gebiedvertoningen op de originele verslagen. Dit is standaard geselecteerd.
+1. Werk het **gebied van de Beschrijving** bij door informatie over het verbonden verslaggebied toe te voegen. De beschrijving van een veld wordt weergegeven wanneer u de cursor op de kolom van het veld in een tabel plaatst.
+1. (Voorwaardelijk) wanneer u verslagtypes van twee verschillende werkruimten of een verslag en een de activavoorwerp van Adobe Experience Manager verbindt, selecteer **toestaan veelvoudige verslagen**. Als u deze optie selecteert, geeft u aan dat gebruikers meerdere records mogen toevoegen wanneer het veld voor het verbonden recordtype wordt weergegeven op de oorspronkelijke records. Dit is standaard geselecteerd.
 
-     Deze optie is alleen beschikbaar wanneer u records verbindt vanuit twee verschillende werkruimten of een record en een Adobe Experience Manager-asset-object.
+   ![ Nieuwe verbinding om veelvoudige archiefdoos ](assets/new-connection-allow-multiple-records-box.png) toe te staan
 
-     ![ Nieuwe verbinding om veelvoudige archiefdoos ](assets/new-connection-allow-multiple-records-box.png) toe te staan
+1. (Voorwaardelijk) wanneer u verslagtypes van de zelfde werkruimte, of een het verslagtype van de Planning met een objecten van Workfront type verbindt, selecteer één van de volgende **het type van Verbinding** opties om erop te wijzen hoeveel verslagengebruikers met en van kunnen verbinden:
 
-   * **het type van Verbinding**: Selecteer één van de volgende opties om erop te wijzen hoeveel verslagen zij met en van kunnen verbinden:
+   * Veel tot veel
+   * Eén naar vele
+   * Vele tot één
+   * Eén op één
 
-      * Veel tot veel
-      * Eén naar vele
-      * Vele tot één
-      * Eén op één
+   ![ Velen aan vele verbindingsplukker ](assets/many-to-many-connection-picker.png)
 
-     Deze optie is alleen beschikbaar wanneer u records verbindt vanuit dezelfde werkruimte of een record en een Workfront-objecttype.
+   Voor meer informatie over verbindingstypes, zie [ Verbonden overzicht van verslagtypes ](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
 
-     ![ Velen aan vele verbindingsplukker ](assets/many-to-many-connection-picker.png)
-
-     Voor meer informatie over verbindingstypes, zie [ Verbonden overzicht van verslagtypes ](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
-
-     >[!NOTE]
-     >
-     > Als u een-op-een of een-op-een selecteert voor het verbindingstype en u later een record of een object wilt verbinden dat al ergens anders is verbonden, ontvangt u een waarschuwing dat het opnieuw verbinden van de record de oorspronkelijke verbinding zal verwijderen. U kunt het verwijderen toestaan of een andere record selecteren.
-
-   * **Uitgezochte raadplegingsgebieden**: Selecteer deze optie om gebieden van het geselecteerde verslagtype toe te voegen. De opzoekvelden zijn velden die zijn gekoppeld aan het record- of objecttype waarnaar u een koppeling maakt. Als u deze koppelt, wordt informatie weergegeven uit de record of het object waarnaar u een koppeling maakt in de record waarvan u een koppeling maakt. Dit is standaard geselecteerd.
-
-   >[!TIP]
+   >[!NOTE]
    >
-   >* U kunt geen Workfront-tekstkopvelden (zoals velden zoals Projecteigenaar of Projectsponsor) toevoegen als opzoekvelden.
-   >
-   >* De gegevens van het datumveld van Workfront-objecten worden weergegeven in de 24-uursnotatie van Workfront, ongeacht hoe deze worden weergegeven in Workfront.
-   >
-   >   Bijvoorbeeld, als de Geplande Datum van het Begin van een project als 3 :00 PM in Workfront toont, zal het als 15 :00 in de Planning van Workfront op een ingevoerd raadplegingsgebied tonen.
+   > Als u een-op-een of een-op-een selecteert voor het verbindingstype en u later een record of een object wilt verbinden dat al ergens anders is verbonden, ontvangt u een waarschuwing dat het opnieuw verbinden van de record de oorspronkelijke verbinding zal verwijderen. U kunt het verwijderen toestaan of een andere record selecteren.
 
-1. (Voorwaardelijk en facultatief) als u selecteerde om een voorwerp van Workfront te verbinden, selecteer de vorm van de a **Douane** van de **slechts voorwerpen van de Verbinding die deze criteria** sectie aanpassen. Alleen objecten waaraan de geselecteerde aangepaste formulieren zijn gekoppeld, kunnen worden gekoppeld aan het geselecteerde recordtype. U kunt meerdere formulieren selecteren.
+
+   <!-- 
+        at the release to preview, replace the step above with this step; be careful with the numbering and ensure it keeps the correct step number in the preview window in MKD; there are spaces to be added between paragraphs too, when you make this live: 
+    1. (Conditional) When you connect record types from the same workspace, or a Planning record type with a Workfront object type, do one of the following, depending on which environment you are using: 
+        * In the Production environment, select one of the following **Connection type** options to indicate how many records users can connect to and from:
+            * Many to many
+            * One to many
+            * Many to one
+            * One to one      
+            ![Many to many connection picker](assets/many-to-many-connection-picker.png)
+        <div class="preview">
+        * In the Preview environment, do the following: 
+            1. Select one of the following:
+                * **Multi-select**: Select this to allow one record from the current record type to connect with multiple records from the connection record type.
+                * **Single-select**: Select this to allow one record from the current record type to connect with one record from the connection record type.
+            2. Enable the **Create corresponding field on linked record type**. When enabled, a connection field is created on the record type you are connected to, in addition to the connection field added to the current record type. This is disabled by default.
+                    >[!TIP]
+                    >
+                    >There is a limit of 500 connections for one record type. We recommend to keep this setting off, especially for taxonomical record types, to avoid reaching this limit. 
+            3. (Conditional) If you enabled **Create corresponding field on linked record type**, choose from the following options to indicate how many records users can connect to and from:
+                * Many to many
+                * One to many
+                * Many to one
+                * One to one  
+            </div>       
+             For more information about connection types, see [Connected record types overview](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
+                >[!NOTE]
+                >
+                >If you select One to many or One to one for the Connection type and you later want to connect a record or an object that is already connected elsewhere, you will receive a warning that connecting it again will remove it from the original connection. You can allow the removal or select another record.-->
+
+1. (Voorwaardelijk en facultatief) wanneer u selecteert om een voorwerp van Workfront te verbinden, kies de vorm van de a **Douane** van de **slechts voorwerpen van de Verbinding die deze criteria** sectie aanpassen. Alleen objecten waaraan de geselecteerde aangepaste formulieren zijn gekoppeld, kunnen worden gekoppeld aan het geselecteerde recordtype. U kunt meerdere formulieren selecteren.
 
    >[!NOTE]
    >
    > U moet in Workfront aangepaste formulieren maken voor de geselecteerde objecten voordat ze in deze lijst worden weergegeven.
 
-1. (Voorwaardelijk) als u selecteerde om met Experience Manager Assets te verbinden, selecteer een bewaarplaats van de **bewaarplaats van Experience Manager** drop-down menu in de **activa van de Verbinding van de volgende bewaarplaats** sectie. Dit is een verplicht veld. Alleen repositories waartoe u toegang hebt in Experience Manager Assets-weergave in dit veld.
+1. (Voorwaardelijk) wanneer u om met Experience Manager Assets selecteert te verbinden, kies een bewaarplaats van de **bewaarplaats van Experience Manager** drop-down menu in de **activa van de Verbinding van de volgende bewaarplaats** sectie. Dit is een verplicht veld. Alleen repositories waartoe u toegang hebt in Experience Manager Assets-weergave in dit veld.
 
    >[!NOTE]
    >
-   >Uw Workfront-beheerder kan Workfront-planningsvelden toewijzen aan Experience Manager Assets-velden via de metagegevenstoewijzing in Workfront. Voor meer informatie, zie [ activa meta-gegevensafbeelding tussen Adobe Workfront en Experience Manager Assets ](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping) vormen.
+   >Uw Workfront-beheerder kan Workfront-planningsvelden toewijzen aan Experience Manager Assets-velden via de metagegevenstoewijzing in Workfront. Voor meer informatie, zie [ activa meta-gegevensafbeelding tussen Adobe Workfront en Experience Manager Assets ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping) vormen.
 
-1. (Voorwaardelijk) als u selecteerde om met Experience Manager Assets of met een het verslagtype van de Planning van Workfront te verbinden, selecteer één van de volgende opties op het **vormgeving van het Verslag** gebied:
+
+1. (Voorwaardelijk) wanneer u om met Experience Manager Assets of met een het verslagtype van de Planning van Workfront selecteert te verbinden, kies één van de volgende opties in het **vormgeving van het Verslag** gebied:
 
    * **Naam en beeld**: Zowel zullen de naam als de duimnagel of het pictogram van de verbonden verslagen op het verbonden verslaggebied tonen. Dit is de standaardoptie.
    * **Naam**: Slechts zal de naam van de verbonden verslagen op het verbonden verslaggebied tonen.
@@ -230,6 +247,16 @@ Voor een voorbeeld van het verbinden van verslagtypes en verslagen, zie [ Voorbe
    >* Een recordweergave selecteren is niet beschikbaar wanneer u Workfront-objecttypen selecteert.
    >
    >* Wat u in het vormgevingsgebied Opnemen selecteert, bepaalt hoe de records overal in het systeem worden weergegeven in verbindingen, inclusief alle weergaven en detailpagina&#39;s.
+
+1. Selecteer de **Uitgezochte raadplegingsgebieden** om gebieden van het verslagtype toe te voegen u met verbindt. De opzoekvelden zijn velden die zijn gekoppeld aan het record- of objecttype waarnaar u een koppeling maakt. Als u deze koppelt, wordt informatie weergegeven uit de record of het object waarnaar u een koppeling maakt in de record waarvan u een koppeling maakt. Dit is standaard geselecteerd.
+
+   >[!TIP]
+   >
+   >* U kunt geen Workfront-tekstkopvelden (zoals velden zoals Projecteigenaar of Projectsponsor) toevoegen als opzoekvelden.
+   >
+   >* De gegevens van het datumveld van Workfront-objecten worden weergegeven in de 24-uursnotatie van Workfront, ongeacht hoe deze worden weergegeven in Workfront.
+   >
+   >   Bijvoorbeeld, als de Geplande Datum van het Begin van een project als 3 :00 PM in Workfront toont, zal het als 15 :00 in de Planning van Workfront op een ingevoerd raadplegingsgebied tonen.
 
 1. Klik **creëren**.
 
@@ -318,13 +345,15 @@ Voor een voorbeeld van het verbinden van verslagtypes en verslagen, zie [ Voorbe
 
      Bijvoorbeeld, als u een type van het verslagverslag van de Campagne met een type van het Verslag van het Programma koppelde en het Programma verbonden verslaggebied &quot;Informatie van het Programma,&quot;toen selecteerde om het gebied van de Begroting van het Programma in de de lijstmening van de Campagne ook te tonen, wordt het verbonden gebied automatisch genoemd `Budget (from Program information)` in de de lijstmening van de campagne.
 
-   * Wanneer u recordtypen aan elkaar koppelt, wordt ook een gekoppeld recordveld toegevoegd aan het recordtype waarnaar u een koppeling maakt. De naam van het gekoppelde recordveld in het gekoppelde recordtype is de naam van het recordtype dat u koppelt.
+   * Wanneer u recordtypen aan elkaar koppelt, wordt ook een gekoppeld recordveld toegevoegd aan het recordtype waarnaar u een koppeling maakt. <!--<span class="preview">only when you enable the Create corresponding field on linked record type setting.</span>--> De naam van het gekoppelde recordveld in het gekoppelde recordtype is de naam van het recordtype waaruit u een koppeling tot stand brengt.
 
      Als u bijvoorbeeld het recordtype &quot;Product&quot; koppelt aan het recordtype &quot;Campagne&quot; en u het gekoppelde veld van de campagne &quot;Gekoppeld product&quot; een naam hebt gegeven, wordt een veld &quot;Campagne&quot; met gekoppelde records gemaakt voor het recordtype product.
 
      >[!TIP]
      >
-     > Er wordt geen gekoppeld recordveld gemaakt voor objecten van een andere toepassing naar het recordtype waarvan u een koppeling maakt in Workfront Planning.
+     > Er wordt geen gekoppeld recordveld gemaakt voor objecten van een andere toepassing naar het recordtype waarvan u een koppeling maakt in Workfront Planning. <!--<span class="preview">We recommend not creating links on taxonomical record types, as there is a 500 connection field limit for every record type.</span>-->
+
+   <!--see the span preview text in the TIP above; it might not show up in green-->
 
 1. (Optioneel en voorwaardelijk) Klik in de tabelweergave van het oorspronkelijke recordtype of het gekoppelde recordtype op de pijl omlaag in de koptekst van de gekoppelde recordvelden en klik vervolgens op een van de volgende opties:
 

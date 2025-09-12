@@ -6,7 +6,7 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: ff5bc262a5ed2a22099c058ebdb61bc32485b201
+source-git-commit: bfb0fd2956ffb9384a09882864668d5dba33a53b
 workflow-type: tm+mt
 source-wordcount: '2701'
 ht-degree: 0%
@@ -166,7 +166,7 @@ Voor informatie, zie [ verslagen ](/help/quicksilver/planning/records/create-rec
    >  * Gekoppelde velden die worden gemaakt door het verbinden van recordtypen. Voor meer informatie, zie [ Connect verslagtypes ](/help/quicksilver/planning/architecture/connect-record-types.md).
    >  * Velden van de volgende typen: Gemaakt door, Gemaakt op datum, Laatst gewijzigd door, Datum Laatst gewijzigd, Formule.
 
-1. (Facultatief en voorwaardelijk) wanneer u een alinea-type gebied uitgeeft, gebruik de volgende **het formatteren opties van de Tekst 0&rbrace; Rich &lbrace;:**
+1. (Facultatief en voorwaardelijk) wanneer u een alinea-type gebied uitgeeft, gebruik de volgende **het formatteren opties van de Tekst 0} Rich {:**
 
    * Vet
    * Cursief
@@ -246,7 +246,7 @@ Voor informatie, zie [ verslagen ](/help/quicksilver/planning/records/create-rec
 <!--add another step about drag and drop here when that is available-->
 
 1. Open de pagina met recordtypen in een kalenderweergave. Voor informatie, zie [ de kalendermening ](/help/quicksilver/planning/views/manage-the-calendar-view.md) leiden.
-1. <span class="preview"> (Voorwaardelijk) Houd de muisaanwijzer boven de uiteinden van de balk met records in de maandelijkse kalenderweergave, klik, sleep de marges naar een andere datum en zet deze neer. Hiermee werkt u automatisch de begin- of einddatum van de record bij.</span>  <!--when the calendar weekly resize is released to Preview, take out "monthly" from the sentence above-->
+1. <span class="preview"> (Voorwaardelijk) Houd de muisaanwijzer boven de uiteinden van de balk met records in de maandelijkse kalenderweergave, klik, sleep de marges naar een andere datum en zet deze neer. Hiermee werkt u automatisch de begin- of einddatum van de record bij.</span>  <!--when the calendar weekly resize is released to Preview, take out "monthly" from the sentence above, at preview release-->
 
    <span class="preview">![ Linker-eind bar op kalendermening resize ](assets/left-end-bar-handle-to-resize-calendar-monthly-view.png)</span>
 

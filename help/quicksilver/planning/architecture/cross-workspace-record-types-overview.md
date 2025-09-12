@@ -3,9 +3,9 @@ title: Overzicht recordtypen tussen werkruimten
 description: De gecentraliseerde verslagtypes kunnen aan veelvoudige werkruimten van een centrale of primaire werkruimte in de Planning van Adobe Workfront worden toegevoegd.
 hidefromtoc: true
 hide: true
-source-git-commit: ff5bc262a5ed2a22099c058ebdb61bc32485b201
+source-git-commit: bfb0fd2956ffb9384a09882864668d5dba33a53b
 workflow-type: tm+mt
-source-wordcount: '1320'
+source-wordcount: '1356'
 ht-degree: 0%
 
 ---
@@ -25,6 +25,13 @@ In de Planning van Adobe Workfront, kunt u dwars-werkruimtemogelijkheden voor ee
 Hieronder vindt u de mogelijkheden van recordtypen tussen werkruimten:
 
 * U kunt een recordtype instellen als gecentraliseerd. Gebruikers kunnen gecentraliseerde recordtypen toevoegen aan andere werkruimten die zij kunnen beheren.
+
+  >[!IMPORTANT]
+  >
+  >U moet beschikken over een Workfront Planning Plus-pakket, naast een Workfront-pakket om gecentraliseerde recordtypen te kunnen gebruiken.
+  >
+  >Neem contact op met uw Workfront-accountmanager voor meer informatie over wat er in elk Workfront-planningspakket wordt opgenomen.
+
 * U kunt een recordtype aanwijzen als aanpasbaar. Gebruikers kunnen vanuit andere werkruimten verbinding maken met dit recordtype.
 
 In dit artikel vindt u een overzicht van recordtypen tussen werkruimten. Voor informatie over het bepalen van de mogelijkheden van de dwars-werkruimte van een verslagtype, zie [ mogelijkheden van de dwars-werkruimte voor verslagtypes ](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md) vormen.

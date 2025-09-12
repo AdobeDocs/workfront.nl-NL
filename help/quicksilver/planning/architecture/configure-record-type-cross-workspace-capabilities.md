@@ -4,9 +4,9 @@ description: U kunt instellen dat een recordtype wordt toegevoegd aan een andere
 hidefromtoc: true
 hide: true
 exl-id: d36ab9fb-0275-483d-97be-0a88e170f8e0
-source-git-commit: ff5bc262a5ed2a22099c058ebdb61bc32485b201
+source-git-commit: bfb0fd2956ffb9384a09882864668d5dba33a53b
 workflow-type: tm+mt
-source-wordcount: '1134'
+source-wordcount: '1124'
 ht-degree: 0%
 
 ---
@@ -83,11 +83,11 @@ Zie een van de volgende artikelen voor meer informatie:
 <ul><li><p>Willekeurig Workfront-pakket</p></li>
 en
 <li><p>Planning Plus-pakket</p></li></ul>
-Of:
-<ul><li><p>Willekeurig workflowpakket</p> </li>
-en
-<li><p>Prime- of Ultimate-pakket plannen</p></li></ul>
-<p>Neem contact op met uw Workfront-accountmanager voor meer informatie over wat er in elk Workfront-planningsplan is opgenomen. </p> 
+<!--Or:
+<ul><li><p>Any Workflow package</p> </li>
+And
+<li><p>Planning Prime or Ultimate package</p></li></ul>-->
+<p>Neem contact op met uw Workfront-accountmanager voor meer informatie over wat er in elk Workfront-planningspakket wordt opgenomen. </p> 
    </td>
 
 <tr> 

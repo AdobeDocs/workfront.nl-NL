@@ -4,9 +4,9 @@ description: Recordtypen zijn de objecttypen voor Adobe Workfront Planning. In d
 hidefromtoc: true
 hide: true
 exl-id: b977d5dd-8975-42c4-9968-a7ac357972e6
-source-git-commit: ff5bc262a5ed2a22099c058ebdb61bc32485b201
+source-git-commit: bfb0fd2956ffb9384a09882864668d5dba33a53b
 workflow-type: tm+mt
-source-wordcount: '630'
+source-wordcount: '620'
 ht-degree: 0%
 
 ---
@@ -55,11 +55,11 @@ Alvorens verslagen aan een werkruimte van een gecentraliseerd verslagtype toe te
 <ul><li><p>Willekeurig Workfront-pakket</p></li>
 en
 <li><p>Planning Plus-pakket</p></li></ul>
-Of:
-<ul><li><p>Willekeurig workflowpakket</p> </li>
-en
-<li><p>Prime- of Ultimate-pakket plannen</p></li></ul>
-<p>Neem contact op met uw Workfront-accountmanager voor meer informatie over wat er in elk Workfront-planningsplan is opgenomen. </p> 
+<!--Or:
+<ul><li><p>Any Workflow package</p> </li>
+And
+<li><p>Planning Prime or Ultimate package</p></li></ul>-->
+<p>Neem contact op met uw Workfront-accountmanager voor meer informatie over wat er in elk Workfront-planningspakket wordt opgenomen. </p> 
    </td>
 
 <tr> 

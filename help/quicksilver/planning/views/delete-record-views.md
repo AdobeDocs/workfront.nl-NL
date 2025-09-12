@@ -6,7 +6,7 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: f86971bc-e807-459e-9fa8-dc34967bc069
-source-git-commit: 10fec10e1bb885ac20e1ef9526cfa8a59086d874
+source-git-commit: bfb0fd2956ffb9384a09882864668d5dba33a53b
 workflow-type: tm+mt
 source-wordcount: '312'
 ht-degree: 0%
@@ -28,7 +28,7 @@ De weergave wordt verwijderd voor alle gebruikers die toegangsrechten hebben. Ve
 
 ## Toegangsvereisten
 
-+++ Vouw uit om de vereisten voor toegang weer te geven.
++++ Vouw uit om de vereisten voor toegang weer te geven. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -69,7 +69,7 @@ De weergave wordt verwijderd voor alle gebruikers die toegangsrechten hebben. Ve
   </tr> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront-licentie*</p></td> 
-   <td><p> Standaard </p>
+   <td><p> Standard </p>
    <p>Workfront Planning is niet beschikbaar voor oudere Workfront-licenties</p> 
   </td> 
   </tr> 
@@ -88,7 +88,7 @@ De weergave wordt verwijderd voor alle gebruikers die toegangsrechten hebben. Ve
 
 *Voor meer informatie over de toegangsvereisten van Workfront, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-+++
++++   
 
 ## Een recordweergave verwijderen
 
@@ -112,6 +112,10 @@ De weergave wordt verwijderd voor alle gebruikers die toegangsrechten hebben. Ve
    >
    >U zou **Meer** aan het recht van het laatste lusje kunnen moeten klikken om de mening te vinden u wilt schrappen.
 
+   <!--at preview release, replace the step above with this one: 
+    1. Depending on which environment you use, do the following: 
+    * In the Production environment, hover over one the of the view's names in the view tab, then click **More** ![More menu](assets/more-menu.png) to the left of the view name, then click **Delete**. 
+    * <span class="preview">In the Preview environment, click the dropdown icon ![Dropdown icon](assets/drop-down-icon.png) next to the current view name, hover over the name of a view, click **More**, then **Delete**.</span>-->
 
 1. Klik **Schrapping** om te bevestigen. <!--ensure there is not another saving step here?!-->
 
