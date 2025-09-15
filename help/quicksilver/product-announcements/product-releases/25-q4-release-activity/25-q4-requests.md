@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bd73b7df-ad4e-43dc-8ddf-23e0da24ec0f
-source-git-commit: a6aa03157d44da8267faaa77bed83f07a03a24b3
+source-git-commit: 3c21d2ac594d4dfe309ed4227e46a9cb535f0501
 workflow-type: tm+mt
-source-wordcount: '341'
+source-wordcount: '367'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,11 @@ Zie voor meer informatie over het maken van aanvragen:
 >* Snelle productie: 11 september 2025
 >* Productie voor alle afnemers: 16 oktober 2025
 
-Om een betere gebruikerservaring te creëren wanneer het doen van verzoeken in de Planning van Workfront en Workfront, hebben wij de het vragen ervaring bijgewerkt. Nu kunt u:
+Om een betere gebruikerservaring te creëren wanneer het doen van verzoeken in de Planning van Workfront en Workfront, hebben wij de het vragen ervaring bijgewerkt.
+
+Als u de nieuwe ervaring wilt gebruiken, schakelt u in het gedeelte Verzoeken de optie Nieuwe ervaring gebruiken in en uit in de rechterbovenhoek van het scherm.
+
+In de nieuwe ervaring kunt u:
 
 * Bekijk Workfront- en Workfront-planningsverzoeken in één lijst.
 * Verzonden aanvragen filteren op basis van criteria die u opgeeft.
