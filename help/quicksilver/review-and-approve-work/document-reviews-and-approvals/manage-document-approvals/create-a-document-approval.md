@@ -6,7 +6,7 @@ description: U kunt goedkeuring aanvragen bij andere gebruikers voor een documen
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: a02699e1-3557-47f0-89b7-dbecb507a174
-source-git-commit: 8270a107ba2501eddbb27f52c843c337aa1f8a99
+source-git-commit: 3fc3b1421882261a58a1984c9df410896d596062
 workflow-type: tm+mt
 source-wordcount: '504'
 ht-degree: 0%
@@ -60,7 +60,6 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 1. Houd de muis boven het document en klik vervolgens op Documentdetails.
    ![ de details van het Document ](assets/doc-details.png)
 
-
 1. Selecteer bij de documentnaam de versie van het document waarvoor u een goedkeuring wilt maken in het vervolgkeuzemenu. De meest recente versie wordt standaard geselecteerd.
 
 1. Klik **goedkeurt** in de linkerruit.
@@ -69,7 +68,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 1. Om een fiatteur toe te voegen, klik **Approver** en begin typend in een gebruiker of teamnaam.
 
-1. Om een recensent toe te voegen, klik **checkbox 0&rbrace; Recensent &lbrace;en begin typend in een gebruiker of teamnaam.**
+1. Om een recensent toe te voegen, klik **checkbox 0} Recensent {en begin typend in een gebruiker of teamnaam.**
 
    ![ voeg fiatteur en deadline ](assets/add-approver-and-deadline.png) toe
 
@@ -91,7 +90,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 1. Om een fiatteur toe te voegen, klik **Approver** en begin typend in een gebruiker of teamnaam.
 
-1. Om een recensent toe te voegen, klik **checkbox 0&rbrace; Recensent &lbrace;en begin typend in een gebruiker of teamnaam.**
+1. Om een recensent toe te voegen, klik **checkbox 0} Recensent {en begin typend in een gebruiker of teamnaam.**
 
    ![ voeg fiatteur en deadline ](assets/add-approver-and-deadline.png) toe
 

@@ -1,21 +1,21 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Beschikbare functionaliteit voor het reviseren en goedkeuren van middelen en documenten
+title: Beschikbare functionaliteit voor uniforme documentgoedkeuringen
 description: Overzicht van de systemen die beschikbaar zijn voor controle en goedkeuring in Workfront.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 37745149-b369-445d-bb39-f5ed790d2fae
-source-git-commit: 7f24186c8803237a6f5116293b3c6a5fd1ea90f6
+source-git-commit: c55af795069a05de3eb3d0d8599ab61f00168ddc
 workflow-type: tm+mt
-source-wordcount: '356'
+source-wordcount: '367'
 ht-degree: 0%
 
 ---
 
-# Beschikbare functionaliteit voor het reviseren en goedkeuren van middelen en documenten
+# Beschikbare functionaliteit voor uniforme documentgoedkeuringen
 
-Er zijn momenteel drie verschillende systemen beschikbaar in Workfront for Asset en Document review en -goedkeuringen:
+Er zijn momenteel drie verschillende systemen beschikbaar in Workfront voor uniforme documentgoedkeuringen:
 
 * [Goedkeuringen van oudere documenten](#legacy-document-approvals)
 
@@ -58,9 +58,11 @@ Voor meer informatie over het gebruiken van de het proeven kijker, zie [ Verenig
 * De Dashboards van het Canvas van het gebruik, momenteel in bèta, om rapportdetails over Verenigde Goedkeuringen te bekijken
 Voor meer informatie bij het melden, zie [ een rapportdashboard voor overzicht en goedkeuringen ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md) creëren.
 
-* Creeer veelvoudige stadium goedkeuringen [!BADGE &#x200B; Binnenkort &#x200B;]{type=Informative}
+* Creeer veelvoudige stadium goedkeuringen [!BADGE  Binnenkort ]{type=Informative}
 
 * De de overzicht en goedkeuringsverzoeken van de toegang in Mijn widget goedkeuringen in het gebied van het Huis
+
+* Gebruik de AI Reviewer om beoordelingen van de naleving van de merk te automatiseren. Voor meer informatie, zie [ begonnen worden met de Reviewer van Workfront AI ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md).
 
 
 ## Goedkeuringen van proefdrukken

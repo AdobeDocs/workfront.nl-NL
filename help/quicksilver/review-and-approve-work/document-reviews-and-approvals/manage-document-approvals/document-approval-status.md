@@ -6,9 +6,9 @@ description: Documentbeslissingsstatus wordt vermeld en toegelicht
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 30a10ed9-ae11-4ff1-a66c-58ea94fe9959
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: fcdb935b148ed7f8b9c49476f099f8285e02b0b5
 workflow-type: tm+mt
-source-wordcount: '167'
+source-wordcount: '178'
 ht-degree: 0%
 
 ---
@@ -98,6 +98,7 @@ De volgende statussen zijn beschikbaar:
                                 <p>Ten minste één fiatteur heeft een beslissing genomen van "Goedgekeurd met wijzigingen"</p>
                                 <p>Andere fiatteurs kunnen besluiten van "Goedgekeurd"
                             </li>
+                            <p>Opmerking: deze optie is niet beschikbaar als u de integratie Frame.io gebruikt voor revisie en goedkeuring.</p>
                         </ul>
                     </td>
                 </tr>
@@ -106,9 +107,9 @@ De volgende statussen zijn beschikbaar:
                     </td>
                     <td>
                         <ul>
-                            <li>
-                                <p>Alle goedkeuringen en beoordelingen zijn voltooid</p>
-                            </li>
+                           <!--<li>
+                                <p>All approvals and reviews are complete</p>
+                            </li>-->
                             <li>
                                 <p>Alle fiatteurs kunnen besluiten dat "goedgekeurd"
                             </li>

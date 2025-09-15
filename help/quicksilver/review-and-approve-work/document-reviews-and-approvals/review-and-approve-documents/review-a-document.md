@@ -6,7 +6,7 @@ description: Als controleur kunt u een voorvertoning weergeven van een document 
 author: Nolan
 feature: Work Management, Digital Content and Documents
 exl-id: 371970e4-cd3e-49b6-8a2d-6cb8fa628679
-source-git-commit: da00226448e0969cec57bf9d525686129d53430e
+source-git-commit: 19003988a8e164db225f8511f567d38e6eeaf627
 workflow-type: tm+mt
 source-wordcount: '596'
 ht-degree: 0%
@@ -73,7 +73,7 @@ Add once functionality is added
 
    Klik **Download** om een lokaal exemplaar van het document op uw apparaat te downloaden.
 
-1. (Facultatief) Zodra u het document hebt herzien, kunt u een commentaar voor de aanvrager in de 1&rbrace; sectie van de Updates van het document **&lbrace;verlaten.** Voor meer informatie bij het becommentariëren, zie [ het werk van de Update ](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+1. (Facultatief) Zodra u het document hebt herzien, kunt u een commentaar voor de aanvrager in de 1} sectie van de Updates van het document **{verlaten.** Voor meer informatie bij het becommentariëren, zie [ het werk van de Update ](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. Om te registreren dat u uw overzicht hebt voltooid, klik **Volledige overzicht**.
 
 ## Een document reviseren vanuit het deelvenster Documentsamenvatting
@@ -92,7 +92,7 @@ Add once functionality is added
 
    Klik **Download** om een lokaal exemplaar van het document op uw apparaat te downloaden.
 
-1. (Facultatief) Zodra u het document hebt herzien, kunt u een commentaar voor de aanvrager in de 1&rbrace; sectie van de Updates van het document **&lbrace;verlaten.** Voor meer informatie bij het becommentariëren, zie [ het werk van de Update ](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+1. (Facultatief) Zodra u het document hebt herzien, kunt u een commentaar voor de aanvrager in de 1} sectie van de Updates van het document **{verlaten.** Voor meer informatie bij het becommentariëren, zie [ het werk van de Update ](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 1. (Facultatief) u kunt een specifieke versie van het document ook voorproef of downloaden door neer aan de **sectie van Versies** van het Summiere paneel van het Document te scrollen, dan klikkend op het Meer pictogram ![ Meer pictogram ](../assets/more-icon.png) naast de versie u **Download** of **Voorproef** zou willen herzien en selecteren.
 1. Om te registreren dat u uw overzicht hebt voltooid, klik **Volledige overzicht**.
@@ -109,3 +109,6 @@ Een document reviseren:
 
 1. Om te registreren dat u uw overzicht hebt voltooid, klik **Volledige overzicht**.
 
+<!--## Review a document from the Frame.io viewer
+
+To review a document from the Frame.io viewer, your Workfront instance must be integrated with Frame.io. For more information, see the [Frame.io integration overview](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/frame-int-overview.md).-->

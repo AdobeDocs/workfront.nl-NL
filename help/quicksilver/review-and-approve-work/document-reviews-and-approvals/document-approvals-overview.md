@@ -1,14 +1,14 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Overzicht van gezamenlijke documentgoedkeuringen
+title: Overzicht van Unified Approval
 description: U kunt extra fiatteurs of revisoren toevoegen aan een document dat al goedkeuringen in behandeling heeft.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
-source-git-commit: 6da80f55fd4314c661c52bb2327ae8fa6c7e55b6
+source-git-commit: c55af795069a05de3eb3d0d8599ab61f00168ddc
 workflow-type: tm+mt
-source-wordcount: '575'
+source-wordcount: '324'
 ht-degree: 0%
 
 ---
@@ -49,30 +49,33 @@ Met Verenigde Goedkeuringen, kunt u
 
 ## Gebruikend Verenigde Goedkeuringen
 
-Voor gebruikers die documentgoedkeuringen tot stand willen brengen of beheren, zie de artikelen die in [ worden vermeld opstelling en beheer activa en documentgoedkeuringen: artikelindex ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/set-up-and-manage-doc-asset-approvals-toc.md)
+Voor gebruikers die documentgoedkeuringen tot stand willen brengen of beheren, zie de artikelen die in [ worden vermeld opstelling en verenigde goedkeuringen beheren: artikelindex ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/set-up-and-manage-doc-asset-approvals-toc.md)
 
 Voor gebruikers die documenten bekijken of goedkeuren waarvoor zij een verzoek hebben ontvangen, zie de artikelen die in [ worden vermeld goedkeuren en documenten herzien: artikelindex ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-documents-toc.md).
 
-## Nieuwe functies en ontwerpdoelstellingen
+<!--
 
->[!VIDEO](https://video.tv.adobe.com/v/3420544/)
+## New features and design goals
 
-* **Inclusieve participatie van belanghebbenden**\
-    De verenigde goedkeuringen staan de opneming van zowel individuele contribuanten als volledige teams in het goedkeuringsproces toe. Het vergemakkelijken van deze bredere participatie zorgt voor een brede betrokkenheid van belanghebbenden en bevordert een beter geïnformeerde en beter op samenwerking gerichte besluitvormingsomgeving.
+>[!VIDEO](https://video.tv.adobe.com/v/3420544/)  
 
-* **Gesplitste overzicht en goedkeuringsrollen**\
-     De verenigde goedkeuringen worden ontworpen om de variërende rollen binnen het goedkeuringsproces te erkennen en te respecteren. Door de capaciteit te verstrekken om recensenten-gebruikers te identificeren en aan te wijzen die worden meegedeeld om terug te geven maar geen besluitvormend gezag hebben-wordt de kwaliteit van terugkoppelen verbeterd terwijl het handhaven van duidelijkheid van definitieve goedkeuringsinstantie.
+* **Inclusive stakeholder participation**\
+    Unified Approvals allow the inclusion of both individual contributors and entire teams in the approval process. Facilitating this broader participation ensures comprehensive stakeholder engagement and fosters a more informed and collaborative decision-making environment.
 
-* **Versie-specifieke goedkeuringen**\
-    Het herhalende karakter van documentontwikkeling leidt vaak tot meerdere versies van hetzelfde document. De verenigde goedkeuringen passen deze realiteit aan door unieke goedkeuringsketens voor elke versie van een document te verstrekken. Zo kunnen gebruikers een nieuwe versie uploaden en zo nodig nieuwe fiatteurs of revisoren toevoegen, zodat feedback en goedkeuring specifiek zijn voor de documentversie en mogelijke verwarring wordt voorkomen.
+* **Differentiated review and approval roles**\
+     Unified Approvals is designed to recognize and respect the varying roles within the approval process. By providing the ability to identify and designate reviewers—users who are notified to provide feedback but do not have decision-making authority—the quality of feedback is enhanced while maintaining clarity of final approval authority.
 
-* **de sporen van de Controle**\
-    Met Verenigde Goedkeuringen, wordt een controletraject van alle goedkeuringsactiviteiten gehandhaafd in de activiteitenstroom, die een waardevolle middel voor toekomstige verwijzing en naleving verstrekken.
+* **Version-specific approvals**\
+    The iterative nature of document development often leads to multiple versions of the same document. Unified Approvals accommodates this reality by providing unique approval chains for each version of a document. This allows users to upload a new version and add new approvers or reviewers as needed, ensuring that feedback and approval are specific to the document version and eliminating potential confusion.
 
-## Releaseplan
+* **Audit trails**\
+    With Unified Approvals, an audit trail of all approval activities is maintained in the activity stream, providing a valuable resource for future reference and compliance.
 
-Wij stellen Verenigde Goedkeuringen ter beschikking van gebruikers tijdens de cursus van verscheidene versies. Naast het toevoegen van nieuwe eigenschappen, zullen wij ook het aantal rekeningen uitbreiden waarvoor Verenigde Goedkeuringen met elke versie beschikbaar zijn.
+## Release plan
 
-Als u Verenigde Goedkeuringen in uw productiemilieu zou willen hebben toegelaten, gelieve uw Succes van de Klant of Strategische Manager van de Rekening te bereiken.
+We are making Unified Approvals available to users over the course of several releases. In addition to adding new features, we will also expand the number of accounts for which Unified Approvals are available with each release.
+
+If you would like to have Unified Approvals enabled in your production environment, please reach out to your Customer Success or Strategic Account Manager.
 
 
+-->
