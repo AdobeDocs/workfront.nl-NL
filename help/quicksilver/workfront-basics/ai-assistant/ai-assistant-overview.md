@@ -1,18 +1,18 @@
 ---
-title: Overzicht van AI-assistent
+title: AI Assistant in Workfront
 content-type: reference
-description: Overzicht van AI-assistent
+description: Meer informatie over AI Assistant in Adobe Workfront
 author: Becky
 feature: Get Started with Workfront
 exl-id: e5f2408b-2c29-4257-8bdc-bf20880de265
-source-git-commit: 945fa710e98b094a37258d5c94f7b1a2eb056abb
+source-git-commit: 657c2aa75d088f87f8e05b5089fccae2577842ee
 workflow-type: tm+mt
-source-wordcount: '825'
+source-wordcount: '831'
 ht-degree: 0%
 
 ---
 
-# Overzicht van AI-assistent
+# AI Assistant in Workfront
 
 Met Workfront AI Assistant kunt u uw werk uitvoeren door informatie en suggesties in een gesprek in een natuurlijke taal aan te bieden. Met AI Assistant kunt u werken vloeiender maken met
 
