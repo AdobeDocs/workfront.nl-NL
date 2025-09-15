@@ -73,7 +73,7 @@ Add once functionality is added
 
    Klik **Download** om een lokaal exemplaar van het document op uw apparaat te downloaden.
 
-1. (Facultatief) Zodra u het document hebt herzien, kunt u een commentaar voor de aanvrager in de 1} sectie van de Updates van het document **{verlaten.** Voor meer informatie bij het becommentariëren, zie [ het werk van de Update ](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+1. (Facultatief) Zodra u het document hebt herzien, kunt u een commentaar voor de aanvrager in de 1&rbrace; sectie van de Updates van het document **&lbrace;verlaten.** Voor meer informatie bij het becommentariëren, zie [ het werk van de Update ](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. Om te registreren dat u uw overzicht hebt voltooid, klik **Volledige overzicht**.
 
 ## Een document reviseren vanuit het deelvenster Documentsamenvatting
@@ -92,7 +92,7 @@ Add once functionality is added
 
    Klik **Download** om een lokaal exemplaar van het document op uw apparaat te downloaden.
 
-1. (Facultatief) Zodra u het document hebt herzien, kunt u een commentaar voor de aanvrager in de 1} sectie van de Updates van het document **{verlaten.** Voor meer informatie bij het becommentariëren, zie [ het werk van de Update ](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+1. (Facultatief) Zodra u het document hebt herzien, kunt u een commentaar voor de aanvrager in de 1&rbrace; sectie van de Updates van het document **&lbrace;verlaten.** Voor meer informatie bij het becommentariëren, zie [ het werk van de Update ](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 1. (Facultatief) u kunt een specifieke versie van het document ook voorproef of downloaden door neer aan de **sectie van Versies** van het Summiere paneel van het Document te scrollen, dan klikkend op het Meer pictogram ![ Meer pictogram ](../assets/more-icon.png) naast de versie u **Download** of **Voorproef** zou willen herzien en selecteren.
 1. Om te registreren dat u uw overzicht hebt voltooid, klik **Volledige overzicht**.

@@ -58,7 +58,7 @@ Voor meer informatie over het gebruiken van de het proeven kijker, zie [ Verenig
 * De Dashboards van het Canvas van het gebruik, momenteel in bèta, om rapportdetails over Verenigde Goedkeuringen te bekijken
 Voor meer informatie bij het melden, zie [ een rapportdashboard voor overzicht en goedkeuringen ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md) creëren.
 
-* Creeer veelvoudige stadium goedkeuringen [!BADGE  Binnenkort ]{type=Informative}
+* Creeer veelvoudige stadium goedkeuringen [!BADGE &#x200B; Binnenkort &#x200B;]{type=Informative}
 
 * De de overzicht en goedkeuringsverzoeken van de toegang in Mijn widget goedkeuringen in het gebied van het Huis
 
