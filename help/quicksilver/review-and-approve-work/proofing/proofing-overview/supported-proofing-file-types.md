@@ -136,7 +136,7 @@ Workfront heeft de volgende limieten:
 
   >[!NOTE]
   >
-  >Er is een bekend probleem met het momenteel niet uploaden van PowerPoint-presentatiebestanden. Als dit probleem optreedt, converteert u het bestand naar PDF en uploadt u de PDF. Voor meer informatie, zie [ Proofs: Kan geen bewijs van een dossier van PowerPoint ](https://experienceleague.adobe.com/en/docs/workfront-known-issues/issues/new-workfront-experience/wf-current/wf-proofs-cannot-generate-from-pptx) produceren.
+  >Er is een bekend probleem met het momenteel niet uploaden van PowerPoint-presentatiebestanden. Als dit probleem optreedt, converteert u het bestand naar PDF en uploadt u de PDF. Voor meer informatie, zie [ Proofs: Kan geen bewijs van een dossier van PowerPoint ](https://experienceleague.adobe.com/nl/docs/workfront-known-issues/issues/new-workfront-experience/wf-current/wf-proofs-cannot-generate-from-pptx) produceren.
 
 
 * PPTX - PowerPoint-presentatie 2007 PS - PostScript-bestand
