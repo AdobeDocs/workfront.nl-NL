@@ -8,18 +8,19 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: aed65b42-d534-453a-885d-f922114987bc
-source-git-commit: 65121fae364683373d2bc9abbe6672755d0cd09c
+source-git-commit: 03c17f2a09f4b2e00a4a03a177ce241b38b9ea7e
 workflow-type: tm+mt
-source-wordcount: '477'
+source-wordcount: '447'
 ht-degree: 0%
 
 ---
 
 # Toegang tot Adobe Workfront beperken tot IP-adres
 
+<!--
 >[!IMPORTANT]
 >
->Deze functionaliteit is momenteel niet beschikbaar voor organisaties die zijn aangemeld bij de Adobe Admin Console. Het zal in een toekomstige release beschikbaar zijn in de Adobe Admin Console.
+>This functionality is not currently available to organizations that have been onboarded to the Adobe Admin Console. It will be available in the Adobe Admin Console in a future release. -->
 
 U kunt een lijst van gewenste personen vormen van Adobe Workfront IP die toegang tot Workfront tot 75 IP adressen of IP adreswaaiers beperkt die u specificeert. Dit biedt een extra beveiligingslaag voor de Workfront-toepassing.
 
@@ -45,7 +46,7 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau</td> 
-   <td> <p>U moet een Workfront-beheerder zijn.</p> <p><b> NOTA </b>: Als u nog geen toegang hebt, vraag uw beheerder van Workfront als zij extra beperkingen in uw toegangsniveau plaatsen. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
+   <td> <p>U moet een Workfront-beheerder zijn.</p> <p><b> Nota </b>: Als u nog geen toegang hebt, vraag uw beheerder van Workfront als zij extra beperkingen in uw toegangsniveau plaatsen. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -66,7 +67,7 @@ Nadat u IP adressen aan de lijst van gewenste personen van Workfront toevoegt, s
 
 1. Klik **Systeem** > **Info van de Klant.**
 
-1. In de **sectie van de lijst van gewenste personen van 0&rbrace; IP, uitgezochte** laat IP lijst van gewenste personen toe.**&#x200B;**
+1. In de **sectie van de lijst van gewenste personen van 0} IP, uitgezochte** laat IP lijst van gewenste personen toe.****
 
    Deze optie is standaard uitgeschakeld.
 
