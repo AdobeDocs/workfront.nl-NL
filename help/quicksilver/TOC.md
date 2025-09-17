@@ -3,9 +3,9 @@ user-guide-title: Handleiding voor Workfront
 user-guide-description: Gebruik de documenten, zelfstudies en aanvullende bronnen om te leren hoe u Adobe Workfront in uw organisatie implementeert en effectief gebruikt.
 role: User
 feature-set: Workfront
-source-git-commit: 5b34ea50fbf4718512a604191202b4ae9521ba86
+source-git-commit: 190481ed57485a5c93a0086cda207a270d05ac23
 workflow-type: tm+mt
-source-wordcount: '13500'
+source-wordcount: '13502'
 ht-degree: 0%
 
 ---
@@ -1154,7 +1154,7 @@ ht-degree: 0%
          * [Elementen en mappen ontkoppelen of verwijderen uit Experience Manager Assets of Elementen.](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/unlink-or-delete-aem-assets.md)
          * [Workflows gebruiken in de integratie met Experience Manager Assets Essentials](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md)
          * [Workfront Fusion gebruiken om een Workfront-uitgave om te zetten in een project dat Adobe Experience Manager-workflows bevat](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-fusion-to-create-project-with-workflows.md)
-         * [ los de Integratie van Adobe Experience Manager  problemen op](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/troubleshoot-aem-asset-integration.md)
+         * [ los de Integratie van Adobe Experience Manager ](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/troubleshoot-aem-asset-integration.md) problemen op
    * Migreren vanaf verouderde of verbeterde connectors {#migrate-from-legacy-enhanced-connectors}
       * [Migreren vanaf verouderde of verbeterde connectors](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/migrate-from-legacy-enhanced-connectors.md)
       * [Migreren van de verouderde of verbeterde aansluiting naar Workfront for Adobe Experience Manager as a Cloud Service-integratie](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/migrate-to-workfont-integration.md)
@@ -1823,7 +1823,7 @@ ht-degree: 0%
       * [Overzicht van Unified Approval](review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)
       * [Overzicht van de beslissingsstatus van het document](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md)
       * [Aan de slag met de Workfront AI Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md)
-      * [Overzicht van Adobe Enterprise Storage Management](/help/quicksilver/review-and-approve-work/esm-overview.md)
+      * [Overzicht van opslag in Adobe-bedrijven](/help/quicksilver/review-and-approve-work/esm-overview.md)
       * Goedkeuringen van middelen en documenten instellen en beheren {#manage-asset-review-and-approval}
          * [Uniforme goedkeuringen instellen en beheren: artikelindex](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/set-up-and-manage-doc-asset-approvals-toc.md)
          * [AI-revisoren maken](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/set-up-ai-reviewer.md)
@@ -1957,6 +1957,7 @@ ht-degree: 0%
          * [Proefversies kunnen niet worden gedownload of bekeken wanneer een interactieve proefdruk wordt toegevoegd als een nieuwe versie](/help/quicksilver/review-and-approve-work/proofing/tips-tricks-and-troubleshooting/static-and-web-proof-downloads.md)
    * Native integratie {#native-integrations}
       * [Native integratie controleren en goedkeuren: artikelindex](/help/quicksilver/review-and-approve-work/native-integrations/review-approva-native-integrations-toc.md)
+      * [Overzicht van de integratie van Frame.io](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/frame-int-overview.md)
       * [Ga aan de slag met het proefdrukken en de GenStudio for Performance Marketing-integratie](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-genstudio.md)
       * [Ga aan de slag met de proefdrukken en Creative Cloud Express](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-express.md)
       * [Begin met de integratie Frame.io](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/get-started-with-frame-integration.md)
@@ -2510,8 +2511,8 @@ ht-degree: 0%
       * [Configureer en gebruik de aangepaste OAuth 2-toepassingen van uw organisatie met behulp van JWT-flow](wf-api/api/oauth-app-jwt-flow.md)
       * [ vorm en gebruik de douane OAuth 2 toepassingen van uw organisatie die de stroom PKCE gebruiken ](wf-api/api/oauth-app-pkce-flow.md)
       * [Vervalsing van API-intern](wf-api/api/deprecation-api-internal.md)
-      * [ wat in API versie 20  nieuw is](wf-api/api/new-api-version-20.md)
-      * [ wat in API versie 19  nieuw is](wf-api/api/new-api-version-19.md)
+      * [ wat in API versie 20 ](wf-api/api/new-api-version-20.md) nieuw is
+      * [ wat in API versie 19 ](wf-api/api/new-api-version-19.md) nieuw is
       * [Nieuwe functies in API-versie 18](wf-api/api/new-api-version-18.md)
       * [Nieuwe functies in API-versie 17](wf-api/api/new-api-version-17.md)
       * [Nieuwe functies in API-versie 16](wf-api/api/new-api-version-16.md)

@@ -6,9 +6,9 @@ description: U kunt Verenigde Goedkeuringen met proef gebruiken.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: be484629-6e70-4809-ad4c-a489d5814da6
-source-git-commit: e20f1b70ffd6c94b302cea6e691337624db497ef
+source-git-commit: 601285fdbf26365dcaea14f990904d049816af21
 workflow-type: tm+mt
-source-wordcount: '881'
+source-wordcount: '847'
 ht-degree: 0%
 
 ---
@@ -97,8 +97,6 @@ Een nieuwe versie toevoegen:
 ## Het bewijs beoordelen en een beslissing nemen
 
 Het document wordt pas naar een goedgekeurde status verplaatst als alle toegewezen fiatteurs &quot;Goedgekeurd&quot; hebben gekozen.
-
-Als een fiatteur &quot;werk nodig heeft&quot; kiest, verandert de status van het document direct in werk in behoefte. Het document moet worden gereviseerd en geüpload als een nieuwe versie met een nieuwe goedkeuringswerkstroom.
 
 Een document controleren en goedkeuren:
 

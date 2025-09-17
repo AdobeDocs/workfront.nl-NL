@@ -8,9 +8,9 @@ feature: Work Management, Digital Content and Documents
 hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 19003988a8e164db225f8511f567d38e6eeaf627
+source-git-commit: 601285fdbf26365dcaea14f990904d049816af21
 workflow-type: tm+mt
-source-wordcount: '606'
+source-wordcount: '570'
 ht-degree: 0%
 
 ---
@@ -62,7 +62,7 @@ Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront
 
 Als controleur kunt u opmerkingen toevoegen aan en elementen markeren. Als je klaar bent, kun je de revisie markeren als voltooid in Workfront. Het is niet nodig de revisie als voltooid te markeren om het actief in het goedkeuringsproces verder te laten gaan.
 
-1. Ga naar uw overzicht e-mailbericht, en klik aan **gaan** herzien.
+1. Ga naar uw overzicht e-mailbericht, en klik **gaan aan overzicht**.
 of
 Ga de homepage van Workfront, vind Mijn widget Goedkeuringen, dan klik **Open overzicht**.
 
@@ -82,11 +82,9 @@ Als fiatteur kunt u opmerkingen toevoegen en maximaal elementen markeren. U moet
 
 Het document wordt pas naar een goedgekeurde status verplaatst als alle toegewezen fiatteurs &quot;Goedgekeurd&quot; hebben gekozen.
 
-Als een fiatteur &quot;Werk nodig&quot; kiest, verandert de status van het document direct in het werk Needs. Het document moet worden gereviseerd en geüpload als een nieuwe versie met een nieuwe goedkeuringswerkstroom.
-
 Beslissen over een document:
 
-1. Ga naar uw overzicht e-mailbericht, en klik aan **gaan** herzien.
+1. Ga naar uw overzicht e-mailbericht, en klik **gaan aan overzicht**.
 of
 Ga de homepage van Workfront, vind Mijn widget Goedkeuringen, dan klik **Open overzicht**.
 

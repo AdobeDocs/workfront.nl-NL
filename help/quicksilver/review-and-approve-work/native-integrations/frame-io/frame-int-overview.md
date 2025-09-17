@@ -8,9 +8,9 @@ feature: Work Management, Digital Content and Documents
 hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 701f3fc2c885363b5f61fb9d77049c7d4c41963d
+source-git-commit: c4e1961092883f523d04adaacd58129a0379783d
 workflow-type: tm+mt
-source-wordcount: '617'
+source-wordcount: '647'
 ht-degree: 0%
 
 ---
@@ -20,18 +20,18 @@ ht-degree: 0%
 
 Dankzij de integratie van Workfront en Frame.io kunnen projectcoördinatoren projecten beheren en werken plannen in Workfront, terwijl creatieve personen, marketers en belanghebbenden hun middelen in Frame.io kunnen bekijken en goedkeuren.
 
-## Gebaseerd op Adobe Enterprise Storage Management
+## Gebaseerd op Adobe Enterprise Storage
 
-De kern van deze integratie is Adobe Enterprise Storage Management (ESM) - een op cloud gebaseerde opslagoplossing die fungeert als centrale opslagplaats voor bedrijfsmiddelen in Adobe, waaronder Workfront en Frame.io.
+De kern van deze integratie is Adobe Enterprise Storage - een op cloud gebaseerde opslagoplossing die fungeert als centrale opslagplaats voor bedrijfsmiddelen in Adobe, waaronder Workfront, Frame.io en Creative Cloud.
 
-De belangrijkste voordelen van Adobe Enterprise Storage Management zijn:
+De belangrijkste voordelen van Adobe Enterprise Storage zijn:
 
 * Geïntegreerde opslaglaag voor creatieve middelen en bedrijfsbeheermiddelen
 * Gecentraliseerde machtigingen via Adobe IMS voor veilig toegangsbeheer
 * End-to-end asset visibility voor Workfront-, Frame.io- en Creative Cloud-toepassingen <!--coming soon?-->
 * Schaalbare opslag en quotabeheer voor bedrijfsbehoeften
 
-Voor meer details, zie [ overzicht van het Beheer van de Opslag van de Onderneming van Adobe ](help/quicksilver/review-and-approve-work/esm-overview.md).
+Voor meer details, zie [ overzicht van de ondernemingsopslag van Adobe ](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 ## Geïntegreerde revisie en goedkeuring
 
@@ -58,9 +58,13 @@ De integratie verbindt ook met de kijker Frame.io. De viewer Frame.io biedt
 
 Voor meer informatie, zie [ begonnen worden met de integratie Frame.io ](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/get-started-with-frame-integration.md).
 
-#### Beperkingen voor videorevisie
+#### Limieten voor videorevisie
 
-<!--need to confirm these-->
+Er is een jaarlijks plafond voor videoproefdrukken vastgesteld op 10% van de totale betaalde Workfront-gebruikerslicenties (Standard and Light) van een organisatie. Dit plafond wordt toegepast op het niveau van de organisatie.
+
+Workfront-beheerders ontvangen meldingen wanneer het gebruik 80% en 100% van de limiet bereikt.
+
+Deze limiet geldt niet voor Enterprise-klanten van Frame.io.
 
 #### Ondersteunde bestandstypen in de viewer Frame.io
 
@@ -70,7 +74,7 @@ De viewer Frame.io ondersteunt alle gangbare typen video, afbeeldingen, audio, P
 
 De viewer Frame.io is beschikbaar voor alle Workfront-gebruikers met een betaalde licentie. Er is geen aanvullende Frame.io-licentie vereist als u de Frame.io-viewer wilt gebruiken voor revisies en goedkeuringen met deze integratie.
 
-Als uw organisatie van extra functionaliteit Frame.io, zoals het uploaden van activa rechtstreeks aan projecten in Frame.io wil profiteren, kunt u een Frame.io ondernemingsvergunning kopen. <!--link to Frame.io enterprise license info or who to contacT?-->
+Als uw organisatie van extra functionaliteit Frame.io, zoals het uploaden van activa rechtstreeks aan projecten in Frame.io wil profiteren, kunt u een Frame.io ondernemingsvergunning kopen. Neem contact op met uw Adobe-accountvertegenwoordiger om een demo te plannen en de voordelen van de volledige Frame.io-oplossing te verkennen.
 
 Bij deze integratie is Workfront-proefdrukfunctionaliteit niet beschikbaar.
 
@@ -78,7 +82,7 @@ Bij deze integratie is Workfront-proefdrukfunctionaliteit niet beschikbaar.
 
 Met de integratie van Workfront en Frame.io kunnen projectcoördinatoren Workfront gebruiken om krachtige projectbeheermogelijkheden te plannen, te volgen en te beheren.
 
-Voor meer informatie over het beheren van projecten in Workfront, zie [ Projecten: artikelindex ](/help/quicksilver/manage-work/projects/projects-toc.md).
+Voor meer informatie over het beheren van projecten in Workfront, zie [ Projecten: artikelindex ](/help/quicksilver/manage-work/projects/create-projects/create-project.md).
 
 ### Gedwongen conventies voor structuur en naamgeving
 
@@ -106,21 +110,21 @@ Omdat deze integratie met behulp van ESM is gemaakt, zijn er enkele beperkingen 
 
 De volgende mogelijkheden worden niet opgenomen in deze integratie:
 
-* Externe documentproviders
+<!--* External document providers-->
 * Toegang tot proefdrukken
 * Documentviewer in Workfront
-
-
-#### Tijdelijke beperkingen
-
-De volgende mogelijkheden zijn momenteel niet beschikbaar:
-
 * Favoriete documenten
 * Documenten aanvragen
-* Documenten naar Adobe Experience Manager Assets verzenden
-* Meerfasengoedkeuringen
-* Documenten uploaden naar opmerkingen of updates in Workfront
-* Documenten uploaden naar taken of problemen in Workfront
+
+
+<!--#### Temporary limitations
+
+For now, the following capabilities are not available:
+
+* Send documents to Adobe Experience Manager Assets
+* Multi-stage approvals
+* Upload documents to comments or updates in Workfront
+* Upload documents to tasks or issues in Workfront-->
 
 
 
