@@ -174,7 +174,7 @@ Voor meer informatie over het creëren van manueel timesheet, zie [ een enig-geb
 
 1. Wanneer het creëren van groep-vlakke timesheet profielen, klik **toewijzen de Mensen** tabel om het timesheet profiel met specifieke gebruikers, groepen, of (als u een beheerder van Workfront) teams bent te associëren. <!--Keep the reference to the group upon release to Prod, for now, until they unshim the group Timesheet Profiles-->
 
-   Wanneer het creëren van timesheet profielen voor het systeem, scrol naar de bodem van de pagina en vind **toewijzen de 1} sectie van Mensen**. <!--Keep the reference to the system when releasing to Prod, until they unshim the group Timesheet Profile-->
+   Wanneer het creëren van timesheet profielen voor het systeem, scrol naar de bodem van de pagina en vind **toewijzen de 1&rbrace; sectie van Mensen**. <!--Keep the reference to the system when releasing to Prod, until they unshim the group Timesheet Profile-->
 
    Typ de naam van de gebruiker, groep of team en klik vervolgens op de naam wanneer deze in de vervolgkeuzelijst wordt weergegeven.
 
