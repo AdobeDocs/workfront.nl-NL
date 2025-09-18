@@ -6,9 +6,9 @@ description: U kunt timesheet-profielen maken, bewerken en toewijzen die terugke
 author: Lisa
 feature: Timesheets
 exl-id: 8f4826bd-82b4-4157-a7d4-a7c94b8fc879
-source-git-commit: d7af8c5888147e847b4e239b629373b4b72541f7
+source-git-commit: 764200970aeb8d121cd99a8d4239e0b9853670a9
 workflow-type: tm+mt
-source-wordcount: '1695'
+source-wordcount: '1635'
 ht-degree: 0%
 
 ---
@@ -16,16 +16,6 @@ ht-degree: 0%
 # Werkbladprofielen maken, bewerken en toewijzen
 
 <!--Audited: 06/2025-->
-
-<!--at the Prod release, remove the Production and Preview references from this article-->
-
-<div class="preview">
-
-De gemarkeerde informatie op deze pagina verwijst naar functionaliteit die nog niet algemeen beschikbaar is. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Dezelfde functies zijn ook beschikbaar in de productieomgeving voor alle klanten na een week vanaf de release Preview.
-
-Voor meer informatie, zie [ modernisering van de Interface ](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
-
-</div>
 
 U kunt timesheet-profielen maken, bewerken en toewijzen die terugkerende tijdbladen voor uw gebruikers genereren zonder tussenkomst van u. Dit bespaart u tijd en zorgt ervoor dat het volgende tussen gebruikers verenigbaar is:
 
@@ -182,9 +172,9 @@ Voor meer informatie over het creëren van manueel timesheet, zie [ een enig-geb
     </tbody> 
     </table>
 
-1. In het milieu van de Productie, of wanneer het creëren van groep-vlakke timesheet profielen, klik **toewijzen de Mensen** tabel om het timesheet profiel met specifieke gebruikers, groepen, of (als u een beheerder van Workfront) teams bent. <!--Keep the reference to the group upon release to Prod, for now, until they unshim the group Timesheet Profiles-->
+1. Wanneer het creëren van groep-vlakke timesheet profielen, klik **toewijzen de Mensen** tabel om het timesheet profiel met specifieke gebruikers, groepen, of (als u een beheerder van Workfront) teams bent te associëren. <!--Keep the reference to the group upon release to Prod, for now, until they unshim the group Timesheet Profiles-->
 
-   <span class="preview"> in het milieu van de Voorproef wanneer het creëren van timesheet profielen voor het systeem, scrol naar de bodem van de pagina en vind **toewijzen Mensen** sectie.</span> <!--Keep the reference to the system when releasing to Prod, until they unshim the group Timesheet Profile-->
+   Wanneer het creëren van timesheet profielen voor het systeem, scrol naar de bodem van de pagina en vind **toewijzen de 1} sectie van Mensen**. <!--Keep the reference to the system when releasing to Prod, until they unshim the group Timesheet Profile-->
 
    Typ de naam van de gebruiker, groep of team en klik vervolgens op de naam wanneer deze in de vervolgkeuzelijst wordt weergegeven.
 
