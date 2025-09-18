@@ -5,7 +5,7 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: d560a3b7-81a0-41b2-a40e-81c784a42bf6
-source-git-commit: 30e5358549291e5d04d42ab470dccd444521ecb8
+source-git-commit: a7b220017e0dc42e91a0b518b4eadcae8bb9fb8a
 workflow-type: tm+mt
 source-wordcount: '466'
 ht-degree: 0%
@@ -23,7 +23,7 @@ Voor een lijst van alle veranderingen beschikbaar op dit punt in het Vierde Kwar
 >[!NOTE]
 >
 >* Voorbeeld: 28 augustus 2025
->* Productie voor alle klanten: geleidelijke uitrol vanaf 18 september 2025
+>* Productie voor alle klanten: geleidelijke uitrol vanaf 25 september 2025
 
 We hebben het uiterlijk van het Workfront-gebruikersprofiel bijgewerkt naar een modern ontwerp dat aansluit bij andere delen van Workfront. Deze updates zijn van toepassing op zowel een beheerder die één profiel bewerkt, als een gebruiker die meerdere profielen bewerkt of op een gebruiker die zijn of haar eigen profiel bewerkt.
 
