@@ -6,14 +6,16 @@ description: U kunt informatie bewerken over programma's die u hebt gemaakt of o
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 7dcdfc5a-3fc1-48a8-ae28-a6a0a458732e
-source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
+source-git-commit: 5edda5b6d084c6c4df62f21e430ce9cd0c1cc8a4
 workflow-type: tm+mt
-source-wordcount: '945'
+source-wordcount: '970'
 ht-degree: 0%
 
 ---
 
 # Programma&#39;s bewerken
+
+{{highlighted-preview}}
 
 U kunt informatie bewerken over programma&#39;s die u hebt gemaakt of over programma&#39;s die andere gebruikers hebben gemaakt als ze deze met u hebben gedeeld.
 
@@ -104,6 +106,10 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
    Het dialoogvenster **[!UICONTROL Edit Program]** wordt weergegeven.
 
+   <span class="preview"> beeld van de Steekproef in het milieu van de Voorproef:</span>
+   ![ geef programmadoos ](assets/edit-program-0925.png) uit
+
+   Voorbeeldafbeelding in de productieomgeving:
    ![ geef programmadoos ](assets/edit-program-box-nwe-350x236.png) uit
 
    Alle programmavelden zijn beschikbaar in het vak [!UICONTROL Edit Program] en worden gegroepeerd op de gebieden die in het linkerdeelvenster worden vermeld.
@@ -157,7 +163,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
     </tbody> 
    </table>
 
-1. Klik op **[!UICONTROL Save Changes]** of ga door met het bewerken van de volgende secties.
+1. Klik <span class="preview">**sparen**</span> of **[!UICONTROL Save Changes]**, of blijf het uitgeven van de volgende secties.
 
 ### [!UICONTROL Custom Forms]
 
@@ -170,17 +176,17 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    >
    >Afhankelijk van de manier waarop de [!DNL Workfront] -beheerder de machtigingen voor de secties in het aangepaste formulier instelt, kan niet iedereen dezelfde velden op een aangepast formulier weergeven of bewerken. De machtigingen voor het bewerken van velden in een sectie van een aangepast formulier zijn afhankelijk van de machtigingen die u hebt voor het programma zelf. Voor informatie over het plaatsen van toestemmingen op secties van een douaneformulier, zie [ een douaneformulier ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren.
 
-1. Werk alle velden in de aangepaste formulieren bij en klik op **[!UICONTROL Save Changes]** of ga verder met de volgende sectie.
+1. Werk om het even welke gebieden in de douanevormen bij, dan klik <span class="preview">**sparen**</span> of **[!UICONTROL Save Changes]**, of ga met de volgende sectie verder.
 
 ### [!UICONTROL Comment] {#comment}
 
 1. Bewerk een programma zoals hierboven beschreven.
-1. Klik op **[!UICONTROL Comment]** .
-
-   ![ doos van de Commentaar in geef programmadoos uit ](assets/comment-box-in-program-edit-box-classic-350x195.png)
-
-1. Voeg een opmerking toe in het veld **[!UICONTROL Post an update to the program]** .
+1. Klik op **[!UICONTROL Comment]**.
+1. Voeg een commentaar in **[!UICONTROL Post an update to the program]** toe / <span class="preview">**voeg een update aan elk programmagebied**</span> toe.
 1. (Optioneel) Klik op het pictogram **[!UICONTROL People]** om een gebruiker of een team aan de opmerking toe te voegen.
-1. (Optioneel) Klik op het pictogram **[!UICONTROL Lock]** om de opmerking te vergrendelen en deze alleen toegankelijk te maken voor gebruikers in uw bedrijf.
+1. (Facultatief) klik het **[!UICONTROL Lock]** pictogram <span class="preview"> of selecteer [!UICONTROL **Privé aan mijn bedrijf**]</span> om de commentaar te sluiten en het tot privé aan slechts gebruikers in uw bedrijf te maken.
 
    Nadat u de wijzigingen hebt opgeslagen, wordt de opmerking die u toevoegt, weergegeven op het tabblad [!UICONTROL Updates] van het programma en wordt een e-mail verzonden naar de gebruikers die er deel van uitmaken.
+
+
+   <!--THIS IMAGE GOES AFTER "CLICK COMMENT." I had to move it to get rid of blank lines. Lisa ![Comment box in edit program box](assets/comment-box-in-program-edit-box-classic-350x195.png)-->

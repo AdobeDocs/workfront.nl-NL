@@ -6,14 +6,16 @@ description: U kunt projectmalplaatjes uitgeven om op veranderingen in de proces
 author: Alina
 feature: Work Management
 exl-id: da0fca31-6a50-4862-ad9a-a453ef968773
-source-git-commit: a25eb28800ca8bbeeffedb521b3d72c8df71c697
+source-git-commit: 5edda5b6d084c6c4df62f21e430ce9cd0c1cc8a4
 workflow-type: tm+mt
-source-wordcount: '5045'
+source-wordcount: '5161'
 ht-degree: 0%
 
 ---
 
 # Projectsjablonen bewerken
+
+{{highlighted-preview}}
 
 <!-- Audited: 7/2025 -->
 
@@ -112,7 +114,6 @@ U kunt één sjabloon tegelijk bewerken of sjablonen bulksgewijs bewerken.
    * [Opmerking](#comment)
    <!--* [Linked folders](#linked-folders-conditional-availability) -->
 
-
 ### Sjabloonnaam{#template-name}
 
 1. Je template bewerken zoals hierboven beschreven.
@@ -134,33 +135,33 @@ U kunt één sjabloon tegelijk bewerken of sjablonen bulksgewijs bewerken.
 1. Werk de volgende velden bij:
 
    <table style="table-layout:auto"> 
-       <col> 
-       <col> 
-       <tbody> 
-         <tr> 
-         <td role="rowheader"><strong>Beschrijving</strong></td> 
-         <td>Voeg aanvullende informatie over de sjabloon toe.</td> 
-       </tr> 
-         <tr> 
-         <td role="rowheader"><strong>Prioriteit</strong></td> 
-         <td><p>Dit is enkel een visuele vlag voor u die u toestaat om aan uw toekomstige projecten voorrang te geven. Selecteer een van de volgende opties:</p> 
-         <ul> 
-         <li><p><strong>Geen</strong></p></li> 
-         <li><p><strong>Laag</strong></p></li> 
-         <li><p><strong>Normaal</strong></p></li> 
-         <li><p><strong>Hoog</strong></p></li> 
-         <li><p><strong>Dringend</strong></p></li> 
-         </ul><p><p>Afhankelijk van de projectvoorkeuren die door uw Workfront-beheerder zijn geselecteerd, kunnen de namen van prioriteiten voor u anders zijn. Voor meer informatie over het uitgeven van prioriteiten, zie <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md" class="MCXref xref"> prioriteiten </a> creëren en aanpassen.</p></p></td> 
+    <col> 
+    <col> 
+    <tbody> 
+      <tr> 
+      <td role="rowheader"><strong>Beschrijving</strong></td> 
+      <td>Voeg aanvullende informatie over de sjabloon toe.</td> 
+      </tr> 
+      <tr> 
+      <td role="rowheader"><strong>Prioriteit</strong></td> 
+      <td><p>Dit is enkel een visuele vlag voor u die u toestaat om aan uw toekomstige projecten voorrang te geven. Selecteer een van de volgende opties:</p> 
+      <ul> 
+      <li><p><strong>Geen</strong></p></li> 
+      <li><p><strong>Laag</strong></p></li> 
+      <li><p><strong>Normaal</strong></p></li> 
+      <li><p><strong>Hoog</strong></p></li> 
+      <li><p><strong>Dringend</strong></p></li> 
+      </ul><p><p>Afhankelijk van de projectvoorkeuren die door uw Workfront-beheerder zijn geselecteerd, kunnen de namen van prioriteiten voor u anders zijn. Voor meer informatie over het uitgeven van prioriteiten, zie <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md" class="MCXref xref"> prioriteiten </a> creëren en aanpassen.</p></p></td> 
        </tr> 
        <tr> 
        <td role="rowheader"><strong>URL</strong></td> 
          <td>Geef een webkoppeling op die betrekking heeft op informatie over deze sjabloon.</td> 
        </tr>
-<tr> 
+   <tr> 
       <td role="rowheader"><strong>Is actief</strong></td> 
       <td><p>Schakel deze optie in als u de sjabloon actief wilt maken. Andere gebruikers kunnen dit malplaatje vinden en het aan projecten vastmaken wanneer het creëren van projecten. Schakel deze optie uit als u sjablonen die niet meer worden gebruikt, wilt deactiveren. Gedetactiveerde sjablonen kunnen niet worden gekoppeld aan projecten. Dit is standaard ingeschakeld. </p><p><b>TIP</b></p>
 
-<p>U kunt een sjabloon deactiveren vanuit de sjabloonkoptekst, zoals beschreven in de sectie Een sjabloon activeren of deactiveren in dit artikel.</p></td> 
+   <p>U kunt een sjabloon deactiveren vanuit de sjabloonkoptekst, zoals beschreven in de sectie Een sjabloon activeren of deactiveren in dit artikel.</p></td> 
      </tr>
 
 <tr> 
@@ -251,33 +252,33 @@ U kunt één sjabloon tegelijk bewerken of sjablonen bulksgewijs bewerken.
        <td><p>Geef een budget op voor de projecten die op basis van deze sjabloon worden gemaakt.</p></td> 
        </tr>  
        <tr> 
-         <td role="rowheader"><strong>Prestatiesindexmethode</strong></td> 
-         <td><p>Bepaal hoe Workfront de waarden van de verdiende waarde van het toekomstige project berekent. Kies een van de volgende opties:
-         <ul>
-         <li>Op uurbasis</li>
-         <li>Op basis van kosten</li>
-         </ul>
+       <td role="rowheader"><strong>Prestatiesindexmethode</strong></td> 
+       <td><p>Bepaal hoe Workfront de waarden van de verdiende waarde van het toekomstige project berekent. Kies een van de volgende opties:
+       <ul>
+       <li>Op uurbasis</li>
+       <li>Op basis van kosten</li>
+       </ul>
 
-   Voor meer informatie over de Methode van de Index van Prestaties, zie <a href="../../../manage-work/projects/project-finances/set-pim.md" class="MCXref xref"> plaats de Methode van de Index van Prestaties (PIM) </a>. </p></td>
-   </tr> 
-         <tr> 
-         <td role="rowheader"><strong>Gepland voordeel</strong></td> 
-         <td><p>Specificeer het Geplande Voordeel van de projecten die van dit malplaatje worden gecreeerd. Het geplande voordeel wordt gebruikt in het BedrijfsGeval van het project en Portfolio Optimizer. </p><p>Voor meer informatie over het Geplande Voordeel van een project, zie <a href="../../../manage-work/projects/project-finances/project-planned-benefit.md" class="MCXref xref"> Overzicht van project Gepland Voordeel </a>. Bij de berekening van de nettowaarde van een project wordt rekening gehouden met het geplande voordeel van een project. </p><p>Voor meer informatie over het gebruiken van Portfolio Optimizer, zie <a href="../../../manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md" class="MCXref xref"> projecten in Portfolio Optimizer beheren </a> </p></td> 
-       </tr> 
-       <tr> 
-         <td role="rowheader"><strong>Vaste kosten</strong></td> 
-         <td><p>Specificeer de Vaste Kosten voor de projecten die van dit malplaatje worden gecreeerd. Dit is anders dan de loonkosten die voortvloeien uit de uren van het project en de kosten die voortvloeien uit de kosten van het project. De vaste kosten van een project worden in aanmerking genomen bij de berekening van de nettowaarde van een project en maken deel uit van de begrote kosten.</p></td> 
-       </tr> 
-       <tr> 
-       <td role="rowheader"><strong>Vaste inkomsten</strong></td> 
-       <td><p>Geef de vaste inkomsten op voor de projecten die op basis van deze sjabloon worden gemaakt.</p></td> 
-       </tr> 
-       <tr> 
-       <td role="rowheader"><strong>Voor dit project goed te keuren tijd vereisen</strong></td> 
-       <td><p>Selecteer deze optie om de Eigenaar van het Project van het toekomstige project te vereisen dat van dit malplaatje wordt gecreeerd tijd goed te keuren het programma wordt geopend het project. Als u de Verslagen van de Facturering gebruikt en u deze optie selecteert, slechts verschijnen de goedgekeurde uren op het project als beschikbare factureerbare uren voor de Verslagen van de Facturering. De goedkeuring van de tijd voor het project staat los van de goedkeuring van tijdbladen. Voor meer informatie over het vereisen van tijd om op een project worden goedgekeurd, zie <a href="../../../manage-work/projects/manage-projects/require-time-approval-for-projects.md" class="MCXref xref"> tijd vereisen om voor een project </a> worden goedgekeurd.</p></td> 
-       </tr> 
-       </tbody> 
-      </table>
+        voor meer informatie over de Methode van de Index van Prestaties, zie &lt;a href=&quot;../../../manage-work/projects/project-finances/set-pim.md&quot; class=&quot;MCXref xref&quot;>plaats de Methode van de Index van Prestaties (PIM)&lt;/a>. &lt;/p>&lt;/td>
+       &lt;/tr> 
+        &lt;tr> 
+       &lt;td role=&quot;rowheader&quot;>&lt;strong>Planned Benefit&lt;/strong>&lt;/td>
+       &lt;td>&lt;p>Geef het geplande voordeel op van de projecten die op basis van deze sjabloon worden gemaakt. Het geplande voordeel wordt gebruikt in het BedrijfsGeval van het project en Portfolio Optimizer. &lt;/p>&lt;p>Zie &lt;a href=&quot;../../../manage-work/projects/project-finances/project-planned-benefit.md&quot; class=&quot;MCXref xref&quot;>Overzicht van het geplande voordeel van een project&lt;/a> voor meer informatie over het geplande voordeel van een project. Bij de berekening van de nettowaarde van een project wordt rekening gehouden met het geplande voordeel van een project. &lt;/p>&lt;p>Zie &lt;a href=&quot;../../../manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md&quot; class=&quot;MCXref xref&quot;>Projecten beheren in de Portfolio Optimizer&lt;/a> &lt;/p>&lt;/td>
+ voor meer informatie over het gebruik van de Portfolio Optimizer.       &lt;/tr> 
+        &lt;tr> 
+       &lt;td role=&quot;rowheader&quot;>&lt;strong>Fixed Cost&lt;/strong>&lt;/td>
+       &lt;td>&lt;p>Geef de vaste kosten op voor de projecten die op basis van deze sjabloon worden gemaakt. Dit is anders dan de loonkosten die voortvloeien uit de uren van het project en de kosten die voortvloeien uit de kosten van het project. De vaste kosten van een project worden in aanmerking genomen bij de berekening van de nettowaarde van een project en maken deel uit van de begrote kosten.&lt;/p>&lt;/td>
+       &lt;/tr> 
+        &lt;tr> 
+       &lt;td role=&quot;rowheader&quot;>&lt;strong>Fixed Revenue&lt;/strong>&lt;/td>
+       &lt;td>&lt;p>Geef de vaste inkomsten op voor de projecten die op basis van deze sjabloon worden gemaakt.&lt;/p>&lt;/td>
+       &lt;/tr> 
+        &lt;tr> 
+       &lt;td role=&quot;rowheader&quot;>&lt;strong>Vereist tijd om voor dit project te worden goedgekeurd&lt;/strong>&lt;/td> 
+       &lt;td>&lt;p>Selecteer deze optie als u wilt dat de eigenaar van het project van het toekomstige project dat met deze sjabloon wordt gemaakt, de tijd goedkeurt die is aangemeld bij het project. Als u de Verslagen van de Facturering gebruikt en u deze optie selecteert, slechts verschijnen de goedgekeurde uren op het project als beschikbare factureerbare uren voor de Verslagen van de Facturering. De goedkeuring van de tijd voor het project staat los van de goedkeuring van tijdbladen. Zie &lt;a href=&quot;../../../manage-work/projects/manage-projects/require-time-approval-for-projects.md&quot; class=&quot;MCXref xref&quot;>Tijd vereisen om te worden goedgekeurd voor een project&lt;/a> voor meer informatie over het vereisen van tijd om te worden goedgekeurd voor een project.&lt;/p>&lt;/td>
+       &lt;/tr> 
+       &lt;/tbody> 
+   </table>
 
 1. (Optioneel) Ga door met het bewerken van de volgende secties, afhankelijk van de gegevens die u wilt wijzigen.
 
@@ -330,12 +331,12 @@ U kunt één sjabloon tegelijk bewerken of sjablonen bulksgewijs bewerken.
        <td> <p>Selecteer een milestone-pad voor de sjabloon. Alleen actieve milestone-paden worden in de lijst weergegeven.<br> voor meer informatie over de Wegen van de Mijlsteen, zie <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md" class="MCXref xref"> een milestone weg </a> creëren.</p> </td> 
        </tr> 
        <tr> 
-         <td role="rowheader"><strong> Wijze van de Voltooiing </strong> </td> 
-         <td> <p>Bepaalt hoe het toekomstige project wordt gemarkeerd als Voltooid. <br> Uitgezocht van de volgende opties:</p> 
-         <ul> 
-         <li> <p><strong> Automatisch </strong>: Het project is duidelijk Volledig wanneer alle taken en kwesties worden voltooid.</p> </li> 
-         <li> <p><strong> Hand </strong>: U moet de Volledige status voor het project manueel selecteren, wanneer alle taken en kwesties worden voltooid. </p> </li> 
-         </ul> </td> 
+       <td role="rowheader"><strong> Wijze van de Voltooiing </strong> </td> 
+       <td> <p>Bepaalt hoe het toekomstige project wordt gemarkeerd als Voltooid. <br> Uitgezocht van de volgende opties:</p> 
+       <ul> 
+       <li> <p><strong> Automatisch </strong>: Het project is duidelijk Volledig wanneer alle taken en kwesties worden voltooid.</p> </li> 
+       <li> <p><strong> Hand </strong>: U moet de Volledige status voor het project manueel selecteren, wanneer alle taken en kwesties worden voltooid. </p> </li> 
+       </ul> </td> 
        </tr> 
        <tr> 
        <td role="rowheader"><strong> Samenvattende Wijze van de Voltooiing </strong> </td> 
@@ -346,72 +347,72 @@ U kunt één sjabloon tegelijk bewerken of sjablonen bulksgewijs bewerken.
        </ul> </td> 
        </tr> 
        <tr> 
-         <td role="rowheader"><strong> Type van Update </strong> </td> 
-         <td> <p>Controles wanneer de veranderingen u aan de chronologie van het toekomstige project aanbrengt op het project worden bewaard. </p> 
-         <b> VOORBEELD </b> 
-         <p>De volgende wijzigingen in het project activeren een update van de tijdlijn van het project:</p> 
-         <ul> 
-         <li> <p>de takendata bijwerken</p> </li> 
-         <li> <p>vorige relaties wijzigen<br></p> </li> 
-         <li> <p>bovenliggend-onderliggende relaties wijzigen</p> </li> 
-         <li> <p>U kunt niet alleen taken toevoegen of verwijderen, maar ook het type taakbeperking of duur wijzigen.</p> </li> 
-         </ul> 
-         </div> <p>Selecteer een van de volgende opties:<br></p> 
-         <ul> 
-         <li> <p><strong> Automatisch en op Verandering </strong> (Gebrek die) plaatst: De toekomstige projectchronologie wordt bijgewerkt telkens als een verandering in het project of in een ander project voorkomt dat de chronologie van (op Verandering) afhankelijk is. De projecttijdlijn wordt ook elke avond bijgewerkt (automatisch).<br> dit is het geadviseerde plaatsen voor dit gebied omdat het ervoor zorgt dat de projectchronologie altijd bijgewerkt is.<br> wanneer u een actie op een taak of een project uitvoert die een chronologieherberekening teweegbrengt, worden alle beschikbare data onmiddellijk getoond, toestaand u blijven werkend. Voor projecten met meer dan 100 taken worden datums die langere herberekeningen vereisen kort weergegeven als een vraagteken (tussen 1 en 5 seconden, of tot een minuut voor grote projecten). Dit geeft aan dat de herberekening nog niet is voltooid en dat de datums kunnen worden gewijzigd.<br></p> </li> 
-         </ul> 
-         <ul> 
-         <li> <p><strong> Verandering slechts </strong>: De projectchronologie wordt bijgewerkt telkens als een verandering in het project of in een ander project voorkomt dat de chronologie van afhankelijk is. U zou deze optie kunnen willen selecteren als de veranderingen zelden in het project of in andere projecten voorkomen dat de chronologie van afhankelijk is.<br></p> </li> 
-         </ul> 
-         <ul> 
-         <li> <p><strong> Automatisch slechts </strong>: De projectchronologie wordt bijgewerkt elke nacht; het wordt niet onmiddellijk bijgewerkt nadat de veranderingen worden aangebracht.<br> u zou deze optie kunnen willen selecteren als vele veranderingen elke dag in het project of in andere projecten voorkomen dat de chronologie van afhankelijk is. Houd er echter rekening mee dat u deze instelling hebt gekozen, aangezien het project niet tegelijk met de wijzigingen wordt bijgewerkt.<br></p> </li> 
-         </ul> 
-         <ul> 
-         <li> <p><strong> Hand slechts </strong>: De projectchronologie wordt bijgewerkt slechts wanneer u de optie selecteert om Chronologie opnieuw te berekenen, zoals die in <a href="../../../manage-work/projects/manage-projects/recalculate-project-timeline.md" class="MCXref xref"> wordt beschreven projectchronologie </a> opnieuw berekenen.<br></p> </li> 
-         </ul> <p>U kunt deze optie selecteren als u in één keer veel wijzigingen aanbrengt in het project en u wilt dat de tijdlijnherberekening plaatsvindt nadat alle wijzigingen zijn aangebracht (in plaats van na elke afzonderlijke wijziging).</p> </td> 
+       <td role="rowheader"><strong> Type van Update </strong> </td> 
+       <td> <p>Controles wanneer de veranderingen u aan de chronologie van het toekomstige project aanbrengt op het project worden bewaard. </p> 
+       <b> VOORBEELD </b> 
+       <p>De volgende wijzigingen in het project activeren een update van de tijdlijn van het project:</p> 
+       <ul> 
+       <li> <p>de takendata bijwerken</p> </li> 
+       <li> <p>vorige relaties wijzigen<br></p> </li> 
+       <li> <p>bovenliggend-onderliggende relaties wijzigen</p> </li> 
+       <li> <p>U kunt niet alleen taken toevoegen of verwijderen, maar ook het type taakbeperking of duur wijzigen.</p> </li> 
+       </ul> 
+       </div> <p>Selecteer een van de volgende opties:<br></p> 
+       <ul> 
+       <li> <p><strong> Automatisch en op Verandering </strong> (Gebrek die) plaatst: De toekomstige projectchronologie wordt bijgewerkt telkens als een verandering in het project of in een ander project voorkomt dat de chronologie van (op Verandering) afhankelijk is. De projecttijdlijn wordt ook elke avond bijgewerkt (automatisch).<br> dit is het geadviseerde plaatsen voor dit gebied omdat het ervoor zorgt dat de projectchronologie altijd bijgewerkt is.<br> wanneer u een actie op een taak of een project uitvoert die een chronologieherberekening teweegbrengt, worden alle beschikbare data onmiddellijk getoond, toestaand u blijven werkend. Voor projecten met meer dan 100 taken worden datums die langere herberekeningen vereisen kort weergegeven als een vraagteken (tussen 1 en 5 seconden, of tot een minuut voor grote projecten). Dit geeft aan dat de herberekening nog niet is voltooid en dat de datums kunnen worden gewijzigd.<br></p> </li> 
+       </ul> 
+       <ul> 
+       <li> <p><strong> Verandering slechts </strong>: De projectchronologie wordt bijgewerkt telkens als een verandering in het project of in een ander project voorkomt dat de chronologie van afhankelijk is. U zou deze optie kunnen willen selecteren als de veranderingen zelden in het project of in andere projecten voorkomen dat de chronologie van afhankelijk is.<br></p> </li> 
+       </ul> 
+       <ul> 
+       <li> <p><strong> Automatisch slechts </strong>: De projectchronologie wordt bijgewerkt elke nacht; het wordt niet onmiddellijk bijgewerkt nadat de veranderingen worden aangebracht.<br> u zou deze optie kunnen willen selecteren als vele veranderingen elke dag in het project of in andere projecten voorkomen dat de chronologie van afhankelijk is. Houd er echter rekening mee dat u deze instelling hebt gekozen, aangezien het project niet tegelijk met de wijzigingen wordt bijgewerkt.<br></p> </li> 
+       </ul> 
+       <ul> 
+       <li> <p><strong> Hand slechts </strong>: De projectchronologie wordt bijgewerkt slechts wanneer u de optie selecteert om Chronologie opnieuw te berekenen, zoals die in <a href="../../../manage-work/projects/manage-projects/recalculate-project-timeline.md" class="MCXref xref"> wordt beschreven projectchronologie </a> opnieuw berekenen.<br></p> </li> 
+       </ul> <p>U kunt deze optie selecteren als u in één keer veel wijzigingen aanbrengt in het project en u wilt dat de tijdlijnherberekening plaatsvindt nadat alle wijzigingen zijn aangebracht (in plaats van na elke afzonderlijke wijziging).</p> </td> 
        </tr> 
        <tr> 
-         <td role="rowheader"><strong> Programma </strong> </td> 
-         <td> <p>Selecteer een schema voor uw sjabloon. Dit zal het programma van het project worden dat van dit malplaatje wordt gecreeerd. Dit zou het zelfde programma moeten zijn dat aan de meeste mensen wordt toegewezen die aan het project werken. U moet een schema creëren alvorens u het aan een malplaatje kunt toewijzen.<br> voor meer informatie over het creëren van programma's, zie <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref"> een programma </a> creëren. <br> als u geen douaneschema's in uw systeem hebt gecreeerd, wordt het StandaardProgramma geselecteerd. </p> </td> 
+       <td role="rowheader"><strong> Programma </strong> </td> 
+       <td> <p>Selecteer een schema voor uw sjabloon. Dit zal het programma van het project worden dat van dit malplaatje wordt gecreeerd. Dit zou het zelfde programma moeten zijn dat aan de meeste mensen wordt toegewezen die aan het project werken. U moet een schema creëren alvorens u het aan een malplaatje kunt toewijzen.<br> voor meer informatie over het creëren van programma's, zie <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref"> een programma </a> creëren. <br> als u geen douaneschema's in uw systeem hebt gecreeerd, wordt het StandaardProgramma geselecteerd. </p> </td> 
        </tr> 
        <tr> 
-         <td role="rowheader"><strong> Tijd van de Gebruiker weg </strong> </td> 
-         <td> <p>Bepaalt of de tijd van de Primaire Ontvanger van een taak de taak geplande data aanpast. Wanneer u het malplaatje aan een bestaand project vastmaakt, en het malplaatje heeft een verschillend het plaatsen voor dit gebied dan het project, blijft het plaatsen op het project onveranderd. De standaardoptie voor dit het plaatsen voor een nieuw malplaatje is het zelfde als de systeem-vlakke projectvoorkeur. </p> <p>Voor informatie over de projectvoorkeur op het niveau van het Systeem, zie <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref"> systeem-brede projectvoorkeur </a> vormen. </p> <p>Voor informatie over hoe dit het plaatsen de taakdata op een project beïnvloedt, zie <a href="../../../manage-work/projects/manage-projects/edit-projects.md" class="MCXref xref"> projecten </a> uitgeven.<br> Uitgezocht van de volgende opties:<br></p> 
-         <ul> 
-         <li> <p><strong> Overweeg gebruikerstijd van taakduur </strong>: Wanneer het selecteren van deze optie, passen de geplande die data van de taken op het project van dit malplaatje worden gecreeerd volgens de tijd van de Primaire Ontvanger van de taak aan, als de tijd van weg tijdens de duur van de taak voorkomt. </p> </li> 
-         <li> <p><strong> negeert gebruikerstijd van taakduur </strong>: Wanneer het selecteren van deze optie, blijven de geplande die data van de taken op het project van dit malplaatje worden gecreeerd zoals oorspronkelijk gepland, zelfs als de Primaire Ontvanger van de taak tijd weg tijdens de duur van de taak heeft. </p> </li> 
-         </ul> </td> 
+       <td role="rowheader"><strong> Tijd van de Gebruiker weg </strong> </td> 
+       <td> <p>Bepaalt of de tijd van de Primaire Ontvanger van een taak de taak geplande data aanpast. Wanneer u het malplaatje aan een bestaand project vastmaakt, en het malplaatje heeft een verschillend het plaatsen voor dit gebied dan het project, blijft het plaatsen op het project onveranderd. De standaardoptie voor dit het plaatsen voor een nieuw malplaatje is het zelfde als de systeem-vlakke projectvoorkeur. </p> <p>Voor informatie over de projectvoorkeur op het niveau van het Systeem, zie <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref"> systeem-brede projectvoorkeur </a> vormen. </p> <p>Voor informatie over hoe dit het plaatsen de taakdata op een project beïnvloedt, zie <a href="../../../manage-work/projects/manage-projects/edit-projects.md" class="MCXref xref"> projecten </a> uitgeven.<br> Uitgezocht van de volgende opties:<br></p> 
+       <ul> 
+       <li> <p><strong> Overweeg gebruikerstijd van taakduur </strong>: Wanneer het selecteren van deze optie, passen de geplande die data van de taken op het project van dit malplaatje worden gecreeerd volgens de tijd van de Primaire Ontvanger van de taak aan, als de tijd van weg tijdens de duur van de taak voorkomt. </p> </li> 
+       <li> <p><strong> negeert gebruikerstijd van taakduur </strong>: Wanneer het selecteren van deze optie, blijven de geplande die data van de taken op het project van dit malplaatje worden gecreeerd zoals oorspronkelijk gepland, zelfs als de Primaire Ontvanger van de taak tijd weg tijdens de duur van de taak heeft. </p> </li> 
+       </ul> </td> 
        </tr> 
        <tr> 
-         <td role="rowheader"><strong> Wijze van het Niveaus van het Middel </strong> </td> 
-         <td> <p>Selecteer een van de volgende opties:<br></p> 
-         <ul> 
-         <li> <p><strong> Handboek </strong>: u moet uw middelen op het project manueel niveau dat van dit malplaatje wordt gecreeerd (dit is het gebrek dat plaatst)</p> </li> 
-         <li> <p><strong> Automatisch:</strong> Workfront niveaus de middelen op het toekomstige project. <br> voor meer informatie over het Levelen van het Middel, zie <a href="../../../manage-work/gantt-chart/use-the-gantt-chart/level-resources-in-gantt.md" class="MCXref xref"> Middelen van het Niveau in de Grafiek van Gantt </a>. </p> </li> 
-         </ul> </td> 
+       <td role="rowheader"><strong> Wijze van het Niveaus van het Middel </strong> </td> 
+       <td> <p>Selecteer een van de volgende opties:<br></p> 
+       <ul> 
+       <li> <p><strong> Handboek </strong>: u moet uw middelen op het project manueel niveau dat van dit malplaatje wordt gecreeerd (dit is het gebrek dat plaatst)</p> </li> 
+       <li> <p><strong> Automatisch:</strong> Workfront niveaus de middelen op het toekomstige project. <br> voor meer informatie over het Levelen van het Middel, zie <a href="../../../manage-work/gantt-chart/use-the-gantt-chart/level-resources-in-gantt.md" class="MCXref xref"> Middelen van het Niveau in de Grafiek van Gantt </a>. </p> </li> 
+       </ul> </td> 
        </tr> 
        <tr> 
-         <td role="rowheader"><strong> Risico </strong> </td> 
-         <td> <p>Bepaal het risiconiveau van de projecten die van dit malplaatje worden gecreeerd. Het risico is slechts een indicator van hoe riskant een project kan zijn. U kunt de uitvoering van uw projecten prioriteren op basis van het risiconiveau.<br> overweegt het selecteren van de volgende niveaus van risico:<br></p> 
-         <ul> 
-         <li> <p><strong> zeer Laag </strong> </p> </li> 
-         <li> <p><strong> Laag </strong> </p> </li> 
-         <li> <p><strong> Medium </strong> </p> </li> 
-         <li> <p><strong> Hoog </strong> </p> </li> 
-         <li> <p><strong> zeer Hoog </strong> </p> </li> 
-         </ul> </td> 
+       <td role="rowheader"><strong> Risico </strong> </td> 
+       <td> <p>Bepaal het risiconiveau van de projecten die van dit malplaatje worden gecreeerd. Het risico is slechts een indicator van hoe riskant een project kan zijn. U kunt de uitvoering van uw projecten prioriteren op basis van het risiconiveau.<br> overweegt het selecteren van de volgende niveaus van risico:<br></p> 
+       <ul> 
+       <li> <p><strong> zeer Laag </strong> </p> </li> 
+       <li> <p><strong> Laag </strong> </p> </li> 
+       <li> <p><strong> Medium </strong> </p> </li> 
+       <li> <p><strong> Hoog </strong> </p> </li> 
+       <li> <p><strong> zeer Hoog </strong> </p> </li> 
+       </ul> </td> 
        </tr> 
        <tr> 
-         <td role="rowheader"><strong> Pools van het Middel </strong> </td> 
-         <td> <p>Geef de bronnenpools op die aan de sjabloon zijn gekoppeld. De pools van het middel zijn inzamelingen van gebruikers die tezelfdertijd voor de voltooiing van een project nodig zijn. Zie <a href="../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md" class="MCXref xref"> Overzicht van bronnenpools </a> voor meer informatie over bronnenpools.</p> <p> <p><b>OPMERKING</b>
+       <td role="rowheader"><strong> Pools van het Middel </strong> </td> 
+       <td> <p>Geef de bronnenpools op die aan de sjabloon zijn gekoppeld. De pools van het middel zijn inzamelingen van gebruikers die tezelfdertijd voor de voltooiing van een project nodig zijn. Zie <a href="../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md" class="MCXref xref"> Overzicht van bronnenpools </a> voor meer informatie over bronnenpools.</p> <p> <p><b>OPMERKING</b>
 
-   Wanneer u malplaatjes in massa uitgeeft, slechts verschijnen de middelgroepen die voor alle geselecteerde malplaatjes gemeenschappelijk zijn op dit gebied. Als de geselecteerde sjablonen geen gedeelde bronnenpools hebben, is dit veld leeg. De middelpools u hier specificeert zullen de individuele middelpools van malplaatjes beschrijven.</p> </p> </td>
-   </tr>
-
+        wanneer u malplaatjes in massa uitgeeft, slechts verschijnen de middelgroepen die voor alle geselecteerde malplaatjes gemeenschappelijk zijn op dit gebied. Als de geselecteerde sjablonen geen gedeelde bronnenpools hebben, is dit veld leeg. De middelpools u hier specificeert zullen de individuele middelpools van malplaatjes beschrijven.&lt;/p> &lt;/p> &lt;/td>
+       &lt;/tr> 
+   
    <tr> 
       <td role="rowheader"><strong>Voor dit project goed te keuren tijd vereisen</strong></td>
 
-<td><p>Selecteer deze optie om de toekomstige Eigenaar van het Project van het project te vereisen dat van dit malplaatje wordt gecreeerd tijd goed te keuren het programma wordt geopend het project.</p> 
+   <td><p>Selecteer deze optie om de toekomstige Eigenaar van het Project van het project te vereisen dat van dit malplaatje wordt gecreeerd tijd goed te keuren het programma wordt geopend het project.</p> 
    <p>Als u de Verslagen van de Facturering gebruikt en u deze optie selecteert, slechts verschijnen de goedgekeurde uren op het project als beschikbare factureerbare uren voor de Verslagen van de Facturering. </p>
    <p>De goedkeuring van de tijd voor het project staat los van de goedkeuring van tijdbladen. Voor meer informatie over het vereisen van tijd om op een project worden goedgekeurd, zie <a href="../../../manage-work/projects/manage-projects/require-time-approval-for-projects.md" class="MCXref xref"> tijd vereisen om voor een project </a> worden goedgekeurd.</p>
    </td> 
@@ -431,8 +432,8 @@ U kunt één sjabloon tegelijk bewerken of sjablonen bulksgewijs bewerken.
    <li>Alleen actieve goedkeuringsprocessen worden in de lijst weergegeven. </li> 
    <li> <p>Systeemspecifieke en groepsspecifieke goedkeuringsprocessen worden in de lijst weergegeven. Een goedkeuringsproces verbonden aan een groep buiten die van het malplaatje wordt niet getoond in de lijst.</p> <p><b>BELANGRIJK</b>
 
-Als de groep die aan de sjabloon is gekoppeld, verandert het groepsspecifieke goedkeuringsproces in een goedkeuringsproces voor eenmalig gebruik. Voor meer informatie over hoe de veranderingen in de groep van het project of de veranderingen in het goedkeuringsproces goedkeuringsmontages beïnvloeden, zie <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md"> hoe de groep en de veranderingen van het goedkeuringsproces aangewezen goedkeuringsprocessen </a> beïnvloeden. </p> </li>
-<li> <p>Als u een goedkeuringsproces voor eenmalig gebruik hebt toegevoegd, wordt dit in dit veld weergegeven als "Aangepast". Voor informatie, zie <a href="../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md" class="MCXref xref"> een nieuw of bestaand goedkeuringsproces met het werk </a> associëren. </p> 
+   Als de groep die aan de sjabloon is gekoppeld, verandert het groepsspecifieke goedkeuringsproces in een goedkeuringsproces voor eenmalig gebruik. Voor meer informatie over hoe de veranderingen in de groep van het project of de veranderingen in het goedkeuringsproces goedkeuringsmontages beïnvloeden, zie <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md"> hoe de groep en de veranderingen van het goedkeuringsproces aangewezen goedkeuringsprocessen </a> beïnvloeden. </p> </li>
+   <li> <p>Als u een goedkeuringsproces voor eenmalig gebruik hebt toegevoegd, wordt dit in dit veld weergegeven als "Aangepast". Voor informatie, zie <a href="../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md" class="MCXref xref"> een nieuw of bestaand goedkeuringsproces met het werk </a> associëren. </p> 
       </li> 
       <li> <p>Bij sjablonen voor bulkbewerking bestaan de volgende scenario's:</p> 
       <ul> 
@@ -460,7 +461,7 @@ Voor informatie over hoe deze montages het creëren van nieuwe taken beïnvloede
 
    ![ geef de sectie van de Montages van de Taak van het malplaatjevakje uit ](assets/edit-template-box-task-settings-section.png)
 
-1. In het **vakje van het Proces van de Goedkeuring Standaard van de Taak 0&rbrace;, selecteer het Proces van de Goedkeuring u met alle nieuwe taken wilt associëren wanneer u hen aan een project toevoegt dat van dit malplaatje wordt gecreeerd.** U moet een goedkeuringsproces voor taken creëren alvorens u het met taken kunt associëren. Alleen actieve goedkeuringsprocessen worden in de lijst weergegeven. Voor meer informatie over het creëren van de Processen van de Goedkeuring, zie [ Creërend de Processen van de Goedkeuring ](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
+1. In het **vakje van het Proces van de Goedkeuring Standaard van de Taak 0}, selecteer het Proces van de Goedkeuring u met alle nieuwe taken wilt associëren wanneer u hen aan een project toevoegt dat van dit malplaatje wordt gecreeerd.** U moet een goedkeuringsproces voor taken creëren alvorens u het met taken kunt associëren. Alleen actieve goedkeuringsprocessen worden in de lijst weergegeven. Voor meer informatie over het creëren van de Processen van de Goedkeuring, zie [ Creërend de Processen van de Goedkeuring ](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
 1. In het **vakje van de Aangepaste Forms van de Taak Standaard**, selecteer de douanevorm of de vormen die u met alle nieuwe taken wilt associëren wanneer u hen aan een project toevoegt dat van dit malplaatje wordt gecreeerd. U moet aangepaste formulieren maken voordat u ze in dit veld kunt selecteren. Alleen actieve aangepaste formulieren worden in de lijst weergegeven. Voor meer informatie over de bouw van douaneformulieren, zie [ een douaneformulier ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren. U kunt maximaal tien aangepaste formulieren aan een taak koppelen.
 1. (Optioneel) Selecteer **Werkinspanning van het Gebruik om taak Geplande Uren** automatisch te berekenen als u het beheren van taakinspanning wilt toelaten door de Werkinspanning in plaats van Geplande Uren in het project te gebruiken dat van het malplaatje wordt gecreeerd.
 1. (Voorwaardelijk en optioneel) Als u Werkinspanning gebruiken hebt geselecteerd om taken Geplande uren automatisch te berekenen, klikt u op het vervolgkeuzemenu om het percentage voor elk niveau van de Werkinspanning bij te werken. De volgende percentagewaarden zijn de standaardwaarden:
@@ -613,6 +614,10 @@ Sjablonen bulksgewijs bewerken:
 
    Het **geeft de dialoogvakje van Malplaatjes** uit opent.
 
+   <span class="preview"> beeld van de Steekproef in het milieu van de Voorproef:</span>
+   ![ geeft malplaatjes uit ](assets/bulk-edit-templates-0925.png)
+
+   Voorbeeldafbeelding in de productieomgeving:
    ![ geeft malplaatjes uit ](assets/edit-templates-in-bulk-box-nwe-350x327.png)
 
 1. Klik op de secties aan de linkerkant om alle geselecteerde sjablonen te bewerken.
@@ -631,7 +636,7 @@ Sjablonen bulksgewijs bewerken:
    * Problemen
    * Opmerking
 
-1. Klik **sparen Veranderingen**.
+1. Klik <span class="preview">**sparen**</span> of **sparen Veranderingen**.
 
    Alle wijzigingen die u hebt aangebracht, zijn nu zichtbaar in alle geselecteerde sjablonen.
 
