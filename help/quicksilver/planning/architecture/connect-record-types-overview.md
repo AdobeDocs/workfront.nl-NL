@@ -6,18 +6,18 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 1c04c68b-7a7f-46ae-b750-2b1f79855de4
-source-git-commit: bfb0fd2956ffb9384a09882864668d5dba33a53b
+source-git-commit: 9bdc36a76393acd2f0617cc5796cfd7279b2c97a
 workflow-type: tm+mt
-source-wordcount: '1553'
+source-wordcount: '1976'
 ht-degree: 0%
 
 ---
 
 # Overzicht van verbonden recordtypen
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>   -->
+<span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken.</span>
 
 U kunt aangeven dat afzonderlijke recordtypen op elkaar betrekking hebben of op objecten van andere toepassingen door deze met elkaar te verbinden.
 
@@ -75,12 +75,12 @@ Overweeg het volgende over het verbinden van verslagtypes:
 
      Als u bijvoorbeeld het recordtype ‘Campagne’ verbindt met het recordtype ‘Product’, wordt een gekoppeld recordveld (verbindingsveld) dat u &#39;Gekoppeld product&#39; noemt, gemaakt in het recordtype ‘Campagne’. Er wordt automatisch een gekoppeld recordtype met de naam &quot;Campagne&quot; gemaakt in het recordtype product.
 
-     <!--<div class="preview">
-        
-        For example, the following scenarios exist: 
-        * When you enable the Create corresponding field on linked record type setting and you connect the "Campaign" record type with the "Product" record type, a linked record field (connection field) that you name "Linked Product" is created on the Campaign record type. A linked record type automatically named "Campaign" is created on the Product record type.
-        * When you disable the Create corresponding field on linked record type setting and you connect the "Campaign" record type with the "Product" record type, a linked record field (connection field) that you name "Linked Product" is created on the Campaign record type. A linked record type automatically named "Campaign" is not created on the Product record type.
-        </div>-->
+     <div class="preview">
+
+     De volgende scenario&#39;s bestaan bijvoorbeeld:
+      * Wanneer u het veld Overeenkomende gegevens maken inschakelt voor de instelling van gekoppelde recordtypen en u het recordtype ‘Campagne’ koppelt aan het recordtype ‘Product’, wordt een gekoppeld recordveld (verbindingsveld) met de naam ‘Gekoppeld product’ gemaakt voor het recordtype ‘Campagne’. Er wordt automatisch een gekoppeld recordtype met de naam &quot;Campagne&quot; gemaakt in het recordtype product.
+      * Wanneer u het Create corresponderende gebied op verbonden verslagtype het plaatsen onbruikbaar maakt en u het &quot;Campagne&quot;verslagtype met het &quot;product&quot;verslagtype verbindt, wordt een verbonden verslaggebied (verbindingsgebied) dat u &quot;Gekoppeld Product&quot;noemt gecreeerd op het verslagtype van de Campagne. Een gekoppeld recordtype dat automatisch &#39;Campagne&#39; wordt genoemd, wordt niet gemaakt in het recordtype Product.
+     </div>
 
      Voor meer informatie, zie [ Connect verslagtypes ](/help/quicksilver/planning/architecture/connect-record-types.md).
 
@@ -90,7 +90,7 @@ Overweeg het volgende over het verbinden van verslagtypes:
       * Planningsrecordvelden zijn niet toegankelijk vanuit Workfront-objecten.
       * Planningsrecords zijn zichtbaar vanaf het tabblad Planning van het Workfront-object. Voor informatie, zie [ recordverbindingen van de voorwerpen van Workfront beheren ](/help/quicksilver/planning/records/manage-records-in-planning-section.md).
       * U kunt een aangepast veld voor de planningsverbinding maken en dit koppelen aan het aangepaste formulier van een Workfront-object. Voor informatie, zie [ een douaneformulier ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren.
-      * De gebieden van het verslag van de planning zijn toegankelijk van de activa van Experience Manager wanneer uw beheerder van Workfront de meta-gegevensafbeelding door de integratie tussen Workfront en Adobe Experience Manager Assets vormt. Voor meer informatie, zie [ activa meta-gegevensafbeelding tussen Adobe Workfront en Experience Manager Assets ](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping) vormen.
+      * De gebieden van het verslag van de planning zijn toegankelijk van de activa van Experience Manager wanneer uw beheerder van Workfront de meta-gegevensafbeelding door de integratie tussen Workfront en Adobe Experience Manager Assets vormt. Voor meer informatie, zie [ activa meta-gegevensafbeelding tussen Adobe Workfront en Experience Manager Assets ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping) vormen.
 
 
    * **wanneer u raadplegingsgebieden van het verslag of het voorwerp toevoegt u met** verbindt: Naast het creëren van een verbonden verslaggebied, kunt u met gebieden van het verbonden verslag of objecttype ook verbinden dat raadplegingsgebieden wordt genoemd. Een gekoppeld veld (of opzoekveld) met informatie uit de record waarmee u verbinding maakt, wordt weergegeven in de record waaruit u verbinding maakt.
@@ -132,66 +132,65 @@ Nadat u een verbinding hebt gemaakt tussen twee recordtypen of tussen een record
 
 U kunt kiezen of u één record tegelijk wilt koppelen aan meerdere records, of één record tegelijk.
 
-Afhankelijk van het aantal records dat u aan een verbonden recordveld kunt toevoegen <!--and the environment you use to create the connected fields--> , zijn de volgende verbindingstypen waaruit u kunt kiezen bij het verbinden van recordtypen:
-
-<!--replace the list of 4 connection types at the bottom of this commented-out section with this entire section, whenw e release to preview: 
+Afhankelijk van het aantal records dat u kunt toevoegen aan een verbonden recordveld en de omgeving waarin u de verbonden velden maakt, zijn de volgende verbindingstypen die u kunt kiezen bij het verbinden van recordtypen:
 
 <div class="preview">
 
-* In the Preview environment: 
+* In de voorvertoningsomgeving:
 
-    * When the Create corresponding field on linked record type setting is disabled, you can choose from: 
+   * Wanneer de instelling voor het corresponderende veld maken voor gekoppelde recordtypen is uitgeschakeld, kunt u kiezen uit:
 
-        * [Multi-select](#multi-select-connection-type)
-        * [Single-select](#single-select-connection-type)
+      * [Meerdere selecties](#multi-select-connection-type)
+      * [Enkel selecteren](#single-select-connection-type)
 
 </div>
 
-* <span class="preview">In the Preview environment, when the Create corresponding field on linked record type setting is enabled,</span> or in the Production environment, you can choose from:
+* <span class="preview"> in het milieu van de Voorproef, wanneer Create corresponderend gebied op verbonden verslagtype het plaatsen wordt toegelaten, </span> of in het milieu van de Productie, kunt u kiezen van:
 
-    * [Many to many](#many-to-many-connection-type)
-    * [One to many](#one-to-many-connection-type)
-    * [Many to one](#many-to-one-connection-type)
-    * [One to one](#many-to-one-connection-type) 
+   * [Veel tot veel](#many-to-many-connection-type)
+   * [Eén naar vele](#one-to-many-connection-type)
+   * [Vele tot één](#many-to-one-connection-type)
+   * [ Één aan één ](#many-to-one-connection-type)
 
 <div class="preview">
 
-### Multi-select connection type
+### Multi-select verbindingstype
 
-![Multi-select connection type](assets/multi-select-connection-picker.png)
+![ multi-uitgezochte verbindingstype ](assets/multi-select-connection-picker.png)
 
-When you create a multi-select connection between record types, you can then select multiple connected records in the connection field from the original record type. 
+Wanneer u een multi-uitgezochte verbinding tussen verslagtypes creeert, kunt u veelvoudige verbonden verslagen op het verbindingsgebied van het originele verslagtype dan selecteren.
 
-For example, if you create a multi-select connection between campaigns and projects, you can select multiple projects for one campaign. A Campaign connected record type is not created for the Project object type.
+Als u bijvoorbeeld een multi-select verbinding tussen campagnes en projecten maakt, kunt u meerdere projecten voor één campagne selecteren. Een met campagne verbonden recordtype wordt niet gecreeerd voor het de objecten van het Project type.
 
-After you select this connection type, you cannot change the connection type after you save it to any of the following types:
+Nadat u dit verbindingstype hebt geselecteerd, kunt u het verbindingstype niet meer wijzigen nadat u het hebt opgeslagen in een van de volgende typen:
 
-    * Single-select
-    * One to many
-    * Many to one
-    * One to one
+    * Single-select 
+    * Een tot veel 
+    * Veel tot één 
+    * Eén tot één 
 
-### Single-select connection type
+### Single-select verbindingstype
 
-![Single select connection type](assets/single-select-connection-picker.png)
+![ Enige uitgezochte verbindingstype ](assets/single-select-connection-picker.png)
 
-When you create a single-select connection between record types, you can then select one record in the connection field from the original record type. 
+Wanneer u een single-select verbinding tussen recordtypes creeert, kunt u één verslag in het verbindingsgebied van het originele verslagtype dan selecteren.
 
-For example, if you create a single-select connection between campaigns and companies, you can select one company for one campaign. A Campaign connected record type is not created for the Company object type.
+Als u bijvoorbeeld een verbinding maakt met één keuze tussen campagnes en bedrijven, kunt u één bedrijf selecteren voor één campagne. Een Campagne verbonden verslagtype wordt niet gecreeerd voor het de objecten type van Bedrijf.
 
-After you select this connection type, you cannot change the connection type after you save it to any of the following:
+Nadat u dit verbindingstype hebt geselecteerd, kunt u het verbindingstype niet meer wijzigen nadat u het hebt opgeslagen in een van de volgende opties:
 
-    * One to many
-    * One to one
+* Eén naar vele
+* Eén op één
 
 </div>
 
+
+<!--
+* [Many to many](#many-to-many-connection-type)
+* [One to many](#one-to-many-connection-type)
+* [Many to one](#many-to-one-connection-type)
+* [One to one](#many-to-one-connection-type)
 -->
-
-* [Veel tot veel](#many-to-many-connection-type)
-* [Eén naar vele](#one-to-many-connection-type)
-* [Vele tot één](#many-to-one-connection-type)
-* [Eén op één](#many-to-one-connection-type)
 
 ### Vele-aan-vele verbindingstype
 

@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: bfb0fd2956ffb9384a09882864668d5dba33a53b
+source-git-commit: 9bdc36a76393acd2f0617cc5796cfd7279b2c97a
 workflow-type: tm+mt
-source-wordcount: '2512'
+source-wordcount: '2752'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 # Verbind recordtypen
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
 
 
 {{planning-important-intro}}
@@ -172,50 +172,45 @@ Voor een voorbeeld van het verbinden van verslagtypes en verslagen, zie [ Voorbe
 
    ![ Nieuwe verbinding om veelvoudige archiefdoos ](assets/new-connection-allow-multiple-records-box.png) toe te staan
 
-1. (Voorwaardelijk) wanneer u verslagtypes van de zelfde werkruimte, of een het verslagtype van de Planning met een objecten van Workfront type verbindt, selecteer één van de volgende **het type van Verbinding** opties om erop te wijzen hoeveel verslagengebruikers met en van kunnen verbinden:
+1. (Voorwaardelijk) wanneer u recordtypes van de zelfde werkruimte, of een het verslagtype van de Planning met een objecten van Workfront type verbindt, doe één van het volgende, afhankelijk van welke milieu u gebruikt:
 
-   * Veel tot veel
-   * Eén naar vele
-   * Vele tot één
-   * Eén op één
+   * In het milieu van de Productie, selecteer één van de volgende **type van Verbinding** opties om erop te wijzen hoeveel verslagengebruikers met en van kunnen verbinden:
 
-   ![ Velen aan vele verbindingsplukker ](assets/many-to-many-connection-picker.png)
+      * Veel tot veel
+      * Eén naar vele
+      * Vele tot één
+      * Eén op één
 
-   Voor meer informatie over verbindingstypes, zie [ Verbonden overzicht van verslagtypes ](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
+     ![ Velen aan vele verbindingsplukker ](assets/many-to-many-connection-picker.png)
 
-   >[!NOTE]
-   >
-   > Als u een-op-een of een-op-een selecteert voor het verbindingstype en u later een record of een object wilt verbinden dat al ergens anders is verbonden, ontvangt u een waarschuwing dat het opnieuw verbinden van de record de oorspronkelijke verbinding zal verwijderen. U kunt het verwijderen toestaan of een andere record selecteren.
+   <div class="preview">
 
+   * Ga als volgt te werk in de voorvertoningsomgeving:
+      1. Selecteer een van de volgende opties:
 
-   <!-- 
-        at the release to preview, replace the step above with this step; be careful with the numbering and ensure it keeps the correct step number in the preview window in MKD; there are spaces to be added between paragraphs too, when you make this live: 
-    1. (Conditional) When you connect record types from the same workspace, or a Planning record type with a Workfront object type, do one of the following, depending on which environment you are using: 
-        * In the Production environment, select one of the following **Connection type** options to indicate how many records users can connect to and from:
-            * Many to many
-            * One to many
-            * Many to one
-            * One to one      
-            ![Many to many connection picker](assets/many-to-many-connection-picker.png)
-        <div class="preview">
-        * In the Preview environment, do the following: 
-            1. Select one of the following:
-                * **Multi-select**: Select this to allow one record from the current record type to connect with multiple records from the connection record type.
-                * **Single-select**: Select this to allow one record from the current record type to connect with one record from the connection record type.
-            2. Enable the **Create corresponding field on linked record type**. When enabled, a connection field is created on the record type you are connected to, in addition to the connection field added to the current record type. This is disabled by default.
-                    >[!TIP]
-                    >
-                    >There is a limit of 500 connections for one record type. We recommend to keep this setting off, especially for taxonomical record types, to avoid reaching this limit. 
-            3. (Conditional) If you enabled **Create corresponding field on linked record type**, choose from the following options to indicate how many records users can connect to and from:
-                * Many to many
-                * One to many
-                * Many to one
-                * One to one  
-            </div>       
-             For more information about connection types, see [Connected record types overview](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
-                >[!NOTE]
-                >
-                >If you select One to many or One to one for the Connection type and you later want to connect a record or an object that is already connected elsewhere, you will receive a warning that connecting it again will remove it from the original connection. You can allow the removal or select another record.-->
+         * **multi-uitgezochte**: Selecteer dit om één verslag van het huidige verslagtype toe te staan om met veelvoudige verslagen van het type van verbindingsverslag te verbinden.
+         * **enig-uitgezochte**: Selecteer dit om één verslag van het huidige verslagtype toe te staan om met één verslag van het type van verbindingsverslag te verbinden.
+
+      2. Laat **toe leidt tot corresponderend gebied op verbonden verslagtype**. Wanneer deze optie is ingeschakeld, wordt een verbindingsveld gemaakt op het recordtype waarmee u bent verbonden, naast het verbindingsveld dat aan het huidige recordtype is toegevoegd. Dit is standaard uitgeschakeld.
+
+         >[!TIP]
+         >
+         >Er geldt een limiet van 500 verbindingen voor één recordtype. We raden u aan deze instelling uit te schakelen, vooral voor taxonomische recordtypen, om te voorkomen dat deze limiet wordt bereikt.
+
+      3. (Voorwaardelijk) als u **toeliet creeer het corresponderende gebied op verbonden verslagtype**, kies van de volgende opties om erop te wijzen hoeveel verslagengebruikers met en van kunnen verbinden:
+
+         * Veel tot veel
+         * Eén naar vele
+         * Vele tot één
+         * Eén op één
+
+     </div>
+
+     Voor meer informatie over verbindingstypes, zie [ Verbonden overzicht van verslagtypes ](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
+
+     >[!NOTE]
+     >
+     >Als u een-op-een of een-op-een selecteert voor het verbindingstype en u later een record of een object wilt verbinden dat al ergens anders is verbonden, ontvangt u een waarschuwing dat het opnieuw verbinden van de record de oorspronkelijke verbinding zal verwijderen. U kunt het verwijderen toestaan of een andere record selecteren.
 
 1. (Voorwaardelijk en facultatief) wanneer u selecteert om een voorwerp van Workfront te verbinden, kies de vorm van de a **Douane** van de **slechts voorwerpen van de Verbinding die deze criteria** sectie aanpassen. Alleen objecten waaraan de geselecteerde aangepaste formulieren zijn gekoppeld, kunnen worden gekoppeld aan het geselecteerde recordtype. U kunt meerdere formulieren selecteren.
 
@@ -227,7 +222,7 @@ Voor een voorbeeld van het verbinden van verslagtypes en verslagen, zie [ Voorbe
 
    >[!NOTE]
    >
-   >Uw Workfront-beheerder kan Workfront-planningsvelden toewijzen aan Experience Manager Assets-velden via de metagegevenstoewijzing in Workfront. Voor meer informatie, zie [ activa meta-gegevensafbeelding tussen Adobe Workfront en Experience Manager Assets ](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping) vormen.
+   >Uw Workfront-beheerder kan Workfront-planningsvelden toewijzen aan Experience Manager Assets-velden via de metagegevenstoewijzing in Workfront. Voor meer informatie, zie [ activa meta-gegevensafbeelding tussen Adobe Workfront en Experience Manager Assets ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping) vormen.
 
 
 1. (Voorwaardelijk) wanneer u om met Experience Manager Assets of met een het verslagtype van de Planning van Workfront selecteert te verbinden, kies één van de volgende opties in het **vormgeving van het Verslag** gebied:
