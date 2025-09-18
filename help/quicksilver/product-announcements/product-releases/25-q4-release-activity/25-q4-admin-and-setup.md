@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: d560a3b7-81a0-41b2-a40e-81c784a42bf6
-source-git-commit: dcdd74e8293a5e695600f08536c8fc2ad36c3a31
+source-git-commit: 30e5358549291e5d04d42ab470dccd444521ecb8
 workflow-type: tm+mt
-source-wordcount: '473'
+source-wordcount: '466'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,22 @@ ht-degree: 0%
 Op deze pagina vindt u een beschrijving van de verbeteringen die door de beheerder zijn aangebracht in de release Vierde kwartaal 2025 voor de voorvertoningsomgeving. Deze verbeteringen zullen beschikbaar worden gesteld in de productieomgeving, zoals vermeld.
 
 Voor een lijst van alle veranderingen beschikbaar op dit punt in het Vierde Kwartaal 2025 versiecyclus, zie [ Vierde Kwartaal 2025 releaseoverzicht ](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-release-overview.md).
+
+## Updates voor het Workfront-gebruikersprofiel
+
+>[!NOTE]
+>
+>* Voorbeeld: 28 augustus 2025
+>* Productie voor alle klanten: geleidelijke uitrol vanaf 18 september 2025
+
+We hebben het uiterlijk van het Workfront-gebruikersprofiel bijgewerkt naar een modern ontwerp dat aansluit bij andere delen van Workfront. Deze updates zijn van toepassing op zowel een beheerder die één profiel bewerkt, als een gebruiker die meerdere profielen bewerkt of op een gebruiker die zijn of haar eigen profiel bewerkt.
+
+Er zijn enkele kleine functieverschillen ten opzichte van het huidige gebruikersprofiel, zoals:
+
+* Sommige selectievakjes (zoals de gebruiker als actief markeren) zijn veranderd in schakelknoppen of knoppen.
+* De optie &#39;Werk verzenden dat ik aan mezelf toewijs naar mijn tabblad Werken op&#39; onder Voorkeuren is verwijderd, omdat deze naar een vervangen functie verwijst.
+
+Voor meer informatie, zie [ het profiel van een gebruiker ](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) uitgeven.
 
 ## Nieuwe Admin-weergave voor raden
 
@@ -46,26 +62,7 @@ Voor meer informatie bij het plaatsen van systeemvoorkeur, zie [ systeemvoorkeur
 
 Voor eerste vereisten aan het toelaten van AI eigenschappen, zie [ Vereisten aan AI Medewerker ](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant).
 
-## Updates voor het Workfront-gebruikersprofiel
 
->[!IMPORTANT]
->
->Deze update is tijdelijk verwijderd uit Voorvertoning en Productie.
-
-
->[!NOTE]
->
->* Voorbeeld: 28 augustus 2025
->* Productie voor alle afnemers: 4 september 2025
-
-We hebben het uiterlijk van het Workfront-gebruikersprofiel bijgewerkt naar een modern ontwerp dat aansluit bij andere delen van Workfront. Deze updates zijn van toepassing op zowel een beheerder die één profiel bewerkt, als een gebruiker die meerdere profielen bewerkt of op een gebruiker die zijn of haar eigen profiel bewerkt.
-
-Er zijn enkele kleine functieverschillen ten opzichte van het huidige gebruikersprofiel, zoals:
-
-* Sommige selectievakjes (zoals de gebruiker als actief markeren) zijn veranderd in schakelknoppen of knoppen.
-* De optie &#39;Werk verzenden dat ik aan mezelf toewijs naar mijn tabblad Werken op&#39; onder Voorkeuren is verwijderd, omdat deze naar een vervangen functie verwijst.
-
-Voor meer informatie, zie [ het profiel van een gebruiker ](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) uitgeven.
 
 ## Meerdere waardeopties van een externe API toevoegen aan een aangepast formulier
 

@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: abe76998e8d98bf47e45e01ff6b27610955177c5
+source-git-commit: c17723aed4057e744d3c3dc967990163316d82f5
 workflow-type: tm+mt
-source-wordcount: '7673'
+source-wordcount: '7834'
 ht-degree: 0%
 
 ---
@@ -162,7 +162,25 @@ We hebben interface-updates geïntroduceerd tijdens het bewerken van portfolio&#
 
 Voor informatie, zie [ portefeuilles ](/help/quicksilver/manage-work/portfolios/create-and-manage-portfolios/edit-portfolios.md) uitgeven.
 
+## Programma&#39;s
+
+### Interface-updates voor het vak Program bewerken
+
+**de versie van de Voorproef: 18 september, 2025; De versie van de productie: 25 september, 2025**
+
+We hebben de vormgeving van het vak Program bewerken aangepast aan het ontwerp van andere gebieden van Workfront.
+
+Voor informatie, zie [ programma&#39;s ](/help/quicksilver/manage-work/portfolios/create-and-manage-programs/edit-programs.md) uitgeven.
+
 ## Projecten
+
+### Interface-update wanneer bulkbewerkingssjablonen
+
+**de versie van de Voorproef: 18 september, 2025; De versie van de productie: 25 september, 2025**
+
+We hebben de vormgeving van het vak Sjablonen bewerken bulksgewijs bijgewerkt in een lijst met sjablonen. De organisatie van informatie over het Edit vakje van malplaatjes past nu de enig-malplaatje uitgeeft doos aan.
+
+Voor informatie, zie [ projectmalplaatjes ](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-templates.md) uitgeven.
 
 ### De updates van de interface voor een projectlijst of rapport wanneer het toepassen van de mening van de Mijlpaal
 
@@ -376,17 +394,16 @@ Zie voor meer informatie
 
 ## Gebruikers
 
-<!--
-### Interface updates for the New User dialog
+### Interface-updates voor het dialoogvenster Nieuwe gebruiker
 
-**Preview release: September 11, 2025; Production release: September 18, 2025**
+**de versie van de Voorproef: 18 september, 2025; De versie van de productie: 18 september, 2025**
 
-We have updated the look and feel of the New User dialog to match the design in other areas of the application.
+We hebben de vormgeving van het dialoogvenster Nieuwe gebruiker aangepast aan het ontwerp in andere onderdelen van de toepassing.
 
-To view this change, go to Users > New User > New User.
+Ga naar Gebruikers > Nieuwe gebruiker > Nieuwe gebruiker om deze wijziging weer te geven.
 
-For information, see [Add users](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/add-users.md) and [Updates to the Workfront user profile](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md#updates-to-the-workfront-user-profile) on the [Fourth Quarter 2025 Administrator enhancements page](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md).
--->
+Voor informatie, zie [ gebruikers ](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/add-users.md) en [ Updates aan het gebruikersprofiel van Workfront ](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md#updates-to-the-workfront-user-profile) op het [ Vierde Kwartaal 2025 de verbeteringspagina van de Beheerder ](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md) toevoegen.
+
 
 ### Interface-updates voor het dialoogvenster Gebruikers importeren
 
