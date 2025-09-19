@@ -6,9 +6,9 @@ description: Als gebruiker met een licentie voor abonnementen kunt u configurere
 author: Alina
 feature: Timesheets
 exl-id: 4f801a13-182d-4e06-98ea-f6863f6a8edf
-source-git-commit: b4ab350af22afa44774f06d82daf1c3fb266d2b9
+source-git-commit: 106ef838bfee5e496cae864eca5c19fd12fdd18e
 workflow-type: tm+mt
-source-wordcount: '451'
+source-wordcount: '455'
 ht-degree: 0%
 
 ---
@@ -54,9 +54,9 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
    * **beheerder van het Systeem die tijd registreren voor anderen vormen:** Begin het uitgeven van één of meerdere gebruikersrekeningen, zoals die in [ worden beschreven geef het profiel van een gebruiker ](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) uit.
 
-1. In het resulterende dialoogvakje, in de **Planning van het Middel** sectie, bepaal de plaats van de **Tijd van het Logboek in** optie.
+1. In het resulterende dialoogvakje, in de **Planning van het Middel** sectie, bepaal de plaats van de **tijd van het Logboek in** optie.
 
-   ![](assets/new-timesheet-log-hours-350x249.png)
+   ![ tijd van het Logboek in opties ](assets/user-profile-log-time-options.png)
 
 1. (Voorwaardelijk) als u een systeembeheerder bent die veelvoudige gebruikers gelijktijdig uitgeeft, uitgezochte **Tijd van het Logboek**.
 1. Maak een keuze uit de volgende opties voor logtijd:
