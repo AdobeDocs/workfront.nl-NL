@@ -6,7 +6,7 @@ description: Met Data Connect kunnen Workfront-beheerders toegang krijgen tot ge
 author: Jenny
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
-source-git-commit: 79e8b2b1dd3b7374173c2a930abdf8a0bca2cda6
+source-git-commit: 05cf34fe6659c50da76d2478c6e79352346dc9a5
 workflow-type: tm+mt
 source-wordcount: '448'
 ht-degree: 0%
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 In de weergave Taakgeschiedenis hebben Workfront-beheerders toegang tot gedetailleerde records van elke gegevensupdate. Deze records bieden waardevolle insight in de taken die uw gegevens up-to-date houden en helpen u ideale tijdsbestekken te maken voor het uitvoeren van processen en het vernieuwen van uw zakelijke visualisaties.
 
-![ de mening van de Geschiedenis van de Baan ](assets/job-history-tab.png)
+![ de mening van de Geschiedenis van de Baan ](assets/job-history-overview.png)
 
 De de meningskolommen van de Geschiedenis van de Baan bevatten de volgende informatie:
 
