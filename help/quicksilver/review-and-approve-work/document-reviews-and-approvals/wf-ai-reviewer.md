@@ -55,7 +55,7 @@ Als u een niet-ondersteund bestandstype uploadt, wordt de optie AI Reviewer niet
 
 ## Richtlijnen voor merken instellen
 
-De Workfront AI Reviewer gebruikt de merkrichtlijnen die zijn ingesteld in Genstudio Foundation bij het beoordelen van uw inhoud. Momenteel kunt u alleen richtlijnen voor het merk van afbeeldingen instellen. Voor meer informatie, zie [ begonnen worden met Adobe GenStudio for Performance Marketing ](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started).
+De Workfront AI Reviewer gebruikt de merkrichtlijnen die zijn ingesteld in Genstudio Foundation bij het beoordelen van uw inhoud. Momenteel kunt u alleen richtlijnen voor het merk van afbeeldingen instellen. Voor meer informatie, zie [ begonnen worden met Adobe GenStudio for Performance Marketing ](https://experienceleague.adobe.com/nl/docs/genstudio-for-performance-marketing/user-guide/get-started).
 
 
 ## AI-revisoren maken
