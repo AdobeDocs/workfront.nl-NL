@@ -7,7 +7,7 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 0f4fd3a7-9578-4fda-b10f-9b4be147f1de
-source-git-commit: e20e26ef11046ed252725f8c5431469642845b52
+source-git-commit: d088b40cd8d46a986998fde2176646aa1660cb6b
 workflow-type: tm+mt
 source-wordcount: '638'
 ht-degree: 0%
@@ -55,12 +55,12 @@ Als u een niet-ondersteund bestandstype uploadt, wordt de optie AI Reviewer niet
 
 ## Richtlijnen voor merken instellen
 
-De Workfront AI Reviewer gebruikt de merkrichtlijnen die zijn ingesteld in Genstudio Foundations bij het beoordelen van uw inhoud. Momenteel kunt u alleen richtlijnen voor het merk van afbeeldingen instellen. Voor meer informatie, zie [ begonnen worden met Adobe GenStudio for Performance Marketing ](https://experienceleague.adobe.com/nl/docs/genstudio-for-performance-marketing/user-guide/get-started).
+De Workfront AI Reviewer gebruikt de merkrichtlijnen die zijn ingesteld in Genstudio Foundation bij het beoordelen van uw inhoud. Momenteel kunt u alleen richtlijnen voor het merk van afbeeldingen instellen. Voor meer informatie, zie [ begonnen worden met Adobe GenStudio for Performance Marketing ](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started).
 
 
 ## AI-revisoren maken
 
-Als er ten minste één merk is ingesteld in GenStudio Foundations, kunnen Workfront-beheerders beginnen met het maken van AI Reviewers in het gedeelte Setup. Die AI-revisoren kunnen vervolgens worden toegewezen aan goedkeuringssjablonen en aan individuele controle- en goedkeuringsaanvragen. Op dit moment kunnen AI-revisoren alleen controleren aan de hand van richtlijnen voor afbeeldingsmerken.
+Als er ten minste één merk is ingesteld in GenStudio Foundation, kunnen Workfront-beheerders beginnen met het maken van AI Reviewers in het gedeelte Setup. Die AI-revisoren kunnen vervolgens worden toegewezen aan goedkeuringssjablonen en aan individuele controle- en goedkeuringsaanvragen. Op dit moment kunnen AI-revisoren alleen controleren aan de hand van richtlijnen voor afbeeldingsmerken.
 
 Voor meer informatie, zie [ AI Reviewers ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/set-up-ai-reviewer.md) creëren.
 

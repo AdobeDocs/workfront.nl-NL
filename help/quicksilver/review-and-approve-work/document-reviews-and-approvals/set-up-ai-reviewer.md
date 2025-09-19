@@ -2,12 +2,12 @@
 product-area: documents
 navigation-topic: approvals
 title: AI-revisoren maken
-description: Als u ten minste één merk hebt ingesteld in GenStudio-stichtingen, kunt u meerdere AI-revisoren maken. Deze revisoren kunt u vervolgens toewijzen aan goedkeuringssjablonen en aan individuele revisie- en goedkeuringsaanvragen.
+description: Als u ten minste één merk hebt ingesteld in GenStudio Foundation, kunt u meerdere AI-revisoren maken. Deze revisoren kunt u vervolgens toewijzen aan goedkeuringssjablonen en aan individuele revisie- en goedkeuringsaanvragen.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 4673049e-119e-4315-95f0-f10d8b286856
-source-git-commit: 7d7291539d4436f0c4700363b7800a5cc6ac4096
+source-git-commit: d088b40cd8d46a986998fde2176646aa1660cb6b
 workflow-type: tm+mt
 source-wordcount: '250'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 >
 >Deze functie is momenteel in bèta.
 
-Als u ten minste één merk hebt ingesteld in GenStudio-stichtingen, kunt u meerdere AI-revisoren maken. Deze revisoren kunt u vervolgens toewijzen aan goedkeuringssjablonen en aan individuele revisie- en goedkeuringsaanvragen.
+Als u ten minste één merk hebt ingesteld in GenStudio Foundation, kunt u meerdere AI-revisoren maken. Deze revisoren kunt u vervolgens toewijzen aan goedkeuringssjablonen en aan individuele revisie- en goedkeuringsaanvragen.
 
 >[!NOTE]
 >
@@ -40,7 +40,7 @@ Als u ten minste één merk hebt ingesteld in GenStudio-stichtingen, kunt u meer
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Standaard</p> </td> 
+   <td> <p>Standard</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau</td> 
@@ -55,9 +55,9 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 ## Vereisten
 
-Voordat u begint, moet u richtlijnen voor het brandmerken van afbeeldingen instellen in GenStudio Foundations.
+Voordat u begint, moet u richtlijnen voor het maken van afbeeldingsmerken in GenStudio Foundation instellen.
 
-Meer over de richtlijnen van het beeldmerk leren, zie [ begonnen worden met Adobe GenStudio for Performance Marketing ](https://experienceleague.adobe.com/nl/docs/genstudio-for-performance-marketing/user-guide/get-started).
+Meer over de richtlijnen van het beeldmerk leren, zie [ begonnen worden met Adobe GenStudio for Performance Marketing ](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started).
 
 ## Een AI-revisor toevoegen
 
