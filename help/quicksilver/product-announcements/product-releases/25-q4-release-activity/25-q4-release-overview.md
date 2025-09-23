@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 298473d4-7d7d-4401-80bf-899a01f570a6
-source-git-commit: a7b220017e0dc42e91a0b518b4eadcae8bb9fb8a
+source-git-commit: 0c8d84cfcc87728e809061c01c56322f3fd1f2f6
 workflow-type: tm+mt
-source-wordcount: '2073'
+source-wordcount: '2125'
 ht-degree: 2%
 
 ---
@@ -351,6 +351,14 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr>
     <tr>
         <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-other.md" class="MCXref xref" xrefformat="{para}"> Adobe Verenigde Ervaring nu beschikbaar voor meer organisaties van Workfront </a><p></p>
+            <p>Om organisaties toegang tot de voordelen van de Verenigde Ervaring van Adobe te verlenen, blijven wij het ter beschikking stellen aan bestaande klanten van Workfront.</p><p><span style="color: #ff0000;"> de Adobe Verenigde Ervaring wordt ter beschikking gesteld in een gefaseerde uitrol.</span> </p>
+        </td>
+        <td><p>vrijdag 11 september 2025</p><p>of</p><p>11 december 2025</p></td>
+        <td><p>vrijdag 16 oktober 2025</p><p>of</p><p>vrijdag 15 januari 2026</p></td>
+        <td><p>vrijdag 16 oktober 2025</p><p>of</p><p>vrijdag 15 januari 2026</p></td>
+    <tr>
+        <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-other.md" class="MCXref xref" xrefformat="{para}"> Updates aan verbeterde lijsten </a><p></p>
             <p>Met onze geavanceerde lijstindeling kunt u filters en groepen gebruiken om uw werk weer te geven en beter te organiseren. Er wordt nu een blauwe-puntenindicator weergegeven boven een widget om u te laten weten wanneer een filter of groep is toegepast op een lijst in de volgende gebieden:</p>
             <ul>
@@ -390,7 +398,7 @@ We werken de interface in Adobe Workfront bij om de gebruikerservaring te verbet
 
 ### Workfront Fusion-verbeteringen
 
-Nieuwe functies in Workfront Fusion zijn beschikbaar in Production op een cadence buiten de standaard releaseschema. Voor meer informatie over de recentste eigenschappen, zie [ de versieactiviteit van de Fusie van Adobe Workfront ](https://experienceleague.adobe.com/nl/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
+Nieuwe functies in Workfront Fusion zijn beschikbaar in Production op een cadence buiten de standaard releaseschema. Voor meer informatie over de recentste eigenschappen, zie [ de versieactiviteit van de Fusie van Adobe Workfront ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 
 ### Verbeteringen voor Workfront-planning
 
@@ -439,7 +447,7 @@ Om stabielere en scalable integratie te leveren, verschuiven wij naar een modern
 * Workfront voor Salesforce.
 
 We raden u aan Workfront Automation and Integration te gebruiken voor de integratiebehoeften van uw organisatie met Google Workspace.
-Voor een overzicht van de Automatisering en de Integratie van Workfront, zie [ het overzicht van de Fusie van Adobe Workfront ](https://experienceleague.adobe.com/nl/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+Voor een overzicht van de Automatisering en de Integratie van Workfront, zie [ het overzicht van de Fusie van Adobe Workfront ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 
 ### API-versie 20
 
@@ -451,8 +459,8 @@ Voor informatie over API versies, zie [ API versioning en steunprogramma ](/help
 
 ### Workfront-onderhoudsupdates
 
-Voor informatie over de onderhoudsupdates die tijdens Eerste Kwartaal 2025 versie worden gemaakt, zie {de Updates van het Onderhoud van 0} Workfront [.](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=nl-NL)
+Voor informatie over de onderhoudsupdates die tijdens Eerste Kwartaal 2025 versie worden gemaakt, zie {de Updates van het Onderhoud van 0} Workfront [.](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html)
 
 ### Training-updates
 
-Ontdek de nieuwste updates van leerprogramma&#39;s, leerpaden, video&#39;s en handleidingen voor elke Adobe Workfront-productrelease. Voor meer informatie, zie &quot;wat&quot;sectie van de [ pagina van de Leerprogramma&#39;s van Workfront ](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=nl-NL) Nieuw is.
+Ontdek de nieuwste updates van leerprogramma&#39;s, leerpaden, video&#39;s en handleidingen voor elke Adobe Workfront-productrelease. Voor meer informatie, zie &quot;wat&quot;sectie van de [ pagina van de Leerprogramma&#39;s van Workfront ](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html) Nieuw is.
