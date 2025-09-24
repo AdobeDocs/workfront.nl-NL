@@ -2,13 +2,13 @@
 product-area: projects;templates
 navigation-topic: manage-projects
 title: Een project opslaan als een sjabloon
-description: Sparen een project als templateSave als malplaatje"op het projectniveau, zodat zien de gebruikers dat in UI; er is een ander artikel dat dit verbindingen aan die diepgaander (geleidelijke) is. Deze functionaliteit moet in zowel projecten als malplaatjegebieden blijven.)"
+description: Sparen een project als malplaatje op het projectniveau, zodat zien de gebruikers dat in UI; er is een ander artikel dat dit verbindt aan welke meer diepgaand (geleidelijke) is. Deze functionaliteit moet in zowel projecten als malplaatjegebieden blijven.)
 author: Alina
 feature: Work Management
 exl-id: 4b5dfe12-f984-47c6-8e19-78b549f19159
-source-git-commit: f7cb314067d105d5534f4be356024aea8e8f9a28
+source-git-commit: 13621c29f32a514af46489fb58397f3e96f640ce
 workflow-type: tm+mt
-source-wordcount: '489'
+source-wordcount: '487'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Als u besluit dat een project ergens in de toekomst opnieuw zal voorkomen, kunt 
 
 ## Toegangsvereisten
 
-+++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven. 
 
 <table style="table-layout:auto"> 
  <col> 

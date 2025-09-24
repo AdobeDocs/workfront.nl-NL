@@ -3,11 +3,11 @@ content-type: reference
 product-area: projects
 navigation-topic: financials
 title: Geraamde kosten berekenen
-description: Bereken de Beoogde Voortgang van het Project CostTracking met een Rapport van het Gebruik""
+description: Bereken de Beoogde Voortgang van het Project CostTracking met een Rapport van het Gebruik
 author: Lisa
 feature: Work Management
 exl-id: e96fe38f-58c2-4938-9d2d-81d1109123fa
-source-git-commit: 6afa65f921864403c10541d283ef717dce81aed7
+source-git-commit: 13621c29f32a514af46489fb58397f3e96f640ce
 workflow-type: tm+mt
 source-wordcount: '394'
 ht-degree: 0%
@@ -71,7 +71,7 @@ De begrote Kosten zoals weerspiegeld in het gebied van de Begroting van het Midd
     </tr> 
     <tr> 
      <td>Kosten</td> 
-     <td> <p>Portfolio optimaliseren</p> <p>Tip: Het totaal van alle begrote kosten voor het project is de begrote kosten van de portefeuille.</p> </td> 
+     <td> <p>Portfolio Optimizer</p> <p>Tip: Het totaal van alle begrote kosten voor het project is de begrote kosten van de portefeuille.</p> </td> 
     </tr> 
     <tr> 
      <td>Geraamde projectkosten</td> 

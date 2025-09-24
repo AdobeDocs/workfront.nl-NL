@@ -3,11 +3,11 @@ content-type: reference
 product-area: resource-management;user-management
 navigation-topic: resource-planning
 title: Beschikbare, geplande en Werkelijke uren of VTE van de mening van het Middel in de Planner van het Middel wanneer het Gebruiken van de Mening van de Gebruiker
-description: De mening Beschikbare, Geplande, en Ware Uren of FTE in de Planner van het Middel wanneer het gebruiken van de gebruiker viewPlanning"in RP" - misschien "het opnemen van middelen in RP"of "het Leiden Middelen in RP." etc.. - of zou moeten worden hergebruikt van een andere POV?!)"
+description: De mening Beschikbare, Geplande, en Ware Uren of FTE in de Planner van het Middel wanneer het gebruiken van de gebruiker viewPlanning in RP - misschien "het opnemen van middelen in RP"of "het Leiden Middelen in RP." etc.. - of zou moeten worden hergebruikt van een andere POV?!)
 author: LIsa
 feature: Resource Management
 exl-id: 6b532aa2-435f-4fda-b7ce-abe0a785638f
-source-git-commit: 3c3175c347431b10aed1a6034df6c756056399b3
+source-git-commit: 13621c29f32a514af46489fb58397f3e96f640ce
 workflow-type: tm+mt
 source-wordcount: '1739'
 ht-degree: 0%
@@ -58,13 +58,13 @@ Overweeg het volgende wanneer het bekijken van de informatie van Uren of FTE in 
 
 Verwijs naar de volgende lijsten voor het begrip van de informatie die in de mening van de Gebruiker van de Planner van het Middel wordt getoond. De informatie wordt weergegeven in uren of FTE-waarden.
 
-* [ de (Beschikbare) AVL kolom ](#the-avl-available-column)
+* [ de (Beschikbare) kolom van AVL ](#the-avl-available-column)
 * [ PLN (Geplande) kolom ](#the-pln-planned-column)
 * [ ACT (Ware) kolom ](#The%C2%A0ACT)
 * [ DIF (Verschil) kolom ](#the-dif-difference-column)
 * [De kolom % (percentage geplande uren toewijzing)](#the-planned-hours-allocation-percentage-column)
 
-### De kolom AVL (Beschikbaar) {#the-avl-available-column}
+### De kolom AVL (Available) {#the-avl-available-column}
 
 <table style="table-layout:auto"> 
  <col> 
@@ -262,7 +262,7 @@ Voor meer informatie over Werkelijke Uren, zie [ Werkelijke Uren van de Mening ]
 
 Als de waarde van de Geplande Uren of VTE nul is, is de Percentage Toewijzing 0%. Als de waarde van de Beschikbare Uren of FTE nul is, kan de Percentage van Toewijzing niet worden berekend.
 
-Voor meer informatie over Geplande Uren en FTE en hoe zij in de Planner van het Middel worden getoond, zie &lbrace;de middelen van de Begroting in de Planner van het Middel gebruikend de meningen van het Project en van de Rol [&#128279;](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md).
+Voor meer informatie over Geplande Uren en FTE en hoe zij in de Planner van het Middel worden getoond, zie {de middelen van de Begroting in de Planner van het Middel gebruikend de meningen van het Project en van de Rol [.](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md)
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;this table is ideal but it does not render in Markdown) </p>
