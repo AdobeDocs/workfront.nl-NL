@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 4e1761f9-bf73-4355-925a-9136f2787a3f
-source-git-commit: a7dc4a24163f6c161362744d2ecb302fb2506dc2
+source-git-commit: bfece1075b137f9fcbaf6046e626952b5f2bde2f
 workflow-type: tm+mt
-source-wordcount: '1797'
+source-wordcount: '2016'
 ht-degree: 0%
 
 ---
@@ -36,6 +36,59 @@ Previously, request forms were located only on the object for which they were cr
 
 For more information on request forms, see [Create and manage a request form in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md). -->
 
+## Opnieuw ontwerpen van de de meningstoolbars en toegangspunten van de Planning
+
+>[!NOTE]
+>
+>* Voorbeeld: 25 september 2025
+>* Snelle productie: 15 oktober 2025
+>* Alle productie: 16 oktober 2025
+
+We hebben opnieuw ontworpen hoe u weergaven weergeeft, opent en beheert op een pagina met recordtypen.
+
+De volgende verbeteringen zijn opgenomen in deze update:
+
+* De weergavabs zijn vervangen door een vervolgkeuzemenu in de linkerbovenhoek van de pagina met recordtypen. In het menu wordt nu een lijst met alle weergaven weergegeven.
+* U kunt de volgorde van de weergaven wijzigen door ze naar wens te slepen en neer te zetten.
+* De meeste werkbalkpictogrammen, behalve de modus Volledig scherm, zijn van de rechterkant naar de linkerkant van de pagina verplaatst.
+* Het vak Zoeken is naar de rechterkant van de werkbalk verplaatst.
+De functionaliteit van elke weergave is niet gewijzigd.
+
+Voor informatie, zie [ verslagmeningen ](/help/quicksilver/planning/views/manage-record-views.md) leiden.
+
+<!--## Enhancements to request forms in Workfront Planning
+
+>[!NOTE]
+>
+>* Preview: September 25, 2025
+>* Production fast release: October 15, 2025
+>* Production all: October 16, 2025
+
+To make the request process simpler, we've made some enhancements to request forms. Now, when configuring a request form, you can configure the following:
+
+* Configure when requests created from the form will be automatically marked complete. You can set the request to be marked complete when the requested object is created, or when the requested object is complete based on criteria you specify.
+* Set up an automation that is triggered when a request is submitted from the form. Currently, you can automatically create records when the request is submitted. 
+
+For more information on creating a request form and configuring these options, see [Create and manage a request form in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md). -->
+
+## Formaat van records wijzigen in de wekelijkse weergave van de kalender
+
+>[!NOTE]
+>
+>* Voorbeeld: 25 september 2025
+>* Snelle productie: 15 oktober 2025
+>* Alle productie: 16 oktober 2025
+
+In de wekelijkse kalenderweergave van een pagina met recordtypen kunt u nu op de linker- of rechtermarge van een record klikken en deze ingedrukt houden om de duur ervan te wijzigen.
+
+Als u de marges van een record verplaatst, wijzigt u ook de begin- en einddatum onmiddellijk.
+
+Er wordt een omtrek weergegeven om u naar de nieuwe locatie te leiden voordat de grootte van de gebeurtenis wordt gewijzigd.
+
+Deze functionaliteit bestaat al in de maandelijkse kalenderweergave.
+
+Voor meer informatie, zie [ verslagen ](/help/quicksilver/planning/records/edit-records.md) uitgeven.
+
 ## Het nieuwe informatievak wordt weergegeven wanneer u een veld wijzigt of verwijdert
 
 >[!NOTE]
@@ -57,8 +110,8 @@ Voor informatie, zie [ overzicht van de gebieden van de Formule ](/help/quicksil
 >[!NOTE]
 >
 >Voorbeeld: 11 september 2025
->&#x200B;>Productie voor alle afnemers: 11 september 2025
->&#x200B;>[!BADGE Uit schema &#x200B;]{type=Neutral}
+>>Productie voor alle afnemers: 11 september 2025
+>>[!BADGE Uit schema ]{type=Neutral}
 
 Als uw organisatie zowel de Planning van Adobe Workfront als Adobe GenStudio for Performance Marketing gebruikt, zou u marketing concepten zoals Campagnes, Producten, en Personas meer in detail kunnen willen bepalen dan wat GenStudio door gebrek steunt.
 
@@ -223,8 +276,8 @@ Voor informatie, zie [ overzicht van de gebieden van de Formule ](/help/quicksil
 >[!NOTE]
 >
 >Voorbeeld: 7 augustus 2025
->&#x200B;>Productie voor alle afnemers: augustus 2025
->&#x200B;>[!BADGE Uit schema &#x200B;]{type=Neutral}
+>>Productie voor alle afnemers: augustus 2025
+>>[!BADGE Uit schema ]{type=Neutral}
 
 We hebben nieuwe expressies toegevoegd met het volgende gebruik voor formuleringsvelden in Workfront Planning en voor berekende aangepaste velden in Workfront:
 
@@ -239,8 +292,8 @@ Voor meer informatie, zie [ Overzicht van berekende gegevensuitdrukkingen ](/hel
 >[!NOTE]
 >
 >Voorbeeld: 31 juli 2025
->&#x200B;>Productie voor alle afnemers: 31 juli 2025
->&#x200B;>[!BADGE Uit schema &#x200B;]{type=Neutral}
+>>Productie voor alle afnemers: 31 juli 2025
+>>[!BADGE Uit schema ]{type=Neutral}
 
 Er is een knop Maximaliseren toegevoegd om het veld Formule te vergroten wanneer u het veld maakt of bewerkt in een recordtabelweergave. Bovendien hebben we een knop Minimaliseren toegevoegd in het nieuwe vergrote venster om terug te keren naar het vak voor het maken van velden.
 
@@ -289,8 +342,8 @@ For more information on creating requests see:
 >[!NOTE]
 >
 >Voorbeeld: 24 juli 2025
->&#x200B;>Snelle productie: 14 augustus 2025
->&#x200B;>Productie voor alle afnemers: 16 oktober 2025
+>>Snelle productie: 14 augustus 2025
+>>Productie voor alle afnemers: 16 oktober 2025
 
 U kunt nu records van een recordtype maken in de tijdlijnweergave door ergens op de tijdlijn te dubbelklikken.
 
@@ -305,8 +358,8 @@ Voor informatie, zie [ verslagen ](/help/quicksilver/planning/records/create-rec
 >[!NOTE]
 >
 >Voorbeeld: 24 juli 2025
->&#x200B;>Snelle productie: 14 augustus 2025
->&#x200B;>Productie voor alle afnemers: 16 oktober 2025
+>>Snelle productie: 14 augustus 2025
+>>Productie voor alle afnemers: 16 oktober 2025
 
 U kunt nu een recordtype delen via het menu Meer van de kaart met recordtypen op de pagina Werkruimte. Vóór deze verbetering, was de optie van het Aandeel beschikbaar slechts binnen de verslagtype pagina.
 
@@ -317,8 +370,8 @@ Voor informatie, zie [ recordtypes van het Aandeel ](/help/quicksilver/planning/
 >[!NOTE]
 >
 >Voorbeeld: 24 juli 2025
->&#x200B;>Snelle productie: 14 augustus 2025
->&#x200B;>Productie voor alle afnemers: 16 oktober 2025
+>>Snelle productie: 14 augustus 2025
+>>Productie voor alle afnemers: 16 oktober 2025
 
 U kunt nu alle Workfront-planningsweergaven (tabel, tijdlijn en kalender) op een volledig scherm weergeven. De weergavefunctionaliteit blijft behouden en u kunt de weergave ook wijzigen op volledig scherm.
 
@@ -331,8 +384,8 @@ Voor informatie, zie [ verslagmeningen ](/help/quicksilver/planning/views/manage
 >[!NOTE]
 >
 >Voorbeeld: 22 juli 2025
->&#x200B;>Productie voor snelle release: 14 augustus 2025
->&#x200B;>Productie voor alle afnemers: 16 oktober 2025
+>>Productie voor snelle release: 14 augustus 2025
+>>Productie voor alle afnemers: 16 oktober 2025
 
 Om het goedkeuringsproces flexibeler te maken, hebben wij de capaciteit toegevoegd om teams als fiatteurs op de aanvraagformulieren van de Planning toe te voegen. Nu kunt u teamnamen invoeren en selecteren wanneer u fiatteurs instelt. Om het even welke teamleden kunnen een besluit nemen, dat als goedkeuringsbesluit voor het volledige team telt.
 
@@ -345,8 +398,8 @@ Voor meer informatie, zie [ een goedkeuring aan een verzoekvorm in de Planning v
 >[!NOTE]
 >
 >Voorbeeld: 17 juli 2025
->&#x200B;>Productie voor snelle release: 14 augustus 2025
->&#x200B;>Productie voor alle afnemers: 16 oktober 2025
+>>Productie voor snelle release: 14 augustus 2025
+>>Productie voor alle afnemers: 16 oktober 2025
 
 Wij introduceren de volgende gebieden om goedkeuringsinformatie voor verslagen te vangen die door een verzoek met een goedkeuring wordt gecreeerd voor te leggen:
 
@@ -360,8 +413,8 @@ Voor informatie, zie [ gebieden ](/help/quicksilver/planning/fields/create-field
 >[!NOTE]
 >
 >Voorbeeld: 10 juli 2025
->&#x200B;>Snelle productie: 14 augustus 2025
->&#x200B;>Productie voor alle afnemers: 16 oktober 2025
+>>Snelle productie: 14 augustus 2025
+>>Productie voor alle afnemers: 16 oktober 2025
 
 
 Als u nu groepen hebt toegepast op een tabelweergave, wordt automatisch ingevuld wanneer u een record aan de tabel toevoegt, welke velden zijn gekoppeld aan de groepen waaraan u de record toevoegt.

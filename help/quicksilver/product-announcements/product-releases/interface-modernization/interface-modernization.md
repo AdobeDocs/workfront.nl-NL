@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: c17723aed4057e744d3c3dc967990163316d82f5
+source-git-commit: bfece1075b137f9fcbaf6046e626952b5f2bde2f
 workflow-type: tm+mt
-source-wordcount: '7834'
+source-wordcount: '8092'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,40 @@ Deze pagina bevat een overzicht van de interface-updates die we in Adobe Workfro
 Voor alle andere veranderingen in Adobe Workfront, zie {de versies van het 0} Product [.](/help/quicksilver/product-announcements/product-releases/product-releases.md)
 
 ## Beheer en installatie
+
+<!--### Interface updates when adding or editing group timesheet profiles
+
+**Preview release: September 25, 2025; Production release: October 2, 2025**
+
+We have updated the look and feel of the Timesheet Profile page when editing or adding a group timesheet profile.
+
+To view these changes, go to Setup > Groups > select a group name > Timesheet Profiles and either add a new profile, or edit an existing one.
+
+For more information, see [Create, edit, and assign timesheet profiles](/help/quicksilver/timesheets/create-and-manage-timesheets/create-timesheet-profiles.md). -->
+
+### Interface-updates voor het gebied Ernsten in Setup
+
+**de versie van de Voorproef: 25 September, 2025; De versie van de Productie: 2 Oktober, 2025**
+
+We hebben de pagina Severities bijgewerkt met een modern ontwerp dat aansluit bij andere gebieden van Workfront.
+
+Een zichtbare verandering in de interface is dat om een strengheid het gebrek te maken of een strengheid te schrappen, u het controlevakje naast de strengheidsnaam moet selecteren en een optie van de actiebar bij de bodem van het scherm kiest.
+
+Ga naar Instellingen > Projectvoorkeuren > Ernsten om deze wijzigingen weer te geven.
+
+Voor meer informatie, zie [ creeer of pas de controles van de kwestie ](/help/quicksilver/administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-issue-severities.md) aan.
+
+### Interface-updates voor het gebied Prioriteiten in Setup
+
+**de versie van de Voorproef: 25 September, 2025; De versie van de Productie: 2 Oktober, 2025**
+
+We hebben de pagina Prioriteiten bijgewerkt met een modernere opzet die aansluit bij andere gebieden van Workfront.
+
+Een zichtbare verandering in de interface is dat om van een prioriteit het gebrek te maken of een prioriteit te schrappen, u het controlevakje naast de prioritaire naam moet selecteren en een optie van de actiebar bij de bodem van het scherm kiezen.
+
+Ga naar Instellingen > Projectvoorkeuren > Prioriteiten om deze wijzigingen weer te geven.
+
+Voor meer informatie, zie [ prioriteiten ](/help/quicksilver/administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md) creëren en aanpassen.
 
 ### Interface werkt bij het toevoegen of bewerken van het tijdbladprofiel in het gedeelte Setup
 
@@ -392,7 +426,27 @@ Zie voor meer informatie
 * [ creeer de Groepen van het Onderwerp ](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-topic-groups.md).
 * [ creeer het Verpletteren van Regels ](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-routing-rules.md).
 
+
+
 ## Gebruikers
+
+<!--### Interface updates for the User Details page
+
+**Preview release: September 25, 2025; Production release: October 2, 2025**
+
+We have updated the look and feel of the User Details page to match other areas of the application.
+
+You can view the updated design by going to Users, selecting a user, and clicking Details in the left panel.-->
+
+### Interface-updates voor persoonlijke time-off
+
+**de versie van de Voorproef: 25 September, 2025; De versie van de Productie: 2 Oktober, 2025**
+
+Wij hebben de blik en het gevoel van de persoonlijke tijd van kalender, met inbegrip van de capaciteit bijgewerkt om goedkeuringen te delegeren, om andere gebieden van de toepassing aan te passen.
+
+Om deze veranderingen te bekijken, ga naar uw gebruikersprofiel en klik **Tijd van** in het linkerpaneel.
+
+Voor meer informatie, zie [ persoonlijke tijd van ](/help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md) vormen en [ de goedkeuringsverzoek van de Afgevaardigde ](/help/quicksilver/review-and-approve-work/manage-approvals/delegate-approval-requests.md).
 
 ### Interface-updates voor het dialoogvenster Nieuwe gebruiker
 

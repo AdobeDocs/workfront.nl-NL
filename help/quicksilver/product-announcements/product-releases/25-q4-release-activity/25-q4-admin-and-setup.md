@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: d560a3b7-81a0-41b2-a40e-81c784a42bf6
-source-git-commit: a7b220017e0dc42e91a0b518b4eadcae8bb9fb8a
+source-git-commit: aec301a72ce0864faaf61754552ab8b4ba9bfb49
 workflow-type: tm+mt
-source-wordcount: '466'
+source-wordcount: '591'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,20 @@ ht-degree: 0%
 Op deze pagina vindt u een beschrijving van de verbeteringen die door de beheerder zijn aangebracht in de release Vierde kwartaal 2025 voor de voorvertoningsomgeving. Deze verbeteringen zullen beschikbaar worden gesteld in de productieomgeving, zoals vermeld.
 
 Voor een lijst van alle veranderingen beschikbaar op dit punt in het Vierde Kwartaal 2025 versiecyclus, zie [ Vierde Kwartaal 2025 releaseoverzicht ](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-release-overview.md).
+
+## Bevestiging bij het verwijderen van een aangepast formulier uit een object
+
+>[!NOTE]
+>
+>* Voorbeeld: 25 september 2025
+>* Snelle productie: 15 oktober 2025
+>* Productie voor alle afnemers: 16 oktober 2025
+
+Om ervoor te zorgen dat u toegang behoudt tot de gegevens die u nodig hebt, hebben we een bevestigingsvenster toegevoegd wanneer u een aangepast formulier uit een object verwijdert. Als u een aangepast formulier uit een object verwijdert, worden de gegevens in dat formulier permanent uit het object verwijderd. In het dialoogvenster kunt u nu bevestigen dat u begrijpt dat deze gegevens worden verwijderd, zodat u de gegevens die u nodig hebt, niet verwijdert.
+
+Eerder was de enige waarschuwing voor het verwijderen van gegevens tekst bij de verwijderoptie.
+
+Voor meer informatie bij het verwijderen van een douaneformulier, zie [ een douaneformulier uit een voorwerp ](/help/quicksilver/workfront-basics/work-with-custom-forms/manage-custom-forms-attached-to-objects.md#remove-a-custom-form-from-an-object) in artikel verwijderen leidt douaneformulieren in bijlage aan voorwerpen.
 
 ## Updates voor het Workfront-gebruikersprofiel
 
