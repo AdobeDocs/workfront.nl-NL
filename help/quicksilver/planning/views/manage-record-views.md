@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: bfb0fd2956ffb9384a09882864668d5dba33a53b
+source-git-commit: f32b2f9e5a511b83e5793299e47b9c1c12857bd8
 workflow-type: tm+mt
-source-wordcount: '1216'
+source-wordcount: '1260'
 ht-degree: 0%
 
 ---
@@ -187,13 +187,12 @@ In de volgende tabel worden de overeenkomsten en verschillen tussen de tabel-, t
 
    Standaard worden alle records van het geselecteerde type weergegeven in de tabelweergave.
 
-1. Klik op **+ Weergave** om een nieuwe weergave toe te voegen.
+1. Afhankelijk van de omgeving die u gebruikt, gaat u als volgt te werk:
 
-   <!--at preview release, replace the step above with this one: 
-    1. Depending on which environment you use, do the following: 
-    * In the Production environment, click the **+View** tab. 
-    * <span class="preview">In the Preview environment, click the drop-down icon ![Dropdown icon](assets/drop-down-icon.png) next to the current view name, then click **+New view**.</span>-->
-   <!--1. <span class="preview">From the view dropdown menu, drag and drop views in order of your preference.</span>-->
+   * Klik in de productieomgeving op de tab **+View** .
+   * <span class="preview"> in het milieu van de Voorproef, klik het drop-down pictogram ![ pictogram Dropdown ](assets/drop-down-icon.png) naast de huidige meningsnaam, dan klik **+ Nieuwe mening**.</span>
+
+1. <span class="preview"> van het meningsdrop-down menu, belemmering en dalingsmeningen in orde van uw voorkeur.</span>
 1. Selecteer een van de volgende typen weergaven:
 
    * Tabel
