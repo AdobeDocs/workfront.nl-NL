@@ -6,7 +6,7 @@ description: Het delegeren van goedkeuringsverzoeken staat u toe om een andere g
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 01b76dd5-98cb-4f0d-97ff-7e665f843a9c
-source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
+source-git-commit: e0f6078cfab1b325302dbda8a656d2a65ee0b95c
 workflow-type: tm+mt
 source-wordcount: '1200'
 ht-degree: 0%
@@ -70,7 +70,7 @@ Tijdens de aangewezen goedkeuringsperiode, heeft de gebruiker aan wie u een goed
 
   >[!NOTE]
   >
-  > De Adobe Workfront-beheerder kan gebruikers toegang tot bepaalde objecttypen ontzeggen. Wanneer een gebruiker geen toegang tot een objecttype heeft en een goedkeuring van dat type aan de gebruiker wordt gedelegeerd, heeft de gebruiker geen toegang tot het object weergeven. Nochtans, kan de gebruiker nog goedkeuren of goedkeuringsverzoeken van de **1&rbrace; pagina van het Huis &lbrace;verwerpen, zoals die in [ wordt beschreven het werk ](../../review-and-approve-work/manage-approvals/approving-work.md) goedkeurt.**\
+  > De Adobe Workfront-beheerder kan gebruikers toegang tot bepaalde objecttypen ontzeggen. Wanneer een gebruiker geen toegang tot een objecttype heeft en een goedkeuring van dat type aan de gebruiker wordt gedelegeerd, heeft de gebruiker geen toegang tot het object weergeven. Nochtans, kan de gebruiker nog goedkeuren of goedkeuringsverzoeken van de **1} pagina van het Huis {verwerpen, zoals die in** wordt beschreven het werk [ goedkeurt.](../../review-and-approve-work/manage-approvals/approving-work.md)\
   >Bijvoorbeeld, behoort de Gebruiker A tot Groep A. De Workfront-beheerder heeft de toegangsrechten van groep A beperkt, zodat gebruikers in deze groep geen taken in Workfront kunnen weergeven. Als een verzoek van de taakgoedkeuring aan Gebruiker A wordt gedelegeerd, kan Gebruiker A niet de taak bekijken die de goedkeuring met wordt geassocieerd. Nochtans, kan Gebruiker A het goedkeuringsverzoek van de Homepage goedkeuren of verwerpen.
 
   Voor informatie over hoe de beheerder van Workfront toegang tot objecten types binnen Opstelling kan beperken, zie  [ creeer of wijzig douanetoegangsniveaus ](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). 
@@ -117,10 +117,10 @@ Goedkeuringen delegeren aan een andere gebruiker:
 1. Geef de volgende informatie op in de sectie Mijn goedkeuringen delegeren:
 
    * **Naam**: Begin typend de naam van de gebruiker die u goedkeuringen aan wilt afvaardigen, dan klik de naam wanneer het in het drop-down menu verschijnt.
-   * **datum van het Begin**: Selecteer de datum voor goedkeuringen beginnen door:sturen. Het door:sturen begint om 12:00 a.m. op de datum die u selecteert.\
+   * **datum van het Begin**: Selecteer de datum voor goedkeuringen beginnen door:sturen. Het door:sturen begint bij 12 :00 A.M. op de datum die u selecteert.\
      De begindatum moet de huidige of toekomstige datum zijn.
    * **einddatum**: Doe één van het volgende:
-      * Selecteer de datum waarop goedkeuring niet meer moet worden doorgestuurd. Het door:sturen beëindigt om 11:59 op de datum die u selecteert.
+      * Selecteer de datum waarop goedkeuring niet meer moet worden doorgestuurd. Het door:sturen beëindigt bij 11 :59 P.M. op de datum die u selecteert.
       * Selecteer **Geen einddatum** om Workfront te vormen om goedkeuringen voor onbepaalde tijd te delegeren.
 
 1. Klik **sparen**.
@@ -133,13 +133,14 @@ Goedkeuringen delegeren aan een andere gebruiker:
    >[!NOTE]
    >
    >Workfront-beheerders kunnen goedkeuringsdelegaties uitschakelen in het installatiegebied. Als de goedkeuringsdelegaties gehandicapt zijn, zult u niet de knoop van de Goedkeuring van de Delegatie zien.
+
 1. Geef de volgende informatie op in de sectie Mijn goedkeuringen delegeren:
 
    * **Naam**: Begin typend de naam van de gebruiker die u goedkeuringen aan wilt afvaardigen, dan klik de naam wanneer het in het drop-down menu verschijnt.
-   * **datum van het Begin**: Selecteer de datum voor goedkeuringen beginnen door:sturen. Het door:sturen begint om 12:00 a.m. op de datum die u selecteert.\
+   * **datum van het Begin**: Selecteer de datum voor goedkeuringen beginnen door:sturen. Het door:sturen begint bij 12 :00 A.M. op de datum die u selecteert.\
      De begindatum moet de huidige of toekomstige datum zijn.
    * **einddatum**: Doe één van het volgende:
-      * Selecteer de datum waarop goedkeuring niet meer moet worden doorgestuurd. Het door:sturen beëindigt om 11:59 op de datum die u selecteert.
+      * Selecteer de datum waarop goedkeuring niet meer moet worden doorgestuurd. Het door:sturen beëindigt bij 11 :59 P.M. op de datum die u selecteert.
       * Selecteer **Geen einddatum** om Workfront te vormen om goedkeuringen voor onbepaalde tijd te delegeren.
 
 ## Een goedkeuringsdelegatie bijwerken of stoppen {#update-or-stop-an-approval-delegation}

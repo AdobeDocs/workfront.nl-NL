@@ -4,17 +4,19 @@ product-area: user-management
 navigation-topic: configure-your-user-profile
 title: Persoonlijke tijd uit configureren
 description: Het is belangrijk om in Adobe Workfront aan te geven wanneer goedgekeurde time-off plaatsvindt, omdat dit van invloed is op uw planning en op de geplande voltooiingsdatums van de taken waaraan u bent toegewezen.
-author: Courtney
+author: Becky
 feature: Get Started with Workfront
 exl-id: e7710495-c418-47b1-8598-725580054fc5
-source-git-commit: fa5a59c15395f825ad73d889d4d877224a676891
+source-git-commit: e0f6078cfab1b325302dbda8a656d2a65ee0b95c
 workflow-type: tm+mt
-source-wordcount: '415'
+source-wordcount: '431'
 ht-degree: 0%
 
 ---
 
 # Persoonlijke tijd uit configureren
+
+{{highlighted-preview}}
 
 <!-- Audited: 12/2023 -->
 
@@ -70,14 +72,17 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 >[!NOTE]
 >
->Als u op de Adobe Verenigde Ervaring bent, kunt u tot uw profiel van Workfront toegang hebben door het de rekeningsmenu van de Adobe (uw profielbeeld) in het hoogste navigatiegebied te klikken, dan het kiezen van het Profiel van Workfront.
+>Als u op de Adobe Unified Experience werkt, hebt u toegang tot uw Workfront-profiel door te klikken op het menu Adobe-account (uw profielfoto) in het bovenste navigatiegebied en vervolgens Workfront Profile te kiezen.
 >
 >![ werkfront profiel ](assets/aue-profile.png)
-
 
 1. Klik in het linkerdeelvenster op **[!UICONTROL Time Off]** .
 1. Selecteer de gewenste datum voor uw persoonlijke tijd weg.
 
+   <span class="preview"> beeld van de Steekproef in het milieu van de Voorproef:</span>
+   ![ Persoonlijke tijd van kalender ](assets/personal-time-off-calendar-0925.png)
+
+   Voorbeeldafbeelding in de productieomgeving:
    ![ Persoonlijke tijd van kalender ](assets/personal-time-off-calendar.png)
 
 1. Selecteer **[!UICONTROL All day]** als u een volledige dag uit wilt halen.
