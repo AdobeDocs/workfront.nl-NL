@@ -6,7 +6,7 @@ description: U kunt een prioriteit voor een kwestie bepalen om te wijzen op hoe 
 author: Alina
 feature: Work Management
 exl-id: eff5c9e8-1908-4654-9629-e20c0ce2a225
-source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
+source-git-commit: 7db80f5bacf52b7bbe540f4e38e88853af86a5e2
 workflow-type: tm+mt
 source-wordcount: '371'
 ht-degree: 1%
@@ -15,9 +15,9 @@ ht-degree: 1%
 
 # Prioriteit van probleem bijwerken
 
-U kunt een prioriteit voor een probleem definiëren  om aan te geven hoe belangrijk dit onderwerp is.
+U kunt een prioriteit voor een kwestie bepalen om te wijzen op hoe belangrijk de kwestie is.
 
-U moet over beheerdersmachtigingen voor het probleem beschikken om de prioriteit van het probleem te wijzigen.  [ werk de Prioriteit van een kwestie ](#update-the-priority-of-an-issue) bij.
+U moet over beheerdersmachtigingen voor het probleem beschikken om de prioriteit van het probleem te wijzigen. [ werk de Prioriteit van een kwestie ](#update-the-priority-of-an-issue) bij.
 
 ## Toegangsvereisten
 
@@ -103,7 +103,7 @@ Verwijs naar de volgende lijst om elk standaard prioritaire etiket en zijn overe
 
 1. Klik het **Prioritaire** gebied op het **Basisinformatie** gebied.
 
-   ![ Prioriteit van de Uitgave ](assets/nwe-issue-priority-field-in-details-highlighted-350x126.png)
+   ![ Prioriteit van de Uitgave ](assets/issue-priority-field.png)
 
 1. Selecteer een waarde voor het **Prioritaire** gebied.
 

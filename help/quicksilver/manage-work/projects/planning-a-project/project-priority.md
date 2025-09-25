@@ -7,9 +7,9 @@ description: Er zijn verschillende manieren om prioriteiten voor projecten te ge
 author: Alina
 feature: Work Management
 exl-id: b1e0b6c5-f2a7-455b-836b-6c0ead85e3ad
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: 7db80f5bacf52b7bbe540f4e38e88853af86a5e2
 workflow-type: tm+mt
-source-wordcount: '663'
+source-wordcount: '668'
 ht-degree: 0%
 
 ---
@@ -132,7 +132,7 @@ Houd rekening met het volgende wanneer u een prioriteit voor uw projecten select
    * Hoog
    * Dringend
 
-   ![](assets/project-priority-picker-list-on-project-details-nwe-350x192.png)
+   ![ Prioritaire lijst op een project ](assets/project-priority-picker-list.png)
 
 1. Klik **sparen Veranderingen**.
 
