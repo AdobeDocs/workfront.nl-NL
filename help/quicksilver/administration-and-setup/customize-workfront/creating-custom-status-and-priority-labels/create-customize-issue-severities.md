@@ -8,14 +8,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 0331be3c-a2d8-4788-a41a-5e971fb4bbe1
-source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
+source-git-commit: 1fa62033f83a96ea5c1036598b832dd2ebfa19c4
 workflow-type: tm+mt
-source-wordcount: '562'
+source-wordcount: '662'
 ht-degree: 0%
 
 ---
 
 # Uitgiftecontroles maken of aanpassen
+
+{{highlighted-preview}}
 
 <!--
 DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.
@@ -72,7 +74,7 @@ Workfront beschikt over vijf ingebouwde uitgavesecties:
 * Fout zonder tijdelijke oplossing
 * Fatale fout
 
-<p>U kunt het volgende bewerken voor deze controles:</p>
+U kunt het volgende bewerken voor deze controles:
 
 * Naam
 * Kleur
@@ -82,10 +84,11 @@ Workfront beschikt over vijf ingebouwde uitgavesecties:
 * Welke strengheid is het gebrek
 
   Voor meer informatie over standaardcontroles, zie [ creeer of geef een kwestie strengheid ](#create-or-edit-an-issue-severity) in dit artikel uit.
+
 * Beschrijving
 * Of een ernst verborgen is in Workfront
 
-  Voor meer informatie over het verbergen van een strengheid, zie [ creeer of geef een kwestie strengheid ](#create-or-edit-an-issue-severity") uit
+  Voor meer informatie over het verbergen van een strengheid, zie [ creeer of geef een kwestie strengheid ](#create-or-edit-an-issue-severity) in dit artikel uit.
 
 * Ernst verwijderen
 
@@ -97,46 +100,47 @@ Als Workfront-beheerder kunt u uitgiftesetters maken en bewerken die zijn afgest
 
 {{step-1-to-setup}}
 
-1. In het linkerpaneel, klik **>** de Voorkeur van het Project **&#x200B;**.
+1. In het linkerpaneel, klik **>** de Voorkeur van het Project ****.
 
-1. Als u een nieuwe strengheid creeert, voegt de klik **een Nieuwe Ernst** toe.
+1. Als u een nieuwe strengheid creeert, klik <span class="preview">**Nieuwe rij** bij de bodem van de lijst </span>, of **voeg een Nieuwe Ernst** toe.
 1. Vorm de volgende opties voor de nieuwe strengheid of geef hen voor bestaande uit:
 
-   <table style="table-layout:auto"> 
-    <col> 
-    <col> 
-    <tbody> 
-     <tr> 
-      <td role="rowheader">Ernstnaam</td> 
-      <td>Typ een naam voor de ernst</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Belang</td> 
-      <td>Verhoog of verlaag de ernst die oorspronkelijk door Workfront is toegewezen.
-      <p>Het belangrijke aantal voor elke strengheid moet uniek zijn. Het hoogste getal komt overeen met het hoogste niveau van ernst.</p> <p>U kunt dit nummer niet bewerken nadat u de ernst hebt opgeslagen.</p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Kleur</td> 
-      <td> <p>Kies een kleur voor de ernst.</p> 
-      <p>De kleur van de ernst wordt gebruikt in grafiekrapporten wanneer u uw resultaten groepeert door de Ernst van de Uitgave. Voor informatie over grafiekrapporten, zie <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md" class="MCXref xref"> een grafiek aan een rapport </a> toevoegen.</p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Standaardernst</td> 
-      <td>Selecteer de ernst die Workfront automatisch moet selecteren voor alle nieuwe uitgaven.</p>
-      <p>Cosmetisch is de standaardernst voor problemen in Workfront.</p></td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Beschrijving</td> 
-      <td>Typ een beschrijving voor de ernst om de functie uit te leggen.</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Verbergen</td> 
-      <td> Verberg een ernst die u niet meer nodig hebt. 
-      <p>Een verborgen ernst wordt nergens in Workfront weergegeven, dus gebruikers kunnen deze optie niet kiezen voor hun uitgaven.</p> 
-      <p><b> BELANGRIJK </b>: In plaats van het schrappen van controles die u niet meer wilt gebruiken, stellen wij voor dat u hen verbergt. Op deze manier houdt u al uw historische gegevens over objecten die al met de ernst zijn voltooid, en voorkomt u dat mensen in de toekomst de ernst van de zaak zullen gebruiken.</p> </td> 
-     </tr> 
-    </tbody> 
-   </table>
+   * **Naam van de Ernst**: Type een naam voor de strengheid.
+   * **Belangrijk**: Verhoog of verklein het niveau van ernst, oorspronkelijk toegewezen door Workfront, voor de strengheid.
+
+     Het belangrijke aantal voor elke strengheid moet uniek zijn. Het hoogste getal komt overeen met het hoogste niveau van ernst.
+
+     U kunt dit nummer niet bewerken nadat u de ernst hebt opgeslagen.
+
+   * **Kleur**: Kies een kleur voor de strengheid.
+
+     De kleur van de ernst wordt gebruikt in grafiekrapporten wanneer u uw resultaten groepeert door de Ernst van de Uitgave. Voor informatie over grafiekrapporten, zie [ een grafiek aan een rapport ](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md) toevoegen.
+
+   * **StandaardErnst van de Ernst**: Selecteer de strengheid u Workfront automatisch op alle pas gecreëerde kwesties wilt toepassen.
+
+     **Cosmetic** is de standaardstrengheid voor kwesties in Workfront.
+
+     U kunt een verborgen ernst niet als standaard instellen.
+
+     <div class="preview">
+
+     De standaardstrengheid wordt vermeld met een pictogram ![ Standaard strengheidspictogram ](assets/default-icon.png). Voer een van de volgende handelingen uit om een nieuwe standaardinstelling te kiezen:
+
+      * Selecteer de controledoos naast de ernstnaam en selecteer **maak Gebrek** in de actiebar bij de bodem van het scherm.
+      * Beweeg over de ernstnaam en klik **Meer** menu dat verschijnt. Dan, uitgezochte **maak Gebrek**.
+
+        De nieuwe standaardernst wordt geëtiketteerd met het pictogram.
+
+     </div>
+
+   * **Beschrijving**: Typ een beschrijving voor de strengheid om zijn functie te verklaren.
+   * <span class="preview">**Keuze van de Huid**</span> of **Verbergen**: <span class="preview"> kies **ja**</span> of selecteer de controledoos om een strengheid te verbergen die niet meer nodig is.
+
+     Een verborgen ernst wordt nergens in Workfront weergegeven, dus gebruikers kunnen deze optie niet kiezen voor hun uitgaven.
+
+     >[!IMPORTANT]
+     >
+     >In plaats van de controles te verwijderen die u niet meer wilt gebruiken, raden we u aan ze te verbergen. Op deze manier houdt u al uw historische gegevens over objecten die al met de ernst zijn voltooid, en voorkomt u dat mensen in de toekomst de ernst van de zaak zullen gebruiken.
 
 1. (Optioneel) Wijzig de volgorde van de aanbiedingen door deze in de gewenste volgorde te slepen.
 
