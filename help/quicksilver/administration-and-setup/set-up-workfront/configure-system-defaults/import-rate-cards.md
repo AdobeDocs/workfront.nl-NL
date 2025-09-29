@@ -4,17 +4,19 @@ description: U kunt een sjabloonbestand gebruiken om uw tariefkaarten te maken i
 author: Lisa
 hide: true
 hidefromtoc: true
-source-git-commit: 1deb72953599c24fa40eb7a5d77214f6576fec1e
+exl-id: debe90e7-08c2-4385-96fb-8d349dec6741
+source-git-commit: e94cbfd9c503936539dbe011e787533222896202
 workflow-type: tm+mt
-source-wordcount: '1146'
+source-wordcount: '1161'
 ht-degree: 0%
 
 ---
 
-
 # Tariefkaarten importeren uit een sjabloon
 
 U kunt een sjabloonbestand gebruiken om uw tariefkaarten te maken in Excel en deze te importeren in Adobe Workfront, in plaats van alle functies en tarieven handmatig toe te voegen.
+
+Om de kaarten van het voorbeeldtarief te zien die in dit artikel worden beschreven, download het [ steekproefdossier ](https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/import-rate-cards/assets/rate-cards-sample.zip).
 
 ## Belangrijke regels voor het werken met het sjabloonbestand
 
@@ -179,6 +181,3 @@ Met deze stappen voorkomt u onnodige problemen en zorgt u voor een soepele en na
 1. Als het bestand problemen bevat, verschijnt er een foutbericht. Klik **zie kwesties** om de kwesties op een afzonderlijk scherm te bekijken.
 
    U moet de problemen in het Excel-bestand verhelpen en het bestand opnieuw importeren voordat de tariefkaarten in Workfront bestaan.
-
-
-
