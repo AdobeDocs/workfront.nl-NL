@@ -282,7 +282,7 @@ Bij het synchroniseren van de mapinhoud van een externe documenttoepassing gebru
 
 ### Een of meer externe mappen koppelen {#link-one-or-more-external-folders}
 
-1. Ga naar het gebied in Workfront waar u de omslag wilt, dan klik **** het pictogram van Documenten ![ in het linkerpaneel van Documenten ](assets/document-icon.png).
+1. Ga naar het gebied in Workfront waar u de omslag wilt, dan klik **&#x200B;**&#x200B;het pictogram van Documenten ![ in het linkerpaneel van Documenten ](assets/document-icon.png).
 
 1. Klik **toevoegen Nieuw**, dan klik de externe documentleverancier waarvan u een omslag aan Workfront wilt verbinden.
 1. (Voorwaardelijk) als u de externe dienst nog niet hebt geautoriseerd, specificeer uw login geloofsbrieven voor de externe leverancier, dan klik binnen **Teken**.
@@ -305,7 +305,7 @@ Bij het synchroniseren van de mapinhoud van een externe documenttoepassing gebru
 
    In Workfront wordt het logo van de cloudprovider naast de map weergegeven om aan te geven dat het is gekoppeld aan de externe cloudprovider.
 
-1. (Facultatief) om de omslag anders te noemen zodat de omslagnaam in Workfront van de omslagnaam in de externe documenttoepassing verschillend is, selecteer de omslag in de **sectie 0} Omslagen {, klik het Meer menu** Meer ![ dat naast de omslagnaam toont, dan ](assets/more-icon.png) anders noemt **klikt.**
+1. (Facultatief) om de omslag anders te noemen zodat de omslagnaam in Workfront van de omslagnaam in de externe documenttoepassing verschillend is, selecteer de omslag in de **sectie 0&rbrace; Omslagen &lbrace;, klik het Meer menu** Meer ![ dat naast de omslagnaam toont, dan ](assets/more-icon.png) anders noemt **klikt.**
 
    ![ noem omslag anders ](assets/documents-folderlink-rename-nwe-350x154.png)
 
