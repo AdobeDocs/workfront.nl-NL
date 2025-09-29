@@ -6,9 +6,9 @@ description: U kunt documenten en mappen vanuit externe bronnen koppelen aan Ado
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 97823f70-6544-445a-9a81-abe1e2f3de55
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: a005c7114388e1c20a4847b3da3229667be0ded7
 workflow-type: tm+mt
-source-wordcount: '2620'
+source-wordcount: '2568'
 ht-degree: 0%
 
 ---
@@ -39,19 +39,16 @@ U kunt documenten en mappen vanuit de volgende bronnen koppelen aan Adobe Workfr
   </tr> 
   <tr> 
    <td role="rowheader">Workfront Proof </td> 
-   <td>U kunt proefdrukken die oorspronkelijk in Workfront Proof zijn gemaakt, beschikbaar maken in Workfront. Voor de huidige licenties is een Pro Workfront Plan of hoger vereist om deze functie te kunnen gebruiken. Voor de nieuwe vergunningen, omvatten alle plannen deze eigenschap. Voor meer informatie over de diverse beschikbare plannen, zie <a href="https://business.adobe.com/products/workfront/pricing.html"> Abonnementen van Workfront </a>.</td> 
+   <td>U kunt proefdrukken die oorspronkelijk in Workfront Proof zijn gemaakt, beschikbaar maken in Workfront.</td> 
   </tr> 
   <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
    <td role="rowheader">Experience Manager Assets Essentials </td> 
    <td>U kunt documenten vanuit Experience Manager Assets Essentials koppelen aan Workfront. Zie <a href="../../documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md" class="MCXref xref"> Adobe Workfront for Experience Manager Assets Essentials </a> voor meer informatie.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">WORKFRONT DAM </td> 
-   <td>Hiervoor is een extra aankoop vereist. </td> 
-  </tr> 
-  <tr> 
+  </tr>
+
+<tr> 
    <td role="rowheader">Andere documentproviders (via aangepaste documentintegratie)</td> 
-   <td> <p class="workfront_plans">Voor de huidige licenties is een Pro Workfront Plan of hoger vereist om deze functie te kunnen gebruiken. Voor de nieuwe vergunningen, omvatten alle plannen deze eigenschap. Voor meer informatie over de diverse beschikbare plannen, zie <a href="https://business.adobe.com/products/workfront/pricing.html"> Abonnementen van Workfront </a>.</p> </td>
+   <td> <p class="workfront_plans">Deze integratie kan in het gebied van de Opstelling worden gevormd.</p> </td>
   </tr> 
  </tbody> 
 </table>
@@ -99,6 +96,13 @@ De volgende uitzonderingen zijn van toepassing:
 
 * Als deze service de documentservice biedt, worden miniaturen en voorvertoningsafbeeldingen mogelijk opgeslagen op Workfront-servers.
 * Wanneer u proef in Workfront gebruikt, wordt het document gekopieerd en toegevoegd aan de proefdrukservers.
+
+## Bestandsgrootten
+
+Andere cloudproviders:
+
+* Eén bestand: 5 GB of minder
+* Meerdere bestanden: 1 GB of minder (totaal van alle bestanden)
 
 ## Een document van een externe toepassing koppelen aan Workfront
 
@@ -278,7 +282,7 @@ Bij het synchroniseren van de mapinhoud van een externe documenttoepassing gebru
 
 ### Een of meer externe mappen koppelen {#link-one-or-more-external-folders}
 
-1. Ga naar het gebied in Workfront waar u de omslag wilt, dan klik **![ het pictogram van Documenten ](assets/document-icon.png) in het linkerpaneel van Documenten**.
+1. Ga naar het gebied in Workfront waar u de omslag wilt, dan klik **** het pictogram van Documenten ![ in het linkerpaneel van Documenten ](assets/document-icon.png).
 
 1. Klik **toevoegen Nieuw**, dan klik de externe documentleverancier waarvan u een omslag aan Workfront wilt verbinden.
 1. (Voorwaardelijk) als u de externe dienst nog niet hebt geautoriseerd, specificeer uw login geloofsbrieven voor de externe leverancier, dan klik binnen **Teken**.
@@ -301,7 +305,7 @@ Bij het synchroniseren van de mapinhoud van een externe documenttoepassing gebru
 
    In Workfront wordt het logo van de cloudprovider naast de map weergegeven om aan te geven dat het is gekoppeld aan de externe cloudprovider.
 
-1. (Facultatief) om de omslag anders te noemen zodat de omslagnaam in Workfront van de omslagnaam in de externe documenttoepassing verschillend is, selecteer de omslag in de **sectie 0&rbrace; Omslagen &lbrace;, klik het Meer menu ![ Meer ](assets/more-icon.png) dat naast de omslagnaam toont, dan** anders noemt **klikt.**
+1. (Facultatief) om de omslag anders te noemen zodat de omslagnaam in Workfront van de omslagnaam in de externe documenttoepassing verschillend is, selecteer de omslag in de **sectie 0} Omslagen {, klik het Meer menu** Meer ![ dat naast de omslagnaam toont, dan ](assets/more-icon.png) anders noemt **klikt.**
 
    ![ noem omslag anders ](assets/documents-folderlink-rename-nwe-350x154.png)
 
