@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: bfece1075b137f9fcbaf6046e626952b5f2bde2f
+source-git-commit: 681d83661aff2c0484521ee11c8899dca14e65ed
 workflow-type: tm+mt
-source-wordcount: '8092'
+source-wordcount: '8031'
 ht-degree: 0%
 
 ---
@@ -216,13 +216,13 @@ We hebben de vormgeving van het vak Sjablonen bewerken bulksgewijs bijgewerkt in
 
 Voor informatie, zie [ projectmalplaatjes ](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-templates.md) uitgeven.
 
-### De updates van de interface voor een projectlijst of rapport wanneer het toepassen van de mening van de Mijlpaal
+<!--### Interface updates for a project list or report when applying the Milestone view
 
-**de versie van de Voorproef: 11 September, 2025; De versie van de Productie: 18 september, 2025**
+**Preview release: September 11, 2025; Production release: September 18, 2025**
 
-Wij hebben de blik en het gevoel van een projectlijst of een rapport bijgewerkt wanneer u de mening van de Mijlpaal op hen toepast.
+We have updated the look and feel of a project list or report when you apply the Milestone view to them.
 
-De projectlijst of het rapport komt nu overeen met het ontwerp van andere gebieden van Workfront. Voor informatie, zie [ Gebruik de mening van de Mijlpaal ](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-milestone-view.md).
+The project list or report now matches the design of other areas of Workfront. For information, see [Use the Milestone view](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-milestone-view.md).-->
 
 ### De veranderingen van de interface voor Converteren een taak in een project zonder een malplaatje
 
