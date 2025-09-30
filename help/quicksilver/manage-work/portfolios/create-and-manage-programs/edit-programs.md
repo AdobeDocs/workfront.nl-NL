@@ -6,9 +6,9 @@ description: U kunt informatie bewerken over programma's die u hebt gemaakt of o
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 7dcdfc5a-3fc1-48a8-ae28-a6a0a458732e
-source-git-commit: b47c87a1a3d7516f7b1fed6e1abf84a84c453609
+source-git-commit: 03c1f17504846fc4b8c4114ddc32df687281bc07
 workflow-type: tm+mt
-source-wordcount: '947'
+source-wordcount: '904'
 ht-degree: 0%
 
 ---
@@ -68,7 +68,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    >
    >Ga naar stap 4 als u alle informatie over het programma wilt bewerken.
 
-   ![ de details van het programma met de sectie van de douanevorm ](assets/program-details-with-a-custom-form-section-nwe-350x137.png)
+   ![ de details van het Programma met de sectie van de douanevorm ](assets/program-details-with-a-custom-form-section-nwe-350x137.png)
 
    >[!NOTE]
    >
@@ -99,14 +99,14 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 1. Voer een van de volgende handelingen uit als u alle informatie over een of meer programma&#39;s wilt bewerken:
 
-   * Klik het **[!UICONTROL More]** menu ![ Meer menu ](assets/more-icon.png) naast de programmanaam, toen &#x200B; **[!UICONTROL Edit].**
+   * Klik het **[!UICONTROL More]** menu ![ Meer menu ](assets/more-icon.png) naast de programmanaam, toen **[!UICONTROL Edit].**
    * Ga naar een lijst van programma&#39;s en selecteer één of meerdere programma dat u wilt uitgeven, dan klik het **[!UICONTROL Edit]** pictogram ![ uitgeven pictogram ](assets/edit-icon.png) bij de bovenkant van de lijst.
 
-   Het dialoogvenster **[!UICONTROL Edit Program]** wordt weergegeven.
+     Het vak **[!UICONTROL Edit Program]** wordt weergegeven.
 
-   ![ geef programmadoos ](assets/edit-program-0925.png) uit
+     ![ geef programmadoos ](assets/edit-program-0925.png) uit
 
-   Alle programmavelden zijn beschikbaar in het vak [!UICONTROL Edit Program] en worden gegroepeerd op de gebieden die in het linkerdeelvenster worden vermeld.
+     Alle programmavelden zijn beschikbaar in het vak [!UICONTROL Edit Program] en worden gegroepeerd op de gebieden die in het linkerdeelvenster worden vermeld.
 
 1. Overweeg informatie op te geven in een van de volgende secties:
 
@@ -136,26 +136,29 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
     <tbody> 
      <tr> 
       <td role="rowheader">[!UICONTROL Name]</td> 
-      <td> <p>Werk de naam van het programma bij. </p> <p>Tip: deze optie is niet beschikbaar wanneer u meerdere programma's hebt geselecteerd. </p> </td> 
+      <td> <p>Werk de naam van het programma bij. </p> <p><b>TIP</b></p><p>Deze optie is niet beschikbaar als u meerdere programma's hebt geselecteerd.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Description]</td> 
-      <td> <p>Typ een beschrijving voor de Portfolio om aan te geven wat er uniek aan is. </p> </td> 
+      <td> <p>Typ een beschrijving voor het portfolio om aan te geven wat er uniek aan is. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Program Manager]</td> 
-      <td> <p>Typ de naam van een gebruiker die u als programmamanager wilt aangeven en selecteer deze naam wanneer deze in de lijst wordt weergegeven. Dit is de persoon die kan toezien op het werk dat in de projecten van het programma wordt gedefinieerd. </p> <p>Belangrijk: wanneer u iemand aanwijst als programmabeheerder, krijgt deze automatisch [!UICONTROL Manage] machtigingen voor het programma en de projecten in het programma. </p> <p>Tip: u kunt de programmamanager snel bijwerken in de koptekst van het programma. </p> </td> 
+      <td> <p>Typ de naam van een gebruiker die u als programmamanager wilt aangeven en selecteer deze naam wanneer deze in de lijst wordt weergegeven. Dit is de persoon die kan toezien op het werk dat in de projecten van het programma wordt gedefinieerd. </p> <p><b><p>BELANGRIJK</b></p> <p>Wanneer u iemand aanwijst als Program Manager, krijgen deze automatisch [!UICONTROL Manage] machtigingen voor het programma en de projecten in het programma. </p> <p><b>TIP</b></p> <p>U kunt de programmamanager snel bijwerken in de programmakop. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Group]</td> 
-      <td> <p>Voeg de naam van één groep toe als de groep is gekoppeld aan het programma of als de groep verantwoordelijk is voor het voltooien van het programma. </p> <p>Tip:  <p>Ga als volgt te werk wanneer u het veld [!UICONTROL Group] opent vanaf de pagina [!UICONTROL Program Details] : </p> <p>U kunt ervoor zorgen dat u de juiste groep selecteert door de muisaanwijzer boven de groep te plaatsen en op het pictogram [!UICONTROL information] <img src="assets/info-icon.png"> naast de groep te klikken. Hier wordt knopinfo weergegeven met informatie over de groep, zoals de hiërarchie van de bovenliggende groepen en de bijbehorende beheerders.</p> <p> <img src="assets/group-details-widget-programs-350x268.png" style="width: 350;height: 268;"> </p> <p>Deze optie is niet beschikbaar in het vak [!UICONTROL Edit Program] . </p> </p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">[!UICONTROL Is Active]</td> 
-      <td> <p> Schakel dit selectievakje in als u wilt dat het programma actief is. Andere gebruikers kunnen actieve programma's zoeken en deze aan projecten koppelen of aan portfolio's toevoegen. Niet-actieve programma's kunnen niet aan projecten of portfolio's worden gekoppeld. Dit is standaard ingeschakeld.</p> </td> 
+      <td> <p>Voeg de naam van één groep toe als de groep is gekoppeld aan het programma of als de groep verantwoordelijk is voor het voltooien van het programma. </p> <p><b>TIP</b></p>  <p>Wanneer u het veld [!UICONTROL Group] opent vanuit de pagina [!UICONTROL Program Details] , doet u het volgende om ervoor te zorgen dat u de juiste groep selecteert: </p> <p>Houd de aanwijzer boven de groepsnaam en klik op het [!UICONTROL information] pictogram <img src="assets/info-icon.png"> ernaast. Hier wordt knopinfo weergegeven met informatie over de groep, zoals de hiërarchie van de bovenliggende groepen en de bijbehorende beheerders.</p> <p> <img src="assets/group-details-widget-programs-350x268.png" style="width: 350;height: 268;"> </p> <p>Deze optie is niet beschikbaar in het vak [!UICONTROL Edit Program] . </p> </p> </td> 
      </tr> 
     </tbody> 
    </table>
+
+   <!--this was removed from the unshimmed version - asking on the epic:
+   <tr> 
+      <td role="rowheader">[!UICONTROL Is Active]</td> 
+      <td> <p> Select this checkbox if you want the program to be active. Other users can find active programs and attach them to projects or add them to portfolios. Inactive programs cannot be attached to projects or portfolios. This is enabled by default.</p> </td> 
+     </tr> -->
+
 
 1. Klik op **[!UICONTROL Save]** of ga door met het bewerken van de volgende secties.
 
@@ -184,4 +187,5 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 1. (Facultatief) selecteer [!UICONTROL **Privé aan mijn bedrijf**] om de commentaar te sluiten en het tot privé aan slechts gebruikers in uw bedrijf te maken.
 
    Nadat u de wijzigingen hebt opgeslagen, wordt de opmerking die u toevoegt, weergegeven op het tabblad [!UICONTROL Updates] van het programma en wordt een e-mail verzonden naar de gebruikers die er deel van uitmaken.
+1. Klikken **[!UICONTROL Save]**
 

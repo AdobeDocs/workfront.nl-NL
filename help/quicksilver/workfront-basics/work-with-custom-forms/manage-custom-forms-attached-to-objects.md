@@ -6,9 +6,9 @@ description: U kunt de volgorde bijwerken waarin de aangepaste formulieren die a
 author: Alina
 feature: Get Started with Workfront
 exl-id: e5570a09-32cb-43e3-9c1d-4421db42fa24
-source-git-commit: b3534cccd4a06b8c5b8b7e742f63eeb898bd5b99
+source-git-commit: 322257a21f5d415b0ac04e6944c4aaa53fc3ab3b
 workflow-type: tm+mt
-source-wordcount: '1147'
+source-wordcount: '1088'
 ht-degree: 0%
 
 ---
@@ -28,25 +28,25 @@ U moet de volgende toegang hebben om de handelingen uit te voeren die in dit art
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-abonnement*</td> 
+   <td role="rowheader">Adobe Workfront-plan</td> 
    <td> <p>Alle </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie*</td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
    <td> <p>Aanvraag of hoger</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang bewerken tot de objecten waarvoor u aangepaste formulieren beheert</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
+   <td> <p>Toegang bewerken tot de objecten waarvoor u aangepaste formulieren beheert</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Contribute-machtigingen of hoger voor objecten waarvoor u aangepaste formulieren beheert</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
+   <td> <p>Contribute-machtigingen of hoger voor objecten waarvoor u aangepaste formulieren beheert</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
+*Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Vereisten
 
@@ -61,7 +61,7 @@ U moet de volgende toegang hebben om de handelingen uit te voeren die in dit art
 
    **Voorbeeld:** Bijvoorbeeld, om de douaneformulieren van een project te beheren, ga naar het project, klik **Meer** menu ![](assets/more-icon.png), dan klik **uitgeven**.
 
-1. In de **sectie van de Douane Forms van 0&rbrace; &lbrace;voor projecten, taken, en kwesties, klik het** pictogram naast de naam van een douanevorm. ![](assets/move-icon---dots.png) Voor alle andere voorwerpen, klik **leiden Forms**. Deze optie wordt alleen weergegeven als ten minste één aangepast formulier aan het object is gekoppeld.
+1. In de **sectie van de Douane Forms van 0} {voor projecten, taken, en kwesties, klik het** pictogram naast de naam van een douanevorm. ![](assets/move-icon---dots.png) Voor alle andere voorwerpen, klik **leiden Forms**. Deze optie wordt alleen weergegeven als ten minste één aangepast formulier aan het object is gekoppeld.
 1. Sleep een formulier ![](assets/move-icon---dots.png) naar een nieuwe locatie in de lijst.
 1. Voor projecten, taken, en kwesties douaneformulieren, klik **sparen**.
 
@@ -73,18 +73,13 @@ U moet de volgende toegang hebben om de handelingen uit te voeren die in dit art
 >
 >Wanneer u een aangepast formulier verwijdert uit een object, gaan alle gegevens die zijn vastgelegd in de aangepaste velden van het formulier verloren en kunnen deze niet worden hersteld.
 
-1. Ga naar het object waar u het aangepaste formulier wilt verwijderen en begin het object te bewerken.
+1. Ga naar het voorwerp waar u de douanevorm wilt verwijderen, dan de **sectie van Details** in het linkerpaneel voor het voorwerp klikken.
 
-   Bijvoorbeeld, ga naar een project, klik **Meer** menu ![](assets/more-icon.png), dan klik **uitgeven**.
+   Bijvoorbeeld, ga naar een project, klik de **sectie van de Details van het Project**.
 
-1. Klik **Aangepaste Forms**.
-1. Voor projecten, taken, en kwesties douanevormen, klik het **X** pictogram rechts van een vorm om het uit het voorwerp te verwijderen.
-
-   Voor alle andere voorwerpen, klik **leiden Forms**, dan klik het **X** pictogram rechts van een vorm om het uit het voorwerp te verwijderen.
-
-1. <span class="preview"> In de dialoog die opent, **verwijder**.</span>
-
-1. Klik **sparen**.
+1. Klik **uitgeven** pictogram ![ geeft pictogram ](assets/edit-icon.png) in de hoger-juiste hoek van de pagina van de objecten uit, dan klik **allen** uitgeven.
+1. Klik het **pictogram van de Schrapping** aan het recht van een naam van de douanevorm, dan klik ![](assets/delete-icon.png) Schrapping **om de vorm van het voorwerp te bevestigen en te verwijderen, of** annuleert **om de verwijdering te verhinderen.**
+1. Klik **sparen Veranderingen**.
 
 ## Meerdere aangepaste formulieren beheren die dezelfde aangepaste velden bevatten
 

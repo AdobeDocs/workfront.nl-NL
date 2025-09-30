@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: fe51ded26c57e3b7137e42ad2218d79adf032b85
+source-git-commit: 03c1f17504846fc4b8c4114ddc32df687281bc07
 workflow-type: tm+mt
-source-wordcount: '2241'
+source-wordcount: '2308'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ Raadpleeg de volgende artikelen voor meer informatie:
 
 ## Toegangsvereisten
 
-+++ Vouw uit om de vereisten voor toegang weer te geven.
++++ Vouw uit om de vereisten voor toegang weer te geven. 
 
 <table style="table-layout:auto">
  <col>
@@ -85,7 +85,7 @@ Raadpleeg de volgende artikelen voor meer informatie:
   <tr>
    <td role="rowheader"><p>Adobe Workfront-licentie*</p></td>
    <td>
-   <p>Standaard</p>
+   <p>Standard</p>
    <p>Workfront Planning is niet beschikbaar voor oudere Workfront-licenties</p>
   </td>
   </tr>
@@ -264,16 +264,16 @@ Houd rekening met het volgende wanneer u een pagina Verbonden records aan een re
 
 * U kunt een pagina Verbonden records aan een record toevoegen nadat u de record- of objecttypen hebt verbonden met het recordtype vanuit de tabelweergave van een recordtype.
 
-* In de productieomgeving kunt u geen pagina met verbonden records toevoegen aan het voorvertoningsgebied van een record.
+* In de productieomgeving kunt u geen pagina met verbonden records toevoegen vanuit de voorvertoning van een record.
 
-  <span class="preview"> u kunt een Verbonden verslagenpagina aan het voorproefgebied van een verslag in het milieu van de Voorproef toevoegen.</span>
+  <span class="preview"> u kunt een Verbonden verslagenpagina van de voorproef van een verslag in het milieu van de Voorproef toevoegen.</span>
 
 * Verbonden recordpagina&#39;s geven alleen de verbonden objecten of records van één object of recordtype in een tabelweergave weer. Op de pagina worden niet alle records van dat type weergegeven in de tabelweergave.
 
 * Afhankelijk van de omgeving die u gebruikt, kan het volgende opvallen:
 
    * Nadat u in de productieomgeving een pagina met verbonden records aan een record hebt toegevoegd, is het tabblad Pagina zichtbaar vanuit het voorvertoningsgebied van de record, maar is het leeg. U moet naar de volledige pagina gaan om de lijstmening voor het verbonden verslag te zien.
-   * <span class="preview"> in het milieu van de Voorproef, is de Verbonden verslagenpagina zichtbaar van zowel het voorproefgebied van het verslag als van afzonderlijke browser tabel.</span>
+   * <span class="preview"> in het milieu van de Voorproef, is de Verbonden verslagenpagina zichtbaar van zowel het voorproefgebied van het verslag als van browser tabel.</span>
 
 * U kunt Verbonden recordpagina&#39;s toevoegen voor de volgende verbonden record- of objecttypen:
 
@@ -332,7 +332,7 @@ Alle velden van de verbonden record worden weergegeven in de tabelweergave van h
 
      Voor informatie over het uitgeven van verslagen in de lijstmening, zie [ verslagen ](/help/quicksilver/planning/records/edit-records.md) uitgeven.
 
-   * Bewerk een van de records in de tabel op de pagina Verbonden records met inline. Workfront-objecten worden weergegeven in een tabelweergave met het kenmerk Alleen-lezen en u kunt ze niet bewerken.
+   * Bewerk een van de records in de tabel op de pagina Verbonden records met inline. In de productieomgeving worden alle Workfront-objecten weergegeven in een alleen-lezen tabelweergave en kunt u ze niet bewerken. <span class="preview"> u kunt de projecten van Workfront in het milieu van de Voorproef inline uitgeven.</span>
 
 1. (Optioneel) Dubbelklik op de naam van het tabblad Verbonden recordpagina
 
@@ -353,7 +353,12 @@ Alle velden van de verbonden record worden weergegeven in de tabelweergave van h
    >   U kunt geen velden maken, bewerken of verwijderen in de tabelweergave van het tabblad van een verbonden record.
    >
 
-1. Klik **verbinden** om verslagen toe te voegen of te verwijderen. Voor informatie, zie [ verbindt verslagen ](/help/quicksilver/planning/records/connect-records.md)
+1. (Voorwaardelijk) Als u meer records of objecten wilt verbinden, voert u een van de volgende handelingen uit:
+
+   * Klik **verbinden** bij de bodem van de lijst, om verslagen of om het even welke voorwerpen van Workfront toe te voegen of te verwijderen <span class="preview"> behalve projecten.</span>
+   * <span class="preview"> in het milieu van de Voorproef, klik **verbindt verslagen** in de hoger-juiste hoek van de verbonden verslagenpagina, of **Nieuwe rij** bij de bodem van de lijst om projecten toe te voegen of te verwijderen.</span>
+
+   Voor informatie, zie [ verbindt verslagen ](/help/quicksilver/planning/records/connect-records.md).
 1. (Facultatief) Hover over de naam van het Verbonden lusje van de verslagenpagina, klik **Meer** ![ Meer menu ](assets/more-menu.png), dan klik **Schrapping** om aan tabel te verwijderen.
 
 

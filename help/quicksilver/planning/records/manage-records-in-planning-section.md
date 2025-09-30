@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d86cf3f9-cacc-4457-acb3-a5122ae91be8
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: 03c1f17504846fc4b8c4114ddc32df687281bc07
 workflow-type: tm+mt
-source-wordcount: '1734'
+source-wordcount: '1878'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 0%
 
 # Recordverbindingen beheren vanuit Workfront-objecten
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>-->
+<span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken.</span>
 
 {{planning-important-intro}}
 
@@ -31,7 +31,7 @@ U kunt Workfront Planning-records in Workfront weergeven in de volgende gebieden
 
 ## Toegangsvereisten
 
-+++ Vouw uit om de vereisten voor toegang weer te geven.
++++ Vouw uit om de vereisten voor toegang weer te geven. 
 
 <table style="table-layout:auto">
  <col>
@@ -75,7 +75,7 @@ U kunt Workfront Planning-records in Workfront weergeven in de volgende gebieden
   <tr>
    <td role="rowheader"><p>Adobe Workfront-licentie*</p></td>
    <td>
-   <p>Standaard</p>
+   <p>Standard</p>
    <p>Workfront Planning is niet beschikbaar voor oudere Workfront-licenties</p>
   </td>
   </tr>
@@ -127,6 +127,9 @@ Overweeg het volgende wanneer u de verslagen van de Planning van Workfront van d
    * [Verbind recordtypen](/help/quicksilver/planning/architecture/connect-record-types.md)
    * [Connect-records](/help/quicksilver/planning/records/connect-records.md)
 * U kunt de sectie Planning weergeven vanuit een Workfront-object, zelfs als er geen records zijn gekoppeld aan het Workfront-object.
+* <span class="preview"> het verslagtype van A toont slechts op het Gebied van de Planning van een voorwerp van Workfront wanneer u creeert het corresponderende gebied op het verbonden verslagtype dat wanneer het creëren van de verbinding tussen twee verslagtypes plaatst.</span>
+
+  Voor informatie, zie [ verbind verslagtypes ](/help/quicksilver/planning/architecture/connect-record-types.md).
 
 ### Recordverbindingen beheren vanuit de sectie Planning
 
@@ -214,6 +217,9 @@ Overweeg het volgende wanneer u de verslagen van de Planning van Workfront van e
 
   U kunt bijvoorbeeld een aangepast formulier met een veld voor een planningsverbinding aan taken koppelen, maar u kunt geen objecten voor Workfront-planning aan taken koppelen.
 * U kunt een veld voor de planningsverbinding niet bewerken als u Workfront-objecten bulksgewijs bewerkt.
+* <span class="preview"> het verslagtype van A toont slechts in een gebied van de de verbindingsdouane van de Planning van een voorwerp van Workfront wanneer u creeert het Create overeenkomstige gebied op het verbonden verslagtype dat wanneer het creëren van de verbinding tussen twee verslagtypes plaatst.</span>
+
+  Voor informatie, zie [ verbind verslagtypes ](/help/quicksilver/planning/architecture/connect-record-types.md).
 
 ### Recordverbindingen beheren vanuit het type Verbindingsveld Planning
 

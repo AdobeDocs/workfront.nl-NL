@@ -6,15 +6,17 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: f32b2f9e5a511b83e5793299e47b9c1c12857bd8
+source-git-commit: 03c1f17504846fc4b8c4114ddc32df687281bc07
 workflow-type: tm+mt
-source-wordcount: '1260'
+source-wordcount: '1287'
 ht-degree: 0%
 
 ---
 
 
 # Recordweergaven beheren
+
+<!-- take preview and production references out at production-->
 
 <span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>
 
@@ -192,30 +194,32 @@ In de volgende tabel worden de overeenkomsten en verschillen tussen de tabel-, t
    * Klik in de productieomgeving op de tab **+View** .
    * <span class="preview"> in het milieu van de Voorproef, klik het drop-down pictogram ![ pictogram Dropdown ](assets/drop-down-icon.png) naast de huidige meningsnaam, dan klik **+ Nieuwe mening**.</span>
 
-1. <span class="preview"> van het meningsdrop-down menu, belemmering en dalingsmeningen in orde van uw voorkeur.</span>
 1. Selecteer een van de volgende typen weergaven:
 
    * Tabel
    * Tijdlijn
    * Kalender
 
-   Er wordt een nieuw tabblad gemaakt met de geselecteerde weergave.
+   In de productieomgeving wordt een nieuw tabblad gemaakt met de geselecteerde weergave.
 
    Afhankelijk van de breedte van uw scherm, zouden de extra meningen in **Meer** menu ![ Meer menu ](assets/more-menu.png) kunnen tonen.
 
+   >[!TIP]
+   >
+   >Wanneer u een recordtype maakt, wordt de tabelweergave ook standaard gemaakt.
+   >
+   >Als u een tijdlijn of een kalenderweergave wilt maken, moet het recordtype waarvoor u de weergave maakt, ten minste twee datumvelden hebben.
+   >
+   >Anders worden de opties Tijdlijn en Kalender grijs weergegeven.
+   >
 
->[!TIP]
->
->Wanneer u een recordtype maakt, wordt de tabelweergave ook standaard gemaakt.
->
->Als u een tijdlijn of een kalenderweergave wilt maken, moet het recordtype waarvoor u de weergave maakt, ten minste twee datumvelden hebben.
->
->Anders worden de opties Tijdlijn en Kalender grijs weergegeven.
->
+   <span class="preview"> in het milieu van de Voorproef, kies een meningstype, dan klik **creeer**. Er wordt een nieuwe weergave toegevoegd aan het vervolgkeuzemenu. </span>
 
-<!-- replace screen shot at production??-->
+   <span class="preview">![ creeer meningsdoos ](assets/create-view-box.png)</span>
 
-![ de types van Mening drop-down van verslagtype lijst ](assets/view-types-drop-down-from-record-type-list.png)
+1. <span class="preview"> van het meningsdrop-down menu, belemmering en dalingsmeningen in orde van uw voorkeur.</span>
+
+   <span class="preview">![ de types van Mening drop-down van verslagtype lijst ](assets/view-types-drop-down-from-record-type-list.png)</span>
 
 1. (Voorwaardelijk) klik **daarna**, wanneer het creëren van een chronologie of een kalendermening.
 

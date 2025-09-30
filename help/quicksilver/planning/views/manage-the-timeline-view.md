@@ -6,14 +6,16 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: ff5bc262a5ed2a22099c058ebdb61bc32485b201
+source-git-commit: 03c1f17504846fc4b8c4114ddc32df687281bc07
 workflow-type: tm+mt
-source-wordcount: '3920'
+source-wordcount: '3935'
 ht-degree: 0%
 
 ---
 
 # De tijdlijnweergave beheren
+
+<!--remove preview and production references at production-->
 
 <span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>
 
@@ -117,9 +119,9 @@ Overweeg het volgende:
 Een tijdlijnweergave beheren:
 
 1. Ga naar de pagina met recordtypen waarvoor u de tijdlijn wilt weergeven.
-1. Creeer een chronologiemening, zoals die in artikel [ wordt beschreven beheer verslagmeningen ](/help/quicksilver/planning/views/manage-record-views.md).
+1. <span class="preview"> creeer een chronologiemening, zoals die in het artikel [ wordt beschreven beheer verslagmeningen ](/help/quicksilver/planning/views/manage-record-views.md). </span>
 
-   ![ de meningsvoorbeeld van de Chronologie ](assets/timeline-view-example.png)
+   <span class="preview">![ de meningsvoorbeeld van de Chronologie ](assets/timeline-view-example.png)</span>
 
    De records die zijn gekoppeld aan het geselecteerde recordtype, worden standaard als balken in een tijdlijn weergegeven en gesorteerd in chronologische volgorde van hun begindatum.
 
@@ -173,9 +175,9 @@ Een tijdlijnweergave beheren:
 
 1. Ga als volgt te werk om snel records te zoeken die overeenkomen met een trefwoord:
 
-   1. Klik het **pictogram van het Onderzoek** pictogram van het 1&rbrace; Onderzoek ![ en begin een sleutelwoord verbonden aan om het even welk gebied van een verslag te typen dat op het scherm toont. ](assets/search-icon.png) Het aantal juiste overeenkomsten wordt weergegeven naast het zoekitem en de record met de juiste overeenkomst wordt gemarkeerd.
+   1. <span class="preview"> klik het **pictogram van het Onderzoek** pictogram ![ van het Onderzoek ](assets/search-icon.png) en begin een sleutelwoord verbonden aan om het even welk gebied van een verslag te typen dat op het scherm toont. Het aantal juiste overeenkomsten wordt weergegeven naast het zoekitem en de record met de juiste overeenkomst wordt gemarkeerd. </span>
 
-      ![ vakje van het Onderzoek en de mening van de resultaatchronologie ](assets/search-box-and-results-timeline-view.png)
+      <span class="preview">![ vakje van het Onderzoek en de mening van de resultaatchronologie ](assets/search-box-and-results-timeline-view.png)</span>
 
       U kunt elk woord of speciaal teken gebruiken dat op het scherm zichtbaar is.
 
@@ -353,23 +355,21 @@ Houd rekening met het volgende wanneer u werkt met groepen in de tijdlijnweergav
 Een groep toevoegen in de tijdlijnweergave:
 
 1. Creeer een chronologiemening voor een verslagtype, zoals die in artikel [ wordt beschreven beheer verslagmeningen ](/help/quicksilver/planning/views/manage-record-views.md).
-1. Klik **Groepering** in de hoger-juiste hoek van de chronologiemening.
+1. <span class="preview"> klik **Groepering** in de hoger-juiste hoek van de chronologiemening.</span>
 
-   ![ het groeperen van UI chronologiemening met verbonden gebieden ](assets/grouping-ui-timeline-view-with-linked-fields.png)
+   <span class="preview">![ het groeperen van UI chronologiemening met verbonden gebieden ](assets/grouping-ui-timeline-view-with-linked-fields.png)</span>
 
 1. Klik één van de voorgestelde gebieden, of klik **kies een verschillend gebied**, onderzoek naar een verschillend gebied, dan klik het wanneer het in de lijst toont.
 
    De groepering wordt automatisch toegepast op de tijdlijn en records worden weergegeven in het groepsvak.
 
-   <!-- add a step that you can rearrange the groupings here, when this will be possible-->
-
 1. (Optioneel) Herhaal de bovenstaande stappen om maximaal drie groepen samen te voegen.
 
-   Het aantal velden dat voor de groepering is geselecteerd, wordt weergegeven naast het pictogram Groeperen.
+   <span class="preview"> het aantal gebieden die voor de groeperingsvertoningen naast het pictogram van de Groepering worden geselecteerd.</span>
 
-   <!-- update screen shot with view redesign-->
+   <span class="preview">![ groepering die in chronologiemening wordt toegepast ](assets/grouping-applied-in-timeline-view.png)</span>
 
-   ![ groepering is op chronologiemening van toepassing ](assets/grouping-applied-in-timeline-view.png)
+1. In de **verslagen van de Groep door** doos, belemmering en laat vallen de groeperingen in de correcte orde.
 
 1. (Facultatief) binnen de **verslagen van de Groep door** doos, klik het **x** pictogram aan het recht van een gebied dat voor de groepering wordt geselecteerd om de groepering te verwijderen
 
@@ -530,7 +530,11 @@ U kunt verbonden verslagen in de chronologiemening van een verslag tonen door de
 1. Van de **Standaard** of **Compacte** wijzen, klik **Onderbreking** in de hoger-juiste hoek van de chronologiemening.
 1. Vouw **Uitgezocht een verbonden verslagtype** doos uit en selecteer een verbonden verslagtype. <!--add a new screen shot - submitted a bug to remove the "the"-->
 
+   <div class="preview">
+
    ![ de plukker en knoop van de Onderbreking op chronologiemening ](assets/breakdown-picker-and-button-on-timeline.png)
+
+   </div>
 
    >[!TIP]
    >
@@ -543,7 +547,7 @@ U kunt verbonden verslagen in de chronologiemening van een verslag tonen door de
    >    De begin- en einddatum moeten opeenvolgend zijn. Als de einddatum valt vóór de begindatum, worden er geen records weergegeven in de tijdlijn.
 
    Er wordt een pijl naar rechts weergegeven op de geselecteerde balk van de record in de tijdlijn als deze zijn verbonden met andere records.
-1. Klik op de pijl naar rechts om een recordtype uit te vouwen en de bijbehorende verbindingen weer te geven.
+1. Klik op de pijl naar rechts om een recordtype uit te vouwen en de bijbehorende verbindingen weer te geven. <!--update screen shot at production-->
 
    ![ Campagnes die door programma&#39;s in de chronologiemening worden verdeeld ](assets/campaigns-broken-down-by-programs-in-timeline-highlighted.png)
 
