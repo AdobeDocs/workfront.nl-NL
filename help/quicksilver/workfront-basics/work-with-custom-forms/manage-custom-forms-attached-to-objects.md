@@ -61,7 +61,7 @@ U moet de volgende toegang hebben om de handelingen uit te voeren die in dit art
 
    **Voorbeeld:** Bijvoorbeeld, om de douaneformulieren van een project te beheren, ga naar het project, klik **Meer** menu ![](assets/more-icon.png), dan klik **uitgeven**.
 
-1. In de **sectie van de Douane Forms van 0} {voor projecten, taken, en kwesties, klik het** pictogram naast de naam van een douanevorm. ![](assets/move-icon---dots.png) Voor alle andere voorwerpen, klik **leiden Forms**. Deze optie wordt alleen weergegeven als ten minste één aangepast formulier aan het object is gekoppeld.
+1. In de **sectie van de Douane Forms van 0&rbrace; &lbrace;voor projecten, taken, en kwesties, klik het** pictogram naast de naam van een douanevorm. ![](assets/move-icon---dots.png) Voor alle andere voorwerpen, klik **leiden Forms**. Deze optie wordt alleen weergegeven als ten minste één aangepast formulier aan het object is gekoppeld.
 1. Sleep een formulier ![](assets/move-icon---dots.png) naar een nieuwe locatie in de lijst.
 1. Voor projecten, taken, en kwesties douaneformulieren, klik **sparen**.
 
