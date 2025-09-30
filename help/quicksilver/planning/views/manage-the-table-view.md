@@ -234,7 +234,7 @@ U kunt tot 50.000 verslagen (of rijen) voor recordtypeS hebben.
 
    De records die u in de tabelweergave toevoegt, worden direct opgeslagen en zijn zichtbaar voor alle gebruikers met de machtiging Weergave of hoger voor de werkruimte.
 
-1. (Facultatief) voeg een duimnagel aan elk verslag toe, en klik **Gebieden** in de hoger-juiste hoek van de lijst, dan selecteren de knevel voor het **3} gebied van de Duimnagel {om het links van het primaire gebied te tonen.** Deze optie is standaard uitgeschakeld.
+1. (Facultatief) voeg een duimnagel aan elk verslag toe, en klik **Gebieden** in de hoger-juiste hoek van de lijst, dan selecteren de knevel voor het **3&rbrace; gebied van de Duimnagel &lbrace;om het links van het primaire gebied te tonen.** Deze optie is standaard uitgeschakeld.
 
    Voor informatie, zie [ een duimnagel aan een verslag ](/help/quicksilver/planning/records/add-thumbnails-to-records.md) toevoegen.
 
