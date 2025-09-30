@@ -174,7 +174,7 @@ Voor meer informatie over het creëren van manueel timesheet, zie [ een enig-geb
 
    <span class="preview"> wanneer het creëren van groep-vlakke timesheet profielen in Voorproef, scrol naar de bodem van de pagina en vind **toewijzen Mensen** sectie.</span>
 
-   Wanneer het creëren van timesheet profielen voor het systeem, scrol naar de bodem van de pagina en vind **toewijzen de 1} sectie van Mensen**. <!--Keep the reference to the system when releasing to Prod, until they unshim the group Timesheet Profile-->
+   Wanneer het creëren van timesheet profielen voor het systeem, scrol naar de bodem van de pagina en vind **toewijzen de 1&rbrace; sectie van Mensen**. <!--Keep the reference to the system when releasing to Prod, until they unshim the group Timesheet Profile-->
 
    Typ de naam van de gebruiker, groep of team en klik vervolgens op de naam wanneer deze in de vervolgkeuzelijst wordt weergegeven.
 
