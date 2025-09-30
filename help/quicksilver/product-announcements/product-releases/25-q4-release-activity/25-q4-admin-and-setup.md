@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: d560a3b7-81a0-41b2-a40e-81c784a42bf6
-source-git-commit: aec301a72ce0864faaf61754552ab8b4ba9bfb49
+source-git-commit: 4ec069376c398aa67ecfd6fad6973ad364f6a6a2
 workflow-type: tm+mt
-source-wordcount: '591'
+source-wordcount: '601'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ We hebben het uiterlijk van het Workfront-gebruikersprofiel bijgewerkt naar een 
 Er zijn enkele kleine functieverschillen ten opzichte van het huidige gebruikersprofiel, zoals:
 
 * Sommige selectievakjes (zoals de gebruiker als actief markeren) zijn veranderd in schakelknoppen of knoppen.
-* De optie &#39;Werk verzenden dat ik aan mezelf toewijs naar mijn tabblad Werken op&#39; onder Voorkeuren is verwijderd, omdat deze naar een vervangen functie verwijst.
+* De optie &quot;Werk verzenden dat ik toewijs aan mezelf naar mijn tabblad Werken op tabblad&quot; onder Voorkeuren is hernoemd naar &quot;De taakstatus automatisch instellen op Bezig wanneer taken zelf worden toegewezen&quot; om het doel ervan te weerspiegelen.
 
 Voor meer informatie, zie [ het profiel van een gebruiker ](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) uitgeven.
 
