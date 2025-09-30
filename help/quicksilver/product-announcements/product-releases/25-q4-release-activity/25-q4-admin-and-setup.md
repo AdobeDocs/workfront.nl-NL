@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: d560a3b7-81a0-41b2-a40e-81c784a42bf6
-source-git-commit: 4ec069376c398aa67ecfd6fad6973ad364f6a6a2
+source-git-commit: e32f759218a3addf63dad7aa207ccdde8acb1975
 workflow-type: tm+mt
-source-wordcount: '601'
+source-wordcount: '597'
 ht-degree: 0%
 
 ---
@@ -22,9 +22,8 @@ Voor een lijst van alle veranderingen beschikbaar op dit punt in het Vierde Kwar
 
 >[!NOTE]
 >
->* Voorbeeld: 25 september 2025
->* Snelle productie: 15 oktober 2025
->* Productie voor alle afnemers: 16 oktober 2025
+>* Voorbeeld: 24 september 2025
+>* Productie voor alle afnemers: 25 september 2025
 
 Om ervoor te zorgen dat u toegang behoudt tot de gegevens die u nodig hebt, hebben we een bevestigingsvenster toegevoegd wanneer u een aangepast formulier uit een object verwijdert. Als u een aangepast formulier uit een object verwijdert, worden de gegevens in dat formulier permanent uit het object verwijderd. In het dialoogvenster kunt u nu bevestigen dat u begrijpt dat deze gegevens worden verwijderd, zodat u de gegevens die u nodig hebt, niet verwijdert.
 
