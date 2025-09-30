@@ -5,21 +5,14 @@ description: Met AI kunt u aanvraagvelden automatisch aanvullen met gegevens uit
 author: Becky
 feature: Get Started with Workfront
 exl-id: a0cd1fbf-d3c6-454c-a85a-ceca4b1e8a7b
-source-git-commit: 1c2e382908ed8fead7c2222e8d46988656df29c4
+source-git-commit: 21039f9ab14529b56935d65e0261dc1ce068918c
 workflow-type: tm+mt
-source-wordcount: '350'
+source-wordcount: '331'
 ht-degree: 0%
 
 ---
 
 # Een aanvraag automatisch aanvullen met gegevens uit eerdere aanvragen
-
->[!NOTE]
->
->* Deze functionaliteit zal als open bèta op het volgende programma beschikbaar zijn:
->
->   * Maandbericht: 11 september 2025
->   * Kwartaalversie: 16 oktober 2025
 
 Met AI kunt u aanvraagvelden automatisch invullen op basis van eerdere aanvragen. U kunt deze suggesties goedkeuren of verwerpen alvorens het verzoek in te dienen.
 
@@ -79,7 +72,7 @@ Op eerdere verzoeken gebaseerde suggesties gebruiken:
 
    Terwijl u velden invult, kunnen in andere velden suggesties worden weergegeven.
 
-1. Voor elke gebiedssuggestie, keurt de uitgezochte **&#x200B;**&#x200B;goed of **verwerpt** voor dat gebied.
+1. Voor elke gebiedssuggestie, keurt de uitgezochte **** goed of **verwerpt** voor dat gebied.
 
    ![ Accepteer of verwerp suggestie ](assets/accept-reject-suggestion.png)
 
