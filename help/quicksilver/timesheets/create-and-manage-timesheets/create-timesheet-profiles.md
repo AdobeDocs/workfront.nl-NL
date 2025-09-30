@@ -6,14 +6,16 @@ description: U kunt timesheet-profielen maken, bewerken en toewijzen die terugke
 author: Lisa
 feature: Timesheets
 exl-id: 8f4826bd-82b4-4157-a7d4-a7c94b8fc879
-source-git-commit: 764200970aeb8d121cd99a8d4239e0b9853670a9
+source-git-commit: 939407f56b39617441f669d11b9439e445ceaf6e
 workflow-type: tm+mt
-source-wordcount: '1635'
+source-wordcount: '1641'
 ht-degree: 0%
 
 ---
 
 # Werkbladprofielen maken, bewerken en toewijzen
+
+{{highlighted-preview}}
 
 <!--Audited: 06/2025-->
 
@@ -85,8 +87,7 @@ Voor meer informatie over het creëren van manueel timesheet, zie [ een enig-geb
 
    De nieuwe of bestaande pagina van het timesheet- profiel toont.
 
-
-1. Klik het **Vastgestelde Details** lusje, dan werk de volgende informatie bij: <!-- at the Production release, change the order of some of these rows, as they changed in the unshimmed UI-->
+1. Werk de volgende gegevens bij:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -112,7 +113,7 @@ Voor meer informatie over het creëren van manueel timesheet, zie [ een enig-geb
      <ul> 
       <li> <p>Als u een timesheet-profiel maakt voor een groep die u beheert, moet u hier de groep identificeren.</p> <p>Hiermee wordt het tijdlijnprofiel niet toegewezen aan de gebruikers in de groep. De beheerders van de groep kunnen het tijdbladprofiel alleen wijzigen. In Stap 6 wijst u het profiel aan gebruikers toe.</p>
 
-   <p><b> NOTA </b>: Wanneer de gebruikers buiten de groep timesheet profielen aan andere gebruiker vastmaken, zullen zij niet dit timesheet profiel kunnen zien of vastmaken.</p> </li> 
+   <p><b> NOTA </b>: Wanneer de gebruikers buiten de groep timesheet profielen aan andere gebruikers vastmaken, zullen zij niet dit timesheet profiel kunnen zien of vastmaken.</p> </li> 
       </ul> </p> </td> 
      </tr> 
      <tr> 
@@ -155,6 +156,10 @@ Voor meer informatie over het creëren van manueel timesheet, zie [ een enig-geb
    <b> NOTA </b>: Zodra u een timesheet voor goedkeuring voorlegt, kunt u niet meer de uren uitgeven. Om een voorgelegde timesheet aan een editable staat terug te keren, wijs timesheet terug of hebben fiatteur de timesheet verwerpen. Voor meer informatie, zie <a href="../../timesheets/create-and-manage-timesheets/submit-timesheet-for-approval.md"> een timesheet voor goedkeuring </a> voorleggen en <a href="../../timesheets/create-and-manage-timesheets/timesheet-approvals.md"> goedkeuren timesheet </a>.</p> </p> </td>
    </tr> 
      <tr> 
+      <td role="rowheader"><strong> Overtime </strong> </td> 
+      <td>U kunt het vak Overwerk verbergen in tijdbladen. Deze optie is standaard uitgeschakeld.</td> 
+     </tr> 
+     <tr> 
       <td role="rowheader"><strong> Beschikbare Types van Uur </strong> </td> 
       <td><p>Deze instelling verwijst alleen naar Algemene uurtypen en niet naar projectspecifieke uurtypen. </p>
       <p>Door gebrek, zien de gebruikers alle algemene uren op een timesheet. Nochtans, als uw organisatie slechts specifieke algemene uren voor een bepaalde reeks gebruikers wil worden getoond, kunt u de algemene uren selecteren die zij in hun timesheets moeten zien door hen in hun timesheet profiel op dit gebied te selecteren. Als u alle algemene uren wilt onbruikbaar maken, schrap alle uurtypes om timesheet zonder een sectie voor algemene uren te produceren.</p></td> 
@@ -165,16 +170,11 @@ Voor meer informatie over het creëren van manueel timesheet, zie [ een enig-geb
       <td> <p> Voeg een herinneringsmelding toe. Workfront stuurt herinneringen naar gebruikers om hen te vragen hun tijdbladen in te vullen of goed te keuren. U moet herinneringsberichten tot stand brengen alvorens u hen met een timesheet profiel kunt associëren.  </p> </td> 
      </tr>
 
-   <tr data-mc-conditions=""> 
-      <td role="rowheader"><span style="font-weight: bold;"> Overtime </span> </td> 
-      <td>U kunt het vak Overwerk verbergen in tijdbladen. Deze optie is standaard uitgeschakeld.</td> 
-     </tr> 
-    </tbody> 
-    </table>
+1. Wanneer het creëren van groep-vlakke timesheet profielen in Productie, klik **toewijzen de Mensen** tabel om het timesheet profiel met specifieke gebruikers, groepen, of (als u een beheerder van Workfront) teams bent te associëren. <!--Keep the reference to the group upon release to Prod, for now, until they unshim the group Timesheet Profiles-->
 
-1. Wanneer het creëren van groep-vlakke timesheet profielen, klik **toewijzen de Mensen** tabel om het timesheet profiel met specifieke gebruikers, groepen, of (als u een beheerder van Workfront) teams bent te associëren. <!--Keep the reference to the group upon release to Prod, for now, until they unshim the group Timesheet Profiles-->
+   <span class="preview"> wanneer het creëren van groep-vlakke timesheet profielen in Voorproef, scrol naar de bodem van de pagina en vind **toewijzen Mensen** sectie.</span>
 
-   Wanneer het creëren van timesheet profielen voor het systeem, scrol naar de bodem van de pagina en vind **toewijzen de 1&rbrace; sectie van Mensen**. <!--Keep the reference to the system when releasing to Prod, until they unshim the group Timesheet Profile-->
+   Wanneer het creëren van timesheet profielen voor het systeem, scrol naar de bodem van de pagina en vind **toewijzen de 1} sectie van Mensen**. <!--Keep the reference to the system when releasing to Prod, until they unshim the group Timesheet Profile-->
 
    Typ de naam van de gebruiker, groep of team en klik vervolgens op de naam wanneer deze in de vervolgkeuzelijst wordt weergegeven.
 
@@ -188,13 +188,13 @@ Voor meer informatie over het creëren van manueel timesheet, zie [ een enig-geb
 
 1. Klik **sparen**.
 
-1. Bij de bovenkant van de lijst van het timesheet profiel, klik het **Meer** pictogram ![ pictogram ](assets/more-icon.png) voor systeem-vlakke timesheet profielen, of **Meer**, voor groep timesheet profielen, dan klik **timesheets** produceren.
+1. Bij de bovenkant van de lijst van het timesheet profiel, klik **Meer** pictogram ![ Meer pictogram ](assets/more-icon.png), dan klik **produceert timesheets**.
 
    Onder aan het scherm wordt bevestigd dat tijdbladen zijn gegenereerd. Nieuwe tijdbladen worden gegenereerd op basis van de nieuwe profielen die u hebt gemaakt.
 
    Voor meer informatie, zie [ manueel timesheets ](/help/quicksilver/timesheets/create-and-manage-timesheets/manually-generate-timesheets.md) produceren.
 
-   De eerste keer wordt het timesheet profiel timesheets geproduceerd, worden 2 timesheets gecreeerd voor elke gebruiker, zowel voor het timeframe dat de huidige tijd evenals voor het volgende timeframe omvat.
+   De eerste keer wordt het timesheet profiel timesheets geproduceerd, twee timesheets gecreeerd voor elke gebruiker, zowel voor het timeframe dat de huidige tijd evenals voor het volgende timeframe omvat.
 
    Daarna, telkens als het nieuwe timesheets produceert, wordt één timesheet gecreeerd per gebruiker.
 
