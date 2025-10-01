@@ -30,7 +30,7 @@ Er zijn twee testomgevingen voor [!DNL Workfront] die replica&#39;s zijn van uw 
 
 * De aangepaste vernieuwingssandbox
 
-  De aangepaste vernieuwingssandbox is een aparte testomgeving die u handmatig kunt vernieuwen. Er zijn extra kosten voor het ophalen van de aangepaste vernieuwingssandbox. Voor meer informatie over dit milieu, zie [ de  [!DNL Adobe Workfront]  Douane verfrist het milieu van Sandbox ](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md).
+  De aangepaste vernieuwingssandbox is een aparte testomgeving die u handmatig kunt vernieuwen. Er zijn extra kosten voor het ophalen van de aangepaste vernieuwingssandbox. Voor meer informatie over dit milieu, zie [&#x200B; de  [!DNL Adobe Workfront]  Douane verfrist het milieu van Sandbox &#x200B;](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md).
 
 <table style="table-layout:auto"> 
  <col> 
@@ -75,7 +75,7 @@ De voorvertoningsomgeving is ideaal voor het uitvoeren van trainingen, het teste
 >
 >De naam van de omgeving die u opent (Voorvertoning) en de releaseversie van de code worden weergegeven op de banner. Klik op **[!UICONTROL See what's new]** voor meer informatie over die release.
 >
->![ banner van de Voorproef ](assets/preview-banner-nwe-350x161.png)
+>![&#x200B; banner van de Voorproef &#x200B;](assets/preview-banner-nwe-350x161.png)
 
 ## De voorvertoningssandbox openen
 
@@ -129,7 +129,7 @@ U kunt als volgt via een URL aanmelden bij de voorvertoningssandbox:
 
 1. Navigeer naar deze URL: `https://companyname.preview.workfront.com/` .
 
-   U kunt tot de Sandbox van de Voorproef ook toegang hebben door [ https://cl04.preview.workfront.com/login ](https://cl04.preview.workfront.com/login) te gaan.
+   U kunt tot de Sandbox van de Voorproef ook toegang hebben door [&#x200B; https://cl04.preview.workfront.com/login &#x200B;](https://cl04.preview.workfront.com/login) te gaan.
 
 1. Meld u aan met uw voorvertoningsreferenties.
 
@@ -137,20 +137,20 @@ U kunt als volgt via een URL aanmelden bij de voorvertoningssandbox:
 
 ## E-mails ontvangen vanuit de voorvertoningssandbox
 
-Workfront schakelt alle e-mailcommunicatie uit vanuit de omgeving van de voorvertoningssandbox. Als u e-mailmeldingen wilt ontvangen vanuit de omgeving van de voorvertoningssandbox, moet u deze functionaliteit inschakelen in uw gebruikersinstellingen. Voor meer informatie over het toelaten van e-mailberichten in het milieu van de Sandbox van de Voorproef, zie [ levering van e-mails van het milieu van de zandbak van de Voorproef ](../../../workfront-basics/using-notifications/enable-delivery-emails-from-preview-sandbox-environment.md) toelaten.
+Workfront schakelt alle e-mailcommunicatie uit vanuit de omgeving van de voorvertoningssandbox. Als u e-mailmeldingen wilt ontvangen vanuit de omgeving van de voorvertoningssandbox, moet u deze functionaliteit inschakelen in uw gebruikersinstellingen. Voor meer informatie over het toelaten van e-mailberichten in het milieu van de Sandbox van de Voorproef, zie [&#x200B; levering van e-mails van het milieu van de zandbak van de Voorproef &#x200B;](../../../workfront-basics/using-notifications/enable-delivery-emails-from-preview-sandbox-environment.md) toelaten.
 
 >[!NOTE]
 >
 >Leverings- en pushberichten van rapporten op de mobiele app zijn altijd uitgeschakeld voor de voorvertoningssandbox-omgeving. De beheerder van [!DNL Workfront] kan het verzenden van rapporten of pushmeldingen voor de mobiele app niet inschakelen wanneer u de omgeving van de voorvertoningssandbox opent.
 >
->Voor meer informatie over rapportleveringen voor het productiemilieu, zie [ de leveringsoverzicht van het Rapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md).
+>Voor meer informatie over rapportleveringen voor het productiemilieu, zie [&#x200B; de leveringsoverzicht van het Rapport &#x200B;](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md).
 
 
 ## Eenmalige aanmelding (SSO)
 
 Als u SSO gebruikt, werkt u samen met ons klantenondersteuningsteam om ervoor te zorgen dat dit op de juiste wijze is geconfigureerd, zodat u uw SSO-gegevens kunt gebruiken om u aan te melden bij de sandbox van [!UICONTROL Preview] . Neem contact op met uw normale ondersteuningscontactpersoon of [!DNL Workfront] beheerder als uw initiële aanmelding mislukt.
 
-Voor meer informatie over Enige Sign-On, zie [ Overzicht van enige sign-on in Adobe Workfront ](../../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md).
+Voor meer informatie over Enige Sign-On, zie [&#x200B; Overzicht van enige sign-on in Adobe Workfront &#x200B;](../../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md).
 
 ## Single Sign-On configureren in de voorvertoningssandbox
 
@@ -158,7 +158,7 @@ Voor meer informatie over Enige Sign-On, zie [ Overzicht van enige sign-on in Ad
 >
 >De op deze pagina beschreven procedure is alleen van toepassing op organisaties die nog niet zijn aangemeld bij de [!DNL Adobe Admin Console] . Als uw organisatie is aangemeld bij de [!DNL Adobe Admin Console] , is geen actie nodig.
 >
->Voor een lijst van procedures die verschillen gebaseerd op of uw organisatie aan [!DNL Adobe Admin Console] is genegeerd, zie [ Op platform-gebaseerde beleidsverschillen ([!UICONTROL Adobe Workfront]/ [!UICONTROL Adobe Business Platform]) ](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>Voor een lijst van procedures die verschillen gebaseerd op of uw organisatie aan [!DNL Adobe Admin Console] is genegeerd, zie [&#x200B; Op platform-gebaseerde beleidsverschillen ([!UICONTROL Adobe Workfront]/ [!UICONTROL Adobe Business Platform]) &#x200B;](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
 
 Als u uw zandbak van de Voorproef wilt vormen om met Één Enige Sign-On oplossing te werken, kunt u dit doen door het los van uw milieu van de Productie te vormen. De configuratie SSO in de zandbak van de Voorproef is onafhankelijk van uw configuratie SSO in het milieu van de Productie.
@@ -167,7 +167,7 @@ Wanneer uw zandbak van de Voorproef (elk weekend) verfrist, wordt de informatie 
 
 De stappen voor het vormen van enig teken-binnen in de zandbak van de Voorproef zijn gelijkaardig aan die voor het vormen van het in het milieu van de Productie.
 
-Voor meer informatie over het vormen [!DNL Workfront] met SSO, zie [ Overzicht van enige teken-op in Adobe Workfront ](../../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md).
+Voor meer informatie over het vormen [!DNL Workfront] met SSO, zie [&#x200B; Overzicht van enige teken-op in Adobe Workfront &#x200B;](../../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md).
 
 ## Automatische herberekening van projecttijdlijnen
 
@@ -175,9 +175,9 @@ Het opnieuw berekenen van chronologie staat managers toe om te zien hoe de krach
 
 Als Workfront-beheerder kunt u configureren wanneer Workfront de projecttijdlijnen automatisch opnieuw berekent. Workfront kan projectchronologie of elke nacht opnieuw berekenen of wanneer het projectwerkingsgebied verandert, of allebei.
 
-Voor informatie, zie [ chronologieherberekeningen voor projecten ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md) vormen.
+Voor informatie, zie [&#x200B; chronologieherberekeningen voor projecten &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md) vormen.
 
-Voor de omgeving van de Voorproef, wordt de niight herberekening onbruikbaar gemaakt, en de projectchronologie worden niet automatisch opnieuw berekend. U moet de projectchronologie voor het milieu van de Voorproef manueel opnieuw berekenen. Voor informatie, zie [ projectchronologie ](/help/quicksilver/manage-work/projects/manage-projects/recalculate-project-timeline.md) opnieuw berekenen.
+Voor de omgeving van de Voorproef, wordt de niight herberekening onbruikbaar gemaakt, en de projectchronologie worden niet automatisch opnieuw berekend. U moet de projectchronologie voor het milieu van de Voorproef manueel opnieuw berekenen. Voor informatie, zie [&#x200B; projectchronologie &#x200B;](/help/quicksilver/manage-work/projects/manage-projects/recalculate-project-timeline.md) opnieuw berekenen.
 
 
 ## Voorbeeld van prestaties en beschikbaarheid van omgeving
