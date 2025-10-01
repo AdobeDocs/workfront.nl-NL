@@ -6,12 +6,10 @@ description: Ga aan de slag met de integratie Frame.io.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
-hide: true
-hidefromtoc: true
 exl-id: b9a83bc2-4dd8-4c77-a2e7-385baa809b3b
-source-git-commit: 19003988a8e164db225f8511f567d38e6eeaf627
+source-git-commit: 9825f095a7be7debb5150ca4bd50f7cf6fd12295
 workflow-type: tm+mt
-source-wordcount: '770'
+source-wordcount: '784'
 ht-degree: 0%
 
 ---
@@ -41,8 +39,8 @@ Nadat de goedkeuringswerkstroom is gemaakt, kunnen revisoren en fiatteurs de vie
 
 Voor meer informatie over vestiging projecten, zie
 
-* [ creeer een project ](/help/quicksilver/manage-work/projects/create-projects/create-project.md)
-  <!--* [Frame.io integration overview](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/frame-int-overview.md)-->
+* [Een project maken](/help/quicksilver/manage-work/projects/create-projects/create-project.md)
+* [Overzicht van de integratie van Frame.io](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/frame-int-overview.md)
 
 ### In Workfront formele beoordelingen en goedkeuringen starten
 
@@ -72,7 +70,7 @@ Revisoren en fiatteurs kunnen worden toegevoegd aan een goedkeuringswerkstroom v
 
 Nadat de revisie- en goedkeuringsworkflow in Workfront is gestart, hebben revisoren en fiatteurs toegang tot de viewer Frame.io om opmerkingen toe te voegen, het element te markeren en een beslissing te nemen.
 
-<!--For more information, see [Review and approve with the Frame.io viewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-with-frame.md).-->
+Voor meer informatie, zie [ Overzicht en keur met de kijker Frame.io ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-with-frame.md) goed.
 
 #### De viewer Frame.io openen
 
@@ -83,7 +81,7 @@ Gebruikers kunnen op de volgende manieren toegang krijgen tot de viewer Frame.io
 
 >[!NOTE]
 >
->Externe Workfront-gebruikers worden via e-mail op de hoogte gesteld en worden gevraagd om een Frame.io-aanmelding te maken voor het controleren en goedkeuren van middelen. <!--is this still accurate?-->
+>Externe Workfront-gebruikers worden via e-mail op de hoogte gesteld en worden gevraagd om een Frame.io-aanmelding te maken voor het controleren en goedkeuren van middelen.
 
 ![ open de kaderkijker van Huis ](assets/open-fio-viewwer.png)
 

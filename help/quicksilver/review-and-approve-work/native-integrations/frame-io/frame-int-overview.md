@@ -5,16 +5,14 @@ title: Overzicht van de integratie van Frame.io
 description: Overzicht van de integratie van Frame.io
 author: Courtney
 feature: Work Management, Digital Content and Documents
-hide: true
-hidefromtoc: true
 recommendations: noDisplay, noCatalog
-source-git-commit: c4e1961092883f523d04adaacd58129a0379783d
+exl-id: b5f0150b-40b5-4386-98bc-374e7ca65b74
+source-git-commit: 9825f095a7be7debb5150ca4bd50f7cf6fd12295
 workflow-type: tm+mt
-source-wordcount: '647'
+source-wordcount: '736'
 ht-degree: 0%
 
 ---
-
 
 # Overzicht van de integratie van Frame.io
 
@@ -22,13 +20,13 @@ Dankzij de integratie van Workfront en Frame.io kunnen projectcoördinatoren pro
 
 ## Gebaseerd op Adobe Enterprise Storage
 
-De kern van deze integratie is Adobe Enterprise Storage - een op cloud gebaseerde opslagoplossing die fungeert als centrale opslagplaats voor bedrijfsmiddelen in Adobe, waaronder Workfront, Frame.io en Creative Cloud.
+De kern van deze integratie is Adobe Enterprise Storage — een op cloud gebaseerde opslagoplossing die fungeert als centrale opslagplaats voor bedrijfsmiddelen in Adobe, waaronder Workfront en Frame.io. <!--, and Creative Cloud.-->
 
 De belangrijkste voordelen van Adobe Enterprise Storage zijn:
 
 * Geïntegreerde opslaglaag voor creatieve middelen en bedrijfsbeheermiddelen
 * Gecentraliseerde machtigingen via Adobe IMS voor veilig toegangsbeheer
-* End-to-end asset visibility voor Workfront-, Frame.io- en Creative Cloud-toepassingen <!--coming soon?-->
+* De zichtbaarheid van end-to-end elementen in Workfront en Frame.io <!--, and Creative Cloud apps -->
 * Schaalbare opslag en quotabeheer voor bedrijfsbehoeften
 
 Voor meer details, zie [ overzicht van de ondernemingsopslag van Adobe ](/help/quicksilver/review-and-approve-work/esm-overview.md).
@@ -60,7 +58,7 @@ Voor meer informatie, zie [ begonnen worden met de integratie Frame.io ](/help/q
 
 #### Limieten voor videorevisie
 
-Er is een jaarlijks plafond voor videoproefdrukken vastgesteld op 10% van de totale betaalde Workfront-gebruikerslicenties (Standard and Light) van een organisatie. Dit plafond wordt toegepast op het niveau van de organisatie.
+Er is een jaarlijks maximum voor videoproefdrukaanvragen dat is ingesteld op 10% van de totale betaalde Workfront-gebruikerslicenties voor een organisatie: Standard en Light. Dit plafond wordt toegepast op het niveau van de organisatie.
 
 Workfront-beheerders ontvangen meldingen wanneer het gebruik 80% en 100% van de limiet bereikt.
 
@@ -72,11 +70,11 @@ De viewer Frame.io ondersteunt alle gangbare typen video, afbeeldingen, audio, P
 
 #### Toegang tot en licenties voor de Frame.io-viewer
 
-De viewer Frame.io is beschikbaar voor alle Workfront-gebruikers met een betaalde licentie. Er is geen aanvullende Frame.io-licentie vereist als u de Frame.io-viewer wilt gebruiken voor revisies en goedkeuringen met deze integratie.
+De viewer Frame.io is de standaardviewer voor alle Workfront-workflows voor revisie en goedkeuring. Deze wordt automatisch opgenomen voor alle Workfront-gebruikers met een betaalde licentie. Er is geen aanvullende Frame.io-licentie vereist als u de Frame.io-viewer wilt gebruiken voor revisies en goedkeuringen.
 
-Als uw organisatie van extra functionaliteit Frame.io, zoals het uploaden van activa rechtstreeks aan projecten in Frame.io wil profiteren, kunt u een Frame.io ondernemingsvergunning kopen. Neem contact op met uw Adobe-accountvertegenwoordiger om een demo te plannen en de voordelen van de volledige Frame.io-oplossing te verkennen.
+Als uw organisatie van extra functionaliteit Frame.io beschikbaar met deze integratie, zoals het uploaden van activa rechtstreeks aan projecten in Frame.io wil profiteren, kunt u een Frame.io ondernemingsvergunning kopen. Neem contact op met uw Adobe-accountvertegenwoordiger om een demo te plannen en de voordelen van de volledige Frame.io-oplossing te verkennen.
 
-Bij deze integratie is Workfront-proefdrukfunctionaliteit niet beschikbaar.
+Workfront Proofing-functionaliteit is niet beschikbaar bij deze integratie.
 
 ## Krachtig projectbeheer in Workfront
 
@@ -94,24 +92,49 @@ Omdat deze integratie gebruikend ESM wordt gebouwd, zijn er sommige gedwongen st
 
 Met het oog op deze beperkingen wijzigt Workfront automatisch de naam van objecten of documenten om conflicten te voorkomen.
 
+### Delen en machtigingen
+
+Als onderdeel van de integratie, worden de gebruikerstoestemmingen gecontroleerd in Workfront en stroom neer aan Frame.io. Dit betekent u kunt geen gebruiker aan een project in Frame.io uitnodigen of gebruikerstoestemmingen in Frame.io wijzigen. Deze acties moeten worden uitgevoerd via het modaal project voor het delen van projecten in Workfront.
+
+In de volgende tabel wordt aangegeven hoe Workfront-machtigingen worden toegewezen aan Frame.io-machtigingen:
+
+<table>
+<tr>
+<th>Workfront-gebruikersrechten</th>
+<th>Frame.io-gebruikersmachtigingen</th>
+</tr>
+<tr>
+<td>Beheren</td>
+<td>Bewerken en delen</td>
+</tr>
+<tr>
+<td>Contribute</td>
+<td>Bewerken en delen</td>
+</tr>
+<tr>
+<td>Weergave</td>
+<td>Alleen opmerkingen</td>
+</tr>
+</table>
+
+
+
 ### Documentbeheer in Workfront
 
 Documenten worden op projectniveau met deze integratie beheerd en kunnen op dit moment niet worden geüpload naar taken of problemen.
 
 Documenttoegang wordt ook op projectniveau beheerd. Als een gebruiker toegang tot een project heeft, kunnen zij tot alle documenten toegang hebben verbonden aan dat project.
 
-<!--Documents can't be dragged as full folders.-->
-
 ### Beperkingen voor ervaring met documenten
 
-Omdat deze integratie met behulp van ESM is gemaakt, zijn er enkele beperkingen voor de ervaring met het originele document in Workfront:
+Omdat deze integratie is gebouwd met behulp van Adobe Enterprise Storage, zijn er enkele beperkingen aan de ervaring met het originele document in Workfront:
 
 #### Beperkingen
 
 De volgende mogelijkheden worden niet opgenomen in deze integratie:
 
 <!--* External document providers-->
-* Toegang tot proefdrukken
+* Toegang tot proefdrukken in Workfront
 * Documentviewer in Workfront
 * Favoriete documenten
 * Documenten aanvragen
@@ -125,6 +148,3 @@ For now, the following capabilities are not available:
 * Multi-stage approvals
 * Upload documents to comments or updates in Workfront
 * Upload documents to tasks or issues in Workfront-->
-
-
-

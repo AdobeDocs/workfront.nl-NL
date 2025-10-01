@@ -5,16 +5,14 @@ title: Reviseren en goedkeuren met de viewer Frame.io
 description: Leer hoe u documenten kunt reviseren en goedkeuren met de viewer Frame.io.
 author: Courtney
 feature: Work Management, Digital Content and Documents
-hide: true
-hidefromtoc: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 601285fdbf26365dcaea14f990904d049816af21
+exl-id: 3190ad18-180e-42e5-aa10-bdad74303d3d
+source-git-commit: 9825f095a7be7debb5150ca4bd50f7cf6fd12295
 workflow-type: tm+mt
-source-wordcount: '570'
+source-wordcount: '487'
 ht-degree: 0%
 
 ---
-
 
 # Reviseren en goedkeuren met de viewer Frame.io
 
@@ -22,11 +20,12 @@ U kunt documenten in Workfront reviseren en goedkeuren met de viewer Frame.io.
 
 Door Workfront-documenten te reviseren met de Frame.io-viewer kunt u opmerkingen achterlaten of specifieke gedeelten van een document, afbeelding of video markeren om efficiënt met uw team samen te werken en ervoor te zorgen dat feedback duidelijk en handelbaar is.
 
-<!--For more information on the Frame.io integration with Workfront, see [Frame.io integration overview](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/frame-int-overview.md).-->
+Voor meer informatie over de integratie Frame.io met Workfront, zie [ Frame.io integratieoverzicht ](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/frame-int-overview.md).
 
-## Toegangsvereisten
 
-+++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
+<!--## Access requirements
+
++++ Expand to view access requirements for the functionality in this article.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -35,28 +34,28 @@ Door Workfront-documenten te reviseren met de Frame.io-viewer kunt u opmerkingen
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-pakket</td> 
-   <td> <p> Alle</p> </td> 
+   <td role="rowheader">Adobe Workfront package</td> 
+   <td> <p> Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licenties*</td> 
-   <td> <p>Aanvraag of hoger</p>
-   <p>Medewerker of hoger</p> </td> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> <p>Request or higher</p>
+   <p>Contributor or higher</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Configuraties op toegangsniveau</td> 
-   <td> <p>Toegang tot documenten bewerken</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>Edit access to Documents</p>  </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Toegang tot het aan het document gekoppelde object bewerken</p> <p>Voor informatie bij het verzoeken van extra toegang, zie <a href="/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/grant-and-request-access-to-objects.md" class="MCXref xref"> Toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>Edit access to the object associated with the document</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-+++
++++ -->
 
 ## Een document reviseren
 
@@ -71,7 +70,7 @@ Ga de homepage van Workfront, vind Mijn widget Goedkeuringen, dan klik **Open ov
    >Mogelijk moet u de widget Mijn goedkeuringen toevoegen aan uw startpagina. Voor meer informatie, zie [ toevoegen, geef, of verwijder widgets in Huis ](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md) uit.
 
 1. Gebruik in Frame.io de gereedschappen voor opmerkingen om feedback te geven of vragen te stellen.
-Opmerkingen en elementmarkeringen zijn alleen zichtbaar in de viewer Frame.io. Voor meer informatie bij het gebruiken van de kijker Frame.io, zie [ Commentaar op uw media ](https://help.frame.io/en/articles/9105251-commenting-on-your-media).
+Opmerkingen en elementmarkeringen zijn alleen zichtbaar in de viewer Frame.io. Opmerkingen worden niet weergegeven in Workfront. Voor meer informatie bij het gebruiken van de kijker Frame.io, zie [ Commentaar op uw media ](https://help.frame.io/en/articles/9105251-commenting-on-your-media).
 1. Als u tevreden bent met het document, navigeert u terug naar de pagina Documentdetails in Workfront en markeert u de revisie als voltooid.
 
    ![ volledige overzicht van het Teken ](assets/mark-review-complete.png)
@@ -93,8 +92,7 @@ Ga de homepage van Workfront, vind Mijn widget Goedkeuringen, dan klik **Open ov
    >Mogelijk moet u de widget Mijn goedkeuringen toevoegen aan uw startpagina. Voor meer informatie, zie [ toevoegen, geef, of verwijder widgets in Huis ](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md) uit.
 
 
-1. Gebruik in Frame.io de gereedschappen voor opmerkingen om feedback te geven of vragen te stellen.
-Opmerkingen en elementmarkeringen zijn alleen zichtbaar in de viewer Frame.io. Voor meer informatie bij het gebruiken van de kijker Frame.io, zie [ Commentaar op uw media ](https://help.frame.io/en/articles/9105251-commenting-on-your-media).
+1. Gebruik in Frame.io de gereedschappen voor opmerkingen om feedback te geven of vragen te stellen. Opmerkingen en elementmarkeringen zijn alleen zichtbaar in de viewer Frame.io. Voor meer informatie bij het gebruiken van de kijker Frame.io, zie [ Commentaar op uw media ](https://help.frame.io/en/articles/9105251-commenting-on-your-media).
 1. Als u tevreden bent met het document, kunt u een van de volgende beslissingen kiezen in de viewer Frame.io:
 
    * **keur** goed: De activa hebben geen veranderingen nodig en is klaar voor gebruik.
@@ -109,4 +107,3 @@ Opmerkingen en elementmarkeringen zijn alleen zichtbaar in de viewer Frame.io. V
 
 
 <!--is document owner the correct term?-->
-
