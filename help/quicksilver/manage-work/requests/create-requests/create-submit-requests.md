@@ -6,9 +6,9 @@ description: Geplande werkzaamheden worden in Adobe Workfront vertegenwoordigd d
 author: Alina
 feature: Work Management
 exl-id: 8b023a3d-326d-4d63-9e1e-8171553a9e23
-source-git-commit: 2c2ccbadd6470773808bbd5a205310fbb1e1944e
+source-git-commit: 71149623643b1f08b88fdf8f5aaeb5d9b284d53f
 workflow-type: tm+mt
-source-wordcount: '2856'
+source-wordcount: '2840'
 ht-degree: 0%
 
 ---
@@ -147,13 +147,13 @@ Een aanvraag maken in de Workfront-webapp:
 
    Het **Nieuwe verzoek** vakje opent.
 
-1. (Voorwaardelijk) als u aan de nieuwe ervaring schakelde die de Planning van Workfront omvat, en in het productiemilieu is, **Nieuwe verzoek** doos toont het volgende:</span>
+1. (Voorwaardelijk) als u aan de nieuwe ervaring schakelde, en in het productiemilieu, **Nieuwe verzoek** doos is toont het volgende:</span>
 
    <ul><li>De 6 laatst geopende Workfront aanvraagrijen en de aanvraagformulieren voor planning worden weergegeven in de sectie Recent. </li>
     <li>Alle extra Workfront en planningsverzoekvormen <b> Alle verzoekvormen </b> sectie. U kunt zoeken naar aanvraagformulieren die niet standaard worden weergegeven. </li>
     <li>Alle extra Workfront en van de Planning de wegen van de verzoekrij tonen in <b> Alle verzoekwegen </b> sectie. U kunt zoeken naar een aanvraagwachtrij die niet standaard wordt weergegeven.</li></ul>
    Klik op een van de paden of formulieren in de Workfront-aanvraagwachtrij of zoek naar een pad en klik vervolgens op het pad wanneer het in de lijst wordt weergegeven.
-1. <span class="preview"> (Voorwaardelijk) Als u naar de nieuwe ervaring schakelt die de Planning van Workfront omvat, selecteer één van de de verzoekrijwegen of vormen van Workfront, of klik de onderzoeksbar. </span>
+1. <span class="preview"> (Voorwaardelijk) Als u overschakelt naar de nieuwe ervaring, selecteert u een van de paden of formulieren in de wachtrij voor Workfront-aanvragen of klikt u op de zoekbalk. </span>
 
    <span class="preview"> wanneer u de onderzoeksbar klikt, verschijnt een dropdown tonend de onlangs gebruikte rijen en vormen eerst. Selecteer een optie in de lijst of typ de wachtrij of de lijst wanneer deze wordt weergegeven.</span>
 
@@ -165,7 +165,7 @@ Een aanvraag maken in de Workfront-webapp:
    >* <span class="preview"> om slechts de rijen van het Verzoek van Workfront te tonen, filter voor `Issue` objecten types.</span>
    >* <span class="preview"> in de nieuwe het vragen ervaring, worden de ontwerpen gevonden in de zelfde lijst zoals voorgelegde verzoeken.</span>
 
-1. (Voorwaardelijk) als u op de nieuwe ervaring schakelde die de Planning van Workfront omvat, uw onderwerpgroepen en rijonderwerpen selecteert en blijft het formulier bijwerken.
+1. (Voorwaardelijk) als u op de nieuwe ervaring schakelde, uw onderwerpgroepen en rijonderwerpen selecteert en blijft het formulier bijwerken.
 
    Anders, klik binnen het **gebied van het Type van Verzoek** en doe één van het volgende:
 
@@ -348,7 +348,7 @@ Een aanvraag maken in de Workfront-webapp:
 
    Wanneer u het verzoek indient, wordt het concept automatisch verwijderd en kan het niet worden hersteld.
 
-   Voorgelegde verzoeken worden vermeld in de **Voorgelegde** sectie van het gebied van Verzoeken. Als u de nieuwe ervaring gebruikt die de Planning van Workfront omvat, voorlegde Workfront verzoekenvertoning in het **Workfront** lusje van het gebied van Verzoeken.
+   Voorgelegde verzoeken worden vermeld in de **Voorgelegde** sectie van het gebied van Verzoeken. Als u de nieuwe ervaring gebruikt, voorlegde Workfront verzoeken vertoning op het **Workfront** lusje van het gebied van Verzoeken.
 
    Voor informatie over het richten van inkomende verzoeken, zie het artikel [ werk en teamverzoeken ](../../../people-teams-and-groups/work-with-team-requests/manage-work-and-team-requests.md) leiden.
 
