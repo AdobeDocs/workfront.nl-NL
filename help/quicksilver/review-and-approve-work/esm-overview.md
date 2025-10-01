@@ -38,4 +38,4 @@ Hierdoor wordt ook de weg vrijgemaakt voor toekomstige integratie van vermogensb
 
 De integratie van Workfront en Frame.io maakt gebruik van Adobe Enterprise Storage om een uniforme evaluatie- en goedkeuringservaring te bieden. Dankzij deze integratie kunnen projectcoördinatoren projecten beheren en werken plannen in Workfront, terwijl creatieve personen, marketers en belanghebbenden hun middelen in Frame.io kunnen beoordelen en goedkeuren. Dit zorgt ervoor dat alle belanghebbenden toegang hebben tot de meest recente versies van middelen en feedback op één locatie wordt gecentraliseerd.
 
-Voor meer informatie over de integratie Workfront en Frame.io, zie [ Frame.io integratieoverzicht ](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/frame-int-overview.md).
+Voor meer informatie over de integratie Workfront en Frame.io, zie [&#x200B; Frame.io integratieoverzicht &#x200B;](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/frame-int-overview.md).

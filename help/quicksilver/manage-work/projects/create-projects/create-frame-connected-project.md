@@ -23,7 +23,7 @@ Wanneer een Workfront-project is verbonden met Frame.io, kunt u
 
 * **wijs Gebruikers Frame.io aan taken** toe: De toegelaten gebruikers Frame.io worden op de hoogte gebracht per e-mail wanneer zij aan een taak van Workfront worden toegewezen, signalerend daar werk is te voltooien.
 * **Deel het project met Gebruikers Frame.io**: Wanneer een project met toegelaten gebruikers wordt gedeeld Frame.io, hebben zij toegang tot het project binnen zowel Workfront als Frame.io.
-* **Aandeel creatieve materialen met Frame.io**: De coördinatoren van het project kunnen instructies en materialen van Workfront rechtstreeks naar de creatieve gebruiker in Frame.io verzenden gebruikend een unidirectionele projectomslag van de synchronisatieproject. [!BADGE  Binnenkort ]{type=Informative}
+* **Aandeel creatieve materialen met Frame.io**: De coördinatoren van het project kunnen instructies en materialen van Workfront rechtstreeks naar de creatieve gebruiker in Frame.io verzenden gebruikend een unidirectionele projectomslag van de synchronisatieproject. [!BADGE &#x200B; Binnenkort &#x200B;]{type=Informative}
 * **de taakvooruitgang van het Spoor**: De Creatieven kunnen gebeëindigd activa verzenden en taken volledig-allen merken zonder Frame.io te verlaten.
 
 ## Toegangsvereisten
@@ -59,7 +59,7 @@ U moet het volgende hebben:
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -94,7 +94,7 @@ Als u verkiest om het project van kras tot stand te brengen, voegt Workfront aut
 
 Ga door naar de volgende sectie.
 
-![ de groep van het Malplaatje ](assets/template-group.png)
+![&#x200B; de groep van het Malplaatje &#x200B;](assets/template-group.png)
 
 ### Taken toevoegen en gebruikers toewijzen die geschikt zijn voor Frame.io
 
@@ -104,7 +104,7 @@ Ga door naar de volgende sectie.
    of
 
    Klik **Nieuwe Taak van het Malplaatje** om één taak tegelijkertijd toe te voegen en extra montages te vormen.
-   ![ voegt taken aan malplaatje ](assets/add-tasks-to-template.png) toe
+   ![&#x200B; voegt taken aan malplaatje &#x200B;](assets/add-tasks-to-template.png) toe
 1. Voeg een taaknaam toe.
 1. In het **gebied van Taken**, wijs gebruikers of teams toe. Als u een Frame.io toegelaten gebruiker, of individueel of in een team toewijst, worden zij samenwerkingstoegang tot het Frame.io- project verleend en over de taak in het Frame.io- project via e-mail op de hoogte gebracht. Van die e-mail, kunnen zij zich bij het project Frame.io aansluiten en beginnen met werken.
 1. Herhaal stap 1 en 2 zo nodig.
@@ -113,7 +113,7 @@ Ga door naar de volgende sectie.
 
 ### Aanvullende sjabloondetails configureren
 
-Workfront beschikt over robuuste mogelijkheden voor projectbeheer. Wij adviseren gebruikend [ projectmalplaatjes ](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-templates.md) artikel uitgeven om de volgende gebieden van het malplaatje te vormen:
+Workfront beschikt over robuuste mogelijkheden voor projectbeheer. Wij adviseren gebruikend [&#x200B; projectmalplaatjes &#x200B;](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-templates.md) artikel uitgeven om de volgende gebieden van het malplaatje te vormen:
 
 * Overzicht
 * Financiën
@@ -132,10 +132,10 @@ Nadat u een sjabloon hebt gemaakt, kunt u dit gebruiken om projecten te maken.
 1. Klik **Nieuw Project van Malplaatje**.
 1. Typ in het zoekvak de naam van de gewenste sjabloon.
 1. Selecteer de malplaatjenaam, dan klik **malplaatje van het Gebruik**.
-   ![ vind uw malplaatje ](assets/find-your-template.png)
+   ![&#x200B; vind uw malplaatje &#x200B;](assets/find-your-template.png)
 1. Pas om het even welke projectmontages aan zoals nodig, dan klik **creeer project**.
 1. In het linkerpaneel, klik **Documenten**.
-1. Gebruik de one-way sync map om creatieve materialen automatisch te delen met Frame.io. [!BADGE  Binnenkort ]{type=Informative}
+1. Gebruik de one-way sync map om creatieve materialen automatisch te delen met Frame.io. [!BADGE &#x200B; Binnenkort &#x200B;]{type=Informative}
 
    >[!NOTE]
    >
@@ -143,7 +143,7 @@ Nadat u een sjabloon hebt gemaakt, kunt u dit gebruiken om projecten te maken.
 
 1. In de projectheader, verander het project van **Planning** aan **Huidige**.
 
-Nadat het project is gemaakt en ontwerpers voltooide middelen uploaden, kunt u een revisie- en goedkeuringswerkstroom toewijzen aan het element in Workfront. Voor meer informatie, zie [ een documentoverzicht of goedkeuringsverzoek ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md) creëren. <!-- name may need to change -->
+Nadat het project is gemaakt en ontwerpers voltooide middelen uploaden, kunt u een revisie- en goedkeuringswerkstroom toewijzen aan het element in Workfront. Voor meer informatie, zie [&#x200B; een documentoverzicht of goedkeuringsverzoek &#x200B;](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md) creëren. <!-- name may need to change -->
 
 ## Een geheel nieuw project maken
 
@@ -175,7 +175,7 @@ Ga door naar de volgende sectie.
    of
 
    Klik **Nieuwe Taak** om één taak tegelijkertijd toe te voegen en extra montages te vormen.
-   ![ Nieuwe taak ](assets/add-project-tasks.png)
+   ![&#x200B; Nieuwe taak &#x200B;](assets/add-project-tasks.png)
 1. Voeg een taaknaam toe.
 1. In het **gebied van Taken**, wijs gebruikers of teams toe. Als u een Frame.io toegelaten gebruiker, of individueel of in een team toewijst, worden zij samenwerkingstoegang tot het Frame.io- project verleend en over de taak in het Frame.io- project via e-mail op de hoogte gebracht. Van die e-mail, kunnen zij zich bij het project Frame.io aansluiten en beginnen met werken.
 1. Herhaal stap 1 en 2 zo nodig.
@@ -185,7 +185,7 @@ Ga door naar de volgende sectie.
 ### Creatieve materialen uploaden
 
 1. In het linkerpaneel, klik **Documenten**.
-1. Gebruik de one-way sync map om creatieve materialen automatisch te delen met Frame.io. [!BADGE  Binnenkort ]{type=Informative}
+1. Gebruik de one-way sync map om creatieve materialen automatisch te delen met Frame.io. [!BADGE &#x200B; Binnenkort &#x200B;]{type=Informative}
 
    >[!NOTE]
    >
@@ -195,7 +195,7 @@ Ga door naar de volgende sectie.
 
 ### Aanvullende projectdetails configureren
 
-Workfront beschikt over robuuste mogelijkheden voor projectbeheer. Wij adviseren gebruikend [ projecten ](/help/quicksilver/manage-work/projects/manage-projects/edit-projects.md) artikel uitgeven om de volgende gebieden van het project te vormen:
+Workfront beschikt over robuuste mogelijkheden voor projectbeheer. Wij adviseren gebruikend [&#x200B; projecten &#x200B;](/help/quicksilver/manage-work/projects/manage-projects/edit-projects.md) artikel uitgeven om de volgende gebieden van het project te vormen:
 
 * Overzicht
 * Financiën
@@ -212,4 +212,4 @@ Nadat het project is gemaakt en ontwerpers voltooide middelen uploaden, kunt u e
 
 Nadat het project is gemaakt en ontwerpers voltooide middelen uploaden, kunt u een revisie- en goedkeuringswerkstroom toewijzen aan het element in Workfront.
 
-Voor meer informatie, zie [ een documentoverzicht of goedkeuringsverzoek ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md) creëren. <!-- name may need to change -->
+Voor meer informatie, zie [&#x200B; een documentoverzicht of goedkeuringsverzoek &#x200B;](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md) creëren. <!-- name may need to change -->
