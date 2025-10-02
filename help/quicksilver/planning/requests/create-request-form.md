@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 359131cef04fdb46def64428a7a693c3f00b2cd4
+source-git-commit: de42feb0d5a349e6b4b403b790b4759f693f7f4c
 workflow-type: tm+mt
-source-wordcount: '2564'
+source-wordcount: '3134'
 ht-degree: 0%
 
 ---
@@ -137,9 +137,13 @@ Voor informatie over het voorleggen van de verzoeken van de Planning van Workfro
 
 ## Een aanvraagformulier maken
 
+Als u een aanvraagformulier wilt maken, moet u beginnen met het maken van het formulier, de formulierdetails instellen en eindigen door het formulier te publiceren en te delen.
+
+### Een aanvraagformulier maken
+
 U kunt een verzoekvorm van het verslagtype tot stand brengen verbonden aan de vorm, <span class="preview"> of van het gebied van Verzoeken van Workfront.</span>
 
-### Een aanvraagformulier maken van een recordtype
+#### Een aanvraagformulier maken van een recordtype
 
 {{step1-to-planning}}
 
@@ -168,7 +172,7 @@ U kunt een verzoekvorm van het verslagtype tot stand brengen verbonden aan de vo
 
 <div class="preview">
 
-### Een aanvraagformulier maken op het gebied Aanvragen van Workfront
+#### Een aanvraagformulier maken op het gebied Aanvragen van Workfront
 
 1. Klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, of (als beschikbaar), klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon-left-nav.png) in de upper-left hoek, dan klik **Verzoeken**.
 1. In de hoger-juiste hoek van het scherm, klik **vormen van het Verzoek**.
@@ -186,16 +190,21 @@ U kunt een verzoekvorm van het verslagtype tot stand brengen verbonden aan de vo
 1. Klik **creëren**.
 
    Het aanvraagformulier voor het geselecteerde recordtype wordt geopend op het tabblad Formulier.
-1. Ga aan [ verder vormen de vorm ](#configure-the-form).
+1. Ga aan [ opstellingsdetails voor de verzoekvorm ](#set-up-details-for-the-request-form) verder.
 
 </div>
 
-## Het formulier configureren
+### Details instellen voor het aanvraagformulier
 
-1. Beginnen met het maken of bewerken van een aanvraagformulier, zoals wordt beschreven in een van de volgende secties:
+Formulierdetails worden verdeeld in tabbladen.
 
-   * [Een aanvraagformulier maken van een recordtype](#create-a-request-form-from-a-record-type)
-   * <span class="preview">[ creeer een verzoekvorm van het gebied van Verzoeken van Workfront ](#create-a-request-form-from-the-requests-area-of-workfront)</span>
+* Het **lusje van de Vorm** staat u toe om gebieden en inhoudselementen aan de vorm toe te voegen
+* Het **lusje van de Configuratie** staat u toe om een goedkeuringsproces voor de vorm te plaatsen, <span class="preview"> en om de opties van de verzoekvoltooiing te plaatsen </span>.
+* <span class="preview"> het **lusje van Automatiseringen** staat u toe om te automatiseren wat zal voorkomen gebaseerd op eigenschappen van het verzoek dat met de vorm wordt gemaakt.</span>
+
+#### Formuliergegevens instellen
+
+1. Beginnen creërend of het uitgeven van een verzoekvorm, zoals die in de sectie [ wordt beschreven Begin creërend een verzoekvorm ](#begin-creating-a-request-form).
 
    Het aanvraagformulier voor het geselecteerde recordtype wordt geopend op het tabblad Formulier.
 
@@ -248,6 +257,16 @@ U kunt een verzoekvorm van het verslagtype tot stand brengen verbonden aan de vo
    Voor meer informatie over de bouw van een douaneformulier, zie [ een douaneformulier ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren.
 
 1. (Facultatief) klik **Voorproef** om te bekijken hoe de vorm voor andere gebruikers zal tonen wanneer zij het zullen gebruiken om een nieuw verslag voor te leggen.
+1. Ga aan [ de details van de Configuratie van de Opstelling ](#set-up-configuration-details) verder als u meer details voor de vorm wilt vormen, of naar [ Volledige creatie van de verzoekvorm ](#complete-request-form-creation) gaan.
+
+#### Configuratiegegevens instellen
+
+Op het lusje van de Configuratie, kunt u het goedkeuringsproces <span class="preview"> plaatsen en vormen wanneer een verzoek dat van deze vorm wordt gecreeerd zal worden duidelijk zoals Voltooid </span>.
+
+1. Beginnen creërend of het uitgeven van een verzoekvorm, zoals die in de sectie [ wordt beschreven Begin creërend een verzoekvorm ](#begin-creating-a-request-form).
+
+   Het aanvraagformulier voor het geselecteerde recordtype wordt geopend op het tabblad Formulier.
+1. (Facultatief) opstelling om het even welke vormdetails, zoals die in [ worden beschreven de details van de Vorm van de Opstelling ](#set-up-form-details).
 
 1. (Facultatief) klik het **lusje van de Configuratie**, dan voeg minstens één gebruiker <span class="preview"> of team </span> aan het **Approvers** gebied toe om nieuwe verzoeken voor deze verslagvorm goed te keuren.
 
@@ -263,6 +282,39 @@ U kunt een verzoekvorm van het verslagtype tot stand brengen verbonden aan de vo
 
      Voor meer informatie over het toevoegen van goedkeuringen aan aanvraagvormen, zie [ goedkeuring aan een verzoekvorm ](/help/quicksilver/planning/requests/add-approval-to-request-form.md) toevoegen.
 
+1. <span class="preview"> (Voorwaardelijk) als u het verslag wilt worden gecreeerd nadat om het even welke fiatteurs het heeft goedgekeurd, controleer **slechts één besluit wordt vereist** checkbox.</span>
+
+1. <span class="preview"> selecteer of u een verzoek wilt dat van deze vorm wordt gecreeerd duidelijk volledig wanneer het gevraagde voorwerp wordt gecreeerd, of wanneer het gevraagde voorwerp wordt voltooid.</span>
+1. <span class="preview"> (Voorwaardelijk) Als u ervoor hebt gekozen dat de aanvraag wordt gemarkeerd als voltooid wanneer het gewenste object is voltooid, selecteert u het veld en de waarde die aangeven wanneer het object is voltooid. U kunt bijvoorbeeld de status van het veld en de waarde Voltooien selecteren om de aanvraag te voltooien wanneer de status van het gemaakte object is ingesteld op Voltooien.</span>
+1. Ga aan [ details van de Automatisering van de Opstelling ](#set-up-configuration-details) verder als u meer details voor de vorm wilt vormen, of naar [ Volledige creatie van de verzoekvorm ](#complete-request-form-creation) gaan.
+
+<div class="preview">
+
+#### Automatisering instellen
+
+U kunt automatiseringen in de Planning van Adobe Workfront vormen die, wanneer geactiveerd, tot voorwerpen in Workfront of verslagen in de Planning van Workfront leiden wanneer teweeggebracht van een verslag van de Planning.
+
+Voor informatie bij het creëren van automatiseringen op andere gebieden van de Planning van Workfront, zie [ de automatisering van de Planning van Adobe Workfront ](/help/quicksilver/planning/records/configure-automations-to-create-records.md) vormen.
+
+1. Voor de detailspagina van de automatisering, werk de volgende gebieden in de **1} sectie van Trekkers bij {:**
+
+   * **Trekker**: Selecteer de actie die de automatisering zal teweegbrengen. Momenteel is `When request object status equals pending creation` de enige beschikbare trigger voor de automatisering van aanvraagformulieren.
+
+1. Werk de volgende gebieden in de **sectie van Acties** bij: <!--submitted bugs for these fields - see if they need changing here-->
+   * **Acties**: Selecteer de actie die u Workfront wilt uitvoeren wanneer het teweegbrengen van de automatisering. Dit is een verplicht veld.
+Momenteel is `Create record` de enige beschikbare Actie voor aanvraagformulierautomatisering.
+
+     >[!TIP]
+     >
+     >Nadat u de automatisering hebt opgeslagen, kunt u de geselecteerde actie in dit veld niet meer wijzigen.
+1. Ga aan [ Volledige creatie van de verzoekvorm ](#complete-request-form-creation) verder.
+
+
+</div>
+
+### Volledig aanvraagformulier maken
+
+1. Creeer en opstelling de vorm zoals die in [ wordt beschreven Begin creërend een verzoekvorm ](#begin-creating-a-request-form) en [ opstellingsdetails voor de verzoekvorm ](#set-up-details-for-the-request-form) wordt beschreven.
 1. (Facultatief) klik het **Meer** menu ![ Meer menu ](assets/more-menu.png) rechts van de naam van de vorm in de kopbal, dan klik **uitgeven** om de naam van de vorm bij te werken.
 
 1. Klik **publiceren** om de vorm te publiceren en een unieke verbinding voor het te verkrijgen.
@@ -280,6 +332,21 @@ U kunt een verzoekvorm van het verslagtype tot stand brengen verbonden aan de vo
 1. Klik op de pijl die naar links wijst links van de naam van het formulier in de koptekst om het formulier te sluiten.
 
    De **vorm van het Verzoek** lijstmening opent en de vorm wordt toegevoegd aan het.
+
+## Bestaande aanvraagformulieren beheren
+
+
+1. Klik op de werkruimte waar u aanvraagformulieren wilt beheren.
+
+   De werkruimte wordt geopend en de recordtypen worden als kaarten weergegeven.
+
+1. Klik op een opnametype. Voor informatie over het creëren van een verslagtype, zie [ recordtypes ](/help/quicksilver/planning/architecture/create-record-types.md) creëren.
+
+   De pagina met recordtypen wordt geopend in de weergave die u het laatst hebt geopend. Standaard wordt een pagina met recordtypen geopend in de tabelweergave.
+
+1. Klik **Meer** menu ![ Meer menu ](assets/more-menu.png) aan het recht van de naam van het verslagtype in de paginakop, dan klik **leidt verzoekvormen**.
+
+   Alle aanvraagformulieren die aan het recordtype zijn gekoppeld, worden in een tabelweergave weergegeven.
 
 1. (Facultatief) Beweeg over de naam van een verzoekvorm in de lijstmening, dan klik **Meer** menu ![ Meer menu ](assets/more-menu.png) rechts van de vormnaam, en klik één van het volgende:
 
@@ -355,4 +422,4 @@ U kunt een verzoekvorm van het verslagtype tot stand brengen verbonden aan de vo
 
    Voor informatie over het creëren van verslagen die een verbinding aan een verzoekvorm gebruiken, zie [ verzoeken van de Planning van Adobe Workfront voorleggen ](/help/quicksilver/planning/requests/submit-requests.md).
 
-1. Klik **sparen** in de laag-juiste hoek van het **3&rbrace; lusje van de Vorm &lbrace;om de vorm te bewaren.**
+1. Klik **sparen** in de laag-juiste hoek van het **3} lusje van de Vorm {om de vorm te bewaren.**

@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: df8c4926-e258-49c0-ab9d-563ccaf7a6aa
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: 793a856a963060cbade33a1c29f002cecf7f7e47
 workflow-type: tm+mt
-source-wordcount: '863'
+source-wordcount: '864'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ U kunt ook de entiteiten wijzigen waarmee u een aanvraagformulier deelt, als u h
 
 ## Toegangsvereisten
 
-+++ Vouw uit om de vereisten voor toegang weer te geven.
++++ Vouw uit om de vereisten voor toegang weer te geven. 
 
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
@@ -76,7 +76,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   <tr>
    <td role="rowheader"><p>Adobe Workfront-licentie*</p></td>
    <td>
-   <p>Standaard</p>
+   <p>Standard</p>
    <p>Workfront Planning is niet beschikbaar voor oudere Workfront-licenties</p>
   </td>
   </tr>
@@ -117,7 +117,7 @@ Zo wijzigt u het delen van een aanvraagformulier:
 
 {{step1-to-planning}}
 
-1. Klik op de werkruimte waar u records wilt toevoegen.
+1. Klik op de werkruimte waar u een formulier wilt delen.
 
    De werkruimte wordt geopend en de recordtypen worden als kaarten weergegeven.
 
