@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 4e1761f9-bf73-4355-925a-9136f2787a3f
-source-git-commit: 4146dd1d11b54155ad5510625c761d66dd649245
+source-git-commit: f75f44c3c5ea4c281c0c9fe916ea8261d3500fb0
 workflow-type: tm+mt
-source-wordcount: '2235'
+source-wordcount: '2508'
 ht-degree: 0%
 
 ---
@@ -22,15 +22,110 @@ In dit artikel worden de functies beschreven die tijdens de release van het vier
 
 Voor een lijst van alle eigenschappen die voor de Planning van Adobe Workfront worden vrijgegeven, zie [ de versieactiviteit van de Planning van Adobe Workfront: artikelindex ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
-## Workfront-verbindingen inline bewerken op de pagina Connected records van de record
+<!--## Centralized record types
+
+>[!NOTE]
+>
+>Preview: October 2, 2025
+>Production fast release: October 15, 2025
+>Production for everyone:  October 16, 2025
+
+When implementing Workfront Planning for a multi-team organization with common workflows, you might need to define a cohesive structure and metadata for key record types (like Campaigns or Deliverables) that can be added to each team's workspaces to capture and manage their work.  
+
+ Also, you might need each team's work to roll up to a central level.  
+
+ In such a workflow, you can ensure that teams capture their work consistently while unlocking cross-team visibility, without the need to add everything to one workspace, or everyone in the organization to every workspace. You can use centralized record types to achieve this. 
+
+You can now enable record types to be centralized and use them across multiple workspaces. Users can use the same field structure and connections that are already configured in a central workspace.  
+
+For more information, see the following articles:  
+
+* [Cross-workspace record type overview](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md) 
+
+* [Configure record type cross-workspace capabilities](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md) 
+
+* [Add existing record types from another workspace](help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md)
+
+## New limit for connection fields for one record type
+
+>[!NOTE]
+>
+>Preview: October 2, 2025
+>Production fast release: October 15, 2025
+>Production for everyone:  October 16, 2025
+
+We have introduced a limit of 30 connection fields for each record type.  
+
+If your organization currently has more than 30 connection fields for one record type, the additional connections will be inherited going forward. However, you cannot add more connection fields. For new record types, the new limit of 30 connection fields will be enforced.  
+
+For more information, see [Connected Record Types overview](/help/quicksilver/planning/architecture/connect-record-types-overview.md).-->
+
+## Verbeteringen voor het aanvragen van formulieren in Workfront Planning
+
+>[!NOTE]
+>
+>Voorbeeld: 2 oktober 2025
+>>Snelle productie: 15 oktober 2025
+>>Productie voor iedereen: 16 oktober 2025
+
+Om het aanvraagproces eenvoudiger te maken, hebben we een aantal verbeteringen aangebracht in het aanvragen van formulieren. Nu, wanneer het vormen van een verzoekvorm, kunt u het volgende vormen:
+
+* Schakel een optie in om slechts één beslissing toe te staan wanneer een verzoek meerdere fiatteurs heeft.
+* Configureer wanneer aanvragen die zijn gemaakt van het formulier, automatisch als voltooid worden gemarkeerd. U kunt de aanvraag zo instellen dat deze als voltooid wordt gemarkeerd wanneer het gewenste object wordt gemaakt of wanneer het gewenste object is voltooid op basis van criteria die u opgeeft.
+* Stel een automatisering in die wordt geactiveerd wanneer een aanvraag vanuit het formulier wordt verzonden. Momenteel kunt u automatisch records maken wanneer het verzoek wordt verzonden.
+
+Voor meer informatie bij het creëren van een verzoekvorm en het vormen van deze opties, zie [ creeer en beheer een verzoekvorm in de Planning van Adobe Workfront ](/help/quicksilver/planning/requests/create-request-form.md).
+
+## Functionaliteit voor slepen en neerzetten in de tijdlijn- en kalenderweergave
+
+>[!NOTE]
+>
+>Voorbeeld: 2 oktober 2025
+>>Snelle productie: 15 oktober 2025
+>>Productie voor iedereen: 16 oktober 2025
+
+
+U kunt nu records slepen en neerzetten in de tijdlijn- en de kalenderweergave. Als u de records in een ander tijdframe sleept, worden de begin- en einddatums automatisch bijgewerkt.
+
+Voor informatie, zie [ verslagen ](/help/quicksilver/planning/records/edit-records.md) uitgeven.
+
+## Opmerkingen over verzoeken in Workfront-planning
+
+>[!NOTE]
+>
+>Voorbeeld: 2 oktober 2025
+>>Snelle productie: 15 oktober 2025
+>>Productie voor iedereen: 16 oktober 2025
+
+Om communicatie bij verzoeken gemakkelijker te maken die in de Planning van Workfront worden gemaakt, hebben wij een gebied van Commentaren aan de pagina van de Details van het Verzoek toegevoegd. Dit is bijvoorbeeld handig als de persoon aan wie het verzoek is toegewezen, vragen heeft voor de persoon die het verzoek heeft ingediend.
+
+Eerder was commentaar op verzoeken niet beschikbaar in Workfront Planning.
+
+Voor meer informatie bij het doen van verzoeken, met inbegrip van het becommentariëren, zie [ Voorleggen Adobe Workfront planningsverzoeken om verslagen ](/help/quicksilver/planning/requests/submit-requests.md) tot stand te brengen.
+
+<!--## Approve a Workfront Planning request in the My Approvals widget
+
+>[!NOTE]
+>
+>Preview: October 2, 2025
+>Production fast release: October 15, 2025
+>Production for everyone:  October 16, 2025
+
+To make it easier to approve Workfront Planning requests, we've added them to the My Approvals widget in Home. Now, you can approve or reject these requests directly from the widget, allowing you to manage these approvals without leaving Home.
+
+Previously, Workfront approvals could be managed only within Workfront Planning.
+
+For more information on approving requests, see [Approve a request in Adobe Workfront Planning](/help/quicksilver/planning/requests/approve-request.md).-->
+
+## Workfront-projecten inline bewerken op de pagina Verbonden records van de record
 
 >[!NOTE]
 >
 >Voorbeeld: 25 september 2025
->&#x200B;>Snelle productie: 15 oktober 2025
->&#x200B;>Alle productie: 16 oktober 2025
+>>Snelle productie: 15 oktober 2025
+>>Alle productie: 16 oktober 2025
 
-U kunt nu met Workfront verbonden objecten inline bewerken op de pagina Verbonden records. U kunt ook de volgorde van de verbonden objecten wijzigen, rijen kopiëren en plakken en andere functies van een tabelweergave.
+U kunt met Workfront verbonden projecten nu inline bewerken op de pagina Verbonden records. U kunt projecten zonder een malplaatje van de verbonden verslagenpagina ook tot stand brengen.
 
 Voor informatie, zie [ de verslagpagina ](/help/quicksilver/planning/records/manage-the-record-page.md) leiden.
 
@@ -146,8 +241,8 @@ Voor informatie, zie [ overzicht van de gebieden van de Formule ](/help/quicksil
 >[!NOTE]
 >
 >Voorbeeld: 11 september 2025
->&#x200B;>Productie voor alle afnemers: 11 september 2025
->&#x200B;>[!BADGE Uit schema &#x200B;]{type=Neutral}
+>>Productie voor alle afnemers: 11 september 2025
+>>[!BADGE Uit schema ]{type=Neutral}
 
 Als uw organisatie zowel de Planning van Adobe Workfront als Adobe GenStudio for Performance Marketing gebruikt, zou u marketing concepten zoals Campagnes, Producten, en Personas meer in detail kunnen willen bepalen dan wat GenStudio door gebrek steunt.
 
@@ -312,8 +407,8 @@ Voor informatie, zie [ overzicht van de gebieden van de Formule ](/help/quicksil
 >[!NOTE]
 >
 >Voorbeeld: 7 augustus 2025
->&#x200B;>Productie voor alle afnemers: augustus 2025
->&#x200B;>[!BADGE Uit schema &#x200B;]{type=Neutral}
+>>Productie voor alle afnemers: augustus 2025
+>>[!BADGE Uit schema ]{type=Neutral}
 
 We hebben nieuwe expressies toegevoegd met het volgende gebruik voor formuleringsvelden in Workfront Planning en voor berekende aangepaste velden in Workfront:
 
@@ -328,8 +423,8 @@ Voor meer informatie, zie [ Overzicht van berekende gegevensuitdrukkingen ](/hel
 >[!NOTE]
 >
 >Voorbeeld: 31 juli 2025
->&#x200B;>Productie voor alle afnemers: 31 juli 2025
->&#x200B;>[!BADGE Uit schema &#x200B;]{type=Neutral}
+>>Productie voor alle afnemers: 31 juli 2025
+>>[!BADGE Uit schema ]{type=Neutral}
 
 Er is een knop Maximaliseren toegevoegd om het veld Formule te vergroten wanneer u het veld maakt of bewerkt in een recordtabelweergave. Bovendien hebben we een knop Minimaliseren toegevoegd in het nieuwe vergrote venster om terug te keren naar het vak voor het maken van velden.
 
@@ -378,8 +473,8 @@ For more information on creating requests see:
 >[!NOTE]
 >
 >Voorbeeld: 24 juli 2025
->&#x200B;>Snelle productie: 14 augustus 2025
->&#x200B;>Productie voor alle afnemers: 16 oktober 2025
+>>Snelle productie: 14 augustus 2025
+>>Productie voor alle afnemers: 16 oktober 2025
 
 U kunt nu records van een recordtype maken in de tijdlijnweergave door ergens op de tijdlijn te dubbelklikken.
 
@@ -394,8 +489,8 @@ Voor informatie, zie [ verslagen ](/help/quicksilver/planning/records/create-rec
 >[!NOTE]
 >
 >Voorbeeld: 24 juli 2025
->&#x200B;>Snelle productie: 14 augustus 2025
->&#x200B;>Productie voor alle afnemers: 16 oktober 2025
+>>Snelle productie: 14 augustus 2025
+>>Productie voor alle afnemers: 16 oktober 2025
 
 U kunt nu een recordtype delen via het menu Meer van de kaart met recordtypen op de pagina Werkruimte. Vóór deze verbetering, was de optie van het Aandeel beschikbaar slechts binnen de verslagtype pagina.
 
@@ -406,8 +501,8 @@ Voor informatie, zie [ recordtypes van het Aandeel ](/help/quicksilver/planning/
 >[!NOTE]
 >
 >Voorbeeld: 24 juli 2025
->&#x200B;>Snelle productie: 14 augustus 2025
->&#x200B;>Productie voor alle afnemers: 16 oktober 2025
+>>Snelle productie: 14 augustus 2025
+>>Productie voor alle afnemers: 16 oktober 2025
 
 U kunt nu alle Workfront-planningsweergaven (tabel, tijdlijn en kalender) op een volledig scherm weergeven. De weergavefunctionaliteit blijft behouden en u kunt de weergave ook wijzigen op volledig scherm.
 
@@ -420,8 +515,8 @@ Voor informatie, zie [ verslagmeningen ](/help/quicksilver/planning/views/manage
 >[!NOTE]
 >
 >Voorbeeld: 22 juli 2025
->&#x200B;>Productie voor snelle release: 14 augustus 2025
->&#x200B;>Productie voor alle afnemers: 16 oktober 2025
+>>Productie voor snelle release: 14 augustus 2025
+>>Productie voor alle afnemers: 16 oktober 2025
 
 Om het goedkeuringsproces flexibeler te maken, hebben wij de capaciteit toegevoegd om teams als fiatteurs op de aanvraagformulieren van de Planning toe te voegen. Nu kunt u teamnamen invoeren en selecteren wanneer u fiatteurs instelt. Om het even welke teamleden kunnen een besluit nemen, dat als goedkeuringsbesluit voor het volledige team telt.
 
@@ -434,8 +529,8 @@ Voor meer informatie, zie [ een goedkeuring aan een verzoekvorm in de Planning v
 >[!NOTE]
 >
 >Voorbeeld: 17 juli 2025
->&#x200B;>Productie voor snelle release: 14 augustus 2025
->&#x200B;>Productie voor alle afnemers: 16 oktober 2025
+>>Productie voor snelle release: 14 augustus 2025
+>>Productie voor alle afnemers: 16 oktober 2025
 
 Wij introduceren de volgende gebieden om goedkeuringsinformatie voor verslagen te vangen die door een verzoek met een goedkeuring wordt gecreeerd voor te leggen:
 
@@ -449,8 +544,8 @@ Voor informatie, zie [ gebieden ](/help/quicksilver/planning/fields/create-field
 >[!NOTE]
 >
 >Voorbeeld: 10 juli 2025
->&#x200B;>Snelle productie: 14 augustus 2025
->&#x200B;>Productie voor alle afnemers: 16 oktober 2025
+>>Snelle productie: 14 augustus 2025
+>>Productie voor alle afnemers: 16 oktober 2025
 
 
 Als u nu groepen hebt toegepast op een tabelweergave, wordt automatisch ingevuld wanneer u een record aan de tabel toevoegt, welke velden zijn gekoppeld aan de groepen waaraan u de record toevoegt.

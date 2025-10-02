@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 681d83661aff2c0484521ee11c8899dca14e65ed
+source-git-commit: f75f44c3c5ea4c281c0c9fe916ea8261d3500fb0
 workflow-type: tm+mt
-source-wordcount: '8031'
+source-wordcount: '8402'
 ht-degree: 0%
 
 ---
@@ -24,19 +24,39 @@ Voor alle andere veranderingen in Adobe Workfront, zie {de versies van het 0} Pr
 
 ## Beheer en installatie
 
-<!--### Interface updates when adding or editing group timesheet profiles
+### Nieuwe interface en functionaliteit voor de vakken Nieuw en Bewerken van milestone Path
 
-**Preview release: September 25, 2025; Production release: October 2, 2025**
+**de versie van de Voorproef: 2 Oktober, 2025; De versie van de Productie: Beginnend de week van 9 Oktober, 2025**
 
-We have updated the look and feel of the Timesheet Profile page when editing or adding a group timesheet profile.
+De vakken Nieuw pad en Bewerken van milestone-pad hebben nu een nieuwe interface. De lijst met mijlpaden heeft een nieuw uiterlijk en bepaalde functionaliteit op dit gebied kan zijn gewijzigd.
 
-To view these changes, go to Setup > Groups > select a group name > Timesheet Profiles and either add a new profile, or edit an existing one.
+Voor informatie, zie [ een milestone weg ](/help/quicksilver/administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md) creëren.
 
-For more information, see [Create, edit, and assign timesheet profiles](/help/quicksilver/timesheets/create-and-manage-timesheets/create-timesheet-profiles.md). -->
+### Interface-updates bij het toevoegen of bewerken van groepstijdlijnprofielen
+
+**de versie van de Voorproef: 30 September, 2025; De versie van de Productie: Beginnend de week van 2 Oktober, 2025**
+
+We hebben de vormgeving van de pagina Tijdlijnprofiel bijgewerkt tijdens het bewerken of toevoegen van een groepstijdlijnprofiel.
+
+Als u deze wijzigingen wilt weergeven, gaat u naar Instellen > Groepen > Een groepsnaam > Tijdbladprofielen selecteren en voegt u een nieuw profiel toe of bewerkt u een bestaand profiel.
+
+Voor meer informatie, zie [ creeer, geef uit, en wijs timesheet profielen ](/help/quicksilver/timesheets/create-and-manage-timesheets/create-timesheet-profiles.md) toe.
+
+
+### Interface-updates voor de statuslijsten
+
+**de versie van de Voorproef: 2 Oktober, 2025; De versie van de Productie: 9 Oktober, 2025**
+
+We hebben de vormgeving van statuslijsten aangepast aan het ontwerp in andere onderdelen van de toepassing.
+
+Deze update heeft invloed op:
+
+* Het gedeelte Statussen onder Instellen > Projectvoorkeuren
+* De statussen zijn van toepassing wanneer een groep wordt weergegeven
 
 ### Interface-updates voor het gebied Ernsten in Setup
 
-**de versie van de Voorproef: 25 September, 2025; De versie van de Productie: 2 Oktober, 2025**
+**de versie van de Voorproef: 25 September, 2025; De versie van de Productie: 9 Oktober, 2025**
 
 We hebben de pagina Severities bijgewerkt met een modern ontwerp dat aansluit bij andere gebieden van Workfront.
 
@@ -48,7 +68,7 @@ Voor meer informatie, zie [ creeer of pas de controles van de kwestie ](/help/qu
 
 ### Interface-updates voor het gebied Prioriteiten in Setup
 
-**de versie van de Voorproef: 25 September, 2025; De versie van de Productie: 2 Oktober, 2025**
+**de versie van de Voorproef: 25 September, 2025; De versie van de Productie: 9 Oktober, 2025**
 
 We hebben de pagina Prioriteiten bijgewerkt met een modernere opzet die aansluit bij andere gebieden van Workfront.
 
@@ -208,6 +228,38 @@ Voor informatie, zie [ programma&#39;s ](/help/quicksilver/manage-work/portfolio
 
 ## Projecten
 
+### Interface-updates voor factureringstarieven
+
+**de versie van de Voorproef: 2 Oktober, 2025; De versie van de Productie: Beginnend de week van 9 Oktober, 2025**
+
+Wij hebben de blik en het gevoel van de Pagina van de Tarieven van de Facturering op een project bijgewerkt om andere gebieden van de toepassing aan te passen. De dialoogvensters voor het toevoegen en bewerken van factureringssnelheden zijn ook bijgewerkt.
+
+Ga naar een project > Factureringssnelheden om deze wijziging weer te geven.
+
+Voor informatie, zie [ de FactureringsTarieven van de Rol van de Opheffing van de Baan op het projectniveau ](/help/quicksilver/manage-work/projects/project-finances/override-job-role-billing-rates-at-the-project-level.md).
+
+### De updates van de interface voor een projectlijst of rapport wanneer het toepassen van de mening van de Mijlpaal
+
+**de versie van de Voorproef: 2 Oktober, 2025; De versie van de Productie: Beginnend de week van 9 Oktober, 2025**
+
+Wij hebben de blik en het gevoel van een projectlijst of een rapport bijgewerkt wanneer u de mening van de Mijlpaal op hen toepast.
+
+De projectlijst of het rapport komt nu overeen met het ontwerp van andere gebieden van Workfront. Voor informatie, zie [ Gebruik de mening van de Mijlpaal ](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-milestone-view.md).
+
+<!--### Interface updates for the Edit Tasks box
+
+**Preview release: October 2, 2025; Production release: Starting the week of October 9, 2025**
+
+ We have updated the look and feel of the Edit Tasks box when editing tasks in bulk. The Edit Tasks box now matches the design of a single-task Edit box.   
+
+The following changes are included in this update: 
+
+*There is a new experience for assigning resources to tasks, when editing a single task and when editing tasks in bulk.  
+
+*The Resource Scope field has been removed from the Edit task box.  
+
+For information, see [Edit tasks](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md).-->
+
 ### Interface-update wanneer bulkbewerkingssjablonen
 
 **de versie van de Voorproef: 18 september, 2025; De versie van de productie: 25 september, 2025**
@@ -215,14 +267,6 @@ Voor informatie, zie [ programma&#39;s ](/help/quicksilver/manage-work/portfolio
 We hebben de vormgeving van het vak Sjablonen bewerken bulksgewijs bijgewerkt in een lijst met sjablonen. De organisatie van informatie over het Edit vakje van malplaatjes past nu de enig-malplaatje uitgeeft doos aan.
 
 Voor informatie, zie [ projectmalplaatjes ](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-templates.md) uitgeven.
-
-<!--### Interface updates for a project list or report when applying the Milestone view
-
-**Preview release: September 11, 2025; Production release: September 18, 2025**
-
-We have updated the look and feel of a project list or report when you apply the Milestone view to them.
-
-The project list or report now matches the design of other areas of Workfront. For information, see [Use the Milestone view](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-milestone-view.md).-->
 
 ### De veranderingen van de interface voor Converteren een taak in een project zonder een malplaatje
 
@@ -427,16 +471,15 @@ Zie voor meer informatie
 * [ creeer het Verpletteren van Regels ](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-routing-rules.md).
 
 
-
 ## Gebruikers
 
-<!--### Interface updates for the User Details page
+### Interface-updates voor de pagina Gebruikersdetails
 
-**Preview release: September 25, 2025; Production release: October 2, 2025**
+**de versie van de Voorproef: 2 Oktober, 2025; De versie van de Productie: 9 Oktober, 2025**
 
-We have updated the look and feel of the User Details page to match other areas of the application.
+De weergave van de pagina Gebruikersdetails is aangepast aan de andere onderdelen van de toepassing.
 
-You can view the updated design by going to Users, selecting a user, and clicking Details in the left panel.-->
+U kunt het bijgewerkte ontwerp weergeven door naar Gebruikers te gaan, een gebruiker te selecteren en op Details in het linkerdeelvenster te klikken.
 
 ### Interface-updates voor persoonlijke time-off
 
@@ -791,7 +834,7 @@ Voor informatie, zie [ een douanerapport ](/help/quicksilver/reports-and-dashboa
 
 ### URL&#39;s met /tile of /qstile worden niet meer ondersteund in Workfront-dashboards
 
-**de versie van de Voorproef: Mei 13; De versie van de Productie: Te aankondigen**
+**de versie van de Voorproef: Mei 13; De versie van de Productie: Begin 20 Mei, 2025**
 
 Als u een externe pagina op een dashboard hebt met een Workfront-URL die `/tile` of `/qstile` bevat, wordt die pagina niet meer geladen.
 
