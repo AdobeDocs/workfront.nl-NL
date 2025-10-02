@@ -7,18 +7,18 @@ description: Het is belangrijk om in Adobe Workfront aan te geven wanneer goedge
 author: Becky
 feature: Get Started with Workfront
 exl-id: e7710495-c418-47b1-8598-725580054fc5
-source-git-commit: e0f6078cfab1b325302dbda8a656d2a65ee0b95c
+source-git-commit: ce2f1ebe7ea97f3c25ac6a7ef33fd3c066727220
 workflow-type: tm+mt
-source-wordcount: '431'
+source-wordcount: '463'
 ht-degree: 0%
 
 ---
 
 # Persoonlijke tijd uit configureren
 
-{{highlighted-preview}}
-
 <!-- Audited: 12/2023 -->
+
+<span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Het is beschikbaar slechts in het milieu van de Sandbox van de Voorproef, en wordt vrijgegeven in gefaseerde uitrol aan Productie.</span>
 
 [!DNL Adobe Workfront] is niet ontworpen voor het repliceren of vervangen van uw bestaande systemen voor het beheren, oplopen en volgen van persoonlijke tijd uit.
 

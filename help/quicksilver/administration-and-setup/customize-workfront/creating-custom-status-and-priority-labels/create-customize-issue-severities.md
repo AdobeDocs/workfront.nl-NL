@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 0331be3c-a2d8-4788-a41a-5e971fb4bbe1
-source-git-commit: 1fa62033f83a96ea5c1036598b832dd2ebfa19c4
+source-git-commit: 7cb1eed72b0f5ce4abd83013b7a2f224dbb2c229
 workflow-type: tm+mt
 source-wordcount: '662'
 ht-degree: 0%
@@ -100,7 +100,7 @@ Als Workfront-beheerder kunt u uitgiftesetters maken en bewerken die zijn afgest
 
 {{step-1-to-setup}}
 
-1. In het linkerpaneel, klik **>** de Voorkeur van het Project **&#x200B;**.
+1. In het linkerpaneel, klik **>** de Voorkeur van het Project ****.
 
 1. Als u een nieuwe strengheid creeert, klik <span class="preview">**Nieuwe rij** bij de bodem van de lijst </span>, of **voeg een Nieuwe Ernst** toe.
 1. Vorm de volgende opties voor de nieuwe strengheid of geef hen voor bestaande uit:
@@ -134,7 +134,7 @@ Als Workfront-beheerder kunt u uitgiftesetters maken en bewerken die zijn afgest
      </div>
 
    * **Beschrijving**: Typ een beschrijving voor de strengheid om zijn functie te verklaren.
-   * <span class="preview">**Keuze van de Huid**</span> of **Verbergen**: <span class="preview"> kies **ja**</span> of selecteer de controledoos om een strengheid te verbergen die niet meer nodig is.
+   * <span class="preview">**Keuze van de Huid**</span> of **Verbergen**: <span class="preview"> Uitgezochte **ja**</span> of selecteer de controledoos om een strengheid te verbergen die niet meer nodig is.
 
      Een verborgen ernst wordt nergens in Workfront weergegeven, dus gebruikers kunnen deze optie niet kiezen voor hun uitgaven.
 
