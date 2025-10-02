@@ -7,9 +7,9 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: b5f0150b-40b5-4386-98bc-374e7ca65b74
-source-git-commit: 9825f095a7be7debb5150ca4bd50f7cf6fd12295
+source-git-commit: f8d81996846f7b719bf3e5e8aaa2ad9ba1805cff
 workflow-type: tm+mt
-source-wordcount: '736'
+source-wordcount: '751'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,20 @@ ht-degree: 0%
 # Overzicht van de integratie van Frame.io
 
 Dankzij de integratie van Workfront en Frame.io kunnen projectcoördinatoren projecten beheren en werken plannen in Workfront, terwijl creatieve personen, marketers en belanghebbenden hun middelen in Frame.io kunnen bekijken en goedkeuren.
+
+## Integratievereisten
+
+De integratie van Workfront en Frame.io moet door Adobe Professional Services zijn ingeschakeld.
+
+<!--
+* Workfront and Frame.io must be deployed to the same Identity Management system (IMS) organization.
+
+* Users can belong to only one Workfront instance within the IMS organization.
+
+* The Workfront instance must be enabled on the Adobe Unified Experience.
+
+* The integration is configured by Adobe Professional Services. 
+-->
 
 ## Gebaseerd op Adobe Enterprise Storage
 
@@ -29,7 +43,7 @@ De belangrijkste voordelen van Adobe Enterprise Storage zijn:
 * De zichtbaarheid van end-to-end elementen in Workfront en Frame.io <!--, and Creative Cloud apps -->
 * Schaalbare opslag en quotabeheer voor bedrijfsbehoeften
 
-Voor meer details, zie [&#x200B; overzicht van de ondernemingsopslag van Adobe &#x200B;](/help/quicksilver/review-and-approve-work/esm-overview.md).
+Voor meer details, zie [ overzicht van de ondernemingsopslag van Adobe ](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 ## Geïntegreerde revisie en goedkeuring
 
@@ -42,7 +56,7 @@ De integratie van Workfront en Frame.io maakt gebruik van de uniforme goedkeurin
 * AI Reviewers gebruiken om beoordelingen van naleving van merk te automatiseren
 * en meer
 
-Voor meer informatie, zie [&#x200B; Verenigde documentgoedkeuringen: artikelindex &#x200B;](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-reviews-and-approvals.md).
+Voor meer informatie, zie [ Verenigde documentgoedkeuringen: artikelindex ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-reviews-and-approvals.md).
 
 
 ### De viewer Frame.io gebruiken
@@ -54,7 +68,7 @@ De integratie verbindt ook met de kijker Frame.io. De viewer Frame.io biedt
 * Opmerkingen met tijdstempel voor videorevisies
 * Mobiele toegang voor revisies en goedkeuringen onderweg
 
-Voor meer informatie, zie [&#x200B; begonnen worden met de integratie Frame.io &#x200B;](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/get-started-with-frame-integration.md).
+Voor meer informatie, zie [ begonnen worden met de integratie Frame.io ](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/get-started-with-frame-integration.md).
 
 #### Limieten voor videorevisie
 
@@ -66,7 +80,7 @@ Deze limiet geldt niet voor Enterprise-klanten van Frame.io.
 
 #### Ondersteunde bestandstypen in de viewer Frame.io
 
-De viewer Frame.io ondersteunt alle gangbare typen video, afbeeldingen, audio, PDF en MS® Office. Voor een gedetailleerde lijst van gesteunde dossiers, zie [&#x200B; Types op Frame.io &#x200B;](https://help.frame.io/en/articles/9436564-supported-file-types-on-frame-io).
+De viewer Frame.io ondersteunt alle gangbare typen video, afbeeldingen, audio, PDF en MS® Office. Voor een gedetailleerde lijst van gesteunde dossiers, zie [ Types op Frame.io ](https://help.frame.io/en/articles/9436564-supported-file-types-on-frame-io).
 
 #### Toegang tot en licenties voor de Frame.io-viewer
 
@@ -80,7 +94,7 @@ Workfront Proofing-functionaliteit is niet beschikbaar bij deze integratie.
 
 Met de integratie van Workfront en Frame.io kunnen projectcoördinatoren Workfront gebruiken om krachtige projectbeheermogelijkheden te plannen, te volgen en te beheren.
 
-Voor meer informatie over het beheren van projecten in Workfront, zie [&#x200B; Projecten: artikelindex &#x200B;](/help/quicksilver/manage-work/projects/create-projects/create-project.md).
+Voor meer informatie over het beheren van projecten in Workfront, zie [ Projecten: artikelindex ](/help/quicksilver/manage-work/projects/create-projects/create-project.md).
 
 ### Gedwongen conventies voor structuur en naamgeving
 

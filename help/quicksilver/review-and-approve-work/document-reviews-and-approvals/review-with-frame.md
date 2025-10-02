@@ -7,9 +7,9 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 3190ad18-180e-42e5-aa10-bdad74303d3d
-source-git-commit: 9825f095a7be7debb5150ca4bd50f7cf6fd12295
+source-git-commit: a3edfadc447a763c638cc926b386272890697f81
 workflow-type: tm+mt
-source-wordcount: '487'
+source-wordcount: '509'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ U kunt documenten in Workfront reviseren en goedkeuren met de viewer Frame.io.
 
 Door Workfront-documenten te reviseren met de Frame.io-viewer kunt u opmerkingen achterlaten of specifieke gedeelten van een document, afbeelding of video markeren om efficiënt met uw team samen te werken en ervoor te zorgen dat feedback duidelijk en handelbaar is.
 
-Voor meer informatie over de integratie Frame.io met Workfront, zie [&#x200B; Frame.io integratieoverzicht &#x200B;](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/frame-int-overview.md).
+Voor meer informatie over de integratie Frame.io met Workfront, zie [ Frame.io integratieoverzicht ](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/frame-int-overview.md).
 
 
 <!--## Access requirements
@@ -57,6 +57,10 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 +++ -->
 
+## Vereisten
+
+* De integratie van Workfront en Frame.io moet zijn ingesteld in uw Workfront-instantie. Voor meer informatie, zie [ Frame.io integratieoverzicht ](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/frame-int-overview.md#integration-requirements).
+
 ## Een document reviseren
 
 Als controleur kunt u opmerkingen toevoegen aan en elementen markeren. Als je klaar bent, kun je de revisie markeren als voltooid in Workfront. Het is niet nodig de revisie als voltooid te markeren om het actief in het goedkeuringsproces verder te laten gaan.
@@ -67,13 +71,13 @@ Ga de homepage van Workfront, vind Mijn widget Goedkeuringen, dan klik **Open ov
 
    >[!NOTE]
    > 
-   >Mogelijk moet u de widget Mijn goedkeuringen toevoegen aan uw startpagina. Voor meer informatie, zie [&#x200B; toevoegen, geef, of verwijder widgets in Huis &#x200B;](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md) uit.
+   >Mogelijk moet u de widget Mijn goedkeuringen toevoegen aan uw startpagina. Voor meer informatie, zie [ toevoegen, geef, of verwijder widgets in Huis ](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md) uit.
 
 1. Gebruik in Frame.io de gereedschappen voor opmerkingen om feedback te geven of vragen te stellen.
-Opmerkingen en elementmarkeringen zijn alleen zichtbaar in de viewer Frame.io. Opmerkingen worden niet weergegeven in Workfront. Voor meer informatie bij het gebruiken van de kijker Frame.io, zie [&#x200B; Commentaar op uw media &#x200B;](https://help.frame.io/en/articles/9105251-commenting-on-your-media).
+Opmerkingen en elementmarkeringen zijn alleen zichtbaar in de viewer Frame.io. Opmerkingen worden niet weergegeven in Workfront. Voor meer informatie bij het gebruiken van de kijker Frame.io, zie [ Commentaar op uw media ](https://help.frame.io/en/articles/9105251-commenting-on-your-media).
 1. Als u tevreden bent met het document, navigeert u terug naar de pagina Documentdetails in Workfront en markeert u de revisie als voltooid.
 
-   ![&#x200B; volledige overzicht van het Teken &#x200B;](assets/mark-review-complete.png)
+   ![ volledige overzicht van het Teken ](assets/mark-review-complete.png)
 
 ## Een document goedkeuren
 
@@ -89,20 +93,20 @@ Ga de homepage van Workfront, vind Mijn widget Goedkeuringen, dan klik **Open ov
 
    >[!NOTE]
    > 
-   >Mogelijk moet u de widget Mijn goedkeuringen toevoegen aan uw startpagina. Voor meer informatie, zie [&#x200B; toevoegen, geef, of verwijder widgets in Huis &#x200B;](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md) uit.
+   >Mogelijk moet u de widget Mijn goedkeuringen toevoegen aan uw startpagina. Voor meer informatie, zie [ toevoegen, geef, of verwijder widgets in Huis ](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md) uit.
 
 
-1. Gebruik in Frame.io de gereedschappen voor opmerkingen om feedback te geven of vragen te stellen. Opmerkingen en elementmarkeringen zijn alleen zichtbaar in de viewer Frame.io. Voor meer informatie bij het gebruiken van de kijker Frame.io, zie [&#x200B; Commentaar op uw media &#x200B;](https://help.frame.io/en/articles/9105251-commenting-on-your-media).
+1. Gebruik in Frame.io de gereedschappen voor opmerkingen om feedback te geven of vragen te stellen. Opmerkingen en elementmarkeringen zijn alleen zichtbaar in de viewer Frame.io. Voor meer informatie bij het gebruiken van de kijker Frame.io, zie [ Commentaar op uw media ](https://help.frame.io/en/articles/9105251-commenting-on-your-media).
 1. Als u tevreden bent met het document, kunt u een van de volgende beslissingen kiezen in de viewer Frame.io:
 
    * **keur** goed: De activa hebben geen veranderingen nodig en is klaar voor gebruik.
-   * **het werk van behoeften**: De activa vereist veranderingen en is niet klaar voor gebruik. Nadat de opgegeven wijzigingen zijn aangebracht, moet het element worden geüpload als een nieuwe versie en moet een nieuwe goedkeuringsronde worden doorlopen. Voor meer informatie, zie [&#x200B; een nieuwe documentversie uploaden en om goedkeuring &#x200B;](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/upload-new-doc-version.md) verzoeken. <!--do they need to tell someone it was uploaded via comment tagging?-->
+   * **het werk van behoeften**: De activa vereist veranderingen en is niet klaar voor gebruik. Nadat de opgegeven wijzigingen zijn aangebracht, moet het element worden geüpload als een nieuwe versie en moet een nieuwe goedkeuringsronde worden doorlopen. Voor meer informatie, zie [ een nieuwe documentversie uploaden en om goedkeuring ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/upload-new-doc-version.md) verzoeken. <!--do they need to tell someone it was uploaded via comment tagging?-->
 
    Nadat u een beslissing hebt genomen, wordt de eigenaar van het document via e-mail op de hoogte gesteld.
 
-   Voor meer informatie over besluiten in Workfront, zie [&#x200B; overzicht van de beslissingsstatus van het Document &#x200B;](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md).
+   Voor meer informatie over besluiten in Workfront, zie [ overzicht van de beslissingsstatus van het Document ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md).
 
-   ![&#x200B; de kijker en besluit van het Kader &#x200B;](assets/make-decision-frame.png)
+   ![ de kijker en besluit van het Kader ](assets/make-decision-frame.png)
 
 
 
