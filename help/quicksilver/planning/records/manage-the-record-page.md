@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 03c1f17504846fc4b8c4114ddc32df687281bc07
+source-git-commit: 5b9b1f397c76afa2e2ae550e0ce62a6038b8bd86
 workflow-type: tm+mt
-source-wordcount: '2308'
+source-wordcount: '2434'
 ht-degree: 0%
 
 ---
@@ -332,7 +332,22 @@ Alle velden van de verbonden record worden weergegeven in de tabelweergave van h
 
      Voor informatie over het uitgeven van verslagen in de lijstmening, zie [ verslagen ](/help/quicksilver/planning/records/edit-records.md) uitgeven.
 
-   * Bewerk een van de records in de tabel op de pagina Verbonden records met inline. In de productieomgeving worden alle Workfront-objecten weergegeven in een alleen-lezen tabelweergave en kunt u ze niet bewerken. <span class="preview"> u kunt de projecten van Workfront in het milieu van de Voorproef inline uitgeven.</span>
+   * Bewerk een van de records in de tabel op de pagina Verbonden records met inline.
+
+     In de productieomgeving worden alle Workfront-objecten weergegeven in een alleen-lezen tabelweergave en kunt u ze niet bewerken.
+
+     <span class="preview"> in het milieu van de Voorproef, kunt u projecten in de verbonden verslagenpagina inline uitgeven.</span>
+
+1. <span class="preview"> (Voorwaardelijk) Wanneer het bekijken van een lijst van verbonden projecten, doe om het even welke volgend:</span>
+
+   * <span class="preview"> klik **verbinden verslagen** in de hoger-juiste hoek van de verbonden verslagpagina om bestaande projecten te verbinden.</span>
+   * <span class="preview"> binnen geeft projectinformatie in de lijst uit.</span>
+   * <span class="preview"> klik **Nieuwe rij** om een project zonder een malplaatje tot stand te brengen.</span>
+
+     Voor meer informatie, zie [ de voorwerpen van Workfront van de Planning van Workfront creëren aangezien u hen met verslagen ](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md) verbindt
+   * <span class="preview"> Hover over een project en klik **Meer** menu [ Meer menu ](assets/more-menu.png), dan klik één van het volgende:</span>
+      * <span class="preview">**Schrapping** om het project te schrappen. Als u een project verwijdert, wordt de verbinding met de map verbroken en verplaatst naar de prullenbak van Workfront. </span>
+      * <span class="preview">**maak** los om het project van het verslag los te maken. Het losmaken van een project </span>
 
 1. (Optioneel) Dubbelklik op de naam van het tabblad Verbonden recordpagina
 
@@ -356,7 +371,7 @@ Alle velden van de verbonden record worden weergegeven in de tabelweergave van h
 1. (Voorwaardelijk) Als u meer records of objecten wilt verbinden, voert u een van de volgende handelingen uit:
 
    * Klik **verbinden** bij de bodem van de lijst, om verslagen of om het even welke voorwerpen van Workfront toe te voegen of te verwijderen <span class="preview"> behalve projecten.</span>
-   * <span class="preview"> in het milieu van de Voorproef, klik **verbindt verslagen** in de hoger-juiste hoek van de verbonden verslagenpagina, of **Nieuwe rij** bij de bodem van de lijst om projecten toe te voegen of te verwijderen.</span>
+   * <span class="preview"> in het milieu van de Voorproef, klik **verbindt verslagen** in de hoger-juiste hoek van de verbonden registratiepagina om bestaande projecten te verbinden of **Nieuwe rij** bij de bodem van de lijst te klikken om projecten tot stand te brengen en hen automatisch met het huidige verslag te verbinden.</span>
 
    Voor informatie, zie [ verbindt verslagen ](/help/quicksilver/planning/records/connect-records.md).
 1. (Facultatief) Hover over de naam van het Verbonden lusje van de verslagenpagina, klik **Meer** ![ Meer menu ](assets/more-menu.png), dan klik **Schrapping** om aan tabel te verwijderen.

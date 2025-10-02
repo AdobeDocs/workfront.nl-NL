@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 03c1f17504846fc4b8c4114ddc32df687281bc07
+source-git-commit: eacc6b26bd30ac7da363c6aa1d759a65a20cd9f4
 workflow-type: tm+mt
-source-wordcount: '2752'
+source-wordcount: '2764'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,12 @@ Het verbinden van recordtypen is handig wanneer u verschillende typen werkobject
 
 In dit artikel wordt beschreven hoe u twee recordtypen van Workfront Planning of een recordtype van Workfront Planning kunt verbinden met een object van een andere toepassing.
 
-Nadat u de verbinding tussen verslagen of objecten types vestigt, kunt u individuele verslagen met elkaar verbinden, en vertoningsgebieden van het verbonden verslag of objecten types op een verslag van de Planning van Workfront tonen.
+Nadat u de verbinding tussen verslagen of objecten types vestigt, wordt een verbindingsgebied toegevoegd aan een het verslagtype van de Planning. In het verbindingsgebied, kunt u individuele verslagen met elkaar verbinden, en vertoningsgebieden van het verbonden verslag of objecten types op een verslag van de Planning van Workfront.
+
+<!--
+>[!CAUTION]
+>
+><span class="preview">One record type can have up to 30 connection fields.</span>-->
 
 Voor algemene informatie over verbindingstypes, zie [ Verbonden overzicht van recordtypes ](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
 
@@ -126,19 +131,18 @@ Voor een voorbeeld van het verbinden van verslagtypes en verslagen, zie [ Voorbe
 1. Klik op de kaart van een recordtype om de pagina met recordtypen te openen.
 1. Klik het **+** pictogram in de hoger-juiste hoek van de lijstmening, dan klik de **Nieuwe verbinding** tabel.
 
-   ![ Nieuw verbindingslusje met de opties van Workfront AEM ](assets/new-connection-tab-with-workfront-aem-options.png)
+   ![ Nieuw verbindingslusje met de opties van Workfront AEM ](assets/new-connection-tab-with-workfront-aem-options-no-buttons.png)
 
-1. Op het **type van Verslag** gebied, onderzoek naar een verslagtype, of selecteer één van het volgende:
+1. Zoek naar een recordtype, of selecteer één van het volgende:
 
-   * Een ander recordtype uit de huidige werkruimte
+   * <span class="preview"> het verslagtype van A van de huidige werkruimte </span>
 
-     ![ Velen aan vele verbindingsplukker ](assets/many-to-many-connection-picker.png)
+     <span class="preview">![ multi-uitgezochte verbindingskiezer voor zelfde-werkruimte verslagtype ](assets/multi-select-connection-picker-record-type.png)</span>
 
      >[!TIP]
      >
      > 
      >Als de geselecteerde werkruimte geen andere recordtypen bevat, wordt de sectie Werkruimte niet weergegeven.
-
 
    * Een recordtype van een andere werkruimte die werd gevormd om van andere werkruimten te verbinden.
 
@@ -149,13 +153,13 @@ Voor een voorbeeld van het verbinden van verslagtypes en verslagen, zie [ Voorbe
 
      Voor informatie, zie [ recordtypes ](/help/quicksilver/planning/architecture/edit-record-types.md) uitgeven.
 
-     ![ Nieuwe verbinding om veelvoudige archiefdoos ](assets/new-connection-allow-multiple-records-box.png) toe te staan
+     ![ Nieuwe verbinding om veelvoudige archiefdoos ](assets/new-connection-tab-with-workfront-aem-options-no-buttons.png) toe te staan
 
-   * A **Project, Portfolio, Programma, Bedrijf**, of **Groep** van de **de Objecttypes van Workfront** sectie.
+   * <span class="preview"> A **Project, Portfolio, Programma, Bedrijf**, of **Groep** van de **de Objecttypes van Workfront** sectie.</span>
 
-     ![ de selectie van de het projectverbinding van Workfront ](assets/workfront-project-connection-selection.png)
+     <span class="preview">![ de selectie van de het projectverbinding van Workfront ](assets/multi-select-connection-picker-project.png)</span>
 
-   * **Experience Manager Assets** van de **Toepassingen van Adobe** sectie.
+   * **Experience Manager Assets** van de **Toepassingen van Adobe** sectie. <!--update screen shot??-->
 
      ![ de verbindingsselectie van AEM Assets ](assets/aem-assets-connection-selection.png)
 
@@ -170,7 +174,7 @@ Voor een voorbeeld van het verbinden van verslagtypes en verslagen, zie [ Voorbe
 1. Werk het **gebied van de Beschrijving** bij door informatie over het verbonden verslaggebied toe te voegen. De beschrijving van een veld wordt weergegeven wanneer u de cursor op de kolom van het veld in een tabel plaatst.
 1. (Voorwaardelijk) wanneer u verslagtypes van twee verschillende werkruimten of een verslag en een de activavoorwerp van Adobe Experience Manager verbindt, selecteer **toestaan veelvoudige verslagen**. Als u deze optie selecteert, geeft u aan dat gebruikers meerdere records mogen toevoegen wanneer het veld voor het verbonden recordtype wordt weergegeven op de oorspronkelijke records. Dit is standaard geselecteerd.
 
-   ![ Nieuwe verbinding om veelvoudige archiefdoos ](assets/new-connection-allow-multiple-records-box.png) toe te staan
+   ![ Nieuwe verbinding aan verslagtype van een andere werkruimte ](assets/new-connection-allow-multiple-records-box.png)
 
 1. (Voorwaardelijk) wanneer u recordtypes van de zelfde werkruimte, of een het verslagtype van de Planning met een objecten van Workfront type verbindt, doe één van het volgende, afhankelijk van welke milieu u gebruikt:
 
@@ -197,6 +201,8 @@ Voor een voorbeeld van het verbinden van verslagtypes en verslagen, zie [ Voorbe
          >
          >Er geldt een limiet van 500 velden voor één recordtype. We raden u aan deze instelling uit te schakelen, vooral voor taxonomische recordtypen, om te voorkomen dat deze limiet wordt bereikt.
 
+         <!--<span class="preview">There is a limit of 30 connected fields for a record type.</span>-->
+
       3. (Voorwaardelijk) als u **toeliet creeer het corresponderende gebied op verbonden verslagtype**, kies van de volgende opties om erop te wijzen hoeveel verslagengebruikers met en van kunnen verbinden:
 
          * Veel tot veel
@@ -222,7 +228,7 @@ Voor een voorbeeld van het verbinden van verslagtypes en verslagen, zie [ Voorbe
 
    >[!NOTE]
    >
-   >Uw Workfront-beheerder kan Workfront-planningsvelden toewijzen aan Experience Manager Assets-velden via de metagegevenstoewijzing in Workfront. Voor meer informatie, zie [ activa meta-gegevensafbeelding tussen Adobe Workfront en Experience Manager Assets ](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping) vormen.
+   >Uw Workfront-beheerder kan Workfront-planningsvelden toewijzen aan Experience Manager Assets-velden via de metagegevenstoewijzing in Workfront. Voor meer informatie, zie [ activa meta-gegevensafbeelding tussen Adobe Workfront en Experience Manager Assets ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping) vormen.
 
 
 1. (Voorwaardelijk) wanneer u om met Experience Manager Assets of met een het verslagtype van de Planning van Workfront selecteert te verbinden, kies één van de volgende opties in het **vormgeving van het Verslag** gebied:

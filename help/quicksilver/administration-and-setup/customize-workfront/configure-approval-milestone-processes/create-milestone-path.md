@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: c1e2f374-576c-4f1c-b502-281e8ee9e7df
-source-git-commit: 6e2e337969fccba88ea7089fe9a6d9db605343f7
+source-git-commit: 5b9b1f397c76afa2e2ae550e0ce62a6038b8bd86
 workflow-type: tm+mt
-source-wordcount: '816'
+source-wordcount: '889'
 ht-degree: 0%
 
 ---
@@ -26,6 +26,14 @@ NOTE: DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THR
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+
+<div class="preview">
+
+De gemarkeerde informatie op deze pagina verwijst naar functionaliteit die nog niet algemeen beschikbaar is. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Dezelfde functies zijn ook beschikbaar in de productieomgeving voor alle klanten vanaf een week na de release Preview.
+
+Voor meer informatie, zie [ modernisering van de Interface ](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
+
+</div>
 
 Als beheerder van Adobe Workfront, kunt u milestone wegen tot stand brengen die dan op om het even welk project in het systeem kunnen worden toegepast. De wijzigingen die u aanbrengt in paden met mijlpalen op dit gebied, zijn van invloed op het hele Workfront-systeem.
 
@@ -45,14 +53,18 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie</td> 
-   <td>Plan</td> 
+   <td><p>Standard</p>
+   <p>Plan</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau</td> 
-   <td> <p>U moet een Workfront-beheerder zijn.</p> <p><b> NOTA </b>: Als u nog geen toegang hebt, vraag uw beheerder van Workfront als zij extra beperkingen in uw toegangsniveau plaatsen. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
+   <td> <p>U moet een Workfront-beheerder zijn.</p></td> 
   </tr> 
  </tbody> 
 </table>
+
+*For informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -72,7 +84,18 @@ Voor meer informatie over hoe u een milestone weg met een project en een mijlpaa
 
 1. Klik **Processen** > **Mijlsteenwegen**.
 1. Klik **Nieuwe Weg van de Mijlpaal.**
-1. Specificeer de volgende informatie in het **BasisInfo** gebied:
+
+   <div class="preview">
+
+   Het vak Nieuw milestone-pad wordt geopend.
+
+   ![ Nieuwe de wegdoos van de mijlpaal ](assets/new-milestone-path-box.png)
+
+   </div>
+
+1. Klik **BasisInfo** in het linkerpaneel.
+
+   Werk de volgende gegevens bij:
 
    <table style="table-layout:auto">
     <tr>
@@ -93,7 +116,10 @@ Voor meer informatie over hoe u een milestone weg met een project en een mijlpaa
     </tr>
    </table>
 
-1. Specificeer de volgende informatie in het **1&rbrace; gebied van de Mijlpalen &lbrace;:**
+1. Klik **Mijlpalen** in het linkerpaneel.
+1.In het milieu van de Productie, klik **toevoegen Mijlsteen** om mijlpalen aan de weg toe te voegen.
+   <span class="preview"> in het milieu van de Voorproef, klik **Nieuwe rij** om mijlpalen aan de weg toe te voegen.</span>
+1. Werk de volgende gegevens bij:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -114,26 +140,27 @@ Voor meer informatie over hoe u een milestone weg met een project en een mijlpaa
     </tbody> 
    </table>
 
-1. Klik **toevoegen Mijlsteen** en blijven mijlpalen toevoegen zoals nodig tot de weg wordt voltooid.
-
+1. (Optioneel) Sleep elke mijlpaal om deze opnieuw te rangschikken.
 1. Klik **creëren Weg van de Mijlpaal** om uw veranderingen te bewaren.
 
    Uw milestone-pad kan aan een project worden gekoppeld.
 
    Voor meer informatie over hoe te om milestone wegen aan projecten en mijlpalen aan taken te associëren, zie [ mijlpalen met taken ](../../../manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md) associëren.
 
-
-1. (Facultatief) klik het **pictogram van de Uitvoer van de Uitvoer ![ ](assets/export-icon.png), dan uitgezocht van de volgende formaten om de lijst van de milestone weg naar een dossier uit te voeren:**
+1. (Facultatief) van de lijst van de Wegen van de Mijlsteen, selecteer één mijlpaal, dan klik **pictogram** uitgeven pictogram ![ om de milestone weg te openen en zijn informatie uit te geven.](assets/edit-icon.png)
+1. (Facultatief) klik het **pictogram van de Uitvoer van de Uitvoer** ![, dan uitgezocht van de volgende formaten om de lijst van de milestone weg naar een dossier uit te voeren:](assets/export-icon.png)
 
    * PDF
    * Excel
    * Excel (xlsx)
    * Door tabs gescheiden
 
-1. (Facultatief) selecteer een mijlpaal in de milestone lijst, dan klik **uitgeven** pictogram ![ pictogram ](assets/edit-icon.png) uitgeven om mijlpaalinformatie uit te geven.
-1. (Facultatief) selecteer een mijlpaal in de milestone lijst, dan klik het **pictogram van de Schrapping** ![ pictogram van de Schrapping ](assets/delete-icon.png) om het te schrappen.
+1. (Facultatief) selecteer één of verscheidene mijlpalen in de milestone lijst, dan klik het **pictogram van de Schrapping** ![ om het te schrappen.](assets/delete-icon.png)
 1. Klik **ja, schrap het**.
-De mijlpaal wordt verwijderd en kan niet worden hersteld. Alle projectinformatie met betrekking tot de mijlpaal en alle taakinformatie met betrekking tot de trapeziumpaden wordt ook verwijderd.
+
+   De mijlpaal wordt verwijderd en kan niet worden hersteld. Het milestone-pad wordt verwijderd uit elk project dat eerder aan het project is gekoppeld en alle mijlpalen worden verwijderd uit de taken die aan het project zijn gekoppeld.
+
+   Verwijderde mijlpalen kunnen niet worden hersteld.
 
 
 ## Details van mijlpaden weergeven in een projectrapport

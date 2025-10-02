@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 572c6008-3a67-47ae-8f5d-6b871ef1f37b
-source-git-commit: f98dd9c4bbb342e20ef77690ef20b0b14f5e9b6b
+source-git-commit: eacc6b26bd30ac7da363c6aa1d759a65a20cd9f4
 workflow-type: tm+mt
-source-wordcount: '3723'
+source-wordcount: '3810'
 ht-degree: 0%
 
 ---
@@ -26,12 +26,22 @@ ht-degree: 0%
 </div>
 -->
 
+<!--
+<div class="preview"> 
+
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
+
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
+
+</div> 
+-->
+
 
 U kunt informatie bewerken over taken die u hebt gemaakt of waarop u machtigingen voor Contribute of Beheren hebt.
 
 ## Toegangsvereisten
 
-+++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -43,8 +53,8 @@ U kunt informatie bewerken over taken die u hebt gemaakt of waarop u machtiginge
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Nieuw: Standaard</p>
-   <p>Huidig: Werk of hoger</p> </td> 
+   <td> <p>Standard</p>
+   <p>Werk of hoger</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Toegangsniveau</td> 
@@ -178,11 +188,12 @@ U kunt een taak bewerken met de gebieden Taak bewerken of Taakdetails. In de vol
    Overweeg informatie op te geven in een van de volgende secties:
 
    * [ Naam van de Taak ](#task-name)
-   * [ Overzicht ](#overview)
+   * [Overzicht](#overview)
    * [ Taken ](#assignments)
    * [ Aangepaste Forms ](#Custom%C2%A0F)
    * [ Financiën ](#finance)
    * [Instellingen](#settings)
+   * [Opmerking](#comment)
 
    >[!NOTE]
    >
@@ -470,7 +481,7 @@ U kunt een taak bewerken met de gebieden Taak bewerken of Taakdetails. In de vol
    </tr> 
    <tr> 
    <td role="rowheader">Rol van de gemachtigde</td> 
-   <td> <p>Selecteer een rol van het <strong> drop-down menu van de Rol van 0&rbrace; Toegewezen wanneer u een persoon als toegewezen selecteerde. </strong> Dit is de rol die de verkrijger kan vervullen in deze taak. </p> <p><b>TIP</b>
+   <td> <p>Selecteer een rol van het <strong> drop-down menu van de Rol van 0} Toegewezen wanneer u een persoon als toegewezen selecteerde. </strong> Dit is de rol die de verkrijger kan vervullen in deze taak. </p> <p><b>TIP</b>
 
    Alleen de functies die aan elke toegewezen persoon in het profiel zijn gekoppeld, worden weergegeven in het vervolgkeuzemenu.</p> </td>
    </tr> 
@@ -605,9 +616,23 @@ U kunt aangepaste standaardformulieren definiëren die automatisch aan taken wor
    </table>
     </li>
 
-1. Klik **sparen**.
+1. Klik **sparen** of ga met de volgende sectie verder.
 
 <!--notes from the table: <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this bullet stays here although the sections it might appear in are QS only, so we can use the snippet for both Qs and classic)</p>       -->
+
+### Opmerking
+
+1. Begin het uitgeven van uw taak zoals die in [ wordt beschreven geef taken ](#Edit2) sectie in dit artikel uit.
+1. Klik **Commentaar** in het linkerpaneel.
+
+   ![ de sectie van de Commentaar bij geef taakdoos uit ](assets/comment-section-on-edit-task-box.png)
+
+1. Voeg een update toe in de beschikbare ruimte.
+1. (Optioneel) Voeg een van de volgende opties toe aan uw update:
+
+   * Voeg gebruikers of teams aan uw update in het **gebied van de Mensen van de Markering** toe of gebruik @ om hen in uw update te omvatten.
+   * Selecteer **Privé aan mijn bedrijf** checkbox om de update privé aan mensen in uw bedrijf te houden.
+1. Klik **sparen**.
 
 ## Een taak bewerken in de taakkoptekst (beperkt)
 

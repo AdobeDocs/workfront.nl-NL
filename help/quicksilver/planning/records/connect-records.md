@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: 03c1f17504846fc4b8c4114ddc32df687281bc07
+source-git-commit: 5b9b1f397c76afa2e2ae550e0ce62a6038b8bd86
 workflow-type: tm+mt
-source-wordcount: '3371'
+source-wordcount: '3397'
 ht-degree: 0%
 
 ---
@@ -233,7 +233,7 @@ U kunt verslagen van de Planning van Workfront op de volgende gebieden van een v
 
    De opnametype kaart moet in de lijstmening worden geopend. Als dat niet het geval is, selecteert u een tabelweergave.
 
-   Bericht dat het **verbonden verslaggebied van de Campagne** &lbrace;de namen van de campagnes toont u met producten in de het verslagtype van het Product pagina verbond. Wanneer u de Campagnegegevens bijwerkt, wordt het aan Campagne gekoppelde recordveld voor het type productrecord automatisch bijgewerkt.
+   Bericht dat het **verbonden verslaggebied van de Campagne** {de namen van de campagnes toont u met producten in de het verslagtype van het Product pagina verbond. Wanneer u de Campagnegegevens bijwerkt, wordt het aan Campagne gekoppelde recordveld voor het type productrecord automatisch bijgewerkt.
 
 ### Connect Workfront Planning-records verbinden met Workfront-objecten vanuit de tabelweergave of het gebied Details van een record
 
@@ -337,7 +337,7 @@ Nadat u een verbinding hebt gemaakt tussen een recordtype en Adobe Experience Ma
 
 >[!NOTE]
 >
->De verslagen van de planning en hun gebieden zijn toegankelijk van Experience Manager Assets wanneer uw beheerder van Workfront de meta-gegevensafbeelding door de integratie tussen Workfront en Adobe Experience Manager Assets vormt. Voor meer informatie, zie [ activa meta-gegevensafbeelding tussen Adobe Workfront en Experience Manager Assets ](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping) vormen.
+>De verslagen van de planning en hun gebieden zijn toegankelijk van Experience Manager Assets wanneer uw beheerder van Workfront de meta-gegevensafbeelding door de integratie tussen Workfront en Adobe Experience Manager Assets vormt. Voor meer informatie, zie [ activa meta-gegevensafbeelding tussen Adobe Workfront en Experience Manager Assets ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping) vormen.
 
 Om records te verbinden met Experience Manager-elementen:
 
@@ -467,11 +467,12 @@ De records en objecten worden direct toegevoegd.
    Een verbonden verslagtype pagina toont in de lijstmening.
 
    Alle verbonden verslagen van één type tonen in de lijst.
-1. Klik **verbinden**, <span class="preview">**verbindt verslagen**, of **Nieuwe rij**</span> om verslagen toe te voegen of te verwijderen.
+1. Klik **verbinden** of <span class="preview">**verbindt verslagen** in een lijst van projecten </span> om bestaande verslagen toe te voegen of te verwijderen.
 
    ![ verbind knoop die in verbonden verslagdetails tabel wordt benadrukt ](assets/connect-button-highlighted-in-connected-record-details-tab.png)
 
    Voor informatie, zie [ de lay-out van de verslagpagina beheren ](/help/quicksilver/planning/records/manage-the-record-page.md).
+1. <span class="preview"> klik **Nieuwe rij** in een lijst van projecten om een project tot stand te brengen. De nieuwe projecten worden automatisch verbonden met het huidige verslag. </span>
 1. (Optioneel) Als u geen verbonden record kunt vinden, klikt u op **+ Toevoegen** om deze te maken en te verbinden.
 
 ## Connect-records van Workfront-objecten

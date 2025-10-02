@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: f32b2f9e5a511b83e5793299e47b9c1c12857bd8
+source-git-commit: 5b9b1f397c76afa2e2ae550e0ce62a6038b8bd86
 workflow-type: tm+mt
-source-wordcount: '2700'
+source-wordcount: '2756'
 ht-degree: 0%
 
 ---
@@ -166,7 +166,7 @@ Voor informatie, zie [ verslagen ](/help/quicksilver/planning/records/create-rec
    >  * Gekoppelde velden die worden gemaakt door het verbinden van recordtypen. Voor meer informatie, zie [ Connect verslagtypes ](/help/quicksilver/planning/architecture/connect-record-types.md).
    >  * Velden van de volgende typen: Gemaakt door, Gemaakt op datum, Laatst gewijzigd door, Datum Laatst gewijzigd, Formule.
 
-1. (Facultatief en voorwaardelijk) wanneer u een alinea-type gebied uitgeeft, gebruik de volgende **het formatteren opties van de Tekst 0&rbrace; Rich &lbrace;:**
+1. (Facultatief en voorwaardelijk) wanneer u een alinea-type gebied uitgeeft, gebruik de volgende **het formatteren opties van de Tekst 0} Rich {:**
 
    * Vet
    * Cursief
@@ -235,7 +235,7 @@ Voor informatie, zie [ verslagen ](/help/quicksilver/planning/records/create-rec
 
    <span class="preview">![ Linker-eind bar op chronologiemening resize ](assets/left-end-bar-handle-to-resize-timeline-view.png)</span>
 
-<!--1. <span class="preview">Click a record bar, then drag and drop it in another position to update its timeline and dates. The Start and End dates of the record update automatically.</span>-->
+1. <span class="preview"> klik een verslagbar, dan belemmering en laat vallen het in een andere positie om zijn chronologie en data bij te werken. De begin- en einddatum van de record worden automatisch bijgewerkt.</span>
 
 1. Klik op de balk van een record om het detailgebied te openen en alle velden te bewerken.
 
@@ -246,17 +246,11 @@ Voor informatie, zie [ verslagen ](/help/quicksilver/planning/records/create-rec
 <!--add another step about drag and drop here when that is available-->
 
 1. Open de pagina met recordtypen in een kalenderweergave. Voor informatie, zie [ de kalendermening ](/help/quicksilver/planning/views/manage-the-calendar-view.md) leiden.
-1. <span class="preview"> (Voorwaardelijk) Houd de muisaanwijzer boven de uiteinden van de balk met records in de kalenderweergave en klik, sleep de marges naar een andere datum. Hiermee werkt u automatisch de begin- of einddatum van de record bij.</span>  <!--when the calendar weekly resize is released to Preview, take out "monthly" from the sentence above, at preview release DONE Sep 25 2025-->
+1. <span class="preview"> (Voorwaardelijk) Houd de muisaanwijzer boven de uiteinden van de balk met records in de kalenderweergave en klik, sleep de marges naar een andere datum. Hiermee werkt u automatisch de begin- of einddatum van de record bij.</span>
 
    <span class="preview">![ Linker-eind bar op kalendermening resize ](assets/left-end-bar-handle-to-resize-calendar-monthly-view.png)</span>
 
-   <!--At preview release, add one of the following depending on which one is releasing: 
-    Scenario one: only drag and drop in the weekly view is releasing:
-    1. <span class="preview">Click a record bar in the calendar weekly view, then drag and drop it in another position to update its timeline and dates. The Start and End dates of the record update automatically.</span>
-    Scenario two: only drag and drop in the monthly view is releasing:
-    1. <span class="preview">Click a record bar in the calendar monthly view, then drag and drop it in another position to update its timeline and dates. The Start and End dates of the record update automatically.</span>
-    Scenario 3: both the weekly and monthly drag and drop are releasing at the same time:
-    1. <span class="preview">Click a record bar, then drag and drop it in another position to update its timeline and dates. The Start and End dates of the record update automatically.</span>-->
+1. <span class="preview"> klik een verslagbar, dan belemmering en laat vallen het in een andere positie om zijn chronologie en data bij te werken. De begin- en einddatum van de record worden automatisch bijgewerkt.</span>
 
 1. Klik op de balk van een record om het detailgebied te openen en alle velden te bewerken.
 

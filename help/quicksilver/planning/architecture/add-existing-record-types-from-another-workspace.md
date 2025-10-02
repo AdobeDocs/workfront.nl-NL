@@ -4,9 +4,9 @@ description: Recordtypen zijn de objecttypen voor Adobe Workfront Planning. In d
 hidefromtoc: true
 hide: true
 exl-id: b977d5dd-8975-42c4-9968-a7ac357972e6
-source-git-commit: bfb0fd2956ffb9384a09882864668d5dba33a53b
+source-git-commit: eacc6b26bd30ac7da363c6aa1d759a65a20cd9f4
 workflow-type: tm+mt
-source-wordcount: '620'
+source-wordcount: '744'
 ht-degree: 0%
 
 ---
@@ -25,15 +25,18 @@ recommendations: noDisplay, noCatalog
 
 <span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
 
-Als werkruimtenmanager, kunt u een verslagtype toevoegen dat in een werkruimte aan een werkruimte bestaat die u in de Planning van Adobe Workfront beheert.
+Als werkruimtenmanager, kunt u een verslagtype toevoegen dat in een andere werkruimte aan een werkruimte bestaat die u in de Planning van Adobe Workfront beheert.
 
-U moet een recordtype eerst als gecentraliseerd aanwijzen voordat werkruimtenmanagers het als een bestaand recordtype in andere werkruimten kunnen toevoegen.
+In dit artikel wordt beschreven hoe u een recordtype uit een bestaand recordtype kunt toevoegen en hoe u het kunt verwijderen als het niet meer nodig is.
 
-U kunt een recordtype instellen als gecentraliseerd wanneer u het maakt of bewerkt terwijl u de instellingen voor de werkruimte van het recordtype definieert.
+Een werkruimtemanager moet eerst een recordtype als gecentraliseerd aanwijzen voordat u het als een bestaand recordtype kunt toevoegen aan werkruimten die u beheert.
+
+U kunt een recordtype instellen als gecentraliseerd wanneer u het maakt of bewerkt terwijl u de geavanceerde instellingen definieert.
 
 Voor informatie, zie [ mogelijkheden van de dwars-werkruimte voor verslagtypes ](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md) vormen.
 
-Alvorens verslagen aan een werkruimte van een gecentraliseerd verslagtype toe te voegen, zie het artikel [ overzicht van de types van het interwerkruimterecord van het artikel ](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md).
+Alvorens verslagen aan een werkruimte van een gecentraliseerd verslagtype toe te voegen, zie het artikel [ overzicht van de types van het interwerkruimterecord ](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md).
+
 
 ## Toegangsvereisten
 
@@ -53,8 +56,10 @@ Alvorens verslagen aan een werkruimte van een gecentraliseerd verslagtype toe te
    <td role="rowheader"><p>Adobe Workfront-pakket</p></td> 
    <td> 
 <ul><li><p>Willekeurig Workfront-pakket</p></li>
-en
-<li><p>Planning Plus-pakket</p></li></ul>
+<p>en</p>
+<li><p>Willekeurig planningspakket om verbindingbare recordtypen te maken</p></li>
+<li><p>Planning Plus-pakket om gecentraliseerde recordtypen te maken</p></li>
+</ul>
 <!--Or:
 <ul><li><p>Any Workflow package</p> </li>
 And
@@ -92,7 +97,7 @@ Voor meer informatie over de toegangsvereisten van Workfront, zie [ vereisten va
 
    >[!TIP]
    >
-   >Als er geen recordtypen zijn geconfigureerd om aan een andere werkruimte te worden toegevoegd, wordt de optie om deze uit een andere werkruimte toe te voegen niet weergegeven wanneer u een recordtype maakt.
+   >Als er geen recordtypen zijn geconfigureerd om aan een andere werkruimte te worden toegevoegd, wordt de optie om deze uit een andere werkruimte toe te voegen niet weergegeven.
 
    De volgende dingen doen zich voor:
 
@@ -100,19 +105,27 @@ Voor meer informatie over de toegangsvereisten van Workfront, zie [ vereisten va
 
       * Alle oorspronkelijke velden
       * Alle recordverbindingen
-   * U kunt records weergeven die zijn toegevoegd vanuit andere werkruimten, alleen als u ten minste weergavemachtigingen hebt voor die werkruimten.
+   * U kunt verslagen bekijken die van andere werkruimten worden toegevoegd die het zelfde gecentraliseerde verslagtype gebruiken, slechts wanneer u minstens de toestemmingen van de Mening aan die werkruimten hebt.
    * Het **gecentraliseerde verslagtype** pictogram ![ Gecentraliseerde verslagtype pictogram ](assets/global-icon.png) wordt toegevoegd aan de kaart van het nieuwe verslagtype.
    * Het read-only **Workspace** gebied wordt toegevoegd aan de nieuwe lijst van het verslagtype mening. In het veld wordt weergegeven in welke werkruimte elke record is gemaakt.
 
      >[!NOTE]
      >
-     >* U kunt de weergave, geavanceerde instellingen of originele velden van het nieuwe recordtype niet bewerken. U kunt het recordtype en alle oorspronkelijke velden en instellingen alleen vanuit de oorspronkelijke werkruimte bewerken.
+     >U kunt de weergave, geavanceerde instellingen of originele velden van het nieuwe recordtype niet bewerken. U kunt het recordtype en alle oorspronkelijke velden en instellingen alleen vanuit de oorspronkelijke werkruimte bewerken.
 
 1. (Optioneel) Klik en sleep het nieuwe recordtype naar een willekeurige sectie in de werkruimte.
 
 <!--This will be released later with another epic: 1. (Optional) Click the **More** menu ![More menu](assets/more-menu.png) in the new record type's card, or to the right of the record type's name on its page, then click **Share** to share it with other users in the same workspace, or adjust their permissions to the record type.-->
 
-1. (Facultatief) klik op **Meer** menu ![ Meer menu ](assets/more-menu.png) in de kaart van het nieuwe verslagtype, of rechts van de naam van het verslagtype op zijn pagina, dan klik **Schrapping**.
+## Een gecentraliseerd recordtype verwijderen uit een secundaire werkruimte
+
+U kunt een recordtype dat u hebt toegevoegd uit een andere werkruimte verwijderen als u dit niet meer nodig hebt. Als u deze werkruimte verwijdert, wordt deze alleen verwijderd uit de secundaire werkruimte en worden de records verwijderd die aan die werkruimte zijn toegevoegd. Het oorspronkelijke recordtype blijft in de oorspronkelijke werkruimte en in andere werkruimten waar het is toegevoegd.
+
+Een gecentraliseerd recordtype uit een secundaire werkruimte verwijderen:
+
+1. Ga naar het gecentraliseerde verslagtype in de secundaire werkruimte.
+
+1. (Facultatief) klik op **Meer** menu ![ Meer menu ](assets/more-menu.png) op de kaart van het verslagtype, of rechts van de naam van het verslagtype op zijn pagina, dan klik **Schrapping**.
 1. (Voorwaardelijk) Type **schrapt** op het verstrekte gebied, dan klik **permanent schrapt**.
 
    De volgende dingen doen zich voor:

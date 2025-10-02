@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 03c1f17504846fc4b8c4114ddc32df687281bc07
+source-git-commit: 5b9b1f397c76afa2e2ae550e0ce62a6038b8bd86
 workflow-type: tm+mt
-source-wordcount: '3935'
+source-wordcount: '3962'
 ht-degree: 0%
 
 ---
@@ -198,12 +198,10 @@ Een tijdlijnweergave beheren:
 
      <span class="preview"> voor informatie, zie [ verslagen ](/help/quicksilver/planning/records/create-records.md) creëren.</span>
 
-   * <span class="preview"> klik op het eind van een verslagbar, dan belemmering en laat vallen het in een nieuwe positie. Als u de grootte van de balken van de records wijzigt, worden de begin- en einddatums onmiddellijk bijgewerkt. </span>
+   * <span class="preview"> klik op de linker of juiste marge van een verslagbar, dan belemmering en laat vallen het in een nieuwe positie. Als u de grootte van de balken van de records wijzigt, worden de begin- of einddatums onmiddellijk bijgewerkt. </span>
 
+   * <span class="preview"> belemmering en dalingsverslagen om hun positie en data in de chronologie bij te werken. Als u de balken van de records verplaatst, worden de begin- en einddatum onmiddellijk bijgewerkt.</span>
      <span class="preview"> voor informatie, zie [ verslagen ](/help/quicksilver/planning/records/edit-records.md) uitgeven.</span>
-
-   <!--* <span class="preview">Drag and drop records to update their position and dates in the timeline.</span>
-        <span class="preview">For information, see [Edit records](/help/quicksilver/planning/records/edit-records.md).</span>-->
 
 1. Werk de volgende weergave-elementen bij zoals in de onderstaande subsecties wordt beschreven:
    * [Filters](#add-filters)

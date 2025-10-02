@@ -6,16 +6,16 @@ description: U kunt de volgorde bijwerken waarin de aangepaste formulieren die a
 author: Alina
 feature: Get Started with Workfront
 exl-id: e5570a09-32cb-43e3-9c1d-4421db42fa24
-source-git-commit: 322257a21f5d415b0ac04e6944c4aaa53fc3ab3b
+source-git-commit: eacc6b26bd30ac7da363c6aa1d759a65a20cd9f4
 workflow-type: tm+mt
-source-wordcount: '1088'
+source-wordcount: '1054'
 ht-degree: 0%
 
 ---
 
 # Aangepaste formulieren beheren die zijn gekoppeld aan objecten
 
-<span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Het is beschikbaar voor alle klanten in het milieu van de Voorproef en voor een uitgezochte groep klanten in het milieu van de Productie.</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers in the Preview environment and for a select group of customers in the Production environment.</span>-->
 
 U kunt de volgorde bijwerken waarin de aangepaste formulieren die aan een object zijn gekoppeld, worden weergegeven, verwijderd of de manier waarop aangepaste formulieren op meerdere objecten worden weergegeven, bulksgewijs bewerken.
 
@@ -61,7 +61,7 @@ U moet de volgende toegang hebben om de handelingen uit te voeren die in dit art
 
    **Voorbeeld:** Bijvoorbeeld, om de douaneformulieren van een project te beheren, ga naar het project, klik **Meer** menu ![](assets/more-icon.png), dan klik **uitgeven**.
 
-1. In de **sectie van de Douane Forms van 0&rbrace; &lbrace;voor projecten, taken, en kwesties, klik het** pictogram naast de naam van een douanevorm. ![](assets/move-icon---dots.png) Voor alle andere voorwerpen, klik **leiden Forms**. Deze optie wordt alleen weergegeven als ten minste één aangepast formulier aan het object is gekoppeld.
+1. In de **sectie van de Douane Forms van 0} {voor projecten, taken, en kwesties, klik het** pictogram naast de naam van een douanevorm. ![](assets/move-icon---dots.png) Voor alle andere voorwerpen, klik **leiden Forms**. Deze optie wordt alleen weergegeven als ten minste één aangepast formulier aan het object is gekoppeld.
 1. Sleep een formulier ![](assets/move-icon---dots.png) naar een nieuwe locatie in de lijst.
 1. Voor projecten, taken, en kwesties douaneformulieren, klik **sparen**.
 
