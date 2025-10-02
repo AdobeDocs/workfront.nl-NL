@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: b24b1e481bbe726aaf9810124fcf55bdac866cb0
+source-git-commit: 3942ba8d626a854344624bc5b7ea3ad01e8ad7fb
 workflow-type: tm+mt
-source-wordcount: '2047'
+source-wordcount: '2075'
 ht-degree: 0%
 
 ---
@@ -251,8 +251,15 @@ De aanvraaglijst wordt automatisch gefilterd, aangezien u de filtervoorwaarden t
 
    ![ pagina van de Details van het Verzoek ](assets/request-details-page.png)
 
+   <div class="preview">
+      In voorvertoning:
 
-1. (Voorwaardelijk) als de verzoekvorm niet met een goedkeuring wordt geassocieerd, of als het verzoek is goedgekeurd, klik de naam van het verzoek, dan klik de naam van het verslag op het **1&rbrace; gebied van het Verslag &lbrace;.**
+   ![ pagina van het Verzoek met commentaar ](assets/new-request-page-with-comment.png)
+
+   </div>
+
+1. <span class="preview"> (Optioneel) Voer een opmerking in het gebied Opmerkingen in.
+1. (Voorwaardelijk) als de verzoekvorm niet met een goedkeuring wordt geassocieerd, of als het verzoek is goedgekeurd, klik de naam van het verzoek, dan klik de naam van het verslag op het **1} gebied van het Verslag {.**
 
    De pagina van het verslag opent in de Planning van Workfront.
 
@@ -315,7 +322,15 @@ De aanvraaglijst wordt automatisch gefilterd, aangezien u de filtervoorwaarden t
 
    ![ pagina van de Details van het Verzoek ](assets/request-details-page.png)
 
-1. (Voorwaardelijk) als de verzoekvorm niet met een goedkeuring wordt geassocieerd, of als het verzoek is goedgekeurd, klik de naam van het verzoek, dan klik de naam van het verslag op het **1&rbrace; gebied van het Verslag &lbrace;.**
+   <div class="preview">
+   In voorvertoning:
+
+   ![ pagina van het Verzoek met commentaar ](assets/new-request-page-with-comment.png)
+
+   </div>
+
+1. <span class="preview"> (Optioneel) Voer een opmerking in het gebied Opmerkingen in.
+1. (Voorwaardelijk) als de verzoekvorm niet met een goedkeuring wordt geassocieerd, of als het verzoek is goedgekeurd, klik de naam van het verzoek, dan klik de naam van het verslag op het **1} gebied van het Verslag {.**
 
    De pagina van het verslag opent in de Planning van Workfront.
 
