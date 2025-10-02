@@ -47,7 +47,7 @@ Then for the second setting for cross-workspace connections, we'll need a simila
 
 <span class="preview"> de informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>
 
-<span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
+<span class="preview"> voor informatie over snelle versies, zie [&#x200B; snelle versies voor uw organisatie &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
 
 U kunt recordtypen configureren om te werken in meerdere werkruimten.
 
@@ -107,7 +107,7 @@ And
 </tbody> 
 </table>
 
-Voor meer informatie over de toegangsvereisten van Workfront, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer informatie over de toegangsvereisten van Workfront, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++   
 
@@ -122,7 +122,7 @@ Een werkruimtemanager kan een gecentraliseerd recordtype toevoegen aan een werkr
 
 Gebruikers kunnen records toevoegen aan een gecentraliseerd recordtype vanuit elke werkruimte die zij met Contribute-machtigingen hebben en waarin het gecentraliseerde recordtype is toegevoegd, inclusief de oorspronkelijke werkruimte. Zij kunnen verslagen van werkruimte bekijken zij slechts toestemmingen van de Mening hebben aan.
 
-Voor meer informatie, zie [ overzicht van de types van het werkruimterecord over de werkruimte ](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md).
+Voor meer informatie, zie [&#x200B; overzicht van de types van het werkruimterecord over de werkruimte &#x200B;](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md).
 
 Een recordtype als gecentraliseerd configureren:
 
@@ -133,11 +133,11 @@ Een recordtype als gecentraliseerd configureren:
    De werkruimtepagina wordt geopend en de recordtypen worden weergegeven.
 1. Voer een van de volgende handelingen uit:
 
-   * Beweeg over de kaart van een verslagtype en klik **Meer** menu ![ Meer menu ](assets/more-menu.png) in de hoger-juiste hoek van de kaart van het verslagtype
-   * Klik een kaart van het verslagtype om de verslagtype pagina te openen, dan klik **Meer** menu ![ Meer menu ](assets/more-menu.png) rechts van de naam van het verslagtype.
+   * Beweeg over de kaart van een verslagtype en klik **Meer** menu ![&#x200B; Meer menu &#x200B;](assets/more-menu.png) in de hoger-juiste hoek van de kaart van het verslagtype
+   * Klik een kaart van het verslagtype om de verslagtype pagina te openen, dan klik **Meer** menu ![&#x200B; Meer menu &#x200B;](assets/more-menu.png) rechts van de naam van het verslagtype.
 1. Klik **uitgeven**.
 
-   ![ Meer menuopties van verslagtype kaart ](assets/more-menu-options-from-record-type-card.png)
+   ![&#x200B; Meer menuopties van verslagtype kaart &#x200B;](assets/more-menu-options-from-record-type-card.png)
 
    >[!TIP]
    >
@@ -146,7 +146,7 @@ Een recordtype als gecentraliseerd configureren:
 1. In **geef verslagtype** doos uit, klik de **Geavanceerde montages** tabel.
 1. Laat **toe toestaan toevoegend dit verslagtype aan andere werkruimten** plaatsen.
 
-   ![ geef recordtype Geavanceerde montages met toe voegen aan andere werkruimten laat ](assets/edit-record-type-advanced-settings-add-to-other-workspaces-enabled.png) toe
+   ![&#x200B; geef recordtype Geavanceerde montages met toe voegen aan andere werkruimten laat &#x200B;](assets/edit-record-type-advanced-settings-add-to-other-workspaces-enabled.png) toe
 
    >[!TIP]
    >
@@ -174,7 +174,7 @@ Een recordtype als gecentraliseerd configureren:
    >
    >U kunt de weergave en de instellingen van het recordtype en de oorspronkelijke velden alleen vanuit de oorspronkelijke werkruimte bewerken.
 
-   * De kaart van het verslagtype toont een gecentraliseerd pictogram ![ Gecentraliseerd verslagtype pictogram ](assets/global-icon.png) om erop te wijzen dat het verslagtype beschikbaar is om aan andere werkruimten worden toegevoegd.
+   * De kaart van het verslagtype toont een gecentraliseerd pictogram ![&#x200B; Gecentraliseerd verslagtype pictogram &#x200B;](assets/global-icon.png) om erop te wijzen dat het verslagtype beschikbaar is om aan andere werkruimten worden toegevoegd.
    * Een systeem-geproduceerd **Workspace** gebied wordt toegevoegd aan de lijstmening van het verslagtype en zijn verslagen&#39; details.
 
      In het Workspace-veld wordt de werkruimte weergegeven van waaruit elke record is gemaakt.
@@ -182,7 +182,7 @@ Een recordtype als gecentraliseerd configureren:
      Dit veld is alleen-lezen en kan niet worden verwijderd.
 1. (Optioneel) Ga naar een andere werkruimte en maak een recordtype met een bestaand recordtype. Selecteer het recordtype dat u in de bovenstaande stappen hebt ingeschakeld.
 
-   Voor informatie, zie [ bestaande verslagtypes van een andere werkruimte ](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md) toevoegen.
+   Voor informatie, zie [&#x200B; bestaande verslagtypes van een andere werkruimte &#x200B;](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md) toevoegen.
 
 ## Verbindbare recordtypen configureren
 
@@ -199,15 +199,15 @@ Om een verslagtype te vormen om met van andere werkruimten te verbinden wanneer 
    De werkruimtepagina wordt geopend en de recordtypen worden weergegeven.
 1. Voer een van de volgende handelingen uit:
 
-   * Beweeg over de kaart van een verslagtype en klik **Meer** menu ![ Meer menu ](assets/more-menu.png) in de hoger-juiste hoek van de kaart van het verslagtype, dan klik **uitgeven**
-   * Klik een kaart van het verslagtype om de verslagtype pagina te openen, klik **Meer** menu ![ Meer menu ](assets/more-menu.png) rechts van de naam van het verslagtype, dan klik **uitgeven**.
+   * Beweeg over de kaart van een verslagtype en klik **Meer** menu ![&#x200B; Meer menu &#x200B;](assets/more-menu.png) in de hoger-juiste hoek van de kaart van het verslagtype, dan klik **uitgeven**
+   * Klik een kaart van het verslagtype om de verslagtype pagina te openen, klik **Meer** menu ![&#x200B; Meer menu &#x200B;](assets/more-menu.png) rechts van de naam van het verslagtype, dan klik **uitgeven**.
 
-   ![ Meer menuopties van verslagtype kaart ](assets/more-menu-options-from-record-type-card.png)
+   ![&#x200B; Meer menuopties van verslagtype kaart &#x200B;](assets/more-menu-options-from-record-type-card.png)
 
 1. In **geef verslagtype** doos uit, klik de **Geavanceerde montages** tabel.
 1. Laat **toe toestaan verbindend met dit verslagtype in andere werkruimten** plaatsen. <!-- check the setting name, I sent this to Lilit to say FROM instead of IN-->
 
-   ![ geef recordtype Geavanceerde montages tabel met verbinding van andere toegelaten werkruimten uit ](assets/edit-record-type-advanced-settings-connect-from-other-workspaces-enabled.png)
+   ![&#x200B; geef recordtype Geavanceerde montages tabel met verbinding van andere toegelaten werkruimten uit &#x200B;](assets/edit-record-type-advanced-settings-connect-from-other-workspaces-enabled.png)
 
    Als deze optie is ingeschakeld, is het recordtype toegankelijk en kan het via andere werkruimten worden verbonden.
 
@@ -220,12 +220,12 @@ Om een verslagtype te vormen om met van andere werkruimten te verbinden wanneer 
    De volgende dingen doen zich voor:
 
    * Het recordtype en de bijbehorende velden zijn nu beschikbaar om verbinding te maken met de werkruimten die u hebt toegewezen.
-   * De kaart van het verslagtype toont een pictogram van de dwars-werkruimteverbinding ![ het verbindingspictogram van de werkruimteverbinding ](assets/connect-from-other-workspaces-icon.png) om erop te wijzen dat het verslagtype beschikbaar is om met van om het even welke werkruimte te worden verbonden u in uw configuratie hebt aangewezen.
+   * De kaart van het verslagtype toont een pictogram van de dwars-werkruimteverbinding ![&#x200B; het verbindingspictogram van de werkruimteverbinding &#x200B;](assets/connect-from-other-workspaces-icon.png) om erop te wijzen dat het verslagtype beschikbaar is om met van om het even welke werkruimte te worden verbonden u in uw configuratie hebt aangewezen.
 
    Het recordtype wordt beschikbaar voor verbinding met de opgegeven werkruimten.
 1. (Optioneel) Ga naar een andere werkruimte en voeg een verbinding toe aan het recordtype dat u in de bovenstaande stappen hebt ingeschakeld voor verbindingsbaarheid tussen werkruimten.
 
-   Voor informatie, zie [ verbind verslagtypes ](/help/quicksilver/planning/architecture/connect-record-types.md).
+   Voor informatie, zie [&#x200B; verbind verslagtypes &#x200B;](/help/quicksilver/planning/architecture/connect-record-types.md).
 
 
 

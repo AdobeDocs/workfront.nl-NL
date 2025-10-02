@@ -35,7 +35,7 @@ Hieronder vindt u de mogelijkheden van recordtypen tussen werkruimten:
 
 * U kunt een recordtype aanwijzen als aanpasbaar. Gebruikers kunnen vanuit andere werkruimten verbinding maken met dit recordtype.
 
-In dit artikel vindt u een overzicht van recordtypen tussen werkruimten. Voor informatie over het bepalen van de mogelijkheden van de dwars-werkruimte van een verslagtype, zie [ mogelijkheden van de dwars-werkruimte voor verslagtypes ](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md) vormen.
+In dit artikel vindt u een overzicht van recordtypen tussen werkruimten. Voor informatie over het bepalen van de mogelijkheden van de dwars-werkruimte van een verslagtype, zie [&#x200B; mogelijkheden van de dwars-werkruimte voor verslagtypes &#x200B;](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md) vormen.
 
 
 ## Overzicht van gecentraliseerde recordtypen
@@ -56,7 +56,7 @@ Ga als volgt te werk om gecentraliseerde recordtypen te gebruiken:
 
    Het oorspronkelijke recordtype bestaat in de oorspronkelijke werkruimte, maar wordt in andere werkruimten weergegeven.
 
-   Voor informatie, zie [ mogelijkheden van de dwars-werkruimte voor verslagtypes ](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md) vormen.
+   Voor informatie, zie [&#x200B; mogelijkheden van de dwars-werkruimte voor verslagtypes &#x200B;](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md) vormen.
 1. Voeg een recordtype aan een secundaire werkruimte van bestaande toe die als gecentraliseerd verslagtype is gevormd.
 
    Het recordtype bestaat in de volgende werkruimten:
@@ -64,7 +64,7 @@ Ga als volgt te werk om gecentraliseerde recordtypen te gebruiken:
    * Zijn originele werkruimte waar het als gecentraliseerd verslagtype werd aangewezen.
    * Een secundaire werkruimte.
 
-   Voor informatie, zie [ bestaande verslagtypes van een andere werkruimte ](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md) toevoegen.
+   Voor informatie, zie [&#x200B; bestaande verslagtypes van een andere werkruimte &#x200B;](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md) toevoegen.
 
    De volgende secties beschrijven overwegingen over gecentraliseerde verslagtypes en hoe zij in of hun originele of secundaire werkruimten functioneren.
 
@@ -159,7 +159,7 @@ Ga als volgt te werk om verbindingbare recordtypen te gebruiken:
 
    Het oorspronkelijke recordtype bestaat in de oorspronkelijke werkruimte en wordt toegevoegd als een gekoppeld recordtype aan een andere werkruimte.
 
-   Voor informatie, zie [ mogelijkheden van de dwars-werkruimte voor verslagtypes ](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md) vormen.
+   Voor informatie, zie [&#x200B; mogelijkheden van de dwars-werkruimte voor verslagtypes &#x200B;](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md) vormen.
 1. Verbind met een verslagtype dat als aansluit van een andere werkruimte wordt aangewezen u beheert.
 
-   Voor informatie, zie [ verbind verslagtypes ](/help/quicksilver/planning/architecture/connect-record-types.md).
+   Voor informatie, zie [&#x200B; verbind verslagtypes &#x200B;](/help/quicksilver/planning/architecture/connect-record-types.md).
