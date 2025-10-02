@@ -5,9 +5,9 @@ description: De functie Projectgezondheid gebruikt de kracht van AI Assistant om
 author: Jenny
 feature: Get Started with Workfront
 exl-id: e4d200c6-7f35-4919-96d3-2880a655ed62
-source-git-commit: 1b0d47178085b6d971342a6a77d3341776ef62e6
+source-git-commit: 81f2787a5a9dd4f3737f3494c824502fe4abe59d
 workflow-type: tm+mt
-source-wordcount: '1488'
+source-wordcount: '1487'
 ht-degree: 0%
 
 ---
@@ -178,7 +178,7 @@ Een configuratie van de projectgezondheid bevat specifieke criteria die bepalen 
 
 1. In de hoger-juiste hoek van de pagina, uitgezochte **Nieuwe Configuratie**.
 
-1. (Facultatief) op de pagina van configuratiedetails, vervang *Naamloze Configuratie* met een nieuwe a configuratie **Naam**.
+1. (Facultatief) op de pagina van configuratiedetails, vervang *Naamloze Configuratie* met een nieuwe configuratie **Naam**.
 
 1. In **welke factoren u in de sectie van de projectgezondheid** zou willen omvatten, schrap om het even welke factor u inbegrepen niet wilt wanneer het bepalen van uw criteria van de projectgezondheid:
    * **kneep van het werkingsgebied**: Hoeveel het projectwerkingsgebied is uitgebreid sinds het begon.
@@ -220,7 +220,7 @@ Zodra een beheerder een configuratie van de Gezondheid van het Project heeft gec
 
 1. In het linkerpaneel, uitgezochte **Montages van het Project**.
 
-1. Op het **gebied van de Configuratie van de Gezondheid van het 0&rbrace; Project, selecteer de configuratie u op dit project wilt toepassen.**
+1. Op het **gebied van de Configuratie van de Gezondheid van het 0} Project, selecteer de configuratie u op dit project wilt toepassen.**
 
    ![ gebied van de Configuratie van de Gezondheid van het Project ](assets/project-health-configurations.png)
 
