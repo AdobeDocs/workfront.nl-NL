@@ -17,13 +17,13 @@ ht-degree: 0%
 
 <span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>
 
-<span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
+<span class="preview"> voor informatie over snelle versies, zie [&#x200B; snelle versies voor uw organisatie &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
 
 {{planning-important-intro}}
 
 U kunt records en de bijbehorende velden weergeven in een kalenderweergave, vanaf de pagina met recordtypen.
 
-Voor informatie over de meningen van de Planning van Adobe Workfront en hoe te om hen te beheren, zie [ verslagmeningen ](/help/quicksilver/planning/views/manage-record-views.md) leiden.
+Voor informatie over de meningen van de Planning van Adobe Workfront en hoe te om hen te beheren, zie [&#x200B; verslagmeningen &#x200B;](/help/quicksilver/planning/views/manage-record-views.md) leiden.
 
 ## Toegangsvereisten
 
@@ -92,7 +92,7 @@ Voor informatie over de meningen van de Planning van Adobe Workfront en hoe te o
 </tbody> 
 </table>
 
-*Voor meer informatie over de toegangsvereisten van Workfront, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Voor meer informatie over de toegangsvereisten van Workfront, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++   
 
@@ -114,11 +114,11 @@ Overweeg het volgende:
 Een kalenderweergave beheren:
 
 1. Ga naar de recordtypepagina waarvoor u de kalender wilt bekijken.
-1. Creeer een kalendermening, zoals die in artikel [ wordt beschreven beheer verslagmeningen ](/help/quicksilver/planning/views/manage-record-views.md).
+1. Creeer een kalendermening, zoals die in artikel [&#x200B; wordt beschreven beheer verslagmeningen &#x200B;](/help/quicksilver/planning/views/manage-record-views.md).
 
    <div class="preview">
 
-   ![ de meningsvoorbeeld van de Kalender ](assets/calendar-view-example.png)
+   ![&#x200B; de meningsvoorbeeld van de Kalender &#x200B;](assets/calendar-view-example.png)
 
    De records die zijn gekoppeld aan het geselecteerde recordtype, worden in een kalender weergegeven als balken. De kleur van de balken komt standaard overeen met de kleur van het recordpictogram.
 
@@ -137,23 +137,23 @@ Een kalenderweergave beheren:
          * Records die zich uitstrekken over meerdere dagen worden boven aan de kalender weergegeven.
          * Records die een dag of minder duren, worden weergegeven in de onderste helft van de kalenderweergave. Als u hebt opgegeven dat u het uur van de begin- en einddatum wilt weergeven, wordt de record op het juiste tijdstip weergegeven binnen de dag dat deze plaatsvindt.
 
-1. <span class="preview"> (Facultatief) klik het **Volledige scherm** pictogram ![ Open volledig het schermpictogram ](assets/open-full-screen-icon.png) om de mening in volledig scherm te openen, dan de **Uitgang volledig scherm** pictogram ![ het volledige het schermpictogram van de Uitgang ](assets/exit-full-screen-icon.png) of Escape op uw toetsenbord om het volledige scherm weg te gaan.  </span>
+1. <span class="preview"> (Facultatief) klik het **Volledige scherm** pictogram ![&#x200B; Open volledig het schermpictogram &#x200B;](assets/open-full-screen-icon.png) om de mening in volledig scherm te openen, dan de **Uitgang volledig scherm** pictogram ![&#x200B; het volledige het schermpictogram van de Uitgang &#x200B;](assets/exit-full-screen-icon.png) of Escape op uw toetsenbord om het volledige scherm weg te gaan.  </span>
 
 1. <span class="preview"> om verslagen in de kalendermening tot stand te brengen of hun data uit te geven doe één van het volgende:</span>
 
    * <span class="preview"> tweemaal klik overal op de kalender om een verslag tot stand te brengen. </span>
 
-     <span class="preview"> voor informatie, zie [ verslagen ](/help/quicksilver/planning/records/create-records.md) creëren.</span>
+     <span class="preview"> voor informatie, zie [&#x200B; verslagen &#x200B;](/help/quicksilver/planning/records/create-records.md) creëren.</span>
 
    * <span class="preview"> klik op de linker of juiste marge van een verslagbar, dan belemmering en laat vallen het in een nieuwe positie. Als u de grootte van de balken van de records wijzigt, worden de begin- of einddatums onmiddellijk bijgewerkt. </span>
 
    * <span class="preview"> belemmering en laat vallen de verslagbars om hun positie en data bij te werken. Als u de balken van de records verplaatst, worden de begin- en einddatum onmiddellijk bijgewerkt.</span>
 
-     <span class="preview"> voor informatie, zie [ verslagen ](/help/quicksilver/planning/records/edit-records.md) uitgeven.</span>
+     <span class="preview"> voor informatie, zie [&#x200B; verslagen &#x200B;](/help/quicksilver/planning/records/edit-records.md) uitgeven.</span>
 
 1. Werk de volgende weergave-elementen bij zoals in de onderstaande subsecties wordt beschreven:
    * [Filters](#add-filters)
-   * <span class="preview">[ de hoogte van de Rij ](#modify-row-height)</span>
+   * <span class="preview">[&#x200B; de hoogte van de Rij &#x200B;](#modify-row-height)</span>
    * [Instellingen](#edit-the-calendar-view-settings)
 
    <!--* [Grouping](#add-grouping)-->
@@ -183,7 +183,7 @@ Houd rekening met het volgende wanneer u werkt met filters in de kalenderweergav
 
 Een filter toevoegen aan een kalenderweergave:
 
-1. Creeer een kalendermening voor een verslagtype pagina, zoals die in artikel [ wordt beschreven beheer verslagmeningen ](/help/quicksilver/planning/views/manage-record-views.md).
+1. Creeer een kalendermening voor een verslagtype pagina, zoals die in artikel [&#x200B; wordt beschreven beheer verslagmeningen &#x200B;](/help/quicksilver/planning/views/manage-record-views.md).
 1. Selecteer een kalendermening, dan klik **Filters** in de toolbar van de kalender.
 1. Klik **toevoegen voorwaarde** en voeg de volgende informatie toe:
 
@@ -257,7 +257,7 @@ Een filter toevoegen aan een kalenderweergave:
 
    * Selecteer een waarde voor het geselecteerde veld.
 
-   ![ de lijstmening van de Filter UI ](assets/filter-ui-table-view.png)
+   ![&#x200B; de lijstmening van de Filter UI &#x200B;](assets/filter-ui-table-view.png)
 
    Er is geen limiet voor het aantal filtervoorwaarden dat u kunt toevoegen.
 
@@ -269,7 +269,7 @@ Een filter toevoegen aan een kalenderweergave:
 
    1. (Facultatief) voeg extra **EN** of **OF** exploitanten tussen veelvoudige voorwaardengroeperingen toe.
 
-      ![ Multi-tiered filters in meningen ](assets/multi-tiered-filters-in-views.png)
+      ![&#x200B; Multi-tiered filters in meningen &#x200B;](assets/multi-tiered-filters-in-views.png)
 
    De lijst met records wordt automatisch gefilterd.  <!--at this time, you can't name and save the filter - but will this change?!-->
    <!-- asked on the task for the simple filters whether there is a limitation for how many statements a filter can have?!-->
@@ -290,7 +290,7 @@ Het aantal records dat in de kalender wordt weergegeven, is afhankelijk van het 
 >Deze instelling is alleen beschikbaar wanneer u de kalender per maand weergeeft.
 
 
-1. Creeer een kalendermening voor een verslagtype pagina, zoals die in artikel [ wordt beschreven beheer verslagmeningen ](/help/quicksilver/planning/views/manage-record-views.md).
+1. Creeer een kalendermening voor een verslagtype pagina, zoals die in artikel [&#x200B; wordt beschreven beheer verslagmeningen &#x200B;](/help/quicksilver/planning/views/manage-record-views.md).
 1. (Voorwaardelijk) toon de kalendermening door maand, dan klik **de hoogte van de Rij** in de toolbar van de kalender.
 1. Kies een van de volgende opties:
 
@@ -348,7 +348,7 @@ Het aantal records dat in de kalender wordt weergegeven, is afhankelijk van het 
 
 Werk de instellingen van de kalenderweergave bij om aan te geven wat en hoe informatie in de weergave wordt weergegeven.
 
-1. Creeer een kalendermening voor een verslagtype, zoals die in artikel [ wordt beschreven beheer verslagmeningen ](/help/quicksilver/planning/views/manage-record-views.md).
+1. Creeer een kalendermening voor een verslagtype, zoals die in artikel [&#x200B; wordt beschreven beheer verslagmeningen &#x200B;](/help/quicksilver/planning/views/manage-record-views.md).
 1. Klik **Montages**.
 1. Klik **Datum en tijd** in het linkerpaneel, dan de datum van het a **Begin** en een **einddatum** om op de kalender te tonen. U kunt de standaardbegin- en einddatum kiezen of een datumveld kiezen dat beschikbaar is.
 
@@ -369,7 +369,7 @@ Werk de instellingen van de kalenderweergave bij om aan te geven wat en hoe info
 
    >[!NOTE]
    >
-   >    U moet eerst miniaturen toevoegen in de tabelweergave voordat u ze kunt weergeven in de kalenderweergave. Voor meer informatie, zie [ een duimnagel aan een verslag ](/help/quicksilver/planning/records/add-thumbnails-to-records.md) toevoegen.
+   >    U moet eerst miniaturen toevoegen in de tabelweergave voordat u ze kunt weergeven in de kalenderweergave. Voor meer informatie, zie [&#x200B; een duimnagel aan een verslag &#x200B;](/help/quicksilver/planning/records/add-thumbnails-to-records.md) toevoegen.
 
 1. Klik **toevoegen gebied**, dan klik binnen het **vakje van het Onderzoek gebieden**, en klik het gebied u wilt toevoegen.
 
@@ -383,11 +383,11 @@ Werk de instellingen van de kalenderweergave bij om aan te geven wat en hoe info
 
    Aan de rechterkant wordt een voorbeeld weergegeven van hoe de balken eruit zullen zien op de kalender.
 
-   ![ de stijlsectie van de Bar in de montages van de kalendermening ](assets/bar-style-section-in-calendar-view-settings-with-preview.png)
+   ![&#x200B; de stijlsectie van de Bar in de montages van de kalendermening &#x200B;](assets/bar-style-section-in-calendar-view-settings-with-preview.png)
 
 1. Klik **Kleur** in het linkerpaneel, om de kleuren van de verslagen op de kalender aan te passen.
 
-   ![ paneel van de Kleur op de montages van de kalendermening ](assets/color-panel-on-calendar-view-settings.png)
+   ![&#x200B; paneel van de Kleur op de montages van de kalendermening &#x200B;](assets/color-panel-on-calendar-view-settings.png)
 
 1. In de **Vastgestelde verslagkleur aan** sectie, selecteer van de volgende opties om een kleur voor de verslagen te plaatsen:
 
@@ -397,7 +397,7 @@ Werk de instellingen van de kalenderweergave bij om aan te geven wat en hoe info
 
 1. (Voorwaardelijk) als u **waarden van het Gebied** voor de verslagkleuren selecteerde, selecteer een gebied van **gelijke de verslagkleur aan** drop-down menu.
 
-   ![ de selecteur van het Gebied drop-down menu voor kalendermening ](assets/field-selector-drop-down-menu-calendar-view.png)
+   ![&#x200B; de selecteur van het Gebied drop-down menu voor kalendermening &#x200B;](assets/field-selector-drop-down-menu-calendar-view.png)
 
    Alleen velden met opties voor kleurcodes worden weergegeven in het keuzemenu.
 

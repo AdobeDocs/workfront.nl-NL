@@ -17,7 +17,7 @@ ht-degree: 0%
 
 <span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>
 
-<span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
+<span class="preview"> voor informatie over snelle versies, zie [&#x200B; snelle versies voor uw organisatie &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
 
 
 {{planning-important-intro}}
@@ -86,7 +86,7 @@ De weergave wordt verwijderd voor alle gebruikers die toegangsrechten hebben. Ve
 </tbody> 
 </table>
 
-*Voor meer informatie over de toegangsvereisten van Workfront, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Voor meer informatie over de toegangsvereisten van Workfront, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++   
 
@@ -109,15 +109,15 @@ De weergave wordt verwijderd voor alle gebruikers die toegangsrechten hebben. Ve
 
    * Afhankelijk van de omgeving waarin u de weergave opent, voert u de volgende handelingen uit:
 
-      * In het milieu van de Productie, houd over de lusjenaam van de mening u **Meer** menu ![ Meer menu ](assets/more-menu.png) aan het recht van de meningsnaam wilt delen en klikken, dan **Schrapping**.
+      * In het milieu van de Productie, houd over de lusjenaam van de mening u **Meer** menu ![&#x200B; Meer menu &#x200B;](assets/more-menu.png) aan het recht van de meningsnaam wilt delen en klikken, dan **Schrapping**.
 
      >[!TIP]
      >
      >U zou **Meer** aan het recht van het laatste lusje kunnen moeten klikken om de mening te vinden u wilt schrappen.
 
-      * <span class="preview"> In het milieu van de Voorproef, klik het lusje van de mening, over de mening in het drop-down menu, klik het **Meer** menu ![ Meer menu ](assets/more-menu.png), dan klik **Schrapping**.</span>
+      * <span class="preview"> In het milieu van de Voorproef, klik het lusje van de mening, over de mening in het drop-down menu, klik het **Meer** menu ![&#x200B; Meer menu &#x200B;](assets/more-menu.png), dan klik **Schrapping**.</span>
 
-     ![ Meer menu met opties ](assets/more-menu-for-views-expanded-with-delete-option.png)
+     ![&#x200B; Meer menu met opties &#x200B;](assets/more-menu-for-views-expanded-with-delete-option.png)
 
 1. Klik **Schrapping** om te bevestigen. <!--ensure there is not another saving step here?!-->
 
