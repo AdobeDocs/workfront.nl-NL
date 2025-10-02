@@ -6,9 +6,9 @@ description: U kunt informatie bewerken over programma's die u hebt gemaakt of o
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 7dcdfc5a-3fc1-48a8-ae28-a6a0a458732e
-source-git-commit: 03c1f17504846fc4b8c4114ddc32df687281bc07
+source-git-commit: fbf902196c9f5b55ddd1e20516e4237309dff2ed
 workflow-type: tm+mt
-source-wordcount: '904'
+source-wordcount: '986'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 U kunt informatie bewerken over programma&#39;s die u hebt gemaakt of over programma&#39;s die andere gebruikers hebben gemaakt als ze deze met u hebben gedeeld.
 
-U kunt een programma op de programmapagina bewerken of programma&#39;s in een lijst bewerken.
+U kunt een programma op de programmapagina bewerken of een of meerdere programma&#39;s in een lijst bulksgewijs bewerken.
 
 ## Toegangsvereisten
 
@@ -36,7 +36,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licentie*</td> 
-   <td> <p>Nieuw: [!UICONTROL Standard] </p><p>of </p><p>Huidig: [!UICONTROL Plan] </p> </td> 
+   <td> <p>[!UICONTROL Standard]</p>
+   <p>[!UICONTROL Plan]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Toegangsniveau</td> 
@@ -188,4 +189,21 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
    Nadat u de wijzigingen hebt opgeslagen, wordt de opmerking die u toevoegt, weergegeven op het tabblad [!UICONTROL Updates] van het programma en wordt een e-mail verzonden naar de gebruikers die er deel van uitmaken.
 1. Klikken **[!UICONTROL Save]**
+
+
+## Programma&#39;s bulksgewijs bewerken
+
+Wanneer u programma&#39;s bulksgewijs bewerkt, worden alle gegevens die u bijwerkt, toegepast op alle geselecteerde programma&#39;s, waarbij de oorspronkelijke gegevens van elk programma worden genegeerd.
+
+1. Ga naar een lijst met programma&#39;s en selecteer meerdere programma&#39;s.
+1. Klik **uitgeven** pictogram ![ uitgeven pictogram ](assets/edit-icon.png) bij de bovenkant van de lijst.
+
+   **geeft Programma&#39;s** doos uit opent.
+1. Werk de informatie in de volgende secties bij:
+
+   * Overzicht
+   * Aangepaste Forms
+   * Opmerking
+
+   Voor meer informatie, zie de sectie [ programma&#39;s ](#edit-programs-1) in dit artikel uitgeven, die met Stap 4 beginnen. <!--ensure this stays accurate-->
 

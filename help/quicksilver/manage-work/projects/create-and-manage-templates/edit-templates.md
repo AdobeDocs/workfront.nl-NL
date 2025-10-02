@@ -6,9 +6,9 @@ description: U kunt projectmalplaatjes uitgeven om op veranderingen in de proces
 author: Alina
 feature: Work Management
 exl-id: da0fca31-6a50-4862-ad9a-a453ef968773
-source-git-commit: 221113266624a94fbecd04af46a5c602a4d33334
+source-git-commit: fbf902196c9f5b55ddd1e20516e4237309dff2ed
 workflow-type: tm+mt
-source-wordcount: '5658'
+source-wordcount: '5655'
 ht-degree: 0%
 
 ---
@@ -508,7 +508,7 @@ Voor informatie over hoe deze montages het creëren van nieuwe taken beïnvloede
 
    ![ geef de sectie van de Montages van de Taak van het malplaatjevakje uit ](assets/edit-template-box-task-settings-section.png)
 
-1. In het **vakje van het Proces van de Goedkeuring Standaard van de Taak 0&rbrace;, selecteer het Proces van de Goedkeuring u met alle nieuwe taken wilt associëren wanneer u hen aan een project toevoegt dat van dit malplaatje wordt gecreeerd.** U moet een goedkeuringsproces voor taken creëren alvorens u het met taken kunt associëren. Alleen actieve goedkeuringsprocessen worden in de lijst weergegeven. Voor meer informatie over het creëren van de Processen van de Goedkeuring, zie [ Creërend de Processen van de Goedkeuring ](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
+1. In het **vakje van het Proces van de Goedkeuring Standaard van de Taak 0}, selecteer het Proces van de Goedkeuring u met alle nieuwe taken wilt associëren wanneer u hen aan een project toevoegt dat van dit malplaatje wordt gecreeerd.** U moet een goedkeuringsproces voor taken creëren alvorens u het met taken kunt associëren. Alleen actieve goedkeuringsprocessen worden in de lijst weergegeven. Voor meer informatie over het creëren van de Processen van de Goedkeuring, zie [ Creërend de Processen van de Goedkeuring ](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
 1. In het **vakje van de Aangepaste Forms van de Taak Standaard**, selecteer de douanevorm of de vormen die u met alle nieuwe taken wilt associëren wanneer u hen aan een project toevoegt dat van dit malplaatje wordt gecreeerd. U moet aangepaste formulieren maken voordat u ze in dit veld kunt selecteren. Alleen actieve aangepaste formulieren worden in de lijst weergegeven. Voor meer informatie over de bouw van douaneformulieren, zie [ een douaneformulier ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren. U kunt maximaal tien aangepaste formulieren aan een taak koppelen.
 1. (Optioneel) Selecteer **Werkinspanning van het Gebruik om taak Geplande Uren** automatisch te berekenen als u het beheren van taakinspanning wilt toelaten door de Werkinspanning in plaats van Geplande Uren in het project te gebruiken dat van het malplaatje wordt gecreeerd.
 1. (Voorwaardelijk en optioneel) Als u Werkinspanning gebruiken hebt geselecteerd om taken Geplande uren automatisch te berekenen, klikt u op het vervolgkeuzemenu om het percentage voor elk niveau van de Werkinspanning bij te werken. De volgende percentagewaarden zijn de standaardwaarden:
@@ -652,8 +652,6 @@ Editing templates in bulk differs depending on which environment you are using.
 
 *****************and hide the first line below************ -->
 
-Sjablonen bulksgewijs bewerken:
-
 {{step1-to-templates}}
 
 1. Selecteer verschillende sjablonen in de lijst.
@@ -671,12 +669,11 @@ Sjablonen bulksgewijs bewerken:
 
    * Overzicht
    * Financiën
-   * Portfolio
-   * Instellingen
-   * Toegang
    * Aangepaste Forms
-   * Taken
-   * Problemen
+   * Sjablooninstellingen
+   * Taakinstellingen
+   * Instellingen van uitgave
+   * Toegang
    * Opmerking
 
 1. Klik **sparen**.

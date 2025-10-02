@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
-source-git-commit: a92c85ad5f58700138d7750423cc3d134d980a9e
+source-git-commit: fbf902196c9f5b55ddd1e20516e4237309dff2ed
 workflow-type: tm+mt
-source-wordcount: '1869'
+source-wordcount: '1971'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,11 @@ ht-degree: 0%
 
 # Weergaven delen
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--take out preview and production references at production-->
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>
+
+<span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
 
 {{planning-important-intro}}
 
@@ -38,7 +40,7 @@ This article describes how you can share a view with others. For information abo
 
 ## Toegangsvereisten
 
-+++ Vouw uit om de vereisten voor toegang weer te geven.
++++ Vouw uit om de vereisten voor toegang weer te geven. 
 
 <!--at GA, check that the Workfront plans article linked below has Planning info-->
 
@@ -83,7 +85,7 @@ This article describes how you can share a view with others. For information abo
   </tr> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront-licentie*</p></td> 
-   <td><p> Standaard</p>
+   <td><p> Standard</p>
    <p>Workfront Planning is niet beschikbaar voor oudere Workfront-licenties</p> 
   </td> 
   </tr> 
@@ -141,9 +143,13 @@ U kunt weergaven delen die u hebt gemaakt of weergaven waarop u beheerdersmachti
 
    Hierdoor wordt de pagina met recordtypen geopend.
 
-1. Voer op het tabblad Weergave een van de volgende handelingen uit:
+1. Voer op het tabblad van de weergave een van de volgende handelingen uit:
 
-   * Beweeg over de lusjenaam van de mening u **Meer** menu ![ ](assets/more-menu.png) aan het recht van de meningsnaam delen en wilt klikken, dan **Aandeel** klikken.
+   * Afhankelijk van de omgeving waarin u de weergave opent, voert u de volgende handelingen uit:
+
+      * In het milieu van de Productie, houd over de lusjenaam van de mening u **Meer** menu ![ Meer menu ](assets/more-menu.png) aan het recht van de meningsnaam delen en wilt klikken, dan **Aandeel** klikken.
+
+      * <span class="preview"> In het milieu van de Voorproef, klik het lusje van de mening, over de mening in het drop-down menu, klik het **Meer** menu ![ Meer menu ](assets/more-menu.png), dan klik **Aandeel**.</span>
 
      ![ Meer menu voor een mening ](assets/more-menu-for-views-expanded-with-share-option.png)
 
@@ -222,7 +228,7 @@ Een weergave openbaar delen in Workfront Planning:
 
    Er wordt een koppeling beschikbaar. Dit is een openbare link. Als de koppeling wordt gedeeld, heeft iedereen met deze koppeling, dus ook mensen van buiten uw organisatie, toegang tot de pagina met recordtypen en kunnen records en velden op de pagina worden weergegeven.
 
-1. Klik de **pictogram van het 1&rbrace; verbinding van het Exemplaar** verbindingsmening van het Exemplaar ![ om de verbinding aan uw klembord te kopiëren.](assets/copy-link-view.png)
+1. Klik de **pictogram van het 1} verbinding van het Exemplaar** verbindingsmening van het Exemplaar ![ om de verbinding aan uw klembord te kopiëren.](assets/copy-link-view.png)
 
 1. Voer manueel een datum in, of gebruik de kalender op het **gebied van de Vervaldatum van de Verbinding** om een vervaldatum voor de openbare verbinding te selecteren. De weergave van de recordpagina is na de geselecteerde datum niet toegankelijk.
 
@@ -272,10 +278,8 @@ Gebruikers die een koppeling openen naar een weergave waarvoor zij geen machtigi
 1. (Voorwaardelijk) Als u de manager van een mening bent, zou u een verzoek van een andere gebruiker kunnen ontvangen om tot de mening op de volgende gebieden toegang te hebben:
 
    * Een melding in de app
-
      ![ In-app bericht voor toegangsverzoek voor mening ](assets/in-app-notification-for-access-request-for-view.png)
    * Een e-mailmelding
-
      ![ In-app bericht voor toegangsverzoek voor mening ](assets/in-app-notification-for-access-request-for-view.png)
 1. (Voorwaardelijk) Klik in het systeemvak in Workfront op de melding in de app.
 of

@@ -6,9 +6,9 @@ description: Risico's zijn mogelijke gebeurtenissen of factoren die verhinderen 
 author: Alina
 feature: Work Management
 exl-id: 6125c477-c0d8-43b4-88d8-35b0c2412468
-source-git-commit: 724c507dd5ee09b3364fc2037380a8cb18be08f2
+source-git-commit: fbf902196c9f5b55ddd1e20516e4237309dff2ed
 workflow-type: tm+mt
-source-wordcount: '1103'
+source-wordcount: '1080'
 ht-degree: 0%
 
 ---
@@ -115,7 +115,7 @@ U kunt risico&#39;s in de sectie van Risico&#39;s van een project of een malplaa
 
    ![ sectie van de Risico&#39;s van taak ](assets/risks-section-on-project-2022.png)
 
-1. Klik **Begin Toevoegend Risken** en creeer risico&#39;s door in-lijn het uitgeven van hun informatie.
+1. Klik **toevoegen Meer Risken** en creeer risico&#39;s door in-lijn het uitgeven van hun informatie.
 
    of
 
@@ -131,17 +131,13 @@ U kunt risico&#39;s in de sectie van Risico&#39;s van een project of een malplaa
 
    * **Kans**: Verwijs de waarschijnlijkheid van het risico dat als percentagewaarde voorkomt.
    * **Potentiële Kosten**: Verwijs op de geschatte kosten als het risico zou moeten voorkomen.
-   * **Kosten van de Vermindering**: Wijs op de kosten van het matigingsplan dat u moet plaatsen om het risico te verhinderen voor te komen.
    * **Ware Kosten**: Verwijs de daadwerkelijke kosten van het risico als het risico voorkwam.
+   * **Kosten van de Vermindering**: Wijs op de kosten van het matigingsplan dat u moet plaatsen om het risico te verhinderen voor te komen.
    * **Plan van de Vermindering**: Werk de beschrijving van het plan bij om het risico te verlichten.
 
-1. (Voorwaardelijk) klik **binnengaan** als u het risico in-lijn creeert.
+1. Klik **sparen**.
 
-   of
-
-   Klik **sparen** als u de informatie in de **Nieuwe risico** doos uitgeeft.
-
-1. (Facultatief) selecteer een verschillende **Status** voor het risico, in het **3&rbrace; drop-down menu van de Status &lbrace;, wanneer het toepassen van de** Standaard **mening voor de lijst van risico&#39;s.**
+1. (Facultatief) selecteer een verschillende **Status** voor het risico, in het **3} drop-down menu van de Status {, wanneer het toepassen van de** Standaard **mening voor de lijst van risico&#39;s.**
 
    Door gebrek, wordt de **Status** van een risico **geïdentificeerd**.
 
@@ -167,18 +163,18 @@ Risico&#39;s bewerken:
 
 1. Als u **hebt geklikt geef** uit, **geeft risico** uit of **geeft risico&#39;s** doos opent uit.
 
-   U kunt de volgende velden bewerken:
+   Werk de volgende velden bij:
 
    * **Beschrijving**: geef de beschrijving van het risico uit.
    * **Type van Risico**: Werk welke categorie bij het risico onder valt.
    * **Kans**: Verwijs de waarschijnlijkheid van het risico dat als percentagewaarde voorkomt.
    * **Potentiële Kosten**: Verwijs op de geschatte kosten als het risico zou moeten voorkomen.
-   * **Kosten van de Vermindering**: Wijs op de kosten van het matigingsplan dat u moet plaatsen om het risico te verhinderen voor te komen.
    * **Ware Kosten**: Verwijs de daadwerkelijke kosten van het risico als het risico voorkwam.
+   * **Kosten van de Vermindering**: Wijs op de kosten van het matigingsplan dat u moet plaatsen om het risico te verhinderen voor te komen.
    * **Plan van de Vermindering**: Werk de beschrijving van het plan bij om het risico te verlichten.
 
 1. Klik **sparen**.
-1. (Facultatief) geef de **Status** voor een risico, in het **3&rbrace; drop-down menu van de Status &lbrace;uit, wanneer het toepassen van de** Standaard **mening voor de lijst van risico&#39;s.**
+1. (Facultatief) geef de **Status** voor een risico, in het **3} drop-down menu van de Status {uit, wanneer het toepassen van de** Standaard **mening voor de lijst van risico&#39;s.**
 
    >[!NOTE]
    >

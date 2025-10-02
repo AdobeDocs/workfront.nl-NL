@@ -6,18 +6,20 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 441a53d1-ad39-41b7-93fe-2ae1836476c9
-source-git-commit: bfb0fd2956ffb9384a09882864668d5dba33a53b
+source-git-commit: fbf902196c9f5b55ddd1e20516e4237309dff2ed
 workflow-type: tm+mt
-source-wordcount: '356'
+source-wordcount: '454'
 ht-degree: 0%
 
 ---
 
 # Recordweergaven dupliceren
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--remove preview and production references-->
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>
+
+<span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
 
 
 {{planning-important-intro}}
@@ -107,12 +109,11 @@ Het dupliceren van weergaven is hetzelfde voor alle typen weergaven in Workfront
    De pagina met recordtypen wordt geopend.
 Standaard worden alle records van het geselecteerde type weergegeven in de tabelweergave.
 
-1. Beweeg over het lusje van de mening u wilt dupliceren, en **klikken Meer** menu ![ ](assets/more-menu.png) rechts van de meningsnaam, dan **&#x200B;**&#x200B;dupliceert.
+1. Afhankelijk van de omgeving die u gebruikt, gaat u als volgt te werk:
 
-   ![ Mening meer menu op een verslagmening ](assets/view-more-menu-with-duplicate-option.png)
+   * In het milieu van de Productie, houd over één van de namen van de mening in het meningslusje, dan klik **Meer** ![ Meer menu ](assets/more-menu.png) links van de meningsnaam, dan klik **** dupliceren.
+   * <span class="preview"> in het milieu van de Voorproef, klik het dropdown pictogram ![ Dropdown pictogram ](assets/drop-down-icon.png) naast de huidige meningsnaam, over de naam van een mening, klik **Meer**, dan **Dupliceer**.</span>
 
-   <!--at preview release, replace the step above with this one: 
-    1. Depending on which environment you use, do the following: 
-    * In the Production environment, hover over one the of the view's names in the view tab, then click **More** ![More menu](assets/more-menu.png) to the left of the view name, then click **Duplicate**. 
-    * <span class="preview">In the Preview environment, click the dropdown icon ![Dropdown icon](assets/drop-down-icon.png) next to the current view name, hover over the name of a view, click **More**, then **Duplicate**.</span>-->
-   De weergave wordt gedupliceerd en de naam van de nieuwe weergave volgt het volgende patroon: `Original view's name (Copy)` . Het nieuwe meningslusje toont aan het eind van alle meningslusjes.
+     ![ Meer menu op mening met opties ](assets/more-menu-for-views-expanded-with-delete-option.png)
+
+     De weergave wordt gedupliceerd en de naam van de nieuwe weergave volgt het volgende patroon: `Original view's name (Copy)` . Het nieuwe meningslusje toont aan het eind van alle meningslusjes.

@@ -6,18 +6,18 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: f86971bc-e807-459e-9fa8-dc34967bc069
-source-git-commit: bfb0fd2956ffb9384a09882864668d5dba33a53b
+source-git-commit: fbf902196c9f5b55ddd1e20516e4237309dff2ed
 workflow-type: tm+mt
-source-wordcount: '312'
+source-wordcount: '422'
 ht-degree: 0%
 
 ---
 
 # Recordweergaven verwijderen
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
 
 
 {{planning-important-intro}}
@@ -104,18 +104,20 @@ De weergave wordt verwijderd voor alle gebruikers die toegangsrechten hebben. Ve
 
    Standaard worden alle records van het geselecteerde type weergegeven in de tabelweergave.
 
-1. Beweeg over één van de namen van de mening in het meningslusje, dan klik **Meer** ![ Meer menu ](assets/more-menu.png) links van de meningsnaam, dan klik **Schrapping**.
 
-   ![ Mening meer menu op een verslagmening ](assets/view-more-menu-with-duplicate-option.png)
+1. Voer op het tabblad van de weergave een van de volgende handelingen uit:
 
-   >[!TIP]
-   >
-   >U zou **Meer** aan het recht van het laatste lusje kunnen moeten klikken om de mening te vinden u wilt schrappen.
+   * Afhankelijk van de omgeving waarin u de weergave opent, voert u de volgende handelingen uit:
 
-   <!--at preview release, replace the step above with this one: 
-    1. Depending on which environment you use, do the following: 
-    * In the Production environment, hover over one the of the view's names in the view tab, then click **More** ![More menu](assets/more-menu.png) to the left of the view name, then click **Delete**. 
-    * <span class="preview">In the Preview environment, click the dropdown icon ![Dropdown icon](assets/drop-down-icon.png) next to the current view name, hover over the name of a view, click **More**, then **Delete**.</span>-->
+      * In het milieu van de Productie, houd over de lusjenaam van de mening u **Meer** menu ![ Meer menu ](assets/more-menu.png) aan het recht van de meningsnaam wilt delen en klikken, dan **Schrapping**.
+
+     >[!TIP]
+     >
+     >U zou **Meer** aan het recht van het laatste lusje kunnen moeten klikken om de mening te vinden u wilt schrappen.
+
+      * <span class="preview"> In het milieu van de Voorproef, klik het lusje van de mening, over de mening in het drop-down menu, klik het **Meer** menu ![ Meer menu ](assets/more-menu.png), dan klik **Schrapping**.</span>
+
+     ![ Meer menu met opties ](assets/more-menu-for-views-expanded-with-delete-option.png)
 
 1. Klik **Schrapping** om te bevestigen. <!--ensure there is not another saving step here?!-->
 
