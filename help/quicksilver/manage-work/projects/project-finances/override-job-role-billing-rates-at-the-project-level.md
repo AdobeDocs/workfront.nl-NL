@@ -6,14 +6,16 @@ description: Als projectmanager, kunt u specificeren wat het het facturerings ta
 author: Lisa
 feature: Work Management
 exl-id: b7a33459-6929-4611-8546-06ca979e5dbe
-source-git-commit: eb3db3b056cea359f77e56f77d6e9520954e2abb
+source-git-commit: 5e2c2a29c822150377882006bd6bc15068ff8702
 workflow-type: tm+mt
-source-wordcount: '850'
+source-wordcount: '866'
 ht-degree: 0%
 
 ---
 
 # De Factureringstarieven van de Rol van de Opheffing van de Taak op het projectniveau
+
+{{highlighted-preview}}
 
 Als projectmanager, kunt u specificeren wat het het facturerings tarief voor een baanrol op een specifiek project is. Dit factureringstarief op projectniveau treedt het factureringstarief op het systeemniveau voor deze baanrol met voeten. Workfront gebruikt het factureringstarief op projectniveau van de baanrol om opbrengst te berekenen, in plaats van het systeem-vlakke factureringstarief te gebruiken.
 
@@ -87,9 +89,7 @@ Een factureringssnelheid voor een project overschrijven:
 
    Het vak Nieuwe factureringsfrequentie wordt geopend.
 
-1. Op het **gebied van de Rol van de Baan 0&rbrace;, selecteer de baanrol u het facturerings tarief voor wilt veranderen.**
-
-   ![ met voeten treden facturerend tarief op project ](assets/override-billing-rate-on-project-nwe-350x310.png)
+1. Op het **gebied van de Rol van de Baan 0}, selecteer de baanrol u het facturerings tarief voor wilt veranderen.**
 
    Het **Standaard het FactureringsTarief** gebied toont het systeem-vlakke tarief voor deze baanrol.
 
@@ -105,7 +105,11 @@ Een factureringssnelheid voor een project overschrijven:
    * **Datum van het Begin**: dit is de datum wanneer het StandaardTarief beëindigt.
    * **Datum van het Eind**: de datum wanneer de nieuwe het factureren tariefopheffing beëindigt.
 
-   ![ new_billing_rate_with_adjustment_dates.png ](assets/new-billing-rate-with-adjustment-dates-350x266.png)
+   <span class="preview"> beeld van de Steekproef in het milieu van de Voorproef:</span>
+   ![ het Factureren tarieven met opheffingsdata ](assets/billing-rates-093025.png)
+
+   Voorbeeldafbeelding in de productieomgeving:
+   ![ het Factureren tarieven met opheffingsdata ](assets/new-billing-rate-with-adjustment-dates-350x266.png)
 
 1. De tijdzone voor de data die u selecteert, wordt onder in het vak Nieuwe factureringssnelheid weergegeven. Dit is de tijdzone verbonden aan uw instantie van Workfront, zoals aangetoond in het gebied van Info van de Klant van Opstelling. Voor informatie, zie [ basisinformatie voor uw systeem ](../../../administration-and-setup/get-started-wf-administration/configure-basic-info.md) vormen.
 1. Workfront past het tarief van de opheffingsbaan op de uren toe die tijdens de gespecificeerde tijdkaders voorkomen wanneer het berekenen van opbrengst op het project.
