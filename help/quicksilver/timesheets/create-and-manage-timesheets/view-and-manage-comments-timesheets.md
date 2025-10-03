@@ -6,9 +6,9 @@ description: U kunt commentaren op timesheets, de het werkpunten inbegrepen in t
 author: Alina
 feature: Timesheets
 exl-id: 6260d176-3cfb-4bc2-93cb-00687e030248
-source-git-commit: c53e7d2229032c59710a8f955de53cfbd7fc6df4
+source-git-commit: 3b5452c51c19edfafc9244c2cfd58d7174732375
 workflow-type: tm+mt
-source-wordcount: '900'
+source-wordcount: '919'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ U kunt updates van een timesheet of van individuele uuringangen in een rapport v
 
 ## Toegangsvereisten
 
-+++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven. 
 
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
@@ -88,7 +88,7 @@ De commentaren tonen onder het punt waar de uuringang en de commentaar werden ge
 
 U kunt algemene opmerkingen maken over de tijdpagina. Het plaatsen van opmerkingen over de gehele tijdlijn lijkt op het plaatsen van opmerkingen over andere objecten.
 
-1. Klik het **pictogram 1&rbrace; van het Belangrijkste Menu ![ Belangrijkste menupictogram ](assets/main-menu-icon.png) in de hoger-juiste hoek, of het** Belangrijkste **pictogram van het Menu ![ het belangrijkste menu van Lijnen ](assets/lines-main-menu.png) in de upper-left hoek of Workfront, als beschikbaar.**
+1. Klik het **pictogram 1} van het Belangrijkste Menu** Belangrijkste menupictogram ![ in de hoger-juiste hoek, of het ](assets/main-menu-icon.png) Belangrijkste **pictogram van het Menu** het belangrijkste menu van Lijnen ![ in de upper-left hoek of Workfront, als beschikbaar.](assets/lines-main-menu.png)
 
 1. Klik **Tijdopnemers**.
 1. Ga naar de tijdpagina waarop u een opmerking wilt maken.
@@ -96,6 +96,10 @@ U kunt algemene opmerkingen maken over de tijdpagina. Het plaatsen van opmerking
 1. Begin toevoegend nieuwe commentaren of antwoord aan bestaande degenen, zoals die in [ het werk van de Update ](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md) worden beschreven.
 1. (Facultatief) voeg mensen of teams in het **mensen of de teams van de Markering** gebied toe om anderen in uw update te omvatten. Voor meer informatie, zie [ Tags anderen op updates ](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
 1. (Facultatief) selecteer de **Privé aan mijn bedrijf** optie als u slechts mensen van uw bedrijf de update wilt bekijken.
+
+   >[!TIP]
+   >
+   >**Privé aan mijn bedrijf** het plaatsen is slechts beschikbaar wanneer uw profiel van Workfront met een bedrijf wordt geassocieerd.
 1. Typ uw commentaar, dan klik **voorleggen**.
 
    Uw opmerking wordt weergegeven in de sectie [!UICONTROL Updates] van het tijdspad, op het tabblad Opmerkingen.
@@ -115,7 +119,7 @@ U kunt algemene opmerkingen maken over de tijdpagina. Het plaatsen van opmerking
 
 ### Commentaar op een individuele uuringang in een timesheet {#comment-on-an-individual-hour-entry-in-a-timesheet}
 
-1. Klik het **pictogram 1&rbrace; van het Belangrijkste Menu ![ Belangrijkste menupictogram ](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront.**
+1. Klik het **pictogram 1} van het Belangrijkste Menu** Belangrijkste menupictogram ![ in de hoger-juiste hoek van Adobe Workfront.](assets/main-menu-icon.png)
 
 1. Klik **Tijdopnemers**.
 1. Ga naar timesheet waar u een commentaar wilt maken en **Timesheet** in het linkerpaneel klikken.
@@ -154,7 +158,7 @@ U kunt algemene opmerkingen maken over de tijdpagina. Het plaatsen van opmerking
 
 U kunt alleen opmerkingen maken over taken en problemen in een tijdsplaat. U kunt geen opmerkingen maken over projecten of algemene tijd.
 
-1. Klik het **pictogram 1&rbrace; van het Belangrijkste Menu ![ Belangrijkste menupictogram ](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront.**
+1. Klik het [!UICONTROL **pictogram 1} van het Belangrijkste Menu**] Belangrijkste menupictogram ![ in de hoger-juiste hoek van Adobe Workfront.](assets/main-menu-icon.png)
 1. Klik [!UICONTROL **Tijdopnemers**].
 1. Ga naar timesheet waar u een commentaar wilt maken, en [!UICONTROL **Timesheet**] in het linkerpaneel klikken.
 1. Klik de rij van een taak of een kwestie, dan klik [!UICONTROL **Open Samenvatting**].

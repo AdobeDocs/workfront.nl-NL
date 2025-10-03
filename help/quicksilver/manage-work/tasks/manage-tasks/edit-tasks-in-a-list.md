@@ -2,13 +2,13 @@
 product-area: projects
 navigation-topic: manage-tasks
 title: Taken in een lijst bewerken
-description: U kunt de taakgegevens in een takenlijst bewerken door de velden in de lijst te bewerken.
+description: U kunt de taakgegevens in een takenlijst bewerken door de velden in de lijst te bewerken. U moet de overzichtsmodus definiëren in een lijst met taken om aan te geven hoe u uw wijzigingen wilt opslaan in Workfront. U kunt uw wijzigingen handmatig of automatisch opslaan.
 author: Alina
 feature: Work Management
 exl-id: 2af81907-3657-459e-b780-65983e224ca8
-source-git-commit: 42243c1f09b9d7eaa6705a0722fd3650bbc95266
+source-git-commit: 3b5452c51c19edfafc9244c2cfd58d7174732375
 workflow-type: tm+mt
-source-wordcount: '2756'
+source-wordcount: '2822'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ U kunt de taakgegevens in een takenlijst bewerken door de velden in de lijst te 
 
 Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-+++
++++ 
 
 ## Overwegingen bij het bewerken van taken in een lijst {#considerations-about-editing-tasks-in-a-list}
 
@@ -84,15 +84,20 @@ Houd rekening met het volgende wanneer u taken in een lijst bewerkt:
      >
      >Standaard slaat Workfront uw wijzigingen in taken automatisch op in de sectie Subtaken of in een taakrapport.
 
-* U kunt bepalen wanneer Workfront de wijzigingen opslaat die u in de taken in een lijst aanbrengt. De wijzigingen kunnen automatisch worden opgeslagen of u kunt ze handmatig opslaan.
+* U kunt bepalen wanneer Workfront de wijzigingen opslaat die u in de taken in een lijst aanbrengt door de overzichtsmodus te definiëren voordat u de taken gaat bewerken.
 
-  Voor informatie over het vormen wanneer Workfront veranderingen opslaat u aan taken in een lijst aanbrengt, zie [ Uitgezochte sparen optie wanneer het uitgeven van taken in een lijst ](#select-a-save-option-when-editing-tasks-in-a-list) sectie in dit artikel.
+  U kunt de wijzigingen die u aanbrengt als volgt opslaan tussen Workfront:
+
+      * Automatisch, na elke wijziging 
+     * Handmatig, alleen nadat u op Opslaan hebt geklikt. 
+  
+  Voor informatie over het vormen wanneer Workfront veranderingen opslaat u aan taken in een lijst aanbrengt, zie [ de Wijzig Wijzig Wijzig de Wijze van het Plan alvorens taken in een lijst ](#modify-plan-mode-before-editing-tasks-in-a-list) sectie in dit artikel uit te geven.
 
 * Andere gebruikers moeten hun pagina&#39;s vernieuwen voordat ze de updates die u voor een taak maakt, kunnen bekijken.
 
-## Selecteer een optie voor opslaan wanneer u taken in een lijst bewerkt {#select-a-save-option-when-editing-tasks-in-a-list}
+## Abonnementsmodus wijzigen voordat taken in een lijst worden bewerkt
 
-U kunt bepalen of de wijzigingen die u in taken in een lijst aanbrengt, automatisch worden opgeslagen wanneer deze zich voordoen, of dat u elke wijziging handmatig wilt opslaan.
+U kunt bepalen of de wijzigingen die u in taken in een lijst aanbrengt, automatisch worden opgeslagen wanneer deze zich voordoen, of dat u elke wijziging handmatig wilt opslaan. Om dit te doen, moet u de Wijze van het Plan in een lijst van taak wijzigen alvorens de taken uit te geven.
 
 >[!IMPORTANT]
 >
@@ -100,17 +105,17 @@ U kunt bepalen of de wijzigingen die u in taken in een lijst aanbrengt, automati
 
 Wanneer u uw veranderingen in een lijst voor een project opslaat dat of Automatisch of bij Verandering als Type van Update wordt geselecteerd, werkt Workfront de projectchronologie, samen met alle in-project en dwars-projectgebiedsdelen bij. De berekeningen van de Chronologie kunnen lange tijd vergen als het project groot is of als er veel gebiedsdelen zijn. Sommige methoden voor het bewerken van een takenlijst zijn mogelijk sneller dan andere, afhankelijk van de methode die u selecteert om uw wijzigingen op te slaan.
 
-U kunt bepalen wanneer Workfront de wijzigingen opslaat die u in de taken in een lijst aanbrengt. De volgende scenario&#39;s bestaan: 
+U kunt bepalen wanneer Workfront de wijzigingen opslaat die u in de taken in een lijst aanbrengt. De volgende scenario&#39;s bestaan:
 
 * Workfront kan de wijzigingen na elke update automatisch laten opslaan.
 
-  Voor informatie, zie de sectie [ taken in een lijst uitgeven en automatisch veranderingen ](#edit-tasks-in-a-list-and-automatically-save-changes) in dit artikel opslaan.
+  Voor informatie, zie de sectie [ plaats de Wijze van het Plan om veranderingen ](#set-the-plan-mode-to-automatically-save-changes) in dit artikel automatisch te bewaren.
 
 * Met de knop Opslaan kunt u zelf bepalen wanneer u meerdere wijzigingen tegelijk toepast.
 
-  Voor informatie, zie de sectie [ taken in een lijst uitgeven en manueel sparen veranderingen ](#edit-tasks-in-a-list-and-manually-save-changes) in dit artikel.
+  Voor informatie, zie de sectie [ plaatsen de Wijze van het Plan om veranderingen ](#set-the-plan-mode-to-manually-save-changes) in dit artikel manueel te bewaren.
 
-### Taken in een lijst bewerken en wijzigingen automatisch opslaan {#edit-tasks-in-a-list-and-automatically-save-changes}
+### Stel de overzichtsmodus in om wijzigingen automatisch op te slaan
 
 >[!TIP]
 >
@@ -129,7 +134,7 @@ Taken in een lijst bewerken en wijzigingen automatisch opslaan:
 1. Voor de **pagina van Projecten**, selecteer een project.
 1. In het linkerpaneel, klik de **sectie van Taken**.
 
-1. Klik het **pictogram van het pictogram ![ de wijzepictogram van het Plan ](assets/plan-mode-icon.png) bij de bovenkant van de lijst en zorg ervoor de** Autosave **optie wordt geselecteerd.**
+1. Klik het **pictogram van de Wijze van het Plan** pictogram van de Wijze van het Plan ![ bij de bovenkant van de lijst en zorg ervoor de ](assets/plan-mode-icon.png) Autosave **optie wordt geselecteerd.**
 
    ![ laat autosave het plaatsen ](assets/autosave-setting-enabled-quicksilver-task-list-350x308.png) toe
 
@@ -192,7 +197,7 @@ Taken in een lijst bewerken en wijzigingen automatisch opslaan:
     </tbody> 
    </table>
 
-### Taken in een lijst bewerken en wijzigingen handmatig opslaan {#edit-tasks-in-a-list-and-manually-save-changes}
+### Stel de overzichtsmodus in om wijzigingen handmatig op te slaan {#edit-tasks-in-a-list-and-manually-save-changes}
 
 U kunt wijzigingen die u aanbrengt in taken in een lijst handmatig opslaan. Als u wijzigingen op deze manier opslaat, hebt u de flexibiliteit om deze om te keren voordat u ze opslaat.
 
@@ -239,7 +244,7 @@ Taken in een lijst bewerken wanneer u de optie Handmatig opslaan kiest:
 
 1. In het linkerpaneel, klik de **sectie van Taken**.
 
-1. Klik het **pictogram van het pictogram ![ de wijzepictogram van het Plan ](assets/plan-mode-icon.png) bij de bovenkant van de lijst van de 3&rbrace; wijze van het Plan.**
+1. Klik het **pictogram van de Wijze van het Plan** pictogram van de Wijze van het Plan ![ bij de bovenkant van de lijst.](assets/plan-mode-icon.png)
 
 1. In de **dialoog van de Wijze van het Plan**, uitgezochte **Handboek sparen**, dan klik **Standaard**.
 
@@ -327,7 +332,7 @@ Taken in een lijst bewerken wanneer u de optie Tijdlijnplanning handmatig opslaa
 
 1. In het linkerpaneel, klik de **sectie van Taken**.
 
-1. Klik het **pictogram van het pictogram ![ de wijzepictogram van het Plan ](assets/plan-mode-icon.png) bij de bovenkant van de lijst van de 3&rbrace; wijze van het Plan.**
+1. Klik het **pictogram van de Wijze van het Plan** pictogram van de Wijze van het Plan ![ bij de bovenkant van de lijst.](assets/plan-mode-icon.png)
 
 1. In de **dialoog van de Wijze van het Plan**, uitgezochte **Handboek sparen**, dan klik **Planning van de Chronologie**.
 
@@ -459,7 +464,7 @@ U kunt meerdere taken tegelijk bewerken. Zorg ervoor dat u beheermachtigingen vo
 1. Voor de **pagina van Projecten**, selecteer een project.
 1. In het linkerpaneel, klik de **sectie van Taken**.
 
-1. Klik het **pictogram van het pictogram ![ de wijzepictogram van het Plan ](assets/plan-mode-icon.png) bij de bovenkant van de lijst en zorg ervoor de** Autosave **optie wordt geselecteerd.**
+1. Klik het **pictogram van de Wijze van het Plan** pictogram van de Wijze van het Plan ![ bij de bovenkant van de lijst en zorg ervoor de ](assets/plan-mode-icon.png) Autosave **optie wordt geselecteerd.**
 
    ![ laat autosave het plaatsen ](assets/autosave-setting-enabled-quicksilver-task-list-350x308.png) toe
 
@@ -472,7 +477,7 @@ U kunt meerdere taken tegelijk bewerken. Zorg ervoor dat u beheermachtigingen vo
 
 1. Geef de informatie op die u wilt wijzigen voor alle geselecteerde taken.
 
-   Het bewerken van de informatie over alle taken is hetzelfde als het bewerken van de informatie over één taak. Als u taakDuur wilt uitgeven, moeten de geselecteerde taken de zelfde Beperking van de Taak hebben; anders, bevolkt het **gebied van de Duur** &lbrace;niet.
+   Het bewerken van de informatie over alle taken is hetzelfde als het bewerken van de informatie over één taak. Als u taakDuur wilt uitgeven, moeten de geselecteerde taken de zelfde Beperking van de Taak hebben; anders, bevolkt het **gebied van de Duur** {niet.
 
    Voor meer informatie over het uitgeven van een taak, zie [ taken ](../../../manage-work/tasks/manage-tasks/edit-tasks.md) uitgeven.
 

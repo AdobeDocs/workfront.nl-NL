@@ -6,9 +6,9 @@ description: Wanneer u updatecommentaren op een Adobe Workfront-object opgeeft, 
 author: Alina
 feature: Get Started with Workfront
 exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
-source-git-commit: 1eb1e919bede7e366956d8c0bd969329a641123f
+source-git-commit: 3b5452c51c19edfafc9244c2cfd58d7174732375
 workflow-type: tm+mt
-source-wordcount: '1008'
+source-wordcount: '996'
 ht-degree: 0%
 
 ---
@@ -55,7 +55,7 @@ In plaats van deze gebruikers op het object te plaatsen door ze eraan toe te wij
 
 ## Toegangsvereisten
 
-+++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven. 
 
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
@@ -122,8 +122,7 @@ U kunt ook gebruikers verwijderen die per ongeluk zijn gelabeld wanneer u een op
 
    >[!NOTE]
    >
-   >* Deze optie toont slechts wanneer de gebruiker met een Bedrijf wordt geassocieerd.
-   >* Gelabelde gebruikers buiten het bedrijf konden nog steeds een melding in de app of een e-mail ontvangen, ook al zullen ze de persoonlijke opmerkingen op het tabblad Updates niet zien. We raden u aan geen tags toe te wijzen aan externe gebruikers tijdens een update als u de gegevens niet met hen wilt delen.
+   >Gelabelde gebruikers buiten het bedrijf konden nog steeds een melding in de app of een e-mail ontvangen, ook al zullen ze de persoonlijke opmerkingen op het tabblad Updates niet zien. We raden u aan geen tags toe te wijzen aan externe gebruikers tijdens een update als u de gegevens niet met hen wilt delen.
 
 1. (Optioneel) Herhaal stap 2 om meerdere gebruikers en teams toe te voegen. <!--insure this stays accurate-->
 

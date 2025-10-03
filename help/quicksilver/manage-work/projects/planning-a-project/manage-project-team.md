@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: 6e8036fc-feda-4277-9502-0b973028fccb
-source-git-commit: a00776ecd9f8dc14b9dce14ce9463c2bb709a363
+source-git-commit: 3b5452c51c19edfafc9244c2cfd58d7174732375
 workflow-type: tm+mt
-source-wordcount: '1399'
+source-wordcount: '1418'
 ht-degree: 0%
 
 ---
@@ -180,7 +180,7 @@ Voor meer informatie over welke berichten voor gebruikers op het projectteam kun
 
    De gebruikers krijgen de toestemmingen van de Mening aan het project en ontvangen berichten over het project als deel van het projectteam.
 
-1. (Facultatief) als u een gebruiker een bericht wilt ontvangen wanneer hun baanrol aan een taak, een kwestie, of een projectgoedkeuring wordt toegevoegd, binnen de **kolom van de Rol 0&rbrace; van de Baan &lbrace;voor de gebruiker klikt, en een baanrol selecteert die met de goedkeuring zal worden geassocieerd.**
+1. (Facultatief) als u een gebruiker een bericht wilt ontvangen wanneer hun baanrol aan een taak, een kwestie, of een projectgoedkeuring wordt toegevoegd, binnen de **kolom van de Rol 0} van de Baan {voor de gebruiker klikt, en een baanrol selecteert die met de goedkeuring zal worden geassocieerd.**
 
    De gebruikers ontvangen meldingen die betrekking hebben op de goedkeuringen die zijn toegewezen aan de geselecteerde taakrol.
 
@@ -261,6 +261,10 @@ Voor meer informatie over welke berichten voor gebruikers op het projectteam kun
    * Klik **de mensen van de Markering** om extra gebruikers te etiketteren om de zelfde update te ontvangen.
    * Selecteer de **Privé aan mijn bedrijf** optie om de update privé aan de gebruikers in uw bedrijf te maken.
    * Klik **verzenden**.
+
+     >[!TIP]
+     >
+     >**Privé aan mijn bedrijf** het plaatsen is slechts beschikbaar wanneer uw profiel van Workfront met een bedrijf wordt geassocieerd.
 
    De update wordt toegevoegd aan de **sectie van Updates** van elk geëtiketteerd gebruikersprofiel.
 

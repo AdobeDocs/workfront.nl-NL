@@ -7,9 +7,9 @@ description: Met Adobe Workfront kunt u snel en eenvoudig berichten verzenden di
 author: Lisa
 feature: People Teams and Groups
 exl-id: 82a1c304-176a-48c5-809d-40663ee768b7
-source-git-commit: d16495a0686ae5e54d16b108c69645f8666b46bd
+source-git-commit: 3b5452c51c19edfafc9244c2cfd58d7174732375
 workflow-type: tm+mt
-source-wordcount: '532'
+source-wordcount: '570'
 ht-degree: 0%
 
 ---
@@ -73,6 +73,10 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 1. (Optioneel) Selecteer **[!UICONTROL Private to my company]** om dit bericht alleen zichtbaar te maken voor andere gebruikers in uw bedrijf.
 
+   >[!TIP]
+   >
+   >[!UICONTROL **Privé aan mijn bedrijf**] het plaatsen is slechts beschikbaar wanneer uw profiel van Workfront met een bedrijf wordt geassocieerd.
+
 1. Klik op **[!UICONTROL Update].**
 Het bericht wordt boven aan de lijst met berichten op het tabblad **[!UICONTROL Updates]** op de profielpagina van de gebruiker geplaatst.
 
@@ -89,5 +93,9 @@ Deze optie is alleen beschikbaar als u een Standard-, Plan- of Werkvergunning he
 
 1. (Facultatief) klik **mensen van de Markering** om het even welke extra gebruikers op het bericht te etiketteren. Voor meer informatie, zie [ Tags anderen op updates ](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
 1. (Optioneel) Selecteer **[!UICONTROL Private to my company]** om dit bericht alleen zichtbaar te maken voor andere gebruikers in uw bedrijf.
+
+   >[!TIP]
+   >
+   >[!UICONTROL **Privé aan mijn bedrijf**] het plaatsen is slechts beschikbaar wanneer uw profiel van Workfront met een bedrijf wordt geassocieerd.
 1. Klik [!UICONTROL **verzenden**].
 Het bericht wordt boven aan de lijst met berichten op het tabblad **[!UICONTROL Updates]** gepost op de profielpagina van elke gecodeerde gebruiker.
