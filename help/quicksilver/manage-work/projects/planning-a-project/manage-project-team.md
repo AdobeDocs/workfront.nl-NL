@@ -28,7 +28,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
 -->
 
-Het team van het Project bestaat uit gebruikers die met het project worden geassocieerd. Voor meer informatie, zie [ Overzicht van het Team van het Project ](/help/quicksilver/manage-work/projects/planning-a-project/project-team-overview.md).
+Het team van het Project bestaat uit gebruikers die met het project worden geassocieerd. Voor meer informatie, zie [&#x200B; Overzicht van het Team van het Project &#x200B;](/help/quicksilver/manage-work/projects/planning-a-project/project-team-overview.md).
 
 De leden van de vertoning van het Team van het Project in de sectie van Mensen van het project.
 
@@ -41,7 +41,7 @@ De volgende gebruikers worden automatisch toegevoegd aan het projectteam, voor z
 * Gebruikers die zijn toegewezen aan taken
 * Gebruikers die zijn toegewezen aan problemen (alleen voor een project)
 
-De gebruikers in het projectteam ontvangen berichten over het project. Voor meer informatie, zie [ de berichttypes van de Gebeurtenis ](/help/quicksilver/administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
+De gebruikers in het projectteam ontvangen berichten over het project. Voor meer informatie, zie [&#x200B; de berichttypes van de Gebeurtenis &#x200B;](/help/quicksilver/administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
 
 U kunt de gebruikers in het project en de teams van het malplaatje beheren door hen (slechts voor het project) toe te voegen, hen te verwijderen, of hen te verzenden een update.
 
@@ -74,7 +74,7 @@ U kunt de gebruikers in het project en de teams van het malplaatje beheren door 
  </tbody> 
 </table>
 
-*For informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*For informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -111,7 +111,7 @@ You must have the following access to perform the steps in this article:
 
 ## Gebruikers toevoegen aan een projectteam
 
-Wanneer u gebruikers aan het projectteam toevoegt, krijgen zij de toestemmingen van de Mening over het project en de taken, de kwesties, en de documenten van het project. Voor meer informatie, zie het overzicht van het artikel [ Team van het Project ](../../../manage-work/projects/planning-a-project/project-team-overview.md).
+Wanneer u gebruikers aan het projectteam toevoegt, krijgen zij de toestemmingen van de Mening over het project en de taken, de kwesties, en de documenten van het project. Voor meer informatie, zie het overzicht van het artikel [&#x200B; Team van het Project &#x200B;](../../../manage-work/projects/planning-a-project/project-team-overview.md).
 
 >[!TIP]
 >
@@ -119,7 +119,7 @@ Wanneer u gebruikers aan het projectteam toevoegt, krijgen zij de toestemmingen 
 
 U kunt gebruikers aan het projectteam op de volgende manieren toevoegen:
 
-* [ voegt automatisch gebruikers aan een Team van het Project toe ](#automatically-add-users-to-a-project-team)
+* [&#x200B; voegt automatisch gebruikers aan een Team van het Project toe &#x200B;](#automatically-add-users-to-a-project-team)
 * [Voeg handmatig gebruikers toe aan een projectteam](#manually-add-users-to-a-project-team)
 
 ### Automatisch gebruikers toevoegen aan een projectteam {#automatically-add-users-to-a-project-team}
@@ -139,7 +139,7 @@ De gebruikers worden ook automatisch toegevoegd aan het projectteam wanneer zij 
 
 Als de gebruikers die geen rol op het project vervullen over bepaalde updates of veranderingen tijdens het leven van het project op de hoogte willen worden gebracht, kunt u hen aan het projectteam manueel toevoegen.
 
-Voor meer informatie over welke berichten voor gebruikers op het projectteam kunnen worden toegelaten, zie [ het berichttypes van de Gebeurtenis ](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
+Voor meer informatie over welke berichten voor gebruikers op het projectteam kunnen worden toegelaten, zie [&#x200B; het berichttypes van de Gebeurtenis &#x200B;](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
 
 <!--drafted - this used to be the case, in the note below but this limitation was removed on Jan 5, 2023 - as a patch, not a release feature:
 
@@ -163,7 +163,7 @@ Voor meer informatie over welke berichten voor gebruikers op het projectteam kun
 
    **voegt gebruikers aan de vakvertoningen van het Team van het Project** toe.
 
-   ![ add_users_dialog.png ](assets/add-users-dialog-350x217.png)
+   ![&#x200B; add_users_dialog.png &#x200B;](assets/add-users-dialog-350x217.png)
 
 1. In **voeg gebruikers** doos toe, begin typend de naam van een actieve gebruiker van Workfront die u aan het projectteam wilt toevoegen, dan klik de naam wanneer het in de lijst verschijnt.
 
@@ -174,25 +174,25 @@ Voor meer informatie over welke berichten voor gebruikers op het projectteam kun
    >* U kunt geen gebruikers toevoegen door hun teams, groepen, bedrijven, of baanrollen toe te voegen.
    >* Terwijl u de gebruikers toevoegt, ziet u de avatar, de primaire rol van de gebruiker en hun e-mailadres om onderscheid te maken tussen gebruikers met identieke namen. Gebruikers moeten aan ten minste één taakrol zijn gekoppeld om deze te kunnen bekijken terwijl u ze toevoegt.
    >
-   >  De instelling Contactinfo weergeven moet zijn ingeschakeld op uw toegangsniveau zodat gebruikers de e-mails van gebruikers kunnen bekijken. Voor informatie, zie [ toegang van de Verlening tot gebruikers ](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
+   >  De instelling Contactinfo weergeven moet zijn ingeschakeld op uw toegangsniveau zodat gebruikers de e-mails van gebruikers kunnen bekijken. Voor informatie, zie [&#x200B; toegang van de Verlening tot gebruikers &#x200B;](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 
 1. Klik **toevoegen**.
 
    De gebruikers krijgen de toestemmingen van de Mening aan het project en ontvangen berichten over het project als deel van het projectteam.
 
-1. (Facultatief) als u een gebruiker een bericht wilt ontvangen wanneer hun baanrol aan een taak, een kwestie, of een projectgoedkeuring wordt toegevoegd, binnen de **kolom van de Rol 0} van de Baan {voor de gebruiker klikt, en een baanrol selecteert die met de goedkeuring zal worden geassocieerd.**
+1. (Facultatief) als u een gebruiker een bericht wilt ontvangen wanneer hun baanrol aan een taak, een kwestie, of een projectgoedkeuring wordt toegevoegd, binnen de **kolom van de Rol 0&rbrace; van de Baan &lbrace;voor de gebruiker klikt, en een baanrol selecteert die met de goedkeuring zal worden geassocieerd.**
 
    De gebruikers ontvangen meldingen die betrekking hebben op de goedkeuringen die zijn toegewezen aan de geselecteerde taakrol.
 
-   Voor meer informatie zie de &quot;Op rol-gebaseerde goedkeuringen&quot;sectie in het artikel [ overzicht van het Team van het Project ](/help/quicksilver/manage-work/projects/planning-a-project/project-team-overview.md).
+   Voor meer informatie zie de &quot;Op rol-gebaseerde goedkeuringen&quot;sectie in het artikel [&#x200B; overzicht van het Team van het Project &#x200B;](/help/quicksilver/manage-work/projects/planning-a-project/project-team-overview.md).
 
-1. Selecteer één of verscheidene gebruikers in de lijst, dan klik **verwijderen** pictogram ![ verwijderen pictogram ](assets/remove-icon.png) om hen uit het team te verwijderen.
+1. Selecteer één of verscheidene gebruikers in de lijst, dan klik **verwijderen** pictogram ![&#x200B; verwijderen pictogram &#x200B;](assets/remove-icon.png) om hen uit het team te verwijderen.
 
 1. Klik **ja, verwijder Geselecteerde Gebruikers** om de gebruikers te bevestigen en te verwijderen.
 
    De gebruikers worden verwijderd en unassigned van onvolledige het werkpunten.
 
-   Voor meer informatie, zie de [ Overwegingen voor het verwijderen van gebruikers uit een sectie van het projectteam ](#considerations-for-removing-users-from-a-project-team) in dit artikel.
+   Voor meer informatie, zie de [&#x200B; Overwegingen voor het verwijderen van gebruikers uit een sectie van het projectteam &#x200B;](#considerations-for-removing-users-from-a-project-team) in dit artikel.
 1. (Facultatief) om een update voor dit project naar gebruikers te verzenden, klik **Update allen** om de update naar iedereen op het team te verzenden
 
    of
@@ -201,7 +201,7 @@ Voor meer informatie over welke berichten voor gebruikers op het projectteam kun
 
    <!--update screen shot when they fix the bug - the text above the box needs to match the OLD box, below-->
 
-   ![ verzendt update naar gebruikersdoos op het project ](assets/send-update-to-user-on-project-box-2025.png)
+   ![&#x200B; verzendt update naar gebruikersdoos op het project &#x200B;](assets/send-update-to-user-on-project-box-2025.png)
 
    <!--Old UI for projects but the text above the comment box is right and matches the functionality):
    ![OLD Send update to user on a project](assets/send-update-to-user-on-project-box.png)-->
@@ -219,7 +219,7 @@ Voor meer informatie over welke berichten voor gebruikers op het projectteam kun
 
    Gebruikers ontvangen mogelijk een e-mailbericht als ze hiervoor zijn ingeschakeld en ontvangen een melding in de app over de nieuwe update.
 
-1. (Facultatief) klik het **pictogram van de Uitvoer** Uitvoer ![ om de lijst van gebruikers naar een dossier uit te voeren](assets/export-icon.png)
+1. (Facultatief) klik het **pictogram van de Uitvoer** Uitvoer ![&#x200B; om de lijst van gebruikers naar een dossier uit te voeren](assets/export-icon.png)
 
    of
 
@@ -241,7 +241,7 @@ Voor meer informatie over welke berichten voor gebruikers op het projectteam kun
 
    De gebruikers worden verwijderd en unassigned van de malplaatjetaken.
 
-   Voor meer informatie, zie de [ Overwegingen voor het verwijderen van gebruikers uit een sectie van het projectteam ](#considerations-for-removing-users-from-a-project-team) in dit artikel.
+   Voor meer informatie, zie de [&#x200B; Overwegingen voor het verwijderen van gebruikers uit een sectie van het projectteam &#x200B;](#considerations-for-removing-users-from-a-project-team) in dit artikel.
 
 1. (Facultatief) om een update naar gebruikers te verzenden, klik **Update allen** om de update naar alle gebruikers in de lijst te verzenden
 
@@ -251,7 +251,7 @@ Voor meer informatie over welke berichten voor gebruikers op het projectteam kun
 
    <!--update screen shot for unshim production, notice the text above the box - it needs to say "Post an update to each person's profile"-->
 
-   ![ verzendt update naar gebruikersdoos op malplaatje ](assets/send-update-to-user-on-template-box.png)
+   ![&#x200B; verzendt update naar gebruikersdoos op malplaatje &#x200B;](assets/send-update-to-user-on-template-box.png)
 
    **verzendt update naar gebruiker** opent doos.
 
@@ -270,7 +270,7 @@ Voor meer informatie over welke berichten voor gebruikers op het projectteam kun
 
    Gebruikers ontvangen mogelijk een e-mailbericht als ze hiervoor zijn ingeschakeld en ontvangen een melding in de app over de nieuwe update.
 
-1. Klik het **pictogram van de Uitvoer** pictogram van de Uitvoer ![ om de lijst van gebruikers naar een dossier uit te voeren](assets/export-icon.png)
+1. Klik het **pictogram van de Uitvoer** pictogram van de Uitvoer ![&#x200B; om de lijst van gebruikers naar een dossier uit te voeren](assets/export-icon.png)
 
    of
 
@@ -296,5 +296,5 @@ De volgende gebruikers worden niet verwijderd uit hun rollen op het project wann
 * Eigenaar
 * Sponsor
 
-Voor meer informatie over het verwijderen van gebruikers uit het projectteam, zie [ gebruikers uit projecten ](../../../manage-work/projects/manage-projects/remove-users-from-projects.md) verwijderen.
+Voor meer informatie over het verwijderen van gebruikers uit het projectteam, zie [&#x200B; gebruikers uit projecten &#x200B;](../../../manage-work/projects/manage-projects/remove-users-from-projects.md) verwijderen.
 
