@@ -6,22 +6,21 @@ description: U kunt e-mails in  [!DNL Adobe Workfront]  taken of kwesties omzett
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 00755c27-9fc9-4357-a39b-4f9772484252
-source-git-commit: d9b0e6b1c2afd17cefe190f29a072634f0b0ce50
+source-git-commit: 793c8c940c8cb7ac53169edf21ddf28af2554120
 workflow-type: tm+mt
-source-wordcount: '591'
+source-wordcount: '529'
 ht-degree: 0%
 
 ---
 
 # Een [!DNL Outlook] e-mail aan een project toevoegen als een taak of een uitgave
 
+
 >[!IMPORTANT]
 >
->[ Microsoft is in het proces om steun voor de online tokens van de erfenisUitwisseling ](https://learn.microsoft.com/en-us/office/dev/add-ins/outlook/faq-nested-app-auth-outlook-legacy-tokens) onbruikbaar te maken, die momenteel door de toe:voegen-binnen van Workfront Vooruitzichten voor authentificatie worden gebruikt. Deze verandering door Microsoft is al begonnen met gevolgen voor de klanten en zal tot oktober 2025 in fasen blijven doorlopen.
+>[ Microsoft heeft steun voor online tokens van de erfenisUitwisseling ](https://learn.microsoft.com/en-us/office/dev/add-ins/outlook/faq-nested-app-auth-outlook-legacy-tokens) onbruikbaar gemaakt, die door toe:voegen-binnen van Workfront Outlook voor authentificatie werden gebruikt. Deze verandering door Microsoft werd in fasen doorgevoerd en is voltooid op 1 oktober 2025.
 >
->* **nadat Microsoft volledig deze tokens onbruikbaar maakt, zal Workfront voor de integratie van Microsoft Outlook niet meer functioneren.**
->
->Als onderdeel van deze wijziging heeft Microsoft besloten om de manier te wijzigen waarop tokens opnieuw worden ingeschakeld. Na **Juni 30, 2025**, zullen de beheerders niet meer tokens kunnen re-toelaten zelf-slechts de Steun van Microsoft kan uitzonderingen verlenen. **Op 1 Oktober, 2025, zullen de erfenistokens voor alle huurders worden uitgezet. Er worden geen uitzonderingen toegestaan.**
+>**omdat Microsoft deze tokens heeft onbruikbaar gemaakt, werkt Workfront voor de integratie van Microsoft Outlook niet meer.**
 
 U kunt e-mailberichten converteren naar [!DNL Adobe Workfront] taken of uitgaven. Nadat een e-mail is geconverteerd, wordt de taak of uitgave weergegeven in het project dat is geselecteerd tijdens de conversie.
 
