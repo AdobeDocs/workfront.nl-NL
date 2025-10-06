@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->[ Microsoft heeft steun voor online tokens van de erfenisUitwisseling ](https://learn.microsoft.com/en-us/office/dev/add-ins/outlook/faq-nested-app-auth-outlook-legacy-tokens) onbruikbaar gemaakt, die door toe:voegen-binnen van Workfront Outlook voor authentificatie werden gebruikt. Deze verandering door Microsoft werd in fasen doorgevoerd en is voltooid op 1 oktober 2025.
+>[&#x200B; Microsoft heeft steun voor online tokens van de erfenisUitwisseling &#x200B;](https://learn.microsoft.com/en-us/office/dev/add-ins/outlook/faq-nested-app-auth-outlook-legacy-tokens) onbruikbaar gemaakt, die door toe:voegen-binnen van Workfront Outlook voor authentificatie werden gebruikt. Deze verandering door Microsoft werd in fasen doorgevoerd en is voltooid op 1 oktober 2025.
 >
 >**omdat Microsoft deze tokens heeft onbruikbaar gemaakt, werkt Workfront voor de integratie van Microsoft Outlook niet meer.**
 
