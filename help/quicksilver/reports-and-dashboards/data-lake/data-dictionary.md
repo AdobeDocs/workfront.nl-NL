@@ -66,7 +66,7 @@ De volgende tabel correleert objectnamen in Workfront (en hun namen in de interf
 >[!NOTE]
 >
 >Nieuwe velden kunnen zonder voorafgaande kennisgeving aan de objectweergaven worden toegevoegd ter ondersteuning van de veranderende gegevensbehoeften van de Workfront-toepassing. Wij waarschuwen tegen het gebruiken van &quot;UITGEZOCHTE&quot;vragen waar de stroomafwaartse gegevensontvanger niet bereid is om extra kolommen te behandelen aangezien zij worden toegevoegd.<br>
->>Als het anders noemen of het verwijderen van een kolom wordt vereist, zullen wij vooraf bericht van deze veranderingen verstrekken.
+>&#x200B;>Als het anders noemen of het verwijderen van een kolom wordt vereist, zullen wij vooraf bericht van deze veranderingen verstrekken.
 
 ### Toegangsniveau
 
