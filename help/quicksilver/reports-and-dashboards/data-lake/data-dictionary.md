@@ -7,10 +7,10 @@ description: Deze pagina bevat informatie over de structuur en inhoud van de geg
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 57985404-554e-4289-b871-b02d3427aa5c
-source-git-commit: 5a7f61b9b5237e282c1a61fb49b85533497836e3
+source-git-commit: 8df633f7f0946f81d6e81578a3d47719f6d8975e
 workflow-type: tm+mt
-source-wordcount: '8114'
-ht-degree: 0%
+source-wordcount: '8733'
+ht-degree: 1%
 
 ---
 
@@ -22,23 +22,23 @@ Deze pagina bevat informatie over de structuur en inhoud van de gegevens in Work
 >
 >De gegevens in Data Connect worden elke vier uur vernieuwd, zodat recente wijzigingen mogelijk niet direct worden doorgevoerd.
 
-## Tabeltypen
+## Typen weergeven
 
-Er zijn een aantal tabeltypen die u in Data Connect kunt gebruiken om uw Workfront-gegevens op een manier weer te geven die de meeste insight biedt.
+In Data Connect kunt u een aantal weergavetypen gebruiken om uw Workfront-gegevens op een manier weer te geven die de meeste insight biedt.
 
-* **Huidige lijst**
+* **Huidige mening**
 
-  De tabel Huidig bevat gegevens die ongeveer overeenkomen met de status in Workfront, elk object en de huidige status. U kunt er echter veel minder latentie aan toevoegen dan in Workfront.
+  In de huidige weergave worden gegevens op vergelijkbare wijze weergegeven als in Workfront, elk object en de huidige status. U kunt er echter veel minder latentie aan toevoegen dan in Workfront.
 
-* **lijst van de Gebeurtenis**
+* **mening van de Gebeurtenis**
 
-  De gebeurtenissentabel houdt elke veranderingsverslag in Workfront bij: namelijk telkens als een voorwerp staat verandert, wordt een verslag gecreeerd dat toont wanneer de verandering gebeurde, die de verandering aanbracht, en wat werd veranderd. Daarom is deze lijst nuttig voor punt-in-tijd vergelijkingen. Deze tabel bevat alleen gegevens van de afgelopen drie jaar.
+  In de weergave Gebeurtenis wordt elke wijzigingsrecord in Workfront bijgehouden. Elke keer dat een object de status wijzigt, wordt een record gemaakt die aangeeft wanneer de wijziging heeft plaatsgevonden, wie de wijziging heeft aangebracht en wat is gewijzigd. Daarom is deze mening nuttig voor punt-in-tijd vergelijkingen. Dit beeld omvat slechts verslagen van de afgelopen drie jaar.
 
-* **Dagelijkse lijst van de Geschiedenis**
+* **Dagelijkse mening van de Geschiedenis**
 
-  De tabel Dagelijkse historie bevat een verkorte versie van de tabel Gebeurtenis, in die zin dat de status van elk object dagelijks wordt weergegeven in plaats van wanneer elke afzonderlijke gebeurtenis zich heeft voorgedaan. Daarom is deze tabel nuttig voor trendanalyse.
+  De weergave Dagelijkse historie biedt een verkorte versie van de weergave Gebeurtenis, in die zin dat deze de status van elk object dagelijks weergeeft in plaats van wanneer elke afzonderlijke gebeurtenis plaatsvond. Dit standpunt is als zodanig nuttig voor trendanalyse.
 
-<!-- Custom table -->
+<!-- Custom view -->
 
 ## Relatiediagram voor entiteit
 
@@ -48,20 +48,25 @@ Objecten in Workfront (en dus ook in het Data Connect Data Lake) worden niet all
 
 >[!IMPORTANT]
 >
->Het diagram van de entiteitverhouding is een werk lopend-als dusdanig, is het slechts voor verwijzingsdoeleinden en is onderhevig aan verandering.
+>Het entiteitrelatiediagram is een werk in uitvoering. Als zodanig is het slechts ter referentie en kan het worden gewijzigd.
 
 ## Datumtypen
 
 Er zijn een aantal datumobjecten die informatie bevatten over wanneer specifieke gebeurtenissen plaatsvinden.
 
 * `DL_LOAD_TIMESTAMP`: Deze datum wordt bijgewerkt nadat de gegevens zijn vernieuwd en bevat de tijdstempel van het begin van de vernieuwingstaak die de laatste versie van een record heeft geleverd.
-* `CALENDAR_DATE`: Deze datum is alleen aanwezig in de tabel Dagelijkse historie. Deze lijst verstrekt een verslag van wat de gegevens als 11 :59 UTC voor elke datum leken die in `CALENDAR_DATE` wordt gespecificeerd.
-* `BEGIN_EFFECTIVE_TIMESTAMP`: Deze datum is aanwezig in zowel de lijsten van de Geschiedenis van de Gebeurtenis als van de Dagelijkse Geschiedenis, en verslagen precies wanneer een verslag __ veranderde de waarde het in de huidige rij heeft.
-* `END_EFFECTIVE_TIMESTAMP`: Deze datum is aanwezig in zowel de lijsten van de Geschiedenis van de Gebeurtenis als van de Dagelijkse Geschiedenis, en verslagen precies wanneer een verslag _van_ de waarde in de huidige rij in een waarde in een verschillende rij veranderde. Als u ruimte wilt maken tussen query&#39;s op `BEGIN_EFFECTIVE_TIMESTAMP` en `END_EFFECTIVE_TIMESTAMP` , is deze waarde nooit null, zelfs als er geen nieuwe waarde is. Als een record nog geldig is (de waarde is dus niet gewijzigd), heeft `END_EFFECTIVE_TIMESTAMP` de waarde 2300-01-01.
+* `CALENDAR_DATE`: Deze datum is alleen aanwezig in de weergave Dagelijkse historie. In de weergave Dagelijkse historie wordt een record weergegeven van hoe de gegevens eruit zien bij 11 :59 UTC voor elke datum die is opgegeven in `CALENDAR_DATE` .
+* `BEGIN_EFFECTIVE_TIMESTAMP`: Deze datum is aanwezig in zowel de weergave Gebeurtenis als Dagelijkse historie en staat voor de tijd dat een record de huidige waarde in de toepassing wordt.
+* `END_EFFECTIVE_TIMESTAMP`: Deze datum is aanwezig in zowel de meningen van de Gebeurtenis als van de Dagelijkse Geschiedenis, en verslagen precies wanneer een verslag _van_ de waarde in de huidige rij in een waarde in een verschillende rij veranderde. Als u ruimte wilt maken tussen query&#39;s op `BEGIN_EFFECTIVE_TIMESTAMP` en `END_EFFECTIVE_TIMESTAMP` , is deze waarde nooit null, zelfs als er geen nieuwe waarde is. Als een record nog geldig is (de waarde is dus niet gewijzigd), heeft `END_EFFECTIVE_TIMESTAMP` de waarde 2300-01-01.
 
 ## Terminologie tabel
 
-De volgende tabel correleert objectnamen in Workfront (en hun namen in de interface en API) met hun equivalente namen in Data Connect.
+De volgende tabel correleert objectnamen in Workfront (en hun namen in de interface en API) met hun equivalente namen in Data Connect en bevat referentievelden voor elk object naar andere Workfront-objecten.
+
+>[!NOTE]
+>
+>Nieuwe velden kunnen zonder voorafgaande kennisgeving aan de objectweergaven worden toegevoegd ter ondersteuning van de veranderende gegevensbehoeften van de Workfront-toepassing. Wij waarschuwen tegen het gebruiken van &quot;UITGEZOCHTE&quot;vragen waar de stroomafwaartse gegevensontvanger niet bereid is om extra kolommen te behandelen aangezien zij worden toegevoegd.<br>
+>>Als het anders noemen of het verwijderen van een kolom wordt vereist, zullen wij vooraf bericht van deze veranderingen verstrekken.
 
 ### Toegangsniveau
 
@@ -553,6 +558,12 @@ De volgende tabel correleert objectnamen in Workfront (en hun namen in de interf
              <td>FK</td>
              <td>CLASSIFIER_CURRENT</td>
              <td>CLASSIFIERID</td>
+        </tr>
+      <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
         </tr>
         <tr>
              <td>OPTASKID</td>
@@ -3882,7 +3893,6 @@ Zelf</td>
         </tr>
 
 
-    &lt;/tbody>
 </table>
 
 ### Objectintegratie
@@ -3941,7 +3951,6 @@ Zelf</td>
              <td colspan="2">Geen relatie; wordt gebruikt voor interne toepassingen</td>
         </tr>
 
-    &lt;/tbody>
 </table>
 
 ### Objectcategorie
@@ -5303,7 +5312,6 @@ Zelf</td>
              <td colspan="2">Geen relatie; wordt gebruikt voor interne toepassingen</td>
         </tr>
 
-    &lt;/tbody>
 </table>
 
 ### Rapportmap
@@ -6003,6 +6011,178 @@ Zelf</td>
              <td>-</td>
              <td colspan="2">Geen relatie; wordt gebruikt voor interne toepassingen</td>
         </tr>
+    </tbody>
+</table>
+
+### Personeelsformatie
+
+Beperkte beschikbaarheid van klanten
+
+<table>
+    <thead>
+        <tr>
+            <th>Naam Workfront-entiteit</th>
+            <th>Interfaceverwijzingen</th>
+            <th>API-naslag</th>
+            <th>API-label</th>
+            <th>Weergaven van datameer</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Personeelsformatie</td>
+            <td>Personeelsformatie</td>
+            <td>STAFFP</td>
+            <td>Personeelsformatie</td>
+            <td>STAFFING_PLAN_CURRENT <br> STAFFING_PLAN_DAILY_HISTORY <br> STAFFING_PLAN_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Primaire/buitenlandse sleutel</th>
+            <th>Type</th>
+            <th>Verwante tabel</th>
+            <th>Verwant veld</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>ATTACHEDRATECARDID</td>
+             <td>FK</td>
+             <td>RATECARD_CURRENT</td>
+             <td>RATECARDID</td>
+        </tr>
+        <tr>
+             <td>CATEGORIE</td>
+             <td>FK</td>
+             <td>CATEGORIEËN_HUIDIGE </td>
+             <td>CATEGORIE</td>
+        </tr>
+        <tr>
+             <td>COMPANYID</td>
+             <td>FK</td>
+             <td>COMPANIES_CURRENT</td>
+             <td>COMPANYID</td>
+        </tr>        
+        <tr>
+             <td>GROUPID</td>
+             <td>FK</td>
+             <td>GROUPS_CURRENT</td>
+             <td>GROUPID</td>
+        </tr>        
+        <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>        
+        <tr>
+             <td>OWNERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>       
+         <tr>
+             <td>PRIVATERATECARDID</td>
+             <td>FK</td>
+             <td>RATECARD_CURRENT</td>
+             <td>RATECARDID
+</td>
+        </tr>        
+        <tr>
+             <td>SCHEDULEID</td>
+             <td>FK</td>
+             <td>SCHEDULES_CURRENT</td>
+             <td>SCHEDULEID
+</td>
+        </tr>        
+        <tr>
+             <td>STAFFINGPLANID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+    </tbody>
+</table>
+
+### Personeelsformatie
+
+Beperkte beschikbaarheid van klanten
+
+<table>
+    <thead>
+        <tr>
+            <th>Naam Workfront-entiteit</th>
+            <th>Interfaceverwijzingen</th>
+            <th>API-naslag</th>
+            <th>API-label</th>
+            <th>Weergaven van datameer</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Personeelsformatie</td>
+            <td>Personeelsformatie</td>
+            <td>STAFFR</td>
+            <td>Personeelsformatie</td>
+            <td>STAFFING_PLAN_RESOURCE_CURRENT <br> STAFFING_PLAN_RESOURCE_DAILY_HISTORY <br> STAFFING_PLAN_RESOURCE_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Primaire/buitenlandse sleutel</th>
+            <th>Type</th>
+            <th>Verwante tabel</th>
+            <th>Verwant veld</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>ASSIGNEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>ASSIGNEDTOID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>CATEGORIE</td>
+             <td>FK</td>
+             <td>CATEGORIEËN_HUIDIGE</td>
+             <td>CATEGORIE</td>
+        </tr>        
+        <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>        
+        <tr>
+             <td>ROLEID</td>
+             <td>FK</td>
+             <td>ROLES_CURRENT</td>
+             <td>ROLEID</td>
+        </tr>        
+        <tr>
+             <td>STAFFINGPLANID</td>
+             <td>FK</td>
+             <td>STAFFING_PLAN_CURRENT</td>
+             <td>STAFFINGPLANID</td>
+        </tr>       
+         <tr>
+             <td>STAFFINGPLANRESOURCEID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>        
     </tbody>
 </table>
 
@@ -6956,6 +7136,146 @@ Zelf</td>
     </tbody>
 </table>
 
+### Tijd-gefaseerde Gecombineerde KPI
+
+Beperkte beschikbaarheid van klanten
+
+<table>
+    <thead>
+        <tr>
+            <th>Naam Workfront-entiteit</th>
+            <th>Interfaceverwijzingen</th>
+            <th>API-naslag</th>
+            <th>API-label</th>
+            <th>Weergaven van datameer</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Tijd-gefaseerde Gecombineerde KPI</td>
+            <td>Tijd-gefaseerde KPI</td>
+            <td>TMPH</td>
+            <td>TimePhasedKPI</td>
+            <td>TIMEPHASED_COMBINED_CURRENT <br> TIMEPHASED_COMBINED_DAILY_HISTORY <br> TIMEPHASED_COMBINED_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Primaire/buitenlandse sleutel</th>
+            <th>Type</th>
+            <th>Verwante tabel</th>
+            <th>Verwant veld</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>TOEWIJZEN</td>
+             <td>FK</td>
+             <td>ASSIGNMENTS_CURRENT</td>
+             <td>TOEWIJZEN</td>
+        </tr>
+                <tr>
+             <td>EVENT_ID    </td>
+             <td>PK</td>
+             <td>Dit is een natuurlijke sleutel voor de tijd-gefaseerde ingang van KPI</td>
+             <td>-</td>
+        </tr>
+                        <tr>
+             <td>GROUPID</td>
+             <td>FK</td>
+             <td>GROUPS_CURRENT</td>
+             <td>GROUPID</td>
+        </tr>
+                        <tr>
+             <td>LOCATIONID</td>
+             <td>FK</td>
+             <td>CLASSIFIER_CURRENT</td>
+             <td>CLASSIFIERID</td>
+        </tr>
+                        <tr>
+             <td>METADATAID</td>
+             <td>FK</td>
+             <td>De METADATA-tabel is niet beschikbaar</td>
+             <td>-</td>
+        </tr>
+                        <tr>
+             <td>OPTASKID</td>
+             <td>FK</td>
+             <td>OPTASKS_CURRENT</td>
+             <td>OPTASKID</td>
+        </tr>
+                        <tr>
+             <td>PORTFOLIOID</td>
+             <td>FK</td>
+             <td>PORTFOLIOS_CURRENT</td>
+             <td>PORTFOLIOID</td>
+        </tr>
+                        <tr>
+             <td>PROGRAMMA</td>
+             <td>FK</td>
+             <td>PROGRAMS_CURRENT</td>
+             <td>PROGRAMMA</td>
+        </tr>
+                        <tr>
+             <td>PROJECTIEF</td>
+             <td>FK</td>
+             <td>PROJECTS_CURRENT</td>
+             <td>PROJECTIEF</td>
+        </tr>
+                        <tr>
+             <td>REFERENCEID</td>
+             <td>FK</td>
+             <td>Variabele, gebaseerd op OBJCODE</td>
+             <td>De primaire sleutel/id van het object dat in het veld OBJCODE is geïdentificeerd
+</td>
+        </tr>
+                        <tr>
+             <td>ROLEID</td>
+             <td>FK</td>
+             <td>ROLES_CURRENT</td>
+             <td>ROLEID</td>
+        </tr>
+                        <tr>
+             <td>SCHEMAID</td>
+             <td>FK</td>
+             <td>De SCHEMA-tabel wordt niet opgegeven; de waarde uit deze tabel wordt gegeven in de SCHEMANAME-kolom. Het SCHEMANAME identificeert de KPI (bv. SchedulHours, estiméHours, en actualHours) waarmee de record is verbonden.</td>
+             <td>-</td>
+        </tr>
+                                <tr>
+             <td>SOURCETASKID</td>
+             <td>FK</td>
+             <td>TASKS_CURRENT</td>
+             <td>TASKID</td>
+        </tr>
+                                <tr>
+             <td>STAFFINGPLANID</td>
+             <td>FK</td>
+             <td>STAFFING_PLAN_CURRENT</td>
+             <td>STAFFINGPLANID</td>
+        </tr>
+                                <tr>
+             <td>STAFFINGPLANRESOURCEID</td>
+             <td>FK</td>
+             <td>STAFFING_PLAN_RESOURCE_CURRENT</td>
+             <td>STAFFINGPLANRESOURCEID</td>
+        </tr>
+                                <tr>
+             <td>TASKID</td>
+             <td>FK</td>
+             <td>TASKS_CURRENT</td>
+             <td>TASKID</td>
+        </tr>
+                                <tr>
+             <td>USERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+    </tbody>
+</table>
+
 ### Tijdgefaseerde PKI-valuta
 
 Beperkte beschikbaarheid van klanten
@@ -7008,6 +7328,12 @@ Beperkte beschikbaarheid van klanten
              <td>CLASSIFIER_CURRENT</td>
              <td>CLASSIFIERID</td>
         </tr>
+                <tr>
+             <td>METADATAID</td>
+             <td>FK</td>
+             <td>De METADATA-tabel is niet beschikbaar</td>
+             <td>-</td>
+        </tr>
         <tr>
              <td>OPTASKID</td>
              <td>FK</td>
@@ -7047,7 +7373,7 @@ Beperkte beschikbaarheid van klanten
         <tr>
              <td>SCHEMAID</td>
              <td>FK</td>
-             <td>Binnenkort toevoegen</td>
+             <td>De SCHEMA-tabel wordt niet opgegeven; de waarde uit deze tabel wordt gegeven in de SCHEMANAME-kolom. Het SCHEMANAME identificeert de KPI (bv. scheduledRevenueRate, scheduledCostRate, actualRevenue, enz.) waarmee de record is verbonden.</td>
              <td>SCHEMAID</td>
         </tr>
         <tr>
@@ -7055,6 +7381,18 @@ Beperkte beschikbaarheid van klanten
              <td>FK</td>
              <td>TASKS_CURRENT</td>
              <td>TASKID</td>
+        </tr>
+                <tr>
+             <td>STAFFINGPLANID</td>
+             <td>FK</td>
+             <td>STAFFING_PLAN_CURRENT</td>
+             <td>STAFFINGPLANID</td>
+        </tr>
+          <tr>
+             <td>STAFFINGPLANRESOURCEID</td>
+             <td>FK</td>
+             <td>STAFFING_PLAN_RESOURCE_CURRENT</td>
+             <td>STAFFINGPLANRESOURCEID</td>
         </tr>
         <tr>
              <td>SYSID</td>
@@ -7134,6 +7472,12 @@ Beperkte beschikbaarheid van klanten
              <td>CLASSIFIER_CURRENT</td>
              <td>CLASSIFIERID</td>
         </tr>
+                <tr>
+             <td>METADATAID</td>
+             <td>FK</td>
+             <td>De METADATA-tabel is niet beschikbaar</td>
+             <td>-</td>
+        </tr>
         <tr>
              <td>OPTASKID</td>
              <td>FK</td>
@@ -7173,7 +7517,7 @@ Beperkte beschikbaarheid van klanten
         <tr>
              <td>SCHEMAID</td>
              <td>FK</td>
-             <td>Binnenkort toevoegen</td>
+             <td>De SCHEMA-tabel wordt niet opgegeven; de waarde uit deze tabel wordt gegeven in de SCHEMANAME-kolom. Het SCHEMANAME identificeert de KPI (bv. SchedulHours, estiméHours, en actualHours) waarmee de record is verbonden.</td>
              <td>SCHEMAID</td>
         </tr>
         <tr>
@@ -7181,6 +7525,18 @@ Beperkte beschikbaarheid van klanten
              <td>FK</td>
              <td>TASKS_CURRENT</td>
              <td>TASKID</td>
+        </tr>
+                <tr>
+             <td>STAFFINGPLANID </td>
+             <td>FK</td>
+             <td>STAFFING_PLAN_CURRENT</td>
+             <td>STAFFINGPLANID</td>
+        </tr>
+           <tr>
+             <td>STAFFINGPLANRESOURCEID</td>
+             <td>FK</td>
+             <td>STAFFING_PLAN_RESOURCE_CURRENT</td>
+             <td>STAFFINGPLANRESOURCEID</td>
         </tr>
         <tr>
              <td>SYSID</td>
@@ -7200,6 +7556,151 @@ Beperkte beschikbaarheid van klanten
              <td>-</td>
         </tr>
         <tr>
+             <td>USERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+    </tbody>
+</table>
+
+### Tijd-gefaseerde KPI Aantallen
+
+Beperkte beschikbaarheid van klanten
+
+<table>
+    <thead>
+        <tr>
+            <th>Naam Workfront-entiteit</th>
+            <th>Interfaceverwijzingen</th>
+            <th>API-naslag</th>
+            <th>API-label</th>
+            <th>Weergaven van datameer</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Tijd-gefaseerde KPI Aantallen</td>
+            <td>Tijd-gefaseerde KPI</td>
+            <td>TMPH</td>
+            <td>TimePhasedKPI</td>
+            <td>TIMEPHASED_NUMBERS_CURRENT <br> TIMEPHASED_NUMBERS_DAILY_HISTORY <br> TIMEPHASED_NUMBERS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Primaire/buitenlandse sleutel</th>
+            <th>Type</th>
+            <th>Verwante tabel</th>
+            <th>Verwant veld</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>TOEWIJZEN</td>
+             <td>FK</td>
+             <td>ASSIGNMENTS_CURRENT</td>
+             <td>TOEWIJZEN</td>
+        </tr>
+        <tr>
+             <td>EVENT_ID</td>
+             <td>PK</td>
+             <td>Dit is een natuurlijke sleutel voor de tijd-gefaseerde ingang van KPI</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>GROUPID</td>
+             <td>FK</td>
+             <td>GROUPS_CURRENT</td>
+             <td>GROUPID</td>
+        </tr>
+        <tr>
+             <td>LOCATIONID</td>
+             <td>FK</td>
+             <td>CLASSIFIER_CURRENT</td>
+             <td>CLASSIFIERID</td>
+        </tr>
+        <tr>
+             <td>METADATAID</td>
+             <td>FK</td>
+             <td>De METADATA-tabel is niet beschikbaar</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>OPTASKID</td>
+             <td>FK</td>
+             <td>OPTASKS_CURRENT</td>
+             <td>OPTASKID</td>
+        </tr>
+        <tr>
+             <td>PORTFOLIOID</td>
+             <td>FK</td>
+             <td>PORTFOLIOS_CURRENT</td>
+             <td>PORTFOLIOID</td>
+        </tr>
+                <tr>
+             <td>PROGRAMMA</td>
+             <td>FK</td>
+             <td>PROGRAMS_CURRENT</td>
+             <td>PROGRAMMA</td>
+        </tr>
+                <tr>
+             <td>PROJECTIEF</td>
+             <td>FK</td>
+             <td>PROJECTS_CURRENT</td>
+             <td>PROJECTIEF</td>
+        </tr>
+                <tr>
+             <td>REFERENCEID</td>
+             <td>FK</td>
+             <td>Variabele, gebaseerd op OBJCODE</td>
+             <td>De primaire sleutel/id van het object dat in het veld OBJCODE is geïdentificeerd</td>
+        </tr>
+                <tr>
+             <td>ROLEID</td>
+             <td>FK</td>
+             <td>ROLES_CURRENT</td>
+             <td>ROLEID</td>
+        </tr>
+                <tr>
+             <td>SCHEMAID</td>
+             <td>FK</td>
+             <td>De SCHEMA-tabel wordt niet opgegeven; de waarde uit deze tabel wordt gegeven in de SCHEMANAME-kolom. Het SCHEMANAME identificeert de KPI (bv. SchedulHours, estiméHours, en actualHours) waarmee de record is verbonden.</td>
+             <td>-</td>
+        </tr>
+                <tr>
+             <td>SOURCETASKID</td>
+             <td>FK</td>
+             <td>TASKS_CURRENT</td>
+             <td>TASKID</td>
+        </tr>
+                <tr>
+             <td>STAFFINGPLANID</td>
+             <td>FK</td>
+             <td>STAFFING_PLAN_CURRENT</td>
+             <td>STAFFINGPLANID</td>
+        </tr>
+                <tr>
+             <td>STAFFINGPLANRESOURCEID</td>
+             <td>FK</td>
+             <td>STAFFING_PLAN_RESOURCE_CURRENT</td>
+             <td>STAFFINGPLANRESOURCEID</td>
+        </tr>
+                <tr>
+             <td>TASKID</td>
+             <td>FK</td>
+             <td>TASKS_CURRENT</td>
+             <td>TASKID</td>
+        </tr>
+                <tr>
+             <td>TIMEPHASEDNUMBERSID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+                <tr>
              <td>USERID</td>
              <td>FK</td>
              <td>USERS_CURRENT</td>
