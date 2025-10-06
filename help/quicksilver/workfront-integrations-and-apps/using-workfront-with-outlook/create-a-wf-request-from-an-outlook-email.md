@@ -19,7 +19,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->[ Microsoft heeft steun voor online tokens van de erfenisUitwisseling ](https://learn.microsoft.com/en-us/office/dev/add-ins/outlook/faq-nested-app-auth-outlook-legacy-tokens) onbruikbaar gemaakt, die door toe:voegen-binnen van Workfront Outlook voor authentificatie werden gebruikt. Deze verandering door Microsoft werd in fasen doorgevoerd en is voltooid op 1 oktober 2025.
+>[&#x200B; Microsoft heeft steun voor online tokens van de erfenisUitwisseling &#x200B;](https://learn.microsoft.com/en-us/office/dev/add-ins/outlook/faq-nested-app-auth-outlook-legacy-tokens) onbruikbaar gemaakt, die door toe:voegen-binnen van Workfront Outlook voor authentificatie werden gebruikt. Deze verandering door Microsoft werd in fasen doorgevoerd en is voltooid op 1 oktober 2025.
 >
 >**omdat Microsoft deze tokens heeft onbruikbaar gemaakt, werkt Workfront voor de integratie van Microsoft Outlook niet meer.**
 
@@ -64,13 +64,13 @@ Een [!DNL Workfront] aanvraag maken van [!DNL Outlook] :
 1. Klik op het pictogram **[!DNL Workfront]** rechtsboven in het e-mailbericht om de invoegtoepassing Workfront weer te geven.\
    Mogelijk moet u op de pijl omlaag in de rechterbovenhoek van uw e-mail klikken om het pictogram [!DNL Workfront] te openen.
 
-1. Klik het **[!UICONTROL Menu]** pictogram ![ o365_addin_menu2_icon.png ](assets/o365-addin-menu2-icon.png) om de lijst van beschikbare [!DNL Workfront] opties te tonen.
+1. Klik het **[!UICONTROL Menu]** pictogram ![&#x200B; o365_addin_menu2_icon.png &#x200B;](assets/o365-addin-menu2-icon.png) om de lijst van beschikbare [!DNL Workfront] opties te tonen.
 
 1. Klik op **[!UICONTROL Submit Request]**.
 1. Selecteer in het veld **[!UICONTROL Select a Request Type]** de aanvraagwachtrij waar u de aanvraag wilt verzenden.
 
 1. Geef de volgende informatie op:\
-   Afhankelijk van hoe de aanvraagwachtrij is ingesteld, kunnen de beschikbare velden variëren. Voor een volledige lijst en een beschrijving van mogelijke gebieden, zie [  [!DNL Adobe Workfront]  verzoeken ](../../manage-work/requests/create-requests/create-submit-requests.md) artikel creëren en voorleggen.
+   Afhankelijk van hoe de aanvraagwachtrij is ingesteld, kunnen de beschikbare velden variëren. Voor een volledige lijst en een beschrijving van mogelijke gebieden, zie [&#x200B;  [!DNL Adobe Workfront]  verzoeken &#x200B;](../../manage-work/requests/create-requests/create-submit-requests.md) artikel creëren en voorleggen.
 
    * **[!UICONTROL Subject]:** specificeer een onderwerp voor het verzoek. Standaard wordt het onderwerp van de e-mail gebruikt.
    * **[!UICONTROL Description]:** specificeer een beschrijving voor het verzoek. Standaard wordt de e-mailhoofdtekst gebruikt.

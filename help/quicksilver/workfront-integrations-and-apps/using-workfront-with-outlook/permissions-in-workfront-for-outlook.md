@@ -17,16 +17,16 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->[ Microsoft heeft steun voor online tokens van de erfenisUitwisseling ](https://learn.microsoft.com/en-us/office/dev/add-ins/outlook/faq-nested-app-auth-outlook-legacy-tokens) onbruikbaar gemaakt, die door toe:voegen-binnen van Workfront Outlook voor authentificatie werden gebruikt. Deze verandering door Microsoft werd in fasen doorgevoerd en is voltooid op 1 oktober 2025.
+>[&#x200B; Microsoft heeft steun voor online tokens van de erfenisUitwisseling &#x200B;](https://learn.microsoft.com/en-us/office/dev/add-ins/outlook/faq-nested-app-auth-outlook-legacy-tokens) onbruikbaar gemaakt, die door toe:voegen-binnen van Workfront Outlook voor authentificatie werden gebruikt. Deze verandering door Microsoft werd in fasen doorgevoerd en is voltooid op 1 oktober 2025.
 >
 >**omdat Microsoft deze tokens heeft onbruikbaar gemaakt, werkt Workfront voor de integratie van Microsoft Outlook niet meer.**
 
 [!DNL Workfront for Outlook] vereist de hoogste van de vier machtigingsniveaus die zijn toegestaan in [!DNL Outlook] add-ins.
 
-Voor details betreffende toestemmingen in [!DNL Outlook] toe:voegen-ins, zie [ Privacy, toestemmingen en veiligheid voor  [!DNL Outlook]  toe:voegen-ins ](https://docs.microsoft.com/en-us/office/dev/add-ins/outlook/privacy-and-security) in de [!DNL Microsoft] documentatie.
+Voor details betreffende toestemmingen in [!DNL Outlook] toe:voegen-ins, zie [&#x200B; Privacy, toestemmingen en veiligheid voor  [!DNL Outlook]  toe:voegen-ins &#x200B;](https://docs.microsoft.com/en-us/office/dev/add-ins/outlook/privacy-and-security) in de [!DNL Microsoft] documentatie.
 
 [!DNL Workfront for Outlook] toe:voegen-binnen vereist lees-schrijf brievenbustoegang (`ReadWriteMailbox`), die het hoogste toestemmingswerkingsgebied is.
-Voor de integratie met [!DNL Workfront for Outlook] zijn machtigingen op het hoogste niveau vereist, omdat deze de functionaliteit heeft om e-mailbijlagen te downloaden van de [!DNL Outlook] Exchange-server en deze te uploaden naar [!DNL Workfront] , wanneer de gebruiker een aanvraag indient via een e-mail met bijlagen. Deze functionaliteit werkt alleen als [!DNL Workfront for Outlook] de functie `mailbox.getCallbackTokenAsync()` from [!DNL Office] Add-in JavaScript API gebruikt om het token op te halen en dat te gebruiken om e-mailbijlagen van de Exchange-server te downloaden. De enige toestemming die het gebruik van die functie toestaat is `ReadWriteMailbox`. Voor meer informatie, zie [ Privacy, toestemmingen en veiligheid voor toe:voegen-ins van Vooruitzichten ](https://docs.microsoft.com/en-us/office/dev/add-ins/outlook/privacy-and-security) in de documentatie van Microsoft.
+Voor de integratie met [!DNL Workfront for Outlook] zijn machtigingen op het hoogste niveau vereist, omdat deze de functionaliteit heeft om e-mailbijlagen te downloaden van de [!DNL Outlook] Exchange-server en deze te uploaden naar [!DNL Workfront] , wanneer de gebruiker een aanvraag indient via een e-mail met bijlagen. Deze functionaliteit werkt alleen als [!DNL Workfront for Outlook] de functie `mailbox.getCallbackTokenAsync()` from [!DNL Office] Add-in JavaScript API gebruikt om het token op te halen en dat te gebruiken om e-mailbijlagen van de Exchange-server te downloaden. De enige toestemming die het gebruik van die functie toestaat is `ReadWriteMailbox`. Voor meer informatie, zie [&#x200B; Privacy, toestemmingen en veiligheid voor toe:voegen-ins van Vooruitzichten &#x200B;](https://docs.microsoft.com/en-us/office/dev/add-ins/outlook/privacy-and-security) in de documentatie van Microsoft.
 
 Voor de [!DNL Workfront for Outlook] add-in is ook `ReadWriteItem` permission (opgenomen in `ReadWriteMailbox` ) vereist, waarmee de hoofdtekst van de e-mail wordt gelezen en e-mailmetagegevens worden gelezen/bijgewerkt:
 

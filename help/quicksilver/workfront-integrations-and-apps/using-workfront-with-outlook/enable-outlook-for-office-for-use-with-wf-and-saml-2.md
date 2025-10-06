@@ -19,7 +19,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->[ Microsoft heeft steun voor online tokens van de erfenisUitwisseling ](https://learn.microsoft.com/en-us/office/dev/add-ins/outlook/faq-nested-app-auth-outlook-legacy-tokens) onbruikbaar gemaakt, die door toe:voegen-binnen van Workfront Outlook voor authentificatie werden gebruikt. Deze verandering door Microsoft werd in fasen doorgevoerd en is voltooid op 1 oktober 2025.
+>[&#x200B; Microsoft heeft steun voor online tokens van de erfenisUitwisseling &#x200B;](https://learn.microsoft.com/en-us/office/dev/add-ins/outlook/faq-nested-app-auth-outlook-legacy-tokens) onbruikbaar gemaakt, die door toe:voegen-binnen van Workfront Outlook voor authentificatie werden gebruikt. Deze verandering door Microsoft werd in fasen doorgevoerd en is voltooid op 1 oktober 2025.
 >
 >**omdat Microsoft deze tokens heeft onbruikbaar gemaakt, werkt Workfront voor de integratie van Microsoft Outlook niet meer.**
 
@@ -27,4 +27,4 @@ Als uw [!DNL Adobe Workfront] -systeem is geïntegreerd met SAML 2.0, moet u SAM
 
 Als u problemen ondervindt bij het aanmelden bij [!DNL Workfront] met SAML, neemt u contact op met de [!DNL Workfront] -beheerder om ervoor te zorgen dat SAML op de juiste wijze is geconfigureerd.
 
-Voor informatie over hoe te om toe:voegen-ins van het Bureau toe te laten om het gebruiken van een oplossing van SAML 2.0 voor authentiek te verklaren, zie de sectie in [ Adobe Workfront met SAML 2.0 ](../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2.md) artikel vormen.
+Voor informatie over hoe te om toe:voegen-ins van het Bureau toe te laten om het gebruiken van een oplossing van SAML 2.0 voor authentiek te verklaren, zie de sectie in [&#x200B; Adobe Workfront met SAML 2.0 &#x200B;](../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2.md) artikel vormen.

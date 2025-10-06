@@ -17,7 +17,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->[ Microsoft heeft steun voor online tokens van de erfenisUitwisseling ](https://learn.microsoft.com/en-us/office/dev/add-ins/outlook/faq-nested-app-auth-outlook-legacy-tokens) onbruikbaar gemaakt, die door toe:voegen-binnen van Workfront Outlook voor authentificatie werden gebruikt. Deze verandering door Microsoft werd in fasen doorgevoerd en is voltooid op 1 oktober 2025.
+>[&#x200B; Microsoft heeft steun voor online tokens van de erfenisUitwisseling &#x200B;](https://learn.microsoft.com/en-us/office/dev/add-ins/outlook/faq-nested-app-auth-outlook-legacy-tokens) onbruikbaar gemaakt, die door toe:voegen-binnen van Workfront Outlook voor authentificatie werden gebruikt. Deze verandering door Microsoft werd in fasen doorgevoerd en is voltooid op 1 oktober 2025.
 >
 >**omdat Microsoft deze tokens heeft onbruikbaar gemaakt, werkt Workfront voor de integratie van Microsoft Outlook niet meer.**
 
@@ -54,7 +54,7 @@ Uw [!DNL Workfront] beheerder moet [!DNL Outlook for Office] with [!DNL Workfron
 1. Klik op het pictogram **[!DNL Workfront]** rechtsboven in het e-mailbericht om de invoegtoepassing Workfront weer te geven.\
    Mogelijk moet u op de pijl omlaag in de rechterbovenhoek van uw e-mail klikken om het pictogram [!DNL Workfront] te openen.
 
-1. Klik het **[!UICONTROL Menu]** pictogram ![ o365_addin_menu_icon.png ](assets/o365-addin-menu2-icon.png) om de lijst van beschikbare [!DNL Workfront] opties te tonen.\
+1. Klik het **[!UICONTROL Menu]** pictogram ![&#x200B; o365_addin_menu_icon.png &#x200B;](assets/o365-addin-menu2-icon.png) om de lijst van beschikbare [!DNL Workfront] opties te tonen.\
 
 
 1. Klik **[!UICONTROL Update]in Workfront**.\
@@ -78,11 +78,11 @@ Uw [!DNL Workfront] beheerder moet [!DNL Outlook for Office] with [!DNL Workfron
    * **[!UICONTROL Unlocked]:** Elke gebruiker met toegang tot het project, de taak of het probleem waar de update zich bevindt, kan de update weergeven.\
 
      De update is standaard ontgrendeld.\
-      ![ o365_addin_unlock.png ](assets/o365-addin-unlock.png)
+      ![&#x200B; o365_addin_unlock.png &#x200B;](assets/o365-addin-unlock.png)
 
    * **[!UICONTROL Locked]:** alleen gebruikers binnen uw bedrijf kunnen de update weergeven.\
 
-     ![ o365_addin_lock.png ](assets/o365-addin-lock.png)
+     ![&#x200B; o365_addin_lock.png &#x200B;](assets/o365-addin-lock.png)
 
 1. Klik op **[!UICONTROL Update]**.
 1. (Optioneel) Klik op **[!UICONTROL View in Workfront]** om het bijgewerkte item weer te geven met de [!DNL Workfront] integratie in [!UICONTROL Outlook] .

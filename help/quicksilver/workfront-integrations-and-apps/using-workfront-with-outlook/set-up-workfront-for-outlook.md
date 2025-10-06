@@ -19,23 +19,23 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->[ Microsoft heeft steun voor online tokens van de erfenisUitwisseling ](https://learn.microsoft.com/en-us/office/dev/add-ins/outlook/faq-nested-app-auth-outlook-legacy-tokens) onbruikbaar gemaakt, die door toe:voegen-binnen van Workfront Outlook voor authentificatie werden gebruikt. Deze verandering door Microsoft werd in fasen doorgevoerd en is voltooid op 1 oktober 2025.
+>[&#x200B; Microsoft heeft steun voor online tokens van de erfenisUitwisseling &#x200B;](https://learn.microsoft.com/en-us/office/dev/add-ins/outlook/faq-nested-app-auth-outlook-legacy-tokens) onbruikbaar gemaakt, die door toe:voegen-binnen van Workfront Outlook voor authentificatie werden gebruikt. Deze verandering door Microsoft werd in fasen doorgevoerd en is voltooid op 1 oktober 2025.
 >
 >**omdat Microsoft deze tokens heeft onbruikbaar gemaakt, werkt Workfront voor de integratie van Microsoft Outlook niet meer.**
 
 Met de [!DNL Adobe Workfront] [!DNL Outlook] add-in kunt u de volgende belangrijke [!DNL Workfront] taken rechtstreeks vanuit Outlook uitvoeren:
 
-* Werk een bestaand project, een bestaande taak of een bestaand probleem bij met informatie uit een e-mail. Voor meer informatie, zie [ een bestaand voorwerp van a  [!DNL Outlook]  e-mail ](../../workfront-integrations-and-apps/using-workfront-with-outlook/update-an-existing-object-from-an-outlook-email.md) bijwerken.
-* Maak een [!DNL Workfront] -aanvraag op basis van een e-mail in [!DNL Outlook] . Voor meer informatie, zie [ een verzoek van Adobe Workfront van a  [!DNL Outlook]  e-mail ](../../workfront-integrations-and-apps/using-workfront-with-outlook/create-a-wf-request-from-an-outlook-email.md) creëren.
-* Voeg een e-mail als taak toe in uw [!UICONTROL My Work] gebied. Voor meer informatie, zie [ een  [!DNL Outlook]  e-mail als taak aan uw het werklijst ](../../workfront-integrations-and-apps/using-workfront-with-outlook/add-outlook-email-as-task-to-your-work-list.md) toevoegen.
-* Reageer op opmerkingen via de [!DNL Workfront] add-in voor [!DNL Outlook] . Voor informatie over het antwoorden op commentaren van Workfront voor [!DNL Outlook], zie [ Reageren op een commentaar van  [!DNL Outlook]](../../workfront-integrations-and-apps/using-workfront-with-outlook/reply-to-a-comment-from-outlook.md).
-* Maak nieuwe taken en uitgaven of maak deze op basis van bestaande e-mails (gebruik van de functie slepen en neerzetten). Voor meer informatie, zie [ een  [!DNL Outlook]  e-mail aan een project als taak of een kwestie ](../../workfront-integrations-and-apps/using-workfront-with-outlook/add-outlook-email-to-project-as-task-or-issue.md) toevoegen.
+* Werk een bestaand project, een bestaande taak of een bestaand probleem bij met informatie uit een e-mail. Voor meer informatie, zie [&#x200B; een bestaand voorwerp van a  [!DNL Outlook]  e-mail &#x200B;](../../workfront-integrations-and-apps/using-workfront-with-outlook/update-an-existing-object-from-an-outlook-email.md) bijwerken.
+* Maak een [!DNL Workfront] -aanvraag op basis van een e-mail in [!DNL Outlook] . Voor meer informatie, zie [&#x200B; een verzoek van Adobe Workfront van a  [!DNL Outlook]  e-mail &#x200B;](../../workfront-integrations-and-apps/using-workfront-with-outlook/create-a-wf-request-from-an-outlook-email.md) creëren.
+* Voeg een e-mail als taak toe in uw [!UICONTROL My Work] gebied. Voor meer informatie, zie [&#x200B; een  [!DNL Outlook]  e-mail als taak aan uw het werklijst &#x200B;](../../workfront-integrations-and-apps/using-workfront-with-outlook/add-outlook-email-as-task-to-your-work-list.md) toevoegen.
+* Reageer op opmerkingen via de [!DNL Workfront] add-in voor [!DNL Outlook] . Voor informatie over het antwoorden op commentaren van Workfront voor [!DNL Outlook], zie [&#x200B; Reageren op een commentaar van  [!DNL Outlook]](../../workfront-integrations-and-apps/using-workfront-with-outlook/reply-to-a-comment-from-outlook.md).
+* Maak nieuwe taken en uitgaven of maak deze op basis van bestaande e-mails (gebruik van de functie slepen en neerzetten). Voor meer informatie, zie [&#x200B; een  [!DNL Outlook]  e-mail aan een project als taak of een kwestie &#x200B;](../../workfront-integrations-and-apps/using-workfront-with-outlook/add-outlook-email-to-project-as-task-or-issue.md) toevoegen.
 
 U moet de [!DNL Workfront] add-in toevoegen aan uw [!DNL Outlook] -account voordat u [!DNL Workfront for Outlook] kunt gebruiken.
 
 Als u de [!DNL Workfront] add-in niet kunt installeren met uw [!DNL Outlook] -account, neemt u contact op met de [!DNL Workfront] -beheerder om ervoor te zorgen dat [!DNL Outlook] add-ins zijn ingeschakeld voor uw organisatie.
 
-Voor informatie over hoe te om de [!DNL Outlook] integratie voor uw organisatie toe te laten, zie [ toelaten  [!DNL Adobe Workfront for Outlook]](../../administration-and-setup/configure-integrations/enable-workfront-for-outlook.md).
+Voor informatie over hoe te om de [!DNL Outlook] integratie voor uw organisatie toe te laten, zie [&#x200B; toelaten  [!DNL Adobe Workfront for Outlook]](../../administration-and-setup/configure-integrations/enable-workfront-for-outlook.md).
 
 ## Toegangsvereisten
 
@@ -60,7 +60,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -108,17 +108,17 @@ Aan de vereisten voor de mailserver wordt standaard voldaan wanneer u verbinding
 
   <!--this used to be here but Dev asked for it to be taken out - logged issue for editing this article on 4-26-2023: For more information, see [Digital certificates and encryption in [!DNL Exchange 2016]](https://technet.microsoft.com/en-us/library/dd351044(v=exchg.160).aspx) and [Set-AuthConfig](https://technet.microsoft.com/en-us/library/jj215766(v=exchg.160).aspx).-->
 
-* Om tot [!DNL Workfront] toe:voegen-binnen van de [[!DNL Office]  Opslag ](https://store.office.com/) toegang te hebben, moeten uw servers van de cliënttoegang met [ https://store.office.com ](https://store.office.com/) kunnen communiceren.
+* Om tot [!DNL Workfront] toe:voegen-binnen van de [[!DNL Office]  Opslag &#x200B;](https://store.office.com/) toegang te hebben, moeten uw servers van de cliënttoegang met [&#x200B; https://store.office.com &#x200B;](https://store.office.com/) kunnen communiceren.
 
-Voor meer gedetailleerde informatie over gesteunde milieu&#39;s, zie de [[!DNL Microsoft Office 365]  homepage ](https://products.office.com/en-us/office-365-home).
+Voor meer gedetailleerde informatie over gesteunde milieu&#39;s, zie de [[!DNL Microsoft Office 365]  homepage &#x200B;](https://products.office.com/en-us/office-365-home).
 
 ## De invoegtoepassing installeren
 
-U kunt Workfront toe:voegen-binnen voor Vooruitzichten van de [ opslag van Microsoft ](https://appsource.microsoft.com/en-us/product/office/WA104380943?tab=Overview) krijgen.
+U kunt Workfront toe:voegen-binnen voor Vooruitzichten van de [&#x200B; opslag van Microsoft &#x200B;](https://appsource.microsoft.com/en-us/product/office/WA104380943?tab=Overview) krijgen.
 
 ### [!DNL Workfront] for [!DNL Outlook 365] {#workfront-for-outlook-365}
 
-1. In [!DNL Outlook 365], klik het **[!UICONTROL Browse Add-ins]** pictogram ![ doorbladert toe:voegen-ins ](assets/outlook-add-in-26x26.png) bij de bovenkant van de interface van Bureau 365, dan klik **[!UICONTROL Manage add-ins]**.
+1. In [!DNL Outlook 365], klik het **[!UICONTROL Browse Add-ins]** pictogram ![&#x200B; doorbladert toe:voegen-ins &#x200B;](assets/outlook-add-in-26x26.png) bij de bovenkant van de interface van Bureau 365, dan klik **[!UICONTROL Manage add-ins]**.
 
 1. Zoek in het vak **[!UICONTROL Search add-ins]** naar **[!DNL Workfront]** en druk op [!UICONTROL Enter] .
 
@@ -127,13 +127,13 @@ U kunt Workfront toe:voegen-binnen voor Vooruitzichten van de [ opslag van Micro
 ### [!DNL Workfront] for [!DNL Outlook] on the Web {#workfront-for-outlook-on-the-web}
 
 1. Open [!DNL Microsoft Outlook] in een webbrowser.
-1. Klik **[!UICONTROL Browse]toe:voegen-ins** pictogram ![ doorbladeren toe:voegen-ins ](assets/outlook-add-in-web-version-20x20.png).
+1. Klik **[!UICONTROL Browse]toe:voegen-ins** pictogram ![&#x200B; doorbladeren toe:voegen-ins &#x200B;](assets/outlook-add-in-web-version-20x20.png).
 
-   Om van het pictogram de plaats te bepalen, zie [ Gebruikend toe:voegen-ins in  [!DNL Outlook]  op het Web ](https://support.microsoft.com/en-us/office/using-add-ins-in-outlook-on-the-web-8f2ce816-5df4-44a5-958c-f7f9d6dabdce#bkmk_addaddinsicon) in de documentatie van Microsoft.
+   Om van het pictogram de plaats te bepalen, zie [&#x200B; Gebruikend toe:voegen-ins in  [!DNL Outlook]  op het Web &#x200B;](https://support.microsoft.com/en-us/office/using-add-ins-in-outlook-on-the-web-8f2ce816-5df4-44a5-958c-f7f9d6dabdce#bkmk_addaddinsicon) in de documentatie van Microsoft.
 
 1. Zoek naar **[!DNL Workfront]** in het **[!UICONTROL Search add-ins]** gebied, dan druk **[!UICONTROL Enter]**.
 
-1. Wanneer het op de lijst verschijnt, voegt de klik **** toe.
+1. Wanneer het op de lijst verschijnt, voegt de klik **&#x200B;**&#x200B;toe.
 
 ### [!DNL Workfront for Outlook] on [!UICONTROL Windows] of [!DNL Mac] {#workfront-for-outlook-on-windows-or-mac}
 
