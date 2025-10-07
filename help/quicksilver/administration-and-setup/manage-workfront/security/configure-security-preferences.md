@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: f92ceed7-b191-425b-9fff-1b0947f32db8
-source-git-commit: 6b93a6d7830d644520c38aa6010cd7df18c5a667
+source-git-commit: f5044d457ebf203269e8007075e98ba4c136660f
 workflow-type: tm+mt
-source-wordcount: '832'
+source-wordcount: '818'
 ht-degree: 0%
 
 ---
@@ -99,7 +99,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
      </tr> 
      <tr> 
       <td role="rowheader">Gebruikers met mobiele Workfront-toepassingen en de Workfront Outlook Add-in toestaan</td> 
-      <td> <p>Hiermee krijgen gebruikers toegang tot de mobiele apps (Workfront View for iPad and mobile phone apps) en de Workfront Outlook-app.</p> <p>Deze optie is standaard ingeschakeld. </p> <p>Voor informatie over de Mening van Workfront, zie {de Mening van Adobe Workfront van 0} Gebruik <a href="../../../workfront-basics/mobile-apps/using-workfront-view/use-workfront-view.md" class="MCXref xref">. </a> Voor meer informatie over mobiele apps, zie <a href="../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/use-the-mobile-app.md" class="MCXref xref"> Gebruik mobiele app van Adobe Workfront: artikelindex </a>.</p> <p>Voor meer informatie over de stop van Vooruitzichten, zie <a href="../../../workfront-integrations-and-apps/using-workfront-with-outlook/set-up-workfront-for-outlook.md" class="MCXref xref"> Opstelling Adobe Workfront voor Vooruitzichten </a>.</p> </td> 
+      <td> <p>Hiermee krijgen gebruikers toegang tot de mobiele apps (Workfront View for iPad and mobile phone apps) en de Workfront Outlook-app.</p> <p>Deze optie is standaard ingeschakeld. </p> <p>Voor informatie over de Mening van Workfront, zie {de Mening van Adobe Workfront van 0} Gebruik <a href="../../../workfront-basics/mobile-apps/using-workfront-view/use-workfront-view.md" class="MCXref xref">. </a> Voor meer informatie over mobiele apps, zie <a href="../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/use-the-mobile-app.md" class="MCXref xref"> Gebruik mobiele app van Adobe Workfront: artikelindex </a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Samenwerking met personen zonder Workfront-accounts met e-mailadressen</p> </td> 

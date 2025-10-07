@@ -7,9 +7,9 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 880828f4-3908-4ef0-ab1f-774f8dee72b6
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: f5044d457ebf203269e8007075e98ba4c136660f
 workflow-type: tm+mt
-source-wordcount: '3821'
+source-wordcount: '3791'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ De slotversie van Beta van 2017.3 bevat verbeteringen voor zowel Workfront-behee
 * [ brandend in Geëxporteerde Rapporten, Lijsten, en Dashboards ](#branding-in-exported-reports-lists-and-dashboards)
 * [ Verbeteringen wanneer het kopiëren van Taken en het bewegen van Taken of Kwesties ](#improvements-when-copying-tasks-and-moving-tasks-or-issues)
 * [ Nieuwe Groepering voor de Rapporten van het Huur van het Middel begrote: Datum van de toewijzing ](#new-grouping-for-resource-budgeted-hour-reports-allocation-date)
-* {de Verbeteringen van de Planner van 0} Middel [&#128279;](#resource-planner-improvements)
+* {de Verbeteringen van de Planner van 0} Middel [](#resource-planner-improvements)
 * [ Mobiele Verbeteringen ](#mobile-improvements)
 * [ de Integratie van Workfront met Slack ](#workfront-integration-with-slack)
 * [ Vooruitzichten 365 Verbeteringen ](#outlook-365-improvements)
@@ -267,22 +267,22 @@ Dit is de standaardrol waaraan gebruikers worden toegewezen op een proef wanneer
 
 ## Verbeteringen voor proefdrukken in zowel Workfront Proof als Workfront {#proofing-enhancements-within-both-workfront-proof-and-workfront}
 
-* [ Begin en Skip in HTML 25 Video het proef kijker (de Kortere weg van het Toetsenbord) ](#restart-and-skip-in-html5-video-proofing-viewer-keyboard-shortcuts)
-* [HTML5-proefdrukken van viewer-updates](#html5-proofing-viewer-updates)
+* [ Begin en Skip in HTML5 Video het proef kijker (de Kortere weg van het Toetsenbord) ](#restart-and-skip-in-html5-video-proofing-viewer-keyboard-shortcuts)
+* [Updates van de HTML5-testviewer](#html5-proofing-viewer-updates)
 
-### Opnieuw starten en overslaan in de HTML5-viewer voor videoproeven (sneltoetsen) {#restart-and-skip-in-html5-video-proofing-viewer-keyboard-shortcuts}
+### Opnieuw starten en overslaan in HTML5 Video Proofing Viewer (sneltoetsen) {#restart-and-skip-in-html5-video-proofing-viewer-keyboard-shortcuts}
 
-In de HTML5-proefviewer voor videoweergave zijn nu sneltoetsen beschikbaar waarmee u de video vanaf het begin opnieuw kunt starten en het einde van de video kunt bereiken.
+Er zijn nu sneltoetsen in de HTML5 Proofing-viewer voor video waarmee u de video opnieuw kunt starten vanaf het begin en het einde van de video kunt overslaan.
 
 Voor meer informatie over de beschikbare toetsenbordkortere weg, zie [ kortere weg van het Toetsenbord in de het proef Workfront Proof kijker ](../../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/keyboard-shortcuts.md).
 
-### HTML5-proefdrukken van viewer-updates {#html5-proofing-viewer-updates}
+### Updates van de HTML5-testviewer {#html5-proofing-viewer-updates}
 
 De HTML5-viewer ondersteunt nu statische proefdrukken.
 
-Vóór deze wijziging werd in de HTML5-viewer alleen een videoproefdruk ondersteund. 
+Vóór deze wijziging werd in de HTML5-viewer alleen videoproefdrukken ondersteund. 
 
-De viewer HTML bevat de volgende nieuwe functionaliteit wanneer u statische inhoud weergeeft:
+De HTML-viewer bevat de volgende nieuwe functionaliteit wanneer u statische inhoud test:
 
 * Eén opmerking maken met markeringen op meerdere pagina&#39;s in de weergave Eén
 
@@ -297,7 +297,7 @@ De viewer HTML bevat de volgende nieuwe functionaliteit wanneer u statische inho
 * Aangepaste waarden opgeven in het gereedschap Meten
 * Wanneer u tekst notiteert in een proefdruk in de testviewer in Workfront Proof, kunt u opties opnemen om aan te geven dat de tekst vet, cursief en onderstreept moet worden weergegeven.
 
-De HTML5-viewer ondersteunt nog niet alle functionaliteit die momenteel beschikbaar is in de bestaande Flash viewer. De volgende functionaliteit is momenteel niet beschikbaar, maar wordt in een toekomstige release opgenomen:
+De HTML5-viewer ondersteunt nog niet alle functionaliteit die momenteel beschikbaar is in de bestaande Flash-viewer. De volgende functionaliteit is momenteel niet beschikbaar, maar wordt in een toekomstige release opgenomen:
 
 * Ondersteuning voor rijke mediabestanden
 * Vergelijkingsmodus (Video en statisch)
@@ -433,7 +433,7 @@ U kunt deze functionaliteit installeren wanneer u de mobiele Workfront-app bijwe
 >
 >De Slack-integratie is momenteel niet beschikbaar. Het zal met uw milieu van de Productie in november 2017 beschikbaar zijn te gebruiken.
 
-We lanceren een nieuwe integratie tussen Workfront en Slack. Als uw organisatie reeds Slack voor uw mededeling heeft gebruikt, kunt u het nu met Workfront integreren en gemeenschappelijke acties van Workfront uitvoeren zonder uw communicatiekanalen in Slack te verlaten. U kunt nu de volgende handelingen uitvoeren vanaf uw account voor Slacks:
+We lanceren een nieuwe integratie tussen Workfront en Slack. Als uw organisatie Slack al voor uw communicatie gebruikt, kunt u het nu integreren met Workfront en gemeenschappelijke acties van Workfront uitvoeren zonder uw communicatiekanalen in Slack te verlaten. U kunt nu de volgende handelingen uitvoeren vanaf uw Slack-account:
 
 * Zoeken naar een object in Workfront
 * Toegang tot uw werk- en goedkeuringslijsten
@@ -452,8 +452,6 @@ We hebben de volgende verbeteringen aangebracht in de invoegtoepassing Workfront
 
 * Voeg een taak of een kwestie aan een project in Workfront toe: U kunt een e-mail naar een taak of een kwestie in Workfront nu omzetten, gebruikend toe:voegen-binnen van Vooruitzichten 365. In dit proces, kunt u een project specificeren u de taak of de kwestie wilt worden toegevoegd aan, evenals een ontvanger en een vervaldatum. Voorafgaand aan deze verhoging, kon u een verzoek aan een verzoekrij slechts voorleggen of een persoonlijke taak toevoegen aan uw het Werken aan lijst van Vooruitzichten 365. 
 * Een koppeling naar Workfront-objecten behouden in de oorspronkelijke e-mail die is geconverteerd naar taken, problemen of verzoeken: wanneer u een e-mail vanuit Outlook 365 converteert naar een taak, uitgave of aanvraag, blijft in Outlook 365 een koppeling behouden naar de taak of uitgave die vanuit die e-mail is geconverteerd in de oorspronkelijke e-mail. Voorafgaand aan deze verandering, was er geen aanwijzing in Vooruitzichten of een e-mail in een taak was omgezet of als verzoek ingediend. 
-
-  Voor meer informatie over het omzetten van een e-mail in een taak of een kwestie van Vooruitzichten 365, zie [ een e-mail van Vooruitzichten aan een project als taak of een kwestie ](../../../../workfront-integrations-and-apps/using-workfront-with-outlook/add-outlook-email-to-project-as-task-or-issue.md) toevoegen.
 
 ## API-wijzigingen {#api-changes}
 

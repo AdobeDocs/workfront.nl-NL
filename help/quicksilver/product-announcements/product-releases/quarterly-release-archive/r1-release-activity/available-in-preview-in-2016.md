@@ -7,9 +7,9 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 08e0bd72-5979-449e-9fb2-c4d45f51119e
-source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
+source-git-commit: f5044d457ebf203269e8007075e98ba4c136660f
 workflow-type: tm+mt
-source-wordcount: '715'
+source-wordcount: '709'
 ht-degree: 0%
 
 ---
@@ -67,7 +67,6 @@ Voor meer informatie over het vormen van het lay-outmalplaatje, zie [ lay-outmal
 
 U kunt Workfront van Vooruitzichten voor Bureau 365 gebruiken, zoals die in de volgende secties wordt beschreven:
 
-* [ Opstelling Adobe Workfront voor Vooruitzichten ](../../../../workfront-integrations-and-apps/using-workfront-with-outlook/set-up-workfront-for-outlook.md)
 * &quot;Een bestaand item bijwerken via een e-mail met Outlook 365&quot;
 
 ## Kolommen in een lijst opnieuw rangschikken met Slepen en neerzetten
@@ -98,4 +97,4 @@ Vóór deze wijziging kon u alleen toegang verlenen aan groepen.
 
 **toe:voegen-On beschikbaar voor download: April 2016**
 
-De extensie Workfront voor Adobe Creative Cloud is ontworpen om u in staat te stellen elementen die u in het Creative Cloud maakt, op te slaan en te exporteren naar Workfront. Hierdoor kunt u het goedkeurings- en controleproces versnellen.
+De extensie Workfront voor Adobe Creative Cloud is ontworpen om u in staat te stellen elementen die u in de Creative Cloud maakt, op te slaan en te exporteren naar Workfront. Hierdoor kunt u het goedkeurings- en controleproces versnellen.
