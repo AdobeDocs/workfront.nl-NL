@@ -22,7 +22,7 @@ De volgende functies zijn beschikbaar gesteld in de voorvertoningsomgeving in 20
 
 >[!NOTE]
 >
->De hulpmiddelen van de Planning van het Middel zijn afgekeurd en uit Workfront met versie 23.1 verwijderd. Voor informatie over het plannen van middelen die de Balancer van de Werklast gebruiken, zie [ Overzicht van de Balancer van de Werkbelasting ](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+>De hulpmiddelen van de Planning van het Middel zijn afgekeurd en uit Workfront met versie 23.1 verwijderd. Voor informatie over het plannen van middelen die de Balancer van de Werklast gebruiken, zie [&#x200B; Overzicht van de Balancer van de Werkbelasting &#x200B;](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
 
 Nu kunt u alle taken op projecten zien waarvoor u de Manager van het Middel bent, toelatend u om meer geïnformeerd te zijn wanneer het nemen van het plannen van besluiten.
 
@@ -59,7 +59,7 @@ Wanneer het gebruiken van de erfeniskalender in het Mijn gebied van het Werk, sl
 
 Om Workfront te vormen om de nieuwe kalender in het Mijn gebied van het Werk te tonen wanneer een lay-outmalplaatje wordt toegepast, vorm het lay-outmalplaatje om de Geplande Datum van de Voltooiing op taken en kwesties te tonen, dan wijs dat lay-outmalplaatje aan de aangewezen gebruikers toe.
 
-Voor meer informatie over het vormen van het lay-outmalplaatje, zie [ lay-outmalplaatjes ](../../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md#customizing-my-work) in [ creëren en leiden lay-outmalplaatjes ](../../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
+Voor meer informatie over het vormen van het lay-outmalplaatje, zie [&#x200B; lay-outmalplaatjes &#x200B;](../../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md#customizing-my-work) in [&#x200B; creëren en leiden lay-outmalplaatjes &#x200B;](../../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
 ## Outlook 365 Beta
 
@@ -77,13 +77,13 @@ U kunt de volgorde van kolommen in een lijst wijzigen door een kolom van de ene 
 
 Dit is vooral handig wanneer u het Gantt-diagram en de lijstweergave tegelijk bekijkt en de kolom die u wilt weergeven, niet aan de linkerkant van de pagina wordt weergegeven. 
 
-Voor meer informatie, zie [ kolombreedte en orde wijzigen ](../../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md)
+Voor meer informatie, zie [&#x200B; kolombreedte en orde wijzigen &#x200B;](../../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md)
 
 ## Bijgewerkte weergave en weergave in de dashboardlijst
 
 Wanneer u een dashboardlijst bekijkt, is het uiterlijk moderner en schaalbaarder.
 
-Voor meer informatie over dashboards, zie [ een dashboard ](../../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md) creëren
+Voor meer informatie over dashboards, zie [&#x200B; een dashboard &#x200B;](../../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md) creëren
 
 ## Toegang tot aangepaste Forms beheren
 

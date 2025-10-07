@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Op deze pagina worden alle integratieverbeteringen beschreven die zijn aangebracht met de release van het vierde kwartaal van 2024 voor de voorvertoningsomgeving. Deze verbeteringen zullen beschikbaar worden gesteld in de productieomgeving, zoals vermeld.
 
-Voor een lijst van alle veranderingen beschikbaar op dit punt in het Vierde Kwartaal 2024 versiecyclus, zie [ Vierde Kwartaal 2024 releaseoverzicht ](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar op dit punt in het Vierde Kwartaal 2024 versiecyclus, zie [&#x200B; Vierde Kwartaal 2024 releaseoverzicht &#x200B;](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md).
 
 ## Verbeteringen voor aanmeldervaring voor Outlook-integratie
 
