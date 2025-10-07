@@ -7,9 +7,9 @@ description: Veelgestelde vragen over rapporten
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 5e267d45-7922-4c0f-8530-59a8c152f625
-source-git-commit: 957c6e6955a828aa40ac996490d66e9c46f594bc
+source-git-commit: 58567104d88e7e1363d4196aec8a36ee0566b95a
 workflow-type: tm+mt
-source-wordcount: '1510'
+source-wordcount: '1509'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Hier volgen vaak gestelde vragen over rapporten.
 
 ## Toegangsvereisten
 
-+++ Vouw uit om de vereisten voor toegang weer te geven.
++++ Vouw uit om de vereisten voor toegang weer te geven. 
 
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
@@ -210,8 +210,7 @@ Om meer over **te leren stel dit Rapport met de Rechten van de Toegang van in we
 
 Wanneer u een gebruiker schrapt, kunt u tot om het even welke rapporten nog toegang hebben die zij, nochtans, om het even welke dashboards creeerden die het rapport omvatten ook worden geschrapt. Dit betekent dat u niet meer tot het volgende kunt toegang hebben:
 
-* Een dashboard dat het rapport bevat
-* Een aangepaste sectie die een dashboard van het rapport bevat
+* Een dashboard dat het rapport bevat, inclusief dashboards in het linkerdeelvenster van een object
 
 Meer over de implicaties leren van het schrappen van een gebruiker, zie [ gebruikers van de Schrapping ](../../../administration-and-setup/add-users/create-and-manage-users/delete-a-user.md).
 

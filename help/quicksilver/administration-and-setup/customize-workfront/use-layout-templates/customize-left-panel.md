@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: b100ea35-e045-4021-b5be-2c9071b381da
-source-git-commit: 80bdc2f2c1bedbc5a894b5a474425c5544c039fd
+source-git-commit: 58567104d88e7e1363d4196aec8a36ee0566b95a
 workflow-type: tm+mt
-source-wordcount: '830'
+source-wordcount: '793'
 ht-degree: 0%
 
 ---
@@ -21,9 +21,9 @@ ht-degree: 0%
 
 In een lay-outsjabloon kunt u aanpassen wat gebruikers in het linkerdeelvenstergebied in [!DNL Adobe Workfront] zien.
 
-U kunt bijvoorbeeld bepalen welke van de volgende items gebruikers in het linkerdeelvenster zien wanneer ze een taak bekijken:
+U kunt bijvoorbeeld bepalen welke van de volgende items gebruikers in het linkerdeelvenster zien wanneer ze een project bekijken:
 
-![ brandend linkerpaneel ](assets/left-panel-adobe-branding.png)
+![ Linkerpaneel van een project ](assets/left-panel-in-project.png)
 
 >[!IMPORTANT]
 >
@@ -147,7 +147,7 @@ Om hen voor een groep uit te voeren, moet u een manager van die groep zijn.</p> 
      <tr> 
       <td>[!UICONTROL Dashboards]</td> 
       <td>De naam van een dashboard</td> 
-      <td>[!UICONTROL My Dashboards], [!UICONTROL Shared Dashboards], [!UICONTROL All Dashboards]<p><b> NOTA </b>: Als u douanelusjes voor het [!UICONTROL Reports] gebied gebruikend een lay-outmalplaatje in [!DNL Adobe Workfront Classic] creeerde, tonen zij bij de bodem van deze lijst. Gebruikers kunnen ze onder aan het linkerdeelvenster weergeven in het [!UICONTROL Dashboards] -gebied.</p> </td> 
+      <td>[!UICONTROL My Dashboards], [!UICONTROL Shared Dashboards], [!UICONTROL All Dashboards]</td> 
      </tr> 
      <tr> 
       <td>[!UICONTROL Scrum Team]</td> 
@@ -207,7 +207,7 @@ Om hen voor een groep uit te voeren, moet u een manager van die groep zijn.</p> 
 
 1. Voer in de lijst **[!UICONTROL Left panel]** een van de volgende handelingen uit om te bepalen welke gebruikers in het linkerdeelvenster zien voor het [!DNL Workfront] -gebied of objecttype dat u hebt geselecteerd:
 
-   * Klik **tonen** ![ tonen pictogram ](assets/add-secondary-nav-item.png) of **Verbergen** ![ pictogram van de Verbergen ](assets/delete-secondary-nav-item.png) pictogrammen om secties in het linkerpaneel te tonen of te verbergen. U kunt geen punten verbergen die a **hebben tonen** of **&#x200B;**&#x200B;pictogram verbergen.
+   * Klik **tonen** ![ tonen pictogram ](assets/add-secondary-nav-item.png) of **Verbergen** ![ pictogram van de Verbergen ](assets/delete-secondary-nav-item.png) pictogrammen om secties in het linkerpaneel te tonen of te verbergen. U kunt geen punten verbergen die a **hebben tonen** of **** pictogram verbergen.
 
    * De punten van de belemmering ![ pictogram van de Beweging ](assets/move-icon---dots.png) om hun orde op het linkerpaneel te veranderen.
 
@@ -227,13 +227,15 @@ Om hen voor een groep uit te voeren, moet u een manager van die groep zijn.</p> 
    >* [ merk Adobe  [!DNL Workfront]  gebruikend een lay-outmalplaatje ](../../../administration-and-setup/customize-workfront/use-layout-templates/brand-wf-using-a-layout-template.md)
 
 
-1. (Optioneel) Als u een item uit het linkerdeelvenster wilt toevoegen dat is gekoppeld aan een van de dashboards van uw organisatie, klikt u op **[!UICONTROL Add custom section]** , typt u een **[!UICONTROL Custom section title]** voor het item en voegt u het dashboard toe.
+1. (Optioneel) Als u een item uit het linkerdeelvenster wilt toevoegen dat is gekoppeld aan een van de dashboards van uw organisatie, klikt u op **[!UICONTROL Add dashboard]** , typt u de **[!UICONTROL Quick link name]** voor het item en kiest u het dashboard.
 
-   De dashboarditems worden onder in het linkerdeelvenster weergegeven. Gebruikers zien de titel van de sectie Aangepast die u typt naast het dashboarditem wanneer ze de muisaanwijzer boven het item in het linkerdeelvenster plaatsen.
+   U moet het dashboard bouwen alvorens het in de lijst verschijnt.
+
+   De dashboarditems worden onder in het linkerdeelvenster weergegeven.
 
    >[!NOTE]
    >
-   >Gebruikers kunnen aangepaste dashboarditems aan hun linkerdeelvenster toevoegen. Wanneer u aangepaste dashboarditems toevoegt aan een lay-outsjabloon, worden de items naast de items weergegeven die ze toevoegen, zonder ze te overschrijven of opnieuw in te stellen. Dit geldt ook als u gebruikers toewijst aan een nieuwe lay-outsjabloon met aangepaste dashboarditems. Voor informatie over hoe de gebruikers het linkerpaneel kunnen aanpassen, zie [ douanetabellen of secties ](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md) creëren.
+   >Gebruikers kunnen aangepaste dashboarditems aan hun linkerdeelvenster toevoegen. Wanneer u aangepaste dashboarditems toevoegt aan een lay-outsjabloon, worden de items naast de items weergegeven die ze toevoegen, zonder ze te overschrijven of opnieuw in te stellen. Dit geldt ook als u gebruikers toewijst aan een nieuwe lay-outsjabloon met aangepaste dashboarditems. Voor informatie over hoe de gebruikers het linkerpaneel kunnen aanpassen, zie [ een dashboard in het linkerpaneel van een voorwerp of een gebied van Workfront ](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md) toevoegen.
    >
    >Voor informatie over dashboards, zie [ dashboards ](../../../reports-and-dashboards/dashboards/dashboards-overview.md).
 

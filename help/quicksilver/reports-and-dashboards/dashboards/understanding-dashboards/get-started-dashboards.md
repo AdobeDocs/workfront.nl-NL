@@ -7,9 +7,9 @@ description: Het doel van een dashboard is om snel toegang tot informatie te ver
 author: Nolan
 feature: Reports and Dashboards
 exl-id: b0e73f2d-bb50-4476-bb24-f0378807b2fe
-source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
+source-git-commit: 58567104d88e7e1363d4196aec8a36ee0566b95a
 workflow-type: tm+mt
-source-wordcount: '685'
+source-wordcount: '690'
 ht-degree: 0%
 
 ---
@@ -86,8 +86,8 @@ U kunt een dashboard op de volgende manieren met gebruikers delen:
 * Delen op individuele basis.\
   Voor meer informatie over het delen van dashboards, zie [ rapporten van het Aandeel, dashboards, en kalenders ](../../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md) en [ Deel een dashboard ](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/share-dashboard.md).
 
-* Voeg een dashboard met een aangepaste sectie toe aan een willekeurig gebied of object in Workfront.\
-  Voor meer informatie bij het creëren van douanesecties, zie [ Linkernavigatie in Adobe Workfront ](../../../workfront-basics/the-new-workfront-experience/simplified-left-navigation.md).
+* Voeg een dashboard toe aan een willekeurig gebied of object in Workfront in het linkerdeelvenster.\
+  Voor meer informatie bij het toevoegen van dashboards aan het linkerpaneel, zie [ Linkernavigatie in Adobe Workfront ](../../../workfront-basics/the-new-workfront-experience/simplified-left-navigation.md).
 
 * Plaats de dashboards op lay-outmalplaatjes, die u met gebruikers kunt delen.\
   Voor meer informatie over het delen van dashboards door lay-outmalplaatjes, zie [ het linkerpaneel aanpassen gebruikend een lay-outmalplaatje ](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md).
@@ -95,7 +95,7 @@ U kunt een dashboard op de volgende manieren met gebruikers delen:
 * Druk een gedrukt exemplaar van hen om met gebruikers te delen.\
   Voor meer informatie over drukdashboards, zie [ een dashboard ](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/print-dashboard.md) drukken.
 
-* Exporteer ze als een PDF-bestand, zodat u ze via e-mail aan gebruikers kunt verzenden.\
+* Exporteer ze als een PDF-bestand zodat u ze via e-mail naar gebruikers kunt verzenden.\
   Voor meer informatie over het uitvoeren van een dashboard naar een dossier van PDF, zie [ Uitvoer een dashboard ](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/export-dashboard.md).
 
 Wanneer u een dashboard met gebruikers deelt, worden alle rapporten, kalenders, en externe pagina&#39;s die op het dashboard zijn ook gedeeld met de zelfde gebruikers door gebrek.
@@ -108,8 +108,8 @@ Wanneer u een dashboard met gebruikers deelt, worden alle rapporten, kalenders, 
 
 U kunt een dashboard op de volgende manieren weergeven:
 
-* Open de aangepaste sectie waar het dashboard is geplaatst.\
-  Voor meer informatie bij het plaatsen van dashboards op douanesecties, zie [ Linkernavigatie in Adobe Workfront ](../../../workfront-basics/the-new-workfront-experience/simplified-left-navigation.md).
+* Open het dashboard via het linkerdeelvenster van een object.
+Voor meer informatie bij het plaatsen van dashboards op het linkerpaneel, zie [ Linkernavigatie in Adobe Workfront ](../../../workfront-basics/the-new-workfront-experience/simplified-left-navigation.md).
 
 * Zoek naar en heb manueel toegang tot het dashboard.
 

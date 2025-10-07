@@ -7,9 +7,9 @@ description: De taakverdeler is beschikbaar voor veelvoudige projecten op het ge
 author: Lisa
 feature: Resource Management
 exl-id: 88029c9d-b588-4d33-801a-04f49b12a6e8
-source-git-commit: a63c53652491a25b909b7563990d4375d8f5885f
+source-git-commit: 58567104d88e7e1363d4196aec8a36ee0566b95a
 workflow-type: tm+mt
-source-wordcount: '841'
+source-wordcount: '868'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ U kunt de taakverdeler gebruiken om middelen voor het werk te plannen of hun bes
 U hebt op de volgende manieren toegang tot de taakverdelingsfunctie:
 
 * Van verschillende vooraf door Adobe Workfront gedefinieerde gebieden
-* Door deze aan een aangepaste sectie toe te voegen
+* Door het als dashboard aan het linkerpaneel toe te voegen
 
 In dit artikel worden de gebieden beschreven waar u toegang kunt krijgen tot Workload Balancer.
 
@@ -162,11 +162,11 @@ Alle weergave-instellingen zijn beschikbaar voor Workload Balancer voor een gebr
 
 </div>
 
-## De werklastbalans toevoegen aan een aangepaste sectie
+## De werklastbalans als dashboard aan het linkerdeelvenster toevoegen
 
-U kunt de werklastbalans toevoegen aan elke aangepaste sectie.
+U kunt de werklastbalans als een dashboard toevoegen aan het linkerdeelvenster met objecten die kunnen worden aangepast.
 
-De meeste aanpassingen die u al hebt toegepast op Workload Balancer blijven behouden wanneer u deze toevoegt aan een aangepaste sectie.
+De meeste aanpassingen die u al op Workload Balancer hebt toegepast, blijven behouden wanneer u deze aan het linkerdeelvenster toevoegt.
 
 1. Ga naar een van de volgende gebieden om de werklastbalans te openen:
 
@@ -181,15 +181,15 @@ De meeste aanpassingen die u al hebt toegepast op Workload Balancer blijven beho
       (NOTE: ensure this stays correct)
       -->
 
-1. Creeer een douanesectie zoals die in [ wordt beschreven creeer douanetabbladen of secties ](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md) om het dashboard op het douanelusje te plaatsen.
+1. Voeg een dashboard aan het linkernavigatievenster van een voorwerp toe, zoals die in [ wordt beschreven voeg een dashboard in het linkerpaneel van een voorwerp of gebied van Workfront ](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md) toe om het dashboard op het douanetabblad te plaatsen.
 
-   Wanneer u de werklastbalans opent vanuit de aangepaste sectie, kunt u deze weergeven alsof u deze rechtstreeks benadert vanuit een van de oorspronkelijke gebieden in Stap 1.
+   Wanneer u de werklastbalans opent vanuit het dashboard, kunt u deze weergeven alsof u deze rechtstreeks benadert vanuit een van de oorspronkelijke gebieden die in Stap 1 zijn vermeld.
 
    <!--
       (NOTE: ensure this stays correct)
      -->
 
-1. (Optioneel) Deel het aangepaste lusje in een Malplaatje van de Lay-out zoals die in [ wordt beschreven Pas het linkerpaneel aan gebruikend een lay-outmalplaatje ](../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md).
+1. (Facultatief) deel het dashboard in een Malplaatje van de Lay-out zoals die in [ wordt beschreven Pas het linkerpaneel aan gebruikend een lay-outmalplaatje ](../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md).
 
 
 <!--

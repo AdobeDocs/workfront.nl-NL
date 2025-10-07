@@ -6,7 +6,7 @@ description: U kunt de werklastbalans delen met andere gebruikers die mogelijk n
 author: Lisa
 feature: Resource Management
 exl-id: e2d6b1f8-bdc9-4a34-bdc3-b56f7aa2e7a5
-source-git-commit: 23c6d9335b0adcafc4e2ecdd8ef2d0ab09709fa8
+source-git-commit: 58567104d88e7e1363d4196aec8a36ee0566b95a
 workflow-type: tm+mt
 source-wordcount: '697'
 ht-degree: 0%
@@ -130,10 +130,10 @@ U hebt de volgende toegang nodig om informatie in het werklastevenwicht te bekij
 1. Voer een van de volgende handelingen uit om de koppeling met anderen te delen:
 
    * Plak het in een e-mail, chatbericht of een andere toepassing en deel het bericht met andere gebruikers.
-   * Voeg het aan een douanesectie als externe pagina toe, voeg de douanesectie aan het profiel van een gebruiker, of aan een Malplaatje van de Lay-out toe, dan deel het Malplaatje van de Lay-out met gebruikers, teams, baanrollen, of groepen.
+   * Voeg het toe aan een dashboard als externe pagina, voeg het dashboard aan het profiel van een gebruiker, of aan een lay-outmalplaatje toe, dan deel het lay-outmalplaatje met gebruikers, teams, baanrollen, of groepen.
 
-     Voor informatie over het creëren van een Externe Pagina, zie [ een externe Web-pagina in een dashboard ](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md) inbedden. Voor informatie over het toevoegen van douanesecties aan een Malplaatje van de Lay-out, zie [ het linkerpaneel aanpassen gebruikend een lay-outmalplaatje ](../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md).
+     Voor informatie over het creëren van een externe pagina, zie [ een externe Web-pagina in een dashboard ](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md) inbedden. Voor informatie over het toevoegen van dashboards aan een lay-outmalplaatje, zie [ het linkerpaneel aanpassen gebruikend een lay-outmalplaatje ](../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md).
 
      >[!IMPORTANT]
      >
-     >Wanneer u werklastbalans toevoegt aan de aangepaste sectie van een object, wordt de informatie in Workload Balancer niet gefilterd door het object. In Workload Balancer wordt de informatie weergegeven die door de oorspronkelijk toegepaste filters is gefilterd.
+     >Wanneer u de werklastbalans als een dashboard toevoegt aan het linkerdeelvenster van een object, wordt de informatie in Workload Balancer niet gefilterd door het object. In Workload Balancer wordt de informatie weergegeven die door de oorspronkelijk toegepaste filters is gefilterd.

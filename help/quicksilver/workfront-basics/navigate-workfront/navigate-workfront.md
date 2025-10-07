@@ -7,9 +7,9 @@ feature: Get Started with Workfront
 author: Lisa
 recommendations: noDisplay, noCatalog
 exl-id: 2ee82e53-1cc3-4438-a325-8c2c4d4ca1fb
-source-git-commit: 040dd446ff2b347dabf8a139feb17fd1a7d50e4e
+source-git-commit: 58567104d88e7e1363d4196aec8a36ee0566b95a
 workflow-type: tm+mt
-source-wordcount: '111'
+source-wordcount: '121'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Deze sectie bevat de volgende subsecties en artikelen:
 * [Overzicht van objectkoppen](../../workfront-basics/the-new-workfront-experience/new-object-headers.md)
 * [Pagina&#39;s vastzetten om uw werkruimte aan te passen](../../workfront-basics/the-new-workfront-experience/pin-pages.md)
 * [Lijsten in  [!DNL Adobe Workfront]](../../workfront-basics/navigate-workfront/use-lists/lists.md)
-* [Aangepaste secties maken](/help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md)
+* [Een dashboard toevoegen in het linkerdeelvenster van een Workfront-object of -gebied](/help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md)
 * [Toegang  [!DNL Adobe Workfront]  hulp](../../workfront-basics/navigate-workfront/workfront-navigation/access-workfront-help.md)
 * [Overzicht van het Project, de Taak, en de data van de Uitgave in  [!DNL Workfront]](../../workfront-basics/navigate-workfront/workfront-navigation/definitions-pti-dates.md)
 * [De navigatie voor een gebruiker met een [!UICONTROL Work] licentie begrijpen](../../workfront-basics/navigate-workfront/workfront-navigation/worker-global-navigation-bar.md)

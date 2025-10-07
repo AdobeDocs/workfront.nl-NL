@@ -3,12 +3,12 @@ content-type: overview
 navigation-topic: the-new-workfront-experience
 title: Linkernavigatie in  [!DNL Adobe Workfront]
 description: Het linkernavigatievenster in  [!DNL Workfront]  maakt het gemakkelijk om door het systeem te navigeren.
-author: Courtney
+author: Lisa
 feature: Get Started with Workfront
 exl-id: 18aae496-b4ec-4056-a7f1-9600b5fb5421
-source-git-commit: 297a8bc1a59fab42d96ec3479451c2f82f5c3dc1
+source-git-commit: 58567104d88e7e1363d4196aec8a36ee0566b95a
 workflow-type: tm+mt
-source-wordcount: '1286'
+source-wordcount: '1278'
 ht-degree: 0%
 
 ---
@@ -74,8 +74,8 @@ Het linkerdeelvenster is beschikbaar voor de volgende objecten:
 
 >[!IMPORTANT]
 >
->Als in het linkerdeelvenster standaard slechts één sectie wordt weergegeven, bijvoorbeeld **[!UICONTROL All Projects]** in het **[!UICONTROL Projects]** -gebied, moet een [!DNL Workfront] -beheerder ten minste één aangepaste sectie aan dit gebied toevoegen wanneer een lay-outsjabloon wordt gemaakt en u aan die sjabloon toewijzen voordat het linkerdeelvenster in dat gebied wordt weergegeven.\
->Voor informatie over hoe een [!DNL Workfront] beheerder het linkerpaneel in een lay-outmalplaatje aanpast, zie [ het linkerpaneel aanpassen gebruikend een lay-outmalplaatje ](../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md).
+>Als in het linkerdeelvenster standaard slechts één sectie wordt weergegeven, bijvoorbeeld **[!UICONTROL All Projects]** in het **[!UICONTROL Projects]** -gebied, moet een [!DNL Workfront] -beheerder ten minste één dashboard aan dit gebied toevoegen wanneer een lay-outsjabloon wordt gemaakt en u aan die sjabloon toewijzen voordat het linkerdeelvenster in dat gebied wordt weergegeven.
+>>Voor informatie over hoe een [!DNL Workfront] beheerder het linkerpaneel in een lay-outmalplaatje aanpast, zie [ het linkerpaneel aanpassen gebruikend een lay-outmalplaatje ](../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md).
 
 Het linkerdeelvenster is beschikbaar voor de volgende gebieden:
 
@@ -163,8 +163,8 @@ De volgende secties worden in het linkerdeelvenster voor het **[!UICONTROL Proje
         <td>Toont alle projecten die u toegang tot mening hebt. Gebruik het vervolgkeuzemenu [!UICONTROL Filter] om te wijzigen welke projecten u wilt weergeven</td>
     </tr>
     <tr>
-        <td><strong>[!UICONTROL Custom sections]</strong></td>
-        <td>U kunt alle aangepaste secties weergeven die de [!DNL Workfront] -beheerder aan het linkerdeelvenster voor het [!UICONTROL Projects] -gebied in uw lay-outsjabloon heeft toegevoegd. Aangepaste secties hebben namen die zijn aangepast voor uw omgeving.</td>
+        <td><strong>[!UICONTROL Dashboards]</strong></td>
+        <td>U kunt alle dashboards bekijken die uw [!DNL Workfront] beheerder aan het linkerpaneel voor het [!UICONTROL Projects] gebied in uw Malplaatje van de Lay-out heeft toegevoegd. Deze dashboards hebben namen die voor uw milieu zijn aangepast.</td>
     </tr>
 </table>
 
@@ -239,14 +239,16 @@ Het zoeken naar en bewerken van informatie in het linkerdeelvenster is vergelijk
 
 Om te leren welke secties voor specifieke gebieden beschikbaar zijn, zie [[!UICONTROL Default sections] in het linkernavigatievenster ](#default-sections-in-the-left-navigation-panel).
 
-1. Klik op het pictogram **[!UICONTROL Main menu]** ![](assets/main-menu-icon-16x12.png) en klik vervolgens op de naam van een object om dit te openen.
+{{step1-click-main-menu}}
+
+1. Klik op de naam van een object om dit te openen.
 
    De objectpagina wordt weergegeven.
 
 1. (Voorwaardelijk) Als u een gebied hebt geselecteerd dat een lijst met objecten bevat, zoals **[!UICONTROL Projects]** of **[!UICONTROL Portfolios]** , moet u het volgende doen om toegang te krijgen tot de navigatie in het linkerdeelvenster:
 
    1. Klik op een object in de lijst.
-   1. (Optioneel) In de navigatie in het linkerdeelvenster kunt u in het linkerdeelvenster een ander object selecteren (zoals **[!UICONTROL Tasks]** of **[!UICONTROL Issues]** in een project) om een lijst met objecten te openen en vervolgens op de naam van het specifieke object te klikken.\
+   1. (Optioneel) In de navigatie in het linkerdeelvenster kunt u in het linkerdeelvenster een ander object selecteren (zoals **[!UICONTROL Tasks]** of **[!UICONTROL Issues]** in een project) om een lijst met objecten te openen en vervolgens op de naam van het specifieke object te klikken.
 
       De objectpagina wordt weergegeven.
 
@@ -254,12 +256,12 @@ Om te leren welke secties voor specifieke gebieden beschikbaar zijn, zie [[!UICO
 
    U moet over machtigingen beschikken om het object te bewerken voordat u de gegevens kunt bewerken.
 
-   ![ Linkerdeelvenstersecties ](assets/NWE-left-navigation-panel.png)
+   ![ Linkerdeelvenstersecties ](assets/left-navigation-panel.png)
 
-1. (Optioneel) Als u een snelle koppeling naar een dashboard wilt toevoegen, klikt u op **[!UICONTROL Add Dashboard]** onder in het linkerdeelvenster en voert u de volgende handelingen uit:
+1. (Optioneel) Als u een snelle koppeling naar een dashboard wilt toevoegen, klikt u op **[!UICONTROL Add a Dashboard]** onder in het linkerdeelvenster en voert u de volgende handelingen uit:
 
    1. Typ een naam voor het dashboard in het veld **[!UICONTROL Quick link name]** .
-   1. Typ de naam van een bestaand dashboard in het veld **[!UICONTROL Choose a Dashboard]** en klik vervolgens op het dashboard wanneer dit in de lijst wordt weergegeven.
+   1. Typ de naam van een bestaand dashboard in het veld **[!UICONTROL Choose a dashboard]** en klik vervolgens op het dashboard wanneer dit in de lijst wordt weergegeven.
 
       >[!TIP]
       >
@@ -267,9 +269,9 @@ Om te leren welke secties voor specifieke gebieden beschikbaar zijn, zie [[!UICO
 
 1. (Facultatief) om een dashboard snelle verbinding te verwijderen, beweegt zich over het dashboard in de linkernavigatie, dan klikt **verwijdert** pictogram ![ pictogram ](assets/remove-dashboard-from-left.png) wanneer het verschijnt.
 
-1. (Optioneel) Als u de volgorde van een sectie in het linkerdeelvenster wilt wijzigen, klikt u op het **[!UICONTROL Drag]** pictogram ![](assets/drag-icon.png) rechts van een sectie en sleept u het naar boven of naar beneden.
+1. (Optioneel) Als u de volgorde van een sectie in het linkerdeelvenster wilt wijzigen, klikt u op het pictogram **[!UICONTROL Drag]** ![](assets/drag-icon.png) naast een sectie en sleept u deze omhoog of omlaag.
 
-   ![ belemmering een sectie ](assets/drag-section-right.png)
+   ![ belemmering een sectie ](assets/drag-section.png)
 
 1. (Optioneel) Als u het linkerdeelvenster wilt sluiten, klikt u op het pictogram **[!UICONTROL Collapse]** ![](assets/left-panel-collapse-icon.png) .
 
