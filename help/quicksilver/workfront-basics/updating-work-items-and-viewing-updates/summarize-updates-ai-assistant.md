@@ -6,9 +6,9 @@ description: De updates zijn van een voorwerp omvat een knoop die de Medewerker 
 author: Becky
 feature: Get Started with Workfront
 exl-id: d0c26f90-a01b-4226-b6a0-647808f71e08
-source-git-commit: 769cacc12f35b019f8c97c243681f4adb3a3c0c9
+source-git-commit: 440d9af6915184b7e91ca257e02be4a234fb91e0
 workflow-type: tm+mt
-source-wordcount: '379'
+source-wordcount: '378'
 ht-degree: 0%
 
 ---
@@ -57,7 +57,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
   Voor meer informatie, zie [ Vereisten aan AI Medewerker ](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant) in het artikelAI Hulpoverzicht.
 * Uw Workfront-beheerder moet AI Assistant hebben ingeschakeld voor uw toegangsniveau.
 
-  Voor meer informatie, zie [ toelaten of AI Medewerker ](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md).s onbruikbaar maken
+  Voor meer informatie, zie [ toelaten of AI Medewerker ](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md) onbruikbaar maken.
 
 ## Samenvatten met de knop Inhoud samenvatten
 
@@ -78,7 +78,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 Een overzicht van een object weergeven:
 
 1. Navigeer naar het object waarvoor u een overzicht wilt weergeven.
-1. Klik het **pictogram AI van de Medewerker ![ AI Medewerker pictogram ](assets/ai-assistant-icon.png) dichtbij de hoger-juiste hoek van het scherm.**
+1. Klik het **pictogram AI van de Medewerker** AI Medewerker pictogram ![ dichtbij de hoger-juiste hoek van het scherm.](assets/ai-assistant-icon.png)
 1. Voer in het deelvenster AI-assistent een aanwijzing in, zoals:
 
    * Een overzicht in drie zinnen opgeven
