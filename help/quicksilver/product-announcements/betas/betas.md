@@ -1,25 +1,38 @@
 ---
 navigation-topic: betas
 title: Beta-programma's
-description: Meer informatie over de huidige bètareleases in Adobe Workfront.
+description: Meer informatie over nieuwe Adobe Workfront-functies die momenteel beschikbaar zijn voor alle of een beperkt aantal klanten in een bètaversie.
 author: Alina
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: c46e625f-b3d5-4bdd-827b-5b16493cdc6b
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: e717e095f1995dbed0232789616d42492156d843
 workflow-type: tm+mt
-source-wordcount: '55'
+source-wordcount: '112'
 ht-degree: 0%
 
 ---
 
 # Beta-programma&#39;s
 
-In de artikelen die op deze pagina zijn gekoppeld, worden de bètaprogramma&#39;s beschreven die momenteel beschikbaar zijn in Adobe Workfront. Functies die in bèta beschikbaar zijn, zijn mogelijk niet voor alle klanten beschikbaar.
+In de artikelen die op deze pagina zijn gekoppeld, worden de bètaprogramma&#39;s beschreven die momenteel beschikbaar zijn in Adobe Workfront.
 
-De volgende artikelen bevatten informatie over functies die momenteel in bèta worden gebruikt:
+Beta-programma&#39;s die in beperkte versie worden uitgevoerd en privébeheerd, worden mogelijk niet op deze pagina vermeld.
 
-* [bètagegevens van dashboards op canvas](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md)
+Functies die in bèta beschikbaar zijn, zijn mogelijk niet voor alle klanten beschikbaar.
+
+De volgende functies zijn momenteel beschikbaar in bèta:
+
+* Canvasdashboard
+
+  Voor informatie, zie {de bètainformatie van de dashboards van het 0} Canvas [.](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md)
+
+* Projectgezondheid
+
+  Voor informatie, zie [ Overzicht van de Gezondheid van het Project ](/help/quicksilver/workfront-basics/ai-assistant/project-health-overview.md).
+
+* De Workfront AI Reviewer
+Voor informatie, zie [ begonnen worden met de Reviewer van Workfront AI ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md).
 
 
 <!--

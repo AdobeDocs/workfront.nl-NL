@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: 03c1f17504846fc4b8c4114ddc32df687281bc07
+source-git-commit: e717e095f1995dbed0232789616d42492156d843
 workflow-type: tm+mt
-source-wordcount: '1287'
+source-wordcount: '1308'
 ht-degree: 0%
 
 ---
@@ -217,6 +217,7 @@ In de volgende tabel worden de overeenkomsten en verschillen tussen de tabel-, t
 
    <span class="preview">![ creeer meningsdoos ](assets/create-view-box.png)</span>
 
+1. <span class="preview"> om een bestaande mening uit te geven, typ de naam van een mening op het **2} gebied van het Onderzoek {en druk binnengaan op uw toetsenbord.**</span>
 1. <span class="preview"> van het meningsdrop-down menu, belemmering en dalingsmeningen in orde van uw voorkeur.</span>
 
    <span class="preview">![ de types van Mening drop-down van verslagtype lijst ](assets/view-types-drop-down-from-record-type-list.png)</span>
