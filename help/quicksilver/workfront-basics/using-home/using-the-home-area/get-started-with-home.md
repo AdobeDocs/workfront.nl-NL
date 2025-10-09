@@ -6,9 +6,9 @@ description: Met Home kunt u uw werk beheren. U kunt deze flexibele ruimte aanpa
 author: Courtney
 feature: Get Started with Workfront
 exl-id: eddb2db0-88c5-40f9-ba05-14839a3dfc7f
-source-git-commit: 884ade1102e685ec01af2790b17acb50c2114ca7
+source-git-commit: 1cb165e826ee57483989474c095553a08e33bc9a
 workflow-type: tm+mt
-source-wordcount: '1092'
+source-wordcount: '1105'
 ht-degree: 0%
 
 ---
@@ -57,7 +57,7 @@ Hieronder vindt u een overzicht van de 11 widgets die u momenteel kunt kiezen, e
 * **Mijn verzoeken**\
     Hiermee geeft u alle verzoeken weer die u hebt verzonden, een filter om alleen open aanvragen weer te geven en een knop waarmee het overzichtsvenster voor een aanvraag wordt geopend.
 
-  <span class="preview"> in het milieu van de Voorproef, toont deze widget alle verzoeken u hebt voorgelegd, een filter om slechts verzoeken te tonen die aan criteria voldoen u specificeert, en een knoop die u toestaat om de kolommen in widget te herschikken.</span>
+  <span class="preview"> in het milieu van de Voorproef, toont deze widget alle verzoeken u hebt voorgelegd, een filter om slechts verzoeken te tonen die aan criteria voldoen u specificeert, en een knoop die u toestaat om de kolommen in widget te herschikken. Als u toegang tot de Planning van Workfront hebt, verschijnen uw verzoeken van de Planning ook hier.</span>
 
 
 * **verzoeken van het Team**\
