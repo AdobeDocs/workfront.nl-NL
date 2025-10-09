@@ -7,9 +7,9 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: b5f0150b-40b5-4386-98bc-374e7ca65b74
-source-git-commit: f8d81996846f7b719bf3e5e8aaa2ad9ba1805cff
+source-git-commit: 07fa7207960f424cc8580eb46fe13bd5af4e56a8
 workflow-type: tm+mt
-source-wordcount: '751'
+source-wordcount: '815'
 ht-degree: 0%
 
 ---
@@ -20,17 +20,14 @@ Dankzij de integratie van Workfront en Frame.io kunnen projectcoördinatoren pro
 
 ## Integratievereisten
 
-De integratie van Workfront en Frame.io moet door Adobe Professional Services zijn ingeschakeld.
+* Workfront en Frame.io moeten worden geïmplementeerd in dezelfde Identity Management System (IMS)-organisatie.
 
-<!--
-* Workfront and Frame.io must be deployed to the same Identity Management system (IMS) organization.
+* Gebruikers kunnen binnen de IMS-organisatie slechts tot één Workfront-instantie behoren.
 
-* Users can belong to only one Workfront instance within the IMS organization.
+* De Workfront-instantie moet zijn ingeschakeld op de Adobe Unified Experience en Adobe Enterprise storage.
 
-* The Workfront instance must be enabled on the Adobe Unified Experience.
+* De integratie moet door Adobe Professional Services worden gevormd.
 
-* The integration is configured by Adobe Professional Services. 
--->
 
 ## Gebaseerd op Adobe Enterprise Storage
 
@@ -39,11 +36,11 @@ De kern van deze integratie is Adobe Enterprise Storage — een op cloud gebasee
 De belangrijkste voordelen van Adobe Enterprise Storage zijn:
 
 * Geïntegreerde opslaglaag voor creatieve middelen en bedrijfsbeheermiddelen
-* Gecentraliseerde machtigingen via Adobe IMS voor veilig toegangsbeheer
+* Gecentraliseerde machtigingen via het Adobe Identity Management-systeem (IMS) voor veilig toegangsbeheer
 * De zichtbaarheid van end-to-end elementen in Workfront en Frame.io <!--, and Creative Cloud apps -->
 * Schaalbare opslag en quotabeheer voor bedrijfsbehoeften
 
-Voor meer details, zie [&#x200B; overzicht van de ondernemingsopslag van Adobe &#x200B;](/help/quicksilver/review-and-approve-work/esm-overview.md).
+Voor meer details, zie [ overzicht van de ondernemingsopslag van Adobe ](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 ## Geïntegreerde revisie en goedkeuring
 
@@ -56,7 +53,7 @@ De integratie van Workfront en Frame.io maakt gebruik van de uniforme goedkeurin
 * AI Reviewers gebruiken om beoordelingen van naleving van merk te automatiseren
 * en meer
 
-Voor meer informatie, zie [&#x200B; Verenigde documentgoedkeuringen: artikelindex &#x200B;](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-reviews-and-approvals.md).
+Voor meer informatie, zie [ Verenigde documentgoedkeuringen: artikelindex ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-reviews-and-approvals.md).
 
 
 ### De viewer Frame.io gebruiken
@@ -68,7 +65,7 @@ De integratie verbindt ook met de kijker Frame.io. De viewer Frame.io biedt
 * Opmerkingen met tijdstempel voor videorevisies
 * Mobiele toegang voor revisies en goedkeuringen onderweg
 
-Voor meer informatie, zie [&#x200B; begonnen worden met de integratie Frame.io &#x200B;](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/get-started-with-frame-integration.md).
+Voor meer informatie, zie [ begonnen worden met de integratie Frame.io ](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/get-started-with-frame-integration.md).
 
 #### Limieten voor videorevisie
 
@@ -80,7 +77,7 @@ Deze limiet geldt niet voor Enterprise-klanten van Frame.io.
 
 #### Ondersteunde bestandstypen in de viewer Frame.io
 
-De viewer Frame.io ondersteunt alle gangbare typen video, afbeeldingen, audio, PDF en MS® Office. Voor een gedetailleerde lijst van gesteunde dossiers, zie [&#x200B; Types op Frame.io &#x200B;](https://help.frame.io/en/articles/9436564-supported-file-types-on-frame-io).
+De viewer Frame.io ondersteunt alle gangbare typen video, afbeeldingen, audio, PDF en MS® Office. Voor een gedetailleerde lijst van gesteunde dossiers, zie [ Gesteunde Types van Dossier op Frame.io ](https://help.frame.io/en/articles/9436564-supported-file-types-on-frame-io).
 
 #### Toegang tot en licenties voor de Frame.io-viewer
 
@@ -94,15 +91,17 @@ Workfront Proofing-functionaliteit is niet beschikbaar bij deze integratie.
 
 Met de integratie van Workfront en Frame.io kunnen projectcoördinatoren Workfront gebruiken om krachtige projectbeheermogelijkheden te plannen, te volgen en te beheren.
 
-Voor meer informatie over het beheren van projecten in Workfront, zie [&#x200B; Projecten: artikelindex &#x200B;](/help/quicksilver/manage-work/projects/create-projects/create-project.md).
+Voor meer informatie over het beheren van projecten in Workfront, zie [ Projecten: artikelindex ](/help/quicksilver/manage-work/projects/create-projects/create-project.md).
 
 ### Gedwongen conventies voor structuur en naamgeving
 
-Omdat deze integratie gebruikend ESM wordt gebouwd, zijn er sommige gedwongen structuur en noemende overeenkomsten om zich van bewust te zijn wanneer het beheren van projecten en documenten.
+Omdat deze integratie is opgebouwd met behulp van Adobe Enterprise Storage, zijn er bepaalde gedwongen structuren en naamgevingsconventies die u bekend moeten maken bij het beheren van projecten en documenten.
 
 * Objectnamen moeten uniek zijn en kunnen niet worden gedupliceerd
-* ESM vereist unieke namen voor peer-objecten met hetzelfde bovenliggende item in de hiërarchiestructuur
+* Adobe Enterprise Storage vereist unieke namen voor peer-objecten met hetzelfde bovenliggende item in de hiërarchiestructuur
 * Documenten kunnen niet dezelfde naam hebben als ze tot hetzelfde project behoren
+* Namen van documenten mogen de volgende speciale tekens niet bevatten: \ / : * ? &quot; | &lt; >
+* Documentnamen mogen maximaal 255 tekens bevatten
 
 Met het oog op deze beperkingen wijzigt Workfront automatisch de naam van objecten of documenten om conflicten te voorkomen.
 
