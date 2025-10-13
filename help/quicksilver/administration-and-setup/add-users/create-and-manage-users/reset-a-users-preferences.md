@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: abe026d0-3584-49f3-a6db-ef88b3aab186
-source-git-commit: 4a7362ae663b73ce48f049556145b4de3e6a6ac9
+source-git-commit: 7dd278fdf07824edd3336597d20209e25cad88d8
 workflow-type: tm+mt
 source-wordcount: '401'
 ht-degree: 0%
@@ -52,7 +52,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -146,7 +146,7 @@ Wanneer u gebruikersvoorkeuren opnieuw instelt, worden sommige voorkeuren terugg
 1. Pers **gaat** binnen.
 1. Om alle gebruikersvoorkeur terug te stellen, selecteer **Terugstellen**.
 
-<!--When this is unshimmed, adjust the comment tags to hide these last two lines, because the Reset Tabs button is going away.-->
+   <!--When this is unshimmed, adjust the comment tags to hide these last two lines, because the Reset Tabs button is going away.-->
 of
 
-Om slechts douanetabs terug te stellen, uitgezochte **Lusjes van het Terugstellen**.
+   Om slechts douanetabs terug te stellen, uitgezochte **Lusjes van het Terugstellen**.
