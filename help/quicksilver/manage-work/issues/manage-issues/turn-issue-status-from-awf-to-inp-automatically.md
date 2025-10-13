@@ -6,28 +6,32 @@ description: Wanneer de primaire contactpersoon van een uitgave een update van d
 author: Alina
 feature: Work Management
 exl-id: f94bb644-910f-4b46-80fd-fecbdf9cb18a
-source-git-commit: 948cd81908df3174eb985d1c65533077d3ef5d49
+source-git-commit: 393f858ba3711b367cf06ad846ea60be0d6d9034
 workflow-type: tm+mt
-source-wordcount: '280'
+source-wordcount: '281'
 ht-degree: 0%
 
 ---
 
 # Uitgiftestatussen automatisch bijwerken in afwachting van feedback naar Bezig
 
+<!--Audited: 109/2025-->
+
 Wanneer de primaire contactpersoon van een uitgave een update van de uitgave uitvoert door een veld (inclusief een aangepast veld) bij te werken of een opmerking toe te voegen, wordt de status van de uitgave automatisch bijgewerkt naar In uitvoering.
 
 Deze automatische statuswijziging is alleen mogelijk als:
 
-* De kwestie moet door een verzoekrij zijn ingegaan.
+* De kwestie moet worden toegevoegd gebruikend een verzoekrij.
 
-  Voor informatie over het creëren van verzoekrijen, zie [ creeer en beheer de Gelijsten van het Verzoek ](../../../manage-work/requests/create-and-manage-request-queues/create-manage-request-queues.md) sectie. Voor informatie over het creëren van verzoeken, zie [ Adobe Workfront verzoeken ](../../../manage-work/requests/create-requests/create-submit-requests.md) creëren en voorleggen.
+  Voor informatie over het creëren van verzoekrijen, zie [ creeer en beheer de Gelijsten van het Verzoek ](../../../manage-work/requests/create-and-manage-request-queues/create-manage-request-queues.md) sectie.
+
+  Voor informatie over het voorleggen van verzoeken aan een verzoekrij, zie [ Adobe Workfront verzoeken ](../../../manage-work/requests/create-requests/create-submit-requests.md) creëren en voorleggen.
 
 * De Details van de Rij in de verzoekrij moeten deze montages hebben:
-   * **wanneer iemand een verzoek indient, automatisch verlenen** wordt geplaatst aan **de Toegang van Contribute**
-   * **de Status van de Verandering** wordt geselecteerd onder Geavanceerde Montages
+   * **wanneer iemand een verzoek indient, automatisch verlenen** wordt geplaatst aan **Contribute Toegang**
+   * **de Status van de Verandering** wordt geselecteerd
 
-  ![ de Details van de Rij geven de Toegang van Contribute en de Status van de Verandering wordt geselecteerd.](assets/queuedetails-contributeaccess-changestatus.png)
+  ![ geven de Details van de Rij Contribute Toegang en de Status van de Verandering wordt geselecteerd.](assets/queuedetails-contributeaccess-changestatus.png)
 
   >[!IMPORTANT]
   >

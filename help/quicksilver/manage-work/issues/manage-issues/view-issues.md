@@ -6,14 +6,16 @@ description: U kunt kwesties bekijken die met een project, een taak, of een herh
 author: Alina
 feature: Work Management
 exl-id: b6791c8f-b356-4235-8b0e-952e29a88952
-source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
+source-git-commit: 393f858ba3711b367cf06ad846ea60be0d6d9034
 workflow-type: tm+mt
-source-wordcount: '1038'
+source-wordcount: '1027'
 ht-degree: 0%
 
 ---
 
 # Problemen weergeven
+
+<!--Audited: 10/2025-->
 
 U kunt kwesties bekijken die met een project, een taak, of een herhaling worden geassocieerd.
 
@@ -138,11 +140,14 @@ Ga als volgt te werk om een uitgave te openen en informatie hierover weer te gev
 
 ## Weergeven welke projecten en taken problemen hebben
 
-U kunt pictogrammen toevoegen in de weergave van een project of taakrapport of lijst om aan te geven of er problemen aan zijn gekoppeld. Het toevoegen van pictogrammen aan de mening van een rapport of een lijst is gelijkaardig voor projecten en taken.
+U kunt pictogrammen toevoegen in de weergave van een project of taakrapport of lijst om aan te geven of er problemen aan zijn gekoppeld.
+
+Het toevoegen van pictogrammen aan de mening van een rapport of een lijst is gelijkaardig voor projecten en taken.
 
 Om pictogrammen toe te voegen die tonen of een project kwesties in een projectrapport heeft:
 
-1. Klik het **pictogram 1&rbrace; van het Belangrijkste Menu ![ Belangrijkste menupictogram ](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront.**
+{{step1-click-main-menu}}
+
 1. Klik **Meldend** > **Nieuw Rapport** > **Rapport van het Project**.
 1. In **toon in dit kolom** gebied, begin **Pictogrammen van de Status** te typen, dan het te selecteren wanneer het in de lijst verschijnt.
 
@@ -150,4 +155,4 @@ Om pictogrammen toe te voegen die tonen of een project kwesties in een projectra
 
    De vertoning van de vertoningspictogrammen op de projecten die kwesties in de **Icons van de Status** kolom hebben.
 
-   ![ project_list_with_issue_icon.png ](assets/project-list-with-issue-icon-350x132.png)
+   ![ lijst van het Project met uitgiftepictogram ](assets/project-list-with-issue-icon-350x132.png)

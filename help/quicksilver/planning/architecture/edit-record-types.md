@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7d6de742-9657-4286-968c-1fc78ebbb94e
-source-git-commit: a4bb3582eb476acbefa5d11db1f2c06eafc13cdd
+source-git-commit: 393f858ba3711b367cf06ad846ea60be0d6d9034
 workflow-type: tm+mt
 source-wordcount: '692'
 ht-degree: 0%
@@ -26,7 +26,7 @@ Recordtypen zijn de objecttypen voor Adobe Workfront Planning. U kunt de weergav
 
 ## Toegangsvereisten
 
-+++ Vouw uit om de vereisten voor toegang weer te geven.
++++ Vouw uit om de vereisten voor toegang weer te geven. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -67,7 +67,7 @@ Recordtypen zijn de objecttypen voor Adobe Workfront Planning. U kunt de weergav
   </tr> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront-licentie*</p></td> 
-   <td><p> Standaard </p>
+   <td><p> Standard </p>
    <p>Workfront Planning is niet beschikbaar voor oudere Workfront-licenties</p> 
   </td> 
   </tr> 
@@ -88,7 +88,7 @@ Recordtypen zijn de objecttypen voor Adobe Workfront Planning. U kunt de weergav
 
 *Voor meer informatie over de toegangsvereisten van Workfront, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-+++
++++   
 
 ## Recordtypen bewerken
 
@@ -105,7 +105,7 @@ of
 
    <span class="preview">![ Meer menuopties van verslagtype kaart ](assets/more-menu-options-from-record-type-card.png)</span>
 
-1. In **geef verslagtype** doos uit, opent het **3&rbrace; lusje van de Verschijning &lbrace;door gebrek.**
+1. In **geef verslagtype** doos uit, opent het **3} lusje van de Verschijning {door gebrek.**
 
    ![ Weergavetabblad van recordtekstvak bewerken ](assets/edit-record-type-box-appearance-tab.png)
 
@@ -127,7 +127,7 @@ of
          * **Specific workspaces**: Add the names of the workspaces where workspace managers can connect to this record type.-->
 
 
-1. (Facultatief en voorwaardelijk) als u een systeembeheerder bent, klik **Geavanceerde montages** en werk de volgende informatie in de **dwars-werkruimtesectie** bij: <!--the info here is duplicated in the Create record types article-->
+1. (Facultatief en voorwaardelijk) als u een Beheerder van het Systeem bent, klik **Geavanceerde montages** en werk de volgende informatie in de **dwars-werkruimte** sectie bij: <!--take this info out and replace it with a link to this article: help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md-->
    * Laat **toe toestaan verbindend met dit verslagtype in andere werkruimten** het plaatsen: Dit staat werkruimtemanagers toe om met dit verslagtype van andere werkruimten te verbinden.\
      U kunt aangeven van welke werkruimten dit recordtype verbinding kan worden gemaakt. U kunt het voor alle werkruimten ter beschikking stellen of specifieke degenen aanwijzen waar u het kunt invoeren.
 Voor meer informatie, zie [ mogelijkheden van de dwars-werkruimte voor verslagtypes ](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md) vormen.
