@@ -64,7 +64,7 @@ Om kwesties over een project, een taak, of een herhaling te bekijken:
 
   Dit geldt ook voor objecten die zijn gekoppeld aan een object Resolving en objecten in de status Gesloten - In afwachting van goedkeuring.
 
-  Voor informatie over het Oplossen van Voorwerpen, zie [ Overzicht van het Oplossen en Oplosbare Voorwerpen ](../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md).
+  Voor informatie over het Oplossen van Voorwerpen, zie [&#x200B; Overzicht van het Oplossen en Oplosbare Voorwerpen &#x200B;](../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md).
 
 * **Voltooid:** toont alle kwesties die een Ware Datum van de Voltooiing hebben.
 * **allen** toont alle kwesties.
@@ -96,9 +96,9 @@ Ga als volgt te werk om een uitgave te openen en informatie hierover weer te gev
    * Logtijd.
    * Wijzig de status van de uitgave.
 
-     Voor meer informatie over het bijwerken van het werk in Workfront, zie [ het werk van de Update ](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+     Voor meer informatie over het bijwerken van het werk in Workfront, zie [&#x200B; het werk van de Update &#x200B;](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-* **Documenten**: Maak documenten aan de kwestie vast. Voor meer informatie over het toevoegen van documenten aan Workfront, zie [ documenten aan Adobe Workfront van uw dossiersysteem ](../../../documents/adding-documents-to-workfront/add-documents-from-file-system.md) toevoegen.
+* **Documenten**: Maak documenten aan de kwestie vast. Voor meer informatie over het toevoegen van documenten aan Workfront, zie [&#x200B; documenten aan Adobe Workfront van uw dossiersysteem &#x200B;](../../../documents/adding-documents-to-workfront/add-documents-from-file-system.md) toevoegen.
 
 * **Details van de Uitgave**: Breid deze verbinding uit om het **Overzicht** en **de gebieden van Forms van de Douane** te tonen.
 
@@ -111,7 +111,7 @@ Ga als volgt te werk om een uitgave te openen en informatie hierover weer te gev
 
      Als een kwestie als verzoek in een verzoekrij werd voorgelegd, zijn de namen van het project, de Groep van het Onderwerp, en het Onderwerp van de Rij hier vermeld. Dit veld kan niet worden bewerkt.
 
-     Voor meer informatie over het voorleggen van verzoeken, zie [ Adobe Workfront verzoeken ](../../../manage-work/requests/create-requests/create-submit-requests.md) creëren en voorleggen.
+     Voor meer informatie over het voorleggen van verzoeken, zie [&#x200B; Adobe Workfront verzoeken &#x200B;](../../../manage-work/requests/create-requests/create-submit-requests.md) creëren en voorleggen.
 
    * **Beschrijving**
    * **URL**: om het even welk Webadres met betrekking tot de kwestie.
@@ -136,7 +136,7 @@ Ga als volgt te werk om een uitgave te openen en informatie hierover weer te gev
 * **Uren**: Toont een lijst van uuringangen op de kwestie.
 * **goedkeurt:** toont de goedkeuringswegen verbonden aan de kwestie.
 
-  Voor meer informatie over het associëren van goedkeuringen met een kwestie, zie [ Associerend een goedkeuringsproces met een het werkpunt ](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md#associating-the-approval-process-with-an-object) sectie in [ een goedkeuringsproces voor het werkpunten ](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md) creëren.
+  Voor meer informatie over het associëren van goedkeuringen met een kwestie, zie [&#x200B; Associerend een goedkeuringsproces met een het werkpunt &#x200B;](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md#associating-the-approval-process-with-an-object) sectie in [&#x200B; een goedkeuringsproces voor het werkpunten &#x200B;](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md) creëren.
 
 ## Weergeven welke projecten en taken problemen hebben
 
@@ -155,4 +155,4 @@ Om pictogrammen toe te voegen die tonen of een project kwesties in een projectra
 
    De vertoning van de vertoningspictogrammen op de projecten die kwesties in de **Icons van de Status** kolom hebben.
 
-   ![ lijst van het Project met uitgiftepictogram ](assets/project-list-with-issue-icon-350x132.png)
+   ![&#x200B; lijst van het Project met uitgiftepictogram &#x200B;](assets/project-list-with-issue-icon-350x132.png)

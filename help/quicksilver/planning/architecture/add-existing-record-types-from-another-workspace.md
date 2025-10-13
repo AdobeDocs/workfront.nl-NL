@@ -23,7 +23,7 @@ recommendations: noDisplay, noCatalog
 
 <span class="preview"> de informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>
 
-<span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
+<span class="preview"> voor informatie over snelle versies, zie [&#x200B; snelle versies voor uw organisatie &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
 
 Als werkruimtenmanager, kunt u een verslagtype toevoegen dat in een andere werkruimte aan een werkruimte bestaat die u in de Planning van Adobe Workfront beheert.
 
@@ -33,9 +33,9 @@ Een werkruimtemanager moet een recordtype eerst als globaal aanwijzen voordat u 
 
 U kunt een recordtype toewijzen als globaal wanneer u het maakt of bewerkt terwijl u de instellingen voor de werkruimte overschrijdt.
 
-Voor informatie, zie [ mogelijkheden van de dwars-werkruimte voor verslagtypes ](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md) vormen.
+Voor informatie, zie [&#x200B; mogelijkheden van de dwars-werkruimte voor verslagtypes &#x200B;](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md) vormen.
 
-Alvorens verslagen aan een werkruimte van een globaal verslagtype toe te voegen, zie het artikel [ overzicht van de types van het interwerkruimterecord ](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md).
+Alvorens verslagen aan een werkruimte van een globaal verslagtype toe te voegen, zie het artikel [&#x200B; overzicht van de types van het interwerkruimterecord &#x200B;](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md).
 
 
 ## Toegangsvereisten
@@ -80,15 +80,15 @@ And
 </tbody> 
 </table>
 
-Voor meer informatie over de toegangsvereisten van Workfront, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer informatie over de toegangsvereisten van Workfront, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++   
 
 ## Een recordtype maken op basis van een bestaand recordtype
 
-1. Begin creërend een verslagtype, zoals die in het artikel [ wordt beschreven creeer verslagtypes ](/help/quicksilver/planning/architecture/create-record-types.md), dan klik **voegt bestaand** toe. <!--check this - the option might have been renamed in the UI-->
+1. Begin creërend een verslagtype, zoals die in het artikel [&#x200B; wordt beschreven creeer verslagtypes &#x200B;](/help/quicksilver/planning/architecture/create-record-types.md), dan klik **voegt bestaand** toe. <!--check this - the option might have been renamed in the UI-->
 
-   ![ Modal om verslagtype met optie toe te voegen van een andere werkruimte ](assets/add-record-type-from-existing-workspace-option-when-creating-records.png)
+   ![&#x200B; Modal om verslagtype met optie toe te voegen van een andere werkruimte &#x200B;](assets/add-record-type-from-existing-workspace-option-when-creating-records.png)
 
 1. Klik **verdergaan**.
 1. In **kies verslagtype** doos, klik de kaart voor het verslagtype dat u van een bestaande werkruimte wilt toevoegen, dan **toevoegen** klikken.
@@ -106,7 +106,7 @@ Voor meer informatie over de toegangsvereisten van Workfront, zie [ vereisten va
       * Alle oorspronkelijke velden
       * Alle recordverbindingen
    * U kunt records weergeven die zijn toegevoegd vanuit andere werkruimten die hetzelfde algemene recordtype gebruiken, alleen als u ten minste weergavemachtigingen hebt voor die werkruimten.
-   * Het **globale verslagtype** pictogram ![ Globale verslagtype pictogram ](assets/global-icon.png) wordt toegevoegd aan de kaart van het nieuwe verslagtype.
+   * Het **globale verslagtype** pictogram ![&#x200B; Globale verslagtype pictogram &#x200B;](assets/global-icon.png) wordt toegevoegd aan de kaart van het nieuwe verslagtype.
    * Het read-only **Workspace** gebied wordt toegevoegd aan de nieuwe lijst van het verslagtype mening. In het veld wordt weergegeven in welke werkruimte elke record is gemaakt.
 
      >[!NOTE]
@@ -125,7 +125,7 @@ Een algemeen recordtype uit een secundaire werkruimte verwijderen:
 
 1. Ga naar het algemene recordtype in de secundaire werkruimte.
 
-1. (Facultatief) klik op **Meer** menu ![ Meer menu ](assets/more-menu.png) op de kaart van het verslagtype, of rechts van de naam van het verslagtype op zijn pagina, dan klik **Schrapping**.
+1. (Facultatief) klik op **Meer** menu ![&#x200B; Meer menu &#x200B;](assets/more-menu.png) op de kaart van het verslagtype, of rechts van de naam van het verslagtype op zijn pagina, dan klik **Schrapping**.
 1. (Voorwaardelijk) Type **schrapt** op het verstrekte gebied, dan klik **permanent schrapt**.
 
    De volgende dingen doen zich voor:
