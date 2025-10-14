@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [ het Bewijzen ](../../../review-and-approve-work/proofing/proofing.md).
+>Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [&#x200B; het Bewijzen &#x200B;](../../../review-and-approve-work/proofing/proofing.md).
 
 ## Inleiding tot back-ups
 
@@ -40,16 +40,16 @@ Met deze naamgevingsconventie kunt u eenvoudig al uw ZIP-back-upbestanden opslaa
 
 Met de functie [!UICONTROL Backup] kunt u bepalen hoe u uw bronnen gebruikt:
 
-* Hiermee kunt u opslagruimte vrijmaken zonder dat u uw actieve of gearchiveerde proefdrukken kwijtraakt. U kunt om een steun verzoeken, de proefdrukken schrappen, en dan leeg [ herstellen en de Prullenbak binnen  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md) leegmaken.
+* Hiermee kunt u opslagruimte vrijmaken zonder dat u uw actieve of gearchiveerde proefdrukken kwijtraakt. U kunt om een steun verzoeken, de proefdrukken schrappen, en dan leeg [&#x200B; herstellen en de Prullenbak binnen  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md) leegmaken.
 * Hiermee hebt u toegang tot bestanden die u oorspronkelijk naar [!DNL Workfront] Proef hebt geüpload. U kunt ze downloaden met de functie [!UICONTROL download original file] voordat u de proefdrukken verwijdert.
 
 >[!NOTE]
 >
 >Houd rekening met het volgende wanneer u back-ups gebruikt:
 >
->* Voor Enterprise- en Onbeperkte plannen zijn back-ups beschikbaar. Gelieve te contacteren ons [ verkoopteam ](mailto:sales@proofhq.com) voor een citaat.
+>* Voor Enterprise- en Onbeperkte plannen zijn back-ups beschikbaar. Gelieve te contacteren ons [&#x200B; verkoopteam &#x200B;](mailto:sales@proofhq.com) voor een citaat.
 >* Het gegevenstype voor gegevenscodering is standaard ingesteld op UTF-8 en we raden deze instelling aan. Dit is het coderingstype dat het meest wordt gebruikt door internettoepassingen.
->* U kunt slechts één [!DNL backup] tegelijk aanvragen. Wanneer uw .zip-bestand voor een back-up wordt verwerkt, wordt de koppeling Nieuwe back-up aanvragen op het tabblad Back-ups niet weergegeven en blijft het weergegeven bericht ongewijzigd. Voor informatie bij het verzoeken van om een steun, zie [ een nieuwe gegevenssteun in  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/request-new-data-backup-in-wp.md) verzoeken.
+>* U kunt slechts één [!DNL backup] tegelijk aanvragen. Wanneer uw .zip-bestand voor een back-up wordt verwerkt, wordt de koppeling Nieuwe back-up aanvragen op het tabblad Back-ups niet weergegeven en blijft het weergegeven bericht ongewijzigd. Voor informatie bij het verzoeken van om een steun, zie [&#x200B; een nieuwe gegevenssteun in  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/request-new-data-backup-in-wp.md) verzoeken.
 >
 
 
@@ -63,7 +63,7 @@ Met de functie [!UICONTROL Backup] kunt u bepalen hoe u uw bronnen gebruikt:
 Wanneer de back-up gereed is, gebeurt het volgende:
 
 * U ontvangt een e-mail van [!DNL Workfront Proof] waarin u hiervan op de hoogte wordt gesteld (&quot;Uw [!DNL Workfront Proof] back-up is gereed&quot;). Het e-mailbericht bevat een downloadkoppeling voor uw back-upgegevens.
-* De [ montages van de Rekening ](https://support.workfront.com/hc/en-us/sections/115000912147-Account-settings) reserve tabel toont een downloadverbinding voor uw reservegegevens.
+* De [&#x200B; montages van de Rekening &#x200B;](https://support.workfront.com/hc/en-us/sections/115000912147-Account-settings) reserve tabel toont een downloadverbinding voor uw reservegegevens.
 * De koppeling Nieuwe back-up aanvragen (3) verschijnt weer op het tabblad Back-ups
 
 Uw gegevens kunnen als ZIP-bestand worden gedownload. U kunt het ZIP-bestand voor de reservekopie downloaden via de e-mail met de melding of in de [!UICONTROL account settings] , zoals beschreven in de volgende secties:
@@ -71,7 +71,7 @@ Uw gegevens kunnen als ZIP-bestand worden gedownload. U kunt het ZIP-bestand voo
 * [Uw ZIP-bestand voor back-up downloaden vanuit uw e-mailbericht](#downloading-your-backup-zip-file-from-your-email-notification)
 * [Het .zip-bestand voor de back-up downloaden vanaf de accountinstellingen](#downloading-your-backup-zip-file-from-the-account-settings)
 
-![ Request_Backup.png ](assets/request-backup-350x167.png)
+![&#x200B; Request_Backup.png &#x200B;](assets/request-backup-350x167.png)
 
 ## Uw ZIP-bestand voor back-up downloaden vanuit uw e-mailbericht {#downloading-your-backup-zip-file-from-your-email-notification}
 
@@ -80,7 +80,7 @@ Wanneer uw .zip-back-upbestand kan worden gedownload, ontvangt u een e-mail van 
 U kunt als volgt het ZIP-bestand voor de back-up downloaden van de e-mail:
 
 1. Klik op de downloadkoppeling in de e-mail.\
-   ![ Backup_mail.png ](assets/backup-mail-350x120.png)\
+   ![&#x200B; Backup_mail.png &#x200B;](assets/backup-mail-350x120.png)\
    Als u momenteel niet bent aangemeld bij [!DNL Workfront Proof] , wordt een nieuw browservenster geopend en wordt de aanmeldingspagina weergegeven.
 
 ## Het .zip-bestand voor de back-up downloaden vanaf de accountinstellingen {#downloading-your-backup-zip-file-from-the-account-settings}
@@ -92,7 +92,7 @@ Wanneer uw .zip-back-upbestand kan worden gedownload, geeft het tabblad [!UICONT
    Als er geen gebruikers in uw account zijn die om back-ups hebben gevraagd, geeft het tabblad [!UICONTROL Backups] aan dat u geen back-ups hebt. Als een gebruiker een back-up heeft aangevraagd, wordt op het tabblad de aanmaakdatum en downloadkoppeling voor de laatste back-up weergegeven.
 
 1. Klik op de koppeling **[!UICONTROL Download backup]** . (3)\
-   ![ Download_Backup.png ](assets/download-backup-350x167.png) Het scherm van de Download van het Dossier verschijnt, vragend of wilt u het downloaddossier openen of opslaan.
+   ![&#x200B; Download_Backup.png &#x200B;](assets/download-backup-350x167.png) Het scherm van de Download van het Dossier verschijnt, vragend of wilt u het downloaddossier openen of opslaan.
 
 1. Klik op **[!UICONTROL Save]** en selecteer vervolgens de locatie op uw computer waar u het ZIP-bestand voor de back-up wilt opslaan.\
    Het bericht met de datum van de meest recente back-up wordt onder aan de pagina van [!UICONTROL Backup] weergegeven tot de volgende keer dat u een back-up aanvraagt. De koppeling Back-up downloaden is van toepassing op de laatste back-up. Wanneer de koppeling [!UICONTROL Request new backup] wordt weergegeven, kunt u erop klikken om een andere back-up aan te vragen.

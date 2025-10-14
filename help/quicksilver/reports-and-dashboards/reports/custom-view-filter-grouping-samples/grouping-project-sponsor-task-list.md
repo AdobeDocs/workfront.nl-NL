@@ -20,7 +20,7 @@ ht-degree: 0%
 
 Met deze taakgroep kunt u taken groeperen op basis van de projectsponsor.
 
-![ Groep door projectsponsor ](assets/grouping--project-sponsor-for-a-task-350x189.png)
+![&#x200B; Groep door projectsponsor &#x200B;](assets/grouping--project-sponsor-for-a-task-350x189.png)
 
 ## Toegangsvereisten
 
@@ -58,7 +58,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-*For informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*For informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

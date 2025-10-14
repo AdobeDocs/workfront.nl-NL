@@ -19,7 +19,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [ het Bewijzen ](../../../review-and-approve-work/proofing/proofing.md).
+>Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [&#x200B; het Bewijzen &#x200B;](../../../review-and-approve-work/proofing/proofing.md).
 
 ## De facturatiepagina
 
@@ -39,7 +39,7 @@ De pagina [!UICONTROL Billing] bevat het volgende:
 * Factureringsgeschiedenis (10)
 * Factureringsactiviteit (11)
 
-  ![ Billing_page.jpg ](assets/billing-page-350x315.jpg)
+  ![&#x200B; Billing_page.jpg &#x200B;](assets/billing-page-350x315.jpg)
 
 ## [!UICONTROL Current Plan]
 
@@ -51,7 +51,7 @@ In dit gedeelte (7) worden de details van uw huidige abonnement weergegeven, waa
 * Het volgende overzichtstype
 * Volgende betalingsmethode voor abonnementen
 
-  Voor meer informatie, zie [ Kiezen Uw Betalingsmethode in  [!DNL Workfront Proof]](../../../workfront-proof/wp-billingsettings/manage-your-billing/choose-payment-method-in-wp.md).
+  Voor meer informatie, zie [&#x200B; Kiezen Uw Betalingsmethode in  [!DNL Workfront Proof]](../../../workfront-proof/wp-billingsettings/manage-your-billing/choose-payment-method-in-wp.md).
 
 ## [!UICONTROL Billing Contact and Address]
 
@@ -59,7 +59,7 @@ In deze sectie (8) staan de belangrijkste contactpersoon voor facturatie en de a
 
 Het factureringscontact kan slechts van de gebruikers worden geselecteerd die als de Facturerings Beheerders op uw rekening worden geplaatst. Op de satellietrekeningen, slechts kunnen de Facturerings Beheerders van de hoofdrekening op dit gebied worden geplaatst.
 
-![ Billing_Contact.png ](assets/billing-contact-350x137.png)
+![&#x200B; Billing_Contact.png &#x200B;](assets/billing-contact-350x137.png)
 
 >[!NOTE]
 >
@@ -73,7 +73,7 @@ Dit omvat de volgende e-mailmeldingen:
 * Betalingsachterstand/Account-schorsing
 * Creditcardfout
 
-  ![ Billin_CC.png ](assets/billin-cc-350x103.png)
+  ![&#x200B; Billin_CC.png &#x200B;](assets/billin-cc-350x103.png)
 
 In het veld [!UICONTROL Billing CC] kunt u ook een e-mailadres toevoegen dat u wilt kopiëren naar alle e-mails over facturering. Klik op het veld om inline bewerken te activeren en voer een e-mailadres van uw keuze in (dit kan ook een bestaand e-mailadres van de gebruiker zijn).
 
@@ -85,7 +85,7 @@ In deze sectie wordt inline bewerken gebruikt, zodat u gewoon op de velden klikt
 >
 > Dit adres wordt opgenomen op uw abonnementsfacturen, zodat deze gegevens altijd up-to-date zijn.
 
-![ Billing_Address.png ](assets/billing-address-350x199.png)
+![&#x200B; Billing_Address.png &#x200B;](assets/billing-address-350x199.png)
 
 ## [!UICONTROL Usage Statistics]
 
@@ -95,26 +95,26 @@ In deze sectie worden de gebruiksstatistieken van uw account binnen de huidige f
 * Gebruikte proefdrukken
 * Gebruikte limiet voor gebruikers
 
-![ Usage_Statistics.png ](assets/usage-statistics-350x51.png)
+![&#x200B; Usage_Statistics.png &#x200B;](assets/usage-statistics-350x51.png)
 
 ### [!UICONTROL Usage Warnings]
 
-De [[!UICONTROL Proof Permissions Profiles] in  [!DNL Workfront]  Bewijs ](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) die als het Facturerende Contact (1) op uw rekening wordt geplaatst zal via e-mail op de hoogte worden gebracht wanneer uw rekening bereikt:
+De [[!UICONTROL Proof Permissions Profiles] in  [!DNL Workfront]  Bewijs &#x200B;](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) die als het Facturerende Contact (1) op uw rekening wordt geplaatst zal via e-mail op de hoogte worden gebracht wanneer uw rekening bereikt:
 
 * 75% en 98% van uw opslagcapaciteit
 * 75% en vervolgens 100% van uw proefdruklimiet
 
-![ Billing_Contact__1_.png ](assets/billing-contact--1--350x74.png)
+![&#x200B; Billing_Contact__1_.png &#x200B;](assets/billing-contact--1--350x74.png)
 
 Zodra de proefdrukken of opslaggrenzen worden bereikt, zult u de alarm bij de bovenkant van de [!UICONTROL Billing] pagina ook zien:
 
 * Voor de bereikte proefdruklimiet
 
-  ![ Proofs_limit_reached.png ](assets/proofs-limit-reached-350x65.png)
+  ![&#x200B; Proofs_limit_reached.png &#x200B;](assets/proofs-limit-reached-350x65.png)
 
 * Voor de bereikte opslaglimiet
 
-![ Storage_limit_reached.png ](assets/storage-limit-reached-350x65.png)
+![&#x200B; Storage_limit_reached.png &#x200B;](assets/storage-limit-reached-350x65.png)
 
 >[!NOTE]
 >
@@ -128,7 +128,7 @@ Houd er rekening mee dat als u meer proefdrukken, opslaggegevens of gebruikers n
 
 In deze sectie wordt de activiteit voor recente factureringsperioden weergegeven. U kunt uw facturen ook downloaden vanuit deze sectie.
 
-Voor meer informatie, zie &quot; [ het Downloaden van Uw  [!DNL Workfront Proof]  Factuur ](../../../workfront-proof/wp-billingsettings/manage-your-billing/download-wp-invoice.md).&quot;
+Voor meer informatie, zie &quot; [&#x200B; het Downloaden van Uw  [!DNL Workfront Proof]  Factuur &#x200B;](../../../workfront-proof/wp-billingsettings/manage-your-billing/download-wp-invoice.md).&quot;
 
 ## [!UICONTROL Billing Activity]
 
@@ -136,6 +136,6 @@ In deze sectie ziet u recente wijzigingen in uw factureringsinstellingen, zoals 
 
 Als u uw abonnement wijzigt in een abonnement met een lagere gebruikerslimiet (1), worden gebruikers die de nieuwe limiet overschrijden automatisch gedeactiveerd wanneer het nieuwe abonnement wordt gestart. Deze activiteit wordt ook vastgelegd in uw accountlogboeken (2).
 
-![ Billing_Downgrade_log.png ](assets/billing-downgrade-log-350x45.png)
+![&#x200B; Billing_Downgrade_log.png &#x200B;](assets/billing-downgrade-log-350x45.png)
 
-![ Account_Activity_-_Delette_users.png ](assets/account-activity---deleted-users-350x94.png)
+![&#x200B; Account_Activity_-_Delette_users.png &#x200B;](assets/account-activity---deleted-users-350x94.png)

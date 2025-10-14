@@ -34,13 +34,13 @@ U moet de app [!DNL Workfront] installeren voordat u zich bij de bètaversie kun
 
 1. Nadat de voortgang is voltooid, ontvangt u een bevestiging dat u nu een bètagebruiker bent.\
    Het woord &quot;[!UICONTROL Beta]&quot; verschijnt na de naam van uw app in [!DNL Play Store] om aan te geven dat u de bètaversie van de app gebruikt.\
-   ![ de bètameetapparaat van Android ](assets/android-beta-tester-adobe-350x468.png)
+   ![&#x200B; de bètameetapparaat van Android &#x200B;](assets/android-beta-tester-adobe-350x468.png)
 
 ### QR-code
 
 U kunt ook de onderstaande QR-code scannen om u aan te melden voor de bètaversie en de app downloaden:
 
-![ QR van Android code ](assets/android-qr-code-350x409.png)
+![&#x200B; QR van Android code &#x200B;](assets/android-qr-code-350x409.png)
 
 ## Laat ons weten hoe we het doen
 

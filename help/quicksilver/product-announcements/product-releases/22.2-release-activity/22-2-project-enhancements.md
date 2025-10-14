@@ -23,7 +23,7 @@ in January 2022
 </MadCap:conditionalText>
 -->
 
-4 april 2022. Voor een lijst van alle veranderingen beschikbaar met de versie 22.2, zie [ 22.2 Overzicht van de Versie ](../../../product-announcements/product-releases/22.2-release-activity/22-2-release-overview.md).
+4 april 2022. Voor een lijst van alle veranderingen beschikbaar met de versie 22.2, zie [&#x200B; 22.2 Overzicht van de Versie &#x200B;](../../../product-announcements/product-releases/22.2-release-activity/22-2-release-overview.md).
 
 ## Adobe Workfront Boards zijn nu beschikbaar!
 
@@ -40,7 +40,7 @@ De kaarten op een bord zijn niet verbonden met objecten en werkitems in Adobe Wo
 
 Een systeembeheerder moet raden in lay-outsjablonen inschakelen om de optie beschikbaar te maken voor alle gebruikers in het hoofdmenu.
 
-Voor meer informatie, zie [ het overzicht van Boden ](../../../agile/boards-overview.md).
+Voor meer informatie, zie [&#x200B; het overzicht van Boden &#x200B;](../../../agile/boards-overview.md).
 
 ## Extra verbeteringen voor Workfront-borden
 
@@ -65,13 +65,13 @@ De volgende aanvullende verbeteringen zijn nu beschikbaar voor Workfront Boards:
 
   U kunt nu een vervaldatum instellen voor afzonderlijke kaarten op uw bord.
 
-Voor meer informatie, zie [ begonnen worden met raden in Adobe Workfront ](../../../agile/get-started-with-boards/get-started-with-boards.md).
+Voor meer informatie, zie [&#x200B; begonnen worden met raden in Adobe Workfront &#x200B;](../../../agile/get-started-with-boards/get-started-with-boards.md).
 
 ## Optie Ongedaan maken voor Update-berichten
 
 Het is nu eenvoudiger om fouten op te sporen bij het plaatsen van een update. Wanneer u een opmerking voltooit op het tabblad Update van een object, wordt nu een pop-upvenster van 7 seconden gemaakt waarin u de post kunt annuleren en de bewerking kunt herstellen, voordat de tijdstempels van het systeem worden gewijzigd of e-mails en meldingen in de app worden verzonden. Als u het pop-upvenster sluit, de pagina verlaat of 7 seconden wacht totdat het venster een time-out heeft, wordt de post op de gebruikelijke wijze geplaatst.
 
-Voor meer informatie, zie [ het werk van de Update ](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+Voor meer informatie, zie [&#x200B; het werk van de Update &#x200B;](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 ## Bijgewerkte ervaring bij het kopiëren en verplaatsen van problemen
 
@@ -87,14 +87,14 @@ Enkele verbeteringen van deze nieuw herontworpen interface omvatten:
 
 Raadpleeg de volgende artikelen voor meer informatie over het verplaatsen of kopiëren van problemen:
 
-* [ kwesties van het Exemplaar ](../../../manage-work/issues/manage-issues/copy-issues.md)
+* [&#x200B; kwesties van het Exemplaar &#x200B;](../../../manage-work/issues/manage-issues/copy-issues.md)
 * [Problemen verplaatsen](../../../manage-work/issues/manage-issues/move-issues.md)
 
 ## Nieuwe ervaring bij het kopiëren van een project
 
 Om uw gebruik van Workfront consistent te maken met de nieuwe Adobe Workfront-ervaring, hebben we de interface voor het kopiëren van projecten opnieuw ontworpen. Dit is momenteel beschikbaar wanneer het kopiëren van een project van de projectpagina of wanneer het kopiëren van een project van een lijst of een rapport. Voorafgaand aan deze update kon u een project van de projectpagina slechts kopiëren.
 
-Voor meer informatie, zie [ een project ](../../../manage-work/projects/manage-projects/copy-project.md) kopiëren.
+Voor meer informatie, zie [&#x200B; een project &#x200B;](../../../manage-work/projects/manage-projects/copy-project.md) kopiëren.
 
 ## De capaciteit om projecten van lijsten en rapporten van een nieuw Meer menu te beheren
 
@@ -111,11 +111,11 @@ Wij hebben een nieuw Meer menu in projectlijsten en rapporten toegevoegd om u to
 
 Raadpleeg de volgende artikelen voor meer informatie:
 
-* [ projectchronologie opnieuw berekenen ](../../../manage-work/projects/manage-projects/recalculate-project-timeline.md)
-* [ herberekenen projectfinanciën ](../../../manage-work/projects/project-finances/recalculate-project-finances.md)
-* [ geef informatie op de gebieden van de douanevorm uit ](../../../workfront-basics/work-with-custom-forms/edit-custom-forms.md)
-* [ maak een malplaatje aan een project ](../../../manage-work/projects/create-and-manage-templates/attach-template-to-project.md) vast
-* [ Uitvoer een project naar het Project van Microsoft ](../../../manage-work/projects/manage-projects/export-project-to-ms-project.md)
+* [&#x200B; projectchronologie opnieuw berekenen &#x200B;](../../../manage-work/projects/manage-projects/recalculate-project-timeline.md)
+* [&#x200B; herberekenen projectfinanciën &#x200B;](../../../manage-work/projects/project-finances/recalculate-project-finances.md)
+* [&#x200B; geef informatie op de gebieden van de douanevorm uit &#x200B;](../../../workfront-basics/work-with-custom-forms/edit-custom-forms.md)
+* [&#x200B; maak een malplaatje aan een project &#x200B;](../../../manage-work/projects/create-and-manage-templates/attach-template-to-project.md) vast
+* [&#x200B; Uitvoer een project naar het Project van Microsoft &#x200B;](../../../manage-work/projects/manage-projects/export-project-to-ms-project.md)
 * [Abonneren op objecten in Adobe Workfront](../../../workfront-basics/using-notifications/subscribe-to-items-in-workfront.md)
 
 ## Houd gebruikers op het dashboard, de lijst, of het rapport na het omzetten van kwestie in project
@@ -124,7 +124,7 @@ Om de efficiency te verhogen en het aantal kliks te elimineren, hebben wij een v
 
 De gebruikers blijven op de lijst, het rapport of een dashboard na het omzetten van een kwestie in een project in plaats van aan de pagina van het project opnieuw worden gericht. Een succesbericht met de verbinding aan de projectvertoningen nadat de omzetting volledig is, om u toe te staan om aan het project gemakkelijk te navigeren, indien nodig.
 
-Voor meer informatie, zie [ Bekeerling een kwestie in een project in Adobe Workfront ](../../../manage-work/issues/convert-issues/convert-issue-to-project.md).
+Voor meer informatie, zie [&#x200B; Bekeerling een kwestie in een project in Adobe Workfront &#x200B;](../../../manage-work/issues/convert-issues/convert-issue-to-project.md).
 
 ## Toewijzingstijden worden niet meer verwijderd wanneer u wijzigingen aanbrengt in toewijzingen
 
@@ -140,7 +140,7 @@ De volgende wijzigingen zijn aangebracht in taken met het type Eenvoudige duur:
 * Individuele toewijzingen blijven behouden wanneer gebruikers en rollen worden vervangen.
 * Individuele toewijzingen blijven behouden op de rol wanneer de gebruiker wordt verwijderd. (Verwijderd uit de release. Geplande uren worden nu ingesteld op 0 nadat alle toegewezen uren zijn verwijderd.)
 
-Voor meer informatie over Geplande Uren, zie [ Gepland overzicht van Uren ](../../../manage-work/tasks/task-information/planned-hours.md).
+Voor meer informatie over Geplande Uren, zie [&#x200B; Gepland overzicht van Uren &#x200B;](../../../manage-work/tasks/task-information/planned-hours.md).
 
 ## Alleen mappen delen in de bovenste vijf niveaus van een mappenhiërarchie
 
@@ -152,5 +152,5 @@ Voor de beste prestaties voor gebruikers die mappen delen, beperken we het delen
 
 Elke map op het zesde niveau of erft de configuraties voor delen van de map direct erboven.
 
-Voor meer informatie over het delen van omslagen, zie [ een documentomslag ](../../../workfront-basics/grant-and-request-access-to-objects/share-a-document-folder.md) delen.
+Voor meer informatie over het delen van omslagen, zie [&#x200B; een documentomslag &#x200B;](../../../workfront-basics/grant-and-request-access-to-objects/share-a-document-folder.md) delen.
 

@@ -70,14 +70,14 @@ U kunt aanvullende toegang aanvragen voor de volgende objecten:
 
 Een andere gebruiker eraan herinneren uw toegangsverzoek voor een object goed te keuren:
 
-1. Klik het **pictogram van het Huis ![ pictogram van het Begin ](assets/home-icon-30x29.png) in de upper-left hoek van Adobe Workfront.**
+1. Klik het **pictogram van het Huis ![&#x200B; pictogram van het Begin &#x200B;](assets/home-icon-30x29.png) in de upper-left hoek van Adobe Workfront.**
 
    >[!NOTE]
    >
    >Uw Workfront-beheerder kan de volgende wijzigingen aanbrengen in het pictogram Home in uw omgeving:
    >
    >* Vervang deze door een afbeelding die is aangepast om uw organisatie te illustreren. In dit geval ziet het pictogram er anders uit dan in dit artikel.
-   >* De gekoppelde pagina vervangen door een andere pagina. In dit geval, klik het **Belangrijkste pictogram van het Menu** ![ Belangrijkste pictogram van het Menu ](assets/main-menu-icon.png) in de hoger-juiste hoek van de pagina, dan klik **Huis**.
+   >* De gekoppelde pagina vervangen door een andere pagina. In dit geval, klik het **Belangrijkste pictogram van het Menu** ![&#x200B; Belangrijkste pictogram van het Menu &#x200B;](assets/main-menu-icon.png) in de hoger-juiste hoek van de pagina, dan klik **Huis**.
 
 1. In het **gebied van de Lijst van het Werk**, ga naar **Goedkeuringen ik** groepering heb voorgelegd.
 
@@ -85,28 +85,28 @@ Een andere gebruiker eraan herinneren uw toegangsverzoek voor een object goed te
 
    Dit opent het Verzoek van de Toegang tot het recht van de Lijst van het Werk.
 
-   ![ verzoek van de Toegang in afwachting van goedkeuring ](assets/access-request-pending-approval-nwe-350x104.png)
+   ![&#x200B; verzoek van de Toegang in afwachting van goedkeuring &#x200B;](assets/access-request-pending-approval-nwe-350x104.png)
 
 1. Klik **herinneren** in de hoger-juiste hoek van het juiste paneel eraan om een bericht naar fiatteur te verzenden.
 
 ## Documenten
 
-1. Klik het **pictogram van het Huis ![ pictogram van het Begin ](assets/home-icon-30x29.png) in de upper-left hoek van Adobe Workfront.**
+1. Klik het **pictogram van het Huis ![&#x200B; pictogram van het Begin &#x200B;](assets/home-icon-30x29.png) in de upper-left hoek van Adobe Workfront.**
 
    >[!NOTE]
    >
    >Uw Workfront-beheerder kan de volgende wijzigingen aanbrengen in het pictogram Home in uw omgeving:
    >
    >* Vervang deze door een afbeelding die is aangepast om uw organisatie te illustreren. In dit geval ziet het pictogram er anders uit dan in dit artikel.
-   >* De gekoppelde pagina vervangen door een andere pagina. In dit geval, klik het **Belangrijkste pictogram van het Menu** ![ Belangrijkste pictogram van het Menu ](assets/main-menu-icon.png) in de hoger-juiste hoek van de pagina, dan klik **Huis**.
+   >* De gekoppelde pagina vervangen door een andere pagina. In dit geval, klik het **Belangrijkste pictogram van het Menu** ![&#x200B; Belangrijkste pictogram van het Menu &#x200B;](assets/main-menu-icon.png) in de hoger-juiste hoek van de pagina, dan klik **Huis**.
 
 1. In het **gebied van de Lijst van het Werk**, ga naar **Goedkeuringen ik** groepering heb voorgelegd.
 
 1. Klik a **goedkeuring van het Document** in de Lijst van het Werk.
 
    Hiermee wordt de documentgoedkeuring rechts van de werklijst geopend.\
-   ![ de goedkeuring van het Document ](assets/document-350x232.png)
+   ![&#x200B; de goedkeuring van het Document &#x200B;](assets/document-350x232.png)
 
 1. Klik **leiden Goedkeuringen** in de hoger-juiste hoek van het juiste paneel.
 1. Klik **herinneren** pictogram eraan om een bericht naar fiatteur te verzenden.\
-   ![ herinnert.png ](assets/remind-350x41.png)
+   ![&#x200B; herinnert.png &#x200B;](assets/remind-350x41.png)

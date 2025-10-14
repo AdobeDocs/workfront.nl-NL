@@ -20,9 +20,9 @@ ht-degree: 0%
 
 <!-- Audited: 12/2023 -->
 
-Als u een Adobe Workfront-beheerder bent of als u een Planner-toegangsniveau hebt waarmee u de instellingen van andere gebruikers kunt bewerken, kunt u de meldingsinstellingen voor meerdere gebruikers tegelijk configureren. Dit omvat het specificeren of de gebruikers berichten ontvangen aangezien de gebeurtenissen gebeuren, of in één dagelijkse samenvatting e-mail, zoals die in [ Adobe Workfront berichten ](../../../workfront-basics/using-notifications/wf-notifications.md) wordt beschreven. Voor informatie over het toegangsniveau nodig om gebruikers uit te geven, zie [ Toegang van de Verlening tot gebruikers ](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
+Als u een Adobe Workfront-beheerder bent of als u een Planner-toegangsniveau hebt waarmee u de instellingen van andere gebruikers kunt bewerken, kunt u de meldingsinstellingen voor meerdere gebruikers tegelijk configureren. Dit omvat het specificeren of de gebruikers berichten ontvangen aangezien de gebeurtenissen gebeuren, of in één dagelijkse samenvatting e-mail, zoals die in [&#x200B; Adobe Workfront berichten &#x200B;](../../../workfront-basics/using-notifications/wf-notifications.md) wordt beschreven. Voor informatie over het toegangsniveau nodig om gebruikers uit te geven, zie [&#x200B; Toegang van de Verlening tot gebruikers &#x200B;](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 
-U kunt ook e-mailmeldingen voor één gebruiker tegelijk configureren, inclusief uw eigen profiel. Voor meer informatie, zie [ uw eigen e-mailberichten wijzigen ](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+U kunt ook e-mailmeldingen voor één gebruiker tegelijk configureren, inclusief uw eigen profiel. Voor meer informatie, zie [&#x200B; uw eigen e-mailberichten wijzigen &#x200B;](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 
 ## Toegangsvereisten
@@ -55,7 +55,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -74,7 +74,7 @@ Instellingen voor e-mailmeldingen voor meerdere gebruikers wijzigen:
 
 1. Vouw een categorie uit om meldingsinstellingen voor die categorie weer te geven.
 
-   Als er minstens één gebruiker wordt geselecteerd waar de berichten niet de berichten van de andere geselecteerde gebruikers aanpassen, bevat het vakje van de categoriecontrole voor dat bericht een horizontale lijn ![ Lijn in plaats van controle ](assets/straight-line-instead-of-checkmark.jpg) in plaats van een vinkje.
+   Als er minstens één gebruiker wordt geselecteerd waar de berichten niet de berichten van de andere geselecteerde gebruikers aanpassen, bevat het vakje van de categoriecontrole voor dat bericht een horizontale lijn ![&#x200B; Lijn in plaats van controle &#x200B;](assets/straight-line-instead-of-checkmark.jpg) in plaats van een vinkje.
 
 
 1. Klik op de berichten die de gebruikers dagelijks of direct moeten ontvangen of op de berichten die u niet meer wilt ontvangen.
@@ -86,7 +86,7 @@ Instellingen voor e-mailmeldingen voor meerdere gebruikers wijzigen:
 
 1. Als u berichten selecteerde die als dagelijkse samenvatting moeten worden verzonden, selecteer de tijd van de dag u de samenvatting wilt die bij de bovenkant van de **sectie van Meldingen** in de **E-mail Dagelijkse Samenvatting na** menu wordt geleverd.
 
-   ![ Dagelijkse samenvattingstijd ](assets/daily-digest-time.png)
+   ![&#x200B; Dagelijkse samenvattingstijd &#x200B;](assets/daily-digest-time.png)
 
    De dagelijkse samenvatting bevat gebeurtenissen die 24 uur vóór de geselecteerde tijd voldoen aan de criteria voor de meldingen. Gebruikers ontvangen één e-mail met dagelijkse samenvatting voor elk berichttype.
 

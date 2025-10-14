@@ -24,7 +24,7 @@ Als u bijvoorbeeld wilt weten hoeveel weken er zijn verstreken tussen twee datum
 U kunt bijvoorbeeld het weekdagverschil berekenen tussen de Geplande Voltooiingsdatum en de Werkelijke Voltooiingsdatum van een taak en het resultaat weergeven in een kolom.
 
 U kunt andere twee datums gebruiken in deze berekening (Werkelijk begin, Werkelijke Voltooiing, Geprojecteerd Begin, Geprojecteerde Voltooiing, enz.).\
-Voor meer informatie over berekende gegevensuitdrukkingen, zie [ Overzicht van berekende gegevensuitdrukkingen ](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+Voor meer informatie over berekende gegevensuitdrukkingen, zie [&#x200B; Overzicht van berekende gegevensuitdrukkingen &#x200B;](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
 
 ## Toegangsvereisten
 
@@ -62,7 +62,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-*For informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*For informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -84,5 +84,5 @@ Deze kolom toevoegen aan een taakweergave:
    valueformat=HTML
    ```
 
-1. (Facultatief) om de waarden samen te voegen die in de mening in een groepering worden getoond, volg de stappen die in [ worden beschreven Groepering: toon het resultaat van het samenvoegen van veelvoudige berekende waarden in een groepering ](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-calculation-between-two-fields-aggregated-in-grouping.md).
+1. (Facultatief) om de waarden samen te voegen die in de mening in een groepering worden getoond, volg de stappen die in [&#x200B; worden beschreven Groepering: toon het resultaat van het samenvoegen van veelvoudige berekende waarden in een groepering &#x200B;](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-calculation-between-two-fields-aggregated-in-grouping.md).
 1. Klik **Gedaan**, dan **sparen Mening**.

@@ -36,7 +36,7 @@ Overweeg het volgende wanneer het bekijken van de informatie van Uren of FTE in 
 * U kunt de gegevens niet in de weergave Gebruiker weergeven op kosten.
 * Adobe Workfront vult Beschikbare uren of VTE volgens de arbeidstijd verbonden aan de gebruikers in hun programma&#39;s.\
   De gebruikers niet verbonden aan een programma tonen beschikbaarheid volgens het StandaardProgramma.\
-  Voor informatie over het StandaardProgramma, zie [ een programma ](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md) creëren.
+  Voor informatie over het StandaardProgramma, zie [&#x200B; een programma &#x200B;](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md) creëren.
 
 * Workfront vult Geplande uren of VTE van de Geplande Uren informatie over de taken en de kwesties betreffende de projecten.
 * Workfront vult Werkelijke uren met de daadwerkelijke tijd die aan taken en kwesties wordt geregistreerd door de gebruikers die aan hen worden toegewezen. Dit omvat tijd die op een project wordt het programma wordt geopend.
@@ -52,16 +52,16 @@ Overweeg het volgende wanneer het bekijken van de informatie van Uren of FTE in 
    * Breid elke rol uit om een lijst van taken te tonen de gebruiker in die rol wordt toegewezen aan.
 
   Als de gebruikers geen baanrollen verbonden aan hen hebben, zijn hun Beschikbaar, Gepland, en Ware Uren of FTE vermeld in **Geen sectie van de Rol**.\
-  Voor informatie over welke gebieden en punten tonen wanneer het toepassen van de mening van de Gebruiker op de Planner van het Middel, zie de &quot;sectie van de Selectie van de Mening van het Project/van de Rol/van de Gebruiker&quot;in [ navigatie van de Planner van het Middel ](../../resource-mgmt/resource-planning/resource-planner-navigation.md).
+  Voor informatie over welke gebieden en punten tonen wanneer het toepassen van de mening van de Gebruiker op de Planner van het Middel, zie de &quot;sectie van de Selectie van de Mening van het Project/van de Rol/van de Gebruiker&quot;in [&#x200B; navigatie van de Planner van het Middel &#x200B;](../../resource-mgmt/resource-planning/resource-planner-navigation.md).
 
 ## Overzicht van velden die zichtbaar zijn in de weergave Gebruiker van de functie voor middelenplanner
 
 Verwijs naar de volgende lijsten voor het begrip van de informatie die in de mening van de Gebruiker van de Planner van het Middel wordt getoond. De informatie wordt weergegeven in uren of FTE-waarden.
 
-* [ de (Beschikbare) kolom van AVL ](#the-avl-available-column)
-* [ PLN (Geplande) kolom ](#the-pln-planned-column)
-* [ ACT (Ware) kolom ](#The%C2%A0ACT)
-* [ DIF (Verschil) kolom ](#the-dif-difference-column)
+* [&#x200B; de (Beschikbare) kolom van AVL &#x200B;](#the-avl-available-column)
+* [&#x200B; PLN (Geplande) kolom &#x200B;](#the-pln-planned-column)
+* [&#x200B; ACT (Ware) kolom &#x200B;](#The%C2%A0ACT)
+* [&#x200B; DIF (Verschil) kolom &#x200B;](#the-dif-difference-column)
 * [De kolom % (percentage geplande uren toewijzing)](#the-planned-hours-allocation-percentage-column)
 
 ### De kolom AVL (Available) {#the-avl-available-column}
@@ -93,7 +93,7 @@ Verwijs naar de volgende lijsten voor het begrip van de informatie die in de men
  </tbody> 
 </table>
 
-Voor meer informatie over hoe de gebruiker en rolbeschikbaarheid gebaseerd op het programma van de gebruiker en het Percentage van VTE Beschikbaarheid van de rol wordt berekend, zie [ Overzicht van het berekenen van uren en FTE voor gebruikers en rollen in de Planner van het Middel ](../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md).
+Voor meer informatie over hoe de gebruiker en rolbeschikbaarheid gebaseerd op het programma van de gebruiker en het Percentage van VTE Beschikbaarheid van de rol wordt berekend, zie [&#x200B; Overzicht van het berekenen van uren en FTE voor gebruikers en rollen in de Planner van het Middel &#x200B;](../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md).
 
 ### De kolom PLN (gepland) {#the-pln-planned-column}
 
@@ -153,7 +153,7 @@ Houd rekening met het volgende wanneer u geplande uren bekijkt:
 * Geplande uren worden niet weergegeven in de bronnenplanner als de taak of uitgave nul is.
 * De geplande uren die zijn gekoppeld aan gedeactiveerde gebruikers worden niet weergegeven.
 
-Voor meer informatie over Geplande Uren en FTE in de Planner van het Middel, zie [ Overzicht van uren, FTE, en kosteninformatie in het Project en de meningen van de Rol van de Planner van het Middel ](../../resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md).
+Voor meer informatie over Geplande Uren en FTE in de Planner van het Middel, zie [&#x200B; Overzicht van uren, FTE, en kosteninformatie in het Project en de meningen van de Rol van de Planner van het Middel &#x200B;](../../resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md).
 
 ### De kolom ACT (Actual)
 
@@ -200,7 +200,7 @@ Voor meer informatie over Geplande Uren en FTE in de Planner van het Middel, zie
 >
 >De tijd het programma wordt geopend toont in timeframe die overeenkomt met de ingangsdatum van de ingang van het uur, ongeacht het tijdframe van de taak, uitgave of project waar de uren worden geregistreerd.
 
-Voor meer informatie over Werkelijke Uren, zie [ Werkelijke Uren van de Mening ](../../manage-work/tasks/task-information/actual-hours.md).
+Voor meer informatie over Werkelijke Uren, zie [&#x200B; Werkelijke Uren van de Mening &#x200B;](../../manage-work/tasks/task-information/actual-hours.md).
 
 ### De DIF-kolom (Verschil) {#the-dif-difference-column}
 

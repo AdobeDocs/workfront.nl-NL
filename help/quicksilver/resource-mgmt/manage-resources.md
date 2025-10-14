@@ -21,7 +21,7 @@ ht-degree: 0%
 
 Deze sectie bevat de volgende subsecties:
 
-* [ Beheer van het Middel: artikelindex ](../resource-mgmt/resource-mgmt-overview/resource-management-overview.md)
-* [ Planning van het Middel: artikelindex ](../resource-mgmt/resource-planning/resource-planning-overview.md)
-* [ Gebruik van het Middel: artikelindex ](../resource-mgmt/resource-utilization/resource-utilization.md)
+* [&#x200B; Beheer van het Middel: artikelindex &#x200B;](../resource-mgmt/resource-mgmt-overview/resource-management-overview.md)
+* [&#x200B; Planning van het Middel: artikelindex &#x200B;](../resource-mgmt/resource-planning/resource-planning-overview.md)
+* [&#x200B; Gebruik van het Middel: artikelindex &#x200B;](../resource-mgmt/resource-utilization/resource-utilization.md)
 * [De werklastbalans: artikelindex](../resource-mgmt/workload-balancer/workload-balancer.md)

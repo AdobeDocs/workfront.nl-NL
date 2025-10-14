@@ -24,7 +24,7 @@ Wanneer u een groep bekijkt die u in het gebied van Groepen beheert, kunt u met 
 
 Als er om het even welke groepen boven uw groep zijn, kunnen hun beheerders deze dingen voor uw groep ook doen. Hetzelfde geldt voor Workfront-beheerders (voor elke groep).
 
-Voor meer informatie over herstelde punten, zie [ geschrapte punten ](../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md) herstellen.
+Voor meer informatie over herstelde punten, zie [&#x200B; geschrapte punten &#x200B;](../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md) herstellen.
 
 ## Toegangsvereisten
 
@@ -57,7 +57,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -65,7 +65,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 {{step-1-to-setup}}
 
-1. In het linkerpaneel, klik **Groepen** ![ Groepen ](assets/groups-icon.png).
+1. In het linkerpaneel, klik **Groepen** ![&#x200B; Groepen &#x200B;](assets/groups-icon.png).
 
 1. Klik op de naam van de groep.
 1. In het linkerpaneel, klik **onlangs Herstelde**.
@@ -79,8 +79,8 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
    Elk tabblad bevat items van het overeenkomende objecttype die tot de huidige groep of de subgroepen behoren en die in de afgelopen 30 dagen zijn hersteld.
 
-1. (Facultatief) om de volledige lijst van voorwerpen op het lusje uit te voeren, klik het **pictogram van de Uitvoer**. ![ het pictogram van de Uitvoer ](assets/export-icon.png).
+1. (Facultatief) om de volledige lijst van voorwerpen op het lusje uit te voeren, klik het **pictogram van de Uitvoer**. ![&#x200B; het pictogram van de Uitvoer &#x200B;](assets/export-icon.png).
 1. (Optioneel) Wijzig de weergave van informatie in de lijst met een filter, weergave of groep.
 
-   Voor meer informatie, zie [ het Melden van elementen overzicht ](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/reporting-elements-overview.md).
+   Voor meer informatie, zie [&#x200B; het Melden van elementen overzicht &#x200B;](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/reporting-elements-overview.md).
 

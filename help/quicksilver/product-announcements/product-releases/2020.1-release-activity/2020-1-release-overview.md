@@ -28,9 +28,9 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
 
 Deze verbeteringen zijn momenteel beschikbaar in de voorvertoningsomgeving en worden in de week van 30 maart 2020 beschikbaar gesteld in de productieomgeving.
 
-Om deze pagina in formaat van PDF te downloaden, ga [ hier ](https://documentation.my.workfront.com/library/a/9f5c9e44-c9a9-4f33-beec-9e5dc2e0fdc2).
+Om deze pagina in formaat van PDF te downloaden, ga [&#x200B; hier &#x200B;](https://documentation.my.workfront.com/library/a/9f5c9e44-c9a9-4f33-beec-9e5dc2e0fdc2).
 
-Een deel van de functionaliteit is vrijgegeven vóór de release van 2020.1. Om te zien wat vóór de versie 2020.1 werd vrijgegeven, zie [ Andere Klassieke eigenschappen van Workfront die aan Productie voorafgaand aan de versie 2020.1 ](../../../product-announcements/product-releases/2020.1-release-activity/prior-to-2020-1.md) worden vrijgegeven.
+Een deel van de functionaliteit is vrijgegeven vóór de release van 2020.1. Om te zien wat vóór de versie 2020.1 werd vrijgegeven, zie [&#x200B; Andere Klassieke eigenschappen van Workfront die aan Productie voorafgaand aan de versie 2020.1 &#x200B;](../../../product-announcements/product-releases/2020.1-release-activity/prior-to-2020-1.md) worden vrijgegeven.
 
 ## Verbeteringen voor beheerders
 
@@ -53,11 +53,11 @@ Een deel van de functionaliteit is vrijgegeven vóór de release van 2020.1. Om 
 
 ## Verbeteringen voor alle gebruikers
 
-* [ Verbeteringen van de Lijst ](#list-enhancements)
-* [ Verbeteringen van het Beheer van het Middel ](#resource-management-enhancements)
-* [ de verhogingen van het Project ](#project-enhancements)
-* [ het Proofing verhogingen ](#proofing-enhancements)
-* [ Mobiele verhogingen ](#mobile-enhancements)
+* [&#x200B; Verbeteringen van de Lijst &#x200B;](#list-enhancements)
+* [&#x200B; Verbeteringen van het Beheer van het Middel &#x200B;](#resource-management-enhancements)
+* [&#x200B; de verhogingen van het Project &#x200B;](#project-enhancements)
+* [&#x200B; het Proofing verhogingen &#x200B;](#proofing-enhancements)
+* [&#x200B; Mobiele verhogingen &#x200B;](#mobile-enhancements)
 * [Andere verbeteringen](#other-enhancements)
 
 ### Verbeteringen voor lijsten {#list-enhancements}
@@ -312,15 +312,15 @@ Een deel van de functionaliteit is vrijgegeven vóór de release van 2020.1. Om 
 
 ## API-verbeteringen
 
-API versie 11 uitgebracht met de release 2020.1. Voor informatie over wat nieuw en bijgewerkt is, zie [ wat in API versie 11 ](../../../wf-api/api/new-api-version-11.md) [ nieuw is wat in API versie 11 ](https://experience.workfront.com/s/article/What-s-new-in-API-version-11-1760875145) is.
+API versie 11 uitgebracht met de release 2020.1. Voor informatie over wat nieuw en bijgewerkt is, zie [&#x200B; wat in API versie 11 &#x200B;](../../../wf-api/api/new-api-version-11.md) [&#x200B; nieuw is wat in API versie 11 &#x200B;](https://experience.workfront.com/s/article/What-s-new-in-API-version-11-1760875145) is.
 
-Voor meer informatie over API versies, zie [ API versioning en steunprogramma ](../../../wf-api/api/api-version-support-schedule.md) [ API Versie en het Programma van de Steun ](https://experience.workfront.com/s/article/API-Version-Release-and-Support-Schedule-272875487?language=en_US&amp;r=13&amp;ui-comm-runtime-components-aura-components-siteforce-qb.Quarterback.validateRoute=1&amp;ui-communities-components-aura-components-forceCommunity-breadcrumbs.Breadcrumbs.getAncestors=1&amp;ui-communities-components-aura-components-forceCommunity-seoAssistant.SeoAssistant.getSeoData=1&amp;ui-force-components-controllers-recordGlobalValueProvider.RecordGvp.getRecord=1&amp;ui-self-service-components-controller.ArticleTopicList.getTopics=1&amp;ui-self-service-components-controller.ArticleView.getArticleHeaderDetail=1).
+Voor meer informatie over API versies, zie [&#x200B; API versioning en steunprogramma &#x200B;](../../../wf-api/api/api-version-support-schedule.md) [&#x200B; API Versie en het Programma van de Steun &#x200B;](https://experience.workfront.com/s/article/API-Version-Release-and-Support-Schedule-272875487?language=en_US&r=13&ui-comm-runtime-components-aura-components-siteforce-qb.Quarterback.validateRoute=1&ui-communities-components-aura-components-forceCommunity-breadcrumbs.Breadcrumbs.getAncestors=1&ui-communities-components-aura-components-forceCommunity-seoAssistant.SeoAssistant.getSeoData=1&ui-force-components-controllers-recordGlobalValueProvider.RecordGvp.getRecord=1&ui-self-service-components-controller.ArticleTopicList.getTopics=1&ui-self-service-components-controller.ArticleView.getArticleHeaderDetail=1).
 
 ## Functionaliteit wordt niet meer ondersteund
 
 ### Oudere werkagenda wordt niet meer ondersteund na de release van 2020.1
 
-De oudere werkkalender voor werktijden wordt niet meer ondersteund met de release 2020.1 en wordt verwijderd als onderdeel van de release 2020.2. Voor meer informatie over de erfeniskalender, zie [ Gebruikend het Verouderde Werken op Kalender voor Teams ](https://experience.workfront.com/s/article/Using-the-Legacy-Working-On-Calendar-for-Teams-1516477096?language=en_US&amp;r=13&amp;ui-comm-runtime-components-aura-components-siteforce-qb.Quarterback.validateRoute=1&amp;ui-communities-components-aura-components-forceCommunity-breadcrumbs.Breadcrumbs.getAncestors=1&amp;ui-communities-components-aura-components-forceCommunity-seoAssistant.SeoAssistant.getSeoData=1&amp;ui-force-components-controllers-recordGlobalValueProvider.RecordGvp.getRecord=1&amp;ui-self-service-components-controller.ArticleTopicList.getTopics=1&amp;ui-self-service-components-controller.ArticleView.getArticleHeaderDetail=1).
+De oudere werkkalender voor werktijden wordt niet meer ondersteund met de release 2020.1 en wordt verwijderd als onderdeel van de release 2020.2. Voor meer informatie over de erfeniskalender, zie [&#x200B; Gebruikend het Verouderde Werken op Kalender voor Teams &#x200B;](https://experience.workfront.com/s/article/Using-the-Legacy-Working-On-Calendar-for-Teams-1516477096?language=en_US&r=13&ui-comm-runtime-components-aura-components-siteforce-qb.Quarterback.validateRoute=1&ui-communities-components-aura-components-forceCommunity-breadcrumbs.Breadcrumbs.getAncestors=1&ui-communities-components-aura-components-forceCommunity-seoAssistant.SeoAssistant.getSeoData=1&ui-force-components-controllers-recordGlobalValueProvider.RecordGvp.getRecord=1&ui-self-service-components-controller.ArticleTopicList.getTopics=1&ui-self-service-components-controller.ArticleView.getArticleHeaderDetail=1).
 
 Na de versie 2020.2, zullen de teams die erfenis gebruiken die aan Kalender werken automatisch worden geschakeld naar het middel die hulpmiddelen plannen op het Plannende lusje in het gebied van Teams.
 
@@ -337,12 +337,12 @@ Voor informatie over de onderhoudsupdates die tijdens de versie 2020.1 worden ge
 
 ## Aankondigingen
 
-* [ Toevoegend extra domeinen aan de lijst van gewenste personen die voor de toegang tot van Workfront ](#adding-additional-domains-to-the-allowlist-required-for-accessing-workfront) wordt vereist
-* [ Workfront Één ](#workfront-one)
-* [ Webinar van de Versie 20.1 ](#2020-1-release-webinar)
-* [ Q1 Product Roadmap Webinar ](#q1-product-roadmap-webinar)
-* [ Diverse Enige Sign-On te verwijderen opties ](#various-single-sign-on-options-to-be-removed)
-* [ TLS 1.0 en 1.1 steun beëindigt ](#tls-1-0-and-1-1-support-is-ending)
+* [&#x200B; Toevoegend extra domeinen aan de lijst van gewenste personen die voor de toegang tot van Workfront &#x200B;](#adding-additional-domains-to-the-allowlist-required-for-accessing-workfront) wordt vereist
+* [&#x200B; Workfront Één &#x200B;](#workfront-one)
+* [&#x200B; Webinar van de Versie 20.1 &#x200B;](#2020-1-release-webinar)
+* [&#x200B; Q1 Product Roadmap Webinar &#x200B;](#q1-product-roadmap-webinar)
+* [&#x200B; Diverse Enige Sign-On te verwijderen opties &#x200B;](#various-single-sign-on-options-to-be-removed)
+* [&#x200B; TLS 1.0 en 1.1 steun beëindigt &#x200B;](#tls-1-0-and-1-1-support-is-ending)
 * [Verwijderen van Flash-toepassing](#flash-application-removal)
 
 ### Extra domeinen toevoegen aan de lijst van gewenste personen die vereist is voor toegang tot Workfront {#adding-additional-domains-to-the-allowlist-required-for-accessing-workfront}
@@ -352,13 +352,13 @@ Als uw organisatie een firewall gebruikt, moet u de volgende extra domeinen aan 
 * event.split.io
 * sdk.split.io
 
-Voor meer informatie, zie [ de lijst van gewenste personen van uw firewall ](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md) vormen.
+Voor meer informatie, zie [&#x200B; de lijst van gewenste personen van uw firewall &#x200B;](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md) vormen.
 
 ### Workfront One {#workfront-one}
 
 Met Workfront One ontdekt u de belangrijkste inhoud, bronnen en nieuws uit Workfront — allemaal op één plaats, met één aanmelding. We hebben de sites Experience, Community en Training verenigd, waardoor het gemakkelijker wordt om te vinden wat u zoekt.
 
-[ leer meer over Workfront Één ](https://business.adobe.com/products/workfront.html).
+[&#x200B; leer meer over Workfront Één &#x200B;](https://business.adobe.com/products/workfront.html).
 
 ### 2020.1 Release Webinar {#2020-1-release-webinar}
 
@@ -366,7 +366,7 @@ Bekijk hier de webinar-opname van de release 2020.1.
 
 ### Q1 Roadmap-webinar product {#q1-product-roadmap-webinar}
 
-Leer meer over wat tijdens [ Q1 Roadmap webinar ](https://webinars.on24.com/workfront/product_roadmap032620?partnerref=announcementcenter) moet komen. Dit webinar zal op 26 maart 2020 om 9.00 uur worden gehouden. MT. Klik op de koppeling voor registratie
+Leer meer over wat tijdens [&#x200B; Q1 Roadmap webinar &#x200B;](https://webinars.on24.com/workfront/product_roadmap032620?partnerref=announcementcenter) moet komen. Dit webinar zal op 26 maart 2020 om 9.00 uur worden gehouden. MT. Klik op de koppeling voor registratie
 
 <!--
 <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -382,7 +382,7 @@ De volgende Single Sign-On (SSO)-opties worden nu slechts in beperkte mate onder
 
 * LDAP
 
-  Voor meer informatie over het gebruiken van LDAP met Workfront, zie [ Adobe Workfront met LDAP ](../../../administration-and-setup/manage-workfront/security/removal-various-sso-options.md) vormen
+  Voor meer informatie over het gebruiken van LDAP met Workfront, zie [&#x200B; Adobe Workfront met LDAP &#x200B;](../../../administration-and-setup/manage-workfront/security/removal-various-sso-options.md) vormen
 
   <!--
   <MadCap:conditionalText data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">
@@ -394,7 +394,7 @@ De volgende Single Sign-On (SSO)-opties worden nu slechts in beperkte mate onder
 
 * Active Directory
 
-  Voor meer informatie over het gebruiken van Actieve Folder met Workfront, zie [ Adobe Workfront met Actieve Folder ](../../../administration-and-setup/manage-workfront/security/removal-various-sso-options.md) vormen
+  Voor meer informatie over het gebruiken van Actieve Folder met Workfront, zie [&#x200B; Adobe Workfront met Actieve Folder &#x200B;](../../../administration-and-setup/manage-workfront/security/removal-various-sso-options.md) vormen
 
   <!--
   <MadCap:conditionalText data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">
@@ -406,7 +406,7 @@ De volgende Single Sign-On (SSO)-opties worden nu slechts in beperkte mate onder
 
 * SAML 1.1
 
-  Voor meer informatie over het gebruiken van SAML 1.1 met Workfront, zie [ Adobe Workfront met SAML 1.1 vormen ](../../../administration-and-setup/manage-workfront/security/removal-various-sso-options.md)
+  Voor meer informatie over het gebruiken van SAML 1.1 met Workfront, zie [&#x200B; Adobe Workfront met SAML 1.1 vormen &#x200B;](../../../administration-and-setup/manage-workfront/security/removal-various-sso-options.md)
 
   <!--
   <MadCap:conditionalText data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">
@@ -433,13 +433,13 @@ Hier volgt de verwijderingstijdlijn voor deze SSO-opties:
 
 Om een optimale beveiliging te bieden, eist Workfront dat alle integratie en het webverkeer die TLS 1.1 of eerder gebruiken, worden geüpgraded naar TLS 1.2. In de voorvertoningsomgeving is TLS 1.0 al uitgeschakeld.
 
-Voor meer informatie, zie [ TLS 1.2 die in Adobe Workfront ](../../../product-announcements/announcements/announcement-archive/tls-1-disabled.md) wordt vereist.
+Voor meer informatie, zie [&#x200B; TLS 1.2 die in Adobe Workfront &#x200B;](../../../product-announcements/announcements/announcement-archive/tls-1-disabled.md) wordt vereist.
 
 ### Verwijderen van Flash-toepassing {#flash-application-removal}
 
 Alle functionaliteit die afhankelijk is van Flash-technologie is verwijderd uit Workfront sinds de release van 2018.3 en vervangen door een nieuwe oplossing.
 
-Voor gedetailleerde informatie over de erfenishulpmiddelen van de Flits en hun vervangingen, zie [ Vervanging van op flits-Gebaseerde hulpmiddelen in Adobe Workfront ](../../../product-announcements/announcements/announcement-archive/replace-flash-tools.md).
+Voor gedetailleerde informatie over de erfenishulpmiddelen van de Flits en hun vervangingen, zie [&#x200B; Vervanging van op flits-Gebaseerde hulpmiddelen in Adobe Workfront &#x200B;](../../../product-announcements/announcements/announcement-archive/replace-flash-tools.md).
 
 <!--
 <a href="https://experience.workfront.com/s/article/Replacement-of-Flash-Based-Tools-in-Workfront-194935493" target="_blank" data-mc-conditions="QuicksilverOrClassic.Draft mode">

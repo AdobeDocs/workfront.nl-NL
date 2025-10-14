@@ -17,4 +17,4 @@ ht-degree: 0%
 
 Neem contact op met uw Adobe Workfront-beheerder of groepsbeheerder wanneer u een project moet herstellen. Zij kunnen projecten, taken, kwesties, en andere punten herstellen die in de afgelopen 30 dagen zijn geschrapt. Na 30 dagen worden objecten permanent verwijderd en kunnen ze niet meer worden hersteld.
 
-Voor meer informatie over het herstellen van projecten, zie [ geschrapte punten ](../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md) herstellen.
+Voor meer informatie over het herstellen van projecten, zie [&#x200B; geschrapte punten &#x200B;](../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md) herstellen.

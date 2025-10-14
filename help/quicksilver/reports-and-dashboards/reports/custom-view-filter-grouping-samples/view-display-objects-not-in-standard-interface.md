@@ -19,7 +19,7 @@ ht-degree: 0%
 U kunt objecten weergeven die niet in de standaardmodusinterface zijn opgenomen. U kunt dit alleen doen door ernaar te verwijzen via de tekstmodus.\
 U kunt op de volgende manieren bepalen welke velden in een weergave kunnen worden opgenomen:
 
-* Gebruik [ API Ontdekkingsreiziger ](../../../wf-api/general/api-explorer.md) om andere voorwerpen te ontdekken die via tekstwijze kunnen worden van verwijzingen voorzien.\
+* Gebruik [&#x200B; API Ontdekkingsreiziger &#x200B;](../../../wf-api/general/api-explorer.md) om andere voorwerpen te ontdekken die via tekstwijze kunnen worden van verwijzingen voorzien.\
   Niet alle velden die in de API Explorer worden beschreven, zijn geldige velden voor de tekstmodus. Sommige velden worden alleen gemeld via de API.
 
 * Zoek het veld Id van het object in een kolom. De meeste objecten met een veld-id hebben ook een corresponderende kolom- of veldnaam die niet toegankelijk is via de standaardmodus.
@@ -64,7 +64,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-*For informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*For informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

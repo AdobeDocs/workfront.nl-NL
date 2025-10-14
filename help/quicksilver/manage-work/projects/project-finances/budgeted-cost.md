@@ -39,19 +39,19 @@ U kunt de begrote kosten van een project niet handmatig wijzigen. Adobe Workfron
   >
   >  De begrote Arbeidskosten van een project in het BedrijfsGeval toont als Voorgenomen Kosten van de Arbeid van het Plan van het Middel in rapporten en lijsten.
 
-  Voor informatie over de Begrotende Kosten van de Arbeid, zie het artikel [ Begonnen de Kosten van de Arbeid en Begrotingspunten voor projecten ](../../../manage-work/projects/project-finances/budgeted-labor-cost.md) begrijpen.
+  Voor informatie over de Begrotende Kosten van de Arbeid, zie het artikel [&#x200B; Begonnen de Kosten van de Arbeid en Begrotingspunten voor projecten &#x200B;](../../../manage-work/projects/project-finances/budgeted-labor-cost.md) begrijpen.
 
 * De **Begroeide Kosten van Uitgaven** in de berekening hierboven is de Geplande Kosten verbonden aan de kosten op het project, aangezien zij op het gebied van Uitgaven van het BedrijfsGeval of het lusje van Uitgaven van het project worden berekend.\
-  Voor meer informatie over Uitgaven op een project, zie het artikel [ projectuitgaven ](../../../manage-work/projects/project-finances/manage-project-expenses.md) beheren.
+  Voor meer informatie over Uitgaven op een project, zie het artikel [&#x200B; projectuitgaven &#x200B;](../../../manage-work/projects/project-finances/manage-project-expenses.md) beheren.
 
 * **Vaste Kosten** in de berekening hierboven is het vaste bedrag verbonden aan de Kosten van het project, zoals die in het gebied van Financiën van de sectie van Details van het project wordt bepaald.\
-  Voor meer informatie over sub-lusje van Financiën van een project, zie het artikel [ informatie in het gebied van de Projectfinanciering beheren ](../../../manage-work/projects/project-finances/manage-project-finance-area.md).
+  Voor meer informatie over sub-lusje van Financiën van een project, zie het artikel [&#x200B; informatie in het gebied van de Projectfinanciering beheren &#x200B;](../../../manage-work/projects/project-finances/manage-project-finance-area.md).
 
 >[!NOTE]
 >
 >Workfront berekent alle kosteninformatie met behulp van de valuta van het project. Als u de Beoogde Uren voor uw middelen in de Planner van het Middel specificeert, wordt de optie om projectvaluta te veranderen gehandicapt.
 >
->Voor meer informatie over het veranderen van de munt van een project, zie het artikel [ Verandering de projectmunt ](../../../manage-work/projects/project-finances/change-project-currency.md).
+>Voor meer informatie over het veranderen van de munt van een project, zie het artikel [&#x200B; Verandering de projectmunt &#x200B;](../../../manage-work/projects/project-finances/change-project-currency.md).
 
 ## De begrote kosten van een project zoeken
 

@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Deze pagina beschrijft alle projectverhogingen die met de Tweede Kwartaal 2025 versie aan het milieu van de Voorproef worden aangebracht. Deze verbeteringen zullen beschikbaar worden gesteld in de productieomgeving, zoals vermeld.
 
-Voor een lijst van alle veranderingen beschikbaar op dit punt in het Tweede Kwartaal 2025 versiecyclus, zie [ Tweede Kwartaal 2025 releaseoverzicht ](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar op dit punt in het Tweede Kwartaal 2025 versiecyclus, zie [&#x200B; Tweede Kwartaal 2025 releaseoverzicht &#x200B;](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-release-overview.md).
 
 ## Een opmerking toevoegen aan projecten wanneer u deze bewerkt in het vak Project bewerken
 
@@ -25,4 +25,4 @@ Voor een lijst van alle veranderingen beschikbaar op dit punt in het Tweede Kwar
 
 U kunt nu een opmerking aan een project toevoegen terwijl u deze bewerkt in het vak Project bewerken. U kunt ook een opmerking toevoegen aan meerdere projecten tegelijk wanneer u ze bulksgewijs bewerkt. Vóór deze update bestond deze functionaliteit niet tijdens het bewerken van projecten.
 
-Voor informatie, zie [ projecten ](/help/quicksilver/manage-work/projects/manage-projects/edit-projects.md) uitgeven.
+Voor informatie, zie [&#x200B; projecten &#x200B;](/help/quicksilver/manage-work/projects/manage-projects/edit-projects.md) uitgeven.

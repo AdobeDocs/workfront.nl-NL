@@ -23,7 +23,7 @@ Als groepsbeheerder, kunt u de orde van project, taak veranderen, en status voor
 The system version of this snippet mentions a single group because a sysadmin call also reorder statuses there. Group admin version of this article is still needed.
 -->
 
-![ Statussen ](assets/statuses.png)
+![&#x200B; Statussen &#x200B;](assets/statuses.png)
 
 Als er groepen zijn boven de groep die u beheert, kunnen hun beheerders dit ook voor uw groep doen. Hetzelfde geldt voor Workfront-beheerders (voor elke groep).
 
@@ -33,7 +33,7 @@ Als er groepen zijn boven de groep die u beheert, kunnen hun beheerders dit ook 
 >
 >  Nochtans, erven de statussen binnen een pas gecreëerde top-level groep de orde van de systeem-vlakke statussen. (Een nieuwe subgroep erft de volgorde van de statussen in de groep één niveau omhoog.)
 >
->* U kunt vergrendelde statussen opnieuw ordenen. Voor informatie over gesloten statussen, zie [ tot stand brengen of een groepsstatus ](../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md) uitgeven.
+>* U kunt vergrendelde statussen opnieuw ordenen. Voor informatie over gesloten statussen, zie [&#x200B; tot stand brengen of een groepsstatus &#x200B;](../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md) uitgeven.
 
 ## Toegangsvereisten
 
@@ -64,7 +64,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -143,7 +143,7 @@ Statussen worden standaard in de volgende volgorde weergegeven:
    >[!NOTE]
    >
    >* U kunt de volgorde van statussen voor de hoofdlijst niet aanpassen.
-   >* Wij adviseren dat u orde van statussen voor elke kwestie de zelfde manier typt. Voor meer informatie over kwesties types, zie [ aanvraagtypes ](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-request-types.md) vormen.
+   >* Wij adviseren dat u orde van statussen voor elke kwestie de zelfde manier typt. Voor meer informatie over kwesties types, zie [&#x200B; aanvraagtypes &#x200B;](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-request-types.md) vormen.
 
 1. Sleep de statussen naar de gewenste volgorde.
 

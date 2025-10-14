@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [ het Bewijzen ](../../../review-and-approve-work/proofing/proofing.md).
+>Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [&#x200B; het Bewijzen &#x200B;](../../../review-and-approve-work/proofing/proofing.md).
 
 [!DNL Workfront Proof] verzendt e-mailmeldingen naar uw revisoren via een [!DNL Workfront Proof] -e-mailadres, zoals notification@proofing.yourdomain.com. Om ervoor te zorgen dat de e-mailservers van uw ontvangers alle [!DNL Workfront Proof] e-mailberichten vertrouwen, moet u opstelling een [!UICONTROL Sender Policy Framework] (SPF) verslag voor uw aangepast domein dat met de [!DNL Workfront Proof] rekening wordt verbonden (bijvoorbeeld, **proofing.yourdomain.com**).
 
@@ -32,4 +32,4 @@ Om opstelling een SPF verslag, zult u het SPF verslag moeten omvatten dat voor o
 
    >[!TIP]
    >
-   >U kunt het vrije hulpmiddel bij [[!DNL https://mxtoolbox.com/spf.aspx] gebruiken ](https://mxtoolbox.com/spf.aspx) om [!DNL Workfront] verslagen van SPF te herzien.
+   >U kunt het vrije hulpmiddel bij [[!DNL https://mxtoolbox.com/spf.aspx] gebruiken &#x200B;](https://mxtoolbox.com/spf.aspx) om [!DNL Workfront] verslagen van SPF te herzien.

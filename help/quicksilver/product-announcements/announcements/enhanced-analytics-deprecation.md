@@ -29,7 +29,7 @@ Vanwege het afnemende gebruik en de beperkte functionaliteit is Enhanced Analyti
 
 **wat kan ik in plaats daarvan gebruiken?**
 
-* Workfront Data Connect kan verbeterde analytische visualisaties repliceren. Zie [ Replicate Verbeterde analytische visualisaties in de Gegevens van Workfront verbinden ](#replicate-enhanced-analytics-visualizations-in-workfront-data-connect) hieronder voor meer informatie.
+* Workfront Data Connect kan verbeterde analytische visualisaties repliceren. Zie [&#x200B; Replicate Verbeterde analytische visualisaties in de Gegevens van Workfront verbinden &#x200B;](#replicate-enhanced-analytics-visualizations-in-workfront-data-connect) hieronder voor meer informatie.
 
 ## Voorbereiden op de afleiding
 
@@ -37,7 +37,7 @@ Om verstoring voor u en uw organisatie te minimaliseren, hebben wij hieronder aa
 
 ### Beginnen met Workfront Data Connect
 
-Onze eerste aanbeveling is ervoor te zorgen dat uw organisatie toegang heeft tot Workfront Data Connect en dat u zo snel mogelijk vertrouwd bent met het gebruik ervan. Meer over Gegevens verbind mogelijkheden en hoe te beginnen het te gebruiken, zie [ de Gegevens van Workfront verbinden overzicht ](/help/quicksilver/reports-and-dashboards/data-lake/data-lake-overview.md).
+Onze eerste aanbeveling is ervoor te zorgen dat uw organisatie toegang heeft tot Workfront Data Connect en dat u zo snel mogelijk vertrouwd bent met het gebruik ervan. Meer over Gegevens verbind mogelijkheden en hoe te beginnen het te gebruiken, zie [&#x200B; de Gegevens van Workfront verbinden overzicht &#x200B;](/help/quicksilver/reports-and-dashboards/data-lake/data-lake-overview.md).
 
 Gegevens verbinden is inbegrepen in het nieuwe plan van Ultimate <!--, and can be purchased as an add-on to the new Select and Prime plans-->. Gegevensverbinding is niet beschikbaar voor organisaties met oudere Workfront-plannen. Neem contact op met uw Workfront-accountvertegenwoordiger om te weten welk abonnement uw organisatie op dit moment heeft en hoe u Data Connect kunt aanschaffen.
 
@@ -51,7 +51,7 @@ Gebruik de query&#39;s in de onderstaande artikelen om gegevensvisualisaties te 
 * [KPI-vragen](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/kpi-queries.md)
 * [Vragen over vliegplannen](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/flight-plan-queries.md)
 * [Vragen over projectactiviteiten](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/project-activity-queries.md)
-* [ de vragen van de de treemap van het Project ](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/project-tree-map-queries.md)
+* [&#x200B; de vragen van de de treemap van het Project &#x200B;](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/project-tree-map-queries.md)
 * [Activiteit door teamvragen](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/team-queries.md)
 
 ### Hulp vragen

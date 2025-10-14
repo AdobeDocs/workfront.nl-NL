@@ -62,7 +62,7 @@ Dit kan in elk van de volgende gevallen gebeuren:
  </tbody> 
 </table>
 
-*For informatie, zie [ vereisten van de Toegang tot de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*For informatie, zie [&#x200B; vereisten van de Toegang tot de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -80,30 +80,30 @@ Dit kan in elk van de volgende gevallen gebeuren:
 >
 >Voor alle berekeningen in de Planner van het Scenario, gebruikt Workfront de volgende waarde: 1 FTE = 8 Uren.
 >
->Voor informatie over het bijwerken van de beschikbare rollen voor een plan en een begroting zie [ plannen in  [!DNL Scenario Planner]](../scenario-planner/create-and-edit-plans.md) creëren en uitgeven.
+>Voor informatie over het bijwerken van de beschikbare rollen voor een plan en een begroting zie [&#x200B; plannen in  [!DNL Scenario Planner]](../scenario-planner/create-and-edit-plans.md) creëren en uitgeven.
 
 * U kunt een conflict oplossen door één van het volgende te doen:
 
    * De ontbrekende vereiste middelen automatisch toevoegen uit de initiatieven op het scenario. In dit artikel wordt beschreven hoe conflicten met deze optie kunnen worden opgelost.
-   * Het aanpassen van de functie en de begrotingsmiddelen voor het scenario, door het plan uit te geven. Voor meer informatie, zie [ plannen in  [!DNL Scenario Planner]](../scenario-planner/create-and-edit-plans.md) creëren en uitgeven.
+   * Het aanpassen van de functie en de begrotingsmiddelen voor het scenario, door het plan uit te geven. Voor meer informatie, zie [&#x200B; plannen in  [!DNL Scenario Planner]](../scenario-planner/create-and-edit-plans.md) creëren en uitgeven.
 
 ## Conflicten tussen initiatieven oplossen
 
 1. Ga naar een plan waarvoor u conflicten wilt oplossen.
 
-   Voor informatie over het creëren van plannen, zie [ plannen in  [!DNL Scenario Planner]](../scenario-planner/create-and-edit-plans.md) creëren en uitgeven.
+   Voor informatie over het creëren van plannen, zie [&#x200B; plannen in  [!DNL Scenario Planner]](../scenario-planner/create-and-edit-plans.md) creëren en uitgeven.
 
-   Voor informatie over het creëren van initiatieven, zie [ initiatieven in  [!DNL Scenario Planner]](../scenario-planner/create-and-edit-initiatives.md) creëren en uitgeven.
+   Voor informatie over het creëren van initiatieven, zie [&#x200B; initiatieven in  [!DNL Scenario Planner]](../scenario-planner/create-and-edit-initiatives.md) creëren en uitgeven.
 
 1. (Optioneel) Selecteer in de vervolgkeuzelijst **[!DNL Initial scenario]** het scenario dat u wilt bekijken.
 
    >[!TIP]
    >
-   >Een plan kan verscheidene scenario&#39;s hebben. Wanneer u de conflicten in het plan bekijkt, verwijst [!DNL Workfront] naar de bronnen die momenteel beschikbaar zijn voor het geselecteerde scenario en naar de bronnen die vereist zijn voor de initiatieven van dat scenario. Voor informatie over scenario&#39;s, zie [ planscenario&#39;s in  [!DNL Scenario Planner]](../scenario-planner/create-and-compare-scenarios-for-a-plan.md) creëren en vergelijken.
+   >Een plan kan verscheidene scenario&#39;s hebben. Wanneer u de conflicten in het plan bekijkt, verwijst [!DNL Workfront] naar de bronnen die momenteel beschikbaar zijn voor het geselecteerde scenario en naar de bronnen die vereist zijn voor de initiatieven van dat scenario. Voor informatie over scenario&#39;s, zie [&#x200B; planscenario&#39;s in  [!DNL Scenario Planner]](../scenario-planner/create-and-compare-scenarios-for-a-plan.md) creëren en vergelijken.
 
 1. Zorg ervoor dat **[!UICONTROL Show conflicts]** is ingeschakeld. Deze optie is standaard ingeschakeld.
 
-   ![ toon scenario&#39;s knevel ](assets/show-scenarios-toggle-on.png)
+   ![&#x200B; toon scenario&#39;s knevel &#x200B;](assets/show-scenarios-toggle-on.png)
 
    Het eerste conflicterende initiatief geeft de maanden weer met rode conflicten en er verschijnt een waarschuwingspictogram naast de naam van het initiatief.
 
@@ -111,13 +111,13 @@ Dit kan in elk van de volgende gevallen gebeuren:
 
    Wanneer een initiatief een conflict vertoont, betekent dit dat het aantal functies voor minstens één specifieke rol, de gemaakte kosten of beide het aantal functies of het budget dat voor het plan voor een bepaalde maand is vastgesteld, overschrijden.
 
-   ![ Initiatieven op plan met conflict ](assets/initiatives-on-plan-with-conflicts-350x126.png)
+   ![&#x200B; Initiatieven op plan met conflict &#x200B;](assets/initiatives-on-plan-with-conflicts-350x126.png)
 
 1. Voer een van de volgende handelingen uit om meer te weten te komen over de conflicten die er kunnen zijn:
 
    * Houd de muisaanwijzer boven het waarschuwingspictogram naast de naam van het initiatief om te begrijpen of u een functie- of begrotingsconflict hebt.
 
-     ![ conflict van de de baanrol van de Begroting ](assets/budget-job-role-conflict-tooltip-on-warning-icon-350x109.png)
+     ![&#x200B; conflict van de de baanrol van de Begroting &#x200B;](assets/budget-job-role-conflict-tooltip-on-warning-icon-350x109.png)
 
      Afhankelijk van of u taakrollen te veel hebt toegewezen of te hoge kosten voor uw initiatief, ziet u mogelijk een van de volgende opties wanneer u de muisaanwijzer op het waarschuwingspictogram plaatst:
 
@@ -127,7 +127,7 @@ Dit kan in elk van de volgende gevallen gebeuren:
 
    * Wanneer het bekijken van het plan door maand, houd over een maand in de chronologie van het plan om de vereiste middelen voor die maand te bekijken en of de conflicten voor de maand mensen of op kosten-betrekking hebben zijn.
 
-     ![ Details van conflicten op maandelijkse chronologie ](assets/details-of-conflicts-on-monthly-plan-timeline-pop-up-350x178.png)
+     ![&#x200B; Details van conflicten op maandelijkse chronologie &#x200B;](assets/details-of-conflicts-on-monthly-plan-timeline-pop-up-350x178.png)
 
      Controleer de volgende maandelijkse informatie op het niveau van de regeling:
 
@@ -140,7 +140,7 @@ Dit kan in elk van de volgende gevallen gebeuren:
 
    * Houd de muisaanwijzer gedurende een maand boven de rode balk van een initiatief om het extra informatievak weer te geven over het conflict dat die maand plaatsvindt.
 
-     ![ Details van conflicten op initiatiefchronologie ](assets/details-of-conflicts-on-initiative-timeline-pop-up-350x113.png)
+     ![&#x200B; Details van conflicten op initiatiefchronologie &#x200B;](assets/details-of-conflicts-on-initiative-timeline-pop-up-350x113.png)
 
      Controleer de volgende velden in het vak Aanvullende informatie op het niveau van het initiatief:
 
@@ -181,7 +181,7 @@ Dit kan in elk van de volgende gevallen gebeuren:
 
    * Klik op het waarschuwingspictogram naast de naam van het initiatief.
    * Klik op de balk van een initiatief.
-   * Klik het **[!UICONTROL More]** pictogram ![ Meer pictogram ](assets/more-icon.png) aan het recht van de naam van het initiatief, dan klik **[!UICONTROL Edit]**.
+   * Klik het **[!UICONTROL More]** pictogram ![&#x200B; Meer pictogram &#x200B;](assets/more-icon.png) aan het recht van de naam van het initiatief, dan klik **[!UICONTROL Edit]**.
 
      Rechts wordt het deelvenster met initiatiefdetails weergegeven.
 
@@ -192,11 +192,11 @@ Dit kan in elk van de volgende gevallen gebeuren:
 
 1. (Voorwaardelijk) Ga voor initiatieven met een functieconflict naar de sectie **[!UICONTROL Required Job Roles]** om alle taakrollen weer te geven die voor uw initiatief zijn vereist. Identificeer welke baanrollen zouden kunnen worden oververdeeld. Herzie het aantal VTE of uren nodig voor elke baanrol voor elke maand van het initiatief. Het vak met de FTE of het aantal uren voor maanden met overtoewijzingen wordt in een rode omtrek weergegeven.
 
-   ![ OverToegewezen rollen ](assets/details-panel-overallocated-roles-350x275.png)
+   ![&#x200B; OverToegewezen rollen &#x200B;](assets/details-panel-overallocated-roles-350x275.png)
 
 1. (Optioneel) Klik op de pijl naar rechts naast de maanden in de tijdlijn van het initiatief om te zien welke extra maanden een taakrolconflict veroorzaken.
 
-   ![ Juiste schuif binnen detailsdoos ](assets/right-arrow-initiative-months-inside-details-box-highlighted-350x145.png)
+   ![&#x200B; Juiste schuif binnen detailsdoos &#x200B;](assets/right-arrow-initiative-months-inside-details-box-highlighted-350x145.png)
 
 1. (Optioneel) Klik op **[!UICONTROL Show details]** onder de taakrol die een conflict weergeeft om te zien waar de conflicten verschijnen en om de conflicterende maanden in het grafiekgebied van het abonnement te markeren. Voor elke taakrol wordt aanvullende informatie weergegeven.
 
@@ -225,12 +225,12 @@ Dit kan in elk van de volgende gevallen gebeuren:
    >
    >Op de kaart van het plan geven de maanden waarin de functies worden toegewezen de naam en het aantal rollen weer die nodig zijn voor elk initiatief waar ze nodig zijn. U moet de weergave [!UICONTROL Month] selecteren om de naam van de taakrollen weer te geven
 
-   ![ Conflicterend baanrollen ](assets/conflicting-job-role-months-on-plan-after-clicking-show-details-350x158.png)
+   ![&#x200B; Conflicterend baanrollen &#x200B;](assets/conflicting-job-role-months-on-plan-after-clicking-show-details-350x158.png)
 
 1. Voer een van de volgende handelingen uit om conflicten met taakrollen op te lossen:
 
    * Pas handmatig het aantal functies voor elke maand van het initiatief aan in een lager aantal.
-   * Beweeg over de naam van de baanrol en klik het **[!UICONTROL delete]pictogram** ![ pictogram van de Schrapping ](assets/delete.png) om de baanrol uit het initiatief te verwijderen.
+   * Beweeg over de naam van de baanrol en klik het **[!UICONTROL delete]pictogram** ![&#x200B; pictogram van de Schrapping &#x200B;](assets/delete.png) om de baanrol uit het initiatief te verwijderen.
    * Selecteer **[!UICONTROL Add roles to the scenario's available resources]** en klik op **[!UICONTROL Apply]** .
 
      Hiermee voegt u het ontbrekende aantal taakrol-FTE&#39;s of -uren toe aan het veld [!UICONTROL Available] van het scenario.
@@ -239,16 +239,16 @@ Dit kan in elk van de volgende gevallen gebeuren:
      >
      >De rollen u toevoegt om de conflicten op te lossen wijzigen de [!UICONTROL Available] baanrollen voor het geselecteerde scenario en niet voor alle scenario&#39;s in het plan.
 
-     Een naar boven gericht groene pijl ![ naar boven wijzende groene pijl ](assets/upward-green-arrow.png) vertoningen voor de maand in de chronologie van het plan om erop te wijzen dat meer middelen aan het plan die maand werden toegevoegd. U moet de weergave [!UICONTROL Month] selecteren om deze indicator te zien.
+     Een naar boven gericht groene pijl ![&#x200B; naar boven wijzende groene pijl &#x200B;](assets/upward-green-arrow.png) vertoningen voor de maand in de chronologie van het plan om erop te wijzen dat meer middelen aan het plan die maand werden toegevoegd. U moet de weergave [!UICONTROL Month] selecteren om deze indicator te zien.
 
-   * (Voorwaardelijk) Sluit het detailpanel en geef het initiatief een hogere prioriteit om begrotingsmiddelen uit het plan te ontvangen, indien mogelijk. Voor informatie over het bijwerken van initiatiefprioriteit, zie [ de initiatiefprioriteiten van de Update in de Planner van het Scenario ](../scenario-planner/prioritize-initiatives.md).
+   * (Voorwaardelijk) Sluit het detailpanel en geef het initiatief een hogere prioriteit om begrotingsmiddelen uit het plan te ontvangen, indien mogelijk. Voor informatie over het bijwerken van initiatiefprioriteit, zie [&#x200B; de initiatiefprioriteiten van de Update in de Planner van het Scenario &#x200B;](../scenario-planner/prioritize-initiatives.md).
 
 1. (Optioneel) Klik op **[!UICONTROL Hide details]** om het vak Extra details te sluiten en klik vervolgens op **[!UICONTROL Apply]** om de wijzigingen in de taakrollen op te slaan.
 
 1. (Voorwaardelijk) Voor initiatieven met kostenconflicten gaat u naar de sectie **[!UICONTROL Costs]** in het deelvenster met initiatiefdetails om de kosten voor elke maand van de duur van het initiatief te controleren. Geef aan welke maanden mogelijk niet genoeg geld in de begroting van het plan hebben om de kosten voor het geselecteerde initiatief te dekken. De doos met de ontoereikende beschikbare begroting toont in een rood overzicht.
 1. (Optioneel) Klik op de naar rechts wijzende pijl naast de maanden in de tijdlijn van het initiatief om extra maanden weer te geven die onvoldoende budget hebben om de kosten te dekken.
 
-   ![ Pijl voor ontoereikende kosten ](assets/details-panel-insufficient-costs-350x239.png)
+   ![&#x200B; Pijl voor ontoereikende kosten &#x200B;](assets/details-panel-insufficient-costs-350x239.png)
 
 1. (Optioneel) Klik op **[!UICONTROL Show details]** onder de kosteninformatie om te zien waar het conflict voorkomt en om de conflicterende maanden op het overzicht van het abonnement te benadrukken. De volgende extra gebieden tonen voor elk type van kosten:
 
@@ -275,11 +275,11 @@ Dit kan in elk van de volgende gevallen gebeuren:
    >
    >Op de kaart van het plan geven de maanden waarin de kosten ontoereikend zijn de naam en het aantal rollen weer die nog nodig zijn voor het initiatief. U moet de Maandweergave selecteren om de kostenbedragen weer te geven.
 
-   ![ Conflicterende kosten ](assets/conflicting-costs-months-on-plan-after-clicking-show-details-350x139.png)
+   ![&#x200B; Conflicterende kosten &#x200B;](assets/conflicting-costs-months-on-plan-after-clicking-show-details-350x139.png)
 
    >[!NOTE]
    >
-   >Als u de instelling [!UICONTROL Include people cost] voor het vak [!UICONTROL Budget] van het abonnement hebt uitgeschakeld toen u het abonnement maakte, wordt de regel [!UICONTROL People Costs] in geen enkel scenario weergegeven voor initiatieven. In dit geval neemt Workfront geen berekeningen van Personeelskosten om kostenconflicten te bepalen. Voor informatie over het creëren van een plan, zie [ plannen in  [!DNL Scenario Planner]](../scenario-planner/create-and-edit-plans.md) creëren en uitgeven.
+   >Als u de instelling [!UICONTROL Include people cost] voor het vak [!UICONTROL Budget] van het abonnement hebt uitgeschakeld toen u het abonnement maakte, wordt de regel [!UICONTROL People Costs] in geen enkel scenario weergegeven voor initiatieven. In dit geval neemt Workfront geen berekeningen van Personeelskosten om kostenconflicten te bepalen. Voor informatie over het creëren van een plan, zie [&#x200B; plannen in  [!DNL Scenario Planner]](../scenario-planner/create-and-edit-plans.md) creëren en uitgeven.
 
 1. Voer een van de volgende handelingen uit om kostenconflicten op te lossen:
 
@@ -298,7 +298,7 @@ Dit kan in elk van de volgende gevallen gebeuren:
      >
      >Het bedrag u toevoegt om de kostenconflicten op te lossen wijzigt de Begroting voor het geselecteerde scenario en niet voor alle scenario&#39;s in het plan.
 
-   * (Voorwaardelijk) Sluit het detailpanel en geef het initiatief een hogere prioriteit om begrotingsmiddelen uit het plan te ontvangen, indien mogelijk. Voor informatie over het bijwerken van initiatiefprioriteit, zie [ de initiatiefprioriteiten van de Update in  [!DNL Scenario Planner]](../scenario-planner/prioritize-initiatives.md).
+   * (Voorwaardelijk) Sluit het detailpanel en geef het initiatief een hogere prioriteit om begrotingsmiddelen uit het plan te ontvangen, indien mogelijk. Voor informatie over het bijwerken van initiatiefprioriteit, zie [&#x200B; de initiatiefprioriteiten van de Update in  [!DNL Scenario Planner]](../scenario-planner/prioritize-initiatives.md).
 
 1. Klik op **[!UICONTROL Apply]** wanneer u wijzigingen aanbrengt in de sectie Kosten.
 1. Klik op **[!UICONTROL Save plan]** om de wijzigingen op te slaan.

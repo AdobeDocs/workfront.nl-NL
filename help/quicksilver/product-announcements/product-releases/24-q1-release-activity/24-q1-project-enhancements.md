@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Deze pagina beschrijft alle projectverhogingen die met Eerste Kwartaal 2024 versie aan het milieu van de Voorproef worden aangebracht. Deze verbeteringen worden beschikbaar gesteld in de productieomgeving met de release Eerste kwartaal 2024.
 
-Voor een lijst van alle veranderingen beschikbaar op dit punt in het Eerste Kwartaal 2024 versiecyclus, zie [ Eerste Kwartaal 2024 releaseoverzicht ](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar op dit punt in het Eerste Kwartaal 2024 versiecyclus, zie [&#x200B; Eerste Kwartaal 2024 releaseoverzicht &#x200B;](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).
 
 ## Meer relevante slimme toewijzingen
 
@@ -42,4 +42,4 @@ Overweeg ook het volgende:
 
 * Er zijn geen wijzigingen in de manier waarop slimme toewijzingen voor emissies worden berekend. De naam van de lijst met slimme toewijzingen in een lijst met uitgaven is &quot;Hier volgen enkele aanbevelingen&quot;.
 
-Voor meer informatie, zie [ Slim toewijzingsoverzicht ](/help/quicksilver/manage-work/tasks/assign-tasks/smart-assignments.md).
+Voor meer informatie, zie [&#x200B; Slim toewijzingsoverzicht &#x200B;](/help/quicksilver/manage-work/tasks/assign-tasks/smart-assignments.md).

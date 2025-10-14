@@ -19,7 +19,7 @@ ht-degree: 0%
 
 Op deze pagina worden alle mobiele verbeteringen beschreven die zijn aangebracht met de release 2020.2 voor de productieomgeving. Deze verbeteringen zijn in de productieomgeving beschikbaar gesteld in de week van 11 mei 2020.
 
-Voor een lijst van alle veranderingen beschikbaar met de versie 2020.2, zie [ overzicht van de versie 2020.2 ](../../../product-announcements/product-releases/2020.2.-release-activity/2020-2-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar met de versie 2020.2, zie [&#x200B; overzicht van de versie 2020.2 &#x200B;](../../../product-announcements/product-releases/2020.2.-release-activity/2020-2-release-overview.md).
 
 ## Help ons de nieuwe mobiele virtuele assistent in bèta te testen
 
@@ -33,5 +33,5 @@ Hier volgen enkele voorbeelden van voice-opdrachten die u kunt gebruiken om te c
 
 Zie voor informatie over deelname aan de bètaversie
 
-* [ ben een bètameetapparaat van iOS ](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/ios-beta-tester.md)
+* [&#x200B; ben een bètameetapparaat van iOS &#x200B;](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/ios-beta-tester.md)
 * [Word een Android beta tester](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/android-beta-tester.md)

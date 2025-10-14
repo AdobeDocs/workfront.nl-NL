@@ -19,17 +19,17 @@ De volgende belangrijke verbeteringen zijn aangebracht voor het beheer van aange
 
 U kunt de afbeelding insluiten in uw aangepaste formulieren. Op deze manier kunt u interactiever en visueel communiceren met aangepaste formuliergebruikers. Binnenkort zijn er nog meer widgettypen beschikbaar.
 
-![ Beeld in douanevorm ](assets/image-in-custom-form.png)
+![&#x200B; Beeld in douanevorm &#x200B;](assets/image-in-custom-form.png)
 
 Wanneer een aangepast formulier met een widget aan een object is gekoppeld, kunnen gebruikers die met het object werken dit in de volgende gebieden zien:
 
 * Het gebied Details van het object (bijvoorbeeld voor een project, het gebied Projectdetails) &#x200B;
 
-  ![ de details van het Beeld ](assets/see-image-details-page.png)
+  ![&#x200B; de details van het Beeld &#x200B;](assets/see-image-details-page.png)
 
 * Het vak Bewerken voor het object als dit de nieuwe Adobe Workfront-ervaring bevat (bijvoorbeeld de vakken Project bewerken en Taak bewerken) &#x200B;
 
-  ![ Beeld geeft uit ](assets/image-see-in-edit.png)
+  ![&#x200B; Beeld geeft uit &#x200B;](assets/image-see-in-edit.png)
 
 Gebruikers kunnen de widget momenteel niet zien in de volgende gebieden: &#x200B;
 
@@ -42,11 +42,11 @@ Gebruikers kunnen de widget momenteel niet zien in de volgende gebieden: &#x200B
 
 U kunt meerdere objecttypen koppelen aan elk nieuw aangepast formulier:
 
-![ de types van vormobjecten van de Douane ](assets/new-custom-form-object-types.png)
+![&#x200B; de types van vormobjecten van de Douane &#x200B;](assets/new-custom-form-object-types.png)
 
 Of een bestaand aangepast formulier:
 
-![ voeg objecten type aan vorm ](assets/add-object-type-existing-form.png) toe
+![&#x200B; voeg objecten type aan vorm &#x200B;](assets/add-object-type-existing-form.png) toe
 
 Op deze manier kunt u één aangepast formulier maken dat u kunt gebruiken voor projecten, taken, uitgaven en andere typen objecten die worden ondersteund voor aangepaste formulieren.
 
@@ -76,11 +76,11 @@ Houd rekening met het volgende wanneer u een aangepast formulier met meerdere ob
 
 De set opties voor machtigingen voor sectie-einden die beschikbaar zijn voor de typen Uitgave-, Taak-, Project- en Gebruikersobjecten heeft één andere machtigingsoptie dan de set met machtigingsopties voor alle andere objecttypen: Beperkte bewerking.
 
-![ de onderbreking van de Sectie met beperkte geeft uit ](assets/section-break-permissions-limited-edit.png)
+![&#x200B; de onderbreking van de Sectie met beperkte geeft uit &#x200B;](assets/section-break-permissions-limited-edit.png)
 
 De reeks toestemmingen van de sectieonderbreking beschikbaar voor alle andere objecten types (Portfolio, Document, Programma, Uitgaven, Bedrijf, Herhaling, het Verslag van de Facturering, en Groep) omvat geen Beperkte Edit:
 
-![ de onderbreking van de Sectie zonder beperkte geeft uit ](assets/section-break-permissions-no-limited-edit.png)
+![&#x200B; de onderbreking van de Sectie zonder beperkte geeft uit &#x200B;](assets/section-break-permissions-no-limited-edit.png)
 
 In een aangepast formulier dat is gekoppeld aan objecttypen uit beide groepen, gebruikt het systeem een algemene set machtigingen voor secties-einden die werken voor alle objecttypen. Met name in plaats van de optie Beperkte bewerkingsmachtigingen te gebruiken, vervangt deze algemene set de optie Bewerken met machtiging door de optie Beperkte bewerkingsmachtigingen. De optie Bewerken is compatibel met alle objecttypen.
 
@@ -120,7 +120,7 @@ Wanneer dit voorkomt, kunt u één van het volgende doen:
 >  Als u een objecttype toevoegt vóór een veldnaam, verwijst het naar het bovenliggende object van het object. U kunt `{project}.{name}` dus niet gebruiken met een project, maar u kunt het wel gebruiken met een taak.
 
 
-Voor meer informatie over variabelen zoals `$$OBJCODE`, zie [ overzicht van de de filtervariabelen van de Verjaring ](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
+Voor meer informatie over variabelen zoals `$$OBJCODE`, zie [&#x200B; overzicht van de de filtervariabelen van de Verjaring &#x200B;](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
 
 ### Let op het verwijderen van een objecttype uit een aangepast formulier
 
@@ -128,4 +128,4 @@ U kunt op elk gewenst moment een objecttype op een aangepast formulier verwijder
 
 Er is ook geen meldingssysteem om mensen die het aangepaste formulier gebruiken te waarschuwen dat het is verwijderd.
 
-Voor meer informatie, zie [ een douanegebied of widget van het systeem ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/delete-a-custom-field.md) schrappen.
+Voor meer informatie, zie [&#x200B; een douanegebied of widget van het systeem &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/delete-a-custom-field.md) schrappen.

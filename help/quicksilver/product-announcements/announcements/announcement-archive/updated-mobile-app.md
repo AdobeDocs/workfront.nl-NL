@@ -55,4 +55,4 @@ Vanaf de nieuwe versie van de mobiele app kunt u proefdrukken van documenten goe
 
 Vóór deze update kon u project-, taak-, uitgave- en documentgoedkeuringen uitvoeren met de mobiele app. Voor het goedkeuren van proefdrukken van documenten in de mobiele app hebt u een licentie voor het proefdrukken van HQ nodig. 
 
-Voor meer informatie over het proef binnen Workfront, zie [ het Bewijzen ](../../../review-and-approve-work/proofing/proofing.md) sectie. 
+Voor meer informatie over het proef binnen Workfront, zie [&#x200B; het Bewijzen &#x200B;](../../../review-and-approve-work/proofing/proofing.md) sectie. 

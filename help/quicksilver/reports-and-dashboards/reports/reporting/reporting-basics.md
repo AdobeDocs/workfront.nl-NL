@@ -21,6 +21,6 @@ ht-degree: 0%
 
 Deze sectie bevat de volgende artikelen:
 
-* [ worden begonnen met rapporten ](../../../reports-and-dashboards/reports/reporting/get-started-reports-workfront.md)
-* [ sparen standaardrapporten als nieuwe rapporten ](../../../reports-and-dashboards/reports/reporting/save-default-reports-new-reports.md)
+* [&#x200B; worden begonnen met rapporten &#x200B;](../../../reports-and-dashboards/reports/reporting/get-started-reports-workfront.md)
+* [&#x200B; sparen standaardrapporten als nieuwe rapporten &#x200B;](../../../reports-and-dashboards/reports/reporting/save-default-reports-new-reports.md)
   <!--outdated: * [Basic Report Creation Program for the new Workfront experience](https://one.workfront.com/s/basic-report-creation-program)-->

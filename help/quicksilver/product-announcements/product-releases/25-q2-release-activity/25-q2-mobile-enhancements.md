@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Deze pagina beschrijft alle mobiele verbeteringen die zijn aangebracht in het releasetime-frame voor het tweede kwartaal van 2025.
 
-Voor een lijst van alle veranderingen beschikbaar op dit punt in het Tweede Kwartaal 2025 versiecyclus, zie [ Tweede Kwartaal 2025 releaseoverzicht ](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar op dit punt in het Tweede Kwartaal 2025 versiecyclus, zie [&#x200B; Tweede Kwartaal 2025 releaseoverzicht &#x200B;](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-release-overview.md).
 
 
 ## Verbeteringen voor proefdrukken in de mobiele app (alleen iOS)
@@ -30,4 +30,4 @@ Er zijn verschillende verbeteringen beschikbaar voor de proefdrukfunctionaliteit
 * Multimediaproefbestanden worden nu ondersteund in de mobiele app.
 
 
-Voor informatie, zie [ Overzicht en maak besluiten over proeven in Adobe Workfront mobiele app ](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/work-with-proofs-in-mobile-app.md).
+Voor informatie, zie [&#x200B; Overzicht en maak besluiten over proeven in Adobe Workfront mobiele app &#x200B;](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/work-with-proofs-in-mobile-app.md).

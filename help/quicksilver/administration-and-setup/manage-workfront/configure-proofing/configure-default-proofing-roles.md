@@ -59,12 +59,12 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 1. Klik **Overzicht en Goedkeuring** dichtbij de bodem van de lijst die op de linkerzijde verschijnt.
 1. In de **Rollen voor aangewezen ontvangers van een sectie van de documentproef**, selecteer de standaardrol voor gebruikers en gastgebruikers die aan het werkschema van een bewijs worden toegevoegd.
 
-   Zie [ Rechten verbonden aan het proef rollen ](#rights-associated-with-proofing-roles) hieronder voor een lijst van elke het proef rol en de rechten verbonden aan het.
+   Zie [&#x200B; Rechten verbonden aan het proef rollen &#x200B;](#rights-associated-with-proofing-roles) hieronder voor een lijst van elke het proef rol en de rechten verbonden aan het.
 
    >[!NOTE]
    >
    >* Deze instelling is alleen van toepassing op gebruikers die in het Workfront-systeem zijn gemaakt nadat de rol is ingesteld, en niet op bestaande gebruikers.
-   >* De persoon die gebruikers aan de proef toevoegt kan deze rol aanpassen, zoals die in [ wordt beschreven voegt gebruikers aan een proef ](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md#add) in [ een proef binnen Adobe Workfront ](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md) toe.
+   >* De persoon die gebruikers aan de proef toevoegt kan deze rol aanpassen, zoals die in [&#x200B; wordt beschreven voegt gebruikers aan een proef &#x200B;](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md#add) in [&#x200B; een proef binnen Adobe Workfront &#x200B;](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md) toe.
 
 1. In de **Rollen voor niet-ontvangers die een sectie van de documentproef** openen, selecteer de standaardrol voor gebruikers en gastgebruikers die tot een proef kunnen toegang hebben, maar niet aan het werkschema van de proef worden toegevoegd.
 

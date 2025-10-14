@@ -19,7 +19,7 @@ Vang me omhoog-aangedreven door Workfront AI Medewerker-samenvat updates, geüpl
 
 >[!NOTE]
 >
->Deze eigenschap is slechts beschikbaar voor klanten op de Verenigde Ervaring van Adobe gebruikend de Medewerker AI. Voor meer informatie over de Medewerker AI, zie [ AI Hulpoverzicht ](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md).
+>Deze eigenschap is slechts beschikbaar voor klanten op de Verenigde Ervaring van Adobe gebruikend de Medewerker AI. Voor meer informatie over de Medewerker AI, zie [&#x200B; AI Hulpoverzicht &#x200B;](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md).
 
 ## Toegangsvereisten
 
@@ -44,7 +44,7 @@ Vang me omhoog-aangedreven door Workfront AI Medewerker-samenvat updates, geüpl
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -54,7 +54,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 {{step1-to-priorities}}
 
 1. Bij de bovenkant van de pagina, klik **Vangst me omhoog**.
-   ![ vangst me op knoop ](assets/catch-me-up-button.png)
+   ![&#x200B; vangst me op knoop &#x200B;](assets/catch-me-up-button.png)
 1. Selecteer de gewenste tijdlijn:
    * **vat laatste 24 uren samen**
    * **vat laatste 3 Dagen samen**

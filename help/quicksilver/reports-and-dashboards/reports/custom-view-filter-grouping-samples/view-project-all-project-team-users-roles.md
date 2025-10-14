@@ -24,7 +24,7 @@ Deze projectmening toont een lijst van gebruikers en baanrollen die aan het proj
 >
 >Als de baanrol op de zelfde rij zoals een gebruiker vermeld is, impliceert dit niet dat de gebruiker die rol op het project vult, noch dat de gebruiker die rol in hun profiel wordt toegewezen.
 
-![ project_custom_view_with_all_users_and_rollen_on_the_project_.png ](assets/project-custom-view-350x52.png)
+![&#x200B; project_custom_view_with_all_users_and_rollen_on_the_project_.png &#x200B;](assets/project-custom-view-350x52.png)
 
 ## Toegangsvereisten
 
@@ -67,7 +67,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

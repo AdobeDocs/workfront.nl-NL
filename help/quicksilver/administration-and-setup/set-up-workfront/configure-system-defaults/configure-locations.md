@@ -19,7 +19,7 @@ ht-degree: 0%
 
 {{highlighted-preview-article-level}}
 
-De kaarten van het tarief staan uw organisatie toe om het facturerings tarieven voor projecten gemakkelijk te beheren. Voor meer informatie, zie [ tariefkaarten ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md) beheren. Als [!DNL Adobe] [!DNL Workfront] beheerder, kunt u de standaardplaatsen vormen beschikbaar om aan baanrollen in tariefkaarten toe te wijzen. Dit zorgt ervoor dat de rentekaarten de markttarieven in elke plaats nauwkeurig weerspiegelen.
+De kaarten van het tarief staan uw organisatie toe om het facturerings tarieven voor projecten gemakkelijk te beheren. Voor meer informatie, zie [&#x200B; tariefkaarten &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md) beheren. Als [!DNL Adobe] [!DNL Workfront] beheerder, kunt u de standaardplaatsen vormen beschikbaar om aan baanrollen in tariefkaarten toe te wijzen. Dit zorgt ervoor dat de rentekaarten de markttarieven in elke plaats nauwkeurig weerspiegelen.
 
 ## Toegangsvereisten
 
@@ -49,7 +49,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -64,7 +64,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
    De naam van de locatie moet beginnen met een hoofdletter en locaties kunnen niet worden gedupliceerd.
 
 1. Klik buiten het invoergebied om de locatie op te slaan.
-1. Om een plaats te schrappen, het in de lijst te selecteren en **te klikken schrap** pictogram ![ pictogram van de Schrapping ](assets/delete.png).
+1. Om een plaats te schrappen, het in de lijst te selecteren en **te klikken schrap** pictogram ![&#x200B; pictogram van de Schrapping &#x200B;](assets/delete.png).
 
 >[!NOTE]
 >

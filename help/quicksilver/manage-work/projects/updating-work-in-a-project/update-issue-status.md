@@ -51,7 +51,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-*Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Voor meer informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -72,7 +72,7 @@ Uw Adobe Workfront-beheerder kan aangepaste statussen toevoegen voor problemen v
 
 Raadpleeg de volgende artikelen voor meer informatie over aangepaste statussen en uitgavetypen:
 
-* [ creeer of geef een status ](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md) uit
+* [&#x200B; creeer of geef een status &#x200B;](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md) uit
 * [Problemen maken](../../../manage-work/issues/manage-issues/create-issues.md)
 
 U kunt de status van uitgaven handmatig bijwerken of u kunt Workfront toestaan deze automatisch bij te werken wanneer bepaalde handelingen plaatsvinden.
@@ -105,8 +105,8 @@ U kunt als volgt de status van de uitgave in de uitgaveheader handmatig bijwerke
 
      ![](assets/nwe-issue-update-stream-message-box-350x125.png)
 
-   * Om bepaalde gebruikers over de update op de hoogte te brengen, typ hun namen op het **mensen van de Markering of team** gebied dat verschijnt wanneer u een commentaar typt. Voor meer informatie, zie [ Tags anderen op updates ](../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
-   * Om de Vastlegdatum van de kwestie bij te werken, klik **Details van de Uitgave**, dan geef **het gebied van de Datum** toe. Voor informatie, zie [ kwesties ](/help/quicksilver/manage-work/issues/manage-issues/edit-issues.md) uitgeven.
+   * Om bepaalde gebruikers over de update op de hoogte te brengen, typ hun namen op het **mensen van de Markering of team** gebied dat verschijnt wanneer u een commentaar typt. Voor meer informatie, zie [&#x200B; Tags anderen op updates &#x200B;](../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
+   * Om de Vastlegdatum van de kwestie bij te werken, klik **Details van de Uitgave**, dan geef **het gebied van de Datum** toe. Voor informatie, zie [&#x200B; kwesties &#x200B;](/help/quicksilver/manage-work/issues/manage-issues/edit-issues.md) uitgeven.
 
 
    >[!IMPORTANT]
@@ -140,7 +140,7 @@ Workfront werkt de bestaande status van een uitgave automatisch bij naar een and
 
 >[!NOTE]
 >
->De statussen in de volgende tabel zijn standaardsysteemstatussen. Uw Workfront-beheerder of een groepsbeheerder kan de naam van de statussen in uw exemplaar van Workfront wijzigen. Voor informatie over het creëren van en het leiden van statussen in Workfront, zie [ een status ](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md) creëren of uitgeven.
+>De statussen in de volgende tabel zijn standaardsysteemstatussen. Uw Workfront-beheerder of een groepsbeheerder kan de naam van de statussen in uw exemplaar van Workfront wijzigen. Voor informatie over het creëren van en het leiden van statussen in Workfront, zie [&#x200B; een status &#x200B;](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md) creëren of uitgeven.
 
 <table style="table-layout:auto"> 
  <col> 

@@ -26,24 +26,24 @@ Voor een lijst van alle veranderingen die in 2019.1 worden aangebracht, zie &quo
 
 **voor beheerders**
 
-* [ herstelt Malplaatjes van de Bak van de Recycling ](#restore-templates-from-the-recycle-bin)
-* [ toon Tijdstempels voor de Gebieden van de Datum in Huis ](#show-timestamps-for-date-fields-in-home)
+* [&#x200B; herstelt Malplaatjes van de Bak van de Recycling &#x200B;](#restore-templates-from-the-recycle-bin)
+* [&#x200B; toon Tijdstempels voor de Gebieden van de Datum in Huis &#x200B;](#show-timestamps-for-date-fields-in-home)
 * [Alle soorten Duur Beschikbaar onder de Voorkeur van het Project](#all-duration-types-available-under-project-preferences)
 
 **voor alle gebruikers**
 
-* [ de Verbeteringen van de Gelijkheid ](#agile-improvements)
-* [ voegt Taken en Kwesties van een Lijst aan een Herhaling ](#add-tasks-and-issues-from-a-list-to-an-iteration) toe
-* [ Nieuwe Grootte van het Papier voor de Uitvoer van de Grafiek van Gantt ](#new-paper-sizes-for-gantt-chart-export)
-* [ Verwijderde Toegang tot de Boxen van de Dialoog in de Grafiek van Gantt terwijl op Edit Wijze ](#removed-access-to-dialog-boxes-in-the-gantt-chart-while-in-edit-mode)
-* [ de Informatie van de Taak van de Mening in de Grafiek van Gantt van de Lijst van het Project in een Programma of een Portfolio ](#view-task-information-in-the-project-list-gantt-chart-in-a-program-or-portfolio)
-* [ heb toegang tot de Gantt Grafiek van de Lijst van de Taak op Malplaatjes ](#access-the-task-list-gantt-chart-on-templates)
-* [ anders genoemd de Mening van het Project op de Grafiek van Gantt ](#renamed-the-project-view-on-the-gantt-chart)
-* [ wat-als Scenario&#39;s in de Grafiek van Gantt van de Lijst van de Taak ](#what-if-scenarios-in-the-task-list-gantt-chart)
+* [&#x200B; de Verbeteringen van de Gelijkheid &#x200B;](#agile-improvements)
+* [&#x200B; voegt Taken en Kwesties van een Lijst aan een Herhaling &#x200B;](#add-tasks-and-issues-from-a-list-to-an-iteration) toe
+* [&#x200B; Nieuwe Grootte van het Papier voor de Uitvoer van de Grafiek van Gantt &#x200B;](#new-paper-sizes-for-gantt-chart-export)
+* [&#x200B; Verwijderde Toegang tot de Boxen van de Dialoog in de Grafiek van Gantt terwijl op Edit Wijze &#x200B;](#removed-access-to-dialog-boxes-in-the-gantt-chart-while-in-edit-mode)
+* [&#x200B; de Informatie van de Taak van de Mening in de Grafiek van Gantt van de Lijst van het Project in een Programma of een Portfolio &#x200B;](#view-task-information-in-the-project-list-gantt-chart-in-a-program-or-portfolio)
+* [&#x200B; heb toegang tot de Gantt Grafiek van de Lijst van de Taak op Malplaatjes &#x200B;](#access-the-task-list-gantt-chart-on-templates)
+* [&#x200B; anders genoemd de Mening van het Project op de Grafiek van Gantt &#x200B;](#renamed-the-project-view-on-the-gantt-chart)
+* [&#x200B; wat-als Scenario&#39;s in de Grafiek van Gantt van de Lijst van de Taak &#x200B;](#what-if-scenarios-in-the-task-list-gantt-chart)
 * {de Verbeteringen van de Lijst van 0} Taak [&#128279;](#task-list-improvements)
-* [ Lijsten van de Vertoning in Volledig Scherm ](#display-lists-in-full-screen)
-* [ Nieuwe Lijsten in Extra Gebieden ](#new-lists-in-additional-areas)
-* [ verzend een Geleverd Rapport in Formaat XLSX ](#send-a-delivered-report-in-xlsx-format)
+* [&#x200B; Lijsten van de Vertoning in Volledig Scherm &#x200B;](#display-lists-in-full-screen)
+* [&#x200B; Nieuwe Lijsten in Extra Gebieden &#x200B;](#new-lists-in-additional-areas)
+* [&#x200B; verzend een Geleverd Rapport in Formaat XLSX &#x200B;](#send-a-delivered-report-in-xlsx-format)
 * [Controlelogbestanden exporteren](#export-audit-logs)
 
 ## Sjablonen herstellen vanuit de prullenbak {#restore-templates-from-the-recycle-bin}

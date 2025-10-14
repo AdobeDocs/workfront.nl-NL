@@ -18,13 +18,13 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [ het Bewijzen ](../../../review-and-approve-work/proofing/proofing.md).
+>Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [&#x200B; het Bewijzen &#x200B;](../../../review-and-approve-work/proofing/proofing.md).
 
 U kunt statische proefdrukken maken van uw webpagina&#39;s. Daarnaast kunt u verschillende apparaten simuleren door de schermresolutie van de vastgelegde beelden te definiëren.
 
 ## Proef van statische website maken
 
-1. Open de [!UICONTROL New proof] pagina, zoals die in [ wordt beschreven produceer Proofs in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md).
+1. Open de [!UICONTROL New proof] pagina, zoals die in [&#x200B; wordt beschreven produceer Proofs in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md).
 1. Plak of typ uw URL in het **www.shareyourlink.com** vakje.
 1. U kunt deze stap herhalen om meerdere URL&#39;s toe te voegen.
 1. Klik net onder dit vak op de resolutie (de standaardwaarde is 1366 x 768) en selecteer de gewenste resoluties in het vak **[!UICONTROL Screensot resolution]** .
@@ -34,7 +34,7 @@ Selecteer een lagere resolutie als u ontwerpen voor mobiele apparaten wilt proef
    [!DNL Workfront Proof] scant de verbonden pagina&#39;s en geeft ze weer onder de optie **[!UICONTROL Look for subpages]** . U kunt de pagina&#39;s selecteren die u wilt opnemen.
 
 1. Met de functie [!UICONTROL Combine proofs] kunt u alle webpagina&#39;s verzenden als één proefdruk van meerdere pagina&#39;s.
-1. Klik **[!UICONTROL Done]**, dan klaar met het vormen van uw proef zoals die in [ wordt verklaard produceer Proofs in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md).
+1. Klik **[!UICONTROL Done]**, dan klaar met het vormen van uw proef zoals die in [&#x200B; wordt verklaard produceer Proofs in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md).
 
 ## Over met een wachtwoord beveiligde pagina&#39;s en pagina&#39;s waarvoor toestemming is vereist
 
@@ -50,11 +50,11 @@ Als u proefdrukken wilt maken van pagina&#39;s waarvoor toestemming is vereist, 
 
 >[!NOTE]
 >
->We raden interactieve proefdrukken aan in plaats van statische proefdrukken voor interne pagina&#39;s waarvoor verificatie en websites met wachtwoordbeveiliging vereist zijn. Voor meer informatie, zie [ Interactieve inhoudsproeven overzicht ](../../../review-and-approve-work/proofing/proofing-overview/interactive-content-proofs.md).
+>We raden interactieve proefdrukken aan in plaats van statische proefdrukken voor interne pagina&#39;s waarvoor verificatie en websites met wachtwoordbeveiliging vereist zijn. Voor meer informatie, zie [&#x200B; Interactieve inhoudsproeven overzicht &#x200B;](../../../review-and-approve-work/proofing/proofing-overview/interactive-content-proofs.md).
 
 ## Informatie over het verwerken van statische websiteproefdrukken
 
-* Animaties, ingesloten video&#39;s, scripts en interacties kunnen niet worden opgenomen in statische websiteproefdrukken. Als u interactieve inhoud wilt proefdrukken, zie [ Proefdrukken in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md) in [ produceren Proefdrukken in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md).
+* Animaties, ingesloten video&#39;s, scripts en interacties kunnen niet worden opgenomen in statische websiteproefdrukken. Als u interactieve inhoud wilt proefdrukken, zie [&#x200B; Proefdrukken in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md) in [&#x200B; produceren Proefdrukken in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md).
 
 * Proefpagina&#39;s worden over het algemeen voorbereid met een snelheid van ongeveer 20 seconden per pagina. De algemene voorbereidingstijd is echter ook afhankelijk van de servers waarop de pagina&#39;s worden gehost. Het gereedschap wacht 60 seconden op elke verzonden URL die moet worden geladen. Als deze wachttijd wordt overschreden, mislukt het bewijs.
 * Als een van de URL&#39;s bij gecombineerde proefdrukken niet reageert op het vastleggereedschap, mislukt de proefdruk.

@@ -24,7 +24,7 @@ Beschrijft in detail de beschikbare montages en de controles voor een basisProje
 
 Het implementatieteam zou liever project- en taakinformatie voor actieve projecten importeren in plaats van deze gegevens handmatig in het systeem in te voeren.
 
-* [ Projecten ](#projects)
+* [&#x200B; Projecten &#x200B;](#projects)
 * [Takenlijst](#task-list)
 
 ### Projecten {#projects}
@@ -85,7 +85,7 @@ De taken van de ouder erven de Duur, het Werk, en de Percentage Voltooiing van k
 
 >[!NOTE]
 >
->De instructies die in dit scenario worden verstrekt zijn niet zo uitdrukkelijk zoals de geleidelijke richtingen die in [ worden verstrekt Kick-Begint Scenario: Bedrijf, Groep, Rol, en de Kick-Begint Voorbereiding van de Gebruiker ](../../../administration-and-setup/manage-workfront/using-kick-starts/kick-starts-scenario-company-group-role-user-prep.md). De veronderstelling is u reeds hebt geleerd om waarden van het Bedrijf en de Bladen van de Groep op te zoeken en te kopiëren, zodat zullen deze stappen worden vermeld, maar niet specifiek geschetst.
+>De instructies die in dit scenario worden verstrekt zijn niet zo uitdrukkelijk zoals de geleidelijke richtingen die in [&#x200B; worden verstrekt Kick-Begint Scenario: Bedrijf, Groep, Rol, en de Kick-Begint Voorbereiding van de Gebruiker &#x200B;](../../../administration-and-setup/manage-workfront/using-kick-starts/kick-starts-scenario-company-group-role-user-prep.md). De veronderstelling is u reeds hebt geleerd om waarden van het Bedrijf en de Bladen van de Groep op te zoeken en te kopiëren, zodat zullen deze stappen worden vermeld, maar niet specifiek geschetst.
 
 1. Configureren.
 1. Importeer gebruikers.
@@ -277,10 +277,10 @@ Ga naar de Kick-Starts pagina. Selecteer het Bedrijf, de Groep, het Project, de 
 
 Open het Workfront.xlsx-bestand dat u net hebt gedownload. Ga naar het PROJ-projectblad.
 
-![ PROJ projectreeks ](assets/im2.png)
+![&#x200B; PROJ projectreeks &#x200B;](assets/im2.png)
 Tenzij u reeds projecten in Workfront hebt gecreeerd, zou het leeg moeten zijn.
 
-![ Leeg projectblad ](assets/im10.png)
+![&#x200B; Leeg projectblad &#x200B;](assets/im10.png)
 
 Stel de waarden in voor de volgende projectvelden:
 
@@ -305,7 +305,7 @@ Voer de geplande begindatum in voor elk project in de kolom setPlannedStartDate.
 * **plaats andere vereiste details.**
 Vul desgewenst andere gegevens in, zoals een beschrijving of de huidige status. Zoek omhoog IDs van de Groep voor elk project op het blad van de Groep van de GROEP en input hen in de setGroupID kolom voor de respectieve projecten. Zoek omhoog identiteitskaart van het Bedrijf voor de projecten op het blad van het Bedrijf CMPY en input het in de kolom setCompanyID. Zoek de Gebruiker - identiteitskaart voor elke projecteigenaar op het Gebruikersblad van de GEBRUIKER en voer het in de setOwnerID kolom in. Zoek de gebruikersnaam voor elke projectsponsor op het gebruikersblad en voer deze in de kolom setSponsorID in.
 
-![ vastgestelde waarden ](assets/im9.png)
+![&#x200B; vastgestelde waarden &#x200B;](assets/im9.png)
 
 >[!NOTE]
 >
@@ -319,11 +319,11 @@ Open het Workfront.xlsx-bestand dat u net hebt gedownload. **ga naar het Taakbla
 
 Dit blad moet leeg zijn, tenzij u al taken hebt gemaakt in Workfront.
 
-![ Taakblad ](assets/im8.png)
+![&#x200B; Taakblad &#x200B;](assets/im8.png)
 
-![ Lege taakblad ](assets/im7.png)
+![&#x200B; Lege taakblad &#x200B;](assets/im7.png)
 
-![ de kolommen van het taakblad ](assets/im6.png)
+![&#x200B; de kolommen van het taakblad &#x200B;](assets/im6.png)
 
 De gemakkelijkste manier om taken in kaart te brengen is één project in een tijd (vooral wanneer de taken het zelfde op elk project zijn). U kunt het taakplan voor het eerste project dan kopiëren en kleine aanpassingen aan het taakplan voor de verdere projecten aanbrengen. Bij de overige stappen wordt ervan uitgegaan dat u alleen taken voor het Workfront-project implementeren maakt. Volgens het scenario, zult u 9 taken per project invoeren, zodat inputWAAR in rijen 3 door 11 voor de isNew kolom.
 
@@ -364,7 +364,7 @@ Stel de duur voor elke taak in door het aantal uren, dagen, weken of maanden voo
 * Voer de gehele numerieke representatie in van het percentage dat is voltooid in het veld setPercentComplete voor elke taak. Deze waarde mag het percentagesymbool (%) niet bevatten.
 * Voeg desgewenst een beschrijving en andere details toe voor elke taak die u maakt.
 
-  ![ voeg details ](assets/im5.png) toe
+  ![&#x200B; voeg details &#x200B;](assets/im5.png) toe
 
 * De kolommen setPlannedStartDate en setTaskConstraint worden niet gebruikt om de chronologie van dit project uit te bouwen omdat wij op predecessor verhoudingen vertrouwen. In plaats daarvan kunt u een datum invoeren voor elke taak. Als u dit doet, zeker ben u ook een geldige taakbeperking in de setTaskConstraint kolom verstrekt. Controleer de Taakbeperking en verwante artikelen voor details over geldige waarden voor dit gebied.
 
@@ -378,4 +378,4 @@ Stel de duur voor elke taak in door het aantal uren, dagen, weken of maanden voo
 
 * **de Invoer van het Dossier van Excel**
 
-  Volg de richtingen die in [ worden verstrekt de gegevens van de Invoer in Adobe Workfront gebruikend een Kick-Begin malplaatje ](../../../administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
+  Volg de richtingen die in [&#x200B; worden verstrekt de gegevens van de Invoer in Adobe Workfront gebruikend een Kick-Begin malplaatje &#x200B;](../../../administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).

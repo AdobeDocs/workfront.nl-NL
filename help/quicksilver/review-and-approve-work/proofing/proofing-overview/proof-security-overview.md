@@ -20,7 +20,7 @@ U kunt extra beveiligingsmaatregelen toevoegen aan proefdrukken.
 
 ## Aanmelding vereist
 
-Met de vereiste aanmelding wordt de beveiliging van de proefdrukken in uw account verbeterd. U kunt de aanmeldingsgegevens inschakelen die voor alle proefdrukken op accountniveau zijn vereist, of u kunt de aanmeldingsgegevens desgewenst voor afzonderlijke proefdrukken inschakelen. Voor meer informatie over het toelaten voor uw rekening, zie [ standaardproefmontages ](/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/configure-default-proof-settings.md) vormen.
+Met de vereiste aanmelding wordt de beveiliging van de proefdrukken in uw account verbeterd. U kunt de aanmeldingsgegevens inschakelen die voor alle proefdrukken op accountniveau zijn vereist, of u kunt de aanmeldingsgegevens desgewenst voor afzonderlijke proefdrukken inschakelen. Voor meer informatie over het toelaten voor uw rekening, zie [&#x200B; standaardproefmontages &#x200B;](/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/configure-default-proof-settings.md) vormen.
 
 >[!NOTE]
 >
@@ -33,13 +33,13 @@ Wanneer de vereiste aanmelding is ingeschakeld, moeten revisoren zich met hun e-
 >[!TIP]
 >
 >Om het aanmeldingsproces te stroomlijnen, raden we u aan SSO in te stellen in Workfront en Workfront. Voor meer informatie over het inschakelen van SSO raadpleegt u >
->* [ Enige sign-on in Workfront: artikelindex ](../../../administration-and-setup/add-users/single-sign-on/single-sign-on.md)
->* [ vorm Enige Sign-On voor de gebruikers van Workfront Proof ](../../../workfront-proof/wp-acct-admin/account-settings/configure-sso-for-wp-users.md)
+>* [&#x200B; Enige sign-on in Workfront: artikelindex &#x200B;](../../../administration-and-setup/add-users/single-sign-on/single-sign-on.md)
+>* [&#x200B; vorm Enige Sign-On voor de gebruikers van Workfront Proof &#x200B;](../../../workfront-proof/wp-acct-admin/account-settings/configure-sso-for-wp-users.md)
 >
 
 ## Elektronische handtekening
 
-Met elektronische handtekeningen kunt u de beveiliging van uw proefdrukken verbeteren en voldoen aan industriestandaarden op het gebied van beveiliging, zoals ISO. U kunt elektronische handtekeningen inschakelen voor alle proefdrukken op accountniveau of u kunt deze zo nodig inschakelen voor afzonderlijke proefdrukken. Voor meer informatie, zie [ standaardproefmontages ](/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/configure-default-proof-settings.md) vormen.
+Met elektronische handtekeningen kunt u de beveiliging van uw proefdrukken verbeteren en voldoen aan industriestandaarden op het gebied van beveiliging, zoals ISO. U kunt elektronische handtekeningen inschakelen voor alle proefdrukken op accountniveau of u kunt deze zo nodig inschakelen voor afzonderlijke proefdrukken. Voor meer informatie, zie [&#x200B; standaardproefmontages &#x200B;](/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/configure-default-proof-settings.md) vormen.
 
 ## Een proefdruk elektronisch ondertekenen
 
@@ -48,5 +48,5 @@ Wanneer de instelling voor de elektronische handtekening is ingeschakeld op een 
 >[!IMPORTANT]
 >
 >Als u een bewijs elektronisch wilt ondertekenen met SSO-gegevens, moet u een SSO instellen in Workfront Proof. Voor meer informatie over het inschakelen van SSO raadpleegt u >
->* [ vorm Enige Sign-On voor de gebruikers van Workfront Proof ](../../../workfront-proof/wp-acct-admin/account-settings/configure-sso-for-wp-users.md)
+>* [&#x200B; vorm Enige Sign-On voor de gebruikers van Workfront Proof &#x200B;](../../../workfront-proof/wp-acct-admin/account-settings/configure-sso-for-wp-users.md)
 >

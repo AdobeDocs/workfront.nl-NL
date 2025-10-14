@@ -20,7 +20,7 @@ ht-degree: 0%
 
 De volgende probleemweergave toont het goedkeuringsproces, de stap, de namen van de fiatteurs en de status van de kwestie voordat de goedkeuring werd verleend. Sommige van deze gebieden zijn niet toegankelijk door de standaardinterfacebouwer.
 
-![ custom_issue_view_with_approval_info.png ](assets/custom-issue-view-with-approval-info-350x46.png)
+![&#x200B; custom_issue_view_with_approval_info.png &#x200B;](assets/custom-issue-view-with-approval-info-350x46.png)
 
 ## Toegangsvereisten
 
@@ -51,7 +51,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

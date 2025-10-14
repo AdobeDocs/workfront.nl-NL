@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Op deze pagina vindt u een beschrijving van kleine updates van de vormgeving van verschillende onderdelen van de Adobe Workfront-toepassing die binnen de releaseperiode van 23.3 zijn gemaakt. Deze verbeteringen worden minimaal twee weken na de release naar Preview beschikbaar gesteld in de productieomgeving.
 
-Voor een lijst van alle veranderingen beschikbaar met de versie 23.3, zie [ overzicht van de Versie 23.3 ](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar met de versie 23.3, zie [&#x200B; overzicht van de Versie 23.3 &#x200B;](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
 
 ## Interfaceverbeteringen voor aanvraaglijsten
 
@@ -31,7 +31,7 @@ De verbeteringen zijn:
 * er is nu een laadindicator wanneer de pagina wordt geüpload;
 * het pictogram Kopiëren is blijvend en gaat vergezeld van tekst en wordt uitgeschakeld wanneer er geen verzoeken zijn geselecteerd.
 
-Voor meer informatie, zie [ Exemplaar en leg verzoeken ](/help/quicksilver/manage-work/requests/create-requests/copy-and-submit-requests.md) voor. De documentatie zal na de eigenschapversies worden bijgewerkt.
+Voor meer informatie, zie [&#x200B; Exemplaar en leg verzoeken &#x200B;](/help/quicksilver/manage-work/requests/create-requests/copy-and-submit-requests.md) voor. De documentatie zal na de eigenschapversies worden bijgewerkt.
 
 ## Bijgewerkt ontwerp wanneer het toevoegen van een nieuwe kwestie aan een project
 
@@ -43,7 +43,7 @@ Voor meer informatie, zie [ Exemplaar en leg verzoeken ](/help/quicksilver/manag
 
 We hebben het vak Nieuwe uitgave bijgewerkt, dat wordt weergegeven wanneer u een nieuwe uitgave naar een project verzendt. Nu, past de interface het Nieuwe verzoekvakje aan dat toont wanneer het voorleggen van een nieuw verzoek aan een verzoekrij.
 
-Voor meer informatie, zie [ kwesties ](../../../manage-work/issues/manage-issues/create-issues.md) creëren. De documentatie zal na de eigenschapversies worden bijgewerkt.
+Voor meer informatie, zie [&#x200B; kwesties &#x200B;](../../../manage-work/issues/manage-issues/create-issues.md) creëren. De documentatie zal na de eigenschapversies worden bijgewerkt.
 
 ## Bijgewerkte lijst met factuurtarieven
 

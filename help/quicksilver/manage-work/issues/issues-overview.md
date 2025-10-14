@@ -19,6 +19,6 @@ ht-degree: 0%
 
 Deze sectie bevat de volgende subsecties:
 
-* [ Bekeerling kwesties ](../../manage-work/issues/convert-issues/convert-issues-overview.md)
-* [ informatie van de Uitgave ](../../manage-work/issues/issue-information/issue-info-overview.md)
+* [&#x200B; Bekeerling kwesties &#x200B;](../../manage-work/issues/convert-issues/convert-issues-overview.md)
+* [&#x200B; informatie van de Uitgave &#x200B;](../../manage-work/issues/issue-information/issue-info-overview.md)
 * [Problemen beheren](../../manage-work/issues/manage-issues/manage-issues-overview.md)

@@ -33,4 +33,4 @@ DOC, DOCX, PPT, PPTX, XLS, XLSX
 
 De maximale grootte van PowerPoint- en Word-bestanden is nu 512 MB.
 
-Voor meer informatie, zie [ Ondersteunde het proef dossiertypes en groottegrenzen overzicht ](/help/quicksilver/review-and-approve-work/proofing/proofing-overview/supported-proofing-file-types.md).
+Voor meer informatie, zie [&#x200B; Ondersteunde het proef dossiertypes en groottegrenzen overzicht &#x200B;](/help/quicksilver/review-and-approve-work/proofing/proofing-overview/supported-proofing-file-types.md).

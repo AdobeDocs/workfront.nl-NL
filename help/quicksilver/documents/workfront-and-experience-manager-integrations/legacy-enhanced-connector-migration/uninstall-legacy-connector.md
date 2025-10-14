@@ -22,7 +22,7 @@ U moet de Workfront met de verouderde Adobe Experience Manager-aansluiting verwi
 1. Open Adobe Experience Manager.
 1. In Experience Manager, ga naar **Hulpmiddelen** > **Cloud Servicen** > **de Configuratie van de Integratie van Workfront**.
 1. Selecteer uw configuratie (globaal-werkfront door gebrek), en klik **Eigenschappen**.
-   ![ unsubscribe van werkfront ](assets/unsubscribe-from-workfront.png)
+   ![&#x200B; unsubscribe van werkfront &#x200B;](assets/unsubscribe-from-workfront.png)
 1. Documentsynchronisatie, Opmerking en Metagegevenssynchronisatie uitschakelen. De label moet dag uitgeschakeld zijn.
 Hiermee worden de abonnementen in Workfront verwijderd en kan de gebruiker een nieuw abonnement maken met dezelfde URL als die is gedefinieerd in Day CQ Link Externalzer.
 
@@ -31,7 +31,7 @@ Hiermee worden de abonnementen in Workfront verwijderd en kan de gebruiker een n
 Na het verwijderen van het abonnement is het nu veilig om de Configuratie van de Integratie van Workfront te schrappen.
 
 1. Open de configuratie, en selecteer **Schrapping**.
-   ![ schrappingsconfiguratie ](assets/delete-wf-configuration.png)
+   ![&#x200B; schrappingsconfiguratie &#x200B;](assets/delete-wf-configuration.png)
 
 ## Koppeling verwijderen
 
@@ -59,7 +59,7 @@ Als u de Day CQ Link Externalzer niet nodig hebt, kunt u deze terugzetten naar `
 >
 >Als u Adobe Experience Manager as a Cloud Service gebruikt, kunt u dit veranderen door in uw project te kijken en het dossier _com.day.cq.commons.impl.ExternalImpl.xml_ binnen _ui.apps/src/main/content/jcr_root/apps/mysite/config_ te vinden.
 
-![ CQ van de Dag Verbinding Externalzer ](assets/Day-CQ-Link-Externalizer.png)
+![&#x200B; CQ van de Dag Verbinding Externalzer &#x200B;](assets/Day-CQ-Link-Externalizer.png)
 
 ## Connector-pakket verwijderen
 

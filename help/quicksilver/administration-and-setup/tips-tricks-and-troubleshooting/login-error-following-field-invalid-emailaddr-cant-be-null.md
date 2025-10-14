@@ -26,7 +26,7 @@ Wanneer ik probeer u aan te melden bij [!DNL Adobe Workfront] met mijn URL (http
 
 ## Oorzaak
 
-Deze fout wordt veroorzaakt door een onjuist punt in het gebied van de Attributen van de Gebruiker van de Kaart van de configuratie SAML 2.0. Voor meer informatie over de attributen van de kaartgebruiker voor SAML 2.0, zie [ Adobe Workfront met SAML 2.0 ](../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2.md) vormen.
+Deze fout wordt veroorzaakt door een onjuist punt in het gebied van de Attributen van de Gebruiker van de Kaart van de configuratie SAML 2.0. Voor meer informatie over de attributen van de kaartgebruiker voor SAML 2.0, zie [&#x200B; Adobe Workfront met SAML 2.0 &#x200B;](../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2.md) vormen.
 
 ## Oplossing
 

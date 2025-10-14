@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Op deze pagina worden alle verbeteringen op het gebied van updates en meldingen beschreven die zijn aangebracht met de release Derde kwartaal 2025 voor de voorvertoningsomgeving. Deze verbeteringen zullen beschikbaar worden gesteld in de productieomgeving, zoals vermeld.
 
-Voor een lijst van alle veranderingen beschikbaar op dit punt in het Derde Kwartaal 2025 versiecyclus, zie [ Derde Kwartaal 2025 releaseoverzicht ](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar op dit punt in het Derde Kwartaal 2025 versiecyclus, zie [&#x200B; Derde Kwartaal 2025 releaseoverzicht &#x200B;](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md).
 
 >[!IMPORTANT]
 >
@@ -29,6 +29,6 @@ Voor een lijst van alle veranderingen beschikbaar op dit punt in het Derde Kwart
 
 Om betere prestaties te bereiken, hebben wij een gewijzigde ervaring geïntroduceerd wanneer het toevoegen van mensen aan commentaren. De koppeling ‘Tagpersonen of -teams’ blijft nu blijvend in het vak Opmerking nadat u gebruikers of teams aan de opmerking hebt toegevoegd. Vóór deze wijziging is de koppeling &quot;Tagpersonen of -teams&quot; verwijderd nadat u personen of teams aan een opmerking hebt toegevoegd. Deze wijziging is toegepast op alle Workfront-objecten waar u een opmerking kunt toevoegen.
 
-Voor meer informatie, zie [ het werk van de Update ](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+Voor meer informatie, zie [&#x200B; het werk van de Update &#x200B;](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 

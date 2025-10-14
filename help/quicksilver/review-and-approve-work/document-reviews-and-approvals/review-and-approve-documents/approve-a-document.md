@@ -17,11 +17,11 @@ ht-degree: 0%
 
 Als u als fiatteur aan een document wordt toegewezen, zijn er veelvoudige manieren u uw goedkeuringsbesluit kunt nemen.
 
-Voor informatie over het creëren van een nieuwe documentgoedkeuring, zie [ een documentoverzicht of goedkeuringsverzoek ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md) creëren.
+Voor informatie over het creëren van een nieuwe documentgoedkeuring, zie [&#x200B; een documentoverzicht of goedkeuringsverzoek &#x200B;](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md) creëren.
 
 >[!IMPORTANT]
 >
->De inhoud van dit artikel verwijst naar de functionaliteit voor bijgewerkte documentgoedkeuring die alleen beschikbaar is voor specifieke accounts. Voor informatie over standaardgoedkeuringsprocessen, zie de artikelen die in [ worden vermeld goedkeuringen van het Werk ](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
+>De inhoud van dit artikel verwijst naar de functionaliteit voor bijgewerkte documentgoedkeuring die alleen beschikbaar is voor specifieke accounts. Voor informatie over standaardgoedkeuringsprocessen, zie de artikelen die in [&#x200B; worden vermeld goedkeuringen van het Werk &#x200B;](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
 
 ## Toegangsvereisten
 
@@ -58,7 +58,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 ## Een document van thuis goedkeuren
 
-1. Klik het **pictogram van het Huis ![ pictogram van het Begin ](../assets/home-icon-30x29.png) in de upper-left hoek van Adobe Workfront.**
+1. Klik het **pictogram van het Huis ![&#x200B; pictogram van het Begin &#x200B;](../assets/home-icon-30x29.png) in de upper-left hoek van Adobe Workfront.**
 
    >[!NOTE]
    >
@@ -66,7 +66,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    >
    >* Vervang deze door een afbeelding die is aangepast om uw organisatie te illustreren. In dit geval ziet het pictogram er anders uit dan in dit artikel.
    >
-   >* De gekoppelde pagina vervangen door een andere pagina. In dit geval, klik het **![ Belangrijkste menupictogram ](../assets/main-menu-icon.png) in de hoger-juiste hoek van de pagina, dan klik** Huis **.**
+   >* De gekoppelde pagina vervangen door een andere pagina. In dit geval, klik het **![&#x200B; Belangrijkste menupictogram &#x200B;](../assets/main-menu-icon.png) in de hoger-juiste hoek van de pagina, dan klik** Huis **.**
 
 1. Klik **Filters** bij de bovenkant verlaten van de pagina en zorg ervoor dat **goedkeurt** wordt gecontroleerd.
 
@@ -148,13 +148,13 @@ Een document controleren en goedkeuren:
 
 1. Zodra u in Workfront bent, klik **gaan aan proef**.
 
-1. Bekijk de inhoud en voeg eventuele opmerkingen of markeringen toe. Voor meer informatie over hoe te om de het proeven kijker te gebruiken, zie [ proefdrukken van het Overzicht binnen Adobe Workfront: artikelindex ](/help/quicksilver/review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md).
+1. Bekijk de inhoud en voeg eventuele opmerkingen of markeringen toe. Voor meer informatie over hoe te om de het proeven kijker te gebruiken, zie [&#x200B; proefdrukken van het Overzicht binnen Adobe Workfront: artikelindex &#x200B;](/help/quicksilver/review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md).
 
 1. Kies een van de volgende beslissingen:
 
    * **keur** goed: Het document vereist geen veranderingen en is klaar voor gebruik.
    * **keur met veranderingen** goed: Het document vereist veranderingen en is klaar voor gebruik zodra zij worden gemaakt. Aanvullende goedkeuring is niet vereist.
-   * **het werk van behoeften**: Het document vereist veranderingen en is niet klaar voor gebruik. Nadat de opgegeven wijzigingen zijn aangebracht, moet het document worden geüpload als een nieuwe versie en door een andere goedkeuringsronde worden geleid. Voor meer informatie bij het uploaden van een nieuwe versie, zie [ een nieuwe versie creëren zoals nodig ](#create-a-new-version-as-needed) in dit artikel.
+   * **het werk van behoeften**: Het document vereist veranderingen en is niet klaar voor gebruik. Nadat de opgegeven wijzigingen zijn aangebracht, moet het document worden geüpload als een nieuwe versie en door een andere goedkeuringsronde worden geleid. Voor meer informatie bij het uploaden van een nieuwe versie, zie [&#x200B; een nieuwe versie creëren zoals nodig &#x200B;](#create-a-new-version-as-needed) in dit artikel.
 
 Nadat u een beslissing hebt genomen, wordt de eigenaar van het document via e-mail op de hoogte gesteld.
 

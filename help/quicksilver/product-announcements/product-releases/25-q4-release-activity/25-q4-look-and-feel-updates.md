@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Deze pagina beschrijft kleine updates van de blik en het gevoel van diverse gebieden van de toepassing van Adobe Workfront die binnen het vierde Kwartaal 2025 releasetijdschema werden gemaakt.
 
-Voor een lijst van alle veranderingen beschikbaar met het Vierde Kwartaal 2025 versie, zie [ Vierde Kwartaal 2025 releaseoverzicht ](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar met het Vierde Kwartaal 2025 versie, zie [&#x200B; Vierde Kwartaal 2025 releaseoverzicht &#x200B;](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-release-overview.md).
 
 ## Nieuwe look-and-feel updates voor de widget-lijst met teamaanvragen
 
@@ -36,4 +36,4 @@ Deze wijziging is het resultaat van een probleemoplossing met betrekking tot de 
 
 ## Modernisering van de interface
 
-We werken de interface in Adobe Workfront bij om de gebruikerservaring te verbeteren en deze te verenigen met andere Adobe-toepassingen. Deze veranderingen worden vrijgegeven buiten het standaardversieschema. Voor een lijst van deze veranderingen, zie [ Modernisering van de Interface ](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
+We werken de interface in Adobe Workfront bij om de gebruikerservaring te verbeteren en deze te verenigen met andere Adobe-toepassingen. Deze veranderingen worden vrijgegeven buiten het standaardversieschema. Voor een lijst van deze veranderingen, zie [&#x200B; Modernisering van de Interface &#x200B;](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).

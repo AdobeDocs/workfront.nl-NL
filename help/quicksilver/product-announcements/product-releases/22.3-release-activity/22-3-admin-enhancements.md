@@ -15,13 +15,13 @@ ht-degree: 0%
 
 # 22.3 Verbeteringen voor beheerders
 
-Op deze pagina worden alle beheerderverbeteringen beschreven die zijn aangebracht met de versie 22.3 voor de voorvertoningsomgeving. Deze verbeteringen zijn beschikbaar gesteld in de week van 11 juli 2022. Voor een lijst van alle veranderingen beschikbaar met de versie 22.3, zie [ overzicht van de Versie 22.3 ](/help/quicksilver/product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md).
+Op deze pagina worden alle beheerderverbeteringen beschreven die zijn aangebracht met de versie 22.3 voor de voorvertoningsomgeving. Deze verbeteringen zijn beschikbaar gesteld in de week van 11 juli 2022. Voor een lijst van alle veranderingen beschikbaar met de versie 22.3, zie [&#x200B; overzicht van de Versie 22.3 &#x200B;](/help/quicksilver/product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md).
 
 ## Adobe Workfront integreren met JumpSeat
 
 U kunt nu JumpSeat integreren met Workfront om aangepaste, in-product richtlijnen voor uw gebruikers te maken. U hebt een Adobe Workfront Enterprise-licentie en een actief JumpSeat-abonnement nodig om de integratie in te schakelen.
 
-Voor meer informatie, zie [ de integratie JumpSeat ](/help/quicksilver/administration-and-setup/configure-integrations/configure-jumpseat.md) vormen.
+Voor meer informatie, zie [&#x200B; de integratie JumpSeat &#x200B;](/help/quicksilver/administration-and-setup/configure-integrations/configure-jumpseat.md) vormen.
 
 ## Standaardinstellingen van proefafdruk verplaatst naar Workfront
 
@@ -31,7 +31,7 @@ U kunt nu de volgende proefdrukinstellingen bewerken in het gedeelte Workfront i
 
 * Instellingen voor proefafhandeling
 
-Voor meer informatie, zie [ standaardproefmontages ](/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/configure-default-proof-settings.md) vormen.
+Voor meer informatie, zie [&#x200B; standaardproefmontages &#x200B;](/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/configure-default-proof-settings.md) vormen.
 
 ## Onvergrendelde statussen gebruiken in een goedkeuringsproces
 
@@ -77,7 +77,7 @@ Deze update bevat de volgende verbeteringen:
 
 Vóór deze release konden de velden in de objectkoppen niet worden aangepast.
 
-Voor meer informatie, zie [ objecten kopballen aanpassen gebruikend een lay-outmalplaatje ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
+Voor meer informatie, zie [&#x200B; objecten kopballen aanpassen gebruikend een lay-outmalplaatje &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
 
 ## Besturing voor het maken van een leeg project
 
@@ -92,15 +92,15 @@ Het nieuwe plaatsen is &quot;staat gebruikers toe om projecten tot stand te bren
 
 **Nota:** de gebruikers kunnen een taak in een leeg project nog omzetten.
 
-Voor meer informatie, zie [ systeem-brede projectvoorkeur ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) vormen.
+Voor meer informatie, zie [&#x200B; systeem-brede projectvoorkeur &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) vormen.
 
 ## Een groep deactiveren op de pagina Groepen
 
-Onlangs hebben we de mogelijkheid toegevoegd om groepen te deactiveren en opnieuw te activeren. Om die actie sneller en gemakkelijker te maken, hebben wij het aan de pagina van een groep toegevoegd. Nu, nadat u de naam van een groep klikt om naar zijn pagina te gaan, kunt u het Meer menu ![ Belangrijkste menupictogram ](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/assets/main-menu-icon.png) naast de naam van de groep selecteren, dan Deactiveren of Reactivate selecteren.
+Onlangs hebben we de mogelijkheid toegevoegd om groepen te deactiveren en opnieuw te activeren. Om die actie sneller en gemakkelijker te maken, hebben wij het aan de pagina van een groep toegevoegd. Nu, nadat u de naam van een groep klikt om naar zijn pagina te gaan, kunt u het Meer menu ![&#x200B; Belangrijkste menupictogram &#x200B;](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/assets/main-menu-icon.png) naast de naam van de groep selecteren, dan Deactiveren of Reactivate selecteren.
 
 Eerder kon u een groep alleen deactiveren of opnieuw activeren met het selectievakje Is actief op de pagina Details.
 
-Voor meer informatie, zie [ een groep ](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/deactivate-or-reactivate-a-group.md) deactiveren of reactiveren.
+Voor meer informatie, zie [&#x200B; een groep &#x200B;](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/deactivate-or-reactivate-a-group.md) deactiveren of reactiveren.
 
 ## Video&#39;s toevoegen aan aangepaste formulieren
 

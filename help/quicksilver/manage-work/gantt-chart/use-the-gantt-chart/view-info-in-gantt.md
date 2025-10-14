@@ -49,13 +49,13 @@ Als u nog steeds geen toegang hebt, vraagt u de [!DNL Workfront] -beheerder of d
 
 ## Zoek de [!UICONTROL Gantt Chart]
 
-U kunt zowel het Gantt-diagram als de projectlijst [!UICONTROL Gantt chart] vinden in meerdere gebieden in Workfront. Voor meer informatie, zie [ begonnen worden met [!UICONTROL Gantt Chart]](../../../manage-work/gantt-chart/use-the-gantt-chart/get-started-with-gantt.md).
+U kunt zowel het Gantt-diagram als de projectlijst [!UICONTROL Gantt chart] vinden in meerdere gebieden in Workfront. Voor meer informatie, zie [&#x200B; begonnen worden met [!UICONTROL Gantt Chart]](../../../manage-work/gantt-chart/use-the-gantt-chart/get-started-with-gantt.md).
 
 ## Taken weergeven op de [!UICONTROL Critical Path]
 
 In de Projectlijst [!UICONTROL Gantt Chart] worden taken die zich niet in [!UICONTROL Critical Path] bevinden, weergegeven als lichtblauwe horizontale lijnen. Taken die zich op [!UICONTROL Critical Path] van een project bevinden, worden weergegeven als rode horizontale lijnen.
 
-Voor meer informatie over taken over [!UICONTROL Critical Path], zie [ Overzicht van het project [!UICONTROL Critical Path]](../../../manage-work/tasks/manage-tasks/critical-path.md).
+Voor meer informatie over taken over [!UICONTROL Critical Path], zie [&#x200B; Overzicht van het project [!UICONTROL Critical Path]](../../../manage-work/tasks/manage-tasks/critical-path.md).
 
 ## Taakgegevens weergeven in de projectlijst [!UICONTROL Gantt Chart]
 
@@ -79,7 +79,7 @@ Om taken in een project van een lijst van projecten te bekijken:
 
    Een lijst met projecten wordt weergegeven.
 
-1. Klik het **[!UICONTROL Gantt chart]** pictogram ![ Gantt pictogram ](assets/gantt-icon-nwe.png) in de hoger-juiste hoek van het scherm.
+1. Klik het **[!UICONTROL Gantt chart]** pictogram ![&#x200B; Gantt pictogram &#x200B;](assets/gantt-icon-nwe.png) in de hoger-juiste hoek van het scherm.
 
    <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: images conditioned for classic and nwe) <br></p>
@@ -89,7 +89,7 @@ Om taken in een project van een lijst van projecten te bekijken:
 
 1. In de projectlijst aan de linkerzijde, klik de drop-down pijl naast de naam van het project om het even welke taken onder dat project te tonen.\
    Hierdoor wordt taakinformatie weergegeven op de [!UICONTROL Gantt Chart] .\
-   ![ Show_task_list_enabled_project_extended.png ](assets/show-task-list-enabled-project-expanded-350x78.png)
+   ![&#x200B; Show_task_list_enabled_project_extended.png &#x200B;](assets/show-task-list-enabled-project-expanded-350x78.png)
 
 1. (Optioneel) Klik op het pictogram **[!UICONTROL Print]** in de rechterbovenhoek om de [!UICONTROL Gantt Chart] te exporteren.
 
@@ -107,13 +107,13 @@ U kunt de tijdsperiode aanpassen die op [!UICONTROL Gantt Chart] wordt weergegev
 ### De tijdsperiode korrelig wijzigen {#change-the-time-period-on-a-granular-level}
 
 1. Houd de muisaanwijzer boven de tijdlijn van [!UICONTROL Gantt Chart] en sleep de zoomindicator van links naar rechts om de tijdlijn uit te breiden of in te perken.\
-   ![ zoom_tool_in_gantt.png ](assets/zoom-tool-in-gantt-350x180.png)
+   ![&#x200B; zoom_tool_in_gantt.png &#x200B;](assets/zoom-tool-in-gantt-350x180.png)
 
 ### Gegevens weergeven op dag, week, maand, kwartaal of jaar {#view-information-by-day-week-month-quarter-or-year}
 
 1. Klik in het [!UICONTROL Gantt Chart] op de vervolgkeuzelijst voor het tijdframe.
 
-   ![ opties van de Chronologie ](assets/timeline-options.png)
+   ![&#x200B; opties van de Chronologie &#x200B;](assets/timeline-options.png)
 
 1. Selecteer een tijdkader uit de volgende beschikbare opties:
 
@@ -132,7 +132,7 @@ U kunt de tijdsperiode aanpassen die op [!UICONTROL Gantt Chart] wordt weergegev
    >
    >De tijdlijnopname wordt alleen weergegeven nadat u op de horizontale schuifbalk hebt geklikt.
 
-   ![ stretchy_gantt_minimap_with_outline__1_.png ](assets/stretchy-gantt-minimap-with-outline--1--350x140.png)
+   ![&#x200B; stretchy_gantt_minimap_with_outline__1_.png &#x200B;](assets/stretchy-gantt-minimap-with-outline--1--350x140.png)
 
 1. (Optioneel) Klik ergens in de momentopname van de tijdlijn om naar een specifiek punt in de levensduur van het project te navigeren.\
    of\
@@ -144,20 +144,20 @@ U kunt de tijdsperiode aanpassen die op [!UICONTROL Gantt Chart] wordt weergegev
 
 >[!CAUTION]
 >
->U kunt geen filters, weergaven en groepen toepassen wanneer u [!UICONTROL Manual] Opslaan [!UICONTROL Timeline Planning] selecteert om de wijzigingen in uw takenlijst op te slaan. Voor informatie over het bewaren van veranderingen in taken in een lijst, zie [ taken in een lijst ](../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md) uitgeven.
+>U kunt geen filters, weergaven en groepen toepassen wanneer u [!UICONTROL Manual] Opslaan [!UICONTROL Timeline Planning] selecteert om de wijzigingen in uw takenlijst op te slaan. Voor informatie over het bewaren van veranderingen in taken in een lijst, zie [&#x200B; taken in een lijst &#x200B;](../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md) uitgeven.
 
 De filters en de groeperingen die u op de lijst toepast worden weerspiegeld op zowel de Lijst van het Project als Lijst van de Taak [!UICONTROL Gantt Chart] s en ook inbegrepen wanneer de grafieken van Gantt worden uitgevoerd:
 
 * Filters\
    U kunt een filter op de lijst toepassen om de informatie te controleren die in [!UICONTROL Gantt Chart] wordt getoond.\
-   Voor informatie over het toepassen van een Filter, zie [ Overzicht van Filters ](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+   Voor informatie over het toepassen van een Filter, zie [&#x200B; Overzicht van Filters &#x200B;](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 * Groepen\
    Groepen die u op de lijst toepast, worden weergegeven in de [!UICONTROL Gantt Chart] .\
-   Voor informatie over het toepassen van een Groepering, zie [ Overzicht van Groepen in Adobe Workfront ](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
+   Voor informatie over het toepassen van een Groepering, zie [&#x200B; Overzicht van Groepen in Adobe Workfront &#x200B;](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
-Weergaven worden niet weerspiegeld in de [!UICONTROL Gantt Chart] . Nochtans, wanneer u [!UICONTROL Gantt Chart] (zoals die in [ wordt beschreven de Uitvoer [!UICONTROL Gantt Chart] naar PDF ](../../../manage-work/gantt-chart/use-the-gantt-chart/export-gantt-chart-to-pdf.md)) uitvoert, wordt de taaklijst uitgevoerd naast [!UICONTROL Gantt chart], met de huidige Mening die op de lijst wordt toegepast.
+Weergaven worden niet weerspiegeld in de [!UICONTROL Gantt Chart] . Nochtans, wanneer u [!UICONTROL Gantt Chart] (zoals die in [&#x200B; wordt beschreven de Uitvoer [!UICONTROL Gantt Chart] naar PDF &#x200B;](../../../manage-work/gantt-chart/use-the-gantt-chart/export-gantt-chart-to-pdf.md)) uitvoert, wordt de taaklijst uitgevoerd naast [!UICONTROL Gantt chart], met de huidige Mening die op de lijst wordt toegepast.
 
 ## Weergaveopties configureren
 
-U kunt kiezen welk type informatie in beide [!UICONTROL Gantt charts] wordt weergegeven. Voor meer informatie, zie [ vormen hoe de informatievertoningen op [!UICONTROL Gantt Chart]](../../../manage-work/gantt-chart/use-the-gantt-chart/configure-info-on-gantt-chart.md).
+U kunt kiezen welk type informatie in beide [!UICONTROL Gantt charts] wordt weergegeven. Voor meer informatie, zie [&#x200B; vormen hoe de informatievertoningen op [!UICONTROL Gantt Chart]](../../../manage-work/gantt-chart/use-the-gantt-chart/configure-info-on-gantt-chart.md).

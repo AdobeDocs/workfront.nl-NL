@@ -18,8 +18,8 @@ ht-degree: 0%
 
 Deze sectie bevat de volgende subsecties:
 
-* [ API ](../wf-api/api/api.md)
-* [ Webhooks API van het Document ](../wf-api/doc-wbhks-api/document-webhooks-api.md)
-* [ API Algemeen ](../wf-api/general/api-general.md)
-* [ Uiteinden, trucs, en het oplossen van problemen voor Adobe Workfront API ](../wf-api/tips-tricks-and-troubleshooting/tips-troubleshoot-api.md)
+* [&#x200B; API &#x200B;](../wf-api/api/api.md)
+* [&#x200B; Webhooks API van het Document &#x200B;](../wf-api/doc-wbhks-api/document-webhooks-api.md)
+* [&#x200B; API Algemeen &#x200B;](../wf-api/general/api-general.md)
+* [&#x200B; Uiteinden, trucs, en het oplossen van problemen voor Adobe Workfront API &#x200B;](../wf-api/tips-tricks-and-troubleshooting/tips-troubleshoot-api.md)
 * [Adobe Workfront-objecten](../wf-api/wf-objects/workfront-objects.md)

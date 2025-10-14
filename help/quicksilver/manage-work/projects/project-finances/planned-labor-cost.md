@@ -45,7 +45,7 @@ De taak Geplande Kosten van de Arbeid wordt berekend gebruikend de volgende form
 Task Planned Cost = Planned Hours x User or Job Role Cost Per Hour
 ```
 
-Voor meer informatie over hoe Workfront Geplande Kosten van de Arbeid voor taken berekent, afhankelijk van taaktaken en het Type van Kosten, zie de &quot;wijzigt de Types van Kosten voor individuele taken&quot;sectie in het artikel [ Kosten van het Spoor ](../../../manage-work/projects/project-finances/track-costs.md).
+Voor meer informatie over hoe Workfront Geplande Kosten van de Arbeid voor taken berekent, afhankelijk van taaktaken en het Type van Kosten, zie de &quot;wijzigt de Types van Kosten voor individuele taken&quot;sectie in het artikel [&#x200B; Kosten van het Spoor &#x200B;](../../../manage-work/projects/project-finances/track-costs.md).
 
 ## Zoek de geplande arbeidskosten
 
@@ -58,5 +58,5 @@ U kunt de geplande arbeidskosten van een project in de volgende gebieden van Wor
 
 Raadpleeg de volgende artikelen voor informatie over het maken van rapporten en het gebruik van de Workfront API:
 
-* [ creeer een douanerapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)
+* [&#x200B; creeer een douanerapport &#x200B;](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)
 * [Basisbeginselen van API](../../../wf-api/general/api-basics.md)

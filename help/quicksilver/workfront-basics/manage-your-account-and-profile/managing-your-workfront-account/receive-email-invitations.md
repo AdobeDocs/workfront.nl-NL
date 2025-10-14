@@ -47,9 +47,9 @@ Wanneer een beheerder van [!DNL Workfront] een nieuwe gebruiker maakt, kan de ni
 * Of de gebruiker toegang heeft tot andere [!DNL Adobe] -producten of een nieuwe [!DNL Adobe] -gebruiker is
 * Of de beheerder de gebruiker een e-mailuitnodiging heeft gestuurd (alleen van toepassing op organisaties die zich nog niet in de [!DNL Admin Console] bevinden)
 
-Voor meer informatie over hoe een [!DNL Workfront] beheerder e-mailuitnodigingen verzendt terwijl het creëren van nieuwe gebruikers, zie [ e-mailuitnodigingen aan nieuwe gebruikers beheren ](../../../administration-and-setup/manage-workfront/emails/manage-email-invitations.md).
+Voor meer informatie over hoe een [!DNL Workfront] beheerder e-mailuitnodigingen verzendt terwijl het creëren van nieuwe gebruikers, zie [&#x200B; e-mailuitnodigingen aan nieuwe gebruikers beheren &#x200B;](../../../administration-and-setup/manage-workfront/emails/manage-email-invitations.md).
 
-Voor meer informatie over hoe een beheerder van Workfront nieuwe gebruikers aan [!DNL Adobe Workfront] toevoegt, zie [ gebruikers ](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md) toevoegen.
+Voor meer informatie over hoe een beheerder van Workfront nieuwe gebruikers aan [!DNL Adobe Workfront] toevoegt, zie [&#x200B; gebruikers &#x200B;](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md) toevoegen.
 
 ## Een wachtwoord maken voor [!DNL Workfront]
 
@@ -63,7 +63,7 @@ Een wachtwoord maken voor [!DNL Workfront] met de e-mail met de uitnodiging:
 
 1. Klik op **[!UICONTROL Get Started]** in de uitnodigingse-mail van Workfront.
 
-   ![ Nieuw gebruikersscherm van e-mailuitnodiging ](assets/new-user-screen-from-invitation-adobe-350x292.png)
+   ![&#x200B; Nieuw gebruikersscherm van e-mailuitnodiging &#x200B;](assets/new-user-screen-from-invitation-adobe-350x292.png)
 
 1. Geef de volgende informatie op:\
    **[!UICONTROL First Name]**: Uw voornaam (moet worden voorgevuld).\

@@ -25,7 +25,7 @@ in January 2022
 
 4 april 2022.
 
-Voor een lijst van alle veranderingen beschikbaar met de versie 22.2, zie [ 22.2 Overzicht van de Versie ](../../../product-announcements/product-releases/22.2-release-activity/22-2-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar met de versie 22.2, zie [&#x200B; 22.2 Overzicht van de Versie &#x200B;](../../../product-announcements/product-releases/22.2-release-activity/22-2-release-overview.md).
 
 ## Verbeteringen aan de bovenste navigatiebalk
 
@@ -35,7 +35,7 @@ We hebben verschillende verbeteringen aangebracht in de bovenste navigatiebalk v
 * De vormgeving van zowel de punten als het hoofdmenu is aangepast aan de ontwerpstandaarden van de Adobe, waaronder kleuren en lettertypen. De manier waarop u pinnen toevoegt en verwijdert, en de gebieden waartoe u toegang hebt in het hoofdmenu, zijn niet gewijzigd.
 * De pictogrammen aan de rechterkant van de bovenste navigatiebalk zijn opnieuw gerangschikt om intuïtiever te zijn. De pictogramvolgorde is: Help-koppeling, meldingen, favorieten, verlopen, zoeken, hoofdmenu.
 
-Voor meer informatie, zie [ het Hoogste overzicht van de navigatiebar ](../../../workfront-basics/the-new-workfront-experience/global-navigation-overview.md).
+Voor meer informatie, zie [&#x200B; het Hoogste overzicht van de navigatiebar &#x200B;](../../../workfront-basics/the-new-workfront-experience/global-navigation-overview.md).
 
 ## Opnieuw ontworpen timesheet-lijsten
 
@@ -46,5 +46,5 @@ Enkele hoogtepunten van dit nieuwe ontwerp zijn:
 * De timesheet-lijst komt nu overeen met de ervaring in alle andere lijsten in Workfront.
 * De filterervaring komt nu overeen met de filters in alle andere lijsten. U hebt meer flexibiliteit om uw eigen filters te maken met de velden en kenmerken die u het meest aanspreken en deze met andere gebruikers te delen.
 
-Voor meer informatie over het creëren van timesheets die de nieuwe lijsten gebruiken, zie [ een enig-gebruiks timesheet ](../../../timesheets/create-and-manage-timesheets/create-tmshts.md) creëren.
+Voor meer informatie over het creëren van timesheets die de nieuwe lijsten gebruiken, zie [&#x200B; een enig-gebruiks timesheet &#x200B;](../../../timesheets/create-and-manage-timesheets/create-tmshts.md) creëren.
 

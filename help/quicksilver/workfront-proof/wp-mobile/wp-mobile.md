@@ -15,9 +15,9 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [ het Bewijzen ](../../review-and-approve-work/proofing/proofing.md).
+>Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [&#x200B; het Bewijzen &#x200B;](../../review-and-approve-work/proofing/proofing.md).
 
 Deze sectie bevat de volgende artikelen:
 
-* [ Uiteinden, trucs, en het oplossen van problemen ](https://experience.workfront.com/s/article/Tips-tricks-and-troubleshooting-1369688232)
-* [[!DNL Workfront Proof]  Mobiele Apps ](https://experience.workfront.com/s/article/Workfront-Proof-mobile-app-1302522751)
+* [&#x200B; Uiteinden, trucs, en het oplossen van problemen &#x200B;](https://experience.workfront.com/s/article/Tips-tricks-and-troubleshooting-1369688232)
+* [[!DNL Workfront Proof]  Mobiele Apps &#x200B;](https://experience.workfront.com/s/article/Workfront-Proof-mobile-app-1302522751)

@@ -20,7 +20,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [ het Bewijzen ](../../../review-and-approve-work/proofing/proofing.md).
+>Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [&#x200B; het Bewijzen &#x200B;](../../../review-and-approve-work/proofing/proofing.md).
 
 Met [!DNL Workfront Proof] kunt u proefdrukken maken van documenten of websites en deze proefdrukken delen met anderen. In de volgende stappen worden de verschillende configuratieopties beschreven die beschikbaar zijn:
 
@@ -36,25 +36,25 @@ Met [!DNL Workfront Proof] kunt u proefdrukken maken van documenten of websites 
    * Sleep een document van het bestandssysteem naar het gebied voor slepen en neerzetten in het **[!UICONTROL Add Files]** -gebied.
    * In het **[!UICONTROL Add Files]** gebied, klik **doorblader** verbinding om het document te vinden en te selecteren u van het dossiersysteem op uw werkstation wilt uploaden.
 
-     ![ proof_document_upload.png ](assets/proof-document-upload-350x64.png)
+     ![&#x200B; proof_document_upload.png &#x200B;](assets/proof-document-upload-350x64.png)
 
 1. Als u een website wilt controleren, voert u de URL van de website in het gebied **[!UICONTROL Add Files]** in en drukt u op **[!UICONTROL Enter]** . Herhaal deze stap om meerdere websites aan een proefdruk toe te voegen.
 
-   Voor meer details over het proefdrukken van websites, zie [ een proef voor een URL ](#generate-a-proof-for-a-url) produceren.
+   Voor meer details over het proefdrukken van websites, zie [&#x200B; een proef voor een URL &#x200B;](#generate-a-proof-for-a-url) produceren.
 
-   ![ Website van het proef ](assets/proof-website-350x65.png)
+   ![&#x200B; Website van het proef &#x200B;](assets/proof-website-350x65.png)
 
 1. (Optioneel) Wijzig de bestandsnamen van geüploade bestanden:
 
    1. Houd de muisaanwijzer boven de documentnaam die u wilt wijzigen in de documentlijst en klik vervolgens op het pictogram **[!UICONTROL Edit]** .
 
-      ![ proof_edit.png ](assets/proof-edit-350x53.png)
+      ![&#x200B; proof_edit.png &#x200B;](assets/proof-edit-350x53.png)
 
    1. Geef in het veld **[!UICONTROL Proof name]** een nieuwe naam op en klik vervolgens op **[!UICONTROL Done]** .
 
    1. (Optioneel) Als u bestanden wilt verwijderen die u wilt uploaden, plaatst u de muisaanwijzer boven het document dat u wilt verwijderen in de documentlijst en klikt u op het pictogram **[!UICONTROL Delete]** .
 
-      ![ proof_delete.png ](assets/proof-delete-350x53.png)
+      ![&#x200B; proof_delete.png &#x200B;](assets/proof-delete-350x53.png)
 
    1. (Optioneel) Schakel de optie **[!UICONTROL Combine all compatible files into single proof]** in.
 
@@ -70,17 +70,17 @@ Met [!DNL Workfront Proof] kunt u proefdrukken maken van documenten of websites 
 
       1. Schakel de optie **[!UICONTROL Combine all compatible files into single proof]** in.
       1. Voer in het veld **[!UICONTROL Proof name]** een nieuwe naam in voor de gecombineerde proefdruk.
-      1. Wijzig in het gebied **[!UICONTROL Add Files]** de volgorde van de opgenomen bestanden door een bestand in de gewenste volgorde te slepen. De volgorde van de bestanden is de paginavolgorde van de gecombineerde proefdruk. Voor meer informatie over het creëren van gecombineerde proeven, zie [ tot een multi-paginaproef ](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-multi-page-proof.md) leiden.
+      1. Wijzig in het gebied **[!UICONTROL Add Files]** de volgorde van de opgenomen bestanden door een bestand in de gewenste volgorde te slepen. De volgorde van de bestanden is de paginavolgorde van de gecombineerde proefdruk. Voor meer informatie over het creëren van gecombineerde proeven, zie [&#x200B; tot een multi-paginaproef &#x200B;](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-multi-page-proof.md) leiden.
 
 1. (Optioneel) Als u een geautomatiseerde workflow wilt gebruiken die meerdere fasen omvat, selecteert u een van de volgende opties in de sectie **[!UICONTROL Workflow]** :
 
    * **Basis:** selecteer deze optie om gebruikers aan te wijzen die u toegang tot de proef onmiddellijk wilt hebben nadat het wordt gecreeerd. U kunt de proefdruk delen met meerdere gebruikers.
 
-     Voor meer informatie over het delen van een proef, zie [ een proef binnen  [!DNL Adobe Workfront]](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md) delen.
+     Voor meer informatie over het delen van een proef, zie [&#x200B; een proef binnen  [!DNL Adobe Workfront]](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md) delen.
 
    * **Geautomatiseerd:** selecteer deze optie om inhoudsoverzicht en goedkeuring te beheren wanneer u complexe overzichtsprocessen hebt, of als u inhoud voor overzicht naar de zelfde groepen regelmatig verzendt. Met een geautomatiseerde workflow wordt de proefdruk verplaatst van het werkgebied naar het werkgebied tot de definitieve goedkeuring. De betrokken gebruikers worden op elk moment op de hoogte gebracht dat zij een goedkeuring moeten verlenen.
 
-     Voor meer informatie over het creëren van een Geautomatiseerd Werkschema, zie [ Opstelling een bewijs met een Geautomatiseerde Werkschema in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/automated-workflow/set-up-proof-auto-workflow.md#create2).
+     Voor meer informatie over het creëren van een Geautomatiseerd Werkschema, zie [&#x200B; Opstelling een bewijs met een Geautomatiseerde Werkschema in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/automated-workflow/set-up-proof-auto-workflow.md#create2).
 
 1. Geef op of u e-mailmeldingen en een aangepast bericht wilt verzenden naar de gebruikers die u in de vorige stap hebt geselecteerd:
 
@@ -161,11 +161,11 @@ U kunt een statisch bewijs produceren gebruikend een website URL.
 
 1. (Optioneel) Herhaal dit proces om meerdere websites aan de proefdruk toe te voegen.
 
-   ![ proof_website.png ](assets/proof-website-350x65.png)
+   ![&#x200B; proof_website.png &#x200B;](assets/proof-website-350x65.png)
 
 1. In het **[!UICONTROL Add Files]** gebied, klik **uitgeven** pictogram rechts van URL om de details van de websiteproef te openen.
 
-   ![ proof_upload_website_modify.png ](assets/proof-upload-website-modify-350x185.png)
+   ![&#x200B; proof_upload_website_modify.png &#x200B;](assets/proof-upload-website-modify-350x185.png)
 
 1. Voer een **[!UICONTROL Proof name]** in. Standaard is de proefdruknaam dezelfde als de URL van de site.
 
@@ -208,20 +208,20 @@ U kunt een statisch bewijs produceren gebruikend een website URL.
 
 <!--A Pro Workfront Plan or higher is required to use this feature. For more information about the various plans available, see [Workfront Plans](https://www.workfront.com/plans).-->
 
-Voor meer informatie over Interactieve inhoud, zie [ Interactieve inhoudsproeven overzicht ](../../../review-and-approve-work/proofing/proofing-overview/interactive-content-proofs.md).
+Voor meer informatie over Interactieve inhoud, zie [&#x200B; Interactieve inhoudsproeven overzicht &#x200B;](../../../review-and-approve-work/proofing/proofing-overview/interactive-content-proofs.md).
 
 * [Interactieve inhoud toevoegen als een URL](#add-interactive-content-as-a-url)
 * [Interactieve inhoud toevoegen als ZIP-bestand](#add-interactive-content-as-a-zip-file)
 
 ### Interactieve inhoud toevoegen als een URL {#add-interactive-content-as-a-url}
 
-Voor informatie over hoe te om een interactieve proef toe te voegen URL, zie [ een proef voor een URL ](#generate-a-proof-for-a-url) produceren.
+Voor informatie over hoe te om een interactieve proef toe te voegen URL, zie [&#x200B; een proef voor een URL &#x200B;](#generate-a-proof-for-a-url) produceren.
 
 ### Interactieve inhoud toevoegen als ZIP-bestand {#add-interactive-content-as-a-zip-file}
 
 1. Bereid uw inhoud voor door een ZIP-gebundeld bestand te maken.
 
-   Voor informatie over .zip gebundelde dossierspecificaties, zie [ Interactieve overzicht van inhoudsproeven ](../../../review-and-approve-work/proofing/proofing-overview/interactive-content-proofs.md).
+   Voor informatie over .zip gebundelde dossierspecificaties, zie [&#x200B; Interactieve overzicht van inhoudsproeven &#x200B;](../../../review-and-approve-work/proofing/proofing-overview/interactive-content-proofs.md).
 
 1. Voer een van de volgende handelingen uit om de pagina **[!UICONTROL New Proof]** te openen:
 

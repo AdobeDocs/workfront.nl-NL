@@ -15,9 +15,9 @@ ht-degree: 0%
 
 # Verslag over het begrote uur voor de planning van hulpbronnen
 
-U kunt middelen op uw projecten begroten door de Planner van het Middel te gebruiken. Voor informatie over het in de begroting opnemen van uw middelen die de Planner van het Middel van Adobe Workfront gebruiken, zie de artikel [ middelen van de Begroting in de Planner van het Middel gebruikend de meningen van het Project en van de Rol ](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md).
+U kunt middelen op uw projecten begroten door de Planner van het Middel te gebruiken. Voor informatie over het in de begroting opnemen van uw middelen die de Planner van het Middel van Adobe Workfront gebruiken, zie de artikel [&#x200B; middelen van de Begroting in de Planner van het Middel gebruikend de meningen van het Project en van de Rol &#x200B;](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md).
 
-De begrotingsmiddelen betekenen dat u een bepaald aantal uren bepaalt (of begroot) dat de middelen op een project hun werk aan het project moeten voltooien. Om de in de begroting opgenomen uurinformatie te delen die u in de Planner van het Middel met andere gebruikers ingaat die geen toegang tot de Planner van het Middel zouden kunnen hebben, kunt u een rapport van het Boedgeted Uur bouwen. Voor informatie, zie [ Rapport: Beoogde Uur ](../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/report-budgeted-hour.md).
+De begrotingsmiddelen betekenen dat u een bepaald aantal uren bepaalt (of begroot) dat de middelen op een project hun werk aan het project moeten voltooien. Om de in de begroting opgenomen uurinformatie te delen die u in de Planner van het Middel met andere gebruikers ingaat die geen toegang tot de Planner van het Middel zouden kunnen hebben, kunt u een rapport van het Boedgeted Uur bouwen. Voor informatie, zie [&#x200B; Rapport: Beoogde Uur &#x200B;](../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/report-budgeted-hour.md).
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this is all drafted - below - same content as the one in the standalone Report: Budgeted Hour article - consider deleting that and just keeping the infomation here?!)</p>

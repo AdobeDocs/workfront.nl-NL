@@ -49,7 +49,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -61,11 +61,11 @@ Omgekeerd, staat het ontgrendelen van een project, een taak, of een uitgiftevoor
 
 Als een veld geen schakelaar voor vergrendelen/ontgrendelen heeft, kan de configuratie van instellingen op groepsniveau niet worden ontgrendeld door groepsbeheerders. Configuratie is alleen beschikbaar op systeemniveau.
 
-Voor instructies bij het sluiten van of het ontgrendelen van een systeem-vlakke project, ziet de taak, of de uitgiftevoorkeur, [ taak voor het hele systeem vormen en voorkeur uitgeven ](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+Voor instructies bij het sluiten van of het ontgrendelen van een systeem-vlakke project, ziet de taak, of de uitgiftevoorkeur, [&#x200B; taak voor het hele systeem vormen en voorkeur uitgeven &#x200B;](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
 >[!NOTE]
 >
->Nadat een [!DNL Workfront] beheerder een voorkeur op het systeemniveau ontgrendelt, kan om het even welke groepbeheerder het vormen en dan het sluiten om ervoor te zorgen dat iedereen in hun groep en subgroups hieronder de zelfde configuratie gebruikt. Dit is parallel aan de mogelijkheid dat een [!DNL Workfront] -beheerder een voorkeur voor iedereen in het systeem moet configureren en vergrendelen. Voor meer informatie, zie [ projectvoorkeur voor een groep ](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md) en [ Slot of ontgrendel een project, een taak, of een uitgiftevoorkeur voor subgroups ](../../../administration-and-setup/manage-groups/create-and-manage-groups/lock-or-unlock-a-group-preference.md) vormen.
+>Nadat een [!DNL Workfront] beheerder een voorkeur op het systeemniveau ontgrendelt, kan om het even welke groepbeheerder het vormen en dan het sluiten om ervoor te zorgen dat iedereen in hun groep en subgroups hieronder de zelfde configuratie gebruikt. Dit is parallel aan de mogelijkheid dat een [!DNL Workfront] -beheerder een voorkeur voor iedereen in het systeem moet configureren en vergrendelen. Voor meer informatie, zie [&#x200B; projectvoorkeur voor een groep &#x200B;](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md) en [&#x200B; Slot of ontgrendel een project, een taak, of een uitgiftevoorkeur voor subgroups &#x200B;](../../../administration-and-setup/manage-groups/create-and-manage-groups/lock-or-unlock-a-group-preference.md) vormen.
 
 ## Ontgrendel een projectvoorkeur zodat de groepen het kunnen vormen
 
@@ -75,7 +75,7 @@ Voor instructies bij het sluiten van of het ontgrendelen van een systeem-vlakke 
 
 1. Voer een van de volgende handelingen uit:
 
-   * Als u groepsbeheerders een voorkeur voor hun groepen wilt kunnen vormen, ontgrendel het ![ knevel van de Ontgrendeling ](assets/unlock-toggle-button.png).
+   * Als u groepsbeheerders een voorkeur voor hun groepen wilt kunnen vormen, ontgrendel het ![&#x200B; knevel van de Ontgrendeling &#x200B;](assets/unlock-toggle-button.png).
    * Als u wilt dat alle groepen uw configuratie voor een voorkeur gebruiken, zorg ervoor dat het gesloten is (dit is het gebrek).
 
      >[!IMPORTANT]

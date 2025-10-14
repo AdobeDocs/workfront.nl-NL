@@ -30,5 +30,5 @@ Hierdoor wordt een interactieve proefdruk gemaakt waarin de video kan worden bek
 
 ## De proefdruk controleren
 
-1. Installeer de Desktop het proef van mening zoals die in [ wordt beschreven installeer de Desktop het proef kijker ](/help/quicksilver/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/installing-desktop-proofing-viewer.md).
+1. Installeer de Desktop het proef van mening zoals die in [&#x200B; wordt beschreven installeer de Desktop het proef kijker &#x200B;](/help/quicksilver/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/installing-desktop-proofing-viewer.md).
 1. Als de viewer is geïnstalleerd, navigeert u naar de proefdruk en opent u deze. De Desktop Proofing Viewer wordt automatisch geopend als de proefdruk is gemaakt als een interactieve proefdruk zoals beschreven in de sectie hierboven.

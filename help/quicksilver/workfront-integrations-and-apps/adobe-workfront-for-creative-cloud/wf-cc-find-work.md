@@ -122,4 +122,4 @@ Gebruik de balk [!UICONTROL Search] om projecten, taken, problemen en documenten
 
 Met het pictogram [!UICONTROL Menu] kunt u naar bovenliggende items in een project navigeren.
 
-![ Terugkeer aan de Lijst van het Werk ](assets/go-back-to-work-list-350x314.png)
+![&#x200B; Terugkeer aan de Lijst van het Werk &#x200B;](assets/go-back-to-work-list-350x314.png)

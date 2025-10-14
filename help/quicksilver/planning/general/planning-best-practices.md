@@ -270,7 +270,7 @@ U kunt voor elk recordtype een aanvraagformulier maken wanneer u wilt dat gebrui
 
 #### Hoe moet ik een aanvraagformulier voor een recordtype maken of bewerken?
 
-* ✅ Om het even welke gebruiker met Manage toegang tot de werkruimte kan de stappen volgen die in artikel [ worden beschreven creeert en beheert een verzoekvorm in de Planning van Adobe Workfront ](/help/quicksilver/planning/requests/create-request-form.md).
+* ✅ Om het even welke gebruiker met Manage toegang tot de werkruimte kan de stappen volgen die in artikel [&#x200B; worden beschreven creeert en beheert een verzoekvorm in de Planning van Adobe Workfront &#x200B;](/help/quicksilver/planning/requests/create-request-form.md).
 
 
 #### Wie kan nieuwe records verzenden met behulp van het aanvraagformulier?

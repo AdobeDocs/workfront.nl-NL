@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Deze pagina beschrijft alle projectverbeteringen die zijn aangebracht met de release van het vierde kwartaal van 2023 voor de voorvertoningsomgeving. Deze verbeteringen zijn beschikbaar gesteld in de productieomgeving met de release van 23.10.
 
-Voor een lijst van alle veranderingen beschikbaar op dit punt in het Vierde Kwartaal 2023 versiecyclus, zie [ Vierde Kwartaal 2023 releaseoverzicht ](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar op dit punt in het Vierde Kwartaal 2023 versiecyclus, zie [&#x200B; Vierde Kwartaal 2023 releaseoverzicht &#x200B;](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).
 
 ## Goedkeuring van nieuwe documenten
 
@@ -28,9 +28,9 @@ In deze versie is het goedkeuringsproces gestroomlijnd voor zowel het maken van 
 * Verbeterd proces voor het toevoegen van een externe fiatteur of revisor
 * Verbeterde ervaring voor goedkeuren en controleren voor externe fiatteurs en revisoren
 
-Voor meer informatie bij het gebruiken van de nieuwe documentgoedkeuringen, zie [ het Nieuwe Overzicht van de Goedkeuringen van het Document ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md).
+Voor meer informatie bij het gebruiken van de nieuwe documentgoedkeuringen, zie [&#x200B; het Nieuwe Overzicht van de Goedkeuringen van het Document &#x200B;](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md).
 
-[ Bekijk een videodemonstratie van deze eigenschap.](https://video.tv.adobe.com/v/3424867){target=_blank}
+[&#x200B; Bekijk een videodemonstratie van deze eigenschap.](https://video.tv.adobe.com/v/3424867){target=_blank}
 
 ## Bijgewerkt ontwerp wanneer het toevoegen van een nieuwe kwestie aan een project
 
@@ -38,7 +38,7 @@ Deze update is aangekondigd met de release 23.3.
 
 We hebben het vak Nieuwe uitgave bijgewerkt, dat wordt weergegeven wanneer u een nieuwe uitgave naar een project verzendt. Nu, past de interface het Nieuwe verzoekvakje aan dat toont wanneer het voorleggen van een nieuw verzoek aan een verzoekrij.
 
-Voor meer informatie, zie [ kwesties ](/help/quicksilver/manage-work/issues/manage-issues/create-issues.md) creëren.
+Voor meer informatie, zie [&#x200B; kwesties &#x200B;](/help/quicksilver/manage-work/issues/manage-issues/create-issues.md) creëren.
 
 ## Dynamische herberekening van berekende velden op formulieren
 
@@ -48,15 +48,15 @@ De manier waarop de velden worden berekend, is niet gewijzigd.
 
 Een klein aantal formuliervelden kan niet dynamisch opnieuw worden berekend op pagina&#39;s die niet zijn gemoderniseerd.
 
-Voor meer informatie, zie [ informatie op de gebieden van de douanevorm ](/help/quicksilver/workfront-basics/work-with-custom-forms/edit-custom-forms.md) uitgeven.
+Voor meer informatie, zie [&#x200B; informatie op de gebieden van de douanevorm &#x200B;](/help/quicksilver/workfront-basics/work-with-custom-forms/edit-custom-forms.md) uitgeven.
 
-[ Bekijk een videodemonstratie van deze eigenschap.](https://video.tv.adobe.com/v/3422678/){target=_blank}
+[&#x200B; Bekijk een videodemonstratie van deze eigenschap.](https://video.tv.adobe.com/v/3422678/){target=_blank}
 
 ## Geplande uren instellen voor terugkerende taken van onderliggende items met het type Eenvoudige duur zonder toewijzingen
 
 We hebben een wijziging aangebracht in de manier waarop geplande uren worden toegewezen aan terugkerende taken zonder toewijzingen en met een eenvoudige tijdsduur. Nu, wanneer u Geplande Uren op een nieuwe terugkomende taak met een Eenvoudig Type van Duur en geen taken plaatst, worden de uren ook toegewezen aan de individuele herhalingen. Vóór deze wijziging werden de uren niet opgeslagen voor afzonderlijke herhalingen toen de bovenliggende taken niet werden toegewezen.
 
-Voor informatie over het creëren van terugkomende taken, zie [ terugkomende taken ](/help/quicksilver/manage-work/tasks/create-tasks/create-recurring-tasks.md) creëren.
+Voor informatie over het creëren van terugkomende taken, zie [&#x200B; terugkomende taken &#x200B;](/help/quicksilver/manage-work/tasks/create-tasks/create-recurring-tasks.md) creëren.
 
 ## Real-time updates op takenlijst
 

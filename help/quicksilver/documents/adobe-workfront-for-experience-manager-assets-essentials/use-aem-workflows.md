@@ -73,7 +73,7 @@ Voor informatie bij het vragen van om extra toegang, zie <strong> de toegang van
 
 Voordat u begint,
 
-* Uw Workfront-beheerder moet workflows configureren in een Adobe Experience Manager-integratie. Voor meer informatie, zie [ de as a Cloud Service integratie van Experience Manager Assets ](../../administration-and-setup/configure-integrations/configure-aacs-integration.md#set-up-workflows-optional) vormen.
+* Uw Workfront-beheerder moet workflows configureren in een Adobe Experience Manager-integratie. Voor meer informatie, zie [&#x200B; de as a Cloud Service integratie van Experience Manager Assets &#x200B;](../../administration-and-setup/configure-integrations/configure-aacs-integration.md#set-up-workflows-optional) vormen.
 
 ## Een workflow toevoegen aan een sjabloon
 
@@ -89,7 +89,7 @@ U kunt een werkschema aan een projectmalplaatje toevoegen. De workflow wordt toe
 1. In **selecteer een integratie voor geautomatiseerd werkstroomgebied**, selecteer de integratie met de werkschema&#39;s u voor projecten wilt gebruiken die van dit malplaatje worden gecreeerd.
 1. (Optioneel) Bewerk de workflowwaarden die u wilt toepassen op projecten die op basis van deze sjabloon zijn gemaakt.
 
-   Voor instructies op specifieke werkschema&#39;s, zie [ werkschemawaarden in een project ](#edit-workflow-values-in-a-project) in dit artikel uitgeven.
+   Voor instructies op specifieke werkschema&#39;s, zie [&#x200B; werkschemawaarden in een project &#x200B;](#edit-workflow-values-in-a-project) in dit artikel uitgeven.
 
    Slechts zijn de werkschema&#39;s die op het gebied van de Experience Manager van Opstelling zijn geactiveerd beschikbaar in malplaatjes of projecten.
 
@@ -103,10 +103,10 @@ U kunt een workflow toevoegen wanneer u een project maakt of een workflow toevoe
 
 1. Beginnen met het maken van een project.
 
-   Voor instructies, zie [ een project creëren gebruikend een malplaatje ](/help/quicksilver/manage-work/projects/create-projects/create-project-from-template.md).
+   Voor instructies, zie [&#x200B; een project creëren gebruikend een malplaatje &#x200B;](/help/quicksilver/manage-work/projects/create-projects/create-project-from-template.md).
 
 1. Wanneer het selecteren van een malplaatje voor het project, selecteer het malplaatje dat de werkschema&#39;s bevat u voor dit project wilt gebruiken.
-1. (Facultatief) geef om het even welke werkschemawaarden voor het project uit, zoals die in [ worden beschreven werkschemawaarden in een project ](#edit-workflow-values-in-a-project) uitgeven.
+1. (Facultatief) geef om het even welke werkschemawaarden voor het project uit, zoals die in [&#x200B; worden beschreven werkschemawaarden in een project &#x200B;](#edit-workflow-values-in-a-project) uitgeven.
 
    Slechts zijn de werkschema&#39;s die op het gebied van de Experience Manager van Opstelling zijn geactiveerd beschikbaar in malplaatjes of projecten.
 
@@ -119,10 +119,10 @@ U kunt een workflow toevoegen wanneer u een project maakt of een workflow toevoe
 
 1. Begin een malplaatje aan het project toe te voegen.
 
-   Voor instructies, zie [ een malplaatje aan een project ](/help/quicksilver/manage-work/projects/create-and-manage-templates/attach-template-to-project.md) vastmaken.
+   Voor instructies, zie [&#x200B; een malplaatje aan een project &#x200B;](/help/quicksilver/manage-work/projects/create-and-manage-templates/attach-template-to-project.md) vastmaken.
 
 1. Wanneer het selecteren van een malplaatje voor het project, selecteer het malplaatje dat de werkschema&#39;s bevat u voor dit project wilt gebruiken.
-1. (Facultatief) geef om het even welke werkschemawaarden voor het project uit, zoals die in [ worden beschreven werkschemawaarden in een project ](#edit-workflow-values-in-a-project) uitgeven.
+1. (Facultatief) geef om het even welke werkschemawaarden voor het project uit, zoals die in [&#x200B; worden beschreven werkschemawaarden in een project &#x200B;](#edit-workflow-values-in-a-project) uitgeven.
 
    Slechts zijn de werkschema&#39;s die op het gebied van de Experience Manager van Opstelling zijn geactiveerd beschikbaar in malplaatjes of projecten.
 
@@ -154,7 +154,7 @@ De workflow voor gekoppelde mappen bewerken:
 
 1. Schakel **[!UICONTROL Create Linked folder]** naar wens in of uit. Als u dit inschakelt, kunt u de configuratie van de gekoppelde map bewerken.
 
-   Voor details op de verbonden omslagconfiguratie, zie [ Adobe Experience Manager verbonden omslagen ](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md#create-adobe-experience-manager-linked-folders) in het artikel [ vormen de [!UICONTROL Experience Manager Assets as a Cloud Service] integratie ](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md).
+   Voor details op de verbonden omslagconfiguratie, zie [&#x200B; Adobe Experience Manager verbonden omslagen &#x200B;](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md#create-adobe-experience-manager-linked-folders) in het artikel [&#x200B; vormen de [!UICONTROL Experience Manager Assets as a Cloud Service] integratie &#x200B;](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md).
 
 1. (Facultatief) als u de omslagboom wilt worden gebouwd slechts als bepaalde waarden op een douaneformulier aanwezig zijn in bijlage aan het project, **filter** voor die omslagboom toepassen, dan de douaneformulier selecteren die het gebied, het gebied, en de gebiedswaarde bevat. Als het veld op het aangepaste formulier dat is gekoppeld aan het nieuwe project de gekozen waarde bevat, wordt de mapstructuur gemaakt.
 1. (Optioneel) Bij het configureren van mapnamen kunt u een van de volgende opties kiezen:
@@ -169,7 +169,7 @@ De workflow voor gekoppelde mappen bewerken:
 
      Als een omslagnaam aan douanegegevens wordt geplaatst die niet op de douane voor in bijlage aan het project bestaan, zal willekeurige identiteitskaart als omslagnaam worden toegewezen.
 
-1. Om de omslagboom te bekijken, klik het **![ pictogram van de Voorproef ](assets/preview-icon.png)**
+1. Om de omslagboom te bekijken, klik het **![&#x200B; pictogram van de Voorproef &#x200B;](assets/preview-icon.png)**
 1. Klik op **[!UICONTROL Save]**.
 
 #### Elementen publiceren

@@ -19,7 +19,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [ het Bewijzen ](../../../review-and-approve-work/proofing/proofing.md).
+>Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [&#x200B; het Bewijzen &#x200B;](../../../review-and-approve-work/proofing/proofing.md).
 
 In deze sectie ziet u de opties voor het instellen van vooraf gebouwde integratiekoppelingen met toepassingen van derden.
 
@@ -27,10 +27,10 @@ Hier vindt u ook uw verificatietoken waarmee software van derden via de API verb
 
 De huidige integratiepunten zijn beschikbaar voor het volgende:
 
-* Openbare API (1) - zie onze specifieke [ API hulppagina ](https://api.proofhq.com/)
-* [!DNL Basecamp] (2) - Bekijk onze toegewijde [[!DNL Basecamp] ](https://support.workfront.com/hc/en-us/sections/115000911927-Basecamp) en [[!DNL Basecamp Classic] ](https://support.workfront.com/hc/en-us/categories/115000588707-Basecamp-Classic) Help-pagina&#39;s
+* Openbare API (1) - zie onze specifieke [&#x200B; API hulppagina &#x200B;](https://api.proofhq.com/)
+* [!DNL Basecamp] (2) - Bekijk onze toegewijde [[!DNL Basecamp] &#x200B;](https://support.workfront.com/hc/en-us/sections/115000911927-Basecamp) en [[!DNL Basecamp Classic] &#x200B;](https://support.workfront.com/hc/en-us/categories/115000588707-Basecamp-Classic) Help-pagina&#39;s
 
 * [!DNL NetSuite] (3)
 * [!DNL WorkFront] (4)
 
-![ Integrations_tab_-_Personal_Settings.png ](assets/integrations-tab---personal-settings-350x323.png)
+![&#x200B; Integrations_tab_-_Personal_Settings.png &#x200B;](assets/integrations-tab---personal-settings-350x323.png)

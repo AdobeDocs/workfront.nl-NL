@@ -25,7 +25,7 @@ in January 2022
 
 4 april 2022.
 
-Voor een lijst van alle veranderingen beschikbaar met de versie 22.2, zie [ 22.2 Overzicht van de Versie ](../../../product-announcements/product-releases/22.2-release-activity/22-2-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar met de versie 22.2, zie [&#x200B; 22.2 Overzicht van de Versie &#x200B;](../../../product-announcements/product-releases/22.2-release-activity/22-2-release-overview.md).
 
 ## Tekeningen en opmerkingen over proefdocumenten in de mobiele app
 

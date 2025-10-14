@@ -23,18 +23,18 @@ ht-degree: 0%
 -->
 
 U kunt de toewijzing en beschikbaarheid van uw middelen in de Planner van het Middel door Uren, VTE, of Kosten tonen.\
-Voor meer informatie over het berekenen van Kosten in de Planner van het Middel, zie [ kosten in de Planner van het Middel berekenen ](../../resource-mgmt/resource-planning/calculate-costs-resource-planner.md).
+Voor meer informatie over het berekenen van Kosten in de Planner van het Middel, zie [&#x200B; kosten in de Planner van het Middel berekenen &#x200B;](../../resource-mgmt/resource-planning/calculate-costs-resource-planner.md).
 
 FTE (Full Time Equivalent) is een tijdsmeting die de hoeveelheid uren vertegenwoordigt die aan echt werk tijdens een dag of week voor een gebruiker of baanrol wordt gewijd.
 
 De volgende reeksen van middelinformatie worden berekend verschillend in de Planner van het Middel:
 
 * De waarden voor Beschikbare uren of FTE worden berekend op basis van de manier waarop de systeembeheerder de voorkeuren voor Bronbeheer in uw systeem configureert.\
-  Voor meer informatie over hoe de Beschikbare Uren en FTE waarden worden berekend, zie [ Beschikbare Uren of FTE voor gebruikers en baanrollen in de Planner van het Middel berekenen ](#calculate-available-hours-or-fte-for-users-and-job-roles-in-the-resource-planner).\
-  Voor meer informatie over het bepalen van de voorkeur van het Beheer van het Middel voor het systeem van Adobe Workfront, zie [ de voorkeur van het Beheer van het Middel ](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md) vormen.
+  Voor meer informatie over hoe de Beschikbare Uren en FTE waarden worden berekend, zie [&#x200B; Beschikbare Uren of FTE voor gebruikers en baanrollen in de Planner van het Middel berekenen &#x200B;](#calculate-available-hours-or-fte-for-users-and-job-roles-in-the-resource-planner).\
+  Voor meer informatie over het bepalen van de voorkeur van het Beheer van het Middel voor het systeem van Adobe Workfront, zie [&#x200B; de voorkeur van het Beheer van het Middel &#x200B;](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md) vormen.
 
 * Alle andere FTE-waarden worden berekend op basis van het standaardschema van het systeem.\
-  Voor meer informatie over hoe alle andere waarden in de Planner van het Middel wanneer het gebruiken van FTE tonen, zie de sectie [ alle andere uren en FTE waarden voor gebruikers en baanrollen in de Planner van het Middel ](#calculate-all-other-hour-and-fte-values-for-users-and-job-roles-in-the-resource-planner) in dit artikel berekenen.
+  Voor meer informatie over hoe alle andere waarden in de Planner van het Middel wanneer het gebruiken van FTE tonen, zie de sectie [&#x200B; alle andere uren en FTE waarden voor gebruikers en baanrollen in de Planner van het Middel &#x200B;](#calculate-all-other-hour-and-fte-values-for-users-and-job-roles-in-the-resource-planner) in dit artikel berekenen.
 
 Het is belangrijk om te begrijpen wat FTE voor elk van uw gebruikers en hun baanrollen is om uw middelen nauwkeurig te beheren aangezien u hen aan het werk toewijst.
 
@@ -47,11 +47,11 @@ De beheerder van Workfront bepaalt hoe de beschikbare tijd voor een gebruiker wo
 * Het standaardschema van het systeem en FTE van de gebruiker.
 * Het schema van de gebruiker.
 
-![ het plaatsen van het Systeem voor gebruikersprogramma&#39;s ](assets/setup-resource-mgmt.png)
+![&#x200B; het plaatsen van het Systeem voor gebruikersprogramma&#39;s &#x200B;](assets/setup-resource-mgmt.png)
 
 >[!NOTE]
 >
->Dit bepaalt hoe te om middelbeschikbaarheid op het systeemniveau te berekenen. Voor meer informatie over het bepalen van de voorkeur van het Beheer van het Middel voor het systeem, zie [ de voorkeur van het Beheer van het Middel ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md) vormen.
+>Dit bepaalt hoe te om middelbeschikbaarheid op het systeemniveau te berekenen. Voor meer informatie over het bepalen van de voorkeur van het Beheer van het Middel voor het systeem, zie [&#x200B; de voorkeur van het Beheer van het Middel &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md) vormen.
 
 Gebaseerd op hoe dit het plaatsen wordt gevormd, wordt de beschikbaarheid van de gebruikers in de Planner van het Middel (uren evenals beschikbaarheid FTE) berekend gebruikend de volgende methodes:
 
@@ -63,11 +63,11 @@ Gebaseerd op hoe dit het plaatsen wordt gevormd, wordt de beschikbaarheid van de
 
      Bijvoorbeeld, als het Standaard Programma 40 uren per week beschikbaar voor het werk heeft, en de gebruiker FTE 0.5 is, is de gebruiker beschikbaar om 20 uren per week in de Planner van het Middel te werken.
 
-     Voor meer informatie over programma&#39;s, met inbegrip van het StandaardProgramma, zie [ een programma ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md) creëren.
+     Voor meer informatie over programma&#39;s, met inbegrip van het StandaardProgramma, zie [&#x200B; een programma &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md) creëren.
 
    * De beschikbare FTE voor de gebruiker in de Planner van het Middel is het zelfde als gebruiker FTE die in de gebruikersmontages wordt gespecificeerd.
 
-     Bijvoorbeeld, als de gebruiker FTE 0.5 in de gebruikersmontages is, beschikbaar FTE van de gebruiker is 0.5 in de Planner van het Middel. Voor meer informatie over de waarde van gebruikerFTE aangezien het in de gebruikersmontages toont, zie [ het profiel van een gebruiker ](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) uitgeven.
+     Bijvoorbeeld, als de gebruiker FTE 0.5 in de gebruikersmontages is, beschikbaar FTE van de gebruiker is 0.5 in de Planner van het Middel. Voor meer informatie over de waarde van gebruikerFTE aangezien het in de gebruikersmontages toont, zie [&#x200B; het profiel van een gebruiker &#x200B;](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) uitgeven.
 
 * **het Programma van de Gebruiker**: Het programma van de gebruiker wordt gebruikt om de beschikbaarheid van de gebruiker in de Planner van het Middel te bepalen. De waarde van de gebruiker FTE wordt genegeerd. In dit geval:
 
@@ -81,7 +81,7 @@ Gebaseerd op hoe dit het plaatsen wordt gevormd, wordt de beschikbaarheid van de
 
      Bijvoorbeeld, als het programma van de gebruiker 20 uren beschikbaar heeft om te werken, en het Standaard Plan in Workfront 40 uren beschikbaar heeft om te werken, FTE van de gebruiker is 0.5.
 
-     Voor meer informatie over programma&#39;s, met inbegrip van het StandaardProgramma, zie [ een programma ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md) creëren.
+     Voor meer informatie over programma&#39;s, met inbegrip van het StandaardProgramma, zie [&#x200B; een programma &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md) creëren.
 
 >[!NOTE]
 >
@@ -92,19 +92,19 @@ Gebaseerd op hoe dit het plaatsen wordt gevormd, wordt de beschikbaarheid van de
 U moet eerst de gebruikersbeschikbaarheid berekenen, en dan kunt u de beschikbaarheid van elk van hun baanrollen berekenen.
 
 De beschikbaarheid van baanrollen in de Planner van het Middel houdt rekening met de totale beschikbaarheid van de gebruiker, en het Percentage van VTE Beschikbaarheid verbonden aan elke rol van de gebruiker.\
-![ percent_of_fte_availability_at_the_user_level.png ](assets/percent-of-fte-availability-at-the-user-level-350x144.png)
+![&#x200B; percent_of_fte_availability_at_the_user_level.png &#x200B;](assets/percent-of-fte-availability-at-the-user-level-350x144.png)
 
-Voor meer informatie over het associëren van een Percentage van de waarde van de Beschikbaarheid FTE met een baanrol voor een gebruiker, zie [ het profiel van een gebruiker ](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) uitgeven.
+Voor meer informatie over het associëren van een Percentage van de waarde van de Beschikbaarheid FTE met een baanrol voor een gebruiker, zie [&#x200B; het profiel van een gebruiker &#x200B;](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) uitgeven.
 
 Bijvoorbeeld, als de waarde van Beschikbare Uren voor een gebruiker 40 is en zij één Primaire Rol voor 75% van die tijd en één Andere Rol voor 25% van die tijd kunnen vervullen, toont de Planner van het Middel dat de Beschikbare waarde van Uren voor de Primaire Rol voor één week 30 uren is, en dat de Beschikbare waarde van Uren voor de Andere Rol 10 uren is. In dit geval is de VTE voor de primaire rol 0,75 en de VTE voor de andere rol 0,25.
 
 >[!NOTE]
 >
->De totale beschikbare tijd voor de gebruiker wordt berekend door één van de twee methodes die in [ worden beschreven Bereken de Beschikbare Uren en FTE voor een gebruiker in de 1&rbrace; sectie van de Planner van het Middel &lbrace;in dit artikel.](#calculate-the-available-hours-and-fte-for-a-user-in-the-resource-planner)
+>De totale beschikbare tijd voor de gebruiker wordt berekend door één van de twee methodes die in [&#x200B; worden beschreven Bereken de Beschikbare Uren en FTE voor een gebruiker in de 1&rbrace; sectie van de Planner van het Middel &lbrace;in dit artikel.](#calculate-the-available-hours-and-fte-for-a-user-in-the-resource-planner)
 
 Wanneer het bekijken van de Planner van het Middel in de Mening van de Rol, is de beschikbaarheid van één baanrol een totaal van de beschikbaarheid van alle gebruikers die die baanrol kunnen vervullen.
 
-Voor meer informatie over beschikbaarheid van middelen in de Planner van het Middel, zie het [ overzicht van de Planner van het Middel ](../../resource-mgmt/resource-planning/get-started-resource-planner.md).
+Voor meer informatie over beschikbaarheid van middelen in de Planner van het Middel, zie het [&#x200B; overzicht van de Planner van het Middel &#x200B;](../../resource-mgmt/resource-planning/get-started-resource-planner.md).
 
 ### Bereken de Beschikbare Uren en FTE voor een gebruiker in de Planner van het Middel (Voorbeeld) {#calculate-the-available-hours-and-fte-for-a-user-in-the-resource-planner-example}
 
@@ -121,15 +121,15 @@ In dit voorbeeld gebruiken we de volgende getallen:
 | **StandaardProgramma** | Genegeerd | 40 | 0,8 | **32** (berekend) | **0.8** |
 | **Programma van de Gebruiker** | 20 | 40 | Genegeerd | **20** | **0.5** (berekend) |
 
-De uitzonderingen van het programma en de onderbreking zouden de hoeveelheid Geplande Uren of VTE kunnen beïnvloeden. Voor meer informatie, zie [ de voorkeur van het Beheer van het Middel ](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md) vormen.
+De uitzonderingen van het programma en de onderbreking zouden de hoeveelheid Geplande Uren of VTE kunnen beïnvloeden. Voor meer informatie, zie [&#x200B; de voorkeur van het Beheer van het Middel &#x200B;](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md) vormen.
 
 Voorbeeldweergave van de functie Bronnen per gebruiker en aantal uren:
 
-![ mening van de Planner van het Middel door gebruiker en uren ](assets/resource-planner-by-user-by-hours.png)
+![&#x200B; mening van de Planner van het Middel door gebruiker en uren &#x200B;](assets/resource-planner-by-user-by-hours.png)
 
 Voorbeeldweergave van bronnenplanner op gebruiker en FTE:
 
-![ mening van de Planner van het Middel door gebruiker en FTE ](assets/resource-planner-by-user-by-fte.png)
+![&#x200B; mening van de Planner van het Middel door gebruiker en FTE &#x200B;](assets/resource-planner-by-user-by-fte.png)
 
 ## Bereken alle andere uren en FTE waarden voor gebruikers en baanrollen in de Planner van het Middel {#calculate-all-other-hour-and-fte-values-for-users-and-job-roles-in-the-resource-planner}
 
@@ -139,10 +139,10 @@ Naast Beschikbare Uren of FTE, wordt de volgende tijdinformatie ook getoond in d
 * Geforceerde uren
 * Uurvariatie
 * Nettouren\
-  Voor informatie, zie [ Overzicht van uren, FTE, en kosteninformatie in het Project en de meningen van de Rol van de Planner van het Middel ](../../resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md).
+  Voor informatie, zie [&#x200B; Overzicht van uren, FTE, en kosteninformatie in het Project en de meningen van de Rol van de Planner van het Middel &#x200B;](../../resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md).
 
 * Uurverschil\
-  Voor informatie, zie [ Overzicht van uren, FTE, en kosteninformatie in het Project en de meningen van de Rol van de Planner van het Middel ](../../resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md).
+  Voor informatie, zie [&#x200B; Overzicht van uren, FTE, en kosteninformatie in het Project en de meningen van de Rol van de Planner van het Middel &#x200B;](../../resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md).
 
 U kunt de zelfde informatie in de Planner van het Middel zoals VTE of uren tonen.
 

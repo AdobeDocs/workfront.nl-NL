@@ -53,7 +53,7 @@ Als klant van [!DNL Adobe Workfront] kunt u telefonisch contact opnemen met het 
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -82,7 +82,7 @@ U kunt een ondersteuningsticket verzenden via de portal voor zelfbediening [!DNL
 >Alleen geoorloofde supportcontactpersonen (of gebruikers met een ondersteuningsbevoegdheid) kunnen online ondersteuningstickets indienen.
 
 
-1. Klik op de [[!DNL Experience League] ](https://experienceleague.adobe.com/nl) -website **[!UICONTROL Support]** boven aan de pagina.
+1. Klik op de [[!DNL Experience League] &#x200B;](https://experienceleague.adobe.com/nl) -website **[!UICONTROL Support]** boven aan de pagina.
 
    ![](assets/experience-league-top-navigation-with-support-highlighted.png)
 
@@ -90,7 +90,7 @@ U kunt een ondersteuningsticket verzenden via de portal voor zelfbediening [!DNL
 
    Vanuit de [!UICONTROL Support] -startpagina kunt u naar de geopende ondersteuningsgevallen navigeren, een nieuw geval registreren, de bovenste [!UICONTROL Support] -artikelen weergeven of aanvullende leerbronnen openen.
 
-   Voor meer informatie over Workfront het leren, zie [ het Centrum van de Hulp ](https://learning.adobe.com/resources/help-center.html).
+   Voor meer informatie over Workfront het leren, zie [&#x200B; het Centrum van de Hulp &#x200B;](https://learning.adobe.com/resources/help-center.html).
 
 <!--1. To submit a case, select the option **[!UICONTROL Open a support case]**, then click **[!UICONTROL Sign] In**.-->
 

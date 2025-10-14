@@ -19,31 +19,31 @@ ht-degree: 0%
 
 Op deze pagina worden alle verbeteringen in Projectbeheer beschreven die zijn aangebracht met de release 21.1 voor de voorvertoningsomgeving. Deze verbeteringen zullen in de productieomgeving beschikbaar worden gesteld in de week van 15 februari 2021.
 
-Voor een lijst van alle veranderingen beschikbaar met de versie 21.1, zie [ overzicht van de versie 21.1 ](../../../product-announcements/product-releases/21.1-release-activity/21-1-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar met de versie 21.1, zie [&#x200B; overzicht van de versie 21.1 &#x200B;](../../../product-announcements/product-releases/21.1-release-activity/21-1-release-overview.md).
 
 ## Exporteren is nu beschikbaar in de sectie Metriek van een project
 
 Als u de status en voortgang van een project gemakkelijker wilt delen, kunt u nu het volledige dashboard in de sectie Metriek van een project exporteren naar een .png-bestand.
 
-Voor meer informatie, zie [ Overzicht van projectmetriek ](../../../manage-work/projects/manage-projects/project-metrics.md).
+Voor meer informatie, zie [&#x200B; Overzicht van projectmetriek &#x200B;](../../../manage-work/projects/manage-projects/project-metrics.md).
 
-Deze eigenschap is nu inbegrepen in de [ Grondbeginselen van de Planner voor de nieuwe ervaring van Workfront, Deel 3: Beheer een project ](https://experienceleague.adobe.com/nl/docs/workfront-learn/tutorials-workfront/home) het leren weg op Workfront Één.
+Deze eigenschap is nu inbegrepen in de [&#x200B; Grondbeginselen van de Planner voor de nieuwe ervaring van Workfront, Deel 3: Beheer een project &#x200B;](https://experienceleague.adobe.com/nl/docs/workfront-learn/tutorials-workfront/home) het leren weg op Workfront Één.
 
 ## Probleempercentage bijwerken voltooid wanneer het project of de taak is omgezet vanuit de uitgave-update
 
 We hebben de manier bijgewerkt waarop het percentage voltooide uitgaven werkt voor problemen die zijn omgezet in projecten of taken. Met de nieuwe functionaliteit, wanneer een kwestie in een taak of een project wordt omgezet, werkt het percentage volledige van de kwestie synchroon met het percentage volledig van de het oplossen taak of het project wanneer &quot;automatisch de status van de Oplosbare Uitgave bijwerken wanneer de status van het Oplossen van Voorwerp verandert&quot;het plaatsen van opstelling wordt toegelaten.
 
-Voor informatie over het omzetten van kwesties, zie [ Overzicht van het Oplossen van en Oplosbare Voorwerpen ](../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md).
+Voor informatie over het omzetten van kwesties, zie [&#x200B; Overzicht van het Oplossen van en Oplosbare Voorwerpen &#x200B;](../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md).
 
 ## Nieuwe lijst Verzendverzoeken
 
 Om u toe te staan om uw Voorgelegde Verzoeken op een gemakkelijkere, consistentere manier te beheren, hebben wij de Verzoeken verwijderd ik en Alle Gebieden van Verzoeken op het gebied van Verzoeken en hen vervangen met een nieuwe Voorgelegde lijst. De lijst heeft een vertrouwde blik en voelt dat alle andere lijsten in het systeem aanpast, toestaand u om voor verschillende categorieën voorgelegde verzoeken en snel onderzoek naar een verzoek te filtreren dat moeilijk zou kunnen zijn te vinden.
 
-Voor informatie over hoe te om van voorgelegde verzoeken de plaats te bepalen, zie [ plaats voorgelegde verzoeken ](../../../manage-work/requests/create-requests/locate-submitted-requests.md).
+Voor informatie over hoe te om van voorgelegde verzoeken de plaats te bepalen, zie [&#x200B; plaats voorgelegde verzoeken &#x200B;](../../../manage-work/requests/create-requests/locate-submitted-requests.md).
 
-Deze eigenschap is nu inbegrepen in de [ Grondbeginselen van de Medewerker voor de nieuwe de Ervaring van Workfront ](https://experienceleague.adobe.com/nl/docs/workfront-learn/tutorials-workfront/manage-work/issues-requests/make-a-request) het leren weg op Workfront Één.
+Deze eigenschap is nu inbegrepen in de [&#x200B; Grondbeginselen van de Medewerker voor de nieuwe de Ervaring van Workfront &#x200B;](https://experienceleague.adobe.com/nl/docs/workfront-learn/tutorials-workfront/manage-work/issues-requests/make-a-request) het leren weg op Workfront Één.
 
-Deze eigenschap is nu inbegrepen in de [ Verzoeken in de nieuwe ervaring van Workfront ](https://experienceleague.adobe.com/nl/docs/workfront-learn/tutorials-workfront/manage-work/request-queues/understand-request-queues) het leren weg op Workfront Één.
+Deze eigenschap is nu inbegrepen in de [&#x200B; Verzoeken in de nieuwe ervaring van Workfront &#x200B;](https://experienceleague.adobe.com/nl/docs/workfront-learn/tutorials-workfront/manage-work/request-queues/understand-request-queues) het leren weg op Workfront Één.
 
 ## Velden verwijderd van de pagina Nieuwe aanvraag
 
@@ -65,7 +65,7 @@ De volgende Nieuwe gebieden van de Uitgave tonen slechts wanneer het creëren va
 
 We hebben de velden Toegewezen aan, Functie en Team vervangen door het nieuwe veld Toewijzingen op de pagina Nieuw verzoek om efficiënt een gebruiker, taakrol of team in een gemeenschappelijk veld aan te wijzen wanneer u een nieuw verzoek indient.
 
-Voor informatie over het bepalen van Nieuwe Gebieden van de Uitgave voor een project, zie [ een Rij van het Verzoek ](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md) creëren.
+Voor informatie over het bepalen van Nieuwe Gebieden van de Uitgave voor een project, zie [&#x200B; een Rij van het Verzoek &#x200B;](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md) creëren.
 
 ## Nieuwe ervaring bij het indienen van aanvragen op het gebied van verzoeken
 
@@ -81,7 +81,7 @@ Om consistentie met de nieuwe ervaring van Workfront te brengen en efficiency vo
 
 De capaciteit om een verbinding aan de verzoekrij, onderwerpgroep, of rijonderwerp te delen aangezien u het verzoek ingaat.
 
-Voor informatie over het voorleggen van verzoeken, zie [ Workfront verzoeken ](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md) creëren en voorleggen.
+Voor informatie over het voorleggen van verzoeken, zie [&#x200B; Workfront verzoeken &#x200B;](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md) creëren en voorleggen.
 
 ## Een koppeling naar een aanvraagwachtrij delen bij het verzenden van een aanvraag
 
@@ -93,7 +93,7 @@ Wij hebben het nu mogelijk gemaakt om een verbinding aan een verzoekrij, een ond
 
 Alvorens u een nieuw verzoek voorlegt, kunt u een verbinding aan de verzoekrij, onderwerpgroep, of rijonderwerp van het verzoek kopiëren en het met andere gebruikers delen, of het inbedden in een dashboard.
 
-Voor informatie over het delen van een verbinding aan een verzoekrij wanneer het voorleggen van een verzoek, zie [ een verbinding aan een verzoekrij ](../../../manage-work/requests/create-requests/share-link-to-request-queue.md) delen.
+Voor informatie over het delen van een verbinding aan een verzoekrij wanneer het voorleggen van een verzoek, zie [&#x200B; een verbinding aan een verzoekrij &#x200B;](../../../manage-work/requests/create-requests/share-link-to-request-queue.md) delen.
 
 ## Zoeken naar een groep die u aan een project wilt toewijzen en de details ervan weergeven
 
@@ -105,7 +105,7 @@ Afhankelijk van de details die voor de groep worden gevormd, zou u de Bedrijfsle
 
 Met deze informatie, kunt u worden verzekerd dat u de juiste groep selecteert om aan het project toe te wijzen.
 
-Voor meer informatie, zie [ informatie in het gebied van het projectoverzicht ](../../../manage-work/projects/manage-projects/understand-project-overview-area.md) leiden.
+Voor meer informatie, zie [&#x200B; informatie in het gebied van het projectoverzicht &#x200B;](../../../manage-work/projects/manage-projects/understand-project-overview-area.md) leiden.
 
 ## Rapport voor nieuwe gebruikersdelegatie
 
@@ -115,4 +115,4 @@ Voorheen kon informatie voor taak, kwestie, en projectgoedkeuring delegaties sle
 * Welke gebruiker deze goedkeuringen heeft gedelegeerd
 * De begin- en einddatum van deze delegaties
 
-Meer leren, zie [ een rapport van de Delegatie van de Gebruiker ](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-user-delegation-report.md) creëren.
+Meer leren, zie [&#x200B; een rapport van de Delegatie van de Gebruiker &#x200B;](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-user-delegation-report.md) creëren.

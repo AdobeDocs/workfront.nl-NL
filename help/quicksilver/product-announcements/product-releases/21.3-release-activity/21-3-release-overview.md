@@ -64,11 +64,11 @@ For specific release dates and times for each cluster, see the
 
 ## Verbeteringen voor Adobe Workfront
 
-* [ de verhogingen van de Beheerder ](#administrator-enhancements)
-* [ de verhogingen van het Project ](#project-enhancements)
-* [ Verbeteringen van het Beheer van het Middel ](#resource-management-enhancements)
-* [ Verbeteringen van verzoeken ](#requests-enhancements)
-* [ het Proofing verhogingen ](#proofing-enhancements)
+* [&#x200B; de verhogingen van de Beheerder &#x200B;](#administrator-enhancements)
+* [&#x200B; de verhogingen van het Project &#x200B;](#project-enhancements)
+* [&#x200B; Verbeteringen van het Beheer van het Middel &#x200B;](#resource-management-enhancements)
+* [&#x200B; Verbeteringen van verzoeken &#x200B;](#requests-enhancements)
+* [&#x200B; het Proofing verhogingen &#x200B;](#proofing-enhancements)
 * [Andere verbeteringen](#other-enhancements)
 
 ### Beheerdersverbeteringen {#administrator-enhancements}
@@ -245,15 +245,15 @@ For specific release dates and times for each cluster, see the
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">There are no Scenario Planner updates at this point in the release. This area will be updated when updates are available.</p>
 -->
 
-De release van Workfront Scenario Planner met 21.3 bevat nieuwe functies. Voor informatie over deze nieuwe eigenschappen nu beschikbaar in Voorproef, zie [ de Planner van het Scenario van Adobe Workfront met de 21.3 versie ](../../../product-announcements/product-releases/scenario-planner-release-activity/sp-release-21-3.md).
+De release van Workfront Scenario Planner met 21.3 bevat nieuwe functies. Voor informatie over deze nieuwe eigenschappen nu beschikbaar in Voorproef, zie [&#x200B; de Planner van het Scenario van Adobe Workfront met de 21.3 versie &#x200B;](../../../product-announcements/product-releases/scenario-planner-release-activity/sp-release-21-3.md).
 
 ## Workfront Fusion-verbeteringen
 
-Nieuwe functies in Workfront Fusion zijn beschikbaar in Production op een cadence buiten de releaseplanning van 21.3. Voor meer informatie over de recentste eigenschappen, zie [ de versieactiviteit van de Fusie van Adobe Workfront ](https://experienceleague.adobe.com/nl/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
+Nieuwe functies in Workfront Fusion zijn beschikbaar in Production op een cadence buiten de releaseplanning van 21.3. Voor meer informatie over de recentste eigenschappen, zie [&#x200B; de versieactiviteit van de Fusie van Adobe Workfront &#x200B;](https://experienceleague.adobe.com/nl/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 
 ## Verbeteringen voor Workfront Proof
 
-Nieuwe functies in Workfront Proof zijn nu beschikbaar. Voor meer informatie, zie [ de versieactiviteit van Workfront Proof: Week van 17 Mei, 2021 ](../../../product-announcements/product-releases/workfront-proof-release-activity/wp-release-may-17.md).
+Nieuwe functies in Workfront Proof zijn nu beschikbaar. Voor meer informatie, zie [&#x200B; de versieactiviteit van Workfront Proof: Week van 17 Mei, 2021 &#x200B;](../../../product-announcements/product-releases/workfront-proof-release-activity/wp-release-may-17.md).
 
 ## Verbeteringen voor Workfront-doelen
 
@@ -267,7 +267,7 @@ Er zijn op dit moment geen updates voor Workfront Goals beschikbaar in de releas
 
 ### Vereiste IP lijst van gewenste personen update voor het gebruiken van Workfront voor de integratie van Jira
 
-We hebben een paar achterwaartse updates gemaakt voor de Workfront for Jira integratie. Gelieve te zorgen ervoor dat de volgende IP adressen die in [ worden vermeld vormen het 1&rbrace; artikel van de lijst van gewenste personen van uw firewall &lbrace;aan uw lijst van gewenste personen voor binnenkomende en uitgaande verbindingen zijn toegevoegd:](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md)
+We hebben een paar achterwaartse updates gemaakt voor de Workfront for Jira integratie. Gelieve te zorgen ervoor dat de volgende IP adressen die in [&#x200B; worden vermeld vormen het 1&rbrace; artikel van de lijst van gewenste personen van uw firewall &lbrace;aan uw lijst van gewenste personen voor binnenkomende en uitgaande verbindingen zijn toegevoegd:](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md)
 
 * 34 213 36 118
 * 35 160 0 242
@@ -278,17 +278,17 @@ Deze adressen werden eerder vermeld als noodzakelijk voor andere gebieden van Wo
 
 Om onderbreking in uw Workfront voor de integratie van Jira te verhinderen, moet uw organisatie deze IP adressen tegen 4 Augustus 2021 toestaan.
 
-Voor meer informatie bij het vormen van de integratie van Jira, zie [ Adobe Workfront voor Jira installeren ](../../../workfront-integrations-and-apps/use-workfront-with-jira/install-workfront-for-jira.md).
+Voor meer informatie bij het vormen van de integratie van Jira, zie [&#x200B; Adobe Workfront voor Jira installeren &#x200B;](../../../workfront-integrations-and-apps/use-workfront-with-jira/install-workfront-for-jira.md).
 
 ### API-versie 13
 
 Voor API versie 13 hebben we verschillende bronnen en eindpunten gewijzigd. Sommige wijzigingen ondersteunen nieuwe functionaliteit en andere maken het voor u gemakkelijker om de informatie te gebruiken die beschikbaar is via de API.
 
-Voor informatie over wat nieuw en bijgewerkt is, zie [ wat in API versie 13 ](../../../wf-api/api/new-api-version-13.md) nieuw is.
+Voor informatie over wat nieuw en bijgewerkt is, zie [&#x200B; wat in API versie 13 &#x200B;](../../../wf-api/api/new-api-version-13.md) nieuw is.
 
 ## 21.3 Release-webinar
 
-De Workfront 21.3 Release Webinar werd gepresenteerd op 16 juni 2021. U kunt de opname [ hier ](https://webinars.on24.com/workfront/213Release?partnerref=WFAC) bekijken.
+De Workfront 21.3 Release Webinar werd gepresenteerd op 16 juni 2021. U kunt de opname [&#x200B; hier &#x200B;](https://webinars.on24.com/workfront/213Release?partnerref=WFAC) bekijken.
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -308,4 +308,4 @@ De Workfront 21.3 Release Webinar werd gepresenteerd op 16 juni 2021. U kunt de 
 
 Nu de ondersteuning voor Internet Explorer is afgeschaft, biedt Workfront nu officieel ondersteuning voor Microsoft Edge.
 
-Voor meer informatie over gesteunde browsers, zie [ browser van Adobe Workfront vereisten ](../../../workfront-basics/workfront-browser-requirements.md).
+Voor meer informatie over gesteunde browsers, zie [&#x200B; browser van Adobe Workfront vereisten &#x200B;](../../../workfront-basics/workfront-browser-requirements.md).

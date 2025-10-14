@@ -21,11 +21,11 @@ ht-degree: 0%
 
 Als Adobe Workfront-beheerder kunt u de gebeurtenismeldingen, herinneringsmeldingen en e-mailsjablonen voor uw gebruikers configureren.
 
-* Voor informatie over het vormen van gebeurtenisberichten, zie [ gebeurtenisberichten voor iedereen in het systeem ](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md) vormen.
-* Voor informatie over het vormen van herinneringsberichten, zie [ de herinneringsberichten van de Opstelling ](../../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md).
-* Voor informatie over het vormen van e-mailmalplaatjes, zie [ e-mailmalplaatjes ](../../../administration-and-setup/manage-workfront/emails/configure-email-templates.md) vormen.
+* Voor informatie over het vormen van gebeurtenisberichten, zie [&#x200B; gebeurtenisberichten voor iedereen in het systeem &#x200B;](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md) vormen.
+* Voor informatie over het vormen van herinneringsberichten, zie [&#x200B; de herinneringsberichten van de Opstelling &#x200B;](../../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md).
+* Voor informatie over het vormen van e-mailmalplaatjes, zie [&#x200B; e-mailmalplaatjes &#x200B;](../../../administration-and-setup/manage-workfront/emails/configure-email-templates.md) vormen.
 
 Deze koppelingen gaan naar het gedeelte met Help-artikelen voor Adobe Workfront-berichten voor gebruikers.
 
-* Voor algemene informatie over berichten, zie [ de berichten van Adobe Workfront ](/help/quicksilver/workfront-basics/using-notifications/event-notifications.md).
-* Voor informatie over vestiging uw eigen berichten in uw profiel, zie [ uw eigen e-mailberichten wijzigen ](/help/quicksilver/workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+* Voor algemene informatie over berichten, zie [&#x200B; de berichten van Adobe Workfront &#x200B;](/help/quicksilver/workfront-basics/using-notifications/event-notifications.md).
+* Voor informatie over vestiging uw eigen berichten in uw profiel, zie [&#x200B; uw eigen e-mailberichten wijzigen &#x200B;](/help/quicksilver/workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).

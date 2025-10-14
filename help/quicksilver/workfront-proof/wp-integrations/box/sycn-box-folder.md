@@ -18,11 +18,11 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [ het Bewijzen ](../../../review-and-approve-work/proofing/proofing.md).
+>Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [&#x200B; het Bewijzen &#x200B;](../../../review-and-approve-work/proofing/proofing.md).
 
 U kunt een map [!DNL Box] synchroniseren met een map in [!DNL Workfront Proof] . Elke wijziging die u aanbrengt in de map Box wordt doorgevoerd in Workfront Proof (dus het uploaden van een nieuw bestand, het toevoegen van een nieuwe versie, het wijzigen van de naam van een bestand, enzovoort).
 
-Voor meer informatie over omslagen, zie [ Mappen en hun Inhoud binnen beheren  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders-and-contents.md).
+Voor meer informatie over omslagen, zie [&#x200B; Mappen en hun Inhoud binnen beheren  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders-and-contents.md).
 
 >[!NOTE]
 >
@@ -39,7 +39,7 @@ Een [!DNL Box] -map synchroniseren met een map in [!DNL Workfront Proof] :
    * Klik op de naam van een map [!DNL Workfront Proof] om deze te synchroniseren met de bijbehorende map in vak (4).
    * Klik op **[!UICONTROL New folder]** om een nieuwe map te maken in [!DNL Workfront Proof] (5).\
 
-     ![ folder_sync_2.jpg ](assets/folder-sync-2-350x231.jpg) als u verkoos om een nieuwe omslag tot stand te brengen, wordt u ertoe aangezet om details over de nieuwe omslag te verstrekken.
+     ![&#x200B; folder_sync_2.jpg &#x200B;](assets/folder-sync-2-350x231.jpg) als u verkoos om een nieuwe omslag tot stand te brengen, wordt u ertoe aangezet om details over de nieuwe omslag te verstrekken.
 
 1. Klik op **[!UICONTROL Save]**.\
    De pagina [!UICONTROL Folder details] voor de gesynchroniseerde map wordt geopend in [!DNL Workfront Proof] . Deze pagina bevat informatie over de map.\
@@ -49,17 +49,17 @@ Een [!DNL Box] -map synchroniseren met een map in [!DNL Workfront Proof] :
    * **[!UICONTROL Pause syncing]**: De map [!DNL Workfront Proof] wordt niet meer bijgewerkt met de wijzigingen in het vak. Synchronisatie kan op elk gewenst moment worden hervat (1).
    * **[!UICONTROL Disable folder sync]**: de verbinding tussen mappen gaat verloren en de synchronisatie moet opnieuw worden ingesteld vanuit de [!DNL Box] -account (2).
 
-   * Alleen de gebruiker die de mapsynchronisatie heeft gestart, kan deze uitschakelen of pauzeren. Voor meer informatie, zie [ Mappen en hun Inhoud binnen beheren  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders-and-contents.md).
+   * Alleen de gebruiker die de mapsynchronisatie heeft gestart, kan deze uitschakelen of pauzeren. Voor meer informatie, zie [&#x200B; Mappen en hun Inhoud binnen beheren  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders-and-contents.md).
    * **ga naar [!DNL Box] omslag**: Als u omslag URL (in de [!DNL Box] omslagopties) deelde, zal deze optie beschikbaar worden en zal u rechtstreeks aan de [!DNL Box] omslag (3) nemen.
    * **[!UICONTROL Folder sync details]**: deze sectie bevat informatie over de map [!DNL Box] (4).
    * **[!UICONTROL [!DNL Box] folder link]** : URL naar de map [!DNL Box] (5).
    * **[!UICONTROL Activity]:** Hiermee geeft u de activiteitenlogboeken van de map [!DNL Workfront Proof] weer. Hier kunt u controleren wie de mapsynchronisatie heeft gestart (6).
-   * ![ folder_details__1_.jpg ](assets/folder-details--1--350x324.jpg)
+   * ![&#x200B; folder_details__1_.jpg &#x200B;](assets/folder-details--1--350x324.jpg)
 
 >[!NOTE]
 >
 >* U kunt de map [!DNL Box] ook synchroniseren via het menu [!UICONTROL Folder options] .
->* Als u uw eigen aanmeldingspagina met de merknaam [!DNL Workfront Proof] hebt, gaat u naar die pagina in plaats van naar de standaardaanmeldingspagina van [!DNL Workfront Proof] . Zie de artikelen onder [ Brandend ](https://support.workfront.com/hc/en-us/sections/115000921208-Branding) als u meer informatie nodig hebt.
+>* Als u uw eigen aanmeldingspagina met de merknaam [!DNL Workfront Proof] hebt, gaat u naar die pagina in plaats van naar de standaardaanmeldingspagina van [!DNL Workfront Proof] . Zie de artikelen onder [&#x200B; Brandend &#x200B;](https://support.workfront.com/hc/en-us/sections/115000921208-Branding) als u meer informatie nodig hebt.
 >* Als u de functionaliteit [!UICONTROL Single Sign-On (SSO)] in uw [!DNL Workfront Proof] -account hebt ingeschakeld, gaat u naar de aanmeldingspagina van de SSO en wordt u gevraagd uw aanmeldingsgegevens voor de SSO in te voeren, maar alleen als u hetzelfde e-mailadres gebruikt voor uw [!DNL Box] -account en [!DNL Workfront Proof] . Zie [[!UICONTROL Single Sign-On] in  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/managing-security/single-sign-on-overview.md) voor meer informatie.
 >* Als u niet hetzelfde e-mailadres gebruikt voor uw [!DNL Box] -account en uw [!DNL Workfront Proof] -account, gaat u altijd naar de standaard [!DNL Workfront Proof] -aanmeldingspagina.
 >

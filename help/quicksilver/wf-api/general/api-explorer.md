@@ -17,6 +17,6 @@ ht-degree: 0%
 
 # API Explorer
 
-U kunt alle objecten die beschikbaar zijn via de Adobe Workfront API, samen met de bijbehorende velden, weergeven in de API-verkenner. Om de API ontdekkingsreiziger te bekijken, klik [ hier ](https://developer.adobe.com/workfront/api-explorer/).
+U kunt alle objecten die beschikbaar zijn via de Adobe Workfront API, samen met de bijbehorende velden, weergeven in de API-verkenner. Om de API ontdekkingsreiziger te bekijken, klik [&#x200B; hier &#x200B;](https://developer.adobe.com/workfront/api-explorer/).
 
-Voor meer gedetailleerde informatie over het gebruiken van de API Ontdekkingsreiziger, zie [ Gebruikend de API Ontdekkingsreiziger ](../../wf-api/general/using-api-explorer.md).
+Voor meer gedetailleerde informatie over het gebruiken van de API Ontdekkingsreiziger, zie [&#x200B; Gebruikend de API Ontdekkingsreiziger &#x200B;](../../wf-api/general/using-api-explorer.md).

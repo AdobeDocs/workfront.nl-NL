@@ -18,35 +18,35 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [ het Bewijzen ](../../../review-and-approve-work/proofing/proofing.md).
+>Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [&#x200B; het Bewijzen &#x200B;](../../../review-and-approve-work/proofing/proofing.md).
 
-U kunt, informatie over de dossiers (niet proefdrukken) leiden delen en bekijken die aan Workfront Proof (zie [ worden geupload Dossiers en de Inhoud van het Web aan  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/upload-files-web-content.md) uploaden).
+U kunt, informatie over de dossiers (niet proefdrukken) leiden delen en bekijken die aan Workfront Proof (zie [&#x200B; worden geupload Dossiers en de Inhoud van het Web aan  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/upload-files-web-content.md) uploaden).
 
 1. Klik op de pijl-omlaag rechts van **[!UICONTROL Views]** in het navigatievenster links en klik vervolgens op **[!UICONTROL Files]** in het vervolgkeuzemenu.
 
 1. Klik op de knop **[!UICONTROL More]** voor het bestand en klik vervolgens op **[!UICONTROL View file details]** in het menu dat wordt weergegeven.\
-   ![ het dossierdetails van de Mening ](assets/click-more-then-view-file-details.png)\
+   ![&#x200B; het dossierdetails van de Mening &#x200B;](assets/click-more-then-view-file-details.png)\
    U kunt gegevens over het bestand weergeven en bewerken in het venster dat wordt weergegeven. Bijvoorbeeld, kunt u filename bij de bovenkant van het venster, de [!DNL Workfront Proof] **Omslag** veranderen die dossier, en de **Eigenaar** van het dossier opslaat.\
-   ![ de details van het Dossier ](assets/file-details-page-350x129.png)
+   ![&#x200B; de details van het Dossier &#x200B;](assets/file-details-page-350x129.png)
 
 1. (Optioneel) Als u bewerkingsrechten voor het bestand hebt, gebruikt u de actieknoppen in de rechterbovenhoek om het bestand te beheren en te delen:
 
 * **[!UICONTROL Tags]**. Tags beheren die op het bestand zijn toegepast.\
-   ![ knoop van Markeringen ](assets/tags-button.png)\
+   ![&#x200B; knoop van Markeringen &#x200B;](assets/tags-button.png)\
    Onder de actieknoppen kunt u alle tags weergeven die op het bestand zijn toegepast. U kunt een ongewenste tag verwijderen door op de x naast de tag te klikken.\
-   ![ het dossiermarkeringen van de Mening ](assets/view-file-tags-350x64.png)
+   ![&#x200B; het dossiermarkeringen van de Mening &#x200B;](assets/view-file-tags-350x64.png)
 
 * **[!UICONTROL Move to]**. Organiseer uw bestanden in mappen. U kunt een bestand tussen bestaande mappen verplaatsen of in een nieuwe map plaatsen.\
-   ![ knoop van de Omslag ](assets/folder-button.png)
+   ![&#x200B; knoop van de Omslag &#x200B;](assets/folder-button.png)
 
 * **[!UICONTROL Share]**. Bestanden delen met anderen. [!DNL Workfront Proof] verzendt een e-mailbericht met een aangepast bericht en downloadkoppelingen naar de ontvangers.\
-   ![ knoop van het Aandeel ](assets/share-button.png)
+   ![&#x200B; knoop van het Aandeel &#x200B;](assets/share-button.png)
 
-* **[!UICONTROL Trash]**. U kunt het bestand verwijderen door het naar de prullenmand te verplaatsen. Gelieve te merken op dat het dossier op uw opslaggrens zal tellen tot het Afval wordt leeggemaakt (zie [ Herstel en Leeg het Afval in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md)).\
-   ![ knoop van het Afval ](assets/trash-button.png)
+* **[!UICONTROL Trash]**. U kunt het bestand verwijderen door het naar de prullenmand te verplaatsen. Gelieve te merken op dat het dossier op uw opslaggrens zal tellen tot het Afval wordt leeggemaakt (zie [&#x200B; Herstel en Leeg het Afval in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md)).\
+   ![&#x200B; knoop van het Afval &#x200B;](assets/trash-button.png)
 
-* **[!UICONTROL More]**. In deze vervolgkeuzelijst, kunt u **[!UICONTROL Convert to proof]** klikken om een proef voor een dossier (zie [ te creëren Proefdrukken in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md)). Het dossier moet aan onze vereisten van dossiertypes voor proeven (zie [ Ondersteunde het proef dossiertypes en het overzicht van groottegrenzen ](../../../review-and-approve-work/proofing/proofing-overview/supported-proofing-file-types.md)) voldoen. Als de naam van het bestand overeenkomt met de naam van een bestaande proefdruk, geeft [!DNL Workfront Proof] een bericht weer met een koppeling waarmee u het bestand kunt converteren naar een **[!UICONTROL New version]** van die proefdruk (zie ).\
-   ![ Meer knoop ](assets/more-button-text-version.png)
+* **[!UICONTROL More]**. In deze vervolgkeuzelijst, kunt u **[!UICONTROL Convert to proof]** klikken om een proef voor een dossier (zie [&#x200B; te creëren Proefdrukken in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md)). Het dossier moet aan onze vereisten van dossiertypes voor proeven (zie [&#x200B; Ondersteunde het proef dossiertypes en het overzicht van groottegrenzen &#x200B;](../../../review-and-approve-work/proofing/proofing-overview/supported-proofing-file-types.md)) voldoen. Als de naam van het bestand overeenkomt met de naam van een bestaande proefdruk, geeft [!DNL Workfront Proof] een bericht weer met een koppeling waarmee u het bestand kunt converteren naar een **[!UICONTROL New version]** van die proefdruk (zie ).\
+   ![&#x200B; Meer knoop &#x200B;](assets/more-button-text-version.png)
 
   >[!TIP]
   >
@@ -58,7 +58,7 @@ U kunt, informatie over de dossiers (niet proefdrukken) leiden delen en bekijken
 
    U kunt **[!UICONTROL Message]** of **[!UICONTROL Remove]** een gebruiker **[!UICONTROL More]** gebruiken het pictogram aan de rechterkant.
 
-   ![ Bericht en verwijder ](assets/message-and-remove.png)
+   ![&#x200B; Bericht en verwijder &#x200B;](assets/message-and-remove.png)
 
    Als u een van deze gebruikers een bericht wilt sturen, wordt de pagina **[!DNL Message all]** weergegeven, waar u meerdere berichten tegelijk kunt verzenden.
 

@@ -41,7 +41,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -50,4 +50,4 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 {{step1-click-profile-pic}}
 
 1. Klik in het linkerdeelvenster op **[!UICONTROL Org Chart]** .
-   ![ grafiek van de Organisatie ](assets/org-chart-2025.png)
+   ![&#x200B; grafiek van de Organisatie &#x200B;](assets/org-chart-2025.png)

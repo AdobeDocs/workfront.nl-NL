@@ -24,13 +24,13 @@ Een vertrouwdheid met het schema van de Planning van Workfront zal u in het begr
 
 U kunt de API voor planning oproepen vanuit een extern opzoekveld in een aangepast Workfront-formulier.
 
-Voor meer informatie over Externe raadplegingsgebieden, zie [ Voorbeelden van het Externe raadplegingsgebied in een douanevorm ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/external-lookup-examples.md).
+Voor meer informatie over Externe raadplegingsgebieden, zie [&#x200B; Voorbeelden van het Externe raadplegingsgebied in een douanevorm &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/external-lookup-examples.md).
 
 >[!NOTE]
 >
 >Wanneer u de plannings-API gebruikt, wordt alle informatie over de gebruiker geretourneerd met de gebruikers-id van Adobe Identity Management System (IMS) en niet met de gebruikers-id van Workfront.
 >
->Voor informatie, zie [ gebruikers in Adobe Admin Console ](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md) leiden.
+>Voor informatie, zie [&#x200B; gebruikers in Adobe Admin Console &#x200B;](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md) leiden.
 
 ## URL Workfront-plannings-API
 
@@ -47,7 +47,7 @@ De standaard HTTP-methoden komen overeen met de volgende bewerkingen:
 * **PUT** - geeft een bestaand voorwerp uit
 * **DELETE** - schrapt een voorwerp
 
-Voor meer details en voorbeelden van elke verrichting, zie de [ de ontwikkelaarsdocumentatie van de Planning API van Workfront ](https://developer.adobe.com/wf-planning/).
+Voor meer details en voorbeelden van elke verrichting, zie de [&#x200B; de ontwikkelaarsdocumentatie van de Planning API van Workfront &#x200B;](https://developer.adobe.com/wf-planning/).
 
 ### Veldtypen en zoekopties die hiermee worden gebruikt
 
@@ -368,4 +368,4 @@ Instantie van aanvraag:
 
 Gebruik een sorteerparameter om ervoor te zorgen dat de resultaten correct worden gepagineerd. Hierdoor kunnen de resultaten in dezelfde volgorde worden geretourneerd, zodat de paginering de resultaten niet herhaalt of overslaat.
 
-Voor meer informatie bij het sorteren, zie [ Sorterend vraagresultaten in API ](#sorting-query-results-in-the-api) in dit artikel.
+Voor meer informatie bij het sorteren, zie [&#x200B; Sorterend vraagresultaten in API &#x200B;](#sorting-query-results-in-the-api) in dit artikel.

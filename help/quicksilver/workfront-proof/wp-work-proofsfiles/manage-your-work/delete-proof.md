@@ -18,15 +18,15 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [ het Bewijzen ](../../../review-and-approve-work/proofing/proofing.md).
+>Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [&#x200B; het Bewijzen &#x200B;](../../../review-and-approve-work/proofing/proofing.md).
 
 Gebruikers die bewerkingsrechten hebben op een proefdruk, kunnen deze verwijderen.
 
-Voor meer informatie over geef rechten uit, zie [ Profielen van de Toestemmingen van de Bewijs in  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) en [ Beheer de Rollen van het Bewijs in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)
+Voor meer informatie over geef rechten uit, zie [&#x200B; Profielen van de Toestemmingen van de Bewijs in  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) en [&#x200B; Beheer de Rollen van het Bewijs in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)
 
 Wanneer u een proefdruk (of een ander item, zoals een bestand of map) uit uw account verwijdert, wordt deze door [!DNL Workfront Proof] naar de prullenmand verplaatst. Items in de prullenbak kunnen eenvoudig worden hersteld.
 
-Voor informatie over het Afval, zie [ herstellen en het Afval in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md) leegmaken.
+Voor informatie over het Afval, zie [&#x200B; herstellen en het Afval in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md) leegmaken.
 
 >[!NOTE]
 >
@@ -35,7 +35,7 @@ Voor informatie over het Afval, zie [ herstellen en het Afval in  [!DNL Workfron
 ## Een proefafdruk verwijderen
 
 1. Klik in een lijstweergave op het menu **[!UICONTROL More]** rechts van de proefdruk.\
-   ![ Meer menu ](assets/more-button-small.png)
+   ![&#x200B; Meer menu &#x200B;](assets/more-button-small.png)
 
 1. Klik op **[!UICONTROL View proof details]** in het vervolgkeuzemenu dat wordt weergegeven.
 1. Klik op de knop **[!UICONTROL Delete]** rechtsboven op de pagina.

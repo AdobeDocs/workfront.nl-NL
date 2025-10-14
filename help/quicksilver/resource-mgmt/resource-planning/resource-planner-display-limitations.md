@@ -26,9 +26,9 @@ Wij adviseren het volgende voor optimale prestaties in het tonen van en het uitv
 
 * Gebruik filters om de hoeveelheid informatie te verminderen die u in de Planner van het Middel toont en slechts informatie te bekijken die voor u relevant is.
 * Gebruik al uw exportopties om de hoeveelheid informatie die u in één keer exporteert te verminderen en ervoor te zorgen dat u alleen relevante informatie exporteert.\
-  Voor meer informatie over het gebruiken van filters en het uitvoeren van opties in de Planner van het Middel, zie [ informatie van de Filter in de Planner van het Middel ](../../resource-mgmt/resource-planning/filter-resource-planner.md).
+  Voor meer informatie over het gebruiken van filters en het uitvoeren van opties in de Planner van het Middel, zie [&#x200B; informatie van de Filter in de Planner van het Middel &#x200B;](../../resource-mgmt/resource-planning/filter-resource-planner.md).
 
-  Voor informatie over het uitvoeren van informatie van de Planner van het Middel, zie [ informatie van de Uitvoer van de Planner van het Middel ](../../resource-mgmt/resource-planning/export-resource-planner.md).
+  Voor informatie over het uitvoeren van informatie van de Planner van het Middel, zie [&#x200B; informatie van de Uitvoer van de Planner van het Middel &#x200B;](../../resource-mgmt/resource-planning/export-resource-planner.md).
 
 De hoeveelheid informatie die u kunt weergeven of exporteren, is afhankelijk van de weergave die u toepast en van de omgeving die u gebruikt om toegang te krijgen tot de bronnenplanner.
 

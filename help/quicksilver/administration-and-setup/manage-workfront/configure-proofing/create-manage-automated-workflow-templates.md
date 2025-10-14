@@ -31,7 +31,7 @@ Overweeg het volgende wanneer u een Geautomatiseerde malplaatje van het Werksche
 1. Wanneer een persoon aan een stadium in een Geautomatiseerd malplaatje van het Werkschema wordt toegevoegd, maar ook reeds als recensent op het bewijs aanwezig is, verwijdert het toepassen van het malplaatje de recensent uit het stadium. Als u geen andere revisor aan het werkgebied toevoegt, wordt u in een bericht gevraagd er een toe te voegen.
 1. Uw vermogen om een Geautomatiseerde malplaatje van het Werkschema te wijzigen hangt van de malplaatjemontages af die door de beheerder van Workfront worden gevormd, zoals die in wordt beschreven. Als de mogelijkheid om de sjabloon te wijzigen is uitgeschakeld, kan alleen de eigenaar van de sjabloon deze wijzigen.
 
-Voor informatie over Geautomatiseerde Werkstromen, zie [ Geautomatiseerd overzicht van het Werkschema ](../../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md).
+Voor informatie over Geautomatiseerde Werkstromen, zie [&#x200B; Geautomatiseerd overzicht van het Werkschema &#x200B;](../../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md).
 
 ## Toegangsvereisten
 
@@ -58,7 +58,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -152,7 +152,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
    Kies de Rol van elke persoon **&#x200B;**&#x200B;op de proeven die dit malplaatje en het **E-mailalarm** zullen gebruiken u de gebruiker wilt ontvangen wanneer het werken aan proeven die dit malplaatje gebruiken.
 
-   Voor informatie over rollen op een proef, zie [ standaard het proef rollen ](../../../administration-and-setup/manage-workfront/configure-proofing/configure-default-proofing-roles.md) vormen. Voor informatie over proefe-mailalarm, zie sectie [ proefdrukgebreken voor een gebruiker ](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md#configur) in het artikel [ vormen e-mailberichtmontages in Workfront Proof ](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md).
+   Voor informatie over rollen op een proef, zie [&#x200B; standaard het proef rollen &#x200B;](../../../administration-and-setup/manage-workfront/configure-proofing/configure-default-proofing-roles.md) vormen. Voor informatie over proefe-mailalarm, zie sectie [&#x200B; proefdrukgebreken voor een gebruiker &#x200B;](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md#configur) in het artikel [&#x200B; vormen e-mailberichtmontages in Workfront Proof &#x200B;](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md).
 
    Elke gebruiker kan slechts aan één stadium worden toegevoegd. U kunt zoveel gebruikers toevoegen als u aan een werkgebied wilt.
 
@@ -209,7 +209,7 @@ Als Workfront Proof-beheerder kunt u een automatische werkstroomsjabloon wijzige
     </tbody> 
    </table>
 
-1. In de **sectie van het Werkschema**, verander de naam van om het even welk stadium en breid het montages ![ uit breid knoop ](assets/arrow-button.png) uit om het even welke nodig veranderingen aan te brengen:
+1. In de **sectie van het Werkschema**, verander de naam van om het even welk stadium en breid het montages ![&#x200B; uit breid knoop &#x200B;](assets/arrow-button.png) uit om het even welke nodig veranderingen aan te brengen:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -256,7 +256,7 @@ Als Workfront Proof-beheerder kunt u een automatische werkstroomsjabloon wijzige
 
    Als u niet het diagram moet zien, kunt u **Diagram van de Verbergen** klikken.
 
-1. In **Gedeeld met** sectie, als u een gebruiker wilt schrappen, klik de Meer ![ Meer pictogram ](assets/more-icon.png) knoop aan het recht, dan klik **verwijderen**.
+1. In **Gedeeld met** sectie, als u een gebruiker wilt schrappen, klik de Meer ![&#x200B; Meer pictogram &#x200B;](assets/more-icon.png) knoop aan het recht, dan klik **verwijderen**.
 
 ## Geautomatiseerde workflowsjabloongroepen maken {#create-automated-workflow-template-groups}
 

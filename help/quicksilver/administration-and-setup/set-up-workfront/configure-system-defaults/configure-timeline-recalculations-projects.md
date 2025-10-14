@@ -19,7 +19,7 @@ ht-degree: 0%
 
 Het opnieuw berekenen van chronologie staat managers toe om te zien hoe de krachten buiten het project de chronologie van het project beïnvloeden. De tijdlijn van een project verwijst naar de geplande en geplande data voor het project.
 
-Als [!DNL Adobe Workfront] beheerder, kunt u chronologie voor alle projecten in het systeem manueel opnieuw berekenen. De eigenaars van projecten kunnen chronologie voor individuele projecten manueel opnieuw berekenen. Voor meer informatie, zie [ projectchronologie ](../../../manage-work/projects/manage-projects/recalculate-project-timeline.md) opnieuw berekenen.
+Als [!DNL Adobe Workfront] beheerder, kunt u chronologie voor alle projecten in het systeem manueel opnieuw berekenen. De eigenaars van projecten kunnen chronologie voor individuele projecten manueel opnieuw berekenen. Voor meer informatie, zie [&#x200B; projectchronologie &#x200B;](../../../manage-work/projects/manage-projects/recalculate-project-timeline.md) opnieuw berekenen.
 
 In dit artikel wordt beschreven hoe u als [!DNL Workfront] beheerder kunt bepalen hoe en wanneer [!DNL Workfront] automatisch projecttijdlijnen berekent door projectvoorkeuren in het [!UICONTROL Setup] -gebied te configureren.
 
@@ -51,7 +51,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -69,10 +69,10 @@ Als [!DNL Adobe Workfront] -beheerder kunt u configureren wanneer [!DNL Workfron
 
      In dit geval berekent [!DNL Workfront] de tijdlijn opnieuw voor alle projecten met een [!UICONTROL Update Type] van [!UICONTROL Automatic] of [!UICONTROL Automatic and On Change] .
 
-   * **wanneer het werkingsgebied van een project** verandert: Voor informatie over wat een verandering van het projectwerkingsgebied vormt, zie [ projectchronologie ](../../../manage-work/projects/manage-projects/recalculate-project-timeline.md) opnieuw berekenen.
+   * **wanneer het werkingsgebied van een project** verandert: Voor informatie over wat een verandering van het projectwerkingsgebied vormt, zie [&#x200B; projectchronologie &#x200B;](../../../manage-work/projects/manage-projects/recalculate-project-timeline.md) opnieuw berekenen.
 
      In dit geval berekent [!DNL Workfront] de tijdlijn opnieuw voor alle projecten met het updatetype [!UICONTROL Automatic and On Change] of [!UICONTROL On Change Only] .
-Voor informatie over de Types van Update van het project, zie [ Overzicht van het Type van Update van het Project ](../../../manage-work/projects/planning-a-project/project-update-type-overview.md).
+Voor informatie over de Types van Update van het project, zie [&#x200B; Overzicht van het Type van Update van het Project &#x200B;](../../../manage-work/projects/planning-a-project/project-update-type-overview.md).
 
 1. Klik op **[!UICONTROL Save]**.
 
@@ -80,9 +80,9 @@ Voor informatie over de Types van Update van het project, zie [ Overzicht van he
 
 >[!IMPORTANT]
 >
->Voor de milieu&#39;s van de Sandbox van de Voorproef en van de Douane verfrissen, wordt de niight herberekening onbruikbaar gemaakt, en de projectchronologie worden niet automatisch opnieuw berekend. U moet de projectchronologie voor de Voorproef en de Douane manueel opnieuw berekenen vernieuwt Sandbox milieu&#39;s. Voor informatie, zie [ projectchronologie ](/help/quicksilver/manage-work/projects/manage-projects/recalculate-project-timeline.md) opnieuw berekenen.
+>Voor de milieu&#39;s van de Sandbox van de Voorproef en van de Douane verfrissen, wordt de niight herberekening onbruikbaar gemaakt, en de projectchronologie worden niet automatisch opnieuw berekend. U moet de projectchronologie voor de Voorproef en de Douane manueel opnieuw berekenen vernieuwt Sandbox milieu&#39;s. Voor informatie, zie [&#x200B; projectchronologie &#x200B;](/help/quicksilver/manage-work/projects/manage-projects/recalculate-project-timeline.md) opnieuw berekenen.
 
 
 ## Tijdlijnen voor de gehele [!DNL Workfront] -instantie opnieuw berekenen
 
-U kunt de diagnose [!UICONTROL Recalculate Timeline] uitvoeren om alle tijdlijnen in het [!DNL Workfront] -systeem handmatig opnieuw te berekenen. Hierdoor kunnen alle projectbeheerders de invloed van externe wijzigingen direct zien op zowel geplande als geplande data. Voor meer informatie, zie [ Diagnose van het Gebruik om geautomatiseerde processen ](../../../administration-and-setup/manage-workfront/run-diagnostics/use-diagnostics-to-trigger-automated-processes.md) teweeg te brengen.
+U kunt de diagnose [!UICONTROL Recalculate Timeline] uitvoeren om alle tijdlijnen in het [!DNL Workfront] -systeem handmatig opnieuw te berekenen. Hierdoor kunnen alle projectbeheerders de invloed van externe wijzigingen direct zien op zowel geplande als geplande data. Voor meer informatie, zie [&#x200B; Diagnose van het Gebruik om geautomatiseerde processen &#x200B;](../../../administration-and-setup/manage-workfront/run-diagnostics/use-diagnostics-to-trigger-automated-processes.md) teweeg te brengen.

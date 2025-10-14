@@ -30,7 +30,7 @@ U kunt de volgende aanpassingen aanbrengen:
 
 Naast de tijdelijke aanpassingen hierboven, kunt u ook aanpassen welke kolommen de lijst sorteert door, die [!DNL Workfront] behoudt zelfs nadat u zich afmeldt of uw browser sluit. Als iemand de sorteeropties in de lijstweergave bewerkt, blijft de vorige sorteerselectie echter niet behouden.
 
-Voor informatie bij het wijzigen van de informatie die in uw lijst toont, zie [ Meldend elementen: filters, meningen, en groeperingen ](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md).
+Voor informatie bij het wijzigen van de informatie die in uw lijst toont, zie [&#x200B; Meldend elementen: filters, meningen, en groeperingen &#x200B;](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md).
 
 ## Toegangsvereisten
 
@@ -68,7 +68,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-*For informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*For informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -90,11 +90,11 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
    Als u alle groepen wilt uitvouwen, klikt u op de pijl rechts van het selectievakje in de kolomkop.
 
-   ![ expand_groupings__1_.png ](assets/expand-groupings--1--350x227.png)
+   ![&#x200B; expand_groupings__1_.png &#x200B;](assets/expand-groupings--1--350x227.png)
 
 1. (Facultatief en voorwaardelijk) als u een specifiek aantal punten op het scherm wilt tonen, klik het **[!UICONTROL Showing]** drop-down menu in de laag-juiste hoek van het scherm, dan selecteren om **100**, **250**, **500**, **[!UICONTROL All]**, of **2000** punten te tonen.
 
-   ![ aantal van de Lijst op pagina ](assets/list-number-page-350x119.png)
+   ![&#x200B; aantal van de Lijst op pagina &#x200B;](assets/list-number-page-350x119.png)
 
    >[!TIP]
    >
@@ -104,7 +104,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    >Voor de beste prestaties in grote lijsten waar de voorwerpen geformatteerde tekstgebieden bevatten, adviseren wij beperkend dit aantal tot 250.
    >
    >
-   >Voor meer informatie over de 2 lijsttypes, zie het sectie [ Het verschil tussen de bijgewerkte en erfenislijsten ](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md#updated) in het artikel [ worden begonnen met lijsten in  [!DNL Adobe Workfront]](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
+   >Voor meer informatie over de 2 lijsttypes, zie het sectie [&#x200B; Het verschil tussen de bijgewerkte en erfenislijsten &#x200B;](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md#updated) in het artikel [&#x200B; worden begonnen met lijsten in  [!DNL Adobe Workfront]](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
 
    De resultaten van uw lijst worden gepagineerd om het geselecteerde aantal punten per pagina te tonen. U kunt de resultaten op andere pagina&#39;s openen door op de achterwaartse en voorwaartse pijlen te klikken of een specifieke pagina te selecteren.
 
@@ -116,7 +116,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
    De positie van de kolom wordt opgeslagen totdat u de pagina vernieuwt.
 
-   Voor meer informatie over het aanpassen van de breedte en de orde van kolommen in een lijst, zie het artikel [ kolombreedte en orde wijzigen ](../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md).
+   Voor meer informatie over het aanpassen van de breedte en de orde van kolommen in een lijst, zie het artikel [&#x200B; kolombreedte en orde wijzigen &#x200B;](../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md).
 
 1. Als u de sorteervolgorde van een lijst wilt aanpassen, klikt u op een kolomkop om deze te selecteren en houdt u vervolgens de CMD-toets (ingeschakeld [!DNL Mac]) of de CTRL-toets (ingeschakeld [!DNL Windows] ) op het toetsenbord ingedrukt en selecteert u maximaal twee extra kolomkoppen om op deze koppen te sorteren.
 

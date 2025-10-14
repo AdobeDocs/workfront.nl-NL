@@ -58,7 +58,7 @@ U moet de app [!DNL Workfront] en de app [!DNL TestFlight] op uw iOS-apparaat he
 
 U kunt ook de onderstaande QR-code scannen om u aan te melden voor de bètaversie en de app downloaden:
 
-![ QR van iOS code ](assets/ios-qr-code-350x397.png)
+![&#x200B; QR van iOS code &#x200B;](assets/ios-qr-code-350x397.png)
 
 ## Laat ons weten hoe we het doen
 

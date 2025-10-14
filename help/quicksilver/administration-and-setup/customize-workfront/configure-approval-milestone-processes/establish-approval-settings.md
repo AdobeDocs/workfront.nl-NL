@@ -54,7 +54,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 1. Klik **Processen** > **goedkeurt**.
 
-1. Klik het **pictogram van Montages** pictogram ![ Gear montagespictogram ](assets/gear-icon-settings.png) naast de **goedkeurt** gebiedsnaam.
+1. Klik het **pictogram van Montages** pictogram ![&#x200B; Gear montagespictogram &#x200B;](assets/gear-icon-settings.png) naast de **goedkeurt** gebiedsnaam.
 
 1. In het **vakje van de Montages van de Goedkeuring** dat verschijnt, specificeer de volgende informatie:
 

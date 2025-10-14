@@ -20,7 +20,7 @@ In dit artikel worden de functies beschreven die tijdens de release van het twee
 
 <!--keep the sentence below for all future quarterly release pages-->
 
-Voor een lijst van alle eigenschappen die voor de Planning van Adobe Workfront worden vrijgegeven, zie [ de versieactiviteit van de Planning van Adobe Workfront: artikelindex ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+Voor een lijst van alle eigenschappen die voor de Planning van Adobe Workfront worden vrijgegeven, zie [&#x200B; de versieactiviteit van de Planning van Adobe Workfront: artikelindex &#x200B;](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
 ## Koppeling naar nieuwe aanvraag weergeven na verzending
 
@@ -37,7 +37,7 @@ De nieuwe koppeling is beschikbaar nadat u een verzoek hebt verzonden vanuit de 
 * Via de knop Nieuwe record of Nieuwe aanvraagrecord op de recordtypepagina
 * Van het gebied van Verzoeken, nadat u de nieuwe ervaring voor het voorleggen van verzoeken toeliet.
 
-Voor informatie, zie [ de Verzoeken van de Planning van Adobe Workfront voorleggen om verslagen ](/help/quicksilver/planning/requests/submit-requests.md) tot stand te brengen.
+Voor informatie, zie [&#x200B; de Verzoeken van de Planning van Adobe Workfront voorleggen om verslagen &#x200B;](/help/quicksilver/planning/requests/submit-requests.md) tot stand te brengen.
 
 ## Meerdere objecten van één record maken met behulp van automatisering
 
@@ -50,7 +50,7 @@ U kunt nu meerdere projecten maken op basis van hetzelfde Workfront-planningsrec
 
 Voorafgaand aan deze verhoging, kon u slechts één project creëren telkens als u een automatisering zou teweegbrengen die voor projecten wordt gevormd.
 
-Voor informatie, zie [ voorwerpen creëren gebruikend het verslag van de Planning van Adobe Workfront automatiseringen ](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md).
+Voor informatie, zie [&#x200B; voorwerpen creëren gebruikend het verslag van de Planning van Adobe Workfront automatiseringen &#x200B;](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md).
 
 ## Naam opzoekvelden wijzigen
 
@@ -62,7 +62,7 @@ U kunt nu informatie over opzoekvelden bijwerken nadat deze zijn toegevoegd aan 
 
 Vóór deze verbetering, kon u bestaande raadplegingsgebieden niet uitgeven.
 
-Voor informatie, zie [ gebieden ](/help/quicksilver/planning/fields/edit-fields.md) uitgeven.
+Voor informatie, zie [&#x200B; gebieden &#x200B;](/help/quicksilver/planning/fields/edit-fields.md) uitgeven.
 
 ## Meerdere aanvraagformulieren van een recordtype instellen en beheren
 
@@ -74,7 +74,7 @@ Om u te helpen uw aanvraagformulieren aan te passen voor verschillende belangheb
 
 Alle aanvragen die met de verschillende formulieren worden ingediend, kunnen records voor het geselecteerde recordtype maken. U kunt nu meerdere aanvraagformulieren instellen voor hetzelfde recordtype. De formulieren worden weergegeven in een nieuwe tabelweergave voor aanvraagformulieren op het recordtype. Wanneer u aanvraagformulieren beheert, kunt u nu een aanvraagformulier bewerken, publiceren, delen, kopiëren of verwijderen uit de lijst met aanvraagformulieren in het recordtype.
 
-Voor meer informatie, zie [ creeer en beheer een verzoekvorm in de Planning van Adobe Workfront ](/help/quicksilver/planning/requests/create-request-form.md).
+Voor meer informatie, zie [&#x200B; creeer en beheer een verzoekvorm in de Planning van Adobe Workfront &#x200B;](/help/quicksilver/planning/requests/create-request-form.md).
 
 ## Eenvoudige toegang tot gepubliceerde aanvraagformulieren op de recordtypepagina
 
@@ -87,7 +87,7 @@ U hebt nu toegang tot aanvraagformulieren via de knop Nieuwe record in de rechte
 U kunt niet alleen handmatig records maken, maar ook een CSV- of Excel-bestand importeren, maar u kunt nu ook records maken op basis van een aanvraagformulier van de pagina met recordtypen.
 Voordat u deze verbetering doorvoert, kunt u alleen via een aanvraagformulier records maken via een directe koppeling naar een formulier of vanuit het gebied Aanvragen van Workfront.
 
-Voor informatie, zie [ verslagen ](/help/quicksilver/planning/records/create-records.md) creëren.
+Voor informatie, zie [&#x200B; verslagen &#x200B;](/help/quicksilver/planning/records/create-records.md) creëren.
 
 ## Opzoekvelden toevoegen uit verbonden records in de verbindingsvelden van Workfront-aangepaste formulieren voor planning
 
@@ -99,7 +99,7 @@ Om toegang te hebben tot alle informatie van verbonden verslagen van de voorwerp
 
 U kunt maximaal zeven opzoekvelden toevoegen aan een record die is verbonden met een Workfront-object in het aangepaste veld voor de planningsverbinding. Als onderdeel van deze verbetering kunt u de verbonden records en de bijbehorende velden nu in een gemakkelijk te lezen tabelindeling weergeven in de aangepaste vorm van een Workfront-object.
 
-Voor informatie, zie [ een douaneformulier ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren.
+Voor informatie, zie [&#x200B; een douaneformulier &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren.
 
 ## Records importeren met een CSV- of Excel-bestand
 
@@ -110,7 +110,7 @@ Voor informatie, zie [ een douaneformulier ](/help/quicksilver/administration-an
 U kunt nu records importeren met een CSV- of Excel-spreadsheet van de pagina van een recordtype.
 Voorafgaand aan deze verbetering, kon u verslagen slechts invoeren wanneer het creëren van verslagtypes. Met deze update kunt u records importeren naar bestaande recordtypen.
 
-Voor informatie, zie [ verslagen tot stand brengen door informatie van een CSV of dossier van Excel ](/help/quicksilver/planning/records/import-file-to-create-records.md) in te voeren.
+Voor informatie, zie [&#x200B; verslagen tot stand brengen door informatie van een CSV of dossier van Excel &#x200B;](/help/quicksilver/planning/records/import-file-to-create-records.md) in te voeren.
 
 ## Geef de recordnaam van een detailpagina van een Workfront-planningsaanvraag weer in de naam van het browsertabblad
 
@@ -136,7 +136,7 @@ De volgende functies zijn nu beschikbaar met deze update:
 
 * De 6 meest recente verzoeken worden eerst weergegeven in het uniforme doorzoekbare gebied.
 
-Voor meer informatie, zie [ de Verzoeken van de Planning van Adobe Workfront voorleggen om verslagen ](/help/quicksilver/planning/requests/submit-requests.md) tot stand te brengen.
+Voor meer informatie, zie [&#x200B; de Verzoeken van de Planning van Adobe Workfront voorleggen om verslagen &#x200B;](/help/quicksilver/planning/requests/submit-requests.md) tot stand te brengen.
 
 ## Formulervelden worden nu ondersteund in aanvraagformulieren
 
@@ -148,7 +148,7 @@ U kunt nu formuleringsgebieden aan een verslagtype aanvraagformulier in de Plann
 
 Vóór deze verbetering konden deze typen velden niet worden toegevoegd aan aanvraagformulieren.
 
-Voor informatie, zie [ creeer en beheer een verzoekvorm in de Planning van Adobe Workfront ](/help/quicksilver/planning/requests/create-request-form.md).
+Voor informatie, zie [&#x200B; creeer en beheer een verzoekvorm in de Planning van Adobe Workfront &#x200B;](/help/quicksilver/planning/requests/create-request-form.md).
 
 ## Updates van de pagina van de verbindingsweergave van een record
 
@@ -166,7 +166,7 @@ We hebben de verbindingsweergave van een recordpagina bijgewerkt met de volgende
 
 * U kunt records verbinden en verbreken.
 
-Voor meer informatie, zie [ de lay-out van de verslagpagina beheren ](/help/quicksilver/planning/records/manage-the-record-page.md).
+Voor meer informatie, zie [&#x200B; de lay-out van de verslagpagina beheren &#x200B;](/help/quicksilver/planning/records/manage-the-record-page.md).
 
 ## Nieuwe expressie die wordt toegevoegd aan formuliervelden
 
@@ -176,7 +176,7 @@ Voor meer informatie, zie [ de lay-out van de verslagpagina beheren ](/help/quic
 
 We hebben de expressie JSONELEMENT toegevoegd aan formuleringsvelden. Deze uitdrukking keert de gegevens van JSON door verstrekte JSONPath terug.
 
-Voor informatie, zie [ overzicht van de gebieden van de Formule ](/help/quicksilver/planning/fields/formula-fields.md).
+Voor informatie, zie [&#x200B; overzicht van de gebieden van de Formule &#x200B;](/help/quicksilver/planning/fields/formula-fields.md).
 
 ## aanwezigheidsindicatoren in realtime in de detailvoorvertoning of pagina van een record
 
@@ -188,7 +188,7 @@ Om te begrijpen welke informatie door andere gebruikers wanneer het werken in de
 
 Het veld dat door een andere gebruiker wordt bewerkt, wordt nu gemarkeerd en de avatars van andere gebruikers zijn voor u zichtbaar in de rechterbovenhoek van de voorvertoning of detailpagina.
 
-Voor informatie, zie [ verslagen ](/help/quicksilver/planning/records/edit-records.md) uitgeven.
+Voor informatie, zie [&#x200B; verslagen &#x200B;](/help/quicksilver/planning/records/edit-records.md) uitgeven.
 
 ## Verbeteringen voor het maken van Workfront-objecten wanneer deze worden verbonden met planningsrecords
 
@@ -204,7 +204,7 @@ De volgende functies zijn beschikbaar met deze verbetering:
 
 * Mogelijkheid om programma&#39;s toe te voegen en deze te koppelen aan een portfolio met een knop voor permanent toevoegen in een verbindingsveld.
 
-Voor informatie, zie [ de voorwerpen van Workfront van de Planning van Workfront ](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md) creëren.
+Voor informatie, zie [&#x200B; de voorwerpen van Workfront van de Planning van Workfront &#x200B;](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md) creëren.
 
 ## Automatisering configureren om objecten en records te maken op basis van een bestaande record
 
@@ -216,7 +216,7 @@ Als werkruimtemanager, kunt u douaneautomatiseringen voor een verslagtype nu vor
 
 De gemaakte objecten of records worden direct verbonden met de record waarin de automatisering is geconfigureerd en geactiveerd.
 
-Voor informatie, zie [ voorwerpen creëren gebruikend het verslag van de Planning van Adobe Workfront automatiseringen ](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md).
+Voor informatie, zie [&#x200B; voorwerpen creëren gebruikend het verslag van de Planning van Adobe Workfront automatiseringen &#x200B;](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md).
 
 ## Handelingen van AI Assistant controleren en bevestigen
 
@@ -236,7 +236,7 @@ Eerder was deze bevestigingsstap niet beschikbaar.
 
 De volgende expressies zijn nu beschikbaar in Workfront-formulervelden: ARRAY, ARRAYLENGTH, ARRAYELEMENT. Definities en voorbeelden van elke expressie zijn beschikbaar in de formulereditor.
 
-Voor informatie, zie [ overzicht van de gebieden van de Formule ](/help/quicksilver/planning/fields/formula-fields.md).
+Voor informatie, zie [&#x200B; overzicht van de gebieden van de Formule &#x200B;](/help/quicksilver/planning/fields/formula-fields.md).
 
 ## Workfront-planningsitems delen met teams, functies en bedrijven
 
@@ -262,7 +262,7 @@ U kunt nu tekst kopiëren van een externe bron naar Workfront en deze plakken in
 
 Voorafgaand aan deze verbetering, kon u informatie van een bestaand gebied van de Planning van Workfront slechts kopiëren en het kleven op een ander gebied.
 
-Voor meer informatie, zie [ verslagen ](/help/quicksilver/planning/records/edit-records.md) uitgeven.
+Voor meer informatie, zie [&#x200B; verslagen &#x200B;](/help/quicksilver/planning/records/edit-records.md) uitgeven.
 
 ## Filters met meerdere lagen in recordweergaven
 
@@ -280,7 +280,7 @@ De volgende verbeteringen maken deel uit van deze update:
 
 Voorafgaand aan deze verbetering, kon u veelvoudige het filtreren exploitanten tussen enige voorwaarden toevoegen en u kon niet veelvoudige voorwaardengroepen samenvoegen.
 
-Voor meer informatie, zie [ de lijstmening ](/help/quicksilver/planning/views/manage-the-table-view.md) leiden.
+Voor meer informatie, zie [&#x200B; de lijstmening &#x200B;](/help/quicksilver/planning/views/manage-the-table-view.md) leiden.
 
 ## Projecten maken met behulp van een sjabloon wanneer u deze verbindt met Workfront-planningsrecords
 
@@ -294,7 +294,7 @@ Bijvoorbeeld, als u de campagnes van de Planning van Workfront met de projecten 
 
 Voorafgaand aan deze verbetering, kon u lege projecten, zonder een malplaatje tot stand brengen.
 
-Voor informatie, zie [ de voorwerpen van Workfront van de Planning van Workfront ](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md) creëren.
+Voor informatie, zie [&#x200B; de voorwerpen van Workfront van de Planning van Workfront &#x200B;](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md) creëren.
 
 ## Verbeterde weergave van de naam en beschrijving van de record op de detailpagina van de record en in het voorvertoningsvak
 
@@ -306,4 +306,4 @@ Om u een betere zichtbaarheid te geven bij het opnemen van titels in de koptekst
 
 Hierdoor lopen langere recordtitels nu om in plaats van te worden afgekapt wanneer deze worden weergegeven op de detailpagina en in het voorvertoningsvak.
 
-Voor informatie over de pagina van het verslag, zie [ de verslagpagina ](/help/quicksilver/planning/records/manage-the-record-page.md) leiden.
+Voor informatie over de pagina van het verslag, zie [&#x200B; de verslagpagina &#x200B;](/help/quicksilver/planning/records/manage-the-record-page.md) leiden.

@@ -71,7 +71,7 @@ Proefdrukopmerkingen bewerken:
 1. (Voorwaardelijk) als het commentaargebied niet open is, klik **commentaren van de Mening** in de hoger-juiste hoek.
 1. Beweeg over de opmerking u wilt uitgeven, **klikken Meer** pictogram dat verschijnt, dan **uitgeeft** klikken.
 
-1. ![ Edit_a_comment-More_icon.png ](assets/edit-a-comment-more-icon.png)
+1. ![&#x200B; Edit_a_comment-More_icon.png &#x200B;](assets/edit-a-comment-more-icon.png)
 
 1. Breng om het even welke veranderingen in de commentaar aan, dan klik **Post**.
 

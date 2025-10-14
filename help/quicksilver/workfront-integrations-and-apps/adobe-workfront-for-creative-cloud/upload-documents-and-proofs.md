@@ -43,7 +43,7 @@ U kunt als volgt de overschakeling naar één bestand in [!DNL InDesign] ongedaa
 
 1. Open het **Vastgestelde de dialoogvakje van de Montages van het Dossier van de Uitvoer**.
 
-   ![ de uitvoermontages van het Dossier ](assets/file-export-settings.png)
+   ![&#x200B; de uitvoermontages van het Dossier &#x200B;](assets/file-export-settings.png)
 
 1. Zoek het type element dat u wilt exporteren en pas de instellingen aan zoals hieronder beschreven:
 

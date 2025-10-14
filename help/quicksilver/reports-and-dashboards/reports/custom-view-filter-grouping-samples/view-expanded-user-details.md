@@ -20,7 +20,7 @@ ht-degree: 0%
 
 In deze gebruikersweergave wordt informatie over uw gebruikers weergegeven. Naast hun naam, toegangsniveaus, en Bedrijf, toont het ook lijsten van hun Groepen, Teams, en de Rollen van de Baan.
 
-![ extended_user_view.png ](assets/expanded-user-view-350x75.png)
+![&#x200B; extended_user_view.png &#x200B;](assets/expanded-user-view-350x75.png)
 
 ## Toegangsvereisten
 
@@ -51,7 +51,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

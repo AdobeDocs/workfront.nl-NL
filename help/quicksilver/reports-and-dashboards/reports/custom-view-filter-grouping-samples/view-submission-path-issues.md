@@ -20,7 +20,7 @@ ht-degree: 0%
 
 U kunt het pad waarlangs een kwestie in de mening van een uitgiftenrapport is voorgelegd tonen. De weg wijst op de Rij, de Groep van het Onderwerp, en het Onderwerp van de Rij waar de kwestie oorspronkelijk werd voorgelegd.
 
-![ issue_submission_path.png ](assets/issue-submission-path-350x66.png)
+![&#x200B; issue_submission_path.png &#x200B;](assets/issue-submission-path-350x66.png)
 
 ## Toegangsvereisten
 
@@ -63,7 +63,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

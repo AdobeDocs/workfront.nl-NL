@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Op deze pagina worden alle verbeteringen op het gebied van proefdrukken beschreven die zijn aangebracht met de release van het derde kwartaal van 2024 voor de voorvertoningsomgeving. Deze verbeteringen worden beschikbaar gesteld in de productieomgeving met de release van het derde kwartaal van 2024.
 
-Voor een lijst van alle veranderingen beschikbaar op dit punt in het Derde Kwartaal 2024 versiecyclus, zie [ Derde Kwartaal 2024 versieoverzicht ](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar op dit punt in het Derde Kwartaal 2024 versiecyclus, zie [&#x200B; Derde Kwartaal 2024 versieoverzicht &#x200B;](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).
 
 ## Beveiligingsupdates voor de Desktop Proofing Viewer
 

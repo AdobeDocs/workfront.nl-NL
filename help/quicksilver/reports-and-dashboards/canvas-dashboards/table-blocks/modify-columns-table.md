@@ -24,20 +24,20 @@ De kolommen in een lijst kunnen voor vertoning worden gevormd. U kunt de volgend
 
 ## Vereisten
 
-Alvorens u begint, moet u in de bèta van het Canvas van de Rapportering inschrijven. Voor meer informatie, zie [ Rapporterend de bèta van het Canvas: overzicht ](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
+Alvorens u begint, moet u in de bèta van het Canvas van de Rapportering inschrijven. Voor meer informatie, zie [&#x200B; Rapporterend de bèta van het Canvas: overzicht &#x200B;](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
 
 ## Kolommen in een tabel wijzigen
 
-1. Ga naar een bestaand rapport, klik het **Meer pictogram van het Menu** ![ Meer pictogram ](assets/more-icon.png) in de rapportkopbal, dan uitgezocht **geef** uit.
-1. Voor de lijstkopbal in het rapport, klik **uitgeven** pictogram ![ pictogram geeft pictogram ](assets/edit-icon.png) uit.
+1. Ga naar een bestaand rapport, klik het **Meer pictogram van het Menu** ![&#x200B; Meer pictogram &#x200B;](assets/more-icon.png) in de rapportkopbal, dan uitgezocht **geef** uit.
+1. Voor de lijstkopbal in het rapport, klik **uitgeven** pictogram ![&#x200B; pictogram geeft pictogram &#x200B;](assets/edit-icon.png) uit.
 
-   ![ geef pictogram in lijstkopbal uit ](assets/edit-icon-table-header-350x71.png)
+   ![&#x200B; geef pictogram in lijstkopbal uit &#x200B;](assets/edit-icon-table-header-350x71.png)
 
    >[!NOTE]
    >
    >Als u de tabel hebt gemaakt en nog geen velden hebt toegevoegd, klikt u in plaats daarvan op de knop Bewerken in het midden van de tabel.
 
-1. (Optioneel) Voeg kolommen in de tabel toe, verplaats deze of verwijder deze. Voor meer informatie bij het uitgeven van de gebieden in een lijst, zie [ een lijstblok in het Melden van Canvas ](../../../reports-and-dashboards/reporting-canvas/table-blocks/add-or-edit-report-table.md) toevoegen of uitgeven
+1. (Optioneel) Voeg kolommen in de tabel toe, verplaats deze of verwijder deze. Voor meer informatie bij het uitgeven van de gebieden in een lijst, zie [&#x200B; een lijstblok in het Melden van Canvas &#x200B;](../../../reports-and-dashboards/reporting-canvas/table-blocks/add-or-edit-report-table.md) toevoegen of uitgeven
 
    | Een nieuwe kolom toevoegen | Om een kolom aan een lijst toe te voegen, of klik en sleep een gebied van het **paneel van Gebieden** op het recht van de pagina op de lijst waar u het zou willen plaatsen, of dubbelklik een gebied om het als meest rechtse kolom toe te voegen. |
    |---|---|

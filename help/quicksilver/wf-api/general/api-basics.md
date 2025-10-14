@@ -33,7 +33,7 @@ Elk gebruik van de API moet in de bètaomgeving van Workfront worden getest voor
 
 ## Workfront API-URL
 
-Voor informatie over URL die u zult gebruiken om Workfront API te roepen, zie [ formaat van het Domein voor Adobe Workfront API vraag ](/help/quicksilver/wf-api/tips-tricks-and-troubleshooting/locate-domain-for-api.md).
+Voor informatie over URL die u zult gebruiken om Workfront API te roepen, zie [&#x200B; formaat van het Domein voor Adobe Workfront API vraag &#x200B;](/help/quicksilver/wf-api/tips-tricks-and-troubleshooting/locate-domain-for-api.md).
 
 ## Basisbeginselen van REST
 
@@ -51,7 +51,7 @@ Elk object in het systeem krijgt een unieke URI die bestaat uit het objecttype e
 
 Het objecttype is niet hoofdlettergevoelig en kan de afgekorte ObjCode (zoals proj) of de alternatieve objectnaam (project) zijn.
 
-Zie voor een lijst met objecten, geldige ObjCodes en objectvelden  [ API Ontdekkingsreiziger ](../../wf-api/general/api-explorer.md).
+Zie voor een lijst met objecten, geldige ObjCodes en objectvelden  [&#x200B; API Ontdekkingsreiziger &#x200B;](../../wf-api/general/api-explorer.md).
 
 >[!NOTE]
 >
@@ -99,7 +99,7 @@ Verificatie wordt uitgevoerd door een sessie-id door te geven die kan worden geg
 
 #### Koptekstverificatie aanvragen
 
-De aangewezen methode van authentificatie is een verzoekkopbal over te gaan genoemd SessionID die het zittingsteken bevat. Dit heeft het voordeel om tegen [ Cross-site van het Verzoek Smederij (CSRF) ](https://en.wikipedia.org/wiki/Cross-site_request_forgery) aanvallen veilig te zijn en zich niet met URI voor caching doeleinden te mengen.
+De aangewezen methode van authentificatie is een verzoekkopbal over te gaan genoemd SessionID die het zittingsteken bevat. Dit heeft het voordeel om tegen [&#x200B; Cross-site van het Verzoek Smederij (CSRF) &#x200B;](https://en.wikipedia.org/wiki/Cross-site_request_forgery) aanvallen veilig te zijn en zich niet met URI voor caching doeleinden te mengen.
 
 Hieronder ziet u een voorbeeld van een aanvraagkoptekst:
 
@@ -125,17 +125,17 @@ De API gebruikt de zelfde op koekje-gebaseerde authentificatie die door Web UI a
 >* Serververificatie met JWT
 >* Gebruikersverificatie met OAuth2
 >
->Voor instructies bij vestiging deze authentificatiemethodes, zie [ tot toepassingen OAuth2 voor de integratie van Workfront leiden ](../../administration-and-setup/configure-integrations/create-oauth-application.md)
+>Voor instructies bij vestiging deze authentificatiemethodes, zie [&#x200B; tot toepassingen OAuth2 voor de integratie van Workfront leiden &#x200B;](../../administration-and-setup/configure-integrations/create-oauth-application.md)
 >
->Voor instructies bij het gebruiken van serverauthentificatie in Workfront, zie [ vormen en gebruiken de douaneOAuth 2 van uw organisatie toepassingen gebruikend stroom JWT ](../../wf-api/api/oauth-app-jwt-flow.md)
+>Voor instructies bij het gebruiken van serverauthentificatie in Workfront, zie [&#x200B; vormen en gebruiken de douaneOAuth 2 van uw organisatie toepassingen gebruikend stroom JWT &#x200B;](../../wf-api/api/oauth-app-jwt-flow.md)
 >
->Voor instructies bij het gebruiken van gebruikersauthentificatie in Workfront, zie [ vormen en gebruiken de douane OAuth 2 van uw organisatie toepassingen gebruikend de stroom van de vergunningscode ](../../wf-api/api/oauth-app-code-token-flow.md)
+>Voor instructies bij het gebruiken van gebruikersauthentificatie in Workfront, zie [&#x200B; vormen en gebruiken de douane OAuth 2 van uw organisatie toepassingen gebruikend de stroom van de vergunningscode &#x200B;](../../wf-api/api/oauth-app-code-token-flow.md)
 
 >[!NOTE]
 >
 >De in dit gedeelte beschreven procedure is alleen van toepassing op organisaties die nog niet aan boord zijn gegaan bij het Adobe Business Platform. Aanmelden bij Workfront via de Workfront API is niet beschikbaar als uw organisatie is aangemeld bij het Adobe Business Platform.
 >
->Voor een lijst van procedures die verschillen gebaseerd op of uw organisatie aan het Van Bedrijfs Adobe Platform is genegeerd, zie [ Op platform-gebaseerde beleidsverschillen (Adobe Workfront/Adobe Bedrijfs Platform) ](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>Voor een lijst van procedures die verschillen gebaseerd op of uw organisatie aan het Van Bedrijfs Adobe Platform is genegeerd, zie [&#x200B; Op platform-gebaseerde beleidsverschillen (Adobe Workfront/Adobe Bedrijfs Platform) &#x200B;](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
 Met een geldige gebruikersnaam en wachtwoord kunt u de volgende aanvraag gebruiken om een sessie-id op te halen:
 
@@ -324,7 +324,7 @@ U kunt de parameter van het gebiedsverzoek gebruiken om een komma-gescheiden lij
 >
 >Deze veldnamen zijn hoofdlettergevoelig.
 
-Voor een lijst met mogelijke veldverwijzingen raadpleegt u de  [ API Ontdekkingsreiziger ](../../wf-api/general/api-explorer.md)
+Voor een lijst met mogelijke veldverwijzingen raadpleegt u de  [&#x200B; API Ontdekkingsreiziger &#x200B;](../../wf-api/general/api-explorer.md)
 
 #### Zoeken naar geneste objecten
 

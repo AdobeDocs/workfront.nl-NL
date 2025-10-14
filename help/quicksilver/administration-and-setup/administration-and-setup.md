@@ -27,11 +27,11 @@ Beheerders kunnen de gebruikerservaring in Workfront beheren en aanpassen. Ga al
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../administration-and-setup/adobe-admin-console/wf-admin-in-admin-console.md" class="MCXref xref" xrefformat="{para}">Workfront administration in the Adobe Admin Console</a> </li>
   -->
 
-* [ Opstelling Adobe Workfront ](../administration-and-setup/set-up-workfront/set-up-workfront.md)
-* [ Gebruikersbeheer ](../administration-and-setup/add-users/add-users.md)
-* [ pas Adobe Workfront ](../administration-and-setup/customize-workfront/customize-workfront.md) aan
-* [ beheer Adobe Workfront ](../administration-and-setup/manage-workfront/manage-workfront.md)
-* [ beheert groepen ](../administration-and-setup/manage-groups/manage-groups.md)
-* [ vormen integraties ](../administration-and-setup/configure-integrations/workfront-integrations.md)
+* [&#x200B; Opstelling Adobe Workfront &#x200B;](../administration-and-setup/set-up-workfront/set-up-workfront.md)
+* [&#x200B; Gebruikersbeheer &#x200B;](../administration-and-setup/add-users/add-users.md)
+* [&#x200B; pas Adobe Workfront &#x200B;](../administration-and-setup/customize-workfront/customize-workfront.md) aan
+* [&#x200B; beheer Adobe Workfront &#x200B;](../administration-and-setup/manage-workfront/manage-workfront.md)
+* [&#x200B; beheert groepen &#x200B;](../administration-and-setup/manage-groups/manage-groups.md)
+* [&#x200B; vormen integraties &#x200B;](../administration-and-setup/configure-integrations/workfront-integrations.md)
 * [Blauwdrukken](../administration-and-setup/blueprints/blueprints.md)
 * [Tips, trucs en probleemoplossing voor beheer en installatie](../administration-and-setup/tips-tricks-and-troubleshooting/ttt-admin-setup.md)

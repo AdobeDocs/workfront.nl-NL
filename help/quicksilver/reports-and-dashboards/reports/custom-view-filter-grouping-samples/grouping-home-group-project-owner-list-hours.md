@@ -22,7 +22,7 @@ U kunt de naam van de Groep van het Huis van de Eigenaar van het Project in een 
 
 De groepering groepeert ook de resultaten door de naam van de Eigenaar van het Project en de Naam van het Project.
 
-![ grouping_for_project_owner_home_group.png ](assets/grouping-for-project-owner-home-group-350x51.png)
+![&#x200B; grouping_for_project_owner_home_group.png &#x200B;](assets/grouping-for-project-owner-home-group-350x51.png)
 
 ## Toegangsvereisten
 
@@ -60,7 +60,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-*For informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*For informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

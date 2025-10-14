@@ -90,6 +90,6 @@ De filterknoppen in het gebied [!UICONTROL Projects and Timesheets] worden niet 
    1. Controleer in de sectie **[!UICONTROL Filter]** of **[!UICONTROL Projects I'm On]** , **[!UICONTROL Projects I Own]** (voor projecten) en **[!UICONTROL My Timesheet Approvals]** en **[!UICONTROL My Timesheets]** (voor tijdbladen) zijn geselecteerd.
    1. Klik op **[!UICONTROL Save]**.
 
-   Voor meer informatie, zie [ Filters, Mening, en Groepen aanpassen gebruikend een lay-outmalplaatje ](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md).
+   Voor meer informatie, zie [&#x200B; Filters, Mening, en Groepen aanpassen gebruikend een lay-outmalplaatje &#x200B;](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md).
 
-1. Wijs het lay-outmalplaatje aan de correcte gebruikers, baanrollen, teams, of groepen toe. Voor informatie, zie [ gebruikers aan een lay-outmalplaatje ](../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md) toewijzen.
+1. Wijs het lay-outmalplaatje aan de correcte gebruikers, baanrollen, teams, of groepen toe. Voor informatie, zie [&#x200B; gebruikers aan een lay-outmalplaatje &#x200B;](../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md) toewijzen.

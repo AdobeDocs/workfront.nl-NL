@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [ het Bewijzen ](../../../review-and-approve-work/proofing/proofing.md).
+>Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [&#x200B; het Bewijzen &#x200B;](../../../review-and-approve-work/proofing/proofing.md).
 
 Door de groep privé te maken, kunt u alleen de groep weergeven, gebruiken, bewerken of verwijderen. Als de groep niet privé is, dan kunnen alle gebruikers in uw rekening de groep zien en gebruiken.
 
@@ -29,7 +29,7 @@ Een nieuwe groep privé maken:
 1. Ga naar **[!UICONTROL Groups]** aan de linkerkant van het scherm.
 1. Selecteer de optie **[!UICONTROL Private]** op de [!UICONTROL New group] -pagina wanneer u de groep instelt. (1)
 
-![ Private_new_group.png ](assets/private-new-group-350x221.png)
+![&#x200B; Private_new_group.png &#x200B;](assets/private-new-group-350x221.png)
 
 ## Een bestaande groep instellen op Private
 
@@ -38,4 +38,4 @@ Een bestaande groep privé maken:
 1. Ga naar **[!UICONTROL Groups]** aan de linkerkant van het scherm.
 1. Schakel de optie **[!UICONTROL Private]** in op de pagina Groepdetails. (2)
 
-![ Private_Group_Details.png ](assets/private-group-details-350x123.png)
+![&#x200B; Private_Group_Details.png &#x200B;](assets/private-group-details-350x123.png)

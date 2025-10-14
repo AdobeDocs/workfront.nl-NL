@@ -58,11 +58,11 @@ Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licen
 
 Voordat u een mijlpaal aan een taak kunt koppelen, moet het volgende bestaan:
 
-* De beheerder van Workfront moet een milestone weg tot stand brengen, zoals die in [ wordt beschreven leidt tot een milestone weg ](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md).
+* De beheerder van Workfront moet een milestone weg tot stand brengen, zoals die in [&#x200B; wordt beschreven leidt tot een milestone weg &#x200B;](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md).
 
 * U moet een Weg van de Mijlpaal aan een project associëren.
 
-  Voor informatie, zie [ projecten ](/help/quicksilver/manage-work/projects/manage-projects/edit-projects.md) uitgeven.
+  Voor informatie, zie [&#x200B; projecten &#x200B;](/help/quicksilver/manage-work/projects/manage-projects/edit-projects.md) uitgeven.
 
 * Om een mijlpaden met een project te associëren, moet het project in Planning of Huidige status zijn.
 
@@ -82,7 +82,7 @@ Nadat een mijlpaden aan een project wordt geassocieerd, kunnen de taken een mijl
 1. Klik **sparen**.
 1. (Facultatief) in een lijst van taken, voeg de **kolom van de Status van 0&rbrace; toe om te identificeren welke taken mijlpalen hebben.** De indicator Mijlsteen ruitje wordt weergegeven in de kolom Statuspictogrammen.
 
-   Voor informatie, zie [ meningen in Adobe Workfront ](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md) creëren of uitgeven.
+   Voor informatie, zie [&#x200B; meningen in Adobe Workfront &#x200B;](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md) creëren of uitgeven.
 
    ![](assets/amwt3.png)
 

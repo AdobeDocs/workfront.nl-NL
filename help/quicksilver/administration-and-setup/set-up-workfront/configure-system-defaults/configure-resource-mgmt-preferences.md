@@ -53,7 +53,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -68,7 +68,7 @@ Bij het berekenen van de capaciteit van een gebruiker houdt Workfront rekening m
 * De waarde van [!UICONTROL Work Time] voor de gebruiker, die verwijst naar de tijd die de gebruiker besteedt aan projectgerelateerd werk. Dit omvat geen overheadtijd, zoals vergaderingen en opleiding. De waarde [!UICONTROL Work Time] is gelijk aan 1 wanneer de gebruiker de volledige tijd beschikbaar is voor het werk, zoals aangegeven in [!UICONTROL FTE] of het schema. Dit houdt in dat de gebruiker geen tijd doorbrengt aan niet-projectgerelateerd werk, zoals vergaderingen of trainingen.
 
 
-Voor informatie over planning en het plannen van middelen in [!DNL Workfront], zie [ begonnen worden met het Beheer van het Middel ](../../../resource-mgmt/resource-mgmt-overview/get-started-resource-management.md).
+Voor informatie over planning en het plannen van middelen in [!DNL Workfront], zie [&#x200B; begonnen worden met het Beheer van het Middel &#x200B;](../../../resource-mgmt/resource-mgmt-overview/get-started-resource-management.md).
 
 
 ## [!UICONTROL Resource Management] -voorkeuren configureren
@@ -84,7 +84,7 @@ Voor informatie over planning en het plannen van middelen in [!DNL Workfront], z
 
    * **het StandaardProgramma**: [!DNL Workfront] gebruikt het StandaardProgramma van het systeem en individuele VTE van de gebruiker om de Beschikbare Uren van de gebruiker in middelbeheersinstrumenten te berekenen.
 
-     Voor meer informatie, zie [ een programma ](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md) creëren en [ geef het profiel van een gebruiker ](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) uit.
+     Voor meer informatie, zie [&#x200B; een programma &#x200B;](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md) creëren en [&#x200B; geef het profiel van een gebruiker &#x200B;](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) uit.
 
      Als deze optie is geselecteerd, berekent Workfront de beschikbare uren van de gebruiker aan de hand van de volgende formule:
 
@@ -134,7 +134,7 @@ Voor informatie over planning en het plannen van middelen in [!DNL Workfront], z
 
    * **het Programma van de Gebruiker**: [!DNL Workfront] gebruikt het programma van de gebruiker evenals [!UICONTROL Default Schedule] van het systeem om de Beschikbare [!UICONTROL FTE] waarde van de gebruiker in middelbeheersinstrumenten te berekenen. De beschikbare uren worden alleen berekend volgens het schema van de gebruiker en de waarde van [!UICONTROL FTE] van de gebruiker wordt genegeerd. Dit is de standaardinstelling.
 
-     Voor meer informatie, zie [ een programma ](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md) creëren en [ geef het profiel van een gebruiker ](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) uit.
+     Voor meer informatie, zie [&#x200B; een programma &#x200B;](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md) creëren en [&#x200B; geef het profiel van een gebruiker &#x200B;](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) uit.
 
      >[!NOTE]
      >

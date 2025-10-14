@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Deze pagina bevat een beschrijving van alle verbeteringen die zijn aangebracht in algemene gebieden van Workfront met de release 2020.1. Deze verbeteringen zijn momenteel beschikbaar in de voorvertoningsomgeving en worden eind maart of begin april 2020 beschikbaar gesteld in de productieomgeving.
 
-Voor een lijst van alle veranderingen beschikbaar met de versie 2020.1, zie [ overzicht van de versie 2020.1 ](../../../product-announcements/product-releases/2020.1-release-activity/2020-1-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar met de versie 2020.1, zie [&#x200B; overzicht van de versie 2020.1 &#x200B;](../../../product-announcements/product-releases/2020.1-release-activity/2020-1-release-overview.md).
 
 ## Wijziging vereist voor het toevoegen van proefdrukken aan de lijst van gewenste personen
 
@@ -34,7 +34,7 @@ Als uw firewall of mailserver zo is geconfigureerd dat alleen bepaalde leveranci
 
 Ook &#42; proofhq.com URL wordt vereist.
 
-Voor meer informatie over het bijwerken van uw lijst van gewenste personen, zie [ de lijst van gewenste personen van uw firewall ](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md) vormen.
+Voor meer informatie over het bijwerken van uw lijst van gewenste personen, zie [&#x200B; de lijst van gewenste personen van uw firewall &#x200B;](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md) vormen.
 
 >[!NOTE]
 >
@@ -55,7 +55,7 @@ De Workfront for Jira-integratie synchroniseert nu uw Workfront-opmerkingen naar
 
 Eerder was het mogelijk om opmerkingen van Jira naar Workfront te synchroniseren, maar niet van Workfront naar Jira.
 
-Voor meer informatie, zie [ Adobe Workfront voor Jira ](../../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md) vormen.
+Voor meer informatie, zie [&#x200B; Adobe Workfront voor Jira &#x200B;](../../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md) vormen.
 
 ## De Flash Portfolio Optimizer is verwijderd
 
@@ -63,4 +63,4 @@ Wij hebben de capaciteit verwijderd om tussen het nieuwe en erfenis (gebaseerd o
 
 Ga voor meer informatie over de functie voor het optimaliseren van portfolio naar https://experience.workfront.com/s/article/Understanding-the-Portfolio-Optimizer-356650079
 
-Voor informatie over afgekeurde op Flash-gebaseerde hulpmiddelen in Workfront zie [ Vervanging van op Flash-gebaseerde hulpmiddelen in Adobe Workfront ](../../../product-announcements/announcements/announcement-archive/replace-flash-tools.md).
+Voor informatie over afgekeurde op Flash-gebaseerde hulpmiddelen in Workfront zie [&#x200B; Vervanging van op Flash-gebaseerde hulpmiddelen in Adobe Workfront &#x200B;](../../../product-announcements/announcements/announcement-archive/replace-flash-tools.md).

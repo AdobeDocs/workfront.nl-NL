@@ -52,11 +52,11 @@ Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licen
 
 ## Verstuurde proefdrukgoedkeuringen bekijken
 
-1. Klik het **[!UICONTROL Main Menu]** ![ Belangrijkste pictogram van het Menu ](assets/main-menu-icon.png) in de hoger-juiste hoek, dan klik **[!UICONTROL Home]**.
+1. Klik het **[!UICONTROL Main Menu]** ![&#x200B; Belangrijkste pictogram van het Menu &#x200B;](assets/main-menu-icon.png) in de hoger-juiste hoek, dan klik **[!UICONTROL Home]**.
 1. (Voorwaardelijk) klik **aanpassen** om **Mijn goedkeurt** widget toe te voegen.
 1. (Voorwaardelijk) klik het **drop-down menu van de Filter**, dan uitgezochte **Goedkeuringen ik** heb voorgelegd om goedkeuringen te zien u hebt voorgelegd.
 
-   ![ Goedkeuring van het Bewijs ](assets/proof-approval.png)
+   ![&#x200B; Goedkeuring van het Bewijs &#x200B;](assets/proof-approval.png)
 
    >[!NOTE]
    >

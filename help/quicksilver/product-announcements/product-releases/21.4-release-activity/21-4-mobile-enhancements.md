@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Op deze pagina worden alle verbeteringen beschreven die zijn aangebracht in de versie 21.4 voor mobiele apparaten in de voorvertoningsomgeving. Deze verbeteringen zullen beschikbaar worden gesteld in de productieomgeving in de week van 4 oktober 2021.
 
-Voor een lijst van alle veranderingen beschikbaar met de versie 21.4, zie [ overzicht van de Versie 21.4 ](../../../product-announcements/product-releases/21.4-release-activity/21-4-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar met de versie 21.4, zie [&#x200B; overzicht van de Versie 21.4 &#x200B;](../../../product-announcements/product-releases/21.4-release-activity/21-4-release-overview.md).
 
 ## Proefbestanden in de mobiele app controleren en goedkeuren
 
@@ -29,7 +29,7 @@ De mobiele app van Adobe Workfront geeft nu alle proefdrukgoedkeuringen weer die
 
 De volgende artikelen worden bijgewerkt wanneer de app wordt uitgebracht naar de App-winkels:
 
-* [ Adobe Workfront voor iOS ](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md)
+* [&#x200B; Adobe Workfront voor iOS &#x200B;](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md)
 * [Adobe Workfront voor Android](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md)
 
 ## Een nieuwe aanvraag maken vanuit het begingebied van de mobiele app
@@ -42,5 +42,5 @@ U kunt nu een nieuwe aanvraag maken vanuit het thuisgebied van de mobiele Adobe 
 
 De volgende artikelen worden bijgewerkt wanneer de app wordt uitgebracht naar de App-winkels:
 
-* [ Adobe Workfront voor iOS ](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md)
+* [&#x200B; Adobe Workfront voor iOS &#x200B;](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md)
 * [Adobe Workfront voor Android](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md)

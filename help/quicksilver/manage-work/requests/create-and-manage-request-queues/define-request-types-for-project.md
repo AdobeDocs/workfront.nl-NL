@@ -48,7 +48,7 @@ U kunt het soort kwesties of verzoeken organiseren die Adobe Workfront door de T
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -58,13 +58,13 @@ Voordat u begint, moet u het volgende doen:
 
 * Heb of creeer een project.
 
-  Voor informatie over het creëren van projecten, zie [ een project ](../../../manage-work/projects/create-projects/create-project.md) creëren.
+  Voor informatie over het creëren van projecten, zie [&#x200B; een project &#x200B;](../../../manage-work/projects/create-projects/create-project.md) creëren.
 
 ## Overwegingen over verzoektypes
 
 * U kunt het type van kwesties of verzoeken specificeren die een project kunnen worden het programma geopend wanneer u het gebied van de Details van de Rij voor het project vormt.
 * U moet niet het project toelaten om een verzoekrij te zijn om de Types van Verzoek voor een project te kunnen bepalen. Om het even welke kwesties die voor een project worden geregistreerd kunnen met een verschillend Type van Verzoek worden geëtiketteerd.
-* Als u de Onderwerpen van de Rij aan uw project toevoegt, moet u de Types van Verzoek op elk rijonderwerp bepalen om het te tonen wanneer het toevoegen van een nieuwe kwestie of een verzoek. Voor meer informatie, zie [ de Onderwerpen van de Rij ](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md) creëren.
+* Als u de Onderwerpen van de Rij aan uw project toevoegt, moet u de Types van Verzoek op elk rijonderwerp bepalen om het te tonen wanneer het toevoegen van een nieuwe kwestie of een verzoek. Voor meer informatie, zie [&#x200B; de Onderwerpen van de Rij &#x200B;](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md) creëren.
 
 ## Bepaal de kwestie of verzoektypes voor een project
 
@@ -81,6 +81,6 @@ Voordat u begint, moet u het volgende doen:
    >[!NOTE]
    >
    >* Er moet ten minste één aanvraagtype zijn geselecteerd. U kunt meerdere typen selecteren.
-   >* Mogelijk is de naam van uw Workfront-beheerder gewijzigd in een aantal van deze opties. Voor informatie, zie [ aanvraagtypes ](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-request-types.md) vormen.
+   >* Mogelijk is de naam van uw Workfront-beheerder gewijzigd in een aantal van deze opties. Voor informatie, zie [&#x200B; aanvraagtypes &#x200B;](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-request-types.md) vormen.
 
 1. Klik **sparen**. De verzoektypes u specificeerde zullen beschikbaar zijn om te selecteren wanneer u een nieuwe kwestie op een taak of een project ingaat, of wanneer u een nieuw verzoek aan het project voorlegt (als het project als verzoekrij wordt toegelaten).

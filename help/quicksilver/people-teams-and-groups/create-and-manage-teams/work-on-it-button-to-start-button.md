@@ -17,7 +17,7 @@ ht-degree: 0%
 
 De standaardconfiguratie van [!DNL Adobe Workfront] bevat een [!UICONTROL Work On It] -knop voor taken en problemen die worden weergegeven voor items waaraan u bent toegewezen. Wanneer u op [!UICONTROL Work On It] klikt voor items die aan u zijn toegewezen, geeft u aan andere gebruikers door dat u het werk hebt ontvangen en bevestigt u dat u eraan zult werken. De knop [!DNL Work On It] werkt de taak of de uitgiftestatus echter niet bij om aan te geven dat het werk daadwerkelijk is gestart.
 
-U kunt de knop [!DNL Work On It] vervangen door een [!UICONTROL Start] -knop voor een team waartoe u behoort. In dit geval klikt u op de knop [!UICONTROL Start] in plaats van op [!UICONTROL Work On It] , die automatisch de status en de [!UICONTROL Actual Start Date] van het werkitem bijwerkt en aangeeft dat u met werken bent begonnen. Voor informatie over het plaatsen waarvan team uw veranderingen in de [!UICONTROL Work On It] knoop zou kunnen beïnvloeden, zie de sectie [ de [!UICONTROL Start] knoop ](#configure-the-uicontrol-start-button) in dit artikel vormen.
+U kunt de knop [!DNL Work On It] vervangen door een [!UICONTROL Start] -knop voor een team waartoe u behoort. In dit geval klikt u op de knop [!UICONTROL Start] in plaats van op [!UICONTROL Work On It] , die automatisch de status en de [!UICONTROL Actual Start Date] van het werkitem bijwerkt en aangeeft dat u met werken bent begonnen. Voor informatie over het plaatsen waarvan team uw veranderingen in de [!UICONTROL Work On It] knoop zou kunnen beïnvloeden, zie de sectie [&#x200B; de [!UICONTROL Start] knoop &#x200B;](#configure-the-uicontrol-start-button) in dit artikel vormen.
 
 >[!IMPORTANT]
 >
@@ -47,7 +47,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -86,7 +86,7 @@ De knop Start configureren:
 
    >[!NOTE]
    >
-   >Wij adviseren plaatsend het team als Team van het Huis van de gebruiker zodat verschijnt de beginknoop op elk van hun toegewezen het werkpunten. Zie [ gebruikers met een Team van het Huis ](#associate-users-with-a-home-team) hieronder associëren.
+   >Wij adviseren plaatsend het team als Team van het Huis van de gebruiker zodat verschijnt de beginknoop op elk van hun toegewezen het werkpunten. Zie [&#x200B; gebruikers met een Team van het Huis &#x200B;](#associate-users-with-a-home-team) hieronder associëren.
 
 ## Gebruikers koppelen aan een Home Team
 

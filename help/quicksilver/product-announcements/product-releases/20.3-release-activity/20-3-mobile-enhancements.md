@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Deze pagina beschrijft alle integratie en mobiele verbeteringen die zijn aangebracht met de release 20.3 in de productieomgeving. Deze verbeteringen zijn in de week van 10 augustus 2020 beschikbaar gesteld in de productieomgeving.
 
-Voor een lijst van alle veranderingen beschikbaar met de versie 20.3, zie [ overzicht van de versie 20.3 ](../../../product-announcements/product-releases/20.3-release-activity/20-3-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar met de versie 20.3, zie [&#x200B; overzicht van de versie 20.3 &#x200B;](../../../product-announcements/product-releases/20.3-release-activity/20-3-release-overview.md).
 
 ## Workfront Fusion 2.0 is hier!
 
@@ -26,15 +26,15 @@ Workfront heeft onlangs technologie aangeschaft voor een volledig nieuwe generat
 
 Eerdere Workfront Fusion-klanten kunnen meer stroom, snelheid, bruikbaarheid en voorspelbaarheid verwachten in Workfront Fusion 2.0. We zijn bezig met het migreren van huidige Workfront Fusion-klanten naar Workfront Fusion 2.0. Neem contact op met uw accountmanager voor meer informatie.
 
-Voor meer informatie, zie [ de Fusie van Adobe Workfront ](https://experienceleague.adobe.com/nl/docs/workfront-fusion/using/home).
+Voor meer informatie, zie [&#x200B; de Fusie van Adobe Workfront &#x200B;](https://experienceleague.adobe.com/nl/docs/workfront-fusion/using/home).
 
 ## Introductie van Workfront for MobileIron
 
 Workfront heeft samengewerkt met MobileIron, een MDM-platform (Mobile Device Management), om organisaties een veiligere en meer gecontroleerde mobiele ervaring te bieden.
 
-Met Workfront for MobileIron kunnen beheerders functies zoals kopiëren/plakken en schermvastleggingen beperken. U kunt Workfront voor toepassing MobileIron in [ https://marketplace.mobileiron.com/listing/workfront ](https://marketplace.mobileiron.com/listing/workfront) downloaden.
+Met Workfront for MobileIron kunnen beheerders functies zoals kopiëren/plakken en schermvastleggingen beperken. U kunt Workfront voor toepassing MobileIron in [&#x200B; https://marketplace.mobileiron.com/listing/workfront &#x200B;](https://marketplace.mobileiron.com/listing/workfront) downloaden.
 
-Voor informatie bij het vormen van app, zie [ Adobe Workfront voor MobileIron ](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobileiron-configs.md) vormen.
+Voor informatie bij het vormen van app, zie [&#x200B; Adobe Workfront voor MobileIron &#x200B;](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobileiron-configs.md) vormen.
 
 ## Nieuwe mobiele virtuele assistent
 

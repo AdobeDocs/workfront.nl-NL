@@ -60,7 +60,7 @@ Uw Adobe Workfront-beheerder heeft uw systeem zo geconfigureerd dat u interactie
 
   >[!NOTE]
   >
-  >Uw beheerder van Workfront kan douaneapparaten voor gebruikers in uw organisatie vormen, zoals die in [ wordt beschreven het Vormen de Apparaten van de Douane voor Bewijzen ](/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/configure-proofing-organization.md#configure-custom-devices-for-proofs) in het artikel [ vormt proefdrukmontages voor uw organisatie ](/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/configure-proofing-organization.md).
+  >Uw beheerder van Workfront kan douaneapparaten voor gebruikers in uw organisatie vormen, zoals die in [&#x200B; wordt beschreven het Vormen de Apparaten van de Douane voor Bewijzen &#x200B;](/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/configure-proofing-organization.md#configure-custom-devices-for-proofs) in het artikel [&#x200B; vormt proefdrukmontages voor uw organisatie &#x200B;](/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/configure-proofing-organization.md).
 
 ## Een proefdruk weergeven met een vooraf ingesteld apparaat of een vooraf ingestelde resolutie
 
@@ -68,7 +68,7 @@ Uw Adobe Workfront-beheerder heeft uw systeem zo geconfigureerd dat u interactie
 1. Beweeg over het document, dan klik **Open proef**.
 1. Klik **Responsief** bij de centrum-bodem van de het proef kijker.
 
-   ![ Resolution_option_in_DPV.png ](assets/resolution-option-in-dpv-350x64.png)
+   ![&#x200B; Resolution_option_in_DPV.png &#x200B;](assets/resolution-option-in-dpv-350x64.png)
 
 1. Klik in de Desktop Proofing Viewer in de lijst met apparaten en resoluties die wordt weergegeven op de gewenste versie.
 
@@ -76,7 +76,7 @@ Uw Adobe Workfront-beheerder heeft uw systeem zo geconfigureerd dat u interactie
 
    Klik in de webtestviewer in de lijst met resoluties die wordt weergegeven op de gewenste resolutie.
 
-   Als u informatie over nodig hebt hoe deze twee kijkers verschillen, zie [ Verschillen tussen de Web Proofing Kijker en het Overzicht van de Kijker van het Proofing van de Desktop ](../../../../review-and-approve-work/proofing/proofing-overview/understand-differences-between-web-viewer.md).
+   Als u informatie over nodig hebt hoe deze twee kijkers verschillen, zie [&#x200B; Verschillen tussen de Web Proofing Kijker en het Overzicht van de Kijker van het Proofing van de Desktop &#x200B;](../../../../review-and-approve-work/proofing/proofing-overview/understand-differences-between-web-viewer.md).
 
    De interactieve proefdruk wordt weergegeven in de resolutie die u selecteert.
 
@@ -87,17 +87,17 @@ Uw Adobe Workfront-beheerder heeft uw systeem zo geconfigureerd dat u interactie
 1. Klik **Responsief** bij het centrum-onder van de het Proofing Kijker.
 1. Typ een douane **Responsieve** resolutie.
 
-   ![ Type_a_custom_resolution_DPV.png ](assets/type-a-custom-resolution-dpv.png)
+   ![&#x200B; Type_a_custom_resolution_DPV.png &#x200B;](assets/type-a-custom-resolution-dpv.png)
 
    of
 
    Plaats de muisaanwijzer op de interactieve inhoud en sleep de blauwe rand in de rechterbenedenhoek of de rechterrand of onderrand naar de gewenste resolutie.
 
-   ![ Drag_blue_edges_for_resolution.png ](assets/drag-blue-edges-for-resolution-350x251.png)
+   ![&#x200B; Drag_blue_edges_for_resolution.png &#x200B;](assets/drag-blue-edges-for-resolution-350x251.png)
 
    De aangepaste resolutie wordt op de volgende locaties weergegeven:
 
    * In het **paneel van de Resolutie** bij het bodem-centrum van de kijker.\
-     ![ Screenshot_2018-05-15_10-27-54.png ](assets/screenshot-2018-05-15-10-27-54.png)
+     ![&#x200B; Screenshot_2018-05-15_10-27-54.png &#x200B;](assets/screenshot-2018-05-15-10-27-54.png)
 
    * In om het even welke commentaren voegen de recensenten aan het bewijs toe. Elke opmerking bevat de schermresolutie die is geselecteerd toen de revisor de opmerking maakte.

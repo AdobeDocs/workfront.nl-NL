@@ -61,7 +61,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 ## Gebruikers een proef laten delen
 
-De gebruikers met het Profiel van de Toestemming van het Bewijs of de rol van het Bewijs die in de [ sectie van de Vereisten van de Toegang ](#access-requirements) hierboven wordt geschetst kunnen gebruikers etiketteren om een proef door gebrek te delen. U kunt gebruikers ook labelen om een proefdruk te delen, ongeacht het machtigingsprofiel of de proefdrukrol als u de eigenaar of maker van de proefdruk bent. U kunt gebruikers met een lager machtigingsprofiel of een lagere proefdrukrol toestaan een proefdruk te maken door gebruikers een proefdruk te laten delen tijdens het maken van een proefdruk. Voor meer informatie, zie [ het werkschema vormen en reviewers ](../../../../review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md#configur) sectie in [ toevoegen creeer een geavanceerde proef met een Basis werkschema ](../../../../review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md) artikel.
+De gebruikers met het Profiel van de Toestemming van het Bewijs of de rol van het Bewijs die in de [&#x200B; sectie van de Vereisten van de Toegang &#x200B;](#access-requirements) hierboven wordt geschetst kunnen gebruikers etiketteren om een proef door gebrek te delen. U kunt gebruikers ook labelen om een proefdruk te delen, ongeacht het machtigingsprofiel of de proefdrukrol als u de eigenaar of maker van de proefdruk bent. U kunt gebruikers met een lager machtigingsprofiel of een lagere proefdrukrol toestaan een proefdruk te maken door gebruikers een proefdruk te laten delen tijdens het maken van een proefdruk. Voor meer informatie, zie [&#x200B; het werkschema vormen en reviewers &#x200B;](../../../../review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md#configur) sectie in [&#x200B; toevoegen creeer een geavanceerde proef met een Basis werkschema &#x200B;](../../../../review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md) artikel.
 
 >[!NOTE]
 >
@@ -83,15 +83,15 @@ Een proefdruk in een opmerking labelen en delen:
 1. Voltooi de commentaar, dan klik **Post**.
 1. (Voorwaardelijk) als u iedereen etiketteerde die niet reeds aan de proef werd toegevoegd, specificeer de rol van het a **Bewijs** en **E-mail alarm** plaatsend voor elke gebruiker die in de doos wordt vermeld die verschijnt, dan klik **mensen en post commentaar** toevoegt.
 
-   ![ voeg mensen aan proef ](assets/add-people-to-proof-350x220.png) toe
+   ![&#x200B; voeg mensen aan proef &#x200B;](assets/add-people-to-proof-350x220.png) toe
 
-   Voor informatie over proefdrukrollen, zie. Voor informatie over proefe-mailalarm, zie de sectie in artikel [ de montages van het e-mailbericht in Workfront Proof ](../../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md) vormen.
+   Voor informatie over proefdrukrollen, zie. Voor informatie over proefe-mailalarm, zie de sectie in artikel [&#x200B; de montages van het e-mailbericht in Workfront Proof &#x200B;](../../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md) vormen.
 
-   Als de proefdruk een Geautomatiseerde Workflow heeft, worden de gebruikers u markering toegevoegd aan het werkgebied u in bent. Voor meer informatie, zie [ Geautomatiseerd overzicht van het Werkschema ](../../../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md).
+   Als de proefdruk een Geautomatiseerde Workflow heeft, worden de gebruikers u markering toegevoegd aan het werkgebied u in bent. Voor meer informatie, zie [&#x200B; Geautomatiseerd overzicht van het Werkschema &#x200B;](../../../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md).
 
    Iedereen die u een tag aanbrengt, ontvangt een e-mailbericht over uw proefdrukopmerking, ongeacht de instellingen voor e-mailwaarschuwingen voor proefdrukken die hij gebruikt:
 
    * Als de gebruiker een dagelijkse samenvatting of per uur per e-mail ontvangt, verzendt Workfront het bericht afzonderlijk en bevat het de informatie over uw proefdrukcommentaar in het samenvattingsbericht.
    * Als de gebruiker waarschuwingen ontvangt voor alle activiteiten of voor reacties op zijn opmerkingen, vervangt de melding de meldingen over deze opmerkingen en antwoorden.
 
-Voor informatie over andere manieren om gebruikers aan een proef toe te voegen, zie [ een proef binnen Adobe Workfront ](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md) delen.
+Voor informatie over andere manieren om gebruikers aan een proef toe te voegen, zie [&#x200B; een proef binnen Adobe Workfront &#x200B;](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md) delen.

@@ -19,7 +19,7 @@ ht-degree: 0%
 
 Op deze pagina worden alle verbeteringen beschreven die zijn aangebracht in de 21.1-versie voor de voorvertoningsomgeving. Deze verbeteringen zullen in de productieomgeving beschikbaar worden gesteld in de week van 15 februari 2021.
 
-Voor een lijst van alle veranderingen beschikbaar met de versie 21.1, zie [ overzicht van de versie 21.1 ](../../../product-announcements/product-releases/21.1-release-activity/21-1-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar met de versie 21.1, zie [&#x200B; overzicht van de versie 21.1 &#x200B;](../../../product-announcements/product-releases/21.1-release-activity/21-1-release-overview.md).
 
 ## Verbeteringen in Adobe Workfront-meldingen in Microsoft Teams
 
@@ -31,5 +31,5 @@ Om het voor u gemakkelijker te maken om Workfront door Microsoft Teams te gebrui
 
 Als u van deze nieuwe functionaliteit wilt profiteren, moet u zich opnieuw aanmelden bij uw Microsoft Teams-account. U hoeft geen andere actie te ondernemen.
 
-Voor meer informatie, zie [ Adobe Workfront berichten in Microsoft Teams beheren ](../../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/manage-wf-notifications-approval-requests-ms-teams.md).
+Voor meer informatie, zie [&#x200B; Adobe Workfront berichten in Microsoft Teams beheren &#x200B;](../../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/manage-wf-notifications-approval-requests-ms-teams.md).
 

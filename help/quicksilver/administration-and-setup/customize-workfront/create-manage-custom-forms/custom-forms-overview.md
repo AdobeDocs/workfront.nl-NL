@@ -23,15 +23,15 @@ U kunt een aangepast formulier maken dat gebruikers aan een Adobe Workfront-obje
 
 Bijvoorbeeld, kunt u een douaneformulier met de naam &quot;het Onderzoek van de Inhoud van de Marketing&quot;aan een project vastmaken zodat de gebruikers op het project marketinginhoud voor het project kunnen verzoeken:
 
-![ pagina van Details ](assets/see-image-details-page.png)
+![&#x200B; pagina van Details &#x200B;](assets/see-image-details-page.png)
 
 ## Een aangepast formulier maken
 
 De formulierontwerper heeft een werkruimte in canvasstijl waarmee u de velden, het canvas en de veldinstellingen tegelijkertijd kunt bekijken. U kunt ook velden in de secties slepen en neerzetten terwijl u het formulier ontwerpt. U kunt de grootte aan de rechterkant van het scherm aanpassen om meer ruimte voor de veldopties te bieden.
 
-Voor meer informatie, zie [ een douaneformulier ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren.
+Voor meer informatie, zie [&#x200B; een douaneformulier &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren.
 
-![ de vormontwerper van de Steekproef ](assets/form-designer-example.png)
+![&#x200B; de vormontwerper van de Steekproef &#x200B;](assets/form-designer-example.png)
 
 ## Aangepaste velden en widgets
 
@@ -62,7 +62,7 @@ In Workfront kunt u de volgende typen aangepaste velden toevoegen aan een aangep
 
 >[!NOTE]
 >
->Als u de wijzigingen in de velden in de updateffeeds wilt bijhouden, gaat u naar Setup > Interface > feeds bijwerken. Voor meer informatie, zie [ systeemupdates ](/help/quicksilver/administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md) vormen.
+>Als u de wijzigingen in de velden in de updateffeeds wilt bijhouden, gaat u naar Setup > Interface > feeds bijwerken. Voor meer informatie, zie [&#x200B; systeemupdates &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md) vormen.
 
 ## Objecten waar gebruikers een aangepast formulier kunnen toevoegen
 
@@ -83,8 +83,8 @@ Gebruikers kunnen aangepaste formulieren koppelen aan de volgende objecttypen:
 * Iteratie
 * Factureringsrecord
 
-Voor meer informatie over het vastmaken van douaneformulieren aan voorwerpen, zie [ een douaneformulier aan een voorwerp ](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md) toevoegen.
+Voor meer informatie over het vastmaken van douaneformulieren aan voorwerpen, zie [&#x200B; een douaneformulier aan een voorwerp &#x200B;](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md) toevoegen.
 
-Voor informatie over wat aan douaneformulieren wanneer het omzetten van een voorwerp gebeurt, zie [ de gegevens van de douanevorm van de Overdracht wanneer het omzetten van een voorwerp ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/transfer-custom-form-data-larger-item.md).
+Voor informatie over wat aan douaneformulieren wanneer het omzetten van een voorwerp gebeurt, zie [&#x200B; de gegevens van de douanevorm van de Overdracht wanneer het omzetten van een voorwerp &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/transfer-custom-form-data-larger-item.md).
 
 

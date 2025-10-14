@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [ het Bewijzen ](../../../review-and-approve-work/proofing/proofing.md).
+>Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [&#x200B; het Bewijzen &#x200B;](../../../review-and-approve-work/proofing/proofing.md).
 
 Het spamfilter van uw e-mailclient dient een belangrijk doel: u kunt beschermen tegen vervelende en mogelijk kwaadaardige spamberichten. Maar als u niet over de juiste instellingen in het spamfilter beschikt, kunt u de volgende belangrijke e-mails van [!DNL Workfront Proof] niet zien: proefdrukken van e-mailmeldingen, nieuwsbrieven en speciale communicatie.
 
@@ -27,7 +27,7 @@ Om ervoor te zorgen dat uw [!DNL Workfront Proof] e-mails altijd naar uw Postvak
 * [!DNL Workfront Proof] mailserver: **[!DNL mx.proofhq.com]**
 * [!DNL Workfront Proof] &quot;[!UICONTROL from]&quot; e-mailadressen (bijvoorbeeld notification@proofhq.com)
 
-Voor meer informatie over URLs om aan uw lijst van gewenste personen toe te voegen, zie [ de lijst van gewenste personen van uw firewall ](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md) in het artikel [ vormen de lijst van gewenste personen van uw firewall ](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
+Voor meer informatie over URLs om aan uw lijst van gewenste personen toe te voegen, zie [&#x200B; de lijst van gewenste personen van uw firewall &#x200B;](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md) in het artikel [&#x200B; vormen de lijst van gewenste personen van uw firewall &#x200B;](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
 
 ## [!DNL Workfront Proof] &quot;[!UICONTROL from]&quot;-e-mailadressen
 
@@ -49,7 +49,7 @@ Mogelijk moet u ook bestaande [!DNL Workfront Proof] e-mails uit uw spammap verw
 >
 >Raadpleeg de Help van uw e-mailclient als u vragen hebt over een hier beschreven procedure.
 
-Voor meer informatie, zie [ spammontages voor gemeenschappelijke e-mailcliënten ](../../../workfront-proof/wp-emailsntfctns/avoiding-spam-filters/configure-spam-settings-clients.md) vormen.
+Voor meer informatie, zie [&#x200B; spammontages voor gemeenschappelijke e-mailcliënten &#x200B;](../../../workfront-proof/wp-emailsntfctns/avoiding-spam-filters/configure-spam-settings-clients.md) vormen.
 
 ## De [!DNL Workfront Proof] &quot;[!UICONTROL from]&quot;-e-mailadressen die moeten worden gekopieerd
 

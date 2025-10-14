@@ -39,14 +39,14 @@ Stel het verbindingswachtwoord in Workfront opnieuw in en maak vervolgens een ni
 1. De verbinding zoeken en openen vanuit de lijst.
 1. Onder **het Wachtwoord van de Verbinding van het Terugstellen**, controleer de doos om te bevestigen dat u het wachtwoord wilt terugstellen.
 1. Klik **het Wachtwoord van de Verbinding van het Terugstellen**.
-   ![ teruggestelde verbindingswachtwoord ](assets/reset-password.png)
+   ![&#x200B; teruggestelde verbindingswachtwoord &#x200B;](assets/reset-password.png)
 1. Ga verder met de onderstaande sectie.
 
 ### Een nieuw wachtwoord voor de verbinding maken
 
 1. Kopieer de URL en plak deze in een nieuw browsertabblad.
 1. Kopieer in Workfront de naam van de verbindingsgebruiker en het standaardwachtwoord naar het nieuwe browsertabblad.
-   ![ exemplaar URL en standaardwachtwoord ](assets/link-password.png)
+   ![&#x200B; exemplaar URL en standaardwachtwoord &#x200B;](assets/link-password.png)
 1. Klik **binnen Teken**.
 1. Ga een nieuw wachtwoord in, dan klik **voorleggen**.
 1. Ga naar de Power BI-tool en meld u aan met het nieuwe wachtwoord.

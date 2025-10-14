@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [ het Bewijzen ](../../../review-and-approve-work/proofing/proofing.md).
+>Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [&#x200B; het Bewijzen &#x200B;](../../../review-and-approve-work/proofing/proofing.md).
 
 Als [!DNL Workfront Proof] beheerder kunt u een satellietaccount beheren die is ingesteld op de account van uw organisatie.
 
@@ -29,9 +29,9 @@ U kunt als volgt de factureringsgegevens van uw satellietaccount bekijken en beh
 1. Ga naar de pagina [!UICONTROL Billing] .
 1. Open het vervolgkeuzemenu boven aan de pagina (1) en kies vervolgens de relevante satellietaccount. (2)
 
-   Voor meer informatie, zie &quot; [ de  [!DNL Workfront Proof] [!UICONTROL Billing] Pagina ](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md).
+   Voor meer informatie, zie &quot; [&#x200B; de  [!DNL Workfront Proof] [!UICONTROL Billing] Pagina &#x200B;](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md).
 
-   ![ Satellite_Account_Billing_Page__1_.png ](assets/satellite-account-billing-page--1--350x167.png)
+   ![&#x200B; Satellite_Account_Billing_Page__1_.png &#x200B;](assets/satellite-account-billing-page--1--350x167.png)
 
 ## Accountgegevens bijwerken
 
@@ -41,4 +41,4 @@ De accountinstellingen van de satellietaccount weergeven en beheren:
 1. Klik op het vervolgkeuzemenu **[!UICONTROL Your accounts]** en kies vervolgens de relevante satellietaccount. (1)
 1. Klik op het desbetreffende tabblad om de instelling Account voor de satellietaccount te beheren.
 
-![ SA_Account_Settings.png ](assets/sa-account-settings-350x151.png)
+![&#x200B; SA_Account_Settings.png &#x200B;](assets/sa-account-settings-350x151.png)

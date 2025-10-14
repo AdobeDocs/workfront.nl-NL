@@ -21,7 +21,7 @@ Assets die naar Experience Manager door deze integratie wordt verzonden heeft ee
 
 In het milieu van de Voorproef, heeft Assets die naar Experience Manager door deze integratie wordt verzonden een groottegrens van **30 GB**.
 
-Metagegevensvelden worden eerst toegewezen wanneer u een element verzendt van Workfront naar Experience Manager Assets of Elementen. Eventuele metagegevens die zijn geconfigureerd om toe te wijzen voor bovenliggende objecten, worden ook verzonden. Voor meer informatie bij het vormen meta-gegevensafbeelding, zie [ de integratie van Experience Manager Assets as a Cloud Service ](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md) vormen of [ vormen de integratie van de Hoofdzaak van Experience Manager Assets ](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
+Metagegevensvelden worden eerst toegewezen wanneer u een element verzendt van Workfront naar Experience Manager Assets of Elementen. Eventuele metagegevens die zijn geconfigureerd om toe te wijzen voor bovenliggende objecten, worden ook verzonden. Voor meer informatie bij het vormen meta-gegevensafbeelding, zie [&#x200B; de integratie van Experience Manager Assets as a Cloud Service &#x200B;](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md) vormen of [&#x200B; vormen de integratie van de Hoofdzaak van Experience Manager Assets &#x200B;](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
 
 >[!INFO]
 >
@@ -69,12 +69,12 @@ U moet de volgende toegang hebben om de stappen in dit artikel te voltooien:
 
 Voordat u begint,
 
-* Uw Workfront-beheerder moet een Experience Manager-integratie configureren. Voor meer informatie, zie [ de integratie van Experience Manager Assets as a Cloud Service ](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md) vormen of [ vormen de integratie van de Hoofdzaak van Experience Manager Assets ](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
+* Uw Workfront-beheerder moet een Experience Manager-integratie configureren. Voor meer informatie, zie [&#x200B; de integratie van Experience Manager Assets as a Cloud Service &#x200B;](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md) vormen of [&#x200B; vormen de integratie van de Hoofdzaak van Experience Manager Assets &#x200B;](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
 
 
 ## Een document verzenden vanuit Workfront
 
-Wanneer een gebruiker een document van Workfront naar Experience Manager Assets of Assets Essentials verzendt, worden de toegewezen metagegevens over het document overgedragen. Nadat het document is verzonden, worden wijzigingen die zijn aangebracht in de metagegevens van het document in Workfront, niet doorgevoerd in Assets of Assets Essentials. Als een toegewezen veld in Workfront wordt gewijzigd, moet u een nieuwe versie van het document met de bijgewerkte metagegevens verzenden naar Assets of Assets Essentials. Aan opstelling of geef meta-gegevens uit, zie [ de integratie van Experience Manager Assets as a Cloud Service ](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md) of [ vormen de integratie van de Hoofdzaak van Experience Manager Assets ](../../documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
+Wanneer een gebruiker een document van Workfront naar Experience Manager Assets of Assets Essentials verzendt, worden de toegewezen metagegevens over het document overgedragen. Nadat het document is verzonden, worden wijzigingen die zijn aangebracht in de metagegevens van het document in Workfront, niet doorgevoerd in Assets of Assets Essentials. Als een toegewezen veld in Workfront wordt gewijzigd, moet u een nieuwe versie van het document met de bijgewerkte metagegevens verzenden naar Assets of Assets Essentials. Aan opstelling of geef meta-gegevens uit, zie [&#x200B; de integratie van Experience Manager Assets as a Cloud Service &#x200B;](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md) of [&#x200B; vormen de integratie van de Hoofdzaak van Experience Manager Assets &#x200B;](../../documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
 
 Een document verzenden:
 
@@ -85,14 +85,14 @@ Een document verzenden:
    >
    >De Workfront-beheerder kan een willekeurige naam voor deze integratie kiezen, dus Assets of Assets Essentials wordt niet specifiek vermeld.
 
-   ![ verzendt naar ](assets/copy-of-send-to-in-toolbar-350x149.png)
+   ![&#x200B; verzendt naar &#x200B;](assets/copy-of-send-to-in-toolbar-350x149.png)
 
 1. Kies waar u de activa wilt gaan, dan klik **Uitgezochte Omslag**.
 1. Wanneer u uw gewenste bestemming vindt, klik **sparen**.
 
 ## Nieuwe versie verzenden
 
-U kunt een nieuwe versie toevoegen aan een document dat u eerder naar Workfront hebt geüpload. Voor meer informatie, zie [ een nieuwe versie van een document ](../../documents/managing-documents/upload-new-document-version.md) uploaden. Nadat de meest recente versie is geüpload, kunt u deze naar Elementen verzenden. Als een toegewezen veld in Workfront is gewijzigd, werkt de nieuwe versie de metagegevens in Elementen bij wanneer deze worden verzonden.
+U kunt een nieuwe versie toevoegen aan een document dat u eerder naar Workfront hebt geüpload. Voor meer informatie, zie [&#x200B; een nieuwe versie van een document &#x200B;](../../documents/managing-documents/upload-new-document-version.md) uploaden. Nadat de meest recente versie is geüpload, kunt u deze naar Elementen verzenden. Als een toegewezen veld in Workfront is gewijzigd, werkt de nieuwe versie de metagegevens in Elementen bij wanneer deze worden verzonden.
 
 >[!IMPORTANT]
 >
@@ -107,7 +107,7 @@ De meest recente versie verzenden:
    >
    >De Workfront-beheerder kan een willekeurige naam voor deze integratie kiezen, dus Assets of Assets Essentials wordt niet specifiek genoemd.
 
-   ![ verzendt naar ](assets/copy-of-send-to-in-toolbar-350x149.png)
+   ![&#x200B; verzendt naar &#x200B;](assets/copy-of-send-to-in-toolbar-350x149.png)
 
 1. Klik **sparen**. De nieuwe versie slaat op dezelfde locatie op als de vorige versie.
 

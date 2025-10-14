@@ -18,7 +18,7 @@ ht-degree: 0%
 
 De volgende functies waren vóór de release 2019.4 beschikbaar voor de Classic Production-omgeving van Workfront.
 
-Voor informatie over het kader van de versietijd en alle functionaliteit beschikbaar met de versie 2019.4, zie [ overzicht van de versie 2019.4 ](../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-release-activity-overview.md).
+Voor informatie over het kader van de versietijd en alle functionaliteit beschikbaar met de versie 2019.4, zie [&#x200B; overzicht van de versie 2019.4 &#x200B;](../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-release-activity-overview.md).
 
 <table style="table-layout:auto"> 
  <col> 

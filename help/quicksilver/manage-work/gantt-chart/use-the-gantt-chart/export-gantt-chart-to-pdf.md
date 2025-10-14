@@ -46,13 +46,13 @@ U kunt de [!UICONTROL Gantt chart] naar een PDF exporteren. Daarna kunt u het af
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## De [!UICONTROL Gantt chart] exporteren
 
-1. Heb toegang tot [!UICONTROL Gantt chart] dat u naar PDF wilt uitvoeren, zoals die in [ wordt beschreven begonnen met [!UICONTROL Gantt Chart]](../../../manage-work/gantt-chart/use-the-gantt-chart/get-started-with-gantt.md).
+1. Heb toegang tot [!UICONTROL Gantt chart] dat u naar PDF wilt uitvoeren, zoals die in [&#x200B; wordt beschreven begonnen met [!UICONTROL Gantt Chart]](../../../manage-work/gantt-chart/use-the-gantt-chart/get-started-with-gantt.md).
 1. Configureer de [!UICONTROL Gantt chart] om de juiste informatie weer te geven die u wilt exporteren.
 
    >[!NOTE]
@@ -71,7 +71,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
    * Selecteer de **Schakelaar aan Geprojecteerde Datums** optie om Geprojecteerde eerder dan Geplande Datums te bekijken. Standaard worden Geplande datums weergegeven.
 
-   * Klik het **pictogram van Montages ![ pictogram van Montages ](assets/settings-icon.png) in de hoger-juiste hoek van de grafiek van de Gantt en selecteer welke informatie u wilt bekijken.** Zodra deze optie is geselecteerd, wordt deze informatie opgenomen in het geëxporteerde Gantt PDF-bestand.
+   * Klik het **pictogram van Montages ![&#x200B; pictogram van Montages &#x200B;](assets/settings-icon.png) in de hoger-juiste hoek van de grafiek van de Gantt en selecteer welke informatie u wilt bekijken.** Zodra deze optie is geselecteerd, wordt deze informatie opgenomen in het geëxporteerde Gantt PDF-bestand.
 
      Selecteer een van de volgende opties:
 
@@ -88,7 +88,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
       * (Voorwaardelijk) Geplande datums
       * (Voorwaardelijk) Geprojecteerde datums
 
-     Zie voor meer informatie   [ vormt hoe de informatievertoningen op [!UICONTROL Gantt Chart]](../../../manage-work/gantt-chart/use-the-gantt-chart/configure-info-on-gantt-chart.md).
+     Zie voor meer informatie   [&#x200B; vormt hoe de informatievertoningen op [!UICONTROL Gantt Chart]](../../../manage-work/gantt-chart/use-the-gantt-chart/configure-info-on-gantt-chart.md).
 
      >[!NOTE]
      >
@@ -96,7 +96,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
    * De tijdsperiode die wordt weergegeven op de [!UICONTROL Gantt chart] . De manier waarop dit in het exportbestand wordt weergegeven, hangt af van het feit of u **[!UICONTROL What I see]** of **[!UICONTROL Multiple pages]** in een latere stap selecteert.
 
-     Voor meer informatie, zie [ het Bekijken van Informatie in [!UICONTROL Gantt Chart]](../../../manage-work/gantt-chart/use-the-gantt-chart/view-info-in-gantt.md).
+     Voor meer informatie, zie [&#x200B; het Bekijken van Informatie in [!UICONTROL Gantt Chart]](../../../manage-work/gantt-chart/use-the-gantt-chart/view-info-in-gantt.md).
 
 
 
@@ -104,10 +104,10 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
    Als u bijvoorbeeld [!UICONTROL Gantt chart] weergeeft voor een project dat 50 taken bevat, maar u wilt slechts 10 taken weergeven voor het geëxporteerde project [!UICONTROL Gantt chart] , selecteert u de 10 taken die u wilt weergeven.
 
-1. Klik het pictogram van de printer ![ Printer ](assets/printer-icon.png) in de hoger-juiste hoek van de grafiek van Gantt.
+1. Klik het pictogram van de printer ![&#x200B; Printer &#x200B;](assets/printer-icon.png) in de hoger-juiste hoek van de grafiek van Gantt.
 Het dialoogvenster **[!UICONTROL Export to PDF]** wordt weergegeven.
 
-   ![ Uitvoer naar de dialoogdoos van PDF ](assets/exported-gantt-ui-350x225.png)
+   ![&#x200B; Uitvoer naar de dialoogdoos van PDF &#x200B;](assets/exported-gantt-ui-350x225.png)
 
 1. In de **sectie van de Uitvoer**, selecteer van de volgende opties om erop te wijzen of u slechts wilt uitvoeren wat u of het volledige [!UICONTROL Gantt chart] ziet:
 
@@ -117,14 +117,14 @@ Het dialoogvenster **[!UICONTROL Export to PDF]** wordt weergegeven.
 
      >[!TIP]
      >
-     >U kunt het gezoem of schuif gebruiken om slechts een gedeelte van [!UICONTROL Gantt chart] te tonen, zoals die in [ het Bekijken Informatie in [!UICONTROL Gantt Chart]](../../../manage-work/gantt-chart/use-the-gantt-chart/view-info-in-gantt.md) wordt beschreven. Selecteer een meer granulaire optie om meer te exporteren pagina&#39;s weer te geven of selecteer een minder granulaire optie om minder te exporteren pagina&#39;s weer te geven.
+     >U kunt het gezoem of schuif gebruiken om slechts een gedeelte van [!UICONTROL Gantt chart] te tonen, zoals die in [&#x200B; het Bekijken Informatie in [!UICONTROL Gantt Chart]](../../../manage-work/gantt-chart/use-the-gantt-chart/view-info-in-gantt.md) wordt beschreven. Selecteer een meer granulaire optie om meer te exporteren pagina&#39;s weer te geven of selecteer een minder granulaire optie om minder te exporteren pagina&#39;s weer te geven.
 
 
    * **[!UICONTROL Multiple pages]:** exporteert de volledige [!UICONTROL Gantt chart] (maximaal 500 items), inclusief items die niet zichtbaar zijn op het huidige scherm.
 
      >[!NOTE]
      >
-     >* Als u een [!UICONTROL Gantt chart] wilt exporteren die meer dan 500 items bevat, past u een filter op de lijst toe voordat u de [!UICONTROL Gantt chart] weergeeft, zodat er minder dan 500 items of 250 pagina&#39;s worden weergegeven. Voor informatie over hoe te om een filter toe te passen, zie [ Overzicht van Filters ](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+     >* Als u een [!UICONTROL Gantt chart] wilt exporteren die meer dan 500 items bevat, past u een filter op de lijst toe voordat u de [!UICONTROL Gantt chart] weergeeft, zodat er minder dan 500 items of 250 pagina&#39;s worden weergegeven. Voor informatie over hoe te om een filter toe te passen, zie [&#x200B; Overzicht van Filters &#x200B;](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
      >
      >
      >* U kunt niet de volledige grafiek van Gantt in de volgende omstandigheden uitvoeren:
@@ -149,4 +149,4 @@ U kunt uit de volgende opties selecteren:
 
    In de legenda onder aan het geëxporteerde bestand worden alleen de opties uitgelegd die u hebt ingeschakeld in de [!UICONTROL Gantt chart] -lijst en die beschikbaar zijn in de takenlijst. De mijlpalen worden bijvoorbeeld alleen in de legenda weergegeven als u ten minste één taak hebt die aan een mijlpaal is gekoppeld.
 
-   ![ gantt_chart_with_updated__limited__legend.png ](assets/gantt-chart-with-updated--limited--legend-350x271.png)
+   ![&#x200B; gantt_chart_with_updated__limited__legend.png &#x200B;](assets/gantt-chart-with-updated--limited--legend-350x271.png)

@@ -17,9 +17,9 @@ ht-degree: 0%
 
 In de volgende berichten wordt u op de hoogte gebracht van uw taak en worden door u of anderen in [!DNL Adobe Workfront] gemaakte opmerkingen gepubliceerd.
 
-Voor informatie over het vormen van welke berichten u ontvangt, zie [ uw eigen e-mailberichten wijzigen ](activate-or-deactivate-your-own-event-notifications.md).
+Voor informatie over het vormen van welke berichten u ontvangt, zie [&#x200B; uw eigen e-mailberichten wijzigen &#x200B;](activate-or-deactivate-your-own-event-notifications.md).
 
-Zie ook [ de berichten van de Gebeurtenis ](event-notifications.md).
+Zie ook [&#x200B; de berichten van de Gebeurtenis &#x200B;](event-notifications.md).
 
 >[!NOTE]
 >

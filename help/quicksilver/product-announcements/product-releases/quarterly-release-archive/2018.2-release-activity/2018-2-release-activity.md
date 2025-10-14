@@ -16,10 +16,10 @@ ht-degree: 0%
 
 # 2018.2 releaseactiviteit
 
-* [ 2018.2 overzicht van de versieactiviteit ](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-release-activity-overview.md)
-* [ 2018.2 de Eindversieactiviteit van Beta ](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-final-release-activity.md)
-* [ 2018.2 Beta 5 releaseactiviteit ](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md)
-* [ 2018.2 Beta 4 releaseactiviteit ](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-4-release-activity.md)
-* [ 2018.2 Beta 3 releaseactiviteit ](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-3-release-activity.md)
-* [ 2018.2 Beta 2 de versieactiviteit ](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-2-release-activity.md)
+* [&#x200B; 2018.2 overzicht van de versieactiviteit &#x200B;](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-release-activity-overview.md)
+* [&#x200B; 2018.2 de Eindversieactiviteit van Beta &#x200B;](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-final-release-activity.md)
+* [&#x200B; 2018.2 Beta 5 releaseactiviteit &#x200B;](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md)
+* [&#x200B; 2018.2 Beta 4 releaseactiviteit &#x200B;](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-4-release-activity.md)
+* [&#x200B; 2018.2 Beta 3 releaseactiviteit &#x200B;](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-3-release-activity.md)
+* [&#x200B; 2018.2 Beta 2 de versieactiviteit &#x200B;](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-2-release-activity.md)
 * [2018.2 Beta 1-releaseactiviteit](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-1-release-activity.md)

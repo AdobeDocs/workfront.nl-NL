@@ -19,7 +19,7 @@ ht-degree: 0%
 
 Op deze pagina worden alle verbeteringen in Projectbeheer beschreven die zijn aangebracht met de release 21.1 voor de voorvertoningsomgeving. Deze verbeteringen zullen in de productieomgeving beschikbaar worden gesteld in de week van 15 februari 2021.
 
-Voor een lijst van alle veranderingen beschikbaar met de versie 21.1, zie [ overzicht van de versie 21.1 ](../../../product-announcements/product-releases/21.1-release-activity/21-1-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar met de versie 21.1, zie [&#x200B; overzicht van de versie 21.1 &#x200B;](../../../product-announcements/product-releases/21.1-release-activity/21-1-release-overview.md).
 
 ## Verbeterde analyses worden nu standaard weergegeven
 

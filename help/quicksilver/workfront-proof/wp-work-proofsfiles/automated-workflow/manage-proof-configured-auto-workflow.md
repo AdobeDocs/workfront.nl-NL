@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [ het Bewijzen ](../../../review-and-approve-work/proofing/proofing.md).
+>Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [&#x200B; het Bewijzen &#x200B;](../../../review-and-approve-work/proofing/proofing.md).
 
 U kunt de voortgang van de automatische workflowproefdrukken gemakkelijk bijhouden in de sectie Workflow van de pagina [!UICONTROL Proof details] . U kunt het werk bekijken dat in elk werkgebied is uitgevoerd en de fasen in uw proefdruk wijzigen, toevoegen, starten en vergrendelen.
 
@@ -38,7 +38,7 @@ U kunt uw geautomatiseerde workflow op drie manieren bekijken:
 
 1. Als u een ander werkgebied wilt weergeven, selecteert u dit in het diagram.
 
-![ View_a_stage_in_detail.png ](assets/view-a-stage-in-detail-350x249.png)
+![&#x200B; View_a_stage_in_detail.png &#x200B;](assets/view-a-stage-in-detail-350x249.png)
 
 ### Alle fasen weergeven {#view-all-stages}
 
@@ -50,7 +50,7 @@ Om alle stadia in een Geautomatiseerde Werkschema te bekijken:
 
 1. Klik op het plusteken naast de naam van elk werkgebied (4) om de details van een werkgebied weer te geven.
 
-![ View_all_stage.png ](assets/view-all-stages-350x212.png)
+![&#x200B; View_all_stage.png &#x200B;](assets/view-all-stages-350x212.png)
 
 ### Alle fasen in detail weergeven {#view-all-stages-in-detail}
 
@@ -62,7 +62,7 @@ Om alle stadia van uw Geautomatiseerde Werkschema in detail te bekijken:
 
    U kunt de details van elk werkgebied verbergen door op het minteken (6) te klikken.
 
-![ View_all_stage_in_detail.png ](assets/view-all-stages-in-detail-350x370.png)
+![&#x200B; View_all_stage_in_detail.png &#x200B;](assets/view-all-stages-in-detail-350x370.png)
 
 ## Gebruik het Geautomatiseerde diagram van het Werkschema
 
@@ -72,24 +72,24 @@ Het diagram verbergen
 
 1. Klik op **[!UICONTROL Hide]** (1).
 
-![ Diagram__1_.png ](assets/diagram--1--350x217.png)
+![&#x200B; Diagram__1_.png &#x200B;](assets/diagram--1--350x217.png)
 
 De fasen in het diagram zijn als volgt gemarkeerd:
 
-![ dot.png ](assets/dot.png) - een actief stadium
+![&#x200B; dot.png &#x200B;](assets/dot.png) - een actief stadium
 
-![ gray_dot.png ](assets/grey-dot.png) - een inactief stadium\
-![ sbw-key-icon.png ](assets/sbw-key-icon.png)  - een privéfase
+![&#x200B; gray_dot.png &#x200B;](assets/grey-dot.png) - een inactief stadium\
+![&#x200B; sbw-key-icon.png &#x200B;](assets/sbw-key-icon.png)  - een privéfase
 
-![ sbw-hanglock-icon.png ](assets/sbw-padlock-icon.png)  - een vergrendeld stadium
+![&#x200B; sbw-hanglock-icon.png &#x200B;](assets/sbw-padlock-icon.png)  - een vergrendeld stadium
 
 De lijnen tussen de stadia geven de afhankelijkheden tussen de fasen aan. De lijnen die leiden tot inactieve stadia worden gestippeld tot het werkgebied wordt geactiveerd.
 
 Als u de cursor boven een werkgebied in het diagram houdt, ziet u de voortgang van het werkgebied. Als het werkgebied niet actief is en u beschikt over bewerkingsrechten voor het werkgebied, kunt u het werkgebied starten vanuit het pop-upvenster met de knop [!UICONTROL Start stage] . Op dezelfde manier wordt de optie voor het vergrendelen van een actief werkgebied weergegeven.
 
-Ga voor meer informatie over de voortgangsbalk naar  [ Mening de Voortgang en de Status van een Bewijs in  [!DNL Workfront]  Bewijs ](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/view-progress-and-status-of-proof.md).
+Ga voor meer informatie over de voortgangsbalk naar  [&#x200B; Mening de Voortgang en de Status van een Bewijs in  [!DNL Workfront]  Bewijs &#x200B;](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/view-progress-and-status-of-proof.md).
 
-![ Diagram_-_stage_summary.png ](assets/diagram---stage-summary-350x214.png)
+![&#x200B; Diagram_-_stage_summary.png &#x200B;](assets/diagram---stage-summary-350x214.png)
 
 ## Een nieuw werkgebied toevoegen
 
@@ -97,11 +97,11 @@ U kunt vanaf de pagina [!UICONTROL Proof details] een nieuw werkgebied toevoegen
 
 1. Klik op **[!UICONTROL New stage]** (1).
 
-![ Adding_a_new_stage_1.png ](assets/adding-a-new-stage-1-350x218.png)
+![&#x200B; Adding_a_new_stage_1.png &#x200B;](assets/adding-a-new-stage-1-350x218.png)
 
 In het **Nieuwe stadium** vakje dat verschijnt, kunt u de de details en montages van het werkgebied bevolken.
 
-![ Adding_a_new_stage_2.png ](assets/adding-a-new-stage-2-350x332.png)
+![&#x200B; Adding_a_new_stage_2.png &#x200B;](assets/adding-a-new-stage-2-350x332.png)
 
 ## Werkgebiedinstellingen beheren
 
@@ -113,11 +113,11 @@ Op de pagina kunt u de instellingen voor elk werkgebied wijzigen (als u bewerkin
 * Slechts één vereiste beslissing in het werkgebied in- of uitschakelen (4)
 * De privacy van het werkgebied wijzigen (5)
 
-![ Managing_stage_settings.png ](assets/managing-stage-settings-350x93.png)
+![&#x200B; Managing_stage_settings.png &#x200B;](assets/managing-stage-settings-350x93.png)
 
 U kunt de controleurs ook van het ene stadium naar het andere verplaatsen door ze van het ene stadium naar het andere te slepen. De beschikbare stadia worden blauw gemarkeerd met de dropgebieden voor elk stadium duidelijk gemarkeerd.
 
-![ Moving_reviewers_between_stage.png ](assets/moving-reviewers-between-stages-350x254.png)
+![&#x200B; Moving_reviewers_between_stage.png &#x200B;](assets/moving-reviewers-between-stages-350x254.png)
 
 ## Werkgebiedopties
 

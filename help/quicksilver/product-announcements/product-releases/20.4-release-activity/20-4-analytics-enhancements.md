@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Op deze pagina worden alle verbeteringen in de analysemogelijkheden beschreven die zijn aangebracht met de release 20.4 voor de voorvertoningsomgeving. Deze verbeteringen worden beschikbaar gesteld in de productieomgeving in de week van 9 november 2020.
 
-Voor een lijst van alle veranderingen beschikbaar met de versie 20.4, zie [ overzicht van de versie 20.4 ](../../../product-announcements/product-releases/20.4-release-activity/20-4-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar met de versie 20.4, zie [&#x200B; overzicht van de versie 20.4 &#x200B;](../../../product-announcements/product-releases/20.4-release-activity/20-4-release-overview.md).
 
 ## Paginering en sorteren toegevoegd aan uitgebreide analyse
 

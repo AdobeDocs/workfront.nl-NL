@@ -57,7 +57,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 1. Klik in de linkerbenedenhoek van de proefdrukviewer op de huidige maateenheid.
 
-   ![ Video chronologie ](assets/phq-viewer-video-timeline.png)
+   ![&#x200B; Video chronologie &#x200B;](assets/phq-viewer-video-timeline.png)
 
 1. Selecteer een van de volgende opties:
 

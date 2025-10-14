@@ -20,7 +20,7 @@ ht-degree: 0%
 
 Deze taakmening toont het Bedrijf en de Groep van het Huis van de Primaire Eigenaar van de taak. Dit zijn waarden die niet beschikbaar zijn in de standaardinterface, maar die wel toegankelijk zijn via de tekstmodus.
 
-![ Mening toegewezen het bedrijf van de gebruiker en homegroep ](assets/view--assigned-user-s-company-and-home-group-350x80.png)
+![&#x200B; Mening toegewezen het bedrijf van de gebruiker en homegroep &#x200B;](assets/view--assigned-user-s-company-and-home-group-350x80.png)
 
 ## Toegangsvereisten
 
@@ -58,7 +58,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-*For informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*For informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

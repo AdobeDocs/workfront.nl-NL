@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # Documentgoedkeuring aanvragen
 
-U kunt goedkeuring aanvragen bij managers of andere gebruikers voor een document in Adobe Workfront. U kunt documentgoedkeuringen van mensen zonder de rekeningen van Workfront ook verzoeken als uw beheerder van Workfront dit vermogen heeft toegelaten, zoals die in [ wordt beschreven vormt de voorkeur van de systeemveiligheid ](../../administration-and-setup/manage-workfront/security/configure-security-preferences.md).
+U kunt goedkeuring aanvragen bij managers of andere gebruikers voor een document in Adobe Workfront. U kunt documentgoedkeuringen van mensen zonder de rekeningen van Workfront ook verzoeken als uw beheerder van Workfront dit vermogen heeft toegelaten, zoals die in [&#x200B; wordt beschreven vormt de voorkeur van de systeemveiligheid &#x200B;](../../administration-and-setup/manage-workfront/security/configure-security-preferences.md).
 
 ## Toegangsvereisten
 
@@ -57,7 +57,7 @@ Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licen
 
 1. De rol neer aan de **goedkeurt** sectie in de Samenvatting, en begint typend in **voegt Approver** tekstvakje toe. U kunt Workfront-gebruikers toevoegen op naam of via e-mail.
 
-1. Als uw beheerder van Adobe Workfront het vermogen heeft toegelaten om met mensen samen te werken die geen Workfront gebruiken, zoals die in [ wordt beschreven vormt de voorkeur van de systeemveiligheid ](../../administration-and-setup/manage-workfront/security/configure-security-preferences.md), kunt u hun e-mailadressen typen om hen te omvatten.
+1. Als uw beheerder van Adobe Workfront het vermogen heeft toegelaten om met mensen samen te werken die geen Workfront gebruiken, zoals die in [&#x200B; wordt beschreven vormt de voorkeur van de systeemveiligheid &#x200B;](../../administration-and-setup/manage-workfront/security/configure-security-preferences.md), kunt u hun e-mailadressen typen om hen te omvatten.
 
    U kunt geen goedkeuring aanvragen bij teams of groepen.
 
@@ -72,7 +72,7 @@ Goedkeuringsbeslissingen voor documenten worden niet automatisch opnieuw ingeste
 
 1. De rol neer aan de **goedkeurt** sectie in de Samenvatting, klikt het Meer pictogram, dan klikt opnieuw voorlegt.
 
-   ![ hervat goedkeuring ](assets/nwe-resubmit-approval-350x149.png)
+   ![&#x200B; hervat goedkeuring &#x200B;](assets/nwe-resubmit-approval-350x149.png)
 
 ## Een aanvraag voor documentgoedkeuring verwijderen
 

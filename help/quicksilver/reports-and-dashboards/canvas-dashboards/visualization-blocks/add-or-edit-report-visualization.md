@@ -24,7 +24,7 @@ U kunt de volgende soorten visualisaties aan een rapport toevoegen:
 
 ## Vereisten
 
-Alvorens u begint, moet u in de bèta van het Canvas van de Rapportering inschrijven. Voor meer informatie, zie [ Rapporterend de bèta van het Canvas: overzicht ](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
+Alvorens u begint, moet u in de bèta van het Canvas van de Rapportering inschrijven. Voor meer informatie, zie [&#x200B; Rapporterend de bèta van het Canvas: overzicht &#x200B;](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
 
 ## Een visualisblok toevoegen of bewerken
 
@@ -32,12 +32,12 @@ Alvorens u begint, moet u in de bèta van het Canvas van de Rapportering inschri
 >
 >Alle wijzigingen worden automatisch opgeslagen wanneer u de blokken in uw rapport maakt en bewerkt.
 
-1. Klik het **pictogram van het 1&rbrace; pictogram van het Belangrijkste Menu ![ ](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik** Meldend **.**
-1. Klik **Nieuw rapport**, creeer dan een rapport met lijsten die gegevens bevatten, zoals die in [ worden beschreven bouw een rapport in het Melden van Canvas ](../../../reports-and-dashboards/reporting-canvas/manage-reports/build-report.md) en [ voeg of geef een lijstblok in het Melden van Canvas ](../../../reports-and-dashboards/reporting-canvas/table-blocks/add-or-edit-report-table.md) toe uit.
+1. Klik het **pictogram van het 1&rbrace; pictogram van het Belangrijkste Menu ![&#x200B; &#x200B;](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik** Meldend **.**
+1. Klik **Nieuw rapport**, creeer dan een rapport met lijsten die gegevens bevatten, zoals die in [&#x200B; worden beschreven bouw een rapport in het Melden van Canvas &#x200B;](../../../reports-and-dashboards/reporting-canvas/manage-reports/build-report.md) en [&#x200B; voeg of geef een lijstblok in het Melden van Canvas &#x200B;](../../../reports-and-dashboards/reporting-canvas/table-blocks/add-or-edit-report-table.md) toe uit.
 
    of
 
-   In een bestaand rapport met lijsten die gegevens bevatten, klik het **Meer pictogram van het Menu** ![ Meer pictogram ](assets/more-icon.png) in de rapportkopbal, dan uitgezocht **geeft** uit.
+   In een bestaand rapport met lijsten die gegevens bevatten, klik het **Meer pictogram van het Menu** ![&#x200B; Meer pictogram &#x200B;](assets/more-icon.png) in de rapportkopbal, dan uitgezocht **geeft** uit.
 
 1. Op de rechterkant van het scherm, onder **voeg een Blok** toe, of:
 
@@ -57,15 +57,15 @@ Alvorens u begint, moet u in de bèta van het Canvas van de Rapportering inschri
 
 1. (Voorwaardelijk) als het rapport meer dan één lijst bevat, in **bouwt uw visualisatie** doos die toont, selecteer de bronlijst voor de visualisatie.
 
-   ![ Uitgezochte lijst op visualisatie ](assets/select-table-on-vis-350x155.png)
+   ![&#x200B; Uitgezochte lijst op visualisatie &#x200B;](assets/select-table-on-vis-350x155.png)
 
    >[!NOTE]
    >
-   >Als u **+ Nieuwe Lijst** selecteert, wordt een nieuw lijstblok gecreeerd onder het visualisatieblok. U moet de tabel vullen met gegevens voordat u er een visualisatie voor kunt toevoegen. Voor meer informatie bij het creëren van en het uitgeven van lijsten, zie [ [ een lijstblok in het Melden van Canvas ](../../../reports-and-dashboards/reporting-canvas/table-blocks/add-or-edit-report-table.md) toevoegen of uitgeven] (../../../reports-and-dashboards/reporting-canvas/table-blocks/add-or-edit-report-table.md)
+   >Als u **+ Nieuwe Lijst** selecteert, wordt een nieuw lijstblok gecreeerd onder het visualisatieblok. U moet de tabel vullen met gegevens voordat u er een visualisatie voor kunt toevoegen. Voor meer informatie bij het creëren van en het uitgeven van lijsten, zie [ [&#x200B; een lijstblok in het Melden van Canvas &#x200B;](../../../reports-and-dashboards/reporting-canvas/table-blocks/add-or-edit-report-table.md) toevoegen of uitgeven] (../../../reports-and-dashboards/reporting-canvas/table-blocks/add-or-edit-report-table.md)
 
 1. Selecteer het type visualisatie dat u wilt toevoegen.
 
-   ![ Uitgezochte visualisatietype ](assets/select-vis-type-350x205.png)
+   ![&#x200B; Uitgezochte visualisatietype &#x200B;](assets/select-vis-type-350x205.png)
 
    Uw visualisatie wordt weergegeven, die de gegevens vertegenwoordigt van de tabel die u hebt geselecteerd.
 
@@ -75,7 +75,7 @@ Alvorens u begint, moet u in de bèta van het Canvas van de Rapportering inschri
 
 1. Ga verder met het configureren van uw visualisatie:
 
-   * **Bar** visualisatie: Voor instructies, zie [ een bar visualisatie in het Rapporterende Canvas ](../../../reports-and-dashboards/reporting-canvas/visualization-blocks/configure-bar-visualization.md#bar) vormen.
-   * **Kolom** visualisatie: Voor instructies, zie [ een kolomvisualisatie in het Melden van Canvas ](../../../reports-and-dashboards/reporting-canvas/visualization-blocks/configure-column-visualization.md) vormen.
-   * **Schijf** visualisatie: Voor instructies, zie [ schijfvisualisatie in het Melden van Canvas ](../../../reports-and-dashboards/reporting-canvas/visualization-blocks/configure-pie-visualization.md) vormen.
-   * **KPI** visualisatie: Voor instructies, zie [ een KPI visualisatie in het Melden van Canvas ](../../../reports-and-dashboards/reporting-canvas/visualization-blocks/configure-kpi-visualization.md) vormen.
+   * **Bar** visualisatie: Voor instructies, zie [&#x200B; een bar visualisatie in het Rapporterende Canvas &#x200B;](../../../reports-and-dashboards/reporting-canvas/visualization-blocks/configure-bar-visualization.md#bar) vormen.
+   * **Kolom** visualisatie: Voor instructies, zie [&#x200B; een kolomvisualisatie in het Melden van Canvas &#x200B;](../../../reports-and-dashboards/reporting-canvas/visualization-blocks/configure-column-visualization.md) vormen.
+   * **Schijf** visualisatie: Voor instructies, zie [&#x200B; schijfvisualisatie in het Melden van Canvas &#x200B;](../../../reports-and-dashboards/reporting-canvas/visualization-blocks/configure-pie-visualization.md) vormen.
+   * **KPI** visualisatie: Voor instructies, zie [&#x200B; een KPI visualisatie in het Melden van Canvas &#x200B;](../../../reports-and-dashboards/reporting-canvas/visualization-blocks/configure-kpi-visualization.md) vormen.

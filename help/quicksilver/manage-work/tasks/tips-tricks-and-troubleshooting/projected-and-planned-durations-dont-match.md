@@ -32,8 +32,8 @@ In de meeste gevallen, afhankelijk van het Type van Duur en de Beperking van de 
 
 Hier volgen de beste dingen om in die gevallen met verwijzingen naar hun ondersteunende artikelen te controleren:
 
-* Geprojecteerde de Datum van de Voltooiing: [ Overzicht van de Verwachte Datum van de Voltooiing voor projecten, taken, en kwesties ](../../../manage-work/projects/planning-a-project/project-projected-completion-date.md)
-* De Beperking van de taak: [ Overzicht van de Restrictie van de Taak ](../../../manage-work/tasks/task-constraints/task-constraint-overview.md)
-* Het Type van duur: [ Overzicht van het Type van Duur en van de Duur van de Taak ](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)
+* Geprojecteerde de Datum van de Voltooiing: [&#x200B; Overzicht van de Verwachte Datum van de Voltooiing voor projecten, taken, en kwesties &#x200B;](../../../manage-work/projects/planning-a-project/project-projected-completion-date.md)
+* De Beperking van de taak: [&#x200B; Overzicht van de Restrictie van de Taak &#x200B;](../../../manage-work/tasks/task-constraints/task-constraint-overview.md)
+* Het Type van duur: [&#x200B; Overzicht van het Type van Duur en van de Duur van de Taak &#x200B;](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)
 
 Als de Geprojecteerde Datum van de Voltooiing, de Beperking van de Taak, of het type van Duur zoals verwacht werken, contacteer steun voor meer diepgaande het oplossen van problemen.

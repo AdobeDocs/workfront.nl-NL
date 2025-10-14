@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # 22.3 Verbeteringen in het beheer van hulpbronnen
 
-Op deze pagina worden alle verbeteringen in het beheer van bronnen beschreven die zijn aangebracht met de versie 22.3 voor de voorvertoningsomgeving. Deze verbeteringen zijn in de week van 11 juli 2022 beschikbaar gesteld in de productieomgeving. Voor een lijst van alle veranderingen beschikbaar met de versie 22.3, zie [ overzicht van de Versie 22.3 ](../../../product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md).
+Op deze pagina worden alle verbeteringen in het beheer van bronnen beschreven die zijn aangebracht met de versie 22.3 voor de voorvertoningsomgeving. Deze verbeteringen zijn in de week van 11 juli 2022 beschikbaar gesteld in de productieomgeving. Voor een lijst van alle veranderingen beschikbaar met de versie 22.3, zie [&#x200B; overzicht van de Versie 22.3 &#x200B;](../../../product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md).
 
 ## Voorkeuren voor sorteren en bruikbaarheidsverbeteringen in Workload Balancer
 
@@ -32,5 +32,5 @@ Om uw ervaring te verbeteren wanneer het gebruiken van de Balancer van de Werkbe
 * Een bijgewerkt, beter leesbaar ontwerp voor Geprojecteerde datums.
 
 
-Voor meer informatie, zie [ de Balancer van de Werkbelasting ](/help/quicksilver/resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) navigeren.
+Voor meer informatie, zie [&#x200B; de Balancer van de Werkbelasting &#x200B;](/help/quicksilver/resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) navigeren.
 

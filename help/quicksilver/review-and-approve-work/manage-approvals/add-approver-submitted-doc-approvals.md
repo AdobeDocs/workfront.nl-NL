@@ -52,14 +52,14 @@ Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licen
 
 ## Aanvullende fiatteurs toevoegen aan verzonden documentgoedkeuringen
 
-1. Klik het **pictogram van het Huis ![ pictogram van het Begin ](assets/home-icon-30x29.png) in de upper-left hoek van Adobe Workfront.**
+1. Klik het **pictogram van het Huis ![&#x200B; pictogram van het Begin &#x200B;](assets/home-icon-30x29.png) in de upper-left hoek van Adobe Workfront.**
 
    >[!NOTE]
    >
    >Uw Workfront-beheerder kan de volgende wijzigingen aanbrengen in het pictogram Home in uw omgeving:
    >
    >* Vervang deze door een afbeelding die is aangepast om uw organisatie te illustreren. In dit geval ziet het pictogram er anders uit dan in dit artikel.
-   >* De gekoppelde pagina vervangen door een andere pagina. In dit geval, klik het **Belangrijkste pictogram van het Menu** ![ Belangrijkste pictogram van het Menu ](assets/main-menu-icon.png) in de hoger-juiste hoek van de pagina, dan klik **Huis**.
+   >* De gekoppelde pagina vervangen door een andere pagina. In dit geval, klik het **Belangrijkste pictogram van het Menu** ![&#x200B; Belangrijkste pictogram van het Menu &#x200B;](assets/main-menu-icon.png) in de hoger-juiste hoek van de pagina, dan klik **Huis**.
 
 1. In het **gebied van de Lijst van het Werk**, ga naar **Goedkeuringen ik** groepering heb voorgelegd.
 
@@ -68,6 +68,6 @@ Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licen
 1. Klik **leiden Goedkeuringen** in de hoger-juiste hoek van het juiste paneel.
 1. In **heb iemand dit document** doos goedkeuren, typ de naam van fiatteur.
 
-   Als uw beheerder van Adobe Workfront het vermogen heeft toegelaten om met mensen samen te werken die geen Workfront gebruiken, zoals die in [ wordt beschreven vormt de voorkeur van de systeemveiligheid ](../../administration-and-setup/manage-workfront/security/configure-security-preferences.md), kunt u hun e-mailadressen typen om hen te omvatten.
+   Als uw beheerder van Adobe Workfront het vermogen heeft toegelaten om met mensen samen te werken die geen Workfront gebruiken, zoals die in [&#x200B; wordt beschreven vormt de voorkeur van de systeemveiligheid &#x200B;](../../administration-and-setup/manage-workfront/security/configure-security-preferences.md), kunt u hun e-mailadressen typen om hen te omvatten.
 
 1. Klik **sparen**.

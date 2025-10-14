@@ -19,17 +19,17 @@ ht-degree: 0%
 
 Op deze pagina worden alle verbeteringen in het beheer van bronnen beschreven die zijn aangebracht met de versie 21.1 voor de voorvertoningsomgeving. Deze verbeteringen zullen in de productieomgeving beschikbaar worden gesteld in de week van 15 februari 2021.
 
-Voor een lijst van alle veranderingen beschikbaar met de versie 21.1, zie [ overzicht van de versie 21.1 ](../../../product-announcements/product-releases/21.1-release-activity/21-1-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar met de versie 21.1, zie [&#x200B; overzicht van de versie 21.1 &#x200B;](../../../product-announcements/product-releases/21.1-release-activity/21-1-release-overview.md).
 
 ## Werklastverdeling voor projecten
 
 De werklastbalans is nu beschikbaar in een project. Nu, hebt u een optie om tussen het gebruiken van de Balancer van de Werkbelasting of het Plannende hulpmiddel te selecteren om uw projectmiddelen te beheren.
 
-Voor informatie over waar de Balancer van de Werkbelasting in Adobe Workfront kan worden gevestigd, zie [ plaats van de Balancer van de Werkbelasting ](../../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
+Voor informatie over waar de Balancer van de Werkbelasting in Adobe Workfront kan worden gevestigd, zie [&#x200B; plaats van de Balancer van de Werkbelasting &#x200B;](../../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
 
 ## Workfront Balancer beschikbaar voor een team
 
 De werklastbalans is nu beschikbaar in een team. U kunt nu kiezen tussen het gebruik van Workload Balancer of het Planningsprogramma voor het beheer van uw teambronnen.
 
-Voor informatie over waar de Balancer van de Werkbelasting in Workfront kan worden gevestigd, zie [ plaats van de Balancer van de Werkbelasting ](../../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
+Voor informatie over waar de Balancer van de Werkbelasting in Workfront kan worden gevestigd, zie [&#x200B; plaats van de Balancer van de Werkbelasting &#x200B;](../../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
 

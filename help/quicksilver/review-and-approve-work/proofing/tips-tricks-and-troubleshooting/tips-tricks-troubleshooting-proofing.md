@@ -17,9 +17,9 @@ ht-degree: 0%
 
 Deze sectie bevat de volgende artikelen:
 
-* [ de gebruikers van de Lijst met een het proef vergunning in Adobe Workfront ](../../../review-and-approve-work/proofing/tips-tricks-and-troubleshooting/report-which-users-have-proofing-license-in-wf.md)
-* [ geef het gebied van het Profiel van de Toestemming van het Bewijs in Bulk ](../../../review-and-approve-work/proofing/tips-tricks-and-troubleshooting/edit-proof-profile-bulk.md) uit
-* [ maak het delen van bewijs via openbare URL onbruikbaar of bedt code ](../../../review-and-approve-work/proofing/tips-tricks-and-troubleshooting/disable-public-proofs.md) in
+* [&#x200B; de gebruikers van de Lijst met een het proef vergunning in Adobe Workfront &#x200B;](../../../review-and-approve-work/proofing/tips-tricks-and-troubleshooting/report-which-users-have-proofing-license-in-wf.md)
+* [&#x200B; geef het gebied van het Profiel van de Toestemming van het Bewijs in Bulk &#x200B;](../../../review-and-approve-work/proofing/tips-tricks-and-troubleshooting/edit-proof-profile-bulk.md) uit
+* [&#x200B; maak het delen van bewijs via openbare URL onbruikbaar of bedt code &#x200B;](../../../review-and-approve-work/proofing/tips-tricks-and-troubleshooting/disable-public-proofs.md) in
 * [Veelgestelde vragen: proefdrukken in Adobe Workfront - VS naar EMEA-migratie](../../../review-and-approve-work/proofing/tips-tricks-and-troubleshooting/faq-proofing-in-wf-us-to-emea-migration.md)
 * [Documentnaam gewijzigd na uploaden en bevat een ongeldig teken](/help/quicksilver/review-and-approve-work/proofing/tips-tricks-and-troubleshooting/document-to-proof-name.md)
 * [Een PowerPoint met een ingesloten video proefdrukken](/help/quicksilver/review-and-approve-work/proofing/tips-tricks-and-troubleshooting/powerpoint-with-video.md)

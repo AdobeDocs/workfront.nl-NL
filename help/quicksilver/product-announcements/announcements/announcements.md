@@ -25,4 +25,4 @@ Het volgende is aankondigingen u zou kunnen vertrouwd met willen zijn:
 
 
 
-Voor oudere aankondigingen, zie het [ archief van de Aankondiging ](announcement-archive/announcement-archive.md).
+Voor oudere aankondigingen, zie het [&#x200B; archief van de Aankondiging &#x200B;](announcement-archive/announcement-archive.md).

@@ -132,15 +132,15 @@ De gebruikers die als Managers van het Middel aan een project of een malplaatje 
 
 * De gebruikers die u als Beheerders van het Middel op een project of een malplaatje aanwijst worden automatisch geen deel van het Team van het Project.
 
-  Voor informatie over projectteams, zie [ het Team van het Project beheren ](../../../manage-work/projects/planning-a-project/manage-project-team.md).
+  Voor informatie over projectteams, zie [&#x200B; het Team van het Project beheren &#x200B;](../../../manage-work/projects/planning-a-project/manage-project-team.md).
 
 * U kunt de Managers van het Middel voor projecten of voor projectmalplaatjes aanwijzen. Wanneer u de Managers van het Middel op een projectmalplaatje aanwijst, om het even welke gebruikers u als Managers van het Middel op het malplaatje aanwijst worden automatisch de Managers van het Middel op om het even welke projecten die gebruikend dat malplaatje worden gecreeerd.
 * U kunt het gebied van de Manager van het Middel op de volgende gebieden bekijken:
 
    * Tijdens het bewerken van een project, zoals beschreven in dit artikel.
    * Tijdens het bewerken van een sjabloon, zoals beschreven in dit artikel.
-   * Tijdens het samenstellen van project- of sjabloonrapporten. Voor informatie over de bouw van rapporten, zie [ een douanerapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) creëren.
-   * Bij het maken of aanpassen van een project- of sjabloonweergave voor een lijst. Voor meer informatie, zie [ Overzicht van Meningen in Adobe Workfront ](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+   * Tijdens het samenstellen van project- of sjabloonrapporten. Voor informatie over de bouw van rapporten, zie [&#x200B; een douanerapport &#x200B;](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) creëren.
+   * Bij het maken of aanpassen van een project- of sjabloonweergave voor een lijst. Voor meer informatie, zie [&#x200B; Overzicht van Meningen in Adobe Workfront &#x200B;](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
 * U kunt de Managers van het Middel op veelvoudige projecten of malplaatjes snel toevoegen of verwijderen door het gebied van de Manager van het Middel aan een mening van een lijst of een project toe te voegen en dit gebied uit te geven gebruikend in-line geef uit.
 
@@ -156,7 +156,7 @@ De gebruikers die als Managers van het Middel aan een project of een malplaatje 
 
    * Om de Managers van het Middel aan een nieuw project toe te voegen, begin creërend een nieuw project.
 
-     Voor informatie over het creëren van een project, zie [ een project ](../../../manage-work/projects/create-projects/create-project.md) creëren.
+     Voor informatie over het creëren van een project, zie [&#x200B; een project &#x200B;](../../../manage-work/projects/create-projects/create-project.md) creëren.
 
 1. In de **sectie van het Overzicht** op het Edit de dialoogvakje van het Project, klik op het **gebied van de Manager van het Middel**.
 1. Typ de naam van de gebruiker die u als middelmanager voor het project wilt toevoegen, dan klik de naam wanneer het in de lijst verschijnt.
@@ -167,7 +167,7 @@ De gebruikers die als Managers van het Middel aan een project of een malplaatje 
 
 ## Bronbeheer toewijzen voor een sjabloon
 
-1. Klik het **pictogram van het 1&rbrace; pictogram van het Belangrijkste Menu ![ ](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront.**
+1. Klik het **pictogram van het 1&rbrace; pictogram van het Belangrijkste Menu ![&#x200B; &#x200B;](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront.**
 
 1. Klik **Malplaatjes**.
 

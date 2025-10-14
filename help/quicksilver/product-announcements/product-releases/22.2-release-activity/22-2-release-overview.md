@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # 22.2 Overzicht van de release
 
-Deze pagina bevat informatie over de functionaliteit die is opgenomen in de release 22.2. Alle vermelde functies zijn beschikbaar in de nieuwe Adobe Workfront-ervaring. Sommige eigenschappen zijn ook beschikbaar in de Klassiek van Adobe Workfront; nochtans, [ zal de Klassiek van Workfront in Maart 2022 ](https://experienceleague.adobe.com/nl/docs/workfront/using/home) worden stopgezet, die kort door de eind-van-levensdatum voor Workfront Classic in Juli 2022 wordt gevolgd.
+Deze pagina bevat informatie over de functionaliteit die is opgenomen in de release 22.2. Alle vermelde functies zijn beschikbaar in de nieuwe Adobe Workfront-ervaring. Sommige eigenschappen zijn ook beschikbaar in de Klassiek van Adobe Workfront; nochtans, [&#x200B; zal de Klassiek van Workfront in Maart 2022 &#x200B;](https://experienceleague.adobe.com/nl/docs/workfront/using/home) worden stopgezet, die kort door de eind-van-levensdatum voor Workfront Classic in Juli 2022 wordt gevolgd.
 
 <!--
 <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -52,12 +52,12 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
 
 ## Verbeteringen voor Adobe Workfront
 
-* [ de verhogingen van de Beheerder ](#administrator-enhancements)
-* [ de verhogingen van het Project ](#project-enhancements)
-* [ Verbeteringen van het Beheer van het Middel ](#resource-management-enhancements)
-* [ Verbeteringen van het Huis ](#home-enhancements)
-* [ Mobiele verhogingen ](#mobile-enhancements)
-* [ Verbeteringen van de Integraties ](#integrations-enhancements)
+* [&#x200B; de verhogingen van de Beheerder &#x200B;](#administrator-enhancements)
+* [&#x200B; de verhogingen van het Project &#x200B;](#project-enhancements)
+* [&#x200B; Verbeteringen van het Beheer van het Middel &#x200B;](#resource-management-enhancements)
+* [&#x200B; Verbeteringen van het Huis &#x200B;](#home-enhancements)
+* [&#x200B; Mobiele verhogingen &#x200B;](#mobile-enhancements)
+* [&#x200B; Verbeteringen van de Integraties &#x200B;](#integrations-enhancements)
 * [Andere verbeteringen](#other-enhancements)
 
 ### Beheerdersverbeteringen {#administrator-enhancements}
@@ -584,7 +584,7 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
 
 ## Workfront Fusion-verbeteringen
 
-Nieuwe functies in Workfront Fusion zijn beschikbaar in Production op een cadence buiten de releaseplanning van 22.2. Voor meer informatie over de recentste eigenschappen, zie [ de versieactiviteit van de Fusie van Adobe Workfront ](https://experienceleague.adobe.com/nl/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
+Nieuwe functies in Workfront Fusion zijn beschikbaar in Production op een cadence buiten de releaseplanning van 22.2. Voor meer informatie over de recentste eigenschappen, zie [&#x200B; de versieactiviteit van de Fusie van Adobe Workfront &#x200B;](https://experienceleague.adobe.com/nl/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 
 ## Verbeteringen in Workfront Scenario Planner
 
@@ -614,9 +614,9 @@ Er zijn op dit moment geen updates voor Workfront Goals beschikbaar in de releas
 
 Voor API versie 14 hebben we een aantal bronnen en eindpunten gewijzigd. Sommige wijzigingen ondersteunen nieuwe functionaliteit en andere maken het voor u gemakkelijker om de informatie te gebruiken die beschikbaar is via de API.
 
-Voor informatie over wat nieuw en bijgewerkt is, zie [ wat in API versie 14 ](../../../wf-api/api/new-api-version-14.md) nieuw is.
+Voor informatie over wat nieuw en bijgewerkt is, zie [&#x200B; wat in API versie 14 &#x200B;](../../../wf-api/api/new-api-version-14.md) nieuw is.
 
-Voor informatie over API versies, zie [ API versioning en steunprogramma ](../../../wf-api/api/api-version-support-schedule.md).
+Voor informatie over API versies, zie [&#x200B; API versioning en steunprogramma &#x200B;](../../../wf-api/api/api-version-support-schedule.md).
 
 ## Workfront-onderhoudsupdates
 
@@ -624,7 +624,7 @@ Voor informatie over de onderhoudsupdates die tijdens de versie 2.2 worden gemaa
 
 ## 22.2 Release-webinar
 
-De Workfront 22.2 Release Webinar wordt op 24 maart 2022 om 8:00 uur MST gepresenteerd. U kunt voor de gebeurtenis op de [ pagina van Gebeurtenissen op Workfront registreren één ](https://webinars.on24.com/adobe_workfront/WF22point2?partnerref=WFOne).
+De Workfront 22.2 Release Webinar wordt op 24 maart 2022 om 8:00 uur MST gepresenteerd. U kunt voor de gebeurtenis op de [&#x200B; pagina van Gebeurtenissen op Workfront registreren één &#x200B;](https://webinars.on24.com/adobe_workfront/WF22point2?partnerref=WFOne).
 
 <!--
 <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -653,7 +653,7 @@ was presented on January 12, 2022. You can view the webinar recording on the
 
 ## Training-updates
 
-Ontdek de nieuwste updates van leerprogramma&#39;s, leerpaden, video&#39;s en handleidingen voor elke Adobe Workfront-productrelease. Voor meer informatie, zie de [ versie van de Opleiding pagina ](https://experienceleague.adobe.com/nl/docs/workfront-learn/tutorials-workfront/home) bijwerkt.
+Ontdek de nieuwste updates van leerprogramma&#39;s, leerpaden, video&#39;s en handleidingen voor elke Adobe Workfront-productrelease. Voor meer informatie, zie de [&#x200B; versie van de Opleiding pagina &#x200B;](https://experienceleague.adobe.com/nl/docs/workfront-learn/tutorials-workfront/home) bijwerkt.
 
 ## Functionaliteit wordt niet meer ondersteund
 
@@ -661,4 +661,4 @@ Ontdek de nieuwste updates van leerprogramma&#39;s, leerpaden, video&#39;s en ha
 
 Nu de ondersteuning voor Internet Explorer is afgeschaft, biedt Workfront nu officieel ondersteuning voor Microsoft Edge.
 
-Voor meer informatie over gesteunde browsers, zie [ browser van Adobe Workfront vereisten ](../../../workfront-basics/workfront-browser-requirements.md).
+Voor meer informatie over gesteunde browsers, zie [&#x200B; browser van Adobe Workfront vereisten &#x200B;](../../../workfront-basics/workfront-browser-requirements.md).

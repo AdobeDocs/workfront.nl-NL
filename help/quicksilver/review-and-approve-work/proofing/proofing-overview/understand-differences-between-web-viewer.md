@@ -19,14 +19,14 @@ ht-degree: 0%
 Adobe Workfront biedt twee verschillende testviewers:
 
 * **Web Proofing Kijker:** Ontworpen hoofdzakelijk voor het proef statische en videodossiers. Wordt uitgevoerd in Google Chrome, Firefox of Safari.
-* **Desktop het Proofing Kijker:** Ontworpen voor het proef van interactieve dossiers evenals video en statische dossiers. Wordt uitgevoerd als zelfstandige toepassing op uw werkstation. Voor meer informatie, zie [ de het Proofing van de Desktop Kijker ](../../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/destop-proofing-viewer.md) begrijpen
+* **Desktop het Proofing Kijker:** Ontworpen voor het proef van interactieve dossiers evenals video en statische dossiers. Wordt uitgevoerd als zelfstandige toepassing op uw werkstation. Voor meer informatie, zie [&#x200B; de het Proofing van de Desktop Kijker &#x200B;](../../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/destop-proofing-viewer.md) begrijpen
 
-* Als uw organisatie de Desktop Proofing Viewer-app om beveiligingsredenen niet kan gebruiken, kan uw Workfront-beheerder uw systeem zo configureren dat u de interactieve inhoud die in een ZIP-archiefbestand is gebundeld, kunt bekijken in de webtestviewer. Zie voor meer informatie  [ Opstelling interactieve inhoud het proef in de Kijker van het Bewijs van het Web ](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/interactive-content-in-web-viewer.md).
+* Als uw organisatie de Desktop Proofing Viewer-app om beveiligingsredenen niet kan gebruiken, kan uw Workfront-beheerder uw systeem zo configureren dat u de interactieve inhoud die in een ZIP-archiefbestand is gebundeld, kunt bekijken in de webtestviewer. Zie voor meer informatie  [&#x200B; Opstelling interactieve inhoud het proef in de Kijker van het Bewijs van het Web &#x200B;](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/interactive-content-in-web-viewer.md).
 
 De volgende lijst kan u helpen begrijpen welke Proofing Viewer u kunt gebruiken om bepaalde typen inhoud te controleren:
 
 * **Interactieve webinhoud - URL**: Als u een proef voor Webinhoud gebruikend een URL creeert en u de inhoud interactief wilt proefdrukken, moet u de Kijker van het Proofing van de Desktop gebruiken.
-* **Interactieve webinhoud - het dossier van het ZIP**: Als u een proef voor Webinhoud gebruikend een dossier van het PIT creeert, kunt u of de Kijker van het Keuren van het Web (met sommige beperkingen) of de Kijker van het Proofing van de Desktop gebruiken. Voor informatie over de beperkingen betrokken bij het gebruiken van de Kijker van het Keuren van het Web voor interactieve inhoud, zie [ Opstelling interactieve inhoud het proef in de Kijker van het Keuren van het Web ](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/interactive-content-in-web-viewer.md).
+* **Interactieve webinhoud - het dossier van het ZIP**: Als u een proef voor Webinhoud gebruikend een dossier van het PIT creeert, kunt u of de Kijker van het Keuren van het Web (met sommige beperkingen) of de Kijker van het Proofing van de Desktop gebruiken. Voor informatie over de beperkingen betrokken bij het gebruiken van de Kijker van het Keuren van het Web voor interactieve inhoud, zie [&#x200B; Opstelling interactieve inhoud het proef in de Kijker van het Keuren van het Web &#x200B;](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/interactive-content-in-web-viewer.md).
 
 * **Statische en videoinhoud**: Als u een proef creeert die statische inhoud bevat, kunt u of de Web Proofing Kijker of de Kijker van het Proofing van de Desktop gebruiken.
 
@@ -44,7 +44,7 @@ De volgende lijst kan u helpen begrijpen welke Proofing Viewer u kunt gebruiken 
 | Statische proefdruknavigator | ✓ | ✓&#42; |
 | Document zoeken | ✓ | ✓&#42; |
 | Post-commentaar op meerdere pagina&#39;s | ✓ (beschikbaar in alle weergaven) | ✓&#42; (beschikbaar in alle weergaven) |
-| Geavanceerde sneltoetsen voor statische proefdrukken | ✓ (voor meer informatie, zie [ kortere weg van het Toetsenbord in de het proeven kijker ](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/keyboard-shortcuts-proof.md)) | ✓ &#42; (voor meer informatie, zie [ Sneltoetsen in de het proeven kijker ](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/keyboard-shortcuts-proof.md)) |
+| Geavanceerde sneltoetsen voor statische proefdrukken | ✓ (voor meer informatie, zie [&#x200B; kortere weg van het Toetsenbord in de het proeven kijker &#x200B;](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/keyboard-shortcuts-proof.md)) | ✓ &#42; (voor meer informatie, zie [&#x200B; Sneltoetsen in de het proeven kijker &#x200B;](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/keyboard-shortcuts-proof.md)) |
 
 {style="table-layout:auto"}
 
@@ -63,7 +63,7 @@ De volgende lijst kan u helpen begrijpen welke Proofing Viewer u kunt gebruiken 
 | modus Volledig scherm | ✓ | ✓&#42;  |
 | Bereikopmerkingen | ✓ | ✓&#42;  |
 | Videoproefdrukken herhalen (video&#39;s worden automatisch voltooid en gestart) | ✓ | ✓&#42;  |
-| Geavanceerde videosneltoetsen | ✓ (voor meer informatie, zie [ kortere weg van het Toetsenbord in de het proeven kijker ](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/keyboard-shortcuts-proof.md)) | ✓&#42;  |
+| Geavanceerde videosneltoetsen | ✓ (voor meer informatie, zie [&#x200B; kortere weg van het Toetsenbord in de het proeven kijker &#x200B;](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/keyboard-shortcuts-proof.md)) | ✓&#42;  |
 
 {style="table-layout:auto"}
 

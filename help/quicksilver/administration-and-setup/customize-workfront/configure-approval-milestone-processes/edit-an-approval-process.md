@@ -21,7 +21,7 @@ Als u een Adobe Workfront-beheerder bent of als u beheerdersrechten hebt voor go
 
 Als u een groepsbeheerder bent, kunt u de goedkeuringsprocessen zien en uitgeven verbonden aan de groep of de groepen u leiden.
 
-Voor informatie over het creëren van goedkeuringsprocessen, zie [ een goedkeuringsproces voor het werkpunten ](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md) creëren.
+Voor informatie over het creëren van goedkeuringsprocessen, zie [&#x200B; een goedkeuringsproces voor het werkpunten &#x200B;](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md) creëren.
 
 >[!NOTE]
 >
@@ -72,7 +72,7 @@ U moet het volgende hebben:
 
    Als u een goedkeuringsproces op groepsniveau bewerkt, doet u het volgende:
 
-   1. In het linkerpaneel, klik **Groepen** ![ pictogram van Groepen ](assets/groups-icon.png).
+   1. In het linkerpaneel, klik **Groepen** ![&#x200B; pictogram van Groepen &#x200B;](assets/groups-icon.png).
    1. Klik op de naam van de groep waarvoor u de goedkeuringsprocessen voor groepen wilt weergeven of beheren.
    1. In het linkerpaneel, klik **goedkeurt**. U zou kunnen moeten klikken **tonen meer** eerst.
 
@@ -80,7 +80,7 @@ U moet het volgende hebben:
 
 1. Selecteer het goedkeuringsproces u wilt uitgeven, dan klik **uitgeven** bij de bovenkant van de lijst. Het vak Goedkeuringsproces bewerken wordt weergegeven.
 
-   ![ geef goedkeuringsproces ](assets/edit-approval-process-global-area-new.png) uit
+   ![&#x200B; geef goedkeuringsproces &#x200B;](assets/edit-approval-process-global-area-new.png) uit
 
 1. Geef de volgende informatie op in het vak dat wordt weergegeven:
 
@@ -190,6 +190,6 @@ U moet het volgende hebben:
 1. Klik **sparen**.
 1. (Optioneel) Voer een van de volgende handelingen uit:
 
-   * Associeer het goedkeuringsproces met specifieke projecten, taken, of kwesties door uw systeem, zoals die in [ wordt beschreven associeer een nieuw of bestaand goedkeuringsproces met het werk ](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
-   * Buiten Workfront, breng gebruikers op de hoogte dat het goedkeuringsproces voor hen beschikbaar is om met hun projecten, taken, of kwesties te associëren, zoals die in [ worden beschreven associeer een nieuw of bestaand goedkeuringsproces met het werk ](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
+   * Associeer het goedkeuringsproces met specifieke projecten, taken, of kwesties door uw systeem, zoals die in [&#x200B; wordt beschreven associeer een nieuw of bestaand goedkeuringsproces met het werk &#x200B;](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
+   * Buiten Workfront, breng gebruikers op de hoogte dat het goedkeuringsproces voor hen beschikbaar is om met hun projecten, taken, of kwesties te associëren, zoals die in [&#x200B; worden beschreven associeer een nieuw of bestaand goedkeuringsproces met het werk &#x200B;](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
    * Maak een ander goedkeuringsproces dat wordt geactiveerd als dit goedkeuringsproces wordt geweigerd en het onderdeel een andere status krijgt. Op deze manier kunt u goedkeuringsprocessen aan elkaar koppelen.

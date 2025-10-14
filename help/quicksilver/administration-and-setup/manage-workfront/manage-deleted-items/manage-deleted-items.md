@@ -21,7 +21,7 @@ ht-degree: 0%
 
 Deze sectie bevat de volgende artikelen:
 
-* [ herstel geschrapte punten ](../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md)
-* [ Mening herstelde punt ](../../../administration-and-setup/manage-workfront/manage-deleted-items/view-restored-items.md)
-* [ vorm beïnvloedt op uren wanneer een voorwerp wordt geschrapt en hersteld ](../../../administration-and-setup/manage-workfront/manage-deleted-items/configure-how-hours-affected-when-obj-deleted-restored.md)
+* [&#x200B; herstel geschrapte punten &#x200B;](../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md)
+* [&#x200B; Mening herstelde punt &#x200B;](../../../administration-and-setup/manage-workfront/manage-deleted-items/view-restored-items.md)
+* [&#x200B; vorm beïnvloedt op uren wanneer een voorwerp wordt geschrapt en hersteld &#x200B;](../../../administration-and-setup/manage-workfront/manage-deleted-items/configure-how-hours-affected-when-obj-deleted-restored.md)
 * [Afzonderlijke onderliggende objecten herstellen](../../../administration-and-setup/manage-workfront/manage-deleted-items/restoring-individual-child-objects.md)

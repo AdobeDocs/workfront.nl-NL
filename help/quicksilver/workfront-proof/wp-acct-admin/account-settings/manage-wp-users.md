@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [ het Bewijzen ](../../../review-and-approve-work/proofing/proofing.md).
+>Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [&#x200B; het Bewijzen &#x200B;](../../../review-and-approve-work/proofing/proofing.md).
 
 Als [!DNL Workfront Proof] -beheerder kunt u gebruikersinstellingen weergeven en proefdrukgebruikers beheren in het [!UICONTROL Account Settings] -gebied.
 
@@ -39,4 +39,4 @@ Als [!DNL Workfront Proof] -beheerder kunt u gebruikersinstellingen weergeven en
 
    {style="table-layout:auto"}
 
-1. (Optioneel) Klik op het pictogram **[!UICONTROL More]** icon ![[!DNL More_button_small] .png ](assets/more-button-small.png) rechts van de gebruikersnaam en klik vervolgens op een optie om de details van de gebruiker weer te geven of om de gebruiker te verwijderen.
+1. (Optioneel) Klik op het pictogram **[!UICONTROL More]** icon ![[!DNL More_button_small] .png &#x200B;](assets/more-button-small.png) rechts van de gebruikersnaam en klik vervolgens op een optie om de details van de gebruiker weer te geven of om de gebruiker te verwijderen.

@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Op deze pagina worden de projectverbeteringen beschreven die zijn aangebracht met de release van het vierde kwartaal van 2025 voor de voorvertoningsomgeving. Deze verbeteringen zullen beschikbaar worden gesteld in de productieomgeving, zoals vermeld.
 
-Voor een lijst van alle veranderingen beschikbaar op dit punt in het Vierde Kwartaal 2025 versiecyclus, zie [ Vierde Kwartaal 2025 releaseoverzicht ](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar op dit punt in het Vierde Kwartaal 2025 versiecyclus, zie [&#x200B; Vierde Kwartaal 2025 releaseoverzicht &#x200B;](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-release-overview.md).
 
 ## New Project Health bèta
 
@@ -29,7 +29,7 @@ De nieuwe functie Projectgezondheid gebruikt de kracht van AI Assistant om u dir
 
 De Medewerker van AI kan een beoordeling van de Gezondheid van het Project voor een project, een programma, en veelvoudige projecten produceren.
 
-Voor meer, zie [ Overzicht van de Gezondheid van het Project ](/help/quicksilver/workfront-basics/ai-assistant/project-health-overview.md).
+Voor meer, zie [&#x200B; Overzicht van de Gezondheid van het Project &#x200B;](/help/quicksilver/workfront-basics/ai-assistant/project-health-overview.md).
 
 Deze functie is momenteel in bèta.
 
@@ -64,7 +64,7 @@ We hebben nieuwe expressies toegevoegd met het volgende gebruik voor formulering
 * **REPLACEPATTERN (koord, patroon, vervangingskoord)**: Vervangt de gelijken van het bepaalde patroon met het vervangingskoord.
 * **PASCAL (koord)**: Zet het inputkoord in PascalCase door de eerste brief van elk woord te kapitaliseren en alle ruimten te verwijderen.
 
-Voor meer informatie, zie [ Overzicht van berekende gegevensuitdrukkingen ](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+Voor meer informatie, zie [&#x200B; Overzicht van berekende gegevensuitdrukkingen &#x200B;](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
 
 ## Extra manier om tot Geavanceerde Toewijzingen van lijsten toegang te hebben
 
@@ -78,4 +78,4 @@ Een **Geavanceerde** knoop is nu beschikbaar voor taken in lijsten, die het voor
 
 Deze wijziging geldt voor taken en uitgaven.
 
-Voor meer informatie, zie [ Geavanceerde taken ](/help/quicksilver/manage-work/tasks/assign-tasks/create-advanced-assignments.md) creëren.
+Voor meer informatie, zie [&#x200B; Geavanceerde taken &#x200B;](/help/quicksilver/manage-work/tasks/assign-tasks/create-advanced-assignments.md) creëren.

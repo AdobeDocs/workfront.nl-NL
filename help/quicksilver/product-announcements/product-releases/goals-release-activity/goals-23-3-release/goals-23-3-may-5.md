@@ -26,4 +26,4 @@ De verhogingen aan de sectie van Updates van doelstellingen worden ter beschikki
 
 Verbeteringen in de opmerkingen die beschikbaar zijn gemaakt voor doelen zijn dezelfde als die welke worden vrijgegeven met de nieuwe bètaervaring voor opmerkingen voor andere Workfront-objecten.
 
-Voor meer informatie, zie [ Nieuwe het becommentariëren de activiteit van de ervaringsversie ](/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md).
+Voor meer informatie, zie [&#x200B; Nieuwe het becommentariëren de activiteit van de ervaringsversie &#x200B;](/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md).

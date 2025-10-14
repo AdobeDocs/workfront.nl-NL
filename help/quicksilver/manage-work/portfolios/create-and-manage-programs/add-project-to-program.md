@@ -27,9 +27,9 @@ U moet een portfolio en een programma in dit portfolio maken voordat u een proje
 
 Als u een project aan een programma toevoegt, wordt dit automatisch toegevoegd aan de portfolio van het programma.
 
-Voor informatie over het creëren van portefeuilles, zie [ een portefeuille ](../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md) creëren.
+Voor informatie over het creëren van portefeuilles, zie [&#x200B; een portefeuille &#x200B;](../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md) creëren.
 
-Voor informatie over het creëren van programma&#39;s, zie [ een programma ](../../../manage-work/portfolios/create-and-manage-programs/create-program.md) creëren.
+Voor informatie over het creëren van programma&#39;s, zie [&#x200B; een programma &#x200B;](../../../manage-work/portfolios/create-and-manage-programs/create-program.md) creëren.
 
 ## Toegangsvereisten
 
@@ -59,7 +59,7 @@ Voor informatie over het creëren van programma&#39;s, zie [ een programma ](../
  </tbody> 
 </table>
 
-*For informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*For informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -106,14 +106,14 @@ Voor informatie over het creëren van programma&#39;s, zie [ een programma ](../
 
 1. (Voorwaardelijk) als u **[!UICONTROL Existing Project]** selecteerde, **voegt de doos van Projecten** toe opent. <!--check at unshimming-->
 
-   ![ voeg bestaande projecten aan programmadoos ](assets/add-projects-to-programs-box.png)<!--check at unshimming--> toe
+   ![&#x200B; voeg bestaande projecten aan programmadoos &#x200B;](assets/add-projects-to-programs-box.png)<!--check at unshimming--> toe
 
 1. Ga als volgt te werk:
 
    1. In het **[!UICONTROL Add Projects]** vakje, typ de naam van een project in **voegt Projecten aan dit 2&rbrace; gebied van het Programma toe, dan selecteert het wanneer het in de lijst toont. <!--check casing on links and buttons-->**
 
       U kunt meerdere projecten toevoegen.
-   1. (Facultatief) klik het **pictogram van de Schrapping ![ pictogram van de Schrapping ](assets/delete-icon.png) naast de naam van een project als u besluit om het niet aan het programma toe te voegen.**
+   1. (Facultatief) klik het **pictogram van de Schrapping ![&#x200B; pictogram van de Schrapping &#x200B;](assets/delete-icon.png) naast de naam van een project als u besluit om het niet aan het programma toe te voegen.**
 
    1. Klik op **[!UICONTROL Add Projects]** . <!--check at unshimming-->
 

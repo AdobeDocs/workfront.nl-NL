@@ -23,9 +23,9 @@ Reviseer en becommentariëer in hetzelfde document waar de creatieve teams werke
 
 Deze sectie bevat de volgende subsecties:
 
-* [ het Proofing overzicht: artikelindex ](../../review-and-approve-work/proofing/proofing-overview/proofing-basics.md)
-* [ creeer proeven ](../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-proofs-in-wf.md)
-* [ beheert proeven binnen Adobe Workfront ](../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proofs-in-wf.md)
-* [ proefdrukken van het Overzicht binnen Adobe Workfront ](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md)
+* [&#x200B; het Proofing overzicht: artikelindex &#x200B;](../../review-and-approve-work/proofing/proofing-overview/proofing-basics.md)
+* [&#x200B; creeer proeven &#x200B;](../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-proofs-in-wf.md)
+* [&#x200B; beheert proeven binnen Adobe Workfront &#x200B;](../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proofs-in-wf.md)
+* [&#x200B; proefdrukken van het Overzicht binnen Adobe Workfront &#x200B;](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md)
 * [De Desktop Proofing Viewer gebruiken](/help/quicksilver/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/use-desktop-proofing-viewer.md)
 * [Tips, trucs en probleemoplossing voor proefdrukken in Adobe Workfront](../../review-and-approve-work/proofing/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-proofing.md)

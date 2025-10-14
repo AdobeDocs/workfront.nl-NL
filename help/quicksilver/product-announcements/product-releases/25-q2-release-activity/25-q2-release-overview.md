@@ -32,7 +32,7 @@ Voorzien wordt dat maandelijkse en driemaandelijkse versies beschikbaar zullen z
 >
 >Voor de definitieve versie van elk kwartaal (25.4 dit kwartaal), zullen de gebruikers op het snelle versieschema één dag vroeg de versie ontvangen.
 >
->Voor meer informatie over het snelle versieproces, zie [ toelaten of onbruikbaar maken het snelle versieproces ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
+>Voor meer informatie over het snelle versieproces, zie [&#x200B; toelaten of onbruikbaar maken het snelle versieproces &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
 
 ## Verbeteringen voor Adobe Workfront
 
@@ -299,36 +299,36 @@ Als we het Workfront-platform blijven verbeteren, is het van cruciaal belang dat
 De oudere versie van Agile in een project wordt verwijderd uit Workfront met de release van 25.3 op 13 maart 2025. U kunt uw taken nog steeds bekijken in een mobiele weergave in een project door op het pictogram Boven te klikken. De bestaande oude agile-gereedschappen zijn nog steeds beschikbaar in het gebied Teams.
 
 In de onderstaande afbeelding ziet u de oudere, flexibele optie die wordt verwijderd:
-![ erfenis de verbinding van de agile mening ](assets/project-agile-board-view.png)
+![&#x200B; erfenis de verbinding van de agile mening &#x200B;](assets/project-agile-board-view.png)
 
 
 #### Verbeterde afgekeurde analysemogelijkheden
 
 Vanwege het lage en afnemende gebruik hebben we besloten om het product Enhanced Analytics in de week van 25 mei 2025 af te schaffen.
 We raden u aan ons Data Connect-product te beschouwen als een vervanging. Met Data Connect kunt u vergelijkbare aanpasbare visualisaties maken met de bedrijfsintelligentiegereedschappen van uw voorkeur.
-Voor meer informatie over deze veroudering, zie de [ Verbeterde gids van de Vervanging van Analytics ](/help/quicksilver/product-announcements/announcements/enhanced-analytics-deprecation.md).
+Voor meer informatie over deze veroudering, zie de [&#x200B; Verbeterde gids van de Vervanging van Analytics &#x200B;](/help/quicksilver/product-announcements/announcements/enhanced-analytics-deprecation.md).
 
 ## Aankondigingen
 
 ### Modernisering van de interface
 
-We werken de interface in Adobe Workfront bij om de gebruikerservaring te verbeteren en deze te verenigen met andere Adobe-toepassingen. Deze veranderingen worden vrijgegeven buiten het standaardversieschema. Voor een lijst van deze veranderingen, zie [ Modernisering van de Interface ](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
+We werken de interface in Adobe Workfront bij om de gebruikerservaring te verbeteren en deze te verenigen met andere Adobe-toepassingen. Deze veranderingen worden vrijgegeven buiten het standaardversieschema. Voor een lijst van deze veranderingen, zie [&#x200B; Modernisering van de Interface &#x200B;](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
 
 ### Workfront Fusion-verbeteringen
 
 >[!IMPORTANT]
 >
->De Workfront Fusion-documentatie is verplaatst naar een nieuwe locatie. Voor informatie, instructies, en versies voor Fusie, bezoek [ de documentatie van de Fusie van Workfront ](https://experienceleague.adobe.com/nl/docs/workfront-fusion/using/home).
+>De Workfront Fusion-documentatie is verplaatst naar een nieuwe locatie. Voor informatie, instructies, en versies voor Fusie, bezoek [&#x200B; de documentatie van de Fusie van Workfront &#x200B;](https://experienceleague.adobe.com/nl/docs/workfront-fusion/using/home).
 >
 >Elk huidig Fusion-documentatieartikel bevat een koppeling naar het bijbehorende artikel op de nieuwe locatie. Werk uw bladwijzers bij.
 >
 >De huidige Fusion-documentatieset wordt niet meer bijgewerkt en wordt in de nabije toekomst verwijderd.
 
-Nieuwe functies in Workfront Fusion zijn beschikbaar in Production op een cadence buiten de standaard releaseschema. Voor meer informatie over de recentste eigenschappen, zie [ de versieactiviteit van de Fusie van Adobe Workfront ](https://experienceleague.adobe.com/nl/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
+Nieuwe functies in Workfront Fusion zijn beschikbaar in Production op een cadence buiten de standaard releaseschema. Voor meer informatie over de recentste eigenschappen, zie [&#x200B; de versieactiviteit van de Fusie van Adobe Workfront &#x200B;](https://experienceleague.adobe.com/nl/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 
 ### Verbeteringen voor Workfront-planning
 
-Nieuwe functies in Workfront Planning zijn beschikbaar in Production. Voor meer informatie over de recentste eigenschappen, zie [ Adobe Workfront die Tweede Kwartaal 2025 versieactiviteit plant ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q2.md).
+Nieuwe functies in Workfront Planning zijn beschikbaar in Production. Voor meer informatie over de recentste eigenschappen, zie [&#x200B; Adobe Workfront die Tweede Kwartaal 2025 versieactiviteit plant &#x200B;](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q2.md).
 
 ### Verbeteringen in Workfront Scenario Planner
 
@@ -346,14 +346,14 @@ Er zijn op dit moment geen updates voor Workfront Goals beschikbaar in de releas
 
 Voor API versie 19 hebben we een aantal bronnen en eindpunten gewijzigd. Sommige wijzigingen ondersteunen nieuwe functionaliteit en andere maken het voor u gemakkelijker om de informatie te gebruiken die beschikbaar is via de API.
 
-Voor informatie over wat nieuw en bijgewerkt is, zie [ wat in API versie 19 ](/help/quicksilver/wf-api/api/new-api-version-19.md) nieuw is.
+Voor informatie over wat nieuw en bijgewerkt is, zie [&#x200B; wat in API versie 19 &#x200B;](/help/quicksilver/wf-api/api/new-api-version-19.md) nieuw is.
 
-Voor informatie over welke API versies momenteel worden gesteund, zie [ API versioning en steunprogramma ](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
+Voor informatie over welke API versies momenteel worden gesteund, zie [&#x200B; API versioning en steunprogramma &#x200B;](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
 
 ### Workfront-onderhoudsupdates
 
-Voor informatie over de onderhoudsupdates die tijdens de Tweede Kwartaal 2025 versie worden gemaakt, zie [ Updates van het Onderhoud van Workfront ](https://experienceleague.adobe.com/nl/docs/workfront-known-issues/releases/current-updates).
+Voor informatie over de onderhoudsupdates die tijdens de Tweede Kwartaal 2025 versie worden gemaakt, zie [&#x200B; Updates van het Onderhoud van Workfront &#x200B;](https://experienceleague.adobe.com/nl/docs/workfront-known-issues/releases/current-updates).
 
 ### Training-updates
 
-Ontdek de nieuwste updates van leerprogramma&#39;s, leerpaden, video&#39;s en handleidingen voor elke Adobe Workfront-productrelease. Voor meer informatie, zie &quot;wat&quot;sectie van de [ pagina van de Leerprogramma&#39;s van Workfront ](https://experienceleague.adobe.com/nl/docs/workfront-learn/tutorials-workfront/home) Nieuw is.
+Ontdek de nieuwste updates van leerprogramma&#39;s, leerpaden, video&#39;s en handleidingen voor elke Adobe Workfront-productrelease. Voor meer informatie, zie &quot;wat&quot;sectie van de [&#x200B; pagina van de Leerprogramma&#39;s van Workfront &#x200B;](https://experienceleague.adobe.com/nl/docs/workfront-learn/tutorials-workfront/home) Nieuw is.

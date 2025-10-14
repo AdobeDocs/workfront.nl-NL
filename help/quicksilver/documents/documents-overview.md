@@ -21,7 +21,7 @@ ht-degree: 0%
 
 Deze sectie bevat de volgende subsecties:
 
-* [ voeg nieuwe documenten aan Adobe Workfront toe ](../documents/adding-documents-to-workfront/add-new-documents-to-workfront.md)
-* [ beheert documenten ](../documents/managing-documents/manage-documents.md)
-* [ organiseer documenten ](../documents/organizing-documents/organize-documents.md)
+* [&#x200B; voeg nieuwe documenten aan Adobe Workfront toe &#x200B;](../documents/adding-documents-to-workfront/add-new-documents-to-workfront.md)
+* [&#x200B; beheert documenten &#x200B;](../documents/managing-documents/manage-documents.md)
+* [&#x200B; organiseer documenten &#x200B;](../documents/organizing-documents/organize-documents.md)
 * [Workfront- en Experience Manager Assets-integratie](../documents/workfront-and-experience-manager-integrations/wf-experience-manager-integrations.md)

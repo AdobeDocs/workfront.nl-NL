@@ -26,7 +26,7 @@ ht-degree: 0%
 
 Recordtypen zijn de objecttypen voor Adobe Workfront Planning. In de Planning van Workfront, kunt u de types van douaneverslag tot stand brengen die de werk-verwante punten nodig in de levenscyclus van uw organisatie illustreren.
 
-Voor meer informatie over verslagtypes, zie [ overzicht van de types van Verslag ](/help/quicksilver/planning/architecture/overview-of-record-types.md).
+Voor meer informatie over verslagtypes, zie [&#x200B; overzicht van de types van Verslag &#x200B;](/help/quicksilver/planning/architecture/overview-of-record-types.md).
 
 ## Toegangsvereisten
 
@@ -88,7 +88,7 @@ Voor meer informatie over verslagtypes, zie [ overzicht van de types van Verslag
 </tbody> 
 </table>
 
-*Voor meer informatie over de toegangsvereisten van Workfront, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Voor meer informatie over de toegangsvereisten van Workfront, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++   
 
@@ -99,11 +99,11 @@ Voor meer informatie over verslagtypes, zie [ overzicht van de types van Verslag
    * Automatisch:
       * Wanneer u een werkruimte maakt met een sjabloon.
 
-        Voor informatie, zie [ werkruimten ](/help/quicksilver/planning/architecture/create-workspaces.md) creëren.
+        Voor informatie, zie [&#x200B; werkruimten &#x200B;](/help/quicksilver/planning/architecture/create-workspaces.md) creëren.
 
       * Wanneer u deze importeert met een CSV- of Excel-bestand.
 
-        Voor meer informatie, zie [ de Types van Verslag tot stand brengen door informatie van een CSV of dossier van Excel ](/help/quicksilver/planning/architecture/import-file-to-create-record-types.md) in te voeren.
+        Voor meer informatie, zie [&#x200B; de Types van Verslag tot stand brengen door informatie van een CSV of dossier van Excel &#x200B;](/help/quicksilver/planning/architecture/import-file-to-create-record-types.md) in te voeren.
 
      >[!TIP]
      >
@@ -133,9 +133,9 @@ Wanneer u een werkruimte maakt op basis van een sjabloon, worden de recordtypen 
 
 U kunt recordtypen handmatig toevoegen in zowel de secties Typen operationele records als Taxonomies.
 
-Voor informatie over het creëren van werkruimten, zie [ werkruimten ](/help/quicksilver/planning/architecture/create-workspaces.md) creëren.
+Voor informatie over het creëren van werkruimten, zie [&#x200B; werkruimten &#x200B;](/help/quicksilver/planning/architecture/create-workspaces.md) creëren.
 
-Voor informatie over welke verslagtypes met elk malplaatje inbegrepen zijn, zie [ Lijst van werkruimtesjablonen ](/help/quicksilver/planning/architecture/workspace-templates.md).
+Voor informatie over welke verslagtypes met elk malplaatje inbegrepen zijn, zie [&#x200B; Lijst van werkruimtesjablonen &#x200B;](/help/quicksilver/planning/architecture/workspace-templates.md).
 
 ## Een geheel nieuw recordtype maken
 
@@ -152,7 +152,7 @@ Voor informatie over welke verslagtypes met elk malplaatje inbegrepen zijn, zie 
    Het vak Recordtype toevoegen wordt geopend.
    <!--1. (Conditional) When creating record types by importing an Excel or CSV file is enabled, click **From scratch**. Otherwise, the **Add record type** box opens. -->
 
-   ![ voeg verslagtype doos met verschijningsopties ](assets/add-record-type-box-with-appearance-options.png) toe
+   ![&#x200B; voeg verslagtype doos met verschijningsopties &#x200B;](assets/add-record-type-box-with-appearance-options.png) toe
 
 1. Werk de volgende informatie op het **Verschijning** lusje bij:
 
@@ -174,10 +174,10 @@ Voor informatie over welke verslagtypes met elk malplaatje inbegrepen zijn, zie 
 1. (Facultatief en voorwaardelijk) als u een systeembeheerder bent, klik **Geavanceerde montages** en werk de volgende informatie in de **dwars-werkruimtesectie** bij: <!--the info here is duplicated in the Edit record types article-->
    * Laat **toe toestaan verbindend met dit verslagtype in andere werkruimten** het plaatsen: Dit staat werkruimtemanagers toe om met dit verslagtype van andere werkruimten te verbinden.\
      U kunt aangeven van welke werkruimten dit recordtype verbinding kan worden gemaakt. U kunt het voor alle werkruimten ter beschikking stellen of specifieke degenen aanwijzen waar u het kunt invoeren.
-Voor meer informatie, zie [ mogelijkheden van de dwars-werkruimte voor verslagtypes ](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md) vormen.
+Voor meer informatie, zie [&#x200B; mogelijkheden van de dwars-werkruimte voor verslagtypes &#x200B;](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md) vormen.
 
 
-   ![ creeer verslagtype doos op geavanceerde montages tabel ](assets/create-record-type-box-advanced-settings-tab.png)
+   ![&#x200B; creeer verslagtype doos op geavanceerde montages tabel &#x200B;](assets/create-record-type-box-advanced-settings-tab.png)
 
    <!--replace last point with this when we release dynamic record types; the preview tags might need to be edited, too:
         <div class="preview">
@@ -196,16 +196,16 @@ Voor meer informatie, zie [ mogelijkheden van de dwars-werkruimte voor verslagty
    De recordtypekaart wordt toegevoegd aan de sectie en de werkruimte die u hebt geselecteerd.
 De beschrijving van het recordtype wordt weergegeven op de kaart.
 
-   ![ het typekaart van het Verslag met beschrijving ](assets/record-type-card-with-description.png)
+   ![&#x200B; het typekaart van het Verslag met beschrijving &#x200B;](assets/record-type-card-with-description.png)
 
-   Als u selecteerde om dit verslag van andere werkruimten aan te sluiten, **verbind van andere ruimten** pictogram ![ verbind van ander spaties pictogram ](assets/connect-from-other-workspaces-icon.png) vertoningen op de verslagkaart.
+   Als u selecteerde om dit verslag van andere werkruimten aan te sluiten, **verbind van andere ruimten** pictogram ![&#x200B; verbind van ander spaties pictogram &#x200B;](assets/connect-from-other-workspaces-icon.png) vertoningen op de verslagkaart.
 
    <!--<span class="preview">If you configured the cross-workspace capabilities for the record, the **connect from other spaces** icon ![Connect record type from other spaces icon](assets/connect-from-other-workspaces-icon.png) and the **add to other workspaces** icon ![Add record type to other workspaces](assets/global-icon.png) also display on the card. </span>-->
 
-1. (Facultatief) Beweeg over de kaart van het verslagtype, klik **Meer** pictogram ![ Meer menu ](assets/more-menu.png) in de hoger-juiste hoek, dan klik **uitgeven** om informatie over het verslagtype te wijzigen.
+1. (Facultatief) Beweeg over de kaart van het verslagtype, klik **Meer** pictogram ![&#x200B; Meer menu &#x200B;](assets/more-menu.png) in de hoger-juiste hoek, dan klik **uitgeven** om informatie over het verslagtype te wijzigen.
 1. (Optioneel) Klik op de kaart met het recordtype om de pagina met het recordtype te openen.
 
-   ![ Operationeel verslagtype leeg ](assets/operational-record-type-blank.png)
+   ![&#x200B; Operationeel verslagtype leeg &#x200B;](assets/operational-record-type-blank.png)
 
    De pagina met recordtypen wordt standaard in de tabelweergave weergegeven. De kolommen van de lijst zijn gebieden verbonden aan het nieuwe verslagtype. Elke rij is een unieke record die u moet toevoegen.
 
@@ -221,12 +221,12 @@ De beschrijving van het recordtype wordt weergegeven op de kaart.
 
    of
 
-   Klik het **Meer** pictogram ![ Meer menu ](assets/more-menu.png) rechts van de naam van het verslagtype en klik **uitgeven** om het anders te noemen of de informatie over het te veranderen. Voor meer informatie, zie [ recordtypes ](/help/quicksilver/planning/architecture/edit-record-types.md) uitgeven.
+   Klik het **Meer** pictogram ![&#x200B; Meer menu &#x200B;](assets/more-menu.png) rechts van de naam van het verslagtype en klik **uitgeven** om het anders te noemen of de informatie over het te veranderen. Voor meer informatie, zie [&#x200B; recordtypes &#x200B;](/help/quicksilver/planning/architecture/edit-record-types.md) uitgeven.
 
-1. (Optioneel) Klik op **+ Nieuwe record** om records van het geselecteerde recordtype toe te voegen. Voor meer informatie, zie [ verslagen ](/help/quicksilver/planning/records/create-records.md) creëren.
+1. (Optioneel) Klik op **+ Nieuwe record** om records van het geselecteerde recordtype toe te voegen. Voor meer informatie, zie [&#x200B; verslagen &#x200B;](/help/quicksilver/planning/records/create-records.md) creëren.
 1. (Optioneel) Klik op het pictogram **+** rechtsboven in de tabel om meer velden aan het recordtype toe te voegen.
 
-   Voor meer informatie over het creëren van gebieden, zie [ gebieden ](/help/quicksilver/planning/fields/create-fields.md) creëren.
+   Voor meer informatie over het creëren van gebieden, zie [&#x200B; gebieden &#x200B;](/help/quicksilver/planning/fields/create-fields.md) creëren.
 
 1. (Optioneel) Klik op de pijl die naar links wijst links van de naam van het recordtype in de koptekst om terug te gaan naar de geselecteerde werkruimte.
 
@@ -239,7 +239,7 @@ De beschrijving van het recordtype wordt weergegeven op de kaart.
    * [Records maken](/help/quicksilver/planning/records/create-records.md)
    * [Recordtypen verwijderen](/help/quicksilver/planning/architecture/delete-record-types.md)
    * [Recordtypen bewerken](/help/quicksilver/planning/architecture/edit-record-types.md)
-   * [ beheer verslagmeningen ](/help/quicksilver/planning/views/manage-record-views.md)
+   * [&#x200B; beheer verslagmeningen &#x200B;](/help/quicksilver/planning/views/manage-record-views.md)
 
 ## Recordtypen maken door gegevens uit een CSV- of Excel-bestand te importeren
 
@@ -249,7 +249,7 @@ U kunt het volgende importeren wanneer u gegevens importeert uit een CSV- of Exc
 * Records
 * Opnamevelden
 
-Voor meer informatie, zie [ de Types van Verslag tot stand brengen door informatie van een CSV of dossier van Excel ](/help/quicksilver/planning/architecture/import-file-to-create-record-types.md) in te voeren.
+Voor meer informatie, zie [&#x200B; de Types van Verslag tot stand brengen door informatie van een CSV of dossier van Excel &#x200B;](/help/quicksilver/planning/architecture/import-file-to-create-record-types.md) in te voeren.
 
 <!--
 

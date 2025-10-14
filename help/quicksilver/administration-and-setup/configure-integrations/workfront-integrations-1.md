@@ -30,8 +30,8 @@ De integraties voor [!DNL Workfront] vallen in de volgende categorieën:
 
 Sommige van deze integraties zijn zonder extra kosten beschikbaar, terwijl andere integraties een extra aankoop vereisen:
 
-* [ worden begonnen met ingebouwde (inheemse) integraties ](#get-started-with-built-in-native-integrations)
-* [ Integraties beschikbaar aan geen extra kosten ](#integrations-available-at-no-additional-cost)
+* [&#x200B; worden begonnen met ingebouwde (inheemse) integraties &#x200B;](#get-started-with-built-in-native-integrations)
+* [&#x200B; Integraties beschikbaar aan geen extra kosten &#x200B;](#integrations-available-at-no-additional-cost)
 * [Integraties die een extra aankoop vereisen](#integrations-requiring-an-additional-purchase)
 
 ### Aan de slag met ingebouwde (native) integratie {#get-started-with-built-in-native-integrations}
@@ -42,23 +42,23 @@ Volg de volgende workflow om aan de slag te gaan met ingebouwde (native) integra
 
    Bij het kiezen van een integratie is het belangrijk om een toepassing te kiezen die mensen reeds regelmatig gebruiken. Als u [!DNL Workfront] integreert met een toepassing die regelmatig of vaak wordt gebruikt, neemt de acceptatie bij uw gebruikers toe.
 
-   Voor een lijst van beschikbare integratie, zie [ Integraties beschikbaar bij geen extra kosten ](#integrations-available-at-no-additional-cost) en [ Integraties die een extra aankoop ](#integrations-requiring-an-additional-purchase) vereisen.
+   Voor een lijst van beschikbare integratie, zie [&#x200B; Integraties beschikbaar bij geen extra kosten &#x200B;](#integrations-available-at-no-additional-cost) en [&#x200B; Integraties die een extra aankoop &#x200B;](#integrations-requiring-an-additional-purchase) vereisen.
 
 1. **identificeer uw technologiebeheerder**
 
    Identificeer de technologiebeheerder van uw organisatie voor de toepassing u met [!DNL Workfront] wilt integreren. Als u bijvoorbeeld wilt integreren met [!DNL Slack] , moet u verbinding maken met de [!DNL Slack] -beheerder van uw bedrijf en deze betrekken bij alle configuratiebehoeften binnen het platform. U moet deze beheerder ook betrekken bij elk gesprek met de klantenondersteuning van [!DNL Workfront] .
 
-   Om uw beheerder te beginnen, zult u hen van de specifieke instructies voor die integratie moeten voorzien. Voor verbindingen aan deze instructies, zie [ Integraties beschikbaar aan geen extra kosten ](#integrations-available-at-no-additional-cost).
+   Om uw beheerder te beginnen, zult u hen van de specifieke instructies voor die integratie moeten voorzien. Voor verbindingen aan deze instructies, zie [&#x200B; Integraties beschikbaar aan geen extra kosten &#x200B;](#integrations-available-at-no-additional-cost).
 
 1. **Moeilijk met [!DNL Workfront] de Steun van de Klant**
 
    Als uw beheerder problemen heeft met de native integratie-instelling, kunt u contact opnemen met de [!DNL Workfront] Klantenondersteuning voor hulp bij het begeleiden of oplossen van problemen. Hoewel [!DNL Workfront] de integratie niet voor u zal opzetten, zijn wij geëngageerd om u alle noodzakelijke hulpmiddelen en middelen te geven u het zelf moet doen. U kunt rechtstreeks contact opnemen met de Klantenondersteuning of u kunt de uitgebreide bronartikelen verkennen om u te helpen uw integratie eenvoudig in te stellen.
 
-   Om met klantensteun te verbinden, zie [ de Steun van de Klant van het Contact ](../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).
+   Om met klantensteun te verbinden, zie [&#x200B; de Steun van de Klant van het Contact &#x200B;](../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).
 
-   Voor verbindingen om artikelen te helpen, zie [ Integraties beschikbaar aan geen extra kosten ](#integrations-available-at-no-additional-cost). en [ Integraties die een extra aankoop ](#integrations-requiring-an-additional-purchase) vereisen.
+   Voor verbindingen om artikelen te helpen, zie [&#x200B; Integraties beschikbaar aan geen extra kosten &#x200B;](#integrations-available-at-no-additional-cost). en [&#x200B; Integraties die een extra aankoop &#x200B;](#integrations-requiring-an-additional-purchase) vereisen.
 
-   Voor instructies bij het creëren van een steungeval, zie [ de Steun van de Klant van het Contact ](../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).
+   Voor instructies bij het creëren van een steungeval, zie [&#x200B; de Steun van de Klant van het Contact &#x200B;](../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).
 
    >[!NOTE]
    >
@@ -127,7 +127,7 @@ Wij begrijpen dat de beschikbare ingebouwde (native) integratie mogelijk niet aa
      <li>Premiere Pro </li>
      <li>After Effects </li>
      </ul>
-     <li><p>Download/installeer van <a href="https://exchange.adobe.com/apps/browse/cc?page=1&amp;product=All&amp;q=workfront&amp;sort=RELEVANCE" class="MCXref xref"> Adobe Exchange </a>.</p></li></ul>
+     <li><p>Download/installeer van <a href="https://exchange.adobe.com/apps/browse/cc?page=1&product=All&q=workfront&sort=RELEVANCE" class="MCXref xref"> Adobe Exchange </a>.</p></li></ul>
      <p>Voor informatie en instructies, zie <a href="https://experienceleague.adobe.com/nl/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/install-wf-cc/wf-cc-install-toc" class="MCXref xref"> de [!DNL Adobe Workfront] stop voor [!DNL Creative Cloud] Toepassingen </a> installeren</p> 
      </td>  <td> </td> 
    <td> </td> 
@@ -279,24 +279,24 @@ Met [!DNL Workfront] kunt u andere ingebouwde integraties en geïntegreerde prod
 
   [!DNL Adobe Workfront Fusion] koppelt handelingen binnen en tussen apps en services om een scenario te maken dat uw gegevens automatisch overdraagt en transformeert. De toepassing heeft specifieke connectors voor veel apps, maar kan verbinding maken met elke toepassing met een openbare API.
 
-  Voor meer informatie, zie [[!DNL Adobe Workfront Fusion]  overzicht ](https://experienceleague.adobe.com/nl/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+  Voor meer informatie, zie [[!DNL Adobe Workfront Fusion]  overzicht &#x200B;](https://experienceleague.adobe.com/nl/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 
 * [!DNL Adobe Experience Manager Assets]
 * [!DNL Anaplan] (Vereist [!DNL Workfront Fusion])
 
 Dankzij de integratie tussen Workfront en Experience Manager Assets of Assets Essentials kunnen organisaties de snelheid van de inhoud en de tijd-aan-markt verbeteren door het werk en het beheer van digitale middelen intrinsiek met elkaar te verbinden.
 
-Voor meer informatie, zie [ Adobe Workfront voor Experience Manager Assets integratieoverzicht ](../../documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md).
+Voor meer informatie, zie [&#x200B; Adobe Workfront voor Experience Manager Assets integratieoverzicht &#x200B;](../../documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md).
 
 ## Partnerintegratie
 
 Workfront heeft veel partnerintegratie die uw Workfront-ervaring verrijkt. De voorbeelden van bestaand partnerdienstenaanbod omvatten integratie met Claravine, Groep RWS, en meer.
 
-Voor meer informatie over deze en andere partnerintegratie, zie de [ Marketplace van de Uitwisseling ](https://exchange.adobe.com/apps/browse/ec?page=1&partnerLevel=All&product=WRKFRNT&sort=RELEVANCE).
+Voor meer informatie over deze en andere partnerintegratie, zie de [&#x200B; Marketplace van de Uitwisseling &#x200B;](https://exchange.adobe.com/apps/browse/ec?page=1&partnerLevel=All&product=WRKFRNT&sort=RELEVANCE).
 
 ## [!DNL Workfront] API
 
 Met de API van [!DNL Workfront] kunt u uw [!DNL Workfront] -ervaring uitbreiden en verbeteren door gebruik te maken van onze openbare API. U kunt uw eigen integraties maken met behulp van onze open API.
 
-Voor een gedetailleerde lijst van beschikbare voorwerpen in [!DNL Workfront] API, zie [!DNL Workfront] [ API Ontdekkingsreiziger ](../../wf-api/general/api-explorer.md).
+Voor een gedetailleerde lijst van beschikbare voorwerpen in [!DNL Workfront] API, zie [!DNL Workfront] [&#x200B; API Ontdekkingsreiziger &#x200B;](../../wf-api/general/api-explorer.md).
 

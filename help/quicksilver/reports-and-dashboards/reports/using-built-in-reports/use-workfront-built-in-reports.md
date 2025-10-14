@@ -19,7 +19,7 @@ ht-degree: 0%
 
 Adobe Workfront heeft een uitgebreide lijst met ingebouwde rapporten die u kunt gebruiken.
 
-Workfront-beheerders kunnen ingebouwde rapporten verbergen, zodat gebruikers er geen toegang toe hebben. Voor meer informatie over hoe te om ingebouwde rapporten te verbergen, zie [ ingebouwde rapporten van de Huid ](../../../administration-and-setup/manage-workfront/configure-reports/hide-built-in-reports.md).
+Workfront-beheerders kunnen ingebouwde rapporten verbergen, zodat gebruikers er geen toegang toe hebben. Voor meer informatie over hoe te om ingebouwde rapporten te verbergen, zie [&#x200B; ingebouwde rapporten van de Huid &#x200B;](../../../administration-and-setup/manage-workfront/configure-reports/hide-built-in-reports.md).
 
 ## Toegangsvereisten
 
@@ -59,13 +59,13 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-*For informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*For informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Overzicht van ingebouwde rapporten {#overview-of-built-in-reports}
 
-U kunt een exemplaar tot stand brengen een ingebouwd rapport en het bewaren als nieuw rapport. Voor meer informatie over het creëren van exemplaren van ingebouwde rapporten, zie [ een nieuwe versie van een rapport ](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md#create-a-new-version-of-a-report) in het artikel [ creëren een exemplaar van een rapport ](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md).
+U kunt een exemplaar tot stand brengen een ingebouwd rapport en het bewaren als nieuw rapport. Voor meer informatie over het creëren van exemplaren van ingebouwde rapporten, zie [&#x200B; een nieuwe versie van een rapport &#x200B;](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md#create-a-new-version-of-a-report) in het artikel [&#x200B; creëren een exemplaar van een rapport &#x200B;](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md).
 
 De volgende verslagen gaan over het Workfront-pakket. De rapporten zijn beschikbaar aan alle gebruikers die minstens de rechten van de Mening aan ingebouwde rapporten in hun toegangsniveau hebben.
 
@@ -381,8 +381,8 @@ De volgende verslagen gaan over het Workfront-pakket. De rapporten zijn beschikb
 1. Onder het **voorwerp van het Rapport**, uitgezochte **Globale identiteitskaart**.
 
 1. In het drop-down menu van de filterbepaling, uitgezocht **is niet Leeg**.\
-   ![ Globale filter van identiteitskaart voor systeemrapporten ](assets/qs-global-id-filter-for-system-reports-350x179.png)
+   ![&#x200B; Globale filter van identiteitskaart voor systeemrapporten &#x200B;](assets/qs-global-id-filter-for-system-reports-350x179.png)
 
 1. Klik **sparen Filter**.\
    De rapportenlijst toont slechts ingebouwde rapporten.\
-   Voor meer informatie over welke ingebouwde rapporten beschikbaar zijn, zie het sectie [ Overzicht van ingebouwde rapporten ](#overview-of-built-in-reports) in dit artikel.
+   Voor meer informatie over welke ingebouwde rapporten beschikbaar zijn, zie het sectie [&#x200B; Overzicht van ingebouwde rapporten &#x200B;](#overview-of-built-in-reports) in dit artikel.

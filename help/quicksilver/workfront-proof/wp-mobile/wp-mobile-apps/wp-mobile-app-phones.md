@@ -15,7 +15,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [ het Bewijzen ](../../../review-and-approve-work/proofing/proofing.md).
+>Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [&#x200B; het Bewijzen &#x200B;](../../../review-and-approve-work/proofing/proofing.md).
 
 Download de app [!DNL Workfront Proof] van de Apple App Store of Google Store om waar u ook bent productief te zijn. De app [!DNL Workfront Proof] heeft de volgende functies in de iPhone en iPod Touch:
 
@@ -37,7 +37,7 @@ Vereist iOS 7.0 of hoger. Android 4.0 en hoger. Compatibel met iPhone, iPad en i
 
 Voor iOS-apparaten moet u de vorige [!DNL Workfront Proof] -toepassing voor iOS-apparaten verwijderen voordat u de nieuwe toepassing installeert.
 
-De app [!DNL Workfront Proof] detecteert automatisch welk type apparaat u gebruikt. Als u app op uw tablet zou willen gebruiken, zie [[!DNL Workfront Proof]  mobiele app voor tablets ](../../../workfront-proof/wp-mobile/wp-mobile-apps/wp-mobile-app-tablet.md).
+De app [!DNL Workfront Proof] detecteert automatisch welk type apparaat u gebruikt. Als u app op uw tablet zou willen gebruiken, zie [[!DNL Workfront Proof]  mobiele app voor tablets &#x200B;](../../../workfront-proof/wp-mobile/wp-mobile-apps/wp-mobile-app-tablet.md).
 
 >[!NOTE]
 >
@@ -64,7 +64,7 @@ Nadat u zich hebt aangemeld bij uw [!DNL Workfront Proof] -account, wordt het da
 
 Standaard wordt in het dashboard de weergave Totaal aantal proefdrukken geopend. In deze weergave worden alle proefdrukken getoond die u als eigenaar hebt of die met u zijn gedeeld. U kunt de weergave wijzigen door op de balk boven aan de pagina te tikken en een vervolgkeuzemenu te openen met de opties [!UICONTROL On time] , [!UICONTROL At risk] , [!UICONTROL Late] en [!UICONTROL Recent] . Als u een proefdruk wilt openen vanuit een willekeurige weergave, bladert u omlaag naar de gewenste proefdruk en tikt u op de gewenste naam om naar de proefdrukviewer te gaan.
 
-![ Screenshot_2016-04-28-20-05-34a.png ](assets/screenshot-2016-04-28-20-05-34a-350x535.png)
+![&#x200B; Screenshot_2016-04-28-20-05-34a.png &#x200B;](assets/screenshot-2016-04-28-20-05-34a-350x535.png)
 
 | **op de Mening van de Tijd** | Hiermee geeft u alle actieve proefdrukken in uw account weer die u kunt bekijken en die geen deadline hebben of die langer dan 24 uur duren tot de deadline. |
 |---|---|
@@ -85,17 +85,17 @@ Wanneer u een proefdruk opent in de mobiele app, kunt u het volgende doen:
 * Beslissen (3).
 * Ga naar het menu (4).
 * Schaal de proefdruk door het scherm te knijpen.
-  ![ IMG_0223.png ](assets/img-0223-350x541.png)
+  ![&#x200B; IMG_0223.png &#x200B;](assets/img-0223-350x541.png)
 
 ## Opmerkingen en antwoorden toevoegen
 
 1. Tik op de knop **[!UICONTROL Add comment]** (1) wanneer u een proefdruk hebt geopend.
 
-   ![ tap_the_comment_button.png ](assets/tap-the-comment-button-350x541.png)
+   ![&#x200B; tap_the_comment_button.png &#x200B;](assets/tap-the-comment-button-350x541.png)
 
 1. Typ uw opmerking (2).
 
-   ![ add_a_comment.png ](assets/add-a-comment-350x543.png)
+   ![&#x200B; add_a_comment.png &#x200B;](assets/add-a-comment-350x543.png)
 
 1. Klik op **[!UICONTROL Save]**.
 
@@ -104,7 +104,7 @@ Wanneer u een proefdruk opent in de mobiele app, kunt u het volgende doen:
 1. Open de proefdruk en tik vervolgens op het bijschriftpictogram in de rechterbovenhoek om de lijst met opmerkingen (1) weer te geven en kies de opmerking die u wilt controleren.
 1. Tik op het punt om de bijbehorende opmerking te openen (2).
 
-   ![ read_comment.png ](assets/read-comment-350x543.png)
+   ![&#x200B; read_comment.png &#x200B;](assets/read-comment-350x543.png)
 
 1. Voer een van de volgende handelingen uit:
 
@@ -112,7 +112,7 @@ Wanneer u een proefdruk opent in de mobiele app, kunt u het volgende doen:
    * Tik op het pictogram [!UICONTROL callout] om terug te keren naar de proefdrukafbeelding.
    * Tik op de opmerking zelf om de volledige opmerking en de antwoorden daarop weer te geven.
 
-     ![ response_to_a_comment.png ](assets/reply-to-a-comment-350x543.png)
+     ![&#x200B; response_to_a_comment.png &#x200B;](assets/reply-to-a-comment-350x543.png)
 
    * Een handeling toepassen op een opmerking:
 
@@ -121,9 +121,9 @@ Wanneer u een proefdruk opent in de mobiele app, kunt u het volgende doen:
       1. Open het menu [!UICONTROL actions] rechts van het tekstveld (1).
       1. Tik op **[!UICONTROL Add action]** (2).
 
-         ![ actions_on_comments.png ](assets/actions-on-comments-350x543.png)
+         ![&#x200B; actions_on_comments.png &#x200B;](assets/actions-on-comments-350x543.png)
 
-         Voor meer informatie over acties, zie [ acties van het Gebruik op proefdrukcommentaren ](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/use-actions-on-comments-in-viewer.md).
+         Voor meer informatie over acties, zie [&#x200B; acties van het Gebruik op proefdrukcommentaren &#x200B;](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/use-actions-on-comments-in-viewer.md).
 
 ## Markeringen toevoegen
 
@@ -131,7 +131,7 @@ U kunt een markering toevoegen (zoals een vak dat een gebied op de proefdruk mar
 
 1. Voor een bewijs u hebt geopend, Tik **toevoegt commentaar** (1).
 
-   ![ tap_the_add_comment_button.png ](assets/tap-the-add-comment-button-350x541.png)
+   ![&#x200B; tap_the_add_comment_button.png &#x200B;](assets/tap-the-add-comment-button-350x541.png)
 
 1. Kies tussen [!UICONTROL pan mode] (2), [!UICONTROL rectangle tool] (3), [!UICONTROL freehand drawing] (4) of [!UICONTROL arrow] (5).
 
@@ -143,22 +143,22 @@ U kunt een markering toevoegen (zoals een vak dat een gebied op de proefdruk mar
 
 1. Tik op **[!UICONTROL Cancel]** (8) als u de markering wilt verwijderen.
 
-   ![ adding_a_markup.png ](assets/adding-a-markup-350x543.png)
+   ![&#x200B; adding_a_markup.png &#x200B;](assets/adding-a-markup-350x543.png)
 
    Als u een gebied op de proefdruk markeert, wordt het opmerkingenveld automatisch geopend. U kunt gemaakte opmaakcodes verwijderen door te tikken op het kruis naast de opmaakvorm (9).
 
-   ![ removing_a_markup.png ](assets/removing-a-markup-350x543.png)
+   ![&#x200B; removing_a_markup.png &#x200B;](assets/removing-a-markup-350x543.png)
 
 ## Besluiten nemen over een bewijs
 
 1. Open de proefdruk in de Proefweergave en tik op de knop [!UICONTROL Decision] (1).
 
-   ![ Decision_button.png ](assets/decision-button-350x542.png)
+   ![&#x200B; Decision_button.png &#x200B;](assets/decision-button-350x542.png)
 
 1. Tik op de beslissing die u wilt indienen (2).
 1. Tik op **[!UICONTROL Save]** om uw beslissing te verzenden.
 
-   ![ submit_decisions.png ](assets/submit-decision-350x543.png)
+   ![&#x200B; submit_decisions.png &#x200B;](assets/submit-decision-350x543.png)
 
    >[!NOTE]
    >
@@ -168,7 +168,7 @@ U kunt een markering toevoegen (zoals een vak dat een gebied op de proefdruk mar
 
    Als u al een beslissing hebt ingediend en u wilt deze wijzigen of verwijderen, kunt u dat gemakkelijk doen. Nadat u een beslissing hebt verzonden, verschijnt er een nieuwe optie, **[!UICONTROL Remove my decision]** (6), op het [!UICONTROL Submit your decision] -scherm.
 
-   ![ remove_decisions.png ](assets/remove-decision-350x543.png)
+   ![&#x200B; remove_decisions.png &#x200B;](assets/remove-decision-350x543.png)
 
 ## Een audio- of videoproefdruk in de app controleren
 
@@ -183,4 +183,4 @@ Het reviseren van een audioproefdruk in de iOS-app is net zo eenvoudig als het r
 1. Als u de opmerkingen op de proefdruk wilt bekijken, tikt u op de knop **[!UICONTROL Comments]** (5) en volgt u de bovenstaande instructies.
 1. Tik op de knop **[!UICONTROL Decision]** (6) en volg de bovenstaande instructies om een beslissing te nemen.
 
-   ![ AV_proof.png ](assets/av-proof-350x545.png)
+   ![&#x200B; AV_proof.png &#x200B;](assets/av-proof-350x545.png)

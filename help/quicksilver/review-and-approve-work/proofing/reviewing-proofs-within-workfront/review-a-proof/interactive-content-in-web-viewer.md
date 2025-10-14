@@ -17,10 +17,10 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Dit is een oudere browserextensie die niet meer wordt ondersteund. Wij adviseren installerend de nieuwe browser uitbreiding momenteel in bèta: [ Adobe Workfront overzichtshulpmiddel ](/help/quicksilver/review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/review-proof-in-web-viewer-extension.md).
+>Dit is een oudere browserextensie die niet meer wordt ondersteund. Wij adviseren installerend de nieuwe browser uitbreiding momenteel in bèta: [&#x200B; Adobe Workfront overzichtshulpmiddel &#x200B;](/help/quicksilver/review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/review-proof-in-web-viewer-extension.md).
 
 
-We raden u aan alle interactieve inhoud te controleren met de Desktop Proofing Viewer. Als dit echter door het beleid van uw organisatie wordt verhinderd, kan uw Workfront-beheerder uw systeem zodanig configureren dat de webtestviewer wordt gebruikt voor interactieve proefdrukken. Voor vergelijkende informatie over deze twee kijkers, zie [ Verschillen tussen de Web Proofing Kijker en het Overzicht van de Kijker van de Desktop Proofing ](../../../../review-and-approve-work/proofing/proofing-overview/understand-differences-between-web-viewer.md).
+We raden u aan alle interactieve inhoud te controleren met de Desktop Proofing Viewer. Als dit echter door het beleid van uw organisatie wordt verhinderd, kan uw Workfront-beheerder uw systeem zodanig configureren dat de webtestviewer wordt gebruikt voor interactieve proefdrukken. Voor vergelijkende informatie over deze twee kijkers, zie [&#x200B; Verschillen tussen de Web Proofing Kijker en het Overzicht van de Kijker van de Desktop Proofing &#x200B;](../../../../review-and-approve-work/proofing/proofing-overview/understand-differences-between-web-viewer.md).
 
 Nadat uw Workfront-beheerder uw systeem heeft geconfigureerd voor interactieve proefdrukken in de Web Proofing Viewer, moet u een extensie downloaden om opmerkingen en markeringen toe te voegen aan interactieve proefdrukken:
 
@@ -34,15 +34,15 @@ De webproefdrukviewer heeft de volgende beperkingen:
 
 >[!IMPORTANT]
 >
->U moet de verouderde browserinsteekmodule installeren om opmerkingen te kunnen maken over interactieve proefdrukken in de webtestviewer. Deze stop in is slechts beschikbaar in Firefox in de [ toe:voegen-ons opslag Firefox ](https://addons.mozilla.org/en-US/firefox/addon/proofhq-rich-media-review/).
+>U moet de verouderde browserinsteekmodule installeren om opmerkingen te kunnen maken over interactieve proefdrukken in de webtestviewer. Deze stop in is slechts beschikbaar in Firefox in de [&#x200B; toe:voegen-ons opslag Firefox &#x200B;](https://addons.mozilla.org/en-US/firefox/addon/proofhq-rich-media-review/).
 
 ## Proofing van interactieve inhoud instellen in webproefdrukviewer
 
 1. Open een proefdruk die is gemaakt op basis van een ZIP-bestand dat interactieve inhoud bevat.
 
-   Voor meer informatie, zie [ Ongeveer voorbereidend interactieve inhoud in een dossier van het PIT voor het proef ](../../../../review-and-approve-work/proofing/proofing-overview/interactive-content-proofs.md#howtoprepareaninteractiveziparchive) in [ Interactieve inhoudsproefdrukken ](../../../../review-and-approve-work/proofing/proofing-overview/interactive-content-proofs.md).
+   Voor meer informatie, zie [&#x200B; Ongeveer voorbereidend interactieve inhoud in een dossier van het PIT voor het proef &#x200B;](../../../../review-and-approve-work/proofing/proofing-overview/interactive-content-proofs.md#howtoprepareaninteractiveziparchive) in [&#x200B; Interactieve inhoudsproefdrukken &#x200B;](../../../../review-and-approve-work/proofing/proofing-overview/interactive-content-proofs.md).
 
-   Zie ook [ een proef voor interactieve inhoud in een dossier van het PIT ](../../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-interactive-content.md) creëren.
+   Zie ook [&#x200B; een proef voor interactieve inhoud in een dossier van het PIT &#x200B;](../../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-interactive-content.md) creëren.
 
 1. Klik **toevoegen commentaar**.
 

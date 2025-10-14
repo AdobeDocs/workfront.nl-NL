@@ -19,9 +19,9 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Als [ Microsoft overgangen aan de Nieuwe cliënt van Teams ](https://learn.microsoft.com/en-us/microsoftteams/teams-classic-client-end-of-availability), zal de Klassieke cliënt van Teams niet meer beschikbaar na 1 Juli, 2025 zijn. Als u Microsoft Teams en geïntegreerde toepassingen zoals Workfront wilt blijven gebruiken, moeten klanten vóór deze datum overstappen naar de New Teams-client.
+>Als [&#x200B; Microsoft overgangen aan de Nieuwe cliënt van Teams &#x200B;](https://learn.microsoft.com/en-us/microsoftteams/teams-classic-client-end-of-availability), zal de Klassieke cliënt van Teams niet meer beschikbaar na 1 Juli, 2025 zijn. Als u Microsoft Teams en geïntegreerde toepassingen zoals Workfront wilt blijven gebruiken, moeten klanten vóór deze datum overstappen naar de New Teams-client.
 >
->De bijgewerkte Workfront-integratie is nu beschikbaar en volledig compatibel met de New Teams-ervaring. In de meeste gevallen wordt Workfront automatisch weergegeven wanneer gebruikers een overgang hebben gemaakt. Als dit niet het geval is, kan de integratie handmatig worden geïnstalleerd vanaf de Microsoft Teams App Store. Om de integratie van Workfront in de Nieuwe cliënt van Teams te installeren of te verifiëren, zie [  [!DNL Adobe Workfront]  installeren voor Microsoft Teams ](/help/quicksilver/workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md).
+>De bijgewerkte Workfront-integratie is nu beschikbaar en volledig compatibel met de New Teams-ervaring. In de meeste gevallen wordt Workfront automatisch weergegeven wanneer gebruikers een overgang hebben gemaakt. Als dit niet het geval is, kan de integratie handmatig worden geïnstalleerd vanaf de Microsoft Teams App Store. Om de integratie van Workfront in de Nieuwe cliënt van Teams te installeren of te verifiëren, zie [&#x200B;  [!DNL Adobe Workfront]  installeren voor Microsoft Teams &#x200B;](/help/quicksilver/workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md).
 
 
 U kunt [!DNL Adobe Workfront] openen vanuit [!DNL Microsoft Teams] en verschillende handelingen uitvoeren in [!DNL Workfront] door opdrachten te typen in zowel het [!DNL Workfront] -kanaal als een ander teamkanaal.
@@ -63,7 +63,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 *Neem contact op met de [!DNL Workfront] -beheerder om te weten te komen welk abonnement, licentietype of toegang u hebt.
 
-*Voor meer informatie over de toegangsvereisten van Workfront, zie [ overzicht van de vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Voor meer informatie over de toegangsvereisten van Workfront, zie [&#x200B; overzicht van de vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -81,15 +81,15 @@ U moet zijn aangemeld bij Workfront.
 1. Open het twee chatkanaal van **[!DNL Workfront]** .
 1. Klik op het pictogram **[!DNL Workfront]** onder het tekstveld om het zoekvak weer te geven.
 
-   ![ teams_search_box_in_the_bot_channel.PNG ](assets/teams-search-box-in-the-bot-channel-350x456.png)
+   ![&#x200B; teams_search_box_in_the_bot_channel.PNG &#x200B;](assets/teams-search-box-in-the-bot-channel-350x456.png)
 
 1. Typ de naam van een project, taak of uitgave.
 
-   Voor informatie over het zoeken naar punten, zie het sectie [ Onderzoek naar en deel  [!DNL Adobe Workfront]  punten in  [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/search-for-and-share-wf-items-in-ms-teams.md) in the article [Search for and share [!DNL Adobe Workfront]  punten in  [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/search-for-and-share-wf-items-in-ms-teams.md).
+   Voor informatie over het zoeken naar punten, zie het sectie [&#x200B; Onderzoek naar en deel  [!DNL Adobe Workfront]  punten in  [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/search-for-and-share-wf-items-in-ms-teams.md) in the article [Search for and share [!DNL Adobe Workfront]  punten in  [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/search-for-and-share-wf-items-in-ms-teams.md).
 
 1. Klik op het veld **[!UICONTROL Type your questions here]** .
 
-   ![ ms_teams_type_your_questions_here_and_what_can_I_do_fields.png ](assets/ms-teams-type-your-questions-here-and-what-can-i-do-fields-350x71.png)
+   ![&#x200B; ms_teams_type_your_questions_here_and_what_can_I_do_fields.png &#x200B;](assets/ms-teams-type-your-questions-here-and-what-can-i-do-fields-350x71.png)
 
 1. Voer een van de volgende handelingen uit:
 
@@ -109,7 +109,7 @@ U moet zijn aangemeld bij Workfront.
 
 1. Klik op **[!UICONTROL Search]** om te zoeken naar een project, taak of probleem.
 
-   Voor informatie over het zoeken naar punten, zie [ Onderzoek naar en deel  [!DNL Adobe Workfront]  punten in  [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/search-for-and-share-wf-items-in-ms-teams.md) section in the [Search for and share [!DNL Adobe Workfront]  punten in  [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/search-for-and-share-wf-items-in-ms-teams.md) artikel.
+   Voor informatie over het zoeken naar punten, zie [&#x200B; Onderzoek naar en deel  [!DNL Adobe Workfront]  punten in  [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/search-for-and-share-wf-items-in-ms-teams.md) section in the [Search for and share [!DNL Adobe Workfront]  punten in  [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/search-for-and-share-wf-items-in-ms-teams.md) artikel.
 
 1. Typ een van de volgende opdrachten om deze handelingen uit te voeren in Workfront.\
    Opdrachten zijn niet hoofdlettergevoelig:
@@ -118,7 +118,7 @@ U moet zijn aangemeld bij Workfront.
    * **[!DNL Log out]** om u af te melden bij Workfront
    * **[!DNL New task]** om een nieuwe persoonlijke taak te maken
 
-     Voor informatie over het creëren van taken van [!DNL Microsoft Teams], zie [  [!DNL Adobe Workfront]  taken van  [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/create-workfront-tasks-from-ms-teams.md) creëren.
+     Voor informatie over het creëren van taken van [!DNL Microsoft Teams], zie [&#x200B;  [!DNL Adobe Workfront]  taken van  [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/create-workfront-tasks-from-ms-teams.md) creëren.
 
    * **[!UICONTROL Help]** om een lijst met alle beschikbare opdrachten weer te geven.
 

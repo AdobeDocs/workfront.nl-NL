@@ -28,7 +28,7 @@ Wanneer u de informatie van het BoedgetedUur met andere gebruikers wilt delen di
 >
 >De begrote Uren worden normaal elk uur bijgewerkt (zelden, kan het een maximum van drie uren) in het gegevensbestand van Adobe Workfront vergen. Het verfrissen van het rapport verfrist noodzakelijk niet de uurinformatie in het. U kunt de tijd bekijken die sinds de laatste update in de hoger-juiste hoek van elk Boekgeted rapport van het Uur is verlopen. Als u het rapport vernieuwt, wordt de informatie in het rapport alleen vernieuwd als er meer dan een uur is verstreken sinds de laatste update.
 >
->![ de synchronisatiewaarschuwing van de het rapporttijd van het begrote uur tijd ](assets/budgeted-hour-report-time-sync-warning-350x74.png)
+>![&#x200B; de synchronisatiewaarschuwing van de het rapporttijd van het begrote uur tijd &#x200B;](assets/budgeted-hour-report-time-sync-warning-350x74.png)
 
 ## Toegangsvereisten
 
@@ -66,13 +66,13 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-*For informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*For informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Een rapport over een &#39;Budgeted Hour&#39; maken
 
-1. Klik het **pictogram van het 1&rbrace; Belangrijkste Menu ![ pictogram van het Menu ](assets/main-menu-icon.png) in de hoger-juiste hoek, of het** Belangrijkste pictogram van het Menu **pictogram ![ Belangrijkste lijnen van het Menu ](assets/lines-main-menu.png) in de upper-left hoek, als beschikbaar, dan klik** Rapporten **.**
+1. Klik het **pictogram van het 1&rbrace; Belangrijkste Menu ![&#x200B; pictogram van het Menu &#x200B;](assets/main-menu-icon.png) in de hoger-juiste hoek, of het** Belangrijkste pictogram van het Menu **pictogram ![&#x200B; Belangrijkste lijnen van het Menu &#x200B;](assets/lines-main-menu.png) in de upper-left hoek, als beschikbaar, dan klik** Rapporten **.**
 
 1. Klik **Nieuw Rapport** > **Meer** > **Beoogde Uur**.
 
@@ -83,7 +83,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
    Hiermee wordt het aantal begrotingsuren afgerond op een aantal decimalen dat u opgeeft.
 
-   Voor informatie over hoe te om een aantal in Workfront te afronden, zie het artikel [ Overzicht van berekende gegevensuitdrukkingen ](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+   Voor informatie over hoe te om een aantal in Workfront te afronden, zie het artikel [&#x200B; Overzicht van berekende gegevensuitdrukkingen &#x200B;](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
 
 1. Klik **Gedaan**.
 1. (Facultatief) klik **Kolom** toevoegen om extra kolommen toe te voegen.

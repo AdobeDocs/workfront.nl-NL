@@ -62,12 +62,12 @@ For specific release dates and times for each cluster, see the
 
 ## Verbeteringen voor Adobe Workfront
 
-* [ de verhogingen van de Beheerder ](#administrator-enhancements)
-* [ Verbeteringen van het Beheer van het Middel ](#resource-management-enhancements)
-* [ Verbeteringen van het Beheer van het Project ](#project-management-enhancements)
-* [ Verbeterde analytische verbeteringen ](#enhanced-analytics-improvements)
-* [ de verhogingen van de Integratie ](#integration-enhancements)
-* [ Mobiele verhogingen ](#mobile-enhancements)
+* [&#x200B; de verhogingen van de Beheerder &#x200B;](#administrator-enhancements)
+* [&#x200B; Verbeteringen van het Beheer van het Middel &#x200B;](#resource-management-enhancements)
+* [&#x200B; Verbeteringen van het Beheer van het Project &#x200B;](#project-management-enhancements)
+* [&#x200B; Verbeterde analytische verbeteringen &#x200B;](#enhanced-analytics-improvements)
+* [&#x200B; de verhogingen van de Integratie &#x200B;](#integration-enhancements)
+* [&#x200B; Mobiele verhogingen &#x200B;](#mobile-enhancements)
 * [Andere verbeteringen](#other-enhancements)
 
 ### Beheerdersverbeteringen {#administrator-enhancements}
@@ -317,15 +317,15 @@ For specific release dates and times for each cluster, see the
 
 ## Verbeteringen voor Workfront-doelen
 
-De meeste nieuwe functies die beschikbaar zijn in de Workfront Goals release met 21.1 release. Voor informatie over deze nieuwe eigenschappen nu beschikbaar in Voorproef, zie [ de Doelen van Adobe Workfront met de 21.1 versie ](../../../product-announcements/product-releases/goals-release-activity/goals-release-21-1.md).
+De meeste nieuwe functies die beschikbaar zijn in de Workfront Goals release met 21.1 release. Voor informatie over deze nieuwe eigenschappen nu beschikbaar in Voorproef, zie [&#x200B; de Doelen van Adobe Workfront met de 21.1 versie &#x200B;](../../../product-announcements/product-releases/goals-release-activity/goals-release-21-1.md).
 
 ## Verbeteringen in Workfront Scenario Planner
 
-Nieuwe functies die bij de release 21.1 van Workfront Scenario Planner worden geïntroduceerd. Voor informatie over deze nieuwe eigenschappen nu beschikbaar in Voorproef, zie [ de Planner van het Scenario van Adobe Workfront met de 21.1 versie ](../../../product-announcements/product-releases/scenario-planner-release-activity/sp-release-21-1.md).
+Nieuwe functies die bij de release 21.1 van Workfront Scenario Planner worden geïntroduceerd. Voor informatie over deze nieuwe eigenschappen nu beschikbaar in Voorproef, zie [&#x200B; de Planner van het Scenario van Adobe Workfront met de 21.1 versie &#x200B;](../../../product-announcements/product-releases/scenario-planner-release-activity/sp-release-21-1.md).
 
 ## Workfront Fusion-verbeteringen
 
-Nieuwe functies in Workfront Fusion zijn beschikbaar in Production op een cadence buiten de releaseplanning van 21.1. Voor meer informatie over de recentste eigenschappen, zie [ de versieactiviteit van de Fusie van Adobe Workfront ](https://experienceleague.adobe.com/nl/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)
+Nieuwe functies in Workfront Fusion zijn beschikbaar in Production op een cadence buiten de releaseplanning van 21.1. Voor meer informatie over de recentste eigenschappen, zie [&#x200B; de versieactiviteit van de Fusie van Adobe Workfront &#x200B;](https://experienceleague.adobe.com/nl/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)
 
 ## API-verbeteringen
 
@@ -337,9 +337,9 @@ This section will be updated with more information prior to the 20.4 release bei
 </MadCap:conditionalText>
 -->
 
-Voor informatie over wat nieuw en bijgewerkt is, zie [ wat in API versie 12 ](https://experienceleague.adobe.com/nl/docs/workfront/using/adobe-workfront-api/api-notes/new-api-version-12) nieuw is.
+Voor informatie over wat nieuw en bijgewerkt is, zie [&#x200B; wat in API versie 12 &#x200B;](https://experienceleague.adobe.com/nl/docs/workfront/using/adobe-workfront-api/api-notes/new-api-version-12) nieuw is.
 
-Voor meer informatie over API versies, zie [ API versioning en steunprogramma ](../../../wf-api/api/api-version-support-schedule.md)
+Voor meer informatie over API versies, zie [&#x200B; API versioning en steunprogramma &#x200B;](../../../wf-api/api/api-version-support-schedule.md)
 
 <!--
 <a href="https://experience.workfront.com/s/article/API-Version-Release-and-Support-Schedule-272875487?language=en_US&r=13&ui-comm-runtime-components-aura-components-siteforce-qb.Quarterback.validateRoute=1&ui-communities-components-aura-components-forceCommunity-breadcrumbs.Breadcrumbs.getAncestors=1&ui-communities-components-aura-components-forceCommunity-seoAssistant.SeoAssistant.getSeoData=1&ui-force-components-controllers-recordGlobalValueProvider.RecordGvp.getRecord=1&ui-self-service-components-controller.ArticleTopicList.getTopics=1&ui-self-service-components-controller.ArticleView.getArticleHeaderDetail=1" target="_blank" data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">API Version Release and Support Schedule</a>
@@ -349,23 +349,23 @@ Voor meer informatie over API versies, zie [ API versioning en steunprogramma ](
 
 ## Workfront-onderhoudsupdates
 
-Voor informatie over de onderhoudsupdates die tijdens de versie 21.1 worden gemaakt, zie [ Updates van het Onderhoud van Workfront ](https://experience.workfront.com/s/article/Workfront-Maintenance-Updates-1882317350).
+Voor informatie over de onderhoudsupdates die tijdens de versie 21.1 worden gemaakt, zie [&#x200B; Updates van het Onderhoud van Workfront &#x200B;](https://experience.workfront.com/s/article/Workfront-Maintenance-Updates-1882317350).
 
 ## Aankondigingen
 
-* [ Nieuwe IP adressen voor Workfront e-mail met 21.1 versie ](#new-ip-addresses-for-workfront-email-with-the-21-1-release)
-* [ Lijst van gewenste personen van extra IP adressen voor de Abonnementen van de Gebeurtenis ](#allowlist-of-additional-ip-addresses-for-event-subscriptions)
-* [ Lijst van gewenste personen van extra domeinen die voor de toegang tot van Workfront ](#allowlist-of-additional-domains-required-for-accessing-workfront) worden vereist
-* [ Veroudering van de Flits ](#flash-deprecation)
-* [ webinar van de Versie 21.1 ](#21-1-release-webinar)
-* [ Verandering in de versiecadence van de Voorproef ](#change-in-preview-release-cadence)
+* [&#x200B; Nieuwe IP adressen voor Workfront e-mail met 21.1 versie &#x200B;](#new-ip-addresses-for-workfront-email-with-the-21-1-release)
+* [&#x200B; Lijst van gewenste personen van extra IP adressen voor de Abonnementen van de Gebeurtenis &#x200B;](#allowlist-of-additional-ip-addresses-for-event-subscriptions)
+* [&#x200B; Lijst van gewenste personen van extra domeinen die voor de toegang tot van Workfront &#x200B;](#allowlist-of-additional-domains-required-for-accessing-workfront) worden vereist
+* [&#x200B; Veroudering van de Flits &#x200B;](#flash-deprecation)
+* [&#x200B; webinar van de Versie 21.1 &#x200B;](#21-1-release-webinar)
+* [&#x200B; Verandering in de versiecadence van de Voorproef &#x200B;](#change-in-preview-release-cadence)
 * [Workfront One](#workfront-one)
 
 ### Nieuwe IP-adressen voor Workfront-e-mailberichten met de release 21.1 {#new-ip-addresses-for-workfront-email-with-the-21-1-release}
 
 In een inspanning om succesvolle e-maillevering te verhogen, voegen wij nieuwe IP adressen met de 21.1 release van de Productie voor clusters 1, 2, 3, 4, en 5 toe.
 
-Voor details over welke IP adressen u voor uw cluster moet toevoegen, zie [ Nieuwe IP adressen voor Adobe Workfront e-mail met 21.1 versie ](../../../product-announcements/announcements/announcement-archive/new-email-ip-21-1.md).
+Voor details over welke IP adressen u voor uw cluster moet toevoegen, zie [&#x200B; Nieuwe IP adressen voor Adobe Workfront e-mail met 21.1 versie &#x200B;](../../../product-announcements/announcements/announcement-archive/new-email-ip-21-1.md).
 
 Ga naar Setup > System > Customer Info als u wilt weten in welke cluster u zich bevindt.
 
@@ -373,7 +373,7 @@ Ga naar Setup > System > Customer Info als u wilt weten in welke cluster u zich 
 
 In een inspanning om de succesvolle levering van het Abonnement van de Gebeurtenis te verhogen, voegen wij 4 nieuwe IP adressen met de 21.1 release van de Productie in het eerste kwartaal van 2021 toe. U moet deze IP adressen aan uw lijst van gewenste personen vóór Februari 2021 toevoegen om uw gebruikers te verzekeren blijven de Abonnementen van de Gebeurtenis ontvangen.
 
-Contacteer uw interne die IT en/of veiligheidsafdeling voor hulp in het toevoegen van nieuwe IPs in het artikel, [ Abonnement API van de Gebeurtenis ](../../../wf-api/general/event-subs-api.md) wordt gevonden.
+Contacteer uw interne die IT en/of veiligheidsafdeling voor hulp in het toevoegen van nieuwe IPs in het artikel, [&#x200B; Abonnement API van de Gebeurtenis &#x200B;](../../../wf-api/general/event-subs-api.md) wordt gevonden.
 
 ### Lijst van gewenste personen van aanvullende domeinen die vereist zijn voor toegang tot Workfront {#allowlist-of-additional-domains-required-for-accessing-workfront}
 
@@ -382,26 +382,26 @@ Als uw organisatie een firewall gebruikt, moet u de volgende extra domeinen aan 
 * event.split.io
 * sdk.split.io
 
-Voor meer informatie, zie [ de lijst van gewenste personen van uw firewall ](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md) vormen.
+Voor meer informatie, zie [&#x200B; de lijst van gewenste personen van uw firewall &#x200B;](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md) vormen.
 
 ### Flash-veroudering {#flash-deprecation}
 
 Alle op Flash gebaseerde gereedschappen zijn op 19 november 2020 uit alle producten verwijderd.
 
-Kom meer over vervangingsoplossingen voor elk specifiek op flits-Gebaseerd hulpmiddel in het volgende artikel te weten: [ Vervanging van op flits-Gebaseerde hulpmiddelen in Adobe Workfront ](../../../product-announcements/announcements/announcement-archive/replace-flash-tools.md).
+Kom meer over vervangingsoplossingen voor elk specifiek op flits-Gebaseerd hulpmiddel in het volgende artikel te weten: [&#x200B; Vervanging van op flits-Gebaseerde hulpmiddelen in Adobe Workfront &#x200B;](../../../product-announcements/announcements/announcement-archive/replace-flash-tools.md).
 
 ### 21.1 Release-webinar {#21-1-release-webinar}
 
-De Workfront 21.1 Release Webinar wordt op 3 februari om 11:00 uur EDT / 16:00 uur BST gepresenteerd. Register voor webinar [ hier ](https://event.on24.com/eventRegistration/EventLobbyServlet?target=reg20.jsp&amp;partnerref=ac&amp;eventid=2934272&amp;sessionid=1&amp;key=5C231B3385686D1E224A49EBE0BF0E37&amp;regTag=&amp;V2=false&amp;sourcepage=register).
+De Workfront 21.1 Release Webinar wordt op 3 februari om 11:00 uur EDT / 16:00 uur BST gepresenteerd. Register voor webinar [&#x200B; hier &#x200B;](https://event.on24.com/eventRegistration/EventLobbyServlet?target=reg20.jsp&partnerref=ac&eventid=2934272&sessionid=1&key=5C231B3385686D1E224A49EBE0BF0E37&regTag=&V2=false&sourcepage=register).
 
 ### Wijzigen in de release Voorvertoning {#change-in-preview-release-cadence}
 
 Vanaf 20 mei 2020 begon Workfront wekelijks functionaliteit beschikbaar te maken in de voorvertoningsomgeving. Vóór deze wijziging werd de functionaliteit doorgaans elke twee weken vrijgegeven voor de voorvertoningsomgeving.
 
-Voor meer informatie, zie [ Verandering in FAQ van de de voorproefversie van Workfront ](https://experienceleague.adobe.com/nl/docs/workfront/using/home)
+Voor meer informatie, zie [&#x200B; Verandering in FAQ van de de voorproefversie van Workfront &#x200B;](https://experienceleague.adobe.com/nl/docs/workfront/using/home)
 
 ### Workfront One {#workfront-one}
 
 Met Workfront One ontdekt u de belangrijkste inhoud, bronnen en nieuws uit Workfront — allemaal op één plaats, met één aanmelding. We hebben de sites Experience, Community en Training verenigd, waardoor het gemakkelijker wordt om te vinden wat u zoekt.
 
-[ leer meer over Workfront Één ](https://business.adobe.com/products/workfront.html).
+[&#x200B; leer meer over Workfront Één &#x200B;](https://business.adobe.com/products/workfront.html).

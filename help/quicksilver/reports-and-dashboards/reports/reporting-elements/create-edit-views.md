@@ -19,7 +19,7 @@ ht-degree: 0%
 
 U kunt het type informatie aanpassen dat u op het scherm weergeeft met behulp van weergaven. In Adobe Workfront kunt u verschillende typen weergaven gebruiken.
 
-In dit artikel wordt beschreven hoe u standaardweergaven voor lijsten en rapporten maakt en bewerkt, en hoe u flexibele weergaven maakt. Voor meer informatie, zie [ Overzicht van Meningen in Adobe Workfront ](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+In dit artikel wordt beschreven hoe u standaardweergaven voor lijsten en rapporten maakt en bewerkt, en hoe u flexibele weergaven maakt. Voor meer informatie, zie [&#x200B; Overzicht van Meningen in Adobe Workfront &#x200B;](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
 ## Toegangsvereisten
 
@@ -61,7 +61,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-*For informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*For informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -69,7 +69,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 Het proces voor het maken of aanpassen van een weergave is afhankelijk van het feit of u een standaardweergave of een blokweergave maakt of aanpast.
 
-* [ creeer of pas een standaardmening ](#create-or-customize-a-standard-view) aan
+* [&#x200B; creeer of pas een standaardmening &#x200B;](#create-or-customize-a-standard-view) aan
 * [Een eenvoudige weergave maken of aanpassen](#create-or-customize-an-agile-view)
 
 ### Een standaardweergave maken of aanpassen {#create-or-customize-a-standard-view}
@@ -80,7 +80,7 @@ U kunt een nieuwe standaardweergave maken of een bestaande standaardweergave aan
 
 1. Klik op de knop **+ Nieuwe weergave** om een nieuwe weergave te maken.
 of
-Klik **uitgeven** pictogram ![ geeft pictogram ](assets/edit-icon.png) uit dat op muis over rechts van een bestaande mening verschijnt u wilt uitgeven.
+Klik **uitgeven** pictogram ![&#x200B; geeft pictogram &#x200B;](assets/edit-icon.png) uit dat op muis over rechts van een bestaande mening verschijnt u wilt uitgeven.
 **past de vertoningen van de de dialoogdoos van de Mening** aan.
 
 1. In de **sectie van de Voorproef van de Kolom**, doe om het even welke volgend:
@@ -128,7 +128,7 @@ Klik **uitgeven** pictogram ![ geeft pictogram ](assets/edit-icon.png) uit dat o
      > * Werkelijke uren geeft een overzicht van de waarden voor de hoofdbovenliggende taken en de zelfstandige taken; deze geven geen overzicht van de getallen voor de bovenliggende taken of de onderliggende taken.
      > * De gegevensgebieden van de douane voor aantal en muntwaarden vatten alle taken samen: ouders, kinderen, ouders van ouders, en standalone taken.
      >
-     >Voor meer informatie over het gebruiken van groeperingen in een rapport, zie het artikel [ overzicht van Groepen in Adobe Workfront ](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
+     >Voor meer informatie over het gebruiken van groeperingen in een rapport, zie het artikel [&#x200B; overzicht van Groepen in Adobe Workfront &#x200B;](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
       * (Facultatief) klik **Geavanceerde Opties** om de volgende informatie voor de kolom te specificeren:
 
@@ -155,7 +155,7 @@ Klik **uitgeven** pictogram ![ geeft pictogram ](assets/edit-icon.png) uit dat o
          </tbody> 
         </table>
 
-        Voor meer informatie over voorwaardelijk het formatteren van meningen in rapporten, zie het artikel [ Voorwaardelijke het formatteren van het Gebruik in de Wijze van de Tekst ](../../../reports-and-dashboards/reports/text-mode/use-conditional-formatting-text-mode.md).
+        Voor meer informatie over voorwaardelijk het formatteren van meningen in rapporten, zie het artikel [&#x200B; Voorwaardelijke het formatteren van het Gebruik in de Wijze van de Tekst &#x200B;](../../../reports-and-dashboards/reports/text-mode/use-conditional-formatting-text-mode.md).
 
 1. (Voorwaardelijk) als u **Geavanceerde Opties** klikte, klik **Gedaan**.
 
@@ -177,7 +177,7 @@ U kunt een flexibele weergave maken of een bestaande, flexibele weergave aanpass
 >
 >Gegraveerde weergaven zijn alleen beschikbaar wanneer u een project weergeeft.
 
-Voor meer informatie over de Gelijke meningen, zie het artikel [ een project in de Gelijke Mening ](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md) leiden.
+Voor meer informatie over de Gelijke meningen, zie het artikel [&#x200B; een project in de Gelijke Mening &#x200B;](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md) leiden.
 
 >[!NOTE]
 >
@@ -186,7 +186,7 @@ Voor meer informatie over de Gelijke meningen, zie het artikel [ een project in 
 U kunt als volgt een eenvoudige weergave maken of aanpassen:
 
 1. Ga naar de lijst met taken in een project.
-1. Klik het **pictogram van de Raad ![ raad ](assets/board-icon-for-agile-view.png), en klik dan** erfenis van het Gebruik &lbrace;**op de boordmening.**
+1. Klik het **pictogram van de Raad ![&#x200B; raad &#x200B;](assets/board-icon-for-agile-view.png), en klik dan** erfenis van het Gebruik &lbrace;**op de boordmening.**
 
 1. (Voorwaardelijk) U kunt als volgt een bestaande beoordelingsweergave aanpassen:
 
@@ -194,7 +194,7 @@ U kunt als volgt een eenvoudige weergave maken of aanpassen:
       U kunt de standaardweergave Gelijk niet aanpassen.
 
    1. Klik opnieuw het **drop-down menu van de Mening**, dan klik **aanpassen Mening**.\
-      ![ pas mening ](assets/view-agile-customize.png) aan
+      ![&#x200B; pas mening &#x200B;](assets/view-agile-customize.png) aan
 
 1. (Voorwaardelijk) om een nieuwe Gelijke mening tot stand te brengen, klik **Nieuwe Mening**.\
    Het **&#x200B;**&#x200B;de dialoogvakje van de Mening van de Gelijkheid aanpassen.
@@ -203,7 +203,7 @@ U kunt als volgt een eenvoudige weergave maken of aanpassen:
    We raden u aan het woord &#39;Gelijk&#39; op te nemen in de weergavenaam, zodat gebruikers weten dat dit een Gegale weergave is.\
    Deze naam wordt getoond in het **drop-down menu van de Mening** wanneer het selecteren van een mening.
 
-1. Definieer de statuskolommen die u wilt weergeven op het artikelbord in de Tegelweergave. Dit zijn de taakstatussen die door de beheerder van Workfront worden bepaald, zoals die in [ wordt beschreven creeer of geef een status ](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md) uit.
+1. Definieer de statuskolommen die u wilt weergeven op het artikelbord in de Tegelweergave. Dit zijn de taakstatussen die door de beheerder van Workfront worden bepaald, zoals die in [&#x200B; wordt beschreven creeer of geef een status &#x200B;](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md) uit.
 
    Alleen de systeemstatussen zijn beschikbaar voor gebruik op het artikel. Als een status alleen beschikbaar is voor een afzonderlijke groep waarvan u lid bent, is de status niet beschikbaar op de agile-artikelkaart. Bovendien zijn taken die zich in een status bevinden die alleen voor een aangepaste groep beschikbaar is, niet zichtbaar wanneer u het project in een georiënteerde weergave bekijkt.
 

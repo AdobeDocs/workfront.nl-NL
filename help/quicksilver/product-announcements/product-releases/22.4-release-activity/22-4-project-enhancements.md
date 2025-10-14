@@ -17,13 +17,13 @@ ht-degree: 0%
 
 Op deze pagina worden alle projectverbeteringen beschreven die zijn aangebracht met de release 22.4 voor de voorvertoningsomgeving. Deze verbeteringen worden beschikbaar gesteld in de week van 3 oktober 2022.
 
-Voor een lijst van alle veranderingen beschikbaar met de versie 22.4, zie [ overzicht van de Versie 22.4 ](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar met de versie 22.4, zie [&#x200B; overzicht van de Versie 22.4 &#x200B;](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-release-overview.md).
 
 ## Details van voorgaande versies zijn nu beschikbaar
 
 Als u de details van de voorgangers van een taak wilt bekijken, kunt u de muisaanwijzer nu boven het voorganger plaatsen in de kolom Voorgangers. In het detailvak ziet u de vorige taak en het project waarnaar wordt verwezen, de geplande begin- en einddatum voor de voorgangertaak en het aantal voorgangers en opvolgers van de voorgangertaak. U kunt de projectdetails uitbreiden om meer informatie over het project te zien. Aanvullende informatie is opgenomen voor predecessors die voor meerdere projecten werken.
 
-Voor meer informatie, zie [ een voorgangersverhouding op de taaklijst ](/help/quicksilver/manage-work/tasks/use-prdcssrs/create-predecessors-on-task-list.md) creëren.
+Voor meer informatie, zie [&#x200B; een voorgangersverhouding op de taaklijst &#x200B;](/help/quicksilver/manage-work/tasks/use-prdcssrs/create-predecessors-on-task-list.md) creëren.
 
 ## Meerdere teams toewijzen aan een taak of uitgave
 
@@ -33,7 +33,7 @@ Om u veel meer flexibiliteit in de manier te geven u taken en kwesties beheert, 
 >
 >Deze functionaliteit is momenteel niet beschikbaar in Workload Balancer in het gebied Teams.
 
-Voor meer informatie, zie [ taken ](/help/quicksilver/manage-work/tasks/assign-tasks/assign-tasks.md) toewijzen en [ kwesties ](/help/quicksilver/manage-work/issues/manage-issues/assign-issues.md) toewijzen.
+Voor meer informatie, zie [&#x200B; taken &#x200B;](/help/quicksilver/manage-work/tasks/assign-tasks/assign-tasks.md) toewijzen en [&#x200B; kwesties &#x200B;](/help/quicksilver/manage-work/issues/manage-issues/assign-issues.md) toewijzen.
 
 ## Slimme gebruikersselectie voor projectrollen in Edit en de gebieden van Details
 
@@ -47,11 +47,11 @@ Wij hebben de manier verbeterd de gebruikers tonen wanneer u hen aan de volgende
 
 Wanneer u nu een gebruiker aan een van deze velden toevoegt in de gebieden Bewerken of Details, naast de naam en avatar, worden ook de primaire rol en de e-mail weergegeven. Zo kunt u beter onderscheid maken tussen meerdere gebruikers met dezelfde of vergelijkbare namen.
 
-Voor meer informatie, zie [ Projecten ](/help/quicksilver/manage-work/projects/manage-projects/edit-projects.md) uitgeven.
+Voor meer informatie, zie [&#x200B; Projecten &#x200B;](/help/quicksilver/manage-work/projects/manage-projects/edit-projects.md) uitgeven.
 
 NOTA: De extra gebruikersgebieden voor projecten, taken, en kwesties zullen met deze functionaliteit in toekomstige versies worden bijgewerkt.
 
-[ Bekijk een videodemonstratie van deze eigenschap.](https://video.tv.adobe.com/v/3412390/){target=_blank}
+[&#x200B; Bekijk een videodemonstratie van deze eigenschap.](https://video.tv.adobe.com/v/3412390/){target=_blank}
 
 ## Berekende datumvelden worden altijd opgeslagen op basis van UTC (Coordinated Universal Time)
 
@@ -65,7 +65,7 @@ Eerder veroorzaakten de tijdmontages in berekeningen verwarring wanneer zij in d
 
 * Als iemand het object heeft bewerkt en de berekende veldexpressie opnieuw heeft berekend, zijn de resultaten van de datumfunctie bepaald door de lokale tijdzone van de gebruiker. De resultaten van het berekende datumveld in dit scenario worden ook berekend op basis van de UTC.
 
-Voor meer informatie, zie [ Werkend over tijdstreken ](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/working-across-timezones.md).
+Voor meer informatie, zie [&#x200B; Werkend over tijdstreken &#x200B;](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/working-across-timezones.md).
 
 ## Aangepaste formulierverbeteringen: Adobe XD en het snelfilter
 
@@ -76,9 +76,9 @@ Op basis van uw feedback hebben we de volgende verbeteringen geïntroduceerd om 
 
 * Met het snelle filter kunt u gemakkelijk items zoeken in de gemoderniseerde lijst met aangepaste formulieren en velden. Geniet ook van een verbeterde look and feel tijdens het beheren van uw formulieren en velden.
 
-  Voor meer informatie over de Snelle Filter, zie [ de snelle filter op een lijst ](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md) toepassen.
+  Voor meer informatie over de Snelle Filter, zie [&#x200B; de snelle filter op een lijst &#x200B;](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md) toepassen.
 
-[ Bekijk een videodemonstratie van deze eigenschap.](https://video.tv.adobe.com/v/3412469/){target=_blank}
+[&#x200B; Bekijk een videodemonstratie van deze eigenschap.](https://video.tv.adobe.com/v/3412469/){target=_blank}
 
 ## Openbare Beta - Nieuwe filterervaring voor projecten, taken en problemen
 
@@ -112,7 +112,7 @@ De tekstmodus blijft beschikbaar voor geavanceerde filterbewerkingen en systeemb
 
 ### We willen je feedback.
 
-Met deze Openbare Beta-gebruikers krijgen de mogelijkheid om feedback rechtstreeks naar het team te verzenden dat aan de filterervaring werkt door op de feedbackknop te klikken. We kijken ernaar uit om van u en uw gebruikers te horen over de nieuwe filterervaring in openbare bèta. Als uw team met product direct zou willen ontmoeten om extra te verstrekken terugkoppelt, voel vrij om een vergadering hier te plannen: https://calendly.com/wf-product-and-design-research/filtersfeedbackpublicbeta?month=2022-08&amp;date=2022-08-25
+Met deze Openbare Beta-gebruikers krijgen de mogelijkheid om feedback rechtstreeks naar het team te verzenden dat aan de filterervaring werkt door op de feedbackknop te klikken. We kijken ernaar uit om van u en uw gebruikers te horen over de nieuwe filterervaring in openbare bèta. Als uw team met product direct zou willen ontmoeten om extra te verstrekken terugkoppelt, voel vrij om een vergadering hier te plannen: https://calendly.com/wf-product-and-design-research/filtersfeedbackpublicbeta?month=2022-08&date=2022-08-25
 
 ### Wat nu?
 
@@ -127,6 +127,6 @@ Met deze Openbare Beta-gebruikers krijgen de mogelijkheid om feedback rechtstree
 
 We willen u hierbij een meerwaarde bieden, zodat we ook in de toekomst resultaten zullen boeken als de nieuwe ervaringen en andere gebieden klaar zijn. Blijf op de hoogte voor spannender updates.
 
-Voor meer informatie, zie [ Overzicht van Filters ](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/filters-overview.md) en [ creeer of geef filters in Adobe Workfront ](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-filters.md) uit.
+Voor meer informatie, zie [&#x200B; Overzicht van Filters &#x200B;](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/filters-overview.md) en [&#x200B; creeer of geef filters in Adobe Workfront &#x200B;](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-filters.md) uit.
 
-[ Bekijk een videodemonstratie van deze eigenschap.](https://video.tv.adobe.com/v/3412391/)
+[&#x200B; Bekijk een videodemonstratie van deze eigenschap.](https://video.tv.adobe.com/v/3412391/)

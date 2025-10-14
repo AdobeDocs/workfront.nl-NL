@@ -21,7 +21,7 @@ U kunt een subgroep maken onder een groep die u beheert om gebruikers en project
 
 Als er groepen zijn boven de groep die u beheert, kunnen hun beheerders dit ook voor uw groep doen. Hetzelfde geldt voor Workfront-beheerders (voor elke groep).
 
-Groepbeheerders beheren doorgaans echter groepen en subgroepen. Ze kunnen de pagina Groepen gebruiken om hun groepen en subgroepen op één locatie te beheren. Voor informatie over hoe de groepen en de subgroepen binnen Workfront werken, zie [ Overzicht van Groepen ](../../../administration-and-setup/manage-groups/groups-overview/groups.md) en [ Subgroups overzicht ](../../../administration-and-setup/manage-groups/groups-overview/subgroups.md).
+Groepbeheerders beheren doorgaans echter groepen en subgroepen. Ze kunnen de pagina Groepen gebruiken om hun groepen en subgroepen op één locatie te beheren. Voor informatie over hoe de groepen en de subgroepen binnen Workfront werken, zie [&#x200B; Overzicht van Groepen &#x200B;](../../../administration-and-setup/manage-groups/groups-overview/groups.md) en [&#x200B; Subgroups overzicht &#x200B;](../../../administration-and-setup/manage-groups/groups-overview/subgroups.md).
 
 ## Toegangsvereisten
 
@@ -52,7 +52,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -74,20 +74,20 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
      In tekstkopvelden zoals de hieronder weergegeven velden, worden alleen actieve groepen weergegeven in de lijst als gewone gebruikers naar een groep zoeken om deze aan een object te koppelen of om er een object mee te delen.
 
-     ![ gebied Typeahead voor een groep ](assets/typeahead-for-group.png)
+     ![&#x200B; gebied Typeahead voor een groep &#x200B;](assets/typeahead-for-group.png)
 
      Om dit voor uw gebruikers te stroomlijnen, kunt u **onbruikbaar maken is Actieve** optie voor groepen die momenteel niet in gebruik zijn.
 
-     Met dit veld kunt u de lijst Groepen op basis van de actieve of inactieve status eenvoudig weergeven, filteren en groeperen. Voor informatie over het gebruiken van meningen, filters, en groeperingen in lijsten, zie [ Meldend elementen: filters, meningen, en groeperingen ](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md).
+     Met dit veld kunt u de lijst Groepen op basis van de actieve of inactieve status eenvoudig weergeven, filteren en groeperen. Voor informatie over het gebruiken van meningen, filters, en groeperingen in lijsten, zie [&#x200B; Meldend elementen: filters, meningen, en groeperingen &#x200B;](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md).
 
-   * **BedrijfsLeader**: U kunt één gebruiker als BedrijfsLeader voor een subgroep toewijzen die u beheert. Een bedrijfsleider is iemand die bedrijfsbesluiten voor subgroup neemt. Voor meer informatie, zie [ Overzicht BedrijfsLeader ](/help/quicksilver/administration-and-setup/manage-groups/group-roles/business-leader-overview.md).
+   * **BedrijfsLeader**: U kunt één gebruiker als BedrijfsLeader voor een subgroep toewijzen die u beheert. Een bedrijfsleider is iemand die bedrijfsbesluiten voor subgroup neemt. Voor meer informatie, zie [&#x200B; Overzicht BedrijfsLeader &#x200B;](/help/quicksilver/administration-and-setup/manage-groups/group-roles/business-leader-overview.md).
 
      Als de persoon nog geen lid is van de subgroep en de naam aan dit veld toevoegt, worden de personen ook aan de groep toegevoegd.
 
      >[!NOTE]
      >
      >* Voordat u de Business Leader uit een subgroep kunt verwijderen, moet u de naam uit het veld Business Leader verwijderen.
-     >* Als u de naam uit het veld Bedrijfsleider verwijdert, blijft die gebruiker lid van de subgroep, tenzij u deze verwijdert. Voor instructies bij het verwijderen van iemand uit een groep, zie [ Mening en beheer het lidmaatschap van een groep ](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-memberships.md).
+     >* Als u de naam uit het veld Bedrijfsleider verwijdert, blijft die gebruiker lid van de subgroep, tenzij u deze verwijdert. Voor instructies bij het verwijderen van iemand uit een groep, zie [&#x200B; Mening en beheer het lidmaatschap van een groep &#x200B;](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-memberships.md).
 
    * **de leden van de Groep en de beheerders van de Groep**: Om gebruikers en groepen als leden van subgroup toe te voegen, begin de naam van een bestaande gebruiker of een groep te typen u, dan de naam wilt toevoegen wanneer het verschijnt.
 

@@ -53,7 +53,7 @@ U moet het volgende hebben om de stappen in dit artikel te volgen:
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -127,11 +127,11 @@ In de volgende tabel worden de weergaveopties voor de [!UICONTROL Gantt chart] w
 ## Weergaveopties configureren
 
 1. Ga naar de **Gantt Grafiek van de Lijst van de Taak** of de **Gantt Grafiek van de Lijst van het Project**.\
-   Voor meer informatie over waar één van beide grafiek van Gantt wordt gevestigd, zie [ begonnen worden met [!UICONTROL Gantt Chart]](../../../manage-work/gantt-chart/use-the-gantt-chart/get-started-with-gantt.md).
+   Voor meer informatie over waar één van beide grafiek van Gantt wordt gevestigd, zie [&#x200B; begonnen worden met [!UICONTROL Gantt Chart]](../../../manage-work/gantt-chart/use-the-gantt-chart/get-started-with-gantt.md).
 
 1. (Facultatief) selecteer de **Schakelaar aan Geprojecteerde Datums** plaatsen om de taken door hun Geprojecteerde Datums te tonen. Taken worden standaard weergegeven op basis van de geplande datums.
 1. Klik het **pictogram van Opties**. Het **de dialoogvakje van Opties** opent.\
-   ![ Options.png ](assets/options-350x129.png)
+   ![&#x200B; Options.png &#x200B;](assets/options-350x129.png)
 
 1. Selecteer de configuratieopties die u in [!UICONTROL Gantt chart] wilt weergeven.
 

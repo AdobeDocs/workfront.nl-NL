@@ -53,7 +53,7 @@ U kunt documenten en mappen vanuit de volgende bronnen koppelen aan Adobe Workfr
  </tbody> 
 </table>
 
-Alvorens u documenten of omslagen verbindt, moet uw beheerder van Workfront deze functionaliteit voor elke documentleverancier, of voor een integratie van het douanedocument toelaten, zoals die in [ wordt beschreven vormt documentintegraties ](../../administration-and-setup/configure-integrations/configure-document-integrations.md).
+Alvorens u documenten of omslagen verbindt, moet uw beheerder van Workfront deze functionaliteit voor elke documentleverancier, of voor een integratie van het douanedocument toelaten, zoals die in [&#x200B; wordt beschreven vormt documentintegraties &#x200B;](../../administration-and-setup/configure-integrations/configure-document-integrations.md).
 
 Documenten die zijn gekoppeld aan een externe cloud, kunt u op dezelfde manier controleren en goedkeuren als documenten die rechtstreeks naar Workfront zijn geüpload.
 
@@ -84,7 +84,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -110,7 +110,7 @@ U kunt bestaande documenten koppelen aan een externe cloud provider. Dit geldt o
 
 ### Vereisten {#prerequisites}
 
-Alvorens u documenten of omslagen verbindt, moet uw beheerder van Workfront deze functionaliteit voor elke documentleverancier, of voor een integratie van het douanedocument toelaten, zoals die in [ wordt beschreven vormt documentintegraties ](../../administration-and-setup/configure-integrations/configure-document-integrations.md).
+Alvorens u documenten of omslagen verbindt, moet uw beheerder van Workfront deze functionaliteit voor elke documentleverancier, of voor een integratie van het douanedocument toelaten, zoals die in [&#x200B; wordt beschreven vormt documentintegraties &#x200B;](../../administration-and-setup/configure-integrations/configure-document-integrations.md).
 
 ### Een extern document koppelen aan Workfront {#link-an-external-document-to-workfront}
 
@@ -198,7 +198,7 @@ U kunt vanuit een externe toepassing een nieuwe versie toevoegen van een documen
    >
    >Voor documenten die zijn gekoppeld aan een vak, wordt de koppeling naar het document in het vak pas weergegeven als u de pagina vernieuwt.
 
-Voor informatie over het toevoegen van nieuwe versie van een document u aan Workfront van uw dossiersysteem hebt geupload, zie [ documenten aan Adobe Workfront ](../../documents/adding-documents-to-workfront/add-documents-from-file-system.md#add-documents-to-workfront) in [ toevoegen documenten aan Adobe Workfront van uw dossiersysteem ](../../documents/adding-documents-to-workfront/add-documents-from-file-system.md).
+Voor informatie over het toevoegen van nieuwe versie van een document u aan Workfront van uw dossiersysteem hebt geupload, zie [&#x200B; documenten aan Adobe Workfront &#x200B;](../../documents/adding-documents-to-workfront/add-documents-from-file-system.md#add-documents-to-workfront) in [&#x200B; toevoegen documenten aan Adobe Workfront van uw dossiersysteem &#x200B;](../../documents/adding-documents-to-workfront/add-documents-from-file-system.md).
 
 ### Workfront Proof-documenten koppelen {#link-workfront-proof-documents}
 
@@ -252,7 +252,7 @@ Gebruikers zonder Workfront-toegang kunnen het document in de externe toepassing
 1. Selecteer een document dat in Workfront is geüpload.
 1. Klik **Meer** > **verzenden naar**, dan selecteer de wolkenleverancier die u het verbonden document wilt opslaan.
 
-   U kunt het Meer menu ![ Meer menu ](assets/more-icon.png) op de pagina van de Details van het Document ook gebruiken om dit te doen.
+   U kunt het Meer menu ![&#x200B; Meer menu &#x200B;](assets/more-icon.png) op de pagina van de Details van het Document ook gebruiken om dit te doen.
 
 1. Selecteer de map in de toepassing van de provider waarin u het document wilt opslaan.
 
@@ -262,7 +262,7 @@ Gebruikers zonder Workfront-toegang kunnen het document in de externe toepassing
 
    Het logo van de externe provider wordt naast de documentnaam weergegeven om aan te geven dat het document nu is gekoppeld aan Workfront en is opgeslagen door de externe cloud provider.
 
-   ![ doc_with_google_drive_link_highlight__1_.png ](assets/doc-with-google-drive-link-highlight--1--350x66.png)
+   ![&#x200B; doc_with_google_drive_link_highlight__1_.png &#x200B;](assets/doc-with-google-drive-link-highlight--1--350x66.png)
 
 ## Mappen koppelen
 
@@ -282,7 +282,7 @@ Bij het synchroniseren van de mapinhoud van een externe documenttoepassing gebru
 
 ### Een of meer externe mappen koppelen {#link-one-or-more-external-folders}
 
-1. Ga naar het gebied in Workfront waar u de omslag wilt, dan klik **&#x200B;**&#x200B;het pictogram van Documenten ![ in het linkerpaneel van Documenten ](assets/document-icon.png).
+1. Ga naar het gebied in Workfront waar u de omslag wilt, dan klik **&#x200B;**&#x200B;het pictogram van Documenten ![&#x200B; in het linkerpaneel van Documenten &#x200B;](assets/document-icon.png).
 
 1. Klik **toevoegen Nieuw**, dan klik de externe documentleverancier waarvan u een omslag aan Workfront wilt verbinden.
 1. (Voorwaardelijk) als u de externe dienst nog niet hebt geautoriseerd, specificeer uw login geloofsbrieven voor de externe leverancier, dan klik binnen **Teken**.
@@ -305,9 +305,9 @@ Bij het synchroniseren van de mapinhoud van een externe documenttoepassing gebru
 
    In Workfront wordt het logo van de cloudprovider naast de map weergegeven om aan te geven dat het is gekoppeld aan de externe cloudprovider.
 
-1. (Facultatief) om de omslag anders te noemen zodat de omslagnaam in Workfront van de omslagnaam in de externe documenttoepassing verschillend is, selecteer de omslag in de **sectie 0&rbrace; Omslagen &lbrace;, klik het Meer menu** Meer ![ dat naast de omslagnaam toont, dan ](assets/more-icon.png) anders noemt **klikt.**
+1. (Facultatief) om de omslag anders te noemen zodat de omslagnaam in Workfront van de omslagnaam in de externe documenttoepassing verschillend is, selecteer de omslag in de **sectie 0&rbrace; Omslagen &lbrace;, klik het Meer menu** Meer ![&#x200B; dat naast de omslagnaam toont, dan &#x200B;](assets/more-icon.png) anders noemt **klikt.**
 
-   ![ noem omslag anders ](assets/documents-folderlink-rename-nwe-350x154.png)
+   ![&#x200B; noem omslag anders &#x200B;](assets/documents-folderlink-rename-nwe-350x154.png)
 
 Hierdoor wordt de naam van de map in de externe toepassing niet gewijzigd.
 
@@ -315,13 +315,13 @@ Hierdoor wordt de naam van de map in de externe toepassing niet gewijzigd.
 
 U kunt een nieuwe map maken in een bestaande gekoppelde map. U kunt ook een andere map naar een bestaande gekoppelde map slepen.
 
-1. Om een nieuwe omslag binnen een bestaande verbonden omslag tot stand te brengen, ga naar de bestaande omslag, dan creeer de nieuwe omslag zoals die in [ wordt beschreven creeer documentomslagen ](../../documents/organizing-documents/create-documents-folder.md).
+1. Om een nieuwe omslag binnen een bestaande verbonden omslag tot stand te brengen, ga naar de bestaande omslag, dan creeer de nieuwe omslag zoals die in [&#x200B; wordt beschreven creeer documentomslagen &#x200B;](../../documents/organizing-documents/create-documents-folder.md).
 
    of
 
    Als u een bestaande map naar een bestaande gekoppelde map wilt slepen, gaat u naar het gebied Documenten waar u de submap wilt plaatsen en sleept u deze naar de gekoppelde map.
 
-   ![ Belemmering in verbonden omslag ](assets/documents-link-folder-move-nwe-350x113.png)
+   ![&#x200B; Belemmering in verbonden omslag &#x200B;](assets/documents-link-folder-move-nwe-350x113.png)
 
    >[!NOTE]
    >

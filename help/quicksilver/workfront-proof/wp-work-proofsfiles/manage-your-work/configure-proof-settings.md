@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [ het Bewijzen ](../../../review-and-approve-work/proofing/proofing.md).
+>Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [&#x200B; het Bewijzen &#x200B;](../../../review-and-approve-work/proofing/proofing.md).
 
 U kunt een proef vormen u creeert of uitgeeft op om het even welke volgende manieren:
 
@@ -30,15 +30,15 @@ U kunt een proef vormen u creeert of uitgeeft op om het even welke volgende mani
 
 U kunt een proefstaat instellen om te vergrendelen wanneer de uiteindelijke fiatteur zijn beslissing neemt. Dit is handig als u ervoor wilt zorgen dat de controleurs niet naar de proefdruk kunnen terugkeren en extra opmerkingen kunnen toevoegen of hun beslissingen kunnen wijzigen.
 
-1. Creeer een nieuwe proef, zoals die in [ wordt beschreven produceert Proefdrukken in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md).\
+1. Creeer een nieuwe proef, zoals die in [&#x200B; wordt beschreven produceert Proefdrukken in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md).\
    of\
-   Open de de detailpagina van het Bewijs voor een bestaand bewijs, zoals die in [ wordt beschreven Beheer Details van het Bewijs in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
+   Open de de detailpagina van het Bewijs voor een bestaand bewijs, zoals die in [&#x200B; wordt beschreven Beheer Details van het Bewijs in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
 
 1. Selecteer **[!UICONTROL Lock proof when all required decisions are made]** onder **[!UICONTROL Proof settings]** voor een nieuwe proefdruk.\
    of\
    Selecteer **[!UICONTROL Lock the proof when all decisions are made]** onder **[!UICONTROL Settings]** voor een bestaande proefdruk.
 
-Voor informatie over besluiten, zie [ een besluit over een bewijs in de het proef kijker ](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md) nemen.
+Voor informatie over besluiten, zie [&#x200B; een besluit over een bewijs in de het proef kijker &#x200B;](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md) nemen.
 
 ## Aanmelding vereist voor alle gebruikers die de proefafdruk controleren
 
@@ -53,9 +53,9 @@ Nochtans, als u hogere niveaus van veiligheid voor uw overzicht en goedkeuringsp
 
 Meld u aan voor alle gebruikers die de proefdruk controleren:
 
-1. Creeer een nieuwe proef, zoals die in [ wordt beschreven produceert Proefdrukken in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md).\
+1. Creeer een nieuwe proef, zoals die in [&#x200B; wordt beschreven produceert Proefdrukken in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md).\
    of\
-   Open de de detailpagina van het Bewijs voor een bestaand bewijs, zoals die in [ wordt beschreven Beheer Details van het Bewijs in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
+   Open de de detailpagina van het Bewijs voor een bestaand bewijs, zoals die in [&#x200B; wordt beschreven Beheer Details van het Bewijs in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
 
 1. Selecteer **[!UICONTROL Require login]** onder **[!UICONTROL Proof settings]** voor een nieuwe proefdruk.\
    of\
@@ -65,39 +65,39 @@ Meld u aan voor alle gebruikers die de proefdruk controleren:
 
 Deze instelling is handig wanneer u slechts één persoon uit een groep, afdeling of bedrijf nodig hebt om een beslissing te nemen over het bewijs.
 
-Zelfs als u de rol van fiatteur of beoordelaar en fiatteur aan meerdere personen toewijst, wordt de status van het bewijs bijgewerkt wanneer één persoon een beslissing neemt over een bewijs (zoals bepaald in het besluit). Voor meer informatie over proefdrukstatus, zie [ de Voortgang en de Status van een Bewijs in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/view-progress-and-status-of-proof.md) bekijken
+Zelfs als u de rol van fiatteur of beoordelaar en fiatteur aan meerdere personen toewijst, wordt de status van het bewijs bijgewerkt wanneer één persoon een beslissing neemt over een bewijs (zoals bepaald in het besluit). Voor meer informatie over proefdrukstatus, zie [&#x200B; de Voortgang en de Status van een Bewijs in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/view-progress-and-status-of-proof.md) bekijken
 
-1. Creeer een nieuwe proef, zoals die in [ wordt beschreven produceert Proefdrukken in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md).\
+1. Creeer een nieuwe proef, zoals die in [&#x200B; wordt beschreven produceert Proefdrukken in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md).\
    of\
-   Open de de detailpagina van het Bewijs voor een bestaand bewijs, zoals die in [ wordt beschreven Beheer Details van het Bewijs in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
+   Open de de detailpagina van het Bewijs voor een bestaand bewijs, zoals die in [&#x200B; wordt beschreven Beheer Details van het Bewijs in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
 
 1. Selecteer **[!UICONTROL Require only one decision for this stage]** onder **[!UICONTROL Workflow]** voor een nieuwe proefdruk.\
    of\
    Selecteer **[!UICONTROL Only one decision required]** onder **[!UICONTROL Settings]** voor een bestaande proefdruk.
 
-Voor informatie over besluiten, zie [ een besluit over een bewijs in de het proef kijker ](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md#making-a-decision-on-a-proof) nemen.
+Voor informatie over besluiten, zie [&#x200B; een besluit over een bewijs in de het proef kijker &#x200B;](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md#making-a-decision-on-a-proof) nemen.
 
 ## Vereisen dat besluiten elektronisch worden ondertekend
 
-U kunt een elektronische handtekening opvragen van alle revisoren die een beslissing nemen over de proefdruk om hun e-mail en wachtwoord in te dienen. Wanneer een revisor een beslissingsprompt maakt, wordt hem gevraagd zijn e-mail en wachtwoord in te voeren en zijn beslissing te bevestigen. Voor meer informatie, zie [ Begrip elektronische handtekeningen in  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/managing-security/electronic-sigs-in-wp.md)
+U kunt een elektronische handtekening opvragen van alle revisoren die een beslissing nemen over de proefdruk om hun e-mail en wachtwoord in te dienen. Wanneer een revisor een beslissingsprompt maakt, wordt hem gevraagd zijn e-mail en wachtwoord in te voeren en zijn beslissing te bevestigen. Voor meer informatie, zie [&#x200B; Begrip elektronische handtekeningen in  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/managing-security/electronic-sigs-in-wp.md)
 
-1. Creeer een nieuwe proef, zoals die in [ wordt beschreven produceert Proefdrukken in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md).\
+1. Creeer een nieuwe proef, zoals die in [&#x200B; wordt beschreven produceert Proefdrukken in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md).\
    of\
-   Open de de detailpagina van het Bewijs voor een bestaand bewijs, zoals die in [ wordt beschreven Beheer Details van het Bewijs in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
+   Open de de detailpagina van het Bewijs voor een bestaand bewijs, zoals die in [&#x200B; wordt beschreven Beheer Details van het Bewijs in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
 
 1. Selecteer **[!UICONTROL Require decisions to be electronically signed]** onder **[!UICONTROL Proof settings]** voor een nieuwe proefdruk.\
    of\
    Selecteer **[!UICONTROL Require decisions to be electronically signed]** onder **[!UICONTROL Settings]** voor een bestaande proefdruk.
 
-Voor informatie over besluiten, zie [ de opties van het goedkeuringsbesluit in  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-approval-decision-in-wp.md) vormen.
+Voor informatie over besluiten, zie [&#x200B; de opties van het goedkeuringsbesluit in  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-approval-decision-in-wp.md) vormen.
 
 ## Gebruikers toestaan het oorspronkelijke bestand te downloaden
 
 U kunt de controleurs op een bewijs houden van het downloaden van het originele dossier waarvan een proef werd gecreeerd.
 
-1. Creeer een nieuwe proef, zoals die in [ wordt beschreven produceert Proefdrukken in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md).\
+1. Creeer een nieuwe proef, zoals die in [&#x200B; wordt beschreven produceert Proefdrukken in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md).\
    of\
-   Open de de detailpagina van het Bewijs voor een bestaand bewijs, zoals die in [ wordt beschreven Beheer Details van het Bewijs in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
+   Open de de detailpagina van het Bewijs voor een bestaand bewijs, zoals die in [&#x200B; wordt beschreven Beheer Details van het Bewijs in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
 
 1. Schakel onder **[!UICONTROL Proof settings]** de optie **[!UICONTROL Download original file]** uit voor een nieuwe proefdruk.\
    of\
@@ -107,7 +107,7 @@ U kunt de controleurs op een bewijs houden van het downloaden van het originele 
 
 Abonnement is een geavanceerde instelling die werkt met de proefdrukken van de URL en de Mini.
 
-Standaard kunnen mensen die niet specifiek aan de proefdruk zijn toegevoegd en de URL van de proefdruk of de Mini-proefdruk gebruiken om deze te openen, de proefdruk alleen bekijken in de modus Alleen-lezen. Personen die al revisoren zijn op de proefdruk, kunnen zich aanmelden met hun e-mailadres. Voor meer informatie, zie [ de Rollen van het Bewijs binnen beheren  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)
+Standaard kunnen mensen die niet specifiek aan de proefdruk zijn toegevoegd en de URL van de proefdruk of de Mini-proefdruk gebruiken om deze te openen, de proefdruk alleen bekijken in de modus Alleen-lezen. Personen die al revisoren zijn op de proefdruk, kunnen zich aanmelden met hun e-mailadres. Voor meer informatie, zie [&#x200B; de Rollen van het Bewijs binnen beheren  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)
 
 Als u een abonnement op de proefdruk inschakelt, kunnen personen die niet expliciet aan de proefdruk zijn toegevoegd, zich bij de proefdruk abonneren (door zich aan de proefdruk toe te voegen). Vervolgens krijgen ze de rol en e-mailwaarschuwing toegewezen die u voor hen selecteert in de Abonnementsinstellingen.
 
@@ -120,13 +120,13 @@ Als Subscription is ingeschakeld op een proefdruk, worden de onderstaande velden
 
 
 
-Zie ook [ aan een Bewijs in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/subscribe-to-proof.md) intekenen
+Zie ook [&#x200B; aan een Bewijs in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/subscribe-to-proof.md) intekenen
 
 Andere gebruikers toestaan zich op een bewijs te abonneren:
 
-1. Creeer een nieuwe proef, zoals die in [ wordt beschreven produceert Proefdrukken in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md).\
+1. Creeer een nieuwe proef, zoals die in [&#x200B; wordt beschreven produceert Proefdrukken in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md).\
    of\
-   Open de de detailpagina van het Bewijs voor een bestaand bewijs, zoals die in [ wordt beschreven Beheer Details van het Bewijs in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
+   Open de de detailpagina van het Bewijs voor een bestaand bewijs, zoals die in [&#x200B; wordt beschreven Beheer Details van het Bewijs in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
 
 1. Schakel onder **[!UICONTROL Proof settings]** de optie **[!UICONTROL Subscribe to proof via public URL or embed code]** uit voor een nieuwe proefdruk.\
    of\

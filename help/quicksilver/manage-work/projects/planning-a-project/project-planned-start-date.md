@@ -25,7 +25,7 @@ ht-degree: 0%
 </div>
 -->
 
-Voor het geplande begin en de geplande einddatum van een project wordt uitgegaan van de datum van de taken van het project. In dit artikel wordt de geplande begindatum van een project beschreven. Voor informatie over de taak Geplande Datum van het Begin, zie [ Overzicht van de taak Geplande Datum van het Begin ](../../../manage-work/tasks/task-information/task-planned-start-date.md).
+Voor het geplande begin en de geplande einddatum van een project wordt uitgegaan van de datum van de taken van het project. In dit artikel wordt de geplande begindatum van een project beschreven. Voor informatie over de taak Geplande Datum van het Begin, zie [&#x200B; Overzicht van de taak Geplande Datum van het Begin &#x200B;](../../../manage-work/tasks/task-information/task-planned-start-date.md).
 
 De Geplande Datum van het Begin van een project kan manueel of automatisch worden geplaatst, afhankelijk van of u het project van het Begin of van de Datum van de Voltooiing plant.
 
@@ -37,7 +37,7 @@ U moet manueel de Geplande Datum van het Begin van een project plaatsen wanneer 
 >
 >Wanneer u manueel de Geplande Datum van het Begin van een project plaatst, berekent Workfront automatisch de Geplande Datum van Voltooiing van het project dat op de Duur van alle taken wordt gebaseerd.
 
-Voor informatie over het plaatsen van de Geplande Datum van het Begin van het project, zie [ projecten ](../../../manage-work/projects/manage-projects/edit-projects.md) uitgeven.
+Voor informatie over het plaatsen van de Geplande Datum van het Begin van het project, zie [&#x200B; projecten &#x200B;](../../../manage-work/projects/manage-projects/edit-projects.md) uitgeven.
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: drafted below, to keep this as an overview article)</p>
@@ -62,21 +62,21 @@ De geplande begindatum van een project wordt automatisch ingesteld wanneer u het
 
   De geplande begindatum wordt automatisch berekend door Adobe Workfront op basis van de datum die u hebt geselecteerd voor de voltooiingsdatum en de duur van alle taken voor het project.
 
-  Voor informatie over het creëren van een project van kras, zie [ een project ](../../../manage-work/projects/create-projects/create-project.md) creëren.
+  Voor informatie over het creëren van een project van kras, zie [&#x200B; een project &#x200B;](../../../manage-work/projects/create-projects/create-project.md) creëren.
 
 * importeren uit Microsoft Project.
 
   De geplande begindatum is de begindatum van het project in Microsoft Project.
 
-  Voor informatie over het invoeren van een project van het Project van Microsoft, zie [ een project van het Project van Microsoft ](../../../manage-work/projects/create-projects/import-project-from-ms-project.md) invoeren.
+  Voor informatie over het invoeren van een project van het Project van Microsoft, zie [&#x200B; een project van het Project van Microsoft &#x200B;](../../../manage-work/projects/create-projects/import-project-from-ms-project.md) invoeren.
 
 * Importeer het bestand met Workfront Kick-Start als Workfront-beheerder.
 
   De geplande begindatum komt altijd overeen met de tijd en datum van de computer, tenzij u anders opgeeft in het veld setPlannedStartDate op het projectblad van het startbestand.
 
-  Voor informatie over het invoeren van gegevens gebruikend schop-begin, zie [ Gegevens van de Invoer in Adobe Workfront gebruikend een Kick-Begin malplaatje ](../../../administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
+  Voor informatie over het invoeren van gegevens gebruikend schop-begin, zie [&#x200B; Gegevens van de Invoer in Adobe Workfront gebruikend een Kick-Begin malplaatje &#x200B;](../../../administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
 
-  Voor informatie over het invoeren van projecten die schoppen-begin gebruiken, zie [ Kick-Begint scenario: het eenvoudige project en de voorbereiding van de taakinvoer ](../../../administration-and-setup/manage-workfront/using-kick-starts/kick-starts-scenario-simple-project-task-import-prep.md).
+  Voor informatie over het invoeren van projecten die schoppen-begin gebruiken, zie [&#x200B; Kick-Begint scenario: het eenvoudige project en de voorbereiding van de taakinvoer &#x200B;](../../../administration-and-setup/manage-workfront/using-kick-starts/kick-starts-scenario-simple-project-task-import-prep.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -97,7 +97,7 @@ De geplande begindatum van een project wordt automatisch ingesteld wanneer u het
 
 U kunt de geplande begindatum van een taak opgeven of deze aan Workfront overlaten om de taak te berekenen op basis van bepaalde criteria.
 
-Voor informatie over de Geplande Datum van het Begin van een taak, zie [ Overzicht van de taak Geplande Datum van het Begin ](../../../manage-work/tasks/task-information/task-planned-start-date.md).
+Voor informatie over de Geplande Datum van het Begin van een taak, zie [&#x200B; Overzicht van de taak Geplande Datum van het Begin &#x200B;](../../../manage-work/tasks/task-information/task-planned-start-date.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

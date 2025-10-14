@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Op deze pagina worden alle rapportverbeteringen beschreven die zijn aangebracht met de release Derde kwartaal 2025 voor de voorvertoningsomgeving. Deze verbeteringen zullen beschikbaar worden gesteld in de productieomgeving, zoals vermeld.
 
-Voor een lijst van alle veranderingen beschikbaar op dit punt in het Derde Kwartaal 2025 versiecyclus, zie [ Derde Kwartaal 2025 releaseoverzicht ](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar op dit punt in het Derde Kwartaal 2025 versiecyclus, zie [&#x200B; Derde Kwartaal 2025 releaseoverzicht &#x200B;](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md).
 
 ## Uitgebreide beveiliging voor levering van rapporten
 
@@ -29,7 +29,7 @@ Als uw organisatie een beperking had gedefinieerd voor de e-maildomeinen waarvan
 
 Nu voeren we ook een controle uit terwijl het e-mailbericht wordt verzonden om te controleren of het ingevoerde e-mailadres voldoet aan de lijst van gewenste personen voor e-mail. Deze verbeterde controle is van toepassing op e-mailadressen die aan gebruikers zijn gekoppeld en op e-mails ad hoc die aan de lijst met rapportontvangers worden toegevoegd.
 
-Voor meer informatie, zie [ Plan een automatische rapportlevering ](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/set-up-automatic-report-delivery.md).
+Voor meer informatie, zie [&#x200B; Plan een automatische rapportlevering &#x200B;](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/set-up-automatic-report-delivery.md).
 
 
 ## De vervangingsresultaten van de gebruiker niet meer met een ongeldige waarde wanneer het filtreren

@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Op deze pagina worden alle projectverbeteringen beschreven die zijn aangebracht met de release 2020.2 voor de productieomgeving. Deze verbeteringen zijn in de productieomgeving beschikbaar gesteld in de week van 11 mei 2020.
 
-Voor een lijst van alle veranderingen beschikbaar met de versie 2020.2, zie [ overzicht van de versie 2020.2 ](../../../product-announcements/product-releases/2020.2.-release-activity/2020-2-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar met de versie 2020.2, zie [&#x200B; overzicht van de versie 2020.2 &#x200B;](../../../product-announcements/product-releases/2020.2.-release-activity/2020-2-release-overview.md).
 
 ## Voor Workfront-beheerders: Nieuwe failsafe wanneer de projectstatus voor nieuwe projecten verborgen of ontgrendeld is
 
@@ -26,7 +26,7 @@ In Opstelling, vormt u een voorkeur om ervoor te zorgen dat elk nieuw project ee
 
 Om ervoor te zorgen dat de nieuwe projecten altijd een status hebben, zelfs als een beheerder de status voor nieuwe projecten verbergt of ontgrendelt, wijst het systeem nu de eerste status in de lijst van de Status aan alle nieuwe projecten toe tot u de nieuwe status voor nieuwe projecten opnieuw vormt.
 
-Voor informatie over het plaatsen van de voorkeur voor het statuut van alle nieuwe projecten, zie [ systeem-brede projectvoorkeur ](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) vormen (of als u Klassiek Adobe Workfront gebruikt, zie [ Plaatsende Voorkeur van het Project ](https://experienceleague.adobe.com/nl/docs/workfront/using/home)).
+Voor informatie over het plaatsen van de voorkeur voor het statuut van alle nieuwe projecten, zie [&#x200B; systeem-brede projectvoorkeur &#x200B;](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) vormen (of als u Klassiek Adobe Workfront gebruikt, zie [&#x200B; Plaatsende Voorkeur van het Project &#x200B;](https://experienceleague.adobe.com/nl/docs/workfront/using/home)).
 
 **Beschikbaar in deze milieu&#39;s:**
 
@@ -42,7 +42,7 @@ De ervaring met het instellen van projectvoorkeuren is nu intuïtiever en gebrui
 * Als u een ongeldig getal typt voor een optie zoals &quot;Normaal aantal uren per werkdag&quot;, wordt direct een waarschuwingsbericht weergegeven in plaats van dat het bericht wordt weergegeven nadat u op Opslaan hebt geklikt.
 * Optie-labels komen overeen met de overeenkomende interfacetekst elders in Workfront, zoals in het gebied Details en rapporten.
 
-Voor informatie over het gebied van de Voorkeur van het Project, zie [ systeem-brede projectvoorkeur ](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) vormen (of als u Klassiek Adobe Workfront gebruikt, zie [ Plaatsende Voorkeur van het Project ](https://experienceleague.adobe.com/nl/docs/workfront/using/home)).
+Voor informatie over het gebied van de Voorkeur van het Project, zie [&#x200B; systeem-brede projectvoorkeur &#x200B;](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) vormen (of als u Klassiek Adobe Workfront gebruikt, zie [&#x200B; Plaatsende Voorkeur van het Project &#x200B;](https://experienceleague.adobe.com/nl/docs/workfront/using/home)).
 
 **Beschikbaar in deze milieu&#39;s:**
 
@@ -68,11 +68,11 @@ Bijvoorbeeld, wanneer u of kopieert een taak met moet Begin op beperking aan een
 
 Voorafgaand aan deze verandering, verandert de Beperking van de Taak altijd in zo spoedig mogelijk.
 
-Voor informatie over het bewegen van taken zie, [ de taken van de Beweging ](../../../manage-work/tasks/manage-tasks/move-tasks.md) (of als u Classic Adobe Workfront gebruikt, zie [ Bewegende Taken ](https://experienceleague.adobe.com/nl/docs/workfront/using/home)).
+Voor informatie over het bewegen van taken zie, [&#x200B; de taken van de Beweging &#x200B;](../../../manage-work/tasks/manage-tasks/move-tasks.md) (of als u Classic Adobe Workfront gebruikt, zie [&#x200B; Bewegende Taken &#x200B;](https://experienceleague.adobe.com/nl/docs/workfront/using/home)).
 
-Voor informatie over het kopiëren van taken, zie [ Kopiëren en dupliceren taken ](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md) (of als u de Klassieke van Adobe Workfront gebruikt, zie [ Taken ](https://experienceleague.adobe.com/nl/docs/workfront/using/home) Exemplaar en Dupliceren).
+Voor informatie over het kopiëren van taken, zie [&#x200B; Kopiëren en dupliceren taken &#x200B;](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md) (of als u de Klassieke van Adobe Workfront gebruikt, zie [&#x200B; Taken &#x200B;](https://experienceleague.adobe.com/nl/docs/workfront/using/home) Exemplaar en Dupliceren).
 
-Voor een overzicht van alle Beperkingen van de Taak, zie [ Overzicht van de Beperking van de Taak ](../../../manage-work/tasks/task-constraints/task-constraint-overview.md) (of als u Klassiek Adobe Workfront gebruikt, zie [ Overzicht van de Restrictie van de Taak ](https://experienceleague.adobe.com/nl/docs/workfront/using/home)).
+Voor een overzicht van alle Beperkingen van de Taak, zie [&#x200B; Overzicht van de Beperking van de Taak &#x200B;](../../../manage-work/tasks/task-constraints/task-constraint-overview.md) (of als u Klassiek Adobe Workfront gebruikt, zie [&#x200B; Overzicht van de Restrictie van de Taak &#x200B;](https://experienceleague.adobe.com/nl/docs/workfront/using/home)).
 
 **Beschikbaar in deze milieu&#39;s:**
 
@@ -83,7 +83,7 @@ Voor een overzicht van alle Beperkingen van de Taak, zie [ Overzicht van de Bepe
 
 Om gegevensverlies te verhinderen wanneer u informatie over de pagina van Details over een voorwerp of taken in een taaklijst op het projectniveau wanneer het opslaan van veranderingen manueel bijwerkt, toont een waarschuwingsbericht nu, om u op de hoogte te brengen dat u unsaved veranderingen hebt alvorens u probeert om informatie in de kopbal uit te geven. De enige handelingen die u hebt toegestaan voordat u uw wijzigingen opslaat, zijn het abonneren of het toevoegen van het object aan uw favorieten.
 
-Voor informatie over het uitgeven van taken in een lijst, zie [ taken in een lijst ](../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md) uitgeven
+Voor informatie over het uitgeven van taken in een lijst, zie [&#x200B; taken in een lijst &#x200B;](../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md) uitgeven
 
 **Beschikbaar in deze milieu&#39;s:**
 

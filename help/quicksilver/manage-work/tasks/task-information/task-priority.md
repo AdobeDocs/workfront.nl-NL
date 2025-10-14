@@ -53,7 +53,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 Houd rekening met het volgende wanneer u taakprioriteiten gebruikt:
 
-* Adobe Workfront-beheerders kunnen prioriteitslabels in Workfront wijzigen of ze kunnen nieuwe prioriteiten maken. Hierdoor kunnen de opties die u hebt voor het veld Prioriteit in uw Workfront-instantie afwijken van de opties die hieronder worden vermeld. Voor informatie over het aanpassen van de namen van prioriteiten in uw instantie, zie [ prioriteiten ](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md) creëren en aanpassen.
+* Adobe Workfront-beheerders kunnen prioriteitslabels in Workfront wijzigen of ze kunnen nieuwe prioriteiten maken. Hierdoor kunnen de opties die u hebt voor het veld Prioriteit in uw Workfront-instantie afwijken van de opties die hieronder worden vermeld. Voor informatie over het aanpassen van de namen van prioriteiten in uw instantie, zie [&#x200B; prioriteiten &#x200B;](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md) creëren en aanpassen.
 * Aan elk prioritair label is een nummer gekoppeld dat niet kan worden gewijzigd.
 
   U zou vertrouwd met de nummeringsopeenvolging voor prioriteiten moeten worden die in uw organisatie worden gebruikt.

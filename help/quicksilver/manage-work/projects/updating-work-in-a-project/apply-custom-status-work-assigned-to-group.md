@@ -19,7 +19,7 @@ ht-degree: 0%
 Alina, I moved this out of an admin article about statuses (Create and customize statuses)
 -->
 
-Als een project met een groep wordt geassocieerd, kunt u zowel systeem-vlakke statussen evenals een douanestatus toepassen verbonden aan die groep aan het project, of taken en kwesties op dat project. Voor informatie over groepsstatussen in Adobe Workfront, zie [ een status ](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md) creëren of uitgeven.
+Als een project met een groep wordt geassocieerd, kunt u zowel systeem-vlakke statussen evenals een douanestatus toepassen verbonden aan die groep aan het project, of taken en kwesties op dat project. Voor informatie over groepsstatussen in Adobe Workfront, zie [&#x200B; een status &#x200B;](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md) creëren of uitgeven.
 
 >[!TIP]
 >
@@ -91,8 +91,8 @@ Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanv
 
 Wanneer u de Groep voor een project bijwerkt, de opties beschikbaar voor de Status van taken, kwesties, of de projectverandering om de groep aan te passen.
 
-1. Ga naar een project, of creeer een nieuw project, zoals die in [ wordt beschreven creeer een project ](../../../manage-work/projects/create-projects/create-project.md).
-1. Klik het **Meer** pictogram ![ Meer pictogram ](assets/more-icon.png), dan klik **uitgeven**.
+1. Ga naar een project, of creeer een nieuw project, zoals die in [&#x200B; wordt beschreven creeer een project &#x200B;](../../../manage-work/projects/create-projects/create-project.md).
+1. Klik het **Meer** pictogram ![&#x200B; Meer pictogram &#x200B;](assets/more-icon.png), dan klik **uitgeven**.
 
 1. In **geef de doos van het Project** uit die, dichtbij de bodem van de **sectie van het Overzicht** toont, selecteer de groep in het **Groep** drop-down menu.
 
@@ -103,7 +103,7 @@ Wanneer u de Groep voor een project bijwerkt, de opties beschikbaar voor de Stat
    >Als u een verschillende groep in het **drop-down menu van de Groep** selecteert, veranderen de douanestatussen in het **3&rbrace; menu van de Status &lbrace;automatisch om met de nieuwe groep te correleren.**
    >
    >
-   >![ drop-down Status die met douanestatus voor project wordt uitgebreid ](assets/status-drop-down-expanded-with-custom-statuses-for-project-nwe.png)   >
+   >![&#x200B; drop-down Status die met douanestatus voor project wordt uitgebreid &#x200B;](assets/status-drop-down-expanded-with-custom-statuses-for-project-nwe.png)   >
    >
 
 1. Selecteer de status van het project. De aangepaste status die u hebt gemaakt en toegepast op die groep, wordt weergegeven in de lijst.

@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [ het Bewijzen ](../../../review-and-approve-work/proofing/proofing.md).
+>Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [&#x200B; het Bewijzen &#x200B;](../../../review-and-approve-work/proofing/proofing.md).
 
 U kunt aangepaste weergaven van uw bestanden en proefdrukken maken om de gewenste items weer te geven op de manier waarop u ze wilt weergeven. U kunt de informatie in uw mening van de Douane ook uitvoeren als rapport (in CSV, komma gescheiden waarde, dossierformaat).
 
@@ -41,15 +41,15 @@ Nadat de aangepaste weergave is gemaakt, kunt u deze direct gebruiken. De naam v
 Een aangepaste weergave maken:
 
 1. Ga naar de pagina **[!UICONTROL Views]** .
-1. Voor meer informatie over meningen, zie [ Punten op de Pagina van Weergaven in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md) leiden.
+1. Voor meer informatie over meningen, zie [&#x200B; Punten op de Pagina van Weergaven in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md) leiden.
 1. Voer een van de volgende handelingen uit, afhankelijk van het feit of u een nieuwe aangepaste weergave helemaal opnieuw wilt maken of een nieuwe aangepaste weergave wilt maken op basis van een bestaande standaardweergave:
 
    * Als u een nieuwe aangepaste weergave wilt maken op basis van een bestaande standaardweergave, selecteert u in het keuzemenu de bestaande standaardweergave die u als basis voor de nieuwe aangepaste weergave wilt gebruiken. Klik op het pictogram **[!UICONTROL View Settings]** en klik vervolgens op **[!UICONTROL Copy]** om een nieuwe aangepaste weergave te maken.
 
-   * ![ pictogram van de Mening van de Douane ](assets/proof-custom-view-icon.png)
+   * ![&#x200B; pictogram van de Mening van de Douane &#x200B;](assets/proof-custom-view-icon.png)
 
    * Als u een geheel nieuwe aangepaste weergave wilt maken, klikt u op het pictogram **[!UICONTROL New View]** .
-   * ![ Nieuwe mening ](assets/proof-newview.png)
+   * ![&#x200B; Nieuwe mening &#x200B;](assets/proof-newview.png)
 
 1. Geef in de sectie **[!UICONTROL Details]** de volgende informatie op:
 
@@ -59,7 +59,7 @@ Een aangepaste weergave maken:
 1. Bepaal in de sectie **[!UICONTROL Columns]** welke kolommen u in de aangepaste weergave wilt opnemen.
 
    1. Klik op het pictogram Pijl-rechts.
-   1. ![ Juiste pijl ](assets/proof-view-rightarrow.png)
+   1. ![&#x200B; Juiste pijl &#x200B;](assets/proof-view-rightarrow.png)
 
    1. Klik de naam van de geselecteerde kolom tweemaal.
    1. U moet ten minste één kolom selecteren en er kan slechts één kolom worden toegevoegd.
@@ -263,31 +263,31 @@ Een aangepaste weergave maken:
    * Als u ervoor kiest om uw weergave op dit moment niet te delen met andere gebruikers, kunt u dat later doen door de aangepaste weergave te bewerken.
 
 1. Klik op **[!UICONTROL Create]**.
-1. De weergave Aangepast wordt weergegeven en is beschikbaar op de pagina [!DNL Views] . Voor meer informatie over meningen, zie [ Punten op de  [!DNL Views]  Pagina in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md) leiden.
+1. De weergave Aangepast wordt weergegeven en is beschikbaar op de pagina [!DNL Views] . Voor meer informatie over meningen, zie [&#x200B; Punten op de  [!DNL Views]  Pagina in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md) leiden.
 
 ## Aangepaste weergaven bewerken
 
 U kunt een aangepaste weergave gemakkelijk bewerken. Een aangepaste weergave bewerken:
 
 1. Ga naar de pagina **[!UICONTROL Views]** .\
-   Voor meer informatie over meningen, zie [ Punten op de Pagina van Weergaven in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md) leiden.
+   Voor meer informatie over meningen, zie [&#x200B; Punten op de Pagina van Weergaven in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md) leiden.
 
 1. Klik op de knop [!UICONTROL Views] (1)
 1. Selecteer de weergave die u wilt bewerken in het keuzemenu.\
-   ![ geef mening ](assets/proof-view-edit.png) uit
+   ![&#x200B; geef mening &#x200B;](assets/proof-view-edit.png) uit
 
 1. Klik op de knop **[!UICONTROL View Options]** en klik vervolgens op **[!UICONTROL Edit view]** .\
-   ![ de opties van de Mening ](assets/proof-view-options.png)\
+   ![&#x200B; de opties van de Mening &#x200B;](assets/proof-view-options.png)\
    De pagina Aangepaste weergave bewerken wordt weergegeven.
 
 1. Klik op het menu [!UICONTROL Actions] . (3)\
    Deze knop is alleen beschikbaar als u de kolom Proefnaam in uw weergave opneemt.
 1. Selecteer [!UICONTROL Edit view] in het menu. (4) \
-   ![ het uitgeven_custom_view_2.png ](assets/editing-custom-view-2-350x258.png)
+   ![&#x200B; het uitgeven_custom_view_2.png &#x200B;](assets/editing-custom-view-2-350x258.png)
 
 1. De aangepaste weergavepagina Bewerken wordt weergegeven.
 
-![ Edit_custom_view_page.png ](assets/edit-custom-view-page-350x543.png)
+![&#x200B; Edit_custom_view_page.png &#x200B;](assets/edit-custom-view-page-350x543.png)
 
 >[!NOTE]
 >
@@ -301,7 +301,7 @@ Met de functie Kopiëren kunt u eenvoudig een kopie van een bestaande aangepaste
 Een aangepaste weergave kopiëren:
 
 1. Ga naar de pagina **[!UICONTROL Views]** .\
-   Voor meer informatie over meningen, zie [ Punten op de Pagina van Weergaven in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md) leiden.
+   Voor meer informatie over meningen, zie [&#x200B; Punten op de Pagina van Weergaven in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md) leiden.
 
 1. Klik op de knop **[!UICONTROL Views]** . (1)
 1. Selecteer de aangepaste weergave in de lijst. (2)
@@ -309,10 +309,10 @@ Een aangepaste weergave kopiëren:
    Deze knop is alleen beschikbaar als u de kolom Proefnaam in uw weergave opneemt.
 
 1. Selecteer [!UICONTROL Copy] in het menu. (4)\
-   ![ het kopiëren_custom_view.png ](assets/copying-custom-view-350x258.png)
+   ![&#x200B; het kopiëren_custom_view.png &#x200B;](assets/copying-custom-view-350x258.png)
 
 1. Op de aangepaste weergavepagina Kopiëren worden alle oorspronkelijke instellingen gevuld. Wijzig de weergave Aangepast naar keuze en klik op de knop **[!UICONTROL Copy view]** . U wordt direct naar de nieuwe weergave geleid.\
-   ![ de douanemening van het Exemplaar ](assets/copy-custom-view-page-350x542.png)
+   ![&#x200B; de douanemening van het Exemplaar &#x200B;](assets/copy-custom-view-page-350x542.png)
 
 ## Aangepaste weergaven delen
 
@@ -321,7 +321,7 @@ Met de functie voor de weergave Delen kunt u een weergave delen met andere gebru
 Een aangepaste weergave delen met andere gebruikers:
 
 1. Ga naar de pagina **[!UICONTROL Views]** .\
-   Voor meer informatie over meningen, zie [ Punten op de Pagina van Weergaven in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md) leiden.
+   Voor meer informatie over meningen, zie [&#x200B; Punten op de Pagina van Weergaven in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md) leiden.
 
 1. Klik op de knop **[!UICONTROL Views]** (1)
 1. Selecteer de aangepaste weergave in de lijst (2)
@@ -332,14 +332,14 @@ Een aangepaste weergave delen met andere gebruikers:
 1. De pagina Aangepaste weergave bewerken wordt weergegeven.
 1. Selecteer in de sectie [!UICONTROL Sharing] de gebruikers met wie u de weergave wilt delen en klik op **[!UICONTROL Update view]** .
 
-   ![ Edit_custom_view_page__1_.png ](assets/edit-custom-view-page--1--350x543.png)
+   ![&#x200B; Edit_custom_view_page__1_.png &#x200B;](assets/edit-custom-view-page--1--350x543.png)
 
 ## Aangepaste weergaven exporteren naar CSV-bestanden
 
 De gegevens vanuit een aangepaste weergave exporteren naar een CSV-bestand:
 
 1. Ga naar de pagina **[!UICONTROL Views]** .\
-   Voor meer informatie over meningen, zie [ Punten op de Pagina van Weergaven in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md) leiden.
+   Voor meer informatie over meningen, zie [&#x200B; Punten op de Pagina van Weergaven in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md) leiden.
 
 1. Klik op de knop **[!UICONTROL Views]** . (1)
 1. Selecteer de aangepaste weergave in de lijst. (2)
@@ -347,7 +347,7 @@ De gegevens vanuit een aangepaste weergave exporteren naar een CSV-bestand:
    Deze knop is alleen beschikbaar als u de kolom Proefnaam in uw weergave opneemt.
 
 1. Selecteer [!UICONTROL Export to CSV] in het menu. (4)\
-   ![ exporting_custom_view.png ](assets/exporting-custom-view-350x258.png)\
+   ![&#x200B; exporting_custom_view.png &#x200B;](assets/exporting-custom-view-350x258.png)\
    In een afzonderlijk browservenster wordt &#39;Rapport genereren: 100%&#39; weergegeven plus het aantal records (het aantal items dat in het rapport is opgenomen vanuit de aangepaste weergave)
 
 1. (Voorwaardelijk) Als er een beveiligingsbericht verschijnt dat het downloaden van het rapport momenteel is geblokkeerd, klikt u om het downloaden toe te staan.
@@ -359,7 +359,7 @@ De gegevens vanuit een aangepaste weergave exporteren naar een CSV-bestand:
 U kunt een aangepaste weergave gemakkelijk verwijderen. Dit doet u als volgt:
 
 1. Ga naar de pagina **[!UICONTROL Views]** .\
-   Voor meer informatie over meningen, zie [ Punten op de Pagina van Weergaven in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md) leiden.
+   Voor meer informatie over meningen, zie [&#x200B; Punten op de Pagina van Weergaven in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md) leiden.
 
 1. Klik op de knop **[!UICONTROL Views]** .
 1. Selecteer de aangepaste weergave in de lijst
@@ -367,9 +367,9 @@ U kunt een aangepaste weergave gemakkelijk verwijderen. Dit doet u als volgt:
    Deze knop is alleen beschikbaar als u de kolom Proefnaam in uw weergave opneemt.
 
 1. Selecteer [!UICONTROL Delete] in het menu. (4)\
-   ![ het schrappen_custom_view.png ](assets/deleting-custom-view-350x258.png)
+   ![&#x200B; het schrappen_custom_view.png &#x200B;](assets/deleting-custom-view-350x258.png)
 
 1. Klik op **[!UICONTROL Delete]** (5) om te bevestigen dat u de huidige aangepaste weergave wilt verwijderen\
-   ![ delete__1_.png ](assets/delete--1--350x187.png)
+   ![&#x200B; delete__1_.png &#x200B;](assets/delete--1--350x187.png)
 
 1. De standaardweergave Alle items wordt weergegeven en de verwijderde aangepaste weergave wordt niet meer weergegeven in het vervolgkeuzemenu **[!UICONTROL Views]** .

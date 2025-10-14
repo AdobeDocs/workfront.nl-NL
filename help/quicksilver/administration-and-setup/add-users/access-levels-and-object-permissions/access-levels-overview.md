@@ -30,7 +30,7 @@ Elk van de zes ingebouwde toegangsniveaus is verbonden aan één van de vijf Wor
 
 External is een niet-betaalde licentie die voornamelijk is ontworpen voor het delen van documenten met medewerkers die geen Workfront gebruiken.
 
-![ de toegangsniveaus en vergunningen van de Oudheid ](assets/access-levels-and-licenses-old.png)
+![&#x200B; de toegangsniveaus en vergunningen van de Oudheid &#x200B;](assets/access-levels-and-licenses-old.png)
 
 Raadpleeg de volgende artikelen voor informatie over onderwerpen die betrekking hebben op toegangsniveaus:
 

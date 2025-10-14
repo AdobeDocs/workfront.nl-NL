@@ -22,7 +22,7 @@ Op deze pagina worden alle wijzigingen beschreven die het laatst beschikbaar zij
 >
 > De op deze pagina beschreven functionaliteit kan worden gewijzigd voordat deze beschikbaar is in de productieomgeving.
 
-Voor een lijst met alle wijzigingen die in 2018.3 zijn aangebracht, raadpleegt u  [ 2018.3 overzicht van de versieactiviteit ](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-release-activity-overview.md).
+Voor een lijst met alle wijzigingen die in 2018.3 zijn aangebracht, raadpleegt u  [&#x200B; 2018.3 overzicht van de versieactiviteit &#x200B;](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-release-activity-overview.md).
 
 De Beta 2-release van 2018.3 bevat verbeteringen voor zowel Workfront-beheerders als andere gebruikers:
 
@@ -32,13 +32,13 @@ De Beta 2-release van 2018.3 bevat verbeteringen voor zowel Workfront-beheerders
 
 **voor Alle Gebruikers**
 
-* [ de Goedkeuringen van de Mening aan me in het Gebied van het Huis ](#view-approvals-delegated-to-me-in-the-home-area) worden gedelegeerd
-* [ Gegevens van de Uitvoer voor een bepaalde Periode in de Planner van het Middel ](#export-data-for-a-given-period-in-the-resource-planner)
-* [ Dagelijkse Totalen nu Vertoning in Rood wanneer de Gebruiker ](#daily-totals-now-display-in-red-when-the-user-is-overallocated) wordt oververdeeld
-* [ de Taken en de Kwesties worden verborgen op de Plannende Chronologie wanneer geminimaliseerd ](#tasks-and-issues-are-hidden-on-the-scheduling-timeline-when-minimized)
-* [ Commentaren van de Filter en Reacties door Gebruiker in de het proef kijker ](#filter-comments-and-replies-by-user-in-the-proofing-viewer)
-* [ Commentaar op een Waaier van Beeldmateriaal in een Videoproef ](#comment-on-a-range-of-footage-in-a-video-proof)
-* [ Nieuw PolylineHulpmiddel voor de Prijsverhoging van de Commentaar in de het proef kijker ](#new-polyline-tool-for-comment-markup-in-the-proofing-viewer)
+* [&#x200B; de Goedkeuringen van de Mening aan me in het Gebied van het Huis &#x200B;](#view-approvals-delegated-to-me-in-the-home-area) worden gedelegeerd
+* [&#x200B; Gegevens van de Uitvoer voor een bepaalde Periode in de Planner van het Middel &#x200B;](#export-data-for-a-given-period-in-the-resource-planner)
+* [&#x200B; Dagelijkse Totalen nu Vertoning in Rood wanneer de Gebruiker &#x200B;](#daily-totals-now-display-in-red-when-the-user-is-overallocated) wordt oververdeeld
+* [&#x200B; de Taken en de Kwesties worden verborgen op de Plannende Chronologie wanneer geminimaliseerd &#x200B;](#tasks-and-issues-are-hidden-on-the-scheduling-timeline-when-minimized)
+* [&#x200B; Commentaren van de Filter en Reacties door Gebruiker in de het proef kijker &#x200B;](#filter-comments-and-replies-by-user-in-the-proofing-viewer)
+* [&#x200B; Commentaar op een Waaier van Beeldmateriaal in een Videoproef &#x200B;](#comment-on-a-range-of-footage-in-a-video-proof)
+* [&#x200B; Nieuw PolylineHulpmiddel voor de Prijsverhoging van de Commentaar in de het proef kijker &#x200B;](#new-polyline-tool-for-comment-markup-in-the-proofing-viewer)
 * [Flash verwijderen voor rapport, kalender en document delen](#flash-removal-for-report-calendar-and-document-sharing)
 
 ## Het e-mailadres in het gebruikersprofiel bijwerken als groepsbeheerder {#update-the-email-address-in-the-user-profile-as-a-group-administrator}
@@ -47,7 +47,7 @@ U kunt nu e-mailadressen bijwerken voor gebruikers die behoren tot een groep die
 
 Eerder konden alleen Workfront-beheerders e-mailadressen voor andere gebruikers bijwerken. 
 
-Voor meer informatie, zie [ de beheerders van de Groep ](../../../../administration-and-setup/manage-groups/group-roles/group-administrators.md).
+Voor meer informatie, zie [&#x200B; de beheerders van de Groep &#x200B;](../../../../administration-and-setup/manage-groups/group-roles/group-administrators.md).
 
 ## Goedkeuringen weergeven die aan mij zijn gedelegeerd in het thuisgebied {#view-approvals-delegated-to-me-in-the-home-area}
 
@@ -55,7 +55,7 @@ U kunt het gebied van het Huis nu gebruiken om project, taak, en geven goedkeuri
 
 Voorafgaand aan deze verandering, kon u gedelegeerde goedkeuringen slechts in Mijn Gebied van het Werk bekijken.
 
-Voor meer informatie, zie [ de goedkeuringsverzoek van de Afgevaardigde ](../../../../review-and-approve-work/manage-approvals/delegate-approval-requests.md).
+Voor meer informatie, zie [&#x200B; de goedkeuringsverzoek van de Afgevaardigde &#x200B;](../../../../review-and-approve-work/manage-approvals/delegate-approval-requests.md).
 
 ## Gegevens exporteren voor een bepaalde periode in de bronnenplanner {#export-data-for-a-given-period-in-the-resource-planner}
 
@@ -63,13 +63,13 @@ Er wordt nu een nieuw venster weergegeven wanneer u de informatie exporteert in 
 
 Voorafgaand aan deze verbetering, kon u slechts de informatie uitvoeren die op het scherm wordt getoond.
 
-Voor meer informatie over het uitvoeren van gegevens van de Planner van het Middel, zie [ het navigatieoverzicht van de Planner van het Middel ](../../../../resource-mgmt/resource-planning/resource-planner-navigation.md) in het artikel [ navigatie overzicht van de Planner van het Middel ](../../../../resource-mgmt/resource-planning/resource-planner-navigation.md).
+Voor meer informatie over het uitvoeren van gegevens van de Planner van het Middel, zie [&#x200B; het navigatieoverzicht van de Planner van het Middel &#x200B;](../../../../resource-mgmt/resource-planning/resource-planner-navigation.md) in het artikel [&#x200B; navigatie overzicht van de Planner van het Middel &#x200B;](../../../../resource-mgmt/resource-planning/resource-planner-navigation.md).
 
 ## Dagelijkse totalen worden nu rood weergegeven wanneer de gebruiker teveel is toegewezen {#daily-totals-now-display-in-red-when-the-user-is-overallocated}
 
 >[!NOTE]
 >
->De hulpmiddelen van de Planning van het Middel zijn afgekeurd en uit Workfront met versie 23.1 verwijderd. Voor informatie over het plannen van middelen die de Balancer van de Werklast gebruiken, zie [ Overzicht van de Balancer van de Werkbelasting ](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+>De hulpmiddelen van de Planning van het Middel zijn afgekeurd en uit Workfront met versie 23.1 verwijderd. Voor informatie over het plannen van middelen die de Balancer van de Werklast gebruiken, zie [&#x200B; Overzicht van de Balancer van de Werkbelasting &#x200B;](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
 
 Wanneer een gebruiker wordt oververdeeld, worden de dagelijkse totalen voor de dagen waarop de gebruiker wordt oververdeeld nu in rood weergegeven. Deze optie wordt alleen weergegeven wanneer de optie Totalen voor Daily Planned Hours weergeven is ingeschakeld in de tijdlijninstellingen voor planning. Voorafgaand aan deze verbetering, was er een rode bar indicator voor de dagen toen de gebruiker werd oververdeeld, maar de dagelijkse totalen getoond zonder een rood hoogtepunt.
 

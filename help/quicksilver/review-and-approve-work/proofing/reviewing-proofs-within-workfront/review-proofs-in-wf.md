@@ -19,9 +19,9 @@ ht-degree: 0%
 
 Deze sectie bevat de volgende artikelen:
 
-* [ Overzicht een proef ](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/review-a-proof.md)
-* [ Commentaar op een proef ](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/comment-on-proof.md)
+* [&#x200B; Overzicht een proef &#x200B;](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/review-a-proof.md)
+* [&#x200B; Commentaar op een proef &#x200B;](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/comment-on-proof.md)
 * [Beslissing over een bewijs](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decision-on-proof.md)
 
-* [ beheer berichten voor proefdrukcommentaren en besluiten ](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/manage-notifications-for-proof-comments.md)
+* [&#x200B; beheer berichten voor proefdrukcommentaren en besluiten &#x200B;](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/manage-notifications-for-proof-comments.md)
 * [De instellingen voor de proefdrukviewer configureren](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/configure-proofing-viewer-settings.md)

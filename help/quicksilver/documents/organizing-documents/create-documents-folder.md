@@ -62,7 +62,7 @@ Met een open voorwerp van Workfront, klik **Documenten** in het linkerpaneel.
 
 1. Klik op de weergaveopties boven het rechterdeelvenster om de weergave van de documenten te wijzigen.
 
-   ![ de meningsopties van het Document ](assets/screenshot-2016-07-07-12.46.54.png)
+   ![&#x200B; de meningsopties van het Document &#x200B;](assets/screenshot-2016-07-07-12.46.54.png)
 
 ## Mappen en submappen maken
 
@@ -82,4 +82,4 @@ Met een open voorwerp van Workfront, klik **Documenten** in het linkerpaneel.
 
 ## Mappen delen
 
-Voor informatie over het delen van omslagen, zie [ een documentomslag ](../../workfront-basics/grant-and-request-access-to-objects/share-a-document-folder.md) delen.
+Voor informatie over het delen van omslagen, zie [&#x200B; een documentomslag &#x200B;](../../workfront-basics/grant-and-request-access-to-objects/share-a-document-folder.md) delen.

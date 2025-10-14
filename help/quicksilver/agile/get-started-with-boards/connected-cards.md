@@ -68,7 +68,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -76,7 +76,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 {{step1-to-boards}}
 
-1. Toegang tot een bord. Voor informatie, zie [ creeer of geef een raad ](../../agile/get-started-with-boards/create-edit-board.md) uit.
+1. Toegang tot een bord. Voor informatie, zie [&#x200B; creeer of geef een raad &#x200B;](../../agile/get-started-with-boards/create-edit-board.md) uit.
 1. Klik op **[!UICONTROL Add card]>[!UICONTROL Connected card]** .
 1. Kies een project en kies vervolgens een taak of uitgave die u als kaart aan de kaart wilt toevoegen.
 
@@ -89,18 +89,18 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 1. Klik op **[!UICONTROL Add]**.
 
-   ![ Onderzoek naar taak of kwestie om ](assets/boards-tasksissues-350x94.png) te verbinden
+   ![&#x200B; Onderzoek naar taak of kwestie om &#x200B;](assets/boards-tasksissues-350x94.png) te verbinden
 
    De kaart wordt onder aan de linkerkolom toegevoegd. Het aangesloten [!DNL Workfront] -object en de bijbehorende toewijzingen worden weergegeven op de kaart.
 
-   ![ Verbonden kaart ](assets/boards-connected-card-first-added.png)
+   ![&#x200B; Verbonden kaart &#x200B;](assets/boards-connected-card-first-added.png)
 
-1. Klik ![ Open taak of kwestie ](assets/boards-launch-icon.png) om de [!DNL Workfront] taak of kwestie in een nieuwe browser tabel te openen.
+1. Klik ![&#x200B; Open taak of kwestie &#x200B;](assets/boards-launch-icon.png) om de [!DNL Workfront] taak of kwestie in een nieuwe browser tabel te openen.
 1. Als u de kaartgegevens wilt bewerken, klikt u op de kaart (niet op de kaartnaam).
 
    of
 
-   Klik het **[!UICONTROL More]** menu ![ Meer menu ](assets/more-icon-spectrum.png) op de kaart en selecteer **[!UICONTROL Edit]**.
+   Klik het **[!UICONTROL More]** menu ![&#x200B; Meer menu &#x200B;](assets/more-icon-spectrum.png) op de kaart en selecteer **[!UICONTROL Edit]**.
 
 1. Voeg in het vak **[!UICONTROL Card Details]** de volgende informatie toe of werk deze bij:
 
@@ -184,7 +184,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 1. Klik op **[!UICONTROL Close]** om terug te keren naar het toetsenbord.
 Het verbonden object, de toewijzingen, de tags, de vervaldatum, de controlelijstteller, de geschatte uren en de status worden weergegeven op de kaart.
 
-   ![ Kaart die aan raad ](assets/boards-connected-card-details-110922.png) wordt toegevoegd
+   ![&#x200B; Kaart die aan raad &#x200B;](assets/boards-connected-card-details-110922.png) wordt toegevoegd
 
 ## Verbinding met een aangesloten kaart verbreken
 
@@ -193,18 +193,18 @@ U kunt een aangesloten kaart loskoppelen van het Workfront-object en de kaart bl
 Verbinding verbreken op het niveau van het board:
 
 1. Toegang tot het bord.
-1. Klik het **[!UICONTROL More]** menu ![ Meer menu ](assets/more-icon-spectrum.png) op de verbonden kaart en selecteer **[!UICONTROL Disconnect]**.
+1. Klik het **[!UICONTROL More]** menu ![&#x200B; Meer menu &#x200B;](assets/more-icon-spectrum.png) op de verbonden kaart en selecteer **[!UICONTROL Disconnect]**.
 1. Klik op **[!UICONTROL Disconnect]** in het bevestigingsbericht.
 
 Verbinding verbreken op kaartniveau:
 
 1. Open de kaart en open de kaart.
-1. Klik het **[!UICONTROL More]** menu ![ Meer menu ](assets/more-icon-spectrum.png) op het gebied van de Verbinding van de kaartdetails, en selecteer **[!UICONTROL Disconnect]**.
+1. Klik het **[!UICONTROL More]** menu ![&#x200B; Meer menu &#x200B;](assets/more-icon-spectrum.png) op het gebied van de Verbinding van de kaartdetails, en selecteer **[!UICONTROL Disconnect]**.
 1. Klik op **[!UICONTROL Disconnect]** in het bevestigingsbericht.
 
 ## Een ad-hockaart converteren naar een aangesloten kaart
 
-Nadat u een ad-hockaart hebt gemaakt, kunt u deze converteren naar een aangesloten kaart. Voor details over ad hoc kaarten, zie [ een ad hoc kaart aan een raad ](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md) toevoegen.
+Nadat u een ad-hockaart hebt gemaakt, kunt u deze converteren naar een aangesloten kaart. Voor details over ad hoc kaarten, zie [&#x200B; een ad hoc kaart aan een raad &#x200B;](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md) toevoegen.
 
 1. Open de kaart en open de ad-hockaart.
 1. Controleer de naam en beschrijving op de kaart. Deze worden toegevoegd aan de taak of uitgave die u maakt in [!DNL Workfront] .
@@ -219,7 +219,7 @@ Nadat u een ad-hockaart hebt gemaakt, kunt u deze converteren naar een aangeslot
 
 1. Klik op **[!UICONTROL Connect]**.
 
-   ![ verbind ad hoc kaart met Workfront ](assets/boards-connect-ad-hoc-card.png)
+   ![&#x200B; verbind ad hoc kaart met Workfront &#x200B;](assets/boards-connect-ad-hoc-card.png)
 
    De projectnaam wordt weergegeven in het gebied Verbinding op de kaartdetails.
 
@@ -229,15 +229,15 @@ Nadat u een ad-hockaart hebt gemaakt, kunt u deze converteren naar een aangeslot
 
 U moet over de juiste machtigingen beschikken om de uren te kunnen vastleggen voor de verbonden taak of uitgave.
 
-De velden voor tijdregistratie worden standaard niet weergegeven op verbonden kaarten. U moet [!UICONTROL **Uren**] in het [!UICONTROL Configure] gebied onder [!UICONTROL Cards] toelaten. Voor meer informatie, zie [ aanpassen welke gebieden op een kaart ](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md) worden getoond.
+De velden voor tijdregistratie worden standaard niet weergegeven op verbonden kaarten. U moet [!UICONTROL **Uren**] in het [!UICONTROL Configure] gebied onder [!UICONTROL Cards] toelaten. Voor meer informatie, zie [&#x200B; aanpassen welke gebieden op een kaart &#x200B;](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md) worden getoond.
 
 1. Voer het aantal uren in voor de taak of uitgave.
 1. Selecteer een [!UICONTROL Hour Type] in het keuzemenu als deze niet de standaardwaarde heeft.
 1. Klik [!UICONTROL **Tijd van het Logboek**].
 
-   ![ de uren van het Logboek op kaart ](assets/log-hours-on-card.png)
+   ![&#x200B; de uren van het Logboek op kaart &#x200B;](assets/log-hours-on-card.png)
 
    De tijd die op de kaart wordt geregistreerd wordt ook bewaard op de verbonden taak of de kwestie.
 
-De registratietijd op de kaart is hetzelfde als de tijd die u nodig hebt om u aan te melden bij een taak of uitgave. Voor meer informatie, zie &quot;tijd van het Logboek op een project, een taak, of een kwestie&quot;in de tijd van het artikel [ Logboek ](/help/quicksilver/timesheets/create-and-manage-timesheets/log-time.md).
+De registratietijd op de kaart is hetzelfde als de tijd die u nodig hebt om u aan te melden bij een taak of uitgave. Voor meer informatie, zie &quot;tijd van het Logboek op een project, een taak, of een kwestie&quot;in de tijd van het artikel [&#x200B; Logboek &#x200B;](/help/quicksilver/timesheets/create-and-manage-timesheets/log-time.md).
 

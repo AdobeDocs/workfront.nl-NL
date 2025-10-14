@@ -21,17 +21,17 @@ ht-degree: 0%
 
 Met de filter- en voorwaardemodities kunt u filters maken en voorwaarden instellen voor het opmaken van de rapportresultaten.
 
-Voor meer informatie over de bouw van filters, zie het overzicht van artikel [ Filters ](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+Voor meer informatie over de bouw van filters, zie het overzicht van artikel [&#x200B; Filters &#x200B;](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
-Voor meer informatie over het gebruiken van voorwaardelijke het formatteren in Meningen, zie het artikel [ Voorwaardelijke het formatteren van het Gebruik in meningen ](../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md).
+Voor meer informatie over het gebruiken van voorwaardelijke het formatteren in Meningen, zie het artikel [&#x200B; Voorwaardelijke het formatteren van het Gebruik in meningen &#x200B;](../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md).
 
 ## Filter- en voorwaardenmodificatoren
 
 Sommige bepalingen zijn ingebouwd en u kunt hen van een drop-down menu binnen uw filter of voorwaardelijke het formatteren verklaring kiezen. Andere wijzigingstoetsen kunnen alleen worden gebruikt in tekstmodusfilters.
 
-Voor meer informatie over het begrip van tekstwijze, zie [ Overzicht van de Wijze van de Tekst ](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
+Voor meer informatie over het begrip van tekstwijze, zie [&#x200B; Overzicht van de Wijze van de Tekst &#x200B;](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
 
-Voor een lijst van ingebouwde tijdkaderbepalingen, zie de artikel [ rapporten van de Filter door timeframes ](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/filter-reports-time-frames.md).
+Voor een lijst van ingebouwde tijdkaderbepalingen, zie de artikel [&#x200B; rapporten van de Filter door timeframes &#x200B;](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/filter-reports-time-frames.md).
 
 U kunt de volgende voorwaardelijke wijzigingstoetsen in filters en voorwaardelijke het formatteren verklaringen gebruiken:
 

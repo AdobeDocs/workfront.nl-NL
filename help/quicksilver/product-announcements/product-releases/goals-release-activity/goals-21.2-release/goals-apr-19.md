@@ -18,9 +18,9 @@ ht-degree: 0%
 
 Op deze pagina worden alle verbeteringen beschreven die zijn aangebracht met de release 21.2 voor Adobe Workfront Goals aan de Preview-omgeving van 19 april 2021. Deze verbeteringen zullen in het eerste kwartaal van 21.2 beschikbaar worden gesteld in de productieomgeving.
 
-Voor een lijst van alle veranderingen beschikbaar voor de Doelen van Workfront op dit punt in de 21.2 versiecyclus, zie [ Doelen van Adobe Workfront met de 21.2 versie ](../../../../product-announcements/product-releases/goals-release-activity/goals-21.2-release/goals-release-21-2.md).
+Voor een lijst van alle veranderingen beschikbaar voor de Doelen van Workfront op dit punt in de 21.2 versiecyclus, zie [&#x200B; Doelen van Adobe Workfront met de 21.2 versie &#x200B;](../../../../product-announcements/product-releases/goals-release-activity/goals-21.2-release/goals-release-21-2.md).
 
-Voor een lijst van alle veranderingen beschikbaar voor alle gebieden van Workfront op dit punt in de 21.2 versiecyclus, zie [ 21.2 Overzicht van de Versie ](../../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar voor alle gebieden van Workfront op dit punt in de 21.2 versiecyclus, zie [&#x200B; 21.2 Overzicht van de Versie &#x200B;](../../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
 
 ## Doelen van afgelopen perioden in Workfront-doelen bewerken
 
@@ -32,7 +32,7 @@ Om u te helpen uw doelstellingen efficiënter beheren, hebben wij een verhoging 
 
 Voor informatie over het uitgeven en het creëren van doelstellingen, zie:
 
-* [ geef doelstellingen in de Doelen van Adobe Workfront uit ](../../../../workfront-goals/goal-management/edit-goals.md)
+* [&#x200B; geef doelstellingen in de Doelen van Adobe Workfront uit &#x200B;](../../../../workfront-goals/goal-management/edit-goals.md)
 * [Doelen maken voor Adobe Workfront-doelen](../../../../workfront-goals/goal-management/create-goals.md)
 
 ## Een bijgewerkte lijst met doelen voor Workfront
@@ -49,7 +49,7 @@ Om voor u een samenhangende ervaring te creëren, hebben wij verscheidene update
 
 De ervaring met het openen van het deelvenster Goal Details in de lijst komt dichter bij het werken met het deelvenster Samenvatting in Workfront.
 
-Voor informatie over het herzien van doelstellingen in de Lijst van het Doel, zie [ doelstellingen in de Lijst van het Doel van de Doelen van Adobe Workfront ](../../../../workfront-goals/goal-review-and-workfront-goals-sections/manage-goals-in-goal-list.md) leiden.
+Voor informatie over het herzien van doelstellingen in de Lijst van het Doel, zie [&#x200B; doelstellingen in de Lijst van het Doel van de Doelen van Adobe Workfront &#x200B;](../../../../workfront-goals/goal-review-and-workfront-goals-sections/manage-goals-in-goal-list.md) leiden.
 
 ## Een doel delen in Workfront-doelen
 
@@ -59,5 +59,5 @@ Voor informatie over het herzien van doelstellingen in de Lijst van het Doel, zi
 
 U kunt een doel nu delen u creeert of dat met u en controle werd gedeeld wie toegang heeft om het doel te beheren. Voorafgaand aan deze verbetering, hadden alle gebruikers toegang om alle doelstellingen in het systeem te bekijken en te beheren. Nu, kunnen zij alle doelstellingen in het systeem door gebrek bekijken, maar zij kunnen slechts doelstellingen beheren zij toestemmingen aan of doelstellingen hebben gekregen zij hebben gecreeerd.
 
-Voor informatie over het delen van doelstellingen, zie [ een doel in de Doelen van Workfront delen ](../../../../workfront-goals/workfront-goals-settings/share-a-goal.md).
+Voor informatie over het delen van doelstellingen, zie [&#x200B; een doel in de Doelen van Workfront delen &#x200B;](../../../../workfront-goals/workfront-goals-settings/share-a-goal.md).
 

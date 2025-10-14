@@ -47,7 +47,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -62,12 +62,12 @@ Op een object waaraan het aangepaste formulier nog niet is gekoppeld, kan een ge
 
 ## Een aangepast formulier delen vanuit de lijst met formulieren
 
-Eerder dan het verlaten van een douanevorm in het gebrek delend staat (die in [ Toegang tot douanevormen ](#access-to-custom-forms) in dit artikel wordt beschreven), kunt u specifieke niveaus van toegang tot de vorm voor bepaalde gebruikers, baanrollen, groepen, teams, en bedrijven vormen.
+Eerder dan het verlaten van een douanevorm in het gebrek delend staat (die in [&#x200B; Toegang tot douanevormen &#x200B;](#access-to-custom-forms) in dit artikel wordt beschreven), kunt u specifieke niveaus van toegang tot de vorm voor bepaalde gebruikers, baanrollen, groepen, teams, en bedrijven vormen.
 
 {{step-1-to-setup}}
 
 1. In het linkerpaneel, klik **Aangepaste Forms**.
-1. Selecteer de douanevorm, dan klik het ![ pictogram van het Aandeel ](assets/share-icon.png).
+1. Selecteer de douanevorm, dan klik het ![&#x200B; pictogram van het Aandeel &#x200B;](assets/share-icon.png).
 1. In de doos die toont, onder **geef de toegang van de douanevorm tot**, begin de naam van de gebruiker, het team, de baanrol, de groep, of het bedrijf u de douanevorm met wilt delen, dan **binnengaan** wanneer de naamvertoningen.
 1. Als u de toegang wilt aanpassen voor de gebruiker, het team, de taakrol, de groep of het bedrijf dat u net hebt toegevoegd, klikt u op het vervolgkeuzemenu rechts van de naam en configureert u vervolgens een van de volgende beschikbare opties en een van de geavanceerde instellingen:
 
@@ -161,7 +161,7 @@ Eerder dan het verlaten van een douanevorm in het gebrek delend staat (die in [ 
    >* Wanneer u een aangepast formulier systeembreed zichtbaar maakt, staat u gebruikers toe het formulier alleen te bekijken en in te vullen op objecten waaraan ze zijn toegewezen, en niet het aan andere objecten te koppelen. U kunt de mogelijkheid bieden om het aangepaste formulier aan objecten te koppelen met de optie &quot;Bijvoegen aan aangepaste gegevens&quot; die in stap 6 wordt beschreven.
    >* De meeste organisaties willen ervoor zorgen dat iedereen in het systeem een douaneformulier kan invullen wanneer het aan voorwerpen wordt vastgemaakt zij werken en zijn gegevens in rapporten bekijken. Als dit voor uw organisatie waar is, adviseren wij dat u **iedereen in het systeem** kunt bekijken. Wanneer de optie deze manier wordt gevormd, &quot;Zichtbare systeem-brede&quot;vertoningen in de dialoogdoos:
    >   
-   >![ Aangepaste vorm van het Aandeel ](assets/share-custom-form-in-designer.png)
+   >![&#x200B; Aangepaste vorm van het Aandeel &#x200B;](assets/share-custom-form-in-designer.png)
    >   
    >Als u zich over een douaneformulier bezorgd bent waar de gebruikers gevoelige gegevens zouden kunnen ingaan wanneer het aan bepaalde voorwerpen in bijlage is, zou het beperken van het delen voor die *voorwerpen* beter kunnen zijn eerder dan het beperken van toegang tot de vorm zelf.
 
@@ -172,7 +172,7 @@ Eerder dan het verlaten van een douanevorm in het gebrek delend staat (die in [ 
 {{step-1-to-setup}}
 
 1. In het linkerpaneel, klik **Aangepaste Forms**.
-1. Selecteer de douanevorm, dan klik het ![ pictogram van het Aandeel ](assets/share-icon.png).
+1. Selecteer de douanevorm, dan klik het ![&#x200B; pictogram van het Aandeel &#x200B;](assets/share-icon.png).
 1. Klik in het vak dat wordt weergegeven op de X rechts van de naam van de gebruiker, het team, de rol, de groep of het bedrijf waartoe u geen speciale toegang meer wilt hebben.
 1. (Optioneel) Herhaal de vorige stap naar voor andere namen die u wilt verwijderen.
 1. Klik **sparen**.

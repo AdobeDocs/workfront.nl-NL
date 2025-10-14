@@ -137,7 +137,7 @@ Workfront heeft de volgende limieten:
 
   >[!NOTE]
   >
-  >Er is een bekend probleem met het momenteel niet uploaden van PowerPoint-presentatiebestanden. Als dit probleem optreedt, converteert u het bestand naar PDF en uploadt u de PDF. Voor meer informatie, zie [ Proofs: Kan geen bewijs van een dossier van PowerPoint ](https://experienceleague.adobe.com/nl/docs/workfront-known-issues/issues/new-workfront-experience/wf-current/wf-proofs-cannot-generate-from-pptx) produceren.
+  >Er is een bekend probleem met het momenteel niet uploaden van PowerPoint-presentatiebestanden. Als dit probleem optreedt, converteert u het bestand naar PDF en uploadt u de PDF. Voor meer informatie, zie [&#x200B; Proofs: Kan geen bewijs van een dossier van PowerPoint &#x200B;](https://experienceleague.adobe.com/nl/docs/workfront-known-issues/issues/new-workfront-experience/wf-current/wf-proofs-cannot-generate-from-pptx) produceren.
 
 * PS - PostScript-bestand
 * PSD - PHOTOSHOP
@@ -242,7 +242,7 @@ Workfront heeft de volgende limieten:
 
 ## Web Capture
 
-U kunt statische webpaginaproeven maken. Voor meer informatie, zie [ tot een statisch bewijs voor een website of andere Web-inhoud ](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-static-proof-website-other-web-content.md) leiden en [ tot een Statische Bewijs van de Website gebruikend Workfront Proof ](../../../workfront-proof/wp-tech-corner/proof-types/create-status-web-proof.md).
+U kunt statische webpaginaproeven maken. Voor meer informatie, zie [&#x200B; tot een statisch bewijs voor een website of andere Web-inhoud &#x200B;](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-static-proof-website-other-web-content.md) leiden en [&#x200B; tot een Statische Bewijs van de Website gebruikend Workfront Proof &#x200B;](../../../workfront-proof/wp-tech-corner/proof-types/create-status-web-proof.md).
 
 ## Bestanden overslaan
 
@@ -250,7 +250,7 @@ Om veiligheidsredenen ondersteunen of extraheren we geen bestanden uit ZIP-besta
 
 U kunt ZIP-bestanden alleen verzenden als ze een volledig interactief project bevatten en als voor uw account interactieve functies zijn ingeschakeld (Premium-abonnementen).
 
-Voor meer informatie, zie [ Interactieve inhoudsproeven overzicht ](../../../review-and-approve-work/proofing/proofing-overview/interactive-content-proofs.md).
+Voor meer informatie, zie [&#x200B; Interactieve inhoudsproeven overzicht &#x200B;](../../../review-and-approve-work/proofing/proofing-overview/interactive-content-proofs.md).
 
 ## InDesign- en Quark-bestanden
 

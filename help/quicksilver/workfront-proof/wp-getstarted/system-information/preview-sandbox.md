@@ -19,7 +19,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [ het Bewijzen ](../../../review-and-approve-work/proofing/proofing.md).
+>Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [&#x200B; het Bewijzen &#x200B;](../../../review-and-approve-work/proofing/proofing.md).
 
 De voorvertoningssandbox is een testomgeving die fungeert als replica van uw live omgeving en die elk weekend wordt vernieuwd door [!DNL Workfront Proof] .
 
@@ -59,7 +59,7 @@ De voorvertoningssandbox van [!DNL Workfront Proof] openen:
 1. Meld u aan met uw voorvertoningsreferenties.\
    Uw voorvertoningsgegevens moeten dezelfde zijn als uw productiegegevens, tenzij u deze in Productie hebt gewijzigd nadat de voorvertoning is vernieuwd. De logins worden alleen gesynchroniseerd wanneer het vernieuwen plaatsvindt. Ze worden niet automatisch gesynchroniseerd.
 1. Klik op het pictogram [!DNL Workfront Proof] op de algemene navigatiebalk.\
-   ![ proof_access_proofhq.png ](assets/proof-access-proofhq-350x39.png)\
+   ![&#x200B; proof_access_proofhq.png &#x200B;](assets/proof-access-proofhq-350x39.png)\
    De voorvertoningsomgeving van [!DNL Workfront Proof] wordt weergegeven.
 
 ## E-mails ontvangen vanuit de voorvertoningssandbox

@@ -17,5 +17,5 @@ ht-degree: 0%
 
 # Integraties voor revisie en goedkeuring: artikelindex
 
-* [ worden begonnen met het proef en de integratie van GenStudio for Performance Marketing ](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-genstudio.md)
+* [&#x200B; worden begonnen met het proef en de integratie van GenStudio for Performance Marketing &#x200B;](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-genstudio.md)
   <!--* [Get started with the proofing and Creative Cloud Express](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-express.md)-->

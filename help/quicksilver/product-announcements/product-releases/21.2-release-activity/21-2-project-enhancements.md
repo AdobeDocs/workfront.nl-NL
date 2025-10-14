@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # 21.2 Projectverbeteringen
 
-Op deze pagina worden alle projectverbeteringen beschreven die zijn aangebracht met de release 21.2 voor de voorvertoningsomgeving. Deze verbeteringen zullen beschikbaar worden gesteld in de productieomgeving in de week van 10 mei 2021. Voor een lijst van alle veranderingen beschikbaar met de versie 21.2, zie [ 21.2 Overzicht van de Versie ](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
+Op deze pagina worden alle projectverbeteringen beschreven die zijn aangebracht met de release 21.2 voor de voorvertoningsomgeving. Deze verbeteringen zullen beschikbaar worden gesteld in de productieomgeving in de week van 10 mei 2021. Voor een lijst van alle veranderingen beschikbaar met de versie 21.2, zie [&#x200B; 21.2 Overzicht van de Versie &#x200B;](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
 
 ## Nieuwe interface voor het maken en bewerken van terugkerende taken
 
@@ -27,9 +27,9 @@ Op deze pagina worden alle projectverbeteringen beschreven die zijn aangebracht 
 
 Als deel van het herontwerp van de Nieuwe en geef Taakdozen uit, hebben wij de capaciteit toegevoegd om een nieuwe taak te maken terugkomend evenals de ouder van een terugkomende taak uit te geven. Deze functionaliteit is niet opgenomen in het nieuwe ontwerp van het taakvak Nieuw en Bewerken dat eerder is uitgebracht.
 
-Voor meer informatie, zie [ terugkomende taken ](../../../manage-work/tasks/create-tasks/create-recurring-tasks.md) creëren.
+Voor meer informatie, zie [&#x200B; terugkomende taken &#x200B;](../../../manage-work/tasks/create-tasks/create-recurring-tasks.md) creëren.
 
-Deze eigenschap is nu inbegrepen in de [ Grondbeginselen van de Planner voor de nieuwe ervaring van Workfront, Deel 2: Plan een project ](https://experienceleague.adobe.com/nl/docs/workfront-learn/tutorials-workfront/home) het leren weg op Workfront Één.
+Deze eigenschap is nu inbegrepen in de [&#x200B; Grondbeginselen van de Planner voor de nieuwe ervaring van Workfront, Deel 2: Plan een project &#x200B;](https://experienceleague.adobe.com/nl/docs/workfront-learn/tutorials-workfront/home) het leren weg op Workfront Één.
 
 ## Nieuwe knoppen beschikbaar in de koptekst Projecten
 
@@ -39,7 +39,7 @@ Deze eigenschap is nu inbegrepen in de [ Grondbeginselen van de Planner voor de 
 
 Om u toe te staan om de lijst van projecten op de pagina van Projecten snel te filtreren, zijn er twee nieuwe knopen in de kopbal die u toestaan om de Projecten snel toe te passen ik ben of Projecten I Eigen filter.
 
-Deze eigenschap is nu inbegrepen in de [ Grondbeginselen van de Planner voor de nieuwe ervaring van Workfront, Deel 1: Creeer een project ](https://experienceleague.adobe.com/nl/docs/workfront-learn/tutorials-workfront/home) het leren weg op Workfront Één.
+Deze eigenschap is nu inbegrepen in de [&#x200B; Grondbeginselen van de Planner voor de nieuwe ervaring van Workfront, Deel 1: Creeer een project &#x200B;](https://experienceleague.adobe.com/nl/docs/workfront-learn/tutorials-workfront/home) het leren weg op Workfront Één.
 
 ## Een artikel of probleem verplaatsen of verwijderen via het Klembord
 
@@ -51,7 +51,7 @@ U kunt een artikel of uitgave nu van het Klembord verplaatsen door op het pictog
 
 U kunt ook een artikel verwijderen of een uitgave rechtstreeks vanaf het scherm verwijderen door op het pictogram Meer op een kaart te klikken en Verwijderen te selecteren. Wanneer u een artikel of uitgave verwijdert, wordt het artikel of de uitgave 30 dagen naar de prullenbak verplaatst en kan het alleen door de systeembeheerder worden hersteld.
 
-Voor meer informatie, zie [ verhalen en kwesties op het board van het Trommel beheren ](../../../agile/use-scrum-in-an-agile-team/scrum-board/manage-scrum-board.md).
+Voor meer informatie, zie [&#x200B; verhalen en kwesties op het board van het Trommel beheren &#x200B;](../../../agile/use-scrum-in-an-agile-team/scrum-board/manage-scrum-board.md).
 
 ## Nieuw bewerkingsvak
 
@@ -80,10 +80,10 @@ Vóór deze verbetering, werden deze knopen gevestigd in de hoger-juiste hoek va
 
 Raadpleeg de volgende artikelen voor informatie over het bewerken van projecten of taken:
 
-* [ geeft projecten ](../../../manage-work/projects/manage-projects/edit-projects.md) uit
+* [&#x200B; geeft projecten &#x200B;](../../../manage-work/projects/manage-projects/edit-projects.md) uit
 * [Taken bewerken](../../../manage-work/tasks/manage-tasks/edit-tasks.md)
 
-![ geef projectvoorbeeld ](assets/pasted-image-4-5-2021-0-350x278.png) uit
+![&#x200B; geef projectvoorbeeld &#x200B;](assets/pasted-image-4-5-2021-0-350x278.png) uit
 
 ## Verbetering van aangepaste formulieren
 
@@ -93,7 +93,7 @@ Raadpleeg de volgende artikelen voor informatie over het bewerken van projecten 
 
 Voor een betere ervaring bij het invullen van een aangepast formulier hebben we de manier verbeterd waarop lange aangepaste veldlabels worden weergegeven. Wanneer er voldoende horizontale ruimte is om deze in hun geheel weer te geven, worden deze labels niet meer afgekapt.
 
-Voor informatie over het invullen van douaneformulieren, zie [ informatie op de gebieden van de douaneformulier ](../../../workfront-basics/work-with-custom-forms/edit-custom-forms.md) uitgeven.
+Voor informatie over het invullen van douaneformulieren, zie [&#x200B; informatie op de gebieden van de douaneformulier &#x200B;](../../../workfront-basics/work-with-custom-forms/edit-custom-forms.md) uitgeven.
 
 ## De primaire contactpersoon van een probleem is nu zichtbaar in het gebied Projectdetails
 
@@ -105,7 +105,7 @@ Wanneer het omzetten van een kwestie in een project, wordt de aanvrager van de k
 
 U moet dit veld inschakelen in uw lay-outsjabloon om het te kunnen bekijken in de nieuwe Adobe Workfront-ervaring voor projecten.
 
-Voor informatie over het omzetten van kwesties, zie [ Overzicht van het omzetten van kwesties in Adobe Workfront ](../../../manage-work/issues/convert-issues/convert-issues.md).
+Voor informatie over het omzetten van kwesties, zie [&#x200B; Overzicht van het omzetten van kwesties in Adobe Workfront &#x200B;](../../../manage-work/issues/convert-issues/convert-issues.md).
 
 ## Informatie weergeven over een groep die u wilt toewijzen aan een portfolio, programma of team
 
@@ -115,12 +115,12 @@ Voor informatie over het omzetten van kwesties, zie [ Overzicht van het omzetten
 
 Wanneer u een groep aan een portefeuille, een programma, of een team toewijst, hebben wij het gemakkelijker gemaakt om ervoor te zorgen dat u juiste groep-u het infopictogram naast de naam van de groep kunt klikken om tooltip te tonen die de hiërarchie van groepen boven het, samen met de beheerders van de groep bevat. Afhankelijk van de details die voor de groep worden gevormd, zou u de Bedrijfsleider en beschrijving van de groep kunnen ook zien.
 
-Dit is de zelfde functionaliteit die onlangs werd vrijgegeven om u te helpen een groep identificeren die u aan een project moet toewijzen, zoals die in [ wordt verklaard uitgeeft projecten ](../../../manage-work/projects/manage-projects/edit-projects.md).
+Dit is de zelfde functionaliteit die onlangs werd vrijgegeven om u te helpen een groep identificeren die u aan een project moet toewijzen, zoals die in [&#x200B; wordt verklaard uitgeeft projecten &#x200B;](../../../manage-work/projects/manage-projects/edit-projects.md).
 
 Raadpleeg de volgende artikelen voor meer informatie:
 
-* [ creeer een portefeuille ](../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md)
-* [ creeer een programma ](../../../manage-work/portfolios/create-and-manage-programs/create-program.md)
+* [&#x200B; creeer een portefeuille &#x200B;](../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md)
+* [&#x200B; creeer een programma &#x200B;](../../../manage-work/portfolios/create-and-manage-programs/create-program.md)
 * [Een team maken](../../../people-teams-and-groups/create-and-manage-teams/create-a-team.md)
 
 ## Tekstopmaak in aangepaste velden wordt nu weergegeven in alle Classic-lijsten en -rapporten van Workfront
@@ -133,9 +133,9 @@ Gebruikers kunnen nu in aangepaste velden tekstopmaak, zoals vette letters, lijs
 
 Eerder in Workfront Classic was tekstopmaak alleen zichtbaar in de lijsten Project, Taak en Uur.
 
-Voor informatie over het formatteren van tekst op een douanegebied, zie [ een douanevorm ](https://experienceleague.adobe.com/nl/docs/workfront/using/home) creëren.
+Voor informatie over het formatteren van tekst op een douanegebied, zie [&#x200B; een douanevorm &#x200B;](https://experienceleague.adobe.com/nl/docs/workfront/using/home) creëren.
 
-Voor informatie over het tonen van informatie in lijsten, zie [ begonnen worden met lijsten ](https://experienceleague.adobe.com/nl/docs/workfront/using/home).
+Voor informatie over het tonen van informatie in lijsten, zie [&#x200B; begonnen worden met lijsten &#x200B;](https://experienceleague.adobe.com/nl/docs/workfront/using/home).
 
 ## Nieuw taakvenster Bewerken
 
@@ -156,7 +156,7 @@ Naast een bijgewerkte look and feel zijn de volgende wijzigingen ook beschikbaar
 * We hebben de velden Duur, Duur en Geplande uren toegevoegd aan de sectie Toewijzingen om consistentie te garanderen bij het bijwerken van toewijzingen voor verschillende soorten tijdsduur en de tijd of duur die ze aan de taak besteden.
 * We hebben de functionaliteit voor opmerkingen verwijderd uit het taakscherm Bewerken om redundantie te voorkomen in de sectie Updates.
 
-Voor informatie over het nieuwe Edit vakje van de Taak, zie [ taken ](../../../manage-work/tasks/manage-tasks/edit-tasks.md) uitgeven.
+Voor informatie over het nieuwe Edit vakje van de Taak, zie [&#x200B; taken &#x200B;](../../../manage-work/tasks/manage-tasks/edit-tasks.md) uitgeven.
 
 ## Nieuw taakvak
 
@@ -176,7 +176,7 @@ Naast een bijgewerkte look and feel zijn de volgende wijzigingen ook beschikbaar
 * U kunt uw Malplaatje van de Lay-out eens aanpassen en die aanpassingen in zowel de pagina van Details als de Nieuwe Taakdoos weerspiegelen.
 * We hebben de velden Duur, Duur en Geplande uren toegevoegd aan de sectie Toewijzingen om consistentie te garanderen bij het bijwerken van toewijzingen en de tijd of duur die ze aan de taak besteden.
 
-Voor informatie over de nieuwe doos van de Taak, zie [ tot taken in een project ](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md) leiden.
+Voor informatie over de nieuwe doos van de Taak, zie [&#x200B; tot taken in een project &#x200B;](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md) leiden.
 
 ## Teams deactiveren die niet meer in gebruik zijn
 
@@ -186,7 +186,7 @@ Voor informatie over de nieuwe doos van de Taak, zie [ tot taken in een project 
 
 U kunt nu teams deactiveren die u niet meer gebruikt. Wanneer u een team deactiveert, verschijnt het niet meer in de meeste typeahead, onderzoeksgebieden, of gemeenschappelijke menu&#39;s binnen Workfront. Nochtans, worden de historische gegevens verbonden aan het team behouden.
 
-Voor meer informatie, zie [ een team ](../../../people-teams-and-groups/create-and-manage-teams/deactivate-a-team.md) deactiveren.
+Voor meer informatie, zie [&#x200B; een team &#x200B;](../../../people-teams-and-groups/create-and-manage-teams/deactivate-a-team.md) deactiveren.
 
 ## Bijwerken naar de instelling waarmee gebruikers taken en problemen met geregistreerde uren kunnen verwijderen
 
@@ -198,5 +198,5 @@ Om u een consistente ervaring te bieden voor alle objecten, hebben we de manier 
 
 Voorafgaand aan deze verandering, verhinderde het onbruikbaar maken van het plaatsen gebruikers enkel taken of kwesties te schrappen, niet projecten.
 
-Voor meer informatie, zie [ taak voor het hele systeem vormen en voorkeur uitgeven ](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+Voor meer informatie, zie [&#x200B; taak voor het hele systeem vormen en voorkeur uitgeven &#x200B;](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 

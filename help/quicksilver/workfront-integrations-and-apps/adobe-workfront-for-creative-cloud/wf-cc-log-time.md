@@ -62,22 +62,22 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 ## Logtijd met de Adobe Workfront-insteekmodule
 
-De [!DNL Workfront] beheerder bepaalt welke project-specifieke uurtypes beschikbaar zijn zoals die in [ worden beschreven beheert uurtypes ](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/hour-types.md).
+De [!DNL Workfront] beheerder bepaalt welke project-specifieke uurtypes beschikbaar zijn zoals die in [&#x200B; worden beschreven beheert uurtypes &#x200B;](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/hour-types.md).
 
 U kunt als volgt de tijd vastleggen met de Workfront-insteekmodule:
 
 1. Klik op het pictogram **[!UICONTROL Menu]** in de rechterbovenhoek en selecteer vervolgens **[!UICONTROL Work List]** . U kunt het menu ook gebruiken om naar bovenliggende objecten te navigeren.
 
-   ![ Terugkeer aan de Lijst van het Werk ](assets/go-back-to-work-list-350x314.png)
+   ![&#x200B; Terugkeer aan de Lijst van het Werk &#x200B;](assets/go-back-to-work-list-350x314.png)
 
 1. Selecteer in het **[!UICONTROL Work List]** het werkitem waarnaar u zich wilt aanmelden.
 1. Klik op **[!UICONTROL Time]** in de navigatiebalk.
 
-   ![ tijd van het Logboek ](assets/log-time-350x337.png)
+   ![&#x200B; tijd van het Logboek &#x200B;](assets/log-time-350x337.png)
 
 1. (Optioneel) Kies de optie **[!UICONTROL Hour Type]** in de keuzelijst.
 1. Voer de tijd in uren in voor de dag die u nodig hebt.
 
-   ![ de uren van het Logboek ](assets/copy-of-log-hours-350x236.png)
+   ![&#x200B; de uren van het Logboek &#x200B;](assets/copy-of-log-hours-350x236.png)
 
 1. Klik op **[!UICONTROL Submit]**.

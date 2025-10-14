@@ -17,9 +17,9 @@ ht-degree: 0%
 
 In de volgende meldingen wordt u gewaarschuwd voor activiteiten die plaatsvinden op een werkitem dat aan u is toegewezen.
 
-Voor informatie over het vormen van welke berichten u ontvangt, zie [ uw eigen e-mailberichten wijzigen ](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+Voor informatie over het vormen van welke berichten u ontvangt, zie [&#x200B; uw eigen e-mailberichten wijzigen &#x200B;](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
-Zie ook [ de berichten van de Gebeurtenis ](../../workfront-basics/using-notifications/event-notifications.md).
+Zie ook [&#x200B; de berichten van de Gebeurtenis &#x200B;](../../workfront-basics/using-notifications/event-notifications.md).
 
 <table style="table-layout:auto"> 
  <col> 

@@ -23,7 +23,7 @@ POP-technologie is een onbetrouwbare, minder veilige e-mailoptie. Bovendien zien
 
 ## Welke actie moet ik ondernemen?
 
-U moet een nieuw e-mailadres instellen voor elke aanvraagwachtrij die u hebt ingesteld met POP-e-mail in uw productieomgeving en het nieuwe e-mailadres naar wens verspreiden. Voor meer informatie, zie [ gebruikers toelaten om een kwestie in een project van de Rij van het Verzoek ](/help/quicksilver/manage-work/requests/create-requests/enable-email-issues-into-projects.md) te e-mailen.
+U moet een nieuw e-mailadres instellen voor elke aanvraagwachtrij die u hebt ingesteld met POP-e-mail in uw productieomgeving en het nieuwe e-mailadres naar wens verspreiden. Voor meer informatie, zie [&#x200B; gebruikers toelaten om een kwestie in een project van de Rij van het Verzoek &#x200B;](/help/quicksilver/manage-work/requests/create-requests/enable-email-issues-into-projects.md) te e-mailen.
 
 ## Wat is het overgangsplan?
 
@@ -31,7 +31,7 @@ Vanaf de release van 21.1 begin februari hebt u 60 dagen om uw gebruikers over t
 
 ## Hoe kan ik dit testen in Voorvertoning?
 
-Als u deze wijziging in de voorvertoning wilt testen, moet u e-mails inschakelen in de voorvertoningsomgeving. Om dit te doen, volg de instructies in het Leiden e-mails in voorproefsectie in [ levering van e-mails van het milieu van de zandbak van de Voorproef ](../../../workfront-basics/using-notifications/enable-delivery-emails-from-preview-sandbox-environment.md) toelaten.
+Als u deze wijziging in de voorvertoning wilt testen, moet u e-mails inschakelen in de voorvertoningsomgeving. Om dit te doen, volg de instructies in het Leiden e-mails in voorproefsectie in [&#x200B; levering van e-mails van het milieu van de zandbak van de Voorproef &#x200B;](../../../workfront-basics/using-notifications/enable-delivery-emails-from-preview-sandbox-environment.md) toelaten.
 
 >[!IMPORTANT]
 >

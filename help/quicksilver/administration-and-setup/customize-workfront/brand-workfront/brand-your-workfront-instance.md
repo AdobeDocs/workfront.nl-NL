@@ -31,19 +31,19 @@ Als Workfront-beheerder kunt u Workfront op de volgende plaatsen voorzien van lo
 
 * Aanmeldingsscherm
 
-  ![ Merk in login scherm ](assets/brand-login-screen-nwe-adobe.jpg)
+  ![&#x200B; Merk in login scherm &#x200B;](assets/brand-login-screen-nwe-adobe.jpg)
 
 * Bovenste navigatiegebied
 
-  ![ Merk in hoogste navigatie ](assets/brand-top-nav-area-nwe-adobe.jpg)
+  ![&#x200B; Merk in hoogste navigatie &#x200B;](assets/brand-top-nav-area-nwe-adobe.jpg)
 
 * Hoofdmenu
 
-  ![ Merk in hoofdmenu ](assets/brand-main-menu-adobe.jpg)
+  ![&#x200B; Merk in hoofdmenu &#x200B;](assets/brand-main-menu-adobe.jpg)
 
 U kunt ook de achtergrondafbeelding en -kleur van het aanmeldingsscherm wijzigen:
 
-![ Banner op login scherm ](assets/wf_banner_on_login_screen-adobe.png)
+![&#x200B; Banner op login scherm &#x200B;](assets/wf_banner_on_login_screen-adobe.png)
 
 >[!NOTE]
 >
@@ -53,7 +53,7 @@ U kunt ook de achtergrondafbeelding en -kleur van het aanmeldingsscherm wijzigen
 >  >
 >-->
 >
->* Een Workfront-beheerder of groepsbeheerder kan Workfront ook markeren voor bepaalde groepen en gebruikers met behulp van een lay-outsjabloon. Branding in een lay-outmalplaatje treedt de systeem-vlakke branding met voeten die in dit artikel wordt verklaard. Voor instructies op branding in een lay-outmalplaatje, zie [ merk Adobe Workfront gebruikend een lay-outmalplaatje ](../../../administration-and-setup/customize-workfront/use-layout-templates/brand-wf-using-a-layout-template.md).
+>* Een Workfront-beheerder of groepsbeheerder kan Workfront ook markeren voor bepaalde groepen en gebruikers met behulp van een lay-outsjabloon. Branding in een lay-outmalplaatje treedt de systeem-vlakke branding met voeten die in dit artikel wordt verklaard. Voor instructies op branding in een lay-outmalplaatje, zie [&#x200B; merk Adobe Workfront gebruikend een lay-outmalplaatje &#x200B;](../../../administration-and-setup/customize-workfront/use-layout-templates/brand-wf-using-a-layout-template.md).
 
 ## Toegangsvereisten
 
@@ -84,7 +84,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

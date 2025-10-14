@@ -18,18 +18,18 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [ het Bewijzen ](../../../review-and-approve-work/proofing/proofing.md).
+>Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [&#x200B; het Bewijzen &#x200B;](../../../review-and-approve-work/proofing/proofing.md).
 
 Als [!DNL Workfront] beheerder of [!DNL Workfront Proof] beheerder kunt u gebruikers machtigingen verlenen door hun gebruikersprofielen toe te wijzen. Wanneer u dit doet, zijn die toestemmingen beschikbaar aan de gebruiker voor alle proeven in het systeem.
 
-Voor informatie over de Profielen van de Toestemming van de Bewijs, zie [ Profielen van de Toestemmingen van de Bewijs in  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md).
+Voor informatie over de Profielen van de Toestemming van de Bewijs, zie [&#x200B; Profielen van de Toestemmingen van de Bewijs in  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md).
 
 >[!NOTE]
 >
 >U kunt ook het volgende doen:
 >
->* Geef gebruikers een specifieke rol op individuele proefdrukken. Voor meer informatie over proefdrukrollen, zie [ de Rollen van het Bewijs binnen beheren  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)
->* Aangepaste profielen maken voor gebruikers in uw organisatie. Voor meer informatie, zie [ douaneprofielen in  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-custom-profiles.md) vormen.
+>* Geef gebruikers een specifieke rol op individuele proefdrukken. Voor meer informatie over proefdrukrollen, zie [&#x200B; de Rollen van het Bewijs binnen beheren  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)
+>* Aangepaste profielen maken voor gebruikers in uw organisatie. Voor meer informatie, zie [&#x200B; douaneprofielen in  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-custom-profiles.md) vormen.
 
 
 Het profiel voor proefdrukmachtigingen van een gebruiker bewerken:
@@ -50,4 +50,4 @@ Het profiel voor proefdrukmachtigingen van een gebruiker bewerken:
    >   * Het profiellogboek van de Gebruiker (toegankelijk slechts voor die Gebruiker)
 
 
-Voor meer informatie over activiteitenlogboeken, zie [ Begrijpend het  [!DNL Workfront Proof]  Spoor van de Controle van de Activiteit ](../../../workfront-proof/wp-work-proofsfiles/basic-features/activity-audit-trail.md)
+Voor meer informatie over activiteitenlogboeken, zie [&#x200B; Begrijpend het  [!DNL Workfront Proof]  Spoor van de Controle van de Activiteit &#x200B;](../../../workfront-proof/wp-work-proofsfiles/basic-features/activity-audit-trail.md)

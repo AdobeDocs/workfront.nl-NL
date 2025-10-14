@@ -63,7 +63,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 1. Selecteer de opmerking.
 1. Klik op het pictogram van het vinkje in de rechterbenedenhoek van de opmerking. In de linkerbovenhoek van de opmerking wordt een groen vinkje weergegeven en onder de opmerking wordt een label en een bericht voor het venster Verbinden weergegeven. De gebruiker die de opmerking heeft verzonden, ontvangt een e-mailbericht dat de opmerking is opgelost.
 
-   ![ los commentaar ](assets/resolve-comment-350x247.png) op
+   ![&#x200B; los commentaar &#x200B;](assets/resolve-comment-350x247.png) op
 
 ## Een opgeloste opmerking opnieuw openen
 
@@ -74,4 +74,4 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 1. Selecteer de opmerking.
 1. Klik het groene pictogram van het vinkje in de laag-juiste hoek van de commentaar (rechts van de **Reageren** knoop). Het vinkje in de linkerbovenhoek van de opmerking verdwijnt en er verschijnt een label en een bericht voor het opnieuw openen van de verbinding. De gebruiker die de opmerking heeft verzonden, ontvangt een e-mailbericht dat de opmerking opnieuw is geopend.
 
-   ![ heropen opgeloste commentaar ](assets/reopen-resolved-comment-350x334.png)
+   ![&#x200B; heropen opgeloste commentaar &#x200B;](assets/reopen-resolved-comment-350x334.png)

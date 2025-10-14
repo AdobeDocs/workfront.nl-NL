@@ -19,8 +19,8 @@ ht-degree: 0%
 
 Deze sectie bevat de volgende artikelen:
 
-* [ creeer een project ](../../../manage-work/projects/create-projects/create-project.md)
-* [ Verzoek een project ](../../../manage-work/projects/create-projects/request-project.md)
-* [ creeer een project gebruikend een malplaatje ](../../../manage-work/projects/create-projects/create-project-from-template.md)
-* [ de Invoer een project van het Project van Microsoft ](../../../manage-work/projects/create-projects/import-project-from-ms-project.md)
+* [&#x200B; creeer een project &#x200B;](../../../manage-work/projects/create-projects/create-project.md)
+* [&#x200B; Verzoek een project &#x200B;](../../../manage-work/projects/create-projects/request-project.md)
+* [&#x200B; creeer een project gebruikend een malplaatje &#x200B;](../../../manage-work/projects/create-projects/create-project-from-template.md)
+* [&#x200B; de Invoer een project van het Project van Microsoft &#x200B;](../../../manage-work/projects/create-projects/import-project-from-ms-project.md)
 * [Projectbasislijnen maken](../../../manage-work/projects/create-projects/create-baselines.md)

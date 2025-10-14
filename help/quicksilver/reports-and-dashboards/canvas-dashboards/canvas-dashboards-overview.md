@@ -18,8 +18,8 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->De functie Canvasdashboards is momenteel alleen beschikbaar voor gebruikers die deelnemen aan de bètafase. Onderdelen van het onderdeel zijn mogelijk niet compleet of werken niet zoals bedoeld in deze fase. Gelieve te dienen om het even welke terugkoppelen betreffende uw ervaring door de instructies in [ te volgen verstrekt ](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) sectie in het de bètaoverzichtsartikel van de dashboards van het Canvas.<br>
->&#x200B;>Als u feedback hebt over een mogelijk probleem met een probleem of een technisch probleem, stuurt u een ticket naar Workfront Support. Voor meer informatie, zie [ de Steun van de Klant van het Contact ](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
+>De functie Canvasdashboards is momenteel alleen beschikbaar voor gebruikers die deelnemen aan de bètafase. Onderdelen van het onderdeel zijn mogelijk niet compleet of werken niet zoals bedoeld in deze fase. Gelieve te dienen om het even welke terugkoppelen betreffende uw ervaring door de instructies in [&#x200B; te volgen verstrekt &#x200B;](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) sectie in het de bètaoverzichtsartikel van de dashboards van het Canvas.<br>
+>&#x200B;>Als u feedback hebt over een mogelijk probleem met een probleem of een technisch probleem, stuurt u een ticket naar Workfront Support. Voor meer informatie, zie [&#x200B; de Steun van de Klant van het Contact &#x200B;](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
 >&#x200B;>Deze bètaversie is niet beschikbaar op de volgende cloudproviders:
 >
 >* Je eigen sleutel voor Amazon Web Services
@@ -35,9 +35,9 @@ Met de dashboards van het Canvas, kunt u over onlangs toegevoegde eigenschappen 
 
 * Uw organisatie moet deel uitmaken van de bètaversie van Canvasdashboards. Voor informatie, zie {de bètainformatie van de dashboards van het 0} Canvas [.](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md)
 
-* U moet beschikken over een planlicentie (huidige licenties) of een standaardlicentie (nieuwe licenties) om een Canvas-dashboard te maken. Voor informatie over de licentietypen van Workfront, zie [ Overzicht van Vergunningen ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md) of [ het Nieuwe overzicht van vergunningen ](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md).
+* U moet beschikken over een planlicentie (huidige licenties) of een standaardlicentie (nieuwe licenties) om een Canvas-dashboard te maken. Voor informatie over de licentietypen van Workfront, zie [&#x200B; Overzicht van Vergunningen &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md) of [&#x200B; het Nieuwe overzicht van vergunningen &#x200B;](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md).
 
-* Uw Workfront-beheerder moet u toegang tot dashboards in uw toegangsniveau geven om een dashboard van het Canvas te creëren of uit te geven. Voor informatie over het verlenen geeft toegang uit, zie [ Toegang verlenen tot rapporten, dashboards, en kalenders ](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
+* Uw Workfront-beheerder moet u toegang tot dashboards in uw toegangsniveau geven om een dashboard van het Canvas te creëren of uit te geven. Voor informatie over het verlenen geeft toegang uit, zie [&#x200B; Toegang verlenen tot rapporten, dashboards, en kalenders &#x200B;](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
 
 ## Canvasdashboardartikelen
 

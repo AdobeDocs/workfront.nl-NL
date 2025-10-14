@@ -19,7 +19,7 @@ ht-degree: 0%
 
 <!-- Audited: 5/2025 -->
 
-De volgende [!DNL Adobe Workfront] -blauwdrukken zijn beschikbaar voor systeembeheerders. Voor meer informatie over blauwdrukken, zie [ Overzicht van Vervagen ](/help/quicksilver/administration-and-setup/blueprints/blueprints-overview.md).
+De volgende [!DNL Adobe Workfront] -blauwdrukken zijn beschikbaar voor systeembeheerders. Voor meer informatie over blauwdrukken, zie [&#x200B; Overzicht van Vervagen &#x200B;](/help/quicksilver/administration-and-setup/blueprints/blueprints-overview.md).
 
 **[!BADGE Nieuw!]{type=Informative} De actieve Rapporten van de Analyse van de Gebruiker** Deze blauwdruk bevat een dashboard om beheerders te helpen gebruikersopstelling bevestigen, misstanden identificeren, en configuratiessteun voorgenomen toepassingsgebruik verzekeren. &#x200B;
 

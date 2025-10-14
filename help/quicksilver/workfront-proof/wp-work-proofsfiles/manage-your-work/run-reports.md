@@ -21,7 +21,7 @@ ht-degree: 0%
 >
 >* <span class="previe"> de functionaliteit van de Rapportering is niet meer beschikbaar in [!DNL Workfront Proof]. Het rapporterende lusje toont nog, maar de gegevens zijn niet nauwkeurig.</span>
 > 
->* Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [ het Bewijzen ](../../../review-and-approve-work/proofing/proofing.md).
+>* Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [&#x200B; het Bewijzen &#x200B;](../../../review-and-approve-work/proofing/proofing.md).
 
 Met Workfront Proof kunt u rapporten weergeven, zodat u de voortgang van het werk en de efficiëntie van uw teams kunt bijhouden.
 
@@ -40,7 +40,7 @@ Rapportinformatie is alleen beschikbaar bij Premium-abonnementen.
 
 ### Gebruikersvereisten {#user-prerequisites}
 
-Het melden van informatie is beschikbaar slechts aan gebruikers met volledige toegang tot alle proeven op uw rekening (d.w.z. gebruikers met minstens [ Profielen van de Toestemmingen van de Bewijs in  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)).
+Het melden van informatie is beschikbaar slechts aan gebruikers met volledige toegang tot alle proeven op uw rekening (d.w.z. gebruikers met minstens [&#x200B; Profielen van de Toestemmingen van de Bewijs in  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)).
 
 In dit deelvenster kunt u
 
@@ -54,7 +54,7 @@ In dit deelvenster kunt u
 
 1. Ga naar de pagina **[!UICONTROL Dashboards]** .
 1. Klik op de tab **[!UICONTROL Reports]** .\
-   ![ proof_reports.png ](assets/proof-reports-350x193.png)
+   ![&#x200B; proof_reports.png &#x200B;](assets/proof-reports-350x193.png)
 
 1. Selecteer in het vervolgkeuzemenu **[!UICONTROL Time frame]** of u informatie wilt weergeven over proefdrukken die zijn gemaakt in de afgelopen 24 uur, 7 dagen, 30 dagen, 90 dagen of een aangepaste tijdsperiode.\
    Als u een aangepaste tijdsperiode selecteert, selecteert u de begin- en einddatum en klikt u op **[!UICONTROL Apply]** .\
@@ -69,7 +69,7 @@ In dit deelvenster kunt u
 1. (Optioneel) Schakel de optie **[!UICONTROL Show min-max range]** in of uit om te bepalen of minimum- en maximumwaarden in de grafiek worden weergegeven.\
    Als u deze optie selecteert, wordt een blauwe schaduw weergegeven tussen de minimale en maximale geregistreerde waarden.
 
-1. (Optioneel) U kunt de gegevens filteren die worden weergegeven, zoals beschreven in [ Rapporten filteren ](#filtering-reports) .
+1. (Optioneel) U kunt de gegevens filteren die worden weergegeven, zoals beschreven in [&#x200B; Rapporten filteren &#x200B;](#filtering-reports) .
 
 ## Filterrapporten {#filtering-reports}
 
@@ -79,9 +79,9 @@ Rapportgegevens filteren:
 
 1. Ga naar de pagina **[!UICONTROL Dashboards]** .
 1. Klik op de tab **[!UICONTROL Reports]** .\
-   ![ proof_reports.png ](assets/proof-reports-350x193.png)
+   ![&#x200B; proof_reports.png &#x200B;](assets/proof-reports-350x193.png)
 
-1. Stel een rapport in werking, zoals die in [ wordt beschreven het Bekijken Rapporten ](#viewing-reports).
+1. Stel een rapport in werking, zoals die in [&#x200B; wordt beschreven het Bekijken Rapporten &#x200B;](#viewing-reports).
 1. Klik op **[!UICONTROL Filter]**.
 
 1. Selecteer links op de pagina een van de volgende filteropties:\
@@ -100,7 +100,7 @@ Rapportgegevens filteren:
 
 1. Ga naar de pagina **[!UICONTROL Dashboards]** .
 1. Klik op de tab **[!UICONTROL Reports]** en klik vervolgens op **[!UICONTROL Print]** .\
-   ![ proof_reports_print.png ](assets/proof-reports-print-350x191.png)
+   ![&#x200B; proof_reports_print.png &#x200B;](assets/proof-reports-print-350x191.png)
 
 1. Maak een keuze uit de verschillende beschikbare afdrukopties.\
    De afdrukopties variëren afhankelijk van de gebruikte browser- en browserversie.

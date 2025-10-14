@@ -18,13 +18,13 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [ het Bewijzen ](../../../review-and-approve-work/proofing/proofing.md).
+>Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [&#x200B; het Bewijzen &#x200B;](../../../review-and-approve-work/proofing/proofing.md).
 
 Wanneer een andere gebruiker u een URL van het Bewijs verzendt en u het in uw browser opent, lanceert het de het proefdrukken kijker op read-only wijze. Voordat u aan de proefdruk kunt werken, moet u zich identificeren door u erop te abonneren.
 
 >[!NOTE]
 >
->Alvorens de gebruikers aan een proef kunnen intekenen, moet zijn Abonnement plaatsen worden toegelaten (zie de sectie [ de Montages van het Bewijs in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md) in [ vormen de Montages van het Bewijs in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md)).
+>Alvorens de gebruikers aan een proef kunnen intekenen, moet zijn Abonnement plaatsen worden toegelaten (zie de sectie [&#x200B; de Montages van het Bewijs in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md) in [&#x200B; vormen de Montages van het Bewijs in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md)).
 
 Een bewijs ondertekenen:
 
@@ -35,4 +35,4 @@ Een bewijs ondertekenen:
    Als u een [!DNL Workfront Proof] -wachtwoord hebt, typt u dit (ongeacht of u een revisor bent op de proefdruk).\
    Afhankelijk van de instellingen voor het delen van e-mails met proefdrukken die zijn geselecteerd door de persoon die de proefdruk heeft gedeeld, moet u mogelijk de validatieinstructies volgen in een e-mailbericht dat u via e-mail ontvangt.
 
-1. Uw rol op de proefdruk is Abonnement, dat op de pagina Proefgegevens voor de proefdruk wordt geplaatst. Voor meer informatie over het plaatsen van rollen voor proeven, zie [ de Montages van het Bewijs in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md) vormen.
+1. Uw rol op de proefdruk is Abonnement, dat op de pagina Proefgegevens voor de proefdruk wordt geplaatst. Voor meer informatie over het plaatsen van rollen voor proeven, zie [&#x200B; de Montages van het Bewijs in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md) vormen.

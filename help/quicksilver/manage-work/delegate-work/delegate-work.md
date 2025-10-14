@@ -23,5 +23,5 @@ Wanneer u van plan bent om voor een korte periode uit het bureau te zijn, kunt u
 
 De volgende artikelen bevatten informatie over hoe u het werk kunt delegeren terwijl u tijdelijk buiten het kantoor bent:
 
-* [ de taken en de kwesties van de Afgevaardigde overzicht ](../../manage-work/delegate-work/delegate-work-overview.md)
+* [&#x200B; de taken en de kwesties van de Afgevaardigde overzicht &#x200B;](../../manage-work/delegate-work/delegate-work-overview.md)
 * [Taken en problemen delegeren](../../manage-work/delegate-work/how-to-delegate-work.md)

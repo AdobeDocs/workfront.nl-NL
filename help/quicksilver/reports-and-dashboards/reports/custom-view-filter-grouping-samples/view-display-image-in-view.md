@@ -24,7 +24,7 @@ U kunt de naam van een object in een weergave vervangen door een afbeelding in d
 >
 >Afbeeldingen worden weergegeven in de werkelijke resolutie, dus probeer kleine afbeeldingen te gebruiken.
 
-![ vervang projectnaam met beeld en verbinding ](assets/replace-project-name-with-image-and-link-350x125.png)
+![&#x200B; vervang projectnaam met beeld en verbinding &#x200B;](assets/replace-project-name-with-image-and-link-350x125.png)
 
 ## Toegangsvereisten
 
@@ -62,7 +62,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-*For informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*For informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -86,7 +86,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    1. Klik met de rechtermuisknop en selecteer **het beeldplaats van het Exemplaar**, of **krijg verbinding**, afhankelijk van uw browser. U hebt nu de URL voor die specifieke afbeelding en kunt deze plakken vanaf het klembord.
    1. Zorg ervoor dat iedereen met die verbinding toestemmingen heeft om het beeld te bekijken door enkel naar de verbinding te gaan en zij hebben geen login nodig om tot het toegang te hebben.
 
-1. Ga naar een project, klik **Meer** menu ![ Meer pictogram ](assets/more-icon-45x33.png) naast de naam van het project, dan klik **uitgeven**.
+1. Ga naar een project, klik **Meer** menu ![&#x200B; Meer pictogram &#x200B;](assets/more-icon-45x33.png) naast de naam van het project, dan klik **uitgeven**.
 
 1. Op het **URL** gebied, voeg de verbinding aan het beeld toe.
 1. Ga naar een projectmening in een lijst van projecten.

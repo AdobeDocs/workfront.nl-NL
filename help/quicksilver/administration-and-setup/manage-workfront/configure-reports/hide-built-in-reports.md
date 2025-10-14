@@ -48,7 +48,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -60,6 +60,6 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 1. Selecteer het toegangsniveau waarvoor u ingebouwde rapporten wilt verbergen, dan **uitgeven**.
 1. Voor het **voorwerp van Rapporten**, klik het **pictogram van Montages** naast het hoogste niveau van beschikbare toegang, dan schrap **Mening Ingebouwde Rapporten**.
 
-   ![ geef toegangsniveau ](assets/edit-access-level.png) uit
+   ![&#x200B; geef toegangsniveau &#x200B;](assets/edit-access-level.png) uit
 
 1. Klik **sparen**.

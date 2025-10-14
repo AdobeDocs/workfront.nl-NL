@@ -22,7 +22,7 @@ ht-degree: 0%
 
 Op deze pagina worden alle List-verbeteringen beschreven die zijn aangebracht met de release 2019.4. Deze verbeteringen zullen beschikbaar worden gesteld in de productieomgeving in de week van 11 november 2019.
 
-Voor een lijst van alle veranderingen die in 2019.4 worden aangebracht, zie [ overzicht van de versie 2019.4 ](../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-release-activity-overview.md).
+Voor een lijst van alle veranderingen die in 2019.4 worden aangebracht, zie [&#x200B; overzicht van de versie 2019.4 &#x200B;](../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-release-activity-overview.md).
 
 <table style="table-layout:auto"> 
  <col> 

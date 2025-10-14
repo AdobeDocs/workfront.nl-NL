@@ -26,18 +26,18 @@ De Beta 1-release van 2017.2 bevat verbeteringen voor zowel Workfront-beheerders
 
 **voor Beheerders:**
 
-* [ herstelt Documenten ](#restore-documents)
-* [ Nieuwe Banner van de Voorproef met de Informatie van de Versie ](#new-preview-banner-with-release-information) 
+* [&#x200B; herstelt Documenten &#x200B;](#restore-documents)
+* [&#x200B; Nieuwe Banner van de Voorproef met de Informatie van de Versie &#x200B;](#new-preview-banner-with-release-information) 
 * [Beschikbaarheid API 7](#api-7-availability)
 
 **voor Alle Gebruikers:**
 
-* [ abonneert aan Taken en Kwesties ](#subscribe-to-tasks-and-issues)
-* [ de Plannende Verbeteringen van het Middel ](#resource-scheduling-improvements)
-* [ vergelijk Proofs ](#compare-proofs)
-* [ Nieuw Gebied voor de Pools van het Middel voor Gebruikers en Projecten ](#new-field-for-resource-pools-for-users-and-projects)
-* [ Bijgewerkte Mening en Voel in de Lijst van het Dashboard ](#updated-look-and-feel-in-the-dashboard-list)
-* [ Verwijderend de Functionaliteit van Endorsements in Workfront ](#removing-the-endorsements-functionality-in-workfront)
+* [&#x200B; abonneert aan Taken en Kwesties &#x200B;](#subscribe-to-tasks-and-issues)
+* [&#x200B; de Plannende Verbeteringen van het Middel &#x200B;](#resource-scheduling-improvements)
+* [&#x200B; vergelijk Proofs &#x200B;](#compare-proofs)
+* [&#x200B; Nieuw Gebied voor de Pools van het Middel voor Gebruikers en Projecten &#x200B;](#new-field-for-resource-pools-for-users-and-projects)
+* [&#x200B; Bijgewerkte Mening en Voel in de Lijst van het Dashboard &#x200B;](#updated-look-and-feel-in-the-dashboard-list)
+* [&#x200B; Verwijderend de Functionaliteit van Endorsements in Workfront &#x200B;](#removing-the-endorsements-functionality-in-workfront)
 * [Kolommen in een lijst opnieuw ordenen met Slepen en neerzetten (functionaliteit wordt verwijderd)](#reorder-columns-in-any-list-with-drag-and-drop-functionality-is-being-removed)
 
 ## Documenten herstellen {#restore-documents}
@@ -46,17 +46,17 @@ Workfront-beheerders kunnen nu afzonderlijke documenten herstellen die in de afg
 
 Vóór deze wijziging konden Workfront-beheerders alleen projecten, taken en problemen herstellen (inclusief documenten die samen met het verwijderde project, de verwijderde taak of uitgave zijn verwijderd).
 
-Voor meer informatie, zie [ geschrapte punten ](../../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md) herstellen.
+Voor meer informatie, zie [&#x200B; geschrapte punten &#x200B;](../../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md) herstellen.
 
 ## Nieuwe voorvertoningsbanner met releasegegevens {#new-preview-banner-with-release-information}
 
-De blauwe banner boven aan de omgeving van de voorvertoningssandbox geeft nu de naam en het versienummer van de voorvertoningsomgeving weer. Als u op de naam van de release klikt, gaat u naar een artikel op de Help-site waar u meer informatie kunt vinden over de huidige release Voorvertoning. Voor meer informatie over het Milieu van Sandbox van de Voorproef, zie [ het Milieu van Sandbox van de Voorproef van Adobe Workfront ](../../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md) 
+De blauwe banner boven aan de omgeving van de voorvertoningssandbox geeft nu de naam en het versienummer van de voorvertoningsomgeving weer. Als u op de naam van de release klikt, gaat u naar een artikel op de Help-site waar u meer informatie kunt vinden over de huidige release Voorvertoning. Voor meer informatie over het Milieu van Sandbox van de Voorproef, zie [&#x200B; het Milieu van Sandbox van de Voorproef van Adobe Workfront &#x200B;](../../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md) 
 
 ## Beschikbaarheid API 7 {#api-7-availability}
 
 API 7 is nu beschikbaar en bevat nieuwe en bijgewerkte objecten.
 
-Voor meer informatie, zie [ wat in API Versie 7 ](../../../../wf-api/api/new-api-version-7.md) Nieuw is.
+Voor meer informatie, zie [&#x200B; wat in API Versie 7 &#x200B;](../../../../wf-api/api/new-api-version-7.md) Nieuw is.
 
 ## Abonneren op taken en problemen {#subscribe-to-tasks-and-issues}
 
@@ -66,20 +66,20 @@ Vanaf de huidige release kunt u zich op deze items abonneren als u onderdelen wi
 
 U kunt zich abonneren op uitgaven en taken waarvoor u minstens de machtiging Beeld hebt. Wanneer een nieuwe opmerking wordt toegevoegd aan de uitgave of taak waarop u zich abonneert, wordt u in een e-mail op de hoogte gesteld van die opmerking.
 
-Voor meer informatie over het intekenen aan kwesties en taken, zie [ aan punten in Adobe Workfront ](../../../../workfront-basics/using-notifications/subscribe-to-items-in-workfront.md) intekenen
+Voor meer informatie over het intekenen aan kwesties en taken, zie [&#x200B; aan punten in Adobe Workfront &#x200B;](../../../../workfront-basics/using-notifications/subscribe-to-items-in-workfront.md) intekenen
 
 ## Verbeteringen in bronnenplanning {#resource-scheduling-improvements}
 
 >[!NOTE]
 >
->De hulpmiddelen van de Planning van het Middel zijn afgekeurd en uit Workfront met versie 23.1 verwijderd. Voor informatie over het plannen van middelen die de Balancer van de Werklast gebruiken, zie [ Overzicht van de Balancer van de Werkbelasting ](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+>De hulpmiddelen van de Planning van het Middel zijn afgekeurd en uit Workfront met versie 23.1 verwijderd. Voor informatie over het plannen van middelen die de Balancer van de Werklast gebruiken, zie [&#x200B; Overzicht van de Balancer van de Werkbelasting &#x200B;](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
 
 De volgende verbeteringen zijn beschikbaar wanneer het plannen van middelen:
 
-* [ Mening Meer Punten op het Middel die Chronologie in Één enkele Mening plannen ](#view-more-items-on-the-resource-scheduling-timeline-in-a-single-view)
-* [ vorm de Naam van het Project aan Vertoning op Taken en Kwesties op de Plannende Chronologie ](#configure-the-project-name-to-display-on-tasks-and-issues-on-the-scheduling-timeline)
-* [ vormt of de Ouderlijke Taken op de Plannende Chronologie ](#configure-whether-parent-tasks-are-displayed-on-the-scheduling-timeline) worden getoond
-* [ breidt of vouwt gemakkelijk Alle Taken en Kwesties op de Plannende Chronologie uit ](#more-easily-expand-or-collapse-all-tasks-and-issues-on-the-scheduling-timeline)
+* [&#x200B; Mening Meer Punten op het Middel die Chronologie in Één enkele Mening plannen &#x200B;](#view-more-items-on-the-resource-scheduling-timeline-in-a-single-view)
+* [&#x200B; vorm de Naam van het Project aan Vertoning op Taken en Kwesties op de Plannende Chronologie &#x200B;](#configure-the-project-name-to-display-on-tasks-and-issues-on-the-scheduling-timeline)
+* [&#x200B; vormt of de Ouderlijke Taken op de Plannende Chronologie &#x200B;](#configure-whether-parent-tasks-are-displayed-on-the-scheduling-timeline) worden getoond
+* [&#x200B; breidt of vouwt gemakkelijk Alle Taken en Kwesties op de Plannende Chronologie uit &#x200B;](#more-easily-expand-or-collapse-all-tasks-and-issues-on-the-scheduling-timeline)
 * [Rol- en gebruikersgegevens blijven boven aan de geplande tijdlijn tijdens schuiven](#role-and-user-information-remains-at-the-top-of-the-scheduling-timeline-when-scrolling)
 
 ### Meer Punten op het Middel die Chronologie in Één enkele Mening plannen {#view-more-items-on-the-resource-scheduling-timeline-in-a-single-view}
@@ -126,7 +126,7 @@ U kunt nu twee documentproeven binnen om het even welke enige documentlijst, zoa
 
 De twee proefdrukken worden weergegeven met het gereedschap Revisie en Goedkeuring en u kunt elk document proeflezen terwijl u de proefdrukken in een weergave Naast elkaar vergelijkt.
 
-Voor meer informatie, zie [ proef ](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/compare-proofs.md) vergelijken.
+Voor meer informatie, zie [&#x200B; proef &#x200B;](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/compare-proofs.md) vergelijken.
 
 ## Nieuw veld voor bronnenpools voor gebruikers en projecten {#new-field-for-resource-pools-for-users-and-projects}
 
@@ -134,7 +134,7 @@ De R1.5 versie introduceerde nieuwe functionaliteit rond de Planning van het Mid
 
 Nu kunt u deze Groepen van Middel met projecten, evenals met gebruikers associëren. U zult nu een nieuw gebied genoemd &quot;Groepen van het Middel&quot;op het project, evenals op het gebruikersvoorwerp zien.
 
-Voor meer informatie over de nieuwe Groepen van het Middel en hoe zij met projecten en gebruikers kunnen worden geassocieerd, zie [ overzicht van de Groepen van het Middel ](../../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md)
+Voor meer informatie over de nieuwe Groepen van het Middel en hoe zij met projecten en gebruikers kunnen worden geassocieerd, zie [&#x200B; overzicht van de Groepen van het Middel &#x200B;](../../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md)
 
 ## Bijgewerkte weergave en weergave in de dashboardlijst {#updated-look-and-feel-in-the-dashboard-list}
 
@@ -142,7 +142,7 @@ Wanneer u een dashboardlijst bekijkt, is het uiterlijk moderner en schaalbaarder
 
 Deze functionaliteit was eerder alleen beschikbaar voor gebruikers die waren ingeschreven voor Vroege toegang. Dit is nu beschikbaar voor alle gebruikers in de voorvertoningsomgeving. Deze zal met de release van 2017.2 beschikbaar worden gesteld aan alle gebruikers in de productieomgeving. 
 
-Voor meer informatie over dashboards, zie [ een dashboard ](../../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md) creëren.
+Voor meer informatie over dashboards, zie [&#x200B; een dashboard &#x200B;](../../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md) creëren.
 
 ## Verwijderen van de Endorsements-functionaliteit in Workfront {#removing-the-endorsements-functionality-in-workfront}
 
@@ -161,4 +161,4 @@ Aantekeningen zijn geen te rapporteren object geweest, dus er zijn geen wijzigin
 
 De functionaliteit voor het wijzigen van de volgorde van kolommen in een lijst door een kolom van de ene locatie te slepen en in een andere plaats neer te zetten, wordt verwijderd uit Vroege toegang in de productieomgeving met de release van 2017.2 en is niet meer beschikbaar voor gebruikers. 
 
-Voor meer details over deze functionaliteit, zie [ kolombreedte en orde wijzigen ](../../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md).
+Voor meer details over deze functionaliteit, zie [&#x200B; kolombreedte en orde wijzigen &#x200B;](../../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md).

@@ -152,11 +152,11 @@ De release 2019.3 bevat de volgende verbeteringen:
 
   Gebruikers worden na 8 minuten inactiviteit automatisch afgemeld om de mobiele app van Workfront veiliger te maken voor u en uw bedrijf.
 
-* [ Filter door Dode Projecten in Mobiele app ](../../../../product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-integration-mobile-enhancements.md#filter) [ Filter door Dode Projecten in Mobiele app ](https://experience.workfront.com/s/article/2019-3-Integration-and-mobile-enhancements-1150184880)
+* [&#x200B; Filter door Dode Projecten in Mobiele app &#x200B;](../../../../product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-integration-mobile-enhancements.md#filter) [&#x200B; Filter door Dode Projecten in Mobiele app &#x200B;](https://experience.workfront.com/s/article/2019-3-Integration-and-mobile-enhancements-1150184880)
 
   We hebben Dode projecten als filteroptie toegevoegd op het tabblad Projecten in de mobiele app.
 
-* [ de voorwerpen van de Schrapping gebruikend Mobiele app op iOS ](../../../../product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-integration-mobile-enhancements.md#delete)
+* [&#x200B; de voorwerpen van de Schrapping gebruikend Mobiele app op iOS &#x200B;](../../../../product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-integration-mobile-enhancements.md#delete)
 
   <!-- <MadCap:conditionalText data-mc-conditions="OnlineOrPDF.PrintOnly">  <a href="https://experience.workfront.com/s/article/2019-3-Integration-and-mobile-enhancements-1150184880" target="_blank" data-mc-conditions="QuicksilverOrClassic.Draft mode">Delete objects using the Mobile app on iOS</a> </MadCap:conditionalText>
    -->
@@ -198,7 +198,7 @@ We hebben verschillende nieuwe verbeteringen toegevoegd om uw ervaring in de Wor
 
 In deze sectie worden de wijzigingen beschreven die zijn aangebracht tijdens de releaseperiode van 2019.3 die worden vrijgegeven in de productieomgeving vóór de algemene release van 2019.3.
 
-* [ Verandering het vertoningstype van een gebied in een douanevorm ](../../../../product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-project-enhancements.md#change)
+* [&#x200B; Verandering het vertoningstype van een gebied in een douanevorm &#x200B;](../../../../product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-project-enhancements.md#change)
 
   <!--
   <MadCap:conditionalText data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">
@@ -357,12 +357,12 @@ Zie voor informatie over de onderhoudsupdates die tijdens de release van 2019.3 
 
 ## Aankondigingen
 
-* [ de nieuwe de ervaringsbèta van Workfront nu beschikbaar in Voorproef ](#the-new-workfront-experience-beta-now-available-in-preview)
-* [ de Bibliotheek van Workfront nu beschikbaar ](#workfront-library-now-available)
-* [ API Versie 3 niet meer gesteund ](#api-version-3-no-longer-supported)
-* [ TLS 1.0 en 1.1 steun beëindigt ](#tls-1-0-and-1-1-support-is-ending)
-* [ verwijdering van de toepassing van de Flash ](#flash-application-removal)
-* [ Diverse Enige Sign-On te verwijderen opties ](#various-single-sign-on-options-to-be-removed)
+* [&#x200B; de nieuwe de ervaringsbèta van Workfront nu beschikbaar in Voorproef &#x200B;](#the-new-workfront-experience-beta-now-available-in-preview)
+* [&#x200B; de Bibliotheek van Workfront nu beschikbaar &#x200B;](#workfront-library-now-available)
+* [&#x200B; API Versie 3 niet meer gesteund &#x200B;](#api-version-3-no-longer-supported)
+* [&#x200B; TLS 1.0 en 1.1 steun beëindigt &#x200B;](#tls-1-0-and-1-1-support-is-ending)
+* [&#x200B; verwijdering van de toepassing van de Flash &#x200B;](#flash-application-removal)
+* [&#x200B; Diverse Enige Sign-On te verwijderen opties &#x200B;](#various-single-sign-on-options-to-be-removed)
 * [Q3 Roadmap-webinar voor producten](#q3-product-roadmap-webinar)
 
 ### De nieuwe bètaversie van Workfront is nu beschikbaar in Voorvertoning {#the-new-workfront-experience-beta-now-available-in-preview}
@@ -375,7 +375,7 @@ Workfront Library is een digitale-inhoudhub voor bedrijven die u kunt gebruiken 
 
 ### API-versie 3 wordt niet meer ondersteund {#api-version-3-no-longer-supported}
 
-Ondersteuning voor API-versie 3 is in november 2018 beëindigd. Voor meer informatie over het steunprogramma voor versies van Workfront API, zie [ API versioning en steunprogramma ](../../../../wf-api/api/api-version-support-schedule.md)
+Ondersteuning voor API-versie 3 is in november 2018 beëindigd. Voor meer informatie over het steunprogramma voor versies van Workfront API, zie [&#x200B; API versioning en steunprogramma &#x200B;](../../../../wf-api/api/api-version-support-schedule.md)
 
 <!--
 <MadCap:conditionalText data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">
@@ -403,7 +403,7 @@ TLS 1.2 to be required in Workfront
 
 Alle functionaliteit die afhankelijk is van de technologie van de Flash is verwijderd uit Workfront sinds de release van 2018.3 en vervangen door een nieuwe oplossing.
 
-Voor gedetailleerde informatie over de hulpmiddelen van de erfenis Flash en hun vervangingen, zie [ Vervanging van op Flash-gebaseerde hulpmiddelen in Adobe Workfront ](../../../../product-announcements/announcements/announcement-archive/replace-flash-tools.md)
+Voor gedetailleerde informatie over de hulpmiddelen van de erfenis Flash en hun vervangingen, zie [&#x200B; Vervanging van op Flash-gebaseerde hulpmiddelen in Adobe Workfront &#x200B;](../../../../product-announcements/announcements/announcement-archive/replace-flash-tools.md)
 
 <!--
 <MadCap:conditionalText data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">
@@ -419,7 +419,7 @@ De volgende Single Sign-On (SSO)-opties worden nu slechts in beperkte mate onder
 
 * LDAP
 
-  Voor meer informatie over het gebruiken van LDAP met Workfront, zie [ Adobe Workfront met LDAP ](../../../../administration-and-setup/manage-workfront/security/removal-various-sso-options.md) vormen
+  Voor meer informatie over het gebruiken van LDAP met Workfront, zie [&#x200B; Adobe Workfront met LDAP &#x200B;](../../../../administration-and-setup/manage-workfront/security/removal-various-sso-options.md) vormen
 
   <!--
   <MadCap:conditionalText data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">
@@ -431,7 +431,7 @@ De volgende Single Sign-On (SSO)-opties worden nu slechts in beperkte mate onder
 
 * Active Directory
 
-  Voor meer informatie over het gebruiken van Actieve Folder met Workfront, zie [ Adobe Workfront met Actieve Folder ](../../../../administration-and-setup/manage-workfront/security/removal-various-sso-options.md) vormen
+  Voor meer informatie over het gebruiken van Actieve Folder met Workfront, zie [&#x200B; Adobe Workfront met Actieve Folder &#x200B;](../../../../administration-and-setup/manage-workfront/security/removal-various-sso-options.md) vormen
 
   <!--
   <MadCap:conditionalText data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">
@@ -443,7 +443,7 @@ De volgende Single Sign-On (SSO)-opties worden nu slechts in beperkte mate onder
 
 * SAML 1.1
 
-  Voor meer informatie over het gebruiken van SAML 1.1 met Workfront, zie [ Adobe Workfront met SAML 1.1 vormen ](../../../../administration-and-setup/manage-workfront/security/removal-various-sso-options.md)
+  Voor meer informatie over het gebruiken van SAML 1.1 met Workfront, zie [&#x200B; Adobe Workfront met SAML 1.1 vormen &#x200B;](../../../../administration-and-setup/manage-workfront/security/removal-various-sso-options.md)
 
   <!--
   <MadCap:conditionalText data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">
@@ -467,4 +467,4 @@ Hier volgt de verwijderingstijdlijn voor deze SSO-opties:
 
 ### Q3 Roadmap-webinar voor producten {#q3-product-roadmap-webinar}
 
-Leer meer over wat tijdens [ Q3 Roadmap webinar ](https://event.on24.com/eventRegistration/EventLobbyServlet?target=reg20.jsp&amp;partnerref=Product&amp;eventid=2040896&amp;sessionid=1&amp;key=EFBB434E2FDF446E010DA62D1C27E9E5&amp;regTag=&amp;sourcepage=register) op 1 augustus om 9:00 uur moet komen. MST.
+Leer meer over wat tijdens [&#x200B; Q3 Roadmap webinar &#x200B;](https://event.on24.com/eventRegistration/EventLobbyServlet?target=reg20.jsp&partnerref=Product&eventid=2040896&sessionid=1&key=EFBB434E2FDF446E010DA62D1C27E9E5&regTag=&sourcepage=register) op 1 augustus om 9:00 uur moet komen. MST.

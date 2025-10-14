@@ -50,13 +50,13 @@ U moet het volgende hebben:
   </tr>
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Vereisten
 
 * Een milieubevorderingspakket moet worden geïnstalleerd alvorens het kan worden teruggedraaid.
 
-  Voor instructies, zie [ een pakket van de milieubevordering installeren ](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-install-package.md).
+  Voor instructies, zie [&#x200B; een pakket van de milieubevordering installeren &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-install-package.md).
 
 
 ## Bepalen of een specifieke pakketimplementatie kan worden teruggedraaid
@@ -72,7 +72,7 @@ Om te weten of een specifieke pakketplaatsing kan worden teruggedraaid, overweeg
 ## Een geïnstalleerd pakket voor milieubescherming terugdraaien
 
 1. Ga naar de omgeving waarin het pakket is geïnstalleerd.
-1. Klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, of (als beschikbaar), klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon-left-nav.png) in de upper-left hoek, dan klik **[!UICONTROL Setup]** ![ pictogram van de Opstelling ](/help/_includes/assets/gear-icon-setup.png).
+1. Klik het **[!UICONTROL Main Menu]** pictogram ![&#x200B; Belangrijkste Menu &#x200B;](/help/_includes/assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, of (als beschikbaar), klik het **[!UICONTROL Main Menu]** pictogram ![&#x200B; Belangrijkste Menu &#x200B;](/help/_includes/assets/main-menu-icon-left-nav.png) in de upper-left hoek, dan klik **[!UICONTROL Setup]** ![&#x200B; pictogram van de Opstelling &#x200B;](/help/_includes/assets/gear-icon-setup.png).
 1. Selecteer **Bevordering van het Milieu** in de linkernavigatie.
 1. Selecteer het pakket dat u terug wilt rollen, en **Plaatsingen** klikken.
 1. Houd de muis boven de implementatie (installatie) die u wilt terugdraaien en klik vervolgens op Terugdraaien wanneer deze rechts van de regel van die implementatie wordt weergegeven.

@@ -25,7 +25,7 @@ Wanneer u een groep bekijkt die u in het gebied van Groepen beheert, kunt u met 
 
 Als er om het even welke groepen boven uw groep zijn, kunnen hun beheerders deze dingen voor uw groep ook doen. Hetzelfde geldt voor Workfront-beheerders (voor elke groep).
 
-Voor meer informatie over geschrapte punten, zie [ verwijderde punten ](../../../administration-and-setup/manage-workfront/manage-deleted-items/manage-deleted-items.md) leiden.
+Voor meer informatie over geschrapte punten, zie [&#x200B; verwijderde punten &#x200B;](../../../administration-and-setup/manage-workfront/manage-deleted-items/manage-deleted-items.md) leiden.
 
 ## Toegangsvereisten
 
@@ -58,7 +58,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -66,7 +66,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 {{step-1-to-setup}}
 
-1. In het linkerpaneel, klik **Groepen** ![ Groepen ](assets/groups-icon.png).
+1. In het linkerpaneel, klik **Groepen** ![&#x200B; Groepen &#x200B;](assets/groups-icon.png).
 
 1. Klik op de naam van de groep.
 1. In het linkerpaneel, klik **onlangs Geschrapt**.

@@ -84,15 +84,15 @@ Standaard wordt de startpagina gevuld met specifieke widgets die zijn gebaseerd 
 
 ## Een widget toevoegen aan Home
 
-Widgets vormen de basis van Home. Door widgets aan uw startpagina toe te voegen, kunt u het type informatie kiezen dat wordt weergegeven om optimaal aan uw werkbehoeften te voldoen. Sommige widgets zijn alleen beschikbaar voor specifieke licentietypen, aangezien de objecten die ze bijhouden alleen beschikbaar zijn voor die licenties. Voor meer informatie, zie [ Widgets beschikbaar voor specifieke vergunningstypes ](#widgets-available-for-specific-license-types) hierboven sectie.
+Widgets vormen de basis van Home. Door widgets aan uw startpagina toe te voegen, kunt u het type informatie kiezen dat wordt weergegeven om optimaal aan uw werkbehoeften te voldoen. Sommige widgets zijn alleen beschikbaar voor specifieke licentietypen, aangezien de objecten die ze bijhouden alleen beschikbaar zijn voor die licenties. Voor meer informatie, zie [&#x200B; Widgets beschikbaar voor specifieke vergunningstypes &#x200B;](#widgets-available-for-specific-license-types) hierboven sectie.
 
 Een widget toevoegen:
 
-1. Navigeer aan uw Homepage, of door het pictogram van Adobe Workfront ![ het Pictogram van Adobe Workfront ](assets/home-icon-30x29.png) bij de bovenkant van uw scherm te klikken als het Huis als uw het landen pagina wordt geplaatst, of door op het belangrijkste pictogram van het menupictogram ![ Belangrijkste pictogram van het Menu ](assets/main-menu-icon.png) te klikken en dan **Huis** te klikken.
+1. Navigeer aan uw Homepage, of door het pictogram van Adobe Workfront ![&#x200B; het Pictogram van Adobe Workfront &#x200B;](assets/home-icon-30x29.png) bij de bovenkant van uw scherm te klikken als het Huis als uw het landen pagina wordt geplaatst, of door op het belangrijkste pictogram van het menupictogram ![&#x200B; Belangrijkste pictogram van het Menu &#x200B;](assets/main-menu-icon.png) te klikken en dan **Huis** te klikken.
 
 1. In de hoger-juiste hoek van het scherm, klik **aanpassen**.
 
-   ![ pas Knoop ](assets/customize-button.png) aan
+   ![&#x200B; pas Knoop &#x200B;](assets/customize-button.png) aan
 1. De rol aan de **Widgets** sectie, dan selecteert widgets u wilt toevoegen.
 
    +++ Uitbreiden om een gedetailleerde lijst met de beschikbare widgets weer te geven
@@ -125,7 +125,7 @@ Een widget toevoegen:
       * Items zonder deadline
 
    * **metriek van de Goedkeuring van het Document**\
-           Toont 2 grafieken met informatie over gemiddelde goedkeuringstijd en besluiten evenals lijstmeningen van hangende en achterstallige goedkeuringen. U moet [ Verenigde Goedkeuringen ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md) hebben die worden toegelaten om deze widget te gebruiken.
+           Toont 2 grafieken met informatie over gemiddelde goedkeuringstijd en besluiten evenals lijstmeningen van hangende en achterstallige goedkeuringen. U moet [&#x200B; Verenigde Goedkeuringen &#x200B;](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md) hebben die worden toegelaten om deze widget te gebruiken.
 
    * **Vermeldingen**\
        Geeft recente commentaarthreads van over Workfront weer, vergelijkbaar met de pagina Mijn updates. U kunt de antwoordknoop gebruiken om een antwoord binnen widget samen te stellen. Deze widget bevat ook opmerkingen over taken en problemen die u hebt toegewezen, die u hebt toegewezen aan een andere gebruiker, die u hebt, waarop u primair contact hebt gemaakt of die u hebt gemaakt, zolang de taak of uitgave in de afgelopen 30 dagen is bijgewerkt.
@@ -144,29 +144,29 @@ Een widget toevoegen:
 
 ## Een widget op uw startpagina verplaatsen of de grootte ervan wijzigen
 
-1. Navigeer aan uw Homepage, of door het pictogram van Adobe Workfront ![ het Pictogram van Adobe Workfront ](assets/home-icon-30x29.png) bij de bovenkant van uw scherm te klikken als het Huis als uw het landen pagina wordt geplaatst, of door op het belangrijkste pictogram van het menupictogram ![ Belangrijkste pictogram van het Menu ](assets/main-menu-icon.png) te klikken en dan **Huis** te klikken.
+1. Navigeer aan uw Homepage, of door het pictogram van Adobe Workfront ![&#x200B; het Pictogram van Adobe Workfront &#x200B;](assets/home-icon-30x29.png) bij de bovenkant van uw scherm te klikken als het Huis als uw het landen pagina wordt geplaatst, of door op het belangrijkste pictogram van het menupictogram ![&#x200B; Belangrijkste pictogram van het Menu &#x200B;](assets/main-menu-icon.png) te klikken en dan **Huis** te klikken.
 
 1. Zoek de widget die u wilt verplaatsen of vergroten of verkleinen op de startpagina.
 
 1. Verplaats de widget door de cursor boven de bovenrand van de widget te plaatsen totdat deze een hand wordt, klik en sleep totdat de widget zich op de gewenste locatie bevindt. Andere widgets worden eromheen verplaatst wanneer u de widget verplaatst.
 
-1. Wijzig de grootte van widget door op het resize pictogram ![ te klikken en te slepen vergroot pictogram ](assets/resize-icon.png) in de bodem-juiste hoek van widget.
+1. Wijzig de grootte van widget door op het resize pictogram ![&#x200B; te klikken en te slepen vergroot pictogram &#x200B;](assets/resize-icon.png) in de bodem-juiste hoek van widget.
 
 ## Een widget verwijderen van uw startpagina
 
-1. Navigeer aan uw Homepage, of door het pictogram van Adobe Workfront ![ het Pictogram van Adobe Workfront ](assets/home-icon-30x29.png) bij de bovenkant van uw scherm te klikken als het Huis als uw het landen pagina wordt geplaatst, of door op het belangrijkste pictogram van het menupictogram ![ Belangrijkste Menu ](assets/main-menu-icon.png) dan het klikken op **Huis** te klikken.
+1. Navigeer aan uw Homepage, of door het pictogram van Adobe Workfront ![&#x200B; het Pictogram van Adobe Workfront &#x200B;](assets/home-icon-30x29.png) bij de bovenkant van uw scherm te klikken als het Huis als uw het landen pagina wordt geplaatst, of door op het belangrijkste pictogram van het menupictogram ![&#x200B; Belangrijkste Menu &#x200B;](assets/main-menu-icon.png) dan het klikken op **Huis** te klikken.
 
-1. Vind widget op uw pagina van het Huis u zou willen verwijderen, dan **Meer** pictogram ![ Meer Pictogram ](assets/more-icon.png) in de hoger-juiste hoek van widget klikken.
+1. Vind widget op uw pagina van het Huis u zou willen verwijderen, dan **Meer** pictogram ![&#x200B; Meer Pictogram &#x200B;](assets/more-icon.png) in de hoger-juiste hoek van widget klikken.
 
 1. Klik **verwijderen**.
 
 
 ## De kleur van de achtergrond wijzigen
 
-1. Navigeer aan uw Homepage, of door het pictogram van Adobe Workfront ![ het Pictogram van Adobe Workfront ](assets/home-icon-30x29.png) bij de bovenkant van uw scherm te klikken als het Huis als uw het landen pagina wordt geplaatst, of door het belangrijkste pictogram van het Menu ![ Belangrijkste ](assets/main-menu-icon.png) dan klikkend **Huis**.
+1. Navigeer aan uw Homepage, of door het pictogram van Adobe Workfront ![&#x200B; het Pictogram van Adobe Workfront &#x200B;](assets/home-icon-30x29.png) bij de bovenkant van uw scherm te klikken als het Huis als uw het landen pagina wordt geplaatst, of door het belangrijkste pictogram van het Menu ![&#x200B; Belangrijkste &#x200B;](assets/main-menu-icon.png) dan klikkend **Huis**.
 
 1. In de hoger-juiste hoek van het scherm, klik **aanpassen**.
 
-   ![ pas Knoop ](assets/customize-button.png) aan
+   ![&#x200B; pas Knoop &#x200B;](assets/customize-button.png) aan
 
 1. In de **sectie van de Achtergrond** van **pas** paneel aan, klik de kleur u voor uw achtergrond van het Huis zou willen selecteren. U kunt **niets** ook klikken om de achtergrond te verwijderen.

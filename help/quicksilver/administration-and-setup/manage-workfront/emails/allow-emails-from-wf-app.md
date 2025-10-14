@@ -17,4 +17,4 @@ ht-degree: 0%
 
 # E-mails van de Adobe Workfront-toepassing toestaan
 
-Als u uw firewall of postserver hebt gevormd om toegang slechts tot specifieke verkopers toe te staan, moet u bepaalde Adobe Workfront IP adressen aan uw lijst van gewenste personen van de firewall toevoegen. Voor instructies, zie [ de lijst van gewenste personen van uw firewall ](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md) vormen.
+Als u uw firewall of postserver hebt gevormd om toegang slechts tot specifieke verkopers toe te staan, moet u bepaalde Adobe Workfront IP adressen aan uw lijst van gewenste personen van de firewall toevoegen. Voor instructies, zie [&#x200B; de lijst van gewenste personen van uw firewall &#x200B;](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md) vormen.

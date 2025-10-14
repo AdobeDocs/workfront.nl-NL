@@ -20,9 +20,9 @@ ht-degree: 0%
 
 U kunt de [!UICONTROL Portfolio Optimizer] score vinden in [!UICONTROL Portfolio Optimizer] . Deze wordt in de kolom **[!UICONTROL Score]** voor elk project weergegeven. Dit vertegenwoordigt een score voor elk project in de portefeuille.
 
-Voor informatie over de plaats bepalen van [!UICONTROL Portfolio Optimizer], zie het artikel [[!UICONTROL Portfolio Optimizer] overzicht ](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md).
+Voor informatie over de plaats bepalen van [!UICONTROL Portfolio Optimizer], zie het artikel [[!UICONTROL Portfolio Optimizer] overzicht &#x200B;](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md).
 
-Voor informatie over hoe [!DNL Adobe Workfront] de Score van het project en andere projectinformatie gebruikt om projecten in [!UICONTROL Portfolio Optimizer] te optimaliseren, zie [ projecten in Portfolio optimaliseren ](../../../manage-work/portfolios/portfolio-optimizer/optimize-projects-in-portfolio-optimizer.md).
+Voor informatie over hoe [!DNL Adobe Workfront] de Score van het project en andere projectinformatie gebruikt om projecten in [!UICONTROL Portfolio Optimizer] te optimaliseren, zie [&#x200B; projecten in Portfolio optimaliseren &#x200B;](../../../manage-work/portfolios/portfolio-optimizer/optimize-projects-in-portfolio-optimizer.md).
 
 ## Verschil tussen de [!UICONTROL Alignment Score] en de [!UICONTROL Portfolio Optimizer Score]
 
@@ -32,19 +32,19 @@ De groeperingsscore van een project wordt berekend gebaseerd op de punten die na
 
 De uitlijningsscore van een project wordt weergegeven in de kolom **[!UICONTROL Alignment]** van het [!UICONTROL Portfolio Optimizer] -veld of in het [!UICONTROL Alignment] -veld van het [!UICONTROL Business Case Summary] -project.
 
-![ Overzicht van bedrijfscase ](assets/business-case-summary-aligned-field-highlighted.png)
+![&#x200B; Overzicht van bedrijfscase &#x200B;](assets/business-case-summary-aligned-field-highlighted.png)
 
-![ de groeperingsscore van het Project ](assets/project-alignment-score-portfolio-optimizer-highlighted-350x174.png)
+![&#x200B; de groeperingsscore van het Project &#x200B;](assets/project-alignment-score-portfolio-optimizer-highlighted-350x174.png)
 
-Voor meer informatie over het produceren van de groeperingsscore van een project, zie het artikel [ een scorecard op een project toepassen en een Score van de Uitlijning ](../../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md) produceren.
+Voor meer informatie over het produceren van de groeperingsscore van een project, zie het artikel [&#x200B; een scorecard op een project toepassen en een Score van de Uitlijning &#x200B;](../../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md) produceren.
 
 De [!UICONTROL portfolio optimizer] score is een positie die automatisch wordt berekend in de [!UICONTROL Portfolio Optimizer] aan de hand waarvan aan projecten prioriteiten kunnen worden toegewezen. De score voor het optimaliseren van het portfolio wordt weergegeven als een indicatorpictogram met een getal en wordt weergegeven in de kolom **[!UICONTROL Score]** van [!UICONTROL Portfolio Optimizer] .
 
 >[!NOTE]
 >
->Een project kan in [!UICONTROL Portfolio Optimizer] slechts worden gescoord als zijn BedrijfsGeval is voltooid. Voor meer informatie over de voltooiing van een Bedrijfs Geval, zie het artikel [[!UICONTROL Create a Business Case] voor een project ](../../../manage-work/projects/define-a-business-case/create-business-case.md).
+>Een project kan in [!UICONTROL Portfolio Optimizer] slechts worden gescoord als zijn BedrijfsGeval is voltooid. Voor meer informatie over de voltooiing van een Bedrijfs Geval, zie het artikel [[!UICONTROL Create a Business Case] voor een project &#x200B;](../../../manage-work/projects/define-a-business-case/create-business-case.md).
 
-![ score van het Project ](assets/portfolio-optimizer-project-score-highlighted-350x132.png)
+![&#x200B; score van het Project &#x200B;](assets/portfolio-optimizer-project-score-highlighted-350x132.png)
 
 De score voor elk project wordt berekend op basis van het belang van de volgende categorieën:
 
@@ -67,7 +67,7 @@ Ga als volgt te werk om de positie van een project te bepalen:
 1. Ga naar de [!UICONTROL Portfolio Optimizer] .
 1. Houd de muisaanwijzer boven het ranking-pictogram om de score voor het optimaliseren van een portfolio voor een project weer te geven.
 
-![ ranking_icon_in_portfolio_optimizer_new.png ](assets/ranking-icon-in-portfolio-optimizer-new-350x160.png)
+![&#x200B; ranking_icon_in_portfolio_optimizer_new.png &#x200B;](assets/ranking-icon-in-portfolio-optimizer-new-350x160.png)
 
 Bij het algoritme voor de berekening van de scores wordt rekening gehouden met de waarden die in de zakelijke gevallen van de projecten worden geschetst en met de gewichten die zij dragen. Het geeft elk project in optimizer een score en normaliseert die score zodat is er altijd een project met een score van 100. Dit geeft een hoge score aan het beste project.
 
@@ -87,9 +87,9 @@ Hieronder volgt een overzicht van de criteria waaraan u een project kunt voldoen
 * [!UICONTROL Risk to Benefit]
 * [!UICONTROL ROI]
 
-![ het Schuiven waardeopties ](assets/optimizer-sliding-value-options-350x77.png)
+![&#x200B; het Schuiven waardeopties &#x200B;](assets/optimizer-sliding-value-options-350x77.png)
 
-Voor informatie over hoe te om projecten in de portefeuille te optimaliseren, zie [ projecten in [!UICONTROL Portfolio Optimizer]](../../../manage-work/portfolios/portfolio-optimizer/optimize-projects-in-portfolio-optimizer.md) optimaliseren.
+Voor informatie over hoe te om projecten in de portefeuille te optimaliseren, zie [&#x200B; projecten in [!UICONTROL Portfolio Optimizer]](../../../manage-work/portfolios/portfolio-optimizer/optimize-projects-in-portfolio-optimizer.md) optimaliseren.
 
 Aan alle criteria in het configuratiescherm ([!UICONTROL Cost], [!UICONTROL Alignment], [!UICONTROL ROI], [!UICONTROL Net Value], [!UICONTROL Risk to Benefit]) wordt het gewicht gegeven in het bereik 0-100 op basis van wat u hebt geselecteerd.
 

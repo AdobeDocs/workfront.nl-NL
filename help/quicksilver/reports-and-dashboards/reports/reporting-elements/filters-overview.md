@@ -53,18 +53,18 @@ Hieronder vindt u typen filters die u kunt gebruiken in Workfront:
 
 Met snelle filters kunt u met een trefwoord zoeken naar een item op het scherm. Nadat u de pagina vernieuwt, wordt het tijdelijke filter Snel gewist. U kunt geen tijdelijke filters opslaan om opnieuw te gebruiken.
 
-Voor informatie over snelle filters, zie [ de snelle filter op een lijst ](../../../workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md) toepassen.
+Voor informatie over snelle filters, zie [&#x200B; de snelle filter op een lijst &#x200B;](../../../workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md) toepassen.
 
 ## Permanente Workfront-filters voor lijsten en rapporten
 
 U kunt permanente filters gebruiken die u, anderen, of Workfront in lijsten of rapporten van voorwerpen worden gecreeerd.
 
-Voor informatie over voorwerpen in Workfront en welke degenen u rapporten voor kunt bouwen, zie [ de objecten van Adobe Workfront overzicht ](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+Voor informatie over voorwerpen in Workfront en welke degenen u rapporten voor kunt bouwen, zie [&#x200B; de objecten van Adobe Workfront overzicht &#x200B;](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
 Zie de volgende artikelen voor meer informatie over filters in lijsten en rapporten:
 
-* [ creeer of geef filters in Adobe Workfront uit ](../../../reports-and-dashboards/reports/reporting-elements/create-filters.md)
-* [ verwijdert filters, meningen, en groeperingen ](../../../reports-and-dashboards/reports/reporting-elements/remove-filters-views-groupings.md)
+* [&#x200B; creeer of geef filters in Adobe Workfront uit &#x200B;](../../../reports-and-dashboards/reports/reporting-elements/create-filters.md)
+* [&#x200B; verwijdert filters, meningen, en groeperingen &#x200B;](../../../reports-and-dashboards/reports/reporting-elements/remove-filters-views-groupings.md)
 * [Een filter, weergave of groep delen](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md)
 
 ## Workfront-filters voor speciale gebieden {#workfront-filters-for-special-areas}
@@ -73,31 +73,31 @@ U kunt ingebouwde filters gebruiken of aangepaste filters bouwen in de volgende 
 
 * Home
 
-  Voor informatie, zie [ punten van de Vertoning in de Lijst van het Werk in het gebied van het Huis ](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
+  Voor informatie, zie [&#x200B; punten van de Vertoning in de Lijst van het Werk in het gebied van het Huis &#x200B;](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
 
 * Verzoeken. U kunt filters niet aanpassen in het gebied Verzoeken.
 
-  Voor informatie, zie [ plaats voorgelegde verzoeken ](../../../manage-work/requests/create-requests/locate-submitted-requests.md).
+  Voor informatie, zie [&#x200B; plaats voorgelegde verzoeken &#x200B;](../../../manage-work/requests/create-requests/locate-submitted-requests.md).
 
 * Resource Planner
 
-  Voor informatie, zie de artikel [ informatie van de Filter in de Planner van het Middel ](../../../resource-mgmt/resource-planning/filter-resource-planner.md).
+  Voor informatie, zie de artikel [&#x200B; informatie van de Filter in de Planner van het Middel &#x200B;](../../../resource-mgmt/resource-planning/filter-resource-planner.md).
 
 * Gebruiksrapport
 
-  Voor informatie, zie de sectie [ het gebruiksinformatie van de Filter ](../../../resource-mgmt/resource-utilization/view-utilization-information.md#filter-utilization-information) in de artikel [ het middelgebruiksinformatie van de Mening ](../../../resource-mgmt/resource-utilization/view-utilization-information.md).
+  Voor informatie, zie de sectie [&#x200B; het gebruiksinformatie van de Filter &#x200B;](../../../resource-mgmt/resource-utilization/view-utilization-information.md#filter-utilization-information) in de artikel [&#x200B; het middelgebruiksinformatie van de Mening &#x200B;](../../../resource-mgmt/resource-utilization/view-utilization-information.md).
 
 * Werklastverdeling
 
-  Voor informatie, zie [ informatie van de Filter in de Balancer van de Werklast ](../../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md).
+  Voor informatie, zie [&#x200B; informatie van de Filter in de Balancer van de Werklast &#x200B;](../../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md).
 
 * Blauwdrukgebied
 
-  Voor informatie, zie [ een blauwdruk ](../../../administration-and-setup/blueprints/blueprints-install.md) installeren.
+  Voor informatie, zie [&#x200B; een blauwdruk &#x200B;](../../../administration-and-setup/blueprints/blueprints-install.md) installeren.
 
 * Scenario Planner
 
-  Voor de Scenario Planner is een aanvullende licentie vereist. Voor informatie over de Planner van het Scenario van Workfront, zie [ het overzicht van de Planner van het Scenario ](../../../scenario-planner/scenario-planner-overview.md).
+  Voor de Scenario Planner is een aanvullende licentie vereist. Voor informatie over de Planner van het Scenario van Workfront, zie [&#x200B; het overzicht van de Planner van het Scenario &#x200B;](../../../scenario-planner/scenario-planner-overview.md).
 
   >[!TIP]
   >
@@ -109,23 +109,23 @@ U kunt ingebouwde filters gebruiken of aangepaste filters bouwen in de volgende 
 
   Raadpleeg de volgende artikelen voor meer informatie:
 
-   * [ creeer en geef plannen in de Planner van het scenario uit ](../../../scenario-planner/create-and-edit-plans.md)
-   * [ werk of creeer projecten door initiatieven in de Planner van het Scenario te publiceren ](../../../scenario-planner/publish-scenarios-update-projects.md) bij
+   * [&#x200B; creeer en geef plannen in de Planner van het scenario uit &#x200B;](../../../scenario-planner/create-and-edit-plans.md)
+   * [&#x200B; werk of creeer projecten door initiatieven in de Planner van het Scenario te publiceren &#x200B;](../../../scenario-planner/publish-scenarios-update-projects.md) bij
    * [Projecten importeren naar plannen in de Scenario-planner](../../../scenario-planner/import-projects-to-plans.md)
 
 * Doelen
 
-  Voor doelen is een extra licentie vereist. Voor informatie over de Doelen van Workfront, zie [ overzicht van de Doelen van Adobe Workfront ](../../../workfront-goals/goal-management/wf-goals-overview.md).
+  Voor doelen is een extra licentie vereist. Voor informatie over de Doelen van Workfront, zie [&#x200B; overzicht van de Doelen van Adobe Workfront &#x200B;](../../../workfront-goals/goal-management/wf-goals-overview.md).
 
   U kunt ingebouwde het filtreren criteria gebruiken maar u kunt geen douanefilters aan hergebruik voor het gebied van Doelen bouwen.
 
-  Voor informatie, zie [ informatie van de Filter in de Doelen van Adobe Workfront ](../../../workfront-goals/goal-management/filter-information-wf-goals.md).
+  Voor informatie, zie [&#x200B; informatie van de Filter in de Doelen van Adobe Workfront &#x200B;](../../../workfront-goals/goal-management/filter-information-wf-goals.md).
 
 * Borden
 
   U kunt ingebouwde filters toepassen maar u kunt geen aangepaste filters maken voor hergebruik in het gebied Boards.
 
-  Voor informatie, zie [ Filter en onderzoek in een raad ](../../../agile/get-started-with-boards/filter-search-in-board.md).
+  Voor informatie, zie [&#x200B; Filter en onderzoek in een raad &#x200B;](../../../agile/get-started-with-boards/filter-search-in-board.md).
 
 ## Overzicht van filters in lijsten en rapporten
 
@@ -139,11 +139,11 @@ Wanneer u werkt met lijsten en rapporten, kunt u informatie op het scherm filter
 >[!IMPORTANT]
 >
 >Wanneer het creëren van of het uitgeven van filters in rapporten, moet u het rapport uitgeven opdat de nieuwe filter de standaardfilter voor het rapport wordt. Wanneer u enkel de filter, buiten de rapportbouwer uitgeeft, wordt de standaardfilter van het rapport niet bijgewerkt.\
->Voor informatie over het uitgeven van een rapport, zie het artikel [ een douanerapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) creëren.
+>Voor informatie over het uitgeven van een rapport, zie het artikel [&#x200B; een douanerapport &#x200B;](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) creëren.
 
-Voor informatie over de lijsten van Workfront, zie [ begonnen worden met lijsten in Adobe Workfront ](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
+Voor informatie over de lijsten van Workfront, zie [&#x200B; begonnen worden met lijsten in Adobe Workfront &#x200B;](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
 
-Voor informatie over de rapporten van Workfront, zie [ begonnen worden met rapporten ](../../../reports-and-dashboards/reports/reporting/get-started-reports-workfront.md).
+Voor informatie over de rapporten van Workfront, zie [&#x200B; begonnen worden met rapporten &#x200B;](../../../reports-and-dashboards/reports/reporting/get-started-reports-workfront.md).
 
 Houd rekening met het volgende wanneer u werkt met filters in lijsten of rapporten:
 
@@ -151,7 +151,7 @@ Houd rekening met het volgende wanneer u werkt met filters in lijsten of rapport
 
 * Uw Workfront-beheerder moet u toegang tot filters, weergaven en groepen geven om permanente filters te maken.
 
-  Voor meer informatie, zie [ toegang van de Verlening tot filters, meningen, en groeperingen ](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md).
+  Voor meer informatie, zie [&#x200B; toegang van de Verlening tot filters, meningen, en groeperingen &#x200B;](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md).
 
 * Het niveau van machtigingen voor een filter bepaalt hoe filters worden opgeslagen. Als u het filter oorspronkelijk hebt gemaakt, kunt u de wijzigingen opslaan. Anders wordt u gevraagd een nieuwe versie op te slaan van het filter dat u wijzigt.
 
@@ -159,7 +159,7 @@ Houd rekening met het volgende wanneer u werkt met filters in lijsten of rapport
   >
   >Houd er rekening mee dat als u wijzigingen aanbrengt in een filter dat u met anderen hebt gedeeld, de wijzigingen ook van invloed zijn op deze filters.
 
-* U kunt een filter dat met u werd gedeeld aanpassen slechts als de gebruiker die het deelde u toegang leidde verleende. Voor informatie over het delen van een filter, zie [ een filter, mening, of groepering ](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md) delen.
+* U kunt een filter dat met u werd gedeeld aanpassen slechts als de gebruiker die het deelde u toegang leidde verleende. Voor informatie over het delen van een filter, zie [&#x200B; een filter, mening, of groepering &#x200B;](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md) delen.
 
 ## Elementen van een filter
 
@@ -167,11 +167,11 @@ Wanneer u een filter bouwt, verbindt u veelvoudige elementen samen die omhoog fi
 
 Dit is een voorbeeld van de standaardfilterconstructor:
 
-![ Standaard filterbouwer ](assets/filter-sample-with-or.png)
+![&#x200B; Standaard filterbouwer &#x200B;](assets/filter-sample-with-or.png)
 
 Dit is een voorbeeld van de oudere filterconstructor:
 
-![ Verouderde filter bouwer ](assets/filter-statements-with-or-and-and-nwe.png)
+![&#x200B; Verouderde filter bouwer &#x200B;](assets/filter-statements-with-or-and-and-nwe.png)
 
 Een filter bevat de volgende elementen:
 
@@ -227,7 +227,7 @@ U kunt filteropties gebruiken om aan te geven welk soort informatie u wilt dat u
 >
 >`Project: Percent Complete Equal(Case Sensitive) 100`
 
-Voor meer informatie over filterbepalingen, zie [ Filter en voorwaardenbepalingen ](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
+Voor meer informatie over filterbepalingen, zie [&#x200B; Filter en voorwaardenbepalingen &#x200B;](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
 
 ## Filters maken in de builderinterface
 
@@ -237,13 +237,13 @@ U kunt op de volgende manieren een filter maken met de standaard- of oudere buil
 * Een bestaand filter wijzigen
 * Een bestaand filter kopiëren
 
-Voor informatie over het creëren van een filter gebruikend de standaard of erfenisbouwerinterface, zie [ filters in Adobe Workfront ](../../../reports-and-dashboards/reports/reporting-elements/create-filters.md) creëren of uitgeven.
+Voor informatie over het creëren van een filter gebruikend de standaard of erfenisbouwerinterface, zie [&#x200B; filters in Adobe Workfront &#x200B;](../../../reports-and-dashboards/reports/reporting-elements/create-filters.md) creëren of uitgeven.
 
 ## Filters maken met de interface voor tekstmodus
 
 U kunt filters bouwen gebruikend de interface van de tekstwijze. Wij adviseren om de meeste filterverklaringen te bouwen gebruikend de standaard of erfenis bouwerinterface, en de code van de filter slechts als definitieve stap uit te geven. Het wordt niet aanbevolen een geheel nieuw filter te maken met alleen de interface van de tekstmodus.
 
-Voor meer informatie over het creëren van een filter gebruikend de interface van de tekstwijze, zie [ een filter uitgeven gebruikend tekstwijze ](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md).
+Voor meer informatie over het creëren van een filter gebruikend de interface van de tekstwijze, zie [&#x200B; een filter uitgeven gebruikend tekstwijze &#x200B;](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md).
 
 ## Filters maken voor complexe velden
 
@@ -271,7 +271,7 @@ Als u een filter wilt bouwen dat slechts projecten zou vinden waar de derde opti
 
 Deze syntaxis zorgt ervoor dat de waarden als één optie samen worden gelezen. Als u de schuine streep weglaat, leest Workfront de komma als OF. In dat geval worden alleen de projecten geselecteerd die de eerste of de tweede optie hebben.
 
-Deze syntaxis is ook van toepassing bij het samenstellen van vragen. Voor meer informatie over het gebruiken van herinneringen, zie [ een herinnering aan een rapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md) toevoegen.
+Deze syntaxis is ook van toepassing bij het samenstellen van vragen. Voor meer informatie over het gebruiken van herinneringen, zie [&#x200B; een herinnering aan een rapport &#x200B;](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md) toevoegen.
 
 ### Filters maken waarvan de waarden een aangepast veld met meerdere selecties zijn {#create-filters-for-whose-values-are-a-multi-select-custom-field}
 

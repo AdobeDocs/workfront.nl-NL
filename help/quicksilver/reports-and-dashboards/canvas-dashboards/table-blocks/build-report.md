@@ -17,7 +17,7 @@ U kunt een rapport maken door unieke blokken naar het canvas te slepen die uw ge
 
 ## Vereisten
 
-Alvorens u begint, moet u in de bèta van het Canvas van de Rapportering inschrijven. Voor meer informatie, zie [ Rapporterend de bèta van het Canvas: overzicht ](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
+Alvorens u begint, moet u in de bèta van het Canvas van de Rapportering inschrijven. Voor meer informatie, zie [&#x200B; Rapporterend de bèta van het Canvas: overzicht &#x200B;](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
 
 ## Een rapport samenstellen
 
@@ -25,11 +25,11 @@ Alvorens u begint, moet u in de bèta van het Canvas van de Rapportering inschri
 >
 >Alle wijzigingen worden automatisch opgeslagen wanneer u de blokken in uw rapport maakt en bewerkt.
 
-1. Klik het **pictogram van het 1&rbrace; pictogram van het Belangrijkste Menu ![ ](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik** Meldend **.**
+1. Klik het **pictogram van het 1&rbrace; pictogram van het Belangrijkste Menu ![&#x200B; &#x200B;](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik** Meldend **.**
 1. Klik **Nieuw rapport**.
 1. Typ in de linkerbovenhoek van het bewerkingscanvas een naam voor uw rapport.
 
-   U kunt de naam van het rapport op elk ogenblik veranderen door **te klikken geeft** pictogram ![ uit geeft pictogram ](assets/edit-icon.png) naast zijn naam uit.
+   U kunt de naam van het rapport op elk ogenblik veranderen door **te klikken geeft** pictogram ![&#x200B; uit geeft pictogram &#x200B;](assets/edit-icon.png) naast zijn naam uit.
 
 1. Sleep vanaf de rechterkant van het scherm de blokken die u wilt toevoegen naar het canvas.
 

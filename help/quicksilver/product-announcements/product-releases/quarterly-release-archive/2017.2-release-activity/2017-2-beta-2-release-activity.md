@@ -22,7 +22,7 @@ Op deze pagina worden alle wijzigingen beschreven die beschikbaar zijn in de voo
 >
 >De op deze pagina beschreven functionaliteit kan worden gewijzigd voordat deze beschikbaar is in de productieomgeving.
 
-Voor een lijst van alle veranderingen die in 2017.2 worden aangebracht, zie [ 2017.2 overzicht van de versieactiviteit ](../../../../product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-release-activity-overview.md).
+Voor een lijst van alle veranderingen die in 2017.2 worden aangebracht, zie [&#x200B; 2017.2 overzicht van de versieactiviteit &#x200B;](../../../../product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-release-activity-overview.md).
 
 De Beta 2-release van 2017.2 bevat verbeteringen voor zowel Workfront-beheerders als andere gebruikers:
 
@@ -32,30 +32,30 @@ De Beta 2-release van 2017.2 bevat verbeteringen voor zowel Workfront-beheerders
 
 **voor Alle Gebruikers:**
 
-* [ Abonneren aan Projecten ](#subscribe-to-projects)
-* [ Unsubscribe van Punten van E-mail ](#unsubscribe-from-items-from-email)
-* [ vormt hoe de Mijlpalen op de Grafiek van Gantt ](#configure-how-milestones-are-displayed-on-the-gantt-chart) worden getoond
-* [ Malplaatjes van de Pools van het Middel ](#resource-pools-templates)
-* [ Versies van de Mening van Beproefde Documenten binnen Workfront ](#view-versions-of-proofed-documents-within-workfront)
+* [&#x200B; Abonneren aan Projecten &#x200B;](#subscribe-to-projects)
+* [&#x200B; Unsubscribe van Punten van E-mail &#x200B;](#unsubscribe-from-items-from-email)
+* [&#x200B; vormt hoe de Mijlpalen op de Grafiek van Gantt &#x200B;](#configure-how-milestones-are-displayed-on-the-gantt-chart) worden getoond
+* [&#x200B; Malplaatjes van de Pools van het Middel &#x200B;](#resource-pools-templates)
+* [&#x200B; Versies van de Mening van Beproefde Documenten binnen Workfront &#x200B;](#view-versions-of-proofed-documents-within-workfront)
 * [Nieuw object Request in goedkeuringsrapport voor proef](#new-requester-object-in-proof-approval-report)
 
 ## API-verbetering: gebeurtenisabonnementen {#api-enhancement-event-subscriptions}
 
 Wanneer een actie op een voorwerp van Workfront voorkomt dat door gebeurtenisabonnementen wordt gesteund, kunt u Workfront nu vormen om een reactie naar uw gewenste eindpunt te verzenden. Dit betekent dat uw integratie in real-time kan communiceren met de Workfront API.
 
-Voor meer informatie, zie [ Abonnement API van de Gebeurtenis ](../../../../wf-api/general/event-subs-api.md). 
+Voor meer informatie, zie [&#x200B; Abonnement API van de Gebeurtenis &#x200B;](../../../../wf-api/general/event-subs-api.md). 
 
 ## Abonneren op projecten {#subscribe-to-projects}
 
 U kunt nu op nieuwe commentaren op projecten intekenen waarvoor u geen deel van het projectteam uitmaakt. Vóór deze release kon u zich alleen abonneren op opmerkingen over problemen en taken.
 
-Voor meer informatie over het intekenen op punten, zie [ aan punten in Adobe Workfront ](../../../../workfront-basics/using-notifications/subscribe-to-items-in-workfront.md) intekenen
+Voor meer informatie over het intekenen op punten, zie [&#x200B; aan punten in Adobe Workfront &#x200B;](../../../../workfront-basics/using-notifications/subscribe-to-items-in-workfront.md) intekenen
 
 ## Abonnement op objecten opzeggen via e-mail {#unsubscribe-from-items-from-email}
 
 Je kunt je abonnement op objecten opzeggen via de link Abonnement opzeggen in het e-mailbericht met abonnement. Eerder kon je je abonnement op een object alleen opzeggen via de Workfront-interface.
 
-Voor meer informatie over het opzeggen aan abonnementsemails, zie &quot;het Opting uit de sectie van het Bericht E-mail&quot;in [ Adobe Workfront berichten ](../../../../workfront-basics/using-notifications/wf-notifications.md) 
+Voor meer informatie over het opzeggen aan abonnementsemails, zie &quot;het Opting uit de sectie van het Bericht E-mail&quot;in [&#x200B; Adobe Workfront berichten &#x200B;](../../../../workfront-basics/using-notifications/wf-notifications.md) 
 
 ## Configureer hoe mijlpalen worden weergegeven op de Gantt-grafiek {#configure-how-milestones-are-displayed-on-the-gantt-chart}
 
@@ -73,13 +73,13 @@ Er zijn nu twee opties voor het weergeven van mijlpaalinformatie in een Gantt-gr
 
 Vóór deze wijziging was er slechts één optie om Mijlpalen toe te laten om op een grafiek van Gantt te tonen, genoemd &quot;Mijlpalen.&quot; Deze optie maakte zowel het milestone diamond icon als de milestone line mogelijk. Deze indicatoren konden niet van elkaar worden gescheiden. De twee opties zijn nu beschikbaar op alle Gantt-grafieken, inclusief alle projectlijsten en -rapporten. 
 
-Voor meer informatie over het vormen hoe de informatievertoningen in de grafiek van Gantt, zie [ vormen hoe de informatievertoningen op de Grafiek van Gantt ](../../../../manage-work/gantt-chart/use-the-gantt-chart/configure-info-on-gantt-chart.md).
+Voor meer informatie over het vormen hoe de informatievertoningen in de grafiek van Gantt, zie [&#x200B; vormen hoe de informatievertoningen op de Grafiek van Gantt &#x200B;](../../../../manage-work/gantt-chart/use-the-gantt-chart/configure-info-on-gantt-chart.md).
 
 ## Bronpaginasjablonen {#resource-pools-templates}
 
 U kunt nu bronnenpools opgeven voor sjablonen. Voorafgaand aan deze versie, kon u de Pools van het Middel slechts met gebruikers en projecten associëren.
 
-Voor meer informatie over de Pools van het Middel, zie [ overzicht van de Groepen van het Middel ](../../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md)
+Voor meer informatie over de Pools van het Middel, zie [&#x200B; overzicht van de Groepen van het Middel &#x200B;](../../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md)
 
 ## Versies van gecontroleerde documenten weergeven in Workfront {#view-versions-of-proofed-documents-within-workfront}
 
@@ -96,7 +96,7 @@ Gebruikers met een proeflicentie kunnen het volgende doen:
 * Een proefdruk openen op een vorige versie van een proefdocument
 * De proefdrukdetails weergeven in een vorige versie van een proefdocument
 
-Voor meer informatie, zie [ documentversies ](../../../../documents/managing-documents/manage-document-versions.md) in [ leiden documentversies ](../../../../documents/managing-documents/manage-document-versions.md).
+Voor meer informatie, zie [&#x200B; documentversies &#x200B;](../../../../documents/managing-documents/manage-document-versions.md) in [&#x200B; leiden documentversies &#x200B;](../../../../documents/managing-documents/manage-document-versions.md).
 
 ## Nieuw object Request in goedkeuringsrapport voor proef {#new-requester-object-in-proof-approval-report}
 
@@ -108,6 +108,6 @@ Het nieuwe object Requester in het rapport Goedkeuring proef bevat alle velden d
 >
 > Deze informatie is alleen beschikbaar in het rapport vanaf het moment dat deze functie voor het eerst werd geïntroduceerd in de respectievelijke voorvertoning- of productieomgevingen. Informatie in rapporten over het object Requester vóór de introductie van deze functie is niet beschikbaar.
 
-U hebt toegang tot het voorwerp Requester wanneer het creëren van een rapport van de Goedkeuring van het Bewijs, zoals die in [ wordt beschreven creeer een douanerapport ](../../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+U hebt toegang tot het voorwerp Requester wanneer het creëren van een rapport van de Goedkeuring van het Bewijs, zoals die in [&#x200B; wordt beschreven creeer een douanerapport &#x200B;](../../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
-Voor meer informatie over het Proef keurt objecten rapport goed, zie [ voorwerpen in Adobe Workfront ](../../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md) sectie in [ begrijpen voorwerpen in Adobe Workfront ](../../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md) begrijpen.
+Voor meer informatie over het Proef keurt objecten rapport goed, zie [&#x200B; voorwerpen in Adobe Workfront &#x200B;](../../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md) sectie in [&#x200B; begrijpen voorwerpen in Adobe Workfront &#x200B;](../../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md) begrijpen.

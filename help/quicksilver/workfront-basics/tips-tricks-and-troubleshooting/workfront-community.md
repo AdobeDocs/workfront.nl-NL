@@ -30,7 +30,7 @@ De Adobe [!DNL Workfront] -community is een onlinegroep met meer dan 10.000 [!DN
 
 Als u een geautoriseerde contactpersoon voor ondersteuning (ASC) bent, hebt u aanmeldingsgegevens voor de [!UICONTROL Help Desk] en [!UICONTROL Innovation Lab] . U kunt dezelfde gegevens gebruiken om u aan te melden bij de [!DNL Workfront] -community. In dit geval laat u het subdomein leeg.
 
-![ community_4.png ](assets/community-4-350x129.png)
+![&#x200B; community_4.png &#x200B;](assets/community-4-350x129.png)
 
 ### Contact met niet-geautoriseerde ondersteuning zonder SSO-aanmelding {#non-authorized-support-contact-without-sso-login}
 
@@ -53,13 +53,13 @@ Als u uw wachtwoord voor de communautaire site niet meer onthoudt, kunt u contac
 
 ### Wat is de URL voor de [!DNL Workfront] community?
 
-De [!DNL Workfront] Gemeenschap is beschikbaar op de [!DNL Adobe Experience League] website bij volgende URL: [[!DNL Workfront]  Gemeenschap ](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront).
+De [!DNL Workfront] Gemeenschap is beschikbaar op de [!DNL Adobe Experience League] website bij volgende URL: [[!DNL Workfront]  Gemeenschap &#x200B;](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront).
 
 ### Wat is mijn subdomein? {#what-s-my-subdomain}
 
 Als u niet bekend bent met het subdomein, kunt u het gemakkelijk vinden. Als u in [!DNL Workfront] wordt geregistreerd, is uw subdomain het tekstkoord of het woord voorafgaand aan *.workfront.com* of *my.workfront.com* in URL. Bijvoorbeeld, als uw Workfront URL *appetite.workfront.com leest,* dan *trek* is uw subdomein. Zie markering C in het onderstaande diagram.
 
-![ community_5.png ](assets/community-5-350x175.png)
+![&#x200B; community_5.png &#x200B;](assets/community-5-350x175.png)
 
 ### Mijn gebruikersnaam of wachtwoord vergeten. Hoe kan ik mijn gebruikersnaam of wachtwoord opnieuw instellen? {#i-forgot-my-username-or-password-how-do-i-reset-my-username-or-password}
 

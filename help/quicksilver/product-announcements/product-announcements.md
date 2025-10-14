@@ -17,6 +17,6 @@ ht-degree: 13%
 
 Deze sectie bevat de volgende subsecties die aanstaande productversies, aankondigingen, en huidige bètaprogramma&#39;s beschrijven.
 
-* [ de versies van het Product ](../product-announcements/product-releases/product-releases.md)
-* [ Mededelingen ](../product-announcements/announcements/announcements.md)
+* [&#x200B; de versies van het Product &#x200B;](../product-announcements/product-releases/product-releases.md)
+* [&#x200B; Mededelingen &#x200B;](../product-announcements/announcements/announcements.md)
 * [Beta-programma&#39;s](../product-announcements/betas/betas.md)

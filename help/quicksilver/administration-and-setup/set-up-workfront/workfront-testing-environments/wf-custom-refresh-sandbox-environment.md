@@ -29,7 +29,7 @@ De aangepaste sandbox Vernieuwen is een omgeving waarin u gegevens uit uw produc
 >
 >  Er zijn ook extra kosten voor het ophalen van de aangepaste vernieuwingssandbox die niet vereist zijn voor de voorvertoningssandbox.
 >
->  Voor meer informatie over de zandbak van de Voorproef, zie [ het  [!DNL Adobe Workfront]  Milieu van de Voorproef Sandbox ](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md).
+>  Voor meer informatie over de zandbak van de Voorproef, zie [&#x200B; het  [!DNL Adobe Workfront]  Milieu van de Voorproef Sandbox &#x200B;](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md).
 
 ## Toegangsvereisten
 
@@ -56,7 +56,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -85,11 +85,11 @@ Als [!DNL Workfront] beheerder kunt u tot uw Douane toegang hebben vernieuwt San
 
 >[!NOTE]
 >
->Als uw account zich op Cluster 4 (EMEA-cluster) bevindt, hebt u vanuit de productieomgeving geen toegang tot uw aangepaste vernieuwingssandbox. Voor meer informatie over hoe u tot uw Douane kunt toegang hebben verfrist Sandbox wanneer u een rekening op Cluster 4 hebt, zie [ tot de Douane verfrissen Sandbox voor Rekeningen op Cluster 4 (EMEA Rekeningen) ](#access-the-custom-refresh-sandbox-for-accounts-on-cluster-4-emea-accounts) [ toegang tot de Douane verfrist Sandbox voor Rekeningen op Cluster 4 (EMEA Rekeningen) ](#access-the-custom-refresh-sandbox-for-accounts-on-cluster-4-emea-accounts).
+>Als uw account zich op Cluster 4 (EMEA-cluster) bevindt, hebt u vanuit de productieomgeving geen toegang tot uw aangepaste vernieuwingssandbox. Voor meer informatie over hoe u tot uw Douane kunt toegang hebben verfrist Sandbox wanneer u een rekening op Cluster 4 hebt, zie [&#x200B; tot de Douane verfrissen Sandbox voor Rekeningen op Cluster 4 (EMEA Rekeningen) &#x200B;](#access-the-custom-refresh-sandbox-for-accounts-on-cluster-4-emea-accounts) [&#x200B; toegang tot de Douane verfrist Sandbox voor Rekeningen op Cluster 4 (EMEA Rekeningen) &#x200B;](#access-the-custom-refresh-sandbox-for-accounts-on-cluster-4-emea-accounts).
 
 Ga als volgt te werk om uw aangepaste vernieuwingssandbox te openen:
 
-1. Klik het **[!UICONTROL Main Menu]** pictogram van het pictogram ![ Belangrijkste menupictogram ](assets/main-menu-icon.png) in de hoger-juiste hoek van [!DNL Adobe Workfront], dan klik **[!UICONTROL Setup]** ![ het montagespictogram van het Gear ](assets/gear-icon-settings.png).
+1. Klik het **[!UICONTROL Main Menu]** pictogram van het pictogram ![&#x200B; Belangrijkste menupictogram &#x200B;](assets/main-menu-icon.png) in de hoger-juiste hoek van [!DNL Adobe Workfront], dan klik **[!UICONTROL Setup]** ![&#x200B; het montagespictogram van het Gear &#x200B;](assets/gear-icon-settings.png).
 
 1. Klik **[!UICONTROL System]** > **[!UICONTROL Preferences]**.
 
@@ -173,7 +173,7 @@ Om een verfrissing van uw Klant te plannen vernieuwt Sandbox:
 
 1. Meld u aan bij uw aangepaste vernieuwingssandbox.
 
-   Voor meer informatie over de toegang tot van uw Douane verfrist Sandbox, zie [ Toegang tot Aangepast vernieuwt Sandbox van uw milieu van de Productie ](#access-the-custom-refresh-sandbox-from-your-production-environment) of [ toegang tot Aangepast vernieuwt Sandbox gebruikend URL ](#access-the-custom-refresh-sandbox-using-a-url).
+   Voor meer informatie over de toegang tot van uw Douane verfrist Sandbox, zie [&#x200B; Toegang tot Aangepast vernieuwt Sandbox van uw milieu van de Productie &#x200B;](#access-the-custom-refresh-sandbox-from-your-production-environment) of [&#x200B; toegang tot Aangepast vernieuwt Sandbox gebruikend URL &#x200B;](#access-the-custom-refresh-sandbox-using-a-url).
 
 1. Klik op **[!UICONTROL Go To Production]** in de banner boven aan het scherm.
 
@@ -181,12 +181,12 @@ Om een verfrissing van uw Klant te plannen vernieuwt Sandbox:
 
 ## E-mails ontvangen vanuit de Aangepaste sandbox Vernieuwen
 
-[!DNL Workfront] schakelt alle e-mailcommunicatie uit vanuit de aangepaste Sandbox-omgeving voor vernieuwen. Als u e-mailmeldingen wilt ontvangen vanuit de aangepaste Sandbox-omgeving voor vernieuwen, moet u deze functionaliteit inschakelen in uw gebruikersinstellingen. Voor meer informatie over het toelaten van e-mailberichten in de Douane verfrist het milieu van Sandbox, zie [ levering van e-mails van het milieu van de zandbak van de Voorproef ](../../../workfront-basics/using-notifications/enable-delivery-emails-from-preview-sandbox-environment.md) toelaten.
+[!DNL Workfront] schakelt alle e-mailcommunicatie uit vanuit de aangepaste Sandbox-omgeving voor vernieuwen. Als u e-mailmeldingen wilt ontvangen vanuit de aangepaste Sandbox-omgeving voor vernieuwen, moet u deze functionaliteit inschakelen in uw gebruikersinstellingen. Voor meer informatie over het toelaten van e-mailberichten in de Douane verfrist het milieu van Sandbox, zie [&#x200B; levering van e-mails van het milieu van de zandbak van de Voorproef &#x200B;](../../../workfront-basics/using-notifications/enable-delivery-emails-from-preview-sandbox-environment.md) toelaten.
 
 >[!NOTE]
 >
 >Leverings- en pushberichten van rapporten op de mobiele app zijn altijd uitgeschakeld voor de aangepaste Sandbox-omgeving voor vernieuwen. U kunt noch de beheerder van [!DNL Workfront] de levering van rapporten of pushmeldingen voor de mobiele app inschakelen wanneer u toegang krijgt tot de aangepaste Sandbox-omgeving voor vernieuwen.\
->Voor meer informatie over rapportleveringen voor het productiemilieu, zie [ het leveringsoverzicht van het Rapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md).Voor meer informatie over dupberichten op mobiele app voor het productiemilieu, zie de sectie in.
+>Voor meer informatie over rapportleveringen voor het productiemilieu, zie [&#x200B; het leveringsoverzicht van het Rapport &#x200B;](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md).Voor meer informatie over dupberichten op mobiele app voor het productiemilieu, zie de sectie in.
 
 ## Eén aanmelding configureren in de sandbox Aangepast vernieuwen
 
@@ -194,7 +194,7 @@ Als u uw Douane wilt vormen vernieuwt Sandbox om met Één Enige Sign-On oplossi
 Wanneer u uw Douane vernieuwt Sandbox, wordt de informatie SSO niet gekopieerd van uw milieu van de Productie om de Douane te overschrijven vernieuwt Sandbox configuratie.
 
 De stappen voor het vormen van enig teken-binnen in de Douane verfrissen Sandbox zijn gelijkaardig aan die voor het vormen van het in het milieu van de Productie.\
-Voor meer informatie over het vormen [!DNL Workfront] met SSO, zie [ Overzicht van enige teken-op in Adobe Workfront ](../../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md).
+Voor meer informatie over het vormen [!DNL Workfront] met SSO, zie [&#x200B; Overzicht van enige teken-op in Adobe Workfront &#x200B;](../../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md).
 
 >[!NOTE]
 >
@@ -206,9 +206,9 @@ Het opnieuw berekenen van chronologie staat managers toe om te zien hoe de krach
 
 Als Workfront-beheerder kunt u configureren wanneer Workfront de projecttijdlijnen automatisch opnieuw berekent. Workfront kan projectchronologie of elke nacht opnieuw berekenen of wanneer het projectwerkingsgebied verandert, of allebei.
 
-Voor informatie, zie [ chronologieherberekeningen voor projecten ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md) vormen.
+Voor informatie, zie [&#x200B; chronologieherberekeningen voor projecten &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md) vormen.
 
-In de omgeving van Aangepaste sandbox vernieuwen is het nippertje opnieuw berekenen uitgeschakeld en worden de projecttijdlijnen niet automatisch opnieuw berekend. U moet de projectchronologie voor de Douane manueel opnieuw berekenen vernieuwt Sandbox milieu. Voor informatie, zie [ projectchronologie ](/help/quicksilver/manage-work/projects/manage-projects/recalculate-project-timeline.md) opnieuw berekenen.
+In de omgeving van Aangepaste sandbox vernieuwen is het nippertje opnieuw berekenen uitgeschakeld en worden de projecttijdlijnen niet automatisch opnieuw berekend. U moet de projectchronologie voor de Douane manueel opnieuw berekenen vernieuwt Sandbox milieu. Voor informatie, zie [&#x200B; projectchronologie &#x200B;](/help/quicksilver/manage-work/projects/manage-projects/recalculate-project-timeline.md) opnieuw berekenen.
 
 
 ## Beoogd gebruik en beschikbaarheid

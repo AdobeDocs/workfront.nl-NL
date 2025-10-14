@@ -41,11 +41,11 @@ U kunt de API gebruiken om gekoppelde mappen en documenten te migreren naar Adob
 
 ## Voorbeeld van migreren van koppelingen
 
-![ vereenvoudigd-verbinding-stroom ](assets/links-flow-simplified.png)
+![&#x200B; vereenvoudigd-verbinding-stroom &#x200B;](assets/links-flow-simplified.png)
 
 ## API-informatie
 
-Voor meer informatie over Workfront APIs in deze sectie, zie [ Documentatie van de Ontwikkelaar:Documenten ](https://developer.workfront.com/documents.html).
+Voor meer informatie over Workfront APIs in deze sectie, zie [&#x200B; Documentatie van de Ontwikkelaar:Documenten &#x200B;](https://developer.workfront.com/documents.html).
 
 ### Alle documenten zoeken
 
@@ -57,7 +57,7 @@ Http Method: GET
 Http Endpoint: {host}/attask/api/v14.0/document/search?fields=currentVersion:*&currentVersion:externalIntegrationType={providerType}
 ```
 
-[ API verwijzing DOCS ](https://developer.workfront.com/documents.html#get-/docu/search)
+[&#x200B; API verwijzing DOCS &#x200B;](https://developer.workfront.com/documents.html#get-/docu/search)
 
 ### Alle mappen zoeken
 

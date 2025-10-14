@@ -50,7 +50,7 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
 
 &#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw [!DNL Workfront] beheerder.
 
-&#42;&#42; voor informatie over [!DNL &#x200B; Adobe Workfront Fusion] vergunningen, zie [[!DNL Adobe Workfront Fusion]  vergunningen ](https://experienceleague.adobe.com/nl/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration)
+&#42;&#42; voor informatie over [!DNL &#x200B; Adobe Workfront Fusion] vergunningen, zie [[!DNL Adobe Workfront Fusion]  vergunningen &#x200B;](https://experienceleague.adobe.com/nl/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration)
 
 ## Triginggebeurtenis
 
@@ -62,7 +62,7 @@ U moet het volgende in [!DNL Workfront] hebben om dit scenario te gebruiken:
 
 * Een gebruikersprofiel in [!DNL Workfront] genoemd **[!DNL Anaplan]Integratie**, dat systeembeheerderrechten heeft.
 
-  Voor informatie bij het creëren van een gebruiker in [!DNL Workfront], zie [ gebruikers ](../../administration-and-setup/add-users/create-and-manage-users/add-users.md) toevoegen.
+  Voor informatie bij het creëren van een gebruiker in [!DNL Workfront], zie [&#x200B; gebruikers &#x200B;](../../administration-and-setup/add-users/create-and-manage-users/add-users.md) toevoegen.
 
 * Een **[!UICONTROL Budget Request]** aangepast formulier dat is gekoppeld aan het [!UICONTROL Request] -object.
 
@@ -99,7 +99,7 @@ U moet het volgende in [!DNL Workfront] hebben om dit scenario te gebruiken:
    </tbody> 
   </table>
 
-  Voor informatie bij het creëren van douaneformulieren, zie [ een douaneformulier ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren.
+  Voor informatie bij het creëren van douaneformulieren, zie [&#x200B; een douaneformulier &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren.
 
 * Projectsjablonen die campagnes en andere projecten vertegenwoordigen waarvoor financiering is vereist, geconfigureerd met een [!UICONTROL Budget Request] -rijonderwerp. Het onderwerp in de wachtrij van [!UICONTROL Budget Request] wordt toegewezen aan het aangepaste formulier van [!UICONTROL Budget Request] .
 * Een **[!UICONTROL Campaign Brief]** -formulier voor het projectobject.
@@ -141,7 +141,7 @@ U moet het volgende in [!DNL Workfront] hebben om dit scenario te gebruiken:
    </tbody> 
   </table>
 
-  Voor informatie bij het creëren van douaneformulieren, zie [ een douaneformulier ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren.
+  Voor informatie bij het creëren van douaneformulieren, zie [&#x200B; een douaneformulier &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren.
 
 ## [!DNL Anaplan] Configuratie verwacht
 

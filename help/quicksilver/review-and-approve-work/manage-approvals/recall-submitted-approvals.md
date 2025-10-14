@@ -65,18 +65,18 @@ Als u een goedkeuring herinnert die met de beginstatus van het project wordt gea
 
 >[!NOTE]
 >
->U kunt de eerste status van een project of een taak met een goedkeuringsproces associëren door een malplaatje te gebruiken. Voor meer informatie over het toevoegen van goedkeuringen aan een malplaatje, zie  [ geeft projectmalplaatjes ](../../manage-work/projects/create-and-manage-templates/edit-templates.md) uit.
+>U kunt de eerste status van een project of een taak met een goedkeuringsproces associëren door een malplaatje te gebruiken. Voor meer informatie over het toevoegen van goedkeuringen aan een malplaatje, zie  [&#x200B; geeft projectmalplaatjes &#x200B;](../../manage-work/projects/create-and-manage-templates/edit-templates.md) uit.
 
 U hebt een projectgoedkeuring verzonden door:
 
-1. Klik het **pictogram van het Huis ![ pictogram van het Begin ](assets/home-icon-30x29.png) in de upper-left hoek van Adobe Workfront.**
+1. Klik het **pictogram van het Huis ![&#x200B; pictogram van het Begin &#x200B;](assets/home-icon-30x29.png) in de upper-left hoek van Adobe Workfront.**
 
    >[!NOTE]
    >
    >Uw Workfront-beheerder kan de volgende wijzigingen aanbrengen in het pictogram Home in uw omgeving:
    >
    >* Vervang deze door een afbeelding die is aangepast om uw organisatie te illustreren. In dit geval ziet het pictogram er anders uit dan in dit artikel.
-   >* De gekoppelde pagina vervangen door een andere pagina. In dit geval, klik het **Belangrijkste pictogram van het Menu** ![ Belangrijkste pictogram van het Menu ](assets/main-menu-icon.png) in de hoger-juiste hoek van de pagina, dan klik **Huis**.
+   >* De gekoppelde pagina vervangen door een andere pagina. In dit geval, klik het **Belangrijkste pictogram van het Menu** ![&#x200B; Belangrijkste pictogram van het Menu &#x200B;](assets/main-menu-icon.png) in de hoger-juiste hoek van de pagina, dan klik **Huis**.
 
 1. In het **gebied van de Lijst van het Werk**, navigeer aan **goedkeurt ik** groepering heb voorgelegd.
 
@@ -84,7 +84,7 @@ U hebt een projectgoedkeuring verzonden door:
 
    Dit opent het project op het recht van de Lijst van het Werk.
 
-   ![ Project in afwachting van goedkeuring ](assets/project-pending-approval-phome-nwe-350x106.png)
+   ![&#x200B; Project in afwachting van goedkeuring &#x200B;](assets/project-pending-approval-phome-nwe-350x106.png)
 
 1. Klik **Herinneren** in de hoger-juiste hoek van het juiste paneel.
 
@@ -96,18 +96,18 @@ Als u een goedkeuring herinnert die met de beginstatus van de taak wordt geassoc
 
 >[!NOTE]
 >
->U kunt de eerste status van een project of een taak met een goedkeuringsproces associëren door een malplaatje te gebruiken. Voor meer informatie over het toevoegen van goedkeuringen aan een malplaatje, zie [ projectmalplaatjes ](../../manage-work/projects/create-and-manage-templates/edit-templates.md) uitgeven.
+>U kunt de eerste status van een project of een taak met een goedkeuringsproces associëren door een malplaatje te gebruiken. Voor meer informatie over het toevoegen van goedkeuringen aan een malplaatje, zie [&#x200B; projectmalplaatjes &#x200B;](../../manage-work/projects/create-and-manage-templates/edit-templates.md) uitgeven.
 
 Om een taakgoedkeuring terug te roepen hebt u voorgelegd:
 
-1. Klik het **pictogram van het Huis ![ pictogram van het Begin ](assets/home-icon-30x29.png) in de upper-left hoek van Adobe Workfront.**
+1. Klik het **pictogram van het Huis ![&#x200B; pictogram van het Begin &#x200B;](assets/home-icon-30x29.png) in de upper-left hoek van Adobe Workfront.**
 
    >[!NOTE]
    >
    >Uw Workfront-beheerder kan de volgende wijzigingen aanbrengen in het pictogram Home in uw omgeving:
    >
    >* Vervang deze door een afbeelding die is aangepast om uw organisatie te illustreren. In dit geval ziet het pictogram er anders uit dan in dit artikel.
-   >* De gekoppelde pagina vervangen door een andere pagina. In dit geval, klik het **Belangrijkste pictogram van het Menu** ![ Belangrijkste pictogram van het Menu ](assets/main-menu-icon.png) in de hoger-juiste hoek van de pagina, dan klik **Huis**.
+   >* De gekoppelde pagina vervangen door een andere pagina. In dit geval, klik het **Belangrijkste pictogram van het Menu** ![&#x200B; Belangrijkste pictogram van het Menu &#x200B;](assets/main-menu-icon.png) in de hoger-juiste hoek van de pagina, dan klik **Huis**.
 
 1. In het **gebied van de Lijst van het Werk**, navigeer aan **goedkeurt ik** groepering heb voorgelegd.
 
@@ -115,7 +115,7 @@ Om een taakgoedkeuring terug te roepen hebt u voorgelegd:
 
    Hiermee wordt de taak rechts van de werklijst geopend.
 
-   ![ Taak in afwachting van goedkeuring ](assets/task-pending-approval-home-nwe-350x97.png)
+   ![&#x200B; Taak in afwachting van goedkeuring &#x200B;](assets/task-pending-approval-home-nwe-350x97.png)
 
 1. Klik **Herinneren** in de hoger-juiste hoek van het juiste paneel.
 
@@ -127,16 +127,16 @@ Als u een goedkeuring herinnert die met de beginstatus van de kwestie wordt geas
 
 >[!NOTE]
 >
->U kunt de eerste status van een uitgave aan een goedkeuringsproces associëren door een malplaatje te gebruiken. Voor meer informatie over het creëren van een verzoekrij, zie [ een Rij van het Verzoek ](../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md) creëren.
+>U kunt de eerste status van een uitgave aan een goedkeuringsproces associëren door een malplaatje te gebruiken. Voor meer informatie over het creëren van een verzoekrij, zie [&#x200B; een Rij van het Verzoek &#x200B;](../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md) creëren.
 
-1. Klik het **pictogram van het Huis ![ pictogram van het Begin ](assets/home-icon-30x29.png) in de upper-left hoek van Adobe Workfront.**
+1. Klik het **pictogram van het Huis ![&#x200B; pictogram van het Begin &#x200B;](assets/home-icon-30x29.png) in de upper-left hoek van Adobe Workfront.**
 
    >[!NOTE]
    >
    >Uw Workfront-beheerder kan de volgende wijzigingen aanbrengen in het pictogram Home in uw omgeving:
    >
    >* Vervang deze door een afbeelding die is aangepast om uw organisatie te illustreren. In dit geval ziet het pictogram er anders uit dan in dit artikel.
-   >* De gekoppelde pagina vervangen door een andere pagina. In dit geval, klik het **Belangrijkste pictogram van het Menu** ![ Belangrijkste pictogram van het Menu ](assets/main-menu-icon.png) in de hoger-juiste hoek van de pagina, dan klik **Huis**.
+   >* De gekoppelde pagina vervangen door een andere pagina. In dit geval, klik het **Belangrijkste pictogram van het Menu** ![&#x200B; Belangrijkste pictogram van het Menu &#x200B;](assets/main-menu-icon.png) in de hoger-juiste hoek van de pagina, dan klik **Huis**.
 
 1. In het **gebied van de Lijst van het Werk**, navigeer aan **goedkeurt ik** groepering heb voorgelegd.
 
@@ -144,7 +144,7 @@ Als u een goedkeuring herinnert die met de beginstatus van de kwestie wordt geas
 
    Dit opent de kwestie rechts van de Lijst van het Werk.
 
-   ![ Uitgave in afwachting van goedkeuring ](assets/issue-pending-approval-home-nwe-350x103.png)
+   ![&#x200B; Uitgave in afwachting van goedkeuring &#x200B;](assets/issue-pending-approval-home-nwe-350x103.png)
 
 1. Klik **Herinneren** in de hoger-juiste hoek van het juiste paneel.
 
@@ -152,14 +152,14 @@ Als u een goedkeuring herinnert die met de beginstatus van de kwestie wordt geas
 
 Wanneer u een timesheet goedkeuring herinnert, keert timesheet terug naar de status het binnen was alvorens het voor goedkeuring werd voorgelegd.
 
-1. Klik het **pictogram van het Huis ![ pictogram van het Begin ](assets/home-icon-30x29.png) in de upper-left hoek van Adobe Workfront.**
+1. Klik het **pictogram van het Huis ![&#x200B; pictogram van het Begin &#x200B;](assets/home-icon-30x29.png) in de upper-left hoek van Adobe Workfront.**
 
    >[!NOTE]
    >
    >Uw Workfront-beheerder kan de volgende wijzigingen aanbrengen in het pictogram Home in uw omgeving:
    >
    >* Vervang deze door een afbeelding die is aangepast om uw organisatie te illustreren. In dit geval ziet het pictogram er anders uit dan in dit artikel.
-   >* De gekoppelde pagina vervangen door een andere pagina. In dit geval, klik het **Belangrijkste pictogram van het Menu** ![ Belangrijkste pictogram van het Menu ](assets/main-menu-icon.png) in de hoger-juiste hoek van de pagina, dan klik **Huis**.
+   >* De gekoppelde pagina vervangen door een andere pagina. In dit geval, klik het **Belangrijkste pictogram van het Menu** ![&#x200B; Belangrijkste pictogram van het Menu &#x200B;](assets/main-menu-icon.png) in de hoger-juiste hoek van de pagina, dan klik **Huis**.
 
 1. In het **gebied van de Lijst van het Werk**, navigeer aan **goedkeurt ik** groepering heb voorgelegd.
 
@@ -167,7 +167,7 @@ Wanneer u een timesheet goedkeuring herinnert, keert timesheet terug naar de sta
 
    Dit opent timesheet rechts van de Lijst van het Werk.
 
-   ![ Tijdopmaak in afwachting van goedkeuring ](assets/timesheet-pending-approval-home-nwe-350x157.png)
+   ![&#x200B; Tijdopmaak in afwachting van goedkeuring &#x200B;](assets/timesheet-pending-approval-home-nwe-350x157.png)
 
 1. Klik **Herinneren** in de hoger-juiste hoek van het juiste paneel.
 
@@ -175,14 +175,14 @@ Wanneer u een timesheet goedkeuring herinnert, keert timesheet terug naar de sta
 
 Als u een documentgoedkeuring wilt terugroepen, moet u een of alle gebruikers handmatig uit de goedkeuring verwijderen.
 
-1. Klik het **pictogram van het Huis ![ pictogram van het Begin ](assets/home-icon-30x29.png) in de upper-left hoek van Adobe Workfront.**
+1. Klik het **pictogram van het Huis ![&#x200B; pictogram van het Begin &#x200B;](assets/home-icon-30x29.png) in de upper-left hoek van Adobe Workfront.**
 
    >[!NOTE]
    >
    >Uw Workfront-beheerder kan de volgende wijzigingen aanbrengen in het pictogram Home in uw omgeving:
    >
    >* Vervang deze door een afbeelding die is aangepast om uw organisatie te illustreren. In dit geval ziet het pictogram er anders uit dan in dit artikel.
-   >* De gekoppelde pagina vervangen door een andere pagina. In dit geval, klik het **Belangrijkste pictogram van het Menu** ![ Belangrijkste pictogram van het Menu ](assets/main-menu-icon.png) in de hoger-juiste hoek van de pagina, dan klik **Huis**.
+   >* De gekoppelde pagina vervangen door een andere pagina. In dit geval, klik het **Belangrijkste pictogram van het Menu** ![&#x200B; Belangrijkste pictogram van het Menu &#x200B;](assets/main-menu-icon.png) in de hoger-juiste hoek van de pagina, dan klik **Huis**.
 
 1. In het **gebied van de Lijst van het Werk**, navigeer aan **goedkeurt ik** groepering heb voorgelegd.
 
@@ -190,23 +190,23 @@ Als u een documentgoedkeuring wilt terugroepen, moet u een of alle gebruikers ha
 
    Hiermee wordt het document rechts van de werklijst geopend.
 
-   ![ Document.png ](assets/document-350x232.png)
+   ![&#x200B; Document.png &#x200B;](assets/document-350x232.png)
 
 1. Klik **leiden Goedkeuringen** in de hoger-juiste hoek van het juiste paneel. Hiermee opent u het vak Goedkeuringen beheren.
 1. Klik **verwijderen** pictogram gealigneerd met de naam van een gebruiker binnen Manage goedkeurt doos. Verwijder alle gebruikers om de documentgoedkeuring volledig in herinnering te roepen.
 
-   ![ Remove_User.png ](assets/remove-user-350x41.png)
+   ![&#x200B; Remove_User.png &#x200B;](assets/remove-user-350x41.png)
 
 ## Toegangsverzoeken
 
-1. Klik het **pictogram van het Huis ![ pictogram van het Begin ](assets/home-icon-30x29.png) in de upper-left hoek van Adobe Workfront.**
+1. Klik het **pictogram van het Huis ![&#x200B; pictogram van het Begin &#x200B;](assets/home-icon-30x29.png) in de upper-left hoek van Adobe Workfront.**
 
    >[!NOTE]
    >
    >Uw Workfront-beheerder kan de volgende wijzigingen aanbrengen in het pictogram Home in uw omgeving:
    >
    >* Vervang deze door een afbeelding die is aangepast om uw organisatie te illustreren. In dit geval ziet het pictogram er anders uit dan in dit artikel.
-   >* De gekoppelde pagina vervangen door een andere pagina. In dit geval, klik het **Belangrijkste pictogram van het Menu** ![ Belangrijkste pictogram van het Menu ](assets/main-menu-icon.png) in de hoger-juiste hoek van de pagina, dan klik **Huis**.
+   >* De gekoppelde pagina vervangen door een andere pagina. In dit geval, klik het **Belangrijkste pictogram van het Menu** ![&#x200B; Belangrijkste pictogram van het Menu &#x200B;](assets/main-menu-icon.png) in de hoger-juiste hoek van de pagina, dan klik **Huis**.
 
 1. In het **gebied van de Lijst van het Werk**, navigeer aan **goedkeurt ik** groepering heb voorgelegd.
 
@@ -214,6 +214,6 @@ Als u een documentgoedkeuring wilt terugroepen, moet u een of alle gebruikers ha
 
    Hiermee wordt de toegangsaanvraag rechts van de werklijst geopend.
 
-   ![ verzoek van de Toegang in afwachting van goedkeuring ](assets/access-request-pending-approval-nwe-350x104.png)
+   ![&#x200B; verzoek van de Toegang in afwachting van goedkeuring &#x200B;](assets/access-request-pending-approval-nwe-350x104.png)
 
 1. Klik **Herinneren** in de hoger-juiste hoek van het juiste paneel.

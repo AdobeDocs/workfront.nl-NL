@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Deze sectie bevat de volgende artikelen:
 
-* [ voeg een douanevorm aan een voorwerp ](../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md) toe
-* [ geef informatie op de gebieden van de douanevorm uit ](../../workfront-basics/work-with-custom-forms/edit-custom-forms.md)
-* [ de douaneformulieren van de Uitvoer en objecten details ](../../workfront-basics/work-with-custom-forms/export-custom-forms-details.md)
+* [&#x200B; voeg een douanevorm aan een voorwerp &#x200B;](../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md) toe
+* [&#x200B; geef informatie op de gebieden van de douanevorm uit &#x200B;](../../workfront-basics/work-with-custom-forms/edit-custom-forms.md)
+* [&#x200B; de douaneformulieren van de Uitvoer en objecten details &#x200B;](../../workfront-basics/work-with-custom-forms/export-custom-forms-details.md)
 * [Aangepaste formulieren beheren die zijn gekoppeld aan objecten](../../workfront-basics/work-with-custom-forms/manage-custom-forms-attached-to-objects.md)

@@ -60,7 +60,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 1. Beweeg over de proef, dan klik **het Proofing werkschema** om de pagina van het Werkschema te openen.
 1. In de hoger-juiste hoek, klik **Nieuw stadium**
 
-   ![ New_Stage_button.png ](assets/new-stage-button.png)
+   ![&#x200B; New_Stage_button.png &#x200B;](assets/new-stage-button.png)
 
    >[!NOTE]
    >

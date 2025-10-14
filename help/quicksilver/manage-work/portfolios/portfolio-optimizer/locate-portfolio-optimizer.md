@@ -47,7 +47,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-*For informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*For informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -63,4 +63,4 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
    De [!UICONTROL Portfolio Optimizer] wordt weergegeven.
 
-   ![ optimizer van Portfolio ](assets/nwe-portfolio-optimizer-350x83.png)
+   ![&#x200B; optimizer van Portfolio &#x200B;](assets/nwe-portfolio-optimizer-350x83.png)

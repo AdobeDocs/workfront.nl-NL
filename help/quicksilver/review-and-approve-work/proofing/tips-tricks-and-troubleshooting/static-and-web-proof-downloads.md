@@ -17,7 +17,7 @@ ht-degree: 0%
 
 ## Probleem
 
-Wanneer een gebruiker een interactieve proef als nieuwe versie aan a [ statische proef (.pdf, .png, .jpg, enz.) ](/help/quicksilver/review-and-approve-work/proofing/proofing-overview/supported-proofing-file-types.md#static-files) toevoegt, zijn alle vorige versies niet meer toegankelijk om te downloaden of voor voorproef.
+Wanneer een gebruiker een interactieve proef als nieuwe versie aan a [&#x200B; statische proef (.pdf, .png, .jpg, enz.) &#x200B;](/help/quicksilver/review-and-approve-work/proofing/proofing-overview/supported-proofing-file-types.md#static-files) toevoegt, zijn alle vorige versies niet meer toegankelijk om te downloaden of voor voorproef.
 
 ## Oplossing
 

@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [ het Bewijzen ](../../../review-and-approve-work/proofing/proofing.md).
+>Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [&#x200B; het Bewijzen &#x200B;](../../../review-and-approve-work/proofing/proofing.md).
 
 Als u [!DNL Basecamp] gebruikt voor projectbeheer, kunt u met [!DNL Workfront Proof] de uitgebreidere revisie- en goedkeuringsgereedschappen voor uw projectteam bieden.
 
@@ -44,17 +44,17 @@ Wanneer [!DNL Workfront Proof] is geïntegreerd, heeft [!DNL Basecamp] de volgen
 
 De integratie van [!DNL Workfront Proof] met [!DNL Basecamp] moet op twee niveaus worden ingesteld:
 
-* Vorm [!DNL Basecamp] in [ montages van de Rekening:](https://support.workfront.com/hc/en-us/sections/115000912147-Account-settings) dit laat de integratie Basecamp voor uw gehele organisatie toe. Voor meer informatie, zie [ Toelatend de Integratie Basecamp met  [!DNL Workfront Proof]](#enabling-the-basecamp-integration-with-workfront-proof).
+* Vorm [!DNL Basecamp] in [&#x200B; montages van de Rekening:](https://support.workfront.com/hc/en-us/sections/115000912147-Account-settings) dit laat de integratie Basecamp voor uw gehele organisatie toe. Voor meer informatie, zie [&#x200B; Toelatend de Integratie Basecamp met  [!DNL Workfront Proof]](#enabling-the-basecamp-integration-with-workfront-proof).
 
-* Vorm [!DNL Basecamp] in [ Persoonlijke montages ](https://support.workfront.com/hc/en-us/sections/115000921168-Personal-settings): Dit laat proefscheppers en eigenaars toe om met hun persoonlijke rekening van Basecamp te verbinden en [!DNL Workfront Proof] toegang toe te machtigen. Voor meer informatie, zie [ Vormend Persoonlijke Montages ](#configuring-personal-settings).
+* Vorm [!DNL Basecamp] in [&#x200B; Persoonlijke montages &#x200B;](https://support.workfront.com/hc/en-us/sections/115000921168-Personal-settings): Dit laat proefscheppers en eigenaars toe om met hun persoonlijke rekening van Basecamp te verbinden en [!DNL Workfront Proof] toegang toe te machtigen. Voor meer informatie, zie [&#x200B; Vormend Persoonlijke Montages &#x200B;](#configuring-personal-settings).
 
 U kunt [!DNL Workfront] integreren met [!DNL Basecamp] of [!DNL Basecamp Classic] . Elke versie van [!DNL Basecamp] gebruikt een andere API en vereist daarom verschillende configuratieprocedures.
 
-Voor informatie bij het vormen [!DNL Basecamp Classic], zie [ Integrerend  [!DNL Workfront Proof]  met  [!DNL Basecamp Classic].](https://support.workfront.com/knowledge/articles/115004234707/en-us?brand_id=662728&amp;return_to=%2Fhc%2Fen-us%2Farticles%2F115004234707)
+Voor informatie bij het vormen [!DNL Basecamp Classic], zie [&#x200B; Integrerend  [!DNL Workfront Proof]  met  [!DNL Basecamp Classic].](https://support.workfront.com/knowledge/articles/115004234707/en-us?brand_id=662728&return_to=%2Fhc%2Fen-us%2Farticles%2F115004234707)
 
 ## [!DNL Basecamp] Integratie met [!DNL Workfront Proof] inschakelen
 
-Als Profielen van de Toestemmingen van de a [ Bewijs in  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) of [ Profielen van de Toestemmingen van de Bewijs in  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md), kunt u opstelling de [!DNL Basecamp] integratie voor de volledige rekening in uw [ montages van de Rekening ](https://support.workfront.com/hc/en-us/sections/115000912147-Account-settings).
+Als Profielen van de Toestemmingen van de a [&#x200B; Bewijs in  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) of [&#x200B; Profielen van de Toestemmingen van de Bewijs in  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md), kunt u opstelling de [!DNL Basecamp] integratie voor de volledige rekening in uw [&#x200B; montages van de Rekening &#x200B;](https://support.workfront.com/hc/en-us/sections/115000912147-Account-settings).
 
 1. Verzamel in [!UICONTROL Basecamp] de volgende informatie:
 
@@ -78,33 +78,33 @@ Als Profielen van de Toestemmingen van de a [ Bewijs in  [!DNL Workfront Proof]]
 1. Klik rechts van **[!UICONTROL [!DNL Basecamp] API Token]** in de weergegeven opties op **[!UICONTROL Edit]** .
 
 1. Typ in het vak dat wordt weergegeven de URL in de sectie &quot;[!UICONTROL My info]&quot; in [!DNL Basecamp] en klik vervolgens op **[!UICONTROL Save]** .\
-   Nadat u [!DNL Workfront Proof] met [!DNL Basecamp] hebt geïntegreerd, kunnen uw gebruikers hun persoonlijke instellingen configureren. Voor informatie bij vestiging persoonlijke montages, zie [ Vormend Persoonlijke Montages ](#configuring-personal-settings)
+   Nadat u [!DNL Workfront Proof] met [!DNL Basecamp] hebt geïntegreerd, kunnen uw gebruikers hun persoonlijke instellingen configureren. Voor informatie bij vestiging persoonlijke montages, zie [&#x200B; Vormend Persoonlijke Montages &#x200B;](#configuring-personal-settings)
 
 1. Als u [!DNL Basecamp] -integratie niet kunt inschakelen, is de [!DNL Workfront Proof] -account-id mogelijk niet dezelfde als de account-id die u gebruikt in [!DNL Basecamp] .
-1. Nadat u [!DNL Workfront Proof] met [!DNL Basecamp] hebt geïntegreerd, kunnen uw gebruikers hun persoonlijke instellingen configureren. Voor informatie bij vestiging persoonlijke montages, zie [ het Vormen Persoonlijke Montages ](#configuring-personal-settings).
+1. Nadat u [!DNL Workfront Proof] met [!DNL Basecamp] hebt geïntegreerd, kunnen uw gebruikers hun persoonlijke instellingen configureren. Voor informatie bij vestiging persoonlijke montages, zie [&#x200B; het Vormen Persoonlijke Montages &#x200B;](#configuring-personal-settings).
 
 ## Persoonlijke instellingen configureren
 
-Nadat u opstelling [ de montages van de Rekening ](https://support.workfront.com/hc/en-us/sections/115000912147-Account-settings) voor uw Organisatie, elk van uw auteurs die creeert/voorlegt zouden hun [ persoonlijke montages moeten plaatsen.](https://support.workfront.com/hc/en-us/sections/115000921168-Personal-settings)
+Nadat u opstelling [&#x200B; de montages van de Rekening &#x200B;](https://support.workfront.com/hc/en-us/sections/115000912147-Account-settings) voor uw Organisatie, elk van uw auteurs die creeert/voorlegt zouden hun [&#x200B; persoonlijke montages moeten plaatsen.](https://support.workfront.com/hc/en-us/sections/115000921168-Personal-settings)
 
 1. Ga naar **[!UICONTROL Personal**&#x200B;**settings]** .
 
 1. Open de tab **[!UICONTROL Integrations]** (1).
 1. Klik op **[!UICONTROL Enable]** (2) om de [!DNL Basecamp] -integratie in te schakelen.
 1. Klik op **[!UICONTROL Connect to your [!DNL Basecamp] account]** (3).\
-   ![ Basecamp_Personal_settings-integration.png ](assets/basecamp-personal-settings-integration-350x174.png)
+   ![&#x200B; Basecamp_Personal_settings-integration.png &#x200B;](assets/basecamp-personal-settings-integration-350x174.png)
 
 1. Log in bij uw [!DNL Basecamp] account (1).\
-   ![ Basecamp_login_page.png ](assets/basecamp-login-page-350x107.png)
+   ![&#x200B; Basecamp_login_page.png &#x200B;](assets/basecamp-login-page-350x107.png)
 
 1. Klik op **[!UICONTROL Yes, I'll allow access]** om [!DNL Workfront Proof] toegang tot uw account te verlenen (2).\
-   ![ Basecamp_authentication_page.png ](assets/basecamp-authorization-page-350x173.png)
+   ![&#x200B; Basecamp_authentication_page.png &#x200B;](assets/basecamp-authorization-page-350x173.png)
 
 1. (Optioneel) Wanneer uw persoonlijke integratie actief is (3), kunt u eenvoudig schakelen tussen uw [!DNL Basecamp] -accounts.
 
    1. Klik op **[!UICONTROL Switch [!DNL Basecamp] account]** (4).\
 
-      ![ Basecamp_switching_accounts__1_.png ](assets/basecamp-switching-accounts--1--350x179.png)\
+      ![&#x200B; Basecamp_switching_accounts__1_.png &#x200B;](assets/basecamp-switching-accounts--1--350x179.png)\
       De [!UICONTROL Switch Basecamp Account] gaat naar de [!UICONTROL Personal Settings] -pagina, waar u kunt kiezen welke [!DNL Basecamp] -accounts u wilt integreren met uw [!DNL Workfront Proof] -account.
 
    1. Klik op **[!UICONTROL Re-Integrate with [!DNL Basecamp]]** (5) voordat u de [!DNL Basecamp] account\
@@ -113,5 +113,5 @@ Nadat u opstelling [ de montages van de Rekening ](https://support.workfront.com
 
    1. Klik op **[!UICONTROL Integrate with this account]** om er verbinding mee te maken met [!DNL Workfront Proof] .\
 
-      ![ Basecamp_switching_accounts_2.png ](assets/basecamp-switching-accounts-2-350x138.png)\
+      ![&#x200B; Basecamp_switching_accounts_2.png &#x200B;](assets/basecamp-switching-accounts-2-350x138.png)\
       U kunt nu proefdrukken toevoegen aan [!DNL Basecamp] -projecten.

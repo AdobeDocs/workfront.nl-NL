@@ -20,7 +20,7 @@ De types van Duur beschikbaar in Adobe Workfront zijn verschillend dan hun tegen
 
 Raadpleeg de volgende artikelen voor informatie over het importeren en exporteren van projecten tussen Workfront en Microsoft Project:
 
-* [ Uitvoer een project naar het Project van Microsoft ](../../../manage-work/projects/manage-projects/export-project-to-ms-project.md)
+* [&#x200B; Uitvoer een project naar het Project van Microsoft &#x200B;](../../../manage-work/projects/manage-projects/export-project-to-ms-project.md)
 * [Een project importeren uit Microsoft Project](../../../manage-work/projects/create-projects/import-project-from-ms-project.md)
 
 ## Duur typen in Workfront- en Microsoft-project
@@ -32,7 +32,7 @@ Workfront heeft vier typen taakduur:
 * Berekend werk
 * Berekende toewijzing
 
-Voor informatie, zie [ Overzicht van het Type van Duur en van de Duur van de Taak ](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
+Voor informatie, zie [&#x200B; Overzicht van het Type van Duur en van de Duur van de Taak &#x200B;](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
 
 Deze soorten duur worden niet herkend door Microsoft Project. Microsoft Project heeft momenteel drie taaktypen die lijken op Duur-typen in Workfront:
 
@@ -46,7 +46,7 @@ Wanneer u projecten exporteert van Workfront naar Microsoft Project, worden take
 
 ## Wijzigingen in Duur bij importeren van MS Project naar Workfront
 
-Wanneer u projecten importeert van Microsoft Project in naar Workfront, worden Vaste eenheden gebaseerd op inspanningen. Vast werk en Vaste Duur ontvangen het standaardduurtype dat uw beheerder van Workfront voor uw systeem selecteerde. Voor informatie, zie [ de taak en de uitgevende voorkeur van het systeem brede ](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md) vormen.
+Wanneer u projecten importeert van Microsoft Project in naar Workfront, worden Vaste eenheden gebaseerd op inspanningen. Vast werk en Vaste Duur ontvangen het standaardduurtype dat uw beheerder van Workfront voor uw systeem selecteerde. Voor informatie, zie [&#x200B; de taak en de uitgevende voorkeur van het systeem brede &#x200B;](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md) vormen.
 
 <!--
 <note type="warning">

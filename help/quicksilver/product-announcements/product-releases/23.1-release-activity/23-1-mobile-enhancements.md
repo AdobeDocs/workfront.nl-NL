@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Op deze pagina worden alle verbeteringen beschreven die zijn aangebracht in de versie 23.1 voor mobiele apparaten in de voorvertoningsomgeving. Deze verbeteringen zullen beschikbaar worden gesteld in de productieomgeving in de week van 16 januari 2023.
 
-Voor een lijst van alle veranderingen beschikbaar met de versie 23.1, zie [ overzicht van de Versie 23.1 ](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar met de versie 23.1, zie [&#x200B; overzicht van de Versie 23.1 &#x200B;](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-release-overview.md).
 
 ## Borden zijn nu beschikbaar in de mobiele app
 

@@ -21,7 +21,7 @@ In het gedeelte [!UICONTROL My Work] van het gebied [!UICONTROL Home] worden uw 
 >
 >[!UICONTROL My Work] in de mobiele app gescheiden is van [!UICONTROL My Work] in de desktopversie van [!UICONTROL Adobe Workfront] .
 
-![ Mijn Werk ](assets/home-myworksection-338x379.png)
+![&#x200B; Mijn Werk &#x200B;](assets/home-myworksection-338x379.png)
 
 ## De sectie [!UICONTROL My Work] aanpassen
 
@@ -36,4 +36,4 @@ U kunt kiezen welke menu-items u wilt weergeven in [!UICONTROL My Work] en de vo
    >
    >Het menu-item [!UICONTROL Tasks and Issues] wordt altijd weergegeven en u kunt het item niet verbergen.
 
-   ![ Mobiele montages ](assets/mobile-settings-338x366.png)
+   ![&#x200B; Mobiele montages &#x200B;](assets/mobile-settings-338x366.png)

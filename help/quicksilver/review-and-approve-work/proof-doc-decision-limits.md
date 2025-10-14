@@ -104,7 +104,7 @@ Limieten worden elke maand per gebruiker gereset. De beslissingslimieten voor el
   </tr>
 </table>
 
-Voor meer informatie, zie [ Nieuw vergunningsoverzicht ](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md).
+Voor meer informatie, zie [&#x200B; Nieuw vergunningsoverzicht &#x200B;](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md).
 
 ## Externe gebruikers
 
@@ -121,4 +121,4 @@ Zodra een gebruiker met een Contributor-licentie zijn beslissingslimiet bereikt,
 
 ## Het aantal beslissingen voor een gebruiker weergeven
 
-U kunt het aantal beslissingen voor een gebruiker weergeven in het gedeelte Gebruikers van Workfront. Voor meer informatie, zie [ Mening het aantal besluiten voor alle gebruikers ](/help/quicksilver/review-and-approve-work/tips-tricks-troubleshooting-approvals/view-number-of-decisions-for-users.md).
+U kunt het aantal beslissingen voor een gebruiker weergeven in het gedeelte Gebruikers van Workfront. Voor meer informatie, zie [&#x200B; Mening het aantal besluiten voor alle gebruikers &#x200B;](/help/quicksilver/review-and-approve-work/tips-tricks-troubleshooting-approvals/view-number-of-decisions-for-users.md).

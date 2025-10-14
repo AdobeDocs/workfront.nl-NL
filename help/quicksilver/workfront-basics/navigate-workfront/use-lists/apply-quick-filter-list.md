@@ -23,7 +23,7 @@ U kunt het snelle filter in een lijst van voorwerpen gebruiken om u van slechts 
 >U kunt met behulp van snelle filters zoeken naar items die een zoekwoord bevatten. Of dat item nu fysiek op het scherm is weergegeven of dat item wordt weergegeven nadat u naar de onderkant van de pagina hebt geschoven. Wanneer u de zoekmogelijkheden van uw browser gebruikt, kunt u alleen zoeken naar items die fysiek op het scherm worden weergegeven. Als uw lijst meerdere pagina&#39;s bevat, worden met snelfilters geen items gevonden die zich op pagina&#39;s bevinden die niet worden weergegeven.
 
 Als u een snel filter wilt opslaan, raden we u aan een permanent filter voor uw lijst te maken.\
-Voor informatie over hoe te om filters in [!DNL Adobe Workfront] te bouwen, zie het overzicht van artikel [ Filters ](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+Voor informatie over hoe te om filters in [!DNL Adobe Workfront] te bouwen, zie het overzicht van artikel [&#x200B; Filters &#x200B;](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 Het snelfilter is momenteel beschikbaar in de volgende gebieden
 
@@ -85,14 +85,14 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-*For informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*For informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 
 ## Een snel filter toepassen op een lijst
 
-1. Ga naar een lijst of een rapport dat snelle filters steunt, dan klik het **[!UICONTROL Quick Filter]pictogram** ![ Snelle filterpictogram ](assets/qs-quick-filter-icon.png) in de toolbar.
+1. Ga naar een lijst of een rapport dat snelle filters steunt, dan klik het **[!UICONTROL Quick Filter]pictogram** ![&#x200B; Snelle filterpictogram &#x200B;](assets/qs-quick-filter-icon.png) in de toolbar.
 
    of
 
@@ -120,14 +120,14 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    1. Selecteer alle of meerdere items in de lijst en klik op **[!UICONTROL Edit]** om de items in bulk te bewerken.
    1. Klik op **[!UICONTROL Save Changes]** nadat u de bewerkingen hebt voltooid.
 
-1. (Facultatief) om de punten uit te voeren die door de snelle filter worden gevonden, selecteer allen of verscheidene punten in de lijst, dan klik het **[!UICONTROL Export]** pictogram ![ pictogram van de Uitvoer ](assets/export.png).
+1. (Facultatief) om de punten uit te voeren die door de snelle filter worden gevonden, selecteer allen of verscheidene punten in de lijst, dan klik het **[!UICONTROL Export]** pictogram ![&#x200B; pictogram van de Uitvoer &#x200B;](assets/export.png).
 
-   ![ select_all_projects_with_highlight__1_.png ](assets/select-all-projects-with-highlight--1--350x173.png)
+   ![&#x200B; select_all_projects_with_highlight__1_.png &#x200B;](assets/select-all-projects-with-highlight--1--350x173.png)
 
    >[!NOTE]
    >
    >Alleen de items die u hebt gevonden in de zoekopdracht met snel filter worden geëxporteerd naar het bestand dat u hebt geselecteerd. Als u geen items selecteert voordat u de lijst exporteert, wordt de volledige, ongefilterde lijst geëxporteerd.\
-   >Voor meer informatie, zie [ Uitvoer een lijst ](../../../workfront-basics/navigate-workfront/use-lists/export-lists.md).
+   >Voor meer informatie, zie [&#x200B; Uitvoer een lijst &#x200B;](../../../workfront-basics/navigate-workfront/use-lists/export-lists.md).
 
 1. (Optioneel) Als u de gefilterde resultaten wilt wissen, klikt u op het pictogram **[!UICONTROL Quick Filter]** in de rechterbovenhoek van het venster.
 of

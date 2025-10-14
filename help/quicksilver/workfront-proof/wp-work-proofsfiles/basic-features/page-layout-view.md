@@ -19,7 +19,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [ het Bewijzen ](../../../review-and-approve-work/proofing/proofing.md).
+>Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [&#x200B; het Bewijzen &#x200B;](../../../review-and-approve-work/proofing/proofing.md).
 
 U kunt de pagina-indeling op het tabblad [!UICONTROL Views] aanpassen. De volgende lay-outopties zijn beschikbaar:
 
@@ -28,7 +28,7 @@ U kunt de pagina-indeling op het tabblad [!UICONTROL Views] aanpassen. De volgen
 * Toont proef- of dossier - naam plus standaardmeningskolommen
 * Het menu [!UICONTROL proof actions] bevindt zich rechts van de regel (1)
 
-  ![ Page_views_-_list_view.png ](assets/page-views---list-view-350x164.png)
+  ![&#x200B; Page_views_-_list_view.png &#x200B;](assets/page-views---list-view-350x164.png)
 
 ## Miniatuurlijst
 
@@ -36,21 +36,21 @@ U kunt de pagina-indeling op het tabblad [!UICONTROL Views] aanpassen. De volgen
 * Het menu [!UICONTROL proof actions] bevindt zich rechts op de regel (1)
 * Dit is de standaardweergave.
 
-  ![ Page_views_-_thumbnails_list_view.png ](assets/page-views---thumbnails-list-view-350x164.png)
+  ![&#x200B; Page_views_-_thumbnails_list_view.png &#x200B;](assets/page-views---thumbnails-list-view-350x164.png)
 
 ## Miniaturen
 
 * Alleen proefdruk weergeven van afbeeldings-/bestandspictogram en proef-/bestandsnaam
 * Het menu [!UICONTROL proof actions] bevindt zich in de rechterbovenhoek van elke proefdruk (1)
 
-  ![ Page_views_-_thumbnails_view.png ](assets/page-views---thumbnails-view-350x156.png)
+  ![&#x200B; Page_views_-_thumbnails_view.png &#x200B;](assets/page-views---thumbnails-view-350x156.png)
 
 ## De pagina-indeling wijzigen
 
 Als u de pagina-indeling op het dashboard of de prullenbak wilt wijzigen, kiest u de gewenste weergave door op een van de weergaveknoppen boven aan de pagina te klikken:
 
-![ Page_views_old_menu.png ](assets/page-views-old-menu.png)
+![&#x200B; Page_views_old_menu.png &#x200B;](assets/page-views-old-menu.png)
 
 Als u de paginalay-out op alle andere weergavepagina&#39;s in uw account wilt wijzigen, vouwt u het vervolgkeuzemenu boven aan de pagina uit en klikt u op de pagina-indeling van uw voorkeur:
 
-![ Page_views_new_menu.png ](assets/page-views-new-menu.png)
+![&#x200B; Page_views_new_menu.png &#x200B;](assets/page-views-new-menu.png)

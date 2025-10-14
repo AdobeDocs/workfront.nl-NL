@@ -30,7 +30,7 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
 >
 >Merk op dat voor de definitieve versie van elk kwartaal (25.1 dit kwartaal), gebruikers op het snelle versieschema één dag vroeg de versie zullen ontvangen.
 >
->Voor meer informatie over het snelle versieproces, zie [ toelaten of onbruikbaar maken het snelle versieproces ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
+>Voor meer informatie over het snelle versieproces, zie [&#x200B; toelaten of onbruikbaar maken het snelle versieproces &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
 
 ## Verbeteringen voor Adobe Workfront
 
@@ -714,17 +714,17 @@ The following functionality is soon to be removed from Workfront:
 
 >[!IMPORTANT]
 >
->De Workfront Fusion-documentatie is verplaatst naar een nieuwe locatie. Voor informatie, instructies, en versies voor Fusie, bezoek [ de documentatie van de Fusie van Workfront ](https://experienceleague.adobe.com/nl/docs/workfront-fusion/using/home).
+>De Workfront Fusion-documentatie is verplaatst naar een nieuwe locatie. Voor informatie, instructies, en versies voor Fusie, bezoek [&#x200B; de documentatie van de Fusie van Workfront &#x200B;](https://experienceleague.adobe.com/nl/docs/workfront-fusion/using/home).
 >
 >Elk huidig Fusion-documentatieartikel bevat een koppeling naar het bijbehorende artikel op de nieuwe locatie. Werk uw bladwijzers bij.
 >
 >De huidige Fusion-documentatieset wordt niet meer bijgewerkt en wordt in de nabije toekomst verwijderd.
 
-Nieuwe functies in Workfront Fusion zijn beschikbaar in Production op een cadence buiten het First Quarter 2025 releaseschema. Voor meer informatie over de recentste eigenschappen, zie [ de versieactiviteit van de Fusie van Adobe Workfront ](https://experienceleague.adobe.com/nl/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
+Nieuwe functies in Workfront Fusion zijn beschikbaar in Production op een cadence buiten het First Quarter 2025 releaseschema. Voor meer informatie over de recentste eigenschappen, zie [&#x200B; de versieactiviteit van de Fusie van Adobe Workfront &#x200B;](https://experienceleague.adobe.com/nl/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 
 ### Verbeteringen voor Workfront-planning
 
-Nieuwe functies in Workfront Planning zijn beschikbaar in Production. Voor meer informatie over de recentste eigenschappen, zie [ de Planning van Adobe Workfront Eerste Kwartaal 2025 versieactiviteit ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q1.md).
+Nieuwe functies in Workfront Planning zijn beschikbaar in Production. Voor meer informatie over de recentste eigenschappen, zie [&#x200B; de Planning van Adobe Workfront Eerste Kwartaal 2025 versieactiviteit &#x200B;](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q1.md).
 
 ### Verbeteringen in Workfront Scenario Planner
 
@@ -742,9 +742,9 @@ Er zijn op dit moment geen updates voor Workfront Goals beschikbaar in de releas
 
 Voor API versie 19 hebben we een aantal bronnen en eindpunten gewijzigd. Sommige wijzigingen ondersteunen nieuwe functionaliteit en andere maken het voor u gemakkelijker om de informatie te gebruiken die beschikbaar is via de API.
 
-Voor informatie over wat nieuw en bijgewerkt is, zie [ wat in API versie 19 ](/help/quicksilver/wf-api/api/new-api-version-19.md) nieuw is.
+Voor informatie over wat nieuw en bijgewerkt is, zie [&#x200B; wat in API versie 19 &#x200B;](/help/quicksilver/wf-api/api/new-api-version-19.md) nieuw is.
 
-Voor informatie over API versies, zie [ API versioning en steunprogramma ](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
+Voor informatie over API versies, zie [&#x200B; API versioning en steunprogramma &#x200B;](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
 
 ### Workfront-onderhoudsupdates
 
@@ -752,4 +752,4 @@ Voor informatie over de onderhoudsupdates die tijdens Eerste Kwartaal 2025 versi
 
 ### Training-updates
 
-Ontdek de nieuwste updates van leerprogramma&#39;s, leerpaden, video&#39;s en handleidingen voor elke Adobe Workfront-productrelease. Voor meer informatie, zie &quot;wat&quot;sectie van de [ pagina van de Leerprogramma&#39;s van Workfront ](https://experienceleague.adobe.com/nl/docs/workfront-learn/tutorials-workfront/home) Nieuw is.
+Ontdek de nieuwste updates van leerprogramma&#39;s, leerpaden, video&#39;s en handleidingen voor elke Adobe Workfront-productrelease. Voor meer informatie, zie &quot;wat&quot;sectie van de [&#x200B; pagina van de Leerprogramma&#39;s van Workfront &#x200B;](https://experienceleague.adobe.com/nl/docs/workfront-learn/tutorials-workfront/home) Nieuw is.

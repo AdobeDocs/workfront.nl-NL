@@ -61,11 +61,11 @@ U kunt een proefdrukoverzicht rechtstreeks vanuit de documentlijst afdrukken.
 
 1. Van de documentlijst die de proef bevat, beweegt zich over de rij die het document bevat, dan klik **Samenvatting van de Druk**.
 
-   ![ proof_printsummary.png ](assets/proof-printsummary-350x166.png)
+   ![&#x200B; proof_printsummary.png &#x200B;](assets/proof-printsummary-350x166.png)
 
    of
 
-   Terwijl het bekijken van de proef in de het proeven kijker, klik het **pictogram van de Druk ![ ](assets/print-icon-in-pv.png) pictogram van de Druk in de linkertoolbar.** (Als de linkertoolbar niet zichtbaar is, klik het pictogram van het Menu ![ pictogram van het Menu ](assets/menu-icon-in-pv.png) in de upper-left hoek van de het proef kijker.)
+   Terwijl het bekijken van de proef in de het proeven kijker, klik het **pictogram van de Druk ![&#x200B; &#x200B;](assets/print-icon-in-pv.png) pictogram van de Druk in de linkertoolbar.** (Als de linkertoolbar niet zichtbaar is, klik het pictogram van het Menu ![&#x200B; pictogram van het Menu &#x200B;](assets/menu-icon-in-pv.png) in de upper-left hoek van de het proef kijker.)
 
 1. Gebruik een van de volgende opties:
 
@@ -122,11 +122,11 @@ U kunt een proefdrukoverzicht voor statische inhoud exporteren als XLS-bestand o
 
 1. Van de documentlijst die de proef bevat, beweegt zich over de rij die het document bevat, dan klik **Samenvatting van de Druk**.
 
-   ![ proof_printsummary.png ](assets/proof-printsummary-350x166.png)
+   ![&#x200B; proof_printsummary.png &#x200B;](assets/proof-printsummary-350x166.png)
 
 1. Klik op het pictogram XLS of PDF in de rechterbovenhoek van de pagina.
 
-   ![ het pictogram van XLS PDF ](assets/xls-pdf-icons-350x136.png)
+   ![&#x200B; het pictogram van XLS PDF &#x200B;](assets/xls-pdf-icons-350x136.png)
 
 Wanneer het geëxporteerde bestand gereed is, ontvangt u een e-mail waarin u het bestand kunt downloaden.
 

@@ -56,7 +56,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-*Voor meer informatie over toegangsvereisten, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Voor meer informatie over toegangsvereisten, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -66,7 +66,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 1. In het linkerpaneel, klik **E-mail** > **Meldingen** > **E-mailMalplaatjes**.
 
-   ![ E-mailmalplaatjes tabel ](assets/email-templates-tab-under-setup-email-notifications-area.png)
+   ![&#x200B; E-mailmalplaatjes tabel &#x200B;](assets/email-templates-tab-under-setup-email-notifications-area.png)
 
 1. Klik **Nieuw E-mailMalplaatje**.
 
@@ -112,12 +112,12 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 ## HTML-opmaak toevoegen aan een e-mailsjabloon {#add-html-formatting-to-an-email-template}
 
 U kunt HTML-tags toevoegen aan e-mailsjablonen om aangepaste meldingen te maken.\
-Begin creërend het e-mailmalplaatje zoals die in [ wordt beschreven creeer een nieuw e-mailmalplaatje ](#create-a-new-email-template).
+Begin creërend het e-mailmalplaatje zoals die in [&#x200B; wordt beschreven creeer een nieuw e-mailmalplaatje &#x200B;](#create-a-new-email-template).
 
 Met HTML-opmaak kunt u uw e-mailsjablonen verrijken, zoals in de volgende secties wordt getoond.
 
-* [ Verbinding aan de voorwerpen van Workfront ](#link-to-workfront-objects)
-* [ Verbinding aan douanegebieden met HTML ](#link-to-custom-fields-with-html)
+* [&#x200B; Verbinding aan de voorwerpen van Workfront &#x200B;](#link-to-workfront-objects)
+* [&#x200B; Verbinding aan douanegebieden met HTML &#x200B;](#link-to-custom-fields-with-html)
 * [E-mailvoorbeelden HTML](#html-email-examples)
 
 ### Koppeling naar Workfront-objecten {#link-to-workfront-objects}
@@ -148,9 +148,9 @@ De hoofdtekst van de e-mail voor een melding waarin de taakontvanger wordt gewaa
 
 Voer een van de volgende handelingen uit om de waarde &quot;jokerteken&quot; voor een object op te halen:
 
-* Raadpleeg de API Explorer en selecteer de namen van uw objecten op het tabblad Velden van een willekeurig object. Voor meer informatie over de API Ontdekkingsreiziger, zie [ API Ontdekkingsreiziger ](/help/quicksilver/wf-api/general/api-explorer.md).
+* Raadpleeg de API Explorer en selecteer de namen van uw objecten op het tabblad Velden van een willekeurig object. Voor meer informatie over de API Ontdekkingsreiziger, zie [&#x200B; API Ontdekkingsreiziger &#x200B;](/help/quicksilver/wf-api/general/api-explorer.md).
 
-* Gebruik de `valuefield` waarde u binnen een mening van de tekstwijze van een rapport vindt. Voor meer informatie over de waarden van de tekstwijze, zie [ Overzicht van de Wijze van de Tekst ](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
+* Gebruik de `valuefield` waarde u binnen een mening van de tekstwijze van een rapport vindt. Voor meer informatie over de waarden van de tekstwijze, zie [&#x200B; Overzicht van de Wijze van de Tekst &#x200B;](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
 
 De waarde `heading` kan de naam van het object zijn, zoals u deze in de hoofdtekst van de e-mail wilt weergeven.
 
@@ -204,7 +204,7 @@ Vervang `<your domain>` door het Workfront-domein van uw bedrijf, zonder de acco
 
 ### E-mailvoorbeelden HTML {#html-email-examples}
 
-* [ laat bericht van de herinnering van het Project (voorbeeld) ](#late-project-reminder-notification-example)
+* [&#x200B; laat bericht van de herinnering van het Project (voorbeeld) &#x200B;](#late-project-reminder-notification-example)
 * [Herinnering voor taak of probleem bij Start (voorbeeld)](#task-or-issue-about-to-start-reminder-example)
 
 #### Melding van laatste herinnering voor project (voorbeeld) {#late-project-reminder-notification-example}
@@ -239,7 +239,7 @@ Een project dat u beheert is te laat geworden
 
 Dit produceert een e-mail gelijkend op het volgende:
 
-![ Project werd late e-mail ](assets/project-became-late-email.png)
+![&#x200B; Project werd late e-mail &#x200B;](assets/project-became-late-email.png)
 
 #### Herinnering voor taak of probleem bij starten {#task-or-issue-about-to-start-reminder-example}
 
@@ -292,6 +292,6 @@ Als u dit voor een e-mailbericht over een probleem wilt gebruiken, wijzigt u de 
 </html>
 ```
 
-![ email_template_delivery.png ](assets/email-template-delivered.png)
+![&#x200B; email_template_delivery.png &#x200B;](assets/email-template-delivered.png)
 
-Nadat een e-mailmalplaatje wordt gecreeerd, kunnen de gebruikers het met herinneringsberichten associëren, zoals die in [ worden beschreven de herinneringsberichten van de Opstelling ](../../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md).
+Nadat een e-mailmalplaatje wordt gecreeerd, kunnen de gebruikers het met herinneringsberichten associëren, zoals die in [&#x200B; worden beschreven de herinneringsberichten van de Opstelling &#x200B;](../../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md).

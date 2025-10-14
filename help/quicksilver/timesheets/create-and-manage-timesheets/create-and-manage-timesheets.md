@@ -20,16 +20,16 @@ ht-degree: 0%
 
 Deze sectie bevat de volgende artikelen:
 
-* [ creeer, geef uit, en wijs timesheet profielen ](../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md) toe
-* [ bepaalt uurtypes en beschikbaarheid ](../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md)
-* [ creeer enig-gebruiktimesheet ](../../timesheets/create-and-manage-timesheets/create-tmshts.md)
-* [ geef timesheet informatie ](../../timesheets/create-and-manage-timesheets/edit-timesheets.md) uit
-* [ tijd van het Logboek ](../../timesheets/create-and-manage-timesheets/log-time.md)
-* [ voorlegt een timesheet voor goedkeuring ](../../timesheets/create-and-manage-timesheets/submit-timesheet-for-approval.md)
-* [ keur een timesheet ](../../timesheets/create-and-manage-timesheets/timesheet-approvals.md) goed
-* [ totale uren van de Mening op timesheet ](../../timesheets/create-and-manage-timesheets/view-total-hours-timesheets.md)
-* [ Mening en beheer commentaren op een timesheet ](../../timesheets/create-and-manage-timesheets/view-and-manage-comments-timesheets.md)
-* [ schrap timesheet profielen ](../../timesheets/create-and-manage-timesheets/delete-timesheet-profiles.md)
-* [ schrapt timesheets in Adobe Workfront ](../../timesheets/create-and-manage-timesheets/delete-timesheets.md)
-* [ produceert manueel timesheets ](../../timesheets/create-and-manage-timesheets/manually-generate-timesheets.md)
+* [&#x200B; creeer, geef uit, en wijs timesheet profielen &#x200B;](../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md) toe
+* [&#x200B; bepaalt uurtypes en beschikbaarheid &#x200B;](../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md)
+* [&#x200B; creeer enig-gebruiktimesheet &#x200B;](../../timesheets/create-and-manage-timesheets/create-tmshts.md)
+* [&#x200B; geef timesheet informatie &#x200B;](../../timesheets/create-and-manage-timesheets/edit-timesheets.md) uit
+* [&#x200B; tijd van het Logboek &#x200B;](../../timesheets/create-and-manage-timesheets/log-time.md)
+* [&#x200B; voorlegt een timesheet voor goedkeuring &#x200B;](../../timesheets/create-and-manage-timesheets/submit-timesheet-for-approval.md)
+* [&#x200B; keur een timesheet &#x200B;](../../timesheets/create-and-manage-timesheets/timesheet-approvals.md) goed
+* [&#x200B; totale uren van de Mening op timesheet &#x200B;](../../timesheets/create-and-manage-timesheets/view-total-hours-timesheets.md)
+* [&#x200B; Mening en beheer commentaren op een timesheet &#x200B;](../../timesheets/create-and-manage-timesheets/view-and-manage-comments-timesheets.md)
+* [&#x200B; schrap timesheet profielen &#x200B;](../../timesheets/create-and-manage-timesheets/delete-timesheet-profiles.md)
+* [&#x200B; schrapt timesheets in Adobe Workfront &#x200B;](../../timesheets/create-and-manage-timesheets/delete-timesheets.md)
+* [&#x200B; produceert manueel timesheets &#x200B;](../../timesheets/create-and-manage-timesheets/manually-generate-timesheets.md)
 * [Een lijst met tijdbladen exporteren](../../timesheets/create-and-manage-timesheets/export-timesheets.md)

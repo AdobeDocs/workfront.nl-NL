@@ -63,5 +63,5 @@ Als de Vastlegdatum die door de aangewezen wordt aangeboden voor de eigenaar van
 
 Raadpleeg de volgende artikelen voor meer informatie:
 
-* [ het overzicht van de Datum van het Vastleggen ](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md)
+* [&#x200B; het overzicht van de Datum van het Vastleggen &#x200B;](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md)
 * [Datums vastleggen bijwerken voor taken en problemen](../../../manage-work/projects/updating-work-in-a-project/update-commit-date-on-tasks-and-issues.md)

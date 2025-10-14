@@ -19,15 +19,15 @@ ht-degree: 0%
 
 Deze pagina bevat een beschrijving van alle wijzigingen die zijn aangebracht in de integratie en mobiele verbeteringen van de release 2019.3. Het werd in de week van 19 augustus 2019 beschikbaar gesteld in de productieomgeving.
 
-Voor een lijst van alle veranderingen die in 2019.3 worden aangebracht, zie [ 2019.3 overzicht van de versieactiviteit ](../../../../product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-release-activity-overview.md).
+Voor een lijst van alle veranderingen die in 2019.3 worden aangebracht, zie [&#x200B; 2019.3 overzicht van de versieactiviteit &#x200B;](../../../../product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-release-activity-overview.md).
 
 ## Ondersteuning voor gedeelde items in de MS OneDrive-integratie
 
 Nu kunt u uw gedeelde OneDrive-bestanden en -mappen koppelen aan Workfront-objecten. Omgekeerd kunt u bestanden in Workfront uploaden naar gedeelde mappen in OneDrive.
 
-Voor meer informatie, zie de secties [ een extern document aan Workfront ](../../../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md#linking-existing-documents) verbinden, [ één of meerdere externe omslagen ](../../../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md#linking-a-folder) verbinden, en [ bijwerken en een document van Workfront verbinden met een externe wolkenleverancier ](../../../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md#sending-documents) in het artikel [ documenten van de Verbinding van externe toepassingen ](../../../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
+Voor meer informatie, zie de secties [&#x200B; een extern document aan Workfront &#x200B;](../../../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md#linking-existing-documents) verbinden, [&#x200B; één of meerdere externe omslagen &#x200B;](../../../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md#linking-a-folder) verbinden, en [&#x200B; bijwerken en een document van Workfront verbinden met een externe wolkenleverancier &#x200B;](../../../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md#sending-documents) in het artikel [&#x200B; documenten van de Verbinding van externe toepassingen &#x200B;](../../../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
 
-Voor informatie, zie de sectie [ Verbinding een extern document aan Workfront ](../../../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md#linking-existing-documents) in het artikel [ documenten van de Verbinding van externe toepassingen ](../../../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
+Voor informatie, zie de sectie [&#x200B; Verbinding een extern document aan Workfront &#x200B;](../../../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md#linking-existing-documents) in het artikel [&#x200B; documenten van de Verbinding van externe toepassingen &#x200B;](../../../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
 
 ## Domeinspecificatie vereist voor alle Workfront-aanmeldingen
 
@@ -45,7 +45,7 @@ Deze wijziging kan van invloed zijn op zowel gebruikersaanmeldingen als API-inte
 
   Als u API-code hebt die naar een adres gaat dat uw domeinnaam niet bevat, werkt die API-code niet meer.
 
-Voor meer informatie, zie [ Login aan Adobe Workfront ](../../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-in-to-workfront.md).
+Voor meer informatie, zie [&#x200B; Login aan Adobe Workfront &#x200B;](../../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-in-to-workfront.md).
 
 ## Taken en problemen converteren naar projecten met de mobiele app op iOS
 
@@ -55,13 +55,13 @@ U kunt nu afzonderlijke taken en uitgaven converteren naar projecten in de mobie
 
 Afhankelijk van uw apparaat kunt u zich aanmelden bij de mobiele app van Workfront met vingerafdruk- of gezichts-id-technologie. Wanneer u zich bij mobiele app aanmeldt, wordt u gevraagd of u zich wilt aanmelden met de verificatiemethode die door uw telefoon wordt ondersteund.
 
-Voor meer informatie over hoe te om deze eigenschap te beheren, zie [ Adobe Workfront voor iOS ](../../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md) of [ Adobe Workfront voor Android ](../../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md).
+Voor meer informatie over hoe te om deze eigenschap te beheren, zie [&#x200B; Adobe Workfront voor iOS &#x200B;](../../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md) of [&#x200B; Adobe Workfront voor Android &#x200B;](../../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md).
 
 ## Nieuwe instelling waarmee gebruikers automatisch worden afgemeld bij mobiele apparaten
 
 Gebruikers worden na 15 dagen inactiviteit automatisch afgemeld om de mobiele app van Workfront veiliger te maken voor u en uw bedrijf. Workfront-beheerders kunnen deze tijdlimiet aanpassen in de webtoepassing via Setup > Systeem > Voorkeuren.
 
-Voor meer informatie, zie [ de voorkeur van de systeemveiligheid ](../../../../administration-and-setup/manage-workfront/security/configure-security-preferences.md) vormen.
+Voor meer informatie, zie [&#x200B; de voorkeur van de systeemveiligheid &#x200B;](../../../../administration-and-setup/manage-workfront/security/configure-security-preferences.md) vormen.
 
 ## Mobiele toepassing vereist domein bij aanmelden
 

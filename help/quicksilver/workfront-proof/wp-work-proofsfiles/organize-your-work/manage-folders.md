@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [ het Bewijzen ](../../../review-and-approve-work/proofing/proofing.md).
+>Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [&#x200B; het Bewijzen &#x200B;](../../../review-and-approve-work/proofing/proofing.md).
 
 Al uw mappen worden toegewezen in de linkernavigatiebalk op het tabblad [!UICONTROL Folders] . Als een gebruiker van een andere [!DNL Workfront Proof] -account een map deelt met u (of proefdrukken deelt die zich in een map bevinden), wordt de map ook weergegeven op het tabblad [!UICONTROL Folders] .
 
@@ -108,7 +108,7 @@ U kunt een map van de volgende locaties verwijderen:
 
 >[!NOTE]
 >
->Wanneer u een ouderomslag schrapt, alle subomslagen, proeven en dossiers binnen de omslag zich naar [ herstelt en leegmaakt het Afval in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md).
+>Wanneer u een ouderomslag schrapt, alle subomslagen, proeven en dossiers binnen de omslag zich naar [&#x200B; herstelt en leegmaakt het Afval in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md).
 
 ### Een map verwijderen van de pagina [!UICONTROL Account Folders] {#deleting-a-folder-from-the-account-folders-page}
 

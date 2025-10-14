@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Deze pagina beschrijft alle beheerderverhogingen die met versie 23.3 worden aangebracht. Deze verbeteringen zijn beschikbaar gesteld in de productieomgeving met de release 23.3 op 20 en 21 juli 2023.
 
-Voor een lijst van alle veranderingen beschikbaar op dit punt in de 23.3 versiecyclus, zie [ overzicht van de Versie 23.3 ](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar op dit punt in de 23.3 versiecyclus, zie [&#x200B; overzicht van de Versie 23.3 &#x200B;](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
 
 ## Snellere Workfront-releasecycli inschakelen
 
@@ -24,15 +24,15 @@ Om u in staat te stellen nieuwe Workfront-productfuncties en -updates sneller te
 
 Eerder werden functies en functionaliteit op kwartaalbasis voor alle klanten gepubliceerd.
 
-Voor meer informatie, zie [ toelaten of onbruikbaar maken het snelle versieproces ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
+Voor meer informatie, zie [&#x200B; toelaten of onbruikbaar maken het snelle versieproces &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
 
 ## Besturingselement op groepsniveau beschikbaar voor tijdspagina en uurvoorkeur &quot;Waar gebruikers tijd kunnen vastleggen&quot;
 
 De systeembeheerder kan nu de tijdspagina en uurvoorkeur &quot;Waar de gebruikers tijd kunnen registreren&quot;sluiten en ontgrendelen. Wanneer deze voorkeur wordt ontgrendeld, kunnen groepsbeheerders de instellingen voor &quot;Waar gebruikers zich kunnen aanmelden&quot; voor elke groep afzonderlijk configureren.
 
-Voor meer informatie, zie [ timesheet en uurvoorkeur ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md) vormen en [ vorm timesheet en uurvoorkeur voor een groep ](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/configure-timesheet-hour-preferences-group.md).
+Voor meer informatie, zie [&#x200B; timesheet en uurvoorkeur &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md) vormen en [&#x200B; vorm timesheet en uurvoorkeur voor een groep &#x200B;](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/configure-timesheet-hour-preferences-group.md).
 
-[ Bekijk een videodemonstratie van deze eigenschap ](https://video.tv.adobe.com/v/3419111/){target=_blank}
+[&#x200B; Bekijk een videodemonstratie van deze eigenschap &#x200B;](https://video.tv.adobe.com/v/3419111/){target=_blank}
 
 ## Logica weergeven en logica-indicatoren en regels overslaan die worden weergegeven in de bètaversie van de formulierontwerper
 
@@ -44,4 +44,4 @@ Wanneer u een aangepast formulier opent in de bètaversie van de formulierontwer
 
 Het bewerken van bestaande logica en het toevoegen van nieuwe logica aan een aangepast formulier zijn nog niet beschikbaar in de bètaversie van de formulierontwerper, maar zijn wel gepland voor de toekomst.
 
-Voor meer informatie, zie [ overzicht van de Vorm van de Douane ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/custom-forms-overview.md).
+Voor meer informatie, zie [&#x200B; overzicht van de Vorm van de Douane &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/custom-forms-overview.md).

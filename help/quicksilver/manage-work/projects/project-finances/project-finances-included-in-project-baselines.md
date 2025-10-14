@@ -20,7 +20,7 @@ Basislijnen zijn momentopnamen van hoe de prestaties van een project er op een b
 
 Wanneer u een basislijn maakt, worden de taakgegevens ook vastgelegd op de basislijntaken van die basislijn.
 
-Voor informatie over het creëren van projectbasislijnen, zie [ projectbasislijnen ](../../../manage-work/projects/create-projects/create-baselines.md) creëren.
+Voor informatie over het creëren van projectbasislijnen, zie [&#x200B; projectbasislijnen &#x200B;](../../../manage-work/projects/create-projects/create-baselines.md) creëren.
 
 ## Financiële informatie in basislijnen
 
@@ -28,9 +28,9 @@ U kunt de rapporten van de Taak van de Basislijn of van de Basislijn tot stand b
 
 Naast naam- en datumgegevens bevatten basislijnen en basislijntaken ook financiële informatie over het project of de taken. De lijsten hieronder tonen de financiële informatie van het project en van de taken die van de voorwerpen van de Taak van de Basislijn of van de Basislijn toegankelijk zijn.
 
-Voor informatie over wat elke gebiedsvertoningen, [ Verklarende woordenlijst van de terminologie van Adobe Workfront ](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md) zien.
+Voor informatie over wat elke gebiedsvertoningen, [&#x200B; Verklarende woordenlijst van de terminologie van Adobe Workfront &#x200B;](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md) zien.
 
-* [ Financiële informatie inbegrepen in de rapporten van de Basislijn ](#financial-information-included-in-baseline-reports)
+* [&#x200B; Financiële informatie inbegrepen in de rapporten van de Basislijn &#x200B;](#financial-information-included-in-baseline-reports)
 * [Financiële informatie in basislijntaakrapporten](#financial-information-included-in-baseline-task-reports)
 
 ### Financiële informatie in basisrapporten {#financial-information-included-in-baseline-reports}

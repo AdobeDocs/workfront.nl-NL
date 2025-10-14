@@ -29,7 +29,7 @@ Het proefdrukproces omvat zowel importeren als het genereren van proefdrukken. W
 ## Redenen voor het aantonen van defecte productie
 
 * Het bestandstype wordt niet ondersteund.\
-  Voor een lijst van gesteunde dossiertypes, zie [ Ondersteunde het proef dossiertypes en het overzicht van groottegrenzen ](../../../review-and-approve-work/proofing/proofing-overview/supported-proofing-file-types.md).
+  Voor een lijst van gesteunde dossiertypes, zie [&#x200B; Ondersteunde het proef dossiertypes en het overzicht van groottegrenzen &#x200B;](../../../review-and-approve-work/proofing/proofing-overview/supported-proofing-file-types.md).
 
 * De bestandsstructuur is een niet-standaardstructuur voor het bestandstype.
 * Het bestand is beveiligd met een wachtwoord of het kopiëren van inhoud is uitgeschakeld.

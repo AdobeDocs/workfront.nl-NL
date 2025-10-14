@@ -77,7 +77,7 @@ U kunt de opmerkingen die worden weergegeven, filteren door filterparameter zoal
 1. (Voorwaardelijk) als het commentaargebied niet open is, klik **commentaren van de Mening** in de hoger-juiste hoek.
 1. Op het commentaargebied, klik het **pictogram van de Filter**.
 
-   ![ proof_comment_filter.png ](assets/proof-comment-filter.png)
+   ![&#x200B; proof_comment_filter.png &#x200B;](assets/proof-comment-filter.png)
 
 1. Gebruik de opties die onder het **pictogram van de Filter** verschijnen om de commentaren door om het even welke volgende criteria te filtreren:
 
@@ -120,7 +120,7 @@ Wanneer u de lijst met opmerkingen sorteert, wordt de gekozen sorteeroptie ontho
 1. Als het commentaargebied niet open is, klik **commentaren van de Mening** in de hoger-juiste hoek.
 
 1. Klik op het sorteermenu om het te openen.
-1. ![ Sorterend menu ](assets/mceclip3.png)
+1. ![&#x200B; Sorterend menu &#x200B;](assets/mceclip3.png)
 
 1. Selecteer een van de volgende sorteeropties:
 

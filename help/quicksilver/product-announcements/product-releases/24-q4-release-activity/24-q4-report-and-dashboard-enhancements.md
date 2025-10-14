@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Deze pagina beschrijft alle rapport en dashboardverhogingen die met de 4e Kwart versie 2024 aan het milieu van de Voorproef worden gemaakt. Deze verbeteringen zullen beschikbaar worden gesteld in de productieomgeving, zoals vermeld.
 
-Voor een lijst van alle veranderingen beschikbaar op dit punt in het Vierde Kwartaal 2024 versiecyclus, zie [ Vierde Kwartaal 2024 releaseoverzicht ](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar op dit punt in het Vierde Kwartaal 2024 versiecyclus, zie [&#x200B; Vierde Kwartaal 2024 releaseoverzicht &#x200B;](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md).
 
 ## Workfront Data Connect beschikbaar voor nieuwe plannen
 
@@ -28,4 +28,4 @@ Voor een lijst van alle veranderingen beschikbaar op dit punt in het Vierde Kwar
 
 Workfront Data Connect wordt beschikbaar voor klanten met een van de nieuwe Workfront-plannen. Met Data Connect hebben organisaties toegang tot hun gegevens als een beveiligd en schaalbaar gegevenspeer, dat kan worden geanalyseerd en weergegeven met behulp van zakelijke intelligentiegereedschappen of extern kan worden opgeslagen. Bovendien kunnen organisaties Data Connect gebruiken om gegevensanalyses weer te geven die voorheen niet beschikbaar waren, zoals tijdgebaseerde trendanalyse, variabele mapping en analyse van externe systeemgegevens in combinatie met Workfront-gegevens.
 
-Neem contact op met uw accountvertegenwoordiger voor meer informatie over uw huidige Adobe Workfront-abonnement en hoe u invoegtoepassingen kunt kopen. Voor meer informatie over de Gegevens van Workfront verbinden, zie [ Gegevens van Workfront verbinden overzicht ](/help/quicksilver/reports-and-dashboards/data-lake/data-lake-overview.md).
+Neem contact op met uw accountvertegenwoordiger voor meer informatie over uw huidige Adobe Workfront-abonnement en hoe u invoegtoepassingen kunt kopen. Voor meer informatie over de Gegevens van Workfront verbinden, zie [&#x200B; Gegevens van Workfront verbinden overzicht &#x200B;](/help/quicksilver/reports-and-dashboards/data-lake/data-lake-overview.md).

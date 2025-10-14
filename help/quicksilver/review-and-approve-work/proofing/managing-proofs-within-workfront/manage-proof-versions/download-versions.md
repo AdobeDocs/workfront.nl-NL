@@ -53,9 +53,9 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 ## Eén proefdrukversie downloaden
 
 1. Klik in de documentlijst op de proefdruk.
-1. In de Samenvatting, onder **Versies**, klik het Meer menu ![ Meer pictogram ](assets/more-icon.png) rechts van de versie, dan klik **Download** in de drop-down lijst die verschijnt.
+1. In de Samenvatting, onder **Versies**, klik het Meer menu ![&#x200B; Meer pictogram &#x200B;](assets/more-icon.png) rechts van de versie, dan klik **Download** in de drop-down lijst die verschijnt.
 
-   ![ Download een versie ](assets/more-versions-350x143.png)
+   ![&#x200B; Download een versie &#x200B;](assets/more-versions-350x143.png)
 
 ## Alle versies van een proefdruk downloaden
 

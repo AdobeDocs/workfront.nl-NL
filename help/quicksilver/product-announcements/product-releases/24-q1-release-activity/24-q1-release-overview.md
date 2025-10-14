@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Deze pagina bevat informatie over de functionaliteit die is opgenomen in de release Eerste kwartaal 2024. Deze verbeteringen zullen naar verwachting beschikbaar komen in de productieomgeving voor alle klanten met de release 24.1 op 18 en 19 januari 2024.
 
-De 24.1 release webinar was op 11 januari 2024. U kunt [ voor webinar registreren om een opname op bestelling hier ](https://webinars.on24.com/adobe_workfront/whatsnewin241?partnerref=releaseoverview) te bekijken.
+De 24.1 release webinar was op 11 januari 2024. U kunt [&#x200B; voor webinar registreren om een opname op bestelling hier &#x200B;](https://webinars.on24.com/adobe_workfront/whatsnewin241?partnerref=releaseoverview) te bekijken.
 
 <span class="preview"> off-cycle eigenschappen (die die aan Productie voorafgaand aan het Eerste Kwartaal 2024 versiedatum vrijgeven) worden benadrukt in geel.</span>
 
@@ -31,7 +31,7 @@ De 24.1 release webinar was op 11 januari 2024. U kunt [ voor webinar registrere
 >| <ul><li>Geen release (november 2024)</li><li>Geen vrijgave (december 2024)</li><li>24.1 (januari 2024)</li></ul> | <ul><li>24.1 (januari 2024)</li></ul> |
 >| <ul><li>24.2 (februari 2024)</li><li>24.3 (maart 2024)</li><li>24.4 (april 2024)</li></ul> | <ul><li>24.4 (april 2024)</li></ul> |
 >
->Voor meer informatie over het snelle versieproces, zie [ toelaten of onbruikbaar maken het snelle versieproces ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
+>Voor meer informatie over het snelle versieproces, zie [&#x200B; toelaten of onbruikbaar maken het snelle versieproces &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
 
 
 ## Verbeteringen voor Adobe Workfront
@@ -458,7 +458,7 @@ De 24.1 release webinar was op 11 januari 2024. U kunt [ voor webinar registrere
 
 ### Workfront Fusion-verbeteringen
 
-Nieuwe functies in Workfront Fusion zijn beschikbaar in Production op een cadence buiten het First Quarter 2023 releaseschema. Voor meer informatie over de recentste eigenschappen, zie [ de versieactiviteit van de Fusie van Adobe Workfront ](https://experienceleague.adobe.com/nl/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
+Nieuwe functies in Workfront Fusion zijn beschikbaar in Production op een cadence buiten het First Quarter 2023 releaseschema. Voor meer informatie over de recentste eigenschappen, zie [&#x200B; de versieactiviteit van de Fusie van Adobe Workfront &#x200B;](https://experienceleague.adobe.com/nl/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 
 ### Verbeteringen in Workfront Scenario Planner
 
@@ -476,9 +476,9 @@ Er zijn op dit moment geen updates voor Workfront Goals beschikbaar in de releas
 
 Voor API versie 17 hebben we een aantal bronnen en eindpunten gewijzigd. Sommige wijzigingen ondersteunen nieuwe functionaliteit en andere maken het voor u gemakkelijker om de informatie te gebruiken die beschikbaar is via de API.
 
-Voor informatie over wat nieuw en bijgewerkt is, zie [ wat in API versie 17 ](/help/quicksilver/wf-api/api/new-api-version-17.md) nieuw is.
+Voor informatie over wat nieuw en bijgewerkt is, zie [&#x200B; wat in API versie 17 &#x200B;](/help/quicksilver/wf-api/api/new-api-version-17.md) nieuw is.
 
-Voor informatie over API versies, zie [ API versioning en steunprogramma ](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
+Voor informatie over API versies, zie [&#x200B; API versioning en steunprogramma &#x200B;](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
 
 ### Workfront-onderhoudsupdates
 
@@ -486,4 +486,4 @@ Voor informatie over de onderhoudsupdates die tijdens Eerste Kwartaal 2024 versi
 
 ### Training-updates
 
-Ontdek de nieuwste updates van leerprogramma&#39;s, leerpaden, video&#39;s en handleidingen voor elke Adobe Workfront-productrelease. Voor meer informatie, zie &quot;wat&quot;sectie van de [ pagina van de Leerprogramma&#39;s van Workfront ](https://experienceleague.adobe.com/nl/docs/workfront-learn/tutorials-workfront/home) Nieuw is.
+Ontdek de nieuwste updates van leerprogramma&#39;s, leerpaden, video&#39;s en handleidingen voor elke Adobe Workfront-productrelease. Voor meer informatie, zie &quot;wat&quot;sectie van de [&#x200B; pagina van de Leerprogramma&#39;s van Workfront &#x200B;](https://experienceleague.adobe.com/nl/docs/workfront-learn/tutorials-workfront/home) Nieuw is.

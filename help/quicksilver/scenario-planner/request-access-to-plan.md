@@ -54,7 +54,7 @@ U kunt toegang tot een abonnement aanvragen in de [!DNL Adobe Workfront Scenario
  </tbody> 
 </table>
 
-*For informatie, zie [ vereisten van de Toegang tot de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*For informatie, zie [&#x200B; vereisten van de Toegang tot de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -80,7 +80,7 @@ Machtigingen aanvragen:
 
 1. Klik op een koppeling naar een abonnement.
 
-   ![ toegang van het Verzoek tot plan ](assets/request-access-to-plan-350x277.png)
+   ![&#x200B; toegang van het Verzoek tot plan &#x200B;](assets/request-access-to-plan-350x277.png)
 
 1. Geef in het vervolgkeuzemenu **[!UICONTROL Request access to]** aan welk niveau van de machtigingen u wilt verlenen. Selecteer een van de volgende opties:
 
@@ -89,23 +89,23 @@ Machtigingen aanvragen:
 
    U kunt geen toestemming vragen die hoger is dan uw toegangsniveau tot [!DNL Scenario Planner]. U kunt bijvoorbeeld geen [!UICONTROL Manage] -machtigingen aanvragen als u toegang tot Weergave hebt tot [!DNL Scenario Planner] .
 
-   Voor informatie over de verschillende niveaus van toestemmingen, zie [ een plan in  [!DNL Scenario Planner]](../scenario-planner/share-a-plan.md) delen.
+   Voor informatie over de verschillende niveaus van toestemmingen, zie [&#x200B; een plan in  [!DNL Scenario Planner]](../scenario-planner/share-a-plan.md) delen.
 
-   Voor informatie over een beheerder van Workfront kan toegang tot [!DNL Scenario Planner] beheren, zie [ de toegang van de Verlening tot  [!DNL Scenario Planner]](../administration-and-setup/add-users/configure-and-grant-access/grant-access-sp.md).
+   Voor informatie over een beheerder van Workfront kan toegang tot [!DNL Scenario Planner] beheren, zie [&#x200B; de toegang van de Verlening tot  [!DNL Scenario Planner]](../administration-and-setup/add-users/configure-and-grant-access/grant-access-sp.md).
 
 1. (Optioneel) Voer in de **[!UICONTROL Leave comment box]** een opmerking of aanvraag in en klik op **[!UICONTROL Request access]** .
 
    Het volgende gebeurt:
 
    * [!DNL Workfront] verzendt een e-mailbericht naar de eigenaar van het abonnement waar zij de gevraagde machtigingen kunnen verlenen.\
-     ![ Verzoek toegang e-mailbericht ](assets/request-access-to-plan-email-350x156.png)
+     ![&#x200B; Verzoek toegang e-mailbericht &#x200B;](assets/request-access-to-plan-email-350x156.png)
 
    * Nadat de eigenaar van het abonnement de aangevraagde machtigingen heeft verleend, ontvangt u een e-mail met de mededeling dat de machtigingen zijn verleend als voor de beheerder van [!DNL Workfront] de optie Object delen is ingeschakeld in uw systeem en u schakelt de e-mailmelding van [!UICONTROL Someone shares an object with me] in uw profiel in.
 
-     ![ Toegang verleende e-mail ](assets/access-granted-to-plan-email-350x172.png)
+     ![&#x200B; Toegang verleende e-mail &#x200B;](assets/access-granted-to-plan-email-350x172.png)
 
    * U kunt ook machtigingen verlenen voor plannen vanuit [!UICONTROL Home] en vanuit de mobiele app van [!DNL Workfront] .
 
-   Voor informatie over het toelaten van systeemberichten, zie [ gebeurtenisberichten voor iedereen in het systeem ](../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md) vormen.
+   Voor informatie over het toelaten van systeemberichten, zie [&#x200B; gebeurtenisberichten voor iedereen in het systeem &#x200B;](../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md) vormen.
 
-   Voor informatie over het toelaten van berichten in uw profiel, zie [ Meldingen: Diverse informatie ](../workfront-basics/using-notifications/notifications-misc-information.md).
+   Voor informatie over het toelaten van berichten in uw profiel, zie [&#x200B; Meldingen: Diverse informatie &#x200B;](../workfront-basics/using-notifications/notifications-misc-information.md).

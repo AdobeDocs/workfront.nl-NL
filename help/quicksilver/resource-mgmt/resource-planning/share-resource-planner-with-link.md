@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Adobe Workfront kan een unieke URL genereren voor de gebruikersweergave van de bronnenplanner die u als externe pagina kunt insluiten in een dashboard, of deze afzonderlijk openen in een nieuw browsertabblad. Dit is nuttig wanneer het delen van de informatie van de Planner van het Middel met gebruikers die geen directe toegang tot het gebied van de Middel zouden kunnen hebben.
 
-![ mening van de Gebruiker met verbinding ](assets/rp-user-view-with-link-highlight-350x49.png)
+![&#x200B; mening van de Gebruiker met verbinding &#x200B;](assets/rp-user-view-with-link-highlight-350x49.png)
 
 ## Toegangsvereisten
 
@@ -52,7 +52,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -79,13 +79,13 @@ U kunt als volgt een unieke URL opvragen in de weergave Gebruiker van de functie
    * Kwart
 
 1. (Facultatief) selecteer of u de informatie door **FTE** of **Uren** wilt bekijken.\
-   ![ Uitgezochte VTE of Uren ](assets/rp-hours-or-fte-in-user-view.png)
+   ![&#x200B; Uitgezochte VTE of Uren &#x200B;](assets/rp-hours-or-fte-in-user-view.png)
 
 1. (Optioneel) Pas filters toe op de functie Bronnen.\
-   Voor informatie over het toepassen van filters, zie [ informatie van de Filter in de Planner van het Middel ](../../resource-mgmt/resource-planning/filter-resource-planner.md).
+   Voor informatie over het toepassen van filters, zie [&#x200B; informatie van de Filter in de Planner van het Middel &#x200B;](../../resource-mgmt/resource-planning/filter-resource-planner.md).
 
 1. Klik het **hyperlink** pictogram.\
-   ![ het pictogram van de Hyperlink en URL ](assets/rp-generate-url-from-link-icon.png)
+   ![&#x200B; het pictogram van de Hyperlink en URL &#x200B;](assets/rp-generate-url-from-link-icon.png)
 
 1. Klik **Exemplaar URL**.\
    Hiermee wordt de unieke URL van de bronnenplanner in de gebruikersweergave naar het klembord gekopieerd.
@@ -110,7 +110,7 @@ U kunt als volgt een unieke URL opvragen in de weergave Gebruiker van de functie
          Hierdoor wordt de URL ingesloten in het dashboard en wordt de gebruikersweergave van de functie voor het plaatsen van bronnen weergegeven in een afzonderlijk dashboard.
 
 1. (Optioneel) Als u de URL in een dashboard hebt ingesloten, kunt u deze aan een lay-outsjabloon toevoegen of delen met andere gebruikers die mogelijk geen toegang hebben tot het gebied Bronbeheer.\
-   Voor informatie over het toevoegen van dashboards aan een lay-outmalplaatje, zie [ lay-outmalplaatjes ](../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md) creëren en beheren.\
-   Voor informatie over het delen van dashboards, zie [ een dashboard ](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/share-dashboard.md) delen.\
+   Voor informatie over het toevoegen van dashboards aan een lay-outmalplaatje, zie [&#x200B; lay-outmalplaatjes &#x200B;](../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md) creëren en beheren.\
+   Voor informatie over het delen van dashboards, zie [&#x200B; een dashboard &#x200B;](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/share-dashboard.md) delen.\
    Wanneer het bekijken van gedeelde URL, kunnen de gebruikers de informatie met de montages zien die u oorspronkelijk op de Planner van het Middel toepaste. Ze moeten zijn aangemeld bij Workfront om de gedeelde URL weer te geven.\
-   ![ dashboard van de Steekproef met getoonde Planner van het Middel ](assets/user-view-dashoard-from-unique-url-350x85.png)
+   ![&#x200B; dashboard van de Steekproef met getoonde Planner van het Middel &#x200B;](assets/user-view-dashoard-from-unique-url-350x85.png)

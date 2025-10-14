@@ -49,7 +49,7 @@ Vanuit dit gebied kunt u de volgende handelingen uitvoeren:
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -57,7 +57,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 U moet een raad creëren alvorens u het van de Admin Mening kunt bekijken.
 
-Voor meer informatie, zie [ creeer of geef een raad ](/help/quicksilver/agile/get-started-with-boards/create-edit-board.md) uit.
+Voor meer informatie, zie [&#x200B; creeer of geef een raad &#x200B;](/help/quicksilver/agile/get-started-with-boards/create-edit-board.md) uit.
 
 ## De lijst met deelvensters filteren
 
@@ -69,14 +69,14 @@ Voor meer informatie, zie [ creeer of geef een raad ](/help/quicksilver/agile/ge
 
 1. Voer de onderstaande stappen uit om het filter te configureren:
 
-   1. (Facultatief) klik het **pictogram van de Kalender** Kalender ![ en selecteer dan een datumwaaier aan filter door Boards die het laatst binnen dat timeframe werden gewijzigd.](assets/calendar-icon.png)
+   1. (Facultatief) klik het **pictogram van de Kalender** Kalender ![&#x200B; en selecteer dan een datumwaaier aan filter door Boards die het laatst binnen dat timeframe werden gewijzigd.](assets/calendar-icon.png)
 
    1. (Facultatief) in de **sectie van het Malplaatje**, selecteer het type van malplaatje van de Raad dat de lijst door zal filtreren. U kunt meerdere sjabloontypen selecteren.
-Voor meer informatie over de malplaatjetypes van de Raad, zie [ creeer of geef een raad ](/help/quicksilver/agile/get-started-with-boards/create-edit-board.md) uit.
+Voor meer informatie over de malplaatjetypes van de Raad, zie [&#x200B; creeer of geef een raad &#x200B;](/help/quicksilver/agile/get-started-with-boards/create-edit-board.md) uit.
 
    1. (Facultatief) in **wordt Gearchiveerd** sectie, uitgezocht als gearchiveerde of niet-gearchiveerde Borden zullen tonen. U kunt meerdere opties selecteren.
 
-      ![ is Gearchiveerde sectie ](assets/is-archived-section.png)
+      ![&#x200B; is Gearchiveerde sectie &#x200B;](assets/is-archived-section.png)
 
 1. Klik buiten het **paneel van Filters** om het te sluiten. De filterselecties blijven toegepast op de lijst met kamers totdat de standaardweergave wordt hersteld.
 
@@ -103,7 +103,7 @@ Voor meer informatie over de malplaatjetypes van de Raad, zie [ creeer of geef e
 
 1. (Facultatief) om de orde aan te passen de gebieden binnen verschijnen, klik en houd het **pictogram van de Belemmering** links van een gebied, dan sleep het aan een nieuwe positie.
 
-   ![ klik en sleep ](assets/click-and-drag.png)
+   ![&#x200B; klik en sleep &#x200B;](assets/click-and-drag.png)
 
 1. Klik buiten het **zicht van Gebieden en orde** paneel om het te sluiten. Uw kolomconfiguraties blijven van toepassing op de lijst van Boeken tot zij worden gewijzigd.
 
@@ -127,15 +127,15 @@ Voor meer informatie over de malplaatjetypes van de Raad, zie [ creeer of geef e
 
 1. (Facultatief) om de groepering van de **Groep door** paneel uit te breiden of samen te vouwen, **samen te vouwen allen** of **allen** uitbreiden.
 
-   ![ Vouw allen ](assets/collapse-all.png) samen
+   ![&#x200B; Vouw allen &#x200B;](assets/collapse-all.png) samen
 
 1. (Facultatief) om de de vertoningsorde van de groepering van A-Z in z-A te veranderen, selecteer het gebied de lijst momenteel door wordt gegroepeerd, dan uitgezocht **z-A** van drop-down.
 
-   ![ Vertoning door orde ](assets/display-by-order.png)
+   ![&#x200B; Vertoning door orde &#x200B;](assets/display-by-order.png)
 
 1. Klik buiten de **Groep door** paneel om het te sluiten. Van hieruit kunt u de toegepaste groepering in de lijst samenvouwen of uitvouwen door de pijl naast de groeperingstitel te selecteren.
 
-   ![ Vouw samen of breid ](assets/collapse-or-expand.png) uit
+   ![&#x200B; Vouw samen of breid &#x200B;](assets/collapse-or-expand.png) uit
 
    >[!NOTE]
    >   

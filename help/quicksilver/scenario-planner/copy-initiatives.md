@@ -59,7 +59,7 @@ U kunt initiatieven creëren door bestaande te kopiëren. U kunt initiatieven ko
  </tbody> 
 </table>
 
-*For informatie, zie [ vereisten van de Toegang tot de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*For informatie, zie [&#x200B; vereisten van de Toegang tot de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -89,9 +89,9 @@ Houd rekening met het volgende wanneer u initiatieven kopieert:
    * Het verbindt niet het gekopieerde initiatief met het project.
    * De sectie [!DNL Scenario Planner] over het project wordt niet gewijzigd voor projecten die minstens één keer zijn gepubliceerd.
 
-  Voor informatie over het publiceren van initiatieven aan projecten, zie [ Update of creeer projecten door initiatieven in  [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md) te publiceren.
+  Voor informatie over het publiceren van initiatieven aan projecten, zie [&#x200B; Update of creeer projecten door initiatieven in  [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md) te publiceren.
 
-  Voor informatie over het creëren van initiatieven door projecten in te voeren, zie [ projecten van de Invoer in plannen in  [!DNL Scenario Planner]](../scenario-planner/import-projects-to-plans.md).
+  Voor informatie over het creëren van initiatieven door projecten in te voeren, zie [&#x200B; projecten van de Invoer in plannen in  [!DNL Scenario Planner]](../scenario-planner/import-projects-to-plans.md).
 
 ## Initiatieven kopiëren
 
@@ -102,7 +102,7 @@ Een lijst met plannen wordt weergegeven.
 1. Klik op de naam van een abonnement om het te openen en zoek de initiatieven die u wilt kopiëren.
 1. Selecteer het vakje links van het initiatief of de initiatieven die u wilt kopiëren, en klik dan **[!UICONTROL Copy]** van het menu dat bij de bodem van het plan verschijnt.
 
-   ![ initiatief van het Exemplaar ](assets/bottom-manage-initiative-menu-350x45.png)
+   ![&#x200B; initiatief van het Exemplaar &#x200B;](assets/bottom-manage-initiative-menu-350x45.png)
 
    [!DNL Workfront] kopieert de initiatieven onmiddellijk en plaatst ze onder het laatst geselecteerde initiatief.
 
@@ -120,6 +120,6 @@ Een lijst met plannen wordt weergegeven.
 
 1. (Optioneel) Werk de prioriteit van uw nieuwe initiatieven bij.
 
-   Voor informatie over het prioriteren van initiatieven, zie [ de initiatiefprioriteiten van de Update in  [!DNL Scenario Planner]](../scenario-planner/prioritize-initiatives.md).
+   Voor informatie over het prioriteren van initiatieven, zie [&#x200B; de initiatiefprioriteiten van de Update in  [!DNL Scenario Planner]](../scenario-planner/prioritize-initiatives.md).
 
 1. Klik op **[!UICONTROL Save Plan]** om de wijzigingen op te slaan.

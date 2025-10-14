@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [ het Bewijzen ](../../../review-and-approve-work/proofing/proofing.md).
+>Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [&#x200B; het Bewijzen &#x200B;](../../../review-and-approve-work/proofing/proofing.md).
 
 Als [!DNL Workfront Proof] beheerder kunt u gebruiksstatistieken en een logboek van de veranderingen bekijken die aan de [!DNL Workfront Proof] rekening van uw organisatie worden aangebracht.
 
@@ -28,4 +28,4 @@ Als [!DNL Workfront Proof] beheerder kunt u gebruiksstatistieken en een logboek 
    * **[!UICONTROL Account changes]log**: Recente wijzigingen die in uw account zijn aangebracht, waaronder de datum en beschrijving van de activiteit en de gebruiker die de handeling heeft uitgevoerd.
 
 1. Om een volledige lijst van rekeningsveranderingen te bekijken, klik **zie volledige lijst** in de **[!UICONTROL Usage stats]** sectie.
-De pagina Activiteitenlogboek wordt weergegeven. Voor meer informatie, zie [ Begrijpend het  [!DNL Workfront Proof]  Trail van de Controle van de Activiteit ](../../../workfront-proof/wp-work-proofsfiles/basic-features/activity-audit-trail.md).
+De pagina Activiteitenlogboek wordt weergegeven. Voor meer informatie, zie [&#x200B; Begrijpend het  [!DNL Workfront Proof]  Trail van de Controle van de Activiteit &#x200B;](../../../workfront-proof/wp-work-proofsfiles/basic-features/activity-audit-trail.md).

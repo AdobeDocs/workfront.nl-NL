@@ -31,4 +31,4 @@ De Desktop Proofing Viewer is bijgewerkt naar versie 2.1.24! Deze update bevat C
 * Markeringen die zijn verbonden met opmerkingen worden nu correct weergegeven wanneer ze worden geselecteerd.
 * De vervolgkeuzelijsten voor Rol proef en Waarschuwing e-mail werken nu naar behoren.
 
-Voor informatie bij het downloaden van de update, zie [ Update de Desktop het Proofing Kijker ](/help/quicksilver/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer.md).
+Voor informatie bij het downloaden van de update, zie [&#x200B; Update de Desktop het Proofing Kijker &#x200B;](/help/quicksilver/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer.md).

@@ -48,7 +48,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -56,7 +56,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 {{step-1-to-setup}}
 
-1. In het linkerpaneel, klik **Groepen** ![ Groepen ](assets/groups-icon.png).
+1. In het linkerpaneel, klik **Groepen** ![&#x200B; Groepen &#x200B;](assets/groups-icon.png).
 
 1. Klik op de naam van de groep waarvoor u bedrijven wilt maken of wijzigen.
 1. In het linkerpaneel, klik **Bedrijven** om van de bedrijven een lijst te maken verbonden aan de groep en om het even welke subgroups het kan hebben.
@@ -92,8 +92,8 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
    >
    >Als u administratieve toegang tot bedrijven in uw toegangsniveau hebt, kunt u ook klikken toevoegt Meer Bedrijven bij de bodem van de lijst. Dit voegt een rij toe waar u het nieuwe bedrijf kunt snel vormen.
 
-1. (Facultatief) om bedrijven uit te geven of te schrappen, om minstens één bedrijf te selecteren, dan de toolbarknopen gebruiken om ![ uit te geven pictogram ](assets/edit-icon.png) uitgeven of ![ schrap pictogram ](assets/delete.png) het.
+1. (Facultatief) om bedrijven uit te geven of te schrappen, om minstens één bedrijf te selecteren, dan de toolbarknopen gebruiken om ![&#x200B; uit te geven pictogram &#x200B;](assets/edit-icon.png) uitgeven of ![&#x200B; schrap pictogram &#x200B;](assets/delete.png) het.
 
-   Voor informatie over het uitgeven van een bedrijf, zie de sectie [ een bedrijf in Workfront ](../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md#adding-a-company-to-workfront) in het artikel [ creëren en uitgeven bedrijven ](../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md).
+   Voor informatie over het uitgeven van een bedrijf, zie de sectie [&#x200B; een bedrijf in Workfront &#x200B;](../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md#adding-a-company-to-workfront) in het artikel [&#x200B; creëren en uitgeven bedrijven &#x200B;](../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md).
 
-1. (Facultatief) om de lijst van bedrijven uit te voeren, klik het pictogram van de Uitvoer ![ ](assets/export.png), dan selecteer het dossierformaat u voor de uitgevoerde lijst wilt.
+1. (Facultatief) om de lijst van bedrijven uit te voeren, klik het pictogram van de Uitvoer ![&#x200B; &#x200B;](assets/export.png), dan selecteer het dossierformaat u voor de uitgevoerde lijst wilt.

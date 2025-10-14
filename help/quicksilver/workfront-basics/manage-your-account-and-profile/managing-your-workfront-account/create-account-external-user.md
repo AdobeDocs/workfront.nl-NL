@@ -29,11 +29,11 @@ U kunt een account maken terwijl u elementen weergeeft die met u zijn gedeeld.
 
 1. Vul de **sectie van het Wachtwoord** in.
 
-   Voor details, zie [ Wachtwoord ](#password).
+   Voor details, zie [&#x200B; Wachtwoord &#x200B;](#password).
 
 1. (Optioneel) Vul de **sectie van het Profiel** in.
 
-   Voor details, zie [ Profiel ](#profile).
+   Voor details, zie [&#x200B; Profiel &#x200B;](#profile).
 
 1. Klik **creëren Rekening**.
 
@@ -70,4 +70,4 @@ Nadat u uw account hebt gemaakt, kunt u zich aanmelden bij Workfront om items we
 
   `https://<Domain is here>.my.workfront.com/...`
 
-Voor instructies, zie [ Login aan Workfront ](/help/quicksilver/workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-in-to-workfront.md).
+Voor instructies, zie [&#x200B; Login aan Workfront &#x200B;](/help/quicksilver/workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-in-to-workfront.md).

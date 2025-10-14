@@ -49,7 +49,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-*For informatie, zie [ vereisten van de Toegang voor de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*For informatie, zie [&#x200B; vereisten van de Toegang voor de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -61,7 +61,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 1. Klik op het pictogram **[!UICONTROL Optimize]** .
 
-   ![ optimaliseer pictogram ](assets/optimize-icon-portfolio-optimizer.png)
+   ![&#x200B; optimaliseer pictogram &#x200B;](assets/optimize-icon-portfolio-optimizer.png)
 
    De categorieën waarmee een project kan worden gescoord, worden links van het pictogram [!UICONTROL Optimize] weergegeven.
 
@@ -77,7 +77,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
    Hiermee werkt u de [!UICONTROL Score] -waarden bij voor elk project in de kolom **[!UICONTROL Score]** .
 
-   Voor informatie over de [!UICONTROL Portfolio Optimizer] Score, zie [ Overzicht van de [!UICONTROL Portfolio Optimizer] Score ](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-score.md).
+   Voor informatie over de [!UICONTROL Portfolio Optimizer] Score, zie [&#x200B; Overzicht van de [!UICONTROL Portfolio Optimizer] Score &#x200B;](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-score.md).
 
 1. Nadat de juiste gewichten voor de kolom **[!UICONTROL Score]** zijn ingesteld, klikt u op de kop van de kolom **[!UICONTROL Score]** om op deze kolom te sorteren. Het project met de hoogste score wordt getoond bij de bovenkant van de lijst.
 
@@ -89,6 +89,6 @@ Hierdoor verandert de volgorde van de projecten in de [!UICONTROL Portfolio Opti
    >
    >   U moet hebben leiden toestemmingen aan alle projecten in de lijst om **te kunnen gebruiken Vastgestelde projectprioriteit**.
 
-   Voor meer informatie over het prioriteren van projecten in [!UICONTROL Portfolio Optimizer], zie het artikel [ projecten van Prioriteit in [!UICONTROL Portfolio Optimizer]](../../../manage-work/portfolios/portfolio-optimizer/prioritize-projects-in-portfolio-optimizer.md).
+   Voor meer informatie over het prioriteren van projecten in [!UICONTROL Portfolio Optimizer], zie het artikel [&#x200B; projecten van Prioriteit in [!UICONTROL Portfolio Optimizer]](../../../manage-work/portfolios/portfolio-optimizer/prioritize-projects-in-portfolio-optimizer.md).
 
 1. Klik op **[!UICONTROL Save]** om de [!UICONTROL Portfolio Optimizer] op te slaan.

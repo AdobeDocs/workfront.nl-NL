@@ -18,9 +18,9 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [ het Bewijzen ](../../../review-and-approve-work/proofing/proofing.md).
+>Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [&#x200B; het Bewijzen &#x200B;](../../../review-and-approve-work/proofing/proofing.md).
 
-Voor het gebruik van deze functie is een abonnement op Selecteren of Premium vereist. Voor meer informatie over de diverse beschikbare plannen, zie [[!DNL Workfront]  Plannen ](https://business.adobe.com/products/workfront/pricing.html).
+Voor het gebruik van deze functie is een abonnement op Selecteren of Premium vereist. Voor meer informatie over de diverse beschikbare plannen, zie [[!DNL Workfront]  Plannen &#x200B;](https://business.adobe.com/products/workfront/pricing.html).
 
 U kunt groepen gebruikers maken die u als controleurs op meerdere proefdrukken kunt toevoegen. Dit is handig als u inhoud regelmatig naar dezelfde gebruikers verzendt.
 
@@ -32,8 +32,8 @@ U kunt groepen gebruikers maken die u als controleurs op meerdere proefdrukken k
 
 1. Voeg in de sectie **[!UICONTROL People]** personen toe aan uw groep of verwijder deze, waarbij u zo nodig opties voor de rol en e-mailwaarschuwing opgeeft.
 
-   Als u informatie over het specificeren van rollen nodig hebt, zie [ de Rollen van het Bewijs binnen beheren  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md).
+   Als u informatie over het specificeren van rollen nodig hebt, zie [&#x200B; de Rollen van het Bewijs binnen beheren  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md).
 
-   Als u informatie over e-mailwaakzame opties nodig hebt, zie [ de montages van het e-mailbericht in  [!DNL Workfront Proof]](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md) vormen.
+   Als u informatie over e-mailwaakzame opties nodig hebt, zie [&#x200B; de montages van het e-mailbericht in  [!DNL Workfront Proof]](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md) vormen.
 
 1. Klik op **[!UICONTROL Save]**.

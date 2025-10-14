@@ -25,7 +25,7 @@ Sommige objecten in Adobe Workfront maken het mogelijk tekst met opmaak op te sl
 
 Een aangepast veld met RTF-opmaak wordt Veld met RTF-opmaak genoemd en kan de volgende waarden bevatten:
 
-![ Rich- tekstvoorbeeld ](assets/rich-text-example-350x158.png)
+![&#x200B; Rich- tekstvoorbeeld &#x200B;](assets/rich-text-example-350x158.png)
 
 Voorbeeld: een standaard GET-aanvraag om de waarde van het veld op te halen met een aangepast tekstveld met tekstopmaak:
 
@@ -50,7 +50,7 @@ Een blok is een JSON-object dat een enkele regel opgemaakte tekst vertegenwoordi
 
 Voorbeeld: hier wordt elke tekstregel van een aangepast veld toegewezen aan een blokelement in de arrayblokken.
 
-![ rijke tekstafbeelding ](assets/copy-of-rich-text-mapping-350x159.png)
+![&#x200B; rijke tekstafbeelding &#x200B;](assets/copy-of-rich-text-mapping-350x159.png)
 
 Aangezien elk blokelement ook een JSON-object is, bestaat elk blok uit de elementen: key, text, type, depth, inlineStyleRanges, entityRanges en data. Elk van deze elementen werkt als volgt:
 
@@ -63,7 +63,7 @@ Aangezien elk blokelement ook een JSON-object is, bestaat elk blok uit de elemen
 
 Voorbeeld: hier is een inlineStyleRanges-array die elke stijl op tekenniveau beschrijft. In dit geval: 9 tekens (lengte: 9) vanaf index 0 (verschuiving: 0) waarop de stijl Vet is toegepast:
 
-![ rijke tekstafbeelding ](assets/copy-of-rich-text-mapping-2-350x136.png)
+![&#x200B; rijke tekstafbeelding &#x200B;](assets/copy-of-rich-text-mapping-2-350x136.png)
 
 Wanneer meerdere typen opmaak zijn toegepast op één regel, worden stijlen toegewezen aan extra elementen in de array inlineStyleRanges.
 

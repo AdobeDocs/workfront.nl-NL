@@ -21,7 +21,7 @@ Als beheerder van Workfront, kunt u de orde van project, taak veranderen, en sta
 
 <!--The system version of this snippet mentions a single group because a sysadmin call also reorder statuses there. Group admin version of this article is still needed.-->
 
-![ Statussen ](assets/statuses.png)
+![&#x200B; Statussen &#x200B;](assets/statuses.png)
 
 >[!NOTE]
 >
@@ -29,8 +29,8 @@ Als beheerder van Workfront, kunt u de orde van project, taak veranderen, en sta
 >
 >  Nochtans, erven de statussen binnen een pas gecreëerde top-level groep de orde van de systeem-vlakke statussen. (Een nieuwe subgroep erft de volgorde van de statussen in de groep één niveau omhoog.)
 >
->* U kunt vergrendelde statussen opnieuw ordenen. Voor informatie over gesloten statussen, zie [ een status ](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md) creëren of uitgeven.
->* De beheerders van de groep kunnen statussen ook herschikken die in hun groepen worden gebruikt. Voor meer informatie, zie [ groepsstatussen van de herschikking ](../../../administration-and-setup/manage-groups/manage-group-statuses/reorder-group-statuses-from-groups-area.md).
+>* U kunt vergrendelde statussen opnieuw ordenen. Voor informatie over gesloten statussen, zie [&#x200B; een status &#x200B;](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md) creëren of uitgeven.
+>* De beheerders van de groep kunnen statussen ook herschikken die in hun groepen worden gebruikt. Voor meer informatie, zie [&#x200B; groepsstatussen van de herschikking &#x200B;](../../../administration-and-setup/manage-groups/manage-group-statuses/reorder-group-statuses-from-groups-area.md).
 >
 
 ## Toegangsvereisten
@@ -62,7 +62,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -125,7 +125,7 @@ Statussen worden standaard in de volgende volgorde weergegeven:
 1. In het linkerpaneel, klik **Voorkeur van het Project > Statussen**.
 1. (Voorwaardelijk) als u statussen voor een groep opnieuw rangschikt, begin de naam van de groep in het vakje in de hoger-juiste hoek te typen, dan klik de naam wanneer het verschijnt.
 
-   ![ status van het Systeem ](assets/system-statuses-in-upper-rt-corner-group.jpg)
+   ![&#x200B; status van het Systeem &#x200B;](assets/system-statuses-in-upper-rt-corner-group.jpg)
 
 1. Boven de lijst van Statussen die toont, klik de **Projecten** of **Taken** tabel.
 
@@ -137,12 +137,12 @@ Statussen worden standaard in de volgende volgorde weergegeven:
 
 ## Statussen opnieuw ordenen voor problemen
 
-1. Klik het **pictogram 1&rbrace; van het Belangrijkste Menu ![ Belangrijkste menupictogram ](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik** de montages van de Opstelling **![ Gear pictogram ](assets/gear-icon-settings.png).**
+1. Klik het **pictogram 1&rbrace; van het Belangrijkste Menu ![&#x200B; Belangrijkste menupictogram &#x200B;](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik** de montages van de Opstelling **![&#x200B; Gear pictogram &#x200B;](assets/gear-icon-settings.png).**
 
 1. Klik **Voorkeur van het Project > Statussen.**
 1. (Voorwaardelijk) als u statussen voor een groep opnieuw rangschikt, begin de naam van de groep in het vakje in de hoger-juiste hoek te typen, dan klik de naam wanneer het verschijnt.
 
-   ![ status van de Uitgave voor groep ](assets/issue-statuses-group-name.png)
+   ![&#x200B; status van de Uitgave voor groep &#x200B;](assets/issue-statuses-group-name.png)
 
 1. Klik de **Kwesties** tabel.
 1. (Facultatief) selecteer een type van kwestie (**Bug Rapport**, **de Orde van de Verandering**, **Uitgave**, of **Verzoek**).
@@ -150,7 +150,7 @@ Statussen worden standaard in de volgende volgorde weergegeven:
    >[!NOTE]
    >
    >* U kunt de volgorde van statussen voor de hoofdlijst niet aanpassen.
-   >* Wij adviseren dat u orde van statussen voor elke kwestie de zelfde manier typt. Voor meer informatie over kwesties types, zie [ aanvraagtypes ](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-request-types.md) vormen.
+   >* Wij adviseren dat u orde van statussen voor elke kwestie de zelfde manier typt. Voor meer informatie over kwesties types, zie [&#x200B; aanvraagtypes &#x200B;](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-request-types.md) vormen.
 
 1. Sleep de statussen naar de gewenste volgorde.
 

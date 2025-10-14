@@ -65,7 +65,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -73,7 +73,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 {{step-1-to-users}}
 
-1. Selecteer meer dan één gebruiker, dan klik **uitgeven** pictogram ![ pictogram ](assets/edit-icon.png) uitgeeft.
+1. Selecteer meer dan één gebruiker, dan klik **uitgeven** pictogram ![&#x200B; pictogram &#x200B;](assets/edit-icon.png) uitgeeft.
 
 1. In **geef Gebruiker** doos uit, verander de informatie in om het even welke secties, en klik **sparen** op elk ogenblik.
 
@@ -81,13 +81,13 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 * **Zone van de Tijd**: De tijdzone van de gebruiker.
 
-  Voor informatie over het helpen van gebruikers samenwerken in Workfront over tijdzones, zie [ Werkend over tijdzones ](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/working-across-timezones.md).
+  Voor informatie over het helpen van gebruikers samenwerken in Workfront over tijdzones, zie [&#x200B; Werkend over tijdzones &#x200B;](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/working-across-timezones.md).
 
 * **Landinstelling E-mail**: De aangewezen e-maillandinstelling van de gebruiker. Dit is van invloed op de notatie van getallen en datums in de e-mails die van Workfront naar deze gebruiker komen.
 
   >[!NOTE]
   >
-  >Wanneer uw organisatie zich op de Adobe Unified Experience bevindt, worden de taalvoorkeuren van de gebruiker opgeslagen in het Adobe-profiel en wordt de e-maillandinstelling niet gebruikt. Voor informatie over de toegang tot van deze voorkeur, zie [ Adobe Verenigde Ervaring voor Workfront ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
+  >Wanneer uw organisatie zich op de Adobe Unified Experience bevindt, worden de taalvoorkeuren van de gebruiker opgeslagen in het Adobe-profiel en wordt de e-maillandinstelling niet gebruikt. Voor informatie over de toegang tot van deze voorkeur, zie [&#x200B; Adobe Verenigde Ervaring voor Workfront &#x200B;](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
 ### Meldingen
 
@@ -95,7 +95,7 @@ Selecteer de e-mailberichten die voor de gebruikers moeten worden ingeschakeld.
 
 U kunt zowel expresberichten als dagelijkse samenvattingsmeldingen selecteren. Alle dagelijkse samenvattingsmeldingen worden ergens na hetzelfde tijdstip verzonden voor alle gebruikers die u hebt geselecteerd.
 
-Voor meer informatie, zie [ gebeurtenisberichten voor iedereen in het systeem ](/help/quicksilver/administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md) vormen.
+Voor meer informatie, zie [&#x200B; gebeurtenisberichten voor iedereen in het systeem &#x200B;](/help/quicksilver/administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md) vormen.
 
 ### Toegang
 
@@ -107,19 +107,19 @@ Voor meer informatie, zie [ gebeurtenisberichten voor iedereen in het systeem ](
 
   Nochtans, kunt u geen toegangsniveau toewijzen dat door gebrek lager is dan uw eigen toegangsniveau als de beheerder van Workfront niet-standaardtoestemmingen op het toegangsniveau heeft toegelaten die niet ook in uw eigen toegangsniveau worden toegelaten.
 
-  Als u bijvoorbeeld een standaardlicentie hebt zonder toegang tot verwijderingstaken, kunt u geen licentie voor licht toewijzen met toegang tot verwijderingstaken, hoewel de licentie voor licht lager is dan de licentie Standaard. Voor meer informatie, zie [ tot douanetoegangsniveaus ](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md) leiden of wijzigen.
+  Als u bijvoorbeeld een standaardlicentie hebt zonder toegang tot verwijderingstaken, kunt u geen licentie voor licht toewijzen met toegang tot verwijderingstaken, hoewel de licentie voor licht lager is dan de licentie Standaard. Voor meer informatie, zie [&#x200B; tot douanetoegangsniveaus &#x200B;](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md) leiden of wijzigen.
 
-  Voor meer informatie over toegangsniveaus, zie [ toegang tot Adobe Workfront ](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/configure-access.md) vormen.
+  Voor meer informatie over toegangsniveaus, zie [&#x200B; toegang tot Adobe Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/configure-access.md) vormen.
 
   >[!NOTE]
   >
   >Als uw organisatie het nieuwe toegangsmodel (Norm/Licht/Medewerker) gebruikt, kunt u geen Standaard of Lichte gebruiker aan een niveau van de Toegang van de Medewerker opnieuw toewijzen als die gebruiker hun beslissingsgrens voor de maand reeds heeft bereikt.
   >
-  >Voor meer informatie over het nieuwe toegangsmodel, zie [ Nieuw overzicht van toegangsniveaus ](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md).
+  >Voor meer informatie over het nieuwe toegangsmodel, zie [&#x200B; Nieuw overzicht van toegangsniveaus &#x200B;](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md).
   >
-  >Voor informatie over besluitvormingsgrenzen, zie [ Beperkt document en bewijsbesluit voor niet-betaalde gebruikers overzicht ](/help/quicksilver/review-and-approve-work/proof-doc-decision-limits.md).
+  >Voor informatie over besluitvormingsgrenzen, zie [&#x200B; Beperkt document en bewijsbesluit voor niet-betaalde gebruikers overzicht &#x200B;](/help/quicksilver/review-and-approve-work/proof-doc-decision-limits.md).
 
-* **Malplaatje van de Lay-out**: Kies een lay-outmalplaatje voor de gebruikers. deze lay-outmalplaatje heeft belangrijkheid over om het even welk lay-outmalplaatje dat aan hun Groep van het Huis, Team van het Huis, of Primaire Rol wordt toegewezen. Voor meer informatie over de taakprioriteit van lay-outmalplaatjes, zie [ lay-outmalplaatjes ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md) creëren en beheren.
+* **Malplaatje van de Lay-out**: Kies een lay-outmalplaatje voor de gebruikers. deze lay-outmalplaatje heeft belangrijkheid over om het even welk lay-outmalplaatje dat aan hun Groep van het Huis, Team van het Huis, of Primaire Rol wordt toegewezen. Voor meer informatie over de taakprioriteit van lay-outmalplaatjes, zie [&#x200B; lay-outmalplaatjes &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md) creëren en beheren.
 
   In de volgende lijst wordt beschreven hoe de lijst met sjablonen die u in dit veld hebt, afhankelijk is van uw toegang:
 
@@ -127,11 +127,11 @@ Voor meer informatie, zie [ gebeurtenisberichten voor iedereen in het systeem ](
    * Als groepsbeheerder, kunt u systeem-vlakke lay-outmalplaatje, evenals die zien verbonden aan de groepen die u beheert.
    * Als gebruiker met een Standard- of Plan-licentie en toegang om gebruikers te bewerken, kunt u alleen lay-outsjablonen op systeemniveau zien.
 
-     Voor meer informatie over groep-vlakke lay-outmalplaatjes, zie [ creëren en wijzigen de lay-outmalplaatjes van een groep ](/help/quicksilver/administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
+     Voor meer informatie over groep-vlakke lay-outmalplaatjes, zie [&#x200B; creëren en wijzigen de lay-outmalplaatjes van een groep &#x200B;](/help/quicksilver/administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
 
 ### Organisatie
 
-* **Bedrijf**: Het bedrijf van de gebruikers. Gebruikers kunnen slechts met één bedrijf worden geassocieerd. U moet een bedrijf creëren alvorens u het met een gebruiker kunt associëren. Alleen actieve bedrijven worden in de lijst weergegeven. Voor informatie over het creëren van bedrijven, zie [ bedrijven ](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md) creëren en uitgeven.
+* **Bedrijf**: Het bedrijf van de gebruikers. Gebruikers kunnen slechts met één bedrijf worden geassocieerd. U moet een bedrijf creëren alvorens u het met een gebruiker kunt associëren. Alleen actieve bedrijven worden in de lijst weergegeven. Voor informatie over het creëren van bedrijven, zie [&#x200B; bedrijven &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md) creëren en uitgeven.
 * **Team van het Huis**: Specificeer het huisteam voor de gebruikers. Gebruikers kunnen slechts één huisteam hebben.
 * **Andere Teams**: De gebruikers kunnen tot veelvoudige teams behoren.
 * **Huidige Groep van het Huis**: Selecteer een aangewezen groep om de gebruikers toe te wijzen. Dit geeft de gebruikers de capaciteit om tot voorwerpen toegang te hebben die met de groep worden gedeeld. U kunt lay-outmalplaatjes met een Groep van het Huis ook delen.
@@ -150,9 +150,9 @@ Voor meer informatie, zie [ gebeurtenisberichten voor iedereen in het systeem ](
   >
   >Als u een gebruiker toevoegt aan meer dan 100 groepen, kunnen er prestatieproblemen optreden in elk gebied van Workfront dat de lijst met groepen laadt.
 
-  Voor meer informatie over openbare groepen, zie [ een groep ](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md) creëren.
+  Voor meer informatie over openbare groepen, zie [&#x200B; een groep &#x200B;](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md) creëren.
 
-  Voor meer informatie over groepen, zie [ Overzicht van Groepen ](/help/quicksilver/administration-and-setup/manage-groups/groups-overview/groups.md).
+  Voor meer informatie over groepen, zie [&#x200B; Overzicht van Groepen &#x200B;](/help/quicksilver/administration-and-setup/manage-groups/groups-overview/groups.md).
 
 ### Bronplanning
 
@@ -162,30 +162,30 @@ Voor meer informatie, zie [ gebeurtenisberichten voor iedereen in het systeem ](
 
   Het systeem gebruikt dit aantal om de beschikbaarheid van de gebruiker voor daadwerkelijke, op project betrekking hebbende werk te berekenen.
 
-  Voor meer informatie over het creëren van programma&#39;s in Workfront, zie [ een programma ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md) creëren.
+  Voor meer informatie over het creëren van programma&#39;s in Workfront, zie [&#x200B; een programma &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md) creëren.
 
   De uitzonderingen van het programma en de onderbreking zouden de capaciteit van de gebruiker kunnen ook beïnvloeden.
 
-  Workfront berekent de beschikbaarheid van een gebruiker afhankelijk van de voorkeuren voor het beheer van bronnen in uw installatiegebied. Voor meer informatie, zie [ de voorkeur van het Beheer van het Middel ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md) vormen.
+  Workfront berekent de beschikbaarheid van een gebruiker afhankelijk van de voorkeuren voor het beheer van bronnen in uw installatiegebied. Voor meer informatie, zie [&#x200B; de voorkeur van het Beheer van het Middel &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md) vormen.
 
   >[!TIP]
   >
   >Plaats de waarde van de Tijd van het Werk aan 1 om erop te wijzen dat de gebruiker voor project-verwant werk hun volledig-tijdequivalent beschikbaar is.
 
 * **plaats deactiveringsdatum**: Klik deze knoop als u deze gebruikers wilt plannen om op een bepaalde datum en op een bepaald tijdstip worden gedeactiveerd.
-* **Datum van Deactivering**: De datum en de tijd waarop de gebruikers worden gedeactiveerd. Voor informatie over het plannen van gebruikers voor deactivering, zie [ gebruikers van het Programma voor deactivering ](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md#schedule-users-for-deactivation) in [ Deactivate of een gebruiker ](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md) opnieuw activeren.
-* **Primaire Rol**: Dit is de primaire baanrol die de gebruikers in Workfront kunnen vervullen. Elke taak en kwestie waaraan de gebruikers worden toegewezen wordt ook toegewezen aan deze baanrol. Functies zijn essentieel voor het beheer van hulpbronnen. U kunt dit veld alleen bijwerken als u een Standard- of Plan-licentie hebt met beheerdersrechten voor gebruikers, of als u een Workfront-beheerder bent. Voor meer informatie over vestiging gebruikers met administratieve gebruikerstoegang, zie [ Toegang van de Verlening tot gebruikers ](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
+* **Datum van Deactivering**: De datum en de tijd waarop de gebruikers worden gedeactiveerd. Voor informatie over het plannen van gebruikers voor deactivering, zie [&#x200B; gebruikers van het Programma voor deactivering &#x200B;](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md#schedule-users-for-deactivation) in [&#x200B; Deactivate of een gebruiker &#x200B;](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md) opnieuw activeren.
+* **Primaire Rol**: Dit is de primaire baanrol die de gebruikers in Workfront kunnen vervullen. Elke taak en kwestie waaraan de gebruikers worden toegewezen wordt ook toegewezen aan deze baanrol. Functies zijn essentieel voor het beheer van hulpbronnen. U kunt dit veld alleen bijwerken als u een Standard- of Plan-licentie hebt met beheerdersrechten voor gebruikers, of als u een Workfront-beheerder bent. Voor meer informatie over vestiging gebruikers met administratieve gebruikerstoegang, zie [&#x200B; Toegang van de Verlening tot gebruikers &#x200B;](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 
   Alleen actieve taakrollen worden in de lijst weergegeven.
 
 * (Voorwaardelijk) als u a **Primaire Rol** selecteerde, **Percentage van FTE het gebiedsvertoningen van de Beschikbaarheid**. Geef op welk percentage van de tijd van de planningen van de gebruikers aan deze taakrol wordt toegewezen. De standaardwaarde voor het Percentage van de Beschikbaarheid van VTE voor de Primaire Rol is 100%.
 * **Andere Rollen**: De gebruikers kunnen veelvoudige baanrollen in Workfront hebben. Functies zijn essentieel voor het beheer van hulpbronnen. Er is geen limiet voor het aantal taakrollen dat een gebruiker kan uitvoeren. Nochtans, adviseren wij om één gebruiker aan een bovenmatig groot aantal baanrollen niet toe te wijzen, omdat het middelbeheer voor deze gebruikers te complex zou kunnen worden.
 
-  Alleen actieve taakrollen worden in de lijst weergegeven. Voor meer informatie over baanrollen, zie [ baanrollen ](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md) creëren en beheren.
+  Alleen actieve taakrollen worden in de lijst weergegeven. Voor meer informatie over baanrollen, zie [&#x200B; baanrollen &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md) creëren en beheren.
 
   U kunt dit veld alleen bijwerken als u een Standard- of Plan-licentie hebt met beheerdersrechten voor gebruikers, of als u een Workfront-beheerder bent.
 
-  Voor meer informatie over vestiging gebruikers met administratieve gebruikerstoegang, zie [ Toegang van de Verlening tot gebruikers ](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
+  Voor meer informatie over vestiging gebruikers met administratieve gebruikerstoegang, zie [&#x200B; Toegang van de Verlening tot gebruikers &#x200B;](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 
 * (Voorwaardelijk) als u één of veelvoudige **Andere Rollen** selecteerde, **Percentage van FTE de gebiedsvertoningen van de Beschikbaarheid** voor elke rol. Geef op welk percentage van de tijd van de planningen van de gebruikers wordt toegewezen aan elke taakrol. De standaardwaarde voor het Percentage van VTE Beschikbaarheid voor de Andere Rollen is 0%.
 
@@ -195,17 +195,17 @@ Voor meer informatie, zie [ gebeurtenisberichten voor iedereen in het systeem ](
 
   De beschikbare tijd voor de gebruiker wordt door Workfront berekend afhankelijk van de methode die door de beheerder van Workfront is geselecteerd om FTE in de Voorkeur van het Beheer van het Middel te berekenen.
 
-  Voor informatie over het berekenen van beschikbaarheid voor de gebruiker, zie [ Overzicht van het berekenen van uren en FTE voor gebruikers en rollen in de Planner van het Middel ](/help/quicksilver/resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md).
+  Voor informatie over het berekenen van beschikbaarheid voor de gebruiker, zie [&#x200B; Overzicht van het berekenen van uren en FTE voor gebruikers en rollen in de Planner van het Middel &#x200B;](/help/quicksilver/resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md).
 
-  Voor informatie over het vormen van de voorkeur van het Beheer van het Middel, zie [ de voorkeur van het Beheer van het Middel ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md) vormen.
+  Voor informatie over het vormen van de voorkeur van het Beheer van het Middel, zie [&#x200B; de voorkeur van het Beheer van het Middel &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md) vormen.
 
 * **Programma**: Verwante een programma met de gebruikers. Het programma van de gebruikers berekent de chronologie van de taken de gebruikers worden toegewezen aan.
 
-  U moet een schema creëren alvorens u het met gebruikers kunt associëren. Voor meer informatie over het creëren van programma&#39;s, zie [ een programma ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md) creëren.
+  U moet een schema creëren alvorens u het met gebruikers kunt associëren. Voor meer informatie over het creëren van programma&#39;s, zie [&#x200B; een programma &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md) creëren.
 
   >[!IMPORTANT]
   >
-  >Workfront gebruikt het programma van een gebruiker slechts wanneer de **Berekende Beschikbaarheid van het Middel die** plaatsen wordt geplaatst aan **het Programma van de Gebruiker**. Voor informatie over hoe dit het plaatsen beïnvloedt welk programma voor het Beheer van het Middel wordt gebruikt, zie [ de voorkeur van het Beheer van het Middel ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md) vormen.
+  >Workfront gebruikt het programma van een gebruiker slechts wanneer de **Berekende Beschikbaarheid van het Middel die** plaatsen wordt geplaatst aan **het Programma van de Gebruiker**. Voor informatie over hoe dit het plaatsen beïnvloedt welk programma voor het Beheer van het Middel wordt gebruikt, zie [&#x200B; de voorkeur van het Beheer van het Middel &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md) vormen.
 
 * **het Profiel van de Tijdopnemer**: Associeer een Profiel van de Tijdopnemer met de gebruikers om ervoor te zorgen dat timesheets automatisch produceren.
 
@@ -213,10 +213,10 @@ Voor meer informatie, zie [ gebeurtenisberichten voor iedereen in het systeem ](
 
    * Als Workfront-beheerder kunt u alle tijdbladprofielen op systeemniveau en op groepsniveau zien.
    * Als groepsbeheerder, kunt u systeem-vlakke Profielen van de Chronologie, evenals die zien verbonden aan de groepen die u beheert.
-   * Als gebruiker met een Standard- of Plan-licentie en toegang om gebruikers te bewerken, kunt u alleen tijdbladprofielen op systeemniveau zien. Voor meer informatie over groep-vlakke Profielen van de Chronologie, zie [ creëren, uitgeven, en toewijzen timesheet profielen ](/help/quicksilver/timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).
+   * Als gebruiker met een Standard- of Plan-licentie en toegang om gebruikers te bewerken, kunt u alleen tijdbladprofielen op systeemniveau zien. Voor meer informatie over groep-vlakke Profielen van de Chronologie, zie [&#x200B; creëren, uitgeven, en toewijzen timesheet profielen &#x200B;](/help/quicksilver/timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).
 
 * **het Type van Uur Standaard**: Selecteer het standaarduurtype voor de gebruikers. Dit is het uurtype dat door gebrek wordt gebruikt wanneer de gebruikers tijd registreren.
-* **Beschikbare Types van Uur**: Selecteer de uurtypes die aan de gebruikers beschikbaar zouden moeten zijn. Deze uurtypen zijn overal zichtbaar in Workfront waar de gebruikers de tijd kunnen registreren. De gebruikers kunnen de uurtypes slechts zien die op het projectniveau evenals het gebruikersniveau worden toegelaten. Voor meer informatie over welke uurtypes aan gebruikers beschikbaar zijn, zie [ de types en beschikbaarheid van uren bepalen ](/help/quicksilver/timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md).
+* **Beschikbare Types van Uur**: Selecteer de uurtypes die aan de gebruikers beschikbaar zouden moeten zijn. Deze uurtypen zijn overal zichtbaar in Workfront waar de gebruikers de tijd kunnen registreren. De gebruikers kunnen de uurtypes slechts zien die op het projectniveau evenals het gebruikersniveau worden toegelaten. Voor meer informatie over welke uurtypes aan gebruikers beschikbaar zijn, zie [&#x200B; de types en beschikbaarheid van uren bepalen &#x200B;](/help/quicksilver/timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md).
 * **FTE**: Dit is het Volledige Gelijkwaardige van de Tijd van de gebruikers. Workfront gebruikt dit aantal om de beschikbaarheid van de gebruikers te berekenen die op het StandaardProgramma slechts worden gebaseerd wanneer de Voorkeur van het Beheer van het Middel op het systeemniveau aan het StandaardProgramma wordt geplaatst.
 
   De FTE geeft de hoeveelheid tijd aan die de gebruikers op het werk kunnen doorbrengen. Dit omvat overheadkosten, evenals tijd die aan projectwerk wordt doorgebracht. Bijvoorbeeld, tijd die in vergaderingen wordt doorgebracht, of de opleiding is ook inbegrepen in FTE.
@@ -231,9 +231,9 @@ Voor meer informatie, zie [ gebeurtenisberichten voor iedereen in het systeem ](
 
   Als de Voorkeur van het Beheer van het Middel op het systeemniveau aan het Programma van de Gebruiker wordt geplaatst, wordt de waarde u hier specificeert genegeerd en de gebruiker wordt beschouwd als beschikbaar volgens wat in hun programma wordt gespecificeerd.
 
-  Voor meer informatie, zie [ de voorkeur van het Beheer van het Middel ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md) vormen.
+  Voor meer informatie, zie [&#x200B; de voorkeur van het Beheer van het Middel &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md) vormen.
 
-  Voor meer informatie over het creëren van programma&#39;s in Workfront, zie [ een programma ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md) creëren.
+  Voor meer informatie over het creëren van programma&#39;s in Workfront, zie [&#x200B; een programma &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md) creëren.
 
 * **Pools van het Middel**: Vennoot de gebruikers met de Pools van het Middel.
 
@@ -241,7 +241,7 @@ Voor meer informatie, zie [ gebeurtenisberichten voor iedereen in het systeem ](
   >
   >Alleen de bronnenpools die alle geselecteerde gebruikers gemeen hebben, worden in dit veld weergegeven. Als de geselecteerde gebruikers geen gedeelde bronnenpools hebben, is dit veld leeg. Als dit veld leeg is, overschrijven de hier opgegeven bronnenpools hun afzonderlijke bronnenpools.
 
-  Voor meer informatie over middelpools, zie [ het middelpools van de Vereniging met gebruikers ](/help/quicksilver/resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-users.md).
+  Voor meer informatie over middelpools, zie [&#x200B; het middelpools van de Vereniging met gebruikers &#x200B;](/help/quicksilver/resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-users.md).
 
 * **Tarief van Kosten**: De hoeveelheid kosten per uur voor de gebruiker.
 
@@ -265,7 +265,7 @@ Koppel een bestaand aangepast gebruikersformulier aan de gebruikers. U moet een 
 
 U kunt naar keuze selecteren **herberekent de optie van de Uitdrukkingen van de Douane** om ervoor te zorgen dat alle berekende douanegebieden in douaneformulieren die aan de geselecteerde gebruikers in bijlage zijn bijgewerkt zijn.
 
-Voor informatie over het creëren van douaneformulieren, zie [ een douaneformulier ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren.
+Voor informatie over het creëren van douaneformulieren, zie [&#x200B; een douaneformulier &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren.
 
 ### Opmerking
 

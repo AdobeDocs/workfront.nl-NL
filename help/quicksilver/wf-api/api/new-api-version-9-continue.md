@@ -16,7 +16,7 @@ ht-degree: 0%
 
 # Nieuwe functies in API-versie 9 (vervolg)
 
-Deze lijst is de tweede helft van een grotere lijst. De eerste helft kan bij [ worden gevestigd wat in API Versie 9 ](../../wf-api/api/new-api-version-9.md) Nieuw is. U zult de lijst van updates aan versie 9 bij [ Updates aan API Versie 9 ](../../wf-api/api/new-api-version-9-updates.md) vinden.
+Deze lijst is de tweede helft van een grotere lijst. De eerste helft kan bij [&#x200B; worden gevestigd wat in API Versie 9 &#x200B;](../../wf-api/api/new-api-version-9.md) Nieuw is. U zult de lijst van updates aan versie 9 bij [&#x200B; Updates aan API Versie 9 &#x200B;](../../wf-api/api/new-api-version-9-updates.md) vinden.
 
 ## PortalSection
 

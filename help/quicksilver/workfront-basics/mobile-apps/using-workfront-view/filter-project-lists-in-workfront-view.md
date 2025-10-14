@@ -48,7 +48,7 @@ U moet in [!DNL Workfront] de volgende toegang hebben om de stappen in dit artik
 1. Ga naar de lijst met projecten in de [!DNL Workfront] Mobiele app weergeven.
 1. Tik op het lijstpictogram linksboven in de lijst.\
    De lijst met beschikbare filters wordt weergegeven.\
-   ![ WF_View_filters_050621.jpg ](assets/wf-view-filters-050621-350x427.jpg)
+   ![&#x200B; WF_View_filters_050621.jpg &#x200B;](assets/wf-view-filters-050621-350x427.jpg)
 
 1. Selecteer een van de volgende filters:
 

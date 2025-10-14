@@ -56,7 +56,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -104,7 +104,7 @@ U kunt items filteren in de widget [!UICONTROL Worklist] als u alleen bepaalde t
 
 Uw werk filteren:
 
-1. Klik het **[!UICONTROL Main Menu]** ![ Belangrijkste pictogram van het Menu ](assets/main-menu-icon.png) in de hoger-juiste hoek, dan klik **[!UICONTROL Home]**.
+1. Klik het **[!UICONTROL Main Menu]** ![&#x200B; Belangrijkste pictogram van het Menu &#x200B;](assets/main-menu-icon.png) in de hoger-juiste hoek, dan klik **[!UICONTROL Home]**.
 1. (Voorwaardelijk) klik **aanpassen** om het even welke volgende widgets toe te voegen:
 
    | Widget | Beschrijving |
@@ -117,12 +117,12 @@ Uw werk filteren:
    | Mijn verzoeken | Alle verzoeken weergeven die u hebt verzonden |
    | Mijn goedkeuring | Toont al uw hangende, toegewezen, gedelegeerde en verzonden goedkeuringen |
 
-1. Klik het **pictogram van de Filter ![ ](assets/filter-nwepng.png) pictogram van de Filter** &lbrace;in de rechterbovenhoek van widgetwerklijst.
+1. Klik het **pictogram van de Filter ![&#x200B; &#x200B;](assets/filter-nwepng.png) pictogram van de Filter** &lbrace;in de rechterbovenhoek van widgetwerklijst.
 1. Kies a **Voorgesteld** filter of een filter dat u hebt gecreeerd.
-Voor gedetailleerde informatie over gesuggereerde filters, zie [ overzicht van widgetfilters van het Huis ](/help/quicksilver/workfront-basics/using-home/using-the-home-area/widget-filter-overview-home.md).
+Voor gedetailleerde informatie over gesuggereerde filters, zie [&#x200B; overzicht van widgetfilters van het Huis &#x200B;](/help/quicksilver/workfront-basics/using-home/using-the-home-area/widget-filter-overview-home.md).
 1. (Facultatief) knevel **filters van de Stapel** om veelvoudige filteropties te selecteren.
 
-   ![ Mijn open filter van de Taak ](assets/my-task-filter-open.png)
+   ![&#x200B; Mijn open filter van de Taak &#x200B;](assets/my-task-filter-open.png)
 
 
 ## Uw werk groeperen
@@ -131,7 +131,7 @@ U kunt de widget [!UICONTROL worklist] groeperen om uw werkitems geordend te hou
 
 Uw werklijst groeperen:
 
-1. Klik het **[!UICONTROL Main Menu]** ![ Belangrijkste pictogram van het Menu ](assets/main-menu-icon.png) in de hoger-juiste hoek, dan klik **[!UICONTROL Home]**.
+1. Klik het **[!UICONTROL Main Menu]** ![&#x200B; Belangrijkste pictogram van het Menu &#x200B;](assets/main-menu-icon.png) in de hoger-juiste hoek, dan klik **[!UICONTROL Home]**.
 1. (Voorwaardelijk) klik **aanpassen** om het even welke volgende widgets toe te voegen:
 
    | Widget | Beschrijving |
@@ -144,16 +144,16 @@ Uw werklijst groeperen:
    | Mijn verzoeken | Alle verzoeken weergeven die u hebt verzonden |
    | Mijn goedkeuring | Toont al uw hangende, toegewezen, gedelegeerde en verzonden goedkeuringen |
 
-1. Klik het **pictogram van de Groep ![ ](assets/group-icon.png) van de Groep** pictogram van de Groep in de rechterbovenhoek van de widgetwerklijst.
+1. Klik het **pictogram van de Groep ![&#x200B; &#x200B;](assets/group-icon.png) van de Groep** pictogram van de Groep in de rechterbovenhoek van de widgetwerklijst.
 1. Kies a **Voorgestelde** groepering of groepering die u hebt gecreeerd.
-   ![ Uitgebreide Groepering ](assets/grouping-expanded.png)
+   ![&#x200B; Uitgebreide Groepering &#x200B;](assets/grouping-expanded.png)
 
 
 ## Kolommen voor werklijsten aanpassen
 
 U kunt kiezen welke kolommen worden weergegeven in de widgetwerklijst:
 
-1. Klik het **[!UICONTROL Main Menu]** ![ Belangrijkste pictogram van het Menu ](assets/main-menu-icon.png) in de hoger-juiste hoek, dan klik **[!UICONTROL Home]**.
+1. Klik het **[!UICONTROL Main Menu]** ![&#x200B; Belangrijkste pictogram van het Menu &#x200B;](assets/main-menu-icon.png) in de hoger-juiste hoek, dan klik **[!UICONTROL Home]**.
 1. (Voorwaardelijk) klik **aanpassen** om het even welke volgende widgets toe te voegen:
 
    | Widget | Beschrijving |
@@ -166,10 +166,10 @@ U kunt kiezen welke kolommen worden weergegeven in de widgetwerklijst:
    | Mijn verzoeken | Alle verzoeken weergeven die u hebt verzonden |
    | Mijn goedkeuring | Toont al uw hangende, toegewezen, gedelegeerde en verzonden goedkeuringen |
 
-1. Klik het **pictogram van de Kolom ![ ](assets/column-icon.png) pictogram van de 1&rbrace; Kolom &lbrace;in de rechterbovenhoek van de widgetwerklijst.**
+1. Klik het **pictogram van de Kolom ![&#x200B; &#x200B;](assets/column-icon.png) pictogram van de 1&rbrace; Kolom &lbrace;in de rechterbovenhoek van de widgetwerklijst.**
 1. Schakel de kolommen in of uit, afhankelijk van uw voorkeuren.
-1. (Facultatief) klik het **pictogram van de Belemmering** ![ pictogram van de Belemmering ](assets/drag-icon.png) om de kolommen opnieuw in orde te brengen.
-   ![ Uitgebreide Kolommen ](assets/columns-expanded.png)
+1. (Facultatief) klik het **pictogram van de Belemmering** ![&#x200B; pictogram van de Belemmering &#x200B;](assets/drag-icon.png) om de kolommen opnieuw in orde te brengen.
+   ![&#x200B; Uitgebreide Kolommen &#x200B;](assets/columns-expanded.png)
 
 
 ## Te late objecten weergeven

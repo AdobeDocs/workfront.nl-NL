@@ -22,8 +22,8 @@ Deze verbeteringen worden beschikbaar gesteld in de productieomgeving met de rel
 
 ## Doelverbeteringen van de opmerkingervaring
 
-Vanaf de release 23.1 hebben we een nieuwe opmerkingervaring geïntroduceerd voor Workfront Goals. Voor informatie over de 23.1 updates van de Doelen van Workfront, zie [ Doelen van Adobe Workfront met de 23.1 versie ](/help/quicksilver/product-announcements/product-releases/goals-release-activity/goals-23-1-release/goals-23-1-release.md).
+Vanaf de release 23.1 hebben we een nieuwe opmerkingervaring geïntroduceerd voor Workfront Goals. Voor informatie over de 23.1 updates van de Doelen van Workfront, zie [&#x200B; Doelen van Adobe Workfront met de 23.1 versie &#x200B;](/help/quicksilver/product-announcements/product-releases/goals-release-activity/goals-23-1-release/goals-23-1-release.md).
 
 Vanaf de release 23.2 komt de ervaring met opmerkingen voor doelen overeen met de nieuwe ervaring die Beta met opmerkingen heeft opgedaan en die is uitgebracht voor problemen. Tijdens alle releases in 2023 blijven we updates op dit gebied publiceren.
 
-Voor informatie over welke eigenschappen in de het becommentariëren ervaring Beta beschikbaar zijn, zie [ Nieuwe het becommentariëren ervaring ](../../../betas/new-commenting-experience-beta/unified-commenting-experience.md).
+Voor informatie over welke eigenschappen in de het becommentariëren ervaring Beta beschikbaar zijn, zie [&#x200B; Nieuwe het becommentariëren ervaring &#x200B;](../../../betas/new-commenting-experience-beta/unified-commenting-experience.md).

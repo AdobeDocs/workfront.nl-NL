@@ -20,7 +20,7 @@ ht-degree: 0%
 
 Adobe Workfront Document Webhooks definieert een set API-eindpunten waarmee Workfront geoorloofde API-aanroepen uitvoert naar een externe documentprovider. Hierdoor kan iedereen een middleware-insteekmodule maken voor elke leverancier van documentopslag.
 
-![ Webhooks ](assets/mceclip0-350x262.png)
+![&#x200B; Webhooks &#x200B;](assets/mceclip0-350x262.png)
 
 De gebruikerservaring voor integratie op basis van een webhaak is vergelijkbaar met die van bestaande documentintegratie, zoals Google Drive, Box en Dropbox. Een Workfront-gebruiker kan bijvoorbeeld de volgende handelingen uitvoeren:
 
@@ -32,7 +32,7 @@ De gebruikerservaring voor integratie op basis van een webhaak is vergelijkbaar 
 
 **Implementatie van de Verwijzing**
 
-Workfront geeft voorbeelden van een voorbeeldimplementatie om de ontwikkeling van een nieuwe webhooks-implementatie te versnellen. Deze voorbeelden kunnen in [ https://github.com/Workfront/webhooks-app ](https://github.com/Workfront/webhooks-app) worden gevonden. De voorbeelden zijn gebaseerd op Java en stellen Workfront in staat om documenten te verbinden met een netwerkbestandssysteem. 
+Workfront geeft voorbeelden van een voorbeeldimplementatie om de ontwikkeling van een nieuwe webhooks-implementatie te versnellen. Deze voorbeelden kunnen in [&#x200B; https://github.com/Workfront/webhooks-app &#x200B;](https://github.com/Workfront/webhooks-app) worden gevonden. De voorbeelden zijn gebaseerd op Java en stellen Workfront in staat om documenten te verbinden met een netwerkbestandssysteem. 
 
 >[!NOTE]
 >

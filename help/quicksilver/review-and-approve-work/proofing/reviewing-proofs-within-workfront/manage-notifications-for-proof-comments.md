@@ -17,7 +17,7 @@ ht-degree: 0%
 
 <!-- Audited: 4/2025 -->
 
-Wanneer u aan een proefdruk werkt, of u een gebruiker van Adobe Workfront of een externe medewerker bent, kunt u specificeren welke e-mailberichten u over commentaren en besluiten over de proefdruk wilt ontvangen. Voor meer informatie, zie [ Meldingen voor de proefdrukcommentaren en besluiten overzicht ](../../../review-and-approve-work/proofing/proofing-overview/notifications-proof-comments-decisions.md).
+Wanneer u aan een proefdruk werkt, of u een gebruiker van Adobe Workfront of een externe medewerker bent, kunt u specificeren welke e-mailberichten u over commentaren en besluiten over de proefdruk wilt ontvangen. Voor meer informatie, zie [&#x200B; Meldingen voor de proefdrukcommentaren en besluiten overzicht &#x200B;](../../../review-and-approve-work/proofing/proofing-overview/notifications-proof-comments-decisions.md).
 
 >[!NOTE]
 >
@@ -61,9 +61,9 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 1. Open de proefdruk u berichten voor wilt vormen.
 1. Als de linkertoolbar niet toont, klik het **pictogram van het Menu** in de upper-left hoek van de Kijker van het Bewijs van het Web.
 
-   ![ Menu_icon_in_Proofing_Viewer.png ](assets/menu-icon-in-proofing-viewer-350x228.png)
+   ![&#x200B; Menu_icon_in_Proofing_Viewer.png &#x200B;](assets/menu-icon-in-proofing-viewer-350x228.png)
 
-1. In de linkertoolbar, klik het **pictogram van Montages ![ Settings_icon.png ](assets/settings-icon.png).**
+1. In de linkertoolbar, klik het **pictogram van Montages ![&#x200B; Settings_icon.png &#x200B;](assets/settings-icon.png).**
 
 1. In **verzend me e-mailberichten over** sectie, selecteer het bericht dat voor deze proef plaatst.
 

@@ -22,9 +22,9 @@ ht-degree: 0%
 
 Een werkstroom is een configureerbare groep borden en kaarten voor samenwerking op het werk. Workstreams kunnen verschillende typen borden bevatten die zijn gemaakt op basis van sjablonen en een kaartlijst met werkitems. In een werkstroom kunt u het werk in herhalingen of sprints volgen.
 
-Voor meer informatie, zie [ Gebruik de kaartlijst ](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md) en [ creeer een herhaling in een werkstroom ](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md).
+Voor meer informatie, zie [&#x200B; Gebruik de kaartlijst &#x200B;](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md) en [&#x200B; creeer een herhaling in een werkstroom &#x200B;](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md).
 
-Workstreams worden op het dashboard weergegeven, samen met afzonderlijke borden waartoe u toegang hebt en die geen deel uitmaken van een werkstroom. Voor informatie over het dashboard van Borden, zie [ Gebruik het dashboard van Borden ](/help/quicksilver/agile/get-started-with-boards/use-boards-page.md). U kunt op een willekeurige bordnaam op het dashboard klikken om het te openen.
+Workstreams worden op het dashboard weergegeven, samen met afzonderlijke borden waartoe u toegang hebt en die geen deel uitmaken van een werkstroom. Voor informatie over het dashboard van Borden, zie [&#x200B; Gebruik het dashboard van Borden &#x200B;](/help/quicksilver/agile/get-started-with-boards/use-boards-page.md). U kunt op een willekeurige bordnaam op het dashboard klikken om het te openen.
 
 ## Toegangsvereisten
 
@@ -51,7 +51,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -73,15 +73,15 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 | Sjabloon | Beschrijving |
 |---------|----------|
 | Basisbord | Drie standaardkolommen worden verstrekt op het bord. U kunt nieuwe kolommen toevoegen en de standaardkolommen hernoemen of verwijderen. <p>Er worden geen kolombeleid toegepast. |
-| Kanban-bord | De volgende kolommen worden verstrekt op de raad: Achtergrond, Nieuw, Bezig, Voltooid, en op Greep. U kunt nieuwe kolommen toevoegen en de standaardkolommen hernoemen of verwijderen.<p>Als u de achterstand wilt gebruiken, moet u filters instellen voor de inlaatkolom. Voor informatie, zie [ een inlaatkolom aan een raad ](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md) toevoegen. <p>Om het standaardbeleid voor elke kolom te herzien, klik [!UICONTROL **Meer** menu &#x200B;] op een kolom en selecteer [!UICONTROL **uitgeven**]. U kunt al deze vooraf ingestelde beleidsregels wijzigen. Voor informatie, zie [ de kolommen van het Beheer ](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). |
+| Kanban-bord | De volgende kolommen worden verstrekt op de raad: Achtergrond, Nieuw, Bezig, Voltooid, en op Greep. U kunt nieuwe kolommen toevoegen en de standaardkolommen hernoemen of verwijderen.<p>Als u de achterstand wilt gebruiken, moet u filters instellen voor de inlaatkolom. Voor informatie, zie [&#x200B; een inlaatkolom aan een raad &#x200B;](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md) toevoegen. <p>Om het standaardbeleid voor elke kolom te herzien, klik [!UICONTROL **Meer** menu &#x200B;] op een kolom en selecteer [!UICONTROL **uitgeven**]. U kunt al deze vooraf ingestelde beleidsregels wijzigen. Voor informatie, zie [&#x200B; de kolommen van het Beheer &#x200B;](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). |
 | Retrospectief | De volgende kolommen staan aan boord: Wat is er goed gegaan? Wat zou verbeterd kunnen worden? Wie moeten we vieren? Wat kunnen we doen om sneller te gaan? U kunt nieuwe kolommen toevoegen en de standaardkolommen hernoemen of verwijderen. <p>Er worden geen kolombeleid toegepast. |
-| Iteratieproces | Dit is het bord dat wordt gebruikt om een herhaling te definiëren en uit te voeren. <p>De volgende kolommen worden verstrekt op de raad: Achtergrond, Nieuw, Bezig, Voltooid, en op Greep. U kunt geen kolommen aan het bord toevoegen. <p>Om het standaardbeleid voor elke kolom te herzien, klik [!UICONTROL **Meer**] menu op een kolom en selecteer [!UICONTROL **uitgeven**]. U kunt al deze vooraf ingestelde beleidsregels wijzigen. Voor informatie, zie [ de kolommen van het Beheer ](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). |
+| Iteratieproces | Dit is het bord dat wordt gebruikt om een herhaling te definiëren en uit te voeren. <p>De volgende kolommen worden verstrekt op de raad: Achtergrond, Nieuw, Bezig, Voltooid, en op Greep. U kunt geen kolommen aan het bord toevoegen. <p>Om het standaardbeleid voor elke kolom te herzien, klik [!UICONTROL **Meer**] menu op een kolom en selecteer [!UICONTROL **uitgeven**]. U kunt al deze vooraf ingestelde beleidsregels wijzigen. Voor informatie, zie [&#x200B; de kolommen van het Beheer &#x200B;](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). |
 
-Voor meer informatie bij vestiging de raad, zie [ creeer of geef een raad ](/help/quicksilver/agile/get-started-with-boards/create-edit-board.md) uit.
+Voor meer informatie bij vestiging de raad, zie [&#x200B; creeer of geef een raad &#x200B;](/help/quicksilver/agile/get-started-with-boards/create-edit-board.md) uit.
 
 ## De lijst met borden filteren in een werkstroom
 
-Wanneer de filters buiten de gebreken op de bordlijst worden toegepast, wordt een indicator getoond op het toegepaste filter van het filterpictogram ![ filter ](assets/boards-filterapplied-30x30.png). Klik [!UICONTROL **ontruimen allen**] om alle filters te verwijderen, en [!UICONTROL **filters van de Huid**] te klikken om het filterpaneel te sluiten.
+Wanneer de filters buiten de gebreken op de bordlijst worden toegepast, wordt een indicator getoond op het toegepaste filter van het filterpictogram ![&#x200B; filter &#x200B;](assets/boards-filterapplied-30x30.png). Klik [!UICONTROL **ontruimen allen**] om alle filters te verwijderen, en [!UICONTROL **filters van de Huid**] te klikken om het filterpaneel te sluiten.
 
 {{step1-to-boards}}
 
@@ -102,9 +102,9 @@ Personen en teams moeten als leden aan de werkstream worden toegevoegd voordat z
 {{step1-to-boards}}
 
 1. Op het dashboard, klik [!UICONTROL **de werkstroom van de Mening**] om een werkstroom te openen.
-1. Klik het **[!UICONTROL Add member]** pictogram ![ voegt leden ](assets/boards-addmember-spectrum-25x25.png) toe om leden en teams aan de werkstroom toe te voegen.
+1. Klik het **[!UICONTROL Add member]** pictogram ![&#x200B; voegt leden &#x200B;](assets/boards-addmember-spectrum-25x25.png) toe om leden en teams aan de werkstroom toe te voegen.
 
-   Dit is hetzelfde proces als het toevoegen van leden aan een bestuur. Voor meer informatie, zie [ leden toevoegen of verwijderen uit een raad ](/help/quicksilver/agile/get-started-with-boards/add-members-to-board.md).
+   Dit is hetzelfde proces als het toevoegen van leden aan een bestuur. Voor meer informatie, zie [&#x200B; leden toevoegen of verwijderen uit een raad &#x200B;](/help/quicksilver/agile/get-started-with-boards/add-members-to-board.md).
 
 ## Bronnen toevoegen aan een werkstroom
 
@@ -112,10 +112,10 @@ Een bron bepaalt waar de kaarten in de werkstroom vandaan komen.
 
 {{step1-to-boards}}
 
-1. Klik het [!UICONTROL **pictogram van Bronnen**] pictogram ![ Bronnen ](assets/sources-icon.png) om een bron te bepalen om kaarten in de werkstroom in te voeren. Op dit moment is [!DNL Adobe Workfront] de enige beschikbare bron.
+1. Klik het [!UICONTROL **pictogram van Bronnen**] pictogram ![&#x200B; Bronnen &#x200B;](assets/sources-icon.png) om een bron te bepalen om kaarten in de werkstroom in te voeren. Op dit moment is [!DNL Adobe Workfront] de enige beschikbare bron.
 1. Voeg filters toe om taken en problemen uit Workfront als kaarten te importeren.
 
-   Het toevoegen van filters voor werkstroombronnen is hetzelfde als het toevoegen van geavanceerde filters voor een inlaatkolom op een basisbord of Kanban-bord. Voor meer informatie, zie [ een inlaatkolom aan een raad ](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md) toevoegen.
+   Het toevoegen van filters voor werkstroombronnen is hetzelfde als het toevoegen van geavanceerde filters voor een inlaatkolom op een basisbord of Kanban-bord. Voor meer informatie, zie [&#x200B; een inlaatkolom aan een raad &#x200B;](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md) toevoegen.
 
 ## Een werkstroom configureren
 
@@ -126,8 +126,8 @@ Een bron bepaalt waar de kaarten in de werkstroom vandaan komen.
 1. (Facultatief) breid [!UICONTROL **Workstream**] uit en typ een beschrijving van de werkstroom. Deze beschrijving wordt weergegeven op het dashboard.
 1. (Facultatief) breid [!UICONTROL **Herhalingen**] uit om een herhalingsproces voor deze werkstroom te bepalen.
 
-   Het totale aantal kaarten, het aantal puntige kaarten en het aantal herhalingen worden weergegeven in de sectie Kaartlijst. Klik [!UICONTROL **lijst van de Mening**] om de lijst te openen en kaarten toe te voegen. Voor meer informatie, zie [ Gebruik de kaartlijst ](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md).
+   Het totale aantal kaarten, het aantal puntige kaarten en het aantal herhalingen worden weergegeven in de sectie Kaartlijst. Klik [!UICONTROL **lijst van de Mening**] om de lijst te openen en kaarten toe te voegen. Voor meer informatie, zie [&#x200B; Gebruik de kaartlijst &#x200B;](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md).
 
-   Als er al een herhaling is gedefinieerd, worden de begindatum, het aantal kaarten en het aantal punten weergegeven. Klik [!UICONTROL **de raad van de Mening**] om de herhalingsraad te openen. Voor meer informatie, zie [ een herhaling in een werkstroom ](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md) creëren.
+   Als er al een herhaling is gedefinieerd, worden de begindatum, het aantal kaarten en het aantal punten weergegeven. Klik [!UICONTROL **de raad van de Mening**] om de herhalingsraad te openen. Voor meer informatie, zie [&#x200B; een herhaling in een werkstroom &#x200B;](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md) creëren.
 
 1. (Facultatief) breid [!UICONTROL **Markeringen**] uit om markeringen aan de werkstroom toe te voegen. Zoek naar een markering, of typ een nieuwe markeringsnaam in het onderzoeksvakje en druk binnengaan om het tot stand te brengen.

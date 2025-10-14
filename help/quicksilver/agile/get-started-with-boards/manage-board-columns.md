@@ -21,7 +21,7 @@ Een nieuwe board bevat standaard drie kolommen. U kunt meer kolommen toevoegen, 
 
 De montages van de kolom omvatten beleid, dat u toestaat om opties te bepalen voor wat met een kaart gebeurt wanneer het in die kolom wordt bewogen.
 
-Voor informatie over het sorteren van de kaarten in kolommen, zie [ Filter en onderzoek in een raad ](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md).
+Voor informatie over het sorteren van de kaarten in kolommen, zie [&#x200B; Filter en onderzoek in een raad &#x200B;](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md).
 
 ## Toegangsvereisten
 
@@ -48,7 +48,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -56,22 +56,22 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 {{step1-to-boards}}
 
-1. Toegang tot een bord. Voor informatie, zie [ creeer of geef een raad ](../../agile/get-started-with-boards/create-edit-board.md) uit.
+1. Toegang tot een bord. Voor informatie, zie [&#x200B; creeer of geef een raad &#x200B;](../../agile/get-started-with-boards/create-edit-board.md) uit.
 1. Klik op **[!UICONTROL Add Column]** rechts van de bestaande kolommen.
 1. Typ een naam in de nieuwe kolom en klik op **[!UICONTROL Add Column]** .
 
-   ![ voeg nieuwe kolom ](assets/boards-add-column.png) toe
+   ![&#x200B; voeg nieuwe kolom &#x200B;](assets/boards-add-column.png) toe
 
 >[!TIP]
 >
->Om een inlaatkolom toe te voegen, zie [ een inlaatkolom aan een raad ](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md) toevoegen.
+>Om een inlaatkolom toe te voegen, zie [&#x200B; een inlaatkolom aan een raad &#x200B;](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md) toevoegen.
 
 ## Kolommen opnieuw ordenen aan boord
 
 1. Toegang tot het bord.
 1. Sleep de kolommen in de juiste volgorde. Selecteer de bovenkant van de kolom voordat u deze naar een andere locatie sleept.
 
-   ![ belemmering en dalingskolom ](assets/boards-dragdropcolumn.png)
+   ![&#x200B; belemmering en dalingskolom &#x200B;](assets/boards-dragdropcolumn.png)
 
 ## De naam van een boardkolom wijzigen
 
@@ -80,14 +80,14 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
    of
 
-   Klik het **[!UICONTROL More]** menu ![ Meer menu ](assets/more-icon-spectrum.png) op de kolom en selecteer **[!UICONTROL Edit]**. Typ in het gebied Instellingen de nieuwe naam in het veld **[!UICONTROL Column name]** en klik op **[!UICONTROL Close]** .
+   Klik het **[!UICONTROL More]** menu ![&#x200B; Meer menu &#x200B;](assets/more-icon-spectrum.png) op de kolom en selecteer **[!UICONTROL Edit]**. Typ in het gebied Instellingen de nieuwe naam in het veld **[!UICONTROL Column name]** en klik op **[!UICONTROL Close]** .
 
 ## Een boardkolom verwijderen
 
 Wanneer u een kolom van een board schrapt, kan het niet worden teruggekregen.
 
 1. Toegang tot het bord.
-1. Klik het **[!UICONTROL More]** menu ![ Meer menu ](assets/more-icon-spectrum.png) op de kolom, en selecteer **[!UICONTROL Delete]**.
+1. Klik het **[!UICONTROL More]** menu ![&#x200B; Meer menu &#x200B;](assets/more-icon-spectrum.png) op de kolom, en selecteer **[!UICONTROL Delete]**.
 
    >[!NOTE]
    >
@@ -97,14 +97,14 @@ Wanneer u een kolom van een board schrapt, kan het niet worden teruggekregen.
 
 U kunt een configuratie het plaatsen gebruiken om het aantal kaarten in elke kolom te tonen.
 
-Als u de grens van het KLOOFJE op een kolom gebruikt, wordt een afzonderlijke kaartteller niet toegevoegd. Voor meer informatie over de grenzen van het WIP, zie [ de [!UICONTROL Work in Progress] (WIP) grens op een raad ](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-wip-limit-on-board.md) beheren.
+Als u de grens van het KLOOFJE op een kolom gebruikt, wordt een afzonderlijke kaartteller niet toegevoegd. Voor meer informatie over de grenzen van het WIP, zie [&#x200B; de [!UICONTROL Work in Progress] (WIP) grens op een raad &#x200B;](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-wip-limit-on-board.md) beheren.
 
 1. Toegang tot het bord.
 1. Klik op **[!UICONTROL Configure]** rechts van de board om het deelvenster Configureren te openen.
 1. Vouw **[!UICONTROL Column]** uit.
 1. Schakel **[!UICONTROL Display a column card count]** in.
 
-   ![ zet kaartteller ](assets/display-card-count.png) aan
+   ![&#x200B; zet kaartteller &#x200B;](assets/display-card-count.png) aan
 
    De kaartteller wordt boven aan elke kolom weergegeven.
 
@@ -122,13 +122,13 @@ Het beleid voor het bijwerken van de status werkt automatisch voor zowel de kaar
 Een kaart blijft in een kolom waar deze wordt geplaatst als de kaartstatus niet overeenkomt met een status die is ingesteld in een bestaand kolombeleid.
 
 1. Toegang tot het bord.
-1. Klik het **[!UICONTROL More]** menu ![ Meer menu ](assets/more-icon-spectrum.png) op de kolom, en selecteer **[!UICONTROL Edit]**.
+1. Klik het **[!UICONTROL More]** menu ![&#x200B; Meer menu &#x200B;](assets/more-icon-spectrum.png) op de kolom, en selecteer **[!UICONTROL Edit]**.
 
    Het gebied [!UICONTROL Settings] wordt weergegeven. Met de instructie **[!UICONTROL Column name]** kunt u zien voor welke kolom u instellingen definieert.
 
 1. Schakel het beleid van **[!UICONTROL Update field values automatically]** in om bepaalde veldwaarden automatisch te wijzigen wanneer een kaart naar deze kolom wordt verplaatst.
 
-   ![ montages en beleid van de Kolom ](assets/boards-column-policies-enabled.png)
+   ![&#x200B; montages en beleid van de Kolom &#x200B;](assets/boards-column-policies-enabled.png)
 
 1. (Optioneel) Stel een waarde in voor de kaartstatus:
 
@@ -136,13 +136,13 @@ Een kaart blijft in een kolom waar deze wordt geplaatst als de kaartstatus niet 
 
    1. Selecteer de status die u wilt toepassen op een kaart wanneer deze naar deze kolom wordt verplaatst.
 
-      ![ Status voor kolommen ](assets/boards-column-status.png)
+      ![&#x200B; Status voor kolommen &#x200B;](assets/boards-column-status.png)
 
       De statusvertaalopties voor verbonden kaarten worden ook weergegeven. (De statusvertaling is niet van toepassing op ad-hockaarten.) Deze opties bepalen de aangepaste status die wordt toegepast op de taak of uitgave in [!DNL Workfront] wanneer een aangesloten kaart naar deze kolom wordt verplaatst.
 
    1. Selecteer de status van de a [!UICONTROL **Douane**] om op de kaart voor taken en voor kwesties van toepassing te zijn.
 
-      Wanneer een kaart naar deze kolom wordt verplaatst, probeert [!DNL Workfront] eerst de aangepaste status toe te passen (bijvoorbeeld Opgelost). Als de geselecteerde aangepaste status niet beschikbaar is voor die kaart, wordt u gevraagd een andere status te kiezen die overeenkomt met de systeemstatus (in stap b hierboven). Voor meer informatie over statussen, zie [ Overzicht van Statussen ](/help/quicksilver/administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/statuses-overview.md).
+      Wanneer een kaart naar deze kolom wordt verplaatst, probeert [!DNL Workfront] eerst de aangepaste status toe te passen (bijvoorbeeld Opgelost). Als de geselecteerde aangepaste status niet beschikbaar is voor die kaart, wordt u gevraagd een andere status te kiezen die overeenkomt met de systeemstatus (in stap b hierboven). Voor meer informatie over statussen, zie [&#x200B; Overzicht van Statussen &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/statuses-overview.md).
 
       Als de status van de verbonden taak of uitgave wordt gewijzigd in de aangepaste of systeemstatus die is ingesteld in het kolombeleid, wordt de kaart automatisch naar de kolom verplaatst.
 
@@ -156,7 +156,7 @@ Een kaart blijft in een kolom waar deze wordt geplaatst als de kaartstatus niet 
 
    1. Klik [!UICONTROL **toevoegen Toewijzing**] en onderzoek naar een gebruiker. Selecteer de toewijzingen in de zoekresultaten. Alle Workfront-gebruikers en -teams kunnen kiezen uit.
 
-      ![ Toewijzingen voor kolom ](assets/boards-column-assignees.png)
+      ![&#x200B; Toewijzingen voor kolom &#x200B;](assets/boards-column-assignees.png)
 
 1. (Optioneel) Stel een waarde in voor de kaartcodes:
 
@@ -166,14 +166,14 @@ Een kaart blijft in een kolom waar deze wordt geplaatst als de kaartstatus niet 
       * **[!UICONTROL Add on tags]:** de markeringen u selecteert worden toegevoegd aan de bestaande lijst van markeringen op een kaart wanneer het aan deze kolom wordt verplaatst.
       * **[!UICONTROL Override tags]:** de markeringen u selecteert treden alle andere markeringen met voeten, en worden de enige markeringen op een kaart wanneer het wordt verplaatst naar deze kolom.
 
-   1. Selecteer de labels in de vervolgkeuzelijst. Alleen tags die al in [!UICONTROL Tag Manager] zijn gemaakt, zijn beschikbaar om te kiezen. Voor informatie bij het toevoegen van nieuwe markeringen, zie [ markeringen ](/help/quicksilver/agile/get-started-with-boards/add-tags.md) toevoegen.
+   1. Selecteer de labels in de vervolgkeuzelijst. Alleen tags die al in [!UICONTROL Tag Manager] zijn gemaakt, zijn beschikbaar om te kiezen. Voor informatie bij het toevoegen van nieuwe markeringen, zie [&#x200B; markeringen &#x200B;](/help/quicksilver/agile/get-started-with-boards/add-tags.md) toevoegen.
 
-      ![ Markeringen voor kolom ](assets/boards-column-tags.png)
+      ![&#x200B; Markeringen voor kolom &#x200B;](assets/boards-column-tags.png)
 
 1. Schakel het beleid van **[!UICONTROL Work in progress limit]** in om het aantal kaarten te beperken dat aan de kolom kan worden toegevoegd. Typ vervolgens het limietnummer in het veld **[!UICONTROL Set limit]** .
 
-   ![ grens van het WIP voor kolom ](assets/boards-wip-limit-in-column.png)
+   ![&#x200B; grens van het WIP voor kolom &#x200B;](assets/boards-wip-limit-in-column.png)
 
-   Voor meer informatie, zie [ leiden het Werk lopende (WIP) grens op een raad ](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-wip-limit-on-board.md).
+   Voor meer informatie, zie [&#x200B; leiden het Werk lopende (WIP) grens op een raad &#x200B;](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-wip-limit-on-board.md).
 
 1. Klik op **[!UICONTROL Close]** om het gebied Instellingen te sluiten en de kolom en de bijbehorende kaarten weer te geven.

@@ -25,9 +25,9 @@ De beheerder van Workfront verleent groepen de toegang tot de gebieden van Workf
 
 Deze sectie bevat de volgende subsecties:
 
-* [ Overzicht van Groepen ](../../administration-and-setup/manage-groups/groups-overview/groups-overview.md)
-* [ creeer en beheer groepen ](../../administration-and-setup/manage-groups/create-and-manage-groups/create-and-manage-groups.md)
-* [ creeer en beheer subgroups ](../../administration-and-setup/manage-groups/create-and-manage-subgroups/create-and-manage-subgroups.md)
-* [ de rollen van de Groep ](../../administration-and-setup/manage-groups/group-roles/group-roles.md)
-* [ Werk met de voorwerpen van een groep ](../../administration-and-setup/manage-groups/work-with-group-objects/work-with-a-groups-objects.md)
+* [&#x200B; Overzicht van Groepen &#x200B;](../../administration-and-setup/manage-groups/groups-overview/groups-overview.md)
+* [&#x200B; creeer en beheer groepen &#x200B;](../../administration-and-setup/manage-groups/create-and-manage-groups/create-and-manage-groups.md)
+* [&#x200B; creeer en beheer subgroups &#x200B;](../../administration-and-setup/manage-groups/create-and-manage-subgroups/create-and-manage-subgroups.md)
+* [&#x200B; de rollen van de Groep &#x200B;](../../administration-and-setup/manage-groups/group-roles/group-roles.md)
+* [&#x200B; Werk met de voorwerpen van een groep &#x200B;](../../administration-and-setup/manage-groups/work-with-group-objects/work-with-a-groups-objects.md)
 * [Groepsstatussen beheren](../../administration-and-setup/manage-groups/manage-group-statuses/manage-group-statuses.md)

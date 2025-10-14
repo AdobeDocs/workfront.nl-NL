@@ -22,4 +22,4 @@ Deze verbeteringen worden, tenzij anders vermeld, beschikbaar gesteld in de prod
 
 Op basis van feedback van gebruikers voegen we de optie toe om updates voor de Desktop Proofing Viewer uit te stellen. Gebruikers kunnen nu ervoor kiezen een update uit te stellen en door te gaan met hun werk, maar ze herinneren eraan dat er een update beschikbaar is telkens wanneer ze de Desktop Proofing Viewer openen.
 
-Voor meer informatie bij het bijwerken van de Desktop het Proofing Kijker, zie [ Update de Desktop het Proofing Kijker ](/help/quicksilver/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer.md).
+Voor meer informatie bij het bijwerken van de Desktop het Proofing Kijker, zie [&#x200B; Update de Desktop het Proofing Kijker &#x200B;](/help/quicksilver/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer.md).

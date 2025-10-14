@@ -21,7 +21,7 @@ U kunt een projectverzoek om overzicht voorleggen door één van het volgende te
 
 * Wijzig de projectstatus in **[!UICONTROL Requested]** .
 * Voltooi [!UICONTROL Business Case] van het project en verzend het ter goedkeuring.\
-   Voor meer informatie over de voltooiing van een BedrijfsGeval voor een project, zie [ een BedrijfsGeval voor een project ](../../../manage-work/projects/define-a-business-case/create-business-case.md) creëren.
+   Voor meer informatie over de voltooiing van een BedrijfsGeval voor een project, zie [&#x200B; een BedrijfsGeval voor een project &#x200B;](../../../manage-work/projects/define-a-business-case/create-business-case.md) creëren.
 
 U kunt opgevraagde projecten op de volgende gebieden van [!DNL Adobe Workfront] controleren:
 
@@ -57,7 +57,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-*For informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*For informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -65,7 +65,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 U kunt een rapport maken voor projecten om te zien welke projecten de status [!UICONTROL Requested] hebben.
 
-Voor meer informatie over het goedkeuren van projectverzoeken door een projectrapport te bouwen, zie de [[!UICONTROL Approving the Business Case by Building a Project Report]](../../../manage-work/projects/define-a-business-case/approve-business-case.md#build-a-report) sectie in [ een BedrijfsGeval ](../../../manage-work/projects/define-a-business-case/approve-business-case.md) goedkeuren. 
+Voor meer informatie over het goedkeuren van projectverzoeken door een projectrapport te bouwen, zie de [[!UICONTROL Approving the Business Case by Building a Project Report]](../../../manage-work/projects/define-a-business-case/approve-business-case.md#build-a-report) sectie in [&#x200B; een BedrijfsGeval &#x200B;](../../../manage-work/projects/define-a-business-case/approve-business-case.md) goedkeuren. 
 
 ## Gevraagde projecten in een portfolio bekijken
 
@@ -85,7 +85,7 @@ Voor meer informatie over het goedkeuren van projectverzoeken door een projectra
 
    * Klik op **[!UICONTROL Business Case]** en klik vervolgens op **[!UICONTROL Approve]** of **[!UICONTROL Reject]** in het gebied [!UICONTROL Business Case Summary] om de Business Case goed te keuren of af te wijzen.
 
-     ![ accept_or_weiger_business_case.png ](assets/approve-or-reject-business-case-350x563.png)
+     ![&#x200B; accept_or_weiger_business_case.png &#x200B;](assets/approve-or-reject-business-case-350x563.png)
 
      De status van het project wordt gewijzigd in **[!UICONTROL Approved]** als de Business Case is goedgekeurd.
 
@@ -99,7 +99,7 @@ Voor meer informatie over het goedkeuren van projectverzoeken door een projectra
 
    * Wijzig de status van het project in een andere status in de vervolgkeuzelijst **[!UICONTROL Status]** .
 
-     ![ het projectstatus van de Verandering van dropdown ](assets/project-status-change-from-drop-down-in-header-nwe-350x294.png)
+     ![&#x200B; het projectstatus van de Verandering van dropdown &#x200B;](assets/project-status-change-from-drop-down-in-header-nwe-350x294.png)
  
 
  

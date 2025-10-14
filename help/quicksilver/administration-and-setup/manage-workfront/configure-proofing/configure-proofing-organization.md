@@ -50,12 +50,12 @@ U moet het volgende hebben:
 
 ## Handelingen configureren
 
-Voor informatie over het gebruiken van acties in de het proeven kijker, zie [ acties van het Gebruik op proefdrukcommentaren ](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/use-actions-on-comments-in-viewer.md).
+Voor informatie over het gebruiken van acties in de het proeven kijker, zie [&#x200B; acties van het Gebruik op proefdrukcommentaren &#x200B;](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/use-actions-on-comments-in-viewer.md).
 
 U kunt acties voor uw organisatie op de volgende manieren vormen:
 
-* [ voeg of noem een actie ](#add-or-rename-an-action) toe anders
-* [ desactiveer of reactiveer een actie ](#deactivate-or-reactivate-an-action)
+* [&#x200B; voeg of noem een actie &#x200B;](#add-or-rename-an-action) toe anders
+* [&#x200B; desactiveer of reactiveer een actie &#x200B;](#deactivate-or-reactivate-an-action)
 * [Handelingen opnieuw ordenen](#reorder-actions)
 
 ### Een handeling toevoegen of de naam ervan wijzigen {#add-or-rename-an-action}
@@ -92,13 +92,13 @@ U kunt acties voor uw organisatie op de volgende manieren vormen:
 
 1. Klik omhoog blauw en onderaan pijlen naast **Opstelling** om de acties opnieuw in orde te brengen.
 
-   ![ re-order_actions.png ](assets/re-order-actions-350x103.png)
+   ![&#x200B; re-order_actions.png &#x200B;](assets/re-order-actions-350x103.png)
 
 ## Aangepaste apparaten configureren voor proefdrukken
 
 U kunt aangepaste apparaten aan uw systeem toevoegen, zodat gebruikers interactieve inhoud kunnen bekijken en kunnen simuleren hoe de inhoud op een bepaald apparaat wordt weergegeven.
 
-Voor informatie over hoe de gebruikers apparaten kunnen selecteren wanneer het herzien van interactieve inhoud, zie [ de interactieve proefdrukresolutie van de Verandering in de het proef kijker ](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/view-interactive-content-as-it-appears-in-device.md)
+Voor informatie over hoe de gebruikers apparaten kunnen selecteren wanneer het herzien van interactieve inhoud, zie [&#x200B; de interactieve proefdrukresolutie van de Verandering in de het proef kijker &#x200B;](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/view-interactive-content-as-it-appears-in-device.md)
 
 Een aangepast apparaat toevoegen:
 
@@ -150,7 +150,7 @@ U kunt pop-upberichten op proefdrukken configureren om algemene informatie door 
 U kunt berichten vormen om in de volgende situaties te verschijnen:
 
 * **op ladingsbericht**: Toont wanneer de proef eerst opent. Dit is handig als u gebruikers wilt uitleggen hoe ze een bewijs kunnen bekijken of een disclaimer of andere juridische tekst kunnen opgeven.
-* **op besluitvormingsbericht**: Toont wanneer een gebruiker een besluit over een proef selecteert. Nuttig om uw gebruikers controlelijsten te geven voor zaken zoals merk of regelgevende naleving. Voor informatie over besluiten, zie [ een besluit over een bewijs in de het proef kijker ](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md) nemen.
+* **op besluitvormingsbericht**: Toont wanneer een gebruiker een besluit over een proef selecteert. Nuttig om uw gebruikers controlelijsten te geven voor zaken zoals merk of regelgevende naleving. Voor informatie over besluiten, zie [&#x200B; een besluit over een bewijs in de het proef kijker &#x200B;](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md) nemen.
 
 * **bevestig knooptekst**: Het etiket dat op de knoop in het op ladings pop-up bericht toont hierboven wordt verklaard.
 
@@ -162,14 +162,14 @@ Pop-upberichten voor proefdrukken maken:
 
 ## Standaardwaarden voor proefdrukken configureren
 
-Voor informatie over het vormen van proefdrukgebreken voor uw organisatie, zie [ standaardproefdrukmontages ](../../../administration-and-setup/manage-workfront/configure-proofing/configure-default-proof-settings.md) vormen.
+Voor informatie over het vormen van proefdrukgebreken voor uw organisatie, zie [&#x200B; standaardproefdrukmontages &#x200B;](../../../administration-and-setup/manage-workfront/configure-proofing/configure-default-proof-settings.md) vormen.
 
 
 ## Standaardinstellingen voor delen configureren
 
 U kunt opgeven met wie de proefdrukken van uw organisatie kunnen worden gedeeld, welke versies beschikbaar zijn voor revisoren en wanneer proefdrukken met een geautomatiseerde workflow zichtbaar zijn voor gebruikers die zijn gekoppeld aan een bepaald werkgebied.
 
-Voor meer gedetailleerde informatie over het delen van montages binnen Workfront Proof, zie [ het delen montages voor uw gebruikers ](../../../administration-and-setup/manage-workfront/configure-proofing/configure-sharing-settings-users.md) vormen.
+Voor meer gedetailleerde informatie over het delen van montages binnen Workfront Proof, zie [&#x200B; het delen montages voor uw gebruikers &#x200B;](../../../administration-and-setup/manage-workfront/configure-proofing/configure-sharing-settings-users.md) vormen.
 
 ## Merk de Workfront Proof-site
 
@@ -179,7 +179,7 @@ Als u Workfront Proof gebruikt, kunt u branding instellen voor de volgende gebie
 * Schermen voor aanmelden en afmelden
 * E-mailmeldingen
 
-Voor gedetailleerde informatie over hoe te om de plaats van Workfront Proof te merken, zie [ Brand de plaats van Workfront Proof ](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site.md).
+Voor gedetailleerde informatie over hoe te om de plaats van Workfront Proof te merken, zie [&#x200B; Brand de plaats van Workfront Proof &#x200B;](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site.md).
 
 ## Geavanceerde wachtwoordinstellingen configureren
 

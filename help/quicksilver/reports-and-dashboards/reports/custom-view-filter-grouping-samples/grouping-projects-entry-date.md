@@ -62,7 +62,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-*For informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*For informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -71,7 +71,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 Deze groep toepassen:
 
 1. Ga naar een bestaand projectrapport, of creeer een nieuw projectrapport.\
-   Voor meer informatie over het creëren van een rapport, zie het artikel [ een douanerapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) creëren.
+   Voor meer informatie over het creëren van een rapport, zie het artikel [&#x200B; een douanerapport &#x200B;](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) creëren.
 1. Klik **de Acties van het Rapport** > **uitgeven**.
 1. Van het **Groeperen** lusje, klik **Groepering** toevoegen.
 1. Klik **Schakelaar aan de Wijze van de Tekst**.

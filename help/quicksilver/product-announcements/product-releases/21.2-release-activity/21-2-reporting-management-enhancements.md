@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # 21. 2 Verbeterde rapportering
 
-Op deze pagina worden alle verbeteringen beschreven die zijn aangebracht in de release 21.2 voor Voorvertoning. Deze verbeteringen zullen beschikbaar worden gesteld in de productieomgeving in de week van 10 mei 2021. Voor een lijst van alle veranderingen beschikbaar met de versie 21.2, zie [ 21.2 Overzicht van de Versie ](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
+Op deze pagina worden alle verbeteringen beschreven die zijn aangebracht in de release 21.2 voor Voorvertoning. Deze verbeteringen zullen beschikbaar worden gesteld in de productieomgeving in de week van 10 mei 2021. Voor een lijst van alle veranderingen beschikbaar met de versie 21.2, zie [&#x200B; 21.2 Overzicht van de Versie &#x200B;](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
 
 ## Uren bewerken in projecten en rapporten beperken
 
@@ -25,7 +25,7 @@ Om meer controle over uren het uitgeven op het lusje van Uren in een project en 
 
 Eerder konden gebruikers met Timesheets en uren ingeschakeld in hun toegangsniveau uren bewerken.
 
-Voor meer informatie, zie [ timesheet en uurvoorkeur ](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md) vormen.
+Voor meer informatie, zie [&#x200B; timesheet en uurvoorkeur &#x200B;](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md) vormen.
 
 ## Nieuwe look en feel voor het veld Toewijzingen in bijgewerkte lijsten en rapporten
 
@@ -42,9 +42,9 @@ Om de moderne blik van andere gebieden in de nieuwe ervaring van Workfront aan t
 * Een nieuw pictogram voor beperkte toegang
 * Andere kleine ontwerpwijzigingen
 
-Voor meer informatie over taken in lijsten, zie [ taken toewijzen ](../../../manage-work/tasks/assign-tasks/assign-tasks.md) of [ kwesties toewijzen ](../../../manage-work/issues/manage-issues/assign-issues.md).
+Voor meer informatie over taken in lijsten, zie [&#x200B; taken toewijzen &#x200B;](../../../manage-work/tasks/assign-tasks/assign-tasks.md) of [&#x200B; kwesties toewijzen &#x200B;](../../../manage-work/issues/manage-issues/assign-issues.md).
 
-![ de updates van Taken ](assets/assignments-updates-350x193.png)
+![&#x200B; de updates van Taken &#x200B;](assets/assignments-updates-350x193.png)
 
 ## Nieuwe vormgeving voor typekop-kopvelden in bijgewerkte lijsten en rapporten
 
@@ -62,9 +62,9 @@ Om de moderne blik van andere gebieden in de nieuwe ervaring van Workfront aan t
 * Wanneer u op een veld van de typekop klikt, wordt het menu met suggesties weergegeven voordat u tekst invoert.
 * Het menu met suggesties reageert beter op de lengte van waarden en deze waarden worden nu afgekapt aan het einde wanneer aan de tekenlimiet wordt voldaan in plaats van in het midden van de waarde.
 
-Voor informatie over bijgewerkte lijsten, zie het [ verschil tussen de bijgewerkte en erfenislijsten ](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md#updated) sectie in het artikel [ begonnen worden met lijsten in Adobe Workfront ](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
+Voor informatie over bijgewerkte lijsten, zie het [&#x200B; verschil tussen de bijgewerkte en erfenislijsten &#x200B;](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md#updated) sectie in het artikel [&#x200B; begonnen worden met lijsten in Adobe Workfront &#x200B;](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
 
-![ gebied Typeahead ](assets/typeahead-updates-350x336.png)
+![&#x200B; gebied Typeahead &#x200B;](assets/typeahead-updates-350x336.png)
 
 ## Rapport over systeemupdates
 
@@ -80,5 +80,5 @@ U kunt dit rapport bijvoorbeeld zo instellen dat activiteit wordt weergegeven ro
 
 Eerder kon u alleen via de Workfront API rapporteren over systeemupdates.
 
-Meer over dit rapport leren en wat u het kunt gebruiken, zie [ Rapport over het gebied van Updates met een rapport van de Ingang van het Dagboek ](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md).
+Meer over dit rapport leren en wat u het kunt gebruiken, zie [&#x200B; Rapport over het gebied van Updates met een rapport van de Ingang van het Dagboek &#x200B;](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md).
 

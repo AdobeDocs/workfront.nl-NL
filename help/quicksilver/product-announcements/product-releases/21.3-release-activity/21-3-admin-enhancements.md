@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Op deze pagina worden alle beheerderverbeteringen beschreven die zijn aangebracht met de versie 21.3 voor de voorvertoningsomgeving. Deze verbeteringen zijn in de week van 21 juli 2021 beschikbaar gesteld in de productieomgeving.
 
-Voor een lijst van alle veranderingen beschikbaar met de versie 21.3, zie [ overzicht van de Versie 21.3 ](../../../product-announcements/product-releases/21.3-release-activity/21-3-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar met de versie 21.3, zie [&#x200B; overzicht van de Versie 21.3 &#x200B;](../../../product-announcements/product-releases/21.3-release-activity/21-3-release-overview.md).
 
 ## Blauwdrukken beschikbaar in Productie met release 21.3
 
@@ -25,9 +25,9 @@ De blauwdrukken-functionaliteit is over het algemeen beschikbaar met de 21.3 Pro
 
 De blauwdrukken verstrekt basisbouwstenen om u te helpen een werkbeheersysteem tot stand brengen dat met u groeit. Systeembeheerders kunnen door de blauwdrukcatalogus bladeren en gebruiksklare projectsjablonen installeren.
 
-Voor meer informatie, zie [ Overzicht van Vervagen ](../../../administration-and-setup/blueprints/blueprints-overview.md).
+Voor meer informatie, zie [&#x200B; Overzicht van Vervagen &#x200B;](../../../administration-and-setup/blueprints/blueprints-overview.md).
 
-Deze eigenschap is nu inbegrepen in de [ malplaatjes van het Project in de nieuwe ervaring van Workfront ](https://experienceleague.adobe.com/nl/docs/workfront-learn/tutorials-workfront/home) het leren weg op Workfront Één.
+Deze eigenschap is nu inbegrepen in de [&#x200B; malplaatjes van het Project in de nieuwe ervaring van Workfront &#x200B;](https://experienceleague.adobe.com/nl/docs/workfront-learn/tutorials-workfront/home) het leren weg op Workfront Één.
 
 ## Nieuw voor groepsbeheerders: statussen voor een groep op elk niveau maken en beheren
 
@@ -43,7 +43,7 @@ Workfront-beheerders kunnen dit ook doen (voor alle groepen).
 
 Eerder was deze functionaliteit alleen beschikbaar voor groepen op hoofdniveau.
 
-Voor meer informatie, zie [ groepsstatussen beheren ](../../../administration-and-setup/manage-groups/manage-group-statuses/manage-group-statuses.md).
+Voor meer informatie, zie [&#x200B; groepsstatussen beheren &#x200B;](../../../administration-and-setup/manage-groups/manage-group-statuses/manage-group-statuses.md).
 
 ## Nieuw voor beheerders: een aangepast formulier voor factureringsrecords maken
 

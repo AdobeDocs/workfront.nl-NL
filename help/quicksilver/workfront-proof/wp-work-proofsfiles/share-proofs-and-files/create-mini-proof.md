@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [ het Bewijzen ](../../../review-and-approve-work/proofing/proofing.md).
+>Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [&#x200B; het Bewijzen &#x200B;](../../../review-and-approve-work/proofing/proofing.md).
 
 De miniproof is een widget waarmee u een proefdruk kunt insluiten in een webpagina, blog of wiki.
 
@@ -32,15 +32,15 @@ Hier volgt een voorbeeld van een Miniproof-element dat is ingesloten in een Base
 * Menu Handelingen (4)
 * Opmerkingen weergeven in zijbalk (5)
 
-![ Basecamp_miniproof.png ](assets/basecamp-miniproof-350x435.png)
+![&#x200B; Basecamp_miniproof.png &#x200B;](assets/basecamp-miniproof-350x435.png)
 
 Een proefdruk in een website, blog of wiki insluiten:
 
-1. Ga naar de **[!UICONTROL Proof details]** pagina van een proef, zoals die in [ wordt beschreven beheert Details van het Bewijs in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
+1. Ga naar de **[!UICONTROL Proof details]** pagina van een proef, zoals die in [&#x200B; wordt beschreven beheert Details van het Bewijs in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
 
 1. De sectie **[!UICONTROL More sharing options]** van de pagina openen
 1. Zorg ervoor dat de insluitcode is ingeschakeld (1).
 1. Klik op de koppeling [!UICONTROL Copy code] (2) om de insluitcode naar het klembord te kopiëren.
 1. Plak de code in de website, de blog of de wiki waaraan u werkt om de Miniproof in te sluiten.
 
-![[!DNL Embed_code].png ](assets/embed-code-350x218.png)
+![[!DNL Embed_code].png &#x200B;](assets/embed-code-350x218.png)

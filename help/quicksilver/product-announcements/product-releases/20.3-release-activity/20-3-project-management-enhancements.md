@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Deze pagina beschrijft alle verbeteringen in projectbeheer die zijn aangebracht met de versie 20.3 in de productieomgeving. Deze verbeteringen zijn in de week van 10 augustus 2020 beschikbaar gesteld in de productieomgeving.
 
-Voor een lijst van alle veranderingen beschikbaar met de versie 20.3, zie [ overzicht van de versie 20.3 ](../../../product-announcements/product-releases/20.3-release-activity/20-3-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar met de versie 20.3, zie [&#x200B; overzicht van de versie 20.3 &#x200B;](../../../product-announcements/product-releases/20.3-release-activity/20-3-release-overview.md).
 
 ## Aangepaste veldopmaak in lijsten
 
@@ -28,7 +28,7 @@ Voor een lijst van alle veranderingen beschikbaar met de versie 20.3, zie [ over
 
 Wanneer de systeembeheerder aangepaste formuliervelden maakt die zijn geconfigureerd voor opmaak, kunt u nu tekst opmaken in die velden waarin u ze het meest gebruikt: in lijsten in Workfront. In plaats van naar het gebied Details te gaan om tekst in het aangepaste formulier op te maken, kunt u op een veld in een lijst klikken en daar Vet, Cursief en Onderstrepen op tekst toepassen.
 
-Deze functionaliteit is alleen beschikbaar in de bijgewerkte lijsten. Voor meer informatie over bijgewerkte lijsten, zie [ begonnen worden met lijsten in Adobe Workfront ](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
+Deze functionaliteit is alleen beschikbaar in de bijgewerkte lijsten. Voor meer informatie over bijgewerkte lijsten, zie [&#x200B; begonnen worden met lijsten in Adobe Workfront &#x200B;](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
 
 ## Het bijgewerkte uiterlijk van verschillende algemene koppen
 
@@ -58,7 +58,7 @@ Naast een bijgewerkte look and feel zijn de volgende verbeteringen beschikbaar i
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">For information about the new Edit Box box, see "New Edit Object box" (NEW ARTICLE, LINK LATER!!).</p>
 -->
 
-Voor informatie over het nieuwe Edit vakje van het Project, zie [ projecten ](../../../manage-work/projects/manage-projects/edit-projects.md) uitgeven.
+Voor informatie over het nieuwe Edit vakje van het Project, zie [&#x200B; projecten &#x200B;](../../../manage-work/projects/manage-projects/edit-projects.md) uitgeven.
 
 ## Nieuw deelvenster Samenvatting en verbeteringen voor documentenlijst
 
@@ -70,7 +70,7 @@ Het nieuwe deelvenster Samenvatting rechts van de documentenlijst is nu beschikb
 
 Sommige acties zijn momenteel niet beschikbaar, maar worden in een toekomstige versie toegevoegd. Deze acties omvatten de testworkflow.
 
-Voor meer informatie, zie [ Samenvatting voor documentoverzicht ](../../../documents/managing-documents/summary-for-documents.md).
+Voor meer informatie, zie [&#x200B; Samenvatting voor documentoverzicht &#x200B;](../../../documents/managing-documents/summary-for-documents.md).
 
 ## Verbeteringen in documentdetails
 
@@ -85,7 +85,7 @@ Ga naar de volgende verbeteringen op de pagina Documentdetails:
 * Grotere voorvertoningsminiatuur, zodat u het document gemakkelijk kunt herkennen
 * Het pictogram Globaal bewerken is toegevoegd, zodat u meerdere velden tegelijk kunt bewerken.
 
-Voor meer informatie, zie [ Overzicht van de Details van het Document ](../../../documents/managing-documents/document-details-overview.md).
+Voor meer informatie, zie [&#x200B; Overzicht van de Details van het Document &#x200B;](../../../documents/managing-documents/document-details-overview.md).
 
 ## Voor beheerders: projectvoorkeuren instellen op groepsniveau
 
@@ -97,7 +97,7 @@ Om uw beheerders van de Groep meer autonomie te geven en voor meer groep-vlakke 
 
 Alle projectvoorkeuren kunnen op groepsniveau worden aangepast, behalve voor Tijdlijnberekeningen en Aangepaste kwartsen.
 
-Voor meer informatie over de Voorkeur van het Project van de Groep, zie [ projectvoorkeur voor een groep ](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md) vormen.
+Voor meer informatie over de Voorkeur van het Project van de Groep, zie [&#x200B; projectvoorkeur voor een groep &#x200B;](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md) vormen.
 
 ## Nieuw voor beheerders: aangepaste formuliervelden maken waarin gebruikers tekst kunnen opmaken
 

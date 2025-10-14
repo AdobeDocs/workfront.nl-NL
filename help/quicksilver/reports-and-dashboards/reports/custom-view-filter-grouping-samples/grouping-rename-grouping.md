@@ -22,11 +22,11 @@ U kunt de namen van groepen wijzigen in iets wat de gebruikers beter bekend is.
 
 Bijvoorbeeld, wanneer u de standaardPortfolio Naam groepering op een lijst van projecten toepast, verschijnt de naam van de groepering als *Portfolio: Naam:`<name of portfolio>`*.
 
-![ Groepering door onuitgegeven naam ](assets/grouping-unedited-name-350x167.png)
+![&#x200B; Groepering door onuitgegeven naam &#x200B;](assets/grouping-unedited-name-350x167.png)
 
 U kunt deze groepering wijzigen door in de tekstmodus een naam weer te geven die beter leesbaar is.
 
-![ Groepering door uitgegeven naam ](assets/grouping-edited-name-350x160.png)
+![&#x200B; Groepering door uitgegeven naam &#x200B;](assets/grouping-edited-name-350x160.png)
 
 ## Toegangsvereisten
 
@@ -64,7 +64,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-*For informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*For informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -103,7 +103,7 @@ De weergavenaam wijzigen in een projectgroep:
      >U kunt ook de regels `group.0.name=` en `group.0.displayname=` leeg laten. In dat geval geeft de groepering de waarde weer waarop u groepeert.
 
 
-     ![ Groepering door uitgegeven naam zonder naam ](assets/grouping-edited-name-no-name-350x162.png)
+     ![&#x200B; Groepering door uitgegeven naam zonder naam &#x200B;](assets/grouping-edited-name-no-name-350x162.png)
 
 1. Klik **Gedaan**, dan **sparen Groepering**.
 1. (Facultatief) werk de groeperingsnaam bij, dan klik **sparen Groepering**.

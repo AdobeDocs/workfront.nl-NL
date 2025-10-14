@@ -45,11 +45,11 @@ Houd rekening met het volgende wanneer u bronnen in de begroting opneemt met de 
   >[!NOTE]
   >
   >Wij adviseren dat u manueel uw Uren, FTE, of Kosten voor baanrollen of voor gebruikers eerst begroot. U kunt de automatische opties gebruiken om tijd voor uw projecten en middelen slechts te begroten wanneer u zeker bent dat de hoeveelheid Geplande Uren, VTE, of Kosten altijd uw Gefabriceerde Uren, FTE, of Kosten zou moeten aanpassen.\
-  >Voor informatie over het gebruiken van de automatische opties voor het opnemen in de Planner van het Middel, zie het &quot;project en de rollen van de Begroting automatisch&quot;in het artikel [ middelbeschikbaarheid en de toewijzing van het Overzicht gebruikend de Planner van het Middel van Adobe Workfront ](../../resource-mgmt/resource-planning/resource-availability-allocation-resource-planner.md).
+  >Voor informatie over het gebruiken van de automatische opties voor het opnemen in de Planner van het Middel, zie het &quot;project en de rollen van de Begroting automatisch&quot;in het artikel [&#x200B; middelbeschikbaarheid en de toewijzing van het Overzicht gebruikend de Planner van het Middel van Adobe Workfront &#x200B;](../../resource-mgmt/resource-planning/resource-availability-allocation-resource-planner.md).
 
 * FTE of kosten worden op dezelfde wijze begroot als de begrotingsuren, waarbij Adobe Workfront de FTE en de kostenwaarden gebruikt in plaats van de uren voor de middelen die u begroot.
 
-  Voor meer informatie over het begrip hoe de Kosten in de Planner van het Middel worden berekend, zie [ kosten in de Planner van het Middel berekenen ](../../resource-mgmt/resource-planning/calculate-costs-resource-planner.md).
+  Voor meer informatie over het begrip hoe de Kosten in de Planner van het Middel worden berekend, zie [&#x200B; kosten in de Planner van het Middel berekenen &#x200B;](../../resource-mgmt/resource-planning/calculate-costs-resource-planner.md).
 
 * Het begroten van toewijzingen voor uw middelen in de Planner van het Middel wordt gedaan op de volgende manieren:
 
@@ -59,11 +59,11 @@ Houd rekening met het volgende wanneer u bronnen in de begroting opneemt met de 
 
    * Automatisch, door het project en rolopties in de **Mening door Project** en **Mening door de meningen van de Rol** te gebruiken.
 
-  Voor meer informatie, zie [ middelen van de Begroting in de Planner van het Middel gebruikend de meningen van het Project en van de Rol ](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md).
+  Voor meer informatie, zie [&#x200B; middelen van de Begroting in de Planner van het Middel gebruikend de meningen van het Project en van de Rol &#x200B;](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md).
 
 * Wanneer een gebruiker baanrollen verandert, wordt geschrapt, gedeactiveerd, of uit een Pool van het Middel verwijderd, veranderen de uren die voor de rol worden begroot niet en zij worden opnieuw verdeeld aan de resterende gebruikers in de rol. Als geen gebruiker meer met de baanrol wordt geassocieerd, worden de Begroeide Uren voor de rol nul.
 
-Voor meer informatie over het project en de rolopties, zie de sectie [ de waarden van Uren, VTE, en Kosten in de Planner van het Middel ](#understand-the-values-of-hours-fte-and-cost-in-the-resource-planner) in dit artikel begrijpen.
+Voor meer informatie over het project en de rolopties, zie de sectie [&#x200B; de waarden van Uren, VTE, en Kosten in de Planner van het Middel &#x200B;](#understand-the-values-of-hours-fte-and-cost-in-the-resource-planner) in dit artikel begrijpen.
 
 ## Begrijp de waarden van Uren, FTE, en Kosten in de Planner van het Middel {#understand-the-values-of-hours-fte-and-cost-in-the-resource-planner}
 
@@ -78,22 +78,22 @@ Voordat u de bronnen in de begroting opneemt en de informatie over de begrote ur
 
 Deze informatie toont in de Planner van het Middel voor elk middel (gebruiker of rol) en voor elk project.
 
-Voor informatie over wat vertoningen in het Project en de Weergaven van de Rol van het project, zie het artikel [ navigatie van de Planner van het Middel ](../../resource-mgmt/resource-planning/resource-planner-navigation.md).
+Voor informatie over wat vertoningen in het Project en de Weergaven van de Rol van het project, zie het artikel [&#x200B; navigatie van de Planner van het Middel &#x200B;](../../resource-mgmt/resource-planning/resource-planner-navigation.md).
 
-Voor informatie over het begrip hoe de Kosten in de Planner van het Middel worden berekend, zie het artikel [ kosten in de Planner van het Middel berekenen ](../../resource-mgmt/resource-planning/calculate-costs-resource-planner.md).
+Voor informatie over het begrip hoe de Kosten in de Planner van het Middel worden berekend, zie het artikel [&#x200B; kosten in de Planner van het Middel berekenen &#x200B;](../../resource-mgmt/resource-planning/calculate-costs-resource-planner.md).
 
 >[!NOTE]
 >
 >Het begroten door Kosten is identiek aan het begroten door Uren of VTE, maar u moet begrijpen hoe Workfront Kosten voor de Planner van het Middel berekent.
 >
->Voor informatie over hoe de kosten in de Planner van het Middel worden berekend, zie het artikel [ kosten in de Planner van het Middel berekenen ](../../resource-mgmt/resource-planning/calculate-costs-resource-planner.md).
+>Voor informatie over hoe de kosten in de Planner van het Middel worden berekend, zie het artikel [&#x200B; kosten in de Planner van het Middel berekenen &#x200B;](../../resource-mgmt/resource-planning/calculate-costs-resource-planner.md).
 
 De volgende lijsten tonen de toewijzing en beschikbaarheidsinformatie die in de Planner van het Middel wanneer het toepassen van of het Project of de mening van de Rol toont. U kunt deze informatie op Uren, VTE, of Kosten bekijken:
 
-* [ de (Beschikbare) AVL kolom ](#the-avl-available-column)
-* [ PLN (Geplande) kolom ](#the-pln-planned-column)
-* [ BDG (Bewogen) kolom ](#the-bdg-budgeted-column)
-* [ VAR (Variantie) kolom ](#the-var-variance-column)
+* [&#x200B; de (Beschikbare) AVL kolom &#x200B;](#the-avl-available-column)
+* [&#x200B; PLN (Geplande) kolom &#x200B;](#the-pln-planned-column)
+* [&#x200B; BDG (Bewogen) kolom &#x200B;](#the-bdg-budgeted-column)
+* [&#x200B; VAR (Variantie) kolom &#x200B;](#the-var-variance-column)
 * [De kolom NET](#the-net-column)
 
 ### De kolom AVL (Beschikbaar) {#the-avl-available-column}
@@ -219,11 +219,11 @@ Houd rekening met het volgende wanneer u werkt met Budgeted Hours:
 
 * U kunt middelen slechts begroten wanneer u Edit toegang tot het Beheer van het Middel en Financiële Gegevens en beheer de toestemmingen van de Financiën op de projecten hebt.
 
-  Voor informatie over de toegang nodig voor het opnemen van middelen, zie de artikel [ Toegang nodig aan begrotingsmiddelen in Adobe Workfront ](../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md).
+  Voor informatie over de toegang nodig voor het opnemen van middelen, zie de artikel [&#x200B; Toegang nodig aan begrotingsmiddelen in Adobe Workfront &#x200B;](../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md).
 
 * Door gebrek, zijn de begrotingsuren in de Planner van het Middel nul voor alle middelen en voor alle projecten.
 * U kunt manueel schatten de Begroeide Uren voor gebruikers en rollen, of u kunt één van de verbindingen in het Project of de Rol van de Taak gebruiken **Meer** menu&#39;s om hen volgens het aantal Geplande Uren bij te werken.\
-  Voor meer informatie over project en rolopties, zie het sectie [ Overzicht van uren, FTE, en kosteninformatie in het Project en de meningen van de Rol van de Planner van het Middel ](#Budget) in dit artikel.
+  Voor meer informatie over project en rolopties, zie het sectie [&#x200B; Overzicht van uren, FTE, en kosteninformatie in het Project en de meningen van de Rol van de Planner van het Middel &#x200B;](#Budget) in dit artikel.
 
 * De kleinste periode u uren, VTE, of Kosten voor kunt begroten is een week. U kunt geen uren, VTE, of Kosten voor een dag begroten.
 * De begrotingsuren worden gelijkelijk verdeeld aan elke dag binnen de Duur van taken, voor elke middelen die aan hen worden toegewezen. De taakduur is gebaseerd op de geplande start- en voltooiingsdatums van de taak en omvat elke kalenderdag binnen die tijdsperiode.
@@ -234,9 +234,9 @@ Houd rekening met het volgende wanneer u werkt met Budgeted Hours:
 
 * U kunt over begrotingsuren rapporteren door Budgeted Hour als uw rapportvoorwerp voor een nieuw rapport te selecteren.
 
-  Voor informatie over welke voorwerpen u over in Workfront kunt rapporteren, zie de sectie &quot;Rapport over voorwerpen&quot;in het artikel [ begrijpt voorwerpen in Adobe Workfront ](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+  Voor informatie over welke voorwerpen u over in Workfront kunt rapporteren, zie de sectie &quot;Rapport over voorwerpen&quot;in het artikel [&#x200B; begrijpt voorwerpen in Adobe Workfront &#x200B;](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
-  Voor informatie over de bouw van een Gefabriceerd rapport van de Uur, zie het artikel [ Rapport: Beoogde Uur ](../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/report-budgeted-hour.md).
+  Voor informatie over de bouw van een Gefabriceerd rapport van de Uur, zie het artikel [&#x200B; Rapport: Beoogde Uur &#x200B;](../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/report-budgeted-hour.md).
 
 * De uren die eerder in de begroting zijn opgenomen voor gebruikers die later zijn gedeactiveerd, worden niet weergegeven.
 

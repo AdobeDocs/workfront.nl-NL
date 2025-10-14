@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [ het Bewijzen ](../../../review-and-approve-work/proofing/proofing.md).
+>Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [&#x200B; het Bewijzen &#x200B;](../../../review-and-approve-work/proofing/proofing.md).
 
 Als u een beheerder bent op uw AD-server, kunt u AD FS installeren en configureren.
 
@@ -44,7 +44,7 @@ Als er geen SSL-certificaat is geconfigureerd in IIS, zoekt de configuratietoven
 
 ## [!DNL Workfront Proof] Single Sign-On configureren
 
-Als u een [!DNL Workfront Proof] -beheerder bent, kunt u Single Sign-On configureren aan de [!DNL Workfront Proof] -zijde. Voor meer informatie, zie [ Enige Sign-On in  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/managing-security/single-sign-on-overview.md).
+Als u een [!DNL Workfront Proof] -beheerder bent, kunt u Single Sign-On configureren aan de [!DNL Workfront Proof] -zijde. Voor meer informatie, zie [&#x200B; Enige Sign-On in  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/managing-security/single-sign-on-overview.md).
 
 1. Klik op **[!UICONTROL Settings]** > **[!UICONTROL Account Settings]** en open vervolgens het tabblad **[!UICONTROL Single sign-on]** .
 
@@ -52,14 +52,14 @@ Als u een [!DNL Workfront Proof] -beheerder bent, kunt u Single Sign-On configur
 Hieronder ziet u een voorbeeld van een entiteit-id:
 http://*&lt;adfs.your-company.com>* /adfs/services/trust
 Uw entiteitskaart kan in uw dossier van Meta-gegevensXML van de Federatie worden gevonden.
-   ![ ProofHQ_configuration_02.png ](assets/proofhq-configuration-02-350x80.png)
+   ![&#x200B; ProofHQ_configuration_02.png &#x200B;](assets/proofhq-configuration-02-350x80.png)
 
 1. De Meta-gegevens van de Federatie wordt gevonden in de omslag van de Onverwacht-binnen van de ADVERTENTIE 2.0 > van de Dienst > van Eindpunten. Zoek in de sectie Metagegevens het bestand met het type Federation Metadata. Plak dit eindpunt in uw browser om metagegevens weer te geven. U kunt ook rechtstreeks naar deze verbinding gaan: https://*&lt;adfs.your-company.com>* /FederationMetadata/2007-06/FederationMetadata.xml na het vervangen van {adfs.your-company.com} met uw eigen details.
 1. Plak in het vak **[!UICONTROL Login URL]** de SSO-aanmelding.
 1. Hieronder ziet u een voorbeeld van een SSO-aanmelding:
 1. http://*&lt;adfs.your-company.com>* /adfs/ls.
 1. Deze koppeling kan worden gevonden in het XML-bestand met metagegevens van de Federatie.
-   ![ ProofHQ_configuration_03.png ](assets/proofhq-configuration-03-350x90.png)
+   ![&#x200B; ProofHQ_configuration_03.png &#x200B;](assets/proofhq-configuration-03-350x90.png)
 
 1. Voer in het vak **[!UICONTROL Logout URL]** de koppeling in en sla deze op.
 Hieronder ziet u een voorbeeld van een aanmeldings-URL:

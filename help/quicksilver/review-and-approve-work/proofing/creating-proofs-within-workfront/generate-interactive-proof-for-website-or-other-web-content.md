@@ -66,14 +66,14 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
    1. Houd de muisaanwijzer boven de URL-proefdruk waarvoor u een nieuwe versie wilt maken en selecteer deze door op de lichtblauwe achtergrond eromheen te klikken.
 
-      ![ Select_proof_by_selecting_light_blue_background.png ](assets/select-proof-by-selecting-light-blue-background-350x52.png)
+      ![&#x200B; Select_proof_by_selecting_light_blue_background.png &#x200B;](assets/select-proof-by-selecting-light-blue-background-350x52.png)
 
 
    1. In **voeg nieuwe** drop-down toe, klik **Versie** > **Bewijs**.
 
 1. In **voeg dossiers** sectie toe, typ URL van de website u wilt bewijzen, dan druk **binnengaan**.  U kunt dit proces herhalen om meerdere websites toe te voegen die u wilt controleren.
 
-   ![ proof_website.png ](assets/proof-website-350x65.png)
+   ![&#x200B; proof_website.png &#x200B;](assets/proof-website-350x65.png)
 
 
    >[!NOTE]
@@ -82,7 +82,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 1. Klik op de URL die u hebt toegevoegd.
 
-   ![ klik URL ](assets/click-url-350x137.png)
+   ![&#x200B; klik URL &#x200B;](assets/click-url-350x137.png)
 
 1. (Facultatief) als u de naam van de proef van website URL in iets anders wilt veranderen, typ a **naam van het Bewijs**.
 1. Selecteer **Interactief**, dan klik **Gedaan**.

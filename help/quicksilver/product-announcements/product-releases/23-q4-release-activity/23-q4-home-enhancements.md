@@ -16,13 +16,13 @@ ht-degree: 0%
 
 Op deze pagina worden alle Home-verbeteringen beschreven die zijn aangebracht met de release van het vierde kwartaal van 2023 voor de voorvertoningsomgeving. Deze verbeteringen zijn beschikbaar gesteld in de productieomgeving met de release van 23.10.
 
-Voor een lijst van alle veranderingen beschikbaar op dit punt in het Vierde Kwartaal 2023 versiecyclus, zie [ Vierde Kwartaal 2023 releaseoverzicht ](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar op dit punt in het Vierde Kwartaal 2023 versiecyclus, zie [&#x200B; Vierde Kwartaal 2023 releaseoverzicht &#x200B;](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).
 
 ## De werkknop voor project-, taak- en Issue-widgets delegeren
 
 Een algemeen gevraagde eigenschap van de oude homepage, hebben wij nu een afgevaardigde knoop aan Mijn Werk, Mijn Taken, en Mijn Uitgave widgets toegevoegd zodat u het werk gemakkelijk kunt delegeren wanneer u uit het bureau bent. In het gedelegeerde menu, dat identiek aan de manier werkt het voorafgaand aan Nieuwe Huis, kunt u selecteren aan wie en voor hoe lang u uw verhalen en kwesties wilt delegeren. De knop wordt alleen weergegeven als de werkdelegatie is ingeschakeld in uw Workfront-omgeving.
 
-Voor meer informatie bij het delegeren in Workfront, zie [ taak beheren en de delegatie van de kwestie ](/help/quicksilver/manage-work/delegate-work/how-to-delegate-work.md).
+Voor meer informatie bij het delegeren in Workfront, zie [&#x200B; taak beheren en de delegatie van de kwestie &#x200B;](/help/quicksilver/manage-work/delegate-work/how-to-delegate-work.md).
 
 ## De widget Nieuwe borden voor Nieuwe startpagina
 

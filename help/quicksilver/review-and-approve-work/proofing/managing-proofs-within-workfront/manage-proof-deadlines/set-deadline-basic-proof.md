@@ -62,7 +62,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 1. Klik **het Proofing Werkschema**.
 1. In het **gebied van het Werkschema**, uitgezochte **Geen Deadline**.
 
-   ![ Geen deadline ](assets/no-deadline-basic-proof-350x70.png)
+   ![&#x200B; Geen deadline &#x200B;](assets/no-deadline-basic-proof-350x70.png)
 
 1. Kies een datum, geef een tijd op en klik vervolgens ergens op het scherm.
 1. Kies of u de controleurs op de hoogte wilt stellen van de nieuwe deadline.

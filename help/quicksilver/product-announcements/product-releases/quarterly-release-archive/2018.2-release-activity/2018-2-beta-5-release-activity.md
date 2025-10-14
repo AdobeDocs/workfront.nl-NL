@@ -22,31 +22,31 @@ Op deze pagina worden alle wijzigingen beschreven die het laatst beschikbaar zij
 >
 > De op deze pagina beschreven functionaliteit kan worden gewijzigd voordat deze beschikbaar is in de productieomgeving.
 
-Voor een lijst met alle wijzigingen die in 2018.2 zijn aangebracht, raadpleegt u  [ 2018.2 overzicht van de versieactiviteit ](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-release-activity-overview.md).
+Voor een lijst met alle wijzigingen die in 2018.2 zijn aangebracht, raadpleegt u  [&#x200B; 2018.2 overzicht van de versieactiviteit &#x200B;](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-release-activity-overview.md).
 
 De Beta 5-versie van 2018.2 bevat de verbeteringen voor Workfront-beheerders en andere gebruikers:
 
 **voor Beheerders**
 
-* [ Mening gebruiker-teweeggebrachte Veranderingen met de Logboeken van de Controle ](#view-user-triggered-changes-with-audit-logs)
+* [&#x200B; Mening gebruiker-teweeggebrachte Veranderingen met de Logboeken van de Controle &#x200B;](#view-user-triggered-changes-with-audit-logs)
 * [Licentiegegevens weergeven als groepbeheerder](#view-license-information-as-a-group-administrator)
 
 **voor Alle Gebruikers**
 
-* [ Mening van de Kalender op het Gebied van het Huis ](#calendar-view-in-the-home-area)
-* [ Extra Updates aan de Lijst van het Werk (Linker Comité) in Huis ](#additional-updates-to-the-work-list-left-panel-in-home)
-* [ vormt de Limieten van de Rol van de Taak voor Geautomatiseerde Middel die ](#configure-job-role-limits-for-automated-resource-scheduling) plant
-* [ Verbeteringen van de Mening van het Project en van de Rol in de Planner van het Middel ](#project-and-role-view-improvements-in-the-resource-planner)
-* [ vergroot de Breedten van de Kolom voor de Lijsten van het Project ](#resize-column-widths-for-project-lists)
-* [ Steun van het Pictogram voor de Nieuwe Lijsten van het Project ](#icon-support-for-the-new-project-lists)
-* [ voeg &quot;Grote Duimnagel&quot;Gebied in de Mening van het Document toe ](#add-large-thumbnail-field-in-document-views)
-* [ de Grens van de Uitvoer van Excel verhogen ](#increase-excel-export-limit)
-* [ Snelle Filters voor de Lijsten van het Project ](#quick-filters-for-project-lists)
-* [ de Inzamelingen van de Uitgave van de Verwijzing in Project en de Rapporten van de Taak ](#reference-issue-collections-in-project-and-task-reports)
-* [ Nieuw Robuust Menu van de Versie wanneer het Toevoegen van Nieuwe Versies van het Document in Workfront ](#new-more-robust-version-menu-when-adding-new-document-versions-in-workfront)
-* [ Mobiele Verbeteringen in de Mobiele App van Android Beta ](#mobile-improvements-in-the-android-beta-mobile-app)
-* [ het proef de Verbeteringen van de kijker (Workfront en Workfront Proof) ](#proofing-viewer-enhancements-workfront-and-workfront-proof)
-* [ het Bewijzen Verbeteringen in Workfront ](#proofing-enhancements-in-workfront)
+* [&#x200B; Mening van de Kalender op het Gebied van het Huis &#x200B;](#calendar-view-in-the-home-area)
+* [&#x200B; Extra Updates aan de Lijst van het Werk (Linker Comité) in Huis &#x200B;](#additional-updates-to-the-work-list-left-panel-in-home)
+* [&#x200B; vormt de Limieten van de Rol van de Taak voor Geautomatiseerde Middel die &#x200B;](#configure-job-role-limits-for-automated-resource-scheduling) plant
+* [&#x200B; Verbeteringen van de Mening van het Project en van de Rol in de Planner van het Middel &#x200B;](#project-and-role-view-improvements-in-the-resource-planner)
+* [&#x200B; vergroot de Breedten van de Kolom voor de Lijsten van het Project &#x200B;](#resize-column-widths-for-project-lists)
+* [&#x200B; Steun van het Pictogram voor de Nieuwe Lijsten van het Project &#x200B;](#icon-support-for-the-new-project-lists)
+* [&#x200B; voeg &quot;Grote Duimnagel&quot;Gebied in de Mening van het Document toe &#x200B;](#add-large-thumbnail-field-in-document-views)
+* [&#x200B; de Grens van de Uitvoer van Excel verhogen &#x200B;](#increase-excel-export-limit)
+* [&#x200B; Snelle Filters voor de Lijsten van het Project &#x200B;](#quick-filters-for-project-lists)
+* [&#x200B; de Inzamelingen van de Uitgave van de Verwijzing in Project en de Rapporten van de Taak &#x200B;](#reference-issue-collections-in-project-and-task-reports)
+* [&#x200B; Nieuw Robuust Menu van de Versie wanneer het Toevoegen van Nieuwe Versies van het Document in Workfront &#x200B;](#new-more-robust-version-menu-when-adding-new-document-versions-in-workfront)
+* [&#x200B; Mobiele Verbeteringen in de Mobiele App van Android Beta &#x200B;](#mobile-improvements-in-the-android-beta-mobile-app)
+* [&#x200B; het proef de Verbeteringen van de kijker (Workfront en Workfront Proof) &#x200B;](#proofing-viewer-enhancements-workfront-and-workfront-proof)
+* [&#x200B; het Bewijzen Verbeteringen in Workfront &#x200B;](#proofing-enhancements-in-workfront)
 * [Verbeteringen voor proefdrukken in Workfront Proof](#proofing-enhancements-in-workfront-proof)
 
 ## Kalenderweergave in het thuisgebied {#calendar-view-in-the-home-area}
@@ -72,7 +72,7 @@ De volgende verbeteringen zijn nu beschikbaar voor de werklijst in het gebied St
 
   Eerder werden voltooide items weergegeven voor de voorafgaande drie maanden.
 
-  Voor informatie over het bekijken van voltooid werk in het gebied van het Huis, zie [ punten van de Vertoning in de Lijst van het Werk in het gebied van het Huis ](../../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md) in de punten van de artikel [ Vertoning in de Lijst van het Werk in het gebied van het Huis ](../../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
+  Voor informatie over het bekijken van voltooid werk in het gebied van het Huis, zie [&#x200B; punten van de Vertoning in de Lijst van het Werk in het gebied van het Huis &#x200B;](../../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md) in de punten van de artikel [&#x200B; Vertoning in de Lijst van het Werk in het gebied van het Huis &#x200B;](../../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
 
 * Voeg het veld Duur en het veld Toewijzingen toe om aan te geven wanneer items zijn geselecteerd in het gebied Start.
 
@@ -80,7 +80,7 @@ De volgende verbeteringen zijn nu beschikbaar voor de werklijst in het gebied St
 
   Zie &quot;Lay-outsjablonen maken en beheren&quot; voor informatie over het toevoegen van velden aan het gebied Start.
 
-Voor meer informatie over het gebruiken van het gebied van het Huis, zie [ Gebruik het gebied van het Huis ](../../../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md).
+Voor meer informatie over het gebruiken van het gebied van het Huis, zie [&#x200B; Gebruik het gebied van het Huis &#x200B;](../../../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md).
 
 ## Door de gebruiker teweeggebrachte wijzigingen weergeven met controlelogboeken {#view-user-triggered-changes-with-audit-logs}
 
@@ -93,7 +93,7 @@ We hebben de volgende controlelogboeken voor Workfront-beheerders gemaakt om doo
 
 Voorheen was er geen manier om wijzigingen in het systeem te volgen.
 
-Voor meer informatie, zie [ de controlelogboeken van de Mening en van de uitvoer ](../../../../administration-and-setup/add-users/create-and-manage-users/view-and-export-audit-logs.md).
+Voor meer informatie, zie [&#x200B; de controlelogboeken van de Mening en van de uitvoer &#x200B;](../../../../administration-and-setup/add-users/create-and-manage-users/view-and-export-audit-logs.md).
 
 ## Licentiegegevens weergeven als groepbeheerder {#view-license-information-as-a-group-administrator}
 
@@ -101,13 +101,13 @@ Wij hebben een read-only pagina van Vergunningen voor groepsbeheerders gecreeerd
 
 Vóór deze wijziging konden groepsbeheerders geen licentiegegevens weergeven.
 
-Voor meer informatie, zie [ de beheerders van de Groep ](../../../../administration-and-setup/manage-groups/group-roles/group-administrators.md).
+Voor meer informatie, zie [&#x200B; de beheerders van de Groep &#x200B;](../../../../administration-and-setup/manage-groups/group-roles/group-administrators.md).
 
 ## Functiegrenzen voor geautomatiseerde planning van bronnen configureren {#configure-job-role-limits-for-automated-resource-scheduling}
 
 >[!NOTE]
 >
->De hulpmiddelen van de Planning van het Middel zijn afgekeurd en uit Workfront met versie 23.1 verwijderd. Voor informatie over het plannen van middelen die de Balancer van de Werklast gebruiken, zie [ Overzicht van de Balancer van de Werkbelasting ](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+>De hulpmiddelen van de Planning van het Middel zijn afgekeurd en uit Workfront met versie 23.1 verwijderd. Voor informatie over het plannen van middelen die de Balancer van de Werklast gebruiken, zie [&#x200B; Overzicht van de Balancer van de Werkbelasting &#x200B;](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
 
 In de Geautomatiseerde montages van de Planning van het Middel, kunt u een grens aan een baanrol nu toewijzen. Dit staat u toe om het aantal middelen, met de zelfde rol te controleren, die het werk worden toegewezen.
 
@@ -153,9 +153,9 @@ Wanneer u nu de rechterrand van een kolom sleept om de grootte ervan te wijzigen
 
 Voorafgaand aan deze verbetering, zou de naburige kolom aan het recht van de resized kolom proportioneel resized ook resized om op het scherm te passen en u kon niet de grens van een kolom voorbij de juiste grens van de naburige kolom slepen.  
 
-Voor informatie over het resizing van het opnieuw ordenen van kolommen in lijsten, zie [ kolombreedte en orde wijzigen ](../../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md).
+Voor informatie over het resizing van het opnieuw ordenen van kolommen in lijsten, zie [&#x200B; kolombreedte en orde wijzigen &#x200B;](../../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md).
 
-Om aan ons bèta testend programma voor de huidige lijstverbeteringen deel te nemen, zie [ Nieuwe Studie van Lijsten.](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront) (Aanmelding vereist)
+Om aan ons bèta testend programma voor de huidige lijstverbeteringen deel te nemen, zie [&#x200B; Nieuwe Studie van Lijsten.](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront) (Aanmelding vereist)
 
 ## Pictogramondersteuning voor de nieuwe projectlijsten {#icon-support-for-the-new-project-lists}
 
@@ -167,7 +167,7 @@ Terwijl we bezig waren de functionaliteit van onze lijsten te verbeteren, hadden
 
 Met deze versie, kunnen de statuspictogrammen opnieuw in uw projectlijsten voor projecten, of andere voorwerpen in een projectlijst worden getoond.
 
-Voor informatie over het werken in lijsten, zie [ begonnen worden met lijsten in Adobe Workfront ](../../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
+Voor informatie over het werken in lijsten, zie [&#x200B; begonnen worden met lijsten in Adobe Workfront &#x200B;](../../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
 
 ## Veld &quot;Grote miniaturen&quot; toevoegen in documentweergaven {#add-large-thumbnail-field-in-document-views}
 
@@ -175,7 +175,7 @@ Er wordt een nieuw veld met de naam Grote miniatuur toegevoegd aan een documentw
 
 Voordat u deze wijziging aanbrengt, kunt u alleen het veld Miniatuur toevoegen aan een documentweergave, waarin een miniatuur van 33-66 pixels breed van het document wordt weergegeven.
 
-Voor informatie over gebieden in lijsten en rapporten, zie [ Verklarende woordenlijst van de terminologie van Adobe Workfront ](../../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
+Voor informatie over gebieden in lijsten en rapporten, zie [&#x200B; Verklarende woordenlijst van de terminologie van Adobe Workfront &#x200B;](../../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
 
 ## Exportlimiet voor Excel verhogen {#increase-excel-export-limit}
 
@@ -192,7 +192,7 @@ De nieuwe limieten gelden wanneer u het volgende exporteert vanuit Workfront:
 
 Voorafgaand aan deze verbetering, kon u slechts 50.000 rijen in om het even welk dossier van Excel uitvoeren.
 
-Voor informatie over het uitvoeren van gegevens van Workfront, zie [ Gegevens van de Uitvoer ](../../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md).
+Voor informatie over het uitvoeren van gegevens van Workfront, zie [&#x200B; Gegevens van de Uitvoer &#x200B;](../../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md).
 
 ## Snelle filters voor projectlijsten {#quick-filters-for-project-lists}
 
@@ -206,7 +206,7 @@ Snelfilters zijn momenteel alleen beschikbaar voor de projectlijsten in de volge
 * Projecten die ik heb
 * Alle projecten
 
-Voor informatie over snelle filters, zie de &quot;Toepassend Snelle Filters aan de sectie van Lijsten&quot;in [ begonnen worden met lijsten in Adobe Workfront ](../../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
+Voor informatie over snelle filters, zie de &quot;Toepassend Snelle Filters aan de sectie van Lijsten&quot;in [&#x200B; begonnen worden met lijsten in Adobe Workfront &#x200B;](../../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
 
 ## Verzamelingen van referentieproblemen in project- en taakrapporten {#reference-issue-collections-in-project-and-task-reports}
 
@@ -214,13 +214,13 @@ U kunt nu naar een verzameling problemen in een project of taakweergave en filte
 
 Voorafgaand aan deze verbetering, kon u slechts een inzameling van taken in een projectweergave of een filter van verwijzingen voorzien.
 
-Voor informatie over hoe te om een inzameling in een rapport van verwijzingen te voorzien, zie [ inzamelingen van de Verwijzing in een rapport ](../../../../reports-and-dashboards/reports/text-mode/reference-collections-report.md).
+Voor informatie over hoe te om een inzameling in een rapport van verwijzingen te voorzien, zie [&#x200B; inzamelingen van de Verwijzing in een rapport &#x200B;](../../../../reports-and-dashboards/reports/text-mode/reference-collections-report.md).
 
-Zie voor informatie over het gebruik van de tekstmodus  [ Overzicht van gemeenschappelijk gebruik voor de Wijze van de Tekst ](../../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md).
+Zie voor informatie over het gebruik van de tekstmodus  [&#x200B; Overzicht van gemeenschappelijk gebruik voor de Wijze van de Tekst &#x200B;](../../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md).
 
 >[!NOTE]
 >
->In de volgende video was de voorbeeldtekstmodus voor uitgavecties onjuist. De correcte wijze van de steekproeftekst is beschikbaar in [ inzamelingen van de Verwijzing in een rapport ](../../../../reports-and-dashboards/reports/text-mode/reference-collections-report.md).
+>In de volgende video was de voorbeeldtekstmodus voor uitgavecties onjuist. De correcte wijze van de steekproeftekst is beschikbaar in [&#x200B; inzamelingen van de Verwijzing in een rapport &#x200B;](../../../../reports-and-dashboards/reports/text-mode/reference-collections-report.md).
 
 ## Nieuw, robuuster menu bij het toevoegen van nieuwe documentversies in Workfront {#new-more-robust-version-menu-when-adding-new-document-versions-in-workfront}
 
@@ -241,7 +241,7 @@ De volgende opties zijn nu beschikbaar in het menu Nieuwe versie voor alle gebie
 * Gekoppelde opties (van Dropbox, van Google Drive enzovoort)
 * Plakken vanaf klembord (dit is een nieuwe optie wanneer u versies toevoegt)
 
-Voor meer informatie, zie [ documenten aan Adobe Workfront van uw dossiersysteem ](../../../../documents/adding-documents-to-workfront/add-documents-from-file-system.md) in het artikel [ toevoegen documenten aan Adobe Workfront van uw dossiersysteem ](../../../../documents/adding-documents-to-workfront/add-documents-from-file-system.md).
+Voor meer informatie, zie [&#x200B; documenten aan Adobe Workfront van uw dossiersysteem &#x200B;](../../../../documents/adding-documents-to-workfront/add-documents-from-file-system.md) in het artikel [&#x200B; toevoegen documenten aan Adobe Workfront van uw dossiersysteem &#x200B;](../../../../documents/adding-documents-to-workfront/add-documents-from-file-system.md).
 
 ## Mobiele verbeteringen in de Android Beta Mobile-app {#mobile-improvements-in-the-android-beta-mobile-app}
 
@@ -272,22 +272,22 @@ Zie voor meer informatie over hoe u zich aanmeldt om een bètatester te worden e
 
 ## Verbeteringen voor viewers controleren (Workfront en Workfront Proof) {#proofing-viewer-enhancements-workfront-and-workfront-proof}
 
-* [ bijgewerkte de Summiere Pagina van de Druk ](#updated-print-summary-page)
-* [ voeg Gebruikers aan een Bewijs van de het proef direct kijker ](#add-users-to-a-proof-directly-from-the-proofing-viewer) toe
-* [ Vertoning Alle Hulpmiddelen van de Prijsverhoging in de het proef kijker ](#display-all-markup-tools-in-the-proofing-viewer)
-* [ vorm Standaard het Sorteren Opties in de het proef kijker ](#configure-default-sorting-options-in-the-proofing-viewer)
-* [ de Goedkeuringen van het Document van Workfront van de Mening in de Kijker van het Proofing van de Desktop ](#view-workfront-document-approvals-in-the-desktop-proofing-viewer)
-* [ vormt Verbindingen die Nieuwe Lusjes en Vensters openen binnen de Desktop het Proofing Kijker ](#configure-links-that-open-new-tabs-and-windows-to-open-within-the-desktop-proofing-viewer)
-* [ Indicator van de Aanwezigheid in de het proef kijker ](#presence-indicator-in-the-proofing-viewer)
-* [ Commentaren van de Filter om Één enkele Pagina voor Interactieve Proofs URL in de Kijker van het Proofing van de Desktop ](#filter-comments-to-display-a-single-page-for-interactive-url-proofs-in-the-desktop-proofing-viewer) te tonen
-* [ Desktop Proofing Viewer voor Statische en Video Inhoud ](#desktop-proofing-viewer-for-static-and-video-content)
+* [&#x200B; bijgewerkte de Summiere Pagina van de Druk &#x200B;](#updated-print-summary-page)
+* [&#x200B; voeg Gebruikers aan een Bewijs van de het proef direct kijker &#x200B;](#add-users-to-a-proof-directly-from-the-proofing-viewer) toe
+* [&#x200B; Vertoning Alle Hulpmiddelen van de Prijsverhoging in de het proef kijker &#x200B;](#display-all-markup-tools-in-the-proofing-viewer)
+* [&#x200B; vorm Standaard het Sorteren Opties in de het proef kijker &#x200B;](#configure-default-sorting-options-in-the-proofing-viewer)
+* [&#x200B; de Goedkeuringen van het Document van Workfront van de Mening in de Kijker van het Proofing van de Desktop &#x200B;](#view-workfront-document-approvals-in-the-desktop-proofing-viewer)
+* [&#x200B; vormt Verbindingen die Nieuwe Lusjes en Vensters openen binnen de Desktop het Proofing Kijker &#x200B;](#configure-links-that-open-new-tabs-and-windows-to-open-within-the-desktop-proofing-viewer)
+* [&#x200B; Indicator van de Aanwezigheid in de het proef kijker &#x200B;](#presence-indicator-in-the-proofing-viewer)
+* [&#x200B; Commentaren van de Filter om Één enkele Pagina voor Interactieve Proofs URL in de Kijker van het Proofing van de Desktop &#x200B;](#filter-comments-to-display-a-single-page-for-interactive-url-proofs-in-the-desktop-proofing-viewer) te tonen
+* [&#x200B; Desktop Proofing Viewer voor Statische en Video Inhoud &#x200B;](#desktop-proofing-viewer-for-static-and-video-content)
 * [Aangepaste apparaten aan uw systeem toevoegen](#add-custom-devices-to-your-system)
 
 ### Bijgewerkte overzichtspagina afdrukken {#updated-print-summary-page}
 
 De pagina Afdrukoverzicht is bijgewerkt met een nieuwe vormgeving en verbeterde functionaliteit.
 
-Voor informatie, zie [ een proefdruksamenvatting binnen Adobe Workfront ](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/print-proof-summary-in-wf.md) drukken.
+Voor informatie, zie [&#x200B; een proefdruksamenvatting binnen Adobe Workfront &#x200B;](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/print-proof-summary-in-wf.md) drukken.
 
 ### Gebruikers rechtstreeks vanuit de proefdrukviewer toevoegen aan een proefdruk {#add-users-to-a-proof-directly-from-the-proofing-viewer}
 
@@ -295,7 +295,7 @@ Nu kunt u gebruikers rechtstreeks via de webtestviewer en de Desktop Proofing Vi
 
 Eerder kon u geen individuele gebruikers aan een proef toevoegen. In plaats daarvan kunt u alleen de openbare URL of insluitcode kopiëren.
 
-Voor meer informatie, zie [ een proef delen door gebruikers aan het ](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/share-a-proof-in-proofing-viewer.md#sharing-with-individual-users) in het artikel toe te voegen  [ Deel een proef van de het proef kijker ](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/share-a-proof-in-proofing-viewer.md).
+Voor meer informatie, zie [&#x200B; een proef delen door gebruikers aan het &#x200B;](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/share-a-proof-in-proofing-viewer.md#sharing-with-individual-users) in het artikel toe te voegen  [&#x200B; Deel een proef van de het proef kijker &#x200B;](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/share-a-proof-in-proofing-viewer.md).
 
 ### Alle opmaakgereedschappen weergeven in de conceptviewer {#display-all-markup-tools-in-the-proofing-viewer}
 
@@ -303,7 +303,7 @@ U kunt het markeringshulpmiddel nu vormen om alle tijd eerder dan in een menu te
 
 Eerder waren markeringsgereedschappen alleen beschikbaar in een vervolgkeuzemenu.
 
-Voor meer informatie over het vormen van deze prijsverhoging het plaatsen, zie [ het proefdrukken van kijkersmontages ](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/configure-proofing-viewer-settings.md) vormen.
+Voor meer informatie over het vormen van deze prijsverhoging het plaatsen, zie [&#x200B; het proefdrukken van kijkersmontages &#x200B;](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/configure-proofing-viewer-settings.md) vormen.
 
 Raadpleeg het artikel voor meer informatie over het gebruik van opmaakopties bij het controleren van een proefdruk.
 
@@ -319,7 +319,7 @@ Nu kunt u een goedkeuringsbesluit voor Workfront-documenten nemen in de Desktop 
 
 Eerder kon alleen met de Web Proofing Viewer een goedkeuringsbesluit voor Workfront-documenten worden genomen. 
 
-Zie voor meer informatie  [ maak een besluit over een bewijs in de het proef kijker ](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md) in het artikel  [ maak een besluit over een bewijs in de het proef kijker ](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md).
+Zie voor meer informatie  [&#x200B; maak een besluit over een bewijs in de het proef kijker &#x200B;](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md) in het artikel  [&#x200B; maak een besluit over een bewijs in de het proef kijker &#x200B;](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md).
 
 ### Koppelingen configureren waarmee nieuwe tabbladen en vensters worden geopend in de Desktop Proofing Viewer {#configure-links-that-open-new-tabs-and-windows-to-open-within-the-desktop-proofing-viewer}
 
@@ -327,13 +327,13 @@ Wanneer u interactieve inhoud in de Desktop Proofing Viewer weergeeft, kunt u nu
 
 In de verouderde proefdrukviewer kunnen koppelingen die zijn geopend in een nieuw tabblad of venster, niet worden gecontroleerd in de proefdrukviewer.
 
-Voor meer informatie, zie [ het proefdrukken van kijkersmontages ](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/configure-proofing-viewer-settings.md) vormen.
+Voor meer informatie, zie [&#x200B; het proefdrukken van kijkersmontages &#x200B;](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/configure-proofing-viewer-settings.md) vormen.
 
 ### Aanwezigheidsindicator in de proefdrukviewer {#presence-indicator-in-the-proofing-viewer}
 
 Wanneer u nu een proefdruk bekijkt in de webproefdrukviewer of in de Desktop Proofing Viewer, kunt u de avatar weergeven van elke gebruiker die de proefdruk momenteel weergeeft, in de rechterbovenhoek van de proefdrukviewer.
 
-Voor meer informatie, zie [ Overzicht een proef gelijktijdig met veelvoudige recensenten ](../../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/review-proof-with-multiple-reviewers.md).
+Voor meer informatie, zie [&#x200B; Overzicht een proef gelijktijdig met veelvoudige recensenten &#x200B;](../../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/review-proof-with-multiple-reviewers.md).
 
 ### Opmerkingen filteren om één pagina weer te geven voor interactieve URL-proefdrukken in de Desktop Proofing Viewer {#filter-comments-to-display-a-single-page-for-interactive-url-proofs-in-the-desktop-proofing-viewer}
 
@@ -349,9 +349,9 @@ De Desktop Proofing Viewer ondersteunt nu statische en video-inhoud.
 
 Eerder werd alleen interactieve inhoud ondersteund.
 
-Voor informatie over het vormen van statische en videoproeven in de Desktop het Proofing Kijker te openen, zie [ het Proofing viewermontages ](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/configure-proofing-viewer-settings.md) vormen.
+Voor informatie over het vormen van statische en videoproeven in de Desktop het Proofing Kijker te openen, zie [&#x200B; het Proofing viewermontages &#x200B;](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/configure-proofing-viewer-settings.md) vormen.
 
-Voor meer informatie over de Desktop het Proofing Kijker, zie [ het Reviseren van Proofs in de Kijker van het Bewijzen van de Desktop.](https://support.workfront.com/hc/en-us/sections/360000686434)
+Voor meer informatie over de Desktop het Proofing Kijker, zie [&#x200B; het Reviseren van Proofs in de Kijker van het Bewijzen van de Desktop.](https://support.workfront.com/hc/en-us/sections/360000686434)
 
 ### Aangepaste apparaten aan uw systeem toevoegen {#add-custom-devices-to-your-system}
 
@@ -361,12 +361,12 @@ Voorafgaand aan deze wijziging konden gebruikers alleen kiezen uit een lijst met
 
 Voor informatie over het toevoegen van aangepaste apparaten raadpleegt u
 
-Voor informatie over hoe de gebruikers apparaten kunnen selecteren wanneer het herzien van interactieve inhoud, zie [ de interactieve proefdrukresolutie van de Verandering in de het proef kijker ](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/view-interactive-content-as-it-appears-in-device.md).
+Voor informatie over hoe de gebruikers apparaten kunnen selecteren wanneer het herzien van interactieve inhoud, zie [&#x200B; de interactieve proefdrukresolutie van de Verandering in de het proef kijker &#x200B;](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/view-interactive-content-as-it-appears-in-device.md).
 
 ## Verbeteringen voor proefdrukken in Workfront {#proofing-enhancements-in-workfront}
 
-* [ Deel direct de Verbinding van het Bewijs van Workfront ](#share-the-proof-link-directly-from-workfront)
-* [ Rapport over Extra het Bewijzen Gegevens in Workfront ](#report-on-additional-proofing-data-in-workfront)
+* [&#x200B; Deel direct de Verbinding van het Bewijs van Workfront &#x200B;](#share-the-proof-link-directly-from-workfront)
+* [&#x200B; Rapport over Extra het Bewijzen Gegevens in Workfront &#x200B;](#report-on-additional-proofing-data-in-workfront)
 * [Historische gegevens voor proefkeuringen weergeven in Workfront](#view-historical-data-for-proof-approvals-in-workfront)
 
 ### De proefkoppeling rechtstreeks vanuit Workfront delen {#share-the-proof-link-directly-from-workfront}
@@ -375,7 +375,7 @@ Nu kunt u een koppeling voor een proefdruk genereren in Workfront en deze rechts
 
 Vóór deze wijziging kon u de proefdrukkoppeling alleen kopiëren in Workfront en deze via een andere methode verspreiden.
 
-Voor meer informatie, zie [ een proef binnen Adobe Workfront ](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md) in het artikel [ Deel een proef binnen Adobe Workfront ](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md).
+Voor meer informatie, zie [&#x200B; een proef binnen Adobe Workfront &#x200B;](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md) in het artikel [&#x200B; Deel een proef binnen Adobe Workfront &#x200B;](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md).
 
 >[!NOTE]
 >
@@ -405,7 +405,7 @@ In rapporten die het voorwerp van de Versie van het Document (zoals een rapport 
 
   Hiermee geeft u de voortgangsstatus van de proefdruk weer (Verzenden, Openen, Opmerkingen, Beslissing gemaakt).
 
-Voor meer informatie over elk van deze gebieden, zie  [ Verklarende woordenlijst van de terminologie van Adobe Workfront ](../../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
+Voor meer informatie over elk van deze gebieden, zie  [&#x200B; Verklarende woordenlijst van de terminologie van Adobe Workfront &#x200B;](../../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
 
 ### Historische gegevens voor proefkeuringen weergeven in Workfront {#view-historical-data-for-proof-approvals-in-workfront}
 
@@ -413,11 +413,11 @@ In het rapport Goedkeuring proef kunt u een gebied toevoegen dat u de besluiten 
 
 Vóór deze wijziging kon het besluit, nadat een besluit was genomen op basis van een bewijs, niet langer in een Workfront-rapport worden weergegeven.
 
-Zie voor meer informatie  [ Verklarende woordenlijst van de terminologie van Adobe Workfront ](../../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
+Zie voor meer informatie  [&#x200B; Verklarende woordenlijst van de terminologie van Adobe Workfront &#x200B;](../../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
 
 ## Verbeteringen voor proefdrukken in Workfront Proof {#proofing-enhancements-in-workfront-proof}
 
-* [ creeer een Nieuwe Versie van een Bewijs direct van de het proef kijker (Workfront Proof) ](#create-a-new-version-of-a-proof-directly-from-the-proofing-viewer-workfront-proof)
+* [&#x200B; creeer een Nieuwe Versie van een Bewijs direct van de het proef kijker (Workfront Proof) &#x200B;](#create-a-new-version-of-a-proof-directly-from-the-proofing-viewer-workfront-proof)
 * [Nieuwe koppeling Details proefdrukken in de conceptviewer en Desktop Proofing Viewer (Workfront Proof)](#new-proof-details-link-in-the-proofing-viewer-and-desktop-proofing-viewer-workfront-proof)
 
 ### Een nieuwe versie van een proefdruk rechtstreeks vanuit de proefdrukviewer maken (Workfront Proof) {#create-a-new-version-of-a-proof-directly-from-the-proofing-viewer-workfront-proof}
@@ -426,7 +426,7 @@ U kunt nu een nieuwe versie van een proefdruk rechtstreeks maken vanuit de nieuw
 
 Eerder was deze optie alleen beschikbaar in de verouderde Flash Viewer.
 
-Voor meer informatie, zie [ het Kopiëren Proofs in Workfront Proof ](../../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/copy-proofs.md) in het artikel  [ het Kopiëren Proofs in Workfront Proof ](../../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/copy-proofs.md).
+Voor meer informatie, zie [&#x200B; het Kopiëren Proofs in Workfront Proof &#x200B;](../../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/copy-proofs.md) in het artikel  [&#x200B; het Kopiëren Proofs in Workfront Proof &#x200B;](../../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/copy-proofs.md).
 
 ### Nieuwe koppeling Details proefdrukken in de conceptviewer en Desktop Proofing Viewer (Workfront Proof) {#new-proof-details-link-in-the-proofing-viewer-and-desktop-proofing-viewer-workfront-proof}
 

@@ -24,7 +24,7 @@ Om te weten te komen wat de huidige staat van ontwikkeling voor een project, een
 
 Bijvoorbeeld, in dit project, wijst de statusPlanning erop dat de manager van het project momenteel aspecten van het project zoals zijn chronologie, taaktaken, en goedkeuringen plant.
 
-![ status van het project van de Steekproef ](assets/statuses-overview.png)
+![&#x200B; status van het project van de Steekproef &#x200B;](assets/statuses-overview.png)
 
 U moet de volgende toegang en toestemmingen aan een project, een taak, of een kwestie hebben om hun status te bekijken:
 
@@ -41,14 +41,14 @@ Het wijzigen van de status van een project, taak of uitgave is meestal een handm
 
 Adobe Workfront wordt geleverd met 9 projectstatussen, 3 taakstatussen en 10 uitgavestatussen. Zie de volgende artikelen voor meer informatie hierover:
 
-* [ heb toegang tot de lijst van de statussen van het systeemproject ](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/project-statuses.md)
-* [ heb toegang tot de lijst van de statussen van de systeemtaak ](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/task-statuses.md)
+* [&#x200B; heb toegang tot de lijst van de statussen van het systeemproject &#x200B;](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/project-statuses.md)
+* [&#x200B; heb toegang tot de lijst van de statussen van de systeemtaak &#x200B;](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/task-statuses.md)
 * [Toegang krijgen tot de lijst met systeemuitgiftestatussen](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/issue-statuses.md)
 
 ## Aangepaste statussen
 
-Naast de standaardstatussen die bij Workfront worden geleverd, kan een Workfront-beheerder een aangepast project, een aangepaste taak en een bepaalde status toevoegen om aan de behoeften in uw organisatie te voldoen. U kunt statussen op systeemniveau maken die door iedereen in uw Workfront-instantie worden gebruikt, of statussen op groepsniveau die alleen door bepaalde groepen worden gebruikt. Voor meer informatie, zie [ een status ](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md) creëren of uitgeven.
+Naast de standaardstatussen die bij Workfront worden geleverd, kan een Workfront-beheerder een aangepast project, een aangepaste taak en een bepaalde status toevoegen om aan de behoeften in uw organisatie te voldoen. U kunt statussen op systeemniveau maken die door iedereen in uw Workfront-instantie worden gebruikt, of statussen op groepsniveau die alleen door bepaalde groepen worden gebruikt. Voor meer informatie, zie [&#x200B; een status &#x200B;](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md) creëren of uitgeven.
 
 ## Statussen groeperen
 
-De beheerders van de groep kunnen groep-vlakke douanestatus tot stand brengen om aan de behoeften van hun groepen te voldoen. Voor meer informatie, zie [ groepsstatussen beheren ](../../../administration-and-setup/manage-groups/manage-group-statuses/manage-group-statuses.md).
+De beheerders van de groep kunnen groep-vlakke douanestatus tot stand brengen om aan de behoeften van hun groepen te voldoen. Voor meer informatie, zie [&#x200B; groepsstatussen beheren &#x200B;](../../../administration-and-setup/manage-groups/manage-group-statuses/manage-group-statuses.md).

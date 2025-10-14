@@ -20,7 +20,7 @@ ht-degree: 0%
 
 In dit artikel worden de functies weergegeven die in de beginfase van Workfront Planning zijn uitgebracht in 2023, voorafgaand aan de algemene beschikbaarheidsrelease op 28 augustus 2024.
 
-Voor een lijst van alle eigenschappen die voor de Planning van Adobe Workfront worden vrijgegeven, zie [ de versieactiviteit van de Planning van Adobe Workfront: artikelindex ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+Voor een lijst van alle eigenschappen die voor de Planning van Adobe Workfront worden vrijgegeven, zie [&#x200B; de versieactiviteit van de Planning van Adobe Workfront: artikelindex &#x200B;](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
 ## Tijdlijn release Workfront Planning
 
@@ -42,7 +42,7 @@ In de volgende tabel wordt de tijdlijn van de release van Workfront Planning wee
 
 Voorbeeld en productie: 27 december 2023
 
-U kunt nu naar een trefwoord zoeken om snel een record in de tijdlijnweergave te zoeken. U kunt trefwoorden en speciale tekens uit alle velden die op het scherm zichtbaar zijn, gebruiken om een record te zoeken. Voor informatie, zie [ de chronologiemening ](/help/quicksilver/planning/views/manage-the-timeline-view.md) leiden.
+U kunt nu naar een trefwoord zoeken om snel een record in de tijdlijnweergave te zoeken. U kunt trefwoorden en speciale tekens uit alle velden die op het scherm zichtbaar zijn, gebruiken om een record te zoeken. Voor informatie, zie [&#x200B; de chronologiemening &#x200B;](/help/quicksilver/planning/views/manage-the-timeline-view.md) leiden.
 
 ## Week van 18 december 2023
 
@@ -60,13 +60,13 @@ Voorbeeld en productie voor alle klanten: 18 december 2023
 >
 >* Afbeeldingen slepen en neerzetten
 >
->Voor meer informatie, zie [ Eerste Kwartaal 2024 releaseoverzicht ](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).
+>Voor meer informatie, zie [&#x200B; Eerste Kwartaal 2024 releaseoverzicht &#x200B;](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).
 
 U kunt nu met anderen samenwerken aan afzonderlijke records door opmerkingen toe te voegen of anderen te antwoorden terwijl u de pagina van een record bekijkt.
 
 De opmerkingervaring voor planningsmogelijkheden komt overeen met de nieuwe opmerkingervaring voor Workfront-objecten.
 
-Voor meer informatie, zie [ recordcommentaren beheren ](/help/quicksilver/planning/records/manage-record-comments.md).
+Voor meer informatie, zie [&#x200B; recordcommentaren beheren &#x200B;](/help/quicksilver/planning/records/manage-record-comments.md).
 
 ### Workfront-planningsconnector voor Adobe Workfront Fusion
 
@@ -76,7 +76,7 @@ Productie: 21 december 2023
 >
 >Uw organisatie moet Adobe Workfront Fusion aanschaffen om verbindingen te kunnen maken met de planningsmogelijkheden van Adobe Workfront.
 >
->Voor informatie, zie [ het overzicht van de Fusie van Adobe Workfront ](https://experienceleague.adobe.com/nl/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+>Voor informatie, zie [&#x200B; het overzicht van de Fusie van Adobe Workfront &#x200B;](https://experienceleague.adobe.com/nl/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 
 Nu kunt u Adobe Workfront Fusion gebruiken om verbinding te maken met de planningsmogelijkheden. Met de nieuwe Fusion-verbinding kunt u:
 
@@ -92,7 +92,7 @@ Nu kunt u Adobe Workfront Fusion gebruiken om verbinding te maken met de plannin
 
 * Een scenario activeren wanneer een wijziging wordt aangebracht in de planningsmogelijkheden
 
-Voor meer informatie, zie [ de Modules van de Planning van Adobe Workfront ](https://experienceleague.adobe.com/nl/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules).
+Voor meer informatie, zie [&#x200B; de Modules van de Planning van Adobe Workfront &#x200B;](https://experienceleague.adobe.com/nl/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules).
 
 ## Week van 11 december 2023
 
@@ -122,7 +122,7 @@ Met deze verbetering, merk het volgende op:
 
 * Alle tabelweergaven van een recordtype hebben hetzelfde primaire veld dat u selecteert.
 
-Voor meer informatie, zie [ de lijstmening ](/help/quicksilver/planning/views/manage-the-table-view.md) leiden.
+Voor meer informatie, zie [&#x200B; de lijstmening &#x200B;](/help/quicksilver/planning/views/manage-the-table-view.md) leiden.
 
 ### Connect-planningscapaciteitenrecords met Adobe Experience Manager Assets
 
@@ -134,7 +134,7 @@ Productieversie: 21 december 2023
 >
 >Het exemplaar van Workfront van uw organisatie moet op het Adobe Business Platform of Adobe Admin Console worden geregistreerd om Adobe Workfront Planning capabilities verslagen aan Adobe Experience Manager Assets te kunnen verbinden.
 >
->Als u vragen over het aan boord gaan aan Adobe Admin Console hebt, zie [ Adobe Verenigde Veelgestelde vragen van de Ervaring ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md).
+>Als u vragen over het aan boord gaan aan Adobe Admin Console hebt, zie [&#x200B; Adobe Verenigde Veelgestelde vragen van de Ervaring &#x200B;](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md).
 
 U kunt nu een verbinding tot stand brengen tussen de recordtypen van Adobe Workfront Planning capabilities en Adobe Experience Manager Assets.
 
@@ -150,7 +150,7 @@ Nadat u de verbinding tot stand hebt gebracht, is de volgende functionaliteit be
 
 * U kunt op de naam van het element in de tabelweergave van de record met planningsmogelijkheden klikken vanuit het verbonden recordveld en een pop-upvenster weergeven met de elementminiatuur en verschillende toetsvelden. Vanuit het pop-upvenster kunt u naar de viewer voor middelen in Experience Manager navigeren en alle details ervan weergeven.
 
-Voor meer informatie, zie [ Connect verslagtypes ](/help/quicksilver/planning/architecture/connect-record-types.md).
+Voor meer informatie, zie [&#x200B; Connect verslagtypes &#x200B;](/help/quicksilver/planning/architecture/connect-record-types.md).
 
 ## Week van 4 december 2023
 
@@ -171,9 +171,9 @@ Overweeg het volgende:
 
 * U kunt geen veldwaarden kopiëren en plakken voor velden die worden weergegeven in het gebied Details van een record.
 
-Voor meer informatie, zie [ verslagen ](/help/quicksilver/planning/records/edit-records.md) uitgeven.
+Voor meer informatie, zie [&#x200B; verslagen &#x200B;](/help/quicksilver/planning/records/edit-records.md) uitgeven.
 
-Voor informatie over verbonden gebieden, zie [ verbind verslagtypes ](/help/quicksilver/planning/architecture/connect-record-types.md).
+Voor informatie over verbonden gebieden, zie [&#x200B; verbind verslagtypes &#x200B;](/help/quicksilver/planning/architecture/connect-record-types.md).
 
 ## Week van 27 november 2023
 
@@ -197,7 +197,7 @@ Overweeg het volgende:
 
    * Gekoppelde velden die zijn gemaakt als gevolg van het verbinden van records
 
-Voor meer informatie, zie [ verslagen ](/help/quicksilver/planning/records/edit-records.md) uitgeven.
+Voor meer informatie, zie [&#x200B; verslagen &#x200B;](/help/quicksilver/planning/records/edit-records.md) uitgeven.
 
 ## Week van 6 november 2023
 
@@ -207,7 +207,7 @@ Voorbeeld en productie: 7 november 2023
 
 U kunt nu records groeperen in de tabelweergave van een recordtypepagina. U kunt door drie unieke gebieden in de planningscapaciteitinterface <!--checking into this for now: and by four fields when using the API--> groeperen.
 
-Voor meer informatie, zie [ de lijstmening ](/help/quicksilver/planning/views/manage-the-table-view.md) leiden.
+Voor meer informatie, zie [&#x200B; de lijstmening &#x200B;](/help/quicksilver/planning/views/manage-the-table-view.md) leiden.
 
 ## Week van 30 oktober 2023
 
@@ -227,7 +227,7 @@ We hebben de volgende veldtypen geïntroduceerd voor Adobe Workfront Planning ca
 
 De veldwaarden van de velden die van deze veldtypen zijn gemaakt, zijn alleen-lezen en leggen de naam vast van de gebruiker die een record heeft gemaakt of voor het laatst heeft gewijzigd, of de datum waarop de record is gemaakt of voor het laatst is gewijzigd.
 
-Voor meer informatie, zie [ gebieden ](/help/quicksilver/planning/fields/create-fields.md) creëren.
+Voor meer informatie, zie [&#x200B; gebieden &#x200B;](/help/quicksilver/planning/fields/create-fields.md) creëren.
 
 ### Navigeren naar Workfront-objecten vanuit een record met planningsmogelijkheden
 
@@ -239,7 +239,7 @@ U kunt de Workfront-objectpagina&#39;s nu vanuit de volgende gebieden openen in 
 
 * De Workfront-recordpagina met alleen-lezen objecten
 
-Voor meer informatie, zie [ verbindt verslagen ](/help/quicksilver/planning/records/connect-records.md).
+Voor meer informatie, zie [&#x200B; verbindt verslagen &#x200B;](/help/quicksilver/planning/records/connect-records.md).
 
 ### Verbeterde navigatie in de tabelweergave
 
@@ -255,7 +255,7 @@ Hieronder volgen enkele verbeteringen:
 
 * Gebruik de toetsenbordcombinatie Shift + Enter om een nieuwe record (of rij) aan de tabel toe te voegen.
 
-Voor meer informatie, zie [ verbindt verslagen ](/help/quicksilver/planning/records/connect-records.md).
+Voor meer informatie, zie [&#x200B; verbindt verslagen &#x200B;](/help/quicksilver/planning/records/connect-records.md).
 
 ## Week van 16 oktober 2023
 
@@ -263,13 +263,13 @@ Voor meer informatie, zie [ verbindt verslagen ](/help/quicksilver/planning/reco
 
 Voorbeeld en productie: 16 oktober 2023
 
-U kunt nu een veld van het type Mensen toevoegen aan recordtypen voor planningsmogelijkheden. U kunt velden van het type Mensen gebruiken om bestaande gebruikers aan een record te koppelen. Voor informatie, zie [ gebieden ](/help/quicksilver/planning/fields/create-fields.md) creëren.
+U kunt nu een veld van het type Mensen toevoegen aan recordtypen voor planningsmogelijkheden. U kunt velden van het type Mensen gebruiken om bestaande gebruikers aan een record te koppelen. Voor informatie, zie [&#x200B; gebieden &#x200B;](/help/quicksilver/planning/fields/create-fields.md) creëren.
 
 ### RTF-indeling voor alineasvelden
 
 Voorbeeld en productie: 16 oktober 2023
 
-We hebben besturingselementen voor RTF-opmaak toegevoegd voor velden van het type Alinea. U kunt de alineasvelden opmaken met RTF-tekst in de tabelweergave van een recordtype of op de recordpagina. Voor meer informatie, zie [ verslagen ](/help/quicksilver/planning/records/edit-records.md) uitgeven.
+We hebben besturingselementen voor RTF-opmaak toegevoegd voor velden van het type Alinea. U kunt de alineasvelden opmaken met RTF-tekst in de tabelweergave van een recordtype of op de recordpagina. Voor meer informatie, zie [&#x200B; verslagen &#x200B;](/help/quicksilver/planning/records/edit-records.md) uitgeven.
 
 
 ### Kleurcodering opnemen en groeperen voor de tijdlijnweergave
@@ -298,7 +298,7 @@ Hier volgen opties voor de kleuren die u kunt weergeven voor recordbalken en gro
 
 Wanneer u kleuren afstemt op een bepaald veld, kunt u alleen velden met opties voor kleurcodes selecteren.
 
-Voor meer informatie, zie [ de chronologiemening ](/help/quicksilver/planning/views/manage-the-timeline-view.md) leiden.
+Voor meer informatie, zie [&#x200B; de chronologiemening &#x200B;](/help/quicksilver/planning/views/manage-the-timeline-view.md) leiden.
 
 ## Week van 9 oktober 2023
 
@@ -306,7 +306,7 @@ Voor meer informatie, zie [ de chronologiemening ](/help/quicksilver/planning/vi
 
 Voorbeeld en productie: 9 oktober 2023
 
-U kunt nu naar een trefwoord zoeken om snel een record te zoeken in de tabelweergave. U kunt trefwoorden en speciale tekens uit alle velden die op het scherm zichtbaar zijn, gebruiken om een record te zoeken. Voor informatie, zie [ de lijstmening ](/help/quicksilver/planning/views/manage-the-table-view.md) leiden.
+U kunt nu naar een trefwoord zoeken om snel een record te zoeken in de tabelweergave. U kunt trefwoorden en speciale tekens uit alle velden die op het scherm zichtbaar zijn, gebruiken om een record te zoeken. Voor informatie, zie [&#x200B; de lijstmening &#x200B;](/help/quicksilver/planning/views/manage-the-table-view.md) leiden.
 
 ## Week van 18 september 2023
 
@@ -314,7 +314,7 @@ U kunt nu naar een trefwoord zoeken om snel een record te zoeken in de tabelweer
 
 Voorbeeld en productie: 20 september 2023
 
-U kunt nu een of meerdere rijen (of records) opnieuw rangschikken in de tabelweergave van een recordtypepagina. Voor informatie, zie [ de lijstmening ](/help/quicksilver/planning/views/manage-the-table-view.md) leiden.
+U kunt nu een of meerdere rijen (of records) opnieuw rangschikken in de tabelweergave van een recordtypepagina. Voor informatie, zie [&#x200B; de lijstmening &#x200B;](/help/quicksilver/planning/views/manage-the-table-view.md) leiden.
 
 ## Week van 4 september 2023
 
@@ -355,7 +355,7 @@ Als u de juiste informatie wilt weergeven op een bepaalde set records, met name 
 
 U kunt afzonderlijke velden verbergen of weergeven voor elke koptekst van de veldkolommen, of u kunt alle velden van het recordtype beheren vanuit een instelling op de werkbalk van de tabelweergave.
 
-Voor meer informatie, zie [ de lijstmening ](/help/quicksilver/planning/views/manage-the-table-view.md) leiden.
+Voor meer informatie, zie [&#x200B; de lijstmening &#x200B;](/help/quicksilver/planning/views/manage-the-table-view.md) leiden.
 
 ## Week van 21 augustus 2023
 

@@ -18,13 +18,13 @@ ht-degree: 0%
 
 Deze pagina beschrijft alle verbeteringen aan de functionaliteit van het Beheer van het Middel met versie 2020.1. Deze verbeteringen zijn momenteel beschikbaar in de voorvertoningsomgeving en worden eind maart of begin april 2020 beschikbaar gesteld in de productieomgeving.
 
-Voor een lijst van alle veranderingen beschikbaar met de versie 2020.1, zie [ overzicht van de versie 2020.1 ](../../../product-announcements/product-releases/2020.1-release-activity/2020-1-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar met de versie 2020.1, zie [&#x200B; overzicht van de versie 2020.1 &#x200B;](../../../product-announcements/product-releases/2020.1-release-activity/2020-1-release-overview.md).
 
 ## Toon de dag Geplande Uren voor projecten, taken, en ontoegankelijke punten in het Toegewezen Werkgebied van de Balancer van de Werkbelasting
 
 Om u te helpen begrijpen hoe de individuele projecten, de taken, of de ontoegankelijke punten tot de werklast van uw gebruikers bijdragen en om correcte toewijzingsbesluiten in de Balancer van de Werkbelasting te kunnen maken, hebben wij een plaatsen geïntroduceerd die u toestaat om de uurdistributie voor individuele projecten, taken en ontoegankelijke punten te bekijken.
 
-Voor informatie over het beheren van uren in de Balancer van de Werklast, zie [ de Balancer van de Werkbelasting ](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) navigeren.
+Voor informatie over het beheren van uren in de Balancer van de Werklast, zie [&#x200B; de Balancer van de Werkbelasting &#x200B;](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) navigeren.
 
 ## Dagelijkse geplande uren weergeven voor taken en ontoegankelijke items in het gedeelte Niet toegewezen werk van de werklastverdeling
 
@@ -32,13 +32,13 @@ Om u te helpen begrijpen hoe de individuele projecten, de taken, of de ontoegank
 
 Vóór deze wijziging was deze instelling alleen van toepassing op informatie in het gebied Toegewezen werk van Balancer.
 
-Voor informatie over het navigeren van de Balancer van de Werkbelasting, zie [ de Balancer van de Werkbelasting ](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) navigeren.
+Voor informatie over het navigeren van de Balancer van de Werkbelasting, zie [&#x200B; de Balancer van de Werkbelasting &#x200B;](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) navigeren.
 
 ## Tijdlijnduur aanpassen in werklastbalans
 
 U hebt nu de flexibiliteit om te selecteren hoeveel weken u in de werklastbalans weergeeft: u kunt kiezen uit 2, 4 of 6 weken. Eerder was het aantal weken standaard ingesteld op 4.
 
-Voor informatie over het navigeren van de Balancer van de Werkbelasting, zie [ de Balancer van de Werkbelasting ](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) navigeren.
+Voor informatie over het navigeren van de Balancer van de Werkbelasting, zie [&#x200B; de Balancer van de Werkbelasting &#x200B;](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) navigeren.
 
 ## De instelling Werkelijke uren weergeven die is verwijderd uit de bronnenplanner
 
@@ -46,10 +46,10 @@ Om het tonen van Werkelijke Uren in de Planner van het Middel gemakkelijker te m
 
 U kunt Werkelijke Uren nog tonen wanneer het bekijken van de Planner van het Middel in de Mening van de Gebruiker door de Customize meningseigenschap te gebruiken.
 
-Voor informatie over het navigeren van de Planner van het Middel, zie [ het navigatieoverzicht van de Planner van het Middel ](../../../resource-mgmt/resource-planning/resource-planner-navigation.md).
+Voor informatie over het navigeren van de Planner van het Middel, zie [&#x200B; het navigatieoverzicht van de Planner van het Middel &#x200B;](../../../resource-mgmt/resource-planning/resource-planner-navigation.md).
 
 ## Verbeterde navigatie in de werklastbalans
 
 U kunt nu een keer heen en weer navigeren in Workload Balancer. Voorafgaand aan deze verbetering wanneer u op de rug en voorwaartse pictogrammen klikte, verschoven het tijdkader met vier tijdsperioden tegelijkertijd.
 
-Voor informatie over het gebruiken van de Balancer van de Werklast, zie [ de Balancer van de Werkbelasting ](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) navigeren.
+Voor informatie over het gebruiken van de Balancer van de Werklast, zie [&#x200B; de Balancer van de Werkbelasting &#x200B;](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) navigeren.

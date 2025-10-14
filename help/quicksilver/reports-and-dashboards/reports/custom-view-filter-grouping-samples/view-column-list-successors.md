@@ -20,7 +20,7 @@ ht-degree: 0%
 
 U kunt een kolom aan een taakmening toevoegen om een lijst van de opvolgers van de taken te tonen. De **kolom van de Opvolgers van de Taak** omvat het aantal van de opvolger evenals de naam.
 
-![ task_view_with_a_list_of_succesors_.png ](assets/task-view-with-a-list-of-successors--350x118.png)
+![&#x200B; task_view_with_a_list_of_succesors_.png &#x200B;](assets/task-view-with-a-list-of-successors--350x118.png)
 
 ## Toegangsvereisten
 
@@ -58,7 +58,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-*For informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*For informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

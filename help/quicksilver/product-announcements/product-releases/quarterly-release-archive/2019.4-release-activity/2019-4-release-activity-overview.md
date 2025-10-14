@@ -32,13 +32,13 @@ De release van 2019.4 werd in de week van 11 november 2019 beschikbaar gesteld i
 
 ## Verbeteringen voor alle gebruikers
 
-Een deel van de functionaliteit is vrijgegeven vóór de release van 2019.4. Om te zien wat vóór de versie 2019.4 werd vrijgegeven, zie [ 2019.4 andere verhogingen ](../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-other-enhancements.md).
+Een deel van de functionaliteit is vrijgegeven vóór de release van 2019.4. Om te zien wat vóór de versie 2019.4 werd vrijgegeven, zie [&#x200B; 2019.4 andere verhogingen &#x200B;](../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-other-enhancements.md).
 
 De release 2019.4 bevat de volgende verbeteringen:
 
-* [ Verbeteringen van de Lijst ](#list-enhancements)
-* [ Mobiele verhogingen ](#mobile-enhancements)
-* [ Middel plannend verhogingen ](#resource-scheduling-enhancements)
+* [&#x200B; Verbeteringen van de Lijst &#x200B;](#list-enhancements)
+* [&#x200B; Mobiele verhogingen &#x200B;](#mobile-enhancements)
+* [&#x200B; Middel plannend verhogingen &#x200B;](#resource-scheduling-enhancements)
 * [Andere verbeteringen](#other-enhancements)
 
 ### Verbeteringen voor lijsten {#list-enhancements}
@@ -209,10 +209,10 @@ Voor informatie over de onderhoudsupdates die tijdens de versie 2019.4 worden ge
 
 ## Aankondigingen
 
-* [ Diverse Enige Sign-On te verwijderen opties ](#various-single-sign-on-options-to-be-removed)
-* [ API Versie 3 niet meer gesteund ](#api-version-3-no-longer-supported)
-* [ TLS 1.0 en 1.1 steun beëindigt ](#tls-1-0-and-1-1-support-is-ending)
-* [ verwijdering van de toepassing van de Flash ](#flash-application-removal)
+* [&#x200B; Diverse Enige Sign-On te verwijderen opties &#x200B;](#various-single-sign-on-options-to-be-removed)
+* [&#x200B; API Versie 3 niet meer gesteund &#x200B;](#api-version-3-no-longer-supported)
+* [&#x200B; TLS 1.0 en 1.1 steun beëindigt &#x200B;](#tls-1-0-and-1-1-support-is-ending)
+* [&#x200B; verwijdering van de toepassing van de Flash &#x200B;](#flash-application-removal)
 * [Q4-product routekaart webinar](#q4-product-roadmap-webinar)
 
 ### Verschillende Single Sign-On-opties die moeten worden verwijderd {#various-single-sign-on-options-to-be-removed}
@@ -221,7 +221,7 @@ De volgende Single Sign-On (SSO)-opties worden nu slechts in beperkte mate onder
 
 * LDAP
 
-  Voor meer informatie over het gebruiken van LDAP met Workfront, zie [ Adobe Workfront met LDAP ](../../../../administration-and-setup/manage-workfront/security/removal-various-sso-options.md) vormen.
+  Voor meer informatie over het gebruiken van LDAP met Workfront, zie [&#x200B; Adobe Workfront met LDAP &#x200B;](../../../../administration-and-setup/manage-workfront/security/removal-various-sso-options.md) vormen.
 
   <!--
   <MadCap:conditionalText data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">
@@ -233,7 +233,7 @@ De volgende Single Sign-On (SSO)-opties worden nu slechts in beperkte mate onder
 
 * Active Directory
 
-  Voor meer informatie over het gebruiken van Actieve Folder met Workfront, zie [ Adobe Workfront met Actieve Folder ](../../../../administration-and-setup/manage-workfront/security/removal-various-sso-options.md) vormen
+  Voor meer informatie over het gebruiken van Actieve Folder met Workfront, zie [&#x200B; Adobe Workfront met Actieve Folder &#x200B;](../../../../administration-and-setup/manage-workfront/security/removal-various-sso-options.md) vormen
 
   <!--
   <MadCap:conditionalText data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">
@@ -245,7 +245,7 @@ De volgende Single Sign-On (SSO)-opties worden nu slechts in beperkte mate onder
 
 * SAML 1.1
 
-  Voor meer informatie over het gebruiken van SAML 1.1 met Workfront, zie [ Adobe Workfront met SAML 1.1 vormen ](../../../../administration-and-setup/manage-workfront/security/removal-various-sso-options.md)
+  Voor meer informatie over het gebruiken van SAML 1.1 met Workfront, zie [&#x200B; Adobe Workfront met SAML 1.1 vormen &#x200B;](../../../../administration-and-setup/manage-workfront/security/removal-various-sso-options.md)
 
   <!--
   <MadCap:conditionalText data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">
@@ -270,7 +270,7 @@ Hier volgt de verwijderingstijdlijn voor deze SSO-opties:
 
 ### API-versie 3 wordt niet meer ondersteund {#api-version-3-no-longer-supported}
 
-Ondersteuning voor API-versie 3 is in november 2018 beëindigd. Voor meer informatie over het steunprogramma voor versies van Workfront API, zie [ API versioning en steunprogramma ](../../../../wf-api/api/api-version-support-schedule.md)
+Ondersteuning voor API-versie 3 is in november 2018 beëindigd. Voor meer informatie over het steunprogramma voor versies van Workfront API, zie [&#x200B; API versioning en steunprogramma &#x200B;](../../../../wf-api/api/api-version-support-schedule.md)
 
 <!--
 <MadCap:conditionalText data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">
@@ -298,7 +298,7 @@ TLS 1.2 to be required in Workfront
 
 Alle functionaliteit die afhankelijk is van de technologie van de Flash is verwijderd uit Workfront sinds de release van 2018.3 en vervangen door een nieuwe oplossing.
 
-Voor gedetailleerde informatie over de hulpmiddelen van de erfenis Flash en hun vervangingen, zie [ Vervanging van op Flash-gebaseerde hulpmiddelen in Adobe Workfront ](../../../../product-announcements/announcements/announcement-archive/replace-flash-tools.md)
+Voor gedetailleerde informatie over de hulpmiddelen van de erfenis Flash en hun vervangingen, zie [&#x200B; Vervanging van op Flash-gebaseerde hulpmiddelen in Adobe Workfront &#x200B;](../../../../product-announcements/announcements/announcement-archive/replace-flash-tools.md)
 
 <!--
 <MadCap:conditionalText data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">
@@ -309,4 +309,4 @@ Replacement of Flash-based tools in Workfront
 
 ### Q4-product routekaart webinar {#q4-product-roadmap-webinar}
 
-Leer meer over wat tijdens [ Q4 Roadmap webinar ](https://webinars.on24.com/workfront/Q4roadmap?partnerref=announcementcenter) moet komen. Dit webinar vond plaats op 6 november 2019. Klik op de koppeling om de opname op aanvraag te registreren en te bekijken.
+Leer meer over wat tijdens [&#x200B; Q4 Roadmap webinar &#x200B;](https://webinars.on24.com/workfront/Q4roadmap?partnerref=announcementcenter) moet komen. Dit webinar vond plaats op 6 november 2019. Klik op de koppeling om de opname op aanvraag te registreren en te bekijken.

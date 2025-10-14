@@ -17,16 +17,16 @@ De de inhoudsblokken van het Web staan u toe om informatie van externe websites 
 
 ## Vereisten
 
-Alvorens u begint, moet u in de bèta van het Canvas van de Rapportering inschrijven. Voor meer informatie, zie [ Rapporterend de bèta van het Canvas: overzicht ](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
+Alvorens u begint, moet u in de bèta van het Canvas van de Rapportering inschrijven. Voor meer informatie, zie [&#x200B; Rapporterend de bèta van het Canvas: overzicht &#x200B;](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
 
 ## Een webinhoud-blok toevoegen of bewerken
 
-1. Klik het **pictogram van het 1&rbrace; pictogram van het Belangrijkste Menu ![ ](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik** Meldend **.**
+1. Klik het **pictogram van het 1&rbrace; pictogram van het Belangrijkste Menu ![&#x200B; &#x200B;](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik** Meldend **.**
 1. Klik **Nieuw rapport**.
 
    of
 
-   Ga naar een bestaand rapport, klik **Meer** pictogram ![ Meer pictogram ](assets/more-icon-27x15.png) in de rapportkopbal, dan klik **uitgeven**.
+   Ga naar een bestaand rapport, klik **Meer** pictogram ![&#x200B; Meer pictogram &#x200B;](assets/more-icon-27x15.png) in de rapportkopbal, dan klik **uitgeven**.
 
 1. Op de rechterkant van het scherm, onder **voeg een Blok** toe, of:
 
@@ -41,9 +41,9 @@ Alvorens u begint, moet u in de bèta van het Canvas van de Rapportering inschri
    >U kunt de grootte van het blok wijzigen nadat het is geplaatst door de hoekgrepen te slepen.
 
 1. Klik **Naamloze Webinhoud** in de blokkopbal, dan typ een titel voor het blok.
-1. Klik **uitgeven** pictogram ![ uitgeven pictogram ](assets/edit-icon.png) in de blokkopbal.
+1. Klik **uitgeven** pictogram ![&#x200B; uitgeven pictogram &#x200B;](assets/edit-icon.png) in de blokkopbal.
 
-   ![ geef pictogram in blokkopbal uit ](assets/web-content-block-header-350x76.png)
+   ![&#x200B; geef pictogram in blokkopbal uit &#x200B;](assets/web-content-block-header-350x76.png)
 
 1. In het **paneel van Montages** dat opent, ga volledige URL voor de pagina in die u (met inbegrip van &quot;https://&quot;) op het **URL** gebied zou willen tonen.
 

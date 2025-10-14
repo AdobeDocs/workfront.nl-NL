@@ -18,11 +18,11 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [ het Bewijzen ](../../../review-and-approve-work/proofing/proofing.md).
+>Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [&#x200B; het Bewijzen &#x200B;](../../../review-and-approve-work/proofing/proofing.md).
 
 Op de eerste dag van een nieuwe factureringsperiode wordt uw abonnementsfactuur verzonden naar de belangrijkste contactpersoon voor facturatie op uw account en naar het e-mailadres van [!UICONTROL Billing CC] , als u er een hebt gedefinieerd.
 
-De factuur wordt ook weergegeven in de [!UICONTROL Billing] -sectie van uw [!DNL Workfront Proof] -account, die u kunt downloaden. Zie [ de  [!DNL Workfront Proof]  Facturerende Pagina ](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md) als u meer informatie nodig hebt.
+De factuur wordt ook weergegeven in de [!UICONTROL Billing] -sectie van uw [!DNL Workfront Proof] -account, die u kunt downloaden. Zie [&#x200B; de  [!DNL Workfront Proof]  Facturerende Pagina &#x200B;](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md) als u meer informatie nodig hebt.
 
 Je vindt de volgende gegevens op je factuur:
 
@@ -42,7 +42,7 @@ Je vindt de volgende gegevens op je factuur:
 >
 > Als de betaling voor die factuur al is ontvangen (bijvoorbeeld voor automatische creditcardbetalingen), worden de betalingsvoorwaarden en de vervaldatum vermeld als betaald en wordt in de beschrijving een referentienummer voor de betaling vermeld.
 
-We geven standaard al onze automatische facturen voor de abonnementen in USD uit, maar voor alle Britse organisaties nemen we het btw-bedrag (in zowel USD als sterling) in de documenten op. Als u uw abonnementsfacturen volledig in GBP wilt ontvangen, gelieve ons team van Financiën in [ finance@proofhq.com ](mailto:finance@proofhq.com) te contacteren.
+We geven standaard al onze automatische facturen voor de abonnementen in USD uit, maar voor alle Britse organisaties nemen we het btw-bedrag (in zowel USD als sterling) in de documenten op. Als u uw abonnementsfacturen volledig in GBP wilt ontvangen, gelieve ons team van Financiën in [&#x200B; finance@proofhq.com &#x200B;](mailto:finance@proofhq.com) te contacteren.
 
 * [Uw factuur downloaden](#downloading-your-invoice)
 * [Nuttige koppelingen](#useful-links)
@@ -57,8 +57,8 @@ We geven standaard al onze automatische facturen voor de abonnementen in USD uit
 
 ## Nuttige koppelingen {#useful-links}
 
-Als u de factureringsgegevens van uw account wilt wijzigen, gaat u naar de sectie Factureringscontactpersoon en -adres van de facturatiepagina. Zie [ de  [!DNL Workfront]  Pagina van het Factureren van het Bewijs ](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)
+Als u de factureringsgegevens van uw account wilt wijzigen, gaat u naar de sectie Factureringscontactpersoon en -adres van de facturatiepagina. Zie [&#x200B; de  [!DNL Workfront]  Pagina van het Factureren van het Bewijs &#x200B;](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)
 
-Voor informatie over hoe te om de creditcarddetails op uw rekening te veranderen, zie [ Kiezen Uw Methode van de Betaling in Workfront Proof ](../../../workfront-proof/wp-billingsettings/manage-your-billing/choose-payment-method-in-wp.md).
+Voor informatie over hoe te om de creditcarddetails op uw rekening te veranderen, zie [&#x200B; Kiezen Uw Methode van de Betaling in Workfront Proof &#x200B;](../../../workfront-proof/wp-billingsettings/manage-your-billing/choose-payment-method-in-wp.md).
 
 <!--For the detailed information on payments and invoicing, see [Account Payment in Workfront Proof](../../../workfront-proof/wp-billingsettings/manage-your-billing/acct-payment-in-wp.md). -->

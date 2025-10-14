@@ -19,7 +19,7 @@ ht-degree: 0%
 
 Deze sectie bevat de volgende artikelen:
 
-* [ voegt documenten aan Adobe Workfront van uw dossiersysteem ](../../documents/adding-documents-to-workfront/add-documents-from-file-system.md) toe
-* [ de documenten van de Verbinding van externe toepassingen ](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md)
-* [ verwijdert verbindingen tussen Adobe Workfront en externe dienstverleners van de documentopslag ](../../documents/adding-documents-to-workfront/remove-links-between-wf-and-doc-apps.md)
+* [&#x200B; voegt documenten aan Adobe Workfront van uw dossiersysteem &#x200B;](../../documents/adding-documents-to-workfront/add-documents-from-file-system.md) toe
+* [&#x200B; de documenten van de Verbinding van externe toepassingen &#x200B;](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md)
+* [&#x200B; verwijdert verbindingen tussen Adobe Workfront en externe dienstverleners van de documentopslag &#x200B;](../../documents/adding-documents-to-workfront/remove-links-between-wf-and-doc-apps.md)
 * [Een document aanvragen](../../documents/adding-documents-to-workfront/request-a-document.md)

@@ -70,7 +70,7 @@ Voordat u begint, moet u
 
 U kunt een middel van Experience Manager Assets aan Workfront koppelen. Als het element eenmaal is gekoppeld, kunt u
 
-* [ Bewijs van een verbonden activa voor Experience Manager Assets ](../../../documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/enhanced-connector-proof-asset.md)
+* [&#x200B; Bewijs van een verbonden activa voor Experience Manager Assets &#x200B;](../../../documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/enhanced-connector-proof-asset.md)
 * [Een nieuwe versie van een document uploaden](../../../documents/managing-documents/upload-new-document-version.md)
 
 Een element koppelen aan Experience Manager Assets:
@@ -84,7 +84,7 @@ Een element koppelen aan Experience Manager Assets:
 
 1. Selecteer de gewenste elementen.
 
-   ![ Uitgezocht een activa ](assets/select-an-asset.png)
+   ![&#x200B; Uitgezocht een activa &#x200B;](assets/select-an-asset.png)
 
 1. Klik **Verbinding**.
 
@@ -103,7 +103,7 @@ Een map koppelen aan Experience Manager Assets:
 
 1. Selecteer de gewenste mappen.
 
-   ![ selecteer een omslag ](assets/select-a-folder.png)
+   ![&#x200B; selecteer een omslag &#x200B;](assets/select-a-folder.png)
 
 1. Klik **Verbinding**.
 
@@ -127,6 +127,6 @@ Een nieuwe versie koppelen vanuit Experience Manager Assets:
 
 1. Selecteer het gewenste element.
 
-   ![ Uitgezocht een activa ](assets/select-an-asset.png)
+   ![&#x200B; Uitgezocht een activa &#x200B;](assets/select-an-asset.png)
 
 1. Klik **Verbinding**.

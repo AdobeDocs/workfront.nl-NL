@@ -19,7 +19,7 @@ De geplande en werkelijke kosten van de taken en hun arbeidskosten worden bepaal
 
 U kunt het Type van Kosten voor individuele taken binnen het project vormen. Elk kostentype beïnvloedt de Geplande Kosten en de Ware Waarden van Kosten.
 
-Voor informatie over het volgen van kosten in Adobe Workfront, zie [ Kosten van het Spoor ](../../../manage-work/projects/project-finances/track-costs.md).
+Voor informatie over het volgen van kosten in Adobe Workfront, zie [&#x200B; Kosten van het Spoor &#x200B;](../../../manage-work/projects/project-finances/track-costs.md).
 
 ## Toegangsvereisten
 
@@ -65,6 +65,6 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    * Uur gebruiker
    * Rol Uur
 
-   Voor meer informatie over elk type van taakkosten, zie [ Kosten van het Spoor ](../../../manage-work/projects/project-finances/track-costs.md).
+   Voor meer informatie over elk type van taakkosten, zie [&#x200B; Kosten van het Spoor &#x200B;](../../../manage-work/projects/project-finances/track-costs.md).
 
 1. Klik **sparen** **Veranderingen** **.**

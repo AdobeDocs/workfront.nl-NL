@@ -19,7 +19,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [ het Bewijzen ](../../../review-and-approve-work/proofing/proofing.md).
+>Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [&#x200B; het Bewijzen &#x200B;](../../../review-and-approve-work/proofing/proofing.md).
 
 [!DNL Basecamp] is een toonaangevend webgebaseerd programma voor projectbeheer en -samenwerking. Het verstrekt aan-doe lijsten, dossier het delen, tijd het volgen en berichten, programma&#39;s en mijlpalen op een eenvoudige en gebruiksvriendelijke manier.
 

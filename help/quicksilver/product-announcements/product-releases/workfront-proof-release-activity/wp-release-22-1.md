@@ -23,4 +23,4 @@ We hebben een nieuw machtigingsprofiel voor bezoekers toegevoegd aan Workfront P
 
 Gebruikers met een bezoekersprofiel kunnen proefdrukken die met hen worden gedeeld, controleren en goedkeuren. Nochtans, kunnen zij geen contacten of groepen bekijken zoals de Waarnemers kunnen.
 
-Voor meer informatie, zie [ Profielen van de Toestemmingen van de Bewijs in Workfront Proof ](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md).
+Voor meer informatie, zie [&#x200B; Profielen van de Toestemmingen van de Bewijs in Workfront Proof &#x200B;](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md).

@@ -54,7 +54,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -71,13 +71,13 @@ Als u het kalenderrapport met andere gebruikers of teams hebt gedeeld, wordt de 
    1. Typ de naam van een project waarvan u kalendergebeurtenissen wilt toevoegen en klik vervolgens op de naam wanneer deze wordt weergegeven in de vervolgkeuzelijst.
    1. Klik **toevoegen**.
 
-      ![ voeg een project aan een kalender ](assets/add-a-calendar-project.png) toe
+      ![&#x200B; voeg een project aan een kalender &#x200B;](assets/add-a-calendar-project.png) toe
 
 
 1. (Optioneel) Een kalendergroep toevoegen of een bestaande kalendergroep wijzigen:
    1. Klik het **Meer** menu naast de projectnaam, dan klik **uitgeven**.
 
-      ![ geef project in kalender uit ](assets/edit-project-in-calendar.png)
+      ![&#x200B; geef project in kalender uit &#x200B;](assets/edit-project-in-calendar.png)
 
    1. Kies hoe je je objecten wilt groeperen:
 

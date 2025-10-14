@@ -22,7 +22,7 @@ Op deze pagina worden alle wijzigingen beschreven die het laatst beschikbaar zij
 >
 > De op deze pagina beschreven functionaliteit kan worden gewijzigd voordat deze beschikbaar is in de productieomgeving.
 
-Voor een lijst met alle wijzigingen die in 2018.1 zijn aangebracht, raadpleegt u  [ 2018.1 overzicht van de versieactiviteit ](../../../../product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-release-activity-overview.md).
+Voor een lijst met alle wijzigingen die in 2018.1 zijn aangebracht, raadpleegt u  [&#x200B; 2018.1 overzicht van de versieactiviteit &#x200B;](../../../../product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-release-activity-overview.md).
 
 De slotversie van Beta van 2018.1 bevat verbeteringen voor zowel Workfront-beheerders als andere gebruikers:
 
@@ -32,10 +32,10 @@ De slotversie van Beta van 2018.1 bevat verbeteringen voor zowel Workfront-behee
 
 **voor Alle Gebruikers**
 
-* [ Mobiele Verbeteringen ](#mobile-enhancements)
-* [ Integratie Jira ](#jira-integration)
-* [ Update aan het proefdrukken van kijkernamen ](#update-to-proofing-viewer-names)
-* [ Verandering in de Koorden van de Synchronisatie wanneer het Synchroniseren van het Milieu van de Productie van het Proofing aan Voorproef ](#change-to-synchronization-cadence-when-synchronizing-from-the-proofing-production-environment-to-preview)
+* [&#x200B; Mobiele Verbeteringen &#x200B;](#mobile-enhancements)
+* [&#x200B; Integratie Jira &#x200B;](#jira-integration)
+* [&#x200B; Update aan het proefdrukken van kijkernamen &#x200B;](#update-to-proofing-viewer-names)
+* [&#x200B; Verandering in de Koorden van de Synchronisatie wanneer het Synchroniseren van het Milieu van de Productie van het Proofing aan Voorproef &#x200B;](#change-to-synchronization-cadence-when-synchronizing-from-the-proofing-production-environment-to-preview)
 * [Het waarschuwingsbericht wordt weergegeven wanneer de limiet van 2.000 items wordt bereikt in de bronnenplanner](#warning-message-displays-when-the-2-000-item-limit-is-reached-in-the-resource-planner)
 
 ## Verbeteringen voor mobiele apparaten {#mobile-enhancements}
@@ -59,7 +59,7 @@ U kunt het volgende door deze integratie vormen:
 
 De invoegtoepassing Workfront is beschikbaar voor zowel de On-Premise- als On-Demand-versies van Jira. De add-on is gratis en kan begin maart 2018 worden gedownload op de Atlassiaanse markt.
 
-Voor meer informatie over Workfront toe:voegen-on voor Jira, met inbegrip van een verbinding om het te downloaden, zie [ Gebruikend Workfront met Jira.](https://support.workfront.com/hc/en-us/sections/115001130053)
+Voor meer informatie over Workfront toe:voegen-on voor Jira, met inbegrip van een verbinding om het te downloaden, zie [&#x200B; Gebruikend Workfront met Jira.](https://support.workfront.com/hc/en-us/sections/115001130053)
 
 ## Bijwerken naar proofing van viewernamen {#update-to-proofing-viewer-names}
 
@@ -72,13 +72,13 @@ De namen van de op HTML5 gebaseerde testviewer en de op Flash gebaseerde testvie
 
 {style="table-layout:auto"}
 
- Voor meer informatie over het gebruiken van de nieuwe het proefKijker, zie [ het Reviseren Proofs in de het proefKijker.](https://support.workfront.com/hc/en-us/sections/115000275214)
+ Voor meer informatie over het gebruiken van de nieuwe het proefKijker, zie [&#x200B; het Reviseren Proofs in de het proefKijker.](https://support.workfront.com/hc/en-us/sections/115000275214)
 
 ## Vorm de Beschikbaarheid van het Middel en de Toewijzingen van de Gebruiker om Gebaseerd op het Programma van de Gebruiker te berekenen {#configure-resource-availability-and-user-allocations-to-calculate-based-on-the-user-schedule}
 
 >[!NOTE]
 >
->De hulpmiddelen van de Planning van het Middel zijn afgekeurd en uit Workfront met versie 23.1 verwijderd. Voor informatie over het plannen van middelen die de Balancer van de Werklast gebruiken, zie [ Overzicht van de Balancer van de Werkbelasting ](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+>De hulpmiddelen van de Planning van het Middel zijn afgekeurd en uit Workfront met versie 23.1 verwijderd. Voor informatie over het plannen van middelen die de Balancer van de Werklast gebruiken, zie [&#x200B; Overzicht van de Balancer van de Werkbelasting &#x200B;](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
 
 De Workfront-beheerder kan nu bepalen hoe Workfront de beschikbaarheid van bronnen en de gebruikerstoewijzing op systeemniveau berekent (rekening houdend met uren en beschikbaarheid van FTE). De beheerder van Workfront kan middelbeschikbaarheid en gebruikerstoewijzing vormen die of gebruikend het standaardprogramma of het programma van de gebruiker worden berekend.
 
@@ -92,7 +92,7 @@ Voor meer informatie, zie &quot;vormen hoe Workfront middeluur en VTE beschikbaa
 
 >[!NOTE]
 >
->De hulpmiddelen van de Planning van het Middel zijn afgekeurd en uit Workfront met versie 23.1 verwijderd. Voor informatie over het plannen van middelen die de Balancer van de Werklast gebruiken, zie [ Overzicht van de Balancer van de Werkbelasting ](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+>De hulpmiddelen van de Planning van het Middel zijn afgekeurd en uit Workfront met versie 23.1 verwijderd. Voor informatie over het plannen van middelen die de Balancer van de Werklast gebruiken, zie [&#x200B; Overzicht van de Balancer van de Werkbelasting &#x200B;](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
 
 
 ## Wijzigen in Synchronisatie-kring bij synchroniseren van de Proofingproductieomgeving naar Voorvertoning {#change-to-synchronization-cadence-when-synchronizing-from-the-proofing-production-environment-to-preview}
@@ -105,7 +105,7 @@ Gegevens uit de Workfront Proof Production-omgeving worden nu elke week gesynchr
 
 Vóór deze wijziging werden de gegevens maandelijks gesynchroniseerd van de Workfront Proof Production-omgeving naar de Preview-omgeving, terwijl de gegevens van de Workfront Production-omgeving wekelijks werden gesynchroniseerd met de Workfront Preview-omgeving. Deze discrepantie veroorzaakte enkele synchronisatiefouten bij het gebruik van Proofing-functionaliteit in de Workfront Preview-omgeving. 
 
-Voor meer informatie, zie [ het Testen van Sandbox van de Voorproef Milieu - Workfront Proof ](../../../../workfront-proof/wp-getstarted/system-information/preview-sandbox.md). 
+Voor meer informatie, zie [&#x200B; het Testen van Sandbox van de Voorproef Milieu - Workfront Proof &#x200B;](../../../../workfront-proof/wp-getstarted/system-information/preview-sandbox.md). 
 
 ## Het waarschuwingsbericht wordt weergegeven wanneer de limiet van 2.000 items wordt bereikt in de bronnenplanner {#warning-message-displays-when-the-2-000-item-limit-is-reached-in-the-resource-planner}
 

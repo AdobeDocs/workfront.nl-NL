@@ -22,17 +22,17 @@ Op deze pagina worden alle wijzigingen beschreven die het laatst beschikbaar zij
 >
 >De op deze pagina beschreven functionaliteit kan worden gewijzigd voordat deze beschikbaar is in de productieomgeving.
 
-Voor een lijst van alle veranderingen die in 2018.2 worden aangebracht, zie [ 2018.2 overzicht van de versieactiviteit ](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-release-activity-overview.md).
+Voor een lijst van alle veranderingen die in 2018.2 worden aangebracht, zie [&#x200B; 2018.2 overzicht van de versieactiviteit &#x200B;](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-release-activity-overview.md).
 
 De Beta 1-release van 2018.2 bevat de volgende verbeteringen:
 
-* [ wijzig de Datums van de Taak in de Grafiek van Gantt ](#modify-task-dates-in-the-gantt-chart)
-* [ heb toegang tot de Grafiek van Gantt van het Project van het Lusje van Updates ](#access-the-project-gantt-chart-from-the-updates-tab) (tijdelijk Verwijderd)
+* [&#x200B; wijzig de Datums van de Taak in de Grafiek van Gantt &#x200B;](#modify-task-dates-in-the-gantt-chart)
+* [&#x200B; heb toegang tot de Grafiek van Gantt van het Project van het Lusje van Updates &#x200B;](#access-the-project-gantt-chart-from-the-updates-tab) (tijdelijk Verwijderd)
 
-* [ Diverse Verbindingen opnieuw geïntroduceerd aan Documenten op de Lijst van het Document ](#various-links-re-introduced-to-documents-on-the-document-list)
+* [&#x200B; Diverse Verbindingen opnieuw geïntroduceerd aan Documenten op de Lijst van het Document &#x200B;](#various-links-re-introduced-to-documents-on-the-document-list)
 * {de Verbeteringen van de Mening van 0} Gebruiker in de Planner van het Middel [&#128279;](#user-view-improvements-in-the-resource-planner)
-* [ Nieuwe Ervaring van de Lijst van het Project ](#new-project-list-experience)
-* [ Nieuw zoek het Lusje van Updates ](#new-look-for-updates-tab)
+* [&#x200B; Nieuwe Ervaring van de Lijst van het Project &#x200B;](#new-project-list-experience)
+* [&#x200B; Nieuw zoek het Lusje van Updates &#x200B;](#new-look-for-updates-tab)
 * [Mobiele verbeteringen](#mobile-improvements)
 
 ## Taakdatums wijzigen in Gantt-diagram {#modify-task-dates-in-the-gantt-chart}
@@ -41,7 +41,7 @@ U kunt nu de taakballon slepen om de Geplande Begin en Geplande Aantal van de Vo
 
 Voordat u deze wijziging aanbrengt, kunt u de taakdatums alleen in de takenlijst of op taakniveau wijzigen.
 
-Voor meer informatie, zie [ informatie van de Update in de Grafiek van Gantt van de taaklijst ](../../../../manage-work/gantt-chart/use-the-gantt-chart/update-info-task-list-gantt.md).
+Voor meer informatie, zie [&#x200B; informatie van de Update in de Grafiek van Gantt van de taaklijst &#x200B;](../../../../manage-work/gantt-chart/use-the-gantt-chart/update-info-task-list-gantt.md).
 
 ## Open de Grafiek van de Gantt van het Project van het Lusje van Updates {#access-the-project-gantt-chart-from-the-updates-tab}
 
@@ -53,9 +53,9 @@ U kunt tot de nieuwe grafiek van projectwantt van de Updates nu toegang hebben t
 
 Vóór deze verandering, opende de verbinding van de Chronologie van het Project de Oudere Grafiek van Gantt.
 
-Voor meer informatie, zie [ Overzicht van de Datum van het Vastleggen ](../../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
+Voor meer informatie, zie [&#x200B; Overzicht van de Datum van het Vastleggen &#x200B;](../../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
 
-Voor meer informatie, zie [ Portfolio Optimizer overzicht ](../../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md).
+Voor meer informatie, zie [&#x200B; Portfolio Optimizer overzicht &#x200B;](../../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md).
 
 ## Verschillende koppelingen worden opnieuw geïntroduceerd in documenten in de documentlijst {#various-links-re-introduced-to-documents-on-the-document-list}
 
@@ -94,7 +94,7 @@ De volgende functionaliteit is tijdelijk uitgeschakeld in de bronnenplanner:
 
 Voorafgaand aan deze verbeteringen, hebt u gemeld dat de Planner van het Middel langzaam te laden was en dat u incongruenties in de getoonde gegevens had opgemerkt. Deze verbeteringen moeten nu worden opgeheven.
 
-Voor meer informatie over de gebieden van de Planner van het Middel, zie [ het navigatieoverzicht van de Planner van het Middel ](../../../../resource-mgmt/resource-planning/resource-planner-navigation.md).
+Voor meer informatie over de gebieden van de Planner van het Middel, zie [&#x200B; het navigatieoverzicht van de Planner van het Middel &#x200B;](../../../../resource-mgmt/resource-planning/resource-planner-navigation.md).
 
 <!--
 <p dir="ltr" data-mc-conditions="QuicksilverOrClassic.Draft mode">To participate in our current beta program and give us feedback on the functionality of the Resource Planner, see <a href="../../../../product-announcements/betas/resource-planner-performance-beta.md" class="MCXref xref">Resource Planner performance beta </a></p>
@@ -123,7 +123,7 @@ De volgende functies zijn tijdelijk uitgeschakeld in de opgegeven projectlijsten
 * Statuspictogramvelden worden als leeg weergegeven (deze functionaliteit is opnieuw geïntroduceerd in de Beta 5-release van 2018.2)
 * Het Gantt-diagram is niet toegankelijk (deze functionaliteit is opnieuw geïntroduceerd in de Beta 3-release van 2018.2.)
 
-Voor meer informatie over het werken in lijsten, zie [ begonnen worden met lijsten in Adobe Workfront ](../../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
+Voor meer informatie over het werken in lijsten, zie [&#x200B; begonnen worden met lijsten in Adobe Workfront &#x200B;](../../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
 
 ## Nieuw tabblad Zoeken naar updates {#new-look-for-updates-tab}
 

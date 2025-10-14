@@ -20,9 +20,9 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [ het Bewijzen ](../../../review-and-approve-work/proofing/proofing.md).
+>Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [&#x200B; het Bewijzen &#x200B;](../../../review-and-approve-work/proofing/proofing.md).
 
-U hebt een abonnement op Selecteren of Premium [!DNL Workfront] nodig om deze functie te kunnen gebruiken. Voor meer informatie over de diverse beschikbare plannen, zie [ Abonnementen van Workfront ](https://business.adobe.com/products/workfront/pricing.html).
+U hebt een abonnement op Selecteren of Premium [!DNL Workfront] nodig om deze functie te kunnen gebruiken. Voor meer informatie over de diverse beschikbare plannen, zie [&#x200B; Abonnementen van Workfront &#x200B;](https://business.adobe.com/products/workfront/pricing.html).
 
 Met aangepaste velden kunt u aanvullende gegevens vastleggen wanneer u een nieuwe proefdruk, een nieuwe gebruiker of een nieuwe gast maakt. Gebruikers die bijvoorbeeld een nieuwe proefdruk maken, willen mogelijk een extra sectie toevoegen waarmee ze een taaknummer, afdelingscode of leverancierverwijzing kunnen vastleggen.
 
@@ -48,7 +48,7 @@ Met aangepaste velden kunt u aanvullende gegevens vastleggen wanneer u een nieuw
 
 1. Klik op het tabblad **[!UICONTROL Custom fields settings]** om de pagina te vernieuwen. De nieuwe sectie van het douanegebied toont onder zijn toegewezen module.
 
-   ![ de montages tabel van de Douane gebieden ](assets/custom-field-settings-tab.png)
+   ![&#x200B; de montages tabel van de Douane gebieden &#x200B;](assets/custom-field-settings-tab.png)
 
 1. Klik de naam van uw nieuwe sectie van het douanegebied om de **sectie van de gebieden van de Douane** tabel te openen.
 
@@ -72,8 +72,8 @@ Met aangepaste velden kunt u aanvullende gegevens vastleggen wanneer u een nieuw
 
 1. Wijzig desgewenst de instellingen voor het veld:
 
-   * Verberg of unhide de sectie van het douanegebied door **Meer** ![ ](assets/more-button-small.png) menu aan het recht van de naam van de de douaneveld sectiesectie te klikken **[!UICONTROL Hide section]** of **[!UICONTROL Unhide section]**.
-   * Verberg of unhide het douaneveld door **Meer** ![ ](assets/more-button-small.png) menu aan het recht van de naam van de douaneveld sectiesectie te klikken, dan klikkend **[!UICONTROL Hide custom field]** of **[!UICONTROL Unhide custom field]**.
+   * Verberg of unhide de sectie van het douanegebied door **Meer** ![&#x200B; &#x200B;](assets/more-button-small.png) menu aan het recht van de naam van de de douaneveld sectiesectie te klikken **[!UICONTROL Hide section]** of **[!UICONTROL Unhide section]**.
+   * Verberg of unhide het douaneveld door **Meer** ![&#x200B; &#x200B;](assets/more-button-small.png) menu aan het recht van de naam van de douaneveld sectiesectie te klikken, dan klikkend **[!UICONTROL Hide custom field]** of **[!UICONTROL Unhide custom field]**.
    * Wijzig de volgorde van de velden met de pijlen omhoog en omlaag die rechts van de naam worden weergegeven (als u meerdere velden hebt toegevoegd aan een sectie).
 
 1. Klik op de tab **[!UICONTROL Visibility rules]** .

@@ -47,15 +47,15 @@ For specific release dates and times for each cluster, see the
 
 ## Verbeteringen voor Adobe Workfront
 
-* [ het brandmerken verandert - Adobe Workfront ](#branding-changes-adobe-workfront)
-* [ de verhogingen van de Beheerder ](#administrator-enhancements)
-* [ de verhogingen van het Project ](#project-enhancements)
-* [ Verbeteringen van verzoeken ](#requests-enhancements)
-* [ Verbeteringen van het Beheer van het Middel ](#resource-management-enhancements)
-* [ Meldend verhogingen ](#reporting-enhancements)
-* [ het Proofing verhogingen ](#proofing-enhancements)
-* [ de verhogingen van de Integratie ](#integration-enhancements)
-* [ Andere verhogingen ](#other-enhancements)
+* [&#x200B; het brandmerken verandert - Adobe Workfront &#x200B;](#branding-changes-adobe-workfront)
+* [&#x200B; de verhogingen van de Beheerder &#x200B;](#administrator-enhancements)
+* [&#x200B; de verhogingen van het Project &#x200B;](#project-enhancements)
+* [&#x200B; Verbeteringen van verzoeken &#x200B;](#requests-enhancements)
+* [&#x200B; Verbeteringen van het Beheer van het Middel &#x200B;](#resource-management-enhancements)
+* [&#x200B; Meldend verhogingen &#x200B;](#reporting-enhancements)
+* [&#x200B; het Proofing verhogingen &#x200B;](#proofing-enhancements)
+* [&#x200B; de verhogingen van de Integratie &#x200B;](#integration-enhancements)
+* [&#x200B; Andere verhogingen &#x200B;](#other-enhancements)
 * [Verbeteringen voor mobiele apparaten](#mobile-enhancements)
 
 ### Wijzigingen in branding - Adobe Workfront {#branding-changes-adobe-workfront}
@@ -430,7 +430,7 @@ For specific release dates and times for each cluster, see the
 
 ## Verbeteringen voor Workfront-doelen
 
-De meeste nieuwe functies die beschikbaar zijn in de Workfront Goals release met 21.2 release. Voor informatie over deze nieuwe eigenschappen nu beschikbaar in Voorproef, zie [ de Doelen van Adobe Workfront met de 21.2 versie ](../../../product-announcements/product-releases/goals-release-activity/goals-21.2-release/goals-release-21-2.md).
+De meeste nieuwe functies die beschikbaar zijn in de Workfront Goals release met 21.2 release. Voor informatie over deze nieuwe eigenschappen nu beschikbaar in Voorproef, zie [&#x200B; de Doelen van Adobe Workfront met de 21.2 versie &#x200B;](../../../product-announcements/product-releases/goals-release-activity/goals-21.2-release/goals-release-21-2.md).
 
 ## Verbeteringen in Workfront Scenario Planner
 
@@ -438,17 +438,17 @@ De meeste nieuwe functies die beschikbaar zijn in de Workfront Goals release met
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">There are no Scenario Planner updates at this point in the release. This area will be updated when updates are available.</p>
 -->
 
-Nieuwe functies die beschikbaar zijn in de Workfront Scenario Planner-release met 21.2. Voor informatie over deze nieuwe eigenschappen nu beschikbaar in Voorproef, zie [ de Planner van het Scenario van Adobe Workfront met de 21.2 versie ](../../../product-announcements/product-releases/scenario-planner-release-activity/sp-release-21-2.md).
+Nieuwe functies die beschikbaar zijn in de Workfront Scenario Planner-release met 21.2. Voor informatie over deze nieuwe eigenschappen nu beschikbaar in Voorproef, zie [&#x200B; de Planner van het Scenario van Adobe Workfront met de 21.2 versie &#x200B;](../../../product-announcements/product-releases/scenario-planner-release-activity/sp-release-21-2.md).
 
 ## Workfront Fusion-verbeteringen
 
-Nieuwe functies in Workfront Fusion zijn beschikbaar in Production op een cadence buiten de releaseplanning van 21.2. Voor meer informatie over de recentste eigenschappen, zie [ de versieactiviteit van de Fusie van Adobe Workfront ](https://experienceleague.adobe.com/nl/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)
+Nieuwe functies in Workfront Fusion zijn beschikbaar in Production op een cadence buiten de releaseplanning van 21.2. Voor meer informatie over de recentste eigenschappen, zie [&#x200B; de versieactiviteit van de Fusie van Adobe Workfront &#x200B;](https://experienceleague.adobe.com/nl/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)
 
 ## API-versie 13
 
 Voor API versie 13 hebben we verschillende bronnen en eindpunten gewijzigd. Sommige wijzigingen ondersteunen nieuwe functionaliteit en andere maken het voor u gemakkelijker om de informatie te gebruiken die beschikbaar is via de API.
 
-Voor informatie over wat nieuw en bijgewerkt is, zie [ wat in API versie 13 ](../../../wf-api/api/new-api-version-13.md) nieuw is.
+Voor informatie over wat nieuw en bijgewerkt is, zie [&#x200B; wat in API versie 13 &#x200B;](../../../wf-api/api/new-api-version-13.md) nieuw is.
 
 ## Uit productie genomen functies
 
@@ -470,6 +470,6 @@ Vergelijkbare functionaliteit voor het eenvoudig kopiëren van bestaande workflo
 
 Nu de ondersteuning voor Internet Explorer is afgeschaft, biedt Workfront nu officieel ondersteuning voor Microsoft Edge.
 
-Voor meer informatie over gesteunde browsers, zie [ browser van Adobe Workfront vereisten ](../../../workfront-basics/workfront-browser-requirements.md).
+Voor meer informatie over gesteunde browsers, zie [&#x200B; browser van Adobe Workfront vereisten &#x200B;](../../../workfront-basics/workfront-browser-requirements.md).
 
  

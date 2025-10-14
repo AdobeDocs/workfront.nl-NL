@@ -22,7 +22,7 @@ Nee. De Desktop Proofing Viewer is speciaal ontworpen voor realtime proofing van
 
 Nochtans, in uw organisatie installeert het, merk op dat het ook kan worden gebruikt voor het proef van om het even welke andere types van gesteunde statische en videoinhoud. 
 
-Voor meer informatie, zie [ Verschillen tussen de Web Proofing Kijker en het Overzicht van de Kijker van het Proofing van de Desktop ](../../../review-and-approve-work/proofing/proofing-overview/understand-differences-between-web-viewer.md)
+Voor meer informatie, zie [&#x200B; Verschillen tussen de Web Proofing Kijker en het Overzicht van de Kijker van het Proofing van de Desktop &#x200B;](../../../review-and-approve-work/proofing/proofing-overview/understand-differences-between-web-viewer.md)
 
 ## Mijn organisatie staat gebruikers niet toe om toepassingen te installeren. Is er een manier om dit te omzeilen met de Desktop Proofing Viewer?
 
@@ -38,7 +38,7 @@ Zie voor meer informatie
 
 Open een interactieve proefdruk en download de app rechtstreeks van het scherm van de Lancering.
 
-![ het scherm van de Lancering ](assets/mceclip0-350x114.png) 
+![&#x200B; het scherm van de Lancering &#x200B;](assets/mceclip0-350x114.png) 
 
 ## Moet ik voor nieuwe versies van de Desktop Viewer opnieuw installeren?
 

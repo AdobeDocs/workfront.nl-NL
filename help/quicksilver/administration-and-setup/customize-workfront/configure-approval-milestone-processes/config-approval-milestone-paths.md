@@ -21,8 +21,8 @@ ht-degree: 0%
 
 Deze sectie bevat de volgende artikelen:
 
-* [ creeer een goedkeuringsproces voor het werkpunten ](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md)
-* [ geef een goedkeuringsproces ](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/edit-an-approval-process.md) uit
+* [&#x200B; creeer een goedkeuringsproces voor het werkpunten &#x200B;](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md)
+* [&#x200B; geef een goedkeuringsproces &#x200B;](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/edit-an-approval-process.md) uit
 * [Algemene goedkeuringsinstellingen configureren](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md)
-* [ hoe de groep en de veranderingen van het goedkeuringsproces toegewezen goedkeuringsprocessen beïnvloeden ](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md)
+* [&#x200B; hoe de groep en de veranderingen van het goedkeuringsproces toegewezen goedkeuringsprocessen beïnvloeden &#x200B;](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md)
 * [Een milestone-pad maken](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md)

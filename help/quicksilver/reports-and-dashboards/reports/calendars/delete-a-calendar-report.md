@@ -52,7 +52,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -61,7 +61,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 1. Ga naar de kalender die u wilt verwijderen.
 1. Klik het **Meer** menu naast het drop-down menu van de Kalender.
-   ![ kalender meer menu ](assets/more-menu-calendar.png)
+   ![&#x200B; kalender meer menu &#x200B;](assets/more-menu-calendar.png)
 
 1. Selecteer **[!UICONTROL Delete]** in de vervolgkeuzelijst.
 1. Klik op **[!UICONTROL Delete]**.

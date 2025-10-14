@@ -21,5 +21,5 @@ ht-degree: 0%
 
 Deze sectie bevat de volgende artikelen:
 
-* [ merk uw instantie van Adobe Workfront ](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md)
+* [&#x200B; merk uw instantie van Adobe Workfront &#x200B;](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md)
 * [Een aangepaste Help-URL configureren](../../../administration-and-setup/customize-workfront/brand-workfront/configure-custom-help-url.md)

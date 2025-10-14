@@ -52,7 +52,7 @@ De instellingen die bepalen hoe u e-mailwaarschuwingen over proefdrukopmerkingen
 >
 >Deze opties zijn alleen van toepassing op e-mailwaarschuwingen die u kunt ontvangen over proefdrukopmerkingen en -beslissingen. Ze hebben geen invloed op de e-mailwaarschuwingen die u kunt ontvangen over de stroom van een proefdruk, zoals de e-mail Nieuwe proefdruk of Laatste proefdruk. Raadpleeg de volgende artikelen voor meer informatie over e-mailwaarschuwingen met betrekking tot de stroom van een bewijs:
 >
->* [ Nieuwe proefdruk e-mail ](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/new-proof-email.md)
->* [ Nieuwe Versie e-mail ](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/new-version-email.md)
->* [ Late proefdruk e-mail ](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/late-proof-email.md)
->* [ Made e-mail van het Bewijs ](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/proof-made-email.md)
+>* [&#x200B; Nieuwe proefdruk e-mail &#x200B;](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/new-proof-email.md)
+>* [&#x200B; Nieuwe Versie e-mail &#x200B;](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/new-version-email.md)
+>* [&#x200B; Late proefdruk e-mail &#x200B;](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/late-proof-email.md)
+>* [&#x200B; Made e-mail van het Bewijs &#x200B;](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/proof-made-email.md)

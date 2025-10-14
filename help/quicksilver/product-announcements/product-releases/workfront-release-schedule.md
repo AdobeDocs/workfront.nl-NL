@@ -30,29 +30,29 @@ De uitgiften vinden typisch rond 8-10 PMijd de Berg Tijd van de VS plaats.
 
 Adobe Workfront heeft twee modellen voor het uitbrengen van nieuwe functies en updates. Uw organisatie kan kiezen of nieuwe functionaliteit op een driemaandelijkse basis, of op een sneller versieschema wordt ontvangen.
 
-Voorzien wordt dat maandelijkse en driemaandelijkse versies beschikbaar zullen zijn op de donderdag van de tweede volledige week van de maand, tenzij anders vermeld. Voor aanstaande data, zie het meest recente [ Overzicht van de Versie ](/help/quicksilver/product-announcements/product-releases/product-releases.md).
+Voorzien wordt dat maandelijkse en driemaandelijkse versies beschikbaar zullen zijn op de donderdag van de tweede volledige week van de maand, tenzij anders vermeld. Voor aanstaande data, zie het meest recente [&#x200B; Overzicht van de Versie &#x200B;](/help/quicksilver/product-announcements/product-releases/product-releases.md).
 
 De versies vinden typisch rond 8-10 PMonberispelijke Tijd in de VS de avond vóór de versiedatum plaats.
 
 Functies in Voorvertoning worden gewoonlijk bij de volgende release beschikbaar gesteld in uw productieomgeving. In sommige gevallen worden functies echter buiten een geplande release beschikbaar gesteld in de productieomgeving. Deze wijzigingen blijven meestal minimaal twee weken in Voorvertoning staan, zodat u voldoende tijd hebt om op de hoogte te blijven van de wijzigingen.
 
-Voor meer informatie over driemaandelijkse en snelle versieprocessen, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken.
+Voor meer informatie over driemaandelijkse en snelle versieprocessen, zie [&#x200B; snelle versies voor uw organisatie &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken.
 
 ### Onderhoudsupdates
 
-Problemen met het Adobe Workfront-product worden wekelijks in de productieomgeving opgelost. Zie de [ Workfront onderhoudsupdates ](https://experienceleague.adobe.com/nl/docs/workfront-known-issues/releases/current-updates) pagina om te zien wat onlangs is bevestigd.
+Problemen met het Adobe Workfront-product worden wekelijks in de productieomgeving opgelost. Zie de [&#x200B; Workfront onderhoudsupdates &#x200B;](https://experienceleague.adobe.com/nl/docs/workfront-known-issues/releases/current-updates) pagina om te zien wat onlangs is bevestigd.
 
 ## Functies die zijn verwijderd uit een geplande release
 
 Alle functies die bij een bepaalde release horen (maandelijks of driemaandelijks) kunnen minimaal 2 tot 4 weken voorafgaand aan de definitieve release naar Production in Voorbeeld worden getest. Als functies voor deze tijd uit de geplande release worden verwijderd, worden de volgende acties uitgevoerd om klanten op de hoogte te stellen:
 
-* De versienota&#39;s voor de geplande versie (die van de [ versies van het Product ](../../product-announcements/product-releases/product-releases.md) wordt gevonden pagina) worden bijgewerkt om erop te wijzen dat de eigenschap werd verwijderd.
+* De versienota&#39;s voor de geplande versie (die van de [&#x200B; versies van het Product &#x200B;](../../product-announcements/product-releases/product-releases.md) wordt gevonden pagina) worden bijgewerkt om erop te wijzen dat de eigenschap werd verwijderd.
 
 Als functies uit de geplande release worden verwijderd nadat alle functies beschikbaar zijn om te testen in Voorvertoning, worden de volgende acties uitgevoerd om klanten te informeren:
 
-* De versienota&#39;s voor de versie (die van de [ versies van het Product ](../../product-announcements/product-releases/product-releases.md) wordt gevonden pagina) worden bijgewerkt om erop te wijzen dat de eigenschap werd verwijderd.
+* De versienota&#39;s voor de versie (die van de [&#x200B; versies van het Product &#x200B;](../../product-announcements/product-releases/product-releases.md) wordt gevonden pagina) worden bijgewerkt om erop te wijzen dat de eigenschap werd verwijderd.
 * Er wordt een artikel toegevoegd aan de Workfront Community waarin staat dat dit onderdeel is verwijderd.
-* Er wordt een bericht naar alle klanten verzonden via het Aankondigingscentrum waarin staat dat de functie is verwijderd. (Het Aankondigingscentrum is Workfront in-app meldingscentrum. Voor meer informatie, zie [ aankondigingen ](../../administration-and-setup/get-started-wf-administration/view-send-announcements.md) verzenden.)
+* Er wordt een bericht naar alle klanten verzonden via het Aankondigingscentrum waarin staat dat de functie is verwijderd. (Het Aankondigingscentrum is Workfront in-app meldingscentrum. Voor meer informatie, zie [&#x200B; aankondigingen &#x200B;](../../administration-and-setup/get-started-wf-administration/view-send-announcements.md) verzenden.)
 
 ## Beta-releases
 
@@ -82,7 +82,7 @@ Voor informatie over de nota&#39;s van de productversie, zie {de versies van het
 
 Soms geeft Workfront functies vrij die mogelijk niet worden gedocumenteerd in de opmerkingen bij de release, onderhoudsupdates of in de documentatieartikelen. Dit gebeurt in een poging om nieuwe eigenschappen te testen alvorens hen permanent te maken. Gewoonlijk worden deze tests vrijgegeven aan een beperkt aantal klanten, maar er kan een tijd zijn wanneer zij aan iedereen zouden kunnen worden vrijgegeven. Deze bestanden kunnen worden vrijgegeven voor de voorvertoning of de productieomgeving.
 
-Als u iets in het systeem tegenkomt dat niet overeenkomt met de documentatie en waarover u vragen hebt, vragen wij u contact op te nemen met ons klantenondersteuningsteam. Voor meer informatie, zie [ de Steun van de Klant van het Contact ](../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).
+Als u iets in het systeem tegenkomt dat niet overeenkomt met de documentatie en waarover u vragen hebt, vragen wij u contact op te nemen met ons klantenondersteuningsteam. Voor meer informatie, zie [&#x200B; de Steun van de Klant van het Contact &#x200B;](../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).
 
 ## Opmerkingen bij de release
 
@@ -97,4 +97,4 @@ De releaseopmerkingen bevatten een tabel met een lijst met functies in de linker
 
 Bijvoorbeeld:
 
-![ de versienota van het Voorbeeld ](assets/release-notes-350x189.png)
+![&#x200B; de versienota van het Voorbeeld &#x200B;](assets/release-notes-350x189.png)

@@ -16,7 +16,7 @@ ht-degree: 0%
 
 # Overzicht van taakafhankelijkheidslus
 
-Wanneer het toevoegen van predecessor verhoudingen aan taken zou u gebiedsdeellijnen kunnen ontmoeten. Voor informatie over predecessors, zie [ Overzicht van taakvoordecessors ](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md).
+Wanneer het toevoegen van predecessor verhoudingen aan taken zou u gebiedsdeellijnen kunnen ontmoeten. Voor informatie over predecessors, zie [&#x200B; Overzicht van taakvoordecessors &#x200B;](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md).
 
 ## Overzicht van afhankelijkheidslus
 

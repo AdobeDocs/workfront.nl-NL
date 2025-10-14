@@ -34,7 +34,7 @@ Het is mogelijk dat een van de volgende drie elementen ontbreekt in het Kick-Sta
 
 Wanneer het werken met Kick-Starts, adviseren wij eerst om het Kick-start Malplaatje te downloaden, manueel het met de correcte gegevens te bevolken en dan het terug in Adobe Workfront in te voeren.
 
-Voor meer informatie over het correct invoeren van gegevens in Workfront die Kick-Begint gebruiken, zie [ Gegevens van de Invoer in Adobe Workfront gebruikend een Kick-Begin malplaatje ](../../../administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
+Voor meer informatie over het correct invoeren van gegevens in Workfront die Kick-Begint gebruiken, zie [&#x200B; Gegevens van de Invoer in Adobe Workfront gebruikend een Kick-Begin malplaatje &#x200B;](../../../administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
 
 ## Waarom ontvang ik deze fout bij het importeren van uren naar Workfront met behulp van een Kick-Start-bestand: &quot;Gebruiker met primaire-sleutelwaarde(n) &quot;null&quot; niet gevonden?&quot;
 
@@ -45,7 +45,7 @@ De fout verwijst naar GUID van de gebruiker die met de uren wordt geassocieerd.
 Om dit aan te pakken:
 
 1. Exporteer een leeg Kick-Begin malplaatje voor het **slechts 1&rbrace; voorwerp van Uren &lbrace;.**\
-   Voor meer informatie over het uitvoeren van een leeg Kick-Begin Dossier, zie &quot;het Uitvoeren van het Sjabloon van het Kick-Begin&quot;in [ Gegevens van de Invoer in Adobe Workfront gebruikend een Kick-Begin malplaatje ](../../../administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
+   Voor meer informatie over het uitvoeren van een leeg Kick-Begin Dossier, zie &quot;het Uitvoeren van het Sjabloon van het Kick-Begin&quot;in [&#x200B; Gegevens van de Invoer in Adobe Workfront gebruikend een Kick-Begin malplaatje &#x200B;](../../../administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
 
 1. Kopieer de gegevens handmatig van het originele Kick-Start en plak deze in het lege bestand.\
    Doe dit voor elke kolom.
@@ -62,4 +62,4 @@ Wanneer het invoeren van een Kick-Begin van de Gebruiker met het gebied **setCou
 
 Als de gebruiker voor het Verenigde Beheer van de Gebruiker (UUM) of Systeem van Identity Management van de Adobe (IMS) wordt toegelaten, keurt het **gebied van het Land** slechts landcodewaarden (bijvoorbeeld, V.S., GB, IN) goed. Verifieer dat het **setCountry** gebied in uw Kick-Begin malplaatje landcodewaarden alvorens u invoert gebruikt.
 
-Voor meer informatie over het correct invoeren van gegevens in Workfront die Kick-Begint gebruiken, zie [ Gegevens van de Invoer in Adobe Workfront gebruikend een Kick-Begin malplaatje ](/help/quicksilver/administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
+Voor meer informatie over het correct invoeren van gegevens in Workfront die Kick-Begint gebruiken, zie [&#x200B; Gegevens van de Invoer in Adobe Workfront gebruikend een Kick-Begin malplaatje &#x200B;](/help/quicksilver/administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).

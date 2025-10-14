@@ -24,7 +24,7 @@ Op de pagina Documentdetails kunt u de eigenschappen van een document dat is gek
 
 1. Beweeg over het document, dan klik **Details van het Document**.
 
-   ![ de details van het Document ](assets/document-details-350x179.png)
+   ![&#x200B; de details van het Document &#x200B;](assets/document-details-350x179.png)
 
 ## Basishandelingen uitvoeren voor documenten en proefdrukken
 
@@ -37,7 +37,7 @@ U kunt de volgende handelingen uitvoeren voor zowel documenten als proefdrukken 
 * De documentbeschrijving bewerken
 * Een document inchecken of uitchecken
 
-Bovendien kunt u het Meer pictogram ![ Meer menu ](assets/more-icon.png) naast de documentnaam gebruiken om de volgende acties uit te voeren:
+Bovendien kunt u het Meer pictogram ![&#x200B; Meer menu &#x200B;](assets/more-icon.png) naast de documentnaam gebruiken om de volgende acties uit te voeren:
 
 * Delen
 * Verplaatsen
@@ -55,4 +55,4 @@ U kunt de volgende handelingen uitvoeren vanaf de pagina met documentdetails als
 * Een proefdruk vergrendelen of ontgrendelen
 * Aangepaste proefdrukvelden bewerken
 
-  Proofing Custom Fields moet worden ingesteld in Workfront Proof. Voor meer informatie, zie [ douanegebieden in Workfront Proof ](../../workfront-proof/wp-acct-admin/account-settings/create-and-manage-custom-fields.md) creëren en beheren.
+  Proofing Custom Fields moet worden ingesteld in Workfront Proof. Voor meer informatie, zie [&#x200B; douanegebieden in Workfront Proof &#x200B;](../../workfront-proof/wp-acct-admin/account-settings/create-and-manage-custom-fields.md) creëren en beheren.

@@ -20,7 +20,7 @@ Als Workfront-beheerder kunt u herinneringsmeldingen maken voor gebruikers en de
 
 Herinneringsberichten genereren e-mails die naar gebruikers worden verzonden op basis van opgegeven criteria. Herinneringsberichten herinneren gebruikers aan een handeling aan de noodzaak om een taak, uitgave, project of tijdspagina uit te voeren.
 
-Nadat u de herinneringsberichten creeert, kunnen de gebruikers hen met het werkpunten, zoals projecten, taken, kwesties, en timesheets manueel associëren. Voor informatie, zie [ een herinneringsbericht aan een voorwerp ](/help/quicksilver/workfront-basics/using-notifications/attach-reminder-notification-object.md) vastmaken.
+Nadat u de herinneringsberichten creeert, kunnen de gebruikers hen met het werkpunten, zoals projecten, taken, kwesties, en timesheets manueel associëren. Voor informatie, zie [&#x200B; een herinneringsbericht aan een voorwerp &#x200B;](/help/quicksilver/workfront-basics/using-notifications/attach-reminder-notification-object.md) vastmaken.
 
 <!--
 DRAFTED IN FLARE:
@@ -59,7 +59,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-*For meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*For meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -71,7 +71,7 @@ U kunt ook het standaard-e-mailbericht gebruiken dat bij de herinneringsmelding 
 
 Als u het e-mailbericht voor een herinnering wilt aanpassen, moet u een e-mailsjabloon maken en dit als bijlage aan het bericht voor een herinnering toevoegen.
 
-Voor informatie over hoe te om een e-mailmalplaatje tot stand te brengen, zie [ e-mailmalplaatjes ](../../../administration-and-setup/manage-workfront/emails/configure-email-templates.md) vormen.
+Voor informatie over hoe te om een e-mailmalplaatje tot stand te brengen, zie [&#x200B; e-mailmalplaatjes &#x200B;](../../../administration-and-setup/manage-workfront/emails/configure-email-templates.md) vormen.
 
 ## Een herinneringsmelding maken
 
@@ -79,7 +79,7 @@ Voor informatie over hoe te om een e-mailmalplaatje tot stand te brengen, zie [ 
 
 1. Klik **E-mail** > **Meldingen** > **Meldingen van de Herinnering**.
 
-   ![ Herinneringsberichten tabel ](assets/remider-notifications-tab-in-setup-email-notifications-area.png)
+   ![&#x200B; Herinneringsberichten tabel &#x200B;](assets/remider-notifications-tab-in-setup-email-notifications-area.png)
 
 1. Klik **Nieuw Bericht van de Herinnering**.
 
@@ -151,13 +151,13 @@ Voor informatie over hoe te om een e-mailmalplaatje tot stand te brengen, zie [ 
    </table>
 
 1. Klik **sparen**.
-1. Verbind het herinneringsbericht aan een het werkpunt, zoals die in [ wordt beschreven bijvoegt een herinneringsbericht aan een voorwerp ](../../../workfront-basics/using-notifications/attach-reminder-notification-object.md).
+1. Verbind het herinneringsbericht aan een het werkpunt, zoals die in [&#x200B; wordt beschreven bijvoegt een herinneringsbericht aan een voorwerp &#x200B;](../../../workfront-basics/using-notifications/attach-reminder-notification-object.md).
 
 ## Een herinneringsmelding ontvangen
 
 Wanneer aan de voorwaarde is voldaan op het object waaraan de herinneringsmelding is gekoppeld, wordt een e-mailmelding geactiveerd voor de gebruiker die in de herinneringsmelding is gedefinieerd.
 
-Voor meer informatie over het ontvangen van herinneringsberichten, zie [ de berichten van de Herinnering ](../../../workfront-basics/using-notifications/wf-notifications.md#reminder-notifications) sectie in [ de berichten van Adobe Workfront ](../../../workfront-basics/using-notifications/wf-notifications.md).
+Voor meer informatie over het ontvangen van herinneringsberichten, zie [&#x200B; de berichten van de Herinnering &#x200B;](../../../workfront-basics/using-notifications/wf-notifications.md#reminder-notifications) sectie in [&#x200B; de berichten van Adobe Workfront &#x200B;](../../../workfront-basics/using-notifications/wf-notifications.md).
 
 ## Herinneringsmelding testen
 
@@ -176,4 +176,4 @@ Een herinnering handmatig activeren:
 
    De gebruikers die in het herinneringsbericht zijn aangewezen, ontvangen een e-mail.
 
-![ test van het Bericht van de Herinnering ](assets/reminder-test.png)
+![&#x200B; test van het Bericht van de Herinnering &#x200B;](assets/reminder-test.png)

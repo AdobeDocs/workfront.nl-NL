@@ -70,7 +70,7 @@ U moet het volgende hebben om objecten te delen:
  </tbody> 
 </table>
 
-*Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Voor meer informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -81,7 +81,7 @@ U moet het volgende hebben om objecten te delen:
    * **het Aandeel van Objecten aan Gebruiker**
    * **het Aandeel van Objecten aan Team wordt toegelaten op het systeem of groepsniveau**.
 
-   Voor informatie, zie [ gebeurtenisberichten voor iedereen in het systeem ](/help/quicksilver/administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md) vormen.
+   Voor informatie, zie [&#x200B; gebeurtenisberichten voor iedereen in het systeem &#x200B;](/help/quicksilver/administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md) vormen.
 
    Als deze gebeurtenismeldingen niet zijn ingeschakeld, worden de meldingen over het delen van een object niet naar de gebruikers verzonden. Als één of allebei worden toegelaten, ga met de volgende stappen verder.
 
@@ -98,7 +98,7 @@ U moet het volgende hebben om objecten te delen:
 1. Klik **sparen Veranderingen**.
 1. Ga naar een lijst van voorwerpen die u wilt delen en de voorwerpen selecteren, dan het **pictogram van het Aandeel** bij de bovenkant van de lijst klikken.
 
-   Voor informatie over het delen van een voorwerpen in bulk, zie [ een voorwerp ](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/share-an-object.md) delen.
+   Voor informatie over het delen van een voorwerpen in bulk, zie [&#x200B; een voorwerp &#x200B;](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/share-an-object.md) delen.
 
 1. Ga terug naar de lijst met gebruikers voor wie u de meldingen hebt uitgeschakeld en selecteer dezelfde gebruikers.
 1. Selecteer de zelfde gebruikers in de lijst, dan klik **Meldingen** > **Diverse**.

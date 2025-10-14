@@ -33,7 +33,7 @@ Prioriteiten geven de werkitems weer die aan u zijn toegewezen. U kunt geen werk
    | **Normaal** | Normaal is voor routinematige werkitems waaraan u zult werken nadat de items Dringend en Hoge prioriteit zijn voltooid. Dit is de standaardinstelling voor taken en problemen. |
    | **Laag** | Laag is voor het werkpunten die geen directe aandacht nodig hebben en kan worden uitgesteld tot alle hoger-prioritaire het werkpunten worden gedaan. |
 
-   ![ Mijn Focus ](assets/my-focus-new.png)
+   ![&#x200B; Mijn Focus &#x200B;](assets/my-focus-new.png)
 
    >[!TIP]
    >

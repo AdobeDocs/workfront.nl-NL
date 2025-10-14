@@ -18,19 +18,19 @@ ht-degree: 0%
 
 <!-- Audited: 5/2025 -->
 
-Het type eenvoudige duur is een type duur dat u voor een taak in Adobe Workfront kunt instellen. Voor meer informatie over duurtypes in Workfront, zie [ Overzicht van het Type van Duur en van de Duur van de Taak ](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
+Het type eenvoudige duur is een type duur dat u voor een taak in Adobe Workfront kunt instellen. Voor meer informatie over duurtypes in Workfront, zie [&#x200B; Overzicht van het Type van Duur en van de Duur van de Taak &#x200B;](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
 
 ## Overzicht van het eenvoudige Duur Type
 
 Uw Workfront of groepsbeheerder kan het standaardduurtype van uw systeem of groep instellen als Eenvoudig. In dit geval worden alle nieuwe taken gemaakt met dit type duur.
 
-Voor informatie over het veranderen van uw taak en geef voorkeur uit als deel van uw systeem-niveau of groep-vlakke projectvoorkeur uit, zie [ systeembrede taak en uitgiftevoorkeur ](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md) vormen.
+Voor informatie over het veranderen van uw taak en geef voorkeur uit als deel van uw systeem-niveau of groep-vlakke projectvoorkeur uit, zie [&#x200B; systeembrede taak en uitgiftevoorkeur &#x200B;](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md) vormen.
 
 De volgende zaken komen voor wanneer een taak een Eenvoudig duurtype heeft:
 
 * De managers van het project kunnen zowel de Duur als de Geplande Uren van een taak wijzigen wanneer het wijzigen van hoe die uren onder toegewezen personen zouden moeten worden verdeeld.
 
-  Voor informatie, zie [ de Geplande Uren en Duur van een taak met een Eenvoudig Type van Duur ](../../../manage-work/tasks/taskdurtn/update-planned-hours-duration-for-simple-duration-task.md) bijwerken.
+  Voor informatie, zie [&#x200B; de Geplande Uren en Duur van een taak met een Eenvoudig Type van Duur &#x200B;](../../../manage-work/tasks/taskdurtn/update-planned-hours-duration-for-simple-duration-task.md) bijwerken.
 
   >[!IMPORTANT]
   >
@@ -47,7 +47,7 @@ De volgende zaken komen voor wanneer een taak een Eenvoudig duurtype heeft:
 
 ## Wijzig het Duur Type van een taak in Eenvoudig
 
-Voor informatie over het veranderen van het Type van Duur van een taak, zie [ het Type van Duur van een taak ](../../../manage-work/tasks/taskdurtn/update-duration-type-of-task.md) bijwerken.
+Voor informatie over het veranderen van het Type van Duur van een taak, zie [&#x200B; het Type van Duur van een taak &#x200B;](../../../manage-work/tasks/taskdurtn/update-duration-type-of-task.md) bijwerken.
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: replaced with new article linked above)</p>

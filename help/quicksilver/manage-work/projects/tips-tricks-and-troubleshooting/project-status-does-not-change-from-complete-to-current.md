@@ -33,7 +33,7 @@ Als de Voltooiingsmodus van een project is ingesteld op Handmatig, kan de projec
 De voltooiingsmodus van een project bijwerken naar Handmatig:
 
 1. Ga naar het project u wilt bijwerken.
-1. Klik het **Meer** pictogram ![ Meer pictogram ](assets/more-icon.png) aan het recht van de projectnaam, dan klik **uitgeven**.
+1. Klik het **Meer** pictogram ![&#x200B; Meer pictogram &#x200B;](assets/more-icon.png) aan het recht van de projectnaam, dan klik **uitgeven**.
 1. Klik **&#x200B;**&#x200B;Montages van het Project **&#x200B;**.
 
 1. Bepaal de plaats van de **drop-down menu van de Wijze van de Voltooiing 0&rbrace; &lbrace;en selecteer** Handboek **.**

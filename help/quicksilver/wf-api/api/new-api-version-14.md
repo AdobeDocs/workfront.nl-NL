@@ -30,26 +30,26 @@ Er zijn geen bronnen verwijderd voor API-versie 14.
 
 De volgende bronnen zijn gewijzigd voor API-versie 14.
 
-* [ BillingRecord (BILL) ](#billingrecord-bill)
-* [ Categorie (CTGY) ](#category-ctgy)
-* [ CustomEnum (CSTEM) ](#customenum-cstem)
-* [ Klant (CUST) ](#customer-cust)
-* [ CustomerPreferences (CUSTPR) ](#customerpreferences-custpr)
-* [ DocumentVersion (DOCV) ](#documentversion-docv)
-* [ Groep (GROEP) ](#group-group)
-* [ NoteTag (NTAG) ](#notetag-ntag)
-* [ Project (PROJ) ](#project-proj)
-* [ QueueDef (QUED) ](#queuedef-qued)
-* [ Toewijzing van het Middel (RSALLO) ](#resource-allocation-rsallo)
-* [ Rol (ROL) ](#role-role)
-* [ Malplaatje (TMPL) ](#template-tmpl)
+* [&#x200B; BillingRecord (BILL) &#x200B;](#billingrecord-bill)
+* [&#x200B; Categorie (CTGY) &#x200B;](#category-ctgy)
+* [&#x200B; CustomEnum (CSTEM) &#x200B;](#customenum-cstem)
+* [&#x200B; Klant (CUST) &#x200B;](#customer-cust)
+* [&#x200B; CustomerPreferences (CUSTPR) &#x200B;](#customerpreferences-custpr)
+* [&#x200B; DocumentVersion (DOCV) &#x200B;](#documentversion-docv)
+* [&#x200B; Groep (GROEP) &#x200B;](#group-group)
+* [&#x200B; NoteTag (NTAG) &#x200B;](#notetag-ntag)
+* [&#x200B; Project (PROJ) &#x200B;](#project-proj)
+* [&#x200B; QueueDef (QUED) &#x200B;](#queuedef-qued)
+* [&#x200B; Toewijzing van het Middel (RSALLO) &#x200B;](#resource-allocation-rsallo)
+* [&#x200B; Rol (ROL) &#x200B;](#role-role)
+* [&#x200B; Malplaatje (TMPL) &#x200B;](#template-tmpl)
 * [Tijdschema (TSHET)](#timesheet-tshet)
 
 ### Factureringsrecord (BILL) {#billingrecord-bill}
 
 Een object BillingRecord registreert de inkomsten, uren of kosten die in rekening kunnen worden gebracht. Deze informatie kan worden gebruikt om facturen op te stellen in een extern boekhoudsysteem.
 
-Voor meer informatie over het factureren verslagen, zie [ het factureren verslagen ](../../manage-work/projects/project-finances/create-billing-records.md) creëren.
+Voor meer informatie over het factureren verslagen, zie [&#x200B; het factureren verslagen &#x200B;](../../manage-work/projects/project-finances/create-billing-records.md) creëren.
 
 Het voorwerp BillingRecord voegde de vlag **DATA_EXTENDIBLE** toe.
 
@@ -165,7 +165,7 @@ Een object CustomerPreferences vertegenwoordigt de set voorkeuren die een klant 
 
 Een object DocumentVersion vertegenwoordigt een specifieke versie van een bestand (zoals geschreven materiaal, afbeeldingen of andere vormen van informatie).
 
-Voor meer informatie over documentversies, zie [ een nieuwe versie van een document ](../../documents/managing-documents/upload-new-document-version.md) uploaden.
+Voor meer informatie over documentversies, zie [&#x200B; een nieuwe versie van een document &#x200B;](../../documents/managing-documents/upload-new-document-version.md) uploaden.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -185,7 +185,7 @@ Voor meer informatie over documentversies, zie [ een nieuwe versie van een docum
 
 Een object Group vertegenwoordigt een set gebruikers en teams. Groepen vertegenwoordigen vaak de afdelingsstructuur.
 
-Voor meer informatie over groepen, zie [ Groepen vs. teams in Adobe Workfront ](../../people-teams-and-groups/work-with-groups-and-teams/understanding-differences-and-similarities-between-groups-and-teams.md).
+Voor meer informatie over groepen, zie [&#x200B; Groepen vs. teams in Adobe Workfront &#x200B;](../../people-teams-and-groups/work-with-groups-and-teams/understanding-differences-and-similarities-between-groups-and-teams.md).
 
 <table style="table-layout:auto"> 
  <col> 
@@ -205,7 +205,7 @@ Voor meer informatie over groepen, zie [ Groepen vs. teams in Adobe Workfront ](
 
 Een object NoteTag vertegenwoordigt de handeling waarbij een gebruiker of team wordt gelabeld in een update van een tijdelijk item.
 
-Voor meer informatie bij het etiketteren in updates, zie [ Tags anderen op updates ](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
+Voor meer informatie bij het etiketteren in updates, zie [&#x200B; Tags anderen op updates &#x200B;](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
 
 <table style="table-layout:auto"> 
  <col> 
@@ -246,7 +246,7 @@ Projecten zijn werkitems binnen Workfront en vormen een belangrijke bouwsteen vo
 
 Een voorwerp QueueDef vertegenwoordigt een Rij, die een project is dat aan het gebied van de Desk van de Hulp is gepubliceerd om gebruikers toe te staan om kwesties aan het voor te leggen.
 
-Voor meer informatie over de Rijen van het Verzoek, zie [ een Rij van het Verzoek ](../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md) creëren.
+Voor meer informatie over de Rijen van het Verzoek, zie [&#x200B; een Rij van het Verzoek &#x200B;](../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md) creëren.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -272,7 +272,7 @@ Het voorwerp van de Toewijzing van het Middel verwijderde de vlag **REPORTABLE**
 
 Een object Role (taakrol) vertegenwoordigt een functionele capaciteit of een vaardigheid die een gebruiker zou kunnen opvullen, zoals Designer of Product Manager.
 
-Voor informatie over baanrollen, zie [ het roloverzicht van de Baan ](../../administration-and-setup/set-up-workfront/organizational-setup/job-role-overview.md).
+Voor informatie over baanrollen, zie [&#x200B; het roloverzicht van de Baan &#x200B;](../../administration-and-setup/set-up-workfront/organizational-setup/job-role-overview.md).
 
 <table style="table-layout:auto"> 
  <col> 

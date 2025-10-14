@@ -69,4 +69,4 @@ Als dit voorbeeldproject een aangepast formulier met 3 aangepaste velden bevatte
 }
 ```
 
-Voor een meer diepgaande blik bij hoe de rijke tekstinformatie wordt opgeslagen en door Adobe Workfront API kan worden teruggewonnen, zie [ Rijke tekstgebieden in Adobe Workfront API ](../../../wf-api/general/rich-text-field-api.md).
+Voor een meer diepgaande blik bij hoe de rijke tekstinformatie wordt opgeslagen en door Adobe Workfront API kan worden teruggewonnen, zie [&#x200B; Rijke tekstgebieden in Adobe Workfront API &#x200B;](../../../wf-api/general/rich-text-field-api.md).

@@ -65,7 +65,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -103,7 +103,7 @@ Wanneer u een project, een taak, of een kwestie herstelt, wordt de volgende bijb
 
 * Uren (en uur-id&#39;s)
 
-  Of het verwijderde item urenlang wordt hersteld, is afhankelijk van de instellingen die u hebt gekozen bij het configureren van voorkeuren voor tijdbladen en uren. Voor meer informatie, zie [ beïnvloeden beïnvloedt op uren wanneer een voorwerp wordt geschrapt en ](../../../administration-and-setup/manage-workfront/manage-deleted-items/configure-how-hours-affected-when-obj-deleted-restored.md) hersteld.
+  Of het verwijderde item urenlang wordt hersteld, is afhankelijk van de instellingen die u hebt gekozen bij het configureren van voorkeuren voor tijdbladen en uren. Voor meer informatie, zie [&#x200B; beïnvloeden beïnvloedt op uren wanneer een voorwerp wordt geschrapt en &#x200B;](../../../administration-and-setup/manage-workfront/manage-deleted-items/configure-how-hours-affected-when-obj-deleted-restored.md) hersteld.
 
 * De URL van het item
 
@@ -139,9 +139,9 @@ Wanneer u een project, een taak, of een kwestie herstelt, wordt de volgende bijb
 
   Een het oplossen van voorwerp is een omgezet kwestie die met de optie **wordt gevormd houdt de originele kwestie en bindt zijn resolutie aan dit** &lt; **(project** of **taak)**>. Als u het ouderproject of de taak schrapt, wordt de kwestie niet meer geïdentificeerd als het oplossen van voorwerp omdat er geen verbinding meer is die het met het project of de taak verbindt. Als u het bovenliggende element herstelt, wordt de koppeling niet hersteld.
 
-  Voor meer informatie over hoe een beheerder van Workfront of groepsbeheerder kwesties vormt om het oplossen van voorwerp aan te passen wanneer omgezet, zie [ taak voor het hele systeem vormen en de voorkeur van de kwestie ](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md) en [ taak vormen en geven voorkeur voor een groep ](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md) uit.
+  Voor meer informatie over hoe een beheerder van Workfront of groepsbeheerder kwesties vormt om het oplossen van voorwerp aan te passen wanneer omgezet, zie [&#x200B; taak voor het hele systeem vormen en de voorkeur van de kwestie &#x200B;](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md) en [&#x200B; taak vormen en geven voorkeur voor een groep &#x200B;](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md) uit.
 
-  Voor meer informatie over het omzetten van kwesties, zie [ Overzicht van het omzetten van kwesties in Adobe Workfront ](../../../manage-work/issues/convert-issues/convert-issues.md).
+  Voor meer informatie over het omzetten van kwesties, zie [&#x200B; Overzicht van het omzetten van kwesties in Adobe Workfront &#x200B;](../../../manage-work/issues/convert-issues/convert-issues.md).
 
 ## Items herstellen
 
@@ -159,9 +159,9 @@ Wanneer u een project, een taak, of een kwestie herstelt, wordt de volgende bijb
    Als u een bovenliggende taak verwijdert, wordt alleen de bovenliggende taak in de lijst weergegeven. Maar alle onderliggende taken worden hersteld wanneer u een bovenliggende taak herstelt.
 
 1. Klik **herstellen** om de geselecteerde punten aan hun originele plaats te herstellen.
-1. (Facultatief) om het herstelde punt snel te bekijken, volg de stappen in [ Mening herstelde punt ](../../../administration-and-setup/manage-workfront/manage-deleted-items/view-restored-items.md).
+1. (Facultatief) om het herstelde punt snel te bekijken, volg de stappen in [&#x200B; Mening herstelde punt &#x200B;](../../../administration-and-setup/manage-workfront/manage-deleted-items/view-restored-items.md).
 
-   Voor meer informatie over wat gebeurt nadat u een punt terugzet, zie de sectie [ wat gebeurt nadat u punten ](#what-happens-after-you-restore-items) in dit artikel terugzet.
+   Voor meer informatie over wat gebeurt nadat u een punt terugzet, zie de sectie [&#x200B; wat gebeurt nadat u punten &#x200B;](#what-happens-after-you-restore-items) in dit artikel terugzet.
 
 ## Wat gebeurt er nadat u items hebt teruggezet {#what-happens-after-you-restore-items}
 

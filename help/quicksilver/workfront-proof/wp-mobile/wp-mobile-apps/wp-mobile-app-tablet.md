@@ -15,7 +15,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [ het Bewijzen ](../../../review-and-approve-work/proofing/proofing.md).
+>Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [&#x200B; het Bewijzen &#x200B;](../../../review-and-approve-work/proofing/proofing.md).
 
 Met de tablet-app [!DNL Workfront Proof] kunt u uw proefdrukken eenvoudig controleren en goedkeuren wanneer u onderweg bent. De app kan door iedereen worden gedownload. U hoeft geen [!DNL Workfront Proof] -gebruiker te zijn om proefdrukken op uw tablet of telefoon te kunnen bekijken.
 
@@ -41,9 +41,9 @@ De tablet-app [!DNL Workfront Proof] is beschikbaar in de Apple App Store en de 
 
 1. Klik op de onderstaande koppeling om de app te downloaden en op uw apparaat te installeren.
 
-   ![ download-op-app-store-button__1_.png ](assets/download-on-the-app-store-button--1--168x52.png)
+   ![&#x200B; download-op-app-store-button__1_.png &#x200B;](assets/download-on-the-app-store-button--1--168x52.png)
 
-   ![ google-play-btn.png ](assets/google-play-btn-164x49.png)
+   ![&#x200B; google-play-btn.png &#x200B;](assets/google-play-btn-164x49.png)
 
 ## Aanmelden
 
@@ -59,7 +59,7 @@ De app [!DNL Workfront Proof] voor tablets geeft u toegang tot het dashboard met
 
      U gaat naar de aanmeldingspagina waarop u om uw e-mailadres wordt gevraagd. Nadat u uw e-mailadres hebt getypt, wordt u omgeleid naar de pagina van uw identiteitsprovider waar u zich met uw wachtwoord kunt aanmelden.
 
-     ![ Login_screen.png ](assets/login-screen-350x261.png)
+     ![&#x200B; Login_screen.png &#x200B;](assets/login-screen-350x261.png)
 
 ## Het dashboard
 
@@ -67,13 +67,13 @@ Als u aangemeld wilt blijven bij uw [!DNL Workfront Proof] -account:
 
 1. Schakel **[!UICONTROL Keep me logged in]** in het zijbalkmenu in onder **[!UICONTROL Settings]** :
 
-![ houd_me_het programma geopende_in.gif ](assets/keep-me-logged-in-350x446.gif)
+![&#x200B; houd_me_het programma geopende_in.gif &#x200B;](assets/keep-me-logged-in-350x446.gif)
 
 Met de koppeling *[!UICONTROL Dashboard]* gaat u vanuit elke weergave in de app terug naar het dashboard. U kunt het ook gebruiken om het dashboard opnieuw te laden.
 
 Andere elementen van het dashboard zijn de zoekbalk waarmee u de account kunt doorzoeken op de naam van de proefdruk en op verschillende weergaven die u helpen uw werkbelasting effectief te beheren.
 
-![ dashboard.png ](assets/dashboard-350x298.png)
+![&#x200B; dashboard.png &#x200B;](assets/dashboard-350x298.png)
 
 ## Uw werkbelasting beheren met dashboardweergaven
 
@@ -87,7 +87,7 @@ Deze proefdrukken worden gegroepeerd in afzonderlijke weergaven, zodat u uw werk
 
 Een andere weergave die u wellicht nuttig vindt, is de weergave Recent. Deze toont de proefdrukken die u onlangs in de app hebt geopend. Als u dezelfde proefdruk opnieuw wilt zien, kunt u deze gemakkelijk in die lijst vinden.
 
-![ dashboard_views.gif ](assets/dashboard-views-350x446.gif)
+![&#x200B; dashboard_views.gif &#x200B;](assets/dashboard-views-350x446.gif)
 
 ## Proefdrukken in de app controleren
 
@@ -104,7 +104,7 @@ Als u een [!DNL Workfront Proof] -account hebt, kunt u zich aanmelden en toegang
 
    Wanneer u een proefdruk voor het eerst opent, wordt een rondleiding weergegeven waarmee u proefdrukken in de app kunt bekijken.
 
-   ![ dashboard_views.gif ](assets/dashboard-views-350x446.gif)
+   ![&#x200B; dashboard_views.gif &#x200B;](assets/dashboard-views-350x446.gif)
 
 1. Navigeer in de proefdruk:
 
@@ -159,11 +159,11 @@ Handelingen voor opmerkingen moeten door de [!DNL Workfront Proof] -beheerder in
 
 Wanneer u werkt aan het voorbereiden van de volgende versie van uw proefdruk, kunt u commentaren uitchecken aangezien u gaat. De opmerking wordt gemarkeerd als opgelost met een groen vinkje. Als u de opmerking opnieuw wilt openen, klikt u op de pijl onder aan het opmerkingsvak.
 
-![ resolving_comments.png ](assets/resolving-comments-350x193.png)
+![&#x200B; resolving_comments.png &#x200B;](assets/resolving-comments-350x193.png)
 
 Als u wilt voorkomen dat andere revisoren reageren op een commentaarthread, kunt u deze vergrendelen. Om dat te kunnen doen, moet u bewerkingsrechten op de proef hebben. Het vergrendelen van de commentaarthread is heel eenvoudig. Tik alleen op het hangslotpictogram onder aan het opmerkingsvak.
 
-![ locking_comments.png ](assets/locking-comments-350x246.png)
+![&#x200B; locking_comments.png &#x200B;](assets/locking-comments-350x246.png)
 
 ## Videoproefdrukken bekijken
 
@@ -179,36 +179,36 @@ Met de vergelijkingsmodus in de tabletapp kunt u eenvoudig twee verschillende ve
 
 De vergelijkingsmodus is beschikbaar in de rechterbovenhoek van het scherm.
 
-![ apparaat-scherm-iPad-Horizontal.png ](assets/device-screen-ipad-horizontal-350x265.png)
+![&#x200B; apparaat-scherm-iPad-Horizontal.png &#x200B;](assets/device-screen-ipad-horizontal-350x265.png)
 
 Met het gereedschap Vergelijken kunt u de twee meest recente versies van de proefdruk weergeven.
 
 1. Als u de versies wilt wijzigen die u wilt vergelijken, gebruikt u de keuzelijst met versies boven aan de pagina.
 1. Als u een andere proefdruk in dezelfde map wilt selecteren, gebruikt u de mapbrowser (het mappictogram dat boven aan de pagina beschikbaar is).
 
-   ![ version_dropdowns.png ](assets/version-dropdowns-350x265.png)
-   ![ folder_browser.png ](assets/folder-browser-350x269.png)
+   ![&#x200B; version_dropdowns.png &#x200B;](assets/version-dropdowns-350x265.png)
+   ![&#x200B; folder_browser.png &#x200B;](assets/folder-browser-350x269.png)
 Met het vergelijkingsprogramma kunt u versies naast elkaar vergelijken om te controleren of de gewenste wijzigingen zijn aangebracht. Als u de navigatie ontgrendelt, kunt u verschillende pagina&#39;s van beide versies vergelijken.
 
-   ![ unlock_navigation.png ](assets/unlock-navigation-350x266.png)
+   ![&#x200B; unlock_navigation.png &#x200B;](assets/unlock-navigation-350x266.png)
 
    Nu kunt u verschillende pagina&#39;s vergelijken van de proefdrukken die u bekijkt. U kunt ook verschillende pagina&#39;s met dezelfde proefdruk vergelijken. Dit kan handig zijn als u uw proefdrukken controleert op consistentie in berichten en branding.
 
-   ![ unlocked_proof.png ](assets/unlocked-proof-350x290.png)
+   ![&#x200B; unlocked_proof.png &#x200B;](assets/unlocked-proof-350x290.png)
 
 ## Beslissingen nemen in de app
 
 1. Tik op de groene beslissingsknop boven aan de pagina.
 
-   ![ decisions.png ](assets/decisions-350x303.png)
+   ![&#x200B; decisions.png &#x200B;](assets/decisions-350x303.png)
 
-   Als u niet de groene **[!UICONTROL Finish review]** knoop ziet en u denkt u een besluit over de proef zou moeten nemen, kan uw [!DNL Workfront Proof] beheerder uw proefdrukrol bijwerken, zoals die in [ wordt verklaard beheert de Rollen van het Bewijs in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md).
+   Als u niet de groene **[!UICONTROL Finish review]** knoop ziet en u denkt u een besluit over de proef zou moeten nemen, kan uw [!DNL Workfront Proof] beheerder uw proefdrukrol bijwerken, zoals die in [&#x200B; wordt verklaard beheert de Rollen van het Bewijs in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md).
 
 ## De zijbalk van de viewer voor proefdrukken
 
 De zijbalk bevat veel nuttige functies en functies. Afhankelijk van de machtigingen die u voor de proefdruk hebt, ziet u mogelijk niet alle proefdrukken. Hieronder worden ze meer in detail besproken.
 
-![ SIdebar_menu.png ](assets/sidebar-menu-350x501.png)
+![&#x200B; SIdebar_menu.png &#x200B;](assets/sidebar-menu-350x501.png)
 
 | Dashboard | Hiermee gaat u terug naar het dashboard voor mobiele apps. |
 |---|---|

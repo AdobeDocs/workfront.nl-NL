@@ -42,7 +42,7 @@ De tijden u in [!DNL Workfront] ziet zijn gebaseerd op de configuraties van de t
 >
 >In een douaneformulier in bijlage aan een voorwerp, worden de datum en de tijdverklaringen in berekende douanevelden berekend en bewaard door Coordinated Universal Time (UTC), niet door de configuraties van de tijdzone die voor de instantie van uw organisatie en uw gebruikersprofiel worden geplaatst. Berekeningen in een aangepast formulier worden gegenereerd en weergegeven op basis van de afzonderlijke tijdzones van elke gebruiker.
 
-* [De instantie van uw organisatie  [!DNL Workfront] ](#your-organization-s-workfront-instance)
+* [De instantie van uw organisatie  [!DNL Workfront] &#x200B;](#your-organization-s-workfront-instance)
 * [Uw gebruikersprofiel](#your-user-profile)
 
 ### De [!DNL Workfront] -instantie van uw organisatie {#your-organization-s-workfront-instance}
@@ -52,9 +52,9 @@ De tijdzone voor de [!DNL Workfront] -instantie van uw organisatie wordt meestal
 * De tijd die wordt weergegeven in e-mailberichten die worden gegenereerd door [!DNL Workfront]
 * De tijdzone voor nieuwe gebruikers (voordat de beheerder van [!DNL Workfront] een andere tijdzone configureert op basis van waar ze werken)
 
-  Voor meer informatie over deze twee voorbeelden, zie [ basisinformatie voor uw systeem ](../../administration-and-setup/get-started-wf-administration/configure-basic-info.md) vormen.
+  Voor meer informatie over deze twee voorbeelden, zie [&#x200B; basisinformatie voor uw systeem &#x200B;](../../administration-and-setup/get-started-wf-administration/configure-basic-info.md) vormen.
 
-* Het begin of einde van een overschreven factureringspercentage voor een project. Voor meer informatie, zie [ het Facturerings van de Rol van de Opheffing van de Baan op het projectniveau ](../../manage-work/projects/project-finances/override-job-role-billing-rates-at-the-project-level.md).
+* Het begin of einde van een overschreven factureringspercentage voor een project. Voor meer informatie, zie [&#x200B; het Facturerings van de Rol van de Opheffing van de Baan op het projectniveau &#x200B;](../../manage-work/projects/project-finances/override-job-role-billing-rates-at-the-project-level.md).
 
 ### Uw gebruikersprofiel {#your-user-profile}
 
@@ -62,9 +62,9 @@ Het veld Tijdzone in het gebruikersprofiel bepaalt de tijd die in de uitgaande e
 
 De tijdzone beïnvloedt ook wat vertoningen in een PTO kalenderrapport tonen.
 
-Voor informatie die uw tijdzone in uw gebruikersprofiel vormen, zie [ Mijn Montages ](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md) vormen.
+Voor informatie die uw tijdzone in uw gebruikersprofiel vormen, zie [&#x200B; Mijn Montages &#x200B;](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md) vormen.
 
-Voor informatie over hoe een [!DNL Workfront] beheerder (of iemand met [!UICONTROL Edit] toegang tot gebruikers) de tijdzone in een gebruikersprofiel kan vormen, zie [ het profiel van een gebruiker ](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) uitgeven.
+Voor informatie over hoe een [!DNL Workfront] beheerder (of iemand met [!UICONTROL Edit] toegang tot gebruikers) de tijdzone in een gebruikersprofiel kan vormen, zie [&#x200B; het profiel van een gebruiker &#x200B;](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) uitgeven.
 
 ### Tijdzone van uw browser
 
@@ -126,21 +126,21 @@ Een gebruiker EST wordt toegewezen aan een eendagtaak die om bij 9 :00 wordt gep
 
 >[!ENDSHADEBOX]
 
-Voor informatie over het [!UICONTROL Project Preferences] gebied van [!UICONTROL Setup], zie [ systeem-brede projectvoorkeur ](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) vormen.
+Voor informatie over het [!UICONTROL Project Preferences] gebied van [!UICONTROL Setup], zie [&#x200B; systeem-brede projectvoorkeur &#x200B;](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) vormen.
 
-Voor instructies bij het toewijzen van een programma aan een project of een gebruiker, zie [ een programma ](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md) creëren.
+Voor instructies bij het toewijzen van een programma aan een project of een gebruiker, zie [&#x200B; een programma &#x200B;](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md) creëren.
 
-Voor informatie over hoe de tijdzone die in uw programma wordt gevormd de distributie van [!UICONTROL Planned Hours] in [!UICONTROL Workload Balancer] beïnvloedt, zie [ gebruikerstoewijzingen in [!UICONTROL Workload Balancer]](../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md) beheren.
+Voor informatie over hoe de tijdzone die in uw programma wordt gevormd de distributie van [!UICONTROL Planned Hours] in [!UICONTROL Workload Balancer] beïnvloedt, zie [&#x200B; gebruikerstoewijzingen in [!UICONTROL Workload Balancer]](../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md) beheren.
 
 
 ### Berekende tijdvelden gebruiken in een aangepast formulier {#use-calculated-time-fields-in-a-custom-form}
 
 U kunt een reeks berekende douanevelden op een douaneformulier gebruiken om de huidige tijd voor gebruikers in uw organisatie, zoals een rij van luchthavenklokken te tonen die de tijd in veelvoudige steden tonen. U zou een gebied voor elk van de tijdstreken kunnen tot stand brengen waar uw gebruikers werken, elk die de tijd voor zijn tijdzone berekenen.
 
-Voor meer informatie, zie [ berekende gebieden aan een vorm ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) toevoegen, evenals de sectie [ Datum &amp; tijd berekende douanevelden ](../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md#date) in het artikel [ Overzicht van berekende gegevensuitdrukkingen ](../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+Voor meer informatie, zie [&#x200B; berekende gebieden aan een vorm &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) toevoegen, evenals de sectie [&#x200B; Datum &amp; tijd berekende douanevelden &#x200B;](../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md#date) in het artikel [&#x200B; Overzicht van berekende gegevensuitdrukkingen &#x200B;](../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
 
 ### Gebruik tekstvelden in plaats van datumvelden in een aangepast formulier {#use-text-fields-instead-of-date-fields-in-a-custom-form}
 
 Als u niet wilt dat [!DNL Workfront] de tijden omzet u voor in een voorwerp voor gebruikers in verschillende tijdstreken vormt, kunt u een tekstgebied in een douaneformulier gebruiken dat u aan een voorwerp, eerder dan een datumgebied vastmaakt. Op deze manier wordt de tijd weergegeven die u voor iedereen in het project typt.
 
-Als u dit doet, raden we u aan de gebruikers van het formulier eraan te herinneren het verschil tussen hun tijdzone en die van u te berekenen, zodat ze kunnen bepalen wanneer het werk moet beginnen en eindigen. Dit kunt u opnemen in de instructies die u voor het aangepaste formulier typt of in de knopinfo voor dat veld. Voor meer informatie, zie [ een douaneformulier ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren.
+Als u dit doet, raden we u aan de gebruikers van het formulier eraan te herinneren het verschil tussen hun tijdzone en die van u te berekenen, zodat ze kunnen bepalen wanneer het werk moet beginnen en eindigen. Dit kunt u opnemen in de instructies die u voor het aangepaste formulier typt of in de knopinfo voor dat veld. Voor meer informatie, zie [&#x200B; een douaneformulier &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren.

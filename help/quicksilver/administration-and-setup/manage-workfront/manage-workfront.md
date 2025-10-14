@@ -21,11 +21,11 @@ ht-degree: 0%
 
 Deze sectie bevat de volgende subsecties:
 
-* [ vorm het proef functionaliteit ](../../administration-and-setup/manage-workfront/configure-proofing/configuring-proofing-functionality.md)
-* [ vorm rapporten ](../../administration-and-setup/manage-workfront/configure-reports/configure-reports.md)
-* [ E-mail ](../../administration-and-setup/manage-workfront/emails/emails.md)
-* [ Veiligheid ](../../administration-and-setup/manage-workfront/security/security.md)
-* [ Wisselkoersen ](../../administration-and-setup/manage-workfront/exchange-rates/exchange-rates.md)
-* [ leiden geschrapte punten ](../../administration-and-setup/manage-workfront/manage-deleted-items/manage-deleted-items.md)
-* [ Diagnose ](../../administration-and-setup/manage-workfront/run-diagnostics/diagnostics.md)
+* [&#x200B; vorm het proef functionaliteit &#x200B;](../../administration-and-setup/manage-workfront/configure-proofing/configuring-proofing-functionality.md)
+* [&#x200B; vorm rapporten &#x200B;](../../administration-and-setup/manage-workfront/configure-reports/configure-reports.md)
+* [&#x200B; E-mail &#x200B;](../../administration-and-setup/manage-workfront/emails/emails.md)
+* [&#x200B; Veiligheid &#x200B;](../../administration-and-setup/manage-workfront/security/security.md)
+* [&#x200B; Wisselkoersen &#x200B;](../../administration-and-setup/manage-workfront/exchange-rates/exchange-rates.md)
+* [&#x200B; leiden geschrapte punten &#x200B;](../../administration-and-setup/manage-workfront/manage-deleted-items/manage-deleted-items.md)
+* [&#x200B; Diagnose &#x200B;](../../administration-and-setup/manage-workfront/run-diagnostics/diagnostics.md)
 * [Kick-start](../../administration-and-setup/manage-workfront/using-kick-starts/kick-starts.md)

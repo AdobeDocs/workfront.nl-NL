@@ -18,18 +18,18 @@ ht-degree: 0%
 
 <!-- Audited: 1/2024 -->
 
-Uw Adobe [!DNL Workfront] -beheerder configureert welke e-mailberichten gebruikers ontvangen wanneer gebeurtenissen plaatsvinden in Workfront (zoals beschreven in [[!UICONTROL Configure event] meldingen voor iedereen in het systeem ](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md) ).
+Uw Adobe [!DNL Workfront] -beheerder configureert welke e-mailberichten gebruikers ontvangen wanneer gebeurtenissen plaatsvinden in Workfront (zoals beschreven in [[!UICONTROL Configure event] meldingen voor iedereen in het systeem &#x200B;](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md) ).
 
 Uw groepsbeheerder kan ook configureren welke meldingen voor u en de gebruikers in uw [!UICONTROL Home Group] worden geactiveerd. Als uw [!UICONTROL Home Group] een subgroep is, ontvangt u de meldingen die zijn geactiveerd voor de bovenste groep boven uw groep.
 
 U kunt dit verder aanpassen door te vormen welke berichten u ontvangt. U kunt ook kiezen of u meldingen wilt ontvangen terwijl gebeurtenissen plaatsvinden of in één e-mail met dagelijkse controlesamenvatting.
 
-Voor meer informatie over e-mailberichten, zie [[!DNL Adobe Workfront]  berichten ](../../workfront-basics/using-notifications/wf-notifications.md).
+Voor meer informatie over e-mailberichten, zie [[!DNL Adobe Workfront]  berichten &#x200B;](../../workfront-basics/using-notifications/wf-notifications.md).
 
 >[!NOTE]
 >
 >* Als u een berichttype activeert en dan ontdekt dat u geen berichten van dat type ontvangt, kan het zijn omdat dat type niet voor uw rol van toepassing is.
->* De [!DNL Workfront] -beheerder of een groepsbeheerder kan geen meldingen voor [!DNL Workfront Goals] configureren. Voor meer informatie over welke berichten de [!DNL Workfront] beheerder kan vormen, zie [ gebeurtenisberichten voor iedereen in het systeem ](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md) vormen. Lees dit artikel voor meer informatie over het configureren van individuele meldingen voor [!DNL Workfront Goals] .
+>* De [!DNL Workfront] -beheerder of een groepsbeheerder kan geen meldingen voor [!DNL Workfront Goals] configureren. Voor meer informatie over welke berichten de [!DNL Workfront] beheerder kan vormen, zie [&#x200B; gebeurtenisberichten voor iedereen in het systeem &#x200B;](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md) vormen. Lees dit artikel voor meer informatie over het configureren van individuele meldingen voor [!DNL Workfront Goals] .
 >
 
 ## Toegangsvereisten
@@ -59,7 +59,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -67,13 +67,13 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 {{step1-click-profile-pic}}
 
-1. Klik het **[!UICONTROL More]** pictogram ![ Meer pictogram ](assets/more-icon.png) naast uw naam, dan klik **[!UICONTROL Edit]**.
+1. Klik het **[!UICONTROL More]** pictogram ![&#x200B; Meer pictogram &#x200B;](assets/more-icon.png) naast uw naam, dan klik **[!UICONTROL Edit]**.
 
 1. Ga in het vak **[!UICONTROL Edit Person]** dat wordt weergegeven naar de sectie **[!UICONTROL Notifications]** .
 
 1. Klik op een categorie om de meldingsinstellingen voor die categorie weer te geven.
 
-   ![ Mijn profielberichten ](assets/my-profile-notifications.png)
+   ![&#x200B; Mijn profielberichten &#x200B;](assets/my-profile-notifications.png)
 
 1. Schakel de selectievakjes aan de rechterkant in of uit om op te geven of u meldingen dagelijks, direct of beide wilt ontvangen.
 
@@ -81,7 +81,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
    >[!NOTE]
    >
-   >Als u een teamlid voor een project bent, blijft u e-mailberichten voor het ontvangen tot u van het team wordt verwijderd, zelfs als u geen toegang meer tot het project hebt. Voor instructies bij het verwijderen van gebruikers uit een team, zie [ gebruikers uit projecten ](../../manage-work/projects/manage-projects/remove-users-from-projects.md) verwijderen.
+   >Als u een teamlid voor een project bent, blijft u e-mailberichten voor het ontvangen tot u van het team wordt verwijderd, zelfs als u geen toegang meer tot het project hebt. Voor instructies bij het verwijderen van gebruikers uit een team, zie [&#x200B; gebruikers uit projecten &#x200B;](../../manage-work/projects/manage-projects/remove-users-from-projects.md) verwijderen.
 
    Voor de categorie **[!UICONTROL Communication]** kunt u afzonderlijke meldingen selecteren, alleen voor directe levering. Als u meldingen in een dagelijkse samenvatting wilt laten verzenden, moet u ze allemaal selecteren.
 
@@ -90,13 +90,13 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 1. Als u meldingen hebt geselecteerd die u wilt verzenden als dagoverzicht, selecteert u de tijd van de dag waarop u deze wilt ontvangen boven aan de sectie **[!UICONTROL Notifications]** in het menu **[!UICONTROL Email Daily Digest after]** .
 
-   ![ Dagelijkse Samenvatting kiest tijd van dag ](assets/digest-time-stamp-my-settings-350x78.png)
+   ![&#x200B; Dagelijkse Samenvatting kiest tijd van dag &#x200B;](assets/digest-time-stamp-my-settings-350x78.png)
 
    De dagelijkse samenvatting bevat gebeurtenissen die 24 uur vóór de geselecteerde tijd voldoen aan de criteria voor de meldingen. U ontvangt één dagelijkse samenvatting per e-mail voor elk type bericht.\
    De dagelijkse controlesamenvatting kan aankomen na de tijd die u selecteert, afhankelijk van het aantal e-mails in de wachtrij voor levering in het systeem. De vermelde tijd is uw lokale tijd zoals die in uw browser montages wordt gespecificeerd.
 
 1. (Voorwaardelijk en optioneel) Schakel de instelling **[!UICONTROL Receive emails from this test environment]** in om e-mailberichten te ontvangen wanneer u de instellingen voor e-mailmeldingen in de voorbeeldomgeving wijzigt. E-mails worden niet automatisch gegenereerd vanuit de voorvertoningsomgeving.
 
-   ![ ontvang e-mails van sndbox ](assets/receive-emails-from-sandbox-setting-edit-350x223.png)
+   ![&#x200B; ontvang e-mails van sndbox &#x200B;](assets/receive-emails-from-sandbox-setting-edit-350x223.png)
 
 1. Klik op **[!UICONTROL Save Changes]**.

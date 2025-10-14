@@ -36,12 +36,12 @@ Deze pagina bevat informatie over de functionaliteit voor zowel Adobe Workfront 
 
 ## Verbeteringen voor Workfront
 
-* [ de verhogingen van de Beheerder ](#administrator-enhancements)
-* [ Verbeteringen van het Beheer van het Middel ](#resource-management-enhancements)
-* [ Verbeteringen van het Beheer van het Project ](#project-management-enhancements)
-* [ Verbeterde analyses ](#enhanced-analytics)
-* [ het Proofing verhogingen ](#proofing-enhancements)
-* [ Mobiele en integratieverbeteringen ](#mobile-and-integration-enhancements)
+* [&#x200B; de verhogingen van de Beheerder &#x200B;](#administrator-enhancements)
+* [&#x200B; Verbeteringen van het Beheer van het Middel &#x200B;](#resource-management-enhancements)
+* [&#x200B; Verbeteringen van het Beheer van het Project &#x200B;](#project-management-enhancements)
+* [&#x200B; Verbeterde analyses &#x200B;](#enhanced-analytics)
+* [&#x200B; het Proofing verhogingen &#x200B;](#proofing-enhancements)
+* [&#x200B; Mobiele en integratieverbeteringen &#x200B;](#mobile-and-integration-enhancements)
 * [Andere verbeteringen](#other-enhancements)
 
 ### Beheerdersverbeteringen {#administrator-enhancements}
@@ -290,15 +290,15 @@ Deze pagina bevat informatie over de functionaliteit voor zowel Adobe Workfront 
 
 ## Verbeteringen in Workfront Scenario Planner
 
-De meeste nieuwe functies die beschikbaar zijn in de release van Workfront Scenario Planner met 20.4. Voor informatie over deze nieuwe eigenschappen nu beschikbaar in Voorproef, zie [ de Planner van het Scenario van Workfront met 20.4 versie - 14 oktober, 2020 ](../../../product-announcements/product-releases/scenario-planner-release-activity/sp-release-20-4.md).
+De meeste nieuwe functies die beschikbaar zijn in de release van Workfront Scenario Planner met 20.4. Voor informatie over deze nieuwe eigenschappen nu beschikbaar in Voorproef, zie [&#x200B; de Planner van het Scenario van Workfront met 20.4 versie - 14 oktober, 2020 &#x200B;](../../../product-announcements/product-releases/scenario-planner-release-activity/sp-release-20-4.md).
 
 ## Verbeteringen voor Workfront-doelen
 
-De meeste nieuwe functies die beschikbaar zijn in de Workfront Goals release met 20.4 release. Voor informatie over deze nieuwe eigenschappen nu beschikbaar in Voorproef, zie [ Doelstellingen van Workfront met de 20.4 versie ](../../../product-announcements/product-releases/goals-release-activity/goals-release-20-4.md).
+De meeste nieuwe functies die beschikbaar zijn in de Workfront Goals release met 20.4 release. Voor informatie over deze nieuwe eigenschappen nu beschikbaar in Voorproef, zie [&#x200B; Doelstellingen van Workfront met de 20.4 versie &#x200B;](../../../product-announcements/product-releases/goals-release-activity/goals-release-20-4.md).
 
 ## Workfront Fusion-verbeteringen
 
-Nieuwe functies in Workfront Fusion zijn beschikbaar in Production op een cadence buiten de releaseplanning van 20.4. Voor meer informatie over de recentste eigenschappen, zie [ de versieactiviteit van de Fusie van Adobe Workfront ](https://experienceleague.adobe.com/nl/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)
+Nieuwe functies in Workfront Fusion zijn beschikbaar in Production op een cadence buiten de releaseplanning van 20.4. Voor meer informatie over de recentste eigenschappen, zie [&#x200B; de versieactiviteit van de Fusie van Adobe Workfront &#x200B;](https://experienceleague.adobe.com/nl/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)
 
 ## API-verbeteringen
 
@@ -310,9 +310,9 @@ This section will be updated with more information prior to the 20.4 release bei
 </MadCap:conditionalText>
 -->
 
-Voor informatie over wat nieuw en bijgewerkt is, zie [ wat in API versie 12 ](https://experienceleague.adobe.com/nl/docs/workfront/using/adobe-workfront-api/api-notes/new-api-version-12) nieuw is.
+Voor informatie over wat nieuw en bijgewerkt is, zie [&#x200B; wat in API versie 12 &#x200B;](https://experienceleague.adobe.com/nl/docs/workfront/using/adobe-workfront-api/api-notes/new-api-version-12) nieuw is.
 
-Voor meer informatie over API versies, zie [ API versioning en steunprogramma ](../../../wf-api/api/api-version-support-schedule.md)
+Voor meer informatie over API versies, zie [&#x200B; API versioning en steunprogramma &#x200B;](../../../wf-api/api/api-version-support-schedule.md)
 
 <!--
 <a href="https://experience.workfront.com/s/article/API-Version-Release-and-Support-Schedule-272875487?language=en_US&r=13&ui-comm-runtime-components-aura-components-siteforce-qb.Quarterback.validateRoute=1&ui-communities-components-aura-components-forceCommunity-breadcrumbs.Breadcrumbs.getAncestors=1&ui-communities-components-aura-components-forceCommunity-seoAssistant.SeoAssistant.getSeoData=1&ui-force-components-controllers-recordGlobalValueProvider.RecordGvp.getRecord=1&ui-self-service-components-controller.ArticleTopicList.getTopics=1&ui-self-service-components-controller.ArticleView.getArticleHeaderDetail=1" target="_blank" data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">API Version Release and Support Schedule</a>
@@ -326,29 +326,29 @@ Voor informatie over de onderhoudsupdates die tijdens de versie 20.3 worden gema
 
 ## Aankondigingen
 
-* [ Veroudering van de Flits ](#flash-deprecation)
-* [ webinar van de Versie 20.4 ](#20-4-release-webinar)
-* [ Verandering in de versiecadence van de Voorproef ](#change-in-preview-release-cadence)
-* [ Lijst van gewenste personen van extra domeinen die voor de toegang tot van Workfront ](#allowlist-of-additional-domains-required-for-accessing-workfront) worden vereist
+* [&#x200B; Veroudering van de Flits &#x200B;](#flash-deprecation)
+* [&#x200B; webinar van de Versie 20.4 &#x200B;](#20-4-release-webinar)
+* [&#x200B; Verandering in de versiecadence van de Voorproef &#x200B;](#change-in-preview-release-cadence)
+* [&#x200B; Lijst van gewenste personen van extra domeinen die voor de toegang tot van Workfront &#x200B;](#allowlist-of-additional-domains-required-for-accessing-workfront) worden vereist
 * [Workfront One](#workfront-one)
 
 ### Flash-veroudering {#flash-deprecation}
 
 Eind 2020 voltooien Adobe en alle grote browsers de afgekeurde Adobe Flash-technologie, wat betekent dat deze gereedschappen niet meer werken.
 
-Workfront wil u helpen bij het overstappen naar de nieuwere technologie door een reeks nieuwe oplossingen te bieden die niet afhankelijk zijn van Flash. Kom meer over vervangingsoplossingen voor elk specifiek op flits-Gebaseerd hulpmiddel in het volgende artikel te weten: [ Vervanging van op flits-Gebaseerde hulpmiddelen in Adobe Workfront ](../../../product-announcements/announcements/announcement-archive/replace-flash-tools.md).
+Workfront wil u helpen bij het overstappen naar de nieuwere technologie door een reeks nieuwe oplossingen te bieden die niet afhankelijk zijn van Flash. Kom meer over vervangingsoplossingen voor elk specifiek op flits-Gebaseerd hulpmiddel in het volgende artikel te weten: [&#x200B; Vervanging van op flits-Gebaseerde hulpmiddelen in Adobe Workfront &#x200B;](../../../product-announcements/announcements/announcement-archive/replace-flash-tools.md).
 
 Alle op Flash gebaseerde gereedschappen worden op 19 november 2020 uit alle producten verwijderd. We raden u aan de nieuwe gereedschappen te gebruiken en de Flash-gereedschappen vóór die datum uit te schakelen om de beveiliging van uw instantie te verbeteren. Als u wilt dat wij de Flash-gereedschappen vóór 19 november uitschakelen, neemt u contact op met de Klantenondersteuning.
 
 ### 20.4 Release-webinar {#20-4-release-webinar}
 
-De Workfront 20.4 Release Webinar wordt woensdag 28 oktober 2020 om 11.00 uur EDT gepresenteerd. Register voor webinar [ hier ](https://webinars.on24.com/workfront/204release?partnerref=CXnewsletter).
+De Workfront 20.4 Release Webinar wordt woensdag 28 oktober 2020 om 11.00 uur EDT gepresenteerd. Register voor webinar [&#x200B; hier &#x200B;](https://webinars.on24.com/workfront/204release?partnerref=CXnewsletter).
 
 ### Wijzigen in de release Voorvertoning {#change-in-preview-release-cadence}
 
 Vanaf 20 mei 2020 begon Workfront wekelijks functionaliteit beschikbaar te maken in de voorvertoningsomgeving. Vóór deze wijziging werd de functionaliteit doorgaans elke twee weken vrijgegeven voor de voorvertoningsomgeving.
 
-Voor meer informatie, zie [ Verandering in FAQ van de de voorproefversie van Workfront ](https://experienceleague.adobe.com/nl/docs/workfront/using/home)
+Voor meer informatie, zie [&#x200B; Verandering in FAQ van de de voorproefversie van Workfront &#x200B;](https://experienceleague.adobe.com/nl/docs/workfront/using/home)
 
 ### Lijst van gewenste personen van aanvullende domeinen die vereist zijn voor toegang tot Workfront {#allowlist-of-additional-domains-required-for-accessing-workfront}
 
@@ -357,10 +357,10 @@ Als uw organisatie een firewall gebruikt, moet u de volgende extra domeinen aan 
 * event.split.io
 * sdk.split.io
 
-Voor meer informatie, zie [ de lijst van gewenste personen van uw firewall ](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md) vormen.
+Voor meer informatie, zie [&#x200B; de lijst van gewenste personen van uw firewall &#x200B;](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md) vormen.
 
 ### Workfront One {#workfront-one}
 
 Met Workfront One ontdekt u de belangrijkste inhoud, bronnen en nieuws uit Workfront — allemaal op één plaats, met één aanmelding. We hebben de sites Experience, Community en Training verenigd, waardoor het gemakkelijker wordt om te vinden wat u zoekt.
 
-[ leer meer over Workfront Één ](https://business.adobe.com/products/workfront.html).
+[&#x200B; leer meer over Workfront Één &#x200B;](https://business.adobe.com/products/workfront.html).

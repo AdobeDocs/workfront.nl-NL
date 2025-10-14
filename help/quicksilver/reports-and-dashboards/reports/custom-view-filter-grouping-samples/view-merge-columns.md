@@ -61,7 +61,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -95,7 +95,7 @@ U kunt de gegevens van meerdere afzonderlijke kolommen samenvoegen en deze weerg
 Gegevens van twee kolommen samenvoegen zonder een regeleinde:
 
 1. Ga naar een lijst met objecten.
-1. Van de **drop-down Mening**, selecteer een mening, dan klik **uitgeven** pictogram ![ uitgeven pictogram ](assets/edit-icon.png) om de mening uit te geven.
+1. Van de **drop-down Mening**, selecteer een mening, dan klik **uitgeven** pictogram ![&#x200B; uitgeven pictogram &#x200B;](assets/edit-icon.png) om de mening uit te geven.
 1. Ga naar de eerste kolom u wilt samenvoegen, dan klik **Schakelaar aan de Wijze van de Tekst** > **uitgeven de Wijze van de Tekst**.
 1. Voeg de volgende tekst toe aan de eerste kolom die u wilt samenvoegen:
 
@@ -121,7 +121,7 @@ Gegevens van twee kolommen samenvoegen zonder een regeleinde:
    column.3.valueformat=HTML
    ```
 
-   ![ Gedeelde kolom zonder lijnonderbrekingen ](assets/shared-column-no-line-breaks-350x142.png)
+   ![&#x200B; Gedeelde kolom zonder lijnonderbrekingen &#x200B;](assets/shared-column-no-line-breaks-350x142.png)
 
 
 1. Klik **Gedaan**, dan **sparen Mening**.
@@ -131,7 +131,7 @@ Gegevens van twee kolommen samenvoegen zonder een regeleinde:
 Ga als volgt te werk om de gegevens van meerdere kolommen samen te voegen en weer te geven in één gemeenschappelijke kolom met een regeleinde tussen de waarden van elke kolom:
 
 1. Ga naar een lijst met objecten.
-1. Van de **drop-down Mening**, selecteer een mening, dan klik **uitgeven** pictogram ![ uitgeven pictogram ](assets/edit-icon.png) om de mening uit te geven.
+1. Van de **drop-down Mening**, selecteer een mening, dan klik **uitgeven** pictogram ![&#x200B; uitgeven pictogram &#x200B;](assets/edit-icon.png) om de mening uit te geven.
 1. Voeg een derde kolom toe tussen de twee kolommen die u wilt samenvoegen.
 
    >[!TIP]
@@ -182,6 +182,6 @@ Ga als volgt te werk om de gegevens van meerdere kolommen samen te voegen en wee
    column.5.valueformat=HTML 
    ```
 
-   ![ Gedeelde kolom met lijnonderbrekingen ](assets/shared-column-with-line-breaks-350x199.png)
+   ![&#x200B; Gedeelde kolom met lijnonderbrekingen &#x200B;](assets/shared-column-with-line-breaks-350x199.png)
 
 1. Klik **Gedaan**, dan **sparen Mening**.

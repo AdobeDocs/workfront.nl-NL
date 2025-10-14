@@ -18,13 +18,13 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [ het Bewijzen ](../../../review-and-approve-work/proofing/proofing.md).
+>Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [&#x200B; het Bewijzen &#x200B;](../../../review-and-approve-work/proofing/proofing.md).
 
 U kunt bestanden uploaden naar [!DNL Workfront Proof] zonder een proefdruk te maken. U kunt ook URL&#39;s voor websites en andere webinhoud toevoegen aan [!DNL Workfront Proof] .
 
 ## Een bestand uploaden zonder een proefdruk te maken
 
-In sommige gevallen, kunt u een dossier aan [!DNL Workfront Proof] willen toevoegen en een proef voor het creëren gelijktijdig (zie [ Proefdrukken in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md) produceren).
+In sommige gevallen, kunt u een dossier aan [!DNL Workfront Proof] willen toevoegen en een proef voor het creëren gelijktijdig (zie [&#x200B; Proefdrukken in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md) produceren).
 
 In andere gevallen kunt u een bestand aan [!DNL Workfront Proof] toevoegen zonder een proefdruk te maken.
 
@@ -37,7 +37,7 @@ U kunt [!DNL Workfront Proof] ook gebruiken als cloudopslag voor bestanden zonde
 Een bestand uploaden naar [!DNL Workfront Proof] :
 
 1. Klik in de linkerbovenhoek van [!DNL Workfront Proof] op de pijl-omlaag op de knop **[!UICONTROL New proof]** en klik vervolgens op **[!UICONTROL Upload file]** in het menu dat wordt weergegeven.\
-   ![ Nieuwe proefdrukknop ](assets/new-proof-button-menu.png)
+   ![&#x200B; Nieuwe proefdrukknop &#x200B;](assets/new-proof-button-menu.png)
 
 1. De pagina **[!DNL New File]** wordt weergegeven.
 1. Voer een van de volgende handelingen uit om de inhoud te uploaden of toe te voegen die u nodig hebt als proefdruk:
@@ -52,9 +52,9 @@ Een bestand uploaden naar [!DNL Workfront Proof] :
 
 1. Typ het e-mailadres van de controleurs die de bestanden moeten controleren in het onderstaande vak **[!UICONTROL Share]** .\
    Wanneer u deze stappen uitvoert, ontvangen deze ontvangers een e-mail met de downloadkoppelingen voor de bestanden.\
-   U kunt de dossiers met contacten, groepen, en partners delen (zie [ Contacten ](https://support.workfront.com/hc/en-us/sections/115000920808-Contacts), [ Groepen ](https://support.workfront.com/hc/en-us/sections/115000920828-Groups), en [ de Rekeningen van de Partner ](https://support.workfront.com/hc/en-us/sections/115000912107-Partner-accounts)).
+   U kunt de dossiers met contacten, groepen, en partners delen (zie [&#x200B; Contacten &#x200B;](https://support.workfront.com/hc/en-us/sections/115000920808-Contacts), [&#x200B; Groepen &#x200B;](https://support.workfront.com/hc/en-us/sections/115000920828-Groups), en [&#x200B; de Rekeningen van de Partner &#x200B;](https://support.workfront.com/hc/en-us/sections/115000912107-Partner-accounts)).
 
-1. (Optioneel) U kunt **[!UICONTROL Notify people by email]** selecteren als u een aangepast onderwerp en bericht wilt toevoegen aan de e-mail die de ontvangers van de bestanden hebben ontvangen. Zie [ Dossiers van het Aandeel in Workfront Proof ](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-files.md) voor meer informatie.
+1. (Optioneel) U kunt **[!UICONTROL Notify people by email]** selecteren als u een aangepast onderwerp en bericht wilt toevoegen aan de e-mail die de ontvangers van de bestanden hebben ontvangen. Zie [&#x200B; Dossiers van het Aandeel in Workfront Proof &#x200B;](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-files.md) voor meer informatie.
 
 1. (Optioneel) Onder **[!UICONTROL Organize]** kunt u een map selecteren of maken om de bestanden die u uploadt te ordenen. U kunt ook tags toevoegen om de bestanden gemakkelijk te kunnen identificeren en vinden.
 1. Tags zijn gewoon woorden of combinaties van woorden die u kunt gebruiken om de inhoud van een bestand te beschrijven. Ze maken het makkelijker om te zoeken naar wat je nodig hebt.

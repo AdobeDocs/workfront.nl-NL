@@ -22,6 +22,6 @@ We hebben de filterervaring bijgewerkt wanneer u plannen weergeeft of initiatiev
 
 Raadpleeg de volgende artikelen voor meer informatie:
 
-* [ creeer en geef plannen in de Planner van het scenario uit ](../../../scenario-planner/create-and-edit-plans.md)
+* [&#x200B; creeer en geef plannen in de Planner van het scenario uit &#x200B;](../../../scenario-planner/create-and-edit-plans.md)
 * [Werk of creeer projecten door initiatieven in de Planner van het Scenario bij te publiceren](../../../scenario-planner/publish-scenarios-update-projects.md)
 

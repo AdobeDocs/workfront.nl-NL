@@ -19,7 +19,7 @@ U kunt afzonderlijke fiatteurs of revisoren uit een element of document verwijde
 
 >[!IMPORTANT]
 >
->De inhoud van dit artikel verwijst naar de functionaliteit voor bijgewerkte documentgoedkeuring die alleen beschikbaar is voor specifieke accounts. Voor informatie over standaardgoedkeuringsprocessen, zie de artikelen die in [ worden vermeld goedkeuringen van het Werk ](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
+>De inhoud van dit artikel verwijst naar de functionaliteit voor bijgewerkte documentgoedkeuring die alleen beschikbaar is voor specifieke accounts. Voor informatie over standaardgoedkeuringsprocessen, zie de artikelen die in [&#x200B; worden vermeld goedkeuringen van het Werk &#x200B;](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
 
 ## Toegangsvereisten
 
@@ -60,7 +60,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 1. Selecteer **Goedkeuringen** in de linkerruit.
 
-1. Beweeg over de naam van de fiatteur of de recensent u zou willen verwijderen, dan klikken op het **pictogram van de Schrapping** ![ pictogram van de Schrapping ](../assets/delete.png) dat na hun naam verschijnt.
+1. Beweeg over de naam van de fiatteur of de recensent u zou willen verwijderen, dan klikken op het **pictogram van de Schrapping** ![&#x200B; pictogram van de Schrapping &#x200B;](../assets/delete.png) dat na hun naam verschijnt.
 
    De goedkeuring of het revisieverzoek wordt verwijderd en de fiatteur ontvangt een melding dat zijn goedkeuring niet langer nodig is. Hun op goedkeuring betrekking hebbende aandeeltoegang wordt ook geschrapt.
 
@@ -76,7 +76,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 1. Selecteer de versie van het document waarvoor u een fiatteur of revisor wilt verwijderen in het vervolgkeuzemenu. De meest recente versie wordt standaard geselecteerd.
 
-1. De rol neer aan de **goedkeurt** sectie in de Summiere ruit van het Document. Beweeg over de naam van de fiatteur of de recensent u zou willen verwijderen, dan klikken op het **pictogram van de Schrapping** ![ pictogram van de Schrapping ](../assets/delete.png) dat na hun naam verschijnt.
+1. De rol neer aan de **goedkeurt** sectie in de Summiere ruit van het Document. Beweeg over de naam van de fiatteur of de recensent u zou willen verwijderen, dan klikken op het **pictogram van de Schrapping** ![&#x200B; pictogram van de Schrapping &#x200B;](../assets/delete.png) dat na hun naam verschijnt.
 
    De goedkeuring of het revisieverzoek wordt verwijderd en de fiatteur ontvangt een melding dat zijn goedkeuring niet langer nodig is. Hun op goedkeuring betrekking hebbende aandeeltoegang wordt ook geschrapt.
 

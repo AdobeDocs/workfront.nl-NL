@@ -18,7 +18,7 @@ ht-degree: 1%
 
 ## Nieuwe bronnen
 
-Dit is een lijst met bronnen die nieuw zijn voor API versie 9. Voor een lijst van updates die aan de middelen van versie 8 zijn gemaakt te bezoeken gelieve [ Updates aan API Versie 8 ](../../wf-api/api/new-api-version-8-updates.md)
+Dit is een lijst met bronnen die nieuw zijn voor API versie 9. Voor een lijst van updates die aan de middelen van versie 8 zijn gemaakt te bezoeken gelieve [&#x200B; Updates aan API Versie 8 &#x200B;](../../wf-api/api/new-api-version-8-updates.md)
 
 **AgileWork**
 

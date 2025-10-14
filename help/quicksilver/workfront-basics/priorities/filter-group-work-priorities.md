@@ -53,7 +53,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-*Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Voor meer informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -65,7 +65,7 @@ U kunt taken en kwesties filtreren die aan u worden toegewezen.
 
 1. Klik **Filters** in de hoogste linkerzijde van de werklijst.
 1. In de **Standaard filters** sectie, selecteer één of meerdere filters om onderaan uw het werkpunten te versmallen.
-   ![ Filter ](assets/filter-new.png)
+   ![&#x200B; Filter &#x200B;](assets/filter-new.png)
 
 +++Uitbreiden om gedetailleerde informatie over beschikbare filters weer te geven
 <table>
@@ -135,7 +135,7 @@ Gebruik natuurlijke taal om werk snel te filteren.
 
 >[!NOTE]
 >
->Deze eigenschap is slechts beschikbaar voor klanten op de Verenigde Ervaring van Adobe gebruikend AI Medewerker. Voor meer informatie over AI Medewerker, zie [ AI Hulpoverzicht ](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md).
+>Deze eigenschap is slechts beschikbaar voor klanten op de Verenigde Ervaring van Adobe gebruikend AI Medewerker. Voor meer informatie over AI Medewerker, zie [&#x200B; AI Hulpoverzicht &#x200B;](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md).
 
 {{step1-to-priorities}}
 
@@ -155,7 +155,7 @@ Gebruik natuurlijke taal om werk snel te filteren.
 
 1. Klik **Groepen** in de hoogste linkerzijde van de werklijst.
 1. Selecteer een groep om uw werklijst te organiseren.
-   ![ Groepen ](assets/groups-new.png)
+   ![&#x200B; Groepen &#x200B;](assets/groups-new.png)
 
 +++Uitbreiden om gedetailleerde informatie over beschikbare groepen weer te geven
 
@@ -174,7 +174,7 @@ U kunt individuele het werkpunten tussen categorieën slepen en laten vallen wan
 
 1. Groepeer uw werk door **Status** of **Mijn Prioriteit**.
 2. Beweeg over het het werkpunt om het **pictogram van de Belemmering** te klikken en het naar de gewenste categorie te bewegen.
-   ![ belemmeringspictogram ](assets/drag-and-drop.png)
+   ![&#x200B; belemmeringspictogram &#x200B;](assets/drag-and-drop.png)
 
 ## Uw werk sorteren
 
@@ -182,16 +182,16 @@ U kunt individuele het werkpunten tussen categorieën slepen en laten vallen wan
 
 Om uw werk binnen een groep te sorteren, open **Groep** en selecteer als u in het stijgen of dalende orde wilt sorteren.
 
-![ Soort in groepen ](assets/sort-in-groups.png)
+![&#x200B; Soort in groepen &#x200B;](assets/sort-in-groups.png)
 
 ### Kolommen sorteren
 
 Als u afzonderlijke kolommen wilt sorteren, gaat u naar de kolom en klikt u op de pijl omlaag.
 
-![ benedenpijl in kolom ](assets/sort-columns.png)
+![&#x200B; benedenpijl in kolom &#x200B;](assets/sort-columns.png)
 
 ### Alle groepssecties uitvouwen of samenvouwen
 
 Om alle groepssecties uit te breiden of te doen ineenstorten, open **Groep** en klik **breid allen uit** of **samen allen**.
 
-![ breid of doen ineenstorten groepen ](assets/expand-collapse-groups.png) uit
+![&#x200B; breid of doen ineenstorten groepen &#x200B;](assets/expand-collapse-groups.png) uit

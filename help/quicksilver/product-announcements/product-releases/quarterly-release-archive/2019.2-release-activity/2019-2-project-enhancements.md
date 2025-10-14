@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Op deze pagina worden alle projectverbeteringen beschreven die zijn opgenomen in de release van 2019.2. De functionaliteit zal naar verwachting in de week van 20 mei 2019 beschikbaar zijn in de productieomgeving.
 
-Voor een lijst van alle veranderingen die in 2019.2 worden aangebracht, zie [ 2019.2 Overzicht van de Activiteit van de Versie ](../../../../product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-release-activity-overview.md).
+Voor een lijst van alle veranderingen die in 2019.2 worden aangebracht, zie [&#x200B; 2019.2 Overzicht van de Activiteit van de Versie &#x200B;](../../../../product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-release-activity-overview.md).
 
 ## Groepen sneller zoeken bij het aanpassen van statussen
 
@@ -26,13 +26,13 @@ Het vervolgkeuzemenu op het tabblad Statussen in het gedeelte Instellen is nu ee
 
 Eerder werd in de vervolgkeuzelijst een beperkt aantal groepen weergegeven. Als de groep u wilde niet tonen, moest u aan Opstelling > Groepen navigeren en de specifieke groep vinden om de status van de groep aan te passen.
 
-Voor meer informatie, zie [ een status ](../../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md) creëren of uitgeven.
+Voor meer informatie, zie [&#x200B; een status &#x200B;](../../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md) creëren of uitgeven.
 
 ## Standaard aangepaste Forms- en goedkeuringsprocessen koppelen aan taken
 
 U kunt standaarddouaneformulieren en goedkeuringsprocessen nu vormen om aan taken vast te maken wanneer u taken aan een project toevoegt. U kunt de standaardmontages op het projectniveau vormen.
 
-Voor informatie over het vormen van standaarddouaneformulieren en goedkeuringsprocessen voor taken op het projectniveau, zie de &quot;sectie van Taken&quot;in [ projecten ](../../../../manage-work/projects/manage-projects/edit-projects.md) artikel uitgeven.
+Voor informatie over het vormen van standaarddouaneformulieren en goedkeuringsprocessen voor taken op het projectniveau, zie de &quot;sectie van Taken&quot;in [&#x200B; projecten &#x200B;](../../../../manage-work/projects/manage-projects/edit-projects.md) artikel uitgeven.
 
 ## De gehele rij van een bovenliggende taak in Vet weergeven in een takenlijst
 
@@ -44,9 +44,9 @@ Met de nieuwe knop Automatisch opslaan in de takenlijst kunt u opgeven of de aan
 
 Vóór deze verbetering, werden alle veranderingen altijd automatisch bewaard.
 
-Voor informatie over het uitgeven van taken in een taaklijst, zie [ taken ](../../../../manage-work/tasks/manage-tasks/edit-tasks.md) uitgeven.
+Voor informatie over het uitgeven van taken in een taaklijst, zie [&#x200B; taken &#x200B;](../../../../manage-work/tasks/manage-tasks/edit-tasks.md) uitgeven.
 
-Voor informatie over het uitgeven van taken in de grafiek van Gantt, zie [ informatie van de Update in de Grafiek van Gantt van de taaklijst ](../../../../manage-work/gantt-chart/use-the-gantt-chart/update-info-task-list-gantt.md).
+Voor informatie over het uitgeven van taken in de grafiek van Gantt, zie [&#x200B; informatie van de Update in de Grafiek van Gantt van de taaklijst &#x200B;](../../../../manage-work/gantt-chart/use-the-gantt-chart/update-info-task-list-gantt.md).
 
 ## Nieuwe standaardwaarden kolombreedte in nieuwe lijsten
 
@@ -54,7 +54,7 @@ Workfront past nu automatisch de breedte van de kolommen aan op basis van de inf
 
 Vóór deze verbetering, werden de kolombreedten in het nieuwe project en de taakmeningen geplaatst aan 100 pixel, tenzij anders gespecificeerd.
 
-Voor informatie over kolombreedten, zie [ kolombreedte en orde wijzigen ](../../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md).
+Voor informatie over kolombreedten, zie [&#x200B; kolombreedte en orde wijzigen &#x200B;](../../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md).
 
 ## Ongebruikte objecten deactiveren
 
@@ -86,7 +86,7 @@ U kunt de Gefabriceerde Kosten van Gepland Werk (BCWS) en de Gefabriceerde Koste
 
 Hoewel deze maatstaven voor projectprestaties al eerder in financiële berekeningen in Workfront werden gebruikt, waren ze vóór deze verbetering niet zichtbaar in het systeem.
 
-Voor informatie over het berekenen van BCWS, zie [ Berekende Gefabriceerde Kosten van Gepland Werk (BCWS) ](../../../../manage-work/projects/project-finances/calculate-bcws.md).
+Voor informatie over het berekenen van BCWS, zie [&#x200B; Berekende Gefabriceerde Kosten van Gepland Werk (BCWS) &#x200B;](../../../../manage-work/projects/project-finances/calculate-bcws.md).
 
-Voor informatie over het berekenen van BCWP, zie [ Begrotende Kosten van het Geprezen Werk berekenen (BCWP) ](../../../../manage-work/projects/project-finances/calculate-bcwp.md).
+Voor informatie over het berekenen van BCWP, zie [&#x200B; Begrotende Kosten van het Geprezen Werk berekenen (BCWP) &#x200B;](../../../../manage-work/projects/project-finances/calculate-bcwp.md).
 

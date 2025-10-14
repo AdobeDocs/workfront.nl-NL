@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [ het Bewijzen ](../../../review-and-approve-work/proofing/proofing.md).
+>Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [&#x200B; het Bewijzen &#x200B;](../../../review-and-approve-work/proofing/proofing.md).
 
 Als [!DNL Workfront Proof] beheerder, kunt u uw openbare en privé Groepen op de pagina van Groepen beheren.
 
@@ -28,23 +28,23 @@ Als [!DNL Workfront Proof] beheerder, kunt u uw openbare en privé Groepen op de
 Op de pagina [!UICONTROL Groups] kunt u:
 
    * Bekijk al uw openbare en privé Groepen.
-   * Maak een nieuwe groep. Voor meer informatie, zie [ het ProofingGroepen creëren gebruikend  [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/groups/create-proofing-groups.md).
+   * Maak een nieuwe groep. Voor meer informatie, zie [&#x200B; het ProofingGroepen creëren gebruikend  [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/groups/create-proofing-groups.md).
    * Groepen exporteren naar CSV-bestand.
    * Filter en sorteer Groepen.
    * Nadat u een of meer groepen hebt geselecteerd, zijn de volgende aanvullende opties beschikbaar:
 
       * Voeg personen toe aan de geselecteerde groepen.
 
-        ![ groups_page-add_people_btn.png ](assets/groups-page-add-people-btn-30x29.png)
+        ![&#x200B; groups_page-add_people_btn.png &#x200B;](assets/groups-page-add-people-btn-30x29.png)
 
-      * Maak de geselecteerde Groepen privé of openbaar, zoals die in [ worden beschreven Privé maken Groepen  [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/groups/make-groups-private.md)
+      * Maak de geselecteerde Groepen privé of openbaar, zoals die in [&#x200B; worden beschreven Privé maken Groepen  [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/groups/make-groups-private.md)
       * De privé Groepen zijn zichtbaar slechts aan hun scheppers.
       * Verwijder de geselecteerde groepen.
 
-        ![ pictogram van de Schrapping ](assets/trash-button.png)
+        ![&#x200B; pictogram van de Schrapping &#x200B;](assets/trash-button.png)
    * U kunt acties uitvoeren op Groepen ook op elke Groep afzonderlijk van hun eigen **[!UICONTROL More]** (drie punten) menu:
 
-     ![ Meer menu ](assets/more-button-small.png)
+     ![&#x200B; Meer menu &#x200B;](assets/more-button-small.png)
 
       * Groepdetails weergeven.
 
@@ -61,18 +61,18 @@ U kunt groepen sorteren op groepsnaam, privacystatus en beschrijving.
 1. Klik op de kolomkop waarop u wilt sorteren.
 of
 Selecteer een sorteeroptie in het menu Sorteren.
-   ![ groups_page-Sort_menu.png ](assets/groups-page-sort-menu-350x80.png)
+   ![&#x200B; groups_page-Sort_menu.png &#x200B;](assets/groups-page-sort-menu-350x80.png)
 Het driehoekje op een kolomkop geeft de sorteervolgorde aan. Naar boven gericht, wijst het op stijgende orde; naar beneden wijst op dalende orde.
 
 ## Groepen filteren
 
 1. Klik op het pictogram **[!UICONTROL Filter]** helemaal rechts van de kolomkoppen om de filteropties onder de kolomkoppen weer te geven.
-   ![ Group_page-Filter_icon_and_options.png ](assets/group-page-filter-icon-and-options-350x134.png)
+   ![&#x200B; Group_page-Filter_icon_and_options.png &#x200B;](assets/group-page-filter-icon-and-options-350x134.png)
 
 1. Selecteer [!UICONTROL filtering options] in de vervolgkeuzemenu&#39;s en typ in de filtervakken die onder elke kolomkop worden weergegeven. Klik vervolgens nogmaals op het pictogram **[!UICONTROL Filter]** om de opties toe te passen.
 of\
    Selecteer de eerste letter in de naam van de groep.
-   ![ groups_page-filtering_by_letter.png ](assets/groups-page-filtering-by-letter-350x245.png)
+   ![&#x200B; groups_page-filtering_by_letter.png &#x200B;](assets/groups-page-filtering-by-letter-350x245.png)
 
 ## Groepdetails weergeven en bewerken
 
@@ -85,16 +85,16 @@ Op de pagina die wordt weergegeven, kunt u alle personen weergeven die zich mome
    * Klik op **[!UICONTROL Privacy]** om de privacyinstelling voor groepen in het keuzemenu te wijzigen.
    * Klik op **[!UICONTROL Add to group]** om nieuwe personen aan de groep toe te voegen.
 
-     ![ Add_to_Group_btn.png ](assets/add-to-group-btn.png)
+     ![&#x200B; Add_to_Group_btn.png &#x200B;](assets/add-to-group-btn.png)
 
    * Klik op **[!UICONTROL Delete group]** in de rechterbovenhoek om de groep te verwijderen.\
 
-     ![ Prullenbak_button.png ](assets/trash-button.png)
+     ![&#x200B; Prullenbak_button.png &#x200B;](assets/trash-button.png)
 
    * Klik checkbox aan het begin van de rij van een lid van de Groep en gebruik om het even welke opties die net boven de lijst verschijnen.
    * Klik op het pictogram **[!UICONTROL More]** aan het einde van de rij van een groepslid en gebruik een van de opties in het keuzemenu.
 
-     ![ More_button_small.png ](assets/more-button-small.png)
+     ![&#x200B; More_button_small.png &#x200B;](assets/more-button-small.png)
 
 ## Contactpersonen toevoegen aan groepen
 
@@ -102,12 +102,12 @@ Op de pagina die wordt weergegeven, kunt u alle personen weergeven die zich mome
 
 1. Schakel de selectievakjes in naast de naam of namen van de contactpersonen die u aan een groep wilt toevoegen.
 1. Klik op **[!UICONTROL Add to group]** .
-   ![ toevoegen aan groep ](assets/screenshot-2018-04-06-15-27-17.png)
+   ![&#x200B; toevoegen aan groep &#x200B;](assets/screenshot-2018-04-06-15-27-17.png)
 Het dialoogvenster **[!UICONTROL Add to group]** wordt weergegeven.
 
 1. In de sectie **[!UICONTROL People]** :
 
-   1. Gebruik de drop-down menu&#39;s om het 3&rbrace; alarm van de Rol van een lid **te veranderen** of **E-mail**. Voor meer informatie, zie [ de Rollen van het Bewijs binnen beheren  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md) en [ vormen e-mailberichtmontages in  [!DNL Workfront Proof]](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md).
+   1. Gebruik de drop-down menu&#39;s om het 3&rbrace; alarm van de Rol van een lid **te veranderen** of **E-mail**. Voor meer informatie, zie [&#x200B; de Rollen van het Bewijs binnen beheren  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md) en [&#x200B; vormen e-mailberichtmontages in  [!DNL Workfront Proof]](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md).
 
    1. Gebruik het veld **[!UICONTROL Enter a contact name]** of **[!UICONTROL email address]** om extra contactpersonen aan de groep toe te voegen.
 

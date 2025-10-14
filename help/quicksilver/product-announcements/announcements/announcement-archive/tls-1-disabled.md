@@ -39,12 +39,12 @@ Deze wijziging treedt in werking op 7 augustus in de omgeving van de voorvertoni
 
 ## Voorbereiden op de TLS-upgrade
 
-* [ wanneer het toegang tot van Workfront via browser ](#when-accessing-workfront-via-the-browser)
+* [&#x200B; wanneer het toegang tot van Workfront via browser &#x200B;](#when-accessing-workfront-via-the-browser)
 * [Bij verbinding met Workfront via de API](#when-connecting-to-workfront-via-the-api)
 
 ### Bij Workfront openen via browser {#when-accessing-workfront-via-the-browser}
 
-Zorg ervoor dat gebruikers in uw organisatie Workfront openen via een ondersteunde browser. (Voor informatie over gesteunde browsers, zie [ browser van Adobe Workfront vereisten ](../../../workfront-basics/workfront-browser-requirements.md).)
+Zorg ervoor dat gebruikers in uw organisatie Workfront openen via een ondersteunde browser. (Voor informatie over gesteunde browsers, zie [&#x200B; browser van Adobe Workfront vereisten &#x200B;](../../../workfront-basics/workfront-browser-requirements.md).)
 
 Alle browsers die door Workfront worden ondersteund, zijn compatibel met TLS 1.2.
 

@@ -17,4 +17,4 @@ ht-degree: 0%
 
 Hoewel de Desktop Proofing Viewer is ontworpen voor het controleren van interactieve inhoud, kunt u deze ook gebruiken om statische en video-inhoud te reviseren. Uw Adobe Workfront-beheerder kan de Desktop Proofing Viewer configureren om elke keer dat u een statische of videoproefdruk start, te openen.
 
-Nadat u een niet-interactieve proefdruk hebt geopend in de Desktop Proofing Viewer, werkt deze op dezelfde manier als de Web Proofing Viewer. Als u informatie over deze functionaliteit nodig hebt, zie [ Overzicht een proef ](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/review-a-proof.md).
+Nadat u een niet-interactieve proefdruk hebt geopend in de Desktop Proofing Viewer, werkt deze op dezelfde manier als de Web Proofing Viewer. Als u informatie over deze functionaliteit nodig hebt, zie [&#x200B; Overzicht een proef &#x200B;](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/review-a-proof.md).

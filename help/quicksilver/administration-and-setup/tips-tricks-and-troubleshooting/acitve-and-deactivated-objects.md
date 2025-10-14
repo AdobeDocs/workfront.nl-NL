@@ -28,13 +28,13 @@ De term Actief wordt gebruikt om te bepalen of bepaalde voorwerpen in het systee
 
 U kunt e-mailmeldingen activeren zodat bepaalde acties e-mailmeldingen voor alle gebruikers activeren.
 
-Voor informatie over het activeren van of het deactiveren van e-mailberichten, zie [ gebeurtenisberichten voor iedereen in het systeem ](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md) vormen.
+Voor informatie over het activeren van of het deactiveren van e-mailberichten, zie [&#x200B; gebeurtenisberichten voor iedereen in het systeem &#x200B;](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md) vormen.
 
 ## Uurtypen
 
 U kunt uurtypen activeren zodat deze door gebruikers kunnen worden geselecteerd wanneer ze zich aanmelden.
 
-Voor informatie over het activeren van of het deactiveren van uurtypes, zie [ de types van uren ](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/hour-types.md) leiden.
+Voor informatie over het activeren van of het deactiveren van uurtypes, zie [&#x200B; de types van uren &#x200B;](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/hour-types.md) leiden.
 
 ## Portfolio&#39;s
 
@@ -42,7 +42,7 @@ Een portfolio moet actief zijn om op het [!UICONTROL New Project (Business Case)
 
 U kunt een portfolio actief maken tijdens het bewerken van het portfolio.
 
-Voor informatie over het uitgeven van portefeuilles, zie [ een portefeuille ](../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md) creëren.
+Voor informatie over het uitgeven van portefeuilles, zie [&#x200B; een portefeuille &#x200B;](../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md) creëren.
 
 ## Programma&#39;s
 
@@ -50,7 +50,7 @@ Een programma moet actief zijn om op het [!UICONTROL Program] gebied voor een pr
 
 U kunt een programma actief maken tijdens het bewerken van het programma.
 
-Voor informatie over het uitgeven van programma&#39;s, zie [ een programma ](../../manage-work/portfolios/create-and-manage-programs/create-program.md) creëren.
+Voor informatie over het uitgeven van programma&#39;s, zie [&#x200B; een programma &#x200B;](../../manage-work/portfolios/create-and-manage-programs/create-program.md) creëren.
 
 ## Sjablonen
 
@@ -58,7 +58,7 @@ Een malplaatje moet actief zijn om op het gebied van het Malplaatje voor een pro
 
 U kunt een sjabloon actief maken terwijl u de sjabloon bewerkt.
 
-Voor informatie over het uitgeven van malplaatjes, zie [ projectmalplaatjes ](../../manage-work/projects/create-and-manage-templates/edit-templates.md) uitgeven.
+Voor informatie over het uitgeven van malplaatjes, zie [&#x200B; projectmalplaatjes &#x200B;](../../manage-work/projects/create-and-manage-templates/edit-templates.md) uitgeven.
 
 ## Goedkeuringsprocessen
 
@@ -66,7 +66,7 @@ Een goedkeuringsproces moet actief zijn om op het [!UICONTROL Approval Process] 
 
 U kunt een goedkeuringsproces actief maken terwijl het uitgeven van het goedkeuringsproces.
 
-Voor informatie over het uitgeven van goedkeuringsprocessen, zie [ een goedkeuringsproces voor het werkpunten ](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md) creëren.
+Voor informatie over het uitgeven van goedkeuringsprocessen, zie [&#x200B; een goedkeuringsproces voor het werkpunten &#x200B;](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md) creëren.
 
 ## Mijlpaden
 
@@ -74,7 +74,7 @@ Een milestone-pad moet actief zijn om in het veld [!UICONTROL Milestone Path] vo
 
 U kunt een milestone-pad actief maken tijdens het bewerken van het milestone-pad.
 
-Voor informatie over het uitgeven van milestone wegen, zie [ een milestone weg ](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md) creëren.
+Voor informatie over het uitgeven van milestone wegen, zie [&#x200B; een milestone weg &#x200B;](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md) creëren.
 
 ## Aangepaste formulieren
 
@@ -82,7 +82,7 @@ Een aangepast formulier moet actief zijn om in het veld [!UICONTROL Custom Form]
 
 U kunt een aangepast formulier actief maken tijdens het bewerken van het aangepaste formulier.
 
-Voor informatie over het uitgeven van douaneformulieren en voor een lijst van voorwerpen die u hen met kunt associëren, zie [ een douaneformulier ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren.
+Voor informatie over het uitgeven van douaneformulieren en voor een lijst van voorwerpen die u hen met kunt associëren, zie [&#x200B; een douaneformulier &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren.
 
 ## Bedrijven
 
@@ -90,7 +90,7 @@ Een bedrijf moet actief zijn om op het [!UICONTROL Company] gebied voor een proj
 
 U kunt een bedrijf actief maken terwijl het uitgeven van het bedrijf.
 
-Voor informatie, zie [ bedrijven ](../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md) creëren en uitgeven.
+Voor informatie, zie [&#x200B; bedrijven &#x200B;](../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md) creëren en uitgeven.
 
 ## Gebruikers
 
@@ -98,15 +98,15 @@ Een gebruiker moet actief zijn om te worden weergegeven in &#39;type-aheadvelden
 
 U kunt gebruikers deactiveren van de gebruikerspagina of terwijl u een gebruiker bewerkt.
 
-Voor informatie over het deactiveren van gebruikers, zie [ een gebruiker ](../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md) deactiveren of reactiveren.
+Voor informatie over het deactiveren van gebruikers, zie [&#x200B; een gebruiker &#x200B;](../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md) deactiveren of reactiveren.
 
 >[!IMPORTANT]
 >
 >Als uw organisatie is aangemeld bij de [!DNL Adobe Business Platform] , moet u gebruikers deactiveren via de [!UICONTROL Adobe Admin Console] .
 >
->Voor instructies bij het deactiveren van een gebruiker in [!UICONTROL Adobe Admin Console], zie de sectie &quot;verwijder gebruikers&quot;in artikel [ individueel gebruikers ](https://helpx.adobe.com/nl/enterprise/using/manage-users-individually.html) leiden of uw [!UICONTROL Adobe Admin Console] Beheerder contacteren.
+>Voor instructies bij het deactiveren van een gebruiker in [!UICONTROL Adobe Admin Console], zie de sectie &quot;verwijder gebruikers&quot;in artikel [&#x200B; individueel gebruikers &#x200B;](https://helpx.adobe.com/nl/enterprise/using/manage-users-individually.html) leiden of uw [!UICONTROL Adobe Admin Console] Beheerder contacteren.
 >
->Voor een lijst van procedures die verschillen gebaseerd op of uw organisatie aan [!DNL Adobe Business Platform] is genegeerd, zie [ Op platform-gebaseerde beleidsverschillen (Adobe Workfront/Adobe Bedrijfs Platform) ](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>Voor een lijst van procedures die verschillen gebaseerd op of uw organisatie aan [!DNL Adobe Business Platform] is genegeerd, zie [&#x200B; Op platform-gebaseerde beleidsverschillen (Adobe Workfront/Adobe Bedrijfs Platform) &#x200B;](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
 ## Teams
 
@@ -114,7 +114,7 @@ Een team moet actief zijn om te worden weergegeven in &#39;type-aheadvelden&#39;
 
 U kunt teams deactiveren wanneer u een team bewerkt.
 
-Voor informatie over het deactiveren van teams, zie [ een team ](../../people-teams-and-groups/create-and-manage-teams/deactivate-a-team.md) deactiveren.
+Voor informatie over het deactiveren van teams, zie [&#x200B; een team &#x200B;](../../people-teams-and-groups/create-and-manage-teams/deactivate-a-team.md) deactiveren.
 
 ## Taken rollen
 
@@ -122,5 +122,5 @@ Een taakrol moet actief zijn om te worden weergegeven in &#39;type-aheadvelden&#
 
 U kunt taakrollen deactiveren wanneer u deze bewerkt.
 
-Voor informatie over het deactiveren van baanrollen, zie [ werkrollen ](../../administration-and-setup/set-up-workfront/organizational-setup/deactivate-job-roles.md) deactiveren.
+Voor informatie over het deactiveren van baanrollen, zie [&#x200B; werkrollen &#x200B;](../../administration-and-setup/set-up-workfront/organizational-setup/deactivate-job-roles.md) deactiveren.
 

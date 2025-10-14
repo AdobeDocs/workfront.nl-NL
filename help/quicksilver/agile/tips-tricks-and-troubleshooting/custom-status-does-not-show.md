@@ -16,4 +16,4 @@ ht-degree: 0%
 
 # Aangepaste statussen die niet worden weergegeven op het Klembord voor artikelen
 
-Als u een aangepaste status wilt gebruiken op een &#39;agile story&#39;-board, moet uw [!DNL Adobe Workfront] -beheerder eerst die aangepaste status maken als een status die voor het hele systeem geldt. Voor meer informatie, heb uw [!DNL Workfront] beheerder zien [ creeer of geef een status ](../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md) uit.
+Als u een aangepaste status wilt gebruiken op een &#39;agile story&#39;-board, moet uw [!DNL Adobe Workfront] -beheerder eerst die aangepaste status maken als een status die voor het hele systeem geldt. Voor meer informatie, heb uw [!DNL Workfront] beheerder zien [&#x200B; creeer of geef een status &#x200B;](../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md) uit.

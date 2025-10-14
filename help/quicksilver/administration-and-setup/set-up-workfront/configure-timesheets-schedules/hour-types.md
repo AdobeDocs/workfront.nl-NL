@@ -45,7 +45,7 @@ Er zijn twee categorieën van uurtypes:
    * Taaktijd
    * Uitgiftetijd
 
-  De [!DNL Workfront] beheerder bepaalt welke project-specifieke uurtypes beschikbaar worden gemaakt, zoals die in [ worden beschreven bepaalt uurtypes en beschikbaarheid ](../../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md).
+  De [!DNL Workfront] beheerder bepaalt welke project-specifieke uurtypes beschikbaar worden gemaakt, zoals die in [&#x200B; worden beschreven bepaalt uurtypes en beschikbaarheid &#x200B;](../../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md).
 
   >[!NOTE]
   >
@@ -53,7 +53,7 @@ Er zijn twee categorieën van uurtypes:
 
 * **de Types van Uur van 0&rbrace; Algemeen**: De algemene uren kunnen niet met een project, een taak, of een kwestie worden geassocieerd, en rechtstreeks in een timesheet het programma geopend.
 
-Voor informatie over het registreren van uren en het associëren van hen met uurtypes, zie [ tijd van het Logboek ](/help/quicksilver/timesheets/create-and-manage-timesheets/log-time.md).
+Voor informatie over het registreren van uren en het associëren van hen met uurtypes, zie [&#x200B; tijd van het Logboek &#x200B;](/help/quicksilver/timesheets/create-and-manage-timesheets/log-time.md).
 
 ## Toegangsvereisten
 
@@ -79,7 +79,7 @@ Voor informatie over het registreren van uren en het associëren van hen met uur
  </tbody> 
 </table>
 
-*For meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*For meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -102,7 +102,7 @@ Als [!DNL Workfront] beheerder, kunt u uurtypes voor uw organisatie op systeem e
 
 Nadat u uurtypes op systeem-niveau bepaalt, kunnen de gebruikers bepalen welke uurtypes voor specifieke projecten of voor specifieke gebruikers beschikbaar zijn.
 
-Voor meer informatie, zie [ de types en beschikbaarheid van uren bepalen ](../../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md)
+Voor meer informatie, zie [&#x200B; de types en beschikbaarheid van uren bepalen &#x200B;](../../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md)
 
 U kunt als volgt uurtypen maken:
 
@@ -157,7 +157,7 @@ Als [!DNL Workfront] beheerder, kunt u uurtypes voor uw organisatie op systeem e
 
 1. In het linkerpaneel, klik **Tijdopmaak &amp; Uren**, dan klik **de Types van Uur**.
 
-1. Klik een het type van uur naam of selecteer het uurtype, dan klik **uitgeven** pictogram ![ pictogram ](assets/edit-icon.png) bij de bovenkant van de lijst uitgeven.
+1. Klik een het type van uur naam of selecteer het uurtype, dan klik **uitgeven** pictogram ![&#x200B; pictogram &#x200B;](assets/edit-icon.png) bij de bovenkant van de lijst uitgeven.
 1. In **geef de dialoogdoos van de Types van Uur** uit, specificeer de volgende informatie:
 
    <table style="table-layout:auto"> 
@@ -215,7 +215,7 @@ Een uurtype deactiveren:
 
 1. Klik **Meer**, toen **&#x200B;**&#x200B;deactivate.
 
-   ![ activeer en deactiveer de verbindingen van het uurtype ](assets/activate-and-deactivate-hour-type-links.png)
+   ![&#x200B; activeer en deactiveer de verbindingen van het uurtype &#x200B;](assets/activate-and-deactivate-hour-type-links.png)
 
    Het uurtype wordt gedeactiveerd en de gebruikers kunnen het niet meer vinden wanneer het registreren uren.
 

@@ -18,11 +18,11 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [ het Bewijzen ](../../../review-and-approve-work/proofing/proofing.md).
+>Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [&#x200B; het Bewijzen &#x200B;](../../../review-and-approve-work/proofing/proofing.md).
 
 Nadat u de [!DNL Basecamp] -integratie hebt ingesteld, kunt u proefdrukken toevoegen aan projecten in uw [!DNL Basecamp] -account.
 
-Revisoren op de proefdruk ontvangen vervolgens een bericht in hun [!DNL Basecamp] -account met de [!DNL Workfront Proof] -proefdruk ingesloten. Zodra ze het bericht openen, kunnen ze opmerkingen maken en beslissingen nemen over de proefdruk vanuit hun [!DNL Basecamp] -account. Voor meer informatie, zie [ Overzicht een Bewijs in  [!DNL Basecamp]](../../../workfront-proof/wp-integrations/basecamp/review-proof-basecamp.md).
+Revisoren op de proefdruk ontvangen vervolgens een bericht in hun [!DNL Basecamp] -account met de [!DNL Workfront Proof] -proefdruk ingesloten. Zodra ze het bericht openen, kunnen ze opmerkingen maken en beslissingen nemen over de proefdruk vanuit hun [!DNL Basecamp] -account. Voor meer informatie, zie [&#x200B; Overzicht een Bewijs in  [!DNL Basecamp]](../../../workfront-proof/wp-integrations/basecamp/review-proof-basecamp.md).
 
 Als maker van een proefdruk wilt u ervoor zorgen dat de [!DNL Basecamp] -integratie is ingeschakeld en dat u de relevante [!DNL Basecamp] -account hebt gekozen in uw [!UICONTROL Personal settings] -account (aangezien u kunt integreren met meerdere [!DNL Basecamp] -accounts).
 
@@ -30,7 +30,7 @@ Nadat u een proefdruk hebt toegevoegd aan een [!DNL Basecamp] -project, ontvange
 
 ## Een nieuw proefexemplaar toevoegen aan een [!DNL Basecamp] -project
 
-1. Creeer een proef, zoals die in [ wordt beschreven produceer Proefdrukken in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md).
+1. Creeer een proef, zoals die in [&#x200B; wordt beschreven produceer Proefdrukken in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md).
 1. Als u de controleurs per e-mail op de hoogte wilt stellen, controleert u of **[!UICONTROL Notify people by email]** is ingeschakeld.\
    Uw [!DNL Basecamp] -revisoren ontvangen een extra [!DNL Basecamp] -bericht.
 
@@ -55,7 +55,7 @@ Nadat u een proefdruk hebt toegevoegd aan een [!DNL Basecamp] -project, ontvange
 
 ## Een bestaand proef toevoegen aan een [!DNL Basecamp] -project
 
-1. In [!DNL Workfront Proof], ga naar de [!UICONTROL Proof details] pagina, zoals die in [ wordt beschreven beheert de Details van het Bewijs in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
+1. In [!DNL Workfront Proof], ga naar de [!UICONTROL Proof details] pagina, zoals die in [&#x200B; wordt beschreven beheert de Details van het Bewijs in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
 1. Open in de sectie **[!UICONTROL Workflow]** de sectie **[!UICONTROL More sharing options]** .
 
 1. Zorg ervoor dat **[!UICONTROL Proof URL]** en **[!UICONTROL Embed code]** zijn ingesteld op **[!UICONTROL Enable]** .
@@ -71,7 +71,7 @@ Nadat u een proefdruk hebt toegevoegd aan een [!DNL Basecamp] -project, ontvange
 
 1. Klik op **[!UICONTROL OK]**.
 
-Nadat u de proef aan uw [!DNL Basecamp Classic] project hebt toegevoegd, zult u extra opties zien die in de [!UICONTROL More sharing options] sectie van de de detailpagina van het Bewijs tonen (voor informatie over deze pagina, zie [ Beheren de Details van het Bewijs in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md). U kunt:
+Nadat u de proef aan uw [!DNL Basecamp Classic] project hebt toegevoegd, zult u extra opties zien die in de [!UICONTROL More sharing options] sectie van de de detailpagina van het Bewijs tonen (voor informatie over deze pagina, zie [&#x200B; Beheren de Details van het Bewijs in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md). U kunt:
 
 * Bewerk de [!DNL Basecamp Classic] -projectdetails.
 * Ga naar het bericht in [!DNL Basecamp Classic] door op de project-URL onder aan het vak te klikken (de URL bevat een id voor deze proefdruk).
@@ -80,4 +80,4 @@ Nadat u de proef aan uw [!DNL Basecamp Classic] project hebt toegevoegd, zult u 
 >
 >Als u geen [!DNL Basecamp] -sessie hebt geopend in een ander browservenster, moet u zich aanmelden bij uw [!DNL Basecamp] -account voordat u het bericht kunt zien in [!DNL Basecamp] .
 
-Zie ook [ Overzicht een Bewijs in  [!DNL Basecamp]  Klassiek ](../../../workfront-proof/wp-integrations/basecamp-classic/review-proof-basecamp-classic.md).
+Zie ook [&#x200B; Overzicht een Bewijs in  [!DNL Basecamp]  Klassiek &#x200B;](../../../workfront-proof/wp-integrations/basecamp-classic/review-proof-basecamp-classic.md).

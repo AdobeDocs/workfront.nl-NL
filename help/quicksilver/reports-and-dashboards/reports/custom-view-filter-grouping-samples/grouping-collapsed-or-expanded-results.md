@@ -22,7 +22,7 @@ ht-degree: 0%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this article: NWE only; not possible in classic) </p>
 -->
 
-U kunt erop wijzen of de resultaten in een groepering zouden moeten doen ineenstorten of in een lijst of rapport door de standaard rapportbouwer te gebruiken worden uitgebreid. De resultaten in een gegroepeerde weergave worden standaard uitgevouwen. Voor informatie over het creëren van een groepering, zie [ groepen in Adobe Workfront ](../../../reports-and-dashboards/reports/reporting-elements/create-groupings.md) creëren.
+U kunt erop wijzen of de resultaten in een groepering zouden moeten doen ineenstorten of in een lijst of rapport door de standaard rapportbouwer te gebruiken worden uitgebreid. De resultaten in een gegroepeerde weergave worden standaard uitgevouwen. Voor informatie over het creëren van een groepering, zie [&#x200B; groepen in Adobe Workfront &#x200B;](../../../reports-and-dashboards/reports/reporting-elements/create-groupings.md) creëren.
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: the tips repeat in the Create groupings to organize results article, Understanding text mode, Edit groupings to organize reports, Create a Custom Report; create a snippet when convenient)</p>
@@ -72,7 +72,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-*For informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*For informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

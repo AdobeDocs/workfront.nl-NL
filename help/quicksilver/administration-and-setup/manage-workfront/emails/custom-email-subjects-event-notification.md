@@ -82,13 +82,13 @@ Sommige gebeurtenismeldingen hebben meerdere onderwerpregel&#39;s, afhankelijk v
 
 &#39;Iemand neemt mij bijvoorbeeld op in een gestuurde update&#39; heeft twee verschillende onderwerpregel: ten eerste voor taken, uitgaven, sjabloontaken en documenten (ook wel &#39;referenceObject&#39; genoemd) en ten tweede voor objecten waarmee gebruikers opmerkingen kunnen maken, zoals een portfolio, programma, enzovoort (ook wel &#39;topReferenceObject&#39; genoemd).
 
-![ Gebeurtenis niet veelvoudige onderwerplijnen ](assets/ev-multiple-subject.png)
+![&#x200B; Gebeurtenis niet veelvoudige onderwerplijnen &#x200B;](assets/ev-multiple-subject.png)
 
 Als een gebruiker in een gesprek over de taak, de kwestie, de malplaatjetaak, of het document inbegrepen is, zal een e-mail met de eerste onderwerpregel produceren. De onderwerpregel bevat &quot;referenceObject:name&quot; en het systeem definieert het object en geeft de juiste naam weer in het onderwerpveld. De e-mailonderwerpregel zou er ongeveer als volgt uitzien: &quot;Opmerking bij taak 123 op project ABC.&quot;
 
 Als toegevoegd aan een projectgesprek zal een e-mail met het tweede onderwerp produceren. Hier bevat de onderwerpregel &quot;topReferenceObject:name&quot; en Workfront identificeert opnieuw welk object werd genoemd en retourneert die objectnaam in plaats van &quot;topReferenceObject:name&quot; in het onderwerp. De onderwerpregel van de e-mail ziet er ongeveer als volgt uit: &quot;Opmerking over project ABC.&quot;
 
-Om de e-mailonderwerplijnen uit te geven en extra gebieden aan één van beide onderwerplijnen toe te voegen, zie [ onderwerplijnen e-mail voor gebeurtenisberichten ](#customize-email-subject-lines-for-event-notifications) in dit artikel aanpassen.
+Om de e-mailonderwerplijnen uit te geven en extra gebieden aan één van beide onderwerplijnen toe te voegen, zie [&#x200B; onderwerplijnen e-mail voor gebeurtenisberichten &#x200B;](#customize-email-subject-lines-for-event-notifications) in dit artikel aanpassen.
 
 ## E-mailonderwerpregel aanpassen voor e-mailberichten met meerdere acties
 
@@ -98,6 +98,6 @@ Het aanvragen van een document om aan een uitgave toe te voegen, is bijvoorbeeld
 
 
 
-![ Gebeurtenis niet veelvoudige onderwerplijnen ](assets/Ev-not-mult-subj-lines.png)
+![&#x200B; Gebeurtenis niet veelvoudige onderwerplijnen &#x200B;](assets/Ev-not-mult-subj-lines.png)
 
-Om de e-mailonderwerplijnen uit te geven en extra gebieden aan één van beide onderwerplijnen toe te voegen, zie [ onderwerplijnen e-mail voor gebeurtenisberichten ](#customize-email-subject-lines-for-event-notifications) in dit artikel aanpassen.
+Om de e-mailonderwerplijnen uit te geven en extra gebieden aan één van beide onderwerplijnen toe te voegen, zie [&#x200B; onderwerplijnen e-mail voor gebeurtenisberichten &#x200B;](#customize-email-subject-lines-for-event-notifications) in dit artikel aanpassen.

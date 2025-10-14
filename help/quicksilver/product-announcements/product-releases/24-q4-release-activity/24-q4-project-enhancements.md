@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Deze pagina beschrijft alle projectverbeteringen die zijn aangebracht met de release van het vierde kwartaal van 2024 voor de voorvertoningsomgeving. Deze verbeteringen zullen beschikbaar worden gesteld in de productieomgeving, zoals vermeld.
 
-Voor een lijst van alle veranderingen beschikbaar op dit punt in het Vierde Kwartaal 2024 versiecyclus, zie [ Vierde Kwartaal 2024 releaseoverzicht ](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar op dit punt in het Vierde Kwartaal 2024 versiecyclus, zie [&#x200B; Vierde Kwartaal 2024 releaseoverzicht &#x200B;](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md).
 
 ## Meer relevante toewijzingen toegevoegd aan de werkstroom Nieuwe taak
 
@@ -32,7 +32,7 @@ Dezelfde functionaliteit voor meer relevante slimme toewijzingen is toegevoegd a
 
 * In een lijst met projecttaken
 
-Voor meer informatie, zie [ Slim toewijzingsoverzicht ](/help/quicksilver/manage-work/tasks/assign-tasks/smart-assignments.md).
+Voor meer informatie, zie [&#x200B; Slim toewijzingsoverzicht &#x200B;](/help/quicksilver/manage-work/tasks/assign-tasks/smart-assignments.md).
 
 ## Meer relevante slimme toewijzingen
 
@@ -58,4 +58,4 @@ Overweeg ook het volgende:
 
 * Er zijn geen wijzigingen in de manier waarop slimme toewijzingen voor emissies worden berekend. De naam van de lijst met slimme toewijzingen in een lijst met uitgaven is &quot;Hier volgen enkele aanbevelingen&quot;.
 
-Voor meer informatie, zie [ Slim toewijzingsoverzicht ](/help/quicksilver/manage-work/tasks/assign-tasks/smart-assignments.md).
+Voor meer informatie, zie [&#x200B; Slim toewijzingsoverzicht &#x200B;](/help/quicksilver/manage-work/tasks/assign-tasks/smart-assignments.md).

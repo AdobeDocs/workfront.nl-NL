@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Op deze pagina worden alle verbeteringen beschreven die zijn aangebracht in de versie 21.3 van het dialoogvenster Voorvertoning. Deze verbeteringen zijn in de week van 21 juli 2021 beschikbaar gesteld in de productieomgeving.
 
-Voor een lijst van alle veranderingen beschikbaar met de versie 21.3, zie [ overzicht van de Versie 21.3 ](../../../product-announcements/product-releases/21.3-release-activity/21-3-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar met de versie 21.3, zie [&#x200B; overzicht van de Versie 21.3 &#x200B;](../../../product-announcements/product-releases/21.3-release-activity/21-3-release-overview.md).
 
 ## Verzoeken zoeken zoeken op recente paden of door te zoeken met een trefwoord
 
@@ -32,5 +32,5 @@ Om u te helpen de juiste verzoekrij sneller vinden door naar onlangs geregistree
 
 Een weg omvat de verzoekrij en alle onderwerpgroepen en rijonderwerpen die u vóór wanneer het voorleggen van een verzoek hebt geselecteerd.
 
-Voor meer informatie, zie [ Adobe Workfront verzoeken ](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md) creëren en voorleggen.
+Voor meer informatie, zie [&#x200B; Adobe Workfront verzoeken &#x200B;](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md) creëren en voorleggen.
 

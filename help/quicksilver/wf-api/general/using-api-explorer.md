@@ -21,13 +21,13 @@ Wanneer u de Adobe Workfront Core API gebruikt, is de API Explorer een verouderd
 
 ## Open de API Explorer:
 
-1. Gebruik Webbrowser om aan de [ API Ontdekkingsreiziger ](https://developer.adobe.com/workfront/api-explorer/) te navigeren\
-   ![ ga aan API Ontdekkingsreiziger ](assets/mceclip1-350x149.png)
+1. Gebruik Webbrowser om aan de [&#x200B; API Ontdekkingsreiziger &#x200B;](https://developer.adobe.com/workfront/api-explorer/) te navigeren\
+   ![&#x200B; ga aan API Ontdekkingsreiziger &#x200B;](assets/mceclip1-350x149.png)
 
 1. In het hogere recht van de API Ontdekkingsreiziger, selecteer de gewensteWorkfront **API Versie**, door gebrek wordt de huidigste versie automatisch geselecteerd
 1. Het **gebied van de Filter**, kan worden gebruikt om de voorwerpen te filtreren die door naam worden vermeld en zal de lijst van dienovereenkomstig getoonde voorwerpen beknotten:
 
-   ![ API de gebieden van de Ontdekkingsreiziger ](assets/mceclip2-350x147.png)
+   ![&#x200B; API de gebieden van de Ontdekkingsreiziger &#x200B;](assets/mceclip2-350x147.png)
 
    * **Gebieden**: Beschikbare gebieden binnen het gespecificeerde voorwerp.
    * **Verwijzingen**: Beschikbare verwijzingsvariabelen voor het gespecificeerde voorwerp. Een verwijzing is een alias voor een variabele. Na initialisatie kan een verwijzing worden gebruikt met de variabelenaam. Een verwijzing gebruikt geïnitialiseerd geheugen.
@@ -36,7 +36,7 @@ Wanneer u de Adobe Workfront Core API gebruikt, is de API Explorer een verouderd
    * **Acties**: De gesteunde acties voor het voorwerp. Handelingen kunnen eenvoudige of complexe procedures zijn die worden uitgevoerd met behulp van een bron of een reeks bronnen. Een bepaalde actie kan ook gevolgen hebben voor de bijbehorende middelen.
 
 1. Open een tabblad en klik vervolgens op Object-id om de toepasselijke variabelen weer te geven.\
-   ![ variabelen van de Mening ](assets/approval-350x89.png)\
+   ![&#x200B; variabelen van de Mening &#x200B;](assets/approval-350x89.png)\
    Afhankelijk van het geselecteerde object kunnen de volgende variabelen worden toegepast:
 
    | Variabele | Definitie |

@@ -20,11 +20,11 @@ Op deze pagina worden alle verbeteringen beschreven die in de week van 30 novemb
 
 Voor een lijst van alle veranderingen beschikbaar voor de Doelen van Workfront op dit punt in de 21.1 versiecyclus, zie {de Doelen van 0} Adobe Workfront met de 21.1 versie [&#128279;](../../../../product-announcements/product-releases/goals-release-activity/goals-release-21-1.md).
 
-Voor een lijst van alle veranderingen beschikbaar voor alle gebieden van Workfront op dit punt in de 21.1 versiecyclus, zie [ 21.1 versieoverzicht ](../../../../product-announcements/product-releases/21.1-release-activity/21-1-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar voor alle gebieden van Workfront op dit punt in de 21.1 versiecyclus, zie [&#x200B; 21.1 versieoverzicht &#x200B;](../../../../product-announcements/product-releases/21.1-release-activity/21-1-release-overview.md).
 
 ## Berichten voor doelen geïntegreerd met Workfront-gebruikersprofielmeldingen
 
 Om u in staat te stellen uw e-mailberichten op één plaats te beheren, hebben we de meldingen met betrekking tot gebeurtenissen die plaatsvinden in Workfront Goals verplaatst naar het gebruikersprofielgebied van Workfront. Met deze update is de sectie Instellingen in Workfront Goals verwijderd en is een nieuwe categorie Doelstellingen toegevoegd aan het gedeelte Meldingen van uw gebruikersprofiel. Meldingen die u hebt ingeschakeld in het gedeelte Instellingen van Workfront-doelen zijn standaard in Workfront ingeschakeld als instant notifications.
 
-Voor meer informatie, zie [ Meldingen: Doelen ](../../../../workfront-basics/using-notifications/notifications-goals.md).
+Voor meer informatie, zie [&#x200B; Meldingen: Doelen &#x200B;](../../../../workfront-basics/using-notifications/notifications-goals.md).
 

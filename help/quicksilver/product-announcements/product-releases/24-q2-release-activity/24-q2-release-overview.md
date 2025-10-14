@@ -17,13 +17,13 @@ ht-degree: 0%
 Deze pagina bevat informatie over de functionaliteit die is opgenomen in de release van het tweede kwartaal van 2024. Deze verbeteringen zijn beschikbaar gesteld in de productieomgeving voor alle klanten met de release van 24.4 op 10 en 11 april 2024.
 
 <!--The 24.1 release webinar was on January 11, 2024. You can [register for the webinar to view an on-demand recording here](https://webinars.on24.com/adobe_workfront/whatsnewin241?partnerref=releaseoverview).-->
-In plaats van een versie webinar, nodigen wij u aan [ register voor Adobe Summit ](https://summit.adobe.com/na/) uit om op de volgende zittingen van Workfront te letten:
+In plaats van een versie webinar, nodigen wij u aan [&#x200B; register voor Adobe Summit &#x200B;](https://summit.adobe.com/na/) uit om op de volgende zittingen van Workfront te letten:
 
-[ De Toekomst van Adobe Workfront ](https://reg.adobe.com/flow/adobe/as24/sessions/page/catalog?search=S302) op 26 Maart, 2024, om een blik op de toekomst van strategische planning en werkschema te krijgen. Leer hoe het team van Workfront van plan is om bedrijfsmogelijkheden over de volledige marketing levenscyclus-allen met een AI-eerste benadering te richten om werk te automatiseren, gebruikerservaring te vereenvoudigen, en productiviteit te verhogen.
+[&#x200B; De Toekomst van Adobe Workfront &#x200B;](https://reg.adobe.com/flow/adobe/as24/sessions/page/catalog?search=S302) op 26 Maart, 2024, om een blik op de toekomst van strategische planning en werkschema te krijgen. Leer hoe het team van Workfront van plan is om bedrijfsmogelijkheden over de volledige marketing levenscyclus-allen met een AI-eerste benadering te richten om werk te automatiseren, gebruikerservaring te vereenvoudigen, en productiviteit te verhogen.
 
-[ onthullende Kalenders van de Marketing en Hulpmiddelen voor de Planning van de Campagne van begin tot eind ](https://reg.adobe.com/flow/adobe/as24/sessions/page/catalog?search=s304) op 28 Maart, 2024, om over nieuwe productmogelijkheden te leren die worden ontworpen om u organisatie toe te laten om operationele levenscycli van begin tot eind te beheren en te visualiseren.
+[&#x200B; onthullende Kalenders van de Marketing en Hulpmiddelen voor de Planning van de Campagne van begin tot eind &#x200B;](https://reg.adobe.com/flow/adobe/as24/sessions/page/catalog?search=s304) op 28 Maart, 2024, om over nieuwe productmogelijkheden te leren die worden ontworpen om u organisatie toe te laten om operationele levenscycli van begin tot eind te beheren en te visualiseren.
 
-U kunt ook [ een dossier van PDF ](https://acrobat.adobe.com/id/urn:aaid:sc:US:1754831a-dbfe-471d-bca7-386264d90352){target="_blank"} met hoogtepunten van de 24.4 versie bekijken.
+U kunt ook [&#x200B; een dossier van PDF &#x200B;](https://acrobat.adobe.com/id/urn:aaid:sc:US:1754831a-dbfe-471d-bca7-386264d90352){target="_blank"} met hoogtepunten van de 24.4 versie bekijken.
 
 <span class="preview"> off-cycle eigenschappen (die die aan Productie voorafgaand aan het Tweede Kwartaal 2024 versiedatum vrijgeven) worden benadrukt in geel.</span>
 
@@ -37,7 +37,7 @@ U kunt ook [ een dossier van PDF ](https://acrobat.adobe.com/id/urn:aaid:sc:US:1
 >|----|----|
 >| <ul><li>24.2 (15 februari 2024)</li><li>24.3 (14 maart 2024)</li><li>24.4 (11 april 2024)</li></ul> | <ul><li>24.4 (11 april 2024)</li></ul> |
 >
->Voor meer informatie over het snelle versieproces, zie [ toelaten of onbruikbaar maken het snelle versieproces ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
+>Voor meer informatie over het snelle versieproces, zie [&#x200B; toelaten of onbruikbaar maken het snelle versieproces &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
 
 ## Verbeteringen voor Adobe Workfront
 
@@ -638,7 +638,7 @@ U kunt ook [ een dossier van PDF ](https://acrobat.adobe.com/id/urn:aaid:sc:US:1
 
 ### Workfront Fusion-verbeteringen
 
-Nieuwe functies in Workfront Fusion zijn beschikbaar in Production op een cadence buiten het schema voor de release van het tweede kwartaal van 2024. Voor meer informatie over de recentste eigenschappen, zie [ de versieactiviteit van de Fusie van Adobe Workfront ](https://experienceleague.adobe.com/nl/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
+Nieuwe functies in Workfront Fusion zijn beschikbaar in Production op een cadence buiten het schema voor de release van het tweede kwartaal van 2024. Voor meer informatie over de recentste eigenschappen, zie [&#x200B; de versieactiviteit van de Fusie van Adobe Workfront &#x200B;](https://experienceleague.adobe.com/nl/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 
 ### Verbeteringen in Workfront Scenario Planner
 
@@ -656,15 +656,15 @@ Er zijn op dit moment geen updates voor Workfront Goals beschikbaar in de releas
 
 Voor API versie 18 hebben we een aantal bronnen en eindpunten gewijzigd. Sommige wijzigingen ondersteunen nieuwe functionaliteit en andere maken het voor u gemakkelijker om de informatie te gebruiken die beschikbaar is via de API.
 
-Voor informatie over wat nieuw en bijgewerkt is, zie [ wat in API versie 18 ](/help/quicksilver/wf-api/api/new-api-version-18.md) nieuw is.
+Voor informatie over wat nieuw en bijgewerkt is, zie [&#x200B; wat in API versie 18 &#x200B;](/help/quicksilver/wf-api/api/new-api-version-18.md) nieuw is.
 
-Voor informatie over API versies, zie [ API versioning en steunprogramma ](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
+Voor informatie over API versies, zie [&#x200B; API versioning en steunprogramma &#x200B;](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
 
 ### Workfront-onderhoudsupdates
 
-Voor informatie over de onderhoudsupdates die tijdens de Tweede Kwartaal 2024 versie worden gemaakt, zie [ Updates van het Onderhoud van Workfront ](https://experienceleague.adobe.com/nl/docs/workfront-known-issues/releases/current-updates).
+Voor informatie over de onderhoudsupdates die tijdens de Tweede Kwartaal 2024 versie worden gemaakt, zie [&#x200B; Updates van het Onderhoud van Workfront &#x200B;](https://experienceleague.adobe.com/nl/docs/workfront-known-issues/releases/current-updates).
 
 ### Training-updates
 
-Ontdek de nieuwste updates van leerprogramma&#39;s, leerpaden, video&#39;s en handleidingen voor elke Adobe Workfront-productrelease. Voor meer informatie, zie &quot;wat&quot;sectie van de [ pagina van de Leerprogramma&#39;s van Workfront ](https://experienceleague.adobe.com/nl/docs/workfront-learn/tutorials-workfront/home) Nieuw is.
+Ontdek de nieuwste updates van leerprogramma&#39;s, leerpaden, video&#39;s en handleidingen voor elke Adobe Workfront-productrelease. Voor meer informatie, zie &quot;wat&quot;sectie van de [&#x200B; pagina van de Leerprogramma&#39;s van Workfront &#x200B;](https://experienceleague.adobe.com/nl/docs/workfront-learn/tutorials-workfront/home) Nieuw is.
 

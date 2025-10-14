@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Op deze pagina worden de verbeteringen beschreven die zijn aangebracht met de release Tweede kwartaal 2025 voor de voorvertoningsomgeving. Deze verbeteringen zullen beschikbaar worden gesteld in de productieomgeving, zoals vermeld.
 
-Voor een lijst van alle veranderingen beschikbaar op dit punt in het Tweede Kwartaal 2025 versiecyclus, zie [ Tweede Kwartaal 2025 releaseoverzicht ](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar op dit punt in het Tweede Kwartaal 2025 versiecyclus, zie [&#x200B; Tweede Kwartaal 2025 releaseoverzicht &#x200B;](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-release-overview.md).
 
 ## Upgrade naar de nieuwe versie voor gebeurtenisabonnementen met de eindpunten voor versieverbeteringen
 
@@ -28,9 +28,9 @@ Workfront heeft nu versies van gebeurtenisabonnementen. De nieuwe versie is geen
 
 De capaciteit om gebeurtenisabonnementen te bevorderen of te degraderen zorgt ervoor dat wanneer de veranderingen in de structuur van gebeurtenissen worden aangebracht, de bestaande abonnementen niet breken, toestaand u om aan de nieuwe versie zonder een hiaat in uw gebeurtenisabonnement te testen en te bevorderen.
 
-Voor meer informatie over de verschillen tussen de twee versies, zie het artikel [ Abonnement versioning van de Gebeurtenis ](/help/quicksilver/wf-api/general/event-subs-versioning.md).
+Voor meer informatie over de verschillen tussen de twee versies, zie het artikel [&#x200B; Abonnement versioning van de Gebeurtenis &#x200B;](/help/quicksilver/wf-api/general/event-subs-versioning.md).
 
-Voor informatie over de eindpunten die worden gebruikt om een gebeurtenisabonnement tussen versies te bevorderen of te degraderen, zie de sectie [ het abonnement van de Gebeurtenis versioning ](/help/quicksilver/wf-api/general/event-subs-api.md#event-subscription-versioning) in het abonnement API van de artikelgebeurtenis.
+Voor informatie over de eindpunten die worden gebruikt om een gebeurtenisabonnement tussen versies te bevorderen of te degraderen, zie de sectie [&#x200B; het abonnement van de Gebeurtenis versioning &#x200B;](/help/quicksilver/wf-api/general/event-subs-api.md#event-subscription-versioning) in het abonnement API van de artikelgebeurtenis.
 
 ## Adobe Admin Console-gebruikerswijzigingen vertegenwoordigen als &quot;Systeem&quot; in de Workfront-updatefeed
 
@@ -42,4 +42,4 @@ Nu, wanneer de beheerder van de Adobe Admin Console een verandering in de gebrui
 
 Voorafgaand aan deze update werden gebruikerswijzigingen die door de beheerder van de Admin Console zijn aangebracht, vastgelegd zoals deze door de hoofdsysteembeheerder van Workfront zijn aangebracht.
 
-Voor informatie over het beheren van gebruikers in Adobe Admin Console, zie [ gebruikers in Adobe Admin Console beheren ](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md)
+Voor informatie over het beheren van gebruikers in Adobe Admin Console, zie [&#x200B; gebruikers in Adobe Admin Console beheren &#x200B;](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md)

@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Op deze pagina worden alle projectverbeteringen beschreven die zijn aangebracht met de release 21.3 voor de voorvertoningsomgeving. Deze verbeteringen zijn in de week van 21 juli 2021 beschikbaar gesteld in de productieomgeving.
 
-Voor een lijst van alle veranderingen beschikbaar met de versie 21.3, zie [ overzicht van de Versie 21.3 ](../../../product-announcements/product-releases/21.3-release-activity/21-3-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar met de versie 21.3, zie [&#x200B; overzicht van de Versie 21.3 &#x200B;](../../../product-announcements/product-releases/21.3-release-activity/21-3-release-overview.md).
 
 ## Een sjabloon koppelen aan een groep
 
@@ -27,9 +27,9 @@ Voor een lijst van alle veranderingen beschikbaar met de versie 21.3, zie [ over
 
 Om u te helpen het proces van de projectverwezenlijking stroomlijnen —en u te helpen gemakkelijker identificeren en rapporteren over welke groepen eigen welke project malplaatjes-wij de capaciteit hebben toegevoegd om een groep aan een projectmalplaatje toe te wijzen.
 
-Wanneer u een groep aan een projectmalplaatje toewijst, worden alle projecten die van het malplaatje worden gecreeerd automatisch geassocieerd met de groep van het malplaatje. Voor meer informatie, zie [ projectmalplaatjes ](../../../manage-work/projects/create-and-manage-templates/edit-templates.md) uitgeven.
+Wanneer u een groep aan een projectmalplaatje toewijst, worden alle projecten die van het malplaatje worden gecreeerd automatisch geassocieerd met de groep van het malplaatje. Voor meer informatie, zie [&#x200B; projectmalplaatjes &#x200B;](../../../manage-work/projects/create-and-manage-templates/edit-templates.md) uitgeven.
 
-Ook, kunt u een proces van de groepsgoedkeuring aan een malplaatje en zijn malplaatjetaken vastmaken als het malplaatje met uw groep wordt geassocieerd. Voor meer informatie, zie [ een nieuw of bestaand goedkeuringsproces met het werk ](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md) associëren.
+Ook, kunt u een proces van de groepsgoedkeuring aan een malplaatje en zijn malplaatjetaken vastmaken als het malplaatje met uw groep wordt geassocieerd. Voor meer informatie, zie [&#x200B; een nieuw of bestaand goedkeuringsproces met het werk &#x200B;](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md) associëren.
 
 ## Velden gemakkelijker bewerken in de sectie Details
 
@@ -52,7 +52,7 @@ Eerder werden de wachtdatums alleen berekend op basis van de voorgangers van de 
 
 Nu, om ervoor te zorgen u altijd een nauwkeurige handoff datum voor een taak met een dwars-project voorganger hebt, moet u de chronologie van het project van de opvolgertaak opnieuw berekenen. Na het opnieuw berekenen van de tijdlijn, berekent de handoff data van de taak rekening houdend met de dwars-projectgebiedsdelen van de taken.
 
-Voor meer informatie over handoff data, zie [ Overzicht van de Datum van de Afhandeling van de Taak ](../../../manage-work/tasks/task-information/handoff-task-date.md).
+Voor meer informatie over handoff data, zie [&#x200B; Overzicht van de Datum van de Afhandeling van de Taak &#x200B;](../../../manage-work/tasks/task-information/handoff-task-date.md).
 
 ## Bestaande artikelen en problemen toevoegen vanaf het scrollbord
 
@@ -62,7 +62,7 @@ Voor meer informatie over handoff data, zie [ Overzicht van de Datum van de Afha
 
 U kunt nu een bestaand artikel toevoegen of een bestaand artikel rechtstreeks vanaf het Klembord publiceren. Hierdoor is het gemakkelijker om bestaande artikelen aan uw huidige herhaling toe te voegen zonder dat u naar de achtergrondpagina hoeft te gaan.
 
-Voor meer informatie, zie [ verhalen en kwesties van het board van het Trommel ](../../../agile/use-scrum-in-an-agile-team/scrum-board/add-story-from-scrum-board.md) toevoegen.
+Voor meer informatie, zie [&#x200B; verhalen en kwesties van het board van het Trommel &#x200B;](../../../agile/use-scrum-in-an-agile-team/scrum-board/add-story-from-scrum-board.md) toevoegen.
 
 ## Nieuwe artikelen en problemen toevoegen vanaf het Klembord
 
@@ -72,7 +72,7 @@ Voor meer informatie, zie [ verhalen en kwesties van het board van het Trommel ]
 
 U kunt nu een nieuw artikel maken of een nieuw artikel rechtstreeks vanaf het tekengebied publiceren. Zo kunt u snel een nieuw artikel aan uw huidige herhaling toevoegen.
 
-Voor meer informatie, zie [ verhalen en kwesties van het board van het Trommel ](../../../agile/use-scrum-in-an-agile-team/scrum-board/add-story-from-scrum-board.md) toevoegen.
+Voor meer informatie, zie [&#x200B; verhalen en kwesties van het board van het Trommel &#x200B;](../../../agile/use-scrum-in-an-agile-team/scrum-board/add-story-from-scrum-board.md) toevoegen.
 
 ## Een artikel of onderwerp verwijderen van het Kanban-bord
 
@@ -82,7 +82,7 @@ Voor meer informatie, zie [ verhalen en kwesties van het board van het Trommel ]
 
 U kunt nu een artikel of uitgave rechtstreeks van uw Kanban-bord verwijderen door op het pictogram Meer van een artikel of uitgiftekaart te klikken en Verwijderen te selecteren. Wanneer u een artikel of uitgave verwijdert, wordt het artikel of de uitgave 30 dagen naar de prullenbak verplaatst en kan het alleen door de systeembeheerder worden hersteld.
 
-Voor meer informatie, zie [ verhalen of kwesties van de Schrapping van de raad Kanban ](../../../agile/use-kanban-in-an-agile-team/delete-story-from-kanban-board.md).
+Voor meer informatie, zie [&#x200B; verhalen of kwesties van de Schrapping van de raad Kanban &#x200B;](../../../agile/use-kanban-in-an-agile-team/delete-story-from-kanban-board.md).
 
 ## Updates van Agicard-kopteksten en artikelborden
 
@@ -97,7 +97,7 @@ Op Kanban- en Scrum-borden zijn nu de volgende verbeteringen beschikbaar:
 * Elke kaart heeft bovenaan een label waarmee het wordt aangeduid als een bovenliggend artikel, subtaak (gekoppeld aan een bovenliggend artikel), artikel (niet gekoppeld aan een bovenliggend artikel) of uitgave.
 * Met achtergrondarcering worden de kolommen visueel gescheiden.
 
-Voor meer informatie, zie [ Overzicht van Herhalingen ](../../../agile/use-scrum-in-an-agile-team/iterations/iterations-overview.md).
+Voor meer informatie, zie [&#x200B; Overzicht van Herhalingen &#x200B;](../../../agile/use-scrum-in-an-agile-team/iterations/iterations-overview.md).
 
 ## Voorkeuren voor projecten, taken en uitgaven groeperen
 
@@ -105,7 +105,7 @@ Zoals we eerder hebben meegedeeld, hebben we aanpassingen op groepsniveau voor p
 
 Raadpleeg de volgende artikelen voor meer informatie:
 
-* [ vorm projectvoorkeur voor een groep ](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md)
+* [&#x200B; vorm projectvoorkeur voor een groep &#x200B;](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md)
 * [Taak- en uitgavevoorkeuren voor een groep configureren](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md)
 
 ## Externe gebruikers toestaan een document goed te keuren
@@ -118,7 +118,7 @@ U kunt nu externe e-mailadressen gebruiken om fiatteurs toe te wijzen aan een do
 
 Eerder kon u alleen externe gebruikers via e-mailadres toevoegen in Workfront Classic.
 
-Voor meer informatie, zie [ het documentgoedkeuringen van het Verzoek ](../../../review-and-approve-work/manage-approvals/request-document-approvals.md).
+Voor meer informatie, zie [&#x200B; het documentgoedkeuringen van het Verzoek &#x200B;](../../../review-and-approve-work/manage-approvals/request-document-approvals.md).
 
 ## Informatie exporteren uit de sectie Details van een portfolio of programma
 
@@ -132,7 +132,7 @@ Voor meer informatie, zie [ het documentgoedkeuringen van het Verzoek ](../../..
 
 U kunt nu exporteren naar een .pdf-bestand in het gedeelte Details van portfolio&#39;s en programma&#39;s. Voorafgaand aan deze verbetering, kon u informatie van de sectie van Details slechts van projecten, taken en kwesties uitvoeren.
 
-Voor informatie over het uitvoeren van douanevormen van een voorwerp, zie [ de douanevormen van de Uitvoer en objecten details ](../../../workfront-basics/work-with-custom-forms/export-custom-forms-details.md).
+Voor informatie over het uitvoeren van douanevormen van een voorwerp, zie [&#x200B; de douanevormen van de Uitvoer en objecten details &#x200B;](../../../workfront-basics/work-with-custom-forms/export-custom-forms-details.md).
 
 ## Tijdstempel Geplande Voltooiingsdatum toegevoegd in koptekst van object
 
@@ -144,7 +144,7 @@ Om gemakkelijke toegang, gemak en nauwkeurigheid te vergemakkelijken, hebben wij
 
 Vóór deze verbetering, toen u de Geplande Datum van Voltooiing van een voorwerp bijwerkte, selecteerde Workfront middernacht als standaardtijd. Nu kunt u zowel de tijd als de voltooiingsdatum aanpassen.
 
-Voor informatie over de objecten kopballen in de nieuwe ervaring van Workfront, zie [ Nieuwe objecten kopballen ](../../../workfront-basics/the-new-workfront-experience/new-object-headers.md).
+Voor informatie over de objecten kopballen in de nieuwe ervaring van Workfront, zie [&#x200B; Nieuwe objecten kopballen &#x200B;](../../../workfront-basics/the-new-workfront-experience/new-object-headers.md).
 
 ## Een aangepast formulier aan een object toevoegen zonder het te bewerken
 
@@ -156,5 +156,5 @@ We hebben het eenvoudiger gemaakt om een aangepast formulier toe te voegen dat i
 
 Eerder, toen u een aangepast formulier aan een object toevoegde, ging de pagina naar de bewerkingsmodus en moest u alle vereiste velden op het formulier invullen voordat u het naar het object kon opslaan. Dit was lastig toen het formulier bestemd was om door een andere gebruiker te worden ingevuld, of wanneer u nog niet wist wat u een vereist veld op het formulier moest plaatsen.
 
-Voor informatie over het toevoegen van een douanevorm aan een voorwerp, zie [ een douanevorm aan een voorwerp ](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md) toevoegen.
+Voor informatie over het toevoegen van een douanevorm aan een voorwerp, zie [&#x200B; een douanevorm aan een voorwerp &#x200B;](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md) toevoegen.
 

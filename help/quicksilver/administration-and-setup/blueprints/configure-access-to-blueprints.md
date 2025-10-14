@@ -21,7 +21,7 @@ Alle gebruikers van [!DNL Adobe Workfront] kunnen door de catalogus met blauwdru
 
 Als systeembeheerder kunt u:
 
-* Voeg [!UICONTROL Blueprints] toe aan het hoofdmenu in lay-outsjablonen en wijs de lay-outsjabloon toe aan gebruikers of groepen. Voor meer informatie, zie [ [!UICONTROL Main Menu] aanpassen gebruikend een lay-outmalplaatje ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md) en [ wijs gebruikers aan een lay-outmalplaatje ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md) toe.
+* Voeg [!UICONTROL Blueprints] toe aan het hoofdmenu in lay-outsjablonen en wijs de lay-outsjabloon toe aan gebruikers of groepen. Voor meer informatie, zie [&#x200B; [!UICONTROL Main Menu] aanpassen gebruikend een lay-outmalplaatje &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md) en [&#x200B; wijs gebruikers aan een lay-outmalplaatje &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md) toe.
 
   >[!NOTE]
   >
@@ -30,7 +30,7 @@ Als systeembeheerder kunt u:
 
 
 * Laat toegang voor gebruikers toe om installatie van blauwdrukken te verzoeken door opstelling een verzoekrij om de verzoeken op te slaan. Hier hebt u één locatie om aanvragen bij te houden en bij te werken. Volg onderstaande procedure voor meer informatie.
-* Installeer blauwdrukken. Voor informatie, zie [ een blauwdruk ](../../administration-and-setup/blueprints/blueprints-install.md) installeren.
+* Installeer blauwdrukken. Voor informatie, zie [&#x200B; een blauwdruk &#x200B;](../../administration-and-setup/blueprints/blueprints-install.md) installeren.
 
 ## Toegangsvereisten
 
@@ -60,7 +60,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -71,7 +71,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 >[!TIP]
 >
->Als u een nieuwe verzoekrij voor blauwdrukverzoeken wilt tot stand brengen, zou u het moeten bouwen alvorens de toegang van blauwdrukken te vormen. Voor informatie bij het creëren van een verzoekrij, zie [ een Rij van het Verzoek ](../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md) creëren.
+>Als u een nieuwe verzoekrij voor blauwdrukverzoeken wilt tot stand brengen, zou u het moeten bouwen alvorens de toegang van blauwdrukken te vormen. Voor informatie bij het creëren van een verzoekrij, zie [&#x200B; een Rij van het Verzoek &#x200B;](../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md) creëren.
 
 ## Selecteer de aanvraagwachtrij om verzoeken voor afdrukken op te slaan
 
@@ -89,11 +89,11 @@ Voordat gebruikers kunnen aanvragen dat ze blauwdrukken installeren, moet u een 
 
    >[!IMPORTANT]
    >
-   >Alleen openbare aanvraagrijen worden in deze lijst weergegeven. Om uw verzoekrij openbaar te maken, zie de [ sectie van Eerste vereisten ](#prerequisites) hierboven.
+   >Alleen openbare aanvraagrijen worden in deze lijst weergegeven. Om uw verzoekrij openbaar te maken, zie de [&#x200B; sectie van Eerste vereisten &#x200B;](#prerequisites) hierboven.
 
    De voorkeur van de verzoekrij wordt geplaatst, en de gebruikers kunnen nu om blauwdrukinstallatie verzoeken.
 
-   ![ vorm verzoekrij ](assets/Blueprints_access_setup_request_queue.png)
+   ![&#x200B; vorm verzoekrij &#x200B;](assets/Blueprints_access_setup_request_queue.png)
 
 1. (Optioneel) Als u wijzigingen wilt aanbrengen in de feitelijke wachtrij met aanvragen, klikt u op **[!UICONTROL Edit this request queue]** .
 
@@ -104,4 +104,4 @@ Voordat gebruikers kunnen aanvragen dat ze blauwdrukken installeren, moet u een 
 
 >[!NOTE]
 >
->Wanneer u een gewenste blauwdruk installeert, moet u de status van de uitgave wijzigen in **[!UICONTROL Closed]** of **[!UICONTROL Resolved]** in de aanvraagwachtrij zodat de aanvrager op de hoogte wordt gesteld. Voor informatie over het installeren van een blauwdruk, zie [ een blauwdruk ](../../administration-and-setup/blueprints/blueprints-install.md) installeren.
+>Wanneer u een gewenste blauwdruk installeert, moet u de status van de uitgave wijzigen in **[!UICONTROL Closed]** of **[!UICONTROL Resolved]** in de aanvraagwachtrij zodat de aanvrager op de hoogte wordt gesteld. Voor informatie over het installeren van een blauwdruk, zie [&#x200B; een blauwdruk &#x200B;](../../administration-and-setup/blueprints/blueprints-install.md) installeren.

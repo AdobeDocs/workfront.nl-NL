@@ -21,6 +21,6 @@ ht-degree: 0%
 
 Deze sectie bevat de volgende artikelen:
 
-* [ creeer subgroup ](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/create-a-subgroup.md)
-* [ beheer subgroup ](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md)
+* [&#x200B; creeer subgroup &#x200B;](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/create-a-subgroup.md)
+* [&#x200B; beheer subgroup &#x200B;](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md)
 * [Subgroepleden weergeven en beheren](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/view-and-manage-subgroup-members.md)

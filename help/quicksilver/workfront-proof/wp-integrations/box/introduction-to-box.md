@@ -19,11 +19,11 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [ het Bewijzen ](../../../review-and-approve-work/proofing/proofing.md).
+>Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [&#x200B; het Bewijzen &#x200B;](../../../review-and-approve-work/proofing/proofing.md).
 
 Dankzij onze integratie met het online systeem voor het delen van bestanden en inhoudsbeheer van [!DNL Box] kunt u nieuwe proefdrukken en nieuwe proefversies rechtstreeks maken van bestanden in uw [!DNL Box] -account. Zie www.box.com voor meer informatie over [!DNL Box] .
 
-Met onze functie voor het synchroniseren van mappen kunt u een [!DNL Box] -map synchroniseren met een map in [!DNL Workfront Proof] . Wanneer u een bestand of een nieuwe versie van een bestand toevoegt aan een gesynchroniseerde map in [!DNL Box] , wordt het bestand ook toegevoegd aan de bijbehorende map in Workfront Proof. Voor meer informatie, zie  [!DNL Box]  Omslagen van de Synchronisatie [ met  [!DNL Workfront Proof]](../../../workfront-proof/wp-integrations/box/sycn-box-folder.md).
+Met onze functie voor het synchroniseren van mappen kunt u een [!DNL Box] -map synchroniseren met een map in [!DNL Workfront Proof] . Wanneer u een bestand of een nieuwe versie van een bestand toevoegt aan een gesynchroniseerde map in [!DNL Box] , wordt het bestand ook toegevoegd aan de bijbehorende map in Workfront Proof. Voor meer informatie, zie  [!DNL Box]  Omslagen van de Synchronisatie [&#x200B; met  [!DNL Workfront Proof]](../../../workfront-proof/wp-integrations/box/sycn-box-folder.md).
 
 ## Belangrijkste voordelen
 
@@ -32,7 +32,7 @@ Met onze functie voor het synchroniseren van mappen kunt u een [!DNL Box] -map s
 * **sparen beheerstijd:** wanneer uw team minder tijd manueel drukkende exemplaren, het e-mailen commentaren, en het verpletteren van revisies besteedt, kan uw inspanning om proeven te beheren met een gemiddelde van 59% worden verminderd.
 * **Verlaag kosten:** De tijd is geld. Met een gestandaardiseerde workflow kunt u uw goedkeuringsprocessen stroomlijnen. Omdat de efficiëntie, nauwkeurigheid en snelheid zijn verbeterd, bespaart u ook geld.
 * **vergroot grotere zichtbaarheid en verantwoordingsplicht:** u kunt dossierversies, commentaren, en besluiten met timestamps in een traceerbaar controletraject registreren. Dit geeft u volledige verantwoordingsplicht voor elke fase van het controleproces en helpt u aan nalevingsvereisten te voldoen.\
-   ![ Box_and_ProofHQ_integration.jpg ](assets/box-and-proofhq-integration-350x157.jpg)
+   ![&#x200B; Box_and_ProofHQ_integration.jpg &#x200B;](assets/box-and-proofhq-integration-350x157.jpg)
 
 ## Belangrijkste kenmerken
 

@@ -20,9 +20,9 @@ ht-degree: 0%
 
 U kunt de interface van de tekstwijze gebruiken om complexere meningen, filters, groeperingen, en aangepaste herinneringen in lijsten en rapporten tot stand te brengen. Met de tekstmodus hebt u toegang tot velden en de bijbehorende kenmerken die niet beschikbaar zijn in de standaardmodus.
 
-Voor informatie en overwegingen over tekstwijze alvorens u begint, zie [ Overzicht van de Wijze van de Tekst ](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
+Voor informatie en overwegingen over tekstwijze alvorens u begint, zie [&#x200B; Overzicht van de Wijze van de Tekst &#x200B;](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
 
-Voor een volledige lijst van al onze te melden gebieden en hun attributen, zie de [ API Ontdekkingsreiziger ](../../../wf-api/general/api-explorer.md).
+Voor een volledige lijst van al onze te melden gebieden en hun attributen, zie de [&#x200B; API Ontdekkingsreiziger &#x200B;](../../../wf-api/general/api-explorer.md).
 
 Ga naar de sectie Leren op de Adobe Experience League-site voor meer informatie over het maken van rapporten in de tekstmodus, waaronder klassen, video&#39;s en zelfstudies.
 
@@ -54,7 +54,7 @@ De volgende richtlijnen gelden voor het samenstellen van rapporten of lijsteleme
 
   Zie voor meer informatie over de hiërarchie van objecten in Workfront:
 
-   * [ Begrijp voorwerpen in Adobe Workfront ](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)
+   * [&#x200B; Begrijp voorwerpen in Adobe Workfront &#x200B;](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)
    * [API Explorer](../../../wf-api/general/api-explorer.md)
 
 * Gebruik zoveel mogelijk jokertekens om uw rapporten en lijsten dynamischer te maken en om te voorkomen dat deze voor verschillende gebruikers en vergelijkbare tijdlijnen worden gedupliceerd.
@@ -87,14 +87,14 @@ De volgende overeenkomsten bestaan tussen de syntaxis van de hieronder vermelde 
 
   Voor informatie over de belangrijkste lijnen van codes voor meningen en groeperingen wanneer het bouwen van hen op tekstwijze, zie:
 
-   * [ geef een mening uit gebruikend tekstwijze ](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-view.md)
+   * [&#x200B; geef een mening uit gebruikend tekstwijze &#x200B;](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-view.md)
    * [Een groep bewerken in de tekstmodus](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-grouping.md)
 
 * De regels van code en syntaxis zijn gelijkaardig voor filters en douaneherinneringen.
 
   Zie voor meer informatie:
 
-   * [ geef een filter uit gebruikend tekstwijze ](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md)
+   * [&#x200B; geef een filter uit gebruikend tekstwijze &#x200B;](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md)
    * [Een vraag toevoegen aan een rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md)
 
 ### Syntaxis voor weergaven en groepen
@@ -103,7 +103,7 @@ De coderegels bij het samenstellen van weergaven en groepen zijn vergelijkbaar.
 
 Raadpleeg de volgende artikelen voor informatie over het maken van weergaven en groepen:
 
-* [ Overzicht van meningen in Adobe Workfront ](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)
+* [&#x200B; Overzicht van meningen in Adobe Workfront &#x200B;](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)
 * [Overzicht van groepen in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)
 
 De belangrijkste coderegel voor een weergave of groep is de regel die het object aangeeft waarnaar wordt verwezen in de kolom van de weergave of in de groep. Deze coderegel kan beginnen met `valuefield` of `valueexpression` op basis van het feit of dit veld een directe verwijzing naar een Workfront-databaseveld of een berekening tussen verschillende velden is.
@@ -132,7 +132,7 @@ De volgende tabel bevat een lijst met de meestvoorkomende regels voor codes in e
 >
 >  `column.0.valuefield=name`
 >  
->  Voor informatie over het delen van kolommen, zie [ Mening: voeg informatie van veelvoudige kolommen in één gedeelde kolom ](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-merge-columns.md) samen.
+>  Voor informatie over het delen van kolommen, zie [&#x200B; Mening: voeg informatie van veelvoudige kolommen in één gedeelde kolom &#x200B;](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-merge-columns.md) samen.
 >
 
 #### `Valuefield` syntaxisoverzicht voor weergaven en groepen
@@ -155,7 +155,7 @@ De volgende regels zijn van toepassing wanneer wordt verwezen naar Workfront-obj
 
   `valuefield=project:plannedCompletionDate`
 
-  Voor informatie over hoe de voorwerpen naar elkaar in het gegevensbestand van Workfront van verwijzingen voorzien, zie de [ API Ontdekkingsreiziger ](../../../wf-api/general/api-explorer.md).
+  Voor informatie over hoe de voorwerpen naar elkaar in het gegevensbestand van Workfront van verwijzingen voorzien, zie de [&#x200B; API Ontdekkingsreiziger &#x200B;](../../../wf-api/general/api-explorer.md).
 
 * Wanneer u naar een aangepast veld verwijst, gebruikt u de naam van het veld exact zoals deze in de interface wordt weergegeven.
 
@@ -171,7 +171,7 @@ U kunt de coderegel `valuefield=` vervangen door `valueexpression=` bij het same
 >
 >Hoewel u berekende velden kunt maken die u in rapporten kunt weergeven, zijn berekende weergaven en groeperingen dynamischer. De berekende meningen en de groeperingen verfrissen zich met nieuwe informatie telkens als u het rapport in werking stelt of een lijst toont.
 >
->Voor informatie over het creëren van berekende kolommen in een mening, zie [ Berekende douanegebieden vs. berekende kolommen ](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-fields-calculated-columns.md).
+>Voor informatie over het creëren van berekende kolommen in een mening, zie [&#x200B; Berekende douanegebieden vs. berekende kolommen &#x200B;](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-fields-calculated-columns.md).
 
 Het bouwen van een berekende groepering is gelijkaardig aan het bouwen van een berekende kolom in een mening.
 
@@ -196,7 +196,7 @@ De volgende regels zijn van toepassing wanneer wordt verwezen naar Workfront-obj
 
      `group.0.valueexpression=CONCAT({project}.{name},' - ',{name})`
 
-  Voor informatie over hoe de voorwerpen naar elkaar in het gegevensbestand van Workfront van verwijzingen voorzien, zie de [ API Ontdekkingsreiziger ](../../../wf-api/general/api-explorer.md).
+  Voor informatie over hoe de voorwerpen naar elkaar in het gegevensbestand van Workfront van verwijzingen voorzien, zie de [&#x200B; API Ontdekkingsreiziger &#x200B;](../../../wf-api/general/api-explorer.md).
 
 * Gebruik de volgende regels wanneer u naar een aangepast veld verwijst:
 
@@ -211,7 +211,7 @@ De volgende regels zijn van toepassing wanneer wordt verwezen naar Workfront-obj
 
 * U kunt een jokerteken gebruiken in een `valueexpression` maar niet in een `valuefield` -regel.
 
-  Voor informatie over vervangingen, zie [ overzicht van de de filtervariabelen van de Vervanging ](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
+  Voor informatie over vervangingen, zie [&#x200B; overzicht van de de filtervariabelen van de Vervanging &#x200B;](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
 
 
 #### `Valueformat` overzicht voor weergaven en groepen
@@ -259,10 +259,10 @@ De syntaxis voor het maken van filters lijkt op die voor het maken van aangepast
 
 Voor informatie over het bouwen van filters en douaneherinneringen, zie:
 
-* [ Overzicht van Filters ](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)
+* [&#x200B; Overzicht van Filters &#x200B;](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)
 * [Een vraag toevoegen aan een rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md)
 
-Voor informatie over het creëren van filters op tekstwijze, zie [ een filter uitgeven gebruikend tekstwijze ](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md).
+Voor informatie over het creëren van filters op tekstwijze, zie [&#x200B; een filter uitgeven gebruikend tekstwijze &#x200B;](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md).
 
 U kunt de volgende elementen gebruiken om filters en aangepaste herinneringen op tekstwijze te bouwen:
 
@@ -285,4 +285,4 @@ U kunt de volgende elementen gebruiken om filters en aangepaste herinneringen op
      >
      >De schakelaars van de verklaring zijn case sensitive en altijd in hoofdletters. &quot;AND&quot; kan worden weggelaten in de tekstmodus.
 
-* Jokertekens om filters dynamischer te maken en ze aan te passen voor de huidige tijd of de gebruiker die is aangemeld. Voor informatie over vervangingen, zie [ overzicht van de de filtervariabelen van de Vervanging ](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
+* Jokertekens om filters dynamischer te maken en ze aan te passen voor de huidige tijd of de gebruiker die is aangemeld. Voor informatie over vervangingen, zie [&#x200B; overzicht van de de filtervariabelen van de Vervanging &#x200B;](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).

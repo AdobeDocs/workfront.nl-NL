@@ -19,7 +19,7 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [ het Bewijzen ](../../../review-and-approve-work/proofing/proofing.md).
+>Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [&#x200B; het Bewijzen &#x200B;](../../../review-and-approve-work/proofing/proofing.md).
 
 Als [!DNL Workfront Proof] beheerder kunt u de taal kiezen die u in [!DNL Workfront Proof] wilt gebruiken voor alle gebruikers in uw account.
 
@@ -47,7 +47,7 @@ Voer de onderstaande stappen uit om de standaardtaal van uw account te wijzigen.
 1. Klik in de sectie **[!UICONTROL Account details]** op **[!UICONTROL Edit]** voor de **[!UICONTROL Default language]** -instellingen.
 
 1. Selecteer de standaardtaal in het keuzemenu.
-   ![ account_language_setting.png ](assets/account-language-setting-350x230.png)
+   ![&#x200B; account_language_setting.png &#x200B;](assets/account-language-setting-350x230.png)
 
 1. Klik op **[!UICONTROL Save].**
 
@@ -56,11 +56,11 @@ Voer de onderstaande stappen uit om de standaardtaal van uw account te wijzigen.
 Individuele [!DNL Workfront Proof] -gebruikers kunnen een andere taal opgeven dan de taal die standaard in hun account wordt gebruikt. Volg onderstaande stappen om uw persoonlijke standaardtaal te wijzigen.
 
 1. Ga naar de tab **[!UICONTROL Personal details]** in de **[!UICONTROL Personal settings]** in [!DNL Workfront Proof] .\
-   Voor meer informatie, zie [  [!DNL Workfront Proof]  gebruikers ](../../../workfront-proof/wp-acct-admin/account-settings/manage-wp-users.md) leiden.
+   Voor meer informatie, zie [&#x200B;  [!DNL Workfront Proof]  gebruikers &#x200B;](../../../workfront-proof/wp-acct-admin/account-settings/manage-wp-users.md) leiden.
 
 1. Klik op de taal die zichtbaar is in de instelling **[!UICONTROL Language]** .
 1. Selecteer in het keuzemenu de gewenste taal. Uw selectie wordt automatisch opgeslagen.\
-   ![ Personal_language_setting.png ](assets/personal-language-setting-350x197.png)
+   ![&#x200B; Personal_language_setting.png &#x200B;](assets/personal-language-setting-350x197.png)
 
 ## Proefopmerkingen toevoegen met niet-Latijnse alfabet
 

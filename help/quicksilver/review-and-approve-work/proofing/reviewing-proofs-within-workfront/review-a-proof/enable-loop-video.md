@@ -57,6 +57,6 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 1. In de laag-juiste hoek van de het proef kijker, klik het **pictogram van Montages**.
 
-   ![ phq_viewer_video_playbackspeed__3_.png ](assets/phq-viewer-video-playbackspeed--3-.png)
+   ![&#x200B; phq_viewer_video_playbackspeed__3_.png &#x200B;](assets/phq-viewer-video-playbackspeed--3-.png)
 
 1. Laat de **optie van de Lijn** toe.

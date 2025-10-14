@@ -19,11 +19,11 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [ het Bewijzen ](../../../review-and-approve-work/proofing/proofing.md).
+>Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [&#x200B; het Bewijzen &#x200B;](../../../review-and-approve-work/proofing/proofing.md).
 
 De Desktop Proofing Viewer is ontworpen om interactieve inhoud te controleren, maar u kunt deze ook gebruiken om statische inhoud en video-inhoud te controleren.
 
-In tegenstelling tot de Web Proofing Viewer, is de Desktop Proofing Viewer een toepassing die op uw werkstation wordt uitgevoerd. Nochtans, hebt u toegang tot het van [!DNL Workfront] of van [!DNL Workfront Proof] wanneer u proefdrukken lanceert, eerder dan het in werking te stellen als standalone toepassing (voor meer informatie over het installeren van de Kijker van het Proofing van de Desktop, zie [ de Kijker van het Proofing van de Desktop installeren ](../../../review-and-approve-work/proofing/use-the-desktop-proofing-viewer/installing-desktop-proofing-viewer.md)).
+In tegenstelling tot de Web Proofing Viewer, is de Desktop Proofing Viewer een toepassing die op uw werkstation wordt uitgevoerd. Nochtans, hebt u toegang tot het van [!DNL Workfront] of van [!DNL Workfront Proof] wanneer u proefdrukken lanceert, eerder dan het in werking te stellen als standalone toepassing (voor meer informatie over het installeren van de Kijker van het Proofing van de Desktop, zie [&#x200B; de Kijker van het Proofing van de Desktop installeren &#x200B;](../../../review-and-approve-work/proofing/use-the-desktop-proofing-viewer/installing-desktop-proofing-viewer.md)).
 
 ## De Desktop Proofing Viewer vergelijken met andere Proofing Viewers
 
@@ -43,7 +43,7 @@ De Desktop Proofing Viewer wordt door twee hoofdkenmerken onderscheiden van de w
   >   * Proefbeheertaken zoals het maken van proefdrukken en het bladeren door proefdrukken vinden plaats in [!DNL Workfront] of [!DNL Workfront Proof] . De Desktop Proofing Viewer is alleen bedoeld voor het controleren van proefdrukken.
 
 
-Voor meer informatie over de mogelijkheden van de diverse het proeven kijkers, zie [ Verschillen tussen de Web Proofing Kijker en het Overzicht van de Kijker van de Desktop Proofing ](../../../review-and-approve-work/proofing/proofing-overview/understand-differences-between-web-viewer.md)
+Voor meer informatie over de mogelijkheden van de diverse het proeven kijkers, zie [&#x200B; Verschillen tussen de Web Proofing Kijker en het Overzicht van de Kijker van de Desktop Proofing &#x200B;](../../../review-and-approve-work/proofing/proofing-overview/understand-differences-between-web-viewer.md)
 
 ### Desktop Proofing Viewer versus verouderde proefdrukviewer {#desktop-proofing-viewer-vs-legacy-proofing-viewer}
 
@@ -64,10 +64,10 @@ De verouderde proefdrukviewer is niet inbegrepen voor klanten die [!DNL Workfron
 
 Hoewel het belangrijkste doel van de Desktop Proofing Viewer het testen van interactieve inhoud is, kunt u deze ook gebruiken om statische en videoproeven te testen.
 
-Gebruikers kunnen de Desktop Proofing Viewer zo configureren dat deze automatisch wordt gestart wanneer zij proefdrukken van alle typen openen, waaronder statische proefdrukken en videoproefdrukken. Voor meer informatie, zie [ het proefdrukken van kijkersmontages ](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/configure-proofing-viewer-settings.md) vormen.
+Gebruikers kunnen de Desktop Proofing Viewer zo configureren dat deze automatisch wordt gestart wanneer zij proefdrukken van alle typen openen, waaronder statische proefdrukken en videoproefdrukken. Voor meer informatie, zie [&#x200B; het proefdrukken van kijkersmontages &#x200B;](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/configure-proofing-viewer-settings.md) vormen.
 
 ## URL van proefdrukken invoeren
 
 Als u de Desktop Proofing Viewer rechtstreeks vanaf uw werkstation start, kunt u een proef openen door de proef-URL op te geven. Hiervoor moet u een bewijs-URL hebben van de proefdruk die u wilt bekijken.
 
-We raden u aan proefdrukken rechtstreeks vanuit [!DNL Workfront] te openen. Voor meer informatie, zie [ Overzicht een proef ](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/review-a-proof.md).
+We raden u aan proefdrukken rechtstreeks vanuit [!DNL Workfront] te openen. Voor meer informatie, zie [&#x200B; Overzicht een proef &#x200B;](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/review-a-proof.md).

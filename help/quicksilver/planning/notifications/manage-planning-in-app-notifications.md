@@ -22,7 +22,7 @@ U kunt in-app berichten van de Planning van Workfront ontvangen wanneer de volge
 
 * Iemand tagt u of uw teams in een recordopmerking
 
-  Voor informatie over het etiketteren van anderen in een verslagcommentaar, zie [ recordcommentaren beheren ](/help/quicksilver/planning/records/manage-record-comments.md).
+  Voor informatie over het etiketteren van anderen in een verslagcommentaar, zie [&#x200B; recordcommentaren beheren &#x200B;](/help/quicksilver/planning/records/manage-record-comments.md).
 * Iemand vraagt uw toestemming om een mening of een werkruimte te openen
 * Iemand bevestigt dat uw toegang is verleend voor een weergave of werkruimte <!--Isk confirmed there is no notification for denying permissions - did not test-->
 
@@ -93,7 +93,7 @@ U kunt in-app berichten van de Planning van Workfront ontvangen wanneer de volge
 </tbody> 
 </table>
 
-*Voor meer informatie over de toegangsvereisten van Workfront, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Voor meer informatie over de toegangsvereisten van Workfront, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -160,9 +160,9 @@ OLD:
 
 ## Meldingen in de app beheren wanneer iemand u in een opmerking van tags voorziet
 
-1. (Voorwaardelijk) na iemand u of uw teams in een commentaar op een verslag etiketteert, ga naar het in-app **pictogram van Meldingen** pictogram ![ de wolkenberichten van de Ervaring ](assets/experience-cloud-notifications-icon.png) in Adobe Experience Cloud.
+1. (Voorwaardelijk) na iemand u of uw teams in een commentaar op een verslag etiketteert, ga naar het in-app **pictogram van Meldingen** pictogram ![&#x200B; de wolkenberichten van de Ervaring &#x200B;](assets/experience-cloud-notifications-icon.png) in Adobe Experience Cloud.
 
-   ![ In-app meldingsvoorbeeld ](assets/in-app-notification-example.png)
+   ![&#x200B; In-app meldingsvoorbeeld &#x200B;](assets/in-app-notification-example.png)
 
 1. Klik op het bericht.
 
@@ -177,4 +177,4 @@ U ontvangt meldingen in de app wanneer iemand u om toestemming vraagt of verleen
 
 Voor informatie over het verzoeken van, het verlenen van, of het ontkennen van toestemmingen aan een mening of een werkruimte, zie {de toestemmingen van 0} Verzoek aan een mening of een werkruimte [.](/help/quicksilver/planning/access/request-permissions.md)
 
-Voor informatie over het beheren van uw berichten van de Planning van Workfront, zie [ de het berichtvoorkeur van de Planning van Adobe Workfront beheren ](/help/quicksilver/planning/notifications/manage-notification-preferences.md).
+Voor informatie over het beheren van uw berichten van de Planning van Workfront, zie [&#x200B; de het berichtvoorkeur van de Planning van Adobe Workfront beheren &#x200B;](/help/quicksilver/planning/notifications/manage-notification-preferences.md).

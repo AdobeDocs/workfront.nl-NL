@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Deze pagina beschrijft alle updatestroom en berichtverhogingen die met Eerste Kwartaal 2025 versie aan het milieu van de Voorproef worden aangebracht. Deze verbeteringen worden beschikbaar gesteld in de productieomgeving met de release Eerste kwartaal 2025.
 
-Voor een lijst van alle veranderingen beschikbaar op dit punt in Eerste Kwartaal 2025 versiecyclus, zie [ Eerste Kwartaal 2025 versieoverzicht ](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar op dit punt in Eerste Kwartaal 2025 versiecyclus, zie [&#x200B; Eerste Kwartaal 2025 versieoverzicht &#x200B;](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md).
 
 ## Bijgewerkte ervaring met opmerkingen in de widget Onthoudingen en Mijn updates
 
@@ -38,6 +38,6 @@ Vóór deze verbetering, was de erfenis opmerkend ervaring op deze gebieden besc
 
 Raadpleeg de volgende artikelen voor meer informatie:
 
-* [ voeg toe, geef, of verwijder widgets in Huis ](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md) uit
+* [&#x200B; voeg toe, geef, of verwijder widgets in Huis &#x200B;](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md) uit
 
 * [Het gebied Mijn updates gebruiken](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-updates-area.md)

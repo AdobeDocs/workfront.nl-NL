@@ -42,7 +42,7 @@ Some users, such as executives, need to be able to control which administrators 
 >
 >Omdat een documentintegratie verbinding kan maken met persoonlijke privébestanden, hebben beheerders geen toegang tot documentintegratie wanneer ze zijn aangemeld als een andere gebruiker.
 >
->Voor meer informatie over documentintegratie, zie [ documentintegratie ](../../../administration-and-setup/configure-integrations/configure-document-integrations.md) vormen.
+>Voor meer informatie over documentintegratie, zie [&#x200B; documentintegratie &#x200B;](../../../administration-and-setup/configure-integrations/configure-document-integrations.md) vormen.
 
 ## Toegangsvereisten
 
@@ -72,7 +72,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -84,9 +84,9 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
    >
    >* Als u een groepsbeheerder bent, kunt u zich slechts als gebruikers in de groepen aanmelden u beheert. Ook, moet de toestemming van Admin van de Gebruiker (de Gebruikers van de Groep) op uw toegangsniveau worden toegelaten:
    >   
-   >  ![ Admin gebruiker van de Groep ](assets/group-admin-user.png)
+   >  ![&#x200B; Admin gebruiker van de Groep &#x200B;](assets/group-admin-user.png)
    >   
-   >  Deze instelling is standaard uitgeschakeld. Voor meer informatie, zie [ tot douanetoegangsniveaus ](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md) leiden of wijzigen.
+   >  Deze instelling is standaard uitgeschakeld. Voor meer informatie, zie [&#x200B; tot douanetoegangsniveaus &#x200B;](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md) leiden of wijzigen.
    >   
    >* U kunt het wachtwoord van een Workfront-beheerder niet opnieuw instellen.
 
@@ -138,7 +138,7 @@ Workfront biedt mechanismen voor het bijhouden en controleren van activiteiten d
 
 Wanneer u zich aanmeldt als een andere gebruiker, wordt de laatste aanmeldingsdatum voor die gebruiker gewijzigd in de datum waarop de systeem- of groepsbeheerder zich aanmeldt als die gebruiker.
 
-* [ indicatoren van de Mening over punten ](#view-indicators-on-items)
+* [&#x200B; indicatoren van de Mening over punten &#x200B;](#view-indicators-on-items)
 * [Controlegegevens weergeven](#view-audit-information)
 
 ### Indicatoren weergeven voor objecten {#view-indicators-on-items}

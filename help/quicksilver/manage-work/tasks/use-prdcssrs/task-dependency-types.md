@@ -22,11 +22,11 @@ De Types van afhankelijkheid verwijzen naar het voorgangersverband tussen taken.
 
 >[!IMPORTANT]
 >
->Adobe Workfront beperkt niet de afhankelijke taken van aanvang of het beëindigen gebaseerd op de gebiedstypes tenzij de voorgangersverhoudingen worden afgedwongen. Voor informatie over het afdwingen van predecessors, zie [ predecessors ](../../../manage-work/tasks/use-prdcssrs/enforced-predecessors.md) afdwingen.
+>Adobe Workfront beperkt niet de afhankelijke taken van aanvang of het beëindigen gebaseerd op de gebiedstypes tenzij de voorgangersverhoudingen worden afgedwongen. Voor informatie over het afdwingen van predecessors, zie [&#x200B; predecessors &#x200B;](../../../manage-work/tasks/use-prdcssrs/enforced-predecessors.md) afdwingen.
 
 U moet het Type van Afhankelijkheid van een voorgangersverhouding specificeren wanneer u dit verband tussen uw taken vestigt.
 
-Voor meer informatie over predecessors, zie [ Overzicht van taakvoordecessors ](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md).
+Voor meer informatie over predecessors, zie [&#x200B; Overzicht van taakvoordecessors &#x200B;](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md).
 
 Hieronder vindt u de Workfront-afhankelijke typen:
 
@@ -38,5 +38,5 @@ Hieronder vindt u de Workfront-afhankelijke typen:
 
 >[!NOTE]
 >
->De afkortingen voor de Types van Afhankelijkheid worden gebruikt in taaklijsten om voorgangersverhoudingen te bepalen. Voor meer informatie, zie [ Voorbeelden van voorgangerswaarden in een taaklijst ](/help/quicksilver/manage-work/tasks/use-prdcssrs/predecessors-overview.md#examples-of-predecessor-values-in-a-task-list) in [ Overzicht van taakvoorgangers ](/help/quicksilver/manage-work/tasks/use-prdcssrs/predecessors-overview.md).
+>De afkortingen voor de Types van Afhankelijkheid worden gebruikt in taaklijsten om voorgangersverhoudingen te bepalen. Voor meer informatie, zie [&#x200B; Voorbeelden van voorgangerswaarden in een taaklijst &#x200B;](/help/quicksilver/manage-work/tasks/use-prdcssrs/predecessors-overview.md#examples-of-predecessor-values-in-a-task-list) in [&#x200B; Overzicht van taakvoorgangers &#x200B;](/help/quicksilver/manage-work/tasks/use-prdcssrs/predecessors-overview.md).
 

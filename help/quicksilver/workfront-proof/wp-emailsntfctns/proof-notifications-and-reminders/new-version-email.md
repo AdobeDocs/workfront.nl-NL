@@ -19,7 +19,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Dit artikel verwijst naar functionaliteit in het standalone product [!DNL [!DNL Workfront Proof]]. Voor informatie bij het proef binnen [!DNL [!DNL Adobe Workfront]], zie [ het Bewijzen ](../../../review-and-approve-work/proofing/proofing.md).
+>Dit artikel verwijst naar functionaliteit in het standalone product [!DNL [!DNL Workfront Proof]]. Voor informatie bij het proef binnen [!DNL [!DNL Adobe Workfront]], zie [&#x200B; het Bewijzen &#x200B;](../../../review-and-approve-work/proofing/proofing.md).
 
 <!--
 <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Does this apply to PiW?</p>
@@ -31,4 +31,4 @@ Nieuwe versie-e-mails worden verzonden wanneer u een [!UICONTROL New version] pr
 >
 >Als de e-mailberichten standaard zijn uitgeschakeld in [!UICONTROL Account settings] , ontvangen revisoren alleen [!UICONTROL New version] e-mails als het vak [!UICONTROL Notify people by email] is ingeschakeld op de pagina Nieuwe versie.
 
-![ New_Version_Email.png ](assets/new-version-email-350x212.png)
+![&#x200B; New_Version_Email.png &#x200B;](assets/new-version-email-350x212.png)

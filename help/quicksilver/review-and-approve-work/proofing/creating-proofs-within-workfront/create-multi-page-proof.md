@@ -58,7 +58,7 @@ Een proefdruk van meerdere pagina&#39;s maken:
 
 1. Ga naar het project, de taak, of de kwestie waar u de proef wilt, dan klik de **sectie van Documenten**.
 1. Klik **toevoegen nieuw** > **Bewijs**.
-1. Sleep de bestanden en zet ze neer of blader en selecteer ze in de bestandsverkenner. U kunt maximaal 50 bestanden tegelijk uploaden. Voor informatie over dossiergrenzen, zie de [ sectie van Overwegingen ](#considerations) in dit artikel.
+1. Sleep de bestanden en zet ze neer of blader en selecteer ze in de bestandsverkenner. U kunt maximaal 50 bestanden tegelijk uploaden. Voor informatie over dossiergrenzen, zie de [&#x200B; sectie van Overwegingen &#x200B;](#considerations) in dit artikel.
 
    >[!NOTE]
    >
@@ -75,8 +75,8 @@ Een proefdruk van meerdere pagina&#39;s maken:
 
 1. Nadat alle bestanden zijn geüpload, moet u bepalen of u een standaardproefdruk of een automatische proefdruk wilt configureren:
 
-   * Met een standaardproefdruk kunt u net zoveel revisoren toevoegen als u wilt aan een proefdruk, maar deze zijn niet geordend in stappen. Alle revisoren die u toevoegt, hebben direct toegang tot de proefdruk nadat u deze hebt gemaakt. Om een basisproef te vormen, zie [ een geavanceerd bewijs met een Basiswerkschema ](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md) creëren.
-   * Met een automatische proefdruk wordt de proefdruk van het stadium naar het stadium verplaatst en Adobe Workfront waarschuwt elke gebruiker wanneer het zijn beurt is om het te herzien. om een geautomatiseerd bewijs te vormen, zie [ een geavanceerd bewijs met een Geautomatiseerd werkschema ](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-automated-proof-workflow.md) creëren.
+   * Met een standaardproefdruk kunt u net zoveel revisoren toevoegen als u wilt aan een proefdruk, maar deze zijn niet geordend in stappen. Alle revisoren die u toevoegt, hebben direct toegang tot de proefdruk nadat u deze hebt gemaakt. Om een basisproef te vormen, zie [&#x200B; een geavanceerd bewijs met een Basiswerkschema &#x200B;](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md) creëren.
+   * Met een automatische proefdruk wordt de proefdruk van het stadium naar het stadium verplaatst en Adobe Workfront waarschuwt elke gebruiker wanneer het zijn beurt is om het te herzien. om een geautomatiseerd bewijs te vormen, zie [&#x200B; een geavanceerd bewijs met een Geautomatiseerd werkschema &#x200B;](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-automated-proof-workflow.md) creëren.
 
 ## Overwegingen {#considerations}
 
@@ -87,6 +87,6 @@ Houd rekening met het volgende wanneer u bestanden combineert tot één proefdru
 * U kunt statische webvastleggingen combineren.
 * U kunt GIF-bestanden combineren, maar geanimeerde GIFFEN worden als statische bestanden verwerkt.
 * U kunt AV-bestanden en interactieve webvastleggingen niet combineren.
-* Het duimnagelbeeld van de proef wordt genomen van de eerste pagina van de proef (zie [ Beheer de Details van het Bewijs in Workfront Proof ](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md)).
-* U kunt de namen controleren van bestanden die zijn gecombineerd om de proefdruk te maken op de pagina Proefgegevens. Voor meer informatie, zie [ Beheren de Details van het Bewijs in Workfront Proof ](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
-* Als de optie voor het downloaden van de originele bestanden is ingeschakeld op de proefdruk, kunt u alle gecombineerde bestanden downloaden om de proefdruk te maken als ZIP-bestand. Zie voor meer informatie  [ de Dossiers van de Download die in Workfront Proof ](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/download-files-stored.md) worden opgeslagen.
+* Het duimnagelbeeld van de proef wordt genomen van de eerste pagina van de proef (zie [&#x200B; Beheer de Details van het Bewijs in Workfront Proof &#x200B;](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md)).
+* U kunt de namen controleren van bestanden die zijn gecombineerd om de proefdruk te maken op de pagina Proefgegevens. Voor meer informatie, zie [&#x200B; Beheren de Details van het Bewijs in Workfront Proof &#x200B;](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
+* Als de optie voor het downloaden van de originele bestanden is ingeschakeld op de proefdruk, kunt u alle gecombineerde bestanden downloaden om de proefdruk te maken als ZIP-bestand. Zie voor meer informatie  [&#x200B; de Dossiers van de Download die in Workfront Proof &#x200B;](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/download-files-stored.md) worden opgeslagen.

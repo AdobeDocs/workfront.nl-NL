@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Deze pagina beschrijft de verbeteringen in het beheer van bronnen die zijn aangebracht met de release van het vierde kwartaal van 2025 voor de voorvertoningsomgeving. Deze verbeteringen zullen beschikbaar worden gesteld in de productieomgeving, zoals vermeld.
 
-Voor een lijst van alle veranderingen beschikbaar op dit punt in het Vierde Kwartaal 2025 versiecyclus, zie [ Vierde Kwartaal 2025 releaseoverzicht ](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar op dit punt in het Vierde Kwartaal 2025 versiecyclus, zie [&#x200B; Vierde Kwartaal 2025 releaseoverzicht &#x200B;](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-release-overview.md).
 
 ## Werklastverdeling is nu beschikbaar in uw gebruikersprofiel
 
@@ -30,7 +30,7 @@ Alle gebruikers kunnen nu hun eigen vraag- en capaciteitsgegevens in de werklast
 
 Werklastverdelingsgegevens voor een gebruiker zijn alleen-lezen. U kunt geen werk toewijzen, werk ongedaan maken of toewijzingen op gebruikersniveau aanpassen.
 
-Voor informatie, zie [ plaats van de Balancer van de Werklast ](/help/quicksilver/resource-mgmt/workload-balancer/locate-workload-balancer.md).
+Voor informatie, zie [&#x200B; plaats van de Balancer van de Werklast &#x200B;](/help/quicksilver/resource-mgmt/workload-balancer/locate-workload-balancer.md).
 
 ## Roltoewijzingen weergeven in Workload Balancer
 
@@ -46,4 +46,4 @@ Een nieuwe instelling voor werklastverdeling, Roltoewijzingen weergeven, bepaalt
 
 U kunt een roltaak aan een gebruiker manueel met **toewijzen Meer menu > dit aan** optie toewijst, of door het punt aan de correcte gebruiker te slepen en te laten vallen. Een visuele indicator geeft aan wanneer de rol van de gebruiker en de toewijzingsrol niet overeenkomen, maar u kunt het werk wel aan de gebruiker toewijzen.
 
-Voor informatie, zie [ de Balancer van de Werkbelasting ](/help/quicksilver/resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) navigeren en [ werk in de Balancer van de Werklast toewijzen door te slepen en te laten vallen ](/help/quicksilver/resource-mgmt/workload-balancer/assign-work-in-workload-balancer-by-drag-and-drop.md).
+Voor informatie, zie [&#x200B; de Balancer van de Werkbelasting &#x200B;](/help/quicksilver/resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) navigeren en [&#x200B; werk in de Balancer van de Werklast toewijzen door te slepen en te laten vallen &#x200B;](/help/quicksilver/resource-mgmt/workload-balancer/assign-work-in-workload-balancer-by-drag-and-drop.md).

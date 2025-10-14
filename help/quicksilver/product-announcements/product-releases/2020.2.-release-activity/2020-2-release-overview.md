@@ -81,10 +81,10 @@ To download this page in PDF&nbsp;format, go
 
 De release 2020.2 bevat de volgende verbeteringen voor alle gebruikers:
 
-* [ Verbeteringen van het Beheer van het Middel: De Balancer van de Werkbelasting ](#resource-management-enhancements-the-workload-balancer)
-* [ de verhogingen van het Project ](#project-enhancements)
-* [ het Proofing verhogingen ](#proofing-enhancements)
-* [ Mobiele verhogingen ](#mobile-enhancements)
+* [&#x200B; Verbeteringen van het Beheer van het Middel: De Balancer van de Werkbelasting &#x200B;](#resource-management-enhancements-the-workload-balancer)
+* [&#x200B; de verhogingen van het Project &#x200B;](#project-enhancements)
+* [&#x200B; het Proofing verhogingen &#x200B;](#proofing-enhancements)
+* [&#x200B; Mobiele verhogingen &#x200B;](#mobile-enhancements)
 * [Andere verbeteringen](#other-enhancements)
 
 ### Verbeteringen voor beheer van bronnen: de werklastbalans {#resource-management-enhancements-the-workload-balancer}
@@ -95,7 +95,7 @@ Introductie van een vernieuwde planningservaring die u in staat stelt de werkbel
 
 >[!NOTE]
 >
->De werklastbalans werd uitgebracht als een bètaversie van 2019.4. Alle verbeteringen in Workload Balancer zijn over het algemeen beschikbaar met de release 2020.2. De volgende verbeteringen zijn toegevoegd met de release 2020.2. Voor een overzicht van de Balancer van de Werklast, zie [ Overzicht van de Balancer van de Werkbelasting ](../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+>De werklastbalans werd uitgebracht als een bètaversie van 2019.4. Alle verbeteringen in Workload Balancer zijn over het algemeen beschikbaar met de release 2020.2. De volgende verbeteringen zijn toegevoegd met de release 2020.2. Voor een overzicht van de Balancer van de Werklast, zie [&#x200B; Overzicht van de Balancer van de Werkbelasting &#x200B;](../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
 
 <table style="table-layout:auto"> 
  <col> 
@@ -246,9 +246,9 @@ Introductie van een vernieuwde planningservaring die u in staat stelt de werkbel
 
 ## API-verbeteringen
 
-API versie 11 uitgebracht met de release 2020.1. Voor informatie over wat nieuw en bijgewerkt is, zie [ wat in API versie 11 ](../../../wf-api/api/new-api-version-11.md) [ nieuw is wat in API versie 11 ](https://experience.workfront.com/s/article/What-s-new-in-API-version-11-1760875145) is.
+API versie 11 uitgebracht met de release 2020.1. Voor informatie over wat nieuw en bijgewerkt is, zie [&#x200B; wat in API versie 11 &#x200B;](../../../wf-api/api/new-api-version-11.md) [&#x200B; nieuw is wat in API versie 11 &#x200B;](https://experience.workfront.com/s/article/What-s-new-in-API-version-11-1760875145) is.
 
-Voor meer informatie over API versies, zie [ API versioning en steunprogramma ](../../../wf-api/api/api-version-support-schedule.md) [ API Versie en het Programma van de Steun ](https://experience.workfront.com/s/article/API-Version-Release-and-Support-Schedule-272875487?language=en_US&amp;r=13&amp;ui-comm-runtime-components-aura-components-siteforce-qb.Quarterback.validateRoute=1&amp;ui-communities-components-aura-components-forceCommunity-breadcrumbs.Breadcrumbs.getAncestors=1&amp;ui-communities-components-aura-components-forceCommunity-seoAssistant.SeoAssistant.getSeoData=1&amp;ui-force-components-controllers-recordGlobalValueProvider.RecordGvp.getRecord=1&amp;ui-self-service-components-controller.ArticleTopicList.getTopics=1&amp;ui-self-service-components-controller.ArticleView.getArticleHeaderDetail=1).
+Voor meer informatie over API versies, zie [&#x200B; API versioning en steunprogramma &#x200B;](../../../wf-api/api/api-version-support-schedule.md) [&#x200B; API Versie en het Programma van de Steun &#x200B;](https://experience.workfront.com/s/article/API-Version-Release-and-Support-Schedule-272875487?language=en_US&r=13&ui-comm-runtime-components-aura-components-siteforce-qb.Quarterback.validateRoute=1&ui-communities-components-aura-components-forceCommunity-breadcrumbs.Breadcrumbs.getAncestors=1&ui-communities-components-aura-components-forceCommunity-seoAssistant.SeoAssistant.getSeoData=1&ui-force-components-controllers-recordGlobalValueProvider.RecordGvp.getRecord=1&ui-self-service-components-controller.ArticleTopicList.getTopics=1&ui-self-service-components-controller.ArticleView.getArticleHeaderDetail=1).
 
 ## Workfront-onderhoudsupdates
 
@@ -256,18 +256,18 @@ Voor informatie over de onderhoudsupdates die tijdens de versie 2020.1 worden ge
 
 ## Aankondigingen
 
-* [ Verandering in de versiecadence van de Voorproef ](#change-in-preview-release-cadence) Nieuw!
+* [&#x200B; Verandering in de versiecadence van de Voorproef &#x200B;](#change-in-preview-release-cadence) Nieuw!
 
-* [ Toevoegend extra domeinen aan de lijst van gewenste personen die voor de toegang tot van Workfront ](#adding-additional-domains-to-the-allowlist-required-for-accessing-workfront) wordt vereist
-* [ Workfront Één ](#workfront-one)
-* [ Webinar van de Versie 20.1 ](#2020-1-release-webinar)
+* [&#x200B; Toevoegend extra domeinen aan de lijst van gewenste personen die voor de toegang tot van Workfront &#x200B;](#adding-additional-domains-to-the-allowlist-required-for-accessing-workfront) wordt vereist
+* [&#x200B; Workfront Één &#x200B;](#workfront-one)
+* [&#x200B; Webinar van de Versie 20.1 &#x200B;](#2020-1-release-webinar)
 * [Q1 Roadmap-webinar product](#q1-product-roadmap-webinar)
 
 ### Wijzigen in de release Voorvertoning {#change-in-preview-release-cadence}
 
 Vanaf 20 mei 2020 begint Workfront wekelijks functionaliteit beschikbaar te stellen in de voorvertoningsomgeving. Vóór deze wijziging werd de functionaliteit doorgaans elke twee weken vrijgegeven voor de voorvertoningsomgeving.
 
-Voor meer informatie, zie [ Verandering in FAQ van de de voorproefversie van Workfront ](https://experienceleague.adobe.com/nl/docs/workfront/using/home)
+Voor meer informatie, zie [&#x200B; Verandering in FAQ van de de voorproefversie van Workfront &#x200B;](https://experienceleague.adobe.com/nl/docs/workfront/using/home)
 
 ### Extra domeinen toevoegen aan de lijst van gewenste personen die vereist is voor toegang tot Workfront {#adding-additional-domains-to-the-allowlist-required-for-accessing-workfront}
 
@@ -276,20 +276,20 @@ Als uw organisatie een firewall gebruikt, moet u de volgende extra domeinen aan 
 * event.split.io
 * sdk.split.io
 
-Voor meer informatie, zie [ de lijst van gewenste personen van uw firewall ](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md#urls) sectie in [ vormen de lijst van gewenste personen van uw firewall ](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
+Voor meer informatie, zie [&#x200B; de lijst van gewenste personen van uw firewall &#x200B;](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md#urls) sectie in [&#x200B; vormen de lijst van gewenste personen van uw firewall &#x200B;](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
 
 ### Workfront One {#workfront-one}
 
 Met Workfront One ontdekt u de belangrijkste inhoud, bronnen en nieuws uit Workfront — allemaal op één plaats, met één aanmelding. We hebben de sites Experience, Community en Training verenigd, waardoor het gemakkelijker wordt om te vinden wat u zoekt.
 
-[ leer meer over Workfront Één ](https://business.adobe.com/products/workfront.html).
+[&#x200B; leer meer over Workfront Één &#x200B;](https://business.adobe.com/products/workfront.html).
 
 ### 2020.1 Release Webinar {#2020-1-release-webinar}
 
-Bekijk de 2020.1 versie webinar opname [ hier ](https://webinars.on24.com/workfront/product_roadmap032620?partnerref=blog).
+Bekijk de 2020.1 versie webinar opname [&#x200B; hier &#x200B;](https://webinars.on24.com/workfront/product_roadmap032620?partnerref=blog).
 
 ### Q1 Roadmap-webinar product {#q1-product-roadmap-webinar}
 
-Leer meer over wat tijdens [ Q1 Roadmap webinar ](https://webinars.on24.com/workfront/product_roadmap032620?partnerref=announcementcenter) moet komen. Dit webinar vond plaats op 26 maart 2020. Klik op de koppeling om de opname op aanvraag te registreren en te bekijken.
+Leer meer over wat tijdens [&#x200B; Q1 Roadmap webinar &#x200B;](https://webinars.on24.com/workfront/product_roadmap032620?partnerref=announcementcenter) moet komen. Dit webinar vond plaats op 26 maart 2020. Klik op de koppeling om de opname op aanvraag te registreren en te bekijken.
 
 Testen

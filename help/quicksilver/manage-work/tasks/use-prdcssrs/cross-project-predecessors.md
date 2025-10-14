@@ -29,9 +29,9 @@ Wanneer het verbinden van projecten door dwars-project predecessors, zullen de d
 
 >[!TIP]
 >
->U moet chronologie voor de projecten opnieuw berekenen om data te zien die voor het secundaire project worden bijgewerkt. Voor meer informatie bij het opnieuw berekenen van chronologie, zie [ chronologieherberekeningen voor projecten ](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md) vormen.
+>U moet chronologie voor de projecten opnieuw berekenen om data te zien die voor het secundaire project worden bijgewerkt. Voor meer informatie bij het opnieuw berekenen van chronologie, zie [&#x200B; chronologieherberekeningen voor projecten &#x200B;](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md) vormen.
 
-Voor meer informatie over voorgangersverhoudingen, zie [ Overzicht van taakvoorgangers ](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md).
+Voor meer informatie over voorgangersverhoudingen, zie [&#x200B; Overzicht van taakvoorgangers &#x200B;](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md).
 
 ## Toegangsvereisten
 
@@ -65,7 +65,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-*For meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*For meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -90,11 +90,11 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 1. Geef de volgende informatie op voor het definiëren van de relatie tussen de voorganger en de afhankelijke taak:
 
 
-   * **Type van Afhankelijkheid:** selecteer de verhouding die u de voorgangertaak met de afhankelijke taak wilt hebben. De standaardverhouding is &quot;eind-Begin,&quot;betekenend dat de voorgangerstaak moet beëindigen alvorens de afhankelijke taak kan beginnen. Voor meer informatie over de diverse gebiedsdeeltypes, zie [ Overzicht van de types van taakgebiedsdeel ](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
+   * **Type van Afhankelijkheid:** selecteer de verhouding die u de voorgangertaak met de afhankelijke taak wilt hebben. De standaardverhouding is &quot;eind-Begin,&quot;betekenend dat de voorgangerstaak moet beëindigen alvorens de afhankelijke taak kan beginnen. Voor meer informatie over de diverse gebiedsdeeltypes, zie [&#x200B; Overzicht van de types van taakgebiedsdeel &#x200B;](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
 
-   * **Lag:** specificeer de hoeveelheid tijd die na de voltooiing van afgedwongen voorganger moet overgaan tot de afhankelijke taak kan beginnen. Voor meer informatie over de diverse soorten vertraging, zie [ Overzicht van de Types van Markeringen ](../../../manage-work/tasks/use-prdcssrs/lag-types.md).
+   * **Lag:** specificeer de hoeveelheid tijd die na de voltooiing van afgedwongen voorganger moet overgaan tot de afhankelijke taak kan beginnen. Voor meer informatie over de diverse soorten vertraging, zie [&#x200B; Overzicht van de Types van Markeringen &#x200B;](../../../manage-work/tasks/use-prdcssrs/lag-types.md).
 
-   * **gedwongen:** wanneer deze optie wordt geselecteerd, kan de gebiedsverhouding tussen de twee taken niet worden omzeild door gebruikers die taken beginnen vroeg. Bijvoorbeeld, als u een verband tussen Taak A en Taak B afdwingt, kan de Taak B niet worden begonnen tot Taak A volledig is. Voor meer informatie over het afdwingen van predecessors, zie [ predecessors ](../../../manage-work/tasks/use-prdcssrs/enforced-predecessors.md) afdwingen.
+   * **gedwongen:** wanneer deze optie wordt geselecteerd, kan de gebiedsverhouding tussen de twee taken niet worden omzeild door gebruikers die taken beginnen vroeg. Bijvoorbeeld, als u een verband tussen Taak A en Taak B afdwingt, kan de Taak B niet worden begonnen tot Taak A volledig is. Voor meer informatie over het afdwingen van predecessors, zie [&#x200B; predecessors &#x200B;](../../../manage-work/tasks/use-prdcssrs/enforced-predecessors.md) afdwingen.
 
      Als deze optie niet is geselecteerd, wordt de afhankelijkheid behandeld als een suggestie voor gebruikers. Bijvoorbeeld, kunnen de gebruikers Taak B beginnen alvorens Taak A volledig is.
 
@@ -102,7 +102,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
    De taken die een dwars-projectvoorganger hebben tonen het verwijzingsaantal van het project predecessor tot behoort en het aantal van de taak, die door een dubbelpunt wordt gescheiden, in de kolom van Predecessors op een taaklijst.
 
-   ![ dwars-project voorganger ](assets/cross-project-predecessor-in-list-view.png)
+   ![&#x200B; dwars-project voorganger &#x200B;](assets/cross-project-predecessor-in-list-view.png)
 
    Het voorgangspictogram wordt groen als de voorganger de markering Voltooid heeft. Dit wijst erop dat de afhankelijke taak klaar voor het werk is.
 
@@ -112,7 +112,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
    Klik **zie Project** om het project van de voorganger te openen.
 
-   ![ dwars-project voorgangersdetails ](assets/cross-project-predecessor-details.png)
+   ![&#x200B; dwars-project voorgangersdetails &#x200B;](assets/cross-project-predecessor-details.png)
 
    >[!TIP]
    >

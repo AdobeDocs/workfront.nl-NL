@@ -18,9 +18,9 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [ het Bewijzen ](../../../review-and-approve-work/proofing/proofing.md).
+>Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [&#x200B; het Bewijzen &#x200B;](../../../review-and-approve-work/proofing/proofing.md).
 
-Satellietaccounts zijn betaalaccounts die u configureert en beheert vanuit uw eigen [!DNL Workfront Proof] -account. Voor meer informatie, zie [ Satellietrekeningen in  [!DNL Workfront]  Bewijs ](../../../workfront-proof/wp-acct-admin/satellite-accounts/sat-accts-in-wp.md).
+Satellietaccounts zijn betaalaccounts die u configureert en beheert vanuit uw eigen [!DNL Workfront Proof] -account. Voor meer informatie, zie [&#x200B; Satellietrekeningen in  [!DNL Workfront]  Bewijs &#x200B;](../../../workfront-proof/wp-acct-admin/satellite-accounts/sat-accts-in-wp.md).
 
 Elke factureringsbeheerder kan een satellietaccount maken. Zie [[!UICONTROL Proof Permissions Profiles] in  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) voor informatie over factureringsbeheerders.
 
@@ -33,31 +33,31 @@ Elke factureringsbeheerder kan een satellietaccount maken. Zie [[!UICONTROL Proo
 Een satellietaccount maken:
 
 1. Ga naar de pagina [!UICONTROL Billing] .\
-   Voor meer informatie over de het factureren pagina, zie [ de  [!DNL Workfront Proof] [!UICONTROL Billing] Pagina ](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md).
+   Voor meer informatie over de het factureren pagina, zie [&#x200B; de  [!DNL Workfront Proof] [!UICONTROL Billing] Pagina &#x200B;](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md).
 
 1. Klik op de knop **[!UICONTROL New Satellite]** account. (1)
 
    Er verschijnt een pop-upvenster.
 
-   ![ New_Satellite_Account.png ](assets/new-satellite-account-350x156.png)
+   ![&#x200B; New_Satellite_Account.png &#x200B;](assets/new-satellite-account-350x156.png)
 
 1. Voer de gegevens van uw klant in, inclusief eventuele relevante promo-codes.
 1. Klik op **[!UICONTROL Save]**. De satellietaccount wordt automatisch weergegeven in het vervolgkeuzemenu [!UICONTROL Accounts] boven aan de pagina van [!UICONTROL Billing] .
 1. Selecteer de nieuwe satellietrekening van het drop-down menu.
-1. Ga met [ verder Selecterend een plan voor uw Satellietrekening ](#selecting-a-plan-for-your-satellite-account) om uw Satellietrekening te bevorderen.
+1. Ga met [&#x200B; verder Selecterend een plan voor uw Satellietrekening &#x200B;](#selecting-a-plan-for-your-satellite-account) om uw Satellietrekening te bevorderen.
 
 ## Een abonnement voor uw satellietaccount selecteren {#selecting-a-plan-for-your-satellite-account}
 
-Nadat u opstelling de Satellietrekening zoals die in [ wordt beschreven Creërend een Satellietrekening ](#creating-a-satellite-account) hebt, moet u het aan het gewenste plan bevorderen.
+Nadat u opstelling de Satellietrekening zoals die in [&#x200B; wordt beschreven Creërend een Satellietrekening &#x200B;](#creating-a-satellite-account) hebt, moet u het aan het gewenste plan bevorderen.
 
 1. Ga naar de pagina [!UICONTROL Billing] .\
-   Voor meer informatie over de het factureren pagina, zie [ de  [!DNL Workfront Proof] [!UICONTROL Billing] Pagina ](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md).
+   Voor meer informatie over de het factureren pagina, zie [&#x200B; de  [!DNL Workfront Proof] [!UICONTROL Billing] Pagina &#x200B;](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md).
 
 1. Kies in het vervolgkeuzemenu **[!UICONTROL Your accounts]** boven aan de pagina (1) de desbetreffende satellietaccount.
 
    De factureringspagina voor de satellietaccount wordt weergegeven en de gegevens van de factureringscontactpersoon van uw account worden automatisch gerepliceerd.
 
-   ![ Satellite_Account_Change_Plan.png ](assets/satellite-account-change-plan-350x156.png)
+   ![&#x200B; Satellite_Account_Change_Plan.png &#x200B;](assets/satellite-account-change-plan-350x156.png)
 
 1. Klik op de knop **[!UICONTROL Change Plan]** rechtsboven op de pagina. (2)\
    of\
@@ -85,7 +85,7 @@ Op dezelfde manier verschijnen de gebruikers in de hubrekening als leden in de c
 
 Als u een volledige lijst met alle gebruikers in de satellietaccount wilt weergeven, klikt u op het tabblad **[!UICONTROL Users]** .
 
-![ SA_New_User.png ](assets/sa-new-user-350x156.png)
+![&#x200B; SA_New_User.png &#x200B;](assets/sa-new-user-350x156.png)
 
 ## Bestaande aparte accounts koppelen aan uw hubaccount
 

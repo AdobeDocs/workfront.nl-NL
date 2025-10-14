@@ -30,9 +30,9 @@ Standaard is het veld Naam het primaire veld. U kunt echter elk veld van de volg
 * Getal
 * Formule
 
-![ Een ander tekstgebied als primair benadrukt gebied ](assets/another-text-field-as-a-primary-field-highlighted.png)
+![&#x200B; Een ander tekstgebied als primair benadrukt gebied &#x200B;](assets/another-text-field-as-a-primary-field-highlighted.png)
 
-Voor informatie over hoe te om een gebied als primair gebied aan te wijzen, zie [ de lijstmening ](/help/quicksilver/planning/views/manage-the-table-view.md) leiden.
+Voor informatie over hoe te om een gebied als primair gebied aan te wijzen, zie [&#x200B; de lijstmening &#x200B;](/help/quicksilver/planning/views/manage-the-table-view.md) leiden.
 
 ## Overzicht van primaire velden
 

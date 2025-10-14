@@ -18,7 +18,7 @@ ht-degree: 0%
 
 API-Internal is een versie van de Adobe Workfront API die niet wordt ondersteund vanwege het ontwerp en het doel ervan. Hoewel het de meest recente updates van de Workfront API bevat, kan het zonder voorafgaande kennisgeving worden gewijzigd en moet het daarom met voorzichtigheid worden gebruikt bij de integratie van de productie. Workfront raadt ten zeerste aan alle API-interne integratie naar een versioned API bij te werken.
 
-Meer over gesteunde versies van Workfront API leren, zie [ API versioning en steunprogramma ](../../wf-api/api/api-version-support-schedule.md).
+Meer over gesteunde versies van Workfront API leren, zie [&#x200B; API versioning en steunprogramma &#x200B;](../../wf-api/api/api-version-support-schedule.md).
 
 **Gebruikend API-niet gesteund**
 

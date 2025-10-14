@@ -34,6 +34,6 @@ Verwijder het ongeldige teken uit de documentnaam:
 
    Ongeldige tekens: `! # % * \ | ' " / ? < > { } [ ]`
 
-   ![ de naam van het Document ](assets/doc-name.png)
+   ![&#x200B; de naam van het Document &#x200B;](assets/doc-name.png)
 
 1. Vernieuw de pagina en genereer de proefdruk.

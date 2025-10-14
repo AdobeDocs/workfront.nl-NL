@@ -21,7 +21,7 @@ U kunt informatie bekijken over hoe een bewijs door het overzichtsproces vordert
 
 Het bewijs van voortgang geeft het werk aan dat is verricht op een bewijs vanaf het moment dat u de bewijzen naar de ontvangers verzendt tot het moment dat zij een beslissing nemen over het bewijs. De voortgangspictogrammen S, O, C en D worden naast de proefdruknaam weergegeven en geven informatie over de voortgang van de proefdrukproef.
 
-![ Peof geeft bestaande vooruitgang uit ](assets/proof-edit-existing-progress-350x62.png)
+![&#x200B; Peof geeft bestaande vooruitgang uit &#x200B;](assets/proof-edit-existing-progress-350x62.png)
 
 <table style="table-layout:auto"> 
  <col> 
@@ -95,7 +95,7 @@ De voortgangspictogrammen kunnen in de volgende kleuren worden weergegeven om be
 
 De status van de proefdruk geeft de status aan van de beslissingen die voor de proefdruk vereist zijn. De status van het bewijs wordt aangestuurd door de &quot;worst case&quot;-deelnemer. Bijvoorbeeld, veronderstel er drie besluiten over de proef zijn: twee hebben het statuut van **Toegelaten** en één heeft het statuut van **Afgewezen**. Het &quot;slechtste geval&quot;besluit van **Afgewezen** over-regels de andere besluiten en de algemene status van het bewijs wordt getoond zoals **Afgewezen**. 
 
-![ Bewijs geeft bestaande vooruitgang uit ](assets/proof-edit-existing-progress-350x62.png)
+![&#x200B; Bewijs geeft bestaande vooruitgang uit &#x200B;](assets/proof-edit-existing-progress-350x62.png)
 
 De standaardstatusopties zijn als volgt:
 

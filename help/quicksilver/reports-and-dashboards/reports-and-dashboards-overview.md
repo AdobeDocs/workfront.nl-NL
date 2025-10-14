@@ -25,6 +25,6 @@ In Adobe Workfront kunt u gegevens ordenen in rapporten. U kunt meerdere rapport
 Raadpleeg de artikelen in de volgende subsecties voor meer informatie over rapporten en dashboards:
 
 * [Canvasdashboards](../reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md)
-* [ Rapporten ](../reports-and-dashboards/reports/reports-overview.md)
+* [&#x200B; Rapporten &#x200B;](../reports-and-dashboards/reports/reports-overview.md)
 * [Dashboards](../reports-and-dashboards/dashboards/dashboards-overview.md)
 

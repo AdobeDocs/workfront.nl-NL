@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Op deze pagina worden alle mobiele verbeteringen beschreven die zijn aangebracht met de release 23.3. Deze verbeteringen zijn beschikbaar gesteld in de productieomgeving met de release 23.3 op 20 en 21 juli 2023.
 
-Voor een lijst van alle veranderingen beschikbaar op dit punt in de 23.3 versiecyclus, zie [ overzicht van de Versie 23.3 ](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar op dit punt in de 23.3 versiecyclus, zie [&#x200B; overzicht van de Versie 23.3 &#x200B;](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
 
 ## Nieuwe proefdrukfunctionaliteit in de mobiele app van Workfront
 
@@ -30,4 +30,4 @@ Met de afgekeurde stand-alone Workfront Proof-app in 23.4 zijn er voor de primai
 * De proefdrukstatus kan worden weergegeven op de pagina&#39;s Documentdetails en Details proefdrukken in de mobiele app
 * Knoppen waarmee gebruikers naar de Workfront Proof-app kunnen navigeren, zijn verwijderd
 
-Voor meer informatie bij het proef in de mobiele app van Workfront, zie [ Overzicht en maak besluiten over proeven in mobiele app van Adobe Workfront ](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/work-with-proofs-in-mobile-app.md).
+Voor meer informatie bij het proef in de mobiele app van Workfront, zie [&#x200B; Overzicht en maak besluiten over proeven in mobiele app van Adobe Workfront &#x200B;](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/work-with-proofs-in-mobile-app.md).

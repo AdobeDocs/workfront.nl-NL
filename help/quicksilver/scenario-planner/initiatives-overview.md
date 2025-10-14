@@ -16,7 +16,7 @@ ht-degree: 0%
 
 # Overzicht van initiatieven in het dialoogvenster [!DNL Scenario Planner]
 
-Als bedrijfsmanager kunt u initiatieven voor plannen in [!DNL Adobe Workfront Scenario Planner] tot stand brengen. Voor informatie over het creëren van plannen, zie het artikel [ plannen in  [!DNL Scenario Planner]](../scenario-planner/create-and-edit-plans.md) creëren en uitgeven.
+Als bedrijfsmanager kunt u initiatieven voor plannen in [!DNL Adobe Workfront Scenario Planner] tot stand brengen. Voor informatie over het creëren van plannen, zie het artikel [&#x200B; plannen in  [!DNL Scenario Planner]](../scenario-planner/create-and-edit-plans.md) creëren en uitgeven.
 
 ## Overzicht van initiatieven
 
@@ -26,7 +26,7 @@ Met behulp van [!DNL Workfront Scenario Planner] kunt u een schatting maken van 
 * Schatting van de vaste kosten in verband met de werkzaamheden die nodig zijn om het initiatief te voltooien.
 * Schatting van het Geplande Voordeel dat uw bedrijf zou kunnen winnen wanneer het initiatief wordt voltooid.
 
-Om informatie over uw initiatieven te bekijken, kunt u tot individuele initiatieven binnen een plan toegang hebben. Voor informatie over het creëren van en de toegang tot van initiatieven, zie het artikel [ initiatieven in  [!DNL Scenario Planner]](../scenario-planner/create-and-edit-initiatives.md) creëren en uitgeven.
+Om informatie over uw initiatieven te bekijken, kunt u tot individuele initiatieven binnen een plan toegang hebben. Voor informatie over het creëren van en de toegang tot van initiatieven, zie het artikel [&#x200B; initiatieven in  [!DNL Scenario Planner]](../scenario-planner/create-and-edit-initiatives.md) creëren en uitgeven.
 
 ## Overwegingen bij initiatieven
 
@@ -35,9 +35,9 @@ Houd rekening met het volgende wanneer u initiatieven maakt:
 * U moet een plan maken voordat u een initiatief kunt maken.
 * U kunt geheel nieuwe initiatieven maken of projecten importeren in een plan. De projecten worden initiatieven binnen het plan.
 
-  Voor informatie over het creëren van initiatief van kras, zie [ initiatieven in  [!DNL Scenario Planner]](../scenario-planner/create-and-edit-initiatives.md) creëren en uitgeven.
+  Voor informatie over het creëren van initiatief van kras, zie [&#x200B; initiatieven in  [!DNL Scenario Planner]](../scenario-planner/create-and-edit-initiatives.md) creëren en uitgeven.
 
-  Voor informatie over het invoeren van projecten in een plan om initiatieven van projecten tot stand te brengen, zie [ de projecten van de Invoer in plannen in  [!DNL Scenario Planner]](../scenario-planner/import-projects-to-plans.md).
+  Voor informatie over het invoeren van projecten in een plan om initiatieven van projecten tot stand te brengen, zie [&#x200B; de projecten van de Invoer in plannen in  [!DNL Scenario Planner]](../scenario-planner/import-projects-to-plans.md).
 
 * Initiatieven zijn kleinere planningseenheden dan plannen en worden alleen als onderdeel van een plan gemaakt.
 * Het kortste initiatief kan een duur van één maand hebben. Het langste initiatief kan een looptijd van vijf jaar hebben.
@@ -50,11 +50,11 @@ Houd rekening met het volgende wanneer u initiatieven maakt:
   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this might change when we add to the access levels granularity)</p>
   -->
 
-* U kunt initiatieven publiceren om projecten te creëren of de projecten bij te werken die met hen verbonden zijn. Voor informatie over het publiceren initiatieven, zie [ Update of creeer projecten door initiatieven in  [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md) te publiceren.
+* U kunt initiatieven publiceren om projecten te creëren of de projecten bij te werken die met hen verbonden zijn. Voor informatie over het publiceren initiatieven, zie [&#x200B; Update of creeer projecten door initiatieven in  [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md) te publiceren.
 
 ## Financiële informatie over initiatieven
 
-U kunt financiële informatie over individuele initiatieven herzien om te begrijpen hoe de initiatieven binnen het plan passen. Voor informatie over de toegang tot van tot een initiatief, zie het artikel [ initiatieven in  [!DNL Scenario Planner]](../scenario-planner/create-and-edit-initiatives.md) creëren en uitgeven.
+U kunt financiële informatie over individuele initiatieven herzien om te begrijpen hoe de initiatieven binnen het plan passen. Voor informatie over de toegang tot van tot een initiatief, zie het artikel [&#x200B; initiatieven in  [!DNL Scenario Planner]](../scenario-planner/create-and-edit-initiatives.md) creëren en uitgeven.
 
 U kunt de volgende financiële indicatoren over een initiatief bekijken door tot het binnen een plan toegang te hebben:
 
@@ -137,4 +137,4 @@ U kunt informatie over initiatieven weergeven in rapporten, zoals wordt beschrev
  </tbody> 
 </table>
 
-*Deze velden vullen alleen informatie in uit het project dat verband houdt met het initiatief, wanneer het initiatief is gemaakt op basis van een project of minstens eenmaal is gepubliceerd naar een project. Voor informatie over het publiceren initiatieven, zie [ Update of creeer projecten door initiatieven in  [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md) te publiceren.
+*Deze velden vullen alleen informatie in uit het project dat verband houdt met het initiatief, wanneer het initiatief is gemaakt op basis van een project of minstens eenmaal is gepubliceerd naar een project. Voor informatie over het publiceren initiatieven, zie [&#x200B; Update of creeer projecten door initiatieven in  [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md) te publiceren.

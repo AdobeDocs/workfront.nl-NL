@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [ het Bewijzen ](../../../review-and-approve-work/proofing/proofing.md).
+>Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [&#x200B; het Bewijzen &#x200B;](../../../review-and-approve-work/proofing/proofing.md).
 
 Als u het kantoor gedurende langere tijd verlaat, kunt u het eigendom van uw proefdrukken delegeren aan een andere gebruiker in uw account.
 
@@ -29,7 +29,7 @@ Als u het kantoor gedurende langere tijd verlaat, kunt u het eigendom van uw pro
 Om tijdelijk eigendom van uw proefdrukken aan te wijzen:
 
 1. Ga binnen [!DNL Workfront Proof] naar **[!UICONTROL Personal settings]** .\
-   ![ persoonlijk-settings.png ](assets/personal-settings-350x83.png)
+   ![&#x200B; persoonlijk-settings.png &#x200B;](assets/personal-settings-350x83.png)
 
 1. Klik op de tab **[!UICONTROL Out of office]** . De volgende instellingen zijn beschikbaar:
 
@@ -47,15 +47,15 @@ Om tijdelijk eigendom van uw proefdrukken aan te wijzen:
 
      Als een specifieke einddatum en -tijd worden ingesteld, wordt de functie op de geselecteerde dag en op het gekozen tijdstip uitgeschakeld.
 
-     ![ uit-van-bureau-options.png ](assets/out-of-office-options-350x234.png)
+     ![&#x200B; uit-van-bureau-options.png &#x200B;](assets/out-of-office-options-350x234.png)
 
 1. Wanneer proefdrukken worden gedelegeerd, wordt de gedelegeerde eigenaar weergegeven in de sectie **[!UICONTROL Details]** van de pagina met proefdrukdetails. De notitie met de eigendomsdelegatie wordt weergegeven in de sectie **[!UICONTROL Activity]** van de pagina met de proefdrukdetails.
 
-   ![ activiteit-sectie-Gedelegeerde.png ](assets/activity-section-delegated-350x318.png)
+   ![&#x200B; activiteit-sectie-Gedelegeerde.png &#x200B;](assets/activity-section-delegated-350x318.png)
 
    Er wordt ook een [!UICONTROL Out of Office] -melding weergegeven in de account van de eigenaar van de oorspronkelijke proefdruk wanneer de functie is ingeschakeld. Dit doet dienst als herinnering aan de originele eigenaar en staat hen ook toe om de delegatie onmiddellijk te beëindigen of naar [!UICONTROL Personal settings] te gaan om dit aan te passen.
 
-   ![ bericht-op-account.png ](assets/notification-on-account-350x15.png)
+   ![&#x200B; bericht-op-account.png &#x200B;](assets/notification-on-account-350x15.png)
 
    Wanneer de eigenaar van uw proefdrukken de oorspronkelijke eigenaar terugneemt, verdwijnt de gedelegeerde eigenaar uit de sectie [!UICONTROL Details] van de pagina met proefdrukdetails en wordt de melding [!UICONTROL Out of Office] niet meer weergegeven op de account van de oorspronkelijke proefdrukeigenaar. In de sectie [!UICONTROL Activity] van de pagina met de proefdrukdetails wordt een opmerking weergegeven waaruit blijkt dat de eigendom van de proefdruk is hersteld.
 
@@ -63,4 +63,4 @@ Om tijdelijk eigendom van uw proefdrukken aan te wijzen:
    >
    >De gedelegeerde eigenaar blijft in de proefdrukworkflow staan, tenzij u deze handmatig verwijdert.
 
-   ![[!UICONTROL activity-section-taken-back].png ](assets/activity-section-taken-back-350x99.png)
+   ![[!UICONTROL activity-section-taken-back].png &#x200B;](assets/activity-section-taken-back-350x99.png)

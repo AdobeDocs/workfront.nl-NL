@@ -16,8 +16,8 @@ ht-degree: 0%
 
 # 2019.1 releaseactiviteit
 
-* [ 2019.1 overzicht van de versieactiviteit ](../../../../product-announcements/product-releases/quarterly-release-archive/2019.1-release-activity/2019-1-release-activity-overview.md)
-* [ 2019.1 de verhogingen van het Project ](../../../../product-announcements/product-releases/quarterly-release-archive/2019.1-release-activity/2019-1-project-enhancements.md)
-* [ 2019.1 de verhogingen van het Beheer van het Middel ](../../../../product-announcements/product-releases/quarterly-release-archive/2019.1-release-activity/2019-1-rsrc-mngmnt-enhncmnts.md)
-* [ 2019.1 het Proofing verhogingen ](../../../../product-announcements/product-releases/quarterly-release-archive/2019.1-release-activity/2019-1-proofing-enhancements.md)
+* [&#x200B; 2019.1 overzicht van de versieactiviteit &#x200B;](../../../../product-announcements/product-releases/quarterly-release-archive/2019.1-release-activity/2019-1-release-activity-overview.md)
+* [&#x200B; 2019.1 de verhogingen van het Project &#x200B;](../../../../product-announcements/product-releases/quarterly-release-archive/2019.1-release-activity/2019-1-project-enhancements.md)
+* [&#x200B; 2019.1 de verhogingen van het Beheer van het Middel &#x200B;](../../../../product-announcements/product-releases/quarterly-release-archive/2019.1-release-activity/2019-1-rsrc-mngmnt-enhncmnts.md)
+* [&#x200B; 2019.1 het Proofing verhogingen &#x200B;](../../../../product-announcements/product-releases/quarterly-release-archive/2019.1-release-activity/2019-1-proofing-enhancements.md)
 * [2019.1 Verbeteringen op het gebied van mobiele en integratie](../../../../product-announcements/product-releases/quarterly-release-archive/2019.1-release-activity/2019-1-mbl-intgrtn-enhncmnts.md)

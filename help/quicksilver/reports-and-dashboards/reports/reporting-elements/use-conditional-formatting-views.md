@@ -21,7 +21,7 @@ Als u uw rapporten deelt met andere gebruikers in Adobe Workfront, kunt u overwe
 
 U kunt het tabblad Details van uw rapporten aanpassen door speciale of voorwaardelijke opmaak toe te voegen aan de weergave van uw rapporten.
 
-Voor meer informatie over het creëren van rapporten, zie het artikel [ een douanerapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) creëren.
+Voor meer informatie over het creëren van rapporten, zie het artikel [&#x200B; een douanerapport &#x200B;](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) creëren.
 
 Door kolommen in de mening van het rapport voorwaardelijk te formatteren, kunt u opstellingsregels die de manier beïnvloeden de rapportvertoningen. Wanneer aan deze voorwaarden of regels is voldaan, wordt de speciale opmaak toegepast.
 
@@ -70,7 +70,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-*For informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*For informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -78,7 +78,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 U moet een rapport maken voordat u voorwaardelijke opmaak aan de weergave kunt toevoegen.
 
-Voor informatie bij het creëren van een rapport, zie [ een rapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-report.md) creëren.
+Voor informatie bij het creëren van een rapport, zie [&#x200B; een rapport &#x200B;](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-report.md) creëren.
 
 ## Een weergave met voorwaardelijke opmaak maken
 

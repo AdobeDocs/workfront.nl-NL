@@ -20,10 +20,10 @@ Brongroepen zijn verzamelingen gebruikers die u helpen bij het beheren van bronn
 
 De volgende artikelen beschrijven de functionaliteit wanneer u bronnenpools gebruikt om uw projecten in Adobe Workfront te beheren.
 
-* [ overzicht van de pools van het Middel ](../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md)
-* [ creeer middelpools ](../../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md)
-* [ associeerde middelgroepen met projecten en malplaatjes ](../../../resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-projects-and-templates.md)
-* [ associeerde middelpools met gebruikers ](../../../resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-users.md)
+* [&#x200B; overzicht van de pools van het Middel &#x200B;](../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md)
+* [&#x200B; creeer middelpools &#x200B;](../../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md)
+* [&#x200B; associeerde middelgroepen met projecten en malplaatjes &#x200B;](../../../resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-projects-and-templates.md)
+* [&#x200B; associeerde middelpools met gebruikers &#x200B;](../../../resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-users.md)
 * [Gebruikers verwijderen uit bronnenpools](../../../resource-mgmt/resource-planning/resource-pools/remove-users-from-resource-pool.md)
 
  

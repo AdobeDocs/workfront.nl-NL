@@ -61,15 +61,15 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 1. Zoek het document voor de proef die de gebruikers bevat u wilt bericht.
 1. Beweeg over het document, dan klik **het Proofing Werkschema**.
 
-   ![ het Proofing werkschema ](assets/proof-workflow-doc-list-350x92.png)
+   ![&#x200B; het Proofing werkschema &#x200B;](assets/proof-workflow-doc-list-350x92.png)
 
 1. Om een bericht naar alle gebruikers op het stadium te verzenden, klik **Meer** menu op het stadium en kies **Bericht allen**.
 
-   ![ Bericht op stadium ](assets/message-stage-350x122.png)
+   ![&#x200B; Bericht op stadium &#x200B;](assets/message-stage-350x122.png)
 
 1. Om een bericht naar een individuele gebruiker te verzenden, klik **Meer** menu naast de gebruiker en kies **Bericht**.
 
-   ![ gebruiker van het Bericht ](assets/message-user-350x121.png)
+   ![&#x200B; gebruiker van het Bericht &#x200B;](assets/message-user-350x121.png)
 
 1. In de **sectie van de Details van het Bericht**, specificeer de volgende informatie:
 

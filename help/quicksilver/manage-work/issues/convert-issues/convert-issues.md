@@ -19,14 +19,14 @@ ht-degree: 0%
 
 Als meer werk moet worden gedaan om een kwestie te voltooien nadat de kwestie wordt voorgelegd, kunt u de kwestie in een project of in een taak omzetten.
 
-Voor informatie over het omzetten van kwesties in taken, zie [ een kwestie in een taak in Adobe Workfront ](../../../manage-work/issues/convert-issues/convert-issue-to-task.md) omzetten.
+Voor informatie over het omzetten van kwesties in taken, zie [&#x200B; een kwestie in een taak in Adobe Workfront &#x200B;](../../../manage-work/issues/convert-issues/convert-issue-to-task.md) omzetten.
 
-Voor informatie over het omzetten van kwesties in projecten, zie [ een kwestie in een project in Adobe Workfront ](../../../manage-work/issues/convert-issues/convert-issue-to-project.md) omzetten.
+Voor informatie over het omzetten van kwesties in projecten, zie [&#x200B; een kwestie in een project in Adobe Workfront &#x200B;](../../../manage-work/issues/convert-issues/convert-issue-to-project.md) omzetten.
 
 ## Overwegingen bij het converteren van problemen
 
 * Wanneer het omzetten van kwesties in taken of projecten, meeste informatie van de uitgifteoverdrachten aan de taak of het project, tenzij anders gespecificeerd in dit artikel.
-* Uw beheerder van Workfront of groepsbeheerder heeft reeds de voorkeur voor wat met een kwestie, zijn resolutie, en de toegang van zijn Primair Contact wanneer het in een project of een taak wordt omgezet, zoals die in [ wordt geschetst vormt systeembrede taak en geeft voorkeur ](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md) uit.
+* Uw beheerder van Workfront of groepsbeheerder heeft reeds de voorkeur voor wat met een kwestie, zijn resolutie, en de toegang van zijn Primair Contact wanneer het in een project of een taak wordt omgezet, zoals die in [&#x200B; wordt geschetst vormt systeembrede taak en geeft voorkeur &#x200B;](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md) uit.
 * Workfront verwijdert goedkeuringen die tijdens de conversie aan problemen zijn gekoppeld.
 * Workfront overschrijft het Oplossende Voorwerp van de kwestie wanneer u het in een taak of een project omzet. De nieuwe taak of kwestie wordt het nieuwe Oplossende Voorwerp van de kwestie na omzetting.
 * Overweeg het volgende:
@@ -43,7 +43,7 @@ Voor informatie over het omzetten van kwesties in projecten, zie [ een kwestie i
 
 * Bij het omzetten van een uitgave worden de machtigingen naar de oorspronkelijke uitgaven niet overgedragen naar het omgezette object (taak of project).
 
-* Wanneer het omzetten van een kwestie in een project gebruikend een malplaatje, de meeste informatie van het malplaatje overdrachten aan het nieuwe project. Bepaalde informatie uit de uitgave kan echter ook naar het nieuwe project worden overgedragen. Voor meer informatie, zie het [ Overzicht van projectgebieden wanneer het omzetten van een kwestie in een project gebruikend een malplaatje ](#overview-of-project-fields-when-converting-an-issue-to-a-project-using-a-template) sectie in dit artikel.
+* Wanneer het omzetten van een kwestie in een project gebruikend een malplaatje, de meeste informatie van het malplaatje overdrachten aan het nieuwe project. Bepaalde informatie uit de uitgave kan echter ook naar het nieuwe project worden overgedragen. Voor meer informatie, zie het [&#x200B; Overzicht van projectgebieden wanneer het omzetten van een kwestie in een project gebruikend een malplaatje &#x200B;](#overview-of-project-fields-when-converting-an-issue-to-a-project-using-a-template) sectie in dit artikel.
 * Tijdens het converteren van een uitgave worden niet alle documenten of de bijbehorende gegevens verplaatst naar het nieuwe object waarnaar de uitgave wordt geconverteerd. De volgende items worden opgenomen wanneer u een uitgave converteert waaraan documenten of documentkoppelingen zijn gekoppeld:
 
    * Document
@@ -56,13 +56,13 @@ Voor informatie over het omzetten van kwesties in projecten, zie [ een kwestie i
 * Als u hebt besloten de uitgave niet bij de conversie te houden en er documenten aan zijn gekoppeld, worden het document, de versies en de proefdrukken naar het project of de taak overgedragen. De documentgoedkeuringen worden niet overgedragen naar het project of de taak.
 * Als er documenten en mappen zijn gekoppeld aan de oorspronkelijke uitgave bij externe services, zoals Google Drive, worden deze koppelingen naar het nieuwe object gekopieerd, ongeacht of u de uitgave bewaart of niet tijdens de conversie.
 * Opmerkingen bij uitgaven worden ook gekopieerd naar de taak of het project dat vanuit de uitgave is geconverteerd, maar gelabelde gebruikers worden niet overgedragen.
-* Als u de informatie van de douaneformulier van de kwestie naar het project of de taak wilt overbrengen u het in zet, zorg ervoor u een project of een vorm van de taakdouaneformulier hebt die de zelfde gebieden omvat u van de kwestie wilt overbrengen. Voor meer informatie, zie [ de gegevens van de douanevorm van de Overdracht wanneer het omzetten van een voorwerp ](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/transfer-custom-form-data-larger-item.md).
+* Als u de informatie van de douaneformulier van de kwestie naar het project of de taak wilt overbrengen u het in zet, zorg ervoor u een project of een vorm van de taakdouaneformulier hebt die de zelfde gebieden omvat u van de kwestie wilt overbrengen. Voor meer informatie, zie [&#x200B; de gegevens van de douanevorm van de Overdracht wanneer het omzetten van een voorwerp &#x200B;](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/transfer-custom-form-data-larger-item.md).
 
 ## Overzicht van projectgebieden wanneer het omzetten van een kwestie in een project gebruikend een malplaatje {#overview-of-project-fields-when-converting-an-issue-to-a-project-using-a-template}
 
 Wanneer het omzetten van een kwestie in een project, kunt u of het in een leeg project omzetten of een malplaatje gebruiken.
 
-Voor informatie, zie [ Bekeerling een kwestie in een project in Adobe Workfront ](../../../manage-work/issues/convert-issues/convert-issue-to-project.md).
+Voor informatie, zie [&#x200B; Bekeerling een kwestie in een project in Adobe Workfront &#x200B;](../../../manage-work/issues/convert-issues/convert-issue-to-project.md).
 
 Wanneer het gebruiken van een malplaatje, sommige gebieden die op de malplaatjeoverdracht aan het project worden bevolkt dat van de omgezette kwestie wordt gecreeerd. Andere gebieden brengen naar het project van de omgezette kwestie over.
 
@@ -240,7 +240,7 @@ De volgende lijst maakt een lijst van projectinformatie en of het van het malpla
 
 ## Originele informatie over projecten en taken weergeven {#view-original-issue-information-on-projects-and-tasks}
 
-U kunt de originele uitgifteinformatie in project en taaklijsten en rapporten of in het gebied van de Details van het Project bekijken. Voor informatie over de bouw van rapporten, zie [ een douanerapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) creëren.
+U kunt de originele uitgifteinformatie in project en taaklijsten en rapporten of in het gebied van de Details van het Project bekijken. Voor informatie over de bouw van rapporten, zie [&#x200B; een douanerapport &#x200B;](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) creëren.
 
 In de volgende tabel wordt aangegeven welke velden zichtbaar zijn van de omgezette projecten en taken.
 

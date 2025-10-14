@@ -16,9 +16,9 @@ ht-degree: 0%
 
 # 2017.2 releaseactiviteit
 
-* [ 2017.2 overzicht van de versieactiviteit ](../../../../product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-release-activity-overview.md)
-* [ webinars van de versie 2017.2 ](../../../../product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-release-webinars.md)
-* [ 2017.2 Definitief Beta ](../../../../product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-beta-final.md)
-* [ 2017.2 Beta 3 releaseactiviteit ](../../../../product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-beta-3-release-activity.md)
-* [ 2017.2 Beta 2 de versieactiviteit ](../../../../product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-beta-2-release-activity.md)
+* [&#x200B; 2017.2 overzicht van de versieactiviteit &#x200B;](../../../../product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-release-activity-overview.md)
+* [&#x200B; webinars van de versie 2017.2 &#x200B;](../../../../product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-release-webinars.md)
+* [&#x200B; 2017.2 Definitief Beta &#x200B;](../../../../product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-beta-final.md)
+* [&#x200B; 2017.2 Beta 3 releaseactiviteit &#x200B;](../../../../product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-beta-3-release-activity.md)
+* [&#x200B; 2017.2 Beta 2 de versieactiviteit &#x200B;](../../../../product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-beta-2-release-activity.md)
 * [2017.2 Beta 1-releaseactiviteit](../../../../product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-beta-1-release-activity.md)

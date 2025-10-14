@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [ het Bewijzen ](../../../review-and-approve-work/proofing/proofing.md).
+>Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [&#x200B; het Bewijzen &#x200B;](../../../review-and-approve-work/proofing/proofing.md).
 
 <!--
 <p style="color: #000000;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Make this work for PiW</p>
@@ -37,7 +37,7 @@ Het standaard e-mailadres voor herinneringen bevat de volgende gegevens:
    * Mapnaam (indien van toepassing)
    * Lijst van de controleurs en hun vorderingen op de proefstukken
 
-U kunt ook iemand herinneren aan meerdere proefdrukken die met hen zijn gedeeld. Voor meer informatie, zie [ een recensent over taken in Workfront Proof ](../../../workfront-proof/wp-emailsntfctns/messaging-reviewers/remind-reviewer-assignments-wp.md) herinneren.
+U kunt ook iemand herinneren aan meerdere proefdrukken die met hen zijn gedeeld. Voor meer informatie, zie [&#x200B; een recensent over taken in Workfront Proof &#x200B;](../../../workfront-proof/wp-emailsntfctns/messaging-reviewers/remind-reviewer-assignments-wp.md) herinneren.
 
 ## Een bericht verzenden naar revisoren via een proefexemplaar
 

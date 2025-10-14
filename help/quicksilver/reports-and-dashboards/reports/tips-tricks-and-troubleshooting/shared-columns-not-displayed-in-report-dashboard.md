@@ -32,7 +32,7 @@ worden opgenomen in de dashboardweergave van het rapport wanneer de indeling van
 
 ## Oplossing
 
-Open de weergave die wordt gebruikt in het rapport en open tekstmodus. (Voor meer informatie, zie [ een mening uitgeven gebruikend tekstwijze ](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-view.md).) Label alle kolommen in het rapport, inclusief de kolommen die worden gebruikt in een gedeelde/samengevoegde kolom, met
+Open de weergave die wordt gebruikt in het rapport en open tekstmodus. (Voor meer informatie, zie [&#x200B; een mening uitgeven gebruikend tekstwijze &#x200B;](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-view.md).) Label alle kolommen in het rapport, inclusief de kolommen die worden gebruikt in een gedeelde/samengevoegde kolom, met
 
 ```
 shortview=true

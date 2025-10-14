@@ -53,7 +53,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-Voor meer details over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer details over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -61,7 +61,7 @@ Voor meer details over de informatie in deze lijst, zie [ vereisten van de Toega
 
 Het rapport moet worden gecreeerd alvorens u zijn resultaten kunt filtreren.
 
-Voor meer informatie bij het creëren van rapporten, zie [ een rapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-report.md) creëren.
+Voor meer informatie bij het creëren van rapporten, zie [&#x200B; een rapport &#x200B;](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-report.md) creëren.
 
 ## Een rapport filteren op de tijdlijn van een datum {#filter-a-report-by-the-timeframe-of-a-date}
 
@@ -74,7 +74,7 @@ Voor meer informatie bij het creëren van rapporten, zie [ een rapport ](../../.
 1. Klik **toevoegen een Regel van de Filter**, dan **Uitgezocht een gebied**.
 
 1. In **selecteer een gebied** dialoogdoos, uitgezochte **Uur**, toen **Datum van de Ingang**.
-   ![ het Filtreren het rapport van uur door timeframe ](assets/qs-filtering-hour-report-by-timeframe-350x357.png)
+   ![&#x200B; het Filtreren het rapport van uur door timeframe &#x200B;](assets/qs-filtering-hour-report-by-timeframe-350x357.png)
 
 1. Selecteer een van de volgende opties in het keuzemenu dat wordt weergegeven:
 

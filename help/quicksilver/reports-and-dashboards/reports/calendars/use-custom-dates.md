@@ -54,14 +54,14 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Vereisten
 
-1. U moet aangepaste datumvelden hebben en een waarde binnen het veld dat beschikbaar is in uw [!DNL Workfront] -instantie. Als u geen opstelling van de douanevorm met douanedata hebt, volg de instructies in [ creeer een douanevorm ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
-1. Voeg het aangepaste formulier toe aan een project, taak of uitgave die u wilt toevoegen aan de kalender en geef een datum op. Voor meer informatie, zie [ een douanevorm aan een voorwerp ](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md) toevoegen.
+1. U moet aangepaste datumvelden hebben en een waarde binnen het veld dat beschikbaar is in uw [!DNL Workfront] -instantie. Als u geen opstelling van de douanevorm met douanedata hebt, volg de instructies in [&#x200B; creeer een douanevorm &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+1. Voeg het aangepaste formulier toe aan een project, taak of uitgave die u wilt toevoegen aan de kalender en geef een datum op. Voor meer informatie, zie [&#x200B; een douanevorm aan een voorwerp &#x200B;](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md) toevoegen.
 
 ## De groep items instellen
 
@@ -128,9 +128,9 @@ Nadat u hebt ingesteld hoe de items moeten worden weergegeven, moet u de objecte
 1. Stel een voorwaardelijke instructie in voor de kalendergroep.
 
 
-   Om over het plaatsen van voorwaarden te leren, zie [ Filter en voorwaardenbepalingen ](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
+   Om over het plaatsen van voorwaarden te leren, zie [&#x200B; Filter en voorwaardenbepalingen &#x200B;](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
 
-   ![ Uitgezochte voorwerp voor kalender ](assets/calendar-field-name.png)
+   ![&#x200B; Uitgezochte voorwerp voor kalender &#x200B;](assets/calendar-field-name.png)
 
 1. (Optioneel) Geef aanvullende objecten voor de kalendergroep op door stap 1-4 te herhalen.
 1. Selecteer in het veld **[!UICONTROL Set the Tasks/Projects/Issues labels to be the...]** hoe de objecten in deze kalendergroep worden gelabeld in de kalender.
@@ -139,6 +139,6 @@ Nadat u hebt ingesteld hoe de items moeten worden weergegeven, moet u de objecte
    >
    >Als de standaardlabelopties niet beschikbaar zijn voor een bepaald object, wordt in plaats daarvan de naam van het object weergegeven. Wanneer u bijvoorbeeld het label [!UICONTROL Parent Task] hebt geselecteerd en er geen bovenliggende taak aan het object is gekoppeld, geeft [!DNL Adobe Workfront] de objectnaam weer die u in de kalender weergeeft.
 
-   ![ vastgestelde taaketiketten ](assets/set-task-labels.png)
+   ![&#x200B; vastgestelde taaketiketten &#x200B;](assets/set-task-labels.png)
 1. Klik op **[!UICONTROL Save]**.
 

@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [ het Bewijzen ](../../../review-and-approve-work/proofing/proofing.md).
+>Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [&#x200B; het Bewijzen &#x200B;](../../../review-and-approve-work/proofing/proofing.md).
 
 ## Betalingsopties
 
@@ -39,7 +39,7 @@ We accepteren geen controles
 >
 >Denk aan het volgende voordat je je betalingsmethode wijzigt:
 >
->* De wijziging van de betalingsmethode wordt niet toegepast op uw huidige abonnement. Als u dit voor een factuur wilt veranderen die reeds is uitgegeven, gelieve ons team van Financiën in [ finance@proofhq.com ](mailto:finance@proofhq.com) te contacteren.
+>* De wijziging van de betalingsmethode wordt niet toegepast op uw huidige abonnement. Als u dit voor een factuur wilt veranderen die reeds is uitgegeven, gelieve ons team van Financiën in [&#x200B; finance@proofhq.com &#x200B;](mailto:finance@proofhq.com) te contacteren.
 >* Je kunt de betalingsmethode niet wijzigen of een creditcard toevoegen als er een proefabonnement op je account is ingesteld. U kunt deze gegevens instellen wanneer u een upgrade van uw account uitvoert.
 >
 
@@ -50,7 +50,7 @@ Je volgende betalingsmethode wijzigen en je creditcardgegevens bijwerken:
 1. Klik op **[!UICONTROL Change payment details]** (1) boven aan de pagina\
    of\
    Klik op **[!UICONTROL Next payment method]**. (2)\
-   ![ Payment_and_CC_details1.png ](assets/payment-and-cc-details1-350x205.png)
+   ![&#x200B; Payment_and_CC_details1.png &#x200B;](assets/payment-and-cc-details1-350x205.png)
 
 1. Selecteer in het pop-upvenster **[!UICONTROL Change payment details]** de volgende betalingsmethode. (3)
 1. (Voorwaardelijk) Voer voor de creditcardbetalingen uw kaartgegevens in.\
@@ -58,16 +58,16 @@ Je volgende betalingsmethode wijzigen en je creditcardgegevens bijwerken:
    We accepteren [!DNL Visa] , [!DNL American Express] en [!DNL MasterCard] .
 
 1. Klik op **[!UICONTROL Save]**. (4)\
-   ![ Payment_and_CC_details.png ](assets/payment-and-cc-details-350x217.png)
+   ![&#x200B; Payment_and_CC_details.png &#x200B;](assets/payment-and-cc-details-350x217.png)
 
 ## Gegevens van de betalingsmethode wijzigen voor satellietrekeningen
 
-Als u satellietrekeningen hebt, moet u uw creditcardgegevens en betalingsmethode voor elke rekening afzonderlijk bijwerken. Voor meer informatie over Satellietrekeningen, zie [ Satellietrekeningen.](https://support.workfront.com/hc/en-us/sections/115000921108-Satellite-accounts)
+Als u satellietrekeningen hebt, moet u uw creditcardgegevens en betalingsmethode voor elke rekening afzonderlijk bijwerken. Voor meer informatie over Satellietrekeningen, zie [&#x200B; Satellietrekeningen.](https://support.workfront.com/hc/en-us/sections/115000921108-Satellite-accounts)
 
 1. Ga naar de [!UICONTROL Billing] pagina in uw rekening van de Hub.\
-   Voor meer informatie over de het Factureren pagina, zie [ de  [!DNL Workfront]  Pagina van het Factureren van het Bewijs ](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md).
+   Voor meer informatie over de het Factureren pagina, zie [&#x200B; de  [!DNL Workfront]  Pagina van het Factureren van het Bewijs &#x200B;](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md).
 
 1. Open de vervolgkeuzelijst [!UICONTROL accounts list] . (1)
 1. Kies de satellietrekening (2) die met de creditcard wordt geassocieerd u wilt bijwerken.
-1. Ga met [ verder Veranderend uw betalingsmethode en creditcarddetails ](#changing-your-payment-method-and-credit-card-details).\
-   ![ Satellite_Account_Billing_Page.png ](assets/satellite-account-billing-page-350x167.png)
+1. Ga met [&#x200B; verder Veranderend uw betalingsmethode en creditcarddetails &#x200B;](#changing-your-payment-method-and-credit-card-details).\
+   ![&#x200B; Satellite_Account_Billing_Page.png &#x200B;](assets/satellite-account-billing-page-350x167.png)

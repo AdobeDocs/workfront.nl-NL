@@ -30,7 +30,7 @@ Hieronder volgen voorbeelden van verschillende programmeertalen die worden gebru
 * Hiermee verwijdert u het project
 * Afmelden
 
-U kunt deze voorbeelden downloaden op de Workfront Github-pagina:  [ https://github.com/Workfront](https://github.com/Workfront)
+U kunt deze voorbeelden downloaden op de Workfront Github-pagina:  [&#x200B; https://github.com/Workfront](https://github.com/Workfront)
 
 Om van voorbeelden in de bewaarplaats de plaats te bepalen, ga `example` in **Vondst een bewaarplaats in..** doos.
 

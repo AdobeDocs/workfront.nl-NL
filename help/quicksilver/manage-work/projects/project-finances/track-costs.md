@@ -30,13 +30,13 @@ De volgende scenario&#39;s bestaan:
 
 * Als het Type van Kosten van uw taken Uur van de Gebruiker is, berekent het tarief van het gebruikersuur de taak en projectkosten.
 
-  Voor informatie over het associëren van gebruikers met kostentarieven, zie [ het profiel van een gebruiker ](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) uitgeven.
+  Voor informatie over het associëren van gebruikers met kostentarieven, zie [&#x200B; het profiel van een gebruiker &#x200B;](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) uitgeven.
 
 * Als het Type van Kosten van uw taken de Uur van de Rol is, berekent de baan het uurtarief van de rol de taak en projectkosten.
 
-  Voor informatie over het associëren van baanrollen met kostentarieven, zie [ baanrollen ](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md) creëren en beheren.
+  Voor informatie over het associëren van baanrollen met kostentarieven, zie [&#x200B; baanrollen &#x200B;](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md) creëren en beheren.
 
-* Workfront berekent alleen de werkelijke kosten voor uitgaven en uitgaven hebben geen Type kosten. Voor meer informatie, zie de sectie [ Hoe Workfront kosten voor kwesties ](#how-workfront-tracks-costs-for-issues) in dit artikel volgt.
+* Workfront berekent alleen de werkelijke kosten voor uitgaven en uitgaven hebben geen Type kosten. Voor meer informatie, zie de sectie [&#x200B; Hoe Workfront kosten voor kwesties &#x200B;](#how-workfront-tracks-costs-for-issues) in dit artikel volgt.
 
 >[!TIP]
 >
@@ -47,8 +47,8 @@ De volgende scenario&#39;s bestaan:
 Workfront berekent een aantal kostenprestatiesindexen voor projecten zodat kunnen de projecten voor kostenefficiency worden gevolgd.\
 Voor meer informatie over het berekenen van kosten-prestatiesindexen, zie:
 
-* [ berekent de Index van de Prestaties van Kosten (CPI) ](../../../manage-work/projects/project-finances/calculate-cpi.md)
-* [ berekent de Index van de Prestaties van het Programma van Kosten (CSI) ](../../../manage-work/projects/project-finances/calculate-csi.md)
+* [&#x200B; berekent de Index van de Prestaties van Kosten (CPI) &#x200B;](../../../manage-work/projects/project-finances/calculate-cpi.md)
+* [&#x200B; berekent de Index van de Prestaties van het Programma van Kosten (CSI) &#x200B;](../../../manage-work/projects/project-finances/calculate-csi.md)
 * [Prestatie-index (SPI) voor planning berekenen](../../../manage-work/projects/project-finances/calculate-spi.md)
 
 ## Hoe Workfront de kosten voor taken en projecten traceert
@@ -86,16 +86,16 @@ U kunt verschillende soorten kosten bijhouden voor taken en projecten in Workfro
    </tbody> 
   </table>
 
-  Voor meer informatie, zie [ hoe Workfront Geplande, Gefabriceerde, en Ware kostensectie ](#how-workfront-calculates-planned-budgeted-and-actual-costs) in dit artikel berekent.
+  Voor meer informatie, zie [&#x200B; hoe Workfront Geplande, Gefabriceerde, en Ware kostensectie &#x200B;](#how-workfront-calculates-planned-budgeted-and-actual-costs) in dit artikel berekent.
 
 * **de Kosten van de Uitgaven** worden geassocieerd met uitgaven op projecten en taken.\
-  Wanneer u een project creeert, kunt u geplande uitgaven voor het volledige project plaatsen. Daarnaast kunt u uitgaven koppelen aan nieuwe of bestaande taken. Voor informatie, zie [ projectuitgaven beheren ](../../../manage-work/projects/project-finances/manage-project-expenses.md).
+  Wanneer u een project creeert, kunt u geplande uitgaven voor het volledige project plaatsen. Daarnaast kunt u uitgaven koppelen aan nieuwe of bestaande taken. Voor informatie, zie [&#x200B; projectuitgaven beheren &#x200B;](../../../manage-work/projects/project-finances/manage-project-expenses.md).
 
 * **Vaste Kosten** worden bepaald als vaste hoeveelheid kosten voor een project. Dit maakt deel uit van de geplande kosten van het project, dat het bedrag vertegenwoordigt dat u nodig hebt om het project te voltooien.
 
   >[!TIP]
   >
-  >Wanneer het vastmaken van een malplaatje aan een project, worden de Vaste Kosten van een malplaatje toegevoegd aan Vaste Kosten van het project. Voor informatie, zie [ Overzicht van het vastmaken van een malplaatje aan een project ](../../../manage-work/projects/create-and-manage-templates/attach-template-to-project-overview.md).
+  >Wanneer het vastmaken van een malplaatje aan een project, worden de Vaste Kosten van een malplaatje toegevoegd aan Vaste Kosten van het project. Voor informatie, zie [&#x200B; Overzicht van het vastmaken van een malplaatje aan een project &#x200B;](../../../manage-work/projects/create-and-manage-templates/attach-template-to-project-overview.md).
 
 ### Hoe Workfront geplande, begrote en werkelijke kosten berekent {#how-workfront-calculates-planned-budgeted-and-actual-costs}
 
@@ -164,7 +164,7 @@ Het uurtarief in de formule houdt rekening met eventuele effectieve wijzigingen 
 >
 >* Standaard gebruikt Workfront de kosten per uur van de gebruiker om de werkelijke loonkosten te berekenen.
 >* Als de gebruiker die de tijd registreert niet met om het even welke kosten wordt geassocieerd, dan gebruikt Workfront de Kosten per Uur tarief van de Primaire Rol van de gebruiker.
->* Als uw beheerder van Workfront de **toe:wijzen de Rollen van de Baan aan uuringangen manueel** plaatsend in het gebied van de Voorkeur van Tijdopnemers &amp; van Uren van Opstelling, en de gebruiker het registreren tijd op het project selecteert een verschillende rol om met deze tijd te associëren, berekent de Ware Kosten van het project gebaseerd op de rol die werd gespecificeerd toen de uren werden geregistreerd. Voor informatie over het toelaten van registrerentijd voor een specifieke baanrol, zie het artikel [ timesheet en uurvoorkeur ](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md) vormen.
+>* Als uw beheerder van Workfront de **toe:wijzen de Rollen van de Baan aan uuringangen manueel** plaatsend in het gebied van de Voorkeur van Tijdopnemers &amp; van Uren van Opstelling, en de gebruiker het registreren tijd op het project selecteert een verschillende rol om met deze tijd te associëren, berekent de Ware Kosten van het project gebaseerd op de rol die werd gespecificeerd toen de uren werden geregistreerd. Voor informatie over het toelaten van registrerentijd voor een specifieke baanrol, zie het artikel [&#x200B; timesheet en uurvoorkeur &#x200B;](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md) vormen.
 
 ### Hoe Workfront kostentypen berekent voor taken {#how-workfront-calculates-cost-types-for-tasks}
 
@@ -172,7 +172,7 @@ De geplande en werkelijke kosten van de taken en hun arbeidskosten worden bepaal
 
 U kunt het Type van Kosten voor individuele taken binnen het project vormen. Elk kostentype beïnvloedt de Geplande Kosten en de Ware Waarden van Kosten.
 
-Voor informatie over hoe te om het Type van Kosten van een taak te wijzigen, zie [ het Type van Kosten van de Taak van de Update ](../../../manage-work/tasks/task-information/update-task-cost-type.md).
+Voor informatie over hoe te om het Type van Kosten van een taak te wijzigen, zie [&#x200B; het Type van Kosten van de Taak van de Update &#x200B;](../../../manage-work/tasks/task-information/update-task-cost-type.md).
 
 In de volgende tabel worden de beschikbare typen kosten voor taken in Workfront beschreven:
 

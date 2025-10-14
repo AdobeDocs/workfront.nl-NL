@@ -22,7 +22,7 @@ U kunt het aantal proef- en documentbeslissingen bekijken dat gebruikers in uw W
 
 >[!NOTE]
 >
->Dit rapport is zichtbaar slechts voor gebruikers op het nieuwe model van het toegangsniveau. Voor meer informatie, zie [ Nieuw overzicht van toegangsniveaus ](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md).
+>Dit rapport is zichtbaar slechts voor gebruikers op het nieuwe model van het toegangsniveau. Voor meer informatie, zie [&#x200B; Nieuw overzicht van toegangsniveaus &#x200B;](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md).
 
 Om het aantal besluiten voor een gebruiker te bekijken:
 
@@ -35,7 +35,7 @@ Om het aantal besluiten voor een gebruiker te bekijken:
 
 >[!NOTE]
 >
->Als de Historische Mening van de Gebruiker niet beschikbaar is, dan kunt u een nieuwe mening tot stand brengen om de historische gegevens te tonen. Voeg **Historische Besluiten van Gebruikers** als kolom in de mening toe. Voor informatie bij het toevoegen van een kolom aan een mening, zie [ meningen in Adobe Workfront ](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md) creëren of uitgeven.
+>Als de Historische Mening van de Gebruiker niet beschikbaar is, dan kunt u een nieuwe mening tot stand brengen om de historische gegevens te tonen. Voeg **Historische Besluiten van Gebruikers** als kolom in de mening toe. Voor informatie bij het toevoegen van een kolom aan een mening, zie [&#x200B; meningen in Adobe Workfront &#x200B;](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md) creëren of uitgeven.
 
 
 ## Besluiten weergeven in het gebied Rapportering
@@ -51,5 +51,5 @@ Om het aantal besluiten voor een gebruiker te bekijken:
 
    De gegevens kunnen tot 12 maanden vóór de huidige maand omvatten, afhankelijk van wanneer dit rapport aan uw organisatie ter beschikking werd gesteld. De **Maand** en **3&rbrace; kolommen van het Jaar tonen welke maand de besluiten binnen werden genomen.** Maand 1 is Januari, maand 2 is Februari, etc.
 
-1. Controleer het rapport en bewerk het indien nodig. Voor meer informatie, zie [ een douanerapport ](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) creëren.
+1. Controleer het rapport en bewerk het indien nodig. Voor meer informatie, zie [&#x200B; een douanerapport &#x200B;](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) creëren.
 

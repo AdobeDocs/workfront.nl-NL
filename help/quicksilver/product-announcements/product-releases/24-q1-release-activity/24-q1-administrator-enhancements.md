@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Deze pagina beschrijft alle beheerderverhogingen die met Eerste Kwartaal 2024 versie aan het milieu van de Voorproef worden aangebracht. Deze verbeteringen worden beschikbaar gesteld in de productieomgeving met de release Eerste kwartaal 2024.
 
-Voor een lijst van alle veranderingen beschikbaar op dit punt in het Eerste Kwartaal 2024 versiecyclus, zie [ Eerste Kwartaal 2024 releaseoverzicht ](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar op dit punt in het Eerste Kwartaal 2024 versiecyclus, zie [&#x200B; Eerste Kwartaal 2024 releaseoverzicht &#x200B;](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).
 
 ## Besluiten over bewijzen/documenten die nu beschikbaar zijn voor de voorafgaande twaalf maanden
 
@@ -24,4 +24,4 @@ De gebruikersBesluiten rapporten voor zowel nieuwe als erfenislicentietypen tone
 
 Eerder werden alleen de beslissingen voor de huidige maand weergegeven.
 
-Voor meer informatie, zie [ Mening het aantal proef en documentbesluiten voor alle gebruikers ](/help/quicksilver/review-and-approve-work/tips-tricks-troubleshooting-approvals/view-number-of-decisions-for-users.md).
+Voor meer informatie, zie [&#x200B; Mening het aantal proef en documentbesluiten voor alle gebruikers &#x200B;](/help/quicksilver/review-and-approve-work/tips-tricks-troubleshooting-approvals/view-number-of-decisions-for-users.md).

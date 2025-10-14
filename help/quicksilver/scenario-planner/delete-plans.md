@@ -57,7 +57,7 @@ U kunt plannen schrappen die u creeerde. U kunt geen plannen schrappen die met u
  </tbody> 
 </table>
 
-*For informatie, zie [ vereisten van de Toegang tot de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*For informatie, zie [&#x200B; vereisten van de Toegang tot de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -69,7 +69,7 @@ U kunt plannen schrappen die u creeerde. U kunt geen plannen schrappen die met u
 
 U kunt een plan schrappen of u kunt één scenario in een plan schrappen.
 
-* [ Schrap plannen ](#delete-plans)
+* [&#x200B; Schrap plannen &#x200B;](#delete-plans)
 * [Scènes verwijderen](#delete-scenarios)
 
 ### Abonnementen verwijderen
@@ -81,7 +81,7 @@ U kunt een plan schrappen of u kunt één scenario in een plan schrappen.
 >* Alle informatie met betrekking tot het plan wordt eveneens geschrapt. Hieronder vallen alle scenario&#39;s en initiatieven die verband houden met het plan, met inbegrip van informatie over functies en kosten. Deze informatie kan niet worden hersteld.
 >* Als het plan een gepubliceerd scenario bevat, blijven de projecten met betrekking tot de verwijderde initiatieven behouden en blijft het [!DNL Scenario Planner] -gebied in de [!UICONTROL Project Details] -sectie.
 >
->  Voor informatie over het publiceren van initiatieven aan projecten, zie [ Update of creeer projecten door initiatieven in  [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md) te publiceren.
+>  Voor informatie over het publiceren van initiatieven aan projecten, zie [&#x200B; Update of creeer projecten door initiatieven in  [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md) te publiceren.
 
 Een abonnement verwijderen:
 
@@ -90,7 +90,7 @@ Een abonnement verwijderen:
 Een lijst met plannen wordt weergegeven.
 
 1. Klik op de naam van een abonnement om het te openen.
-1. Klik **[!UICONTROL More menu]** ![ Meer menu ](assets/more-menu.png) aan het recht van de plannaam, dan klik **[!UICONTROL Delete]** > **[!UICONTROL Yes, delete it]**.
+1. Klik **[!UICONTROL More menu]** ![&#x200B; Meer menu &#x200B;](assets/more-menu.png) aan het recht van de plannaam, dan klik **[!UICONTROL Delete]** > **[!UICONTROL Yes, delete it]**.
 
    Het plan wordt geschrapt en u keert aan de lijst van plannen terug.
 
@@ -105,7 +105,7 @@ Een lijst met plannen wordt weergegeven.
 >* Als bepaalde initiatieven over het scenario worden gepubliceerd, blijft het project dat met het initiatief verband houdt, behouden en blijft het gebied Scenario Planner op de gekoppelde projecten
 >* Als de gepubliceerde initiatieven op een ander scenario bestaan, blijven zij op dat scenario, met inbegrip van hun verband met het project. Als u deze initiatieven publiceert vanuit de andere scenario&#39;s, worden de gekoppelde projecten bijgewerkt met nieuwe informatie uit die scenario&#39;s.
 >
->  Voor informatie over het publiceren van initiatieven aan projecten, zie [ Update of creeer projecten door initiatieven in  [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md) te publiceren.
+>  Voor informatie over het publiceren van initiatieven aan projecten, zie [&#x200B; Update of creeer projecten door initiatieven in  [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md) te publiceren.
 
 Een scenario verwijderen:
 
@@ -114,7 +114,7 @@ Een scenario verwijderen:
    Standaard wordt het Eerste scenario weergegeven.
 
 1. Klik op **[!UICONTROL Compare scenarios]**.
-1. Van de hoger-juiste hoek van de scenario kaart, klik het **[!UICONTROL More]** menu ![ Meer menu ](assets/more-menu.png), dan klik **[!UICONTROL Delete]**.
+1. Van de hoger-juiste hoek van de scenario kaart, klik het **[!UICONTROL More]** menu ![&#x200B; Meer menu &#x200B;](assets/more-menu.png), dan klik **[!UICONTROL Delete]**.
 
    Het scenario wordt verwijderd.
 

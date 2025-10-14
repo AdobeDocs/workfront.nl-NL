@@ -18,24 +18,24 @@ ht-degree: 0%
 
 Op deze pagina worden alle wijzigingen beschreven die het laatst beschikbaar zijn in de Voorvertoningsomgeving met de Beta 4-release van 2018.3. De functionaliteit is beschikbaar in de voorvertoningsomgeving op 30 augustus 2018. Het zal in november 2018 beschikbaar worden gesteld in de productieomgeving.
 
-Voor een lijst met alle wijzigingen die in 2018.3 zijn aangebracht, raadpleegt u  [ 2018.3 overzicht van de versieactiviteit ](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-release-activity-overview.md).
+Voor een lijst met alle wijzigingen die in 2018.3 zijn aangebracht, raadpleegt u  [&#x200B; 2018.3 overzicht van de versieactiviteit &#x200B;](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-release-activity-overview.md).
 
 De Beta 4-release van 2018.3 bevat verbeteringen voor zowel Workfront-beheerders als andere gebruikers:
 
 **voor Beheerders**
 
-* [ Update die Structuur in het Profiel van de Gebruiker melden als groepsbeheerder ](#update-reporting-structure-in-the-user-profile-as-a-group-administrator) 
+* [&#x200B; Update die Structuur in het Profiel van de Gebruiker melden als groepsbeheerder &#x200B;](#update-reporting-structure-in-the-user-profile-as-a-group-administrator) 
 
 **voor Alle Gebruikers**
 
-* [ de Uitvoer Meer Informatie van de Planner van het Middel ](#export-more-information-from-the-resource-planner)
-* [ Verbeteringen van de Lijst van de Taak ](#task-list-improvements) Verwijderd uit Versie
-* [ Verbeteringen van de Lijst van het Project ](#project-list-improvements)
-* [ het uitgeven van de Lijst van de Taak in de Grafiek van Gantt geeft Wijze ](#editing-the-task-list-in-gantt-chart-edit-mode) uit Versie uit
-* [ de Kleuren van het Hulpmiddel van de Meting ](#measurement-tool-colors)
-* [ Geopende proef in een Nieuw Lusje ](#proofs-open-in-a-new-tab) Verwijderd uit Versie
+* [&#x200B; de Uitvoer Meer Informatie van de Planner van het Middel &#x200B;](#export-more-information-from-the-resource-planner)
+* [&#x200B; Verbeteringen van de Lijst van de Taak &#x200B;](#task-list-improvements) Verwijderd uit Versie
+* [&#x200B; Verbeteringen van de Lijst van het Project &#x200B;](#project-list-improvements)
+* [&#x200B; het uitgeven van de Lijst van de Taak in de Grafiek van Gantt geeft Wijze &#x200B;](#editing-the-task-list-in-gantt-chart-edit-mode) uit Versie uit
+* [&#x200B; de Kleuren van het Hulpmiddel van de Meting &#x200B;](#measurement-tool-colors)
+* [&#x200B; Geopende proef in een Nieuw Lusje &#x200B;](#proofs-open-in-a-new-tab) Verwijderd uit Versie
 
-* [ de Summiere Verbeteringen van de Druk ](#print-summary-enhancements)
+* [&#x200B; de Summiere Verbeteringen van de Druk &#x200B;](#print-summary-enhancements)
 * [Aanmeldingstijd in dagen in de Workfront Mobile-app](#log-time-in-days-in-the-workfront-mobile-app)
 
 ## Rapportstructuur in het gebruikersprofiel bijwerken als groepsbeheerder {#update-reporting-structure-in-the-user-profile-as-a-group-administrator}
@@ -44,7 +44,7 @@ Groepbeheerders kunnen nu de velden Directe rapporten en Rapporten naar bewerken
 
 Eerder hadden alleen Workfront-beheerders en gebruikers met beheerdersrechten voor gebruikers deze mogelijkheid.
 
-Voor informatie over groepsbeheerders, zie [ de beheerders van de Groep ](../../../../administration-and-setup/manage-groups/group-roles/group-administrators.md).
+Voor informatie over groepsbeheerders, zie [&#x200B; de beheerders van de Groep &#x200B;](../../../../administration-and-setup/manage-groups/group-roles/group-administrators.md).
 
 ## Meer informatie exporteren vanuit de bronnenplanner {#export-more-information-from-the-resource-planner}
 
@@ -52,7 +52,7 @@ U kunt nu gegevens exporteren van maximaal 52 weken, 36 maanden of 12 kwartalen 
 
 Eerder kon u maximaal vier weken, maanden of kwartalen tegelijk exporteren.
 
-Voor meer informatie, zie de [ informatie van de Uitvoer van de Planner van het Middel ](../../../../resource-mgmt/resource-planning/export-resource-planner.md).
+Voor meer informatie, zie de [&#x200B; informatie van de Uitvoer van de Planner van het Middel &#x200B;](../../../../resource-mgmt/resource-planning/export-resource-planner.md).
 
 ## Verbeteringen taaklijst {#task-list-improvements}
 
@@ -80,9 +80,9 @@ De volgende functionaliteit is gewijzigd in takenlijsten:
 
      Alle veranderingen zijn zichtbaar op de taaklijsten binnen projecten, evenals het lusje Subtasks onder taken.
 
-Voor meer informatie over het werken in lijsten, zie [ begonnen worden met lijsten in Adobe Workfront ](../../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
+Voor meer informatie over het werken in lijsten, zie [&#x200B; begonnen worden met lijsten in Adobe Workfront &#x200B;](../../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
 
-Voor meer informatie over het ketenen van taken in de grafiek van Gantt, zie [ predecessor verhoudingen creëren door taken ](../../../../manage-work/tasks/use-prdcssrs/create-predecessors-by-chaining-tasks.md) in een keten te brengen.
+Voor meer informatie over het ketenen van taken in de grafiek van Gantt, zie [&#x200B; predecessor verhoudingen creëren door taken &#x200B;](../../../../manage-work/tasks/use-prdcssrs/create-predecessors-by-chaining-tasks.md) in een keten te brengen.
 
 ## Verbeteringen in de projectlijst {#project-list-improvements}
 
@@ -94,7 +94,7 @@ De capaciteit om kolommen opnieuw in orde te brengen is toegevoegd terug aan een
 
 Deze functionaliteit is verwijderd uit de release van 2018.2.
 
-Voor meer informatie over het werken in lijsten, zie [ begonnen worden met lijsten in Adobe Workfront ](../../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
+Voor meer informatie over het werken in lijsten, zie [&#x200B; begonnen worden met lijsten in Adobe Workfront &#x200B;](../../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
 
 ## De taaklijst bewerken in de bewerkingsmodus Gantt-diagram {#editing-the-task-list-in-gantt-chart-edit-mode}
 
@@ -112,7 +112,7 @@ Hoewel u kunt zien hoe de wijzigingen de tijdlijn van het project beïnvloeden, 
 
 Eerder kon u deze handelingen niet uitvoeren op taken wanneer deze werden weergegeven in de bewerkingsmodus van het Gantt-diagram. U kunt deze wijzigingen aanbrengen in een takenlijst die niet in het Gantt-diagram werd weergegeven, maar die wijzigingen waren onmiddellijk van kracht.
 
-Voor informatie over het uitgeven van taken in de Grafiek van Gantt, zie [ informatie van de Update in de Grafiek van Gantt van de taaklijst ](../../../../manage-work/gantt-chart/use-the-gantt-chart/update-info-task-list-gantt.md).
+Voor informatie over het uitgeven van taken in de Grafiek van Gantt, zie [&#x200B; informatie van de Update in de Grafiek van Gantt van de taaklijst &#x200B;](../../../../manage-work/gantt-chart/use-the-gantt-chart/update-info-task-list-gantt.md).
 
 ## Kleuren van meetgereedschap {#measurement-tool-colors}
 
@@ -150,7 +150,7 @@ De volgende verbeteringen zijn nu beschikbaar op de pagina met het afdrukoverzic
 
   Eerder waren geen fasen opgenomen.
 
-Voor meer informatie, zie [ een proefdruksamenvatting binnen Adobe Workfront ](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/print-proof-summary-in-wf.md) drukken.
+Voor meer informatie, zie [&#x200B; een proefdruksamenvatting binnen Adobe Workfront &#x200B;](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/print-proof-summary-in-wf.md) drukken.
 
 ## Aanmeldingstijd in dagen in de Workfront Mobile-app {#log-time-in-days-in-the-workfront-mobile-app}
 

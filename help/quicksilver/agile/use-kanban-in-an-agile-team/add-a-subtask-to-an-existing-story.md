@@ -56,7 +56,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -64,4 +64,4 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 1. Ga naar de [!UICONTROL Kanban] -board die het artikel bevat waar u een subtaak wilt toevoegen.
 1. Klik op de naam van de taak in de artikeltegel op het [!UICONTROL Kanban] -bord.
-1. Voeg een subtask aan de taak toe zoals u in een andere taaklijst binnen [!DNL Workfront] zou doen, zoals die in [ wordt beschreven creeer subtasks ](../../manage-work/tasks/create-tasks/create-subtasks.md).
+1. Voeg een subtask aan de taak toe zoals u in een andere taaklijst binnen [!DNL Workfront] zou doen, zoals die in [&#x200B; wordt beschreven creeer subtasks &#x200B;](../../manage-work/tasks/create-tasks/create-subtasks.md).

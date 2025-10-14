@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Op deze pagina vindt u een overzicht van alle verbeteringen die zijn aangebracht in de versie 20.3 in de productieomgeving. Deze verbeteringen zijn in de week van 10 augustus 2020 beschikbaar gesteld in de productieomgeving.
 
-Voor een lijst van alle veranderingen beschikbaar met de versie 20.3, zie [ overzicht van de versie 20.3 ](../../../product-announcements/product-releases/20.3-release-activity/20-3-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar met de versie 20.3, zie [&#x200B; overzicht van de versie 20.3 &#x200B;](../../../product-announcements/product-releases/20.3-release-activity/20-3-release-overview.md).
 
 ## Verbeterde zichtbaarheid tussen het tabblad Updates en de opmerkingen van proefdrukken
 
@@ -31,7 +31,7 @@ De volgende verbeteringen zijn beschikbaar op het documentengebied:
 * Wanneer op het tabblad Update een proefdrukopmerking wordt weergegeven, verschijnt er een nieuwe knop Reageren in proefdrukken waarmee u naar de proefdrukviewer kunt gaan om te reageren.
 * Wanneer een proefdrukopmerking is gelabeld met een actie in de conceptviewer, wordt de actie weergegeven op het tabblad Bijwerken.
 
-Voor meer informatie, zie [ een update aan een document ](../../../documents/managing-documents/add-update-documents.md) toevoegen.
+Voor meer informatie, zie [&#x200B; een update aan een document &#x200B;](../../../documents/managing-documents/add-update-documents.md) toevoegen.
 
 ## Proofing van aangepaste velden bijwerken in documentdetails
 
@@ -43,7 +43,7 @@ Als u het proefdrukproces wilt stroomlijnen, kunt u nu aangepaste velden die in 
 
 Eerder kon u alleen aangepaste velden weergeven in de conceptviewer.
 
-Voor meer informatie, zie [ Overzicht van de Details van het Document ](../../../documents/managing-documents/document-details-overview.md).
+Voor meer informatie, zie [&#x200B; Overzicht van de Details van het Document &#x200B;](../../../documents/managing-documents/document-details-overview.md).
 
 ## Nieuwe vormgeving voor de werkbalk Document
 
@@ -61,5 +61,5 @@ Als u het eenvoudiger wilt maken om een workflow in te stellen wanneer u een bes
 
 Eerder moest u de proefdruk genereren en vervolgens naar het gedeelte Proofing Workflow gaan om de workflow in te stellen.
 
-Voor meer informatie, zie [ een proef voor een document ](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-for-a-document.md) creëren.
+Voor meer informatie, zie [&#x200B; een proef voor een document &#x200B;](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-for-a-document.md) creëren.
 

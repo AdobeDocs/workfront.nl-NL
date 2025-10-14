@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Deze pagina beschrijft alle verbeteringen in projectbeheer die zijn aangebracht met de release 20.4 voor de voorvertoningsomgeving. Deze verbeteringen worden beschikbaar gesteld in de productieomgeving in de week van 9 november 2020.
 
-Voor een lijst van alle veranderingen beschikbaar met de versie 20.4, zie [ overzicht van de versie 20.4 ](../../../product-announcements/product-releases/20.4-release-activity/20-4-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar met de versie 20.4, zie [&#x200B; overzicht van de versie 20.4 &#x200B;](../../../product-announcements/product-releases/20.4-release-activity/20-4-release-overview.md).
 
 ## Nieuw voor beheerders: bepalen hoe een aangepast veld wordt gedeeld
 
@@ -31,7 +31,7 @@ Om deze ervaring vertrouwd te maken voor u, hebben we de gebruikersinterface voo
 
 We hebben gestandaardiseerd delen voor Aangepaste Forms, zodat u hetzelfde proces voor het delen van Workfront-objecten kunt gebruiken dat u al kent. En dankzij de nieuwe ervaring voor delen hebt u meer controle over wie aangepaste Forms die u maakt, kan bewerken, verwijderen en gebruiken. U kunt het delen voor een Vorm van de Douane tot bepaalde gebruikers, rollen, teams, groepen, en bedrijven beperken. En u kunt bepalen of deze ontvangers het aangepaste formulier kunnen weergeven of beheren.
 
-Voor meer informatie, zie [ een douanevorm ](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md) delen.
+Voor meer informatie, zie [&#x200B; een douanevorm &#x200B;](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md) delen.
 
 ## Aangepaste formulieren en overzichtsgegevens exporteren vanuit de sectie Details van een project, taak of uitgave
 
@@ -39,7 +39,7 @@ U kunt de aangepaste formuliergegevens nu exporteren naar een .pdf-bestand. U ku
 
 Naast het exporteren van de aangepaste formulieren met projecten, taken en uitgaven, kunt u nu ook het gedeelte Overzicht naar uw geëxporteerde PDF opnemen.
 
-Voor informatie over het uitvoeren van douanevormen van een voorwerp, zie [ de douanevormen van de Uitvoer en objecten details ](../../../workfront-basics/work-with-custom-forms/export-custom-forms-details.md).
+Voor informatie over het uitvoeren van douanevormen van een voorwerp, zie [&#x200B; de douanevormen van de Uitvoer en objecten details &#x200B;](../../../workfront-basics/work-with-custom-forms/export-custom-forms-details.md).
 
 ## Snel een herhaling toevoegen
 
@@ -51,7 +51,7 @@ Om de ervaring van het creëren van een herhaling te vereenvoudigen, hebben wij 
 
 U kunt nog steeds een herhaling op de tag backlog maken zoals voorheen.
 
-Voor meer informatie, zie [ een herhaling ](../../../agile/use-scrum-in-an-agile-team/iterations/create-an-iteration.md) creëren.
+Voor meer informatie, zie [&#x200B; een herhaling &#x200B;](../../../agile/use-scrum-in-an-agile-team/iterations/create-an-iteration.md) creëren.
 
 ## Nieuwe sectie Metriek beschikbaar in projecten
 
@@ -71,7 +71,7 @@ Om u te helpen uw groepen beter organiseren en bepalen, hebben wij de capaciteit
 
 Het nieuwe veld Bedrijfsleader kan worden gebruikt in rapportfilters, weergaven en groepen. Bijvoorbeeld, kunt u door een bepaalde Bedrijfsleider filtreren om van slechts de groepen een lijst te maken voor wie die persoon in die rol wordt toegewezen.
 
-Voor meer informatie, zie [ Overzicht BedrijfsLeader ](../../../administration-and-setup/manage-groups/group-roles/business-leader-overview.md).
+Voor meer informatie, zie [&#x200B; Overzicht BedrijfsLeader &#x200B;](../../../administration-and-setup/manage-groups/group-roles/business-leader-overview.md).
 
 <!--This feature is now included in the [Administrator Fundamentals, Part 1 learning path](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-20Y0z000000bmAXEAY) on Workfront One. -->
 
@@ -81,7 +81,7 @@ Wanneer Workfront-beheerders een portfolio, programma of bedrijf maken of bewerk
 
 Bijvoorbeeld, kunt u van alle portefeuilles van uw organisatie in een rapport een lijst maken en de kolom van de Groep bekijken om te zien welke degenen uw groep aan werkt.
 
-Voor meer informatie, zie de sectie &quot;over het associëren van een groep met een voorwerp&quot;in het artikel [ overzicht van Groepen ](../../../administration-and-setup/manage-groups/groups-overview/groups.md).
+Voor meer informatie, zie de sectie &quot;over het associëren van een groep met een voorwerp&quot;in het artikel [&#x200B; overzicht van Groepen &#x200B;](../../../administration-and-setup/manage-groups/groups-overview/groups.md).
 
 <!--This feature is now included in the [Administrator Fundamentals, Part 1 learning path](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-20Y0z000000bmAXEAY) on Workfront One. -->
 
@@ -89,9 +89,9 @@ Voor meer informatie, zie de sectie &quot;over het associëren van een groep met
 
 Wij hebben het voor een Beheerder van de Groep gemakkelijk gemaakt om een bedrijf te beheren dat met hun groep in Workfront wordt geassocieerd. De toegang om het bedrijf te leiden is automatisch beschikbaar wanneer de vereniging wordt gemaakt. Dit is vooral belangrijk wanneer de Beheerder van de Groep geen administratieve toegang tot bedrijven heeft.
 
-Voor meer informatie, zie [ bedrijven ](../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md) creëren en uitgeven.
+Voor meer informatie, zie [&#x200B; bedrijven &#x200B;](../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md) creëren en uitgeven.
 
-Voor informatie over administratieve toegang tot bedrijven, zie [ gebruikers administratieve toegang van de Verlening tot bepaalde gebieden ](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
+Voor informatie over administratieve toegang tot bedrijven, zie [&#x200B; gebruikers administratieve toegang van de Verlening tot bepaalde gebieden &#x200B;](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 
 <!--This feature is now included in the [Administrator Fundamentals, Part 1 learning path](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-20Y0z000000bmAXEAY) on Workfront One. -->
 
@@ -101,7 +101,7 @@ Gebruikers kunnen de knop Werk aan het werkitem vervangen door een knop Start wa
 
 Bijgewerkt op 24 september: Na het klikken van de taak van het Begin of de kwestie van het Begin, hebt u nu de optie om uw keus terug te keren en erop te wijzen dat u niet bereid zou kunnen zijn om aan een het werkpunt te beginnen werken door te klikken ongedaan maken. Het het werkpunt keert terug naar een status van Nieuw en de Datum van het Vastleggen en de Ware Datum van het Begin worden geschrapt. De optie Ongedaan maken wordt gedurende zeer korte tijd weergegeven en wordt gewist nadat u van de pagina weg navigeert of de pagina vernieuwt.
 
-Voor meer informatie bij het vormen van deze optie, zie [ het Werk op het knoop met een knoop van het Begin vervangen ](../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md).
+Voor meer informatie bij het vormen van deze optie, zie [&#x200B; het Werk op het knoop met een knoop van het Begin vervangen &#x200B;](../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md).
 
 <!--This feature is now included in the [Worker Fundamentals learning path](https://one.workfront.com/s/learningpath3/worker-fundamentals-for-the-new-workfront-experience-20Y0z000000blg8EAA) and the [Administrator Fundamentals, Part 1 learning path](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-20Y0z000000bmAXEAY) on Workfront One. -->
 
@@ -111,7 +111,7 @@ Om u meer vrijheid te geven wanneer het werken met verzoeken, is er geen grens m
 
 Voorafgaand aan deze verbetering, bewaarde Workfront slechts één ontwerp voor elk rijonderwerp in uw verzoekrij.
 
-Voor informatie over het voorleggen van verzoeken, zie [ Workfront verzoeken ](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md) creëren en voorleggen.
+Voor informatie over het voorleggen van verzoeken, zie [&#x200B; Workfront verzoeken &#x200B;](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md) creëren en voorleggen.
 
 ## Een groep toewijzen aan een team
 
@@ -119,7 +119,7 @@ Om het gemakkelijker te maken om over de teams te beheren en te melden die met e
 
 Wanneer u een team aan een groep toewijst, kunnen zijn Beheerders van de Groep het team beheren zonder een lid van het te zijn. Op de pagina van de Details van het Team, kunnen zij de teams zien die aan groepen worden toegewezen zij leiden. En zij kunnen een rapport in werking stellen om van alle teams een lijst te maken verbonden aan een bepaalde groep.
 
-Voor meer informatie, zie [ een team ](../../../people-teams-and-groups/create-and-manage-teams/create-a-team.md) creëren.
+Voor meer informatie, zie [&#x200B; een team &#x200B;](../../../people-teams-and-groups/create-and-manage-teams/create-a-team.md) creëren.
 
 <!--This feature is now included in the [Administrator Fundamentals, Part 1 learning path](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-20Y0z000000bmAXEAY) on Workfront One. -->
 
@@ -132,11 +132,11 @@ Dit veld is vooral handig voor groepsbeheerders die groepen beheren die verschil
 Stel bijvoorbeeld dat u een groep met de naam Marketing beheert die de subgroepen Field Marketing en Digital Marketing heeft. U kon van de projecten een lijst maken die tot alle 3 groepen behoren door een het gebiedsfilter van Projecten te creëren dat de volgende Regel van de Filter heeft:
 <pre>Groep: Bovenliggende naam &gt; Gelijk &gt; Marketing</pre>We hebben ook een nieuw veld Bovenliggende bovenliggende naam toegevoegd dat u kunt gebruiken om gegevens te identificeren die zijn gekoppeld aan groepen op het hoogste niveau in Weergaven (niet in Filters of Groepen).
 
-Voor informatie over het gebruiken van gebieden in lijsten en rapporten, zie [ Verklarende woordenlijst van de terminologie van Adobe Workfront ](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
+Voor informatie over het gebruiken van gebieden in lijsten en rapporten, zie [&#x200B; Verklarende woordenlijst van de terminologie van Adobe Workfront &#x200B;](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
 
 ## Nieuwe optie om uw actie te annuleren wanneer het verwerpen van een verzoekontwerp
 
 Wanneer u een opgeslagen concept verwijdert, kunt u nu op Annuleren klikken in het bevestigingsbericht dat u meldt dat uw concept wordt verwijderd. Op deze manier verliest u het concept niet voor het geval u van mening verandert over het verwijderen ervan.
 
-Deze functie is alleen beschikbaar in de nieuwe Workfront-ervaring. Voor informatie, zie [ Workfront verzoeken ](https://experienceleague.adobe.com/nl/docs/workfront/using/home) creëren en voorleggen.
+Deze functie is alleen beschikbaar in de nieuwe Workfront-ervaring. Voor informatie, zie [&#x200B; Workfront verzoeken &#x200B;](https://experienceleague.adobe.com/nl/docs/workfront/using/home) creëren en voorleggen.
 

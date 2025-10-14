@@ -25,9 +25,9 @@ Wanneer u een [!UICONTROL OAuth2] -toepassing maakt, genereert u een client-id e
 >
 >In de context van OAuth2 verwijst het maken van een app naar het maken van dit soort toegangskoppelingen tussen een app en een server, zoals [!DNL Workfront] .
 
-* Voor instructies bij het vormen van en het gebruiken van de toepassing OAuth2 met gebruikersgeloofsbrieven (de stroom van de vergunningscode), zie [ vormen en gebruiken de douane OAuth 2 van uw organisatie toepassingen gebruikend de stroom van de vergunningscode ](../../wf-api/api/oauth-app-code-token-flow.md).
-* Voor instructies bij het vormen van en het gebruiken van de toepassing OAuth2 die serverauthentificatie (stroom JWT) gebruiken, zie [ vormen en gebruiken de douane OAuth 2 van uw organisatie toepassingen gebruikend stroom JWT ](../../wf-api/api/oauth-app-jwt-flow.md).
-* Voor instructies bij het vormen van en het gebruiken van de toepassing OAuth2 die PKCE gebruiken, zie [ vorm en gebruik de douane OAuth 2 van uw organisatie toepassingen gebruikend de stroom van PKCE ](../../wf-api/api/oauth-app-pkce-flow.md).
+* Voor instructies bij het vormen van en het gebruiken van de toepassing OAuth2 met gebruikersgeloofsbrieven (de stroom van de vergunningscode), zie [&#x200B; vormen en gebruiken de douane OAuth 2 van uw organisatie toepassingen gebruikend de stroom van de vergunningscode &#x200B;](../../wf-api/api/oauth-app-code-token-flow.md).
+* Voor instructies bij het vormen van en het gebruiken van de toepassing OAuth2 die serverauthentificatie (stroom JWT) gebruiken, zie [&#x200B; vormen en gebruiken de douane OAuth 2 van uw organisatie toepassingen gebruikend stroom JWT &#x200B;](../../wf-api/api/oauth-app-jwt-flow.md).
+* Voor instructies bij het vormen van en het gebruiken van de toepassing OAuth2 die PKCE gebruiken, zie [&#x200B; vorm en gebruik de douane OAuth 2 van uw organisatie toepassingen gebruikend de stroom van PKCE &#x200B;](../../wf-api/api/oauth-app-pkce-flow.md).
 
 ## Toegangsvereisten
 
@@ -56,7 +56,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -174,7 +174,7 @@ De **Nieuwe OAuth2 toepassings** vakvertoningen.
 
 1. Klik op **[!UICONTROL Save]**.
 
-Voor instructies bij het vormen van en het gebruiken van de toepassing OAuth2 met gebruikersgeloofsbrieven (de stroom van de vergunningscode), zie [ vormen en gebruiken de douane OAuth 2 van uw organisatie toepassingen gebruikend stroom JWT ](../../wf-api/api/oauth-app-jwt-flow.md).
+Voor instructies bij het vormen van en het gebruiken van de toepassing OAuth2 met gebruikersgeloofsbrieven (de stroom van de vergunningscode), zie [&#x200B; vormen en gebruiken de douane OAuth 2 van uw organisatie toepassingen gebruikend stroom JWT &#x200B;](../../wf-api/api/oauth-app-jwt-flow.md).
 
 ### Een OAuth2-toepassing maken met gebruikersgegevens (doorloop machtigingscode) {#create-an-oauth2-application-using-user-credentials-authorization-code-flow}
 
@@ -250,7 +250,7 @@ Voor instructies bij het vormen van en het gebruiken van de toepassing OAuth2 me
 
 1. Klik op **[!UICONTROL Save]**.
 
-Voor instructies bij het vormen van en het gebruiken van de toepassing OAuth2 met gebruikersgeloofsbrieven (de stroom van de vergunningscode), zie [ vormen en gebruiken de douane OAuth 2 van uw organisatie toepassingen gebruikend de stroom van de vergunningscode ](../../wf-api/api/oauth-app-code-token-flow.md).
+Voor instructies bij het vormen van en het gebruiken van de toepassing OAuth2 met gebruikersgeloofsbrieven (de stroom van de vergunningscode), zie [&#x200B; vormen en gebruiken de douane OAuth 2 van uw organisatie toepassingen gebruikend de stroom van de vergunningscode &#x200B;](../../wf-api/api/oauth-app-code-token-flow.md).
 
 ### Een OAuth2-webtoepassing met één pagina maken met PKCE {#create-an-oauth2-single-page-web-application-using-pkce}
 
@@ -328,9 +328,9 @@ Voor instructies bij het vormen van en het gebruiken van de toepassing OAuth2 me
 
 De verdere configuratie en het gebruik van de gecreeerde toepassing OAuth2 vereisen wat technische kennis, met inbegrip van API vraag.
 
-* Voor instructies bij het vormen van en het gebruiken van de toepassing OAuth2 met gebruikersgeloofsbrieven (de stroom van de vergunningscode), zie [ vormen en gebruiken de douane OAuth 2 van uw organisatie toepassingen gebruikend de stroom van de vergunningscode ](../../wf-api/api/oauth-app-code-token-flow.md).
-* Voor instructies bij het vormen van en het gebruiken van de toepassing OAuth2 die serverauthentificatie (stroom JWT) gebruiken, zie [ vormen en gebruiken de douane OAuth 2 van uw organisatie toepassingen gebruikend stroom JWT ](../../wf-api/api/oauth-app-jwt-flow.md).
-* Voor instructies bij het vormen van en het gebruiken van de toepassing OAuth2 die PKCE gebruiken, zie [ vorm en gebruik de douane OAuth 2 van uw organisatie toepassingen gebruikend de stroom van PKCE ](../../wf-api/api/oauth-app-pkce-flow.md).
+* Voor instructies bij het vormen van en het gebruiken van de toepassing OAuth2 met gebruikersgeloofsbrieven (de stroom van de vergunningscode), zie [&#x200B; vormen en gebruiken de douane OAuth 2 van uw organisatie toepassingen gebruikend de stroom van de vergunningscode &#x200B;](../../wf-api/api/oauth-app-code-token-flow.md).
+* Voor instructies bij het vormen van en het gebruiken van de toepassing OAuth2 die serverauthentificatie (stroom JWT) gebruiken, zie [&#x200B; vormen en gebruiken de douane OAuth 2 van uw organisatie toepassingen gebruikend stroom JWT &#x200B;](../../wf-api/api/oauth-app-jwt-flow.md).
+* Voor instructies bij het vormen van en het gebruiken van de toepassing OAuth2 die PKCE gebruiken, zie [&#x200B; vorm en gebruik de douane OAuth 2 van uw organisatie toepassingen gebruikend de stroom van PKCE &#x200B;](../../wf-api/api/oauth-app-pkce-flow.md).
 
 ## OAuth2-processen voor de vergunningenscodesstroom
 
@@ -338,7 +338,7 @@ De verdere configuratie en het gebruik van de gecreeerde toepassing OAuth2 verei
 >
 >Uw gebruikers krijgen toegang tot de [!UICONTROL OAuth2] -toepassing via de API. Deze sectie beschrijft de functionaliteit in algemene termen, en slechts ter informatie verstrekt.
 >
->Voor specifieke instructies bij het gebruiken van de toepassing OAuth2, met inbegrip van specifieke API vraag, zie [ vorm en gebruik de douane OAuth 2 van uw organisatie toepassingen gebruikend de stroom van de vergunningscode ](../../wf-api/api/oauth-app-code-token-flow.md).
+>Voor specifieke instructies bij het gebruiken van de toepassing OAuth2, met inbegrip van specifieke API vraag, zie [&#x200B; vorm en gebruik de douane OAuth 2 van uw organisatie toepassingen gebruikend de stroom van de vergunningscode &#x200B;](../../wf-api/api/oauth-app-code-token-flow.md).
 
 ### Autoriseren met een machtigingscode en toegangstoken {#authorizing-with-an-authorization-code-and-access-token}
 
@@ -358,4 +358,4 @@ De verdere configuratie en het gebruik van de gecreeerde toepassing OAuth2 verei
 
 Voor veiligheid, verlopen de toegangstokens na een korte hoeveelheid tijd. Om nieuwe toegangstokens te krijgen zonder het moeten geloofsbrieven telkens ingaan, [!DNL OAuth2] gebruikt verfrist tokens. Vernieuwingstokens worden door de client opgeslagen.
 
-Het proces om een te verwerven verfrist teken is het zelfde als de procedure die in de sectie [ wordt besproken die met een vergunningscode en toegangstoken ](#authorizing-with-an-authorization-code-and-access-token) goedkeurt. Het verzoek om de vergunningscode omvat het werkingsgebied `offline_access`, dat erop wijst dat het verzoek een verzoekteken samen met de vergunningscode zou moeten terugkeren.
+Het proces om een te verwerven verfrist teken is het zelfde als de procedure die in de sectie [&#x200B; wordt besproken die met een vergunningscode en toegangstoken &#x200B;](#authorizing-with-an-authorization-code-and-access-token) goedkeurt. Het verzoek om de vergunningscode omvat het werkingsgebied `offline_access`, dat erop wijst dat het verzoek een verzoekteken samen met de vergunningscode zou moeten terugkeren.

@@ -32,7 +32,7 @@ De gebruikerservaring voor integratie op basis van een webhaak is vergelijkbaar 
 
 ## Referentie-implementatie
 
-Workfront biedt een voorbeeldimplementatie om de ontwikkeling van een nieuwe webhooks-implementatie te versnellen. De code voor dit kan in [ https://github.com/Workfront/webhooks-app ](https://github.com/Workfront/webhooks-app) worden gevonden. Deze implementatie is gebaseerd op Java en maakt het Workfront mogelijk om verbinding te maken met documenten op een netwerkbestandssysteem.
+Workfront biedt een voorbeeldimplementatie om de ontwikkeling van een nieuwe webhooks-implementatie te versnellen. De code voor dit kan in [&#x200B; https://github.com/Workfront/webhooks-app &#x200B;](https://github.com/Workfront/webhooks-app) worden gevonden. Deze implementatie is gebaseerd op Java en maakt het Workfront mogelijk om verbinding te maken met documenten op een netwerkbestandssysteem.
 
 ## Registreren van een Integratie Webhaak
 
@@ -851,10 +851,10 @@ name=Folder B ­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­
 (Releasedatum - TBD) Met dit eindpunt kan een Workfront-gebruiker (of misschien een geautomatiseerde workflowgebeurtenis) een actie uitvoeren in het externe systeem. Het /customAction eindpunt keurt een &quot;naam&quot;parameter goed, die de websiteleverancier toestaat om veelvoudige douaneverrichtingen uit te voeren.
 
 De websiteleverancier registreert douaneacties met Workfront door de acties in de /serviceInfo reactie onder customActions te omvatten. Workfront laadt deze lijst bij het instellen of vernieuwen van de websiteprovider onder Instellen > Documenten > Aangepaste integratie.\
-![ voer een douaneactie ](assets/mceclip0-350x262.png) uit
+![&#x200B; voer een douaneactie &#x200B;](assets/mceclip0-350x262.png) uit
 
 Gebruikers kunnen de aangepaste handeling activeren door de sectie onder Documenthandelingen te selecteren.\
-![ de douaneacties van de trekker ](assets/mceclip1-350x95.png)
+![&#x200B; de douaneacties van de trekker &#x200B;](assets/mceclip1-350x95.png)
 
 **URL**
 
@@ -893,7 +893,7 @@ GET /customAction
 
 Een JSON-tekenreeks die aangeeft of de functie is gelukt of mislukt, zoals is opgegeven in de sectie Foutafhandeling hieronder. Bij een fout (d.w.z. status = &quot;mislukking&quot;) geeft Workfront het aangeboden foutbericht aan de gebruiker weer.
 
-**Voorbeeld:** https://sample.com/webhooks/customName?name=archive&amp;documentId=5502082c003a4f30 ddec2fb2b739cb7c&amp;documentVersionId=54b598a700e2342d6971597a5df1a8d3
+**Voorbeeld:** https://sample.com/webhooks/customName?name=archive&documentId=5502082c003a4f30 ddec2fb2b739cb7c&amp;documentVersionId=54b598a700e2342d6971597a5df1a8d3
 
 reactie
 

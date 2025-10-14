@@ -67,7 +67,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-*For informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*For informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -75,7 +75,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 U moet een rapport maken voordat u jokertekenvariabelen eraan kunt toevoegen.
 
-Voor informatie bij het creëren van een rapport, zie [ een rapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-report.md) creëren.
+Voor informatie bij het creëren van een rapport, zie [&#x200B; een rapport &#x200B;](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-report.md) creëren.
 
 ## Procedure
 
@@ -104,7 +104,7 @@ Om op datum-gebaseerde vervanging in een rapport op te nemen:
 1. (Optioneel) Als u informatie wilt weergeven die binnen een tijdsbestek na de datum plaatsvindt waarop het rapport wordt uitgevoerd, typt u `$$TODAY+1w` om informatie weer te geven in de volgende week of `$$TODAY+2m` om informatie weer te geven in de volgende twee maanden. U kunt ook tijdframes voor kwartalen, uren, dagen of jaren aangeven.
 1. (Optioneel) Als u informatie wilt weergeven over iets dat is opgetreden binnen een tijdsbestek vóór de datum waarop het rapport wordt uitgevoerd, typt u `$$TODAY-1w` om informatie van de vorige week weer te geven of `$$TODAY-2m` om informatie van de vorige twee maanden weer te geven. U kunt ook tijdframes voor kwartalen, uren, dagen of jaren aangeven.
 
-   Voor een volledige lijst van attributen, kwaliteiten, en exploitanten die u in op datum-gebaseerde vervangingen kunt gebruiken, zie het artikel [ overzicht van de de filtervariabelen van de vervanging ](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
+   Voor een volledige lijst van attributen, kwaliteiten, en exploitanten die u in op datum-gebaseerde vervangingen kunt gebruiken, zie het artikel [&#x200B; overzicht van de de filtervariabelen van de vervanging &#x200B;](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
 
 1. Klik **sparen + Sluiten**.
 
@@ -113,7 +113,7 @@ Om op datum-gebaseerde vervanging in een rapport op te nemen:
 Zie ook:
 
 <!--outdated: * [Basic Report Creation Program](https://one.workfront.com/s/basic-report-creation-program) -->
-* [ overzicht van de de filtervariabelen van de Verjaring ](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md)
-* [ creeer of geef filters in Adobe Workfront uit ](../../../reports-and-dashboards/reports/reporting-elements/create-filters.md)
-* [ voeg een herinnering aan een rapport toe ](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md)
+* [&#x200B; overzicht van de de filtervariabelen van de Verjaring &#x200B;](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md)
+* [&#x200B; creeer of geef filters in Adobe Workfront uit &#x200B;](../../../reports-and-dashboards/reports/reporting-elements/create-filters.md)
+* [&#x200B; voeg een herinnering aan een rapport toe &#x200B;](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md)
 * [Voorwaardelijke opmaak gebruiken in weergaven](../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md)

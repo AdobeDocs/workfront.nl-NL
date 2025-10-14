@@ -57,7 +57,7 @@ Houd rekening met het volgende wanneer u projecten aan portfolio&#39;s toevoegt:
  </tbody> 
 </table>
 
-*For informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*For informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -65,7 +65,7 @@ Houd rekening met het volgende wanneer u projecten aan portfolio&#39;s toevoegt:
 
 1. Ga naar een portfolio en klik op **[!UICONTROL Projects]** in het linkerdeelvenster.
 
-   ![ Portfolio met projecten ](assets/qs-portfolio-with-projects-350x90.png)
+   ![&#x200B; Portfolio met projecten &#x200B;](assets/qs-portfolio-with-projects-350x90.png)
 
 1. Klik op **[!UICONTROL New Project]** en selecteer een methode om een project toe te voegen.
 
@@ -102,11 +102,11 @@ Houd rekening met het volgende wanneer u projecten aan portfolio&#39;s toevoegt:
     </tbody> 
    </table>
 
-   ![ Nieuwe projectdropdown ](assets/new-project-dropdown-expanded-from-portfolio-nwe-350x376.png)
+   ![&#x200B; Nieuwe projectdropdown &#x200B;](assets/new-project-dropdown-expanded-from-portfolio-nwe-350x376.png)
 
 1. (Voorwaardelijk) als u selecteerde om een bestaand project toe te voegen, **voegt de doos van Projecten** toe opent. <!--check this after UI changes-->
 
-   ![ voeg bestaand project ](assets/add-existing-projects-to-portfolios-box.png) toe <!--check this after UI changes-->
+   ![&#x200B; voeg bestaand project &#x200B;](assets/add-existing-projects-to-portfolios-box.png) toe <!--check this after UI changes-->
 
 1. Typ de naam van een project in het veld **[!UICONTROL Add Projects to this Portfolio]** en klik vervolgens op de naam wanneer deze in de lijst wordt weergegeven.  <!--check this after UI changes-->
 

@@ -33,4 +33,4 @@ Voor het beheren van grote vervolgkeuzemenu&#39;s die alle gebruikers in het sys
 
 Eerder werden in alle vervolgkeuzelijsten voor het zoeken naar profielen alle gebruikers in het systeem weergegeven, waardoor een groot menu werd gemaakt.
 
-![ het profieltypeahead van de Gebruiker ](assets/user-profile-typeahead-350x142.png)
+![&#x200B; het profieltypeahead van de Gebruiker &#x200B;](assets/user-profile-typeahead-350x142.png)

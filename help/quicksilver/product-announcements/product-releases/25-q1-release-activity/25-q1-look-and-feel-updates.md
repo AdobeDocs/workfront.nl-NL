@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Deze pagina beschrijft kleine updates van de blik en het gevoel van diverse gebieden van de toepassing van Adobe Workfront die binnen het Eerste Kwartaal 2025 releasetijdschema werden gemaakt.
 
-Voor een lijst van alle veranderingen beschikbaar met Eerste Kwartaal 2025 versie, zie [ Eerste Kwartaal 2025 releaseoverzicht ](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar met Eerste Kwartaal 2025 versie, zie [&#x200B; Eerste Kwartaal 2025 releaseoverzicht &#x200B;](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md).
 
 
 ## Updates weergeven en weergeven voor het bewerken van urenvermeldingen in een urenlijst of -rapport
@@ -27,7 +27,7 @@ Voor een lijst van alle veranderingen beschikbaar met Eerste Kwartaal 2025 versi
 
 We hebben de vormgeving van het vak Tijdstip bewerken bijgewerkt. Tijdens het bewerken van uren van een urenlijst of -rapport wordt rekening gehouden met het ontwerp van andere gebieden van Workfront.
 
-Voor informatie, zie [ tijd van het Logboek ](/help/quicksilver/timesheets/create-and-manage-timesheets/log-time.md).
+Voor informatie, zie [&#x200B; tijd van het Logboek &#x200B;](/help/quicksilver/timesheets/create-and-manage-timesheets/log-time.md).
 
 
 ## Bijgewerkte ervaring op de pagina van de Leveranciers van de Wolk in het gebied van de Opstelling
@@ -48,7 +48,7 @@ Er is een kleine functiewijziging toegepast op de Quip-integratie. In plaats van
 
 Het dialoogvenster voor het aanvragen van toegang tot objecten is bijgewerkt tot een modern ontwerp dat aansluit bij andere gebieden van Workfront. Deze dialoog is beschikbaar wanneer u om toegang tot projecten, taken, kwesties, programma&#39;s, portefeuilles, malplaatjes, en malplaatjetaken verzoekt.
 
-Voor informatie, zie [ Toegang van het Verzoek tot voorwerpen ](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/request-access.md).
+Voor informatie, zie [&#x200B; Toegang van het Verzoek tot voorwerpen &#x200B;](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/request-access.md).
 
 ## Zoeken naar updates voor documentintegratie
 
@@ -66,7 +66,7 @@ Wij hebben prestatiesverbeteringen aan het gebied in Opstelling gemaakt waar u d
 
 We hebben de pagina&#39;s Bedrijfsleden en Factureringstarieven bijgewerkt met een modernere opzet die consistent is met andere gebieden van Workfront. Het lidmaatschap van het bedrijf wordt betreden via Opstelling > Bedrijven > selecteert een bedrijfsnaam > de uitgezochte Leden van het Bedrijf in het linkerpaneel. Factureringssnelheden voor bedrijven zijn toegankelijk via Setup > Companies > selecteer een bedrijfsnaam > Factureringssnelheden selecteren in het linkerdeelvenster.
 
-Voor informatie, zie [ bedrijven ](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md) creëren en uitgeven en [ bedrijflidmaatschappen beheren ](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/manage-company-memberships.md).
+Voor informatie, zie [&#x200B; bedrijven &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md) creëren en uitgeven en [&#x200B; bedrijflidmaatschappen beheren &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/manage-company-memberships.md).
 
 ## De blik-en-voelen updates voor de belangrijkste en secundaire navigatiegebieden
 
@@ -89,7 +89,7 @@ De meest opvallende wijzigingen zijn:
 
 We introduceren een nieuwe lijstopmaak in het gedeelte Workfront Setup en de lijst met wisselkoersen is de eerste pagina die deze tabelopmaak gebruikt. De functionaliteit voor het toevoegen van nieuwe wisselkoersen en het zoeken naar wisselkoersen is niet gewijzigd.
 
-Voor informatie over wisselkoersen, zie [ Opstelling wisselkoersen ](/help/quicksilver/administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md).
+Voor informatie over wisselkoersen, zie [&#x200B; Opstelling wisselkoersen &#x200B;](/help/quicksilver/administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md).
 
 ## De blik-en-voelen updates voor de pagina van Gegevens van de Uitvoer (Kick-Begint)
 
@@ -99,7 +99,7 @@ Voor informatie over wisselkoersen, zie [ Opstelling wisselkoersen ](/help/quick
 
 Wij hebben de pagina van Gegevens van de Uitvoer (Kick-Begint) in het gebied van de Opstelling met een moderner ontwerp bijgewerkt dat met andere gebieden van Workfront verenigbaar is.
 
-Voor informatie, zie [ gegevens van de Uitvoer van Workfront via Kick-Begint ](/help/quicksilver/administration-and-setup/manage-workfront/using-kick-starts/export-data-from-wf-via-kick-starts.md).
+Voor informatie, zie [&#x200B; gegevens van de Uitvoer van Workfront via Kick-Begint &#x200B;](/help/quicksilver/administration-and-setup/manage-workfront/using-kick-starts/export-data-from-wf-via-kick-starts.md).
 
 ## Zoeken naar updates voor Send-update naar gebruikersvenster
 
@@ -111,4 +111,4 @@ De update voor verzenden naar het gebruikersvenster is bijgewerkt naar een moder
 
 De gebruikers met een Norm, Plan, of vergunning van het Werk kunnen deze eigenschap gebruiken door naar de lijst van de Gebruiker te gaan, één of meerdere gebruikers te selecteren, en **te klikken verzenden Update naar Gebruiker**.
 
-Voor informatie, zie [ directe berichten naar andere gebruikers ](/help/quicksilver/people-teams-and-groups/work-directly-with-others/send-direct-messages-to-other-users.md) verzenden.
+Voor informatie, zie [&#x200B; directe berichten naar andere gebruikers &#x200B;](/help/quicksilver/people-teams-and-groups/work-directly-with-others/send-direct-messages-to-other-users.md) verzenden.

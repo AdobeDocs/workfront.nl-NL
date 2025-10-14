@@ -23,7 +23,7 @@ in January 2022
 </MadCap:conditionalText>
 -->
 
-4 april 2022. Voor een lijst van alle veranderingen beschikbaar met de versie 22.2, zie [ 22.2 Overzicht van de Versie ](../../../product-announcements/product-releases/22.2-release-activity/22-2-release-overview.md).
+4 april 2022. Voor een lijst van alle veranderingen beschikbaar met de versie 22.2, zie [&#x200B; 22.2 Overzicht van de Versie &#x200B;](../../../product-announcements/product-releases/22.2-release-activity/22-2-release-overview.md).
 
 ## Een aangepast formulier configureren om met meerdere objecttypen te werken
 
@@ -42,9 +42,9 @@ Deze functionaliteit werkt met alle aangepaste formulieren die eerder in uw Work
 
 ## De blauwdrukcatalogus is beschikbaar voor alle gebruikers en beheerders kunnen aanvragen toestaan
 
-Alle Adobe Workfront-gebruikers kunnen nu door de catalogus met beschikbare blauwdrukken bladeren. Voor meer informatie, zie [ doorbladeren de catalogus van blauwdrukken en verzoekinstallatie van blauwdrukken ](../../../administration-and-setup/blueprints/browse-catalog.md).
+Alle Adobe Workfront-gebruikers kunnen nu door de catalogus met beschikbare blauwdrukken bladeren. Voor meer informatie, zie [&#x200B; doorbladeren de catalogus van blauwdrukken en verzoekinstallatie van blauwdrukken &#x200B;](../../../administration-and-setup/blueprints/browse-catalog.md).
 
-Bovendien kan de systeembeheerder toegang voor gebruikers toestaan om installatie van blauwdrukken te verzoeken. Als u een aanvraagwachtrij toewijst om de aanvragen op te slaan, kunnen gebruikers aanvragen indienen in de blauwdrukcatalogus. Voor meer informatie, zie [ toegang tot blauwdrukken ](../../../administration-and-setup/blueprints/configure-access-to-blueprints.md) vormen.
+Bovendien kan de systeembeheerder toegang voor gebruikers toestaan om installatie van blauwdrukken te verzoeken. Als u een aanvraagwachtrij toewijst om de aanvragen op te slaan, kunnen gebruikers aanvragen indienen in de blauwdrukcatalogus. Voor meer informatie, zie [&#x200B; toegang tot blauwdrukken &#x200B;](../../../administration-and-setup/blueprints/configure-access-to-blueprints.md) vormen.
 
 ## Een afbeelding toevoegen aan een aangepast formulier
 
@@ -92,15 +92,15 @@ U kunt nog steeds opties, voorkeuren en objectkoppelingen zoeken en configureren
 
 Eerder was het niet mogelijk om een groep te deactiveren.
 
-Voor meer informatie, zie [ een groep ](../../../administration-and-setup/manage-groups/create-and-manage-groups/deactivate-or-reactivate-a-group.md) deactiveren of reactiveren.
+Voor meer informatie, zie [&#x200B; een groep &#x200B;](../../../administration-and-setup/manage-groups/create-and-manage-groups/deactivate-or-reactivate-a-group.md) deactiveren of reactiveren.
 
 ## Verbeteringen in de historie van de blauwdrukinstallatie
 
 Wanneer u een blauwdruk installeert, toont een bericht nu de specifieke voorwerpen (zoals rollen, teams, of groepen) die met succes met de blauwdruk en om het even welke voorwerpen werden geïnstalleerd die om niet konden installeren. U kunt ook de lijst met geïnstalleerde objecten weergeven op de pagina Vervagingsdetails door op Details weergeven te klikken naast een specifieke installatie in de tabel met installatiegeschiedenis.
 
-Voor meer informatie, zie [ een blauwdruk ](../../../administration-and-setup/blueprints/blueprints-install.md) installeren.
+Voor meer informatie, zie [&#x200B; een blauwdruk &#x200B;](../../../administration-and-setup/blueprints/blueprints-install.md) installeren.
 
-![ de installatiegeschiedenis van blauwdrukken ](assets/blueprints-installation-history-350x95.png)
+![&#x200B; de installatiegeschiedenis van blauwdrukken &#x200B;](assets/blueprints-installation-history-350x95.png)
 
 ## Er wordt nu een waarschuwing weergegeven wanneer u een alleen voorbeeldontwerp in productie installeert
 
@@ -108,4 +108,4 @@ Bepaalde blauwdrukken kunnen alleen worden geïnstalleerd in de voorbeeldomgevin
 
 Als u toegang hebt tot inhoud met alleen voorvertoning in uw productieomgeving, Sandbox 1 of Sandbox 2, is de installatieknop niet actief en ziet u mogelijk een waarschuwingsbericht.
 
-Voor meer informatie, zie [ een blauwdruk ](../../../administration-and-setup/blueprints/blueprints-install.md) installeren.
+Voor meer informatie, zie [&#x200B; een blauwdruk &#x200B;](../../../administration-and-setup/blueprints/blueprints-install.md) installeren.

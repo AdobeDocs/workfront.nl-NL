@@ -22,16 +22,16 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen Adobe Workfront, zie [ het Bewijzen ](../review-and-approve-work/proofing/proofing.md).
+>Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen Adobe Workfront, zie [&#x200B; het Bewijzen &#x200B;](../review-and-approve-work/proofing/proofing.md).
 
 Deze sectie bevat de volgende subsecties:
 
-* [ Begonnen het worden met  [!DNL Workfront Proof]: artikelindex ](../workfront-proof/wp-getstarted/getting-started-with-workfront-proof.md)
-* [ Werk met proeven en dossiers in  [!DNL Workfront Proof]](../workfront-proof/wp-work-proofsfiles/wp-work-proofs-files.md)
-* [[!DNL Workfront Proof]  rekeningsbeleid ](../workfront-proof/wp-acct-admin/wp-account-admin.md)
-* [[!DNL Workfront Proof]  het Factureren Montages ](../workfront-proof/wp-billingsettings/wp-billing-settings.md)
-* [ Meldingen en herinneringen van het Bewijs ](../workfront-proof/wp-emailsntfctns/wp-emails-and-notifications.md)
-* [ E-mailalarm ](../workfront-proof/wp-emailsntfctns/email-alerts/email-alerts.md)
+* [&#x200B; Begonnen het worden met  [!DNL Workfront Proof]: artikelindex &#x200B;](../workfront-proof/wp-getstarted/getting-started-with-workfront-proof.md)
+* [&#x200B; Werk met proeven en dossiers in  [!DNL Workfront Proof]](../workfront-proof/wp-work-proofsfiles/wp-work-proofs-files.md)
+* [[!DNL Workfront Proof]  rekeningsbeleid &#x200B;](../workfront-proof/wp-acct-admin/wp-account-admin.md)
+* [[!DNL Workfront Proof]  het Factureren Montages &#x200B;](../workfront-proof/wp-billingsettings/wp-billing-settings.md)
+* [&#x200B; Meldingen en herinneringen van het Bewijs &#x200B;](../workfront-proof/wp-emailsntfctns/wp-emails-and-notifications.md)
+* [&#x200B; E-mailalarm &#x200B;](../workfront-proof/wp-emailsntfctns/email-alerts/email-alerts.md)
 * [Het leiden van gebruikers en contacten in  [!DNL Workfront Proof]](../workfront-proof/wp-mnguserscontacts/manage-user-contacts.md)
-* [[!DNL Workfront Proof]  technologiehoek ](../workfront-proof/wp-tech-corner/tech-corner.md)
+* [[!DNL Workfront Proof]  technologiehoek &#x200B;](../workfront-proof/wp-tech-corner/tech-corner.md)
 * [[!DNL Workfront Proof] integraties](../workfront-proof/wp-integrations/wp-integrations.md)

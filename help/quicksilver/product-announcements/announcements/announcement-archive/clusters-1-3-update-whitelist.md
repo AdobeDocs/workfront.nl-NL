@@ -39,7 +39,7 @@ Voor e-mail:
 * 54 240 60 174
 * 54 240 60 175
 
-Gelieve te verzekeren uw lijst van gewenste personen IP blokken tegen 13 mei 2019 worden bijgewerkt. Voor meer informatie, zie [ de lijst van gewenste personen van uw firewall ](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md) vormen.
+Gelieve te verzekeren uw lijst van gewenste personen IP blokken tegen 13 mei 2019 worden bijgewerkt. Voor meer informatie, zie [&#x200B; de lijst van gewenste personen van uw firewall &#x200B;](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md) vormen.
 
 Hartelijk dank voor uw voortdurende ondersteuning van Workfront, aangezien wij werken aan een betrouwbaardere en robuustere ervaring voor onze klanten.
 

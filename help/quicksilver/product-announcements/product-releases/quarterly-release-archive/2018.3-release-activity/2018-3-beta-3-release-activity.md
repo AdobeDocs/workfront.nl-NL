@@ -22,7 +22,7 @@ Op deze pagina worden alle wijzigingen beschreven die het laatst beschikbaar zij
 >
 > De op deze pagina beschreven functionaliteit kan worden gewijzigd voordat deze beschikbaar is in de productieomgeving.
 
-Voor een lijst met alle wijzigingen die in 2018.3 zijn aangebracht, raadpleegt u  [ 2018.3 overzicht van de versieactiviteit ](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-release-activity-overview.md).
+Voor een lijst met alle wijzigingen die in 2018.3 zijn aangebracht, raadpleegt u  [&#x200B; 2018.3 overzicht van de versieactiviteit &#x200B;](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-release-activity-overview.md).
 
 De Beta 3-release van 2018.3 bevat verbeteringen voor zowel Workfront-beheerders als andere gebruikers:
 
@@ -32,12 +32,12 @@ De Beta 3-release van 2018.3 bevat verbeteringen voor zowel Workfront-beheerders
 
 **voor Alle Gebruikers**
 
-* [ Gebied van het Huis is nu het Gebrek ](#home-area-is-now-the-default)
-* [ bevestig Uw Werk in Huis ](#prioritize-your-work-in-home) vooraf in
-* [ Unieke URL voor de Mening van de Gebruiker van de Planner van het Middel ](#unique-url-for-the-resource-planner-user-view)
-* [ Upload het Beeld van het Profiel in de Mobiele App van Workfront ](#upload-profile-picture-in-the-workfront-mobile-app) 
-* [ Verbetering van de Vorm van de Douane in de Mobiele Toepassing van Workfront ](#custom-form-improvement-in-the-workfront-mobile-app)
-* [ Tijd van het Logboek in Workfront Mobile App in Liggende Richtlijn ](#log-time-in-the-workfront-mobile-app-in-landscape-orientation)
+* [&#x200B; Gebied van het Huis is nu het Gebrek &#x200B;](#home-area-is-now-the-default)
+* [&#x200B; bevestig Uw Werk in Huis &#x200B;](#prioritize-your-work-in-home) vooraf in
+* [&#x200B; Unieke URL voor de Mening van de Gebruiker van de Planner van het Middel &#x200B;](#unique-url-for-the-resource-planner-user-view)
+* [&#x200B; Upload het Beeld van het Profiel in de Mobiele App van Workfront &#x200B;](#upload-profile-picture-in-the-workfront-mobile-app) 
+* [&#x200B; Verbetering van de Vorm van de Douane in de Mobiele Toepassing van Workfront &#x200B;](#custom-form-improvement-in-the-workfront-mobile-app)
+* [&#x200B; Tijd van het Logboek in Workfront Mobile App in Liggende Richtlijn &#x200B;](#log-time-in-the-workfront-mobile-app-in-landscape-orientation)
 * [De pictogrammen opnieuw rangschikken op de onderste navigatiebalk in de Workfront Mobile-app](#rearrange-the-icons-in-the-bottom-navigation-bar-in-the-workfront-mobile-app)
 
 ## Het thuisgebied is nu de standaardinstelling {#home-area-is-now-the-default}
@@ -59,7 +59,7 @@ U kunt nu de volgende velden bijwerken voor gebruikers die behoren tot een groep
 
 Eerder konden alleen systeem- en gebruikersbeheerders deze velden bijwerken. 
 
-Voor meer informatie, zie [ de beheerders van de Groep ](../../../../administration-and-setup/manage-groups/group-roles/group-administrators.md).
+Voor meer informatie, zie [&#x200B; de beheerders van de Groep &#x200B;](../../../../administration-and-setup/manage-groups/group-roles/group-administrators.md).
 
 ## Unieke URL voor de weergave van de gebruiker van de bronnenplanner {#unique-url-for-the-resource-planner-user-view}
 
@@ -67,7 +67,7 @@ U kunt nu een unieke URL genereren voor de functie voor het plaatsen van bronnen
 
 Eerder was deze functionaliteit niet beschikbaar.
 
-Voor meer informatie, zie &quot;Unieke URL voor de sectie van de Mening van de Gebruiker&quot;in [ overzicht van de navigatie van de Planner van het Middel ](../../../../resource-mgmt/resource-planning/resource-planner-navigation.md).
+Voor meer informatie, zie &quot;Unieke URL voor de sectie van de Mening van de Gebruiker&quot;in [&#x200B; overzicht van de navigatie van de Planner van het Middel &#x200B;](../../../../resource-mgmt/resource-planning/resource-planner-navigation.md).
 
 ## Profielafbeelding uploaden in de Workfront Mobile-app  {#upload-profile-picture-in-the-workfront-mobile-app}
 

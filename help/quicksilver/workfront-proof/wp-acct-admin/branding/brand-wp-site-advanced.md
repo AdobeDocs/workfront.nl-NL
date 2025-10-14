@@ -18,11 +18,11 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [ het Bewijzen ](../../../review-and-approve-work/proofing/proofing.md).
+>Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [&#x200B; het Bewijzen &#x200B;](../../../review-and-approve-work/proofing/proofing.md).
 
 Geavanceerde branding is beschikbaar op Select- en Premium-abonnementen en is inbegrepen in de kosten van het abonnement.
 
-Voor informatie over basisbranding, die de login pagina, e-mailberichten, en proeven omvat, zie [ Merk de  [!DNL Workfront Proof]  plaats ](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site.md).
+Voor informatie over basisbranding, die de login pagina, e-mailberichten, en proeven omvat, zie [&#x200B; Merk de  [!DNL Workfront Proof]  plaats &#x200B;](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site.md).
 
 Geavanceerde opties voor branding zijn onder andere het aanpassen van de volgende gebieden:
 
@@ -39,8 +39,8 @@ De volgende secties beschrijven geavanceerde branding meer in detail:
 
 ## Geavanceerd merkingoverzicht
 
-U zult de [!UICONTROL Branding configuration] sectie in het lusje van uw [ pagina van de Montages van de Rekening ](https://support.workfront.com/hc/en-us/sections/115000912147-Account-Settings) vinden. Als u de wijzigingen op uw account wilt toepassen, moet u ervoor zorgen dat de optie Branding is ingesteld op [!UICONTROL Enabled] (1).
-![ Advanced_Branding.png ](assets/advanced-branding-350x618.png)
+U zult de [!UICONTROL Branding configuration] sectie in het lusje van uw [&#x200B; pagina van de Montages van de Rekening &#x200B;](https://support.workfront.com/hc/en-us/sections/115000912147-Account-Settings) vinden. Als u de wijzigingen op uw account wilt toepassen, moet u ervoor zorgen dat de optie Branding is ingesteld op [!UICONTROL Enabled] (1).
+![&#x200B; Advanced_Branding.png &#x200B;](assets/advanced-branding-350x618.png)
 
 Zie de onderstaande sectie voor meer informatie over het configureren van de geavanceerde opties voor branding (2-14).
 
@@ -57,7 +57,7 @@ U kunt de volgende gebieden van [!DNL Workfront Proof] markeren:
 
 ### Webtoepassing {#web-application}
 
-![ Web_branding_image.png ](assets/web-branding-image-350x181.png)
+![&#x200B; Web_branding_image.png &#x200B;](assets/web-branding-image-350x181.png)
 
 U kunt kiezen uit drie opties voor branding voor de koptekst van de webtoepassing (2):
 
@@ -75,7 +75,7 @@ In dit veld (3) kunt u de achtergrond van de koptekst instellen en een effen kle
 
 Kleur - hier kunt u, net als in alle andere brandingvelden van de configuratie van het kleurenschema, een hexadecimale kleurwaarde invoeren of een handige kleurkiezer gebruiken (als u op het tekstveld klikt, wordt het pop-upvenster geopend). De standaardachtergrondkleur voor de koptekst is #232d2e.
 
-![ Branding_-_color_picker.png ](assets/branding---color-picker-350x131.png)
+![&#x200B; Branding_-_color_picker.png &#x200B;](assets/branding---color-picker-350x131.png)
 
 Achtergrondafbeelding - kan worden gecombineerd met de Branding-afbeelding.
 
@@ -86,13 +86,13 @@ Achtergrondafbeelding - kan worden gecombineerd met de Branding-afbeelding.
 ### Koptekstkoppelingen {#header-links}
 
 In dit veld (4) kunt u de kleur en kleur wijzigen van de gebruikersnaam van de koppelingen in het menu Koptekst dat in de rechterbovenhoek van uw account wordt weergegeven.
-![ Header_links.png ](assets/header-links-350x140.png)
+![&#x200B; Header_links.png &#x200B;](assets/header-links-350x140.png)
 
 ### Zijbalk {#sidebar}
 
 Kies kleuren voor de menubalk (5) en het menulettertype (6) om uw zijbalk aan te passen
 
-![ Menu_bar.png ](assets/menu-bar-350x490.png)
+![&#x200B; Menu_bar.png &#x200B;](assets/menu-bar-350x490.png)
 
 >[!NOTE]
 >
@@ -103,17 +103,17 @@ De kleur van de knop Nieuwe proefdruk kan niet worden aangepast.
 ### Welkomstvak {#welcome-box}
 
 In dit veld (7) kunt u de kleur van het welkomstvak instellen die op de pagina Dashboard wordt weergegeven.
-![ Welcome_box.png ](assets/welcome-box-350x110.png)
+![&#x200B; Welcome_box.png &#x200B;](assets/welcome-box-350x110.png)
 
 ### Sectiekoppen {#section-headers}
 
-Met deze velden kunt u de achtergrond (8) en de fontkleur (9) van de sectiekoppen op de [[!UICONTROL Account Settings] ](https://support.workfront.com/hc/en-us/sections/115000912147-Account-Settings) -pagina&#39;s aanpassen.
-![ Section_headers.png ](assets/section-headers-350x138.png)
+Met deze velden kunt u de achtergrond (8) en de fontkleur (9) van de sectiekoppen op de [[!UICONTROL Account Settings] &#x200B;](https://support.workfront.com/hc/en-us/sections/115000912147-Account-Settings) -pagina&#39;s aanpassen.
+![&#x200B; Section_headers.png &#x200B;](assets/section-headers-350x138.png)
 
 **Voettekst**
 
 In dit gebied (10) van het Branding configuratie kunt u footer samenstellen die bij de bodem van alle rekeningspagina&#39;s zal worden getoond. U kunt de ingebouwde redacteur gebruiken WYSIWYG of u kunt eenvoudig uw eigen ontwerp kleven.
-![ Footer.png ](assets/footer-350x157.png)
+![&#x200B; Footer.png &#x200B;](assets/footer-350x157.png)
 
 >[!NOTE]
 >
@@ -122,7 +122,7 @@ In dit gebied (10) van het Branding configuratie kunt u footer samenstellen die 
 **het favicon en de titel van de Pagina**
 
 U kunt de weergave van uw [!DNL Workfront Proof] -pagina&#39;s in de browsers aanpassen door uw eigen favicon-afbeelding (.ICO-bestand) (11) en paginatitel (12) in te stellen. Deze worden weergegeven in de tabbladen/vensters van de browser voor alle accountpagina&#39;s.
-![ Favico_and_Page_title.png ](assets/favico-and-page-title-350x95.png)
+![&#x200B; Favico_and_Page_title.png &#x200B;](assets/favico-and-page-title-350x95.png)
 
 >[!NOTE]
 >
@@ -133,10 +133,10 @@ U kunt de weergave van uw [!DNL Workfront Proof] -pagina&#39;s in de browsers aa
 U kunt uw eigen Help-koppelingen aanpassen om gebruikers en revisoren naar uw eigen inhoud te wijzen. U activeert deze set door de optie [!UICONTROL Help links] (13) in te schakelen en uw koppelingen toe te voegen in de volgende velden (14). U kunt maximaal vier koppelingen configureren. Deze zijn beschikbaar:
 
 * in het menu [!UICONTROL Header] onder de koppeling [!UICONTROL Help]
-  ![ Help_links1.png ](assets/help-links1-350x170.png)
+  ![&#x200B; Help_links1.png &#x200B;](assets/help-links1-350x170.png)
 
 * in het deelvenster [!UICONTROL Help] van de zijbalk [!DNL Workfront Proof] [!UICONTROL Viewer]
-  ![ Help_links2.png ](assets/help-links2-350x532.png)
+  ![&#x200B; Help_links2.png &#x200B;](assets/help-links2-350x532.png)
 
 Voor extra kosten hebben klanten met een Enterprise-abonnement ook de mogelijkheid om het volgende volledig aan te passen:
 

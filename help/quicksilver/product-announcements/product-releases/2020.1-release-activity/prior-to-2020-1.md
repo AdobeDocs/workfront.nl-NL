@@ -18,7 +18,7 @@ ht-degree: 0%
 
 De volgende functies waren vóór de release van 2020.1 aan Production beschikbaar voor de Classic Production-omgeving van Workfront.
 
-Voor informatie over het kader van de versietijd en alle functionaliteit beschikbaar met de versie 2020.1, zie [ overzicht van de versie 2020.1 ](../../../product-announcements/product-releases/2020.1-release-activity/2020-1-release-overview.md).
+Voor informatie over het kader van de versietijd en alle functionaliteit beschikbaar met de versie 2020.1, zie [&#x200B; overzicht van de versie 2020.1 &#x200B;](../../../product-announcements/product-releases/2020.1-release-activity/2020-1-release-overview.md).
 
 <table style="table-layout:auto"> 
  <col> 

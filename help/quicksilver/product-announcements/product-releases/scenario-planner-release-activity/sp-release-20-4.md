@@ -34,7 +34,7 @@ Deze nieuwe functionaliteit is als volgt inbegrepen:
 * Informatie over initiatieven in de stroom voor projectupdates
 * Informatie over initiatieven in verslagen
 
-Voor informatie over het publiceren van een plan, zie [ Update of creeer projecten door initiatieven in de Planner van het Scenario ](../../../scenario-planner/publish-scenarios-update-projects.md) te publiceren.
+Voor informatie over het publiceren van een plan, zie [&#x200B; Update of creeer projecten door initiatieven in de Planner van het Scenario &#x200B;](../../../scenario-planner/publish-scenarios-update-projects.md) te publiceren.
 
 Bekijk de volgende video om te begrijpen hoe u een project kunt creëren door een scenario te publiceren:
 
@@ -44,5 +44,5 @@ Bekijk de volgende video om te begrijpen hoe u een project kunt bijwerken dat ee
 
 Als u andere gebruikers wilt uitnodigen om met u samen te werken wanneer u werkt in de Workfront Scenario Planner, kunt u nu plannen delen die u met andere gebruikers hebt gemaakt. Als u tot een plan kon toegang hebben u niet met een verbinding vóór deze verbetering creeerde, moet het plan met u nu worden gedeeld alvorens u tot het kunt toegang hebben.
 
-Voor informatie over het delen van een plan in de Planner van het Scenario, zie [ een plan in de Planner van het Scenario delen ](../../../scenario-planner/share-a-plan.md).
+Voor informatie over het delen van een plan in de Planner van het Scenario, zie [&#x200B; een plan in de Planner van het Scenario delen &#x200B;](../../../scenario-planner/share-a-plan.md).
 

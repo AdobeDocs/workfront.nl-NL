@@ -31,9 +31,9 @@ ht-degree: 0%
 >
 >Neem contact op met uw Workfront-accountmanager voor meer informatie over een Workfront Goals-licentie.
 > 
->Voor extra informatie over toegang tot de Doelen van Workfront, zie [ Vereisten om de Doelen van Workfront ](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md) te gebruiken.
+>Voor extra informatie over toegang tot de Doelen van Workfront, zie [&#x200B; Vereisten om de Doelen van Workfront &#x200B;](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md) te gebruiken.
 
-Wanneer u een doel creeert, heeft het doel een status van Ontwerp. Voor informatie over het creëren van doelstellingen, zie [ doelstellingen in de Doelen van Adobe Workfront ](../../workfront-goals/goal-management/create-goals.md) creëren.
+Wanneer u een doel creeert, heeft het doel een status van Ontwerp. Voor informatie over het creëren van doelstellingen, zie [&#x200B; doelstellingen in de Doelen van Adobe Workfront &#x200B;](../../workfront-goals/goal-management/create-goals.md) creëren.
 
 Als u de voortgang van een doel wilt vastleggen, moet u het activeren. Als u uw doel wilt activeren en de status wilt wijzigen in Actief, moet u eerst het volgende toevoegen:
 
@@ -49,7 +49,7 @@ Nadat minstens één van deze punten wordt toegevoegd, kunt u het doel activeren
 >
 > Een doel kan niet meer dan een totaal van 1000 activiteiten, resultaten, projecten, of gerichte doelstellingen hebben.</span>
 
-In dit artikel wordt een overzicht gegeven van de activiteiten en resultaten. Voor informatie over het richten van doelstellingen, zie [ Goal groepering in de Doelen van Adobe Workfront: artikelindex ](../../workfront-goals/goal-alignment/goal-alignment.md). Voor informatie over het verbinden van projecten met doelstellingen, zie [ projecten aan doelstellingen in de Doelen van Adobe Workfront ](../results-and-activities/connect-projects-to-goals-overview.md) toevoegen.
+In dit artikel wordt een overzicht gegeven van de activiteiten en resultaten. Voor informatie over het richten van doelstellingen, zie [&#x200B; Goal groepering in de Doelen van Adobe Workfront: artikelindex &#x200B;](../../workfront-goals/goal-alignment/goal-alignment.md). Voor informatie over het verbinden van projecten met doelstellingen, zie [&#x200B; projecten aan doelstellingen in de Doelen van Adobe Workfront &#x200B;](../results-and-activities/connect-projects-to-goals-overview.md) toevoegen.
 
 ## Overzicht van resultaten
 
@@ -59,7 +59,7 @@ In dit artikel wordt een overzicht gegeven van de activiteiten en resultaten. Vo
 
 De resultaten meten de vooruitgang van uw doel of hoe dicht u aan het bereiken bent. Als doel eigenaar, kunt u het resultaat ook bezitten. Een resultaat aan uw doel zou ook aan een verschillende gebruiker kunnen worden toegewezen.
 
-Voor informatie over het toevoegen van resultaten aan doelstellingen, zie [ resultaten aan doelstellingen in de Doelen van Adobe Workfront ](../../workfront-goals/results-and-activities/add-results-to-goals.md) toevoegen.
+Voor informatie over het toevoegen van resultaten aan doelstellingen, zie [&#x200B; resultaten aan doelstellingen in de Doelen van Adobe Workfront &#x200B;](../../workfront-goals/results-and-activities/add-results-to-goals.md) toevoegen.
 
 U kunt resultaten toevoegen aan uw eigen doelstellingen of doelstellingen die tot andere entiteiten in uw organisatie behoren.
 
@@ -72,7 +72,7 @@ Houd rekening met het volgende wanneer u met resultaten werkt:
    * Getal
    * Percentage
 
-Voor meer informatie over resultaten, zie de lijst van gelijkenissen tussen resultaten en activiteiten in de sectie [ Gelijkheden tussen resultaten, activiteiten, en projecten ](#similarities-between-results-activities-and-projects) in dit artikel.
+Voor meer informatie over resultaten, zie de lijst van gelijkenissen tussen resultaten en activiteiten in de sectie [&#x200B; Gelijkheden tussen resultaten, activiteiten, en projecten &#x200B;](#similarities-between-results-activities-and-projects) in dit artikel.
 
 ## Overzicht van activiteiten
 
@@ -82,7 +82,7 @@ This will have additional types in the future - add another section for types?
 
 De activiteiten, zoals resultaten, zijn specifiek en meetbaar, en omvatten typisch een percentage volledige indicator. Als doel eigenaar, kunt u de activiteiten ook bezitten verbonden aan het doel. Een activiteit op uw doel zou ook aan een verschillende gebruiker kunnen worden toegewezen.
 
-Voor informatie over het toevoegen van activiteiten aan doelstellingen, zie [ activiteiten aan doelstellingen in de Doelen van Adobe Workfront ](../../workfront-goals/results-and-activities/add-activities-to-goals.md) toevoegen.
+Voor informatie over het toevoegen van activiteiten aan doelstellingen, zie [&#x200B; activiteiten aan doelstellingen in de Doelen van Adobe Workfront &#x200B;](../../workfront-goals/results-and-activities/add-activities-to-goals.md) toevoegen.
 
 Overweeg het volgende wanneer het associëren van activiteiten met uw doelstellingen:
 
@@ -111,15 +111,15 @@ Overweeg het volgende wanneer het associëren van activiteiten met uw doelstelli
 -->
 <!--drafted for goal redesign: For THE PRODUCTION RELEASE: remove the projects in this article altogether.-->
 
-Voor meer informatie over resultaten en activiteiten, zie de lijst van gelijkenissen tussen resultaten en activiteiten in de sectie [ Gelijkheden tussen resultaten, activiteiten, en projecten ](#similarities-between-results-activities-and-projects) in dit artikel.
+Voor meer informatie over resultaten en activiteiten, zie de lijst van gelijkenissen tussen resultaten en activiteiten in de sectie [&#x200B; Gelijkheden tussen resultaten, activiteiten, en projecten &#x200B;](#similarities-between-results-activities-and-projects) in dit artikel.
 
 ## Vergelijkbare resultaten, activiteiten en projecten {#similarities-between-results-activities-and-projects}
 
 Resultaten, activiteiten en projecten zijn indicatoren voor de voortgang van het doel.
 
-Er zijn sommige verschillen in de manier u projecten tegenover de manier beheert u resultaten en activiteiten. Voor informatie over het toevoegen van projecten aan doelstellingen, zie [ activiteiten aan doelstellingen in de Doelen van Adobe Workfront ](../../workfront-goals/results-and-activities/add-activities-to-goals.md) toevoegen. Voor informatie over projecten die met doelstellingen worden verbonden, zie [ projecten aan doelstellingen in de Doelen van Adobe Workfront ](../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md) toevoegen.
+Er zijn sommige verschillen in de manier u projecten tegenover de manier beheert u resultaten en activiteiten. Voor informatie over het toevoegen van projecten aan doelstellingen, zie [&#x200B; activiteiten aan doelstellingen in de Doelen van Adobe Workfront &#x200B;](../../workfront-goals/results-and-activities/add-activities-to-goals.md) toevoegen. Voor informatie over projecten die met doelstellingen worden verbonden, zie [&#x200B; projecten aan doelstellingen in de Doelen van Adobe Workfront &#x200B;](../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md) toevoegen.
 
-Naast resultaten, activiteiten, en projecten, kunt u kinddoelstellingen aan een doel ook associëren. De doelstellingen van kinderen zijn ook een type van vooruitgangsindicator voor een doel. Voor informatie, zie [ doelstellingen door hen in de Doelen van Adobe Workfront ](../goal-alignment/align-goals-by-connecting-them.md) te verbinden. De vooruitgang van de voortgangsindicatoren van het doel van het kind drijft ook de vooruitgang van het ouderdoel.
+Naast resultaten, activiteiten, en projecten, kunt u kinddoelstellingen aan een doel ook associëren. De doelstellingen van kinderen zijn ook een type van vooruitgangsindicator voor een doel. Voor informatie, zie [&#x200B; doelstellingen door hen in de Doelen van Adobe Workfront &#x200B;](../goal-alignment/align-goals-by-connecting-them.md) te verbinden. De vooruitgang van de voortgangsindicatoren van het doel van het kind drijft ook de vooruitgang van het ouderdoel.
 
 De volgende lijst toont gelijkenissen en verschillen tussen resultaten, activiteiten, en projecten, als doelindicatoren:
 

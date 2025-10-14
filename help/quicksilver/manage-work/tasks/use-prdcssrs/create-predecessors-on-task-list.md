@@ -27,7 +27,7 @@ U kunt de voorgangers van taken in de volgende gebieden van Adobe Workfront beki
 * In het Gantt-diagram.
 * In de sectie Predecessors van een afhankelijke taak.
 
-Voor meer informatie, zie [ Overzicht van taakvoordecessors ](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md).
+Voor meer informatie, zie [&#x200B; Overzicht van taakvoordecessors &#x200B;](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md).
 
 ## Toegangsvereisten
 
@@ -56,7 +56,7 @@ Voor meer informatie, zie [ Overzicht van taakvoordecessors ](../../../manage-wo
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -80,7 +80,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
    >
    >1. Typ in het referentienummer van het project van de voorganger gevolgd door een dubbele punt en het nummer van de taak. Bijvoorbeeld, die in *765021:12* typt wijst erop dat het Aantal van de Verwijzing van het project van de voorganger 765021 is en voorganger taakaantal 12 op het project is.
    >
-   >1. Voeg het gebiedstype voor deze voorganger toe. Voor meer informatie, zie [ tot dwars-project predecessors ](/help/quicksilver/manage-work/tasks/use-prdcssrs/cross-project-predecessors.md) leiden.
+   >1. Voeg het gebiedstype voor deze voorganger toe. Voor meer informatie, zie [&#x200B; tot dwars-project predecessors &#x200B;](/help/quicksilver/manage-work/tasks/use-prdcssrs/cross-project-predecessors.md) leiden.
    >
    >1. Pers **gaat** binnen.
    >
@@ -90,7 +90,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
    Het voorgangspictogram wordt groen als de voorganger de markering Voltooid heeft. Dit wijst erop dat de afhankelijke taak klaar voor het werk is.
 
-   Voor meer informatie over de relatietypen beschikbaar in de kolom Predecessors, zie [ Overzicht van taakvoordecessors ](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md).
+   Voor meer informatie over de relatietypen beschikbaar in de kolom Predecessors, zie [&#x200B; Overzicht van taakvoordecessors &#x200B;](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md).
 
 ## Details voorganger weergeven
 
@@ -98,13 +98,13 @@ U kunt snel details over de voorganger bekijken in de takenlijst.
 
 1. Voor de taaklijst, houd over het voorgangersaantal in de **1&rbrace; kolom van Predecessors &lbrace;.** Er wordt een vak met de voorganger weergegeven.
 
-   ![ Details van de Predecessor ](assets/predecessor-details-in-task-list.png)
+   ![&#x200B; Details van de Predecessor &#x200B;](assets/predecessor-details-in-task-list.png)
 
    De volgende details worden weergegeven:
 
    **naam van de Voorganger:** De naam van predecessor die van verwijzingen wordt voorzien. Het taaknummer van de voorganger wordt opgenomen. Klik op de taaknaam om deze te openen.
 
-   **naam van het Project:** De naam van het project waar predecessor verblijft. Het project wordt geïdentificeerd als het huidige project als predecessor tot de zelfde projecten zoals de taak, of als dwars project behoort, als predecessor tot een verschillend project behoort. Voor meer informatie over dwars-project predecessors, zie [ creëren dwars-project predecessors ](../../tasks/use-prdcssrs/cross-project-predecessors.md).
+   **naam van het Project:** De naam van het project waar predecessor verblijft. Het project wordt geïdentificeerd als het huidige project als predecessor tot de zelfde projecten zoals de taak, of als dwars project behoort, als predecessor tot een verschillend project behoort. Voor meer informatie over dwars-project predecessors, zie [&#x200B; creëren dwars-project predecessors &#x200B;](../../tasks/use-prdcssrs/cross-project-predecessors.md).
 
    U kunt de projectdetails uitbreiden om de geplande begin en einddata van het project, voorwaarde, status, volledig percentage, en eigenaar te zien. Voor een dwars project, kunt u **dan klikken zie Project** om het project te openen.
 

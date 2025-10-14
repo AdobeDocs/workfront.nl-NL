@@ -20,7 +20,7 @@ ht-degree: 0%
 
 Gebruik deze taakgroep om taken te groeperen door de portefeuille, door programma, en dan door het project zij met worden geassocieerd.
 
-![ het programmaproject groepering van Portfolio ](assets/portfolio-program-project-grouping-for-tasks-350x120.png)
+![&#x200B; het programmaproject groepering van Portfolio &#x200B;](assets/portfolio-program-project-grouping-for-tasks-350x120.png)
 
 ## Toegangsvereisten
 
@@ -58,7 +58,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-*For informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*For informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

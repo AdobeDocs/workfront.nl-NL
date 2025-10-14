@@ -71,7 +71,7 @@ server {
 }
 ```
 
-Voor meer informatie, zie de [ documentatie NGiNX voor ngx_http_ssl_module ](https://nginx.org/en/docs/http/ngx_http_ssl_module.html).
+Voor meer informatie, zie de [&#x200B; documentatie NGiNX voor ngx_http_ssl_module &#x200B;](https://nginx.org/en/docs/http/ngx_http_ssl_module.html).
 
 ### Apache
 
@@ -94,8 +94,8 @@ Listen 443
 
 Zie voor meer informatie
 
-* [ de Authentificatie van de Cliënt en het Controle van de Toegang ](https://httpd.apache.org/docs/2.4/ssl/ssl_howto.html#accesscontrol)
-* [ Apache Module mod_ssl ](https://httpd.apache.org/docs/2.4/mod/mod_ssl.html)
+* [&#x200B; de Authentificatie van de Cliënt en het Controle van de Toegang &#x200B;](https://httpd.apache.org/docs/2.4/ssl/ssl_howto.html#accesscontrol)
+* [&#x200B; Apache Module mod_ssl &#x200B;](https://httpd.apache.org/docs/2.4/mod/mod_ssl.html)
  
 
 ## Toewijzing certificaat aan omgeving

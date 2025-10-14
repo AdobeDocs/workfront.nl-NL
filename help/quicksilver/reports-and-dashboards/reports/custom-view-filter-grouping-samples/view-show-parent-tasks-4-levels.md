@@ -20,7 +20,7 @@ ht-degree: 0%
 
 Deze taakmening toont de taaknaam in de eerste kolom en (als zij bestaan) tot 4 oudertaken in afzonderlijke kolommen in de zelfde lijst.
 
-![ parent_tasks_4_levels_deep.png ](assets/parent-tasks-4-levels-deep-350x29.png)
+![&#x200B; parent_tasks_4_levels_deep.png &#x200B;](assets/parent-tasks-4-levels-deep-350x29.png)
 
 ## Toegangsvereisten
 
@@ -63,7 +63,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

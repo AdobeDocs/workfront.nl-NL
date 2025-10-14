@@ -18,9 +18,9 @@ ht-degree: 0%
 
 Op deze pagina worden alle verbeteringen beschreven die zijn aangebracht met de release 21.2 voor Adobe Workfront Goals aan de Preview-omgeving van 5 april 2021. Deze verbeteringen zullen in het eerste kwartaal van 21.2 beschikbaar worden gesteld in de productieomgeving.
 
-Voor een lijst van alle veranderingen beschikbaar voor de Doelen van Workfront op dit punt in de 21.2 versiecyclus, zie [ Doelen van Adobe Workfront met de 21.2 versie ](../../../../product-announcements/product-releases/goals-release-activity/goals-21.2-release/goals-release-21-2.md).
+Voor een lijst van alle veranderingen beschikbaar voor de Doelen van Workfront op dit punt in de 21.2 versiecyclus, zie [&#x200B; Doelen van Adobe Workfront met de 21.2 versie &#x200B;](../../../../product-announcements/product-releases/goals-release-activity/goals-21.2-release/goals-release-21-2.md).
 
-Voor een lijst van alle veranderingen beschikbaar voor alle gebieden van Workfront op dit punt in de 21.2 versiecyclus, zie [ 21.2 Overzicht van de Versie ](../../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar voor alle gebieden van Workfront op dit punt in de 21.2 versiecyclus, zie [&#x200B; 21.2 Overzicht van de Versie &#x200B;](../../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
 
 ## Rapport over doelinformatie
 
@@ -44,7 +44,7 @@ U kunt nu het volgende doen om doelinformatie in rapporten te zien:
    * Doelen: dit is een inzamelingsgebied dat alle doelstellingen toont die met een project worden geassocieerd.
    * Aantal verbonden doelstellingen: het aantal doelstellingen verbonden aan het project.
 
-Voor informatie over het bepalen van van doelinformatie over projecten, zie [ projecten aan doelstellingen in de Doelen van Adobe Workfront ](../../../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md) toevoegen.
+Voor informatie over het bepalen van van doelinformatie over projecten, zie [&#x200B; projecten aan doelstellingen in de Doelen van Adobe Workfront &#x200B;](../../../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md) toevoegen.
 
-Voor informatie over doelgebieden zichtbaar in rapporten, zie [ Verklarende woordenlijst van de terminologie van Adobe Workfront ](../../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
+Voor informatie over doelgebieden zichtbaar in rapporten, zie [&#x200B; Verklarende woordenlijst van de terminologie van Adobe Workfront &#x200B;](../../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
 

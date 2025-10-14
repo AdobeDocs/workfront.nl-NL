@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Op deze pagina vindt u een beschrijving van de verbeteringen in Document en Proofing die zijn aangebracht met de release Vierde kwartaal 2025 voor de voorvertoningsomgeving. Deze verbeteringen zullen beschikbaar worden gesteld in de productieomgeving, zoals vermeld.
 
-Voor een lijst van alle veranderingen beschikbaar op dit punt in het Vierde Kwartaal 2025 versiecyclus, zie [ Vierde Kwartaal 2025 releaseoverzicht ](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar op dit punt in het Vierde Kwartaal 2025 versiecyclus, zie [&#x200B; Vierde Kwartaal 2025 releaseoverzicht &#x200B;](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-release-overview.md).
 
 ## Verenigde Goedkeuringen Geleidelijke Uitvoer
 
@@ -36,7 +36,7 @@ De verenigde goedkeuringen vervangen de goedkeuringen van het Verouderd document
 * Meerdere belangrijke prestatie-indicatoren voor uw goedkeuring weergeven in Workfront Home-widgets
 * De Dashboards van het Canvas van het gebruik om rapportdetails over Verenigde Goedkeuringen te bekijken
 
-Voor meer informatie zie [ Verenigde Goedkeuringen Overzicht ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md).
+Voor meer informatie zie [&#x200B; Verenigde Goedkeuringen Overzicht &#x200B;](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md).
 
 ## Nieuwe Workfront AI Reviewer
 
@@ -48,7 +48,7 @@ De nieuwe Workfront AI Reviewer helpt de naleving van het merk van afbeeldingen 
 
 U kunt de AI Reviewer toevoegen aan goedkeuringssjablonen of individuele revisie- en goedkeuringsaanvragen, waardoor de productie van inhoud sneller verloopt en de merkstandaarden behouden blijven.
 
-Voor meer informatie, zie [ begonnen worden met de Reviewer van Workfront AI ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md).
+Voor meer informatie, zie [&#x200B; begonnen worden met de Reviewer van Workfront AI &#x200B;](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md).
 
 Deze functie is momenteel in bèta.
 
@@ -77,4 +77,4 @@ Met deze integratie kunt u
 
 Opmerking: de integratie moet voor uw accounts zijn ingeschakeld door het Adobe-productteam.
 
-Voor meer informatie, zie [ begonnen worden met de integratie van Adobe Express en Workfront Proof ](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-express.md).
+Voor meer informatie, zie [&#x200B; begonnen worden met de integratie van Adobe Express en Workfront Proof &#x200B;](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-express.md).

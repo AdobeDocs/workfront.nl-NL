@@ -18,4 +18,4 @@ ht-degree: 0%
 
 # Bestandsversleuteling
 
-Voor informatie over het dossierencryptie van Adobe Workfront, zie de [ homepage van de Veiligheid van Workfront ](https://www.adobe.com/legal/terms/enterprise-licensing/workfront-legacy-terms.html). Neem contact op met uw accountmanager als u aanvullende informatie nodig hebt.
+Voor informatie over het dossierencryptie van Adobe Workfront, zie de [&#x200B; homepage van de Veiligheid van Workfront &#x200B;](https://www.adobe.com/legal/terms/enterprise-licensing/workfront-legacy-terms.html). Neem contact op met uw accountmanager als u aanvullende informatie nodig hebt.

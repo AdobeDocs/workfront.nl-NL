@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Deze pagina bevat informatie over de functionaliteit voor Adobe Workfront Goals die wordt vrijgegeven voor de productieomgeving met de release 23.1, die gepland is voor de week van 16 januari 2023.
 
-Voor een lijst van alle veranderingen beschikbaar voor alle gebieden van Workfront op dit punt in de 23.1 versiecyclus, zie [ 23.1 Overzicht van de Versie ](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar voor alle gebieden van Workfront op dit punt in de 23.1 versiecyclus, zie [&#x200B; 23.1 Overzicht van de Versie &#x200B;](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-release-overview.md).
 
 <table>
             <col style="width: 50%;" />

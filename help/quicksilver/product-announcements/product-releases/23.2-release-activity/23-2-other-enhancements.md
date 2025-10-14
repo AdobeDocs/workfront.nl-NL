@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Op deze pagina worden alle andere verbeteringen beschreven die zijn aangebracht met de release 23.2 voor de voorvertoningsomgeving. Deze verbeteringen worden beschikbaar gesteld in de productieomgeving met de release 23.2.
 
-Voor een lijst van alle veranderingen beschikbaar op dit punt in de 23.2 versiecyclus, zie [ 23.2 Overzicht van de Versie ](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar op dit punt in de 23.2 versiecyclus, zie [&#x200B; 23.2 Overzicht van de Versie &#x200B;](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md).
 
 ## Nieuw bij de Workfront for Creative Cloud plug-ins
 
@@ -50,9 +50,9 @@ Met dit nieuwe ontwerp hebben we het toevoegen van opmerkingen aan systeemupdate
 
 In toekomstige versies worden meer functies toegevoegd, aangezien deze verbeteringen nog steeds aan andere objecten worden toegevoegd.
 
-Voor informatie over wat de nieuwe het becommentariëren ervaring aanbiedt, zie [ Nieuwe het becommentariëren ervaring ](../../betas/new-commenting-experience-beta/unified-commenting-experience.md).
+Voor informatie over wat de nieuwe het becommentariëren ervaring aanbiedt, zie [&#x200B; Nieuwe het becommentariëren ervaring &#x200B;](../../betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
-[ Bekijk een videodemonstratie van deze eigenschap.](https://video.tv.adobe.com/v/3416962/){target=_blank}
+[&#x200B; Bekijk een videodemonstratie van deze eigenschap.](https://video.tv.adobe.com/v/3416962/){target=_blank}
 
 ## Tekengebieden exporteren als enkelvoudige PDF- of meervoudige PDF-bestanden in Adobe Workfront voor XD
 
@@ -75,9 +75,9 @@ De Adobe Verenigde Ervaring omvat:
 * Een &quot;bedrijfsswitch&quot; om te schakelen tussen Workfront-organisaties en -omgevingen
 * Navigatie met opties voor Workfront-pagina&#39;s, Adobe Experience Cloud-voorkeuren en uw Workfront-profiel
 
-Voor meer informatie, zie [ Adobe Verenigde Ervaring voor Workfront ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
+Voor meer informatie, zie [&#x200B; Adobe Verenigde Ervaring voor Workfront &#x200B;](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
-[ Bekijk een videodemonstratie van deze eigenschap.](https://video.tv.adobe.com/v/3412388/){target=_blank}
+[&#x200B; Bekijk een videodemonstratie van deze eigenschap.](https://video.tv.adobe.com/v/3412388/){target=_blank}
 
 ## De proefdrukviewer wordt geopend op een nieuw tabblad voor gebruikers met de Unified Experience
 

@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Deze pagina bevat informatie over de functionaliteit voor Adobe Workfront Goals in de nieuwe Adobe Workfront-ervaring die met de release 21.1 wordt vrijgegeven voor de productieomgeving.
 
-Voor een lijst van alle veranderingen beschikbaar voor alle gebieden van Workfront op dit punt in de 21.1 versiecyclus, zie [ 21.1 versieoverzicht ](../../../product-announcements/product-releases/21.1-release-activity/21-1-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar voor alle gebieden van Workfront op dit punt in de 21.1 versiecyclus, zie [&#x200B; 21.1 versieoverzicht &#x200B;](../../../product-announcements/product-releases/21.1-release-activity/21-1-release-overview.md).
 
 <table style="table-layout:auto"> 
  <col> 

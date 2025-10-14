@@ -19,8 +19,8 @@ ht-degree: 0%
 
 Deze sectie bevat de volgende artikelen:
 
-* [ Basis Programma van de Aanmaak van het Rapport voor de nieuwe ervaring van Workfront ](https://experienceleague.adobe.com/nl/docs/workfront-learn/tutorials-workfront/home)
-* [ toegang en organiseer rapporten ](../../../reports-and-dashboards/reports/report-usage/access-organize-reports.md)
-* [ creeer een rapport over het melden van activiteiten ](../../../reports-and-dashboards/reports/report-usage/create-report-reporting-activities.md)
-* [ Begrijp hoe te om rapporten over een dashboard te organiseren ](../../../reports-and-dashboards/reports/report-usage/understand-how-organize-reports-dashboard.md)
+* [&#x200B; Basis Programma van de Aanmaak van het Rapport voor de nieuwe ervaring van Workfront &#x200B;](https://experienceleague.adobe.com/nl/docs/workfront-learn/tutorials-workfront/home)
+* [&#x200B; toegang en organiseer rapporten &#x200B;](../../../reports-and-dashboards/reports/report-usage/access-organize-reports.md)
+* [&#x200B; creeer een rapport over het melden van activiteiten &#x200B;](../../../reports-and-dashboards/reports/report-usage/create-report-reporting-activities.md)
+* [&#x200B; Begrijp hoe te om rapporten over een dashboard te organiseren &#x200B;](../../../reports-and-dashboards/reports/report-usage/understand-how-organize-reports-dashboard.md)
 * [Rapportgebruik weergeven](../../../reports-and-dashboards/reports/report-usage/view-report-usage.md)

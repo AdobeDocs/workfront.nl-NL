@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [ het Bewijzen ](../../../review-and-approve-work/proofing/proofing.md).
+>Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [&#x200B; het Bewijzen &#x200B;](../../../review-and-approve-work/proofing/proofing.md).
 
 Als u een [!DNL Workfront] Proefbeheerder bent en u een of meer satellietrekeningen hebt verbonden met uw belangrijkste rekening, kunt u de gebruikers tussen al deze rekeningen bewegen.
 
@@ -27,18 +27,18 @@ Als u een [!DNL Workfront] Proefbeheerder bent en u een of meer satellietrekenin
 1. Klik op **[!UICONTROL Settings]** > **[!UICONTROL Account settings]** .
 
 1. Open de tab **[!UICONTROL Users]** .
-1. Klik op het pictogram **[!UICONTROL Move user]** (1). ![ Move_user2.png ](assets/move-user2-350x95.png)
+1. Klik op het pictogram **[!UICONTROL Move user]** (1). ![&#x200B; Move_user2.png &#x200B;](assets/move-user2-350x95.png)
 
 1. Bevestig in het gebruikersvak Verplaatsen dat wordt weergegeven de gebruiker die u wilt verplaatsen (1).
 1. Selecteer een doelaccount in de lijst met verbonden accounts (2).
 1. Wijs de profieltoestemming (3) toe die deze gebruiker op de nieuwe rekening zou moeten hebben.
 1. Selecteer een gebruiker (4) die de items die niet worden verplaatst, de eigenaar moet geven.
-Dit omvat de punten die u om op de oude rekening en de punten zult besluiten te verlaten die niet kunnen worden bewogen (zie [ Punten die niet ](https://support.workfront.com/knowledge/articles/115004087708/en-us?brand_id=662728&amp;return_to=%2Fhc%2Fen-us%2Farticles%2F115004087708#Items-that-can&#39;t-be-moved) hieronder kunnen worden bewogen).
+Dit omvat de punten die u om op de oude rekening en de punten zult besluiten te verlaten die niet kunnen worden bewogen (zie [&#x200B; Punten die niet &#x200B;](https://support.workfront.com/knowledge/articles/115004087708/en-us?brand_id=662728&return_to=%2Fhc%2Fen-us%2Farticles%2F115004087708#Items-that-can&#39;t-be-moved) hieronder kunnen worden bewogen).
 
 1. Schakel de selectievakjes in als u de proefdrukken (5) en bestanden (6) samen met de gebruiker wilt verplaatsen.
 1. Maak een naam voor de map (7) waarin alle verplaatste items op de nieuwe account worden geplaatst.
 1. Klik op **[!UICONTROL Move user]** (8) om het proces te starten.
-   ![ Moving_users_pop-up.png ](assets/moving-users-pop-up-350x380.png)
+   ![&#x200B; Moving_users_pop-up.png &#x200B;](assets/moving-users-pop-up-350x380.png)
 
 Als u de gebruiker zonder proefdrukken en bestanden verplaatst, wordt deze actie direct uitgevoerd. Als u ervoor kiest om de gebruiker samen met zijn proefdrukken en dossiers te bewegen, zal het profiel van de gebruiker onmiddellijk worden opnieuw toegewezen, maar de proefdrukken en de dossiers zullen geleidelijk verschijnen op de bestemmingsrekening aangezien deze verrichting tijd vereist om de gegevens over te brengen.
 
@@ -76,11 +76,11 @@ Als een proef een paar versies heeft en elk van hen wordt bezeten door een versc
 
 ### Groepen
 
-Groepen moeten opnieuw worden gemaakt door de verplaatste gebruiker op hun nieuwe account. Voor meer informatie, zie [ het ProofingGroepen creëren gebruikend  [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/groups/create-proofing-groups.md).
+Groepen moeten opnieuw worden gemaakt door de verplaatste gebruiker op hun nieuwe account. Voor meer informatie, zie [&#x200B; het ProofingGroepen creëren gebruikend  [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/groups/create-proofing-groups.md).
 
 ### Aangepaste weergaven
 
-De persoonlijke meningen van de Douane zullen door de verplaatste gebruiker op hun nieuw rekening moeten worden opnieuw gecreeerd. Voor meer informatie, zie [ creëren en leiden de Mening van de Douane in  [!DNL Workfront Proof]  Bewijs ](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md).
+De persoonlijke meningen van de Douane zullen door de verplaatste gebruiker op hun nieuw rekening moeten worden opnieuw gecreeerd. Voor meer informatie, zie [&#x200B; creëren en leiden de Mening van de Douane in  [!DNL Workfront Proof]  Bewijs &#x200B;](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md).
 
 ### Aangepaste velden
 

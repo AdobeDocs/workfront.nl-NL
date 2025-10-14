@@ -28,7 +28,7 @@ ht-degree: 0%
 
 Wanneer uw bedrijf een vergunning van Adobe Workfront heeft gekocht die de Planning van het Middel omvat kunt u middel het in de begroting opnemen informatie voor de projecten bekijken die u toestemmingen hebt om te bekijken. U kunt de informatie over budgettering weergeven in de functie voor middelenplanning.
 
-Voor extra informatie over eerste vereisten om de het in de begroting opnemen hulpmiddelen in Workfront te gebruiken, zie [ begonnen met de Planning van het Middel ](../../resource-mgmt/resource-planning/get-started-resource-planning.md).
+Voor extra informatie over eerste vereisten om de het in de begroting opnemen hulpmiddelen in Workfront te gebruiken, zie [&#x200B; begonnen met de Planning van het Middel &#x200B;](../../resource-mgmt/resource-planning/get-started-resource-planning.md).
 
 Als u middelen wilt begroten, bronnenpools wilt beheren en kosteninformatie wilt zien in de tools voor bronnenplanning, moeten uw bedrijf en u de volgende toegang hebben: 
 
@@ -73,4 +73,4 @@ Wanneer het opnemen van middel in de mening van de Rol, als u minder dan Beheren
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).

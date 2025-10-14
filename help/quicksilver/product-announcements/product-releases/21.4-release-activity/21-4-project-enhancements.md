@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Op deze pagina worden alle projectverbeteringen beschreven die zijn aangebracht met de release 21.4 voor de voorvertoningsomgeving. Deze verbeteringen zullen beschikbaar worden gesteld in de productieomgeving in de week van 4 oktober 2021.
 
-Voor een lijst van alle veranderingen beschikbaar met de versie 21.4, zie [ overzicht van de Versie 21.4 ](../../../product-announcements/product-releases/21.4-release-activity/21-4-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar met de versie 21.4, zie [&#x200B; overzicht van de Versie 21.4 &#x200B;](../../../product-announcements/product-releases/21.4-release-activity/21-4-release-overview.md).
 
 ## Afbeeldingen opnemen in updates
 
@@ -27,9 +27,9 @@ U kunt afbeeldingen zowel in updates als in reacties toevoegen. Een afbeeldingsm
 
 Eerder was de enige manier om een afbeelding te delen in Workfront dat u deze aan een object koppelde als een document. Afbeeldingen die zijn toegevoegd op het tabblad Updates, zijn alleen beschikbaar op dat tabblad en niet op het tabblad Documenten.
 
-Voor meer informatie, zie [ het werk van de Update ](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+Voor meer informatie, zie [&#x200B; het werk van de Update &#x200B;](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-Alvorens de gebruikers van Workfront beelden in updates kunnen omvatten, moet deze eigenschap eerst door de beheerder van Adobe Workfront worden toegelaten, zoals die in [ wordt beschreven vormt voorkeur voor gebruikersupdates ](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-preferences-user-updates.md).
+Alvorens de gebruikers van Workfront beelden in updates kunnen omvatten, moet deze eigenschap eerst door de beheerder van Adobe Workfront worden toegelaten, zoals die in [&#x200B; wordt beschreven vormt voorkeur voor gebruikersupdates &#x200B;](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-preferences-user-updates.md).
 
 ## Bijgewerkt algoritme voor slimme toewijzingen
 
@@ -37,7 +37,7 @@ We hebben het algoritme verbeterd dat wordt gebruikt bij het maken van slimme to
 
 Voorafgaand aan deze verbetering, bezat Workfront de taken op de oudertaken en andere gebruikersattributen met betrekking tot die taken wanneer het adviseren van gebruikers.
 
-Voor informatie over slimme taken, zie [ Slim toewijzingsoverzicht ](../../../manage-work/tasks/assign-tasks/smart-assignments.md).
+Voor informatie over slimme taken, zie [&#x200B; Slim toewijzingsoverzicht &#x200B;](../../../manage-work/tasks/assign-tasks/smart-assignments.md).
 
 ## Nieuwe ervaring bij het maken van een project op basis van een sjabloon
 
@@ -48,7 +48,7 @@ Om uw gebruik van Workfront in overeenstemming te brengen met de nieuwe ervaring
 
 Wij hebben de interface voor het creëren van het project bijgewerkt zowel wanneer u het van de Projecten evenals van het gebied van Malplaatjes creeert.
 
-Voor informatie, [ creeer een project gebruikend een malplaatje ](../../../manage-work/projects/create-projects/create-project-from-template.md).
+Voor informatie, [&#x200B; creeer een project gebruikend een malplaatje &#x200B;](../../../manage-work/projects/create-projects/create-project-from-template.md).
 
 ## Nieuwe ervaring bij het koppelen van sjablonen aan projecten
 
@@ -62,7 +62,7 @@ Om uw gebruik van Workfront in overeenstemming te brengen met de nieuwe ervaring
 * Sjablonen toevoegen aan een lijst met favorieten tijdens het bijlageproces
 * Alle opties voor het beheer van sjabloon- en projectinstellingen in één doorlopende pagina weergeven
 
-Voor informatie, zie [ een malplaatje aan een project ](../../../manage-work/projects/create-and-manage-templates/attach-template-to-project.md) vastmaken.
+Voor informatie, zie [&#x200B; een malplaatje aan een project &#x200B;](../../../manage-work/projects/create-and-manage-templates/attach-template-to-project.md) vastmaken.
 
 ## Verenigde duur en duureenheidwaarden voor taken
 
@@ -75,9 +75,9 @@ Naast de gebieden van de Duur in de de Details van de Taak, geeft Taken en Nieuw
 * Frequentieveld bij het maken van een terugkerende taak (binnenkort beschikbaar)
 * Veld labelen bij het toevoegen van een voorganger (binnenkort beschikbaar)
 
-Voor informatie, zie [ taken ](../../../manage-work/tasks/manage-tasks/edit-tasks.md) uitgeven.
+Voor informatie, zie [&#x200B; taken &#x200B;](../../../manage-work/tasks/manage-tasks/edit-tasks.md) uitgeven.
 
-![ het gebied van de Duur ](assets/duration-combined-field-350x139.png)
+![&#x200B; het gebied van de Duur &#x200B;](assets/duration-combined-field-350x139.png)
 
 ## Inline toevoegen van problemen in projecten uitschakelen
 
@@ -87,7 +87,7 @@ Om ervoor te zorgen dat de gebruikers nauwkeurige informatie verstrekken wanneer
 >
 >Deze instelling is alleen beschikbaar in de nieuwe Workfront-ervaring. Gebruikers die in Workfront klassiek werken, kunnen nog steeds inline problemen toevoegen aan een project of aan de taken ervan, zelfs als deze instelling voor het project is uitgeschakeld door een gebruiker die in de nieuwe Workfront-ervaring werkt.
 
-Voor meer informatie, zie [ projecten ](../../../manage-work/projects/manage-projects/edit-projects.md) uitgeven.
+Voor meer informatie, zie [&#x200B; projecten &#x200B;](../../../manage-work/projects/manage-projects/edit-projects.md) uitgeven.
 
 ## Verbeterde weergave van aangepaste velden voor selectievakjes en keuzerondjes
 
@@ -95,5 +95,5 @@ Het weergeven en selecteren van opties voor selectievakjes en keuzerondjes in aa
 
 Dit hangt af van de positie van de velden in het aangepaste formulier. Als u een ander veld in dezelfde rij plaatst met het selectievakje of keuzerondje, hebben de opties mogelijk slechts voldoende horizontale ruimte om in één kolom weer te geven.
 
-Voor informatie over het invullen van een douanevorm, zie [ informatie op de gebieden van de douanevorm ](../../../workfront-basics/work-with-custom-forms/edit-custom-forms.md) uitgeven.
+Voor informatie over het invullen van een douanevorm, zie [&#x200B; informatie op de gebieden van de douanevorm &#x200B;](../../../workfront-basics/work-with-custom-forms/edit-custom-forms.md) uitgeven.
 

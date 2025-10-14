@@ -53,19 +53,19 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Gebruiksmetriek weergeven en beschikbare computeruren
 
-1. Klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, of (als beschikbaar), klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon-left-nav.png) in de upper-left hoek, dan klik [!UICONTROL **Opstelling**].
+1. Klik het **[!UICONTROL Main Menu]** pictogram ![&#x200B; Belangrijkste Menu &#x200B;](/help/_includes/assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, of (als beschikbaar), klik het **[!UICONTROL Main Menu]** pictogram ![&#x200B; Belangrijkste Menu &#x200B;](/help/_includes/assets/main-menu-icon-left-nav.png) in de upper-left hoek, dan klik [!UICONTROL **Opstelling**].
 
 1. In het linkerpaneel, klik [!UICONTROL **Systeem**] > [!UICONTROL **Toegang van Gegevens**].
 
 1. Klik op de [!UICONTROL **Metriek**] tabel. Uw gebruiksmetriek wordt getoond in de **Compute grafiek van het Gebruik**, terwijl het aantal uitgevoerde vragen in de **grafiek van de Telling van de Vraag** wordt getoond.
 
-   ![ Gegevens verbinden gebruiksmetriek ](/help/quicksilver/reports-and-dashboards/data-lake/assets/data-connect-usage-metrics.png)
+   ![&#x200B; Gegevens verbinden gebruiksmetriek &#x200B;](/help/quicksilver/reports-and-dashboards/data-lake/assets/data-connect-usage-metrics.png)
 
 1. (Facultatief) u kunt [!UICONTROL **gebruiken Uitgezocht een mening**] dropdown menu om de tijdwaaier voor de informatie inbegrepen in beide grafieken te veranderen.
 

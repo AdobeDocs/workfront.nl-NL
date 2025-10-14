@@ -91,7 +91,7 @@ Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanv
 Wanneer de taken bijwerken, werken hun oudervoorwerpen (oudertaken of het project) op de tijd bij die door het Type van Update wordt vermeld.  Om een Type van Update voor uw project te specificeren:
 
 1. Ga naar het project waarvan Type van Update u wilt specificeren.
-1. Klik het Meer menu ![ Meer pictogram ](assets/more-icon.png) naast de naam van het project, dan klik **uitgeven**.
+1. Klik het Meer menu ![&#x200B; Meer pictogram &#x200B;](assets/more-icon.png) naast de naam van het project, dan klik **uitgeven**.
 
 1. Klik **&#x200B;**&#x200B;Montages van het Project **&#x200B;**.
 
@@ -124,7 +124,7 @@ Wanneer de taken bijwerken, werken hun oudervoorwerpen (oudertaken of het projec
      >
      >Een project herberekent niet automatisch elke nacht als het in de status van de Planning is. Het herberekent alleen op verandering.
 
-   * **Hand slechts:** de projectchronologie wordt bijgewerkt slechts wanneer u de optie om **Chronologie** opnieuw te berekenen, zoals die in de sectie &quot;Handmatige herberekening&quot;in de artikel [ wordt beschreven projectchronologie ](../../../manage-work/projects/manage-projects/recalculate-project-timeline.md) opnieuw berekent.\
+   * **Hand slechts:** de projectchronologie wordt bijgewerkt slechts wanneer u de optie om **Chronologie** opnieuw te berekenen, zoals die in de sectie &quot;Handmatige herberekening&quot;in de artikel [&#x200B; wordt beschreven projectchronologie &#x200B;](../../../manage-work/projects/manage-projects/recalculate-project-timeline.md) opnieuw berekent.\
      U kunt deze optie selecteren als u in één keer veel wijzigingen aanbrengt in het project en u wilt dat de tijdlijnherberekening plaatsvindt nadat alle wijzigingen zijn aangebracht (in plaats van na elke afzonderlijke wijziging).
 
 1. Klik **sparen**.

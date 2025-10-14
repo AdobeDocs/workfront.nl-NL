@@ -55,7 +55,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 1. Ga naar het project, de taak, of de kwestie die het document bevat, dan selecteren **Documenten**.
 1. Zoek het document dat u nodig hebt.
 
-1. Klik het **Geselecteerde** pictogram van de Download ![ Download Geselecteerd pictogram ](assets/download-icon.png).
+1. Klik het **Geselecteerde** pictogram van de Download ![&#x200B; Download Geselecteerd pictogram &#x200B;](assets/download-icon.png).
 
 ## Meerdere documenten tegelijk downloaden
 
@@ -69,6 +69,6 @@ U kunt meerdere documenten tegelijk downloaden. 
    >Documenten die zijn gekoppeld aan Workfront vanuit Box, Dropbox, Google Drive, enzovoort, kunnen niet bulksgewijs worden gedownload.
 
 1. (Optioneel) Selecteer de mappen met de documenten die u wilt downloaden in de lijst met mappen.
-1. Klik het Geselecteerde pictogram van de Download ![ Download Geselecteerde pictogram ](assets/download-icon.png).
+1. Klik het Geselecteerde pictogram van de Download ![&#x200B; Download Geselecteerde pictogram &#x200B;](assets/download-icon.png).
 
    Mappen worden gedownload als ZIP-bestanden en zijn beperkt tot 4 GB.

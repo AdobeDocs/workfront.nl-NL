@@ -21,9 +21,9 @@ We brengen twee wijzigingen aan in de manier waarop Adobe Workfront e-mail verze
 
 Om ervoor te zorgen dat e-mails met succes worden geleverd, elimineren we spoofing van e-mailberichten, die vaak als spam worden gelabeld (zie E-mailspoofing). Alle e-mailberichten van Workfront worden vanuit `notifications@my.workfront.com` verzonden, inclusief zowel automatische waarschuwingen als gebruikerscommunicatie. Een voorbeeld-e-mail van Joan Harris ziet er zo uit in het gebied van uw e-mail:
 
-![ E-mail van het Voorbeeld ](assets/noreply.png)
+![&#x200B; E-mail van het Voorbeeld &#x200B;](assets/noreply.png)
 
-*wij adviseren hoogst dat u uit aan uw team van IT* reist om ervoor te zorgen dat e-mail van `notifications@my.workfront.com` niet voor inkomende e-mail aan uw systeem zal worden geblokkeerd. U kunt [ ook van verwijzingen voorzien vormt de lijst van gewenste personen van uw firewall ](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md) voor details over welke IP adressen ons verkeer en e-mail uit komen.
+*wij adviseren hoogst dat u uit aan uw team van IT* reist om ervoor te zorgen dat e-mail van `notifications@my.workfront.com` niet voor inkomende e-mail aan uw systeem zal worden geblokkeerd. U kunt [&#x200B; ook van verwijzingen voorzien vormt de lijst van gewenste personen van uw firewall &#x200B;](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md) voor details over welke IP adressen ons verkeer en e-mail uit komen.
 
 ## Binnenkomende e-mailantwoorden op meldingen (POP-antwoord)
 
@@ -31,4 +31,4 @@ Met bepaalde e-mailberichten kunnen gebruikers via e-mail reageren en het antwoo
 
 E-mailberichten die rechtstreeks afkomstig zijn van het Workfront Proof-systeem worden niet gewijzigd. Je blijft deze e-mailberichten ontvangen zoals je in het verleden hebt gedaan.
 
-Als u andere vragen of ongerustheid hebt, gelieve te contacteren het [ Team van de Steun van Workfront ](https://experienceleague.adobe.com/nl?support-tab=home#support).
+Als u andere vragen of ongerustheid hebt, gelieve te contacteren het [&#x200B; Team van de Steun van Workfront &#x200B;](https://experienceleague.adobe.com/nl?support-tab=home#support).

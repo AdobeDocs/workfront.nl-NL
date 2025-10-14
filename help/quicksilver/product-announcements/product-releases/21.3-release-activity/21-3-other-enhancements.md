@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Op deze pagina worden alle andere verbeteringen beschreven die zijn aangebracht met de versie 21.3 voor de voorvertoningsomgeving. Deze verbeteringen zijn in de week van 21 juli 2021 beschikbaar gesteld in de productieomgeving.
 
-Voor een lijst van alle veranderingen beschikbaar met de versie 21.3, zie [ overzicht van de Versie 21.3 ](../../../product-announcements/product-releases/21.3-release-activity/21-3-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar met de versie 21.3, zie [&#x200B; overzicht van de Versie 21.3 &#x200B;](../../../product-announcements/product-releases/21.3-release-activity/21-3-release-overview.md).
 
 ## Nieuwe ontwerpinstellingen voor mobiele apps
 
@@ -33,7 +33,7 @@ De volgende verbeteringen zijn toegevoegd aan het thuisgebied in de mobiele app 
 
 De volgende artikelen worden bijgewerkt wanneer de app wordt uitgebracht naar de App-winkels:
 
-* [ Adobe Workfront voor iOS ](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md)
+* [&#x200B; Adobe Workfront voor iOS &#x200B;](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md)
 * [Adobe Workfront voor Android](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md)
 
 ## Gebeurtenisabonnementfilters
@@ -44,4 +44,4 @@ De volgende artikelen worden bijgewerkt wanneer de app wordt uitgebracht naar de
 
 Filters voor gebeurtenisabonnementen zijn nu ingeschakeld in voorvertoningsomgevingen. Filteren met gebeurtenisabonnementen kan worden gebruikt om ervoor te zorgen dat u alleen relevante berichten ontvangt. Het creëren van filters voor uw abonnementen kan het aantal berichten beduidend verminderen dat uw eindpunt moet verbruiken.
 
-Meer over gebeurtenisabonnementen leren zie [ Abonnement API van de Gebeurtenis ](../../../wf-api/general/event-subs-api.md) en [ FAQs - de Abonnementen van de Gebeurtenis ](../../../wf-api/general/event-subs-faq.md).
+Meer over gebeurtenisabonnementen leren zie [&#x200B; Abonnement API van de Gebeurtenis &#x200B;](../../../wf-api/general/event-subs-api.md) en [&#x200B; FAQs - de Abonnementen van de Gebeurtenis &#x200B;](../../../wf-api/general/event-subs-faq.md).

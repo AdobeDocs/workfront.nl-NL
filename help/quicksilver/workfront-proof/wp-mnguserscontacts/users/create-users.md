@@ -18,11 +18,11 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [ het Bewijzen ](../../../review-and-approve-work/proofing/proofing.md).
+>Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [&#x200B; het Bewijzen &#x200B;](../../../review-and-approve-work/proofing/proofing.md).
 
 Als [!DNL Workfront Proof] beheerder kunt u nieuwe gebruikers maken.
 
-Voor informatie over beheerderrechten, zie [ Profielen van de Toestemmingen van de Bewijs in  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md).
+Voor informatie over beheerderrechten, zie [&#x200B; Profielen van de Toestemmingen van de Bewijs in  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md).
 
 >[!NOTE]
 >
@@ -41,7 +41,7 @@ U kunt een nieuwe gebruiker maken of een gast converteren naar een gebruiker met
    * Klik op **[!UICONTROL Contacts]** in het navigatiemenu links, klik op **[!UICONTROL + New]** en klik vervolgens op **[!UICONTROL New user]** .
 *Het dialoogvenster Nieuwe gebruiker wordt weergegeven.
 
-1. In het **[!UICONTROL New User]** vakje dat verschijnt, typ de informatie van de persoon en plaats configuratieopties zoals die in [ worden beschreven vormt de Informatie van de Gebruiker gebruikend  [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/users/configure-user-info.md).
+1. In het **[!UICONTROL New User]** vakje dat verschijnt, typ de informatie van de persoon en plaats configuratieopties zoals die in [&#x200B; worden beschreven vormt de Informatie van de Gebruiker gebruikend  [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/users/configure-user-info.md).
 
 1. Klik op **[!UICONTROL Create]**.
 
@@ -49,12 +49,12 @@ U kunt een nieuwe gebruiker maken of een gast converteren naar een gebruiker met
 
 Gasten zijn gebruikers die geen [!DNL Workfront Proof] -account met licentie hebben. Als een gast een upgrade uitvoert naar een gebruikersaccount met licentie, moet u een gastaccount handmatig converteren naar een gebruiker met licentie.
 
-Voor meer informatie over Gasten en gebruikers, zie [ Gebruikers, Leden, en Gasten in  [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/contacts/use-members-guests.md) begrijpen.
+Voor meer informatie over Gasten en gebruikers, zie [&#x200B; Gebruikers, Leden, en Gasten in  [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/contacts/use-members-guests.md) begrijpen.
 
 1. Klik op **[!UICONTROL Contacts]** in het navigatiemenu links.
 1. Klik op het pictogram **[!UICONTROL More]** rechts van de gast die u naar een gebruiker wilt converteren en klik vervolgens op **[!UICONTROL Convert to user]** .
-   ![ Screenshot_2018-03-30_14-08-35.png ](assets/screenshot-2018-03-30-14-08-35-350x143.png)
+   ![&#x200B; Screenshot_2018-03-30_14-08-35.png &#x200B;](assets/screenshot-2018-03-30-14-08-35-350x143.png)
 
-1. In het **[!UICONTROL New User]** dialoogvakje dat toont, plaats configuratieopties voor de gebruiker, zoals die in [ wordt beschreven vormt de Informatie van de Gebruiker gebruikend  [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/users/configure-user-info.md).
+1. In het **[!UICONTROL New User]** dialoogvakje dat toont, plaats configuratieopties voor de gebruiker, zoals die in [&#x200B; wordt beschreven vormt de Informatie van de Gebruiker gebruikend  [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/users/configure-user-info.md).
 
 1. Klik op **[!UICONTROL Convert to User]**.

@@ -17,7 +17,7 @@ ht-degree: 0%
 
 In de weergave Taakgeschiedenis hebben Workfront-beheerders toegang tot gedetailleerde records van elke gegevensupdate. Deze records bieden waardevolle insight in de taken die uw gegevens up-to-date houden en helpen u ideale tijdsbestekken te maken voor het uitvoeren van processen en het vernieuwen van uw zakelijke visualisaties.
 
-![ de mening van de Geschiedenis van de Baan ](assets/job-history-overview.png)
+![&#x200B; de mening van de Geschiedenis van de Baan &#x200B;](assets/job-history-overview.png)
 
 De de meningskolommen van de Geschiedenis van de Baan bevatten de volgende informatie:
 
@@ -25,7 +25,7 @@ De de meningskolommen van de Geschiedenis van de Baan bevatten de volgende infor
 * **SCHEDULED_TIME**: Toont de begintijd van de baan.
 * **COMPLETED_TIME**: Toont de de voltooiingstijd van de baan.
 * **LATEST_FLAG**: Wijst op als de baan deel van meest recente verfrist zich.
-* **STAAT**: Toont de status van de baan. Voor meer, zie de volgende sectie in dit artikel: [ Beschikbare baanstatussen ](#available-job-statuses).
+* **STAAT**: Toont de status van de baan. Voor meer, zie de volgende sectie in dit artikel: [&#x200B; Beschikbare baanstatussen &#x200B;](#available-job-statuses).
 * **LAST_UPDATED**: De laatste bijgewerkte timestamp van de baan.
 
 >[!NOTE]

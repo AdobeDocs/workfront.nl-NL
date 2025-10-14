@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Op deze pagina worden alle wijzigingen beschreven die zijn aangebracht in Projectverbeteringen in de release van 2019.3. Het werd in de week van 19 augustus 2019 beschikbaar gesteld in de productieomgeving.
 
-Voor een lijst van alle veranderingen die in 2019.3 worden aangebracht, zie [ 2019.3 overzicht van de versieactiviteit ](../../../../product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-release-activity-overview.md).
+Voor een lijst van alle veranderingen die in 2019.3 worden aangebracht, zie [&#x200B; 2019.3 overzicht van de versieactiviteit &#x200B;](../../../../product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-release-activity-overview.md).
 
 ## Het weergavetype van een veld in een aangepast formulier wijzigen
 
@@ -73,13 +73,13 @@ Vóór deze verbetering werden de nieuwe lijsten alleen toegepast op:
 * Een takenlijst
 * Een lijst van projecten
 
-Voor informatie over het bekijken van punten in een lijst, zie [ begonnen worden met lijsten in Adobe Workfront ](../../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
+Voor informatie over het bekijken van punten in een lijst, zie [&#x200B; begonnen worden met lijsten in Adobe Workfront &#x200B;](../../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
 
 ## Gantt bewerken zonder een speciale bewerkingsmodus in te schakelen
 
 U kunt het Gantt-diagram van de takenlijst nu bewerken wanneer Automatisch opslaan is ingeschakeld of niet. U kunt wijzigingen niet ongedaan maken wanneer de schakeloptie is ingeschakeld. In dit geval worden de wijzigingen die u in het project aanbrengt, automatisch opgeslagen.
 
-Voor informatie over het uitgeven van de grafiek van Gantt van de taaklijst, zie [ informatie van de Update in de Grafiek van Gantt van de taaklijst ](../../../../manage-work/gantt-chart/use-the-gantt-chart/update-info-task-list-gantt.md).
+Voor informatie over het uitgeven van de grafiek van Gantt van de taaklijst, zie [&#x200B; informatie van de Update in de Grafiek van Gantt van de taaklijst &#x200B;](../../../../manage-work/gantt-chart/use-the-gantt-chart/update-info-task-list-gantt.md).
 
 ## Het tabblad Issues verwijderen van het Kanban-bord
 
@@ -104,9 +104,9 @@ U kunt dit besluit of op het systeemniveau, als beheerder van Workfront, of op h
 
 Vóór deze verandering, de tijd van de Primaire Ontvanger heeft altijd de geplande data van de taak aangepast, als de Beperking van de Taak voor te wijzigen data toestaat.
 
-Voor informatie over de systeem-vlakke Tijd van de Gebruiker van het plaatsen, zie [ systeem-brede projectvoorkeur ](../../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) vormen.
+Voor informatie over de systeem-vlakke Tijd van de Gebruiker van het plaatsen, zie [&#x200B; systeem-brede projectvoorkeur &#x200B;](../../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) vormen.
 
-Voor informatie over de project-vlakke Tijd van de Gebruiker van het plaatsen, zie [ projecten ](../../../../manage-work/projects/manage-projects/edit-projects.md) uitgeven.
+Voor informatie over de project-vlakke Tijd van de Gebruiker van het plaatsen, zie [&#x200B; projecten &#x200B;](../../../../manage-work/projects/manage-projects/edit-projects.md) uitgeven.
 
 >[!NOTE]
 >
@@ -127,7 +127,7 @@ Ook, als u rechten hebt om een taak of een kwestie uit te geven maar u niet aan 
 
 Voorheen konden Voorwaarden niet worden aangepast of gewijzigd en alleen gebruikers konden de Voorwaarde van een taak of uitgave wijzigen als ze eraan waren toegewezen.
 
-Voor meer informatie, zie [ de voorwaarden van de Douane ](../../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/custom-conditions.md).
+Voor meer informatie, zie [&#x200B; de voorwaarden van de Douane &#x200B;](../../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/custom-conditions.md).
 
 >[!NOTE]
 >
@@ -157,7 +157,7 @@ Als het object deel uitmaakt van een project, wordt uw opmerking over het docume
 
 Eerder werden opmerkingen voor updates alleen weergegeven op het tabblad Updates voor het document.
 
-Voor meer informatie, zie het werk van de sectie [ Update ](../../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md#updates) in het artikel [ Werk van de Update ](../../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+Voor meer informatie, zie het werk van de sectie [&#x200B; Update &#x200B;](../../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md#updates) in het artikel [&#x200B; Werk van de Update &#x200B;](../../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 >[!NOTE]
 >
@@ -169,9 +169,9 @@ Voor meer informatie, zie het werk van de sectie [ Update ](../../../../workfron
 
 Wanneer u een gebruiker aan een taak of een kwestie toewijst, kunt u nu een in-linewaarschuwing zien als de geselecteerde gebruiker tijd van geplande tijd tussen de geplande data van de taak of de kwestie heeft.
 
-Voor informatie over het toewijzen van taken, zie [ Taken toewijzen ](../../../../manage-work/tasks/assign-tasks/assign-tasks-1.md)
+Voor informatie over het toewijzen van taken, zie [&#x200B; Taken toewijzen &#x200B;](../../../../manage-work/tasks/assign-tasks/assign-tasks-1.md)
 
-Voor informatie over tijd weg, zie [ persoonlijke tijd van ](../../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md) vormen.
+Voor informatie over tijd weg, zie [&#x200B; persoonlijke tijd van &#x200B;](../../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md) vormen.
 
 >[!NOTE]
 >
@@ -205,5 +205,5 @@ Nu, wanneer u een nieuw verzoek aan een Rij van het Verzoek voorlegt, gaat u de 
 
 Voorafgaand aan deze wijziging voert u de naam van de aanvraag in het veld Onderwerp in.
 
-Voor informatie over het creëren van verzoeken, zie [ Workfront verzoeken ](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md) creëren en voorleggen.
+Voor informatie over het creëren van verzoeken, zie [&#x200B; Workfront verzoeken &#x200B;](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md) creëren en voorleggen.
 

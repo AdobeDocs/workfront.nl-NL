@@ -21,7 +21,7 @@ Het proces om timesheets goed te keuren geeft managers zichtbaarheid in de werku
 
 Adobe Workfront biedt de mogelijkheid om timesheet-goedkeuringen te configureren voor ondersteuning op dit gebied.
 
-Voor informatie bij het voorleggen van een timesheet, zie [ een timesheet voor goedkeuring ](../../timesheets/create-and-manage-timesheets/submit-timesheet-for-approval.md) voorleggen.
+Voor informatie bij het voorleggen van een timesheet, zie [&#x200B; een timesheet voor goedkeuring &#x200B;](../../timesheets/create-and-manage-timesheets/submit-timesheet-for-approval.md) voorleggen.
 
 ## Toegangsvereisten
 
@@ -53,7 +53,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-*For informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*For informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -63,16 +63,16 @@ Meestal worden timesheets goedgekeurd door functionele managers of personeel. Ti
 
 Er wordt een fiatteur voor het tijdlijnprofiel gedefinieerd. U moet een licentie voor het abonnement hebben die u als fiatteur wilt opgeven.
 
-Voor meer informatie over het aanwijzen van timesheet fiatteurs, zie de sectie [ creeer of geef een timesheet profiel ](../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md#create) in artikel [ uit, geef, en wijs timesheet profielen ](../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md) toe.
+Voor meer informatie over het aanwijzen van timesheet fiatteurs, zie de sectie [&#x200B; creeer of geef een timesheet profiel &#x200B;](../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md#create) in artikel [&#x200B; uit, geef, en wijs timesheet profielen &#x200B;](../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md) toe.
 
 ## Een tijdschema goedkeuren
 
-U kunt alle tijdbladen goedkeuren die zijn verzonden waar u als fiatteur bent aangewezen. Wanneer een timesheet voor goedkeuring wordt voorgelegd, is timesheet vermeld in **Mijn goedkeurt** widget in uw **3&rbrace; gebied van het Huis.** Voor meer informatie, zie [ het goedkeuren van het werk ](../../review-and-approve-work/manage-approvals/approving-work.md).
+U kunt alle tijdbladen goedkeuren die zijn verzonden waar u als fiatteur bent aangewezen. Wanneer een timesheet voor goedkeuring wordt voorgelegd, is timesheet vermeld in **Mijn goedkeurt** widget in uw **3&rbrace; gebied van het Huis.** Voor meer informatie, zie [&#x200B; het goedkeuren van het werk &#x200B;](../../review-and-approve-work/manage-approvals/approving-work.md).
 
 Als de volgende meldingsinstellingen aanwezig zijn, ontvangt de gebruiker die het tijdspad ter goedkeuring indient een e-mail nadat een tijdsplaat is goedgekeurd:
 
-* De beheerder van Workfront heeft de Goedkeuring van de Tijdopmaak aan Gebruiker en de Afwijzing van de Chronologie aan de gebeurtenismanagers van de Gebruiker toegelaten. Voor informatie over het toelaten van gebeurtenisberichten, zie [ de berichttypes van de Gebeurtenis ](../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
-* Mijn timesheet wordt goedgekeurd persoonlijk bericht wordt toegelaten op de de profielpagina van de gebruiker. Voor meer informatie, zie [ uw eigen e-mailberichten wijzigen ](/help/quicksilver/workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+* De beheerder van Workfront heeft de Goedkeuring van de Tijdopmaak aan Gebruiker en de Afwijzing van de Chronologie aan de gebeurtenismanagers van de Gebruiker toegelaten. Voor informatie over het toelaten van gebeurtenisberichten, zie [&#x200B; de berichttypes van de Gebeurtenis &#x200B;](../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
+* Mijn timesheet wordt goedgekeurd persoonlijk bericht wordt toegelaten op de de profielpagina van de gebruiker. Voor meer informatie, zie [&#x200B; uw eigen e-mailberichten wijzigen &#x200B;](/help/quicksilver/workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 ### Een tijdpagina goedkeuren vanuit het gebied Timesheets
 
@@ -94,7 +94,7 @@ Het **gebied van Tijdopnemers** opent.
    >
    >De Mijn optie van Goedkeuringen Timesheet toont niet bij de bovenkant van timesheet lijst of in de lijst van filters als uw beheerder van Workfront of een groepsbeheerder de Mijn filter van de Goedkeuringen van Timesheet van of de Controles van de Lijst in het gebied van de Opstelling of van uw Malplaatje van de Lay-out verwijderde.
    >
-   >Voor meer informatie zie [ Filters, Meningen, en Groepen aanpassen gebruikend een lay-outmalplaatje ](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
+   >Voor meer informatie zie [&#x200B; Filters, Meningen, en Groepen aanpassen gebruikend een lay-outmalplaatje &#x200B;](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
    >   
    >
 
@@ -122,7 +122,7 @@ Het **gebied van Tijdopnemers** opent.
 
 Het gebied Home wordt geopend.
 
-1. Verzeker u **Mijn goedkeurt** widget hebt die aan uw gebied van het Huis wordt toegevoegd. Voor meer informatie, zie [ toevoegen, geef, of verwijder widgets in Nieuw Huis ](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md) uit.
+1. Verzeker u **Mijn goedkeurt** widget hebt die aan uw gebied van het Huis wordt toegevoegd. Voor meer informatie, zie [&#x200B; toevoegen, geef, of verwijder widgets in Nieuw Huis &#x200B;](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md) uit.
 1. Zoek naar een timesheet goedkeuring in uw Mijn widget Goedkeuringen.
 1. (Facultatief) breid het drop-down menu aan het recht van goedkeurt of verwerpt knopen uit om een commentaar over uw besluit toe te voegen, dan klik **toevoegen**.
 1. Klik op een van de volgende knoppen om een goedkeuringsbesluit te nemen:

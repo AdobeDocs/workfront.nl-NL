@@ -69,7 +69,7 @@ De volgende bronnen zijn gewijzigd voor API-versie 13.
 
 Een voorwerp AccessLevel wordt geassocieerd met gebruikers, en beschrijft de reeks van AccessLevelPermissions die bepalen wat de gebruiker tot toegang heeft.
 
-Voor meer informatie over toegangsniveaus, zie [ hoe de toegangsniveaus ](../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels.md) werken.
+Voor meer informatie over toegangsniveaus, zie [&#x200B; hoe de toegangsniveaus &#x200B;](../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels.md) werken.
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -89,7 +89,7 @@ Voor meer informatie over toegangsniveaus, zie [ hoe de toegangsniveaus ](../../
 
 Een BreadCrumb-object vertegenwoordigt een element in de boven-/onderliggende hiërarchie van een Workfront-werkitem. Broodkruimels wijzen erop hoe een het werkpunt in de grotere structuur van Portfolio&#39;s, Projecten, Projecten, en Taken past.
 
-Voor meer informatie over broodkruimels, zie [ Overzicht van Broodkruimels in de nieuwe ervaring van Adobe Workfront ](../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md)
+Voor meer informatie over broodkruimels, zie [&#x200B; Overzicht van Broodkruimels in de nieuwe ervaring van Adobe Workfront &#x200B;](../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md)
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -109,7 +109,7 @@ Voor meer informatie over broodkruimels, zie [ Overzicht van Broodkruimels in de
 
 Een object BurndownEvent vertegenwoordigt een object dat de bundown van een herhaling wijzigt.
 
-Voor meer informatie over burndown, zie [ Burndown ](../../agile/use-scrum-in-an-agile-team/burndown/burndown.md).
+Voor meer informatie over burndown, zie [&#x200B; Burndown &#x200B;](../../agile/use-scrum-in-an-agile-team/burndown/burndown.md).
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -166,7 +166,7 @@ Een object CustomerPreferences vertegenwoordigt de set voorkeuren die een klant 
 
 Een object DocumentVersion vertegenwoordigt een specifieke versie van een bestand (zoals geschreven materiaal, afbeeldingen of andere vormen van informatie).
 
-Voor meer informatie over documentversies, zie [ een nieuwe versie van een document ](../../documents/managing-documents/upload-new-document-version.md) uploaden.
+Voor meer informatie over documentversies, zie [&#x200B; een nieuwe versie van een document &#x200B;](../../documents/managing-documents/upload-new-document-version.md) uploaden.
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -192,7 +192,7 @@ Voor meer informatie over documentversies, zie [ een nieuwe versie van een docum
 
 Een object Group vertegenwoordigt een set gebruikers en teams. Groepen vertegenwoordigen vaak de afdelingsstructuur.
 
-Voor meer informatie over groepen, zie [ Groepen vs. teams in Adobe Workfront ](../../people-teams-and-groups/work-with-groups-and-teams/understanding-differences-and-similarities-between-groups-and-teams.md).
+Voor meer informatie over groepen, zie [&#x200B; Groepen vs. teams in Adobe Workfront &#x200B;](../../people-teams-and-groups/work-with-groups-and-teams/understanding-differences-and-similarities-between-groups-and-teams.md).
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -241,7 +241,7 @@ De middelen JournalEntry voegde de vlag toe RAPPORTABLE.
 
 Adobe Workfront-beheerders of groepsbeheerders kunnen sjablonen maken om de lay-outelementen in Adobe Workfront aan te passen. Het object LayoutTemplate is specifiek voor Adobe Workfront Classic.
 
-Voor het voorwerp dat lay-outmalplaatjes in de nieuwe ervaring van Adobe Workfront vertegenwoordigt, zie [ UITemplate ](#uitemplate)
+Voor het voorwerp dat lay-outmalplaatjes in de nieuwe ervaring van Adobe Workfront vertegenwoordigt, zie [&#x200B; UITemplate &#x200B;](#uitemplate)
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -261,7 +261,7 @@ Voor het voorwerp dat lay-outmalplaatjes in de nieuwe ervaring van Adobe Workfro
 
 Een object LinkedFolder vertegenwoordigt een map die is gekoppeld vanuit een externe documentprovider, zoals Google Drive of Dropbox.
 
-Voor meer informatie over Gekoppelde Omslagen, zie [ documenten van de Verbinding van externe toepassingen ](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
+Voor meer informatie over Gekoppelde Omslagen, zie [&#x200B; documenten van de Verbinding van externe toepassingen &#x200B;](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -342,7 +342,7 @@ Een ProofApproval-object vertegenwoordigt een goedkeuring die rechtstreeks is ve
 
 Een voorwerp QueueDef vertegenwoordigt een Rij, die een Project is dat aan het gebied van de Helpdesk is gepubliceerd om gebruikers toe te staan om Kwesties aan het voor te leggen.
 
-Voor meer informatie over de Rijen van het Verzoek, zie [ een Rij van het Verzoek ](../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md) creëren.
+Voor meer informatie over de Rijen van het Verzoek, zie [&#x200B; een Rij van het Verzoek &#x200B;](../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md) creëren.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -459,7 +459,7 @@ Een voorwerp Timesheet vertegenwoordigt virtuele timecard dat Gebruikers toestaa
 
 Adobe Workfront-beheerders of groepsbeheerders kunnen sjablonen maken om de lay-outelementen in Adobe Workfront aan te passen. Het UITemplate-object is specifiek voor de nieuwe Adobe Workfront-ervaring.
 
-Voor het voorwerp dat lay-outmalplaatjes in Klassiek Adobe Workfront vertegenwoordigt, zie [ LayoutTemplate ](#layouttemplate).
+Voor het voorwerp dat lay-outmalplaatjes in Klassiek Adobe Workfront vertegenwoordigt, zie [&#x200B; LayoutTemplate &#x200B;](#layouttemplate).
 
 <table style="table-layout:auto"> 
  <col> 

@@ -22,9 +22,9 @@ De volgende functionaliteit is momenteel niet beschikbaar in Voorproef of Beta, 
 
 Wanneer een gebruiker u nu aan een proef toevoegt en of de rol van fiatteur of Revisor &amp; van de fiatteur (of van de stand-alone toepassing ProofHQ of door Geautomatiseerde Werkschema binnen Workfront te gebruiken) verleent, wordt het goedkeuringsverzoek getoond op het lusje van Goedkeuringen in uw Mijn Werkgebied. Vervolgens kunt u het bewijs bekijken en rechtstreeks vanuit Workfront een goedkeuringsbesluit nemen over het bewijs.
 
-Voor informatie over hoe te om gebruikers aan een proef toe te voegen gebruikend Geautomatiseerde Werkschema, zie [ Een bewijs binnen Adobe Workfront ](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md) in [ delen een proef binnen Adobe Workfront ](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md).
+Voor informatie over hoe te om gebruikers aan een proef toe te voegen gebruikend Geautomatiseerde Werkschema, zie [&#x200B; Een bewijs binnen Adobe Workfront &#x200B;](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md) in [&#x200B; delen een proef binnen Adobe Workfront &#x200B;](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md).
 
-Voor informatie over hoe te om goedkeuringsbesluiten van het Mijn gebied van het Werk te nemen, zie [ het goedkeuren van het werk ](../../../../review-and-approve-work/manage-approvals/approving-work.md) in [ het goedkeuren van het werk ](../../../../review-and-approve-work/manage-approvals/approving-work.md). 
+Voor informatie over hoe te om goedkeuringsbesluiten van het Mijn gebied van het Werk te nemen, zie [&#x200B; het goedkeuren van het werk &#x200B;](../../../../review-and-approve-work/manage-approvals/approving-work.md) in [&#x200B; het goedkeuren van het werk &#x200B;](../../../../review-and-approve-work/manage-approvals/approving-work.md). 
 
 ## Verslag over het proefdrukken van goedkeuringen in het gebied Mijn werk (Workfront)
 
@@ -38,9 +38,9 @@ De goedkeuringsrapporten bevatten de volgende informatie:
 * Proef-id
 * Aanmaakdatum proefdrukken
 
-U hebt toegang tot deze goedkeuring wanneer het creëren van een rapport dat op een voorwerp wordt gebaseerd, zoals die in [ wordt beschreven creeer een douanerapport ](../../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+U hebt toegang tot deze goedkeuring wanneer het creëren van een rapport dat op een voorwerp wordt gebaseerd, zoals die in [&#x200B; wordt beschreven creeer een douanerapport &#x200B;](../../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
-Voor meer informatie over het Proef keurt objecten rapport goed, zie [ voorwerpen in Adobe Workfront ](../../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md) sectie in [ begrijpen voorwerpen in Adobe Workfront ](../../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md) begrijpen.
+Voor meer informatie over het Proef keurt objecten rapport goed, zie [&#x200B; voorwerpen in Adobe Workfront &#x200B;](../../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md) sectie in [&#x200B; begrijpen voorwerpen in Adobe Workfront &#x200B;](../../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md) begrijpen.
 
 ## Automatisch een nieuwe versie van een documentproef genereren met behulp van slepen en neerzetten (Workfront)
 
@@ -58,7 +58,7 @@ Nu kunt u alle proefdrukgebruikers in uw systeem inschakelen zodat ze via de Wor
 
 Deze optie is niet standaard ingeschakeld. Als u deze optie wilt inschakelen, neemt u contact op met de technische ondersteuning van Workfront en vraagt u deze toegang voor alle proefgebruikers in uw systeem.
 
-Voor meer informatie, zie [ Toegang Workfront Proof van Adobe Workfront ](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/access-wf-proof-in-workfront.md) binnen  [ Toegang Workfront Proof van Adobe Workfront ](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/access-wf-proof-in-workfront.md).
+Voor meer informatie, zie [&#x200B; Toegang Workfront Proof van Adobe Workfront &#x200B;](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/access-wf-proof-in-workfront.md) binnen  [&#x200B; Toegang Workfront Proof van Adobe Workfront &#x200B;](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/access-wf-proof-in-workfront.md).
 
 Voorafgaand aan deze wijziging had alleen de Workfront-beheerder directe toegang tot de ProofHQ-site vanuit de Workfront-interface.
 
@@ -76,15 +76,15 @@ Workfront schakelt nu alle e-mailcommunicatie uit vanuit de omgeving van de voor
 
 Zie de volgende informatie voor meer informatie:
 
-* [ het Milieu van de Voorproef van Adobe Workfront zandbak ](../../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md) in [ het Milieu van de Voorproef van Adobe Workfront zandbak ](../../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md).
+* [&#x200B; het Milieu van de Voorproef van Adobe Workfront zandbak &#x200B;](../../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md) in [&#x200B; het Milieu van de Voorproef van Adobe Workfront zandbak &#x200B;](../../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md).
 
-* &quot;Ontvangend E-mail van de Douane verfrist Sandbox&quot;in [ de Douane van Adobe Workfront vernieuwt Sandbox milieu ](../../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md)
+* &quot;Ontvangend E-mail van de Douane verfrist Sandbox&quot;in [&#x200B; de Douane van Adobe Workfront vernieuwt Sandbox milieu &#x200B;](../../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md)
 
 ## Outlook voor Office 365 (Workfront)
 
 De Workfront Add-In voor Outlook 365 is nu beschikbaar. 
 
-Voor meer informatie over het gebruiken van toe:voegen-binnen, zie [ het Gebruiken van Workfront toe:voegen-binnen met Vooruitzichten voor Bureau 365.](https://support.workfront.com/hc/en-us/sections/205046167)
+Voor meer informatie over het gebruiken van toe:voegen-binnen, zie [&#x200B; het Gebruiken van Workfront toe:voegen-binnen met Vooruitzichten voor Bureau 365.](https://support.workfront.com/hc/en-us/sections/205046167)
 
 ## Zoeken in de mobiele app (Workfront)
 
@@ -106,7 +106,7 @@ Zie voor meer informatie over de mobiele app.
 
 U kunt nu zoeken in PDF-documenten, Office-documenten en statische webpagina&#39;s.
 
-Zie voor meer informatie  [ inhoud van het Onderzoek binnen een proef ](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/search-in-a-proof.md).
+Zie voor meer informatie  [&#x200B; inhoud van het Onderzoek binnen een proef &#x200B;](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/search-in-a-proof.md).
 
 ## Bijgewerkte algemene navigatiebalk (ProofHQ)
 
@@ -121,13 +121,13 @@ U kunt nu de volgende aanvullende informatie opnemen in aangepaste weergaven:
 
 * **ontvanger-Vlakke Gegevens**\
   U kunt aangepaste weergaven configureren om de volgende kolommen op te nemen met betrekking tot gegevens op geadresseerdenniveau: Rol, Positie, E-mailwaarschuwingen, Mijn deadline, Datum toegevoegd aan proefafdruk en Zoeken op ontvangers.\
-  Voor meer informatie, zie [ creëren en leiden de Mening van de Douane in het Bewijs van Workfront Proof ](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md).
+  Voor meer informatie, zie [&#x200B; creëren en leiden de Mening van de Douane in het Bewijs van Workfront Proof &#x200B;](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md).
 * **het Beproeven Gegevens**\
   U kunt aangepaste weergaven zodanig configureren dat deze de volgende kolommen bevatten met betrekking tot proefdrukgegevens: Aantal opmerkingen (alle versies), Grootte op schijf, Type proef, Aantal bestanden per versie, Gegevens opmerkingsbijlage (grootte op schijf, bestandsnaam) en Filteren op submap.\
-  Voor meer informatie, zie [ creëren en leiden de Mening van de Douane in het Bewijs van Workfront Proof ](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md).
+  Voor meer informatie, zie [&#x200B; creëren en leiden de Mening van de Douane in het Bewijs van Workfront Proof &#x200B;](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md).
 * **werkgebied-Vlakke Gegevens met betrekking tot Geautomatiseerde Werkschema&#39;s**\
   U kunt aangepaste weergaven zodanig configureren dat deze de volgende kolommen bevatten die betrekking hebben op afzonderlijke fasen van geautomatiseerde workflows: SOCD-status, Deadlines werkgebied, Naam actief werkgebied, Naam volgende werkgebied, Naam werkgebied en Sjabloon.\
-  Voor meer informatie, zie [ creëren en leiden de Mening van de Douane in het Bewijs van Workfront Proof ](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md).
+  Voor meer informatie, zie [&#x200B; creëren en leiden de Mening van de Douane in het Bewijs van Workfront Proof &#x200B;](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md).
 
 ## Verbeteringen in testrapporten (voorheen Analytics) (ProofHQ)
 
@@ -149,4 +149,4 @@ Functionaliteit die wordt vrijgegeven aan ProofHQ, is eerst beschikbaar om te te
 
 Dankzij deze nieuwe workflow voor het vrijgeven van functionaliteit voor Voorvertoning vóór productie kunt u beter worden voorbereid op toekomstige updates van uw ProofHQ-productieomgeving.
 
-Voor meer informatie over het milieu van de Voorproef ProofHQ, zie [ het Testen van Sandbox van de Voorproef Milieu - Workfront Proof ](../../../../workfront-proof/wp-getstarted/system-information/preview-sandbox.md).
+Voor meer informatie over het milieu van de Voorproef ProofHQ, zie [&#x200B; het Testen van Sandbox van de Voorproef Milieu - Workfront Proof &#x200B;](../../../../workfront-proof/wp-getstarted/system-information/preview-sandbox.md).

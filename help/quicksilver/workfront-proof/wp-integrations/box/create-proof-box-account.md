@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [ het Bewijzen ](../../../review-and-approve-work/proofing/proofing.md).
+>Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [&#x200B; het Bewijzen &#x200B;](../../../review-and-approve-work/proofing/proofing.md).
 
 Het is eenvoudig om proefdrukken en nieuwe proefdrukversies te maken via uw Box-account.
 
@@ -35,8 +35,8 @@ Het is eenvoudig om proefdrukken en nieuwe proefdrukversies te maken via uw Box-
 
    Er wordt een opmerking toegevoegd aan het bestand in het vak met een persoonlijke koppeling naar de proefdruk in [!DNL Workfront Proof] .
 
-   * Als u uw eigen aanmeldingspagina met het merk [!DNL Workfront Proof] hebt, gaat u naar die pagina in plaats van naar de standaard aanmeldingspagina van [!DNL Workfront Proof] . Zie [ Brandend ](https://support.workfront.com/hc/en-us/sections/115000921208-Branding) voor meer informatie.
-   * Als u de functionaliteit voor eenmalige aanmelding in uw [!DNL Workfront Proof] -account hebt ingeschakeld, gaat u naar de aanmeldingspagina voor SSO en wordt u gevraagd uw aanmeldingsgegevens voor Single Sign-On in te voeren, maar alleen als u hetzelfde e-mailadres gebruikt voor uw Box-account en [!DNL Workfront Proof] . Zie [ Enige Sign-On in  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/managing-security/single-sign-on-overview.md) voor meer informatie.
+   * Als u uw eigen aanmeldingspagina met het merk [!DNL Workfront Proof] hebt, gaat u naar die pagina in plaats van naar de standaard aanmeldingspagina van [!DNL Workfront Proof] . Zie [&#x200B; Brandend &#x200B;](https://support.workfront.com/hc/en-us/sections/115000921208-Branding) voor meer informatie.
+   * Als u de functionaliteit voor eenmalige aanmelding in uw [!DNL Workfront Proof] -account hebt ingeschakeld, gaat u naar de aanmeldingspagina voor SSO en wordt u gevraagd uw aanmeldingsgegevens voor Single Sign-On in te voeren, maar alleen als u hetzelfde e-mailadres gebruikt voor uw Box-account en [!DNL Workfront Proof] . Zie [&#x200B; Enige Sign-On in  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/managing-security/single-sign-on-overview.md) voor meer informatie.
    * Als u niet hetzelfde e-mailadres gebruikt voor uw [!DNL Box] -account en uw [!DNL Workfront Proof] -account, gaat u altijd naar de standaard [!DNL Workfront Proof] -aanmeldingspagina.
 
 ## Een nieuwe versie van een proefdruk maken via een bestand in [!DNL Box]

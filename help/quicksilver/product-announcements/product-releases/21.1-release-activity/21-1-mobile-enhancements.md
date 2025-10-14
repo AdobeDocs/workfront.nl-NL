@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Op deze pagina worden alle verbeteringen op het gebied van mobiele apparaten beschreven die bij de release 21.1 worden geleverd. Deze verbeteringen worden in de week van 15 februari 2021 beschikbaar gesteld in de mobiele winkels.
 
-Voor een lijst van alle veranderingen beschikbaar met de versie 21.1, zie [ overzicht van de versie 21.1 ](../../../product-announcements/product-releases/21.1-release-activity/21-1-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar met de versie 21.1, zie [&#x200B; overzicht van de versie 21.1 &#x200B;](../../../product-announcements/product-releases/21.1-release-activity/21-1-release-overview.md).
 
 ## Nieuwe breadcrubs in de Adobe Workfront-app
 
@@ -31,4 +31,4 @@ U kunt nu RTF-opmaak gebruiken in aangepaste formuliertekstvelden in de mobiele 
 
 Als uw organisatie SSO gebruikt, kunt u uw Gezicht ID of Vingerprint nu gebruiken om zich aan te melden bij de mobiele app van Workfront nadat u een time-out hebt vastgesteld. U moet zich aanvankelijk met uw geloofsbrieven van SSO niettemin aanmelden.
 
-Voor informatie over hoe te login aan Workfront mobiele app met SSO, zie [ Login aan Adobe Workfront ](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-in-to-workfront.md).
+Voor informatie over hoe te login aan Workfront mobiele app met SSO, zie [&#x200B; Login aan Adobe Workfront &#x200B;](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-in-to-workfront.md).

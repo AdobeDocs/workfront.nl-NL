@@ -17,7 +17,7 @@ ht-degree: 0%
 
 <!-- Audited: 2/2024 -->
 
-Met een geautomatiseerde workflow kunt u het controleproces eenvoudiger beheren als uw proces complex is of als u inhoud ter controle regelmatig naar dezelfde personen verzendt. De proefdruk gaat van stadium aan stadium en Adobe Workfront brengt elke gebruiker op de hoogte wanneer het hun beurt is om het te herzien. Voor meer informatie over Geautomatiseerde werkschema&#39;s, zie [ Geautomatiseerd overzicht van het Werkschema ](../../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md).
+Met een geautomatiseerde workflow kunt u het controleproces eenvoudiger beheren als uw proces complex is of als u inhoud ter controle regelmatig naar dezelfde personen verzendt. De proefdruk gaat van stadium aan stadium en Adobe Workfront brengt elke gebruiker op de hoogte wanneer het hun beurt is om het te herzien. Voor meer informatie over Geautomatiseerde werkschema&#39;s, zie [&#x200B; Geautomatiseerd overzicht van het Werkschema &#x200B;](../../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md).
 
 ## Toegangsvereisten
 
@@ -48,7 +48,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -139,7 +139,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
       Naast de opties **op proefverwezenlijking**, **op een specifieke datum en een tijd**, of **manueel**, kunt u een optie selecteren die van wat in de vorige stap afhankelijk is voorgekomen:
 
-      ![ activeer werkgebiedopties ](assets/activate-stage-options-for-stage-2-plus-350x177.png)
+      ![&#x200B; activeer werkgebiedopties &#x200B;](assets/activate-stage-options-for-stage-2-plus-350x177.png)
 
    1. Als u een werkgebiedoptie activeren hebt geselecteerd die afhankelijk is van wat er in de vorige stap is gebeurd, gebruikt u de opties die de activeringsinstelling lijken te configureren.
 
@@ -149,13 +149,13 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
    Aangezien u stadia aan de Geautomatiseerde Werkschema toevoegt, vormt een diagram op het scherm om hen te vertegenwoordigen:
 
-   ![ diagram van Stages ](assets/stages-diagram-350x213.png)
+   ![&#x200B; diagram van Stages &#x200B;](assets/stages-diagram-350x213.png)
 
-1. Ga met [ verder vormen e-mailmontages voor de proef ](#configure-email-settings-for-the-proof) hieronder.
+1. Ga met [&#x200B; verder vormen e-mailmontages voor de proef &#x200B;](#configure-email-settings-for-the-proof) hieronder.
 
 ## E-mailinstellingen configureren voor de proefdruk {#configure-email-settings-for-the-proof}
 
-1. In de **E-mail- bericht** sectie, selecteer of om e-mailberichten en een douanebericht naar de gebruikers te verzenden u in [ selecteerde creeer een geavanceerde proef met een Geautomatiseerd werkschema ](#workflow) vroeger in dit artikel:
+1. In de **E-mail- bericht** sectie, selecteer of om e-mailberichten en een douanebericht naar de gebruikers te verzenden u in [&#x200B; selecteerde creeer een geavanceerde proef met een Geautomatiseerd werkschema &#x200B;](#workflow) vroeger in dit artikel:
 
    <table>
       <tbody>
@@ -171,7 +171,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
       </table>
 
 
-1. Ga met [ verder vormen proefmontages ](#configure-proof-settings) hieronder.
+1. Ga met [&#x200B; verder vormen proefmontages &#x200B;](#configure-proof-settings) hieronder.
 
 ## Proofinginstellingen configureren {#configure-proof-settings}
 
@@ -230,6 +230,6 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 1. Nadat de proef wordt geproduceerd, klik **Open proef** om de het proef kijker te lanceren.
 
-   ![ Open proef ](assets/open-proof-350x132.png)
+   ![&#x200B; Open proef &#x200B;](assets/open-proof-350x132.png)
 
-   Gebruikers die geen proefdrukken op hun account hebben ingeschakeld, kunnen het document nog steeds bekijken en opmerkingen naar de proefdruk maken [ . ](../../../timesheets/config-timesheet-prefs/config-time-logged-hrs-days.md)
+   Gebruikers die geen proefdrukken op hun account hebben ingeschakeld, kunnen het document nog steeds bekijken en opmerkingen naar de proefdruk maken [&#x200B; . &#x200B;](../../../timesheets/config-timesheet-prefs/config-time-logged-hrs-days.md)

@@ -64,13 +64,13 @@ U moet het volgende hebben:
 
 Voordat u begint,
 
-* Uw Workfront-beheerder moet een Experience Manager-integratie configureren. Voor meer informatie, zie [ de integratie van Experience Manager Assets as a Cloud Service ](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md) vormen of [ vormen de integratie van de Hoofdzaak van Experience Manager Assets ](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
+* Uw Workfront-beheerder moet een Experience Manager-integratie configureren. Voor meer informatie, zie [&#x200B; de integratie van Experience Manager Assets as a Cloud Service &#x200B;](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md) vormen of [&#x200B; vormen de integratie van de Hoofdzaak van Experience Manager Assets &#x200B;](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
 
 ## Middelen van Experience Manager Assets of Elementen koppelen
 
 U kunt middelen van Experience Manager Assets of Elementen aan Workfront koppelen. Als het element eenmaal is gekoppeld, kunt u
 
-* [ Bewijs van een verbonden activa voor Experience Manager Assets of de Hoofdzaak van Activa ](../../documents/adobe-workfront-for-experience-manager-assets-essentials/proof-linked-asset-aem.md)
+* [&#x200B; Bewijs van een verbonden activa voor Experience Manager Assets of de Hoofdzaak van Activa &#x200B;](../../documents/adobe-workfront-for-experience-manager-assets-essentials/proof-linked-asset-aem.md)
 * [Een nieuwe versie van een document uploaden](../../documents/managing-documents/upload-new-document-version.md)
 
 1. Ga naar het **gebied van Documenten** in Workfront waar u het document wilt toevoegen.
@@ -82,7 +82,7 @@ U kunt middelen van Experience Manager Assets of Elementen aan Workfront koppele
 
 1. Selecteer de gewenste elementen.
 
-   ![ Uitgezocht een activa ](assets/select-an-asset.png)
+   ![&#x200B; Uitgezocht een activa &#x200B;](assets/select-an-asset.png)
 
 1. Klik **Uitgezocht**.
 
@@ -99,7 +99,7 @@ Machtigingen om afzonderlijke elementen in een map weer te geven, zijn afhankeli
 
 1. Selecteer de gewenste mappen.
 
-   ![ selecteer een omslag ](assets/select-a-folder.png)
+   ![&#x200B; selecteer een omslag &#x200B;](assets/select-a-folder.png)
 
 1. Klik **Uitgezocht**.
 
@@ -119,7 +119,7 @@ Een nieuwe versie koppelen van Elementen:
 
 1. Selecteer het gewenste element.
 
-   ![ Uitgezocht een activa ](assets/select-an-asset.png)
+   ![&#x200B; Uitgezocht een activa &#x200B;](assets/select-an-asset.png)
 
 1. Klik **Uitgezocht**.
 

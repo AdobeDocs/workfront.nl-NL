@@ -37,11 +37,11 @@ Het Adobe Workfront-revisieprogramma is een webbrowserextensie waarmee u interac
 
 Revisoren en fiatteurs moeten het Adobe Workfront-revisieprogramma installeren. in een van de volgende browsers:
 
-* [ uitbreiding Firefox ](https://addons.mozilla.org/en-US/firefox/addon/adobe-workfront-review-tool/)
+* [&#x200B; uitbreiding Firefox &#x200B;](https://addons.mozilla.org/en-US/firefox/addon/adobe-workfront-review-tool/)
 
-* [ de uitbreiding van Chrome ](https://chromewebstore.google.com/detail/adobe-workfront-review-to/lhdepbgeilldghlfnankdnponhljpgml)
+* [&#x200B; de uitbreiding van Chrome &#x200B;](https://chromewebstore.google.com/detail/adobe-workfront-review-to/lhdepbgeilldghlfnankdnponhljpgml)
 
-* [ Edge ](https://microsoftedge.microsoft.com/addons/detail/adobe-workfront-review-to/llhapmaiiddmcamgeapaipjpagnoijen)
+* [&#x200B; Edge &#x200B;](https://microsoftedge.microsoft.com/addons/detail/adobe-workfront-review-to/llhapmaiiddmcamgeapaipjpagnoijen)
 
 
 Als u wilt dat interactieve proefdrukken automatisch worden geopend in het Adobe Workfront-revisieprogramma, moet een Workfront-beheerder de proefdrukinstellingen vooraf bijwerken, zoals in de onderstaande secties wordt beschreven.

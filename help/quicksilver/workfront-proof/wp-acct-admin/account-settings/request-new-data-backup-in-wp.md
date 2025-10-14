@@ -18,13 +18,13 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [ het Bewijzen ](../../../review-and-approve-work/proofing/proofing.md).
+>Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [&#x200B; het Bewijzen &#x200B;](../../../review-and-approve-work/proofing/proofing.md).
 
-Nadat u om een back-up van testgegevens hebt gevraagd, kunt u een nieuwe back-up van de gegevens vragen. Voor meer informatie over gegevenssteunen, zie [ file Uw  [!DNL Workfront Proof]  Gegevens ](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/back-up-data.md).
+Nadat u om een back-up van testgegevens hebt gevraagd, kunt u een nieuwe back-up van de gegevens vragen. Voor meer informatie over gegevenssteunen, zie [&#x200B; file Uw  [!DNL Workfront Proof]  Gegevens &#x200B;](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/back-up-data.md).
 
 1. Klik in de rechterbovenhoek van het venster op **[!UICONTROL Settings]** .
 1. Klik op **[!UICONTROL Account Settings]** in de vervolgkeuzelijst en open vervolgens de tab **[!UICONTROL Backup]** .
 
 1. Klik op **[!UICONTROL Request New Backup]**.
-   ![ New_backup.png ](assets/new-backup-350x115.png)
+   ![&#x200B; New_backup.png &#x200B;](assets/new-backup-350x115.png)
 De gegevens worden naar u verzonden als ZIP-bestand.

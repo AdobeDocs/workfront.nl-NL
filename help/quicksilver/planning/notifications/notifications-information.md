@@ -24,6 +24,6 @@ U kunt een e-mail- of een bericht in de app ontvangen wanneer iemand u of uw tea
 
 In de volgende artikelen wordt beschreven welk type berichten u ontvangt over Workfront Planning en hoe u uw voorkeuren kunt beheren:
 
-* [ beheert de het berichtvoorkeur van de Planning van Adobe Workfront ](/help/quicksilver/planning/notifications/manage-notification-preferences.md).
+* [&#x200B; beheert de het berichtvoorkeur van de Planning van Adobe Workfront &#x200B;](/help/quicksilver/planning/notifications/manage-notification-preferences.md).
 * [E-mailberichten voor Adobe Workfront Planning beheren](/help/quicksilver/planning/notifications/manage-planning-email-notifications.md)
 * [In-app-berichten voor Adobe Workfront-planning beheren](/help/quicksilver/planning/notifications/manage-planning-in-app-notifications.md)

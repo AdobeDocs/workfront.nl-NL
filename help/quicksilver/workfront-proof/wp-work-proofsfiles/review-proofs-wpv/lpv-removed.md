@@ -18,6 +18,6 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [ het Bewijzen ](../../../review-and-approve-work/proofing/proofing.md).
+>Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [&#x200B; het Bewijzen &#x200B;](../../../review-and-approve-work/proofing/proofing.md).
 
 Voorafgaand aan de release 2018.3 werd de verouderde proefdrukviewer ondersteund. Met de release van 2018.3 (in november 2018) zijn de verouderde proofingviewer en alle andere toepassingen die afhankelijk zijn van Flash verwijderd en niet meer beschikbaar.

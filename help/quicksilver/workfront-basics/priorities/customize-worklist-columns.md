@@ -55,7 +55,7 @@ Prioriteiten geven de werkitems weer die aan u zijn toegewezen. U kunt geen werk
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -66,7 +66,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 {{step1-to-priorities}}
 
 1. Klik **Kolommen** op de linkerkant van het scherm.
-   ![ Kolommen ](assets/columns-new.png)
+   ![&#x200B; Kolommen &#x200B;](assets/columns-new.png)
 1. Met de schakelopties kunt u kolommen in de werklijst in- of uitschakelen.
 
 ### De kolommen opnieuw ordenen
@@ -75,7 +75,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 1. Klik **Kolommen** op de linkerkant van het scherm.
 1. Klik het **pictogram van de Belemmering** en beweeg de kolom aan uw gewenste plaats. Kolommen automatisch bijwerken in de werklijst verplaatsen.
-   ![ reorder kolommen ](assets/reorder-columns-new.png)
+   ![&#x200B; reorder kolommen &#x200B;](assets/reorder-columns-new.png)
 
 >[!NOTE]
 >

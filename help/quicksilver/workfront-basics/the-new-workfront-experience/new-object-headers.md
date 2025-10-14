@@ -45,7 +45,7 @@ Uw [!DNL Workfront] of groepsbeheerder kan de kopbal van projecten, taken, en kw
 
 Dit artikel beschrijft de standaardkopballen voor alle voorwerpen, met inbegrip van projecten en taken en kwesties.
 
-Voor informatie over het aanpassen van informatie over de kopbal van een voorwerp, zie [ objecten kopballen aanpassen gebruikend een lay-outmalplaatje ](../../administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
+Voor informatie over het aanpassen van informatie over de kopbal van een voorwerp, zie [&#x200B; objecten kopballen aanpassen gebruikend een lay-outmalplaatje &#x200B;](../../administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
 
 
 ## Overzicht van de projectheader
@@ -790,7 +790,7 @@ De bedrijfsheader toont de volgende informatie:
 
 ![](assets/nwe-plan-header-350x34.png)
 
-Plannen zijn de objecten van de [!DNL Workfront Scenario Planner] . Voor informatie over [!DNL Scenario Planner], zie [ het  [!DNL Scenario Planner]  overzicht ](../../scenario-planner/scenario-planner-overview.md).
+Plannen zijn de objecten van de [!DNL Workfront Scenario Planner] . Voor informatie over [!DNL Scenario Planner], zie [&#x200B; het  [!DNL Scenario Planner]  overzicht &#x200B;](../../scenario-planner/scenario-planner-overview.md).
 
 De plankopbal toont de volgende informatie:
 
@@ -861,7 +861,7 @@ De plankopbal toont de volgende informatie:
 
 ![](assets/goal-header.png)
 
-U kunt strategische doelen maken wanneer uw bedrijf toegang heeft tot Workfront-doelen. Voor meer informatie over [!DNL Workfront Goals], zie [ begonnen worden met  [!DNL Adobe Workfront Goals]](../../workfront-goals/goal-management/getting-started-with-wf-goals.md).
+U kunt strategische doelen maken wanneer uw bedrijf toegang heeft tot Workfront-doelen. Voor meer informatie over [!DNL Workfront Goals], zie [&#x200B; begonnen worden met  [!DNL Adobe Workfront Goals]](../../workfront-goals/goal-management/getting-started-with-wf-goals.md).
 
 De doelkopbal toont de volgende informatie:
 

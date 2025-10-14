@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # 21.2 Andere verbeteringen
 
-Op deze pagina worden alle andere verbeteringen beschreven die zijn aangebracht met de release 21.2 voor de voorvertoningsomgeving. Deze verbeteringen zullen beschikbaar worden gesteld in de productieomgeving in de week van 10 mei 2021. Voor een lijst van alle veranderingen beschikbaar met de versie 21.2, zie [ 21.2 Overzicht van de Versie ](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
+Op deze pagina worden alle andere verbeteringen beschreven die zijn aangebracht met de release 21.2 voor de voorvertoningsomgeving. Deze verbeteringen zullen beschikbaar worden gesteld in de productieomgeving in de week van 10 mei 2021. Voor een lijst van alle veranderingen beschikbaar met de versie 21.2, zie [&#x200B; 21.2 Overzicht van de Versie &#x200B;](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
 
 ## We zijn nu officieel Adobe Workfront
 
@@ -49,7 +49,7 @@ Gebieden die binnenkort worden bijgewerkt
 
 Als u de lijst van gewenste personen van de e-mail gebruikt, worden de nieuwe en bijgewerkte gebruikers e-mailadressen nu bevestigd tegen de lijst van gewenste personen. Wanneer u een nieuwe gebruiker toevoegt of een bestaande gebruiker bewerkt en een e-maildomein invoert dat niet in de lijst van gewenste personen staat, verschijnt er een bericht met de melding dat de gebruiker geen e-mailberichten ontvangt. U kunt het gebruikersprofiel nog steeds opslaan, maar u moet het domein aan de lijst van gewenste personen toevoegen zodat de gebruiker e-mails ontvangt.
 
-Voor meer informatie, zie [ het profiel van een gebruiker ](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) uitgeven.
+Voor meer informatie, zie [&#x200B; het profiel van een gebruiker &#x200B;](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) uitgeven.
 
 ## Nieuwe vormgeving voor kopteksten van objecten
 
@@ -70,9 +70,9 @@ Eerder was er geen pictogram en werd rechts van de objecttitel een badge met de 
 
 De paginakoppen van gebieden in de nieuwe ervaring van Workfront—zoals Verbeterde analysemogelijkheden, het Beheer van het Middel, en anderen—hebben ook dit bijgewerkte uiterlijk.
 
-Meer over de nieuwe objecten kopballen in de nieuwe ervaring van Workfront leren, zie [ Nieuwe objecten kopballen ](../../../workfront-basics/the-new-workfront-experience/new-object-headers.md).
+Meer over de nieuwe objecten kopballen in de nieuwe ervaring van Workfront leren, zie [&#x200B; Nieuwe objecten kopballen &#x200B;](../../../workfront-basics/the-new-workfront-experience/new-object-headers.md).
 
-![ kopbal van Objecten ](assets/product-announcement-object-header-350x179.png)
+![&#x200B; kopbal van Objecten &#x200B;](assets/product-announcement-object-header-350x179.png)
 
 ## Updates voor reacties op zoekacties naar objectstatus
 
@@ -96,4 +96,4 @@ Het is belangrijk om op te merken dat elk voorwerp zijn eigen unieke reeks bijbe
 
 De blauwdrukken verstrekt basisbouwstenen om u te helpen een werkbeheersysteem tot stand brengen dat met u groeit. Systeembeheerders kunnen door de blauwdrukcatalogus bladeren en gebruiksklare projectsjablonen installeren.
 
-Voor meer informatie, zie [ Blauwdrukken ](../../../administration-and-setup/blueprints/blueprints.md).
+Voor meer informatie, zie [&#x200B; Blauwdrukken &#x200B;](../../../administration-and-setup/blueprints/blueprints.md).

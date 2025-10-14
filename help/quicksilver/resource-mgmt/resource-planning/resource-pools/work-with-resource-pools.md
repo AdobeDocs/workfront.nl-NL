@@ -21,13 +21,13 @@ Als middelmanager, kunt u uw middelen beheren door gebruikers aan middelgroepen 
 
 Efficiënt beheer van bronnen kan niet worden uitgevoerd zonder dat u uw bronnenpools met gebruikers vult en deze aan projecten koppelt. Dit is een voorwaarde voor het gebruiken van de functionaliteit van de Planning van het Middel.
 
-Voor meer informatie over de eerste vereisten nodig alvorens u de Planning van het Middel kunt beginnen te gebruiken, zie de &quot;Eerste vereisten voor het werken in de sectie van de Planner van het Middel&quot;in het artikel [ overzicht van de Planner van het Middel ](../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
+Voor meer informatie over de eerste vereisten nodig alvorens u de Planning van het Middel kunt beginnen te gebruiken, zie de &quot;Eerste vereisten voor het werken in de sectie van de Planner van het Middel&quot;in het artikel [&#x200B; overzicht van de Planner van het Middel &#x200B;](../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
 
 Raadpleeg de volgende artikelen voor informatie over het maken en beheren van bronnenpools:
 
-* [ creeer middelpools ](../../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md)
-* [ associeerde middelgroepen met projecten en malplaatjes ](../../../resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-projects-and-templates.md)
-* [ associeerde middelpools met gebruikers ](../../../resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-users.md)
+* [&#x200B; creeer middelpools &#x200B;](../../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md)
+* [&#x200B; associeerde middelgroepen met projecten en malplaatjes &#x200B;](../../../resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-projects-and-templates.md)
+* [&#x200B; associeerde middelpools met gebruikers &#x200B;](../../../resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-users.md)
 * [Gebruikers verwijderen uit bronnenpools](../../../resource-mgmt/resource-planning/resource-pools/remove-users-from-resource-pool.md)
 
 ## Overzicht van bronnenpools

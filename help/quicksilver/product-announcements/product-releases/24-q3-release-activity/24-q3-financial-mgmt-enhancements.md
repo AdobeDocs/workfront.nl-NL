@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Op deze pagina worden alle verbeteringen in het financieel beheer beschreven die zijn aangebracht met de release van het derde kwartaal van 2024 voor de voorvertoningsomgeving. Deze verbeteringen worden beschikbaar gesteld in de productieomgeving met de release van het derde kwartaal van 2024.
 
-Voor een lijst van alle veranderingen beschikbaar op dit punt in het Derde Kwartaal 2024 versiecyclus, zie [ Derde Kwartaal 2024 versieoverzicht ](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar op dit punt in het Derde Kwartaal 2024 versiecyclus, zie [&#x200B; Derde Kwartaal 2024 versieoverzicht &#x200B;](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).
 
 ## Voor projecten en taken beschikbare velden voor aanpasbare en niet-aanpasbare uitgaven
 
@@ -35,4 +35,4 @@ De basislijn, het Malplaatje, en de rapporten van het Project (Financiële Gegev
 
 Facultatieve kosten worden gemarkeerd als factureerbaar aan de klant. Niet-factureerbare uitgaven worden niet als factureerbaar geboekt.
 
-Voor meer informatie over het merken van een uitgave als factureerbaar, zie [ projectuitgaven beheren ](/help/quicksilver/manage-work/projects/project-finances/manage-project-expenses.md).
+Voor meer informatie over het merken van een uitgave als factureerbaar, zie [&#x200B; projectuitgaven beheren &#x200B;](/help/quicksilver/manage-work/projects/project-finances/manage-project-expenses.md).

@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # Vereisten voor levering van abonnementen
 
-Abonnementsberichten voor gebeurtenissen zijn meldingen die kunnen worden ingesteld om gebruikers op de hoogte te stellen wanneer bepaalde gebeurtenissen zich voordoen. Meer over leren welke Abonnementen van de Gebeurtenis [ FAQs - de Abonnementen van de Gebeurtenis ](../../wf-api/general/event-subs-faq.md) zien.
+Abonnementsberichten voor gebeurtenissen zijn meldingen die kunnen worden ingesteld om gebruikers op de hoogte te stellen wanneer bepaalde gebeurtenissen zich voordoen. Meer over leren welke Abonnementen van de Gebeurtenis [&#x200B; FAQs - de Abonnementen van de Gebeurtenis &#x200B;](../../wf-api/general/event-subs-faq.md) zien.
 
 ## Normen voor de berichtlevering van het Event Subscription
 
@@ -27,7 +27,7 @@ De eindpunten van de dienst die de berichten van het de gebeurtenisabonnement va
 
 * Opdat het systeem van de levering van het gebeurtenisabonnement bevestigt het bericht met succes werd ontvangen, moet het eindpunt een 200 niveauHTTP- status (bijvoorbeeld, 200 O.K. of 202) voor alle inkomende berichten terugkeren.
 
-* Als een status op 200-niveau niet wordt geretourneerd, gaat het abonnementssysteem van de gebeurtenis ervan uit dat het bericht niet met succes is bezorgd en wordt het juiste hertestbeleid toegepast. Meer over Workfront leren herprobeert beleid, zie [ het abonnementsherpogingen van de Gebeurtenis ](../../wf-api/api/event-sub-retries.md).
+* Als een status op 200-niveau niet wordt geretourneerd, gaat het abonnementssysteem van de gebeurtenis ervan uit dat het bericht niet met succes is bezorgd en wordt het juiste hertestbeleid toegepast. Meer over Workfront leren herprobeert beleid, zie [&#x200B; het abonnementsherpogingen van de Gebeurtenis &#x200B;](../../wf-api/api/event-sub-retries.md).
 
 * In combinatie met het terugkeren van een 200-niveaustatus als reactiestatus, moet de reactie van HTTP binnen vijf seconden na de leveringspoging worden ontvangen.Deze beperking zorgt ervoor dat de de bedrijfsprocessen van de consument of infrastructuurbeperkingen de levering van andere berichten in afwachting van levering niet vertragen.
 

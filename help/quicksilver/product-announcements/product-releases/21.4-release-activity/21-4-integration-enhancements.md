@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Op deze pagina worden alle verbeteringen beschreven die zijn aangebracht in de versie 21.4 voor integratie in de voorvertoningsomgeving. Deze verbeteringen zullen beschikbaar worden gesteld in de productieomgeving in de week van 4 oktober 2021.
 
-Voor een lijst van alle veranderingen beschikbaar met de versie 21.4, zie [ overzicht van de Versie 21.4 ](../../../product-announcements/product-releases/21.4-release-activity/21-4-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar met de versie 21.4, zie [&#x200B; overzicht van de Versie 21.4 &#x200B;](../../../product-announcements/product-releases/21.4-release-activity/21-4-release-overview.md).
 
 ## Documenten van Dropbox Business koppelen
 
@@ -27,9 +27,9 @@ Met Dropbox Business kunt u gedeelde documenten koppelen en documenten uploaden 
 
 Uw Workfront-beheerder kan deze integratie inschakelen voor uw organisatie.
 
-Voor meer informatie zie [ documenten van de Verbinding van externe toepassingen ](../../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
+Voor meer informatie zie [&#x200B; documenten van de Verbinding van externe toepassingen &#x200B;](../../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
 
-Voor informatie over hoe een beheerder van Workfront deze optie kan toelaten, zie [ documentintegratie ](../../../administration-and-setup/configure-integrations/configure-document-integrations.md) vormen.
+Voor informatie over hoe een beheerder van Workfront deze optie kan toelaten, zie [&#x200B; documentintegratie &#x200B;](../../../administration-and-setup/configure-integrations/configure-document-integrations.md) vormen.
 
 ## Updates voor Workfront for Slack
 
@@ -40,9 +40,9 @@ De volgende updates zijn nu zichtbaar in de Workfront for Slack integration:
 
   Als u bijvoorbeeld aan een taak bent toegewezen, ontvangt u dat bericht zodra u deze hebt toegewezen. Voorheen kon er een vertraging optreden voordat de aanmelding in de Slack verscheen.
 
-Deze update vereist dat u uw Workfront opnieuw autoriseert voor Slack-integratie. Voor informatie bij het machtigen van de integratie, zie [ Adobe Workfront voor Slack ](../../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md) vormen.
+Deze update vereist dat u uw Workfront opnieuw autoriseert voor Slack-integratie. Voor informatie bij het machtigen van de integratie, zie [&#x200B; Adobe Workfront voor Slack &#x200B;](../../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md) vormen.
 
-Voor meer informatie over Workfront voor de berichten van de Slack, zie [ de berichten van Adobe Workfront in Slack ](../../../workfront-integrations-and-apps/using-workfront-with-slack/receive-workfront-notifications-in-slack.md) ontvangen.
+Voor meer informatie over Workfront voor de berichten van de Slack, zie [&#x200B; de berichten van Adobe Workfront in Slack &#x200B;](../../../workfront-integrations-and-apps/using-workfront-with-slack/receive-workfront-notifications-in-slack.md) ontvangen.
 
 ## Meer duidelijkheid over de details van de toegang tot de account bij het verlenen van toestemming voor Adobe Workfront-integratie
 

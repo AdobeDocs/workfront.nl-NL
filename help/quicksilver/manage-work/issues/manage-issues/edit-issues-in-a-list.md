@@ -17,7 +17,7 @@ ht-degree: 0%
 
 U kunt een afzonderlijke uitgave bewerken of uitgaven in een lijst met uitgaven of rapport bewerken. In dit artikel wordt beschreven hoe u problemen in lijsten kunt bewerken.
 
-Voor informatie over het uitgeven van een individuele kwestie, zie [ kwesties ](../../../manage-work/issues/manage-issues/edit-issues.md) uitgeven.
+Voor informatie over het uitgeven van een individuele kwestie, zie [&#x200B; kwesties &#x200B;](../../../manage-work/issues/manage-issues/edit-issues.md) uitgeven.
 
 ## Toegangsvereisten
 
@@ -65,24 +65,24 @@ Een uitgave inline bewerken:
 1. Ga naar een lijst met problemen in een project of taak.
 1. Klik in een veld waarvoor u gemachtigd bent om handmatig bij te werken. Het veld wordt bewerkbaar en u kunt de wijzigingen aanbrengen.
 
-   ![ geeft kwesties inline uit ](assets/edit-issues-inline-350x34.png)
+   ![&#x200B; geeft kwesties inline uit &#x200B;](assets/edit-issues-inline-350x34.png)
 
 1. Druk op Enter wanneer u de wijzigingen wilt accepteren. Wijzigingen worden direct opgeslagen.
 
-   Voor informatie over gealigneerde het uitgeven voorwerpen, zie [ gealigneerd punten in een lijst in Adobe Workfront ](../../../workfront-basics/navigate-workfront/use-lists/inline-edit-objects.md) uitgeven.
+   Voor informatie over gealigneerde het uitgeven voorwerpen, zie [&#x200B; gealigneerd punten in een lijst in Adobe Workfront &#x200B;](../../../workfront-basics/navigate-workfront/use-lists/inline-edit-objects.md) uitgeven.
 
 ## Uitgaven in een lijst bewerken
 
 1. Ga naar een lijst met problemen in een project of taak.
 1. Voer een van de volgende handelingen uit
 
-   * Selecteer de kwestie in de lijst, dan klik uitgeven pictogram ![ pictogram ](assets/qs-edit-icon.png) in de toolbar uitgeven.
-   * Klik het **Meer menu** ![ Meer menu ](assets/more-icon-task-list.png) aan het recht van de voorwaardennaam, dan klik **Open in een nieuw lusje**. Hierdoor wordt de uitgavepagina op een nieuw tabblad geopend. Klik **Meer** > **uitgeven** van de uitgevende pagina.
-   * Klik het **Meer menu** ![ Meer menu ](assets/more-icon-task-list.png) aan het recht van de voorwaardennaam, dan klik **uitgeven**.
+   * Selecteer de kwestie in de lijst, dan klik uitgeven pictogram ![&#x200B; pictogram &#x200B;](assets/qs-edit-icon.png) in de toolbar uitgeven.
+   * Klik het **Meer menu** ![&#x200B; Meer menu &#x200B;](assets/more-icon-task-list.png) aan het recht van de voorwaardennaam, dan klik **Open in een nieuw lusje**. Hierdoor wordt de uitgavepagina op een nieuw tabblad geopend. Klik **Meer** > **uitgeven** van de uitgevende pagina.
+   * Klik het **Meer menu** ![&#x200B; Meer menu &#x200B;](assets/more-icon-task-list.png) aan het recht van de voorwaardennaam, dan klik **uitgeven**.
 
      Met een van deze handelingen wordt het vak Probleem bewerken geopend.
 
-     Voor informatie over het uitgeven van kwesties in het Edit vakje van de Kwestie, zie [ kwesties ](../../../manage-work/issues/manage-issues/edit-issues.md) uitgeven.
+     Voor informatie over het uitgeven van kwesties in het Edit vakje van de Kwestie, zie [&#x200B; kwesties &#x200B;](../../../manage-work/issues/manage-issues/edit-issues.md) uitgeven.
 
 ## Uitgaven bewerken met de samenvatting
 
@@ -93,7 +93,7 @@ U kunt een uitgave in een lijst bewerken met de samenvatting.
 
    De lijst met problemen in het project wordt weergegeven.
 
-1. Selecteer een kwestie die u wilt uitgeven, dan het **Open Samenvattende** pictogram ![ Open Samenvattingspictogram ](assets/qs-open-summary-icon-in-new-toolbar-small.png) in de hoger-juiste hoek van de voorwaardenlijst klikken.
+1. Selecteer een kwestie die u wilt uitgeven, dan het **Open Samenvattende** pictogram ![&#x200B; Open Samenvattingspictogram &#x200B;](assets/qs-open-summary-icon-in-new-toolbar-small.png) in de hoger-juiste hoek van de voorwaardenlijst klikken.
 
    Het **Samenvatting** opent.
 
@@ -119,7 +119,7 @@ Uitgave bulksgewijs bewerken:
 1. Klik op de naam van een project om het project te openen.
 1. Klik **Kwesties** in het linkerpaneel.
 1. Selecteer verschillende problemen in de lijst.
-1. Klik **uitgeven** pictogram ![ uitgeven pictogram ](assets/edit-icon.png).
+1. Klik **uitgeven** pictogram ![&#x200B; uitgeven pictogram &#x200B;](assets/edit-icon.png).
 
    Het **geeft de dialoogdoos uit van Kwesties** opent.
 
@@ -132,7 +132,7 @@ Uitgave bulksgewijs bewerken:
    * Toewijzingen
    * Opmerking
 
-   Voor meer informatie over het uitgeven van een kwestie, zie [ kwesties ](../../../manage-work/issues/manage-issues/edit-issues.md) uitgeven.
+   Voor meer informatie over het uitgeven van een kwestie, zie [&#x200B; kwesties &#x200B;](../../../manage-work/issues/manage-issues/edit-issues.md) uitgeven.
 
    >[!NOTE]
    >

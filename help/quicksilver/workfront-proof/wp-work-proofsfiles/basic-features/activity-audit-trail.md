@@ -19,16 +19,16 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [ het Bewijzen ](../../../review-and-approve-work/proofing/proofing.md).
+>Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [&#x200B; het Bewijzen &#x200B;](../../../review-and-approve-work/proofing/proofing.md).
 
 De pagina [!UICONTROL Activity Audit Trail] bevat een volledige lijst met alle activiteiten die in uw account hebben plaatsgevonden.
 
 De pagina [!UICONTROL Activity] openen:
 
 1. Klik in de linkerzijbalk op **[!UICONTROL Activity]** .\
-   ![ Activity.png ](assets/activity-350x278.png)\
+   ![&#x200B; Activity.png &#x200B;](assets/activity-350x278.png)\
    De pagina [!UICONTROL Activity Audit Trail] wordt weergegeven.\
-   ![ Proof_and_media.png ](assets/proof-and-media-350x119.png)
+   ![&#x200B; Proof_and_media.png &#x200B;](assets/proof-and-media-350x119.png)
 
 1. Selecteer in het vervolgkeuzemenu Weergave de weergave die u wilt weergeven.\
    U kunt uit de volgende weergaven kiezen:

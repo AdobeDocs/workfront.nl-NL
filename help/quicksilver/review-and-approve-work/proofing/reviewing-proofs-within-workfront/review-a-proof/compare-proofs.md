@@ -68,16 +68,16 @@ U kunt twee proefdrukken vergelijken binnen om het even welke enige documentlijs
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">If this button is not visible, ensure that two proofed documents are selected.</p>
    -->
 
-   ![ vergelijk proef ](assets/compare-proofs-select-docs-350x138.jpg)
+   ![&#x200B; vergelijk proef &#x200B;](assets/compare-proofs-select-docs-350x138.jpg)
 
    Beide proefdrukken worden in de proefdrukviewer naast elkaar weergegeven. U kunt elk document bekijken terwijl het vergelijken hen.
 
    Met de gescheiden broodkruimels boven elke proefdruk kunt u het aan de proefdruk gekoppelde werkitem weergeven en naar het volgende adres gaan:
 
-   ![ vergelijk proef breadcrumbs ](assets/compare-proofs-breadcrumbs-350x148.jpg)
+   ![&#x200B; vergelijk proef breadcrumbs &#x200B;](assets/compare-proofs-breadcrumbs-350x148.jpg)
 
-   Voor informatie over de gereedschappen die u kunt gebruiken om de twee proefdrukken te vergelijken, raadpleegt u  [ Gebruik de vergelijkingshulpmiddelen ](../../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/compare-proofs.md#using-compare-tools) in [ vergelijkt proeven in de het proef kijker ](../../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/compare-proofs.md).
+   Voor informatie over de gereedschappen die u kunt gebruiken om de twee proefdrukken te vergelijken, raadpleegt u  [&#x200B; Gebruik de vergelijkingshulpmiddelen &#x200B;](../../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/compare-proofs.md#using-compare-tools) in [&#x200B; vergelijkt proeven in de het proef kijker &#x200B;](../../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/compare-proofs.md).
 
 ## Twee versies van dezelfde proefdruk vergelijken
 
-Voor informatie over het vergelijken van twee versies van de zelfde proef, zie [ bewijsversies ](../../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/compare-proofs.md#comparing-proof-versions) in [ vergelijkt proef in de het proeven kijker ](../../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/compare-proofs.md).
+Voor informatie over het vergelijken van twee versies van de zelfde proef, zie [&#x200B; bewijsversies &#x200B;](../../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/compare-proofs.md#comparing-proof-versions) in [&#x200B; vergelijkt proef in de het proeven kijker &#x200B;](../../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/compare-proofs.md).

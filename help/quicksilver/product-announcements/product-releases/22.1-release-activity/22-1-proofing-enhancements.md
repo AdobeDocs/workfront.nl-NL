@@ -25,7 +25,7 @@ in January 2022
 
 de week van 17 januari 2022.
 
-Voor een lijst van alle veranderingen beschikbaar met de versie 22.1, zie [ overzicht van de Versie 22.1 ](../../../product-announcements/product-releases/22.1-release-activity/22-1-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar met de versie 22.1, zie [&#x200B; overzicht van de Versie 22.1 &#x200B;](../../../product-announcements/product-releases/22.1-release-activity/22-1-release-overview.md).
 
 ## Verbeterde mogelijkheden voor proefdrukken voor revisoren en aanvragers
 
@@ -47,7 +47,7 @@ Alle gebruikers profiteren ook van verbeterde connectiviteit tussen Workfront en
 
 Zie voor meer informatie
 
-* [ overzicht van de Rollen van het Bewijs ](../../../review-and-approve-work/proofing/proofing-overview/proof-roles.md)
+* [&#x200B; overzicht van de Rollen van het Bewijs &#x200B;](../../../review-and-approve-work/proofing/proofing-overview/proof-roles.md)
 
 ## Verbeteringen voor elektronische handtekeningen voor proefdrukken
 
@@ -55,11 +55,11 @@ We hebben het voor gebruikers eenvoudiger gemaakt om proefdrukken elektronisch t
 
 >[!IMPORTANT]
 >
->Als u een bewijs elektronisch wilt ondertekenen met SSO-gegevens, moet u een SSO instellen in Workfront Proof. Voor meer informatie bij het toelaten van SSO, zie [ Enige Sign-On voor de gebruikers van Workfront Proof ](../../../workfront-proof/wp-acct-admin/account-settings/configure-sso-for-wp-users.md) vormen.
+>Als u een bewijs elektronisch wilt ondertekenen met SSO-gegevens, moet u een SSO instellen in Workfront Proof. Voor meer informatie bij het toelaten van SSO, zie [&#x200B; Enige Sign-On voor de gebruikers van Workfront Proof &#x200B;](../../../workfront-proof/wp-acct-admin/account-settings/configure-sso-for-wp-users.md) vormen.
 
 Eerder moesten gebruikers Workfront Proof-gebruikersgegevens gebruiken. Deze zijn anders dan hun Workfront-gegevens.
 
-Voor meer info, zie [ de veiligheidsoverzicht van het Bewijs ](../../../review-and-approve-work/proofing/proofing-overview/proof-security-overview.md).
+Voor meer info, zie [&#x200B; de veiligheidsoverzicht van het Bewijs &#x200B;](../../../review-and-approve-work/proofing/proofing-overview/proof-security-overview.md).
 
 ## Upgrade van Desktop Viewer
 
@@ -67,6 +67,6 @@ We hebben de Desktop Proofing Viewer geüpgraded voor ondersteuning tot Chrome v
 
 >[!IMPORTANT]
 >
->Windows-gebruikers moeten de bureaubladviewer handmatig opnieuw installeren om een upgrade naar de nieuwste versie uit te voeren. Hierna worden toekomstige updates van de Desktop Proofing Viewer automatisch uitgevoerd. Voor hulp die, zie [ opnieuw installeert de Desktop het Proofing Kijker ](../../../review-and-approve-work/proofing/use-the-desktop-proofing-viewer/installing-desktop-proofing-viewer.md).
+>Windows-gebruikers moeten de bureaubladviewer handmatig opnieuw installeren om een upgrade naar de nieuwste versie uit te voeren. Hierna worden toekomstige updates van de Desktop Proofing Viewer automatisch uitgevoerd. Voor hulp die, zie [&#x200B; opnieuw installeert de Desktop het Proofing Kijker &#x200B;](../../../review-and-approve-work/proofing/use-the-desktop-proofing-viewer/installing-desktop-proofing-viewer.md).
 
 Mac-gebruikers worden automatisch bijgewerkt naar de nieuwste versie.

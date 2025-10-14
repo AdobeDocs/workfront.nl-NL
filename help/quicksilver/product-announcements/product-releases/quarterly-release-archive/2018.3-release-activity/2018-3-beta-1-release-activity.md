@@ -22,13 +22,13 @@ Op deze pagina worden alle wijzigingen beschreven die het laatst beschikbaar zij
 >
 > De op deze pagina beschreven functionaliteit kan worden gewijzigd voordat deze beschikbaar is in de productieomgeving.
 
-Voor een lijst met alle wijzigingen die in 2018.3 zijn aangebracht, raadpleegt u  [ 2018.3 overzicht van de versieactiviteit ](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-release-activity-overview.md).
+Voor een lijst met alle wijzigingen die in 2018.3 zijn aangebracht, raadpleegt u  [&#x200B; 2018.3 overzicht van de versieactiviteit &#x200B;](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-release-activity-overview.md).
 
 De Beta 1-release van 2018.3 bevat de volgende verbeteringen:
 
-* [ Verzoeken van het Team van de Toegang in Huis ](#access-team-requests-in-home)
-* [ de Informatie van de Taak van de Mening in de Grafiek van Gantt van de Lijst van het Project ](#view-task-information-in-the-project-list-gantt-chart)
-* [ Verbeteringen wanneer het Uitvoeren van de Weergaven van de Rol en van het Project van de Planner van het Middel ](#improvements-when-exporting-the-role-and-project-views-of-the-resource-planner)
+* [&#x200B; Verzoeken van het Team van de Toegang in Huis &#x200B;](#access-team-requests-in-home)
+* [&#x200B; de Informatie van de Taak van de Mening in de Grafiek van Gantt van de Lijst van het Project &#x200B;](#view-task-information-in-the-project-list-gantt-chart)
+* [&#x200B; Verbeteringen wanneer het Uitvoeren van de Weergaven van de Rol en van het Project van de Planner van het Middel &#x200B;](#improvements-when-exporting-the-role-and-project-views-of-the-resource-planner)
 * [Toegang tot meerdere proefdrukken rechtstreeks vanuit de proefdrukviewer (Workfront Proof)](#access-multiple-proofs-directly-from-the-proofing-viewer-workfront-proof)
 
 ## Toegang tot teamverzoeken thuis {#access-team-requests-in-home}
@@ -37,7 +37,7 @@ U kunt tot de Verzoeken van het Team in het gebied van het Huis nu toegang hebbe
 
 Voorafgaand aan deze wijziging hebt u alleen toegang tot werkverzoeken vanuit het gebied Home.
 
-Voor meer informatie, zie [ werk en teamverzoeken in het gebied van het Huis ](../../../../workfront-basics/using-home/using-the-home-area/manage-work-and-team-requests-home.md) leiden.
+Voor meer informatie, zie [&#x200B; werk en teamverzoeken in het gebied van het Huis &#x200B;](../../../../workfront-basics/using-home/using-the-home-area/manage-work-and-team-requests-home.md) leiden.
 
 ## Taakgegevens weergeven in de Gantt-grafiek van de projectlijst {#view-task-information-in-the-project-list-gantt-chart}
 
@@ -45,7 +45,7 @@ U kunt informatie over de taken van een project in de Grafiek van de Lijst van h
 
 Eerder, kon u informatie over taken slechts in de Grafiek van Gantt van de Lijst van de Taak of binnen een project bekijken.
 
-Voor meer informatie, zie [ informatie van de Mening in de Grafiek van Gantt ](../../../../manage-work/gantt-chart/use-the-gantt-chart/view-info-in-gantt.md) in de artikel [ informatie van de Mening in de Grafiek van Gantt ](../../../../manage-work/gantt-chart/use-the-gantt-chart/view-info-in-gantt.md).
+Voor meer informatie, zie [&#x200B; informatie van de Mening in de Grafiek van Gantt &#x200B;](../../../../manage-work/gantt-chart/use-the-gantt-chart/view-info-in-gantt.md) in de artikel [&#x200B; informatie van de Mening in de Grafiek van Gantt &#x200B;](../../../../manage-work/gantt-chart/use-the-gantt-chart/view-info-in-gantt.md).
 
 ## Verbeteringen bij het exporteren van de rol en projectweergaven van de functie voor middelenplanner {#improvements-when-exporting-the-role-and-project-views-of-the-resource-planner}
 
@@ -70,4 +70,4 @@ Eerder was het tijdens het gebruik van Workfront Proof niet mogelijk om meerdere
 
 Deze functionaliteit is alleen beschikbaar wanneer u de webproefdrukviewer of de Desktop Proofing Viewer gebruikt. Deze functie is niet beschikbaar wanneer u de verouderde proefdrukviewer gebruikt.
 
-Voor meer informatie, zie [ Werk met veelvoudige proeven in de het proef kijker ](../../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/work-with-multiple-proofs.md).
+Voor meer informatie, zie [&#x200B; Werk met veelvoudige proeven in de het proef kijker &#x200B;](../../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/work-with-multiple-proofs.md).

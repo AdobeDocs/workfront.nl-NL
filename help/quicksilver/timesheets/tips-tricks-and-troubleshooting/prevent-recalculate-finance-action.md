@@ -22,4 +22,4 @@ U moet de uurkosten voor een gebruiker of baanrol (toe te schrijven aan een verh
 
 ## Oplossing
 
-Voeg de uren toe die u niet in een het Factureren Verslag op het project wilt veranderen en plaats de status van het het facturerings verslag aan Gevulde.  Dit sluit in het oude tarief en zal door de Recalculate actie van Financiën worden genegeerd.  Uren die niet bij een factureringsrecord horen, worden berekend aan de nieuwe snelheid. Voor meer informatie, zie [ projectfinanciën ](../../manage-work/projects/project-finances/recalculate-project-finances.md) opnieuw berekenen.
+Voeg de uren toe die u niet in een het Factureren Verslag op het project wilt veranderen en plaats de status van het het facturerings verslag aan Gevulde.  Dit sluit in het oude tarief en zal door de Recalculate actie van Financiën worden genegeerd.  Uren die niet bij een factureringsrecord horen, worden berekend aan de nieuwe snelheid. Voor meer informatie, zie [&#x200B; projectfinanciën &#x200B;](../../manage-work/projects/project-finances/recalculate-project-finances.md) opnieuw berekenen.

@@ -57,7 +57,7 @@ U kunt de afspeelsnelheid van de videoproefdruk aanpassen. U kunt selecteren om 
 
 1. In de laag-juiste hoek van de het proef kijker, klik het **pictogram van Montages**.
 
-   ![ phq_viewer_video_playbackspeed__2_.png ](assets/phq-viewer-video-playbackspeed--2-.png)
+   ![&#x200B; phq_viewer_video_playbackspeed__2_.png &#x200B;](assets/phq-viewer-video-playbackspeed--2-.png)
 
 1. Klik op de huidige snelheid en selecteer vervolgens een nieuwe afspeelsnelheid.
 1. Klik de **knoop van het Spel** op de video om de nieuwe snelheid te testen.
@@ -71,7 +71,7 @@ Voor een gedetailleerdere weergave van de videoproefdruk kunt u de video frame-v
 
 1. Bij de bodem van de het proeven kijker, klik **vooruit** en **Achterste** pijlen om videoframe-door-kader te herzien.
 
-   ![ Kader ](assets/frame-.png)
+   ![&#x200B; Kader &#x200B;](assets/frame-.png)
 
 ## Afspeelvolume wijzigen
 
@@ -82,7 +82,7 @@ U kunt het volume bepalen bij het afspelen van de video.
 
 1. In de laag-juiste hoek van de het proef kijker, muis over het **Volume** pictogram, dan sleep de schuif om een nieuw volume te selecteren.
 
-   ![ Volume ](assets/phq-viewer-volume.png)
+   ![&#x200B; Volume &#x200B;](assets/phq-viewer-volume.png)
 
    of
 

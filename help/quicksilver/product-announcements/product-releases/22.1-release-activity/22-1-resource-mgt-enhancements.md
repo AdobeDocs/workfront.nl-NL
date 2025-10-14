@@ -25,7 +25,7 @@ in January 2022
 
 de week van 17 januari 2022.
 
-Voor een lijst van alle veranderingen beschikbaar met de versie 22.1, zie [ overzicht van de Versie 22.1 ](../../../product-announcements/product-releases/22.1-release-activity/22-1-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar met de versie 22.1, zie [&#x200B; overzicht van de Versie 22.1 &#x200B;](../../../product-announcements/product-releases/22.1-release-activity/22-1-release-overview.md).
 
 ## Verbeteringen aan het paneel van Montages en capaciteit aan kleur-code projecten en hun taken in de Balancer van de Werkbelasting
 
@@ -34,7 +34,7 @@ Om uw ervaring te verbeteren wanneer het gebruiken van de Balancer van de Werkbe
 * Het deelvenster Instellingen is opnieuw ontworpen en bevat opties die eerder op de werkbalk stonden. Hierdoor wordt het gebruik van de ruimte op de werkbalk verbeterd.
 * De mogelijkheid om het kleurthema aan te passen per project toegevoegd. Wanneer het selecteren aan kleur-code door Project, elk project en zijn het werkpunten tonen in de zelfde kleur. De kleuren zijn uniek voor elk project. Vóór deze verbetering, kon u slechts kleur-code door de Status van het Project.
 
-Voor meer informatie, zie [ de Balancer van de Werkbelasting ](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) navigeren.
+Voor meer informatie, zie [&#x200B; de Balancer van de Werkbelasting &#x200B;](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) navigeren.
 
 ## Werk in bulk toewijzen met Werklastverdeling
 
@@ -44,11 +44,11 @@ Vóór deze verbetering, kon u slechts één gebruiker aan één het werkpunt of
 
 De nieuwe taken van het Bulk omvatten ook nieuwe het filtreren mogelijkheden door Project en de Status van de Taak, naast Naam.
 
-Voor meer informatie, zie [ Overzicht van het toewijzen van het werk in de Balancer van de Werkbelasting ](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
+Voor meer informatie, zie [&#x200B; Overzicht van het toewijzen van het werk in de Balancer van de Werkbelasting &#x200B;](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
 
 ## Valuta overschrijven bij het beheren van taakrollen
 
 Om u te helpen kosten en factureringspercentages eenvoudig te beheren in wereldwijde organisaties, hebben we de valuta van een functie overschreven. Met deze functie kunt u nu kosten- en factureringssnelheden instellen voor functies in de valuta die overeenkomen met de locatie van de taakrol. Dit zal de systeemvaluta in alle financiële berekeningen voor de baanrol met voeten treden.
 
-Voor informatie, zie [ baanrollen ](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md) creëren en leiden.
+Voor informatie, zie [&#x200B; baanrollen &#x200B;](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md) creëren en leiden.
 

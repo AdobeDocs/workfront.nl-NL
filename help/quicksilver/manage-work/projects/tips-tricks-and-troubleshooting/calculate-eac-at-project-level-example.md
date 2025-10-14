@@ -18,12 +18,12 @@ ht-degree: 0%
 
 ## EAC-methode: berekenen op projectniveau
 
-* [ PIM = op uur-Gebaseerde ](#pim-hour-based)
+* [&#x200B; PIM = op uur-Gebaseerde &#x200B;](#pim-hour-based)
 * [PIM= op basis van kosten](#pim-cost-based)
 
 ### PIM = op uurbasis {#pim-hour-based}
 
-* [ Eenvoudig voorbeeld: het project heeft geen kindtaken ](#simple-example-project-has-no-children-tasks)
+* [&#x200B; Eenvoudig voorbeeld: het project heeft geen kindtaken &#x200B;](#simple-example-project-has-no-children-tasks)
 * [Gecompliceerd voorbeeld: project heeft onderliggende taken](#complicated-example-project-has-children-tasks)
 
 #### Eenvoudig voorbeeld: project heeft geen onderliggende taken {#simple-example-project-has-no-children-tasks}
@@ -230,7 +230,7 @@ EAC-methode = Berekenen op projectniveau
 
 ### PIM= op basis van kosten {#pim-cost-based}
 
-* [ Eenvoudig voorbeeld: het project heeft geen kindtaken ](#simple-example-project-has-no-children-tasks)
+* [&#x200B; Eenvoudig voorbeeld: het project heeft geen kindtaken &#x200B;](#simple-example-project-has-no-children-tasks)
 * [Gecompliceerd voorbeeld: project heeft onderliggende taken](#complicated-example-project-has-children-tasks)
 
 #### Eenvoudig voorbeeld: project heeft geen onderliggende taken {#simple-example-project-has-no-children-tasks-1}

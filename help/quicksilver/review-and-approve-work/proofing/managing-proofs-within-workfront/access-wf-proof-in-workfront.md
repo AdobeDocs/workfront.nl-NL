@@ -28,7 +28,7 @@ U kunt uw Workfront Proof-account snel rechtstreeks openen vanuit de Adobe Workf
 
   U neemt contact op met de klantenondersteuning van Workfront en vraagt deze toegang voor alle proefgebruikers in uw systeem, ongeacht de machtigingen die zij hebben.
 
-  Voor meer informatie, zie [ toelaten alle het proef gebruikers om tot Workfront Proof binnen Workfront ](#enable-all-proofing-users-to-access-workfront-proof-within-workfront) in dit artikel toegang te hebben.
+  Voor meer informatie, zie [&#x200B; toelaten alle het proef gebruikers om tot Workfront Proof binnen Workfront &#x200B;](#enable-all-proofing-users-to-access-workfront-proof-within-workfront) in dit artikel toegang te hebben.
 
 Neem contact op met de Workfront-beheerder als u Workfront Proof niet kunt openen zoals in deze sectie wordt beschreven.
 
@@ -40,8 +40,8 @@ Standaard hebben alleen gebruikers met beheerdersrechten in Workfront toegang to
 
 U wordt automatisch aangemeld bij uw Workfront Proof Premium-account.
 
-Voor informatie over functionaliteit beschikbaar nadat u aan uw rekening van de Première van Workfront Proof wordt het programma geopend, zie de [ Plaats van de Hulp van Workfront ](https://support.workfront.com).
+Voor informatie over functionaliteit beschikbaar nadat u aan uw rekening van de Première van Workfront Proof wordt het programma geopend, zie de [&#x200B; Plaats van de Hulp van Workfront &#x200B;](https://support.workfront.com).
 
 ## Alle proefdrukgebruikers toegang geven tot Workfront Proof in Workfront {#enable-all-proofing-users-to-access-workfront-proof-within-workfront}
 
-Door gebrek, slechts kunnen de gebruikers met administratieve rechten binnen Workfront tot Workfront Proof toegang hebben zoals die in [ Workfront Proof van de Toegang van Workfront ](#access-workfront-proof-from-workfront) wordt beschreven
+Door gebrek, slechts kunnen de gebruikers met administratieve rechten binnen Workfront tot Workfront Proof toegang hebben zoals die in [&#x200B; Workfront Proof van de Toegang van Workfront &#x200B;](#access-workfront-proof-from-workfront) wordt beschreven

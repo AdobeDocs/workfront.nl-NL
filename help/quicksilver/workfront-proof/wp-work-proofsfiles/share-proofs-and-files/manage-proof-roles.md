@@ -20,13 +20,13 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [ het Bewijzen ](../../../review-and-approve-work/proofing/proofing.md).
+>Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [&#x200B; het Bewijzen &#x200B;](../../../review-and-approve-work/proofing/proofing.md).
 
-De rollen van het bewijs laten u toe om toestemmingen aan gebruikers te verlenen die door het toestemmingsprofiel worden beperkt dat op hun gebruikersprofiel wordt gevormd. (Voor meer informatie over toestemmingsprofielen, zie [ Profielen van de Toestemmingen van de Bewijs in  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md).)
+De rollen van het bewijs laten u toe om toestemmingen aan gebruikers te verlenen die door het toestemmingsprofiel worden beperkt dat op hun gebruikersprofiel wordt gevormd. (Voor meer informatie over toestemmingsprofielen, zie [&#x200B; Profielen van de Toestemmingen van de Bewijs in  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md).)
 
 Proefrollen verschillen van accountprofielen. Uw accountprofiel heeft betrekking op het algemene machtigingsniveau in uw account en heeft invloed op de rechten die u hebt op alle proefdrukken in uw account, ook op de rechten die niet expliciet met u zijn gedeeld.
 
-Voor meer informatie, zie [ Profielen van de Toestemmingen van de Bewijs in  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md).
+Voor meer informatie, zie [&#x200B; Profielen van de Toestemmingen van de Bewijs in  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md).
 
 ## Proefrollen
 
@@ -54,91 +54,91 @@ Zie de volgende artikelen voor meer informatie:
 
 {#read-only}
 
-![ Cleer.png ](assets/cleaner.png) kan een proef bekijken
+![&#x200B; Cleer.png &#x200B;](assets/cleaner.png) kan een proef bekijken
 
-![ no.png ](assets/no.png) kan geen markeringen toevoegen
+![&#x200B; no.png &#x200B;](assets/no.png) kan geen markeringen toevoegen
 
-![ no.png ](assets/no.png) kan geen commentaren toevoegen
+![&#x200B; no.png &#x200B;](assets/no.png) kan geen commentaren toevoegen
 
-![ no.png ](assets/no.png) kan geen besluit nemen
+![&#x200B; no.png &#x200B;](assets/no.png) kan geen besluit nemen
 
-![ no.png ](assets/no.png) kan commentaren schrappen die door anderen worden gemaakt
+![&#x200B; no.png &#x200B;](assets/no.png) kan commentaren schrappen die door anderen worden gemaakt
 
-![ no.png ](assets/no.png) heeft uitgeeft geen rechten op de proef
+![&#x200B; no.png &#x200B;](assets/no.png) heeft uitgeeft geen rechten op de proef
 
 >[!NOTE]
 >
 >Als een map wordt gedeeld met een gebruiker van [!DNL Workfront Proof] , krijgen deze automatisch alleen-lezen rechten voor alle bestaande en vervolgens toegevoegde items in de map.
 
-Voor meer informatie, zie [ Mappen van het Aandeel in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/share-folders.md).
+Voor meer informatie, zie [&#x200B; Mappen van het Aandeel in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/share-folders.md).
 
 ### Revisor {#reviewer}
 
-![ Cleer.png ](assets/cleaner.png) kan een proef bekijken
+![&#x200B; Cleer.png &#x200B;](assets/cleaner.png) kan een proef bekijken
 
-![ Cleer.png ](assets/cleaner.png) kan markeringen toevoegen
+![&#x200B; Cleer.png &#x200B;](assets/cleaner.png) kan markeringen toevoegen
 
-![ Cleer.png ](assets/cleaner.png) kan commentaren toevoegen
+![&#x200B; Cleer.png &#x200B;](assets/cleaner.png) kan commentaren toevoegen
 
-![[!DNL cleaner] .png ](assets/cleaner.png) Kan eigen opmerkingen bewerken als er geen reacties zijn
+![[!DNL cleaner] .png &#x200B;](assets/cleaner.png) Kan eigen opmerkingen bewerken als er geen reacties zijn
 
-![ no.png ](assets/no.png) kan geen besluit nemen
+![&#x200B; no.png &#x200B;](assets/no.png) kan geen besluit nemen
 
-![ no.png ](assets/no.png) kan commentaren uitgeven of schrappen die door anderen worden gemaakt
+![&#x200B; no.png &#x200B;](assets/no.png) kan commentaren uitgeven of schrappen die door anderen worden gemaakt
 
-![ no.png ](assets/no.png) heeft uitgeeft geen rechten op de proef
+![&#x200B; no.png &#x200B;](assets/no.png) heeft uitgeeft geen rechten op de proef
 
 ### Fiatteur {#approver}
 
-![ Cleer.png ](assets/cleaner.png) kan een proef bekijken
+![&#x200B; Cleer.png &#x200B;](assets/cleaner.png) kan een proef bekijken
 
-![ Cleer.png ](assets/cleaner.png) kan een besluit nemen
+![&#x200B; Cleer.png &#x200B;](assets/cleaner.png) kan een besluit nemen
 
-![ no.png ](assets/no.png) kan geen markeringen toevoegen
+![&#x200B; no.png &#x200B;](assets/no.png) kan geen markeringen toevoegen
 
-![ no.png ](assets/no.png) kan geen commentaren toevoegen
+![&#x200B; no.png &#x200B;](assets/no.png) kan geen commentaren toevoegen
 
-![ no.png ](assets/no.png) kan commentaren uitgeven of schrappen die door anderen worden gemaakt
+![&#x200B; no.png &#x200B;](assets/no.png) kan commentaren uitgeven of schrappen die door anderen worden gemaakt
 
-![ no.png ](assets/no.png) heeft uitgeeft geen rechten op de proef
+![&#x200B; no.png &#x200B;](assets/no.png) heeft uitgeeft geen rechten op de proef
 
 ### Revisor en fiatteur {#reviewer-approver}
 
-![ Cleer.png ](assets/cleaner.png) kan een proef bekijken
+![&#x200B; Cleer.png &#x200B;](assets/cleaner.png) kan een proef bekijken
 
-![ Cleer.png ](assets/cleaner.png) kan markeringen toevoegen
+![&#x200B; Cleer.png &#x200B;](assets/cleaner.png) kan markeringen toevoegen
 
-![ Cleer.png ](assets/cleaner.png) kan commentaren toevoegen
+![&#x200B; Cleer.png &#x200B;](assets/cleaner.png) kan commentaren toevoegen
 
-![[!DNL cleaner] .png ](assets/cleaner.png) Kan eigen opmerkingen bewerken als er geen reacties zijn
+![[!DNL cleaner] .png &#x200B;](assets/cleaner.png) Kan eigen opmerkingen bewerken als er geen reacties zijn
 
-![ Cleer.png ](assets/cleaner.png) kan een besluit nemen
+![&#x200B; Cleer.png &#x200B;](assets/cleaner.png) kan een besluit nemen
 
-![ no.png ](assets/no.png) kan commentaren uitgeven of schrappen die door anderen worden gemaakt
+![&#x200B; no.png &#x200B;](assets/no.png) kan commentaren uitgeven of schrappen die door anderen worden gemaakt
 
-![ no.png ](assets/no.png) heeft uitgeeft geen rechten op de proef
+![&#x200B; no.png &#x200B;](assets/no.png) heeft uitgeeft geen rechten op de proef
 
 ### Auteur {#author}
 
-![ Cleer.png ](assets/cleaner.png) kan markeringen toevoegen
+![&#x200B; Cleer.png &#x200B;](assets/cleaner.png) kan markeringen toevoegen
 
-![ Cleer.png ](assets/cleaner.png) kan commentaren toevoegen
+![&#x200B; Cleer.png &#x200B;](assets/cleaner.png) kan commentaren toevoegen
 
-![[!DNL cleaner] .png ](assets/cleaner.png) Kan eigen opmerkingen bewerken als er geen reacties zijn
+![[!DNL cleaner] .png &#x200B;](assets/cleaner.png) Kan eigen opmerkingen bewerken als er geen reacties zijn
 
-![ Cleer.png ](assets/cleaner.png) kan een besluit nemen
+![&#x200B; Cleer.png &#x200B;](assets/cleaner.png) kan een besluit nemen
 
-![ Cleer.png ](assets/cleaner.png) kan nieuwe versies voorleggen
+![&#x200B; Cleer.png &#x200B;](assets/cleaner.png) kan nieuwe versies voorleggen
 
-![ Cleer.png ](assets/cleaner.png) kan tot een exemplaar van de proef leiden
+![&#x200B; Cleer.png &#x200B;](assets/cleaner.png) kan tot een exemplaar van de proef leiden
 
-![ clean.png ](assets/cleaner.png) kan het bewijs met andere mensen delen
+![&#x200B; clean.png &#x200B;](assets/cleaner.png) kan het bewijs met andere mensen delen
 
-![ Cleer.png ](assets/cleaner.png) kan acties op commentaren toepassen
+![&#x200B; Cleer.png &#x200B;](assets/cleaner.png) kan acties op commentaren toepassen
 
-![ Cleer.png ](assets/cleaner.png) kan commentaren oplossen
+![&#x200B; Cleer.png &#x200B;](assets/cleaner.png) kan commentaren oplossen
 
-![ no.png ](assets/no.png) kan commentaren uitgeven of schrappen die door anderen worden gemaakt
+![&#x200B; no.png &#x200B;](assets/no.png) kan commentaren uitgeven of schrappen die door anderen worden gemaakt
 
 >[!NOTE]
 >
@@ -146,28 +146,28 @@ Voor meer informatie, zie [ Mappen van het Aandeel in  [!DNL Workfront Proof]](.
 
 ### Moderator {#moderator}
 
-![ Cleer.png ](assets/cleaner.png) kan markeringen toevoegen
+![&#x200B; Cleer.png &#x200B;](assets/cleaner.png) kan markeringen toevoegen
 
-![ Cleer.png ](assets/cleaner.png) kan commentaren toevoegen
+![&#x200B; Cleer.png &#x200B;](assets/cleaner.png) kan commentaren toevoegen
 
-![[!DNL cleaner] .png ](assets/cleaner.png) Kan eigen opmerkingen bewerken als er geen reacties zijn
+![[!DNL cleaner] .png &#x200B;](assets/cleaner.png) Kan eigen opmerkingen bewerken als er geen reacties zijn
 
-![ clean.png ](assets/cleaner.png) kan een besluit nemen
+![&#x200B; clean.png &#x200B;](assets/cleaner.png) kan een besluit nemen
 
-![ clean.png ](assets/cleaner.png) kan nieuwe versies voorleggen
+![&#x200B; clean.png &#x200B;](assets/cleaner.png) kan nieuwe versies voorleggen
 
-![ Cleer.png ](assets/cleaner.png) kan nieuwe recensenten toevoegen
+![&#x200B; Cleer.png &#x200B;](assets/cleaner.png) kan nieuwe recensenten toevoegen
 
-![ clean.png ](assets/cleaner.png) kan acties op commentaren toepassen
+![&#x200B; clean.png &#x200B;](assets/cleaner.png) kan acties op commentaren toepassen
 
-![ clean.png ](assets/cleaner.png) kan commentaren oplossen
+![&#x200B; clean.png &#x200B;](assets/cleaner.png) kan commentaren oplossen
 
-![ Cleer.png ](assets/cleaner.png) kan commentaren en antwoorden op de proef (die door zich of anderen worden gemaakt) schrappen
+![&#x200B; Cleer.png &#x200B;](assets/cleaner.png) kan commentaren en antwoorden op de proef (die door zich of anderen worden gemaakt) schrappen
 
 * Als u de eerste opmerking in een opmerkingsthread verwijdert, wordt de hele thread verwijderd.
 * Als u reacties in de commentaarthread verwijdert, wordt alleen dat antwoord verwijderd.
 
-![ no.png ](assets/no.png) kan commentaren uitgeven die door anderen worden gemaakt
+![&#x200B; no.png &#x200B;](assets/no.png) kan commentaren uitgeven die door anderen worden gemaakt
 
 Deze rol stelt de persoon in staat de bewijsopmerkingen te beheren en te matigen, zodat hij alleen relevante opmerkingen over het bewijs kan bewaren en niet-relevante opmerkingen kan verwijderen.
 
@@ -183,7 +183,7 @@ U kunt proefdrukrollen toewijzen bij het maken van nieuwe proefdrukken, het make
 
 Proefdrukrollen kunnen tijdens het maken van proefdrukken worden toegewezen aan revisoren op de pagina [!UICONTROL New proof] (1).
 
-![ Proof_rollen_-_New_Proof_page.png ](assets/proof-roles---new-proof-page-350x184.png)
+![&#x200B; Proof_rollen_-_New_Proof_page.png &#x200B;](assets/proof-roles---new-proof-page-350x184.png)
 
 ### Nieuwe versies {#new-versions}
 
@@ -191,19 +191,19 @@ Wanneer u een nieuwe versie van een proefdruk maakt, worden de controleurs van d
 
 U kunt de proefdrukrollen die zijn toegepast op controleurs bewerken bij het maken van de nieuwe versie (1).
 
-![ Proof_rollen_-_New_Version_page.png ](assets/proof-roles---new-version-page-350x164.png)
+![&#x200B; Proof_rollen_-_New_Version_page.png &#x200B;](assets/proof-roles---new-version-page-350x164.png)
 
 ### Bestaande proefdrukken {#existing-proofs}
 
 Als u de rol van een persoon op een bestaande proefdruk wilt wijzigen, kunt u dat op de pagina [!UICONTROL Proof details] doen door de rol van die persoon inline te bewerken in de werkstroomsectie (1).
 
-![ Proof_Roles_-_Proof_Details_page_2.png ](assets/proof-roles---proof-details-page-2-350x131.png)
+![&#x200B; Proof_Roles_-_Proof_Details_page_2.png &#x200B;](assets/proof-roles---proof-details-page-2-350x131.png)
 
 ## Rollen controleren in de Proefweergave
 
 U kunt de rol van een revisor rechtstreeks vanuit de Proefweergave (1) controleren en deze (2) bewerken.
 
-![ Proof_rollen_-_Proof_Viewer.png ](assets/proof-roles---proof-viewer-350x300.png)
+![&#x200B; Proof_rollen_-_Proof_Viewer.png &#x200B;](assets/proof-roles---proof-viewer-350x300.png)
 
 ## Standaardproefdrukrollen
 
@@ -213,7 +213,7 @@ U kunt uw standaardproefdrukrol op de [!DNL Proofing Defaults] pagina in uw Pers
 >
 >Alleen gebruikers met beheerdersprofielen of factureringsprofielen kunnen de standaardwaarden voor proefdrukken wijzigen voor andere gebruikers in hun account.
 
-Voor meer informatie, zie [ Persoonlijke montages in  [!DNL Workfront Proof]](../../../workfront-proof/wp-getstarted/personal-settings/personal-settings.md).
+Voor meer informatie, zie [&#x200B; Persoonlijke montages in  [!DNL Workfront Proof]](../../../workfront-proof/wp-getstarted/personal-settings/personal-settings.md).
 
 ## Maker en eigenaar
 
@@ -236,7 +236,7 @@ De eigenaar wijzigen op de pagina Nieuwe proefdruk:
 1. Klik op de koppeling voor de wijziging die naast de naam van de maker wordt weergegeven.
 1. Selecteer de nieuwe eigenaar in het keuzemenu. (2)
 
-![ Proef_rollen_-_new_proof_page_change_owner_2.png ](assets/proof-roles---new-proof-page-change-owner-2-350x185.png)
+![&#x200B; Proef_rollen_-_new_proof_page_change_owner_2.png &#x200B;](assets/proof-roles---new-proof-page-change-owner-2-350x185.png)
 
 Zodra het bewijs is gecreeerd, is het nog mogelijk om de eigenaar te veranderen. Iedereen met bewerkingsrechten op de proefdruk kan via de pagina [!UICONTROL Proof details] de proefdrukeigenaar wijzigen in een andere gebruiker (zie hieronder).
 
@@ -254,9 +254,9 @@ Zodra dit wordt gedaan, zal het woord &quot;Eigenaar&quot;naast de naam van die 
 >
 >Alleen een gebruiker van dezelfde account of een partneraccount kan de eigenaar van een bewijs worden. Een gebruiker in een partnerrekening kan tot eigenaar van een bewijs slechts worden gemaakt wanneer:
 >
->* Er is een bestaande partnerverhouding opstelling tussen de rekeningen. Voor meer informatie, zie [ de rekeningen van de Partner in  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/partner-accounts/partner-accounts.md).
+>* Er is een bestaande partnerverhouding opstelling tussen de rekeningen. Voor meer informatie, zie [&#x200B; de rekeningen van de Partner in  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/partner-accounts/partner-accounts.md).
 >* De pagina [!UICONTROL New proof] bevat geen aangepaste velden.
 >* De proefdruk is niet toegewezen aan een map.
 >* Er zijn geen codes toegepast op de proefdruk.
 
-Om bewijsbezit binnen [!DNL Workfront Proof] tijdelijk te delegeren, zie [ Aanwijzend Tijdelijke Eigenaars van het Bewijs in  [!DNL Workfront Proof]](../../../workfront-proof/wp-getstarted/personal-settings/designate-temp-proof-owners.md).
+Om bewijsbezit binnen [!DNL Workfront Proof] tijdelijk te delegeren, zie [&#x200B; Aanwijzend Tijdelijke Eigenaars van het Bewijs in  [!DNL Workfront Proof]](../../../workfront-proof/wp-getstarted/personal-settings/designate-temp-proof-owners.md).

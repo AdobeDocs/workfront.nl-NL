@@ -21,4 +21,4 @@ ht-degree: 0%
 
 Gebruikers met een [!UICONTROL Planner] -licentie kunnen configureren of ze zich binnen [!DNL Adobe Workfront] in uren of dagen aanmelden. Als [!DNL Workfront] beheerder, kunt u dit het plaatsen voor individuele gebruikers of volledige veelvoudige gebruikers in uw organisatie vormen. Standaard kunnen gebruikers zich aanmelden in uren.
 
-Voor informatie over het vormen van gebruikers aan logboektijd in uren of dagen, zie [ vormen of de tijd uren of dagen ](../../../timesheets/config-timesheet-prefs/config-time-logged-hrs-days.md) het programma wordt geopend.
+Voor informatie over het vormen van gebruikers aan logboektijd in uren of dagen, zie [&#x200B; vormen of de tijd uren of dagen &#x200B;](../../../timesheets/config-timesheet-prefs/config-time-logged-hrs-days.md) het programma wordt geopend.

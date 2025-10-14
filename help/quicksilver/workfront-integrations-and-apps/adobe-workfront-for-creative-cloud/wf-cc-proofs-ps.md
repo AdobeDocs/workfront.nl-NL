@@ -19,7 +19,7 @@ U kunt bepaalde typen voorinstellingen voor Photoshop-documenten rechtstreeks up
 
 >[!IMPORTANT]
 >
->Het dossier moet een Vooraf ingesteld Vooraf ingesteld van het Document van de Foto zijn zoals die in [ wordt beschreven Malplaatjes en stelt in Photoshop ](https://helpx.adobe.com/nl/photoshop/using/create-documents.html) vooraf in.
+>Het dossier moet een Vooraf ingesteld Vooraf ingesteld van het Document van de Foto zijn zoals die in [&#x200B; wordt beschreven Malplaatjes en stelt in Photoshop &#x200B;](https://helpx.adobe.com/nl/photoshop/using/create-documents.html) vooraf in.
 
 
 
@@ -64,13 +64,13 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 * U moet [!DNL Adobe Workfront for Photoshop] installeren voordat u proefdrukken van [!DNL Adobe Photoshop] kunt uploaden.
 
-  Voor instructies, zie [ installeren  [!DNL Adobe Workfront for Photoshop]](../../workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-ps.md).
+  Voor instructies, zie [&#x200B; installeren  [!DNL Adobe Workfront for Photoshop]](../../workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-ps.md).
 
 ## Een basisproef uploaden
 
 1. Klik op het pictogram **[!UICONTROL Menu]** in de rechterbovenhoek en selecteer vervolgens **[!UICONTROL Work List]** . U kunt het menu ook gebruiken om naar bovenliggende objecten te navigeren.
 
-   ![ Terugkeer aan de Lijst van het Werk ](assets/go-back-to-work-list-350x314.png)
+   ![&#x200B; Terugkeer aan de Lijst van het Werk &#x200B;](assets/go-back-to-work-list-350x314.png)
 
 1. Ga naar het werkitem waar u een proefdruk wilt uploaden.
 1. Klik het **[!UICONTROL Document]** pictogram van het pictogram van het 1&rbrace; Document ![&#128279;](assets/documents.png) in de navigatiebar.
@@ -81,14 +81,14 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 1. (Optioneel) Voeg fiatteurs toe.
 1. (Optioneel) Typ een opmerking in het **[!UICONTROL Updates]** -gebied.
 
-   ![ voeg een commentaar ](assets/add-comment.png) toe
+   ![&#x200B; voeg een commentaar &#x200B;](assets/add-comment.png) toe
 
 1. Kies de **[!UICONTROL Asset Type]** in de vervolgkeuzelijst.
 
 1. (Optioneel) Selecteer **[!UICONTROL Add outside file]** om een bestand van uw computer toe te voegen.
 1. Klik op **[!UICONTROL Upload]** en configureer de gewenste exportopties op basis van het hierboven gekozen elementtype.
 
-   ![ Dossiers in plugin ](assets/plugin-files-350x307.png)\
+   ![&#x200B; Dossiers in plugin &#x200B;](assets/plugin-files-350x307.png)\
    Het document wordt weergegeven in het gebied [!UICONTROL Documents] in het deelvenster [!DNL Workfront] in [!DNL Photoshop] en in de bureaubladtoepassing van [!DNL Workfront] .
 
 
@@ -96,7 +96,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 1. Klik op het pictogram **[!UICONTROL Menu]** in de rechterbovenhoek en selecteer vervolgens **[!UICONTROL Work List]** . U kunt het menu ook gebruiken om naar bovenliggende objecten te navigeren.
 
-   ![ Terugkeer aan de Lijst van het Werk ](assets/go-back-to-work-list-350x314.png)
+   ![&#x200B; Terugkeer aan de Lijst van het Werk &#x200B;](assets/go-back-to-work-list-350x314.png)
 
 1. Ga naar het werkitem waar u een proefdruk wilt uploaden.
 1. Klik het **[!UICONTROL Document]** pictogram van het pictogram van het 1&rbrace; Document ![&#128279;](assets/documents.png) in de navigatiebar.
@@ -116,7 +116,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 1. (Optioneel) Typ een opmerking in het **[!UICONTROL Updates]** -gebied.
 
-   ![ voeg commentaargeautomatiseerde goedkeuring ](assets/add-comment-automated-approval.png) toe
+   ![&#x200B; voeg commentaargeautomatiseerde goedkeuring &#x200B;](assets/add-comment-automated-approval.png) toe
 
 1. Kies de **[!UICONTROL Asset Type]** in de vervolgkeuzelijst.
 1. (Optioneel) Selecteer **[!UICONTROL Add outside file]** om een bestand van uw computer toe te voegen.
@@ -129,7 +129,7 @@ U kunt een nieuwe versie van een proefdruk uploaden. De plug-in onthoudt de test
 
 1. Klik op het pictogram **[!UICONTROL Menu]** in de rechterbovenhoek en selecteer vervolgens **[!UICONTROL Work List]** . U kunt het menu ook gebruiken om naar bovenliggende objecten te navigeren.
 
-   ![ Terugkeer aan de Lijst van het Werk ](assets/go-back-to-work-list-350x314.png)
+   ![&#x200B; Terugkeer aan de Lijst van het Werk &#x200B;](assets/go-back-to-work-list-350x314.png)
 
 1. Ga naar het werkitem waarnaar u een document moet uploaden.
 1. Klik het **[!UICONTROL Document]** pictogram van het pictogram van het 1&rbrace; Document ![&#128279;](assets/documents.png) in de navigatiebar.

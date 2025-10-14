@@ -19,7 +19,7 @@ ht-degree: 0%
 
 Deze pagina bevat een beschrijving van alle verbeteringen op het gebied van mobiele apparaten die zijn aangebracht met de release van 2019.4. Het wordt in de week van 11 november 2019 beschikbaar gesteld in de productieomgeving.
 
-Voor een lijst van alle veranderingen die in 2019.4 worden aangebracht, zie [ overzicht van de versie 2019.4 ](../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-release-activity-overview.md).
+Voor een lijst van alle veranderingen die in 2019.4 worden aangebracht, zie [&#x200B; overzicht van de versie 2019.4 &#x200B;](../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-release-activity-overview.md).
 
 <table style="table-layout:auto"> 
  <col> 

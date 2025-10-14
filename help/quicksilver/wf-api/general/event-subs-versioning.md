@@ -25,7 +25,7 @@ De capaciteit om gebeurtenisabonnementen te bevorderen of te degraderen zorgt er
 
 Wanneer u uw gebeurtenissenabonnement upgradet of downloadt naar een andere versie, ontvangt u dubbele gebeurtenissen voor elke gebeurtenislevering gedurende een venster van vijf minuten na de versiewijziging. De duplicaten bevatten een van de versies 1 en 2 van het gebeurtenisabonnement. Dit zorgt ervoor dat u geen gebeurtenissen mist toe te schrijven aan het veranderen van de versie van het gebeurtenisabonnement.
 
-Voor informatie over de eindpunten die voor bevordering of het degraderen van gebeurtenisabonnementen worden gebruikt, zie [ het abonnement van de Gebeurtenis versioning ](/help/quicksilver/wf-api/general/event-subs-api.md#event-subscription-versioning) in het abonnement API van de artikelgebeurtenis.
+Voor informatie over de eindpunten die voor bevordering of het degraderen van gebeurtenisabonnementen worden gebruikt, zie [&#x200B; het abonnement van de Gebeurtenis versioning &#x200B;](/help/quicksilver/wf-api/general/event-subs-api.md#event-subscription-versioning) in het abonnement API van de artikelgebeurtenis.
 
 >[!IMPORTANT]
 >
@@ -255,6 +255,6 @@ De volgende wijzigingen zijn aangebracht voor gebeurtenisabonnementen versie 2:
 
 Workfront Fusion gebruikt gebeurtenisabonnementen om op veranderingen in Workfront te letten om scenario&#39;s teweeg te brengen. U kunt de versie van de gebeurtenisbeschrijving die Fusion direct in een scenario gebruikt bijwerken, gebruikend Workfront > de module van de Versie van de Payload van Gebeurtenissen bijwerken.
 
-Voor instructies bij het gebruiken van deze module, zie [ modules van Workfront ](https://experienceleague.adobe.com/nl/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules) in de documentatie van de Fusie van Workfront.
+Voor instructies bij het gebruiken van deze module, zie [&#x200B; modules van Workfront &#x200B;](https://experienceleague.adobe.com/nl/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules) in de documentatie van de Fusie van Workfront.
 
-Voor middelen bij het bewaren van uw scenario&#39;s van de Fusie van Workfront tijdens de verbetering van het gebeurtenisabonnement, met inbegrip van een webinar opname, zie [ het Behouden van Uw Scenario&#39;s van de Fusie tijdens de Verbetering van de Abonnementen V2 van de Gebeurtenis ](https://experienceleaguecommunities.adobe.com/t5/workfront-discussions/event-follow-up-preserving-your-fusion-scenarios-during-the/td-p/754182).
+Voor middelen bij het bewaren van uw scenario&#39;s van de Fusie van Workfront tijdens de verbetering van het gebeurtenisabonnement, met inbegrip van een webinar opname, zie [&#x200B; het Behouden van Uw Scenario&#39;s van de Fusie tijdens de Verbetering van de Abonnementen V2 van de Gebeurtenis &#x200B;](https://experienceleaguecommunities.adobe.com/t5/workfront-discussions/event-follow-up-preserving-your-fusion-scenarios-during-the/td-p/754182).

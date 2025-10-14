@@ -19,17 +19,17 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [ het Bewijzen ](../../../review-and-approve-work/proofing/proofing.md).
+>Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [&#x200B; het Bewijzen &#x200B;](../../../review-and-approve-work/proofing/proofing.md).
 
 Gegevensbeveiliging is van het grootste belang voor [!DNL Workfront Proof] . We investeren aanzienlijke middelen om onze beveiligingsinfrastructuur up-to-date te houden.
 
 Als gevolg hiervan bieden we onze klanten onovertroffen beveiligings- en privacyniveaus.
 
-Gelieve te zien de [ overzichtspagina van de Veiligheid ](https://www.adobe.com/legal/terms/enterprise-licensing/workfront-legacy-terms.html) voor meer details.
+Gelieve te zien de [&#x200B; overzichtspagina van de Veiligheid &#x200B;](https://www.adobe.com/legal/terms/enterprise-licensing/workfront-legacy-terms.html) voor meer details.
 
 ## Elektronische handtekeningen vereisen
 
-Voor informatie over het vormen van elektronische handtekeningen, zie [ Begrip van elektronische handtekeningen in  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/managing-security/electronic-sigs-in-wp.md).
+Voor informatie over het vormen van elektronische handtekeningen, zie [&#x200B; Begrip van elektronische handtekeningen in  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/managing-security/electronic-sigs-in-wp.md).
 
 ## Aanmelding vereist
 
@@ -47,12 +47,12 @@ Nochtans, als u hogere niveaus van veiligheid voor uw overzicht en goedkeuringsp
 
 
 
-U kunt login vereisen door uw persoonlijke proefdrukmontages te wijzigen, zoals die in [ worden beschreven vormt de Montages van het Bewijs in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md).
+U kunt login vereisen door uw persoonlijke proefdrukmontages te wijzigen, zoals die in [&#x200B; worden beschreven vormt de Montages van het Bewijs in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md).
 
 ## Bestandsdownloads uitschakelen
 
 Standaard kunnen revisoren het originele bestand downloaden van waaruit de proefdruk is gemaakt. Als u deze instelling uitschakelt, kunnen controleurs op de proefdruk het originele bestand niet downloaden.
 
-De montages die in uw persoonlijke montages worden bewaard worden toegepast op alle proeven die door u worden gecreeerd, maar zij kunnen worden met voeten getreden wanneer het creëren van een nieuw bewijs of wanneer het wijzigen van een proef, zoals die in [ wordt beschreven beheert de Details van het Bewijs in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
+De montages die in uw persoonlijke montages worden bewaard worden toegepast op alle proeven die door u worden gecreeerd, maar zij kunnen worden met voeten getreden wanneer het creëren van een nieuw bewijs of wanneer het wijzigen van een proef, zoals die in [&#x200B; wordt beschreven beheert de Details van het Bewijs in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
 
-U kunt dossierdownloads onbruikbaar maken door uw persoonlijke proefdrukmontages te wijzigen, zoals die in [ worden beschreven vormt de Montages van het Bewijs in [!DNL &#x200B; Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md).
+U kunt dossierdownloads onbruikbaar maken door uw persoonlijke proefdrukmontages te wijzigen, zoals die in [&#x200B; worden beschreven vormt de Montages van het Bewijs in [!DNL &#x200B; Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md).

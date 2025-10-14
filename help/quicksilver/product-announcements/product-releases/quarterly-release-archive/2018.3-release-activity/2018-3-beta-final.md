@@ -22,16 +22,16 @@ Op deze pagina worden alle wijzigingen beschreven die het laatst beschikbaar zij
 >
 > De op deze pagina beschreven functionaliteit kan worden gewijzigd voordat deze beschikbaar is in de productieomgeving.
 
-Voor een lijst met alle wijzigingen die in 2018.3 zijn aangebracht, raadpleegt u  [ 2018.3 overzicht van de versieactiviteit ](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-release-activity-overview.md).
+Voor een lijst met alle wijzigingen die in 2018.3 zijn aangebracht, raadpleegt u  [&#x200B; 2018.3 overzicht van de versieactiviteit &#x200B;](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-release-activity-overview.md).
 
 De slotversie van Beta van 2018.3 bevat de volgende verbeteringen:
 
-* [ 2-wegsSynchronisatie tussen de Kalender van het Huis en de Kalender van Vooruitzichten ](#two-way-sync-between-home-calendar-and-outlook-calendar)
-* [ Updates voor het Toevoegen van Nieuwe Taken in Huis ](#updates-for-adding-new-tasks-in-home)
-* [ Proofing Markup Tools die nu door Standaard ](#proofing-markup-tools-now-expanded-by-default) worden uitgebreid
-* [ de Integratie van het Document van Microsoft OneDrive ](#microsoft-onedrive-document-integration)
-* [ Workfront voor de Integratie van Microsoft Teams ](#workfront-for-microsoft-teams-integration)
-* [ Bijgewerkte Workfront voor de Integratie van Adobe Creative Cloud ](#updated-workfront-for-adobe-creative-cloud-integration)
+* [&#x200B; 2-wegsSynchronisatie tussen de Kalender van het Huis en de Kalender van Vooruitzichten &#x200B;](#two-way-sync-between-home-calendar-and-outlook-calendar)
+* [&#x200B; Updates voor het Toevoegen van Nieuwe Taken in Huis &#x200B;](#updates-for-adding-new-tasks-in-home)
+* [&#x200B; Proofing Markup Tools die nu door Standaard &#x200B;](#proofing-markup-tools-now-expanded-by-default) worden uitgebreid
+* [&#x200B; de Integratie van het Document van Microsoft OneDrive &#x200B;](#microsoft-onedrive-document-integration)
+* [&#x200B; Workfront voor de Integratie van Microsoft Teams &#x200B;](#workfront-for-microsoft-teams-integration)
+* [&#x200B; Bijgewerkte Workfront voor de Integratie van Adobe Creative Cloud &#x200B;](#updated-workfront-for-adobe-creative-cloud-integration)
 * [Verbeteringen voor Workfront Mobile-app](#workfront-mobile-app-improvements)
 
 ## 2-wegssynchronisatie tussen de Kalender van het Huis en de Kalender van Vooruitzichten {#two-way-sync-between-home-calendar-and-outlook-calendar}
@@ -45,7 +45,7 @@ Eerder kon u alleen items synchroniseren van uw Outlook-agenda naar uw startagen
 * U kunt de geplande datum van de Voltooiing op een Persoonlijke Taak nu bijwerken.
 * U kunt nu Teams en rollen toewijzen aan aanvragen en projecttaken die in Home zijn gemaakt.
 
-Zie voor meer informatie over de bovenstaande updates  [ creeer het werkpunten van het gebied van het Huis ](../../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md).
+Zie voor meer informatie over de bovenstaande updates  [&#x200B; creeer het werkpunten van het gebied van het Huis &#x200B;](../../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md).
 
 ## Gereedschappen voor markeringen voor proeven zijn nu standaard uitgevouwen {#proofing-markup-tools-now-expanded-by-default}
 
@@ -53,7 +53,7 @@ Wanneer u nu een proefdruk opent in de proefdrukviewer, worden de markeringsgere
 
 Eerder moest u klikken om deze gereedschappen uit te vouwen in een verticaal menu.
 
-Zie voor meer informatie  [ vorm het proef van kijkersmontages ](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/configure-proofing-viewer-settings.md).
+Zie voor meer informatie  [&#x200B; vorm het proef van kijkersmontages &#x200B;](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/configure-proofing-viewer-settings.md).
 
 ## Microsoft OneDrive-documentintegratie {#microsoft-onedrive-document-integration}
 
@@ -66,7 +66,7 @@ Voordat u deze upgrade uitvoert, kunt u de volgende externe documentopslagprovid
 * Dropbox
 * WebDAM
 
-Voor informatie over documentintegratie, zie [ documentintegratie ](../../../../administration-and-setup/configure-integrations/configure-document-integrations.md) vormen.
+Voor informatie over documentintegratie, zie [&#x200B; documentintegratie &#x200B;](../../../../administration-and-setup/configure-integrations/configure-document-integrations.md) vormen.
 
 ## Workfront for Microsoft Teams Integration {#workfront-for-microsoft-teams-integration}
 
@@ -84,7 +84,7 @@ De integratie is gratis beschikbaar voor alle klanten met een Workfront Professi
 
 >[!NOTE]
 >
-> Sommige integratiegebieden die in de volgende video worden beschreven, zijn gewijzigd. Voor de meest recente informatie over Workfront for Microsoft Teams, zie [[!DNL Adobe Workfront for Microsoft Teams]: de sectie van de artikelindex ](../../../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/use-workfront-with-ms-teams.md).
+> Sommige integratiegebieden die in de volgende video worden beschreven, zijn gewijzigd. Voor de meest recente informatie over Workfront for Microsoft Teams, zie [[!DNL Adobe Workfront for Microsoft Teams]: de sectie van de artikelindex &#x200B;](../../../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/use-workfront-with-ms-teams.md).
 
 ## Bijgewerkte Workfront for Adobe Creative Cloud Integration {#updated-workfront-for-adobe-creative-cloud-integration}
 

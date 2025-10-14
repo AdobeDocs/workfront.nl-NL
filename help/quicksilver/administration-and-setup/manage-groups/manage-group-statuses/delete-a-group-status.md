@@ -57,7 +57,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -70,7 +70,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 1. In het linkerpaneel klik **Statussen**.
 1. In de lijst van statussen die toont, over de status bewegen u wilt schrappen, dan **Schrapping** klikken wanneer het aan uiterst rechts verschijnt.
 
-   ![ Schrapping ](assets/hover-click-delete.jpg)
+   ![&#x200B; Schrapping &#x200B;](assets/hover-click-delete.jpg)
 
 1. In de doos die toont, selecteer een status om een vervangingsstatus voor voorwerpen (projecten, taken, kwesties, en goedkeuringsprocessen) aan te wijzen die de status gebruikten die u schrapt.
 
@@ -87,7 +87,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
       * Als er andere vergrendelde, niet-verborgen statussen zijn, zijn alleen deze beschikbaar.
       * Als er geen vergrendelde, niet-verborgen status is, is de standaard Workfront-status beschikbaar, zelfs als deze verborgen of ontgrendeld is.
 
-        Voor informatie over de status standaard van Workfront, zie [ Toegang tot de lijst van de statussen van het systeemproject ](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/project-statuses.md), [ toegang tot de lijst van de statussen van de systeemtaak ](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/task-statuses.md), en de informatie over de 4 vereiste uitgevende status in [ toegang tot de lijst van de statussen van de systeemkwestie ](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/issue-statuses.md).
+        Voor informatie over de status standaard van Workfront, zie [&#x200B; Toegang tot de lijst van de statussen van het systeemproject &#x200B;](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/project-statuses.md), [&#x200B; toegang tot de lijst van de statussen van de systeemtaak &#x200B;](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/task-statuses.md), en de informatie over de 4 vereiste uitgevende status in [&#x200B; toegang tot de lijst van de statussen van de systeemkwestie &#x200B;](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/issue-statuses.md).
 
 1. Klik **Status van de Schrapping**.
 

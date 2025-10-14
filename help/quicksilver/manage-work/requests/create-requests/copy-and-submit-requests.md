@@ -91,7 +91,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -108,7 +108,7 @@ U moet een verzoek hebben dat u of iemand in uw organisatie eerder heeft ingedie
 
   Raadpleeg de volgende artikelen voor meer informatie:
 
-   * [ creeer een Rij van het Verzoek ](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)
+   * [&#x200B; creeer een Rij van het Verzoek &#x200B;](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)
    * [Projecten bewerken](../../../manage-work/projects/manage-projects/edit-projects.md)
 
 * U kunt de kopie van de oorspronkelijke aanvraag bijwerken voordat u deze opnieuw indient als een nieuwe aanvraag.
@@ -121,12 +121,12 @@ U moet een verzoek hebben dat u of iemand in uw organisatie eerder heeft ingedie
      >
      >Als het rijonderwerp slechts in de verzoekrij was, kunt u nog het verzoek kopiëren en voorleggen en het zal onder de verzoekrij zelf worden bewaard.
 
-   * De verzoekrij wordt niet meer gepubliceerd als Rij van het Verzoek van de Hulp. Voor informatie, zie [ een Rij van het Verzoek ](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md) creëren.
+   * De verzoekrij wordt niet meer gepubliceerd als Rij van het Verzoek van de Hulp. Voor informatie, zie [&#x200B; een Rij van het Verzoek &#x200B;](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md) creëren.
    * Als de verzoekrij geen rijonderwerp heeft en het originele verzoek werd voorgelegd vóór Januari 2022.
 
    * De status van het project verbonden aan de verzoekrij is niet meer Huidig.
 
-* U kunt een kopie van een omgezette aanvraag kopiëren en verzenden als de aanvraag tijdens het conversieproces is behouden. Voor meer informatie, zie [ Overzicht van het omzetten van kwesties in Adobe Workfront ](../../../manage-work/issues/convert-issues/convert-issues.md).
+* U kunt een kopie van een omgezette aanvraag kopiëren en verzenden als de aanvraag tijdens het conversieproces is behouden. Voor meer informatie, zie [&#x200B; Overzicht van het omzetten van kwesties in Adobe Workfront &#x200B;](../../../manage-work/issues/convert-issues/convert-issues.md).
 
   >[!TIP]
   >

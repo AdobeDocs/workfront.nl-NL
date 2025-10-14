@@ -19,9 +19,9 @@ ht-degree: 0%
 
 Deze sectie bevat de volgende artikelen:
 
-* [ Overzicht van het omzetten van kwesties in Adobe Workfront ](../../../manage-work/issues/convert-issues/convert-issues.md)
-* [ zet een kwestie in een project in Adobe Workfront om ](../../../manage-work/issues/convert-issues/convert-issue-to-project.md)
-* [ zet een kwestie in een taak in Adobe Workfront om ](../../../manage-work/issues/convert-issues/convert-issue-to-task.md)
-* [ Overzicht van het Oplossen van en Oplosbare Voorwerpen ](../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md)
-* [ bindt manueel de resolutie van een kwestie aan andere kwesties, taken, of projecten ](../../../manage-work/issues/convert-issues/manually-tie-resolution-of-issue-to-ptis.md)
+* [&#x200B; Overzicht van het omzetten van kwesties in Adobe Workfront &#x200B;](../../../manage-work/issues/convert-issues/convert-issues.md)
+* [&#x200B; zet een kwestie in een project in Adobe Workfront om &#x200B;](../../../manage-work/issues/convert-issues/convert-issue-to-project.md)
+* [&#x200B; zet een kwestie in een taak in Adobe Workfront om &#x200B;](../../../manage-work/issues/convert-issues/convert-issue-to-task.md)
+* [&#x200B; Overzicht van het Oplossen van en Oplosbare Voorwerpen &#x200B;](../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md)
+* [&#x200B; bindt manueel de resolutie van een kwestie aan andere kwesties, taken, of projecten &#x200B;](../../../manage-work/issues/convert-issues/manually-tie-resolution-of-issue-to-ptis.md)
 * [Problemen ontkoppelen van hun oplossende objecten](../../../manage-work/issues/convert-issues/unlink-issues-from-resolvable-objects.md)

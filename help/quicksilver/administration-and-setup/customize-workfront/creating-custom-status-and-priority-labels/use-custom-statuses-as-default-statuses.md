@@ -48,7 +48,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -76,13 +76,13 @@ In de volgende omstandigheden wordt een aangepaste status gebruikt die u instelt
 
   Bijvoorbeeld, kan een project met de groep van de Marketing worden geassocieerd, en het statuut van het project wordt geplaatst aan Planning. Het project wordt uitgegeven zodat het nu met de groep van de Verkoop wordt geassocieerd. De groep van de Verkoop heeft een status van de douane standaardgroep genoemd Dinking (en deze status is met Planning gelijk). Omdat de Groep op het project werd veranderd, verandert het statuut van het project nu in het Dinken.
 
-Als u een groepsbeheerder bent, zie [ Plaats een status als standaardstatus voor een groep ](/help/quicksilver/administration-and-setup/manage-groups/manage-group-statuses/use-custom-statuses-as-default-statuses-group.md).
+Als u een groepsbeheerder bent, zie [&#x200B; Plaats een status als standaardstatus voor een groep &#x200B;](/help/quicksilver/administration-and-setup/manage-groups/manage-group-statuses/use-custom-statuses-as-default-statuses-group.md).
 
 ## Uitgiftestatus
 
 Als de aangepaste status de status Uitgave is, moeten alle vier de uitgiftetypen hiervoor zijn ingeschakeld (Foutenrapport, Wijzigingsvolgorde, Uitgave en Verzoek). In de onderstaande status van de uitgave kan de status Opnieuw geopend bijvoorbeeld niet als standaardstatus worden gebruikt omdat het type Uitgave volgorde wijzigen niet is geselecteerd:
 
-![ Alle toegelaten uitgiftetypen ](assets/all-4-issue-types-enabled.png)
+![&#x200B; Alle toegelaten uitgiftetypen &#x200B;](assets/all-4-issue-types-enabled.png)
 
 ## Een aangepaste status instellen als standaardstatus
 
@@ -101,6 +101,6 @@ Als de aangepaste status de status Uitgave is, moeten alle vier de uitgiftetypen
    >Als u de douanestatus voor een groep plaatst, en u later het project aan een verschillende groep toewijst, zal de projectstatus opnieuw laden en kon veranderen.
 
    1. Ga naar het project waar u de douanestatus wilt gebruiken.
-   1. Klik het Meer menu ![ Meer pictogram ](assets/more-icon.png), dan klik **uitgeven**.
+   1. Klik het Meer menu ![&#x200B; Meer pictogram &#x200B;](assets/more-icon.png), dan klik **uitgeven**.
    1. In **geef de doos van het Project** uit die, op het **3&rbrace; gebied van de Groep &lbrace;onder** de vereniging van het Project **toont, selecteer de groep waar de status verblijft.**
    1. Klik **sparen Veranderingen**.

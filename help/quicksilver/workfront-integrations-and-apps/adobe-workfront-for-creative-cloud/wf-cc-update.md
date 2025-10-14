@@ -86,11 +86,11 @@ Een update plaatsen:
 
 1. Klik op het pictogram **[!UICONTROL Menu]** in de rechterbovenhoek en selecteer vervolgens **[!UICONTROL Work List]** . U kunt het menu ook gebruiken om naar bovenliggende objecten te navigeren.
 
-   ![ Terugkeer aan de Lijst van het Werk ](assets/go-back-to-work-list-350x314.png)
+   ![&#x200B; Terugkeer aan de Lijst van het Werk &#x200B;](assets/go-back-to-work-list-350x314.png)
 
 1. Selecteer in het **[!UICONTROL Work List]** het werkitem waarnaar u een update wilt posten.
 1. Klik op **[!UICONTROL Update]** in de navigatiebalk.\
-   ![ de update van Photoshop ](assets/photoshop-update-350x295.png)
+   ![&#x200B; de update van Photoshop &#x200B;](assets/photoshop-update-350x295.png)
 
 1. Klik op **[!UICONTROL New Update]**.
 1. Typ de update.

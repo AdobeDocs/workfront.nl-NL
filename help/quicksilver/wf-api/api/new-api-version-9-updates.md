@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ## Bijgewerkte bronnen
 
-De volgende bestaande bronnen zijn bijgewerkt met deze versie van de Adobe Workfront API. Om de middelen te bekijken die aan versie 9 nieuw zijn kunt u [ bezoeken wat in API Versie 9 ](../../wf-api/api/new-api-version-9.md) Nieuw is en [ wat in (voortgezette) API Versie 9 Nieuw is ](../../wf-api/api/new-api-version-9-continue.md). Wijzigingen in een bron worden als volgt aangegeven:
+De volgende bestaande bronnen zijn bijgewerkt met deze versie van de Adobe Workfront API. Om de middelen te bekijken die aan versie 9 nieuw zijn kunt u [&#x200B; bezoeken wat in API Versie 9 &#x200B;](../../wf-api/api/new-api-version-9.md) Nieuw is en [&#x200B; wat in (voortgezette) API Versie 9 Nieuw is &#x200B;](../../wf-api/api/new-api-version-9-continue.md). Wijzigingen in een bron worden als volgt aangegeven:
 
 * Toevoegingen worden gewoon vermeld
 * Verwijderingen worden aangegeven met doorhalingstekst

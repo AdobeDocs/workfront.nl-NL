@@ -125,15 +125,15 @@ Om proefdrukbesluiten te vormen:
       >
       >Behoud de logica voor een besluit wanneer u het anders noemt. Bijvoorbeeld, kon het afgewezen standaardbesluit in *Nieuwe vereiste versie* worden veranderd, maar het zou niet moeten worden veranderd in *verzenden naar Printers*.
 
-      ![ noem besluit ](assets/rename-decision-350x109.png) anders
+      ![&#x200B; noem besluit &#x200B;](assets/rename-decision-350x109.png) anders
 
    1. **herschikt de besluitvormingsorde**: Sleep de besluitvormingsvakjes in de orde u hen in de het proef kijker wilt verschijnen.
 
-      ![ besluit van de beweging ](assets/move-decision-350x110.png)
+      ![&#x200B; besluit van de beweging &#x200B;](assets/move-decision-350x110.png)
 
    1. **verberg een besluit**: Beweeg over de besluitvormingsdoos, en klik het pictogram van de Huid in de hoger-juiste hoek.
 
-      ![ besluit van de Huid ](assets/hide-decision-350x109.png)
+      ![&#x200B; besluit van de Huid &#x200B;](assets/hide-decision-350x109.png)
 
 1. (Facultatief) om terug naar de gebreken van Workfront te gaan, klik **herstellen gebreken**.
 1. Klik **sparen**.

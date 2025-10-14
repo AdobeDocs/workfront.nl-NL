@@ -54,7 +54,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -69,14 +69,14 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 1. Typ een naam voor het aangepaste kwartaal, bijvoorbeeld &quot;Fiscaal Q1 2021&quot;.
 1. Selecteer de begin- en einddatum voor het aangepaste kwartaal.
 
-   ![ Aangepaste kwarten ](assets/custom-quarters-nwe.png)
+   ![&#x200B; Aangepaste kwarten &#x200B;](assets/custom-quarters-nwe.png)
 
 1. (Optioneel) Klik op **[!UICONTROL Add Custom Quarter]** om extra aangepaste vierkanten aan het systeem toe te voegen.
 
    >[!IMPORTANT]
    >
    > Als uw bedrijf [!DNL Workfront Planning] heeft aangeschaft, kunt u uw aangepaste kwartalen niet opslaan als er tussenruimten of overlappingen zijn tussen de kwartalen.
-   >![ de kwarten van de Douane met overlappende waarschuwing ](assets/custom-quarters-with-overlap-warning.png)
+   >![&#x200B; de kwarten van de Douane met overlappende waarschuwing &#x200B;](assets/custom-quarters-with-overlap-warning.png)
    >Tussenruimten en overlappingen tussen de kwartalen zijn alleen toegestaan voor [!DNL Workfront] -klanten.
 
 1. (Optioneel en voorwaardelijk) Als uw bedrijf alleen [!DNL Workfront] zonder [!DNL Workfront Planning] heeft aangeschaft, maakt u een rapporteringselement dat naar de fiscale kwartalen verwijst.
@@ -84,12 +84,12 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
    **Voorbeeld:** creeer een filter voor een [!UICONTROL project] lijst en omvat de Geplande Datum van de Voltooiing van een project dat van de douanekwartalen van verwijzingen voorziet.
 
-   ![ filter van het Project met douanekwartalen ](assets/example-of-project-filter-with-custom-quarters.png)
+   ![&#x200B; filter van het Project met douanekwartalen &#x200B;](assets/example-of-project-filter-with-custom-quarters.png)
 
    De verwijzingen naar &quot;Dit Kwartaal&quot;, &quot;Volgende Kwartaal&quot; en &quot;Laatste Kwartaal&quot; worden vervangen door nieuwe verwijzingen naar de aangepaste kwartalen.
 
-   Voor informatie over het melden van elementen, zie [ Rapporterende elementen: filters, meningen, en groeperingen ](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md).
+   Voor informatie over het melden van elementen, zie [&#x200B; Rapporterende elementen: filters, meningen, en groeperingen &#x200B;](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md).
 
-   Voor informatie over het creëren van filters, zie [ filters in  [!DNL Adobe Workfront]](../../../reports-and-dashboards/reports/reporting-elements/create-filters.md) creëren of uitgeven.
+   Voor informatie over het creëren van filters, zie [&#x200B; filters in  [!DNL Adobe Workfront]](../../../reports-and-dashboards/reports/reporting-elements/create-filters.md) creëren of uitgeven.
 1. (Optioneel en voorwaardelijk) Ga naar een pagina met recordtypen en open een tijdlijnweergave als u toegang hebt tot [!DNL Workfront Planning] . In de weergave worden de nieuwe aangepaste kwartalen weergegeven.
-Voor informatie, zie [ de chronologiemening ](/help/quicksilver/planning/views/manage-the-timeline-view.md) leiden.
+Voor informatie, zie [&#x200B; de chronologiemening &#x200B;](/help/quicksilver/planning/views/manage-the-timeline-view.md) leiden.

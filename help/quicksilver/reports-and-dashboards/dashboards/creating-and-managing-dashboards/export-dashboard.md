@@ -62,7 +62,7 @@ U moet het volgende hebben:
  </tbody> 
 </table>
 
-Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -70,14 +70,14 @@ Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront
 
 Het dashboard moet worden gemaakt voordat u het kunt exporteren.
 
-Voor informatie bij het creëren van dashboards, zie [ een dashboard ](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md) creëren.
+Voor informatie bij het creëren van dashboards, zie [&#x200B; een dashboard &#x200B;](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md) creëren.
 
 ## Een dashboard exporteren naar een .pdf-bestand:
 
 1. Ga naar het dashboard dat u wilt exporteren.
 1. Klik {de acties van 0} Dashboard **, dan selecteren** Voorproef van de Druk **.**
 
-   ![ de drukvoorproef van het dashboard ](assets/dashboard-actions-print-350x254.png)
+   ![&#x200B; de drukvoorproef van het dashboard &#x200B;](assets/dashboard-actions-print-350x254.png)
 
    Het venster Afdrukvoorbeeld wordt geopend.
 

@@ -70,7 +70,7 @@ Voor informatie bij het vragen van om extra toegang, zie <strong> de toegang van
 
 Voordat u begint,
 
-* Uw Workfront-beheerder moet een Experience Manager-integratie configureren. Voor meer informatie, zie [ de as a Cloud Service integratie van Experience Manager Assets ](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md) vormen of [ vormen de integratie van de Hoofdzaak van Experience Manager Assets ](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
+* Uw Workfront-beheerder moet een Experience Manager-integratie configureren. Voor meer informatie, zie [&#x200B; de as a Cloud Service integratie van Experience Manager Assets &#x200B;](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md) vormen of [&#x200B; vormen de integratie van de Hoofdzaak van Experience Manager Assets &#x200B;](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
 
 
 ## Documentdetails
@@ -85,7 +85,7 @@ Het deelvenster Metagegevens openen in Documentdetails:
    >
    >U kunt de velden in deze sectie niet bewerken. Ze zijn alleen-weergeven.
 
-![ paneel van documentdetails ](assets/metadata-panel-doc-details.png)
+![&#x200B; paneel van documentdetails &#x200B;](assets/metadata-panel-doc-details.png)
 
 
 ## Samenvatting voor documenten
@@ -94,10 +94,10 @@ U opent als volgt het deelvenster Metagegevens in het deelvenster Samenvatting:
 
 1. Ga naar het project, de taak, of de kwestie die het document bevat, dan selecteren **Documenten**.
 1. Zoek het document dat u nodig hebt.
-1. Klik het **Summiere pictogram van de Samenvatting** ![ summiere pictogram ](assets/summary-panel-icon.png), dan breid de **Meta-gegevens** sectie uit.
+1. Klik het **Summiere pictogram van de Samenvatting** ![&#x200B; summiere pictogram &#x200B;](assets/summary-panel-icon.png), dan breid de **Meta-gegevens** sectie uit.
 
    >[!NOTE]
    >
    >U kunt de velden in deze sectie niet bewerken. Ze zijn alleen-weergeven.
 
-![ samenvatting voor documenten ](assets/metadata-panel-summary.png)
+![&#x200B; samenvatting voor documenten &#x200B;](assets/metadata-panel-summary.png)

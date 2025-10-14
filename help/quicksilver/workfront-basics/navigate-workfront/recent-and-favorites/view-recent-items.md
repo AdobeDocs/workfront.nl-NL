@@ -44,11 +44,11 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 1. Klik op het **[!UICONTROL Recents]** pictogram ![[!UICONTROL Recents]](assets/recents-icon-40x43.png) in de rechterbovenhoek van een pagina.
 
-   ![ lijst van Recenten ](assets/recents-list-2022-350x319.png)
+   ![&#x200B; lijst van Recenten &#x200B;](assets/recents-list-2022-350x319.png)
 
    Onder elk objecttype kunt u maximaal vijf van de laatste items zien die u onlangs hebt bekeken.
 
 1. (Optioneel) Als u de lijst met recente items wilt uitvouwen, klikt u op **[!UICONTROL View More]** net onder het laatste item onder een objecttype om de vorige 10 weergegeven items weer te geven. U kunt de lijst uitbreiden om maximaal 20 items per objecttype weer te geven.
 1. Klik op de X in de rechterbovenhoek om de lijst te sluiten.
 
-Voor informatie over hoe te om recente punten als favorieten te merken, zie [ Mening en beheer favorieten ](../../../workfront-basics/navigate-workfront/recent-and-favorites/view-and-manage-favorites.md).
+Voor informatie over hoe te om recente punten als favorieten te merken, zie [&#x200B; Mening en beheer favorieten &#x200B;](../../../workfront-basics/navigate-workfront/recent-and-favorites/view-and-manage-favorites.md).

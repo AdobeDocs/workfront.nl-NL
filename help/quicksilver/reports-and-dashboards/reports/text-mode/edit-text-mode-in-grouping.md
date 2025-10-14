@@ -61,7 +61,7 @@ U moet het volgende hebben:
  </tbody> 
 </table>
 
-Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -71,8 +71,8 @@ Voordat u de tekstmodus in een rapport of lijst gaat gebruiken, moet u altijd op
 
 Zie voor meer informatie:
 
-* [ Overzicht van de Wijze van de Tekst ](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md)
-* [ overzicht van de de wijzesyntaxis van de Tekst ](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md)
+* [&#x200B; Overzicht van de Wijze van de Tekst &#x200B;](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md)
+* [&#x200B; overzicht van de de wijzesyntaxis van de Tekst &#x200B;](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md)
 * [Voorbeelden van aangepaste weergaven, filters en groepen: artikelindex](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
 
 ## Een groep bewerken in de tekstmodus
@@ -81,16 +81,16 @@ Het bewerken van een groep in de tekstmodus is identiek voor rapporten en lijste
 
 >[!NOTE]
 >
->Groepen zijn een verplicht rapportageelement voor het maken van grafieken in rapporten. Groepen in tekstmodus worden niet ondersteund in grafieken. Voor informatie over het toevoegen van grafieken aan rapporten, zie [ een grafiek aan een rapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md) toevoegen.
+>Groepen zijn een verplicht rapportageelement voor het maken van grafieken in rapporten. Groepen in tekstmodus worden niet ondersteund in grafieken. Voor informatie over het toevoegen van grafieken aan rapporten, zie [&#x200B; een grafiek aan een rapport &#x200B;](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md) toevoegen.
 
-Voor meer informatie over bouwingsgroeperingen, zie [ groepen in Adobe Workfront ](../../../reports-and-dashboards/reports/reporting-elements/create-groupings.md) creëren.
+Voor meer informatie over bouwingsgroeperingen, zie [&#x200B; groepen in Adobe Workfront &#x200B;](../../../reports-and-dashboards/reports/reporting-elements/create-groupings.md) creëren.
 
-Voor informatie over het creëren van een rapport, zie [ een douanerapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) creëren.
+Voor informatie over het creëren van een rapport, zie [&#x200B; een douanerapport &#x200B;](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) creëren.
 
 1. Voer een van de volgende handelingen uit:
 
    1. Om tot de groepering van een rapport toegang te hebben, ga naar het rapport, dan klik **de Acties van het 0&rbrace; Rapport** uitgeven **>** Groepen **tabel.**
-   1. Om tot het groeperen van een lijst toegang te hebben, ga naar de lijst en van het **Groeperen** drop-down menu, muis over de groepering die u wilt wijzigen en **klikken geeft** pictogram ![ pictogram uit ](assets/edit-icon.png).
+   1. Om tot het groeperen van een lijst toegang te hebben, ga naar de lijst en van het **Groeperen** drop-down menu, muis over de groepering die u wilt wijzigen en **klikken geeft** pictogram ![&#x200B; pictogram uit &#x200B;](assets/edit-icon.png).
 
       De groeperingsbouwer wordt geopend.
 

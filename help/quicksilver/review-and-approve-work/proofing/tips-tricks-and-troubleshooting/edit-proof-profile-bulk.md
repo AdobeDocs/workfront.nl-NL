@@ -63,6 +63,6 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    >
    >Afhankelijk van uw plan van Workfront, kunt u de **Gebruiker moeten toelaten om proef** checkbox te produceren opdat het **menu van het Profiel van de Toestemming van de Bewijs** verschijnt.
 
-   ![ profiel van de toestemmingen van het Bewijs ](assets/proof-permission-profile-350x203.png)
+   ![&#x200B; profiel van de toestemmingen van het Bewijs &#x200B;](assets/proof-permission-profile-350x203.png)
 
 1. Klik **sparen Veranderingen**.

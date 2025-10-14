@@ -17,7 +17,7 @@ ht-degree: 0%
 
 U kunt de status van het document rechtstreeks in de documentlijst weergeven:
 
-![ Status in documentlijst ](assets/status-in-doc-list.png)
+![&#x200B; Status in documentlijst &#x200B;](assets/status-in-doc-list.png)
 
 
 De volgende statussen zijn beschikbaar:

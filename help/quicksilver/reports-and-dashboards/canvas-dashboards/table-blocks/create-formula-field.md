@@ -17,21 +17,21 @@ De gebiedsbouwer in het Melden van Canvas staat u toe om gebieden tot stand te b
 
 ## Vereisten
 
-Alvorens u begint, moet u in de bèta van het Canvas van de Rapportering inschrijven. Voor meer informatie, zie [ Rapporterend de bèta van het Canvas: overzicht ](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
+Alvorens u begint, moet u in de bèta van het Canvas van de Rapportering inschrijven. Voor meer informatie, zie [&#x200B; Rapporterend de bèta van het Canvas: overzicht &#x200B;](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
 
 ## Een veld met een formule maken
 
-1. Creeer of navigeer aan een lijstblok, zoals die in [ wordt beschreven voeg of geef een lijstblok in het Melden van Canvas ](../../../reports-and-dashboards/reporting-canvas/table-blocks/add-or-edit-report-table.md) toe uit.
-1. Voor de lijstkopbal in het rapport, klik **uitgeven** pictogram ![ pictogram geeft pictogram ](assets/edit-icon.png) uit.
+1. Creeer of navigeer aan een lijstblok, zoals die in [&#x200B; wordt beschreven voeg of geef een lijstblok in het Melden van Canvas &#x200B;](../../../reports-and-dashboards/reporting-canvas/table-blocks/add-or-edit-report-table.md) toe uit.
+1. Voor de lijstkopbal in het rapport, klik **uitgeven** pictogram ![&#x200B; pictogram geeft pictogram &#x200B;](assets/edit-icon.png) uit.
 
-   ![ geef pictogram in lijstkopbal uit ](assets/edit-icon-table-header-350x71.png)
+   ![&#x200B; geef pictogram in lijstkopbal uit &#x200B;](assets/edit-icon-table-header-350x71.png)
 
    >[!NOTE]
    >
    >Als u de tabel hebt gemaakt en nog geen velden hebt toegevoegd, klikt u in plaats daarvan op de knop Bewerken in het midden van de tabel.
 
 1. Klik **Nieuw +** bij de bovenkant van de **lijst van Gebieden** op het juiste paneel.
-1. In de nieuwe pagina die opent, **uitgeeft** pictogram ![ geeft pictogram ](assets/edit-icon.png) naast de gebiedsnaam in de top-left hoek uit om de naam van het formuleringsgebied te veranderen.
+1. In de nieuwe pagina die opent, **uitgeeft** pictogram ![&#x200B; geeft pictogram &#x200B;](assets/edit-icon.png) naast de gebiedsnaam in de top-left hoek uit om de naam van het formuleringsgebied te veranderen.
 1. Sleep **Functies** of **Gebieden** van het linkerpaneel op de gebiedsbouwer in het centrum om hen aan uw formuleringsgebied toe te voegen.
 
 

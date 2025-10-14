@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # Proofingdeadlines beheren: artikelindex
 
-* [ plaats een deadline voor een bestaand basisbewijs ](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-deadlines/set-deadline-basic-proof.md)
-* [ voeg, geef, of schrap een deadline voor een stadium toe ](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-deadlines/add-edit-delete-deadline.md)
-* [ vastgestelde individuele recensenttermijnen ](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-deadlines/set-individual-deadlines.md)
+* [&#x200B; plaats een deadline voor een bestaand basisbewijs &#x200B;](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-deadlines/set-deadline-basic-proof.md)
+* [&#x200B; voeg, geef, of schrap een deadline voor een stadium toe &#x200B;](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-deadlines/add-edit-delete-deadline.md)
+* [&#x200B; vastgestelde individuele recensenttermijnen &#x200B;](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-deadlines/set-individual-deadlines.md)
 * [Tijdslimieten voor individuele revisoren verwijderen](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-deadlines/remove-individual-deadlines.md)

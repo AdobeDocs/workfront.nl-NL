@@ -16,8 +16,8 @@ ht-degree: 0%
 
 # Nieuw in API-versie 11
 
-* [ Toegevoegde Middelen ](#added-resources)
-* [ Verwijderde Middelen ](#removed-resources)
+* [&#x200B; Toegevoegde Middelen &#x200B;](#added-resources)
+* [&#x200B; Verwijderde Middelen &#x200B;](#removed-resources)
 * [Gewijzigde bronnen](#modified-resources)
 
 ## Toegevoegde bronnen {#added-resources}

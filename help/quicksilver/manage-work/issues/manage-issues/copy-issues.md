@@ -95,9 +95,9 @@ U kunt een of meerdere uitgaven kopiëren uit een lijst met problemen of uit een
 1. Als u selecteerde om naar een project te gaan, klik **Kwesties** in het linkerpaneel.
 1. Selecteer de kwestie of de kwesties die u wilt kopiëren en **klikken Meer menu** bij de bovenkant van de lijst van de kwestie, dan klik **Exemplaar aan**.
 
-   ![ kwestie van het Exemplaar in lijst ](assets/copy-issue-in-list-nwe-350x169.png)
+   ![&#x200B; kwestie van het Exemplaar in lijst &#x200B;](assets/copy-issue-in-list-nwe-350x169.png)
 
-1. Ga met het kopiëren van de kwestie voort, zoals die in de sectie [ wordt beschreven Kopieer één enkele kwestie ](#copy-a-single-issue) die met Stap 2 begint.
+1. Ga met het kopiëren van de kwestie voort, zoals die in de sectie [&#x200B; wordt beschreven Kopieer één enkele kwestie &#x200B;](#copy-a-single-issue) die met Stap 2 begint.
 
    <!--
    <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -109,13 +109,13 @@ U kunt een of meerdere uitgaven kopiëren uit een lijst met problemen of uit een
 
 U kunt één uitgave kopiëren wanneer het bekijken.
 
-1. Ga naar een kwestie die u wilt kopiëren, dan **Meer** menu ![ ](assets/more-icon.png) aan het recht van de uitgevende naam, dan **Exemplaar** aan klikken.
+1. Ga naar een kwestie die u wilt kopiëren, dan **Meer** menu ![&#x200B; &#x200B;](assets/more-icon.png) aan het recht van de uitgevende naam, dan **Exemplaar** aan klikken.
 
-   ![ Exemplaar op uitgiftenniveau ](assets/nwe-copy-at-issue-level-highlighted-350x580.png)
+   ![&#x200B; Exemplaar op uitgiftenniveau &#x200B;](assets/nwe-copy-at-issue-level-highlighted-350x580.png)
 
    De **vertoningen van de Kwestie van het Exemplaar**.
 
-   ![ de uitgiftedoos van het Exemplaar ](assets/copy-issue-box-nwe-350x285.png)
+   ![&#x200B; de uitgiftedoos van het Exemplaar &#x200B;](assets/copy-issue-box-nwe-350x285.png)
 
 1. In de **Uitgezochte sectie van het Project van de Bestemming**, specificeer de naam van het project waar u de kwesties wilt kopiëren. De naam van het huidige project toont door gebrek.
 
@@ -126,11 +126,11 @@ U kunt één uitgave kopiëren wanneer het bekijken.
 1. (Voorwaardelijk) klik **verzoektoegang** als u geen toegang hebt om kwesties aan het project te kopiëren.
 1. (Voorwaardelijk) blijf de kwestie aan het geselecteerde bestemmingsproject kopiëren zonder toegang te vragen als u toegang hebt om kwesties aan één van de taken op het bestemmingsproject toe te voegen.
 
-   ![ Uitgave van het Exemplaar en verzoek toegang ](assets/copy-issue-request-access-from-project-nwe-350x125.png)
+   ![&#x200B; Uitgave van het Exemplaar en verzoek toegang &#x200B;](assets/copy-issue-request-access-from-project-nwe-350x125.png)
 
    >[!TIP]
    >
-   >De gelijkaardige berichten tonen als het geselecteerde project in afwachting van goedkeuring, voltooid, of dood is, wanneer de beheerder van Workfront het toevoegen van kwesties aan deze projecten verhindert. Voor meer informatie, zie [ systeem-brede projectvoorkeur ](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) vormen.
+   >De gelijkaardige berichten tonen als het geselecteerde project in afwachting van goedkeuring, voltooid, of dood is, wanneer de beheerder van Workfront het toevoegen van kwesties aan deze projecten verhindert. Voor meer informatie, zie [&#x200B; systeem-brede projectvoorkeur &#x200B;](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) vormen.
 
 1. (Facultatief) in de **sectie van Opties**, schrap om het even welke punten die in de lijst hieronder worden vermeld om hen uit de nieuwe kwestie te verwijderen. Alle opties zijn standaard geselecteerd.
 

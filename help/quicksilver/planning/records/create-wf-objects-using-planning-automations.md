@@ -28,11 +28,11 @@ U kunt bijvoorbeeld een bestaande automatisering gebruiken die een Workfront-pla
 
 In dit artikel wordt beschreven hoe u Workfront Planning-records of Workfront-objecten kunt maken met behulp van een bestaande automatisering.
 
-Voor informatie over het creëren van automatiseringen voor een verslagtype, zie [ de automatisering van de Planning van Adobe Workfront vormen om verslagen ](/help/quicksilver/planning/records/configure-automations-to-create-records.md) tot stand te brengen.
+Voor informatie over het creëren van automatiseringen voor een verslagtype, zie [&#x200B; de automatisering van de Planning van Adobe Workfront vormen om verslagen &#x200B;](/help/quicksilver/planning/records/configure-automations-to-create-records.md) tot stand te brengen.
 
 Nadat u records of Workfront-objecten hebt gemaakt met behulp van automatisering, worden deze automatisch gekoppeld aan de records waaruit u de automatisering uitvoert.
 
-Voor meer informatie over verbonden verslagen, zie [ Verbonden verslagenoverzicht ](/help/quicksilver/planning/records/connected-records-overview.md).
+Voor meer informatie over verbonden verslagen, zie [&#x200B; Verbonden verslagenoverzicht &#x200B;](/help/quicksilver/planning/records/connected-records-overview.md).
 
 U kunt de volgende items maken met behulp van automatisering in Workfront Planning:
 
@@ -107,7 +107,7 @@ U kunt de volgende items maken met behulp van automatisering in Workfront Planni
 </tbody> 
 </table>
 
-*Voor meer informatie over de toegangsvereisten van Workfront, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Voor meer informatie over de toegangsvereisten van Workfront, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -119,7 +119,7 @@ U kunt de volgende items maken met behulp van automatisering in Workfront Planni
 
   `[ Name of the record ] Name of the field choice`
 
-  Voor meer informatie, zie het [ Gebruik een automatisering van de Planning van Workfront om een voorwerp of een verslag ](#use-a-workfront-planning-automation-to-create-an-object-or-a-record) sectie in dit artikel tot stand te brengen.
+  Voor meer informatie, zie het [&#x200B; Gebruik een automatisering van de Planning van Workfront om een voorwerp of een verslag &#x200B;](#use-a-workfront-planning-automation-to-create-an-object-or-a-record) sectie in dit artikel tot stand te brengen.
 
 * Nieuwe objecten of records overschrijven bestaande in hetzelfde veld niet. Als u dezelfde automatisering meerdere keren voor dezelfde record trigt, worden de nieuwe objecten of records in hetzelfde verbonden veld van de oorspronkelijke record toegevoegd, naast de objecten of records die u eerder hebt gemaakt.
 
@@ -135,7 +135,7 @@ U kunt de volgende items maken met behulp van automatisering in Workfront Planni
    Onder aan de tabel wordt een blauwe balk weergegeven met extra knoppen, zoals automatiseringsknoppen.
 1. Klik op de knop Automatisering op de blauwe balk.
 
-   ![ knoop van de Automatisering ](assets/automation-custom-button.png)
+   ![&#x200B; knoop van de Automatisering &#x200B;](assets/automation-custom-button.png)
 
    De volgende dingen doen zich voor:
 

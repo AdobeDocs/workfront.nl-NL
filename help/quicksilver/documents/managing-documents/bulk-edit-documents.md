@@ -74,8 +74,8 @@ Documenten in bulk bewerken:
 
 1. Navigeer naar het tabblad Documenten van een project of het gebied Documenten vanuit het hoofdmenu.
 1. Druk op Ctrl of cmd op het toetsenbord en selecteer de documenten die u wilt bewerken.
-1. Klik het Edit pictogram ![ uitgeven pictogram ](assets/edit-icon.png).
-   ![ geef pictogramplaats op pagina uit ](assets/edit-multiple-documents.png)
+1. Klik het Edit pictogram ![&#x200B; uitgeven pictogram &#x200B;](assets/edit-icon.png).
+   ![&#x200B; geef pictogramplaats op pagina uit &#x200B;](assets/edit-multiple-documents.png)
 1. (Facultatief) voeg of geef de **Beschrijving** uit. Als de beschrijving op elk document verschillend is, zult u _Veelvoudige waarden_ in de beschrijvingsdoos zien. U kunt dezelfde beschrijving toevoegen voor alle documenten, maar u kunt afzonderlijke documentbeschrijvingen niet bewerken als u deze bulksgewijs bewerkt.
 1. Breng de volgende wijzigingen aan in aangepaste formulieren:
 
@@ -100,10 +100,10 @@ Documenten in bulk bewerken:
 
 1. Navigeer naar een bestaand documentrapport.
 of
-Creeer een documentrapport zoals die in [ wordt beschreven een douanerapport ](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) creëren.
+Creeer een documentrapport zoals die in [&#x200B; wordt beschreven een douanerapport &#x200B;](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) creëren.
 1. Selecteer de documenten die u wilt bewerken.
-1. Klik het Edit pictogram ![ uitgeven pictogram ](assets/edit-icon.png).
-   ![ geef pictogramplaats op pagina uit ](assets/edit-multiple-documents.png)
+1. Klik het Edit pictogram ![&#x200B; uitgeven pictogram &#x200B;](assets/edit-icon.png).
+   ![&#x200B; geef pictogramplaats op pagina uit &#x200B;](assets/edit-multiple-documents.png)
 1. (Facultatief) voeg of geef de **Beschrijving** uit. Als de beschrijving op elk document verschillend is, zult u _Veelvoudige waarden_ in de beschrijvingsdoos zien. U kunt dezelfde beschrijving toevoegen voor alle documenten, maar u kunt afzonderlijke documentbeschrijvingen niet bewerken als u deze bulksgewijs bewerkt.
 1. Breng de volgende wijzigingen aan in aangepaste formulieren:
 

@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Op deze pagina worden alle verbeteringen in documentbeheer beschreven die zijn aangebracht met de release Eerste kwartaal 2025 voor de voorvertoningsomgeving. Deze verbeteringen worden beschikbaar gesteld in de productieomgeving met de release Eerste kwartaal 2025.
 
-Voor een lijst van alle veranderingen beschikbaar op dit punt in Eerste Kwartaal 2025 versiecyclus, zie [ Eerste Kwartaal 2025 versieoverzicht ](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar op dit punt in Eerste Kwartaal 2025 versiecyclus, zie [&#x200B; Eerste Kwartaal 2025 versieoverzicht &#x200B;](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md).
 
 ## Meerdere documenten tegelijk bewerken
 
@@ -26,7 +26,7 @@ Voor een lijst van alle veranderingen beschikbaar op dit punt in Eerste Kwartaal
 
 U kunt nu meerdere documenten tegelijk bewerken. U kunt de beschrijvingen bewerken en aangepaste formulieren bijwerken.
 
-Voor meer informatie, zie [ documenten in bulk ](/help/quicksilver/documents/managing-documents/bulk-edit-documents.md) uitgeven.
+Voor meer informatie, zie [&#x200B; documenten in bulk &#x200B;](/help/quicksilver/documents/managing-documents/bulk-edit-documents.md) uitgeven.
 
 ## Nieuwe intrekkingsstatus beschikbaar voor goedkeuringen van documentversies
 
@@ -36,4 +36,4 @@ Voor meer informatie, zie [ documenten in bulk ](/help/quicksilver/documents/man
 
 Wanneer een nieuwe versie wordt toegevoegd aan een document met in behandeling zijnde goedkeuringen, wordt de goedkeuring voor de vorige versie nu weergegeven als &quot;Ingetrokken&quot;, wat aangeeft dat het voorafgaande goedkeuringsproces is afgesloten omdat de nieuwe versie is toegevoegd.
 
-Voor meer informatie, zie [ een nieuwe documentversie uploaden en om goedkeuring ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/upload-new-doc-version.md) verzoeken.
+Voor meer informatie, zie [&#x200B; een nieuwe documentversie uploaden en om goedkeuring &#x200B;](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/upload-new-doc-version.md) verzoeken.

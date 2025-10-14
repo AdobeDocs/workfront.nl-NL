@@ -18,13 +18,13 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [ het Bewijzen ](../../../review-and-approve-work/proofing/proofing.md).
+>Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [&#x200B; het Bewijzen &#x200B;](../../../review-and-approve-work/proofing/proofing.md).
 
 U kunt ook de e-mailwaarschuwingen van [!DNL Workfront Proof] wijzigen die u ontvangt voor een proefdruk van wie u een revisor bent.
 
 ## De e-mailwaarschuwingen voor de controleurs wijzigen op een proefdruk
 
-1. Klik in een lijstweergave op het menu **[!UICONTROL More]** rechts van de proefdruk. ![ Meer menu ](assets/more-button-small.png)
+1. Klik in een lijstweergave op het menu **[!UICONTROL More]** rechts van de proefdruk. ![&#x200B; Meer menu &#x200B;](assets/more-button-small.png)
 
 1. Klik op **[!UICONTROL View proof details]**.
 1. Open op de pagina **[!UICONTROL Proof details]** het vervolgkeuzemenu van [!UICONTROL email alert] voor een revisor en selecteer vervolgens de nieuwe instelling.
@@ -33,6 +33,6 @@ U kunt ook de e-mailwaarschuwingen van [!DNL Workfront Proof] wijzigen die u ont
 ## Instellingen voor e-mailwaarschuwingen wijzigen voor een proefdruk die u controleert
 
 1. Open de proefdruk in de proefdrukviewer.
-1. Klik op het pictogram [!UICONTROL Details page] in de linkerbenedenhoek van de proefdrukviewer. ![ Details_page_btn.png ](assets/details-page-btn.png)
+1. Klik op het pictogram [!UICONTROL Details page] in de linkerbenedenhoek van de proefdrukviewer. ![&#x200B; Details_page_btn.png &#x200B;](assets/details-page-btn.png)
 
 1. Klik in de sectie [!UICONTROL Workflow] van de [!UICONTROL Proof details] -pagina die onder **[!UICONTROL Email alerts]** wordt weergegeven op de gewenste optie in het vervolgkeuzemenu.

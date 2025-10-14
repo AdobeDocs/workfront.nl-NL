@@ -45,7 +45,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -62,7 +62,7 @@ Wanneer u een board verwijdert, wordt deze permanent verwijderd uit [!DNL Workfr
    >
    >U kunt alleen borden verwijderen die u hebt gemaakt of waaraan u een naam hebt gegeven, en niet borden waaraan u als lid bent toegevoegd.
 
-   ![ Raad Meer menu ](assets/boards-board-more-menu.png)
+   ![&#x200B; Raad Meer menu &#x200B;](assets/boards-board-more-menu.png)
 
 ## Een bord archiveren
 
@@ -73,7 +73,7 @@ Gearchiveerde borden behouden alle kaarten en toewijzingen. Elke gebruiker kan e
 1. Selecteer op het dashboard het board dat u wilt openen.
 1. Klik op het **[!UICONTROL More]** menu ![[!UICONTROL More menu]](assets/more-icon-spectrum.png) naast de naam van het tekengebied en selecteer **[!UICONTROL Archive]** .
 
-   ![ Raad Meer menu ](assets/boards-board-more-menu.png)
+   ![&#x200B; Raad Meer menu &#x200B;](assets/boards-board-more-menu.png)
 
 ## Een board herstellen
 
@@ -81,7 +81,7 @@ Een gearchiveerd bord kan op elk ogenblik worden hersteld. Elke gebruiker kan ee
 
 {{step1-to-boards}}
 
-1. Voor het dashboard, klik het filterpictogram ![ Filter ](assets/filter-icon-spectrum-25x25.png) en selecteer **[!UICONTROL Archived Boards]**.
-1. Vind de raad u wilt herstellen, **[!UICONTROL More]** menu ![ Meer menu ](assets/more-icon-spectrum.png) naast de bordnaam klikken, en **[!UICONTROL Restore]** selecteren.
+1. Voor het dashboard, klik het filterpictogram ![&#x200B; Filter &#x200B;](assets/filter-icon-spectrum-25x25.png) en selecteer **[!UICONTROL Archived Boards]**.
+1. Vind de raad u wilt herstellen, **[!UICONTROL More]** menu ![&#x200B; Meer menu &#x200B;](assets/more-icon-spectrum.png) naast de bordnaam klikken, en **[!UICONTROL Restore]** selecteren.
 
-   ![ herstel raad ](assets/boards-dashboard-restore.png)
+   ![&#x200B; herstel raad &#x200B;](assets/boards-dashboard-restore.png)

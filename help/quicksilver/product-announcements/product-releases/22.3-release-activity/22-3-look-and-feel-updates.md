@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Op deze pagina vindt u een beschrijving van kleine updates van de vormgeving van verschillende onderdelen van de Adobe Workfront-toepassing die binnen de releaseperiode van 22.3 zijn gemaakt. Deze verbeteringen zijn ten minste twee weken na de release naar Preview beschikbaar gesteld in de productieomgeving.
 
-Voor een lijst van alle veranderingen beschikbaar met de versie 22.3, zie [ overzicht van de Versie 22.3 ](../../../product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar met de versie 22.3, zie [&#x200B; overzicht van de Versie 22.3 &#x200B;](../../../product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md).
 
 ## Globale kijk- en merkupdates
 
@@ -43,6 +43,6 @@ De werkbalken in de volgende lijsten en rapporten hebben nu een modern uiterlijk
 
 >[!NOTE]
 >
->Deze wijziging is op 23 mei 2022 in Production bijgewerkt. Zie de [ Update van het Onderhoud op 26 mei, 2022 voor meer informatie ](https://experienceleague.adobe.com/nl/docs/workfront/using/home).
+>Deze wijziging is op 23 mei 2022 in Production bijgewerkt. Zie de [&#x200B; Update van het Onderhoud op 26 mei, 2022 voor meer informatie &#x200B;](https://experienceleague.adobe.com/nl/docs/workfront/using/home).
 
 We hebben de scheidingstekens voor broodkruimels bijgewerkt op alle gebieden waar er broodkruimels beschikbaar zijn. De objecten in de broodkruimels worden nu gescheiden door pijpen (|). Vóór deze update werden ze gescheiden door slashes (/).

@@ -28,7 +28,7 @@ Om degenen die het Plan van het Scenario van Adobe Workfront gebruiken één enk
 
 Dit is alleen beschikbaar in de nieuwe Adobe Workfront-ervaring voor klanten die een licentie voor de Adobe Workfront Scenario Planner hebben aangeschaft.
 
-Voor meer informatie, zie [ middelen van de Begroting in het BedrijfsGeval gebruikend de Planner van het Scenario ](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md).
+Voor meer informatie, zie [&#x200B; middelen van de Begroting in het BedrijfsGeval gebruikend de Planner van het Scenario &#x200B;](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md).
 
 ## Punt- en bestemmingspagina&#39;s maken voor Scenario Planner en Doelen in een lay-outsjabloon
 
@@ -42,6 +42,6 @@ Voorafgaand aan deze verbetering kon u de Planner van het Scenario en het gebied
 
 Raadpleeg de volgende artikelen voor meer informatie:
 
-* [ pas de het landen pagina gebruikend een lay-outmalplaatje ](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-landing-page.md) aan
+* [&#x200B; pas de het landen pagina gebruikend een lay-outmalplaatje &#x200B;](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-landing-page.md) aan
 * [Vastgezette pagina&#39;s aanpassen met behulp van een lay-outsjabloon](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-pinned-pages.md)
 

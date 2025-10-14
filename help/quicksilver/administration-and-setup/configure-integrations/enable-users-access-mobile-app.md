@@ -60,6 +60,6 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 1. Klik op **[!UICONTROL Save].**
 
-Voor informatie over hoe te om [!DNL Workfront] mobiele app te gebruiken nadat het voor de plaats wordt toegelaten, zie [ Gebruik  [!DNL Adobe Workfront]  mobiele app ](../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/use-the-mobile-app.md).
+Voor informatie over hoe te om [!DNL Workfront] mobiele app te gebruiken nadat het voor de plaats wordt toegelaten, zie [&#x200B; Gebruik  [!DNL Adobe Workfront]  mobiele app &#x200B;](../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/use-the-mobile-app.md).
 
-Voor informatie over hoe te om [!DNL Workfront for Outlook] te gebruiken, zie [ Gebruikend  [!DNL Workfront with Outlook]](../../workfront-integrations-and-apps/using-workfront-with-outlook/workfront-for-outlook.md) sectie.
+Voor informatie over hoe te om [!DNL Workfront for Outlook] te gebruiken, zie [&#x200B; Gebruikend  [!DNL Workfront with Outlook]](../../workfront-integrations-and-apps/using-workfront-with-outlook/workfront-for-outlook.md) sectie.

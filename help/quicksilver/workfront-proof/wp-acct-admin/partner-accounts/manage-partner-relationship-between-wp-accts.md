@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [ het Bewijzen ](../../../review-and-approve-work/proofing/proofing.md).
+>Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [&#x200B; het Bewijzen &#x200B;](../../../review-and-approve-work/proofing/proofing.md).
 
 Als u samenwerkt met een andere organisatie die ook [!DNL Workfront Proof] gebruikt (bijvoorbeeld een andere afdeling in uw bedrijf of een klant), kunt u een partnerrelatie tussen de twee accounts instellen. Als u een partnerrelatie instelt tussen uw account en een andere organisatie, kunt u proefdrukken, bestanden, mappen en contactgegevens delen met uw partners.
 

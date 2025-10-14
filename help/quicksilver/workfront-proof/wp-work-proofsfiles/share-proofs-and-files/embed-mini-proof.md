@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [ het Bewijzen ](../../../review-and-approve-work/proofing/proofing.md).
+>Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [&#x200B; het Bewijzen &#x200B;](../../../review-and-approve-work/proofing/proofing.md).
 
 De miniproof is een widget waarmee u een proefdruk kunt insluiten in een webpagina, blog of wiki. In het Miniproof worden de bewijzen en alle bestaande opmerkingen en markeringen getoond. U kunt het gebruiken om aan de proef te werken alsof u in [!DNL Workfront Proof] was.
 
@@ -30,11 +30,11 @@ Hier volgt een voorbeeld van een Miniproof-element dat is ingesloten in een Base
 * Menu Handelingen (4)
 * Opmerkingen weergeven in zijbalk (5)
 
-![ Basecamp_miniproof.png ](assets/basecamp-miniproof-201x250.png)
+![&#x200B; Basecamp_miniproof.png &#x200B;](assets/basecamp-miniproof-201x250.png)
 
 Een Miniproof insluiten in een webpagina, blog of wiki:
 
-1. Ga naar de **[!UICONTROL Proof details]** pagina van een proef (zie &quot;de Pagina van de Details van het Bewijs&quot;in [ Beheer de Details van het Bewijs in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md)).
+1. Ga naar de **[!UICONTROL Proof details]** pagina van een proef (zie &quot;de Pagina van de Details van het Bewijs&quot;in [&#x200B; Beheer de Details van het Bewijs in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md)).
 
 1. Klik op **[!UICONTROL More sharing options]** om die sectie uit te vouwen.
 1. Zorg ervoor dat **[!UICONTROL Enable]** is geselecteerd naast **[!UICONTROL Embed code]** .

@@ -47,7 +47,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -59,7 +59,7 @@ U kunt aanvullende objecttypen aan het formulier toevoegen zodat het aan meerder
 >
 >Sectie-einden kunnen worden beïnvloed door het objecttype. De beperkte machtiging Bewerken voor afbrekingen van aangepaste formuliersecties is alleen beschikbaar voor de typen projecten, taken, problemen en gebruikersobjecten.
 >
->Voor meer informatie, zie [ hoe de veelvoudige objecten types sectie kunnen beïnvloeden toestemmingen ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md#how-multiple-object-types-can-affect-section-break-permissions).
+>Voor meer informatie, zie [&#x200B; hoe de veelvoudige objecten types sectie kunnen beïnvloeden toestemmingen &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md#how-multiple-object-types-can-affect-section-break-permissions).
 
 
 {{step-1-to-setup}}
@@ -68,11 +68,11 @@ U kunt aanvullende objecttypen aan het formulier toevoegen zodat het aan meerder
 
    In de weergave die wordt weergegeven, kunt u alle aangepaste formulieren bekijken die voor uw organisatie zijn gemaakt. U kunt ook zien wie elk formulier heeft gemaakt, met welk objecttype het werkt en of het actief is.
 
-1. Selecteer de douanevorm u extra objecten types aan wilt toevoegen, dan klik ![ uitgeven pictogram ](assets/edit-icon2.png).
+1. Selecteer de douanevorm u extra objecten types aan wilt toevoegen, dan klik ![&#x200B; uitgeven pictogram &#x200B;](assets/edit-icon2.png).
 
 1. Bij de bovenkant van de vorm, klik het plusteken + na **Types van Objecten**, dan selecteer het type u in het menu wilt dat toont. U kunt dit herhalen om zoveel objecttypen toe te voegen als u wilt.
 
-   ![ voeg nieuw voorwerp ](assets/add-new-object.png) toe
+   ![&#x200B; voeg nieuw voorwerp &#x200B;](assets/add-new-object.png) toe
 
 1. Klik **sparen en Sluiten**.
 
@@ -95,10 +95,10 @@ Een objecttype verwijderen:
 {{step-1-to-setup}}
 
 1. Klik **Forms van de Douane** in het linkerpaneel.
-1. Selecteer de douanevorm u wilt uitgeven, dan klik ![ uitgeven pictogram ](assets/edit-icon2.png).
+1. Selecteer de douanevorm u wilt uitgeven, dan klik ![&#x200B; uitgeven pictogram &#x200B;](assets/edit-icon2.png).
 1. Klik X op om het even welke **Types van Objecten** die u van de vorm wilt schrappen.
 
-   ![ de objecten van de Schrapping types ](assets/delete-object-types.png)
+   ![&#x200B; de objecten van de Schrapping types &#x200B;](assets/delete-object-types.png)
 
 1. (Optioneel) Herhaal de vorige stap voor elk ander objecttype dat u uit het formulier wilt verwijderen.
 1. Klik **toepassen**, dan klik **sparen en sluit**.

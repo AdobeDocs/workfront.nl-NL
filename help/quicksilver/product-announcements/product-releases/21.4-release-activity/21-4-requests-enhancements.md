@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Op deze pagina worden alle verbeteringen beschreven die zijn aangebracht in de versie 21.4 van het dialoogvenster Voorvertoning. Deze verbeteringen zullen beschikbaar worden gesteld in de productieomgeving in de week van 4 oktober 2021.
 
-Voor een lijst van alle veranderingen beschikbaar met de versie 21.4, zie [ overzicht van de Versie 21.4 ](../../../product-announcements/product-releases/21.4-release-activity/21-4-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar met de versie 21.4, zie [&#x200B; overzicht van de Versie 21.4 &#x200B;](../../../product-announcements/product-releases/21.4-release-activity/21-4-release-overview.md).
 
 ## Verbeterde zoekopdracht naar aanvragen bevat nu speciale tekens
 
@@ -27,7 +27,7 @@ Bijvoorbeeld, kunt u een verzoekrij vinden genoemd &quot;&#42; Workfront&quot;do
 
 Alle speciale tekens worden ondersteund.
 
-Voor informatie over het voorleggen van verzoeken, zie [ Adobe Workfront verzoeken ](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md) creëren en voorleggen.
+Voor informatie over het voorleggen van verzoeken, zie [&#x200B; Adobe Workfront verzoeken &#x200B;](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md) creëren en voorleggen.
 
 ## Nieuwe look and feel voor ingesloten aanvraagwachtrijen in de nieuwe Workfront-ervaring
 
@@ -37,5 +37,5 @@ Voor informatie over het voorleggen van verzoeken, zie [ Adobe Workfront verzoek
 
 Om de blik en het gevoel te houden voor het voorleggen van verzoeken het zelfde overal in de nieuwe ervaring van Workfront, hebben wij de interface voor het toevoegen van verzoeken aan een ingebedde verzoekrij opnieuw ontworpen. Voorafgaand aan deze verbetering, paste de interface voor het toevoegen van verzoeken van een dashboard de klassieke milieu van Workfront aan.
 
-Voor informatie, zie [ een verzoekrij in een dashboard ](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-request-queue-dashboard.md) inbedden.
+Voor informatie, zie [&#x200B; een verzoekrij in een dashboard &#x200B;](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-request-queue-dashboard.md) inbedden.
 

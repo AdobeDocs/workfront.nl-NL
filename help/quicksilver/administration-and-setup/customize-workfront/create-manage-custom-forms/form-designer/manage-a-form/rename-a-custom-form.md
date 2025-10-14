@@ -47,7 +47,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -59,7 +59,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
    In de weergave die wordt weergegeven, kunt u alle aangepaste formulieren bekijken die voor uw organisatie zijn gemaakt. U kunt ook zien wie elk formulier heeft gemaakt, met welk objecttype het werkt en of het actief is.
 
-1. Selecteer de douanevorm u wilt anders noemen, dan klik ![ uitgeven pictogram ](assets/edit-icon2.png).
+1. Selecteer de douanevorm u wilt anders noemen, dan klik ![&#x200B; uitgeven pictogram &#x200B;](assets/edit-icon2.png).
 1. Als u de titel wilt wijzigen, klikt u op de naam van het formulier.
 1. Als u de beschrijving wilt wijzigen, klikt u in het tekstvak Beschrijving.
 

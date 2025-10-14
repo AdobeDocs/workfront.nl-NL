@@ -35,7 +35,7 @@ De volgende veranderingen zullen in het uitgaande berichtformaat worden aangebra
 
 Als u momenteel Workfront-gebeurtenisabonnementen gebruikt, moet u uw Workfront-integraties bijwerken voor de release 2017.3 om deze wijzigingen te kunnen verwerken.
 
-Meer over gebeurtenisabonnementen leren, zie [ Abonnement API van de Gebeurtenis ](../../wf-api/general/event-subs-api.md).
+Meer over gebeurtenisabonnementen leren, zie [&#x200B; Abonnement API van de Gebeurtenis &#x200B;](../../wf-api/general/event-subs-api.md).
 
 ## Voorbeelden van oude en nieuwe berichtindelingen
 

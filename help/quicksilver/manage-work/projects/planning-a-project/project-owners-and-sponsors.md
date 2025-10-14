@@ -24,7 +24,7 @@ De eigenaar van het project is de persoon die verantwoordelijk is voor de tijdig
 
 De projectsponsor is een belangrijke belanghebbende bij het project waarvoor middelen in het project zijn geïnvesteerd. De projectsponsor heeft doorgaans baat bij de voltooiing van het project.
 
-Voor informatie over hoe te om de Eigenaar of Sponsor van het Project voor een project bij te werken, zie [ de eigenaars en sponsors van het Project van de Update ](../../../manage-work/projects/planning-a-project/update-project-owners-and-sponsors.md).
+Voor informatie over hoe te om de Eigenaar of Sponsor van het Project voor een project bij te werken, zie [&#x200B; de eigenaars en sponsors van het Project van de Update &#x200B;](../../../manage-work/projects/planning-a-project/update-project-owners-and-sponsors.md).
 
 ## Projecteigenaars
 
@@ -36,17 +36,17 @@ Het veld Projecteigenaar kan het volgende gebruiken:
 
 * U kunt slechts één gebruiker aanwijzen als de eigenaar van het project.
 * U kunt de Eigenaars van het Project als urenfiatteur voor het project aanwijzen.
-* U kunt de Eigenaar van het Project als generische fiatteur aanwijzen wanneer het bepalen van project, taak, of goedkeuringsprocessen. Voor informatie over goedkeuringen, zie [ een goedkeuringsproces ](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/edit-an-approval-process.md) uitgeven.
+* U kunt de Eigenaar van het Project als generische fiatteur aanwijzen wanneer het bepalen van project, taak, of goedkeuringsprocessen. Voor informatie over goedkeuringen, zie [&#x200B; een goedkeuringsproces &#x200B;](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/edit-an-approval-process.md) uitgeven.
 
   >[!IMPORTANT]
   >
-  >Wanneer u een goedkeuring toewijst aan de Eigenaar van het Project en niemand als eigenaar van een project wordt aangewezen, wordt de goedkeuring opnieuw toegewezen aan de belangrijkste beheerder van Workfront zoals die in de sectie van de Info van de Klant in het gebied van de Opstelling wordt vermeld. Voor informatie, zie [ basisinformatie voor uw systeem ](../../../administration-and-setup/get-started-wf-administration/configure-basic-info.md) vormen.
+  >Wanneer u een goedkeuring toewijst aan de Eigenaar van het Project en niemand als eigenaar van een project wordt aangewezen, wordt de goedkeuring opnieuw toegewezen aan de belangrijkste beheerder van Workfront zoals die in de sectie van de Info van de Klant in het gebied van de Opstelling wordt vermeld. Voor informatie, zie [&#x200B; basisinformatie voor uw systeem &#x200B;](../../../administration-and-setup/get-started-wf-administration/configure-basic-info.md) vormen.
   >
 
 
 * U kunt bepaalde berichten inschakelen die alleen aan de eigenaar van het project worden bezorgd.
 
-  Voor meer informatie over e-mailberichten, zie de sectie [ gebeurtenisberichten voor iedereen in het systeem ](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md#modify) in het artikel [ vormen gebeurtenisberichten voor iedereen in het systeem ](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
+  Voor meer informatie over e-mailberichten, zie de sectie [&#x200B; gebeurtenisberichten voor iedereen in het systeem &#x200B;](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md#modify) in het artikel [&#x200B; vormen gebeurtenisberichten voor iedereen in het systeem &#x200B;](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
 
 * U kunt het veld Projecteigenaar in een rapport of lijst weergeven.
 
@@ -58,7 +58,7 @@ Het veld Projecteigenaar kan het volgende gebruiken:
   ownerID=$$USER.ID
   ```
 
-Voor meer informatie over het creëren van rapporten, zie het artikel [ een douanerapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) creëren.
+Voor meer informatie over het creëren van rapporten, zie het artikel [&#x200B; een douanerapport &#x200B;](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) creëren.
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -80,10 +80,10 @@ U kunt elke gebruiker in het systeem aanwijzen als projectsponsor. De projectspo
 
 Houd rekening met het volgende wanneer u een projectsponsor toewijst:
 
-* De projectsponsor krijgt geen extra toegang tot het project, maar wordt toegevoegd aan de e-mailmeldingen van het project. Voor informatie over berichten, zie het artikel [ gebeurtenisberichten voor iedereen in het systeem ](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md) vormen.
+* De projectsponsor krijgt geen extra toegang tot het project, maar wordt toegevoegd aan de e-mailmeldingen van het project. Voor informatie over berichten, zie het artikel [&#x200B; gebeurtenisberichten voor iedereen in het systeem &#x200B;](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md) vormen.
 
 * U kunt slechts één projectsponsor aanwijzen.
-* U kunt de Projectsponsor aanwijzen als een generieke fiatteur wanneer het bepalen van project, taak, of goedkeuringsprocessen. Voor informatie over goedkeuringen, zie [ een goedkeuringsproces ](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/edit-an-approval-process.md) uitgeven.
+* U kunt de Projectsponsor aanwijzen als een generieke fiatteur wanneer het bepalen van project, taak, of goedkeuringsprocessen. Voor informatie over goedkeuringen, zie [&#x200B; een goedkeuringsproces &#x200B;](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/edit-an-approval-process.md) uitgeven.
 
   >[!IMPORTANT]
   >
@@ -101,7 +101,7 @@ Houd rekening met het volgende wanneer u een projectsponsor toewijst:
 
    
 
-  Voor meer informatie over het creëren van rapporten, zie het artikel [ een douanerapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) creëren.
+  Voor meer informatie over het creëren van rapporten, zie het artikel [&#x200B; een douanerapport &#x200B;](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) creëren.
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

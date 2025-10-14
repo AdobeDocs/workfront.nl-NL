@@ -27,6 +27,6 @@ Zie het volgende voor instructies:
 * [Een aanvraag automatisch aanvullen met gegevens uit eerdere aanvragen](/help/quicksilver/manage-work/requests/create-requests/autofill-suggestions-from-previous.md)
 * [Gebruik de Vulling van het AI-formulier om een aanvraag in te vullen met aanwijzingen of documenten](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md)
 
-  Als u automatisch invullen via vragen of documenten wilt gebruiken, moet uw organisatie voldoen aan de vereisten voor het gebruik van de Workfront AI Assistant. Voor details, zie [ Vereisten aan AI Medewerker ](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant).
+  Als u automatisch invullen via vragen of documenten wilt gebruiken, moet uw organisatie voldoen aan de vereisten voor het gebruik van de Workfront AI Assistant. Voor details, zie [&#x200B; Vereisten aan AI Medewerker &#x200B;](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant).
 
 

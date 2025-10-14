@@ -19,7 +19,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [ het Bewijzen ](../../../review-and-approve-work/proofing/proofing.md).
+>Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [&#x200B; het Bewijzen &#x200B;](../../../review-and-approve-work/proofing/proofing.md).
 
 Het dashboard is de eerste pagina die u ziet wanneer u zich aanmeldt bij uw [!DNL Workfront Proof] -account. Hierin wordt een overzicht gegeven van de activiteit in uw [!DNL Workfront Proof] -account en snelle koppelingen naar andere secties en functies in [!DNL Workfront Proof] .
 
@@ -41,15 +41,15 @@ Het dashboard bevat het volgende:
 >
 >De menu&#39;s en koppelingen die u op het dashboard kunt weergeven en gebruiken, zijn afhankelijk van uw gebruikersprofiel en uw machtigingen.
 
-![ Dashboard ](assets/dashboard-350x495.png)
+![&#x200B; Dashboard &#x200B;](assets/dashboard-350x495.png)
 
-U kunt uw account markeren om het logo, de kleuren, aangepaste koppelingen en meer van uw eigen organisatie weer te geven. Voor meer informatie, zie [ Merk de  [!DNL Workfront Proof]  plaats ](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site.md).&quot;
+U kunt uw account markeren om het logo, de kleuren, aangepaste koppelingen en meer van uw eigen organisatie weer te geven. Voor meer informatie, zie [&#x200B; Merk de  [!DNL Workfront Proof]  plaats &#x200B;](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site.md).&quot;
 
 Als u uw account niet brandt, worden het logo en de standaardkleuren van [!DNL Workfront Proof] weergegeven.
 
 ## Menu Koptekst
 
-![ het menu van de Kopbal ](assets/header-menu-350x150.png)
+![&#x200B; het menu van de Kopbal &#x200B;](assets/header-menu-350x150.png)
 
 ### De gebruikersnaam
 
@@ -97,7 +97,7 @@ U opent als volgt het menu Nieuw:
    * Nieuwe gebruiker (12)
    * Nieuwe groep (13)
 
-![ Nieuwe proef ](assets/new-proof-350x256.png)
+![&#x200B; Nieuwe proef &#x200B;](assets/new-proof-350x256.png)
 
 ## Het menu Dashboard
 
@@ -116,7 +116,7 @@ Met het menu [!UICONTROL Edit tags] (1) kunt u:
 * Nieuwe tags maken
 * Tags beheren (2)
 
-![ geef markeringen ](assets/edit-tags-350x204.png) uit
+![&#x200B; geef markeringen &#x200B;](assets/edit-tags-350x204.png) uit
 
 ## Verplaatsen naar
 
@@ -126,7 +126,7 @@ Met deze functie kunt u proefdrukken en bestanden naar een van uw mappen verplaa
 1. Klik op **[!UICONTROL Move to]** (3) en kies de relevante map (4).
 1. Klik op **[!UICONTROL Save]** (5).
 
-   ![ Beweging aan ](assets/move-to-350x297.png)
+   ![&#x200B; Beweging aan &#x200B;](assets/move-to-350x297.png)
 
 ### Meer handelingen
 
@@ -138,7 +138,7 @@ In het menu [!UICONTROL More actions] (6) kunt u de volgende handelingen uitvoer
 * Unarchive (alleen proefdrukken)
 * Eigenaar wijzigen
 
-![ Meer acties ](assets/more-actions-350x303.png)
+![&#x200B; Meer acties &#x200B;](assets/more-actions-350x303.png)
 
 ### Verwijderen
 
@@ -146,11 +146,11 @@ Items verwijderen:
 
 1. Selecteer het selectievakje links van de items en klik op **[!UICONTROL Delete]** (7).
 
-![ pictogram van de Schrapping ](assets/delete-350x109.png)
+![&#x200B; pictogram van de Schrapping &#x200B;](assets/delete-350x109.png)
 
 1. Controleer in het bevestigingsscherm dat wordt weergegeven de details en bevestig door op **[!UICONTROL Yes]** (8) te klikken.
 
-![ het Schrappen van punten ](assets/deleteing-items-350x237.png)
+![&#x200B; het Schrappen van punten &#x200B;](assets/deleteing-items-350x237.png)
 
 ### De zijbalk
 
@@ -168,7 +168,7 @@ De zijbalk bevat koppelingen naar de volgende pagina&#39;s:
 * Mappen voor andere organisaties (10) (waar u items kunt zoeken die andere organisaties met u hebben gedeeld)
 * Tags (11)
 
-![ Sidebar ](assets/sidebar-350x426.png)
+![&#x200B; Sidebar &#x200B;](assets/sidebar-350x426.png)
 
 De Sidebar wordt gedetailleerder beschreven op de Sidebar Help-pagina.
 
@@ -181,7 +181,7 @@ De sectie [!UICONTROL Welcome] heeft de volgende handige koppelingen:
 * Contactgegevens voor ondersteuning (3)
 * De koppeling &quot;De welkomstsectie niet meer weergeven&quot; (4)
 
-![ Onthaal ](assets/welcome-350x73.png)
+![&#x200B; Onthaal &#x200B;](assets/welcome-350x73.png)
 
 ### Overzicht
 
@@ -197,7 +197,7 @@ De overzichtssectie toont ook pre-gefiltreerde informatie. Dit zijn:
 * Te beheren proefdrukken - totaal aantal actieve proefdrukken dat eigendom van u is en aan u is gedelegeerd
 * Proefversies die wachten op beslissing - totaal aantal actieve proefdrukken waarvoor uw beslissingen vereist zijn
 
-  ![ Overzicht van het Dashboard ](assets/dashboard-overview-350x169.png)
+  ![&#x200B; Overzicht van het Dashboard &#x200B;](assets/dashboard-overview-350x169.png)
 
 Hier kunt u direct zien hoeveel proefdrukken u of uw revisoren direct moeten uitvoeren:
 
@@ -237,7 +237,7 @@ De pagina Proefgegevens openen:
 1. Klik op het menu **[!UICONTROL Actions]** (1) rechts van de proefdruknaam.
 1. Selecteer **[!UICONTROL View proof details]** (2) in het menu.
 
-![ Recente punten ](assets/accessing-the-proof-details-page-recently-accessed-items-350x126.png)
+![&#x200B; Recente punten &#x200B;](assets/accessing-the-proof-details-page-recently-accessed-items-350x126.png)
 
 ### Recente activiteit
 
@@ -258,4 +258,4 @@ Ga naar de pagina Proefgegevens van dat bewijs:
 1. Klik op het menu **[!UICONTROL Actions]** (1).
 1. Selecteer **[!UICONTROL View proof details]** (2) in het vervolgkeuzemenu.
 
-   ![ Recente activiteit ](assets/accessing-the-proof-details-page-recent-activity-350x51.png)
+   ![&#x200B; Recente activiteit &#x200B;](assets/accessing-the-proof-details-page-recent-activity-350x51.png)

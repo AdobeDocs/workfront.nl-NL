@@ -23,7 +23,7 @@ Als uw firewall of mailserver zo is geconfigureerd dat alleen bepaalde leveranci
 
 Ook &#42; proofhq.com URL wordt vereist.
 
-Voor meer informatie over het bijwerken van uw lijst van gewenste personen, zie [ de lijst van gewenste personen van uw firewall ](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md) vormen.
+Voor meer informatie over het bijwerken van uw lijst van gewenste personen, zie [&#x200B; de lijst van gewenste personen van uw firewall &#x200B;](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md) vormen.
 
 >[!NOTE]
 >

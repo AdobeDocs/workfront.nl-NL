@@ -20,7 +20,7 @@ In dit artikel worden de functies beschreven die tijdens de release Eerste kwart
 
 <!--keep the sentence below for all future quarterly release pages-->
 
-Voor een lijst van alle eigenschappen die voor de Planning van Adobe Workfront worden vrijgegeven, zie [ de versieactiviteit van de Planning van Adobe Workfront: artikelindex ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+Voor een lijst van alle eigenschappen die voor de Planning van Adobe Workfront worden vrijgegeven, zie [&#x200B; de versieactiviteit van de Planning van Adobe Workfront: artikelindex &#x200B;](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
 ## Verbindingsvelden met Adobe Experience Manager-elementen worden nu ondersteund in aanvraagformulieren
 
@@ -32,7 +32,7 @@ U kunt nu verbindingsvelden met AEM elementen toevoegen aan een aanvraagformulie
 
 Vóór deze verbetering konden deze typen velden niet worden toegevoegd aan aanvraagformulieren.
 
-Voor informatie, zie [ creeer en beheer een verzoekvorm in de Planning van Adobe Workfront ](/help/quicksilver/planning/requests/create-request-form.md).
+Voor informatie, zie [&#x200B; creeer en beheer een verzoekvorm in de Planning van Adobe Workfront &#x200B;](/help/quicksilver/planning/requests/create-request-form.md).
 
 ## Goedkeuringen voor Workfront-planningsaanvragen configureren
 
@@ -42,7 +42,7 @@ Voor informatie, zie [ creeer en beheer een verzoekvorm in de Planning van Adobe
 
 U kunt nu een goedkeuring koppelen aan een aanvraagformulier voor Workfront-planning. U kunt alleen gebruikers toevoegen als fiatteurs van een aanvraag. Nadat het verzoek is ingediend, wordt het eerst naar alle fiatteurs verzonden om het goed te keuren alvorens het tot een verslag leidt.
 
-Voor informatie, zie [ een goedkeuring aan een verzoekvorm in de Planning van Adobe Workfront ](/help/quicksilver/planning/requests/add-approval-to-request-form.md) toevoegen.
+Voor informatie, zie [&#x200B; een goedkeuring aan een verzoekvorm in de Planning van Adobe Workfront &#x200B;](/help/quicksilver/planning/requests/add-approval-to-request-form.md) toevoegen.
 
 
 ## Meldingen voor het indienen van aanvragen, goedkeuringen en statuswijzigingen
@@ -67,7 +67,7 @@ Raadpleeg de volgende artikelen voor informatie over het verzenden of goedkeuren
 
 * [Adobe Workfront-planningsverzoeken verzenden om records te maken](/help/quicksilver/planning/requests/submit-requests.md)
 
-* [ keur een verzoek in de Planning van Adobe Workfront ](/help/quicksilver/planning/requests/approve-request.md) goed.
+* [&#x200B; keur een verzoek in de Planning van Adobe Workfront &#x200B;](/help/quicksilver/planning/requests/approve-request.md) goed.
 
 ## Intelligente zoekactie bij het zoeken naar een veldtype
 
@@ -77,7 +77,7 @@ Raadpleeg de volgende artikelen voor informatie over het verzenden of goedkeuren
 
 We hebben intelligente zoekfunctionaliteit toegevoegd bij het zoeken naar een veldtype in Workfront Planning. U kunt nu naar veldtypen zoeken wanneer u een trefwoord typt. Als u bijvoorbeeld &quot;Prijs&quot; typt, worden de veldtypen Aantal en Valuta gevonden. Voorafgaand aan deze verbetering, kon u slechts naar de daadwerkelijke naam van het gebiedstype zoeken.
 
-Voor informatie, zie [ gebieden ](/help/quicksilver/planning/fields/create-fields.md) creëren.
+Voor informatie, zie [&#x200B; gebieden &#x200B;](/help/quicksilver/planning/fields/create-fields.md) creëren.
 
 ## Aangepaste kleurkiezer voor kleurcoderingsopties van velden met één of meerdere selecties
 
@@ -87,7 +87,7 @@ Voor informatie, zie [ gebieden ](/help/quicksilver/planning/fields/create-field
 
 U kunt nu aangepaste kleurkeuzen maken wanneer u een veld maakt of bewerkt dat uit één of meerdere selecties bestaat. Wanneer u velden maakt of bewerkt met opties voor kleurcodes, wordt een kleurkiezer geopend wanneer u op het kleurpictogram klikt. U kunt kiezen uit vooraf gedefinieerde kleuren of aangepaste kleuren maken met hexadecimale codes of een kleurenspectrum.
 
-Voor informatie, zie [ gebieden ](/help/quicksilver/planning/fields/create-fields.md) creëren.
+Voor informatie, zie [&#x200B; gebieden &#x200B;](/help/quicksilver/planning/fields/create-fields.md) creëren.
 
 ## Bestaande Workfront-velden importeren naar recordtypen voor Workfront Planning
 
@@ -101,7 +101,7 @@ Vóór deze verbetering, moest u alle gebieden manueel tot stand brengen en hen 
 
 Berekende velden worden momenteel niet ondersteund.
 
-Voor informatie, zie [ gebieden van de Invoer van Adobe Workfront ](/help/quicksilver/planning/fields/import-fields-from-workfront.md)
+Voor informatie, zie [&#x200B; gebieden van de Invoer van Adobe Workfront &#x200B;](/help/quicksilver/planning/fields/import-fields-from-workfront.md)
 
 ## Recordtypen, records en velden maken door een CSV- of Excel-bestand te importeren
 
@@ -119,7 +119,7 @@ De volgende informatie wordt geïmporteerd:
 
 * Elke rij wordt geïmporteerd als een nieuwe record. U kunt tot 10.000 verslagen in elk blad hebben.
 
-Voor meer informatie, zie [ recordtypes ](/help/quicksilver/planning/architecture/create-record-types.md) creëren.
+Voor meer informatie, zie [&#x200B; recordtypes &#x200B;](/help/quicksilver/planning/architecture/create-record-types.md) creëren.
 
 ## Cirkelverwijzingen in formules vermijden
 
@@ -129,7 +129,7 @@ Voor meer informatie, zie [ recordtypes ](/help/quicksilver/planning/architectur
 
 We hebben een waarschuwingsbericht geïntroduceerd bij het bewerken of maken van een formuleringsveld dat een cirkelverwijzing naar zichzelf of gedeelde velden kan maken. U kunt geen formuleringsgebied opslaan dat of naar zich of naar punten verwijst die in zijn berekening van verwijzingen worden voorzien.
 
-Voor informatie, zie [ gebieden ](/help/quicksilver/planning/fields/create-fields.md) creëren.
+Voor informatie, zie [&#x200B; gebieden &#x200B;](/help/quicksilver/planning/fields/create-fields.md) creëren.
 
 ## Voeg de meningspagina&#39;s van de Verbinding aan de pagina van een verslag toe om verbonden verslagen in een lijstmening te tonen
 
@@ -141,7 +141,7 @@ U kunt pagina&#39;s toevoegen aan het detailgebied van een record om de gekoppel
 
 De toegevoegde pagina&#39;s zijn alleen-lezen.
 
-Voor informatie, zie [ de lay-out van de verslagpagina beheren ](/help/quicksilver/planning/records/manage-the-record-page.md).
+Voor informatie, zie [&#x200B; de lay-out van de verslagpagina beheren &#x200B;](/help/quicksilver/planning/records/manage-the-record-page.md).
 
 ## De nieuwe Workfront en de lusjes van de Planning in Voorgelegde sectie van het gebied van Verzoeken
 
@@ -158,7 +158,7 @@ U moet een koppeling naar het aanvraagformulier gebruiken om aanvragen toe te vo
 
 Uw organisatie moet een pakket van de Planning van Workfront kopen alvorens het lusje van de Planning aan u op het gebied van Verzoeken beschikbaar is.
 
-Voor informatie, zie [ de Verzoeken van de Planning van Adobe Workfront voorleggen om verslagen ](/help/quicksilver/planning/requests/submit-requests.md) tot stand te brengen.
+Voor informatie, zie [&#x200B; de Verzoeken van de Planning van Adobe Workfront voorleggen om verslagen &#x200B;](/help/quicksilver/planning/requests/submit-requests.md) tot stand te brengen.
 
 ## Aanvullende veldtypen worden nu ondersteund in aanvraagformulieren
 
@@ -173,7 +173,7 @@ U kunt nu de volgende veldtypen toevoegen aan een aanvraagformulier voor een rec
 
 Vóór deze verbetering, konden deze types van gebieden niet aan aanvraagformulieren in de Planning van Workfront worden toegevoegd.
 
-Voor informatie, zie [ creeer en beheer een verzoekvorm in de Planning van Adobe Workfront ](/help/quicksilver/planning/requests/create-request-form.md).
+Voor informatie, zie [&#x200B; creeer en beheer een verzoekvorm in de Planning van Adobe Workfront &#x200B;](/help/quicksilver/planning/requests/create-request-form.md).
 
 ## Openbare delen van aanvraagformulieren met bepaalde veldtypen beperken
 
@@ -188,7 +188,7 @@ U kunt een aanvraagformulier niet meer openbaar delen als het formulier een van 
 * Velden opzoeken
 * Mensen
 
-Voor informatie, zie [ creeer en beheer een verzoekvorm in de Planning van Adobe Workfront ](/help/quicksilver/planning/requests/create-request-form.md).
+Voor informatie, zie [&#x200B; creeer en beheer een verzoekvorm in de Planning van Adobe Workfront &#x200B;](/help/quicksilver/planning/requests/create-request-form.md).
 
 
 ## Records in de kalenderweergave per week weergeven
@@ -199,7 +199,7 @@ Voor informatie, zie [ creeer en beheer een verzoekvorm in de Planning van Adobe
 
 U kunt nu records in de kalenderweergave per week weergeven. Voorafgaand aan deze verbetering, kon u de kalendermening slechts door maand tonen.
 
-Voor informatie, zie [ de kalendermening ](/help/quicksilver/planning/views/manage-the-calendar-view.md) leiden.
+Voor informatie, zie [&#x200B; de kalendermening &#x200B;](/help/quicksilver/planning/views/manage-the-calendar-view.md) leiden.
 
 ## Verwijderde records herstellen
 
@@ -213,7 +213,7 @@ Workspace-managers kunnen gegevens uit de prullenbak herstellen tot 30 dagen nad
 
 Vóór deze verbetering konden verwijderde records niet worden hersteld.
 
-Voor meer informatie, zie [ schrapte verslagen ](/help/quicksilver/planning/records/records-information.md) herstellen.
+Voor meer informatie, zie [&#x200B; schrapte verslagen &#x200B;](/help/quicksilver/planning/records/records-information.md) herstellen.
 
 ## Adobe AI Assistant beschikbaar in de detailgebieden van de record
 
@@ -223,7 +223,7 @@ Voor meer informatie, zie [ schrapte verslagen ](/help/quicksilver/planning/reco
 
 Om het voor u gemakkelijker te maken om het werk te verwezenlijken, hebben wij de Medewerker van de Adobe AI aan de detailvoorproef van een verslag of de pagina van het verslag toegevoegd. U kunt de AI-assistent in een recordpagina gebruiken om informatie over de record bij te werken.
 
-Voor informatie, zie [ de Planning AI van Adobe Workfront Hulp overzicht ](/help/quicksilver/planning/general/planning-ai-assistant-overview.md).
+Voor informatie, zie [&#x200B; de Planning AI van Adobe Workfront Hulp overzicht &#x200B;](/help/quicksilver/planning/general/planning-ai-assistant-overview.md).
 
 ## Nieuwe ervaring bij het toevoegen van een miniatuur en een omslagafbeelding aan een recordpagina
 
@@ -254,7 +254,7 @@ Dit weergavetype wordt alleen ondersteund in de tabelweergave.
 
 Vóór deze verbetering, kon u percentagewaarden slechts als aantallen tonen.
 
-Voor meer informatie, zie [ gebieden ](/help/quicksilver/planning/fields/create-fields.md) creëren.
+Voor meer informatie, zie [&#x200B; gebieden &#x200B;](/help/quicksilver/planning/fields/create-fields.md) creëren.
 
 ## Verbindingsvelden worden nu ondersteund in aanvraagformulieren
 
@@ -268,7 +268,7 @@ U kunt geen opzoekvelden voor verbindingen of verbonden velden voor Workfront-ob
 
 Vóór deze verbetering, konden deze types van gebieden niet aan aanvraagformulieren in de Planning van Workfront worden toegevoegd.
 
-Voor informatie, zie [ creeer en beheer een verzoekvorm in de Planning van Adobe Workfront ](/help/quicksilver/planning/requests/create-request-form.md).
+Voor informatie, zie [&#x200B; creeer en beheer een verzoekvorm in de Planning van Adobe Workfront &#x200B;](/help/quicksilver/planning/requests/create-request-form.md).
 
 ## Verbindingswaarschuwing bij het verbinden van records die al zijn gekoppeld aan andere records
 
@@ -278,7 +278,7 @@ Voor informatie, zie [ creeer en beheer een verzoekvorm in de Planning van Adobe
 
 Wanneer u probeert om verslagen te verbinden die reeds elders worden verbonden en die tot een verslagtype behoren dat door Één aan velen of Één aan één verbindingstype wordt aangesloten, ontvangt u nu een waarschuwing dat de verslagen reeds verbonden zijn. Als u bevestigt dat u met uw verbinding vooruit wilt gaan, worden de geselecteerde verslagen verwijderd uit het originele verslag en toegevoegd aan het verslag u momenteel uitgeeft.
 
-Voor informatie over verbindingstypes, zie [ Verbonden overzicht van recordtypes ](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
+Voor informatie over verbindingstypes, zie [&#x200B; Verbonden overzicht van recordtypes &#x200B;](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
 
 ## Nieuw informatiepictogram met een beschrijving van velden op de detailpagina van de record
 
@@ -288,7 +288,7 @@ Voor informatie over verbindingstypes, zie [ Verbonden overzicht van recordtypes
 
 Een informatiepictogram rechts van de veldnamen is toegevoegd aan een recordpagina. Als u op het informatiepictogram klikt, wordt de beschrijving van het veld weergegeven wanneer er een beschrijving bestaat. Vóór deze verbetering, de beschrijving van het gebied getoond toen u over de gebiedsnaam hield.
 
-Voor informatie, zie [ verslagen ](/help/quicksilver/planning/records/edit-records.md) uitgeven.
+Voor informatie, zie [&#x200B; verslagen &#x200B;](/help/quicksilver/planning/records/edit-records.md) uitgeven.
 
 ## Nieuw Workfront-veldtype voor planningsverbindingen
 
@@ -306,6 +306,6 @@ U kunt het nieuwe veld toevoegen aan formulieren voor alle objecttypen. Nochtans
 
 Het bewerken van de verbindingsvelden voor Planning voor Workfront-objecten in bulk is nog niet beschikbaar.
 
-Voor informatie, zie [ een douaneformulier ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren.
+Voor informatie, zie [&#x200B; een douaneformulier &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren.
 
-[ Bekijk een videodemonstratie van deze eigenschap ](https://video.tv.adobe.com/v/3435633/){target=_blank}
+[&#x200B; Bekijk een videodemonstratie van deze eigenschap &#x200B;](https://video.tv.adobe.com/v/3435633/){target=_blank}

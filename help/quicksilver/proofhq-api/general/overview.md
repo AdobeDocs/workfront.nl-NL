@@ -25,7 +25,7 @@ De openbare interface is SOAP 1.1 volgzaam met steun WSDL. Alle aanvragen worde
 
 ## API-versies
 
-Om compatibiliteit met bestaande clientintegratie te behouden, hebben we vanaf onze release 12.1 API-versies geïntroduceerd. Zie de  [ API werkt ](https://api.proofhq.com/new-updates.html) pagina voor meer informatie bij. Als een methode of parameter geen versiegegevens heeft, betekent dit dat u dit als onderdeel van onze standaard-API zult vinden, raadpleegt u de sectie Aan de slag met de API hieronder.
+Om compatibiliteit met bestaande clientintegratie te behouden, hebben we vanaf onze release 12.1 API-versies geïntroduceerd. Zie de  [&#x200B; API werkt &#x200B;](https://api.proofhq.com/new-updates.html) pagina voor meer informatie bij. Als een methode of parameter geen versiegegevens heeft, betekent dit dat u dit als onderdeel van onze standaard-API zult vinden, raadpleegt u de sectie Aan de slag met de API hieronder.
 
 ## Aan de slag met de API
 

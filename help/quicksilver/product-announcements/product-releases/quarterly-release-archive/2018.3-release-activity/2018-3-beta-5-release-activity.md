@@ -18,32 +18,32 @@ ht-degree: 0%
 
 Op deze pagina worden alle wijzigingen beschreven die het laatst beschikbaar zijn in de Voorvertoningsomgeving met de Beta 5-release van 2018.3. De functionaliteit is op 21 september 2018 beschikbaar in de voorvertoningsomgeving. Het zal in november 2018 beschikbaar worden gesteld in de productieomgeving.
 
-Voor een lijst met alle wijzigingen die in 2018.3 zijn aangebracht, raadpleegt u  [ 2018.3 overzicht van de versieactiviteit ](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-release-activity-overview.md).
+Voor een lijst met alle wijzigingen die in 2018.3 zijn aangebracht, raadpleegt u  [&#x200B; 2018.3 overzicht van de versieactiviteit &#x200B;](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-release-activity-overview.md).
 
 De Beta 5-release van 2018.3 bevat verbeteringen voor alle gebruikers:
 
-* [ Goedkeuringen van het Spoor u op het Gebied van het Huis ](#track-approvals-you-ve-submitted-in-the-home-area) hebt voorgelegd
-* [ Vervanging van op Flash-Gebaseerde Hulpmiddelen in Workfront ](#replacement-of-flash-based-tools-in-workfront)
-* [ Toestaan de Gebruikers van de Vergunning van het Werk om tot het Plannende Subtab van een Project ](#allowing-work-license-users-to-access-the-scheduling-subtab-of-a-project) toegang te hebben
-* [ Verbeterde Filters in de Planner van het Middel ](#improved-filters-in-the-resource-planner)
-* [ Mening Ware Uren in de Planner van het Middel ](#view-actual-hours-in-the-resource-planner)
-* [ Gegevens van de Planner van het Middel in de Uitvoer Bedrijfs van het Geval ](#resource-planner-data-in-the-business-case-export)
-* [ laat bedrijf-Vlakke de Overschrijving van het Tarief van het Facturerings ](#enable-company-level-billing-rate-override) toe
-* [ Vereenvoudigde Op rol-Gebaseerde Goedkeuringen ](#simplified-role-based-approvals)
-* [ het Rapport van het Gebruik: Bevolkt de Beoogde Uren van het Nieuwe Bewegende Gebied van het Middel ](#utilization-report-populates-budgeted-hours-from-new-resource-budgeting-area)
-* [ het Rapport van het Gebruik: Mening Beoogde Uren door Gebruiker op een Project ](#utilization-report-view-budgeted-hours-by-user-on-a-project)
-* [ SWF Dossiers niet meer die in de het proef kijker ](#swf-files-no-longer-supported-in-the-proofing-viewer) worden gesteund
-* [ Acties sneller Toegankelijk in de Lijst van de Commentaar in de het proef kijker ](#actions-more-quickly-accessible-in-the-comment-list-in-the-proofing-viewer)
-* [ Verbetering van het Delen van het bewijs in de het proef kijker ](#proof-sharing-improvement-in-the-proofing-viewer)
-* [ de Verbeteringen van de Lijst van Commentaren in de het proef kijker ](#comments-list-enhancements-in-the-proofing-viewer)
-* [ Gezoem en de VideoProofs van het Pannen in de het proef kijker ](#zoom-and-pan-video-proofs-in-the-proofing-viewer)
-* [ Lichtere Achtergrond in de het proef kijker ](#lighter-background-in-the-proofing-viewer)
-* [ Betere Zichtbaarheid wanneer een Commentaar in de het proef kijker ](#better-visibility-when-a-comment-has-been-edited-in-the-proofing-viewer) is uitgegeven
-* [ Mening het Aantal Commentaren verbonden aan een Actie in de Lijst van de Commentaar in de het proef kijker ](#view-the-number-of-comments-associated-with-an-action-in-the-comment-list-in-the-proofing-viewer)
-* [ specificeer het Stadium wanneer het Toevoegen van Gebruikers aan een Bewijs in de het proef kijker ](#specify-the-stage-when-adding-users-to-a-proof-in-the-proofing-viewer)
-* [ het Openen van de Bijbehorende Website van een Interactieve of Statische Proef van de Website ](#opening-the-associated-website-from-an-interactive-or-static-website-proof)
-* [ de Summiere Verbeteringen van de Druk ](#print-summary-enhancements)
-* [ Verbeterde Tijd van de Bewijs van het Lading ](#improved-proof-loading-time)
+* [&#x200B; Goedkeuringen van het Spoor u op het Gebied van het Huis &#x200B;](#track-approvals-you-ve-submitted-in-the-home-area) hebt voorgelegd
+* [&#x200B; Vervanging van op Flash-Gebaseerde Hulpmiddelen in Workfront &#x200B;](#replacement-of-flash-based-tools-in-workfront)
+* [&#x200B; Toestaan de Gebruikers van de Vergunning van het Werk om tot het Plannende Subtab van een Project &#x200B;](#allowing-work-license-users-to-access-the-scheduling-subtab-of-a-project) toegang te hebben
+* [&#x200B; Verbeterde Filters in de Planner van het Middel &#x200B;](#improved-filters-in-the-resource-planner)
+* [&#x200B; Mening Ware Uren in de Planner van het Middel &#x200B;](#view-actual-hours-in-the-resource-planner)
+* [&#x200B; Gegevens van de Planner van het Middel in de Uitvoer Bedrijfs van het Geval &#x200B;](#resource-planner-data-in-the-business-case-export)
+* [&#x200B; laat bedrijf-Vlakke de Overschrijving van het Tarief van het Facturerings &#x200B;](#enable-company-level-billing-rate-override) toe
+* [&#x200B; Vereenvoudigde Op rol-Gebaseerde Goedkeuringen &#x200B;](#simplified-role-based-approvals)
+* [&#x200B; het Rapport van het Gebruik: Bevolkt de Beoogde Uren van het Nieuwe Bewegende Gebied van het Middel &#x200B;](#utilization-report-populates-budgeted-hours-from-new-resource-budgeting-area)
+* [&#x200B; het Rapport van het Gebruik: Mening Beoogde Uren door Gebruiker op een Project &#x200B;](#utilization-report-view-budgeted-hours-by-user-on-a-project)
+* [&#x200B; SWF Dossiers niet meer die in de het proef kijker &#x200B;](#swf-files-no-longer-supported-in-the-proofing-viewer) worden gesteund
+* [&#x200B; Acties sneller Toegankelijk in de Lijst van de Commentaar in de het proef kijker &#x200B;](#actions-more-quickly-accessible-in-the-comment-list-in-the-proofing-viewer)
+* [&#x200B; Verbetering van het Delen van het bewijs in de het proef kijker &#x200B;](#proof-sharing-improvement-in-the-proofing-viewer)
+* [&#x200B; de Verbeteringen van de Lijst van Commentaren in de het proef kijker &#x200B;](#comments-list-enhancements-in-the-proofing-viewer)
+* [&#x200B; Gezoem en de VideoProofs van het Pannen in de het proef kijker &#x200B;](#zoom-and-pan-video-proofs-in-the-proofing-viewer)
+* [&#x200B; Lichtere Achtergrond in de het proef kijker &#x200B;](#lighter-background-in-the-proofing-viewer)
+* [&#x200B; Betere Zichtbaarheid wanneer een Commentaar in de het proef kijker &#x200B;](#better-visibility-when-a-comment-has-been-edited-in-the-proofing-viewer) is uitgegeven
+* [&#x200B; Mening het Aantal Commentaren verbonden aan een Actie in de Lijst van de Commentaar in de het proef kijker &#x200B;](#view-the-number-of-comments-associated-with-an-action-in-the-comment-list-in-the-proofing-viewer)
+* [&#x200B; specificeer het Stadium wanneer het Toevoegen van Gebruikers aan een Bewijs in de het proef kijker &#x200B;](#specify-the-stage-when-adding-users-to-a-proof-in-the-proofing-viewer)
+* [&#x200B; het Openen van de Bijbehorende Website van een Interactieve of Statische Proef van de Website &#x200B;](#opening-the-associated-website-from-an-interactive-or-static-website-proof)
+* [&#x200B; de Summiere Verbeteringen van de Druk &#x200B;](#print-summary-enhancements)
+* [&#x200B; Verbeterde Tijd van de Bewijs van het Lading &#x200B;](#improved-proof-loading-time)
 * [Nieuwe vormgeving en nieuwe vormgeving voor het tabblad Updates in de Workfront Mobile-app](#new-look-and-feel-of-the-updates-tab-in-the-workfront-mobile-app)
 
 ## Goedkeuringen bijhouden die u hebt verzonden in het thuisgebied {#track-approvals-you-ve-submitted-in-the-home-area}
@@ -59,13 +59,13 @@ Vanaf Home kunt u:
 
   Eerder was het mogelijk alleen in Mijn werk te communiceren met verzonden goedkeuringen. 
 
-Voor meer informatie, zie [ goedkeuringen ](../../../../review-and-approve-work/manage-approvals/manage-approvals.md) beheren. 
+Voor meer informatie, zie [&#x200B; goedkeuringen &#x200B;](../../../../review-and-approve-work/manage-approvals/manage-approvals.md) beheren. 
 
 ## Vervanging van gereedschappen op basis van Flash in Workfront {#replacement-of-flash-based-tools-in-workfront}
 
 Alle functionaliteit die afhankelijk is van de technologie van de Flash is gepland voor verwijdering uit Workfront met de release van 2018.3 en zal worden vervangen door een nieuwe oplossing.
 
-Voor meer informatie over alle gebieden die door de verwijdering van deze eigenschappen worden beïnvloed en te begrijpen welke hulpmiddelen hen zullen vervangen, zie [ Vervanging van op Flash-gebaseerde hulpmiddelen in Adobe Workfront ](../../../../product-announcements/announcements/announcement-archive/replace-flash-tools.md).
+Voor meer informatie over alle gebieden die door de verwijdering van deze eigenschappen worden beïnvloed en te begrijpen welke hulpmiddelen hen zullen vervangen, zie [&#x200B; Vervanging van op Flash-gebaseerde hulpmiddelen in Adobe Workfront &#x200B;](../../../../product-announcements/announcements/announcement-archive/replace-flash-tools.md).
 
 ## De gebruikers van de Vergunning van het Werk toestaan om tot het Plannende Sublusje van een Project toegang te hebben {#allowing-work-license-users-to-access-the-scheduling-subtab-of-a-project}
 
@@ -77,7 +77,7 @@ Voor informatie over de toegang nodig voor de toegang tot van het Plannende subt
 
 >[!NOTE]
 >
->De hulpmiddelen van de Planning van het Middel zijn afgekeurd en uit Workfront met versie 23.1 verwijderd. Voor informatie over het plannen van middelen die de Balancer van de Werklast gebruiken, zie [ Overzicht van de Balancer van de Werkbelasting ](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+>De hulpmiddelen van de Planning van het Middel zijn afgekeurd en uit Workfront met versie 23.1 verwijderd. Voor informatie over het plannen van middelen die de Balancer van de Werklast gebruiken, zie [&#x200B; Overzicht van de Balancer van de Werkbelasting &#x200B;](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
 
 ## Verbeterde filters in de bronnenplanner {#improved-filters-in-the-resource-planner}
 
@@ -85,7 +85,7 @@ U kunt informatie in de Planner van het Middel nu filtreren om project-specifiek
 
 Voorafgaand aan deze verbetering, kon u slechts voor een beperkt aantal ingebouwde gebieden en criteria in de Planner van het Middel filtreren.
 
-Voor informatie over het filtreren van informatie in de Planner van het Middel, zie [ informatie van de Filter in de Planner van het Middel ](../../../../resource-mgmt/resource-planning/filter-resource-planner.md).
+Voor informatie over het filtreren van informatie in de Planner van het Middel, zie [&#x200B; informatie van de Filter in de Planner van het Middel &#x200B;](../../../../resource-mgmt/resource-planning/filter-resource-planner.md).
 
 ## Werkelijke uren weergeven in de bronnenplanner {#view-actual-hours-in-the-resource-planner}
 
@@ -93,7 +93,7 @@ U kunt Werkelijke uren in de Mening van de Gebruiker van de Planner van het Midd
 
 Vóór deze verbetering waren de werkelijke uren niet zichtbaar in de bronnenplanner.
 
-Voor informatie over het bekijken van uurinformatie in de Planner van het Middel, zie [ overzicht van de Planner van het Middel ](../../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
+Voor informatie over het bekijken van uurinformatie in de Planner van het Middel, zie [&#x200B; overzicht van de Planner van het Middel &#x200B;](../../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
 
 ## Gegevens van bronnenplanner in Business Case Export {#resource-planner-data-in-the-business-case-export}
 
@@ -101,7 +101,7 @@ Wanneer u het BedrijfsGeval naar een PDF uitvoert, weerspiegelt de financiële i
 
 Eerder weerspiegelde het geëxporteerde bestand de informatie in het gebied met ramingen van oudere bronnen en in de functie voor capaciteitsplanner. 
 
-Voor informatie over het uitvoeren van het BedrijfsGeval, zie [ een BedrijfsGeval voor een project ](../../../../manage-work/projects/define-a-business-case/create-business-case.md) sectie in [ creëren een BedrijfsGeval voor een project ](../../../../manage-work/projects/define-a-business-case/create-business-case.md).
+Voor informatie over het uitvoeren van het BedrijfsGeval, zie [&#x200B; een BedrijfsGeval voor een project &#x200B;](../../../../manage-work/projects/define-a-business-case/create-business-case.md) sectie in [&#x200B; creëren een BedrijfsGeval voor een project &#x200B;](../../../../manage-work/projects/define-a-business-case/create-business-case.md).
 
 ## Override factureringssnelheid op bedrijfsniveau inschakelen {#enable-company-level-billing-rate-override}
 
@@ -111,7 +111,7 @@ Als u dit het plaatsen toelaat, treden de bedrijf-vlakke factureringstarieven hi
 
 Eerder, kon u geen bedrijf-vlakke het facturerings tariefveranderingen op een project toepassen tenzij u het bedrijf uit het project schrapte, dan het opnieuw vastmaakte.
 
-Voor meer informatie, zie [ project-Vlakke het Facturerings Tarieven met het bedrijf-Vlakke Facturerings ](../../../../manage-work/projects/project-finances/override-project-level-with-company-level-billing-rates.md) met voeten treden. 
+Voor meer informatie, zie [&#x200B; project-Vlakke het Facturerings Tarieven met het bedrijf-Vlakke Facturerings &#x200B;](../../../../manage-work/projects/project-finances/override-project-level-with-company-level-billing-rates.md) met voeten treden. 
 
 ## Vereenvoudigde op rollen gebaseerde goedkeuringen {#simplified-role-based-approvals}
 
@@ -119,7 +119,7 @@ Goedkeuringen op basis van rollen werken nu eenvoudiger aan een project. Nu, moe
 
 Eerder, moest u gebruikers aan het projectteam toewijzen, ervoor zorgen zij de correcte rol in hun gebruikersprofiel hadden, en die rol in de Bouwer van het Team van de Oudheid selecteren.
 
-Voor meer informatie, zie het overzicht van het sectie [ Team van het Project ](../../../../manage-work/projects/planning-a-project/project-team-overview.md) in het artikel [ overzicht van het Team van het Project ](../../../../manage-work/projects/planning-a-project/project-team-overview.md).
+Voor meer informatie, zie het overzicht van het sectie [&#x200B; Team van het Project &#x200B;](../../../../manage-work/projects/planning-a-project/project-team-overview.md) in het artikel [&#x200B; overzicht van het Team van het Project &#x200B;](../../../../manage-work/projects/planning-a-project/project-team-overview.md).
 
 ## Gebruiksrapport: Bevolken begrote uren uren uit nieuw gebied voor de begroting van bronnen {#utilization-report-populates-budgeted-hours-from-new-resource-budgeting-area}
 
@@ -131,7 +131,7 @@ De begrote Uren in het Rapport van het Gebruik zijn nu bevolkt van informatie be
 
 Vóór deze verandering, werd de informatie van het gebied van de Schattingen van het erfenisMiddel gebruikt.
 
-Zie voor meer informatie  [ Overzicht van het rapport van het Gebruik van het Middel ](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md) in het artikel  [ Overzicht van het rapport van het Gebruik van het Middel ](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
+Zie voor meer informatie  [&#x200B; Overzicht van het rapport van het Gebruik van het Middel &#x200B;](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md) in het artikel  [&#x200B; Overzicht van het rapport van het Gebruik van het Middel &#x200B;](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
 
 ## Gebruiksrapport: Beoogde uren per gebruiker weergeven voor een project {#utilization-report-view-budgeted-hours-by-user-on-a-project}
 
@@ -143,13 +143,13 @@ Het rapport van het Gebruik over een project toont nu Beoogde Uren door Gebruike
 
 Voorafgaand aan deze verandering, toonde het rapport van het Gebruik begrotingsuren slechts door baanrol. 
 
-Zie voor meer informatie  [ Overzicht van het rapport van het Gebruik van het Middel ](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md) in het artikel  [ Overzicht van het rapport van het Gebruik van het Middel ](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
+Zie voor meer informatie  [&#x200B; Overzicht van het rapport van het Gebruik van het Middel &#x200B;](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md) in het artikel  [&#x200B; Overzicht van het rapport van het Gebruik van het Middel &#x200B;](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
 
 ## SWF-bestanden worden niet meer ondersteund in de viewer voor proefdrukken {#swf-files-no-longer-supported-in-the-proofing-viewer}
 
 Vanwege beveiligingsproblemen die samenhangen met de Flash van de Adobe, biedt de proefdrukviewer geen ondersteuning meer voor proefdrukken die zijn gemaakt op basis van SWF-bestanden. Als u een proefdruk opent die eerder voor een SWF- dossier werd gecreeerd, toont een bericht waar de proefdrukinhoud eerder in de het proefdrukken kijker werd getoond. U kunt eventuele opmerkingen over de proefdruk zien. U kunt ook opmerkingen downloaden en het originele SWF-bestand downloaden.
 
-Voor meer informatie, zie [ Ondersteunde het proef dossiertypes en groottegrenzen overzicht ](../../../../review-and-approve-work/proofing/proofing-overview/supported-proofing-file-types.md) in het artikel [ Ondersteunde het proefdrukken dossiertypes en groottegrenzen overzicht ](../../../../review-and-approve-work/proofing/proofing-overview/supported-proofing-file-types.md). 
+Voor meer informatie, zie [&#x200B; Ondersteunde het proef dossiertypes en groottegrenzen overzicht &#x200B;](../../../../review-and-approve-work/proofing/proofing-overview/supported-proofing-file-types.md) in het artikel [&#x200B; Ondersteunde het proefdrukken dossiertypes en groottegrenzen overzicht &#x200B;](../../../../review-and-approve-work/proofing/proofing-overview/supported-proofing-file-types.md). 
 
 ## Handelingen die sneller toegankelijk zijn in de lijst met opmerkingen in de conceptviewer {#actions-more-quickly-accessible-in-the-comment-list-in-the-proofing-viewer}
 
@@ -157,7 +157,7 @@ U kunt de handeling voor een opmerking nu sneller toevoegen of wijzigen in de co
 
 Eerder moest u de opmerking openen, een vervolgkeuzemenu openen, een submenu openen en vervolgens op de gewenste handeling klikken.
 
-Voor meer informatie, zie [ acties van het Gebruik op proefdrukcommentaren ](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/use-actions-on-comments-in-viewer.md).
+Voor meer informatie, zie [&#x200B; acties van het Gebruik op proefdrukcommentaren &#x200B;](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/use-actions-on-comments-in-viewer.md).
 
 ## Verbetering van het delen van proefdrukken in de proefdrukviewer {#proof-sharing-improvement-in-the-proofing-viewer}
 
@@ -165,7 +165,7 @@ Wanneer u een URL verzendt vanuit de proefdrukviewer, worden de weergegeven opti
 
 Eerder, voorzagen deze opties de zelfde functionaliteit die zij nu doen, maar hun organisatie was inconsistent met de overeenkomstige opties in de lijst van Documenten.
 
-Zie de sectie voor meer informatie  [ Deel URL ](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/share-a-proof-in-proofing-viewer.md#sharing-the-url) in het artikel  [ Deel een proef van de het proef kijker ](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/share-a-proof-in-proofing-viewer.md).
+Zie de sectie voor meer informatie  [&#x200B; Deel URL &#x200B;](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/share-a-proof-in-proofing-viewer.md#sharing-the-url) in het artikel  [&#x200B; Deel een proef van de het proef kijker &#x200B;](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/share-a-proof-in-proofing-viewer.md).
 
 ## Verbeteringen in de lijst met opmerkingen in de proefdrukviewer {#comments-list-enhancements-in-the-proofing-viewer}
 
@@ -215,7 +215,7 @@ Wanneer u een revisor toevoegt aan een proefdruk met een geautomatiseerde workfl
 
 Eerder, toen u controleurs aan een proef van de het proefdrukken kijker toevoegde, plaatste Workfront hen in het stadium dat momenteel actief was.
 
-Voor meer informatie, zie [ een proef delen door gebruikers aan het ](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/share-a-proof-in-proofing-viewer.md#sharing-with-individual-users) in [ toe te voegen Deel een bewijs van de het proef kijker ](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/share-a-proof-in-proofing-viewer.md).
+Voor meer informatie, zie [&#x200B; een proef delen door gebruikers aan het &#x200B;](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/share-a-proof-in-proofing-viewer.md#sharing-with-individual-users) in [&#x200B; toe te voegen Deel een bewijs van de het proef kijker &#x200B;](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/share-a-proof-in-proofing-viewer.md).
 
 ## De bijbehorende website openen via een proefexemplaar van een interactieve of statische website {#opening-the-associated-website-from-an-interactive-or-static-website-proof}
 
@@ -242,7 +242,7 @@ De volgende verbeteringen zijn nu beschikbaar op de pagina Afdrukoverzicht:
 * Als de proefdruk een web capture is, wordt op elke pagina met opmerkingen de resolutie weergegeven waarop de webpagina is vastgelegd. Dit is bijvoorbeeld handig als de proefdruk pagina&#39;s bevat die zijn vastgelegd voor mobiele apparaten en dezelfde pagina&#39;s die zijn vastgelegd voor laptop- en desktopcomputers.
 * Wanneer u nu opmerkingen op de pagina Afdrukoverzicht filtert met de status Actie, Auteur of Onopgeloste status, is het filter van toepassing op proefdrukken die u exporteert als PDF- of Excel-bestanden, en niet alleen op proefdrukken.
 
-Voor meer informatie, zie [ een proefdruksamenvatting binnen Adobe Workfront ](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/print-proof-summary-in-wf.md) drukken.
+Voor meer informatie, zie [&#x200B; een proefdruksamenvatting binnen Adobe Workfront &#x200B;](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/print-proof-summary-in-wf.md) drukken.
 
 ## Verbeterde laadtijd proefdrukken {#improved-proof-loading-time}
 

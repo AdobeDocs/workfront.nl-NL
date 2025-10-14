@@ -29,7 +29,7 @@ We hebben de ervaring voor het oplossen van taken- en begrotingsconflicten in de
 * Meer zichtbaarheid in de tijdlijn van het abonnement waar een conflict optreedt, zodat u sneller inzicht krijgt in de locatie waar u mogelijk onvoldoende bronnen moet aanpakken.
 * Een verbeterde gebruikerservaring die nieuwe tooltips, informatievakjes, en hoogtepunten omvat om u sneller en gemakkelijker te begeleiden door om het even welke conflicten tussen welke middelen uw initiatieven en welk budget uw plan beschikbaar heeft op te lossen.
 
-Voor informatie over het oplossen van conflicten in de Planner van het Scenario, zie [ initiatiefconflicten in de Planner van het Scenario oplossen ](../../../scenario-planner/resolve-conflicts-in-sp.md).
+Voor informatie over het oplossen van conflicten in de Planner van het Scenario, zie [&#x200B; initiatiefconflicten in de Planner van het Scenario oplossen &#x200B;](../../../scenario-planner/resolve-conflicts-in-sp.md).
 
 >[!NOTE]
 >
@@ -47,7 +47,7 @@ Voorafgaand aan deze wijziging kon u geen initiatief kopiëren en u kon slechts 
 
 Raadpleeg de volgende artikelen voor meer informatie:
 
-* [ de initiatieven van de Schrapping in de Planner van het Scenario ](../../../scenario-planner/delete-initiatives.md)
-* [ initiatieven van het Exemplaar in de Planner van het Scenario ](../../../scenario-planner/copy-initiatives.md)
+* [&#x200B; de initiatieven van de Schrapping in de Planner van het Scenario &#x200B;](../../../scenario-planner/delete-initiatives.md)
+* [&#x200B; initiatieven van het Exemplaar in de Planner van het Scenario &#x200B;](../../../scenario-planner/copy-initiatives.md)
 * [Prioriteiten van initiatieven bijwerken in het scenario Scenario Planner](../../../scenario-planner/prioritize-initiatives.md)
 

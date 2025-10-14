@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Op deze pagina worden alle Home-verbeteringen beschreven die zijn aangebracht met de release Derde kwartaal 2025 voor de voorvertoningsomgeving. Deze verbeteringen zullen beschikbaar worden gesteld in de productieomgeving, zoals vermeld.
 
-Voor een lijst van alle veranderingen beschikbaar op dit punt in het Derde Kwartaal 2025 versiecyclus, zie [ Derde Kwartaal 2025 releaseoverzicht ](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar op dit punt in het Derde Kwartaal 2025 versiecyclus, zie [&#x200B; Derde Kwartaal 2025 releaseoverzicht &#x200B;](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md).
 
 ## Alle widget Goedkeuring hernoemd naar cijfers voor Documentgoedkeuring
 
@@ -26,11 +26,11 @@ Voor een lijst van alle veranderingen beschikbaar op dit punt in het Derde Kwart
 >* Snelle productie: 30 juni 2025
 >* Productie voor alle afnemers: 30 juni 2025
 
-De naam van de widget Alle goedkeuringen is gewijzigd in Goedkeuringswaarden document om de weergegeven informatie nauwkeuriger weer te geven. De widget Metriek voor documentgoedkeuring biedt op hoog niveau inzicht in documentgoedkeuringen voor de projecten die u bezit. U moet [ Verenigde Goedkeuringen ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md) hebben die worden toegelaten om deze widget te gebruiken.
+De naam van de widget Alle goedkeuringen is gewijzigd in Goedkeuringswaarden document om de weergegeven informatie nauwkeuriger weer te geven. De widget Metriek voor documentgoedkeuring biedt op hoog niveau inzicht in documentgoedkeuringen voor de projecten die u bezit. U moet [&#x200B; Verenigde Goedkeuringen &#x200B;](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md) hebben die worden toegelaten om deze widget te gebruiken.
 
 Deze widget bevat geen informatie over proefdrukgoedkeuringen.
 
-Voor meer informatie, zie [ begonnen worden met Huis ](/help/quicksilver/workfront-basics/using-home/using-the-home-area/get-started-with-home.md).
+Voor meer informatie, zie [&#x200B; begonnen worden met Huis &#x200B;](/help/quicksilver/workfront-basics/using-home/using-the-home-area/get-started-with-home.md).
 
 ## Bijgewerkte commentaarervaring in de sectie van Aantekeningen op het Mijn gebied van Updates
 
@@ -44,7 +44,7 @@ We werken de ervaringen met opmerkingen bij in de sectie Meldingen in het gebied
 
 Vóór deze verbetering was de oudere ervaring met opmerkingen op dit gebied beschikbaar.
 
-Voor informatie, zie [ Gebruik het Mijn gebied van Updates ](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-updates-area.md).
+Voor informatie, zie [&#x200B; Gebruik het Mijn gebied van Updates &#x200B;](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-updates-area.md).
 
 ## Mijn widget voor goedkeuringen sorteert nu automatisch op deadline
 

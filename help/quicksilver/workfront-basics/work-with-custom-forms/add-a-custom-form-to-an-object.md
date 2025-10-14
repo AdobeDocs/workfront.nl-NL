@@ -70,19 +70,19 @@ U moet de volgende toegang hebben om de handelingen uit te voeren die in dit art
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Vereisten
 
-Uw Workfront-beheerder of een gebruiker met een licentie en beheerdersrechten voor aangepaste formulieren moet aangepaste formulieren maken in uw omgeving voordat u deze aan objecten kunt toevoegen. Voor meer informatie, zie [ een douaneformulier ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren.
+Uw Workfront-beheerder of een gebruiker met een licentie en beheerdersrechten voor aangepaste formulieren moet aangepaste formulieren maken in uw omgeving voordat u deze aan objecten kunt toevoegen. Voor meer informatie, zie [&#x200B; een douaneformulier &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren.
 
 ## Een aangepast formulier toevoegen aan een object
 
 U kunt op twee manieren een aangepast formulier aan een object toevoegen:
 
-* [ voeg een douanevorm aan een voorwerp toe door het voorwerp uit te geven ](#add-a-custom-form-to-an-object-by-editing-the-object)
+* [&#x200B; voeg een douanevorm aan een voorwerp toe door het voorwerp uit te geven &#x200B;](#add-a-custom-form-to-an-object-by-editing-the-object)
 * [Een aangepast formulier aan een object toevoegen vanuit het gebied Details](#add-a-custom-form-to-an-object-from-the-details-area)
 
 ### Een aangepast formulier aan een object toevoegen door het object te bewerken {#add-a-custom-form-to-an-object-by-editing-the-object}
@@ -126,7 +126,7 @@ drafted for bulk-editing projects. When it releases to Prod for projects, take "
 >
 >Het toevoegen van aangepaste formulieren aan objecten is hetzelfde voor alle objecten, behalve voor projecten.
 >
->Voor informatie over het toevoegen van douaneformulieren aan projecten in bulk, zie het artikel [ projecten ](../../manage-work/projects/manage-projects/edit-projects.md) uitgeven.
+>Voor informatie over het toevoegen van douaneformulieren aan projecten in bulk, zie het artikel [&#x200B; projecten &#x200B;](../../manage-work/projects/manage-projects/edit-projects.md) uitgeven.
 
 
 1. Blader naar een lijst met objecten.

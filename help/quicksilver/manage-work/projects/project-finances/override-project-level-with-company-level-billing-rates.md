@@ -53,7 +53,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -64,12 +64,12 @@ Wanneer een bedrijf met een project wordt geassocieerd en deze optie wordt toege
 Wanneer een gebruiker manueel financiën op het project herberekent, worden om het even welke veranderingen in het bedrijf-vlakke factureringspercentages toegepast. Historische inkomstenberekeningen worden ook overschreven, tenzij ze als gefactureerd worden gemarkeerd.
 
 1. Ga naar een project.
-1. Klik het **Meer** menu ![ Meer menu ](assets/qs-more-icon-on-an-object.png) naast de naam van het project in de kopbal, dan klik **uitgeven**.
+1. Klik het **Meer** menu ![&#x200B; Meer menu &#x200B;](assets/qs-more-icon-on-an-object.png) naast de naam van het project in de kopbal, dan klik **uitgeven**.
 1. In de **sectie van de Financiën**, laat **toe toestaan bedrijf-vlakke het factureren tarieven om project-vlakke het factureren tarieven** met voeten te treden.
 
    >[!CAUTION]
    >
-   >Als u deze optie inschakelt, worden historische inkomstenberekeningen genegeerd, tenzij deze als gefactureerd worden gemarkeerd. U kunt de historische inkomstenberekeningen behouden door een factureringsrecord te maken. Voor meer informatie, zie het artikel [ het factureren verslagen ](../../../manage-work/projects/project-finances/create-billing-records.md) creëren
+   >Als u deze optie inschakelt, worden historische inkomstenberekeningen genegeerd, tenzij deze als gefactureerd worden gemarkeerd. U kunt de historische inkomstenberekeningen behouden door een factureringsrecord te maken. Voor meer informatie, zie het artikel [&#x200B; het factureren verslagen &#x200B;](../../../manage-work/projects/project-finances/create-billing-records.md) creëren
 
 1. Klik **sparen Veranderingen**.
 
@@ -88,7 +88,7 @@ Nadat u de bedrijf-vlakke het facturerings optie van de tariefopheffing op een p
 1. Klik **het Factureren Tarieven** in het linkerpaneel.
 1. Werk het **Facturerings Tarief van het Bedrijf** en begin/eind data voor een bestaande baanrol bij, dan druk binnengaan.
 
-   Om een nieuwe datum toe te voegen efficiënt bedrijf het factureren tarief, selecteer een het facturerings tarief voor de baanrol en klik **uitgeven**. Voor meer informatie over datum efficiënte bedrijf het factureren tarieven, zie [ het factureringspercentages van de baanrol van de Opheffing op het bedrijfsniveau ](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/override-job-role-billing-rates-company-level.md).
+   Om een nieuwe datum toe te voegen efficiënt bedrijf het factureren tarief, selecteer een het facturerings tarief voor de baanrol en klik **uitgeven**. Voor meer informatie over datum efficiënte bedrijf het factureren tarieven, zie [&#x200B; het factureringspercentages van de baanrol van de Opheffing op het bedrijfsniveau &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/override-job-role-billing-rates-company-level.md).
 
 1. Voer een van de volgende handelingen uit om de bedrijfstarieven voor een of meer projecten bij te werken:
 
@@ -103,4 +103,4 @@ Nadat u de bedrijf-vlakke het facturerings optie van de tariefopheffing op een p
    * Eén project:
 
       1. Ga naar het project waarvoor u bedrijf-vlakke het factureren tariefopheffing toeliet.
-      1. Klik **Meer** menu ![ Meer menu ](assets/qs-more-icon-on-an-object.png) naast de projectnaam in de kopbal, dan klik **opnieuw berekenen Financiën**.
+      1. Klik **Meer** menu ![&#x200B; Meer menu &#x200B;](assets/qs-more-icon-on-an-object.png) naast de projectnaam in de kopbal, dan klik **opnieuw berekenen Financiën**.

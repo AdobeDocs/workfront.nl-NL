@@ -27,28 +27,28 @@ Alle Adobe Workfront-rapporten en -lijsten zijn een combinatie van drie essenti�
 
 Desgewenst kunt u ook aanwijzingen en grafieken aan rapporten toevoegen.
 
-Voor informatie over het creëren van herinneringen, zie [ een herinnering aan een rapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md) toevoegen.
+Voor informatie over het creëren van herinneringen, zie [&#x200B; een herinnering aan een rapport &#x200B;](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md) toevoegen.
 
-Voor informatie over het creëren van een grafiek in een rapport, zie [ een grafiek aan een rapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md) toevoegen.
+Voor informatie over het creëren van een grafiek in een rapport, zie [&#x200B; een grafiek aan een rapport &#x200B;](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md) toevoegen.
 
 Deze sectie bevat de volgende artikelen:
 
 <!--outdated: * [Basic Report Creation Program](https://one.workfront.com/s/basic-report-creation-program)-->
 * [Elementen rapporteren: filters, weergaven en groepen](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md)
-* [ Overzicht van Filters ](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)
-* [ creeer of geef filters in Adobe Workfront uit ](../../../reports-and-dashboards/reports/reporting-elements/create-filters.md)
-* [ Filter en voorwaardenbepalingen ](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md)
+* [&#x200B; Overzicht van Filters &#x200B;](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)
+* [&#x200B; creeer of geef filters in Adobe Workfront uit &#x200B;](../../../reports-and-dashboards/reports/reporting-elements/create-filters.md)
+* [&#x200B; Filter en voorwaardenbepalingen &#x200B;](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md)
 * [Overzicht van jokertekenfiltervariabelen](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md)
-* [ Overzicht van meningen in Adobe Workfront ](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)
-* [ creeer of geef meningen in Adobe Workfront uit ](../../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md)
+* [&#x200B; Overzicht van meningen in Adobe Workfront &#x200B;](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)
+* [&#x200B; creeer of geef meningen in Adobe Workfront uit &#x200B;](../../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md)
 * [Voorwaardelijke opmaak gebruiken in weergaven](../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md)
-* [ Overzicht van Groepen in Adobe Workfront ](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)
-* [ creeer groeperingen in Adobe Workfront ](../../../reports-and-dashboards/reports/reporting-elements/create-groupings.md)
+* [&#x200B; Overzicht van Groepen in Adobe Workfront &#x200B;](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)
+* [&#x200B; creeer groeperingen in Adobe Workfront &#x200B;](../../../reports-and-dashboards/reports/reporting-elements/create-groupings.md)
 * [Bestaande groepen bewerken](../../../reports-and-dashboards/reports/reporting-elements/edit-existing-groupings.md)
-* [ creeer of geef meningen in Adobe Workfront uit ](../../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md)
-* [ Op datum-gebaseerde vervangingen van het Gebruik om rapporten ](../../../reports-and-dashboards/reports/reporting-elements/use-date-based-wildcards-generalize-reports.md) te generaliseren
-* [ Op gebruiker-gebaseerde vervangingen van het Gebruik om rapporten ](../../../reports-and-dashboards/reports/reporting-elements/use-user-based-wildcards-generalize-reports.md) te generaliseren
-* [ deel een filter, mening, of groepering ](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md)
+* [&#x200B; creeer of geef meningen in Adobe Workfront uit &#x200B;](../../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md)
+* [&#x200B; Op datum-gebaseerde vervangingen van het Gebruik om rapporten &#x200B;](../../../reports-and-dashboards/reports/reporting-elements/use-date-based-wildcards-generalize-reports.md) te generaliseren
+* [&#x200B; Op gebruiker-gebaseerde vervangingen van het Gebruik om rapporten &#x200B;](../../../reports-and-dashboards/reports/reporting-elements/use-user-based-wildcards-generalize-reports.md) te generaliseren
+* [&#x200B; deel een filter, mening, of groepering &#x200B;](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md)
 * [Filters, weergaven en groepen verwijderen](../../../reports-and-dashboards/reports/reporting-elements/remove-filters-views-groupings.md)
-* [ gebruik de mening van de Mijlpaal ](../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md)
+* [&#x200B; gebruik de mening van de Mijlpaal &#x200B;](../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md)
 * [Kolombreedte en -volgorde wijzigen](../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md)

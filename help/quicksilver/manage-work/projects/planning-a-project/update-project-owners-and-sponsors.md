@@ -20,7 +20,7 @@ ht-degree: 0%
 
 Als u een project maakt in Adobe Workfront, wordt u automatisch ingesteld als de eigenaar van het project. U kunt dit veld bijwerken met een andere gebruiker. U kunt ook het veld Projectsponsor van een project bijwerken.
 
-Voor informatie over projecteigenaars en sponsors, zie [ Overzicht van projecteigenaars en sponsors ](../../../manage-work/projects/planning-a-project/project-owners-and-sponsors.md).
+Voor informatie over projecteigenaars en sponsors, zie [&#x200B; Overzicht van projecteigenaars en sponsors &#x200B;](../../../manage-work/projects/planning-a-project/project-owners-and-sponsors.md).
 
 >[!TIP]
 >
@@ -28,7 +28,7 @@ Voor informatie over projecteigenaars en sponsors, zie [ Overzicht van projectei
 >
 >Als het malplaatje geen Eigenaar heeft, wordt de gebruiker die het project van het teamplate leidt de Eigenaar van het Project.
 >
->Voor informatie over het uitgeven van malplaatjes, zie [ projectmalplaatjes ](../../../manage-work/projects/create-and-manage-templates/edit-templates.md) uitgeven.
+>Voor informatie over het uitgeven van malplaatjes, zie [&#x200B; projectmalplaatjes &#x200B;](../../../manage-work/projects/create-and-manage-templates/edit-templates.md) uitgeven.
 
 ## Toegangsvereisten
 
@@ -89,7 +89,7 @@ Voor informatie over projecteigenaars en sponsors, zie [ Overzicht van projectei
  </tbody> 
 </table>
 
-*For informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*For informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -99,7 +99,7 @@ Wanneer u een gebruiker als Eigenaar van het Project van een project toevoegt, g
 
 1. Ga naar het project u wilt bijwerken.
 1. Klik **Details van het Project** in het linkerpaneel.
-1. Klik **uitgeven** pictogram ![ geeft pictogram ](assets/qs-edit-icon.png) in de hoger-juiste hoek van het gebied van de Details van het Project uit, dan klik **Overzicht**.
+1. Klik **uitgeven** pictogram ![&#x200B; geeft pictogram &#x200B;](assets/qs-edit-icon.png) in de hoger-juiste hoek van het gebied van de Details van het Project uit, dan klik **Overzicht**.
 
 1. Specificeer de naam van een gebruiker voor het **gebied van de Eigenaar van het 0&rbrace; Project.**
 
@@ -109,7 +109,7 @@ Wanneer u een gebruiker als Eigenaar van het Project van een project toevoegt, g
 
    De eigenaar van het Project werkt in de projectkopbal en in het gebied van de Details van het Project bij.
 
-   ![ benadrukte de aandeelhouders van het Project eigenaar ](assets/project-stakeholders-owner-highlighted-nwe-350x149.png)
+   ![&#x200B; benadrukte de aandeelhouders van het Project eigenaar &#x200B;](assets/project-stakeholders-owner-highlighted-nwe-350x149.png)
 
 ## De projectsponsor van een project bijwerken
 
@@ -121,7 +121,7 @@ Wanneer u een gebruiker als projectsponsor van een project toevoegt, geeft Workf
 
 1. Ga naar het project dat u wilt bijwerken.
 1. Klik **Details van het Project** in het linkerpaneel.
-1. Klik **uitgeven** pictogram ![ geeft pictogram ](assets/qs-edit-icon.png) in de hoger-juiste hoek van het gebied van de Details van het Project uit, dan klik **Overzicht**.
+1. Klik **uitgeven** pictogram ![&#x200B; geeft pictogram &#x200B;](assets/qs-edit-icon.png) in de hoger-juiste hoek van het gebied van de Details van het Project uit, dan klik **Overzicht**.
 
 1. Specificeer de naam van een gebruiker voor het **Sponsor van het Project** gebied.
 
@@ -131,4 +131,4 @@ Wanneer u een gebruiker als projectsponsor van een project toevoegt, geeft Workf
 
    De projectsponsor werkt bij in het gebied Projectdetails.
 
-   ![ benadrukte de commentaarsponsor van het Project ](assets/project-stakeholders-sponsor-highlighted-nwe-350x147.png)
+   ![&#x200B; benadrukte de commentaarsponsor van het Project &#x200B;](assets/project-stakeholders-sponsor-highlighted-nwe-350x147.png)

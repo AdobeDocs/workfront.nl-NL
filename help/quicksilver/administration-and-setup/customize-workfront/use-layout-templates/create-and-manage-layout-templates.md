@@ -36,7 +36,7 @@ Als Adobe Workfront-beheerder of groepsbeheerder kunt u lay-outsjablonen maken e
 
 Nadat u een lay-outmalplaatje creeert of wijzigt, kunt u het aan individuele gebruikers, teams, groepen, of baanrollen toewijzen.
 
-De standaard Workfront-indeling van elke gebruiker is afhankelijk van het toegangsniveau en het type licentie. Sommige gebruikers zien bepaalde gebieden bijvoorbeeld niet in het hoofdmenu. Voor meer informatie, zie [ Ongeveer de standaardAdobe Workfront lay-out ](../../../administration-and-setup/customize-workfront/use-layout-templates/about-the-default-wf-layout.md).
+De standaard Workfront-indeling van elke gebruiker is afhankelijk van het toegangsniveau en het type licentie. Sommige gebruikers zien bepaalde gebieden bijvoorbeeld niet in het hoofdmenu. Voor meer informatie, zie [&#x200B; Ongeveer de standaardAdobe Workfront lay-out &#x200B;](../../../administration-and-setup/customize-workfront/use-layout-templates/about-the-default-wf-layout.md).
 
 ## Toegangsvereisten
 
@@ -66,7 +66,7 @@ Om hen voor een groep uit te voeren, moet u een manager van die groep zijn.</p> 
  </tbody> 
 </table>
 
-*Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Voor meer informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -76,7 +76,7 @@ Om hen voor een groep uit te voeren, moet u een manager van die groep zijn.</p> 
 * Beheerders en gebruikers met een licentie voor abonnementen die andere gebruikers kunnen bewerken, kunnen lay-outsjablonen op systeemniveau en op groepsniveau toevoegen aan de gebruikers die ze kunnen beheren tijdens het bewerken van hun profiel.
 * Groepbeheerders kunnen geen lay-outsjablonen toewijzen aan taakrollen of teams.
 
-Voor meer informatie over lay-outmalplaatjes, zie [ malplaatjes van de Lay-out ](../../../administration-and-setup/customize-workfront/use-layout-templates/use-layout-templates-customize-ui.md).
+Voor meer informatie over lay-outmalplaatjes, zie [&#x200B; malplaatjes van de Lay-out &#x200B;](../../../administration-and-setup/customize-workfront/use-layout-templates/use-layout-templates-customize-ui.md).
 
 <!--removed this from above, but keeping it for a bit, in case it will be needed - known issue around old templates still visible at time:
 * Your older layout templates created in Adobe Workfront Classic have been automatically available in your instance of the new Adobe Workfront experience since they were migrated in early Fall 2019. Layout templates created in Adobe Workfront Classic after that time were migrated in April 2020. We recommend that you update these layout templates in the new Adobe Workfront experience to take advantage of new functionality and to make them even more useful in that environment.
@@ -98,23 +98,23 @@ Voor meer informatie over lay-outmalplaatjes, zie [ malplaatjes van de Lay-out ]
 
 1. Pas gebieden van de gebruikersinterface aan, zoals die in de volgende artikelen worden beschreven:
 
-   * [ pas het Belangrijkste Menu aan gebruikend een lay-outmalplaatje ](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md)
-   * [ pas het linkerpaneel aan gebruikend een lay-outmalplaatje ](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md)
-   * [ pas vastgezette pagina&#39;s gebruikend een lay-outmalplaatje ](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-pinned-pages.md) aan
-   * [ pas de mening van Details aan gebruikend een lay-outmalplaatje ](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md)
-   * [ pas het Summiere paneel aan gebruikend een lay-outmalplaatje ](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
+   * [&#x200B; pas het Belangrijkste Menu aan gebruikend een lay-outmalplaatje &#x200B;](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md)
+   * [&#x200B; pas het linkerpaneel aan gebruikend een lay-outmalplaatje &#x200B;](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md)
+   * [&#x200B; pas vastgezette pagina&#39;s gebruikend een lay-outmalplaatje &#x200B;](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-pinned-pages.md) aan
+   * [&#x200B; pas de mening van Details aan gebruikend een lay-outmalplaatje &#x200B;](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md)
+   * [&#x200B; pas het Summiere paneel aan gebruikend een lay-outmalplaatje &#x200B;](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
    * [Home aanpassen met een lay-outsjabloon](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-new-home-layout-template.md)
-   * [ pas de het landen pagina gebruikend een lay-outmalplaatje ](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-landing-page.md) aan
-   * [ pas Filters, Weergaven, en Groepen aan gebruikend een lay-outmalplaatje ](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
+   * [&#x200B; pas de het landen pagina gebruikend een lay-outmalplaatje &#x200B;](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-landing-page.md) aan
+   * [&#x200B; pas Filters, Weergaven, en Groepen aan gebruikend een lay-outmalplaatje &#x200B;](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
    * [De terminologie van de gebruikersinterface aanpassen met behulp van een lay-outsjabloon](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-terminology.md)
 
 1. Test de lay-outsjabloon en stel deze ter beschikking van gebruikers, zoals in de volgende artikelen wordt beschreven:
 
-   * [ Test een nieuw lay-outmalplaatje ](../../../administration-and-setup/customize-workfront/use-layout-templates/test-a-layout-template.md)
-   * [ verlenen administratieve toegang voor een lay-outmalplaatje ](../../../administration-and-setup/customize-workfront/use-layout-templates/grant-admin-access-layout-template.md)
+   * [&#x200B; Test een nieuw lay-outmalplaatje &#x200B;](../../../administration-and-setup/customize-workfront/use-layout-templates/test-a-layout-template.md)
+   * [&#x200B; verlenen administratieve toegang voor een lay-outmalplaatje &#x200B;](../../../administration-and-setup/customize-workfront/use-layout-templates/grant-admin-access-layout-template.md)
    * [Gebruikers toewijzen aan een lay-outsjabloon](../../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md)
 
 >[!TIP]
 >
->U kunt ook een lay-outsjabloon maken door deze te kopiëren en de kopie te wijzigen. Voor meer informatie, zie [ een lay-outmalplaatje ](../../../administration-and-setup/customize-workfront/use-layout-templates/copy-a-layout-template.md) kopiëren.
+>U kunt ook een lay-outsjabloon maken door deze te kopiëren en de kopie te wijzigen. Voor meer informatie, zie [&#x200B; een lay-outmalplaatje &#x200B;](../../../administration-and-setup/customize-workfront/use-layout-templates/copy-a-layout-template.md) kopiëren.
 

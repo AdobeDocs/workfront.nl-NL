@@ -90,7 +90,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
     </tbody> 
    </table>
 
-1. (Voorwaardelijk) Als de beheerder van Adobe Workfront of de beheerder van Workfront Proof een sectie Redenen heeft toegevoegd, selecteer om het even welke toepasselijke redenen voor uw besluit. Voor meer informatie over hoe de beheerders beslissingsredenen kunnen vormen, zie  [ vorm de opties van het goedkeuringsbesluit in Workfront Proof ](../../../../workfront-proof/wp-acct-admin/account-settings/configure-approval-decision-in-wp.md).
+1. (Voorwaardelijk) Als de beheerder van Adobe Workfront of de beheerder van Workfront Proof een sectie Redenen heeft toegevoegd, selecteer om het even welke toepasselijke redenen voor uw besluit. Voor meer informatie over hoe de beheerders beslissingsredenen kunnen vormen, zie  [&#x200B; vorm de opties van het goedkeuringsbesluit in Workfront Proof &#x200B;](../../../../workfront-proof/wp-acct-admin/account-settings/configure-approval-decision-in-wp.md).
 1. (Optioneel) Selecteer **Stuur me een e-mailbevestiging** om een e-mailbevestiging van uw beslissing te ontvangen.
 1. Klik **maken Beslissing**.
 

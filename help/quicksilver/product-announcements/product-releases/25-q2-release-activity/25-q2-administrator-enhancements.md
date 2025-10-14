@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Deze pagina beschrijft alle beheerderverhogingen die met de Tweede Kwartaal 2025 versie aan het milieu van de Voorproef worden aangebracht. Deze verbeteringen zullen beschikbaar worden gesteld in de productieomgeving, zoals vermeld.
 
-Voor een lijst van alle veranderingen beschikbaar op dit punt in het Tweede Kwartaal 2025 versiecyclus, zie [ Tweede Kwartaal 2025 releaseoverzicht ](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar op dit punt in het Tweede Kwartaal 2025 versiecyclus, zie [&#x200B; Tweede Kwartaal 2025 releaseoverzicht &#x200B;](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-release-overview.md).
 
 ## Verbeteringen voor logica voor aangepaste formulieren
 
@@ -32,7 +32,7 @@ Naast de huidige opties voor weergave en het overslaan van logica, is nu validat
 
 Met een formule-editor voor validatielogica kunt u complexe logische expressies maken.
 
-Voor meer informatie, zie [ logische regels aan douaneformulieren en gebieden ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md) toevoegen.
+Voor meer informatie, zie [&#x200B; logische regels aan douaneformulieren en gebieden &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md) toevoegen.
 
 ## Expressies die worden toegevoegd aan berekende aangepaste velden
 
@@ -42,4 +42,4 @@ Voor meer informatie, zie [ logische regels aan douaneformulieren en gebieden ](
 
 De volgende expressies zijn nu beschikbaar in door Workfront berekende aangepaste velden: ARRAY, FORMAT, SWITCH, SORTASCARRAY, SORTDESCARRAY, ARRAYLENGTH, ARRAYELEMENT en ADDHOUR. Definities en voorbeelden van elke expressie zijn beschikbaar in de rekeneditor en op Experience League.
 
-Voor informatie, zie [ Overzicht van berekende gegevensuitdrukkingen ](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+Voor informatie, zie [&#x200B; Overzicht van berekende gegevensuitdrukkingen &#x200B;](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).

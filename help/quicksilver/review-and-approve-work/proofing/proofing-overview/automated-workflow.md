@@ -18,7 +18,7 @@ ht-degree: 0%
 
 <!-- Audited: 01/2024 -->
 
-Met geautomatiseerde workflows kunt u een reeks opeenvolgende of parallelle revisiefasen maken, afhankelijkheden tussen deze fasen tot stand brengen en de zichtbaarheid ervan tot bepaalde gebruikers beperken. Als uw revisieproces verschillende stadia kent, wordt uw proefdruk automatisch door de stappen verplaatst en worden de desbetreffende revisoren en fiatteurs onderweg op de hoogte gebracht. Voor informatie bij vestiging ziet een Geautomatiseerd Werkschema, [ een geavanceerd bewijs met een Geautomatiseerd werkschema ](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-automated-proof-workflow.md) creëren.
+Met geautomatiseerde workflows kunt u een reeks opeenvolgende of parallelle revisiefasen maken, afhankelijkheden tussen deze fasen tot stand brengen en de zichtbaarheid ervan tot bepaalde gebruikers beperken. Als uw revisieproces verschillende stadia kent, wordt uw proefdruk automatisch door de stappen verplaatst en worden de desbetreffende revisoren en fiatteurs onderweg op de hoogte gebracht. Voor informatie bij vestiging ziet een Geautomatiseerd Werkschema, [&#x200B; een geavanceerd bewijs met een Geautomatiseerd werkschema &#x200B;](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-automated-proof-workflow.md) creëren.
 
 **Voorbeelden:** de Geautomatiseerde Werkschema&#39;s helpen u complexe processen van de proefdrukoverzicht beheren zoals:
 
@@ -56,11 +56,11 @@ Opmerkingen die zijn toegevoegd door particuliere deelnemers aan het werkgebied,
 
 Het werkstroomdiagram is een visuele weergave van het controleproces van uw proefdrukken. U ziet hier de volgorde van de fasen en de afhankelijkheden tussen de verschillende stadia terwijl u de details van een proefdruk maakt of bekijkt. Elke privéfase wordt weergegeven met een sleutelsymbool.
 
-![ intro-to-aw-example-diagram.png ](assets/intro-to-aw-example-diagram-350x199.png)
+![&#x200B; intro-to-aw-example-diagram.png &#x200B;](assets/intro-to-aw-example-diagram-350x199.png)
 
 In live proefdrukken worden werkgebiedafhankelijkheden weergegeven met een onderbroken grijze lijn voor inactieve stadia of een effen zwarte lijn voor actieve stadia. De fasen worden groen weergegeven als het goedkeuringsproces binnen de opgegeven termijn is voltooid. De stadia die hun deadlines naderen tonen in oranje en de stadia voorbij hun deadlines tonen in rood.
 
-![ workflow_2.png ](assets/workflow-2-350x183.png)
+![&#x200B; workflow_2.png &#x200B;](assets/workflow-2-350x183.png)
 
 ## Geautomatiseerde werkstroomsjablonen
 

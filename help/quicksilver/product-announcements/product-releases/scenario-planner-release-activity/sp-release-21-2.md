@@ -36,8 +36,8 @@ Om de waarde van de hulpmiddelen te verhogen u gebruikt om uw middelen voor stra
 
 Raadpleeg de volgende artikelen voor meer informatie:
 
-* [ creeer en geef plannen in de Planner van het scenario uit ](../../../scenario-planner/create-and-edit-plans.md)
-* [ pas gebruikersinterfaceterminologie aan gebruikend een lay-outmalplaatje ](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-terminology.md)
+* [&#x200B; creeer en geef plannen in de Planner van het scenario uit &#x200B;](../../../scenario-planner/create-and-edit-plans.md)
+* [&#x200B; pas gebruikersinterfaceterminologie aan gebruikend een lay-outmalplaatje &#x200B;](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-terminology.md)
 * [Projecten importeren naar plannen in de Scenario-planner](../../../scenario-planner/import-projects-to-plans.md)
 
 ## Verbinding tussen de Planner van het Scenario, de Balancer van de Werkbelasting, en taaklijst
@@ -46,8 +46,8 @@ Om u bij de strategische planning van uw projecten te helpen en ervoor te zorgen
 
 Raadpleeg de volgende artikelen voor meer informatie:
 
-* [ Overzicht van het verzoenen van middeltoewijzingen tussen projecten en initiatieven ](../../../scenario-planner/overview-reconcile-allocations-between-projects-initiatives.md).
+* [&#x200B; Overzicht van het verzoenen van middeltoewijzingen tussen projecten en initiatieven &#x200B;](../../../scenario-planner/overview-reconcile-allocations-between-projects-initiatives.md).
 * [Navigeren door werklastbalans](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)
 
-Voor informatie, zie [ Overzicht van het verzoenen van middeltoewijzingen tussen projecten en initiatieven ](../../../scenario-planner/overview-reconcile-allocations-between-projects-initiatives.md).
+Voor informatie, zie [&#x200B; Overzicht van het verzoenen van middeltoewijzingen tussen projecten en initiatieven &#x200B;](../../../scenario-planner/overview-reconcile-allocations-between-projects-initiatives.md).
 

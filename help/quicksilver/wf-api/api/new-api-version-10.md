@@ -16,8 +16,8 @@ ht-degree: 0%
 
 # Nieuw in API-versie 10
 
-* [ Nieuwe Middelen ](#new-resources)
-* [ Bijgewerkte Middelen ](#updated-resources)
+* [&#x200B; Nieuwe Middelen &#x200B;](#new-resources)
+* [&#x200B; Bijgewerkte Middelen &#x200B;](#updated-resources)
 * [Verwijderde bronnen](#removed-resources)
 
 ## Nieuwe bronnen {#new-resources}

@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Op deze pagina worden alle andere verbeteringen beschreven die zijn aangebracht met de release 20.4 voor de voorvertoningsomgeving. Deze verbeteringen worden beschikbaar gesteld in de productieomgeving in de week van 9 november 2020.
 
-Voor een lijst van alle veranderingen beschikbaar met de versie 20.4, zie [ overzicht van de versie 20.4 ](../../../product-announcements/product-releases/20.4-release-activity/20-4-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar met de versie 20.4, zie [&#x200B; overzicht van de versie 20.4 &#x200B;](../../../product-announcements/product-releases/20.4-release-activity/20-4-release-overview.md).
 
 ## Nieuw voor beheerders: Overschakelen van Workfront-omgevingsoptie beschikbaar
 
@@ -27,13 +27,13 @@ In de nieuwe Workfront-ervaring wordt de optie Overschakelen naar klassieke modu
 
 In Workfront Classic wordt de optie Overschakelen naar nieuwe ervaring weergegeven in het menu dat wordt weergegeven wanneer u op de profielafbeelding klikt in de rechterbovenhoek van de algemene navigatiebalk.
 
-Deze eigenschap is nu inbegrepen in de [ Grondbeginselen van de Beheerder, Deel 1 het leren weg ](https://experienceleague.adobe.com/nl/docs/workfront-learn/tutorials-workfront/home) op Workfront Één.
+Deze eigenschap is nu inbegrepen in de [&#x200B; Grondbeginselen van de Beheerder, Deel 1 het leren weg &#x200B;](https://experienceleague.adobe.com/nl/docs/workfront-learn/tutorials-workfront/home) op Workfront Één.
 
 ## Verbeterde codering voor Workfront Proof
 
 We brengen enkele wijzigingen aan om de kracht van data-in-motion-codering van de Workfront Proofing-toepassing te verbeteren. De zwakke TLS-krakers worden op 11 november 2020 afgekeurd.
 
-Zorg ervoor dat u een ondersteunde browser gebruikt wanneer u Workfront opent. Voor meer informatie over gesteunde browsers, zie [ browser van Adobe Workfront vereisten ](../../../workfront-basics/workfront-browser-requirements.md).
+Zorg ervoor dat u een ondersteunde browser gebruikt wanneer u Workfront opent. Voor meer informatie over gesteunde browsers, zie [&#x200B; browser van Adobe Workfront vereisten &#x200B;](../../../workfront-basics/workfront-browser-requirements.md).
 
 ## Nieuwe vormgeving voor 3 e-mailsjablonen
 
@@ -43,7 +43,7 @@ De volgende e-mailsjablonen hebben een nieuw uiterlijk om de leesbaarheid en de 
 * Een afhankelijke taak waaraan u bent toegewezen, is nu klaar om te beginnen
 * E-mailmelding voor team met vorige gebruiker voltooid
 
-Om e-mail voor het testen doeleinden in uw milieu van de Voorproef toe te laten, zie het Leiden e-mails in voorproefsectie in [ uw eigen e-mailberichten wijzigen ](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+Om e-mail voor het testen doeleinden in uw milieu van de Voorproef toe te laten, zie het Leiden e-mails in voorproefsectie in [&#x200B; uw eigen e-mailberichten wijzigen &#x200B;](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 ## Nieuwe e-mailmeldingen voor teams
 
@@ -52,7 +52,7 @@ De volgende e-mailmelding voor teams is toegevoegd:
 * Een voorganger van een taak die aan mijn team wordt toegewezen wordt voltooid: Het toegewezen team ontvangt een e-mailbericht wanneer een voorganger van een van zijn taken is gemarkeerd als voltooid.
 * Alle voorgangers van een taak die aan mijn team is toegewezen, worden voltooid: het toegewezen team ontvangt een e-mailbericht voor elke voorganger die als voltooid is gemarkeerd.
 
-Voor meer informatie, zie [ Meldingen: Informatie over het werk dat aan me ](../../../workfront-basics/using-notifications/notifications-information-about-work-assigned-to-me.md) wordt toegewezen.
+Voor meer informatie, zie [&#x200B; Meldingen: Informatie over het werk dat aan me &#x200B;](../../../workfront-basics/using-notifications/notifications-information-about-work-assigned-to-me.md) wordt toegewezen.
 
 ## Nieuw voor beheerders: verbeteringen voor e-mailmeldingen
 
@@ -60,9 +60,9 @@ Nu, met één enkele klik, kunt u een gebeurtenis e-mailbericht in Opstelling to
 
 U ziet ook dat onze moderne stijl nu de ervaring verbetert met het configureren van gebeurtenismeldingen in het gebied E-mailmeldingen.
 
-Voor informatie over het vormen van e-mailberichten, zie [ gebeurtenisberichten voor iedereen in het systeem ](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md) vormen.
+Voor informatie over het vormen van e-mailberichten, zie [&#x200B; gebeurtenisberichten voor iedereen in het systeem &#x200B;](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md) vormen.
 
-Deze eigenschap is nu inbegrepen in [ e-mail en in-app berichten het leren weg ](https://experienceleague.adobe.com/nl/docs/workfront-learn/tutorials-workfront/home) op Workfront Één.
+Deze eigenschap is nu inbegrepen in [&#x200B; e-mail en in-app berichten het leren weg &#x200B;](https://experienceleague.adobe.com/nl/docs/workfront-learn/tutorials-workfront/home) op Workfront Één.
 
 ## Nieuwe API-objecten die updates voor abonnementen voor gebeurtenissen activeren
 

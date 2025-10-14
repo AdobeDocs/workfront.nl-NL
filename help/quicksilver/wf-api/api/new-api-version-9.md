@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ## Nieuwe bronnen
 
-Dit is een lijst van middelen die nieuw zijn aan API Versie 9, om een lijst van updates te zien die aan de middelen van versie 9 zijn gemaakt, gelieve [ Updates aan API Versie 9 ](../../wf-api/api/new-api-version-9-updates.md) te bezoeken
+Dit is een lijst van middelen die nieuw zijn aan API Versie 9, om een lijst van updates te zien die aan de middelen van versie 9 zijn gemaakt, gelieve [&#x200B; Updates aan API Versie 9 &#x200B;](../../wf-api/api/new-api-version-9-updates.md) te bezoeken
 
 ### AccessLevel
 
@@ -140,4 +140,4 @@ Dit is een lijst van middelen die nieuw zijn aan API Versie 9, om een lijst van 
 
  
 
-Deze lijst is opgesplitst in twee helften. Om de tweede helft te bekijken, gelieve te zien [ wat in (voortgezette) API Versie 9 Nieuw is ](../../wf-api/api/new-api-version-9-continue.md). Om de lijst van versie 9 updates te bekijken, gelieve te bezoeken [ Updates aan API Versie 9 ](../../wf-api/api/new-api-version-9-updates.md)
+Deze lijst is opgesplitst in twee helften. Om de tweede helft te bekijken, gelieve te zien [&#x200B; wat in (voortgezette) API Versie 9 Nieuw is &#x200B;](../../wf-api/api/new-api-version-9-continue.md). Om de lijst van versie 9 updates te bekijken, gelieve te bezoeken [&#x200B; Updates aan API Versie 9 &#x200B;](../../wf-api/api/new-api-version-9-updates.md)

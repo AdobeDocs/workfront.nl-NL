@@ -19,7 +19,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [ het Bewijzen ](../../../review-and-approve-work/proofing/proofing.md).
+>Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [&#x200B; het Bewijzen &#x200B;](../../../review-and-approve-work/proofing/proofing.md).
 
 <!--
 <p style="color: #000000;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Make this article work better for PiW.</p>
@@ -48,22 +48,22 @@ Het e-mailadres voor nieuwe proefdrukken bevat:
 
      Zo kunt u de proef-URL en/of de downloadkoppeling delen voor het oorspronkelijke bestand. Hierdoor kunt u niet expliciet revisoren aan de proefdruk toevoegen, u deelt alleen de URL van de openbare proefdruk en de ontvanger krijgt alleen-lezen toegang tot de proefdruk.
 
-     Zie [ Deel een Bewijs in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof.md) voor meer informatie.
+     Zie [&#x200B; Deel een Bewijs in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof.md) voor meer informatie.
 
      Als u niet wilt dat deze koppeling wordt weergegeven in de e-mail van de ontvanger, kunt u de instellingen van [!UICONTROL Public Sharing] op de proefdruk uitschakelen
 
-     (Oorspronkelijke bestand downloaden en Openbare URL). Zie [ Beheren de Details van het Bewijs in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md) voor meer informatie.
+     (Oorspronkelijke bestand downloaden en Openbare URL). Zie [&#x200B; Beheren de Details van het Bewijs in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md) voor meer informatie.
 
 ## Het activiteitenlog
 
-Het verzenden van een [!UICONTROL New Proof] -e-mailbericht naar een revisor wordt aangemeld in de [!UICONTROL Activity] sectie van [!UICONTROL Proof details] -pagina. Zie [ binnen [!UICONTROL &#x200B; Proof Details] beheren  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md) voor meer informatie. U kunt controleren of de e-mail van [!UICONTROL New Proof] was ingeschakeld op het moment dat u een proefdruk maakte.
+Het verzenden van een [!UICONTROL New Proof] -e-mailbericht naar een revisor wordt aangemeld in de [!UICONTROL Activity] sectie van [!UICONTROL Proof details] -pagina. Zie [&#x200B; binnen [!UICONTROL &#x200B; Proof Details] beheren  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md) voor meer informatie. U kunt controleren of de e-mail van [!UICONTROL New Proof] was ingeschakeld op het moment dat u een proefdruk maakte.
 
-![ New_Verison_email_-_acitivity_log.png ](assets/new-verison-email---acitivity-log-350x44.png)
+![&#x200B; New_Verison_email_-_acitivity_log.png &#x200B;](assets/new-verison-email---acitivity-log-350x44.png)
 
 >[!NOTE]
 >
 >* Als de maker of eigenaar van de proefdruk standaard [!UICONTROL Proof Made] e-mails heeft uitgeschakeld (in zijn persoonlijke instellingen), ontvangen zij geen [!UICONTROL Proof made] - of [!UICONTROL New proof] -e-mails, zelfs niet als het vak [!UICONTROL Notify people by email] is ingeschakeld op de pagina Nieuwe proefdruk. Zie voor meer informatie.
->* Als de e-mailberichten standaard zijn uitgeschakeld in het dialoogvenster [!UICONTROL Account settings] , ontvangen de maker/eigenaar van de proefdruk geen [!UICONTROL Proof made] - of [!UICONTROL New proof] -e-mails, zelfs als deze optie is ingeschakeld in hun persoonlijke instellingen en het vak [!UICONTROL Notify] Personen per e-mail is ingeschakeld op de pagina Nieuwe proefdruk. Voor meer informatie, [ E-mail [!UICONTROL Proof Made] ](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/proof-made-email.md) en zie.
+>* Als de e-mailberichten standaard zijn uitgeschakeld in het dialoogvenster [!UICONTROL Account settings] , ontvangen de maker/eigenaar van de proefdruk geen [!UICONTROL Proof made] - of [!UICONTROL New proof] -e-mails, zelfs als deze optie is ingeschakeld in hun persoonlijke instellingen en het vak [!UICONTROL Notify] Personen per e-mail is ingeschakeld op de pagina Nieuwe proefdruk. Voor meer informatie, [&#x200B; E-mail [!UICONTROL Proof Made] &#x200B;](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/proof-made-email.md) en zie.
 >
 
 
@@ -88,9 +88,9 @@ Als u een nieuwe proefdruk maakt op de pagina [!UICONTROL New proof] , kunt u on
   >
   >Als u altijd hetzelfde aangepaste bericht naar de controleurs verzendt, is het wellicht raadzaam dit bericht op te slaan in uw persoonlijke instellingen onder het tabblad [!UICONTROL Proofing defaults] . Zie voor meer informatie.
 
-![ New_Proof_page_1.png ](assets/new-proof-page-1-350x186.png)
+![&#x200B; New_Proof_page_1.png &#x200B;](assets/new-proof-page-1-350x186.png)
 
-![ New_Proof_page_2.png ](assets/new-proof-page-2-350x283.png)
+![&#x200B; New_Proof_page_2.png &#x200B;](assets/new-proof-page-2-350x283.png)
 
 ### Wanneer u een revisor aan een proefdruk toevoegt {#when-you-add-a-reviewer-to-a-proof}
 
@@ -98,12 +98,12 @@ U kunt aangeven of een nieuwe controleur die aan een bestaande proefdruk is toeg
 
 * Voeg eerst nieuwe revisoren toe door op de knop **[!UICONTROL Share this Version]** op de pagina **[!UICONTROL Proof details]** (1) te klikken.
 
-![ Proof_Details_page_1.png ](assets/proof-details-page-1-350x118.png)
+![&#x200B; Proof_Details_page_1.png &#x200B;](assets/proof-details-page-1-350x118.png)
 
 * Er wordt een vak weergegeven waarin u nieuwe revisoren kunt toevoegen. Vervolgens kunt u bepalen of u een e-mailbericht wilt ontvangen (2) en een aangepast bericht aan de e-mail wilt toevoegen (3).
 
-![ Proof_Details_page_2.png ](assets/proof-details-page-2-350x174.png)
+![&#x200B; Proof_Details_page_2.png &#x200B;](assets/proof-details-page-2-350x174.png)
 
 * Als u ervoor kiest een aangepast bericht toe te voegen, wordt het vak groter en kunt u een aangepaste onderwerpregel (4) en aangepaste tekst in de hoofdtekst van de e-mail (5) plaatsen. U kunt het aangepaste bericht ook verwijderen door op de koppeling (6) te klikken.
 
-![ Proof_Details_page_3.png ](assets/proof-details-page-3-350x258.png)
+![&#x200B; Proof_Details_page_3.png &#x200B;](assets/proof-details-page-3-350x258.png)

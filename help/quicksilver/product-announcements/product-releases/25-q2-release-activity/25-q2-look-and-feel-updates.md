@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Deze pagina beschrijft kleine updates van de blik en het gevoel van diverse gebieden van de toepassing van Adobe Workfront die binnen het tweede Kwartaal 2025 releasetijdschema werden gemaakt.
 
-Voor een lijst van alle veranderingen beschikbaar met het Tweede Kwartaal 2025 versie, zie [ Tweede Kwartaal 2025 releaseoverzicht ](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar met het Tweede Kwartaal 2025 versie, zie [&#x200B; Tweede Kwartaal 2025 releaseoverzicht &#x200B;](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-release-overview.md).
 
 ## Bijgewerkte rapporten met nieuwe opmaak
 
@@ -33,7 +33,7 @@ Deze update bevat visuele wijzigingen in de lijsten en werkbalken van de volgend
 * Aangepaste Forms
 * Tijd uit
 
-Voor informatie, zie [ een douanerapport ](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) creëren.
+Voor informatie, zie [&#x200B; een douanerapport &#x200B;](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) creëren.
 
 
 ## De update van het Google Drive-dialoogvenster voor documentintegratie bekijken en weergeven
@@ -82,7 +82,7 @@ Er is een kleine functiewijziging toegepast op de lijst Toegangsniveaus. Als u e
 
 We hebben de vormgeving van de dialoogvensters voor het toevoegen en bewerken van kostentypen in het gedeelte Setup bijgewerkt, zodat deze overeenkomen met het ontwerp van andere gebieden van Workfront.
 
-Voor informatie, zie [ de types van douanevergoeding ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/create-custom-expense-types.md) creëren.
+Voor informatie, zie [&#x200B; de types van douanevergoeding &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/create-custom-expense-types.md) creëren.
 
 ## De blik-en-voelen updates voor het Edit vakje van het Type van Risico
 
@@ -92,7 +92,7 @@ Voor informatie, zie [ de types van douanevergoeding ](/help/quicksilver/adminis
 
 Wij hebben de blik en het gevoel van het Edit vakje van het Type van Risico bijgewerkt wanneer u een bestaand Type van Risico in het gebied van de Opstelling van Workfront bijwerkt. Het nieuwe ontwerp komt nu overeen met andere delen van Workfront.
 
-Voor informatie, zie [ uitgeven en creeer risicstypes ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/edit-create-risk-types.md).
+Voor informatie, zie [&#x200B; uitgeven en creeer risicstypes &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/edit-create-risk-types.md).
 
 ## De blik-en-voelen updates voor het Nieuwe vakje van het Type van Risico
 
@@ -102,7 +102,7 @@ Voor informatie, zie [ uitgeven en creeer risicstypes ](/help/quicksilver/admini
 
 Wij hebben de blik en het gevoel van het Nieuwe vakje van het Type van Risico bijgewerkt wanneer u een nieuw Type van Risico in het gebied van de Opstelling van Workfront toevoegt. Het nieuwe ontwerp komt nu overeen met andere delen van Workfront.
 
-Voor informatie, zie [ uitgeven en creeer risicstypes ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/edit-create-risk-types.md).
+Voor informatie, zie [&#x200B; uitgeven en creeer risicstypes &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/edit-create-risk-types.md).
 
 ## Kijk en voel updates aan het gebied van de Details van de Rij van een project
 
@@ -114,7 +114,7 @@ We hebben de vormgeving van het gebied Wachtrij details voor een project aangepa
 
 Met deze update is de vormgeving van het gebied Wachtrij details van een sjabloon niet gewijzigd.
 
-Voor informatie, zie [ een Rij van het Verzoek ](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-request-queue.md) creëren.
+Voor informatie, zie [&#x200B; een Rij van het Verzoek &#x200B;](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-request-queue.md) creëren.
 
 ## Avatars worden niet meer weergegeven in bepaalde e-mailberichten
 
@@ -137,7 +137,7 @@ Avatars worden niet meer weergegeven in de volgende e-mailmeldingen:
 
 Wij hebben de blik en het gevoel van de lijst van de Weg van de Mijlpaal in het gebied van de Opstelling bijgewerkt, om het ontwerp van andere gebieden van Workfront aan te passen.
 
-Voor informatie, zie [ een milestone weg ](/help/quicksilver/administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md) creëren.
+Voor informatie, zie [&#x200B; een milestone weg &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md) creëren.
 
 ## Bijgewerkte weergave van een projectmijlpaden in een projectweergave
 
@@ -149,7 +149,7 @@ Wanneer het toegang tot van de mijlpaden van een projectlijst of een rapport, he
 
 Met deze update hebben we ook informatie toegevoegd over de kleuren en kleurcodes van elke mijlpaal.
 
-Voor informatie, zie [ een milestone weg ](/help/quicksilver/administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md) creëren.
+Voor informatie, zie [&#x200B; een milestone weg &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md) creëren.
 
 ## Tijdelijke look-and-feel wijzigingen in e-mailberichten van documenten
 
@@ -174,4 +174,4 @@ We hebben de vormgeving van het dialoogvenster Delen bijgewerkt naar een modern 
 * Met de optie &quot;Zichtbaar voor het hele systeem&quot; wordt nu &quot;Iedereen in het systeem kan het zien&quot; weergegeven. Deze optie werkt nog steeds zoals voorheen.
 * Er is een nieuw pictogram voor toegang tot geavanceerde instellingen voor delen.
 
-Voor meer informatie over waar te om de dialoog van het Aandeel te vinden, zie [ Toekennen en verzoektoestemmingen aan voorwerpen ](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/grant-and-request-access-to-objects.md)
+Voor meer informatie over waar te om de dialoog van het Aandeel te vinden, zie [&#x200B; Toekennen en verzoektoestemmingen aan voorwerpen &#x200B;](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/grant-and-request-access-to-objects.md)

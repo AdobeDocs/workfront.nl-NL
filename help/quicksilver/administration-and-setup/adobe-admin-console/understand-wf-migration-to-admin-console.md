@@ -22,7 +22,7 @@ Adobe wijzigt de manier waarop u uw Adobe Workfront-gebruikers beheert, waardoor
 
 Dit artikel beschrijft in algemene termen het proces om een organisatie naar Adobe Admin Console te bewegen, zodat u als beheerder van Workfront kunt weten wat te verwachten.
 
-Leren hoe u Adobe Admin Console kunt gebruiken om uw rechten van Adobe over uw volledige organisatie te beheren, zie [ gebruikers in Adobe Admin Console ](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md) leiden.
+Leren hoe u Adobe Admin Console kunt gebruiken om uw rechten van Adobe over uw volledige organisatie te beheren, zie [&#x200B; gebruikers in Adobe Admin Console &#x200B;](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md) leiden.
 
 ## Wat verandert er?
 
@@ -87,7 +87,7 @@ Als beheerder van het Productprofiel van Workfront (de beheerder van het Systeem
 
 * **aangezien de gebruikers worden gemigreerd, zullen zij een e-mail van Adobe ontvangen die hen op de hoogte brengt van de verandering in de manier zij binnen aan Workfront ondertekenen.** Gebruikers worden uitgenodigd een uitnodiging voor aanmelding met Adobe Identity voor het eerst te accepteren door u aan te melden met een bestaande Adobe ID of door een nieuwe Adobe ID in te stellen met hetzelfde e-mailadres.
 
-  Voor informatie over hoe te om in Workfront met Adobe ID te registreren, zie [ Login aan Adobe Experience Cloud ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md#log-in-to-adobe-experience-cloud).
+  Voor informatie over hoe te om in Workfront met Adobe ID te registreren, zie [&#x200B; Login aan Adobe Experience Cloud &#x200B;](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md#log-in-to-adobe-experience-cloud).
 
 ### Migratie van gebruiker voltooid
 
@@ -95,7 +95,7 @@ Adobe stelt alle systeembeheerders en productprofielbeheerders (Workfront System
 
 ## Ondersteuning
 
-Voor vragen of zorgen gelieve de stappen te volgen die in het artikel [ worden geschetst de Steun van de Klant van het Contact ](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).
+Voor vragen of zorgen gelieve de stappen te volgen die in het artikel [&#x200B; worden geschetst de Steun van de Klant van het Contact &#x200B;](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).
 
 
 

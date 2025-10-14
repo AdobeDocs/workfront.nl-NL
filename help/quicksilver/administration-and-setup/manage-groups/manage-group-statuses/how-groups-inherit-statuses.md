@@ -19,7 +19,7 @@ ht-degree: 0%
 
 Wanneer u de statussen opsomt die beschikbaar zijn voor een groep, ziet u het volgende
 
-* De statussen van de douane die voor de groep worden gecreeerd, zoals die in [ worden verklaard creëren of uitgeven een groepsstatus ](../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md).
+* De statussen van de douane die voor de groep worden gecreeerd, zoals die in [&#x200B; worden verklaard creëren of uitgeven een groepsstatus &#x200B;](../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md).
 * Statussen die van het systeem en van hoger in de groepshiërarchie worden overgeërfd, zoals in dit artikel wordt uitgelegd.
 
 ## Statussen overnemen
@@ -79,10 +79,10 @@ Wanneer u een top-level groep creeert, erft het de volgende configuraties van he
 
 * Standaardstatusconfiguraties
 
-  Voor informatie over deze, zie [ de douanestatus van het Gebruik als standaardstatussen ](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/use-custom-statuses-as-default-statuses.md).
+  Voor informatie over deze, zie [&#x200B; de douanestatus van het Gebruik als standaardstatussen &#x200B;](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/use-custom-statuses-as-default-statuses.md).
 
 * Configuraties van de statusweergavevolgorde
 
-  Voor informatie over deze, zie [ systeem-niveau en groepsstatussen opnieuw ordenen ](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/reorder-system-statuses.md).
+  Voor informatie over deze, zie [&#x200B; systeem-niveau en groepsstatussen opnieuw ordenen &#x200B;](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/reorder-system-statuses.md).
 
 Als iemand deze configuraties wijzigt nadat de groep is gemaakt, heeft dit geen invloed op de status.

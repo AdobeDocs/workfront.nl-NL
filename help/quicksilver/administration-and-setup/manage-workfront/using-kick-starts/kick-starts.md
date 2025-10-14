@@ -22,9 +22,9 @@ ht-degree: 0%
 
 Deze sectie bevat de volgende artikelen:
 
-* [ de gegevens van de Uitvoer van Adobe Workfront via Kick-Begint ](../../../administration-and-setup/manage-workfront/using-kick-starts/export-data-from-wf-via-kick-starts.md)
-* [ de Gegevens van de Invoer in Adobe Workfront die een Kick-Begin malplaatje gebruiken ](../../../administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md)
-* [ Kick-Begint gegevensimporteur ](../../../administration-and-setup/manage-workfront/using-kick-starts/kick-starts-data-importer.md)
-* [ Kick-Begint Scenario: Bedrijf, Groep, Rol, en Gebruiker Kick-Begint Voorbereiding ](../../../administration-and-setup/manage-workfront/using-kick-starts/kick-starts-scenario-company-group-role-user-prep.md)
-* [ Kick-Begint scenario: het eenvoudige project en de voorbereiding van de taakinvoer ](../../../administration-and-setup/manage-workfront/using-kick-starts/kick-starts-scenario-simple-project-task-import-prep.md)
+* [&#x200B; de gegevens van de Uitvoer van Adobe Workfront via Kick-Begint &#x200B;](../../../administration-and-setup/manage-workfront/using-kick-starts/export-data-from-wf-via-kick-starts.md)
+* [&#x200B; de Gegevens van de Invoer in Adobe Workfront die een Kick-Begin malplaatje gebruiken &#x200B;](../../../administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md)
+* [&#x200B; Kick-Begint gegevensimporteur &#x200B;](../../../administration-and-setup/manage-workfront/using-kick-starts/kick-starts-data-importer.md)
+* [&#x200B; Kick-Begint Scenario: Bedrijf, Groep, Rol, en Gebruiker Kick-Begint Voorbereiding &#x200B;](../../../administration-and-setup/manage-workfront/using-kick-starts/kick-starts-scenario-company-group-role-user-prep.md)
+* [&#x200B; Kick-Begint scenario: het eenvoudige project en de voorbereiding van de taakinvoer &#x200B;](../../../administration-and-setup/manage-workfront/using-kick-starts/kick-starts-scenario-simple-project-task-import-prep.md)
 * [Veelgestelde vragen over Kick-Starts](../../../administration-and-setup/manage-workfront/using-kick-starts/frequently-asked-questions-about-kick-starts.md)

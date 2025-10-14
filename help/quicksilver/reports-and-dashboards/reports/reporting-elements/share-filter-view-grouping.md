@@ -20,9 +20,9 @@ ht-degree: 0%
 <!--(NOTE: CONSIDER SPLITTING THIS in three articles for each reporting element?)
 (NOTE: This is linked from the TOC article in WF Basics > permissions section)-->
 
-Uw Adobe Workfront-beheerder verleent gebruikers toegang tot weergave- of bewerkingsobjecten wanneer zij toegangsniveaus toewijzen. Voor meer informatie over het verlenen van toegang tot voorwerpen, zie [ tot douanetoegangsniveaus ](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md) leiden of wijzigen.
+Uw Adobe Workfront-beheerder verleent gebruikers toegang tot weergave- of bewerkingsobjecten wanneer zij toegangsniveaus toewijzen. Voor meer informatie over het verlenen van toegang tot voorwerpen, zie [&#x200B; tot douanetoegangsniveaus &#x200B;](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md) leiden of wijzigen.
 
-Samen met het toegangsniveau dat de gebruikers worden verleend, kunt u hen toestemmingen ook verlenen om specifieke voorwerpen te bekijken of uit te geven die u creeerde of toegang om hebt te delen. Voor meer informatie over toegangsniveaus en toestemmingen, zie [ hoe de toegangsniveaus en de toestemmingen samen ](../../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md) werken.
+Samen met het toegangsniveau dat de gebruikers worden verleend, kunt u hen toestemmingen ook verlenen om specifieke voorwerpen te bekijken of uit te geven die u creeerde of toegang om hebt te delen. Voor meer informatie over toegangsniveaus en toestemmingen, zie [&#x200B; hoe de toegangsniveaus en de toestemmingen samen &#x200B;](../../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md) werken.
 
 U kunt filters, weergaven en groeperingen delen die u kunt bekijken met andere gebruikers.
 
@@ -30,8 +30,8 @@ Wanneer een filter, weergave of groep met u wordt gedeeld, kunt u dat filter, di
 
 Zie de volgende artikelen voor informatie over het maken van een filter, weergave of groepering:
 
-* [ Overzicht van Filters ](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)
-* [ Overzicht van meningen in Adobe Workfront ](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)
+* [&#x200B; Overzicht van Filters &#x200B;](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)
+* [&#x200B; Overzicht van meningen in Adobe Workfront &#x200B;](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)
 * [Overzicht van groepen in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)
 
 ## Toegangsvereisten
@@ -72,7 +72,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-*For informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*For informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -80,7 +80,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <!--(NOTE: when the beta filters/ groupings come out either consider splitting this in different kinds of FVGs or splitting this article in FVGs for showing sharing on each one of them??)-->
 
-Het delen van filters in geselecteerde lijsten is anders, afhankelijk van de interface die u gebruikt om het filter te delen: standaard of verouderd. Voor informatie over de types van filter-bouwt interfaces, zie [ filters in Adobe Workfront ](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-filters.md) creëren of uitgeven.
+Het delen van filters in geselecteerde lijsten is anders, afhankelijk van de interface die u gebruikt om het filter te delen: standaard of verouderd. Voor informatie over de types van filter-bouwt interfaces, zie [&#x200B; filters in Adobe Workfront &#x200B;](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-filters.md) creëren of uitgeven.
 
 U kunt weergaven en groepen alleen delen in de oudere interface.
 
@@ -91,9 +91,9 @@ U kunt een filter in de standaardinterface van lijsten van projecten, taken, kwe
 Een filter delen met de standaardbuilderinterface:
 
 1. Ga naar een lijst met projecten, taken of problemen.
-1. Klik het **pictogram van de Filter** pictogram ![ van de Filter ](assets/filter-nwepng.png).
+1. Klik het **pictogram van de Filter** pictogram ![&#x200B; van de Filter &#x200B;](assets/filter-nwepng.png).
 
-   ![ Standaard filterbouwer ](assets/new-filters-all-filter-types.png)
+   ![&#x200B; Standaard filterbouwer &#x200B;](assets/new-filters-all-filter-types.png)
 
 1. Bekijk de volgende lijsten met filters:
 
@@ -120,19 +120,19 @@ Een filter delen met de standaardbuilderinterface:
    </tbody>
    </table>
 
-1. Beweeg over een filter u toegang tot minstens mening en aandeel hebt, dan klik **Meer** menu ![ Meer menu ](assets/more-icon-spectrum.png), dan klik **Aandeel**.
+1. Beweeg over een filter u toegang tot minstens mening en aandeel hebt, dan klik **Meer** menu ![&#x200B; Meer menu &#x200B;](assets/more-icon-spectrum.png), dan klik **Aandeel**.
 
-   ![ Meer menuopties ](assets/new-filters-more-menu-options-with-delete.png)
+   ![&#x200B; Meer menuopties &#x200B;](assets/new-filters-more-menu-options-with-delete.png)
 
    Het dialoogvenster Filter delen wordt weergegeven.
 
 1. Begin de namen van gebruikers, teams, rollen, groepen, of bedrijven te typen die u met in **wilt delen geef toegang tot** gebied.
 
-   ![ het delen van de Filter doos ](assets/new-filters-share-filter.png)
+   ![&#x200B; het delen van de Filter doos &#x200B;](assets/new-filters-share-filter.png)
 
 1. (Facultatief) klik de juist-richt pijl naast de naam van een entiteit om hun toestemmingen aan de filter uit te geven, dan of toelaten de **Mening** of **leiden** optie. **Mening** is het gebrek.
 
-   ![ het Delen toestemmingen ](assets/new-filters-sharing-permissions.png)
+   ![&#x200B; het Delen toestemmingen &#x200B;](assets/new-filters-sharing-permissions.png)
 
 1. (Optioneel) Schakel de aanvullende machtigingen voor een entiteit in of uit door een van de volgende handelingen uit te voeren:
 
@@ -155,21 +155,21 @@ Een filter delen met de standaardbuilderinterface:
 
    De filters u vertoning in **deelde met me** sectie van het filterpaneel voor die entiteiten.
 
-   ![ Filters die met me worden gedeeld ](assets/new-filters-shared-with-me.png)
+   ![&#x200B; Filters die met me worden gedeeld &#x200B;](assets/new-filters-shared-with-me.png)
 
 ### De filters, de meningen, en de groeperingen van het aandeel gebruikend de erfenisinterface
 
 Het delen van filters, weergaven en groepen in de oudere interface is identiek.
 
 1. Ga naar een lijst met objecten of een rapport.
-1. (Voorwaardelijk) van een lijst, klik de **Filter**, **Mening**, of **Groeperend** pictogram, dan over de filter, de mening, of het groeperen u wilt delen, klik het **Meer** pictogram ![ Meer pictogram ](assets/more-icon.png), dan **Aandeel**.
+1. (Voorwaardelijk) van een lijst, klik de **Filter**, **Mening**, of **Groeperend** pictogram, dan over de filter, de mening, of het groeperen u wilt delen, klik het **Meer** pictogram ![&#x200B; Meer pictogram &#x200B;](assets/more-icon.png), dan **Aandeel**.
 
    Van een rapport, klik de **Filter**, **Mening**, of **het Groeperen** drop-down menu, dan selecteren de filter, de mening, of het groeperen u wilt delen.
 
 1. (Voorwaardelijk) als het delen van een rapport, klik de **Filter**, **Mening**, of **het drop-down menu van de Groepering** opnieuw, dan klik de Filter van het Aandeel **,** Mening van het Aandeel **, of** Groepering van het Aandeel **.**\
    De **Toegang van de Filter**, **Toegang van de Mening**, of **de vertoningen van de de dialoogdoos van de Toegang van de Groepering**.
 
-   ![ filter van het Aandeel ](assets/share-filter-people-box-nwe-350x458.png)
+   ![&#x200B; filter van het Aandeel &#x200B;](assets/share-filter-people-box-nwe-350x458.png)
 
 1. Voer een van de volgende twee handelingen uit, afhankelijk van wie u wilt delen:
 
@@ -181,7 +181,7 @@ Het delen van filters, weergaven en groepen in de oudere interface is identiek.
    >Delen met groepen geeft machtigingen voor het filter, de weergave of de groep aan de leden van de groep en van alle subgroepen.
 
    **om met alle gebruikers in het systeem te delen:** klik het **pictogram van Montages**, dan klik **maken dit zichtbare systeem-breed**.\
-   Uw beheerder moet de optie voor het delen van het hele systeem selecteren om deze optie beschikbaar te maken. Voor meer informatie, zie de artikelen [ tot douanetoegangsniveaus ](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md) leiden of wijzigen en [ rapporten, dashboards, en kalenders van het Aandeel ](../../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md).
+   Uw beheerder moet de optie voor het delen van het hele systeem selecteren om deze optie beschikbaar te maken. Voor meer informatie, zie de artikelen [&#x200B; tot douanetoegangsniveaus &#x200B;](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md) leiden of wijzigen en [&#x200B; rapporten, dashboards, en kalenders van het Aandeel &#x200B;](../../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md).
 
 1. (Voorwaardelijk) als u met individuele gebruikers, teams, rollen, groepen, of bedrijven deelt, klik het drop-down menu om het niveau van toegang te bepalen u wilt verlenen.
 

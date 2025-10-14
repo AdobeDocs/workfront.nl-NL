@@ -17,8 +17,8 @@ ht-degree: 0%
 
 # Desktop Proofing Viewer gebruiken: artikelindex
 
-* [ installeer de Desktop Proofing Viewer ](../../../review-and-approve-work/proofing/use-the-desktop-proofing-viewer/installing-desktop-proofing-viewer.md)
-* [ werk de Desktop het Proofing Kijker ](../../../review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer.md) bij
-* [ Open proefdrukken in de Desktop Proofing Viewer ](../../../review-and-approve-work/proofing/use-the-desktop-proofing-viewer/open-proofs-in-dpv.md)
-* [ revisie niet-interactieve inhoud in de Desktop Proofing Viewer ](../../../review-and-approve-work/proofing/use-the-desktop-proofing-viewer/review-non-interactive-content-in-desktop-proofing-viewer.md)
+* [&#x200B; installeer de Desktop Proofing Viewer &#x200B;](../../../review-and-approve-work/proofing/use-the-desktop-proofing-viewer/installing-desktop-proofing-viewer.md)
+* [&#x200B; werk de Desktop het Proofing Kijker &#x200B;](../../../review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer.md) bij
+* [&#x200B; Open proefdrukken in de Desktop Proofing Viewer &#x200B;](../../../review-and-approve-work/proofing/use-the-desktop-proofing-viewer/open-proofs-in-dpv.md)
+* [&#x200B; revisie niet-interactieve inhoud in de Desktop Proofing Viewer &#x200B;](../../../review-and-approve-work/proofing/use-the-desktop-proofing-viewer/review-non-interactive-content-in-desktop-proofing-viewer.md)
 * [Veelgestelde vragen - Desktop Proofing Viewer](../../../review-and-approve-work/proofing/use-the-desktop-proofing-viewer/faq-desktop-proofing-viewer.md)

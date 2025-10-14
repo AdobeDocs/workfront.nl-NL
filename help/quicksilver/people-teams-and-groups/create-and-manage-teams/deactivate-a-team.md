@@ -71,7 +71,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -99,7 +99,7 @@ Wanneer het gebruiken van verzoekrijen, als u een team deactiveert dat als stand
 
 Gedetactiveerde teams worden weergegeven in de volgende gebieden:
 
-* Het veld Eigenaar in [!DNL Workfront Goals] . Hiervoor is een extra licentie vereist voor [!DNL Adobe Workfront Goals] . Voor meer informatie, zie [ begonnen worden met  [!DNL Adobe Workfront Goals]](../../workfront-goals/goal-management/getting-started-with-wf-goals.md).
+* Het veld Eigenaar in [!DNL Workfront Goals] . Hiervoor is een extra licentie vereist voor [!DNL Adobe Workfront Goals] . Voor meer informatie, zie [&#x200B; begonnen worden met  [!DNL Adobe Workfront Goals]](../../workfront-goals/goal-management/getting-started-with-wf-goals.md).
 
 ## Een team verwijderen
 

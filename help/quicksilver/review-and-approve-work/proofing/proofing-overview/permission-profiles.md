@@ -21,11 +21,11 @@ ht-degree: 0%
 
 Proefmachtigingsprofielen bepalen welke machtigingen gebruikers hebben over alle proefdrukken in uw account. Profielen met proefmachtigingen worden toegewezen aan gebruikers in hun gebruikersprofiel.
 
-Proefmachtigingsprofielen verschillen van proefdrukrollen. Voor meer informatie over proefdrukrollen, zie [ overzicht van de Rollen van het Bewijs ](../../../review-and-approve-work/proofing/proofing-overview/proof-roles.md).
+Proefmachtigingsprofielen verschillen van proefdrukrollen. Voor meer informatie over proefdrukrollen, zie [&#x200B; overzicht van de Rollen van het Bewijs &#x200B;](../../../review-and-approve-work/proofing/proofing-overview/proof-roles.md).
 
 >[!NOTE]
 >
->Beheerders kunnen aangepaste profielen maken voor gebruikers in uw organisatie. Voor meer informatie, zie [ douaneprofielen in Workfront Proof ](../../../workfront-proof/wp-acct-admin/account-settings/configure-custom-profiles.md) vormen.
+>Beheerders kunnen aangepaste profielen maken voor gebruikers in uw organisatie. Voor meer informatie, zie [&#x200B; douaneprofielen in Workfront Proof &#x200B;](../../../workfront-proof/wp-acct-admin/account-settings/configure-custom-profiles.md) vormen.
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Consider the following about roles and permissions:</p>
@@ -139,7 +139,7 @@ In de volgende tabel worden de machtigingen weergegeven die beschikbaar zijn bij
 
 ### Beheerder
 
-De beheerders hebben toegang tot [ montages van de Rekening ](https://support.workfront.com/hc/en-us/sections/115000912147-Account-Settings) en hebben de volgende toestemmingen:
+De beheerders hebben toegang tot [&#x200B; montages van de Rekening &#x200B;](https://support.workfront.com/hc/en-us/sections/115000912147-Account-Settings) en hebben de volgende toestemmingen:
 
 <table style="table-layout:auto"> 
  <col> 

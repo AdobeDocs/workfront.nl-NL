@@ -35,7 +35,7 @@ De volgende groepering organiseert projecten door het percentage volledige waard
 * 91-99%
 * 100%
 
-![ percent_complete_breakfor_projects_in_10__increment.png ](assets/percent-complete-breakdown-350x94.png)
+![&#x200B; percent_complete_breakfor_projects_in_10__increment.png &#x200B;](assets/percent-complete-breakdown-350x94.png)
 
 ## Toegangsvereisten
 
@@ -73,7 +73,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-*For informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*For informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

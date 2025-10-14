@@ -26,21 +26,21 @@ Enkele redenen voor het exporteren van gegevens zijn:
 * U wilt een externe back-up van uw Workfront-gegevens maken.
 * Er geldt een limiet voor het weergeven van slechts 2.000 resultaten op één pagina in de Workfront-webtoepassing. Als uw rapport meer dan 2.000 produceert, kunt u het rapport naar om het even welke beschikbare formaten uitvoeren en alle resultaten in het rapport in één lijst bekijken.
 
-U kunt of een rapport manueel, van de interface van Workfront uitvoeren, of u kunt een levering voor een rapport plannen en dat rapport zal naar u op een recentere tijd worden verzonden. Voor meer informatie bij het plannen van geleverde rapporten, zie [ de leveringsoverzicht van het Rapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md).
+U kunt of een rapport manueel, van de interface van Workfront uitvoeren, of u kunt een levering voor een rapport plannen en dat rapport zal naar u op een recentere tijd worden verzonden. Voor meer informatie bij het plannen van geleverde rapporten, zie [&#x200B; de leveringsoverzicht van het Rapport &#x200B;](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md).
 
 De informatie in dit artikel is niet van toepassing op de volgende exporttransacties:
 
 * Gegevens uit grafiekrapporten exporteren.
 
-  Voor meer informatie over het uitvoeren van een grafiekrapport, zie [ een grafiek aan een rapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md) toevoegen.
+  Voor meer informatie over het uitvoeren van een grafiekrapport, zie [&#x200B; een grafiek aan een rapport &#x200B;](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md) toevoegen.
 
 * Informatie exporteren uit het Gantt-diagram.
 
-  Voor meer informatie over het uitvoeren van de grafiek van Gantt, zie [ de Grafiek van Gantt naar PDF ](../../../manage-work/gantt-chart/use-the-gantt-chart/export-gantt-chart-to-pdf.md) uitvoeren.
+  Voor meer informatie over het uitvoeren van de grafiek van Gantt, zie [&#x200B; de Grafiek van Gantt naar PDF &#x200B;](../../../manage-work/gantt-chart/use-the-gantt-chart/export-gantt-chart-to-pdf.md) uitvoeren.
 
 * Informatie exporteren vanuit de bronnenplanner.
 
-  Voor meer informatie over het uitvoeren van de informatie van de Planner van het Middel, zie &quot;Optie van de Uitvoer&quot;in [ het navigatieoverzicht van de Planner van het Middel ](../../../resource-mgmt/resource-planning/resource-planner-navigation.md).
+  Voor meer informatie over het uitvoeren van de informatie van de Planner van het Middel, zie &quot;Optie van de Uitvoer&quot;in [&#x200B; het navigatieoverzicht van de Planner van het Middel &#x200B;](../../../resource-mgmt/resource-planning/resource-planner-navigation.md).
 
 ## Toegangsvereisten
 
@@ -81,7 +81,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-*For informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*For informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -89,7 +89,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 Het rapport moet worden gemaakt voordat u de gegevens kunt exporteren.
 
-Voor meer informatie bij het creëren van rapporten, zie [ een douanerapport ](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) of [ creëren een exemplaar van een rapport ](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md).
+Voor meer informatie bij het creëren van rapporten, zie [&#x200B; een douanerapport &#x200B;](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) of [&#x200B; creëren een exemplaar van een rapport &#x200B;](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md).
 
 ## Exportindelingen en -beperkingen
 
@@ -131,9 +131,9 @@ Er gelden verschillende beperkingen voor de manier waarop rapporten in Workfront
 
   Als uw rapport meer dan 50.000/65.000/100.000 rijen heeft en u alle gegevens wilt uitvoeren, adviseren wij dat u filters of herinneringen gebruikt om kleinere ladingen gegevens te verkrijgen, en veelvoudige uitvoeren uit te voeren.
 
-  Voor informatie bij het gebruiken van filters, zie [ Overzicht van Filters ](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+  Voor informatie bij het gebruiken van filters, zie [&#x200B; Overzicht van Filters &#x200B;](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
-  Voor informatie over het gebruiken van herinneringen, zie [ een herinnering aan een rapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md) toevoegen.
+  Voor informatie over het gebruiken van herinneringen, zie [&#x200B; een herinnering aan een rapport &#x200B;](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md) toevoegen.
 
 * Deze grenswaarden gelden voor:
 
@@ -142,7 +142,7 @@ Er gelden verschillende beperkingen voor de manier waarop rapporten in Workfront
    * Een export via een API-integratie.
    * Gegevens geëxporteerd via een trap-start.
 
-     Voor meer informatie over het uitvoeren van gegevens via schop-begin, zie [ Gegevens van de Uitvoer van Adobe Workfront via Kick-Begarts ](../../../administration-and-setup/manage-workfront/using-kick-starts/export-data-from-wf-via-kick-starts.md).
+     Voor meer informatie over het uitvoeren van gegevens via schop-begin, zie [&#x200B; Gegevens van de Uitvoer van Adobe Workfront via Kick-Begarts &#x200B;](../../../administration-and-setup/manage-workfront/using-kick-starts/export-data-from-wf-via-kick-starts.md).
 
      >[!NOTE]
      >
@@ -150,7 +150,7 @@ Er gelden verschillende beperkingen voor de manier waarop rapporten in Workfront
 
    * Gebruiksinformatie voor een project exporteren.
 
-     Voor meer informatie over het uitvoeren van gebruiksinformatie voor een project, zie [ Overzicht van het rapport van het Gebruik van het Middel ](../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md#exporting-utilization-information-for-a-project).
+     Voor meer informatie over het uitvoeren van gebruiksinformatie voor een project, zie [&#x200B; Overzicht van het rapport van het Gebruik van het Middel &#x200B;](../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md#exporting-utilization-information-for-a-project).
 
 * **10MB dossiergrootte:** de groottelimiet van het Dossier voor om het even welk uitgevoerd rapport dat voor levering wordt gepland. Als een geëxporteerd bestand dat is gekoppeld aan een e-mailbericht groter is dan 5 MB, wordt een koppeling waarnaar het bestand kan worden gedownload per e-mail verzonden in plaats van het bijgevoegde geëxporteerde rapport.
 * **65.530 hyperlinks:** dit is een grens die door Excel op documenten wordt opgelegd die meer dan 65.530 hyperlinks bevatten. Deze documenten kunnen niet worden geopend wanneer ze handmatig worden geëxporteerd of in een bezorgd rapport worden verzonden. Een Excel-document kan slechts 200 rijen gegevens bevatten, maar als het document meer dan 65.530 koppelingen bevat, wordt het document niet geopend. Deze limiet geldt alleen voor Excel-bestanden en niet voor de andere ondersteunde indelingen.
@@ -160,9 +160,9 @@ Er gelden verschillende beperkingen voor de manier waarop rapporten in Workfront
   >
   >Het uitvoeren van een rapport dat een kolom van Rapporten omvat kan in een fout resulteren zelfs als het rapport anders binnen de vermelde uitvoergrenzen is.
   >
-  >Als u de de uitvoereigenschap gebruikt om een rapport te delen dat een kolom van Rapporten met anderen bevat, denk na delend het rapport door het openbaar te maken in plaats daarvan. Voor meer informatie bij het maken van een rapport openbaar, zie [ een rapport in Adobe Workfront ](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/share-report.md) delen.
+  >Als u de de uitvoereigenschap gebruikt om een rapport te delen dat een kolom van Rapporten met anderen bevat, denk na delend het rapport door het openbaar te maken in plaats daarvan. Voor meer informatie bij het maken van een rapport openbaar, zie [&#x200B; een rapport in Adobe Workfront &#x200B;](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/share-report.md) delen.
   >
-  >Als u de exportfunctie gebruikt om gegevens extern te evalueren, raden we u aan in plaats daarvan Workfront Data Connect te gebruiken. Voor meer informatie, zie [ de Gegevens van Workfront verbinden overzicht ](/help/quicksilver/reports-and-dashboards/data-lake/data-lake-overview.md).
+  >Als u de exportfunctie gebruikt om gegevens extern te evalueren, raden we u aan in plaats daarvan Workfront Data Connect te gebruiken. Voor meer informatie, zie [&#x200B; de Gegevens van Workfront verbinden overzicht &#x200B;](/help/quicksilver/reports-and-dashboards/data-lake/data-lake-overview.md).
 
 Als u probeert gegevens te exporteren die de limiet overschrijden, ontvangt u mogelijk niet alle verwachte gegevens in de exportbewerking. In plaats daarvan wordt een gewijzigd verslag binnen de limiet opgesteld.
 
@@ -195,7 +195,7 @@ Neem contact op met de technische ondersteuning van Workfront als u problemen he
 
    of
 
-   Klik het **pictogram van de Uitvoer ![ het pictogram van de Uitvoer ](assets/export-icon-nwe.png), dan selecteer een formaat.**
+   Klik het **pictogram van de Uitvoer ![&#x200B; het pictogram van de Uitvoer &#x200B;](assets/export-icon-nwe.png), dan selecteer een formaat.**
 
    Welke opties beschikbaar zijn voor PDF-export, is afhankelijk van de instellingen voor Landinstelling e-mail in uw Workfront-gebruikersinstellingen:
 
@@ -204,23 +204,23 @@ Neem contact op met de technische ondersteuning van Workfront als u problemen he
    * Alle locaties buiten Noord-Amerika - A4 - Liggend, A4 - Staand, andere grootten
 
 1. (Voorwaardelijk) Afhankelijk van het besturingssysteem dat u gebruikt, hebt u mogelijk de mogelijkheid om het bestand te openen of op te slaan. Open het bestand met de bijbehorende toepassing of sla het op de vaste schijf op.
-1. Om te begrijpen hoe de informatievertoningen in het uitgevoerde dossier, blijven lezend het sectie [ gebruiken het uitgevoerde document ](#use-the-exported-document) in dit artikel.
+1. Om te begrijpen hoe de informatievertoningen in het uitgevoerde dossier, blijven lezend het sectie [&#x200B; gebruiken het uitgevoerde document &#x200B;](#use-the-exported-document) in dit artikel.
 
 ### Gegevens exporteren uit een dashboard {#export-data-from-a-dashboard}
 
 U kunt de gegevens van een dashboard afdrukken of exporteren als een PDF-bestand.
 
-Voor meer informatie over het uitvoeren van gegevens van een dashboard, zie [ een dashboard ](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/export-dashboard.md) uitvoeren.
+Voor meer informatie over het uitvoeren van gegevens van een dashboard, zie [&#x200B; een dashboard &#x200B;](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/export-dashboard.md) uitvoeren.
 
 ## Het geëxporteerde document gebruiken {#use-the-exported-document}
 
 In de volgende secties wordt beschreven hoe informatie in een geëxporteerd bestand wordt weergegeven:
 
-* [ Namen van het Dossier ](#file-names)
-* [ Titels ](#titles)
-* [ Tijdstempels ](#timestamps)
-* [ Formatterend ](#formatting)
-* [ Verbindingen ](#links)
+* [&#x200B; Namen van het Dossier &#x200B;](#file-names)
+* [&#x200B; Titels &#x200B;](#titles)
+* [&#x200B; Tijdstempels &#x200B;](#timestamps)
+* [&#x200B; Formatterend &#x200B;](#formatting)
+* [&#x200B; Verbindingen &#x200B;](#links)
 * [Branding](#branding)
 
 ### Bestandsnamen {#file-names}
@@ -312,7 +312,7 @@ Als uw rapport een speciale opmaak heeft in de webtoepassing, moet het rapport w
 >
 >Als de gegevens die u exporteert gedeelde kolommen bevatten en u exporteert naar een indeling die is gescheiden door Excel of Tab, worden deze kolommen gescheiden in het geëxporteerde bestand.
 
-Voor meer informatie over hoe te om het formatteren in een rapport aan te passen, zie [ Voorwaardelijke het formatteren van het Gebruik in meningen ](../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md).
+Voor meer informatie over hoe te om het formatteren in een rapport aan te passen, zie [&#x200B; Voorwaardelijke het formatteren van het Gebruik in meningen &#x200B;](../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md).
 
 ### Koppelingen {#links}
 
@@ -341,4 +341,4 @@ Als uw Workfront-beheerder aangepaste branding heeft toegevoegd aan uw Workfront
 
 Gegevens die in andere indelingen worden geëxporteerd, kunnen niet worden gepersonaliseerd met uw logo.
 
-Voor meer informatie over branding uw instantie van Workfront en de Globale Bar van de Navigatie, zie [ Merk uw instantie van Adobe Workfront ](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md).
+Voor meer informatie over branding uw instantie van Workfront en de Globale Bar van de Navigatie, zie [&#x200B; Merk uw instantie van Adobe Workfront &#x200B;](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md).

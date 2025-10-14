@@ -53,4 +53,4 @@ Een koppeling naar een documentmap kopiëren:
 
 1. Navigeer naar het [!DNL Workfront] -object dat de documentmap bevat.
 1. Klik op het menu **[!UICONTROL More]** en selecteer vervolgens **[!UICONTROL Copy URL]** . U kunt deze koppeling delen om snel toegang tot de map te krijgen. Gebruikers moeten minimaal toegang tot het object hebben om de map te kunnen bekijken.
-   ![ de omslag url van het exemplaardocument ](assets/copy-doc-folder-url.png)
+   ![&#x200B; de omslag url van het exemplaardocument &#x200B;](assets/copy-doc-folder-url.png)

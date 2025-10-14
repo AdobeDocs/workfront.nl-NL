@@ -57,7 +57,7 @@ U moet de volgende toegang hebben om portfolio&#39;s te maken en te beheren:
  </tbody> 
 </table>
 
-Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 
 ## Overwegingen bij het werken met programma&#39;s
@@ -72,7 +72,7 @@ Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront
 
 * U moet eerst een portfolio maken en vervolgens kunt u meerdere programma&#39;s binnen hetzelfde portfolio maken.
 
-  Voor informatie over het gebruiken van Programma&#39;s, zie [ een programma ](../../../manage-work/portfolios/create-and-manage-programs/create-program.md) creëren.
+  Voor informatie over het gebruiken van Programma&#39;s, zie [&#x200B; een programma &#x200B;](../../../manage-work/portfolios/create-and-manage-programs/create-program.md) creëren.
 
 * U moet eerst een portfolio maken en vervolgens een programma voordat u een project aan een programma en een portfolio kunt koppelen.
 
@@ -94,4 +94,4 @@ Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront
 
 * Met de functie voor het optimaliseren van portfolio kunt u de prestaties van alle projecten in een portfolio analyseren. U kunt de prestaties van meerdere projecten niet alleen vergelijken met die van hetzelfde programma. U moet projectprestaties op het portfolioniveau analyseren.
 
-  Voor informatie, zie [ projecten in Portfolio optimaliseren ](/help/quicksilver/manage-work/portfolios/portfolio-optimizer/optimize-projects-in-portfolio-optimizer.md).
+  Voor informatie, zie [&#x200B; projecten in Portfolio optimaliseren &#x200B;](/help/quicksilver/manage-work/portfolios/portfolio-optimizer/optimize-projects-in-portfolio-optimizer.md).

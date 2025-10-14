@@ -18,13 +18,13 @@ ht-degree: 0%
 
 Het updatetype van een project geeft aan hoe Adobe Workfront de tijdlijn van een project berekent. Wijzigingen in het projectplan kunnen wijzigingen in de tijdlijn van het project veroorzaken. De tijdlijn van het project moet automatisch of handmatig opnieuw worden berekend om ervoor te zorgen dat deze aan deze wijzigingen voldoet.
 
-Voor informatie over het opnieuw berekenen van de projectchronologie, zie [ projectchronologie ](../../../manage-work/projects/manage-projects/recalculate-project-timeline.md) opnieuw berekenen.
+Voor informatie over het opnieuw berekenen van de projectchronologie, zie [&#x200B; projectchronologie &#x200B;](../../../manage-work/projects/manage-projects/recalculate-project-timeline.md) opnieuw berekenen.
 
 ## Typen projectupdate
 
 Er zijn vier updatetypen voor een project, afhankelijk van wanneer u Workfront wilt de projectchronologie opnieuw berekenen. Kies een updatetype in de onderstaande lijst.
 
-Voor informatie over hoe te om het Type van Update van het project bij te werken, zie [ het Type van projectupdate ](../../../manage-work/projects/manage-projects/select-project-update-type.md) selecteren.
+Voor informatie over hoe te om het Type van Update van het project bij te werken, zie [&#x200B; het Type van projectupdate &#x200B;](../../../manage-work/projects/manage-projects/select-project-update-type.md) selecteren.
 
 >[!IMPORTANT]
 >
@@ -49,5 +49,5 @@ Voor informatie over hoe te om het Type van Update van het project bij te werken
   >
   >Een project herberekent niet automatisch elke nacht als het in de status van de Planning is. Het herberekent alleen op verandering.
 
-* **Hand slechts:** de projectchronologie wordt bijgewerkt slechts wanneer u de optie om **Chronologie** opnieuw te berekenen, zoals die in de sectie &quot;Handmatige herberekening&quot;in de artikel [ wordt beschreven projectchronologie ](../../../manage-work/projects/manage-projects/recalculate-project-timeline.md) opnieuw berekent.\
+* **Hand slechts:** de projectchronologie wordt bijgewerkt slechts wanneer u de optie om **Chronologie** opnieuw te berekenen, zoals die in de sectie &quot;Handmatige herberekening&quot;in de artikel [&#x200B; wordt beschreven projectchronologie &#x200B;](../../../manage-work/projects/manage-projects/recalculate-project-timeline.md) opnieuw berekent.\
   U kunt deze optie selecteren als u in één keer veel wijzigingen aanbrengt in het project en u wilt dat de tijdlijnherberekening plaatsvindt nadat alle wijzigingen zijn aangebracht (in plaats van na elke afzonderlijke wijziging).

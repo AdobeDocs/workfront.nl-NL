@@ -21,7 +21,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [ het Bewijzen ](../../../review-and-approve-work/proofing/proofing.md).
+>Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [&#x200B; het Bewijzen &#x200B;](../../../review-and-approve-work/proofing/proofing.md).
 
 Als de inhoud van uw proefdrukken niet wordt geladen en u alleen een lege proefdrukviewer kunt zien, is dit zeer waarschijnlijk omdat deze actie lokaal wordt geblokkeerd. Probeer hieronder de mogelijke oplossingen.
 
@@ -49,7 +49,7 @@ Ga in uw browser naar [!UICONTROL Menu] en zoek de optie [!UICONTROL About] (in 
 
 Bijvoorbeeld in Chrome:
 
-![ browser van Chrome versie ](assets/proofview-3.png)
+![&#x200B; browser van Chrome versie &#x200B;](assets/proofview-3.png)
 
 Wanneer de meest recente browserversie is geïnstalleerd, probeert u de proefdruk opnieuw te openen en te controleren of het probleem is opgelost.
 
@@ -88,7 +88,7 @@ De beste praktijken moeten alle onbekende toe:voegen-ons verwijderen en slechts 
 
 Als er om het even welke bepaalde toe:voegen-op interfereert met het laden van de proeven, kunt u proberen controlerend de details in de console van browser.
 
-![ Browser console ](assets/proofview-4.png)
+![&#x200B; Browser console &#x200B;](assets/proofview-4.png)
 
 In de meeste nieuwere browsers zijn er enkele extra tools voor ontwikkelaars beschikbaar die kunnen worden gebruikt voor geavanceerdere probleemoplossing.
 

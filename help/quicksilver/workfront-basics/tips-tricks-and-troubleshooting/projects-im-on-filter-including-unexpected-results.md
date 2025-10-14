@@ -52,4 +52,4 @@ De [!UICONTROL **Projecten ik ben op**] filter omvat projecten die de gebruiker 
 
 1. Probeer gebruikend een gelijkaardige filter, zoals [!UICONTROL **Projecten I Bezit**], die slechts projecten omvat die specifiek aan u worden toegewezen.
 
-Voor meer informatie bij het gebruiken van filters in [!DNL Workfront], zie [ Overzicht van Filters ](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+Voor meer informatie bij het gebruiken van filters in [!DNL Workfront], zie [&#x200B; Overzicht van Filters &#x200B;](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/filters-overview.md).

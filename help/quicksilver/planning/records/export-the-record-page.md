@@ -82,7 +82,7 @@ Als u efficiënter wilt samenwerken met anderen die mogelijk geen Workfront-acco
 </tbody> 
 </table>
 
-*Voor meer informatie over de toegangsvereisten van Workfront, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Voor meer informatie over de toegangsvereisten van Workfront, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -113,11 +113,11 @@ De recordtypepagina wordt geopend en alle records van dat type worden weergegeve
 
    Het voorvertoningsvak van de record wordt geopend.
 
-1. (Facultatief) klik **Open in nieuw lusje** pictogram ![ Open details in een nieuw lusjepictogram ](assets/open-details-in-a-new-tab-icon.png) om de pagina van het verslag te openen.
+1. (Facultatief) klik **Open in nieuw lusje** pictogram ![&#x200B; Open details in een nieuw lusjepictogram &#x200B;](assets/open-details-in-a-new-tab-icon.png) om de pagina van het verslag te openen.
 
 1. Kies het **Details** lusje. Het tabblad Details moet standaard worden geopend.
 
-1. Klik het **menu van de Uitvoer** pictogram van de Uitvoer in verslagdetailpagina ![ of in de voorproef of de pagina van het verslag, dan klik één van het volgende:](assets/export-icon-in-record-details-page.png)
+1. Klik het **menu van de Uitvoer** pictogram van de Uitvoer in verslagdetailpagina ![&#x200B; of in de voorproef of de pagina van het verslag, dan klik één van het volgende:](assets/export-icon-in-record-details-page.png)
 
    * **Word van Microsoft**
    * **Adobe PDF**
@@ -126,7 +126,7 @@ De recordtypepagina wordt geopend en alle records van dat type worden weergegeve
 
    De naam van het geëxporteerde bestand is het primaire veld van de record.
 
-   ![ Uitgevoerd woorddossier ](assets/exported-word-file.png)
+   ![&#x200B; Uitgevoerd woorddossier &#x200B;](assets/exported-word-file.png)
 
    >[!NOTE]
    >

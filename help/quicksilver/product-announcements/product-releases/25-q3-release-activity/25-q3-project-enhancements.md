@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Op deze pagina worden de projectverbeteringen beschreven die zijn aangebracht met de release van het derde kwartaal van 2025 voor de voorvertoningsomgeving. Deze verbeteringen zullen beschikbaar worden gesteld in de productieomgeving, zoals vermeld.
 
-Voor een lijst van alle veranderingen beschikbaar op dit punt in het Derde Kwartaal 2025 versiecyclus, zie [ Derde Kwartaal 2025 releaseoverzicht ](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar op dit punt in het Derde Kwartaal 2025 versiecyclus, zie [&#x200B; Derde Kwartaal 2025 releaseoverzicht &#x200B;](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md).
 
 ## Updates voor het indienen van een aanvraag
 
@@ -35,7 +35,7 @@ We hebben de ervaring bijgewerkt bij het indienen van een aanvraag in de nieuwe 
 * De verzoekwegen en de vormen van het Verzoek zijn vermeld in afzonderlijke secties, zowel in het Recente gebied als in de grotere hieronder lijst.
 * Wanneer u naar een aanvraagwachtrij zoekt, worden in de lijst alleen formulieren en paden weergegeven die de zoekterm bevatten. De zoekterm wordt gemarkeerd in elk weergegeven aanvraagformulier of -pad.
 
-Voor informatie bij het doen van een verzoek, zie [ verzoeken ](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md) creëren en voorleggen.
+Voor informatie bij het doen van een verzoek, zie [&#x200B; verzoeken &#x200B;](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md) creëren en voorleggen.
 
 ## Het veld Bestaande werkelijke uren is vervangen door het veld Oudere werkelijke uren en het nieuwe veld Werkelijke uren is gemaakt
 
@@ -61,7 +61,7 @@ Het veld Werkelijke uren dat zichtbaar is in het project, de sectie Taken en de 
 >  &#x200B;><br>Mogelijk moet u uw rapporten bijwerken met het nieuwe veld en de bijbehorende waarden.
 >  &#x200B;><br>Workfront gebruikt Legacy Actual Hours om de werkelijke loonkosten te berekenen.
 
-Voor informatie, zie [ Ware Uren van de Mening ](/help/quicksilver/manage-work/tasks/task-information/actual-hours.md).
+Voor informatie, zie [&#x200B; Ware Uren van de Mening &#x200B;](/help/quicksilver/manage-work/tasks/task-information/actual-hours.md).
 
 
 ## Wijziging in de manier waarop Werkelijke uren worden opgeslagen in de database voor API-aanroepen
@@ -98,7 +98,7 @@ De volgende functionaliteit is nu beschikbaar:
 
 Er zijn geen andere wijzigingen aangebracht in het bijwerken van het percentage Voltooide taken en problemen op andere gebieden van Workfront.
 
-Voor informatie, zie [ Mening en werk Percent bij Voltooid voor taken ](/help/quicksilver/manage-work/projects/updating-work-in-a-project/view-update-percent-complete-for-tasks.md).
+Voor informatie, zie [&#x200B; Mening en werk Percent bij Voltooid voor taken &#x200B;](/help/quicksilver/manage-work/projects/updating-work-in-a-project/view-update-percent-complete-for-tasks.md).
 
 ## Meer transparantie bij het gebruik van AI Assistant voor projecten, taken en problemen
 
@@ -112,6 +112,6 @@ Om duidelijker te maken hoe AI Assistant antwoorden zoekt op vragen over Workfro
 
 Eerder was deze informatie niet beschikbaar in het antwoord van de AI Assistant.
 
-Voor informatie over het gebruiken van AI Medewerker om informatie over de punten van Workfront te krijgen, zie [ Medewerker van het Gebruik AI om met projecten, taken, en kwesties ](/help/quicksilver/workfront-basics/ai-assistant/work-with-pti-through-ai-assisant.md) te werken.
+Voor informatie over het gebruiken van AI Medewerker om informatie over de punten van Workfront te krijgen, zie [&#x200B; Medewerker van het Gebruik AI om met projecten, taken, en kwesties &#x200B;](/help/quicksilver/workfront-basics/ai-assistant/work-with-pti-through-ai-assisant.md) te werken.
 
 

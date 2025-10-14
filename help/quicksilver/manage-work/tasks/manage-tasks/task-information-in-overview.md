@@ -19,12 +19,12 @@ ht-degree: 0%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: some of the information (fields) in this article is also in the Edit tasks article; if you need to update one field, do it in both articles)</p>
 -->
 
-U kunt de informatie van een taak bekijken of uitgeven door tot het gebied van het Overzicht van de sectie van de Details van de Taak toegang te hebben. Er is een beperkt aantal velden dat u in dit gebied kunt weergeven of bewerken. Voor informatie over het uitgeven van alle informatie voor een taak zie [ taken ](../../../manage-work/tasks/manage-tasks/edit-tasks.md) uitgeven.
+U kunt de informatie van een taak bekijken of uitgeven door tot het gebied van het Overzicht van de sectie van de Details van de Taak toegang te hebben. Er is een beperkt aantal velden dat u in dit gebied kunt weergeven of bewerken. Voor informatie over het uitgeven van alle informatie voor een taak zie [&#x200B; taken &#x200B;](../../../manage-work/tasks/manage-tasks/edit-tasks.md) uitgeven.
 
 Dit artikel beschrijft om informatie op het gebied van het Overzicht van de Details van de Taak te bekijken of uit te geven. Raadpleeg de volgende artikelen voor informatie over het bijwerken van andere taakdetails:
 
-* [ beheer taakfinanciën in de sectie van de Details van de Taak ](../../../manage-work/tasks/manage-tasks/task-finances-in-details.md)
-* [ voeg een douanevorm aan een voorwerp ](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md) toe
+* [&#x200B; beheer taakfinanciën in de sectie van de Details van de Taak &#x200B;](../../../manage-work/tasks/manage-tasks/task-finances-in-details.md)
+* [&#x200B; voeg een douanevorm aan een voorwerp &#x200B;](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md) toe
 * [Aangepaste formulieren beheren die zijn gekoppeld aan objecten](../../../workfront-basics/work-with-custom-forms/manage-custom-forms-attached-to-objects.md)
 
 ## Toegangsvereisten
@@ -75,7 +75,7 @@ U moet het volgende hebben:
 
    >[!NOTE]
    >
-   >Afhankelijk van hoe uw Workfront-beheerder of groepsbeheerder onze lay-outsjabloon instelt, kunnen de velden in de sectie Taakdetails opnieuw worden gerangschikt of niet worden weergegeven. Voor informatie, zie [ de mening van Details aanpassen gebruikend een lay-outmalplaatje ](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
+   >Afhankelijk van hoe uw Workfront-beheerder of groepsbeheerder onze lay-outsjabloon instelt, kunnen de velden in de sectie Taakdetails opnieuw worden gerangschikt of niet worden weergegeven. Voor informatie, zie [&#x200B; de mening van Details aanpassen gebruikend een lay-outmalplaatje &#x200B;](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
 
 1. Klik **uitgeven** pictogram ![](assets/edit-icon.png) in de hoger-juiste hoek van de sectie van Details, dan klik **Overzicht**.
 

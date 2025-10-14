@@ -20,7 +20,7 @@ In dit artikel worden de opties uitgelegd die een Adobe Workfront-beheerder voor
 
 Bijvoorbeeld, als een beheerder van Workfront &quot;Mening&quot;voor projecten in een bepaald toegangsniveau selecteert, zullen de gebruikers met dat toegangsniveau projecten kunnen slechts bekijken, niet hen uitgeven.
 
-Voor informatie over alle functionaliteit beschikbaar voor een objecten type in elk toegangsniveau, zie [ Functionaliteit beschikbaar voor elk objecten type ](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md).
+Voor informatie over alle functionaliteit beschikbaar voor een objecten type in elk toegangsniveau, zie [&#x200B; Functionaliteit beschikbaar voor elk objecten type &#x200B;](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md).
 
 ## Projecten
 
@@ -833,7 +833,7 @@ In elk toegangsniveau, kunt u de volgende opties voor financiële gegevens vorme
  </tbody> 
 </table>
 
-&#42; voor informatie over deze opties, zie [ Overzicht van het Factureren en de Ontvangsten ](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md).
+&#42; voor informatie over deze opties, zie [&#x200B; Overzicht van het Factureren en de Ontvangsten &#x200B;](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md).
 
 ## Bronbeheer
 

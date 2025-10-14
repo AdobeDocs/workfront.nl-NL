@@ -52,9 +52,9 @@ In de volgende tabel ziet u de verbinding tussen het Workfront-plan dat uw bedri
  </tbody> 
 </table>
 
-Voor informatie over de plannen van Workfront, zie [ Onze Plannen ](https://business.adobe.com/products/workfront/pricing.html).
+Voor informatie over de plannen van Workfront, zie [&#x200B; Onze Plannen &#x200B;](https://business.adobe.com/products/workfront/pricing.html).
 
-Voor informatie over waar u van de Balancer van de Werkbelasting in Workfront kunt de plaats bepalen, zie [ plaats van de Balancer van de Werkbelasting ](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
+Voor informatie over waar u van de Balancer van de Werkbelasting in Workfront kunt de plaats bepalen, zie [&#x200B; plaats van de Balancer van de Werkbelasting &#x200B;](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
 
 ## Toegang nodig om werklastbalans weer te geven
 
@@ -82,7 +82,7 @@ U moet de volgende toegang hebben om de werklastbalans te kunnen bekijken:
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 <span class="preview"> alle gebruikers hebben toegang om de Balancer van de Werkbelasting op hun eigen profielen te bekijken. Dit wordt niet beperkt door vergunning of toegangsniveau. Merk op dat de Balancer van de Werkbelasting op een gebruikersprofiel read-only is, en de taken en de toewijzingen kunnen niet worden veranderd.</span>
 
@@ -113,7 +113,7 @@ U moet de volgende toegang hebben om de werklastverdeling te beheren:
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 <!--these notes were inside the table: for the Edit access to Res Management
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">View or higher access to Financial Data, if you want to view information by cost (NOTE: this is not possible yet!)</p>    

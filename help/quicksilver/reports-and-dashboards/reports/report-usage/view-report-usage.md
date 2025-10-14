@@ -31,11 +31,11 @@ Als u wilt weten hoe uitgebreid rapporten worden gebruikt in uw systeem, kunt u 
 * Datum van laatste weergave
 * Laatst weergegeven door gebruiker
 * Een lijst met dashboards die het rapport bevatten\
-  Voor meer informatie over het tonen van de naam van de dashboards die de rapporten zouden kunnen worden toegevoegd in een lijst van rapporten, zie het artikel [ begrijpen hoe te om rapporten op een dashboard ](../../../reports-and-dashboards/reports/report-usage/understand-how-organize-reports-dashboard.md) te organiseren.
+  Voor meer informatie over het tonen van de naam van de dashboards die de rapporten zouden kunnen worden toegevoegd in een lijst van rapporten, zie het artikel [&#x200B; begrijpen hoe te om rapporten op een dashboard &#x200B;](../../../reports-and-dashboards/reports/report-usage/understand-how-organize-reports-dashboard.md) te organiseren.
 
 U kunt een weergave maken voor een lijst met rapporten waarin u deze gegevens kunt weergeven.\
 Op sommige van deze velden kunt u een lijst met rapporten filteren.\
-Voor meer informatie over welke gebieden u een rapport door kunt filtreren, zie het artikel [ Filter een rapportlijst door gebruiksinformatie ](#filter-a-report-list-by-usage-information).
+Voor meer informatie over welke gebieden u een rapport door kunt filtreren, zie het artikel [&#x200B; Filter een rapportlijst door gebruiksinformatie &#x200B;](#filter-a-report-list-by-usage-information).
 
 ## Toegangsvereisten
 
@@ -68,7 +68,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 ## De informatie van het rapportgebruik van de vertoning in de Mening van een rapportlijst
 
-1. Klik het **pictogram van het 1&rbrace; pictogram van het Belangrijkste Menu ![ ](assets/main-menu-icon.png) in de hoger-juiste hoek van Workfront, dan klik** Rapporten **.**
+1. Klik het **pictogram van het 1&rbrace; pictogram van het Belangrijkste Menu ![&#x200B; &#x200B;](assets/main-menu-icon.png) in de hoger-juiste hoek van Workfront, dan klik** Rapporten **.**
 
 1. Voor de lijst van rapporten, klik het **drop-down menu van de Mening**.
 1. (Facultatief) selecteer de **mening van het Gebruik van het 0&rbrace; Rapport om de gemeenschappelijkste informatie van het rapportgebruik te tonen.**\
@@ -91,13 +91,13 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 1. Klik **sparen Mening**.\
    De gebruiksinformatie over het rapport wordt getoond in de kolommen u aan de mening toevoegde.\
    U kunt een rapport voor het rapportvoorwerp ook bouwen en deze mening in het rapport gebruiken.\
-   Voor meer informatie over de bouw van een rapport, zie het artikel [ een douanerapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) creëren.\
+   Voor meer informatie over de bouw van een rapport, zie het artikel [&#x200B; een douanerapport &#x200B;](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) creëren.\
    U moet Edit toegang tot Rapporten in uw toegangsniveau hebben om een rapport te bouwen.\
-   Voor meer informatie over toegang tot rapporten, zie de artikel [ toegang van de Verlening tot rapporten, dashboards, en kalenders ](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
+   Voor meer informatie over toegang tot rapporten, zie de artikel [&#x200B; toegang van de Verlening tot rapporten, dashboards, en kalenders &#x200B;](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
 
 ## Een rapportlijst filteren op gebruiksgegevens {#filter-a-report-list-by-usage-information}
 
-1. Klik het **pictogram van het 1&rbrace; pictogram van het Belangrijkste Menu ![ ](assets/main-menu-icon.png) in de hoger-juiste hoek van Workfront, dan klik** Rapporten **.**
+1. Klik het **pictogram van het 1&rbrace; pictogram van het Belangrijkste Menu ![&#x200B; &#x200B;](assets/main-menu-icon.png) in de hoger-juiste hoek van Workfront, dan klik** Rapporten **.**
 1. Voor de lijst van rapporten, klik het **drop-down menu van de Filter**.
 1. Klik **Nieuwe Filter**, dan klik **voegt een Regel van de Filter** toe.
 1. Begin om het even welke volgende gebieden te typen, en hen te selecteren wanneer zij in de lijst onder het **1&rbrace; voorwerp van het Rapport &lbrace;verschijnen om hen als nieuwe filterregel toe te voegen:**
@@ -112,13 +112,13 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    * **Laatste Bekeken Datum**: Toont de datum toen het rapport het laatst werd bekeken
 
 1. Selecteer een bepaling voor uw gebied, dan specificeer een waarde, wanneer ertoe aangezet.\
-   ![ de statistieken van de het gebruiksfilter van het Rapport ](assets/qs-report-usage-filter-statistics-350x150.png)
+   ![&#x200B; de statistieken van de het gebruiksfilter van het Rapport &#x200B;](assets/qs-report-usage-filter-statistics-350x150.png)
 
 1. Klik **sparen Filter**.\
    Dit toont een lijst van rapporten die de gebruiksinformatie ontmoeten u hebt bepaald.\
    U kunt een rapport voor het rapportvoorwerp ook bouwen en deze filter in het rapport gebruiken.\
-   Voor meer informatie over de bouw van een rapport, zie het artikel [ een douanerapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) creëren. U moet Edit toegang tot Rapporten in uw toegangsniveau hebben om een rapport te bouwen.\
-   Voor meer informatie over toegang tot rapporten, zie de artikel [ toegang van de Verlening tot rapporten, dashboards, en kalenders ](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
+   Voor meer informatie over de bouw van een rapport, zie het artikel [&#x200B; een douanerapport &#x200B;](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) creëren. U moet Edit toegang tot Rapporten in uw toegangsniveau hebben om een rapport te bouwen.\
+   Voor meer informatie over toegang tot rapporten, zie de artikel [&#x200B; toegang van de Verlening tot rapporten, dashboards, en kalenders &#x200B;](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
 
 ## Uitzonderingen bij het bekijken van gebruiksinformatie van rapporten
 
@@ -130,12 +130,12 @@ Hieronder volgen enkele uitzonderingen waarmee u rekening moet houden wanneer u 
 
 * Telkens wanneer een rapport op een dashboard of een douanelusje wordt getoond, wordt het geteld als één mening. De gebruiker die dat rapport op zijn dashboard toont wordt getoond als Laatste Mening door: De gebruiker van de Naam, en de datum waarop het dashboard werd getoond wordt getoond als Laatste Bekeken op datum.
 * Workfront verzamelt geen gebruiksgegevens voor ingebouwde rapporten.\
-  Voor meer informatie over ingebouwde rapporten van Workfront, zie het artikel [ ingebouwde rapporten van Adobe Workfront van het Gebruik ](../../../reports-and-dashboards/reports/using-built-in-reports/use-workfront-built-in-reports.md).
+  Voor meer informatie over ingebouwde rapporten van Workfront, zie het artikel [&#x200B; ingebouwde rapporten van Adobe Workfront van het Gebruik &#x200B;](../../../reports-and-dashboards/reports/using-built-in-reports/use-workfront-built-in-reports.md).
 
 * Workfront verzamelt geen gebruiksgegevens voor geleverde rapporten. Een bezorgd rapport telt niet als één mening.\
-  Voor meer informatie over geleverde rapporten, zie het artikel [ de leveringsoverzicht van het Rapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md).
+  Voor meer informatie over geleverde rapporten, zie het artikel [&#x200B; de leveringsoverzicht van het Rapport &#x200B;](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md).
 
 * Wanneer een systeem of groepsbeheerder als een andere gebruiker het programma opent, worden de meningen geteld voor en geassocieerd met het systeem of de groepsbeheerder.
 * Workfront verzamelt geen gebruiksinformatie voor rapporten door aangepaste kwartalen. Slechts worden de standaard ingebouwde kwarten van verwijzingen voorzien in de gebieden van het rapportgebruik.
 * Workfront verzamelt geen gebruiksinformatie voor rapporten die openbaar worden gedeeld en weergegeven. Wanneer een openbaar rapport door iemand wordt bekeken zonder zich aan te melden bij Workfront, worden de rapportweergaven niet geteld.\
-  Voor meer informatie over het delen van rapporten, zie het artikel [ een rapport in Adobe Workfront ](../../../reports-and-dashboards/reports/creating-and-managing-reports/share-report.md) delen.
+  Voor meer informatie over het delen van rapporten, zie het artikel [&#x200B; een rapport in Adobe Workfront &#x200B;](../../../reports-and-dashboards/reports/creating-and-managing-reports/share-report.md) delen.

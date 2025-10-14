@@ -20,7 +20,7 @@ ht-degree: 0%
 Een werkruimte is een verzameling recordtypen die door een organisatie-eenheid worden gebruikt en die de levenscyclus en processen van het werk van de eenheid vertegenwoordigt. U kunt werkruimten volledig aanpassen in Adobe Workfront Planning.
 
 
-![ Werkruimten die pagina admin rekening landen ](assets/workspaces-landing-page-admin-account.png)
+![&#x200B; Werkruimten die pagina admin rekening landen &#x200B;](assets/workspaces-landing-page-admin-account.png)
 
 ## Overwegingen over werkruimten
 
@@ -31,10 +31,10 @@ Een werkruimte is een verzameling recordtypen die door een organisatie-eenheid w
    * Van kras
    * Een sjabloon gebruiken. Sjablonen bevatten een vooraf geconfigureerd aantal recordtypen en de bijbehorende velden.
 
-  Voor informatie, zie [ werkruimten ](/help/quicksilver/planning/architecture/create-workspaces.md) creëren.
+  Voor informatie, zie [&#x200B; werkruimten &#x200B;](/help/quicksilver/planning/architecture/create-workspaces.md) creëren.
 * De werkruimten zijn kaders waarbinnen uw organisatorische eenheden (een team, een groep, een afdeling, of een afdeling) werken. Ze kunnen niet aan velden worden gekoppeld. Alleen de recordtypen in een werkruimte kunnen aan velden worden gekoppeld.
 
-  Voor informatie, zie [ overzicht van de types van Verslag ](/help/quicksilver/planning/architecture/overview-of-record-types.md).
+  Voor informatie, zie [&#x200B; overzicht van de types van Verslag &#x200B;](/help/quicksilver/planning/architecture/overview-of-record-types.md).
 * Afhankelijk van uw Workfront-licentie worden werkruimten weergegeven op de volgende tabbladen in het gedeelte Planning:
 
    * Voor systeembeheerders worden de werkruimten weergegeven op de volgende tabbladen:
@@ -49,10 +49,10 @@ Een werkruimte is een verzameling recordtypen die door een organisatie-eenheid w
   Als de werkobjecten van een eenheid bijvoorbeeld campagnes, producten en regio&#39;s zijn, moet de werkruimte van die eenheid de recordtypen Campagne, Product en Regio bevatten.
 * Wanneer u een werkruimte maakt, hebt u alleen de toestemming om de werkruimte te openen en te beheren. U moet het met andere gebruikers delen opdat zij met u in de zelfde ruimte kunnen samenwerken.
 
-  Voor informatie, zie [ een werkruimte ](/help/quicksilver/planning/access/share-workspaces.md) delen.
+  Voor informatie, zie [&#x200B; een werkruimte &#x200B;](/help/quicksilver/planning/access/share-workspaces.md) delen.
 
   Systeembeheerders kunnen alle werkruimten beheren, zelfs de werkruimten die ze niet hebben gemaakt.
 
 <!--make this live with the GA: * There is no limit for how many workspaces you can create in your environment. However, we recommend not to have too many workspaces, as they could become hard to manage and your workflows might be too fragmented.-->
 
-* Er gelden limieten voor het aantal werkruimteobjecten dat u kunt maken in uw exemplaar van Workfront Planning. Voor informatie, zie [ overzicht van de objectbeperkingen van de Planning van Adobe Workfront ](/help/quicksilver/planning/general/limitations-overview.md).
+* Er gelden limieten voor het aantal werkruimteobjecten dat u kunt maken in uw exemplaar van Workfront Planning. Voor informatie, zie [&#x200B; overzicht van de objectbeperkingen van de Planning van Adobe Workfront &#x200B;](/help/quicksilver/planning/general/limitations-overview.md).

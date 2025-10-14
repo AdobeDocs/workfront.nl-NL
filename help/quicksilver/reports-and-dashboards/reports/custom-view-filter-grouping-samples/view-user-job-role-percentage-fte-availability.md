@@ -20,9 +20,9 @@ ht-degree: 0%
 
 U kunt een kolom aan de mening van een gebruikerslijst toevoegen om een lijst van de Rollen van de Baan te tonen de gebruiker met evenals het percentage van VTE beschikbaarheid voor elke baanrol wordt geassocieerd, zoals die in het gebruikersprofiel wordt bepaald.
 
-Voor informatie over het bepalen van het percentage van VTE beschikbaarheid voor gebruikers, zie [ het profiel van een gebruiker ](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) uitgeven.
+Voor informatie over het bepalen van het percentage van VTE beschikbaarheid voor gebruikers, zie [&#x200B; het profiel van een gebruiker &#x200B;](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) uitgeven.
 
-![ user_with_percent_avialbility_per_role.png ](assets/user-with-percent-avialbility-per-role-350x138.png)
+![&#x200B; user_with_percent_avialbility_per_role.png &#x200B;](assets/user-with-percent-avialbility-per-role-350x138.png)
 
 ## Toegangsvereisten
 
@@ -65,7 +65,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

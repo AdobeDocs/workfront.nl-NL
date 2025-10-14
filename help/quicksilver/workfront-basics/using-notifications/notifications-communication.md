@@ -15,13 +15,13 @@ ht-degree: 0%
 
 # Meldingen: Communicatie
 
-In de volgende berichten wordt u gewaarschuwd voor communicatie, zoals een updateopmerking, die plaatsvindt op een tijdelijk onderdeel waarmee u te maken hebt. Voor informatie over het vormen van welke berichten u ontvangt, zie [ uw eigen e-mailberichten wijzigen ](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+In de volgende berichten wordt u gewaarschuwd voor communicatie, zoals een updateopmerking, die plaatsvindt op een tijdelijk onderdeel waarmee u te maken hebt. Voor informatie over het vormen van welke berichten u ontvangt, zie [&#x200B; uw eigen e-mailberichten wijzigen &#x200B;](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 >[!NOTE]
 >
 >Deze meldingen geven een melding van alle opmerkingen die op een bepaald item zijn geplaatst. Daarom moet u alle meldingen selecteren of deselecteren en tegelijk verzenden in een e-mailbericht met een dagelijkse samenvatting. Als u alleen op de hoogte wilt worden gesteld van bepaalde opmerkingen wanneer deze plaatsvinden, kunt u de afzonderlijke meldingen opgeven die u wilt verzenden.
 
-Zie ook [ de berichten van de Gebeurtenis ](../../workfront-basics/using-notifications/event-notifications.md).
+Zie ook [&#x200B; de berichten van de Gebeurtenis &#x200B;](../../workfront-basics/using-notifications/event-notifications.md).
 
 <table style="table-layout:auto"> 
  <col> 

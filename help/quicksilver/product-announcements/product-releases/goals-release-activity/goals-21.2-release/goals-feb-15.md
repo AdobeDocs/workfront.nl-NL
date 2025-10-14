@@ -18,9 +18,9 @@ ht-degree: 0%
 
 Op deze pagina worden alle verbeteringen beschreven die zijn aangebracht met de release 21.2 voor Adobe Workfront Goals voor de voorbeeldomgeving van 15 februari 2021. Deze verbeteringen zullen in het eerste kwartaal van 21.2 beschikbaar worden gesteld in de productieomgeving.
 
-Voor een lijst van alle veranderingen beschikbaar voor de Doelen van Workfront op dit punt in de 21.2 versiecyclus, zie [ Doelen van Adobe Workfront met de 21.2 versie ](../../../../product-announcements/product-releases/goals-release-activity/goals-21.2-release/goals-release-21-2.md).
+Voor een lijst van alle veranderingen beschikbaar voor de Doelen van Workfront op dit punt in de 21.2 versiecyclus, zie [&#x200B; Doelen van Adobe Workfront met de 21.2 versie &#x200B;](../../../../product-announcements/product-releases/goals-release-activity/goals-21.2-release/goals-release-21-2.md).
 
-Voor een lijst van alle veranderingen beschikbaar voor alle gebieden van Workfront op dit punt in de 21.2 versiecyclus, zie [ 21.2 Overzicht van de Versie ](../../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar voor alle gebieden van Workfront op dit punt in de 21.2 versiecyclus, zie [&#x200B; 21.2 Overzicht van de Versie &#x200B;](../../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
 
 ## Tijdelijk gefilterde doelstellingen tonen in de Grafiek van de Groepering
 
@@ -28,5 +28,5 @@ Wanneer het bekijken van doelstellingen in de Grafiek van de Groepering, kunt u 
 
 Voorafgaand aan deze verbetering, was er een aanwijzing dat sommige doelstellingen door de filter worden verwijderd, maar u kon hen niet bekijken.
 
-Voor informatie over de Grafiek van de Groepering, zie [ de sectie van de Groepering van het Doel in de Doelen van Adobe Workfront ](../../../../workfront-goals/goal-alignment/navigate-goal-alignment-chart.md) navigeren.
+Voor informatie over de Grafiek van de Groepering, zie [&#x200B; de sectie van de Groepering van het Doel in de Doelen van Adobe Workfront &#x200B;](../../../../workfront-goals/goal-alignment/navigate-goal-alignment-chart.md) navigeren.
 

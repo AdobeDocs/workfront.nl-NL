@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # 21.2 Verbeterde proefdrukken
 
-Deze pagina bevat een beschrijving van alle verbeteringen op het gebied van proefdrukken die zijn aangebracht met de release 21.2 voor de voorvertoningsomgeving. Deze verbeteringen zullen beschikbaar worden gesteld in de productieomgeving in de week van 10 mei 2021. Voor een lijst van alle veranderingen beschikbaar met de versie 21.2, zie [ 21.2 Overzicht van de Versie ](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
+Deze pagina bevat een beschrijving van alle verbeteringen op het gebied van proefdrukken die zijn aangebracht met de release 21.2 voor de voorvertoningsomgeving. Deze verbeteringen zullen beschikbaar worden gesteld in de productieomgeving in de week van 10 mei 2021. Voor een lijst van alle veranderingen beschikbaar met de versie 21.2, zie [&#x200B; 21.2 Overzicht van de Versie &#x200B;](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
 
 ## Beslissing van het bewijs is nu zichtbaar in de lijst Documenten
 
@@ -31,9 +31,9 @@ Met deze verbetering, kunt u alle proeven gemakkelijk zien die een algemene besl
 
 Eerder moest u naar de documentdetails en de proefwerkstroom gaan om het algemene proefdrukbesluit te bekijken, dat veelvoudige kliks vereiste.
 
-Voor meer informatie over proefdrukbesluiten, zie [ het gebied van Documenten ](../../../documents/managing-documents/documents-area.md).
+Voor meer informatie over proefdrukbesluiten, zie [&#x200B; het gebied van Documenten &#x200B;](../../../documents/managing-documents/documents-area.md).
 
-Deze eigenschap is nu inbegrepen in [ leidt proeven en versies in de nieuwe ervaring van Workfront ](https://experienceleague.adobe.com/nl/docs/workfront-learn/tutorials-workfront/home) het leren weg op Workfront Één.
+Deze eigenschap is nu inbegrepen in [&#x200B; leidt proeven en versies in de nieuwe ervaring van Workfront &#x200B;](https://experienceleague.adobe.com/nl/docs/workfront-learn/tutorials-workfront/home) het leren weg op Workfront Één.
 
 ## Nieuwe velden in het rapport Goedkeuring proef
 
@@ -45,7 +45,7 @@ Voor informatie over bruikbare proefdrukken hebben we de volgende velden toegevo
 
 Deze gebieden maken geen deel uit van het standaardrapport. U moet ze toevoegen als u ze wilt zien.
 
-Deze eigenschap is nu inbegrepen in de [ systeemmontages van het Bewijs, Deel 2: Het beheer van het werkschema ](https://experienceleague.adobe.com/nl/docs/workfront-learn/tutorials-workfront/home) het leren weg op Workfront Één.
+Deze eigenschap is nu inbegrepen in de [&#x200B; systeemmontages van het Bewijs, Deel 2: Het beheer van het werkschema &#x200B;](https://experienceleague.adobe.com/nl/docs/workfront-learn/tutorials-workfront/home) het leren weg op Workfront Één.
 
 ## De bestaande proefdrukworkflow overnemen bij het genereren van een nieuwe versie
 
@@ -57,4 +57,4 @@ De bestaande proefdrukworkflow wordt nu toegepast op nieuwe versies die u maakt,
 
 Eerder was er een klein verschil in de manier waarop de proefdrukworkflow werd overgedragen, afhankelijk van waar u deze in Workfront hebt gegenereerd.
 
-Voor meer informatie, zie [ een nieuwe versie van een proef ](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/create-new-proof-version.md) creëren.
+Voor meer informatie, zie [&#x200B; een nieuwe versie van een proef &#x200B;](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/create-new-proof-version.md) creëren.

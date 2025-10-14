@@ -20,7 +20,7 @@ ht-degree: 0%
 
 Wanneer iemand een aangepast veld deelt met de toegang Weergeven of Beheren, kan hij of zij verschillende andere instellingen configureren om die toegang nader te definiëren. Als u een ontvanger van het veld bent, beïnvloeden deze instellingen wat u met het veld kunt doen. Het volgende wordt mogelijk weergegeven wanneer u het veld bekijkt.
 
-Voor meer informatie over hoe de gebruikers het delen montages wanneer het delen van een douanevorm vormen, zie [ het delen voor douanevelden en widgets in een vorm ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/share-custom-fields.md) vormen.
+Voor meer informatie over hoe de gebruikers het delen montages wanneer het delen van een douanevorm vormen, zie [&#x200B; het delen voor douanevelden en widgets in een vorm &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/share-custom-fields.md) vormen.
 
 <table style="table-layout:auto"> 
  <col> 

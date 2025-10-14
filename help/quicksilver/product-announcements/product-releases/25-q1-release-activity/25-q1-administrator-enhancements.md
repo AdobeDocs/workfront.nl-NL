@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Deze pagina beschrijft alle beheerderverhogingen die met Eerste Kwartaal 2025 versie aan het milieu van de Voorproef worden aangebracht. Deze verbeteringen zullen beschikbaar worden gesteld in de productieomgeving, zoals vermeld.
 
-Voor een lijst van alle veranderingen beschikbaar op dit punt in Eerste Kwartaal 2025 versiecyclus, zie [ Eerste Kwartaal 2025 versieoverzicht ](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar op dit punt in Eerste Kwartaal 2025 versiecyclus, zie [&#x200B; Eerste Kwartaal 2025 versieoverzicht &#x200B;](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md).
 
 ## Zakelijke regels worden nu ondersteund voor meer objecten
 
@@ -30,7 +30,7 @@ U kunt nu bedrijfsregels maken en validatie toepassen op deze extra objecten: Co
 
 De volgende voorwerpen werden reeds gesteund voor bedrijfsregels: Project, Taak, Verzoek, Portfolio, Programma, Uitgaven, het Verslag van de Facturering, Groep, Risico, en Kaart van het Tarief.
 
-Voor meer informatie, zie [ bedrijfsregels ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md) creëren en uitgeven.
+Voor meer informatie, zie [&#x200B; bedrijfsregels &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md) creëren en uitgeven.
 
 ## Objecten tussen omgevingen vergelijken voor milieubescherming
 
@@ -42,7 +42,7 @@ Om het gemakkelijker te maken om te bepalen welk voorwerp in een milieu bevorder
 
 Eerder, als een gebruiker voorwerpen tussen milieu&#39;s wilde vergelijken, moeten zij die voorwerpen manueel controleren.
 
-Voor meer informatie, zie [ voorwerpen tussen milieu&#39;s ](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-compare.md) vergelijken.
+Voor meer informatie, zie [&#x200B; voorwerpen tussen milieu&#39;s &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-compare.md) vergelijken.
 
 ## Meer objecten beschikbaar voor milieubescherming
 
@@ -58,7 +58,7 @@ Om de mogelijkheden van de functionaliteit van de milieubevordering uit te breid
 
 Eerder waren deze objecten niet beschikbaar voor milieubescherming.
 
-Voor meer informatie over voorwerpen beschikbaar voor milieubevordering, zie [ Gesteunde voorwerpen voor milieubevordering ](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md#supported-objects-for-environment-promotion) in het de bevorderingsoverzicht van het Milieu van het artikel.
+Voor meer informatie over voorwerpen beschikbaar voor milieubevordering, zie [&#x200B; Gesteunde voorwerpen voor milieubevordering &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md#supported-objects-for-environment-promotion) in het de bevorderingsoverzicht van het Milieu van het artikel.
 
 ## Verplaatsen van taken voorkomen wanneer er uren zijn vastgelegd
 
@@ -68,7 +68,7 @@ Voor meer informatie over voorwerpen beschikbaar voor milieubevordering, zie [ G
 
 Omdat het bewegen van taken of kwesties die het programma geopend uren hebben naleving of controleproblemen soms kunnen veroorzaken, hebben wij een voorkeur in het gebied van de Voorkeur van de Taak &amp; van Kwesties van Opstelling toegevoegd die u toestaat om gebruikers te verhinderen taken en kwesties te bewegen als er uren het programma geopend op hen zijn. Voorafgaand aan deze verbetering, konden de gebruikers taken en kwesties aan andere projecten bewegen, zelfs als er uren het programma werden geopend hen.
 
-Voor informatie, zie [ de taak en de uitgevende voorkeur van het systeem brede ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md) vormen.
+Voor informatie, zie [&#x200B; de taak en de uitgevende voorkeur van het systeem brede &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md) vormen.
 
 ## Voorkeur om project of gebruikersprogramma voor enig-taaktaken te gebruiken
 
@@ -78,7 +78,7 @@ Voor informatie, zie [ de taak en de uitgevende voorkeur van het systeem brede ]
 
 Als systeem of groepsbeheerder, hebt u nu een nieuwe voorkeur om erop te wijzen of Workfront het project of het programma van de gebruiker zou moeten gebruiken om de chronologie van het project te berekenen wanneer u één gebruiker aan een taak toewijst en zowel het project als de gebruiker met een programma wordt geassocieerd. Voorafgaand aan deze verbetering, bestonden deze het plaatsen voor meervoudige gebruikerstoewijzingen. De instelling is nu beschikbaar voor toewijzingen van één gebruiker aan taken.
 
-Voor meer informatie, zie [ systeem-brede projectvoorkeur ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) vormen.
+Voor meer informatie, zie [&#x200B; systeem-brede projectvoorkeur &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) vormen.
 
 ## De bedrijfsregels ondersteunen nu hyperlinks
 
@@ -88,7 +88,7 @@ Voor meer informatie, zie [ systeem-brede projectvoorkeur ](/help/quicksilver/ad
 
 U kunt hyperlinks in het bericht van de douanefout van een bedrijfsregel nu omvatten, om de gebruiker op te begeleiden hoe te om hun actie binnen de beperking van de regel te wijzigen. De statische URL kan worden gekoppeld aan documentatie of andere pagina&#39;s die nuttig zijn voor de gebruiker.
 
-Voor informatie, zie [ bedrijfsregels ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md) creëren en uitgeven.
+Voor informatie, zie [&#x200B; bedrijfsregels &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md) creëren en uitgeven.
 
 ## Filteren op eigen tekstkopvelden is nu beschikbaar
 
@@ -98,7 +98,7 @@ Voor informatie, zie [ bedrijfsregels ](/help/quicksilver/administration-and-set
 
 Wanneer u een native veldverwijzing toevoegt aan een aangepast formulier en het verwijst naar een typeahead-veld (zoals Portfolio, Bedrijf of Eigenaar), is er nu een filteroptie beschikbaar. Met dit filter kunt u de objecten beperken die gebruikers kunnen kiezen wanneer ze het veld gebruiken. Dit aangepaste filter werkt hetzelfde als een filter in een aangepast tekstveld en gebruikt Tekstmodus om het filter te definiëren.
 
-Voor informatie, zie [ een douaneformulier ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren.
+Voor informatie, zie [&#x200B; een douaneformulier &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren.
 
 ## Pictogram &quot;Verplaatsen naar&quot; toegevoegd aan aangepaste velden
 
@@ -108,4 +108,4 @@ Voor informatie, zie [ een douaneformulier ](/help/quicksilver/administration-an
 
 Wanneer een aangepast formulier meerdere secties met veel velden bevat, kan het moeilijk zijn om een veld van de ene sectie naar de andere te verplaatsen door het te slepen en neer te zetten. Aan elk veld is een &quot;verplaatsingspictogram&quot; toegevoegd, waarmee u de sectie kunt selecteren waarin het veld wordt geplaatst.
 
-Voor meer informatie, zie [ organiseren en voorproef een vorm ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md).
+Voor meer informatie, zie [&#x200B; organiseren en voorproef een vorm &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md).

@@ -19,22 +19,22 @@ Berichten van het Aankondigingscentrum zijn berichten die van Adobe Workfront na
 
 * Mededelingen betreffende functionaliteit die op een eigenschap-door-eigenschapbasis buiten deze belangrijke versies wordt vrijgegeven.
 
-  De meeste nieuwe functies die in het Workfront-platform worden geïntroduceerd, worden vrijgegeven in combinatie met een van de vier belangrijkste releases per jaar. Nochtans, wordt sommige functionaliteit vrijgegeven op een eigenschap-door-eigenschapbasis buiten deze belangrijke versies. Telkens wanneer een eigenschap buiten een belangrijke versie wordt vrijgegeven, ontvangt u een bericht via het Centrum van de Aankondiging. (Voor meer informatie over het Centrum van de Aankondiging, zie [ aankondigingen ](../../administration-and-setup/get-started-wf-administration/view-send-announcements.md) verzenden.)
+  De meeste nieuwe functies die in het Workfront-platform worden geïntroduceerd, worden vrijgegeven in combinatie met een van de vier belangrijkste releases per jaar. Nochtans, wordt sommige functionaliteit vrijgegeven op een eigenschap-door-eigenschapbasis buiten deze belangrijke versies. Telkens wanneer een eigenschap buiten een belangrijke versie wordt vrijgegeven, ontvangt u een bericht via het Centrum van de Aankondiging. (Voor meer informatie over het Centrum van de Aankondiging, zie [&#x200B; aankondigingen &#x200B;](../../administration-and-setup/get-started-wf-administration/view-send-announcements.md) verzenden.)
 
 * Aankondigingen betreffende toekomstige trainingsaanbiedingen en evenementen.
 
 Om af te melden van het ontvangen van berichten van het Aankondigingscentrum:
 
-1. Klik het genummerde pictogram ![ pictogram van Meldingen ](assets/notifications-icon-jewel.jpg) in de hoger-juiste hoek van Workfront om uw lijst van berichten te openen.
+1. Klik het genummerde pictogram ![&#x200B; pictogram van Meldingen &#x200B;](assets/notifications-icon-jewel.jpg) in de hoger-juiste hoek van Workfront om uw lijst van berichten te openen.
 1. Klik **Alle Mededelingen** bij de bodem van de lijst.
 
    De **pagina van Mededelingen** verschijnt, die van elk van uw aankondigingen een lijst maken.
 
-   ![ de pagina van Mededelingen ](assets/announcements-page-qs-350x210.png)
+   ![&#x200B; de pagina van Mededelingen &#x200B;](assets/announcements-page-qs-350x210.png)
 
 1. Klik **Montages** in de hoger-juiste hoek van de pagina van Mededelingen, dan selecteren **Nieuwe Versies** of **Opleiding**, afhankelijk van het type van aankondigingen u niet meer wilt ontvangen.
 
-   ![ montages van het het centrum van de Aankondiging ](assets/announcementcenter-settings-350x187.png)
+   ![&#x200B; montages van het het centrum van de Aankondiging &#x200B;](assets/announcementcenter-settings-350x187.png)
 
 1. Klik **sparen Montages**.
 

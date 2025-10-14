@@ -30,11 +30,11 @@ Hieronder volgen enkele richtlijnen voor de werking van kolombreedten in Adobe W
 
 * U kunt de breedte van de kolommen in uw Workfront-lijsten en -rapporten aan uw wensen aanpassen, afhankelijk van het type informatie dat u in kolommen wilt weergeven.
 
-  U kunt de breedte van kolommen tijdelijk wijzigen tijdens het weergeven van een lijst of rapport, of permanent, door de breedte van de kolom aan te passen in de weergavebuilder. Voor informatie over het tijdelijk wijzigen van de breedte van kolommen, zie de [ Overwegingen wanneer tijdelijk het wijzigen van de breedte en de orde van kolommen ](#considerations-when-temporarily-modifying-the-width-and-order-of-columns) sectie in dit artikel.
+  U kunt de breedte van kolommen tijdelijk wijzigen tijdens het weergeven van een lijst of rapport, of permanent, door de breedte van de kolom aan te passen in de weergavebuilder. Voor informatie over het tijdelijk wijzigen van de breedte van kolommen, zie de [&#x200B; Overwegingen wanneer tijdelijk het wijzigen van de breedte en de orde van kolommen &#x200B;](#considerations-when-temporarily-modifying-the-width-and-order-of-columns) sectie in dit artikel.
 
 * Kolommen die in ingebouwde weergaven worden weergegeven, hebben breedten die eerder door Workfront zijn gedefinieerd en die een harde code hebben. Als u deze breedten wilt wijzigen, moet u de breedte van deze kolommen handmatig bijwerken met de tekstmodus in de weergavebuilder.
 
-  Voor informatie over het wijzigen van de kolom op tekstwijze, zie [ Mening: geef permanent de breedte van een kolom ](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-edit-column-width-permanently.md) uit.
+  Voor informatie over het wijzigen van de kolom op tekstwijze, zie [&#x200B; Mening: geef permanent de breedte van een kolom &#x200B;](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-edit-column-width-permanently.md) uit.
 
 ## Toegangsvereisten
 
@@ -74,7 +74,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-*For informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*For informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -82,17 +82,17 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 U kunt de breedte en de volgorde van de kolommen in uw rapporten op de volgende manieren wijzigen:
 
-* [ wijzigt tijdelijk breedte en orde van kolommen ](#modify-width-and-order-of-columns-temporarily)
+* [&#x200B; wijzigt tijdelijk breedte en orde van kolommen &#x200B;](#modify-width-and-order-of-columns-temporarily)
 * [Breedte en volgorde van kolommen permanent wijzigen](#modify-width-and-order-of-columns-permanently)
 
 ### De breedte en volgorde van kolommen tijdelijk wijzigen {#modify-width-and-order-of-columns-temporarily}
 
 U kunt kolomranden slepen om de grootte van kolommen te wijzigen en kolommen te slepen en neer te zetten om deze in de meeste lijsten tijdelijk opnieuw te rangschikken op de Workfront-site. Dit zijn rapporten, weergaven, rapporten op dashboards en de Gantt-weergave.
 
-Voor meer informatie over de lijsten van Workfront, zie het artikel [ begonnen worden met lijsten in Adobe Workfront ](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
+Voor meer informatie over de lijsten van Workfront, zie het artikel [&#x200B; begonnen worden met lijsten in Adobe Workfront &#x200B;](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
 
-* [ Overwegingen wanneer tijdelijk het wijzigen van de breedte en de orde van kolommen ](#considerations-when-temporarily-modifying-the-width-and-order-of-columns)
-* [ vergroot tijdelijk kolommen ](#resize-columns-temporarily)
+* [&#x200B; Overwegingen wanneer tijdelijk het wijzigen van de breedte en de orde van kolommen &#x200B;](#considerations-when-temporarily-modifying-the-width-and-order-of-columns)
+* [&#x200B; vergroot tijdelijk kolommen &#x200B;](#resize-columns-temporarily)
 * [Kolommen tijdelijk opnieuw ordenen](#reorder-columns-temporarily)
 
 #### Overwegingen bij het tijdelijk wijzigen van de breedte en volgorde van kolommen {#considerations-when-temporarily-modifying-the-width-and-order-of-columns}
@@ -105,7 +105,7 @@ Houd rekening met het volgende wanneer u tijdelijk kolommen groter/kleiner maakt
 
 >[!NOTE]
 > 
->Kolombreedten worden beperkt door het formaat van het browservenster. Als de pagina wordt vernieuwd, worden de kolommen breder totdat alle kolommen in het venster passen zonder horizontaal te schuiven. Om een kolom te dwingen breder te blijven dan browser zal passen, moet u de breedte van de kolom op tekstwijze plaatsen zoals die in [ wordt beschreven wijzigt breedte en orde van kolommen permanent ](#modify-width-and-order-of-columns-permanently) en vermijdt manueel om het even welke kolombreedten aan te passen door hun grenzen te slepen.
+>Kolombreedten worden beperkt door het formaat van het browservenster. Als de pagina wordt vernieuwd, worden de kolommen breder totdat alle kolommen in het venster passen zonder horizontaal te schuiven. Om een kolom te dwingen breder te blijven dan browser zal passen, moet u de breedte van de kolom op tekstwijze plaatsen zoals die in [&#x200B; wordt beschreven wijzigt breedte en orde van kolommen permanent &#x200B;](#modify-width-and-order-of-columns-permanently) en vermijdt manueel om het even welke kolombreedten aan te passen door hun grenzen te slepen.
 >
 
 * Wanneer u de kolommen opnieuw rangschikt, blijft de gekozen volgorde alleen behouden totdat u van de lijst af navigeert of de browserpagina vernieuwt. Na het navigeren weg van de lijst of het verfrissen van de browser pagina, keren de kolommen aan hun standaardorde terug.
@@ -123,13 +123,13 @@ Houd rekening met het volgende wanneer u tijdelijk kolommen groter/kleiner maakt
 
 * Als u een lijst naar een bestand exporteert, wordt de tijdelijke volgorde van de kolommen niet overgedragen naar het geëxporteerde bestand. In het geëxporteerde bestand wordt de volgorde van de kolommen in de oorspronkelijke lijst weergegeven voordat de volgorde van de kolommen is gewijzigd.
 
-Voor meer informatie over het uitvoeren van gegevens van lijsten en rapporten, zie de gegevens van de artikel [ Uitvoer ](../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md).
+Voor meer informatie over het uitvoeren van gegevens van lijsten en rapporten, zie de gegevens van de artikel [&#x200B; Uitvoer &#x200B;](../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md).
 
 #### Kolommen tijdelijk vergroten/verkleinen {#resize-columns-temporarily}
 
 1. Ga naar de lijst die u wilt wijzigen.
 1. Sleep de rand van een kolomkop tot de kolom de gewenste grootte heeft bereikt.\
-   ![ Resize kolom ](assets/column-resize-350x124.png)
+   ![&#x200B; Resize kolom &#x200B;](assets/column-resize-350x124.png)
 
 #### Kolommen tijdelijk opnieuw ordenen {#reorder-columns-temporarily}
 
@@ -142,8 +142,8 @@ Voor meer informatie over het uitvoeren van gegevens van lijsten en rapporten, z
 
 ### Breedte en volgorde van kolommen permanent wijzigen {#modify-width-and-order-of-columns-permanently}
 
-Om kolommen permanent opnieuw in orde te brengen, zie de sectie [ een standaardmening ](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md#customizing-a-standard-view) in het artikel [ overzicht van Meningen in Adobe Workfront ](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md) creëren of aanpassen.
+Om kolommen permanent opnieuw in orde te brengen, zie de sectie [&#x200B; een standaardmening &#x200B;](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md#customizing-a-standard-view) in het artikel [&#x200B; overzicht van Meningen in Adobe Workfront &#x200B;](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md) creëren of aanpassen.
 
 U kunt de breedte van een kolom alleen permanent wijzigen in de tekstmodus.
 
-Voor meer informatie over het gebruiken van tekstwijze en permanent het wijzigen van de breedte van een kolom, zie het artikel [ Overzicht van gemeenschappelijk gebruik voor de Wijze van de Tekst ](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md).
+Voor meer informatie over het gebruiken van tekstwijze en permanent het wijzigen van de breedte van een kolom, zie het artikel [&#x200B; Overzicht van gemeenschappelijk gebruik voor de Wijze van de Tekst &#x200B;](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md).

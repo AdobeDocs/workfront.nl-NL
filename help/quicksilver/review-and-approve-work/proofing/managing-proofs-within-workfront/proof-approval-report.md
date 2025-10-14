@@ -56,7 +56,7 @@ U moet het volgende hebben:
 
 1. Klik **Nieuw Rapport**, dan rol om **Goedkeuring van het Bewijs** te selecteren.
 
-   ![ rapport van de Goedkeuring van het Bewijs ](assets/proof-approval-report.png)
+   ![&#x200B; rapport van de Goedkeuring van het Bewijs &#x200B;](assets/proof-approval-report.png)
 
 1. (Optioneel) Voeg aanvullende velden toe.
 1. Klik **sparen + Sluiten**.

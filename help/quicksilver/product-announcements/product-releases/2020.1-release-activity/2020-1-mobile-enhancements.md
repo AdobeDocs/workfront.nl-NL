@@ -19,16 +19,16 @@ ht-degree: 0%
 
 Op deze pagina worden alle verbeteringen beschreven die zijn aangebracht in Mobile met de release 2020.1.
 
-Voor een lijst van alle veranderingen beschikbaar met de versie 2020.1, zie [ overzicht van de versie 2020.1 ](../../../product-announcements/product-releases/2020.1-release-activity/2020-1-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar met de versie 2020.1, zie [&#x200B; overzicht van de versie 2020.1 &#x200B;](../../../product-announcements/product-releases/2020.1-release-activity/2020-1-release-overview.md).
 
 ## Naadloze ervaring tussen de mobiele app en het web
 
 Om uw ervaring consistenter te maken wanneer u Workfront zowel op de mobiele app als op het web gebruikt, wordt elke aanpassing van de secundaire navigatie in het linkerdeelvenster in de nieuwe of bestaande lay-outsjablonen automatisch weerspiegeld in de mobiele app.
 
-Meer leren over het aanpassen van het linkerpaneel, zie [ het linkerpaneel aanpassen gebruikend een Malplaatje van de Lay-out in de nieuwe ervaring van Workfront ](https://experienceleague.adobe.com/nl/docs/workfront/using/home).
+Meer leren over het aanpassen van het linkerpaneel, zie [&#x200B; het linkerpaneel aanpassen gebruikend een Malplaatje van de Lay-out in de nieuwe ervaring van Workfront &#x200B;](https://experienceleague.adobe.com/nl/docs/workfront/using/home).
 
 ## Net als updates voor de mobiele app
 
 Gebruik de nieuwe gelijkaardige knoop op het lusje van Updates om van een update te houden.
 
-Voor meer informatie, zie [ Adobe Workfront voor iOS ](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md) en [ Adobe Workfront voor Android ](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md).
+Voor meer informatie, zie [&#x200B; Adobe Workfront voor iOS &#x200B;](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md) en [&#x200B; Adobe Workfront voor Android &#x200B;](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md).

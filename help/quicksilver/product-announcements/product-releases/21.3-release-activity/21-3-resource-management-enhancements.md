@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Op deze pagina worden alle verbeteringen in het beheer van bronnen beschreven die zijn aangebracht met de versie 21.3 voor de voorvertoningsomgeving. Deze verbeteringen zijn in de week van 21 juli 2021 beschikbaar gesteld in de productieomgeving.
 
-Voor een lijst van alle veranderingen beschikbaar met de versie 21.3, zie [ overzicht van de Versie 21.3 ](../../../product-announcements/product-releases/21.3-release-activity/21-3-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar met de versie 21.3, zie [&#x200B; overzicht van de Versie 21.3 &#x200B;](../../../product-announcements/product-releases/21.3-release-activity/21-3-release-overview.md).
 
 ## Rollen niet meer deactiveren
 
@@ -29,5 +29,5 @@ Om u de zelfde ervaring aan te bieden zoals met gebruikers, teams, en bedrijven,
 
 De taken en de kwesties die aan een gedeactiveerde rol evenals goedkeuringsprocessen of het verpletteren van regels worden toegewezen blijven aan deze rollen worden toegewezen. U moet deze objecten bijwerken als u de niet-actieve rol wilt vervangen door een actieve rol als ze nog niet zijn voltooid.
 
-Voor meer informatie, zie [ baanrollen ](../../../administration-and-setup/set-up-workfront/organizational-setup/deactivate-job-roles.md) deactiveren.
+Voor meer informatie, zie [&#x200B; baanrollen &#x200B;](../../../administration-and-setup/set-up-workfront/organizational-setup/deactivate-job-roles.md) deactiveren.
 

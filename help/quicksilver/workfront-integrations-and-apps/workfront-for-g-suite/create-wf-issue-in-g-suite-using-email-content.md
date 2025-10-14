@@ -26,15 +26,15 @@ ht-degree: 0%
 >
 >We raden u aan Workfront Automation and Integration te gebruiken voor de integratiebehoeften van uw organisatie met Google Workspace.
 >
->Voor een overzicht van de Automatisering en de Integratie van Workfront, zie [ het overzicht van de Fusie van Adobe Workfront ](https://experienceleague.adobe.com/nl/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+>Voor een overzicht van de Automatisering en de Integratie van Workfront, zie [&#x200B; het overzicht van de Fusie van Adobe Workfront &#x200B;](https://experienceleague.adobe.com/nl/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 >
->Voor informatie over de specifieke mogelijkheden van de modules van de Automatisering en van de Integratie van Workfront voor Google Workspace, zie [ modules van Gmail ](https://experienceleague.adobe.com/nl/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/gmail-modules) en [ modules van de Kalender van Google ](https://experienceleague.adobe.com/nl/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-calendar-modules).
+>Voor informatie over de specifieke mogelijkheden van de modules van de Automatisering en van de Integratie van Workfront voor Google Workspace, zie [&#x200B; modules van Gmail &#x200B;](https://experienceleague.adobe.com/nl/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/gmail-modules) en [&#x200B; modules van de Kalender van Google &#x200B;](https://experienceleague.adobe.com/nl/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-calendar-modules).
 
 U kunt een externe e-mail (niet gegenereerd door [!DNL Adobe Workfront]) converteren naar een [!DNL Workfront] -uitgave.
 
-U kunt ook een externe e-mail converteren naar een update over een bestaande uitgave. Voor meer informatie, zie [ Update een  [!DNL Adobe Workfront]  punt van  [!DNL Google Workspace]  gebruikend e-mailinhoud ](../../workfront-integrations-and-apps/workfront-for-g-suite/update-wf-item-using-email-content.md).
+U kunt ook een externe e-mail converteren naar een update over een bestaande uitgave. Voor meer informatie, zie [&#x200B; Update een  [!DNL Adobe Workfront]  punt van  [!DNL Google Workspace]  gebruikend e-mailinhoud &#x200B;](../../workfront-integrations-and-apps/workfront-for-g-suite/update-wf-item-using-email-content.md).
 
-Voor informatie over het gebruiken van [!DNL Google Workspace] om met bericht te werken e-mails die door [!DNL Workfront] worden verzonden, zie [  [!DNL Adobe Workfront]  berichtdetails van  [!DNL Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/manage-wf-email-notification-details-in-gsuite.md) leiden.
+Voor informatie over het gebruiken van [!DNL Google Workspace] om met bericht te werken e-mails die door [!DNL Workfront] worden verzonden, zie [&#x200B;  [!DNL Adobe Workfront]  berichtdetails van  [!DNL Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/manage-wf-email-notification-details-in-gsuite.md) leiden.
 
 ## Toegangsvereisten
 
@@ -62,14 +62,14 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 Voordat u een uitgave kunt maken van [!DNL Google Workspace] , moet u
 
 * Installeren [!DNL Workfront for Google Workspace]\
-   Voor instructies, zie [ installeren  [!DNL Adobe Workfront for Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/install-workfront-for-gsuite.md).
+   Voor instructies, zie [&#x200B; installeren  [!DNL Adobe Workfront for Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/install-workfront-for-gsuite.md).
 
 ## Een [!DNL Adobe Workfront] uitgave in [!DNL Google Workspace] maken met e-mailinhoud
 
-1. Als het [!UICONTROL Workfront for Google Workspace] paneel niet wordt getoond, klik het [!DNL Workfront] pictogram ![ pictogram van Workfront ](assets/wf-lion-icon.png) in [!DNL Google Workspace] toe:voegen-ons sidebar bij uiterst rechts van de pagina.
+1. Als het [!UICONTROL Workfront for Google Workspace] paneel niet wordt getoond, klik het [!DNL Workfront] pictogram ![&#x200B; pictogram van Workfront &#x200B;](assets/wf-lion-icon.png) in [!DNL Google Workspace] toe:voegen-ons sidebar bij uiterst rechts van de pagina.
 1. Open het e-mailbericht in [!DNL Google Workspace] en klik op een optie in [!DNL Workfront for Google Workspace] om het e-mailbericht om te zetten in een nieuwe [!DNL Workfront] -uitgave.
 
-   ![ zet e-mail ](assets/convert-email-task-issue-update.png) om
+   ![&#x200B; zet e-mail &#x200B;](assets/convert-email-task-issue-update.png) om
 
 1. Als u de uitgave aan een ouderproject wilt vastmaken, klik **[!UICONTROL Project name]**, begin de naam van het project te typen waar u de kwestie wilt, dan klik de projectnaam wanneer het in de hieronder lijst verschijnt.
 1. Breng een van de volgende wijzigingen aan:

@@ -17,6 +17,6 @@ ht-degree: 0%
 
 # Revisoren van proefdrukken beheren
 
-* [ vorm toegang en abonnementmontages voor een proef ](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/configure-access-subscription-settings-proof.md)
-* [ Deel een proef binnen Adobe Workfront ](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md)
+* [&#x200B; vorm toegang en abonnementmontages voor een proef &#x200B;](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/configure-access-subscription-settings-proof.md)
+* [&#x200B; Deel een proef binnen Adobe Workfront &#x200B;](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md)
 * [E-mailberichten sturen naar revisoren op een proefdruk](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/send-email-messages-to-users-proof.md)

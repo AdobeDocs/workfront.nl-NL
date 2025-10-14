@@ -54,14 +54,14 @@ Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licen
 
 {{step1-to-priorities}}
 
-1. Beweeg over de naam, dan klik **Meer** ![ Meer pictogram ](assets/more-icon.png) pictogram.
+1. Beweeg over de naam, dan klik **Meer** ![&#x200B; Meer pictogram &#x200B;](assets/more-icon.png) pictogram.
 1. Klik **uploaden**.
-   ![ Update, logboektijd, en upload ](assets/update-log-upload.png)
+   ![&#x200B; Update, logboektijd, en upload &#x200B;](assets/update-log-upload.png)
 1. (Facultatief) in **uploadt Dossiers** doos, selecteer een omslag.
 1. Sleep het bestand of Cmd/Ctrl + V om het van het klembord te plakken
 of
 Klik **toevoegen dossiers** om dossiers te doorbladeren of dossiers van een leverancier van Document Cloud in te voeren.
-   ![ voeg dossiers ](assets/add-files.png) toe
+   ![&#x200B; voeg dossiers &#x200B;](assets/add-files.png) toe
 1. (Optioneel) Voeg een opmerking toe.
 1. (Optioneel) Voeg meer bestanden toe.
 
@@ -80,7 +80,7 @@ Klik **toevoegen dossiers** om dossiers te doorbladeren of dossiers van een leve
 1. Sleep het bestand of Cmd/Ctrl + V om het van het klembord te plakken
 of
 Klik **toevoegen dossiers** om dossiers te doorbladeren of dossiers van een leverancier van Document Cloud in te voeren.
-   ![ voeg dossiers ](assets/add-files.png) toe
+   ![&#x200B; voeg dossiers &#x200B;](assets/add-files.png) toe
 1. (Optioneel) Voeg een opmerking toe.
 1. (Optioneel) Voeg meer bestanden toe.
 

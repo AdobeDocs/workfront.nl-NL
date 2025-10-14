@@ -58,7 +58,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -73,11 +73,11 @@ U kunt een document uploaden naar een tijdelijk item vanuit de werklijst of de p
 
 1. In de werklijst, houd over de het werknaam, dan klik **pictogram van de Samenvatting** open samenvattingspictogram ![.](assets/summary-icon.png)
 1. Verzeker u op de **Taak** of **Kwesties** lusje in het summiere paneel bent.
-1. Klik **uploaden het pictogram van het Dossier** pictogram ![ uploadt dossierpictogram ](assets/upload-file-icon.png).
+1. Klik **uploaden het pictogram van het Dossier** pictogram ![&#x200B; uploadt dossierpictogram &#x200B;](assets/upload-file-icon.png).
 1. Sleep het bestand of Cmd/Ctrl + V om het van het klembord te plakken
 of
 Klik **toevoegen dossiers** om dossiers te doorbladeren of dossiers van een leverancier van Document Cloud in te voeren.
-   ![ voeg dossiers ](assets/add-files.png) toe
+   ![&#x200B; voeg dossiers &#x200B;](assets/add-files.png) toe
 1. (Optioneel) Voeg een opmerking toe.
 1. (Optioneel) Voeg meer bestanden toe.
 
@@ -96,7 +96,7 @@ Klik **toevoegen dossiers** om dossiers te doorbladeren of dossiers van een leve
 1. Sleep het bestand of Cmd/Ctrl + V om het van het klembord te plakken
 of
 Klik **toevoegen dossiers** om dossiers te doorbladeren of dossiers van een leverancier van Document Cloud in te voeren.
-   ![ voeg dossiers ](assets/add-files.png) toe
+   ![&#x200B; voeg dossiers &#x200B;](assets/add-files.png) toe
 1. (Optioneel) Voeg een opmerking toe.
 1. (Optioneel) Voeg meer bestanden toe.
 
@@ -117,8 +117,8 @@ U kunt een proef van een document van de werklijst of de pagina van de Details v
 
 1. In de werklijst, houd over de het werknaam, dan klik **pictogram van de Samenvatting** open samenvattingspictogram ![.](assets/summary-icon.png)
 1. Verzeker u op de **Taak** of **Kwesties** lusje in het summiere paneel bent.
-1. Klik het **pictogram van Documenten** het pictogram van Documenten ![ in de rechterzijspoor.](assets/show-document-icon.png)
-1. Klik het **uploadt dossier** pictogram ![ uploadt dossierpictogram ](assets/upload-file-icon.png), dan kies het dossier.
+1. Klik het **pictogram van Documenten** het pictogram van Documenten ![&#x200B; in de rechterzijspoor.](assets/show-document-icon.png)
+1. Klik het **uploadt dossier** pictogram ![&#x200B; uploadt dossierpictogram &#x200B;](assets/upload-file-icon.png), dan kies het dossier.
 
    >[!NOTE]
    >
@@ -157,8 +157,8 @@ U kunt een proef van een document van de werklijst of de pagina van de Details v
 1. Klik het **lusje van Documenten** bij de bovenkant van het scherm.
 1. Klik **uploaden document** in de hoger-juiste hoek, dan selecteren **Bewijs**.
 1. Een proefdruk maken zoals beschreven in
-   [ creeer een geavanceerd bewijs met een Basiswerkschema ](/help/quicksilver/review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md)
-   [ creeer een geavanceerd bewijs met een Geautomatiseerd werkschema ](/help/quicksilver/review-and-approve-work/proofing/creating-proofs-within-workfront/create-automated-proof-workflow.md)
+   [&#x200B; creeer een geavanceerd bewijs met een Basiswerkschema &#x200B;](/help/quicksilver/review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md)
+   [&#x200B; creeer een geavanceerd bewijs met een Geautomatiseerd werkschema &#x200B;](/help/quicksilver/review-and-approve-work/proofing/creating-proofs-within-workfront/create-automated-proof-workflow.md)
 
 <!--
 

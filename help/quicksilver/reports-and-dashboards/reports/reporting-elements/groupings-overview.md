@@ -26,17 +26,17 @@ U kunt op de volgende manieren groepen aan rapporten toevoegen:
 
 * U kunt groepen maken door bestaande groepen te bewerken.
 
-  Voor informatie over het aanpassen van een bestaande Groepering, zie [ bestaande groeperingen ](../../../reports-and-dashboards/reports/reporting-elements/edit-existing-groupings.md) uitgeven.
+  Voor informatie over het aanpassen van een bestaande Groepering, zie [&#x200B; bestaande groeperingen &#x200B;](../../../reports-and-dashboards/reports/reporting-elements/edit-existing-groupings.md) uitgeven.
 
 * U kunt geheel nieuwe groepen maken.
 
-  Voor informatie over het creëren van een groepering van kras, zie [ groepen in Adobe Workfront ](../../../reports-and-dashboards/reports/reporting-elements/create-groupings.md) creëren.
+  Voor informatie over het creëren van een groepering van kras, zie [&#x200B; groepen in Adobe Workfront &#x200B;](../../../reports-and-dashboards/reports/reporting-elements/create-groupings.md) creëren.
 
 Standaard worden groepen weergegeven in een grijze markering in uw rapport of lijst. De resultaten van het rapport of de lijst worden vermeld onder hun individuele groepering, zonder nadruk.
 
-![ het voorbeeld van Groepen ](assets/grouping-example-blue.png)
+![&#x200B; het voorbeeld van Groepen &#x200B;](assets/grouping-example-blue.png)
 
-U kunt maximaal drie groepen aan een rapport toevoegen. U kunt uw informatie met maximaal vier groepen organiseren door een matrixrapport te maken. Voor meer informatie over matrixrapporten, zie [ een matrixrapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md) creëren.
+U kunt maximaal drie groepen aan een rapport toevoegen. U kunt uw informatie met maximaal vier groepen organiseren door een matrixrapport te maken. Voor meer informatie over matrixrapporten, zie [&#x200B; een matrixrapport &#x200B;](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md) creëren.
 
 Het getal tussen haakjes achter de naam van de groep geeft het aantal resultaten onder die groep aan. Als uw rapport veelvoudige pagina&#39;s overspant, zorg ervoor dat u *allen* de resultaten in het rapport of de lijst toont om een nauwkeurige telling voor uw resultaten onder elke groepering te krijgen.
 
@@ -45,10 +45,10 @@ Houd rekening met het volgende wanneer u werkt met groepen:
 * U kunt de gegevens in bestaande groepen aanpassen. Alle gebruikers die de groepen kunnen bekijken, kunnen uw veranderingen ook zien.
 * Uw Workfront-beheerder moet u toegang geven tot Filters, Weergaven en Groepen bewerken om groepen te maken.
 
-  Voor informatie over het verlenen van toegang tot Filters, Meningen, en Groepen, zie [ toegang van de Verlening tot filters, meningen, en groeperingen ](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md).
+  Voor informatie over het verlenen van toegang tot Filters, Meningen, en Groepen, zie [&#x200B; toegang van de Verlening tot filters, meningen, en groeperingen &#x200B;](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md).
 
 * Uw niveau van toestemmingen aan een groepering dicteert hoe een groepering wordt bewaard. Als u de groep oorspronkelijk hebt gemaakt, kunt u de wijzigingen opslaan. Als u dit niet doet, wordt u gevraagd een versie van de groep op te slaan. Als u wijzigingen aanbrengt in een groep die u met anderen hebt gedeeld, heeft dit ook invloed op deze groepen.
-* U kunt een groepering aanpassen die met u werd gedeeld slechts als de gebruiker die het deelde u toegang leidde verleende. Voor informatie over het delen van een groepering, zie [ een filter, mening, of groepering ](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md) delen.
+* U kunt een groepering aanpassen die met u werd gedeeld slechts als de gebruiker die het deelde u toegang leidde verleende. Voor informatie over het delen van een groepering, zie [&#x200B; een filter, mening, of groepering &#x200B;](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md) delen.
 * U kunt een groepering niet inline bewerken.
 * U kunt niet groeperen op meerdere geselecteerde aangepaste velden (bijvoorbeeld selectievakjes) of op velden die meerdere waarden kunnen hebben (bijvoorbeeld Resource Manager).
 
@@ -56,13 +56,13 @@ Houd rekening met het volgende wanneer u werkt met groepen:
 
 U kunt rapportinformatie verder beheren wanneer het gebruiken van Groepen door de waarden in elke kolom op de rij van de Groepering samen te voegen, evenals uw informatie te sorteren door het gebied van uw Groepering. U kunt een groepering ook verwijderen wanneer deze niet meer nodig is.
 
-* [ samengevoegde waarden in groeperingen ](#aggregate-values-in-groupings)
-* [ Soort door een groepering ](#sort-by-a-grouping)
+* [&#x200B; samengevoegde waarden in groeperingen &#x200B;](#aggregate-values-in-groupings)
+* [&#x200B; Soort door een groepering &#x200B;](#sort-by-a-grouping)
 * [Een groep verwijderen](#remove-a-grouping)
 
 ### Samengevoegde waarden in groepen {#aggregate-values-in-groupings}
 
-U kunt de gegevens samenvoegen die in uw rapport in uw groeperingslijn worden getoond door de waarden in elke kolom van het rapport samen te vatten. Voor meer informatie over het samenvatten van kolomgegevens in een groepering, zie [ Overzicht van Meningen in Adobe Workfront ](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+U kunt de gegevens samenvoegen die in uw rapport in uw groeperingslijn worden getoond door de waarden in elke kolom van het rapport samen te vatten. Voor meer informatie over het samenvatten van kolomgegevens in een groepering, zie [&#x200B; Overzicht van Meningen in Adobe Workfront &#x200B;](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
 
 >[!NOTE]
@@ -78,7 +78,7 @@ U kunt de gegevens samenvoegen die in uw rapport in uw groeperingslijn worden ge
 
 ### Sorteren op een groep {#sort-by-a-grouping}
 
-Groepen kunnen niet worden gesorteerd. U kunt weergaven sorteren. Als u een lijst wilt sorteren op de waarde die in de groep is vastgelegd, moet u dezelfde waarde in een van de kolommen van de weergave opnemen en de sortering in de weergave toepassen. Op deze manier wordt in de lijst gesorteerd op de waarde in de groep (er wordt gesorteerd op de waarde in de weergave die ook in de groep wordt vastgelegd). Voor meer informatie over het creëren van meningen en het sorteren door waarden binnen de meningen, zie [ Overzicht van Meningen in Adobe Workfront ](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+Groepen kunnen niet worden gesorteerd. U kunt weergaven sorteren. Als u een lijst wilt sorteren op de waarde die in de groep is vastgelegd, moet u dezelfde waarde in een van de kolommen van de weergave opnemen en de sortering in de weergave toepassen. Op deze manier wordt in de lijst gesorteerd op de waarde in de groep (er wordt gesorteerd op de waarde in de weergave die ook in de groep wordt vastgelegd). Voor meer informatie over het creëren van meningen en het sorteren door waarden binnen de meningen, zie [&#x200B; Overzicht van Meningen in Adobe Workfront &#x200B;](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
 ### Een groep verwijderen {#remove-a-grouping}
 
@@ -87,7 +87,7 @@ Hoe u een groep verwijdert, hangt af van het feit of u de groepering hebt gemaak
 * **als u het groeperen creeerde en u het** verwijdert, wordt het groeperen verwijderd uit het systeem van Workfront. De groepering is niet meer beschikbaar voor gebruikers met wie u deze eerder hebt gedeeld.
 * **als het groeperen met u werd gedeeld en u het** verwijdert, wordt het groeperen verwijderd slechts voor u. De gebruiker die het oorspronkelijk creeerde en om het even welke andere gebruikers het met is gedeeld hebben nog toegang tot de groepering.
 
-Voor informatie over het verwijderen van een groepering, zie het artikel [ filters, meningen, en groeperingen ](../../../reports-and-dashboards/reports/reporting-elements/remove-filters-views-groupings.md) verwijderen.
+Voor informatie over het verwijderen van een groepering, zie het artikel [&#x200B; filters, meningen, en groeperingen &#x200B;](../../../reports-and-dashboards/reports/reporting-elements/remove-filters-views-groupings.md) verwijderen.
 
 
 <!--Original note

@@ -24,7 +24,7 @@ U kunt een subgroep ook tot een groep op hoofdniveau maken door deze uit de bove
 
 Als er om het even welke groepen boven uw groep zijn, kunnen hun beheerders deze dingen voor uw groep ook doen. Hetzelfde geldt voor Workfront-beheerders (voor elke groep).
 
-Voor meer informatie over subgroepen, zie [ Overzicht Subgroups ](../../../administration-and-setup/manage-groups/groups-overview/subgroups.md).
+Voor meer informatie over subgroepen, zie [&#x200B; Overzicht Subgroups &#x200B;](../../../administration-and-setup/manage-groups/groups-overview/subgroups.md).
 
 >[!TIP]
 >
@@ -67,7 +67,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -75,7 +75,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 {{step-1-to-setup}}
 
-1. In het linkerpaneel, klik **Groepen** ![ Groepen ](assets/groups-icon.png).
+1. In het linkerpaneel, klik **Groepen** ![&#x200B; Groepen &#x200B;](assets/groups-icon.png).
 
    In de lijst die wordt weergegeven, ziet u de groepen die u beheert, samen met eventuele subgroepen die u beheert. Adobe Workfront-beheerders kunnen alle groepen zien.
 
@@ -85,7 +85,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
    Of, als u nieuwe subgroep onder een andere subgroep in de lijst wilt tot stand brengen, selecteer die subgroep, dan klik **subgroep** toevoegen.
 
-   Voor informatie over de opties kunt u gebruiken om subgroup te vormen, zie [ een subgroep ](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-subgroups/create-a-subgroup.md) creëren.
+   Voor informatie over de opties kunt u gebruiken om subgroup te vormen, zie [&#x200B; een subgroep &#x200B;](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-subgroups/create-a-subgroup.md) creëren.
 
    Een groepshiërarchie kan niet meer dan 15 niveaus zijn, maar één niveau kan een onbeperkt aantal parallelle groepen hebben.
 
@@ -97,7 +97,7 @@ Een groepshiërarchie kan niet meer dan 15 niveaus zijn, maar één niveau kan e
 
 {{step-1-to-setup}}
 
-1. In het linkerpaneel, klik **Groepen** ![ Groepen ](assets/groups-icon.png).
+1. In het linkerpaneel, klik **Groepen** ![&#x200B; Groepen &#x200B;](assets/groups-icon.png).
 
    In de lijst die wordt weergegeven, ziet u de groepen die u beheert, samen met eventuele subgroepen die u beheert. Adobe Workfront-beheerders kunnen alle groepen zien.
 
@@ -112,7 +112,7 @@ Een groepshiërarchie kan niet meer dan 15 niveaus zijn, maar één niveau kan e
 
    De resultaten die worden weergegeven, bevatten geen groepen boven de doelgroep.
 
-   U kunt ervoor zorgen u de juiste groep selecteert door over het te hangen en het informatiepictogram ![ informatiepictogram ](assets/info-icon.png) te klikken dat naast het toont. Hier wordt knopinfo weergegeven met informatie over de groep, zoals de hiërarchie van de bovenliggende groepen en de bijbehorende beheerders.
+   U kunt ervoor zorgen u de juiste groep selecteert door over het te hangen en het informatiepictogram ![&#x200B; informatiepictogram &#x200B;](assets/info-icon.png) te klikken dat naast het toont. Hier wordt knopinfo weergegeven met informatie over de groep, zoals de hiërarchie van de bovenliggende groepen en de bijbehorende beheerders.
 
 1. Selecteer de naam van de subgroep die u wilt verplaatsen wanneer u deze in de lijst opzoekt.
 1. Herhaal stap 7-8 voor alle andere subgroepen die u naar de doelgroep wilt verplaatsen.
@@ -122,15 +122,15 @@ Een groepshiërarchie kan niet meer dan 15 niveaus zijn, maar één niveau kan e
 
 {{step-1-to-setup}}
 
-1. In het linkerpaneel, klik **Groepen** ![ Groepen ](assets/groups-icon.png).
+1. In het linkerpaneel, klik **Groepen** ![&#x200B; Groepen &#x200B;](assets/groups-icon.png).
 
    In de lijst die wordt weergegeven, ziet u de groepen die u beheert, samen met eventuele subgroepen die u beheert. Adobe Workfront-beheerders kunnen alle groepen zien.
 
 1. Klik op de naam van de groep die de subgroep bevat die u wilt bewerken.
 1. In het linkermenu, klik **Subgroups**.
-1. Selecteer subgroup u wilt uitgeven, dan **uitgeven** pictogram ![ uitgeven pictogram ](assets/edit-icon.png).
+1. Selecteer subgroup u wilt uitgeven, dan **uitgeven** pictogram ![&#x200B; uitgeven pictogram &#x200B;](assets/edit-icon.png).
 
-   Voor informatie over de opties kunt u gebruiken om subgroup te vormen, zie [ een subgroep ](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-subgroups/create-a-subgroup.md) creëren.
+   Voor informatie over de opties kunt u gebruiken om subgroup te vormen, zie [&#x200B; een subgroep &#x200B;](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-subgroups/create-a-subgroup.md) creëren.
 
 ## Een subgroep kopiëren
 
@@ -152,16 +152,16 @@ Een subgroep kopiëren:
 
 {{step-1-to-setup}}
 
-1. In het linkerpaneel, klik **Groepen** ![ Groepen ](assets/groups-icon.png).
+1. In het linkerpaneel, klik **Groepen** ![&#x200B; Groepen &#x200B;](assets/groups-icon.png).
 
    In de lijst die wordt weergegeven, ziet u de groepen die u beheert, samen met eventuele subgroepen die u beheert. Adobe Workfront-beheerders kunnen alle groepen zien.
 
 1. Klik op de naam van de groep die de subgroep bevat die u wilt kopiëren.
 1. In het linkermenu, klik **Subgroups**.
-1. Selecteer een subgroep, dan klik het **pictogram van het Exemplaar** ![ om een nieuwe top-level groep tot stand te brengen die op de geselecteerde groep wordt gebaseerd.](assets/copy-icon.png)
+1. Selecteer een subgroep, dan klik het **pictogram van het Exemplaar** ![&#x200B; om een nieuwe top-level groep tot stand te brengen die op de geselecteerde groep wordt gebaseerd.](assets/copy-icon.png)
 1. Configureer de instellingen van de nieuwe groep.
 
-   Voor hulp met deze montages, zie [ een top-level groep door een bestaande groep of subgroep ](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md#create-a-top-level-group-by-copying-an-existing-group-or-subgroup) in het artikel [ tot stand te brengen creëren een groep ](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md).
+   Voor hulp met deze montages, zie [&#x200B; een top-level groep door een bestaande groep of subgroep &#x200B;](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md#create-a-top-level-group-by-copying-an-existing-group-or-subgroup) in het artikel [&#x200B; tot stand te brengen creëren een groep &#x200B;](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md).
 
 1. Klik **creëren groep**.
 
@@ -169,7 +169,7 @@ Een subgroep kopiëren:
 
 {{step-1-to-setup}}
 
-1. In het linkerpaneel, klik **Groepen** ![ Groepen ](assets/groups-icon.png).
+1. In het linkerpaneel, klik **Groepen** ![&#x200B; Groepen &#x200B;](assets/groups-icon.png).
 
    In de lijst die wordt weergegeven, ziet u de groepen die u beheert, samen met eventuele subgroepen die u beheert. Adobe Workfront-beheerders kunnen alle groepen zien.
 
@@ -185,12 +185,12 @@ U kunt van een subgroep een groep op hoofdniveau maken door deze uit de bovenlig
 >[!TIP]
 >
 >Wanneer u een groep deactiveert die onderliggende subgroepen heeft, worden deze subgroepen ook inactief. Als u wilt dat een van deze besturingselementen actief is, kunt u deze instructies gebruiken om het onderdeel uit de bovenliggende groep te verwijderen en vervolgens opnieuw te activeren.
->&#x200B;>Voor instructies bij het deactiveren en het opnieuw activeren van groepen, zie [ een groep ](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/deactivate-or-reactivate-a-group.md) deactiveren of reactiveren.
+>&#x200B;>Voor instructies bij het deactiveren en het opnieuw activeren van groepen, zie [&#x200B; een groep &#x200B;](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/deactivate-or-reactivate-a-group.md) deactiveren of reactiveren.
 
 {{step-1-to-setup}}
 
-1. In het linkerpaneel, klik **Groepen** ![ Groepen ](assets/groups-icon.png).
-1. Selecteer de oudergroep van subgroep u een top-level groep wilt maken, dan klik **uitgeven** pictogram ![ uitgeven pictogram ](assets/edit-icon.png).
+1. In het linkerpaneel, klik **Groepen** ![&#x200B; Groepen &#x200B;](assets/groups-icon.png).
+1. Selecteer de oudergroep van subgroep u een top-level groep wilt maken, dan klik **uitgeven** pictogram ![&#x200B; uitgeven pictogram &#x200B;](assets/edit-icon.png).
 1. In **geef groep** doos uit die verschijnt, begin de naam van subgroup die u een top-level groep in het **3&rbrace; gebied van het Onderzoek &lbrace;onder** Groep leden en de beheerders van de Groep **wilt maken, dan klik X aan het recht van zijn naam het wanneer het verschijnt.**
 1. Klik **sparen**.
 
@@ -202,7 +202,7 @@ U kunt van een subgroep een groep op hoofdniveau maken door deze uit de bovenlig
 
 {{step-1-to-setup}}
 
-1. In het linkerpaneel, klik **Groepen** ![ Groepen ](assets/groups-icon.png).
+1. In het linkerpaneel, klik **Groepen** ![&#x200B; Groepen &#x200B;](assets/groups-icon.png).
 
    In de lijst die wordt weergegeven, ziet u de groepen die u beheert, samen met eventuele subgroepen die u beheert. Adobe Workfront-beheerders kunnen alle groepen zien.
 
@@ -216,5 +216,5 @@ U kunt van een subgroep een groep op hoofdniveau maken door deze uit de bovenlig
 
 ## De subgroepsleden van een groep weergeven en beheren
 
-Wanneer u de hoofdpagina bekijkt van een groep die u beheert, kunt u alle gebruikers in de subgroepen van de groep weergeven en beheren. Voor instructies, zie [ Mening en beheer subgroepsleden ](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/view-and-manage-subgroup-members.md).
+Wanneer u de hoofdpagina bekijkt van een groep die u beheert, kunt u alle gebruikers in de subgroepen van de groep weergeven en beheren. Voor instructies, zie [&#x200B; Mening en beheer subgroepsleden &#x200B;](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/view-and-manage-subgroup-members.md).
 

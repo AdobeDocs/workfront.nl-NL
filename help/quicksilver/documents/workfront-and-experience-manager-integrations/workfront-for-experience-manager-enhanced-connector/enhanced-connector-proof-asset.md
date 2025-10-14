@@ -98,7 +98,7 @@ Zodra u een bewijs hebt gecreeerd, kunt u dingen als doen
 * Revisoren en deadlines bijwerken
 * De workflow bewerken
 
-Voor meer informatie over hoe te om een bestaand bewijs te beheren, zie [ proef binnen Adobe Workfront ](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proofs-in-wf.md) beheren.
+Voor meer informatie over hoe te om een bestaand bewijs te beheren, zie [&#x200B; proef binnen Adobe Workfront &#x200B;](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proofs-in-wf.md) beheren.
 
 ## Een proefafdruk controleren
 
@@ -109,4 +109,4 @@ Toegewezen revisoren kunnen dingen doen zoals
 * Versies vergelijken
 * Het bewijs goedkeuren of afwijzen
 
-Voor meer informatie over wat u met het het proef hulpmiddel kunt doen, zie [ proefdrukken van het Overzicht binnen Adobe Workfront ](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md).
+Voor meer informatie over wat u met het het proef hulpmiddel kunt doen, zie [&#x200B; proefdrukken van het Overzicht binnen Adobe Workfront &#x200B;](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md).

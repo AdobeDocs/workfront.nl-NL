@@ -17,7 +17,7 @@ Met een schijfvisualisatie kunt u snel een artikel over uw gegevens vertellen do
 
 ## Vereisten
 
-Alvorens u begint, moet u in de bèta van het Canvas van de Rapportering inschrijven. Voor meer informatie, zie [ Rapporterend de bèta van het Canvas: overzicht ](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
+Alvorens u begint, moet u in de bèta van het Canvas van de Rapportering inschrijven. Voor meer informatie, zie [&#x200B; Rapporterend de bèta van het Canvas: overzicht &#x200B;](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
 
 ## Een schijfvisualisatie configureren
 
@@ -25,9 +25,9 @@ Alvorens u begint, moet u in de bèta van het Canvas van de Rapportering inschri
 >
 >Alle wijzigingen worden automatisch opgeslagen wanneer u de blokken in uw rapport maakt en bewerkt.
 
-1. Begin door een visualisatieblok met het **Schijf** visualisatietype aan een rapport toe te voegen, zoals die in [ wordt verklaard voeg of geef een visualisatieblok in het Melden van Canvas ](../../../reports-and-dashboards/reporting-canvas/visualization-blocks/add-or-edit-report-visualization.md) toe uit.
+1. Begin door een visualisatieblok met het **Schijf** visualisatietype aan een rapport toe te voegen, zoals die in [&#x200B; wordt verklaard voeg of geef een visualisatieblok in het Melden van Canvas &#x200B;](../../../reports-and-dashboards/reporting-canvas/visualization-blocks/add-or-edit-report-visualization.md) toe uit.
 
-1. Klik het Edit visualisatiepictogram ![ uitgeven pictogram ](assets/edit-icon.png) in de hoger-juiste hoek van visualisatie, dan doe om het even welk volgend.
+1. Klik het Edit visualisatiepictogram ![&#x200B; uitgeven pictogram &#x200B;](assets/edit-icon.png) in de hoger-juiste hoek van visualisatie, dan doe om het even welk volgend.
 
    1. Op het **lusje van Montages**:
 

@@ -20,13 +20,13 @@ ht-degree: 0%
 
 In de Planning van Adobe Workfront, is een werkruimte een inzameling van verslagtypes die door een team worden gebruikt en vertegenwoordigt de het werklevenscyclus van het team.
 
-Workfront Planning wordt geleverd met een set sjablonen waarmee u aan de slag kunt met standaardrecordtypen en -velden wanneer u uw werkruimte maakt. Voor informatie over het creëren van werkruimten, zie [ werkruimten ](/help/quicksilver/planning/architecture/create-workspaces.md) creëren.
+Workfront Planning wordt geleverd met een set sjablonen waarmee u aan de slag kunt met standaardrecordtypen en -velden wanneer u uw werkruimte maakt. Voor informatie over het creëren van werkruimten, zie [&#x200B; werkruimten &#x200B;](/help/quicksilver/planning/architecture/create-workspaces.md) creëren.
 
 Dit artikel beschrijft de werkruimtemalplaatjes beschikbaar in de Planning van Adobe Workfront.
 
 ## Overwegingen over Adobe Workfront-planningssjablonen
 
-* Elke sjabloon wordt geleverd met een set recordtypen. Voor informatie, zie [ overzicht van de types van Verslag ](/help/quicksilver/planning/architecture/overview-of-record-types.md).
+* Elke sjabloon wordt geleverd met een set recordtypen. Voor informatie, zie [&#x200B; overzicht van de types van Verslag &#x200B;](/help/quicksilver/planning/architecture/overview-of-record-types.md).
 * De recordtypen in elke sjabloon zijn ingedeeld in de volgende secties:
 
    * Operationele recordtypen

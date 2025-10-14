@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [ het Bewijzen ](../../../review-and-approve-work/proofing/proofing.md).
+>Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [&#x200B; het Bewijzen &#x200B;](../../../review-and-approve-work/proofing/proofing.md).
 
 Dankzij de [!DNL Basecamp] integratie met [!DNL Workfront Proof] kunt u eenvoudig proefdrukken controleren en goedkeuren zonder dat u [!DNL Basecamp] hoeft te verlaten.
 
@@ -28,7 +28,7 @@ U hebt niet eens een [!DNL Workfront Proof] login nodig om alle overzichtshulpmi
 * U kunt opmerkingen toevoegen, markeringen toevoegen en beslissingen nemen over de miniproefdruk of overschakelen naar de proefdruk op de volledige pagina, zodat u deze kunt controleren als u dat wilt
 * U kunt de opmerkingen en markeringen van de andere revisoren bekijken en erop reageren
 
-Voor informatie over besluiten, zie [ een besluit over een bewijs in de het proef kijker ](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md) nemen.
+Voor informatie over besluiten, zie [&#x200B; een besluit over een bewijs in de het proef kijker &#x200B;](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md) nemen.
 
 >[!NOTE]
 >
@@ -50,7 +50,7 @@ Als u een nieuwe of bestaande proefdruk koppelt aan [!DNL Basecamp] , stuurt [!D
 >
 > Als u geen [!DNL Basecamp] -sessie hebt geopend in een ander browservenster, moet u zich aanmelden bij uw [!DNL Basecamp] -account voordat u het bericht kunt zien in [!DNL Basecamp] .
 
-![ Basecamp_ProofHQ_email_notification1__1_.png ](assets/basecamp-proofhq-email-notification1--1--350x202.png)
+![&#x200B; Basecamp_ProofHQ_email_notification1__1_.png &#x200B;](assets/basecamp-proofhq-email-notification1--1--350x202.png)
 
 ## Het proef bekijken via het [!DNL Basecamp] Bericht
 
@@ -59,7 +59,7 @@ Wanneer u een e-mailbericht ontvangt over een nieuwe proefdruk die is toegevoegd
 1. Ga naar uw projectpagina (1).
 1. Zoek het bericht voor uw proefdruk (2).\
    De berichtenpagina bevat de naam van de proefdruk (in het onderwerp) (3) en een koppeling naar de proefweergave op volledig scherm (4).
-1. ![ Basecamp_messages_1.png ](assets/basecamp-messages-1-350x129.png)
+1. ![&#x200B; Basecamp_messages_1.png &#x200B;](assets/basecamp-messages-1-350x129.png)
 
 1. Als u bent aangemeld bij uw [!DNL Workfront Proof] -account in een van uw browservensters, kunt u meteen beginnen met controleren. Als u uw naam niet ziet in de linkerbenedenhoek van een proefdruk:
 1. Klik op **[!UICONTROL Sign In]** (5).
@@ -74,7 +74,7 @@ Wanneer u een e-mailbericht ontvangt over een nieuwe proefdruk die is toegevoegd
 
 Het reviseren van een proefdruk in [!DNL Basecamp] is net zo eenvoudig als in [!DNL Workfront Proof] . De proefdruk in [!DNL Basecamp] biedt u alle gereedschappen die u nodig hebt om opmerkingen, markeringen en beslissingen over de proefdruk toe te voegen.
 
-![ Basecamp_message_window_with_miniproof.png ](assets/basecamp-message-window-with-miniproof-350x406.png)
+![&#x200B; Basecamp_message_window_with_miniproof.png &#x200B;](assets/basecamp-message-window-with-miniproof-350x406.png)
 
 * Uw [!DNL Basecamp] projectnaam (1)
 * Het onderwerp van de [!DNL Workfront Proof] e-mailmelding (2)
@@ -102,4 +102,4 @@ De proefdruk op alle pagina&#39;s laat zien:
 * Meer gereedschap voor zoomen en navigatie dan de miniproefdruk (2).
 * De knop [!UICONTROL Go to [!DNL Basecamp]] in de linkerbovenhoek van de proefdruk. Als u hierop klikt, gaat u terug naar uw [!DNL Basecamp] -account (3).
 
-![ ProofHQ_full_screen_view.png ](assets/proofhq-full-screen-view-350x217.png)
+![&#x200B; ProofHQ_full_screen_view.png &#x200B;](assets/proofhq-full-screen-view-350x217.png)

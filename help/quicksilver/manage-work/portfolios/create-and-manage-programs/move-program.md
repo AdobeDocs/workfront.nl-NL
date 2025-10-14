@@ -52,7 +52,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-*For informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*For informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -64,7 +64,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
    **voegt Programma&#39;s** doos toe opent. <!--check screen shot - I logged changes for this casing-->
 
-   ![ voeg programmadoos ](assets/add-programs-box.png) toe
+   ![&#x200B; voeg programmadoos &#x200B;](assets/add-programs-box.png) toe
 
    >[!IMPORTANT]
    >
@@ -74,7 +74,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
    U kunt meerdere programma&#39;s toevoegen.
 
-1. (Facultatief) klik het **pictogram van de Schrapping ![ pictogram van de Schrapping ](assets/delete-icon.png) naast de naam van een programma als u besluit om het niet aan de portefeuille toe te voegen.**
+1. (Facultatief) klik het **pictogram van de Schrapping ![&#x200B; pictogram van de Schrapping &#x200B;](assets/delete-icon.png) naast de naam van een programma als u besluit om het niet aan de portefeuille toe te voegen.**
 
 1. Klik op **[!UICONTROL Add Programs]** . <!--check this button in the UI after they implemented the changes??-->
 

@@ -18,7 +18,7 @@ ht-degree: 0%
 
 U kunt een kaart zodanig configureren dat kaarten volgens een schema worden gearchiveerd of &#39;van de kaart vallen&#39;. U kunt kaarten in een bepaalde kolom instellen om over een bepaald aantal dagen of weken van het bord af te vallen.
 
-Wanneer een kaart van het bord valt, wordt deze gearchiveerd. U kunt gearchiveerde kaarten met een filter weergeven. Voor meer informatie, zie [ Filter en onderzoek in een raad ](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md).
+Wanneer een kaart van het bord valt, wordt deze gearchiveerd. U kunt gearchiveerde kaarten met een filter weergeven. Voor meer informatie, zie [&#x200B; Filter en onderzoek in een raad &#x200B;](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md).
 
 ## Toegangsvereisten
 
@@ -45,7 +45,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -53,12 +53,12 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 {{step1-to-boards}}
 
-1. Toegang tot een bord. Voor informatie, zie [ creeer of geef een raad ](../../agile/get-started-with-boards/create-edit-board.md) uit.
+1. Toegang tot een bord. Voor informatie, zie [&#x200B; creeer of geef een raad &#x200B;](../../agile/get-started-with-boards/create-edit-board.md) uit.
 1. Klik op **[!UICONTROL Configure]** rechts van de board om het deelvenster Configureren te openen.
 1. Vouw **[!UICONTROL Cards]** uit.
 1. Schakel **[!UICONTROL Automatically archive cards from the board]** in.
 
-   ![ de wegvalmontages van de Kaart ](assets/card-falloff-switch.png)
+   ![&#x200B; de wegvalmontages van de Kaart &#x200B;](assets/card-falloff-switch.png)
 
 1. Selecteer wanneer u kaarten van het bord wilt archiveren. U kunt maximaal 8 weken of tot 60 dagen kiezen.
 

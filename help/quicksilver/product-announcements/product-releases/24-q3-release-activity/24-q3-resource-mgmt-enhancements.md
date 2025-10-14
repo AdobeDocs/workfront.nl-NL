@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Deze pagina beschrijft alle verbeteringen in het bronnenbeheer die zijn aangebracht met de release Derde kwartaal 2024 voor de voorvertoningsomgeving. Deze verbeteringen worden beschikbaar gesteld in de productieomgeving met de release van het derde kwartaal van 2024.
 
-Voor een lijst van alle veranderingen beschikbaar op dit punt in het Derde Kwartaal 2024 versiecyclus, zie [ Derde Kwartaal 2024 versieoverzicht ](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar op dit punt in het Derde Kwartaal 2024 versiecyclus, zie [&#x200B; Derde Kwartaal 2024 versieoverzicht &#x200B;](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).
 
 ## Tijd uit nu weerspiegeld in de werklastbalans
 
@@ -28,4 +28,4 @@ Om het werk naadloos aan te passen wanneer de primaire toegewezen persoon aan ee
 
 Eerder werden de uren niet opnieuw toegewezen toen de tijdlijn opnieuw werd berekend.
 
-Voor meer informatie, zie [ gebruikerstoewijzingen in de Balancer van de Werklast beheren ](/help/quicksilver/resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
+Voor meer informatie, zie [&#x200B; gebruikerstoewijzingen in de Balancer van de Werklast beheren &#x200B;](/help/quicksilver/resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).

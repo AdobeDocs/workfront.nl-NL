@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # Abonnementen maken en bewerken in het dialoogvenster [!DNL Scenario Planner]
 
-U kunt plannen als deel van het gebruiken van [!DNL Workfront Scenario Planner] tot stand brengen, wanneer het prioriteren van de strategie op hoog niveau van uw bedrijf. Voor meer informatie over plannen, zie [ Overzicht van Abonnementen in  [!DNL Scenario Planner]](../scenario-planner/plans-overview.md).
+U kunt plannen als deel van het gebruiken van [!DNL Workfront Scenario Planner] tot stand brengen, wanneer het prioriteren van de strategie op hoog niveau van uw bedrijf. Voor meer informatie over plannen, zie [&#x200B; Overzicht van Abonnementen in  [!DNL Scenario Planner]](../scenario-planner/plans-overview.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -65,7 +65,7 @@ U kunt plannen als deel van het gebruiken van [!DNL Workfront Scenario Planner] 
  </tbody> 
 </table>
 
-*For informatie, zie [ vereisten van de Toegang tot de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*For informatie, zie [&#x200B; vereisten van de Toegang tot de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -79,9 +79,9 @@ U kunt een geheel nieuw plan maken of een bestaand plan bewerken dat met u is ge
 
 In dit artikel wordt beschreven hoe u een geheel nieuw plan kunt maken of hoe u een bestaand plan kunt bewerken.
 
-Voor alle overwegingen over plannen met inbegrip van de informatie beschikbaar voor een plan, zie [ Overzicht van Abonnementen in  [!DNL Scenario Planner]](../scenario-planner/plans-overview.md).
+Voor alle overwegingen over plannen met inbegrip van de informatie beschikbaar voor een plan, zie [&#x200B; Overzicht van Abonnementen in  [!DNL Scenario Planner]](../scenario-planner/plans-overview.md).
 
-Voor informatie over het schrappen van plannen, zie [ plannen van de Schrapping in  [!DNL Scenario Planner]](../scenario-planner/delete-plans.md).
+Voor informatie over het schrappen van plannen, zie [&#x200B; plannen van de Schrapping in  [!DNL Scenario Planner]](../scenario-planner/delete-plans.md).
 
 Een abonnement maken of bewerken:
 
@@ -89,7 +89,7 @@ Een abonnement maken of bewerken:
 
 Een lijst met bestaande plannen die u hebt gemaakt, wordt weergegeven in de [!DNL Workfront Scenario Planner] .
 
-1. (Facultatief) klik het **[!UICONTROL Filter]** pictogram van de pictogram ![ Filter ](assets/filter-icon-34x37.png) in de hoger-juiste hoek van de planlijst, en selecteer van het volgende:
+1. (Facultatief) klik het **[!UICONTROL Filter]** pictogram van de pictogram ![&#x200B; Filter &#x200B;](assets/filter-icon-34x37.png) in de hoger-juiste hoek van de planlijst, en selecteer van het volgende:
 
    | Filter | Beschrijving |
    |---|---|
@@ -97,9 +97,9 @@ Een lijst met bestaande plannen die u hebt gemaakt, wordt weergegeven in de [!DN
    | [!UICONTROL My plans] | Geeft de plannen weer die u hebt gemaakt. |
    | [!UICONTROL Shared with me] | Hiermee geeft u plannen weer die met u worden gedeeld. |
 
-   ![ de filters van plannen dropdown opties ](assets/plans-filters-dropdown-options-scenario-planer.png)
+   ![&#x200B; de filters van plannen dropdown opties &#x200B;](assets/plans-filters-dropdown-options-scenario-planer.png)
 
-1. (Facultatief) klik het **[!UICONTROL Search]** pictogram van het pictogram ![ Onderzoek ](assets/search-icon.png) om een sleutelwoord te typen en van een plan in de lijst snel de plaats te bepalen.
+1. (Facultatief) klik het **[!UICONTROL Search]** pictogram van het pictogram ![&#x200B; Onderzoek &#x200B;](assets/search-icon.png) om een sleutelwoord te typen en van een plan in de lijst snel de plaats te bepalen.
 
 1. Klik op de naam van een bestaand abonnement om het te bewerken en door te gaan met stap 7.
 
@@ -115,11 +115,11 @@ Een lijst met bestaande plannen die u hebt gemaakt, wordt weergegeven in de [!DN
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: is the step still accurate)</p>
    -->
 
-   ![ Nieuwe planknoop ](assets/new-plan-button.png)
+   ![&#x200B; Nieuwe planknoop &#x200B;](assets/new-plan-button.png)
 
    Het vak [!UICONTROL New Plan] wordt weergegeven.
 
-   ![ Nieuwe plandoos ](assets/new-plan-ui-adding-a-new-plan-350x306.png)
+   ![&#x200B; Nieuwe plandoos &#x200B;](assets/new-plan-ui-adding-a-new-plan-350x306.png)
 
 1. (Voorwaardelijk) Wanneer u een nieuw plan creeert, specificeer de volgende informatie:
 
@@ -168,11 +168,11 @@ Een lijst met bestaande plannen die u hebt gemaakt, wordt weergegeven in de [!DN
 
    De tijdlijn van het plan wordt weergegeven als de **[!UICONTROL Initial scenario]** .
 
-   Voor informatie over het creëren van extra scenario&#39;s, zie [ planscenario&#39;s in  [!DNL Scenario Planner]](../scenario-planner/create-and-compare-scenarios-for-a-plan.md) creëren en vergelijken.
+   Voor informatie over het creëren van extra scenario&#39;s, zie [&#x200B; planscenario&#39;s in  [!DNL Scenario Planner]](../scenario-planner/create-and-compare-scenarios-for-a-plan.md) creëren en vergelijken.
 
 1. (Optioneel) Selecteer in het keuzemenu Tijdlijn een van de opties in de volgende tabel om de manier te wijzigen waarop u de tijdlijn van het plan weergeeft.
 
-   ![ daling van de Maand ](assets/month-dropdown-with-all-options.png)
+   ![&#x200B; daling van de Maand &#x200B;](assets/month-dropdown-with-all-options.png)
 
    | Vervolgkeuzemenu, optie | Beschrijving |
    |---|---|
@@ -183,7 +183,7 @@ Een lijst met bestaande plannen die u hebt gemaakt, wordt weergegeven in de [!DN
 1. (Optioneel) Schuif van links naar rechts om de volledige duur van het abonnement weer te geven.
 1. (Optioneel) Klik op de indicatorregel **[!UICONTROL Today]** om terug te keren naar de huidige dag.
 
-   ![ vandaag indicator ](assets/today-indicator-350x160.png)
+   ![&#x200B; vandaag indicator &#x200B;](assets/today-indicator-350x160.png)
 
 1. Klik op het vak **[!UICONTROL Job Roles]** in de koptekst van het abonnement om taakrollen toe te voegen die beschikbaar zijn om het abonnement uit te voeren.
 
@@ -193,7 +193,7 @@ Een lijst met bestaande plannen die u hebt gemaakt, wordt weergegeven in de [!DN
    >
    >De eenheid voor roltoewijzing (FTE of uren) die [!DNL Workfront] gebruikt voor dit abonnement, wordt tussen haakjes weergegeven in de titel van het vak.
 
-   ![ Toevoegend mensen om ](assets/adding-people-to-plan-350x206.png) te plannen
+   ![&#x200B; Toevoegend mensen om &#x200B;](assets/adding-people-to-plan-350x206.png) te plannen
 
 1. Klik op het veld **[!UICONTROL Start typing job role]** en selecteer een rol in de lijst of typ de naam van een actieve taakrol.
 
@@ -239,12 +239,12 @@ Een lijst met bestaande plannen die u hebt gemaakt, wordt weergegeven in de [!DN
     </tbody> 
    </table>
 
-1. (Facultatief) Beweeg over de naam van een baanrol of klik lusje na het bijwerken van de rolinformatie, dan klik het **[!UICONTROL trash can icon]** ![ pictogram van de Schrapping ](assets/delete.png) om het uit het plan te verwijderen.
+1. (Facultatief) Beweeg over de naam van een baanrol of klik lusje na het bijwerken van de rolinformatie, dan klik het **[!UICONTROL trash can icon]** ![&#x200B; pictogram van de Schrapping &#x200B;](assets/delete.png) om het uit het plan te verwijderen.
 1. Klik op **[!UICONTROL Job role distribution]**.
 
    Het deelvenster voor taakverdeling wordt gedurende alle maanden in de duur van het scenario weergegeven.
 
-   ![ de rol maandelijkse distributie van de Baan ](assets/job-role-monthly-distribution-box-fte-350x144.png)
+   ![&#x200B; de rol maandelijkse distributie van de Baan &#x200B;](assets/job-role-monthly-distribution-box-fte-350x144.png)
 
 1. Typ de naam van een taakrol om deze toe te voegen aan het abonnement in de **[!UICONTROL Start typing job role field]** en klik vervolgens op Enter wanneer deze wordt weergegeven in de lijst. Hiermee voegt u de taakrol toe aan de kolom [!UICONTROL Job Roles] .
 1. Werk of herzie de volgende informatie voor elke maand van het scenario bij:
@@ -334,13 +334,13 @@ Een lijst met bestaande plannen die u hebt gemaakt, wordt weergegeven in de [!DN
 
 1. Klik op **[!UICONTROL Advanced]** om de maandelijkse budgetverdeling weer te geven. De jaarlijkse en maandelijkse begrotingen zijn altijd afgerond. Wanneer het begrotingsbedrag vanwege decimalen niet gelijkelijk over alle maanden in een jaar kan worden verdeeld, wordt een **[!UICONTROL Remaining]** -indicator weergegeven onder de jaarlijkse begrotingsverdeling.
 
-   ![ Geavanceerde en resterende verbindingen ](assets/adanced-and-remaining-links-on-plan-budget-350x507.png)
+   ![&#x200B; Geavanceerde en resterende verbindingen &#x200B;](assets/adanced-and-remaining-links-on-plan-budget-350x507.png)
 
 1. Pas handmatig de maandelijkse budgetten aan om de overschrijdingen te elimineren.
 
    Wanneer het totaal van alle maandelijkse begrotingsbedragen groter is dan het jaarlijkse budget, wordt een **[!UICONTROL Exceeding]** waarschuwingsindicator weergegeven onder de jaarlijkse begrotingsverdeling. Pas de maandelijkse begrotingsbedragen handmatig aan totdat ze gelijk zijn aan of lager zijn dan het beschikbare budget voor het plan.
 
-   ![ overschrijdende begrotingswaarschuwing ](assets/exceeding-budget-warning-on-plan-350x483.png)
+   ![&#x200B; overschrijdende begrotingswaarschuwing &#x200B;](assets/exceeding-budget-warning-on-plan-350x483.png)
 
 1. Schakel de instelling **[!UICONTROL Include people costs]** uit om kosten die aan taakrollen zijn gekoppeld, niet mee te tellen bij de totale kosten van het abonnement. Vaste kosten tellen altijd mee voor de totale kosten van de regeling. Dit plaatsen wordt toegelaten door gebrek en beïnvloedt alle scenario&#39;s op het plan.
 1. Klik ergens buiten het vak [!UICONTROL Financial] om het te sluiten. De gegevens die u hebt ingevoerd, worden automatisch opgeslagen.
@@ -353,13 +353,13 @@ Een lijst met bestaande plannen die u hebt gemaakt, wordt weergegeven in de [!DN
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Should this include information on how to create scenarios - see also information about scenarios in Manage Plans?)</p>
    -->
 
-   Voor informatie over het toevoegen van initiatieven, zie het artikel [ creeer en geef initiatieven in  [!DNL Scenario Planner]](../scenario-planner/create-and-edit-initiatives.md) uit.
+   Voor informatie over het toevoegen van initiatieven, zie het artikel [&#x200B; creeer en geef initiatieven in  [!DNL Scenario Planner]](../scenario-planner/create-and-edit-initiatives.md) uit.
 
-1. (Optioneel) Maak een kopie van het bestaande scenario om een nieuw scenario van hetzelfde plan te maken. Voor meer informatie over het creëren van en het werken met veelvoudige scenario&#39;s, zie [ planscenario&#39;s in  [!DNL Scenario Planner]](../scenario-planner/create-and-compare-scenarios-for-a-plan.md) creëren en vergelijken.
+1. (Optioneel) Maak een kopie van het bestaande scenario om een nieuw scenario van hetzelfde plan te maken. Voor meer informatie over het creëren van en het werken met veelvoudige scenario&#39;s, zie [&#x200B; planscenario&#39;s in  [!DNL Scenario Planner]](../scenario-planner/create-and-compare-scenarios-for-a-plan.md) creëren en vergelijken.
 1. Klik op **[!UICONTROL Save Plan]**.
 
    Uw abonnement is gemaakt of bijgewerkt.
 
-1. (Facultatief) klik het **[!UICONTROL Favorites icon]** ![ pictogram van Favorieten ](assets/favorites-icon-small.png) rechts van de plannaam om het plan aan uw lijst van Favorieten toe te voegen.
+1. (Facultatief) klik het **[!UICONTROL Favorites icon]** ![&#x200B; pictogram van Favorieten &#x200B;](assets/favorites-icon-small.png) rechts van de plannaam om het plan aan uw lijst van Favorieten toe te voegen.
 
-1. (Optioneel) Kopieer de URL van het abonnement en verstuur het naar een andere gebruiker die het mogelijk moet controleren of bijwerken. Zij moeten minstens [!UICONTROL View] toegang in hun toegangsniveau hebben om het plan te kunnen bekijken. Ze moeten [!UICONTROL Edit] toegang hebben om het bestand te kunnen bewerken. Als zij financiële informatie over het plan, zoals begrotingen, kosten, en de informatie van het baanroltarief moeten herzien, moeten zij tot [!UICONTROL Financial Data] in hun niveau van de Toegang ook toegang hebben. Voor informatie over de toegang nodig voor [!DNL Scenario Planner], zie [ Toegang nodig om  [!DNL Scenario Planner]](../scenario-planner/access-needed-to-use-sp.md) te gebruiken.
+1. (Optioneel) Kopieer de URL van het abonnement en verstuur het naar een andere gebruiker die het mogelijk moet controleren of bijwerken. Zij moeten minstens [!UICONTROL View] toegang in hun toegangsniveau hebben om het plan te kunnen bekijken. Ze moeten [!UICONTROL Edit] toegang hebben om het bestand te kunnen bewerken. Als zij financiële informatie over het plan, zoals begrotingen, kosten, en de informatie van het baanroltarief moeten herzien, moeten zij tot [!UICONTROL Financial Data] in hun niveau van de Toegang ook toegang hebben. Voor informatie over de toegang nodig voor [!DNL Scenario Planner], zie [&#x200B; Toegang nodig om  [!DNL Scenario Planner]](../scenario-planner/access-needed-to-use-sp.md) te gebruiken.

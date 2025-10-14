@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [ het Bewijzen ](../../../review-and-approve-work/proofing/proofing.md).
+>Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [&#x200B; het Bewijzen &#x200B;](../../../review-and-approve-work/proofing/proofing.md).
 
 >[!NOTE]
 >
@@ -31,7 +31,7 @@ Een vorige versie weergeven:
 1. Open de proefdruk.
 1. Klik in de linkerbovenhoek van de proefdrukviewer op de naam van de proefdruk.
 
-   ![ phq_viewer_version.png ](assets/phq-viewer-version-350x184.png)
+   ![&#x200B; phq_viewer_version.png &#x200B;](assets/phq-viewer-version-350x184.png)
 
 1. Klik in de lijst die wordt weergegeven op de versie die u wilt weergeven.
 1. (Optioneel) Als u de versie wilt ontgrendelen en u wilt dat gebruikers opmerkingen kunnen toevoegen of een beslissing kunnen wijzigen, klikt u op het pictogram **[!UICONTROL Unlock]** in het linkerdeelvenster en vervolgens op **[!UICONTROL Yes, unlock]** .

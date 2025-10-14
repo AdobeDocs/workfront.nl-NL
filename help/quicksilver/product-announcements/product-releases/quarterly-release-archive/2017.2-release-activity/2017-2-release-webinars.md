@@ -20,11 +20,11 @@ Deze webinars waren gericht op functionaliteit die is opgenomen in de release va
 
 De release van 2017.2 is momenteel beschikbaar om te testen in Preview; de release van 2017.2 zal eind juli of begin augustus 2017 beschikbaar zijn in de productieomgeving.
 
-Om meer gedetailleerde informatie over de functionaliteit te bekijken die in webinars wordt behandeld, zie [ 2017.2 het overzicht van de versieactiviteit ](../../../../product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-release-activity-overview.md) pagina.
+Om meer gedetailleerde informatie over de functionaliteit te bekijken die in webinars wordt behandeld, zie [&#x200B; 2017.2 het overzicht van de versieactiviteit &#x200B;](../../../../product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-release-activity-overview.md) pagina.
 
 De volgende webinar-opnamen zijn beschikbaar:
 
-* [ webinar van de Versie 2017.2 (27 juni, 2017) ](#2017-2-release-webinar-june-27-2017)
+* [&#x200B; webinar van de Versie 2017.2 (27 juni, 2017) &#x200B;](#2017-2-release-webinar-june-27-2017)
 * [2017.2 Beta 1 en 2 (24 mei 2017)](#2017-2-beta-1-and-2-may-24-2017)
 
 ## 2017.2 Release Webinar (27 juni 2017) {#2017-2-release-webinar-june-27-2017}
@@ -33,12 +33,12 @@ Het Workfront 2017.2 Release Webinar werd op 27 juni door het Workfront Product 
 
 Voor het gemak, wordt webinar verdeeld in de volgende onderwerpen:
 
-* [ Inleiding ](#introduction)
-* [ Beheer van het Middel ](#resource-management)
-* [ het Proofing ](#proofing)
-* [ Andere Verbeteringen ](#other-enhancements)
-* [ Mobiel ](#mobile)
-* [ Functionaliteit wordt verwijderd ](#functionality-being-removed)
+* [&#x200B; Inleiding &#x200B;](#introduction)
+* [&#x200B; Beheer van het Middel &#x200B;](#resource-management)
+* [&#x200B; het Proofing &#x200B;](#proofing)
+* [&#x200B; Andere Verbeteringen &#x200B;](#other-enhancements)
+* [&#x200B; Mobiel &#x200B;](#mobile)
+* [&#x200B; Functionaliteit wordt verwijderd &#x200B;](#functionality-being-removed)
 * [Beheerders en ontwikkelaars](#administrators-and-developers)
 
 ### Inleiding {#introduction}

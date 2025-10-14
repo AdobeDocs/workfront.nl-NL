@@ -29,14 +29,14 @@ Als u de SSO-functionaliteit in Workfront wilt gebruiken, moet uw organisatie ee
 
 Met federatieve oplossingen kunnen gebruikers zich aanmelden bij al hun toepassingen door hun gebruikersnaam en wachtwoord in te voeren in een gecentraliseerd aanmeldingsportal.
 
-![ SSO federated ](assets/overview-sso-wf-fed-only.png)
+![&#x200B; SSO federated &#x200B;](assets/overview-sso-wf-fed-only.png)
 
 
 ## Uw firewall configureren
 
 Wanneer Workfront een SSO-oplossing gebruikt, wordt een verbinding met de server op de opgegeven poort tot stand gebracht.
 
-Als uw firewall of postserver wordt gevormd om toegang slechts tot specifieke verkopers toe te staan, moet u bepaalde Workfront IP adressen aan uw lijst van gewenste personen van de firewall toevoegen. Voor meer informatie, zie [ de lijst van gewenste personen van uw firewall ](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md) vormen.
+Als uw firewall of postserver wordt gevormd om toegang slechts tot specifieke verkopers toe te staan, moet u bepaalde Workfront IP adressen aan uw lijst van gewenste personen van de firewall toevoegen. Voor meer informatie, zie [&#x200B; de lijst van gewenste personen van uw firewall &#x200B;](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md) vormen.
 
 ## Single Sign-On configureren
 
@@ -44,8 +44,8 @@ Workfront integreert met de volgende SSO-oplossingen:
 
 * Federale oplossingen die SAML 2.0 ondersteunen
 
-  Voor informatie over het integreren van Workfront met SAML 2.0, zie [ Adobe Workfront met SAML 2.0 ](../../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2.md) vormen.
+  Voor informatie over het integreren van Workfront met SAML 2.0, zie [&#x200B; Adobe Workfront met SAML 2.0 &#x200B;](../../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2.md) vormen.
 
 * Federale oplossingen die SAML 2.0 ondersteunen met ADFS
 
-  Voor informatie over het integreren van Workfront met SAML 2.0 die ADFS gebruiken, zie [ Adobe Workfront met SAML 2.0 vormen gebruikend ADFS ](../../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2-adfs.md).
+  Voor informatie over het integreren van Workfront met SAML 2.0 die ADFS gebruiken, zie [&#x200B; Adobe Workfront met SAML 2.0 vormen gebruikend ADFS &#x200B;](../../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2-adfs.md).

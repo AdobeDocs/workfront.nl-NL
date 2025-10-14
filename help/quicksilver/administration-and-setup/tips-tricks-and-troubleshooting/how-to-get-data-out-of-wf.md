@@ -24,13 +24,13 @@ In dit artikel worden de voor- en nadelen beschreven van vier opties die u kunt 
 
 ## Gebruik één van onze partners
 
-[!DNL AtAppStore] ([ www.atappstore.com ](https://www.atappstore.com)) heeft een makkelijk te gebruiken app (hun [ Opname van Workfront ](https://store.atappstore.com/product/workfront-snapshot/) oplossing) die u toestaat om uw gegevens zelf te downloaden. Een facultatieve kijker (hun [ oplossing van de Kijker van de Momentopname van Workfront ](https://store.atappstore.com/product/workfront-snapshot-viewer/)) staat u toe om uw gegevens offline gemakkelijk te bekijken.
+[!DNL AtAppStore] ([&#x200B; www.atappstore.com &#x200B;](https://www.atappstore.com)) heeft een makkelijk te gebruiken app (hun [&#x200B; Opname van Workfront &#x200B;](https://store.atappstore.com/product/workfront-snapshot/) oplossing) die u toestaat om uw gegevens zelf te downloaden. Een facultatieve kijker (hun [&#x200B; oplossing van de Kijker van de Momentopname van Workfront &#x200B;](https://store.atappstore.com/product/workfront-snapshot-viewer/)) staat u toe om uw gegevens offline gemakkelijk te bekijken.
 
 * **Pros:** Al uw kern [!DNL Workfront] voorwerpen worden uitgevoerd, met inbegrip van de douanegebieden en de nota&#39;s, en opgeslagen in een gemakkelijk toegankelijk [!DNL MS Access] gegevensbestand. De interface van de Viewer is gebruiksvriendelijk en leesbaar. Het uitpakken van Documenten is ook afzonderlijk beschikbaar als een service, waarbij de uitvoer is ingedeeld in een logische mapstructuur die is toegewezen aan elk document en de voorgaande versies.
 
 * **Kons:** er is een technische beperking van 2 GB van gegevens, maar AtAppStore staat u toe om slechts te kopen wat u nodig hebt.
 
-* **Kosten:** voor meer informatie, ga [ https://store.atappstore.com/product/workfront-snapshot/ ](https://store.atappstore.com/product/workfront-snapshot/).
+* **Kosten:** voor meer informatie, ga [&#x200B; https://store.atappstore.com/product/workfront-snapshot/ &#x200B;](https://store.atappstore.com/product/workfront-snapshot/).
 
 ## Vraag een [!DNL Postgres] gegevensdumpbestand aan van ons databaseteam
 
@@ -52,7 +52,7 @@ Of u nu externe consultinguren hebt of niet, u kunt een van onze consultants geb
 
 * **Kosten**: Het is vrij als u de rapporten kunt in werking stellen zelf (allen u een login van systeemadmin) nodig hebt, of als u resterende verre raadplegende uren kunt gebruiken. Neem contact op met uw AE/CAE als u hiervoor advies op afstand wilt aanschaffen.
 
-  Voor meer informatie over het gebruiken van Kick-Begint om gegevens uit te voeren, zie [ Gegevens van de Uitvoer van  [!DNL Adobe Workfront]  via [!UICONTROL Kick-Starts]](../../administration-and-setup/manage-workfront/using-kick-starts/export-data-from-wf-via-kick-starts.md).
+  Voor meer informatie over het gebruiken van Kick-Begint om gegevens uit te voeren, zie [&#x200B; Gegevens van de Uitvoer van  [!DNL Adobe Workfront]  via [!UICONTROL Kick-Starts]](../../administration-and-setup/manage-workfront/using-kick-starts/export-data-from-wf-via-kick-starts.md).
 
 ## Onze open API gebruiken
 

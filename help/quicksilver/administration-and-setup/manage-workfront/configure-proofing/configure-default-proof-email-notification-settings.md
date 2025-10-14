@@ -19,7 +19,7 @@ ht-degree: 0%
 
 Proofinggebruikers in Adobe Workfront kunnen e-mailmeldingen ontvangen van zowel Workfront als Workfront Proof wanneer opmerkingen of beslissingen op een bewijs worden genomen. Als gebruikers al e-mailberichten van Workfront Proof ontvangen, raden we u aan om de berichten die vanuit Workfront worden verzonden uit te schakelen om dubbele berichten te voorkomen.
 
-Voor informatie over het vormen berichtmontages die van Workfront Proof worden verzonden, zie [ de montages van het e-mailbericht in Workfront Proof ](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md) vormen.
+Voor informatie over het vormen berichtmontages die van Workfront Proof worden verzonden, zie [&#x200B; de montages van het e-mailbericht in Workfront Proof &#x200B;](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md) vormen.
 
 ## Toegangsvereisten
 

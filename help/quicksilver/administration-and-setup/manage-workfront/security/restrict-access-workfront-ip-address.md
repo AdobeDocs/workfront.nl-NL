@@ -55,9 +55,9 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
 
 ## Overige lijsten van gewenste personen
 
-Als uw firewall of postserver wordt gevormd om toegang tot slechts bepaalde verkopers toe te staan, moet u bepaalde IP adressen aan zijn lijst van gewenste personen toevoegen. Hierdoor wordt de communicatie tussen uw omgeving en de Adobe Workfront-servers geopend. Voor informatie over dat, zie [ de lijst van gewenste personen van uw firewall ](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md) vormen.
+Als uw firewall of postserver wordt gevormd om toegang tot slechts bepaalde verkopers toe te staan, moet u bepaalde IP adressen aan zijn lijst van gewenste personen toevoegen. Hierdoor wordt de communicatie tussen uw omgeving en de Adobe Workfront-servers geopend. Voor informatie over dat, zie [&#x200B; de lijst van gewenste personen van uw firewall &#x200B;](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md) vormen.
 
-Als uw organisatie het Enterprise-abonnement gebruikt, kunt u de Workfront e-mailtoepassing configureren om te bepalen welke e-maildomeinen e-mails van Workfront mogen accepteren en welke e-maildomeinen zich in het e-mailadres kunnen bevinden dat gebruikers in hun Workfront-gebruikersprofiel opgeven. Voor meer informatie, zie [ uw e-maillijst van gewenste personen ](../../../administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md) vormen.
+Als uw organisatie het Enterprise-abonnement gebruikt, kunt u de Workfront e-mailtoepassing configureren om te bepalen welke e-maildomeinen e-mails van Workfront mogen accepteren en welke e-maildomeinen zich in het e-mailadres kunnen bevinden dat gebruikers in hun Workfront-gebruikersprofiel opgeven. Voor meer informatie, zie [&#x200B; uw e-maillijst van gewenste personen &#x200B;](../../../administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md) vormen.
 
 ## IP adressen toevoegen aan de lijst van gewenste personen
 

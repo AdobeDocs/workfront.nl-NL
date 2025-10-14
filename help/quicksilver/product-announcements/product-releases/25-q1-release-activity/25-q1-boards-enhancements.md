@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Op deze pagina worden alle verbeteringen beschreven die zijn aangebracht in de release First Quarter 2025 voor de voorvertoningsomgeving. Deze verbeteringen zullen beschikbaar worden gesteld in de productieomgeving, zoals vermeld.
 
-Voor een lijst van alle veranderingen beschikbaar op dit punt in Eerste Kwartaal 2025 versiecyclus, zie [ Eerste Kwartaal 2025 versieoverzicht ](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar op dit punt in Eerste Kwartaal 2025 versiecyclus, zie [&#x200B; Eerste Kwartaal 2025 versieoverzicht &#x200B;](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md).
 
 ## De eigenaar van een board wijzigen
 
@@ -30,4 +30,4 @@ Er zijn functies toegevoegd waarmee Workfront-systeembeheerders de eigenaar van 
 
 Voorheen kon de eigenaar van de raad van bestuur niet worden gewijzigd zonder tussenkomst op de achterkant.
 
-Voor meer informatie, zie [ leden toevoegen of verwijderen uit een raad ](/help/quicksilver/agile/get-started-with-boards/add-members-to-board.md).
+Voor meer informatie, zie [&#x200B; leden toevoegen of verwijderen uit een raad &#x200B;](/help/quicksilver/agile/get-started-with-boards/add-members-to-board.md).

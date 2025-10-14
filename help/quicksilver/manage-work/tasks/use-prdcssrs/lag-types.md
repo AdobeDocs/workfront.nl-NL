@@ -51,7 +51,7 @@ De geplande, voorspelde en geschatte datums van de vervolgtaken worden berekend 
  </tbody> 
 </table>
 
-*For meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*For meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -148,7 +148,7 @@ U kunt vlagtypes op taken wijzen wanneer u hun voorgangersverhoudingen bepaalt.
 1. Typ de naam van de voorgaande taak en selecteer deze wanneer deze in de lijst wordt weergegeven.
 1. Selecteer het **Type van Afhankelijkheid**.
 
-   Voor meer informatie over de Types van Afhankelijkheid van predecessor, zie [ Overzicht van de types van taakgebiedsdeel ](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
+   Voor meer informatie over de Types van Afhankelijkheid van predecessor, zie [&#x200B; Overzicht van de types van taakgebiedsdeel &#x200B;](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
 
 1. Specificeer a **bedrag van de a** Lag gebruikend een numerieke waarde. U kunt negatieve getallen opgeven om een negatieve vertraging aan te geven.
 1. Selecteer een van de volgende opties om het type vertraging aan te geven dat u voor uw voorganger wilt opgeven:
@@ -159,7 +159,7 @@ U kunt vlagtypes op taken wijzen wanneer u hun voorgangersverhoudingen bepaalt.
    * **Dag van de Week**
    * **Dag van de Week (Nul)**
 
-     Voor meer informatie over deze Types van Lag en hoe zij worden berekend, zie de types van sectie [ Lag ](#lag-types) in dit artikel.
+     Voor meer informatie over deze Types van Lag en hoe zij worden berekend, zie de types van sectie [&#x200B; Lag &#x200B;](#lag-types) in dit artikel.
 
 1. Klik **sparen**.
 
@@ -173,14 +173,14 @@ U kunt vlagtypes op taken wijzen wanneer u hun voorgangersverhoudingen bepaalt.
    * het aantal van de taak u als voorganger van de geselecteerde taak wilt wijzen
    * de afkorting voor het gebiedstype u tussen de taken wilt wijzen
 
-     Voor meer informatie over de afkortingen voor de Types van Afhankelijkheid, zie [ Overzicht van de types van taakgebiedsdeel ](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
+     Voor meer informatie over de afkortingen voor de Types van Afhankelijkheid, zie [&#x200B; Overzicht van de types van taakgebiedsdeel &#x200B;](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
 
    * of a **+** voor een positieve vertraging of a **-** voor een negatieve vertraging
 
    * de omvang van de vertraging
    * de afkorting voor het gewenste Laagtype
 
-     Voor meer informatie over de afkortingen voor de Types van Lag, zie de sectie [ Types van Lag ](#lag-types) in dit artikel.
+     Voor meer informatie over de afkortingen voor de Types van Lag, zie de sectie [&#x200B; Types van Lag &#x200B;](#lag-types) in dit artikel.
 
    Als u bijvoorbeeld wilt aangeven dat een taak een voorganger en een positieve vertraging van twee dagen heeft, typt u `1fs+2d` in de kolom Voorgangers.
 

@@ -17,10 +17,10 @@ ht-degree: 0%
 
 Op deze pagina worden alle verbeteringen in rapporten en dashboards beschreven die zijn aangebracht met de release 23.2 voor de voorvertoningsomgeving. Deze verbeteringen worden beschikbaar gesteld in de productieomgeving met de release 23.2.
 
-Voor een lijst van alle veranderingen beschikbaar op dit punt in de 23.2 versiecyclus, zie [ 23.2 Overzicht van de Versie ](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar op dit punt in de 23.2 versiecyclus, zie [&#x200B; 23.2 Overzicht van de Versie &#x200B;](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md).
 
 ## Canvasdashboards
 
 Canvasdashboards zijn toegevoegd als werk-in-uitvoering eigenschap voor dashboards die in lay-outmalplaatjes kunnen worden toegelaten. Met Canvasdashboards kunnen de visualisaties van Canvas worden gecombineerd met bestaande rapporten, naast de nieuwe lay-outopties. Momenteel worden alleen lijstrapporten ondersteund, maar er worden meer opties toegevoegd als de ontwikkeling doorgaat.
 
-Voor meer informatie bij het toelaten van en het gebruiken van de Dashboards van het Canvas, zie [ Overzicht van de Dashboards van het Canvas ](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/canvas-dashboards-overview.md)
+Voor meer informatie bij het toelaten van en het gebruiken van de Dashboards van het Canvas, zie [&#x200B; Overzicht van de Dashboards van het Canvas &#x200B;](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/canvas-dashboards-overview.md)

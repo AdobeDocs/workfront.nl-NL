@@ -30,7 +30,7 @@ Wij adviseren dat u groepen vormt om uw afdelingsstructuur aan te passen.
 
 Bijvoorbeeld, zou u een groep van Financiën kunnen hebben die gebruikers in de Afdeling van Financiën bevat. Binnen de afdeling Financiën kunnen mensen worden gestructureerd in teams die onafhankelijk van elkaar werken.
 
-Voor meer informatie over het creëren van en het leiden van groepen, zie [ een groep ](../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md) creëren en [ leiden een groep ](../../administration-and-setup/manage-groups/create-and-manage-groups/manage-a-group.md).
+Voor meer informatie over het creëren van en het leiden van groepen, zie [&#x200B; een groep &#x200B;](../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md) creëren en [&#x200B; leiden een groep &#x200B;](../../administration-and-setup/manage-groups/create-and-manage-groups/manage-a-group.md).
 
 ## Teams gebruiken om de werkstructuur binnen een afdeling te vertegenwoordigen
 
@@ -38,7 +38,7 @@ Wij adviseren dat u Teams vormt om de de werkstructuur van dag tot dag van uw af
 
 U hebt bijvoorbeeld een team van Payroll, een Betaalbare accounts en een team van Rekeningen-ontvangstbewijzen. Typisch, werken de mensen in elk van deze teams aan projecten, taken, of kwesties die voor die teams gelijkaardig zijn.
 
-Voor meer informatie over het creëren van en het leiden van teams, zie [ teams ](../../people-teams-and-groups/create-and-manage-teams/create-and-mange-teams.md) creëren en beheren.
+Voor meer informatie over het creëren van en het leiden van teams, zie [&#x200B; teams &#x200B;](../../people-teams-and-groups/create-and-manage-teams/create-and-mange-teams.md) creëren en beheren.
 
 ## Vergelijking van groep- en teamfunctionaliteit
 

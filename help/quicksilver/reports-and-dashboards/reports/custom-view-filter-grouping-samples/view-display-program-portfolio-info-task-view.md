@@ -20,7 +20,7 @@ Deze taakmening toont het Programma en Portfolio die met het project van de taak
 
 De weergave bevat ook koppelingen naar het project, het programma en Portfolio vanuit een taaklijst.
 
-![ het programma en de portefeuille van de Mening ](assets/view--program-and-portfolio-350x116.png)
+![&#x200B; het programma en de portefeuille van de Mening &#x200B;](assets/view--program-and-portfolio-350x116.png)
 
 ## Toegangsvereisten
 
@@ -58,7 +58,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-*For informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*For informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

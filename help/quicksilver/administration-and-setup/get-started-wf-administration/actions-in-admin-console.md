@@ -31,7 +31,7 @@ Als uw organisatie is aangemeld bij het Adobe Business Platform, gebruiken uw ge
 >
 >We raden u aan om gebruikers die geen systeembeheerders zijn, rechtstreeks toe te voegen in Workfront. Het is mogelijk om gebruikers toe te voegen in de Adobe Admin Console, maar als u ze toevoegt in Workfront, kunt u hun toegangsniveau instellen terwijl u ze maakt. Op die manier kunt u tijd besparen.
 
-Voor instructie bij het creëren van het systeembeheerders van Workfront, zie [ gebruikers in Adobe Admin Console ](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md) leiden.
+Voor instructie bij het creëren van het systeembeheerders van Workfront, zie [&#x200B; gebruikers in Adobe Admin Console &#x200B;](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md) leiden.
 
 <!--
 <table style="table-layout:auto"> 
@@ -161,7 +161,7 @@ Voor instructie bij het creëren van het systeembeheerders van Workfront, zie [ 
 
 ## Het SAML-certificaat verlengen
 
-Voor instructies bij het vernieuwen van het certificaat van SAML op Adobe Admin Console, zie de sectie &quot;De digitale handtekening in de reactie van SAML ongeldig maakte...&quot;in [ het Oplossen van problemen Federated ID ](https://helpx.adobe.com/nl/enterprise/kb/tshoot-fed-id.html).
+Voor instructies bij het vernieuwen van het certificaat van SAML op Adobe Admin Console, zie de sectie &quot;De digitale handtekening in de reactie van SAML ongeldig maakte...&quot;in [&#x200B; het Oplossen van problemen Federated ID &#x200B;](https://helpx.adobe.com/nl/enterprise/kb/tshoot-fed-id.html).
 
 <!--
 
@@ -185,10 +185,10 @@ Voor instructies bij het vernieuwen van het certificaat van SAML op Adobe Admin 
 Omdat het Adobe Business Platform Single Sign-On (SSO) voor gebruikers beheert, worden de volgende acties en functies automatisch afgehandeld via het Adobe Business Platform. Als uw organisatie nog niet is aangemeld bij het Adobe Business Platform, moet u deze handelingen uitvoeren in Workfront.
 
 
-* [ vorm Adobe Workfront met SAML 2.0 ](../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2.md)
-* [ vorm Adobe Workfront met SAML 2.0 gebruikend ADFS ](../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2-adfs.md)
-* [ deactivate enig teken-op in Adobe Workfront ](../../administration-and-setup/add-users/single-sign-on/deactivate-sso.md)
-* [ de meta-gegevens van SAML 2.0 van de Update in uw identiteitsleverancier ](../../administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip.md)
-* [ de gebruikers van de Update voor enig teken-op ](../../administration-and-setup/add-users/single-sign-on/update-users-sso.md)
-* [ vorm wachtwoordbeleid voor authentificatie ](../../administration-and-setup/manage-workfront/security/configure-password-policies-authentication.md)
-* [ vorm de voorkeur van de systeemveiligheid ](../../administration-and-setup/manage-workfront/security/configure-security-preferences.md)
+* [&#x200B; vorm Adobe Workfront met SAML 2.0 &#x200B;](../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2.md)
+* [&#x200B; vorm Adobe Workfront met SAML 2.0 gebruikend ADFS &#x200B;](../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2-adfs.md)
+* [&#x200B; deactivate enig teken-op in Adobe Workfront &#x200B;](../../administration-and-setup/add-users/single-sign-on/deactivate-sso.md)
+* [&#x200B; de meta-gegevens van SAML 2.0 van de Update in uw identiteitsleverancier &#x200B;](../../administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip.md)
+* [&#x200B; de gebruikers van de Update voor enig teken-op &#x200B;](../../administration-and-setup/add-users/single-sign-on/update-users-sso.md)
+* [&#x200B; vorm wachtwoordbeleid voor authentificatie &#x200B;](../../administration-and-setup/manage-workfront/security/configure-password-policies-authentication.md)
+* [&#x200B; vorm de voorkeur van de systeemveiligheid &#x200B;](../../administration-and-setup/manage-workfront/security/configure-security-preferences.md)

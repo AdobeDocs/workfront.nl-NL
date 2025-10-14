@@ -94,7 +94,7 @@ In het overzicht kunnen gebruikers
 * Een update toevoegen
 * Ga naar het gebied Documenten om een document te uploaden
 * Details van werkitems weergeven en aangepaste velden bijwerken
-Workfront-beheerders kunnen aanpassen welke velden worden weergegeven in de sjabloon Overzicht in de lay-outsjabloon. Voor meer informatie, zie [ Huis en Samenvatting aanpassen gebruikend een lay-outmalplaatje ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
+Workfront-beheerders kunnen aanpassen welke velden worden weergegeven in de sjabloon Overzicht in de lay-outsjabloon. Voor meer informatie, zie [&#x200B; Huis en Samenvatting aanpassen gebruikend een lay-outmalplaatje &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
 * De status van het werkitem wijzigen
 * Subtaken weergeven
 * Logtijd
@@ -110,7 +110,7 @@ Workfront-beheerders kunnen aanpassen welke velden worden weergegeven in de sjab
 
 De gebruikers kunnen het Summiere paneel openen door over het het werkpunt te bewegen, dan het klikken van het **Samenvatting** pictogram ![](assets/open-summary-new-home.png).
 
-Voor extra informatie over hoe te om het Summiere paneel te gebruiken, zie [ Overzicht van de Samenvatting ](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md).
+Voor extra informatie over hoe te om het Summiere paneel te gebruiken, zie [&#x200B; Overzicht van de Samenvatting &#x200B;](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md).
 
 #### Snelle handelingen gebruiken
 
@@ -140,7 +140,7 @@ Voor informatie over het toevoegen van widgets aan uw Nieuwe Homepage, zie [ toe
 
 Widgets vormen de basis van het Nieuwe Huis. Door widgets aan de startpagina toe te voegen, kunnen gebruikers het type informatie kiezen dat wordt weergegeven om optimaal aan hun werkbehoeften te voldoen. Sommige widgets zijn alleen beschikbaar voor specifieke licentietypen, aangezien de objecten die ze bijhouden alleen beschikbaar zijn voor die licenties.
 
-Workfront-beheerders kunnen met behulp van een lay-outsjabloon aanpassen welke widgets beschikbaar zijn in New Home. Voor meer informatie, zie [ nieuw Huis aanpassen gebruikend een lay-outmalplaatje ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-new-home-layout-template.md).
+Workfront-beheerders kunnen met behulp van een lay-outsjabloon aanpassen welke widgets beschikbaar zijn in New Home. Voor meer informatie, zie [&#x200B; nieuw Huis aanpassen gebruikend een lay-outmalplaatje &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-new-home-layout-template.md).
 
 +++ Uitbreiden om een gedetailleerde lijst met de beschikbare widgets weer te geven
 Hieronder vindt u een overzicht van de 11 widgets die u momenteel kunt kiezen, en een overzicht van de gegevens die worden weergegeven:
@@ -256,7 +256,7 @@ Onze primaire aanbeveling is om zo snel mogelijk een begin te maken met de overg
 
 We raden beheerders aan:
 
-1. Bouw een standaardlay-out Nieuwe homepage gebruikend lay-outmalplaatjes (of, naar keuze, creeer één voor elke gebruiker, team, groep, of baanrol die een unieke lay-out vereist.) Zie [ nieuw Huis aanpassen gebruikend een lay-outmalplaatje ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-new-home-layout-template.md) voor meer informatie.
+1. Bouw een standaardlay-out Nieuwe homepage gebruikend lay-outmalplaatjes (of, naar keuze, creeer één voor elke gebruiker, team, groep, of baanrol die een unieke lay-out vereist.) Zie [&#x200B; nieuw Huis aanpassen gebruikend een lay-outmalplaatje &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-new-home-layout-template.md) voor meer informatie.
 
 1. Wijs uw nieuwe lay-outmalplaatjes aan een klein aantal testgebruikers toe, die kunnen verifiëren dat hun widgets en algemene montages aan hun werkbehoeften voldoen.
 
@@ -272,7 +272,7 @@ Als u dit zo snel mogelijk doet, hebben uw gebruikers de tijd om zich aan de nie
 
 **Training**
 
-* [ verwijder, voeg, en herschik widgets in het leerprogramma van het Huis toe ](https://experienceleague.adobe.com/nl/docs/workfront-learn/tutorials-workfront/home/remove-add-and-rearrange-widgets)
+* [&#x200B; verwijder, voeg, en herschik widgets in het leerprogramma van het Huis toe &#x200B;](https://experienceleague.adobe.com/nl/docs/workfront-learn/tutorials-workfront/home/remove-add-and-rearrange-widgets)
 * {de Grondbeginselen van de Arbeider van 0} in Adobe Workfront [&#128279;](https://adobe-ats.sabacloud.com/Saba/Web_spf/PRODTNT100/app/me/learningeventdetail/cours000000000098821?regId=regdw000000001250612)
 
 >[!IMPORTANT]

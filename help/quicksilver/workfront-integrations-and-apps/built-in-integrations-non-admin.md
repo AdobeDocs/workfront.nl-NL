@@ -43,7 +43,7 @@ De volgende ingebouwde integraties zijn momenteel beschikbaar in Workfront.
      <li>Premiere Pro </li>
      <li>After Effects </li>
      </ul>
-     <li><p>Download/installeer van <a href="https://exchange.adobe.com/apps/browse/cc?page=1&amp;product=All&amp;q=workfront&amp;sort=RELEVANCE" class="MCXref xref"> Adobe Exchange </a>.</p></li></ul>
+     <li><p>Download/installeer van <a href="https://exchange.adobe.com/apps/browse/cc?page=1&product=All&q=workfront&sort=RELEVANCE" class="MCXref xref"> Adobe Exchange </a>.</p></li></ul>
      <p>Voor informatie en instructies, zie <a href="https://experienceleague.adobe.com/nl/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/install-wf-cc/wf-cc-install-toc" class="MCXref xref"> de [!DNL Adobe Workfront] stop voor [!DNL Creative Cloud] Toepassingen </a> installeren.</p> </td> 
   </tr> 
   <tr> 
@@ -146,4 +146,4 @@ De volgende ingebouwde integraties zijn momenteel beschikbaar in Workfront.
 
 ## Overige [!DNL Workfront] -integratie
 
-De integratie die u wilt is mogelijk geen ingebouwde integratie. [!DNL Workfront] biedt echter andere manieren om met de app of webservice van uw keuze te integreren. Voor meer informatie over andere manieren om met [!DNL Workfront] te integreren, zie [ de integratiemethodes van Adobe Workfront ](../workfront-integrations-and-apps/built-in-vs-api-vs-fusion.md).
+De integratie die u wilt is mogelijk geen ingebouwde integratie. [!DNL Workfront] biedt echter andere manieren om met de app of webservice van uw keuze te integreren. Voor meer informatie over andere manieren om met [!DNL Workfront] te integreren, zie [&#x200B; de integratiemethodes van Adobe Workfront &#x200B;](../workfront-integrations-and-apps/built-in-vs-api-vs-fusion.md).

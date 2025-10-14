@@ -100,27 +100,27 @@ U kunt meldingen in de app of per e-mail ontvangen wanneer de volgende acties pl
 </tbody> 
 </table>
 
-*Voor meer informatie over de toegangsvereisten van Workfront, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Voor meer informatie over de toegangsvereisten van Workfront, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 Raadpleeg ook de volgende artikelen voor meer informatie over berichten over Workfront Planning:
 
-* Voor informatie over commentaren op verslagen, zie [ recordcommentaren beheren ](/help/quicksilver/planning/records/manage-record-comments.md).
-* Voor informatie over in-app berichten van de Planning van Workfront, zie [ binnen-app berichten voor de Planning van Adobe Workfront beheren ](/help/quicksilver/planning/notifications/manage-planning-in-app-notifications.md).
-* Voor informatie over e-mailberichten van de Planning van Workfront, zie [ e-mailberichten voor de Planning van Adobe Workfront beheren ](/help/quicksilver/planning/notifications/manage-planning-email-notifications.md).
+* Voor informatie over commentaren op verslagen, zie [&#x200B; recordcommentaren beheren &#x200B;](/help/quicksilver/planning/records/manage-record-comments.md).
+* Voor informatie over in-app berichten van de Planning van Workfront, zie [&#x200B; binnen-app berichten voor de Planning van Adobe Workfront beheren &#x200B;](/help/quicksilver/planning/notifications/manage-planning-in-app-notifications.md).
+* Voor informatie over e-mailberichten van de Planning van Workfront, zie [&#x200B; e-mailberichten voor de Planning van Adobe Workfront beheren &#x200B;](/help/quicksilver/planning/notifications/manage-planning-email-notifications.md).
 
 
 ## Meldingsvoorkeuren beheren
 
 1. Meld u aan bij Workfront met uw Adobe Experience Cloud-referenties.
-1. Klik het **pictogram** het menupictogram van de Rekening op Experience Cloud ![ in het hoger-recht van het scherm, dan klik ](assets/account-menu-icon-on-experience-cloud.png) Voorkeur **.**
+1. Klik het **pictogram** het menupictogram van de Rekening op Experience Cloud ![&#x200B; in het hoger-recht van het scherm, dan klik &#x200B;](assets/account-menu-icon-on-experience-cloud.png) Voorkeur **.**
 1. Onder de **sectie van Meldingen**, klik **Workfront**.
 1. Selecteer de meldingen die u wilt ontvangen.
 of
 Schakel de meldingen uit die u niet meer wilt ontvangen.
 
-   ![ Adobe Experience Cloud berichten paneel voor de Planning van Workfront ](assets/adobe-experience-cloud-notifications-panel-for-workfront-planning.png)
+   ![&#x200B; Adobe Experience Cloud berichten paneel voor de Planning van Workfront &#x200B;](assets/adobe-experience-cloud-notifications-panel-for-workfront-planning.png)
 1. De volgende berichten zijn beschikbaar voor Workfront:
 
    * **Vermeldingen**: U ontvangt een bericht wanneer iemand u of uw team in een commentaar in de Planning van Workfront etiketteert
@@ -131,7 +131,7 @@ Schakel de meldingen uit die u niet meer wilt ontvangen.
       * De status van een Workfront-planningsverzoek dat u hebt ingediend
       * Aanvragen, subsidies of afwijzing van een aanvraag voor een Workfront-planning
 
-   Voor meer informatie over het beheren van berichten, zie [ voorkeur en berichten van de Rekening ](https://experienceleague.adobe.com/nl/docs/core-services/interface/features/account-preferences).
+   Voor meer informatie over het beheren van berichten, zie [&#x200B; voorkeur en berichten van de Rekening &#x200B;](https://experienceleague.adobe.com/nl/docs/core-services/interface/features/account-preferences).
 
 <!--OLD: notifications are not available to non-IMS customers: 
 

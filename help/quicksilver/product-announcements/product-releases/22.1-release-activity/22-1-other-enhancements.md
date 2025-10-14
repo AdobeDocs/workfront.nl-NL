@@ -25,7 +25,7 @@ in January 2022
 
 de week van 17 januari 2022.
 
-Voor een lijst van alle veranderingen beschikbaar met de versie 22.1, zie [ overzicht van de Versie 22.1 ](../../../product-announcements/product-releases/22.1-release-activity/22-1-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar met de versie 22.1, zie [&#x200B; overzicht van de Versie 22.1 &#x200B;](../../../product-announcements/product-releases/22.1-release-activity/22-1-release-overview.md).
 
 ## Standaard oplopende volgorde voor geplande voltooiing Datum en mogelijkheid om te groeperen op geplande begindatum in de thuiswerklijst
 
@@ -33,7 +33,7 @@ Om het gemakkelijker en sneller te maken om de punten te vinden die uw aandacht 
 
 Voordat u deze verbeteringen doorvoert, kunt u de items alleen groeperen op Geplande voltooiingsdatum en op Vastleggingsdatum.
 
-Voor meer informatie, zie [ punten van de Vertoning in de Lijst van het Werk in het gebied van het Huis ](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
+Voor meer informatie, zie [&#x200B; punten van de Vertoning in de Lijst van het Werk in het gebied van het Huis &#x200B;](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
 
 ## Het gebied Mijn updates toevoegen voor alle gebruikers met licentie
 
@@ -48,7 +48,7 @@ Wanneer u het gebied Mijn Updates opent, kunt u nu snel de volgende informatie v
 * Goedkeuringen die op uw besluitvormingsvertoning in de eerste helft van de Mijn pagina van Updates wachten. U kunt goedkeuren, verwerpen, veranderingen voorstellen, toegang verlenen, of uw goedkeuring delegeren aan anderen.
 * Opmerkingen waarin u bent opgenomen, worden weergegeven in de onderste helft van de pagina Mijn updates, in de sectie Opmerkingen.
 
-Voor meer informatie, zie [ Gebruik het Mijn gebied van Updates ](../../../workfront-basics/using-home/using-the-home-area/my-updates-area.md).
+Voor meer informatie, zie [&#x200B; Gebruik het Mijn gebied van Updates &#x200B;](../../../workfront-basics/using-home/using-the-home-area/my-updates-area.md).
 
 ## Verbeteringen in tijdbladen
 
@@ -63,14 +63,14 @@ Enkele van deze updates zijn:
 
 Raadpleeg de volgende artikelen voor meer informatie:
 
-* [ Begrijp de lay-out van de Tijdopmaak ](../../../timesheets/timesheets/timesheet-layout.md)
+* [&#x200B; Begrijp de lay-out van de Tijdopmaak &#x200B;](../../../timesheets/timesheets/timesheet-layout.md)
 * [Logtijd](../../../timesheets/create-and-manage-timesheets/log-time.md)
 
 ## Nieuwe werkbalk voor gebruikerslijsten
 
 Met een modernere en intuïtievere werkbalk kunt u gebruikers in een gebruikerslijst gemakkelijker beheren. Met de werkbalkknoppen kunt u snel mensen aan Workfront toevoegen, ze eraan herinneren zich te registreren en hun profielen te beheren. U kunt ook een gebruikerslijst exporteren.
 
-Voor meer informatie over deze acties, zie [ gebruikers ](../../../administration-and-setup/add-users/create-and-manage-users/create-and-manage-users.md) creëren en leiden.
+Voor meer informatie over deze acties, zie [&#x200B; gebruikers &#x200B;](../../../administration-and-setup/add-users/create-and-manage-users/create-and-manage-users.md) creëren en leiden.
 
 ## Bijgewerkt menu Help
 

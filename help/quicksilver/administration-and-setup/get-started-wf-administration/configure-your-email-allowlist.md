@@ -33,7 +33,7 @@ Dit is handig als het beveiligingsbeleid van uw organisatie gebruikers beperkt i
 >Zo ziet de From-regel in een Workfront-e-mail die u ontvangt van een gebruiker met de naam Joan Harris er als volgt uit:
 >`Joan Harris <notifications@my.workfront.com>`
 
-Voor informatie over het vormen van de firewall van uw organisatie om communicatie tussen uw milieu en de servers van Adobe Workfront te openen, zie [ de lijst van gewenste personen van uw firewall ](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md) vormen.
+Voor informatie over het vormen van de firewall van uw organisatie om communicatie tussen uw milieu en de servers van Adobe Workfront te openen, zie [&#x200B; de lijst van gewenste personen van uw firewall &#x200B;](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md) vormen.
 
 ## Toegangsvereisten
 
@@ -64,9 +64,9 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 ## Overige lijsten van gewenste personen
 
-Als uw organisatie het plan van de Onderneming heeft, kunt u een lijst van gewenste personen vormen van Adobe Workfront IP die toegang tot Workfront tot 75 IP adressen of IP adreswaaiers beperkt die u specificeert. Dit biedt een extra beveiligingslaag voor de Workfront-toepassing. Voor meer informatie, zie [ toegang tot Adobe Workfront door IP adres ](../../administration-and-setup/manage-workfront/security/restrict-access-workfront-ip-address.md) beperken.
+Als uw organisatie het plan van de Onderneming heeft, kunt u een lijst van gewenste personen vormen van Adobe Workfront IP die toegang tot Workfront tot 75 IP adressen of IP adreswaaiers beperkt die u specificeert. Dit biedt een extra beveiligingslaag voor de Workfront-toepassing. Voor meer informatie, zie [&#x200B; toegang tot Adobe Workfront door IP adres &#x200B;](../../administration-and-setup/manage-workfront/security/restrict-access-workfront-ip-address.md) beperken.
 
-Ook, als uw firewall of postserver wordt gevormd om toegang tot slechts bepaalde verkopers toe te staan, moet u bepaalde IP adressen aan zijn lijst van gewenste personen toevoegen. Hierdoor wordt de communicatie tussen uw omgeving en de Adobe Workfront-servers geopend. Voor informatie over dat, zie [ de lijst van gewenste personen van uw firewall ](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md) vormen.
+Ook, als uw firewall of postserver wordt gevormd om toegang tot slechts bepaalde verkopers toe te staan, moet u bepaalde IP adressen aan zijn lijst van gewenste personen toevoegen. Hierdoor wordt de communicatie tussen uw omgeving en de Adobe Workfront-servers geopend. Voor informatie over dat, zie [&#x200B; de lijst van gewenste personen van uw firewall &#x200B;](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md) vormen.
 
 ## Uw e-maillijst van gewenste personen configureren
 

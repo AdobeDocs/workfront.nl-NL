@@ -18,11 +18,11 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [ het Bewijzen ](../../../review-and-approve-work/proofing/proofing.md).
+>Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [&#x200B; het Bewijzen &#x200B;](../../../review-and-approve-work/proofing/proofing.md).
 
-Contactpersonen worden standaard gedeeld in een organisatie. Dus als u een gast toevoegt, zien uw collega&#39;s die persoon ook in hun lijst met contactpersonen. Voor informatie over Gasten en Collegues, zie [ Gebruikers, Leden, en Gasten in  [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/contacts/use-members-guests.md) begrijpen.
+Contactpersonen worden standaard gedeeld in een organisatie. Dus als u een gast toevoegt, zien uw collega&#39;s die persoon ook in hun lijst met contactpersonen. Voor informatie over Gasten en Collegues, zie [&#x200B; Gebruikers, Leden, en Gasten in  [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/contacts/use-members-guests.md) begrijpen.
 
-Iedereen u aan een proef toevoegt zal automatisch aan uw contactenlijst worden toegevoegd. Voor informatie over het toevoegen van recensenten aan een proef, zie [ Deel een Bewijs in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof.md).
+Iedereen u aan een proef toevoegt zal automatisch aan uw contactenlijst worden toegevoegd. Voor informatie over het toevoegen van recensenten aan een proef, zie [&#x200B; Deel een Bewijs in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof.md).
 
 >[!NOTE]
 >
@@ -32,6 +32,6 @@ Een nieuwe gast toevoegen:
 
 1. Klik op het dashboard op de pijl omlaag naast **[!UICONTROL New proof]** en klik vervolgens op **[!UICONTROL New guest]** .
 
-1. Als u een profiel van de Waarnemer hebt, zult u niet de optie hebben om nieuwe contacten toe te voegen. Voor meer informatie, zie [ Profielen van de Toestemmingen van de Bewijs in  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md).
+1. Als u een profiel van de Waarnemer hebt, zult u niet de optie hebben om nieuwe contacten toe te voegen. Voor meer informatie, zie [&#x200B; Profielen van de Toestemmingen van de Bewijs in  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md).
 1. Typ de informatie van de gast en klik vervolgens op **[!UICONTROL Create]** . U kunt de standaardproefdrukrol en de toestemmingen voor de nieuwe Gast kiezen. Wanneer deze persoon vervolgens aan een bewijs wordt toegevoegd, krijgt hij deze rol en waarschuwing standaard, maar deze kunnen op de pagina Nieuwe proefdruk worden gewijzigd wanneer hij of zij aan de proefdruk toevoegt.
-Voor meer informatie, zie {de Profielen van de Toestemmingen van 0} Bewijs in  [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) en [ vormen e-mailberichtmontages in  [!DNL Workfront Proof]](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md).
+Voor meer informatie, zie {de Profielen van de Toestemmingen van 0} Bewijs in  [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) en [&#x200B; vormen e-mailberichtmontages in  [!DNL Workfront Proof]](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md).

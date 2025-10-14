@@ -46,7 +46,7 @@ U moet in [!DNL Workfront] de volgende toegang hebben om de stappen in dit artik
 1. Tik op de tab onderaan in het midden van het scherm.\
    Het gebied [!UICONTROL widget] wordt weergegeven.\
    Blader door de widgets door van links naar rechts te vegen.\
-   ![ Widgets ](assets/screen-shot-2013-009-11-at-8.25.01-am-350x262.png)
+   ![&#x200B; Widgets &#x200B;](assets/screen-shot-2013-009-11-at-8.25.01-am-350x262.png)
 
 1. Sleep een widget om de lay-out van uw projectpagina aan te passen.\
    U kunt maximaal vier widgets tegelijk weergeven.\
@@ -88,4 +88,4 @@ U moet in [!DNL Workfront] de volgende toegang hebben om de stappen in dit artik
       * Projectplanning
    * **[!UICONTROL Team]**: geeft de namen weer van de gebruikers die deel uitmaken van het projectteam.\
 
-     Voor meer informatie over projectteams, zie [ Overzicht van het Team van het Project ](../../../manage-work/projects/planning-a-project/project-team-overview.md).
+     Voor meer informatie over projectteams, zie [&#x200B; Overzicht van het Team van het Project &#x200B;](../../../manage-work/projects/planning-a-project/project-team-overview.md).

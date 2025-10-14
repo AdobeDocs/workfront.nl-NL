@@ -19,9 +19,9 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [ het Bewijzen ](../../../review-and-approve-work/proofing/proofing.md).
+>Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [&#x200B; het Bewijzen &#x200B;](../../../review-and-approve-work/proofing/proofing.md).
 
-U hebt een [!UICONTROL Enterprise] [!DNL Workfront] -abonnement nodig om deze functie te kunnen gebruiken. Voor meer informatie over de diverse beschikbare plannen, zie [ Abonnementen van Workfront ](https://business.adobe.com/products/workfront/pricing.html).
+U hebt een [!UICONTROL Enterprise] [!DNL Workfront] -abonnement nodig om deze functie te kunnen gebruiken. Voor meer informatie over de diverse beschikbare plannen, zie [&#x200B; Abonnementen van Workfront &#x200B;](https://business.adobe.com/products/workfront/pricing.html).
 
 Met Single Sign-On (SSO) kunnen uw gebruikers zich aanmelden bij [!DNL Workfront Proof] via de bestaande gebruikersnaam en het bestaande wachtwoord van uw organisatie.
 
@@ -32,6 +32,6 @@ Dit betekent dat u zich op uw eigen aanmeldingssysteem verifieert, niet op de aa
 U moet een aangepaste subdomein of domein hebben ingesteld op uw [!DNL Workfront] Proefaccount om SAML in te schakelen:
 
 <!--* Custom sub-domains are free to set up. See our [Configure a branded domain in Workfront Proof](../../../workfront-proof/wp-acct-admin/branding/configure-branded-domain-in-wp.md) for more information.-->
-* U kunt meer over volledig aangepaste domeinen in [ lezen merk de  [!DNL Workfront Proof]  plaats - geavanceerd ](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site-advanced.md).
+* U kunt meer over volledig aangepaste domeinen in [&#x200B; lezen merk de  [!DNL Workfront Proof]  plaats - geavanceerd &#x200B;](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site-advanced.md).
 
-Zie [ Enige Sign-On voor  [!DNL Workfront Proof]  gebruikers ](../../../workfront-proof/wp-acct-admin/account-settings/configure-sso-for-wp-users.md) voor informatie over vestiging SSO op uw rekening vormen.
+Zie [&#x200B; Enige Sign-On voor  [!DNL Workfront Proof]  gebruikers &#x200B;](../../../workfront-proof/wp-acct-admin/account-settings/configure-sso-for-wp-users.md) voor informatie over vestiging SSO op uw rekening vormen.

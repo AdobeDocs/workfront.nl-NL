@@ -56,7 +56,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -64,13 +64,13 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 De indeling van een bedrijfsregel is &quot;ALS aan de gedefinieerde voorwaarde is voldaan, is de gebruiker niet in staat tot de actie op het object en wordt het bericht weergegeven.&quot;
 
-De syntaxis voor de eigenschappen en andere functies in een bedrijfsregel is hetzelfde als de syntaxis voor een berekend veld in een aangepast formulier. Voor meer informatie over de syntaxis, zie [ berekende gebieden met de vormontwerper ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) toevoegen.
+De syntaxis voor de eigenschappen en andere functies in een bedrijfsregel is hetzelfde als de syntaxis voor een berekend veld in een aangepast formulier. Voor meer informatie over de syntaxis, zie [&#x200B; berekende gebieden met de vormontwerper &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) toevoegen.
 
-Voor informatie over IF- verklaringen, zie [ &quot;IF&quot;verklaringenoverzicht ](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/if-statements-overview.md) en [ de exploitanten van de Voorwaarde in berekende douanevelden ](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/condition-operators-calculated-custom-expressions.md).
+Voor informatie over IF- verklaringen, zie [&#x200B; &quot;IF&quot;verklaringenoverzicht &#x200B;](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/if-statements-overview.md) en [&#x200B; de exploitanten van de Voorwaarde in berekende douanevelden &#x200B;](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/condition-operators-calculated-custom-expressions.md).
 
-Voor informatie over op gebruiker-gebaseerde vervangingen, zie [ Op gebruiker-gebaseerde vervangingen van het Gebruik om rapporten ](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-user-based-wildcards-generalize-reports.md) te generaliseren.
+Voor informatie over op gebruiker-gebaseerde vervangingen, zie [&#x200B; Op gebruiker-gebaseerde vervangingen van het Gebruik om rapporten &#x200B;](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-user-based-wildcards-generalize-reports.md) te generaliseren.
 
-Voor informatie over op datum-gebaseerde vervangingen, zie [ Op datum-gebaseerde vervangingen van het Gebruik om rapporten ](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-date-based-wildcards-generalize-reports.md) te generaliseren.
+Voor informatie over op datum-gebaseerde vervangingen, zie [&#x200B; Op datum-gebaseerde vervangingen van het Gebruik om rapporten &#x200B;](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-date-based-wildcards-generalize-reports.md) te generaliseren.
 
 Een API-jokerteken is ook beschikbaar in bedrijfsregels. Gebruik `$$ISAPI` om de regel alleen in de API te activeren. Gebruik `!$$ISAPI` om de regel alleen in de gebruikersinterface af te dwingen en gebruikers toe te staan de regel via de API te omzeilen.
 
@@ -124,7 +124,7 @@ IF(
 1. Klik **Nieuwe bedrijfsregel**.
 1. Selecteer het objecten type om de bedrijfsregel aan toe te wijzen, dan klik **verdergaan**.
 
-   ![ Uitgezocht een voorwerp ](assets/object-for-business-rule3.png)
+   ![&#x200B; Uitgezocht een voorwerp &#x200B;](assets/object-for-business-rule3.png)
 
    U kunt bedrijfsregels toepassen op de volgende objecten:
 
@@ -175,11 +175,11 @@ IF(
 
      In dit voorbeeld wordt &quot;Meer informatie&quot; gekoppeld aan de URL. `"You are not allowed to add a new project in November.[Learn more](http://url)"` De URL moet tussen haakjes staan, maar koppelingstekst tussen haakjes is niet vereist. U kunt de volledige URL weergeven en het wordt een klikbare koppeling.
 
-   ![ voeg bedrijfsregeldialoog ](assets/add-business-rule-dialog-no-ai-button.png) toe
+   ![&#x200B; voeg bedrijfsregeldialoog &#x200B;](assets/add-business-rule-dialog-no-ai-button.png) toe
 
    Dit voorbeeld is een bedrijfsregel voor projecten. Als de huidige maand November is, dan worden de gebruikers toegelaten om geen nieuwe projecten tot stand te brengen, en het bericht verklaart dit.
 
-   Voor meer voorbeelden van bedrijfsregels, zie [ Scenario&#39;s voor bedrijfsregels ](#scenarios-for-business-rules) in dit artikel.
+   Voor meer voorbeelden van bedrijfsregels, zie [&#x200B; Scenario&#39;s voor bedrijfsregels &#x200B;](#scenarios-for-business-rules) in dit artikel.
 
 1. (Facultatief) gebruik de formule **Uitdrukkingen** en **Gebieden** in het juiste paneel om bij de bouw van de regel bij te wonen.
 

@@ -25,7 +25,7 @@ Deze functie is in ontwikkeling en ondersteunt nog niet:
 * gemelde rapporten
 * distribueren via lay-outsjablonen
 
-Voor een volledige lijst van eigenschappen die aan de Dashboards van het Canvas zijn toegevoegd, zie [ Dashboards van het Canvas: de activiteit van de versie ](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-release-activity.md)
+Voor een volledige lijst van eigenschappen die aan de Dashboards van het Canvas zijn toegevoegd, zie [&#x200B; Dashboards van het Canvas: de activiteit van de versie &#x200B;](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-release-activity.md)
 
 ## Canvasdashboards openen
 
@@ -37,11 +37,11 @@ Een nieuwe optie voor Canvasdashboards in het linkerdeelvenster van de bestaande
 >
 >U moet ten minste weergaverechten voor rapporten en dashboards hebben om het item Canvasdashboards in de sjabloon Indeling in- en uit te schakelen.
 
-1. Begin werkend aan het lay-outmalplaatje waarin u de Dashboards van het Canvas, zoals die in [ worden beschreven creeer en beheer lay-outmalplaatjes ](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md) zou willen toelaten.
+1. Begin werkend aan het lay-outmalplaatje waarin u de Dashboards van het Canvas, zoals die in [&#x200B; worden beschreven creeer en beheer lay-outmalplaatjes &#x200B;](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md) zou willen toelaten.
 
 1. Klik op **aanpassen welke gebruikers** dropdown menu zien, dan **Dashboards** klikken.
 
-1. In de **Linkerpaneel** lijst die hieronder verschijnt, klik het ![ secundaire nav punt van de Schrapping ](assets/delete-secondary-nav-item.png) pictogram naast **Dashboards van het Canvas**. Het pictogram zal in ![ veranderen voeg secundair nav punt ](assets/add-secondary-nav-item.png) toe om te tonen dat het nu zichtbaar in het verlaten paneel van Dashboards is.
+1. In de **Linkerpaneel** lijst die hieronder verschijnt, klik het ![&#x200B; secundaire nav punt van de Schrapping &#x200B;](assets/delete-secondary-nav-item.png) pictogram naast **Dashboards van het Canvas**. Het pictogram zal in ![&#x200B; veranderen voeg secundair nav punt &#x200B;](assets/add-secondary-nav-item.png) toe om te tonen dat het nu zichtbaar in het verlaten paneel van Dashboards is.
 
 1. Klik **sparen** bij de bodem van het scherm.
 
@@ -49,7 +49,7 @@ Een nieuwe optie voor Canvasdashboards in het linkerdeelvenster van de bestaande
 
 1. Controleer of u de optie Canvasdashboards hebt ingeschakeld in uw lay-outsjabloon. Zie **Toevoegend de Dashboards van het Canvas aan het menu van Dashboards** hierboven voor instructies.
 
-1. Klik het Belangrijkste pictogram van het Menu ![ Belangrijkste pictogram van het Menu ](assets/main-menu-icon.png), dan klik **Dashboards**.
+1. Klik het Belangrijkste pictogram van het Menu ![&#x200B; Belangrijkste pictogram van het Menu &#x200B;](assets/main-menu-icon.png), dan klik **Dashboards**.
 
 1. In het linkerpaneel, klik **de Dashboards van het Canvas**.
 

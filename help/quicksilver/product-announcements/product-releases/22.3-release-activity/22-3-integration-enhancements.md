@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # 22.3 Verbeterde integratie
 
-Op deze pagina worden alle verbeteringen beschreven die zijn aangebracht in de versie 22.3 voor integratie in de voorvertoningsomgeving. Deze verbeteringen zullen beschikbaar worden gesteld in de Productomgeving in januari 2022, de week van 11 juli 2022. Voor een lijst van alle veranderingen beschikbaar met de versie 22.3, zie [ overzicht van de Versie 22.3 ](/help/quicksilver/product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md).
+Op deze pagina worden alle verbeteringen beschreven die zijn aangebracht in de versie 22.3 voor integratie in de voorvertoningsomgeving. Deze verbeteringen zullen beschikbaar worden gesteld in de Productomgeving in januari 2022, de week van 11 juli 2022. Voor een lijst van alle veranderingen beschikbaar met de versie 22.3, zie [&#x200B; overzicht van de Versie 22.3 &#x200B;](/help/quicksilver/product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md).
 
 ## Integratie Adobe Workfront voor Experience Manager Assets
 
@@ -49,7 +49,7 @@ U verliest de toegang tot documenten die momenteel via de verouderde SharePoint-
 
 Workfront-beheerders kunnen de integratie van SharePoint en oudere SharePoint afzonderlijk in- en uitschakelen op basis van de behoeften van hun organisatie.
 
-Voor meer informatie zie [ de integratie van SharePoint van de Verouderde vorm ](/help/quicksilver/administration-and-setup/configure-integrations/configure-sharepoint-integration.md) vormen.
+Voor meer informatie zie [&#x200B; de integratie van SharePoint van de Verouderde vorm &#x200B;](/help/quicksilver/administration-and-setup/configure-integrations/configure-sharepoint-integration.md) vormen.
 
 ## Meerdere bestanden combineren in één proefdruk in de insteekmodule Creative Cloud
 

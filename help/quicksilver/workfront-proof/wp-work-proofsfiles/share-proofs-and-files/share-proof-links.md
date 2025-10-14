@@ -18,20 +18,20 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [ het Bewijzen ](../../../review-and-approve-work/proofing/proofing.md).
+>Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [&#x200B; het Bewijzen &#x200B;](../../../review-and-approve-work/proofing/proofing.md).
 
-U kunt de URL van het bewijs en de URL van het downloaden via e-mail controleren op een proefdruk, ongeacht of ze een [!DNL Workfront Proof] -account hebben. Voor informatie over het Bewijs URL en de Download URL, zie [ Openbare URL in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-public-url.md) en [ Bestanden van de Download die in Workfront Proof ](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/download-files-stored.md) worden opgeslagen delen.
+U kunt de URL van het bewijs en de URL van het downloaden via e-mail controleren op een proefdruk, ongeacht of ze een [!DNL Workfront Proof] -account hebben. Voor informatie over het Bewijs URL en de Download URL, zie [&#x200B; Openbare URL in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-public-url.md) en [&#x200B; Bestanden van de Download die in Workfront Proof &#x200B;](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/download-files-stored.md) worden opgeslagen delen.
 
-Personen die niet aan de proefdruk zijn toegevoegd en deze met de URL Proef weergeven, worden niet toegevoegd aan de workflow op de proefdruk en hebben alleen-lezen toegang tot de proefdruk. Voor informatie over read-only toegang, zie [ de Rollen van het Bewijs binnen beheren  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md).
+Personen die niet aan de proefdruk zijn toegevoegd en deze met de URL Proef weergeven, worden niet toegevoegd aan de workflow op de proefdruk en hebben alleen-lezen toegang tot de proefdruk. Voor informatie over read-only toegang, zie [&#x200B; de Rollen van het Bewijs binnen beheren  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md).
 
 De optie voor aanmelden is echter beschikbaar. Dus als een ontvanger al aan het bewijs is toegevoegd, kan hij zijn gegevens gewoon invullen en vervolgens opmerkingen/beslissingen maken (afhankelijk van zijn bestaande rol).
 
-Als de instelling Abonnement is ingeschakeld op de proefdruk, kan elke ontvanger die er niet aan is toegevoegd, zich abonneren (toevoegen) op de proefdruk. Zie [ aan een Bewijs in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/subscribe-to-proof.md) voor meer informatie intekenen.
+Als de instelling Abonnement is ingeschakeld op de proefdruk, kan elke ontvanger die er niet aan is toegevoegd, zich abonneren (toevoegen) op de proefdruk. Zie [&#x200B; aan een Bewijs in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/subscribe-to-proof.md) voor meer informatie intekenen.
 
 >[!NOTE]
 >
->* Als het downloaden van het oorspronkelijke bestand op de proefdruk is uitgeschakeld, wordt alleen de URL van de proefdruk gedeeld. Als Delen via openbaar maken is uitgeschakeld maar Downloaden van het oorspronkelijke bestand is ingeschakeld, ontvangen revisoren alleen de downloadkoppeling in de e-mail. Voor meer informatie, zie [ Opgeslagen Dossiers van de Download  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/download-files-stored.md).
->* Personen met wie u de proefdrukkoppeling deelt, worden niet weergegeven in de sectie Workflow van de pagina Proefdrukdetails. Voor meer informatie, zie [ Beheren de Details van het Bewijs in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
+>* Als het downloaden van het oorspronkelijke bestand op de proefdruk is uitgeschakeld, wordt alleen de URL van de proefdruk gedeeld. Als Delen via openbaar maken is uitgeschakeld maar Downloaden van het oorspronkelijke bestand is ingeschakeld, ontvangen revisoren alleen de downloadkoppeling in de e-mail. Voor meer informatie, zie [&#x200B; Opgeslagen Dossiers van de Download  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/download-files-stored.md).
+>* Personen met wie u de proefdrukkoppeling deelt, worden niet weergegeven in de sectie Workflow van de pagina Proefdrukdetails. Voor meer informatie, zie [&#x200B; Beheren de Details van het Bewijs in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
 >* Als Abonnementen niet zijn ingeschakeld op de proefdruk en de persoon nog niet is toegevoegd aan de proefdruk, kunnen deze alleen de proefdruk bekijken in de modus Alleen-lezen.
 >
 

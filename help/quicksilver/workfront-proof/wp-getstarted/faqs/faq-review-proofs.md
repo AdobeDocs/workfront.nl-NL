@@ -19,7 +19,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [ het Bewijzen ](../../../review-and-approve-work/proofing/proofing.md).
+>Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [&#x200B; het Bewijzen &#x200B;](../../../review-and-approve-work/proofing/proofing.md).
 
 ## Hoe kan ik toegang krijgen tot een bewijs dat met mij is gedeeld
 
@@ -27,7 +27,7 @@ Gastrevisoren, die niet over hun eigen aanmeldingen bij [!DNL ProofHQ] beschikke
 
 ## Hoe kan ik opmerkingen toevoegen aan een bewijs?
 
-Als u een opmerking wilt toevoegen aan een proefdruk, klikt u op de knop *[!UICONTROL Add a comment]* boven aan de pagina. Als u die knoop niet ziet, gelieve de eigenaar van de proef te contacteren, is het mogelijk dat u de verkeerde proefdrukrol werd toegewezen (voor meer informatie over proefrollen, zie [ Beheren de Rollen van het Bewijs in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)).
+Als u een opmerking wilt toevoegen aan een proefdruk, klikt u op de knop *[!UICONTROL Add a comment]* boven aan de pagina. Als u die knoop niet ziet, gelieve de eigenaar van de proef te contacteren, is het mogelijk dat u de verkeerde proefdrukrol werd toegewezen (voor meer informatie over proefrollen, zie [&#x200B; Beheren de Rollen van het Bewijs in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)).
 
 Rechts van het scherm wordt een vak [!UICONTROL comment] geopend. Hier kunt u uw opmerking typen en deze opslaan op de proefdruk. Er wordt dan een algemene opmerking over de bewijsvoering achtergelaten, die geen verband houdt met een specifiek gebied van de proefdruk. Als u commentaar op iets specifiek wilt geven, gebruik de prijsverhogingshulpmiddelen beschikbaar bij de bovenkant van de pagina.
 
@@ -35,7 +35,7 @@ Als u wilt reageren op de opmerking van iemand over de proefdruk, klikt u op die
 
 Alle opmerkingen en besluiten staan bijna meteen op de proefdruk, dus als iemand anders de proefdruk tegelijk met u bekijkt, zullen zij uw opmerkingen meteen zien.
 
-Dit zijn zeer basisinstructies om u aan de slag te krijgen met [!DNL ProofHQ]. Als u meer over het herzien van proeven zou willen weten, gelieve te gaan naar de [ het herzien van proef ](https://support.workfront.com/hc/en-us/sections/200054044-Reviewing-proofs) sectie van het Centrum van de Hulp voor meer gedetailleerde hulpartikelen.
+Dit zijn zeer basisinstructies om u aan de slag te krijgen met [!DNL ProofHQ]. Als u meer over het herzien van proeven zou willen weten, gelieve te gaan naar de [&#x200B; het herzien van proef &#x200B;](https://support.workfront.com/hc/en-us/sections/200054044-Reviewing-proofs) sectie van het Centrum van de Hulp voor meer gedetailleerde hulpartikelen.
 
 ## Hoe kan ik een bewijs markeren?
 
@@ -68,11 +68,11 @@ Als de tekst die u wilt gebruiken in een afzonderlijk document wordt opgeslagen,
 
 Het nemen van een beslissing over een bewijs kan twee betekenissen hebben in [!DNL ProofHQ]. Aan de ene kant kan het een formele goedkeuring zijn als iemand zich op een bewijs moet aftekenen. Een andere methode is het nemen van een besluit om andere revisoren op de hoogte te stellen van het feit dat u klaar bent met het maken van opmerkingen over het bewijs.
 
-De standaard besluitvormingsopties beschikbaar in [!DNL ProofHQ] zijn *Goedgekeurd*, *goedgekeurd met veranderingen*, *vereiste Veranderingen* en *niet relevant*. Beheerders in [!UICONTROL Enterprise] - en [!UICONTROL Unlimited] -accounts kunnen deze opties aanpassen (ze zelfs verbergen of de naam ervan wijzigen). Meer leren, zie [ de opties van het goedkeuringsbesluit in  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-approval-decision-in-wp.md) vormen.
+De standaard besluitvormingsopties beschikbaar in [!DNL ProofHQ] zijn *Goedgekeurd*, *goedgekeurd met veranderingen*, *vereiste Veranderingen* en *niet relevant*. Beheerders in [!UICONTROL Enterprise] - en [!UICONTROL Unlimited] -accounts kunnen deze opties aanpassen (ze zelfs verbergen of de naam ervan wijzigen). Meer leren, zie [&#x200B; de opties van het goedkeuringsbesluit in  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-approval-decision-in-wp.md) vormen.
 
 ## Moet iedereen een beslissing nemen over een bewijs?
 
-Nr, hangt het van welke proefdrukrol af elke recensent op een proef werd toegewezen (voor meer informatie over proefrollen, zie [ Beheren de Rollen van het Bewijs in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)). *[!UICONTROL Approver]* , *[!UICONTROL Reviewer and Approver]* , *[!UICONTROL Moderator]* en *[!UICONTROL Author]* zijn rollen die een beslissing over de proefdruk vereisen.
+Nr, hangt het van welke proefdrukrol af elke recensent op een proef werd toegewezen (voor meer informatie over proefrollen, zie [&#x200B; Beheren de Rollen van het Bewijs in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)). *[!UICONTROL Approver]* , *[!UICONTROL Reviewer and Approver]* , *[!UICONTROL Moderator]* en *[!UICONTROL Author]* zijn rollen die een beslissing over de proefdruk vereisen.
 
 Meestal hoeft de persoon die het bewijs maakt geen beslissing te nemen, maar dit hangt af van de workflow in uw organisatie. Als een controleur geen besluit over een bewijs hoeft te nemen, zorg er dan voor dat zijn rol aan de controleur is toegewezen, anders wacht het systeem op zijn beslissing voordat de algemene status van het bewijs wordt bijgewerkt.
 
@@ -80,4 +80,4 @@ Als u een bewijs naar een groep controleurs verzendt, maar u hebt slechts één 
 
 ## Kan ik een lijst genereren van alle opmerkingen die op een bewijs zijn gemaakt?
 
-Ja, u kunt een *[!UICONTROL Print summary]* van de resterende opmerkingen op de proefdruk genereren. Dit document kan worden gegenereerd voor één versie of voor alle versies die met deze revisor zijn gedeeld. U ziet hier een lijst met alle opmerkingen, markeringen en beslissingen die op de proefdruk zijn gemaakt. Voor meer informatie over deze eigenschap, gelieve te bezoeken [ Druk en de Commentaren van de Uitvoer in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/print-and-export-comments.md).
+Ja, u kunt een *[!UICONTROL Print summary]* van de resterende opmerkingen op de proefdruk genereren. Dit document kan worden gegenereerd voor één versie of voor alle versies die met deze revisor zijn gedeeld. U ziet hier een lijst met alle opmerkingen, markeringen en beslissingen die op de proefdruk zijn gemaakt. Voor meer informatie over deze eigenschap, gelieve te bezoeken [&#x200B; Druk en de Commentaren van de Uitvoer in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/print-and-export-comments.md).

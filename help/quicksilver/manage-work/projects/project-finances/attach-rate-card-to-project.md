@@ -26,9 +26,9 @@ Wanneer u een tariefkaart aan een project vastmaakt, worden alle rollen door pla
 
 U kunt de factureringstarieven van de tariefkaart direct in het project uitgeven. Dit heeft geen invloed op de tarieven die op de standaardtariefkaart worden opgeslagen.
 
-Voor informatie over het creëren van tariefkaarten, zie [ tariefkaarten beheren ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).
+Voor informatie over het creëren van tariefkaarten, zie [&#x200B; tariefkaarten beheren &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).
 
-Voor algemene informatie over het met voeten treden van het factureringspercentages van de baanrol voor projecten en het berekenen van projectopbrengst, zie [ Overzicht van het met voeten treden van de Facturerings van de Rol van de Taak en het berekenen van Inkomsten op een project ](/help/quicksilver/manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
+Voor algemene informatie over het met voeten treden van het factureringspercentages van de baanrol voor projecten en het berekenen van projectopbrengst, zie [&#x200B; Overzicht van het met voeten treden van de Facturerings van de Rol van de Taak en het berekenen van Inkomsten op een project &#x200B;](/help/quicksilver/manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
 
 ## Toegangsvereisten
 
@@ -62,7 +62,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -72,13 +72,13 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 1. Klik **het Factureren Tarieven** in het linkerpaneel.
 1. Klik **toevoegen het FactureringsTarief > een Kaart van het Tarief vastmaken**.
 
-   De pagina Een tariefkaart koppelen wordt geopend. Voor meer informatie, zie [ tariefkaarten ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md) beheren.
+   De pagina Een tariefkaart koppelen wordt geopend. Voor meer informatie, zie [&#x200B; tariefkaarten &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md) beheren.
 
 1. Selecteer de tariefkaart aan het project toe te voegen, en **te klikken verbindt**.
 
    De tariefkaart en alle bijbehorende roltarieven worden toegevoegd aan de lijst met factureringssnelheden.
 
-   ![ kaart van het Tarief die aan project ](assets/billing-rates-added-from-rate-card.png) wordt toegevoegd
+   ![&#x200B; kaart van het Tarief die aan project &#x200B;](assets/billing-rates-added-from-rate-card.png) wordt toegevoegd
 
    >[!NOTE]
    >

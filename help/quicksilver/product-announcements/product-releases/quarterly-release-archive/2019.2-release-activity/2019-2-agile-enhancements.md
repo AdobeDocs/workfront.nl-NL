@@ -22,7 +22,7 @@ Op deze pagina worden alle verbeteringen beschreven die in de release van 2019.2
 >
 >De op deze pagina beschreven functionaliteit kan worden gewijzigd voordat deze beschikbaar is in de productieomgeving.
 
-Voor een lijst van alle veranderingen die in 2019.2 worden aangebracht, zie [ 2019.2 Overzicht van de Activiteit van de Versie ](../../../../product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-release-activity-overview.md).
+Voor een lijst van alle veranderingen die in 2019.2 worden aangebracht, zie [&#x200B; 2019.2 Overzicht van de Activiteit van de Versie &#x200B;](../../../../product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-release-activity-overview.md).
 
 ## Percentage van volledige voortgang bijhouden bij problemen in de mobiele gereedschappen
 

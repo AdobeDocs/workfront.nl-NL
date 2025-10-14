@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [ het Bewijzen ](../../../review-and-approve-work/proofing/proofing.md).
+>Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [&#x200B; het Bewijzen &#x200B;](../../../review-and-approve-work/proofing/proofing.md).
 
 ## Proefvoortgang
 
@@ -31,7 +31,7 @@ Het bewijs van voortgang geeft het werk aan dat is verricht op een bewijs vanaf 
 
 De voortgangspictogrammen S, O, C en D worden weergegeven op de voortgangsbalk en geven de voortgang van de proefdruk aan.
 
-![ proof_edit_existing_progress.png ](assets/proof-edit-existing-progress-350x78.png)
+![&#x200B; proof_edit_existing_progress.png &#x200B;](assets/proof-edit-existing-progress-350x78.png)
 
 Zij geven de volgende informatie over een bewijs aan:
 
@@ -76,7 +76,7 @@ Deze pictogrammen kunnen in de volgende kleuren worden weergegeven om bepaalde i
 Workfront Proof gebruikt de voortgangspictogrammen om de voortgang van een bewijs op elk van de volgende niveaus bij te houden:
 
 * Voor elke controleur, op basis van de activiteit van die persoon op het bewijs.
-* Voor elk stadium, gebaseerd op de vooruitgang de recensent op het stadium die het meest achterop in het proefdrukproces is. Voor meer informatie, zie [ Geautomatiseerd overzicht van de Staven van het Werkschema ](../../../review-and-approve-work/proofing/proofing-overview/stages.md).
+* Voor elk stadium, gebaseerd op de vooruitgang de recensent op het stadium die het meest achterop in het proefdrukproces is. Voor meer informatie, zie [&#x200B; Geautomatiseerd overzicht van de Staven van het Werkschema &#x200B;](../../../review-and-approve-work/proofing/proofing-overview/stages.md).
 * Voor de proefdruk, op basis van de voortgang van het werkgebied (groep van controleurs), dat het meest achterloopt in het proefdrukproces.
 
 Als u bijvoorbeeld wilt zien hoe de voortgang in [!DNL Workfront Proof] wordt bepaald met de revisor of het werkgebied dat het meest achterloopt, stelt u dat drie revisoren op basis van een proefdruk een beslissing moeten nemen. Als twee van hen hun besluit hebben genomen, maar de derde niet, dan blijkt de voortgangsbalk voor het bewijs niet groen uit het feit dat de D nog niet is afgehandeld.
@@ -89,7 +89,7 @@ En als de instelling [!UICONTROL Only One Decision Required] is geselecteerd op 
 
 De status van de proefdruk geeft de status aan van de beslissingen die voor de proefdruk vereist zijn.
 
-![ proof_edit_existing_status.png ](assets/proof-edit-existing-status-350x78.png)\
+![&#x200B; proof_edit_existing_status.png &#x200B;](assets/proof-edit-existing-status-350x78.png)\
 De standaardstatusopties zijn:
 
 * In behandeling
@@ -119,7 +119,7 @@ Het overzicht uitvouwen of samenvouwen:
 
 1. Klik op de pijl links van de proefdruk in het dashboard of in een lijstweergave.
 
-![ Summary_expandable.png ](assets/summary-expandable-350x68.png)
+![&#x200B; Summary_expandable.png &#x200B;](assets/summary-expandable-350x68.png)
 
 De samenvatting bevat het volgende:
 
@@ -127,7 +127,7 @@ De samenvatting bevat het volgende:
 * Versie 3
 * Map (4)
 * Staat (5)\
-   ![ summary_2.png ](assets/summary-2-350x160.png)
+   ![&#x200B; summary_2.png &#x200B;](assets/summary-2-350x160.png)
 
 In het overzicht kunt u de volgende gegevens van uw proefdruk weergeven en bewerken:
 
@@ -144,9 +144,9 @@ In het overzicht kunt u de volgende gegevens van uw proefdruk weergeven en bewer
 
 >[!NOTE]
 >
->Uw capaciteit om de proefdrukdetails uit te geven hangt van uw rechten op de proef (zie [ Profielen van de Toestemmingen van de Bewijs in  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) af en [ Beheert de Rollen van het Bewijs in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)).
+>Uw capaciteit om de proefdrukdetails uit te geven hangt van uw rechten op de proef (zie [&#x200B; Profielen van de Toestemmingen van de Bewijs in  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) af en [&#x200B; Beheert de Rollen van het Bewijs in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)).
 
-![ summary_details_3.png ](assets/summary-details-3-350x160.png)
+![&#x200B; summary_details_3.png &#x200B;](assets/summary-details-3-350x160.png)
 
 ### [!UICONTROL Stage Actions] Menu  {#stage-actions-menu}
 
@@ -160,11 +160,11 @@ Het menu [!UICONTROL Stage actions] wordt weergegeven wanneer u de cursor op de 
 
 >[!NOTE]
 >
->De beschikbaarheid van deze opties hangt van uw rechten op de proef af (zie [ Profielen van de Toestemmingen van de Bewijs in  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) en [ Beheren de Rollen van het Bewijs in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)).
+>De beschikbaarheid van deze opties hangt van uw rechten op de proef af (zie [&#x200B; Profielen van de Toestemmingen van de Bewijs in  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) en [&#x200B; Beheren de Rollen van het Bewijs in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)).
 
-![ Stage_actions_menu.png ](assets/stage-actions-menu-350x161.png)
+![&#x200B; Stage_actions_menu.png &#x200B;](assets/stage-actions-menu-350x161.png)
 
-In de sectie Samenvatting kunt u ook de menu&#39;s voor revisieacties openen, op voorwaarde dat u bewerkingsrechten hebt voor de proefdruk. Voor meer informatie, zie [ Profielen van de Toestemmingen van de Bewijs in  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) en [ Beheer de Rollen van het Bewijs in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md). Het menu Acties van Revisor (1) wordt weergegeven wanneer u de muisaanwijzer boven de details van de Revisor houdt. U kunt dan het volgende doen:
+In de sectie Samenvatting kunt u ook de menu&#39;s voor revisieacties openen, op voorwaarde dat u bewerkingsrechten hebt voor de proefdruk. Voor meer informatie, zie [&#x200B; Profielen van de Toestemmingen van de Bewijs in  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) en [&#x200B; Beheer de Rollen van het Bewijs in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md). Het menu Acties van Revisor (1) wordt weergegeven wanneer u de muisaanwijzer boven de details van de Revisor houdt. U kunt dan het volgende doen:
 
 * Een bericht naar de controleur sturen (2)
 * Details van revisor bewerken (3)- Hiermee kunt u de weergavenaam, de proefdrukrol en de e-mailwaarschuwing voor die revisor bewerken
@@ -174,9 +174,9 @@ In de sectie Samenvatting kunt u ook de menu&#39;s voor revisieacties openen, op
 
 >[!NOTE]
 >
->De zichtbaarheid van deze opties hangt af van uw rechten op de proef (zie [ Profielen van de Toestemmingen van de Bewijs in  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) en [ Beheren de Rollen van het Bewijs in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)).
+>De zichtbaarheid van deze opties hangt af van uw rechten op de proef (zie [&#x200B; Profielen van de Toestemmingen van de Bewijs in  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) en [&#x200B; Beheren de Rollen van het Bewijs in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)).
 
-![ Reviewer_actions_menu.png ](assets/reviewer-actions-menu-350x135.png)
+![&#x200B; Reviewer_actions_menu.png &#x200B;](assets/reviewer-actions-menu-350x135.png)
 
 ### Menu Proefacties {#proof-actions-menu}
 
@@ -194,12 +194,12 @@ Elke proef heeft ook een menu (1) dat u toestaat om de hieronder acties uit te v
 * De proefdruk vergrendelen (11)
 * De proefdruk verwijderen (12)
 
-![ Proef_actions_menu__1_.png ](assets/proof-actions-menu--1--350x158.png)
+![&#x200B; Proef_actions_menu__1_.png &#x200B;](assets/proof-actions-menu--1--350x158.png)
 
 >[!NOTE]
 >
->De beschikbaarheid van deze opties hangt van uw rechten op de proef af (zie [ Profielen van de Toestemmingen van de Bewijs in  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) en [ Beheren de Rollen van het Bewijs in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)).
+>De beschikbaarheid van deze opties hangt van uw rechten op de proef af (zie [&#x200B; Profielen van de Toestemmingen van de Bewijs in  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) en [&#x200B; Beheren de Rollen van het Bewijs in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)).
 
-Voor informatie over het bekijken van proefvooruitgang en status binnen [!DNL Workfront], zie [ het Bekijken Voortgang en Status ](#viewing-progress-and-status).
+Voor informatie over het bekijken van proefvooruitgang en status binnen [!DNL Workfront], zie [&#x200B; het Bekijken Voortgang en Status &#x200B;](#viewing-progress-and-status).
 
-Voor informatie over het bekijken van vooruitgang en status in de Desktop het Proofing Kijker, zie [ Overzicht een Werkschema in de het proeven kijker ](../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/review-workflow.md).
+Voor informatie over het bekijken van vooruitgang en status in de Desktop het Proofing Kijker, zie [&#x200B; Overzicht een Werkschema in de het proeven kijker &#x200B;](../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/review-workflow.md).

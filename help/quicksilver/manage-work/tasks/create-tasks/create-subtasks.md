@@ -50,7 +50,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -90,7 +90,7 @@ U kunt subtaken maken in de takenlijst of de taaksubtaaksectie.
 1. Klik **subtasks** sectie in het linkerpaneel, als heden.
 1. Klik **Nieuwe Taak.**
 
-   Volg de stappen in het volgende artikel blijven creërend subtask: [ creeer taken in een project ](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md).
+   Volg de stappen in het volgende artikel blijven creërend subtask: [&#x200B; creeer taken in een project &#x200B;](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md).
 
 1. Klik **creëren taak.**
 

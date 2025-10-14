@@ -15,5 +15,5 @@ ht-degree: 0%
 
 # De tijd van het logboek op een het werkpunt van het [!UICONTROL Home] gebied
 
-U kunt de tijd op om het even welk het werkpunt in de Lijst van het Werk in het gebied van het Huis registreren. Voor informatie, zie [ tijd van het Logboek ](/help/quicksilver/timesheets/create-and-manage-timesheets/log-time.md).
+U kunt de tijd op om het even welk het werkpunt in de Lijst van het Werk in het gebied van het Huis registreren. Voor informatie, zie [&#x200B; tijd van het Logboek &#x200B;](/help/quicksilver/timesheets/create-and-manage-timesheets/log-time.md).
 

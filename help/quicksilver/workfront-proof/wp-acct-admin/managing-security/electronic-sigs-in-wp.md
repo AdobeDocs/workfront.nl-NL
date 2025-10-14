@@ -19,7 +19,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [ het Bewijzen ](../../../review-and-approve-work/proofing/proofing.md).
+>Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [&#x200B; het Bewijzen &#x200B;](../../../review-and-approve-work/proofing/proofing.md).
 
 Met elektronische handtekeningen kunt u de beveiliging van uw proefdrukken verbeteren en voldoen aan industriestandaarden zoals ISO.
 
@@ -29,7 +29,7 @@ Zie voor meer informatie.
 
 Wanneer de instelling voor elektronische handtekeningen is ingeschakeld op een bewijs, wordt elke revisor die een besluit neemt over de proefdruk, via een elektronisch handtekeningvak gevraagd zijn e-mail en wachtwoord in te dienen.
 
-![ Electronic_sig_required_box.png ](assets/electronic-sig-required-box.png)
+![&#x200B; Electronic_sig_required_box.png &#x200B;](assets/electronic-sig-required-box.png)
 
 ## Elektronische handtekeningen op de [!UICONTROL Proof Details] pagina
 
@@ -39,9 +39,9 @@ In het pop-upvenster wordt de standaardberichtenset weergegeven (indien aanwezig
 
 Het pop-upvenster [!UICONTROL Electronic Signature] wordt weergegeven in de proefdrukviewer en ook op de pagina [!UICONTROL Proof details] als de controleur besluit om zijn of haar beslissing op dat niveau te nemen.
 
-![ Electronic_Signature_-_Proof_Details.png ](assets/electronic-signature---proof-details-350x146.png)
+![&#x200B; Electronic_Signature_-_Proof_Details.png &#x200B;](assets/electronic-signature---proof-details-350x146.png)
 
-![ Electronic_Signature_-_Proof_Details_2.png ](assets/electronic-signature---proof-details-2-350x148.png)
+![&#x200B; Electronic_Signature_-_Proof_Details_2.png &#x200B;](assets/electronic-signature---proof-details-2-350x148.png)
 
 Als de optie [!UICONTROL Single Sign-On] is ingeschakeld op de proefdruk, worden de e-mail- en wachtwoordgegevens niet weergegeven in het pop-upvenster van [!UICONTROL Electronic Signature] wanneer u een beslissing neemt.
 
@@ -49,12 +49,12 @@ Nadat u op de knop [!UICONTROL Confirm] (4) in deze pop-up hebt geklikt, wordt d
 
 Na het invoeren van hun SSO-gegevens wordt de controleur automatisch teruggeleid naar de pagina [!UICONTROL Proof details] (of terug naar de pagina [!UICONTROL Proof Viewer] als de beslissing van daaruit is genomen).
 
-![ Electronic_Signature_SSO_-_Proof_Details_3.png ](assets/electronic-signature-sso---proof-details-3-350x146.png)
+![&#x200B; Electronic_Signature_SSO_-_Proof_Details_3.png &#x200B;](assets/electronic-signature-sso---proof-details-3-350x146.png)
 
 >[!NOTE]
 >
 > Als de beslissing elektronisch is ondertekend, wordt **[!UICONTROL signature icon]** (5) weergegeven naast de beslissing in de [!UICONTROL Workflow] -sectie op de [!UICONTROL Proof details] -pagina. Indien de beslissing niet door de beoordelaar maar door een andere persoon met bewerkingsrechten op het bewijs wordt gewijzigd, wordt die persoon niet gevraagd de beslissing elektronisch te ondertekenen en wordt er geen handtekeningpictogram naast de beslissing weergegeven (6).
 
-![ Electronic_Signature_icon.png ](assets/electronic-signature-icon-350x52.png) voor informatie enig teken-op, zie [ Enige Sign-On in Workfront Proof ](../../../workfront-proof/wp-acct-admin/managing-security/single-sign-on-overview.md).
+![&#x200B; Electronic_Signature_icon.png &#x200B;](assets/electronic-signature-icon-350x52.png) voor informatie enig teken-op, zie [&#x200B; Enige Sign-On in Workfront Proof &#x200B;](../../../workfront-proof/wp-acct-admin/managing-security/single-sign-on-overview.md).
 
-Voor informatie over de de detailpagina van het Bewijs, zie [ Beheers de Details van het Bewijs in  [!DNL Workfront]  Bewijs ](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
+Voor informatie over de de detailpagina van het Bewijs, zie [&#x200B; Beheers de Details van het Bewijs in  [!DNL Workfront]  Bewijs &#x200B;](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).

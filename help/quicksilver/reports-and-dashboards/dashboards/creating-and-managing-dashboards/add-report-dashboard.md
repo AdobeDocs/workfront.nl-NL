@@ -17,7 +17,7 @@ ht-degree: 0%
 
 <!-- Audited: 1/2025 -->
 
-U kunt een rapport rechtstreeks vanuit een rapport toevoegen aan een nieuw of bestaand dashboard. U kunt een bestaand rapport aan een dashboard ook toevoegen, zoals die in [ wordt beschreven creeer een dashboard ](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md). U kunt maximaal 25 rapporten, kalenders of externe pagina&#39;s aan één dashboard toevoegen.
+U kunt een rapport rechtstreeks vanuit een rapport toevoegen aan een nieuw of bestaand dashboard. U kunt een bestaand rapport aan een dashboard ook toevoegen, zoals die in [&#x200B; wordt beschreven creeer een dashboard &#x200B;](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md). U kunt maximaal 25 rapporten, kalenders of externe pagina&#39;s aan één dashboard toevoegen.
 
 >[!NOTE]
 >
@@ -61,7 +61,7 @@ U moet het volgende hebben:
  </tbody> 
 </table>
 
-Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -69,7 +69,7 @@ Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront
 
 U moet een rapport maken voordat u het aan een dashboard kunt toevoegen.
 
-Voor informatie bij het creëren van een rapport, zie [ een rapport ](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-report.md) creëren.
+Voor informatie bij het creëren van een rapport, zie [&#x200B; een rapport &#x200B;](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-report.md) creëren.
 
 ## Een rapport toevoegen aan een bestaand dashboard
 

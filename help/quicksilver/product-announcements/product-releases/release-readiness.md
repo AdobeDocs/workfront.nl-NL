@@ -20,7 +20,7 @@ ht-degree: 0%
 >
 >Workfront biedt twee modellen voor de release van nieuwe functies en updates. Uw organisatie kan kiezen of nieuwe functionaliteit op een driemaandelijkse basis, of op een sneller versieschema wordt ontvangen. Het proces om voor een versie voor te bereiden is gelijkaardig, ongeacht het model uw organisatie gebruikt.
 >
->Voor een gedetailleerde verklaring van de twee versiemodellen, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken.
+>Voor een gedetailleerde verklaring van de twee versiemodellen, zie [&#x200B; snelle versies voor uw organisatie &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken.
 
 [!DNL Adobe Workfront] geeft regelmatig belangrijke updates voor de productieomgeving weer. Als [!DNL Workfront] beheerder hebt u de mogelijkheid om ervoor te zorgen dat uw organisatie een vloeiende overgang naar elke nieuwe versie van het [!DNL Workfront] -product heeft.
 
@@ -34,7 +34,7 @@ Bekijk de onderstaande video voor meer informatie over manieren waarop u een [!D
 
 ## Begrijp het [!DNL Workfront] releaseproces
 
-Voor een gedetailleerde beschrijving van het [!DNL Workfront] versieproces, zie [[!DNL Adobe Workfront]  versieschema en proces ](workfront-release-schedule.md).
+Voor een gedetailleerde beschrijving van het [!DNL Workfront] versieproces, zie [[!DNL Adobe Workfront]  versieschema en proces &#x200B;](workfront-release-schedule.md).
 
 ## Een release van [!DNL Workfront] voorbereiden
 
@@ -42,7 +42,7 @@ Voor een gedetailleerde beschrijving van het [!DNL Workfront] versieproces, zie 
 >
 >U kunt een projectmalplaatje tot stand brengen om het werk te volgen met betrekking tot geplande [!DNL Workfront] versies.
 >
->Voor meer informatie, zie [ Gebruik a  [!DNL Workfront]  project om het werk van de versie ](#use-a-workfront-project-to-track-release-work) in dit artikel te volgen.
+>Voor meer informatie, zie [&#x200B; Gebruik a  [!DNL Workfront]  project om het werk van de versie &#x200B;](#use-a-workfront-project-to-track-release-work) in dit artikel te volgen.
 
 
 Wij adviseren dat u enkele of alle volgende acties overweegt die u kunnen helpen uw organisatie voor komende versies voorbereiden:
@@ -80,7 +80,7 @@ Als [!DNL Workfront] beheerder ontvangt u een bericht van het Aankondigingscentr
 >
 >Zorg ervoor dat u informatie over nieuwe releases ontvangt door &quot;[!UICONTROL New releases]&quot; in de [!UICONTROL Announcement Center] -instellingen uit te schakelen.
 >
->Voor meer informatie, zie [ Unsubscribe van de Berichten van het Centrum van de Aankondiging ](../announcements/unsubscribe-from-ac-messages.md).
+>Voor meer informatie, zie [&#x200B; Unsubscribe van de Berichten van het Centrum van de Aankondiging &#x200B;](../announcements/unsubscribe-from-ac-messages.md).
 
 
 ### De [!UICONTROL Preview Sandbox] -omgeving verkennen
@@ -93,7 +93,7 @@ De [!UICONTROL Preview Sandbox] -omgeving, ook wel de [!UICONTROL Preview] -omge
 
 Wanneer een functie naar de omgeving van de voorvertoningssandbox wordt uitgebracht, wordt de documentatie van [!DNL Workfront] bijgewerkt met de nieuwe functionaliteit. U kunt naar het toepasselijke artikel zoeken of koppelingen naar de documentatie in de opmerkingen bij de release volgen.
 
-Voor meer informatie over het [!UICONTROL Preview Sandbox] milieu, zie [ het  [!DNL Adobe Workfront] [!UICONTROL Preview Sandbox] milieu ](../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md).
+Voor meer informatie over het [!UICONTROL Preview Sandbox] milieu, zie [&#x200B; het  [!DNL Adobe Workfront] [!UICONTROL Preview Sandbox] milieu &#x200B;](../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md).
 
 ### De releasewebinar bijwonen
 
@@ -107,7 +107,7 @@ Voor verbindingen aan de versieoverzichten, zie {de versies van het 0} Product [
 
 Sommige nieuwe functies hebben mogelijk de knop Feedback geven. We houden rekening met deze feedback wanneer we de functie voorbereiden op productie.
 
-Neem bovendien contact op met de ondersteuning van Workfront als er een probleem is opgetreden of als u een probleem hebt met nieuwe functies. Voor meer informatie, zie [ de Steun van de Klant van het Contact ](../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).
+Neem bovendien contact op met de ondersteuning van Workfront als er een probleem is opgetreden of als u een probleem hebt met nieuwe functies. Voor meer informatie, zie [&#x200B; de Steun van de Klant van het Contact &#x200B;](../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).
 
 
 
@@ -136,7 +136,7 @@ In tijd, zult u de mededeling erkennen die voor uw organisatie het meest effecti
 
 Wanneer het verzamelen van informatie over de versie, kunt u besluiten dat uw gebruikers niet voor een nieuwe eigenschap klaar zijn. In dit geval kunt u lay-outsjablonen gebruiken om te beperken wat uw gebruikers zien, zodat ze de nieuwe functie niet kunnen tegenkomen en gebruiken. Wanneer uw gebruikers over voldoende communicatie en training voor de nieuwe functie beschikken, kunt u de lay-outsjabloon bijwerken en de functie beschikbaar maken.
 
-Voor informatie over lay-outmalplaatjes, zie [ lay-outmalplaatjes ](../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md) creëren en beheren.
+Voor informatie over lay-outmalplaatjes, zie [&#x200B; lay-outmalplaatjes &#x200B;](../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md) creëren en beheren.
 
 ## Een [!DNL Workfront] -project gebruiken om releasewerk bij te houden
 

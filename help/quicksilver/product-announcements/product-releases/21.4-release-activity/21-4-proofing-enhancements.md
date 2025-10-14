@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Op deze pagina vindt u een beschrijving van alle verbeteringen die u hebt aangebracht in de versie 21.4 voor de voorbeeldomgeving. Deze verbeteringen zullen beschikbaar worden gesteld in de productieomgeving in de week van 4 oktober 2021.
 
-Voor een lijst van alle veranderingen beschikbaar met de versie 21.4, zie [ overzicht van de Versie 21.4 ](../../../product-announcements/product-releases/21.4-release-activity/21-4-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar met de versie 21.4, zie [&#x200B; overzicht van de Versie 21.4 &#x200B;](../../../product-announcements/product-releases/21.4-release-activity/21-4-release-overview.md).
 
 ## Verbeterde mogelijkheden voor proefdrukken voor revisoren en aanvragers
 
@@ -31,4 +31,4 @@ Voor een meer geïntegreerde ervaring tussen Workfront en Proof hebben we versch
 * U kunt revisoren en aanvragers toevoegen aan proefdrukken waarvoor u zich moet aanmelden of waarvoor u een elektronische handtekening moet plaatsen.
 * Alle gebruikers profiteren ook van verbeterde connectiviteit tussen Workfront en Proof. Wanneer u nu een gebruiker deactiveert of een e-mailadres van een gebruiker bijwerkt, worden uw updates correct weergegeven in proefdrukken wanneer ze worden gewijzigd in Workfront.
 
-Voor meer informatie, zie [ overzicht van de Rollen van het Bewijs ](../../../review-and-approve-work/proofing/proofing-overview/proof-roles.md).
+Voor meer informatie, zie [&#x200B; overzicht van de Rollen van het Bewijs &#x200B;](../../../review-and-approve-work/proofing/proofing-overview/proof-roles.md).

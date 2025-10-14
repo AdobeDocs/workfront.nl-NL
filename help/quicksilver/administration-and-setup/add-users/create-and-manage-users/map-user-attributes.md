@@ -47,7 +47,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -77,7 +77,7 @@ Om te bepalen of uw organisatie op de Adobe verenigde ervaring is, onderzoek URL
 
 ### Gebruikerskenmerken toewijzen in de klassieke ervaring
 
-1. Klik het **pictogram 1&rbrace; van het Belangrijkste Menu ![ Belangrijkste menupictogram ](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik** de montages van de Opstelling **![ Gear pictogram ](assets/gear-icon-settings.png).**
+1. Klik het **pictogram 1&rbrace; van het Belangrijkste Menu ![&#x200B; Belangrijkste menupictogram &#x200B;](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik** de montages van de Opstelling **![&#x200B; Gear pictogram &#x200B;](assets/gear-icon-settings.png).**
 
 1. Klik **Systeem** > **Enige Sign-On (SSO)**.
 
@@ -85,7 +85,7 @@ Om te bepalen of uw organisatie op de Adobe verenigde ervaring is, onderzoek URL
 
 1. Klik **de Attributen van de Gebruiker van de Kaart**.
 
-   ![ de gebruikersattributen van de Kaart ](assets/map-user-attributes.png)
+   ![&#x200B; de gebruikersattributen van de Kaart &#x200B;](assets/map-user-attributes.png)
 
 1. Wijs in de rij met opties die wordt weergegeven de kenmerken toe die u voor uw Workfront-gebruikers nodig hebt.
 
@@ -123,7 +123,7 @@ Om te bepalen of uw organisatie op de Adobe verenigde ervaring is, onderzoek URL
    1. Kies in de vervolgkeuzelijst de kenmerkoptie die u wilt gebruiken.
    1. Typ in de twee velden rechts de waarde van het directorykenmerk en de waarde die u wilt vervangen.
 
-      ![ de gebieden van de Regel ](assets/rule-fields.png)
+      ![&#x200B; de gebieden van de Regel &#x200B;](assets/rule-fields.png)
 
    U kunt **klikken voegt Regel** toe om meer regels aan de attributen toe te voegen.
 
@@ -132,7 +132,7 @@ Om te bepalen of uw organisatie op de Adobe verenigde ervaring is, onderzoek URL
 
 ### Gebruikerskenmerken toewijzen in de verenigde Adobe
 
-1. Klik het **pictogram 1&rbrace; van het Belangrijkste Menu ![ Belangrijkste menupictogram ](assets/main-menu-left.png) in de upper-left hoek van Adobe Workfront, dan klik** de montages van de Opstelling **![ Gear pictogram ](assets/gear-icon-settings.png).**
+1. Klik het **pictogram 1&rbrace; van het Belangrijkste Menu ![&#x200B; Belangrijkste menupictogram &#x200B;](assets/main-menu-left.png) in de upper-left hoek van Adobe Workfront, dan klik** de montages van de Opstelling **![&#x200B; Gear pictogram &#x200B;](assets/gear-icon-settings.png).**
 
 1. Klik **Systeem** > **Enige Sign-On (SSO)**.
 

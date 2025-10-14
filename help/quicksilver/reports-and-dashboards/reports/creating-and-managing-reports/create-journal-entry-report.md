@@ -21,7 +21,7 @@ Het rapport Dagboekingang bevat systeemupdates van het gebied Updates van projec
 >[!TIP]
 >
 >Het rapport van de Ingang van het Dagboek bevat slechts systeemupdates van het gebied van Updates van voorwerpen. Als u opmerkingen wilt rapporteren die nog in het gedeelte Updates staan, moet u het notitierapport gebruiken.\
->Voor meer informatie over het verslag van de Nota, zie [ Mening alle updates in een Nota- rapport ](../../../workfront-basics/updating-work-items-and-viewing-updates/view-all-updates-in-a-report.md). ‍
+>Voor meer informatie over het verslag van de Nota, zie [&#x200B; Mening alle updates in een Nota- rapport &#x200B;](../../../workfront-basics/updating-work-items-and-viewing-updates/view-all-updates-in-a-report.md). ‍
 
 Het rapport van de Ingang van het Dagboek kan tonen:
 
@@ -69,7 +69,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-*For informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*For informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -79,13 +79,13 @@ Voordat u de in dit artikel beschreven handelingen kunt uitvoeren, moet u het vo
 
 * Alle velden (inclusief aangepaste velden) die u wilt rapporteren, worden bijgehouden in Workfront. U kunt alleen gegevens rapporteren in het gebied Updates dat wordt bijgehouden.
 
-  Leren hoe te om gebieden toe te voegen die u Workfront wilt volgen, zie [ systeemupdates ](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md) vormen.
+  Leren hoe te om gebieden toe te voegen die u Workfront wilt volgen, zie [&#x200B; systeemupdates &#x200B;](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md) vormen.
 
 ## Overzicht van het Dagboekingrapport
 
 Omdat het rapport van de Ingang van het Dagboek systeemupdates vraagt, kan het een significant aantal resultaten terugkeren. Om deze reden, adviseren wij dat u aan specifiek voorwerp-zoals projecten, programma&#39;s, portefeuilles, groepen, etc.-wanneer het creëren van het rapport filtreert.
 
-Om meer over de verschillende objecten types in Workfront te leren, zie [ voorwerpen in Adobe Workfront ](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md) begrijpen.
+Om meer over de verschillende objecten types in Workfront te leren, zie [&#x200B; voorwerpen in Adobe Workfront &#x200B;](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md) begrijpen.
 
 >[!NOTE]
 >
@@ -149,10 +149,10 @@ Zie de desbetreffende sectie voor meer informatie over het instellen van de weer
 </div>
 -->
 
-* [ zie welke statusveranderingen voorkwamen ](#see-what-status-changes-occurred)
-* [ zie wanneer een taak of een kwestie werd geschrapt ](#see-when-a-task-or-issue-was-deleted)
-* [ zie hoe de douanevelden tijdens de het levenscyclus van een project ](#see-how-custom-fields-changed-over-the-course-of-a-project-s-life-cycle) veranderden
-* [ zie hoe de Geplande Datum van de Voltooiing tijdens de het levenscyclus van een project ](#see-how-the-planned-completion-date-changed-over-the-course-of-a-project-s-life-cycle) veranderde
+* [&#x200B; zie welke statusveranderingen voorkwamen &#x200B;](#see-what-status-changes-occurred)
+* [&#x200B; zie wanneer een taak of een kwestie werd geschrapt &#x200B;](#see-when-a-task-or-issue-was-deleted)
+* [&#x200B; zie hoe de douanevelden tijdens de het levenscyclus van een project &#x200B;](#see-how-custom-fields-changed-over-the-course-of-a-project-s-life-cycle) veranderden
+* [&#x200B; zie hoe de Geplande Datum van de Voltooiing tijdens de het levenscyclus van een project &#x200B;](#see-how-the-planned-completion-date-changed-over-the-course-of-a-project-s-life-cycle) veranderde
 * [Controleren of de eigenaar van een project is gewijzigd](#see-if-the-owner-of-a-project-changed)
 
 ## Controleren welke statuswijzigingen zijn opgetreden {#see-what-status-changes-occurred}
@@ -169,10 +169,10 @@ Als u de gezondheid van een project wilt zien, kon u opstelling het rapport ook 
 
 Deze informatie kan worden gebruikt om met controle te helpen en te illustreren hoe goed u en uw organisatie plannen.
 
-1. Klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, of (als beschikbaar), klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon-left-nav.png) in de upper-left hoek, dan klik **Rapporten**.
+1. Klik het **[!UICONTROL Main Menu]** pictogram ![&#x200B; Belangrijkste Menu &#x200B;](/help/_includes/assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, of (als beschikbaar), klik het **[!UICONTROL Main Menu]** pictogram ![&#x200B; Belangrijkste Menu &#x200B;](/help/_includes/assets/main-menu-icon-left-nav.png) in de upper-left hoek, dan klik **Rapporten**.
 1. Klik **Nieuw Rapport**, dan uitgezochte **Ingang van het Dagboek**.
 
-   ![ Uitgezochte dagboekingang ](assets/nwe-select-journal-entry-350x273.png)
+   ![&#x200B; Uitgezochte dagboekingang &#x200B;](assets/nwe-select-journal-entry-350x273.png)
 
    De rapportbuilder laadt.
 
@@ -242,17 +242,17 @@ Deze informatie kan worden gebruikt om met controle te helpen en te illustreren 
     </tbody> 
    </table>
 
-   Voor meer informatie bij het toevoegen van kolommen, zie [ Overzicht van Meningen in Adobe Workfront ](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+   Voor meer informatie bij het toevoegen van kolommen, zie [&#x200B; Overzicht van Meningen in Adobe Workfront &#x200B;](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
 1. In het **lusje van Filters**, klik **voegt een Regel van de Filter** toe, dan voeg de Naam van het filterregel **Gebied** toe > **Gelijk** > **status**.
 
-   ![ filter van de de ingangsstatus van het Dagboek ](assets/nwe-journal-entry-status-filter-rules-350x90.png)
+   ![&#x200B; filter van de de ingangsstatus van het Dagboek &#x200B;](assets/nwe-journal-entry-status-filter-rules-350x90.png)
 
    >[!TIP]
    >
    >Om op voorwaardenveranderingen te rapporteren, kunt u in plaats daarvan de naam van het filterregel **Gebied** toevoegen > **Gelijk** > **Voorwaarde**.
 
-   Voor meer informatie bij het toevoegen van filters, zie [ Overzicht van Filters ](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+   Voor meer informatie bij het toevoegen van filters, zie [&#x200B; Overzicht van Filters &#x200B;](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 1. (Optioneel) Voeg een vraag toe om de focus van het rapport te beperken en de laadtijden te verkorten.
 
@@ -264,11 +264,11 @@ Deze informatie kan worden gebruikt om met controle te helpen en te illustreren 
    >
    >Creërend een filterregel die de bepaling **gebruikt bevat** kan ladingstijden eigenlijk verhogen. Om deze reden, adviseren wij gebruikend een verschillende bepaling zoals **Gelijk** wanneer mogelijk om voor een specifiek project of objecten identiteitskaart op hoger niveau te filtreren.
 
-   Leren hoe te om een herinnering toe te voegen, zie [ een herinnering aan een rapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md) toevoegen.
+   Leren hoe te om een herinnering toe te voegen, zie [&#x200B; een herinnering aan een rapport &#x200B;](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md) toevoegen.
 
 1. In het **lusje van Groepen**, klik **een Bestaande Groepering** toepassen, dan selecteren **Project**.
 
-   Voor meer informatie bij het toevoegen van groeperingen, zie [ Overzicht van Groepen in Adobe Workfront ](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
+   Voor meer informatie bij het toevoegen van groeperingen, zie [&#x200B; Overzicht van Groepen in Adobe Workfront &#x200B;](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
 1. Klik **sparen + Sluiten**.
 
@@ -283,10 +283,10 @@ U kunt opstelling het rapport van de Ingang van het Dagboek om te tonen:
 
 Zo ziet u wanneer een taak of uitgave is verwijderd:
 
-1. Klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, of (als beschikbaar), klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon-left-nav.png) in de upper-left hoek, dan klik **Rapporten**.
+1. Klik het **[!UICONTROL Main Menu]** pictogram ![&#x200B; Belangrijkste Menu &#x200B;](/help/_includes/assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, of (als beschikbaar), klik het **[!UICONTROL Main Menu]** pictogram ![&#x200B; Belangrijkste Menu &#x200B;](/help/_includes/assets/main-menu-icon-left-nav.png) in de upper-left hoek, dan klik **Rapporten**.
 1. Klik **Nieuw Rapport**, dan uitgezochte **Ingang van het Dagboek**.
 
-   ![ Uitgezochte dagboekingang ](assets/nwe-select-journal-entry-350x273.png)
+   ![&#x200B; Uitgezochte dagboekingang &#x200B;](assets/nwe-select-journal-entry-350x273.png)
 
    De rapportbuilder laadt.
 
@@ -325,7 +325,7 @@ Zo ziet u wanneer een taak of uitgave is verwijderd:
     </tbody> 
    </table>
 
-   Voor meer informatie bij het toevoegen van kolommen, zie [ Overzicht van Meningen in Adobe Workfront ](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+   Voor meer informatie bij het toevoegen van kolommen, zie [&#x200B; Overzicht van Meningen in Adobe Workfront &#x200B;](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
 1. In het **lusje van Filters**, klik **toevoegen filterregel**, dan voeg de volgende filters toe:
 
@@ -335,7 +335,7 @@ Zo ziet u wanneer een taak of uitgave is verwijderd:
      <!--WRITER check link; this png file has spaces
      [![Task or issue deleted](assets/classic-task-or-issue-deleted-350x90.png)](../../../Resources/Images/Reports/Creating and Managing Reports/QS_Task or issue deleted.png)-->
 
-   Voor meer informatie bij het toevoegen van filters, zie [ Overzicht van Filters ](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+   Voor meer informatie bij het toevoegen van filters, zie [&#x200B; Overzicht van Filters &#x200B;](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 1. (Optioneel) Voeg een vraag toe om de focus van het rapport te beperken en de laadtijden te verkorten.
 
@@ -347,11 +347,11 @@ Zo ziet u wanneer een taak of uitgave is verwijderd:
    >
    >Creërend een filterregel die de bepaling **gebruikt bevat** kan ladingstijden eigenlijk verhogen. Om deze reden, adviseren wij gebruikend een verschillende bepaling zoals **Gelijk** wanneer mogelijk om voor een specifiek project of objecten identiteitskaart op hoger niveau te filtreren.
 
-   Leren hoe te om een herinnering toe te voegen, zie [ een herinnering aan een rapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md) toevoegen.
+   Leren hoe te om een herinnering toe te voegen, zie [&#x200B; een herinnering aan een rapport &#x200B;](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md) toevoegen.
 
 1. (Facultatief) in het **lusje van Groepen 0&rbrace;, klik** een Bestaande Groepering **toepassen, dan selecteren** Project **.**
 
-   Voor meer informatie bij het toevoegen van groeperingen, zie [ Overzicht van Groepen in Adobe Workfront ](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
+   Voor meer informatie bij het toevoegen van groeperingen, zie [&#x200B; Overzicht van Groepen in Adobe Workfront &#x200B;](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
 1. Klik **sparen + Sluiten**.
 
@@ -367,10 +367,10 @@ U kunt belangrijke gebiedsveranderingen tijdens de loop van het project volgen. 
 
 Zo ziet u hoe aangepaste velden tijdens de levenscyclus van een project zijn gewijzigd:
 
-1. Klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, of (als beschikbaar), klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon-left-nav.png) in de upper-left hoek, dan klik **Rapporten**.
+1. Klik het **[!UICONTROL Main Menu]** pictogram ![&#x200B; Belangrijkste Menu &#x200B;](/help/_includes/assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, of (als beschikbaar), klik het **[!UICONTROL Main Menu]** pictogram ![&#x200B; Belangrijkste Menu &#x200B;](/help/_includes/assets/main-menu-icon-left-nav.png) in de upper-left hoek, dan klik **Rapporten**.
 1. Klik **Nieuw Rapport**, dan uitgezochte **Ingang van het Dagboek**.
 
-   ![ Uitgezochte dagboekingang ](assets/nwe-select-journal-entry-350x273.png)
+   ![&#x200B; Uitgezochte dagboekingang &#x200B;](assets/nwe-select-journal-entry-350x273.png)
 
    De rapportbuilder laadt.
 
@@ -429,7 +429,7 @@ Zo ziet u hoe aangepaste velden tijdens de levenscyclus van een project zijn gew
     </tbody> 
    </table>
 
-   Voor meer informatie bij het toevoegen van kolommen, zie [ Overzicht van Meningen in Adobe Workfront ](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+   Voor meer informatie bij het toevoegen van kolommen, zie [&#x200B; Overzicht van Meningen in Adobe Workfront &#x200B;](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
 1. In het **lusje van Filters**, klik **voeg een Regel van de Filter** toe, dan voeg de volgende filters toe:
 
@@ -441,9 +441,9 @@ Zo ziet u hoe aangepaste velden tijdens de levenscyclus van een project zijn gew
 
    * **identiteitskaart van het Project** > **Gelijk** > **&lt; project >**.
 
-   ![ de vormveranderingen van de Douane filter ](assets/qs-custom-form-changes-filter-350x92.png)
+   ![&#x200B; de vormveranderingen van de Douane filter &#x200B;](assets/qs-custom-form-changes-filter-350x92.png)
 
-   Voor meer informatie bij het toevoegen van filters, zie [ Overzicht van Filters ](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+   Voor meer informatie bij het toevoegen van filters, zie [&#x200B; Overzicht van Filters &#x200B;](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 1. (Optioneel) Voeg een vraag toe om de focus van het rapport te beperken en de laadtijden te verkorten.
 
@@ -455,11 +455,11 @@ Zo ziet u hoe aangepaste velden tijdens de levenscyclus van een project zijn gew
    >
    >Creërend een filterregel die de bepaling **gebruikt bevat** kan ladingstijden eigenlijk verhogen. Om deze reden, adviseren wij gebruikend een verschillende bepaling zoals **Gelijk** wanneer mogelijk om voor een specifiek project of objecten identiteitskaart op hoger niveau te filtreren.
 
-   Leren hoe te om een herinnering toe te voegen, zie [ een herinnering aan een rapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md) toevoegen.
+   Leren hoe te om een herinnering toe te voegen, zie [&#x200B; een herinnering aan een rapport &#x200B;](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md) toevoegen.
 
 1. In het **lusje van Groepen**, klik **een Bestaande Groepering** toepassen, dan selecteren **Project**.
 
-   Voor meer informatie bij het toevoegen van groeperingen, zie [ Overzicht van Groepen in Adobe Workfront ](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
+   Voor meer informatie bij het toevoegen van groeperingen, zie [&#x200B; Overzicht van Groepen in Adobe Workfront &#x200B;](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
 1. Klik **sparen + Sluiten**.
 
@@ -469,10 +469,10 @@ Zo ziet u hoe aangepaste velden tijdens de levenscyclus van een project zijn gew
 
 U kunt opstelling het rapport van de Ingang van het Dagboek tonen hoe vaak de Geplande Datum van de Voltooiing in de loop van het leven van een project verandert.
 
-1. Klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, of (als beschikbaar), klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon-left-nav.png) in de upper-left hoek, dan klik **Rapporten**.
+1. Klik het **[!UICONTROL Main Menu]** pictogram ![&#x200B; Belangrijkste Menu &#x200B;](/help/_includes/assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, of (als beschikbaar), klik het **[!UICONTROL Main Menu]** pictogram ![&#x200B; Belangrijkste Menu &#x200B;](/help/_includes/assets/main-menu-icon-left-nav.png) in de upper-left hoek, dan klik **Rapporten**.
 1. Klik **Nieuw Rapport**, dan uitgezochte **Ingang van het Dagboek**.
 
-   ![ Uitgezochte dagboekingang ](assets/nwe-select-journal-entry-350x273.png)
+   ![&#x200B; Uitgezochte dagboekingang &#x200B;](assets/nwe-select-journal-entry-350x273.png)
 
    De rapportbuilder laadt.
 
@@ -535,16 +535,16 @@ U kunt opstelling het rapport van de Ingang van het Dagboek tonen hoe vaak de Ge
     </tbody> 
    </table>
 
-   Voor meer informatie bij het toevoegen van kolommen, zie [ Overzicht van Meningen in Adobe Workfront ](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+   Voor meer informatie bij het toevoegen van kolommen, zie [&#x200B; Overzicht van Meningen in Adobe Workfront &#x200B;](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
 1. In het **lusje van Filters**, klik **voeg een Regel van de Filter** toe, dan voeg het volgende toe:
 
    * **Naam van het Gebied** > **Gelijk** > **Datum**
    * **identiteitskaart van het Project** > **Gelijk** > **&lt; projectnaam >**.
 
-   ![ Geplande filter van de de veranderingsdatum van de voltooiingsdatum ](assets/qs-planned-completion-date-change-filter-350x91.png)
+   ![&#x200B; Geplande filter van de de veranderingsdatum van de voltooiingsdatum &#x200B;](assets/qs-planned-completion-date-change-filter-350x91.png)
 
-   Voor meer informatie bij het toevoegen van filters, zie [ Overzicht van Filters ](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+   Voor meer informatie bij het toevoegen van filters, zie [&#x200B; Overzicht van Filters &#x200B;](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 1. (Optioneel) Voeg een vraag toe om de focus van het rapport te beperken en de laadtijden te verkorten.
 
@@ -556,11 +556,11 @@ U kunt opstelling het rapport van de Ingang van het Dagboek tonen hoe vaak de Ge
    >
    >Creërend een filterregel die de bepaling **gebruikt bevat** kan ladingstijden eigenlijk verhogen. Om deze reden, adviseren wij gebruikend een verschillende bepaling zoals **Gelijk** wanneer mogelijk om voor een specifiek project of objecten identiteitskaart op hoger niveau te filtreren.
 
-   Leren hoe te om een herinnering toe te voegen, zie [ een herinnering aan een rapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md) toevoegen.
+   Leren hoe te om een herinnering toe te voegen, zie [&#x200B; een herinnering aan een rapport &#x200B;](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md) toevoegen.
 
 1. In het **lusje van Groepen**, klik **een Bestaande Groepering** toepassen, dan selecteren **Project**.
 
-   Voor meer informatie bij het toevoegen van groeperingen, zie [ Overzicht van Groepen in Adobe Workfront ](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
+   Voor meer informatie bij het toevoegen van groeperingen, zie [&#x200B; Overzicht van Groepen in Adobe Workfront &#x200B;](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
 1. Klik **sparen + Sluiten**.
 
@@ -570,10 +570,10 @@ U kunt opstelling het rapport van de Ingang van het Dagboek tonen hoe vaak de Ge
 
 U kunt opstelling het rapport van de Ingang van het Dagboek om te tonen hoeveel keer het project eigenaar-of projectmanager-verandert over de cursus van het leven van een project.
 
-1. Klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, of (als beschikbaar), klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon-left-nav.png) in de upper-left hoek, dan klik **Rapporten**.
+1. Klik het **[!UICONTROL Main Menu]** pictogram ![&#x200B; Belangrijkste Menu &#x200B;](/help/_includes/assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, of (als beschikbaar), klik het **[!UICONTROL Main Menu]** pictogram ![&#x200B; Belangrijkste Menu &#x200B;](/help/_includes/assets/main-menu-icon-left-nav.png) in de upper-left hoek, dan klik **Rapporten**.
 1. Klik **Nieuw Rapport**, dan uitgezochte **Ingang van het Dagboek**.
 
-   ![ Uitgezochte dagboekingang ](assets/nwe-select-journal-entry-350x273.png)
+   ![&#x200B; Uitgezochte dagboekingang &#x200B;](assets/nwe-select-journal-entry-350x273.png)
 
    De rapportbuilder laadt.
 
@@ -624,16 +624,16 @@ U kunt opstelling het rapport van de Ingang van het Dagboek om te tonen hoeveel 
     </tbody> 
    </table>
 
-   Voor meer informatie bij het toevoegen van kolommen, zie [ Overzicht van Meningen in Adobe Workfront ](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+   Voor meer informatie bij het toevoegen van kolommen, zie [&#x200B; Overzicht van Meningen in Adobe Workfront &#x200B;](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
 1. In het **lusje van Filters**, klik **toevoegen filterregel**, dan voeg het volgende toe:
 
    * **Naam van het Gebied** > **Gelijk** > **ownerID**
    * **identiteitskaart van het Project** > **Gelijk** > **&lt; projectnaam >**.
 
-   ![ de veranderingsfilter van de Eigenaar ](assets/qs-owner-changes-filter-350x94.png)
+   ![&#x200B; de veranderingsfilter van de Eigenaar &#x200B;](assets/qs-owner-changes-filter-350x94.png)
 
-   Voor meer informatie bij het toevoegen van filters, zie [ Overzicht van Filters ](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+   Voor meer informatie bij het toevoegen van filters, zie [&#x200B; Overzicht van Filters &#x200B;](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 1. (Optioneel) Voeg een vraag toe om de focus van het rapport te beperken en de laadtijden te verkorten.
 
@@ -645,11 +645,11 @@ U kunt opstelling het rapport van de Ingang van het Dagboek om te tonen hoeveel 
    >
    >Creërend een filterregel die de bepaling **gebruikt bevat** kan ladingstijden eigenlijk verhogen. Om deze reden, adviseren wij gebruikend een verschillende bepaling zoals **Gelijk** wanneer mogelijk om voor een specifiek project of objecten identiteitskaart op hoger niveau te filtreren.
 
-   Leren hoe te om een herinnering toe te voegen, zie [ een herinnering aan een rapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md) toevoegen.
+   Leren hoe te om een herinnering toe te voegen, zie [&#x200B; een herinnering aan een rapport &#x200B;](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md) toevoegen.
 
 1. (Facultatief) in het **lusje van Groepen 0&rbrace;, klik** een Bestaande Groepering **toepassen, dan selecteren** Project **.**
 
-   Voor meer informatie bij het toevoegen van groeperingen, zie [ Overzicht van Groepen in Adobe Workfront ](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
+   Voor meer informatie bij het toevoegen van groeperingen, zie [&#x200B; Overzicht van Groepen in Adobe Workfront &#x200B;](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
 1. Klik **sparen + Sluiten**.
 

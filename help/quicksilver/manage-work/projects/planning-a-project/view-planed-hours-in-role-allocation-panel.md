@@ -21,10 +21,10 @@ U kunt roltoewijzing voor alle baanrollen bekijken die aan het werkpunten in een
 >
 >In dit artikel wordt verwezen naar het weergeven van de taakrollen die horen bij taken en problemen in een project en de toegewezen geplande uren in het deelvenster Rollen van een project. Raadpleeg het volgende voor informatie over het combineren van geplande uren met initiatiefuren via het deelvenster Roltoewijzing bij gebruik van de Adobe Workfront Scenario-planner:
 >
->* [ toon roltoewijzing voor projecten en initiatieven in de taaklijst ](../../../scenario-planner/show-role-allocation-task-list-nwe.md)
->* [ toon roltoewijzing voor projecten en initiatieven in de Balancer van de Werkbelasting ](../../../scenario-planner/show-role-allocation-workload-balancer.md)
+>* [&#x200B; toon roltoewijzing voor projecten en initiatieven in de taaklijst &#x200B;](../../../scenario-planner/show-role-allocation-task-list-nwe.md)
+>* [&#x200B; toon roltoewijzing voor projecten en initiatieven in de Balancer van de Werkbelasting &#x200B;](../../../scenario-planner/show-role-allocation-workload-balancer.md)
 >
->  U moet een vergunning Scenario Planner hebben om initiatiefuren in het paneel van de Toewijzing van de Rol te zien. Voor informatie over de Planner van het Scenario, zie [ begonnen worden met de Planner van het Scenario ](../../../scenario-planner/get-started-with-scenario-planning.md).
+>  U moet een vergunning Scenario Planner hebben om initiatiefuren in het paneel van de Toewijzing van de Rol te zien. Voor informatie over de Planner van het Scenario, zie [&#x200B; begonnen worden met de Planner van het Scenario &#x200B;](../../../scenario-planner/get-started-with-scenario-planning.md).
 >
 
 ## Toegangsvereisten
@@ -100,18 +100,18 @@ U moet het volgende hebben:
 
 ## Geplande uren van project weergeven in het deelvenster Roltoewijzing
 
-1. Klik het **pictogram van het 1&rbrace; pictogram van het Belangrijkste Menu ![ ](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik** Projecten **.**
+1. Klik het **pictogram van het 1&rbrace; pictogram van het Belangrijkste Menu ![&#x200B; &#x200B;](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik** Projecten **.**
 1. Klik op de naam van een project om het te openen. Hiermee opent u de projectpagina.
 1. Klik op een van de volgende opties in het linkerdeelvenster:
 
    * **Taken**
    * **de Balancer van de Werkbelasting**
 
-1. Klik het **pictogram van de roltoewijzing van de Show** pictogram ![ tonen het pictogram van de roltoewijzing ](assets/show-role-allocation-icon.png).
+1. Klik het **pictogram van de roltoewijzing van de Show** pictogram ![&#x200B; tonen het pictogram van de roltoewijzing &#x200B;](assets/show-role-allocation-icon.png).
 
    Het deelvenster Roltoewijzing wordt weergegeven.
 
-   ![ het toewijzingspaneel van de Rol met geplande slechts uren ](assets/role-allocation-panel-planned-hours-only-350x316.png)
+   ![&#x200B; het toewijzingspaneel van de Rol met geplande slechts uren &#x200B;](assets/role-allocation-panel-planned-hours-only-350x316.png)
 
 1. Herzie de volgende informatie in het **deelvenster van de Toewijzing van de Rol**:
 

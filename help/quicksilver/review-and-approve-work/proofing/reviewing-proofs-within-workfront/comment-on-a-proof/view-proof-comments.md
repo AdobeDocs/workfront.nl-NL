@@ -72,17 +72,17 @@ Opmerkingen weergeven in de proefdrukviewer:
 1. Klik op een opmerking om de opmerkingsmarkeringen op de proefdruk weer te geven.
 1.  of
 1.  Houd de muisaanwijzer in een videoproefdruk boven het punt in de tijdlijn waar een opmerking is gemaakt en klik op de genummerde ballon die wordt weergegeven.
-1. ![ proof_comment_video.png ](assets/proof-comment-video-350x190.png)
+1. ![&#x200B; proof_comment_video.png &#x200B;](assets/proof-comment-video-350x190.png)
 
 1. (Optioneel) Als u de grootte van de lijst met opmerkingen wilt aanpassen, houdt u de muisaanwijzer boven de linkerrand van het opmerkingsgebied (niet op de opmerking die momenteel is geopend) totdat de muisaanwijzer verandert voor de horizontale grootte van de opmerking en sleept u de rand naar de gewenste positie.
-1. ![ resize_comment_area-mouse.png ](assets/resize-comment-area-mouse.png)
+1. ![&#x200B; resize_comment_area-mouse.png &#x200B;](assets/resize-comment-area-mouse.png)
 
 ## Proefdrukopmerkingen weergeven op het tabblad Updates
 
 In Workfront kunt u proefdrukopmerkingen weergeven zonder de proefdrukviewer te starten.
 
 1. Ga naar het project, de taak, of de kwestie die het document bevat, dan selecteren **Documenten**.
-1. Klik de rij die het document bevat, dan klik het **pictogram van de Samenvatting ![ pictogram van de Samenvatting ](assets/summary-panel-icon.png) op de rechterkant van de pagina.**\
+1. Klik de rij die het document bevat, dan klik het **pictogram van de Samenvatting ![&#x200B; pictogram van de Samenvatting &#x200B;](assets/summary-panel-icon.png) op de rechterkant van de pagina.**\
    De opmerkingen worden weergegeven in de sectie Updates van het documentoverzicht.
 
 ## Alle opmerkingen markeren als gelezen
@@ -96,7 +96,7 @@ Als revisor van een proefdruk kunt u snel alle opmerkingen markeren als Lezen.
 
 1. Boven de commentaarlijst, klik het **Meer** pictogram, dan klik **Teken allen zoals gelezen**.
 
-1. ![ teken allen als gelezen ](assets/mceclip8-350x173.png)
+1. ![&#x200B; teken allen als gelezen &#x200B;](assets/mceclip8-350x173.png)
 
 ## Reageren op proefdrukopmerkingen van de proefdrukviewer
 
@@ -111,7 +111,7 @@ Als revisor van een proefdruk kunt u snel alle opmerkingen markeren als Lezen.
    >Gebruik de **Vorige commentaar** en **Volgende commentaarknopen** op de juiste rand van het scherm om vooruit en terug door commentaren te navigeren.
 
 1. Typ uw antwoord in **voeg een antwoord** doos toe.
-1. (Optioneel) Als u een andere controleur op de hoogte wilt stellen van uw antwoord, typt u @ in het vak Opmerking en typt u vervolgens de naam of het e-mailadres van de gebruiker. Voor meer informatie, zie [ de gebruikers van de Markering om een proef ](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/tag-users-to-share-proof.md) te delen.
+1. (Optioneel) Als u een andere controleur op de hoogte wilt stellen van uw antwoord, typt u @ in het vak Opmerking en typt u vervolgens de naam of het e-mailadres van de gebruiker. Voor meer informatie, zie [&#x200B; de gebruikers van de Markering om een proef &#x200B;](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/tag-users-to-share-proof.md) te delen.
 1. (Optioneel) Voer een van de volgende twee handelingen uit om een bestand aan een opmerking toe te voegen:
 
    * Klik op het pictogram van de papierclip, blader naar het bestand dat u wilt uploaden en selecteer het bestand.

@@ -18,9 +18,9 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [ het Bewijzen ](../../../review-and-approve-work/proofing/proofing.md).
+>Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [&#x200B; het Bewijzen &#x200B;](../../../review-and-approve-work/proofing/proofing.md).
 
-1. Beginnen creërend of het uitgeven van een gebruiker zoals die in [ wordt beschreven leidt tot Gebruikers gebruikend  [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/users/create-users.md).
+1. Beginnen creërend of het uitgeven van een gebruiker zoals die in [&#x200B; wordt beschreven leidt tot Gebruikers gebruikend  [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/users/create-users.md).
 1. Geef de volgende informatie op:
 
    * In de sectie **[!UICONTROL Personal Details]** :
@@ -41,14 +41,14 @@ ht-degree: 0%
 
       * **Standaardproefdrukrol:** selecteer een standaardproefdrukrol voor de gebruiker. Rolopties zijn **[!UICONTROL Read only]** , **[!UICONTROL Reviewer]** , **[!UICONTROL Approver]** , **[!UICONTROL Reviewer & Approver]** , **[!UICONTROL Author]** of **[!UICONTROL Moderator]** .
 
-        Voor meer informatie over proefdrukrollen, zie [ de Rollen van het Bewijs binnen beheren  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md).
+        Voor meer informatie over proefdrukrollen, zie [&#x200B; de Rollen van het Bewijs binnen beheren  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md).
 
       * **vergrendel de proef wanneer alle besluiten worden gemaakt:** sluit automatisch de proef van verdere veranderingen nadat alle besluiten over de proef worden genomen.
       * **vereiste Login. De proefdruk kan alleen met andere gebruikers worden gedeeld:** maakt de proefdruk beschikbaar slechts voor gebruikers met [!DNL Workfront Proof] login geloofsbrieven.
       * **slechts één vereist besluit:** vereist slechts één besluit over een bewijs.
       * **Download van origineel dossier:** laat de gebruiker toe om het originele dossier voor een proef te downloaden. Deze optie is standaard ingeschakeld.
 
-        Voor meer informatie bij het downloaden van originele dossiers, zie [ Opgeslagen Dossiers van de Download  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/download-files-stored.md).
+        Voor meer informatie bij het downloaden van originele dossiers, zie [&#x200B; Opgeslagen Dossiers van de Download  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/download-files-stored.md).
 
         <!--      
         <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><strong>Public sharing. The proof can be shared via a public URL or embedded code:</strong>Enables the user to share proofs via a public URL or embed code.<br>This option is enabled by default but is not available if the&nbsp;<strong>Login required</strong>option is selected.<br>For more information on sharing proofs, see "<a href="../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-public-url.md" class="MCXref xref" xrefformat="{para}">Share the Public URL in Workfront Proof</a>."</li>      
@@ -65,7 +65,7 @@ Deze optie wordt toegelaten door gebrek als de **Openbare het delen** optie word
 
       * **Standaard e-mailalarm:** selecteer hoe vaak de gebruiker e-mailupdates ontvangt. Selecteer **Alle Activiteit, Antwoorden aan mijn commentaren, Besluiten, Definitief besluit, Uur samenvatting, Dagelijkse samenvatting,** of **Gehandicapten**.
 
-        Voor meer informatie over standaard e-mailwaakzame opties, zie [ de montages van het e-mailbericht in  [!DNL Workfront Proof]](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md) vormen
+        Voor meer informatie over standaard e-mailwaakzame opties, zie [&#x200B; de montages van het e-mailbericht in  [!DNL Workfront Proof]](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md) vormen
 
       * **Standaard e-mailalarm voor nieuwe gastrevisoren:** selecteer hoe vaak de bezoekersrecensenten e-mailupdates ontvangen. De opties zijn het zelfde als die voor **Standaard e-mailalarm.**
 

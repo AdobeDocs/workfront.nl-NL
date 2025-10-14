@@ -57,7 +57,7 @@ U moet het volgende hebben:
  </tbody> 
 </table>
 
-Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -76,7 +76,7 @@ U kunt als volgt de geplande begindatum en de werkelijke begindatum vergelijken 
 1. Voer de vergelijkingscriteria in op basis van bestaande waarden in de builder en geef de voorwaardelijke opmaak op.\
    We willen bijvoorbeeld taken markeren waarbij de werkelijke begindatum later is dan (of hoger is dan) de geplande begindatum. Selecteer de optie Groter dan en selecteer een werkelijke datum in het datumveld.
 
-   ![ Voorwaardelijke het formatteren voor daadwerkelijke begindatum ](assets/cond-format-1-350x84.png)
+   ![&#x200B; Voorwaardelijke het formatteren voor daadwerkelijke begindatum &#x200B;](assets/cond-format-1-350x84.png)
 
 1. (Optioneel) Selecteer **Toepassen op volledige rij** als u de opmaak op de volledige rij wilt toepassen.
 1. Klik **sparen**.
@@ -104,7 +104,7 @@ U kunt als volgt de geplande begindatum en de werkelijke begindatum vergelijken 
 
 1. Zorg ervoor dat de coderegel `righttext` overeenkomt met de instructie in de coderegel `rightmethod` .
 
-   ![ Voorwaardelijke het formatteren ](assets/cond-format-2-350x171.png)
+   ![&#x200B; Voorwaardelijke het formatteren &#x200B;](assets/cond-format-2-350x171.png)
 
 1. Klik **sparen**.
 1. Klik **sparen + Sluiten**.

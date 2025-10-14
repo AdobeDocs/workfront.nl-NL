@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # 22.3 Andere verbeteringen
 
-Op deze pagina worden alle andere verbeteringen beschreven die zijn aangebracht met de versie 22.3 voor de voorvertoningsomgeving. Deze verbeteringen zijn in de week van 11 juli 2022 beschikbaar gesteld in de productieomgeving. Voor een lijst van alle veranderingen beschikbaar met de versie 22.3, zie [ overzicht van de Versie 22.3 ](../../../product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md).
+Op deze pagina worden alle andere verbeteringen beschreven die zijn aangebracht met de versie 22.3 voor de voorvertoningsomgeving. Deze verbeteringen zijn in de week van 11 juli 2022 beschikbaar gesteld in de productieomgeving. Voor een lijst van alle veranderingen beschikbaar met de versie 22.3, zie [&#x200B; overzicht van de Versie 22.3 &#x200B;](../../../product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md).
 
 ## Bijgewerkte tijdbladen
 
@@ -62,7 +62,7 @@ Uw toepassing moet het nieuwe vernieuwingstoken opslaan na elke verfrissing. Wor
 
 Eerder, vernieuw tokens verliepen na een vastgestelde hoeveelheid tijd die in de douane OAuth2 toepassingsmontages wordt gevormd.
 
-Voor meer informatie, zie [ toepassingen OAuth2 voor de integratie van Workfront ](/help/quicksilver/administration-and-setup/configure-integrations/create-oauth-application.md) creëren.
+Voor meer informatie, zie [&#x200B; toepassingen OAuth2 voor de integratie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/configure-integrations/create-oauth-application.md) creëren.
 
 ## PKCE gebruiken in uw aangepaste OAuth2-integratie voor webtoepassingen van één pagina
 
@@ -70,4 +70,4 @@ U kunt nu webtoepassingen van één pagina maken in uw aangepaste integratie met
 
 Eerder, gebruikten de beschikbare opties voor douane OAuth2 toepassingen of de naam en het wachtwoord van een gebruiker, of een cliëntgeheim.
 
-Voor meer informatie, zie [ toepassingen OAuth2 voor de integratie van Workfront ](/help/quicksilver/administration-and-setup/configure-integrations/create-oauth-application.md) creëren.
+Voor meer informatie, zie [&#x200B; toepassingen OAuth2 voor de integratie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/configure-integrations/create-oauth-application.md) creëren.

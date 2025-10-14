@@ -61,7 +61,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 1. Klik in de linkerbovenhoek van de proefdrukviewer op de naam van de proefdruk.
 
-   ![ phq_viewer_version.png ](assets/phq-viewer-version-350x184.png)
+   ![&#x200B; phq_viewer_version.png &#x200B;](assets/phq-viewer-version-350x184.png)
 
 1. Klik in de lijst die wordt weergegeven op de versie die u wilt weergeven.
-1. (Facultatief) om de versie te ontgrendelen als u gebruikers commentaren wilt kunnen toevoegen of een besluit veranderen, als u rechten hebt om dit te doen, **pictogram 0&rbrace; ontgrendelen &lbrace;in het linkerpaneel, dan klik** ja, ontgrendelen **.** Voor meer informatie, zie [ Slot of ontgrendel een proef ](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/lock-or-unlock-proof.md).
+1. (Facultatief) om de versie te ontgrendelen als u gebruikers commentaren wilt kunnen toevoegen of een besluit veranderen, als u rechten hebt om dit te doen, **pictogram 0&rbrace; ontgrendelen &lbrace;in het linkerpaneel, dan klik** ja, ontgrendelen **.** Voor meer informatie, zie [&#x200B; Slot of ontgrendel een proef &#x200B;](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/lock-or-unlock-proof.md).

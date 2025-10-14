@@ -16,9 +16,9 @@ ht-degree: 0%
 
 # 2018.1 releaseactiviteit
 
-* [ 2018.1 overzicht van de versieactiviteit ](../../../../product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-release-activity-overview.md)
-* [ 2018.1 de Eindversieactiviteit van Beta ](../../../../product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-beta-final-release-activity.md)
-* [ 2018.1 Beta 4 releaseactiviteit ](../../../../product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-beta-4-release-activity.md)
-* [ 2018.1 Beta 3 releaseactiviteit ](../../../../product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-beta-3-release-activity.md)
-* [ 2018.1 Beta 2 releaseactiviteit ](../../../../product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-beta-2-release-activity.md)
+* [&#x200B; 2018.1 overzicht van de versieactiviteit &#x200B;](../../../../product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-release-activity-overview.md)
+* [&#x200B; 2018.1 de Eindversieactiviteit van Beta &#x200B;](../../../../product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-beta-final-release-activity.md)
+* [&#x200B; 2018.1 Beta 4 releaseactiviteit &#x200B;](../../../../product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-beta-4-release-activity.md)
+* [&#x200B; 2018.1 Beta 3 releaseactiviteit &#x200B;](../../../../product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-beta-3-release-activity.md)
+* [&#x200B; 2018.1 Beta 2 releaseactiviteit &#x200B;](../../../../product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-beta-2-release-activity.md)
 * [2018.1 Beta 1-releaseactiviteit](../../../../product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-beta-1-release-activity.md)

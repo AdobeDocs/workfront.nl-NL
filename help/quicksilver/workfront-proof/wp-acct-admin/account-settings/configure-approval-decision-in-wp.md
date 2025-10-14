@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [ het Bewijzen ](../../../review-and-approve-work/proofing/proofing.md).
+>Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [&#x200B; het Bewijzen &#x200B;](../../../review-and-approve-work/proofing/proofing.md).
 
 Als [!DNL Workfront Proof] beheerder die een Uitgezochte of de uitgave van de Premie plan gebruikt, kunt u de opties van het goedkeuringsbesluit op de volgende manieren voor alle proeven vormen die door [!DNL Workfront Proof] gebruikers in uw organisatie worden gecreeerd:
 
@@ -49,7 +49,7 @@ In dit artikel wordt het volgende uitgelegd:
 >* De besluiten &quot;Goedgekeurd&quot;en &quot;Goedgekeurd met veranderingen&quot;brengen de volgende fase in automatische werkschema&#39;s teweeg.
 >* Als u de naam van een beslissing wijzigt en u de logica wilt verifiëren, klikt u op **[!UICONTROL Activity]** in het navigatievenster aan de linkerkant en controleert u het activiteitenlogboek, waar de oorspronkelijke beslissingen tussen haakjes worden weergegeven.
 >
->  ![ 2016-12-20_1921.png ](assets/2016-12-20-1921-350x132.png)>
+>  ![&#x200B; 2016-12-20_1921.png &#x200B;](assets/2016-12-20-1921-350x132.png)>
 
 ## Redenen voor besluiten
 
@@ -60,19 +60,19 @@ Beslissingsredenen zijn een goede manier om aanvullende informatie over besluite
 1. Open de tab **[!UICONTROL Decisions]** .
 Standaard zijn er redenen voor alle besluitvormers op uw proefdrukken, maar u kunt dat beperken tot primaire besluitvormers.
 Afhankelijk van uw vereisten kunt u meerdere redenen selecteren of één keuzelijst maken. U kunt ook redenen verplicht stellen, wat betekent dat revisoren een reden moeten kiezen voordat ze hun beslissing op een bewijs kunnen bewaren.
-   ![ Redons_setup.png ](assets/reasons-setup-350x121.png)
+   ![&#x200B; Redons_setup.png &#x200B;](assets/reasons-setup-350x121.png)
 
 1. Klik in de sectie **[!UICONTROL Reasons]** op **[!UICONTROL New reason]** .
-   ![ New_reason.png ](assets/new-reason-350x135.png)
+   ![&#x200B; New_reason.png &#x200B;](assets/new-reason-350x135.png)
 
 1. Typ een titel in het vak onder **[!UICONTROL Reason]** om de redenen.
 1. Selecteer **[!UICONTROL Include text box]** als u een tekstvak wilt opnemen.
 1. Klik op **[!UICONTROL Save]**.
-   ![ reasons_setup_2.png ](assets/reasons-setup-2-350x146.png)
+   ![&#x200B; reasons_setup_2.png &#x200B;](assets/reasons-setup-2-350x146.png)
 De belangrijkste stap is het selecteren van de beslissingen die de redenen moeten weergeven. Als je dat vergeet, zullen de redenen niet op je proefdrukken worden vermeld.
 
 1. Schakel de vakken in de kolom **[!UICONTROL Display reasons]** in de lijst met beslissingen boven aan de pagina in. U kunt een of meer beslissingen selecteren om uw redenen.
-   ![ reasons_-_decisions_selection.png ](assets/reasons---decision-selection-350x150.png)
+   ![&#x200B; reasons_-_decisions_selection.png &#x200B;](assets/reasons---decision-selection-350x150.png)
 
 ## Post-beslissingsbericht maken
 
@@ -83,8 +83,8 @@ U kunt een bericht voor een postbeslissing maken om weer te geven nadat een cont
 1. Open de tab **[!UICONTROL Decisions]** .
 1. Klik in de sectie **[!UICONTROL Post decision message]** op **[!UICONTROL Edit]** aan het einde van de rij **[!UICONTROL Message]** .
 U kunt ook beslissen of u wilt dat het bericht aan alle besluitvormers wordt getoond of dat u het tot de Primaire besluitvormer wilt beperken.
-   ![ post_Decision_message_set_up.png ](assets/post-decision-message-set-up-350x125.png)
+   ![&#x200B; post_Decision_message_set_up.png &#x200B;](assets/post-decision-message-set-up-350x125.png)
 
 1. Geef in de kolom **[!UICONTROL Display message]** de beslissingen op waarop dit bericht moet worden weergegeven.
 Als u niet minstens één beslissing selecteert, wordt het bericht niet weergegeven op uw proefdrukken. Controleer minstens één vakje in deze kolom.
-   ![ post_Decision_message_set_up_2.png ](assets/post-decision-message-set-up-2-350x151.png)
+   ![&#x200B; post_Decision_message_set_up_2.png &#x200B;](assets/post-decision-message-set-up-2-350x151.png)

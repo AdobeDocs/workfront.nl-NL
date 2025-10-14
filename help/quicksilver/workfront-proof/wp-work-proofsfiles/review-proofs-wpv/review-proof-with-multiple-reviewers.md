@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [ het Bewijzen ](../../../review-and-approve-work/proofing/proofing.md).
+>Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [&#x200B; het Bewijzen &#x200B;](../../../review-and-approve-work/proofing/proofing.md).
 
 Meerdere revisoren kunnen een proefdruk tegelijkertijd controleren. Wanneer u een proefdruk bekijkt, kunt u zien wie momenteel dezelfde proefdruk controleert.
 
@@ -32,4 +32,4 @@ U kunt aanwezigheidsindicatoren zien wanneer andere revisoren dezelfde proefdruk
 
 1. (Optioneel) Plaats de muisaanwijzer op een aanwezigheidsindicator om de naam van de gebruiker weer te geven.
 
-   ![ aanwezigheid van het Bewijs ](assets/proof-presence.png)
+   ![&#x200B; aanwezigheid van het Bewijs &#x200B;](assets/proof-presence.png)

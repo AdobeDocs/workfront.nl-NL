@@ -24,6 +24,6 @@ Kick-Starts zijn sterk opgemaakte Excel-spreadsheets die worden gevuld met besta
 
 De importeur Kick-Start is ontworpen voor het maken van nieuwe records; deze is niet ontworpen voor het bijwerken van bestaande records.
 
-Voor informatie over het invoeren van gegevens in Workfront die Kick-Begint gebruiken, zie [ Gegevens van de Invoer in Adobe Workfront gebruikend een Kick-Begin malplaatje ](../../../administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
+Voor informatie over het invoeren van gegevens in Workfront die Kick-Begint gebruiken, zie [&#x200B; Gegevens van de Invoer in Adobe Workfront gebruikend een Kick-Begin malplaatje &#x200B;](../../../administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
 
-Voor informatie over het uitvoeren van gegevens van Workfront die Kick-Begint gebruiken, zie [ Gegevens van de Uitvoer van Adobe Workfront via Kick-Begarts ](../../../administration-and-setup/manage-workfront/using-kick-starts/export-data-from-wf-via-kick-starts.md).
+Voor informatie over het uitvoeren van gegevens van Workfront die Kick-Begint gebruiken, zie [&#x200B; Gegevens van de Uitvoer van Adobe Workfront via Kick-Begarts &#x200B;](../../../administration-and-setup/manage-workfront/using-kick-starts/export-data-from-wf-via-kick-starts.md).

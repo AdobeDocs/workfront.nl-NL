@@ -25,7 +25,7 @@ Alle lettertypetekst wordt in de bijbehorende laag geëxtraheerd zolang u de jui
 
 >[!NOTE]
 >
->Workfront ondersteunt momenteel documenten die maximaal 2000 pagina&#39;s bevatten. Dit geldt ook voor gecombineerde proefdrukken. Voor meer informatie, zie [ tot een multi-paginaproef ](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-multi-page-proof.md) leiden.
+>Workfront ondersteunt momenteel documenten die maximaal 2000 pagina&#39;s bevatten. Dit geldt ook voor gecombineerde proefdrukken. Voor meer informatie, zie [&#x200B; tot een multi-paginaproef &#x200B;](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-multi-page-proof.md) leiden.
 
 ## Algemene tips
 

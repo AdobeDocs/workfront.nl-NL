@@ -46,19 +46,19 @@ Referentienummers worden standaard weergegeven voor taken en problemen. U kunt [
 
 Referentienummers worden standaard weergegeven wanneer u een taak of uitgave weergeeft.  Als u het referentienummer wilt zien, klikt u op **[!UICONTROL Task Details]** of **[!UICONTROL Issue Details]** in het linkerdeelvenster en zoekt u de sectie **[!UICONTROL Basic Information]** in het overzicht.
 
-![ Aantal van de Verwijzing ](assets/reference-number-nwe-350x184.png)
+![&#x200B; Aantal van de Verwijzing &#x200B;](assets/reference-number-nwe-350x184.png)
 
 ### Referentienummers voor andere objecten weergeven
 
 Als u referentienummers voor objecten wilt weergeven, kunt u een aangepaste weergave maken of een bestaande weergave wijzigen en het veld [!UICONTROL Reference Number] toevoegen aan een kolom in de weergave. U kunt bijvoorbeeld de weergave [!UICONTROL Projects] wijzigen en het referentienummer voor al uw projecten weergeven.
 
-Voor informatie over om een Mening tot stand te brengen of te wijzigen, zie [ Overzicht van Meningen in  [!DNL Adobe Workfront]](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+Voor informatie over om een Mening tot stand te brengen of te wijzigen, zie [&#x200B; Overzicht van Meningen in  [!DNL Adobe Workfront]](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
 ### Referentienummers weergeven in rapporten
 
 U kunt het referentienummer voor objecten in rapporten weergeven door de kolom [!UICONTROL Reference Number] aan het rapport toe te voegen.
 
-Voor informatie over hoe te om een kolom aan een rapport toe te voegen, zie [ een douanerapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) creëren.
+Voor informatie over hoe te om een kolom aan een rapport toe te voegen, zie [&#x200B; een douanerapport &#x200B;](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) creëren.
 
 ## Een object zoeken op basis van het referentienummer
 
@@ -66,4 +66,4 @@ Met [!DNL Workfront] kunt u zoeken naar een object op basis van een referentienu
 
 Typ het referentienummer van een object in het veld **[!UICONTROL Search]** en druk op **[!UICONTROL Enter]** .
 
-Voor meer informatie bij het zoeken in Workfront, zie [ Onderzoek  [!DNL Adobe Workfront]](../../../workfront-basics/navigate-workfront/search/search-workfront.md).
+Voor meer informatie bij het zoeken in Workfront, zie [&#x200B; Onderzoek  [!DNL Adobe Workfront]](../../../workfront-basics/navigate-workfront/search/search-workfront.md).

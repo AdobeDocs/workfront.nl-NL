@@ -18,6 +18,6 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [ het Bewijzen ](../../../review-and-approve-work/proofing/proofing.md).
+>Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [&#x200B; het Bewijzen &#x200B;](../../../review-and-approve-work/proofing/proofing.md).
 
-Sommige koppelingen in interactieve webinhoud worden ingesteld om te worden geopend in een nieuw browsertabblad of -venster. U kunt [!DNL Workfront] zo configureren dat al deze koppelingen worden geopend in de Desktop Proofing Viewer, zodat revisoren de zojuist geopende inhoud kunnen controleren. Voor meer informatie, zie [ het proefdrukken van kijkersmontages ](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/configure-proofing-viewer-settings.md) vormen.
+Sommige koppelingen in interactieve webinhoud worden ingesteld om te worden geopend in een nieuw browsertabblad of -venster. U kunt [!DNL Workfront] zo configureren dat al deze koppelingen worden geopend in de Desktop Proofing Viewer, zodat revisoren de zojuist geopende inhoud kunnen controleren. Voor meer informatie, zie [&#x200B; het proefdrukken van kijkersmontages &#x200B;](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/configure-proofing-viewer-settings.md) vormen.

@@ -57,7 +57,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -65,7 +65,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 U kunt gebruikers en andere groepen toevoegen aan en verwijderen uit een groep die u beheert. U kunt ook groepsleden toewijzen als beheerders voor de groep en de gebruikersprofielgegevens van groepsleden beheren.
 
-Voor instructies, zie [ Mening en beheer het lidmaatschap van een groep ](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-memberships.md).
+Voor instructies, zie [&#x200B; Mening en beheer het lidmaatschap van een groep &#x200B;](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-memberships.md).
 
 ## De details van een groep beheren
 
@@ -77,7 +77,7 @@ U kunt de pagina Groepdetails weergeven en bewerken voor een groep of subgroep d
 Add this at end of 2nd-to-last sentence in this^ paragraph when they add the **Is active** option to the Details page!
 -->
 
-Voor instructies, zie [ Mening en beheer de details van een groep ](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-details.md).
+Voor instructies, zie [&#x200B; Mening en beheer de details van een groep &#x200B;](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-details.md).
 
 ## Een groep bewerken, kopiëren of verwijderen
 
@@ -89,21 +89,21 @@ U kunt de groep snel bewerken, kopiëren of verwijderen zonder de hoofdpagina va
 
    In de lijst die wordt weergegeven, ziet u de groepen die u beheert, samen met eventuele subgroepen die u beheert. Adobe Workfront-beheerders kunnen alle groepen zien.
 
-1. Selecteer de groep, dan klik uitgeven ![ pictogram ](assets/edit-icon.png), het pictogram van het Exemplaar ![ ](assets/copy-icon.png), of schrap ![ pictogram van de Schrapping ](assets/delete.png).
+1. Selecteer de groep, dan klik uitgeven ![&#x200B; pictogram &#x200B;](assets/edit-icon.png), het pictogram van het Exemplaar ![&#x200B; &#x200B;](assets/copy-icon.png), of schrap ![&#x200B; pictogram van de Schrapping &#x200B;](assets/delete.png).
 
    Raadpleeg een van de volgende opties als u informatie nodig hebt over het gebruik van het vak dat wordt weergegeven:
 
-   * **geeft** uit: [ Mening en leidt de details van een groep ](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-details.md)
+   * **geeft** uit: [&#x200B; Mening en leidt de details van een groep &#x200B;](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-details.md)
 
-   * **Exemplaar**: [ creeer een top-level groep door een bestaande groep of subgroep ](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md#copying-an-existing-group-and-sub-group) in het artikel [ te kopiëren creeer een groep ](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md)
+   * **Exemplaar**: [&#x200B; creeer een top-level groep door een bestaande groep of subgroep &#x200B;](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md#copying-an-existing-group-and-sub-group) in het artikel [&#x200B; te kopiëren creeer een groep &#x200B;](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md)
 
-   * **Schrapping**: [ schrap een groep ](../../../administration-and-setup/manage-groups/create-and-manage-groups/delete-a-group.md)
+   * **Schrapping**: [&#x200B; schrap een groep &#x200B;](../../../administration-and-setup/manage-groups/create-and-manage-groups/delete-a-group.md)
 
 ## Project-, taak- en probleemvoorkeuren voor een groep configureren
 
 Als u een groepsbeheerder bent en uw groep andere project, taak, en geef voorkeurmontages uit van die die op het systeemniveau worden geplaatst, kunt u de beheerder van Workfront vragen om een voorkeur voor alle groepen door de organisatie te ontgrendelen. Nadat het wordt ontgrendeld, kunt u (en groepsbeheerders voor alle andere groepen) het voor de groepen vormen u beheert.
 
-Voor instructies, zie [ projectvoorkeur voor een groep ](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md) en [ vorm taak en geef voorkeur voor een groep ](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md) uit.
+Voor instructies, zie [&#x200B; projectvoorkeur voor een groep &#x200B;](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md) en [&#x200B; vorm taak en geef voorkeur voor een groep &#x200B;](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md) uit.
 
 ## Subgroepen weergeven, toevoegen en configureren
 
@@ -111,7 +111,7 @@ U kunt subgroepen maken, weergeven, bewerken, kopiëren, hernoemen, exporteren e
 
 ## Gebeurtenismeldingen voor een groep configureren
 
-Als een beheerder van Workfront de capaciteit ontgrendelt om gebeurtenisberichten voor de groepen in uw organisatie te vormen, kunt u hen voor een groep vormen u beheert. Voor instructies, zie [ Mening en vorm gebeurtenisberichten voor een groep ](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md).
+Als een beheerder van Workfront de capaciteit ontgrendelt om gebeurtenisberichten voor de groepen in uw organisatie te vormen, kunt u hen voor een groep vormen u beheert. Voor instructies, zie [&#x200B; Mening en vorm gebeurtenisberichten voor een groep &#x200B;](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md).
 
 ## Statussen maken en aanpassen voor een groep
 
@@ -119,7 +119,7 @@ Als groepsbeheerder, kunt u douanestatus voor een top-level groep tot stand bren
 
 U kunt de systeemstatus voor een top-level groep ook aanpassen als een beheerder van Workfront hen heeft gevormd om aanpassing toe te staan.
 
-Voor instructies, zie [ creeer of geef een groepsstatus ](../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md) uit.
+Voor instructies, zie [&#x200B; creeer of geef een groepsstatus &#x200B;](../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md) uit.
 
 ## Werken met projecten van groepen
 
@@ -128,19 +128,19 @@ In het gebied van Groepen in Opstelling, wanneer u de belangrijkste pagina van e
 * Maak een lijst van en werk met (geef uit, kopieer, schrap, en de uitvoer) de projecten die met de groep en zijn subgroepen worden geassocieerd en die met u zijn gedeeld
 * Een nieuw project voor de groep maken
 
-Voor instructies, zie [ tot stand brengen en wijzigen de projecten van een groep ](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md).
+Voor instructies, zie [&#x200B; tot stand brengen en wijzigen de projecten van een groep &#x200B;](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md).
 
 ## De goedkeuringsprocessen van een groep weergeven en beheren
 
 Wanneer u een groep bekijkt die u in het gebied van Groepen beheert, kunt u de goedkeuringsprocessen bekijken en werken waarvoor de beheerders van de groep, of één van zijn subgroepen, administratieve toegang hebben.
 
-Voor instructies, zie [ groep-vlakke goedkeuringsprocessen ](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-groups-approval-processes.md).
+Voor instructies, zie [&#x200B; groep-vlakke goedkeuringsprocessen &#x200B;](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-groups-approval-processes.md).
 
 ## De lay-outsjablonen van een groep weergeven en beheren
 
 Wanneer u een groep bekijkt die u in het gebied Groepen beheert, kunt u het Malplaatje van de Lay-out bekijken en werken waarvoor de beheerders van de groep, of één van zijn subgroepen, administratieve toegang hebben.
 
-Voor instructies, zie [ creeer en wijzig de lay-outmalplaatjes van een groep ](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
+Voor instructies, zie [&#x200B; creeer en wijzig de lay-outmalplaatjes van een groep &#x200B;](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
 
 ## De lijsten van groepsleden weergeven en beheren
 
@@ -148,25 +148,25 @@ Een groepsbeheerder die een programma voor een groep maakt, moet de groep specif
 
 Wanneer u de hoofdpagina van een groep bekijkt u, als de groep als wordt aangewezen waarvan de beheerders een programma kunnen uitgeven, kunt u het programma van de pagina van de groep bekijken en beheren.
 
-Voor instructies, zie [ creeer en wijzig de programma&#39;s van een groep ](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-schedules.md).
+Voor instructies, zie [&#x200B; creeer en wijzig de programma&#39;s van een groep &#x200B;](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-schedules.md).
 
 ## Gebruikersprofielen van groepsleden weergeven en beheren
 
-Wanneer u de hoofdpagina van een groep bekijkt u beheert, kunt u de timesheet profielen beheren die u en andere beheerders van groep-of één van zijn subgroups-toestemming hebben om uit te geven. Voor instructies, zie [ creeer en beheer timesheet profielen van een groep ](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-timesheet-profiles.md).
+Wanneer u de hoofdpagina van een groep bekijkt u beheert, kunt u de timesheet profielen beheren die u en andere beheerders van groep-of één van zijn subgroups-toestemming hebben om uit te geven. Voor instructies, zie [&#x200B; creeer en beheer timesheet profielen van een groep &#x200B;](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-timesheet-profiles.md).
 
 ## De subgroepsleden van een groep weergeven en beheren
 
-Wanneer u de hoofdpagina bekijkt van een groep die u beheert, kunt u alle gebruikers in de subgroepen van de groep weergeven en beheren. Voor instructies, zie [ Mening en beheer subgroepsleden ](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/view-and-manage-subgroup-members.md).
+Wanneer u de hoofdpagina bekijkt van een groep die u beheert, kunt u alle gebruikers in de subgroepen van de groep weergeven en beheren. Voor instructies, zie [&#x200B; Mening en beheer subgroepsleden &#x200B;](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/view-and-manage-subgroup-members.md).
 
 ## De teams van een groep weergeven en beheren
 
 Wanneer u een groep bekijkt die u in het gebied Groepen beheert, kunt u met teams bekijken en werken verbonden aan de groep of om het even welk van zijn subgroepen.
 
-Voor instructies, zie [ de teams van een groep ](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-teams.md) creëren en wijzigen.
+Voor instructies, zie [&#x200B; de teams van een groep &#x200B;](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-teams.md) creëren en wijzigen.
 
 ## De bedrijven van een groep bekijken en beheren
 
-Wanneer u een groep bekijkt die u in het gebied van Groepen beheert, kunt u met bedrijven bekijken en werken verbonden aan de groep of om het even welk van zijn subgroepen. Voor instructies, zie [ de bedrijven van een groep ](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-companies.md) creëren en wijzigen.
+Wanneer u een groep bekijkt die u in het gebied van Groepen beheert, kunt u met bedrijven bekijken en werken verbonden aan de groep of om het even welk van zijn subgroepen. Voor instructies, zie [&#x200B; de bedrijven van een groep &#x200B;](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-companies.md) creëren en wijzigen.
 
 ## De portfolio&#39;s en programma&#39;s van een groep weergeven en beheren
 
@@ -175,7 +175,7 @@ Wanneer u een groep bekijkt die u in het gebied Groepen beheert, kunt u portefeu
 * Ze zijn gekoppeld aan de groep die u bekijkt of een van de subgroepen ervan
 * U hebt machtigingen om deze weer te geven omdat u ze hebt gemaakt of omdat ze met u zijn gedeeld
 
-Voor instructies, zie [ tot stand brengen en wijzigen de projecten van een groep ](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-portfolios.md) en [ creëren, wijzigen, en bekijken de programma&#39;s van een groep ](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-programs.md).
+Voor instructies, zie [&#x200B; tot stand brengen en wijzigen de projecten van een groep &#x200B;](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-portfolios.md) en [&#x200B; creëren, wijzigen, en bekijken de programma&#39;s van een groep &#x200B;](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-programs.md).
 
 ## Een groep deactiveren of opnieuw activeren
 
@@ -191,4 +191,4 @@ U kunt een groep in zijn standaard actieve staat houden of het deactiveren.
 
 Het deactiveren van een groep kan handig zijn wanneer deze momenteel niet wordt gebruikt, omdat gebruikers deze niet meer zien in &#39;type-ahead&#39;-velden wanneer ze zoeken naar een groep die ze aan een ander object willen koppelen.
 
-Voor instructies bij het maken van een groep inactief of actief, zie [ een groep ](../../../administration-and-setup/manage-groups/create-and-manage-groups/deactivate-or-reactivate-a-group.md) deactiveren of reactiveren.
+Voor instructies bij het maken van een groep inactief of actief, zie [&#x200B; een groep &#x200B;](../../../administration-and-setup/manage-groups/create-and-manage-groups/deactivate-or-reactivate-a-group.md) deactiveren of reactiveren.

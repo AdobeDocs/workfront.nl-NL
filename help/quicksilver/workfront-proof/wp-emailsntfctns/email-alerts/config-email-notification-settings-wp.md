@@ -20,24 +20,24 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [ het Bewijzen ](../../../review-and-approve-work/proofing/proofing.md).
+>Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [&#x200B; het Bewijzen &#x200B;](../../../review-and-approve-work/proofing/proofing.md).
 
 Via e-mailmeldingen worden medewerkers op de hoogte gebracht van recente activiteiten op proefdrukken, zoals opmerkingen, antwoorden of besluiten.
 
 U kunt e-mailmeldingen instellen voor revisoren in de volgende gebieden:
 
-E-mailmeldingen voor revisoren kunnen worden ingesteld op de pagina Nieuwe proefdruk [!UICONTROL New version] en worden beheerd in de sectie [!UICONTROL Workflow] van de pagina [!UICONTROL Proof details] . Voor meer informatie, zie [ Proefdrukken binnen produceren  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md)
+E-mailmeldingen voor revisoren kunnen worden ingesteld op de pagina Nieuwe proefdruk [!UICONTROL New version] en worden beheerd in de sectie [!UICONTROL Workflow] van de pagina [!UICONTROL Proof details] . Voor meer informatie, zie [&#x200B; Proefdrukken binnen produceren  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md)
 
 * De pagina Nieuwe proefdruk
 * De pagina [!UICONTROL New version]
 * De sectie [!UICONTROL Workflow] van de pagina [!UICONTROL Proof details] .
 
-Voor meer informatie, zie [ Proefdrukken binnen produceren  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md)
+Voor meer informatie, zie [&#x200B; Proefdrukken binnen produceren  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md)
 
 
-* [ produceer Proofs in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md) [ produceer Proofs in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md)
+* [&#x200B; produceer Proofs in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md) [&#x200B; produceer Proofs in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md)
 
-* [ beheert de Details van het Bewijs in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
+* [&#x200B; beheert de Details van het Bewijs in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
 
 
 Elke gebruiker kan ook zijn eigen instellingen voor e-mailwaarschuwingen instellen die automatisch worden toegepast wanneer een proefdruk met hen wordt gedeeld als de medewerkers hun voorkeuren hebben of als accountbeheerders hun aanbeveling over de frequentie van waarschuwingen hebben. Dit kan als proefgebrek op de pagina&#39;s van gebruikersdetails worden geplaatst.
@@ -151,7 +151,7 @@ U kunt proefdrukinstellingen configureren voor proefdrukken die u maakt.
 U kunt e-mailwaarschuwingen voor een bepaalde ontvanger wijzigen in een batchactie.
 
 1. Klik op **[!UICONTROL Contacts]** in het navigatievenster aan de linkerkant.
-1. Klik het **[!UICONTROL More]** menu ![ Meer menu ](assets/more-button-small.png) voor de ontvanger, dan klik **[!UICONTROL View member details]** in het dropdown menu.
+1. Klik het **[!UICONTROL More]** menu ![&#x200B; Meer menu &#x200B;](assets/more-button-small.png) voor de ontvanger, dan klik **[!UICONTROL View member details]** in het dropdown menu.
 
 1. Open de sectie **[!UICONTROL Shared items]** .
 1. Schakel het selectievakje links van elk item waarvoor u de e-mailwaarschuwing wilt wijzigen in.
@@ -166,7 +166,7 @@ Als u een [!DNL Workfront Proof] beheerder bent, kunt u proefdrukstandaardinstel
 1. Klik op **[!UICONTROL Account settings]** boven aan het scherm.
 
 1. Open de tab **[!UICONTROL Users]** .
-1. Open het **[!UICONTROL &#x200B; More]** menu ![ More_button_small.png ](assets/more-button-small.png) aan het recht van de naam van de gebruiker.
+1. Open het **[!UICONTROL &#x200B; More]** menu ![&#x200B; More_button_small.png &#x200B;](assets/more-button-small.png) aan het recht van de naam van de gebruiker.
 
 1. Klik op **[!UICONTROL View users details]** in de vervolgkeuzelijst.
 1. Klik onder **[!UICONTROL Settings]** op **[!UICONTROL Default email alert settings]** om het uit te vouwen.

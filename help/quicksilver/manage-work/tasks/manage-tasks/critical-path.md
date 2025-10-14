@@ -24,7 +24,7 @@ De volgende functies kunnen van invloed zijn op het kritieke pad van een project
 
 * De werkverdelingsstructuur van het project.
 
-  Voor meer informatie, zie [ de Structuur van de Onderverdeling van het Werk in een project ](../../../manage-work/projects/planning-a-project/determine-project-work-breakdown-structure.md) bepalen.
+  Voor meer informatie, zie [&#x200B; de Structuur van de Onderverdeling van het Werk in een project &#x200B;](../../../manage-work/projects/planning-a-project/determine-project-work-breakdown-structure.md) bepalen.
 
 * De tijd (duur) die elke taak zal vergen om te voltooien.
 * De afhankelijkheid tussen de taken.
@@ -80,7 +80,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 
 +++
@@ -89,7 +89,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 U kunt de taken die tot het Kritieke Weg behoren in de volgende gebieden van de toepassing van Workfront bekijken:
 
-* [ Mening de Kritieke Weg in de grafiek van Gantt ](#view-the-critical-path-in-the-gantt-chart)
+* [&#x200B; Mening de Kritieke Weg in de grafiek van Gantt &#x200B;](#view-the-critical-path-in-the-gantt-chart)
 * [Het kritieke pad weergeven in een takenlijst of rapport](#view-the-critical-path-in-a-task-list-or-report)
 
 ### Het kritieke pad weergeven in het Gantt-diagram {#view-the-critical-path-in-the-gantt-chart}
@@ -104,11 +104,11 @@ Om taken op de Kritieke Weg in de grafiek van Gantt te bekijken:
 
 1. In de hoger-juiste hoek van de taaklijst, klik het **pictogram van de Grafiek 0&rbrace; Gantt.**
 
-   ![ gantt_chart_icon__1_.png ](assets/gantt-icon.png)
+   ![&#x200B; gantt_chart_icon__1_.png &#x200B;](assets/gantt-icon.png)
 
-1. In de hoger-juiste hoek van de Gantt grafieksectie, klik het **pictogram van Opties ![ ](assets/options-icon.png) pictogram van Opties**, dan selecteer de **optie van de** Kritieke Weg in drop-down die verschijnt. De taken die zich op het Kritieke Weg bevinden hebben nu een rode lijn boven hun chronologie.
+1. In de hoger-juiste hoek van de Gantt grafieksectie, klik het **pictogram van Opties ![&#x200B; &#x200B;](assets/options-icon.png) pictogram van Opties**, dan selecteer de **optie van de** Kritieke Weg in drop-down die verschijnt. De taken die zich op het Kritieke Weg bevinden hebben nu een rode lijn boven hun chronologie.
 
-   ![ kritieke_path_on_gantt__1_.png ](assets/crtitical-path-on-gantt--1--350x137.png)
+   ![&#x200B; kritieke_path_on_gantt__1_.png &#x200B;](assets/crtitical-path-on-gantt--1--350x137.png)
 
 ### Het kritieke pad weergeven in een takenlijst of rapport {#view-the-critical-path-in-a-task-list-or-report}
 
@@ -120,17 +120,17 @@ Om te bekijken welke taken op de kritieke weg in een lijst van taken zijn:
 
 1. In het linkerpaneel, klik **Taken**. Het **lusje van Taken** opent.
 
-1. Klik het **pictogram van de Mening ![ ](assets/view-icon.png) van de Mening** &lbrace;, dan selecteren **Status**. De taken die op de Kritieke Pad zijn tonen a **Kritieke Pad** vlag in de **Vlaggen** kolom van de lijst.
+1. Klik het **pictogram van de Mening ![&#x200B; &#x200B;](assets/view-icon.png) van de Mening** &lbrace;, dan selecteren **Status**. De taken die op de Kritieke Pad zijn tonen a **Kritieke Pad** vlag in de **Vlaggen** kolom van de lijst.
 
    of
 
-   Klik het **pictogram van de Filter** pictogram ![ Filters ](assets/filters-icon.png), dan uitgezocht **+ Nieuwe Filter**.
+   Klik het **pictogram van de Filter** pictogram ![&#x200B; Filters &#x200B;](assets/filters-icon.png), dan uitgezocht **+ Nieuwe Filter**.
 1. Op het eerste gebied, is het type in *Kritiek*, dan selecteer het wanneer het onder de **&#x200B;**&#x200B;sectie van Taken &lbrace;in de lijst verschijnt.
 
-   ![ Taak is kritieke filter ](assets/task-is-critical.png)
+   ![&#x200B; Taak is kritieke filter &#x200B;](assets/task-is-critical.png)
 
 1. Verzeker **waar is** wordt geselecteerd in het tweede drop-down menu.
 
-   ![ is ware drop-down ](assets/critical-path-filter.png)
+   ![&#x200B; is ware drop-down &#x200B;](assets/critical-path-filter.png)
 
 1. Sluit het deelvenster Filters. In de takenlijst worden nu alleen taken weergegeven die zich op het kritieke pad bevinden.

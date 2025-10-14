@@ -36,7 +36,7 @@ De voordelen van ingebouwde integratie kunnen het volgende omvatten:
 >
 >Met [!DNL Workfront for Microsoft Teams integration] kunt u meldingen ontvangen in [!DNL Microsoft Teams] over uw [!DNL Workfront] werkitems. Zonder [!DNL Microsoft Teams] te verlaten, kunt u acties uitvoeren zoals het goedkeuren van, het becommentariëren van, of het veranderen van de status van het werkpunten. Wijzigingen die u aanbrengt in werkitems vanuit [!DNL Microsoft Teams] , worden ook doorgevoerd in [!DNL Workfront] .
 
-Voor meer informatie over ingebouwde integratie, met inbegrip van een lijst van momenteel beschikbare ingebouwde integratie, zie [[!DNL Adobe Workfront]  ingebouwd integratieoverzicht ](../workfront-integrations-and-apps/built-in-integrations-non-admin.md).
+Voor meer informatie over ingebouwde integratie, met inbegrip van een lijst van momenteel beschikbare ingebouwde integratie, zie [[!DNL Adobe Workfront]  ingebouwd integratieoverzicht &#x200B;](../workfront-integrations-and-apps/built-in-integrations-non-admin.md).
 
 ## Aangepaste OAuth2-toepassingen
 
@@ -52,7 +52,7 @@ De voordelen van het maken van een [!UICONTROL OAuth2] -toepassing kunnen het vo
 * Voor het instellen of gebruiken van een [!UICONTROL OAuth2] -toepassing is geen aanvullende technische kennis vereist, zoals de vertrouwdheid met de [!DNL Workfront] API.
 * Uw organisatie kan software gebruiken die niet als [!DNL Workfront] ingebouwde toepassing wordt aangeboden. U kunt deze software nog steeds met [!DNL Workfront] integreren door een [!UICONTROL OAuth2] -toepassing te gebruiken, zelfs als de software eigendom van uw organisatie is.
 
-Voor meer informatie, zie [ toepassingen OAuth2 voor de integratie van Workfront ](../administration-and-setup/configure-integrations/create-oauth-application.md) creëren.
+Voor meer informatie, zie [&#x200B; toepassingen OAuth2 voor de integratie van Workfront &#x200B;](../administration-and-setup/configure-integrations/create-oauth-application.md) creëren.
 
 ## [!DNL Workfront] API
 
@@ -76,9 +76,9 @@ De volgende voordelen van de API van [!DNL Workfront] zijn mogelijk:
 >https://`<your domain>`.workfront.com/attask/api-internal/note?noteText=<text of comment>&noteObjCode=TASK&objID=<task ID>&apiKey=<your API key>
 >```
 
-Voor meer informatie over [!DNL Workfront] API, zie [ API grondbeginselen ](../wf-api/general/api-basics.md).
+Voor meer informatie over [!DNL Workfront] API, zie [&#x200B; API grondbeginselen &#x200B;](../wf-api/general/api-basics.md).
 
-Voor meer informatie over gebeurtenisabonnementen, zie [ Abonnement API van de Gebeurtenis ](../wf-api/general/event-subs-api.md).
+Voor meer informatie over gebeurtenisabonnementen, zie [&#x200B; Abonnement API van de Gebeurtenis &#x200B;](../wf-api/general/event-subs-api.md).
 
 ## [!DNL Adobe Workfront Fusion]
 
@@ -95,6 +95,6 @@ De voordelen van [!DNL Workfront Fusion] kunnen het volgende zijn:
 >
 >De volgende [!DNL Workfront] module in [!DNL Workfront Fusion] is ingesteld om een opmerking toe te voegen aan het geselecteerde project. Nadat de module is uitgevoerd, is de opmerking zichtbaar in de updatestream van het project in Workfront.
 >
->![ Voorbeeld: Het toevoegen van een commentaar in Fusie ](assets/fusion-example-comment-350x416.png)
+>![&#x200B; Voorbeeld: Het toevoegen van een commentaar in Fusie &#x200B;](assets/fusion-example-comment-350x416.png)
 
-Voor meer informatie over [!DNL Workfront Fusion], zie [[!DNL Adobe Workfront Fusion] ](https://experienceleague.adobe.com/nl/docs/workfront-fusion/using/home).
+Voor meer informatie over [!DNL Workfront Fusion], zie [[!DNL Adobe Workfront Fusion] &#x200B;](https://experienceleague.adobe.com/nl/docs/workfront-fusion/using/home).

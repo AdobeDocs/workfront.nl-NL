@@ -50,7 +50,7 @@ Hier volgen enkele acties die de Voltooiingsdag van de sjabloontaken kunnen wijz
 
 ## Werken met sjablonen die zijn gepland na voltooiing
 
-U kunt een sjabloon plannen vanaf Voltooiingsdag. Voor meer informatie, zie [ projectmalplaatjes ](../../../manage-work/projects/create-and-manage-templates/edit-templates.md) uitgeven.
+U kunt een sjabloon plannen vanaf Voltooiingsdag. Voor meer informatie, zie [&#x200B; projectmalplaatjes &#x200B;](../../../manage-work/projects/create-and-manage-templates/edit-templates.md) uitgeven.
 
 Denk aan het volgende wanneer u werkt met sjablonen die vanaf de Voltooiingsdatum zijn gepland:
 

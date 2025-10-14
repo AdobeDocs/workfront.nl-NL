@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Op deze pagina worden alle beheerderverbeteringen beschreven die zijn aangebracht met de versie 22.4 voor de voorvertoningsomgeving. Deze verbeteringen worden beschikbaar gesteld in de week van 3 oktober 2022.
 
-Voor een lijst van alle veranderingen beschikbaar met de versie 22.4, zie [ overzicht van de Versie 22.4 ](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar met de versie 22.4, zie [&#x200B; overzicht van de Versie 22.4 &#x200B;](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-release-overview.md).
 
 ## Onvergrendelde statussen gebruiken in een goedkeuringsproces
 
@@ -41,9 +41,9 @@ Het pictogram Vervagen wordt weergegeven in het hoofdmenu wanneer:
 
 Bestaande lay-outsjablonen bevatten automatisch het pictogram Vervagen en beheerders kunnen het pictogram verwijderen uit lay-outsjablonen om de zichtbaarheid van de catalogus Vervagen te beperken. De nieuwe lay-outmalplaatjes die na de versie 22.4 worden gecreeerd zullen het pictogram van Vervagen in de Actieve lijst van Punten omvatten.
 
-Voor meer informatie, zie [ toegang tot Vervagen ](/help/quicksilver/administration-and-setup/blueprints/configure-access-to-blueprints.md) vormen.
+Voor meer informatie, zie [&#x200B; toegang tot Vervagen &#x200B;](/help/quicksilver/administration-and-setup/blueprints/configure-access-to-blueprints.md) vormen.
 
-[ Bekijk een videodemonstratie van deze eigenschap ](https://video.tv.adobe.com/v/3412382/){target=_blank}
+[&#x200B; Bekijk een videodemonstratie van deze eigenschap &#x200B;](https://video.tv.adobe.com/v/3412382/){target=_blank}
 
 ## Aanpassing koptekst van probleem
 
@@ -63,9 +63,9 @@ Vóór deze versie, slechts konden de project en taakkopballen worden aangepast.
 
 
 
-Voor meer informatie, zie [ objecten kopballen aanpassen gebruikend een lay-outmalplaatje ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
+Voor meer informatie, zie [&#x200B; objecten kopballen aanpassen gebruikend een lay-outmalplaatje &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
 
-[ Bekijk een videodemonstratie van deze eigenschap ](https://video.tv.adobe.com/v/3412383/){target=_blank}
+[&#x200B; Bekijk een videodemonstratie van deze eigenschap &#x200B;](https://video.tv.adobe.com/v/3412383/){target=_blank}
 
 ## Aanpassing taakkoptekst
 
@@ -81,9 +81,9 @@ Deze update bevat de volgende verbeteringen:
 
 Voorafgaand aan deze versie, konden slechts projectkopballen worden aangepast.
 
-Voor meer informatie, zie [ objecten kopballen aanpassen gebruikend een Malplaatje van de Lay-out ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
+Voor meer informatie, zie [&#x200B; objecten kopballen aanpassen gebruikend een Malplaatje van de Lay-out &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
 
-[ Bekijk een videodemonstratie van deze eigenschap.](https://video.tv.adobe.com/v/3412384/){target=_blank}
+[&#x200B; Bekijk een videodemonstratie van deze eigenschap.](https://video.tv.adobe.com/v/3412384/){target=_blank}
 
 ## Aanmelden met vroege functies voor de nieuwste functies in de raden van bestuur
 
@@ -91,9 +91,9 @@ We zijn erg blij om nieuwe functies voor raden van bestuur te openen, zodat u de
 
 Alleen een Workfront-beheerder kan zich aanmelden bij de eerste functies. Wanneer de beheerder in aan vroege eigenschappen kiest, worden alle gebruikers in de organisatie verkozen binnen, en de extra eigenschappen worden toegelaten in uw productieWorkfront milieu.
 
-Voor meer informatie, zie [ vroege eigenschapopt-in voor de Boards van Adobe Workfront ](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
+Voor meer informatie, zie [&#x200B; vroege eigenschapopt-in voor de Boards van Adobe Workfront &#x200B;](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
 
-[ Bekijk een videodemonstratie van deze eigenschap.](https://video.tv.adobe.com/v/3412386/){target=_blank}
+[&#x200B; Bekijk een videodemonstratie van deze eigenschap.](https://video.tv.adobe.com/v/3412386/){target=_blank}
 
 ## In de berekeningeditor van het aangepaste formulierveld worden foutgegevens weergegeven
 
@@ -103,7 +103,7 @@ Voor meer informatie, zie [ vroege eigenschapopt-in voor de Boards van Adobe Wor
 
 Het bewerken van berekeningen voor aangepaste velden is nu gemakkelijker omdat nuttige foutinformatie rechtstreeks in de berekening wordt vermeld. Tijdens het maken van een berekend veld in een aangepast formulier worden fouten roze gemarkeerd. Wanneer u de muisaanwijzer op het gemarkeerde gedeelte plaatst, wordt knopinfo weergegeven waarin het probleem wordt beschreven.
 
-[ Bekijk een videodemonstratie van deze eigenschap.](https://video.tv.adobe.com/v/3412387/){target=_blank}
+[&#x200B; Bekijk een videodemonstratie van deze eigenschap.](https://video.tv.adobe.com/v/3412387/){target=_blank}
 
 ## Migratie naar Adobe Unified Experience
 
@@ -119,6 +119,6 @@ De Adobe Verenigde Ervaring omvat:
 
 * Navigatie met opties voor Workfront-pagina&#39;s, Adobe Experience Cloud-voorkeuren en uw Workfront-profiel
 
-Voor meer informatie, zie [ Adobe Verenigde Ervaring voor Workfront ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
+Voor meer informatie, zie [&#x200B; Adobe Verenigde Ervaring voor Workfront &#x200B;](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
-[ Bekijk een videodemonstratie van deze eigenschap.](https://video.tv.adobe.com/v/3412388/){target=_blank}
+[&#x200B; Bekijk een videodemonstratie van deze eigenschap.](https://video.tv.adobe.com/v/3412388/){target=_blank}

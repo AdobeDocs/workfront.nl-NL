@@ -22,12 +22,12 @@ U kunt een volledig rapport-of een specifiek blok-in een dossierformaat uitvoere
 
 ## Vereisten
 
-Alvorens u begint, moet u in de bèta van het Canvas van de Rapportering inschrijven. Voor meer informatie, zie [ Rapporterend de bèta van het Canvas: overzicht ](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
+Alvorens u begint, moet u in de bèta van het Canvas van de Rapportering inschrijven. Voor meer informatie, zie [&#x200B; Rapporterend de bèta van het Canvas: overzicht &#x200B;](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
 
 ## Een rapport exporteren
 
 1. Navigeer naar het rapport dat u wilt exporteren.
-1. In de rapportkopbal, klik het **Meer** pictogram ![ Meer pictogram ](assets/more-icon-27x15.png), klik **Uitvoer**, dan selecteer het dossierformaat u wilt creëren.
+1. In de rapportkopbal, klik het **Meer** pictogram ![&#x200B; Meer pictogram &#x200B;](assets/more-icon-27x15.png), klik **Uitvoer**, dan selecteer het dossierformaat u wilt creëren.
 
    >[!NOTE]
    >

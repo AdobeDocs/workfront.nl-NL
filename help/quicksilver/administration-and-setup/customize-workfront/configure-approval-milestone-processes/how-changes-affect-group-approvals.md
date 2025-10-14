@@ -27,7 +27,7 @@ Dit artikel verklaart wat gebeurt wanneer een goedkeuringsproces reeds met taken
 
 Het artikel beschrijft ook wat gebeurt wanneer het bewegen van of het kopiëren van taken of kwesties verbonden aan een groep-vlakke goedkeuringsproces tussen twee projecten van verschillende groepen.
 
-Voor informatie over de 3 types van goedkeuringsprocessen kunt u in Workfront gebruiken, zie [ overzicht van het proces van de Goedkeuring ](../../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md).
+Voor informatie over de 3 types van goedkeuringsprocessen kunt u in Workfront gebruiken, zie [&#x200B; overzicht van het proces van de Goedkeuring &#x200B;](../../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md).
 
 >[!NOTE]
 >
@@ -37,9 +37,9 @@ Voor informatie over de 3 types van goedkeuringsprocessen kunt u in Workfront ge
 >
 >U kunt overwegen de goedkeuringsprocessen op groepsniveau voor het project of de taken of problemen ervan te verwijderen voordat u de groep van het project bijwerkt.
 >
->Voor informatie over het creëren van groep-vlakke goedkeuringsprocessen, zie [ groep-vlakke goedkeuringsprocessen ](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-groups-approval-processes.md).
+>Voor informatie over het creëren van groep-vlakke goedkeuringsprocessen, zie [&#x200B; groep-vlakke goedkeuringsprocessen &#x200B;](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-groups-approval-processes.md).
 >
->Voor informatie over het creëren van een groep-vlakke douanestatus, zie [ een groepsstatus ](../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md) creëren of uitgeven
+>Voor informatie over het creëren van een groep-vlakke douanestatus, zie [&#x200B; een groepsstatus &#x200B;](../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md) creëren of uitgeven
 
 ## Een groepsspecifiek goedkeuringsproces van de ene groep naar de andere wijzigen
 

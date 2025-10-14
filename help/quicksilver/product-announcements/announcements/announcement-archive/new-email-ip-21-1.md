@@ -33,7 +33,7 @@ Voeg de volgende IP adressen aan uw lijst van gewenste personen toe om uw gebrui
 * 23 251 239,98
 * 23 251 239,99
 
-(Voor extra context over de lijst van gewenste personen en andere IP adressen die reeds aan uw lijst van gewenste personen zouden kunnen worden toegevoegd, zie [ de lijst van gewenste personen van uw firewall ](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md) vormen.)
+(Voor extra context over de lijst van gewenste personen en andere IP adressen die reeds aan uw lijst van gewenste personen zouden kunnen worden toegevoegd, zie [&#x200B; de lijst van gewenste personen van uw firewall &#x200B;](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md) vormen.)
 
 Wanneer moet dit gebeuren?
 

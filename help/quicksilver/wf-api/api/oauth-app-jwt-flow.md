@@ -24,7 +24,7 @@ Als u wilt integreren met Workfront en uw clienttoepassing in staat wilt stellen
 
 ## Een OAuth2-toepassing maken
 
-Voor instructies bij het creëren van de toepassing OAuth2, zie [ een toepassing OAuth2 creëren gebruikend serverauthentificatie (stroom JWT) ](../../administration-and-setup/configure-integrations/create-oauth-application.md#create2) in [ creeer toepassingen OAuth2 voor de integratie van Workfront ](../../administration-and-setup/configure-integrations/create-oauth-application.md)
+Voor instructies bij het creëren van de toepassing OAuth2, zie [&#x200B; een toepassing OAuth2 creëren gebruikend serverauthentificatie (stroom JWT) &#x200B;](../../administration-and-setup/configure-integrations/create-oauth-application.md#create2) in [&#x200B; creeer toepassingen OAuth2 voor de integratie van Workfront &#x200B;](../../administration-and-setup/configure-integrations/create-oauth-application.md)
 
 >[!NOTE]
 >

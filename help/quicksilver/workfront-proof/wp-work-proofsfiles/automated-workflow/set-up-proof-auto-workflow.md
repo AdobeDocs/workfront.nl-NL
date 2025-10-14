@@ -18,13 +18,13 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [ het Bewijzen ](../../../review-and-approve-work/proofing/proofing.md).
+>Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [&#x200B; het Bewijzen &#x200B;](../../../review-and-approve-work/proofing/proofing.md).
 
 Dankzij de geautomatiseerde workflow kunt u de controle en goedkeuring van inhoud gemakkelijker beheren wanneer u complexe revisieprocessen hebt of wanneer u inhoud ter controle regelmatig naar dezelfde groepen personen verzendt.
 
 Als u de proefdruk maakt, gaat deze van het werkgebied naar het werkgebied totdat de eindgoedkeuring is verkregen. De relevante gebruikers worden op elk moment dat zij een goedkeuring moeten verlenen, op de hoogte gebracht.
 
-![ stage_diagram.png ](assets/stages-diagram-350x81.png)
+![&#x200B; stage_diagram.png &#x200B;](assets/stages-diagram-350x81.png)
 
 U kunt een geautomatiseerde workflow aan een proefdruk toevoegen tijdens het uploaden van het document of nadat het document is geüpload.
 
@@ -94,13 +94,13 @@ Het diagram zweeft, wat betekent dat het zichtbaar blijft, zelfs als u de pagina
 
 Als u niet het diagram te hoeven zien, kunt u het verbergen (1).
 
-![ Diagram.png ](assets/diagram-350x93.png)
+![&#x200B; Diagram.png &#x200B;](assets/diagram-350x93.png)
 
 ## Een werkgebied toevoegen
 
 U kunt een extra werkgebied toevoegen aan een werkstroom u creeert of wijzigt.
 
-1. Als u een stadium aan een bestaand bewijs toevoegt, ga naar de de detailpagina van het Bewijs, zoals die op [ wordt beschreven beheert de Details van het Bewijs in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
+1. Als u een stadium aan een bestaand bewijs toevoegt, ga naar de de detailpagina van het Bewijs, zoals die op [&#x200B; wordt beschreven beheert de Details van het Bewijs in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
 1. Klik in de sectie **[!UICONTROL Workflow]** op **[!UICONTROL New stage]** .
 
 1. Geef informatie voor het werkgebied op, zoals in stap 4 onder de sectie [!UICONTROL Creating a Proof with an Automated Workflow] in dit artikel.
@@ -110,7 +110,7 @@ U kunt een extra werkgebied toevoegen aan een werkstroom u creeert of wijzigt.
 
 1. Klik op het prullenbakpictogram in de rechterbovenhoek van het werkgebied (1).\
    Het pictogram wordt weergegeven wanneer u de muisaanwijzer op het werkgebied plaatst.\
-   ![ het schrappen_a_stage.png ](assets/deleting-a-stage-350x250.png)
+   ![&#x200B; het schrappen_a_stage.png &#x200B;](assets/deleting-a-stage-350x250.png)
 
 ## Werkgebiedinstellingen
 
@@ -145,7 +145,7 @@ U kunt een extra werkgebied toevoegen aan een werkstroom u creeert of wijzigt.
 >Als u een primaire besluitvormer kiest, is er in dit stadium niet meer slechts één vereiste optie voor een beslissing beschikbaar.
 
 * **[!UICONTROL Only one decision required]**: u kunt deze optie in een werkgebied inschakelen. Dit betekent dat de herziening zal worden afgerond zodra een van de besluitvormers zijn besluit neemt.
-* **[!UICONTROL Privacy]:** Elke fase kan privé worden gemaakt. Als een werkgebied privé is, zijn de opmerkingen en beslissingen niet zichtbaar voor personen die niet aan dit werkgebied zijn toegevoegd of die geen toezichthouders, beheerders of factureringsbeheerders in het account zijn. Voor meer informatie, zie [ Geautomatiseerd Overzicht van het Werkschema ](../../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md).
+* **[!UICONTROL Privacy]:** Elke fase kan privé worden gemaakt. Als een werkgebied privé is, zijn de opmerkingen en beslissingen niet zichtbaar voor personen die niet aan dit werkgebied zijn toegevoegd of die geen toezichthouders, beheerders of factureringsbeheerders in het account zijn. Voor meer informatie, zie [&#x200B; Geautomatiseerd Overzicht van het Werkschema &#x200B;](../../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md).
 
 ## Revisoren toevoegen aan een werkgebied
 
@@ -184,4 +184,4 @@ Nadat een standaardproefdruk in Geautomatiseerde Werkschema wordt omgezet, kunt 
    * Als [!UICONTROL Add a stage option] is uitgeschakeld in de opgegeven sjabloon, is de knop [!UICONTROL Add template] niet zichtbaar nadat u deze hebt toegevoegd.
    * Wanneer een persoon aan een stadium in een Geautomatiseerd malplaatje van het Werkschema wordt toegevoegd, maar ook reeds aanwezig op het bewijs toen als dit malplaatje wordt toegepast, zal het systeem deze persoon automatisch uit het stadium verwijderen. Als er verder niemand aan dit specifieke werkgebied wordt toegevoegd, wordt de volgende fout weergegeven omdat het systeem het toevoegen van een leeg werkgebied aan de workflow niet toestaat.
 
-     ![ error_when_adding_template.png ](assets/error-when-adding-template-350x66.png)
+     ![&#x200B; error_when_adding_template.png &#x200B;](assets/error-when-adding-template-350x66.png)

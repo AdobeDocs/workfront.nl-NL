@@ -50,7 +50,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -63,14 +63,14 @@ Door gebrek, zijn de projecten vermeld in de Mening van het Project van de Plann
 >De projecten worden vermeld volgens de drie hieronder criteria slechts de eerste keer u de Planner van het Middel opent. Nochtans, wordt deze standaardprioriteit automatisch uw douaneprioriteit en kan niet aan de originele prioriteit worden teruggekeerd om het even welke tijd u één van het volgende doet:
 >
 >* Wanneer u op Opslaan klikt.
->* Wanneer u manueel de project planningsprioriteit verandert. Voor informatie over het veranderen van de project planningsprioriteit manueel, zie de sectie [ manueel de Prioriteit van de Planning van het Project ](#manually-change-the-project-planning-priority) in dit artikel veranderen.
+>* Wanneer u manueel de project planningsprioriteit verandert. Voor informatie over het veranderen van de project planningsprioriteit manueel, zie de sectie [&#x200B; manueel de Prioriteit van de Planning van het Project &#x200B;](#manually-change-the-project-planning-priority) in dit artikel veranderen.
 >
 >Nadat de projectprioriteit uw douaneprioriteit wordt, beïnvloeden om het even welke veranderingen in de projectinformatie niet meer de orde van de projecten gebruikend deze criteria. Daarna, kunt u projecten slechts manueel voorrang geven.
 
 De oorspronkelijke standaardcriteria voor het een lijst maken van de projecten in de Mening van het Project zijn als volgt, in deze orde:
 
 1. Door de Score van de Uitlijning op het project.\
-   Voor meer informatie over de Score van de Uitlijning van het project, zie [ een scorecard op een project toepassen en een Score van de Uitlijning ](../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md) produceren.
+   Voor meer informatie over de Score van de Uitlijning van het project, zie [&#x200B; een scorecard op een project toepassen en een Score van de Uitlijning &#x200B;](../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md) produceren.
 
 1. Door de Geplande Datum van het Begin van het project (als het gebied van de Uitlijning ongeldig is of het zelfde voor verscheidene projecten) is.
 1. Alfabetisch (als het veld Uitlijning null is of hetzelfde is en de geplande begindatum voor verschillende projecten gelijk is).
@@ -94,11 +94,11 @@ De projectplanningsprioriteit bewerken:
 1. Ga naar de **Planner van het Middel**.
 
 1. Klik binnen het gebied links van de projectnaam die een aantal bevat, en ga een aantal in om de Prioriteit van de Planning te veranderen, dan te drukken binnengaan.\
-   ![ Prioriteit van de Planning van de Verandering ](assets/mceclip4.png)\
+   ![&#x200B; Prioriteit van de Planning van de Verandering &#x200B;](assets/mceclip4.png)\
    of\
    Houd de muisaanwijzer boven de naam van het project en klik op de indicator links van de naam van het project en sleep het project naar de juiste plaats om de prioriteit te wijzigen.
 
-   ![ drag_and_drop_projects_RP__1_.png ](assets/drag-and-drop-projects-rp--1--350x184.png)
+   ![&#x200B; drag_and_drop_projects_RP__1_.png &#x200B;](assets/drag-and-drop-projects-rp--1--350x184.png)
 
    Wanneer u aantallen selecteert om aan projecten voorrang te geven, selecteer lagere aantallen voor hogere (belangrijkere) prioriteiten, en hogere aantallen voor lagere (minder belangrijke) prioriteiten. Wanneer u het prioritaire aantal van een project in een lager aantal (hogere prioriteit) verandert, verschuiven alle andere projecten in de Planner van het Middel onderaan op de lijst (minder belangrijk worden).\
    Wanneer u het prioriteitsaantal van een project in een hoger aantal (lagere prioriteit) verandert, verschuiven alle andere projecten in de Planner van het Middel omhoog op de lijst (worden belangrijker).
@@ -112,9 +112,9 @@ De projectplanningsprioriteit bewerken:
 >
 >Uw bedrijf moet een bedrijfs of hoger plan van Workfront hebben om projecten in Portfolio Optimizer voorrang te geven.
 >
->Voor meer informatie over de plannen van Workfront, zie [ Onze Abonnementen ](https://business.adobe.com/products/workfront/pricing.html).
+>Voor meer informatie over de plannen van Workfront, zie [&#x200B; Onze Abonnementen &#x200B;](https://business.adobe.com/products/workfront/pricing.html).
 >
->Voor informatie over het prioriteren van projecten in Portfolio optimaliseert, zie [ projecten in de Optimizer van Portfolio ](../../manage-work/portfolios/portfolio-optimizer/prioritize-projects-in-portfolio-optimizer.md) Prioritize.
+>Voor informatie over het prioriteren van projecten in Portfolio optimaliseert, zie [&#x200B; projecten in de Optimizer van Portfolio &#x200B;](../../manage-work/portfolios/portfolio-optimizer/prioritize-projects-in-portfolio-optimizer.md) Prioritize.
 
 1. Open de **Planner van het Middel** in de **Mening van het Project**.
 1. Klik het **pictogram van Montages**.
@@ -124,7 +124,7 @@ De projectplanningsprioriteit bewerken:
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: check screen shot to see if this is accurate still - should say Order, and not Sort:)</p>
    -->
 
-   ![ prioriteit van Portfolio ](assets/rp-portfolio-priority-unordered-edit-350x180.png)
+   ![&#x200B; prioriteit van Portfolio &#x200B;](assets/rp-portfolio-priority-unordered-edit-350x180.png)
 
    De portefeuilleprioriteiten van de projecten worden alleen weergegeven in de projectweergave van de bronnenplanner.
 
@@ -136,7 +136,7 @@ De projectplanningsprioriteit bewerken:
    1. Geplande begindatum
    1. Projectnaam
 
-   ![ Portfolio prioriteit bevolen ](assets/rp-portfolio-priority-ordered-350x198.png)
+   ![&#x200B; Portfolio prioriteit bevolen &#x200B;](assets/rp-portfolio-priority-ordered-350x198.png)
 
 1. Klik **sparen**.
 
@@ -144,7 +144,7 @@ De projectplanningsprioriteit bewerken:
 
 De prioriteit van de Planning van het Project beïnvloedt de Beschikbare Uren van gebruikers. De gebruikers verbonden aan het project met de hoogste prioriteit tonen hun volledige beschikbaarheid voor de Beschikbare kolom van Uren (AVL) voor dit project, volgens hun programma&#39;s.
 
-Dezelfde gebruikers die bij het tweede project in volgorde van prioriteit betrokken zijn, zullen een waarde van Beschikbare uren laten zien, die het verschil is tussen hun volledige bedrag van Beschikbare Uren en wat reeds voor het eerste project in de kolom Begrotingsuren is begroot, etc. Voor informatie over het opnemen van middelen in de Planner van het Middel, zie [ middelen van de Begroting in de Planner van het Middel gebruikend de meningen van het Project en van de Rol ](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md).
+Dezelfde gebruikers die bij het tweede project in volgorde van prioriteit betrokken zijn, zullen een waarde van Beschikbare uren laten zien, die het verschil is tussen hun volledige bedrag van Beschikbare Uren en wat reeds voor het eerste project in de kolom Begrotingsuren is begroot, etc. Voor informatie over het opnemen van middelen in de Planner van het Middel, zie [&#x200B; middelen van de Begroting in de Planner van het Middel gebruikend de meningen van het Project en van de Rol &#x200B;](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md).
 
 Als er geen uren zijn begroot voor het eerste project (in volgorde van prioriteit) voor een gebruiker, maar er uren zijn begroot voor het tweede project voor dezelfde gebruiker, zal de gebruiker het volledige aantal beschikbare uren voor beide projecten tonen.
 
@@ -156,4 +156,4 @@ Wij adviseren het bijwerken van de Begroeide kolom van Uren voor uw gebruikers i
 >
 >De gebruiker die de uren begroot wijst eerst dat middel toe en vermindert het aantal Beschikbare Uren voor dat middel over het systeem. De hoeveelheid beschikbare uren moet voor alle gebruikers worden bijgewerkt zodra de begrote uren uren voor een resource in de Resource Planner zijn opgeslagen.
 >
->Voor meer informatie over Beschikbare Uren, zie [ Beschikbaarheid en toewijzing van middelen ](../../resource-mgmt/resource-planning/resource-availability-allocation-resource-planner.md#availability-and-allocation-of-resources).
+>Voor meer informatie over Beschikbare Uren, zie [&#x200B; Beschikbaarheid en toewijzing van middelen &#x200B;](../../resource-mgmt/resource-planning/resource-availability-allocation-resource-planner.md#availability-and-allocation-of-resources).

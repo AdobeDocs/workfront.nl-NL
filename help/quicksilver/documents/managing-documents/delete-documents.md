@@ -55,8 +55,8 @@ Een document verwijderen:
 1. Ga naar het project, de taak, of de kwestie die het document bevat, dan selecteren **Documenten**.
 1. Zoek het document dat u nodig hebt.
 
-1. Klik het **pictogram van de Schrapping ![ ](assets/delete.png) boven het gebied van Documenten**.
+1. Klik het **pictogram van de Schrapping ![&#x200B; &#x200B;](assets/delete.png) boven het gebied van Documenten**.
 
 1. In de doos die verschijnt, klik ja **, schrap het** om te bevestigen.
 
-Een systeem of groepsbeheerder kan een document herstellen binnen 30 dagen na worden geschrapt, zoals die in [ worden beschreven herstelt geschrapte punten ](../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).
+Een systeem of groepsbeheerder kan een document herstellen binnen 30 dagen na worden geschrapt, zoals die in [&#x200B; worden beschreven herstelt geschrapte punten &#x200B;](../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).

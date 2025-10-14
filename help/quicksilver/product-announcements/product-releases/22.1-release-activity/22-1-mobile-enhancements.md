@@ -25,7 +25,7 @@ in January 2022
 
 de week van 17 januari 2022.
 
-Voor een lijst van alle veranderingen beschikbaar met de versie 22.1, zie [ overzicht van de Versie 22.1 ](../../../product-announcements/product-releases/22.1-release-activity/22-1-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar met de versie 22.1, zie [&#x200B; overzicht van de Versie 22.1 &#x200B;](../../../product-announcements/product-releases/22.1-release-activity/22-1-release-overview.md).
 
 ## Verbeteringen voor proefdrukfunctionaliteit in mobiele app
 

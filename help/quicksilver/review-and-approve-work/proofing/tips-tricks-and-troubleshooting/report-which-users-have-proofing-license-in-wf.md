@@ -64,7 +64,7 @@ U kunt een gebruikersrapport maken om te bekijken welke gebruikers proefdrukken 
 
 1. Selecteer **Gelijk** > **Waar**.
 
-   ![ report_prooflicenses.png ](assets/report-prooflicenses-350x135.png)
+   ![&#x200B; report_prooflicenses.png &#x200B;](assets/report-prooflicenses-350x135.png)
 
 1. Klik **sparen+Sluiten**.
 

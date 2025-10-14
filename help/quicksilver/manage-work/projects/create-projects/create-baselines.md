@@ -82,7 +82,7 @@ drafted for P&P:
  </tbody> 
 </table>
 
-*For meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*For meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -95,7 +95,7 @@ drafted for P&P:
 
 >[!IMPORTANT]
 >
->Een basislijn neemt een momentopname van de naam, de data, en de financiële informatie van het project. De basislijn omvat niet de waarden van douanegebieden op het project. Voor informatie over financiële informatie inbegrepen in de basislijn, zie [ de financiën van het Project inbegrepen in projectbasislijnen ](../../../manage-work/projects/project-finances/project-finances-included-in-project-baselines.md).
+>Een basislijn neemt een momentopname van de naam, de data, en de financiële informatie van het project. De basislijn omvat niet de waarden van douanegebieden op het project. Voor informatie over financiële informatie inbegrepen in de basislijn, zie [&#x200B; de financiën van het Project inbegrepen in projectbasislijnen &#x200B;](../../../manage-work/projects/project-finances/project-finances-included-in-project-baselines.md).
 
 ## Een basislijn maken
 
@@ -103,7 +103,7 @@ U kunt op de volgende manieren een basislijn maken:
 
 * **automatisch**: Uw beheerder van Workfront of een groepsbeheerder plaatst de projectvoorkeur voor Workfront om een basislijn automatisch tot stand te brengen wanneer een project Huidig wordt. Wanneer deze instelling is ingeschakeld, wordt een basislijn gemaakt wanneer de projectstatus Huidig wordt. Als deze instelling niet is ingeschakeld, moet u handmatig basislijnen maken.
 
-  Voor meer informatie over het vormen van projectvoorkeur en vestiging automatische basislijnverwezenlijking, zie [ systeem-brede projectvoorkeur ](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) vormen.
+  Voor meer informatie over het vormen van projectvoorkeur en vestiging automatische basislijnverwezenlijking, zie [&#x200B; systeem-brede projectvoorkeur &#x200B;](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) vormen.
 
   >[!CAUTION]
   >
@@ -116,7 +116,7 @@ Een basislijn maken:
 1. Ga naar een project.
 1. In het linkerpaneel, klik **Basislijnen**.
 
-   ![ sectie van Baselines op project ](assets/baselines-section-on-project-with-header.png)
+   ![&#x200B; sectie van Baselines op project &#x200B;](assets/baselines-section-on-project-with-header.png)
 
 1. Klik **Nieuwe Basislijn.**
 1. Geef de naam voor de basislijn op.
@@ -137,7 +137,7 @@ Een basislijn maken:
      >
      >U kunt geen informatie van om het even welke twee basislijnen tezelfdertijd in de zelfde mening of het rapport bekijken. U kunt informatie van een bepaalde basislijn en de Standaard basislijn slechts bekijken in het zelfde rapport. U kunt wijzigen welke basislijn u als Standaardbasislijn beschouwt wanneer tijdens het leven van het project.
 
-1. (Facultatief) klik de **knoop van de Mening**, dan creeer een nieuwe mening of geef de huidige mening uit om gebieden aan de mening toe te voegen en extra informatie tussen basislijnen te vergelijken. Voor informatie, zie [ meningen in Adobe Workfront ](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md) creëren of uitgeven.
+1. (Facultatief) klik de **knoop van de Mening**, dan creeer een nieuwe mening of geef de huidige mening uit om gebieden aan de mening toe te voegen en extra informatie tussen basislijnen te vergelijken. Voor informatie, zie [&#x200B; meningen in Adobe Workfront &#x200B;](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md) creëren of uitgeven.
 
 ## Creeer een Baseline of een rapport van de Taak van de Basislijn
 
@@ -147,8 +147,8 @@ Om basislijninformatie te bekijken, kunt u een rapport van de Taak van de Basisl
 >
 >U moet een basislijn creëren alvorens u een rapport van de Taak van de Basislijn of van de Basislijn kunt tot stand brengen.
 
-Voor informatie over het creëren van een rapport, zie [ een douanerapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) creëren.
+Voor informatie over het creëren van een rapport, zie [&#x200B; een douanerapport &#x200B;](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) creëren.
 
 Wij adviseren dat u een groepering van de Naam van het Project aan uw rapport van de Taak van de Basislijn of van de Basislijn toevoegt om het gemakkelijker te maken te lezen.
 
-Voor informatie over het creëren van een groepering, zie [ groepen in Adobe Workfront ](../../../reports-and-dashboards/reports/reporting-elements/create-groupings.md) creëren.
+Voor informatie over het creëren van een groepering, zie [&#x200B; groepen in Adobe Workfront &#x200B;](../../../reports-and-dashboards/reports/reporting-elements/create-groupings.md) creëren.

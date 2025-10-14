@@ -20,7 +20,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->De inhoud van dit artikel verwijst naar de bijgewerkte goedkeuringsfunctionaliteit die alleen beschikbaar is voor specifieke accounts. Voor informatie over standaardgoedkeuringsprocessen, zie de artikelen die in [ worden vermeld goedkeuringen van het Werk ](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
+>De inhoud van dit artikel verwijst naar de bijgewerkte goedkeuringsfunctionaliteit die alleen beschikbaar is voor specifieke accounts. Voor informatie over standaardgoedkeuringsprocessen, zie de artikelen die in [&#x200B; worden vermeld goedkeuringen van het Werk &#x200B;](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
 
 <!--
 ## Access requirements
@@ -67,7 +67,7 @@ You must have the following access to perform the steps in this article:
 
 1. De rol neer aan de **goedkeurt** sectie, dan klikt **voegt** toe.
 
-   ![ voegt fiatteurs in documentsamenvatting ](assets/doc-summary-add-approvers.png) toe
+   ![&#x200B; voegt fiatteurs in documentsamenvatting &#x200B;](assets/doc-summary-add-approvers.png) toe
 
 1. (Optioneel) Stel een deadline in voor de goedkeuring. Gebruikers en teams worden 72 uur per e-mail op de hoogte gesteld en 24 uur vóór de opgegeven deadline.
 
@@ -75,14 +75,14 @@ You must have the following access to perform the steps in this article:
 
 1. Om een recensent toe te voegen, klik **checkbox 0&rbrace; Recensent &lbrace;en begin typend in een gebruiker of teamnaam.**
 
-   ![ voeg fiatteur en deadline ](assets/add-approver-and-deadline.png) toe
+   ![&#x200B; voeg fiatteur en deadline &#x200B;](assets/add-approver-and-deadline.png) toe
 
 1. Herhaal de vorige stap om extra fiatteurs of revisoren toe te voegen.
 
 ## Een revisie- of goedkeuringsaanvraag maken op de pagina Documentdetails
 
 1. Beweeg over het document, dan klik **Details van het Document**.
-   ![ de details van het Document ](assets/doc-details.png)
+   ![&#x200B; de details van het Document &#x200B;](assets/doc-details.png)
 
 1. Selecteer bij de documentnaam de versie van het document waarvoor u een goedkeuring wilt maken. De meest recente versie is standaard geselecteerd.
 
@@ -94,7 +94,7 @@ You must have the following access to perform the steps in this article:
 
 1. Om een recensent toe te voegen, klik **checkbox 0&rbrace; Recensent &lbrace;en begin typend in een gebruiker of teamnaam.**
 
-   ![ voeg fiatteur en deadline ](assets/add-approver-and-deadline.png) toe
+   ![&#x200B; voeg fiatteur en deadline &#x200B;](assets/add-approver-and-deadline.png) toe
 
 1. Herhaal de vorige stap om extra fiatteurs of revisoren toe te voegen.
 

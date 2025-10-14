@@ -60,7 +60,7 @@ Voor informatie over berekende douanegebieden en kolommen, zie het artikel <a hr
 
 ## Filtervariabelen voor jokertekens op basis van datum
 
-De op datum-gebaseerde vervangingsopties kunnen in combinatie met om het even welk attribuut van de datumfilter worden gebruikt. Voor informatie over het toevoegen van een op datum-gebaseerde vervanging aan een rapport, zie het artikel [ Op datum-gebaseerde vervangingen van het Gebruik om rapporten ](../../../reports-and-dashboards/reports/reporting-elements/use-date-based-wildcards-generalize-reports.md) te generaliseren.
+De op datum-gebaseerde vervangingsopties kunnen in combinatie met om het even welk attribuut van de datumfilter worden gebruikt. Voor informatie over het toevoegen van een op datum-gebaseerde vervanging aan een rapport, zie het artikel [&#x200B; Op datum-gebaseerde vervangingen van het Gebruik om rapporten &#x200B;](../../../reports-and-dashboards/reports/reporting-elements/use-date-based-wildcards-generalize-reports.md) te generaliseren.
 
 >[!NOTE]
 >
@@ -118,7 +118,7 @@ Het jokerteken `$$TODAYb+2w` verwijst bijvoorbeeld naar &quot;2 weken vanaf het 
 >
 >Als een filter of een rapport een op gebruiker-gebaseerde variabele van de vervangingsfilter bevat, tonen de resultaten altijd informatie die door de gebruiker wordt gefilterd die momenteel het programma wordt geopend. Wanneer u zulk een filter of rapport met een andere gebruiker deelt, wint het vervanging informatie voor de gebruiker terug die het rapport bekijken. De twee gebruikers zien verschillende resultaten.
 >
->Voor informatie over het toevoegen van een op gebruiker-gebaseerde vervanging aan een rapport, zie het artikel [ Op gebruiker-gebaseerde vervangingen van het Gebruik om rapporten ](../../../reports-and-dashboards/reports/reporting-elements/use-user-based-wildcards-generalize-reports.md) te generaliseren.
+>Voor informatie over het toevoegen van een op gebruiker-gebaseerde vervanging aan een rapport, zie het artikel [&#x200B; Op gebruiker-gebaseerde vervangingen van het Gebruik om rapporten &#x200B;](../../../reports-and-dashboards/reports/reporting-elements/use-user-based-wildcards-generalize-reports.md) te generaliseren.
 
 U kunt uit de volgende op gebruiker-gebaseerde variabelen kiezen:
 

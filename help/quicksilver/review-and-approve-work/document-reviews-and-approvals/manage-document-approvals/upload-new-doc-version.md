@@ -53,7 +53,7 @@ Als de nieuwste documentversie wordt verwijderd, blijven de vorige versies vergr
  </tbody> 
 </table>
 
-Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -74,7 +74,7 @@ Een nieuwe versie toevoegen:
 1. Sleep het nieuwe bestand naar het vorige document. Hiermee wordt automatisch een nieuwe versie gemaakt.
 
 1. Zodra het document eindigt uploadend, selecteer het document, dan klik **Details van het Document**.
-   ![ open de pagina van documentdetails ](assets/open-doc-details.png)
+   ![&#x200B; open de pagina van documentdetails &#x200B;](assets/open-doc-details.png)
 
 
 1. In het linkerpaneel, klik **goedkeurt**, dan klik **toevoegen**.
@@ -86,13 +86,13 @@ Een nieuwe versie toevoegen:
 
    >[!TIP]
    >
-   >   Gebruikers met een standaardlicentie kunnen acceptatiesjablonen maken die u kunt gebruiken vanuit het gedeelte Instellen. Voor meer informatie, zie [ een Malplaatje van de Goedkeuring voor activa en documenten ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md) creëren.
+   >   Gebruikers met een standaardlicentie kunnen acceptatiesjablonen maken die u kunt gebruiken vanuit het gedeelte Instellen. Voor meer informatie, zie [&#x200B; een Malplaatje van de Goedkeuring voor activa en documenten &#x200B;](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md) creëren.
 
 
 1. (Optioneel) Stel een deadline in voor de goedkeuring. Gebruikers en teams worden 72 uur per e-mail op de hoogte gesteld en 24 uur vóór de opgegeven deadline.
 
 1. Zodra u alle recensenten en fiatteurs hebt toegevoegd, klik **voorleggen Verzoek**. Deelnemers worden via e-mail op de hoogte gesteld.
 
-   ![ voorlegt nieuwe versie voor goedkeuring ](assets/add-previous-participants.png)
+   ![&#x200B; voorlegt nieuwe versie voor goedkeuring &#x200B;](assets/add-previous-participants.png)
 
 

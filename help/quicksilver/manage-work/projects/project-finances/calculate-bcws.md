@@ -28,7 +28,7 @@ Overweeg het volgende wanneer het herzien van de waarden voor BCWS op een taak o
 
   U kunt uw project vormen om PIM te berekenen gebruikend uren of kosten en BCWS wordt ook berekend gebruikend de zelfde waarden.
 
-  Voor informatie over het vormen hoe BCWS wordt berekend, zie de sectie [ vormen hoe BCWS ](#configure-how-bcws-is-calculated) in dit artikel wordt berekend.
+  Voor informatie over het vormen hoe BCWS wordt berekend, zie de sectie [&#x200B; vormen hoe BCWS &#x200B;](#configure-how-bcws-is-calculated) in dit artikel wordt berekend.
 
 * Workfront berekent BCWS voor een project door alle waarden BCWS van alle oudertaken en individuele taken op het project toe te voegen.
 
@@ -66,7 +66,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -77,7 +77,7 @@ U kunt vormen of BCWS in uren of kosten wordt berekend door te vormen hoe de Met
 1. Ga naar een project en klik **Details van het Project** in het linkerpaneel.
 1. Op het **gebied van de Financiën**, bepaal de plaats van het **gebied van de Methode van de Index van Prestaties** en klik het tweemaal om het uit te geven.
 
-   ![ PIM opties ](assets/pim-options-hour-cost-based-nwe.png)
+   ![&#x200B; PIM opties &#x200B;](assets/pim-options-hour-cost-based-nwe.png)
 
 1. Selecteer een van de volgende opties:
 
@@ -126,7 +126,7 @@ U kunt de waarde van de Geplande Kosten van het Werk bekijken die in een rapport
 1. Klik **toevoegen Kolom**.
 1. In **toon in deze kolom:** gebiedsbegin typend **BCWS** en klik om het te selecteren wanneer het in de lijst toont.
 
-   ![ BCWS in projectweergave ](assets/bcws-in-project-view.png)
+   ![&#x200B; BCWS in projectweergave &#x200B;](assets/bcws-in-project-view.png)
 
 1. Klik **sparen Mening**.
 1. Het **BCWS** gebiedsvertoningen in de mening.

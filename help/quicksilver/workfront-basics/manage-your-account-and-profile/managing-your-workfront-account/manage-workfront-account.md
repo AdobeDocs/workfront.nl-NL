@@ -23,5 +23,5 @@ Deze sectie bevat de volgende artikelen:
 * [Afmelden bij  [!DNL Adobe Workfront]](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-out-of-workfront.md)
 * [Ontvang e-mailuitnodigingen en maak een wachtwoord voor  [!DNL Adobe Workfront]](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/receive-email-invitations.md)
 * [Creeer een rekening in  [!DNL Adobe Workfront]  als externe gebruiker](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/create-account-external-user.md)
-* [ terugstellen uw wachtwoord ](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/reset-your-password.md)
+* [&#x200B; terugstellen uw wachtwoord &#x200B;](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/reset-your-password.md)
   <!--* [Reset a user's password with Enhanced Authentication](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/reset-user-password-eauth.md)-->

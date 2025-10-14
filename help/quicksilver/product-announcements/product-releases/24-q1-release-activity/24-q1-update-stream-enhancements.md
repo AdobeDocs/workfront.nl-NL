@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Deze pagina beschrijft alle updatestroom en berichtverhogingen die met Eerste Kwartaal 2024 versie aan het milieu van de Voorproef worden aangebracht. Deze verbeteringen worden beschikbaar gesteld in de productieomgeving met de release Eerste kwartaal 2024.
 
-Voor een lijst van alle veranderingen beschikbaar op dit punt in het Eerste Kwartaal 2024 versiecyclus, zie [ Eerste Kwartaal 2024 releaseoverzicht ](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar op dit punt in het Eerste Kwartaal 2024 versiecyclus, zie [&#x200B; Eerste Kwartaal 2024 releaseoverzicht &#x200B;](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).
 
 ## Afbeelding slepen en neerzetten in een opmerking in de sectie Updates
 
@@ -26,7 +26,7 @@ U kunt afbeeldingen die alleen in de volgende indelingen op uw computer worden o
 
 Deze functionaliteit bestond al in de oudere opmerkingstroom en is nu toegevoegd aan de nieuwe opmerkingervaring.
 
-Voor meer informatie, zie [ het werk van de Update ](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+Voor meer informatie, zie [&#x200B; het werk van de Update &#x200B;](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 ## De nieuwe opmerkingervaring legt alle informatie vast voor projecten, taken, problemen en documenten
 
@@ -38,9 +38,9 @@ Als u snel informatie wilt zoeken in de sectie Updates van een object, kunt u nu
 
 De opmerkingen die relevant zijn voor uw zoekopdracht worden gefilterd en de trefwoorden worden gemarkeerd, zodat u ze gemakkelijk kunt vinden.
 
-Voor meer informatie, zie [ het werk van de Update ](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+Voor meer informatie, zie [&#x200B; het werk van de Update &#x200B;](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-[ Bekijk een videodemonstratie van deze eigenschap.](https://video.tv.adobe.com/v/3425730/){target=_blank}
+[&#x200B; Bekijk een videodemonstratie van deze eigenschap.](https://video.tv.adobe.com/v/3425730/){target=_blank}
 
 ## Een afbeelding kopiëren en plakken in een opmerking in de sectie Updates
 
@@ -48,6 +48,6 @@ Om context aan de inhoud van een bericht te verstrekken, kunt u beelden aan uw c
 
 De volgende bestandsindelingen worden ondersteund: .jpg, .jpeg, .png, .gif.
 
-Voor meer informatie, zie [ het werk van de Update ](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+Voor meer informatie, zie [&#x200B; het werk van de Update &#x200B;](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-[ Bekijk een videodemonstratie van deze eigenschap.](https://video.tv.adobe.com/v/3425731/){target=_blank}
+[&#x200B; Bekijk een videodemonstratie van deze eigenschap.](https://video.tv.adobe.com/v/3425731/){target=_blank}

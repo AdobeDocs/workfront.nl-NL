@@ -18,7 +18,7 @@ ht-degree: 0%
 
 <!-- Audited: 2/2024 -->
 
-U kunt voorwaarde-operatoren of wijzigingstoetsen gebruiken bij het samenstellen van berekende aangepaste gegevens in Adobe Workfront wanneer u de tekstmodus gebruikt. Voor informatie over het gebruiken van tekstwijze in Workfront, zie [ Overzicht van de Wijze van de Tekst ](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
+U kunt voorwaarde-operatoren of wijzigingstoetsen gebruiken bij het samenstellen van berekende aangepaste gegevens in Adobe Workfront wanneer u de tekstmodus gebruikt. Voor informatie over het gebruiken van tekstwijze in Workfront, zie [&#x200B; Overzicht van de Wijze van de Tekst &#x200B;](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
 
 Met Condition-operatoren of modifiers kunt u een voorwaardeninstructie maken door bestaande Workfront-velden in instructies te verbinden en een nieuw veld te genereren. Voorwaarde-operatoren worden vooral gebruikt om de voorwaarde van een &quot;IF&quot;-instructie op te bouwen.
 
@@ -31,15 +31,15 @@ U kunt &quot;IF&quot;-instructies maken voor de volgende Workfront-elementen:
 * Berekende aangepaste velden
 * Bedrijfsvoorschriften
 
-Voor meer informatie over de bouw van &quot;IF&quot;verklaringen, zie [ &quot;IF&quot;verklaringen overzicht ](../../../reports-and-dashboards/reports/calc-cstm-data-reports/if-statements-overview.md).
+Voor meer informatie over de bouw van &quot;IF&quot;verklaringen, zie [&#x200B; &quot;IF&quot;verklaringen overzicht &#x200B;](../../../reports-and-dashboards/reports/calc-cstm-data-reports/if-statements-overview.md).
 
 De voorbeelden in deze handleiding illustreren het gebruik van voorwaardelijke operatoren in berekende aangepaste velden. U kunt ze ook gebruiken in berekende aangepaste kolommen of groepen wanneer u de juiste syntaxis volgt voor berekende aangepaste velden in rapporten.
 
-Voor informatie over het verschil in syntaxis tussen de berekende douanegebieden en berekende douanegegevens in rapporten, zie [ Berekende douanegebieden vs. berekende kolommen ](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-fields-calculated-columns.md).
+Voor informatie over het verschil in syntaxis tussen de berekende douanegebieden en berekende douanegegevens in rapporten, zie [&#x200B; Berekende douanegebieden vs. berekende kolommen &#x200B;](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-fields-calculated-columns.md).
 
-Voor informatie over bedrijfsregels, zie [ bedrijfsregels ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md) creëren en uitgeven.
+Voor informatie over bedrijfsregels, zie [&#x200B; bedrijfsregels &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md) creëren en uitgeven.
 
-Raadpleeg de API Explorer om de velden te zoeken waarnaar u wilt verwijzen in de berekende aangepaste expressies. Voor informatie over de API Ontdekkingsreiziger, zie [ API Ontdekkingsreiziger ](../../../wf-api/general/api-explorer.md).
+Raadpleeg de API Explorer om de velden te zoeken waarnaar u wilt verwijzen in de berekende aangepaste expressies. Voor informatie over de API Ontdekkingsreiziger, zie [&#x200B; API Ontdekkingsreiziger &#x200B;](../../../wf-api/general/api-explorer.md).
 
 In Workfront kunt u de volgende voorwaardelijke modifiers gebruiken:
 

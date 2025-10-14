@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Deze pagina bevat een beschrijving van de verbeteringen die zijn aangebracht met de release Vierde kwartaal 2024 voor de voorvertoningsomgeving. Deze verbeteringen zullen beschikbaar worden gesteld in de productieomgeving, zoals vermeld.
 
-Voor een lijst van alle veranderingen beschikbaar op dit punt in het Vierde Kwartaal 2024 versiecyclus, zie [ Vierde Kwartaal 2024 releaseoverzicht ](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar op dit punt in het Vierde Kwartaal 2024 versiecyclus, zie [&#x200B; Vierde Kwartaal 2024 releaseoverzicht &#x200B;](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md).
 
 ## Geef met één klik een overzicht van projecten of updates
 
@@ -30,7 +30,7 @@ Eerder konden gebruikers AI Assistant openen en een vraag typen om een overzicht
 
 Uw Workfront-beheerder kan AI Assistant voor uw organisatie in- of uitschakelen. De AI-assistent is beschikbaar voor instanties met de plannen Selecteren, Primair en Ultimate.
 
-Voor meer informatie, zie [ samenvatten gebruikend AI Medewerker ](/help/quicksilver/workfront-basics/ai-assistant/summarize-this.md).
+Voor meer informatie, zie [&#x200B; samenvatten gebruikend AI Medewerker &#x200B;](/help/quicksilver/workfront-basics/ai-assistant/summarize-this.md).
 
 ## Adobe AI Assistant beschikbaar in Workfront
 
@@ -46,4 +46,4 @@ Om het voor u gemakkelijker te maken om uw werk te voltooien, hebben wij de Mede
 
 Uw Workfront-beheerder kan AI Assistant voor uw organisatie in- of uitschakelen. De AI-assistent is beschikbaar voor instanties met de plannen Selecteren, Primair en Ultimate.
 
-Voor meer informatie over AI Medewerker in Workfront, zie [ AI Medewerker: artikelindex ](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant.md).
+Voor meer informatie over AI Medewerker in Workfront, zie [&#x200B; AI Medewerker: artikelindex &#x200B;](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant.md).

@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Deze pagina beschrijft alle rapport en dashboardverhogingen die met Eerste Kwartaal 2025 versie aan het milieu van de Voorproef worden gemaakt. Deze verbeteringen zullen beschikbaar worden gesteld in de productieomgeving, zoals vermeld.
 
-Voor een lijst van alle veranderingen beschikbaar op dit punt in Eerste Kwartaal 2025 versiecyclus, zie [ Eerste Kwartaal 2025 versieoverzicht ](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar op dit punt in Eerste Kwartaal 2025 versiecyclus, zie [&#x200B; Eerste Kwartaal 2025 versieoverzicht &#x200B;](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md).
 
 ## Nieuwe entiteiten beschikbaar in Data Connect
 
@@ -41,7 +41,7 @@ We hebben ook steun toegevoegd aan de volgende agentschappen:
 * Niet-arbeidsuitrustingscategorie
 * Locatie gebruiker
 
-Voor meer informatie, zie [ Gegevens van Workfront verbinden gegevenswoordenboek ](/help/quicksilver/reports-and-dashboards/data-lake/data-dictionary.md).
+Voor meer informatie, zie [&#x200B; Gegevens van Workfront verbinden gegevenswoordenboek &#x200B;](/help/quicksilver/reports-and-dashboards/data-lake/data-dictionary.md).
 
 ## Maximaal 25 rapporten, externe pagina&#39;s of kalenders in dashboards
 
@@ -53,7 +53,7 @@ Om de prestaties van het dashboard te handhaven, hebben wij een grens aan het to
 
 Bestaande dashboards die deze limiet overschrijden, geven een waarschuwing dat alleen de bovenste 25 items worden weergegeven en nadat ze zijn bewerkt, kan het dashboard pas worden opgeslagen als het aantal opgenomen items is teruggebracht tot 25 of minder.
 
-Voor meer informatie, zie [ een dashboard ](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md) creëren.
+Voor meer informatie, zie [&#x200B; een dashboard &#x200B;](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md) creëren.
 
 ## Eerste knop voor het maken van een reader-account voor Data Connect
 
@@ -63,4 +63,4 @@ Voor meer informatie, zie [ een dashboard ](/help/quicksilver/reports-and-dashbo
 
 Beheerders die voor het eerst toegang krijgen tot Data Connect, krijgen nu de optie om een nieuwe Snowflake-lezeraccount te maken door op één knop te klikken. Het proces duurt een paar minuten om te voltooien, maar vereist geen verdere actie.
 
-Voor meer informatie over Gegevens verbindt opstelling, zie [ een lezersrekening voor Snowflake ](/help/quicksilver/reports-and-dashboards/data-lake/create-a-reader-account.md) creëren.
+Voor meer informatie over Gegevens verbindt opstelling, zie [&#x200B; een lezersrekening voor Snowflake &#x200B;](/help/quicksilver/reports-and-dashboards/data-lake/create-a-reader-account.md) creëren.

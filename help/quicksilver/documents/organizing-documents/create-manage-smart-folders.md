@@ -52,7 +52,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 U kunt mappen weergeven in miniaturen, standaard- of lijstweergave. Als u de weergave wilt wijzigen, gebruikt u de weergaveopties in de rechterbovenhoek.
 
-![ geef Slimme Omslag ](assets/screenshot-2016-07-07-12.46.54.png) uit
+![&#x200B; geef Slimme Omslag &#x200B;](assets/screenshot-2016-07-07-12.46.54.png) uit
 
 ## Een slimme map maken 
 
@@ -68,7 +68,7 @@ U kunt mappen weergeven in miniaturen, standaard- of lijstweergave. Als u de wee
 ## Een slimme map bewerken 
 
 1. Ga naar het **gebied van Documenten** dat de slimme omslag bevat die u wilt uitgeven.
-1. In de **Mappen** kolom, klik het **Meer** pictogram ![ Meer menu ](assets/more-icon.png) naast de slimme omslag die u wilt uitgeven.
+1. In de **Mappen** kolom, klik het **Meer** pictogram ![&#x200B; Meer menu &#x200B;](assets/more-icon.png) naast de slimme omslag die u wilt uitgeven.
 1. Klik **uitgeven**.
 
 1. Breng uw veranderingen aan, dan klik **sparen Omslag**.

@@ -16,11 +16,11 @@ ht-degree: 0%
 
 # Overzicht van proefrollen
 
-Met proefdrukrollen kunt u machtigingen verlenen voor afzonderlijke proefdrukken. Proefrollen verschillen van machtigingsprofielen voor proefdrukken. Voor meer informatie over de Profielen van de Toestemming van het Bewijs, zie [ overzicht van het Profiel van de Toestemming van het Bewijs ](../../../review-and-approve-work/proofing/proofing-overview/permission-profiles.md).
+Met proefdrukrollen kunt u machtigingen verlenen voor afzonderlijke proefdrukken. Proefrollen verschillen van machtigingsprofielen voor proefdrukken. Voor meer informatie over de Profielen van de Toestemming van het Bewijs, zie [&#x200B; overzicht van het Profiel van de Toestemming van het Bewijs &#x200B;](../../../review-and-approve-work/proofing/proofing-overview/permission-profiles.md).
 
 ## Proefrollen
 
-De gebruikers krijgen op het moment dat de gebruiker wordt verzocht de proefdruk te beoordelen, een proefrol voor een afzonderlijke proefdruk. Als u een Workfront Pro+ plan hebt, kunt u het proefdrukken rollen aan gebruikers met een het Werk of vergunning van het Plan verlenen. Als u een Workfront Premium Legacy-plan hebt, kunt u testrollen toekennen aan gebruikers met een toegewezen concepttestlicentie. Voor meer informatie, zie [ Toegang tot het proef functionaliteit in Workfront ](../../../administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md).
+De gebruikers krijgen op het moment dat de gebruiker wordt verzocht de proefdruk te beoordelen, een proefrol voor een afzonderlijke proefdruk. Als u een Workfront Pro+ plan hebt, kunt u het proefdrukken rollen aan gebruikers met een het Werk of vergunning van het Plan verlenen. Als u een Workfront Premium Legacy-plan hebt, kunt u testrollen toekennen aan gebruikers met een toegewezen concepttestlicentie. Voor meer informatie, zie [&#x200B; Toegang tot het proef functionaliteit in Workfront &#x200B;](../../../administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md).
 
 De proefdrukrol bepaalt welke acties een recensent met betrekking tot die specifieke proef kan ondernemen.
 

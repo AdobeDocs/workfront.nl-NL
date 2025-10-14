@@ -28,7 +28,7 @@ Nadat u een bestaand project als malplaatje opslaat, kunt u het nieuwe malplaatj
 >
 >Wanneer het bewaren van een project als malplaatje, slaan de daadwerkelijke data van de taken en van het project niet voor het malplaatje op.
 >
->Een malplaatje en zijn taken hebben geen daadwerkelijke data, maar eerder een aanwijzing van welke dag (van wanneer het toekomstige project zou kunnen beginnen) een taak zou kunnen beginnen en op welke dag de taak zou kunnen moeten voltooien. Wanneer het gebruiken van malplaatjes om de toekomstige projecten tot stand te brengen, zullen de projecten daadwerkelijke data ontvangen. Voor informatie, zie [ een project ](../create-projects/create-project.md) creëren.
+>Een malplaatje en zijn taken hebben geen daadwerkelijke data, maar eerder een aanwijzing van welke dag (van wanneer het toekomstige project zou kunnen beginnen) een taak zou kunnen beginnen en op welke dag de taak zou kunnen moeten voltooien. Wanneer het gebruiken van malplaatjes om de toekomstige projecten tot stand te brengen, zullen de projecten daadwerkelijke data ontvangen. Voor informatie, zie [&#x200B; een project &#x200B;](../create-projects/create-project.md) creëren.
 
 ## Toegangsvereisten
 
@@ -62,7 +62,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 ## Sjabloon maken van project
 
 1. Ga naar het project dat u als malplaatje wilt bewaren.
-1. Klik **Meer** menu ![ Meer pictogram ](assets/qs-more-icon-on-an-object.png), dan **sparen als Malplaatje**.
+1. Klik **Meer** menu ![&#x200B; Meer pictogram &#x200B;](assets/qs-more-icon-on-an-object.png), dan **sparen als Malplaatje**.
 1. Geef de volgende informatie voor de sjabloon op:
 
    <table style="table-layout:auto"> 
@@ -92,19 +92,19 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
     </tbody> 
    </table>
 
-1. Klik **leiden Forms** om de vormen te verwijderen of opnieuw in orde te brengen. Voor informatie over hoe te om douaneformulieren op het malplaatje te verwijderen en opnieuw in orde te brengen, zie [ de vormen van de Douane ](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md).
+1. Klik **leiden Forms** om de vormen te verwijderen of opnieuw in orde te brengen. Voor informatie over hoe te om douaneformulieren op het malplaatje te verwijderen en opnieuw in orde te brengen, zie [&#x200B; de vormen van de Douane &#x200B;](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md).
 
-   ![ sparen als malplaatje eerste stap ](assets/save-as-template-first-step-350x159.png)
+   ![&#x200B; sparen als malplaatje eerste stap &#x200B;](assets/save-as-template-first-step-350x159.png)
 
 1. Klik **Volgende Stap.**
 1. In de **sectie van Opties**, selecteer checkbox naast om het even welke informatie u van het malplaatje wilt ontruimen.
 
-   ![ sparen als malplaatjeopties ](assets/save-as-template-options-step-350x109.png)
+   ![&#x200B; sparen als malplaatjeopties &#x200B;](assets/save-as-template-options-step-350x109.png)
 
 1. Klik **Volgende Stap.**
 1. In de **uitsluiten** sectie, selecteer om het even welke taken die u van het project wilt uitsluiten.
 
-   ![ sparen als malplaatje sluit uit ](assets/save-as-template-exclude-350x205.png)
+   ![&#x200B; sparen als malplaatje sluit uit &#x200B;](assets/save-as-template-exclude-350x205.png)
 
 1. Klik **Einde en sparen Malplaatje.**
 

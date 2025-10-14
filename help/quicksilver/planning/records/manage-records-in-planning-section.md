@@ -20,7 +20,7 @@ ht-degree: 0%
 
 <span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>
 
-<span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken.</span>
+<span class="preview"> voor informatie over snelle versies, zie [&#x200B; snelle versies voor uw organisatie &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken.</span>
 
 {{planning-important-intro}}
 
@@ -100,7 +100,7 @@ U kunt Workfront Planning-records in Workfront weergeven in de volgende gebieden
  </tbody>
 </table>
 
-*Voor meer informatie over de toegangsvereisten van Workfront, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Voor meer informatie over de toegangsvereisten van Workfront, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -129,7 +129,7 @@ Overweeg het volgende wanneer u de verslagen van de Planning van Workfront van d
 * U kunt de sectie Planning weergeven vanuit een Workfront-object, zelfs als er geen records zijn gekoppeld aan het Workfront-object.
 * <span class="preview"> het verslagtype van A toont slechts op het Gebied van de Planning van een voorwerp van Workfront wanneer u creeert het corresponderende gebied op het verbonden verslagtype dat wanneer het creëren van de verbinding tussen twee verslagtypes plaatst.</span>
 
-  Voor informatie, zie [ verbind verslagtypes ](/help/quicksilver/planning/architecture/connect-record-types.md).
+  Voor informatie, zie [&#x200B; verbind verslagtypes &#x200B;](/help/quicksilver/planning/architecture/connect-record-types.md).
 
 ### Recordverbindingen beheren vanuit de sectie Planning
 
@@ -140,7 +140,7 @@ Overweeg het volgende wanneer u de verslagen van de Planning van Workfront van d
    De werkruimte wordt geopend en de recordtypen worden als kaarten weergegeven.
 
 1. Klik op de kaart van een recordtype die is verbonden met een Workfront-project, -portfolio of -programma.
-1. Ga naar een verbonden verslaggebied dat een verbinding met een voorwerp van Workfront heeft, of in de lijstmening of van de detailspagina van een verslag. Voor informatie, zie [ verbindt verslagen ](/help/quicksilver/planning/records/connect-records.md).
+1. Ga naar een verbonden verslaggebied dat een verbinding met een voorwerp van Workfront heeft, of in de lijstmening of van de detailspagina van een verslag. Voor informatie, zie [&#x200B; verbindt verslagen &#x200B;](/help/quicksilver/planning/records/connect-records.md).
 1. Klik op de naam van een Workfront-object in het verbonden recordveld.
 De objectpagina wordt geopend in Workfront.
 
@@ -162,12 +162,12 @@ De objectpagina wordt geopend in Workfront.
       * De naam van het verbonden verslaggebied zoals het in de Planning van Workfront toont.
    * Records worden weergegeven in hun respectieve werkruimte en recordtype.
 
-   ![ de sectie van de Planning op project ](assets/planning-section-on-project.png)
+   ![&#x200B; de sectie van de Planning op project &#x200B;](assets/planning-section-on-project.png)
 
 1. (Facultatief) klik **tonen alle verbindingen** om alle verbonden verslagtypes, met inbegrip van degenen zonder verbonden verslagen te tonen. Standaard worden recordtypen zonder verbonden records niet weergegeven.
 1. Klik op een opnamekaart voor meer informatie over de record. Het voorvertoningsvak voor records wordt weergegeven.
 1. (Optioneel) Wijzig de velden in het voorvertoningsvak van de record. Uw wijzigingen worden automatisch opgeslagen.
-1. (Facultatief) klik **Open in een nieuw lusje** pictogram ![ Open details in een nieuw lusjepictogram ](assets/open-details-in-a-new-tab-icon.png) in de hoger-juiste hoek van de voorproefdoos om de de detailspagina van het verslag te openen. De detailpagina van het verslag opent in de Planning van Workfront.
+1. (Facultatief) klik **Open in een nieuw lusje** pictogram ![&#x200B; Open details in een nieuw lusjepictogram &#x200B;](assets/open-details-in-a-new-tab-icon.png) in de hoger-juiste hoek van de voorproefdoos om de de detailspagina van het verslag te openen. De detailpagina van het verslag opent in de Planning van Workfront.
 1. (Optioneel) Houd de muisaanwijzer boven een opnamekaart en klik op het pictogram voor het verbreken van de verbinding **-** en klik vervolgens op **Verbinding verbreken** .
 De volgende dingen doen zich voor:
    * De record is niet meer verbonden met het Workfront-object.
@@ -175,8 +175,8 @@ De volgende dingen doen zich voor:
    * De waarden voor de opzoekvelden van Workfront die zijn verbonden met de planningsrecord, worden ook verwijderd.
 1. Klik **verbinden** om meer verslagen voor de verbonden verslagtypes te verbinden.
 
-   Voor meer informatie, zie [ verbindt verslagen ](/help/quicksilver/planning/records/connect-records.md).
-1. (Optioneel) Als u een record niet kunt vinden om verbinding te maken en u wilt deze toevoegen, klikt u op **+ Toevoegen** om een nieuwe record toe te voegen. Voor meer informatie, zie de sectie &quot;verslagen tot stand brengen aangezien u hen van andere verslagen&quot;in het artikel [ verbindt tot verslagen ](/help/quicksilver/planning/records/create-records.md).
+   Voor meer informatie, zie [&#x200B; verbindt verslagen &#x200B;](/help/quicksilver/planning/records/connect-records.md).
+1. (Optioneel) Als u een record niet kunt vinden om verbinding te maken en u wilt deze toevoegen, klikt u op **+ Toevoegen** om een nieuwe record toe te voegen. Voor meer informatie, zie de sectie &quot;verslagen tot stand brengen aangezien u hen van andere verslagen&quot;in het artikel [&#x200B; verbindt tot verslagen &#x200B;](/help/quicksilver/planning/records/create-records.md).
 
    De volgende dingen doen zich voor:
 
@@ -198,7 +198,7 @@ U kunt controleren welke de verslagtypes van Planning voor het voorwerp van Work
    * Groep
    * Bedrijf
 
-Voor meer informatie, zie [ een vorm ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren.
+Voor meer informatie, zie [&#x200B; een vorm &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren.
 
 ### Overwegingen over het type van het de verbindingsgebied van de Planning
 
@@ -206,20 +206,20 @@ Overweeg het volgende wanneer u de verslagen van de Planning van Workfront van e
 
 * Een de verbindingsgebied van de Planning toont op de volgende manieren op de douanevorm van een voorwerp van Workfront, nadat de verslagen van de Planning met het voorwerp van Workfront worden verbonden:
 
-   * Als alleen het primaire veld van de verbonden record is geselecteerd, wordt het veld voor de planningsverbinding weergegeven als een veld met meerdere waarden, als de verbinding toestaat dat meerdere records worden gekoppeld. Voor informatie, zie [ verbind verslagtypes overzicht ](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
+   * Als alleen het primaire veld van de verbonden record is geselecteerd, wordt het veld voor de planningsverbinding weergegeven als een veld met meerdere waarden, als de verbinding toestaat dat meerdere records worden gekoppeld. Voor informatie, zie [&#x200B; verbind verslagtypes overzicht &#x200B;](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
    * Als uw Workfront of groepsbeheerder extra opzoekvelden heeft toegevoegd van de verbonden record op het aangepaste formulier, wordt het veld voor de planningsverbinding weergegeven als een tabel. U kunt maximaal 7 velden selecteren voor het verbindingsveld Planning. De tabelweergave is alleen-lezen.
 
 * U kunt slechts één verslagtype met één de verbindingsgebied van de Planning associëren. Er geldt geen limiet voor het aantal planningsverbindingsvelden dat u op een formulier hebt.
 * U moet de correcte toegang en de toestemmingen aan het voorwerp, het verslag, en de Planning van Workfront hebben om een douaneformulier met een de verbindingsdouanegebied van de Planning aan een voorwerp van Workfront vast te maken.
 * U moet Contribute-machtigingen hebben voor een werkruimte in Workfront Planning om verbinding te kunnen maken met records in het veld voor planningsverbinding van een Workfront-object of om de verbinding met records te verbreken.
-* Workfront Planning-recordtypen moeten eerst worden verbonden met Workfront-objecttypen. Voor informatie, zie [ Connect verslagtypes ](/help/quicksilver/planning/architecture/connect-record-types.md).Dit maakt de verslagen van de Planning van Workfront toegankelijk van Workfront.
+* Workfront Planning-recordtypen moeten eerst worden verbonden met Workfront-objecttypen. Voor informatie, zie [&#x200B; Connect verslagtypes &#x200B;](/help/quicksilver/planning/architecture/connect-record-types.md).Dit maakt de verslagen van de Planning van Workfront toegankelijk van Workfront.
 * U kunt records van het verbindingsveld Planning van een Workfront-object alleen verbinden of verbreken voor objecten die Workfront-planningsverbindingen kunnen hebben.
 
   U kunt bijvoorbeeld een aangepast formulier met een veld voor een planningsverbinding aan taken koppelen, maar u kunt geen objecten voor Workfront-planning aan taken koppelen.
 * U kunt een veld voor de planningsverbinding niet bewerken als u Workfront-objecten bulksgewijs bewerkt.
 * <span class="preview"> het verslagtype van A toont slechts in een gebied van de de verbindingsdouane van de Planning van een voorwerp van Workfront wanneer u creeert het Create overeenkomstige gebied op het verbonden verslagtype dat wanneer het creëren van de verbinding tussen twee verslagtypes plaatst.</span>
 
-  Voor informatie, zie [ verbind verslagtypes ](/help/quicksilver/planning/architecture/connect-record-types.md).
+  Voor informatie, zie [&#x200B; verbind verslagtypes &#x200B;](/help/quicksilver/planning/architecture/connect-record-types.md).
 
 ### Recordverbindingen beheren vanuit het type Verbindingsveld Planning
 
@@ -241,7 +241,7 @@ Overweeg het volgende wanneer u de verslagen van de Planning van Workfront van e
 
 1. Klik in het veld om verbonden records toe te voegen en klik vervolgens op de pijl omlaag in het veld om records in de lijst te selecteren.
 
-   ![ het verbindingsgebied van de Planning op project met open verslaglijst ](assets/planning-connection-field-on-project-with-record-list-open.png)
+   ![&#x200B; het verbindingsgebied van de Planning op project met open verslaglijst &#x200B;](assets/planning-connection-field-on-project-with-record-list-open.png)
 
    >[!TIP]
    >
@@ -251,7 +251,7 @@ Overweeg het volgende wanneer u de verslagen van de Planning van Workfront van e
    >
    >Er is een aanwijzing dat het object van het veld en het object dat u hebt geselecteerd niet overeenkomen.
    >
-   >![ Waarschuwing niet gestaafde voorwerp die het gebied van de Verbinding van de Planning op vorm ](assets/warning-unsupported-object-planning-connection-field-on-form.png) plannen
+   >![&#x200B; Waarschuwing niet gestaafde voorwerp die het gebied van de Verbinding van de Planning op vorm &#x200B;](assets/warning-unsupported-object-planning-connection-field-on-form.png) plannen
 
 1. Klik buiten de lijst om deze te sluiten.
 
@@ -262,18 +262,18 @@ Overweeg het volgende wanneer u de verslagen van de Planning van Workfront van e
    * De waarden voor de opzoekvelden van Workfront die zijn verbonden met de planningsrecord, worden ingevuld in Workfront Planning.
    * Als uw Workfront of groepsbeheerder recordopzoekvelden heeft toegevoegd bij het maken van het aangepaste formulier, worden de opzoekvelden van de record automatisch ingevuld in een tabelweergave. De lijstmening in het de verbindingsgebied van de Planning is read-only.
 
-     ![ de verbindingsgebied van de Planning met lijst op de douaneformulier van de Details van het project ](assets/planning-connection-field-with-table-on-project-details-custom-form.png)
+     ![&#x200B; de verbindingsgebied van de Planning met lijst op de douaneformulier van de Details van het project &#x200B;](assets/planning-connection-field-with-table-on-project-details-custom-form.png)
 
      >[!NOTE]
      >
      >De lijstmening toont slechts wanneer de raadplegingsgebieden aan het gebied van de Verbindingen van de Planning op de douaneformulier zijn toegevoegd.
 
 
-1. (Facultatief) klik de naam van een verslag of houd de naam van het verslag in de lijst, dan klik het **Open verslag** pictogram ![ Open verslagpictogram op de Vorm van de Verbindingsdouane van de Planning ](assets/open-record-icon-on-planning-connection-custom-form.png) op het de verbindingsgebied van de Planning om het in de Planning van Workfront te openen.
+1. (Facultatief) klik de naam van een verslag of houd de naam van het verslag in de lijst, dan klik het **Open verslag** pictogram ![&#x200B; Open verslagpictogram op de Vorm van de Verbindingsdouane van de Planning &#x200B;](assets/open-record-icon-on-planning-connection-custom-form.png) op het de verbindingsgebied van de Planning om het in de Planning van Workfront te openen.
 Het voorvertoningsvenster voor details van de Workfront-planningsrecord wordt geopend.
-1. Herzie of geef informatie over het verslag uit, of klik **Open in een nieuw lusje** pictogram ![ Open verslag in nieuw lusje ](assets/open-details-in-a-new-tab-icon.png) om de pagina van de verslagdetails te openen.
+1. Herzie of geef informatie over het verslag uit, of klik **Open in een nieuw lusje** pictogram ![&#x200B; Open verslag in nieuw lusje &#x200B;](assets/open-details-in-a-new-tab-icon.png) om de pagina van de verslagdetails te openen.
 
-1. (Facultatief) van de douanevorm in Workfront, klik **verwijderen** pictogram ![ pictogram ](assets/remove-icon.png) op een verslag verwijderen om het uit het de verbindingsgebied van de Planning te verwijderen en het van het voorwerp van Workfront los te maken.
+1. (Facultatief) van de douanevorm in Workfront, klik **verwijderen** pictogram ![&#x200B; pictogram &#x200B;](assets/remove-icon.png) op een verslag verwijderen om het uit het de verbindingsgebied van de Planning te verwijderen en het van het voorwerp van Workfront los te maken.
 Het Workfront-object wordt losgekoppeld van de planningsrecord en alle opzoekgegevens uit Workfront worden uit de record verwijderd.
 
 1. Klik **sparen Veranderingen** om de douanevorm en om het even welke andere veranderingen te bewaren u aan het voorwerp van Workfront aanbracht.

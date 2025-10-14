@@ -47,7 +47,7 @@ De volgende datums zijn belangrijk voor het verwijderingsproces van alle op Flas
 
 De gereedschappen in de volgende secties zijn uit het Workfront-systeem verwijderd en vervangen door nieuwe oplossingen.
 
-Voor informatie over vervangingshulpmiddelen, zie [ Verouderde op Flash-gebaseerde hulpmiddelen en hun vervangingen ](#legacy-flash-based-tools-and-their-replacements) in dit artikel.
+Voor informatie over vervangingshulpmiddelen, zie [&#x200B; Verouderde op Flash-gebaseerde hulpmiddelen en hun vervangingen &#x200B;](#legacy-flash-based-tools-and-their-replacements) in dit artikel.
 
 ### Bronbeheer
 
@@ -57,7 +57,7 @@ Voor informatie over vervangingshulpmiddelen, zie [ Verouderde op Flash-gebaseer
    * Capaciteitsplanner
    * Bronschattingen
    * Bronraster\
-     Voor meer informatie, zie [ Planning van het Middel: artikelindex ](../../../resource-mgmt/resource-planning/resource-planning-overview.md).
+     Voor meer informatie, zie [&#x200B; Planning van het Middel: artikelindex &#x200B;](../../../resource-mgmt/resource-planning/resource-planning-overview.md).
 
 * Het gebied van de Schatting van het Middel van de Oudheid in het BedrijfsGeval van een project
 
@@ -88,7 +88,7 @@ De volgende rapportfuncties en rapporten zijn verwijderd:
 
    * De optie Bronraster in een gebruikersrapport
    * De optie Legacy Gantt in een project- of taakrapport\
-     Voor meer informatie, zie [ informatie van de Mening in de Grafiek van Gantt ](../../../manage-work/gantt-chart/use-the-gantt-chart/view-info-in-gantt.md).
+     Voor meer informatie, zie [&#x200B; informatie van de Mening in de Grafiek van Gantt &#x200B;](../../../manage-work/gantt-chart/use-the-gantt-chart/view-info-in-gantt.md).
 
 * Verwijderde rapporten:
 
@@ -115,7 +115,7 @@ De verouderde proefdrukviewer is vervangen door de nieuwe webproefdrukviewer en 
 
 Zie de volgende bronnen voor meer informatie:
 
-* [ proefdrukken van het Overzicht in de het Proofing van het Web Kijker ](../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/review-proofs-in-wpv.md)
+* [&#x200B; proefdrukken van het Overzicht in de het Proofing van het Web Kijker &#x200B;](../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/review-proofs-in-wpv.md)
 * [Proefdrukken bekijken in de Desktop Proofing Viewer](../../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/review-proofs-in-desktop-proofing-viewer.md)
 
   <!--

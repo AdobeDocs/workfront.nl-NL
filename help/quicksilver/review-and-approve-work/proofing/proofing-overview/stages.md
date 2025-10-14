@@ -18,11 +18,11 @@ ht-degree: 0%
 
 Proeffasen zijn tijdsegmenten waarin verschillende gebruikers een proefdruk controleren. Als de proefdruk van de ene fase naar de volgende gaat, geeft Adobe Workfront een melding aan de controleurs om hen te vertellen wanneer het tijd is om eraan te werken.
 
-![ stage_diagram.png ](assets/stages-diagram-350x63.png)
+![&#x200B; stage_diagram.png &#x200B;](assets/stages-diagram-350x63.png)
 
 Fases vinden plaats in twee verschillende situaties:
 
-* [ creeer een proef met een Geautomatiseerd werkschema ](#create-a-proof-with-an-automated-workflow)
+* [&#x200B; creeer een proef met een Geautomatiseerd werkschema &#x200B;](#create-a-proof-with-an-automated-workflow)
 * [Termijnen aan verschillende revisoren toewijzen op een proefdruk](#assign-deadlines-for-different-reviewers-on-a-proof)
 
 ## Een proefdruk maken met een geautomatiseerde workflow {#create-a-proof-with-an-automated-workflow}
@@ -35,7 +35,7 @@ Wanneer u fasen instelt voor een proefdruk met een automatische workflow:
 * U kunt bepaalde fasen zodanig configureren dat deze pas actief worden nadat een vorige fase is voltooid.
 * U kunt sommige fasen privé maken. Dit is bijvoorbeeld handig voor een instantie die een proefdruk controleert voordat deze met een klant wordt gedeeld en die de resulterende opmerkingen niet zichtbaar wil maken voor de klant.
 
-Voor instructies bij het creëren van stadia voor een proef met een geautomatiseerd werkschema, zie [ een geavanceerde proef met een Geautomatiseerd werkschema ](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-automated-proof-workflow.md) creëren.
+Voor instructies bij het creëren van stadia voor een proef met een geautomatiseerd werkschema, zie [&#x200B; een geavanceerde proef met een Geautomatiseerd werkschema &#x200B;](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-automated-proof-workflow.md) creëren.
 
 >[!NOTE]
 >
@@ -55,6 +55,6 @@ Wanneer u de controleurs verschillende proeftijdslimieten toewijst op een bewijs
 
 Het systeem maakt een werkgebied voor elk van deze drie &quot;groepen&quot; van controleurs:
 
-![ stage.png ](assets/stages-350x239.png)
+![&#x200B; stage.png &#x200B;](assets/stages-350x239.png)
 
 Als u de proefdruk deelt met een andere controleur en geen deadline opgeeft, voegt Workfront de gebruiker toe aan fase 3, waar geen deadline is. 

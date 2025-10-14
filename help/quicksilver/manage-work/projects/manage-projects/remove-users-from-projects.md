@@ -15,9 +15,9 @@ ht-degree: 0%
 
 # Gebruikers uit projecten verwijderen
 
-U kunt gebruikers uit een project verwijderen wanneer zij niet meer betrokken zijn bij de voltooiing van het werk aan het project. Het verwijderen van gebruikers uit projecten heeft implicaties op taak en probleemtaken, evenals op projectrollen. Verwijderde gebruikers houden op ontvangend berichten voorgenomen voor het Team van het Project. Voor meer informatie over berichten voor de projectteams, zie [ de berichttypes van de Gebeurtenis ](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
+U kunt gebruikers uit een project verwijderen wanneer zij niet meer betrokken zijn bij de voltooiing van het werk aan het project. Het verwijderen van gebruikers uit projecten heeft implicaties op taak en probleemtaken, evenals op projectrollen. Verwijderde gebruikers houden op ontvangend berichten voorgenomen voor het Team van het Project. Voor meer informatie over berichten voor de projectteams, zie [&#x200B; de berichttypes van de Gebeurtenis &#x200B;](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
 
-De gebruikers verbonden aan een project zijn vermeld in het gebied van Mensen van een project. Zij vertegenwoordigen het Team van het Project. Voor meer informatie over het Team van het Project, zie [ Overzicht van het Team van het Project ](../../../manage-work/projects/planning-a-project/project-team-overview.md).
+De gebruikers verbonden aan een project zijn vermeld in het gebied van Mensen van een project. Zij vertegenwoordigen het Team van het Project. Voor meer informatie over het Team van het Project, zie [&#x200B; Overzicht van het Team van het Project &#x200B;](../../../manage-work/projects/planning-a-project/project-team-overview.md).
 
 ## Toegangsvereisten
 
@@ -67,7 +67,7 @@ Wanneer de gebruikers rollen op een project vervullen, worden zij een deel van h
 
 Wanneer u gebruikers uit hun rollen op het project verwijdert, blijven zij deel van het projectteam.
 
-Voor informatie over de rollen van gebruikers op een project, zie [ het Team van het Project beheren ](../planning-a-project/manage-project-team.md).
+Voor informatie over de rollen van gebruikers op een project, zie [&#x200B; het Team van het Project beheren &#x200B;](../planning-a-project/manage-project-team.md).
 
 Om gebruikers uit het Team van het Project te verwijderen:
 
@@ -75,7 +75,7 @@ Om gebruikers uit het Team van het Project te verwijderen:
 
 1. Klik **Mensen** in het linkerpaneel, dan selecteer de gebruikers u wilt verwijderen.
 
-1. Klik **verwijderen** pictogram ![ verwijderen punt ](assets/remove-icon---x-in-circle.png) bij de bovenkant van de lijst van gebruikers.
+1. Klik **verwijderen** pictogram ![&#x200B; verwijderen punt &#x200B;](assets/remove-icon---x-in-circle.png) bij de bovenkant van de lijst van gebruikers.
 
 1. Klik **ja, verwijder Geselecteerde Gebruikers** om verwijdering te bevestigen.
 

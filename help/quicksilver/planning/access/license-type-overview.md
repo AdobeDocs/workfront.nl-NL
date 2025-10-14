@@ -27,9 +27,9 @@ Het Adobe Workfront-licentietype werkt in combinatie met uw Adobe Workfront-plan
 * Werkruimten of recordtypen weergeven, bijdragen of beheren
 * Weergaven weergeven of beheren.
 
-Voor informatie over toestemmingen aan voorwerpen in de Planning van Workfront, zie [ Overzicht van het delen van toestemmingen in de Planning van Adobe Workfront ](/help/quicksilver/planning/access/sharing-permissions-overview.md).
+Voor informatie over toestemmingen aan voorwerpen in de Planning van Workfront, zie [&#x200B; Overzicht van het delen van toestemmingen in de Planning van Adobe Workfront &#x200B;](/help/quicksilver/planning/access/sharing-permissions-overview.md).
 
-Voor informatie over toegang tot de Planning van Workfront, zie [ Adobe die toegangsoverzicht van de Planning ](/help/quicksilver/planning/access/access-overview.md) plant.
+Voor informatie over toegang tot de Planning van Workfront, zie [&#x200B; Adobe die toegangsoverzicht van de Planning &#x200B;](/help/quicksilver/planning/access/access-overview.md) plant.
 
 ## De relatie tussen Workfront-licentietypen en Workfront-planningsmachtigingen
 
@@ -52,7 +52,7 @@ Houd rekening met het volgende wanneer u werkt met bevoegdheden voor recordtypen
 | Licht of medewerker | <p>De gebruikers kunnen de werkruimten bekijken die met hen, evenals de verslagtypes, verslagen, en gebieden van die werkruimten worden gedeeld.</p> <br> <p>Gebruikers kunnen de weergaven bekijken die met hen worden gedeeld, maar ze kunnen hun eigen weergaven niet maken. </p><br> <p>Gebruikers kunnen geen werkruimten, recordtypen, records of velden maken, bewerken of verwijderen.</p> |
 
 *Workfront Planning is niet beschikbaar voor verouderde Workfront-licenties.
-Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 
 ### Licentietypen en machtigingen voor werkruimten en recordtypen
@@ -71,7 +71,7 @@ Systeembeheerders kunnen alle werkruimten in het systeem weergeven, inclusief de
 >
 >Er is een aanwijzing in het deelvak dat gebruikers geen machtigingen kunnen worden verleend om bij te dragen aan een werkruimte of een werkruimte te beheren wanneer zij een licentie op een lager niveau hebben, omdat deze machtigingsniveaus grijs worden weergegeven.
 >
->![ Bevoegdheden grayed uit voor contributorgebruiker op werkruimte ](assets/permissions-grayed-out-for-contributor-user-on-workspace.png)
+>![&#x200B; Bevoegdheden grayed uit voor contributorgebruiker op werkruimte &#x200B;](assets/permissions-grayed-out-for-contributor-user-on-workspace.png)
 
 
 ### Typen licenties en machtigingen voor weergaven
@@ -86,4 +86,4 @@ Alleen gebruikers met een standaardlicentie kunnen beheermachtigingen voor weerg
 >
 >Er is een aanwijzing in het deelvak dat gebruikers geen machtigingen kunnen worden verleend om een weergave te beheren wanneer zij een licentie op een lager niveau hebben, omdat deze machtigingsniveaus grijs worden weergegeven.
 >
->![ Bevoegdheden grayed uit voor lichte gebruiker op meningsaandeel ](assets/permissions-grayed-out-for-light-user.png)
+>![&#x200B; Bevoegdheden grayed uit voor lichte gebruiker op meningsaandeel &#x200B;](assets/permissions-grayed-out-for-light-user.png)

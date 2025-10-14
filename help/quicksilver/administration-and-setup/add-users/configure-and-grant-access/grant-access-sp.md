@@ -14,9 +14,9 @@ ht-degree: 0%
 
 # Toegang verlenen tot Scenario Planner
 
-Als beheerder van Adobe Workfront, kunt u een toegangsniveau gebruiken om de toegang van een gebruiker tot de Planner van het Scenario te bepalen, zoals verklaard in [ overzicht van de Niveaus van de Toegang ](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
+Als beheerder van Adobe Workfront, kunt u een toegangsniveau gebruiken om de toegang van een gebruiker tot de Planner van het Scenario te bepalen, zoals verklaard in [&#x200B; overzicht van de Niveaus van de Toegang &#x200B;](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
 
-Naast toegang tot Scenario Planner, moet een gebruiker met een niet-Systeem toegangsniveau van de Beheerder ook toegang tot financiële gegevens hebben om om het even welke financiële informatie te zien in een plan, zoals begrotingen, kosten, en baanroltarieven. Voor meer informatie, zie [ toegang van de Verlening tot financiële gegevens ](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
+Naast toegang tot Scenario Planner, moet een gebruiker met een niet-Systeem toegangsniveau van de Beheerder ook toegang tot financiële gegevens hebben om om het even welke financiële informatie te zien in een plan, zoals begrotingen, kosten, en baanroltarieven. Voor meer informatie, zie [&#x200B; toegang van de Verlening tot financiële gegevens &#x200B;](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
 
 ## Toegangsvereisten
 
@@ -57,26 +57,26 @@ U moet het volgende hebben:
 
 ## Vorm gebruikerstoegang tot de Planner van het Scenario gebruikend een niveau van de douanetoegang
 
-1. Beginnen creërend of het uitgeven van het toegangsniveau, zoals die in [ wordt verklaard creeer of wijzig douanetoegangsniveaus ](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+1. Beginnen creërend of het uitgeven van het toegangsniveau, zoals die in [&#x200B; wordt verklaard creeer of wijzig douanetoegangsniveaus &#x200B;](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 1. Klik de optie aan het recht van **Planner van het Scenario** die u voor dit toegangsniveau wilt gebruiken.
 
    >[!NOTE]
    >
    >Het verzoektype of het Externe vergunningstype verleent geen Mening of geeft toegang tot de Planner van het Scenario uit.
 
-1. (Facultatief) om toegangsmontages voor andere voorwerpen en gebieden in het toegangsniveau te vormen u aan werkt, ga met één van de artikelen voort die in [ worden vermeld toegang tot Adobe Workfront ](../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md), zoals [ toegang van de Verlening tot taken ](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md) en [ toegang van de Verlening tot financiële gegevens ](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
+1. (Facultatief) om toegangsmontages voor andere voorwerpen en gebieden in het toegangsniveau te vormen u aan werkt, ga met één van de artikelen voort die in [&#x200B; worden vermeld toegang tot Adobe Workfront &#x200B;](../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md), zoals [&#x200B; toegang van de Verlening tot taken &#x200B;](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md) en [&#x200B; toegang van de Verlening tot financiële gegevens &#x200B;](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
 1. Wanneer u wordt gebeëindigd, klik **sparen**.
 
 ## Toegang tot de functie Scenario Planner per licentietype
 
-Voor informatie over welke gebruikers in elk toegangsniveau met de Planner van het Scenario kunnen doen, zie het sectie [ gebied van de Planner van het Scenario ](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md#scenario) in de artikel [ Functionaliteit beschikbaar voor elk objecten type ](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md).
+Voor informatie over welke gebruikers in elk toegangsniveau met de Planner van het Scenario kunnen doen, zie het sectie [&#x200B; gebied van de Planner van het Scenario &#x200B;](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md#scenario) in de artikel [&#x200B; Functionaliteit beschikbaar voor elk objecten type &#x200B;](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md).
 
 ## Toegang tot Scenario Planner via toegangsniveau instellen
 
 De volgende informatie kan u helpen begrijpen hoe te om de het niveaumontages van de Toegang te gebruiken om de toegang van gebruikers tot informatie in de Planner van het Scenario van Workfront te controleren.
 
-* [ Geen toegang ](#no-access)
-* [ toegang van de Mening ](#view-access)
+* [&#x200B; Geen toegang &#x200B;](#no-access)
+* [&#x200B; toegang van de Mening &#x200B;](#view-access)
 * [Toegang bewerken](#edit-access)
 
 ### Geen toegang {#no-access}
@@ -92,7 +92,7 @@ De gebruikers met de toegang van de Mening tot de Planner van het Scenario kunne
 
   Dit omvat alle informatie over de rol van de baan in het plan.
 
-  Het omvat ook baanroltarieven en kosteninformatie over het plan als de ontvangende gebruiker ook toegang tot financiële gegevens heeft. Voor meer informatie, zie [ toegang van de Verlening tot financiële gegevens ](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
+  Het omvat ook baanroltarieven en kosteninformatie over het plan als de ontvangende gebruiker ook toegang tot financiële gegevens heeft. Voor meer informatie, zie [&#x200B; toegang van de Verlening tot financiële gegevens &#x200B;](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
 
 ### Toegang bewerken {#edit-access}
 
@@ -105,4 +105,4 @@ Gebruikers met toegang tot Scenario-planner bewerken kunnen het volgende doen:
 
   Dit omvat alle informatie over de rol van de baan in een plan.
 
-  Het omvat ook baanroltarieven en kosteninformatie over het plan als de ontvankelijke gebruiker toegang tot financiële gegevens heeft. Voor meer informatie, zie [ toegang van de Verlening tot financiële gegevens ](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
+  Het omvat ook baanroltarieven en kosteninformatie over het plan als de ontvankelijke gebruiker toegang tot financiële gegevens heeft. Voor meer informatie, zie [&#x200B; toegang van de Verlening tot financiële gegevens &#x200B;](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).

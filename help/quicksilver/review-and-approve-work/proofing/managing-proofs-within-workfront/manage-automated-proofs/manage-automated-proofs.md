@@ -17,9 +17,9 @@ ht-degree: 0%
 
 # Geautomatiseerde proefdrukken beheren: artikelindex
 
-* [ de stadia van het Werkschema van de Mening Geautomatiseerde op een proef ](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/view-aw-stages-proof.md)
-* [ actieve stadia van de Mening op een proef ](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/view-active-stages-proof.md)
-* [ creeer of geef een Geautomatiseerd Werkschema voor een bestaand bewijs ](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/create-edit-automated-workflow-existing-proof.md) uit
-* [ geef proefdrukstadia en recensenten uit ](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/edit-proof-stages-and-reviewers.md)
-* [ zet een basiswerkschema in een Geautomatiseerd Werkschema op een proef ](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/convert-basic-automatic-workflow.md) om
+* [&#x200B; de stadia van het Werkschema van de Mening Geautomatiseerde op een proef &#x200B;](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/view-aw-stages-proof.md)
+* [&#x200B; actieve stadia van de Mening op een proef &#x200B;](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/view-active-stages-proof.md)
+* [&#x200B; creeer of geef een Geautomatiseerd Werkschema voor een bestaand bewijs &#x200B;](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/create-edit-automated-workflow-existing-proof.md) uit
+* [&#x200B; geef proefdrukstadia en recensenten uit &#x200B;](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/edit-proof-stages-and-reviewers.md)
+* [&#x200B; zet een basiswerkschema in een Geautomatiseerd Werkschema op een proef &#x200B;](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/convert-basic-automatic-workflow.md) om
 * [Voeg stadia en gebruikers aan een Geautomatiseerde Werkstroom op een proef toe](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/add-stages-users-to-automated-workflow-proof.md)

@@ -61,17 +61,17 @@ Een bewijs vergrendelen:
 
    of
 
-   Als u een proef voor een vroegere versie van het document wilt openen, klik het Meer pictogram ![ Meer pictogram ](assets/more-icon.png) voor die versie in de Samenvatting, dan klik **Open proef**.
+   Als u een proef voor een vroegere versie van het document wilt openen, klik het Meer pictogram ![&#x200B; Meer pictogram &#x200B;](assets/more-icon.png) voor die versie in de Samenvatting, dan klik **Open proef**.
 
-   Voor informatie over de Samenvatting, zie [ Samenvatting voor documentoverzicht ](../../../../documents/managing-documents/summary-for-documents.md).
+   Voor informatie over de Samenvatting, zie [&#x200B; Samenvatting voor documentoverzicht &#x200B;](../../../../documents/managing-documents/summary-for-documents.md).
 
-1. In in het linkerpaneel, klik het **pictogram van het Slot ![ ](assets/unlock-proof-icon.png).**
+1. In in het linkerpaneel, klik het **pictogram van het Slot ![&#x200B; &#x200B;](assets/unlock-proof-icon.png).**
 
-   ![ Bewijs van het Slot ](assets/lock-proof-350x277.png)
+   ![&#x200B; Bewijs van het Slot &#x200B;](assets/lock-proof-350x277.png)
 
 ## Een proefdruk ontgrendelen
 
-Het ontgrendelen van een proefdruk is handig als u revisoren opmerkingen wilt toevoegen aan een vorige versie van een proefdruk. (Een vorige versie is altijd vergrendeld totdat de eigenaar van de proefdruk deze handmatig ontgrendelt.) Wanneer de revisoren hun opmerkingen aan de vorige versie hebben toegevoegd, kunt u deze opnieuw vergrendelen. Voor informatie over het bekijken van een vorige versie van een proef, zie [ de vorige proefdrukversies van de Mening in de Kijker van het Web het Proofing ](../../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/view-previous-proof-versions.md).
+Het ontgrendelen van een proefdruk is handig als u revisoren opmerkingen wilt toevoegen aan een vorige versie van een proefdruk. (Een vorige versie is altijd vergrendeld totdat de eigenaar van de proefdruk deze handmatig ontgrendelt.) Wanneer de revisoren hun opmerkingen aan de vorige versie hebben toegevoegd, kunt u deze opnieuw vergrendelen. Voor informatie over het bekijken van een vorige versie van een proef, zie [&#x200B; de vorige proefdrukversies van de Mening in de Kijker van het Web het Proofing &#x200B;](../../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/view-previous-proof-versions.md).
 
 Een bewijs ontgrendelen:
 
@@ -79,10 +79,10 @@ Een bewijs ontgrendelen:
 
    of
 
-   Als u een proef voor een vroegere versie van het document wilt openen, klik het Meer pictogram ![ Meer pictogram ](assets/more-icon.png) voor die versie in de Samenvatting, dan klik **Open proef**.
+   Als u een proef voor een vroegere versie van het document wilt openen, klik het Meer pictogram ![&#x200B; Meer pictogram &#x200B;](assets/more-icon.png) voor die versie in de Samenvatting, dan klik **Open proef**.
 
-   Voor informatie over de Samenvatting, zie [ Samenvatting voor documentoverzicht ](../../../../documents/managing-documents/summary-for-documents.md).
+   Voor informatie over de Samenvatting, zie [&#x200B; Samenvatting voor documentoverzicht &#x200B;](../../../../documents/managing-documents/summary-for-documents.md).
 
-1. In het linkerpaneel, klik het **pictogram van de Ontgrendeling ![ ](assets/unlock-proof-icon.png) ontgrendelen, dan klik** ja, ontgrendel **.**
+1. In het linkerpaneel, klik het **pictogram van de Ontgrendeling ![&#x200B; &#x200B;](assets/unlock-proof-icon.png) ontgrendelen, dan klik** ja, ontgrendel **.**
 
-   ![ de proefdruk van de Ontgrendeling ](assets/copy-of-unlock-proof-350x279.png)
+   ![&#x200B; de proefdruk van de Ontgrendeling &#x200B;](assets/copy-of-unlock-proof-350x279.png)

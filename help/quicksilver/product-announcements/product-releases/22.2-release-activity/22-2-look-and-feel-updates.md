@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Op deze pagina vindt u een beschrijving van kleine updates van de vormgeving van verschillende onderdelen van de Adobe Workfront-toepassing die binnen de releaseperiode van 22.2 zijn gemaakt. Deze verbeteringen worden minimaal twee weken na de release naar Preview beschikbaar gesteld in de productieomgeving.
 
-Voor een lijst van alle veranderingen beschikbaar met de versie 22.2, zie [ 22.2 Overzicht van de Versie ](../../../product-announcements/product-releases/22.2-release-activity/22-2-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar met de versie 22.2, zie [&#x200B; 22.2 Overzicht van de Versie &#x200B;](../../../product-announcements/product-releases/22.2-release-activity/22-2-release-overview.md).
 
 ## Pagina Bijgewerkte goedkeuringen
 
@@ -55,7 +55,7 @@ De werkbalken in de volgende lijsten en rapporten hebben nu een modern uiterlijk
 
 >[!NOTE]
 >
->De toolbar voor deze zelfde rapporten binnen dashboards werd ook bijgewerkt in Productie met de wekelijkse [ Update van het Onderhoud ](https://experienceleague.adobe.com/nl/docs/workfront-known-issues/releases/current-updates) op 3 Maart, 2022.
+>De toolbar voor deze zelfde rapporten binnen dashboards werd ook bijgewerkt in Productie met de wekelijkse [&#x200B; Update van het Onderhoud &#x200B;](https://experienceleague.adobe.com/nl/docs/workfront-known-issues/releases/current-updates) op 3 Maart, 2022.
 
 * Projectrapporten
 * Taakrapporten

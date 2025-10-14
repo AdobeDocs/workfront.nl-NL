@@ -31,13 +31,13 @@ We blijven verbeteringen aanbrengen in de manier waarop je Workfront-doelen gebr
 
 * Er is aanvullende informatie toegevoegd over resultaten en activiteiten in het deelvenster Details doel, zodat u duidelijk kunt zien wat het verschil is tussen de resultaten en activiteiten.
 
-  Voor informatie over het toevoegen van activiteiten aan doelstellingen, zie [ activiteiten aan doelstellingen in de Doelen van Adobe Workfront ](../../../workfront-goals/results-and-activities/add-activities-to-goals.md) toevoegen.
+  Voor informatie over het toevoegen van activiteiten aan doelstellingen, zie [&#x200B; activiteiten aan doelstellingen in de Doelen van Adobe Workfront &#x200B;](../../../workfront-goals/results-and-activities/add-activities-to-goals.md) toevoegen.
 
-  Voor informatie over het toevoegen van resultaten aan doelstellingen, zie [ activiteiten aan doelstellingen in de Doelen van Adobe Workfront ](../../../workfront-goals/results-and-activities/add-activities-to-goals.md) toevoegen.
+  Voor informatie over het toevoegen van resultaten aan doelstellingen, zie [&#x200B; activiteiten aan doelstellingen in de Doelen van Adobe Workfront &#x200B;](../../../workfront-goals/results-and-activities/add-activities-to-goals.md) toevoegen.
 
 * Informatie toegevoegd over het niet kunnen bijwerken van een vorig doel in het deelvenster Algemene details.
 
-  Voor informatie over het uitgeven van doelstellingen, zie [ doelstellingen in de Doelen van Adobe Workfront ](../../../workfront-goals/goal-management/edit-goals.md) uitgeven.
+  Voor informatie over het uitgeven van doelstellingen, zie [&#x200B; doelstellingen in de Doelen van Adobe Workfront &#x200B;](../../../workfront-goals/goal-management/edit-goals.md) uitgeven.
 
 * Verbeterde foutmeldingen en waarschuwingen wanneer u de enige voortgangsindicator van een doel verwijdert of bewerkt.
 
@@ -47,13 +47,13 @@ We blijven verbeteringen aanbrengen in de manier waarop je Workfront-doelen gebr
 >
 >**de beschikbaarheid van de Productie:** met de versie 20.4
 
-Deze eigenschap is nu inbegrepen in de [ Leerweg van Workfront Doelen ](https://experienceleague.adobe.com/nl/docs/workfront-learn/tutorials-workfront/home) op Workfront Één.
+Deze eigenschap is nu inbegrepen in de [&#x200B; Leerweg van Workfront Doelen &#x200B;](https://experienceleague.adobe.com/nl/docs/workfront-learn/tutorials-workfront/home) op Workfront Één.
 
 ## Toegangsbeheer voor Workfront-doelen
 
 U kunt de toegang tot Workfront-doelen nu beperken op de toegangsniveaus. U kunt gebruikers geen Toegang geven, of toegang tot Mening of geef informatie in de Doelen van Workfront uit. Deze toegang is beschikbaar voor alle licentietypen behalve Extern. Voorafgaand aan deze verbetering, hadden alle gebruikers toegang tot alle doelstellingen uitgeven.
 
-Voor informatie over het verlenen van toegang tot de Doelen van Workfront, zie [ de toegang van de Verlening tot de Doelen van Adobe Workfront ](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md).
+Voor informatie over het verlenen van toegang tot de Doelen van Workfront, zie [&#x200B; de toegang van de Verlening tot de Doelen van Adobe Workfront &#x200B;](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md).
 
 >[!NOTE]
 >
@@ -61,7 +61,7 @@ Voor informatie over het verlenen van toegang tot de Doelen van Workfront, zie [
 >
 >**de beschikbaarheid van de Productie:** met de versie 20.4
 
-Deze eigenschap is nu inbegrepen in de [ Leerweg van Workfront Doelen ](https://experienceleague.adobe.com/nl/docs/workfront-learn/tutorials-workfront/home) op Workfront Één.
+Deze eigenschap is nu inbegrepen in de [&#x200B; Leerweg van Workfront Doelen &#x200B;](https://experienceleague.adobe.com/nl/docs/workfront-learn/tutorials-workfront/home) op Workfront Één.
 
 ## Verbeteringen voor gebruiksvriendelijkheid van Workfront
 
@@ -72,8 +72,8 @@ Op basis van de feedback die we tot nu toe hebben ontvangen, hebben we de volgen
 
 Raadpleeg de volgende artikelen voor meer informatie:
 
-* [ activeer doelstellingen in de Doelen van Adobe Workfront ](../../../workfront-goals/goal-management/activate-goals.md)
-* [ het doel van de Update vooruitgang in de Doelen van Adobe Workfront ](../../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md)
+* [&#x200B; activeer doelstellingen in de Doelen van Adobe Workfront &#x200B;](../../../workfront-goals/goal-management/activate-goals.md)
+* [&#x200B; het doel van de Update vooruitgang in de Doelen van Adobe Workfront &#x200B;](../../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md)
 * [Doelen maken voor Adobe Workfront-doelen](../../../workfront-goals/goal-management/create-goals.md)
 
 >[!NOTE]
@@ -82,4 +82,4 @@ Raadpleeg de volgende artikelen voor meer informatie:
 >
 >**de beschikbaarheid van de Productie:** met de versie 20.4
 
-Deze eigenschap is nu inbegrepen in de [ Leerweg van Workfront Doelen ](https://experienceleague.adobe.com/nl/docs/workfront-learn/tutorials-workfront/home) op Workfront Één.
+Deze eigenschap is nu inbegrepen in de [&#x200B; Leerweg van Workfront Doelen &#x200B;](https://experienceleague.adobe.com/nl/docs/workfront-learn/tutorials-workfront/home) op Workfront Één.

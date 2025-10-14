@@ -45,7 +45,7 @@ Afhankelijk van het feit of een gebruiker met hetzelfde e-mailadres bestaat in W
 
 * **als een gebruiker met een passende e-mail in Workfront Proof bestaat:** het Bewijzen wordt toegelaten voor die gebruiker in Workfront (als het niet reeds) werd toegelaten en de informatie wordt gesynchroniseerd tussen de twee gebruikers.
 
-  Voor meer informatie, zie [ de het proefdrukken van een gebruiker toegang ](../../../administration-and-setup/manage-workfront/configure-proofing/configure-a-users-proofing-access.md) in [ vormen de het proefdrukken van een gebruiker toegang ](../../../administration-and-setup/manage-workfront/configure-proofing/configure-a-users-proofing-access.md).
+  Voor meer informatie, zie [&#x200B; de het proefdrukken van een gebruiker toegang &#x200B;](../../../administration-and-setup/manage-workfront/configure-proofing/configure-a-users-proofing-access.md) in [&#x200B; vormen de het proefdrukken van een gebruiker toegang &#x200B;](../../../administration-and-setup/manage-workfront/configure-proofing/configure-a-users-proofing-access.md).
 
   >[!IMPORTANT]
   >

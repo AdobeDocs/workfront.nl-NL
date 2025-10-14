@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Deze pagina beschrijft alle veranderingen beschikbaar in het milieu van de Voorproef met R1 Voorproef 5 versie. De functionaliteit op deze pagina is op 16 maart 2017 beschikbaar gesteld in de voorvertoningsomgeving.
 
-Voor een lijst van alle veranderingen die in R1 worden aangebracht, zie [ R1 overzicht van de versieactiviteit ](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-release-activity-overview.md).
+Voor een lijst van alle veranderingen die in R1 worden aangebracht, zie [&#x200B; R1 overzicht van de versieactiviteit &#x200B;](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-release-activity-overview.md).
 
 ## De Voortgang van het Project van het spoor met een Rapport van het Gebruik
 
@@ -26,7 +26,7 @@ Nu kan een gebruiker met beheertoegang tot een project de vooruitgang van het pr
 
 Met het gebruiksrapport kunt u uw project binnen het budget houden door u snel te laten zien hoe de werkelijke uren zich volgen ten opzichte van de begrote uren of geplande uren voor een bepaalde week of maand, of voor het hele project. Bovendien kunt u gedetailleerde informatie bekijken voor het aantal uren in elke categorie (begroot, gepland, en werkelijk), die door baanrol of individuele gebruiker wordt gecategoriseerd.
 
-Voor meer informatie over het volgen van gebruik in een project, zie [ Overzicht van het rapport van het Gebruik van het Middel ](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
+Voor meer informatie over het volgen van gebruik in een project, zie [&#x200B; Overzicht van het rapport van het Gebruik van het Middel &#x200B;](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
 
 Als systeembeheerder, kunt u vormen of het lusje van het Gebruik aan gebruikers beschikbaar is. Door gebrek, wordt het lusje van het Gebruik gevestigd in Meer drop-down menu binnen een project. U kunt het tabblad Gebruik naar een andere locatie verplaatsen of u kunt het volledig verbergen. Als u aangepaste lay-outsjablonen hebt gedefinieerd voor gebruikers in uw organisatie, moet u het tabblad Gebruik handmatig toevoegen aan de aangepaste lay-outsjablonen.
 
@@ -36,15 +36,15 @@ Zie &quot;Tabs aanpassen&quot; in &quot;Lay-outsjablonen maken en beheren&quot; 
 
 Nu kunt u een bestaand globaal goedkeuringsproces wijzigen wanneer u dat globale goedkeuringsproces met een voorwerp associeert. De wijzigingen die u aanbrengt, gelden alleen voor het goedkeuringsproces van het object waaraan u het object koppelt.
 
-Voor meer informatie, zie [ een nieuw of bestaand goedkeuringsproces met het werk ](../../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md) in [ associëren een nieuw of bestaand goedkeuringsproces met het werk ](../../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md)
+Voor meer informatie, zie [&#x200B; een nieuw of bestaand goedkeuringsproces met het werk &#x200B;](../../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md) in [&#x200B; associëren een nieuw of bestaand goedkeuringsproces met het werk &#x200B;](../../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md)
 
 ## Configureer rapporten om de nieuwe Gantt-grafiek standaard weer te geven
 
 U kunt het project en de taakrapporten vormen die u creeert om de nieuwe grafiek van Gantt door gebrek met de nieuwe optie te tonen, &quot;toon dit rapport in een mening van Gantt door gebrek.&quot;
 
-Voor meer informatie over het vormen rapporten om de nieuwe grafiek van Gantt te tonen, zie [ rapportmontages ](../../../../reports-and-dashboards/reports/creating-and-managing-reports/edit-report-settings.md) uitgeven.
+Voor meer informatie over het vormen rapporten om de nieuwe grafiek van Gantt te tonen, zie [&#x200B; rapportmontages &#x200B;](../../../../reports-and-dashboards/reports/creating-and-managing-reports/edit-report-settings.md) uitgeven.
 
-Voor meer informatie over het bekijken van de grafiek van Gantt in projectrapporten en taakrapporten, zie [ informatie van de Mening in de Grafiek van Gantt ](../../../../manage-work/gantt-chart/use-the-gantt-chart/view-info-in-gantt.md)&quot;in [ informatie van de Mening in de Grafiek van Gantt ](../../../../manage-work/gantt-chart/use-the-gantt-chart/view-info-in-gantt.md).
+Voor meer informatie over het bekijken van de grafiek van Gantt in projectrapporten en taakrapporten, zie [&#x200B; informatie van de Mening in de Grafiek van Gantt &#x200B;](../../../../manage-work/gantt-chart/use-the-gantt-chart/view-info-in-gantt.md)&quot;in [&#x200B; informatie van de Mening in de Grafiek van Gantt &#x200B;](../../../../manage-work/gantt-chart/use-the-gantt-chart/view-info-in-gantt.md).
 
 ## Verbetering van prullenbak: taken en subtaken worden in de vorige volgorde hersteld
 
@@ -52,17 +52,17 @@ Wanneer u nu een taak of subtaak herstelt nadat deze is verwijderd, wordt de taa
 
 Vóór deze verandering, werden de taken en de subtaken die altijd werden hersteld als laatste taak (of in de taaklijst of onder de oudertaak), ongeacht de orde werden zij vóór worden geschrapt.
 
-Voor meer informatie over het herstellen van voorwerpen in Workfront, zie [ geschrapte punten ](../../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md) herstellen.
+Voor meer informatie over het herstellen van voorwerpen in Workfront, zie [&#x200B; geschrapte punten &#x200B;](../../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md) herstellen.
 
 ## Verbeteringen in de milestone-weergave
 
 De volgende verbeteringen zijn nu beschikbaar wanneer u een projectlijst of projectrapport weergeeft in de Mijlsteenweergave:
 
 * **vormt of de Status van de Voortgang en de Volledige Percent in de mening worden getoond:** Er is een nieuwe optie die u toestaat om te vormen of de pictogrammen van de Status van de Voortgang in de mening van de Mijlpaal worden getoond. Bovendien kunt u ook configureren of de gegevens Percent Complete worden weergegeven met betrekking tot projecten en taken.\
-  Voor meer informatie, zie [ Gebruik de mening van de Mijlpaal ](../../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md) in [ Gebruik de mening van de Mijlpaal ](../../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md).
+  Voor meer informatie, zie [&#x200B; Gebruik de mening van de Mijlpaal &#x200B;](../../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md) in [&#x200B; Gebruik de mening van de Mijlpaal &#x200B;](../../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md).
 
 * **geef direct Percent uit volledig van de mening van de Mijlpaal:** nu kunt u Percent Voltooien van projecten en taken van de mening van de Mijlpaal direct uitgeven.\
-  Voor meer informatie, zie [ Gebruik de mening van de Mijlpaal ](../../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md) in [ Gebruik de mening van de Mijlpaal ](../../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md). 
+  Voor meer informatie, zie [&#x200B; Gebruik de mening van de Mijlpaal &#x200B;](../../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md) in [&#x200B; Gebruik de mening van de Mijlpaal &#x200B;](../../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md). 
 
 ## De bijgewerkte look and Feel van verscheidene Pagina&#39;s van de Opstelling van het Systeem
 
@@ -82,7 +82,7 @@ De weergave van de volgende pagina&#39;s in het menu Systeem van het gedeelte Se
 
 De organisatiekoppen van de gebeurtenismeldingen in het gedeelte E-mailinstelling komen nu overeen met de sectiekoppen die worden gebruikt in het gedeelte Instellingen gebruikersprofiel.
 
-Zie voor meer informatie over gebeurtenismeldingen  [ vorm gebeurtenisberichten voor iedereen in het systeem ](../../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
+Zie voor meer informatie over gebeurtenismeldingen  [&#x200B; vorm gebeurtenisberichten voor iedereen in het systeem &#x200B;](../../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
 
 ## Onmiddellijke meldingen uitschakelen: configuratie in contextoverzicht
 
@@ -93,13 +93,13 @@ De volgende opties zijn nu beschikbaar in directe e-mailmeldingen. Deze opties z
 
 Nu, wanneer u een onmiddellijk e-mailbericht ontvangt, kunt u of dat bericht aan een dagelijks samenvattingsbericht toevoegen, of u kunt van dat bericht volledig afmelden.
 
-Deze opties zijn beschikbaar in het e-mailbericht. Voor meer informatie over het ontvangen van e-mailberichten, zie [ de berichten van Adobe Workfront ](../../../../workfront-basics/using-notifications/wf-notifications.md)
+Deze opties zijn beschikbaar in het e-mailbericht. Voor meer informatie over het ontvangen van e-mailberichten, zie [&#x200B; de berichten van Adobe Workfront &#x200B;](../../../../workfront-basics/using-notifications/wf-notifications.md)
 
 ## Verschillende e-mailmeldingen zijn verplaatst van de sectie Actie vereist naar andere projectgerelateerde secties
 
 Verschillende meldingen zijn verplaatst van de sectie &quot;Actie vereist&quot; van de gebruikersprofielpagina naar andere secties, als volgt:
 
-Voor meer informatie over het vormen van e-mailberichten, zie [ uw eigen e-mailberichten wijzigen ](../../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)
+Voor meer informatie over het vormen van e-mailberichten, zie [&#x200B; uw eigen e-mailberichten wijzigen &#x200B;](../../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)
 
 <table style="table-layout:auto"> 
  <col> 
@@ -173,10 +173,10 @@ De volgende wijzigingen zijn toegevoegd ter ondersteuning van de toekomstige fun
 
 * Het huidige lusje &quot;van de Planning van het Middel&quot;is anders genoemd aan &quot;Verouderde Planning van het Middel&quot;in het gebied van Mensen. 
 * Er is een nieuw tabblad &quot;Resource Planning&quot; geïntroduceerd in het gebied Personen waar de nieuwe functionaliteit wordt ontwikkeld.\
-  Voor meer informatie over het nieuwe lusje van de Planning van het Middel, zie [ begonnen worden met de Planning van het Middel ](../../../../resource-mgmt/resource-planning/get-started-resource-planning.md) 
+  Voor meer informatie over het nieuwe lusje van de Planning van het Middel, zie [&#x200B; begonnen worden met de Planning van het Middel &#x200B;](../../../../resource-mgmt/resource-planning/get-started-resource-planning.md) 
 
 * Het huidige &quot;Resource Pool&quot;-object is hernoemd naar &quot;Legacy Resource Pool&quot;.\
-  Voor meer informatie over het creëren van de nieuwe op gebruiker-gebaseerde Pools van het Middel, zie [ overzicht van de Groepen van het Middel ](../../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md)
+  Voor meer informatie over het creëren van de nieuwe op gebruiker-gebaseerde Pools van het Middel, zie [&#x200B; overzicht van de Groepen van het Middel &#x200B;](../../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md)
 
 * Er is een nieuw &quot;Resource Pool&quot;-object gemaakt ter ondersteuning van de nieuwe (op gebruikers gebaseerde) bronnenpools.
 

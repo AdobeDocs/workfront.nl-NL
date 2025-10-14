@@ -19,12 +19,12 @@ U kunt meerdere instructies opnemen wanneer u een filter maakt in lijsten en rap
 
 Zie de volgende artikelen voor informatie over het maken van filters:
 
-* [ Overzicht van Filters ](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/filters-overview.md)
+* [&#x200B; Overzicht van Filters &#x200B;](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/filters-overview.md)
 * [Een filter bewerken in de tekstmodus](/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md)
 
 ## Operatoren voor het filter Tekstmodus
 
-Voor informatie over de filterexploitanten van Adobe Workfront in de standaardfilterinterface, zie [ Overzicht van Filters ](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+Voor informatie over de filterexploitanten van Adobe Workfront in de standaardfilterinterface, zie [&#x200B; Overzicht van Filters &#x200B;](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 Workfront heeft 2 filteroperatoren die elke filterinstructie verbinden:
 
@@ -92,7 +92,7 @@ De syntaxis van de tekstmodus voor een OR-filter moet het volgende bevatten:
   OR:2:percentComplete_Mod=lt
   ```
 
-* De naam van de velden of de kenmerken waarnaar u in een filter verwijst, moet in kameelletters worden geschreven. Voor informatie over camel geval, zie [ overzicht van de wijzesyntaxis van de Tekst ](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md).
+* De naam van de velden of de kenmerken waarnaar u in een filter verwijst, moet in kameelletters worden geschreven. Voor informatie over camel geval, zie [&#x200B; overzicht van de wijzesyntaxis van de Tekst &#x200B;](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md).
 * Wanneer u naar aangepaste velden in een OR-filter verwijst, moet u de volgende code invoegen: tussen de syntaxis van de OR-modifier en de naam van het aangepaste veld. U moet de naam van het aangepaste veld spellen zoals deze wordt weergegeven in de Workfront-interface.
 
   **Voorbeeld:** om voor taken te filtreren die een Status van Nieuw OF een Percentage Volledige lager dan 100% OF een douanegebied genoemd &quot;het Type van Rekening&quot;met een waarde van &quot;Gelijk&quot;hebben, gebruik de volgende code van de tekstwijze:

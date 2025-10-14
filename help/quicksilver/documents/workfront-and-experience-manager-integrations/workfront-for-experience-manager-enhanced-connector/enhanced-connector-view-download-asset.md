@@ -62,4 +62,4 @@ Voordat u begint, moet u
 1. Selecteer het document in de documentlijst.
 1. In de Samenvatting van het Document op het recht, houd over de duimnagel bij de bovenkant en kies **Voorproef** of **Download**.
 
-   ![ Voorproef of Download ](assets/view-or-download-enhanced-connector-350x123.png)
+   ![&#x200B; Voorproef of Download &#x200B;](assets/view-or-download-enhanced-connector-350x123.png)

@@ -22,7 +22,7 @@ Adobe Workfront-beheerders kunnen een aangepaste webshintegratie voor hun bedrij
 
 Om een integratie toe te voegen, klik **voegt de Integratie van de Douane** toe.
 
-![ voeg douaneintegratie ](assets/webhooks-integration-2-350x220.png) toe
+![&#x200B; voeg douaneintegratie &#x200B;](assets/webhooks-integration-2-350x220.png) toe
 
 ## Beschikbare velden
 

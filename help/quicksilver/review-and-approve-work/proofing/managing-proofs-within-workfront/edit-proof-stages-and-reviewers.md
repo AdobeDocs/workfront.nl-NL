@@ -98,7 +98,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 ## Details revisor bewerken
 
 1. In Workfront, houd de aanwijzer boven de proefdruk en klik vervolgens op **Proefdetails** om de pagina Proofing Details te openen.
-1. In de **sectie van het Werkschema**, klik **Meer** menu ![ Meer menu ](assets/more-button-small.png) aan het recht van de naam van de recensent, dan klik **uitgeven** in het drop-down menu dat verschijnt.
+1. In de **sectie van het Werkschema**, klik **Meer** menu ![&#x200B; Meer menu &#x200B;](assets/more-button-small.png) aan het recht van de naam van de recensent, dan klik **uitgeven** in het drop-down menu dat verschijnt.
 
 1. In **geef recensent** doos uit die verschijnt, geef om het even welke volgende details uit:
 

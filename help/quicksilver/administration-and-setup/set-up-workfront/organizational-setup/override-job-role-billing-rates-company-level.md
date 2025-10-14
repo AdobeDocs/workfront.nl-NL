@@ -19,7 +19,7 @@ ht-degree: 0%
 
 Wanneer een baanrol wordt gecreeerd, hebt u de optie om een uurtarief voor die rol te selecteren. U kunt meerdere factureringssnelheden per uur maken die specifiek zijn voor een bedrijf. Elk factureringstarief is effectief voor een specifieke datumwaaier.
 
-Op het projectniveau, kunt u een optie toelaten om bedrijf-vlakke het factureringspercentages toe te staan om tarief op projectniveau met voeten te treden. Voor meer informatie, zie [ project-Vlakke het Facturerings Tarieven met het bedrijf-Vlakke Facturerings ](../../../manage-work/projects/project-finances/override-project-level-with-company-level-billing-rates.md) met voeten treden.
+Op het projectniveau, kunt u een optie toelaten om bedrijf-vlakke het factureringspercentages toe te staan om tarief op projectniveau met voeten te treden. Voor meer informatie, zie [&#x200B; project-Vlakke het Facturerings Tarieven met het bedrijf-Vlakke Facturerings &#x200B;](../../../manage-work/projects/project-finances/override-project-level-with-company-level-billing-rates.md) met voeten treden.
 
 ## Toegangsvereisten
 
@@ -50,7 +50,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -67,7 +67,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
    Het [!UICONTROL **Standaard het Facturerings Tarief van het Facturerings**] toont het systeem-vlakke tarief voor deze baanrol.
 
-   ![ Nieuwe de dialoog van het Tarief van het Facturerings ](assets/date-effective-billing-rates-for-company.png)
+   ![&#x200B; Nieuwe de dialoog van het Tarief van het Facturerings &#x200B;](assets/date-effective-billing-rates-for-company.png)
 
 1. Op het [!DNL **Facturerings 1**] gebied van Tarieven 1, ga het factureringstarief in. Dan, klik [!UICONTROL **sparen**] om het het factureren tarief één keer met voeten te treden.
 
@@ -87,4 +87,4 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
    >[!NOTE]
    >
-   >Veranderde roltarieven op het project hebben alleen invloed op dat project. De op bedrijfsniveau gewijzigde tarieven zullen gevolgen hebben voor alle projecten. Voor meer informatie, zie [ Overzicht van het met voeten treden van de FactureringsRates van de Rol van de Baan en het berekenen van Inkomsten op een project ](../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
+   >Veranderde roltarieven op het project hebben alleen invloed op dat project. De op bedrijfsniveau gewijzigde tarieven zullen gevolgen hebben voor alle projecten. Voor meer informatie, zie [&#x200B; Overzicht van het met voeten treden van de FactureringsRates van de Rol van de Baan en het berekenen van Inkomsten op een project &#x200B;](../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).

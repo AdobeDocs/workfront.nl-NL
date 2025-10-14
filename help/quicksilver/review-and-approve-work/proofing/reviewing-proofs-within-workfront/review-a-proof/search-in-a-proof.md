@@ -63,12 +63,12 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 1. Open de proefdruk die u wilt zoeken.
 1. In de toolbar boven de proef, klik het **document van het Onderzoek** pictogram.
 
-   ![ Document van het Onderzoek ](assets/search-document-icon-search-in-proof-350x129.png)
+   ![&#x200B; Document van het Onderzoek &#x200B;](assets/search-document-icon-search-in-proof-350x129.png)
 
 1. Typ de tekst die u wilt zoeken.
 
    Met het gereedschap Zoeken markeert u de tekst in het document terwijl u typt.
 
-   ![ Search_text_highlight_as_you_type.png ](assets/search-text-highlighted-as-you-type-350x214.png)
+   ![&#x200B; Search_text_highlight_as_you_type.png &#x200B;](assets/search-text-highlighted-as-you-type-350x214.png)
 
 1. Voltooi het typen van de tekst u wilt zoeken, dan klik **Omhoog** en **Omlaag** pijlen om door de onderzoeksresultaten binnen de proef af te tasten.

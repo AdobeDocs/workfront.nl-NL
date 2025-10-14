@@ -19,20 +19,20 @@ ht-degree: 0%
 
 Deze sectie bevat de volgende artikelen:
 
-* [ geef taken ](../../../manage-work/tasks/manage-tasks/edit-tasks.md) uit
-* [ geeft taken in een lijst ](../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md) uit
+* [&#x200B; geef taken &#x200B;](../../../manage-work/tasks/manage-tasks/edit-tasks.md) uit
+* [&#x200B; geeft taken in een lijst &#x200B;](../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md) uit
 * [Overzicht van het opslaan van gelijktijdige wijzigingen in een takenlijst](../../../manage-work/tasks/manage-tasks/save-concurrent-changes-in-a-task-list.md)
 
   <!--
   <li><a href="../../../manage-work/tasks/manage-tasks/manage-task-details-forms-finances.md" class="MCXref xref" xrefformat="{para}">Manage task details, custom forms, and finances</a> (drafted not to lose the TOC spot, but the article is in draft)</li>
   -->
 
-* [ beheert taakinformatie in het gebied van het Overzicht van de Details van de Taak ](../../../manage-work/tasks/manage-tasks/task-information-in-overview.md)
-* [ beheer taakfinanciën in de sectie van de Details van de Taak ](../../../manage-work/tasks/manage-tasks/task-finances-in-details.md)
-* [ Exemplaar en dupliceer taken ](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md)
-* [ de taken van de Beweging ](../../../manage-work/tasks/manage-tasks/move-tasks.md)
-* [ de taken van de Schrapping ](../../../manage-work/tasks/manage-tasks/delete-tasks.md)
-* [ Overzicht van het project Kritieke Weg ](../../../manage-work/tasks/manage-tasks/critical-path.md)
-* [ Terugkerende taken overzicht ](../../../manage-work/tasks/manage-tasks/recurring-tasks-overview.md)
-* [ associeerde mijlpalen met taken ](../../../manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md)
+* [&#x200B; beheert taakinformatie in het gebied van het Overzicht van de Details van de Taak &#x200B;](../../../manage-work/tasks/manage-tasks/task-information-in-overview.md)
+* [&#x200B; beheer taakfinanciën in de sectie van de Details van de Taak &#x200B;](../../../manage-work/tasks/manage-tasks/task-finances-in-details.md)
+* [&#x200B; Exemplaar en dupliceer taken &#x200B;](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md)
+* [&#x200B; de taken van de Beweging &#x200B;](../../../manage-work/tasks/manage-tasks/move-tasks.md)
+* [&#x200B; de taken van de Schrapping &#x200B;](../../../manage-work/tasks/manage-tasks/delete-tasks.md)
+* [&#x200B; Overzicht van het project Kritieke Weg &#x200B;](../../../manage-work/tasks/manage-tasks/critical-path.md)
+* [&#x200B; Terugkerende taken overzicht &#x200B;](../../../manage-work/tasks/manage-tasks/recurring-tasks-overview.md)
+* [&#x200B; associeerde mijlpalen met taken &#x200B;](../../../manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md)
 * [Een taak omzetten in een project](../../../manage-work/tasks/manage-tasks/convert-task-to-project.md)

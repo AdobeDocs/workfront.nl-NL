@@ -17,13 +17,13 @@ ht-degree: 0%
 
 # 21.2 Verbeteringen in het beheer van hulpbronnen
 
-Op deze pagina worden alle verbeteringen in het beheer van bronnen beschreven die zijn aangebracht met de versie 21.2 voor de voorvertoningsomgeving. Deze verbeteringen zullen beschikbaar worden gesteld in de productieomgeving in de week van 10 mei 2021. Voor een lijst van alle veranderingen beschikbaar met de versie 21.2, zie [ 21.2 Overzicht van de Versie ](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
+Op deze pagina worden alle verbeteringen in het beheer van bronnen beschreven die zijn aangebracht met de versie 21.2 voor de voorvertoningsomgeving. Deze verbeteringen zullen beschikbaar worden gesteld in de productieomgeving in de week van 10 mei 2021. Voor een lijst van alle veranderingen beschikbaar met de versie 21.2, zie [&#x200B; 21.2 Overzicht van de Versie &#x200B;](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
 
 ## Maand-vlakke mening in de Balancer van de Werkbelasting
 
 Om u te helpen de toewijzing van middelen voor grotere periodes beheren, hebben wij nu een maand-vlakke mening voor de Balancer van de Werklast uitgevoerd. U kunt maximaal drie maanden tegelijk bekijken en maandelijkse toewijzingen van bronnen bijwerken. Vóór deze wijziging kon u de werklastbalans alleen dag of week weergeven.
 
-Voor informatie, zie [ de Balancer van de Werkbelasting ](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) navigeren.
+Voor informatie, zie [&#x200B; de Balancer van de Werkbelasting &#x200B;](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) navigeren.
 
 ## Verbinding tussen de Planner van het Scenario, de Balancer van de Werkbelasting, en taaklijst
 
@@ -35,7 +35,7 @@ Om u bij de strategische planning van uw projecten te helpen en ervoor te zorgen
 
 Raadpleeg de volgende artikelen voor meer informatie:
 
-* [ Overzicht van het verzoenen van middeltoewijzingen tussen projecten en initiatieven ](../../../scenario-planner/overview-reconcile-allocations-between-projects-initiatives.md).
+* [&#x200B; Overzicht van het verzoenen van middeltoewijzingen tussen projecten en initiatieven &#x200B;](../../../scenario-planner/overview-reconcile-allocations-between-projects-initiatives.md).
 * [Navigeren door werklastbalans](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)
 
 >[!IMPORTANT]
@@ -48,13 +48,13 @@ Met een nieuwe instelling in de functie Bronnen kunt u Geplande uren gebruiken v
 
 Voorafgaand aan deze verhoging, berekende Workfront Netto waarden slechts gebruikend Beoogde Uren. De netto waarden tonen het verschil tussen Beschikbaar en Beoogde of Geplande uren, VTE, of kosten. De begrotingsuren zijn nog steeds de standaardinstelling bij het berekenen van de nettowaarden.
 
-Voor informatie, zie [ Overzicht van uren, FTE, en kosteninformatie in het Project en de meningen van de Rol van de Planner van het Middel ](../../../resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md).
+Voor informatie, zie [&#x200B; Overzicht van uren, FTE, en kosteninformatie in het Project en de meningen van de Rol van de Planner van het Middel &#x200B;](../../../resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md).
 
 ## Weergave van 12 weken in werklastbalans
 
 U kunt nu tot 12 weken aan informatie in de Balancer van de Werkbelasting bekijken. Voordat u deze upgrade uitvoert, kunt u 2,4 en 6 weken aan informatie bekijken.
 
-Voor informatie over het bekijken van de Balancer van de Werkbelasting, zie [ de Balancer van de Werkbelasting ](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) navigeren de Balancer van de Werkbelasting.
+Voor informatie over het bekijken van de Balancer van de Werkbelasting, zie [&#x200B; de Balancer van de Werkbelasting &#x200B;](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) navigeren de Balancer van de Werkbelasting.
 
 ## De manier wijzigen waarop het filter Functie uitvoeren werkt in het gebied Niet toegewezen van Werklastverdeling
 
@@ -62,4 +62,4 @@ Om de manier te verbeteren het filter van de Rol van de Baan in de Balancer van 
 
 Voorafgaand aan deze verbetering, wanneer het toepassen van de filter van de Rol van de Baan op het Niet toegewezen gebied de Balancer van de Werkbelasting alle uren verbonden aan de het werkpunten die aan de baanrollen worden toegewezen toonde.
 
-Voor informatie over het filtreren van informatie in de Balancer van de Werklast, zie [ filters in de Balancer van de Werklast beheren ](../../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md).
+Voor informatie over het filtreren van informatie in de Balancer van de Werklast, zie [&#x200B; filters in de Balancer van de Werklast beheren &#x200B;](../../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md).

@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [ het Bewijzen ](../../../review-and-approve-work/proofing/proofing.md).
+>Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [&#x200B; het Bewijzen &#x200B;](../../../review-and-approve-work/proofing/proofing.md).
 
 U kunt uw collega&#39;s, leden, en gasten op de pagina van Contacten leiden.
 
@@ -34,7 +34,7 @@ U kunt uw collega&#39;s, leden, en gasten op de pagina van Contacten leiden.
 of
 Selecteer een optie in het menu **[!UICONTROL Sort]** in de rechterbovenhoek van de pagina Contactpersonen.
 
-1. ![ Contacten_page-Sort_menu.png ](assets/contacts-page-sort-menu.png)
+1. ![&#x200B; Contacten_page-Sort_menu.png &#x200B;](assets/contacts-page-sort-menu.png)
 
 1. Het driehoekje op een kolomkop geeft de sorteervolgorde aan. Naar boven gericht, wijst het op stijgende orde; naar beneden wijst op dalende orde.
 
@@ -43,11 +43,11 @@ Selecteer een optie in het menu **[!UICONTROL Sort]** in de rechterbovenhoek van
 1. Klik op **[!UICONTROL Contacts]** in de linkernavigatiebalk.
 1. Klik op het pictogram **[!UICONTROL Filter]** helemaal rechts van de kolomkoppen om de filteropties onder de kolomkoppen weer te geven.
 1. Selecteer [!UICONTROL filtering options] in de vervolgkeuzemenu&#39;s en typ in de filtervakken die onder elke kolomkop worden weergegeven. Klik vervolgens nogmaals op het pictogram **[!UICONTROL Filter]** om de opties toe te passen.
-1. ![ Contacten_page-Filtering_options.png ](assets/contacts-page-filtering-options-350x205.png)
+1. ![&#x200B; Contacten_page-Filtering_options.png &#x200B;](assets/contacts-page-filtering-options-350x205.png)
 
 1. of
 1. Selecteer de eerste letter in de naam van de contactpersoon.
-1. ![ Contacten_page-filtering_by_letter.png ](assets/contacts-page-filtering-by-letter-350x238.png)
+1. ![&#x200B; Contacten_page-filtering_by_letter.png &#x200B;](assets/contacts-page-filtering-by-letter-350x238.png)
 
 ## Een of meer contactpersonen beheren
 
@@ -57,7 +57,7 @@ Selecteer een optie in het menu **[!UICONTROL Sort]** in de rechterbovenhoek van
 
    * Klik **[!UICONTROL Add to Group]** om de geselecteerde contacten aan een Groep toe te voegen.
 
-     ![ Add_to_Group_btn.png ](assets/add-to-group-btn.png)
+     ![&#x200B; Add_to_Group_btn.png &#x200B;](assets/add-to-group-btn.png)
 
    * Klik op **[!UICONTROL Remove]** en klik vervolgens op een optie in het keuzemenu om de contactpersoon uit proefdrukken of groepen te verwijderen.
    * Klik op **[!UICONTROL More]** > **[!UICONTROL Send reminder on late proofs]** om een herinnering per e-mail te verzenden naar de geselecteerde contactpersonen over eventuele late proefdrukken.
@@ -66,12 +66,12 @@ Selecteer een optie in het menu **[!UICONTROL Sort]** in de rechterbovenhoek van
 
    * Klik **[!UICONTROL Delete contacts]** om de geselecteerde contacten uit uw lijst te verwijderen.
 
-     ![ Prullenbak_button.png ](assets/trash-button.png)
+     ![&#x200B; Prullenbak_button.png &#x200B;](assets/trash-button.png)
 Het schrappen van een contact betekent niet dat een gebruiker uit uw rekening wordt verwijderd; nochtans als een Beheerder of het Factureren Beheerder iemand van de contactenlijst schrapt, zal die persoon volledig van de rekening van uw organisatie worden geschrapt.
 
    * Klik op het pictogram **[!UICONTROL More]** aan het einde van de rij van een contactpersoon en gebruik een van de opties in het keuzemenu dat wordt weergegeven.
 
-     Deze opties zijn verschillend voor verschillende soorten contacten. Zie [ Gebruikers, Leden, en Gasten binnen  [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/contacts/use-members-guests.md) voor meer informatie begrijpen.
+     Deze opties zijn verschillend voor verschillende soorten contacten. Zie [&#x200B; Gebruikers, Leden, en Gasten binnen  [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/contacts/use-members-guests.md) voor meer informatie begrijpen.
 
 ## Contacten importeren
 

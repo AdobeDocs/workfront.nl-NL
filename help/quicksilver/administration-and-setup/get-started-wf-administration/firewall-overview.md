@@ -102,10 +102,10 @@ Geef uw netwerkbeheerder de volgende informatie:
 
    Uw clustervertoningen dichtbij het hoger-recht van de **Basis Info** sectie.
 
-   ![ plaats cluster ](assets/locate-cluster.png)
+   ![&#x200B; plaats cluster &#x200B;](assets/locate-cluster.png)
 
 1. Om uw plan van Workfront te bekijken, selecteer **Vergunningen**.
 
    Uw plan wordt in de rechterbovenhoek van de pagina weergegeven.
 
-   ![ plaats plan ](assets/locate-plan.png)
+   ![&#x200B; plaats plan &#x200B;](assets/locate-plan.png)

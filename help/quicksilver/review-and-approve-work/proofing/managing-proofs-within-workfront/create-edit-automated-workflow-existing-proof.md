@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Met geautomatiseerde workflows kunt u het revisieproces eenvoudiger beheren als uw proces complex is of als u regelmatig inhoud ter controle naar dezelfde groepen personen verzendt. Wanneer u een proef met een Geautomatiseerde Werkstroom creeert, beweegt de proef zich van stadium aan stadium tot definitieve goedkeuring. Deelnemers krijgen een melding wanneer het hun beurt is om het document te reviseren.
 
-Voor informatie over het creëren van een Geautomatiseerd Werkschema voor een nieuw bewijs, zie [ een geavanceerd bewijs met een Geautomatiseerd werkschema ](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-automated-proof-workflow.md) creëren.
+Voor informatie over het creëren van een Geautomatiseerd Werkschema voor een nieuw bewijs, zie [&#x200B; een geavanceerd bewijs met een Geautomatiseerd werkschema &#x200B;](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-automated-proof-workflow.md) creëren.
 
 ## Toegangsvereisten
 
@@ -58,7 +58,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
    of
 
-   Als u de proef in de het proeven kijker bekijkt, klik **![ pictogram van het Werkschema ](assets/workflow-icon-proofing-viewer.png) in het linkerpaneel van het Werkschema, dan klik het Edit pictogram ![ uitgeven pictogram ](assets/edit-icon-proofing-viewer.png) om de Geautomatiseerde montages van het Werkschema voor de proef te openen.**
+   Als u de proef in de het proeven kijker bekijkt, klik **![&#x200B; pictogram van het Werkschema &#x200B;](assets/workflow-icon-proofing-viewer.png) in het linkerpaneel van het Werkschema, dan klik het Edit pictogram ![&#x200B; uitgeven pictogram &#x200B;](assets/edit-icon-proofing-viewer.png) om de Geautomatiseerde montages van het Werkschema voor de proef te openen.**
 
 1. (Voorwaardelijk) als de proef momenteel een basiswerkschema (zonder stadia) gebruikt, klik **Bekeerling aan Geautomatiseerde Werkschema** in het scherm dat verschijnt.
 
@@ -68,7 +68,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 1. Voorwaardelijk) om een Geautomatiseerd malplaatje van het Werkschema te gebruiken dat uw beheerder van Adobe Workfront creeerde en met u deelde, **toevoegt malplaatje**, selecteert het malplaatje in de doos die verschijnt, dan klik **voegt malplaatje** toe.
 
-   Voor meer informatie, zie [ Ongeveer gebruikend de Geautomatiseerde malplaatjes van het Werkschema ](#about-using-automated-workflow-templates) in dit artikel.
+   Voor meer informatie, zie [&#x200B; Ongeveer gebruikend de Geautomatiseerde malplaatjes van het Werkschema &#x200B;](#about-using-automated-workflow-templates) in dit artikel.
 
 1. Een werkgebied toevoegen aan de automatische workflow:
 
@@ -110,7 +110,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
    1. Voer een naam of e-mailadres in en configureer instellingen voor controleurs voor het werkgebied.
 
-      Voor informatie over het toevoegen van recensenten, zie [ Ongeveer toevoegend recensenten aan een stadium ](#about-adding-reviewers-to-a-stage) in dit artikel.
+      Voor informatie over het toevoegen van recensenten, zie [&#x200B; Ongeveer toevoegend recensenten aan een stadium &#x200B;](#about-adding-reviewers-to-a-stage) in dit artikel.
 
    1. Gebruik een van de volgende opties om het werkgebied verder te configureren:
 
@@ -155,7 +155,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
    Aangezien u stadia aan de Geautomatiseerde Werkschema toevoegt, vormt een diagram op het scherm om hen te vertegenwoordigen:
 
-   ![ diagram van het Werkschema ](assets/workflow-diagram-existing-proof-qs-350x215.png)
+   ![&#x200B; diagram van het Werkschema &#x200B;](assets/workflow-diagram-existing-proof-qs-350x215.png)
 
 1. Wanneer u klaar bent toevoegend stadia, klik **Gedaan**.
 

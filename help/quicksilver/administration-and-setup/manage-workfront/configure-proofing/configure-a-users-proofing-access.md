@@ -19,7 +19,7 @@ ht-degree: 0%
 
 Als Adobe Workfront-beheerder of Workfront Proof-beheerder kunt u de toegang van een gebruiker configureren om proefdrukken te maken en weer te geven in Workfront en Workfront Proof.
 
-Voor informatie over het proefdrukken van functionaliteit beschikbaar voor basis en geïntegreerd het proef, zie [ Toegang tot het proefdrukken van functionaliteit in Workfront ](../../../administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md).
+Voor informatie over het proefdrukken van functionaliteit beschikbaar voor basis en geïntegreerd het proef, zie [&#x200B; Toegang tot het proefdrukken van functionaliteit in Workfront &#x200B;](../../../administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md).
 
 ## Toegangsvereisten
 
@@ -56,7 +56,7 @@ Als uw organisatie een verouderd Select- of Premium Workfront-abonnement gebruik
 
 Wanneer u het proef voor een gebruiker toelaat, laat Workfront de optie voor de proefdrukken van de gebruiker toe om automatisch te produceren.
 
-Hoewel u een gebruiker als het proefdrukken gebruiker kunt toelaten, moet hij of zij beheerdertoestemmingen hebben om rechtstreeks aan de interface van Workfront Proof van het Hoofdmenu van Workfront te navigeren. Voor informatie over hoe u deze optie voor alle het proef gebruikers in uw systeem van Workfront kunt toelaten, zie [ de toegang van Workfront Proof via het Hoofdmenu van Workfront voor alle gebruikers ](#configure-workfront-proof-access-via-workfront-main-menu-for-all-users) vormen.
+Hoewel u een gebruiker als het proefdrukken gebruiker kunt toelaten, moet hij of zij beheerdertoestemmingen hebben om rechtstreeks aan de interface van Workfront Proof van het Hoofdmenu van Workfront te navigeren. Voor informatie over hoe u deze optie voor alle het proef gebruikers in uw systeem van Workfront kunt toelaten, zie [&#x200B; de toegang van Workfront Proof via het Hoofdmenu van Workfront voor alle gebruikers &#x200B;](#configure-workfront-proof-access-via-workfront-main-menu-for-all-users) vormen.
 
 1. In het **Belangrijkste Menu**, uitgezochte **Gebruikers**.
 
@@ -75,7 +75,7 @@ Het machtigingsprofiel dat u selecteert, wordt aan de gebruikers toegekend voor 
 
    >[!NOTE]
    >
-   >Als u op een erfenisplan van Workfront bent, zorg ervoor de **Gebruiker bewijzen** optie kan produceren wordt toegelaten, zoals hierboven verklaard in de sectie [ toelaten en onbruikbaar maken het proef voor een gebruiker (erfenisplannen slechts) ](#enable-and-disable-proofing-for-a-user-legacy-plans-only).
+   >Als u op een erfenisplan van Workfront bent, zorg ervoor de **Gebruiker bewijzen** optie kan produceren wordt toegelaten, zoals hierboven verklaard in de sectie [&#x200B; toelaten en onbruikbaar maken het proef voor een gebruiker (erfenisplannen slechts) &#x200B;](#enable-and-disable-proofing-for-a-user-legacy-plans-only).
 
    <table style="table-layout:auto"> 
     <col> 
@@ -106,13 +106,13 @@ Het machtigingsprofiel dat u selecteert, wordt aan de gebruikers toegekend voor 
 
    >[!NOTE]
    >
-   >Wanneer u een gebruiker in Workfront maakt of bijwerkt en het Workfront-e-mailadres van de gebruiker overeenkomt met dat van een in licentie gegeven Workfront Proof-gebruiker, schakelt het systeem het maken van proefdrukken voor de gebruiker in Workfront in. Voor meer informatie, zie [ de synchronisatie van de Gebruiker tussen Adobe Workfront en Workfront Proof ](../../../administration-and-setup/manage-workfront/configure-proofing/user-sync-proofing.md).
+   >Wanneer u een gebruiker in Workfront maakt of bijwerkt en het Workfront-e-mailadres van de gebruiker overeenkomt met dat van een in licentie gegeven Workfront Proof-gebruiker, schakelt het systeem het maken van proefdrukken voor de gebruiker in Workfront in. Voor meer informatie, zie [&#x200B; de synchronisatie van de Gebruiker tussen Adobe Workfront en Workfront Proof &#x200B;](../../../administration-and-setup/manage-workfront/configure-proofing/user-sync-proofing.md).
 
 ### Overwegingen
 
 Neem de volgende informatie in overweging wanneer u machtigingen instelt:
 
-* Als u het machtigingsprofiel van een gebruiker wijzigt in een profiel met minder machtigingen, verliest de gebruiker mogelijk de zichtbaarheid van bestaande proefdrukken in Workfront. Dit kan voorkomen wanneer iemand een taak met een gebruiker binnen Workfront deelt, maar deelt niet de proef verbonden aan de taak (zie [ een proef binnen Adobe Workfront ](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md) in [ delen een proef binnen Adobe Workfront ](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md)).
+* Als u het machtigingsprofiel van een gebruiker wijzigt in een profiel met minder machtigingen, verliest de gebruiker mogelijk de zichtbaarheid van bestaande proefdrukken in Workfront. Dit kan voorkomen wanneer iemand een taak met een gebruiker binnen Workfront deelt, maar deelt niet de proef verbonden aan de taak (zie [&#x200B; een proef binnen Adobe Workfront &#x200B;](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md) in [&#x200B; delen een proef binnen Adobe Workfront &#x200B;](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md)).
 * U kunt Workfront Proof-machtigingen alleen instellen vanuit Workfront als uw Workfront-omgeving is geïntegreerd met een Workfront Proof Premium-account. Neem contact op met de Workfront-beheerder als u geen proef kunt gebruiken zoals in deze sectie wordt beschreven.
 * Ten minste één gebruiker in uw Workfront-omgeving moet beheerdersmachtigingen hebben voor proofing. Er wordt een foutbericht weergegeven als u probeert beheerdersmachtigingen voor proefdrukken te verwijderen voor alle gebruikers.
 * Wanneer u het Workfront Access-niveau van een gebruiker wijzigt in een ander niveau dan Systeembeheerder, wordt het Workfront Proof-machtigingsprofiel van de gebruiker standaard ingesteld op Manager.
@@ -121,27 +121,27 @@ Neem de volgende informatie in overweging wanneer u machtigingen instelt:
 
 ## Workfront Proof-toegang configureren via Workfront Main Menu voor alle gebruikers {#configure-workfront-proof-access-via-workfront-main-menu-for-all-users}
 
-Door gebrek, slechts kunnen de gebruikers met administratieve rechten binnen Workfront tot Workfront Proof toegang hebben zoals beschreven [ Workfront Proof van de Toegang van Adobe Workfront ](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/access-wf-proof-in-workfront.md).
+Door gebrek, slechts kunnen de gebruikers met administratieve rechten binnen Workfront tot Workfront Proof toegang hebben zoals beschreven [&#x200B; Workfront Proof van de Toegang van Adobe Workfront &#x200B;](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/access-wf-proof-in-workfront.md).
 
 U kunt alle gebruikers toegang tot de Workfront Proof-knop geven in het Workfront Main Menu door contact op te nemen met de ondersteuning van Workfront en een aanvraag in te dienen.
 
 >[!IMPORTANT]
 >
-> Als u alle Workfront-gebruikers rechtstreeks vanuit de Workfront Global Navigation Bar toegang wilt geven tot Workfront Proof, moet u ervoor zorgen dat het machtigingsprofiel voor elke gebruiker niet meer toegang biedt dan het toegangsniveau van de gebruiker in Workfront. Zo voorkomt u dat gebruikers in Workfront Proof proefdrukken openen die ze niet in Workfront kunnen openen. Voor meer informatie, zie [ toelaten en onbruikbaar maken het proef voor een gebruiker (erfenisplannen slechts) ](#enable-and-disable-proofing-for-a-user-legacy-plans-only).
+> Als u alle Workfront-gebruikers rechtstreeks vanuit de Workfront Global Navigation Bar toegang wilt geven tot Workfront Proof, moet u ervoor zorgen dat het machtigingsprofiel voor elke gebruiker niet meer toegang biedt dan het toegangsniveau van de gebruiker in Workfront. Zo voorkomt u dat gebruikers in Workfront Proof proefdrukken openen die ze niet in Workfront kunnen openen. Voor meer informatie, zie [&#x200B; toelaten en onbruikbaar maken het proef voor een gebruiker (erfenisplannen slechts) &#x200B;](#enable-and-disable-proofing-for-a-user-legacy-plans-only).
 
 ## Gebruikerstoegang tot de Desktop Proofing Viewer configureren
 
-Als de gebruikers in uw organisatie liever de Desktop Proofing Viewer gebruiken in plaats van de Web Proofing Viewer om interactieve inhoud te controleren, kunt u de Desktop Proofing Viewer zo configureren dat deze automatisch wordt gestart wanneer gebruikers interactieve inhoudsproefdrukken openen. Voor informatie over dit ziet de Desktop het Proofing Kijker en hoe het van de Web het Proofing Kijker verschilt, [ de Desktop het Proofing Kijker ](../../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/destop-proofing-viewer.md) begrijpen en [ Verschillen tussen de Web Proofing Kijker en het Overzicht van de Kijker van de Desktop Proofing ](../../../review-and-approve-work/proofing/proofing-overview/understand-differences-between-web-viewer.md).
+Als de gebruikers in uw organisatie liever de Desktop Proofing Viewer gebruiken in plaats van de Web Proofing Viewer om interactieve inhoud te controleren, kunt u de Desktop Proofing Viewer zo configureren dat deze automatisch wordt gestart wanneer gebruikers interactieve inhoudsproefdrukken openen. Voor informatie over dit ziet de Desktop het Proofing Kijker en hoe het van de Web het Proofing Kijker verschilt, [&#x200B; de Desktop het Proofing Kijker &#x200B;](../../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/destop-proofing-viewer.md) begrijpen en [&#x200B; Verschillen tussen de Web Proofing Kijker en het Overzicht van de Kijker van de Desktop Proofing &#x200B;](../../../review-and-approve-work/proofing/proofing-overview/understand-differences-between-web-viewer.md).
 
 1. Klik vanuit Workfront op het Workfront Proof-pictogram in de algemene navigatiebalk om Workfront Proof te openen.
 
-   ![ pictogram van het Bewijs ](assets/proof-access-proofhq-350x39.png)
+   ![&#x200B; pictogram van het Bewijs &#x200B;](assets/proof-access-proofhq-350x39.png)
 
 1. Klik **montages van de Rekening** dichtbij de hoger-juiste hoek van Workfront Proof, dan klik de **Montages** tabel.
 
 1. Onder **Gebreken van het Bewijs**, aan het eind van de **Desktop Proofing Viewer voor Interactieve het proef** rij, klik **Opstelling**.
 
-1. Wijzig de montages van de Kijker van het Proofing van de Desktop, zoals die in [ Desktop het ProofingKijker ](../../../administration-and-setup/manage-workfront/configure-proofing/configure-proofing-organization.md#desktop-proofing-viewer) in het artikel [ worden beschreven vormt proefdrukmontages voor uw organisatie ](../../../administration-and-setup/manage-workfront/configure-proofing/configure-proofing-organization.md).
+1. Wijzig de montages van de Kijker van het Proofing van de Desktop, zoals die in [&#x200B; Desktop het ProofingKijker &#x200B;](../../../administration-and-setup/manage-workfront/configure-proofing/configure-proofing-organization.md#desktop-proofing-viewer) in het artikel [&#x200B; worden beschreven vormt proefdrukmontages voor uw organisatie &#x200B;](../../../administration-and-setup/manage-workfront/configure-proofing/configure-proofing-organization.md).
 
 1. Klik **sparen**.
 
@@ -149,7 +149,7 @@ Als de gebruikers in uw organisatie liever de Desktop Proofing Viewer gebruiken 
 
 U kunt aangepaste apparaten aan uw systeem toevoegen, zodat gebruikers interactieve inhoud kunnen bekijken en kunnen simuleren hoe de inhoud op een specifiek apparaat wordt weergegeven wanneer zij de Desktop Proofing Viewer gebruiken. (Deze functionaliteit is niet beschikbaar in de webtestviewer, waar gebruikers interactieve inhoud kunnen bekijken, maar alleen zoals deze wordt weergegeven in verschillende resoluties, niet op verschillende apparaten.)
 
-Voor meer informatie, zie [ de interactieve proefdrukresolutie van de Verandering in de het proef kijker ](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/view-interactive-content-as-it-appears-in-device.md).
+Voor meer informatie, zie [&#x200B; de interactieve proefdrukresolutie van de Verandering in de het proef kijker &#x200B;](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/view-interactive-content-as-it-appears-in-device.md).
 
-1. Van Workfront, heb toegang tot de interface van Workfront Proof, zoals die in [ wordt beschreven Toegang Workfront Proof van Adobe Workfront ](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/access-wf-proof-in-workfront.md).
-1. Wijzig de montages van de Kijker van de Desktop Proofing, zoals die in [ worden beschreven vormt douaneapparaten voor proeven ](../../../administration-and-setup/manage-workfront/configure-proofing/configure-proofing-organization.md#custom-devices-for-proofs) in het artikel [ bewijsmontages voor uw organisatie ](../../../administration-and-setup/manage-workfront/configure-proofing/configure-proofing-organization.md) vormen.
+1. Van Workfront, heb toegang tot de interface van Workfront Proof, zoals die in [&#x200B; wordt beschreven Toegang Workfront Proof van Adobe Workfront &#x200B;](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/access-wf-proof-in-workfront.md).
+1. Wijzig de montages van de Kijker van de Desktop Proofing, zoals die in [&#x200B; worden beschreven vormt douaneapparaten voor proeven &#x200B;](../../../administration-and-setup/manage-workfront/configure-proofing/configure-proofing-organization.md#custom-devices-for-proofs) in het artikel [&#x200B; bewijsmontages voor uw organisatie &#x200B;](../../../administration-and-setup/manage-workfront/configure-proofing/configure-proofing-organization.md) vormen.

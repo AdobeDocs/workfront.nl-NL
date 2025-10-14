@@ -18,7 +18,7 @@ ht-degree: 0%
 <!--Audited P&P only: 4/2025-->
 
 U kunt twee doelstellingen manueel richten of u kunt de resultaten en de activiteiten van een bestaand doel in een ander doel omzetten. Het omgezette resultaat of de omgezette activiteit wordt het kinddoel van het originele doel.
-Voor informatie over het manueel richten van twee doelstellingen, zie [ doelstellingen door hen in de Doelen van Adobe Workfront ](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md) aan te sluiten.
+Voor informatie over het manueel richten van twee doelstellingen, zie [&#x200B; doelstellingen door hen in de Doelen van Adobe Workfront &#x200B;](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md) aan te sluiten.
 
 ## Toegangsvereisten
 
@@ -78,7 +78,7 @@ U hebt de volgende toegang nodig om activiteiten uit te voeren die in dit artike
 </tbody>
 </table>
 
-*Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Voor meer informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -88,7 +88,7 @@ U moet het volgende hebben voordat u kunt beginnen:
 
 * Een bestaand doel met bestaande resultaten en activiteiten.
 
-  Voor informatie over het creëren van doelstellingen, zie [ doelstellingen in de Doelen van Adobe Workfront ](../../workfront-goals/goal-management/create-goals.md) creëren.
+  Voor informatie over het creëren van doelstellingen, zie [&#x200B; doelstellingen in de Doelen van Adobe Workfront &#x200B;](../../workfront-goals/goal-management/create-goals.md) creëren.
 
 >[!IMPORTANT]
 >
@@ -128,9 +128,9 @@ Overweeg het volgende wanneer het omzetten van resultaten en activiteiten in doe
 
 1. Ga naar een doel dat een resultaat of een activiteit heeft die u in een doel wilt omzetten.
 1. Van de pagina van het doel, klik **indicatoren van de Voortgang** in het linkerpaneel.
-1. Selecteer een resultaat of een activiteit in de lijst van vooruitgangsindicatoren, dan klik de **Bekeerling in doel** pictogram ![ Bekeerling aan doel ](assets/convert-to-goal-icon-unshimmed.png) bij de bovenkant van de lijst van de vooruitgangsindicator. Het vak Omzetten in doel wordt geopend.
+1. Selecteer een resultaat of een activiteit in de lijst van vooruitgangsindicatoren, dan klik de **Bekeerling in doel** pictogram ![&#x200B; Bekeerling aan doel &#x200B;](assets/convert-to-goal-icon-unshimmed.png) bij de bovenkant van de lijst van de vooruitgangsindicator. Het vak Omzetten in doel wordt geopend.
 
-   ![ Bekeerling aan doeldoos ](assets/convert-to-goal-box-unshimmed.png)
+   ![&#x200B; Bekeerling aan doeldoos &#x200B;](assets/convert-to-goal-box-unshimmed.png)
 1. Werk de volgende gegevens bij:
    * **Goal naam**: Door gebrek, heeft het nieuwe doel de zelfde naam zoals het originele resultaat of de activiteit.
    * **Periode**: Door gebrek, is de periode van het nieuwe doel het huidige kwart. U kunt **selecteren laat douanedata** plaatsen toe om een periode van de douanetijd voor het nieuwe doel te bepalen.

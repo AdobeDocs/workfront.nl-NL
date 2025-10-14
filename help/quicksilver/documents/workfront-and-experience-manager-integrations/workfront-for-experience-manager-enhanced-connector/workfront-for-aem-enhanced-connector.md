@@ -18,9 +18,9 @@ ht-degree: 0%
 
 <!-- Audited: 4/2025 -->
 
-* [ Workfront voor Experience Manager verbeterde schakelaaroverzicht ](../../../documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/workfront-aem-enhanced-connector-overview.md)
-* [ Workfront voor Experience Manager verbeterde overzicht van schakelaarmeta-gegevens ](../../../documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/enhanced-connector-metadata-overview.md)
-* [ de activa en omslagen van de Verbinding met de verbeterde schakelaar ](../../../documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/enhanced-connector-link-assets.md)
-* [ verzend een Document met de verbeterde schakelaar ](../../../documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/enhanced-connector-send-document.md)
-* [ Bewijs van een verbonden activa met de verbeterde schakelaar ](../../../documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/enhanced-connector-proof-asset.md)
+* [&#x200B; Workfront voor Experience Manager verbeterde schakelaaroverzicht &#x200B;](../../../documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/workfront-aem-enhanced-connector-overview.md)
+* [&#x200B; Workfront voor Experience Manager verbeterde overzicht van schakelaarmeta-gegevens &#x200B;](../../../documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/enhanced-connector-metadata-overview.md)
+* [&#x200B; de activa en omslagen van de Verbinding met de verbeterde schakelaar &#x200B;](../../../documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/enhanced-connector-link-assets.md)
+* [&#x200B; verzend een Document met de verbeterde schakelaar &#x200B;](../../../documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/enhanced-connector-send-document.md)
+* [&#x200B; Bewijs van een verbonden activa met de verbeterde schakelaar &#x200B;](../../../documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/enhanced-connector-proof-asset.md)
 * [Een gekoppeld element met de verbeterde connector weergeven of downloaden](../../../documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/enhanced-connector-view-download-asset.md)

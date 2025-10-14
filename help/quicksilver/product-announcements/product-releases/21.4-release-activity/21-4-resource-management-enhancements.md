@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Op deze pagina worden alle verbeteringen in het beheer van bronnen beschreven die zijn aangebracht met de release 21.4 voor de voorvertoningsomgeving. Deze verbeteringen zullen beschikbaar worden gesteld in de productieomgeving in de week van 4 oktober 2021.
 
-Voor een lijst van alle veranderingen beschikbaar met de versie 21.4, zie [ overzicht van de Versie 21.4 ](../../../product-announcements/product-releases/21.4-release-activity/21-4-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar met de versie 21.4, zie [&#x200B; overzicht van de Versie 21.4 &#x200B;](../../../product-announcements/product-releases/21.4-release-activity/21-4-release-overview.md).
 
 ## Snelle toewijzingen uitvoeren in Workload Balancer
 
@@ -25,7 +25,7 @@ U kunt bronnen in de werklastbalans nu op efficiënte wijze in evenwicht brengen
 
 Vóór deze verbetering, kon u punten slechts toewijzen door het Meer menu van een taak of een kwestie te klikken, dan gebruikend de Assign optie. Nu, de Geplande Uren die aan de gebruiker worden toegewezen bijwerken in real time terwijl het slepen van de taken.
 
-Voor informatie over het toewijzen van het werkpunten in de Balancer van de Werkbelasting, zie [ Overzicht van het toewijzen van het werk in de Balancer van de Werkbelasting ](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
+Voor informatie over het toewijzen van het werkpunten in de Balancer van de Werkbelasting, zie [&#x200B; Overzicht van het toewijzen van het werk in de Balancer van de Werkbelasting &#x200B;](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
 
 ## Nieuwe standaardoptie voor werklastverdeling
 
@@ -44,7 +44,7 @@ We hebben de filterervaring in Workload Balancer opnieuw ontworpen, zodat deze d
 * De mogelijkheid om een filter te dupliceren
 * Filters delen met andere gebruikers
 
-Voor meer informatie, zie [ filters in de Balancer van de Werklast beheren ](../../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md).
+Voor meer informatie, zie [&#x200B; filters in de Balancer van de Werklast beheren &#x200B;](../../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md).
 
 >[!NOTE]
 >

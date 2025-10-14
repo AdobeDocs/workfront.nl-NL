@@ -22,7 +22,7 @@ ht-degree: 0%
 >
 >De op deze pagina beschreven procedure is alleen van toepassing op organisaties die nog niet aan boord van de Admin Console zijn. Als uw organisatie is aangemeld bij de Adobe Admin Console, is geen actie nodig.
 >
->Voor een lijst van procedures die verschillen gebaseerd op of uw organisatie aan Adobe Admin Console is genegeerd, zie [ Op platform-gebaseerde beleidsverschillen (Adobe Workfront/Adobe Bedrijfsplatform) ](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>Voor een lijst van procedures die verschillen gebaseerd op of uw organisatie aan Adobe Admin Console is genegeerd, zie [&#x200B; Op platform-gebaseerde beleidsverschillen (Adobe Workfront/Adobe Bedrijfsplatform) &#x200B;](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
 De Adobe Workfront-servers gebruiken het SAML 2.0-protocol voor verificatie en verificatie. Zodra bijgewerkt, blijft het nieuwe certificaat één jaar geldig. Wanneer het tijd is voor u om het certificaat op uw identiteitsleverancier te vernieuwen, ontvangt u een waarschuwing in Workfront die u waarschuwt dat deze verandering moet voorkomen. Als Workfront-beheerder kunt u deze wijziging op systeemniveau beheren.
 
@@ -64,7 +64,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -111,4 +111,4 @@ U kunt als volgt het waarschuwingsbericht bekijken en de update van de SAML 2.0-
 
    Er wordt een bericht weergegeven waarin wordt bevestigd dat de verbinding tot stand is gebracht.
 
-Voor meer informatie, of voor hulp met de handconfiguratie van meta-gegevens, gelieve ons Team van de Steun te contacteren, zoals die in [ de Steun van de Klant van het Contact ](../../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md) wordt verklaard.
+Voor meer informatie, of voor hulp met de handconfiguratie van meta-gegevens, gelieve ons Team van de Steun te contacteren, zoals die in [&#x200B; de Steun van de Klant van het Contact &#x200B;](../../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md) wordt verklaard.

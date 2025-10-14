@@ -19,33 +19,33 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Als [ Microsoft overgangen aan de Nieuwe cliënt van Teams ](https://learn.microsoft.com/en-us/microsoftteams/teams-classic-client-end-of-availability), zal de Klassieke cliënt van Teams niet meer beschikbaar na 1 Juli, 2025 zijn. Als u Microsoft Teams en geïntegreerde toepassingen zoals Workfront wilt blijven gebruiken, moeten klanten vóór deze datum overstappen naar de New Teams-client.
+>Als [&#x200B; Microsoft overgangen aan de Nieuwe cliënt van Teams &#x200B;](https://learn.microsoft.com/en-us/microsoftteams/teams-classic-client-end-of-availability), zal de Klassieke cliënt van Teams niet meer beschikbaar na 1 Juli, 2025 zijn. Als u Microsoft Teams en geïntegreerde toepassingen zoals Workfront wilt blijven gebruiken, moeten klanten vóór deze datum overstappen naar de New Teams-client.
 >
->De bijgewerkte Workfront-integratie is nu beschikbaar en volledig compatibel met de New Teams-ervaring. In de meeste gevallen wordt Workfront automatisch weergegeven wanneer gebruikers een overgang hebben gemaakt. Als dit niet het geval is, kan de integratie handmatig worden geïnstalleerd vanaf de Microsoft Teams App Store. Om de integratie van Workfront in de Nieuwe cliënt van Teams te installeren of te verifiëren, zie [  [!DNL Adobe Workfront]  installeren voor Microsoft Teams ](/help/quicksilver/workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md).
+>De bijgewerkte Workfront-integratie is nu beschikbaar en volledig compatibel met de New Teams-ervaring. In de meeste gevallen wordt Workfront automatisch weergegeven wanneer gebruikers een overgang hebben gemaakt. Als dit niet het geval is, kan de integratie handmatig worden geïnstalleerd vanaf de Microsoft Teams App Store. Om de integratie van Workfront in de Nieuwe cliënt van Teams te installeren of te verifiëren, zie [&#x200B;  [!DNL Adobe Workfront]  installeren voor Microsoft Teams &#x200B;](/help/quicksilver/workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md).
 
 Als teameigenaar in [!DNL Microsoft Teams] kunt u de [!DNL Adobe Workfront for Microsoft Teams] -app voor uw team installeren.
 
 Met [!DNL Workfront] voor Microsoft Teams kunt u een aantal handelingen uitvoeren in [!DNL Workfront] zonder Microsoft Teams te verlaten.
 
-Voor meer informatie over het installeren van Workfront voor Microsoft Teams, zie [ Adobe Workfront voor Microsoft Teams installeren ](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md).
+Voor meer informatie over het installeren van Workfront voor Microsoft Teams, zie [&#x200B; Adobe Workfront voor Microsoft Teams installeren &#x200B;](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md).
 
 Nadat u [!DNL Workfront for Microsoft Teams] hebt geïnstalleerd, kunt u het volgende doen zonder uw exemplaar van [!DNL Microsoft Teams] te verlaten:
 
 * Zoek naar [!DNL Workfront] projecten, taken, en kwesties, en deel hen met andere gebruikers.
 
-  Voor informatie over het zoeken naar en het delen van [!DNL Workfront] punten van [!DNL Microsoft Teams], zie [ Onderzoek naar en deel  [!DNL Adobe Workfront]  punten in  [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/search-for-and-share-wf-items-in-ms-teams.md).
+  Voor informatie over het zoeken naar en het delen van [!DNL Workfront] punten van [!DNL Microsoft Teams], zie [&#x200B; Onderzoek naar en deel  [!DNL Adobe Workfront]  punten in  [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/search-for-and-share-wf-items-in-ms-teams.md).
 
 * Maak [!DNL Workfront] persoonlijke taken.
 
-  Voor informatie over het creëren van [!DNL Workfront] persoonlijke taken van [!DNL Microsoft Teams], zie [  [!DNL Adobe Workfront]  taken van  [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/create-workfront-tasks-from-ms-teams.md) creëren.
+  Voor informatie over het creëren van [!DNL Workfront] persoonlijke taken van [!DNL Microsoft Teams], zie [&#x200B;  [!DNL Adobe Workfront]  taken van  [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/create-workfront-tasks-from-ms-teams.md) creëren.
 
 * Verzend [!DNL Workfront] -aanvragen en bekijk de voortgang van uw ingediende aanvragen.
 
-  Voor informatie over het voorleggen van [!DNL Workfront] verzoeken van [!DNL Microsoft Teams], zie [ het voorleggen van  [!DNL Workfront]  Verzoeken van  [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/submit-workfront-requests-from-ms-teams.md).
+  Voor informatie over het voorleggen van [!DNL Workfront] verzoeken van [!DNL Microsoft Teams], zie [&#x200B; het voorleggen van  [!DNL Workfront]  Verzoeken van  [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/submit-workfront-requests-from-ms-teams.md).
 
 * Reageer op [!DNL Workfront] meldingen over updates en opmerkingen.
 * Reageer op verzoeken om documentgoedkeuring.\
-   Voor informatie over het antwoorden op [!DNL Workfront] berichten en verzoek van de documentgoedkeuring van [!DNL Microsoft Teams], zie [  [!DNL Adobe Workfront]  berichten binnen beheren  [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/manage-wf-notifications-approval-requests-ms-teams.md).
+   Voor informatie over het antwoorden op [!DNL Workfront] berichten en verzoek van de documentgoedkeuring van [!DNL Microsoft Teams], zie [&#x200B;  [!DNL Adobe Workfront]  berichten binnen beheren  [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/manage-wf-notifications-approval-requests-ms-teams.md).
 
 Houd rekening met het volgende wanneer u werkt met [!DNL Workfront] for [!DNL Microsoft Teams] :
 

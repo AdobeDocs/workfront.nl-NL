@@ -17,13 +17,13 @@ ht-degree: 0%
 
 # 21.2 Verbeterde integratie
 
-Op deze pagina worden alle verbeteringen beschreven die zijn aangebracht in de versie 21.2 voor integratie in de voorvertoningsomgeving. Deze verbeteringen zullen beschikbaar worden gesteld in de productieomgeving in de week van 10 mei 2021. Voor een lijst van alle veranderingen beschikbaar met de versie 21.2, zie [ 21.2 Overzicht van de Versie ](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
+Op deze pagina worden alle verbeteringen beschreven die zijn aangebracht in de versie 21.2 voor integratie in de voorvertoningsomgeving. Deze verbeteringen zullen beschikbaar worden gesteld in de productieomgeving in de week van 10 mei 2021. Voor een lijst van alle veranderingen beschikbaar met de versie 21.2, zie [&#x200B; 21.2 Overzicht van de Versie &#x200B;](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
 
 ## Introductie van Adobe Workfront for XD
 
 We zijn blij dat we de introductie van onze nieuwe insteekmodule Adobe Workfront for XD aankondigen. Met deze plug-in hebt u toegang tot de gegevens van het werkitem, kunt u samenwerken met collega&#39;s in het gedeelte Updates en kunt u proefdrukken voor revisie verzenden, allemaal zonder XD te verlaten. Ga naar de Adobe XD Marketplace om de insteekmodule vandaag te downloaden.
 
-Meer over leren wat u met Adobe Workfront voor XD kunt doen, zie [ werk met de stop van Adobe Workfront voor de Toepassingen van het Creative Cloud beheren ](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-manage-work-toc.md).
+Meer over leren wat u met Adobe Workfront voor XD kunt doen, zie [&#x200B; werk met de stop van Adobe Workfront voor de Toepassingen van het Creative Cloud beheren &#x200B;](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-manage-work-toc.md).
 
 
 ## Zoeken naar mappen in documentintegratie
@@ -32,7 +32,7 @@ Om het voor u gemakkelijker te maken om door uw documentintegratie te navigeren,
 
 Eerder konden submappen alleen worden gevonden door de bovenliggende mappen te openen.
 
-Voor meer informatie, zie [ documenten van de Verbinding van externe toepassingen ](../../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
+Voor meer informatie, zie [&#x200B; documenten van de Verbinding van externe toepassingen &#x200B;](../../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
 
 ## Uitgebreide beveiliging bij het uploaden van bestanden naar Google Drive
 

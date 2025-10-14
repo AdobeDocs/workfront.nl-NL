@@ -22,7 +22,7 @@ U kunt een rapportdashboard in het gebied van de Dashboards van het Canvas tot s
 >Deze functionaliteit is beschikbaar slechts voor klanten die de Verenigde dienst van Goedkeuringen gebruiken en in de bèta van de Dashboards van het Canvas ingeschreven. Voor meer informatie, zie {de bètainformatie van de Dashboards van het 0} Canvas [.](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md)
 
 
-![ voorbeelddashboard ](assets/whole-dashboard.png)
+![&#x200B; voorbeelddashboard &#x200B;](assets/whole-dashboard.png)
 
 ## Een dashboard maken
 
@@ -33,7 +33,7 @@ U kunt een rapportdashboard in het gebied van de Dashboards van het Canvas tot s
 1. Geef het dashboard een naam.
 1. (Optioneel) Voeg een beschrijving toe.
 1. Klik **creëren**.
-   ![ voeg dashboardnaam en beschrijving ](assets/create-a-dashboard.png) toe
+   ![&#x200B; voeg dashboardnaam en beschrijving &#x200B;](assets/create-a-dashboard.png) toe
 
 Nadat u een dashboard hebt gemaakt, kunt u beginnen met het toevoegen van KPI&#39;s, grafieken en tabellen. Zie de volgende secties voor meer informatie:
 
@@ -44,15 +44,15 @@ Nadat u een dashboard hebt gemaakt, kunt u beginnen met het toevoegen van KPI&#3
 
 U kunt informatie op hoog niveau over documentgoedkeuringen met KPIs en grafieken bekijken.
 
-Voor meer informatie, zie [ een KPI- rapport ](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-kpi-report.md) bouwen en [ bouwen een grafiekrapport ](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-chart-report.md).
+Voor meer informatie, zie [&#x200B; een KPI- rapport &#x200B;](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-kpi-report.md) bouwen en [&#x200B; bouwen een grafiekrapport &#x200B;](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-chart-report.md).
 
 ### KPI&#39;s
 
-![ KPI voorbeelden ](assets/kpi-dashboard.png)
+![&#x200B; KPI voorbeelden &#x200B;](assets/kpi-dashboard.png)
 
 #### Goedkeuringen in behandeling
 
-1. [ creeer een dashboard ](#create-a-dashboard) zoals die in de sectie hierboven wordt beschreven.
+1. [&#x200B; creeer een dashboard &#x200B;](#create-a-dashboard) zoals die in de sectie hierboven wordt beschreven.
 1. In de hoger-juiste hoek van de pagina van de dashboarddetails, klik **voeg rapport** toe.
 
 1. In **voeg rapport** doos toe, uitgezocht **creeer rapport**.
@@ -68,7 +68,7 @@ Voor meer informatie, zie [ een KPI- rapport ](/help/quicksilver/reports-and-das
 
 1. Volg hieronder de stappen om de **Bouw KPI** sectie te vormen:
 
-   1. In het linkerpaneel, klik **Bouw KPI** ![ bouwt KPI pictogram ](assets/build-kpi-icon.png).
+   1. In het linkerpaneel, klik **Bouw KPI** ![&#x200B; bouwt KPI pictogram &#x200B;](assets/build-kpi-icon.png).
 
    1. Klik **Uitgezochte gebied**.
 
@@ -80,7 +80,7 @@ Voor meer informatie, zie [ een KPI- rapport ](/help/quicksilver/reports-and-das
 
 1. Volg hieronder de stappen om de **sectie van de Filter** te vormen:
 
-   1. In het linkerpaneel, klik het **pictogram van de Filter** ![ van de Filter ](assets/filter-icon.png).
+   1. In het linkerpaneel, klik het **pictogram van de Filter** ![&#x200B; van de Filter &#x200B;](assets/filter-icon.png).
 
    1. Selecteer **filter uitgeven**.
 
@@ -89,13 +89,13 @@ Voor meer informatie, zie [ een KPI- rapport ](/help/quicksilver/reports-and-das
    1. Klik in de lege voorwaardenfilter, klik **Kiep een Gebied**, dan kies **Status**.
    1. Verlaat de exploitant als **Gelijk**, dan type _in afwachting van overzicht_ in textbox.
 
-      ![ hangend kpi filtervoorbeeld ](assets/pending-kpi-filter.png)
+      ![&#x200B; hangend kpi filtervoorbeeld &#x200B;](assets/pending-kpi-filter.png)
 1. Klik **sparen** in de hoger-juiste hoek van het scherm.
 
 
 #### Achterstallige betalingen
 
-1. [ creeer een dashboard ](#create-a-dashboard) zoals die in de sectie hierboven wordt beschreven.
+1. [&#x200B; creeer een dashboard &#x200B;](#create-a-dashboard) zoals die in de sectie hierboven wordt beschreven.
 1. In de hoger-juiste hoek van de pagina van de dashboarddetails, klik **voeg rapport** toe.
 
 1. In **voeg rapport** doos toe, uitgezocht **creeer rapport**.
@@ -111,7 +111,7 @@ Voor meer informatie, zie [ een KPI- rapport ](/help/quicksilver/reports-and-das
 
 1. Volg hieronder de stappen om de **Bouw KPI** sectie te vormen:
 
-   1. In het linkerpaneel, klik **Bouw KPI** ![ bouwt KPI pictogram ](assets/build-kpi-icon.png).
+   1. In het linkerpaneel, klik **Bouw KPI** ![&#x200B; bouwt KPI pictogram &#x200B;](assets/build-kpi-icon.png).
 
    1. Klik **Uitgezochte gebied**.
 
@@ -123,7 +123,7 @@ Voor meer informatie, zie [ een KPI- rapport ](/help/quicksilver/reports-and-das
 
 1. Volg hieronder de stappen om de **sectie van de Filter** te vormen:
 
-   1. In het linkerpaneel, klik het **pictogram van de Filter** ![ van de Filter ](assets/filter-icon.png).
+   1. In het linkerpaneel, klik het **pictogram van de Filter** ![&#x200B; van de Filter &#x200B;](assets/filter-icon.png).
 
    1. Selecteer **filter uitgeven**.
 
@@ -135,20 +135,20 @@ Voor meer informatie, zie [ een KPI- rapport ](/help/quicksilver/reports-and-das
    1. Verander de exploitant in **minder dan**.
    1. Knevel **Vastgestelde relatieve datum** aan **&#x200B;**, toen type _$$TODAY_ in textbox.
 
-      ![ achterstallig kpi filtervoorbeeld ](assets/overdue-kpi-filter.png)
+      ![&#x200B; achterstallig kpi filtervoorbeeld &#x200B;](assets/overdue-kpi-filter.png)
    1. Klik **toevoegen voorwaarde**.
    1. Klik in de lege voorwaardenfilter, dan klik **kiezen een Gebied**.
    1. Selecteer **Status**.
    1. Verander de exploitant in **niet bevat**, dan type _goedgekeurd_ in textbox.
 
-      ![ achterstallig kpi filtervoorbeeld 2 ](assets/overdue-kpi-filter-2.png)
+      ![&#x200B; achterstallig kpi filtervoorbeeld 2 &#x200B;](assets/overdue-kpi-filter-2.png)
 1. Klik **sparen** in de hoger-juiste hoek van het scherm.
 
 
 #### Voltooide goedkeuringen
 
 
-1. [ creeer een dashboard ](#create-a-dashboard) zoals die in de sectie hierboven wordt beschreven.
+1. [&#x200B; creeer een dashboard &#x200B;](#create-a-dashboard) zoals die in de sectie hierboven wordt beschreven.
 1. In de hoger-juiste hoek van de pagina van de dashboarddetails, klik **voeg rapport** toe.
 
 1. In **voeg rapport** doos toe, uitgezocht **creeer rapport**.
@@ -164,7 +164,7 @@ Voor meer informatie, zie [ een KPI- rapport ](/help/quicksilver/reports-and-das
 
 1. Volg hieronder de stappen om de **Bouw KPI** sectie te vormen:
 
-   1. In het linkerpaneel, klik **Bouw KPI** ![ bouwt KPI pictogram ](assets/build-kpi-icon.png).
+   1. In het linkerpaneel, klik **Bouw KPI** ![&#x200B; bouwt KPI pictogram &#x200B;](assets/build-kpi-icon.png).
 
    1. Klik **Uitgezochte gebied**.
 
@@ -176,7 +176,7 @@ Voor meer informatie, zie [ een KPI- rapport ](/help/quicksilver/reports-and-das
 
 1. Volg hieronder de stappen om de **sectie van de Filter** te vormen:
 
-   1. In het linkerpaneel, klik het **pictogram van de Filter** ![ van de Filter ](assets/filter-icon.png).
+   1. In het linkerpaneel, klik het **pictogram van de Filter** ![&#x200B; van de Filter &#x200B;](assets/filter-icon.png).
 
    1. Selecteer **filter uitgeven**.
 
@@ -188,19 +188,19 @@ Voor meer informatie, zie [ een KPI- rapport ](/help/quicksilver/reports-and-das
 
    1. Verander de exploitant in **bevat**, en type _goedgekeurd_ in textbox.
 
-      ![ voltooid kpi filtervoorbeeld ](assets/completed-kpi-filter.png)
+      ![&#x200B; voltooid kpi filtervoorbeeld &#x200B;](assets/completed-kpi-filter.png)
    1. Klik **toevoegen voorwaarde**.
    1. Klik **en** om het in **of** te veranderen.
    1. Klik in de lege voorwaardenfilter, dan klik **kiezen een Gebied**.
    1. Selecteer **Status**.
    1. Verander de exploitant in **Gelijk**, toen type _herzien_ in textbox.
 
-      ![ voltooid kpi filtervoorbeeld ](assets/completed-kpi-filter-2.png)
+      ![&#x200B; voltooid kpi filtervoorbeeld &#x200B;](assets/completed-kpi-filter-2.png)
 1. Klik **sparen** in de hoger-juiste hoek van het scherm.
 
 #### Verlaten goedkeuringen
 
-1. [ creeer een dashboard ](#create-a-dashboard) zoals die in de sectie hierboven wordt beschreven.
+1. [&#x200B; creeer een dashboard &#x200B;](#create-a-dashboard) zoals die in de sectie hierboven wordt beschreven.
 1. In de hoger-juiste hoek van de pagina van de dashboarddetails, klik **voeg rapport** toe.
 
 1. In **voeg rapport** doos toe, uitgezocht **creeer rapport**.
@@ -216,7 +216,7 @@ Voor meer informatie, zie [ een KPI- rapport ](/help/quicksilver/reports-and-das
 
 1. Volg hieronder de stappen om de **Bouw KPI** sectie te vormen:
 
-   1. In het linkerpaneel, klik **Bouw KPI** ![ bouwt KPI pictogram ](assets/build-kpi-icon.png).
+   1. In het linkerpaneel, klik **Bouw KPI** ![&#x200B; bouwt KPI pictogram &#x200B;](assets/build-kpi-icon.png).
 
    1. Klik **Uitgezochte gebied**.
 
@@ -228,7 +228,7 @@ Voor meer informatie, zie [ een KPI- rapport ](/help/quicksilver/reports-and-das
 
 1. Volg hieronder de stappen om de **sectie van de Filter** te vormen:
 
-   1. In het linkerpaneel, klik het **pictogram van de Filter** ![ van de Filter ](assets/filter-icon.png).
+   1. In het linkerpaneel, klik het **pictogram van de Filter** ![&#x200B; van de Filter &#x200B;](assets/filter-icon.png).
 
    1. Selecteer **filter uitgeven**.
 
@@ -240,23 +240,23 @@ Voor meer informatie, zie [ een KPI- rapport ](/help/quicksilver/reports-and-das
 
    1. Verander de exploitant in **niet bevat**, en type _goedgekeurd_ in textbox.
 
-      ![ verlaten kpi filtervoorbeeld ](assets/abandoned-kpi-filter.png)
+      ![&#x200B; verlaten kpi filtervoorbeeld &#x200B;](assets/abandoned-kpi-filter.png)
    1. Klik **toevoegen voorwaarde**.
    1. Klik in de lege voorwaardenfilter, dan klik **kiezen een Gebied**.
    1. Selecteer **Deadline**.
    1. Verander de exploitant in **minder dan**, dan knevel **plaats relatieve datum** aan **&#x200B;**.
    1. Typ _$$TODAY-2w_ in het tekstvak.
 
-      ![ verlaten kpi filtervoorbeeld ](assets/abandoned-kpi-filter-2.png)
+      ![&#x200B; verlaten kpi filtervoorbeeld &#x200B;](assets/abandoned-kpi-filter-2.png)
 1. Klik **sparen** in de hoger-juiste hoek van het scherm.
 
 ### Grafieken
 
-![ de voorbeelden van de Grafiek ](assets/chart-dashboard.png)
+![&#x200B; de voorbeelden van de Grafiek &#x200B;](assets/chart-dashboard.png)
 
 #### Goedkeuringen op basis van het diagram van de beslissingsbalk
 
-1. [ creeer een dashboard ](#create-a-dashboard) zoals die in de sectie hierboven wordt beschreven.
+1. [&#x200B; creeer een dashboard &#x200B;](#create-a-dashboard) zoals die in de sectie hierboven wordt beschreven.
 1. In de hoger-juiste hoek van de pagina van de dashboarddetails, klik **voeg rapport** toe.
 
 1. In **voeg rapport** doos toe, uitgezocht **creeer rapport**.
@@ -271,7 +271,7 @@ Voor meer informatie, zie [ een KPI- rapport ](/help/quicksilver/reports-and-das
    1. (Facultatief) Type een beschrijving op het **gebied van de Beschrijving**. Deze tekst wordt als knopinfo naast de naam van het diagram weergegeven.
 1. Volg hieronder de stappen om **bouwt grafiek** sectie te vormen:
 
-   1. In het linkerpaneel, klik het **bouwt grafiek** ![ het pictogram van de Grafiek ](assets/build-chart-icon.png) bouwen.
+   1. In het linkerpaneel, klik het **bouwt grafiek** ![&#x200B; het pictogram van de Grafiek &#x200B;](assets/build-chart-icon.png) bouwen.
 
    1. In het **type van Grafiek** drop-down menu, verlaten **Geselecteerde Bar**.
    1. In het **type van Bar** drop-down menu, verlaat **Eenvoudig** geselecteerd.
@@ -279,19 +279,19 @@ Voor meer informatie, zie [ een KPI- rapport ](/help/quicksilver/reports-and-das
    1. Plaats het **type van Samenvoeging** aan **Telling**.
    1. Klik **gebied van de Update** voor de **Linkeras (Y)**, dan selecteren **Status**.
 1. Volg hieronder de stappen om de **sectie van de Filter** te vormen:
-   1. In het linkerpaneel, klik het **&#x200B;**&#x200B;pictogram van het filterlusje van de Filter ![ pictogram.](assets/filter-tab.png)
+   1. In het linkerpaneel, klik het **&#x200B;**&#x200B;pictogram van het filterlusje van de Filter ![&#x200B; pictogram.](assets/filter-tab.png)
    1. Klik **uitgeven Filter**, dan **voeg voorwaarde** toe.
    1. Klik in de lege voorwaardenfilter, dan klik **kiezen een Gebied**.
    1. Selecteer **Versie van het Document** > **Versie**.
    1. Verander de exploitant in **is niet Null**.
 
-      ![ filtervoorbeeld ](assets/approvals-by-decision-chart-filter.png)
+      ![&#x200B; filtervoorbeeld &#x200B;](assets/approvals-by-decision-chart-filter.png)
 1. Klik **sparen** in de hoger-juiste hoek van het scherm.
 
 
 #### Revisitiebalkdiagram
 
-1. [ creeer een dashboard ](#create-a-dashboard) zoals die in de sectie hierboven wordt beschreven.
+1. [&#x200B; creeer een dashboard &#x200B;](#create-a-dashboard) zoals die in de sectie hierboven wordt beschreven.
 1. In de hoger-juiste hoek van de pagina van de dashboarddetails, klik **voeg rapport** toe.
 
 1. In **voeg rapport** doos toe, uitgezocht **creeer rapport**.
@@ -307,7 +307,7 @@ Voor meer informatie, zie [ een KPI- rapport ](/help/quicksilver/reports-and-das
 
 1. Volg hieronder de stappen om **bouwt grafiek** sectie te vormen:
 
-   1. In het linkerpaneel, klik het **bouwt grafiek** ![ het pictogram van de Grafiek ](assets/build-chart-icon.png) bouwen.
+   1. In het linkerpaneel, klik het **bouwt grafiek** ![&#x200B; het pictogram van de Grafiek &#x200B;](assets/build-chart-icon.png) bouwen.
 
    1. In het **type van Grafiek** drop-down menu, verlaten **Geselecteerde Bar**.
    1. In het **type van Bar** drop-down menu, verlaat **Eenvoudig** geselecteerd.
@@ -316,7 +316,7 @@ Voor meer informatie, zie [ een KPI- rapport ](/help/quicksilver/reports-and-das
    1. Klik {het gebied van de Update 1} voor de **Linker (Y) as**, dan selecteren de uitgezochte **Goedkeuring van het Document** > **Versie van het Document** > **Document** > **Naam**.**&#x200B;**
 
 1. Volg hieronder de stappen om de **sectie van de Filter** te vormen:
-   1. In het linkerpaneel, klik het **&#x200B;**&#x200B;pictogram van het filterlusje van de Filter ![ pictogram.](assets/filter-tab.png)
+   1. In het linkerpaneel, klik het **&#x200B;**&#x200B;pictogram van het filterlusje van de Filter ![&#x200B; pictogram.](assets/filter-tab.png)
    1. Klik **uitgeven Filter**, dan **voeg voorwaarde** toe.
    1. Klik in de lege voorwaardenfilter, dan klik **kiezen een Gebied**.
 
@@ -324,25 +324,25 @@ Voor meer informatie, zie [ een KPI- rapport ](/help/quicksilver/reports-and-das
 
    1. Verander de exploitant in **is Null**.
 
-      ![ het filtervoorbeeld van het revisiesdiagram ](assets/revision-chart-filter.png)
+      ![&#x200B; het filtervoorbeeld van het revisiesdiagram &#x200B;](assets/revision-chart-filter.png)
    1. Klik **toevoegen voorwaarde**.
    1. Klik in de lege voorwaardenfilter, dan klik **kiezen een Gebied**.
    1. Selecteer **het stadium van de Goedkeuring** > **Deadline**.
    1. Verander de exploitant in **minder dan of Gelijk**, dan knevel **plaats relatieve datum** aan **&#x200B;**.
    1. Typ _$$TODAYem_ in het tekstvak.
 
-      ![ het filtervoorbeeld van het grafiekfilter van Herzieningen ](assets/revision-chart-filter-2.png)
+      ![&#x200B; het filtervoorbeeld van het grafiekfilter van Herzieningen &#x200B;](assets/revision-chart-filter-2.png)
 1. Klik **sparen** in de hoger-juiste hoek van het scherm.
 
 ## Gedetailleerde revisie- en goedkeuringsinformatie toevoegen met tabellen
 
-Voor meer informatie bij de bouw van een lijstrapport, zie [ een lijstrapport ](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-table-report.md) bouwen.
+Voor meer informatie bij de bouw van een lijstrapport, zie [&#x200B; een lijstrapport &#x200B;](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-table-report.md) bouwen.
 
-![ lijstvoorbeeld ](assets/table-dashboard.png)
+![&#x200B; lijstvoorbeeld &#x200B;](assets/table-dashboard.png)
 
 ### Goedkeuringslijst in behandeling
 
-1. [ creeer een dashboard ](#create-a-dashboard) zoals die in de sectie hierboven wordt beschreven.
+1. [&#x200B; creeer een dashboard &#x200B;](#create-a-dashboard) zoals die in de sectie hierboven wordt beschreven.
 1. In de hoger-juiste hoek van de pagina van de dashboarddetails, klik **voeg rapport** toe.
 
 1. In **voeg rapport** doos toe, uitgezocht **creeer rapport**.
@@ -358,7 +358,7 @@ Voor meer informatie bij de bouw van een lijstrapport, zie [ een lijstrapport ](
 
 1. Volg hieronder de stappen om de **bouwt lijst** sectie te vormen:
 
-   1. In het linkerpaneel, klik het **kolommen van de Lijst** ![ pictogram van de kolommen van de Lijst ](assets/drilldown-column.png).
+   1. In het linkerpaneel, klik het **kolommen van de Lijst** ![&#x200B; pictogram van de kolommen van de Lijst &#x200B;](assets/drilldown-column.png).
    1. Klik **toevoegen kolom**.
    1. De rol neer en selecteert **Goedkeuringen van het Document** > **Status**.
    1. Voeg de volgende kolommen toe:
@@ -399,13 +399,13 @@ Voor meer informatie bij de bouw van een lijstrapport, zie [ een lijstrapport ](
 
 
 1. Volg hieronder de stappen om de **sectie van de Filter** te vormen:
-   1. In het linkerpaneel, klik het **&#x200B;**&#x200B;pictogram van het filterlusje van de Filter ![ pictogram.](assets/filter-tab.png)
+   1. In het linkerpaneel, klik het **&#x200B;**&#x200B;pictogram van het filterlusje van de Filter ![&#x200B; pictogram.](assets/filter-tab.png)
    1. Klik **uitgeven Filter**, dan **voeg voorwaarde** toe.
    1. Klik in de lege voorwaardenfilter, dan klik **kiezen een Gebied**.
    1. Selecteer **Status**.
    1. Verander de exploitant in **Gelijk**, dan type _in afwachting van goedkeuring_ in textbox.
 
-      ![ hangende het filtervoorbeeld van de goedkeuringstabel ](assets/pending-approval-table-filter.png)
+      ![&#x200B; hangende het filtervoorbeeld van de goedkeuringstabel &#x200B;](assets/pending-approval-table-filter.png)
    1. (Facultatief) voeg extra filters toe zoals die in de **Facultatieve hieronder sectie van filters** worden beschreven.
 1. Klik **sparen** in de hoger-juiste hoek van het scherm.
 
@@ -423,7 +423,7 @@ Als u meer specifieke informatie wilt weergeven, afhankelijk van het gebruik, ku
    1. Selecteer **versie van het Document** > **Document** > **Project** > **Eigenaar** > type _Naam_ in het onderzoeksvakje.
    1. Verander de exploitant in **Gelijk**, dan kies **me (Logged in gebruiker)** aan vertoningsprojecten in Workfront waar u als projecteigenaar wordt gemerkt.
 
-      ![ hangende het filtervoorbeeld van de goedkeuringstabel ](assets/pending-approvals-my-project-filter.png)
+      ![&#x200B; hangende het filtervoorbeeld van de goedkeuringstabel &#x200B;](assets/pending-approvals-my-project-filter.png)
 1. Klik **sparen** in de hoger-juiste hoek van het scherm.
 
 **Goedkeuringen ik heb voorgelegd**
@@ -433,14 +433,14 @@ Als u meer specifieke informatie wilt weergeven, afhankelijk van het gebruik, ku
    1. Selecteer **>** de Deelnemers van het Stadium van de Goedkeuring **>** Vraag **> type** Naam _in het onderzoeksvakje._
    1. Verander de exploitant in **Gelijk**, dan kies **me (Logged in gebruiker)** aan vertoningsprojecten in Workfront waar u als projecteigenaar wordt gemerkt.
 
-      ![ hangende het filtervoorbeeld van de goedkeuringstabel ](assets/pending-approvals-my-project-filter.png)
+      ![&#x200B; hangende het filtervoorbeeld van de goedkeuringstabel &#x200B;](assets/pending-approvals-my-project-filter.png)
 1. Klik **sparen** in de hoger-juiste hoek van het scherm.
 
 +++
 
 ### Achterstallige goedkeuringenlijst
 
-1. [ creeer een dashboard ](#create-a-dashboard) zoals die in de sectie hierboven wordt beschreven.
+1. [&#x200B; creeer een dashboard &#x200B;](#create-a-dashboard) zoals die in de sectie hierboven wordt beschreven.
 
 1. In de hoger-juiste hoek van de pagina van de dashboarddetails, klik **voeg rapport** toe.
 
@@ -457,7 +457,7 @@ Als u meer specifieke informatie wilt weergeven, afhankelijk van het gebruik, ku
 
 1. Volg hieronder de stappen om de **bouwt lijst** sectie te vormen:
 
-   1. In het linkerpaneel, klik het **kolommen van de Lijst** ![ pictogram van de kolommen van de Lijst ](assets/drilldown-column.png).
+   1. In het linkerpaneel, klik het **kolommen van de Lijst** ![&#x200B; pictogram van de kolommen van de Lijst &#x200B;](assets/drilldown-column.png).
    1. Klik **toevoegen kolom**.
    1. De rol neer en selecteert **Goedkeuringen van het Document** > **Status**.
    1. Voeg de volgende kolommen toe:
@@ -496,14 +496,14 @@ Als u meer specifieke informatie wilt weergeven, afhankelijk van het gebruik, ku
       *De Deelnemers van het Stadium van de goedkeuring worden beknot aan _Pa van het Stadium van de Goedkeuring._
 
 1. Volg hieronder de stappen om de **sectie van de Filter** te vormen:
-   1. In het linkerpaneel, klik het **&#x200B;**&#x200B;pictogram van het filterlusje van de Filter ![ pictogram.](assets/filter-tab.png)
+   1. In het linkerpaneel, klik het **&#x200B;**&#x200B;pictogram van het filterlusje van de Filter ![&#x200B; pictogram.](assets/filter-tab.png)
    1. Klik **uitgeven Filter**, dan **voeg voorwaarde** toe.
    1. Klik in de lege voorwaardenfilter, dan klik **kiezen een Gebied**.
    1. Selecteer **Stadium van de Goedkeuring** > **Deadline**.
    1. Verander de exploitant in **minder dan**, dan knevel **plaats relatieve datum** aan **&#x200B;**.
    1. Typ _$$TODAY_ in het tekstveld.
 
-      ![ achterstallig het filtervoorbeeld van de goedkeuringstabel ](assets/overdue-approval.png)
+      ![&#x200B; achterstallig het filtervoorbeeld van de goedkeuringstabel &#x200B;](assets/overdue-approval.png)
    1. (Facultatief) voeg extra filters toe zoals die in de **Facultatieve hieronder sectie van filters** worden beschreven.
 1. Klik **sparen** in de hoger-juiste hoek van het scherm.
 
@@ -522,7 +522,7 @@ Als u meer specifieke informatie wilt weergeven, afhankelijk van het gebruik, ku
    1. Selecteer **versie van het Document** > **Document** > **Project** > **Eigenaar** > type _Naam_ in het onderzoeksvakje.
    1. Verander de exploitant in **Gelijk**, dan kies **me (die in Gebruiker wordt geregistreerd)** aan vertoningsprojecten in Workfront waarin u als projecteigenaar duidelijk bent.
 
-      ![ hangende het filtervoorbeeld van de goedkeuringstabel ](assets/pending-approvals-my-project-filter.png)
+      ![&#x200B; hangende het filtervoorbeeld van de goedkeuringstabel &#x200B;](assets/pending-approvals-my-project-filter.png)
 1. Klik **sparen** in de hoger-juiste hoek van het scherm.
 
 **Goedkeuringen ik heb voorgelegd**
@@ -532,7 +532,7 @@ Als u meer specifieke informatie wilt weergeven, afhankelijk van het gebruik, ku
    1. Selecteer **>** de Deelnemers van het Stadium van de Goedkeuring **>** Vraag **> type** Naam _in het onderzoeksvakje._
    1. Verander de exploitant in **Gelijk**, dan kies **me (die in Gebruiker wordt geregistreerd)** aan vertoningsprojecten in Workfront waarin u als projecteigenaar duidelijk bent.
 
-      ![ hangende het filtervoorbeeld van de goedkeuringstabel ](assets/pending-approvals-my-project-filter.png)
+      ![&#x200B; hangende het filtervoorbeeld van de goedkeuringstabel &#x200B;](assets/pending-approvals-my-project-filter.png)
 1. Klik **sparen** in de hoger-juiste hoek van het scherm.
 
 **Mijn team**
@@ -542,6 +542,6 @@ Als u meer specifieke informatie wilt weergeven, afhankelijk van het gebruik, ku
    1. Selecteer **>** de Deelnemers van het Stadium van de Goedkeuring van het Stadium van de Goedkeuring **>** Team van de Deelnemer **> type** Naam _in het onderzoeksvakje._
    1. Verander de exploitant aan **Gelijk**, dan kies **Mijn standaardteams (die in Gebruiker)** of **Mijn andere teams (die in Gebruiker) worden geregistreerd** aan vertoningsprojecten die aan of uw standaardteam of andere teams worden toegewezen u bent.
 
-      ![ hangende het filtervoorbeeld van de goedkeuringstabel ](assets/approvals-ive-submitted-filter.png)
+      ![&#x200B; hangende het filtervoorbeeld van de goedkeuringstabel &#x200B;](assets/approvals-ive-submitted-filter.png)
 1. Klik **sparen** in de hoger-juiste hoek van het scherm.
 +++

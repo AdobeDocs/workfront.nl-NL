@@ -405,9 +405,9 @@ In de volgende tabel worden de functies weergegeven die beschikbaar zijn in de n
 
 >[!IMPORTANT]
 >
->Voor informatie over de eigenschappen die aan de nieuwe het becommentariëren ervaring tijdens het bètatijdkader worden vrijgegeven, zie [ Nieuwe het becommentariëren activiteit van de bètaervaring versie ](../../betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md).
+>Voor informatie over de eigenschappen die aan de nieuwe het becommentariëren ervaring tijdens het bètatijdkader worden vrijgegeven, zie [&#x200B; Nieuwe het becommentariëren activiteit van de bètaervaring versie &#x200B;](../../betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md).
 >
->Voor meer informatie over het beheren van updates voor de voorwerpen van Workfront, zie [ het werk van de Update ](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+>Voor meer informatie over het beheren van updates voor de voorwerpen van Workfront, zie [&#x200B; het werk van de Update &#x200B;](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 
 In de volgende informatie wordt de tijdlijn beschreven met de belangrijkste mijlpalen voor het vrijgeven van de nieuwe opmerkingservaring voor de productieomgeving. Naast de onderstaande mijlpalen zullen we de ervaring met opmerkingen verder verbeteren met kleinere verbeteringen.
@@ -452,7 +452,7 @@ De nieuwe ervaring met opmerkingen is beschikbaar op de volgende gebieden van Wo
 
 * In de sectie Updates van alle objecten.
 
-  Voor informatie over de toegang tot van de sectie van Updates van de voorwerpen van Workfront, zie [ het sectieoverzicht van Updates ](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
+  Voor informatie over de toegang tot van de sectie van Updates van de voorwerpen van Workfront, zie [&#x200B; het sectieoverzicht van Updates &#x200B;](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
 * In het paneel Overzicht van taken, kwesties, en documenten op alle gebieden waar dit beschikbaar is (lijsten, timesheets, de Balancer van de Werkbelasting, en Huis).
 * In het gebied van het Huis voor taken en kwesties.

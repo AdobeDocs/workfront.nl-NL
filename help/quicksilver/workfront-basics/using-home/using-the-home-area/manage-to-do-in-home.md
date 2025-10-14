@@ -20,7 +20,7 @@ U en andere gebruikers kunnen uw persoonlijke taken in een persoonlijk taakrappo
 
 >[!TIP]
 >
->De werkitems die u naar andere gebruikers of naar uzelf verzendt vanaf de pagina met gebruikersprofielen, worden ook weergegeven in de widget Aan/uit in het gedeelte Home van de gebruiker. Voor informatie, zie [ persoonlijke taken ](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/create-personal-tasks.md) creëren.
+>De werkitems die u naar andere gebruikers of naar uzelf verzendt vanaf de pagina met gebruikersprofielen, worden ook weergegeven in de widget Aan/uit in het gedeelte Home van de gebruiker. Voor informatie, zie [&#x200B; persoonlijke taken &#x200B;](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/create-personal-tasks.md) creëren.
 
 ## Toegangsvereisten
 
@@ -64,7 +64,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 1. Typ de naam voor het persoonlijke aan-doe item en klik op Enter.
 1. (Facultatief) klik het **pictogram van de Datum** ![](assets/date-icon.png) om een vervaldatum voor het punt toe te voegen.
    ![](assets/my-work-to-dos.png)
-1. (Optioneel) Maak een persoonlijk taakrapport of filter. Voor informatie over het creëren van een persoonlijke taakfilter, zie [ Filter: persoonlijke taak ](/help/quicksilver/reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-personal-tasks.md).
+1. (Optioneel) Maak een persoonlijk taakrapport of filter. Voor informatie over het creëren van een persoonlijke taakfilter, zie [&#x200B; Filter: persoonlijke taak &#x200B;](/help/quicksilver/reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-personal-tasks.md).
 U kunt uw aan-doe punten evenals andere gebruikers aan-doe punten in het persoonlijke taakrapport bekijken.
 
 

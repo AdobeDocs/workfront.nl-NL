@@ -22,7 +22,7 @@ ht-degree: 0%
 
 U kunt geen verbinding maken met ADFS.
 
-![ identifier_not_found.png ](assets/identifier-not-found.png)
+![&#x200B; identifier_not_found.png &#x200B;](assets/identifier-not-found.png)
 
 >[!NOTE]
 >
@@ -60,7 +60,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -76,4 +76,4 @@ Controleer of er op de ADFS-server een claim voor naam-id is:
 1. Klik met de rechtermuisknop op het vertrouwen van de betrouwbare partij dat betrekking heeft op Adobe Workfront en selecteer **[!UICONTROL Edit Claim Rules]** .
 1. Controleer of de claim een **[!UICONTROL Outgoing Claim Type]** van **[!UICONTROL Name ID]** heeft.
 
-![ 1.png ](assets/1-350x287.png)
+![&#x200B; 1.png &#x200B;](assets/1-350x287.png)

@@ -20,7 +20,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [ het Bewijzen ](../../../review-and-approve-work/proofing/proofing.md).
+>Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [&#x200B; het Bewijzen &#x200B;](../../../review-and-approve-work/proofing/proofing.md).
 
 ## Opmerkingen afdrukken
 
@@ -34,7 +34,7 @@ U hebt rechtstreeks vanuit de volgende gebieden toegang tot het overzicht met op
 
 U kunt het overzicht met opmerkingen van de proefdruk, inclusief de miniaturen of de volledige weergave van de proefdruk, afdrukken door op het pictogram **[!UICONTROL Print]** in de Proefweergave te klikken.
 
-![ PV_print_all_comm.png ](assets/pv-print-all-comm-350x158.png)
+![&#x200B; PV_print_all_comm.png &#x200B;](assets/pv-print-all-comm-350x158.png)
 
 Om tot de Kijker van het Bewijs toegang te hebben, klik **gaan aan proef** knoop van de de detailpagina van het Bewijs.
 
@@ -42,7 +42,7 @@ Om tot de Kijker van het Bewijs toegang te hebben, klik **gaan aan proef** knoop
 
 U kunt de opmerkingssamenvatting van de proefdruk afdrukken door op het pictogram **[!UICONTROL Print]** op de pagina Proefgegevens te klikken.
 
-![ proof_details_page.png ](assets/proof-details-page-350x231.png)
+![&#x200B; proof_details_page.png &#x200B;](assets/proof-details-page-350x231.png)
 
 Als u de pagina Proefgegevens wilt openen voor een specifieke proefdruk, klikt u in de lijstweergave op de naam van de proefdruk.
 
@@ -55,7 +55,7 @@ U kunt als volgt de pagina [!UICONTROL Comments Summary] openen vanuit een lijst
 1. Klik op het menu **[!UICONTROL Actions]** .
 1. Selecteer **[!UICONTROL Print comments]** .
 
-   ![ List_view.png ](assets/list-view-350x155.png)
+   ![&#x200B; List_view.png &#x200B;](assets/list-view-350x155.png)
 
    Selecteer op de overzichtspagina Opmerkingen een van de volgende afdrukopties:
 
@@ -65,7 +65,7 @@ U kunt als volgt de pagina [!UICONTROL Comments Summary] openen vanuit een lijst
    * De proefdruk met opmerkingen exporteren naar een PDF-bestand (4)
    * De proefdrukopmerkingen exporteren naar een [!DNL Excel] -bestand (5)
 
-![ PV_thumb_full_option_callouts.png ](assets/pv-thumb-full-option-callouts-350x154.png)
+![&#x200B; PV_thumb_full_option_callouts.png &#x200B;](assets/pv-thumb-full-option-callouts-350x154.png)
 
 ### Miniatuurweergave
 
@@ -76,7 +76,7 @@ Als u de miniatuurweergave wilt afdrukken, klikt u op het pictogram **[!UICONTRO
 * Sorteren op opmerking-id of pagina (1)
 * Miniatuur voor elke opmerking waaraan markeringen zijn toegevoegd (2)
 
-![ PV_thumbnail.png ](assets/pv-thumbnail-350x290.png)
+![&#x200B; PV_thumbnail.png &#x200B;](assets/pv-thumbnail-350x290.png)
 
 ### Volledige weergave
 
@@ -84,20 +84,20 @@ In de weergave van de volledige pagina wordt elke pagina weergegeven in volgorde
 
 Als u de weergave van de volledige pagina wilt afdrukken, klikt u op het pictogram **[!UICONTROL Printer]** rechtsboven op de pagina.
 
-![ PV_full.png ](assets/pv-full-350x347.png)
+![&#x200B; PV_full.png &#x200B;](assets/pv-full-350x347.png)
 
 ## Een [!DNL Excel] overzicht exporteren
 
 U kunt als volgt de samenvatting van [!DNL Excel] exporteren uit het menu Proefacties:
 
 1. Klik het **pictogram van Acties** rechts van de proef, dan uitgezocht **[!UICONTROL [!DNL Excel] summary]**.
-   ![ de samenvatting van Excel van de Uitvoer ](assets/excel-summary-option.png)
+   ![&#x200B; de samenvatting van Excel van de Uitvoer &#x200B;](assets/excel-summary-option.png)
 
 U kunt als volgt het overzicht van [!DNL Excel] downloaden van de pagina Proefgegevens:
 
 1. Klik de **Meer** knoop, dan uitgezochte **Uitvoer aan Excel**.
 
-   ![ Uitvoer aan Excel ](assets/export-to-excel.png)
+   ![&#x200B; Uitvoer aan Excel &#x200B;](assets/export-to-excel.png)
 
 ## Exporteren naar PDF
 

@@ -25,7 +25,7 @@ in January 2022
 
 4 april 2022.
 
-Voor een lijst van alle veranderingen beschikbaar met de versie 22.2, zie [ 22.2 Overzicht van de Versie ](../../../product-announcements/product-releases/22.2-release-activity/22-2-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar met de versie 22.2, zie [&#x200B; 22.2 Overzicht van de Versie &#x200B;](../../../product-announcements/product-releases/22.2-release-activity/22-2-release-overview.md).
 
 ## Verbeteringen voor de navigatie van Workload Balancer
 
@@ -37,13 +37,13 @@ Om uw ervaring te verbeteren wanneer het gebruiken van de Balancer van de Werkbe
 * U kunt nu ook het formaat van het linkerdeelvenster wijzigen.
 * Er is nu een modus Volledig scherm voor werklastbalans.
 
-Voor meer informatie over het navigeren van de Balancer van de Werkbelasting, zie [ de Balancer van de Werkbelasting ](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) navigeren.
+Voor meer informatie over het navigeren van de Balancer van de Werkbelasting, zie [&#x200B; de Balancer van de Werkbelasting &#x200B;](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) navigeren.
 
 ## Toegang tot geavanceerde toewijzingen in Workload Balancer
 
 Om het toewijzen van werkitems eenvoudiger en nauwkeuriger te maken, kunt u nu geavanceerde toewijzingen maken wanneer u handmatig werkitems toewijst in Workload Balancer. Voorafgaand aan deze verbetering, kon u tot Geavanceerde Toewijzingen toegang hebben wanneer het uitgeven van punten, van de kopballen van punten, of in lijsten.
 
-Voor meer informatie, zie [ werk manueel toewijzen gebruikend de Balancer van de Werkbelasting ](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-manually.md).
+Voor meer informatie, zie [&#x200B; werk manueel toewijzen gebruikend de Balancer van de Werkbelasting &#x200B;](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-manually.md).
 
 ## Nieuwe formule voor het berekenen van de beschikbaarheid van gebruikers wanneer de voorkeur Standaardschema wordt geselecteerd
 
@@ -55,5 +55,5 @@ Vóór deze update gebruikte Workfront de volgende formule om de beschikbaarheid
 
 Beschikbare uren gebruiker = (Standaardplanninguren - (Uitzonderingen schema + Verkeerde uren)) &#42; FTE-waarde gebruiker
 
-Voor meer informatie, zie [ de voorkeur van het Beheer van het Middel ](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md) vormen.
+Voor meer informatie, zie [&#x200B; de voorkeur van het Beheer van het Middel &#x200B;](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md) vormen.
 

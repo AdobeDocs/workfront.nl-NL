@@ -24,18 +24,18 @@ Als deel van het creëren van een BedrijfsGeval, kunt u een reeks doelstellingen
 
 >[!TIP]
 >
->U kunt strategische doelstellingen voor uw organisatie tot stand brengen die niet met de individuele BedrijfsGeval van een project worden verbonden. U moet toegang hebben tot Adobe Workfront-doelen om strategische doelen te kunnen maken. U kunt hen dan met projecten buiten hun Zaken verbinden. Voor informatie over het creëren van doelstellingen die de Doelen van Workfront gebruiken, zie [ overzicht van de Doelen van Adobe Workfront ](../../../workfront-goals/goal-management/wf-goals-overview.md).
+>U kunt strategische doelstellingen voor uw organisatie tot stand brengen die niet met de individuele BedrijfsGeval van een project worden verbonden. U moet toegang hebben tot Adobe Workfront-doelen om strategische doelen te kunnen maken. U kunt hen dan met projecten buiten hun Zaken verbinden. Voor informatie over het creëren van doelstellingen die de Doelen van Workfront gebruiken, zie [&#x200B; overzicht van de Doelen van Adobe Workfront &#x200B;](../../../workfront-goals/goal-management/wf-goals-overview.md).
 
 Overweeg het volgende wanneer het creëren van de doelstellingen van BedrijfsGeval voor uw projecten:
 
 * De doelstellingen van het bedrijfscase zijn project-specifiek. U kunt geen doelstellingen van één project aan een andere kopiëren of doelstellingen op het systeemniveau vestigen; zij moeten op het niveau van elk project worden bepaald.
-* Uw beheerder van Adobe Workfront of groepsbeheerder moet de sectie van de Doelstellingen van het project toelaten alvorens het in de BedrijfsGeval toont. Voor informatie over het toelaten van BedrijfsGevallengebieden voor projecten, zie [ systeem-brede projectvoorkeur ](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) vormen.
+* Uw beheerder van Adobe Workfront of groepsbeheerder moet de sectie van de Doelstellingen van het project toelaten alvorens het in de BedrijfsGeval toont. Voor informatie over het toelaten van BedrijfsGevallengebieden voor projecten, zie [&#x200B; systeem-brede projectvoorkeur &#x200B;](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) vormen.
 
 * De doelstellingen zijn geen verplichte sectie in de BedrijfsGeval van het project.
 
   Een project kan een score ontvangen die voorrang moet krijgen in Portfolio Optimizer, zelfs als de sectie van Doelen niet wordt bepaald.
 
-  Voor meer informatie over de Optimizer van Portfolio score, zie [ een scorecard op een project toepassen en een Score van de Uitlijning ](../../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md) produceren.
+  Voor meer informatie over de Optimizer van Portfolio score, zie [&#x200B; een scorecard op een project toepassen en een Score van de Uitlijning &#x200B;](../../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md) produceren.
 
 * U kunt niet over de doelstellingen van BedrijfsGeval melden.
 
@@ -72,7 +72,7 @@ Overweeg het volgende wanneer het creëren van de doelstellingen van BedrijfsGev
  </tbody> 
 </table>
 
-*For meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*For meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -84,7 +84,7 @@ Overweeg het volgende wanneer het creëren van de doelstellingen van BedrijfsGev
 
 1. In het linkerpaneel, klik **Bedrijfs Geval**. De **de sectievertoningen van het BedrijfsGeval**.
 
-   ![ Bedrijfs gevalinfo ](assets/business-case-info.png)
+   ![&#x200B; Bedrijfs gevalinfo &#x200B;](assets/business-case-info.png)
 
 1. In de **sectie van Doelen**, klik **uitgeven Doelstellingen**.
 
@@ -98,7 +98,7 @@ Overweeg het volgende wanneer het creëren van de doelstellingen van BedrijfsGev
    * Laag
    * Laagste
 
-   ![ Belangrijkheid ](assets/goals-section.png)
+   ![&#x200B; Belangrijkheid &#x200B;](assets/goals-section.png)
 
    >[!NOTE]
    >

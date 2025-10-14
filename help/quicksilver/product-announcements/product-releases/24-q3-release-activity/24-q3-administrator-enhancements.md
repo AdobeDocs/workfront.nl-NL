@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Deze pagina beschrijft alle beheerderverhogingen die met Derde Kwartaal 2024 versie aan het milieu van de Voorproef worden aangebracht. Deze verbeteringen zullen beschikbaar worden gesteld in de productieomgeving, zoals vermeld.
 
-Voor een lijst van alle veranderingen beschikbaar op dit punt in het Derde Kwartaal 2024 versiecyclus, zie [ Derde Kwartaal 2024 versieoverzicht ](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar op dit punt in het Derde Kwartaal 2024 versiecyclus, zie [&#x200B; Derde Kwartaal 2024 versieoverzicht &#x200B;](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).
 
 ## Zakelijke regels zijn nu beschikbaar
 
@@ -28,7 +28,7 @@ Beheerders kunnen nu bedrijfsregels toevoegen in het gedeelte Setup van Workfron
 
 Met een bedrijfsregel kunt u validatie toepassen op Workfront-objecten en voorkomen dat gebruikers een object maken, bewerken of verwijderen als aan bepaalde voorwaarden is voldaan. De regels worden opgebouwd met een formule die vergelijkbaar is met berekende velden in aangepaste formulieren.
 
-Voor meer informatie, zie [ bedrijfsregels ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md) creëren en uitgeven.
+Voor meer informatie, zie [&#x200B; bedrijfsregels &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md) creëren en uitgeven.
 
 >[!IMPORTANT]
 >
@@ -46,7 +46,7 @@ Met de versie 24.7 is de formulierontwerper over het algemeen beschikbaar en wor
 
 Na deze release kunt u niet meer terugkeren naar de oude formulierbuilder.
 
-Voor details over de vormontwerper en een videodemonstratie, zie de [ nota van de de versieversie van de vormontwerper ](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-admin-enhancements.md).
+Voor details over de vormontwerper en een videodemonstratie, zie de [&#x200B; nota van de de versieversie van de vormontwerper &#x200B;](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-admin-enhancements.md).
 
 ## Objecten verplaatsen tussen Workfront-omgevingen met behulp van milieubescherming
 
@@ -58,9 +58,9 @@ Met de functie voor milieubescherming kunt u objecten verplaatsen van de ene Wor
 
 Eerder moesten objecten afzonderlijk van sandbox- of voorvertoningsomgevingen worden geconfigureerd in productieomgevingen.
 
-Voor meer informatie over milieu bevordering, zie [ Overzicht van het bewegen van voorwerpen tussen de milieu&#39;s van Workfront (Bevordering van het Milieu) ](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md)
+Voor meer informatie over milieu bevordering, zie [&#x200B; Overzicht van het bewegen van voorwerpen tussen de milieu&#39;s van Workfront (Bevordering van het Milieu) &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md)
 
-[ Bekijk een videodemonstratie van deze eigenschap ](https://video.tv.adobe.com/v/3429735/){target=_blank}
+[&#x200B; Bekijk een videodemonstratie van deze eigenschap &#x200B;](https://video.tv.adobe.com/v/3429735/){target=_blank}
 
 >[!IMPORTANT]
 >
@@ -75,7 +75,7 @@ Voor meer informatie over milieu bevordering, zie [ Overzicht van het bewegen va
 
 U kunt nu zowel aangepaste formulieren als aangepaste velden delen in de nieuwe formulierontwerper. Hierdoor kan er beter worden samengewerkt tussen gebruikers op aangepaste formulieren.
 
-Voor meer informatie, zie [ een douanevorm ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md) delen en [ het delen voor douanevelden en widgets met de vormontwerper ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/share-custom-fields.md) vormen.
+Voor meer informatie, zie [&#x200B; een douanevorm &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md) delen en [&#x200B; het delen voor douanevelden en widgets met de vormontwerper &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/share-custom-fields.md) vormen.
 
 ## Een nieuw aangepast veld toevoegen vanuit het gebied Velden
 
@@ -87,7 +87,7 @@ U kunt nu een nieuw aangepast veld of een nieuwe widget rechtstreeks vanuit het 
 
 Deze functie is beschikbaar voor zowel de aangepaste formulierontwerper als de verouderde aangepaste formulierbuilder.
 
-Voor meer informatie, zie [ een douanegebied, een sectieonderbreking, of een widget ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/edit-a-custom-field.md) toevoegen of uitgeven.
+Voor meer informatie, zie [&#x200B; een douanegebied, een sectieonderbreking, of een widget &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/edit-a-custom-field.md) toevoegen of uitgeven.
 
 ## Meerdere keuzelijsttypen beschikbaar in de formulierontwerper
 
@@ -101,4 +101,4 @@ U kunt nog steeds een vervolgkeuzelijst met één keuze maken en het weergavetyp
 
 Deze optie is niet beschikbaar in de oudere formulierontwikkelaar.
 
-Voor meer informatie, zie [ een douaneformulier ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren.
+Voor meer informatie, zie [&#x200B; een douaneformulier &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren.

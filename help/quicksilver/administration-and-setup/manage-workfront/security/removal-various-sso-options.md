@@ -26,4 +26,4 @@ De volgende SSO-opties zijn in 2020 uit het product verwijderd:
 * Active Directory
 * SAML 1.1
 
-Voor informatie over beschikbare oplossingen SSO, zie [ Overzicht van enige sign-on in Adobe Workfront ](../../add-users/single-sign-on/sso-in-workfront.md).
+Voor informatie over beschikbare oplossingen SSO, zie [&#x200B; Overzicht van enige sign-on in Adobe Workfront &#x200B;](../../add-users/single-sign-on/sso-in-workfront.md).

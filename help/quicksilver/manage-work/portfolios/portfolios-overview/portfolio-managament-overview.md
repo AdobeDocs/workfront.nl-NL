@@ -21,7 +21,7 @@ ht-degree: 0%
 
 Portfolio of Project Portfolio Management (PPM) is het proces waarbij prioriteiten worden gesteld aan en een lijst met projecten wordt beheerd om specifieke bedrijfsdoelstellingen te bereiken.
 
-In dit artikel worden de algemene concepten voor portefeuillebeheer beschreven. Voor algemene informatie over het beheer van portefeuilles in Adobe Workfront, zie [ overzicht van Portfolio in Adobe Workfront ](/help/quicksilver/manage-work/portfolios/portfolios-overview/portfolio-overview.md).
+In dit artikel worden de algemene concepten voor portefeuillebeheer beschreven. Voor algemene informatie over het beheer van portefeuilles in Adobe Workfront, zie [&#x200B; overzicht van Portfolio in Adobe Workfront &#x200B;](/help/quicksilver/manage-work/portfolios/portfolios-overview/portfolio-overview.md).
 
 Een portefeuille is een inzameling van projecten met gemeenschappelijke bedrijfsdoelstellingen. Het resultaat van een effectieve PPM-methodologie stelt uitvoerende organen in staat om:
 
@@ -44,7 +44,7 @@ U kunt aan uw projecten voorrang geven en ervoor zorgen dat zij aan uw bedrijfsd
 
 Het volgende diagram illustreert het overzicht op hoog niveau van het PPM-proces in [!DNL Workfront]:
 
-![ Proces van het de portefeuillebeheer van het Project ](assets/project-portfolio-management-process-diagram.png)
+![&#x200B; Proces van het de portefeuillebeheer van het Project &#x200B;](assets/project-portfolio-management-process-diagram.png)
 
 * [Projectaanvraag](#project-request)
 * [Projectbeoordeling](#project-review)
@@ -57,19 +57,19 @@ Het volgende diagram illustreert het overzicht op hoog niveau van het PPM-proces
 
 Het Beheer van Portfolio van het project begint met een projectverzoek. In deze fase stelt een eigenaar van een project een projectverzoek in en legt dit ter beoordeling voor aan een uitvoerend comité of de Portfolio Manager. Dit is wanneer zij het BedrijfsGeval van het project voltooien en dan het ter goedkeuring voorleggen.
 
-Voor meer informatie over het creëren van een bedrijfsgeval en een projectverzoek, zie [ een BedrijfsGeval voor een project ](../../../manage-work/projects/define-a-business-case/create-business-case.md) creëren.
+Voor meer informatie over het creëren van een bedrijfsgeval en een projectverzoek, zie [&#x200B; een BedrijfsGeval voor een project &#x200B;](../../../manage-work/projects/define-a-business-case/create-business-case.md) creëren.
 
 ### Projectbeoordeling {#project-review}
 
 Nadat u het projectverzoek hebt ingediend, beoordeelt de Portfolio Manager of een uitvoerend team het en bepaalt of het project wordt goedgekeurd. Als zij het project goedkeuren, wordt het project geselecteerd voor een bedrijfProject Portfolio.
 
-Voor meer informatie over portefeuilles, zie [ overzicht van Portfolio in  [!DNL Adobe Workfront]](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md). Voor meer informatie over het goedkeuren van een BedrijfsGeval, zie [ een BedrijfsGeval ](../../../manage-work/projects/define-a-business-case/approve-business-case.md) goedkeuren.
+Voor meer informatie over portefeuilles, zie [&#x200B; overzicht van Portfolio in  [!DNL Adobe Workfront]](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md). Voor meer informatie over het goedkeuren van een BedrijfsGeval, zie [&#x200B; een BedrijfsGeval &#x200B;](../../../manage-work/projects/define-a-business-case/approve-business-case.md) goedkeuren.
 
 ### Portfolio optimaliseren {#portfolio-optimization}
 
 Na het toevoegen van alle projecten aan de portefeuille, optimaliseert de Manager van Portfolio en rangschikt hen volgens hun waarde, groepering, en voordeel aan de organisatie.
 
-Voor meer informatie over portefeuillestimalisatie, zie [ projecten in Portfolio optimaliseren ](../../../manage-work/portfolios/portfolio-optimizer/optimize-projects-in-portfolio-optimizer.md).
+Voor meer informatie over portefeuillestimalisatie, zie [&#x200B; projecten in Portfolio optimaliseren &#x200B;](../../../manage-work/portfolios/portfolio-optimizer/optimize-projects-in-portfolio-optimizer.md).
 
 ### Bronbeheer {#resource-management}
 
@@ -77,18 +77,18 @@ Samen met het optimaliseren van de prestaties van de portefeuille en het priorit
 
 Afhankelijk van de beschikbaarheid van de middelen, zou de Manager van Portfolio de projecten kunnen moeten opnieuw voorrang geven.
 
-Voor meer informatie over het Beheer van het Middel, zie [ middelen ](../../../resource-mgmt/manage-resources.md) sectie leiden.
+Voor meer informatie over het Beheer van het Middel, zie [&#x200B; middelen &#x200B;](../../../resource-mgmt/manage-resources.md) sectie leiden.
 
 ### Uitvoering van project {#project-execution}
 
 Na het ontvangen van de projectgoedkeuring van de Manager van Portfolio en de bevestiging van de middelen van de Manager van het Middel, als Eigenaar van het Project, kunt u het project in de status van [!UICONTROL Current] plaatsen en uw gebruikers kunnen het werk beginnen om het project te voltooien. Wij adviseren dat u een basislijn van het project in deze fase vangt, om een verwijzingspunt voor het project, in zijn originele staat te hebben.
 
-Voor meer informatie over het beheren van projecten in [!DNL Workfront], zie [ projecten beheren: artikelindex ](../../../manage-work/projects/manage-projects/manage-projects-overview.md).
+Voor meer informatie over het beheren van projecten in [!DNL Workfront], zie [&#x200B; projecten beheren: artikelindex &#x200B;](../../../manage-work/projects/manage-projects/manage-projects-overview.md).
 
-Voor meer informatie over het creëren van basislijnen op projecten, zie [ projectbasislijnen ](../../../manage-work/projects/create-projects/create-baselines.md) creëren.
+Voor meer informatie over het creëren van basislijnen op projecten, zie [&#x200B; projectbasislijnen &#x200B;](../../../manage-work/projects/create-projects/create-baselines.md) creëren.
 
 ### Projectpost {#project-postmortem}
 
 Na de voltooiing van de projecten in de portefeuille, kunt u het succes van elk project herzien door een basislijn te creëren en het te vergelijken aan de originele basislijn.
 
-Voor meer informatie over het creëren van basislijnen op projecten, zie [ projectbasislijnen ](../../../manage-work/projects/create-projects/create-baselines.md) creëren.
+Voor meer informatie over het creëren van basislijnen op projecten, zie [&#x200B; projectbasislijnen &#x200B;](../../../manage-work/projects/create-projects/create-baselines.md) creëren.

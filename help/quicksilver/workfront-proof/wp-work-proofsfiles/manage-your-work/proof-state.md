@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [ het Bewijzen ](../../../review-and-approve-work/proofing/proofing.md).
+>Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [&#x200B; het Bewijzen &#x200B;](../../../review-and-approve-work/proofing/proofing.md).
 
 In [!DNL Workfront Proof] bestaan proeven in verschillende staten. Deze staten bepalen welke acties u kunt ondernemen op het bewijs, zoals het maken van opmerkingen of het nemen van beslissingen.
 
@@ -39,7 +39,7 @@ Proefdrukken die via de pagina Nieuwe proef of de dropzone naar [!DNL Workfront 
 >
 >Proefdrukken die via de Dropzone worden geüpload, worden alleen als Actief weergegeven als de optie Proefdruk bij verzending activeren is ingeschakeld. Als deze optie niet is ingeschakeld, moet u de proefdruk handmatig activeren.
 
-Voor meer informatie over montages Dropzone, zie [ dropzone in  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-dropzone-in-wp.md) vormen.
+Voor meer informatie over montages Dropzone, zie [&#x200B; dropzone in  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-dropzone-in-wp.md) vormen.
 
 ### Vergrendeld {#locked}
 
@@ -47,7 +47,7 @@ U kunt een proefdruk vergrendelen wanneer u deze hebt gecontroleerd. Een bewijs 
 
 Gebruikers die bewerkingsrechten hebben op de proefdruk, kunnen deze ontgrendelen.
 
-Voor meer informatie over rechten, zie [ Profielen van de Toestemmingen van de Bewijs in  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md).
+Voor meer informatie over rechten, zie [&#x200B; Profielen van de Toestemmingen van de Bewijs in  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md).
 
 >[!NOTE]
 >
@@ -63,22 +63,22 @@ Nadat de beheerder een concept heeft geactiveerd, wordt uw proefdruk weergegeven
 
 ## Proefstatus weergeven en wijzigen
 
-Voor informatie over het bekijken van een lijst van alle proeven in een specifieke staat, zoals het bekijken van alle Actieve of Vergrendelde proeven, zie [ Punten op de Pagina van Bekijken in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md) in artikel [ leiden Punten op de Pagina van Bekijken in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md).
+Voor informatie over het bekijken van een lijst van alle proeven in een specifieke staat, zoals het bekijken van alle Actieve of Vergrendelde proeven, zie [&#x200B; Punten op de Pagina van Bekijken in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md) in artikel [&#x200B; leiden Punten op de Pagina van Bekijken in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md).
 
 1. Open het [!DNL Workfront Proof] -dashboard.
 
-   Voor meer informatie, zie [ Toegang  [!DNL Workfront Proof]  van Adobe Workfront ](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/access-wf-proof-in-workfront.md).
+   Voor meer informatie, zie [&#x200B; Toegang  [!DNL Workfront Proof]  van Adobe Workfront &#x200B;](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/access-wf-proof-in-workfront.md).
 
 1. Klik op de pijl **[!UICONTROL Dashboard]** naast de proefdruk die u wilt weergeven of wijzig de status van de proefdruk.**[!UICONTROL Expand]**
 
-   ![ uitbreiden ](assets/screen-shot-2018-05-02-at-11.31.29-am-350x85.png)
+   ![&#x200B; uitbreiden &#x200B;](assets/screen-shot-2018-05-02-at-11.31.29-am-350x85.png)
 
    De sectie **[!UICONTROL Workflow process]** wordt weergegeven.
 
-   ![ proces van het Werkschema ](assets/screen-shot-2018-05-02-at-11.33.20-am-350x226.png)
+   ![&#x200B; proces van het Werkschema &#x200B;](assets/screen-shot-2018-05-02-at-11.33.20-am-350x226.png)
 
 1. Bekijk **[!UICONTROL State]** in **[!UICONTROL Workflow process]**.
 
 1. (Optioneel) Als u de status wilt wijzigen, plaatst u de muis boven de huidige status **[!UICONTROL State]** en klikt u op de vervolgkeuzelijst. Selecteer vervolgens een nieuwe status.
 
-   ![ Nieuwe staat ](assets/screen-shot-2018-05-02-at-11.35.30-am.png)
+   ![&#x200B; Nieuwe staat &#x200B;](assets/screen-shot-2018-05-02-at-11.35.30-am.png)

@@ -18,9 +18,9 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [ het Bewijzen ](../../../review-and-approve-work/proofing/proofing.md).
+>Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [&#x200B; het Bewijzen &#x200B;](../../../review-and-approve-work/proofing/proofing.md).
 
-Als [!DNL Workfront Proof] -beheerder kunt u de Dropzone-instellingen van uw gebruikers instellen, weergeven en bewerken. Voor informatie over Dropzone, zie [ Dropzone ](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/dropzone.md).
+Als [!DNL Workfront Proof] -beheerder kunt u de Dropzone-instellingen van uw gebruikers instellen, weergeven en bewerken. Voor informatie over Dropzone, zie [&#x200B; Dropzone &#x200B;](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/dropzone.md).
 
 1. Klik op **[!UICONTROL Settings]** > **[!UICONTROL Account Settings]** en open vervolgens het tabblad **[!UICONTROL Dropzone]** .
 
@@ -34,10 +34,10 @@ Als [!DNL Workfront Proof] -beheerder kunt u de Dropzone-instellingen van uw geb
      >
      >E-mailen naar dropzones wordt niet meer ondersteund.
 
-   * **[!UICONTROL Dropzone Owner]**: stel de eigenaar van de dropzone in of bewerk deze. Dit is de persoon die op de hoogte wordt gesteld van nieuwe inzendingen bij de Dropzone. Om als eigenaar Dropzone te worden geplaatst, moet de gebruiker een Supervisor, Admin, het Factureren Admin, of de maker van de rekening zijn. Voor meer informatie, zie [ Profielen van de Toestemmingen van de Bewijs in  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md).
+   * **[!UICONTROL Dropzone Owner]**: stel de eigenaar van de dropzone in of bewerk deze. Dit is de persoon die op de hoogte wordt gesteld van nieuwe inzendingen bij de Dropzone. Om als eigenaar Dropzone te worden geplaatst, moet de gebruiker een Supervisor, Admin, het Factureren Admin, of de maker van de rekening zijn. Voor meer informatie, zie [&#x200B; Profielen van de Toestemmingen van de Bewijs in  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md).
 
    * **[!UICONTROL Default role for creators]**: alle verzenders worden standaard aan de proefdruk toegevoegd met deze rol.
-   * **[!UICONTROL Email notification for all creators]**: stel hier de voorkeur voor e-mailwaarschuwingen in voor makers van proefdrukken (verzenders). Zie [ de montages van het e-mailbericht in  [!DNL Workfront Proof]](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md) voor informatie over de verschillende beschikbare waakzame montages vormen.
+   * **[!UICONTROL Email notification for all creators]**: stel hier de voorkeur voor e-mailwaarschuwingen in voor makers van proefdrukken (verzenders). Zie [&#x200B; de montages van het e-mailbericht in  [!DNL Workfront Proof]](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md) voor informatie over de verschillende beschikbare waakzame montages vormen.
 
    * **[!UICONTROL New version function]**: Schakel de functie Nieuwe versie in en uit op de dropzone. Dit geeft of verwijdert de capaciteit voor mensen om nieuwe versies van proeven via Dropzone voor te leggen.
    * **[!UICONTROL Delete draft proofs after (days)]**: geef het aantal dagen op waarna een concepttest wordt verwijderd. De proefdrukken blijven in een ontwerpstatus als de Dropzone-verzending niet is voltooid nadat het bestand naar de Dropzone is geüpload.
@@ -54,7 +54,7 @@ Als [!DNL Workfront Proof] -beheerder kunt u de Dropzone-instellingen van uw geb
 
    * U kunt **[!UICONTROL Edit]** en **[!UICONTROL Delete]** alle bestaande domeinen die u eerder hebt toegevoegd.
 
-1. Onder **[!UICONTROL People to notify]**, specificeer de mensen u samen met de eigenaar wilt worden op de hoogte gebracht Dropzone wanneer de nieuwe proeven aan Dropzone [ worden voorgelegd Dropzone ](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/dropzone.md)
+1. Onder **[!UICONTROL People to notify]**, specificeer de mensen u samen met de eigenaar wilt worden op de hoogte gebracht Dropzone wanneer de nieuwe proeven aan Dropzone [&#x200B; worden voorgelegd Dropzone &#x200B;](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/dropzone.md)
 
    * Klik op **[!UICONTROL Add people]** , voer de details van de ontvanger in en klik op **[!UICONTROL Save]** .
 

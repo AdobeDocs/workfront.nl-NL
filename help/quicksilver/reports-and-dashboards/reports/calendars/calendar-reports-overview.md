@@ -24,7 +24,7 @@ Een kalenderrapport is een dynamisch rapport dat een visuele vertegenwoordiging 
 * Problemen
 * Projecten
 
-Uw vermogen om tot kalenderrapporten in [!DNL Adobe Workfront] toegang te hebben wordt bepaald door uw toegangsniveau. Voor meer informatie over de toegang nodig om kalenderrapporten te bekijken, zie [ toegang van de Verlening tot rapporten, dashboards, en kalenders ](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
+Uw vermogen om tot kalenderrapporten in [!DNL Adobe Workfront] toegang te hebben wordt bepaald door uw toegangsniveau. Voor meer informatie over de toegang nodig om kalenderrapporten te bekijken, zie [&#x200B; toegang van de Verlening tot rapporten, dashboards, en kalenders &#x200B;](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
 
 ## Uw eigen kalenders maken
 

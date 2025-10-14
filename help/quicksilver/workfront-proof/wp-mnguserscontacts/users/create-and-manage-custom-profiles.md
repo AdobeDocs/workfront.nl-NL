@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [ het Bewijzen ](../../../review-and-approve-work/proofing/proofing.md).
+>Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [&#x200B; het Bewijzen &#x200B;](../../../review-and-approve-work/proofing/proofing.md).
 
 Factureringsbeheerders en -beheerders kunnen aangepaste profielen maken en beheren om op te geven wat gebruikers kunnen doen in de account van uw organisatie en in de accountinstellingen.
 
@@ -35,30 +35,30 @@ De sectie [!UICONTROL Data administration] bepaalt de rechten die gebruikers heb
 In beide secties kunt u rechten verlenen voor de volgende items in de account:
 
 * Proefdrukken
-Voor meer informatie, zie [ Proefdrukken in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md) produceren.
+Voor meer informatie, zie [&#x200B; Proefdrukken in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md) produceren.
 
 * Bestanden
-Voor meer informatie, zie [ Dossiers en de Inhoud van het Web aan  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/upload-files-web-content.md) uploaden.
+Voor meer informatie, zie [&#x200B; Dossiers en de Inhoud van het Web aan  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/upload-files-web-content.md) uploaden.
 
 * Openbare mappen
-Voor meer informatie, zie [ Begrijp de Toestemmingen van de Omslag in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/folder-permissions.md).
+Voor meer informatie, zie [&#x200B; Begrijp de Toestemmingen van de Omslag in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/folder-permissions.md).
 
 * Persoonlijke mappen
-Voor meer informatie, zie [ Begrijp de Toestemmingen van de Omslag in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/folder-permissions.md).
+Voor meer informatie, zie [&#x200B; Begrijp de Toestemmingen van de Omslag in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/folder-permissions.md).
 
 * Contactpersonen
-Voor meer informatie, zie [ Contacten ](https://support.workfront.com/hc/en-us/sections/115000920808-Contacts).
+Voor meer informatie, zie [&#x200B; Contacten &#x200B;](https://support.workfront.com/hc/en-us/sections/115000920808-Contacts).
 
 * Groepen
-Voor meer informatie, zie [ Groepen ](https://support.workfront.com/hc/en-us/sections/115000920828-Groups).
+Voor meer informatie, zie [&#x200B; Groepen &#x200B;](https://support.workfront.com/hc/en-us/sections/115000920828-Groups).
 
 * Tags
-Voor meer informatie, zie [ Tags creëren en beheren in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/create-and-manage-tags.md).
+Voor meer informatie, zie [&#x200B; Tags creëren en beheren in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/create-and-manage-tags.md).
 
 * Aangepaste weergaven
-Voor meer informatie, zie [ creëren en leiden de Mening van de Douane in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md).
+Voor meer informatie, zie [&#x200B; creëren en leiden de Mening van de Douane in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md).
 
-![ Screenshot_2018-04-06_12-20-27.png ](assets/screenshot-2018-04-06-12-20-27-350x223.png)
+![&#x200B; Screenshot_2018-04-06_12-20-27.png &#x200B;](assets/screenshot-2018-04-06-12-20-27-350x223.png)
 
 ## Administratieve machtigingen {#administrative-permissions}
 
@@ -67,53 +67,53 @@ In deze sectie kunt u administratieve toestemmingen aan uw gebruikers verlenen. 
 U kunt de volgende machtigingen verlenen:
 
 * Accountinstellingen beheren
-Voor informatie, zie [ montages van de Rekening ](https://support.workfront.com/hc/en-us/sections/115000912147-Account-settings).
+Voor informatie, zie [&#x200B; montages van de Rekening &#x200B;](https://support.workfront.com/hc/en-us/sections/115000912147-Account-settings).
 
 * Gebruikers beheren
-Voor informatie, zie [ Gebruikers ](https://support.workfront.com/hc/en-us/sections/115000911887-Users).
+Voor informatie, zie [&#x200B; Gebruikers &#x200B;](https://support.workfront.com/hc/en-us/sections/115000911887-Users).
 
 * Besluiten beheren
-Voor informatie, zie [ een besluit over een bewijs in de het proef kijker ](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md) nemen.
+Voor informatie, zie [&#x200B; een besluit over een bewijs in de het proef kijker &#x200B;](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md) nemen.
 
 * Partners beheren
-Voor informatie, zie [ Partners ](https://support.workfront.com/hc/en-us/sections/115000912107-Partner-accounts).
+Voor informatie, zie [&#x200B; Partners &#x200B;](https://support.workfront.com/hc/en-us/sections/115000912107-Partner-accounts).
 
 * Toepassingen beheren
-Voor informatie, zie [ Integraties ](https://support.workfront.com/hc/en-us/categories/115000588707-Integrations).
+Voor informatie, zie [&#x200B; Integraties &#x200B;](https://support.workfront.com/hc/en-us/categories/115000588707-Integrations).
 
 * Aangepaste velden beheren
-Voor informatie, zie [ douanegebieden in  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/create-and-manage-custom-fields.md) creëren en beheren.
+Voor informatie, zie [&#x200B; douanegebieden in  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/create-and-manage-custom-fields.md) creëren en beheren.
 
 * Dropzone beheren
-Voor informatie, zie [ Dropzone ](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/dropzone.md).
+Voor informatie, zie [&#x200B; Dropzone &#x200B;](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/dropzone.md).
 
 * Geavanceerde workflow beheren
-Voor informatie, zie [ Geautomatiseerd overzicht van het Werkschema ](../../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md).
+Voor informatie, zie [&#x200B; Geautomatiseerd overzicht van het Werkschema &#x200B;](../../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md).
 
 * SSO beheren
-Voor informatie, zie [ Enige Sign-On in  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/managing-security/single-sign-on-overview.md).
+Voor informatie, zie [&#x200B; Enige Sign-On in  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/managing-security/single-sign-on-overview.md).
 
 * Accountgeschiedenis weergeven
-Voor informatie, zie [ Begrijpend het  [!DNL Workfront Proof]  Trail van de Controle van de Activiteit ](../../../workfront-proof/wp-work-proofsfiles/basic-features/activity-audit-trail.md).
+Voor informatie, zie [&#x200B; Begrijpend het  [!DNL Workfront Proof]  Trail van de Controle van de Activiteit &#x200B;](../../../workfront-proof/wp-work-proofsfiles/basic-features/activity-audit-trail.md).
 
 * Accountback-ups weergeven
-Voor informatie, zie [ file Uw  [!DNL Workfront Proof]  Gegevens ](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/back-up-data.md).
+Voor informatie, zie [&#x200B; file Uw  [!DNL Workfront Proof]  Gegevens &#x200B;](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/back-up-data.md).
 
 * Facturen beheren
-Voor informatie, zie [ uw het factureren ](https://support.workfront.com/hc/en-us/sections/115000912187-Managing-your-billing) beheren.
+Voor informatie, zie [&#x200B; uw het factureren &#x200B;](https://support.workfront.com/hc/en-us/sections/115000912187-Managing-your-billing) beheren.
 
 * Satellietrekeningen maken
-Voor informatie, zie [ een satellietrekening in  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/satellite-accounts/configure-sat-acct-in-wp.md) vormen.
+Voor informatie, zie [&#x200B; een satellietrekening in  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/satellite-accounts/configure-sat-acct-in-wp.md) vormen.
 
 * Lege prullenbak
-Voor informatie, zie [ herstellen en de Prullenbak in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md) leegmaken.
+Voor informatie, zie [&#x200B; herstellen en de Prullenbak in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md) leegmaken.
 
 * Machtigingsprofielen beheren
-Voor informatie, zie [ Profielen van de Toestemmingen van de Bewijs in  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md).
+Voor informatie, zie [&#x200B; Profielen van de Toestemmingen van de Bewijs in  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md).
 
 * Analyses weergeven
 
-![ Screenshot_2018-04-06_12-20-43.png ](assets/screenshot-2018-04-06-12-20-43-350x134.png)
+![&#x200B; Screenshot_2018-04-06_12-20-43.png &#x200B;](assets/screenshot-2018-04-06-12-20-43-350x134.png)
 
 ## Een nieuw aangepast profiel maken
 
@@ -124,7 +124,7 @@ Voor informatie, zie [ Profielen van de Toestemmingen van de Bewijs in  [!DNL Wo
 1. In de sectie **[!UICONTROL Profile Details]** :
 
    1. Geef in het veld **[!UICONTROL Name]** een naam voor het aangepaste profiel op.
-   1. Selecteer **[!UICONTROL Enable profile]** . ![ Screenshot_2018-04-06_12-25-09.png ](assets/screenshot-2018-04-06-12-25-09.png)
+   1. Selecteer **[!UICONTROL Enable profile]** . ![&#x200B; Screenshot_2018-04-06_12-25-09.png &#x200B;](assets/screenshot-2018-04-06-12-25-09.png)
 
 1. In de sectie **[!UICONTROL Module permissions]** :
 
@@ -133,13 +133,13 @@ Voor informatie, zie [ Profielen van de Toestemmingen van de Bewijs in  [!DNL Wo
 
 1. Selecteer in de sectie **[!UICONTROL Administrative permissions]** machtigingen voor beheerfuncties.
 
-   Voor meer informatie, zie [ Administratieve Toestemmingen ](#administrative-permissions).
+   Voor meer informatie, zie [&#x200B; Administratieve Toestemmingen &#x200B;](#administrative-permissions).
 
 1. Klik op **[!UICONTROL Create]** .
 Het nieuwe profiel is nu beschikbaar op het tabblad **[!UICONTROL Users]** .
 
 1. (Optioneel) Wijs het nieuwe profiel toe aan nieuwe en bestaande gebruikersaccounts.
-Voor meer informatie, zie [ Profielen van de Toestemmingen van de Bewijs in  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md).
+Voor meer informatie, zie [&#x200B; Profielen van de Toestemmingen van de Bewijs in  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md).
 
 ## Een profiel in- en uitschakelen {#enabling-and-disabling-a-profile}
 
@@ -148,7 +148,7 @@ Voor meer informatie, zie [ Profielen van de Toestemmingen van de Bewijs in  [!D
 1. Selecteer het profiel dat u wilt in- of uitschakelen.
 of
 Als u meerdere profielen tegelijk wilt in- of uitschakelen, selecteert u de profielen handmatig of selecteert u **[!UICONTROL Name]** om alle aangepaste profielen te selecteren.
-   ![ Screenshot_2018-04-06_12-31-53.png ](assets/screenshot-2018-04-06-12-31-53.png)
+   ![&#x200B; Screenshot_2018-04-06_12-31-53.png &#x200B;](assets/screenshot-2018-04-06-12-31-53.png)
 
 1. Klik op het vervolgkeuzemenu **[!UICONTROL More]** en klik vervolgens op een van de volgende opties, afhankelijk van de vraag of u het profiel wilt in- of uitschakelen:
 
@@ -159,7 +159,7 @@ Als u meerdere profielen tegelijk wilt in- of uitschakelen, selecteert u de prof
      >
      >Een uitgeschakeld profiel kan niet meer worden toegewezen aan gebruikers in de account. Als gebruikers met dat profiel in de account aanwezig zijn, selecteert u een ander profiel voor hen voordat het profiel wordt uitgeschakeld.
 
-     ![ Screenshot_2018-04-06_12-30-07.png ](assets/screenshot-2018-04-06-12-30-07.png)
+     ![&#x200B; Screenshot_2018-04-06_12-30-07.png &#x200B;](assets/screenshot-2018-04-06-12-30-07.png)
 
 ## Een profiel kopiëren
 
@@ -169,14 +169,14 @@ Maak kopieën van een bestaand profiel om meerdere profielen in te stellen met v
 
 1. Klik op de naam van het profiel en klik op de knop **[!UICONTROL Copy profile]** .
 
-   ![ Screenshot_2018-04-06_12-33-40.png ](assets/screenshot-2018-04-06-12-33-40.png)
+   ![&#x200B; Screenshot_2018-04-06_12-33-40.png &#x200B;](assets/screenshot-2018-04-06-12-33-40.png)
 
    Het gekopieerde profiel wordt nu weergegeven in de lijst met profielen. De naam van het oorspronkelijke profiel wordt voorafgegaan door het woord &quot;Kopiëren&quot;.
 
-   ![ Screenshot_2018-04-06_12-34-41.png ](assets/screenshot-2018-04-06-12-34-41.png)
+   ![&#x200B; Screenshot_2018-04-06_12-34-41.png &#x200B;](assets/screenshot-2018-04-06-12-34-41.png)
 
-1. (Facultatief) om het gekopieerde profiel toe te laten, zie [ Toelatend en onbruikbaar makend een Profiel ](#enabling-and-disabling-a-profile).
-1. (Facultatief) om uit te geven aan het gekopieerde profiel, zie [ het Uitgeven van een Profiel ](#editing-a-profile).
+1. (Facultatief) om het gekopieerde profiel toe te laten, zie [&#x200B; Toelatend en onbruikbaar makend een Profiel &#x200B;](#enabling-and-disabling-a-profile).
+1. (Facultatief) om uit te geven aan het gekopieerde profiel, zie [&#x200B; het Uitgeven van een Profiel &#x200B;](#editing-a-profile).
 
 ## Een profiel bewerken {#editing-a-profile}
 
@@ -186,7 +186,7 @@ Als u een profiel bewerkt, worden updates toegepast op alle gebruikers aan wie d
 
 1. Klik op de profielnaam die u wilt bewerken.
 1. Breng de gewenste wijzigingen aan in de naam of machtigingen voor het profiel. Deze wijzigingen worden automatisch opgeslagen en bijgewerkt.
-Voor meer informatie over toestemmingen, zie {de Toestemmingen van de Module 1} en [ Administratieve Toestemmingen ](#administrative-permissions).[&#128279;](#module-permissions)
+Voor meer informatie over toestemmingen, zie {de Toestemmingen van de Module 1} en [&#x200B; Administratieve Toestemmingen &#x200B;](#administrative-permissions).[&#128279;](#module-permissions)
 
 >[!NOTE]
 >
@@ -199,16 +199,16 @@ Voor meer informatie over toestemmingen, zie {de Toestemmingen van de Module 1} 
 1. Selecteer het profiel of de profielen die u wilt verwijderen.
 1. Klik op het pictogram **[!UICONTROL Trash]** boven aan de pagina.
 
-   ![ Screenshot_2018-04-06_12-36-21.png ](assets/screenshot-2018-04-06-12-36-21-163x288.png)
+   ![&#x200B; Screenshot_2018-04-06_12-36-21.png &#x200B;](assets/screenshot-2018-04-06-12-36-21-163x288.png)
 
 1. Klik op **[!UICONTROL Yes]** in het vak **[!UICONTROL Confirm dialog]** dat wordt weergegeven.
 
 1. Als het profiel aan een gebruiker is toegewezen, gebruikt u het vervolgkeuzemenu in het dialoogvenster om een ander profiel te selecteren dat u aan deze gebruiker wilt toewijzen. Klik op **[!UICONTROL Yes]** om te bevestigen.
 
-   ![ Screenshot_2018-04-02_12-02-47.png ](assets/screenshot-2018-04-02-12-02-47.png)
+   ![&#x200B; Screenshot_2018-04-02_12-02-47.png &#x200B;](assets/screenshot-2018-04-02-12-02-47.png)
 
 >[!NOTE]
 >
 >Het is niet mogelijk standaardprofielen van de account te verwijderen. Het is mogelijk standaardprofielen uit te schakelen als u deze niet wilt gebruiken in uw account.
 
-Voor meer informatie bij het onbruikbaar maken van profielen, zie [ Toelatend en onbruikbaar makend een Profiel ](#enabling-and-disabling-a-profile).
+Voor meer informatie bij het onbruikbaar maken van profielen, zie [&#x200B; Toelatend en onbruikbaar makend een Profiel &#x200B;](#enabling-and-disabling-a-profile).

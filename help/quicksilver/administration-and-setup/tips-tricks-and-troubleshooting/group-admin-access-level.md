@@ -24,13 +24,13 @@ Als een groepsbeheerder toestemmingen in hun toegangsniveau lager heeft dan die 
 
 Als een groepsbeheerder een gewijzigd de toegangsniveau van de Planner met de toestemmingen van de Mening voor Teams wordt toegewezen, maar bepaalde gebruikers een de toegangsniveau van de Arbeider met Edit toestemmingen voor Teams worden toegewezen, zal de groepsbeheerder niet met het gewijzigde de toegangsniveau van de Arbeider kunnen in wisselwerking staan.
 
-![ Admin van de Groep veranderde toegang ](assets/group-admin-modified-access.png)
+![&#x200B; Admin van de Groep veranderde toegang &#x200B;](assets/group-admin-modified-access.png)
 
 
 >[!NOTE]
 >
 >Deze logica is ook van toepassing op het vervolgkeuzemenu Uw instellingen nauwkeurig instellen. Beide toegangsniveaus kunnen Edit toegang hebben, maar de montages in het Fijne vereffenings uw montages drop-down menu moeten hoger voor groepbeheer zijn.
-> ![Uw instellingen nauwkeurig afstemmen ](assets/fine-tune-your-settings.png)
+> ![Uw instellingen nauwkeurig afstemmen &#x200B;](assets/fine-tune-your-settings.png)
 
 ## Oplossing
 

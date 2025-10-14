@@ -36,7 +36,7 @@ Adobe Workfront heeft API-versie 15 uitgebracht op 14 juni 2022. API-versie 15 b
 
 Het object Initiative maakt in de Workfront Scenario Planner ramingen voor het soort en het aantal functies, de vaste kosten en het geplande voordeel.
 
-Voor meer informatie over Initiatieven, zie [ Overzicht van Initiatieven in de Planner van het Scenario ](../../scenario-planner/initiatives-overview.md).
+Voor meer informatie over Initiatieven, zie [&#x200B; Overzicht van Initiatieven in de Planner van het Scenario &#x200B;](../../scenario-planner/initiatives-overview.md).
 
 <table>
   <col/>
@@ -604,7 +604,7 @@ Er zijn geen bronnen verwijderd voor API-versie 15.
 
 Een voorwerp AccessLevel wordt geassocieerd met gebruikers, en beschrijft de reeks van AccessLevelPermissions die bepalen wat de gebruiker tot toegang heeft.
 
-Voor meer informatie over toegangsniveaus, zie [ niveaus van de Toegang ](../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels.md).
+Voor meer informatie over toegangsniveaus, zie [&#x200B; niveaus van de Toegang &#x200B;](../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels.md).
 
 <table>
   <col/>
@@ -962,7 +962,7 @@ Het object DocumentFolder heeft de markering `SHARABLE` toegevoegd.
 
 Een object DocumentVersion vertegenwoordigt een specifieke versie van een bestand (zoals geschreven materiaal, afbeeldingen of andere vormen van informatie).
 
-Voor meer informatie over documentversies, zie [ een nieuwe versie van een document ](../../documents/managing-documents/upload-new-document-version.md) uploaden.
+Voor meer informatie over documentversies, zie [&#x200B; een nieuwe versie van een document &#x200B;](../../documents/managing-documents/upload-new-document-version.md) uploaden.
 
 <table>
   <col/>
@@ -1361,7 +1361,7 @@ Projecten zijn werkitems binnen Workfront en vormen een belangrijke bouwsteen vo
 
 Een voorwerp QueueDef vertegenwoordigt een Rij, die een project is dat aan het gebied van de Desk van de Hulp is gepubliceerd om gebruikers toe te staan om kwesties aan het voor te leggen.
 
-Voor meer informatie over de Rijen van het Verzoek, zie [ een Rij van het Verzoek ](../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md) creëren.
+Voor meer informatie over de Rijen van het Verzoek, zie [&#x200B; een Rij van het Verzoek &#x200B;](../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md) creëren.
 
 <table>
   <col/>
@@ -1407,7 +1407,7 @@ Voor meer informatie over de Rijen van het Verzoek, zie [ een Rij van het Verzoe
 
 Een ScoreCardQuestion-object vertegenwoordigt een vraag die aan een Scorecard is toegevoegd. Deze vragen worden gewoonlijk bepaald door de manager van het Portfolio, en hun antwoorden staan de manager toe om te begrijpen hoe goed een project zich op de doelstellingen van de portefeuille richt.
 
-Voor meer informatie over Scorecard Vragen, zie [ een scorecard ](../../administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md) creëren.
+Voor meer informatie over Scorecard Vragen, zie [&#x200B; een scorecard &#x200B;](../../administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md) creëren.
 
 <table>
   <col/>

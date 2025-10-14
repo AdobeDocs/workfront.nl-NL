@@ -19,7 +19,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [ het Bewijzen ](../../../review-and-approve-work/proofing/proofing.md).
+>Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [&#x200B; het Bewijzen &#x200B;](../../../review-and-approve-work/proofing/proofing.md).
 
 ## Hoe weet ik of deze verandering mijn organisatie beïnvloedt?
 
@@ -47,7 +47,7 @@ Deze URL blijft ongewijzigd. U kunt het [!DNL Workfront] -systeem net zo openen 
 
 Proefbladwijzers werken niet meer na de migratie. Iedereen die er gebruik van maakt, ontvangt een bericht dat toegang biedt tot de proefdruk via een knop [!UICONTROL Go to Proof] :
 
-![ This_proof_has_was_migrated.png ](assets/this-proof-has-been-migrated-350x361.png)
+![&#x200B; This_proof_has_was_migrated.png &#x200B;](assets/this-proof-has-been-migrated-350x361.png)
 
 ## Blijven mijn gebruikersnaam en wachtwoord hetzelfde als voorheen?
 

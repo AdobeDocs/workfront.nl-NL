@@ -41,7 +41,7 @@ U moet het volgende hebben:
 Voordat u een [!DNL Slack] -opmerking kunt plaatsen als een update, moet u
 
 * Configureren [!DNL Workfront for Slack]\
-   Voor instructies bij het vormen [!DNL Workfront for Slack], zie [ vormen  [!DNL Adobe Workfront for Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md).
+   Voor instructies bij het vormen [!DNL Workfront for Slack], zie [&#x200B; vormen  [!DNL Adobe Workfront for Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md).
 
 ## [!DNL Slack] -opmerkingen als een update plaatsen in [!DNL Workfront]
 
@@ -64,4 +64,4 @@ Voordat u een [!DNL Slack] -opmerking kunt plaatsen als een update, moet u
 
    Wanneer een opmerking afkomstig is uit [!DNL Slack] , wordt het bericht &quot; [!UICONTROL Posted from [!DNL Slack]]&quot; weergegeven in [!DNL Workfront] .
 
-   ![ gepost Update van Slack ](assets/slack-update-posted-from-slack-350x112.png)
+   ![&#x200B; gepost Update van Slack &#x200B;](assets/slack-update-posted-from-slack-350x112.png)

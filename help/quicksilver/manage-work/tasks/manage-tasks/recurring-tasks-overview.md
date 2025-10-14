@@ -30,7 +30,7 @@ U kunt terugkomende taken voor activiteiten tot stand brengen die u als deel van
 
 In dit artikel worden informatie en overwegingen beschreven over het maken en bewerken van terugkerende taken.
 
-Voor informatie over hoe te om terugkomende taken in Adobe Workfront tot stand te brengen, zie [ terugkomende taken ](../../../manage-work/tasks/create-tasks/create-recurring-tasks.md) creëren.
+Voor informatie over hoe te om terugkomende taken in Adobe Workfront tot stand te brengen, zie [&#x200B; terugkomende taken &#x200B;](../../../manage-work/tasks/create-tasks/create-recurring-tasks.md) creëren.
 
 ## Het terugkomen Overzicht van Taken en overwegingen
 

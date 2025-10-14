@@ -18,11 +18,11 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [ het Bewijzen ](../../../review-and-approve-work/proofing/proofing.md).
+>Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [&#x200B; het Bewijzen &#x200B;](../../../review-and-approve-work/proofing/proofing.md).
 
 U kunt bestanden downloaden van een bestaande proefdruk. Alleen de bestanden worden echter gedownload. Opmerkingen en andere informatie over de proefdruk worden niet opgenomen in de download.
 
 1. Klik op de werkbalk links van de proefdrukviewer op de knop **[!UICONTROL Download]** .\
-   ![ Proofing_Viewer_toolbar_button_-_Download.png ](assets/proofing-viewer-toolbar-button---download.png)
+   ![&#x200B; Proofing_Viewer_toolbar_button_-_Download.png &#x200B;](assets/proofing-viewer-toolbar-button---download.png)
 
 1. Blader naar de locatie op het bestandssysteem waar u de proefdruk wilt downloaden en klik vervolgens op **[!UICONTROL Save]** .

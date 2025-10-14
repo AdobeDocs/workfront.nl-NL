@@ -19,7 +19,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [ het Bewijzen ](../../../review-and-approve-work/proofing/proofing.md).
+>Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [&#x200B; het Bewijzen &#x200B;](../../../review-and-approve-work/proofing/proofing.md).
 
 Als u een ontwikkelaar bent met klanten die kunnen profiteren van geïntegreerde documentrevisie, samenwerking en goedkeuring, kunt u [!DNL Workfront Proof] gemakkelijk insluiten in uw toepassing. Met de API van [!DNL Workfront Proof] kunt u die functionaliteit inschakelen en honderden manuren opslaan.
 

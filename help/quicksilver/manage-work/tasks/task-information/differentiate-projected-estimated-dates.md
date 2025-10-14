@@ -29,7 +29,7 @@ In dit artikel worden de verschillen beschreven tussen de geraamde en de geraamd
 
 Wanneer de taak voor het eerst wordt gemaakt, moeten de geplande, geprojecteerde en geschatte datums overeenkomen. Er zijn enkele uitzonderingen.
 
-Voor meer informatie over het project, de taak, en de uitgiftedata in Adobe Workfront, zie [ Overzicht van het Project, de Taak, en de data van de Uitgave in Workfront ](../../../workfront-basics/navigate-workfront/workfront-navigation/definitions-pti-dates.md).
+Voor meer informatie over het project, de taak, en de uitgiftedata in Adobe Workfront, zie [&#x200B; Overzicht van het Project, de Taak, en de data van de Uitgave in Workfront &#x200B;](../../../workfront-basics/navigate-workfront/workfront-navigation/definitions-pti-dates.md).
 
 ## Overzicht van geplande datums
 
@@ -87,7 +87,7 @@ De volgende lijst toont verscheidene scenario&#39;s wanneer de Geprojecteerde Da
 
   `Projected Start Date = Constraint Date`
 
-  Voor informatie over de Datum van de Beperking, zie [ Verklarende woordenlijst van de terminologie van Adobe Workfront ](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
+  Voor informatie over de Datum van de Beperking, zie [&#x200B; Verklarende woordenlijst van de terminologie van Adobe Workfront &#x200B;](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
 
 * Wanneer een taak geen Werkelijke Datum van het Begin heeft en de taak geen gedwongen beperkingsdatum heeft:
 
@@ -97,7 +97,7 @@ De volgende lijst toont verscheidene scenario&#39;s wanneer de Geprojecteerde Da
 
   `Projected Completion Date = Commit Date`
 
-  Voor informatie over Vastlegdatum, zie [ Overzicht van de Datum van het Vastleggen ](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
+  Voor informatie over Vastlegdatum, zie [&#x200B; Overzicht van de Datum van het Vastleggen &#x200B;](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
 
 * Wanneer de taak geen bijgewerkte Vastlegdatum heeft en de taak een gedwongen beperking (moet beëindigen) voor de Geplande Voltooiingsdatum heeft die in de toekomst is:
 

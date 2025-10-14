@@ -25,7 +25,7 @@ Omdat Adobe Workfront een Adobe-product is, kunt u het openen via de Adobe Admin
 
 Alle Workfront-klanten worden uiteindelijk naar de Adobe Admin Console verplaatst. Nadat uw organisatie naar de Adobe Admin Console is gegaan, wordt de Workfront-verificatie beheerd door de Console. Door deze stap sneller voor te bereiden en uit te voeren, wordt de basis gelegd voor efficiëntie in het werkbeheer en wordt uw organisatie geplaatst voor snellere innovatie in de toekomst
 
-Voor een overzicht van Adobe Admin Console, zie [ Overzicht van Admin Console ](https://helpx.adobe.com/nl/enterprise/using/admin-console.html).
+Voor een overzicht van Adobe Admin Console, zie [&#x200B; Overzicht van Admin Console &#x200B;](https://helpx.adobe.com/nl/enterprise/using/admin-console.html).
 
 ## Controlelijst voor migratie
 
@@ -45,11 +45,11 @@ Om ervoor te zorgen dat uw organisatie naar de Adobe Admin Console kan migreren,
    >
    >Ben bereid om met de Steun van Workfront en uw team van IT betreffende authentificatievoorkeur zoals Enige Sign-On (SSO) of niet-SSO te spreken.
 
-   Voor instructies, zie de sectie van Identity Management van de [ Gids van de Plaatsing voor Adobe Admin Console ](https://helpx.adobe.com/nl/enterprise/using/deployment-planning.html).
+   Voor instructies, zie de sectie van Identity Management van de [&#x200B; Gids van de Plaatsing voor Adobe Admin Console &#x200B;](https://helpx.adobe.com/nl/enterprise/using/deployment-planning.html).
 
 1. (Voorwaardelijk) Als u Single Sign-On gebruikt, sluit u de nieuwe Adobe Admin Console aan op uw bestaande SSO-provider.
 
-   Voor meer informatie en instructies, zie [ identiteit van de Opstelling ](https://helpx.adobe.com/nl/enterprise/using/set-up-identity.html).
+   Voor meer informatie en instructies, zie [&#x200B; identiteit van de Opstelling &#x200B;](https://helpx.adobe.com/nl/enterprise/using/set-up-identity.html).
 
    >[!NOTE]
    >
@@ -59,7 +59,7 @@ Om ervoor te zorgen dat uw organisatie naar de Adobe Admin Console kan migreren,
 
    1. Dubbele e-mails verwijderen uit Workfront.
 
-      Voor instructies, zie [ de e-mailadressen van de Update van bestaande gebruikers in uw instantie van Workfront ](/help/quicksilver/administration-and-setup/manage-workfront/security/prevent-duplicate-users.md#update-email-addresses-of-existing-users-in-your-workfront-instance) in [ verhinderen dubbele gebruikers ](/help/quicksilver/administration-and-setup/manage-workfront/security/prevent-duplicate-users.md).
+      Voor instructies, zie [&#x200B; de e-mailadressen van de Update van bestaande gebruikers in uw instantie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/manage-workfront/security/prevent-duplicate-users.md#update-email-addresses-of-existing-users-in-your-workfront-instance) in [&#x200B; verhinderen dubbele gebruikers &#x200B;](/help/quicksilver/administration-and-setup/manage-workfront/security/prevent-duplicate-users.md).
 
       Als uw organisatie een dubbel e-mailadres heeft, wordt de gebruiker die wordt vertegenwoordigd door het e-mailadres met de meest recente `lastLoginDate` , verplaatst naar de Adobe Admin Console-organisatie. Andere gebruikers met dat e-mailadres worden gedeactiveerd.
 
@@ -77,7 +77,7 @@ Om ervoor te zorgen dat uw organisatie naar de Adobe Admin Console kan migreren,
 
 1. (Optioneel) Werk alle aangepaste integratie bij om OAuth2 te gebruiken.
 
-   Voor instructies bij vestiging integratie OAuth2, zie [ tot toepassingen OAuth2 voor de integratie van Workfront ](../../administration-and-setup/configure-integrations/create-oauth-application.md) leiden.
+   Voor instructies bij vestiging integratie OAuth2, zie [&#x200B; tot toepassingen OAuth2 voor de integratie van Workfront &#x200B;](../../administration-and-setup/configure-integrations/create-oauth-application.md) leiden.
 
    >[!NOTE]
    >
@@ -85,6 +85,6 @@ Om ervoor te zorgen dat uw organisatie naar de Adobe Admin Console kan migreren,
 
 Nadat uw Adobe Admin Console is geconfigureerd met Workfront, kunt u deze gebruiken om uw Workfront-systeembeheerders te maken.
 
-Voor meer informatie, zie [ gebruikers in Adobe Admin Console ](../../administration-and-setup/add-users/create-and-manage-users/admin-console.md) leiden.
+Voor meer informatie, zie [&#x200B; gebruikers in Adobe Admin Console &#x200B;](../../administration-and-setup/add-users/create-and-manage-users/admin-console.md) leiden.
 
-Voor een lijst van andere acties die verschillend zijn gebaseerd op of uw organisatie aan Adobe Admin Console is genegeerd, zie [ Op platform-gebaseerde beleidsverschillen (Adobe Workfront/Adobe Bedrijfs Platform) ](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+Voor een lijst van andere acties die verschillend zijn gebaseerd op of uw organisatie aan Adobe Admin Console is genegeerd, zie [&#x200B; Op platform-gebaseerde beleidsverschillen (Adobe Workfront/Adobe Bedrijfs Platform) &#x200B;](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).

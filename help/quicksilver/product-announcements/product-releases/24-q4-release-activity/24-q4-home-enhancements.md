@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Op deze pagina worden alle Home-verbeteringen beschreven die zijn aangebracht met de release van het vierde kwartaal van 2024 voor de voorvertoningsomgeving. Deze verbeteringen zullen beschikbaar worden gesteld in de productieomgeving, zoals vermeld.
 
-Voor een lijst van alle veranderingen beschikbaar op dit punt in het Vierde Kwartaal 2024 versiecyclus, zie [ Vierde Kwartaal 2024 releaseoverzicht ](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar op dit punt in het Vierde Kwartaal 2024 versiecyclus, zie [&#x200B; Vierde Kwartaal 2024 releaseoverzicht &#x200B;](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md).
 
 ## Updates van de wachtende goedkeuringswidget in nieuw Home
 
@@ -30,7 +30,7 @@ We hebben de volgende wijzigingen aangebracht in de wachtende goedkeuringswidget
 * **toegevoegde Goedkeuringen ik als filteroptie** heb voorgelegd: U kunt goedkeuringen nu bekijken u in nieuw Huis met dit widget hebt voorgelegd.
 * **Deadline**: U kunt de proefdeadline nu zien als één is geplaatst. Als een deadline niet is ingesteld, wordt de deadline standaard ingesteld op de aanmaakdatum.
 
-Voor meer informatie, zie [ begonnen worden met Huis ](/help/quicksilver/workfront-basics/using-home/using-the-home-area/get-started-with-home.md).
+Voor meer informatie, zie [&#x200B; begonnen worden met Huis &#x200B;](/help/quicksilver/workfront-basics/using-home/using-the-home-area/get-started-with-home.md).
 
 ## Vereenvoudig de Workfront-ervaring voor taakeigenaars met prioriteiten
 
@@ -50,9 +50,9 @@ Met Prioriteiten kunt u genieten van
 
 Prioriteiten zijn bedoeld ter vervanging van Legacy Home en nieuwe functies worden in fasen vrijgegeven.
 
-Voor meer informatie, zie [ begonnen worden met Prioriteiten ](/help/quicksilver/workfront-basics/priorities/get-started-with-priorities.md)
+Voor meer informatie, zie [&#x200B; begonnen worden met Prioriteiten &#x200B;](/help/quicksilver/workfront-basics/priorities/get-started-with-priorities.md)
 
-[ Bekijk een videodemonstratie van deze eigenschap ](https://video.tv.adobe.com/v/3434848/){target=_blank}
+[&#x200B; Bekijk een videodemonstratie van deze eigenschap &#x200B;](https://video.tv.adobe.com/v/3434848/){target=_blank}
 
 ## Veroudering van de oudere Home-ervaring met 24.10
 
@@ -63,7 +63,7 @@ Door deze wijziging worden de volgende gebieden beïnvloed:
 **Malplaatje van de Lay-out**
 
 * Het _werkruimte van het Huis_ gebied zal worden anders genoemd aan _Huis_.
-* Het _Huis en Samenvatting_ gebied zullen worden anders genoemd aan _Samenvatting paneel_. Aanpassingen op dit gebied zijn nog steeds van toepassing op het deelvenster Samenvatting in nieuwe startpagina. Voor meer informatie, zie [ Huis en Samenvatting aanpassen gebruikend een lay-outmalplaatje ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
+* Het _Huis en Samenvatting_ gebied zullen worden anders genoemd aan _Samenvatting paneel_. Aanpassingen op dit gebied zijn nog steeds van toepassing op het deelvenster Samenvatting in nieuwe startpagina. Voor meer informatie, zie [&#x200B; Huis en Samenvatting aanpassen gebruikend een lay-outmalplaatje &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
 * De volgende tabbladen worden verwijderd uit het deelvenster Home en Overzicht:
    * Projecten
    * Documenten

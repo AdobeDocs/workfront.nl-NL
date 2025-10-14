@@ -45,17 +45,17 @@ U moet het volgende hebben:
 
 ## Configureer of er automatisch proeven worden gegenereerd voor één gebruiker
 
-1. Klik het **pictogram 1&rbrace; van het Belangrijkste Menu ![ Belangrijkste menupictogram ](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik** Gebruikers **![ Gebruikers ](assets/users-icon-in-main-menu.png).**
+1. Klik het **pictogram 1&rbrace; van het Belangrijkste Menu ![&#x200B; Belangrijkste menupictogram &#x200B;](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik** Gebruikers **![&#x200B; Gebruikers &#x200B;](assets/users-icon-in-main-menu.png).**
 1. Selecteer een gebruiker met het proef toegang, dan klik **uitgeven**.
 1. In de **sectie van de Voorkeur**, laat toe of maak **automatisch produceren proeven wanneer het uploaden van documenten** checkbox onbruikbaar.
 
-   ![ autogenerate proefdrukken ](assets/autogenerate-proofs-350x216.png)
+   ![&#x200B; autogenerate proefdrukken &#x200B;](assets/autogenerate-proofs-350x216.png)
 
 1. Klik **sparen Veranderingen**.
 
 ## Configureer of er automatisch proeven worden gegenereerd voor meerdere gebruikers
 
-1. Klik het **pictogram 1&rbrace; van het Belangrijkste Menu ![ Belangrijkste menupictogram ](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik** Gebruikers **![ pictogram van Gebruikers ](assets/users-icon-in-main-menu.png).**
+1. Klik het **pictogram 1&rbrace; van het Belangrijkste Menu ![&#x200B; Belangrijkste menupictogram &#x200B;](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik** Gebruikers **![&#x200B; pictogram van Gebruikers &#x200B;](assets/users-icon-in-main-menu.png).**
 1. Selecteer gebruikers met het proef toegang, dan klik **uitgeven**.
 
    >[!IMPORTANT]
@@ -64,7 +64,7 @@ U moet het volgende hebben:
 
 1. In de **sectie van de Voorkeur**, laat **automatisch proeven toe wanneer het uploaden van documenten** checkbox, dan uitgezochte **ja** of **Nr**.
 
-   ![ Bulk autogenerate proefdrukken ](assets/autogenerate-proofs-bulk-350x285.png)
+   ![&#x200B; Bulk autogenerate proefdrukken &#x200B;](assets/autogenerate-proofs-bulk-350x285.png)
 
 1. Klik **sparen Veranderingen**.
 

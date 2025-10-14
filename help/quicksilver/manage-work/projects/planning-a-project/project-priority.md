@@ -84,15 +84,15 @@ Hier volgt een overzicht van de prioriteiten waarmee u projecten in Adobe Workfr
 
 * **het Prioriteitsgebied van het Project**: U kunt een Prioriteit aan een project manueel toewijzen. In dit artikel wordt beschreven hoe u handmatig een prioriteit aan een project toewijst.
 
-  Voor meer informatie, zie de sectie [ Overwegingen over projectprioriteit ](#considerations-about-project-priority) in dit artikel.
+  Voor meer informatie, zie de sectie [&#x200B; Overwegingen over projectprioriteit &#x200B;](#considerations-about-project-priority) in dit artikel.
 
 * **de prioriteit van een project in Portfolio Optimizer**, als het project met een portefeuille wordt geassocieerd:
 
-  Voor meer informatie over de prioriteit van een project in Portfolio Optimizer, zie in het artikel [ projecten Prioritize in Portfolio Optimizer ](../../../manage-work/portfolios/portfolio-optimizer/prioritize-projects-in-portfolio-optimizer.md).
+  Voor meer informatie over de prioriteit van een project in Portfolio Optimizer, zie in het artikel [&#x200B; projecten Prioritize in Portfolio Optimizer &#x200B;](../../../manage-work/portfolios/portfolio-optimizer/prioritize-projects-in-portfolio-optimizer.md).
 
 * **de prioriteit van een project in de Planner van het Middel**: U kunt projecten in de Planner van het Middel manueel voorrang geven, om erop te wijzen welke projecten eerst middelen zouden moeten ontvangen.
 
-  Voor meer informatie over het prioriteren van projecten in de Planner van het Middel, zie de &quot;sectie van de Prioriteit van de Planning van het Project&quot;in het artikel [ overzicht van de navigatie van de Planner van het Middel ](../../../resource-mgmt/resource-planning/resource-planner-navigation.md).
+  Voor meer informatie over het prioriteren van projecten in de Planner van het Middel, zie de &quot;sectie van de Prioriteit van de Planning van het Project&quot;in het artikel [&#x200B; overzicht van de navigatie van de Planner van het Middel &#x200B;](../../../resource-mgmt/resource-planning/resource-planner-navigation.md).
 
 ## Overwegingen over projectprioriteit {#considerations-about-project-priority}
 
@@ -102,7 +102,7 @@ Houd rekening met het volgende wanneer u een prioriteit voor uw projecten select
 
 * Uw Workfront-beheerder bepaalt de prioriteiten die beschikbaar zijn in Workfront. Nadat zij hen vestigen, zijn zij beschikbaar voor u om met projecten op het Prioritaire gebied te associëren.
 
-  Voor meer informatie over het creëren van Prioriteiten in Workfront, zie het artikel [ prioriteiten ](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md) creëren en aanpassen.
+  Voor meer informatie over het creëren van Prioriteiten in Workfront, zie het artikel [&#x200B; prioriteiten &#x200B;](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md) creëren en aanpassen.
 
 * Wanneer u het Prioriteitsveld van een project bijwerkt, wordt deze Prioriteit niet overgedragen naar de Portfolio Optimizer of de Resource Planner. Het gebied van de Prioriteit van het project is eenvoudig een handmarkering die u op het project plaatst om zijn belang aan andere gebruikers te wijzen.
 * De prioritaire waarde van een project wordt hoofdzakelijk gebruikt voor rapportagedoeleinden.
@@ -119,7 +119,7 @@ Houd rekening met het volgende wanneer u een prioriteit voor uw projecten select
 
 1. Ga naar het project waarvan Prioriteit u wilt bijwerken.
 1. Klik **Details van het Project** in het linkerpaneel.
-1. Klik **uitgeven** pictogram ![ geeft pictogram ](assets/qs-edit-icon.png) in de hoger-juiste hoek van het gebied van de Details van het Project uit, dan klik **Overzicht**.
+1. Klik **uitgeven** pictogram ![&#x200B; geeft pictogram &#x200B;](assets/qs-edit-icon.png) in de hoger-juiste hoek van het gebied van de Details van het Project uit, dan klik **Overzicht**.
 
 1. Op het **Prioritaire** gebied, selecteer van de volgende opties:
 
@@ -132,7 +132,7 @@ Houd rekening met het volgende wanneer u een prioriteit voor uw projecten select
    * Hoog
    * Dringend
 
-   ![ Prioritaire lijst op een project ](assets/project-priority-picker-list.png)
+   ![&#x200B; Prioritaire lijst op een project &#x200B;](assets/project-priority-picker-list.png)
 
 1. Klik **sparen Veranderingen**.
 

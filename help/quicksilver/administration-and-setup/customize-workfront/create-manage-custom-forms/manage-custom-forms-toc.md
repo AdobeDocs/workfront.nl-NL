@@ -23,7 +23,7 @@ Deze sectie bevat de volgende artikelen:
 * [De naam van een aangepast formulier wijzigen](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/rename-a-custom-form.md)
 * [Delen configureren voor aangepaste velden en widgets in een formulier](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/share-custom-fields.md)
 * [Een aangepast formulier delen](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md)
-* [ Toegang tot een gedeeld gebied van de douane ](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/access-for-a-shared-custom-form-you-want-to-use.md)
+* [&#x200B; Toegang tot een gedeeld gebied van de douane &#x200B;](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/access-for-a-shared-custom-form-you-want-to-use.md)
 * [Een aangepast formulier deactiveren of opnieuw activeren](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/activate-deactivate-form.md)
 * [Aangepaste formulieren in rapporten raadplegen](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/reference-custom-forms-in-report.md)
 * [Rapporten weergeven die een aangepast veld of een aangepaste widget gebruiken](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/view-all-reports-that-use-a-particular-custom-field.md)

@@ -56,6 +56,6 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 1. Vind de proef u nodig hebt, dan klik **Open proef**.
 
 1. In de toolbar op de linkerzijde van de het proefKijker, klik de **knoop van de Download**.\
-   ![ Proofing_Viewer_toolbar_button_-_Download.png ](assets/proofing-viewer-toolbar-button---download.png)
+   ![&#x200B; Proofing_Viewer_toolbar_button_-_Download.png &#x200B;](assets/proofing-viewer-toolbar-button---download.png)
 
 1. Blader naar de plaats op uw dossiersysteem waar u de proef wilt downloaden, dan klik **sparen**.

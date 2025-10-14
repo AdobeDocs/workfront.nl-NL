@@ -18,16 +18,16 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [ het Bewijzen ](../../../review-and-approve-work/proofing/proofing.md).
+>Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [&#x200B; het Bewijzen &#x200B;](../../../review-and-approve-work/proofing/proofing.md).
 
-Als u een [!DNL Workfront Proof] partnerverhouding met een andere organisatie (zoals een cliënt of een andere afdeling in uw bedrijf) hebt, kunt u proef, dossiers, omslagen, en contactdetails met de partner delen. Voor meer informatie over partnerverhoudingen, zie [ een partnerverband tussen de rekeningen van Workfront Proof beheren ](../../../workfront-proof/wp-acct-admin/partner-accounts/manage-partner-relationship-between-wp-accts.md).
+Als u een [!DNL Workfront Proof] partnerverhouding met een andere organisatie (zoals een cliënt of een andere afdeling in uw bedrijf) hebt, kunt u proef, dossiers, omslagen, en contactdetails met de partner delen. Voor meer informatie over partnerverhoudingen, zie [&#x200B; een partnerverband tussen de rekeningen van Workfront Proof beheren &#x200B;](../../../workfront-proof/wp-acct-admin/partner-accounts/manage-partner-relationship-between-wp-accts.md).
 
 ## Ongeveer het Delen van Punten met een Partner
 
 Overweeg het volgende wanneer het delen van punten met een partner:
 
 * U kunt een gebruiker in een partneraccount alleen als eigenaar van een proefdruk kiezen als het een nieuwe proefdruk betreft. U kunt dit niet doen voor bestaande proefdrukken of een nieuwe versie van een proefdruk.
-* Wanneer u bij punt met een partner deelt, gaat u de het uitgeven rechten voor het bewijs tot de Controleurs en Beheerders in de partnerrekening over. Supervisors en beheerders in de account waarin de proefdruk is gemaakt, hebben geen bewerkingsrechten meer op de proefdruk (dit geldt ook voor de maker van de proefdruk). Voor meer informatie over toestemmingen in [!DNL Workfront] Bewijs, zie [ Profielen van de Toestemmingen van de Bewijs van de Bewijs in  [!DNL Workfront]  Bewijs ](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md).
+* Wanneer u bij punt met een partner deelt, gaat u de het uitgeven rechten voor het bewijs tot de Controleurs en Beheerders in de partnerrekening over. Supervisors en beheerders in de account waarin de proefdruk is gemaakt, hebben geen bewerkingsrechten meer op de proefdruk (dit geldt ook voor de maker van de proefdruk). Voor meer informatie over toestemmingen in [!DNL Workfront] Bewijs, zie [&#x200B; Profielen van de Toestemmingen van de Bewijs van de Bewijs in  [!DNL Workfront]  Bewijs &#x200B;](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md).
 * Het bewijs wordt opgeslagen op de rekening waar het bewijs eigendom is (niet de rekening waar het werd gecreëerd).
 * De branding van het bewijs wordt afgenomen van de rekening waar het bewijs eigendom is (niet de rekening waar het bewijs werd gemaakt).
 
@@ -36,10 +36,10 @@ Overweeg het volgende wanneer het delen van punten met een partner:
 Nadat u een erkende verhouding met een partner hebt, kunt u punten, zoals omslagen, dossiers, en proefdrukken met hen gemakkelijk delen.
 
 1. Deel een proefdruk of bestand.\
-   Voor meer informatie over het delen, zie [ een Bewijs van het Aandeel in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof.md) [ Dossiers van het Aandeel in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-files.md) en [ Mappen van het Aandeel in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/share-folders.md).
+   Voor meer informatie over het delen, zie [&#x200B; een Bewijs van het Aandeel in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof.md) [&#x200B; Dossiers van het Aandeel in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-files.md) en [&#x200B; Mappen van het Aandeel in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/share-folders.md).
 
 1. In de sectie **[!UICONTROL Share]** van de pagina [!UICONTROL New Proof] of [!UICONTROL New File] wordt de naam van uw partner weergegeven wanneer u de naam typt in het veld voor automatisch aanvullen, net als wanneer u de naam deelt met een andere gebruiker in het systeem.\
-   ![ proof_share_partner.png ](assets/proof-share-partner-350x258.png)
+   ![&#x200B; proof_share_partner.png &#x200B;](assets/proof-share-partner-350x258.png)
 
 ## Het maken van een Gebruiker in een Rekening van de Partner de Eigenaar van het Bewijs
 
@@ -57,7 +57,7 @@ Als u de verhoudingen van de opstellingspartner met andere [!DNL Workfront Proof
 Om een gebruiker in een partnerrekening te maken de eigenaar van een bewijs:
 
 1. Klik op de pagina [!UICONTROL New Proof] op de koppeling **[!DNL Change]** . (1)\
-   ![ Make_a_user_in_a_partner_account_the_owner_of_a_proof.png ](assets/make-a-user-in-a-partner-account-the-owner-of-a-proof-350x74.png)
+   ![&#x200B; Make_a_user_in_a_partner_account_the_owner_of_a_proof.png &#x200B;](assets/make-a-user-in-a-partner-account-the-owner-of-a-proof-350x74.png)
 
 1. Kies een gebruiker van een rekening van de Partner om de eigenaar van de proef te zijn. (2)\
-   ![ Make_a_user_in_a_partner_account_the_owner_of_a_proof__1_.png ](assets/make-a-user-in-a-partner-account-the-owner-of-a-proof--1--350x209.png)
+   ![&#x200B; Make_a_user_in_a_partner_account_the_owner_of_a_proof__1_.png &#x200B;](assets/make-a-user-in-a-partner-account-the-owner-of-a-proof--1--350x209.png)

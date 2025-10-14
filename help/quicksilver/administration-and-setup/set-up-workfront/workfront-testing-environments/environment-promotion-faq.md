@@ -38,11 +38,11 @@ Nee. De Bevordering van het milieu is beschikbaar voor zowel IMS-Toegelaten als 
 
 * Een Workfront-beheerder kan de licentie van uw organisatie vinden.
 
-   1. Klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, of (als beschikbaar), klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon-left-nav.png) in de upper-left hoek, dan klik **[!UICONTROL Setup]** ![ pictogram van de Opstelling ](/help/_includes/assets/gear-icon-setup.png).
+   1. Klik het **[!UICONTROL Main Menu]** pictogram ![&#x200B; Belangrijkste Menu &#x200B;](/help/_includes/assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, of (als beschikbaar), klik het **[!UICONTROL Main Menu]** pictogram ![&#x200B; Belangrijkste Menu &#x200B;](/help/_includes/assets/main-menu-icon-left-nav.png) in de upper-left hoek, dan klik **[!UICONTROL Setup]** ![&#x200B; pictogram van de Opstelling &#x200B;](/help/_includes/assets/gear-icon-setup.png).
    1. Klik **Systeem** in het linkerpaneel
    1. Om uw plan van Workfront te bekijken, selecteer **Vergunningen**.
 Uw plan wordt in de rechterbovenhoek van de pagina weergegeven.
-      ![ plaats plan ](assets/locate-plan.png)
+      ![&#x200B; plaats plan &#x200B;](assets/locate-plan.png)
 
   of
 * Neem contact op met uw Workfront-accountvertegenwoordiger.

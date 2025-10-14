@@ -21,12 +21,12 @@ ht-degree: 0%
 
 Deze sectie bevat de volgende artikelen:
 
-* [ vorm proefdrukmontages voor uw organisatie ](../../../administration-and-setup/manage-workfront/configure-proofing/configure-proofing-organization.md)
-* [ synchronisatie van de Gebruiker tussen Adobe Workfront en Workfront Proof ](../../../administration-and-setup/manage-workfront/configure-proofing/user-sync-proofing.md)
-* [ Toegang tot het proef functionaliteit in Workfront ](../../../administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md)
-* [ installeer de Desktop Proofing Viewer voor uw organisatie ](../../../administration-and-setup/manage-workfront/configure-proofing/install-desktop-proofing-viewer-org.md)
-* [ vorm standaard het proef rollen ](../../../administration-and-setup/manage-workfront/configure-proofing/configure-default-proofing-roles.md)
-* [ vorm standaard de montages van het proefdruk e-mailbericht ](../../../administration-and-setup/manage-workfront/configure-proofing/configure-default-proof-email-notification-settings.md)
-* [ vorm het Proofing van een gebruiker toegang ](../../../administration-and-setup/manage-workfront/configure-proofing/configure-a-users-proofing-access.md)
-* [ vormen het delen montages voor uw gebruikers ](../../../administration-and-setup/manage-workfront/configure-proofing/configure-sharing-settings-users.md)
+* [&#x200B; vorm proefdrukmontages voor uw organisatie &#x200B;](../../../administration-and-setup/manage-workfront/configure-proofing/configure-proofing-organization.md)
+* [&#x200B; synchronisatie van de Gebruiker tussen Adobe Workfront en Workfront Proof &#x200B;](../../../administration-and-setup/manage-workfront/configure-proofing/user-sync-proofing.md)
+* [&#x200B; Toegang tot het proef functionaliteit in Workfront &#x200B;](../../../administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md)
+* [&#x200B; installeer de Desktop Proofing Viewer voor uw organisatie &#x200B;](../../../administration-and-setup/manage-workfront/configure-proofing/install-desktop-proofing-viewer-org.md)
+* [&#x200B; vorm standaard het proef rollen &#x200B;](../../../administration-and-setup/manage-workfront/configure-proofing/configure-default-proofing-roles.md)
+* [&#x200B; vorm standaard de montages van het proefdruk e-mailbericht &#x200B;](../../../administration-and-setup/manage-workfront/configure-proofing/configure-default-proof-email-notification-settings.md)
+* [&#x200B; vorm het Proofing van een gebruiker toegang &#x200B;](../../../administration-and-setup/manage-workfront/configure-proofing/configure-a-users-proofing-access.md)
+* [&#x200B; vormen het delen montages voor uw gebruikers &#x200B;](../../../administration-and-setup/manage-workfront/configure-proofing/configure-sharing-settings-users.md)
 * [Geautomatiseerde workflowsjablonen maken en beheren](../../../administration-and-setup/manage-workfront/configure-proofing/create-manage-automated-workflow-templates.md)

@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Deze pagina beschrijft kleine updates aan de blik en het gevoel van diverse gebieden van de toepassing van Adobe Workfront die binnen het Derde Kwartaal 2025 releasetijdschema werden gemaakt.
 
-Voor een lijst van alle veranderingen beschikbaar met het Derde Kwartaal 2025 versie, zie [ Derde Kwartaal 2025 releaseoverzicht ](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar met het Derde Kwartaal 2025 versie, zie [&#x200B; Derde Kwartaal 2025 releaseoverzicht &#x200B;](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md).
 
 ## Nieuwe look-and-feel voor berichten in het Aankondigingscentrum
 
@@ -30,4 +30,4 @@ Berichten in het Aankondigingscentrum komen nu overeen met de stijl van Workfron
 
 ## Modernisering van de interface
 
-We werken de interface in Adobe Workfront bij om de gebruikerservaring te verbeteren en deze te verenigen met andere Adobe-toepassingen. Deze veranderingen worden vrijgegeven buiten het standaardversieschema. Voor een lijst van deze veranderingen, zie [ Modernisering van de Interface ](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
+We werken de interface in Adobe Workfront bij om de gebruikerservaring te verbeteren en deze te verenigen met andere Adobe-toepassingen. Deze veranderingen worden vrijgegeven buiten het standaardversieschema. Voor een lijst van deze veranderingen, zie [&#x200B; Modernisering van de Interface &#x200B;](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).

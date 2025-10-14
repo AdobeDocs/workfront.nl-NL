@@ -27,7 +27,7 @@ Als u wilt integreren met Workfront en uw clienttoepassing in staat wilt stellen
 
 ## Een OAuth2-toepassing maken
 
-Voor instructies bij het creëren van de toepassing OAuth2, zie [ een toepassing OAuth2 gebruikend gebruikersgeloofsbrieven (de stroom van de vergunningscode) ](../../administration-and-setup/configure-integrations/create-oauth-application.md#create3) in [ creëren toepassingen OAuth2 voor de integratie van Workfront ](../../administration-and-setup/configure-integrations/create-oauth-application.md)
+Voor instructies bij het creëren van de toepassing OAuth2, zie [&#x200B; een toepassing OAuth2 gebruikend gebruikersgeloofsbrieven (de stroom van de vergunningscode) &#x200B;](../../administration-and-setup/configure-integrations/create-oauth-application.md#create3) in [&#x200B; creëren toepassingen OAuth2 voor de integratie van Workfront &#x200B;](../../administration-and-setup/configure-integrations/create-oauth-application.md)
 
 >[!NOTE]
 >
@@ -85,7 +85,7 @@ De externe toepassing kan configuratie vereisen. De volgende lijst bevat informa
 
 ## Stroom van machtigingscode instellen
 
-![ OAuth codestroom ](assets/oauth-2-authorization-code-flow.png)
+![&#x200B; OAuth codestroom &#x200B;](assets/oauth-2-authorization-code-flow.png)
 
 Om uw gebruikers binnen met OAuth2 te registreren, gebruik het volgende proces:
 
@@ -93,7 +93,7 @@ Om uw gebruikers binnen met OAuth2 te registreren, gebruik het volgende proces:
 
    Als de gebruiker al is aangemeld bij Workfront op dezelfde browser of als de gebruiker zich met succes heeft aangemeld bij Workfront, wordt de gebruiker omgeleid naar het instemmingsscherm:
 
-   ![ Consent scherm ](assets/consent-screen-350x227.png)
+   ![&#x200B; Consent scherm &#x200B;](assets/consent-screen-350x227.png)
 
 1. Als de gebruiker de toegang toestaat, wordt de pagina omgeleid naar `redirect_url`. Het omleiden moet de volgende vraagparameters omvatten:
 
@@ -172,7 +172,7 @@ Om uw gebruikers binnen met OAuth2 te registreren, gebruik het volgende proces:
 
 ## Toegangstoken vernieuwen instellen
 
-![ verfrist de stroom van het toegangstoken ](assets/refresh-access-token-flow-350x142.png)
+![&#x200B; verfrist de stroom van het toegangstoken &#x200B;](assets/refresh-access-token-flow-350x142.png)
 
 Om access_token te verfrissen moeten wij opnieuw een &quot;POST&quot;vraag aan het symbolische eindpunt doen. Deze keer sturen we een andere formuliergegevens als volgt:
 

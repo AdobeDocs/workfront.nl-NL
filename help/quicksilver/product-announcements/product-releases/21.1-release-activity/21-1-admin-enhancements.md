@@ -19,7 +19,7 @@ ht-degree: 0%
 
 Op deze pagina worden alle beheerderverbeteringen beschreven die zijn aangebracht met de versie 21.1 voor de voorvertoningsomgeving. Deze verbeteringen zullen in de productieomgeving beschikbaar worden gesteld in de week van 15 februari 2021.
 
-Voor een lijst van alle veranderingen beschikbaar met de versie 21.1, zie [ overzicht van de versie 21.1 ](../../../product-announcements/product-releases/21.1-release-activity/21-1-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar met de versie 21.1, zie [&#x200B; overzicht van de versie 21.1 &#x200B;](../../../product-announcements/product-releases/21.1-release-activity/21-1-release-overview.md).
 
 ## Introduceer nieuwe het Niveau van de Toegang plaatsen voor het kopiëren van projecten
 
@@ -27,11 +27,11 @@ Om u meer controle, als systeembeheerder, aan te geven wat de Planners met een p
 
 Als uw gebruikers toegang tot Edit projecten op hun toegangsniveau voorafgaand aan deze verandering hadden, zullen zij automatisch deze die plaatsen toegelaten hebben wanneer deze eigenschap wordt vrijgegeven.
 
-Voor informatie over het de toegangsniveau van het Plan, zie [ toegang van de Verlening tot projecten ](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md).
+Voor informatie over het de toegangsniveau van het Plan, zie [&#x200B; toegang van de Verlening tot projecten &#x200B;](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md).
 
-Voor informatie over het kopiëren van een project, zie [ een project ](../../../manage-work/projects/manage-projects/copy-project.md) kopiëren.
+Voor informatie over het kopiëren van een project, zie [&#x200B; een project &#x200B;](../../../manage-work/projects/manage-projects/copy-project.md) kopiëren.
 
-Deze eigenschap is nu inbegrepen in de [ Grondbeginselen van de Beheerder in de nieuwe ervaring van Workfront, Deel 1: De 1&rbrace; het leren weg van de Organisatie van de gebruiker op Workfront Één.](https://experienceleague.adobe.com/nl/docs/workfront-learn/tutorials-workfront/home)
+Deze eigenschap is nu inbegrepen in de [&#x200B; Grondbeginselen van de Beheerder in de nieuwe ervaring van Workfront, Deel 1: De 1&rbrace; het leren weg van de Organisatie van de gebruiker op Workfront Één.](https://experienceleague.adobe.com/nl/docs/workfront-learn/tutorials-workfront/home)
 
 ## Selecteer in een aangepast formulier op een object alle items in een meerkeuzeveld
 
@@ -41,7 +41,7 @@ Deze eigenschap is nu inbegrepen in de [ Grondbeginselen van de Beheerder in de 
 
 Als u op de pagina Details voor een object een meerkeuzeveld invult in een aangepast formulier, kunt u op Alles selecteren klikken als u alle beschikbare opties wilt selecteren.
 
-Voor informatie over het uitgeven van gegevens over een Vorm van de Douane, zie [ informatie op de gebieden van de douanevorm ](../../../workfront-basics/work-with-custom-forms/edit-custom-forms.md) uitgeven.
+Voor informatie over het uitgeven van gegevens over een Vorm van de Douane, zie [&#x200B; informatie op de gebieden van de douanevorm &#x200B;](../../../workfront-basics/work-with-custom-forms/edit-custom-forms.md) uitgeven.
 
 ## Alle aangepaste formuliervelden voor een object opnieuw berekenen
 
@@ -51,7 +51,7 @@ Dit is vooral nuttig nadat iemand gegevens in een ander voorwerp uitgeeft dat do
 
 Eerder, moesten de gebruikers werkwegen gebruiken om ervoor te zorgen dat alle gegevens in berekende douanevelden huidig waren. Ze hebben het object bijvoorbeeld samen met andere objecten bewerkt om de herberekeningsoptie te gebruiken die beschikbaar is voor bulkbewerking.
 
-Voor meer informatie, zie [ informatie op de gebieden van de douanevorm ](../../../workfront-basics/work-with-custom-forms/edit-custom-forms.md) uitgeven.
+Voor meer informatie, zie [&#x200B; informatie op de gebieden van de douanevorm &#x200B;](../../../workfront-basics/work-with-custom-forms/edit-custom-forms.md) uitgeven.
 
 ## Taak- en probleemvoorkeuren voor groepsbeheerders ontgrendelen
 
@@ -61,9 +61,9 @@ Voor meer informatie, zie [ informatie op de gebieden van de douanevorm ](../../
 
 Adobe Workfront-beheerders kunnen groepsbeheerders nu meer autonomie geven door afzonderlijke taak- en uitgiftevoorkeuren te ontgrendelen. Wanneer een voorkeur wordt ontgrendeld, kunnen de Beheerders van de Groep het voor hun groepen vormen om de unieke behoeften van elke groep en interne processen te dienen.
 
-Voor meer informatie, zie [ taak vormen en uitgiftevoorkeur voor een groep ](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md).
+Voor meer informatie, zie [&#x200B; taak vormen en uitgiftevoorkeur voor een groep &#x200B;](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md).
 
-Deze eigenschap is nu inbegrepen in de [ Grondbeginselen van de Beheerder in de nieuwe ervaring van Workfront, Deel 2: De Opstelling van het project ](https://experienceleague.adobe.com/nl/docs/workfront-learn/tutorials-workfront/home) het leren weg op Workfront Één.
+Deze eigenschap is nu inbegrepen in de [&#x200B; Grondbeginselen van de Beheerder in de nieuwe ervaring van Workfront, Deel 2: De Opstelling van het project &#x200B;](https://experienceleague.adobe.com/nl/docs/workfront-learn/tutorials-workfront/home) het leren weg op Workfront Één.
 
 ## Instellingen voor toegangsniveaus voor portfolio&#39;s en programma&#39;s afzonderlijk configureren
 
@@ -71,11 +71,11 @@ Nu is het gemakkelijker om gebruikerstoegang tot portefeuilles en programma&#39;
 
 Eerder werden de instellingen voor het toegangsniveau voor portfolio&#39;s en programma&#39;s gecombineerd. Dit betekende dat u toegangsinstellingen voor programma&#39;s niet kon vormen zonder hen de zelfde manier voor portefeuilles te vormen, en het zelfde was waar in omgekeerde.
 
-Voor informatie over het vormen van een toegangsniveau, zie [ tot douanetoegangsniveaus ](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md) leiden of wijzigen.
+Voor informatie over het vormen van een toegangsniveau, zie [&#x200B; tot douanetoegangsniveaus &#x200B;](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md) leiden of wijzigen.
 
-Voor informatie over toegangsmontages die u voor programma&#39;s en portefeuilles kunt vormen, zie [ Configurable toegang tot functionaliteit voor elk objecten type ](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
+Voor informatie over toegangsmontages die u voor programma&#39;s en portefeuilles kunt vormen, zie [&#x200B; Configurable toegang tot functionaliteit voor elk objecten type &#x200B;](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
 
-Deze eigenschap is nu inbegrepen in de [ Grondbeginselen van de Beheerder in de nieuwe ervaring van Workfront, Deel 1: De 1&rbrace; het leren weg van de Organisatie van de gebruiker op Workfront Één.](https://experienceleague.adobe.com/nl/docs/workfront-learn/tutorials-workfront/home)
+Deze eigenschap is nu inbegrepen in de [&#x200B; Grondbeginselen van de Beheerder in de nieuwe ervaring van Workfront, Deel 1: De 1&rbrace; het leren weg van de Organisatie van de gebruiker op Workfront Één.](https://experienceleague.adobe.com/nl/docs/workfront-learn/tutorials-workfront/home)
 
 ## Alle selectievakjes in een reeks selecteren bij het bewerken van gegevens in een aangepast formulier
 
@@ -87,7 +87,7 @@ Als u op de pagina Details voor een object een veld Aangepast formulier met sele
 
 Deze optie wordt alleen weergegeven als het veld meer dan twee selectievakjes bevat.
 
-Voor meer informatie, zie [ informatie op de gebieden van de douanevorm ](../../../workfront-basics/work-with-custom-forms/edit-custom-forms.md) uitgeven.
+Voor meer informatie, zie [&#x200B; informatie op de gebieden van de douanevorm &#x200B;](../../../workfront-basics/work-with-custom-forms/edit-custom-forms.md) uitgeven.
 
 ## Workfront e-maillijst van gewenste personen configureren
 
@@ -98,7 +98,7 @@ Om uw gegevens beter te beveiligen, kunt u nu een lijst van gewenste personen va
 
 Als u bijvoorbeeld vertrouwelijke gegevens wilt beschermen, zoals een rapport waarin uw klanten met een verhoogd risico worden vermeld, kunt u alleen uw interne e-maildomein of domeinen in de e-maillijst van gewenste personen opnemen. Op die manier kunnen gebruikers dat rapport (of een ander Workfront-rapport) niet naar een extern e-mailadres verzenden.
 
-Voor meer informatie, zie de sectie [ de lijst van gewenste personen van uw firewall ](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md#configur) in het artikel [ vormt de lijst van gewenste personen van uw firewall ](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
+Voor meer informatie, zie de sectie [&#x200B; de lijst van gewenste personen van uw firewall &#x200B;](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md#configur) in het artikel [&#x200B; vormt de lijst van gewenste personen van uw firewall &#x200B;](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
 
 ## Een groepsbeheerder toewijzen voor een subgroep
 
@@ -106,9 +106,9 @@ Om het voor de niveaus van uw organisatie gemakkelijker te maken om onafhankelij
 
 Eerder, slechts kon een top-level groep de Beheerders van de Groep hebben, en die beheerders leidden alle subgroepen onder de top-level groep.
 
-Voor meer informatie, zie de sectie [ beheerders van de Groep voor subgroepen ](../../../administration-and-setup/manage-groups/groups-overview/subgroups.md#for) in het artikel [ Subgroups overzicht ](../../../administration-and-setup/manage-groups/groups-overview/subgroups.md).
+Voor meer informatie, zie de sectie [&#x200B; beheerders van de Groep voor subgroepen &#x200B;](../../../administration-and-setup/manage-groups/groups-overview/subgroups.md#for) in het artikel [&#x200B; Subgroups overzicht &#x200B;](../../../administration-and-setup/manage-groups/groups-overview/subgroups.md).
 
-Deze eigenschap is nu inbegrepen in de [ Grondbeginselen van de Beheerder in de nieuwe ervaring van Workfront, Deel 1: De 1&rbrace; het leren weg van de Organisatie van de gebruiker op Workfront Één.](https://experienceleague.adobe.com/nl/docs/workfront-learn/tutorials-workfront/home)
+Deze eigenschap is nu inbegrepen in de [&#x200B; Grondbeginselen van de Beheerder in de nieuwe ervaring van Workfront, Deel 1: De 1&rbrace; het leren weg van de Organisatie van de gebruiker op Workfront Één.](https://experienceleague.adobe.com/nl/docs/workfront-learn/tutorials-workfront/home)
 
 ## Gebeurtenismeldingen configureren voor groepen
 
@@ -122,7 +122,7 @@ Eerder waren gebeurtenismeldingen alleen configureerbaar door een Workfront-behe
 
 Raadpleeg de volgende artikelen voor meer informatie:
 
-* [ ontgrendel of slotconfiguratie van gebeurtenisberichten voor alle groepen ](../../../administration-and-setup/manage-workfront/emails/unlock-configuration-of-event-notifications-for-groups.md)
+* [&#x200B; ontgrendel of slotconfiguratie van gebeurtenisberichten voor alle groepen &#x200B;](../../../administration-and-setup/manage-workfront/emails/unlock-configuration-of-event-notifications-for-groups.md)
 * [Gebeurtenismeldingen voor een groep weergeven en configureren](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md)
 
 <!--This feature is now included in the [Administrator Fundamentals in the new Workfront experience, Part 1: User Organization](https://experienceleague.adobe.com/nl/docs/workfront-learn/tutorials-workfront/home) learning path on Workfront One.
@@ -135,11 +135,11 @@ Als u een Beheerder van de Groep bent, is het gemakkelijk om met de projecten en
 
 * Klik Projecten in het linkermenu om de projecten van de groep te zien en nieuwe degenen voor de groep tot stand te brengen. Als een geselecteerd project met u is gedeeld, kunt u de knopen in de toolbar gebruiken om het uit te geven, uit te voeren, te kopiëren, of te schrappen.
 
-  Voor meer informatie, zie [ tot stand brengen en wijzigen de projecten van een groep ](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md).
+  Voor meer informatie, zie [&#x200B; tot stand brengen en wijzigen de projecten van een groep &#x200B;](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md).
 
 * Klik op Goedkeuringen in het linkermenu om alle goedkeuringsprocessen voor de groep weer te geven en te beheren.
 
-  Voor meer informatie, zie [ groep-vlakke goedkeuringsprocessen ](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-groups-approval-processes.md).
+  Voor meer informatie, zie [&#x200B; groep-vlakke goedkeuringsprocessen &#x200B;](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-groups-approval-processes.md).
 
 Deze functionaliteit is ook beschikbaar voor Workfront-beheerders.
 
@@ -149,5 +149,5 @@ Om te bepalen hoe goed uw vergunningen worden verdeeld, kunt u nu het aantal ver
 
 Als u een top-level groep beheert, kunt u zowel het aantal vergunningen bekijken die in een groep (en zijn subgroepen) worden gebruikt als het maximumaantal vergunningen dat voor de groep wordt toegewezen.
 
-Voor meer informatie, zie [ Mening het aantal vergunningen die in een groep in de nieuwe ervaring van Adobe Workfront worden toegewezen en worden gebruikt ](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-number-licenses-allocated-used-group.md).
+Voor meer informatie, zie [&#x200B; Mening het aantal vergunningen die in een groep in de nieuwe ervaring van Adobe Workfront worden toegewezen en worden gebruikt &#x200B;](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-number-licenses-allocated-used-group.md).
 

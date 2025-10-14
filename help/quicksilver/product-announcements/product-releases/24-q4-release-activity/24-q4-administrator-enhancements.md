@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Op deze pagina worden alle beheerderverbeteringen beschreven die zijn aangebracht met de release van het vierde kwartaal van 2024 voor de voorvertoningsomgeving. Deze verbeteringen zullen beschikbaar worden gesteld in de productieomgeving, zoals vermeld.
 
-Voor een lijst van alle veranderingen beschikbaar op dit punt in het Vierde Kwartaal 2024 versiecyclus, zie [ Vierde Kwartaal 2024 releaseoverzicht ](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar op dit punt in het Vierde Kwartaal 2024 versiecyclus, zie [&#x200B; Vierde Kwartaal 2024 releaseoverzicht &#x200B;](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md).
 
 ## Toegangsniveau dat nu beschikbaar is in het kader van milieubescherming
 
@@ -28,7 +28,7 @@ Om de mogelijkheden van de functionaliteit van de milieubevordering uit te breid
 
 Eerder waren de toegangsniveaus niet beschikbaar voor milieubevordering.
 
-Voor meer informatie over voorwerpen beschikbaar voor milieubevordering, zie [ Gesteunde voorwerpen voor milieubevordering ](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md#supported-objects-for-environment-promotion) in het de bevorderingsoverzicht van het Milieu van het artikel.
+Voor meer informatie over voorwerpen beschikbaar voor milieubevordering, zie [&#x200B; Gesteunde voorwerpen voor milieubevordering &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md#supported-objects-for-environment-promotion) in het de bevorderingsoverzicht van het Milieu van het artikel.
 
 ## Een teller op aangepaste formulieren geeft het aantal velden weer
 
@@ -40,7 +40,7 @@ Aangepaste formulieren zijn beperkt tot 500 velden. In een lang formulier kan he
 
 Linksonder is een teller toegevoegd aan aangepaste formulieren. De teller geeft weer hoeveel velden er op het formulier worden gebruikt en deze is altijd zichtbaar wanneer u in de formulierontwerper schuift.
 
-Voor meer informatie, zie [ een douaneformulier ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren.
+Voor meer informatie, zie [&#x200B; een douaneformulier &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren.
 
 ## De optie Alles selecteren is nu beschikbaar in lay-outsjablonen
 
@@ -50,7 +50,7 @@ Voor meer informatie, zie [ een douaneformulier ](/help/quicksilver/administrati
 
 Om u gemakkelijker te helpen gebieden met lay-outmalplaatjes tonen en verbergen, a **Uitgezocht al** controledoos werd toegevoegd aan het Overzicht en de gebieden van Financiën van de mening van Details in een lay-outmalplaatje. Deze optie is beschikbaar wanneer u Project, Taak, Uitgave, Portfolio, of Programma onder **hebt geselecteerd aanpassen welke gebruikers** zien. Niet alle objecten tonen het gebied Financiën en de velden in elk gebied zijn afhankelijk van het object.
 
-Voor meer informatie, zie [ de mening van Details aanpassen gebruikend een lay-outmalplaatje ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
+Voor meer informatie, zie [&#x200B; de mening van Details aanpassen gebruikend een lay-outmalplaatje &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
 
 ## Omgevingsbevorderingspakketten terugdraaien
 
@@ -62,9 +62,9 @@ Om de bevordering van het milieu flexibeler en gemakkelijker te gebruiken te mak
 
 Eerder, zouden de configuraties manueel, of door een ander milieubevorderingspakket worden hersteld.
 
-Voor meer informatie bij het terugrollen van een pakket van de milieubevordering, zie [ Terugschroeven van een pakket van de milieubevordering ](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-rollback.md).
+Voor meer informatie bij het terugrollen van een pakket van de milieubevordering, zie [&#x200B; Terugschroeven van een pakket van de milieubevordering &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-rollback.md).
 
-[ Bekijk een videodemonstratie van deze eigenschap.](https://video.tv.adobe.com/v/3434025/){target=_blank}
+[&#x200B; Bekijk een videodemonstratie van deze eigenschap.](https://video.tv.adobe.com/v/3434025/){target=_blank}
 
 ## Met de knop Indeling in de aangepaste formulierontwerper zijn twee of drie kolommen mogelijk
 
@@ -76,4 +76,4 @@ Voor meer informatie bij het terugrollen van een pakket van de milieubevordering
 
 Met de knop Indeling in de aangepaste formulierontwerper kunt u kiezen uit een werkgebied met twee of drie kolommen. De oorspronkelijke formulierontwerper gebruikt drie kolommen en de veldinstellingen worden uiterst rechts weergegeven. Als u twee kolommen selecteert, worden de veldinstellingen in de linkerkolom naast de veldbibliotheek weergegeven.
 
-Voor informatie, zie [ overzicht van de Vorm van de Douane ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/custom-forms-overview.md).
+Voor informatie, zie [&#x200B; overzicht van de Vorm van de Douane &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/custom-forms-overview.md).

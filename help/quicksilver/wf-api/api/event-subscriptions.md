@@ -16,13 +16,13 @@ ht-degree: 0%
 
 Hier volgen verschillende bronnen over gebeurtenisabonnementen in Adobe Workfront:
 
-* [ Abonnement API van de Gebeurtenis ](../../wf-api/general/event-subs-api.md)
-* [ Beste praktijken van het abonnement van de Gebeurtenis ](../../wf-api/general/event-sub-best-practice.md)
-* [ de leveringsvereisten van het Abonnement van de Gebeurtenis ](../../wf-api/general/setup-event-sub-endpoint.md)
-* [ het middelgebieden van het het abonnement van de Gebeurtenis ](../../wf-api/api/event-sub-resource-fields.md)
-* [ het abonnement van de Gebeurtenis herprobeert ](../../wf-api/api/event-sub-retries.md)
+* [&#x200B; Abonnement API van de Gebeurtenis &#x200B;](../../wf-api/general/event-subs-api.md)
+* [&#x200B; Beste praktijken van het abonnement van de Gebeurtenis &#x200B;](../../wf-api/general/event-sub-best-practice.md)
+* [&#x200B; de leveringsvereisten van het Abonnement van de Gebeurtenis &#x200B;](../../wf-api/general/setup-event-sub-endpoint.md)
+* [&#x200B; het middelgebieden van het het abonnement van de Gebeurtenis &#x200B;](../../wf-api/api/event-sub-resource-fields.md)
+* [&#x200B; het abonnement van de Gebeurtenis herprobeert &#x200B;](../../wf-api/api/event-sub-retries.md)
 * [Abonnementsversie voor gebeurtenissen](/help/quicksilver/wf-api/general/event-subs-versioning.md)
-* [ de berichten van het gebeurtenisabonnement van de Filter ](../../wf-api/api/filter-event-sub-messages.md)
-* [ Uitgaand berichtformaat voor gebeurtenisabonnementen ](../../wf-api/api/message-format-event-subs.md)
+* [&#x200B; de berichten van het gebeurtenisabonnement van de Filter &#x200B;](../../wf-api/api/filter-event-sub-messages.md)
+* [&#x200B; Uitgaand berichtformaat voor gebeurtenisabonnementen &#x200B;](../../wf-api/api/message-format-event-subs.md)
 * [Veelgestelde vragen - Abonnementen voor gebeurtenissen](../../wf-api/general/event-subs-faq.md)
 

@@ -28,7 +28,7 @@ Zie de volgende artikelen voor informatie over rapporten en lijsten:
 * [Aan de slag met lijsten in  [!DNL Adobe Workfront]](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md)
 * [Aan de slag met rapporten](../../../reports-and-dashboards/reports/reporting/get-started-reports-workfront.md)
 
-Voor meer informatie over project, taak, en geven gebieden uit, zie [ Verklarende woordenlijst van  [!DNL Adobe Workfront]  terminologie ](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
+Voor meer informatie over project, taak, en geven gebieden uit, zie [&#x200B; Verklarende woordenlijst van  [!DNL Adobe Workfront]  terminologie &#x200B;](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
 
 
 ## [!UICONTROL Actual Start Date]
@@ -41,15 +41,15 @@ U kunt handmatig aangeven wanneer het werk aan een taak of een uitgave is begonn
 >
 >De [!UICONTROL Actual Start Date] komt mogelijk niet overeen met een [!UICONTROL Planned Start Date] van een project, taak of uitgave omdat de gebruiker later of eerder kan beginnen met werken dan de geplande datum.
 
-Voor meer informatie, zie [ Overzicht van het project [!UICONTROL Actual Start Date]](../../../manage-work/projects/planning-a-project/project-actual-start-date.md).
+Voor meer informatie, zie [&#x200B; Overzicht van het project [!UICONTROL Actual Start Date]](../../../manage-work/projects/planning-a-project/project-actual-start-date.md).
 
 >[!NOTE]
 >
 >De [!UICONTROL Must Start On] -taak of de Vaste datumbeperkingen hebben invloed op de [!UICONTROL Planned Start Date] -status van een taak, niet op de [!UICONTROL Actual Start Date] -taak. Hiermee werkt u [!UICONTROL Planned Start Date] bij naar een datum die u opgeeft. [!UICONTROL Actual Start Date] wordt onafhankelijk van [!UICONTROL Planned Start Date] bijgewerkt, zoals hierboven beschreven.
 
-![ Ware begindatum op geef taak uit ](assets/actual-start-date-on-edit-task-highlighted-nwe-350x251.png)
+![&#x200B; Ware begindatum op geef taak uit &#x200B;](assets/actual-start-date-on-edit-task-highlighted-nwe-350x251.png)
 
-![ Ware begindatum op taak ](assets/actual-start-date-on-task-details-highlighted-nwe-350x191.png)
+![&#x200B; Ware begindatum op taak &#x200B;](assets/actual-start-date-on-task-details-highlighted-nwe-350x191.png)
 
 ## [!UICONTROL Actual Completion Date]
 
@@ -66,9 +66,9 @@ U kunt handmatig aangeven wanneer een taak of een probleem is voltooid. [!UICONT
 >
 >De [!UICONTROL Actual Completion Date] komt mogelijk niet overeen met de [!UICONTROL Planned Completion Date] .
 
-Voor meer informatie, zie [ Overzicht van het project [!UICONTROL Actual Completion Date]](../../../manage-work/projects/planning-a-project/project-actual-completion-date.md).
+Voor meer informatie, zie [&#x200B; Overzicht van het project [!UICONTROL Actual Completion Date]](../../../manage-work/projects/planning-a-project/project-actual-completion-date.md).
 
-![ Ware voltooiingsdatum in Details ](assets/actual-completion-date-task-details-highlighted-nwe-350x189.png)
+![&#x200B; Ware voltooiingsdatum in Details &#x200B;](assets/actual-completion-date-task-details-highlighted-nwe-350x189.png)
 
 ## Voltooiingsdatum goedkeuringspad
 
@@ -98,7 +98,7 @@ Het gebied is zichtbaar in projectrapporten en lijsten.
 
 ## [!UICONTROL Commit Date]
 
-[!UICONTROL Commit Date] is de datum waardoor een gebruiker die aan een taak of een kwestie wordt toegewezen de taak of de kwestie verbindt te voltooien. Dit is anders dan de [!UICONTROL Planned Completion Date] , omdat het een realistischere schatting is van de voltooiingsdatum die alleen wordt gegeven door de gebruiker die verantwoordelijk is voor het werk. Zie [[!UICONTROL Commit Date] overview ](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md) voor meer informatie.
+[!UICONTROL Commit Date] is de datum waardoor een gebruiker die aan een taak of een kwestie wordt toegewezen de taak of de kwestie verbindt te voltooien. Dit is anders dan de [!UICONTROL Planned Completion Date] , omdat het een realistischere schatting is van de voltooiingsdatum die alleen wordt gegeven door de gebruiker die verantwoordelijk is voor het werk. Zie [[!UICONTROL Commit Date] overview &#x200B;](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md) voor meer informatie.
 
 >[!NOTE]
 >
@@ -136,7 +136,7 @@ De datum waarop een taak of een kwestie moet worden voltooid. De vervaldatum van
 
 De taak en het Eind van de uitgave zijn zichtbaar in taak en geeft lijsten en rapporten uit.
 
-Voor informatie, zie de [ Geplande sectie van de Datum van de Voltooiing ](#planned-completion-date) in dit artikel.
+Voor informatie, zie de [&#x200B; Geplande sectie van de Datum van de Voltooiing &#x200B;](#planned-completion-date) in dit artikel.
 
 ## Verwacht op
 
@@ -144,7 +144,7 @@ De datum waarop het project moet worden voltooid. De vervaldatum van een project
 
 De op datum verouderde projectdatum is zichtbaar in projectlijsten en rapporten.
 
-Voor informatie, zie de [ Geplande sectie van de Datum van de Voltooiing ](#planned-completion-date) in dit artikel.
+Voor informatie, zie de [&#x200B; Geplande sectie van de Datum van de Voltooiing &#x200B;](#planned-completion-date) in dit artikel.
 
 ## [!UICONTROL Entry Date]
 
@@ -152,7 +152,7 @@ De [!UICONTROL Entry Date] is de datum waarop een project, taak of uitgave is ge
 
 De instructie [!UICONTROL Entry Date] heeft geen invloed op de tijdlijn van projecten, taken of problemen, maar is wel belangrijk voor het bijhouden en rapporteren van gegevens. [!DNL Workfront] genereert automatisch [!UICONTROL Entry Date] wanneer het object wordt gemaakt en u kunt het niet handmatig bewerken.
 
-![ Datum van de Ingang in taakdetails ](assets/entry-date-in-task-details-highlighted-nwe.png)
+![&#x200B; Datum van de Ingang in taakdetails &#x200B;](assets/entry-date-in-task-details-highlighted-nwe.png)
 
 ## Geschatte vervaldatum
 
@@ -160,7 +160,7 @@ De geplande einddatum van de taak en het project geeft een realistischere datum 
 
 De geschatte data zijn meer in overeenstemming met de realiteit van het project en de taak, aangezien ze rekening houden met wat van invloed is op de daadwerkelijke voltooiing van het project of de taak. De geschatte vervaldata zijn vergelijkbaar met de verwachte sluitingsdata.
 
-Voor meer informatie, zie [ Overzicht van Geprojecteerde en Geschatte Data ](/help/quicksilver/manage-work/tasks/task-information/differentiate-projected-estimated-dates.md).
+Voor meer informatie, zie [&#x200B; Overzicht van Geprojecteerde en Geschatte Data &#x200B;](/help/quicksilver/manage-work/tasks/task-information/differentiate-projected-estimated-dates.md).
 
 Het project en de taak Geschatte Vervaldata zijn zichtbaar in project en taaklijsten en rapporten.
 
@@ -170,7 +170,7 @@ De taak en het project Geschatte Datum van het Begin tonen een realistischere da
 
 De geschatte data zijn meer in overeenstemming met de realiteit van het project en de taak, aangezien ze rekening houden met wat van invloed is op de daadwerkelijke start van het project of de taak. De geschatte begindatums zijn vergelijkbaar met de verwachte begindatums.
 
-Voor meer informatie, zie [ Overzicht van Geprojecteerde en Geschatte Data ](/help/quicksilver/manage-work/tasks/task-information/differentiate-projected-estimated-dates.md).
+Voor meer informatie, zie [&#x200B; Overzicht van Geprojecteerde en Geschatte Data &#x200B;](/help/quicksilver/manage-work/tasks/task-information/differentiate-projected-estimated-dates.md).
 
 Het project en de taak Geschatte Datums van het Begin zijn zichtbaar in project en taaklijsten en rapporten.
 
@@ -184,7 +184,7 @@ Dit is een handmatige schatting en er wordt geen rekening gehouden met de werkel
 
 De Vaste Datum van het Eind van een project is zichtbaar in de Van Bedrijfs het Geval sectie van het project evenals in projectlijsten en rapporten.
 
-![ Vaste einddatum ](assets/fixed-end-date-business-case-highlight.png)
+![&#x200B; Vaste einddatum &#x200B;](assets/fixed-end-date-business-case-highlight.png)
 
 ## Vaste begindatum
 
@@ -194,7 +194,7 @@ Dit is een handmatige schatting en er wordt geen rekening gehouden met de werkel
 
 De Vaste Datum van het Begin van een project is zichtbaar in de Van Bedrijfs het Geval sectie van het project evenals in projectlijsten en rapporten.
 
-![ Vaste begindatum ](assets/fixed-start-date-business-case-highlight.png)
+![&#x200B; Vaste begindatum &#x200B;](assets/fixed-start-date-business-case-highlight.png)
 
 ## Handoff-datum
 
@@ -202,7 +202,7 @@ De datum waarop een taak beschikbaar wordt voor het werk. Dit betekent dat alle 
 
 De afhandelingsdatum is een berekening en kan niet handmatig worden ingesteld.
 
-Voor meer informatie over de Datum van de Aflevering, zie [ Overzicht van de Datum van de Aflevering van de Taak ](/help/quicksilver/manage-work/tasks/task-information/handoff-task-date.md).
+Voor meer informatie over de Datum van de Aflevering, zie [&#x200B; Overzicht van de Datum van de Aflevering van de Taak &#x200B;](/help/quicksilver/manage-work/tasks/task-information/handoff-task-date.md).
 
 De Handoff Datum van een taak is zichtbaar in taaklijsten en rapporten.
 
@@ -232,7 +232,7 @@ De Datum van de Ingang van het Uur is zichtbaar in uurlijsten en rapporten.
 >
 >U kunt bijvoorbeeld uren voor een taak op 5 september vastleggen, maar de uren koppelen aan 1 september. De ingangsdatum van het uur is 1 september.
 
-Voor informatie over hoe te om tijd in Workfront te registreren, zie [ tijd van het Logboek ](../../../timesheets/create-and-manage-timesheets/log-time.md).
+Voor informatie over hoe te om tijd in Workfront te registreren, zie [&#x200B; tijd van het Logboek &#x200B;](../../../timesheets/create-and-manage-timesheets/log-time.md).
 
 >[!TIP]
 >
@@ -252,9 +252,9 @@ Raadpleeg de volgende artikelen voor meer informatie:
 * [Het project instellen [!UICONTROL Planned Completion Date]](../../../manage-work/projects/planning-a-project/project-planned-completion-date.md)
 * [Overzicht van het probleem [!UICONTROL Planned Completion Date]](../../../manage-work/issues/issue-information/issue-planned-completion-date.md)
 
-![ Geplande vergelijkingsdatum in kopbal ](assets/project-header-planned-completion-date-highlighted-nwe-350x34.png)
+![&#x200B; Geplande vergelijkingsdatum in kopbal &#x200B;](assets/project-header-planned-completion-date-highlighted-nwe-350x34.png)
 
-![ Geplande voltooiingsdatum in taaklijst ](assets/planned-completion-date-in-task-list-highlighted-nwe-350x183.png)
+![&#x200B; Geplande voltooiingsdatum in taaklijst &#x200B;](assets/planned-completion-date-in-task-list-highlighted-nwe-350x183.png)
 
 
 ## Geplande datumuitlijning
@@ -275,11 +275,11 @@ De [!UICONTROL Planned Start Date] is de datum waarop een project, taak of uitga
 
 Afhankelijk van de instructie [!UICONTROL Task Constraint] kunt u de [!UICONTROL Planned Start Date] van een taak mogelijk niet bewerken. Afhankelijk van [!UICONTROL Schedule Mode] van het project, kunt u [!UICONTROL Planned Start Date] van een project misschien niet uitgeven.
 
-Voor meer informatie, zie [ Overzicht van het project [!UICONTROL Planned Start Date]](../../../manage-work/projects/planning-a-project/project-planned-start-date.md).
+Voor meer informatie, zie [&#x200B; Overzicht van het project [!UICONTROL Planned Start Date]](../../../manage-work/projects/planning-a-project/project-planned-start-date.md).
 
-![ Geplande begindatum op geef taak uit ](assets/planned-start-date-on-edit-task-highlighted-nwe.png)
+![&#x200B; Geplande begindatum op geef taak uit &#x200B;](assets/planned-start-date-on-edit-task-highlighted-nwe.png)
 
-![ de begindatum van Plaatsen in taaklijst ](assets/planned-start-date-in-task-list-highlighted-nwe-350x167.png)
+![&#x200B; de begindatum van Plaatsen in taaklijst &#x200B;](assets/planned-start-date-in-task-list-highlighted-nwe-350x167.png)
 
 ## [!UICONTROL Projected Completion Date]
 
@@ -287,9 +287,9 @@ Voor meer informatie, zie [ Overzicht van het project [!UICONTROL Planned Start 
 
 Als alles vloeiend en volgens plan verloopt, moet de [!UICONTROL Projected Completion date] overeenkomen met de [!UICONTROL Planned Completion Date] . Anders kan de [!UICONTROL Projected Completion Date] anders worden dan de [!UICONTROL Planned Completion Date] vanwege vertragingen bij de voorgaande taken.
 
-Voor meer informatie, zie [ Overzicht van [!UICONTROL Projected Completion Date] voor projecten, taken, en kwesties ](../../../manage-work/projects/planning-a-project/project-projected-completion-date.md).
+Voor meer informatie, zie [&#x200B; Overzicht van [!UICONTROL Projected Completion Date] voor projecten, taken, en kwesties &#x200B;](../../../manage-work/projects/planning-a-project/project-projected-completion-date.md).
 
-![ Geprojecteerde voltooiingsdatum ](assets/projected-completion-date-in-task-details-highlighted-nwe-350x187.png)
+![&#x200B; Geprojecteerde voltooiingsdatum &#x200B;](assets/projected-completion-date-in-task-details-highlighted-nwe-350x187.png)
 
 ## [!UICONTROL Projected Start Date]
 
@@ -303,9 +303,9 @@ Voor een taak kan een [!UICONTROL Projected Start Date] ook afwijken van de [!UI
 >
 >U kunt de [!UICONTROL Projected Start Date] van een probleem alleen in een lijst of rapport bekijken.
 
-Voor meer informatie, zie [ Overzicht van het project [!UICONTROL Projected Start Date]](../../../manage-work/projects/planning-a-project/project-projected-start-date.md).
+Voor meer informatie, zie [&#x200B; Overzicht van het project [!UICONTROL Projected Start Date]](../../../manage-work/projects/planning-a-project/project-projected-start-date.md).
 
-![ Geprojecteerde begindatum ](assets/projected-start-date-in-task-details-highlighted-nwe-350x188.png)
+![&#x200B; Geprojecteerde begindatum &#x200B;](assets/projected-start-date-in-task-details-highlighted-nwe-350x188.png)
 
 <!--## Rejection Date-->
 
@@ -325,7 +325,7 @@ De datum waarop het project van start gaat. De begindatum van een project is dez
 
 Dit gebied is zichtbaar in projectlijsten en rapporten.
 
-Voor informatie, zie de [ Geplande 1&rbrace; sectie van de Datum van het Begin &lbrace;in dit artikel.](#planned-start-date)
+Voor informatie, zie de [&#x200B; Geplande 1&rbrace; sectie van de Datum van het Begin &lbrace;in dit artikel.](#planned-start-date)
 
 
 

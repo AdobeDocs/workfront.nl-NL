@@ -26,7 +26,7 @@ Zorg ervoor dat al uw integratieaanroepen momenteel ondersteunde Workfront API&#
 
 Nieuwe versies van de API worden regelmatig uitgebracht, meestal twee keer per jaar. Elke versie wordt ondersteund gedurende drie jaar na de releasedatum, met een extra jaar in een vervangen toestand waarin de versie beschikbaar maar niet ondersteund is.
 
-Voor meer informatie over de versiecadentie en afgekeuringsprogramma van Workfront APIs, zie [ API versioning en steunprogramma ](../../wf-api/api/api-version-support-schedule.md).
+Voor meer informatie over de versiecadentie en afgekeuringsprogramma van Workfront APIs, zie [&#x200B; API versioning en steunprogramma &#x200B;](../../wf-api/api/api-version-support-schedule.md).
 
 >[!IMPORTANT]
 >
@@ -34,7 +34,7 @@ Voor meer informatie over de versiecadentie en afgekeuringsprogramma van Workfro
 >
 >* Als uw organisatie momenteel de standaard-API gebruikt, heeft uw Workfront-beheerder een bericht van het Aankondigingscentrum ontvangen met verdere instructies betreffende de standaard-API.
 >
->Om de meest recente versie van API te zien, zie [ API versioning en steunprogramma ](../../wf-api/api/api-version-support-schedule.md).
+>Om de meest recente versie van API te zien, zie [&#x200B; API versioning en steunprogramma &#x200B;](../../wf-api/api/api-version-support-schedule.md).
 
 
 ## De API-versie bepalen die u gebruikt

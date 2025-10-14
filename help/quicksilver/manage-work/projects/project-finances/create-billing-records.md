@@ -50,7 +50,7 @@ U kunt geen factureringsverslagen voor taken tot stand brengen; u kunt het factu
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -111,7 +111,7 @@ Overweeg het volgende wanneer u factureringsrecords wilt gebruiken:
 
 1. (Facultatief) onder **Eigen Forms**, selecteer een het factureren verslagen douaneformulier dat u aan het verslag wilt toevoegen.
 
-   Voordat u het hier kunt selecteren, moet u een aangepast formulier voor factureringsrecords maken. Alleen actieve aangepaste formulieren worden in de lijst weergegeven. Voor informatie, zie [ een douaneformulier ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren.
+   Voordat u het hier kunt selecteren, moet u een aangepast formulier voor factureringsrecords maken. Alleen actieve aangepaste formulieren worden in de lijst weergegeven. Voor informatie, zie [&#x200B; een douaneformulier &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren.
 
 1. Klik **sparen.** De factureringsrecord wordt gemaakt.
 
@@ -123,7 +123,7 @@ U kunt uren omvatten die het programma geopend taken, kwesties, of het project i
 
 Als de gebruiker die de uren of hun primaire baanrol registreert met het Factureren per Tarief van het Uur wordt geassocieerd, wordt de opbrengst van deze uren toegevoegd aan het factureringsverslag.
 
-* [ welke uren aan een het facturerings verslag kunnen worden toegevoegd ](#what-hours-can-be-added-to-a-billing-record)
+* [&#x200B; welke uren aan een het facturerings verslag kunnen worden toegevoegd &#x200B;](#what-hours-can-be-added-to-a-billing-record)
 * [Uren toevoegen aan een factureringsrecord](#add-hours-to-a-billing-record)
 
 #### Welke uren kunnen aan een factureringsverslag worden toegevoegd {#what-hours-can-be-added-to-a-billing-record}
@@ -133,7 +133,7 @@ U kunt uren aan een factureringsverslag toevoegen wanneer aan de volgende voorwa
 * De uren zijn geregistreerd voor de taken, de kwesties, of het project.
 * Het type uur van de geregistreerde uren is duidelijk als Telling als Ontvangsten.
 
-  Voor meer informatie, zie het artikel [ de types van uren ](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/hour-types.md) leiden.
+  Voor meer informatie, zie het artikel [&#x200B; de types van uren &#x200B;](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/hour-types.md) leiden.
 
 * Alle uren die voor kwesties of het project worden geregistreerd kunnen aan een factureringsverslag worden toegevoegd als de gebruiker die de tijd registreert een het Factureren per tarief van het Uur verbonden aan hen of hun primaire baanrol heeft.
 * Als de uren op een taak worden het programma geopend, moet de taak het volgende Type van Ontvangsten hebben:
@@ -145,10 +145,10 @@ U kunt uren aan een factureringsverslag toevoegen wanneer aan de volgende voorwa
      >[!NOTE]
      >
      >U kunt factureringstarieven voor baanrollen op het projectniveau met voeten treden.\
-     >Voor meer informatie, zie de sectie &quot;met voeten tredende het factureringspercentages van de baanrol op het projectniveau&quot;in het artikel [ Overzicht van het met voeten treden van de FactureringsRates van de Rol van de Taak en het berekenen van Inkomsten op een project ](../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
+     >Voor meer informatie, zie de sectie &quot;met voeten tredende het factureringspercentages van de baanrol op het projectniveau&quot;in het artikel [&#x200B; Overzicht van het met voeten treden van de FactureringsRates van de Rol van de Taak en het berekenen van Inkomsten op een project &#x200B;](../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
 
 * Als Vereisen tijd om voor deze projectoptie worden goedgekeurd onder de Montages van het Project wordt geselecteerd, dan moet de Eigenaar van het Project de geregistreerde uren goedkeuren.\
-  Voor meer informatie, zie [ tijd vereisen om voor een project ](../../../manage-work/projects/manage-projects/require-time-approval-for-projects.md) worden goedgekeurd.
+  Voor meer informatie, zie [&#x200B; tijd vereisen om voor een project &#x200B;](../../../manage-work/projects/manage-projects/require-time-approval-for-projects.md) worden goedgekeurd.
 
 #### Uren toevoegen aan een factureringsrecord {#add-hours-to-a-billing-record}
 
@@ -162,7 +162,7 @@ U kunt uren aan een factureringsverslag toevoegen wanneer aan de volgende voorwa
 
    >[!NOTE]
    >
-   >Als er geen uren het programma worden geopend of als de geregistreerde uren niet aan de voorwaarden voldoen om aan een het facturerings verslag worden toegevoegd, **voegt uren** knoop toe zal niet tonen. Voor meer informatie, zie de volgende sectie in dit artikel: [ Welke uren aan een het facturerings verslag ](#what-hours-can-be-added-to-a-billing-record) kunnen worden toegevoegd.
+   >Als er geen uren het programma worden geopend of als de geregistreerde uren niet aan de voorwaarden voldoen om aan een het facturerings verslag worden toegevoegd, **voegt uren** knoop toe zal niet tonen. Voor meer informatie, zie de volgende sectie in dit artikel: [&#x200B; Welke uren aan een het facturerings verslag &#x200B;](#what-hours-can-be-added-to-a-billing-record) kunnen worden toegevoegd.
 
 1. Selecteer de uuringangen u in het facturerings verslag wilt omvatten, dan klik **uren** toevoegen. De daadwerkelijke Kosten van de uren worden toegevoegd als **Billable Uren** bedrag aan het **Totaal van het Verslag van de Facturering**.
 
@@ -170,7 +170,7 @@ U kunt uren aan een factureringsverslag toevoegen wanneer aan de volgende voorwa
 
 ### Inclusief factureringskosten in een factureringsrecord {#include-billable-expenses-in-a-billing-record}
 
-Als u factureerbare uitgaven aan het facturerings verslag toevoegt, zorg de uitgaven op de taken ervoor en het project duidelijk als Billable zijn. Uitgaven die niet als Billable worden gemerkt zijn niet beschikbaar om in een factureringsverslag toe te voegen. Voor meer informatie over het toevoegen van uitgaven, zie artikel [ projectuitgaven beheren ](../../../manage-work/projects/project-finances/manage-project-expenses.md).
+Als u factureerbare uitgaven aan het facturerings verslag toevoegt, zorg de uitgaven op de taken ervoor en het project duidelijk als Billable zijn. Uitgaven die niet als Billable worden gemerkt zijn niet beschikbaar om in een factureringsverslag toe te voegen. Voor meer informatie over het toevoegen van uitgaven, zie artikel [&#x200B; projectuitgaven beheren &#x200B;](../../../manage-work/projects/project-finances/manage-project-expenses.md).
 
 U kunt als volgt factureringskosten aan een factureringsrecord toevoegen:
 
@@ -192,7 +192,7 @@ U kunt als volgt factureringskosten aan een factureringsrecord toevoegen:
 
 ### Opnemen van vaste inkomsten in een factureringsbestand {#include-fixed-revenues-in-a-billing-record}
 
-U kunt vaste opbrengsten aan uw factureringsverslagen toevoegen als u taken hebt die vaste opbrengst beschikbaar hebben. Er is geen ander type taak of projectinkomsten beschikbaar die in een factureringsrecord kunnen worden toegevoegd. Voor meer informatie over opbrengsttypes, zie het &quot;Overzicht van het Factureren en sectie van de Opbrengst&quot;in het artikel [ Overzicht van Facturering en Opbrengsten ](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md).
+U kunt vaste opbrengsten aan uw factureringsverslagen toevoegen als u taken hebt die vaste opbrengst beschikbaar hebben. Er is geen ander type taak of projectinkomsten beschikbaar die in een factureringsrecord kunnen worden toegevoegd. Voor meer informatie over opbrengsttypes, zie het &quot;Overzicht van het Factureren en sectie van de Opbrengst&quot;in het artikel [&#x200B; Overzicht van Facturering en Opbrengsten &#x200B;](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md).
 
 {{step1-to-projects}}
 
@@ -220,7 +220,7 @@ Nadat u een factureringsrecord hebt gemaakt en er uren, kosten en inkomsten aan 
 
    of
 
-   Klik **uitgeven** pictogram ![ geeft pictogram ](assets/edit-icon.png) in de hoger-juiste hoek uit, dan geef informatie op om het even welke beschikbare gebieden uit.
+   Klik **uitgeven** pictogram ![&#x200B; geeft pictogram &#x200B;](assets/edit-icon.png) in de hoger-juiste hoek uit, dan geef informatie op om het even welke beschikbare gebieden uit.
 
    Werk het volgende bij:
 
@@ -238,11 +238,11 @@ Nadat u een factureringsrecord hebt gemaakt en er uren, kosten en inkomsten aan 
 
    De volgende velden kunnen niet worden bewerkt:
 
-   * **Billable Uren:** Het totaal van de Ware Inkomsten van de uren inbegrepen in het factureringsverslag. Voor meer informatie, zie de volgende sectie in dit artikel: [ omvat factureerbare uren in een het facturerings verslag ](#include-billable-hours-in-a-billing-record).
+   * **Billable Uren:** Het totaal van de Ware Inkomsten van de uren inbegrepen in het factureringsverslag. Voor meer informatie, zie de volgende sectie in dit artikel: [&#x200B; omvat factureerbare uren in een het facturerings verslag &#x200B;](#include-billable-hours-in-a-billing-record).
 
-   * **Billable Uitgaven**: Het totaal van het Ware Bedrag van de factureerbare uitgaven inbegrepen in het factureringsverslag. Voor meer informatie, zie de volgende sectie in dit artikel: [ omvat factureerbare uitgaven in een het facturerings verslag ](#include-billable-expenses-in-a-billing-record).
+   * **Billable Uitgaven**: Het totaal van het Ware Bedrag van de factureerbare uitgaven inbegrepen in het factureringsverslag. Voor meer informatie, zie de volgende sectie in dit artikel: [&#x200B; omvat factureerbare uitgaven in een het facturerings verslag &#x200B;](#include-billable-expenses-in-a-billing-record).
 
-   * **Billable Inkomsten**: Het totaal van de Vaste Inkomsten van de taken inbegrepen in het factureringsverslag. Voor meer informatie, zie de volgende sectie in dit artikel: [ omvat vaste inkomsten in een het facturerings verslag ](#include-fixed-revenues-in-a-billing-record).
+   * **Billable Inkomsten**: Het totaal van de Vaste Inkomsten van de taken inbegrepen in het factureringsverslag. Voor meer informatie, zie de volgende sectie in dit artikel: [&#x200B; omvat vaste inkomsten in een het facturerings verslag &#x200B;](#include-fixed-revenues-in-a-billing-record).
 
    * **het Totaal van het Verslag van de Facturatie**: Het totaal van alle factureerbare bedragen. Dit wordt berekend aan de hand van de volgende formule:
 

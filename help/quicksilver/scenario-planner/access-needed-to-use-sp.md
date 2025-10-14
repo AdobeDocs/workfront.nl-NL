@@ -18,7 +18,7 @@ ht-degree: 0%
 
 <!--Audited: 04/2024-->
 
-Voor [!DNL Scenario Planner] gelden aanvullende licentievereisten. Voor informatie over [!DNL Workfront Scenario Planner], zie [ het  [!DNL Scenario Planner]  overzicht ](../scenario-planner/scenario-planner-overview.md).
+Voor [!DNL Scenario Planner] gelden aanvullende licentievereisten. Voor informatie over [!DNL Workfront Scenario Planner], zie [&#x200B; het  [!DNL Scenario Planner]  overzicht &#x200B;](../scenario-planner/scenario-planner-overview.md).
 
 <!--
 might need to add information about the permissions to plans/ initiatives if those will be coming later?
@@ -64,11 +64,11 @@ U moet ervoor zorgen dat aan alle volgende voorwaarden wordt voldaan voordat u t
 
 1. Uw [!DNL Workfront] -beheerder moet u [!UICONTROL View] of [!UICONTROL Edit] toegang geven tot [!DNL Scenario Planner] op toegangsniveau.
 
-   Voor informatie over het verlenen van toegang tot [!DNL Workfront Scenario Planner], zie [ de toegang van de Verlening tot  [!DNL Scenario Planner]](../administration-and-setup/add-users/configure-and-grant-access/grant-access-sp.md).
+   Voor informatie over het verlenen van toegang tot [!DNL Workfront Scenario Planner], zie [&#x200B; de toegang van de Verlening tot  [!DNL Scenario Planner]](../administration-and-setup/add-users/configure-and-grant-access/grant-access-sp.md).
 
-1. (Optioneel en aanbevolen) Als u financiële informatie voor uw plannen en initiatieven wilt weergeven of bijwerken, moet de [!DNL Workfront] -beheerder u ook toegang geven tot [!UICONTROL Financial Data] op uw toegangsniveau. Voor informatie over het verlenen van financiële gegevens in uw toegangsniveau, zie [ de toegang van de Verlening tot financiële gegevens ](../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
+1. (Optioneel en aanbevolen) Als u financiële informatie voor uw plannen en initiatieven wilt weergeven of bijwerken, moet de [!DNL Workfront] -beheerder u ook toegang geven tot [!UICONTROL Financial Data] op uw toegangsniveau. Voor informatie over het verlenen van financiële gegevens in uw toegangsniveau, zie [&#x200B; de toegang van de Verlening tot financiële gegevens &#x200B;](../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
 
-1. (Facultatief) als u tot plannen moet toegang hebben u niet creeerde, moet een planschepper u de correcte toestemmingen aan hun plan geven om tot het toegang te hebben. Voor informatie over de toestemmingen nodig om tot plannen en initiatieven toegang te hebben die u niet creeerde, zie de [ Toestemmingen nodig om tot plannen en initiatieven ](#permissions-needed-to-access-plans-and-initiatives) sectie in dit artikel toegang te hebben.
+1. (Facultatief) als u tot plannen moet toegang hebben u niet creeerde, moet een planschepper u de correcte toestemmingen aan hun plan geven om tot het toegang te hebben. Voor informatie over de toestemmingen nodig om tot plannen en initiatieven toegang te hebben die u niet creeerde, zie de [&#x200B; Toestemmingen nodig om tot plannen en initiatieven &#x200B;](#permissions-needed-to-access-plans-and-initiatives) sectie in dit artikel toegang te hebben.
 
 <!--this used to be true but not anymore:
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p>(NOTE: this is no longer needed) </p> <p>Your Workfront administrator must assign you a layout template that includes the Scenarios area in the Main Menu. </p> <p>For information about customizing the Main Menu in a layout template, see <a href="../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md" class="MCXref xref" xrefformat="{para}">Customize the Main Menu using a layout template</a>. </p> <p>For information about assigning users to a Layout Template, see <a href="../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md" class="MCXref xref" xrefformat="{para}">Assign users to a layout template</a>.</p> </li>
@@ -80,17 +80,17 @@ Naast het aanschaffen van de juiste licentie voor [!DNL Workfront Scenario Plann
 
 * Een toegangsniveau met minstens [!UICONTROL View] toegang tot [!DNL Scenario Planner].
 
-  Voor informatie over het toegangsniveau aan [!DNL Scenario Planner], zie [ toegang van de Verlening tot  [!DNL Scenario Planner]](../administration-and-setup/add-users/configure-and-grant-access/grant-access-sp.md).
+  Voor informatie over het toegangsniveau aan [!DNL Scenario Planner], zie [&#x200B; toegang van de Verlening tot  [!DNL Scenario Planner]](../administration-and-setup/add-users/configure-and-grant-access/grant-access-sp.md).
 
 * Een toegangsniveau met minstens [!UICONTROL View] toegang tot [!UICONTROL Financial Data] als u ook financiële informatie over het plan en de initiatieven moet bekijken. Enkele voorbeelden van financiële informatie zijn begrotingen, kosten, of baanrolpercentages.
 
-  Voor informatie over het [!UICONTROL Financial Data] toegangsniveau, zie [ toegang van de Verlening tot financiële gegevens ](../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
+  Voor informatie over het [!UICONTROL Financial Data] toegangsniveau, zie [&#x200B; toegang van de Verlening tot financiële gegevens &#x200B;](../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
 
   >[!TIP]
   >
   >[!UICONTROL Requestors] en [!UICONTROL External] Gebruikers hebben geen toegang om de [!DNL Scenario Planner] weer te geven.
 
-* De toestemmingen van de mening aan het plan. Voor informatie over de toestemmingen nodig om tot plannen en initiatieven toegang te hebben die u niet creeerde, zie de [ Toestemmingen nodig om tot plannen en initiatieven ](#permissions-needed-to-access-plans-and-initiatives) sectie in dit artikel toegang te hebben.
+* De toestemmingen van de mening aan het plan. Voor informatie over de toestemmingen nodig om tot plannen en initiatieven toegang te hebben die u niet creeerde, zie de [&#x200B; Toestemmingen nodig om tot plannen en initiatieven &#x200B;](#permissions-needed-to-access-plans-and-initiatives) sectie in dit artikel toegang te hebben.
 
 ## Toegang nodig voor het beheer van plannen en initiatieven
 
@@ -100,7 +100,7 @@ Uw [!DNL Workfront] -beheerder moet u de volgende toegang toewijzen, zodat u pla
 
   Alle andere licentietypen hebben geen toegang om plannen te beheren.
 
-  Voor informatie over het verlenen van toegang tot [!DNL Scenario Planner] van het Niveau van de Toegang, zie [ de toegang van de Verlening tot  [!DNL Scenario Planner]](../administration-and-setup/add-users/configure-and-grant-access/grant-access-sp.md).
+  Voor informatie over het verlenen van toegang tot [!DNL Scenario Planner] van het Niveau van de Toegang, zie [&#x200B; de toegang van de Verlening tot  [!DNL Scenario Planner]](../administration-and-setup/add-users/configure-and-grant-access/grant-access-sp.md).
 
 * Een [!UICONTROL Plan] type licentie met [!UICONTROL Edit] toegang tot [!UICONTROL Financial Data] op uw toegangsniveau, als u ook financiële informatie over het abonnement wilt bijwerken.
 
@@ -110,9 +110,9 @@ Uw [!DNL Workfront] -beheerder moet u de volgende toegang toewijzen, zodat u pla
   >
   >Alleen [!UICONTROL Plan] -licentiehouders hebben [!UICONTROL Edit] toegang tot [!UICONTROL Financial Data] .
 
-  Voor informatie over het [!UICONTROL Financial Data] toegangsniveau, zie [ toegang van de Verlening tot financiële gegevens ](../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
+  Voor informatie over het [!UICONTROL Financial Data] toegangsniveau, zie [&#x200B; toegang van de Verlening tot financiële gegevens &#x200B;](../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
 
-* Rechten beheren voor een abonnement dat u niet hebt gemaakt. Voor informatie over de toestemmingen nodig om tot plannen en initiatieven toegang te hebben die u niet creeerde, zie de [ Toestemmingen nodig om tot plannen en initiatieven ](#permissions-needed-to-access-plans-and-initiatives) sectie in dit artikel toegang te hebben.
+* Rechten beheren voor een abonnement dat u niet hebt gemaakt. Voor informatie over de toestemmingen nodig om tot plannen en initiatieven toegang te hebben die u niet creeerde, zie de [&#x200B; Toestemmingen nodig om tot plannen en initiatieven &#x200B;](#permissions-needed-to-access-plans-and-initiatives) sectie in dit artikel toegang te hebben.
 
 ## Toestemmingen voor toegang tot plannen en initiatieven
 
@@ -124,11 +124,11 @@ Om plannen te bekijken die andere gebruikers creeerden moeten zij hun plannen me
 
 * Deel het abonnement met u
 
-  Voor informatie over het delen van plannen, zie [ een plan in  [!DNL Scenario Planner]](../scenario-planner/share-a-plan.md) delen.
+  Voor informatie over het delen van plannen, zie [&#x200B; een plan in  [!DNL Scenario Planner]](../scenario-planner/share-a-plan.md) delen.
 
 * Een koppeling verzenden naar een abonnement dat ze hebben gemaakt
 
-  Als een gebruiker een verbinding met een plan deelt zonder het plan ook te delen, kunt u toestemmingen aan het plan verzoeken. Voor informatie over het verzoeken van toestemmingen aan plannen, zie [ Toegang van het Verzoek tot een plan in  [!DNL Scenario Planner]](../scenario-planner/request-access-to-plan.md).
+  Als een gebruiker een verbinding met een plan deelt zonder het plan ook te delen, kunt u toestemmingen aan het plan verzoeken. Voor informatie over het verzoeken van toestemmingen aan plannen, zie [&#x200B; Toegang van het Verzoek tot een plan in  [!DNL Scenario Planner]](../scenario-planner/request-access-to-plan.md).
 
 >[!NOTE]
 >

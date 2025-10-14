@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Deze pagina bevat een beschrijving van de verbeteringen aan het begin die zijn aangebracht met de release Vierde kwartaal 2025 voor de voorvertoningsomgeving. Deze verbeteringen zullen beschikbaar worden gesteld in de productieomgeving, zoals vermeld.
 
-Voor een lijst van alle veranderingen beschikbaar op dit punt in het Vierde Kwartaal 2025 versiecyclus, zie [ Vierde Kwartaal 2025 releaseoverzicht ](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar op dit punt in het Vierde Kwartaal 2025 versiecyclus, zie [&#x200B; Vierde Kwartaal 2025 releaseoverzicht &#x200B;](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-release-overview.md).
 
 ## Updates van de widget Mijn verzoeken in Home
 
@@ -36,6 +36,6 @@ De nieuwe widget kan alleen worden weergegeven als u de nieuwe ervaring voor aan
 
 De nieuwe widget Mijn verzoeken geeft alleen die verzoeken weer die zijn gemaakt in de nieuwe ervaring die u opvraagt.
 
-Voor meer informatie over nieuwe Mijn widget van Verzoeken, zie [ Gebruik Mijn widget van Verzoeken ](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md).
+Voor meer informatie over nieuwe Mijn widget van Verzoeken, zie [&#x200B; Gebruik Mijn widget van Verzoeken &#x200B;](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md).
 
-Voor de versienota betreffende de nieuwe het vragen ervaring, zie [ Updates aan het verzoeken van ervaring ](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-requests.md#updates-to-requesting-experience).
+Voor de versienota betreffende de nieuwe het vragen ervaring, zie [&#x200B; Updates aan het verzoeken van ervaring &#x200B;](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-requests.md#updates-to-requesting-experience).

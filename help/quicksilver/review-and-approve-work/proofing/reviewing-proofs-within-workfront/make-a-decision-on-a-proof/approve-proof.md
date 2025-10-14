@@ -15,4 +15,4 @@ ht-degree: 0%
 
 # Een bewijs goedkeuren
 
-Wanneer een gebruiker u aan een proef toevoegt en of de rol Fiatteur of Reviewer &amp; Approver verleent, toont het goedkeuringsverzoek in het gebied van het Huis. Vervolgens kunt u het bewijs bekijken en rechtstreeks vanuit Adobe Workfront een goedkeuringsbesluit nemen over het bewijs. Voor informatie over hoe te om goedkeuringsbesluiten van het gebied van het Huis te nemen, zie [ het goedkeuren van het werk ](../../../../review-and-approve-work/manage-approvals/approving-work.md).
+Wanneer een gebruiker u aan een proef toevoegt en of de rol Fiatteur of Reviewer &amp; Approver verleent, toont het goedkeuringsverzoek in het gebied van het Huis. Vervolgens kunt u het bewijs bekijken en rechtstreeks vanuit Adobe Workfront een goedkeuringsbesluit nemen over het bewijs. Voor informatie over hoe te om goedkeuringsbesluiten van het gebied van het Huis te nemen, zie [&#x200B; het goedkeuren van het werk &#x200B;](../../../../review-and-approve-work/manage-approvals/approving-work.md).

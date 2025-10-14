@@ -17,7 +17,7 @@ ht-degree: 1%
 
 U kunt een prioriteit voor een kwestie bepalen om te wijzen op hoe belangrijk de kwestie is.
 
-U moet over beheerdersmachtigingen voor het probleem beschikken om de prioriteit van het probleem te wijzigen. [ werk de Prioriteit van een kwestie ](#update-the-priority-of-an-issue) bij.
+U moet over beheerdersmachtigingen voor het probleem beschikken om de prioriteit van het probleem te wijzigen. [&#x200B; werk de Prioriteit van een kwestie &#x200B;](#update-the-priority-of-an-issue) bij.
 
 ## Toegangsvereisten
 
@@ -57,7 +57,7 @@ Adobe Workfront-beheerders kunnen prioriteitslabels in Workfront wijzigen of ze 
 U zou vertrouwd met de nummeringsopeenvolging voor prioriteiten moeten worden die in uw organisatie worden gebruikt.\
 Bijvoorbeeld, zou uw organisatie aantal 1 kunnen gebruiken om naar urgente taken te verwijzen, als het etiket van de prioriteit is gewijzigd.
 
-Voor meer informatie over het aanpassen van de namen van prioriteiten in uw instantie, zie [ prioriteiten ](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md) creëren en aanpassen.
+Voor meer informatie over het aanpassen van de namen van prioriteiten in uw instantie, zie [&#x200B; prioriteiten &#x200B;](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md) creëren en aanpassen.
 
 Verwijs naar de volgende lijst om elk standaard prioritaire etiket en zijn overeenkomstige aantal te begrijpen:
 
@@ -103,7 +103,7 @@ Verwijs naar de volgende lijst om elk standaard prioritaire etiket en zijn overe
 
 1. Klik het **Prioritaire** gebied op het **Basisinformatie** gebied.
 
-   ![ Prioriteit van de Uitgave ](assets/issue-priority-field.png)
+   ![&#x200B; Prioriteit van de Uitgave &#x200B;](assets/issue-priority-field.png)
 
 1. Selecteer een waarde voor het **Prioritaire** gebied.
 

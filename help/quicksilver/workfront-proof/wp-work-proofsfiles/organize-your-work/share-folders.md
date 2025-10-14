@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [ het Bewijzen ](../../../review-and-approve-work/proofing/proofing.md).
+>Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [&#x200B; het Bewijzen &#x200B;](../../../review-and-approve-work/proofing/proofing.md).
 
 U kunt een map delen met gebruikers en hele bedrijven die [!DNL Workfront Proof] -accounts hebben (niet met gasten).
 
@@ -32,7 +32,7 @@ Als u een volledige map deelt:
 * Eigenaars en makers van mappen kunnen de map altijd bekijken en kunnen niet uit de map worden verwijderd.
 * Als u een privémap deelt met een gebruiker van de Manager in uw account, kunt u bepalen of u deze rechten voor het bewerken van de map wilt geven.
 
-U kunt ook items in een map delen (in plaats van de map zelf). Voor meer informatie, zie [ een Bewijs van het Aandeel in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof.md) en [ de Dossiers van het Aandeel in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-files.md).
+U kunt ook items in een map delen (in plaats van de map zelf). Voor meer informatie, zie [&#x200B; een Bewijs van het Aandeel in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof.md) en [&#x200B; de Dossiers van het Aandeel in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-files.md).
 
 ## Een afzonderlijke map delen
 
@@ -58,7 +58,7 @@ U kunt ook items in een map delen (in plaats van de map zelf). Voor meer informa
    Klik op het selectievakje boven de lijst met mappen om alle mappen in de lijst te selecteren.
 
 1. Klik op **[!UICONTROL Share selected items]**.\
-   ![ Share_button-small.png ](assets/share-button-small.png)
+   ![&#x200B; Share_button-small.png &#x200B;](assets/share-button-small.png)
 
 1. Voer op de pagina die wordt weergegeven een van de volgende handelingen uit:
 
@@ -74,7 +74,7 @@ Wanneer iemand een map met u deelt, wordt deze op de zijbalk van hun [!DNL Workf
 
 1. Klik op de koppeling in het e-mailbericht dat u ontvangt.
 1. Meld u aan bij [!DNL Workfront Proof] .\
-     [!DNL &#x200B; Workfront Proof] geeft de pagina met mapdetails weer. Voor meer informatie, zie [ Mappen en hun Inhoud binnen beheren  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders-and-contents.md).
+     [!DNL &#x200B; Workfront Proof] geeft de pagina met mapdetails weer. Voor meer informatie, zie [&#x200B; Mappen en hun Inhoud binnen beheren  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders-and-contents.md).
 
 ## Informatie over submappen delen
 
@@ -97,4 +97,4 @@ Een map delen met een partner betekent:
 * Alle gebruikers in die organisatie hebben alleen-lezen toegang tot de map (en mapitems).
 * Nieuwe gebruikers die aan de organisatie worden toegevoegd, krijgen automatisch alleen-lezen toegang tot de map (en alle items in de map).
 
-Zie [ punten van het Aandeel met een partner in  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/partner-accounts/share-items-partner-in-wp.md) voor meer informatie.
+Zie [&#x200B; punten van het Aandeel met een partner in  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/partner-accounts/share-items-partner-in-wp.md) voor meer informatie.

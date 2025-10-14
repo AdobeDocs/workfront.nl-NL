@@ -35,7 +35,7 @@ Een abonnement kan ook andere kenmerken hebben, zoals een eigen unieke id en de 
 
 ## Kan ik selecteren welke gebeurtenissen naar een eindpunt worden verzonden dat op bepaalde criteria binnen een gebeurtenislading wordt gebaseerd?
 
-Filters voor gebeurtenisabonnementen zijn een manier waarop subs van gebeurtenissen op opgegeven criteria kunnen worden gesorteerd. Men adviseert dat u filters op gebeurtenisabonnementen toepast aangezien het het aantal berichten kan beduidend verminderen dat een eindpunt moet verbruiken. Voor meer informatie zie [ het abonnement filtreren van de Gebeurtenis ](../../wf-api/general/event-subs-api.md#event).
+Filters voor gebeurtenisabonnementen zijn een manier waarop subs van gebeurtenissen op opgegeven criteria kunnen worden gesorteerd. Men adviseert dat u filters op gebeurtenisabonnementen toepast aangezien het het aantal berichten kan beduidend verminderen dat een eindpunt moet verbruiken. Voor meer informatie zie [&#x200B; het abonnement filtreren van de Gebeurtenis &#x200B;](../../wf-api/general/event-subs-api.md#event).
 
 ## Waarom retourneert de API een 409-conflictreactiecode?
 
@@ -74,7 +74,7 @@ Sommige van de volgende scenario&#39;s kunnen verantwoordelijk zijn:
 
 ## Wat zou ik moeten doen als ik een 500 reactiestatus ontvang wanneer ik probeer om het Abonnement API van de Gebeurtenis te roepen?
 
-Neem contact op met Workfront Support. Leren hoe te om steun te contacteren, zie [ de Steun van de Klant van het Contact ](../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).
+Neem contact op met Workfront Support. Leren hoe te om steun te contacteren, zie [&#x200B; de Steun van de Klant van het Contact &#x200B;](../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).
 
 ## Welke verschillende verificatietypen kan ik gebruiken met Workfront Event Subscriptions?
 
@@ -86,12 +86,12 @@ Over het algemeen kunt u verwachten dat u binnen minder dan 5 seconden na de geg
 
 ## Aanvullende bronnen
 
-* **API Documentatie**: [ Abonnement API van de Gebeurtenis ](../../wf-api/general/event-subs-api.md)
+* **API Documentatie**: [&#x200B; Abonnement API van de Gebeurtenis &#x200B;](../../wf-api/general/event-subs-api.md)
 
-* **Beste praktijken**: [ beste praktijken van het abonnement van de Gebeurtenis ](../../wf-api/general/event-sub-best-practice.md)
+* **Beste praktijken**: [&#x200B; beste praktijken van het abonnement van de Gebeurtenis &#x200B;](../../wf-api/general/event-sub-best-practice.md)
 
-* **Gebieden die de nuttige ladingen van het Abonnement van de Gebeurtenis** teweegbrengen: [ het middelgebieden van het abonnement van de Gebeurtenis ](../../wf-api/api/event-sub-resource-fields.md)
+* **Gebieden die de nuttige ladingen van het Abonnement van de Gebeurtenis** teweegbrengen: [&#x200B; het middelgebieden van het abonnement van de Gebeurtenis &#x200B;](../../wf-api/api/event-sub-resource-fields.md)
 
-* **Begrijpend de Abonnementen van de Gebeurtenis** opnieuw: [ het abonnementsherangen van de Gebeurtenis ](../../wf-api/api/event-sub-retries.md)
+* **Begrijpend de Abonnementen van de Gebeurtenis** opnieuw: [&#x200B; het abonnementsherangen van de Gebeurtenis &#x200B;](../../wf-api/api/event-sub-retries.md)
 
-* **Vormend uw firewall voor Workfront**: [ vorm de lijst van gewenste personen van uw firewall ](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md)
+* **Vormend uw firewall voor Workfront**: [&#x200B; vorm de lijst van gewenste personen van uw firewall &#x200B;](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md)

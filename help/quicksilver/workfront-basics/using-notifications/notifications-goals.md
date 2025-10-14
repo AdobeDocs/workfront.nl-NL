@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # Meldingen: Doelstellingen
 
-U kunt uw e-mailmeldingen inschakelen voor gebeurtenissen in [!DNL Adobe Workfront Goals] in uw profiel. Een gebruiker met een [!UICONTROL Plan] -licentie kan deze ook inschakelen voor andere gebruikers. Voor informatie, zie [[!DNL Adobe Workfront]  berichten ](../../workfront-basics/using-notifications/wf-notifications.md).
+U kunt uw e-mailmeldingen inschakelen voor gebeurtenissen in [!DNL Adobe Workfront Goals] in uw profiel. Een gebruiker met een [!UICONTROL Plan] -licentie kan deze ook inschakelen voor andere gebruikers. Voor informatie, zie [[!DNL Adobe Workfront]  berichten &#x200B;](../../workfront-basics/using-notifications/wf-notifications.md).
 
 ## Toegangsvereisten
 
@@ -66,15 +66,15 @@ U moet het volgende hebben:
 
 ## [!DNL Goals] -meldingen in het [!UICONTROL user profile] -gebied
 
-De berichten in de volgende lijst waarschuwen u over gebeurtenissen die in [!DNL Workfront Goals] gebeuren, zoals iemand die u een doel, een resultaat, of een activiteit toewijst of iemand die een update op een doel, een resultaat, of een activiteit maakt die u bezit. Voor informatie over het vormen van welke berichten u ontvangt, zie [ uw eigen e-mailberichten wijzigen ](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+De berichten in de volgende lijst waarschuwen u over gebeurtenissen die in [!DNL Workfront Goals] gebeuren, zoals iemand die u een doel, een resultaat, of een activiteit toewijst of iemand die een update op een doel, een resultaat, of een activiteit maakt die u bezit. Voor informatie over het vormen van welke berichten u ontvangt, zie [&#x200B; uw eigen e-mailberichten wijzigen &#x200B;](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
-![ de voorkeur van Meldingen ](assets/goals-notifications-preferences-350x114.png)
+![&#x200B; de voorkeur van Meldingen &#x200B;](assets/goals-notifications-preferences-350x114.png)
 
 >[!NOTE]
 >
 >Instant-meldingen voor [!DNL Goals] zijn standaard uitgeschakeld. U kunt dagelijkse meldingen niet in- of uitschakelen en u ontvangt geen dagelijkse samenvattingse-mails voor de gebeurtenissen in deze categorie. U kunt afzonderlijke expresmeldingen voor de categorie [!DNL Goals] in- of uitschakelen.
 
-Zie ook [ de berichten van de Gebeurtenis ](../../workfront-basics/using-notifications/event-notifications.md).
+Zie ook [&#x200B; de berichten van de Gebeurtenis &#x200B;](../../workfront-basics/using-notifications/event-notifications.md).
 
 <table style="table-layout:auto"> 
  <col> 

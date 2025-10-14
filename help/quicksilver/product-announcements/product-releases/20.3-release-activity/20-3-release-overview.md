@@ -100,16 +100,16 @@ For specific release dates and times for each cluster, see the
 
 De versie 2020.3 bevat de volgende verbeteringen voor alle gebruikers:
 
-* [ de Doelen van Workfront ](#workfront-goals) Nieuw!
+* [&#x200B; de Doelen van Workfront &#x200B;](#workfront-goals) Nieuw!
 
-* [ de Planner van het Scenario ](#scenario-planner) Nieuw!
+* [&#x200B; de Planner van het Scenario &#x200B;](#scenario-planner) Nieuw!
 
-* [ Verbeteringen van Analytics ](#analytics-enhancements)
-* [ de verhogingen van het Gelijkaardig ](#agile-enhancements)
-* [ Verbeteringen van het Beheer van het Middel ](#resource-management-enhancements)
-* [ Verbeteringen van het Beheer van het Project ](#project-management-enhancements)
-* [ Verbeteringen van het Bewijs ](#proof-enhancements)
-* [ Integratie en mobiele verhogingen ](#integration-and-mobile-enhancements)
+* [&#x200B; Verbeteringen van Analytics &#x200B;](#analytics-enhancements)
+* [&#x200B; de verhogingen van het Gelijkaardig &#x200B;](#agile-enhancements)
+* [&#x200B; Verbeteringen van het Beheer van het Middel &#x200B;](#resource-management-enhancements)
+* [&#x200B; Verbeteringen van het Beheer van het Project &#x200B;](#project-management-enhancements)
+* [&#x200B; Verbeteringen van het Bewijs &#x200B;](#proof-enhancements)
+* [&#x200B; Integratie en mobiele verhogingen &#x200B;](#integration-and-mobile-enhancements)
 * [Andere verbeteringen](#other-enhancements)
 
 ### Workfront-doelen  {#workfront-goals}
@@ -118,14 +118,14 @@ De versie 2020.3 bevat de volgende verbeteringen voor alle gebruikers:
 >
 >Uw organisatie moet het volgende hebben om de functionaliteit te gebruiken die in dit artikel wordt beschreven:
 >
->* Een Pro of hoger [ plan van Adobe Workfront ](https://business.adobe.com/products/workfront/pricing.html).
+>* Een Pro of hoger [&#x200B; plan van Adobe Workfront &#x200B;](https://business.adobe.com/products/workfront/pricing.html).
 >* Een Adobe Workfront Goals-licentie in aanvulling op een Workfront-licentie.
 >
 >  Neem contact op met uw Workfront-accountmanager voor meer informatie over een Workfront Goals-licentie.
 >
 >  Workfront Goals is alleen beschikbaar in de nieuwe Adobe Workfront-ervaring.
 >
->Voor extra informatie over toegang tot de Doelen van Workfront, zie [ Vereisten om de Doelen van Workfront ](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md) te gebruiken.
+>Voor extra informatie over toegang tot de Doelen van Workfront, zie [&#x200B; Vereisten om de Doelen van Workfront &#x200B;](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md) te gebruiken.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -403,7 +403,7 @@ De versie 2020.3 bevat de volgende verbeteringen voor alle gebruikers:
 
 ## API-verbeteringen
 
-API versie 11 uitgebracht met de release 2020.1. Voor informatie over wat nieuw en bijgewerkt is, zie [ wat in API versie 11 ](../../../wf-api/api/new-api-version-11.md) nieuw is
+API versie 11 uitgebracht met de release 2020.1. Voor informatie over wat nieuw en bijgewerkt is, zie [&#x200B; wat in API versie 11 &#x200B;](../../../wf-api/api/new-api-version-11.md) nieuw is
 
 <!--
 <a href="https://experience.workfront.com/s/article/What-s-new-in-API-version-11-1760875145" target="_blank" data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">What's new in API version 11</a>
@@ -411,7 +411,7 @@ API versie 11 uitgebracht met de release 2020.1. Voor informatie over wat nieuw 
 
 .
 
-Voor meer informatie over API versies, zie [ API versioning en steunprogramma ](../../../wf-api/api/api-version-support-schedule.md)
+Voor meer informatie over API versies, zie [&#x200B; API versioning en steunprogramma &#x200B;](../../../wf-api/api/api-version-support-schedule.md)
 
 <!--
 <a href="https://experience.workfront.com/s/article/API-Version-Release-and-Support-Schedule-272875487?language=en_US&r=13&ui-comm-runtime-components-aura-components-siteforce-qb.Quarterback.validateRoute=1&ui-communities-components-aura-components-forceCommunity-breadcrumbs.Breadcrumbs.getAncestors=1&ui-communities-components-aura-components-forceCommunity-seoAssistant.SeoAssistant.getSeoData=1&ui-force-components-controllers-recordGlobalValueProvider.RecordGvp.getRecord=1&ui-self-service-components-controller.ArticleTopicList.getTopics=1&ui-self-service-components-controller.ArticleView.getArticleHeaderDetail=1" target="_blank" data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">API Version Release and Support Schedule</a>
@@ -425,17 +425,17 @@ Voor informatie over de onderhoudsupdates die tijdens de versie 20.3 worden gema
 
 ## Aankondigingen
 
-* [ Verandering in de versiecadence van de Voorproef ](#change-in-preview-release-cadence)
-* [ Lijst van gewenste personen van extra domeinen die voor de toegang tot van Workfront ](#allowlist-of-additional-domains-required-for-accessing-workfront) worden vereist
-* [ Workfront Één ](#workfront-one)
-* [ Webinar van de Versie 20.3 ](#20-3-release-webinar)
+* [&#x200B; Verandering in de versiecadence van de Voorproef &#x200B;](#change-in-preview-release-cadence)
+* [&#x200B; Lijst van gewenste personen van extra domeinen die voor de toegang tot van Workfront &#x200B;](#allowlist-of-additional-domains-required-for-accessing-workfront) worden vereist
+* [&#x200B; Workfront Één &#x200B;](#workfront-one)
+* [&#x200B; Webinar van de Versie 20.3 &#x200B;](#20-3-release-webinar)
 * [Q1 Roadmap-webinar product](#q1-product-roadmap-webinar)
 
 ### Wijzigen in de release Voorvertoning {#change-in-preview-release-cadence}
 
 Vanaf 20 mei 2020 begon Workfront wekelijks functionaliteit beschikbaar te maken in de voorvertoningsomgeving. Vóór deze wijziging werd de functionaliteit doorgaans elke twee weken vrijgegeven voor de voorvertoningsomgeving.
 
-Voor meer informatie, zie [ Verandering in FAQ van de de voorproefversie van Workfront ](https://experienceleague.adobe.com/nl/docs/workfront/using/home)
+Voor meer informatie, zie [&#x200B; Verandering in FAQ van de de voorproefversie van Workfront &#x200B;](https://experienceleague.adobe.com/nl/docs/workfront/using/home)
 
 ### Lijst van gewenste personen van aanvullende domeinen die vereist zijn voor toegang tot Workfront {#allowlist-of-additional-domains-required-for-accessing-workfront}
 
@@ -444,13 +444,13 @@ Als uw organisatie een firewall gebruikt, moet u de volgende extra domeinen aan 
 * event.split.io
 * sdk.split.io
 
-Voor meer informatie, zie [ de lijst van gewenste personen van uw firewall ](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md) vormen.
+Voor meer informatie, zie [&#x200B; de lijst van gewenste personen van uw firewall &#x200B;](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md) vormen.
 
 ### Workfront One {#workfront-one}
 
 Met Workfront One ontdekt u de belangrijkste inhoud, bronnen en nieuws uit Workfront — allemaal op één plaats, met één aanmelding. We hebben de sites Experience, Community en Training verenigd, waardoor het gemakkelijker wordt om te vinden wat u zoekt.
 
-[ leer meer over Workfront Één ](https://business.adobe.com/products/workfront.html).
+[&#x200B; leer meer over Workfront Één &#x200B;](https://business.adobe.com/products/workfront.html).
 
 ### 20.3 Release Webinar {#20-3-release-webinar}
 

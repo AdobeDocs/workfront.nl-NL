@@ -32,5 +32,5 @@ De werkruimte van GenStudio is beschikbaar in Adobe Workfront Planning wanneer u
 De artikelen in deze sectie beschrijven de functionaliteit beschikbaar voor deze integratie.
 
 * [Aan de slag met de Workfront Planning and GenStudio for Performance Marketing Integration](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md)
-* [ beheer GenStudio Workspace in de Planning van Adobe Workfront ](/help/quicksilver/planning/planning-and-genstudio-integration/manage-gen-studio-workspace-in-planning.md)
+* [&#x200B; beheer GenStudio Workspace in de Planning van Adobe Workfront &#x200B;](/help/quicksilver/planning/planning-and-genstudio-integration/manage-gen-studio-workspace-in-planning.md)
   <!--* [Promote Adobe Workfront Planning workspace to GenStudio](/help/quicksilver/planning/planning-and-genstudio-integration/promote-planning-workspace-to-genstudio.md)-->

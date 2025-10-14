@@ -17,8 +17,8 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->De functie Canvasdashboards is momenteel alleen beschikbaar voor gebruikers die deelnemen aan de bètafase. Onderdelen van het onderdeel zijn mogelijk niet compleet of werken niet zoals bedoeld in deze fase. Gelieve te dienen om het even welke terugkoppelen betreffende uw ervaring door de instructies in [ te volgen verstrekt ](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) sectie in het de bètaoverzichtsartikel van de dashboards van het Canvas.<br>
->&#x200B;>Als u feedback hebt over een mogelijk probleem met een probleem of een technisch probleem, stuurt u een ticket naar Workfront Support. Voor meer informatie, zie [ de Steun van de Klant van het Contact ](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
+>De functie Canvasdashboards is momenteel alleen beschikbaar voor gebruikers die deelnemen aan de bètafase. Onderdelen van het onderdeel zijn mogelijk niet compleet of werken niet zoals bedoeld in deze fase. Gelieve te dienen om het even welke terugkoppelen betreffende uw ervaring door de instructies in [&#x200B; te volgen verstrekt &#x200B;](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) sectie in het de bètaoverzichtsartikel van de dashboards van het Canvas.<br>
+>&#x200B;>Als u feedback hebt over een mogelijk probleem met een probleem of een technisch probleem, stuurt u een ticket naar Workfront Support. Voor meer informatie, zie [&#x200B; de Steun van de Klant van het Contact &#x200B;](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
 >&#x200B;>Deze bètaversie is niet beschikbaar op de volgende cloudproviders:
 >
 >* Je eigen sleutel voor Amazon Web Services
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 U kunt een grafiekrapport aan een dashboard van het Canvas bouwen en toevoegen om uw gegevens als bar, kolom, lijn, of cirkeldiagram visualiseren.
 
-![ rapport van de Grafiek ](assets/chart-report-main.png)
+![&#x200B; rapport van de Grafiek &#x200B;](assets/chart-report-main.png)
 
 ## Toegangsvereisten
 
@@ -61,7 +61,7 @@ U kunt een grafiekrapport aan een dashboard van het Canvas bouwen en toevoegen o
 </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 +++
 
 ## Vereisten
@@ -102,7 +102,7 @@ Er zijn vele configuratieopties beschikbaar voor het bouwen van een grafiekrappo
 
 1. Volg hieronder de stappen om **bouwt grafiek** sectie te vormen:
 
-   1. In het linkerpaneel, klik het **bouwt grafiek** ![ het pictogram van de Grafiek ](assets/build-chart-icon.png) bouwen.
+   1. In het linkerpaneel, klik het **bouwt grafiek** ![&#x200B; het pictogram van de Grafiek &#x200B;](assets/build-chart-icon.png) bouwen.
 
    1. In het **type van Grafiek** drop-down, selecteer het type van grafiek u wilt tot stand brengen:
 
@@ -123,14 +123,14 @@ Er zijn vele configuratieopties beschikbaar voor het bouwen van een grafiekrappo
 
 1. Volg hieronder de stappen om de **sectie van de Filter** te vormen:
 
-   1. In het linkerpaneel, klik het **pictogram van de Filter**![ van de Filter &lbrace;](assets/filter-icon.png).
+   1. In het linkerpaneel, klik het **pictogram van de Filter**![&#x200B; van de Filter &lbrace;](assets/filter-icon.png).
    1. Selecteer **filter uitgeven**.
    1. Klik **toevoegen voorwaarde** en specificeer dan het gebied u tegen en de bepaling wilt filtreren die bepaalt welk soort voorwaarde het gebied moet ontmoeten.
    1. (Facultatief) klik **toevoegen filtergroep** om een andere reeks het filtreren criteria toe te voegen. De standaardoperator tussen de sets is AND. Klik op de operator om deze te wijzigen in OR.
 
 1. Volg hieronder de stappen om de **sectie van de Montages van de Kolom te vormen 0&rbrace; Drilldown &lbrace;:**
 
-   1. In het linkerpaneel, klik het **Drilldown pictogram van Kolommen** ![ Drilldown kolommen ](assets/drilldown-column.png). De velden in het diagram worden automatisch als kolommen weergegeven in de voorbeeldsectie aan de rechterkant.
+   1. In het linkerpaneel, klik het **Drilldown pictogram van Kolommen** ![&#x200B; Drilldown kolommen &#x200B;](assets/drilldown-column.png). De velden in het diagram worden automatisch als kolommen weergegeven in de voorbeeldsectie aan de rechterkant.
 
    1. (Facultatief) om het even welke bestaande kolomconfiguraties bij te werken, selecteer de kolom u in de **Huidige kolommen** sectie wilt bijwerken en dan de gewenste informatie (b.v. etiket, verbonden status, en voorwaarden) bijwerken.
 
@@ -138,7 +138,7 @@ Er zijn vele configuratieopties beschikbaar voor het bouwen van een grafiekrappo
 
 1. Volg hieronder de stappen om de **sectie van de Montages van de Groep van de Drilldown** te vormen:
 
-   1. In het linkerpaneel, klik het **pictogram van de Montages van de Groep** ![ van de Montages van de Groep ](assets/drilldown-group-icon.png).
+   1. In het linkerpaneel, klik het **pictogram van de Montages van de Groep** ![&#x200B; van de Montages van de Groep &#x200B;](assets/drilldown-group-icon.png).
 
    1. Klik **toevoegen groeperend** knoop en dan het gebied selecteren u als groepering wilt tot stand brengen.
 
@@ -180,13 +180,13 @@ In deze sectie, zullen wij over de stappen gaan om een kolomgrafiek tot stand te
 
    1. Selecteer het **gebied van de Update** knoop onder de **bodem (X) as** sectie, dan bepaal de plaats en selecteer van de **Taak** > **Project** > **Eigenaar** > **Naam** gebied.
 
-      ![ gebied van de Update ](assets/bottom-x-axis.png)
+      ![&#x200B; gebied van de Update &#x200B;](assets/bottom-x-axis.png)
 
    1. Klik het **Uitgezochte gebied** knoop onder de **Linkeras (Y)** sectie, dan bepaal de plaats en selecteer van de **Taak** > **het gebied van de Naam**.
 
    1. In het **type van Samenvoeging** drop-down, uitgezochte **Telling**.
 
-      ![ het typegebied van de Samenvoeging ](assets/left-y-axis.png)
+      ![&#x200B; het typegebied van de Samenvoeging &#x200B;](assets/left-y-axis.png)
 
 1. Volg hieronder de stappen om de **sectie van de Filter** te vormen:
 
@@ -212,13 +212,13 @@ In deze sectie, zullen wij over de stappen gaan om een kolomgrafiek tot stand te
 
    1. Ga *$$TODAY* op het evaluatiegebied in.
 
-      Voor meer informatie over vervangingen, zie de sectie op datum-Gebaseerde variabelen van de vervangingsfilter in [ rapportfilters in een 1&rbrace; artikel van het Dashboard van het Canvas uitgeven.](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/edit-report-filters.md)
+      Voor meer informatie over vervangingen, zie de sectie op datum-Gebaseerde variabelen van de vervangingsfilter in [&#x200B; rapportfilters in een 1&rbrace; artikel van het Dashboard van het Canvas uitgeven.](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/edit-report-filters.md)
 
-      ![ het gebied van de Evaluator ](assets/add-condition.png)
+      ![&#x200B; het gebied van de Evaluator &#x200B;](assets/add-condition.png)
 
 1. Volg hieronder de stappen om de **sectie van de Montages van de Kolom te vormen 0&rbrace; Drilldown &lbrace;:**
 
-   1. In het linkerpaneel, klik het **Drilldown Kolommen** ![ Drilldown kolommen ](assets/drilldown-column.png) pictogram. De velden in het diagram worden automatisch als kolommen weergegeven in de voorbeeldsectie aan de rechterkant.
+   1. In het linkerpaneel, klik het **Drilldown Kolommen** ![&#x200B; Drilldown kolommen &#x200B;](assets/drilldown-column.png) pictogram. De velden in het diagram worden automatisch als kolommen weergegeven in de voorbeeldsectie aan de rechterkant.
 
    1. Klik **toevoegen kolom**, dan selecteren **Toegewezen aan** > **Naam** gebied.
 
@@ -232,7 +232,7 @@ In deze sectie, zullen wij over de stappen gaan om een kolomgrafiek tot stand te
 
 1. Volg hieronder de stappen om de **sectie van de Montages van de Groep van de Drilldown** te vormen:
 
-   1. In het linkerpaneel, klik het **pictogram van de Montages van de Groep** ![ van de Montages van de Groep ](assets/drilldown-group-icon.png).
+   1. In het linkerpaneel, klik het **pictogram van de Montages van de Groep** ![&#x200B; van de Montages van de Groep &#x200B;](assets/drilldown-group-icon.png).
 
    1. Klik **toevoegen groeperend** knoop en selecteer dan het **Project** > **gebied van de Naam**.
 
@@ -248,7 +248,7 @@ De **secties** drop-down in de **bouwt grafiek** sectie wordt ontworpen om de ke
 * **de Voorwerpen van Workfront**: De inheemse voorwerpen van het Werkschema van Workfront.
 * **de Types van Verslag van de Planning**: De verslagtypes van Douane die in de Planning van Workfront worden bepaald.
 
-![ drop-down Secties ](assets/sections-dropdown.png)
+![&#x200B; drop-down Secties &#x200B;](assets/sections-dropdown.png)
 
 Zodra het voorwerp van de basisentiteit is geselecteerd, **secties** drop-down dan werkt met toepasselijke gebiedstype opties bij om van te kiezen.
 
@@ -258,7 +258,7 @@ Zodra het voorwerp van de basisentiteit is geselecteerd, **secties** drop-down d
 * **de Gebieden van Workfront**: Eigen gebieden slechts.
 * **Verhoudingen**: Verbonden verslagen.
 
-![ Te Rapporteren objecten selectie ](assets/reportable-objects-selection.png)
+![&#x200B; Te Rapporteren objecten selectie &#x200B;](assets/reportable-objects-selection.png)
 
 ### Verwijzen naar onderliggende objecten
 

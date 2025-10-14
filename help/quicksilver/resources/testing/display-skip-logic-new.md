@@ -68,7 +68,7 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
 
 De beste manier om te leren hoe te om vertoning toe te voegen en logica aan een douaneformulier over te slaan is door het praktische voorbeeld dat in de twee volgende secties wordt verklaard:
 
-* [ logica van de Vertoning - praktisch voorbeeld ](#display-logic-practical-example)
+* [&#x200B; logica van de Vertoning - praktisch voorbeeld &#x200B;](#display-logic-practical-example)
 * [Logica overslaan - praktisch voorbeeld](#skip-logic-practical-example)
 
 ### Logica weergeven - praktisch voorbeeld {#display-logic-practical-example}
@@ -121,13 +121,13 @@ In dit voorbeeld maakt u een aangepast formulier met een meerkeuzerondje-veld. V
 
 1. Selecteer **Voorproef** om ervoor te zorgen de logica de manier werkt u het aan op de vorm wilt, dan selecteren **Voorproef van het Eind**.
 
-1. Klik **sparen + Sluiten** sparen de vorm, dan verdergaat op [ logica Overslaan - praktisch voorbeeld ](#skip-logic-practical-example) hieronder.
+1. Klik **sparen + Sluiten** sparen de vorm, dan verdergaat op [&#x200B; logica Overslaan - praktisch voorbeeld &#x200B;](#skip-logic-practical-example) hieronder.
 
 ### Logica overslaan - praktisch voorbeeld {#skip-logic-practical-example}
 
 Logische functies voor overslaan werken ongeveer op dezelfde manier als voor de weergave van logica, maar fungeren als het omgekeerde: in plaats van specifieke aangepaste multikeuze-velden weer te geven op basis van eerdere gebruikersselecties, bepaalt u welke velden moeten worden verborgen (overgeslagen) omdat ze niet relevant zijn voor de gebruiker.
 
-Om over dit te leren, blijf werkend aan de vorm van de steekproefdouane u in de sectie [ logica van de Vertoning - praktisch voorbeeld ](#display-logic-practical-example) in dit artikel creeerde.
+Om over dit te leren, blijf werkend aan de vorm van de steekproefdouane u in de sectie [&#x200B; logica van de Vertoning - praktisch voorbeeld &#x200B;](#display-logic-practical-example) in dit artikel creeerde.
 
 1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik **Opstelling** ![](assets/gear-icon-settings.png).
 

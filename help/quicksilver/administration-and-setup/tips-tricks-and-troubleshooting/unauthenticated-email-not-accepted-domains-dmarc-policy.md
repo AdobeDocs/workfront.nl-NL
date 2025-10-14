@@ -25,7 +25,7 @@ ht-degree: 0%
 550-5.7.1 Niet-geverifieerde e-mail van &quot;customer domain.com&quot; wordt niet geaccepteerd vanwege\
 Het DMARC-beleid van het domein 550-5.7.1. Neem contact op met de beheerder van &quot;customer domain.com&quot;\
 550-5.7.1 domein als dit een wettige post was. Ga naar\
-550-5.7.1 [*https://support.google.com/mail/answer/2451690* ](https://support.google.com/mail/answer/2451690) om over DMARC te leren\
+550-5.7.1 [*https://support.google.com/mail/answer/2451690* &#x200B;](https://support.google.com/mail/answer/2451690) om over DMARC te leren\
 550 5.7.1 initiatief.
 
 ## Oplossing
@@ -34,4 +34,4 @@ DMARC is geconfigureerd in het e-mailsysteem van uw bedrijf en maakt geen deel u
 
 Uw e-mailbeheerder moet uw e-mailsysteem zodanig configureren dat e-mail van noreply@workfront.com of bij voorkeur alle e-mailberichten van workfront.com is toegestaan/vertrouwd.
 
-Voor meer informatie over DMARC, zie [ https://support.google.com/mail/answer/2451690.](https://support.google.com/mail/answer/2451690)
+Voor meer informatie over DMARC, zie [&#x200B; https://support.google.com/mail/answer/2451690.](https://support.google.com/mail/answer/2451690)

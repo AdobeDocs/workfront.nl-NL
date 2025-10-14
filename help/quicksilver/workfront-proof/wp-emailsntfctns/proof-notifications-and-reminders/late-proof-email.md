@@ -19,7 +19,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [ het Bewijzen ](../../../review-and-approve-work/proofing/proofing.md).
+>Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [&#x200B; het Bewijzen &#x200B;](../../../review-and-approve-work/proofing/proofing.md).
 
 Het [!UICONTROL Late Proof] -e-mailbericht wordt naar ontvangers verzonden wanneer een proefdruk bijna op de deadline valt of de deadline bereikt. Deze e-mailtypen kunnen niet worden uitgeschakeld op proefdrukniveau, maar kunnen worden geconfigureerd op basis van persoonlijke instellingen van account en gebruiker.
 
@@ -34,7 +34,7 @@ Deze meldingen kunnen niet worden aangepast.
 De volgende personen worden op de hoogte gesteld:
 
 * De Eigenaar, alleen als [!UICONTROL Email] alarm wanneer de proefdrukken te laat zijn ingeschakeld in [!UICONTROL Owner's Proofing defaults].
-* Elke fiatteur die nog geen besluit over het bewijs heeft genomen. Voor informatie over besluiten, zie [ een besluit over een bewijs in de het proef kijker ](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md) nemen
+* Elke fiatteur die nog geen besluit over het bewijs heeft genomen. Voor informatie over besluiten, zie [&#x200B; een besluit over een bewijs in de het proef kijker &#x200B;](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md) nemen
 
 >[!NOTE]
 >
@@ -42,11 +42,11 @@ De volgende personen worden op de hoogte gesteld:
 
 Overweeg het volgende over proefdrukmeldingen:
 
-* Uw [!DNL Workfront] beheerder of [!DNL Workfront Proof] beheerder kan het embleem van uw organisatie in uw e-mailberichten omvatten, zoals die in [ worden verklaard merk de  [!DNL Workfront Proof]  plaats ](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site.md).
+* Uw [!DNL Workfront] beheerder of [!DNL Workfront Proof] beheerder kan het embleem van uw organisatie in uw e-mailberichten omvatten, zoals die in [&#x200B; worden verklaard merk de  [!DNL Workfront Proof]  plaats &#x200B;](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site.md).
 * Als u meerdere proefdrukken met dezelfde controleurs wilt delen en u niet wilt dat deze meerdere e-mails ontvangen, kunt u ze tegelijkertijd uploaden. Alle revisoren ontvangen één e-mail met alle proefdrukken en een persoonlijke URL voor elke proefdruk.
 
   >[!NOTE]
   >
-  >De maker van de proefdrukken ontvangt een aparte [!UICONTROL Proof made] e-mail voor elk van de gemaakte proefdrukken. Voor meer informatie, zie [ E-mail [!UICONTROL Proof Made] ](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/proof-made-email.md).
+  >De maker van de proefdrukken ontvangt een aparte [!UICONTROL Proof made] e-mail voor elk van de gemaakte proefdrukken. Voor meer informatie, zie [&#x200B; E-mail [!UICONTROL Proof Made] &#x200B;](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/proof-made-email.md).
 
-* Als u of uw recensenten geen verwacht e-mailbericht ontvangen, zie [  [!DNL Workfront Proof]  e-mails vormen om spamfilters ](../../../workfront-proof/wp-emailsntfctns/avoiding-spam-filters/configure-wp-emails-avoid-spam-filters.md) te vermijden.
+* Als u of uw recensenten geen verwacht e-mailbericht ontvangen, zie [&#x200B;  [!DNL Workfront Proof]  e-mails vormen om spamfilters &#x200B;](../../../workfront-proof/wp-emailsntfctns/avoiding-spam-filters/configure-wp-emails-avoid-spam-filters.md) te vermijden.

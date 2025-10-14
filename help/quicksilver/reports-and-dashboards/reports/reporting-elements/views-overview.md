@@ -18,17 +18,17 @@ ht-degree: 0%
 
 <!--Audited: 11/2024-->
 
-U kunt het type gegevens aanpassen dat u in een lijst of rapport weergeeft door de weergave van de lijst of het rapport te beheren. U kunt objecten en de bijbehorende kenmerken in een weergave weergeven. Voor informatie over de voorwerpen van Adobe Workfront, zie [ voorwerpen in Adobe Workfront ](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md) begrijpen.
+U kunt het type gegevens aanpassen dat u in een lijst of rapport weergeeft door de weergave van de lijst of het rapport te beheren. U kunt objecten en de bijbehorende kenmerken in een weergave weergeven. Voor informatie over de voorwerpen van Adobe Workfront, zie [&#x200B; voorwerpen in Adobe Workfront &#x200B;](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md) begrijpen.
 
 ## Overwegingen over weergaven
 
 * U kunt bestaande weergaven aanpassen. Alle gebruikers die de weergaven kunnen bekijken, kunnen ook uw wijzigingen zien.
 * Uw Adobe Workfront-beheerder moet u toegang geven tot het bewerken van filters, weergaven en groepen om weergaven te kunnen maken.
 
-  Voor informatie over het verlenen van toegang, zie [ Toegang van de Verlening tot filters, meningen, en groeperingen ](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md).
+  Voor informatie over het verlenen van toegang, zie [&#x200B; Toegang van de Verlening tot filters, meningen, en groeperingen &#x200B;](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md).
 
 * Uw machtigingsniveau voor een weergave bepaalt hoe een weergave wordt opgeslagen. Als u de weergave oorspronkelijk hebt gemaakt, kunt u de wijzigingen opslaan, anders wordt u gevraagd een versie van de weergave op te slaan. Als u wijzigingen aanbrengt in een weergave die u met anderen hebt gedeeld, is dit ook van invloed op deze weergave.
-* U kunt een weergave die met u is gedeeld, alleen aanpassen als de gebruiker die deze heeft gedeeld, toegang tot Beheren heeft verleend. Voor informatie over het delen van een mening, zie [ een filter, mening, of groepering ](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md) delen.
+* U kunt een weergave die met u is gedeeld, alleen aanpassen als de gebruiker die deze heeft gedeeld, toegang tot Beheren heeft verleend. Voor informatie over het delen van een mening, zie [&#x200B; een filter, mening, of groepering &#x200B;](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md) delen.
 
 U kunt bestaande weergaven aanpassen, weergaven maken op basis van bestaande weergaven of geheel nieuwe weergaven maken.
 
@@ -55,12 +55,12 @@ Hieronder vindt u typen weergaven die u kunt toepassen in lijsten of rapporten i
 
 ## Een weergave delen
 
-Voor informatie over hoe te om een mening te delen, zie [ een filter, mening, of groepering ](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md) delen.
+Voor informatie over hoe te om een mening te delen, zie [&#x200B; een filter, mening, of groepering &#x200B;](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md) delen.
 
 ## Een weergave verwijderen
 
 De mogelijkheid om een weergave te verwijderen werkt anders, afhankelijk van het feit of u de weergave oorspronkelijk hebt gemaakt of dat de weergave met u is gedeeld. U kunt een standaardweergave niet verwijderen.
 
-Voor meer informatie, zie [ filters, meningen, en groeperingen ](../../../reports-and-dashboards/reports/reporting-elements/remove-filters-views-groupings.md) verwijderen.
+Voor meer informatie, zie [&#x200B; filters, meningen, en groeperingen &#x200B;](../../../reports-and-dashboards/reports/reporting-elements/remove-filters-views-groupings.md) verwijderen.
 
 

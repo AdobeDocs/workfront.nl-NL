@@ -19,16 +19,16 @@ ht-degree: 0%
 
 Wanneer u een malplaatje aan een bestaand project vastmaakt, wijzigt u sommige informatie over het project volgens dat van het malplaatje. Een deel van de informatie over het project blijft ongewijzigd.
 
-Voor informatie over hoe te om een malplaatje aan een project vast te maken, zie [ een malplaatje aan een project ](../../../manage-work/projects/create-and-manage-templates/attach-template-to-project.md) vastmaken.
+Voor informatie over hoe te om een malplaatje aan een project vast te maken, zie [&#x200B; een malplaatje aan een project &#x200B;](../../../manage-work/projects/create-and-manage-templates/attach-template-to-project.md) vastmaken.
 
 ## Overwegingen bij het toevoegen van sjablonen aan projecten
 
 Overweeg het volgende wanneer het toevoegen van malplaatjes aan projecten:
 
 * U kunt alleen actieve sjablonen aan projecten koppelen.
-* U kunt een malplaatje aan een project vastmaken wanneer het project in een status van Voltooid, Dead, of in In afwachting van Goedkeuring is, slechts wanneer uw beheerder van Adobe Workfront of een groepsbeheerder deze functionaliteit op het gebied van de Voorkeur van het Project heeft toegelaten. Voor informatie over het plaatsen van projectvoorkeur, zie [ systeem-brede projectvoorkeur ](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) vormen.
+* U kunt een malplaatje aan een project vastmaken wanneer het project in een status van Voltooid, Dead, of in In afwachting van Goedkeuring is, slechts wanneer uw beheerder van Adobe Workfront of een groepsbeheerder deze functionaliteit op het gebied van de Voorkeur van het Project heeft toegelaten. Voor informatie over het plaatsen van projectvoorkeur, zie [&#x200B; systeem-brede projectvoorkeur &#x200B;](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) vormen.
 * Tenzij u specifieke malplaatjetaken van wordt toegevoegd in het gehechtheidsproces uitsluiten, worden alle malplaatjetaken toegevoegd aan het bestaande project.
-* De meeste sjablooninstellingen worden toegevoegd aan het project. Sommige projectinstellingen blijven behouden. Voor informatie, zie de sectie [ veranderingen in projectgebieden begrijpen wanneer het vastmaken van een malplaatje ](#understand-changes-to-project-fields-when-attaching-a-template) in dit artikel.
+* De meeste sjablooninstellingen worden toegevoegd aan het project. Sommige projectinstellingen blijven behouden. Voor informatie, zie de sectie [&#x200B; veranderingen in projectgebieden begrijpen wanneer het vastmaken van een malplaatje &#x200B;](#understand-changes-to-project-fields-when-attaching-a-template) in dit artikel.
 
 ## Wijzigingen in projectvelden begrijpen bij het koppelen van een sjabloon {#understand-changes-to-project-fields-when-attaching-a-template}
 
@@ -38,7 +38,7 @@ Overweeg het volgende wanneer het toevoegen van malplaatjes aan projecten:
 
 Sommige malplaatjemontages brengen automatisch over naar het project, tenzij u hen specifiek merkt om tijdens het proces van de malplaatjegehechtheid worden uitgesloten. Wanneer u hen merkt om worden uitgesloten, worden de waarden van het projectgebied bewaard.
 
-Nochtans, zijn niet alle projectgebieden beschikbaar om in het proces te leiden om een malplaatje aan een project vast te maken. Voor informatie, zie [ een malplaatje aan een project ](../../../manage-work/projects/create-and-manage-templates/attach-template-to-project.md) vastmaken.
+Nochtans, zijn niet alle projectgebieden beschikbaar om in het proces te leiden om een malplaatje aan een project vast te maken. Voor informatie, zie [&#x200B; een malplaatje aan een project &#x200B;](../../../manage-work/projects/create-and-manage-templates/attach-template-to-project.md) vastmaken.
 
 De volgende lijst beschrijft het gebrek voor wat met projectgebieden gebeurt wanneer u een malplaatje vastmaakt en welke gebieden u tijdens het gehechtheidsproces kunt beheren om het standaardgedrag met voeten te treden:
 

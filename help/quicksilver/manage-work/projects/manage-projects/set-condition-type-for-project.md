@@ -55,7 +55,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 1. Ga naar het project waarvoor u het Type van Voorwaarde wilt bijwerken.
 1. Voer een van de volgende handelingen uit:
 
-   * Klik het **Meer** menu ![ Meer menu ](assets/qs-more-menu.png) aan het recht van de projectnaam, dan klik **uitgeven**.
+   * Klik het **Meer** menu ![&#x200B; Meer menu &#x200B;](assets/qs-more-menu.png) aan het recht van de projectnaam, dan klik **uitgeven**.
    * Klik **Details van het Project** in het linkerpaneel.
 
    ![](assets/update-condition-type-nwe-350x108.png)
@@ -66,7 +66,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
      In dit geval, kan de projecteigenaar de Voorwaarde van het project in de projectkopbal, of de sectie van de Details van het Project bijwerken.
 
-   * **Status van de Voortgang:** Workfront plaatst de Voorwaarde die op de Voortgangsstatus van het project wordt gebaseerd. Voor informatie over hoe de Status van de Voortgang wordt berekend, zie [ Overzicht van de Status van de Voortgang van het Project ](../../../manage-work/projects/planning-a-project/project-progress-status.md).
+   * **Status van de Voortgang:** Workfront plaatst de Voorwaarde die op de Voortgangsstatus van het project wordt gebaseerd. Voor informatie over hoe de Status van de Voortgang wordt berekend, zie [&#x200B; Overzicht van de Status van de Voortgang van het Project &#x200B;](../../../manage-work/projects/planning-a-project/project-progress-status.md).
 
 1. Klik **sparen** wanneer u het Type van Voorwaarde in de Edit doos van het Project wijzigt.
 

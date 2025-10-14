@@ -17,10 +17,10 @@ ht-degree: 0%
 
 # Proefdrukken beheren: artikelindex
 
-* [ geef proefdrukmontages ](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/edit-proof-settings.md) uit
-* [ druk een proefdruksamenvatting binnen Adobe Workfront ](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/print-proof-summary-in-wf.md)
-* [ Schrap een proef ](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/remove-archiveg-proof.md)
-* [ herstel een gearchiveerd bewijs ](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/restore-archived-proof.md)
-* [ activiteit van de Mening op een proef binnen Adobe Workfront ](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/view-activity-on-proof-in-wf.md)
-* [ gebruik het rapport van de proefdrukgoedkeuring ](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/proof-approval-report.md)
+* [&#x200B; geef proefdrukmontages &#x200B;](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/edit-proof-settings.md) uit
+* [&#x200B; druk een proefdruksamenvatting binnen Adobe Workfront &#x200B;](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/print-proof-summary-in-wf.md)
+* [&#x200B; Schrap een proef &#x200B;](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/remove-archiveg-proof.md)
+* [&#x200B; herstel een gearchiveerd bewijs &#x200B;](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/restore-archived-proof.md)
+* [&#x200B; activiteit van de Mening op een proef binnen Adobe Workfront &#x200B;](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/view-activity-on-proof-in-wf.md)
+* [&#x200B; gebruik het rapport van de proefdrukgoedkeuring &#x200B;](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/proof-approval-report.md)
 * [Workfront Proof openen vanuit Adobe Workfront](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/access-wf-proof-in-workfront.md)

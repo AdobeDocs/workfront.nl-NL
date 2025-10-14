@@ -17,22 +17,22 @@ U kunt de informatie in een rapport organiseren door het in groepen te tonen die
 
 ## Vereisten
 
-Alvorens u begint, moet u in de bèta van het Canvas van de Rapportering inschrijven. Voor meer informatie, zie [ Rapporterend de bèta van het Canvas: overzicht ](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
+Alvorens u begint, moet u in de bèta van het Canvas van de Rapportering inschrijven. Voor meer informatie, zie [&#x200B; Rapporterend de bèta van het Canvas: overzicht &#x200B;](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
 
 ## Rijen in een tabel groeperen
 
-1. Klik het **pictogram van het 1&rbrace; pictogram van het Belangrijkste Menu ![ ](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik** Meldend **.**
+1. Klik het **pictogram van het 1&rbrace; pictogram van het Belangrijkste Menu ![&#x200B; &#x200B;](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik** Meldend **.**
 1. Klik **Nieuw rapport**.
 
    of
 
-   Ga naar een bestaand rapport, klik het **Meer pictogram van het Menu** ![ Meer pictogram ](assets/more-icon.png) in de rapportkopbal, dan uitgezocht **geef** uit.
+   Ga naar een bestaand rapport, klik het **Meer pictogram van het Menu** ![&#x200B; Meer pictogram &#x200B;](assets/more-icon.png) in de rapportkopbal, dan uitgezocht **geef** uit.
 
 1. Als u rijen op een nieuwe tabel wilt groeperen, sleept u een tabelblok naar het canvas of dubbelklikt u erop.
 
    of
 
-   Om rijen op een bestaande lijst te groeperen, klik **uitgeven** pictogram ![ pictogram ](assets/edit-icon.png) in de lijstkopbal uitgeven.
+   Om rijen op een bestaande lijst te groeperen, klik **uitgeven** pictogram ![&#x200B; pictogram &#x200B;](assets/edit-icon.png) in de lijstkopbal uitgeven.
 
 1. In het juiste paneel, bepaal de plaats van een gebied dat u wilt groeperen door en het slepen aan de **sectie van de Groep**.
 
@@ -91,10 +91,10 @@ Alvorens u begint, moet u in de bèta van het Canvas van de Rapportering inschri
 1. Voer een van de volgende handelingen uit:
 
    * Als u een andere groep wilt toevoegen, sleept u een ander veld uit het zijpaneel.
-   * Om rijen in een groep te tonen die door gebrek wordt doen ineenstorten, klik het **Meer pictogram** pictogram ![ Meer pictogram ](assets/more-icon.png) naast de groep, dan klik **groep van de Samenvouwen**.
+   * Om rijen in een groep te tonen die door gebrek wordt doen ineenstorten, klik het **Meer pictogram** pictogram ![&#x200B; Meer pictogram &#x200B;](assets/more-icon.png) naast de groep, dan klik **groep van de Samenvouwen**.
 
      Elke groep kan individueel worden gevormd om met samengevouwen of uitgevouwen rijen te tonen. Standaard worden alle gegroepeerde rijen samengevouwen.
 
-   * Om een telling in de groepstrij te tonen, klik het **Meer menu** pictogram ![ Meer pictogram ](assets/more-icon-27x15.png) naast de groep, dan klik **Aantal van de Vertoning**.
-   * Om een groep te verwijderen, klik het **Meer menu** pictogram ![ Meer pictogram ](assets/more-icon.png) naast de groep, dan klik **verwijder groep**.
-   * Om veelvoudige groepen te herschikken u hebt gecreeerd, sleep hen ![ pictogram van de Beweging ](assets/move-icon---dots.png) in een nieuwe orde.
+   * Om een telling in de groepstrij te tonen, klik het **Meer menu** pictogram ![&#x200B; Meer pictogram &#x200B;](assets/more-icon-27x15.png) naast de groep, dan klik **Aantal van de Vertoning**.
+   * Om een groep te verwijderen, klik het **Meer menu** pictogram ![&#x200B; Meer pictogram &#x200B;](assets/more-icon.png) naast de groep, dan klik **verwijder groep**.
+   * Om veelvoudige groepen te herschikken u hebt gecreeerd, sleep hen ![&#x200B; pictogram van de Beweging &#x200B;](assets/move-icon---dots.png) in een nieuwe orde.

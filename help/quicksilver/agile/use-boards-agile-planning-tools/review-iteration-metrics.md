@@ -47,7 +47,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -61,7 +61,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
    De volgende metriek worden weergegeven: het totale aantal punten dat aan de herhaling is toegewezen, de resterende punten die nog niet in de herhaling zijn voltooid en het aantal punten dat in de herhaling is voltooid.
 
-1. (Optioneel) Klik op de **pictogram ![ Iteratiedetails ](assets/iteration-details-button.png) van de Details van de Interlatie** om de detaildialoog voor de geselecteerde herhaling te openen.
+1. (Optioneel) Klik op de **pictogram ![&#x200B; Iteratiedetails &#x200B;](assets/iteration-details-button.png) van de Details van de Interlatie** om de detaildialoog voor de geselecteerde herhaling te openen.
 
 ## Metrische gegevens van herhalingen op het dashboard bekijken
 

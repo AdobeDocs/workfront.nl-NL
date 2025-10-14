@@ -27,5 +27,5 @@ Dit kan door de lijst van gewenste personen in Adobe Cloud Manager gebeuren. Als
 
 Voeg de Workfront IP adressen aan de lijst van gewenste personen van Cloud Manager van Adobe toe.
 
-* Voor instructies bij het toevoegen van IP adressen aan uw Adobe Cloud Manager, zie [ Inleiding aan IP Lijsten van gewenste personen ](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/ip-allow-lists/introduction) in de documentatie van Adobe Experience Manager.
-* Voor een lijst van Workfront IP adressen om aan de lijst van gewenste personen toe te voegen, zie [ uw firewall ](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-your-firewall.md) vormen.
+* Voor instructies bij het toevoegen van IP adressen aan uw Adobe Cloud Manager, zie [&#x200B; Inleiding aan IP Lijsten van gewenste personen &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/ip-allow-lists/introduction) in de documentatie van Adobe Experience Manager.
+* Voor een lijst van Workfront IP adressen om aan de lijst van gewenste personen toe te voegen, zie [&#x200B; uw firewall &#x200B;](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-your-firewall.md) vormen.

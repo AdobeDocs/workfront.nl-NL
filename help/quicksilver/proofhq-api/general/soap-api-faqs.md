@@ -19,7 +19,7 @@ ht-degree: 0%
 
 Het neemt drie eenvoudige stappen:
 
-**Stap 1**: Upload het dossier aan Workfront Proof door het via een verzoek van het Post te verzenden aan  [ https://soap.proofhq.com/upload.php ](https://soap.proofhq.com/upload.php). Wij zullen u de dossier knoeiboel terugkeren - dit is zeer belangrijk! Op dit moment ziet u niets in uw account. U hebt ons het bestand alleen maar gestuurd, maar u hebt ons niet verteld wat u ermee moet doen.
+**Stap 1**: Upload het dossier aan Workfront Proof door het via een verzoek van het Post te verzenden aan  [&#x200B; https://soap.proofhq.com/upload.php &#x200B;](https://soap.proofhq.com/upload.php). Wij zullen u de dossier knoeiboel terugkeren - dit is zeer belangrijk! Op dit moment ziet u niets in uw account. U hebt ons het bestand alleen maar gestuurd, maar u hebt ons niet verteld wat u ermee moet doen.
 
 **Stap 2**: Als u nog geen identiteitskaart van de Zitting hebt, verkrijg door doLogin () te gebruiken of getSessionID () methodes. Gebruik de eerste methode om u aan te melden met gebruik van het e-mailadres en wachtwoord van de gebruiker of de tweede methode als u het e-mailadres en de verificatietoken van de gebruiker hebt.
 
@@ -57,9 +57,9 @@ U te hoeven om geen nieuwe identiteitskaart van de Zitting vóór elke vraag aan
 
 ## Wat is een bewijs/persoonlijke URL?
 
-**Team/Openbaar**: Elke proefversie heeft een uniek Team (Openbaar) URL. Als deze optie is ingeschakeld, wordt de proefdruk geopend in de modus Alleen-lezen. U kunt het Team URL verkrijgen gebruikend [ getProofURL () ](https://api.proofhq.com/home/proofs/getproofurl.html) methode.
+**Team/Openbaar**: Elke proefversie heeft een uniek Team (Openbaar) URL. Als deze optie is ingeschakeld, wordt de proefdruk geopend in de modus Alleen-lezen. U kunt het Team URL verkrijgen gebruikend [&#x200B; getProofURL () &#x200B;](https://api.proofhq.com/home/proofs/getproofurl.html) methode.
 
-**Persoonlijk**: Persoonlijke URL is uniek voor elke recensent en proefdrukversie. Als een proefset drie versies bevat en een revisor in alle versies aanwezig is, heeft de controleur drie unieke persoonlijke URL&#39;s. Een persoonlijke URL opent de proefversie met de reeds geïdentificeerde controleur en moet daarom veilig worden gehouden en niet worden gedeeld. Persoonlijke URLs kan worden verkregen door [ te roepen getProofReviewers () ](https://api.proofhq.com/home/proofs/getproofreviewers.html) methode en dan herhalend over elk  [ SOAPRecepientObject ](https://api.proofhq.com/home/objects/soaprecipientobject.html) en het krijgen van de parameter &quot;proof_url&quot;.
+**Persoonlijk**: Persoonlijke URL is uniek voor elke recensent en proefdrukversie. Als een proefset drie versies bevat en een revisor in alle versies aanwezig is, heeft de controleur drie unieke persoonlijke URL&#39;s. Een persoonlijke URL opent de proefversie met de reeds geïdentificeerde controleur en moet daarom veilig worden gehouden en niet worden gedeeld. Persoonlijke URLs kan worden verkregen door [&#x200B; te roepen getProofReviewers () &#x200B;](https://api.proofhq.com/home/proofs/getproofreviewers.html) methode en dan herhalend over elk  [&#x200B; SOAPRecepientObject &#x200B;](https://api.proofhq.com/home/objects/soaprecipientobject.html) en het krijgen van de parameter &quot;proof_url&quot;.
 
 ## >Hoe kan ik aangepaste parameters opnemen bij het openen van het minibewijs?
 

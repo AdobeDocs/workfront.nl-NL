@@ -18,11 +18,11 @@ ht-degree: 0%
 
 <!--Audited: 10/2024-->
 
-U kunt 4 groepen in een matrixrapport hebben. Voor meer informatie over matrixrapporten, zie [ een matrixrapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md) creëren.
+U kunt 4 groepen in een matrixrapport hebben. Voor meer informatie over matrixrapporten, zie [&#x200B; een matrixrapport &#x200B;](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md) creëren.
 
 U kunt slechts 3 groeperingen in een standaardrapport door de standaardinterface hebben. Om een vierde groepering in een standaardrapport toe te voegen, moet u tekstwijze gebruiken.
 
-![ Four_groupings_in_a_standard_report.png ](assets/four-tier-grouping-for-tasks-350x239.png)
+![&#x200B; Four_groupings_in_a_standard_report.png &#x200B;](assets/four-tier-grouping-for-tasks-350x239.png)
 
 Bijvoorbeeld, zou u een taakrapport kunnen hebben dat door de Naam van het Project, de Status van de Voortgang en Geplande Datum van de Voltooiing wordt gegroepeerd, maar u wilt ook het rapport groeperen door Toegewezen aan Naam.
 
@@ -62,7 +62,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-*For informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*For informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

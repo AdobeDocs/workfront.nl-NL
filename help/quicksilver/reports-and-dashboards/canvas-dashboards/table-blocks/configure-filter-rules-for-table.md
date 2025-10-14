@@ -42,23 +42,23 @@ Of u kon slechts projecten tonen die een toegewezen projecteigenaar hebben, die 
 
 ## Vereisten
 
-Alvorens u begint, moet u in de bèta van het Canvas van de Rapportering inschrijven. Voor meer informatie, zie [ Rapporterend de bèta van het Canvas: overzicht ](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
+Alvorens u begint, moet u in de bèta van het Canvas van de Rapportering inschrijven. Voor meer informatie, zie [&#x200B; Rapporterend de bèta van het Canvas: overzicht &#x200B;](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
 
 ## Filterregels voor een tabel configureren
 
-1. Klik het **pictogram van het 1&rbrace; pictogram van het Belangrijkste Menu ![ ](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik** Meldend **.**
+1. Klik het **pictogram van het 1&rbrace; pictogram van het Belangrijkste Menu ![&#x200B; &#x200B;](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik** Meldend **.**
 
 1. Klik **Nieuw rapport**.
 
    of
 
-   Ga naar een bestaand rapport, klik het **Meer pictogram van het Menu** ![ Meer pictogram ](assets/more-icon.png) in de rapportkopbal, dan uitgezocht **geef** uit.
+   Ga naar een bestaand rapport, klik het **Meer pictogram van het Menu** ![&#x200B; Meer pictogram &#x200B;](assets/more-icon.png) in de rapportkopbal, dan uitgezocht **geef** uit.
 
 1. Als u rijen op een nieuwe tabel wilt groeperen, sleept u een tabelblok naar het canvas of dubbelklikt u erop.
 
    of
 
-   Om rijen op een bestaande lijst te groeperen, klik **uitgeven** pictogram ![ pictogram ](assets/edit-icon.png) in de lijstkopbal uitgeven.
+   Om rijen op een bestaande lijst te groeperen, klik **uitgeven** pictogram ![&#x200B; pictogram &#x200B;](assets/edit-icon.png) in de lijstkopbal uitgeven.
 
 1. Zoek in het rechterdeelvenster het veld waarmee u de tabel wilt filteren en sleep deze naar de sectie Filter.
 

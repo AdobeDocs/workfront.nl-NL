@@ -20,17 +20,17 @@ ht-degree: 0%
 
 [!UICONTROL Portfolio Optimizer] is het hulpmiddel dat voor projectevaluatie en vergelijking wordt gebruikt. Bij het evalueren en vergelijken van [!UICONTROL Business Case] -waarden voor projecten die zijn toegewezen aan een portfolio, kan een portfoliobeheerder prioriteit geven aan projecten en de meeste waarde voor een organisatie genereren.
 
-![ Portfolio optimizer met projecten ](assets/portfolio-optimizer-with-projects-nwe-350x89.png)
+![&#x200B; Portfolio optimizer met projecten &#x200B;](assets/portfolio-optimizer-with-projects-nwe-350x89.png)
 
 Het doel van [!UICONTROL portfolio optimizer] is een interface te verstrekken waarmee een portefeuillebeheerder, stuurcomité, of het bureau van het productbeheer summiere informatie over het bedrijfscase van elk project kan bekijken. De projecten kunnen dan worden geprioriteerd volgens strategische waarden en doelstellingen, of volgens hun algemene score.
 
 [!UICONTROL Portfolio Optimizer] kan u alleen helpen als u aan de volgende voorwaarden hebt voldaan:
 
-* [!UICONTROL Business Cases] is voltooid voor de projecten. Voor informatie, zie de artikelen in [ een BedrijfsGeval bepalen: artikelindex ](../../projects/define-a-business-case/define-business-case.md).
+* [!UICONTROL Business Cases] is voltooid voor de projecten. Voor informatie, zie de artikelen in [&#x200B; een BedrijfsGeval bepalen: artikelindex &#x200B;](../../projects/define-a-business-case/define-business-case.md).
 * Een portefeuille wordt bepaald in het gebied van het Overzicht van het Project van de sectie van de Details van het Project voor de projecten u wilt herzien.
-* U hebt de projectbegroting en het geplande voordeel voor de projecten aangegeven u wilt herzien. Vaste kosten en Vaste inkomsten zijn optioneel, maar geven een extra waarde. Voor informatie, zie [ de financiert gebieden van het Project ](../../projects/project-finances/project-finances-overview-1.md).
+* U hebt de projectbegroting en het geplande voordeel voor de projecten aangegeven u wilt herzien. Vaste kosten en Vaste inkomsten zijn optioneel, maar geven een extra waarde. Voor informatie, zie [&#x200B; de financiert gebieden van het Project &#x200B;](../../projects/project-finances/project-finances-overview-1.md).
 
-Voor informatie over de plaats bepalen van [!UICONTROL Portfolio Optimizer], zie [ plaats [!UICONTROL Portfolio Optimizer]](../../../manage-work/portfolios/portfolio-optimizer/locate-portfolio-optimizer.md).
+Voor informatie over de plaats bepalen van [!UICONTROL Portfolio Optimizer], zie [&#x200B; plaats [!UICONTROL Portfolio Optimizer]](../../../manage-work/portfolios/portfolio-optimizer/locate-portfolio-optimizer.md).
 
 ## Financiën in de [!UICONTROL Portfolio Optimizer]
 
@@ -40,7 +40,7 @@ Houd rekening met het volgende wanneer u werkt met financiën in de [!UICONTROL 
 
 * Projecten krijgen elk een score wanneer hun [!UICONTROL Business Cases] voltooid zijn volgens de criteria die ze in [!UICONTROL Portfolio Optimizer] hebben. Lage kosten of uitlijningsprojecten krijgen bijvoorbeeld een hogere score.
 
-  Voor meer informatie over het berekenen van de portefeuille optimizer score van een project, zie [ Overzicht van de [!UICONTROL Portfolio Optimizer] Score ](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-score.md).
+  Voor meer informatie over het berekenen van de portefeuille optimizer score van een project, zie [&#x200B; Overzicht van de [!UICONTROL Portfolio Optimizer] Score &#x200B;](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-score.md).
 
 * De financiële berekeningen voor de [!UICONTROL Portfolio Optimizer] gebruiken [!UICONTROL Budgeted Cost] in [!UICONTROL Business Case] van het project.
 * U kunt handmatig prioriteiten stellen aan uw projecten in de [!UICONTROL Portfolio Optimizer] , rekening houdend met alle informatie over de projecten. Dit omvat financiële gegevens, aanpassing aan hun scorecards, en ROI, bijvoorbeeld.
@@ -62,7 +62,7 @@ De volgende financiële velden worden weergegeven in de [!UICONTROL Portfolio Op
 
 #### Portfolio header {#portfolio-header}
 
-![ de kopbal van Portfolio ](assets/portfolio-header-nwe-350x14.png)
+![&#x200B; de kopbal van Portfolio &#x200B;](assets/portfolio-header-nwe-350x14.png)
 
 [!DNL Adobe Workfront] berekent de financiële velden in de portfoliokop met behulp van gegevens uit projecten met statussen die alleen overeenkomen met [!UICONTROL Approved] of [!UICONTROL Current] .
 
@@ -101,7 +101,7 @@ De volgende financiële velden worden weergegeven in de [!UICONTROL Portfolio Op
 
 #### Portfolio financiert geselecteerde projecten {#portfolio-finances-for-selected-projects}
 
-![ Portfolio financiert ](assets/portfolio-finances-for-selected-projects-in-optimizer-nwe-350x29.png)
+![&#x200B; Portfolio financiert &#x200B;](assets/portfolio-finances-for-selected-projects-in-optimizer-nwe-350x29.png)
 
 <table style="table-layout:auto"> 
  <col> 

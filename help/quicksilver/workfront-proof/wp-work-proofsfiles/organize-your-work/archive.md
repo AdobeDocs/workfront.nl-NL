@@ -18,11 +18,11 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [ het Bewijzen ](../../../review-and-approve-work/proofing/proofing.md).
+>Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [&#x200B; het Bewijzen &#x200B;](../../../review-and-approve-work/proofing/proofing.md).
 
 [!DNL Workfront Proof] archiveert proefdrukken na een periode van 60 dagen inactiviteit.
 
-Als u bewerkingsrechten hebt, kunt u een proefdruk op elk gewenst moment handmatig archiveren. Voor informatie over geef rechten uit, zie [ Profielen van de Toestemmingen van de Bewijs in  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md).
+Als u bewerkingsrechten hebt, kunt u een proefdruk op elk gewenst moment handmatig archiveren. Voor informatie over geef rechten uit, zie [&#x200B; Profielen van de Toestemmingen van de Bewijs in  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md).
 
 Gearchiveerde proefdrukken:
 
@@ -33,7 +33,7 @@ Gearchiveerde proefdrukken:
 * Automatisch vergrendelen wanneer deze automatisch worden gearchiveerd
 * Kan worden vergrendeld of ontgrendeld wanneer u handmatig wordt gearchiveerd
 
-Archief en unarchiving worden geregistreerd in de sectie Activiteit van de proef. Voor meer informatie, zie [ Beheren de Details van het Bewijs in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
+Archief en unarchiving worden geregistreerd in de sectie Activiteit van de proef. Voor meer informatie, zie [&#x200B; Beheren de Details van het Bewijs in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
 
 >[!NOTE]
 >
@@ -41,11 +41,11 @@ Archief en unarchiving worden geregistreerd in de sectie Activiteit van de proef
 
 ## Proofs handmatig archiveren
 
-Als u bewerkingsrechten hebt, kunt u een proefdruk op elk gewenst moment handmatig archiveren. Voor informatie over geef rechten uit, zie [ Profielen van de Toestemmingen van de Bewijs in  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md).
+Als u bewerkingsrechten hebt, kunt u een proefdruk op elk gewenst moment handmatig archiveren. Voor informatie over geef rechten uit, zie [&#x200B; Profielen van de Toestemmingen van de Bewijs in  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md).
 
 Het kan tot 24 uur duren voordat het archiveringsproces is voltooid.
 
-1. Op het dashboard of een lijstmening, selecteer checkbox voor elke proef u wilt archiveren (zie [ Punten op de Pagina van Bekijken in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md) voor informatie over lijstmeningen binnen beheren).
+1. Op het dashboard of een lijstmening, selecteer checkbox voor elke proef u wilt archiveren (zie [&#x200B; Punten op de Pagina van Bekijken in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md) voor informatie over lijstmeningen binnen beheren).
 
 1. Selecteer **[!UICONTROL More]** > **[!UICONTROL Archive]** .\
    Het berichtvenster van [!UICONTROL Archive proofs] wordt weergegeven.
@@ -64,7 +64,7 @@ De weergave Gearchiveerde proefdrukken weergeven:
    Wanneer u in deze lijst op de naam van een gearchiveerde proefdruk klikt, wordt de pagina [!UICONTROL Proof details] weergegeven met een knop **[!UICONTROL Unarchive]** boven aan deze pagina.
 
    Als u de sectie **[!UICONTROL Activity]** op deze pagina uitvouwt, kunt u ook een bericht weergeven dat aangeeft wanneer de proefdruk is gearchiveerd en wie deze heeft gearchiveerd.\
-   ![ Archived_proof_Activity_extended.png ](assets/archived-proof-activity-expanded-350x77.png)\
+   ![&#x200B; Archived_proof_Activity_extended.png &#x200B;](assets/archived-proof-activity-expanded-350x77.png)\
    Als in de sectie **[!UICONTROL Activity]** geen naam wordt weergegeven van de gebruiker die de proefdruk heeft gearchiveerd, betekent dit dat de proefdruk na 60 dagen inactiviteit automatisch is gearchiveerd.\
    Als u de inhoud van een gearchiveerde proefdruk wilt bekijken, moet u deze eerst dearchiveren.
 

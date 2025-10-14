@@ -40,7 +40,7 @@ Uit de voltooide KPI-projecten blijkt hoeveel projecten binnen de gefilterde per
 
 U kunt ook het aantal projecten zien die in de vorige periode zijn voltooid, evenals het aantal dagen in de vorige periode.
 
-![ voltooide projecten KPI ](assets/kpi-projects-completed-350x182.png)
+![&#x200B; voltooide projecten KPI &#x200B;](assets/kpi-projects-completed-350x182.png)
 
 ### Query
 
@@ -84,7 +84,7 @@ De projecten die tijdig zijn voltooid, geven het percentage van de projecten bin
 
 U ziet ook het percentage projecten dat op tijd in de vorige periode is voltooid, en het aantal dagen in de vorige periode.
 
-![ KPI projecten die op tijd worden voltooid ](assets/kpi-projects-completed-on-time-350x180.png)
+![&#x200B; KPI projecten die op tijd worden voltooid &#x200B;](assets/kpi-projects-completed-on-time-350x180.png)
 
 ```
 WITH completedProjectsInRange as ( 
@@ -160,7 +160,7 @@ U ziet ook de gemiddelde tijd van voltooiing voor projecten met daadwerkelijke e
 >Dit geldt alleen voor de duur van voltooide projecten.
 
 
-![ KPI gemiddelde projectduur ](assets/kpi-avg.-project-duration-350x168.png)
+![&#x200B; KPI gemiddelde projectduur &#x200B;](assets/kpi-avg.-project-duration-350x168.png)
 
 ```
 WITH averageProjectDurationInRange as ( 
@@ -199,7 +199,7 @@ Het gemiddelde, de taken per project KPI toont het gemiddelde aantal taken die a
 
 U kunt ook het gemiddelde aantal taken zien die in de vorige periode aan projecten zijn toegewezen, evenals het aantal dagen in de vorige periode.
 
-![ KPI gemiddelde taken per project ](assets/kpi-average-tasks-per-project-350x179.png)
+![&#x200B; KPI gemiddelde taken per project &#x200B;](assets/kpi-average-tasks-per-project-350x179.png)
 
 ```
 WITH tasksPerProjectInRange as ( 

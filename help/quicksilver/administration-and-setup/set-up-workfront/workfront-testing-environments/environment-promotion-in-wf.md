@@ -29,9 +29,9 @@ U kunt dit proces in Workfront uitvoeren door een pakket met objecten te maken d
    * [Een pakket voor milieubescherming maken of bewerken](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-create-package.md)
    * [Een pakket voor milieubescherming installeren](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-install-package.md)
 
-* Voor instructies bij het uitvoeren van dit proces door Workfront API, zie [ voorwerpen van de Beweging tussen  [!DNL Workfront]  milieu&#39;s gebruikend  [!DNL Workfront]  API ](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion.md).
+* Voor instructies bij het uitvoeren van dit proces door Workfront API, zie [&#x200B; voorwerpen van de Beweging tussen  [!DNL Workfront]  milieu&#39;s gebruikend  [!DNL Workfront]  API &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion.md).
 
-[ Bekijk een videodemonstratie van deze eigenschap ](https://video.tv.adobe.com/v/3429735/){target=_blank}
+[&#x200B; Bekijk een videodemonstratie van deze eigenschap &#x200B;](https://video.tv.adobe.com/v/3429735/){target=_blank}
 
 ## Ondersteunde objecten voor milieubescherming
 
@@ -160,7 +160,7 @@ Deze statussen zijn onder andere:
 
 ## Bronnen
 
-* Voor FAQs betreffende milieubevordering, zie [ Veelgestelde vragen van de Bevordering van het Milieu ](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-faq.md)
-* Voor het oplossen van problemenaanbevelingen, zie [ het bevorderingsoplossen van problemen van het Milieu ](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-troubleshooting.md)
+* Voor FAQs betreffende milieubevordering, zie [&#x200B; Veelgestelde vragen van de Bevordering van het Milieu &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-faq.md)
+* Voor het oplossen van problemenaanbevelingen, zie [&#x200B; het bevorderingsoplossen van problemen van het Milieu &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-troubleshooting.md)
 
 

@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ## Bijgewerkte bronnen
 
-De volgende bestaande bronnen zijn bijgewerkt met deze versie van de Adobe Workfront API. Om de middelen te bekijken die aan versies 8 nieuw zijn, gelieve te zien [ wat in API Versie 8 ](../../wf-api/api/new-api-version-8.md) Nieuw is. Wijzigingen in een bron worden als volgt aangegeven:
+De volgende bestaande bronnen zijn bijgewerkt met deze versie van de Adobe Workfront API. Om de middelen te bekijken die aan versies 8 nieuw zijn, gelieve te zien [&#x200B; wat in API Versie 8 &#x200B;](../../wf-api/api/new-api-version-8.md) Nieuw is. Wijzigingen in een bron worden als volgt aangegeven:
 
 * Toevoegingen worden gewoon vermeld
 * Verwijderingen worden aangegeven met doorhalingstekst

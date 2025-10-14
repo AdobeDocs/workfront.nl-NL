@@ -61,7 +61,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -69,7 +69,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 {{step-1-to-setup}}
 
-1. In het linkerpaneel, klik **[!UICONTROL Companies]** ![ pictogram van Bedrijven ](assets/companies-icon-left-panel.png).
+1. In het linkerpaneel, klik **[!UICONTROL Companies]** ![&#x200B; pictogram van Bedrijven &#x200B;](assets/companies-icon-left-panel.png).
 
 1. Selecteer een of meer bedrijven om te deactiveren of opnieuw te activeren.
 1. Klik op **[!UICONTROL Edit]**.

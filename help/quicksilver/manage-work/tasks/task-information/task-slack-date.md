@@ -28,9 +28,9 @@ Overweeg de volgende scenario&#39;s, afhankelijk van of een taak op het Kritieke
 
 * Voor taken die op de Kritieke Weg van het project zijn of opvolgers hebben die op de Kritieke Weg zijn, past de Datum van de Slack de Geprojecteerde Datum van de Voltooiing van de taak aan tenzij de Voortgangsstatus van de taak reeds Late of Achter is.
 
-  Voor informatie over de Kritieke Weg, zie [ Overzicht van het project Kritieke Weg ](../../../manage-work/tasks/manage-tasks/critical-path.md).
+  Voor informatie over de Kritieke Weg, zie [&#x200B; Overzicht van het project Kritieke Weg &#x200B;](../../../manage-work/tasks/manage-tasks/critical-path.md).
 
-  Voor informatie over de Voortgangsstatus van taken, zie [ Overzicht van de Status van de Voortgang van de Taak ](../../../manage-work/tasks/task-information/task-progress-status.md).
+  Voor informatie over de Voortgangsstatus van taken, zie [&#x200B; Overzicht van de Status van de Voortgang van de Taak &#x200B;](../../../manage-work/tasks/task-information/task-progress-status.md).
 
 * Voor taken die zich niet op de Kritieke Weg bevinden, verhoogt de slack tijd eerder de taak wordt gepland. Voor deze taken blijft de datum van Slack in de toekomst van kracht totdat de taken zo laat worden dat ze de afsluitende datum van het project beginnen te beïnvloeden.
 
@@ -38,4 +38,4 @@ Overweeg de volgende scenario&#39;s, afhankelijk van of een taak op het Kritieke
 
 Om de Datum van de Slack van een taak te bekijken, kunt u het gebied van de Datum van de Slack aan een taakmening of rapport toevoegen.
 
-Voor informatie over de bouw van een rapport, zie [ een douanerapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) creëren.
+Voor informatie over de bouw van een rapport, zie [&#x200B; een douanerapport &#x200B;](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) creëren.

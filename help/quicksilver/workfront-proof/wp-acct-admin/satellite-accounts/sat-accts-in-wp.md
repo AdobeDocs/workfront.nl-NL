@@ -19,7 +19,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [ het Bewijzen ](../../../review-and-approve-work/proofing/proofing.md).
+>Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [&#x200B; het Bewijzen &#x200B;](../../../review-and-approve-work/proofing/proofing.md).
 
 Satellietaccounts zijn betaalaccounts die u instelt en beheert vanuit uw eigen [!DNL Workfront Proof] -account.
 
@@ -41,7 +41,7 @@ Met [!UICONTROL Workfront Proof] kunt u eenvoudig proefdrukken delen met iederee
 
 Het kan echter voorkomen dat u wilt dat de deelnemers aan uw workflow hun eigen aanmelding hebben, zodat ze hun eigen dashboard hebben en alle proefdrukken kunnen zien die u met hen allen op één locatie hebt gedeeld.
 
-U kunt ook de beveiliging van uw proefdrukken verhogen door de instelling [!UICONTROL Login Required] te gebruiken. In dat geval moeten uw revisoren hun eigen aanmeldingsgegevens hebben. Voor meer informatie, zie [ veiligheid van het Bewijs in  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/managing-security/proof-security-in-workfront-proof.md).
+U kunt ook de beveiliging van uw proefdrukken verhogen door de instelling [!UICONTROL Login Required] te gebruiken. In dat geval moeten uw revisoren hun eigen aanmeldingsgegevens hebben. Voor meer informatie, zie [&#x200B; veiligheid van het Bewijs in  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/managing-security/proof-security-in-workfront-proof.md).
 
 We raden u ten zeerste aan geen externe personen toe te voegen als gebruikers in uw [!DNL Workfront Proof] -account, omdat deze toegang kunnen krijgen tot informatie die u niet wilt zien.
 
@@ -54,7 +54,7 @@ Door Satellite-accounts te maken voor uw klanten.
 | **Eigenschap** | **Voordeel** |
 |---|---|
 | Beheerd door u vanuit uw &quot;[!UICONTROL Hub]&quot;-account | Meerdere satellietaccounts eenvoudig beheren vanaf één locatie |
-| Persoonlijke aanmelding voor elke gebruiker in de satellietaccount | Biedt extra beveiliging op proefdrukken (proefdrukken kunnen met een wachtwoord beveiligd zijn. Voor meer informatie, zie [ veiligheid van het Bewijs in  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/managing-security/proof-security-in-workfront-proof.md)). |
+| Persoonlijke aanmelding voor elke gebruiker in de satellietaccount | Biedt extra beveiliging op proefdrukken (proefdrukken kunnen met een wachtwoord beveiligd zijn. Voor meer informatie, zie [&#x200B; veiligheid van het Bewijs in  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/managing-security/proof-security-in-workfront-proof.md)). |
 | Persoonlijke branding voor uw klant | U kunt de brandingervaring van de client bepalen in [!DNL Workfront Proof] |
 | Verbeterde workflow voor uw client | U kunt het proefdrukproces aanpassen aan de behoeften van de specifieke client |
 | Uw klant kan proefdrukken uploaden vanaf het satellietaccount en deze met u delen | Uw klant kan eigen proefdrukken maken |

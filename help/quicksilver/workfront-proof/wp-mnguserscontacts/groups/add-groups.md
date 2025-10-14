@@ -18,17 +18,17 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [ het Bewijzen ](../../../review-and-approve-work/proofing/proofing.md).
+>Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [&#x200B; het Bewijzen &#x200B;](../../../review-and-approve-work/proofing/proofing.md).
 
 Voeg een groep toe aan een proefdruk om de inhoud automatisch naar alle groepsleden te verzenden.
 
-Voor informatie over hoe te om een groep tot stand te brengen, zie [ het Bewijzen van Groepen gebruikend  [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/groups/create-proofing-groups.md) creëren.
+Voor informatie over hoe te om een groep tot stand te brengen, zie [&#x200B; het Bewijzen van Groepen gebruikend  [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/groups/create-proofing-groups.md) creëren.
 
 1. Maak een proefdruk op een van de volgende manieren:
 
    * Een standaardproefdruk maken.
 
-     Voor meer informatie, zie [ Proefdrukken in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md) produceren.
+     Voor meer informatie, zie [&#x200B; Proefdrukken in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md) produceren.
 
    * Maak een nieuwe proefdrukversie.
 

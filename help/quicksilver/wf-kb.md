@@ -13,24 +13,24 @@ ht-degree: 0%
 
 # Workfront-kennisbasis
 
-* [ Beleid en opstelling ](administration-and-setup/administration-and-setup.md)
-* [ de grondbeginselen van Adobe Workfront: artikelindex ](workfront-basics/workfront-basics.md)
-* [ Mensen, teams, en groepen ](people-teams-and-groups/people-teams-and-groups.md)
-* [ beheer middelen ](resource-mgmt/manage-resources.md)
-* [ Gelijk ](agile/agile.md)
-* [ leiden het werk ](manage-work/manage-work.md)
-* [ Overzicht en keurt het werk ](review-and-approve-work/review-and-approve-work.md) goed
-* [ Documenten ](documents/documents-overview.md)
+* [&#x200B; Beleid en opstelling &#x200B;](administration-and-setup/administration-and-setup.md)
+* [&#x200B; de grondbeginselen van Adobe Workfront: artikelindex &#x200B;](workfront-basics/workfront-basics.md)
+* [&#x200B; Mensen, teams, en groepen &#x200B;](people-teams-and-groups/people-teams-and-groups.md)
+* [&#x200B; beheer middelen &#x200B;](resource-mgmt/manage-resources.md)
+* [&#x200B; Gelijk &#x200B;](agile/agile.md)
+* [&#x200B; leiden het werk &#x200B;](manage-work/manage-work.md)
+* [&#x200B; Overzicht en keurt het werk &#x200B;](review-and-approve-work/review-and-approve-work.md) goed
+* [&#x200B; Documenten &#x200B;](documents/documents-overview.md)
 * [Rapportage](reports-and-dashboards/reports-and-dashboards-overview.md)
 
   <!--
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Enhanced analytics</li>
   -->
 
-* [ Tijdopnamen: artikelindex ](timesheets/timesheets-all.md)
-* [ de integraties van Adobe Workfront ](workfront-integrations-and-apps/workfront-integrations.md)
+* [&#x200B; Tijdopnamen: artikelindex &#x200B;](timesheets/timesheets-all.md)
+* [&#x200B; de integraties van Adobe Workfront &#x200B;](workfront-integrations-and-apps/workfront-integrations.md)
 <!--* [Adobe Workfront API](wf-api/workfront-api.md) -->
-* [ Workfront Proof ](workfront-proof/workfront-proof.md)
+* [&#x200B; Workfront Proof &#x200B;](workfront-proof/workfront-proof.md)
 * [Productaankondigingen](product-announcements/product-announcements.md)
 
 .

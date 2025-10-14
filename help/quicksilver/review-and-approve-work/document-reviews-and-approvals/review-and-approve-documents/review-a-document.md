@@ -19,7 +19,7 @@ Als controleur kunt u een document bekijken dat ter controle aan u is voorgelegd
 
 >[!IMPORTANT]
 >
->De inhoud van dit artikel verwijst naar de functionaliteit voor bijgewerkte documentgoedkeuring die alleen beschikbaar is voor specifieke accounts. Voor informatie over standaardgoedkeuringsprocessen, zie de artikelen die in [ worden vermeld goedkeuringen van het Werk ](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
+>De inhoud van dit artikel verwijst naar de functionaliteit voor bijgewerkte documentgoedkeuring die alleen beschikbaar is voor specifieke accounts. Voor informatie over standaardgoedkeuringsprocessen, zie de artikelen die in [&#x200B; worden vermeld goedkeuringen van het Werk &#x200B;](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
 
 ## Toegangsvereisten
 
@@ -73,7 +73,7 @@ Add once functionality is added
 
    Klik **Download** om een lokaal exemplaar van het document op uw apparaat te downloaden.
 
-1. (Facultatief) Zodra u het document hebt herzien, kunt u een commentaar voor de aanvrager in de 1&rbrace; sectie van de Updates van het document **&lbrace;verlaten.** Voor meer informatie bij het becommentariëren, zie [ het werk van de Update ](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+1. (Facultatief) Zodra u het document hebt herzien, kunt u een commentaar voor de aanvrager in de 1&rbrace; sectie van de Updates van het document **&lbrace;verlaten.** Voor meer informatie bij het becommentariëren, zie [&#x200B; het werk van de Update &#x200B;](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. Om te registreren dat u uw overzicht hebt voltooid, klik **Volledige overzicht**.
 
 ## Een document reviseren vanuit het deelvenster Documentsamenvatting
@@ -92,9 +92,9 @@ Add once functionality is added
 
    Klik **Download** om een lokaal exemplaar van het document op uw apparaat te downloaden.
 
-1. (Facultatief) Zodra u het document hebt herzien, kunt u een commentaar voor de aanvrager in de 1&rbrace; sectie van de Updates van het document **&lbrace;verlaten.** Voor meer informatie bij het becommentariëren, zie [ het werk van de Update ](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+1. (Facultatief) Zodra u het document hebt herzien, kunt u een commentaar voor de aanvrager in de 1&rbrace; sectie van de Updates van het document **&lbrace;verlaten.** Voor meer informatie bij het becommentariëren, zie [&#x200B; het werk van de Update &#x200B;](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-1. (Facultatief) u kunt een specifieke versie van het document ook voorproef of downloaden door neer aan de **sectie van Versies** van het Summiere paneel van het Document te scrollen, dan klikkend op het Meer pictogram ![ Meer pictogram ](../assets/more-icon.png) naast de versie u **Download** of **Voorproef** zou willen herzien en selecteren.
+1. (Facultatief) u kunt een specifieke versie van het document ook voorproef of downloaden door neer aan de **sectie van Versies** van het Summiere paneel van het Document te scrollen, dan klikkend op het Meer pictogram ![&#x200B; Meer pictogram &#x200B;](../assets/more-icon.png) naast de versie u **Download** of **Voorproef** zou willen herzien en selecteren.
 1. Om te registreren dat u uw overzicht hebt voltooid, klik **Volledige overzicht**.
 
 ## Een document reviseren vanuit de proefdrukviewer
@@ -105,7 +105,7 @@ Een document reviseren:
 
 1. Zodra u in Workfront bent, klik **gaan aan proef**.
 
-1. Bekijk de inhoud en voeg eventuele opmerkingen of markeringen toe. Voor meer informatie over hoe te om de het proeven kijker te gebruiken, zie [ proefdrukken van het Overzicht binnen Adobe Workfront: artikelindex ](/help/quicksilver/review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md).
+1. Bekijk de inhoud en voeg eventuele opmerkingen of markeringen toe. Voor meer informatie over hoe te om de het proeven kijker te gebruiken, zie [&#x200B; proefdrukken van het Overzicht binnen Adobe Workfront: artikelindex &#x200B;](/help/quicksilver/review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md).
 
 1. Om te registreren dat u uw overzicht hebt voltooid, klik **Volledige overzicht**.
 

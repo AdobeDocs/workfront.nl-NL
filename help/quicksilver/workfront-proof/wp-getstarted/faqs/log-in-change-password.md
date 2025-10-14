@@ -19,36 +19,36 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [ het Bewijzen ](../../../review-and-approve-work/proofing/proofing.md).
+>Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [&#x200B; het Bewijzen &#x200B;](../../../review-and-approve-work/proofing/proofing.md).
 
 ## Aanmelden
 
 
-1. Ga naar [ de login pagina ](https://app.proofhq.com/login).
+1. Ga naar [&#x200B; de login pagina &#x200B;](https://app.proofhq.com/login).
 
 1. Klik op de knop [!UICONTROL login] rechtsboven.
 1. Voer uw e-mailadres en wachtwoord in.\
-   Als u uw wachtwoord bent vergeten, zie de sectie [ wanneer u Uw Wachtwoord ](#when-you-forget-your-password) later in dit artikel vergeet.
+   Als u uw wachtwoord bent vergeten, zie de sectie [&#x200B; wanneer u Uw Wachtwoord &#x200B;](#when-you-forget-your-password) later in dit artikel vergeet.
 
 1. Selecteer **[!UICONTROL Keep me logged in]** als u aangemeld wilt blijven (zonder dat de sessietime-out optreedt na 30 minuten inactiviteit).
 1. Klik op **[!UICONTROL Login]**.
 
-De [!DNL Workfront Proof] -beheerder kan persoonlijke branding instellen voor de [!UICONTROL Login] -pagina. Zie [ Merk de  [!DNL Workfront Proof]  plaats ](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site.md). Of, als u een [!UICONTROL Enterprise] of [!UICONTROL Unlimited] uitgave plan gebruikt, zie [ Plaats merken  [!DNL Workfront Proof]  geavanceerd ](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site-advanced.md).
+De [!DNL Workfront Proof] -beheerder kan persoonlijke branding instellen voor de [!UICONTROL Login] -pagina. Zie [&#x200B; Merk de  [!DNL Workfront Proof]  plaats &#x200B;](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site.md). Of, als u een [!UICONTROL Enterprise] of [!UICONTROL Unlimited] uitgave plan gebruikt, zie [&#x200B; Plaats merken  [!DNL Workfront Proof]  geavanceerd &#x200B;](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site-advanced.md).
 
-Voor [!UICONTROL Enterprise] - en [!UICONTROL Unlimited] -plannen bieden we SSO-functionaliteit (Single Sign-On), waarmee uw gebruikers zich bij [!DNL Workfront Proof] kunnen aanmelden met hun gebruikersnaam en wachtwoord voor uw organisatie. Zie [ Enige Sign-On voor  [!DNL Workfront Proof]  gebruikers ](../../../workfront-proof/wp-acct-admin/account-settings/configure-sso-for-wp-users.md) vormen. voor meer informatie .
+Voor [!UICONTROL Enterprise] - en [!UICONTROL Unlimited] -plannen bieden we SSO-functionaliteit (Single Sign-On), waarmee uw gebruikers zich bij [!DNL Workfront Proof] kunnen aanmelden met hun gebruikersnaam en wachtwoord voor uw organisatie. Zie [&#x200B; Enige Sign-On voor  [!DNL Workfront Proof]  gebruikers &#x200B;](../../../workfront-proof/wp-acct-admin/account-settings/configure-sso-for-wp-users.md) vormen. voor meer informatie .
 
 ## Afmelden
 
 1. Klik op **[!UICONTROL Logout]** in de rechterbovenhoek van Workfront Proof.\
    Er verschijnt een bericht om te bevestigen dat u bent afgemeld. U kunt op **[!UICONTROL Back to login page]** klikken om u opnieuw aan te melden.\
-   De beheerder van [!DNL Workfront Proof] kan gepersonaliseerde branding voor dit bericht plaatsen. Zie [ Merk de  [!DNL Workfront Proof]  plaats ](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site.md). Of, als en u een [!UICONTROL Enterprise] of [!UICONTROL Unlimited] uitgave plan gebruikt, zie [ Plaats de  [!DNL Workfront Proof]  plaats - geavanceerd ](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site-advanced.md).
+   De beheerder van [!DNL Workfront Proof] kan gepersonaliseerde branding voor dit bericht plaatsen. Zie [&#x200B; Merk de  [!DNL Workfront Proof]  plaats &#x200B;](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site.md). Of, als en u een [!UICONTROL Enterprise] of [!UICONTROL Unlimited] uitgave plan gebruikt, zie [&#x200B; Plaats de  [!DNL Workfront Proof]  plaats - geavanceerd &#x200B;](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site-advanced.md).
 
 ## Wanneer u uw wachtwoord vergeet {#when-you-forget-your-password}
 
 Als u uw wachtwoord bent vergeten, kunt u via [!DNL Workfront Proof] een e-mailbericht voor het opnieuw instellen laten verzenden.
 
 
-1. Ga naar [ de login pagina ](https://app.proofhq.com/login).
+1. Ga naar [&#x200B; de login pagina &#x200B;](https://app.proofhq.com/login).
 
 1. Klikken **[!UICONTROL Forgot password?]**
 1. Typ in het vak dat wordt weergegeven uw e-mailadres en klik op **[!UICONTROL Get Link]** .
@@ -56,7 +56,7 @@ Als u uw wachtwoord bent vergeten, kunt u via [!DNL Workfront Proof] een e-mailb
 ## Uw wachtwoord wijzigen
 
 1. Klik op **[!UICONTROL Change password]** in het [!UICONTROL Dashboard] .\
-   ![ Change_passowrd.png ](assets/change-passowrd-350x95.png)\
+   ![&#x200B; Change_passowrd.png &#x200B;](assets/change-passowrd-350x95.png)\
    Als uw [!DNL Workfront Proof] -beheerder specifieke wachtwoordvereisten heeft ingesteld, worden deze weergegeven boven aan de pagina van [!UICONTROL reset] .
 
 ## Geavanceerde wachtwoordinstellingen

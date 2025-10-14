@@ -22,7 +22,7 @@ Op deze pagina worden alle wijzigingen beschreven die het laatst beschikbaar zij
 >
 > De op deze pagina beschreven functionaliteit kan worden gewijzigd voordat deze beschikbaar is in de productieomgeving.
 
-Voor een lijst met alle wijzigingen die in 2017.3 zijn aangebracht, raadpleegt u  [ 2017.3 overzicht van de versieactiviteit ](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-release-activity-overview.md).
+Voor een lijst met alle wijzigingen die in 2017.3 zijn aangebracht, raadpleegt u  [&#x200B; 2017.3 overzicht van de versieactiviteit &#x200B;](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-release-activity-overview.md).
 
 De Beta 4-release van 2017.3 bevat verbeteringen voor zowel Workfront-beheerders als andere gebruikers:
 
@@ -32,18 +32,18 @@ De Beta 4-release van 2017.3 bevat verbeteringen voor zowel Workfront-beheerders
 
 **voor Alle Gebruikers**
 
-* [ dupliceer Taken ](#duplicate-tasks)
-* [ automatiseer Toewijzingen wanneer het plannen van Middelen ](#automate-assignments-when-scheduling-resources)
-* [ wijzig Toewijzingen voor Veelvoudige Taken wanneer het Plannen van Middelen ](#modify-assignments-for-multiple-tasks-when-scheduling-resources)
-* [ pas FTE Distributie op de Planner van het Middel toe ](#apply-fte-distribution-to-the-resource-planner)
-* [ sectie van de Rol van de Baan voor de Montages van de Gebruiker omvat Percentage van VTE Beschikbaarheid ](#job-role-section-for-user-settings-includes-percentage-of-fte-availability)
-* [ sparen en leidt Filters in het Rapport van het Gebruik over een Project ](#save-and-manage-filters-in-the-utilization-report-on-a-project)
-* [ Extra het Filtreren Opties in het Rapport van het Gebruik ](#additional-filtering-options-in-the-utilization-report)
-* [ Mening het Rapport van het Gebruik door Programma of Portfolio ](#view-the-utilization-report-by-program-or-portfolio)
-* [ toon Oorspronkelijke Informatie van de Uitgave in Project en de Rapporten van de Taak ](#show-original-issue-information-in-project-and-task-reports)
-* [ de Updates van het Systeem van de Filter in de Stroom van de Update is nu Persistent over Voorwerpen ](#filter-system-updates-in-the-update-stream-is-now-persistent-across-objects)
-* [ Rapport over Actieve Stages van het Bewijs binnen Workfront ](#report-on-active-proof-stages-within-workfront)
-* [ wijs de Profielen van de Toestemming van Workfront Proof van de Douane aan Gebruikers binnen Workfront ](#assign-custom-workfront-proof-permission-profiles-to-users-within-workfront) toe
+* [&#x200B; dupliceer Taken &#x200B;](#duplicate-tasks)
+* [&#x200B; automatiseer Toewijzingen wanneer het plannen van Middelen &#x200B;](#automate-assignments-when-scheduling-resources)
+* [&#x200B; wijzig Toewijzingen voor Veelvoudige Taken wanneer het Plannen van Middelen &#x200B;](#modify-assignments-for-multiple-tasks-when-scheduling-resources)
+* [&#x200B; pas FTE Distributie op de Planner van het Middel toe &#x200B;](#apply-fte-distribution-to-the-resource-planner)
+* [&#x200B; sectie van de Rol van de Baan voor de Montages van de Gebruiker omvat Percentage van VTE Beschikbaarheid &#x200B;](#job-role-section-for-user-settings-includes-percentage-of-fte-availability)
+* [&#x200B; sparen en leidt Filters in het Rapport van het Gebruik over een Project &#x200B;](#save-and-manage-filters-in-the-utilization-report-on-a-project)
+* [&#x200B; Extra het Filtreren Opties in het Rapport van het Gebruik &#x200B;](#additional-filtering-options-in-the-utilization-report)
+* [&#x200B; Mening het Rapport van het Gebruik door Programma of Portfolio &#x200B;](#view-the-utilization-report-by-program-or-portfolio)
+* [&#x200B; toon Oorspronkelijke Informatie van de Uitgave in Project en de Rapporten van de Taak &#x200B;](#show-original-issue-information-in-project-and-task-reports)
+* [&#x200B; de Updates van het Systeem van de Filter in de Stroom van de Update is nu Persistent over Voorwerpen &#x200B;](#filter-system-updates-in-the-update-stream-is-now-persistent-across-objects)
+* [&#x200B; Rapport over Actieve Stages van het Bewijs binnen Workfront &#x200B;](#report-on-active-proof-stages-within-workfront)
+* [&#x200B; wijs de Profielen van de Toestemming van Workfront Proof van de Douane aan Gebruikers binnen Workfront &#x200B;](#assign-custom-workfront-proof-permission-profiles-to-users-within-workfront) toe
 * [Uur-bron toegevoegd aan abonnementen voor gebeurtenissen](#hour-resource-added-to-event-subscriptions)
 
 ## Taken dupliceren {#duplicate-tasks}
@@ -52,13 +52,13 @@ U kunt nu snel een taak of een set taken in een project dupliceren. Met deze han
 
 Voorafgaand aan deze verandering, kon u een taak aan of een nieuw project, of het bestaande project kopiëren en sommige informatie wijzigen aangezien u het kopieerde.
 
-Voor  meer informatie over het dupliceren van taken, zie [ Kopiëren en dupliceren taken ](../../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md).
+Voor  meer informatie over het dupliceren van taken, zie [&#x200B; Kopiëren en dupliceren taken &#x200B;](../../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md).
 
 ## Toewijzingen automatiseren tijdens het plannen van bronnen {#automate-assignments-when-scheduling-resources}
 
 >[!NOTE]
 >
->De hulpmiddelen van de Planning van het Middel zijn afgekeurd en uit Workfront met versie 23.1 verwijderd. Voor informatie over het plannen van middelen die de Balancer van de Werklast gebruiken, zie [ Overzicht van de Balancer van de Werkbelasting ](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+>De hulpmiddelen van de Planning van het Middel zijn afgekeurd en uit Workfront met versie 23.1 verwijderd. Voor informatie over het plannen van middelen die de Balancer van de Werklast gebruiken, zie [&#x200B; Overzicht van de Balancer van de Werkbelasting &#x200B;](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
 
 U kunt Workfront nu toestaan om taken voor niet toegewezen taken en kwesties automatisch voor te stellen wanneer het plannen van middelen voor veelvoudige projecten (van het Plannende lusje) of wanneer het plannen van middelen voor één enkel project (van het het Stafsen lusje).
 
@@ -86,7 +86,7 @@ Bijvoorbeeld, als het programma van een gebruiker erop wijst dat zij 100 uren in
 
 Voorafgaand aan deze verandering, werd de naam van de gebruiker die in de Planner van het Middel slechts voor de Primaire Rol wordt getoond, en de volledige beschikbaarheid van de gebruiker die op hun programma (100 uren) wordt gebaseerd geassocieerd slechts met de Primaire Rol. De andere Rol van de gebruiker die in de Planner van het Middel slechts wordt getoond als de gebruiker aan een taak in die rol werd toegewezen en de Beschikbare Uren voor de gebruiker in de Andere Rol nul was.
 
-Voor meer informatie over hoe Beschikbare Uren en Beschikbare FTEs voor gebruikers en rollen in de Planner van het Middel worden berekend, zie [ Overzicht van het berekenen van uren en FTE voor gebruikers en rollen in de Planner van het Middel ](../../../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md).
+Voor meer informatie over hoe Beschikbare Uren en Beschikbare FTEs voor gebruikers en rollen in de Planner van het Middel worden berekend, zie [&#x200B; Overzicht van het berekenen van uren en FTE voor gebruikers en rollen in de Planner van het Middel &#x200B;](../../../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md).
 
 ## Sectie Functie voor gebruikersinstellingen bevat percentage van FTE-beschikbaarheid {#job-role-section-for-user-settings-includes-percentage-of-fte-availability}
 
@@ -98,7 +98,7 @@ Wanneer u nu een gebruikersprofiel bijwerkt, kunt u extra taakrollen aan een geb
 
 Vóór deze wijziging kon u geen specifieke hoeveelheid VTE toewijzen aan een van de taakrollen waaraan de gebruiker was gekoppeld.
 
-Voor meer informatie over het bijwerken van het Percentage van de Beschikbaarheid FTE voor de de baanrollen van de gebruiker, zie [ het profiel van een gebruiker ](../../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) uitgeven of [ Mijn Montages ](../../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md) vormen.
+Voor meer informatie over het bijwerken van het Percentage van de Beschikbaarheid FTE voor de de baanrollen van de gebruiker, zie [&#x200B; het profiel van een gebruiker &#x200B;](../../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) uitgeven of [&#x200B; Mijn Montages &#x200B;](../../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md) vormen.
 
 ## Het nieuwe gebied van de Voorkeur van het Beheer van het Middel in het Gebied van de Opstelling {#new-resource-management-preferences-area-in-the-setup-area}
 
@@ -107,7 +107,7 @@ U kunt een nieuw gebied in Opstelling nu vinden genoemd het Beheer van het Midde
 * Handmatig: het standaardschema van het systeem wordt naast de afzonderlijke VTE van de gebruiker gebruikt om de beschikbaarheid van het uur van de gebruiker in de Planner van het Middel te bepalen. Het schema van de gebruiker wordt genegeerd.
 * Automatisch: Het Programma van de gebruiker wordt gebruikt om de uurbeschikbaarheid van de gebruiker in de Planner van het Middel te bepalen. De beschikbaarheid van FTE wordt berekend gebaseerd op het Programma van de gebruiker en het Standaard Programma. De waarde van de gebruiker FTE wordt genegeerd. 
 
-Voor meer informatie over het vormen van de voorkeur van het Beheer van het Middel voor uw systeem, zie [ de voorkeur van het Beheer van het Middel ](../../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md) vormen.
+Voor meer informatie over het vormen van de voorkeur van het Beheer van het Middel voor uw systeem, zie [&#x200B; de voorkeur van het Beheer van het Middel &#x200B;](../../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md) vormen.
 
 ## Filters opslaan en beheren in het gebruiksrapport van een project {#save-and-manage-filters-in-the-utilization-report-on-a-project}
 
@@ -115,7 +115,7 @@ Nu kunt u filters bewaren die u in het rapport van het Gebruik creeert. Bovendie
 
 Eerder, moest u individuele filteropties specificeren telkens als u het rapport van het Gebruik filtreerde.
 
-Voor meer informatie over het bewaren van en het beheren van filters in het rapport van het Gebruik, zie [ Overzicht van het rapport van het Gebruik van het Middel ](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md) in [ Overzicht van het rapport van het Gebruik van het Middel ](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
+Voor meer informatie over het bewaren van en het beheren van filters in het rapport van het Gebruik, zie [&#x200B; Overzicht van het rapport van het Gebruik van het Middel &#x200B;](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md) in [&#x200B; Overzicht van het rapport van het Gebruik van het Middel &#x200B;](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
 
 ## Aanvullende filteropties in het gebruiksrapport {#additional-filtering-options-in-the-utilization-report}
 
@@ -123,7 +123,7 @@ Nu wanneer het runnen van het rapport van het Gebruik, zijn de nieuwe het filtre
 
 Voorafgaand aan deze verandering, kon u filtreren door portefeuille, programma, en project slechts door een nieuwe filterregel toe te voegen.
 
-Voor meer informatie, zie [ Overzicht van het rapport van het Gebruik van het Middel ](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md) in [ Overzicht van het rapport van het Gebruik van het Middel ](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
+Voor meer informatie, zie [&#x200B; Overzicht van het rapport van het Gebruik van het Middel &#x200B;](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md) in [&#x200B; Overzicht van het rapport van het Gebruik van het Middel &#x200B;](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
 
 ## Het gebruiksrapport per programma of Portfolio weergeven {#view-the-utilization-report-by-program-or-portfolio}
 
@@ -133,7 +133,7 @@ Om deze verandering te vergemakkelijken, is het lusje van het Gebruik nu beschik
 
 Voorafgaand aan deze verandering, konden de Rapporten van het Gebruik slechts binnen een project worden betreden.
 
-Zie voor meer informatie  [ Overzicht van het rapport van het Gebruik van het Middel ](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md). 
+Zie voor meer informatie  [&#x200B; Overzicht van het rapport van het Gebruik van het Middel &#x200B;](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md). 
 
 ## Originele informatie over problemen tonen in project- en taakrapporten {#show-original-issue-information-in-project-and-task-reports}
 
@@ -151,7 +151,7 @@ Deze informatie kan in een taak of een projectrapport of een lijst worden getoon
 
 Voor deze wijziging kon je deze gegevens niet melden.
 
-Voor meer informatie over de bouw van de de wijzemening van de douanetekst die de informatie van de originele kwestie vangt, zie [ Mening: toon originele uitgifteinformatie over taak of projectlijsten ](../../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-original-issue-info-task-project-list.md).
+Voor meer informatie over de bouw van de de wijzemening van de douanetekst die de informatie van de originele kwestie vangt, zie [&#x200B; Mening: toon originele uitgifteinformatie over taak of projectlijsten &#x200B;](../../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-original-issue-info-task-project-list.md).
 
 ## De Updates van het Systeem van de filter in de Stroom van de Update zijn nu Blijvend over Voorwerpen {#filter-system-updates-in-the-update-stream-is-now-persistent-across-objects}
 
@@ -163,13 +163,13 @@ De optie Systeemupdates filteren is nu blijvend in alle objecten op de Workfront
 
 Voordat u deze wijziging aanbracht, moest u de systeemupdates voor elk object uitfilteren terwijl u door de Workfront-site bladerde.
 
-Voor meer informatie, zie [ het werk van de Update ](../../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+Voor meer informatie, zie [&#x200B; het werk van de Update &#x200B;](../../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 ## Rapport over actieve proefboekfasen in Workfront {#report-on-active-proof-stages-within-workfront}
 
 Wanneer u een rapport van de documentversie maakt in Workfront, wordt nu een kolom met de naam Actieve proefdrukfasen weergegeven. In deze kolom kunt u het proefdrukwerkgebied weergeven dat momenteel actief is op elke documentversie in het rapport. De naam van het werkgebied wordt weergegeven in de kolom &quot;Actieve proefdrukstadia&quot;. Als er momenteel geen werkgebied actief is in de documentversie, is de kolom leeg.
 
-Voor meer informatie over beschikbare gebieden in meningen en rapporten, zie [ Verklarende woordenlijst van de terminologie van Adobe Workfront ](../../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
+Voor meer informatie over beschikbare gebieden in meningen en rapporten, zie [&#x200B; Verklarende woordenlijst van de terminologie van Adobe Workfront &#x200B;](../../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
 
 ## Aangepaste Workfront Proof-machtigingsprofielen toewijzen aan gebruikers in Workfront {#assign-custom-workfront-proof-permission-profiles-to-users-within-workfront}
 
@@ -181,4 +181,4 @@ Voorafgaand aan deze verandering, slechts waren de volgende toestemmingsprofiele
 
 Met de nieuwe Uur-bron kunt u nu een gebeurtenisabonnement maken om uw factureringstoepassing synchroon te houden met Workfront.
 
-Meer over gebeurtenisabonnementen leren, zie [ Abonnement API van de Gebeurtenis ](../../../../wf-api/general/event-subs-api.md).
+Meer over gebeurtenisabonnementen leren, zie [&#x200B; Abonnement API van de Gebeurtenis &#x200B;](../../../../wf-api/general/event-subs-api.md).

@@ -38,10 +38,10 @@ Uw gebruikers kunnen de plug-ins van [!UICONTROL [!DNL Adobe Workfront] for [!DN
 * Projecten en taken weergeven
 * en meer
 
-Voor meer informatie over de [!UICONTROL [!DNL Adobe Workfront] for [!DNL Creative Cloud]] stoppen, zie [[!DNL Adobe Workfront]  insteekmodule voor  [!DNL Creative Cloud]  Apps ](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-cc.md).
+Voor meer informatie over de [!UICONTROL [!DNL Adobe Workfront] for [!DNL Creative Cloud]] stoppen, zie [[!DNL Adobe Workfront]  insteekmodule voor  [!DNL Creative Cloud]  Apps &#x200B;](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-cc.md).
 
 ## Pakketten maken voor [!UICONTROL [!DNL Adobe Workfront] for [!DNL Creative Cloud]] plug-ins
 
 Pakketten worden gemaakt via de lus [!DNL Adobe Admin Console] .
 
-Voor instructies bij het creëren van deze pakketten, zie [ Beheerde Pakketten ](https://helpx.adobe.com/nl/enterprise/using/create-nul-packages.html#managed-packages) in de documentatie van Adobe Admin Console.
+Voor instructies bij het creëren van deze pakketten, zie [&#x200B; Beheerde Pakketten &#x200B;](https://helpx.adobe.com/nl/enterprise/using/create-nul-packages.html#managed-packages) in de documentatie van Adobe Admin Console.

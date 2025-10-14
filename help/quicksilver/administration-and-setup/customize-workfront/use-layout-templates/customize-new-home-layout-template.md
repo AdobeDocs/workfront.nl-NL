@@ -31,13 +31,13 @@ U kunt configureren:
 > 
 >Beheerders kunnen nieuwe widgets toevoegen aan gebruikers. Als een eindgebruiker echter zijn widgetvolgorde of achtergrondselectie al heeft aangepast, worden deze specifieke aanpassingen niet gewijzigd.
 
-Voor informatie over Huis, zie [ begonnen worden met Huis ](/help/quicksilver/workfront-basics/using-home/using-the-home-area/get-started-with-home.md).
+Voor informatie over Huis, zie [&#x200B; begonnen worden met Huis &#x200B;](/help/quicksilver/workfront-basics/using-home/using-the-home-area/get-started-with-home.md).
 
-Voor informatie over het creëren van lay-outmalplaatjes, zie [ lay-outmalplaatjes ](../use-layout-templates/create-and-manage-layout-templates.md) creëren en beheren.
+Voor informatie over het creëren van lay-outmalplaatjes, zie [&#x200B; lay-outmalplaatjes &#x200B;](../use-layout-templates/create-and-manage-layout-templates.md) creëren en beheren.
 
-Voor informatie over lay-outmalplaatjes voor groepen, zie [ tot stand brengen en wijzigen de lay-outmalplaatjes van een groep ](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
+Voor informatie over lay-outmalplaatjes voor groepen, zie [&#x200B; tot stand brengen en wijzigen de lay-outmalplaatjes van een groep &#x200B;](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
 
-Nadat u een lay-outmalplaatje hebt gevormd, moet u het aan gebruikers voor veranderingen toewijzen u aanbracht om aan anderen zichtbaar te zijn. Voor informatie over het toewijzen van een lay-outmalplaatje aan gebruikers, zie [ gebruikers aan een lay-outmalplaatje ](../use-layout-templates/assign-users-to-layout-template.md) toewijzen.
+Nadat u een lay-outmalplaatje hebt gevormd, moet u het aan gebruikers voor veranderingen toewijzen u aanbracht om aan anderen zichtbaar te zijn. Voor informatie over het toewijzen van een lay-outmalplaatje aan gebruikers, zie [&#x200B; gebruikers aan een lay-outmalplaatje &#x200B;](../use-layout-templates/assign-users-to-layout-template.md) toewijzen.
 
 ## Toegangsvereisten
 
@@ -67,7 +67,7 @@ Om hen voor een groep uit te voeren, moet u een manager van die groep zijn.</p> 
  </tbody> 
 </table>
 
-*Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Voor meer informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -75,9 +75,9 @@ Om hen voor een groep uit te voeren, moet u een manager van die groep zijn.</p> 
 
 Home aanpassen met een lay-outsjabloon:
 
-1. Begin werkend aan een lay-outmalplaatje, zoals die in [ wordt beschreven creeer en beheer lay-outmalplaatjes ](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
+1. Begin werkend aan een lay-outmalplaatje, zoals die in [&#x200B; wordt beschreven creeer en beheer lay-outmalplaatjes &#x200B;](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
-1. Klik de benedenpijl ![ benedenpijl ](assets/dropdown-arrow.png) onder **aanpassen welke gebruikers** zien, dan **Workspace van het Huis** klikken.
+1. Klik de benedenpijl ![&#x200B; benedenpijl &#x200B;](assets/dropdown-arrow.png) onder **aanpassen welke gebruikers** zien, dan **Workspace van het Huis** klikken.
 
 1. Klik op een van de volgende tabbladen aan de rechterkant:
 

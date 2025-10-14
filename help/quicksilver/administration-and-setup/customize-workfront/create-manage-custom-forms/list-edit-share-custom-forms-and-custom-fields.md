@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Als u een lijst weergeeft met aangepaste formulieren van uw organisatie en de aangepaste velden en widgets die eraan zijn toegevoegd, kunt u opties in de werkbalk gebruiken om de eigenschappen te bewerken, te beperken wie er mee wordt gedeeld, deze te kopiëren en te verwijderen. U kunt ook andere informatie weergeven in de kolommen die worden weergegeven, zoals welke objecttypen elk aangepast formulier bevat.
 
-Voor informatie over douanegebieden en widgets in douanevormen, zie [ een douanevorm ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren.
+Voor informatie over douanegebieden en widgets in douanevormen, zie [&#x200B; een douanevorm &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren.
 
 ## Toegangsvereisten
 
@@ -56,8 +56,8 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
    Raadpleeg de volgende artikelen voor informatie over wat u kunt doen wanneer u een aangepast formulier in de lijst selecteert:
 
    * [Een aangepast formulier maken](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)
-   * [ Deel een douanevorm ](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md)
-   * [ Kopieer een douanevorm om nieuwe te creëren ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/list-edit-share-custom-forms-and-custom-fields.md)
+   * [&#x200B; Deel een douanevorm &#x200B;](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md)
+   * [&#x200B; Kopieer een douanevorm om nieuwe te creëren &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/list-edit-share-custom-forms-and-custom-fields.md)
    * [Een aangepast formulier verwijderen of deactiveren](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/delete-or-deactivate-a-custom-form.md)
 
 1. Klik de **Gebieden** tabel.
@@ -77,7 +77,7 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
 
    Raadpleeg de volgende artikelen voor informatie over wat u kunt doen wanneer u een item in de lijst selecteert:
 
-   * [ voeg of geef een douanegebied, een sectieonderbreking, of widget toe uit ](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/edit-a-custom-field.md)
+   * [&#x200B; voeg of geef een douanegebied, een sectieonderbreking, of widget toe uit &#x200B;](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/edit-a-custom-field.md)
    * [Delen configureren voor aangepaste velden en widgets in een formulier](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/share-custom-fields.md)
    * [Een aangepast veld of aangepaste widget uit het systeem verwijderen](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/delete-a-custom-field.md)
 
@@ -85,5 +85,5 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
 
    Alle sectie-einden worden in deze weergave weergegeven, samen met een lijst met aangepaste formulieren die elk sectie-einde bevatten.
 
-   Voor informatie over het uitgeven van een douanesectie die u in de lijst selecteert, zie [ organiseren en voorproef een vorm ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md).
+   Voor informatie over het uitgeven van een douanesectie die u in de lijst selecteert, zie [&#x200B; organiseren en voorproef een vorm &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md).
 

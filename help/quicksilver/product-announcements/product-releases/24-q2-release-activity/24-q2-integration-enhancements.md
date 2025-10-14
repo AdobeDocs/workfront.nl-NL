@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Op deze pagina worden alle integratieverbeteringen beschreven die zijn aangebracht met de release van het tweede kwartaal van 2024 voor de voorvertoningsomgeving. Deze verbeteringen worden beschikbaar gesteld in de productieomgeving met de release van het tweede kwartaal van 2024.
 
-Voor een lijst van alle veranderingen beschikbaar op dit punt in het Tweede Kwartaal 2024 versiecyclus, zie [ Tweede Kwartaal 2024 releaseoverzicht ](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar op dit punt in het Tweede Kwartaal 2024 versiecyclus, zie [&#x200B; Tweede Kwartaal 2024 releaseoverzicht &#x200B;](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
 
 ## Verbeteringen aan de workflow voor het maken van geautomatiseerde mappen in de Adobe Experience Manager-integratie
 
@@ -32,6 +32,6 @@ Nu kunt u:
 * Maak meerdere mappenstructuren en stel er vervolgens een in als de standaardinstelling voor de integratie.
 * Stel filters in op basis van aangepaste formulierveldgegevens, zodat er in Adobe Experience Manager een opgegeven mapstructuur wordt gemaakt.
 
-Voor informatie bij het vormen van verbonden omslagen in de werkschema&#39;s van Adobe Experience Manager, zie [ Adobe Experience Manager verbonden omslagen ](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md#create-adobe-experience-manager-linked-folders) creëren.
+Voor informatie bij het vormen van verbonden omslagen in de werkschema&#39;s van Adobe Experience Manager, zie [&#x200B; Adobe Experience Manager verbonden omslagen &#x200B;](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md#create-adobe-experience-manager-linked-folders) creëren.
 
-Voor informatie bij het gebruiken van de werkschema&#39;s van Adobe Experience Manager op projecten of projectmalplaatjes, zie [ werkschema&#39;s van het Gebruik in de integratie van Experience Manager Assets ](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md).
+Voor informatie bij het gebruiken van de werkschema&#39;s van Adobe Experience Manager op projecten of projectmalplaatjes, zie [&#x200B; werkschema&#39;s van het Gebruik in de integratie van Experience Manager Assets &#x200B;](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md).

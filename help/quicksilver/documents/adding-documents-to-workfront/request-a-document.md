@@ -57,20 +57,20 @@ U moet het volgende hebben:
 
    Het dialoogvenster Een document aanvragen wordt weergegeven.
 
-   ![ document_request.png ](assets/document-request-350x242.png)
+   ![&#x200B; document_request.png &#x200B;](assets/document-request-350x242.png)
 
 1. Typ de naam van de gebruiker bij wie u het document aanvraagt en selecteer deze vervolgens in de vervolgkeuzelijst. Alleen Adobe Workfront-gebruikers met licentie worden als opties weergegeven in de vervolgkeuzelijst.
 
    >[!NOTE]
    >
-   >Als u het [ overzicht van de Verouderde vergunningen ](../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md) hebt die op uw rekening wordt toegelaten, kunt u een verzoek naar om het even welk e-mailadres verzenden. Er is het plaatsen in [ vormt de voorkeur van de systeemveiligheid ](../../administration-and-setup/manage-workfront/security/configure-security-preferences.md) die bepaalt al dan niet deze externe e-mailgebruikers een wachtwoord moeten tot stand brengen alvorens met Workfront in wisselwerking te staan. 
+   >Als u het [&#x200B; overzicht van de Verouderde vergunningen &#x200B;](../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md) hebt die op uw rekening wordt toegelaten, kunt u een verzoek naar om het even welk e-mailadres verzenden. Er is het plaatsen in [&#x200B; vormt de voorkeur van de systeemveiligheid &#x200B;](../../administration-and-setup/manage-workfront/security/configure-security-preferences.md) die bepaalt al dan niet deze externe e-mailgebruikers een wachtwoord moeten tot stand brengen alvorens met Workfront in wisselwerking te staan. 
 
 1. Beschrijf de reden dat u het document aanvraagt.
 1. Klik **verzenden Verzoek**.
 
    Wanneer u een aanvraag indient bij een gebruiker, wordt een tijdelijke aanduiding toegevoegd aan het documentgebied. U kunt de gebruiker eraan herinneren of het verzoek van deze tijdelijke aanduiding annuleren. De gebruiker ontvangt een Workfront-melding en een e-mail over de aanvraag.
 
-   De gebruiker ontvangt een e-mailmelding als deze voorkeur is ingeschakeld, en een melding in de app. Voor meer informatie over e-mailberichten, zie [ uw eigen e-mailberichten wijzigen ](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+   De gebruiker ontvangt een e-mailmelding als deze voorkeur is ingeschakeld, en een melding in de app. Voor meer informatie over e-mailberichten, zie [&#x200B; uw eigen e-mailberichten wijzigen &#x200B;](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
    Klik op de koppeling in het e-mailbericht en upload het document. U kunt ook op de melding in de app klikken. Elke optie leidt u naar de pagina van het gebruikersprofiel waar u het gevraagde document kunt uploaden.
 

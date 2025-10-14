@@ -55,34 +55,34 @@ Houd rekening met het volgende wanneer u sjablonen maakt:
 
   Raadpleeg de volgende artikelen voor informatie over Duur:
 
-   * [ Overzicht van het Type van Duur en van de Duur van de Taak ](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)
+   * [&#x200B; Overzicht van het Type van Duur en van de Duur van de Taak &#x200B;](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)
    * [Overzicht van de duur van het project](../../../manage-work/projects/planning-a-project/project-duration.md)
 
-  Voor informatie over Geplande Uren, zie [ Gepland overzicht van Uren ](../../../manage-work/tasks/task-information/planned-hours.md).
+  Voor informatie over Geplande Uren, zie [&#x200B; Gepland overzicht van Uren &#x200B;](../../../manage-work/tasks/task-information/planned-hours.md).
 
 * Voeg de vorige relaties tussen de taken aan het eind toe, wanneer u een duidelijk inzicht hebt in het toekomstige projectplan in zijn geheel. Het toevoegen van predecessors aan malplaatjetaken is gelijkaardig aan het toevoegen van predecessors aan taken op een project.
 
-  Voor informatie over het toevoegen van predecessors aan taken, zie [ Overzicht van taakvoordecessors ](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md).
+  Voor informatie over het toevoegen van predecessors aan taken, zie [&#x200B; Overzicht van taakvoordecessors &#x200B;](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md).
 
-* Geef aan met wie de sjabloon moet worden gedeeld voor toekomstig gebruik en met wie de projecten die op basis van de sjabloon worden gemaakt, moeten worden gedeeld. Voor informatie over het delen van malplaatjes, zie [ het projectmalplaatjes van het Aandeel ](../../../manage-work/projects/create-and-manage-templates/share-project-template.md).
+* Geef aan met wie de sjabloon moet worden gedeeld voor toekomstig gebruik en met wie de projecten die op basis van de sjabloon worden gemaakt, moeten worden gedeeld. Voor informatie over het delen van malplaatjes, zie [&#x200B; het projectmalplaatjes van het Aandeel &#x200B;](../../../manage-work/projects/create-and-manage-templates/share-project-template.md).
 * Gebruik algemene goedkeuringsprocessen en voeg deze zo mogelijk toe aan uw sjabloon en sjabloontaken. Dit bespaart tijd wanneer de taken of het toekomstige project door de zelfde goedkeuringen zullen moeten gaan.
 
-  Voor informatie over het creëren van goedkeuringen, zie [ een goedkeuringsproces voor het werkpunten ](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md) creëren.
+  Voor informatie over het creëren van goedkeuringen, zie [&#x200B; een goedkeuringsproces voor het werkpunten &#x200B;](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md) creëren.
 
-  Voor informatie over het associëren van een goedkeuringsproces aan een het werkpunt, zie [ een nieuw of bestaand goedkeuringsproces met het werk ](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md) associëren.
+  Voor informatie over het associëren van een goedkeuringsproces aan een het werkpunt, zie [&#x200B; een nieuw of bestaand goedkeuringsproces met het werk &#x200B;](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md) associëren.
 
 ## Manieren om sjablonen te maken
 
 U kunt op de volgende manieren een nieuwe sjabloon maken:
 
 * Van nul.\
-  Voor meer informatie over het creëren van een nieuw malplaatje van kras, zie [ een projectmalplaatje ](../../../manage-work/projects/create-and-manage-templates/create-template.md) creëren.
+  Voor meer informatie over het creëren van een nieuw malplaatje van kras, zie [&#x200B; een projectmalplaatje &#x200B;](../../../manage-work/projects/create-and-manage-templates/create-template.md) creëren.
 
 * Van bestaande projecten, door een project als malplaatje te bewaren.\
-  Voor meer informatie over het creëren van malplaatjes van bestaande projecten, zie [ malplaatje van project ](../../../manage-work/projects/create-and-manage-templates/create-template-from-project.md) creëren.
+  Voor meer informatie over het creëren van malplaatjes van bestaande projecten, zie [&#x200B; malplaatje van project &#x200B;](../../../manage-work/projects/create-and-manage-templates/create-template-from-project.md) creëren.
 
 * Door deze uit een andere sjabloon te kopiëren.\
-  Voor meer informatie over het kopiëren van een bestaand malplaatje, zie [ een projectmalplaatje ](../../../manage-work/projects/create-and-manage-templates/copy-template.md) kopiëren.
+  Voor meer informatie over het kopiëren van een bestaand malplaatje, zie [&#x200B; een projectmalplaatje &#x200B;](../../../manage-work/projects/create-and-manage-templates/copy-template.md) kopiëren.
 
 * Met onze voorbeeldsjablonen.\
-  Voor meer informatie over de bouw van uw malplaatjes die onze voorbeeldmalplaatjes gebruiken, zie [ projectmalplaatjes van voorbeelden ](../../../manage-work/projects/create-and-manage-templates/create-templates-from-examples.md) creëren.
+  Voor meer informatie over de bouw van uw malplaatjes die onze voorbeeldmalplaatjes gebruiken, zie [&#x200B; projectmalplaatjes van voorbeelden &#x200B;](../../../manage-work/projects/create-and-manage-templates/create-templates-from-examples.md) creëren.

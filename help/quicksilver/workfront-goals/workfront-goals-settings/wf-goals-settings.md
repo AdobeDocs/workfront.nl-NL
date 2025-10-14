@@ -32,10 +32,10 @@ ht-degree: 0%
 >
 >Neem contact op met uw Workfront-accountmanager voor meer informatie over een Workfront Goals-licentie.
 > 
->Voor extra informatie over toegang tot de Doelen van Workfront, zie [ Vereisten om de Doelen van Workfront ](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md) te gebruiken.
+>Voor extra informatie over toegang tot de Doelen van Workfront, zie [&#x200B; Vereisten om de Doelen van Workfront &#x200B;](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md) te gebruiken.
 
 Deze sectie bevat de volgende artikelen:
 
-* [ laat de berichten van de Doelen van Adobe Workfront ](../../workfront-goals/workfront-goals-settings/wf-goals-notifications.md) toe
+* [&#x200B; laat de berichten van de Doelen van Adobe Workfront &#x200B;](../../workfront-goals/workfront-goals-settings/wf-goals-notifications.md) toe
 * [Een doel delen in Workfront-doelen](../../workfront-goals/workfront-goals-settings/share-a-goal.md)
 * [Terminologie voor Adobe Workfront-doelen aanpassen](../workfront-goals-settings/customize-wf-goals-terminology.md)

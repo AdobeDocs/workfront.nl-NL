@@ -18,11 +18,11 @@ ht-degree: 0%
 
 In dit artikel worden de functies beschreven die tijdens de vierde release van het kwartaal van 2024 beschikbaar komen voor Workfront Planning.
 
-Voor informatie over eigenschappen inbegrepen in deze versie, zie [ de versieactiviteit van de Planning van Adobe Workfront voor 2024 ](/help/quicksilver/planning/general/release-activity.md).
+Voor informatie over eigenschappen inbegrepen in deze versie, zie [&#x200B; de versieactiviteit van de Planning van Adobe Workfront voor 2024 &#x200B;](/help/quicksilver/planning/general/release-activity.md).
 
 <!--keep the sentence below for all future quarterly release pages-->
 
-Voor een lijst van alle eigenschappen die voor de Planning van Adobe Workfront worden vrijgegeven, zie [ de versieactiviteit van de Planning van Adobe Workfront: artikelindex ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+Voor een lijst van alle eigenschappen die voor de Planning van Adobe Workfront worden vrijgegeven, zie [&#x200B; de versieactiviteit van de Planning van Adobe Workfront: artikelindex &#x200B;](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
 ## Weergaveopties voor verbonden records
 
@@ -38,7 +38,7 @@ We hebben het weergavegebied Opnemen opnieuw ontworpen wanneer we recordtypen ve
 
 Vóór deze verbetering, kon u of deselecteren de knevel van de Titel om de naam van de verslagen te tonen of enkel het pictogram of de duimnagel te tonen. De schakeloptie Titel is verwijderd.
 
-Voor meer informatie, zie [ Connect verslagtypes ](/help/quicksilver/planning/architecture/connect-record-types.md).
+Voor meer informatie, zie [&#x200B; Connect verslagtypes &#x200B;](/help/quicksilver/planning/architecture/connect-record-types.md).
 
 ## Recorddetails exporteren naar PDF
 
@@ -50,7 +50,7 @@ U kunt nu de detailpagina van een record exporteren of een voorvertoning weergev
 
 Voordat u deze upgrade uitvoert, kunt u het tabblad Details van een record alleen exporteren naar een Word-bestand (.docx).
 
-Voor meer informatie, zie [ de details van een verslag uitvoeren ](/help/quicksilver/planning/records/export-the-record-page.md).
+Voor meer informatie, zie [&#x200B; de details van een verslag uitvoeren &#x200B;](/help/quicksilver/planning/records/export-the-record-page.md).
 
 ## Algemene beschikbaarheid van Adobe Workfront Planning
 
@@ -68,4 +68,4 @@ Hieronder vindt u een aantal van de belangrijkste mogelijkheden van Adobe Workfr
 
 * Verbind met objecten types van andere systemen, die tot een samenhangend kader voor al uw processen leiden.
 
-Voor meer informatie over de Planning van Workfront, zie [ het Overzicht van de Planning van Adobe Workfront ](/help/quicksilver/planning/general/planning-overview.md).
+Voor meer informatie over de Planning van Workfront, zie [&#x200B; het Overzicht van de Planning van Adobe Workfront &#x200B;](/help/quicksilver/planning/general/planning-overview.md).

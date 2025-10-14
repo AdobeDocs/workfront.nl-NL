@@ -27,9 +27,9 @@ Deze taakweergave is vergelijkbaar met de weergave Alle datums die bij uw Adobe 
 
 Deze weergave vertegenwoordigt een voorbeeld van berekende kolommen, waarin u de waarden uit twee verschillende kolommen kunt nemen en deze via een berekening kunt verbinden om een derde waarde te verkrijgen. In dit geval trekt u datum 1 in van datum 2.
 
-Voor meer informatie over het gebruiken van berekeningen in een Mening, zie het [ Overzicht van gemeenschappelijk gebruik voor de sectie van de Wijze van de Tekst ](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md) in  [ Overzicht van gemeenschappelijk gebruik voor de Wijze van de Tekst ](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md).
+Voor meer informatie over het gebruiken van berekeningen in een Mening, zie het [&#x200B; Overzicht van gemeenschappelijk gebruik voor de sectie van de Wijze van de Tekst &#x200B;](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md) in  [&#x200B; Overzicht van gemeenschappelijk gebruik voor de Wijze van de Tekst &#x200B;](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md).
 
-![ taak van de Mening met alle data ](assets/view-task-with-all-dates-variance.png)
+![&#x200B; taak van de Mening met alle data &#x200B;](assets/view-task-with-all-dates-variance.png)
 
 ## Toegangsvereisten
 
@@ -72,7 +72,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

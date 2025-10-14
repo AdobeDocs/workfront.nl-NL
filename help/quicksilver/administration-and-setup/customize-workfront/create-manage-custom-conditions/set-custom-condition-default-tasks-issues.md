@@ -50,7 +50,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -68,7 +68,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 >[!NOTE]
 >
->* Een gebruiker die is toegewezen aan een taak of uitgave, of die beheermachtigingen heeft, kan de voorwaarde handmatig wijzigen. Voor meer informatie, zie [ Voorwaarde van de Update voor taken en kwesties ](../../../manage-work/projects/updating-work-in-a-project/update-condition-for-tasks-and-issues.md).
->* De drie standaardvoorwaarden voor taken en problemen die met Workfront worden geleverd, zijn Vloeiend, Sommige zorgen en Belangrijke wegversperringen. U kunt deze voorwaarden niet verbergen of verwijderen, maar u kunt wel de naam en de kleur van de voorwaarden wijzigen. Of u kunt nieuwe degenen in plaats daarvan tot stand brengen om te gebruiken, zoals die in [ wordt beschreven creeer of geef een douanevoorwaarde ](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md) uit.
+>* Een gebruiker die is toegewezen aan een taak of uitgave, of die beheermachtigingen heeft, kan de voorwaarde handmatig wijzigen. Voor meer informatie, zie [&#x200B; Voorwaarde van de Update voor taken en kwesties &#x200B;](../../../manage-work/projects/updating-work-in-a-project/update-condition-for-tasks-and-issues.md).
+>* De drie standaardvoorwaarden voor taken en problemen die met Workfront worden geleverd, zijn Vloeiend, Sommige zorgen en Belangrijke wegversperringen. U kunt deze voorwaarden niet verbergen of verwijderen, maar u kunt wel de naam en de kleur van de voorwaarden wijzigen. Of u kunt nieuwe degenen in plaats daarvan tot stand brengen om te gebruiken, zoals die in [&#x200B; wordt beschreven creeer of geef een douanevoorwaarde &#x200B;](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md) uit.
 
-Voor informatie over het vormen van een douanevoorwaarde als standaardvoorwaarde voor projecten, zie [ Plaats een douanetoewijzing als gebrek voor projecten ](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-projects.md).
+Voor informatie over het vormen van een douanevoorwaarde als standaardvoorwaarde voor projecten, zie [&#x200B; Plaats een douanetoewijzing als gebrek voor projecten &#x200B;](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-projects.md).

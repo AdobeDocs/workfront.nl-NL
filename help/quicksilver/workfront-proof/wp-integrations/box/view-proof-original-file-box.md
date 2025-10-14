@@ -18,17 +18,17 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [ het Bewijzen ](../../../review-and-approve-work/proofing/proofing.md).
+>Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [&#x200B; het Bewijzen &#x200B;](../../../review-and-approve-work/proofing/proofing.md).
 
 Als u de [!DNL Workfront Proof] - [!DNL Box] integratie gebruikt, kunt u in Box het oorspronkelijke bestand bekijken dat is gebruikt om een proefdruk te maken. U kunt dit op twee manieren doen:
 
 ## Bestand weergeven in [!DNL Box] via e-mailmelding met bewijs
 
 Wanneer een nieuwe proefdruk of een nieuwe versie wordt gemaakt van een [!DNL Box] -bestand, ontvangen de maker en de controleurs een e-mailbericht met een koppeling naar het bestand in uw [!DNL Box] -account (1).\
-![ Box_-_Email_Notification.png ](assets/box---email-notification-350x154.png)
+![&#x200B; Box_-_Email_Notification.png &#x200B;](assets/box---email-notification-350x154.png)
 
 ## Het bestand in [!DNL Box] weergeven via de [!UICONTROL Proof Details] -pagina
 
 De sectie [!UICONTROL More sharing options] van de pagina [!UICONTROL Proof details] van de proefdruk die u hebt gemaakt van een [!DNL Box] -bestand bevat een koppeling naar het bestand in uw [!DNL Box] -account (1).
 
-![ Box_-_Proof_Details_page.png ](assets/box---proof-details-page-350x93.png)
+![&#x200B; Box_-_Proof_Details_page.png &#x200B;](assets/box---proof-details-page-350x93.png)

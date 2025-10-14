@@ -60,11 +60,11 @@ U moet een [!DNL Apple Cloud] -account hebben om toepassingen op een [!DNL iPad]
 ## Aanmelden bij [!DNL Workfront View]
 
 1. Ga naar de **[!DNL Workfront View]** -app op uw [!DNL iPad] .\
-   ![ werkfront_view_app_Adobe.png ](assets/workfront-view-app-adobe-350x261.png)
+   ![&#x200B; werkfront_view_app_Adobe.png &#x200B;](assets/workfront-view-app-adobe-350x261.png)
 
 1. (Optioneel) Tik op **[!UICONTROL Try the demo]** om een korte demo van de app te maken.\
    In de demo worden voorbeeldprojecten getoond, niet de projecten in uw [!DNL Workfront] -systeem.\
-   ![[!DNL workfront_view_demo].jpg ](assets/workfront-view-demo-350x256.jpg)
+   ![[!DNL workfront_view_demo].jpg &#x200B;](assets/workfront-view-demo-350x256.jpg)
 
 1. Geef de **[!UICONTROL [!DNL Workfront] Username]** op.
 1. Geef de **[!UICONTROL [!DNL Workfront] Password]** op.

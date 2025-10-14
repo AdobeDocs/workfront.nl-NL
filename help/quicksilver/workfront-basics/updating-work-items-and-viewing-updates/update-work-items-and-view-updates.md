@@ -23,13 +23,13 @@ U kunt de sectie Updates van de meeste voorwerpen gebruiken om commentaren en an
 
 Deze sectie bevat de volgende artikelen:
 
-* [ het sectieoverzicht van Updates ](../../workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)
-* [ het werk van de Update ](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)
-* [ de grenzen van het Karakter op gebieden ](../../workfront-basics/updating-work-items-and-viewing-updates/character-limits-in-fields.md)
-* [ Antwoord op updates ](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md)
-* [ Reageren op e-mailberichten ](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-email-notifications.md)
-* [ Tags anderen op updates ](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md)
-* [ Mening alle updates in een rapport van de Nota ](../../workfront-basics/updating-work-items-and-viewing-updates/view-all-updates-in-a-report.md)
+* [&#x200B; het sectieoverzicht van Updates &#x200B;](../../workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)
+* [&#x200B; het werk van de Update &#x200B;](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)
+* [&#x200B; de grenzen van het Karakter op gebieden &#x200B;](../../workfront-basics/updating-work-items-and-viewing-updates/character-limits-in-fields.md)
+* [&#x200B; Antwoord op updates &#x200B;](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md)
+* [&#x200B; Reageren op e-mailberichten &#x200B;](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-email-notifications.md)
+* [&#x200B; Tags anderen op updates &#x200B;](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md)
+* [&#x200B; Mening alle updates in een rapport van de Nota &#x200B;](../../workfront-basics/updating-work-items-and-viewing-updates/view-all-updates-in-a-report.md)
 * [Overzicht van de knop Aan de slag en Gereed](../../workfront-basics/updating-work-items-and-viewing-updates/work-on-it-and-done-buttons-accept-complete-work.md)
 * [Updates samenvatten met AI Assistant](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/summarize-updates-ai-assistant.md)
 
