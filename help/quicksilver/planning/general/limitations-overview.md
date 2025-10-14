@@ -6,7 +6,7 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 2a640cd5-f4a8-4ff3-81b6-32f85f6e4535
-source-git-commit: 7f719c903ad4079470a6dbd046dce445ba227a5b
+source-git-commit: 7d37481fc5b468f6f8ea1fce6ccd7ae064f00251
 workflow-type: tm+mt
 source-wordcount: '441'
 ht-degree: 1%
@@ -14,11 +14,13 @@ ht-degree: 1%
 ---
 
 
+<!--keep the 30 connection limit in yellow till Jan 2026-->
+
 # Overzicht van beperkingen van Adobe Workfront-planningsobjecten
 
 <span class="preview"> de informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet.</span>
 
-<span class="preview"> voor informatie over snelle versies, zie [&#x200B; snelle versies voor uw organisatie &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
+<span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
 
 {{planning-important-intro}}
 
@@ -49,6 +51,10 @@ In de volgende tabel staan de limieten voor het aantal objecten dat u kunt maken
 | <span class="preview"> Aantal formules gebieden voor één verslagtype </span> | <span class="preview"> 20 </span> |
 | <span class="preview"> Aantal karakters in een uitdrukking van het formuleringsgebied </span> | <span class="preview"> 50.000 </span> |
 
+
+<!-- Add this after the formula fields limit above:
+
+| <span class="preview">Number of connection fields for one record type</span> | <span class="preview">30</span> |-->
 
 *Wij adviseren om niet te veel werkruimten te hebben, aangezien zij moeilijk zouden kunnen worden te beheren en uw werkschema&#39;s zouden te gefragmenteerd kunnen zijn.
 

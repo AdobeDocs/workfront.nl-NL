@@ -1,12 +1,12 @@
 ---
 title: Mogelijkheden tussen werkruimten configureren voor recordtypen
-description: U kunt instellen dat een recordtype wordt toegevoegd aan een andere werkruimte of dat het wordt verbonden met een andere werkruimte.
+description: U kunt een recordtype inschakelen om aan een andere werkruimte toe te voegen of om vanuit een andere werkruimte in de Planning van Adobe Workfront te worden verbonden.
 hidefromtoc: true
 hide: true
 exl-id: d36ab9fb-0275-483d-97be-0a88e170f8e0
-source-git-commit: 393f858ba3711b367cf06ad846ea60be0d6d9034
+source-git-commit: 7d37481fc5b468f6f8ea1fce6ccd7ae064f00251
 workflow-type: tm+mt
-source-wordcount: '1230'
+source-wordcount: '1329'
 ht-degree: 0%
 
 ---
@@ -20,43 +20,33 @@ recommendations: noDisplay, noCatalog
 
 -->
 
-<!--*******************REPLACE THE "ADVANCED SETTINGS" SECTION IN THE "EDIT RECORD TYPES" ARTICLE WITH A LINK TO THIS ARTILE INSTEAD AND REMOVE THE STEPS FROM THE "EDIT RECORD TYPES" ARTICLE ON HOW TO ALLOW CROSS-WORKSPACE SETTINGS FOR RECORD TYPES*************-->
+<!--*******************REPLACE THE "ADVANCED SETTINGS" SECTION IN THE "EDIT RECORD TYPES" ARTICLE WITH A LINK TO THIS ARTICLE INSTEAD AND REMOVE THE STEPS FROM THE "EDIT RECORD TYPES" ARTICLE ON HOW TO ALLOW CROSS-WORKSPACE SETTINGS FOR RECORD TYPES*************-->
 
 
 <!--this article is linked to the UI - do not delete or change the URL-->
 
-<!--THIS MIGHT ALREADY BE ADDED TO THE "OVERVIEW" ARTICLE, BUT CHECK: add more info here about permissions, how users gain permissions from the original record type, per Lilit: users who add this to another space gain View permissions on that space when they add records to this added record type - this info is in the UI - this is what she sent in figma:
-
-Hey, Alina, Lusine. As this page contains not only the "global record types" but also cross-workspace connectivity setting, we shouldn't have this message that's highlighting only the global rt features. I think we should have explanation for each setting both in enabled and disabled states. 
-
-So we'd have the "Allow adding this record type to other workspaces" setting in enabled or disabled state, and display an explanation text below it explaining the capability, as well as a link to help articles for more context. I'd like to include the following key points in the message:  
-
-Once enabled, this record type can be added in other workspaces by designated people 
-
-Members of those workspaces can create and manage records in scope of their workspace 
-
-Any records added by other workspace members will be rolled up to this workspace with view access so members of the current workspace can create views for cross-workspace records.  
-
-Then for the second setting for cross-workspace connections, we'll need a similar explanation text would highlight that the other workspaces can create connections and gain view access to the records in this record type, but will not see the record type in their workspace. (not sure what she means by this last bit, asking in figma also)
+<!--THIS MIGHT ALREADY BE ADDED TO THE "OVERVIEW" ARTICLE, BUT CHECK: add more info here about permissions, how users gain permissions from the original record type, per Lilit: users who add this to another space gain View permissions on that space when they add records to this added record type.
 
 -->
 
 # Mogelijkheden tussen werkruimten configureren voor recordtypen
 
+{{planning-important-intro}}
+
 <!--this is linked to the UI in the info icon when you enable a record to be either global or connectable-->
 
 <span class="preview"> de informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>
 
-<span class="preview"> voor informatie over snelle versies, zie [&#x200B; snelle versies voor uw organisatie &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
+<span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
 
-U kunt recordtypen configureren om te werken in meerdere werkruimten.
+U kunt recordtypes vormen om over veelvoudige werkruimten in de Planning van Adobe Workfront te werken.
 
-Hieronder vindt u de mogelijkheden van recordtypen tussen werkruimten:
+U kunt een recordtype aanwijzen als een van de volgende:
 
-* U kunt een recordtype toewijzen als globaal. Gebruikers kunnen algemene recordtypen toevoegen aan andere werkruimten die zij kunnen beheren.
-* U kunt een recordtype aanwijzen als een aanpasbare record. Gebruikers kunnen vanuit andere werkruimten verbinding maken met dit recordtype.
+* **A globaal verslagtype**: de gebruikers kunnen globale verslagtypes aan andere werkruimten toevoegen zij kunnen leiden.
+* **A connectable verslagtype**: de gebruikers kunnen met dit verslagtype van andere werkruimten verbinden.
 
-U moet eerst de mogelijkheden voor de werkruimte van een recordtype definiëren voordat werkruimtemanagers deze kunnen verbinden vanuit of toevoegen aan andere werkruimten.
+U moet eerst de mogelijkheden voor de werkruimte van een recordtype definiëren voordat werkruimtemanagers dit kunnen toevoegen aan of verbinden vanuit andere werkruimten.
 
 U definieert de mogelijkheden voor de werkruimte van een recordtype wanneer u een recordtype maakt of bewerkt.
 
@@ -85,29 +75,28 @@ Zie een van de volgende artikelen voor meer informatie:
 <ul><li><p>Willekeurig Workfront-pakket</p></li>
 <p>en</p>
 <li><p>Willekeurig planningspakket om verbindingbare recordtypen te maken</p></li>
-<li><p>Planning Plus-pakket maken om globale recordtypen te maken</p></li>
+<li><p>Een Plannings plus pakket om globale verslagtypes tot stand te brengen</p></li>
 </ul>
-<!--Or:
-<ul><li><p>Any Workflow package</p> </li>
-And
-<li><p>Planning Prime or Ultimate package</p></li></ul>-->
+Of:
+<ul><li><p>Een Workflow Prime- of Ultimate-pakket</p> </li>
+en
+<li><p>Een planningpakket voor Prime of Ultimate</p></li></ul>
 <p>Neem contact op met uw Workfront-accountmanager voor meer informatie over wat er in elk Workfront-planningspakket wordt opgenomen. </p> 
-   </td>
-
-<tr> 
+   </td> 
+  <tr> 
    <td role="rowheader"><p>Adobe Workfront-licentie</p></td> 
    <td><p>Standard</p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Objectmachtigingen</p></td> 
-   <td>   <p>Rechten beheren in een werkruimte </a> </p>  
+   <td>   <p>Rechten beheren in een werkruimte en op het recordtype </a> </p>  
    <p>Systeembeheerders hebben machtigingen voor alle werkruimten, inclusief de werkruimten die ze niet hebben gemaakt</p>  </td> 
   </tr>  
 </tbody> 
 </table>
 
-Voor meer informatie over de toegangsvereisten van Workfront, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer informatie over de toegangsvereisten van Workfront, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++   
 
@@ -117,11 +106,11 @@ Voor meer informatie over de toegangsvereisten van Workfront, zie [&#x200B; vere
 
 Als werkruimtemanager, kunt u een verslagtype vormen om een globaal verslagtype te zijn. Een algemeen recordtype kan aan andere werkruimten worden toegevoegd.
 
-Een werkruimtemanager kan een globaal recordtype toevoegen aan een werkruimte die zij beheren. De oorspronkelijke velden van het recordtype worden ook toegevoegd.
+Een werkruimtemanager kan een globaal recordtype toevoegen aan een werkruimte die zij beheren. De oorspronkelijke velden van het recordtype worden ook toegevoegd aan de secundaire werkruimte.
 
-Gebruikers kunnen records toevoegen aan een algemeen recordtype vanuit elke werkruimte die ze met Contribute-machtigingen hebben en waarin het algemene recordtype is toegevoegd, inclusief de oorspronkelijke werkruimte. Zij kunnen verslagen van werkruimte bekijken zij slechts toestemmingen van de Mening hebben aan.
+Gebruikers kunnen records toevoegen aan een algemeen recordtype vanuit elke werkruimte waarin zij Contribute-machtigingen hebben en waarin het algemene recordtype is toegevoegd, inclusief de oorspronkelijke werkruimte. Zij kunnen verslagen van werkruimten bekijken zij slechts toestemmingen van de Mening hebben aan.
 
-Voor meer informatie, zie [&#x200B; overzicht van de types van het werkruimterecord over de werkruimte &#x200B;](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md).
+Voor meer informatie, zie [ overzicht van de types van het werkruimterecord over de werkruimte ](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md).
 
 Om een verslagtype als globaal te vormen:
 
@@ -132,11 +121,11 @@ Om een verslagtype als globaal te vormen:
    De werkruimtepagina wordt geopend en de recordtypen worden weergegeven.
 1. Voer een van de volgende handelingen uit:
 
-   * Beweeg over de kaart van een verslagtype en klik **Meer** menu ![&#x200B; Meer menu &#x200B;](assets/more-menu.png) in de hoger-juiste hoek van de kaart van het verslagtype
+   * Beweeg over de kaart van een verslagtype en klik **Meer** menu ![ Meer menu ](assets/more-menu.png) in de hoger-juiste hoek van de kaart van het verslagtype
 
-     ![&#x200B; Meer menuopties van verslagtype kaart &#x200B;](assets/more-menu-options-from-record-type-card.png)
+     ![ Meer menuopties van verslagtype kaart ](assets/more-menu-options-from-record-type-card.png)
 
-   * Klik een kaart van het verslagtype om de verslagtype pagina te openen, dan klik **Meer** menu ![&#x200B; Meer menu &#x200B;](assets/more-menu.png) rechts van de naam van het verslagtype.
+   * Klik een kaart van het verslagtype om de verslagtype pagina te openen, dan klik **Meer** menu ![ Meer menu ](assets/more-menu.png) rechts van de naam van het verslagtype.
 1. Klik **uitgeven** of **Montages**.
 
    >[!TIP]
@@ -145,10 +134,10 @@ Om een verslagtype als globaal te vormen:
 
 1. (Voorwaardelijk) als u **klikte geef** uit, in **geef verslagtype** doos uit, klik de **montages van de dwars-werkruimte** tabel
 
-   Of, als u **Montages** klikte, ga naar de **sectie van de montages van de dwars-werkruimte** in het linkerpaneel.
+   Of, als u **Montages** klikte, klik de **sectie van de montages van de dwars-werkruimte** in het linkerpaneel.
 1. Laat **toe toestaan toevoegend dit verslagtype aan andere werkruimten** plaatsen.
 
-   ![&#x200B; geef verslagtype uit dwars-werkruimte montages met toevoegen aan andere toegelaten werkruimten &#x200B;](assets/edit-record-type-advanced-settings-add-to-other-workspaces-enabled.png)
+   ![ geef verslagtype uit dwars-werkruimte montages met toevoegen aan andere toegelaten werkruimten ](assets/edit-record-type-advanced-settings-add-to-other-workspaces-enabled.png)
 
    >[!TIP]
    >
@@ -158,7 +147,7 @@ Om een verslagtype als globaal te vormen:
 
    Uw naam wordt automatisch toegevoegd aan het veld.
 
-   U kunt individuele gebruikers, of groepen, teams, baanrollen, of bedrijven toevoegen de waarvan gebruikers u wilt toestaan om dit verslagtype aan de werkruimten toe te voegen zij leiden.
+   U kunt individuele gebruikers, groepen, teams, baanrollen, of bedrijven toevoegen de waarvan gebruikers u wilt toestaan om dit verslagtype aan de werkruimten toe te voegen die zij beheren.
 
    U kunt dit veld bewerken nadat u het recordtype hebt opgeslagen.
 
@@ -167,7 +156,6 @@ Om een verslagtype als globaal te vormen:
    >[!TIP]
    >
    >U moet minstens één entiteit (gebruiker, team, groep, rol, of bedrijf) aanwijzen om deze het plaatsen kunnen toelaten.
-
 
 1. (Voorwaardelijk) klik **sparen** in **geef verslagtype** doos uit, of klik de achterpijl links van **Montages** in de paginakop om uw veranderingen te bewaren.
 
@@ -179,7 +167,7 @@ Om een verslagtype als globaal te vormen:
    >
    >U kunt de weergave en de instellingen van het recordtype en de oorspronkelijke velden alleen vanuit de oorspronkelijke werkruimte bewerken.
 
-   * De kaart van het verslagtype toont een globaal pictogram ![&#x200B; Globaal verslagtype pictogram &#x200B;](assets/global-icon.png) om erop te wijzen dat het verslagtype beschikbaar is om aan andere werkruimten worden toegevoegd.
+   * De kaart van het verslagtype toont a **globaal verslagtype** pictogram ![ Globaal verslagtype pictogram ](assets/global-icon.png) om erop te wijzen dat het verslagtype beschikbaar is om aan andere werkruimten worden toegevoegd.
    * Een systeem-geproduceerd **Workspace** gebied wordt toegevoegd aan de lijstmening van het verslagtype en zijn verslagen&#39; details.
 
      In het Workspace-veld wordt de werkruimte weergegeven van waaruit elke record is gemaakt.
@@ -187,7 +175,14 @@ Om een verslagtype als globaal te vormen:
      Dit veld is alleen-lezen en kan niet worden verwijderd.
 1. (Optioneel) Ga naar een andere werkruimte en maak een recordtype met een bestaand recordtype. Selecteer het recordtype dat u in de bovenstaande stappen hebt ingeschakeld.
 
-   Voor informatie, zie [&#x200B; bestaande verslagtypes van een andere werkruimte &#x200B;](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md) toevoegen.
+   Voor informatie, zie [ bestaande verslagtypes van een andere werkruimte ](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md) toevoegen.
+
+   Het verslagtype dat van een globaal verslagtype in de secundaire werkruimte wordt toegevoegd toont ook het a **globale verslagtype** pictogram ![ Globaal verslagtype pictogram ](assets/global-icon.png).
+1. (Optioneel) Ga terug naar de oorspronkelijke werkruimte waar u het algemene recordtype hebt gemaakt en bewerk het recordtype door de stappen 1-4 hierboven uit te voeren <!--ensure this stays accurate-->
+1. (Facultatief) herzie de lijst van werkruimten waar het globale verslag in de **Werkruimten is toegevoegd waar dit verslagtype sectie** wordt gebruikt.
+
+   ![ Werkruimten waar dit verslagtype wordt gebruikt ](assets/workspaces-where-this-record-type-is-used.png)
+
 
 ## Verbindbare recordtypen configureren
 
@@ -204,38 +199,41 @@ Om een verslagtype als verbindingsbaar te vormen:
    De werkruimtepagina wordt geopend en de recordtypen worden weergegeven.
 1. Voer een van de volgende handelingen uit:
 
-   * Beweeg over de kaart van een verslagtype en klik **Meer** menu ![&#x200B; Meer menu &#x200B;](assets/more-menu.png) in de hoger-juiste hoek van de kaart van het verslagtype
+   * Beweeg over de kaart van een verslagtype en klik **Meer** menu ![ Meer menu ](assets/more-menu.png) in de hoger-juiste hoek van de kaart van het verslagtype
 
-     ![&#x200B; Meer menuopties van verslagtype kaart &#x200B;](assets/more-menu-options-from-record-type-card.png)
+     ![ Meer menuopties van verslagtype kaart ](assets/more-menu-options-from-record-type-card.png)
 
-   * Klik een kaart van het verslagtype om de verslagtype pagina te openen, dan klik **Meer** menu ![&#x200B; Meer menu &#x200B;](assets/more-menu.png) rechts van de naam van het verslagtype.
+   * Klik een kaart van het verslagtype om de verslagtype pagina te openen, dan klik **Meer** menu ![ Meer menu ](assets/more-menu.png) rechts van de naam van het verslagtype.
 1. Klik **uitgeven** of **Montages**.
 
 1. (Voorwaardelijk) als u **klikte geef** uit, in **geef verslagtype** doos uit, klik de **montages van de dwars-werkruimte** tabel
 
-   Of, als u **Montages** klikte, ga naar de **sectie van de montages van de dwars-werkruimte** in het linkerpaneel.
+   Of, als u **Montages** klikte, klik de **sectie van de montages van de dwars-werkruimte** in het linkerpaneel.
 
 1. Laat **toe toestaan verbindend met dit verslagtype in andere werkruimten** plaatsen. <!-- check the setting name, I sent this to Lilit to say FROM instead of IN-->
 
-   ![&#x200B; geef verslagtype uit dwars-werkruimtemontages tabel met verbinden van andere toegelaten werkruimten &#x200B;](assets/edit-record-type-advanced-settings-connect-from-other-workspaces-enabled.png)
+   <!-- add new screen shot with new tab name-->
+
+   ![ geef verslagtype uit dwars-werkruimtemontages tabel met verbinden van andere toegelaten werkruimten ](assets/edit-record-type-advanced-settings-connect-from-other-workspaces-enabled.png)
 
    Als deze optie is ingeschakeld, is het recordtype toegankelijk en kan het via andere werkruimten worden verbonden.
 
 1. Kies van welke werkruimten het recordtype kan worden betreden. Kies een van de volgende opties:
 
-   * **Systeem wijd**: De gebruikers kunnen met dit verslagtype van alle werkruimten verbinden waar zij beheertoestemmingen hebben.
-   * **Specifieke werkruimten**: Voeg de namen van de werkruimten toe waar de werkruimtemanagers met dit verslagtype kunnen verbinden.
+   <!--check names of the setting: System wide?? OR All workspaces??-->
+
+   * **Alle werkruimten**: De gebruikers kunnen met dit verslagtype van alle werkruimten verbinden waar zij beheertoestemmingen hebben.
+   * **Specifieke werkruimten**: Van het drop-down menu, voeg de namen van de werkruimten toe waar de werkruimtemanagers met dit verslagtype kunnen verbinden.
 1. (Voorwaardelijk) klik **sparen** in **geef verslagtype** doos uit, of klik de achterpijl links van **Montages** in de paginakop om uw veranderingen te bewaren.
 
    De volgende dingen doen zich voor:
 
    * Het recordtype en de bijbehorende velden zijn nu beschikbaar om verbinding te maken met de werkruimten die u hebt toegewezen.
-   * De kaart van het verslagtype toont een pictogram van de dwars-werkruimteverbinding ![&#x200B; het verbindingspictogram van de werkruimteverbinding &#x200B;](assets/connect-from-other-workspaces-icon.png) om erop te wijzen dat het verslagtype beschikbaar is om met van om het even welke werkruimte te worden verbonden u in uw configuratie hebt aangewezen.
+   * De kaart van het verslagtype toont een verbindbaar verslagtype pictogram ![ Verbonden verslagtype pictogram ](assets/connect-from-other-workspaces-icon.png) om erop te wijzen dat het verslagtype beschikbaar is om aan van om het even welke werkruimte te worden verbonden u in uw configuratie hebt aangewezen.
 
-   Het recordtype wordt beschikbaar voor verbinding met de opgegeven werkruimten.
 1. (Optioneel) Ga naar een andere werkruimte en voeg een verbinding toe aan het recordtype dat u in de bovenstaande stappen hebt ingeschakeld voor verbindingsbaarheid tussen werkruimten.
 
-   Voor informatie, zie [&#x200B; verbind verslagtypes &#x200B;](/help/quicksilver/planning/architecture/connect-record-types.md).
+   Voor informatie, zie [ verbind verslagtypes ](/help/quicksilver/planning/architecture/connect-record-types.md).
 
 
 
