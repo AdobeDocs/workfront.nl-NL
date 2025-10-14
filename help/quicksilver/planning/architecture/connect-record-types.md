@@ -242,7 +242,7 @@ Voor een voorbeeld van het verbinden van verslagtypes en verslagen, zie [&#x200B
 
    >[!NOTE]
    >
-   >Uw Workfront-beheerder kan Workfront-planningsvelden toewijzen aan Experience Manager Assets-velden via de metagegevenstoewijzing in Workfront. Voor meer informatie, zie [&#x200B; activa meta-gegevensafbeelding tussen Adobe Workfront en Experience Manager Assets &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping) vormen.
+   >Uw Workfront-beheerder kan Workfront-planningsvelden toewijzen aan Experience Manager Assets-velden via de metagegevenstoewijzing in Workfront. Voor meer informatie, zie [&#x200B; activa meta-gegevensafbeelding tussen Adobe Workfront en Experience Manager Assets &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping) vormen.
 
 
 1. (Voorwaardelijk) wanneer u om met Experience Manager Assets of met een het verslagtype van de Planning van Workfront selecteert te verbinden, kies één van de volgende opties in het **vormgeving van het Verslag** gebied:
