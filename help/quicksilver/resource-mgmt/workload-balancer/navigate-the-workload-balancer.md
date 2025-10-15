@@ -23,7 +23,7 @@ Gebruik de werklastbalans in Adobe Workfront om werk toe te wijzen aan gebruiker
 
 De werklastbalans is beschikbaar in meerdere gebieden van Adobe Workfront. Navigeren is vergelijkbaar in alle gebieden.
 
-Voor meer informatie over waar de Balancer van de Werklast wordt gevestigd, zie [&#x200B; plaats van de Balancer van de Werkbelasting &#x200B;](https://experienceleague.adobe.com/en/docs/workfront/using/manage-resources/the-workload-balancer/locate-workload-balancer).
+Voor meer informatie over waar de Balancer van de Werklast wordt gevestigd, zie [&#x200B; plaats van de Balancer van de Werkbelasting &#x200B;](https://experienceleague.adobe.com/nl/docs/workfront/using/manage-resources/the-workload-balancer/locate-workload-balancer).
 
 ## Toegangsvereisten
 
@@ -105,8 +105,8 @@ Zie ook de volgende artikelen voor meer informatie over het weergeven van inform
 
 Zie ook de volgende artikelen voor informatie over het beheer van bronnen met behulp van Workload Balancer:
 
-* [&#x200B; Overzicht van het toewijzen van het werk in de Balancer van de Werkbelasting &#x200B;](https://experienceleague.adobe.com/en/docs/workfront/using/manage-resources/the-workload-balancer/assign-work-in-workload-balancer)
-* [&#x200B; beheer gebruikerstoewijzingen in de Balancer van de Werklast &#x200B;](https://experienceleague.adobe.com/en/docs/workfront/using/manage-resources/the-workload-balancer/manage-user-allocations-workload-balancer)
+* [&#x200B; Overzicht van het toewijzen van het werk in de Balancer van de Werkbelasting &#x200B;](https://experienceleague.adobe.com/nl/docs/workfront/using/manage-resources/the-workload-balancer/assign-work-in-workload-balancer)
+* [&#x200B; beheer gebruikerstoewijzingen in de Balancer van de Werklast &#x200B;](https://experienceleague.adobe.com/nl/docs/workfront/using/manage-resources/the-workload-balancer/manage-user-allocations-workload-balancer)
 
 
 ## Navigeer de Balancer van de Werkbelasting voor veelvoudige projecten in het gebied van de Middelen

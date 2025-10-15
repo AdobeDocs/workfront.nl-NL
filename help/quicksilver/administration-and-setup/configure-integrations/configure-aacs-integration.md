@@ -122,7 +122,7 @@ Voordat u metagegevensvelden gaat toewijzen, moet u metagegevensvelden zowel in 
 
 U kunt als volgt metagegevensvelden configureren:
 
-1. Vorm een meta-gegevensschema in [!DNL Experience Manager Assets] zoals die in [&#x200B; wordt verklaard vormt activa meta-gegevensafbeelding tussen Adobe  [!DNL Workfront]  en  [!DNL Experience Manager Assets] &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
+1. Vorm een meta-gegevensschema in [!DNL Experience Manager Assets] zoals die in [&#x200B; wordt verklaard vormt activa meta-gegevensafbeelding tussen Adobe  [!DNL Workfront]  en  [!DNL Experience Manager Assets] &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
 
 
 1. Aangepaste formuliervelden configureren in Workfront. [!DNL Workfront] bevat veel ingebouwde aangepaste velden die u kunt gebruiken. Nochtans, kunt u uw eigen douanegebieden ook tot stand brengen zoals die in [&#x200B; worden verklaard creeer een douanevorm &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
@@ -152,7 +152,7 @@ U kunt elk door Workfront ondersteund veld toewijzen aan een tag in Experience M
 
 Nadat u de tags in Experience Manager Assets hebt gemaakt, worden deze weergegeven onder de vervolgkeuzelijst Codes in de sectie Metagegevens. Als u een veld aan een tag wilt koppelen, selecteert u `xcm:keywords` in het vervolgkeuzemenu Experience Manager Assets-veld in het gebied voor metagegevenstoewijzing.
 
-Voor meer informatie over markeringen in Experience Manager Assets, met inbegrip van hoe te om markeringen tot stand te brengen en te beheren, zie [&#x200B; het Beheer Markeringen &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-64/administering/contentmanagement/tags).
+Voor meer informatie over markeringen in Experience Manager Assets, met inbegrip van hoe te om markeringen tot stand te brengen en te beheren, zie [&#x200B; het Beheer Markeringen &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-64/administering/contentmanagement/tags).
 
 **de gebieden van het de douaneschema-meta-gegevens van Experience Manager Assets**
 

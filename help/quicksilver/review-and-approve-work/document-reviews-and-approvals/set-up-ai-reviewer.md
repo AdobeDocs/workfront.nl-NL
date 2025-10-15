@@ -57,7 +57,7 @@ Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van d
 
 Voordat u begint, moet u richtlijnen voor het maken van afbeeldingsmerken in GenStudio Foundation instellen.
 
-Meer over de richtlijnen van het beeldmerk leren, zie [&#x200B; begonnen worden met Adobe GenStudio for Performance Marketing &#x200B;](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started).
+Meer over de richtlijnen van het beeldmerk leren, zie [&#x200B; begonnen worden met Adobe GenStudio for Performance Marketing &#x200B;](https://experienceleague.adobe.com/nl/docs/genstudio-for-performance-marketing/user-guide/get-started).
 
 ## Een AI-revisor toevoegen
 

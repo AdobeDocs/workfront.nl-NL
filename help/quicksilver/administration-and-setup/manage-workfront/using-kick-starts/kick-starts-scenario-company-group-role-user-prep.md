@@ -303,4 +303,4 @@ In de volgende tabellen worden de te importeren gebruikers en diverse gebruikers
 > 
 >Als uw organisatie naar de Adobe Admin Console is gemigreerd en een gebruiker binnen een paar minuten niet de status gedeactiveerd en In afwachting van goedkeuring verlaat, kunt u de batch gebruikers rechtstreeks aan de Adobe Admin Console toevoegen.
 >
->Voor instructies, zie [&#x200B; veelvoudige gebruikers beheren | Bulk CSV upload &#x200B;](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html) in de documentatie van Adobe.
+>Voor instructies, zie [&#x200B; veelvoudige gebruikers beheren | Bulk CSV upload &#x200B;](https://helpx.adobe.com/nl/enterprise/using/bulk-upload-users.html) in de documentatie van Adobe.

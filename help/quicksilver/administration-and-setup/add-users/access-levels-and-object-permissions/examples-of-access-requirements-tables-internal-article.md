@@ -420,10 +420,10 @@ Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van W
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in documentatie &#x200B;](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/licenses-and-roles/access-level-requirements-in-documentation).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in documentatie &#x200B;](https://experienceleague.adobe.com/nl/docs/workfront-fusion/using/references/licenses-and-roles/access-level-requirements-in-documentation).
 
 
-Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [&#x200B; de Fusie van Adobe Workfront vergunningen &#x200B;](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration).
+Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [&#x200B; de Fusie van Adobe Workfront vergunningen &#x200B;](https://experienceleague.adobe.com/nl/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration).
 
 ## Geavanceerde bedrijfsbesturingselementen
 
@@ -438,7 +438,7 @@ Een artikel over groepsbeheerders vermeldt het pakket dat de klant moet hebben o
 * Workflow Prime en hoger
 * Workfront Prime en hoger
 
-Zie [&#x200B; Adobe Workfront tarifering en het verpakken pagina &#x200B;](https://business.adobe.com/products/workfront/pricing.html) voor meer informatie over pakketten.
+Zie [&#x200B; Adobe Workfront tarifering en het verpakken pagina &#x200B;](https://business.adobe.com/nl/products/workfront/pricing.html) voor meer informatie over pakketten.
 
 Geavanceerde bedrijfsbesturingselementen:
 
@@ -483,9 +483,9 @@ Geavanceerde bedrijfsbesturingselementen:
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in documentatie &#x200B;](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/licenses-and-roles/access-level-requirements-in-documentation).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in documentatie &#x200B;](https://experienceleague.adobe.com/nl/docs/workfront-fusion/using/references/licenses-and-roles/access-level-requirements-in-documentation).
 
-Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [&#x200B; de Fusie van Adobe Workfront vergunningen &#x200B;](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration).
+Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [&#x200B; de Fusie van Adobe Workfront vergunningen &#x200B;](https://experienceleague.adobe.com/nl/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration).
 <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 

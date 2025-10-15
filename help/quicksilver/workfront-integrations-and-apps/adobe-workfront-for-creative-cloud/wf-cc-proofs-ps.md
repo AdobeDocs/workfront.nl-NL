@@ -19,7 +19,7 @@ U kunt bepaalde typen voorinstellingen voor Photoshop-documenten rechtstreeks up
 
 >[!IMPORTANT]
 >
->Het dossier moet een Vooraf ingesteld Vooraf ingesteld van het Document van de Foto zijn zoals die in [&#x200B; wordt beschreven Malplaatjes en stelt in Photoshop &#x200B;](https://helpx.adobe.com/photoshop/using/create-documents.html) vooraf in.
+>Het dossier moet een Vooraf ingesteld Vooraf ingesteld van het Document van de Foto zijn zoals die in [&#x200B; wordt beschreven Malplaatjes en stelt in Photoshop &#x200B;](https://helpx.adobe.com/nl/photoshop/using/create-documents.html) vooraf in.
 
 
 
