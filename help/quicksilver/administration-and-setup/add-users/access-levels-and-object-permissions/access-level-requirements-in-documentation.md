@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 39ea0d53-ec31-4644-b772-cfe260b8e013
-source-git-commit: cb38223c4dd8048fd2ab105abce2c9a79b84c43f
+source-git-commit: 469242118429fa37835766737b88d35d2baefb69
 workflow-type: tm+mt
-source-wordcount: '942'
+source-wordcount: '1048'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Workfront-documentatie bevat een tabel met uitleg over de vereisten voor toegang
 
 Als een rij van de lijst van de Vereisten van de Toegang in een bepaald artikel afwezig is, zijn er geen vereisten van dat type voor die actie.
 
-Sommige rijen bevatten informatie met de labels &quot;Nieuw&quot; en &quot;Huidig&quot;. Dit komt omdat Workfront overschakelt naar een nieuw prijsstellings- en verpakkingsmodel, waarbij sommige organisaties onder het nieuwe model opereren en andere nog steeds het huidige model gebruiken. Neem contact op met uw Workfront-beheerder om te weten welk model uw organisatie gebruikt. U kunt details en verbindingen aan informatie in [&#x200B; vinden de sectie van de Vereisten van de Toegang &#x200B;](#the-access-requirements-table) van dit artikel.
+Sommige rijen bevatten informatie met de labels &quot;Nieuw&quot; en &quot;Huidig&quot;. Dit komt omdat Workfront overschakelt naar een nieuw prijsstellings- en verpakkingsmodel, waarbij sommige organisaties onder het nieuwe model opereren en andere nog steeds het huidige model gebruiken. Neem contact op met uw Workfront-beheerder om te weten welk model uw organisatie gebruikt. U kunt details en verbindingen aan informatie in [ vinden de sectie van de Vereisten van de Toegang ](#the-access-requirements-table) van dit artikel.
 
 >[!NOTE]
 >
@@ -35,45 +35,46 @@ Sommige rijen bevatten informatie met de labels &quot;Nieuw&quot; en &quot;Huidi
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan</td> 
-   <td> Adobe Workfront-plannen verwijzen naar de functies die uw organisatie heeft aangeschaft. De meeste Workfront-functionaliteit is beschikbaar in alle plannen, met een paar uitzonderingen, meestal in verband met strategische planning en bedrijfscontroles. 
-   <ul><li>Neem contact op met uw Workfront-beheerder om te weten welk Adobe Workfront-plan uw organisatie gebruikt, inclusief of uw organisatie zich onder het nieuwe of huidige pakketmodel bevindt.</li>
-   <li>Voor instructies op hoe een beheerder van Workfront van het plan van Workfront van uw organisatie kan de plaats bepalen, zie <a href="/help/quicksilver/administration-and-setup/get-started-wf-administration/firewall-overview.md#view-your-organizations-cluster-and-workfront-plan" class="MCXref xref"> de cluster van uw organisatie en het plan van Workfront van bekijken </a>.</li><li>Voor meer informatie over de nieuwe plannen van Workfront, zie <a href="https://business.adobe.com/nl/products/workfront/pricing.html"> Adobe Workfront tarifering en verpakking </a>.</li></ul> </td> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
+   <td> Adobe Workfront-pakketten verwijzen naar de reeks functies die uw organisatie heeft aangeschaft. De meeste Workfront-functionaliteit is beschikbaar in alle pakketten, met een paar uitzonderingen, meestal in verband met strategische planning en bedrijfscontroles. <p>Pakketten die vóór 2022 bestonden, worden niet vermeld.</p>
+   <p>Workfront-pakketten zijn verdeeld in drie gebieden. Elk gebied bevat verschillende pakketten, zoals Selecteren, Prime en Ultimate.<p>
+   <ul>
+   <li><b> het Werkschema van Workfront </b>: Omvat functionaliteit met betrekking tot verrichtingen, zoals taakbeheer, goedkeuringen, en timesheets.</li>
+   <li><b> Planning van Workfront </b>: Omvat functionaliteit met betrekking tot strategische planning.</li>
+   <li><b> de Automatisering en Integratie van Workfront </b>: Omvat functionaliteit met betrekking tot het automatiseren van processen en het integreren met andere toepassingen.</li>
+   </ul>
+  <p>Uw organisatie heeft mogelijk een Workfront-pakket in een of meer van deze gebieden aangeschaft.</p>
+  <p>Eerder bood Workfront Workfront Select-, Workfront Prime- en Workfront Ultimate-pakketten aan zonder onderscheid te maken tussen Workflow, planning en automatisering en integratie. Uw organisatie kan op één van deze erfenispakketten zijn. 
+   <ul><li>Neem contact op met uw Workfront-beheerder om te weten welk Adobe Workfront-pakket uw organisatie gebruikt, inclusief of uw organisatie zich onder het huidige of oudere pakketmodel bevindt.</li>
+   <li>Voor instructies op hoe een beheerder van Workfront van het pakket van Workfront van uw organisatie kan de plaats bepalen, zie <a href="/help/quicksilver/administration-and-setup/get-started-wf-administration/firewall-overview.md#view-your-organizations-cluster-and-workfront-package" class="MCXref xref"> de cluster van uw organisatie en het pakket van Workfront van de Mening </a>.</li><li>Voor meer informatie over de pakketten van Workfront, zie <a href="https://business.adobe.com/products/workfront/pricing.html"> Adobe Workfront tarifering en verpakking </a>.</li></ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie</td> 
    <td> Adobe Workfront-licenties verwijzen naar de set Workfront-functies die deel uitmaken van de licentie die aan u is toegewezen. Bijvoorbeeld, zou één gebruiker een vergunning kunnen hebben die het merken van het werkpunten volledige en registrerentijd omvat, terwijl een andere gebruiker een vergunning heeft die hen toestaat om activa slechts goed te keuren of verzoeken voor te leggen. <p> 
    <ul>
    <li>Neem contact op met uw Workfront-beheerder om te weten te komen welke licentie u hebt toegewezen.</li>
-   <li>Adobe Workfront gaat over naar een nieuw prijs- en verpakkingsmodel. Voor informatie over licenties raadpleegt u:
+   <li>Voor informatie over licenties raadpleegt u:
    <ul>
-   <li>Nieuw: <a href="/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md" class="MCXref xref"> Nieuw vergunningsoverzicht </a></li>
-   <li>Huidig: <a href="/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref"> Overzicht van Vergunningen </a></li></ul></li>
-   <li>Als u het juiste toegangsniveau hebt en nog steeds geen toegang hebt, vraag dan aan uw Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="/help/quicksilver/administration-and-setup/get-started-wf-administration/firewall-overview.md#view-your-organizations-cluster-and-workfront-plan" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.
+   <li><a href="/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md" class="MCXref xref">Overzicht van nieuwe licenties</a></li>
+   <li><a href="/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Overzicht van licenties</a></li></ul></li>
+   <li>Als u het juiste toegangsniveau hebt en nog steeds geen toegang hebt, vraag dan aan uw Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="/help/quicksilver/administration-and-setup/get-started-wf-administration/firewall-overview.md#view-your-organizations-cluster-and-workfront-package" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.
    </ul>
       </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Workfront biedt een aantal producten die naast Workfront kunnen worden aangeschaft.
-   <p>Artikelen die procedures beschrijven die binnen deze aanvullende producten worden uitgevoerd, vermelden hier het vereiste product.</p>
-   <ul>
-   <li>Adobe Experience Manager Assets of Assets Essentials </li>
-   <li>Workfront Fusion</li>
-   <li>Workfront-doelen</li>
-   <li>Workfront Scenario Planner</li>
-   <li>Workfront Planning</li>
-   </ul>
+   <td><p>Omdat Workfront nauw samenwerkt met andere Adobe-producten, werken sommige procedures in Workfront rechtstreeks met die producten samen. Uw organisatie moet dat product hebben aangeschaft om deze procedures te kunnen volgen. Als u bijvoorbeeld functionaliteit wilt gebruiken waarmee Workfront kan communiceren met Adobe Exerience Manager Assets, moet uw organisatie Adobe Experience Manager Assets hebben aangeschaft.</p>
+   <p>Artikelen die procedures beschrijven die met extra producten worden uitgevoerd, vermelden het vereiste product in de productregel van deze tabel.</p>
    <p>Neem contact op met uw Workfront-beheerder als u wilt weten of uw organisatie een van deze extra producten heeft aangeschaft.</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Toegangsniveau</td> 
    <td> Toegangsniveaus zijn sets machtigingen voor handelingen die u kunt uitvoeren in Workfront, ingesteld door uw Workfront-beheerder. <p>Workfront heeft ingebouwde toegangsniveaus die aan de vergunningen van Workfront beantwoorden, maar uw beheerder van Workfront kan tot meer toegangsniveaus leiden om toestemmingsreeksen nauwkeuriger te weerspiegelen nodig in uw organisatie.</p>
    <ul>
-    <li>Adobe Workfront gaat over naar een nieuw prijs- en verpakkingsmodel. Voor informatie over toegangsniveaus voor elk model zie:
+    <li>Voor informatie over toegangsniveaus, zie:
    <ul>
-   <li>Nieuw: <a href="/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md" class="MCXref xref"> Nieuw overzicht van toegangsniveaus </a></li>
-   <li>Huidig: <a href="/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md" class="MCXref xref"> overzicht van de Niveaus van de Toegang </a></li></ul></li>
+   <li><a href="/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md" class="MCXref xref">Overzicht van nieuwe toegangsniveaus</a></li>
+   <li><a href="/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md" class="MCXref xref">Overzicht van toegangsniveaus</a></li></ul></li>
     <li>Neem contact op met uw Workfront-beheerder voor meer informatie over uw toegangsniveau</li>
     <li>Als u een beheerder van Workfront bent, zie <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/configure-access.md" class="MCXref xref"> toegang tot Adobe Workfront </a> vormen om meer over het verlenen van toegang tot specifieke voorwerpen in het toegangsniveau te leren.</li>  
    <li>Als u het juiste toegangsniveau hebt en nog steeds geen toegang hebt, vraag dan aan uw Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</li>
@@ -93,10 +94,10 @@ Sommige rijen bevatten informatie met de labels &quot;Nieuw&quot; en &quot;Huidi
   <tr> 
    <td role="rowheader">Adobe Workfront Fusion-licentie</td> 
    <td>Adobe Workfront Fusion heeft een apart licentiemodel dan Workfront. 
-   <ul><li>Huidig: Het huidige licentiemodel is gebaseerd op het aantal uitgevoerde bewerkingen en heeft geen beperkingen ten aanzien van de acties die een organisatie kan uitvoeren. </li>
-   <li>Verouderd: oudere licenties zijn gebaseerd op de vraag of scenario's verbinding kunnen maken met toepassingen van derden of dat de scenario's alleen worden gebruikt voor Workfront-automatisering. </li>
+   <ul><li>Het huidige licentiemodel is gebaseerd op het aantal uitgevoerde bewerkingen en heeft geen beperkingen op de acties die een organisatie kan uitvoeren. </li>
+   <li>Verouderde licenties zijn gebaseerd op de vraag of scenario's verbinding kunnen maken met toepassingen van derden of dat de scenario's alleen voor Workfront-automatisering worden gebruikt. </li>
    </ul>
-   Voor informatie over het verlenen van vergunningen van de Fusie, zie <a href="https://experienceleague.adobe.com/nl/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration" class="MCXref xref"> de vergunningen van de Fusie van Workfront </a>.
+   Voor informatie over het verlenen van vergunningen van de Fusie, zie <a href="https://experienceleague.adobe.com/en/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration" class="MCXref xref"> de vergunningen van de Fusie van Workfront </a>.
    </td> 
   </tr> 
  </tbody> 
