@@ -20,7 +20,7 @@ ht-degree: 0%
 >
 >Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [&#x200B; het Bewijzen &#x200B;](../../../review-and-approve-work/proofing/proofing.md).
 
-Voor het gebruik van deze functie is een abonnement op Selecteren of Premium vereist. Voor meer informatie over de diverse beschikbare plannen, zie [[!DNL Workfront]  Plannen &#x200B;](https://business.adobe.com/products/workfront/pricing.html).
+Voor het gebruik van deze functie is een abonnement op Selecteren of Premium vereist. Voor meer informatie over de diverse beschikbare plannen, zie [[!DNL Workfront]  Plannen &#x200B;](https://business.adobe.com/nl/products/workfront/pricing.html).
 
 U kunt groepen gebruikers maken die u als controleurs op meerdere proefdrukken kunt toevoegen. Dit is handig als u inhoud regelmatig naar dezelfde gebruikers verzendt.
 

@@ -54,5 +54,5 @@ Met de Workfront for Experience Manager verbeterde connector kunt u nu:
 
 ## Meer als dit
 
-* Overzicht van [&#x200B; Workfront voor Adobe Experience Manager &#x200B;](https://business.adobe.com/products/workfront/aem-integration.html)
+* Overzicht van [&#x200B; Workfront voor Adobe Experience Manager &#x200B;](https://business.adobe.com/nl/products/workfront/aem-integration.html)
 * [Adobe Workfront for Experience Manager Assets Essentials](../../../documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md)

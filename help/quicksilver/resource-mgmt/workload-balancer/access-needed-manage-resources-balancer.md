@@ -52,7 +52,7 @@ In de volgende tabel ziet u de verbinding tussen het Workfront-plan dat uw bedri
  </tbody> 
 </table>
 
-Voor informatie over de plannen van Workfront, zie [&#x200B; Onze Plannen &#x200B;](https://business.adobe.com/products/workfront/pricing.html).
+Voor informatie over de plannen van Workfront, zie [&#x200B; Onze Plannen &#x200B;](https://business.adobe.com/nl/products/workfront/pricing.html).
 
 Voor informatie over waar u van de Balancer van de Werkbelasting in Workfront kunt de plaats bepalen, zie [&#x200B; plaats van de Balancer van de Werkbelasting &#x200B;](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
 

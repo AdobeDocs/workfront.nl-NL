@@ -215,7 +215,7 @@ Wanneer u de nieuwe Workfront for Outlook op een van uw omgevingen installeert, 
 
 Gebruik de volgende bronnen om meer te leren over Workfront for Outlook en aan de slag te gaan:
 
-* [&#x200B; Website en video &#x200B;](https://business.adobe.com/products/workfront/integrations.html) 
+* [&#x200B; Website en video &#x200B;](https://business.adobe.com/nl/products/workfront/integrations.html) 
 * [&#x200B; Gebruikend Workfront met Vooruitzichten &#x200B;](../../../../workfront-integrations-and-apps/using-workfront-with-outlook/workfront-for-outlook.md) (hulpartikel)
 
 ### Oude API-versies verwijderen {#removing-old-api-versions}

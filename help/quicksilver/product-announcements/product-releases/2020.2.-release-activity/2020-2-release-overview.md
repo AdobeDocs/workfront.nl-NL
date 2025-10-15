@@ -282,7 +282,7 @@ Voor meer informatie, zie [&#x200B; de lijst van gewenste personen van uw firewa
 
 Met Workfront One ontdekt u de belangrijkste inhoud, bronnen en nieuws uit Workfront — allemaal op één plaats, met één aanmelding. We hebben de sites Experience, Community en Training verenigd, waardoor het gemakkelijker wordt om te vinden wat u zoekt.
 
-[&#x200B; leer meer over Workfront Één &#x200B;](https://business.adobe.com/products/workfront.html).
+[&#x200B; leer meer over Workfront Één &#x200B;](https://business.adobe.com/nl/products/workfront.html).
 
 ### 2020.1 Release Webinar {#2020-1-release-webinar}
 

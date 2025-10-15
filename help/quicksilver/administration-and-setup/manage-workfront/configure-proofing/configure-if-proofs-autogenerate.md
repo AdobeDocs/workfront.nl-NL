@@ -27,7 +27,7 @@ U moet het volgende hebben:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://business.adobe.com/products/workfront/pricing.html" target="_blank"> plan van Adobe Workfront </a> </td> 
+   <td role="rowheader"><a href="https://business.adobe.com/nl/products/workfront/pricing.html" target="_blank"> plan van Adobe Workfront </a> </td> 
    <td>Alle</td> 
   </tr> 
   <tr> 

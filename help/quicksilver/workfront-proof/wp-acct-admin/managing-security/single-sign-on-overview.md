@@ -21,7 +21,7 @@ ht-degree: 0%
 >
 >Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [&#x200B; het Bewijzen &#x200B;](../../../review-and-approve-work/proofing/proofing.md).
 
-U hebt een [!UICONTROL Enterprise] [!DNL Workfront] -abonnement nodig om deze functie te kunnen gebruiken. Voor meer informatie over de diverse beschikbare plannen, zie [&#x200B; Abonnementen van Workfront &#x200B;](https://business.adobe.com/products/workfront/pricing.html).
+U hebt een [!UICONTROL Enterprise] [!DNL Workfront] -abonnement nodig om deze functie te kunnen gebruiken. Voor meer informatie over de diverse beschikbare plannen, zie [&#x200B; Abonnementen van Workfront &#x200B;](https://business.adobe.com/nl/products/workfront/pricing.html).
 
 Met Single Sign-On (SSO) kunnen uw gebruikers zich aanmelden bij [!DNL Workfront Proof] via de bestaande gebruikersnaam en het bestaande wachtwoord van uw organisatie.
 

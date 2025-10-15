@@ -25,7 +25,7 @@ ht-degree: 0%
 >
 >Voor informatie over de specifieke mogelijkheden van de modules van de Automatisering en van de Integratie van Workfront voor Salesforce, zie [&#x200B; modules van Salesforce &#x200B;](https://experienceleague.adobe.com/nl/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/salesforce-modules).
 
-U hebt een [!UICONTROL Pro] [!DNL Workfront] -abonnement nodig om deze functie te kunnen gebruiken. Voor meer informatie over de diverse beschikbare plannen, zie [[!DNL Workfront]  Plannen.](https://business.adobe.com/products/workfront/pricing.html)
+U hebt een [!UICONTROL Pro] [!DNL Workfront] -abonnement nodig om deze functie te kunnen gebruiken. Voor meer informatie over de diverse beschikbare plannen, zie [[!DNL Workfront]  Plannen.](https://business.adobe.com/nl/products/workfront/pricing.html)
 
 Nadat u [!DNL Adobe Workfront] for [!DNL Salesforce] as a [!DNL Workfront] administrator hebt geïnstalleerd, kunt u deze beschikbaar maken voor uw gebruikers door deze in een nieuwe sectie toe te voegen aan hun [!UICONTROL Opportunity] en [!UICONTROL Account]
 paginalay-outs in [!UICONTROL Salesforce] .

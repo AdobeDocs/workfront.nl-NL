@@ -118,7 +118,7 @@ De versie 2020.3 bevat de volgende verbeteringen voor alle gebruikers:
 >
 >Uw organisatie moet het volgende hebben om de functionaliteit te gebruiken die in dit artikel wordt beschreven:
 >
->* Een Pro of hoger [&#x200B; plan van Adobe Workfront &#x200B;](https://business.adobe.com/products/workfront/pricing.html).
+>* Een Pro of hoger [&#x200B; plan van Adobe Workfront &#x200B;](https://business.adobe.com/nl/products/workfront/pricing.html).
 >* Een Adobe Workfront Goals-licentie in aanvulling op een Workfront-licentie.
 >
 >  Neem contact op met uw Workfront-accountmanager voor meer informatie over een Workfront Goals-licentie.
@@ -154,7 +154,7 @@ De versie 2020.3 bevat de volgende verbeteringen voor alle gebruikers:
 >&gt; <col> 
 >&gt; <tbody> 
 >&gt;  <tr> 
->&gt;   <td role="rowheader"> <p><a href="https://business.adobe.com/products/workfront/pricing.html" target="_blank"> plan van Workfront </a>*</p> </td> 
+>&gt;   <td role="rowheader"> <p><a href="https://business.adobe.com/nl/products/workfront/pricing.html" target="_blank"> plan van Workfront </a>*</p> </td> 
 >&gt;   <td>Zakelijk of hoger</td> 
 >&gt;  </tr> 
 >&gt;  <tr> 
@@ -450,7 +450,7 @@ Voor meer informatie, zie [&#x200B; de lijst van gewenste personen van uw firewa
 
 Met Workfront One ontdekt u de belangrijkste inhoud, bronnen en nieuws uit Workfront — allemaal op één plaats, met één aanmelding. We hebben de sites Experience, Community en Training verenigd, waardoor het gemakkelijker wordt om te vinden wat u zoekt.
 
-[&#x200B; leer meer over Workfront Één &#x200B;](https://business.adobe.com/products/workfront.html).
+[&#x200B; leer meer over Workfront Één &#x200B;](https://business.adobe.com/nl/products/workfront.html).
 
 ### 20.3 Release Webinar {#20-3-release-webinar}
 

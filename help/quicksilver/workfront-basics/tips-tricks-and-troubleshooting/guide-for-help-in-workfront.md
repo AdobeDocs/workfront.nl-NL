@@ -81,11 +81,11 @@ De volgende bronnen kunnen u helpen bepalen hoe u [!DNL Workfront] kunt gebruike
  <col> 
  <tbody> 
   <tr> 
-   <td><a href="https://business.adobe.com/resources/main.html?Products=Workfront">[!DNL Workfront] bronnen die klanten markeren </a> </td> 
+   <td><a href="https://business.adobe.com/nl/resources/main.html?Products=Workfront">[!DNL Workfront] bronnen die klanten markeren </a> </td> 
    <td>Dit is uw startbron voor webinars, boeken, whitepapers, video's en rapporten.</td> 
   </tr> 
   <tr> 
-   <td><a href="https://business.adobe.com/customer-success-stories.html?Products=Adobe%2520Workfront%22%3E">Casestudy's </a></td> 
+   <td><a href="https://business.adobe.com/nl/customer-success-stories.html?Products=Adobe%2520Workfront%22%3E">Casestudy's </a></td> 
    <td>Lees door een groeiende verzameling van meer dan 60 casestudy's die de uitdagingen van de klant en [!DNL Workfront] oplossingen en voordelen benadrukken.</td> 
   </tr> 
   <tr> 
@@ -142,7 +142,7 @@ De volgende bronnen kunnen u helpen meer te weten te komen over de API van [!DNL
 
 | [[!DNL Adobe Workfront]  integraties &#x200B;](../../administration-and-setup/configure-integrations/workfront-integrations-1.md) | U kunt [!DNL Workfront] integreren met toepassingen van derden. Integraties kunnen het nut van [!DNL Workfront] uitbreiden en het aanpassen aan de behoeften van uw organisatie. Dit artikel in de Knowledge Base behandelt uw integratieopties en wijst u in de volgende richting. |
 |---|---|
-| [[!DNL Workfront]  ingebouwde integraties &#x200B;](https://business.adobe.com/products/workfront/integrations.html) | Dankzij de gratis ingebouwde integratie van Workfront kunnen u en uw team probleemloos overstappen op het Workfront-platform, terwijl u dezelfde workflows en processen behoudt. |
+| [[!DNL Workfront]  ingebouwde integraties &#x200B;](https://business.adobe.com/nl/products/workfront/integrations.html) | Dankzij de gratis ingebouwde integratie van Workfront kunnen u en uw team probleemloos overstappen op het Workfront-platform, terwijl u dezelfde workflows en processen behoudt. |
 | [[!DNL Adobe Workfront Fusion]](https://experienceleague.adobe.com/nl/docs/workfront-fusion/using/home) | Verbindt [!DNL Workfront] met 100+ toepassingen, die het gemakkelijk maken om uw bedrijfskritieke processen zonder code te automatiseren. |
 
 {style="table-layout:auto"}

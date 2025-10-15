@@ -74,7 +74,7 @@ U kunt de volgende integraties configureren voor het beheer van documenten:
 
 * [!DNL Workfront Proof]
 
-  Door proefdrukken van [!DNL Workfront Proof] te koppelen, kunt u proefdrukken maken die oorspronkelijk zijn gemaakt in [!DNL Workfront Proof] , beschikbaar zijn in [!DNL Workfront] . Voor de huidige plannen is een [!UICONTROL Pro] [!DNL Workfront] -abonnement of hoger vereist als u deze functie wilt gebruiken. Voor de nieuwe plannen, is deze eigenschap beschikbaar met alle plannen. Voor meer informatie over de diverse beschikbare plannen, zie [&#x200B; Abonnementen van Workfront &#x200B;](https://business.adobe.com/products/workfront/pricing.html).
+  Door proefdrukken van [!DNL Workfront Proof] te koppelen, kunt u proefdrukken maken die oorspronkelijk zijn gemaakt in [!DNL Workfront Proof] , beschikbaar zijn in [!DNL Workfront] . Voor de huidige plannen is een [!UICONTROL Pro] [!DNL Workfront] -abonnement of hoger vereist als u deze functie wilt gebruiken. Voor de nieuwe plannen, is deze eigenschap beschikbaar met alle plannen. Voor meer informatie over de diverse beschikbare plannen, zie [&#x200B; Abonnementen van Workfront &#x200B;](https://business.adobe.com/nl/products/workfront/pricing.html).
 
 * [!DNL Microsoft SharePoint]
 
@@ -97,7 +97,7 @@ U kunt de volgende integraties configureren voor het beheer van documenten:
 
 * Andere documentproviders (via aangepaste documentintegratie).
 
-  Voor de huidige plannen is een [!UICONTROL Pro] [!DNL Workfront] -abonnement of hoger vereist als u deze functie wilt gebruiken. Voor de nieuwe plannen, is deze eigenschap beschikbaar met alle plannen. Voor meer informatie over de diverse beschikbare plannen, zie [&#x200B; Abonnementen van Workfront &#x200B;](https://business.adobe.com/products/workfront/pricing.html).
+  Voor de huidige plannen is een [!UICONTROL Pro] [!DNL Workfront] -abonnement of hoger vereist als u deze functie wilt gebruiken. Voor de nieuwe plannen, is deze eigenschap beschikbaar met alle plannen. Voor meer informatie over de diverse beschikbare plannen, zie [&#x200B; Abonnementen van Workfront &#x200B;](https://business.adobe.com/nl/products/workfront/pricing.html).
 
 Bovendien kunt u uw [!DNL Workfront] -documentervaring verbeteren met DAM-integratie van derden. Beheerders moeten deze functies inschakelen om gebruikers de service te laten koppelen aan hun [!DNL Workfront] -account.
 

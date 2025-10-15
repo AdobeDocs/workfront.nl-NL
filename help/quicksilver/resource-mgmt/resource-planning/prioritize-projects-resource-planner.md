@@ -112,7 +112,7 @@ De projectplanningsprioriteit bewerken:
 >
 >Uw bedrijf moet een bedrijfs of hoger plan van Workfront hebben om projecten in Portfolio Optimizer voorrang te geven.
 >
->Voor meer informatie over de plannen van Workfront, zie [&#x200B; Onze Abonnementen &#x200B;](https://business.adobe.com/products/workfront/pricing.html).
+>Voor meer informatie over de plannen van Workfront, zie [&#x200B; Onze Abonnementen &#x200B;](https://business.adobe.com/nl/products/workfront/pricing.html).
 >
 >Voor informatie over het prioriteren van projecten in Portfolio optimaliseert, zie [&#x200B; projecten in de Optimizer van Portfolio &#x200B;](../../manage-work/portfolios/portfolio-optimizer/prioritize-projects-in-portfolio-optimizer.md) Prioritize.
 

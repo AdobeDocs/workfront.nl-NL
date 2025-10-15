@@ -94,7 +94,7 @@ Single Sign-On is een Select- en Premium-functie, zodat Single Sign-On alleen ka
 Hier zult u twee methodes (5) van configuratie hebben:
 
 1. **Geërft:** SSO met de configuratie die van uw hubrekening wordt genomen.
-Als een gebruiker tot [!DNL Workfront Proof] door de **standaard login pagina** ([&#x200B; https://business.adobe.com/products/workfront/proofing-approvals.html &#x200B;](https://business.adobe.com/products/workfront/proofing-approvals.html)) toegang heeft zal er **twee niveaus van vergunning** zijn: Eerst wordt een gebruiker gevraagd om binnen het gebruiken van [!DNL Workfront Proof] toegangsgegevens (e-mail en wachtwoord) te registreren; dan wordt de gebruiker overgebracht door een venster SSO aan de SSO login pagina.
+Als een gebruiker tot [!DNL Workfront Proof] door de **standaard login pagina** ([&#x200B; https://business.adobe.com/nl/products/workfront/proofing-approvals.html &#x200B;](https://business.adobe.com/nl/products/workfront/proofing-approvals.html)) toegang heeft zal er **twee niveaus van vergunning** zijn: Eerst wordt een gebruiker gevraagd om binnen het gebruiken van [!DNL Workfront Proof] toegangsgegevens (e-mail en wachtwoord) te registreren; dan wordt de gebruiker overgebracht door een venster SSO aan de SSO login pagina.
 Daarom, met de toegelaten dienst SSO, adviseren wij om binnen door uw eigen [!DNL Workfront Proof] subdomain/domein te registreren.
 
    >[!NOTE]
@@ -143,7 +143,7 @@ Als Handmatige SSO-configuratie is gekozen voor een satellietaccount (1), moet u
 Als Single Sign-On is ingeschakeld, wordt in de URL voor aanmelding bij een subdomein (bijvoorbeeld yourcompany.proofhq.com/login) een transferscherm (2) weergegeven waarmee u rechtstreeks naar de SSO-aanmeldingspagina gaat.
    ![&#x200B; SSO_login_page.png &#x200B;](assets/sso-login-page-350x164.png)
 
-1. Als een gebruiker [!DNL Workfront Proof] door het **standaardlogin pagina** ([&#x200B; https://business.adobe.com/products/workfront/proofing-approvals.html &#x200B;](https://business.adobe.com/products/workfront/proofing-approvals.html)) toegang heeft zal er **twee niveaus van vergunning** zijn. Eerst wordt een gebruiker gevraagd zich aan te melden met [!DNL Workfront Proof] toegangsgegevens (e-mail en wachtwoord). Vervolgens wordt de gebruiker overgebracht via een SSO-venster (2) naar de SSO-aanmeldingspagina.\
+1. Als een gebruiker [!DNL Workfront Proof] door het **standaardlogin pagina** ([&#x200B; https://business.adobe.com/nl/products/workfront/proofing-approvals.html &#x200B;](https://business.adobe.com/nl/products/workfront/proofing-approvals.html)) toegang heeft zal er **twee niveaus van vergunning** zijn. Eerst wordt een gebruiker gevraagd zich aan te melden met [!DNL Workfront Proof] toegangsgegevens (e-mail en wachtwoord). Vervolgens wordt de gebruiker overgebracht via een SSO-venster (2) naar de SSO-aanmeldingspagina.\
    Daarom, met de toegelaten dienst SSO, adviseren wij om binnen door uw eigen [!DNL Workfront Proof] subdomain/domein te registreren.
 
 1. Als Single Sign-On momenteel is ingeschakeld op uw Workfront Proof-account, kunt u zich niet met deze gegevens aanmelden bij de iPhone-app.

@@ -38,7 +38,7 @@ Voor meer informatie over het vormen van de [!DNL Workfront] sectie in [!DNL Sal
 
 >[!NOTE]
 >
->U hebt een [!UICONTROL Pro] [!DNL Workfront] -abonnement nodig om deze functie te kunnen gebruiken. Voor meer informatie over de diverse beschikbare plannen, zie [[!DNL Workfront]  Plannen.](https://business.adobe.com/products/workfront/pricing.html)
+>U hebt een [!UICONTROL Pro] [!DNL Workfront] -abonnement nodig om deze functie te kunnen gebruiken. Voor meer informatie over de diverse beschikbare plannen, zie [[!DNL Workfront]  Plannen.](https://business.adobe.com/nl/products/workfront/pricing.html)
 
 ## Toegangsvereisten
 

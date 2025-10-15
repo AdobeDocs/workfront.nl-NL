@@ -230,7 +230,7 @@ In deze tabel staan de beheersactiviteiten die beschikbaar zijn voor:
 
 &#42;&#42; In het toegangsniveau van de groepsbeheerder, moet de toegang tot deze actie worden toegelaten. Voor meer informatie, zie [&#x200B; gebruikers administratieve toegang van de Verlening tot bepaalde gebieden &#x200B;](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 
-&#42;&#42;&#42; De volgende activiteiten maken deel uit van Advanced Enterprise Controls en zijn niet beschikbaar voor het Select-plan. Alleen organisaties die de Prime- of Ultimate-plannen hebben aangeschaft, hebben toegang tot deze mogelijkheden.  Zie [&#x200B; Adobe Workfront tarifering en het verpakken pagina &#x200B;](https://business.adobe.com/products/workfront/pricing.html) voor meer informatie over plannen. (Voor organisaties die de erfenisplannen gebruiken, toont de bovenstaande lijst de activiteiten voor groep en subgroepbeheerders.)
+&#42;&#42;&#42; De volgende activiteiten maken deel uit van Advanced Enterprise Controls en zijn niet beschikbaar voor het Select-plan. Alleen organisaties die de Prime- of Ultimate-plannen hebben aangeschaft, hebben toegang tot deze mogelijkheden.  Zie [&#x200B; Adobe Workfront tarifering en het verpakken pagina &#x200B;](https://business.adobe.com/nl/products/workfront/pricing.html) voor meer informatie over plannen. (Voor organisaties die de erfenisplannen gebruiken, toont de bovenstaande lijst de activiteiten voor groep en subgroepbeheerders.)
 
 * Project-, taak- en probleemvoorkeuren op groepsniveau configureren
 * Voorkeuren voor tijdbladen en uren op groepsniveau configureren

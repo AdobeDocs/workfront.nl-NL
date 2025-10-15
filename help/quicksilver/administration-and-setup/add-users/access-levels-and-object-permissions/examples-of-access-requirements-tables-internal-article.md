@@ -438,7 +438,7 @@ Een artikel over groepsbeheerders vermeldt het pakket dat de klant moet hebben o
 * Workflow Prime en hoger
 * Workfront Prime en hoger
 
-Zie [&#x200B; Adobe Workfront tarifering en het verpakken pagina &#x200B;](https://business.adobe.com/products/workfront/pricing.html) voor meer informatie over pakketten.
+Zie [&#x200B; Adobe Workfront tarifering en het verpakken pagina &#x200B;](https://business.adobe.com/nl/products/workfront/pricing.html) voor meer informatie over pakketten.
 
 Geavanceerde bedrijfsbesturingselementen:
 
