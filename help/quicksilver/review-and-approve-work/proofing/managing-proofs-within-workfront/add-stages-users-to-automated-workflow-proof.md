@@ -6,9 +6,9 @@ description: Als u de eigenaar van de proefdruk bent, kunt u fasen aan een besta
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 45839f8a-31b2-43a3-a9ea-5437df8cc6b4
-source-git-commit: f252e3562b8ea73486d407138251b3d15d4b9f3a
+source-git-commit: ac714bd5a5259d6f995ac445efbd0125e07022cb
 workflow-type: tm+mt
-source-wordcount: '328'
+source-wordcount: '228'
 ht-degree: 0%
 
 ---
@@ -21,32 +21,33 @@ Als u de eigenaar van de proefdruk bent, kunt u fasen aan een bestaande Geautoma
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-abonnement*</td> 
-   <td> <p>Huidig abonnement: Pro of hoger</p> <p>of</p> <p>Verouderd plan: Premium</p> <p>Voor meer informatie over het proefdrukken van toegang met de verschillende plannen, zie <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref"> Toegang tot het proefdrukken van functionaliteit in Workfront </a>.</p> </td> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Huidig plan: Werk of Plan</p> <p>Ouder plan: Willekeurig (proefdrukken moet zijn ingeschakeld voor de gebruiker)</p> </td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td> 
+   <p>Standard</p>
+   <p>Werken of plannen</p> 
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Bewijs van machtigingsprofiel </td> 
    <td>Manager of hoger</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot documenten bewerken</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
+   <td> <p>Toegang tot documenten bewerken</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42; om te weten te komen welk plan, rol, of Profiel van de Toestemming van het Bewijs u hebt, contacteer uw beheerder van Workfront of van Workfront Proof.
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

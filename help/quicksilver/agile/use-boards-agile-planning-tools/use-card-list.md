@@ -7,9 +7,9 @@ description: U kunt een kaartlijst op een werkstroom tot stand brengen en de kaa
 author: Lisa
 feature: Agile
 exl-id: 2976f7e8-be84-4d27-9d70-8430392d5331
-source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
-source-wordcount: '628'
+source-wordcount: '619'
 ht-degree: 0%
 
 ---
@@ -28,28 +28,25 @@ De kaartlijst kan als achterhoede werk voor de werkstroom functioneren.
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront]</td> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licentie</td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
    <td> 
-   <p>Nieuw: [!UICONTROL Contributor] of hoger</p> 
-   <p>of</p>
-   <p>Huidig: [!UICONTROL Request] of hoger</p>
+   <p>Medewerker of hoger</p> 
+   <p>Aanvraag of hoger</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -106,12 +103,12 @@ Om een kaart te schrappen, het in de lijst te selecteren en [!UICONTROL **Schrap
 
 ### Filterkaarten
 
-Kaarten kunnen alleen worden gearchiveerd vanaf het iteratiebord. Wanneer een kaart wordt gearchiveerd, wordt deze niet weergegeven in de kaartlijst, tenzij u filtert om gearchiveerde kaarten weer te geven. Voor informatie over het archiveren van een kaart, zie [&#x200B; Schrapping of archiveer een kaart van een raad &#x200B;](/help/quicksilver/agile/get-started-with-boards/delete-board-items.md).
+Kaarten kunnen alleen worden gearchiveerd vanaf het iteratiebord. Wanneer een kaart wordt gearchiveerd, wordt deze niet weergegeven in de kaartlijst, tenzij u filtert om gearchiveerde kaarten weer te geven. Voor informatie over het archiveren van een kaart, zie [ Schrapping of archiveer een kaart van een raad ](/help/quicksilver/agile/get-started-with-boards/delete-board-items.md).
 
 1. Open de kaartlijst voor de werkstroom.
 1. Klik [!UICONTROL **Filter**] en selecteer [!UICONTROL **Alle**], [!UICONTROL **Actieve kaarten**], of [!UICONTROL **Gearchiveerde kaarten**].
 
-   Wanneer een filter buiten het gebrek op de kaartlijst wordt toegepast, wordt een indicator getoond op het toegepaste filter van het filterpictogram ![&#x200B; filter &#x200B;](assets/boards-filterapplied-30x30.png).
+   Wanneer een filter buiten het gebrek op de kaartlijst wordt toegepast, wordt een indicator getoond op het toegepaste filter van het filterpictogram ![ filter ](assets/boards-filterapplied-30x30.png).
 
 ### Zoeken in de kaartlijst
 
@@ -121,13 +118,13 @@ Kaarten kunnen alleen worden gearchiveerd vanaf het iteratiebord. Wanneer een ka
    Alle kaarten die de zoekterm bevatten, worden weergegeven.
 Klik op de X om de zoekopdracht te wissen.
 
-   ![&#x200B; Onderzoek naar kaarten in een raad &#x200B;](assets/boards-searchbox.png)
+   ![ Onderzoek naar kaarten in een raad ](assets/boards-searchbox.png)
 
 ## Kaarten aan een herhaling toevoegen
 
 >[!NOTE]
 >
->U moet een herhaling maken voordat u er kaarten aan kunt toevoegen. Voor informatie, zie [&#x200B; een herhaling in een werkstroom &#x200B;](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md) creëren.
+>U moet een herhaling maken voordat u er kaarten aan kunt toevoegen. Voor informatie, zie [ een herhaling in een werkstroom ](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md) creëren.
 
 1. Open de kaartlijst voor de werkstroom.
 1. Selecteer de [!UICONTROL **mening van de Interlatie**] om te zien welke kaarten aan een herhaling worden toegewezen en die niet gepland zijn.

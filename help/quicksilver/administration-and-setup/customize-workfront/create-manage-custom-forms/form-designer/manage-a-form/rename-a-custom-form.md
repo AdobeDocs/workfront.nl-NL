@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 8c49c2c8-4056-46a2-9ede-efb91ff237e5
-source-git-commit: 554e08c22f6ee142a9ced8fa991d0126b6360b0c
+source-git-commit: 15ac51cc13eeb57d2de194a9a6ceec7683acfbe6
 workflow-type: tm+mt
-source-wordcount: '206'
+source-wordcount: '183'
 ht-degree: 0%
 
 ---
@@ -23,31 +23,27 @@ U kunt de naam van een aangepast formulier op elk gewenst moment wijzigen nadat 
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Adobe Workfront-plan</p> </td> 
-   <td>Alle</td> 
+  <tr> 
+   <td>Adobe Workfront-pakket</td> 
+   <td><p>Alle</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie</td> 
-   <td>
-   <p>Nieuw: Standaard</p>
-   <p>of</p>
-   <p>Huidig: Plan</p></td> 
+   <td>Adobe Workfront-licentie</td> 
+   <td><p>Standard</p>
+       <p>Plan</p></td>
   </tr> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader">Configuraties op toegangsniveau</td> 
-   <td> <p>Administratieve toegang tot aangepaste formulieren</p></td> 
+  <tr> 
+   <td>Configuraties op toegangsniveau</td> 
+   <td> <p>Administratieve toegang tot aangepaste formulieren</p> </td> 
   </tr>  
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -59,7 +55,7 @@ Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van d
 
    In de weergave die wordt weergegeven, kunt u alle aangepaste formulieren bekijken die voor uw organisatie zijn gemaakt. U kunt ook zien wie elk formulier heeft gemaakt, met welk objecttype het werkt en of het actief is.
 
-1. Selecteer de douanevorm u wilt anders noemen, dan klik ![&#x200B; uitgeven pictogram &#x200B;](assets/edit-icon2.png).
+1. Selecteer de douanevorm u wilt anders noemen, dan klik ![ uitgeven pictogram ](assets/edit-icon2.png).
 1. Als u de titel wilt wijzigen, klikt u op de naam van het formulier.
 1. Als u de beschrijving wilt wijzigen, klikt u in het tekstvak Beschrijving.
 

@@ -6,9 +6,9 @@ description: Naast het creëren van een projectmalplaatje van kras, kunt u besta
 author: Alina
 feature: Work Management
 exl-id: b2e0878b-8245-4e01-819d-c3746f553d95
-source-git-commit: 1926500c76e4f9cfdac829f8d9f0cdfa6231e31d
+source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
 workflow-type: tm+mt
-source-wordcount: '329'
+source-wordcount: '327'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Naast het maken van een geheel nieuwe projectsjabloon kunt u ook een bestaande s
 
 ## Toegangsvereisten
 
-+++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven. 
 
 U moet de volgende toegang hebben.
 
@@ -30,13 +30,13 @@ U moet de volgende toegang hebben.
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan</td> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
    <td> <p>Alle </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td><p>Nieuw: Standaard</p> 
-   <p>Huidig: Plan </p> </td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td><p>Standard</p> 
+   <p>Plan</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau</td> 
@@ -49,9 +49,34 @@ U moet de volgende toegang hebben.
  </tbody> 
 </table>
 
-*For informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*For informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+<!--Old:
+
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td> <p>Any </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td><p>New: Standard</p> 
+   <p>Current: Plan </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>Edit access to Templates</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>View or higher permissions to a template</p>  </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## Overwegingen bij het kopiëren van sjablonen
 
@@ -77,11 +102,11 @@ De volgende items worden nooit van een bestaande sjabloon naar een nieuwe gekopi
 <!--ensure steps and casing on the fields and buttons is accurate with unshim-->
 
 1. Ga naar de sjabloon die u wilt kopiëren.
-1. Klik het **Meer** menu ![&#x200B; Meer pictogram &#x200B;](assets/qs-more-icon-on-an-object.png) aan het recht van de malplaatjenaam in de kopbal, dan klik **Exemplaar**.
+1. Klik het **Meer** menu ![ Meer pictogram ](assets/qs-more-icon-on-an-object.png) aan het recht van de malplaatjenaam in de kopbal, dan klik **Exemplaar**.
 
    Het **vakje van het Malplaatje van het Exemplaar** opent.
 
-   ![&#x200B; de malplaatjedoos van het Exemplaar &#x200B;](assets/copy-template-box.png)
+   ![ de malplaatjedoos van het Exemplaar ](assets/copy-template-box.png)
 
 1. Specificeer een naam voor het malplaatje op het **Nieuwe gebied van de Naam van het Malplaatje**.
 

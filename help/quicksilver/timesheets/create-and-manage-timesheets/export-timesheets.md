@@ -3,12 +3,12 @@ product-area: timesheets
 navigation-topic: create-and-manage-timesheets
 title: Een lijst met tijdbladen exporteren
 description: Als personenmanager of chronologiefiatteur, zou u een lijst van timesheets kunnen moeten downloaden om informatie over de timesheets van de mensen snel te bekijken u voor verantwoordelijk bent. U kunt dit doen door een lijst met tijdbladen te exporteren.
-author: Alina
+author: Lisa
 feature: Timesheets
 exl-id: cb5b1c6c-7800-48f4-ae2c-c4007a161a6c
-source-git-commit: d5d517a0c9a1292c37e66db07f7ed17d0a9a59e1
+source-git-commit: 69cd5fb1d089b81b7a1673609b92537137b6b68e
 workflow-type: tm+mt
-source-wordcount: '487'
+source-wordcount: '466'
 ht-degree: 0%
 
 ---
@@ -23,33 +23,31 @@ Als personenmanager of chronologiefiatteur, zou u een lijst van timesheets kunne
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan</td> 
+   <td>Adobe Workfront-pakket</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie</td> 
-   <td> <p>Nieuw: Licht of hoger </p>
-   <p>Huidig: Controleren of hoger </p>
+   <td>Adobe Workfront-licentie</td> 
+   <td> <p>Licht of hoger </p>
+   <p>Controleren of hoger</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau</td> 
-   <td> <p>Toegang tot taken en problemen weergeven of vergroten </p> </td> 
+   <td>Configuratie op toegangsniveau</td> 
+   <td> <p>Toegang tot taken en problemen weergeven of vergroten</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>De toestemmingen van de mening of hoger aan timesheet</p> </td> 
+   <td>Objectmachtigingen</td> 
+   <td> <p>Machtigingen weergeven of hoger voor taken en problemen</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -103,7 +101,7 @@ Het **gebied van Tijdopnemers** opent.
 
      ![](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
 
-   * Klik op het pictogram Filter ![](assets/filter-nwepng.png) om een ander filter toe te passen of een nieuw filter te maken. Voor informatie over het creëren van of het bijwerken van filters, zie [&#x200B; filters in Adobe Workfront &#x200B;](../../reports-and-dashboards/reports/reporting-elements/create-filters.md) creëren of uitgeven.
+   * Klik op het pictogram Filter ![](assets/filter-nwepng.png) om een ander filter toe te passen of een nieuw filter te maken. Voor informatie over het creëren van of het bijwerken van filters, zie [ filters in Adobe Workfront ](../../reports-and-dashboards/reports/reporting-elements/create-filters.md) creëren of uitgeven.
 
    >[!NOTE]
    >
@@ -111,7 +109,7 @@ Het **gebied van Tijdopnemers** opent.
    >
    >   
    >   
-   >   * [&#x200B; pas Filters, Weergaven, en Groepen aan gebruikend een lay-outmalplaatje &#x200B;](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
+   >   * [ pas Filters, Weergaven, en Groepen aan gebruikend een lay-outmalplaatje ](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
    >   
    >
 
@@ -119,8 +117,8 @@ Het **gebied van Tijdopnemers** opent.
 
    Zie de volgende artikelen voor informatie over het maken van filters, weergaven of groepen:
 
-   * [&#x200B; creeer of geef filters in Adobe Workfront uit &#x200B;](../../reports-and-dashboards/reports/reporting-elements/create-filters.md)
-   * [&#x200B; creeer of geef meningen in Adobe Workfront uit &#x200B;](../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md)
+   * [ creeer of geef filters in Adobe Workfront uit ](../../reports-and-dashboards/reports/reporting-elements/create-filters.md)
+   * [ creeer of geef meningen in Adobe Workfront uit ](../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md)
    * [Groepen maken in Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-groupings.md)
 
 1. Selecteer timesheets die u wilt uitvoeren, dan klik het **pictogram van de Uitvoer** ![](assets/export-38x15.png).
@@ -130,8 +128,8 @@ Het **gebied van Tijdopnemers** opent.
 1. Selecteer het type bestand waarnaar u de lijst met tijdbladen wilt exporteren uit de volgende opties:
 
    * PDF Ladscape
-   * PDF Staand
-   * PDF Andere grootten
+   * PDF Portrait
+   * Andere PDF-grootten
    * Excel
    * Excel (xlsx)
    * Door tabs gescheiden

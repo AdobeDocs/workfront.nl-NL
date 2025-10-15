@@ -1,14 +1,14 @@
 ---
 product-area: projects
 navigation-topic: manage-tasks
-title: Een taak omzetten in een project
+title: Een taak converteren naar een project
 description: Wanneer een taak in een project een grotere hoeveelheid inspanning vereist om te voltooien dan u oorspronkelijk gepland, kunt u het in een project omzetten.
 author: Alina
 feature: Work Management
 exl-id: a45f0af4-1768-4f20-80d4-912e6fe0fc03
-source-git-commit: a00776ecd9f8dc14b9dce14ce9463c2bb709a363
+source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
 workflow-type: tm+mt
-source-wordcount: '1190'
+source-wordcount: '1142'
 ht-degree: 0%
 
 ---
@@ -34,27 +34,53 @@ Wanneer een taak in een project een grotere hoeveelheid inspanning vereist om te
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-abonnement*</td> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Plan </p> </td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td> <p>Standard</p>
+   <p>Plan</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot taken en projecten bewerken</p> <p>Bekijk of hogere toegang tot Malplaatjes, wanneer het omzetten in een project gebruikend een malplaatje</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
+   <td> <p>Toegang tot taken en projecten bewerken</p> <p>Bekijk of hogere toegang tot Malplaatjes, wanneer het omzetten in een project gebruikend een malplaatje</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Rechten voor een taak beheren</p> <p>De toestemmingen van de mening op een malplaatje, als het omzetten in een project gebruikend een malplaatje</p> <p>Nadat u het project hebt gemaakt, hebt u beheerdersmachtigingen voor het project</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
+   <td> <p>Rechten voor een taak beheren</p> <p>De toestemmingen van de mening op een malplaatje, als het omzetten in een project gebruikend een malplaatje</p> <p>Nadat u het project hebt gemaakt, hebt u beheerdersmachtigingen voor het project</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-*For informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Plan </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations*</td> 
+   <td> <p>Edit access to Tasks and&nbsp;Projects</p> <p>View or higher access to&nbsp;Templates, when converting to a project using a template</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>Manage permissions to a task</p> <p>View permissions on a template, if converting to a project using a template</p> <p>After creating the project, you have Manage permissions to the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## Overwegingen bij het omzetten van taken in projecten
 
@@ -188,11 +214,11 @@ Wanneer een taak in een project een grotere hoeveelheid inspanning vereist om te
    * **Beschrijving**: Beschrijf het doel voor dit project.
    * (Voorwaardelijk) als u hebt geselecteerd om een project van een malplaatje tot stand te brengen, werk de beschikbare gebieden in de **Bekeerling in de doos van het Project** bij.
 
-     Voor meer informatie over het uitgeven van gebieden op projecten, zie [&#x200B; projecten &#x200B;](../../../manage-work/projects/manage-projects/edit-projects.md) uitgeven.
+     Voor meer informatie over het uitgeven van gebieden op projecten, zie [ projecten ](../../../manage-work/projects/manage-projects/edit-projects.md) uitgeven.
 
      >[!TIP]
      >
-     >Als u velden in het gedeelte Financiën in het vak Converteren naar project wilt bijwerken, moet u toegang tot financiële gegevens op uw toegangsniveau bewerken hebben. Als u toegang van de Mening tot Financiële Gegevens in uw toegangsniveau hebt alle financiële informatie van de malplaatjeoverdrachten aan het nieuwe project en u kunt niet het uitgeven terwijl u de kwestie omzet. Voor informatie, zie [&#x200B; toegang van de Verlening tot financiële gegevens &#x200B;](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md) en [&#x200B; Deel een malplaatje &#x200B;](../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
+     >Als u velden in het gedeelte Financiën in het vak Converteren naar project wilt bijwerken, moet u toegang tot financiële gegevens op uw toegangsniveau bewerken hebben. Als u toegang van de Mening tot Financiële Gegevens in uw toegangsniveau hebt alle financiële informatie van de malplaatjeoverdrachten aan het nieuwe project en u kunt niet het uitgeven terwijl u de kwestie omzet. Voor informatie, zie [ toegang van de Verlening tot financiële gegevens ](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md) en [ Deel een malplaatje ](../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
 
    * (Facultatief) voeg **Aangepaste Forms** aan het nieuwe project toe.
 

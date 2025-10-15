@@ -6,10 +6,10 @@ description: U kunt spoor van de vooruitgang op uw projecten houden wanneer u on
 author: Nolan
 feature: Get Started with Workfront
 exl-id: cca4d969-8237-49df-98fb-f70ee40a7e93
-source-git-commit: 854eb3c0e4ee49315c36e00c7012e0baf2d98c37
+source-git-commit: f9b9381b4b38796dbf7dfd9eddffc50fb9e5c24c
 workflow-type: tm+mt
-source-wordcount: '276'
-ht-degree: 0%
+source-wordcount: '273'
+ht-degree: 1%
 
 ---
 
@@ -25,7 +25,11 @@ Als u uw werk moet voltooien, moet u de mobiele app [!DNL Workfront] gebruiken d
 
 De app [!DNL Workfront View] wordt alleen ondersteund voor [!DNL iPads] .
 
-U moet in [!DNL Workfront] de volgende toegang hebben om toegang te krijgen tot informatie in [!DNL Workfront View] en de stappen in dit artikel uit te voeren:
+Gebruikers met [!UICONTROL Requestor] - en [!UICONTROL External] -licenties hebben geen toegang tot [!DNL Workfront] via de [!DNL Workfront View] mobiele app.
+
+## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -34,19 +38,21 @@ U moet in [!DNL Workfront] de volgende toegang hebben om toegang te krijgen tot 
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront-pakket</strong></td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licentie*</strong></td> 
-   <td> <p>[!UICONTROL Review] of hoger</p> </td> 
+   <td role="rowheader"><strong>Adobe Workfront-licentie</strong></td> 
+   <td> 
+   <p>Medewerker of hoger</p>
+   <p>Controleren of hoger</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Gebruikers met [!UICONTROL Requestor] - en [!UICONTROL External] -licenties hebben geen toegang tot [!DNL Workfront] via de [!DNL Workfront View] mobiele app.
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw [!DNL Workfront] beheerder.
++++
 
 ## De app [!DNL Workfront View] downloaden
 
@@ -60,11 +66,11 @@ U moet een [!DNL Apple Cloud] -account hebben om toepassingen op een [!DNL iPad]
 ## Aanmelden bij [!DNL Workfront View]
 
 1. Ga naar de **[!DNL Workfront View]** -app op uw [!DNL iPad] .\
-   ![&#x200B; werkfront_view_app_Adobe.png &#x200B;](assets/workfront-view-app-adobe-350x261.png)
+   ![ werkfront_view_app_Adobe.png ](assets/workfront-view-app-adobe-350x261.png)
 
 1. (Optioneel) Tik op **[!UICONTROL Try the demo]** om een korte demo van de app te maken.\
    In de demo worden voorbeeldprojecten getoond, niet de projecten in uw [!DNL Workfront] -systeem.\
-   ![[!DNL workfront_view_demo].jpg &#x200B;](assets/workfront-view-demo-350x256.jpg)
+   ![[!DNL workfront_view_demo].jpg ](assets/workfront-view-demo-350x256.jpg)
 
 1. Geef de **[!UICONTROL [!DNL Workfront] Username]** op.
 1. Geef de **[!UICONTROL [!DNL Workfront] Password]** op.

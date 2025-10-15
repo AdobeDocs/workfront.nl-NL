@@ -7,7 +7,7 @@ description: De types van Duur beschikbaar in Adobe Workfront zijn verschillend 
 author: Alina
 feature: Work Management
 exl-id: 986ecf91-693d-4ee1-bc56-355a2819ae41
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: c1b8af0d8a95714bb597db7a429794773358cf05
 workflow-type: tm+mt
 source-wordcount: '256'
 ht-degree: 0%
@@ -20,7 +20,7 @@ De types van Duur beschikbaar in Adobe Workfront zijn verschillend dan hun tegen
 
 Raadpleeg de volgende artikelen voor informatie over het importeren en exporteren van projecten tussen Workfront en Microsoft Project:
 
-* [&#x200B; Uitvoer een project naar het Project van Microsoft &#x200B;](../../../manage-work/projects/manage-projects/export-project-to-ms-project.md)
+* [ Uitvoer een project naar het Project van Microsoft ](../../../manage-work/projects/manage-projects/export-project-to-ms-project.md)
 * [Een project importeren uit Microsoft Project](../../../manage-work/projects/create-projects/import-project-from-ms-project.md)
 
 ## Duur typen in Workfront- en Microsoft-project
@@ -32,7 +32,7 @@ Workfront heeft vier typen taakduur:
 * Berekend werk
 * Berekende toewijzing
 
-Voor informatie, zie [&#x200B; Overzicht van het Type van Duur en van de Duur van de Taak &#x200B;](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
+Voor informatie, zie [ Overzicht van het Type van Duur en van de Duur van de Taak ](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
 
 Deze soorten duur worden niet herkend door Microsoft Project. Microsoft Project heeft momenteel drie taaktypen die lijken op Duur-typen in Workfront:
 
@@ -46,7 +46,7 @@ Wanneer u projecten exporteert van Workfront naar Microsoft Project, worden take
 
 ## Wijzigingen in Duur bij importeren van MS Project naar Workfront
 
-Wanneer u projecten importeert van Microsoft Project in naar Workfront, worden Vaste eenheden gebaseerd op inspanningen. Vast werk en Vaste Duur ontvangen het standaardduurtype dat uw beheerder van Workfront voor uw systeem selecteerde. Voor informatie, zie [&#x200B; de taak en de uitgevende voorkeur van het systeem brede &#x200B;](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md) vormen.
+Wanneer u projecten importeert van Microsoft Project in naar Workfront, worden Vaste eenheden gebaseerd op inspanningen. Vast werk en Vaste Duur ontvangen het standaardduurtype dat uw beheerder van Workfront voor uw systeem selecteerde. Voor informatie, zie [ de taak en de uitgevende voorkeur van het systeem brede ](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md) vormen.
 
 <!--
 <note type="warning">

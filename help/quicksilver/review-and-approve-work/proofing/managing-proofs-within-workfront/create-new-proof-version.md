@@ -6,9 +6,9 @@ description: Het beheren van feedback in meerdere versies of revisies van een st
 author: Courtney
 feature: Digital Content and Documents
 exl-id: ee0c859e-349b-4e7a-ac80-164740b950f0
-source-git-commit: daa46f0e2a5f656d048260d4a714ed02f01cdbbf
+source-git-commit: ac714bd5a5259d6f995ac445efbd0125e07022cb
 workflow-type: tm+mt
-source-wordcount: '1521'
+source-wordcount: '1454'
 ht-degree: 0%
 
 ---
@@ -24,9 +24,9 @@ Houd rekening met het volgende wanneer u een nieuwe versie van een proefdruk maa
 * U kunt een gebruiker toestemming geven om één versie maar niet een andere te zien. Omgekeerd, als u een recentere versie met een gebruiker deelt, kan die gebruiker vroegere versies niet zien tenzij u teruggaat en hen toegang tot die vorige versies verleent.
 * Als u een nieuwe versie wilt maken, hebt u bewerkingsrechten nodig op de proefdruk.
 
-  Voor meer informatie, zie [&#x200B; de Rollen van het Bewijs in Workfront Proof &#x200B;](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md) beheren en [&#x200B; Profielen van de Toestemmingen van de Bewijs in Workfront Proof &#x200B;](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md).
+  Voor meer informatie, zie [ de Rollen van het Bewijs in Workfront Proof ](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md) beheren en [ Profielen van de Toestemmingen van de Bewijs in Workfront Proof ](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md).
 
-  Zie voor informatie over het delen van proefversies  [&#x200B; Deel een Bewijs in Workfront Proof &#x200B;](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof.md).
+  Zie voor informatie over het delen van proefversies  [ Deel een Bewijs in Workfront Proof ](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof.md).
 
 >[!IMPORTANT]
 >
@@ -36,21 +36,19 @@ Houd rekening met het volgende wanneer u een nieuwe versie van een proefdruk maa
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan</td> 
-   <td> <p>Huidig: Pro of hoger</p> <p>of</p> <p>Verouderd: selecteren of Premium</p> <p>Voor meer informatie over het proefdrukken van toegang met de verschillende plannen, zie <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref"> Toegang tot het proefdrukken van functionaliteit in Workfront </a>.</p> </td> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie</td> 
-   <td> <p>Huidig: Standaard</p> 
-   <p>of</p>
-   <p>Verouderd: werk of abonnement (proefdrukken moet zijn ingeschakeld voor de gebruiker)</p> </td> 
+   <td> <p>Standard</p> 
+   <p>Werken of plannen</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Bewijs van machtigingsprofiel </td> 
@@ -58,12 +56,12 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau</td> 
-   <td> <p>Toegang tot documenten bewerken</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
+   <td> <p>Toegang tot documenten bewerken</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -85,7 +83,7 @@ Een nieuwe versie van een proefdruk maken:
 
    Selecteer de rij waar de proef vermeld is, klik **nieuwe** toevoegen > **Versie**, dan klik de optie u wilt gebruiken om de nieuwe versie van de proef toe te voegen.
 
-   ![&#x200B; voeg nieuwe versie &#x200B;](assets/add-new-proof-version.png) toe
+   ![ voeg nieuwe versie ](assets/add-new-proof-version.png) toe
 
 ## Een nieuwe proefdrukversie maken met de proefdrukviewer (alleen Workfront Proof)
 
@@ -93,14 +91,14 @@ Als u de standalone Workfront Proof gebruikt, kunt u een nieuwe versie van een p
 
 >[!NOTE]
 >
->Als uw account zich op een Enterprise-abonnement bevindt en u meerdere bestanden of webvastleggingen uploadt, worden deze automatisch gecombineerd in één nieuwe versie. Gelieve te zien [&#x200B; een multipage bewijs &#x200B;](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-multi-page-proof.md) voor meer informatie creëren.
+>Als uw account zich op een Enterprise-abonnement bevindt en u meerdere bestanden of webvastleggingen uploadt, worden deze automatisch gecombineerd in één nieuwe versie. Gelieve te zien [ een multipage bewijs ](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-multi-page-proof.md) voor meer informatie creëren.
 
 Een nieuwe versie van een proefdruk maken in Workfront Proof:
 
 1. Open de proefdruk.
 1. In de upper-left hoek, klik het **drop-down menu van de Versie**, dan klik **+ Nieuwe versie** in de doos die verschijnt. De nieuwe pagina met proefdrukversies wordt geopend.
 
-   ![&#x200B; voeg nieuwe versie &#x200B;](assets/new-version-button.png) toe
+   ![ voeg nieuwe versie ](assets/new-version-button.png) toe
 
 1. In **voeg dossiers** sectie toe, upload een dossier als nieuwe proefversie door het van uw computer te slepen en te laten vallen of door **te klikken doorbladert** en een dossier te selecteren.
 
@@ -118,15 +116,15 @@ Een nieuwe versie van een proefdruk maken in Workfront Proof:
 
    * (Facultatief) verander de **Eigenaar** van de versie in een andere gebruiker in uw rekening.
 
-     Voor informatie, zie [&#x200B; Profielen van de Toestemmingen van de Bewijs in Workfront Proof &#x200B;](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md).
+     Voor informatie, zie [ Profielen van de Toestemmingen van de Bewijs in Workfront Proof ](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md).
 
    * (Facultatief) Gebruikend de **het contactnaam of e-mailadres van het Type om een ontvankelijke** doos toe te voegen, voeg recensenten aan de versie toe. U kunt de rol van het a **Bewijs** en **e-mailalarm** type voor elke ontvanger dan selecteren.
 
-     Voor informatie, zie [&#x200B; Groepen aan een Bewijs &#x200B;](../../../workfront-proof/wp-mnguserscontacts/groups/add-groups.md) toevoegen en [&#x200B; Beheren de Rollen van het Bewijs in Workfront Proof &#x200B;](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md).
+     Voor informatie, zie [ Groepen aan een Bewijs ](../../../workfront-proof/wp-mnguserscontacts/groups/add-groups.md) toevoegen en [ Beheren de Rollen van het Bewijs in Workfront Proof ](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md).
 
      >[!NOTE]
      >
-     >Als de de bewijsschepper of eigenaar heeft het Made e-mail van het Bewijs door gebrek in hun persoonlijke montages wordt onbruikbaar gemaakt, zullen zij geen Bewijs of Nieuwe proefe-mails ontvangen zelfs als **ontvangers van de Prijsverklaring over deze proefdruk** doos op de Nieuwe proefdrukpagina wordt gecontroleerd. Voor informatie, zie [&#x200B; de montages van het e-mailbericht in Workfront Proof &#x200B;](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md) vormen, [&#x200B; het Bewijs e-mail &#x200B;](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/proof-made-email.md) maakte, en [&#x200B; Nieuwe proef e-mail &#x200B;](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/new-proof-email.md).
+     >Als de de bewijsschepper of eigenaar heeft het Made e-mail van het Bewijs door gebrek in hun persoonlijke montages wordt onbruikbaar gemaakt, zullen zij geen Bewijs of Nieuwe proefe-mails ontvangen zelfs als **ontvangers van de Prijsverklaring over deze proefdruk** doos op de Nieuwe proefdrukpagina wordt gecontroleerd. Voor informatie, zie [ de montages van het e-mailbericht in Workfront Proof ](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md) vormen, [ het Bewijs e-mail ](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/proof-made-email.md) maakte, en [ Nieuwe proef e-mail ](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/new-proof-email.md).
 
    * (Optioneel) Stel een proefdrukdeadline in.
 
@@ -136,15 +134,15 @@ Een nieuwe versie van een proefdruk maken in Workfront Proof:
 
 1. In de **E-mail- bericht** sectie, selecteer om het even welke volgende montages:
 
-   * (Facultatief) **breng ontvangers op de hoogte over deze proef**: Selecteer deze optie om de recensenten van de nieuwe versie op de hoogte te brengen. Uw selectie zal het programma worden geopend in de **sectie van de Activiteit** van de **pagina van de details van het Bewijs**. Voor meer informatie, zie [&#x200B; Beheren de Details van het Bewijs in Workfront Proof &#x200B;](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
+   * (Facultatief) **breng ontvangers op de hoogte over deze proef**: Selecteer deze optie om de recensenten van de nieuwe versie op de hoogte te brengen. Uw selectie zal het programma worden geopend in de **sectie van de Activiteit** van de **pagina van de details van het Bewijs**. Voor meer informatie, zie [ Beheren de Details van het Bewijs in Workfront Proof ](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
 
    * (Voorwaardelijk en Facultatief) **voeg douaneonderwerp en bericht** toe: Selecteer deze optie om een lijn en een bericht van het douaneonderwerp aan het e-mailbericht toe te voegen.
 
 1. In de **sectie van de Organisatie**, selecteer om het even welke volgende montages:
 
-   * Pas een of meer labels toe op de proefdruk. Voor meer informatie, zie [&#x200B; Codes in Workfront Proof &#x200B;](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/create-and-manage-tags.md) creëren en beheren.
+   * Pas een of meer labels toe op de proefdruk. Voor meer informatie, zie [ Codes in Workfront Proof ](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/create-and-manage-tags.md) creëren en beheren.
 
-   * Voeg de versie toe aan een map. De map wordt gekopieerd uit de vorige versie van de proefdruk. Als u een andere map selecteert, wordt de hele proefdruk (die alle versies omvat) verplaatst. Voor meer informatie, zie [&#x200B; Mappen in Workfront Proof beheren &#x200B;](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md).
+   * Voeg de versie toe aan een map. De map wordt gekopieerd uit de vorige versie van de proefdruk. Als u een andere map selecteert, wordt de hele proefdruk (die alle versies omvat) verplaatst. Voor meer informatie, zie [ Mappen in Workfront Proof beheren ](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md).
 
    * De facturerende beheerders en de Beheerders kunnen het omslaggebied over de volledige rekening in de **Montages** tabel verplicht maken.
 
@@ -157,7 +155,7 @@ Een nieuwe versie van een proefdruk maken in Workfront Proof:
    * Openbaar delen van het bewijs toestaan.
    * Abonneren op de proefdruk toestaan.
 
-     De selecties die in deze sectie worden gemaakt zullen in de **pagina van de Details van het Bewijs** worden getoond (waar sommige gebieden kunnen worden uitgegeven). Voor meer informatie, zie [&#x200B; Beheren de Details van het Bewijs in Workfront Proof &#x200B;](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
+     De selecties die in deze sectie worden gemaakt zullen in de **pagina van de Details van het Bewijs** worden getoond (waar sommige gebieden kunnen worden uitgegeven). Voor meer informatie, zie [ Beheren de Details van het Bewijs in Workfront Proof ](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
 
 <!--
 <h2 data-mc-conditions="QuicksilverOrClassic.Draft mode">Create a new version of a proof from the proofing viewer</h2>

@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 2d76077d-2913-40b8-9596-4e201d12ec1a
-source-git-commit: b886284eb44c2154987019655ff07cdeb0e1ae22
+source-git-commit: 985f1aa11ad1d5efc8d043907d60ad5f5c1bba13
 workflow-type: tm+mt
-source-wordcount: '305'
+source-wordcount: '290'
 ht-degree: 0%
 
 ---
@@ -23,8 +23,6 @@ Prioriteiten geven de werkitems weer die aan u zijn toegewezen. U kunt geen werk
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -32,14 +30,14 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront-plan</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront-pakket</strong></td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront-licentie*</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront-licentie</strong></td> 
    <td> 
-   <p>Huidig: Aanvraag of hoger voor problemen; Werk of hoger voor taken</p>
-   <p>Nieuw: Medewerker of hoger of hoger; licht of hoger voor taken</p> 
+   <p>Aanvraag of hoger voor problemen; werk of hoger voor taken</p>
+   <p>Medewerker of hoger of hoger; licht of hoger voor taken</p> 
    </td> 
   </tr> 
   <tr> 
@@ -53,7 +51,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-*Voor meer informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -65,7 +63,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 1. In de **Snelle verbindingen** sectie, klik **verbinding** toevoegen.
 1. Plak URL in **voeg verbinding** doos toe.
 1. Klik **sparen**.
-   ![&#x200B; voeg verbinding &#x200B;](assets/add-link.png) toe
+   ![ voeg verbinding ](assets/add-link.png) toe
 
 ## Een snelle koppeling naar het klembord kopiëren
 
@@ -73,8 +71,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 1. Klik op de naam van een het werkpunt om de **pagina van het Overzicht** te openen.
 1. In de **Snelle verbindingen** sectie, vind de verbinding u wilt kopiëren.
-1. Klik het **pictogram van het Exemplaar 1&rbrace; van het Exemplaar**![&#x200B; pictogram.](assets/copy-icon.png)
-   ![&#x200B; verbinding van het Exemplaar &#x200B;](assets/copy-link.png)
+1. Klik het **pictogram van het Exemplaar 1} van het Exemplaar**![ pictogram.](assets/copy-icon.png)
+   ![ verbinding van het Exemplaar ](assets/copy-link.png)
 
 ## Een snelkoppeling openen
 
@@ -83,7 +81,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 1. Klik op de naam van een het werkpunt om de **pagina van het Overzicht** te openen.
 1. In de **Snelle verbindingen** sectie, vind de verbinding u wilt openen.
 1. Klik op de koppeling. De koppeling wordt geopend op een nieuw tabblad.
-   ![&#x200B; Open verbinding &#x200B;](assets/open-link.png)
+   ![ Open verbinding ](assets/open-link.png)
 
 ## Snelle koppelingen verwijderen
 
@@ -91,5 +89,5 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 1. Klik op de naam van een het werkpunt om de **pagina van het Overzicht** te openen.
 1. Klik **uitgeven Details** in de hoger-juiste hoek van het scherm.
-   ![&#x200B; geef details &#x200B;](assets/edit-details.png) uit
-1. Vind de verbinding die u wilt verwijderen, dan klikken **Schrapping** ![&#x200B; pictogram van de Schrapping &#x200B;](assets/delete-icon.png) pictogram.
+   ![ geef details ](assets/edit-details.png) uit
+1. Vind de verbinding die u wilt verwijderen, dan klikken **Schrapping** ![ pictogram van de Schrapping ](assets/delete-icon.png) pictogram.

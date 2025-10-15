@@ -7,9 +7,9 @@ author: Jenny
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 5fbcd807-e152-4e93-a895-2028ed089f72
-source-git-commit: 56d0b9281387cc7b35055461e7868c7e4a194f81
+source-git-commit: 1059950dd3b20e0959c626e580f958bed5076541
 workflow-type: tm+mt
-source-wordcount: '555'
+source-wordcount: '559'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->De functie Canvasdashboards is momenteel alleen beschikbaar voor gebruikers die deelnemen aan de bètafase. Onderdelen van het onderdeel zijn mogelijk niet compleet of werken niet zoals bedoeld in deze fase. Gelieve te dienen om het even welke terugkoppelen betreffende uw ervaring door de instructies in [&#x200B; te volgen geef hieronder &#x200B;](#provide-feedback) sectie terug.<br>
->&#x200B;>Als u feedback hebt over een mogelijk probleem met een probleem of een technisch probleem, stuurt u een ticket naar Workfront Support. Voor meer informatie, zie [&#x200B; de Steun van de Klant van het Contact &#x200B;](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
->&#x200B;>Deze bètaversie is niet beschikbaar op de volgende cloudproviders:
+>De functie Canvasdashboards is momenteel alleen beschikbaar voor gebruikers die deelnemen aan de bètafase. Onderdelen van het onderdeel zijn mogelijk niet compleet of werken niet zoals bedoeld in deze fase. Gelieve te dienen om het even welke terugkoppelen betreffende uw ervaring door de instructies in [ te volgen geef hieronder ](#provide-feedback) sectie terug.<br>
+>>Als u feedback hebt over een mogelijk probleem met een probleem of een technisch probleem, stuurt u een ticket naar Workfront Support. Voor meer informatie, zie [ de Steun van de Klant van het Contact ](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
+>>Deze bètaversie is niet beschikbaar op de volgende cloudproviders:
 >
 >* Je eigen sleutel voor Amazon Web Services
 >* Azure
@@ -28,11 +28,11 @@ ht-degree: 0%
 
 Canvasdashboards is een functie die momenteel in ontwikkeling is en waarmee u uw Adobe Workfront-gegevens eenvoudig kunt visualiseren door verschillende rapporttypen toe te voegen aan een canvas met veel flexibele layoutopties, zoals vergroten, verkleinen, slepen en neerzetten, en nog veel meer.
 
-Voor meer informatie, zie [&#x200B; Overzicht van de Dashboards van het Canvas &#x200B;](/help/quicksilver/reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md).
+Voor meer informatie, zie [ Overzicht van de Dashboards van het Canvas ](/help/quicksilver/reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md).
 
 ## Toegangsvereisten
 
-+++ Vouw uit om de vereisten voor toegang weer te geven. 
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -41,7 +41,7 @@ Voor meer informatie, zie [&#x200B; Overzicht van de Dashboards van het Canvas &
 </col> 
 <tbody> 
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront-plan</p></td> 
+   <td role="rowheader"><p>Adobe Workfront-pakket</p></td> 
    <td> 
 <p>Alle </p> 
    </td> 
@@ -49,8 +49,8 @@ Voor meer informatie, zie [&#x200B; Overzicht van de Dashboards van het Canvas &
  <tr> 
    <td role="rowheader"><p>Adobe Workfront-licentie</p></td> 
    <td> 
-<p>Huidig: Plan </p> 
-<p>Nieuw: Standaard</p> 
+<p>Standard </p> 
+<p>Plan</p> 
    </td> 
    </tr> 
   </tr> 
@@ -62,13 +62,13 @@ Voor meer informatie, zie [&#x200B; Overzicht van de Dashboards van het Canvas &
 </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 +++
 
 
 ## Inschrijven in de bètaversie
 
-1. Klik het **[!UICONTROL Main Menu]** pictogram ![&#x200B; Belangrijkste Menu &#x200B;](/help/_includes/assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, of (als beschikbaar), klik het **[!UICONTROL Main Menu]** pictogram ![&#x200B; Belangrijkste Menu &#x200B;](/help/_includes/assets/main-menu-icon-left-nav.png) in de upper-left hoek, dan klik **Dashboards**.
+1. Klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, of (als beschikbaar), klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon-left-nav.png) in de upper-left hoek, dan klik **Dashboards**.
 
 1. In de hoger-juiste hoek van de pagina, klik **sluit zich aan bij de bètaknoop van de Dashboards van het Canvas**.
 
@@ -81,14 +81,14 @@ Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van d
    >[!NOTE]
    >
    >Zodra de bètavoorwaarden zijn geaccepteerd, worden de mogelijkheden van het dashboard van het canvas ingeschakeld voor alle gebruikers in de Workfront-omgeving. Om het even welke gebruiker met Mening en leidt toegang tot dashboards zal kunnen om de Dashboards van het Canvas per hun toegangsniveau bekijken en uitgeven.<br>
-   >Houd er rekening mee dat de zichtbaarheid van de bestemmingspagina van de canvasdashboards wordt geregeld via de toegewezen lay-outsjabloon van de gebruiker. Voor meer, zie [&#x200B; lay-outmalplaatjes &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md) creëren en beheren.
+   >Houd er rekening mee dat de zichtbaarheid van de bestemmingspagina van de canvasdashboards wordt geregeld via de toegewezen lay-outsjabloon van de gebruiker. Voor meer, zie [ lay-outmalplaatjes ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md) creëren en beheren.
 
 
 ## Feedback geven
 
 Feedback wordt gewaardeerd wanneer we dit gereedschap ontwikkelen in de loop van de bètaversie. Volg de onderstaande instructies om uw ervaring met ons te delen.
 
-1. Klik het **[!UICONTROL Main Menu]** pictogram ![&#x200B; Belangrijkste Menu &#x200B;](/help/_includes/assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, of (als beschikbaar), klik het **[!UICONTROL Main Menu]** pictogram ![&#x200B; Belangrijkste Menu &#x200B;](/help/_includes/assets/main-menu-icon-left-nav.png) in de upper-left hoek, dan klik **Dashboards**.
+1. Klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, of (als beschikbaar), klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon-left-nav.png) in de upper-left hoek, dan klik **Dashboards**.
 
 1. In het linkerpaneel, klik **de Dashboards van het Canvas**.
 

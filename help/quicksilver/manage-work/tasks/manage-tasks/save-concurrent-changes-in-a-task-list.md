@@ -1,12 +1,12 @@
 ---
 product-area: projects
 navigation-topic: manage-tasks
-title: Overzicht van het opslaan van gelijktijdige wijzigingen in een takenlijst
+title: Overzicht van het Opslaan van Gelijktijdige Veranderingen binnen een Lijst van de Taak
 description: Wanneer u taken in een lijst bewerkt, kunt u afzonderlijke opslaginstellingen gebruiken om aan te geven of de wijzigingen automatisch moeten worden opgeslagen wanneer u taken in een lijst bewerkt.
 author: Alina
 feature: Work Management
 exl-id: dff52425-4711-40a8-8f40-205d75c506ef
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
 workflow-type: tm+mt
 source-wordcount: '497'
 ht-degree: 0%
@@ -17,13 +17,13 @@ ht-degree: 0%
 
 Wanneer u taken in een lijst bewerkt, kunt u afzonderlijke opslaginstellingen gebruiken om aan te geven of de wijzigingen automatisch moeten worden opgeslagen wanneer u taken in een lijst bewerkt.
 
-Voor informatie over het uitgeven van taken in een taaklijst, zie het artikel [&#x200B; taken in een lijst &#x200B;](../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md) uitgeven.
+Voor informatie over het uitgeven van taken in een taaklijst, zie het artikel [ taken in een lijst ](../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md) uitgeven.
 
 Soms kunnen conflicten optreden als twee gebruikers wijzigingen aanbrengen in dezelfde taken.
 
 Houd rekening met het volgende wanneer u taken in een takenlijst bewerkt:
 
-* Adobe Workfront slaat de wijzigingen die u aanbrengt in taken direct op wanneer u ervoor kiest om uw wijzigingen automatisch op te slaan als het type projectupdate Automatisch of Automatisch of bij Wijzigen is. Voor informatie over het Type van projectupdate, zie [&#x200B; het Type van projectupdate &#x200B;](../../../manage-work/projects/manage-projects/select-project-update-type.md) selecteren.
+* Adobe Workfront slaat de wijzigingen die u aanbrengt in taken direct op wanneer u ervoor kiest om uw wijzigingen automatisch op te slaan als het type projectupdate Automatisch of Automatisch of bij Wijzigen is. Voor informatie over het Type van projectupdate, zie [ het Type van projectupdate ](../../../manage-work/projects/manage-projects/select-project-update-type.md) selecteren.
 * Workfront werkt de informatie op de lijst bij u aan elke minuut met veranderingen werkt die andere gebruikers overal anders in het systeem zouden kunnen aanbrengen. Dit zorgt ervoor dat u altijd de recentste informatie over de taken krijgt.
 
 De volgende scenario&#39;s bestaan wanneer de veelvoudige gebruikers de zelfde taken uitgeven:

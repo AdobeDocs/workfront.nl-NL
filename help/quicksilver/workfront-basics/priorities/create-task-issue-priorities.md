@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 240cda0f-0acf-4b5c-872d-b7f5cee0b769
-source-git-commit: b886284eb44c2154987019655ff07cdeb0e1ae22
+source-git-commit: 0940e4c89de6cd3518cd98a1e06dc726f434846b
 workflow-type: tm+mt
-source-wordcount: '262'
+source-wordcount: '247'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,6 @@ U kunt nieuwe taken en kwesties direct van Prioriteiten tot stand brengen:
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -30,14 +29,14 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront-plan</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront-pakket</strong></td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront-licentie*</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront-licentie</strong></td> 
    <td> 
-   <p>Huidig: Verzoek of hoger om verzoeken; Controleren of hoger voor problemen; Werk of hoger voor taken</p>
-   <p>Nieuw: Medewerker of hoger voor verzoeken; Licht of hoger voor problemen en documenten: Standaard of hogere taken</p> 
+   <p>Aanvraag of hoger voor verzoeken; beoordeling of hoger voor problemen; werk of hoger voor taken</p>
+   <p>Medewerker of hoger voor verzoeken; licht of hoger voor problemen en documenten: standaardtaken of hogere taken</p> 
    </td> 
   </tr> 
   <tr> 
@@ -51,7 +50,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-*Voor meer informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -68,7 +67,7 @@ Een taak of kwestie in een project tot stand brengen:
 {{step1-to-priorities}}
 
 1. Klik **creëren nieuw** in de hoger-juiste hoek.
-   ![&#x200B; creeer nieuw (productie) &#x200B;](assets/create-new--.png)
+   ![ creeer nieuw (productie) ](assets/create-new--.png)
 1. Geef de volgende informatie op:
 
    | Veld | Instructies |

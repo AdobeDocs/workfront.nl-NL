@@ -6,9 +6,9 @@ description: U kunt meerdere versies van een document beheren in Workfront.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 477153e4-847b-46ec-8107-72a7399c3767
-source-git-commit: a9dbfe21337be9cd9929f4e982e4979265ca14e1
+source-git-commit: 4a0448583cbcfd1f1df10d6474fdf4e77e7bff3e
 workflow-type: tm+mt
-source-wordcount: '665'
+source-wordcount: '607'
 ht-degree: 0%
 
 ---
@@ -23,38 +23,33 @@ U kunt meerdere versies van een document beheren in Workfront.
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
-U moet het volgende hebben:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan</td> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
    <td> <p> Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licenties</td> 
    <td> 
-   <p>Nieuw: Medewerker of hoger<p>
-   <p>of</p>
-   <p>Huidig: Verzoek of hoger </p>
-
-
-</td> 
+   <p>Medewerker of hoger</p>
+   <p>Aanvraag of hoger </p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau</td> 
-   <td> <p>Toegang tot documenten weergeven</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
+   <td> <p>Toegang tot documenten weergeven</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Toegang tot het document weergeven</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
+   <td> <p>Toegang tot het document weergeven</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -62,7 +57,7 @@ Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van d
 
 * In dit artikel wordt ervan uitgegaan dat het document meerdere versies heeft.
 
-  Als u informatie over het uploaden van nieuwe versies van een document aan Workfront nodig hebt, zie [&#x200B; een nieuwe versie van een document &#x200B;](../../documents/managing-documents/upload-new-document-version.md) uploaden.
+  Als u informatie over het uploaden van nieuwe versies van een document aan Workfront nodig hebt, zie [ een nieuwe versie van een document ](../../documents/managing-documents/upload-new-document-version.md) uploaden.
 
 ## Een lijst met alle versies van een document weergeven
 
@@ -70,7 +65,7 @@ Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van d
 
 1. Voor de **pagina van Documenten**, selecteer een document in de lijst.
 
-1. In de hoger-juiste hoek van de pagina, klik het **Open Samenvatting** pictogram ![&#x200B; Open Summiere pictogram &#x200B;](assets/qs-summary-in-new-toolbar-small.png). Het **Samenvatting van het Document** zijpaneel opent.
+1. In de hoger-juiste hoek van de pagina, klik het **Open Samenvatting** pictogram ![ Open Summiere pictogram ](assets/qs-summary-in-new-toolbar-small.png). Het **Samenvatting van het Document** zijpaneel opent.
 
 1. De rol neer aan de **sectie van Versies** om alle documentversies te bekijken.
 
@@ -82,7 +77,7 @@ Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van d
 
 1. Boven aan de **pagina van de Details van het Document**, klik het drop-down menu naast de naam, dan klik de naam van de versie u wilt bekijken en leiden.
 
-   ![&#x200B; drop-down van de Versie op de pagina van de Details van het Document &#x200B;](assets/version-drop-dn-doc-dtls-nwe-350x93.png)
+   ![ drop-down van de Versie op de pagina van de Details van het Document ](assets/version-drop-dn-doc-dtls-nwe-350x93.png)
 
    Samen met het bekijken van de details van de versie, kunt u veranderingen in de versie, zoals zijn naam, meta-gegevens, en het proef montages (als het een documentproef is) aanbrengen.
 
@@ -92,11 +87,11 @@ Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van d
 
 1. Voor de **pagina van Documenten**, selecteer een document in de lijst.
 
-1. In de hoger-juiste hoek van de pagina, klik het **Open Samenvatting** pictogram ![&#x200B; Open Summiere pictogram &#x200B;](assets/qs-summary-in-new-toolbar-small.png). Het **Samenvatting van het Document** zijpaneel opent.
+1. In de hoger-juiste hoek van de pagina, klik het **Open Samenvatting** pictogram ![ Open Summiere pictogram ](assets/qs-summary-in-new-toolbar-small.png). Het **Samenvatting van het Document** zijpaneel opent.
 
-1. In de **sectie van Versies**, klik de **Meer** menu ![&#x200B; Meer menu &#x200B;](assets/more-icon.png) aan het recht van de versie, dan klik **Download** in de drop-down lijst die verschijnt.
+1. In de **sectie van Versies**, klik de **Meer** menu ![ Meer menu ](assets/more-icon.png) aan het recht van de versie, dan klik **Download** in de drop-down lijst die verschijnt.
 
-   ![&#x200B; Download één enkel document &#x200B;](assets/more-versions-350x143.png)
+   ![ Download één enkel document ](assets/more-versions-350x143.png)
 
 ## Alle versies van een document downloaden
 
@@ -104,7 +99,7 @@ Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van d
 
 1. Voor de **pagina van Documenten**, selecteer een document in de lijst.
 
-1. In de hoger-juiste hoek van de pagina, klik het **Open Samenvatting** pictogram ![&#x200B; Open Summiere pictogram &#x200B;](assets/qs-summary-in-new-toolbar-small.png). Het **Samenvatting van het Document** zijpaneel opent.
+1. In de hoger-juiste hoek van de pagina, klik het **Open Samenvatting** pictogram ![ Open Summiere pictogram ](assets/qs-summary-in-new-toolbar-small.png). Het **Samenvatting van het Document** zijpaneel opent.
 
 1. De rol neer aan de **sectie van Versies** en klikt dan **allen van de Download**.
 
@@ -132,14 +127,14 @@ Een documentversie verwijderen:
 
 1. Voor de **pagina van Documenten**, selecteer het document van de lijst.
 
-1. In de hoger-juiste hoek van de pagina, klik het **Open Samenvatting** pictogram ![&#x200B; Open Summiere pictogram &#x200B;](assets/qs-summary-in-new-toolbar-small.png). Het **Samenvatting van het Document** zijpaneel opent.
+1. In de hoger-juiste hoek van de pagina, klik het **Open Samenvatting** pictogram ![ Open Summiere pictogram ](assets/qs-summary-in-new-toolbar-small.png). Het **Samenvatting van het Document** zijpaneel opent.
 
 1. De rol neer aan de **sectie van Versies** om alle documentversies te bekijken.
-1. In de **sectie van Versies**, klik de **Meer** menu ![&#x200B; Meer menu &#x200B;](assets/more-icon.png) rechts van de versie, dan klik **Schrapping** in de drop-down lijst die verschijnt.
+1. In de **sectie van Versies**, klik de **Meer** menu ![ Meer menu ](assets/more-icon.png) rechts van de versie, dan klik **Schrapping** in de drop-down lijst die verschijnt.
 
    >[!NOTE]
    >
    >* De **schrapping** optie is zichtbaar slechts als er minstens 2 versies zijn.
    >* Als het document is gekoppeld aan een externe bron, wordt die koppeling verwijderd en is het document niet langer toegankelijk via Workfront.
 
-   ![&#x200B; Schrap de documentversie &#x200B;](assets/more-versions-350x143.png)
+   ![ Schrap de documentversie ](assets/more-versions-350x143.png)

@@ -8,16 +8,16 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: d6d18423-d13c-42e8-b8ee-43e6842b6481
-source-git-commit: 594f224e11b0e7708ed555410b7c331741113791
+source-git-commit: c8987d036e1c1324618cb53ebcbb8fd7e4bcc6a4
 workflow-type: tm+mt
-source-wordcount: '260'
-ht-degree: 0%
+source-wordcount: '244'
+ht-degree: 1%
 
 ---
 
 # Voorkeuren voor gebruikersupdates configureren
 
-<!--Audited: 06/2025-->
+<!--Audited: 08/2025-->
 
 U kunt voorkeuren configureren die gebruikers toegang geven tot bepaalde functies wanneer ze opmerkingen toevoegen in het gebied [!UICONTROL Updates] van een object.
 
@@ -25,33 +25,55 @@ U kunt voorkeuren configureren die gebruikers toegang geven tot bepaalde functie
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] package</td> 
+   <td><p>Alle</p></td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] licentie</td> 
+   <td><p>[!UICONTROL Standard]</p>
+   <p>[!UICONTROL Plan]</p>
+   </td> 
+  </tr>  
+  <tr> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
+   <td><p>De beheerder van het systeem, om deze stappen op het systeemniveau uit te voeren. </p>
+   <p>Planner, om deze stappen voor een groep uit te voeren, naast het zijn van de manager van die groep.</p></td>
+  </tr> 
+ </tbody> 
+</table>
 
+*For meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
+
+<!--Old:
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
-   <td>Alle</td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licentie*</td> 
-   <td><p>Nieuw: [!UICONTROL Standard]</p>
-   of
-   <p>Huidige: [!UICONTROL Plan]</p>
+   <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
+   <td><p>New: [!UICONTROL Standard]</p>
+   Or
+   <p>Current: [!UICONTROL Plan]</p>
    </td> 
   </tr>  
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau</td> 
-   <td><p>U hebt het toegangsniveau [!UICONTROL System Administrator] nodig om deze stappen op systeemniveau uit te voeren.</p><p>Om hen voor een groep uit te voeren, moet u een manager van die groep zijn.</p></td>
+   <td role="rowheader">Access level configurations</td> 
+   <td><p>To perform these steps at the system level, you need the [!UICONTROL System Administrator] access level.</p><p>To perform them for a group, you must be a manager of that group.</p></td>
   </tr> 
  </tbody> 
-</table>
-
-*For meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
-
-+++
+</table>-->
 
 ## Gebruikers toestaan afbeeldingen toe te voegen in updates
 
@@ -59,17 +81,17 @@ Standaard kunnen gebruikers geen afbeeldingen in updates toevoegen. Wanneer u de
 
 >[!NOTE]
 >
->* Afbeeldingen die zijn opgeslagen in updates tellen mee voor de opslaglimiet van het document. Voor informatie, zie [&#x200B; de grenzen van de documentopslag van de Controle &#x200B;](../../../documents/managing-documents/check-document-storage.md).
+>* Afbeeldingen die zijn opgeslagen in updates tellen mee voor de opslaglimiet van het document. Voor informatie, zie [ de grenzen van de documentopslag van de Controle ](../../../documents/managing-documents/check-document-storage.md).
 >* Afbeeldingen zijn toegankelijk via het tabblad [!UICONTROL Updates] op een object en zijn ook beschikbaar in het [!UICONTROL Documents] -gebied onder [!UICONTROL Main Menu] .
 >
 
-1. Klik het **[!UICONTROL Main Menu]** pictogram van het pictogram ![&#x200B; Belangrijkste menupictogram &#x200B;](assets/main-menu-icon.png) in de hoger-juiste hoek van [!DNL Adobe Workfront], dan klik **[!UICONTROL Setup]** ![&#x200B; het montagespictogram van het Gear &#x200B;](assets/gear-icon-settings.png).
+1. Klik het **[!UICONTROL Main Menu]** pictogram van het pictogram ![ Belangrijkste menupictogram ](assets/main-menu-icon.png) in de hoger-juiste hoek van [!DNL Adobe Workfront], dan klik **[!UICONTROL Setup]** ![ het montagespictogram van het Gear ](assets/gear-icon-settings.png).
 1. Selecteer **[!UICONTROL Interface]** > **[!UICONTROL Update Feeds]** in het linkerdeelvenster.
-1. Selecteer de tab **[!UICONTROL Preferences]** .
+1. Selecteer het tabblad **[!UICONTROL Preferences]**. 
 
-   ![&#x200B; de voorkeur van de Gebruiker voor updatevoer &#x200B;](assets/updatefeeds-preferences-350x137.png)
+   ![ de voorkeur van de Gebruiker voor updatevoer ](assets/updatefeeds-preferences-350x137.png)
 
 1. Schakel het selectievakje **[!UICONTROL Allow users to add images in updates]** in.
-1. Selecteer **[!UICONTROL Save]** .
+1. Selecteer **[!UICONTROL Save]**.
 
    Wanneer deze voorkeur wordt toegelaten, kunt u het op elk ogenblik onbruikbaar maken. Alle afbeeldingen die al in updates zijn geplaatst, blijven in het [!UICONTROL Updates] -gebied van het object.

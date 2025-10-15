@@ -7,9 +7,9 @@ description: Dit rapportfilter geeft alle rapporten weer die automatisch worden 
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 7b937384-80c9-4bc7-94be-5573cf86b35b
-source-git-commit: e8acdf8f7b3859385237e788dfda34ee62ee11d1
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '193'
+source-wordcount: '179'
 ht-degree: 0%
 
 ---
@@ -22,28 +22,21 @@ Dit rapportfilter geeft alle rapporten weer die automatisch worden geleverd in A
 
 ## Toegangsvereisten
 
-+++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
-
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan</td> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie*</td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
    <td> 
-    <p>Nieuw:</p>
-   <ul><li><p>Medewerker om een filter te wijzigen </p></li>
-   <li><p>Standaard voor het wijzigen van een rapport</p></li> </ul>
-
-<p>Huidige:</p>
-   <ul><li><p>Verzoek om een filter te wijzigen </p></li>
-   <li><p>Plan om een rapport te wijzigen</p></li> </ul></td> 
+   <p>Medewerker of verzoek om een filter te wijzigen </p>
+   <p>Standaard of Plan om een rapport te wijzigen</p>
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau</td> 
@@ -56,7 +49,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-*For informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

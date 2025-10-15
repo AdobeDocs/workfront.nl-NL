@@ -6,9 +6,9 @@ description: U kunt de Adobe Workfront for XD-insteekmodule installeren vanaf de
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: d4971977-b5bd-4bb4-a1c2-44829a67d32d
-source-git-commit: a5c4479833243bb5817196a3af8acaa063a16747
+source-git-commit: a65a4568c6428768ee6bc60a59a8499efdbec9f8
 workflow-type: tm+mt
-source-wordcount: '535'
+source-wordcount: '508'
 ht-degree: 0%
 
 ---
@@ -32,8 +32,6 @@ U kunt de plug-in [!DNL Adobe Workfront for XD] installeren vanaf de Adobe Marke
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -41,21 +39,23 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </col> 
  <tbody> 
  <!-- <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
-   <td> <p>[!UICONTROL Pro] or higher</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] package/td> 
+   <td> <p>Any</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
-   <td> <p>[!UICONTROL Work] or [!UICONTROL Plan]</p> </td> 
+   <td>
+   <p>Standard</p>
+    <p>Work or higher</p> </td> 
   </tr> -->
   <tr> 
-   <td role="rowheader">Product</td> 
-   <td><p>U moet een [!DNL Adobe Creative Cloud] licentie hebben naast een [!DNL Workfront] licentie.</p><p>Voor meer informatie, zie <a href="https://helpx.adobe.com/nl/support/programs/cc-support-policy.html#cce" class="MCXref xref" xrefformat="{para}"> het Beleid van de Steun van Creative Cloud </a>.</p></td> 
+   <td role="rowheader">Aanvullende producten</td> 
+   <td><p>U moet een [!DNL Adobe Creative Cloud] licentie hebben naast een [!DNL Workfront] licentie.</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw [!DNL Workfront] beheerder.
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -65,19 +65,19 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 ## Installeer de [!DNL Adobe Workfront for XD] -plug-in voor uw organisatie
 
-Als u een [!DNL Adobe Admin Console] -beheerder bent, kunt u de plug-in opnemen in [!DNL Creative Cloud] -implementatiepakketten. Voor meer informatie, zie [&#x200B; Including steekmodules in uw pakket &#x200B;](https://helpx.adobe.com/in/enterprise/using/manage-extensions.html).
+Als u een [!DNL Adobe Admin Console] -beheerder bent, kunt u de plug-in opnemen in [!DNL Creative Cloud] -implementatiepakketten. Voor meer informatie, zie [ Including steekmodules in uw pakket ](https://helpx.adobe.com/in/enterprise/using/manage-extensions.html).
 
-[&#x200B; Mening hier een videoleerprogramma &#x200B;](https://www.youtube.com/watch?v=zzvXNLIBzrc){target=_blank} .
+[ Mening hier een videoleerprogramma ](https://www.youtube.com/watch?v=zzvXNLIBzrc){target=_blank}.
 
-[!DNL Adobe Admin Console] -beheerders kunnen ook pakketten met alleen plug-ins maken voor distributie naar gebruikers. Voor meer informatie, zie [&#x200B; [!UICONTROL [!DNL Adobe Workfront] creëren voor  [!DNL Creative Cloud]]  pakketten voor uw gebruikers in  [!DNL Adobe Admin Console]](/help/quicksilver/administration-and-setup/configure-integrations/create-plugin-only-packages.md)
+[!DNL Adobe Admin Console] -beheerders kunnen ook pakketten met alleen plug-ins maken voor distributie naar gebruikers. Voor meer informatie, zie [ [!UICONTROL [!DNL Adobe Workfront] creëren voor  [!DNL Creative Cloud]]  pakketten voor uw gebruikers in  [!DNL Adobe Admin Console]](/help/quicksilver/administration-and-setup/configure-integrations/create-plugin-only-packages.md)
 
 ## De [!DNL Adobe Workfront for XD] -plug-in afzonderlijk installeren
 
 U kunt de [!DNL Adobe Workfront for XD] -insteekmodule voor uzelf installeren vanuit de [!DNL Adobe Exchange] .
 
-1. Ga naar [&#x200B; Adobe Workfront voor XD installeert pagina &#x200B;](https://exchange.adobe.com/apps/cc/4c3566f9?pluginId=4c3566f9&workflow=share) op Adobe Exchange.
+1. Ga naar [ Adobe Workfront voor XD installeert pagina ](https://exchange.adobe.com/apps/cc/4c3566f9?pluginId=4c3566f9&workflow=share) op Adobe Exchange.
 1. In de dialoog die verschijnt, klik **Open [!DNL Adobe Creative Cloud] Desktop app**.
-1. Klik op **[!UICONTROL Install]** als [!DNL Adobe XD] Plug-inbeheer wordt geopend.
+1. Klik op [!DNL Adobe XD] als **[!UICONTROL Install]** Plug-inbeheer wordt geopend.
 1. Lees de informatie in het dialoogvenster en klik op **[!UICONTROL OK]** .
 1. Ga naar de volgende sectie voor informatie over het openen van de plug-in.
 
@@ -89,9 +89,9 @@ U kunt de [!DNL Adobe Workfront for XD] -insteekmodule voor uzelf installeren va
 
 1. In de bodem-linkerhoek, klik het **Plugins** pictogram.
 
-![&#x200B; XD plugin venster &#x200B;](assets/xd-plugin-window-350x620.png)
+![ XD plugin venster ](assets/xd-plugin-window-350x620.png)
 
-1. Zoek **[!UICONTROL Adobe Workfront for XD]** in de **[!UICONTROL Plugins Panel]** .
+1. Zoek **[!UICONTROL Plugins Panel]** in de **[!UICONTROL Adobe Workfront for XD]** .
 
 1. Ga naar de volgende sectie voor informatie over hoe u zich aanmeldt bij de plug-in.
 
@@ -103,7 +103,7 @@ U kunt de [!DNL Adobe Workfront for XD] -insteekmodule voor uzelf installeren va
    >[!TIP]
    >
    >* Als u uw domein wilt zoeken, opent u een browser, navigeert u naar de instantie [!DNL Workfront] en kopieert u het eerste deel van de URL:\
-   >![&#x200B; plaats van domein &#x200B;](assets/domain-350x50.png)
+   >![ plaats van domein ](assets/domain-350x50.png)
    >
    > * Als uw Workfront-exemplaar is geïntegreerd met Experience Cloud, vraagt u uw beheerder om het Workfront-domein dat u kunt vinden onder Product > Workfront in de Admin Console.
 
@@ -129,7 +129,7 @@ U kunt de [!DNL Adobe Workfront for XD] -insteekmodule voor uzelf installeren va
 
 U kunt een URL die begint met `experience.adobe.com` niet gebruiken om u aan te melden bij de plug-in.
 
-![&#x200B; login fout &#x200B;](assets/plugin-log-in-error.png) ![&#x200B; domein &#x200B;](assets/incorrect-domain.png)
+![ login fout ](assets/plugin-log-in-error.png) ![ domein ](assets/incorrect-domain.png)
 
 
 U kunt dit probleem als volgt oplossen:

@@ -7,9 +7,9 @@ description: Meer informatie over het foutbericht Je bent momenteel niet aangeme
 author: Nolan
 feature: Reports and Dashboards
 exl-id: fda4630a-2590-46f4-94ff-499a485367ee
-source-git-commit: bcafa607da733b89747f6b448dd295d9b906d060
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '265'
+source-wordcount: '215'
 ht-degree: 0%
 
 ---
@@ -18,34 +18,38 @@ ht-degree: 0%
 
 ## Toegangsvereisten
 
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 <table style="table-layout:auto"> 
  <col> 
- </col> 
  <col> 
- </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-abonnement*</td> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Plan, werk</p> </td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td> 
+     <p>Standard</p>
+     <p>Werk of hoger</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot rapporten, dashboards, kalenders bewerken</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
+   <td> <p>Toegang tot rapporten, dashboards, kalenders bewerken</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Machtigingen beheren voor een rapport</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
+   <td> <p>Machtigingen beheren voor een rapport</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
 
 ## Probleem
 

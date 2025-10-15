@@ -8,9 +8,9 @@ feature: System Setup and Administration, Workfront Integrations and Apps, Digit
 role: Admin
 author: Courtney, Becky
 exl-id: 78281bca-1fa1-4e78-96e5-70be12142bbd
-source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
+source-git-commit: 85ccee879fd4ba5a80b6e885458839901f83d26e
 workflow-type: tm+mt
-source-wordcount: '282'
+source-wordcount: '263'
 ht-degree: 1%
 
 ---
@@ -25,30 +25,30 @@ Wanneer u de verbinding tussen [!DNL Workfront] en een documentprovider uitschak
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
-U moet het volgende hebben om de stappen in dit artikel uit te voeren:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
-   <td>Alle</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licentie</td> 
-   <td>[!UICONTROL Plan]</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>U moet een [!DNL Workfront] beheerder zijn. Voor informatie over [!DNL Workfront] beheerders, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref"> een gebruiker volledige administratieve toegang verlenen </a>.</p> </td> 
-  </tr> 
- </tbody> 
+<table>
+  <tr>
+   <td>Adobe Workfront-pakket
+   </td>
+   <td> <p>Prime of Ultimate</p>
+    <p>Workflow Ultimate</p>
+   </td>
+  </tr>
+  <tr>
+   <td>Adobe Workfront-licenties
+   </td>
+   <td><p>Standard</p>
+   <p>Plan</p>
+   </td>
+  </tr>
+   <tr>
+   <td>Configuraties op toegangsniveau
+   </td>
+   <td>U moet een [!DNL Workfront] beheerder zijn.
+   </td>
+  </tr>
 </table>
 
-&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw [!DNL Workfront] beheerder.
-
-+++
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Integratie van cloudproviders uitschakelen
 

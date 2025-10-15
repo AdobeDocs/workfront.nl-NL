@@ -9,10 +9,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: c4c70532-de4f-4264-b661-2d30cefd403c
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: 929502c256011b464d938ad1095c127407e4a795
 workflow-type: tm+mt
-source-wordcount: '179'
-ht-degree: 0%
+source-wordcount: '156'
+ht-degree: 1%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 U kunt geen verbinding maken met ADFS.
 
-![&#x200B; identifier_not_found.png &#x200B;](assets/identifier-not-found.png)
+![ identifier_not_found.png ](assets/identifier-not-found.png)
 
 >[!NOTE]
 >
@@ -36,31 +36,27 @@ Claims op de ADFS-server zijn onjuist.
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
-   <td>Alle</td> 
+   <td>[!DNL Adobe Workfront] package</td> 
+   <td><p>Alle</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licentie</td> 
-   <td>
-   <p>Nieuw: Standaard</p>
-   <p>of</p>
-   <p>Huidig: Plan</p></td> 
+   <td>[!DNL Adobe Workfront] licentie</td> 
+   <td><p>Standard</p>
+       <p>Plan</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau</td> 
-   <td>[!UICONTROL System Administrator]</td>
+   <td>Configuraties op toegangsniveau</td> 
+   <td>[!UICONTROL System Administrator]</td> 
   </tr> 
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -76,4 +72,4 @@ Controleer of er op de ADFS-server een claim voor naam-id is:
 1. Klik met de rechtermuisknop op het vertrouwen van de betrouwbare partij dat betrekking heeft op Adobe Workfront en selecteer **[!UICONTROL Edit Claim Rules]** .
 1. Controleer of de claim een **[!UICONTROL Outgoing Claim Type]** van **[!UICONTROL Name ID]** heeft.
 
-![&#x200B; 1.png &#x200B;](assets/1-350x287.png)
+![ 1.png ](assets/1-350x287.png)

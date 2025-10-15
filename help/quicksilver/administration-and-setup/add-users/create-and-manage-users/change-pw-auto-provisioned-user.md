@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 14124911-e5e1-4a4f-9b25-8b4fab0329e1
-source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
+source-git-commit: f8d04790caefd12c9811ea3ed94e1f892311d031
 workflow-type: tm+mt
-source-wordcount: '469'
+source-wordcount: '448'
 ht-degree: 0%
 
 ---
@@ -32,9 +32,9 @@ Omdat de gebruikersnamen GUID moeilijk kunnen zijn te gebruiken, adviseren wij u
 >
 >  In de URL `https://acme.workfront.com/user/61941ab1000af22d7104628efa1c738b/details` kopieert u bijvoorbeeld de reeks getallen en letters tussen de laatste twee slashes: `61941ab1000af22d7104628efa1c738b` .
 >
->  Voor meer informatie, zie [&#x200B; het profiel van een gebruiker &#x200B;](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) uitgeven.
+>  Voor meer informatie, zie [ het profiel van een gebruiker ](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) uitgeven.
 >
->* Creeer een gebruikersrapport met een Gebruiker > GUID kolom. Voor meer informatie, zie [&#x200B; een rapport &#x200B;](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-report.md) creëren.
+>* Creeer een gebruikersrapport met een Gebruiker > GUID kolom. Voor meer informatie, zie [ een rapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-report.md) creëren.
 >
 >* Vraag de Workfront API op.
 >
@@ -43,32 +43,27 @@ Omdat de gebruikersnamen GUID moeilijk kunnen zijn te gebruiken, adviseren wij u
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan</td> 
-   <td>Alle</td> 
+   <td>Adobe Workfront-pakket</td> 
+   <td><p>Alle</p></td> 
   </tr> 
   <tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront-licentie</td> 
-   <td><p>Nieuw: Standaard</p>
-       <p>of</p>
-       <p>Huidig: Plan</p></td>
-  </tr> 
+   <td>Adobe Workfront-licentie</td> 
+   <td><p>Standard</p>
+       <p>Plan</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau</td> 
-   <td>[!UICONTROL System Administrator]</td>
+   <td>Configuraties op toegangsniveau</td> 
+   <td>Systeembeheerder</td> 
   </tr> 
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -80,15 +75,15 @@ Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van d
 
    U ontvangt een reactie die vergelijkbaar is met het volgende:
 
-   ![&#x200B; krijgt GUID &#x200B;](assets/get-guid.png)
+   ![ krijgt GUID ](assets/get-guid.png)
 
    De terugkeer voor &quot;gebruikersbenaming&quot;is GUID van de gebruiker.
 
 1. Gebruikend hun GUID als hun gebruikersnaam, verander het wachtwoord van de gebruiker.
 
-   Voor meer informatie bij het veranderen van uw wachtwoord, zie [&#x200B; het Terugstellen van uw wachtwoord &#x200B;](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/reset-your-password.md).
+   Voor meer informatie bij het veranderen van uw wachtwoord, zie [ het Terugstellen van uw wachtwoord ](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/reset-your-password.md).
 
-   Als uw organisatie een SSO-systeem gebruikt, kan alleen een Workfront-systeembeheerder het wachtwoord van een gebruiker wijzigen. Voor meer informatie, zie [&#x200B; Overzicht van enig teken-op in Adobe Workfront &#x200B;](../../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md)
+   Als uw organisatie een SSO-systeem gebruikt, kan alleen een Workfront-systeembeheerder het wachtwoord van een gebruiker wijzigen. Voor meer informatie, zie [ Overzicht van enig teken-op in Adobe Workfront ](../../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md)
 
 1. Blader met de gebruiker aangemeld bij Workfront naar:
 
@@ -98,7 +93,7 @@ Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van d
 
 1. In het **Uw login e-mailadres** vakje, verifieer dat het e-mailadres van de gebruiker correct is, dan klik **Rekening van de Update**.
 
-   ![&#x200B; Gebruikersnaam &#x200B;](assets/guidusername-350x272.png)
+   ![ Gebruikersnaam ](assets/guidusername-350x272.png)
 
    De gebruikersnaam van de gebruiker wordt gewijzigd in het Workfront-e-mailadres.
 
@@ -106,7 +101,7 @@ Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van d
 >
 >De id van een gebruiker zoeken:
 >
->1. Klik het **pictogram 1&rbrace; van het Belangrijkste Menu ![&#x200B; Belangrijkste menupictogram &#x200B;](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik** Gebruikers **![&#x200B; pictogram van Gebruikers &#x200B;](assets/users-icon-in-main-menu.png).**
+>1. Klik het **pictogram 1} van het Belangrijkste Menu** Belangrijkste menupictogram ![ in de hoger-juiste hoek van Adobe Workfront, dan klik ](assets/main-menu-icon.png) Gebruikers **** pictogram van Gebruikers ![.](assets/users-icon-in-main-menu.png)
 >
 >1. Selecteer de gebruiker.
 >

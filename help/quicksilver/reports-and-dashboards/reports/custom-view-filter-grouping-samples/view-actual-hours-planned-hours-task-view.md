@@ -7,9 +7,9 @@ description: In deze taakmening, wordt de daadwerkelijke hoeveelheid uren die op
 author: Nolan
 feature: Reports and Dashboards
 exl-id: c1179283-dc2e-40d3-b8e0-4b1b79f83ad3
-source-git-commit: a7cdee912e5047f1c8ef224aff6a41eaa3633df6
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '283'
+source-wordcount: '269'
 ht-degree: 0%
 
 ---
@@ -18,34 +18,27 @@ ht-degree: 0%
 
 In deze taakmening, wordt de daadwerkelijke hoeveelheid uren die op een taak wordt geregistreerd getoond over de uren die voor elke taak worden gepland. De variantie van het uren tussen Gepland en de Ware Uren toont ook in een afzonderlijke kolom.
 
-![&#x200B; actual_vs_scheduled_in_task_report.png &#x200B;](assets/actual-vs-planned-in-task-report-350x58.png)
+![ actual_vs_scheduled_in_task_report.png ](assets/actual-vs-planned-in-task-report-350x58.png)
 
 ## Toegangsvereisten
 
 <!--Audited: 10/2024-->
 
-+++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
-
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan</td> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie*</td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
    <td> 
-    <p>Nieuw:</p>
-   <ul><li><p>Medewerker om een filter te wijzigen </p></li>
-   <li><p>Standaard voor het wijzigen van een rapport</p></li> </ul>
-
-<p>Huidige:</p>
-   <ul><li><p>Verzoek om een filter te wijzigen </p></li>
-   <li><p>Plan om een rapport te wijzigen</p></li> </ul></td> 
+   <p>Medewerker of verzoek om een filter te wijzigen </p>
+   <p>Standaard of Plan om een rapport te wijzigen</p>
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau</td> 
@@ -58,7 +51,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-*For informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

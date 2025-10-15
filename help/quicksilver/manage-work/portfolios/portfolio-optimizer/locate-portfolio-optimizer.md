@@ -6,9 +6,9 @@ description: U kunt de [!UICONTROL Portfolio Optimizer] vinden wanneer u tot een
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: de9abb4e-0bf2-4673-8be1-3f0f35e17eaf
-source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
+source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
 workflow-type: tm+mt
-source-wordcount: '121'
+source-wordcount: '110'
 ht-degree: 0%
 
 ---
@@ -19,26 +19,26 @@ U kunt de [!UICONTROL Portfolio Optimizer] vinden wanneer u tot een portefeuille
 
 ## Toegangsvereisten
 
-+++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
-
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
-   <td> <p>Alle</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] package</td> 
+   <td> <p>Workfront Prime of hoger</p>
+      <p>Workflow Prime of hoger</p>
+    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licentie*</td> 
-   <td> <p>Nieuw: Standaard</p>
-   <p>Huidig: [!UICONTROL Plan] </p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licentie</td> 
+   <td> <p>[!UICONTROL Standard]</p>
+   <p>[!UICONTROL Plan]</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>[!UICONTROL Edit] toegang tot portfolio's en projecten</p>  </td>
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
+   <td> <p>[!UICONTROL Edit] toegang tot [!UICONTROL Portfolios] en [!UICONTROL Projects]</p>  </td>
 </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
@@ -47,9 +47,34 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-*For informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*For informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+<!--Old:
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
+   <td> <p>New: Standard</p>
+   <p>Current: [!UICONTROL Plan] </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations*</td> 
+   <td> <p>[!UICONTROL Edit] access to Portfolios and Projects</p>  </td>
+</tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>[!UICONTROL Manage] permissions to the portfolio</p>  </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## Zoek de [!UICONTROL Portfolio Optimizer]
 
@@ -63,4 +88,4 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
    De [!UICONTROL Portfolio Optimizer] wordt weergegeven.
 
-   ![&#x200B; optimizer van Portfolio &#x200B;](assets/nwe-portfolio-optimizer-350x83.png)
+   ![ optimizer van Portfolio ](assets/nwe-portfolio-optimizer-350x83.png)

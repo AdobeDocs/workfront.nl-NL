@@ -6,9 +6,9 @@ description: Wanneer u een artikeltegel weergeeft op het Kanban-bord, kunt u bep
 author: Lisa
 feature: Agile
 exl-id: a22a7b61-b331-4c98-9421-e7fccedcd096
-source-git-commit: 91dc9946566e15bf32d0d89975e3e6b66b39e873
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
-source-wordcount: '386'
+source-wordcount: '376'
 ht-degree: 0%
 
 ---
@@ -73,8 +73,6 @@ Wanneer u een artikeltegel weergeeft op het [!UICONTROL Kanban] -bord, is de inf
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -82,19 +80,18 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licentie</td> 
-   <td> <p>Nieuw: [!UICONTROL Standard]</p> 
-   of
-   <p>Huidig: [!UICONTROL Work] of hoger</p> </td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td> <p>Standard</p> 
+   <p>Werk of hoger</p> </td> 
   </tr>
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -102,16 +99,16 @@ Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van d
 
 {{step1-to-team}}
 
-1. (Facultatief) klik het **[!UICONTROL Switch team]** pictogram van de pictogram ![&#x200B; Schakelaar teampictogram &#x200B;](assets/switch-team-icon.png), dan of selecteer een nieuw team Kanban van het drop-down menu of onderzoek naar een team in de onderzoeksbar.
+1. (Facultatief) klik het **[!UICONTROL Switch team]** pictogram van de pictogram ![ Schakelaar teampictogram ](assets/switch-team-icon.png), dan of selecteer een nieuw team Kanban van het drop-down menu of onderzoek naar een team in de onderzoeksbar.
 
 1. Ga naar het [!UICONTROL Kanban] board.
 1. Vouw de artikeltegel uit om alle velden weer te geven die aan het artikel zijn gekoppeld.
 
-   ![&#x200B; kaart van het Verhaal &#x200B;](assets/story-expanded-on-kanban-board-2021-350x405.png)
+   ![ kaart van het Verhaal ](assets/story-expanded-on-kanban-board-2021-350x405.png)
 
 1. (Optioneel) Als u een veld wilt bewerken, klikt u op het veld en brengt u de gewenste wijzigingen aan.
 U moet [!UICONTROL Edit] rechten op de taak of uitgave hebben om de artikeltegel te kunnen bewerken.
-Voor meer informatie over elk gebied en of het kan worden uitgegeven, zie [&#x200B; begrijpen welke informatie kan worden bekeken en worden uitgegeven &#x200B;](#understand-what-information-can-be-viewed-and-edited).
+Voor meer informatie over elk gebied en of het kan worden uitgegeven, zie [ begrijpen welke informatie kan worden bekeken en worden uitgegeven ](#understand-what-information-can-be-viewed-and-edited).
 
 >[!NOTE]
 >

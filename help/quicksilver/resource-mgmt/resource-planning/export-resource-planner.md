@@ -6,9 +6,9 @@ description: U kunt informatie van om het even welke mening van de Planner van h
 author: Lisa
 feature: Resource Management
 exl-id: 07acd28a-5dc0-45b4-bdf2-20abbd5e098c
-source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
+source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
 workflow-type: tm+mt
-source-wordcount: '628'
+source-wordcount: '599'
 ht-degree: 0%
 
 ---
@@ -19,42 +19,38 @@ U kunt informatie van om het even welke mening van de Planner van het Middel naa
 
 >[!IMPORTANT]
 >
->Er gelden beperkingen voor welke informatie wordt weergegeven en welke informatie u kunt exporteren vanuit de functie voor middelenbeheer. Voor informatie over deze beperkingen, zie {de vertoningsbeperkingen van de Banner van 0} Middel [&#128279;](../../resource-mgmt/resource-planning/resource-planner-display-limitations.md)
+>Er gelden beperkingen voor welke informatie wordt weergegeven en welke informatie u kunt exporteren vanuit de functie voor middelenbeheer. Voor informatie over deze beperkingen, zie {de vertoningsbeperkingen van de Banner van 0} Middel [](../../resource-mgmt/resource-planning/resource-planner-display-limitations.md)
 
 ## Toegangsvereisten
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
-
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan</td> 
-   <td><p>Nieuw: alle</p>
-       <p>of</p>
-       <p>Huidig: Pro of hoger</p> </td> 
+  <tr> 
+   <td>Adobe Workfront-pakket</td> 
+   <td><p>Alle</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie</td> 
-   <td><p>Nieuw: Licht of hoger</p>
-       <p>of</p>
-       <p>Huidig: Controleren of hoger</p></td>
+   <td>Adobe Workfront-licentie</td> 
+   <td><p>Licht of hoger</p>
+       <p>Controleren of hoger</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau</td> 
-   <td> <p>De toegang van de mening of hoger tot Projecten, Gebruikers, en het Beheer van het Middel</p> </td> 
+   <td>Configuraties op toegangsniveau</td> 
+   <td> <p>De toegang van de mening of hoger tot Projecten, Gebruikers, en het Beheer van het Middel</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Toestemmingen of hoger van de mening voor projecten</p> </td> 
+   <td>Objectmachtigingen</td> 
+   <td> <p>De mening of hogere toestemmingen voor projecten</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -74,7 +70,7 @@ De **vertoningen van de Planner** door gebrek.
 
    Het dialoogvenster Exportopties wordt weergegeven.
 
-   ![&#x200B; de opties van de Uitvoer &#x200B;](assets/rp-export-options-box-350x421.png)
+   ![ de opties van de Uitvoer ](assets/rp-export-options-box-350x421.png)
 
 1. Geef de volgende informatie op:\
    **Datum van het Begin**: De begindatum van uw uitvoer. Het geëxporteerde bestand bevat informatie over de toewijzing en beschikbaarheid vanaf de eerste dag van de week die de dag bevat die u hier opgeeft.\
@@ -121,7 +117,7 @@ U kunt de volgende gegevens exporteren:
 Er wordt een Excel-bestand (.xlsx) gedownload naar de computer.\
    Exporteren vanuit de functie Bronnen is niet beschikbaar terwijl het bestand is voorbereid voor downloaden.\
    (Voorwaardelijk) Als u een grote hoeveelheid gegevens exporteert, ontvangt u een e-mail met een koppeling waarmee u het bestand kunt downloaden.\
-   ![&#x200B; RP_email_with_exporting_planner_attached.png &#x200B;](assets/rp-eamil-with-exported-planner-attached-350x116.png)
+   ![ RP_email_with_exporting_planner_attached.png ](assets/rp-eamil-with-exported-planner-attached-350x116.png)
 
 1. (Voorwaardelijk) wanneer u e-mail met het uitgevoerde dossier ontvangt, klik **Download** om het dossier te downloaden.\
    Hiermee gaat u terug naar Workfront waar u het bestand kunt downloaden.\

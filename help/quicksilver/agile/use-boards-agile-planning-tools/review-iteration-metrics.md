@@ -7,9 +7,9 @@ description: Metriek zijn beschikbaar voor elke herhaling in een werkstroom, op 
 author: Lisa
 feature: Agile
 exl-id: 09743566-161d-4850-9a1a-b96da6d537a7
-source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
-source-wordcount: '237'
+source-wordcount: '228'
 ht-degree: 0%
 
 ---
@@ -26,28 +26,25 @@ Metrische gegevens zijn beschikbaar voor elke herhaling in een werkstroom, op he
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront]</td> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licentie</td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
    <td> 
-   <p>Nieuw: [!UICONTROL Contributor] of hoger</p> 
-   <p>of</p>
-   <p>Huidig: [!UICONTROL Request] of hoger</p>
+   <p>Medewerker of hoger</p> 
+   <p>Aanvraag of hoger</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -61,7 +58,7 @@ Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van d
 
    De volgende metriek worden weergegeven: het totale aantal punten dat aan de herhaling is toegewezen, de resterende punten die nog niet in de herhaling zijn voltooid en het aantal punten dat in de herhaling is voltooid.
 
-1. (Optioneel) Klik op de **pictogram ![&#x200B; Iteratiedetails &#x200B;](assets/iteration-details-button.png) van de Details van de Interlatie** om de detaildialoog voor de geselecteerde herhaling te openen.
+1. (Optioneel) Klik op de [!UICONTROL **pictogram**] Iteratiedetails ![ van de Details van de Interlatie ](assets/iteration-details-button.png) om de detaildialoog voor de geselecteerde herhaling te openen.
 
 ## Metrische gegevens van herhalingen op het dashboard bekijken
 

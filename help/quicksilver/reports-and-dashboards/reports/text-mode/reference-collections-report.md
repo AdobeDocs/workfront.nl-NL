@@ -6,7 +6,7 @@ description: Referentieverzamelingen in een rapport
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 18ba3f4b-ae03-4694-a2fe-fdbeeb576ea9
-source-git-commit: 6bd9dc626befc4dfa4054760e7ec7d677f6da6e5
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
 source-wordcount: '2615'
 ht-degree: 0%
@@ -19,34 +19,26 @@ ht-degree: 0%
 
 Wanneer u een rapport maakt in Adobe Workfront, kunt u een set objecten, hun respectievelijke velden of gekoppelde objecten weergeven in een lijst, raster of diagramindeling.
 
-Voor meer informatie over de bouw van een rapport in Workfront, zie [&#x200B; een douanerapport &#x200B;](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) creëren.
+Voor meer informatie over de bouw van een rapport in Workfront, zie [ een douanerapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) creëren.
 
 ## Toegangsvereisten
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
-
-U moet het volgende hebben:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan</td> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie</td> 
    <td> 
-      <p>Nieuw:</p>
-         <ul>
-         <li><p>Standaard</p></li>
-         </ul>
-      <p>Huidige:</p>
-         <ul>
-         <li><p>Plan</p></li>
-         </ul>
-   </td>
+     <p>Standard</p>
+     <p>Plan</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau</td> 
@@ -59,7 +51,7 @@ U moet het volgende hebben:
  </tbody> 
 </table>
 
-Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -79,12 +71,12 @@ U hebt de volgende twee relaties tussen objecten in Workfront:
 >
 >U kunt een rapport bouwen dat de één-op-één verhouding tussen voorwerpen toont door de standaard rapportbouwer te gebruiken. Nochtans, kunt u een rapport slechts bouwen dat de één-aan-vele verhouding tussen voorwerpen toont door de interface van de tekstwijze in de rapportbouwer te gebruiken.
 
-Voor meer informatie over de bouw van een rapport in de standaardrapportbouwer, zie [&#x200B; een douanerapport &#x200B;](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) creëren.
+Voor meer informatie over de bouw van een rapport in de standaardrapportbouwer, zie [ een douanerapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) creëren.
 
 Voor meer informatie over de bouw van een rapport gebruikend de interface van de tekstwijze, zie:
 
-* [&#x200B; Overzicht van de Wijze van de Tekst &#x200B;](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md)
-* [&#x200B; Overzicht van gemeenschappelijk gebruik voor de Wijze van de Tekst &#x200B;](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md).
+* [ Overzicht van de Wijze van de Tekst ](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md)
+* [ Overzicht van gemeenschappelijk gebruik voor de Wijze van de Tekst ](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md).
 * [Overzicht van syntaxis in tekstmodus](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md)
 
 ## Verzamelingsobjecten en de bijbehorende velden zoeken in de API Explorer {#find-collection-objects-and-their-fields-in-the-api-explorer}
@@ -92,11 +84,11 @@ Voor meer informatie over de bouw van een rapport gebruikend de interface van de
 Niet alle verzamelingen kunnen worden gerapporteerd.
 
 Als u wilt weten welke objecten aan een verzameling van andere objecten kunnen worden gekoppeld, moet u de API Explorer gebruiken.\
-Voor meer informatie over de API Verkenner- lijst, zie de [&#x200B; API Ontdekkingsreiziger &#x200B;](../../../wf-api/general/api-explorer.md).
+Voor meer informatie over de API Verkenner- lijst, zie de [ API Ontdekkingsreiziger ](../../../wf-api/general/api-explorer.md).
 
 Om te weten te komen welke inzamelingen op kunnen worden gemeld:
 
-1. Ga naar de [&#x200B; API Ontdekkingsreiziger &#x200B;](../../../wf-api/general/api-explorer.md).
+1. Ga naar de [ API Ontdekkingsreiziger ](../../../wf-api/general/api-explorer.md).
 1. Zoek het object van uw rapport.
 1. Selecteer de **inzamelingen** tabel.
 
@@ -127,8 +119,8 @@ U kunt in de volgende rapportelementen niet verwijzen naar objecten uit een verz
 
 Bijvoorbeeld, kon u de taak van verwijzingen voorzien of inzamelingen van een projectrapport uitgeven, om taak te tonen of informatie op het projectniveau uit te geven.
 
-* [&#x200B; Verwijzing een inzameling in de Mening van een rapport &#x200B;](#reference-a-collection-in-the-view-of-a-report)
-* [&#x200B; Verwijzing een inzameling in de Filter van een rapport &#x200B;](#reference-a-collection-in-the-filter-of-a-report)
+* [ Verwijzing een inzameling in de Mening van een rapport ](#reference-a-collection-in-the-view-of-a-report)
+* [ Verwijzing een inzameling in de Filter van een rapport ](#reference-a-collection-in-the-filter-of-a-report)
 * [Verwijzing een inzameling in de douaneherinnering van een rapport](#reference-a-collection-in-the-custom-prompt-of-a-report)
 
 ### Verwijzing een inzameling in de Mening van een rapport {#reference-a-collection-in-the-view-of-a-report}
@@ -141,35 +133,35 @@ U kunt informatie over de taken of de kwesties, zoals namen, data, primaire wijz
 
 De mening toont taak of geeft informatie uit in een lijstformaat, met elke lijn van de lijst die informatie over een taak of een kwestie vertegenwoordigt. De lijst met taken of problemen en de bijbehorende velden wordt weergegeven op dezelfde regel als het project waartoe de taken of problemen behoren.
 
-![&#x200B; issue_and_tasks_collections_in_reports.png &#x200B;](assets/issue-and-tasks-collections-in-reports-350x171.png){width=400}
+![ issue_and_tasks_collections_in_reports.png ](assets/issue-and-tasks-collections-in-reports-350x171.png){width=400}
 
-* [&#x200B; voeg een inzamelingskolom in een rapportMening &#x200B;](#add-a-collection-column-in-a-report-view) toe
-* [&#x200B; begrijp de lijnen van een inzamelingsmening op de Wijze van de Tekst &#x200B;](#understand-the-lines-of-a-collection-view-in-text-mode)
+* [ voeg een inzamelingskolom in een rapportMening ](#add-a-collection-column-in-a-report-view) toe
+* [ begrijp de lijnen van een inzamelingsmening op de Wijze van de Tekst ](#understand-the-lines-of-a-collection-view-in-text-mode)
 * [Beperkingen van een verzamelingsweergave](#limitations-of-a-collection-view)
 
 ### Voeg een inzamelingskolom in een rapportmening toe {#add-a-collection-column-in-a-report-view}
 
 Om een inzamelingskolom in een rapportmening toe te voegen:
 
-1. Klik het **Belangrijkste** menu ![&#x200B; Belangrijkste pictogram van het Menu &#x200B;](assets/main-menu-icon.png), dan klik **Rapporten**.
+1. Klik het **Belangrijkste** menu ![ Belangrijkste pictogram van het Menu ](assets/main-menu-icon.png), dan klik **Rapporten**.
 1. Klik **Nieuw Rapport**.
 1. Selecteer het voorwerp van uw rapport.
-1. Navigeer weg van uw rapport, en gebruikend [&#x200B; API Ontdekkingsreiziger &#x200B;](../../../wf-api/general/api-explorer.md), bepaal welke inzamelingen voor het voorwerp beschikbaar zijn u voor uw rapport selecteerde.
+1. Navigeer weg van uw rapport, en gebruikend [ API Ontdekkingsreiziger ](../../../wf-api/general/api-explorer.md), bepaal welke inzamelingen voor het voorwerp beschikbaar zijn u voor uw rapport selecteerde.
 
-   Voor meer informatie over het selecteren van het voorwerp van uw inzameling, zie de sectie [&#x200B; inzamelingsvoorwerpen van de Vondst en hun gebieden in de API Ontdekkingsreiziger &#x200B;](#find-collection-objects-and-their-fields-in-the-api-explorer) in dit artikel.
+   Voor meer informatie over het selecteren van het voorwerp van uw inzameling, zie de sectie [ inzamelingsvoorwerpen van de Vondst en hun gebieden in de API Ontdekkingsreiziger ](#find-collection-objects-and-their-fields-in-the-api-explorer) in dit artikel.
 
    Noteer de naam van het object voor de verzameling.
 
-1. Gebruikend de [&#x200B; API Ontdekkingsreiziger &#x200B;](../../../wf-api/general/api-explorer.md), ga naar de lijst van gebieden voor het voorwerp u in de inzameling wilt tonen.
+1. Gebruikend de [ API Ontdekkingsreiziger ](../../../wf-api/general/api-explorer.md), ga naar de lijst van gebieden voor het voorwerp u in de inzameling wilt tonen.
 
-   Voor meer informatie over het vinden van de gebieden van het voorwerp van uw inzameling, zie de sectie [&#x200B; de inzamelingsvoorwerpen van de Vondst en hun gebieden in de API Ontdekkingsreiziger &#x200B;](#find-collection-objects-and-their-fields-in-the-api-explorer) in dit artikel.
+   Voor meer informatie over het vinden van de gebieden van het voorwerp van uw inzameling, zie de sectie [ de inzamelingsvoorwerpen van de Vondst en hun gebieden in de API Ontdekkingsreiziger ](#find-collection-objects-and-their-fields-in-the-api-explorer) in dit artikel.
 
    Noteer de naam van het veld dat u in de verzameling wilt weergeven.
 
 1. Navigeer terug naar uw rapport, en in de **Kolommen (Mening)** lusje, klik **toevoegen Kolom**.
 1. Klik **Schakelaar aan de Wijze van de Tekst**.
 1. Klik **uitgeven de Wijze van de Tekst**.
-1. Selecteer alle tekst in de **dialoogdoos van de Wijze van de Tekst 0&rbrace; &lbrace;en verwijder het, dan kleef de volgende code als u naar een gebied van het inzamelingsvoorwerp van verwijzingen voorziet:**
+1. Selecteer alle tekst in de **dialoogdoos van de Wijze van de Tekst 0} {en verwijder het, dan kleef de volgende code als u naar een gebied van het inzamelingsvoorwerp van verwijzingen voorziet:**
 
    ```
    valueformat=HTML
@@ -182,13 +174,13 @@ Om een inzamelingskolom in een rapportmening toe te voegen:
    ```
 
 1. Vervang **Naam van de Kolom** met de naam van uw kolom in de `displayname` lijn.
-1. Vervang **naam van het 0&rbrace; inzamelingsvoorwerp &lbrace;met de naam van uw inzamelingsvoorwerp in de `listmethod` lijn, aangezien het in [&#x200B; API Ontdekkingsreiziger &#x200B;](../../../wf-api/general/api-explorer.md) verschijnt.**
+1. Vervang **naam van het 0} inzamelingsvoorwerp {met de naam van uw inzamelingsvoorwerp in de** lijn, aangezien het in `listmethod` API Ontdekkingsreiziger [ verschijnt.](../../../wf-api/general/api-explorer.md)
 
-1. Vervang **gebied van de inzamelingsobjecten** met de naam van het gebied van uw inzamelingsvoorwerp in de `valuefield` lijn, aangezien het in [&#x200B; API Ontdekkingsreiziger &#x200B;](../../../wf-api/general/api-explorer.md) verschijnt.
+1. Vervang **gebied van de inzamelingsobjecten** met de naam van het gebied van uw inzamelingsvoorwerp in de `valuefield` lijn, aangezien het in [ API Ontdekkingsreiziger ](../../../wf-api/general/api-explorer.md) verschijnt.
 
    U kunt **waardegebied** met **waardeuitdrukking** vervangen, als u een douaneuitdrukking in uw mening wilt tot stand brengen.
 
-   Voor meer informatie over berekende douaneuitdrukkingen, zie [&#x200B; Overzicht van berekende gegevensuitdrukkingen &#x200B;](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+   Voor meer informatie over berekende douaneuitdrukkingen, zie [ Overzicht van berekende gegevensuitdrukkingen ](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
 
    Bijvoorbeeld, als u een lijst van de taken in een projectrapport wilt tonen. Deze verzameling gebruikt een `valuefield` -regel voor het verwijzen naar de namen van de taken.
 
@@ -218,7 +210,7 @@ Om een inzamelingskolom in een rapportmening toe te voegen:
      valueformat=HTML
      ```
 
-     Bericht dat in een inzameling u **kwesties** voor de **listmethod** lijn, in plaats van **opTasks** moet gebruiken die de gegevensbestandnaam voor Kwesties is. Voor informatie over wanneer te gebruiken **kwestie** en wanneer om **opTask** te gebruiken wanneer het verwijzen naar kwesties, zie [&#x200B; Gebruik &quot;opTask&quot;en &quot;kwestie&quot;wanneer het van verwijzingen voorzien van kwesties &#x200B;](../../../manage-work/issues/issue-information/use-optask-instead-of-issue.md).
+     Bericht dat in een inzameling u **kwesties** voor de **listmethod** lijn, in plaats van **opTasks** moet gebruiken die de gegevensbestandnaam voor Kwesties is. Voor informatie over wanneer te gebruiken **kwestie** en wanneer om **opTask** te gebruiken wanneer het verwijzen naar kwesties, zie [ Gebruik &quot;opTask&quot;en &quot;kwestie&quot;wanneer het van verwijzingen voorzien van kwesties ](../../../manage-work/issues/issue-information/use-optask-instead-of-issue.md).
 
    * Als u een lijst van de taken in een projectrapport samen met hun primaire ontvanger wilt tonen, zou u a **waardeuitdrukking** lijn gebruiken voor het van verwijzingen voorzien van naar de namen van de taken naast de namen van hun primaire wijzers in plaats van **waardegebied**.
 
@@ -236,7 +228,7 @@ Om een inzamelingskolom in een rapportmening toe te voegen:
 
 1. De volgende kolomvertoningen in het projectrapport, die van alle taken in elk project naast hun primaire wijzers een lijst maken:
 
-   ![&#x200B; het rapport van het Project met taak en toegewezen inzameling &#x200B;](assets/project-report-with-task-and-assignee-collection-view-nwe-350x222.png){width=400}
+   ![ het rapport van het Project met taak en toegewezen inzameling ](assets/project-report-with-task-and-assignee-collection-view-nwe-350x222.png){width=400}
 
 1. Klik **sparen**.
 1. (Optioneel) Ga door met het bewerken van het rapport.
@@ -274,7 +266,7 @@ De regels in een tekstmodusweergave voor een verzameling worden in de volgende t
   </tr> 
   <tr> 
    <td><code>listdelimiter=&lt;p&gt;</code> </td> 
-   <td> <p>Dit is het scheidingsteken waarmee de waarden in uw lijst van elkaar worden gescheiden.<br> wij adviseren om <code>&lt;p&gt;</code> te gebruiken die een lijnonderbreking tussen de waarden toevoegt.</p> <p>U kunt ook het volgende gebruiken:</p> <p><code>&zwj;</code> (joiner met breedte nul). De waarden van de verzameling zijn niet van elkaar gescheiden.<br><strong> ,</strong> =kommascheidingsteken. De waarden van de verzameling worden gescheiden door een komma, gevolgd door geen spatie.<br><strong>/</strong> = slash separator. De waarden van de verzameling worden gescheiden door een schuine streep.<br><strong> -</strong> = streepje scheidingsteken. De waarden van de verzameling worden gescheiden door een streepje.<br> het verlaten van deze lijn leeg voegt een komma die door een ruimte tussen de waarden van de inzameling, door gebrek wordt gevolgd.</p> </td> 
+   <td> <p>Dit is het scheidingsteken waarmee de waarden in uw lijst van elkaar worden gescheiden.<br> wij adviseren om <code>&lt;p&gt;</code> te gebruiken die een lijnonderbreking tussen de waarden toevoegt.</p> <p>U kunt ook het volgende gebruiken:</p> <p><code>&amp;zwj;</code> (joiner met breedte nul). De waarden van de verzameling zijn niet van elkaar gescheiden.<br><strong> ,</strong> =kommascheidingsteken. De waarden van de verzameling worden gescheiden door een komma, gevolgd door geen spatie.<br><strong>/</strong> = slash separator. De waarden van de verzameling worden gescheiden door een schuine streep.<br><strong> -</strong> = streepje scheidingsteken. De waarden van de verzameling worden gescheiden door een streepje.<br> het verlaten van deze lijn leeg voegt een komma die door een ruimte tussen de waarden van de inzameling, door gebrek wordt gevolgd.</p> </td> 
   </tr> 
   <tr> 
    <td><code>displayname=</code><em> de Naam van de Kolom </em> </td> 
@@ -318,18 +310,18 @@ Bijvoorbeeld, kunt u voor taak filtreren of informatie in een projectrapport uit
 
 Een verwijzing naar een inzameling in een rapportfilter toevoegen:
 
-1. Klik het **Belangrijkste** menu ![&#x200B; Belangrijkste pictogram van het Menu &#x200B;](assets/main-menu-icon.png), dan klik **Rapporten**.
+1. Klik het **Belangrijkste** menu ![ Belangrijkste pictogram van het Menu ](assets/main-menu-icon.png), dan klik **Rapporten**.
 1. Klik **Nieuw Rapport**.
 1. Selecteer het voorwerp van uw rapport.
-1. Navigeer weg van uw rapport, en gebruikend [&#x200B; API Ontdekkingsreiziger &#x200B;](../../../wf-api/general/api-explorer.md), bepaal welke inzamelingen voor het voorwerp beschikbaar zijn u voor uw rapport selecteerde.
+1. Navigeer weg van uw rapport, en gebruikend [ API Ontdekkingsreiziger ](../../../wf-api/general/api-explorer.md), bepaal welke inzamelingen voor het voorwerp beschikbaar zijn u voor uw rapport selecteerde.
 
-   Voor meer informatie over het selecteren van het voorwerp van uw inzameling, zie de sectie [&#x200B; inzamelingsvoorwerpen van de Vondst en hun gebieden in de API Ontdekkingsreiziger &#x200B;](#find-collection-objects-and-their-fields-in-the-api-explorer) in dit artikel.
+   Voor meer informatie over het selecteren van het voorwerp van uw inzameling, zie de sectie [ inzamelingsvoorwerpen van de Vondst en hun gebieden in de API Ontdekkingsreiziger ](#find-collection-objects-and-their-fields-in-the-api-explorer) in dit artikel.
 
    Noteer de naam van het object voor de verzameling.
 
-1. Gebruikend de [&#x200B; API Ontdekkingsreiziger &#x200B;](../../../wf-api/general/api-explorer.md), ga naar de lijst van gebieden voor het voorwerp u in de inzameling wilt tonen.
+1. Gebruikend de [ API Ontdekkingsreiziger ](../../../wf-api/general/api-explorer.md), ga naar de lijst van gebieden voor het voorwerp u in de inzameling wilt tonen.
 
-   Voor meer informatie over het vinden van de gebieden van het voorwerp van uw inzameling, zie de sectie [&#x200B; de inzamelingsvoorwerpen van de Vondst en hun gebieden in de API Ontdekkingsreiziger &#x200B;](#find-collection-objects-and-their-fields-in-the-api-explorer) in dit artikel.
+   Voor meer informatie over het vinden van de gebieden van het voorwerp van uw inzameling, zie de sectie [ de inzamelingsvoorwerpen van de Vondst en hun gebieden in de API Ontdekkingsreiziger ](#find-collection-objects-and-their-fields-in-the-api-explorer) in dit artikel.
 
    Noteer het veld dat u in de verzameling wilt weergeven.
 
@@ -342,14 +334,14 @@ Een verwijzing naar een inzameling in een rapportfilter toevoegen:
    collection object name:collection object field_Mod=value of the modifier
    ```
 
-1. Vervang **naam van het inzamelingsvoorwerp** met de naam van uw inzamelingsvoorwerp aangezien het in [&#x200B; API Ontdekkingsreiziger &#x200B;](../../../wf-api/general/api-explorer.md) verschijnt. Deze waarde is doorgaans de meervoudige vorm van de naam van het verzamelingsobject.
+1. Vervang **naam van het inzamelingsvoorwerp** met de naam van uw inzamelingsvoorwerp aangezien het in [ API Ontdekkingsreiziger ](../../../wf-api/general/api-explorer.md) verschijnt. Deze waarde is doorgaans de meervoudige vorm van de naam van het verzamelingsobject.
 
-1. Vervang **gebied van de inzamelingsobjecten** met de naam van het gebied van uw inzamelingsvoorwerp binnen, aangezien het in [&#x200B; API Ontdekkingsreiziger &#x200B;](../../../wf-api/general/api-explorer.md) verschijnt.
+1. Vervang **gebied van de inzamelingsobjecten** met de naam van het gebied van uw inzamelingsvoorwerp binnen, aangezien het in [ API Ontdekkingsreiziger ](../../../wf-api/general/api-explorer.md) verschijnt.
 
 1. Vervang **waarde van het inzamelingsvoorwerp** met de waarde van het inzamelingsvoorwerp aangezien het in Workfront verschijnt.
 1. Vervang **waarde van de bepaling** met een geldige bepaling.
 
-   Voor een lijst van bepalingen, zie [&#x200B; Filter en voorwaardenbepalingen &#x200B;](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).\
+   Voor een lijst van bepalingen, zie [ Filter en voorwaardenbepalingen ](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).\
    Bijvoorbeeld, om een projectrapport te bouwen dat slechts projecten met taken toont die &quot;Marketing&quot;in hun naam hebben, gebruik de volgende code:
 
    ```
@@ -359,7 +351,7 @@ Een verwijzing naar een inzameling in een rapportfilter toevoegen:
 
    In dit rapport worden alleen projecten weergegeven met ten minste één taak waarvoor het woord &quot;marketing&quot; in de naam voorkomt.
 
-   ![&#x200B; Marketing slechts taken in project &#x200B;](assets/marketing-only-tasks-in-project-report-nwe-350x309.png){width=400}
+   ![ Marketing slechts taken in project ](assets/marketing-only-tasks-in-project-report-nwe-350x309.png){width=400}
 
 1. Gebruik de volgende code om te filteren op de naam van een uitgave:
 
@@ -391,19 +383,19 @@ Bijvoorbeeld, kunt u voor taakinformatie in een projectrapport ertoe aanzetten d
 
 Een aangepaste prompt is een aangepast filter waarin de instructies worden gekoppeld door en-tekens. Wij adviseren dat u uw verklaring in een filter bouwt, eerst, dan verbind de lijnen van de verklaringen met ampersands.
 
-Voor meer informatie over de bouw van een filterverklaring met een inzamelingsverwijzing, zie de sectie [&#x200B; Verwijzing een inzameling in de Filter van een rapport &#x200B;](#reference-a-collection-in-the-filter-of-a-report) in dit artikel.
+Voor meer informatie over de bouw van een filterverklaring met een inzamelingsverwijzing, zie de sectie [ Verwijzing een inzameling in de Filter van een rapport ](#reference-a-collection-in-the-filter-of-a-report) in dit artikel.
 
 Om een verwijzing naar een inzameling in de douaneherinnering van een rapport toe te voegen:
 
-1. Klik het **Belangrijkste** menu ![&#x200B; Belangrijkste pictogram van het Menu &#x200B;](assets/main-menu-icon.png), dan klik **Rapporten**.
+1. Klik het **Belangrijkste** menu ![ Belangrijkste pictogram van het Menu ](assets/main-menu-icon.png), dan klik **Rapporten**.
 1. Klik **Nieuw Rapport**.
 1. Selecteer het voorwerp van uw rapport.
-1. Bouw een filter met een inzamelingsverwijzing zoals die in de sectie [&#x200B; Verwijzing een inzameling in de Filter van een rapport &#x200B;](#reference-a-collection-in-the-filter-of-a-report) in dit artikel wordt beschreven.
+1. Bouw een filter met een inzamelingsverwijzing zoals die in de sectie [ Verwijzing een inzameling in de Filter van een rapport ](#reference-a-collection-in-the-filter-of-a-report) in dit artikel wordt beschreven.
 1. Klik **Montages van het Rapport**.
 1. Klik **Herinneringen van het Rapport**.
 1. Klik **toevoegen Vragen**.
 1. Klik **de Herinnering van de Douane**.
-1. Specificeer de naam van de herinnering op het **Gebied**&#x200B;**naam** gebied.
+1. Specificeer de naam van de herinnering op het **Gebied****naam** gebied.
 
 1. Specificeer het Etiket van het Punt van de a **Vervolgkeuzelijst**.
 1. Specificeer het volgende op het **gebied van de Voorwaarde**:
@@ -413,15 +405,15 @@ Om een verwijzing naar een inzameling in de douaneherinnering van een rapport to
    ```
 
 1. (Optioneel) Geef op of deze optie standaard wordt weergegeven in de vraag.
-1. Vervang **naam van het inzamelingsvoorwerp** met de naam van uw inzamelingsvoorwerp aangezien het in [&#x200B; API Ontdekkingsreiziger &#x200B;](../../../wf-api/general/api-explorer.md) verschijnt. Deze waarde is doorgaans de meervoudige vorm van de naam van het verzamelingsobject.
-1. Vervang **gebied van de inzamelingsobjecten** met de naam van het gebied van uw inzamelingsvoorwerp, aangezien het in de [&#x200B; API Ontdekkingsreiziger &#x200B;](../../../wf-api/general/api-explorer.md) verschijnt.
+1. Vervang **naam van het inzamelingsvoorwerp** met de naam van uw inzamelingsvoorwerp aangezien het in [ API Ontdekkingsreiziger ](../../../wf-api/general/api-explorer.md) verschijnt. Deze waarde is doorgaans de meervoudige vorm van de naam van het verzamelingsobject.
+1. Vervang **gebied van de inzamelingsobjecten** met de naam van het gebied van uw inzamelingsvoorwerp, aangezien het in de [ API Ontdekkingsreiziger ](../../../wf-api/general/api-explorer.md) verschijnt.
 1. Vervang **waarde van het inzamelingsvoorwerp** met de waarde van het inzamelingsvoorwerp aangezien het in Workfront verschijnt.
 
    Bijvoorbeeld, als u voor projecten filtreert waarin de naam van de taak &quot;Op de markt brengen&quot;bevat, vervang **de waarde van het inzamelingsvoorwerp** met **marketing**.
 
 1. Vervang **waarde van de bepaling** met een geldige bepaling.
 
-   Voor een lijst van bepalingen, zie [&#x200B; Filter en voorwaardenbepalingen &#x200B;](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
+   Voor een lijst van bepalingen, zie [ Filter en voorwaardenbepalingen ](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
 
    **Voorbeeld:** Bijvoorbeeld, om een projectrapport met een douaneherinnering te bouwen waar u slechts projecten wilt tonen die minstens één taak hebben die aan een specifieke gebruiker wordt toegewezen, gebruik hieronder de code:
 
@@ -433,7 +425,7 @@ Om een verwijzing naar een inzameling in de douaneherinnering van een rapport to
 
    >[!NOTE]
    >
-   >U kunt niet de naam van primaire toegewezen (&quot;Toegewezen aan&quot;gebied) van een taak van verwijzingen voorzien, volgens de [&#x200B; API Ontdekkingsreiziger &#x200B;](../../../wf-api/general/api-explorer.md). U kunt alleen verwijzen naar de id van de primaire ontvanger.
+   >U kunt niet de naam van primaire toegewezen (&quot;Toegewezen aan&quot;gebied) van een taak van verwijzingen voorzien, volgens de [ API Ontdekkingsreiziger ](../../../wf-api/general/api-explorer.md). U kunt alleen verwijzen naar de id van de primaire ontvanger.
 
    Bijvoorbeeld, om voor om het even welke projecten te filtreren waar om het even welke projectkwesties aan een specifieke gebruiker worden toegewezen gebruik de volgende code voor uw douaneherinnering:
 

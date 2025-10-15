@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 1474e1dd-9b10-476e-9526-6577efa8d1c2
-source-git-commit: 80bdc2f2c1bedbc5a894b5a474425c5544c039fd
+source-git-commit: 76e32fa6b87583d2b8c296045da731afdb6d1f9a
 workflow-type: tm+mt
-source-wordcount: '596'
+source-wordcount: '580'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers in the Preview environment and for a select group of customers in the Production environment.</span>-->
 
-Als beheerder van Adobe Workfront, kunt u een lay-outmalplaatje gebruiken om te bepalen welke informatie verschijnt wanneer een gebruiker het pictogram van Details ![&#x200B; pictogram van Details &#x200B;](assets/project-details-icon.png) in het linkerpaneel klikt terwijl het bekijken van een taak, een kwestie, een document, een programma, of een portefeuille.
+Als beheerder van Adobe Workfront, kunt u een lay-outmalplaatje gebruiken om te bepalen welke informatie verschijnt wanneer een gebruiker het pictogram van Details ![ pictogram van Details ](assets/project-details-icon.png) in het linkerpaneel klikt terwijl het bekijken van een taak, een kwestie, een document, een programma, of een portefeuille.
 
 <!--
 or billing record
@@ -27,33 +27,33 @@ or billing record
 
 U kunt ook de volgorde wijzigen van de gegevens waarin deze gegevens worden weergegeven. Voor alle taken die uw gebruikers bijvoorbeeld zien, kunt u de gegevens van Aangepaste Forms boven aan de weergave Details plaatsen voor alle taken die uw gebruikers zien.
 
-Voor informatie over het creëren van lay-outmalplaatjes, zie [&#x200B; lay-outmalplaatjes &#x200B;](../use-layout-templates/create-and-manage-layout-templates.md) creëren en beheren.
+Voor informatie over het creëren van lay-outmalplaatjes, zie [ lay-outmalplaatjes ](../use-layout-templates/create-and-manage-layout-templates.md) creëren en beheren.
 
-Voor informatie over lay-outmalplaatjes voor groepen, zie [&#x200B; tot stand brengen en wijzigen de lay-outmalplaatjes van een groep &#x200B;](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
+Voor informatie over lay-outmalplaatjes voor groepen, zie [ tot stand brengen en wijzigen de lay-outmalplaatjes van een groep ](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
 
-Nadat u een lay-outmalplaatje hebt gevormd, moet u het aan gebruikers voor veranderingen toewijzen u aanbracht om aan anderen zichtbaar te zijn. Voor informatie over het toewijzen van een lay-outmalplaatje aan gebruikers, zie [&#x200B; gebruikers aan een lay-outmalplaatje &#x200B;](../use-layout-templates/assign-users-to-layout-template.md) toewijzen.
+Nadat u een lay-outmalplaatje hebt gevormd, moet u het aan gebruikers voor veranderingen toewijzen u aanbracht om aan anderen zichtbaar te zijn. Voor informatie over het toewijzen van een lay-outmalplaatje aan gebruikers, zie [ gebruikers aan een lay-outmalplaatje ](../use-layout-templates/assign-users-to-layout-template.md) toewijzen.
 
 De wijzigingen die u aanbrengt in de weergave Details voor een object, bepalen ook de beschikbaarheid en volgorde van velden die gebruikers in de volgende gebieden zien:
 
 
 * &quot;Object maken&quot;-vakken, zoals Taak maken
 
-  ![&#x200B; Nieuwe taakdialoog &#x200B;](assets/new-task-dialog.png)
+  ![ Nieuwe taakdialoog ](assets/new-task-dialog.png)
 
 
 * Schermen &quot;Object bewerken&quot; tijdens het bewerken van een object, zoals Taak bewerken, Probleem bewerken en Project bewerken
 
-  ![&#x200B; geef taakscherm &#x200B;](assets/edit-task-screen.png) uit
+  ![ geef taakscherm ](assets/edit-task-screen.png) uit
 
 
 * &quot;Objecten bewerken&quot; wordt weergegeven in schermen wanneer objecten bulksgewijs worden bewerkt. Momenteel wordt dit ondersteund voor het bulksgewijs bewerken van projecten.
 
-  ![&#x200B; pas uitgeeft projecten &#x200B;](assets/customize-edit-projects-in-bulk-box-with-layout-template.png) aan
+  ![ pas uitgeeft projecten ](assets/customize-edit-projects-in-bulk-box-with-layout-template.png) aan
 
 
-* Samenvattings paneel ![&#x200B; Samenvattings paneel &#x200B;](assets/summary-panel-icon.png) voor lijsten van taken en kwesties
+* Samenvattings paneel ![ Samenvattings paneel ](assets/summary-panel-icon.png) voor lijsten van taken en kwesties
 
-  ![&#x200B; Samenvattingsgebied &#x200B;](assets/summary-area.png)
+  ![ Samenvattingsgebied ](assets/summary-area.png)
 
   >[!NOTE]
   >
@@ -61,60 +61,58 @@ De wijzigingen die u aanbrengt in de weergave Details voor een object, bepalen o
 
 * Conversievakken, zoals de kwestie van de Bekeerling aan taak of zet kwestie in projectvakjes om.
 
-  ![&#x200B; Bekeerling kwestie aan taakdoos &#x200B;](assets/convert-issue-to-task-box.png)
+  ![ Bekeerling kwestie aan taakdoos ](assets/convert-issue-to-task-box.png)
 
-Voor informatie over lay-outmalplaatjes voor groepen, zie [&#x200B; tot stand brengen en wijzigen de lay-outmalplaatjes van een groep &#x200B;](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
+Voor informatie over lay-outmalplaatjes voor groepen, zie [ tot stand brengen en wijzigen de lay-outmalplaatjes van een groep ](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
 
 ## Toegangsvereisten
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
-
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan</td> 
-   <td>Alle</td> 
+   <td>Adobe Workfront-pakket</td> 
+   <td><p>Alle</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td><p>Nieuw: Standaard</p>
-  <p> Huidig: Plan</p>
-   </td> 
+   <td>Adobe Workfront-licentie</td> 
+   <td><p>Standard</p>
+       <p>Plan</p></td>
+  </tr> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau</td> 
-   <td> <p>Om deze stappen op systeemniveau uit te voeren, hebt u het toegangsniveau van de Beheerder van het Systeem nodig.
-Om hen voor een groep uit te voeren, moet u een manager van die groep zijn.</p> </td> 
+   <td>Configuraties op toegangsniveau</td> 
+   <td> <p>Om deze stappen op systeemniveau uit te voeren, hebt u het toegangsniveau van de Beheerder van het Systeem nodig.</p>
+        <p>Om hen voor een groep uit te voeren, moet u een manager van die groep zijn.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Voor meer informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Aanpassen wat gebruikers zien in de weergave Details
 
-1. Begin werkend aan een lay-outmalplaatje, zoals die in [&#x200B; wordt beschreven creeer en beheer lay-outmalplaatjes &#x200B;](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
-1. Klik de benedenpijl ![&#x200B; onderaan pijl &#x200B;](assets/dropdown-arrow-12x12.png) onder **aanpassen welke gebruikers** zien, dan klikken **Project**, **Taak**, **Uitgave**, **Programma**, of **Portfolio.**
+1. Begin werkend aan een lay-outmalplaatje, zoals die in [ wordt beschreven creeer en beheer lay-outmalplaatjes ](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
+1. Klik de benedenpijl ![ onderaan pijl ](assets/dropdown-arrow-12x12.png) onder **aanpassen welke gebruikers** zien, dan klikken **Project**, **Taak**, **Uitgave**, **Programma**, of **Portfolio.**
 <!--
 , or billing record
 -->
 
 1. In de **sectie van Details**, doe om het even welke volgend om aan te passen wat de gebruikers in de mening van Details zien:
 
-   * Sleep om het even welke sectiekopballen ![&#x200B; pictogram van de Beweging &#x200B;](assets/move-icon---dots.png) om hun orde te veranderen.
+   * Sleep om het even welke sectiekopballen ![ pictogram van de Beweging ](assets/move-icon---dots.png) om hun orde te veranderen.
    * Laat of maak opties onder de diverse gebieden (zoals **Overzicht**, **Financiën**, en **Douane Forms**) toe onbruikbaar om hen te tonen of te verbergen.
 
      Als u alle velden in een van deze secties verbergt, wordt de volledige sectie verborgen.
 
      Alle velden zijn standaard ingeschakeld. U kunt selecteren of ontruimen **alle** controledoos op een gebied selecteren om alle gebieden in dat gebied te tonen of te verbergen.
 
-   ![&#x200B; mening van Details in lay-outmalplaatje &#x200B;](assets/layout-template-details-view.png)
+   ![ mening van Details in lay-outmalplaatje ](assets/layout-template-details-view.png)
 
 1. Blijf het lay-outmalplaatje aanpassen.
 

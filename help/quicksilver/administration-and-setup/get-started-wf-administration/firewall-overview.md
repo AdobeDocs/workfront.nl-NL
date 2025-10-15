@@ -9,7 +9,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 172999e7-fb05-49a6-ad57-84b59e80a28e
-source-git-commit: 1c11be2d6de471bf456107b5c86a599766583f74
+source-git-commit: 46e072d40cc881c3a903c8fd51475dc185f1f849
 workflow-type: tm+mt
 source-wordcount: '717'
 ht-degree: 0%
@@ -53,11 +53,11 @@ Geef uw netwerkbeheerder de volgende informatie:
   </tr> 
   <tr> 
    <td role="rowheader">Uw cluster</td> 
-   <td>Om van de cluster van uw organisatie de plaats te bepalen, zie <a href="#view-your-organization-s-cluster-and-workfront-plan" class="MCXref xref"> de cluster van uw organisatie en het plan van Workfront </a> bekijken.</td> 
+   <td>Om van de cluster van uw organisatie de plaats te bepalen, zie <a href="#view-your-organization-s-cluster-and-workfront-package" class="MCXref xref"> de cluster van uw organisatie en het pakket van Workfront </a> bekijken.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Je Workfront-abonnement</td> 
-   <td> <p>Om van het plan van uw organisatie de plaats te bepalen, zie <a href="#view-your-organization-s-cluster-and-workfront-plan" class="MCXref xref"> de cluster van uw organisatie en het plan van Workfront bekijken.</a></p> </td> 
+   <td role="rowheader">Je Workfront-pakket</td> 
+   <td> <p>Om van het pakket van uw organisatie de plaats te bepalen, zie <a href="#view-your-organization-s-cluster-and-workfront-package" class="MCXref xref"> de cluster van uw organisatie en het pakket van Workfront bekijken.</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Uw domein</td> 
@@ -93,7 +93,7 @@ Geef uw netwerkbeheerder de volgende informatie:
 >
 >Als u om het even welk van deze producten, integratie, of functionaliteiten op een recentere datum toevoegt, moet u uw netwerkbeheerder contacteren zodat kunnen zij de lijst van gewenste personen aanpassen.
 
-### Het cluster- en Workfront-plan van uw organisatie weergeven {#view-your-organization-s-cluster-and-workfront-plan}
+### Bekijk het cluster en het Workfront-pakket van uw organisatie {#view-your-organization-s-cluster-and-workfront-package}
 
 {{step-1-to-setup}}
 
@@ -102,10 +102,10 @@ Geef uw netwerkbeheerder de volgende informatie:
 
    Uw clustervertoningen dichtbij het hoger-recht van de **Basis Info** sectie.
 
-   ![&#x200B; plaats cluster &#x200B;](assets/locate-cluster.png)
+   ![ plaats cluster ](assets/locate-cluster.png)
 
-1. Om uw plan van Workfront te bekijken, selecteer **Vergunningen**.
+1. Om uw pakket van Workfront te bekijken, selecteer **Vergunningen**.
 
-   Uw plan wordt in de rechterbovenhoek van de pagina weergegeven.
+   Het pakket wordt in de rechterbovenhoek van de pagina weergegeven.
 
-   ![&#x200B; plaats plan &#x200B;](assets/locate-plan.png)
+   ![ plaats plan ](assets/locate-plan.png)

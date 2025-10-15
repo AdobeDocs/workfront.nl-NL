@@ -1,39 +1,48 @@
 ---
 product-area: projects
 navigation-topic: manage-issues
-title: Uitgaven in een lijst bewerken
+title: Problemen in een lijst bewerken
 description: U kunt een afzonderlijke uitgave bewerken of uitgaven in een lijst met uitgaven of rapport bewerken. In dit artikel wordt beschreven hoe u problemen in lijsten kunt bewerken.
 author: Alina
 feature: Work Management
 exl-id: a3276d83-c08f-4480-9092-aa47ba76d794
-source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
+source-git-commit: 0542587bb3254dec5664de493c1c321528cf7f3e
 workflow-type: tm+mt
-source-wordcount: '896'
+source-wordcount: '882'
 ht-degree: 0%
 
 ---
 
 # Uitgaven in een lijst bewerken
 
+<!--Audited: 08/2025-->
+
 U kunt een afzonderlijke uitgave bewerken of uitgaven in een lijst met uitgaven of rapport bewerken. In dit artikel wordt beschreven hoe u problemen in lijsten kunt bewerken.
 
-Voor informatie over het uitgeven van een individuele kwestie, zie [&#x200B; kwesties &#x200B;](../../../manage-work/issues/manage-issues/edit-issues.md) uitgeven.
+Voor informatie over het uitgeven van een individuele kwestie, zie [ kwesties ](../../../manage-work/issues/manage-issues/edit-issues.md) uitgeven.
 
 ## Toegangsvereisten
 
-U moet de volgende toegang hebben om de handelingen in dit artikel uit te voeren:
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-abonnement*</td> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Aanvraag of hoger</p> <p>Controleer of u een hogere licentie hebt om problemen in de sectie Issues van een project te bewerken.</p> </td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td>
+
+<ul><li><p>Medewerker of hoger</p> </li>
+   <li><p>Lichte of hogere vergunning om een kwestie in de sectie van Kwesties van een project uit te geven</p></li></ul> 
+    of
+   <ul><li><p>Aanvrager of hoger</p> </li>
+   <li><p>Revisor of hoger licentie voor het bewerken van een uitgave in de sectie Uitgaven van een project</p></li></ul> 
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
@@ -46,7 +55,34 @@ U moet de volgende toegang hebben om de handelingen in dit artikel uit te voeren
  </tbody> 
 </table>
 
-&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Request or higher</p> <p>Review or higher license to edit issues in the Issues section of a project.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations*</td> 
+   <td> <p>Edit access to Issues</p> <p>If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>Contribute or higher permissions to the issue</p> <p> For information about granting permissions to issues, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Share an issue </a></p> <p>For information on requesting additional permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## Problemen met inline bewerken
 
@@ -65,46 +101,46 @@ Een uitgave inline bewerken:
 1. Ga naar een lijst met problemen in een project of taak.
 1. Klik in een veld waarvoor u gemachtigd bent om handmatig bij te werken. Het veld wordt bewerkbaar en u kunt de wijzigingen aanbrengen.
 
-   ![&#x200B; geeft kwesties inline uit &#x200B;](assets/edit-issues-inline-350x34.png)
+   ![ geeft kwesties inline uit ](assets/edit-issues-inline-350x34.png)
 
 1. Druk op Enter wanneer u de wijzigingen wilt accepteren. Wijzigingen worden direct opgeslagen.
 
-   Voor informatie over gealigneerde het uitgeven voorwerpen, zie [&#x200B; gealigneerd punten in een lijst in Adobe Workfront &#x200B;](../../../workfront-basics/navigate-workfront/use-lists/inline-edit-objects.md) uitgeven.
+   Voor informatie over gealigneerde het uitgeven voorwerpen, zie [ gealigneerd punten in een lijst in Adobe Workfront ](../../../workfront-basics/navigate-workfront/use-lists/inline-edit-objects.md) uitgeven.
 
-## Uitgaven in een lijst bewerken
+## Uitgaven bewerken in een lijst
 
 1. Ga naar een lijst met problemen in een project of taak.
 1. Voer een van de volgende handelingen uit
 
-   * Selecteer de kwestie in de lijst, dan klik uitgeven pictogram ![&#x200B; pictogram &#x200B;](assets/qs-edit-icon.png) in de toolbar uitgeven.
-   * Klik het **Meer menu** ![&#x200B; Meer menu &#x200B;](assets/more-icon-task-list.png) aan het recht van de voorwaardennaam, dan klik **Open in een nieuw lusje**. Hierdoor wordt de uitgavepagina op een nieuw tabblad geopend. Klik **Meer** > **uitgeven** van de uitgevende pagina.
-   * Klik het **Meer menu** ![&#x200B; Meer menu &#x200B;](assets/more-icon-task-list.png) aan het recht van de voorwaardennaam, dan klik **uitgeven**.
+   * Selecteer de kwestie in de lijst, dan klik **uitgeven** pictogram ![ pictogram ](assets/qs-edit-icon.png) in de toolbar uitgeven.
+   * Klik de naam van de kwestie, dan klik **uitgeven**.
 
-     Met een van deze handelingen wordt het vak Probleem bewerken geopend.
+     Om het even welk van deze acties opent **uitgeeft doos**.
 
-     Voor informatie over het uitgeven van kwesties in het Edit vakje van de Kwestie, zie [&#x200B; kwesties &#x200B;](../../../manage-work/issues/manage-issues/edit-issues.md) uitgeven.
+     Voor informatie over het uitgeven van kwesties in **geef Uitgave** doos uit, zie [ kwesties ](../../../manage-work/issues/manage-issues/edit-issues.md) uitgeven.
 
 ## Uitgaven bewerken met de samenvatting
 
-U kunt een uitgave in een lijst bewerken met de samenvatting.
+U kunt een uitgave in een lijst bewerken met het deelvenster Overzicht.
 
 1. Ga naar het project waarvan kwesties u wilt uitgeven.
 1. Klik **Kwesties** in het linkerpaneel.
 
    De lijst met problemen in het project wordt weergegeven.
 
-1. Selecteer een kwestie die u wilt uitgeven, dan het **Open Samenvattende** pictogram ![&#x200B; Open Samenvattingspictogram &#x200B;](assets/qs-open-summary-icon-in-new-toolbar-small.png) in de hoger-juiste hoek van de voorwaardenlijst klikken.
+1. Selecteer een kwestie die u wilt uitgeven, dan het **Open samenvatting** pictogram ![ Open samenvattingspictogram ](assets/qs-open-summary-icon-in-new-toolbar-small.png) in de hoger-juiste hoek van de voorwaardenlijst klikken.
 
    Het **Samenvatting** opent.
 
 1. (Facultatief) begin een update voor de kwestie in het **gebied van Updates** te typen.
 1. Klik op een van de volgende pictogrammen of gebieden om naar de uitgave te gaan en informatie te bewerken op het niveau van de uitgave:
 
-   | Documenten | Klik **klik hier om** toe te voegen om documenten aan de kwestie toe te voegen. |
+   | Pictogram | Handeling |
    |---|---|
-   | Details | Klik om informatie over de kwestie bij te werken. |
-   | Uren | Klik om de uren te registreren. |
-   | Goedkeuringen | Klik om goedkeuringen voor uitgaven toe te voegen. |
+   | Documenten ![ pictogram van Documenten ](assets/documents-icon-in-summary.png) | Klik **klik hier om** toe te voegen om documenten aan de kwestie toe te voegen. |
+   | Het pictogram van Details ![ ](assets/details-icon-in-summary.png) | Klik om informatie over de kwestie bij te werken. |
+   | Uren ![ tijd van het Logboek ](assets/log-time-icon-in-summary.png) | Klik om de uren te registreren. |
+   | Goedkeuringen ![ pictogram van Goedkeuringen ](assets/approvals-icon-in-summary.png) | Klik om goedkeuringen voor uitgaven toe te voegen. |
 
 1. (Facultatief) klik opnieuw het **Open Samenvatting** pictogram, of het **X pictogram** in het hoger-recht van de Samenvatting om het paneel te sluiten en de kwestie gealigneerd uit te geven.
 
@@ -119,7 +155,7 @@ Uitgave bulksgewijs bewerken:
 1. Klik op de naam van een project om het project te openen.
 1. Klik **Kwesties** in het linkerpaneel.
 1. Selecteer verschillende problemen in de lijst.
-1. Klik **uitgeven** pictogram ![&#x200B; uitgeven pictogram &#x200B;](assets/edit-icon.png).
+1. Klik **uitgeven** pictogram ![ uitgeven pictogram ](assets/edit-icon.png).
 
    Het **geeft de dialoogdoos uit van Kwesties** opent.
 
@@ -132,7 +168,7 @@ Uitgave bulksgewijs bewerken:
    * Toewijzingen
    * Opmerking
 
-   Voor meer informatie over het uitgeven van een kwestie, zie [&#x200B; kwesties &#x200B;](../../../manage-work/issues/manage-issues/edit-issues.md) uitgeven.
+   Voor meer informatie over het uitgeven van een kwestie, zie [ kwesties ](../../../manage-work/issues/manage-issues/edit-issues.md) uitgeven.
 
    >[!NOTE]
    >

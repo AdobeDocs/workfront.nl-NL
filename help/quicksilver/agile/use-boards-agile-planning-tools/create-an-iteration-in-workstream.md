@@ -7,9 +7,9 @@ description: Een herhaling is een ingestelde hoeveelheid tijd die is gereserveer
 author: Lisa
 feature: Agile
 exl-id: 37b8810d-8439-4a7a-89d5-7c2560422ace
-source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
-source-wordcount: '397'
+source-wordcount: '388'
 ht-degree: 0%
 
 ---
@@ -26,28 +26,25 @@ Een herhaling is een ingestelde hoeveelheid tijd die is gereserveerd voor het vo
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront]</td> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licentie</td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
    <td> 
-   <p>Nieuw: [!UICONTROL Contributor] of hoger</p> 
-   <p>of</p>
-   <p>Huidig: [!UICONTROL Request] of hoger</p>
+   <p>Medewerker of hoger</p> 
+   <p>Aanvraag of hoger</p>
    </td> 
-  </tr> 
+  </tr>  
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -85,15 +82,15 @@ Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van d
 
    De herhaling wordt nu weergegeven in de herhalingsweergave van de kaartlijst en in het metriekgebied op het iteratiebord.
 
-   Om kaarten aan een herhaling toe te voegen, zie [&#x200B; Gebruik de kaartlijst &#x200B;](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md).
+   Om kaarten aan een herhaling toe te voegen, zie [ Gebruik de kaartlijst ](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md).
 
 ## Een bestaande herhaling bewerken
 
 1. Om een werkstroom te openen, klik [!UICONTROL **de werkstroom van de Mening**].
 1. Open de herhaling op een van de volgende manieren:
 
-   * Voor het lusje van de Lijst van de Kaart, in de herhalingsmening, klik de **pictogram ![&#x200B; details van de Interlatie &#x200B;](assets/iteration-details-button.png) van de Details van de Interlatie van 0&rbrace;.**
-   * Op de iteratieraad, klik de **pictogram ![&#x200B; details van de Interferatie &#x200B;](assets/iteration-details-button.png) in het metrieke gebied op het hoogste recht van de Details van de Interferatie.**
+   * Voor het lusje van de Lijst van de Kaart, in de herhalingsmening, klik de [!UICONTROL **pictogram**] details van de Interlatie ![ van de Details van de Interlatie van 0}.](assets/iteration-details-button.png)
+   * Op de iteratieraad, klik de [!UICONTROL **pictogram**] details van de Interferatie ![ in het metrieke gebied op het hoogste recht van de Details van de Interferatie.](assets/iteration-details-button.png)
 
 1. Bewerk de herhaling naar wens in het deelvenster [!UICONTROL Iteration Configuration] .
 1. Om de iteratienaam te veranderen, breid [!UICONTROL **details van de Interlatie**] uit.
@@ -124,5 +121,5 @@ Use the [!UICONTROL Next Iteration] column to move cards from the current iterat
 ## Een herhaling verwijderen
 
 1. Klik het [!UICONTROL **lusje van de Lijst van de Kaart**] op de werkstroom en open de herhalingsmening.
-1. Klik het **pictogram van de Schrapping ![&#x200B; &#x200B;](assets/delete.png) naast de herhaling 0&rbrace;.**
+1. Klik het **pictogram van de Schrapping** ![ naast de herhaling 0}.](assets/delete.png)
 1. Klik [!UICONTROL **herhaling van de Schrapping**] op het bevestigingsbericht.

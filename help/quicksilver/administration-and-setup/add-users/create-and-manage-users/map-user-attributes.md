@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 3d523584-dcb8-4aa6-8217-611f22dc1450
-source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
+source-git-commit: 9e7d20fe165e08997c14e207406fb8bed7597a56
 workflow-type: tm+mt
-source-wordcount: '974'
+source-wordcount: '956'
 ht-degree: 0%
 
 ---
@@ -26,28 +26,26 @@ Met SSO (Single Sign-On) kunt u kenmerken van de Active Directory van uw identit
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan</td> 
-   <td>Alle</td> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
+   <td><p>Alle</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie</td> 
-   <td><p>Nieuw: Standaard</p><p>of</p><p>Huidig: Plan</p></td> 
+   <td><p>Standard</p><p>Plan</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau</td> 
-   <td>[!UICONTROL System Administrator]</td>
+   <td><p>U moet een Workfront-beheerder zijn</p></td>
   </tr> 
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -63,21 +61,21 @@ Houd rekening met het volgende wanneer u kenmerken toewijst:
 
 ## Gebruikerskenmerken toewijzen aan uw organisatie
 
-De procedure voor het toewijzen van kenmerken hangt af van het feit of uw organisatie op de Adobe verenigde ervaring is.
+De procedure voor het toewijzen van kenmerken hangt af van het feit of uw organisatie zich op de verenigde ervaring van Adobe bevindt.
 
-Om te bepalen of uw organisatie op de Adobe verenigde ervaring is, onderzoek URL die u gebruikt om tot Workfront toegang te hebben.
+Om te bepalen of uw organisatie zich op de verenigde ervaring van Adobe bevindt, onderzoek URL die u gebruikt om tot Workfront toegang te hebben.
 
-| URL | Ervaring met Adobe |
+| URL | Adobe-ervaring |
 |---|---|
 | (Bedrijfsnaam).my.workfront.com | Klassieke ervaring |
-| experience.adobe.com | Uniforme Adobe |
+| experience.adobe.com | Adobe Unified Experience |
 
 * [Gebruikerskenmerken toewijzen in de klassieke ervaring](#map-user-attributes-in-the-classic-experience)
-* [Gebruikerskenmerken toewijzen in de verenigde Adobe](#map-user-attributes-in-the-adobe-unified-experience)
+* [Gebruikerskenmerken toewijzen in Adobe Unified Experience](#map-user-attributes-in-the-adobe-unified-experience)
 
 ### Gebruikerskenmerken toewijzen in de klassieke ervaring
 
-1. Klik het **pictogram 1&rbrace; van het Belangrijkste Menu ![&#x200B; Belangrijkste menupictogram &#x200B;](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik** de montages van de Opstelling **![&#x200B; Gear pictogram &#x200B;](assets/gear-icon-settings.png).**
+1. Klik het **pictogram 1} van het Belangrijkste Menu** Belangrijkste menupictogram ![ in de hoger-juiste hoek van Adobe Workfront, dan klik ](assets/main-menu-icon.png) de montages van de Opstelling **** Gear pictogram ![.](assets/gear-icon-settings.png)
 
 1. Klik **Systeem** > **Enige Sign-On (SSO)**.
 
@@ -85,13 +83,13 @@ Om te bepalen of uw organisatie op de Adobe verenigde ervaring is, onderzoek URL
 
 1. Klik **de Attributen van de Gebruiker van de Kaart**.
 
-   ![&#x200B; de gebruikersattributen van de Kaart &#x200B;](assets/map-user-attributes.png)
+   ![ de gebruikersattributen van de Kaart ](assets/map-user-attributes.png)
 
 1. Wijs in de rij met opties die wordt weergegeven de kenmerken toe die u voor uw Workfront-gebruikers nodig hebt.
 
    U kunt kenmerken toewijzen, zoals Adres, Manager, Taakrol, Thuisgroep, enzovoort.
 
-   Kenmerktoewijzingen werken met een verhouding van 1:1. U kunt bijvoorbeeld niet elke groep instellen waartoe een gebruiker behoort; u kunt slechts één groep per gebruiker instellen.
+   Kenmerktoewijzingen werken op een :1 verhouding. U kunt bijvoorbeeld niet elke groep instellen waartoe een gebruiker behoort; u kunt slechts één groep per gebruiker instellen.
 
    >[!IMPORTANT]
    >
@@ -123,26 +121,26 @@ Om te bepalen of uw organisatie op de Adobe verenigde ervaring is, onderzoek URL
    1. Kies in de vervolgkeuzelijst de kenmerkoptie die u wilt gebruiken.
    1. Typ in de twee velden rechts de waarde van het directorykenmerk en de waarde die u wilt vervangen.
 
-      ![&#x200B; de gebieden van de Regel &#x200B;](assets/rule-fields.png)
+      ![ de gebieden van de Regel ](assets/rule-fields.png)
 
    U kunt **klikken voegt Regel** toe om meer regels aan de attributen toe te voegen.
 
 1. (Facultatief) om meer gebruikersattributen in kaart te brengen, klik **Toewijzing** toevoegen en stappen 6-7 herhalen.
 1. Klik **sparen**.
 
-### Gebruikerskenmerken toewijzen in de verenigde Adobe
+### Gebruikerskenmerken toewijzen in Adobe Unified Experience
 
-1. Klik het **pictogram 1&rbrace; van het Belangrijkste Menu ![&#x200B; Belangrijkste menupictogram &#x200B;](assets/main-menu-left.png) in de upper-left hoek van Adobe Workfront, dan klik** de montages van de Opstelling **![&#x200B; Gear pictogram &#x200B;](assets/gear-icon-settings.png).**
+1. Klik het **pictogram 1} van het Belangrijkste Menu** Belangrijkste menupictogram ![ in de upper-left hoek van Adobe Workfront, dan klik ](assets/main-menu-left.png) de montages van de Opstelling **** Gear pictogram ![.](assets/gear-icon-settings.png)
 
 1. Klik **Systeem** > **Enige Sign-On (SSO)**.
 
-1. Selecteer de **Adobe** tabel.
+1. Selecteer het **Adobe** lusje.
 
-1. (Facultatief en voorwaardelijk) als uw organisatie kenmerkafbeelding had die in de klassieke ervaring wordt gevormd en u die attributenafbeelding aan de Adobe verenigde ervaring wilt kopiëren, **Migrate Toewijzingen**. U kunt deze toewijzingen vervolgens verwijderen, verwijderen of bewerken.
+1. (Facultatief en voorwaardelijk) als uw organisatie kenmerkafbeelding had die in de klassieke ervaring wordt gevormd en u die attributenafbeelding aan de verenigde ervaring van Adobe wilt kopiëren, klik **Migrate Toewijzingen**. U kunt deze toewijzingen vervolgens verwijderen, verwijderen of bewerken.
 
    >[!NOTE]
    >
-   >Wij adviseren migrerende afbeeldingen de eerste keer u afbeeldingen in de Adobe verenigde ervaring vormt. Het heeft geen enkel nadeel om ze later opnieuw te migreren, maar het is niet nodig ze meer dan één keer te migreren.
+   >We raden u aan toewijzingen te migreren wanneer u toewijzingen voor het eerst configureert in de verenigde Adobe-ervaring. Het heeft geen enkel nadeel om ze later opnieuw te migreren, maar het is niet nodig ze meer dan één keer te migreren.
 
 1. Om een nieuwe attributenafbeelding tot stand te brengen, klik **Toewijzing** toevoegen.
 

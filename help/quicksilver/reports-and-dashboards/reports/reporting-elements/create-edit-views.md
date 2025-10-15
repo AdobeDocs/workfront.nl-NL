@@ -6,9 +6,9 @@ description: U kunt het type informatie aanpassen dat u op het scherm weergeeft 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8fcd6320-c939-4195-8972-5c31575f78cb
-source-git-commit: d98998627ac5161fd12bb2d86f65555550c82a48
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '1721'
+source-wordcount: '1713'
 ht-degree: 0%
 
 ---
@@ -19,57 +19,48 @@ ht-degree: 0%
 
 U kunt het type informatie aanpassen dat u op het scherm weergeeft met behulp van weergaven. In Adobe Workfront kunt u verschillende typen weergaven gebruiken.
 
-In dit artikel wordt beschreven hoe u standaardweergaven voor lijsten en rapporten maakt en bewerkt, en hoe u flexibele weergaven maakt. Voor meer informatie, zie [&#x200B; Overzicht van Meningen in Adobe Workfront &#x200B;](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+In dit artikel wordt beschreven hoe u standaardweergaven voor lijsten en rapporten maakt en bewerkt, en hoe u flexibele weergaven maakt. Voor meer informatie, zie [ Overzicht van Meningen in Adobe Workfront ](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
 ## Toegangsvereisten
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
-
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront-plan</strong></td> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront-licentie*</strong></td> 
+   <td role="rowheader">Adobe Workfront-licentie</strong></td> 
    <td> 
-      <p>Nieuw:</p>
-         <ul>
-         <li><p>Medewerker of hoger</p></li>
-         </ul>
-      <p>Huidige:</p>
-         <ul>
-         <li><p>Aanvraag of hoger</p></li>
-         </ul>
+    <p>Medewerker of hoger</p>
+    <p>Aanvraag of hoger</p>
    </td>
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Configuraties op toegangsniveau*</strong></td> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
    <td> <p>Toegang tot filters, weergaven, groepen bewerken</p> <p>Toegang tot rapporten, dashboards, kalenders bewerken om een weergave in een rapport te maken</p>
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Objectmachtigingen*</strong></td> 
+   <td role="rowheader">Objectmachtigingen</td> 
    <td> <p>Rechten voor een rapport beheren om een weergave in een rapport te maken of te bewerken</p> <p>Machtigingen beheren voor een weergave om deze te bewerken</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-*For informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
-
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 +++
 
 ## Een weergave maken of aanpassen
 
 Het proces voor het maken of aanpassen van een weergave is afhankelijk van het feit of u een standaardweergave of een blokweergave maakt of aanpast.
 
-* [&#x200B; creeer of pas een standaardmening &#x200B;](#create-or-customize-a-standard-view) aan
+* [ creeer of pas een standaardmening ](#create-or-customize-a-standard-view) aan
 * [Een eenvoudige weergave maken of aanpassen](#create-or-customize-an-agile-view)
 
 ### Een standaardweergave maken of aanpassen {#create-or-customize-a-standard-view}
@@ -80,7 +71,7 @@ U kunt een nieuwe standaardweergave maken of een bestaande standaardweergave aan
 
 1. Klik op de knop **+ Nieuwe weergave** om een nieuwe weergave te maken.
 of
-Klik **uitgeven** pictogram ![&#x200B; geeft pictogram &#x200B;](assets/edit-icon.png) uit dat op muis over rechts van een bestaande mening verschijnt u wilt uitgeven.
+Klik **uitgeven** pictogram ![ geeft pictogram ](assets/edit-icon.png) uit dat op muis over rechts van een bestaande mening verschijnt u wilt uitgeven.
 **past de vertoningen van de de dialoogdoos van de Mening** aan.
 
 1. In de **sectie van de Voorproef van de Kolom**, doe om het even welke volgend:
@@ -90,7 +81,6 @@ Klik **uitgeven** pictogram ![&#x200B; geeft pictogram &#x200B;](assets/edit-ico
    * Pas de volgorde van de kolommen aan door de kolomtitel naar een nieuwe locatie te slepen.
 
    * In het **gebied van de Montages van de Kolom**, klik **vat deze kolom door** samen, en kies hoe u de gegevens in de kolom wilt tonen. Deze optie is beschikbaar voor de volgende kolomtypen:
-
      <table style="table-layout:auto"> 
          <col> 
          <col> 
@@ -107,7 +97,7 @@ Klik **uitgeven** pictogram ![&#x200B; geeft pictogram &#x200B;](assets/edit-ico
            <td><ul>
            <li>Aantal</li>
          <li>Som</li>
-           <li>Gemiddeld</li>
+           <li>Gemiddelde</li>
          <li>Maximum</li>
            <li>Minimaal</li>
          </ul></td> 
@@ -128,7 +118,7 @@ Klik **uitgeven** pictogram ![&#x200B; geeft pictogram &#x200B;](assets/edit-ico
      > * Werkelijke uren geeft een overzicht van de waarden voor de hoofdbovenliggende taken en de zelfstandige taken; deze geven geen overzicht van de getallen voor de bovenliggende taken of de onderliggende taken.
      > * De gegevensgebieden van de douane voor aantal en muntwaarden vatten alle taken samen: ouders, kinderen, ouders van ouders, en standalone taken.
      >
-     >Voor meer informatie over het gebruiken van groeperingen in een rapport, zie het artikel [&#x200B; overzicht van Groepen in Adobe Workfront &#x200B;](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
+     >Voor meer informatie over het gebruiken van groeperingen in een rapport, zie het artikel [ overzicht van Groepen in Adobe Workfront ](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
       * (Facultatief) klik **Geavanceerde Opties** om de volgende informatie voor de kolom te specificeren:
 
@@ -155,7 +145,7 @@ Klik **uitgeven** pictogram ![&#x200B; geeft pictogram &#x200B;](assets/edit-ico
          </tbody> 
         </table>
 
-        Voor meer informatie over voorwaardelijk het formatteren van meningen in rapporten, zie het artikel [&#x200B; Voorwaardelijke het formatteren van het Gebruik in de Wijze van de Tekst &#x200B;](../../../reports-and-dashboards/reports/text-mode/use-conditional-formatting-text-mode.md).
+        Voor meer informatie over voorwaardelijk het formatteren van meningen in rapporten, zie het artikel [ Voorwaardelijke het formatteren van het Gebruik in de Wijze van de Tekst ](../../../reports-and-dashboards/reports/text-mode/use-conditional-formatting-text-mode.md).
 
 1. (Voorwaardelijk) als u **Geavanceerde Opties** klikte, klik **Gedaan**.
 
@@ -177,7 +167,7 @@ U kunt een flexibele weergave maken of een bestaande, flexibele weergave aanpass
 >
 >Gegraveerde weergaven zijn alleen beschikbaar wanneer u een project weergeeft.
 
-Voor meer informatie over de Gelijke meningen, zie het artikel [&#x200B; een project in de Gelijke Mening &#x200B;](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md) leiden.
+Voor meer informatie over de Gelijke meningen, zie het artikel [ een project in de Gelijke Mening ](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md) leiden.
 
 >[!NOTE]
 >
@@ -186,7 +176,7 @@ Voor meer informatie over de Gelijke meningen, zie het artikel [&#x200B; een pro
 U kunt als volgt een eenvoudige weergave maken of aanpassen:
 
 1. Ga naar de lijst met taken in een project.
-1. Klik het **pictogram van de Raad ![&#x200B; raad &#x200B;](assets/board-icon-for-agile-view.png), en klik dan** erfenis van het Gebruik &lbrace;**op de boordmening.**
+1. Klik het **pictogram van de Raad** raad ![, en klik dan ](assets/board-icon-for-agile-view.png) erfenis van het Gebruik {**op de boordmening.**
 
 1. (Voorwaardelijk) U kunt als volgt een bestaande beoordelingsweergave aanpassen:
 
@@ -194,16 +184,16 @@ U kunt als volgt een eenvoudige weergave maken of aanpassen:
       U kunt de standaardweergave Gelijk niet aanpassen.
 
    1. Klik opnieuw het **drop-down menu van de Mening**, dan klik **aanpassen Mening**.\
-      ![&#x200B; pas mening &#x200B;](assets/view-agile-customize.png) aan
+      ![ pas mening ](assets/view-agile-customize.png) aan
 
 1. (Voorwaardelijk) om een nieuwe Gelijke mening tot stand te brengen, klik **Nieuwe Mening**.\
-   Het **&#x200B;**&#x200B;de dialoogvakje van de Mening van de Gelijkheid aanpassen.
+   Het **** de dialoogvakje van de Mening van de Gelijkheid aanpassen.
 
 1. In **pas de dialoogdoos van de Mening van de Gelijkheid aan**, specificeer een naam voor de Gelijke mening.\
    We raden u aan het woord &#39;Gelijk&#39; op te nemen in de weergavenaam, zodat gebruikers weten dat dit een Gegale weergave is.\
    Deze naam wordt getoond in het **drop-down menu van de Mening** wanneer het selecteren van een mening.
 
-1. Definieer de statuskolommen die u wilt weergeven op het artikelbord in de Tegelweergave. Dit zijn de taakstatussen die door de beheerder van Workfront worden bepaald, zoals die in [&#x200B; wordt beschreven creeer of geef een status &#x200B;](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md) uit.
+1. Definieer de statuskolommen die u wilt weergeven op het artikelbord in de Tegelweergave. Dit zijn de taakstatussen die door de beheerder van Workfront worden bepaald, zoals die in [ wordt beschreven creeer of geef een status ](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md) uit.
 
    Alleen de systeemstatussen zijn beschikbaar voor gebruik op het artikel. Als een status alleen beschikbaar is voor een afzonderlijke groep waarvan u lid bent, is de status niet beschikbaar op de agile-artikelkaart. Bovendien zijn taken die zich in een status bevinden die alleen voor een aangepaste groep beschikbaar is, niet zichtbaar wanneer u het project in een georiënteerde weergave bekijkt.
 

@@ -6,9 +6,9 @@ description: U kunt de naam of beschrijving van een Canvasdashboard bewerken nad
 author: Courtney and Jenny
 feature: Reports and Dashboards
 exl-id: e768de3d-ec07-40bd-a7d8-39252e6583c0
-source-git-commit: 56d0b9281387cc7b35055461e7868c7e4a194f81
+source-git-commit: 1059950dd3b20e0959c626e580f958bed5076541
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '326'
 ht-degree: 0%
 
 ---
@@ -17,9 +17,9 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->De functie Canvasdashboards is momenteel alleen beschikbaar voor gebruikers die deelnemen aan de bètafase. Onderdelen van het onderdeel zijn mogelijk niet compleet of werken niet zoals bedoeld in deze fase. Gelieve te dienen om het even welke terugkoppelen betreffende uw ervaring door de instructies in [&#x200B; te volgen verstrekt &#x200B;](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) sectie in het de bètaoverzichtsartikel van de dashboards van het Canvas.<br>
->&#x200B;>Als u feedback hebt over een mogelijk probleem met een probleem of een technisch probleem, stuurt u een ticket naar Workfront Support. Voor meer informatie, zie [&#x200B; de Steun van de Klant van het Contact &#x200B;](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
->&#x200B;>Deze bètaversie is niet beschikbaar op de volgende cloudproviders:
+>De functie Canvasdashboards is momenteel alleen beschikbaar voor gebruikers die deelnemen aan de bètafase. Onderdelen van het onderdeel zijn mogelijk niet compleet of werken niet zoals bedoeld in deze fase. Gelieve te dienen om het even welke terugkoppelen betreffende uw ervaring door de instructies in [ te volgen verstrekt ](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) sectie in het de bètaoverzichtsartikel van de dashboards van het Canvas.<br>
+>>Als u feedback hebt over een mogelijk probleem met een probleem of een technisch probleem, stuurt u een ticket naar Workfront Support. Voor meer informatie, zie [ de Steun van de Klant van het Contact ](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
+>>Deze bètaversie is niet beschikbaar op de volgende cloudproviders:
 >
 >* Je eigen sleutel voor Amazon Web Services
 >* Azure
@@ -32,7 +32,7 @@ Alle wijzigingen die u aanbrengt in een dashboard, zijn van invloed op alle gebr
 
 ## Toegangsvereisten
 
-+++ Vouw uit om de vereisten voor toegang weer te geven. 
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 <table style="table-layout:auto"> 
 <col> 
@@ -41,7 +41,7 @@ Alle wijzigingen die u aanbrengt in een dashboard, zijn van invloed op alle gebr
 </col> 
 <tbody> 
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront-plan</p></td> 
+   <td role="rowheader"><p>Adobe Workfront-pakket</p></td> 
    <td> 
 <p>Alle </p> 
    </td> 
@@ -49,8 +49,8 @@ Alle wijzigingen die u aanbrengt in een dashboard, zijn van invloed op alle gebr
  <tr> 
    <td role="rowheader"><p>Adobe Workfront-licentie</p></td> 
    <td> 
-<p>Huidig: Plan </p> 
-<p>Nieuw: Standaard</p> 
+<p>Standard</p> 
+<p>Plan</p> 
    </td> 
    </tr> 
   </tr> 
@@ -67,14 +67,14 @@ Alle wijzigingen die u aanbrengt in een dashboard, zijn van invloed op alle gebr
 </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 +++
 
 ## Vereisten
 
 U moet een dashboard maken voordat u de naam of beschrijving ervan kunt wijzigen.
 
-Voor meer informatie, zie [&#x200B; een Dashboard van het Canvas &#x200B;](/help/quicksilver/reports-and-dashboards/canvas-dashboards/create-dashboards/create-dashboards.md) creëren.
+Voor meer informatie, zie [ een Dashboard van het Canvas ](/help/quicksilver/reports-and-dashboards/canvas-dashboards/create-dashboards/create-dashboards.md) creëren.
 
 
 ## De naam en beschrijving van een dashboard wijzigen
@@ -89,7 +89,7 @@ Voor meer informatie, zie [&#x200B; een Dashboard van het Canvas &#x200B;](/help
 
 1. Klik in het dashboard waarvoor u de naam wilt wijzigen of de beschrijving wilt bijwerken.
 
-1. Klik het **pictogram van Details** ![&#x200B; Details &#x200B;](assets/details-icon.png) aan het recht van de dashboardnaam bij de bovenkant van het scherm.
+1. Klik het **pictogram van Details** ![ Details ](assets/details-icon.png) aan het recht van de dashboardnaam bij de bovenkant van het scherm.
 
 1. Ga een nieuwe **Naam** in.
 

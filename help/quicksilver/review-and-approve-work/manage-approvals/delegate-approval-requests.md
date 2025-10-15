@@ -6,16 +6,16 @@ description: Het delegeren van goedkeuringsverzoeken staat u toe om een andere g
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 01b76dd5-98cb-4f0d-97ff-7e665f843a9c
-source-git-commit: e0f6078cfab1b325302dbda8a656d2a65ee0b95c
+source-git-commit: 14360a82b0de65587a9413b58d9c69abb55fa29d
 workflow-type: tm+mt
-source-wordcount: '1200'
+source-wordcount: '1184'
 ht-degree: 0%
 
 ---
 
 # Goedkeuringsaanvraag delegeren
 
-U kunt het werk tijdelijk delegeren u aan wordt toegewezen terwijl u uit het bureau bent. U kunt taken delegeren en taken uitgeven, of u kunt goedkeuringsverzoeken delegeren. Dit artikel beschrijft hoe te om goedkeuringsverzoeken te delegeren. Voor informatie over het delegeren van taak en uitgiftetaken, zie [&#x200B; de taken en kwesties van de Afgevaardigde &#x200B;](../../manage-work/delegate-work/how-to-delegate-work.md).
+U kunt het werk tijdelijk delegeren u aan wordt toegewezen terwijl u uit het bureau bent. U kunt taken delegeren en taken uitgeven, of u kunt goedkeuringsverzoeken delegeren. Dit artikel beschrijft hoe te om goedkeuringsverzoeken te delegeren. Voor informatie over het delegeren van taak en uitgiftetaken, zie [ de taken en kwesties van de Afgevaardigde ](../../manage-work/delegate-work/how-to-delegate-work.md).
 
 U kunt de volgende typen goedkeuringen delegeren, ongeacht hoe de goedkeuring aan u is toegewezen (of deze rechtstreeks aan u zijn toegewezen, aan een team u lid van, of aan uw baanrol):
 
@@ -29,15 +29,13 @@ U kunt geen timesheet-, document- of proefdrukgoedkeuringen delegeren.
 >
 >Om ervoor te zorgen dat geen inconsistenties met de data voorkomen die u voor uw goedkeuringen plant om worden afgevaardigd, adviseren wij dat de tijdzone van uw gebruikersprofiel dat van uw programma aanpast. Raadpleeg de volgende artikelen voor meer informatie:
 >
->* [&#x200B; creeer een programma &#x200B;](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)
->* [&#x200B; geef het profiel van een gebruiker &#x200B;](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) uit
+>* [ creeer een programma ](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)
+>* [ geef het profiel van een gebruiker ](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) uit
 >
 
 ## Toegangsvereisten
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
-
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -46,17 +44,20 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront-abonnement*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront-pakket</p></td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront-licentie*</p></td> 
-   <td> <p>Controleren of hoger</p> </td> 
+   <td role="rowheader"><p>Adobe Workfront-licentie</p></td> 
+   <td>
+   <p>Contribute of hoger</p>
+   <p>Controleren of hoger</p> 
+   </td> 
   </tr> 
  </tbody> 
 </table>
 
-Neem contact op met uw Workfront-beheerder om te weten te komen welk abonnement- of licentietype u hebt.
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -70,10 +71,10 @@ Tijdens de aangewezen goedkeuringsperiode, heeft de gebruiker aan wie u een goed
 
   >[!NOTE]
   >
-  > De Adobe Workfront-beheerder kan gebruikers toegang tot bepaalde objecttypen ontzeggen. Wanneer een gebruiker geen toegang tot een objecttype heeft en een goedkeuring van dat type aan de gebruiker wordt gedelegeerd, heeft de gebruiker geen toegang tot het object weergeven. Nochtans, kan de gebruiker nog goedkeuren of goedkeuringsverzoeken van de **1&rbrace; pagina van het Huis &lbrace;verwerpen, zoals die in** wordt beschreven het werk [&#x200B; goedkeurt.](../../review-and-approve-work/manage-approvals/approving-work.md)\
+  > De Adobe Workfront-beheerder kan gebruikers toegang tot bepaalde objecttypen ontzeggen. Wanneer een gebruiker geen toegang tot een objecttype heeft en een goedkeuring van dat type aan de gebruiker wordt gedelegeerd, heeft de gebruiker geen toegang tot het object weergeven. Nochtans, kan de gebruiker nog goedkeuren of goedkeuringsverzoeken van de **1} pagina van het Huis {verwerpen, zoals die in** wordt beschreven het werk [ goedkeurt.](../../review-and-approve-work/manage-approvals/approving-work.md)\
   >Bijvoorbeeld, behoort de Gebruiker A tot Groep A. De Workfront-beheerder heeft de toegangsrechten van groep A beperkt, zodat gebruikers in deze groep geen taken in Workfront kunnen weergeven. Als een verzoek van de taakgoedkeuring aan Gebruiker A wordt gedelegeerd, kan Gebruiker A niet de taak bekijken die de goedkeuring met wordt geassocieerd. Nochtans, kan Gebruiker A het goedkeuringsverzoek van de Homepage goedkeuren of verwerpen.
 
-  Voor informatie over hoe de beheerder van Workfront toegang tot objecten types binnen Opstelling kan beperken, zie  [&#x200B; creeer of wijzig douanetoegangsniveaus &#x200B;](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). 
+  Voor informatie over hoe de beheerder van Workfront toegang tot objecten types binnen Opstelling kan beperken, zie  [ creeer of wijzig douanetoegangsniveaus ](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). 
 
 Nadat de delegatie van de goedkeuring is gestopt of geannuleerd, heeft de gebruiker die als fiatteur is aangewezen:
 
@@ -104,7 +105,7 @@ Overweeg het volgende wanneer het delegeren van goedkeuringen:
 
 Goedkeuringen delegeren aan een andere gebruiker:
 
-1. Klik het **[!UICONTROL Main Menu]** ![&#x200B; Belangrijkste pictogram van het Menu &#x200B;](assets/main-menu-icon.png) in de hoger-juiste hoek, dan klik **[!UICONTROL Home]**.
+1. Klik het **[!UICONTROL Main Menu]** ![ Belangrijkste pictogram van het Menu ](assets/main-menu-icon.png) in de hoger-juiste hoek, dan klik **[!UICONTROL Home]**.
 1. (Voorwaardelijk) klik **aanpassen** om **Mijn goedkeurt** widget toe te voegen.
 1. Ga naar Mijn widget Goedkeuringen, dan klik **Afgevaardigde Mijn Goedkeuringen**.
 
@@ -112,7 +113,7 @@ Goedkeuringen delegeren aan een andere gebruiker:
    >
    >Workfront-beheerders kunnen goedkeuringsdelegaties uitschakelen in het installatiegebied. Als de goedkeuringsdelegaties gehandicapt zijn, zult u niet de knoop van de Goedkeuring van de Delegatie zien.
 
-   ![&#x200B; goedkeuringen van de Afgevaardigde in huis &#x200B;](assets/delegate-approvals-home.png)
+   ![ goedkeuringen van de Afgevaardigde in huis ](assets/delegate-approvals-home.png)
 
 1. Geef de volgende informatie op in de sectie Mijn goedkeuringen delegeren:
 
@@ -145,11 +146,11 @@ Goedkeuringen delegeren aan een andere gebruiker:
 
 ## Een goedkeuringsdelegatie bijwerken of stoppen {#update-or-stop-an-approval-delegation}
 
-1. Klik het **[!UICONTROL Main Menu]** ![&#x200B; Belangrijkste pictogram van het Menu &#x200B;](assets/main-menu-icon.png) in de hoger-juiste hoek, dan klik **[!UICONTROL Home]**.
+1. Klik het **[!UICONTROL Main Menu]** ![ Belangrijkste pictogram van het Menu ](assets/main-menu-icon.png) in de hoger-juiste hoek, dan klik **[!UICONTROL Home]**.
 1. (Voorwaardelijk) klik **aanpassen** om **Mijn goedkeurt** widget toe te voegen.
 
 1. Ga naar Mijn widget Goedkeuring, dan klik **delegatie** uitgeven.
-   ![&#x200B; geef delegaties &#x200B;](assets/edit-delegations.png) uit
+   ![ geef delegaties ](assets/edit-delegations.png) uit
 <!--
    Or
 
@@ -171,7 +172,7 @@ U kunt alleen de volgende typen goedkeuringsdelegaties weergeven in de widget Mi
 
 Gedelegeerde goedkeuringen weergeven:
 
-1. Klik het **[!UICONTROL Main Menu]** ![&#x200B; Belangrijkste pictogram van het Menu &#x200B;](assets/main-menu-icon.png) in de hoger-juiste hoek, dan klik **[!UICONTROL Home]**.
+1. Klik het **[!UICONTROL Main Menu]** ![ Belangrijkste pictogram van het Menu ](assets/main-menu-icon.png) in de hoger-juiste hoek, dan klik **[!UICONTROL Home]**.
 1. (Voorwaardelijk) klik **aanpassen** om **Mijn goedkeurt** widget toe te voegen.
 1. In **Mijn goedkeurt** widget, klik het **drop-down menu van de Filter**, dan klik **Gedelegeerde Goedkeuringen**.\
    Alle goedkeuringen die aan u worden gedelegeerd, worden in de lijst weergegeven.

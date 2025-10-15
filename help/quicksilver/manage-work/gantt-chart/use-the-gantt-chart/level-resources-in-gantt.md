@@ -2,18 +2,22 @@
 product-area: resource-management
 navigation-topic: use-the-gantt-chart
 title: Niveaubronnen in de [!UICONTROL Gantt Chart]
-description: Informatie over hoe te om middelen in de Grafiek van Gantt te nivelleren.
+description: Als dezelfde bron aan twee verschillende taken is toegewezen, kunt u de tijdlijn van de taken aanpassen door de resources nivelleren te gebruiken, zodat deze niet tegelijkertijd plaatsvinden. Dit artikel biedt informatie over hoe u resources in de Gantt-grafiek kunt nivelleren.
 author: Alina
 feature: Work Management
 exl-id: ba96c01d-03b8-4728-b5e3-b10d227f51b0
-source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
+source-git-commit: c8987d036e1c1324618cb53ebcbb8fd7e4bcc6a4
 workflow-type: tm+mt
-source-wordcount: '530'
+source-wordcount: '550'
 ht-degree: 0%
 
 ---
 
 # Niveaubronnen in de [!UICONTROL Gantt Chart]
+
+<!--Audited: 08/2025-->
+
+U kunt resourcepniveling gebruiken om de tijdlijn van de taken aan te passen zodat deze niet tegelijkertijd plaatsvinden, voor het geval dezelfde bronnen tegelijkertijd aan meerdere taken worden toegewezen.
 
 Het Niveau van uw middelen op een project heeft twee doeleinden:
 
@@ -22,7 +26,37 @@ Het Niveau van uw middelen op een project heeft twee doeleinden:
 
 ## Toegangsvereisten
 
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven. 
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] package</td> 
+   <td> <p>Alle</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!DNL Workfront] licentie</td> 
+   <td> <p>[!UICONTROL Standard]</p>
+   <p>[!UICONTROL Plan]</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
+   <td> <p>[!UICONTROL Edit] toegang tot projecten</p></td>
+</tr> 
+  <tr> 
+   <td role="rowheader">Objectmachtigingen</td> 
+   <td> <p>[!UICONTROL Manage] toegang tot het project</p>
+</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+<!--Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -30,26 +64,24 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
-   <td> <p>Alle </p> </td> 
+   <td> <p>Any </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Workfront] licentie*</td> 
+   <td role="rowheader">[!DNL Workfront] license*</td> 
    <td> <p>[!UICONTROL Plan] </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>[!UICONTROL Edit] toegang tot projecten</p> <p><b>OPMERKING</b>
+   <td role="rowheader">Access level configurations*</td> 
+   <td> <p>[!UICONTROL Edit] access to Projects</p> <p><b>NOTE</b>
 
-Als u nog steeds geen toegang hebt, vraagt u de [!DNL Workfront] -beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een [!DNL Workfront] beheerder uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td>
+If you still don't have access, ask your [!DNL Workfront] administrator if they set additional restrictions in your access level. For information on how a [!DNL Workfront] administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td>
 </tr> 
   <tr> 
-   <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>[!UICONTROL Manage] toegang tot het project</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>[!UICONTROL Manage] access to the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>
-
-&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw [!DNL Workfront] beheerder.
+</table> -->
 
 ## Overzicht van het Niveaus van Middelen
 
@@ -64,9 +96,9 @@ Overweeg het volgende wanneer het nivelleren van middelen op een project:
 * Eerdere relaties hebben voorrang op bronnenniveau.
 * **[!UICONTROL Resource Leveling]** moet voor het project worden ingesteld op **[!UICONTROL Manual]** om het niveau in de [!UICONTROL Gantt chart] aan te passen. Als u beheerdersmachtigingen voor het project hebt, kunt u ervoor zorgen dat het systeem bronnen automatisch op niveau brengt door deze instelling aan te passen op het project en **[!UICONTROL Automatic]** te selecteren in plaats van **[!UICONTROL Manual]** in het vak **[!UICONTROL Edit Project]** .
 
-  ![&#x200B; het niveauwijze van het Middel &#x200B;](assets/resource-leveling-mode-350x177.png)
+  ![ het niveauwijze van het Middel ](assets/resource-leveling-mode-350x177.png)
 
-* Als projecteigenaar, of de taak toegewezen, kunt u een nivellerende vertraging voor een taak introduceren om erop te wijzen dat er een grote kans is dat de taak extra tijd zou kunnen vereisen. Voor informatie over het toevoegen van een nivellerende vertraging aan een taak, zie [&#x200B; de taak Levende Vertraging van de Update &#x200B;](../../../manage-work/tasks/task-information/task-leveling-delay.md).
+* Als projecteigenaar, of de taak toegewezen, kunt u een nivellerende vertraging voor een taak introduceren om erop te wijzen dat er een grote kans is dat de taak extra tijd zou kunnen vereisen. Voor informatie over het toevoegen van een nivellerende vertraging aan een taak, zie [ de taak Levende Vertraging van de Update ](../../../manage-work/tasks/task-information/task-leveling-delay.md).
 
 ## Bronniveaus toepassen in de [!UICONTROL Gantt Chart]
 
@@ -83,11 +115,11 @@ U kunt de Taaklijst [!UICONTROL Gantt Chart] gebruiken om uw middelen te nivelle
    >
    >U kunt resources niet in de [!UICONTROL Gantt Chart] nivelleren wanneer de optie [!UICONTROL Autosave] is ingeschakeld.
 
-   ![&#x200B; Toegelaten het Handmatig plaatsen &#x200B;](assets/manual-standard-setting-enabled-quicksilver-task-list-350x493.png)
+   ![ Toegelaten het Handmatig plaatsen ](assets/manual-standard-setting-enabled-quicksilver-task-list-350x493.png)
 
 1. Klik op de vervolgkeuzelijst **[!UICONTROL Level Resources]** .
 
-   ![&#x200B; Level_resources.png &#x200B;](assets/level-resouces.png)
+   ![ Level_resources.png ](assets/level-resouces.png)
 
 1. Selecteer een van de volgende opties:
 
@@ -98,7 +130,7 @@ U kunt de Taaklijst [!UICONTROL Gantt Chart] gebruiken om uw middelen te nivelle
    >
    >Uw middelen zouden kunnen worden oververdeeld als zij aan veelvoudige taken worden toegewezen die tijdens het zelfde tijdkader voorkomen.
 
-1. (Optioneel en voorwaardelijk) Als u de optie Automatisch opslaan hebt uitgeschakeld, klikt u op de pictogrammen **[!UICONTROL Undo]** of &#x200B; **[!UICONTROL Redo]** als u een van de wijzigingen wilt annuleren of dupliceren.
+1. (Optioneel en voorwaardelijk) Als u de optie Automatisch opslaan hebt uitgeschakeld, klikt u op het pictogram **[!UICONTROL Undo]** of **[!UICONTROL Redo]** als u een van de wijzigingen wilt annuleren of dupliceren.
 
    >[!TIP]
    >

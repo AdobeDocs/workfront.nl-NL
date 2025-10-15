@@ -6,9 +6,9 @@ description: Ontvang  [!DNL Adobe Workfront]  berichten in  [!DNL Slack]
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: bc1ce4ea-58be-4cd7-ab59-7dddb82949b9
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 6178cabbf021fbf92bd8795c5c2bd0346801d64d
 workflow-type: tm+mt
-source-wordcount: '496'
+source-wordcount: '500'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 -->
 
 Nadat u [!DNL Adobe Workfront for Slack] hebt geïnstalleerd, kunt u [!DNL Workfront] meldingen ontvangen in [!DNL Slack] .\
-Voor informatie over het installeren van [!DNL Workfront for Slack], zie [&#x200B;  [!DNL Adobe Workfront for Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md) vormen.
+Voor informatie over het installeren van [!DNL Workfront for Slack], zie [  [!DNL Adobe Workfront for Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md) vormen.
 
 U kunt een geselecteerd aantal [!UICONTROL notifications] inschakelen dat wordt weergegeven in de meldingsballon in de [!DNL Workfront] -interface en dat ook wordt geleverd in [!DNL Slack] .
 
@@ -29,34 +29,38 @@ U kunt [!DNL Workfront] -meldingen die u ontvangt in [!DNL Slack] echter uitscha
 
 ## Toegangsvereisten
 
-U moet het volgende hebben:
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 <table style="table-layout:auto"> 
  <col> 
- </col> 
  <col> 
- </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://business.adobe.com/nl/products/workfront/pricing.html" target="_blank">[!DNL [!DNL Adobe Workfront] plan] </a>*</td> 
-   <td> <p>[!UICONTROL Pro] of hoger</p> </td> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
+   <td> <p>Alle</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td> <p>Alle</p>
   </tr> 
  </tbody> 
 </table>
 
-&#42; om te weten te komen welk plan, licentietype, of toegang u hebt, contacteer uw [!DNL Workfront] beheerder.\
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Vereisten
 
 Voordat u [!DNL Workfront] meldingen kunt ontvangen in [!DNL Slack] , moet u
 
 * Configureren [!DNL Workfront for Slack]\
-   Voor instructies bij het vormen [!DNL Workfront for Slack], zie [&#x200B; vormen  [!DNL Adobe Workfront for Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md).
+   Voor instructies bij het vormen [!DNL Workfront for Slack], zie [ vormen  [!DNL Adobe Workfront for Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md).
 
 ## [!DNL Workfront] -meldingen configureren voor [!DNL Slack] {#configure-workfront-notifications-for-slack}
 
 1. (Voorwaardelijk) Nadat [!DNL Workfront] aan uw [!DNL Slack] -instantie is toegevoegd, meldt u zich aan bij [!DNL Workfront] vanuit [!DNL Slack] .\
-   Voor informatie over het registreren in [!DNL Workfront] van [!DNL Slack], zie [&#x200B; Toegang  [!DNL Adobe Workfront]  van  [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md).
+   Voor informatie over het registreren in [!DNL Workfront] van [!DNL Slack], zie [ Toegang  [!DNL Adobe Workfront]  van  [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md).
 
 1. Typ een van de volgende opdrachten in het berichtveld vanaf een willekeurig kanaal:
 
@@ -86,7 +90,7 @@ Voordat u [!DNL Workfront] meldingen kunt ontvangen in [!DNL Slack] , moet u
 U kunt [!DNL Workfront] -meldingen van [!DNL Slack] ontvangen en erop reageren.
 
 U kunt e-mailmeldingen uitschakelen voor meldingen die u inschakelt in [!DNL Slack] om ervoor te zorgen dat u geen dubbele meldingen ontvangt.\
-Voor informatie over het vormen van uw e-mailberichten, zie [&#x200B; uw eigen e-mailberichten wijzigen &#x200B;](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+Voor informatie over het vormen van uw e-mailberichten, zie [ uw eigen e-mailberichten wijzigen ](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 Het in- of uitschakelen van [!DNL Workfront] -meldingen in [!DNL Slack] heeft geen invloed op de meldingen die u ontvangt in de [!DNL Workfront] -interface.\
 Meldingen binnen de interface [!DNL Workfront] kunnen niet worden uitgeschakeld.
@@ -95,10 +99,10 @@ Uw [!DNL Workfront] -meldingen voor [!DNL Slack] beheren:
 
 1. Meld u aan bij [!UICONTROL Slack] .
 1. Meld u aan bij [!DNL Workfront] vanuit [!DNL Slack] .\
-   Voor informatie over het aanmelden bij [!DNL Workfront] van [!DNL Slack], zie het &quot;Aanmelden aan [!DNL Workfront] van [!DNL Slack]&quot;sectie in [&#x200B; Toegang  [!DNL Adobe Workfront]  van  [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md).
+   Voor informatie over het aanmelden bij [!DNL Workfront] van [!DNL Slack], zie het &quot;Aanmelden aan [!DNL Workfront] van [!DNL Slack]&quot;sectie in [ Toegang  [!DNL Adobe Workfront]  van  [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md).
 
 1. Zorg ervoor dat de [!DNL Workfront] meldingen voor [!DNL Slack] zijn ingeschakeld.\
-   Voor meer informatie waarover [!DNL Workfront] berichten kunnen worden gevormd om ook naar [!DNL Slack] worden verzonden, zie [&#x200B;  [!DNL Workfront]  berichten voor  [!DNL Slack]](#configure-workfront-notifications-for-slack-configure-workfront-notifications-for-slack) vormen.
+   Voor meer informatie waarover [!DNL Workfront] berichten kunnen worden gevormd om ook naar [!DNL Slack] worden verzonden, zie [  [!DNL Workfront]  berichten voor  [!DNL Slack]](#configure-workfront-notifications-for-slack-configure-workfront-notifications-for-slack) vormen.
 
 1. Ga naar het kanaal **[!DNL Workfront]** om uw [!DNL Workfront] -meldingen te zoeken.
 1. (Voorwaardelijk en optioneel) Voer een van de volgende handelingen uit:
@@ -112,7 +116,7 @@ Uw [!DNL Workfront] -meldingen voor [!DNL Slack] beheren:
    * (Voorwaardelijk en optioneel) Klik op **[!UICONTROL Approve]** , **[!UICONTROL Changes]** of **[!UICONTROL Reject]** om een document goed te keuren, goed te keuren met wijzigingen of af te wijzen.
 
      U kunt de muis ook boven de miniatuur van het document houden en op het vergrootglaspictogram klikken om een grotere voorvertoning van het document weer te geven voordat u het goedkeurt.\
-      Slechts kunnen de goedgekeurde Slack [&#x200B; dossiertypes &#x200B;](https://api.slack.com/types/file) worden voorvertoond.
+      Slechts kunnen de goedgekeurde Slack [ dossiertypes ](https://api.slack.com/types/file) worden voorvertoond.
 
    * (Voorwaardelijk en optioneel) Klik op **[!UICONTROL Grant]** of **[!UICONTROL Ignore]** om het verzoek om meer toegang van een andere gebruiker te verlenen of te negeren.\
 

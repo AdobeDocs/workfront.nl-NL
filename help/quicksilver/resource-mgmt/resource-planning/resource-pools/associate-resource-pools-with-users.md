@@ -6,9 +6,9 @@ description: U moet een bronnenpool maken voordat u deze aan gebruikers kunt kop
 author: Lisa
 feature: Resource Management
 exl-id: 0816a2d6-2a45-4e01-8ca2-6d0d190b2568
-source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
+source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
 workflow-type: tm+mt
-source-wordcount: '464'
+source-wordcount: '435'
 ht-degree: 0%
 
 ---
@@ -27,44 +27,39 @@ U kunt gebruikers aan middelpools associëren wanneer u uw middelpools creeert.
 
 Als u bronnenpools maakt zonder deze te vullen met gebruikers, kunt u deze later koppelen aan gebruikers terwijl u nieuwe gebruikers bewerkt of maakt.
 
-Voor informatie over middelpools, zie [&#x200B; overzicht van de pools van het Middel &#x200B;](../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md).
+Voor informatie over middelpools, zie [ overzicht van de pools van het Middel ](../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md).
 
-Voor informatie over het creëren van middelpools, zie [&#x200B; middelpools &#x200B;](../../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md) creëren.
+Voor informatie over het creëren van middelpools, zie [ middelpools ](../../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md) creëren.
 
 ## Toegangsvereisten
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
-
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan</td> 
-   <td><p>Nieuw: alle</p>
-       <p>of</p>
-       <p>Huidig: Pro of hoger</p> </td> 
+   <td>Adobe Workfront-pakket</td> 
+   <td><p>Alle</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie</td> 
-   <td><p>Nieuw: Standaard</p>
-       <p>of</p>
-       <p>Huidig: Plan</p></td>
+   <td>Adobe Workfront-licentie</td> 
+   <td><p>Standard</p>
+   <p>Plan</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau</td> 
+   <td>Configuraties op toegangsniveau</td> 
    <td> <p>Toegang tot bronnenbeheer bewerken, inclusief toegang tot Brongroepen beheren</p> <p>Toegang tot projecten, sjablonen en gebruikers bewerken</p></td> 
   </tr> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader">Objectmachtigingen</td> 
+  <tr> 
+   <td>Objectmachtigingen</td> 
    <td>Beheren toestemmingen voor de projecten, de malplaatjes, en de gebruikers die u de Groepen van het Middel met wilt associëren</td> 
   </tr> 
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -74,15 +69,15 @@ Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van d
 
 1. Controleer de doos naast de naam van een gebruiker van de lijst, dan klik **uitgeven**.
 1. Klik **Planning van het Middel**.
-1. Begin de naam van een middelpool te typen die u met de gebruiker in het **gebied van de Pools van 0&rbrace; Middel wilt associëren &lbrace;, dan het van de lijst selecteren, wanneer het verschijnt.**\
+1. Begin de naam van een middelpool te typen die u met de gebruiker in het **gebied van de Pools van 0} Middel wilt associëren {, dan het van de lijst selecteren, wanneer het verschijnt.**\
    U kunt meerdere bronnenpools aan één gebruiker koppelen.\
-   ![&#x200B; add_resource_pool_to_user.png &#x200B;](assets/add-resource-pool-to-user-350x307.png)
+   ![ add_resource_pool_to_user.png ](assets/add-resource-pool-to-user-350x307.png)
 
 1. Klik **sparen Veranderingen**.
 
-Voor meer informatie over het uitgeven van gebruikers, zie [&#x200B; het profiel van een gebruiker &#x200B;](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) uitgeven.
+Voor meer informatie over het uitgeven van gebruikers, zie [ het profiel van een gebruiker ](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) uitgeven.
 
-Voor meer informatie over het creëren van nieuwe gebruikers, zie [&#x200B; gebruikers &#x200B;](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md) toevoegen.
+Voor meer informatie over het creëren van nieuwe gebruikers, zie [ gebruikers ](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md) toevoegen.
 
 ## Brongroepen koppelen aan gebruikers in bulk
 
@@ -94,7 +89,7 @@ Brongroepen koppelen aan meerdere gebruikers in bulk:
 
 1. Selecteer verscheidene gebruikers op de lijst, en klik **uitgeven**.
 1. Klik **Planning van het Middel**.
-1. Begin de naam van een middelpool te typen die u met de gebruikers in het **gebied van de Pools van 0&rbrace; Middel wilt associëren &lbrace;, dan het van de lijst selecteren, wanneer het verschijnt.**\
+1. Begin de naam van een middelpool te typen die u met de gebruikers in het **gebied van de Pools van 0} Middel wilt associëren {, dan het van de lijst selecteren, wanneer het verschijnt.**\
    U kunt meerdere bronnenpools koppelen aan meerdere gebruikers.
 
    >[!NOTE]
@@ -103,4 +98,4 @@ Brongroepen koppelen aan meerdere gebruikers in bulk:
 
 1. Klik **sparen Veranderingen**.
 
-Voor meer informatie over hoe te om gebruikers in bulk uit te geven, zie [&#x200B; gebruikersprofielen in bulk &#x200B;](../../../administration-and-setup/add-users/create-and-manage-users/edit-user-profiles-in-bulk.md) uitgeven.
+Voor meer informatie over hoe te om gebruikers in bulk uit te geven, zie [ gebruikersprofielen in bulk ](../../../administration-and-setup/add-users/create-and-manage-users/edit-user-profiles-in-bulk.md) uitgeven.

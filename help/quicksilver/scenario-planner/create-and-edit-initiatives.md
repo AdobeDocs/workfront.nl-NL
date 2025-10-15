@@ -1,14 +1,14 @@
 ---
 product-area: enterprise-scenario-planner-product-area
 navigation-topic: enterprise-scenario-planner-navigation-topic
-title: Initiatieven maken en bewerken in de functie Scenario Planner
+title: Initiatieven maken en bewerken in het deelvenster Scenario
 description: Wanneer u de Adobe Workfront Scenario Planner gebruikt, kunt u initiatieven maken in een plan dat u hebt gemaakt of dat met u is gedeeld. Door initiatieven te creëren kunt u tonen hoe de kleinere organisatorische eenheden tot de voltooiing van het plan bijdragen. Bijvoorbeeld, als uw organisatie een plan voor de komende drie jaar heeft om zich op een nieuwe markt uit te breiden, kunt u initiatieven binnen dit plan voor elke afdeling creëren om de behoefte van elke afdeling aan mensen en begroting te schatten om dit plan te verwezenlijken.
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: a811bad0-d3c0-4cba-8b78-d9a14ffc8482
-source-git-commit: 7cfe82eb703e2a043c264cf86c0e5424d1e33d78
+source-git-commit: aa2e9a012a60ab10e2d027dedae520b5e06686c7
 workflow-type: tm+mt
-source-wordcount: '1580'
+source-wordcount: '1547'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,43 @@ Wanneer u de [!UICONTROL Adobe Workfront Scenario Planner] gebruikt, kunt u init
 
 ## Toegangsvereisten
 
-+++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven. 
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td> <p>[!DNL Adobe Workfront] package</p> </td> 
+   <td> 
+   <p>Workfront Ultimate</p>
+<p><b>OPMERKING</b></p>
+<p>Neem contact op met uw Workfront-vertegenwoordiger als u een ander Workfront-pakket hebt.</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td> <p>[!DNL Adobe Workfront] licentie</p> </td> 
+   <td> <p>[!UICONTROL Light] of hoger</p> 
+   <p>[!UICONTROL Review] of hoger</p> </td> 
+  </tr> 
+    <tr> 
+   <td>Configuraties op toegangsniveau</td> 
+   <td> <p>[!UICONTROL Edit] toegang tot de [!DNL Scenario Planner]</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>Objectmachtigingen </p> </td> 
+   <td> <p>[!UICONTROL Manage] machtigingen voor een abonnement</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+Voor meer informatie over toegang tot de Planner van het Scenario, zie [ Toegang nodig om  [!DNL Scenario Planner]](../scenario-planner/access-needed-to-use-sp.md) te gebruiken.
+
+Voor informatie over de toegangsvereisten van Workfront, zie [ vereisten van de Toegang tot de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
+<!--Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -30,44 +66,40 @@ Wanneer u de [!UICONTROL Adobe Workfront Scenario Planner] gebruikt, kunt u init
   <tr> 
    <td> <p>[!DNL Adobe Workfront] plan*</p> </td> 
    <td> <ul></li>
-   <li><p>Nieuw: Ultimate </p></li>
-   <p>De Scenario Planner is niet beschikbaar voor de nieuwe Workfront Select- of Workfront Prime-plannen. </p>
-   <li><p>Huidig: [!UICONTROL Business] of hoger</p></ul>
+   <li><p>New: Ultimate </p></li>
+   <p>The Scenario Planner is not available for the new Workfront Select or Workfront Prime plans. </p>
+   <li><p>Current: [!UICONTROL Business] or higher</p></ul>
    </td> 
   </tr> 
   <tr> 
-   <td> <p>[!DNL Adobe Workfront] licentie*</p> </td> 
-   <td> <p>Nieuw: Licht of hoger</p> 
-   <p>Huidig: [!UICONTROL Review] of hoger</p> </td> 
+   <td> <p>[!DNL Adobe Workfront] license*</p> </td> 
+   <td> <p>New: Light or higher</p> 
+   <p>Current: [!UICONTROL Review] or higher</p> </td> 
   </tr> 
   <tr> 
    <td>Product* </td> 
-   <td> <ul><li><p>Voor de nieuwe plannen van Workfront:</p><p> Adobe Workfront</li></p>
-   <li><p>Voor de huidige plannen van Workfront: </p>
+   <td> <ul><li><p>For the new Workfront plans:</p><p> Adobe Workfront</li></p>
+   <li><p>For the current Workfront plans: </p>
    <p>Adobe Workfront</p> <p>Adobe Workfront Scenario Planner</p></li></ul>
-
-<p>Voor meer informatie, zie <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref"> Toegang nodig om [!DNL Scenario Planner]</a> te gebruiken. </p> </td> 
+   
+   <p>For more information, see <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Access needed to use the [!DNL Scenario Planner]</a>. </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>Toegangsniveau </td> 
-   <td> <p>[!UICONTROL Edit] toegang tot de [!DNL Scenario Planner]</p> </td> 
+   <td>Access level </td> 
+   <td> <p>[!UICONTROL Edit] access to the [!DNL Scenario Planner]</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p>Objectmachtigingen </p> </td> 
-   <td> <p>[!UICONTROL Manage] machtigingen voor een abonnement</p> <p>Voor informatie bij het vragen van om extra toegang tot een plan, zie <a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref"> de toegang van het Verzoek tot een plan in [!DNL Scenario Planner]</a>.</p> </td> 
+   <td> <p>Object permissions </p> </td> 
+   <td> <p>[!UICONTROL Manage] permissions to a plan</p> <p>For information on requesting additional access to a plan, see <a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">Request access to a plan in the [!DNL Scenario Planner]</a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>
-
-*For informatie, zie [&#x200B; vereisten van de Toegang tot de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
-
-+++
+</table>-->
 
 ## Vereisten
 
-U moet een plan tot stand brengen of een andere gebruiker moet een plan met u delen alvorens u een initiatief binnen dat plan kunt tot stand brengen. Voor informatie over het creëren van plannen, zie [&#x200B; plannen in  [!DNL Scenario Planner]](../scenario-planner/create-and-edit-plans.md) creëren en uitgeven.
+U moet een plan tot stand brengen of een andere gebruiker moet een plan met u delen alvorens u een initiatief binnen dat plan kunt tot stand brengen. Voor informatie over het creëren van plannen, zie [ plannen in  [!DNL Scenario Planner]](../scenario-planner/create-and-edit-plans.md) creëren en uitgeven.
 
-Voor meer informatie over welke initiatieven zijn, zie [&#x200B; Overzicht van Initiatieven in  [!DNL Scenario Planner]](../scenario-planner/initiatives-overview.md).
+Voor meer informatie over welke initiatieven zijn, zie [ Overzicht van Initiatieven in  [!DNL Scenario Planner]](../scenario-planner/initiatives-overview.md).
 
 ## Initiatieven maken
 
@@ -76,11 +108,11 @@ U kunt op de volgende manieren initiatieven maken:
 * Van nul.
 * Door projecten in een plan in te voeren
 
-  Voor informatie over het invoeren van projecten als initiatieven in een plan, zie [&#x200B; de projecten van de Invoer in plannen in  [!DNL Scenario Planner]](../scenario-planner/import-projects-to-plans.md).
+  Voor informatie over het invoeren van projecten als initiatieven in een plan, zie [ de projecten van de Invoer in plannen in  [!DNL Scenario Planner]](../scenario-planner/import-projects-to-plans.md).
 
 * Door bestaande initiatieven te kopiëren.
 
-  Voor informatie over het kopiëren van initiatieven, zie [&#x200B; initiatieven van het Exemplaar in  [!DNL Scenario Planner]](../scenario-planner/copy-initiatives.md).
+  Voor informatie over het kopiëren van initiatieven, zie [ initiatieven van het Exemplaar in  [!DNL Scenario Planner]](../scenario-planner/copy-initiatives.md).
 
 geheel nieuwe initiatieven maken:
 
@@ -102,7 +134,7 @@ geheel nieuwe initiatieven maken:
 1. (Optioneel) Sleep het einde van de initiatiefbalk om de duur van de balk tot meer dan een maand te verlengen en laat deze los op de plaats waar de eindmaand van het initiatief moet komen.
 1. (Optioneel en voorwaardelijk) Als de duur van het initiatief korter is dan die van het plan, sleept u de initiatiefbalk naar een andere positie op de tijdlijn van het plan en zet u deze neer om de balk naar een ander tijdpad te verplaatsen.
 
-   ![&#x200B; initiatief van de beweging op chronologie &#x200B;](assets/move-initiative-back-and-forth-on-the-timeline-350x71.png)
+   ![ initiatief van de beweging op chronologie ](assets/move-initiative-back-and-forth-on-the-timeline-350x71.png)
 
    >[!IMPORTANT]
    >
@@ -120,7 +152,7 @@ geheel nieuwe initiatieven maken:
 1. (Optioneel) Schuif van links naar rechts om de volledige duur van het initiatief weer te geven.
 1. (Optioneel) Klik op de indicatorregel **[!UICONTROL Today]** om terug te keren naar de huidige datum.
 
-   ![&#x200B; vandaag indicator &#x200B;](assets/today-indicator-350x160.png)
+   ![ vandaag indicator ](assets/today-indicator-350x160.png)
 
    >[!TIP]
    >
@@ -128,7 +160,7 @@ geheel nieuwe initiatieven maken:
 
 1. Klik op de balk van een initiatief. Rechts wordt het paneel met initiatiefdetails geopend.
 
-   ![&#x200B; paneel van de Details van het Initiatief &#x200B;](assets/initiative-details-panel-multiple-months-350x626.png)
+   ![ paneel van de Details van het Initiatief ](assets/initiative-details-panel-multiple-months-350x626.png)
 
    Geef de volgende informatie op of bekijk deze:
 
@@ -194,9 +226,9 @@ geheel nieuwe initiatieven maken:
 
    >[!NOTE]
    >
-   >Als u al het aantal functies en het budget voor uw abonnement hebt gedefinieerd, evenals het aantal functies en de kosten van het initiatief dat u bewerkt en van alle initiatieven daarboven, en als ze alle bedragen overschrijden die u voor het plan hebt opgegeven, zal [!DNL Workfront] wellicht zien dat u niet over voldoende middelen beschikt om het initiatief te voltooien. [!DNL Workfront] markeert dit als een conflict wanneer u dit initiatief probeert te bereiken en geeft het weer als een rode balk. Alle initiatieven die op het conflicterende initiatief volgen, worden op een rode achtergrond weergegeven. Mogelijk moet u een aantal van de behoeften van uw initiatieven aanpassen, te beginnen met de eerste die over onvoldoende middelen beschikt. Voor informatie over het aanpassen van conflicterende initiatieven, zie [&#x200B; initiatiefconflicten in  [!DNL Scenario Planner]](../scenario-planner/resolve-conflicts-in-sp.md) oplossen.
+   >Als u al het aantal functies en het budget voor uw abonnement hebt gedefinieerd, evenals het aantal functies en de kosten van het initiatief dat u bewerkt en van alle initiatieven daarboven, en als ze alle bedragen overschrijden die u voor het plan hebt opgegeven, zal [!DNL Workfront] wellicht zien dat u niet over voldoende middelen beschikt om het initiatief te voltooien. [!DNL Workfront] markeert dit als een conflict wanneer u dit initiatief probeert te bereiken en geeft het weer als een rode balk. Alle initiatieven die op het conflicterende initiatief volgen, worden op een rode achtergrond weergegeven. Mogelijk moet u een aantal van de behoeften van uw initiatieven aanpassen, te beginnen met de eerste die over onvoldoende middelen beschikt. Voor informatie over het aanpassen van conflicterende initiatieven, zie [ initiatiefconflicten in  [!DNL Scenario Planner]](../scenario-planner/resolve-conflicts-in-sp.md) oplossen.
 
-1. (Facultatief) Beweeg over de naam van een baanrol, dan klik het **[!UICONTROL trash can icon]** ![&#x200B; pictogram van de Schrapping &#x200B;](assets/delete.png) om het uit het initiatief te verwijderen.
+1. (Facultatief) Beweeg over de naam van een baanrol, dan klik het **[!UICONTROL trash can icon]** ![ pictogram van de Schrapping ](assets/delete.png) om het uit het initiatief te verwijderen.
 
 1. (Voorwaardelijk) Als u wijzigingen in het initiatief hebt aangebracht, klikt u op **[!UICONTROL Apply]** .
 
@@ -209,7 +241,7 @@ geheel nieuwe initiatieven maken:
 1. (Voorwaardelijk) als u geen veranderingen aanbracht, klik het **X** pictogram in het hoger-recht van het paneel van initiatiefdetails om het te sluiten.
 1. (Optioneel) Werk de prioriteit van uw initiatieven bij.
 
-   Voor informatie over het prioriteren van initiatieven, zie [&#x200B; de initiatiefprioriteiten van de Update in de Planner van het Scenario &#x200B;](../scenario-planner/prioritize-initiatives.md).
+   Voor informatie over het prioriteren van initiatieven, zie [ de initiatiefprioriteiten van de Update in de Planner van het Scenario ](../scenario-planner/prioritize-initiatives.md).
 
    >[!TIP]
    >
@@ -219,4 +251,4 @@ geheel nieuwe initiatieven maken:
 
    Het initiatief is nu in uw plan opgenomen.
 
-   Voor informatie over het schrappen van initiatieven van een plan, zie [&#x200B; initiatieven van de Schrapping in  [!DNL Scenario Planner]](../scenario-planner/delete-initiatives.md).
+   Voor informatie over het schrappen van initiatieven van een plan, zie [ initiatieven van de Schrapping in  [!DNL Scenario Planner]](../scenario-planner/delete-initiatives.md).

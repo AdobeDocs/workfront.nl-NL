@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 3972f498-c461-4535-82c6-ad1b60d3ed86
-source-git-commit: caaba90f4cdd835e1a1fddf16bcefa30995cca0d
+source-git-commit: 20ebcb74c79aea67ea7cb1ba083dfea623fe7c16
 workflow-type: tm+mt
-source-wordcount: '647'
+source-wordcount: '602'
 ht-degree: 0%
 
 ---
@@ -25,35 +25,27 @@ Met tariefkaarten kunt u meerdere factureringssnelheden per rol definiëren, op 
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
-   <td>Alle</td> 
+   <td>[!DNL Adobe Workfront] package</td> 
+   <td><p>Alle</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licentie</td> 
-   <td><p>Nieuw: [!UICONTROL Standard]</p>
-   of
-   <p>Huidige: [!UICONTROL Plan]</p>
-   </td> 
+   <td>[!DNL Adobe Workfront] licentie</td> 
+   <td><p>[!UICONTROL Standard]</p>
+       <p>[!UICONTROL Plan]</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau</td> 
-   <td>Toegang bewerken tot [!UICONTROL Financial Data]</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Objectmachtigingen</td> 
-   <td>Als u een tariefkaart wilt bewerken die met u wordt gedeeld, moet u beheerdersmachtigingen voor de tariefkaart hebben.</td> 
+   <td>Configuraties op toegangsniveau</td> 
+   <td>[!UICONTROL System Administrator]</td> 
   </tr> 
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -66,7 +58,7 @@ Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van d
 1. (Facultatief) op het scherm van de Details van de Kaart van het Tarief, voeg a [!UICONTROL **Beschrijving**] toe.
 1. (Facultatief) om een douaneformulier aan de tariefkaart vast te maken, klik [!UICONTROL **voeg douanevorm**] gebied in de hoger-juiste hoek toe en selecteer een douanevorm van de lijst die toont.
 
-   Voor meer informatie bij het vastmaken van een douanevorm, zie [&#x200B; een douanevorm aan een voorwerp &#x200B;](/help/quicksilver/workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md) toevoegen.
+   Voor meer informatie bij het vastmaken van een douanevorm, zie [ een douanevorm aan een voorwerp ](/help/quicksilver/workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md) toevoegen.
 
 1. Klik [!UICONTROL **Rollen en Tarieven van de Baan**] in het linkernavigatievenster.
 1. Voor de Rollen en het scherm van de Baan van de Kaart van het Tarief, klik [!UICONTROL **baanrol**] toevoegen.
@@ -74,7 +66,7 @@ Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van d
 
    Het standaardFactureringstarief toont het systeem-vlakke tarief voor deze baanrol, als wordt bepaald.
 
-   ![&#x200B; Nieuwe de dialoog van het Tarief van het Facturerings &#x200B;](assets/location-rate-for-rate-card.png)
+   ![ Nieuwe de dialoog van het Tarief van het Facturerings ](assets/location-rate-for-rate-card.png)
 
 1. Selecteer a [!UICONTROL **Valuta**] voor de baanrol.
 1. (Facultatief) selecteer a [!UICONTROL **Plaats**] voor de baanrol.
@@ -94,14 +86,14 @@ Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van d
 
 1. Klik [!UICONTROL **sparen**].
 1. (Facultatief) om een ander het facturerings tarief toe te voegen, of voor de zelfde baanrol in een andere plaats of voor een afzonderlijke baanrol, klik [!UICONTROL **toevoegt baanrol**].
-1. (Optioneel) Als u een tariefkaart wilt bewerken, klikt u op de naam van de tariefkaart in de lijst Sneltoetsen in Setup. Om een het factureren tarief uit te geven, klik [!UICONTROL **Rollen en Tarieven van de Baan**] in het linkernavigatievenster van de tariefkaart. Dan, selecteer het tarief en klik **uitgeven** pictogram ![&#x200B; pictogram &#x200B;](assets/edit-icon.png) uitgeeft.
+1. (Optioneel) Als u een tariefkaart wilt bewerken, klikt u op de naam van de tariefkaart in de lijst Sneltoetsen in Setup. Om een het factureren tarief uit te geven, klik [!UICONTROL **Rollen en Tarieven van de Baan**] in het linkernavigatievenster van de tariefkaart. Dan, selecteer het tarief en klik **uitgeven** pictogram ![ pictogram ](assets/edit-icon.png) uitgeeft.
 
 ## Een creditcard kopiëren
 
 {{step-1-to-setup}}
 
 1. In het linkerpaneel, klik [!UICONTROL **kaarten van het Tarief**].
-1. Selecteer de controledoos naast de tariefkaart in de lijst en klik het **pictogram van het Exemplaar ![&#x200B; pictogram van het Exemplaar &#x200B;](assets/copy-icon.png).**
+1. Selecteer de controledoos naast de tariefkaart in de lijst en klik het **pictogram van het Exemplaar** pictogram van het Exemplaar ![.](assets/copy-icon.png)
 1. Typ een naam voor de tariefkaart in het vak [!UICONTROL Copy rate card] om &quot;Kaart zonder titel&quot; te vervangen. Dan, klik **sparen**.
 
    De nieuwe tariefkaart wordt opgeslagen. Bewerk indien nodig de gegevens van de tariefkaart, de taakrollen en de tarieven.
@@ -111,7 +103,7 @@ Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van d
 {{step-1-to-setup}}
 
 1. In het linkerpaneel, klik [!UICONTROL **kaarten van het Tarief**].
-1. Selecteer de controledoos naast de tariefkaart in de lijst, en klik het **pictogram van de Schrapping** ![&#x200B; pictogram van de Schrapping &#x200B;](assets/delete.png).
+1. Selecteer de controledoos naast de tariefkaart in de lijst, en klik het **pictogram van de Schrapping** ![ pictogram van de Schrapping ](assets/delete.png).
 
    >[!NOTE]
    >

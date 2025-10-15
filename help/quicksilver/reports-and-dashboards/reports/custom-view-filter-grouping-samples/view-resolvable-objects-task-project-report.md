@@ -7,9 +7,9 @@ description: U kunt een lijst van alle Resolvable Voorwerpen in een project of t
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 2b0d8e7c-9211-44e5-9d92-c87a2fe4336d
-source-git-commit: 17a277a5a63a521ec7285e3f5051bfd42fc204bf
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '280'
+source-wordcount: '259'
 ht-degree: 0%
 
 ---
@@ -20,9 +20,9 @@ ht-degree: 0%
 
 U kunt een lijst van alle Resolvable Voorwerpen in een project of taakmening of rapport tonen.
 
-Voor meer informatie over Oplosbare Voorwerpen, zie het artikel [&#x200B; Overzicht van het Oplossen en Oplosbare Voorwerpen &#x200B;](../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md).
+Voor meer informatie over Oplosbare Voorwerpen, zie het artikel [ Overzicht van het Oplossen en Oplosbare Voorwerpen ](../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md).
 
-![&#x200B; list_of_resolvables_in_report.png &#x200B;](assets/list-of-resolvables-in-report-350x54.png)
+![ list_of_resolvables_in_report.png ](assets/list-of-resolvables-in-report-350x54.png)
 
 Deze weergave wordt op dezelfde manier toegepast voor taken en projecten.
 
@@ -30,44 +30,33 @@ Deze weergave wordt op dezelfde manier toegepast voor taken en projecten.
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan</td> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie</td> 
-   <td> <p> Huidige: 
-   <ul>
-   <li>Verzoek om een weergave te wijzigen</li> 
-   <li>Plan om een rapport te wijzigen</li>
-   </ul>
-     </p>
-     <p> Nieuw: 
-   <ul>
-   <li>Medewerker om een weergave te wijzigen</li> 
-   <li>Standaard voor het wijzigen van een rapport</li>
-   </ul>
-     </p>
-    </td> 
+   <td> 
+   <p>Medewerker of verzoek om een weergave te wijzigen </p>
+   <p>Standaard of Plan om een rapport te wijzigen</p>
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau*</td> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
    <td> <p>Toegang tot rapporten, dashboards, kalenders bewerken om een rapport te wijzigen</p> <p>Toegang tot filters, weergaven en groepen bewerken om een weergave te wijzigen</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Machtigingen beheren voor een rapport</p> </td> 
+   <td> <p>Machtigingen beheren voor een rapport</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
 
 +++
 

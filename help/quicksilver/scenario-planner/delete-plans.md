@@ -1,14 +1,14 @@
 ---
 product-area: enterprise-scenario-planner-product-area
 navigation-topic: enterprise-scenario-planner-navigation-topic
-title: Plannen verwijderen in het deelvenster Scenario
+title: Abonnementen verwijderen in het deelvenster Scenario
 description: U kunt plannen schrappen die u creeerde. U kunt geen plannen schrappen die met u worden gedeeld.
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 74515723-3822-425a-aa9e-970af63f9189
-source-git-commit: 7cfe82eb703e2a043c264cf86c0e5424d1e33d78
+source-git-commit: aa2e9a012a60ab10e2d027dedae520b5e06686c7
 workflow-type: tm+mt
-source-wordcount: '490'
+source-wordcount: '457'
 ht-degree: 0%
 
 ---
@@ -19,8 +19,43 @@ U kunt plannen schrappen die u creeerde. U kunt geen plannen schrappen die met u
 
 ## Toegangsvereisten
 
-+++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven. 
 
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td> <p>[!DNL Adobe Workfront] package</p> </td> 
+   <td> 
+   <p>Workfront Ultimate</p>
+<p><b>OPMERKING</b></p>
+<p>Neem contact op met uw Workfront-vertegenwoordiger als u een ander Workfront-pakket hebt.</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td> <p>[!DNL Adobe Workfront] licentie</p> </td> 
+   <td> <p>[!UICONTROL Light] of hoger</p> 
+   <p>[!UICONTROL Review] of hoger</p> </td> 
+  </tr> 
+    <tr> 
+   <td>Configuraties op toegangsniveau</td> 
+   <td> <p>[!UICONTROL Edit] toegang tot de [!DNL Scenario Planner]</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>Objectmachtigingen </p> </td> 
+   <td> <p>[!UICONTROL Manage] machtigingen voor een abonnement</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+Voor meer informatie over toegang tot de Planner van het Scenario, zie [ Toegang nodig om  [!DNL Scenario Planner]](../scenario-planner/access-needed-to-use-sp.md) te gebruiken.
+
+Voor informatie over de toegangsvereisten van Workfront, zie [ vereisten van de Toegang tot de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
+<!--Old:
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -28,38 +63,34 @@ U kunt plannen schrappen die u creeerde. U kunt geen plannen schrappen die met u
   <tr> 
    <td> <p>[!DNL Adobe Workfront] plan*</p> </td> 
    <td> <ul></li>
-   <li><p>Nieuw: Ultimate </p></li>
-   <p>De Scenario Planner is niet beschikbaar voor de nieuwe Workfront Select- of Workfront Prime-plannen. </p>
-   <li><p>Huidig: [!UICONTROL Business] of hoger</p></ul>
+   <li><p>New: Ultimate </p></li>
+   <p>The Scenario Planner is not available for the new Workfront Select or Workfront Prime plans. </p>
+   <li><p>Current: [!UICONTROL Business] or higher</p></ul>
    </td> 
   </tr> 
   <tr> 
-   <td> <p>[!DNL Adobe Workfront] licentie*</p> </td> 
-   <td> <p>Nieuw: Licht of hoger</p> 
-   <p>Huidig: [!UICONTROL Review] of hoger</p> </td> 
+   <td> <p>[!DNL Adobe Workfront] license*</p> </td> 
+   <td> <p>New: Light or higher</p> 
+   <p>Current: [!UICONTROL Review] or higher</p> </td> 
   </tr> 
   <tr> 
    <td>Product* </td> 
-   <td> <ul><li><p>Voor de nieuwe plannen van Workfront:</p><p> Adobe Workfront</li></p>
-   <li><p>Voor de huidige plannen van Workfront: </p>
+   <td> <ul><li><p>For the new Workfront plans:</p><p> Adobe Workfront</li></p>
+   <li><p>For the current Workfront plans: </p>
    <p>Adobe Workfront</p> <p>Adobe Workfront Scenario Planner</p></li></ul>
-
-<p>Voor meer informatie, zie <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref"> Toegang nodig om [!DNL Scenario Planner]</a> te gebruiken. </p> </td> 
+   
+   <p>For more information, see <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Access needed to use the [!DNL Scenario Planner]</a>. </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>Toegangsniveau </td> 
-   <td> <p>[!UICONTROL Edit] toegang tot de [!DNL Scenario Planner]</p> </td> 
+   <td>Access level </td> 
+   <td> <p>[!UICONTROL Edit] access to the [!DNL Scenario Planner]</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p>Objectmachtigingen </p> </td> 
-   <td> <p>[!UICONTROL Manage] machtigingen voor een abonnement</p> <p>Voor informatie bij het vragen van om extra toegang tot een plan, zie <a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref"> de toegang van het Verzoek tot een plan in [!DNL Scenario Planner]</a>.</p> </td> 
+   <td> <p>Object permissions </p> </td> 
+   <td> <p>[!UICONTROL Manage] permissions to a plan</p> <p>For information on requesting additional access to a plan, see <a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">Request access to a plan in the [!DNL Scenario Planner]</a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>
-
-*For informatie, zie [&#x200B; vereisten van de Toegang tot de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
-
-+++
+</table>-->
 
 ## Abonnementen verwijderen
 
@@ -69,7 +100,7 @@ U kunt plannen schrappen die u creeerde. U kunt geen plannen schrappen die met u
 
 U kunt een plan schrappen of u kunt één scenario in een plan schrappen.
 
-* [&#x200B; Schrap plannen &#x200B;](#delete-plans)
+* [ Schrap plannen ](#delete-plans)
 * [Scènes verwijderen](#delete-scenarios)
 
 ### Abonnementen verwijderen
@@ -81,7 +112,7 @@ U kunt een plan schrappen of u kunt één scenario in een plan schrappen.
 >* Alle informatie met betrekking tot het plan wordt eveneens geschrapt. Hieronder vallen alle scenario&#39;s en initiatieven die verband houden met het plan, met inbegrip van informatie over functies en kosten. Deze informatie kan niet worden hersteld.
 >* Als het plan een gepubliceerd scenario bevat, blijven de projecten met betrekking tot de verwijderde initiatieven behouden en blijft het [!DNL Scenario Planner] -gebied in de [!UICONTROL Project Details] -sectie.
 >
->  Voor informatie over het publiceren van initiatieven aan projecten, zie [&#x200B; Update of creeer projecten door initiatieven in  [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md) te publiceren.
+>  Voor informatie over het publiceren van initiatieven aan projecten, zie [ Update of creeer projecten door initiatieven in  [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md) te publiceren.
 
 Een abonnement verwijderen:
 
@@ -90,7 +121,7 @@ Een abonnement verwijderen:
 Een lijst met plannen wordt weergegeven.
 
 1. Klik op de naam van een abonnement om het te openen.
-1. Klik **[!UICONTROL More menu]** ![&#x200B; Meer menu &#x200B;](assets/more-menu.png) aan het recht van de plannaam, dan klik **[!UICONTROL Delete]** > **[!UICONTROL Yes, delete it]**.
+1. Klik **[!UICONTROL More menu]** ![ Meer menu ](assets/more-menu.png) aan het recht van de plannaam, dan klik **[!UICONTROL Delete]** > **[!UICONTROL Yes, delete it]**.
 
    Het plan wordt geschrapt en u keert aan de lijst van plannen terug.
 
@@ -105,7 +136,7 @@ Een lijst met plannen wordt weergegeven.
 >* Als bepaalde initiatieven over het scenario worden gepubliceerd, blijft het project dat met het initiatief verband houdt, behouden en blijft het gebied Scenario Planner op de gekoppelde projecten
 >* Als de gepubliceerde initiatieven op een ander scenario bestaan, blijven zij op dat scenario, met inbegrip van hun verband met het project. Als u deze initiatieven publiceert vanuit de andere scenario&#39;s, worden de gekoppelde projecten bijgewerkt met nieuwe informatie uit die scenario&#39;s.
 >
->  Voor informatie over het publiceren van initiatieven aan projecten, zie [&#x200B; Update of creeer projecten door initiatieven in  [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md) te publiceren.
+>  Voor informatie over het publiceren van initiatieven aan projecten, zie [ Update of creeer projecten door initiatieven in  [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md) te publiceren.
 
 Een scenario verwijderen:
 
@@ -114,7 +145,7 @@ Een scenario verwijderen:
    Standaard wordt het Eerste scenario weergegeven.
 
 1. Klik op **[!UICONTROL Compare scenarios]**.
-1. Van de hoger-juiste hoek van de scenario kaart, klik het **[!UICONTROL More]** menu ![&#x200B; Meer menu &#x200B;](assets/more-menu.png), dan klik **[!UICONTROL Delete]**.
+1. Van de hoger-juiste hoek van de scenario kaart, klik het **[!UICONTROL More]** menu ![ Meer menu ](assets/more-menu.png), dan klik **[!UICONTROL Delete]**.
 
    Het scenario wordt verwijderd.
 

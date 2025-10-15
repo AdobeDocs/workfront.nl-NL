@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: e4232fbe-1b5c-4614-8613-3b0e25ffee46
-source-git-commit: b886284eb44c2154987019655ff07cdeb0e1ae22
+source-git-commit: 0940e4c89de6cd3518cd98a1e06dc726f434846b
 workflow-type: tm+mt
-source-wordcount: '204'
+source-wordcount: '202'
 ht-degree: 0%
 
 ---
@@ -34,14 +34,14 @@ Prioriteiten geven de werkitems weer die aan u zijn toegewezen. U kunt geen werk
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront-plan</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront-pakket</strong></td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront-licentie*</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront-licentie</strong></td> 
    <td> 
-   <p>Huidig: Revisor of hoger</p>
-   <p>Nieuw: Licht of hoger</p> 
+   <p>Revisor of hoger</p>
+   <p>Licht of hoger</p> 
    </td> 
   </tr> 
   <tr> 
@@ -55,7 +55,7 @@ Prioriteiten geven de werkitems weer die aan u zijn toegewezen. U kunt geen werk
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -66,7 +66,7 @@ Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van d
 {{step1-to-priorities}}
 
 1. Klik **Kolommen** op de linkerkant van het scherm.
-   ![&#x200B; Kolommen &#x200B;](assets/columns-new.png)
+   ![ Kolommen ](assets/columns-new.png)
 1. Met de schakelopties kunt u kolommen in de werklijst in- of uitschakelen.
 
 ### De kolommen opnieuw ordenen
@@ -75,7 +75,7 @@ Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van d
 
 1. Klik **Kolommen** op de linkerkant van het scherm.
 1. Klik het **pictogram van de Belemmering** en beweeg de kolom aan uw gewenste plaats. Kolommen automatisch bijwerken in de werklijst verplaatsen.
-   ![&#x200B; reorder kolommen &#x200B;](assets/reorder-columns-new.png)
+   ![ reorder kolommen ](assets/reorder-columns-new.png)
 
 >[!NOTE]
 >

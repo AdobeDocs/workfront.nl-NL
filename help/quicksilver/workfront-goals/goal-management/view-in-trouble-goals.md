@@ -6,9 +6,9 @@ description: Olijven met een Progress of In Trouble dreigen niet te worden berei
 author: Alina
 feature: Workfront Goals
 exl-id: df2cdc12-9102-4759-9daa-1f8ae68f110b
-source-git-commit: 01e53bbc10573950d08f2df63fc742e6b9771e77
+source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
 workflow-type: tm+mt
-source-wordcount: '815'
+source-wordcount: '761'
 ht-degree: 0%
 
 ---
@@ -21,13 +21,17 @@ ht-degree: 0%
 <p>(NOTE: the status of goals in "red" used to be called At Risk. Now, it is "in trouble") </p>
 -->
 
-Doelen met een vooruitgang in de problemen dreigen niet te worden verwezenlijkt en worden in de doelstellingen van Adobe Workfront weergegeven door een rode voortgangsbalk. U moet uw doelstellingen vaak herzien en begrijpen waarom de vooruitgang achterloopt. Voor informatie over doelvooruitgang, zie [&#x200B; Overzicht van doelvooruitgang en voorwaarde in de Doelen van Adobe Workfront &#x200B;](../../workfront-goals/goal-management/calculate-goal-progress.md).
+Doelen met een vooruitgang in de problemen dreigen niet te worden verwezenlijkt en worden in de doelstellingen van Adobe Workfront weergegeven door een rode voortgangsbalk. U moet uw doelstellingen vaak herzien en begrijpen waarom de vooruitgang achterloopt. Voor informatie over doelvooruitgang, zie [ Overzicht van doelvooruitgang en voorwaarde in de Doelen van Adobe Workfront ](../../workfront-goals/goal-management/calculate-goal-progress.md).
 
 ## Toegangsvereisten
 
-+++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
+>[!NOTE]
+>
+>Uw bedrijf zou kunnen verkiezen om de Doelen van Adobe Workfront verder te gebruiken als zij dit pakket in het verleden kochten. U moet voor meer informatie contact opnemen met uw accountvertegenwoordiger.
+>
+>Adobe Workfront Goals kan niet meer worden aangeschaft.
 
-U moet het volgende hebben:
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven. 
 
 <table style="table-layout:auto">
 <col>
@@ -35,34 +39,21 @@ U moet het volgende hebben:
 <col>
 </col>
 <tbody>
- <tr> 
-   <td role="rowheader">Adobe Workfront-abonnement*</td> 
+ <tr>
+  <td> <p>Adobe Workfront-pakket</p> </td> 
    <td> 
-   <p>Voor het nieuwe plan en de nieuwe licentiestructuur:
-  <ul><li>Een Ultimate-abonnement </li></ul>
-   </p>
-<p>Voor het huidige plan en de licentiestructuur: 
-<ul><li> Een Pro of hoger </li>
-  <li>Een Adobe Workfront Goals-licentie in aanvulling op een Workfront-licentie.</li></ul></p>
+   <p>Adobe Workfront Ultimate</p>
    </td> 
   </tr>
  <tr>
- <td role="rowheader">Adobe Workfront-licentie*</td>
+ <td role="rowheader">Adobe Workfront-licentie</td>
  <td>
- <p>Nieuwe licentie: Medewerker of hoger</p>
- of
- <p>Huidige licentie: aanvragen of hoger</p> <p>Voor meer informatie, zie <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref"> het vergunningsoverzicht van Adobe Workfront </a>.</p> </td>
+ <p>Medewerker of hoger</p>
+<p>Aanvraag of hoger</p></td>
  </tr>
- <tr>
- <td role="rowheader">Product*</td>
- <td>
-  <p> Nieuwe productvereisten: Workfront</p>
-  of
-  <p>Huidige productvereiste: Naast een Workfront-licentie moet u een licentie aanschaffen voor Adobe Workfront Goals. </p> <p>Voor informatie, zie <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref"> Vereisten om de Doelen van Workfront </a> te gebruiken. </p> </td>
- </tr>
- <tr>
- <td role="rowheader">Toegangsniveau</td>
- <td> <p>Toegang tot doelen bewerken</p></td>
+  <tr>
+ <td role="rowheader">Configuratie op toegangsniveau</td>
+ <td> <p>Toegang tot doelen bewerken</p> </td>
  </tr>
  <tr data-mc-conditions="">
  <td role="rowheader">Objectmachtigingen</td>
@@ -70,24 +61,76 @@ U moet het volgende hebben:
   <div>
   <p>De toestemmingen van de mening of hoger aan het doel om het te bekijken</p>
   <p>Machtigingen beheren om het te bewerken</p>
-  <p>Voor informatie over het delen van doelstellingen, zie <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref"> een doel in de Doelen van Workfront delen </a>. </p>
   </div> </td>
  </tr>
- <tr>
+<tr>
    <td role="rowheader"><p>Lay-outsjabloon</p></td>
-   <td> <p>Aan alle gebruikers, inclusief Workfront-beheerders, moet een lay-outsjabloon worden toegewezen die het gebied Doelen in het hoofdmenu bevat. </p>  
+   <td> <p>Aan alle gebruikers, inclusief Systeembeheerders, moet een lay-outsjabloon worden toegewezen die het gebied Doelen in het hoofdmenu bevat. </p>  
 </td>
   </tr>
 </tbody>
 </table>
 
-*Voor meer informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
+<!--Old:
+<table style="table-layout:auto">
+<col>
+</col>
+<col>
+</col>
+<tbody>
+ <tr> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td> 
+   <p>For the new plan and license structure:
+  <ul><li>An Ultimate plan </li></ul>
+   </p>
+<p>For the current plan and license structure: 
+<ul><li> A Pro or higher </li>
+  <li>An Adobe Workfront Goals license in addition to a Workfront license.</li></ul></p>
+   </td> 
+  </tr>
+ <tr>
+ <td role="rowheader">Adobe Workfront license*</td>
+ <td>
+ <p>New license: Contributor or higher</p>
+ Or
+ <p>Current license: Request or higher</p> <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p> </td>
+ </tr>
+ <tr>
+ <td role="rowheader">Product*</td>
+ <td>
+  <p> New product requirement: Workfront</p>
+  Or
+  <p>Current product requirement: In addition to a Workfront license, you must purchase a license for Adobe Workfront Goals. </p> <p>For information, see <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requirements to use Workfront Goals</a>. </p> </td>
+ </tr>
+ <tr>
+ <td role="rowheader">Access level</td>
+ <td> <p>Edit access to Goals</p></td>
+ </tr>
+ <tr data-mc-conditions="">
+ <td role="rowheader">Object permissions</td>
+ <td>
+  <div>
+  <p>View or higher permissions to the goal to view it</p>
+  <p>Manage permissions to the goal to edit it</p>
+  <p>For information about sharing goals, see <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Share a goal in Workfront Goals</a>. </p>
+  </div> </td>
+ </tr>
+ <tr>
+   <td role="rowheader"><p>Layout template</p></td>
+   <td> <p>All users, including Workfront administrators,  must be assigned a layout template that includes the Goals area in the Main Menu. </p>  
+</td>
+  </tr>
+</tbody>
+</table>-->
+
 ## Aanbevelingen voor het voorkomen van doelstellingen om een vooruitgang van In Trouble te bereiken
 
-Voordat de doelstellingen een stap voorwaarts in Problemen bereiken, kunt u ze vaak volgen en de voortgang ervan aanpassen wanneer ze een voortgang in Bij risico bereiken. Doelen die gevaar lopen, dreigen in de problemen te raken. Voor meer informatie over doelvooruitgang, zie [&#x200B; Overzicht van doelvooruitgang en voorwaarde in de Doelen van Adobe Workfront &#x200B;](../../workfront-goals/goal-management/calculate-goal-progress.md)
+Voordat de doelstellingen een stap voorwaarts in Problemen bereiken, kunt u ze vaak volgen en de voortgang ervan aanpassen wanneer ze een voortgang in Bij risico bereiken. Doelen die gevaar lopen, dreigen in de problemen te raken. Voor meer informatie over doelvooruitgang, zie [ Overzicht van doelvooruitgang en voorwaarde in de Doelen van Adobe Workfront ](../../workfront-goals/goal-management/calculate-goal-progress.md)
 
 Voordat uw doelstellingen een stap verder gaan in Problemen, raden we het volgende aan:
 
@@ -96,11 +139,11 @@ Voordat uw doelstellingen een stap verder gaan in Problemen, raden we het volgen
 
 ## Herzie in-probleemdoelstellingen in de Lijst van het Doel
 
-U kunt doelstellingen in om het even welk gedeelte van de Doelen van Workfront herzien. Voor informatie over de secties van de Doelen van Workfront, zie [&#x200B; Overzicht van de secties van de Doelen van Adobe Workfront &#x200B;](../../workfront-goals/goal-review-and-workfront-goals-sections/overview-of-wf-goals-sections.md).
+U kunt doelstellingen in om het even welk gedeelte van de Doelen van Workfront herzien. Voor informatie over de secties van de Doelen van Workfront, zie [ Overzicht van de secties van de Doelen van Adobe Workfront ](../../workfront-goals/goal-review-and-workfront-goals-sections/overview-of-wf-goals-sections.md).
 
 Dit artikel beschrijft hoe te om doelstellingen in de Lijst van het Doel te herzien.
 
-1. Klik het **pictogram van het 1&rbrace; pictogram van het Belangrijkste Menu ![&#x200B; &#x200B;](assets/main-menu-icon.png) >** Doelen **in de hoger-juiste hoek.**
+1. Klik het **pictogram van het 1} pictogram van het Belangrijkste Menu** ![ > ](assets/main-menu-icon.png) Doelen **in de hoger-juiste hoek.**
 
    <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
@@ -109,7 +152,7 @@ Dit artikel beschrijft hoe te om doelstellingen in de Lijst van het Doel te herz
 
 1. (Aanbevolen) Pas de volgende filters voor het gebied van de Lijst van het Beleid aan overzicht bij risicodoelstellingen:
 
-   * Klik **Bedrijf 0&rbrace;, dan** Mijn Teams **, toen** Mijn Groepen **, toen** Persoonlijke **doelstellingen in deze orde om doelstellingen te bekijken die tot uw organisatie, uw teams, groepen, en toen uw eigen doelstellingen behoren.**
+   * Klik **Bedrijf 0}, dan** Mijn Teams **, toen** Mijn Groepen **, toen** Persoonlijke **doelstellingen in deze orde om doelstellingen te bekijken die tot uw organisatie, uw teams, groepen, en toen uw eigen doelstellingen behoren.**
 
      >[!TIP]
      >
@@ -123,11 +166,11 @@ Dit artikel beschrijft hoe te om doelstellingen in de Lijst van het Doel te herz
 
      De indicator van de vooruitgangsbar toont in rood voor elk doel in de doellijst.
 
-     Voor meer informatie over het filtreren van doelstellingen die alle andere criteria in het juiste paneel gebruiken, zie [&#x200B; informatie van de Filter in de Doelen van Adobe Workfront &#x200B;](../../workfront-goals/goal-management/filter-information-wf-goals.md).
+     Voor meer informatie over het filtreren van doelstellingen die alle andere criteria in het juiste paneel gebruiken, zie [ informatie van de Filter in de Doelen van Adobe Workfront ](../../workfront-goals/goal-management/filter-information-wf-goals.md).
 
 1. Houd de cursor boven de voortgangsbalkindicator om te zien wat het werkelijke voortgangspercentage is en wat de verwachte waarde voor de huidige dag is.
 
-   ![&#x200B; GOal vooruitgang hover detail &#x200B;](assets/goal-progress-hover-over-detail-unshimmed.png)
+   ![ GOal vooruitgang hover detail ](assets/goal-progress-hover-over-detail-unshimmed.png)
 
 1. (Optioneel) Gebruik de filters om doelen te zoeken die bij een specifieke eigenaar horen.
 
@@ -135,9 +178,9 @@ Dit artikel beschrijft hoe te om doelstellingen in de Lijst van het Doel te herz
 
 1. Klik een doelnaam om de doelpagina te openen, dan klik **Indicatoren van de Voortgang** in het linkerpaneel. Bekijk welke vooruitgangsindicator het doel veroorzaakt om achter te zijn en de vooruitgang van de indicator gealigneerd bij te werken, in de **Ware vooruitgangs** kolom van de lijst van voortgangsindicatoren.
 
-   Voor informatie over het bijwerken van resultaten en activiteiten, zie [&#x200B; het doel van de Update vooruitgang in de Doelen van Adobe Workfront &#x200B;](../goal-review-and-workfront-goals-sections/check-in-goals.md)
+   Voor informatie over het bijwerken van resultaten en activiteiten, zie [ het doel van de Update vooruitgang in de Doelen van Adobe Workfront ](../goal-review-and-workfront-goals-sections/check-in-goals.md)
 
-   ![&#x200B; Ware vooruitgang &#x200B;](assets/actual-progress-editable-column-in-indicator-list-unshimmed.png)
+   ![ Ware vooruitgang ](assets/actual-progress-editable-column-in-indicator-list-unshimmed.png)
 
    >[!NOTE]
    >

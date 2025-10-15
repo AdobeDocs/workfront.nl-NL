@@ -3,12 +3,12 @@ product-area: timesheets
 navigation-topic: create-and-manage-timesheets
 title: Tijdlijngegevens bewerken
 description: Als gebruiker met administratieve toegang tot Timesheets, kunt u informatie over bestaande timesheets in Adobe Workfront uitgeven. U kunt bijvoorbeeld de eigenaar, de fiatteurs of het tijdframe van de tijdpagina bewerken.
-author: Alina
+author: Lisa
 feature: Timesheets
 exl-id: e6cffe81-ab45-4c34-aafe-2f947f9a67fd
-source-git-commit: 3a2745437e00ac968f2a4590be2637dbc01594ad
+source-git-commit: 69cd5fb1d089b81b7a1673609b92537137b6b68e
 workflow-type: tm+mt
-source-wordcount: '817'
+source-wordcount: '757'
 ht-degree: 0%
 
 ---
@@ -21,35 +21,36 @@ U kunt informatie op één enkel timesheet uitgeven, of u kunt veelvoudige times
 
 >[!IMPORTANT]
 >
->Als gebruikers zijn gekoppeld aan tijdlijnprofielen en de tijdbladen automatisch worden gegenereerd, weerspiegelen de wijzigingen die u aanbrengt in bestaande tijdbladen niet de tijdbladen die worden gegenereerd voor toekomstige datums. Alle automatisch gegenereerde tijdbladen beschikken over de instellingen die zijn vastgelegd in de tijdlijnprofielen. Voor meer informatie, zie [&#x200B; timesheet profielen &#x200B;](../create-and-manage-timesheets/create-timesheet-profiles.md) creëren
-
+>Als gebruikers zijn gekoppeld aan tijdlijnprofielen en de tijdbladen automatisch worden gegenereerd, weerspiegelen de wijzigingen die u aanbrengt in bestaande tijdbladen niet de tijdbladen die worden gegenereerd voor toekomstige datums. Alle automatisch gegenereerde tijdbladen beschikken over de instellingen die zijn vastgelegd in de tijdlijnprofielen. Voor meer informatie, zie [ timesheet profielen ](../create-and-manage-timesheets/create-timesheet-profiles.md) creëren
 
 ## Toegangsvereisten
 
-U moet het volgende hebben om de stappen in dit artikel uit te voeren:
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
-<table style="table-layout:auto"> 
+<table style="table-layout:auto">
  <col> 
- <col> 
+ <col>
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan</td> 
-   <td> <p>Alle</p> </td> 
+   <td>Adobe Workfront-pakket</td> 
+   <td><p>Alle</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie</td> 
-   <td> <p>Plan </p> </td> 
+   <td>Adobe Workfront-licentie</td> 
+   <td>
+   <p>Standard</p>
+   <p>Plan</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>U moet administratieve toegang tot Chronologie hebben. </p> <p>Voor meer informatie, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref"> gebruikers administratieve toegang van de Verlening tot bepaalde gebieden </a>.</p> <p><b>OPMERKING</b>
-
-Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td>
-</tr> 
+   <td>Configuraties op toegangsniveau</td> 
+   <td><p>Administratieve toegang tot timesheets</p> </td> 
+  </tr> 
  </tbody> 
 </table>
 
-&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Tijdschema&#39;s bewerken
 
@@ -73,7 +74,7 @@ Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanv
 
      ![](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
 
-   * Klik op het pictogram Filter ![](assets/filter-nwepng.png) om een ander filter toe te passen of een nieuw filter te maken. Voor informatie over het creëren van of het bijwerken van filters, zie [&#x200B; filters in Adobe Workfront &#x200B;](../../reports-and-dashboards/reports/reporting-elements/create-filters.md) creëren of uitgeven.
+   * Klik op het pictogram Filter ![](assets/filter-nwepng.png) om een ander filter toe te passen of een nieuw filter te maken. Voor informatie over het creëren van of het bijwerken van filters, zie [ filters in Adobe Workfront ](../../reports-and-dashboards/reports/reporting-elements/create-filters.md) creëren of uitgeven.
 
    >[!NOTE]
    >
@@ -81,7 +82,7 @@ Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanv
    >
    >   
    >   
-   >   * [&#x200B; pas Filters, Weergaven, en Groepen aan gebruikend een lay-outmalplaatje &#x200B;](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
+   >   * [ pas Filters, Weergaven, en Groepen aan gebruikend een lay-outmalplaatje ](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
    >   
    >
 
@@ -89,8 +90,8 @@ Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanv
 
    Zie de volgende artikelen voor informatie over het maken van filters, weergaven of groepen:
 
-   * [&#x200B; creeer of geef filters in Adobe Workfront uit &#x200B;](../../reports-and-dashboards/reports/reporting-elements/create-filters.md)
-   * [&#x200B; creeer of geef meningen in Adobe Workfront uit &#x200B;](../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md)
+   * [ creeer of geef filters in Adobe Workfront uit ](../../reports-and-dashboards/reports/reporting-elements/create-filters.md)
+   * [ creeer of geef meningen in Adobe Workfront uit ](../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md)
    * [Groepen maken in Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-groupings.md)
 
 1. Selecteer één of verscheidene timesheets, dan klik **uitgeven** pictogram ![](assets/edit-icon.png) bij de bovenkant van de timesheet lijst.

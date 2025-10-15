@@ -6,9 +6,9 @@ description: Goedkeuringen voor proefdrukken worden alleen weergegeven in het ge
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 3f012b1d-69a8-4426-8894-3dafb1e6b837
-source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
+source-git-commit: 2503b6e628e4860a5652c620d8e4d0eea2414443
 workflow-type: tm+mt
-source-wordcount: '286'
+source-wordcount: '219'
 ht-degree: 0%
 
 ---
@@ -21,42 +21,42 @@ Goedkeuringen voor proefdrukken worden alleen weergegeven in het gebied Home als
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-abonnement*</td> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Controleren of hoger</p> </td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td> 
+   <p>Contribute of hoger</p>
+   <p>Controleren of hoger</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot projecten, taken, problemen, sjablonen, portfolio's, programma's, rapporten, dashboards en agenda's, documenten weergeven of vergroten</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
+   <td> <p>Toegang tot projecten, taken, problemen, sjablonen, portfolio's, programma's, rapporten, dashboards en agenda's, documenten weergeven of vergroten</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Toegang tot of toegang tot het object dat is gekoppeld aan de toegang tot of goedkeuring van de aanvraag </p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
+   <td> <p>Toegang tot of toegang tot het object dat is gekoppeld aan de toegang tot of goedkeuring van de aanvraag </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of toegang u hebt.
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Verstuurde proefdrukgoedkeuringen bekijken
 
-1. Klik het **[!UICONTROL Main Menu]** ![&#x200B; Belangrijkste pictogram van het Menu &#x200B;](assets/main-menu-icon.png) in de hoger-juiste hoek, dan klik **[!UICONTROL Home]**.
+1. Klik het **[!UICONTROL Main Menu]** ![ Belangrijkste pictogram van het Menu ](assets/main-menu-icon.png) in de hoger-juiste hoek, dan klik **[!UICONTROL Home]**.
 1. (Voorwaardelijk) klik **aanpassen** om **Mijn goedkeurt** widget toe te voegen.
 1. (Voorwaardelijk) klik het **drop-down menu van de Filter**, dan uitgezochte **Goedkeuringen ik** heb voorgelegd om goedkeuringen te zien u hebt voorgelegd.
 
-   ![&#x200B; Goedkeuring van het Bewijs &#x200B;](assets/proof-approval.png)
+   ![ Goedkeuring van het Bewijs ](assets/proof-approval.png)
 
    >[!NOTE]
    >

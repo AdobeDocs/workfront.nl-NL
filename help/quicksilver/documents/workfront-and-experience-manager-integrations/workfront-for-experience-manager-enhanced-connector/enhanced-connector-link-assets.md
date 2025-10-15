@@ -5,9 +5,9 @@ author: Courtney
 draft: Probably
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 35c80f6a-419b-4237-8139-f59ab7bbd5c7
-source-git-commit: 85a2f154b3b561cdf53c68d50e66b8945f9f9823
+source-git-commit: 3f9a824780f2ded914d461a473aef3b6ecfa8701
 workflow-type: tm+mt
-source-wordcount: '591'
+source-wordcount: '519'
 ht-degree: 0%
 
 ---
@@ -26,38 +26,39 @@ U kunt een middel of een omslag van Experience Manager Assets aan om het even we
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-abonnement*</td> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Huidig: Verzoek of hoger</p> 
-   of
-   <p>Nieuw: Medewerker of hoger</p> </td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td> 
+   <p>Medewerker of hoger</p>
+   <p>Aanvraag of hoger</p> 
+    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Product</td> 
+   <td role="rowheader">Aanvullende producten</td> 
    <td>Experience Manager Assets </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot documenten bewerken</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
+   <td> <p>Toegang tot documenten bewerken</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Toegang of hoger weergeven op een document</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
+   <td> <p>Toegang of hoger weergeven op een document</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
+
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
 +++
 
 ## Vereisten
@@ -70,7 +71,7 @@ Voordat u begint, moet u
 
 U kunt een middel van Experience Manager Assets aan Workfront koppelen. Als het element eenmaal is gekoppeld, kunt u
 
-* [&#x200B; Bewijs van een verbonden activa voor Experience Manager Assets &#x200B;](../../../documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/enhanced-connector-proof-asset.md)
+* [ Bewijs van een verbonden activa voor Experience Manager Assets ](../../../documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/enhanced-connector-proof-asset.md)
 * [Een nieuwe versie van een document uploaden](../../../documents/managing-documents/upload-new-document-version.md)
 
 Een element koppelen aan Experience Manager Assets:
@@ -84,7 +85,7 @@ Een element koppelen aan Experience Manager Assets:
 
 1. Selecteer de gewenste elementen.
 
-   ![&#x200B; Uitgezocht een activa &#x200B;](assets/select-an-asset.png)
+   ![ Uitgezocht een activa ](assets/select-an-asset.png)
 
 1. Klik **Verbinding**.
 
@@ -103,7 +104,7 @@ Een map koppelen aan Experience Manager Assets:
 
 1. Selecteer de gewenste mappen.
 
-   ![&#x200B; selecteer een omslag &#x200B;](assets/select-a-folder.png)
+   ![ selecteer een omslag ](assets/select-a-folder.png)
 
 1. Klik **Verbinding**.
 
@@ -127,6 +128,6 @@ Een nieuwe versie koppelen vanuit Experience Manager Assets:
 
 1. Selecteer het gewenste element.
 
-   ![&#x200B; Uitgezocht een activa &#x200B;](assets/select-an-asset.png)
+   ![ Uitgezocht een activa ](assets/select-an-asset.png)
 
 1. Klik **Verbinding**.

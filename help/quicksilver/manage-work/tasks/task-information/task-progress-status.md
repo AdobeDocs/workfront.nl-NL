@@ -2,12 +2,12 @@
 content-type: overview
 product-area: projects
 navigation-topic: task-information
-title: Overzicht van status voortgang taak
+title: Status voortgang taak
 description: Adobe Workfront bepaalt de Voortgangsstatus van een taak door de vooruitgang van de taak over zijn chronologie te bekijken. U kunt Workfront vormen om de Voorwaarde van een project te bepalen dat op de waarde van de Status van de Voortgang van de taken wordt gebaseerd. Voor meer informatie over het vormen van de Voorwaarde van het project, zie het artikelOverzicht van het Type van de Voorwaarde en van de Voorwaarde van het Project.
 author: Alina
 feature: Work Management
 exl-id: 38e5f89e-bdfa-433c-9371-3c3003ada3a3
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
 workflow-type: tm+mt
 source-wordcount: '777'
 ht-degree: 0%
@@ -18,13 +18,13 @@ ht-degree: 0%
 
 <!-- Audited: 1/2024 -->
 
-Adobe Workfront bepaalt de Voortgangsstatus van een taak door de vooruitgang van de taak over zijn chronologie te bekijken. U kunt Workfront vormen om de Voorwaarde van een project te bepalen dat op de waarde van de Status van de Voortgang van de taken wordt gebaseerd. Voor meer informatie over het vormen van de Voorwaarde van het project, zie het artikel [&#x200B; Overzicht van het Type van de Voorwaarde en van de Voorwaarde van het Project &#x200B;](../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md).
+Adobe Workfront bepaalt de Voortgangsstatus van een taak door de vooruitgang van de taak over zijn chronologie te bekijken. U kunt Workfront vormen om de Voorwaarde van een project te bepalen dat op de waarde van de Status van de Voortgang van de taken wordt gebaseerd. Voor meer informatie over het vormen van de Voorwaarde van het project, zie het artikel [ Overzicht van het Type van de Voorwaarde en van de Voorwaarde van het Project ](../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md).
 
 ## Criteria die de status van de voortgang van taken bepalen
 
-Voor informatie over de Voortgangsstatus van een project, zie [&#x200B; Overzicht van de Status van de Voortgang van het Project &#x200B;](../../../manage-work/projects/planning-a-project/project-progress-status.md).
+Voor informatie over de Voortgangsstatus van een project, zie [ Overzicht van de Status van de Voortgang van het Project ](../../../manage-work/projects/planning-a-project/project-progress-status.md).
 
-Voor informatie over het volgen van de vooruitgang van uw taken, zie [&#x200B; het Traceren van de Wijze overzicht van de Taak &#x200B;](../../../manage-work/tasks/task-information/task-tracking-mode.md).
+Voor informatie over het volgen van de vooruitgang van uw taken, zie [ het Traceren van de Wijze overzicht van de Taak ](../../../manage-work/tasks/task-information/task-tracking-mode.md).
 
 De volgende criteria bepalen de Voortgangsstatus van een taak:
 
@@ -56,7 +56,7 @@ De volgende criteria bepalen de Voortgangsstatus van een taak:
   </tr> 
   <tr valign="top"> 
    <td> <p><strong> laat </strong> </p> </td> 
-   <td> <p>Een taak is Late </strong> wanneer de Geplande Datum van de Voltooiing vóór de datum van vandaag is.<strong><br></p> </td> 
+   <td> <p>Een taak is Late <strong> wanneer de Geplande Datum van de Voltooiing vóór de datum van vandaag is.</strong><br></p> </td> 
   </tr> 
  </tbody> 
 </table>

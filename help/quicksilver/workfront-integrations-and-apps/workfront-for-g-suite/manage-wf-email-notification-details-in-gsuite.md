@@ -7,7 +7,7 @@ description: In Google Workspace, wanneer u een bericht e-mail opent Adobe  [!DN
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: d5ca31d8-3667-4405-a523-3dc248a94746
-source-git-commit: 58543982fef6e7ba2d05787dc023a2099e47bbc7
+source-git-commit: 1e5b3c7d087c34870ccb0f4e65021358f08b81bf
 workflow-type: tm+mt
 source-wordcount: '519'
 ht-degree: 0%
@@ -26,47 +26,49 @@ ht-degree: 0%
 >
 >We raden u aan Workfront Automation and Integration te gebruiken voor de integratiebehoeften van uw organisatie met Google Workspace.
 >
->Voor een overzicht van de Automatisering en de Integratie van Workfront, zie [&#x200B; het overzicht van de Fusie van Adobe Workfront &#x200B;](https://experienceleague.adobe.com/nl/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+>Voor een overzicht van de Automatisering en de Integratie van Workfront, zie [ het overzicht van de Fusie van Adobe Workfront ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 >
->Voor informatie over de specifieke mogelijkheden van de modules van de Automatisering en van de Integratie van Workfront voor Google Workspace, zie [&#x200B; modules van Gmail &#x200B;](https://experienceleague.adobe.com/nl/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/gmail-modules) en [&#x200B; modules van de Kalender van Google &#x200B;](https://experienceleague.adobe.com/nl/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-calendar-modules).
+>Voor informatie over de specifieke mogelijkheden van de modules van de Automatisering en van de Integratie van Workfront voor Google Workspace, zie [ modules van Gmail ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/gmail-modules) en [ modules van de Kalender van Google ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-calendar-modules).
 
 Wanneer u in [!DNL Google Workspace] een e-mailbericht opent dat [!DNL Adobe Workfront] heeft verzonden, kunt u de bijbehorende details van het werkitem weergeven en reageren zonder uw [!UICONTROL Inbox] te verlaten. Als er acties beschikbaar zijn, zoals het goedkeuren van een aanvraag, kunt u die acties rechtstreeks vanuit [!DNL Workfront for Google Workspace] uitvoeren.
 
 >[!NOTE]
 >
-> [!DNL Workfront for Google Workspace] ondersteunt bijna elk type e-mailmelding dat u kunt ontvangen van [!DNL Workfront] (ongeveer 120 verschillende typen). [!UICONTROL Daily digest] e-mailberichten die vanuit [!DNL Workfront] zijn verzonden, worden niet weergegeven in [!DNL Workfront for Google Workspace] . Voor informatie over de [!DNL Workfront] types van e-mailbericht, zie [&#x200B; uw eigen e-mailberichten wijzigen &#x200B;](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+> [!DNL Workfront for Google Workspace] ondersteunt bijna elk type e-mailmelding dat u kunt ontvangen van [!DNL Workfront] (ongeveer 120 verschillende typen). [!UICONTROL Daily digest] e-mailberichten die vanuit [!DNL Workfront] zijn verzonden, worden niet weergegeven in [!DNL Workfront for Google Workspace] . Voor informatie over de [!DNL Workfront] types van e-mailbericht, zie [ uw eigen e-mailberichten wijzigen ](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 ## Toegangsvereisten
 
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licentie*</td> 
-   <td> <p>[!UICONTROL Work], [!UICONTROL Plan]</p> </td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td> <p>Standard</p><p>Werk of hoger</p>
   </tr> 
-  </tbody> 
+ </tbody> 
 </table>
 
-&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw [!DNL Workfront] beheerder.
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Vereisten
 
 Voordat u meldingsgegevens kunt beheren vanuit [!DNL Google Workspace] , moet u
 
 * Installeren [!DNL Workfront for Google Workspace]\
-   Voor instructies, zie [&#x200B; installeren  [!DNL Adobe Workfront for Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/install-workfront-for-gsuite.md).
+   Voor instructies, zie [ installeren  [!DNL Adobe Workfront for Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/install-workfront-for-gsuite.md).
 
 ## [!DNL Adobe Workfront] -meldingsgegevens beheren vanuit [!DNL Google Workspace]
 
-1. Als het [!DNL Workfront for Google Workspace] paneel niet wordt getoond, klik het [!DNL Workfront] pictogram ![&#x200B; pictogram van Workfront &#x200B;](assets/wf-lion-icon.png) in [!DNL Google Workspace] toe:voegen-ons sidebar bij uiterst rechts van de pagina.
+1. Als het [!DNL Workfront for Google Workspace] paneel niet wordt getoond, klik het [!DNL Workfront] pictogram ![ pictogram van Workfront ](assets/wf-lion-icon.png) in [!DNL Google Workspace] toe:voegen-ons sidebar bij uiterst rechts van de pagina.
 1. Open in [!DNL Google Workspace] een [!DNL Workfront] -meldingsbericht.
 1. Klik op **[!UICONTROL View all updates]** als deze boven in het deelvenster wordt weergegeven.
 1. Klik op **[!UICONTROL Details]**.

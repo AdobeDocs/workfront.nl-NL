@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: cde20e5a-15a2-413a-8de4-ccf6eeb4395f
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: b102960e088f072f10baadcbeca4f7f579daa287
 workflow-type: tm+mt
-source-wordcount: '1687'
+source-wordcount: '1603'
 ht-degree: 0%
 
 ---
@@ -35,11 +35,11 @@ U kunt bijvoorbeeld een automatisering maken die een Workfront-planningscampagne
 
 In dit artikel wordt beschreven hoe u automatiseringen kunt beheren, zoals het bewerken, uitschakelen, verwijderen en activeren van objecten en records.
 
-Voor informatie over hoe u verslagen of voorwerpen creeert gebruikend een bestaande automatisering, zie [&#x200B; voorwerpen creëren gebruikend het verslag van de Planning van Adobe Workfront automatiseringen &#x200B;](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md).
+Voor informatie over hoe u verslagen of voorwerpen creeert gebruikend een bestaande automatisering, zie [ voorwerpen creëren gebruikend het verslag van de Planning van Adobe Workfront automatiseringen ](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md).
 
 ## Toegangsvereisten
 
-+++ Vouw uit om de vereisten voor toegang weer te geven.
++++ Breid uit om de toegangsvereisten voor de functionaliteit in dit artikel te bekijken. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -49,59 +49,92 @@ Voor informatie over hoe u verslagen of voorwerpen creeert gebruikend een bestaa
 <tbody> 
     <tr> 
 <tr> 
+</tr>   
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront-pakket</p></td> 
+   <td> 
+<ul> 
+<li><p>Alle Workfront en alle planningspakketten</p></li>
+of
+<li><p>Alle workflows en planningspakketten</li></ul>
+<p>Neem voor meer informatie over wat er in elk planningspakket voor Workfront staat, contact op met uw Workfront-accountvertegenwoordiger. </p> 
+   </td> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront-licentie</p></td> 
+   <td><p>Standard</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Objectmachtigingen</p></td> 
+   <td> <p>Beheer machtigingen voor de werkruimte en voor het recordtype waarin u automatiseringen wilt maken. </p>
+   <p>Systeembeheerders hebben beheermachtigingen voor alle werkruimten, inclusief de werkruimten die ze niet hebben gemaakt</p>
+   </td> 
+  </tr>  
+</tbody> 
+</table>
+
+Voor meer informatie over de toegangsvereisten van Workfront, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++   
+
+<!--Old:
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+    <tr> 
+<tr> 
 <td> 
-   <p> Producten</p> </td> 
+   <p> Products</p> </td> 
    <td> 
    <ul><li><p> Adobe Workfront</p></li> 
    <li><p> Adobe Workfront Planning<p></li></ul></td> 
   </tr>   
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront-abonnement*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront plan*</p></td> 
    <td> 
-<p>Een van de volgende Workfront-plannen:</p> 
-<ul><li>Selecteren</li> 
+<p>Any of the following Workfront plans:</p> 
+<ul><li>Select</li> 
 <li>Prime</li> 
 <li>Ultimate</li></ul> 
-<p>Workfront Planning is niet beschikbaar voor oudere Workfront-plannen</p> 
+<p>Workfront Planning is not available for legacy Workfront plans</p> 
    </td> 
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront-planningspakket*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront Planning package*</p></td> 
    <td> 
-<p>Alle </p> 
-<p>Neem contact op met uw Workfront-accountmanager voor meer informatie over wat er in elk Workfront-planningsplan is opgenomen. </p> 
+<p>Any </p> 
+<p>For more information about what is included in each Workfront Planning plan, contact your Workfront account manager. </p> 
    </td> 
  <tr> 
-   <td role="rowheader"><p>Adobe Workfront-platform</p></td> 
+   <td role="rowheader"><p>Adobe Workfront platform</p></td> 
    <td> 
-<p>Het geval van Workfront van uw organisatie moet aan de Verenigde Ervaring van Adobe worden genegeerd om tot de Planning van Workfront te kunnen toegang hebben.</p> 
-<p>Voor meer informatie, zie <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md"> Adobe Verenigde Ervaring voor Workfront </a>. </p> 
+<p>Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience to be able to access Workfront Planning.</p> 
+<p>For more information, see <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p> 
    </td> 
    </tr> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront-licentie*</p></td> 
-   <td> Standaard
-   <p>Workfront Planning is niet beschikbaar voor oudere Workfront-licenties</p> 
+   <td role="rowheader"><p>Adobe Workfront license*</p></td> 
+   <td> Standard
+   <p>Workfront Planning is not available for legacy Workfront licenses</p> 
   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Configuratie op toegangsniveau</p></td> 
-   <td> <p>Er zijn geen toegangsniveaucontroles voor de Planning van Adobe Workfront</p> 
-   <p>Bewerk de toegang tot Create-objecten in Workfront voor de objecttypen die u wilt maken (projecten, portfolio's, programma's). </p>  
+   <td role="rowheader"><p>Access level configuration</p></td> 
+   <td> <p>There are no access level controls for Adobe Workfront Planning</p> 
+   <p>Edit access with access to Create objects in Workfront for the object types that you want to create (projects, portfolios, programs). </p>  
 </td> 
   </tr> 
 <tr> 
-   <td role="rowheader"><p>Objectmachtigingen</p></td> 
-   <td> <p>Beheer machtigingen voor de werkruimte en voor het recordtype waarin u automatiseringen wilt maken. </p>
-   <p>Systeembeheerders hebben beheermachtigingen voor alle werkruimten, inclusief de werkruimten die ze niet hebben gemaakt</p>
+   <td role="rowheader"><p>Object permissions</p></td> 
+   <td> <p>Manage permissions to the workspace and to the record type where you want to create automations. </p>
+   <p>System Administrators have Manage permissions to all workspaces, including the ones they did not create</p>
    </td> 
   </tr> 
 </tbody> 
-</table>
-
-*Voor meer informatie over de toegangsvereisten van Workfront, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
-
-+++
+</table> -->
 
 ## Automatisering configureren in Workfront-planning
 
@@ -112,7 +145,7 @@ U moet een automatisering voor een verslagtype in de Planning van Workfront vorm
 1. Klik op een recordtypekaart en klik vervolgens op de naam van een record.
 
    De pagina met recordtypen wordt geopend.
-1. Klik **Meer** menu ![&#x200B; Meer menu &#x200B;](assets/more-menu.png) aan het recht van de naam van het verslagtype, dan klik **leiden automatiseringen**.
+1. Klik **Meer** menu ![ Meer menu ](assets/more-menu.png) aan het recht van de naam van het verslagtype, dan klik **leiden automatiseringen**.
 
    De lijst met beschikbare automatiseringen voor het geselecteerde recordtype wordt geopend.
 
@@ -124,7 +157,7 @@ U moet een automatisering voor een verslagtype in de Planning van Workfront vorm
 1. Klik **sparen**.
 De pagina met gegevens over automatisering wordt geopend.
 
-1. Voor de detailspagina van de automatisering, werk de volgende gebieden in de **1&rbrace; sectie van Trekkers bij &lbrace;:**
+1. Voor de detailspagina van de automatisering, werk de volgende gebieden in de **1} sectie van Trekkers bij {:**
 
    * **Trekker**: Selecteer de actie die de automatisering zal teweegbrengen. Bijvoorbeeld, uitgezochte **Knoop klikt**. <!--update this step with a list of all possible triggers; right now only Button click is available-->
 
@@ -197,7 +230,7 @@ Op het **gebied van de Kaart**, werk de volgende informatie bij:
 1. (Facultatief en voorwaardelijk) als u selecteerde om een verslag tot stand te brengen, **voegt gebieden** toe om extra raadplegingsgebieden van één verslag aan een andere in kaart te brengen.
 1. (Voorwaardelijk) als er geen verbindingsgebieden tussen het originele verslagtype en het verslagtype zijn dat op het **wordt geselecteerd het type van Verslag** gebied, **klikken voegt verbonden gebied** toe.
 
-   ![&#x200B; opstelling van de Automatisering om een verslag &#x200B;](assets/automation-setup-create-record.png) te creëren
+   ![ opstelling van de Automatisering om een verslag ](assets/automation-setup-create-record.png) te creëren
 
    De volgende twee velden worden gemaakt:
 
@@ -207,11 +240,11 @@ Op het **gebied van de Kaart**, werk de volgende informatie bij:
      Bijvoorbeeld, als u een automatisering voor Campagnes vormt om een ander verslagtype automatisch tot stand te brengen genoemd Banden en u **klikt voeg verbonden gebied** toe, worden de volgende gebieden gecreeerd:
 
       * Het **Verbonden verslag** verbindingsgebied wordt gecreeerd voor het **Merken** verslagtype.
-      * Het **Merken** verbindingsgebied wordt gecreeerd voor het **3&rbrace; verslagtype van Campagnes &lbrace;.**
+      * Het **Merken** verbindingsgebied wordt gecreeerd voor het **3} verslagtype van Campagnes {.**
 
 1. (Facultatief) als er geen verbindingsgebieden tussen het originele verslagtype en het voorwerp van Workfront dat op het gebied van Acties wordt geselecteerd zijn, klik **voeg verbonden gebied** toe.
 
-   ![&#x200B; opstelling van de Automatisering om veelvoudige projecten &#x200B;](assets/automation-setup-create-multiple-projects.png) tot stand te brengen
+   ![ opstelling van de Automatisering om veelvoudige projecten ](assets/automation-setup-create-multiple-projects.png) tot stand te brengen
 
    Het volgende wordt gemaakt:
 
@@ -229,17 +262,17 @@ Op het **gebied van de Kaart**, werk de volgende informatie bij:
 1. Klik op een recordtypekaart en klik vervolgens op de naam van een record.
 
    De pagina met recordtypen wordt geopend.
-1. Klik **Meer** menu ![&#x200B; Meer menu &#x200B;](assets/more-menu.png) aan het recht van de naam van het verslagtype, dan klik **leiden automatiseringen**.
+1. Klik **Meer** menu ![ Meer menu ](assets/more-menu.png) aan het recht van de naam van het verslagtype, dan klik **leiden automatiseringen**.
 
    De lijst met beschikbare automatiseringen voor het geselecteerde recordtype wordt geopend.
 
 1. (Optioneel) Voer een van de volgende handelingen uit om een automatisering te bewerken, uit te schakelen of te verwijderen:
 
-   1. Van de lijst van automatiseringen, houd over de naam van een bewaarde automatisering, dan klik **Meer** menu ![&#x200B; Meer menu &#x200B;](assets/more-menu.png).
+   1. Van de lijst van automatiseringen, houd over de naam van een bewaarde automatisering, dan klik **Meer** menu ![ Meer menu ](assets/more-menu.png).
 
    1. Klik **uitgeven** om de volgende informatie bij te werken:
 
-      * Klik **Meer** menu ![&#x200B; Meer menu &#x200B;](assets/more-menu.png) rechts van de automatiseringsnaam, dan klik **uitgeven** om de naam van de automatisering te veranderen.
+      * Klik **Meer** menu ![ Meer menu ](assets/more-menu.png) rechts van de automatiseringsnaam, dan klik **uitgeven** om de naam van de automatisering te veranderen.
       * Om het even welke gebieden in de automatisering, behalve het **gebied van Acties**.
 
         >[!TIP]
@@ -251,7 +284,7 @@ Op het **gebied van de Kaart**, werk de volgende informatie bij:
 
       Records die zijn gemaakt met een uitgeschakelde automatisering, blijven verbonden met de oorspronkelijk geselecteerde record.
 
-      Om het opnieuw beschikbaar te maken, klik **Meer** menu ![&#x200B; &#x200B;](assets/more-menu.png) opnieuw, dan klik **activeren**.
+      Om het opnieuw beschikbaar te maken, klik **Meer** menu ![ ](assets/more-menu.png) opnieuw, dan klik **activeren**.
    1. Klik **Schrapping** om de automatisering te schrappen. Een verwijderde automatisering kan niet worden hersteld.
 
       Records die zijn gemaakt met een verwijderde automatisering, blijven verbonden met de oorspronkelijk geselecteerde record.

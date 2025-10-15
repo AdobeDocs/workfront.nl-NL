@@ -6,26 +6,30 @@ description: Nadat u of andere gebruikers doelen hebben gemaakt, kunt u hun voor
 author: Alina
 feature: Workfront Goals
 exl-id: 2a2c1240-f796-4cb8-b8a6-2ad5853916b9
-source-git-commit: a64f6e507d74201cba1455fbbc6af77c2b7ba058
+source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
 workflow-type: tm+mt
-source-wordcount: '796'
+source-wordcount: '742'
 ht-degree: 0%
 
 ---
 
 # Doelstellingen beheren in de lijst met doelstellingen van Adobe Workfront
 
-<!--Audited for P&P only: 4/2025-->
+<!--Audited for P&P only: 10/2025-->
 
 <!-- printing or exporting goals is no longer possible, but see if they add it later-->
 
-Nadat u of andere gebruikers doelen hebben gemaakt, kunt u hun voortgang en informatie in de lijst met doelen bekijken. Voor informatie over het creëren van doelstellingen, zie [&#x200B; doelstellingen in de Doelen van Adobe Workfront &#x200B;](../../workfront-goals/goal-management/create-goals.md) creëren.
+Nadat u of andere gebruikers doelen hebben gemaakt, kunt u hun voortgang en informatie in de lijst met doelen bekijken. Voor informatie over het creëren van doelstellingen, zie [ doelstellingen in de Doelen van Adobe Workfront ](../../workfront-goals/goal-management/create-goals.md) creëren.
 
 ## Toegangsvereisten
 
-+++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
+>[!NOTE]
+>
+>Uw bedrijf zou kunnen verkiezen om de Doelen van Adobe Workfront verder te gebruiken als zij dit pakket in het verleden kochten. U moet voor meer informatie contact opnemen met uw accountvertegenwoordiger.
+>
+>Adobe Workfront Goals kan niet meer worden aangeschaft.
 
-U moet het volgende hebben:
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven. 
 
 <table style="table-layout:auto">
 <col>
@@ -33,34 +37,21 @@ U moet het volgende hebben:
 <col>
 </col>
 <tbody>
- <tr> 
-   <td role="rowheader">Adobe Workfront-abonnement*</td> 
+ <tr>
+  <td> <p>Adobe Workfront-pakket</p> </td> 
    <td> 
-   <p>Voor het nieuwe plan en de nieuwe licentiestructuur:
-  <ul><li>Een Ultimate-abonnement </li></ul>
-   </p>
-<p>Voor het huidige plan en de licentiestructuur: 
-<ul><li> Een Pro of hoger </li>
-  <li>Een Adobe Workfront Goals-licentie in aanvulling op een Workfront-licentie.</li></ul></p>
-   </td>
+   <p>Adobe Workfront Ultimate</p>
+   </td> 
   </tr>
  <tr>
- <td role="rowheader">Adobe Workfront-licentie*</td>
+ <td role="rowheader">Adobe Workfront-licentie</td>
  <td>
- <p>Nieuwe licentie: Medewerker of hoger</p>
- of
- <p>Huidige licentie: aanvragen of hoger</p> <p>Voor meer informatie, zie <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref"> het vergunningsoverzicht van Adobe Workfront </a>.</p> </td>
+ <p>Medewerker of hoger</p>
+<p>Aanvraag of hoger</p></td>
  </tr>
- <tr>
- <td role="rowheader">Product*</td>
- <td>
-    <p> Nieuwe productvereisten: Workfront</p>
-    of
-    <p>Huidige productvereiste: Naast een Workfront-licentie moet u een licentie aanschaffen voor Adobe Workfront Goals. </p> <p>Voor informatie, zie <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref"> Vereisten om de Doelen van Workfront </a> te gebruiken. </p> </td>
- </tr>
- <tr>
- <td role="rowheader">Toegangsniveau</td>
- <td> <p>Toegang tot doelen bewerken</p>  </td>
+  <tr>
+ <td role="rowheader">Configuratie op toegangsniveau</td>
+ <td> <p>Toegang tot doelen bewerken</p> </td>
  </tr>
  <tr data-mc-conditions="">
  <td role="rowheader">Objectmachtigingen</td>
@@ -68,20 +59,72 @@ U moet het volgende hebben:
   <div>
   <p>De toestemmingen van de mening of hoger aan het doel om het te bekijken</p>
   <p>Machtigingen beheren om het te bewerken</p>
-  <p>Voor informatie over het delen van doelstellingen, zie <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref"> een doel in de Doelen van Workfront delen </a>. </p>
   </div> </td>
  </tr>
- <tr>
+<tr>
    <td role="rowheader"><p>Lay-outsjabloon</p></td>
-   <td> <p>Aan alle gebruikers, inclusief Workfront-beheerders, moet een lay-outsjabloon worden toegewezen die het gebied Doelen in het hoofdmenu bevat. </p>  
+   <td> <p>Aan alle gebruikers, inclusief Systeembeheerders, moet een lay-outsjabloon worden toegewezen die het gebied Doelen in het hoofdmenu bevat. </p>  
 </td>
   </tr>
 </tbody>
 </table>
 
-*Voor meer informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+<!--Old:
+<table style="table-layout:auto">
+<col>
+</col>
+<col>
+</col>
+<tbody>
+ <tr> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td> 
+   <p>For the new plan and license structure:
+  <ul><li>An Ultimate plan </li></ul>
+   </p>
+<p>For the current plan and license structure: 
+<ul><li> A Pro or higher </li>
+  <li>An Adobe Workfront Goals license in addition to a Workfront license.</li></ul></p>
+   </td>
+  </tr>
+ <tr>
+ <td role="rowheader">Adobe Workfront license*</td>
+ <td>
+ <p>New license: Contributor or higher</p>
+ Or
+ <p>Current license: Request or higher</p> <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p> </td>
+ </tr>
+ <tr>
+ <td role="rowheader">Product*</td>
+ <td>
+    <p> New product requirement: Workfront</p>
+    Or
+    <p>Current product requirement: In addition to a Workfront license, you must purchase a license for Adobe Workfront Goals. </p> <p>For information, see <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requirements to use Workfront Goals</a>. </p> </td>
+ </tr>
+ <tr>
+ <td role="rowheader">Access level</td>
+ <td> <p>Edit access to Goals</p>  </td>
+ </tr>
+ <tr data-mc-conditions="">
+ <td role="rowheader">Object permissions</td>
+ <td>
+  <div>
+  <p>View or higher permissions to the goal to view it</p>
+  <p>Manage permissions to the goal to edit it</p>
+  <p>For information about sharing goals, see <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Share a goal in Workfront Goals</a>. </p>
+  </div> </td>
+ </tr>
+ <tr>
+   <td role="rowheader"><p>Layout template</p></td>
+   <td> <p>All users, including Workfront administrators,  must be assigned a layout template that includes the Goals area in the Main Menu. </p>  
+</td>
+  </tr>
+</tbody>
+</table>-->
 
 ## Doelstellingen beheren in de lijst met doelen
 
@@ -92,7 +135,7 @@ U kunt doelstellingen in de volgende secties van de Doelen van Workfront bekijke
 
 In elke sectie worden doelen in iets verschillende indelingen weergegeven. Welke sectie u gebruikt hangt van het doel af u wilt bereiken aangezien u met doelstellingen werkt.
 
-Voor meer informatie, zie [&#x200B; Overzicht van de secties van de Doelen van Adobe Workfront &#x200B;](../../workfront-goals/goal-review-and-workfront-goals-sections/overview-of-wf-goals-sections.md).
+Voor meer informatie, zie [ Overzicht van de secties van de Doelen van Adobe Workfront ](../../workfront-goals/goal-review-and-workfront-goals-sections/overview-of-wf-goals-sections.md).
 
 Dit artikel beschrijft hoe te om doelstellingen in de Lijst van het Doel te herzien.
 
@@ -198,7 +241,7 @@ Overweeg het volgende wanneer het herzien van de Lijst van het Doel:
 
 Om doelstellingen in de Lijst van het Doel te beheren:
 
-1. Klik het **pictogram van het 1&rbrace; pictogram van het Belangrijkste Menu ![&#x200B; &#x200B;](assets/main-menu-icon.png) in de hoger-juiste hoek, dan klik** Doelen **.**
+1. Klik het **pictogram van het 1} pictogram van het Belangrijkste Menu** ![ in de hoger-juiste hoek, dan klik ](assets/main-menu-icon.png) Doelen **.**
 
    <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-review-and-workfront-goals-sections/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
@@ -216,9 +259,9 @@ Om doelstellingen in de Lijst van het Doel te beheren:
       * Inactief
       * Gesloten
 
-     Voor informatie over doelstatus, zie [&#x200B; overzicht van de Goal status in de Doelen van Adobe Workfront &#x200B;](../goal-management/goal-status-overview.md).
+     Voor informatie over doelstatus, zie [ overzicht van de Goal status in de Doelen van Adobe Workfront ](../goal-management/goal-status-overview.md).
 
-     Het uitlijningspictogram wordt weergegeven bij doelen die zijn uitgelijnd op andere doelen. Voor informatie over het richten van doelstellingen, zie [&#x200B; doelstellingen door hen in de Doelen van Adobe Workfront &#x200B;](../goal-alignment/align-goals-by-connecting-them.md) te verbinden.
+     Het uitlijningspictogram wordt weergegeven bij doelen die zijn uitgelijnd op andere doelen. Voor informatie over het richten van doelstellingen, zie [ doelstellingen door hen in de Doelen van Adobe Workfront ](../goal-alignment/align-goals-by-connecting-them.md) te verbinden.
 
    * **Voorwaarde**: Een visuele vertegenwoordiging van hoe het doel binnen de tijdspanne vooruit gaat die voor het te voltooien doel wordt toegewezen.
 
@@ -229,15 +272,15 @@ Om doelstellingen in de Lijst van het Doel te beheren:
       * Risico
       * In problemen
 
-     Voor informatie over doelvoorwaarden, zie [&#x200B; Overzicht van doelvooruitgang en voorwaarde in de Doelen van Adobe Workfront &#x200B;](../goal-management/calculate-goal-progress.md).
+     Voor informatie over doelvoorwaarden, zie [ Overzicht van doelvooruitgang en voorwaarde in de Doelen van Adobe Workfront ](../goal-management/calculate-goal-progress.md).
 
    * **Voortgang**: De vooruitgangsindicator voor het doel als percentagewaarde. De kleur van de voortgangsindicator komt overeen met de kleur van de voorwaarde van het doel.
 
-     Voor informatie, zie [&#x200B; doelvooruitgang in de Doelen van Adobe Workfront berekenen &#x200B;](../goal-management/calculate-goal-progress.md).
+     Voor informatie, zie [ doelvooruitgang in de Doelen van Adobe Workfront berekenen ](../goal-management/calculate-goal-progress.md).
 
-1. Klik het pictogram van de Filter van het filterpictogram ![&#x200B; &#x200B;](assets/filter-icon.png) in de hoger-juiste hoek van de doellijst en pas filters op vertoningsslechts doelstellingen toe die voor u belangrijk zijn.
+1. Klik het pictogram van de Filter van het filterpictogram ![ ](assets/filter-icon.png) in de hoger-juiste hoek van de doellijst en pas filters op vertoningsslechts doelstellingen toe die voor u belangrijk zijn.
 
-   Voor informatie over het gebruiken van filters in de Doelen van Workfront, zie [&#x200B; informatie van de Filter in de Doelen van Adobe Workfront &#x200B;](../goal-management/filter-information-wf-goals.md).
+   Voor informatie over het gebruiken van filters in de Doelen van Workfront, zie [ informatie van de Filter in de Doelen van Adobe Workfront ](../goal-management/filter-information-wf-goals.md).
 
 1. Klik op een van de velden in de kolomkoppen om de lijst op dat veld te sorteren.
 Een pijl wordt rechts van het veld weergegeven waarmee de lijst wordt gesorteerd.
@@ -245,10 +288,10 @@ Een pijl wordt rechts van het veld weergegeven waarmee de lijst wordt gesorteerd
 1. (Optioneel) Klik nogmaals op het veld in de kolom om dezelfde kolom in aflopende volgorde te sorteren.
 1. Klik op de naam van een doel om de doelpagina te openen.
 1. Selecteer een doel in de lijst en klik op een van de volgende opties boven aan de lijst:
-   * **geeft** pictogram ![&#x200B; uit geeft pictogram &#x200B;](assets/edit-icon.png) uit om informatie over het doel uit te geven. Voor informatie, zie [&#x200B; doelstellingen in de Doelen van Adobe Workfront &#x200B;](../goal-management/edit-goals.md) uitgeven.
-   * **pictogram van het Aandeel ![&#x200B; &#x200B;](assets/share-icon.png) het pictogram van het 1&rbrace; Aandeel &lbrace;om het doel met andere mensen te delen.** Voor informatie, zie [&#x200B; een doel in de Doelen van Adobe Workfront delen &#x200B;](../workfront-goals-settings/share-a-goal.md).
-   * **Open groepering** pictogram ![&#x200B; Open groeperingspictogram &#x200B;](assets/align-icon-unshimmed.png) om het gebied van de Groepering van het Doel te openen. Deze optie wordt alleen weergegeven wanneer het doel dat u selecteert, wordt uitgelijnd op een ander doel.
-   * **pictogram van de Schrapping ![&#x200B; &#x200B;](assets/delete-icon.png) om het doel te schrappen, dan** Schrapping **te klikken om te bevestigen.**  Voor informatie, zie [&#x200B; Schrapping en deactiveer doelstellingen in de Doelen van Adobe Workfront &#x200B;](../goal-management/delete-and-deactivate-goals.md).
+   * **geeft** pictogram ![ uit geeft pictogram ](assets/edit-icon.png) uit om informatie over het doel uit te geven. Voor informatie, zie [ doelstellingen in de Doelen van Adobe Workfront ](../goal-management/edit-goals.md) uitgeven.
+   * **pictogram van het Aandeel** ![ het pictogram van het 1} Aandeel {om het doel met andere mensen te delen. ](assets/share-icon.png) Voor informatie, zie [ een doel in de Doelen van Adobe Workfront delen ](../workfront-goals-settings/share-a-goal.md).
+   * **Open groepering** pictogram ![ Open groeperingspictogram ](assets/align-icon-unshimmed.png) om het gebied van de Groepering van het Doel te openen. Deze optie wordt alleen weergegeven wanneer het doel dat u selecteert, wordt uitgelijnd op een ander doel.
+   * **pictogram van de Schrapping** ![ om het doel te schrappen, dan ](assets/delete-icon.png) Schrapping **te klikken om te bevestigen.**  Voor informatie, zie [ Schrapping en deactiveer doelstellingen in de Doelen van Adobe Workfront ](../goal-management/delete-and-deactivate-goals.md).
 
 
 

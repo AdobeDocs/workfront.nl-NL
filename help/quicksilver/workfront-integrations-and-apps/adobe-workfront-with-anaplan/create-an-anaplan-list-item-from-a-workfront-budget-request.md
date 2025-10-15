@@ -6,9 +6,9 @@ description: Dit integratiescenario verbindt een  [!DNL Adobe Workfront]  projec
 author: Becky
 feature: Workfront Integrations and Apps, Workfront Fusion
 exl-id: e6505ece-21aa-4397-8d68-543bf89d2f00
-source-git-commit: d6fd224fb8a7b8094946814ae905bc0ff6e8223c
+source-git-commit: d3f234313677d916318c181c91cb951948454006
 workflow-type: tm+mt
-source-wordcount: '679'
+source-wordcount: '745'
 ht-degree: 0%
 
 ---
@@ -23,34 +23,39 @@ In dit integratiescenario wordt een [!DNL Adobe Workfront] -project (campagne) g
 
 ## Toegangsvereisten
 
-U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen gebruiken:
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
-<table style="table-layout:auto"> 
+<table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
-   <td> <p>[!UICONTROL Pro] of hoger</p> </td> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
+   <td> <p>Elk Adobe Workfront Workflow-pakket en elk Adobe Workfront Automation and Integration-pakket</p><p>Workfront Ultimate</p><p>Workfront Prime en Select packages, met extra aanschaf van Workfront Fusion.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">[!DNL Adobe Workfront] licentie*</td> 
-   <td> <p>[!UICONTROL Plan], [!UICONTROL Work]</p> </td> 
+   <td role="rowheader">Adobe Workfront-licenties</td> 
+   <td> <p>Standard</p><p>Werk of hoger</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront Fusion] licentie**</td> 
-   <td> <p>[!UICONTROL Workfront Fusion for Work Automation and Integration] </p> </td> 
+   <td role="rowheader">Adobe Workfront Fusion-licentie</td> 
+   <td>
+   <p>Exploitatie gebaseerd: geen Workfront Fusion-licentievereisten</p>
+   <p>Connectorgebaseerde (verouderde): Workfront Fusion for Work Automation and Integration </p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Uw organisatie moet [!DNL Adobe Workfront Fusion] en [!DNL Adobe Workfront] aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken.</td> 
+   <td>
+   <p>Als uw organisatie een Select- of Prime Workfront-pakket heeft dat geen Workfront Automation and Integration bevat, moet uw organisatie Adobe Workfront Fusion aanschaffen.</li></ul>
+   </td> 
   </tr>
  </tbody> 
 </table>
 
-&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw [!DNL Workfront] beheerder.
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-&#42;&#42; voor informatie over [!DNL &#x200B; Adobe Workfront Fusion] vergunningen, zie [[!DNL Adobe Workfront Fusion]  vergunningen &#x200B;](https://experienceleague.adobe.com/nl/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration)
+Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [ de Fusie van Adobe Workfront vergunningen ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration).
 
 ## Triginggebeurtenis
 
@@ -62,7 +67,7 @@ U moet het volgende in [!DNL Workfront] hebben om dit scenario te gebruiken:
 
 * Een gebruikersprofiel in [!DNL Workfront] genoemd **[!DNL Anaplan]Integratie**, dat systeembeheerderrechten heeft.
 
-  Voor informatie bij het creëren van een gebruiker in [!DNL Workfront], zie [&#x200B; gebruikers &#x200B;](../../administration-and-setup/add-users/create-and-manage-users/add-users.md) toevoegen.
+  Voor informatie bij het creëren van een gebruiker in [!DNL Workfront], zie [ gebruikers ](../../administration-and-setup/add-users/create-and-manage-users/add-users.md) toevoegen.
 
 * Een **[!UICONTROL Budget Request]** aangepast formulier dat is gekoppeld aan het [!UICONTROL Request] -object.
 
@@ -99,7 +104,7 @@ U moet het volgende in [!DNL Workfront] hebben om dit scenario te gebruiken:
    </tbody> 
   </table>
 
-  Voor informatie bij het creëren van douaneformulieren, zie [&#x200B; een douaneformulier &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren.
+  Voor informatie bij het creëren van douaneformulieren, zie [ een douaneformulier ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren.
 
 * Projectsjablonen die campagnes en andere projecten vertegenwoordigen waarvoor financiering is vereist, geconfigureerd met een [!UICONTROL Budget Request] -rijonderwerp. Het onderwerp in de wachtrij van [!UICONTROL Budget Request] wordt toegewezen aan het aangepaste formulier van [!UICONTROL Budget Request] .
 * Een **[!UICONTROL Campaign Brief]** -formulier voor het projectobject.
@@ -141,7 +146,7 @@ U moet het volgende in [!DNL Workfront] hebben om dit scenario te gebruiken:
    </tbody> 
   </table>
 
-  Voor informatie bij het creëren van douaneformulieren, zie [&#x200B; een douaneformulier &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren.
+  Voor informatie bij het creëren van douaneformulieren, zie [ een douaneformulier ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren.
 
 ## [!DNL Anaplan] Configuratie verwacht
 

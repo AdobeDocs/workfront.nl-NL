@@ -8,18 +8,16 @@ description: U kunt projecten met doelstellingen verbinden om erop te wijzen hoe
 author: Alina
 feature: Workfront Goals
 exl-id: 683c9cd9-6c7b-4d50-b326-b4000c9863e8
-source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
+source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
 workflow-type: tm+mt
-source-wordcount: '931'
+source-wordcount: '865'
 ht-degree: 0%
 
 ---
 
 # Projecten toevoegen aan doelen in Adobe Workfront-doelen
 
-<!--
-THIS MIGHT NEED TO BE RENAMED BECAUSE THERE WILL BE OTHER OBJECTS CONNECTED TO GOALS IN THE FUTURE
--->
+<!--Audited for P&P only: 10/2025-->
 
 U kunt projecten met doelstellingen verbinden om erop te wijzen hoe het doel vordert, die op de daadwerkelijke vooruitgang van het project wordt gebaseerd. Het project wordt een voortgangsindicator voor het doel.
 
@@ -27,12 +25,18 @@ Door projecten aan doelstellingen te verbinden kunt u de strategische planning (
 
 >[!IMPORTANT]
 >
->Projectniveaudoelstellingen die in het gebied Bedrijfs van het Geval van een project worden gecreeerd worden niet verbonden met strategische doelstellingen die in de Doelen van Workfront worden gecreeerd. Voor informatie over de doelstellingen van het BedrijfsGeval project, zie [&#x200B; BedrijfsGevallendoelstellingen &#x200B;](../../manage-work/projects/define-a-business-case/create-business-case-goals.md) creëren.
+>Projectniveaudoelstellingen die in het gebied Bedrijfs van het Geval van een project worden gecreeerd worden niet verbonden met strategische doelstellingen die in de Doelen van Workfront worden gecreeerd. Voor informatie over de doelstellingen van het BedrijfsGeval project, zie [ BedrijfsGevallendoelstellingen ](../../manage-work/projects/define-a-business-case/create-business-case-goals.md) creëren.
 
 
 ## Toegangsvereisten
 
-U moet het volgende hebben:
+>[!NOTE]
+>
+>Uw bedrijf zou kunnen verkiezen om de Doelen van Adobe Workfront verder te gebruiken als zij dit pakket in het verleden kochten. U moet voor meer informatie contact opnemen met uw accountvertegenwoordiger.
+>
+>Adobe Workfront Goals kan niet meer worden aangeschaft.
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven. 
 
 <table style="table-layout:auto">
 <col>
@@ -40,36 +44,20 @@ U moet het volgende hebben:
 <col>
 </col>
 <tbody>
- <tr> 
-   <td role="rowheader">Adobe Workfront-abonnement*</td> 
+ <tr>
+  <td> <p>Adobe Workfront-pakket</p> </td> 
    <td> 
-   <p>Voor het nieuwe plan en de nieuwe licentiestructuur:
-  <ul><li>Een Ultimate-abonnement </li></ul>
-   </p>
-<p>Voor het huidige plan en de licentiestructuur: 
-<ul><li> Een Pro of hoger </li>
-  <li>Een Adobe Workfront Goals-licentie in aanvulling op een Workfront-licentie.</li></ul></p>
+   <p>Adobe Workfront Ultimate</p>
    </td> 
   </tr>
  <tr>
- <td role="rowheader">Adobe Workfront-licentie*</td>
+ <td role="rowheader">Adobe Workfront-licentie</td>
  <td>
- <p>Nieuwe licentie: Medewerker of hoger</p>
- of
- <p>Huidige licentie: aanvragen of hoger</p> <p>Voor meer informatie, zie <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref"> het vergunningsoverzicht van Adobe Workfront </a>.</p> </td>
+ <p>Medewerker of hoger</p>
+<p>Aanvraag of hoger</p></td>
  </tr>
- <tr>
- <td role="rowheader">Product*</td>
- <td>
- <p> Nieuwe productbehoefte, één van het volgende: </p>
-<ul>
-<li>Een Select- of Prime Adobe Workfront-abonnement en een extra Adobe Workfront Goals-licentie.</li>
-<li>Een Ultimate Workfront-plan dat standaard Workfront Goals bevat. </li></ul>
- <p>of</p>
- <p>Huidige productvereiste: een Workfront-plan en een extra licentie voor Adobe Workfront Goals. </p> <p>Voor informatie, zie <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref"> Vereisten om de Doelen van Workfront </a> te gebruiken. </p> </td>
- </tr>
- <tr>
- <td role="rowheader">Toegangsniveau</td>
+  <tr>
+ <td role="rowheader">Configuratie op toegangsniveau</td>
  <td> <p>Toegang tot doelen bewerken</p> </td>
  </tr>
  <tr data-mc-conditions="">
@@ -78,18 +66,75 @@ U moet het volgende hebben:
   <div>
   <p>De toestemmingen van de mening of hoger aan het doel om het te bekijken</p>
   <p>Machtigingen beheren om het te bewerken</p>
-  <p>Voor informatie over het delen van doelstellingen, zie <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref"> een doel in de Doelen van Workfront delen </a>. </p>
   </div> </td>
  </tr>
- <tr>
+<tr>
    <td role="rowheader"><p>Lay-outsjabloon</p></td>
-   <td> <p>Aan alle gebruikers, inclusief Workfront-beheerders, moet een lay-outsjabloon worden toegewezen die het gebied Doelen in het hoofdmenu bevat. </p>  
+   <td> <p>Aan alle gebruikers, inclusief Systeembeheerders, moet een lay-outsjabloon worden toegewezen die het gebied Doelen in het hoofdmenu bevat. </p>  
 </td>
   </tr>
 </tbody>
 </table>
 
-*Voor meer informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
+<!--Old:
+<table style="table-layout:auto">
+<col>
+</col>
+<col>
+</col>
+<tbody>
+ <tr> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td> 
+   <p>For the new plan and license structure:
+  <ul><li>An Ultimate plan </li></ul>
+   </p>
+<p>For the current plan and license structure: 
+<ul><li> A Pro or higher </li>
+  <li>An Adobe Workfront Goals license in addition to a Workfront license.</li></ul></p>
+   </td> 
+  </tr>
+ <tr>
+ <td role="rowheader">Adobe Workfront license*</td>
+ <td>
+ <p>New license: Contributor or higher</p>
+ Or
+ <p>Current license: Request or higher</p> <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p> </td>
+ </tr>
+ <tr>
+ <td role="rowheader">Product*</td>
+ <td>
+ <p> New product requirement, one of the following: </p>
+<ul>
+<li>A Select or Prime Adobe Workfront plan and an additional Adobe Workfront Goals license.</li>
+<li>An Ultimate Workfront plan which includes Workfront Goals by default. </li></ul>
+ <p>Or</p>
+ <p>Current product requirement: A Workfront plan and an additional license for Adobe Workfront Goals. </p> <p>For information, see <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requirements to use Workfront Goals</a>. </p> </td>
+ </tr>
+ <tr>
+ <td role="rowheader">Access level</td>
+ <td> <p>Edit access to Goals</p> </td>
+ </tr>
+ <tr data-mc-conditions="">
+ <td role="rowheader">Object permissions</td>
+ <td>
+  <div>
+  <p>View or higher permissions to the goal to view it</p>
+  <p>Manage permissions to the goal to edit it</p>
+  <p>For information about sharing goals, see <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Share a goal in Workfront Goals</a>. </p>
+  </div> </td>
+ </tr>
+ <tr>
+   <td role="rowheader"><p>Layout template</p></td>
+   <td> <p>All users, including Workfront administrators,  must be assigned a layout template that includes the Goals area in the Main Menu. </p>  
+</td>
+  </tr>
+</tbody>
+</table>-->
 
 ## Overwegingen over het verbinden van projecten met doelstellingen
 
@@ -124,19 +169,19 @@ There is an indication on the goal list that the project no longer updates progr
 
 ## Projecten toevoegen aan doelen
 
-1. Klik het **Belangrijkste pictogram van het Menu** ![&#x200B; Belangrijkste pictogram van het Menu &#x200B;](assets/main-menu-icon.png) (ontwerp dit voor Shell: of klik de **Belangrijkste lijnen van het Menu** ![&#x200B; HoofdMenu &#x200B;](assets/three-line-main-menu-icon.png) in de upper-left hoek, als het beschikbaar is.), toen **Doelen**.
+1. Klik het **Belangrijkste pictogram van het Menu** ![ Belangrijkste pictogram van het Menu ](assets/main-menu-icon.png) (ontwerp dit voor Shell: of klik de **Belangrijkste lijnen van het Menu** ![ HoofdMenu ](assets/three-line-main-menu-icon.png) in de upper-left hoek, als het beschikbaar is.), toen **Doelen**.
 1. Klik in de lijst met doelen op de naam van een doel om de doelpagina te openen.
 1. Klik **indicatoren van de Voortgang** in het linkerpaneel.
 1. Van de **Nieuwe voortgangsindicator** drop-down menu, klik **toevoegen bestaand project**.
 
    De Add projecten aan de vertoningen van het doelvakje.
 1. (Facultatief) werk de **Mening** bij, **Filter**, of **Groepering** door de respectieve pictogrammen in de hoger-juiste hoek van de lijst te klikken om de manier te wijzigen de lijst van projectvertoningen.
-1. (Facultatief) klik het **pictogram van het Onderzoek ![&#x200B; pictogram van het Onderzoek &#x200B;](assets/search-icon.png) en begin de naam van een project te typen om het in de lijst snel te vinden.**
+1. (Facultatief) klik het **pictogram van het Onderzoek** pictogram van het Onderzoek ![ en begin de naam van een project te typen om het in de lijst snel te vinden.](assets/search-icon.png)
 1. Selecteer de projecten die u aan het doel wilt toevoegen, dan klik **toevoegen**.
 
-   De geselecteerde projecten worden toegevoegd aan het doel en zij tonen in de Voortgangsindicatorensectie van de doelpagina, onder de **&#x200B;**&#x200B;groepering van het Project.
+   De geselecteerde projecten worden toegevoegd aan het doel en zij tonen in de Voortgangsindicatorensectie van de doelpagina, onder de **** groepering van het Project.
 
-   Nadat u het doel hebt geactiveerd, wordt de voortgang van het doel automatisch bijgewerkt wanneer de voortgang van een project wordt bijgewerkt. Voor informatie over het activeren van een doel, zie [&#x200B; doelstellingen in de Doelen van Adobe Workfront &#x200B;](../goal-management/activate-goals.md) activeren.
+   Nadat u het doel hebt geactiveerd, wordt de voortgang van het doel automatisch bijgewerkt wanneer de voortgang van een project wordt bijgewerkt. Voor informatie over het activeren van een doel, zie [ doelstellingen in de Doelen van Adobe Workfront ](../goal-management/activate-goals.md) activeren.
 
 ## Projectinformatie zoeken over doelen
 

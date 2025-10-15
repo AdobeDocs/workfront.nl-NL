@@ -6,16 +6,16 @@ description: U moet uw doelstellingen periodiek herzien en hun vooruitgang bijwe
 author: Alina
 feature: Workfront Goals
 exl-id: 5092f508-e52c-4934-a8c1-d0be04ecce13
-source-git-commit: a64f6e507d74201cba1455fbbc6af77c2b7ba058
+source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
 workflow-type: tm+mt
-source-wordcount: '684'
+source-wordcount: '630'
 ht-degree: 0%
 
 ---
 
 # Voortgang van Adobe Workfront-doelen bijwerken
 
-<!-- Audited for P&P only: 4/2025-->
+<!-- Audited for P&P only: 10/2025-->
 
 U moet uw doelstellingen periodiek herzien en hun vooruitgang bijwerken om ervoor te zorgen dat zij niet achterblijven of het risico lopen niet te worden bereikt.
 
@@ -23,9 +23,57 @@ U moet uw doelstellingen periodiek herzien en hun vooruitgang bijwerken om ervoo
 
 ## Toegangsvereisten
 
-+++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
+>[!NOTE]
+>
+>Uw bedrijf zou kunnen verkiezen om de Doelen van Adobe Workfront verder te gebruiken als zij dit pakket in het verleden kochten. U moet voor meer informatie contact opnemen met uw accountvertegenwoordiger.
+>
+>Adobe Workfront Goals kan niet meer worden aangeschaft.
 
-U moet het volgende hebben:
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven. 
+
+<table style="table-layout:auto">
+<col>
+</col>
+<col>
+</col>
+<tbody>
+ <tr>
+  <td> <p>Adobe Workfront-pakket</p> </td> 
+   <td> 
+   <p>Adobe Workfront Ultimate</p>
+   </td> 
+  </tr>
+ <tr>
+ <td role="rowheader">Adobe Workfront-licentie</td>
+ <td>
+ <p>Medewerker of hoger</p>
+<p>Aanvraag of hoger</p></td>
+ </tr>
+  <tr>
+ <td role="rowheader">Configuratie op toegangsniveau</td>
+ <td> <p>Toegang tot doelen bewerken</p> </td>
+ </tr>
+ <tr data-mc-conditions="">
+ <td role="rowheader">Objectmachtigingen</td>
+ <td>
+  <div>
+  <p>De toestemmingen van de mening of hoger aan het doel om het te bekijken</p>
+  <p>Machtigingen beheren om het te bewerken</p>
+  </div> </td>
+ </tr>
+<tr>
+   <td role="rowheader"><p>Lay-outsjabloon</p></td>
+   <td> <p>Aan alle gebruikers, inclusief Systeembeheerders, moet een lay-outsjabloon worden toegewezen die het gebied Doelen in het hoofdmenu bevat. </p>  
+</td>
+  </tr>
+</tbody>
+</table>
+
+Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
+<!--Old:
 
 <table style="table-layout:auto">
 <col>
@@ -34,54 +82,50 @@ U moet het volgende hebben:
 </col>
 <tbody>
  <tr> 
-   <td role="rowheader">Adobe Workfront-abonnement*</td> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
    <td> 
-   <p>Voor het nieuwe plan en de nieuwe licentiestructuur:
-  <ul><li>Een Ultimate-abonnement </li></ul>
+   <p>For the new plan and license structure:
+  <ul><li>An Ultimate plan </li></ul>
    </p>
-<p>Voor het huidige plan en de licentiestructuur: 
-<ul><li> Een Pro of hoger </li>
-  <li>Een Adobe Workfront Goals-licentie in aanvulling op een Workfront-licentie.</li></ul></p>
+<p>For the current plan and license structure: 
+<ul><li> A Pro or higher </li>
+  <li>An Adobe Workfront Goals license in addition to a Workfront license.</li></ul></p>
    </td> 
   </tr>
  <tr>
- <td role="rowheader">Adobe Workfront-licentie*</td>
+ <td role="rowheader">Adobe Workfront license*</td>
  <td>
- <p>Nieuwe licentie: Medewerker of hoger</p>
- of
- <p>Huidige licentie: aanvragen of hoger</p> <p>Voor meer informatie, zie <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref"> het vergunningsoverzicht van Adobe Workfront </a>.</p> </td>
+ <p>New license: Contributor or higher</p>
+ Or
+ <p>Current license: Request or higher</p> <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p> </td>
  </tr>
  <tr>
  <td role="rowheader">Product*</td>
  <td>
-   <p> Nieuwe productvereisten: Workfront</p>
-   of
-   <p>Huidige productvereiste: Naast een Workfront-licentie moet u een licentie aanschaffen voor Adobe Workfront Goals. </p> <p>Voor informatie, zie <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref"> Vereisten om de Doelen van Workfront </a> te gebruiken. </p> </td>
+   <p> New product requirement: Workfront</p>
+   Or
+   <p>Current product requirement: In addition to a Workfront license, you must purchase a license for Adobe Workfront Goals. </p> <p>For information, see <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requirements to use Workfront Goals</a>. </p> </td>
  </tr>
  <tr>
- <td role="rowheader">Toegangsniveau</td>
- <td> <p>Toegang tot doelen bewerken</p></td>
+ <td role="rowheader">Access level</td>
+ <td> <p>Edit access to Goals</p></td>
  </tr>
  <tr data-mc-conditions="">
- <td role="rowheader">Objectmachtigingen</td>
+ <td role="rowheader">Object permissions</td>
  <td>
   <div>
-  <p>De toestemmingen van de mening of hoger aan het doel om het te bekijken</p>
-  <p>Machtigingen beheren om het te bewerken</p>
-  <p>Voor informatie over het delen van doelstellingen, zie <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref"> een doel in de Doelen van Workfront delen </a>. </p>
+  <p>View or higher permissions to the goal to view it</p>
+  <p>Manage permissions to the goal to edit it</p>
+  <p>For information about sharing goals, see <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Share a goal in Workfront Goals</a>. </p>
   </div> </td>
  </tr>
 <tr>
-   <td role="rowheader"><p>Lay-outsjabloon</p></td>
-   <td> <p>Aan alle gebruikers, inclusief Workfront-beheerders, moet een lay-outsjabloon worden toegewezen die het gebied Doelen in het hoofdmenu bevat. </p>  
+   <td role="rowheader"><p>Layout template</p></td>
+   <td> <p>All users, including Workfront administrators,  must be assigned a layout template that includes the Goals area in the Main Menu. </p>  
 </td>
   </tr>
 </tbody>
-</table>
-
-*Voor meer informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
-
-+++
+</table>-->
 
 ## Vereisten
 
@@ -101,16 +145,16 @@ Houd rekening met het volgende wanneer u de voortgang op het gebied van doelstel
 
   Zie ook de volgende artikelen:
 
-   * Voor informatie over het toevoegen van activiteiten aan doelstellingen, zie [&#x200B; activiteiten aan doelstellingen in de Doelen van Adobe Workfront &#x200B;](../../workfront-goals/results-and-activities/add-activities-to-goals.md) toevoegen.
-   * Voor informatie over het toevoegen van resultaten aan doelstellingen, zie [&#x200B; resultaten aan doelstellingen in de Doelen van Adobe Workfront &#x200B;](../../workfront-goals/results-and-activities/add-results-to-goals.md) toevoegen.
-   * Voor informatie over hoe de Doelen van Workfront de vooruitgang op een doel berekent, zie [&#x200B; Overzicht van doelvooruitgang en voorwaarde in de Doelen van Adobe Workfront &#x200B;](../../workfront-goals/goal-management/calculate-goal-progress.md).
+   * Voor informatie over het toevoegen van activiteiten aan doelstellingen, zie [ activiteiten aan doelstellingen in de Doelen van Adobe Workfront ](../../workfront-goals/results-and-activities/add-activities-to-goals.md) toevoegen.
+   * Voor informatie over het toevoegen van resultaten aan doelstellingen, zie [ resultaten aan doelstellingen in de Doelen van Adobe Workfront ](../../workfront-goals/results-and-activities/add-results-to-goals.md) toevoegen.
+   * Voor informatie over hoe de Doelen van Workfront de vooruitgang op een doel berekent, zie [ Overzicht van doelvooruitgang en voorwaarde in de Doelen van Adobe Workfront ](../../workfront-goals/goal-management/calculate-goal-progress.md).
 
 * U moet doelen maken en deze activeren voordat u de voortgang kunt bijwerken.
 
   Zie ook de volgende artikelen:
 
-   * Voor informatie over het creëren van doelstellingen, zie [&#x200B; doelstellingen in de Doelen van Adobe Workfront &#x200B;](../../workfront-goals/goal-management/create-goals.md) creëren.
-   * Voor informatie over het activeren van doelstellingen, zie [&#x200B; doelstellingen in de Doelen van Adobe Workfront &#x200B;](../../workfront-goals/goal-management/activate-goals.md) activeren.
+   * Voor informatie over het creëren van doelstellingen, zie [ doelstellingen in de Doelen van Adobe Workfront ](../../workfront-goals/goal-management/create-goals.md) creëren.
+   * Voor informatie over het activeren van doelstellingen, zie [ doelstellingen in de Doelen van Adobe Workfront ](../../workfront-goals/goal-management/activate-goals.md) activeren.
 
   >[!IMPORTANT]
   >
@@ -247,7 +291,7 @@ When you check in on a goal in the Check-in section, you can update the progress
 
 Voortgang van doelen bijwerken:
 
-1. Klik het **pictogram van het 1&rbrace; pictogram van het Belangrijkste Menu ![&#x200B; &#x200B;](assets/main-menu-icon.png) >** Doelen **in de hoger-juiste hoek.**
+1. Klik het **pictogram van het 1} pictogram van het Belangrijkste Menu** ![ > ](assets/main-menu-icon.png) Doelen **in de hoger-juiste hoek.**
 
    <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-review-and-workfront-goals-sections/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
@@ -272,7 +316,7 @@ Voortgang van doelen bijwerken:
 
 1. Om de vooruitgang van een resultaat of een activiteit bij te werken, klik de waarde binnen de **Ware kolom van de Voortgang** van het resultaat of de activiteit en typ een aantal om zijn waarde bij te werken, dan druk binnengaan.
 
-   ![&#x200B; Ware vooruitgang &#x200B;](assets/actual-progress-result-updating-highlighted-unshimmed.png)
+   ![ Ware vooruitgang ](assets/actual-progress-result-updating-highlighted-unshimmed.png)
 
    De voortgangsbalk voor de voortgangsindicator in de kolom Voortgang en de voortgang van het doel in de doelkoptekst worden direct bijgewerkt.
 

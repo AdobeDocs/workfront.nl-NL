@@ -3,12 +3,12 @@ product-area: timesheets
 navigation-topic: create-and-manage-timesheets
 title: Totale uren weergeven op het tijdblad
 description: U kunt het totale aantal uren op uw timesheet bekijken. Het totale aantal timesheet uren omvat uren die voor projecten, taken, kwesties, en alle algemene uren worden geregistreerd.
-author: Alina
+author: Lisa
 feature: Timesheets
 exl-id: ff0823f2-61d0-453f-ae1c-68f0f1465d73
-source-git-commit: d5d517a0c9a1292c37e66db07f7ed17d0a9a59e1
+source-git-commit: 69cd5fb1d089b81b7a1673609b92537137b6b68e
 workflow-type: tm+mt
-source-wordcount: '489'
+source-wordcount: '458'
 ht-degree: 0%
 
 ---
@@ -23,35 +23,33 @@ De totale uren weerspiegelen uren die door timesheet, het gebied van Updates, of
 
 ## Toegangsvereisten
 
-+++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
-
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan</td> 
+   <td>Adobe Workfront-pakket</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Nieuw: Licht of hoger </p>
-   <p>Huidig: Controleren of hoger</p> </td> 
+   <td>Adobe Workfront-licentie</td> 
+   <td> <p>Licht of hoger </p>
+   <p>Controleren of hoger</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuratie op toegangsniveau</td> 
+   <td>Configuratie op toegangsniveau</td> 
    <td> <p>Toegang tot taken en problemen weergeven of vergroten</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Objectmachtigingen</td> 
+   <td>Objectmachtigingen</td> 
    <td> <p>Machtigingen weergeven of hoger voor taken en problemen</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Neem contact op met uw Workfront-beheerder om te weten te komen welk abonnement, licentietype of toegang u hebt. Voor meer informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -81,7 +79,7 @@ Het **gebied van Tijdopnemers** opent.
 
      ![](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
 
-   * Klik op het pictogram Filter ![](assets/filter-nwepng.png) om een ander filter toe te passen of een nieuw filter te maken. Voor informatie over het creëren van of het bijwerken van filters, zie [&#x200B; filters in Adobe Workfront &#x200B;](../../reports-and-dashboards/reports/reporting-elements/create-filters.md) creëren of uitgeven.
+   * Klik op het pictogram Filter ![](assets/filter-nwepng.png) om een ander filter toe te passen of een nieuw filter te maken. Voor informatie over het creëren van of het bijwerken van filters, zie [ filters in Adobe Workfront ](../../reports-and-dashboards/reports/reporting-elements/create-filters.md) creëren of uitgeven.
 
    >[!NOTE]
    >
@@ -89,7 +87,7 @@ Het **gebied van Tijdopnemers** opent.
    >
    >   
    >   
-   >   * [&#x200B; pas Filters, Weergaven, en Groepen aan gebruikend een lay-outmalplaatje &#x200B;](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
+   >   * [ pas Filters, Weergaven, en Groepen aan gebruikend een lay-outmalplaatje ](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
    >   
    >
 
@@ -97,8 +95,8 @@ Het **gebied van Tijdopnemers** opent.
 
    Zie de volgende artikelen voor informatie over het maken van filters, weergaven of groepen:
 
-   * [&#x200B; creeer of geef filters in Adobe Workfront uit &#x200B;](../../reports-and-dashboards/reports/reporting-elements/create-filters.md)
-   * [&#x200B; creeer of geef meningen in Adobe Workfront uit &#x200B;](../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md)
+   * [ creeer of geef filters in Adobe Workfront uit ](../../reports-and-dashboards/reports/reporting-elements/create-filters.md)
+   * [ creeer of geef meningen in Adobe Workfront uit ](../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md)
    * [Groepen maken in Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-groupings.md)
 
 1. Het totale aantal uren voor elk timesheet toont in de **Totale Uren** kolom.
@@ -107,4 +105,4 @@ Het **gebied van Tijdopnemers** opent.
 
    >[!TIP]
    >
-   >Wanneer het gebruiken van de Standaardmening voor een lijst van timesheets, de Totale kolomvertoningen van Uren in rood als de tijd die voor de punten op timesheet wordt geregistreerd het aantal uren in het tijdkader van timesheet overschrijdt. Voor meer informatie, zie het gebied van &quot;Totale Uren&quot;in [&#x200B; Verklarende woordenlijst van de terminologie van Adobe Workfront &#x200B;](../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
+   >Wanneer het gebruiken van de Standaardmening voor een lijst van timesheets, de Totale kolomvertoningen van Uren in rood als de tijd die voor de punten op timesheet wordt geregistreerd het aantal uren in het tijdkader van timesheet overschrijdt. Voor meer informatie, zie het gebied van &quot;Totale Uren&quot;in [ Verklarende woordenlijst van de terminologie van Adobe Workfront ](../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).

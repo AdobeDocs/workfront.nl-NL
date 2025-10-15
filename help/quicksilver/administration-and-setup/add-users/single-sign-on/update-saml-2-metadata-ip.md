@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 75cd0ab5-8d76-40a4-96a8-00e9f0f4fec6
-source-git-commit: 93f4c1691210d88531fcc269bd40ee7ed8633309
+source-git-commit: 22ae8b489c63ba6eea1472cf415f95e375a94773
 workflow-type: tm+mt
-source-wordcount: '1050'
+source-wordcount: '1007'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 >
 >De op deze pagina beschreven procedure is alleen van toepassing op organisaties die nog niet aan boord van de Adobe Admin Console zijn.
 >
->Om gebruikersattributen in kaart te brengen in organisaties die aan Adobe Admin Console in kaart zijn gebracht, zie [&#x200B; de gebruikersattributen van de Kaart in Adobe verenigde ervaring &#x200B;](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/map-user-attributes.md#map-user-attributes-in-the-adobe-unified-experience) in de gebruikersattributen van de artikel Kaart.
+>Om gebruikersattributen in kaart te brengen in organisaties die aan Adobe Admin Console in kaart zijn gebracht, zie [ de gebruikersattributen van de Kaart in Adobe verenigde ervaring ](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/map-user-attributes.md#map-user-attributes-in-the-adobe-unified-experience) in de gebruikersattributen van de artikel Kaart.
 
 De volgende secties beschrijven hoe te om uw meta-gegevens van de Prijsverhoging van de Bevestiging van de Veiligheid (SAML) 2.0 bij te werken wanneer het gebruiken van de Actieve Diensten van de Federatie van de Folder (ADFS) als uw identiteitsleverancier.
 
@@ -29,26 +29,26 @@ De volgende secties beschrijven hoe te om uw meta-gegevens van de Prijsverhoging
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan</td> 
-   <td>Alle</td> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
+   <td><p>Alle</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie</td> 
-   <td>Plan</td> 
+   <td><p>Standard</p><p>Plan</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau</td> 
-   <td> <p>U moet een Workfront-beheerder zijn.</p> <p><b> NOTA </b>: Als u nog geen toegang hebt, vraag uw beheerder van Workfront als zij extra beperkingen in uw toegangsniveau plaatsen. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
+   <td> <p>U moet een Workfront-beheerder zijn.</p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
+
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -56,7 +56,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 U kunt uw ADFS-metagegevens bijwerken voordat of nadat Adobe Workfront het SAML 2.0-certificaat heeft bijgewerkt. Als u ervoor kiest de ADFS-metagegevens bij te werken voordat het SAML 2.0-certificaat door Workfront wordt bijgewerkt, zijn extra stappen vereist.
 
-* [&#x200B; werk uw meta-gegevens ADFS &#x200B;](#update-your-adfs-metadata) bij
+* [ werk uw meta-gegevens ADFS ](#update-your-adfs-metadata) bij
 * [Uw ADFS-metagegevens bijwerken forceren](#force-your-adfs-metadata-to-update)
 
 ### ADFS-metagegevens bijwerken {#update-your-adfs-metadata}
@@ -72,7 +72,7 @@ Door gebrek, wordt ADFS gevormd om updates aan elk van zijn het vertrouwen van d
 1. Selecteer het vertrouwen van de afhankelijke partij dat u eerder om met Workfront, dan in het rechterpaneel werd gevormd te worden gebruikt, **Update van Metagegevens van de Federatie** klikken.
 1. (Voorwaardelijk) Als deze optie grijs wordt weergegeven (wat betekent dat het vertrouwen van de betrouwbare partij eerder is geconfigureerd met een metagegevensbestand), voert u het volgende in.
 
-   1. Klik het **pictogram 1&rbrace; van het Belangrijkste Menu** Belangrijkste menupictogram ![&#x200B; in de hoger-juiste hoek van Adobe Workfront, dan klik &#x200B;](assets/main-menu-icon.png) de montages van de Opstelling **&#x200B;**&#x200B;Gear pictogram ![.](assets/gear-icon-settings.png)
+   1. Klik het **pictogram 1} van het Belangrijkste Menu** Belangrijkste menupictogram ![ in de hoger-juiste hoek van Adobe Workfront, dan klik ](assets/main-menu-icon.png) de montages van de Opstelling **** Gear pictogram ![.](assets/gear-icon-settings.png)
 
    1. Klik **Systeem** > **Enig Teken (SSO)**.
 
@@ -158,6 +158,6 @@ De gebruikers die tot Workfront via het inheemse login scherm toegang hebben geb
 
 Wanneer u andere identiteitsproviders dan ADFS gebruikt (zoals Ping, Okta of Centrify), moet u de Workfront-metagegevens opnieuw uploaden naar uw identiteitsprovider.
 
-Voor meer informatie over hoe te om een nieuwe Meta-gegevens URL van Workfront te verkrijgen, zie [&#x200B; Update uw meta-gegevens ADFS &#x200B;](#update-your-adfs-metadata).
+Voor meer informatie over hoe te om een nieuwe Meta-gegevens URL van Workfront te verkrijgen, zie [ Update uw meta-gegevens ADFS ](#update-your-adfs-metadata).
 
-Voor extra informatie over het gebruiken van de Actieve Diensten van de Federatie van de Folder (ADFS) met SAML 2.0 in Workfront, zie [&#x200B; Adobe Workfront met SAML 2.0 vormen gebruikend ADFS &#x200B;](../../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2-adfs.md).
+Voor extra informatie over het gebruiken van de Actieve Diensten van de Federatie van de Folder (ADFS) met SAML 2.0 in Workfront, zie [ Adobe Workfront met SAML 2.0 vormen gebruikend ADFS ](../../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2-adfs.md).

@@ -4,10 +4,10 @@ product-area: timesheets
 navigation-topic: timesheets-navigation-topic
 title: Overzicht van tijdbladen
 description: U kunt tijdbladen gebruiken om de tijd te volgen die u aan werk, zowel binnen als buiten, van Adobe Workfront doorbrengt.
-author: Alina
+author: Lisa
 feature: Timesheets
 exl-id: 2174a879-4a19-4a0f-803a-f19a8909f227
-source-git-commit: 66e6c96ca51a159f6e9a16178f06dd016217c7d8
+source-git-commit: 69cd5fb1d089b81b7a1673609b92537137b6b68e
 workflow-type: tm+mt
 source-wordcount: '509'
 ht-degree: 0%
@@ -24,11 +24,11 @@ U kunt projecttijd op het werkpunten, zoals projecten, taken, en kwesties regist
 
 U kunt ook niet-projecttijd voor niet-werk verwante punten zoals vergaderingen, trainingen, of tijd vanaf het bureau direct op uw timesheet onder Algemene Uren registreren.
 
-Voor meer gedetailleerde informatie over hoe te om tijd in Workfront te registreren, zie [&#x200B; tijd van het Logboek &#x200B;](../../timesheets/create-and-manage-timesheets/log-time.md).
+Voor meer gedetailleerde informatie over hoe te om tijd in Workfront te registreren, zie [ tijd van het Logboek ](../../timesheets/create-and-manage-timesheets/log-time.md).
 
 >[!TIP]
 >
->Als u een Workfront- of groepsbeheerder bent, kunt u tijdbladen maken en deze koppelen aan uw gebruikers. Voor informatie over het creëren van timesheets, zie [&#x200B; creeer en beheer timesheets: artikelindex &#x200B;](../create-and-manage-timesheets/create-and-manage-timesheets.md).
+>Als u een Workfront- of groepsbeheerder bent, kunt u tijdbladen maken en deze koppelen aan uw gebruikers. Voor informatie over het creëren van timesheets, zie [ creeer en beheer timesheets: artikelindex ](../create-and-manage-timesheets/create-and-manage-timesheets.md).
 
 
 ## Begrijp projecttijd versus niet projecttijd
@@ -41,19 +41,19 @@ De chronologie voorziet gebruikers van een eenvoudige manier om tijd voor zowel 
 
   Bovendien, wanneer een middel uren op taken, kwesties en projecten direct registreert verschijnen wanneer de gebruiker tot timesheet toegang heeft. Dit veronderstelt de timesheet datumwaaier de data overspant de uren werden geregistreerd.
 
-* **niet-ProjectTijd:** direct op gebruikerstimesheet. Voor meer informatie over het bijhouden van de tijd in Workfront raadpleegt u   [&#x200B; tijd van het Logboek &#x200B;](../../timesheets/create-and-manage-timesheets/log-time.md).
+* **niet-ProjectTijd:** direct op gebruikerstimesheet. Voor meer informatie over het bijhouden van de tijd in Workfront raadpleegt u   [ tijd van het Logboek ](../../timesheets/create-and-manage-timesheets/log-time.md).
 
   Op een timesheet kunt u vakantieuren, zieke uren, doorgebrachte uren in transit, uren doorgebrachte reparatie of onderhoud van materiaal, of om het even welke algemene types van overheaduren registreren u wenst om te creëren.
 
 ## Toegangstijdbladen in het gebied Timesheets
 
-Het gebied met tijdbladen is standaard beschikbaar voor alle gebruikers. Workfront-beheerders kunnen dit naar wens wijzigen in de lay-outsjabloon. Voor meer informatie, zie [&#x200B; het Belangrijkste Menu aanpassen gebruikend een lay-outmalplaatje &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
+Het gebied met tijdbladen is standaard beschikbaar voor alle gebruikers. Workfront-beheerders kunnen dit naar wens wijzigen in de lay-outsjabloon. Voor meer informatie, zie [ het Belangrijkste Menu aanpassen gebruikend een lay-outmalplaatje ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
 
 U kunt als volgt een tijdpagina openen:
 
 {{step1-to-timesheets}}
 
-Al uw timesheets evenals timesheets hebt u toegang tot vertoning door gebrek. Voor informatie over de timesheet lay-out in Adobe Workfront, zie [&#x200B; overzicht van de lay-out van de Tijdopnemer &#x200B;](../../timesheets/timesheets/timesheet-layout.md).
+Al uw timesheets evenals timesheets hebt u toegang tot vertoning door gebrek. Voor informatie over de timesheet lay-out in Adobe Workfront, zie [ overzicht van de lay-out van de Tijdopnemer ](../../timesheets/timesheets/timesheet-layout.md).
 
 ![](assets/all-timesheets-list-nwe-350x68.png)
 
@@ -68,10 +68,10 @@ Al uw timesheets evenals timesheets hebt u toegang tot vertoning door gebrek. Vo
      ![](assets/timesheets-i-approve-list-with0filters-new-nwe-350x61.png)
 
 
-1. (Optioneel) Werk de weergave, het filter en de groepering boven aan de lijst met tijdbladen bij. Voor meer informatie, zie [&#x200B; Meldend elementen: filters, meningen, en groeperingen &#x200B;](../../reports-and-dashboards/reports/reporting-elements/reporting-elements-overview.md).
+1. (Optioneel) Werk de weergave, het filter en de groepering boven aan de lijst met tijdbladen bij. Voor meer informatie, zie [ Meldend elementen: filters, meningen, en groeperingen ](../../reports-and-dashboards/reports/reporting-elements/reporting-elements-overview.md).
 
 1. Klik de **Waaier van de Datum** van een timesheet om het te openen.
 
    Elk timesheet toont alle taken, kwesties, en projecten die u tijd voor hebt geregistreerd. Een timesheet toont ook tot 45 taken en kwesties die aan u met data binnen het tijdkader van timesheet worden toegewezen, maar waarvoor u niet tijd nog zou kunnen geregistreerd hebben. De 45 meest recente bijgewerkte items zijn geselecteerd voor weergave in de tijdlijn.
 
-   Voor meer informatie, zie [&#x200B; timesheet en uurvoorkeur &#x200B;](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md) vormen.
+   Voor meer informatie, zie [ timesheet en uurvoorkeur ](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md) vormen.

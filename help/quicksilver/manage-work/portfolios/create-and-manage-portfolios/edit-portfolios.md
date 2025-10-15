@@ -6,9 +6,9 @@ description: U kunt gegevens bewerken over portfolio's die u hebt gemaakt of die
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 0a2e18c3-1722-4fc6-8442-19e80eca9d47
-source-git-commit: a00776ecd9f8dc14b9dce14ce9463c2bb709a363
+source-git-commit: cfbd38d9ab8f1976f891164a2572bb929339477d
 workflow-type: tm+mt
-source-wordcount: '981'
+source-wordcount: '976'
 ht-degree: 0%
 
 ---
@@ -36,29 +36,58 @@ U kunt een portfolio bewerken op de portfoliopagina of portfolio&#39;s in een li
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] package</td> 
    <td> <p>Alle</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe [!DNL Workfront] -licenties*</td> 
-   <td> <p>Nieuw: Standaard</p>
-   <p>Huidig: [!UICONTROL Plan] </p> </td> 
+   <td role="rowheader">Adobe [!DNL Workfront] -licenties</td> 
+   <td> <p>[!UICONTROL Standard]</p>
+   <p>[!UICONTROL Plan]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Toegangsniveau</td> 
-   <td> <p>[!UICONTROL Edit] toegang tot portfolio's</p>  </td> 
+   <td> <p>[!UICONTROL Edit] toegang tot [!UICONTROL Portfolios]</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
    <td> <p>[!UICONTROL Manage] machtigingen voor een portfolio</p>
-   <p> Rechten voor de projecten in het portfolio beheren om deze toe te voegen aan of te verwijderen uit het portfolio</p>  </td> 
+   <p>[!UICONTROL Manage] machtigingen voor de projecten in het portfolio om deze toe te voegen aan of te verwijderen uit het portfolio</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-*For informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*For informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++ 
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td> <p>Any</p></td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe [!DNL Workfront] licenses*</td> 
+   <td> <p>New: Standard</p>
+   <p>Current: [!UICONTROL Plan] </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level</td> 
+   <td> <p>[!UICONTROL Edit] access to Portfolios</p>  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>[!UICONTROL Manage] permissions to a portfolio</p>
+   <p> Manage permissions to the projects in the portfolio to add or remove them from the portfolio</p>  </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).-->
 
 ## Portfolio&#39;s bewerken
 
@@ -68,7 +97,7 @@ U kunt een portfolio bewerken op de portfoliopagina of portfolio&#39;s in een li
 
    1. Klik op de naam van een portfolio om het te openen en klik vervolgens op **[!UICONTROL Portfolio Details]** in het linkerdeelvenster.
 
-      ![&#x200B; Portfolio details tabel &#x200B;](assets/portfolio-details-tab-nwe-350x163.png)
+      ![ Portfolio details tabel ](assets/portfolio-details-tab-nwe-350x163.png)
 
       <!--
       <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: the note below will also be true for Edit Portfolio box)</p>
@@ -76,21 +105,21 @@ U kunt een portfolio bewerken op de portfoliopagina of portfolio&#39;s in een li
 
       >[!NOTE]
       >
-      >Afhankelijk van de manier waarop uw [!DNL Workfront] -beheerder of groepsbeheerder uw lay-outsjabloon heeft gewijzigd, kunnen de velden in het [!UICONTROL Portfolio Details] -gebied opnieuw worden gerangschikt of niet worden weergegeven. Voor informatie, zie [&#x200B; de [!UICONTROL Details] mening aanpassen gebruikend een lay-outmalplaatje &#x200B;](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
+      >Afhankelijk van de manier waarop uw [!DNL Workfront] -beheerder of groepsbeheerder uw lay-outsjabloon heeft gewijzigd, kunnen de velden in het [!UICONTROL Portfolio Details] -gebied opnieuw worden gerangschikt of niet worden weergegeven. Voor informatie, zie [ de [!UICONTROL Details] mening aanpassen gebruikend een lay-outmalplaatje ](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
 
       Om informatie in de [!UICONTROL **sectie van Details**] uit te geven, doe het volgende:
 
-   1. (Facultatief) klik het **[!UICONTROL Collapse all]** pictogram ![&#x200B; vouwt al pictogram &#x200B;](assets/collapse-all-icon.png) in de hoger-juiste hoek samen om alle gebieden samen te vouwen.
-   1. (Facultatief en voorwaardelijk) wanneer een gebied wordt doen ineenstorten, klik **pictogram** breid pictogram ![&#x200B; naast elk gebied uit om het gebied uit te breiden u wilt uitgeven.](assets/right-pointing-arrow.png)
+   1. (Facultatief) klik het **[!UICONTROL Collapse all]** pictogram ![ vouwt al pictogram ](assets/collapse-all-icon.png) in de hoger-juiste hoek samen om alle gebieden samen te vouwen.
+   1. (Facultatief en voorwaardelijk) wanneer een gebied wordt doen ineenstorten, klik **pictogram** breid pictogram ![ naast elk gebied uit om het gebied uit te breiden u wilt uitgeven.](assets/right-pointing-arrow.png)
 
       >[!TIP]
       >
-      >U kunt **klikken breidt alle** pictogram ![&#x200B; pictogram &#x200B;](assets/right-pointing-arrow.png) in de hoger-juiste hoek van de sectie van Details uit, wanneer alle gebieden worden doen ineenstorten.
+      >U kunt **klikken breidt alle** pictogram ![ pictogram ](assets/right-pointing-arrow.png) in de hoger-juiste hoek van de sectie van Details uit, wanneer alle gebieden worden doen ineenstorten.
 
       Voor informatie over de gebieden zichtbaar in de [!UICONTROL **sectie van de Details van Portfolio**], ga met het uitgeven van de portefeuille in [!UICONTROL **uit geef Portfolio**] doos zoals hieronder beschreven uit.
    1. (Facultatief) als er geen douaneformulieren in bijlage aan de portefeuille zijn, begin de naam van een vorm op het **[!UICONTROL Add custom form]** gebied in de hoger-juiste hoek van de **Details** pagina te typen, dan het te selecteren wanneer het in de lijst toont.
    1. Voeg informatie aan de gebieden in het [!UICONTROL **Overzicht**] en [!UICONTROL **de gebieden van Forms van de Douane**] toe, dan klik [!UICONTROL **sparen Veranderingen**].
-   1. (Facultatief) klik het **[!UICONTROL Export]** pictogram ![&#x200B; pictogram van de Uitvoer &#x200B;](assets/export.png) om de [!UICONTROL Overview] en informatie van de douaneformulieren naar een dossier van PDF uit te voeren, dan klik **[!UICONTROL Export]**. Selecteer een van de volgende opties:
+   1. (Facultatief) klik het **[!UICONTROL Export]** pictogram ![ pictogram van de Uitvoer ](assets/export.png) om de [!UICONTROL Overview] en informatie van de douaneformulieren naar een dossier van PDF uit te voeren, dan klik **[!UICONTROL Export]**. Selecteer een van de volgende opties:
 
 
       * Alles selecteren (wordt alleen weergegeven als er ten minste één aangepast formulier is gekoppeld)
@@ -99,19 +128,19 @@ U kunt een portfolio bewerken op de portfoliopagina of portfolio&#39;s in een li
 
         Het PDF-bestand wordt naar uw computer gedownload.
 
-        ![&#x200B; de portefeuilledetails van de Uitvoer &#x200B;](assets/export-portfolio-details-box-with-export-button-350x368.png)
+        ![ de portefeuilledetails van de Uitvoer ](assets/export-portfolio-details-box-with-export-button-350x368.png)
 
-        Voor meer informatie, zie [&#x200B; de douaneformulieren en objecten details van de Uitvoer &#x200B;](../../../workfront-basics/work-with-custom-forms/export-custom-forms-details.md).
+        Voor meer informatie, zie [ de douaneformulieren en objecten details van de Uitvoer ](../../../workfront-basics/work-with-custom-forms/export-custom-forms-details.md).
 
 
-1. (Facultatief) om alle informatie over één of meerdere portefeuilles uit te geven, selecteer één of meerdere portefeuilles die u in een lijst van portefeuilles wilt uitgeven, dan klik het **[!UICONTROL Edit]** pictogram ![&#x200B; uitgeven pictogram &#x200B;](assets/edit-icon.png) bij de bovenkant van de lijst.
+1. (Facultatief) om alle informatie over één of meerdere portefeuilles uit te geven, selecteer één of meerdere portefeuilles die u in een lijst van portefeuilles wilt uitgeven, dan klik het **[!UICONTROL Edit]** pictogram ![ uitgeven pictogram ](assets/edit-icon.png) bij de bovenkant van de lijst.
 
    <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this might have to be split in two sections if the single edit and the bulk edit won't come at the same time for portfolios)</p>
    -->
    Het vak **[!UICONTROL Edit Portfolio]** wordt weergegeven.
 
-   ![&#x200B; geef portefeuillevak &#x200B;](assets/edit-portfolio-box-classic-350x224.png) uit
+   ![ geef portefeuillevak ](assets/edit-portfolio-box-classic-350x224.png) uit
 
    Alle portfoliovelden zijn beschikbaar in het vak [!UICONTROL Edit Portfolio] en worden gegroepeerd op de gebieden in het linkerdeelvenster.
 
@@ -180,7 +209,7 @@ U kunt een portfolio bewerken op de portfoliopagina of portfolio&#39;s in een li
 
    >[!NOTE]
    >
-   >Afhankelijk van de manier waarop de [!DNL Workfront] -beheerder de machtigingen voor de secties in het aangepaste formulier instelt, kan niet iedereen dezelfde velden op een aangepast formulier weergeven of bewerken. De machtigingen voor het bewerken van velden in een sectie van een aangepast formulier zijn afhankelijk van de machtigingen die u hebt voor het portfolio zelf. Voor informatie over het plaatsen van toestemmingen op secties van een douaneformulier, zie [&#x200B; een douaneformulier &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren.
+   >Afhankelijk van de manier waarop de [!DNL Workfront] -beheerder de machtigingen voor de secties in het aangepaste formulier instelt, kan niet iedereen dezelfde velden op een aangepast formulier weergeven of bewerken. De machtigingen voor het bewerken van velden in een sectie van een aangepast formulier zijn afhankelijk van de machtigingen die u hebt voor het portfolio zelf. Voor informatie over het plaatsen van toestemmingen op secties van een douaneformulier, zie [ een douaneformulier ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren.
 
 1. Klik [!UICONTROL **sparen**] en blijf het uitgeven van de volgende secties.
 
@@ -189,7 +218,7 @@ U kunt een portfolio bewerken op de portfoliopagina of portfolio&#39;s in een li
 1. Een portfolio bewerken zoals hierboven beschreven.
 1. Klik op **[!UICONTROL Comment]**.
 
-   ![&#x200B; geef de doos van de portefeuillecommentaar uit &#x200B;](assets/comment-box-edit-portfolio-classic-350x227.png)
+   ![ geef de doos van de portefeuillecommentaar uit ](assets/comment-box-edit-portfolio-classic-350x227.png)
 
 1. Voeg een opmerking toe in het veld **[!UICONTROL Add an update to the portfolio]** .
 1. (Optioneel) Klik op het pictogram **[!UICONTROL People]** om een gebruiker of een team aan de opmerking toe te voegen.

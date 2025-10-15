@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 67fc34dc-0722-4419-8254-0371ad5abfc3
-source-git-commit: 97d755c71eb1bdfa8a031fa387741318f9a7f261
+source-git-commit: f9a154fa92217810b762ac48169512bc0bca7305
 workflow-type: tm+mt
-source-wordcount: '766'
+source-wordcount: '765'
 ht-degree: 0%
 
 ---
@@ -25,14 +25,17 @@ Sommige objecten in Adobe Workfront maken het mogelijk tekst met opmaak op te sl
 
 Een aangepast veld met RTF-opmaak wordt Veld met RTF-opmaak genoemd en kan de volgende waarden bevatten:
 
-![&#x200B; Rich- tekstvoorbeeld &#x200B;](assets/rich-text-example-350x158.png)
+![ Rich- tekstvoorbeeld ](assets/rich-text-example-350x158.png)
 
 Voorbeeld: een standaard GET-aanvraag om de waarde van het veld op te halen met een aangepast tekstveld met tekstopmaak:
 
-<!-- [Copy](javascript:void(0);) -->
-<pre>&lt;OBJ Code>&lt;OBJ ID>&lt;OBJ Code>&lt;OBJ ID></pre> 
+```
+GET /attask/api-internal/<OBJ Code>/<OBJ ID>?fields=parameterValues#
+OR
+GET /attask/api/v12.0/<OBJ Code>/<OBJ ID>?fields=parameterValues
+```
 
-Voorbeeld: deze aanvraag retourneert de waarde Veld met RTF-tekst in JSON die is opgeslagen in de parameterValue DE:Field met RTF-tekst
+Voorbeeld: Dit verzoek zal de waarde van Gebied met rijke teksten in JSON terugkeren die in parameterValue DE :Field met rijke teksten wordt opgeslagen
 
 <!-- [Copy](javascript:void(0);) -->
 <pre><code>{<br>data: {<br>&nbsp;&nbsp;&nbsp;&nbsp;ID: <span style="color: #dd1144; ">"5e85e3f10000b99e8cef10af4e5c6c7b"</span>,<br>&nbsp;&nbsp;&nbsp;&nbsp;name: <span style="color: #dd1144; ">"Zoom Integration Test"</span>,<br>&nbsp;&nbsp;&nbsp;&nbsp;objCode: <span style="color: #dd1144; ">"PROJ"</span>,<br>&nbsp;&nbsp;&nbsp;&nbsp;parameterValues: {<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #dd1144; ">"DE:Field with rich text"</span>: <span style="color: #dd1144; ">"{"</span>blocks<span style="color: #dd1144; ">":[{"</span>key<span style="color: #dd1144; ">":"</span>dpfce<span style="color: #dd1144; ">","</span>text<span style="color: #dd1144; ">":"</span>This is a regular text<span style="color: #dd1144; ">","</span>type<span style="color: #dd1144; ">":"</span>unstyled<span style="color: #dd1144; ">","</span>depth<span style="color: #dd1144; ">":0,"</span>inlineStyleRanges<span style="color: #dd1144; ">":[],"</span>entityRanges<span style="color: #dd1144; ">":[],"</span>data<span style="color: #dd1144; ">":{}},{"</span>key<span style="color: #dd1144; ">":"</span>a9ic6<span style="color: #dd1144; ">","</span>text<span style="color: #dd1144; ">":"</span>Bold text and regular text<span style="color: #dd1144; ">","</span>type<span style="color: #dd1144; ">":"</span>unstyled<span style="color: #dd1144; ">","</span>depth<span style="color: #dd1144; ">":0,"</span>inlineStyleRanges<span style="color: #dd1144; ">":[{"</span>offset<span style="color: #dd1144; ">":0,"</span>length<span style="color: #dd1144; ">":9,"</span>style<span style="color: #dd1144; ">":"</span>BOLD<span style="color: #dd1144; ">"}],"</span>entityRanges<span style="color: #dd1144; ">":[],"</span>data<span style="color: #dd1144; ">":{}},{"</span>key<span style="color: #dd1144; ">":"</span><span style="color: #008080; ">1</span>b2a4<span style="color: #dd1144; ">","</span>text<span style="color: #dd1144; ">":"</span>Italic text and regular text<span style="color: #dd1144; ">","</span>type<span style="color: #dd1144; ">":"</span>unstyled<span style="color: #dd1144; ">","</span>depth<span style="color: #dd1144; ">":0,"</span>inlineStyleRanges<span style="color: #dd1144; ">":[{"</span>offset<span style="color: #dd1144; ">":0,"</span>length<span style="color: #dd1144; ">":11,"</span>style<span style="color: #dd1144; ">":"</span>ITALIC<span style="color: #dd1144; ">"}],"</span>entityRanges<span style="color: #dd1144; ">":[],"</span>data<span style="color: #dd1144; ">":{}},{"</span>key<span style="color: #dd1144; ">":"</span><span style="color: #008080; ">4</span>dle1<span style="color: #dd1144; ">","</span>text<span style="color: #dd1144; ">":"</span>Underline text and regular text<span style="color: #dd1144; ">","</span>type<span style="color: #dd1144; ">":"</span>unstyled<span style="color: #dd1144; ">","</span>depth<span style="color: #dd1144; ">":0,"</span>inlineStyleRanges<span style="color: #dd1144; ">":[{"</span>offset<span style="color: #dd1144; ">":0,"</span>length<span style="color: #dd1144; ">":14,"</span>style<span style="color: #dd1144; ">":"</span>UNDERLINE<span style="color: #dd1144; ">"}],"</span>entityRanges<span style="color: #dd1144; ">":[],"</span>data<span style="color: #dd1144; ">":{}},{"</span>key<span style="color: #dd1144; ">":"</span><span style="color: #008080; ">10</span>mip<span style="color: #dd1144; ">","</span>text<span style="color: #dd1144; ">":"</span>With all formating and regular text<span style="color: #dd1144; ">","</span>type<span style="color: #dd1144; ">":"</span>unstyled<span style="color: #dd1144; ">","</span>depth<span style="color: #dd1144; ">":0,"</span>inlineStyleRanges<span style="color: #dd1144; ">":[{"</span>offset<span style="color: #dd1144; ">":0,"</span>length<span style="color: #dd1144; ">":18,"</span>style<span style="color: #dd1144; ">":"</span>BOLD<span style="color: #dd1144; ">"},{"</span>offset<span style="color: #dd1144; ">":0,"</span>length<span style="color: #dd1144; ">":18,"</span>style<span style="color: #dd1144; ">":"</span>ITALIC<span style="color: #dd1144; ">"},{"</span>offset<span style="color: #dd1144; ">":0,"</span>length<span style="color: #dd1144; ">":18,"</span>style<span style="color: #dd1144; ">":"</span>UNDERLINE<span style="color: #dd1144; ">"}],"</span>entityRanges<span style="color: #dd1144; ">":[],"</span>data<span style="color: #dd1144; ">":{}}],"</span>entityMap<span style="color: #dd1144; ">":{}}"</span>,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #dd1144; ">"DE:Other Type of Field"</span>: <span style="color: #dd1144; ">"Value"</span>,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br>&nbsp;&nbsp;&nbsp;&nbsp;}<br>}</code></pre> 
@@ -50,7 +53,7 @@ Een blok is een JSON-object dat een enkele regel opgemaakte tekst vertegenwoordi
 
 Voorbeeld: hier wordt elke tekstregel van een aangepast veld toegewezen aan een blokelement in de arrayblokken.
 
-![&#x200B; rijke tekstafbeelding &#x200B;](assets/copy-of-rich-text-mapping-350x159.png)
+![ rijke tekstafbeelding ](assets/copy-of-rich-text-mapping-350x159.png)
 
 Aangezien elk blokelement ook een JSON-object is, bestaat elk blok uit de elementen: key, text, type, depth, inlineStyleRanges, entityRanges en data. Elk van deze elementen werkt als volgt:
 
@@ -63,7 +66,7 @@ Aangezien elk blokelement ook een JSON-object is, bestaat elk blok uit de elemen
 
 Voorbeeld: hier is een inlineStyleRanges-array die elke stijl op tekenniveau beschrijft. In dit geval: 9 tekens (lengte: 9) vanaf index 0 (verschuiving: 0) waarop de stijl Vet is toegepast:
 
-![&#x200B; rijke tekstafbeelding &#x200B;](assets/copy-of-rich-text-mapping-2-350x136.png)
+![ rijke tekstafbeelding ](assets/copy-of-rich-text-mapping-2-350x136.png)
 
 Wanneer meerdere typen opmaak zijn toegepast op één regel, worden stijlen toegewezen aan extra elementen in de array inlineStyleRanges.
 
@@ -120,4 +123,4 @@ De volgende waarden van een RTF-veld opslaan met de Workfront API:
 1. Gebruik de stringify-methode op de JSON die hierboven wordt beschreven om een PUT-aanvraag in te dienen en updates te verzenden.
 
    <!-- [Copy](javascript:void(0);) -->
-   <pre>&lt;OBJ Code>&lt;OBJ ID></pre>
+   <pre><OBJ Code><OBJ ID></pre>

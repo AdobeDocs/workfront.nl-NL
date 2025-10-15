@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 66c1f049-c7b5-4d6b-9dc2-3c5f527764e9
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: a42a167447d2f11b5502e4a0953b5e7eec2e67b1
 workflow-type: tm+mt
-source-wordcount: '222'
+source-wordcount: '199'
 ht-degree: 0%
 
 ---
@@ -25,32 +25,27 @@ Als er groepen zijn boven de groep die u beheert, kunnen hun beheerders dit ook 
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan</td> 
-   <td>Alle</td> 
+   <td>Adobe Workfront-pakket</td> 
+   <td><p>Alle</p></td> 
   </tr> 
   <tr> 
+   <td>Adobe Workfront-licentie</td> 
+   <td><p>Standard</p>
+       <p>Plan</p></td>
+  </tr>
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie</td> 
-   <td><p>Nieuw: Standaard</p>
-       <p>of</p>
-       <p>Huidig: Plan</p></td>
-  </tr> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau</td> 
+   <td>Configuraties op toegangsniveau</td> 
    <td>U moet een groepsbeheerder van de groep of een systeembeheerder zijn.</td>
-  </tr> 
+  </tr>
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -58,14 +53,14 @@ Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van d
 
 {{step-1-to-setup}}
 
-1. In het linkerpaneel, klik **Groepen** ![&#x200B; Groepen &#x200B;](assets/groups-icon.png).
+1. In het linkerpaneel, klik **Groepen** ![ Groepen ](assets/groups-icon.png).
 
    In de lijst die wordt weergegeven, ziet u de groepen die u beheert, samen met eventuele subgroepen die u beheert. Adobe Workfront-beheerders kunnen alle groepen zien.
 
-1. Als u de volledige groep groepen wilt uitvoeren die u beheert, klik het pictogram van de Uitvoer ![&#x200B; Uitvoer &#x200B;](assets/export.png).
+1. Als u de volledige groep groepen wilt uitvoeren die u beheert, klik het pictogram van de Uitvoer ![ Uitvoer ](assets/export.png).
 
    of
 
-   Om sommige groepen uit te voeren u beheert, die groepen selecteert, dan klik het pictogram van de Uitvoer ![&#x200B; Uitvoer &#x200B;](assets/export.png).
+   Om sommige groepen uit te voeren u beheert, die groepen selecteert, dan klik het pictogram van de Uitvoer ![ Uitvoer ](assets/export.png).
 
 1. Selecteer de gewenste bestandsindeling voor de geëxporteerde lijst.

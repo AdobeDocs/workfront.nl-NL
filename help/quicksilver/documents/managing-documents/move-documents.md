@@ -6,9 +6,9 @@ description: Een gebruiker met beheerrechten op een document kan het document na
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 46039017-58b3-4e9d-8dcd-6e1f52d98d27
-source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
+source-git-commit: 4a0448583cbcfd1f1df10d6474fdf4e77e7bff3e
 workflow-type: tm+mt
-source-wordcount: '268'
+source-wordcount: '216'
 ht-degree: 0%
 
 ---
@@ -29,32 +29,32 @@ Wanneer u een document verplaatst, worden ook de volgende elementen verplaatst m
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
-U moet het volgende hebben:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-abonnement*</td> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
    <td> <p> Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licenties*</td> 
-   <td> <p>Aanvraag of hoger</p> </td> 
+   <td role="rowheader">Adobe Workfront-licenties</td> 
+   <td> 
+   <p>Medewerker of hoger</p>
+   <p>Aanvraag of hoger</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot documenten bewerken</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
+   <td> <p>Toegang tot documenten bewerken</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Toegang tot het document beheren</p> <p>Toestemming om Documenten aan het nieuwe voorwerp toe te voegen</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
+   <td> <p>Toegang tot het document beheren</p> <p>Toestemming om Documenten aan het nieuwe voorwerp toe te voegen</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -63,7 +63,7 @@ U moet het volgende hebben:
 1. Ga naar het project, de taak, of de kwestie die het document bevat, dan selecteren **Documenten**.
 1. Zoek het document dat u nodig hebt.
 
-1. Klik het **pictogram van de Beweging ![&#x200B; van de Beweging** &#x200B;](assets/move-document--25x19.png) pictogram.
+1. Klik het **pictogram van de Beweging** van de Beweging ![ ](assets/move-document--25x19.png) pictogram.
 1. Van het drop-down menu in de doos die verschijnt, klik **Uitgeven**, **Project** of **Taak** om op het type van voorwerp te wijzen waar u het document wilt bewegen. 
 
 1. Typ de naam van de **Uitgave**, **Project** of **Taak** in het tekstvakje.

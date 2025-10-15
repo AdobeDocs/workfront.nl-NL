@@ -6,9 +6,9 @@ description: U kunt de huidige actieve stadia bekijken op een proef die een Geau
 author: Courtney
 feature: Digital Content and Documents
 exl-id: db32ca28-d475-4050-b04f-c7c82f79918a
-source-git-commit: f252e3562b8ea73486d407138251b3d15d4b9f3a
+source-git-commit: ac714bd5a5259d6f995ac445efbd0125e07022cb
 workflow-type: tm+mt
-source-wordcount: '188'
+source-wordcount: '114'
 ht-degree: 0%
 
 ---
@@ -21,32 +21,33 @@ U kunt de huidige actieve stadia bekijken op een proef die een Geautomatiseerde 
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-abonnement*</td> 
-   <td> <p>Huidig abonnement: Pro of hoger</p> <p>of</p> <p>Verouderd abonnement: Selecteren of Premium</p> <p>Voor meer informatie over het proefdrukken van toegang met de verschillende plannen, zie <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref"> Toegang tot het proefdrukken van functionaliteit in Workfront </a>.</p> </td> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Huidig plan: Werk of Plan</p> <p>Ouder plan: Willekeurig (proefdrukken moet zijn ingeschakeld voor de gebruiker)</p> </td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td> 
+   <p>Standard</p>
+   <p>Werken of plannen</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Bewijs van machtigingsprofiel </td> 
    <td>Manager of hoger</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot documenten bewerken</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
+   <td> <p>Toegang tot documenten bewerken</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42; om te weten te komen welk plan, rol, of Profiel van de Toestemming van het Bewijs u hebt, contacteer uw beheerder van Workfront of van Workfront Proof.
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

@@ -6,9 +6,9 @@ description: U kunt informatie over projecten, taken, kwesties, en documenten va
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: a53a716f-4faf-4ea7-a4fc-ad8d87634267
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+source-git-commit: a65a4568c6428768ee6bc60a59a8499efdbec9f8
 workflow-type: tm+mt
-source-wordcount: '555'
+source-wordcount: '489'
 ht-degree: 0%
 
 ---
@@ -23,8 +23,6 @@ U kunt informatie over projecten, taken, kwesties, en documenten van de volgende
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -32,29 +30,31 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </col> 
  <tbody> 
   <!--<tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
-   <td> <p>[!UICONTROL Pro] or higher</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] package</td> 
+   <td> <p>Any</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
-   <td> <p>[!UICONTROL Work] or [!UICONTROL Plan]</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] license</td> 
+   <td> 
+   <p>Standard</p>
+   <p>Work or higher</p> </td> 
   </tr> -->
   <tr> 
-   <td role="rowheader">Product</td> 
+   <td role="rowheader">Aanvullende producten</td> 
    <td>U moet een [!DNL Adobe Creative Cloud] licentie hebben naast een [!DNL Workfront] licentie.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>[!UICONTROL View] toegang tot Projecten, Taken, of Kwesties</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de [!DNL Workfront] -beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een [!DNL Workfront] beheerder uw toegangsniveau kan wijzigen, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
+   <td> <p>[!UICONTROL View] toegang tot Projecten, Taken, of Kwesties</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Toegang weergeven tot het object dat u wilt weergeven. </p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
+   <td> <p>Toegang weergeven tot het object dat u wilt weergeven. </p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw [!DNL Workfront] beheerder.
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -66,7 +66,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 1. Klik op het pictogram **[!UICONTROL Menu]** in de rechterbovenhoek en selecteer vervolgens **[!UICONTROL Work List]** . U kunt het menu ook gebruiken om naar bovenliggende objecten te navigeren.
 
-   ![&#x200B; Terugkeer aan de Lijst van het Werk &#x200B;](assets/go-back-to-work-list-350x314.png)
+   ![ Terugkeer aan de Lijst van het Werk ](assets/go-back-to-work-list-350x314.png)
 
 1. Selecteer het werkitem dat u wilt weergeven.
 
@@ -74,7 +74,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    >
    >Gebruik het pictogram **[!UICONTROL Menu]** om naar de bovenliggende objecten van het werkitem te gaan.
 
-1. Klik het **[!UICONTROL Details]** pictogram ![&#x200B; Details &#x200B;](assets/details.png) in de navigatiebar aan mening:
+1. Klik het **[!UICONTROL Details]** pictogram ![ Details ](assets/details.png) in de navigatiebar aan mening:
 
    * [!UICONTROL Description]
    * [!UICONTROL Planned Completion Date]
@@ -87,7 +87,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 1. Klik op het pictogram **[!UICONTROL Menu]** in de rechterbovenhoek en selecteer vervolgens **[!UICONTROL Work List]** . U kunt het menu ook gebruiken om naar bovenliggende objecten te navigeren.
 
-   ![&#x200B; Terugkeer aan de Lijst van het Werk &#x200B;](assets/go-back-to-work-list-350x314.png)
+   ![ Terugkeer aan de Lijst van het Werk ](assets/go-back-to-work-list-350x314.png)
 
 1. Selecteer het werkitem dat u wilt weergeven.
 
@@ -95,7 +95,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    >
    >Gebruik het pictogram **[!UICONTROL Menu]** om naar de bovenliggende objecten van het werkitem te gaan.
 
-1. Klik het **[!UICONTROL Document]** pictogram van het pictogram van het 1&rbrace; Document ![&#128279;](assets/documents.png) in de navigatiebar, dan klik op een document aan mening tweemaal:
+1. Klik het **[!UICONTROL Document]** pictogram van het pictogram van het 1} Document ![ in de navigatiebar, dan klik op een document aan mening tweemaal:](assets/documents.png)
 
    * [!UICONTROL Description]
    * [!UICONTROL File Type]
@@ -108,7 +108,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 1. Klik op het pictogram **[!UICONTROL Menu]** in de rechterbovenhoek en selecteer vervolgens **[!UICONTROL Work List]** . U kunt het menu ook gebruiken om naar bovenliggende objecten te navigeren.
 
-   ![&#x200B; Terugkeer aan de Lijst van het Werk &#x200B;](assets/go-back-to-work-list-350x314.png)
+   ![ Terugkeer aan de Lijst van het Werk ](assets/go-back-to-work-list-350x314.png)
 
 1. Selecteer het werkitem dat u wilt weergeven.
 
@@ -116,17 +116,17 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    >
    >Gebruik het pictogram **[!UICONTROL Menu]** om naar de bovenliggende objecten van het werkitem te gaan.
 
-1. Klik het **[!UICONTROL Document]** pictogram van het pictogram van het 1&rbrace; Document ![&#128279;](assets/documents.png) in de navigatiebar, dan klik op een proef tweemaal.
+1. Klik het **[!UICONTROL Document]** pictogram van het pictogram van het 1} Document ![ in de navigatiebar, dan klik op een proef tweemaal.](assets/documents.png)
 
 1. Klik op het pijlpictogram in de rechterbovenhoek van de miniatuur om de proefdrukdetails te openen in [!DNL Workfront] .
 
-![&#x200B; open de pagina van de proefdrukdetails in Workfront.](assets/go-to-proof-details.png)
+![ open de pagina van de proefdrukdetails in Workfront.](assets/go-to-proof-details.png)
 
 ## De status van een bewijs bekijken
 
 1. Klik op het pictogram **[!UICONTROL Menu]** in de rechterbovenhoek en selecteer vervolgens **[!UICONTROL Work List]** . U kunt het menu ook gebruiken om naar bovenliggende objecten te navigeren.
 
-   ![&#x200B; Terugkeer aan de Lijst van het Werk &#x200B;](assets/go-back-to-work-list-350x314.png)
+   ![ Terugkeer aan de Lijst van het Werk ](assets/go-back-to-work-list-350x314.png)
 
 1. Selecteer het werkitem dat u wilt weergeven.
 
@@ -134,17 +134,17 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    >
    >Gebruik het pictogram **[!UICONTROL Menu]** om naar de bovenliggende objecten van het werkitem te gaan.
 
-1. Klik het **[!UICONTROL Document]** pictogram van het pictogram van het 1&rbrace; Document ![&#128279;](assets/documents.png) in de navigatiebar, dan klik op een proef tweemaal.
+1. Klik het **[!UICONTROL Document]** pictogram van het pictogram van het 1} Document ![ in de navigatiebar, dan klik op een proef tweemaal.](assets/documents.png)
 
-1. Blader naar de onderkant om de huidige status van de proefdruk weer te geven. Voor meer informatie over Verzonden, Geopende, Commentaar, Besluit (SOCD) details, zie [&#x200B; Overzicht van de Details van het Document &#x200B;](/help/quicksilver/documents/managing-documents/document-details-overview.md).
+1. Blader naar de onderkant om de huidige status van de proefdruk weer te geven. Voor meer informatie over Verzonden, Geopende, Commentaar, Besluit (SOCD) details, zie [ Overzicht van de Details van het Document ](/help/quicksilver/documents/managing-documents/document-details-overview.md).
 
-![&#x200B; status van het Bewijs &#x200B;](assets/proof-status.png)
+![ status van het Bewijs ](assets/proof-status.png)
 
 ## Subtaken en problemen weergeven
 
 1. Klik op het pictogram **[!UICONTROL Menu]** in de rechterbovenhoek en selecteer vervolgens **[!UICONTROL Work List]** . U kunt het menu ook gebruiken om naar bovenliggende objecten te navigeren.
 
-   ![&#x200B; Terugkeer aan de Lijst van het Werk &#x200B;](assets/go-back-to-work-list-350x314.png)
+   ![ Terugkeer aan de Lijst van het Werk ](assets/go-back-to-work-list-350x314.png)
 
 1. Selecteer het werkitem dat u wilt weergeven.
 
@@ -152,9 +152,9 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    >
    >Gebruik het pictogram **[!UICONTROL Menu]** om naar de bovenliggende objecten van het werkitem te gaan.
 
-1. Klik het **[!UICONTROL Issue]** pictogram ![&#x200B; pictogram van Kwesties &#x200B;](assets/issues.png) of **subtask** pictogram ![&#x200B; Subtask pictogram &#x200B;](assets/subtasks.png).
+1. Klik het **[!UICONTROL Issue]** pictogram ![ pictogram van Kwesties ](assets/issues.png) of **subtask** pictogram ![ Subtask pictogram ](assets/subtasks.png).
 
-1. Selecteer de taak of de kwestie, dan klik het **[!UICONTROL Details]** pictogram ![&#x200B; Details &#x200B;](assets/details.png) in de navigatiebar aan mening:
+1. Selecteer de taak of de kwestie, dan klik het **[!UICONTROL Details]** pictogram ![ Details ](assets/details.png) in de navigatiebar aan mening:
 
    * [!UICONTROL Planned Completion Date]
    * [!UICONTROL Status]

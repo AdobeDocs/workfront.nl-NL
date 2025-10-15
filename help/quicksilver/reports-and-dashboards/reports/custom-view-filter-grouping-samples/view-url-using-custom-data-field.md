@@ -7,9 +7,9 @@ description: U kunt een koppeling naar een interne aangepaste URL weergeven door
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 5e402fed-71ce-438a-8da9-8f8d37550ea8
-source-git-commit: 6a1152bb86a856d60585db7d6ffd43a59a212a72
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '547'
+source-wordcount: '526'
 ht-degree: 0%
 
 ---
@@ -32,50 +32,39 @@ Met dezelfde stappen kunt u vergelijkbare berekende aangepaste velden en aangepa
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan</td> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie</td> 
-   <td> <p> Huidige: 
-   <ul>
-   <li>Verzoek om een weergave te wijzigen</li> 
-   <li>Plan om een rapport te wijzigen</li>
-   </ul>
-     </p>
-     <p> Nieuw: 
-   <ul>
-   <li>Medewerker om een weergave te wijzigen</li> 
-   <li>Standaard voor het wijzigen van een rapport</li>
-   </ul>
-     </p>
-    </td> 
+   <td> 
+   <p>Medewerker of verzoek om een weergave te wijzigen </p>
+   <p>Standaard of Plan om een rapport te wijzigen</p>
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau*</td> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
    <td> <p>Toegang tot rapporten, dashboards, kalenders bewerken om een rapport te wijzigen</p> <p>Toegang tot filters, weergaven en groepen bewerken om een weergave te wijzigen</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Machtigingen beheren voor een rapport</p> </td> 
+   <td> <p>Machtigingen beheren voor een rapport</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
 
 +++
 
 ## Het berekende aangepaste veld Aangepaste URL maken
 
-Voor informatie over het creëren van een berekend douanegebied, zie [&#x200B; berekende gebieden aan een vorm &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) toevoegen.
+Voor informatie over het creëren van een berekend douanegebied, zie [ berekende gebieden aan een vorm ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) toevoegen.
 
 Als u toegang hebt om een aangepast formulier te maken, kunt u een berekend aangepast veld maken voor taken die &#39;Aangepaste URL&#39; worden genoemd. Dit gebied verbindt direct met het **Overzicht** subtab binnen de **Details van de Taak** tabel.
 
@@ -84,7 +73,7 @@ Als u toegang hebt om een aangepast formulier te maken, kunt u een berekend aang
 
    CONCAT(&#39;&#39;https://`<domain>`.my.workfront.com&#39;,&#39;/&#39;,&#39;&#39;task/&#39;,ID,&#39;/overview&#39;&#39;)
 
-1. Vervang &quot;`<domain>`&quot;met uw daadwerkelijke domeinnaam, zonder de steunen. Het `/overview` gedeelte van dit URL leidt de verbinding aan de **2&rbrace; sectie van het Overzicht &lbrace;in het linkerpaneel van de taak.**
+1. Vervang &quot;`<domain>`&quot;met uw daadwerkelijke domeinnaam, zonder de steunen. Het `/overview` gedeelte van dit URL leidt de verbinding aan de **2} sectie van het Overzicht {in het linkerpaneel van de taak.**
 
 1. Na het creëren van uw **Berekend Gebied van de Douane**, maak de **Vorm van de Douane** met dit gebied aan verscheidene taken in Adobe Workfront vast die u vertoning in uw nieuwe mening wilt.
 
@@ -146,6 +135,6 @@ Deze weergave aanpassen:
    column.2.width=150
    ```
 
-   In dit voorbeeld wordt &#39;&#39;column.1&#39;&#39; De lijnen tonen de waarde op het gebied van de &quot;Douane URL&quot;als verbinding in het 0&rbrace; Overzicht van de taak **sectie; &quot;column.2.&quot;** toont de waarde die in het **wordt opgeslagen gebied URL** van de taak.
+   In dit voorbeeld wordt &#39;&#39;column.1&#39;&#39; De lijnen tonen de waarde op het gebied van de &quot;Douane URL&quot;als verbinding in het 0} Overzicht van de taak **sectie; &quot;column.2.&quot;** toont de waarde die in het **wordt opgeslagen gebied URL** van de taak.
 
 1. Klik **Gedaan** > **sparen Mening**.

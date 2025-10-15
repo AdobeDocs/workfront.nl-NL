@@ -7,7 +7,7 @@ description: Als bedrijfsmanager, kunt u de Planner van het Scenario van Adobe W
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: df2b895b-8bc1-4a55-b0d7-8a06db420315
-source-git-commit: 7cfe82eb703e2a043c264cf86c0e5424d1e33d78
+source-git-commit: 3f53cb49bbe8de21c42ec557fd367490f8ae8956
 workflow-type: tm+mt
 source-wordcount: '1140'
 ht-degree: 0%
@@ -20,7 +20,7 @@ Als bedrijfsmanager, kunt u [!DNL Adobe Workfront Scenario Planner] gebruiken om
 
 ## Toegangsvereisten
 
-Voor informatie over toegangsvereisten om tot de Planner van het Scenario toegang te hebben, zie [&#x200B; Toegang nodig om de Planner van het Scenario te gebruiken &#x200B;](/help/quicksilver/scenario-planner/access-needed-to-use-sp.md).
+Voor informatie over toegangsvereisten om tot de Planner van het Scenario toegang te hebben, zie [ Toegang nodig om de Planner van het Scenario te gebruiken ](/help/quicksilver/scenario-planner/access-needed-to-use-sp.md).
 
 ## Overzicht van plannen
 
@@ -30,7 +30,7 @@ Voor informatie over toegangsvereisten om tot de Planner van het Scenario toegan
 
 U kunt elk organisatieresultaat op hoog niveau identificeren en dit als een plan toevoegen aan de [!DNL Workfront Scenario Planner] . Een plan is het grootste het werkpunt in [!DNL Scenario Planner]. Om het gemakkelijker te maken om het plan te verwezenlijken, kunt u het in verscheidene initiatieven verdelen, om te wijzen welke stappen individuele organisatorische eenheden moeten nemen om tot zijn voltooiing te komen.
 
-U kunt initiatieven dan met echte projecten verbinden om erop te wijzen hoe de echte het werkfactoren in de daadwerkelijke voltooiing van het plan. Dit artikel bevat algemene informatie over plannen. Voor informatie over initiatieven, zie [&#x200B; Overzicht van Initiatieven in  [!DNL Scenario Planner]](../scenario-planner/initiatives-overview.md).
+U kunt initiatieven dan met echte projecten verbinden om erop te wijzen hoe de echte het werkfactoren in de daadwerkelijke voltooiing van het plan. Dit artikel bevat algemene informatie over plannen. Voor informatie over initiatieven, zie [ Overzicht van Initiatieven in  [!DNL Scenario Planner]](../scenario-planner/initiatives-overview.md).
 
 U kunt de benodigde arbeids- en financiële middelen definiëren om het werk dat in het plan wordt genoemd, te voltooien. U kunt ook de arbeids- en financiële middelen bekijken die de initiatieven in het plan nodig hebben om ze te kunnen voltooien.
 
@@ -43,9 +43,9 @@ U kunt de volgende informatie voor elk abonnement schatten en herzien:
 * Herzie de Netto Waarde van het plan op om het even welk bepaald tijdstip.
 * De plan-vlakke informatie verandert wanneer u verschillende scenario&#39;s selecteert. Elk scenario heeft verschillende begroting en mensen informatie.
 
-Voor informatie over het creëren van plannen, zie het artikel [&#x200B; plannen in  [!DNL Scenario Planner]](../scenario-planner/create-and-edit-plans.md) creëren en uitgeven.
+Voor informatie over het creëren van plannen, zie het artikel [ plannen in  [!DNL Scenario Planner]](../scenario-planner/create-and-edit-plans.md) creëren en uitgeven.
 
-Voor informatie over het creëren van scenario&#39;s, zie [&#x200B; planscenario&#39;s in  [!DNL Scenario Planner]](../scenario-planner/create-and-compare-scenarios-for-a-plan.md) creëren en vergelijken.
+Voor informatie over het creëren van scenario&#39;s, zie [ planscenario&#39;s in  [!DNL Scenario Planner]](../scenario-planner/create-and-compare-scenarios-for-a-plan.md) creëren en vergelijken.
 
 ## Overwegingen bij plannen
 
@@ -54,15 +54,15 @@ Houd rekening met het volgende wanneer u plannen maakt:
 * U kunt plannen voor een team, een volledige afdeling, of zelfs uw volledig bedrijf bouwen. De plannen zijn grote planningseenheden die de strategie van een bedrijf op hoog niveau schetsen.
 * Het kortste plan kan een duur van één jaar hebben. Het langste plan kan een duur van 5 jaar hebben.
 * U kunt geen echt werk aan een plan doen. U kunt ruwweg inschatten of u de middelen en het budget hebt nodig om met planningswerk te beginnen. Bijvoorbeeld, als uw bedrijf een nieuw bureau in een nieuwe plaats wil uitbreiden en verwerven, de stappen die worden vereist om te verwezenlijken die eerst in een plan op het hoger-beheersniveau kunnen worden geschetst.
-* U kunt veelvoudige scenario&#39;s van het zelfde plan tot stand brengen. Wanneer uw oorspronkelijke plan teveel conflicterende initiatieven heeft, zult u verscheidene scenario&#39;s willen creëren waar u initiatieven of begrotingen en kosten kunt uitgeven om te zien wat de ideale situatie voor het verwezenlijken van het plan is. Initiatieven kunnen met elkaar in conflict komen wanneer ze dezelfde bronnen proberen te gebruiken tijdens hetzelfde tijdsbestek. U kunt dan scenario&#39;s vergelijken om te zien wat het meest steek houdt en welke één uw bedrijf zou moeten goedkeuren, alvorens zij beginnen het daadwerkelijke werk toe te voegen om het te verwezenlijken. Voor informatie over het creëren van scenario&#39;s, zie artikel [&#x200B; planscenario&#39;s in  [!DNL Scenario Planner]](../scenario-planner/create-and-compare-scenarios-for-a-plan.md) creëren en vergelijken.
-* U kunt meerdere initiatieven toevoegen aan een plan om aan te geven hoe kleinere planningseenheden zullen bijdragen aan de voltooiing van het plan. Bijvoorbeeld, wanneer u van plan bent om zich in een specifieke markt uit te breiden, kunt u veelvoudige initiatieven op het afdelingsniveau hebben die uiteindelijk tot het verwezenlijken van de uitbreiding op alle niveaus van de organisatie bijdragen. Voor informatie over het creëren van initiatieven, zie het artikel [&#x200B; initiatieven in  [!DNL Scenario Planner]](../scenario-planner/create-and-edit-initiatives.md) creëren en uitgeven.
+* U kunt veelvoudige scenario&#39;s van het zelfde plan tot stand brengen. Wanneer uw oorspronkelijke plan teveel conflicterende initiatieven heeft, zult u verscheidene scenario&#39;s willen creëren waar u initiatieven of begrotingen en kosten kunt uitgeven om te zien wat de ideale situatie voor het verwezenlijken van het plan is. Initiatieven kunnen met elkaar in conflict komen wanneer ze dezelfde bronnen proberen te gebruiken tijdens hetzelfde tijdsbestek. U kunt dan scenario&#39;s vergelijken om te zien wat het meest steek houdt en welke één uw bedrijf zou moeten goedkeuren, alvorens zij beginnen het daadwerkelijke werk toe te voegen om het te verwezenlijken. Voor informatie over het creëren van scenario&#39;s, zie artikel [ planscenario&#39;s in  [!DNL Scenario Planner]](../scenario-planner/create-and-compare-scenarios-for-a-plan.md) creëren en vergelijken.
+* U kunt meerdere initiatieven toevoegen aan een plan om aan te geven hoe kleinere planningseenheden zullen bijdragen aan de voltooiing van het plan. Bijvoorbeeld, wanneer u van plan bent om zich in een specifieke markt uit te breiden, kunt u veelvoudige initiatieven op het afdelingsniveau hebben die uiteindelijk tot het verwezenlijken van de uitbreiding op alle niveaus van de organisatie bijdragen. Voor informatie over het creëren van initiatieven, zie het artikel [ initiatieven in  [!DNL Scenario Planner]](../scenario-planner/create-and-edit-initiatives.md) creëren en uitgeven.
 * Wanneer u een plan creeert, bent u de enige persoon die het kan bekijken. U moet het plan met andere gebruikers en zij kunnen tot het toegang hebben als zij minstens de toegang van de Mening tot [!DNL Scenario Planner] in hun toegangsniveau hebben.
 
 ## Functierolinformatie voor plannen
 
 U kunt de algemene informatie van de baanrol voor plannen herzien die op de hoeveelheid baanrollen beschikbaar voor het plan, evenals de hoeveelheid baanrollen wijst die voor de initiatieven worden vereist om te voltooien. U kunt deze informatie bekijken in het vak [!UICONTROL Job Roles] in de koptekst van het abonnement.
 
-![&#x200B; de roldoos van de Baan op plan &#x200B;](assets/job-role-box-on-plan-not-expanded-fte-350x141.png)
+![ de roldoos van de Baan op plan ](assets/job-role-box-on-plan-not-expanded-fte-350x141.png)
 
 U kunt het volgende weergeven in het vak met de taakrol:
 
@@ -72,13 +72,13 @@ U kunt het volgende weergeven in het vak met de taakrol:
 | [!UICONTROL Available] | Het aantal banen rol FTEs of uren die voor het huidige scenario beschikbaar zijn. |
 | Vereist | Het aantal banen rol FTEs of uren die door alle initiatieven in het huidige scenario worden vereist zodat zij kunnen worden voltooid. |
 
-Voor informatie over de toegang tot van een plan en het bekijken van gedetailleerde informatie over baanrollen, zie [&#x200B; plannen in  [!DNL Scenario Planner]](../scenario-planner/create-and-edit-plans.md) creëren en uitgeven.
+Voor informatie over de toegang tot van een plan en het bekijken van gedetailleerde informatie over baanrollen, zie [ plannen in  [!DNL Scenario Planner]](../scenario-planner/create-and-edit-plans.md) creëren en uitgeven.
 
 ## Financiële informatie voor plannen
 
 U kunt financiële informatie over een plan, specifiek zijn gepland budget, bekijken hoe dat budget wordt gebruikt en wat de Netto Waarde van het plan is. De Nettowaarde van een plan is gebaseerd op de Netto Waarde van zijn initiatieven. U kunt deze informatie weergeven in de vakken [!UICONTROL Financial] en [!UICONTROL Summary] in de koptekst van het abonnement.
 
-![&#x200B; Begroting en netto waardedozen &#x200B;](assets/budget-net-value-boxes-on-plan-not-expanded-350x86.png)
+![ Begroting en netto waardedozen ](assets/budget-net-value-boxes-on-plan-not-expanded-350x86.png)
 
 U kunt het volgende weergeven in de vakken [!UICONTROL Financial] en [!UICONTROL Summary] op het abonnement:
 
@@ -105,6 +105,6 @@ U kunt het volgende weergeven in de vakken [!UICONTROL Financial] en [!UICONTROL
  </tbody> 
 </table>
 
-Voor informatie over de toegang tot van een plan en het bekijken van gedetailleerde financiële informatie over het, zie [&#x200B; plannen in  [!DNL Scenario Planner]](../scenario-planner/create-and-edit-plans.md) creëren en uitgeven.
+Voor informatie over de toegang tot van een plan en het bekijken van gedetailleerde financiële informatie over het, zie [ plannen in  [!DNL Scenario Planner]](../scenario-planner/create-and-edit-plans.md) creëren en uitgeven.
 
 

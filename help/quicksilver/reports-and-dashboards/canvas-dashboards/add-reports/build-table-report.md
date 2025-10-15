@@ -6,9 +6,9 @@ description: U kunt een lijstrapport aan een Dashboard van het Canvas toevoegen 
 author: Courtney and Jenny
 feature: Reports and Dashboards
 exl-id: a7aa8614-6e80-4fc1-88ff-d952d87ddcbc
-source-git-commit: 56d0b9281387cc7b35055461e7868c7e4a194f81
+source-git-commit: 1059950dd3b20e0959c626e580f958bed5076541
 workflow-type: tm+mt
-source-wordcount: '1070'
+source-wordcount: '1074'
 ht-degree: 0%
 
 ---
@@ -17,9 +17,9 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->De functie Canvasdashboards is momenteel alleen beschikbaar voor gebruikers die deelnemen aan de bètafase. Onderdelen van het onderdeel zijn mogelijk niet compleet of werken niet zoals bedoeld in deze fase. Gelieve te dienen om het even welke terugkoppelen betreffende uw ervaring door de instructies in [&#x200B; te volgen verstrekt &#x200B;](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) sectie in het de bètaoverzichtsartikel van de dashboards van het Canvas.<br>
->&#x200B;>Als u feedback hebt over een mogelijk probleem met een probleem of een technisch probleem, stuurt u een ticket naar Workfront Support. Voor meer informatie, zie [&#x200B; de Steun van de Klant van het Contact &#x200B;](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
->&#x200B;>Deze bètaversie is niet beschikbaar op de volgende cloudproviders:
+>De functie Canvasdashboards is momenteel alleen beschikbaar voor gebruikers die deelnemen aan de bètafase. Onderdelen van het onderdeel zijn mogelijk niet compleet of werken niet zoals bedoeld in deze fase. Gelieve te dienen om het even welke terugkoppelen betreffende uw ervaring door de instructies in [ te volgen verstrekt ](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) sectie in het de bètaoverzichtsartikel van de dashboards van het Canvas.<br>
+>>Als u feedback hebt over een mogelijk probleem met een probleem of een technisch probleem, stuurt u een ticket naar Workfront Support. Voor meer informatie, zie [ de Steun van de Klant van het Contact ](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
+>>Deze bètaversie is niet beschikbaar op de volgende cloudproviders:
 >
 >* Je eigen sleutel voor Amazon Web Services
 >* Azure
@@ -27,11 +27,11 @@ ht-degree: 0%
 
 U kunt een lijstrapport aan een Dashboard van het Canvas toevoegen om uw gegevens in een lijstformaat te visualiseren.
 
-![&#x200B; het rapportvoorbeeld van de Lijst &#x200B;](assets/table-example-main.png)
+![ het rapportvoorbeeld van de Lijst ](assets/table-example-main.png)
 
 ## Toegangsvereisten
 
-+++ Vouw uit om de vereisten voor toegang weer te geven. 
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 <table style="table-layout:auto"> 
 <col> 
@@ -40,7 +40,7 @@ U kunt een lijstrapport aan een Dashboard van het Canvas toevoegen om uw gegeven
 </col> 
 <tbody> 
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront-plan</p></td> 
+   <td role="rowheader"><p>Adobe Workfront-pakket</p></td> 
    <td> 
 <p>Alle </p> 
    </td> 
@@ -48,8 +48,8 @@ U kunt een lijstrapport aan een Dashboard van het Canvas toevoegen om uw gegeven
  <tr> 
    <td role="rowheader"><p>Adobe Workfront-licentie</p></td> 
    <td> 
-<p>Huidig: Plan </p> 
-<p>Nieuw: Standaard</p> 
+<p>Standard </p> 
+<p>Plan</p> 
    </td> 
    </tr> 
   </tr> 
@@ -61,7 +61,7 @@ U kunt een lijstrapport aan een Dashboard van het Canvas toevoegen om uw gegeven
 </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 +++
 
 ## Vereisten
@@ -79,7 +79,7 @@ Er zijn vele configuratieopties beschikbaar voor het bouwen van een lijstrapport
 
 1. Klik **Nieuw Dashboard** in de hoger-juiste hoek.
 
-1. In **creeer dashboard** doos, ga de 2&rbrace; Naam van het dashboard **en** Beschrijving **in.**
+1. In **creeer dashboard** doos, ga de 2} Naam van het dashboard **en** Beschrijving **in.**
 
 1. Klik **creëren**.
 
@@ -97,7 +97,7 @@ Er zijn vele configuratieopties beschikbaar voor het bouwen van een lijstrapport
 
 1. Volg hieronder de stappen om de **bouwt lijst** sectie te vormen:
 
-   1. In het linkerpaneel, klik de **kolommen van de Lijst** ![&#x200B; bouwt lijstpictogram &#x200B;](assets/drilldown-column.png) pictogram.
+   1. In het linkerpaneel, klik de **kolommen van de Lijst** ![ bouwt lijstpictogram ](assets/drilldown-column.png) pictogram.
 
    1. Klik **toevoegen kolom** en selecteer dan het gebied u als kolom in de lijst wilt tonen. De kolom verschijnt in de voorproefsectie op het recht.
 
@@ -107,7 +107,7 @@ Er zijn vele configuratieopties beschikbaar voor het bouwen van een lijstrapport
 
 1. Volg hieronder de stappen om de **sectie van de Filter** te vormen:
 
-   1. In het linkerpaneel, klik het **pictogram van de Filter** ![&#x200B; van de Filter &#x200B;](assets/filter-icon.png).
+   1. In het linkerpaneel, klik het **pictogram van de Filter** ![ van de Filter ](assets/filter-icon.png).
 
    1. Selecteer **filter uitgeven**.
 
@@ -117,7 +117,7 @@ Er zijn vele configuratieopties beschikbaar voor het bouwen van een lijstrapport
 
 1. Volg hieronder de stappen om de **sectie van de Montages van de Groep van de Drilldown** te vormen:
 
-   1. In het linkerpaneel, klik het **&#x200B;**&#x200B;pictogram van de montages van de Groep ![&#x200B; van de Montages van de Groep &#x200B;](assets/drilldown-group-icon.png).
+   1. In het linkerpaneel, klik het **** pictogram van de montages van de Groep ![ van de Montages van de Groep ](assets/drilldown-group-icon.png).
 
    1. Klik **toevoegen groeperend** knoop en dan het gebied selecteren u als groepering wilt tot stand brengen. De kolom voor cijfergroepering wordt weergegeven in de voorbeeldsectie aan de rechterkant.
 
@@ -127,7 +127,7 @@ Er zijn vele configuratieopties beschikbaar voor het bouwen van een lijstrapport
 
 In deze sectie gaan we door met de stappen om een tabelrapport te maken dat goedkeuringen voor in behandeling zijnde documenten weergeeft.
 
-Voor meer informatie over de voorbeelden van het lijstrapport, zie [&#x200B; een rapportdashboard voor overzicht en goedkeuringen &#x200B;](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md) creëren.
+Voor meer informatie over de voorbeelden van het lijstrapport, zie [ een rapportdashboard voor overzicht en goedkeuringen ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md) creëren.
 
 {{step1-to-dashboards}}
 
@@ -135,7 +135,7 @@ Voor meer informatie over de voorbeelden van het lijstrapport, zie [&#x200B; een
 
 1. Klik **Nieuw Dashboard** in de hoger-juiste hoek.
 
-1. In **creeer dashboard** doos, ga de 2&rbrace; Naam van het dashboard **en** Beschrijving **in.**
+1. In **creeer dashboard** doos, ga de 2} Naam van het dashboard **en** Beschrijving **in.**
 
 1. Klik **creëren**.
 
@@ -152,7 +152,7 @@ Voor meer informatie over de voorbeelden van het lijstrapport, zie [&#x200B; een
 
 1. Volg hieronder de stappen om de **bouwt lijst** sectie te vormen:
 
-   1. In het linkerpaneel, klik het **kolommen van de Lijst** ![&#x200B; pictogram van de kolommen van de Lijst &#x200B;](assets/drilldown-column.png).
+   1. In het linkerpaneel, klik het **kolommen van de Lijst** ![ pictogram van de kolommen van de Lijst ](assets/drilldown-column.png).
    1. Klik **toevoegen kolom**.
    1. De rol neer en selecteert **Goedkeuringen van het Document** > **Status**.
    1. Voeg de volgende kolommen toe:
@@ -193,12 +193,12 @@ Voor meer informatie over de voorbeelden van het lijstrapport, zie [&#x200B; een
 
 
 1. Volg hieronder de stappen om de **sectie van de Filter** te vormen:
-   1. In het linkerpaneel, klik het **&#x200B;**&#x200B;pictogram van het filterlusje van de Filter ![&#x200B; pictogram.](assets/filter-tab.png)
+   1. In het linkerpaneel, klik het **** pictogram van het filterlusje van de Filter ![ pictogram.](assets/filter-tab.png)
    1. Klik **uitgeven Filter**, dan **voeg voorwaarde** toe.
    1. Klik in de lege voorwaardenfilter, dan klik **kiezen een Gebied**.
    1. Selecteer **Status**.
    1. Verander de exploitant in **Gelijk**, dan type _in afwachting van goedkeuring_ in textbox.
-      ![&#x200B; hangende het filtervoorbeeld van de goedkeuringstabel &#x200B;](assets/pending-approval-table-filter.png)
+      ![ hangende het filtervoorbeeld van de goedkeuringstabel ](assets/pending-approval-table-filter.png)
    1. (Facultatief) voeg extra filters toe zoals die in de **Facultatieve hieronder sectie van filters** worden beschreven.
 1. Klik **sparen** in de hoger-juiste hoek van het scherm.
 
@@ -212,7 +212,7 @@ De **secties** drop-down in de **bouwt lijst** sectie wordt ontworpen om de keuz
 * **de Voorwerpen van Workfront**: De inheemse voorwerpen van het Werkschema van Workfront.
 * **de Types van Verslag van de Planning**: De verslagtypes van Douane die in de Planning van Workfront worden bepaald.
 
-![&#x200B; drop-down Secties &#x200B;](assets/sections-dropdown.png)
+![ drop-down Secties ](assets/sections-dropdown.png)
 
 Zodra het voorwerp van de basisentiteit is geselecteerd, **secties** drop-down dan werkt met toepasselijke gebiedstype opties bij om van te kiezen.
 
@@ -222,7 +222,7 @@ Zodra het voorwerp van de basisentiteit is geselecteerd, **secties** drop-down d
 * **de Gebieden van Workfront**: Eigen gebieden slechts.
 * **Verhoudingen**: Verbonden verslagen.
 
-![&#x200B; Te Rapporteren objecten selectie &#x200B;](assets/reportable-objects-selection.png)
+![ Te Rapporteren objecten selectie ](assets/reportable-objects-selection.png)
 
 ### Verwijzen naar onderliggende objecten
 

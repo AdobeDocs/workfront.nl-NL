@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: b22c4955-c3f2-4841-a278-bb40e8890ed9
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: b102960e088f072f10baadcbeca4f7f579daa287
 workflow-type: tm+mt
-source-wordcount: '876'
+source-wordcount: '813'
 ht-degree: 0%
 
 ---
@@ -26,13 +26,50 @@ ht-degree: 0%
 U kunt records koppelen aan unieke miniaturen in Adobe Workfront Planning, zodat ze gemakkelijk herkenbaar zijn.
 
 U moet recordtypen maken voordat u records kunt maken en bewerken.
-Voor informatie, zie [&#x200B; recordtypes &#x200B;](/help/quicksilver/planning/architecture/create-record-types.md) creëren.
+Voor informatie, zie [ recordtypes ](/help/quicksilver/planning/architecture/create-record-types.md) creëren.
 
 ## Toegangsvereisten
 
 <!--************double-check permissions here - asking Isk and Lilit what permissions users need for adding thumbnails-->
 
-+++ Vouw uit om de vereisten voor toegang weer te geven.
++++ Breid uit om de toegangsvereisten voor de functionaliteit in dit artikel te bekijken. 
+
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+    <tr> 
+<tr> 
+</tr>   
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront-pakket</p></td> 
+   <td> 
+<ul> 
+<li><p>Alle Workfront en alle planningspakketten</p></li>
+of
+<li><p>Alle workflows en planningspakketten</li></ul>
+<p>Neem voor meer informatie over wat er in elk planningspakket voor Workfront staat, contact op met uw Workfront-accountvertegenwoordiger. </p> 
+   </td> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront-licentie</p></td> 
+   <td><p>Standard</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Objectmachtigingen</p></td> 
+   <td>   <p>Contribute of hoger machtigingen voor een werkruimte en recordtype  </p>  
+   <p>Systeembeheerders hebben machtigingen voor alle werkruimten, inclusief de werkruimten die ze niet hebben gemaakt</p> </td> 
+  </tr>   
+</tbody> 
+</table>
+
+Voor meer informatie over de toegangsvereisten van Workfront, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++   
+
+<!--Old:
 
 <table style="table-layout:auto"> 
 <col> 
@@ -43,56 +80,52 @@ Voor informatie, zie [&#x200B; recordtypes &#x200B;](/help/quicksilver/planning/
     <tr> 
 <tr> 
 <td> 
-   <p> Producten</p> </td> 
+   <p> Products</p> </td> 
    <td> 
    <ul><li><p> Adobe Workfront</p></li> 
    <li><p> Adobe Workfront Planning<p></li></ul></td> 
   </tr>   
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront-abonnement*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront plan*</p></td> 
    <td> 
-<p>Een van de volgende Workfront-plannen:</p> 
-<ul><li>Selecteren</li> 
+<p>Any of the following Workfront plans:</p> 
+<ul><li>Select</li> 
 <li>Prime</li> 
 <li>Ultimate</li></ul> 
-<p>Workfront Planning is niet beschikbaar voor oudere Workfront-plannen</p> 
+<p>Workfront Planning is not available for legacy Workfront plans</p> 
    </td> 
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront-planningspakket*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront Planning package*</p></td> 
    <td> 
-<p>Alle </p> 
-<p>Neem contact op met uw Workfront-accountmanager voor meer informatie over wat er in elk Workfront-planningsplan is opgenomen. </p> 
+<p>Any </p> 
+<p>For more information about what is included in each Workfront Planning plan, contact your Workfront account manager. </p> 
    </td> 
  <tr> 
-   <td role="rowheader"><p>Adobe Workfront-platform</p></td> 
+   <td role="rowheader"><p>Adobe Workfront platform</p></td> 
    <td> 
-<p>Het geval van Workfront van uw organisatie moet aan de Verenigde Ervaring van Adobe worden genegeerd om tot de Planning van Workfront te kunnen toegang hebben.</p> 
-<p>Voor meer informatie, zie <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md"> Adobe Verenigde Ervaring voor Workfront </a>. </p> 
+<p>Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience to be able to access Workfront Planning.</p> 
+<p>For more information, see <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p> 
    </td> 
    </tr> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront-licentie*</p></td> 
-   <td><p> Standaard </p>
-   <p>Workfront Planning is niet beschikbaar voor oudere Workfront-licenties</p> 
+   <td role="rowheader"><p>Adobe Workfront license*</p></td> 
+   <td><p> Standard </p>
+   <p>Workfront Planning is not available for legacy Workfront licenses</p> 
   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Configuratie op toegangsniveau</p></td> 
-   <td> <p>Er zijn geen toegangsniveaucontroles voor de Planning van Adobe Workfront</p>   
+   <td role="rowheader"><p>Access level configuration</p></td> 
+   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
 </td> 
   </tr> 
 <tr> 
-   <td role="rowheader"><p>Objectmachtigingen</p></td> 
-   <td>   <p>Contribute of hoger machtigingen voor een werkruimte en recordtype  </p>  
-   <p>Systeembeheerders hebben machtigingen voor alle werkruimten, inclusief de werkruimten die ze niet hebben gemaakt</p> </td> 
+   <td role="rowheader"><p>Object permissions</p></td> 
+   <td>   <p>Contribute or higher permissions to a workspace and record type  </p>  
+   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p> </td> 
   </tr> 
 </tbody> 
-</table>
-
-*Voor meer informatie over de toegangsvereisten van Workfront, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
-
-+++
+</table> -->
 
 
 ## Overwegingen bij het opnemen van miniaturen
@@ -127,9 +160,9 @@ U kunt op de volgende manieren een miniatuur toevoegen:
 
    Hierdoor wordt de pagina met recordtypen geopend.
 1. Selecteer een lijstmening van het **drop-down menu van de Mening**. Alle verslagen van het type u selecteerde tonen in een lijst.
-1. Beweeg over de primaire gebiedsinformatie, klik **Meer** menu ![&#x200B; Meer menu &#x200B;](assets/more-menu.png), dan klik **Duimnagel**.
+1. Beweeg over de primaire gebiedsinformatie, klik **Meer** menu ![ Meer menu ](assets/more-menu.png), dan klik **Duimnagel**.
 
-   ![&#x200B; Verslag meer uitgevouwen menu &#x200B;](assets/record-more-menu-expanded.png)
+   ![ Verslag meer uitgevouwen menu ](assets/record-more-menu-expanded.png)
 
    >[!TIP]
    >
@@ -137,7 +170,7 @@ U kunt op de volgende manieren een miniatuur toevoegen:
 
    Het **uploadt** lusje opent door gebrek in de **duimnagel van het Verslag** doos.
 
-   Voor meer informatie over het uploaden van de duimnagel, zie de sectie [&#x200B; een duimnagel aan een verslag van de detailspagina &#x200B;](#add-a-thumbnail-to-a-record-from-the-details-page) in dit artikel, beginnend met Stap 6 toevoegen. <!--see if this is accurate-->
+   Voor meer informatie over het uploaden van de duimnagel, zie de sectie [ een duimnagel aan een verslag van de detailspagina ](#add-a-thumbnail-to-a-record-from-the-details-page) in dit artikel, beginnend met Stap 6 toevoegen. <!--see if this is accurate-->
 
 <!--
    ![Record thumbnail box for upload](assets/record-thumbnail-box-for-upload.png) 
@@ -175,15 +208,15 @@ U kunt op de volgende manieren een miniatuur toevoegen:
 1. Klik vanuit een willekeurige weergave op een record om deze te openen.
 
    Het detailvoorbeeld wordt weergegeven.
-1. (Facultatief) klik **Open in nieuw lusje** pictogram ![&#x200B; Open details in een nieuw lusjepictogram &#x200B;](assets/open-details-in-a-new-tab-icon.png) in de hoger-juiste hoek.
+1. (Facultatief) klik **Open in nieuw lusje** pictogram ![ Open details in een nieuw lusjepictogram ](assets/open-details-in-a-new-tab-icon.png) in de hoger-juiste hoek.
 
    De detailpagina van de record wordt geopend.
 
-1. (Voorwaardelijk) in de verslagvoorproef of detailspagina, houd over het duimnagelbeeld of pictogram van het pictogram ![&#x200B; duimnagel van het Verslag op detailspagina &#x200B;](assets/record-thumbnail-icon-on-details-page.png), dan klap over de ruimte boven de verslagnaam, dan klik **duimnagel** toevoegen of **geeft duimnagel** uit.
+1. (Voorwaardelijk) in de verslagvoorproef of detailspagina, houd over het duimnagelbeeld of pictogram van het pictogram ![ duimnagel van het Verslag op detailspagina ](assets/record-thumbnail-icon-on-details-page.png), dan klap over de ruimte boven de verslagnaam, dan klik **duimnagel** toevoegen of **geeft duimnagel** uit.
 
    Het **uploadt** lusje opent door gebrek in de **duimnagel van het Verslag** doos.
 
-   ![&#x200B; de duimnageldoos van het Verslag voor upload &#x200B;](assets/record-thumbnail-box-for-upload.png)
+   ![ de duimnageldoos van het Verslag voor upload ](assets/record-thumbnail-box-for-upload.png)
 
 1. Een bestand slepen en neerzetten om als miniatuur toe te voegen
 
@@ -192,12 +225,12 @@ U kunt op de volgende manieren een miniatuur toevoegen:
    Klik **doorbladert beelden**, dan doorblader voor een beelddossier om toe te voegen. Het bestand moet op uw computer worden opgeslagen.
 
 1. (Facultatief) na het beeld uploadt in de **duimnagel van het Verslag** doos, gebruik het het rangschikken hulpmiddel om het beeld uit te snijden en resize.
-1. (Optioneel) Klik op het pictogram **Nieuwe afbeelding uploaden** ![&#x200B; om een ander beeld te uploaden.](assets/upload-new-image-icon.png)
+1. (Optioneel) Klik op het pictogram **Nieuwe afbeelding uploaden** ![ om een ander beeld te uploaden.](assets/upload-new-image-icon.png)
 1. (Facultatief) klik de **Galerij** tabel, dan klik een beeld. De galerie met afbeeldingen kan niet worden gewijzigd.
 
-   ![&#x200B; de duimnageldoos van het Verslag voor galerij &#x200B;](assets/record-thumbnail-box-for-gallery.png)
+   ![ de duimnageldoos van het Verslag voor galerij ](assets/record-thumbnail-box-for-gallery.png)
 
-1. (Facultatief) om de duimnagel te verwijderen alvorens het wordt bewaard, **verwijder** pictogram ![&#x200B; verwijder beeldpictogram &#x200B;](assets/remove-image-icon.png) rechts van het beeld.
+1. (Facultatief) om de duimnagel te verwijderen alvorens het wordt bewaard, **verwijder** pictogram ![ verwijder beeldpictogram ](assets/remove-image-icon.png) rechts van het beeld.
 
 1. Klik **beeld van het Gebruik** om het beeld als duimnagel toe te voegen.
 Dit sluit de **duimnagel van het Verslag** doos.
@@ -207,7 +240,7 @@ De miniatuur wordt weergegeven in gebieden van Workfront Planning waar de record
    >
    >   Als u miniaturen wilt weergeven in deze weergave, moet u het veld Miniatuur in de tabelweergave inschakelen. Deze optie is standaard uitgeschakeld.
 
-1. (Facultatief) om de duimnagel te verwijderen nadat het wordt bewaard, klik een verslag in om het even welke mening om de detailspagina te openen, dan te bewegen over het duimnagelbeeld en **Meer** menu ![&#x200B; Meer menupictogram &#x200B;](assets/more-menu.png) > **verwijder** pictogram ![&#x200B; verwijder pictogram &#x200B;](assets/remove-image-icon.png). De miniatuurafbeelding wordt verwijderd.
+1. (Facultatief) om de duimnagel te verwijderen nadat het wordt bewaard, klik een verslag in om het even welke mening om de detailspagina te openen, dan te bewegen over het duimnagelbeeld en **Meer** menu ![ Meer menupictogram ](assets/more-menu.png) > **verwijder** pictogram ![ verwijder pictogram ](assets/remove-image-icon.png). De miniatuurafbeelding wordt verwijderd.
 
 
 <!--

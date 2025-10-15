@@ -6,9 +6,9 @@ description: Gebruikers kunnen toegang aanvragen tot objecten in Adobe Workfront
 author: Alina
 feature: Get Started with Workfront
 exl-id: e0a69ed5-57c3-47ac-bb7a-65495f93b3e3
-source-git-commit: 2c94dd423cfffc7685f24699fa73fb6a48cf2806
+source-git-commit: 4ae96f67b15838403ffce32317d871d6904d6d95
 workflow-type: tm+mt
-source-wordcount: '488'
+source-wordcount: '479'
 ht-degree: 0%
 
 ---
@@ -19,28 +19,27 @@ ht-degree: 0%
 
 Gebruikers kunnen toegang aanvragen tot objecten in Adobe Workfront.
 
-Voor meer informatie over het verzoeken van toegang, zie [&#x200B; Toegang van het Verzoek tot voorwerpen &#x200B;](../../workfront-basics/grant-and-request-access-to-objects/request-access.md).
+Voor meer informatie over het verzoeken van toegang, zie [ Toegang van het Verzoek tot voorwerpen ](../../workfront-basics/grant-and-request-access-to-objects/request-access.md).
 
 Als u de eigenaar van een object bent, kunt u toegang tot items vanuit uw thuisgebied verlenen of weigeren.
 
 ## Toegangsvereisten
 
-+++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
-
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan</td> 
-   <td> <p>Alle</p> </td> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
+   <td> <p>Alle </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Nieuw: Standaard</p> 
-   <p>Huidig: Werk of hoger</p> </td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td> <p>Standard</p> 
+   <p>Werk of hoger</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau</td> 
@@ -53,7 +52,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-*Voor meer informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -74,7 +73,7 @@ Klik het **Punt** pictogram van het Huis ![](assets/home-icon-30x29.png) in de u
 
    1. Ga naar **Mijn goedkeurt** widget en vind het verzoek om meer toegang, dan klik **de toegang van de Verlening**.
 
-      ![&#x200B; keur een verzoek &#x200B;](assets/request-for-access-to-project-in-new-home-approvals-widget.png) goed
+      ![ keur een verzoek ](assets/request-for-access-to-project-in-new-home-approvals-widget.png) goed
 
    1. (Facultatief) om een verschillend niveau van toegang te verlenen dan gevraagd, klik het drop-down menu links van de de toegangsknoop van de Verlening en selecteer de nieuwe toegang, dan klik de toegang van de Verlening **.**
 
@@ -84,14 +83,14 @@ Klik het **Punt** pictogram van het Huis ![](assets/home-icon-30x29.png) in de u
 
 ## E-mailmeldingen configureren voor verzoeken om toegang
 
-U kunt configureren of u e-mailmeldingen ontvangt voor toegangsverzoeken. Uw beheerder van Workfront kan deze functionaliteit onbruikbaar maken (zoals die in [&#x200B; wordt beschreven vormt gebeurtenisberichten voor iedereen in het systeem &#x200B;](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)).
+U kunt configureren of u e-mailmeldingen ontvangt voor toegangsverzoeken. Uw beheerder van Workfront kan deze functionaliteit onbruikbaar maken (zoals die in [ wordt beschreven vormt gebeurtenisberichten voor iedereen in het systeem ](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)).
 
 1. Ga naar uw gebruikersprofiel door één van het volgende te doen:
 
    * Klik het **Belangrijkste menu** ![](assets/dots-main-menu.png) in de hoger-juiste hoek van het scherm, dan klik uw naam.
-   * Klik het 2&rbrace; het profielpictogram van Adobe **Belangrijkste menu** &lbrace;in de hoger-juiste hoek, als beschikbaar, dan klik **Profiel van Workfront**.![](assets/adobe-blue-main-menu.png)
+   * Klik het 2} het profielpictogram van Adobe **Belangrijkste menu** {in de hoger-juiste hoek, als beschikbaar, dan klik ![ Profiel van Workfront ](assets/adobe-blue-main-menu.png).****
 
-1. Klik **Meer** menu ![&#x200B; meer pictogram &#x200B;](assets/more-icon.png) aan het recht van uw naam in de kopbal, dan klik **uitgeven**.
+1. Klik **Meer** menu ![ meer pictogram ](assets/more-icon.png) aan het recht van uw naam in de kopbal, dan klik **uitgeven**.
 1. Klik **Meldingen**, en selecteer of schrap **Iemand verzoekt toegang van me** in de **Nodig Actie** sectie, afhankelijk van of u e-mailberichten wilt ontvangen wanneer een andere gebruiker toegang van u vraagt of niet.
 
    U kunt een dagelijkse of onmiddellijke melding inschakelen.

@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: a2a39746-331b-41d6-8c3c-e6a1eb68b43a
-source-git-commit: 485f2985c70b1bb095e31323b7b4698bcb7a04cf
+source-git-commit: 7eaff1c74cd880bde062e6fdf169c73d6eeb7f75
 workflow-type: tm+mt
-source-wordcount: '333'
+source-wordcount: '310'
 ht-degree: 0%
 
 ---
@@ -21,42 +21,39 @@ Wanneer u een groep bekijkt die u in het gebied van Groepen beheert, kunt u beki
 
 Als er groepen zijn boven de groep die u beheert, kunnen hun beheerders dit ook voor uw groep doen. Hetzelfde geldt voor Workfront-beheerders (voor elke groep).
 
-Voor algemene informatie over het creëren van en het uitgeven van een programma, zie [&#x200B; een programma &#x200B;](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md) creëren.
+Voor algemene informatie over het creëren van en het uitgeven van een programma, zie [ een programma ](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md) creëren.
 
 >[!NOTE]
 >
 >Beheerders en gebruikers met een licentie voor abonnementen die andere gebruikers kunnen bewerken, kunnen een schema op systeemniveau of op groepsniveau aan een andere gebruiker toevoegen wanneer deze het profiel van die gebruiker bewerkt.
 
-Voor informatie over hoe de programma&#39;s in middel planning worden gebruikt, zie [&#x200B; Overzicht van Programma&#39;s &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/schedules-overview.md) en [&#x200B; overzicht van de Planner van het Middel &#x200B;](/help/quicksilver/resource-mgmt/resource-planning/get-started-resource-planner.md).
+Voor informatie over hoe de programma&#39;s in middel planning worden gebruikt, zie [ Overzicht van Programma&#39;s ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/schedules-overview.md) en [ overzicht van de Planner van het Middel ](/help/quicksilver/resource-mgmt/resource-planning/get-started-resource-planner.md).
 
 ## Toegangsvereisten
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
-
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan</td> 
-   <td>Alle</td> 
+   <td>Adobe Workfront-pakket</td> 
+   <td><p>Alle</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie</td>
-   <td><p>Nieuw: Standaard</p>
-       <p>of</p>
-       <p>Huidig: Plan</p></td>
+   <td>Adobe Workfront-licentie</td> 
+   <td><p>Standard</p>
+       <p>Plan</p></td>
+  </tr>
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau</td> 
+   <td>Configuraties op toegangsniveau</td> 
    <td>U moet een groepsbeheerder van de groep of een systeembeheerder zijn.</td>
   </tr>
-  </tr> 
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

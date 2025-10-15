@@ -6,9 +6,9 @@ description: Hoewel er geen beperkingen zijn op de typen en formaten van afzonde
 author: Courtney
 feature: Digital Content and Documents
 exl-id: f5d1963e-b205-44b9-b2b6-b7de465c6977
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 4a0448583cbcfd1f1df10d6474fdf4e77e7bff3e
 workflow-type: tm+mt
-source-wordcount: '257'
+source-wordcount: '239'
 ht-degree: 0%
 
 ---
@@ -21,24 +21,23 @@ Hoewel er geen beperkingen zijn op de typen en formaten van afzonderlijke bestan
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
-U moet het volgende hebben:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"><a href="https://business.adobe.com/nl/products/workfront/pricing.html" target="_blank"> plan van Workfront </a>*</td> 
+   <td role="rowheader">Workfront-plan</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref"> overzicht van de Vergunningen van de Vererfenis </a>*</td> 
-   <td> <p>U moet een Workfront-beheerder zijn. Voor informatie over de beheerders van Workfront, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref"> een gebruiker volledige administratieve toegang verlenen </a>.</p> </td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td> <p>U moet een Workfront-beheerder zijn.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

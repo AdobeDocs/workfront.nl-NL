@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 0f643d36-6235-4fd3-b6d3-54fbd03c9b33
-source-git-commit: b27b01e1efacc3fc459cec0a53b2c11cbe5e132b
+source-git-commit: 20ebcb74c79aea67ea7cb1ba083dfea623fe7c16
 workflow-type: tm+mt
-source-wordcount: '368'
+source-wordcount: '345'
 ht-degree: 0%
 
 ---
@@ -30,31 +30,27 @@ Afhankelijk van welke producten uw bedrijf heeft gekocht, kunt u het volgende aa
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
-   <td>Alle</td> 
+   <td>[!DNL Adobe Workfront] package</td> 
+   <td><p>Alle</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licentie</td> 
-   <td><p>Nieuw: [!UICONTROL Standard]</p>
-   of
-   <p>Huidige: [!UICONTROL Plan]</p>
-   </td> 
+   <td>[!DNL Adobe Workfront] licentie</td> 
+   <td><p>[!UICONTROL Standard]</p>
+       <p>[!UICONTROL Plan]</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau</td> 
-   <td>[!UICONTROL System Administrator]</td>
+   <td>Configuraties op toegangsniveau</td> 
+   <td>[!UICONTROL System Administrator]</td> 
   </tr> 
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -69,14 +65,14 @@ Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van d
 1. Typ een naam voor het aangepaste kwartaal, bijvoorbeeld &quot;Fiscaal Q1 2021&quot;.
 1. Selecteer de begin- en einddatum voor het aangepaste kwartaal.
 
-   ![&#x200B; Aangepaste kwarten &#x200B;](assets/custom-quarters-nwe.png)
+   ![ Aangepaste kwarten ](assets/custom-quarters-nwe.png)
 
 1. (Optioneel) Klik op **[!UICONTROL Add Custom Quarter]** om extra aangepaste vierkanten aan het systeem toe te voegen.
 
    >[!IMPORTANT]
    >
    > Als uw bedrijf [!DNL Workfront Planning] heeft aangeschaft, kunt u uw aangepaste kwartalen niet opslaan als er tussenruimten of overlappingen zijn tussen de kwartalen.
-   >![&#x200B; de kwarten van de Douane met overlappende waarschuwing &#x200B;](assets/custom-quarters-with-overlap-warning.png)
+   >![ de kwarten van de Douane met overlappende waarschuwing ](assets/custom-quarters-with-overlap-warning.png)
    >Tussenruimten en overlappingen tussen de kwartalen zijn alleen toegestaan voor [!DNL Workfront] -klanten.
 
 1. (Optioneel en voorwaardelijk) Als uw bedrijf alleen [!DNL Workfront] zonder [!DNL Workfront Planning] heeft aangeschaft, maakt u een rapporteringselement dat naar de fiscale kwartalen verwijst.
@@ -84,12 +80,12 @@ Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van d
 
    **Voorbeeld:** creeer een filter voor een [!UICONTROL project] lijst en omvat de Geplande Datum van de Voltooiing van een project dat van de douanekwartalen van verwijzingen voorziet.
 
-   ![&#x200B; filter van het Project met douanekwartalen &#x200B;](assets/example-of-project-filter-with-custom-quarters.png)
+   ![ filter van het Project met douanekwartalen ](assets/example-of-project-filter-with-custom-quarters.png)
 
    De verwijzingen naar &quot;Dit Kwartaal&quot;, &quot;Volgende Kwartaal&quot; en &quot;Laatste Kwartaal&quot; worden vervangen door nieuwe verwijzingen naar de aangepaste kwartalen.
 
-   Voor informatie over het melden van elementen, zie [&#x200B; Rapporterende elementen: filters, meningen, en groeperingen &#x200B;](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md).
+   Voor informatie over het melden van elementen, zie [ Rapporterende elementen: filters, meningen, en groeperingen ](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md).
 
-   Voor informatie over het creëren van filters, zie [&#x200B; filters in  [!DNL Adobe Workfront]](../../../reports-and-dashboards/reports/reporting-elements/create-filters.md) creëren of uitgeven.
+   Voor informatie over het creëren van filters, zie [ filters in  [!DNL Adobe Workfront]](../../../reports-and-dashboards/reports/reporting-elements/create-filters.md) creëren of uitgeven.
 1. (Optioneel en voorwaardelijk) Ga naar een pagina met recordtypen en open een tijdlijnweergave als u toegang hebt tot [!DNL Workfront Planning] . In de weergave worden de nieuwe aangepaste kwartalen weergegeven.
-Voor informatie, zie [&#x200B; de chronologiemening &#x200B;](/help/quicksilver/planning/views/manage-the-timeline-view.md) leiden.
+Voor informatie, zie [ de chronologiemening ](/help/quicksilver/planning/views/manage-the-timeline-view.md) leiden.

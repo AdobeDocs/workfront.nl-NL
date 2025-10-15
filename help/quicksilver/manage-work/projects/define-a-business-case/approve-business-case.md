@@ -2,12 +2,12 @@
 navigation-topic: business-case-and-scorecards
 title: Een bedrijfscase goedkeuren
 description: Nadat u de Business Case voor een projectverzoek hebt voltooid en ingediend, moet de Business Case zijn goedgekeurd. Dit hangt van het werkschema in uw organisatie af. Een project kan zonder de BedrijfsGeval beginnen die moet worden goedgekeurd, maar uw beheerder van Adobe Workfront en projecteigenaars zouden het niet ideaal kunnen vinden om dit te doen.
-author: Alina
+author: Becky
 feature: Work Management
 exl-id: 60abb054-5cb0-4dd6-9091-c9dcd635a630
-source-git-commit: 724c507dd5ee09b3364fc2037380a8cb18be08f2
+source-git-commit: aa3ae2a5d92420f4adcedb60a4f7404533eaa59b
 workflow-type: tm+mt
-source-wordcount: '690'
+source-wordcount: '682'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Nadat u de Business Case voor een projectverzoek hebt voltooid en ingediend, moet de Business Case zijn goedgekeurd. Dit hangt van het werkschema in uw organisatie af. Een project kan zonder de BedrijfsGeval beginnen die moet worden goedgekeurd, maar uw beheerder van Adobe Workfront en projecteigenaars zouden het niet ideaal kunnen vinden om dit te doen.
 
-Voor meer informatie over de voltooiing van en het voorleggen van een BedrijfsGeval, zie het artikel [&#x200B; een BedrijfsGeval voor een project &#x200B;](../../../manage-work/projects/define-a-business-case/create-business-case.md) creëren.
+Voor meer informatie over de voltooiing van en het voorleggen van een BedrijfsGeval, zie het artikel [ een BedrijfsGeval voor een project ](../../../manage-work/projects/define-a-business-case/create-business-case.md) creëren.
 
 ## Toegangsvereisten
 
@@ -29,18 +29,16 @@ Voor meer informatie over de voltooiing van en het voorleggen van een BedrijfsGe
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront-abonnement*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront-pakket</p></td> 
    <td> 
-   <p>Huidig: Prime of hoger</p>
-   <p>of</p>
-   <p>Verouderd: zakelijk of hoger</p> 
+   <p>Prime of hoger</p>
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie*</td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
    <td> 
-   <p>Huidig: Standaard </p> 
-   <p>Verouderd: Plan </p> </td> 
+   <p>Standard </p> 
+   <p>Plan </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau</td> 
@@ -53,7 +51,7 @@ Voor meer informatie over de voltooiing van en het voorleggen van een BedrijfsGe
  </tbody> 
 </table>
 
-*For informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -66,7 +64,7 @@ Overweeg het volgende wanneer het goedkeuren van een BedrijfsGeval van een proje
 * U moet manueel naar de individuele projecten gaan die goedkeuring van het BedrijfsGeval nodig hebben om te zien dat zij in afwachting van goedkeuring zijn. Er is geen Workfront-meldingsmechanisme waarmee iemand wordt gewaarschuwd dat hij of zij de Business Case van een project moet goedkeuren.
 * U kunt de projecten vinden die op de goedkeuring van het BedrijfsGeval wachten of door een projectrapport te bouwen, of door tot de portefeuille toegang te hebben zij met worden geassocieerd.
 
-  Voor meer informatie over Portfolio&#39;s, zie het artikel [&#x200B; overzicht van Portfolio in Adobe Workfront &#x200B;](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md).
+  Voor meer informatie over Portfolio&#39;s, zie het artikel [ overzicht van Portfolio in Adobe Workfront ](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md).
 
 ## De bedrijfscase goedkeuren door een projectrapport op te stellen
 
@@ -76,7 +74,7 @@ Een rapport opstellen voor projecten die in afwachting zijn van de goedkeuring v
 
 1. Maak een rapport voor projecten.
 
-   Voor meer informatie over het creëren van rapporten, zie het artikel [&#x200B; een douanerapport &#x200B;](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) creëren.
+   Voor meer informatie over het creëren van rapporten, zie het artikel [ een douanerapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) creëren.
 
 1. Selecteer het **lusje van de Mening** van het rapport, dan klik **toevoegen Kolom**.
 
@@ -92,7 +90,7 @@ Een rapport opstellen voor projecten die in afwachting zijn van de goedkeuring v
 
    Dit zorgt ervoor dat het rapport slechts projecten omvat die in de Gevraagde status zijn.
 
-   ![&#x200B; requested_projects_filter.png &#x200B;](assets/requested-projects-filter-350x14.png)
+   ![ requested_projects_filter.png ](assets/requested-projects-filter-350x14.png)
 
 1. (Facultatief) klik **voeg een andere Regel van de Filter toe**.
 
@@ -138,4 +136,4 @@ De projectstatus wordt veranderd in **Verworpen** als het Bedrijfs geval wordt v
 
 ## Goedkeuren van de bedrijfscase door toegang te krijgen tot aangevraagde projecten in een portfolio
 
-Voor meer informatie over het herzien van Gevraagde projecten, zie het artikel [&#x200B; Overzicht Gevraagde Projecten &#x200B;](../../../manage-work/portfolios/create-and-manage-portfolios/review-requested-projects.md).
+Voor meer informatie over het herzien van Gevraagde projecten, zie het artikel [ Overzicht Gevraagde Projecten ](../../../manage-work/portfolios/create-and-manage-portfolios/review-requested-projects.md).

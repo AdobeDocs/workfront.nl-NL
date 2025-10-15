@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 2d4d104a-1465-43e2-8184-83dd63d9681c
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: dc4b6dc284c59281206a457395765e634067ba91
 workflow-type: tm+mt
-source-wordcount: '416'
+source-wordcount: '387'
 ht-degree: 0%
 
 ---
@@ -24,37 +24,33 @@ Afhankelijk van de bedrijfsbehoeften van uw organisatie, zou het werk dat in een
 
 Als u aangepaste formuliergegevens van een uitgave wilt overbrengen naar een taak of project, moet u de twee taken in dit artikel in de onderstaande volgorde uitvoeren.
 
-Voor meer informatie, zie [&#x200B; Overzicht van het omzetten van kwesties in Adobe Workfront &#x200B;](../../../manage-work/issues/convert-issues/convert-issues.md) of [&#x200B; Overzicht van het omzetten van kwesties in Adobe Workfront &#x200B;](../../../manage-work/issues/convert-issues/convert-issues.md).
+Voor meer informatie, zie [ Overzicht van het omzetten van kwesties in Adobe Workfront ](../../../manage-work/issues/convert-issues/convert-issues.md) of [ Overzicht van het omzetten van kwesties in Adobe Workfront ](../../../manage-work/issues/convert-issues/convert-issues.md).
 
 ## Toegangsvereisten
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Adobe Workfront-plan</p> </td> 
-   <td>Alle</td> 
+  <tr> 
+   <td>Adobe Workfront-pakket</td> 
+   <td><p>Alle</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie</td> 
-   <td>
-   <p>Nieuw: Standaard</p>
-   <p>of</p>
-   <p>Huidig: Plan</p></td> 
+   <td>Adobe Workfront-licentie</td> 
+   <td><p>Standard</p>
+       <p>Plan</p></td>
   </tr> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader">Configuraties op toegangsniveau</td> 
+  <tr> 
+   <td>Configuraties op toegangsniveau</td> 
    <td> <p>Administratieve toegang tot aangepaste formulieren</p> </td> 
-  </tr> 
+  </tr>  
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -63,7 +59,7 @@ Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van d
 {{step-1-to-setup}}
 
 1. Klik **Aangepaste Forms**.
-1. Vind de vorm u nodig hebt, dan klik ![&#x200B; uitgeven pictogram &#x200B;](assets/edit-icon.png).
+1. Vind de vorm u nodig hebt, dan klik ![ uitgeven pictogram ](assets/edit-icon.png).
 1. Voeg boven aan het formulier het object toe waarnaar u de taak of uitgave wilt converteren.
 
    >[!INFO]
@@ -72,15 +68,15 @@ Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van d
 
 1. Klik **toepassen** bij de bodem van de vorm.
 
-1. Ga op [&#x200B; Tweede verder: Zet de kwestie of de taak om en breng de gegevens van de douanevorm &#x200B;](#second-convert-the-issue-or-task-and-transfer-the-custom-form-data) over.
+1. Ga op [ Tweede verder: Zet de kwestie of de taak om en breng de gegevens van de douanevorm ](#second-convert-the-issue-or-task-and-transfer-the-custom-form-data) over.
 
 ## Ten tweede: converteer de uitgave of taak en breng de aangepaste formuliergegevens over {#second-convert-the-issue-or-task-and-transfer-the-custom-form-data}
 
-1. Voeg extra voorwerpen aan de douanevorm op de kwestie of de taak toe u, zoals die in de sectie [&#x200B; eerst wordt verklaard: Voeg extra voorwerpen aan de douanevorm &#x200B;](#first-add-additonal-objects-to-the-custom-form) in dit artikel toe.
+1. Voeg extra voorwerpen aan de douanevorm op de kwestie of de taak toe u, zoals die in de sectie [ eerst wordt verklaard: Voeg extra voorwerpen aan de douanevorm ](#first-add-additonal-objects-to-the-custom-form) in dit artikel toe.
 1. Zet de kwestie of de taak om gebruikend de **optie van Forms van de Douane** in de doos die toont om de douanevorm te selecteren u wenst. Zie de volgende artikelen voor instructies:
 
-   * [Een uitgave converteren naar een project in Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issue-to-project.md)
-   * [Een uitgave converteren naar een taak in Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issue-to-task.md)
+   * [Een uitgave converteren naar een project](../../../manage-work/issues/convert-issues/convert-issue-to-project.md)
+   * [Een uitgave converteren naar een taak](../../../manage-work/issues/convert-issues/convert-issue-to-task.md)
    * [Een taak omzetten in een project](../../../manage-work/tasks/manage-tasks/convert-task-to-project.md)
 
 1. In **Bekeerling aan (objecten type)** dialoogdoos die toont, klik **toevoegen Forms** drop-down menu en selecteer de vorm u in de vorige sectie kopieerde.

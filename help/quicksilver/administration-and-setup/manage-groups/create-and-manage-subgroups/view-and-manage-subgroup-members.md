@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 8f7b0183-6035-4dd4-8e42-fd65485449bf
-source-git-commit: 2096cfa0fd4d0e7eeb85dbf00668dc1dd7fb1d99
+source-git-commit: a42a167447d2f11b5502e4a0953b5e7eec2e67b1
 workflow-type: tm+mt
-source-wordcount: '405'
+source-wordcount: '382'
 ht-degree: 0%
 
 ---
@@ -25,26 +25,21 @@ Als er groepen zijn boven de groep die u beheert, kunnen hun beheerders dit ook 
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan</td> 
-   <td>Alle</td> 
+   <td>Adobe Workfront-pakket</td> 
+   <td><p>Alle</p></td>
   </tr> 
   <tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront-licentie</td> 
-   <td><p>Nieuw: Standaard</p>
-       <p>of</p>
-       <p>Huidig: Plan</p></td>
-  </tr> 
+   <td>Adobe Workfront-licentie</td> 
+   <td><p>Standard</p>
+       <p>Plan</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau</td> 
+   <td>Configuraties op toegangsniveau</td> 
    <td> <p>U moet een van de volgende opties hebben:</p> 
     <ul> 
      <li> <p>Het toegangsniveau voor systeembeheerders. </li> 
@@ -54,7 +49,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -73,18 +68,18 @@ Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van d
 
 1. Voer een van de volgende handelingen uit:
 
-   * Selecteer een lid in de lijst, dan klik uitgeven ![&#x200B; pictogram &#x200B;](assets/edit-icon.png) uitgeven om het gebruikersprofiel van die persoon te wijzigen.
+   * Selecteer een lid in de lijst, dan klik uitgeven ![ pictogram ](assets/edit-icon.png) uitgeven om het gebruikersprofiel van die persoon te wijzigen.
 
-     Voor meer informatie, zie [&#x200B; het profiel van een gebruiker &#x200B;](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) uitgeven of [&#x200B; gebruikersprofielen in bulk &#x200B;](../../../administration-and-setup/add-users/create-and-manage-users/edit-user-profiles-in-bulk.md) uitgeven.
+     Voor meer informatie, zie [ het profiel van een gebruiker ](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) uitgeven of [ gebruikersprofielen in bulk ](../../../administration-and-setup/add-users/create-and-manage-users/edit-user-profiles-in-bulk.md) uitgeven.
 
    * Selecteer om het even welk aantal subgroepsleden in de lijst, dan klik **verzenden Update naar Gebruiker** om een commentaar aan hun gebruikersprofielen toe te voegen.
 
      De gebruiker of gebruikers ontvangen een melding in de app en een e-mailbericht met uw opmerking. De opmerking wordt weergegeven in het gedeelte Updates van het gebruikersprofiel.
 
-     Voor meer informatie, zie [&#x200B; directe berichten naar andere gebruikers &#x200B;](/help/quicksilver/people-teams-and-groups/work-directly-with-others/send-direct-messages-to-other-users.md) verzenden.
+     Voor meer informatie, zie [ directe berichten naar andere gebruikers ](/help/quicksilver/people-teams-and-groups/work-directly-with-others/send-direct-messages-to-other-users.md) verzenden.
 
-   * Selecteer om het even welk aantal leden in de lijst, dan klik Deactivate ![&#x200B; gebruiker &#x200B;](assets/deactivate-user.png) of activeer ![&#x200B; gebruiker &#x200B;](assets/activate-user.png).
+   * Selecteer om het even welk aantal leden in de lijst, dan klik Deactivate ![ gebruiker ](assets/deactivate-user.png) of activeer ![ gebruiker ](assets/activate-user.png).
 
-     Voor meer informatie, zie [&#x200B; een gebruiker &#x200B;](../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md) deactiveren of reactiveren.
+     Voor meer informatie, zie [ een gebruiker ](../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md) deactiveren of reactiveren.
 
-   * De uitvoer ![&#x200B; Uitvoer &#x200B;](assets/export.png) de lijst van leden.
+   * De uitvoer ![ Uitvoer ](assets/export.png) de lijst van leden.

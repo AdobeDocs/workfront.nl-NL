@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 31793b0e-444c-492c-b1a2-909a2e97628b
-source-git-commit: fbcdc88701b8b501b68d29e76b0148ddf07e5b52
+source-git-commit: 985f1aa11ad1d5efc8d043907d60ad5f5c1bba13
 workflow-type: tm+mt
-source-wordcount: '202'
+source-wordcount: '264'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,42 @@ ht-degree: 0%
 U kunt de Mijn kolom van de Focus gebruiken om aan uw werk voorrang te geven. De kolom Mijn focus is een persoonlijke waarde en heeft geen invloed op de prioriteit die is ingesteld op de taak of kwestie.
 
 Prioriteiten geven de werkitems weer die aan u zijn toegewezen. U kunt geen werkitems zien die aan uw team zijn toegewezen.
+
+## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
+
+<table style="table-layout:auto"> 
+ <col> 
+ </col> 
+ <col> 
+ </col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"><strong>Adobe Workfront-pakket</strong></td> 
+   <td> <p>Alle</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><strong>Adobe Workfront-licentie</strong></td> 
+   <td> 
+   <p>Revisor of hoger</p>
+   <p>Licht of hoger</p> 
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><strong>Configuraties op toegangsniveau</strong></td> 
+   <td> <p>Toegang weergeven of bewerken voor het object waarop de update betrekking heeft</p></td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><strong>Objectmachtigingen</strong></td> 
+   <td> <p>Toegang tot het object weergeven</p></td> 
+  </tr> 
+ </tbody> 
+</table>
+
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Prioriteit geven aan uw werk met de kolom Mijn focus
 
@@ -33,7 +69,7 @@ Prioriteiten geven de werkitems weer die aan u zijn toegewezen. U kunt geen werk
    | **Normaal** | Normaal is voor routinematige werkitems waaraan u zult werken nadat de items Dringend en Hoge prioriteit zijn voltooid. Dit is de standaardinstelling voor taken en problemen. |
    | **Laag** | Laag is voor het werkpunten die geen directe aandacht nodig hebben en kan worden uitgesteld tot alle hoger-prioritaire het werkpunten worden gedaan. |
 
-   ![&#x200B; Mijn Focus &#x200B;](assets/my-focus-new.png)
+   ![ Mijn Focus ](assets/my-focus-new.png)
 
    >[!TIP]
    >

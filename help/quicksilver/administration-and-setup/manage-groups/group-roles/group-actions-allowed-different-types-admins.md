@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: f556aa0b-71c5-48a9-8a84-72f1fbb2c86e
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 416be55e172e2e2f0a1d8b593fdcb27d123e2fcb
 workflow-type: tm+mt
-source-wordcount: '541'
+source-wordcount: '514'
 ht-degree: 0%
 
 ---
@@ -226,11 +226,18 @@ In deze tabel staan de beheersactiviteiten die beschikbaar zijn voor:
  </tbody> 
 </table>
 
-&#42; in het de toegangsniveau van de groepsbeheerder, **geeft uit** moet voor het **plaatsen van Gebruikers** worden geselecteerd, met **Gebruiker Admin (de Gebruikers van de Groep)** die onder **wordt geselecteerd uw montages** ![&#x200B; verfspictogram van de Montages &#x200B;](assets/gear-icon-in-access-levels.png). Voor meer informatie, zie de sectie [&#x200B; gebruikers&#39; toegang vormen om gebruikers uit te geven gebruikend een niveau van de douanetoegang &#x200B;](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md#access-to-edit) in het artikel [&#x200B; toegang van de Verlening tot gebruikers &#x200B;](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
+&#42; in het de toegangsniveau van de groepsbeheerder, **geeft uit** moet voor het **plaatsen van Gebruikers** worden geselecteerd, met **Gebruiker Admin (de Gebruikers van de Groep)** die onder **wordt geselecteerd uw montages** ![ verfspictogram van de Montages ](assets/gear-icon-in-access-levels.png). Voor meer informatie, zie de sectie [ gebruikers&#39; toegang vormen om gebruikers uit te geven gebruikend een niveau van de douanetoegang ](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md#access-to-edit) in het artikel [ toegang van de Verlening tot gebruikers ](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 
-&#42;&#42; In het toegangsniveau van de groepsbeheerder, moet de toegang tot deze actie worden toegelaten. Voor meer informatie, zie [&#x200B; gebruikers administratieve toegang van de Verlening tot bepaalde gebieden &#x200B;](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
+&#42;&#42; In het toegangsniveau van de groepsbeheerder, moet de toegang tot deze actie worden toegelaten. Voor meer informatie, zie [ gebruikers administratieve toegang van de Verlening tot bepaalde gebieden ](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 
-&#42;&#42;&#42; De volgende activiteiten maken deel uit van Advanced Enterprise Controls en zijn niet beschikbaar voor het Select-plan. Alleen organisaties die de Prime- of Ultimate-plannen hebben aangeschaft, hebben toegang tot deze mogelijkheden.  Zie [&#x200B; Adobe Workfront tarifering en het verpakken pagina &#x200B;](https://business.adobe.com/nl/products/workfront/pricing.html) voor meer informatie over plannen. (Voor organisaties die de erfenisplannen gebruiken, toont de bovenstaande lijst de activiteiten voor groep en subgroepbeheerders.)
+&#42;&#42;&#42; Deze pakketten bevatten de volgende functies van Advanced Enterprise Controls:
+
+* Workflow Prime en hoger
+* Workfront Prime en hoger
+
+Zie [ Adobe Workfront tarifering en het verpakken pagina ](https://business.adobe.com/products/workfront/pricing.html) voor meer informatie over pakketten.
+
+Geavanceerde bedrijfsbesturingselementen:
 
 * Project-, taak- en probleemvoorkeuren op groepsniveau configureren
 * Voorkeuren voor tijdbladen en uren op groepsniveau configureren

@@ -5,14 +5,16 @@ author: Alina
 draft: Probably
 feature: Get Started with Workfront
 exl-id: 4dc32da0-9680-4b7f-a959-d4a0652618c5
-source-git-commit: c21029e098f6b4f51f8698155e2b8a2e789c8bfc
+source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
 workflow-type: tm+mt
-source-wordcount: '594'
+source-wordcount: '549'
 ht-degree: 0%
 
 ---
 
 # Aangepaste formulieren en objectdetails exporteren
+
+<!--Audited: 10/2025-->
 
 U kunt het overzicht en de aangepaste formuliergegevens vanuit de sectie Details van een object exporteren naar een PDF-bestand. U kunt de PDF vervolgens afdrukken of delen met andere gebruikers.
 
@@ -34,32 +36,64 @@ Deze functionaliteit wordt ondersteund voor de volgende objecten:
 
 ## Toegangsvereisten
 
-U moet het volgende hebben:
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>Adobe Workfront-abonnement*</p> </td> 
+   <td role="rowheader"> <p>Adobe Workfront-pakket</p> </td> 
    <td>Alle</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>Adobe Workfront-licentie*</p> </td> 
-   <td> <p>Aanvraag of hoger voor problemen</p> <p>Controle of hoger voor projecten en taken</p> </td> 
+   <td role="rowheader"> <p>Adobe Workfront-licentie</p> </td> 
+   <td><p>Voor problemen:</p>
+   <ul><li><p>Medewerker of hoger</p></li>
+   <li><p>Aanvrager of hoger</p> </li></ul>
+   <p>Voor projecten en taken:</p>
+   <ul><li><p>Licht of hoger</p></li>
+   <li><p>Revisor of hoger</p></li></ul>
+    </td> 
   </tr> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader"><strong> het niveauconfiguraties van de Toegang* </strong> </td> 
-   <td> <p>Weergave of hoger voor projecten, taken en problemen</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan veranderen, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
+  <tr> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
+   <td> <p>Weergave of hoger voor projecten, taken en problemen</p>  </td> 
   </tr> 
-  <tr data-mc-conditions=""> 
+  <tr> 
    <td role="rowheader"> <p>Objectmachtigingen</p> </td> 
-   <td> <p>Geef meer of meer machtigingen weer voor het project, de taak of de uitgave waarvan u het formulier wilt exporteren</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
+   <td> <p>Geef meer of meer machtigingen weer voor het project, de taak of de uitgave waarvan u het formulier wilt exporteren</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
+<!--Old:
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"> <p>Adobe Workfront plan*</p> </td> 
+   <td>Any</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>Adobe Workfront license*</p> </td> 
+   <td> <p>Request or higher for issues</p> <p>Review or higher for projects and tasks</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader"><strong>Access level configurations*</strong> </td> 
+   <td> <p>View or higher for Projects, Tasks, and Issues</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader"> <p>Object permissions</p> </td> 
+   <td> <p>View or higher permissions to the project, task, or issue whose form you want to export</p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## Vereisten
 
@@ -72,9 +106,9 @@ Voordat u begint, moet u beschikken over alle volgende opties:
 
    U hebt de juiste toegang om een aangepast formulier toe te voegen en de gegevens op het formulier te bewerken.
 
-Voor informatie over het creëren van douaneformulieren, zie [&#x200B; een douaneformulier &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren.
+Voor informatie over het creëren van douaneformulieren, zie [ een douaneformulier ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren.
 
-Voor informatie over het vastmaken van vormen aan voorwerpen, zie [&#x200B; een douanevorm aan een voorwerp &#x200B;](../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md) toevoegen.
+Voor informatie over het vastmaken van vormen aan voorwerpen, zie [ een douanevorm aan een voorwerp ](../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md) toevoegen.
 
 ## Informatie exporteren in de sectie Details
 
@@ -100,7 +134,7 @@ Informatie exporteren uit de sectie Details van een object is identiek voor alle
    >   * Wanneer uw groep of Workfront-beheerder de selectie van alle velden in het gebied Overzicht opheft en voor het object aangepaste formulieren zijn gekoppeld, wordt de sectie Overzicht niet weergegeven.
    >   * Wanneer uw groep of Workfront-beheerder de selectie van alle velden in het gebied Overzicht opheft en er geen aangepaste formulieren zijn gekoppeld voor het object, is het vervolgkeuzemenu Exporteren niet zichtbaar.
    >   * Als voor het object geen aangepaste formulieren zijn gekoppeld, kunt u alleen het gebied Overzicht exporteren.
-   >   * Aangepaste velden die achter logica staan en niet zichtbaar zijn op het formulier, worden niet geëxporteerd. Voor informatie over het toevoegen van logica aan een douaneformulier, zie [&#x200B; logische regels aan douaneformulieren en gebieden &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md) toevoegen.
+   >   * Aangepaste velden die achter logica staan en niet zichtbaar zijn op het formulier, worden niet geëxporteerd. Voor informatie over het toevoegen van logica aan een douaneformulier, zie [ logische regels aan douaneformulieren en gebieden ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md) toevoegen.
 
    Er wordt een PDF-bestand gemaakt en naar de computer gedownload. Het PDF-bestand bevat de volgende informatie:
 

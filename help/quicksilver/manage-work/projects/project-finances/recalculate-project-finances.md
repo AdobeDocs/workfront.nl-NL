@@ -6,9 +6,9 @@ description: De financiën worden berekend op een project aangezien de veranderi
 author: Lisa
 feature: Work Management
 exl-id: 5a90c5a1-8b26-4b6f-b9ec-f446a2e94ff0
-source-git-commit: 78b4724ca8d5df15ed76e9e882179e3cb127282c
+source-git-commit: 23a4d055871c9138818e70fa1cd936581dbd7552
 workflow-type: tm+mt
-source-wordcount: '1632'
+source-wordcount: '1609'
 ht-degree: 0%
 
 ---
@@ -21,35 +21,32 @@ De financiën worden berekend op een project aangezien de veranderingen in de ur
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan</td> 
+   <td>Adobe Workfront-pakket</td> 
    <td>Alle </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie*</td> 
+   <td>Adobe Workfront-licentie</td> 
    <td>
-   <p>Nieuw: Standaard</p>
-   <p>of</p>
-   <p>Huidig: Plan</p></td> 
+   <p>Standard</p>
+   <p>Plan</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau</td> 
+   <td>Configuraties op toegangsniveau</td> 
    <td>Toegang tot projecten en financiële gegevens bewerken</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Objectmachtigingen</td> 
+   <td>Objectmachtigingen</td> 
    <td>Machtigingen voor het project beheren met beheerdersmachtigingen</td> 
   </tr> 
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -75,32 +72,32 @@ Het rapporttype Project (Financiële Gegevens) voert niet automatisch een herber
 
 Wanneer de financiële gegevens voor een project opnieuw worden berekend, herberekent Workfront met terugwerkende kracht alle eerder geregistreerde uren, geplande, werkelijke kosten en geplande en daadwerkelijke inkomsten, overeenkomstig om het even welke nieuwe of bijgewerkte financiële informatie.
 
-* [&#x200B; Behoud de Ontvangsten van het Project &#x200B;](#preserve-project-revenue)
+* [ Behoud de Ontvangsten van het Project ](#preserve-project-revenue)
 * [Projectkosten behouden](#preserve-project-cost)
 
 ### Ontvangsten van project behouden  {#preserve-project-revenue}
 
 De inkomstenpercentages kunnen tijdens de levensduur van een project veranderen.
 
-Voor meer informatie over het factureren van tarieven en opbrengst, zie het artikel [&#x200B; Overzicht van het Factureren en de Ontvangsten &#x200B;](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md).
+Voor meer informatie over het factureren van tarieven en opbrengst, zie het artikel [ Overzicht van het Factureren en de Ontvangsten ](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md).
 
 De belastingtarieven kunnen op de volgende niveaus veranderen:
 
 * Het systeemniveau (voor functies)\
-  Voor meer informatie over het creëren van baanrollen met het factureren van tarieven op het systeemniveau, zie het artikel [&#x200B; baanrollen &#x200B;](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md) creëren en beheren.
+  Voor meer informatie over het creëren van baanrollen met het factureren van tarieven op het systeemniveau, zie het artikel [ baanrollen ](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md) creëren en beheren.
 
 * Het gebruikersniveau\
-  Voor meer informatie over het veranderen van de het facturerings tariefinformatie over gebruikers, zie het artikel [&#x200B; uitgeven het profiel van een gebruiker &#x200B;](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+  Voor meer informatie over het veranderen van de het facturerings tariefinformatie over gebruikers, zie het artikel [ uitgeven het profiel van een gebruiker ](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
 * Het niveau van het Bedrijf (voor baanrollen)\
-  Voor meer informatie, zie [&#x200B; het factureren van de baanrol van de Opheffing tarieven op het bedrijfsniveau &#x200B;](../../../administration-and-setup/set-up-workfront/organizational-setup/override-job-role-billing-rates-company-level.md).
+  Voor meer informatie, zie [ het factureren van de baanrol van de Opheffing tarieven op het bedrijfsniveau ](../../../administration-and-setup/set-up-workfront/organizational-setup/override-job-role-billing-rates-company-level.md).
 
 * Het projectniveau (voor functies)\
-  Voor meer informatie over het met voeten treden van baanroltarieven op het projectniveau, zie het artikel [&#x200B; Overzicht van het met voeten treden van de Factureringsriten van de Rol van de Taak en het berekenen van Inkomsten op een project &#x200B;](../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
+  Voor meer informatie over het met voeten treden van baanroltarieven op het projectniveau, zie het artikel [ Overzicht van het met voeten treden van de Factureringsriten van de Rol van de Taak en het berekenen van Inkomsten op een project ](../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
 
 Bijvoorbeeld, verandert het het facturerings tarief van een gebruiker tijdens een project van $50 in $75 per uur en u wilt alle bestaande gegevens aan het oude tarief ($50 en uur) worden berekend. Wanneer de projectfinanciën echter opnieuw worden berekend, worden de inkomsten van taken die al over bestaande financiële gegevens beschikken aangepast aan de nieuwe factureringsgraad (van $75 per uur).
 
-* [&#x200B; Behoud de Inkomsten van het Project door een het Factureren Verslag &#x200B;](#preserve-project-revenue-by-creating-a-billing-record) te creëren
+* [ Behoud de Inkomsten van het Project door een het Factureren Verslag ](#preserve-project-revenue-by-creating-a-billing-record) te creëren
 * [De Ontvangsten van het Project van het behoud door veelvoudige het Tarief met voeten te treden](#preserve-project-revenue-by-using-multiple-billing-rate-overrides)
 
 #### Projectinkomsten behouden door een factureringsrecord te maken {#preserve-project-revenue-by-creating-a-billing-record}
@@ -109,13 +106,13 @@ Wanneer de factureringstarieven op om het even welk hierboven vermeld niveau ver
 
 Wanneer u geen financiën op het project opnieuw berekent of wanneer u de uren sluit die in een factureringsverslag worden geregistreerd, zullen de uren na de tariefveranderingen na het tarief worden geregistreerd met het nieuwe tarief berekenen, en de uren die vóór de veranderingen van het kostentarief worden geregistreerd blijven berekend bij het oude tarief.
 
-Voor meer informatie over het creëren van het factureren verslagen, zie het artikel [&#x200B; het factureren verslagen &#x200B;](../../../manage-work/projects/project-finances/create-billing-records.md) creëren.
+Voor meer informatie over het creëren van het factureren verslagen, zie het artikel [ het factureren verslagen ](../../../manage-work/projects/project-finances/create-billing-records.md) creëren.
 
 #### De Ontvangsten van het Project van het behoud door veelvoudige het Tarief met voeten te treden {#preserve-project-revenue-by-using-multiple-billing-rate-overrides}
 
 Wanneer de factureringstarieven voor baanrollen op het projectniveau veranderen, kunt u bestaande opbrengst behouden die reeds op het project is berekend door veelvoudige het facturerings tariefoverschrijvingen te gebruiken die binnen een gespecificeerd tijdkader worden gesloten.
 
-Voor meer informatie over het gebruiken van veelvoudige het factureren tariefoverschrijvingen, zie het artikel [&#x200B; Overzicht van het met voeten treden van de FactureringsRates van de Rol van de Taak en het berekenen van Inkomsten op een project &#x200B;](../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
+Voor meer informatie over het gebruiken van veelvoudige het factureren tariefoverschrijvingen, zie het artikel [ Overzicht van het met voeten treden van de FactureringsRates van de Rol van de Taak en het berekenen van Inkomsten op een project ](../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
 
 >[!NOTE]
 >
@@ -126,14 +123,14 @@ Voor meer informatie over het gebruiken van veelvoudige het factureren tariefove
 De kostentarieven kunnen op de volgende niveaus veranderen:
 
 * Systeemniveau (voor functies)\
-  Voor meer informatie over het creëren van baanrollen met kostentarieven op het systeemniveau, zie het artikel [&#x200B; creëren en baanrollen beheren &#x200B;](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
+  Voor meer informatie over het creëren van baanrollen met kostentarieven op het systeemniveau, zie het artikel [ creëren en baanrollen beheren ](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
 
 * Gebruikersniveau\
-  Voor meer informatie over het veranderen van de informatie van het kostentarief over gebruikers, zie het artikel [&#x200B; uitgeven het profiel van een gebruiker &#x200B;](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+  Voor meer informatie over het veranderen van de informatie van het kostentarief over gebruikers, zie het artikel [ uitgeven het profiel van een gebruiker ](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
-Wanneer de factureringstarieven op om het even welk hierboven vermeld niveau veranderen, kunt u bestaande die kosten bewaren die reeds op het project zijn berekend door de tijd te sluiten die op het project wordt geregistreerd en die aan het oude tarief wordt berekend in een facturerings verslag met een status van Factureerde. Voor meer informatie over het creëren van het factureren verslagen, zie het artikel [&#x200B; het factureren verslagen &#x200B;](../../../manage-work/projects/project-finances/create-billing-records.md) creëren.
+Wanneer de factureringstarieven op om het even welk hierboven vermeld niveau veranderen, kunt u bestaande die kosten bewaren die reeds op het project zijn berekend door de tijd te sluiten die op het project wordt geregistreerd en die aan het oude tarief wordt berekend in een facturerings verslag met een status van Factureerde. Voor meer informatie over het creëren van het factureren verslagen, zie het artikel [ het factureren verslagen ](../../../manage-work/projects/project-finances/create-billing-records.md) creëren.
 
-U kunt ook vermijden gebruikend de handmatige Recalculate optie van Financiën, als u geen het facturerings verslag wilt tot stand brengen, zoals die in de sectie [&#x200B; wordt beschreven manueel financiën voor een project &#x200B;](#manually-recalculate-finances-for-a-project) in dit artikel herberekenen.
+U kunt ook vermijden gebruikend de handmatige Recalculate optie van Financiën, als u geen het facturerings verslag wilt tot stand brengen, zoals die in de sectie [ wordt beschreven manueel financiën voor een project ](#manually-recalculate-finances-for-a-project) in dit artikel herberekenen.
 
 Wanneer u geen financiën op het project opnieuw berekent of wanneer u de uren sluit die in een factureringsverslag worden geregistreerd, zullen de uren na de tariefveranderingen na het tarief worden geregistreerd met het nieuwe tarief berekenen, en de uren die vóór de veranderingen van het kostentarief worden geregistreerd blijven berekend bij het oude tarief.
 
@@ -143,21 +140,21 @@ Als uw tarieven tijdens de levensduur van een project veranderen en u uw kosten 
 
 >[!NOTE]
 >
->U kunt opbrengstwaarden van het bijwerken verhinderen om op de nieuwe tarieven te wijzen wanneer u manueel financiën herberekent door de stappen in de sectie [&#x200B; financiële gegevens voor taken met bestaande uren &#x200B;](#preserve-financial-data-for-tasks-with-existing-hours) van dit artikel te volgen. Kostenwaarden worden altijd bijgewerkt om de nieuwe tarieven weer te geven wanneer u de financiën handmatig herberekent voor een project.
+>U kunt opbrengstwaarden van het bijwerken verhinderen om op de nieuwe tarieven te wijzen wanneer u manueel financiën herberekent door de stappen in de sectie [ financiële gegevens voor taken met bestaande uren ](#preserve-financial-data-for-tasks-with-existing-hours) van dit artikel te volgen. Kostenwaarden worden altijd bijgewerkt om de nieuwe tarieven weer te geven wanneer u de financiën handmatig herberekent voor een project.
 
 U kunt de financiën van projecten in Workfront van de projectpagina of van een projectlijst of rapport herberekenen.
 
-U kunt de financiën opnieuw berekenen terwijl u ze bulksgewijs bewerkt. Voor informatie, zie [&#x200B; financiën in bulk &#x200B;](#manually-recalculate-finances-in-bulk) sectie in dit artikel manueel opnieuw berekenen.
+U kunt de financiën opnieuw berekenen terwijl u ze bulksgewijs bewerkt. Voor informatie, zie [ financiën in bulk ](#manually-recalculate-finances-in-bulk) sectie in dit artikel manueel opnieuw berekenen.
 
-1. Ga naar het project waar u financiën wilt opnieuw berekenen en **Meer** pictogram ![&#x200B; klikken Meer menu &#x200B;](assets/qs-more-icon-on-an-object.png) rechts van de projectnaam.
+1. Ga naar het project waar u financiën wilt opnieuw berekenen en **Meer** pictogram ![ klikken Meer menu ](assets/qs-more-icon-on-an-object.png) rechts van de projectnaam.
 
-   ![&#x200B; het niveau van het Project meer dropdown &#x200B;](assets/project-level-more-drop-down-expanded-nwe-350x516.png)
+   ![ het niveau van het Project meer dropdown ](assets/project-level-more-drop-down-expanded-nwe-350x516.png)
 
    of
 
-   Ga naar een projectlijst of een rapport en selecteer één of verscheidene projecten, dan klik **Meer** pictogram ![&#x200B; Meer menu &#x200B;](assets/qs-more-icon-on-an-object.png) bij de bovenkant van de lijst.
+   Ga naar een projectlijst of een rapport en selecteer één of verscheidene projecten, dan klik **Meer** pictogram ![ Meer menu ](assets/qs-more-icon-on-an-object.png) bij de bovenkant van de lijst.
 
-   ![&#x200B; herberekenen uitdrukkingen &#x200B;](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
+   ![ herberekenen uitdrukkingen ](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
 
    >[!TIP]
    >
@@ -176,14 +173,14 @@ U kunt de financiën van verschillende projecten handmatig opnieuw berekenen doo
 
 >[!IMPORTANT]
 >
->U kunt opbrengstwaarden van het bijwerken verhinderen om op de nieuwe tarieven te wijzen wanneer u manueel financiën herberekent door de stappen in de sectie [&#x200B; financiële gegevens voor taken met bestaande uren &#x200B;](#preserve-financial-data-for-tasks-with-existing-hours) van dit artikel te volgen. Kostenwaarden worden altijd bijgewerkt om de nieuwe tarieven weer te geven wanneer u de financiën voor projecten handmatig herberekent.
+>U kunt opbrengstwaarden van het bijwerken verhinderen om op de nieuwe tarieven te wijzen wanneer u manueel financiën herberekent door de stappen in de sectie [ financiële gegevens voor taken met bestaande uren ](#preserve-financial-data-for-tasks-with-existing-hours) van dit artikel te volgen. Kostenwaarden worden altijd bijgewerkt om de nieuwe tarieven weer te geven wanneer u de financiën voor projecten handmatig herberekent.
 
 De financiering van verschillende projecten handmatig herberekenen:
 
 1. Ga naar een lijst met projecten.
-1. Selecteer verscheidene projecten in de lijst, dan klik het **Meer** pictogram ![&#x200B; Meer menu &#x200B;](assets/qs-more-icon-on-an-object.png) bij de bovenkant van de lijst.
+1. Selecteer verscheidene projecten in de lijst, dan klik het **Meer** pictogram ![ Meer menu ](assets/qs-more-icon-on-an-object.png) bij de bovenkant van de lijst.
 
-   ![&#x200B; herberekenen uitdrukkingen &#x200B;](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
+   ![ herberekenen uitdrukkingen ](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
 
    >[!TIP]
    >
@@ -207,4 +204,4 @@ De volgende acties leiden tot de financiële herberekening van projecten in Work
 >
 >Wanneer u de projectstatus wijzigt, worden alleen de geplande waarden opnieuw berekend.
 
-U kunt financiën ook manueel onder **opnieuw berekenen Meer** menu ![&#x200B; Meer menu &#x200B;](assets/qs-more-menu.png) op het projectniveau, door **te klikken herberekent Financiën**.
+U kunt financiën ook manueel onder **opnieuw berekenen Meer** menu ![ Meer menu ](assets/qs-more-menu.png) op het projectniveau, door **te klikken herberekent Financiën**.

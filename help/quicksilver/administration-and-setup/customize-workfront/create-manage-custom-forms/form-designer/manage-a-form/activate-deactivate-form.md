@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 6d9a409d-8d16-4c58-ad02-f60aa1ac1714
-source-git-commit: a7be72f0a594a21baed2592d8a2e467118ab1b7f
+source-git-commit: 15ac51cc13eeb57d2de194a9a6ceec7683acfbe6
 workflow-type: tm+mt
-source-wordcount: '368'
+source-wordcount: '345'
 ht-degree: 0%
 
 ---
@@ -27,31 +27,27 @@ U kunt een aangepast formulier opnieuw activeren of deactiveren. We raden u aan 
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Adobe Workfront-plan</p> </td> 
-   <td>Alle</td> 
+  <tr> 
+   <td>Adobe Workfront-pakket</td> 
+   <td><p>Alle</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie</td> 
-   <td>
-   <p>Nieuw: Standaard</p>
-   <p>of</p>
-   <p>Huidig: Plan</p></td> 
+   <td>Adobe Workfront-licentie</td> 
+   <td><p>Standard</p>
+       <p>Plan</p></td>
   </tr> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader">Configuraties op toegangsniveau</td> 
-   <td> <p>Administratieve toegang tot aangepaste formulieren</p></td> 
+  <tr> 
+   <td>Configuraties op toegangsniveau</td> 
+   <td> <p>Administratieve toegang tot aangepaste formulieren</p> </td> 
   </tr>  
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

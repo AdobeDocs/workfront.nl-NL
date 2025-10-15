@@ -6,9 +6,9 @@ description: U kunt verzoeken dat een project wordt goedgekeurd voordat u eraan 
 author: Alina
 feature: Work Management
 exl-id: 6557a7a5-3d5e-476d-b834-007c9e120397
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
 workflow-type: tm+mt
-source-wordcount: '530'
+source-wordcount: '570'
 ht-degree: 0%
 
 ---
@@ -34,59 +34,90 @@ U kunt een project aanvragen wanneer u een nieuw project toevoegt in de volgende
 
 ## Toegangsvereisten
 
-+++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan</td> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p role="rowheader">Adobe Workfront-licentie*</p> </td> 
-   <td> <p>Nieuw: Standaard </p>
-   of
-   <p>Huidig: Plan </p>
+   <td role="rowheader"> <p role="rowheader">Adobe Workfront-licentie</p> </td> 
+   <td> <p>Standard</p>
+   <p>Plan</p>
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Toegangsniveau</td> 
-   <td> <p>Toegang tot projecten bewerken</p> </td> 
+   <td role="rowheader">Configuratie op toegangsniveau</td> 
+   <td> <p>Toegang tot projecten bewerken</p>
+   <p>Als u een project aanvraagt vanuit een portfolio of programma, moet u toegang tot portfolio's en programma's hebben</p>
+    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Wanneer u een projectverzoek creeert ontvangt u automatisch Manage toestemmingen aan het project </p> </td> 
+   <td> <p>Wanneer u een projectverzoek creeert ontvangt u automatisch Manage toestemmingen aan het project </p> 
+   <p>Als u een project aanvraagt vanuit een portfolio of programma, moet u beschikken over de machtiging Beheren voor het portfolio en het programma.</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
 
-*For informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p role="rowheader">Adobe Workfront license*</p> </td> 
+   <td> <p>New: Standard </p>
+   Or
+   <p>Current: Plan </p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level</td> 
+   <td> <p>Edit access to Projects</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>When you create a project request you automatically receive Manage permissions to the project </p> </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## Een project aanvragen
 
 1. Voer een van de volgende handelingen uit:
 
-   * Klik het **Belangrijkste pictogram van het Menu** ![&#x200B; Belangrijkste &#x200B;](assets/main-menu-icon.png) in de hoger-juiste hoek, of de **Belangrijkste lijnen van het Menu** ![&#x200B; Belangrijkste Menu &#x200B;](assets/lines-main-menu.png) in de upper-left hoek, als beschikbaar, klik **Projecten**, dan breid **Nieuw Project** uit.
+   * Klik het **Belangrijkste pictogram van het Menu** ![ Belangrijkste ](assets/main-menu-icon.png) in de hoger-juiste hoek, of de **Belangrijkste lijnen van het Menu** ![ Belangrijkste Menu ](assets/lines-main-menu.png) in de upper-left hoek, als beschikbaar, klik **Projecten**, dan breid **Nieuw Project** uit.
    * Ga naar een portefeuille, dan breid **Nieuw Project** uit.
    * Ga naar een programma, dan breid **Nieuw Project** uit.
-   * Als u een groepsbeheerder bent, kunt u een project in de sectie van Projecten van een groep ook tot stand brengen u beheert. Voor meer informatie, zie [&#x200B; tot stand brengen en wijzigen de projecten van een groep &#x200B;](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md).
+   * Als u een groepsbeheerder bent, kunt u een project in de sectie van Projecten van een groep ook tot stand brengen u beheert. Voor meer informatie, zie [ tot stand brengen en wijzigen de projecten van een groep ](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md).
 
 1. Klik **Project van het Verzoek**.
 
-   ![&#x200B; Nieuwe projectdropdown &#x200B;](assets/new-project-dropdown-nwe-350x358.png)
+   ![ Nieuwe projectdropdown ](assets/new-project-dropdown-nwe-350x358.png)
 
 1. Voer een van de volgende handelingen uit:
 
    * Volg dezelfde stappen als voor het creëren van een project terwijl het bepalen van een BedrijfsGeval. (aanbevolen)
 
-     Voor informatie over het bepalen van een BedrijfsGeval en het verzoeken van een project, zie [&#x200B; een BedrijfsGeval voor een project &#x200B;](../../../manage-work/projects/define-a-business-case/create-business-case.md) creëren.
+     Voor informatie over het bepalen van een BedrijfsGeval en het verzoeken van een project, zie [ een BedrijfsGeval voor een project ](../../../manage-work/projects/define-a-business-case/create-business-case.md) creëren.
 
    * Creeer een project van kras of het gebruiken van een malplaatje en verander de status in **Gevraagde**.
 
-     Voor informatie over het creëren van een project, zie [&#x200B; een project &#x200B;](../../../manage-work/projects/create-projects/create-project.md) creëren of [&#x200B; een project creëren gebruikend een malplaatje &#x200B;](../../../manage-work/projects/create-projects/create-project-from-template.md).
+     Voor informatie over het creëren van een project, zie [ een project ](../../../manage-work/projects/create-projects/create-project.md) creëren of [ een project creëren gebruikend een malplaatje ](../../../manage-work/projects/create-projects/create-project-from-template.md).
 
    Het project u verzoekt heeft een status van **Gevraagde** en het toont op **Gevraagde Projecten** tabel van een Portfolio, als u het met een Portfolio associeerde. Een portefeuillemanager kan het nu herzien en of het goedkeuren of verwerpen, in welk geval de status van het project verandert in of **Goedgekeurd** of **Afgewezen**.

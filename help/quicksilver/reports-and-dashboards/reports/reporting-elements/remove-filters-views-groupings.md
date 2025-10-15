@@ -6,9 +6,9 @@ description: U kunt een filter, weergave of groep verwijderen uit lijsten en rap
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 422d262e-e19d-4070-85f1-77ecb7430342
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '811'
+source-wordcount: '801'
 ht-degree: 0%
 
 ---
@@ -21,46 +21,37 @@ U kunt een filter, weergave of groep verwijderen uit lijsten en rapporten als u 
 
 ## Toegangsvereisten
 
-+++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
-
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven. 
 
 <table style="table-layout:auto"> 
  <col> 
- </col> 
  <col> 
- </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront-abonnement*</strong></td> 
-   <td> <p>Alle </p> </td> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront-licentie*</strong></td> 
+   <td role="rowheader">Adobe Workfront-licentie</strong></td> 
    <td> 
-      <p>Nieuw:</p>
-         <ul>
-         <li><p>Medewerker of hoger</p></li>
-         </ul>
-      <p>Huidige:</p>
-         <ul>
-         <li><p>Aanvraag of hoger</p></li>
-         </ul>
+    <p>Medewerker of hoger</p>
+    <p>Aanvraag of hoger</p>
    </td>
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Configuraties op toegangsniveau*</strong></td> 
-   <td><p>Toegang tot filters, weergaven, groepen weergeven of vergroten</p></td> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
+   <td> <p>Toegang tot filters, weergaven, groepen bewerken</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Objectmachtigingen</strong></td> 
-   <td><p>Machtigingen weergeven met toegang tot het filter, de weergave of de groep die u wilt verwijderen</p>
+   <td role="rowheader">Objectmachtigingen</td> 
+    <td> <p>Machtigingen weergeven met toegang tot het filter, de weergave of de groep die u wilt verwijderen</p></td> 
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-*For informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -83,17 +74,17 @@ De volgende scenario&#39;s bestaan wanneer u verwijdert of een filter verwijdert
 ### Een filter verwijderen met de standaardbuilder
 
 1. Ga naar een lijst met projecten, taken, problemen, portfolio&#39;s, programma&#39;s, gebruikers, sjablonen of groepen.
-1. Klik het **pictogram van de Filter** pictogram ![&#x200B; van de Filter &#x200B;](assets/filter-nwepng.png).
-1. Beweeg over een filter onder **Gedeeld met me**, klik **Meer** menu ![&#x200B; Meer pictogram &#x200B;](assets/more-icon-spectrum.png), dan klik **verwijderen**.
+1. Klik het **pictogram van de Filter** pictogram ![ van de Filter ](assets/filter-nwepng.png).
+1. Beweeg over een filter onder **Gedeeld met me**, klik **Meer** menu ![ Meer pictogram ](assets/more-icon-spectrum.png), dan klik **verwijderen**.
 1. Selecteer **verwijderen** op het bevestigingsbericht om de filter permanent te verwijderen.
 
 ### Een filter verwijderen met de standaardbuilder
 
 1. Ga naar een lijst met projecten, taken, problemen, portfolio&#39;s, programma&#39;s, gebruikers, sjablonen of groepen.
-1. Klik het **pictogram van de Filter** pictogram ![&#x200B; van de Filter &#x200B;](assets/filter-nwepng.png).
-1. Beweeg over een filter dat u toestemmingen hebt om te schrappen, **Meer** menu ![&#x200B; &lbrace;meer pictogram &#x200B;](assets/more-icon-spectrum.png) te klikken, dan **Schrapping** te klikken.
+1. Klik het **pictogram van de Filter** pictogram ![ van de Filter ](assets/filter-nwepng.png).
+1. Beweeg over een filter dat u toestemmingen hebt om te schrappen, **Meer** menu ![ {meer pictogram ](assets/more-icon-spectrum.png) te klikken, dan **Schrapping** te klikken.
 
-   ![&#x200B; filter van de Schrapping &#x200B;](assets/new-filters-more-menu-options-with-delete.png)
+   ![ filter van de Schrapping ](assets/new-filters-more-menu-options-with-delete.png)
 
 1. (Facultatief) klik **annuleert** op het bevestigingsbericht om de schrapping te vermijden en op de lijst van filters terug te keren.
 1. Klik **Schrapping** op het bevestigingsbericht om de schrapping te bevestigen.
@@ -116,7 +107,7 @@ De volgende scenario&#39;s bestaan wanneer u een filter, een mening, of een groe
 ### Een filter, weergave of groep verwijderen met de verouderde builder
 
 1. Ga naar een lijst met objecten of een rapport.
-1. (Voorwaardelijk) van een lijst, klik de **Filter**, **Mening**, of **Groepering** pictogram, dan greep over de filter, de mening, of het groeperen u wilt verwijderen, klik het **Meer** pictogram ![&#x200B; Meer pictogram &#x200B;](assets/more-icon.png), dan **verwijdert**. Het filter, de weergave of de groep wordt verwijderd.
+1. (Voorwaardelijk) van een lijst, klik de **Filter**, **Mening**, of **Groepering** pictogram, dan greep over de filter, de mening, of het groeperen u wilt verwijderen, klik het **Meer** pictogram ![ Meer pictogram ](assets/more-icon.png), dan **verwijdert**. Het filter, de weergave of de groep wordt verwijderd.
 1. (Voorwaardelijk) van een rapport, klik de **Groepering**, **Filter**, of **Mening** drop-down menu en uitgezocht **verwijdert Groepering**, **verwijdert Filter**, of **verwijdert Mening**.
 
    **Mijn Groepen**, **Mijn Filters,** of **Mijn de vertoningen van de de dialoogdoos van Meningen**.

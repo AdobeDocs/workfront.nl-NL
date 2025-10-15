@@ -7,47 +7,42 @@ description: U kunt vormen wat met uren gebeurt wanneer iemand een project, een 
 feature: System Setup and Administration
 role: Admin
 exl-id: 466c3972-8108-49a6-98f6-f65f5fcc3617
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: 156341072c291b5c03432da399a509d9772b73ea
 workflow-type: tm+mt
-source-wordcount: '382'
+source-wordcount: '361'
 ht-degree: 0%
 
 ---
 
 # Effect configureren op uren dat een object wordt verwijderd en hersteld
 
-U kunt vormen wat met uren gebeurt wanneer iemand een project, een taak, of een kwestie schrapt die de uren tegen worden geregistreerd. De optie die u kiest, bepaalt ook wat er met de uren gebeurt als het project, de taak of de uitgave op een later tijdstip wordt hersteld. (Voor meer informatie over het herstellen van punten in Workfront, zie [&#x200B; geschrapte punten &#x200B;](../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md) herstellen.)
+U kunt vormen wat met uren gebeurt wanneer iemand een project, een taak, of een kwestie schrapt die de uren tegen worden geregistreerd. De optie die u kiest, bepaalt ook wat er met de uren gebeurt als het project, de taak of de uitgave op een later tijdstip wordt hersteld. (Voor meer informatie over het herstellen van punten in Workfront, zie [ geschrapte punten ](../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md) herstellen.)
 
 ## Toegangsvereisten
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
-
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan</td> 
-   <td>Alle</td> 
+   <td>Adobe Workfront-pakket</td> 
+   <td><p>Alle</p></td> 
   </tr> 
   <tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront-licentie</td> 
-   <td><p>Nieuw: Standaard</p>
-       <p>of</p>
-       <p>Huidig: Plan</p></td>
-  </tr> 
+   <td>Adobe Workfront-licentie</td> 
+   <td><p>Standard</p>
+       <p>Plan</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau</td> 
-   <td>[!UICONTROL System Administrator]</td>
+   <td>Configuraties op toegangsniveau</td> 
+   <td>Systeembeheerder</td> 
   </tr> 
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

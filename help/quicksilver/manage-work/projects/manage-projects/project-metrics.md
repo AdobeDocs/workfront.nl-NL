@@ -3,41 +3,41 @@ content-type: overview;how-to-procedural
 product-area: projects
 keywords: analyses, metriek, project, taken, ontvanger, volledig, status, achterstallig, komende
 navigation-topic: manage-projects
-title: Overzicht van projectmetriek
+title: Projectmetriek begrijpen
 description: De metriek van het project geeft u een visualisatie van wat in een project gebeurt, toestaand u snel de behoeften en de status van een project beoordeelt. Ontdek hoe u het gedeelte Metriek in het linkerdeelvenster van een project kunt interpreteren.
 author: Alina
 feature: Work Management
 exl-id: 54c2a59d-9f6b-4126-9526-5169aeda8517
-source-git-commit: 78b4724ca8d5df15ed76e9e882179e3cb127282c
+source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
 workflow-type: tm+mt
-source-wordcount: '1163'
+source-wordcount: '1161'
 ht-degree: 0%
 
 ---
 
-# Overzicht van projectmetriek
+# Projectmetriek begrijpen
 
 De metriek van het project geeft u een algemene mening in grafiekformaat over hoe een project presteert.
 
 ## Toegangsvereisten
 
-+++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Workfront-plan</td> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Workfront-licentie*</td> 
-   <td> <p>Nieuw: Licht of hoger </p>
-   <p>Huidig: Controleren of hoger </p> </td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td> <p>Licht of hoger</p>
+   <p>Controleren of hoger</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuratie op toegangsniveau</td> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
    <td> <p>Toegang tot projecten weergeven</p>  </td> 
   </tr> 
   <tr> 
@@ -47,9 +47,35 @@ De metriek van het project geeft u een algemene mening in grafiekformaat over ho
  </tbody> 
 </table>
 
-*Voor meer informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Workfront plan</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Workfront license*</td> 
+   <td> <p>New: Light or higher </p>
+   <p>Current: Review or higher </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configuration</td> 
+   <td> <p>View access to Projects</p>  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>View permissions to a project</p> </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## Vereisten
 
@@ -57,7 +83,7 @@ Als u het gebied Metriek wilt openen vanuit het linkerdeelvenster van een projec
 
 * De optie Metrische gegevens voor de linkerdeelvensteroptie is ingeschakeld in het gedeelte Projecten van uw lay-outsjabloon.
 
-  Leren hoe een beheerder van Workfront of groepsbeheerder het linkerpaneel met een Malplaatje van de Lay-out kan aanpassen, zie [&#x200B; het linkerpaneel aanpassen gebruikend een lay-outmalplaatje &#x200B;](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md).
+  Leren hoe een beheerder van Workfront of groepsbeheerder het linkerpaneel met een Malplaatje van de Lay-out kan aanpassen, zie [ het linkerpaneel aanpassen gebruikend een lay-outmalplaatje ](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md).
 
 ## Overzicht van het gebied Metriek van het project
 
@@ -73,7 +99,7 @@ In het gebied Metriek, kunt u de algemene gezondheid van een project zien, evena
 
 U kunt ook naar elk diagram gaan om taken of problemen in een bepaalde categorie nader te bekijken.
 
-Meer leren over het bekijken van deze taken of kwesties, zie {de details van Metriek van 0} Mening [&#128279;](#view-metrics-details).
+Meer leren over het bekijken van deze taken of kwesties, zie {de details van Metriek van 0} Mening [.](#view-metrics-details)
 
 <!--this was deprecated: 
 >[!TIP]
@@ -99,7 +125,7 @@ Deze KPI&#39;s worden onderverdeeld in de volgende categorieën:
 >
 >Om een lijst van het werkpunten voor specifieke KPI te tonen, klik dat KPI. In die lijst kunt u op een specifiek werkitem klikken om meer details op een nieuw tabblad weer te geven.\
 >![](assets/completed-tasks-dialog-350x75.png)\
->Voor meer informatie, zie [&#x200B; de details van Metriek van de Mening &#x200B;](#view-metrics-details).
+>Voor meer informatie, zie [ de details van Metriek van de Mening ](#view-metrics-details).
 
 ## Taakgrafiek of werkbalkgrafiek
 
@@ -117,7 +143,7 @@ Wanneer de prioriteit in deze grafiek wordt geselecteerd, kunt u alle prioriteit
 >
 >Als u een lijst met werkitems met een bepaalde status of prioriteit wilt weergeven, klikt u op een balk in het diagram. In die lijst kunt u op een specifiek werkitem klikken om meer details op een nieuw tabblad weer te geven.\
 >![](assets/completed-tasks-dialog-350x75.png)\
->Voor meer informatie, zie [&#x200B; de details van Metriek van de Mening &#x200B;](#view-metrics-details).
+>Voor meer informatie, zie [ de details van Metriek van de Mening ](#view-metrics-details).
 
 ## Donut-diagram
 
@@ -135,7 +161,7 @@ In het drop-down menu boven de grafiek, kunt u selecteren:
 >
 >Als u een lijst met voltooide of onvolledige werkitems wilt weergeven, klikt u op die sectie in het donutdiagram. In die lijst kunt u op een specifiek werkitem klikken om meer details op een nieuw tabblad weer te geven.\
 >![](assets/completed-tasks-dialog-350x75.png)\
->Voor meer informatie, zie [&#x200B; de details van Metriek van de Mening &#x200B;](#view-metrics-details).
+>Voor meer informatie, zie [ de details van Metriek van de Mening ](#view-metrics-details).
 
 ## Toegewezen staafdiagram
 
@@ -155,7 +181,7 @@ U kunt taaktoewijzingen voor een project in de volgende categorieën bekijken:
 >
 >Als u een lijst met werkitems in de geselecteerde categorie wilt weergeven die aan een specifieke gebruiker zijn toegewezen, klikt u op de balk naast de naam van de gebruiker in het diagram. In die lijst kunt u op een specifiek werkitem klikken om meer details op een nieuw tabblad weer te geven.\
 >![](assets/completed-tasks-dialog-350x75.png)\
->Voor meer informatie, zie [&#x200B; de details van Metriek van de Mening &#x200B;](#view-metrics-details).
+>Voor meer informatie, zie [ de details van Metriek van de Mening ](#view-metrics-details).
 
 ## Metrische details weergeven {#view-metrics-details}
 
@@ -189,7 +215,7 @@ U kunt met de grafieken in het gebied van Metriek in wisselwerking staan om vers
 
       De taak of kwestie opent in een nieuw lusje.
 
-1. (Facultatief) om het dashboard van projectmetriek naar een.png- dossier uit te voeren, klik het **pictogram van de Uitvoer ![](assets/export.png), dan uitgezochte** Uitvoer als PNG **van het drop-down menu.**
+1. (Facultatief) om het dashboard van projectmetriek naar een.png- dossier uit te voeren, klik het **pictogram van de Uitvoer**, dan uitgezochte ![](assets/export.png) Uitvoer als PNG **van het drop-down menu.**
 
    >[!TIP]
    >

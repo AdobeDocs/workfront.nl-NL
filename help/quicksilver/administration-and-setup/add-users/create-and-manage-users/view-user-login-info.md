@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 7b37c34a-d628-4d9b-9688-e4b9f89c666b
-source-git-commit: 1c11be2d6de471bf456107b5c86a599766583f74
+source-git-commit: f8d04790caefd12c9811ea3ed94e1f892311d031
 workflow-type: tm+mt
-source-wordcount: '578'
+source-wordcount: '555'
 ht-degree: 0%
 
 ---
@@ -23,22 +23,20 @@ U kunt zien hoe vaak de gebruikers zich bij Adobe Workfront aanmelden, evenals d
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan</td> 
-   <td>Alle</td> 
+   <td>Adobe Workfront-pakket</td> 
+   <td><p>Alle</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie</td> 
-   <td><p>Nieuw: Standaard</p><p>of</p><p>Huidig: Plan</p></td> 
+   <td>Adobe Workfront-licentie</td> 
+   <td><p>Standard</p><p>Plan</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau</td> 
+   <td>Configuraties op toegangsniveau</td> 
    <td> <p>U moet een van de volgende opties hebben:</p> 
     <ul> 
      <li> <p>Het toegangsniveau voor systeembeheerders. </li> 
@@ -48,7 +46,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -74,7 +72,7 @@ Aanmelden bij Workfront op een van de volgende manieren telt als aanmelding bij 
 ## Gebruiksgegevens weergeven in een gebruikerslijst of rapport
 
 U kunt het Aantal Login en de Laatste gebieden van de Datum van Aanmelding in de mening van een lijst van gebruikers, of in een rapport voor gebruikers tonen.\
-Voor meer informatie over het creëren van een rapport, zie [&#x200B; een douanerapport &#x200B;](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) creëren.
+Voor meer informatie over het creëren van een rapport, zie [ een douanerapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) creëren.
 
 Gebruiksinformatie weergeven in de weergave van een lijst met gebruikers:
 

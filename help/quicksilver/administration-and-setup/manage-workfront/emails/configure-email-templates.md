@@ -8,9 +8,9 @@ author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 2ebc3be5-2734-4012-9277-86176c070137
-source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
+source-git-commit: e34abb5ff1068de99eaba33dc95287164e556742
 workflow-type: tm+mt
-source-wordcount: '828'
+source-wordcount: '808'
 ht-degree: 0%
 
 ---
@@ -32,21 +32,18 @@ E-mailsjablonen kunnen worden gekoppeld aan herinneringsmeldingen voor problemen
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan</td> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
    <td>Alle</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td><p>Nieuw: Standaard</p>
-   of
-   <p>Huidig: Plan</p>
+   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td><p>Standard</p>
+   <p>Plan</p>
    </td> 
   </tr> 
   <tr> 
@@ -56,7 +53,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-*Voor meer informatie over toegangsvereisten, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -66,7 +63,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 1. In het linkerpaneel, klik **E-mail** > **Meldingen** > **E-mailMalplaatjes**.
 
-   ![&#x200B; E-mailmalplaatjes tabel &#x200B;](assets/email-templates-tab-under-setup-email-notifications-area.png)
+   ![ E-mailmalplaatjes tabel ](assets/email-templates-tab-under-setup-email-notifications-area.png)
 
 1. Klik **Nieuw E-mailMalplaatje**.
 
@@ -102,7 +99,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
      </tr> 
      <tr> 
       <td role="rowheader">Lichaam </td> 
-      <td> <p>Voeg de tekst voor de inhoud van het e-mailbericht toe.</p> <p>U kunt HTML het formatteren voor de e-mailinhoud gebruiken, zoals die in de sectie <a href="#add-html-formatting-to-an-email-template" class="MCXref xref"> wordt beschreven voeg HTML het formatteren aan een e-mailmalplaatje </a> in dit artikel toe.</p> </td> 
+      <td> <p>Voeg de tekst voor de inhoud van het e-mailbericht toe.</p> <p>U kunt het formatteren van HTML voor de e-mailinhoud gebruiken, zoals die in de sectie <a href="#add-html-formatting-to-an-email-template" class="MCXref xref"> wordt beschreven voegt HTML het formatteren aan een e-mailmalplaatje </a> in dit artikel toe.</p> </td> 
      </tr> 
     </tbody> 
    </table>
@@ -112,13 +109,13 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 ## HTML-opmaak toevoegen aan een e-mailsjabloon {#add-html-formatting-to-an-email-template}
 
 U kunt HTML-tags toevoegen aan e-mailsjablonen om aangepaste meldingen te maken.\
-Begin creërend het e-mailmalplaatje zoals die in [&#x200B; wordt beschreven creeer een nieuw e-mailmalplaatje &#x200B;](#create-a-new-email-template).
+Begin creërend het e-mailmalplaatje zoals die in [ wordt beschreven creeer een nieuw e-mailmalplaatje ](#create-a-new-email-template).
 
 Met HTML-opmaak kunt u uw e-mailsjablonen verrijken, zoals in de volgende secties wordt getoond.
 
-* [&#x200B; Verbinding aan de voorwerpen van Workfront &#x200B;](#link-to-workfront-objects)
-* [&#x200B; Verbinding aan douanegebieden met HTML &#x200B;](#link-to-custom-fields-with-html)
-* [E-mailvoorbeelden HTML](#html-email-examples)
+* [ Verbinding aan de voorwerpen van Workfront ](#link-to-workfront-objects)
+* [ Verbinding aan douanegebieden met HTML ](#link-to-custom-fields-with-html)
+* [E-mailvoorbeelden van HTML](#html-email-examples)
 
 ### Koppeling naar Workfront-objecten {#link-to-workfront-objects}
 
@@ -148,9 +145,9 @@ De hoofdtekst van de e-mail voor een melding waarin de taakontvanger wordt gewaa
 
 Voer een van de volgende handelingen uit om de waarde &quot;jokerteken&quot; voor een object op te halen:
 
-* Raadpleeg de API Explorer en selecteer de namen van uw objecten op het tabblad Velden van een willekeurig object. Voor meer informatie over de API Ontdekkingsreiziger, zie [&#x200B; API Ontdekkingsreiziger &#x200B;](/help/quicksilver/wf-api/general/api-explorer.md).
+* Raadpleeg de API Explorer en selecteer de namen van uw objecten op het tabblad Velden van een willekeurig object. Voor meer informatie over de API Ontdekkingsreiziger, zie [ API Ontdekkingsreiziger ](/help/quicksilver/wf-api/general/api-explorer.md).
 
-* Gebruik de `valuefield` waarde u binnen een mening van de tekstwijze van een rapport vindt. Voor meer informatie over de waarden van de tekstwijze, zie [&#x200B; Overzicht van de Wijze van de Tekst &#x200B;](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
+* Gebruik de `valuefield` waarde u binnen een mening van de tekstwijze van een rapport vindt. Voor meer informatie over de waarden van de tekstwijze, zie [ Overzicht van de Wijze van de Tekst ](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
 
 De waarde `heading` kan de naam van het object zijn, zoals u deze in de hoofdtekst van de e-mail wilt weergeven.
 
@@ -158,7 +155,7 @@ De waarde `heading` kan de naam van het object zijn, zoals u deze in de hoofdtek
 
 U kunt koppelingen naar gebruikers en aangepaste velden opnemen door met de joker `$$` naar waarden te zoeken in de database die aan het object is gekoppeld. Ze moeten aan beide zijden van de verwijzing naar databasekenmerken aanwezig zijn.
 
-Als u bijvoorbeeld de volgende tekst toevoegt als HTML, wordt de voornaam van de toegewezen gebruiker toegevoegd aan het herinneringsbericht dat aan een taak is gekoppeld:
+Als u bijvoorbeeld de volgende tekst toevoegt als HTML, wordt de voornaam van de toegewezen gebruiker toegevoegd aan de herinneringsmelding die aan een taak is gekoppeld:
 
 `assignedTo:firstName`
 
@@ -202,9 +199,9 @@ Vervang `<your domain>` door het Workfront-domein van uw bedrijf, zonder de acco
 >
 >`DE:Project:Delivery Date`
 
-### E-mailvoorbeelden HTML {#html-email-examples}
+### E-mailvoorbeelden van HTML {#html-email-examples}
 
-* [&#x200B; laat bericht van de herinnering van het Project (voorbeeld) &#x200B;](#late-project-reminder-notification-example)
+* [ laat bericht van de herinnering van het Project (voorbeeld) ](#late-project-reminder-notification-example)
 * [Herinnering voor taak of probleem bij Start (voorbeeld)](#task-or-issue-about-to-start-reminder-example)
 
 #### Melding van laatste herinnering voor project (voorbeeld) {#late-project-reminder-notification-example}
@@ -239,7 +236,7 @@ Een project dat u beheert is te laat geworden
 
 Dit produceert een e-mail gelijkend op het volgende:
 
-![&#x200B; Project werd late e-mail &#x200B;](assets/project-became-late-email.png)
+![ Project werd late e-mail ](assets/project-became-late-email.png)
 
 #### Herinnering voor taak of probleem bij starten {#task-or-issue-about-to-start-reminder-example}
 
@@ -292,6 +289,6 @@ Als u dit voor een e-mailbericht over een probleem wilt gebruiken, wijzigt u de 
 </html>
 ```
 
-![&#x200B; email_template_delivery.png &#x200B;](assets/email-template-delivered.png)
+![ email_template_delivery.png ](assets/email-template-delivered.png)
 
-Nadat een e-mailmalplaatje wordt gecreeerd, kunnen de gebruikers het met herinneringsberichten associëren, zoals die in [&#x200B; worden beschreven de herinneringsberichten van de Opstelling &#x200B;](../../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md).
+Nadat een e-mailmalplaatje wordt gecreeerd, kunnen de gebruikers het met herinneringsberichten associëren, zoals die in [ worden beschreven de herinneringsberichten van de Opstelling ](../../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md).

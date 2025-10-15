@@ -8,14 +8,16 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: b04e8ba5-c3f2-4838-8df1-35e90de5c7bd
-source-git-commit: 6d02397a15b0b06c3c60fb5d71dfeb3cb0b0a30d
+source-git-commit: c8987d036e1c1324618cb53ebcbb8fd7e4bcc6a4
 workflow-type: tm+mt
-source-wordcount: '426'
+source-wordcount: '413'
 ht-degree: 0%
 
 ---
 
 # Controleverslagen weergeven en exporteren
+
+<!--Audited: 08/2025-->
 
 <!--
 **DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **
@@ -25,13 +27,12 @@ U kunt alle controlelogboeken in het systeem bekijken, of die die aan bepaalde h
 
 De logboeken van de controle maken een lijst gebruiker-veranderingen die in het systeem tijdens de afgelopen 90 dagen in werking worden gesteld.
 
-Voor informatie over alle types van controlelogboek en wat hen produceert, zie [&#x200B; overzicht van de Logboeken van de Controle &#x200B;](../../../administration-and-setup/add-users/create-and-manage-users/audit-logs.md).
+Voor informatie over alle types van controlelogboek en wat hen produceert, zie [ overzicht van de Logboeken van de Controle ](../../../administration-and-setup/add-users/create-and-manage-users/audit-logs.md).
 
 ## Toegangsvereisten
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -55,9 +56,33 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+<!--Old: 
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront package</td> 
+   <td><p>Any</p></td> 
+  </tr> 
+  <tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td><p>Standard</p>
+       <p>Plan</p></td>
+  </tr> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td><p>System Administrator</p></td>
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## Controlelogboeken weergeven
 
@@ -74,7 +99,7 @@ Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van d
 
    **Alle Types van Logboek** wordt geselecteerd door gebrek.
 
-   Voor een lijst van alle types van controlelogboek kunt u bekijken en de informatie zij omvatten, zie [&#x200B; overzicht van de Logboeken van de Controle &#x200B;](../../../administration-and-setup/add-users/create-and-manage-users/audit-logs.md).
+   Voor een lijst van alle types van controlelogboek kunt u bekijken en de informatie zij omvatten, zie [ overzicht van de Logboeken van de Controle ](../../../administration-and-setup/add-users/create-and-manage-users/audit-logs.md).
 
 1. (Optioneel) Stel de beschikbare filters in voor de volgende velden:
 
@@ -82,7 +107,7 @@ Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van d
    * **van**: De datum van het begin van het tijdkader toen de verandering werd aangebracht.
    * **aan**: Einddatum van het tijdkader toen de verandering werd aangebracht.
 
-   ![&#x200B; Logboeken van de Controle &#x200B;](assets/audit-logs.png)
+   ![ Logboeken van de Controle ](assets/audit-logs.png)
 
 1. Klik **toepassen**.
 1. (Facultatief) klik **Duidelijk** om veranderingen terug te stellen die aan de filters worden aangebracht.

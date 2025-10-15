@@ -6,9 +6,9 @@ description: U kunt prioriteiten stellen aan uw projecten in Portfolio Optimizer
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 54e33746-5995-49de-8e21-bf973f0694a6
-source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
+source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
 workflow-type: tm+mt
-source-wordcount: '476'
+source-wordcount: '435'
 ht-degree: 0%
 
 ---
@@ -26,15 +26,45 @@ Houd rekening met het volgende wanneer u [!UICONTROL Portfolio Optimizer] gebrui
 
 * De prioriteit van projecten in Portfolio Optimizer is zichtbaar in [!DNL Resource Planner], als het daar wordt toegelaten. In [!DNL Resource Planner] ontvangen projecten bronnen in de volgorde van hun [!UICONTROL Resource Planner] prioriteit, en niet die van de [!UICONTROL Portfolio Priority] .
 
-  Voor informatie over het prioriteren van projecten in [!UICONTROL Resource Planner], zie het artikel [&#x200B; projecten van Prioriteit in [!UICONTROL Resource Planner]](../../../resource-mgmt/resource-planning/prioritize-projects-resource-planner.md).
+  Voor informatie over het prioriteren van projecten in [!UICONTROL Resource Planner], zie het artikel [ projecten van Prioriteit in [!UICONTROL Resource Planner]](../../../resource-mgmt/resource-planning/prioritize-projects-resource-planner.md).
 
 * In het gebied **[!UICONTROL Project Prioritization]** van [!UICONTROL Portfolio Optimizer] worden projecten standaard in de volgorde [!UICONTROL Planned Start Dates] en [!UICONTROL Net Value] weergegeven.
 
 ## Toegangsvereisten
 
-+++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven. 
 
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] package</td> 
+   <td> <p>Workfront Prime of hoger</p>
+      <p>Workflow Prime of hoger</p>
+    </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] licentie</td> 
+   <td> <p>[!UICONTROL Standard]</p>
+   <p>[!UICONTROL Plan]</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
+   <td> <p>[!UICONTROL Edit] toegang tot [!UICONTROL Portfolios] en [!UICONTROL Projects]</p>  </td>
+</tr> 
+  <tr> 
+   <td role="rowheader">Objectmachtigingen</td> 
+   <td> <p>[!UICONTROL Manage] machtigingen voor het portfolio</p>  </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+*For informatie, zie [ vereisten van de Toegang voor de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
+<!--Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -42,33 +72,29 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
-   <td> <p>Alle </p> </td> 
+   <td> <p>Any </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licenties*</td> 
-   <td> <p>Nieuw: Standaard</p>
-   <p>Huidig: Plan</p> </td> 
+   <td role="rowheader">Adobe Workfront licenses*</td> 
+   <td> <p>New: Standard</p>
+   <p>Current: Plan</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>[!UICONTROL Edit] toegang tot projecten en portfolio's</p></td> 
+   <td role="rowheader">Access level configurations*</td> 
+   <td> <p>[!UICONTROL Edit] access to Projects and Portfolios</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>[!UICONTROL Manage] machtigingen voor het portfolio</p> <p>Contribute of hoger machtigingen voor de projecten</p> 
-   <p>U moet hebben leiden toestemmingen aan alle projecten in de lijst om <b> te kunnen gebruiken Vastgestelde projectprioriteit </b>.</p>
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>[!UICONTROL Manage] permissions to the portfolio</p> <p>Contribute or higher permissions to the projects</p> 
+   <p>You must have Manage permissions to all the projects in the list to be able to use <b>Set project priority</b>.</p>
     </td> 
   </tr> 
  </tbody> 
-</table>
-
-*For informatie, zie [&#x200B; vereisten van de Toegang voor de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
-
-+++
+</table>-->
 
 ## De prioriteit van de projecten in de [!UICONTROL Portfolio Optimizer] wijzigen
 
-1. Klik het **[!UICONTROL Main Menu]** pictogram van het pictogram ![&#x200B; Belangrijkste Menu &#x200B;](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront.
+1. Klik het **[!UICONTROL Main Menu]** pictogram van het pictogram ![ Belangrijkste Menu ](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront.
 
 1. Klik op **[!UICONTROL Portfolios]**.
 1. (Optioneel) Selecteer het juiste filter in de vervolgkeuzelijst **[!UICONTROL Filter]** om de juiste lijst met portfolio&#39;s weer te geven.
@@ -76,7 +102,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 1. Klik op **[!UICONTROL Portfolio Optimization]** in het linkerdeelvenster.
 1. Wijzig in het gebied [!UICONTROL project optization] de prioriteit van uw projecten door de projecten in volgorde van prioriteit te slepen en vervolgens naar de gewenste weergavepositie te slepen.
 
-   ![&#x200B; Portfolio optimizer met projecten &#x200B;](assets/portfolio-optimizer-with-projects-nwe-350x89.png)
+   ![ Portfolio optimizer met projecten ](assets/portfolio-optimizer-with-projects-nwe-350x89.png)
 
    Klik op **[!UICONTROL Set Priority]** in het gebied voor projectoptimalisatie wanneer u klaar bent met het herschikken van uw projecten. De projecten krijgen een nieuw nummer op basis van de nieuwe bestelling.
 
@@ -88,4 +114,4 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
    U kunt de prioriteit van het project zien zoals deze wordt weergegeven in [!UICONTROL Portfolio Optimizer] in de functie Bronnen door de instelling **[!UICONTROL Display Portfolio Priorities]** in de functie Bronnen in te schakelen.
 
-   Voor informatie over het prioriteren van projecten in [!UICONTROL Resource Planner], zie het artikel [&#x200B; projecten van Prioriteit in [!UICONTROL Resource Planner]](../../../resource-mgmt/resource-planning/prioritize-projects-resource-planner.md).
+   Voor informatie over het prioriteren van projecten in [!UICONTROL Resource Planner], zie het artikel [ projecten van Prioriteit in [!UICONTROL Resource Planner]](../../../resource-mgmt/resource-planning/prioritize-projects-resource-planner.md).

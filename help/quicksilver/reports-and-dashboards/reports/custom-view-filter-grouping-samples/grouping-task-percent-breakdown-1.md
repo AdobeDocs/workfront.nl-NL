@@ -7,9 +7,9 @@ description: 'In deze groepering van douaneproject, kunt u projecten tonen die d
 author: Nolan
 feature: Reports and Dashboards
 exl-id: ddb9496c-9347-4dc9-a4ce-b9017abd0bb2
-source-git-commit: a6874c3a2dfda02b8a25f78056767d8c59c888e9
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '255'
+source-wordcount: '241'
 ht-degree: 0%
 
 ---
@@ -29,32 +29,25 @@ De volgende groepering organiseert taken door het percentage volledige waarde in
 * 76-99%
 * 100%
 
-![&#x200B; task_25__break_grouping.png &#x200B;](assets/task-25--breakdown-grouping-350x412.png)
+![ task_25__break_grouping.png ](assets/task-25--breakdown-grouping-350x412.png)
 
 ## Toegangsvereisten
 
-+++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
-
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan</td> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie*</td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
    <td> 
-    <p>Nieuw:</p>
-   <ul><li><p>Medewerker om een filter te wijzigen </p></li>
-   <li><p>Standaard voor het wijzigen van een rapport</p></li> </ul>
-
-<p>Huidige:</p>
-   <ul><li><p>Verzoek om een filter te wijzigen </p></li>
-   <li><p>Plan om een rapport te wijzigen</p></li> </ul></td> 
+   <p>Medewerker of verzoek om een filter te wijzigen </p>
+   <p>Standaard of Plan om een rapport te wijzigen</p>
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau</td> 
@@ -67,7 +60,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-*For informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

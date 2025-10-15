@@ -7,9 +7,9 @@ description: Deze uurgroepering organiseert uren door de sponsor van het project
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 6b35b0ef-18b7-4121-ae39-d7957d76c04b
-source-git-commit: bc99e303047b989b972974b398420a9180e40874
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '248'
+source-wordcount: '234'
 ht-degree: 0%
 
 ---
@@ -20,32 +20,25 @@ ht-degree: 0%
 
 Deze uurgroepering organiseert uren door de sponsor van het project waar de uren worden geregistreerd. De standaardinterface van de rapportbouwer voor uurgroepen verstrekt geen afbeelding aan het gebied van de Sponsor van het Project. U moet de interface van de Wijze van de Tekst gebruiken om tot dit gebied toegang te hebben.
 
-![&#x200B; hour_report_grouped_by_sponsor.png &#x200B;](assets/hour-report-grouped-by-sponsor-350x39.png)
+![ hour_report_grouped_by_sponsor.png ](assets/hour-report-grouped-by-sponsor-350x39.png)
 
 ## Toegangsvereisten
 
-+++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
-
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan</td> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie*</td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
    <td> 
-    <p>Nieuw:</p>
-   <ul><li><p>Medewerker om een filter te wijzigen </p></li>
-   <li><p>Standaard voor het wijzigen van een rapport</p></li> </ul>
-
-<p>Huidige:</p>
-   <ul><li><p>Verzoek om een filter te wijzigen </p></li>
-   <li><p>Plan om een rapport te wijzigen</p></li> </ul></td> 
+   <p>Medewerker of verzoek om een filter te wijzigen </p>
+   <p>Standaard of Plan om een rapport te wijzigen</p>
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau</td> 
@@ -58,7 +51,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-*For informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

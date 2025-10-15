@@ -3,13 +3,13 @@ content-type: tips-tricks-troubleshooting
 product-area: projects
 navigation-topic: tips-tricks-and-troubleshooting-tasks
 title: Geprojecteerde duur komt niet overeen met geplande duur
-description: 'U ontvangt het volgende foutbericht: ''De voorspelde duur van een taak/probleem is naar 0 gegaan en komt niet overeen met de geplande duur.'''
+description: 'In dit artikel wordt beschreven hoe u problemen in Adobe Workfront kunt oplossen wanneer u het volgende bericht ontvangt: ''De voorspelde duur van een taak/probleem is naar 0 gegaan en komt niet overeen met de geplande duur.'''
 author: Alina
 feature: Work Management
 exl-id: ef135d44-3138-457d-b54a-3f1102ce3116
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: c1b8af0d8a95714bb597db7a429794773358cf05
 workflow-type: tm+mt
-source-wordcount: '225'
+source-wordcount: '233'
 ht-degree: 0%
 
 ---
@@ -32,8 +32,8 @@ In de meeste gevallen, afhankelijk van het Type van Duur en de Beperking van de 
 
 Hier volgen de beste dingen om in die gevallen met verwijzingen naar hun ondersteunende artikelen te controleren:
 
-* Geprojecteerde de Datum van de Voltooiing: [&#x200B; Overzicht van de Verwachte Datum van de Voltooiing voor projecten, taken, en kwesties &#x200B;](../../../manage-work/projects/planning-a-project/project-projected-completion-date.md)
-* De Beperking van de taak: [&#x200B; Overzicht van de Restrictie van de Taak &#x200B;](../../../manage-work/tasks/task-constraints/task-constraint-overview.md)
-* Het Type van duur: [&#x200B; Overzicht van het Type van Duur en van de Duur van de Taak &#x200B;](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)
+* Geprojecteerde de Datum van de Voltooiing: [ Overzicht van de Verwachte Datum van de Voltooiing voor projecten, taken, en kwesties ](../../../manage-work/projects/planning-a-project/project-projected-completion-date.md)
+* De Beperking van de taak: [ Overzicht van de Restrictie van de Taak ](../../../manage-work/tasks/task-constraints/task-constraint-overview.md)
+* Het Type van duur: [ Overzicht van het Type van Duur en van de Duur van de Taak ](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)
 
 Als de Geprojecteerde Datum van de Voltooiing, de Beperking van de Taak, of het type van Duur zoals verwacht werken, contacteer steun voor meer diepgaande het oplossen van problemen.

@@ -6,9 +6,9 @@ description: U kunt teams deactiveren die u niet meer gebruikt, terwijl de bijbe
 author: Lisa
 feature: People Teams and Groups
 exl-id: 634e4c0f-aa1d-4197-92e3-54f414344ac0
-source-git-commit: 79da9f7ed5149ca33f6eaeac347188149f410695
+source-git-commit: dd47158a4c2e1b7372af6c9450b2d277d1ca8c6f
 workflow-type: tm+mt
-source-wordcount: '439'
+source-wordcount: '423'
 ht-degree: 0%
 
 ---
@@ -40,38 +40,35 @@ U kunt teams deactiveren die u niet meer gebruikt, terwijl de bijbehorende histo
  </tbody> 
 </table>
 
-De gedeactiveerde teams verschijnen niet wanneer u naar een team zoekt, maar zullen nog in [!UICONTROL Home Team] en Andere Teams tonen als de gebruiker aan het team voorafgaand aan deactivatie werd toegewezen.
+Gedetactiveerde teams worden niet weergegeven wanneer u naar een team zoekt, maar worden wel weergegeven in [!UICONTROL Home Team] en Overige teams als de gebruiker aan het team was toegewezen voordat het team werd gedeactiveerd.
 
 ## Toegangsvereisten
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
-
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Adobe Workfront-plan</td> 
+   <td role="rowheader"> <p>Adobe Workfront-pakket</p> </td> 
    <td>Alle</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie</td> 
    <td>
-   <p>Nieuw: Standaard</p>
-   <p>of</p>
-   <p>Huidig: Plan</p></td>
-  </tr>
+   <p>Standard</p>
+   <p>Plan</p></td>
+  </tr> 
   <tr>
    <td>Configuraties op toegangsniveau</td>
    <td><p>Voor het deactiveren van een team zijn geen configuraties vereist.</p>
-   <p>Om een team te schrappen, moet u een systeembeheerder zijn.</p></td>
+   <p>Om een team te schrappen, moet u een beheerder van het Systeem zijn.</p></td>
   </tr>
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -99,7 +96,7 @@ Wanneer het gebruiken van verzoekrijen, als u een team deactiveert dat als stand
 
 Gedetactiveerde teams worden weergegeven in de volgende gebieden:
 
-* Het veld Eigenaar in [!DNL Workfront Goals] . Hiervoor is een extra licentie vereist voor [!DNL Adobe Workfront Goals] . Voor meer informatie, zie [&#x200B; begonnen worden met  [!DNL Adobe Workfront Goals]](../../workfront-goals/goal-management/getting-started-with-wf-goals.md).
+* Het veld Eigenaar in [!DNL Workfront Goals] . Hiervoor is een extra licentie vereist voor [!DNL Adobe Workfront Goals] . Voor meer informatie, zie [ begonnen worden met  [!DNL Adobe Workfront Goals]](../../workfront-goals/goal-management/getting-started-with-wf-goals.md).
 
 ## Een team verwijderen
 

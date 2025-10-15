@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: aed65b42-d534-453a-885d-f922114987bc
-source-git-commit: 03c17f2a09f4b2e00a4a03a177ce241b38b9ea7e
+source-git-commit: 22ae8b489c63ba6eea1472cf415f95e375a94773
 workflow-type: tm+mt
-source-wordcount: '447'
+source-wordcount: '405'
 ht-degree: 0%
 
 ---
@@ -30,34 +30,34 @@ Deze IP adressen of IP adreswaaiers zouden door uw netwerkbeheerder moeten worde
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
-U moet het volgende hebben om de stappen in dit artikel uit te voeren:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan</td> 
-   <td> <p>Enterprise</p> </td> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
+   <td><p>Alle</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie</td> 
-   <td>Plan</td> 
+   <td><p>Standard</p><p>Plan</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau</td> 
-   <td> <p>U moet een Workfront-beheerder zijn.</p> <p><b> Nota </b>: Als u nog geen toegang hebt, vraag uw beheerder van Workfront als zij extra beperkingen in uw toegangsniveau plaatsen. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
+   <td> <p>U moet een Workfront-beheerder zijn.</p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
+
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Overige lijsten van gewenste personen
 
-Als uw firewall of postserver wordt gevormd om toegang tot slechts bepaalde verkopers toe te staan, moet u bepaalde IP adressen aan zijn lijst van gewenste personen toevoegen. Hierdoor wordt de communicatie tussen uw omgeving en de Adobe Workfront-servers geopend. Voor informatie over dat, zie [&#x200B; de lijst van gewenste personen van uw firewall &#x200B;](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md) vormen.
+Als uw firewall of postserver wordt gevormd om toegang tot slechts bepaalde verkopers toe te staan, moet u bepaalde IP adressen aan zijn lijst van gewenste personen toevoegen. Hierdoor wordt de communicatie tussen uw omgeving en de Adobe Workfront-servers geopend. Voor informatie over dat, zie [ de lijst van gewenste personen van uw firewall ](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md) vormen.
 
-Als uw organisatie het Enterprise-abonnement gebruikt, kunt u de Workfront e-mailtoepassing configureren om te bepalen welke e-maildomeinen e-mails van Workfront mogen accepteren en welke e-maildomeinen zich in het e-mailadres kunnen bevinden dat gebruikers in hun Workfront-gebruikersprofiel opgeven. Voor meer informatie, zie [&#x200B; uw e-maillijst van gewenste personen &#x200B;](../../../administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md) vormen.
+Als uw organisatie het Enterprise-abonnement gebruikt, kunt u de Workfront e-mailtoepassing configureren om te bepalen welke e-maildomeinen e-mails van Workfront mogen accepteren en welke e-maildomeinen zich in het e-mailadres kunnen bevinden dat gebruikers in hun Workfront-gebruikersprofiel opgeven. Voor meer informatie, zie [ uw e-maillijst van gewenste personen ](../../../administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md) vormen.
 
 ## IP adressen toevoegen aan de lijst van gewenste personen
 
@@ -67,7 +67,7 @@ Nadat u IP adressen aan de lijst van gewenste personen van Workfront toevoegt, s
 
 1. Klik **Systeem** > **Info van de Klant.**
 
-1. In de **sectie van de lijst van gewenste personen van 0&rbrace; IP, uitgezochte** laat IP lijst van gewenste personen toe.**&#x200B;**
+1. In de **sectie van de lijst van gewenste personen van 0} IP, uitgezochte** laat IP lijst van gewenste personen toe.****
 
    Deze optie is standaard uitgeschakeld.
 

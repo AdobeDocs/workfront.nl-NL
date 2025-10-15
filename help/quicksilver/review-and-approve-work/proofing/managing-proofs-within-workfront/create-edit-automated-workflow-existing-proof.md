@@ -6,9 +6,9 @@ description: Met geautomatiseerde workflows kunt u het revisieproces eenvoudiger
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 852f960f-1b57-4a8a-a928-407ad52418e6
-source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
+source-git-commit: ac714bd5a5259d6f995ac445efbd0125e07022cb
 workflow-type: tm+mt
-source-wordcount: '1242'
+source-wordcount: '1142'
 ht-degree: 0%
 
 ---
@@ -17,38 +17,39 @@ ht-degree: 0%
 
 Met geautomatiseerde workflows kunt u het revisieproces eenvoudiger beheren als uw proces complex is of als u regelmatig inhoud ter controle naar dezelfde groepen personen verzendt. Wanneer u een proef met een Geautomatiseerde Werkstroom creeert, beweegt de proef zich van stadium aan stadium tot definitieve goedkeuring. Deelnemers krijgen een melding wanneer het hun beurt is om het document te reviseren.
 
-Voor informatie over het creëren van een Geautomatiseerd Werkschema voor een nieuw bewijs, zie [&#x200B; een geavanceerd bewijs met een Geautomatiseerd werkschema &#x200B;](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-automated-proof-workflow.md) creëren.
+Voor informatie over het creëren van een Geautomatiseerd Werkschema voor een nieuw bewijs, zie [ een geavanceerd bewijs met een Geautomatiseerd werkschema ](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-automated-proof-workflow.md) creëren.
 
 ## Toegangsvereisten
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
-
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-abonnement*</td> 
-   <td> <p>Huidig abonnement: Pro of hoger</p> <p>of</p> <p>Verouderd plan: Premium</p> <p>Voor meer informatie over het proefdrukken van toegang met de verschillende plannen, zie <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref"> Toegang tot het proefdrukken van functionaliteit in Workfront </a>.</p> </td> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
+   <td> <p>Alle</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Huidig plan: Werk of Plan</p> <p>Ouder plan: Willekeurig (proefdrukken moet zijn ingeschakeld voor de gebruiker)</p> </td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td>
+   <p>Standard</p>
+   <p>Werken of plannen</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Bewijs van machtigingsprofiel </td> 
    <td>Manager of hoger</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot documenten bewerken</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
+   <td> <p>Toegang tot documenten bewerken</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42; om te weten te komen welk plan, rol, of Profiel van de Toestemming van het Bewijs u hebt, contacteer uw beheerder van Workfront of van Workfront Proof.
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -58,7 +59,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
    of
 
-   Als u de proef in de het proeven kijker bekijkt, klik **![&#x200B; pictogram van het Werkschema &#x200B;](assets/workflow-icon-proofing-viewer.png) in het linkerpaneel van het Werkschema, dan klik het Edit pictogram ![&#x200B; uitgeven pictogram &#x200B;](assets/edit-icon-proofing-viewer.png) om de Geautomatiseerde montages van het Werkschema voor de proef te openen.**
+   Als u de proef in de het proeven kijker bekijkt, klik **** pictogram van het Werkschema ![ in het linkerpaneel van het Werkschema, dan klik het Edit pictogram ](assets/workflow-icon-proofing-viewer.png) uitgeven pictogram ![ om de Geautomatiseerde montages van het Werkschema voor de proef te openen.](assets/edit-icon-proofing-viewer.png)
 
 1. (Voorwaardelijk) als de proef momenteel een basiswerkschema (zonder stadia) gebruikt, klik **Bekeerling aan Geautomatiseerde Werkschema** in het scherm dat verschijnt.
 
@@ -68,7 +69,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 1. Voorwaardelijk) om een Geautomatiseerd malplaatje van het Werkschema te gebruiken dat uw beheerder van Adobe Workfront creeerde en met u deelde, **toevoegt malplaatje**, selecteert het malplaatje in de doos die verschijnt, dan klik **voegt malplaatje** toe.
 
-   Voor meer informatie, zie [&#x200B; Ongeveer gebruikend de Geautomatiseerde malplaatjes van het Werkschema &#x200B;](#about-using-automated-workflow-templates) in dit artikel.
+   Voor meer informatie, zie [ Ongeveer gebruikend de Geautomatiseerde malplaatjes van het Werkschema ](#about-using-automated-workflow-templates) in dit artikel.
 
 1. Een werkgebied toevoegen aan de automatische workflow:
 
@@ -110,7 +111,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
    1. Voer een naam of e-mailadres in en configureer instellingen voor controleurs voor het werkgebied.
 
-      Voor informatie over het toevoegen van recensenten, zie [&#x200B; Ongeveer toevoegend recensenten aan een stadium &#x200B;](#about-adding-reviewers-to-a-stage) in dit artikel.
+      Voor informatie over het toevoegen van recensenten, zie [ Ongeveer toevoegend recensenten aan een stadium ](#about-adding-reviewers-to-a-stage) in dit artikel.
 
    1. Gebruik een van de volgende opties om het werkgebied verder te configureren:
 
@@ -155,7 +156,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
    Aangezien u stadia aan de Geautomatiseerde Werkschema toevoegt, vormt een diagram op het scherm om hen te vertegenwoordigen:
 
-   ![&#x200B; diagram van het Werkschema &#x200B;](assets/workflow-diagram-existing-proof-qs-350x215.png)
+   ![ diagram van het Werkschema ](assets/workflow-diagram-existing-proof-qs-350x215.png)
 
 1. Wanneer u klaar bent toevoegend stadia, klik **Gedaan**.
 

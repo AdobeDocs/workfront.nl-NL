@@ -6,9 +6,9 @@ description: U kunt het deelvenster Samenvatting openen in Workload Balancer om 
 author: Lisa
 feature: Resource Management
 exl-id: dfc73b58-482e-46c7-a8c2-46070ee617f9
-source-git-commit: 23c6d9335b0adcafc4e2ecdd8ef2d0ab09709fa8
+source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '389'
 ht-degree: 0%
 
 ---
@@ -23,26 +23,22 @@ Het deelvenster Samenvatting is beschikbaar voor taken en problemen in zowel de 
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan</td> 
-   <td> <p>Alle </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront-licentie</td> 
-   <td><p>Nieuw: Standaard</p>
-       <p>of</p>
-       <p>Huidig: Plan, wanneer het gebruiken van de Balancer van de Werkbelasting in het gebied van de Middelen;</br>
-       Het werk, wanneer het gebruiken van de Balancer van de Werkbelasting van een team of een project</p></td>
+   <td>Adobe Workfront-pakket</td> 
+   <td><p>Alle</p></td>
   </tr>
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau</td> 
-   <td> <p>Toegang tot het volgende bewerken:</p> 
+   <td>Adobe Workfront-licentie</td> 
+   <td><p>Standard</p>
+       <p>Plan, wanneer het gebruiken van de Balancer van de Werkbelasting in het gebied van Middelen; het werk, wanneer het gebruiken van de Balancer van de Werkbelasting van een team of een project</p></td>
+  </tr>
+  <tr> 
+   <td>Configuraties op toegangsniveau</td> 
+   <td> <p>Toegang tot het volgende weergeven of vergroten:</p> 
     <ul> 
      <li>Bronbeheer</li> 
      <li>Projecten</li> 
@@ -52,13 +48,13 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Objectmachtigingen</td> 
-   <td>Contribute-machtigingen of hoger voor de projecten, taken en problemen</td> 
+   <td>Objectmachtigingen</td> 
+   <td>Contribute of hoger machtigingen voor de projecten, taken en uitgaven</td> 
   </tr> 
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -78,15 +74,15 @@ Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van d
 
    of
 
-   Klik **Open Samenvatting** pictogram ![&#x200B; Open Samenvattend pictogram &#x200B;](assets/summary-panel-icon.png), dan klik de bar van een taak of kwestie om het Summiere paneel te openen.
+   Klik **Open Samenvatting** pictogram ![ Open Samenvattend pictogram ](assets/summary-panel-icon.png), dan klik de bar van een taak of kwestie om het Summiere paneel te openen.
 
    of
 
-   Klik het **Meer** menu ![&#x200B; Meer pictogram &#x200B;](assets/more-icon.png) aan het recht van een taak of een kwestie, dan klik **Open Samenvatting**.
+   Klik het **Meer** menu ![ Meer pictogram ](assets/more-icon.png) aan het recht van een taak of een kwestie, dan klik **Open Samenvatting**.
 
    Het deelvenster Samenvatting wordt aan de rechterkant geopend.
 
-   ![&#x200B; Samenvattings paneel &#x200B;](assets/summary-panel-task-wb-new-comments.png)
+   ![ Samenvattings paneel ](assets/summary-panel-task-wb-new-comments.png)
 
 1. Wijzig een aantal gebieden voor het het werkpunt, ga een update in, of u navigeert van hier aan andere gebieden van Workfront om documenten of andere informatie aan het het werkpunt toe te voegen.
 
@@ -94,7 +90,7 @@ Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van d
    >
    >Als u van de sectie Overzicht naar de sectie Subtaken gaat om subtaken toe te voegen, wordt de oorspronkelijke taak verwijderd, omdat bovenliggende taken niet worden weergegeven in Workload Balancer.
 
-   Voor meer informatie over het bijwerken van informatie die de Samenvatting gebruiken, zie [&#x200B; Overzicht van de Samenvatting &#x200B;](../../workfront-basics/the-new-workfront-experience/summary-overview.md).
+   Voor meer informatie over het bijwerken van informatie die de Samenvatting gebruiken, zie [ Overzicht van de Samenvatting ](../../workfront-basics/the-new-workfront-experience/summary-overview.md).
 
 1. (Voorwaardelijk) als u om het even welke secties van het het werkpunt opende, klik uw browser **Achterknoop** om aan de Balancer van de Werklast terug te keren.
-1. Klik het **Dichte pictogram** ![&#x200B; Dichte pictogram &#x200B;](assets/close-icon.png) in de hoger-juiste hoek van de Samenvatting, om het te sluiten.
+1. Klik het **Dichte pictogram** ![ Dichte pictogram ](assets/close-icon.png) in de hoger-juiste hoek van de Samenvatting, om het te sluiten.

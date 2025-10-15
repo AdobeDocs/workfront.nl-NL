@@ -5,9 +5,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 9d12895d-cf7f-41c6-a2ac-bb731770c187
-source-git-commit: c887569d59c7751210671cab97c492ee1752fffc
+source-git-commit: 2a83e5a415ff254cf5525d6f44ecb0e447e7e70a
 workflow-type: tm+mt
-source-wordcount: '843'
+source-wordcount: '807'
 ht-degree: 0%
 
 ---
@@ -20,32 +20,33 @@ Als beheerder van Adobe Workfront, kunt u een toegangsniveau gebruiken om gebrui
 
 >[!NOTE]
 >
->Dit is verschillend van het geven van een gebruiker volledige administratieve toegang tot Workfront, die in [&#x200B; een gebruiker volledige administratieve toegang &#x200B;](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md) verleent. &#x200B;
+>Dit is verschillend van het geven van een gebruiker volledige administratieve toegang tot Workfront, die in [ een gebruiker volledige administratieve toegang ](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md) verleent. &#x200B;
 
 ## Toegangsvereisten
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
-
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan</td> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
    <td>Alle</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie</td> 
-   <td>Plan</td> 
+   <td>   <p>Standard</p>
+   <p>Plan</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau</td> 
-   <td> <p>U moet een Workfront-beheerder zijn.</p> <p><b> NOTA </b>: Als u nog geen toegang hebt, vraag uw beheerder van Workfront als zij extra beperkingen in uw toegangsniveau plaatsen. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref" data-mc-variable-override=""> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
+   <td> <p>U moet een Workfront-beheerder zijn.</p> </td> 
   </tr> 
  </tbody> 
 </table>
+
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -124,8 +125,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    </table>
 
 1. Wanneer u wordt gebeëindigd, klik **sparen**.
-1. Wijs het nieuwe toegangsniveau aan een gebruiker toe, zoals die in [&#x200B; wordt beschreven voegt gebruikers &#x200B;](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md) toe.
+1. Wijs het nieuwe toegangsniveau aan een gebruiker toe, zoals die in [ wordt beschreven voegt gebruikers ](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md) toe.
 
    >[!NOTE]
    >
-   >U kunt gebruikers administratieve toegang tot gebruikers toestaan. Voor meer informatie over het geven van gebruikers administratieve toegang tot gebruikers zodat kunnen zij gebruikersrekeningen beheren, zie [&#x200B; de toegang van de Verlening tot gebruikers &#x200B;](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
+   >U kunt gebruikers administratieve toegang tot gebruikers toestaan. Voor meer informatie over het geven van gebruikers administratieve toegang tot gebruikers zodat kunnen zij gebruikersrekeningen beheren, zie [ de toegang van de Verlening tot gebruikers ](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).

@@ -7,7 +7,7 @@ description: De Handoff Datum is de datum dat een taak voor het werk beschikbaar
 author: Alina
 feature: Work Management
 exl-id: caf2dbba-5311-418d-8c82-ddcc256f9926
-source-git-commit: b774a74863bb35e3477a69ff11189c40a6d66437
+source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
 workflow-type: tm+mt
 source-wordcount: '723'
 ht-degree: 0%
@@ -41,13 +41,13 @@ Workfront hanteert de volgende regels voor het berekenen van de afhandelingsdatu
 
   `Successor Handoff Date = Predecessor Actual Completion Date + Lag`
 
-  Voor informatie over vertragingstijd, zie [&#x200B; Overzicht van de Types van Markeringen &#x200B;](../use-prdcssrs/lag-types.md).
+  Voor informatie over vertragingstijd, zie [ Overzicht van de Types van Markeringen ](../use-prdcssrs/lag-types.md).
 
   Als de opvolgertaak meer dan één voorganger heeft, wordt de afhandelingsdatum berekend op basis van de laatste werkelijke Voltooiingsdatum van de voorgangers. Als de werkelijke Voltooiingsdata van de twee voorgangers bijvoorbeeld 8 november 2022 en 20 november 2022 zijn, is de Handoff Date van de opvolger 20 november 2022.
 
   >[!NOTE]
   >
-  >   Het berekenen van de Handoff Datum van een opvolgertaak die op de Ware Datum van Voltooiing of een voorgangertaak wordt gebaseerd is het zelfde of voorganger wordt afgedwongen of niet. Voor meer informatie over gedwongen predecessors, zie [&#x200B; predecessors &#x200B;](../use-prdcssrs/enforced-predecessors.md) afdwingen.
+  >   Het berekenen van de Handoff Datum van een opvolgertaak die op de Ware Datum van Voltooiing of een voorgangertaak wordt gebaseerd is het zelfde of voorganger wordt afgedwongen of niet. Voor meer informatie over gedwongen predecessors, zie [ predecessors ](../use-prdcssrs/enforced-predecessors.md) afdwingen.
 
 
 * **wanneer de taak geen voorganger en** heeft:
@@ -62,7 +62,7 @@ Workfront hanteert de volgende regels voor het berekenen van de afhandelingsdatu
 >* U berekent manueel de chronologie van het project van de opvolger opnieuw. U moet over beheerdersmachtigingen voor het project beschikken om de tijdlijn opnieuw te berekenen.
 >* De tijdlijn van het project van de opvolger wordt automatisch &#39;s nachts opnieuw berekend.
 >
->Voor informatie over het opnieuw berekenen van de chronologie van het project, zie [&#x200B; projectchronologie &#x200B;](../../../manage-work/projects/manage-projects/recalculate-project-timeline.md) opnieuw berekenen.
+>Voor informatie over het opnieuw berekenen van de chronologie van het project, zie [ projectchronologie ](../../../manage-work/projects/manage-projects/recalculate-project-timeline.md) opnieuw berekenen.
 
 * **wanneer de taak een gedwongen beperking voor de Geplande Datums** heeft: De Datum van de Aflevering varieert afhankelijk van het type van beperking en of de taak een Ware Datum van het Begin heeft of niet.\
   De volgende taken zijn geforceerde beperkingen:
@@ -89,4 +89,4 @@ Workfront hanteert de volgende regels voor het berekenen van de afhandelingsdatu
 ## De Handoff-datum zoeken
 
 U kunt de Handoff Datum van een taak in een taakrapport of de mening van een taaklijst tonen.\
-Voor meer informatie over de bouw van een rapport, zie [&#x200B; een douanerapport &#x200B;](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) creëren.
+Voor meer informatie over de bouw van een rapport, zie [ een douanerapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) creëren.

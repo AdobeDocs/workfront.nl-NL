@@ -6,9 +6,9 @@ description: Adobe Workfront heeft een uitgebreide lijst met ingebouwde rapporte
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 32a47c25-192a-4e97-9016-42e6b6e201b9
-source-git-commit: e8acdf8f7b3859385237e788dfda34ee62ee11d1
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '2986'
+source-wordcount: '2978'
 ht-degree: 0%
 
 ---
@@ -19,35 +19,27 @@ ht-degree: 0%
 
 Adobe Workfront heeft een uitgebreide lijst met ingebouwde rapporten die u kunt gebruiken.
 
-Workfront-beheerders kunnen ingebouwde rapporten verbergen, zodat gebruikers er geen toegang toe hebben. Voor meer informatie over hoe te om ingebouwde rapporten te verbergen, zie [&#x200B; ingebouwde rapporten van de Huid &#x200B;](../../../administration-and-setup/manage-workfront/configure-reports/hide-built-in-reports.md).
+Workfront-beheerders kunnen ingebouwde rapporten verbergen, zodat gebruikers er geen toegang toe hebben. Voor meer informatie over hoe te om ingebouwde rapporten te verbergen, zie [ ingebouwde rapporten van de Huid ](../../../administration-and-setup/manage-workfront/configure-reports/hide-built-in-reports.md).
 
 ## Toegangsvereisten
 
-+++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
-
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan</td> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie*</td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
    <td> 
-      <p>Nieuw:</p>
-         <ul>
-         <li><p>Medewerker of hoger</p></li>
-         </ul>
-      <p>Huidige:</p>
-         <ul>
-         <li><p>Aanvraag of hoger</p></li>
-         </ul>
+      <p>Medewerker of hoger</p>
+      <p>Aanvraag of hoger</p>
    </td>
-  </tr> 
+  </tr>
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau</td> 
    <td> <p>Toegang tot filters, weergaven, groepen bewerken</p> <p>Toegang tot rapporten, dashboards, kalenders weergeven of vergroten</p> </td> 
@@ -59,13 +51,13 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-*For informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Overzicht van ingebouwde rapporten {#overview-of-built-in-reports}
 
-U kunt een exemplaar tot stand brengen een ingebouwd rapport en het bewaren als nieuw rapport. Voor meer informatie over het creëren van exemplaren van ingebouwde rapporten, zie [&#x200B; een nieuwe versie van een rapport &#x200B;](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md#create-a-new-version-of-a-report) in het artikel [&#x200B; creëren een exemplaar van een rapport &#x200B;](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md).
+U kunt een exemplaar tot stand brengen een ingebouwd rapport en het bewaren als nieuw rapport. Voor meer informatie over het creëren van exemplaren van ingebouwde rapporten, zie [ een nieuwe versie van een rapport ](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md#create-a-new-version-of-a-report) in het artikel [ creëren een exemplaar van een rapport ](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md).
 
 De volgende verslagen gaan over het Workfront-pakket. De rapporten zijn beschikbaar aan alle gebruikers die minstens de rechten van de Mening aan ingebouwde rapporten in hun toegangsniveau hebben.
 
@@ -381,8 +373,8 @@ De volgende verslagen gaan over het Workfront-pakket. De rapporten zijn beschikb
 1. Onder het **voorwerp van het Rapport**, uitgezochte **Globale identiteitskaart**.
 
 1. In het drop-down menu van de filterbepaling, uitgezocht **is niet Leeg**.\
-   ![&#x200B; Globale filter van identiteitskaart voor systeemrapporten &#x200B;](assets/qs-global-id-filter-for-system-reports-350x179.png)
+   ![ Globale filter van identiteitskaart voor systeemrapporten ](assets/qs-global-id-filter-for-system-reports-350x179.png)
 
 1. Klik **sparen Filter**.\
    De rapportenlijst toont slechts ingebouwde rapporten.\
-   Voor meer informatie over welke ingebouwde rapporten beschikbaar zijn, zie het sectie [&#x200B; Overzicht van ingebouwde rapporten &#x200B;](#overview-of-built-in-reports) in dit artikel.
+   Voor meer informatie over welke ingebouwde rapporten beschikbaar zijn, zie het sectie [ Overzicht van ingebouwde rapporten ](#overview-of-built-in-reports) in dit artikel.

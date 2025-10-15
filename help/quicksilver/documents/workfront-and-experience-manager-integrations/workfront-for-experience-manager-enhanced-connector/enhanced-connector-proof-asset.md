@@ -6,9 +6,9 @@ description: Nadat u middelen van Experience Manager Assets hebt verbonden, kunt
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: d72ac84f-1865-4122-bc77-d8200a4d0f69
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 3f9a824780f2ded914d461a473aef3b6ecfa8701
 workflow-type: tm+mt
-source-wordcount: '437'
+source-wordcount: '387'
 ht-degree: 0%
 
 ---
@@ -19,42 +19,48 @@ Nadat u middelen van Experience Manager Assets hebt verbonden, kunt u een proef 
 
 ## Toegangsvereisten
 
-U moet het volgende hebben:
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-abonnement*</td> 
-   <td> <p> Alle</p> </td> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licenties*</td> 
-   <td> <p>Werk of hoger</p> </td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td> 
+   <p>Standard</p>
+   <p>Werk of hoger</p> 
+    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Product</td> 
-   <td>Je moet Experience Manager Assets Essentials hebben.</td> 
+   <td role="rowheader">Aanvullende producten</td> 
+   <td>Experience Manager Assets </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot documenten bewerken</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
+   <td> <p>Toegang tot documenten bewerken</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Toegang weergeven of hoger</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
+   <td> <p>Toegang of hoger weergeven op een document</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
+
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Vereisten
 
 Voordat u begint, moet u
 
-* De Workfront for Experience Manager Enhanced-aansluiting installeren
+* De Workfront for Experience Manager verbeterde connector installeren
 
 ## Een proefdruk maken
 
@@ -98,7 +104,7 @@ Zodra u een bewijs hebt gecreeerd, kunt u dingen als doen
 * Revisoren en deadlines bijwerken
 * De workflow bewerken
 
-Voor meer informatie over hoe te om een bestaand bewijs te beheren, zie [&#x200B; proef binnen Adobe Workfront &#x200B;](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proofs-in-wf.md) beheren.
+Voor meer informatie over hoe te om een bestaand bewijs te beheren, zie [ proef binnen Adobe Workfront ](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proofs-in-wf.md) beheren.
 
 ## Een proefafdruk controleren
 
@@ -109,4 +115,4 @@ Toegewezen revisoren kunnen dingen doen zoals
 * Versies vergelijken
 * Het bewijs goedkeuren of afwijzen
 
-Voor meer informatie over wat u met het het proef hulpmiddel kunt doen, zie [&#x200B; proefdrukken van het Overzicht binnen Adobe Workfront &#x200B;](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md).
+Voor meer informatie over wat u met het het proef hulpmiddel kunt doen, zie [ proefdrukken van het Overzicht binnen Adobe Workfront ](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md).

@@ -6,9 +6,9 @@ description: Het integreren  [!DNL Adobe Workfront]  met Slack staat u toe om  [
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: cac75a81-26e8-4713-a6be-453943b431ab
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 6178cabbf021fbf92bd8795c5c2bd0346801d64d
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: '391'
 ht-degree: 1%
 
 ---
@@ -24,26 +24,28 @@ Door [!DNL Adobe Workfront] te integreren met [!DNL Slack] kunt u het volgende d
 
 Afhankelijk van de configuratie van uw [!DNL Slack] -omgeving kunt u [!DNL Workfront for Slack] zelf installeren en configureren. Uw [!DNL Workfront] -beheerder moet deze eerst installeren en configureren voordat u deze voor uzelf kunt configureren.
 
-Wanneer u de [!DNL Slack] -instantie integreert met [!DNL Workfront] kunnen gebruikers [!DNL Workfront] gebruiken terwijl ze samenwerken binnen hun [!DNL Slack] -kanalen. De integratie kan vanuit elke [!DNL Slack] -omgeving worden gebruikt, inclusief de mobiele app van [!DNL Slack] .
+Wanneer u de [!DNL Slack] -instantie integreert met [!DNL Workfront] kunnen gebruikers [!DNL Workfront] gebruiken terwijl ze samenwerken binnen hun [!DNL Slack] -kanalen. De integratie kan vanuit elke [!DNL Slack] -omgeving worden gebruikt, inclusief de mobiele app van [!DNL Slack] . ## Toegangsvereisten
 
-## Toegangsvereisten
-
-U moet het volgende hebben:
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 <table style="table-layout:auto"> 
  <col> 
- </col> 
  <col> 
- </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://business.adobe.com/nl/products/workfront/pricing.html" target="_blank">[!DNL [!DNL Adobe Workfront] plan] </a>*</td> 
-   <td> <p>[!UICONTROL Pro] of hoger</p> </td> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
+   <td> <p>Alle</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td> <p>Alle</p>
   </tr> 
  </tbody> 
 </table>
 
-&#42; om te weten te komen welk plan, licentietype, of toegang u hebt, contacteer uw [!DNL Workfront] beheerder.\
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Vereisten voor het gebruik van [!DNL Workfront] met [!DNL Slack]
 
@@ -55,7 +57,7 @@ U moet het volgende hebben:
   >
   >Gebruikers met een [!DNL Workfront] -licentietype hebben toegang tot [!DNL Workfront] vanuit [!DNL Slack] . De acties die u kunt uitvoeren vanuit [!DNL Slack] zijn beperkt tot uw licentie- en machtigingsniveaus voor [!DNL Workfront] .
 
-Voor meer informatie over het beheren van apps in [!DNL Slack], zie [&#x200B; Toepassingen voor Uw Workspace beheren.](https://get.slack.help/hc/en-us/articles/222386767-Manage-apps-for-your-workspace)
+Voor meer informatie over het beheren van apps in [!DNL Slack], zie [ Toepassingen voor Uw Workspace beheren.](https://get.slack.help/hc/en-us/articles/222386767-Manage-apps-for-your-workspace)
 
 ## Installeren [!DNL Workfront for Slack]
 
@@ -74,7 +76,7 @@ Voer de onderstaande stappen uit om het installatieproces uit te voeren en [!DNL
 >
 >Wanneer een nieuwe versie van [!DNL Workfront] voor Slack wordt uitgebracht, moet u de app opnieuw autoriseren om deze te kunnen blijven gebruiken.
 
-1. Bepaal de plaats van [!DNL Adobe Workfront] toe:voegen-op in de [[!DNL Slack]  opslag &#x200B;](https://workfront.slack.com/apps/A7CLAMVNW-adobe-workfront?tab=more_info).
+1. Bepaal de plaats van [!DNL Adobe Workfront] toe:voegen-op in de [[!DNL Slack]  opslag ](https://workfront.slack.com/apps/A7CLAMVNW-adobe-workfront?tab=more_info).
 
 1. Klik op **[!UICONTROL Open in [!DNL Slack]]**.
 
@@ -82,7 +84,7 @@ Voer de onderstaande stappen uit om het installatieproces uit te voeren en [!DNL
 
 1. Onderzoek de toegang die [!DNL Slack] aanvraagt. Als u akkoord gaat met deze toegang, klikt u op **[!UICONTROL Allow Access]** om de [!DNL Workfront] -app te autoriseren.
 
-U kunt tot [!DNL Workfront] van [!DNL Slack] nu toegang hebben, zoals die in [&#x200B; wordt beschreven Toegang  [!DNL Workfront]  van  [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md#viewing-all-available-commands) section in [Access [!DNL Adobe Workfront]  van  [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md).
+U kunt tot [!DNL Workfront] van [!DNL Slack] nu toegang hebben, zoals die in [ wordt beschreven Toegang  [!DNL Workfront]  van  [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md#viewing-all-available-commands) section in [Access [!DNL Adobe Workfront]  van  [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md).
 
 ### De [!DNL Workfront] -toepassing installeren in [!DNL Slack] {#install-the-workfront-app-within-slack}
 

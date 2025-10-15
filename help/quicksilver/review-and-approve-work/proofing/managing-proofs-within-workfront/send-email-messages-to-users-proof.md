@@ -6,9 +6,9 @@ description: Tijdens het beoordelings- en goedkeuringsproces kunt u een bericht 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: e7d60d6f-b6bd-4082-b50c-e42d4b72c149
-source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
+source-git-commit: ac714bd5a5259d6f995ac445efbd0125e07022cb
 workflow-type: tm+mt
-source-wordcount: '457'
+source-wordcount: '355'
 ht-degree: 0%
 
 ---
@@ -23,19 +23,20 @@ U kunt kiezen tussen het verzenden van een generieke e-mail met een herinnering 
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-abonnement*</td> 
-   <td> <p>Huidig abonnement: Pro of hoger</p> <p>of</p> <p>Verouderd abonnement: Selecteren of Premium</p> <p>Voor meer informatie over het proefdrukken van toegang met de verschillende plannen, zie <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref"> Toegang tot het proefdrukken van functionaliteit in Workfront </a>.</p> </td> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Huidig plan: Werk of Plan</p> <p>Ouder plan: Willekeurig (proefdrukken moet zijn ingeschakeld voor de gebruiker)</p> </td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td>
+   <p>Standard</p>
+   <p>Werken of plannen</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Bewijs van machtigingsprofiel </td> 
@@ -46,13 +47,13 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    <td>Auteur of moderator</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot documenten bewerken</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
+   <td> <p>Toegang tot documenten bewerken</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42; om te weten te komen welk plan, rol, of Profiel van de Toestemming van het Bewijs u hebt, contacteer uw beheerder van Workfront of van Workfront Proof.
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -61,15 +62,15 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 1. Zoek het document voor de proef die de gebruikers bevat u wilt bericht.
 1. Beweeg over het document, dan klik **het Proofing Werkschema**.
 
-   ![&#x200B; het Proofing werkschema &#x200B;](assets/proof-workflow-doc-list-350x92.png)
+   ![ het Proofing werkschema ](assets/proof-workflow-doc-list-350x92.png)
 
 1. Om een bericht naar alle gebruikers op het stadium te verzenden, klik **Meer** menu op het stadium en kies **Bericht allen**.
 
-   ![&#x200B; Bericht op stadium &#x200B;](assets/message-stage-350x122.png)
+   ![ Bericht op stadium ](assets/message-stage-350x122.png)
 
 1. Om een bericht naar een individuele gebruiker te verzenden, klik **Meer** menu naast de gebruiker en kies **Bericht**.
 
-   ![&#x200B; gebruiker van het Bericht &#x200B;](assets/message-user-350x121.png)
+   ![ gebruiker van het Bericht ](assets/message-user-350x121.png)
 
 1. In de **sectie van de Details van het Bericht**, specificeer de volgende informatie:
 

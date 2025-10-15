@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 6c35c313-d6ed-428b-b70d-2ea242da4e8f
-source-git-commit: 7d37481fc5b468f6f8ea1fce6ccd7ae064f00251
+source-git-commit: 92748bab4eee807d9529a61a9d97ac1c1df9c8cf
 workflow-type: tm+mt
-source-wordcount: '1020'
+source-wordcount: '954'
 ht-degree: 0%
 
 ---
@@ -20,19 +20,56 @@ ht-degree: 0%
 
 <span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>
 
-<span class="preview"> voor informatie over snelle versies, zie [&#x200B; snelle versies voor uw organisatie &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
+<span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
 
 {{planning-important-intro}}
 
 U kunt de instellingen van bestaande velden bewerken in Adobe Workfront Planning.
 
-Voor informatie over het creëren van de gebieden van de Planning van Adobe Workfront, zie [&#x200B; gebieden &#x200B;](/help/quicksilver/planning/fields/create-fields.md) creëren.
+Voor informatie over het creëren van de gebieden van de Planning van Adobe Workfront, zie [ gebieden ](/help/quicksilver/planning/fields/create-fields.md) creëren.
 
-In dit artikel wordt beschreven hoe u de instellingen voor Workfront-planningsvelden kunt bewerken. Voor informatie over het uitgeven van gebiedswaarden voor verslagen, zie [&#x200B; verslagen &#x200B;](/help/quicksilver/planning/records/edit-records.md) uitgeven.
+In dit artikel wordt beschreven hoe u de instellingen voor Workfront-planningsvelden kunt bewerken. Voor informatie over het uitgeven van gebiedswaarden voor verslagen, zie [ verslagen ](/help/quicksilver/planning/records/edit-records.md) uitgeven.
 
 ## Toegangsvereisten
 
-+++ Vouw uit om de vereisten voor toegang weer te geven. 
++++ Breid uit om de toegangsvereisten voor de functionaliteit in dit artikel te bekijken. 
+
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+    <tr> 
+<tr> 
+</tr>   
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront-pakket</p></td> 
+   <td> 
+<ul> 
+<li><p>Alle Workfront en alle planningspakketten</p></li>
+of
+<li><p>Alle workflows en planningspakketten</li></ul>
+<p>Neem voor meer informatie over wat er in elk planningspakket voor Workfront staat, contact op met uw Workfront-accountvertegenwoordiger. </p> 
+   </td> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront-licentie</p></td> 
+   <td><p>Standard</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Objectmachtigingen</p></td> 
+   <td>   <p>Machtigingen beheren in een werkruimte</p>  
+   <p>Systeembeheerders hebben machtigingen voor alle werkruimten, inclusief de werkruimten die ze niet hebben gemaakt</p>  </td> 
+  </tr>  
+</tbody> 
+</table>
+
+Voor meer informatie over de toegangsvereisten van Workfront, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++     
+
+<!--Old:
 
 <table style="table-layout:auto"> 
 <col> 
@@ -43,57 +80,52 @@ In dit artikel wordt beschreven hoe u de instellingen voor Workfront-planningsve
     <tr> 
 <tr> 
 <td> 
-   <p> Producten</p> </td> 
+   <p> Products</p> </td> 
    <td> 
    <ul><li><p> Adobe Workfront</p></li> 
    <li><p> Adobe Workfront Planning<p></li></ul></td> 
   </tr>   
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront-abonnement*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront plan*</p></td> 
    <td> 
-<p>Een van de volgende Workfront-plannen:</p> 
-<ul><li>Selecteren</li> 
+<p>Any of the following Workfront plans:</p> 
+<ul><li>Select</li> 
 <li>Prime</li> 
 <li>Ultimate</li></ul> 
-<p>Workfront Planning is niet beschikbaar voor oudere Workfront-plannen</p> 
+<p>Workfront Planning is not available for legacy Workfront plans</p> 
    </td> 
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront-planningspakket*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront Planning package*</p></td> 
    <td> 
-<p>Alle </p> 
-<p>Neem contact op met uw Workfront-accountmanager voor meer informatie over wat er in elk Workfront-planningsplan is opgenomen. </p> 
+<p>Any </p> 
+<p>For more information about what is included in each Workfront Planning plan, contact your Workfront account manager. </p> 
    </td> 
  <tr> 
-   <td role="rowheader"><p>Adobe Workfront-platform</p></td> 
+   <td role="rowheader"><p>Adobe Workfront platform</p></td> 
    <td> 
-<p>Het geval van Workfront van uw organisatie moet aan de Verenigde Ervaring van Adobe worden genegeerd om tot de Planning van Workfront te kunnen toegang hebben.</p> 
-<p>Voor meer informatie, zie <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md"> Adobe Verenigde Ervaring voor Workfront </a>. </p> 
+<p>Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience to be able to access Workfront Planning.</p> 
+<p>For more information, see <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p> 
    </td> 
    </tr> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront-licentie*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront license*</p></td> 
    <td><p> Standard </p>
-   <p>Workfront Planning is niet beschikbaar voor oudere Workfront-licenties</p> 
+   <p>Workfront Planning is not available for legacy Workfront licenses</p> 
   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Configuratie op toegangsniveau</p></td> 
-   <td> <p>Er zijn geen toegangsniveaucontroles voor de Planning van Adobe Workfront</p>   
+   <td role="rowheader"><p>Access level configuration</p></td> 
+   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
 </td> 
   </tr> 
 <tr> 
-   <td role="rowheader"><p>Objectmachtigingen</p></td> 
-   <td>   <p>Machtigingen beheren voor een werkruimte en recordtype </a> </p>  
-   <p>Systeembeheerders hebben machtigingen voor alle werkruimten, inclusief de werkruimten die ze niet hebben gemaakt</p></td> 
+   <td role="rowheader"><p>Object permissions</p></td> 
+   <td>   <p>Manage permissions to a workspace and record type</a> </p>  
+   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p></td> 
   </tr> 
 </tbody> 
-</table>
-
-*Voor meer informatie over de toegangsvereisten van Workfront, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
-
-+++   
-
+</table> -->
 
 ## Overwegingen bij het bewerken van veldinstellingen
 
@@ -118,7 +150,7 @@ U moet het volgende in overweging nemen voordat u wijzigingen aanbrengt in de co
   >Er is geen bericht aan andere gebruikers dat de gebiedsconfiguratie is veranderd.
 
 * U kunt bestaande opzoekvelden van verbonden records bewerken.
-* Naast het uitgeven van het gebied zoals die in [&#x200B; wordt beschreven geef gebiedsmontages &#x200B;](#edit-field-settings-1) sectie in dit artikel uit, <span class="preview"> kunt u één enkele of multi-uitgezochte keuzen van het gebied uitgeven wanneer u een verslag in de lijstmening uitgeeft, aangezien u de gebiedswaarden bijwerkt. Voor informatie, zie [&#x200B; nieuwe keuzen aan een bestaand uitgezocht gebied wanneer het uitgeven van verslagen in de 1&rbrace; sectie van de lijstmening in dit artikel toevoegen.](#add-new-choices-to-an-existing-select-field-when-editing-records-in-the-table-view)</span>
+* Naast het uitgeven van het gebied zoals die in [ wordt beschreven geef gebiedsmontages ](#edit-field-settings-1) sectie in dit artikel uit, <span class="preview"> kunt u één enkele of multi-uitgezochte keuzen van het gebied uitgeven wanneer u een verslag in de lijstmening uitgeeft, aangezien u de gebiedswaarden bijwerkt. Voor informatie, zie [ nieuwe keuzen aan een bestaand uitgezocht gebied wanneer het uitgeven van verslagen in de 1} sectie van de lijstmening in dit artikel toevoegen.](#add-new-choices-to-an-existing-select-field-when-editing-records-in-the-table-view)</span>
 
 <!--at production - April 10, 2025 - remove the last bullet altogether-->
 
@@ -147,11 +179,11 @@ U moet het volgende in overweging nemen voordat u wijzigingen aanbrengt in de co
 
    Dubbelklik op de kolomkop voor het veld.
 
-   ![&#x200B; het menu van de Pijl na naam van gebied in benadrukte lijstkopbal &#x200B;](assets/arrow-menu-after-name-of-field-in-table-header-highlighted.png)
+   ![ het menu van de Pijl na naam van gebied in benadrukte lijstkopbal ](assets/arrow-menu-after-name-of-field-in-table-header-highlighted.png)
 
 1. De informatie van de update over het gebied en klikt **sparen**.
 
-   Voor informatie, zie [&#x200B; gebieden &#x200B;](/help/quicksilver/planning/fields/create-fields.md) creëren.
+   Voor informatie, zie [ gebieden ](/help/quicksilver/planning/fields/create-fields.md) creëren.
 
    <!--insert screen shot when finalized-->
 
@@ -165,7 +197,7 @@ U moet het volgende in overweging nemen voordat u wijzigingen aanbrengt in de co
 
 1. (Voorwaardelijk) voor verbonden verslaggebieden, klik **uitgeeft raadplegingsgebieden** en voeg of verwijder om het even welke raadplegingsgebieden van het verbonden verslagtype toe.
 
-   Voor meer informatie, zie [&#x200B; Connect verslagtypes &#x200B;](/help/quicksilver/planning/architecture/connect-record-types.md).
+   Voor meer informatie, zie [ Connect verslagtypes ](/help/quicksilver/planning/architecture/connect-record-types.md).
 
 
 <div class="preview">
@@ -184,17 +216,17 @@ U kunt nieuwe keuzen aan een bestaand enig of multi-uitgezochte gebied toevoegen
 
 U hebt mogelijk een veld met de naam Status dat één keuze bevat en de opties Nieuw en Gesloten bevat. U wilt dan een keuze toevoegen voor de status In uitvoering. U kunt de keuze toevoegen door een van de volgende handelingen uit te voeren:
 
-* Het veld bewerken. Voor informatie, zie de sectie [&#x200B; gebiedsmontages &#x200B;](#edit-field-settings-1) in dit artikel uitgeven.
+* Het veld bewerken. Voor informatie, zie de sectie [ gebiedsmontages ](#edit-field-settings-1) in dit artikel uitgeven.
 * Een nieuwe optie toevoegen tijdens het bewerken van de record in de tabelweergave, zoals hieronder wordt beschreven.
 
 Een nieuwe keuze toevoegen aan een bestaand selectieveld wanneer u een record bewerkt:
 
 1. Ga naar een pagina met recordtypen en open de tabelweergave.
-1. Voeg het veld Eén of Meerdere selecties toe waaraan u een keuze wilt toevoegen in de tabelweergave als een nieuwe kolom. Voor informatie, zie [&#x200B; gebieden &#x200B;](/help/quicksilver/planning/fields/create-fields.md) creëren.
+1. Voeg het veld Eén of Meerdere selecties toe waaraan u een keuze wilt toevoegen in de tabelweergave als een nieuwe kolom. Voor informatie, zie [ gebieden ](/help/quicksilver/planning/fields/create-fields.md) creëren.
 1. U kunt het veld inline bewerken door te dubbelklikken op de cel voor het veld.
 1. Typ de naam van de keus u wilt toevoegen, dan klik **kiezen** toevoegen.
 
-   ![&#x200B; voeg keus op enig-uitgezocht gebied in lijstmening toe &#x200B;](assets/add-choice-in-table-view-for-single-select-field.png)
+   ![ voeg keus op enig-uitgezocht gebied in lijstmening toe ](assets/add-choice-in-table-view-for-single-select-field.png)
 
    De nieuwe keuze wordt direct toegevoegd aan het veld Eén keuze.
 

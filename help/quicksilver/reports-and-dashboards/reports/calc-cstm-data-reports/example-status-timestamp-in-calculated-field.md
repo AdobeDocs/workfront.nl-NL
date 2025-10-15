@@ -3,20 +3,20 @@ content-type: reference
 product-area: reporting
 navigation-topic: calculate-custom-data-reports
 title: 'Voorbeeld van een berekend aangepast veld: een statustijdstempel weergeven in een aangepast formulier'
-description: In het volgende berekende veld wordt de datum weergegeven waarop de objectstatus wordt gemarkeerd als Bezig (INP.) U kunt de zelfde informatie voor berekende douanevelden voor kwesties, taken, of projecten gebruiken.
-author: Nolan
+description: In het volgende berekende veld wordt de datum weergegeven waarop de objectstatus wordt gemarkeerd als Bezig (INP). U kunt de zelfde informatie voor berekende douanevelden voor kwesties, taken, of projecten gebruiken.
+author: Jenny
 feature: Reports and Dashboards
 exl-id: 55817a68-3655-4288-8cc7-48547829c46e
-source-git-commit: ecafbd693237427d727b15dd22afd485b4e59c72
+source-git-commit: a1ead6d0c1c85bfbe6d7302506743db8d8b3e205
 workflow-type: tm+mt
-source-wordcount: '403'
+source-wordcount: '341'
 ht-degree: 0%
 
 ---
 
 # Voorbeeld van een berekend aangepast veld: een statustijdstempel weergeven in een aangepast formulier
 
-In het volgende berekende veld wordt de datum weergegeven waarop de objectstatus wordt gemarkeerd als Bezig (INP.) U kunt de zelfde informatie voor berekende douanevelden voor kwesties, taken, of projecten gebruiken.
+In het volgende berekende veld wordt de datum weergegeven waarop de objectstatus wordt gemarkeerd als Bezig (INP). U kunt de zelfde informatie voor berekende douanevelden voor kwesties, taken, of projecten gebruiken.
 
 >[!NOTE]
 >
@@ -24,35 +24,36 @@ In het volgende berekende veld wordt de datum weergegeven waarop de objectstatus
 
 ## Toegangsvereisten
 
-U moet het volgende hebben:
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 <table style="table-layout:auto"> 
- <caption style="text-align: left;"> 
-  <p>*Neem contact op met uw Workfront-beheerder om te weten te komen welk abonnement, licentietype of toegang u hebt.</p> 
- </caption> 
  <col> 
- </col> 
  <col> 
- </col> 
  <tbody> 
   <tr> 
-   <td> <p>Adobe Workfront-abonnement*</p> </td> 
-   <td>Alle</td> 
+   <td> <p>Adobe Workfront-pakket</p> </td> 
+   <td><p>Alle</p></td> 
   </tr> 
   <tr> 
-   <td> <p>Adobe Workfront-licentie*</p> </td> 
-   <td> <p>Plan </p> </td> 
+   <td> <p>Adobe Workfront-licentie</p> </td> 
+   <td>
+      <p>Standard</p>
+      <p>Plan</p></td>
   </tr> 
   <tr> 
-   <td><strong> het niveauconfiguraties van de Toegang* </strong> </td> 
-   <td> <p>Toegang bewerken tot rapporten, dashboards en kalenders maken</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan veranderen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
+   <td><p>Configuraties op toegangsniveau</p></td> 
+   <td> <p>Toegang bewerken tot rapporten, dashboards en kalenders maken</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong> de toestemmingen van Objecten </strong> </p> </td> 
-   <td> <p>Rechten beheren voor het object waaraan het formulier is gekoppeld</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.<br> voor meer informatie over toestemmingen voor dashboards, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md" class="MCXref xref"> de rapporten van het Aandeel, dashboards, en kalenders </a>.</p> </td> 
+   <td> <p>Objectmachtigingen</p> </td> 
+   <td> <p>Rechten beheren voor het object waaraan het formulier is gekoppeld</p></td> 
   </tr> 
  </tbody> 
 </table>
+
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Vereiste
 
@@ -75,7 +76,7 @@ Als u een berekend veld met de bewerkingsgeschiedenis van een veld wilt toevoege
    >
    >Deze berekening is identiek voor alle objecten en voor alle statussen. U moet altijd de drie-letterige sleutel gebruiken, en niet de statusnaam voor de objecten status in deze berekening.
    >
-   >Voor meer informatie over de sleutels voor Statussen, zie [&#x200B; een status &#x200B;](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md) creëren of uitgeven.
+   >Voor meer informatie over de sleutels voor Statussen, zie [ een status ](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md) creëren of uitgeven.
 
 1. Klik **sparen+Sluiten**.
 

@@ -6,9 +6,9 @@ description: U kunt een middel in Adobe Workfront bekijken of downloaden dat van
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 4516ddf7-b39d-4bd7-8e59-4b3bdad5b643
-source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
+source-git-commit: 3f9a824780f2ded914d461a473aef3b6ecfa8701
 workflow-type: tm+mt
-source-wordcount: '222'
+source-wordcount: '180'
 ht-degree: 0%
 
 ---
@@ -19,36 +19,40 @@ U kunt een middel in Adobe Workfront bekijken of downloaden dat van Experience M
 
 ## Toegangsvereisten
 
-U moet het volgende hebben:
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-abonnement*</td> 
-   <td> <p> Alle</p> </td> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licenties*</td> 
-   <td> <p>Aanvraag of hoger</p> </td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td> 
+   <p>Medewerker of hoger</p>
+   <p>Aanvraag of hoger</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Product</td> 
-   <td>U moet een Experience Manager Assets Essentials-instantie hebben.</td> 
+   <td role="rowheader">Aanvullende producten</td> 
+   <td>Experience Manager Assets </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot documenten bewerken</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
+   <td> <p>Toegang tot documenten bewerken</p> s="MCXref xref"&gt;Aangepaste toegangsniveaus maken of wijzigen </a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Toegang weergeven of hoger</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
+   <td> <p>Toegang of hoger weergeven op documenten</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Vereisten
 
@@ -62,4 +66,4 @@ Voordat u begint, moet u
 1. Selecteer het document in de documentlijst.
 1. In de Samenvatting van het Document op het recht, houd over de duimnagel bij de bovenkant en kies **Voorproef** of **Download**.
 
-   ![&#x200B; Voorproef of Download &#x200B;](assets/view-or-download-enhanced-connector-350x123.png)
+   ![ Voorproef of Download ](assets/view-or-download-enhanced-connector-350x123.png)

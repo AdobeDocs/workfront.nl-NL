@@ -2,14 +2,14 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 'Grouping: Taakpercentage Uitsplitsing 2'
-description: 'In deze aangepaste taakgroep kunt u taken weergeven die zijn gegroepeerd op een bereik van hun procentuele volledige waarden. De uitsplitsingen tonen een percentage complete waarde van 10 percentagestappen: 1-10%, 11-20%, enz.'
+title: 'Groepering: Taakpercentage Uitsplitsing 2'
+description: 'In deze aangepaste taakgroep kunt u taken weergeven die zijn gegroepeerd op een bereik van hun procentuele volledige waarden. De uitsplitsingen geven het percentage aan dat de volledige waarde is in stappen van 10 procentpunten: 1-10%, 11-20% enzovoort.'
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 7d5a40dd-d451-48c7-9323-af52aa387709
-source-git-commit: a6874c3a2dfda02b8a25f78056767d8c59c888e9
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '268'
+source-wordcount: '254'
 ht-degree: 0%
 
 ---
@@ -35,32 +35,25 @@ De volgende groepering organiseert projecten door het percentage volledige waard
 * 91-99%
 * 100%
 
-![&#x200B; task_10__break_grouping.png &#x200B;](assets/task-10--breakdown-grouping-350x547.png)
+![ task_10__break_grouping.png ](assets/task-10--breakdown-grouping-350x547.png)
 
 ## Toegangsvereisten
 
-+++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
-
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan</td> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie*</td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
    <td> 
-    <p>Nieuw:</p>
-   <ul><li><p>Medewerker om een filter te wijzigen </p></li>
-   <li><p>Standaard voor het wijzigen van een rapport</p></li> </ul>
-
-<p>Huidige:</p>
-   <ul><li><p>Verzoek om een filter te wijzigen </p></li>
-   <li><p>Plan om een rapport te wijzigen</p></li> </ul></td> 
+   <p>Medewerker of verzoek om een filter te wijzigen </p>
+   <p>Standaard of Plan om een rapport te wijzigen</p>
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau</td> 
@@ -73,7 +66,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-*For informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

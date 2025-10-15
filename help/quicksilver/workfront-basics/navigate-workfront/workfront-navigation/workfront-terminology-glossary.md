@@ -6,7 +6,7 @@ description: De  [!DNL Adobe Workfront]  verklarende woordenlijst lijsten algeme
 author: Alina
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: 6d02397a15b0b06c3c60fb5d71dfeb3cb0b0a30d
+source-git-commit: fbe17e50ff161156a0b4b2a8b468b4eb844cae59
 workflow-type: tm+mt
 source-wordcount: '17564'
 ht-degree: 0%
@@ -1688,7 +1688,7 @@ Uur-items kunnen een van de volgende statussen in Workfront hebben:
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Ad hoc"> 
    <td>[!UICONTROL Portfolio]</td> 
-   <td> <p>Een verzameling projecten met verenigende kenmerken. Deze projecten concurreren doorgaans met dezelfde middelen, hetzelfde budget of dezelfde tijd. U kunt portfolio's opsplitsen in programma's en de projecten koppelen aan de programma's voordat ze aan een Portfolio worden toegevoegd.</p> <p>Voor meer informatie over portefeuilles, zie <a href="../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md"> overzicht van Portfolio in [!DNL Adobe Workfront]</a>.</p> 
+   <td> <p>Een verzameling projecten met verenigende kenmerken. Deze projecten concurreren doorgaans met dezelfde middelen, hetzelfde budget of dezelfde tijd. U kunt portfolio's opsplitsen in programma's en de projecten koppelen aan de programma's voordat ze aan een Portfolio worden toegevoegd.</p> <p>Voor meer informatie over portefeuilles, zie <a href="../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md"> portefeuillemethodologie </a> begrijpen.</p> 
    </td> 
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Integrated"> 
@@ -2069,7 +2069,7 @@ Uur-items kunnen een van de volgende statussen in Workfront hebben:
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Optimized"> 
    <td>[!UICONTROL Scenario] (in [!DNL Workfront Fusion]) </td> 
-   <td> <p>Een scenario bestaat uit een reeks stappen (modules) die aangeven hoe gegevens moeten worden overgebracht en getransformeerd tussen apps/services.</p> <p>Voor informatie over scenario's in [!DNL Workfront Fusion], zie <a href="https://experienceleague.adobe.com/nl/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/scenario-overview">[!DNL Adobe Workfront Fusion] scenario overzicht </a>.</p> </td> 
+   <td> <p>Een scenario bestaat uit een reeks stappen (modules) die aangeven hoe gegevens moeten worden overgebracht en getransformeerd tussen apps/services.</p> <p>Voor informatie over scenario's in [!DNL Workfront Fusion], zie <a href="https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/scenario-overview">[!DNL Adobe Workfront Fusion] scenario overzicht </a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Scenario] (in de [!DNL Workfront Scenario Planner] ) </td> 

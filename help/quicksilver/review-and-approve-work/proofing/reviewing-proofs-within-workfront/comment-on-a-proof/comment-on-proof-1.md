@@ -6,9 +6,9 @@ description: Met opmerkingen kunt u feedback geven op inhoud en samenwerken met 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: b0386786-7f90-4d1c-bd3a-1cd545430de1
-source-git-commit: a9dbfe21337be9cd9929f4e982e4979265ca14e1
+source-git-commit: a117b4e671490a380518cb987b897ca17e54cb16
 workflow-type: tm+mt
-source-wordcount: '779'
+source-wordcount: '702'
 ht-degree: 0%
 
 ---
@@ -28,19 +28,19 @@ Wanneer u gebruikers codeert in opmerkingen op een proefdruk, kunnen de gebruike
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-abonnement*</td> 
-   <td> <p>Huidig abonnement: Pro of hoger</p> <p>of</p> <p>Verouderd abonnement: Selecteren of Premium</p> <p>Voor meer informatie over het proefdrukken van toegang met de verschillende plannen, zie <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref"> Toegang tot het proefdrukken van functionaliteit in Workfront </a>.</p> </td> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Huidig plan: Werk of Plan</p> <p>Ouder plan: Willekeurig (proefdrukken moet zijn ingeschakeld voor de gebruiker)</p> </td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td>
+   <p>Alle</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Bewijs van machtigingsprofiel </td> 
@@ -51,13 +51,13 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    <td>Revisor, Reviewer en fiatteur, Moderator, Auteur</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot documenten bewerken</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
+   <td> <p>Toegang tot documenten bewerken</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42; om te weten te komen welk plan, rol, of Profiel van de Toestemming van het Bewijs u hebt, contacteer uw beheerder van Workfront of van Workfront Proof.
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -133,7 +133,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    >Dit geldt alleen voor de standaardgereedschappen voor annotatiemarkeringen, niet voor de gereedschappen voor tekstopmaak.
 
 1. Typ uw commentaar in **voeg commentaar** doos op het recht toe.
-1. (Optioneel) Als u een andere gebruiker in de opmerking wilt labelen en toevoegen aan de workflow van de proefdruk, typt u @ in het opmerkingsvak, typt u vervolgens de naam of het e-mailadres van de gebruiker en selecteert u de gebruiker in het menu dat verschijnt. Voor meer informatie, zie [&#x200B; de gebruikers van de Markering om een proef &#x200B;](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/tag-users-to-share-proof.md) te delen.
+1. (Optioneel) Als u een andere gebruiker in de opmerking wilt labelen en toevoegen aan de workflow van de proefdruk, typt u @ in het opmerkingsvak, typt u vervolgens de naam of het e-mailadres van de gebruiker en selecteert u de gebruiker in het menu dat verschijnt. Voor meer informatie, zie [ de gebruikers van de Markering om een proef ](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/tag-users-to-share-proof.md) te delen.
 1. (Optioneel) Voer een van de volgende twee handelingen uit om een bestand aan een opmerking te koppelen:
 
    * Klik op het pictogram van de papierclip in de rechterbovenhoek van de opmerking en zoek en selecteer het bestand dat u wilt uploaden.

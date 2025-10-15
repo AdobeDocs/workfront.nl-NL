@@ -6,9 +6,9 @@ description: Een bewijs wordt automatisch gearchiveerd wanneer het niet voor 60 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: ac4ce52a-ef63-43a8-9f2d-95f0cdb56f53
-source-git-commit: 1b85267e811f5832480316be5322ee819abaf190
+source-git-commit: ac714bd5a5259d6f995ac445efbd0125e07022cb
 workflow-type: tm+mt
-source-wordcount: '209'
+source-wordcount: '164'
 ht-degree: 0%
 
 ---
@@ -21,25 +21,28 @@ Een bewijs wordt automatisch gearchiveerd wanneer het niet voor 60 opeenvolgende
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-abonnement*</td> 
-   <td> <p>Huidig abonnement: Pro of hoger</p> <p>of</p> <p>Verouderd abonnement: Selecteren of Premium</p> <p>Voor meer informatie over het proefdrukken van toegang met de verschillende plannen, zie <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref"> Toegang tot het proefdrukken van functionaliteit in Workfront </a>.</p> </td> 
-  </tr>
-
-<tr> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
+   <td> <p>Alle</p> </td> 
+  </tr> 
+    <tr> 
+   <td role="rowheader"> <p>Adobe Workfront-licentie</p> </td> 
+   <td> 
+   <p>Alle</p>
+   </td> 
+  </tr> 
+  <tr> 
    <td role="rowheader">Bewijs van toegang </td> 
    <td>Gast of hoger</td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42; om te weten te komen welk plan of proefdruk toegang u hebt, contacteer uw beheerder van Workfront of van Workfront Proof.
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

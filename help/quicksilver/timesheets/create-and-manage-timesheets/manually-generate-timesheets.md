@@ -3,12 +3,12 @@ product-area: timesheets
 navigation-topic: create-and-manage-timesheets
 title: Tijdbladen handmatig genereren
 description: Om veranderingen toe te laten die u aan de timesheet- profielen aanbracht om in huidige timesheets te weerspiegelen, moet u eerst bestaande timesheets schrappen en dan manueel nieuwe manueel produceren. U kunt tijdbladen handmatig genereren in het gedeelte Timesheets of in het gedeelte Diagnostics in Setup, zoals uitgelegd in dit artikel.
-author: Alina
+author: Lisa
 feature: Timesheets
 exl-id: 316c270a-c64e-4d83-a035-4128abe33f87
-source-git-commit: 311816df863d3c03a54d43c8fa3cac69d2d6d7d4
+source-git-commit: 69cd5fb1d089b81b7a1673609b92537137b6b68e
 workflow-type: tm+mt
-source-wordcount: '467'
+source-wordcount: '430'
 ht-degree: 0%
 
 ---
@@ -17,32 +17,34 @@ ht-degree: 0%
 
 Om veranderingen toe te laten die u aan de timesheet- profielen aanbracht om in huidige timesheets te weerspiegelen, moet u eerst bestaande timesheets schrappen en dan manueel nieuwe manueel produceren. U kunt tijdbladen handmatig genereren in het gedeelte Timesheets of in het gedeelte Diagnostics in Setup, zoals uitgelegd in dit artikel.
 
-Voor instructies bij het schrappen van timesheets, zie [&#x200B; timesheets van de Schrapping in Adobe Workfront &#x200B;](../../timesheets/create-and-manage-timesheets/delete-timesheets.md).
+Voor instructies bij het schrappen van timesheets, zie [ timesheets van de Schrapping in Adobe Workfront ](../../timesheets/create-and-manage-timesheets/delete-timesheets.md).
 
 ## Toegangsvereisten
 
-+++ Vouw uit om de vereisten voor toegang weer te geven.
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
-<table style="table-layout:auto"> 
+<table style="table-layout:auto">
  <col> 
- <col> 
+ <col>
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan</td> 
-   <td> <p>Alle</p> </td> 
+   <td>Adobe Workfront-pakket</td> 
+   <td><p>Alle</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie</td> 
-   <td> <p>Plan </p> </td> 
+   <td>Adobe Workfront-licentie</td> 
+   <td>
+   <p>Standard</p>
+   <p>Plan</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>U moet een Workfront-beheerder zijn of, als u werkt aan timesheet-profielen voor een groep, u moet een groepsbeheerder (of Workfront-beheerder) zijn. Voor meer informatie, zie <a href="../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref"> de beheerders van de Groep </a>.</p> <p>Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
+   <td>Configuraties op toegangsniveau</td> 
+   <td><p>U moet een Workfront-beheerder zijn of, als u werkt aan timesheet-profielen voor een groep, u moet een groepsbeheerder (of Workfront-beheerder) zijn.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*For informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -66,9 +68,9 @@ U kunt systeem-niveau of groep-vlakke timesheets van het gebied van Timesheets &
    Als u timesheets produceert die door een specifieke groep worden gebruikt, klik **Groepen**, dan klik de naam van de groep.
 
 1. Klik **Profielen van de Chronologie**.
-1. Klik het meer pictogram ![&#x200B; meer pictogram &#x200B;](assets/more-icon.png), dan **produceer Chronologie**.
+1. Klik het meer pictogram ![ meer pictogram ](assets/more-icon.png), dan **produceer Chronologie**.
 
-1. Bij de bovenkant van de lijst van het timesheet profiel, klik het **Meer** pictogram ![&#x200B; pictogram &#x200B;](assets/more-icon.png) voor systeem-vlakke timesheet profielen, of **Meer**, voor groep timesheet profielen, dan klik **timesheets** produceren.
+1. Bij de bovenkant van de lijst van het timesheet profiel, klik het **Meer** pictogram ![ pictogram ](assets/more-icon.png) voor systeem-vlakke timesheet profielen, of **Meer**, voor groep timesheet profielen, dan klik **timesheets** produceren.
 
    Nieuwe tijdbladen worden gemaakt voor maximaal twee perioden voor gebruikers die aan tijdbladprofielen zijn gekoppeld.
 

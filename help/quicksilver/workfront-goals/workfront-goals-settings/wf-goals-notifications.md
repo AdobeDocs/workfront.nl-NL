@@ -7,37 +7,49 @@ description: Adobe Workfront Goals wordt geleverd met een set vooraf gedefinieer
 author: Alina
 feature: Workfront Goals
 exl-id: 40f9b9a3-c829-480b-9897-099b68389cd4
-source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
+source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
 workflow-type: tm+mt
-source-wordcount: '226'
+source-wordcount: '201'
 ht-degree: 0%
 
 ---
 
 # Meldingen voor Adobe Workfront-doelen inschakelen
 
+<!--Audited for P&P only: 10/2025-->
+
+>[!NOTE]
+>
+>Uw bedrijf zou kunnen verkiezen om de Doelen van Adobe Workfront verder te gebruiken als zij dit pakket in het verleden kochten. U moet voor meer informatie contact opnemen met uw accountvertegenwoordiger.
+>
+>Adobe Workfront Goals kan niet meer worden aangeschaft.
+>
+>Voor extra informatie over toegang tot de Doelen van Workfront, zie [ Vereisten om de Doelen van Workfront ](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md) te gebruiken.
+
+<!--Old:
+
 >[!IMPORTANT]
 >
->Uw organisatie moet het volgende hebben om de functionaliteit te gebruiken die in dit artikel wordt beschreven:
+>Your organization must have the following to use the functionality described in this article:
 >
->* Voor het nieuwe plan en de nieuwe licentiestructuur:
+>* For the new plan and license structure:
 >
->   * Het Ultimate Workfront-plan
+>   * The Ultimate Workfront plan 
 >    
->* Voor het huidige plan en de licentiestructuur:
+>* For the current plan and license structure: 
 >
->   * Een Pro- of hoger Workfront-abonnement
->   * Een Adobe Workfront Goals-licentie in aanvulling op een Workfront-licentie.
+>   * A Pro or higher Workfront plan
+>   * An Adobe Workfront Goals license in addition to a Workfront license.
 >
->Neem contact op met uw Workfront-accountmanager voor meer informatie over een Workfront Goals-licentie.
+>Contact your Workfront account manager to learn about a Workfront Goals license.    
 > 
->Voor extra informatie over toegang tot de Doelen van Workfront, zie [&#x200B; Vereisten om de Doelen van Workfront &#x200B;](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md) te gebruiken.
+>For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).   -->
 
 De Doelen van Adobe Workfront komt met een reeks gebeurtenisberichten die u voor uw rekening kunt toelaten. Deze gebeurtenismeldingen activeren e-mailcommunicatie telkens wanneer aan de door de gebeurtenis gedefinieerde voorwaarde wordt voldaan.
 
-Voor informatie over welke berichten u voor de Doelen van Workfront kunt toelaten, zie [&#x200B; Meldingen: Doelen &#x200B;](../../workfront-basics/using-notifications/notifications-goals.md).
+Voor informatie over welke berichten u voor de Doelen van Workfront kunt toelaten, zie [ Meldingen: Doelen ](../../workfront-basics/using-notifications/notifications-goals.md).
 
-Voor informatie over het beheren van berichten in Adobe Workfront, zie [&#x200B; uw eigen e-mailberichten wijzigen &#x200B;](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+Voor informatie over het beheren van berichten in Adobe Workfront, zie [ uw eigen e-mailberichten wijzigen ](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -140,4 +152,4 @@ A personal goal is a goal where you are designated as the owner.
 
 Wanneer de gebeurtenis plaatsvindt die wordt gedefinieerd door het bericht dat u hebt ingeschakeld, ontvangt u een e-mail met een beschrijving van de gebeurtenis. Hieronder ziet u een voorbeeld van een e-mail met de kennisgeving dat u bent toegewezen als eigenaar van een nieuw doel:
 
-![&#x200B; het bericht van Doelen e-mail &#x200B;](assets/wf-align-notification-email-350x164.png)
+![ het bericht van Doelen e-mail ](assets/wf-align-notification-email-350x164.png)

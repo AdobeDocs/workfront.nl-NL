@@ -7,9 +7,9 @@ feature: Get Started with Workfront
 description: Door gebrek,  [!DNL Adobe Workfront]  toont de Mening de [!UICONTROL All Projects] lijst in  [!DNL Workfront], zodat zijn alle projecten u toegang tot mening hebt vermeld, ongeacht hun status.
 author: Nolan
 exl-id: 78efce1a-f144-4e47-bd7e-c0347e016bea
-source-git-commit: 854eb3c0e4ee49315c36e00c7012e0baf2d98c37
+source-git-commit: f9b9381b4b38796dbf7dfd9eddffc50fb9e5c24c
 workflow-type: tm+mt
-source-wordcount: '294'
+source-wordcount: '292'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ U kunt de lijst met projecten in [!DNL Workfront View] filteren om alleen projec
 
 ## Toegangsvereisten
 
-U moet in [!DNL Workfront] de volgende toegang hebben om de stappen in dit artikel uit te voeren:
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -31,24 +31,28 @@ U moet in [!DNL Workfront] de volgende toegang hebben om de stappen in dit artik
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong>/td&gt; 
+   <td role="rowheader"><strong>Adobe Workfront-pakket</strong></td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licentie*</strong></td> 
-   <td> <p>[!UICONTROL Review] of hoger</p> </td> 
+   <td role="rowheader"><strong>Adobe Workfront-licentie</strong></td> 
+   <td> 
+   <p>Medewerker of hoger</p>
+   <p>Controleren of hoger</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw [!DNL Workfront] beheerder.
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Filter de [!UICONTROL projects] lijst in [!UICONTROL Workfront View]
 
 1. Ga naar de lijst met projecten in de [!DNL Workfront] Mobiele app weergeven.
 1. Tik op het lijstpictogram linksboven in de lijst.\
    De lijst met beschikbare filters wordt weergegeven.\
-   ![&#x200B; WF_View_filters_050621.jpg &#x200B;](assets/wf-view-filters-050621-350x427.jpg)
+   ![ WF_View_filters_050621.jpg ](assets/wf-view-filters-050621-350x427.jpg)
 
 1. Selecteer een van de volgende filters:
 

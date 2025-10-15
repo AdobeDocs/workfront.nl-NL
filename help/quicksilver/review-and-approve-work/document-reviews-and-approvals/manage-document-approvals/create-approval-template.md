@@ -6,9 +6,9 @@ description: U kunt goedkeuringssjablonen maken om het goedkeuringsproces te str
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: c18d6c6d-1a09-47c5-af4e-027f7cc48cd7
-source-git-commit: 8270a107ba2501eddbb27f52c843c337aa1f8a99
+source-git-commit: 7572dd64a7f23d6f8dcae374a327d67f2d6738c5
 workflow-type: tm+mt
-source-wordcount: '226'
+source-wordcount: '210'
 ht-degree: 0%
 
 ---
@@ -19,33 +19,30 @@ In het gedeelte Workfront Setup kunnen gebruikers met een standaardlicentie herb
 
 >[!IMPORTANT]
 >
->De inhoud van dit artikel verwijst naar de functionaliteit voor bijgewerkte documentgoedkeuring die alleen beschikbaar is voor specifieke accounts. Voor informatie over standaardgoedkeuringsprocessen, zie de artikelen die in [&#x200B; worden vermeld goedkeuringen van het Werk &#x200B;](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
+>De inhoud van dit artikel verwijst naar de functionaliteit voor bijgewerkte documentgoedkeuring die alleen beschikbaar is voor specifieke accounts. Voor informatie over standaardgoedkeuringsprocessen, zie de artikelen die in [ worden vermeld goedkeuringen van het Werk ](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
 
 ## Toegangsvereisten
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
-
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-abonnement*</td> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Nieuw: Standaard</p> 
-   <p>of</p>
-   <p>Huidig: Plan</p>
+   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td> <p>Standard</p> 
+   <p>Plan</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

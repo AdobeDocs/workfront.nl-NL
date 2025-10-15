@@ -6,9 +6,9 @@ description: De zichtbaarheid van objecten in Adobe Workfront is afhankelijk van
 author: Becky
 feature: Get Started with Workfront
 exl-id: ad1c525c-42a8-4fb7-a2cd-7792e1c280ab
-source-git-commit: 18b96a6d57dc358bfe52e813bc98d8eb19f37dba
+source-git-commit: 4ae96f67b15838403ffce32317d871d6904d6d95
 workflow-type: tm+mt
-source-wordcount: '1338'
+source-wordcount: '1327'
 ht-degree: 0%
 
 ---
@@ -23,12 +23,12 @@ De zichtbaarheid van objecten in Adobe Workfront is afhankelijk van de toegang t
 >
 >In dit artikel wordt beschreven hoe u machtigingen kunt aanvragen voor alle objecten, behalve voor het volgende:
 >
->* Scenario Planner is van plan in het Adobe Workfront Scenario Planner. Voor meer informatie, zie [&#x200B; toegang van het Verzoek tot een plan in de Planner van het Scenario &#x200B;](../../scenario-planner/request-access-to-plan.md). Hiervoor is een aanvullende licentie vereist.
+>* Scenario Planner is van plan in het Adobe Workfront Scenario Planner. Voor meer informatie, zie [ toegang van het Verzoek tot een plan in de Planner van het Scenario ](../../scenario-planner/request-access-to-plan.md). Hiervoor is een aanvullende licentie vereist.
 >
->* Weergaven en werkruimten in Workfront Planning. Voor meer informatie, zie [&#x200B; Overzicht van het delen van toestemmingen in de Planning van Adobe Workfront &#x200B;](/help/quicksilver/planning/access/sharing-permissions-overview.md). Hiervoor is een aanvullende licentie vereist.
+>* Weergaven en werkruimten in Workfront Planning. Voor meer informatie, zie [ Overzicht van het delen van toestemmingen in de Planning van Adobe Workfront ](/help/quicksilver/planning/access/sharing-permissions-overview.md). Hiervoor is een aanvullende licentie vereist.
 
 
-Uw Workfront-beheerder configureert uw toegang tot een type object op uw toegangsniveau. Voor meer informatie, zie [&#x200B; hoe de toegangsniveaus en de toestemmingen samen &#x200B;](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md) werken.
+Uw Workfront-beheerder configureert uw toegang tot een type object op uw toegangsniveau. Voor meer informatie, zie [ hoe de toegangsniveaus en de toestemmingen samen ](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md) werken.
 
 Als u machtigingen nodig hebt voor specifieke objecten in Workfront, kunt u deze objecten aanvragen. In plaats van een e-mail naar de Workfront-beheerder of objecteigenaar te verzenden om uw behoeften uit te leggen, kunt u aanvullende toegang (of machtigingen) aanvragen in Workfront.
 
@@ -36,23 +36,20 @@ U kunt een eerste toegang tot objecten aanvragen als iemand een koppeling naar h
 
 ## Toegangsvereisten
 
-+++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
-
-U moet het volgende hebben om objecten te delen:
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan</td> 
-   <td> <p>Alle </p> </td> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie</td> 
-   <td> <p>Nieuw: Standaard</p> 
-   <p>of</p>
-   <p>Huidig: Werk of hoger</p> 
+   <td> <p>Standard</p> 
+   <p>Werk of hoger</p> 
    </td> 
   </tr> 
   <tr> 
@@ -62,7 +59,7 @@ U moet het volgende hebben om objecten te delen:
  </tbody> 
 </table>
 
-Voor meer details over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -81,7 +78,7 @@ De volgende standaard regels voor delen zijn standaardopties in uw Workfront-sys
 
 U kunt een eerste toegang aanvragen tot objecten waartoe u momenteel geen toegang hebt, of u kunt aanvullende toegang aanvragen tot objecten waartoe u slechts beperkte toegang hebt.
 
-* [&#x200B; Verzoek eerste toegang &#x200B;](#request-initial-access)
+* [ Verzoek eerste toegang ](#request-initial-access)
 * [Aanvullende toegang aanvragen](#request-additional-access)
 
 ### Aanvankelijke toegang aanvragen  {#request-initial-access}
@@ -94,12 +91,12 @@ Aanvankelijke toegang tot een object aanvragen:
 
 1. (Voorwaardelijk) als meer dan één gebruiker de aangewezen toegang heeft om u extra toegang te verlenen, toont een drop-down pijl naast de naam van de gebruiker. Selecteer de gebruiker die uw toegangsverzoek van de drop-down lijst zal ontvangen.
 
-   Slechts tien gebruikers worden getoond in de drop-down lijst, die alfabetisch wordt gesorteerd. Voor meer informatie over de orde van de gebruikers die in dit drop-down menu worden vermeld, zie [&#x200B; Hiërarchie van de &quot;Toegang van het Verzoek&quot;en &quot;Vraag Meer Toegang&quot;drop-down menu&#39;s &#x200B;](#hierarchy-of-the-request-access-and-request-more-access-drop-down-menus).
+   Slechts tien gebruikers worden getoond in de drop-down lijst, die alfabetisch wordt gesorteerd. Voor meer informatie over de orde van de gebruikers die in dit drop-down menu worden vermeld, zie [ Hiërarchie van de &quot;Toegang van het Verzoek&quot;en &quot;Vraag Meer Toegang&quot;drop-down menu&#39;s ](#hierarchy-of-the-request-access-and-request-more-access-drop-down-menus).
 
 1. Selecteer in de vervolgkeuzelijst het type toegang dat u aanvraagt.
 1. (Facultatief) op het **P.S.** gebied, ga een nota betreffende in waarom u extra toegang nodig hebt.
 
-   ![&#x200B; de dialoogdoos van de Toegang van het Verzoek &#x200B;](assets/request-access-to-project.png)
+   ![ de dialoogdoos van de Toegang van het Verzoek ](assets/request-access-to-project.png)
 
 1. Klik **Toegang van het Verzoek**.
 
@@ -118,22 +115,22 @@ Aanvullende toegang aanvragen tot een object waartoe u al beperkte toegang hebt:
 
 1. Klik het **Meer** menu rechts van de projectnaam, dan klik **Verzoek Meer Toegang**.
 
-   ![&#x200B; Verzoek meer Toegang &#x200B;](assets/more-menu-request-more-access.png)
+   ![ Verzoek meer Toegang ](assets/more-menu-request-more-access.png)
 
 1. (Voorwaardelijk) als meer dan één gebruiker de aangewezen toegang heeft om u extra toegang te verlenen, toont een drop-down pijl naast de naam van de gebruiker. Selecteer de gebruiker die uw toegangsverzoek van de drop-down lijst zal ontvangen.
 
-   Slechts tien gebruikers worden getoond in de drop-down lijst, die alfabetisch wordt gesorteerd. Voor meer informatie over de orde van de gebruikers die in dit drop-down menu worden vermeld, zie [&#x200B; Hiërarchie van de &quot;Toegang van het Verzoek&quot;en &quot;Vraag Meer Toegang&quot;drop-down menu&#39;s &#x200B;](#hierarchy-of-the-request-access-and-request-more-access-drop-down-menus).
+   Slechts tien gebruikers worden getoond in de drop-down lijst, die alfabetisch wordt gesorteerd. Voor meer informatie over de orde van de gebruikers die in dit drop-down menu worden vermeld, zie [ Hiërarchie van de &quot;Toegang van het Verzoek&quot;en &quot;Vraag Meer Toegang&quot;drop-down menu&#39;s ](#hierarchy-of-the-request-access-and-request-more-access-drop-down-menus).
 
 1. Selecteer in de vervolgkeuzelijst het toegangsniveau dat u aanvraagt.
 1. (Facultatief) op het **P.S.** gebied, ga een nota betreffende in waarom u extra toegang nodig hebt.
 
-   ![&#x200B; de dialoogdoos van de Toegang van het Verzoek &#x200B;](assets/request-access-to-project.png)
+   ![ de dialoogdoos van de Toegang van het Verzoek ](assets/request-access-to-project.png)
 
 1. Klik **Toegang van het Verzoek**.
 
 ## Hiërarchie van de keuzemenu&#39;s Toegang aanvragen en Meer toegang aanvragen {#hierarchy-of-the-request-access-and-request-more-access-drop-down-menus}
 
-* [&#x200B; begrijp de hiërarchie van gebruikers die in de Toegang van het Verzoek en het Verzoek Meer drop-down menu&#39;s van de Toegang worden vermeld &#x200B;](#understand-the-hierarchy-of-users-listed-in-the-request-access-and-request-more-access-drop-down-menus)
+* [ begrijp de hiërarchie van gebruikers die in de Toegang van het Verzoek en het Verzoek Meer drop-down menu&#39;s van de Toegang worden vermeld ](#understand-the-hierarchy-of-users-listed-in-the-request-access-and-request-more-access-drop-down-menus)
 * [De eigenaar van een object begrijpen](#understand-the-owner-of-an-object)
 
 ### Begrijp de hiërarchie van gebruikers die in de drop-down menu&#39;s van de Toegang van het Verzoek en van het Verzoek Meer Toegang worden vermeld {#understand-the-hierarchy-of-users-listed-in-the-request-access-and-request-more-access-drop-down-menus}
@@ -142,7 +139,7 @@ Wanneer het bevolken van de lijsten van de Toegang van het Verzoek of van het Ve
 
 De orde van de gebruikers in de Toegang van het Verzoek of het Verzoek Meer drop-down van de Toegang wordt gedicteerd door de volgende regels:
 
-* De eerste gebruiker in de lijst is de objecten &quot;eigenaar&quot;, zoals die in [&#x200B; wordt beschreven Begrijp de eigenaar van een voorwerp &#x200B;](#understand-the-owner-of-an-object).
+* De eerste gebruiker in de lijst is de objecten &quot;eigenaar&quot;, zoals die in [ wordt beschreven Begrijp de eigenaar van een voorwerp ](#understand-the-owner-of-an-object).
 * De lijst wordt vervolgens gevuld met gebruikers met wie het object afzonderlijk wordt gedeeld. Ze worden in alfabetische volgorde weergegeven.
 * De lijst wordt dan verder bevolkt met gebruikers die de vereiste toegang door het delen met hun teams, groepen, of bedrijven krijgen. Ze worden in alfabetische volgorde weergegeven.
 * Als de lijst leeg is, worden de beheerders van Workfront toegevoegd zodat er altijd iemand is om toegang van te vragen. Ze worden in alfabetische volgorde weergegeven.

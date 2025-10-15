@@ -2,20 +2,22 @@
 content-type: overview;reference
 product-area: projects
 navigation-topic: issues
-title: Informatie over uitgifte
+title: 'Informatie over de kwestie: index van artikel'
 description: De kwesties zijn werkpunten die onverwachte of ongeplande het werk aan een project vertegenwoordigen. De volgende artikelen bevatten informatie over problemen.
 author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: 95ea93d7-6cc3-4aaa-a8f7-8a59dda6b5f1
-source-git-commit: b08377e539b04e896e84d17f46d2c941b0f66731
+source-git-commit: 0542587bb3254dec5664de493c1c321528cf7f3e
 workflow-type: tm+mt
-source-wordcount: '121'
+source-wordcount: '125'
 ht-degree: 0%
 
 ---
 
-# Informatie over uitgifte
+# Informatie over problemen: artikelindex
+
+<!--Audited: 08/2025-->
 
 Tijdens het werken aan een project, zou u kunnen ontdekken dat de onverwachte gebeurtenissen zich voordoen. U kunt die onverwachte gebeurtenissen als kwesties voor een bepaald project of voor een taak registreren.
 
@@ -23,8 +25,8 @@ In tegenstelling tot taken, kunnen de kwesties niet het percentage drijven volle
 
 Deze sectie bevat de volgende artikelen:
 
-* [&#x200B; overzicht van de Duur van de Uitgave &#x200B;](../../../manage-work/issues/issue-information/issue-duration.md)
-* [&#x200B; Prioriteit van de Uitgave van de Update &#x200B;](../../../manage-work/issues/issue-information/update-issue-priority.md)
-* [&#x200B; de kwestie van de Update strengheid &#x200B;](../../../manage-work/issues/issue-information/update-issue-severity.md)
-* [&#x200B; Overzicht van de kwestie Geplande Datum van de Voltooiing &#x200B;](../../../manage-work/issues/issue-information/issue-planned-completion-date.md)
+* [ overzicht van de Duur van de Uitgave ](../../../manage-work/issues/issue-information/issue-duration.md)
+* [ Prioriteit van de Uitgave van de Update ](../../../manage-work/issues/issue-information/update-issue-priority.md)
+* [ de kwestie van de Update strengheid ](../../../manage-work/issues/issue-information/update-issue-severity.md)
+* [ Overzicht van de kwestie Geplande Datum van de Voltooiing ](../../../manage-work/issues/issue-information/issue-planned-completion-date.md)
 * [Gebruik &quot;opTask&quot; en &quot;issue&quot; bij het verwijzen naar problemen](../../../manage-work/issues/issue-information/use-optask-instead-of-issue.md)

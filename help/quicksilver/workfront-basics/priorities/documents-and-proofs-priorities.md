@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 63aa5e45-e51d-4049-a5d9-18dfaaa79647
-source-git-commit: b886284eb44c2154987019655ff07cdeb0e1ae22
+source-git-commit: 985f1aa11ad1d5efc8d043907d60ad5f5c1bba13
 workflow-type: tm+mt
-source-wordcount: '599'
+source-wordcount: '589'
 ht-degree: 0%
 
 ---
@@ -23,28 +23,21 @@ Prioriteiten geven de werkitems weer die aan u zijn toegewezen. U kunt geen werk
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan</td> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
    <td> 
-   <p>Nieuw: alle </p>
-   <p>Huidig: Pro of hoger</p>
+   <p>Alle</p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie</td> 
    <td> 
-      <p><strong>Documenten uploaden</strong></p>
-   <p>Nieuw: Medewerker</p>
-   <p>Huidig: Verzoek</p>
-      <p><strong>Proefdrukken maken</strong></p>
-        <p>Nieuw: Standaard</p>
-     <p>Huidig: Werk of Plan</p>
+   <p>Medewerker of hoger om documenten te uploaden; standaard om proefdrukken te maken</p>
+   <p>Vraag of hoger om documenten te uploaden; werk of hoger om proefdrukken te maken</p>
    </td> 
   </tr> 
   <tr> 
@@ -52,13 +45,13 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    <td>Manager of hoger</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau*</td> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
    <td> <p>Toegang tot documenten bewerken</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -73,11 +66,11 @@ U kunt een document uploaden naar een tijdelijk item vanuit de werklijst of de p
 
 1. In de werklijst, houd over de het werknaam, dan klik **pictogram van de Samenvatting** open samenvattingspictogram ![.](assets/summary-icon.png)
 1. Verzeker u op de **Taak** of **Kwesties** lusje in het summiere paneel bent.
-1. Klik **uploaden het pictogram van het Dossier** pictogram ![&#x200B; uploadt dossierpictogram &#x200B;](assets/upload-file-icon.png).
+1. Klik **uploaden het pictogram van het Dossier** pictogram ![ uploadt dossierpictogram ](assets/upload-file-icon.png).
 1. Sleep het bestand of Cmd/Ctrl + V om het van het klembord te plakken
 of
 Klik **toevoegen dossiers** om dossiers te doorbladeren of dossiers van een leverancier van Document Cloud in te voeren.
-   ![&#x200B; voeg dossiers &#x200B;](assets/add-files.png) toe
+   ![ voeg dossiers ](assets/add-files.png) toe
 1. (Optioneel) Voeg een opmerking toe.
 1. (Optioneel) Voeg meer bestanden toe.
 
@@ -96,7 +89,7 @@ Klik **toevoegen dossiers** om dossiers te doorbladeren of dossiers van een leve
 1. Sleep het bestand of Cmd/Ctrl + V om het van het klembord te plakken
 of
 Klik **toevoegen dossiers** om dossiers te doorbladeren of dossiers van een leverancier van Document Cloud in te voeren.
-   ![&#x200B; voeg dossiers &#x200B;](assets/add-files.png) toe
+   ![ voeg dossiers ](assets/add-files.png) toe
 1. (Optioneel) Voeg een opmerking toe.
 1. (Optioneel) Voeg meer bestanden toe.
 
@@ -117,8 +110,8 @@ U kunt een proef van een document van de werklijst of de pagina van de Details v
 
 1. In de werklijst, houd over de het werknaam, dan klik **pictogram van de Samenvatting** open samenvattingspictogram ![.](assets/summary-icon.png)
 1. Verzeker u op de **Taak** of **Kwesties** lusje in het summiere paneel bent.
-1. Klik het **pictogram van Documenten** het pictogram van Documenten ![&#x200B; in de rechterzijspoor.](assets/show-document-icon.png)
-1. Klik het **uploadt dossier** pictogram ![&#x200B; uploadt dossierpictogram &#x200B;](assets/upload-file-icon.png), dan kies het dossier.
+1. Klik het **pictogram van Documenten** het pictogram van Documenten ![ in de rechterzijspoor.](assets/show-document-icon.png)
+1. Klik het **uploadt dossier** pictogram ![ uploadt dossierpictogram ](assets/upload-file-icon.png), dan kies het dossier.
 
    >[!NOTE]
    >
@@ -157,8 +150,8 @@ U kunt een proef van een document van de werklijst of de pagina van de Details v
 1. Klik het **lusje van Documenten** bij de bovenkant van het scherm.
 1. Klik **uploaden document** in de hoger-juiste hoek, dan selecteren **Bewijs**.
 1. Een proefdruk maken zoals beschreven in
-   [&#x200B; creeer een geavanceerd bewijs met een Basiswerkschema &#x200B;](/help/quicksilver/review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md)
-   [&#x200B; creeer een geavanceerd bewijs met een Geautomatiseerd werkschema &#x200B;](/help/quicksilver/review-and-approve-work/proofing/creating-proofs-within-workfront/create-automated-proof-workflow.md)
+   [ creeer een geavanceerd bewijs met een Basiswerkschema ](/help/quicksilver/review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md)
+   [ creeer een geavanceerd bewijs met een Geautomatiseerd werkschema ](/help/quicksilver/review-and-approve-work/proofing/creating-proofs-within-workfront/create-automated-proof-workflow.md)
 
 <!--
 

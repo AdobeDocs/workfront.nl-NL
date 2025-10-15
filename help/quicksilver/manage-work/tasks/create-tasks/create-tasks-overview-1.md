@@ -3,14 +3,14 @@ content-type: overview;reference
 product-area: projects
 navigation-topic: tasks
 title: 'Taken maken: artikelindex'
-description: U kunt taken in een specifiek project tot stand brengen.
+description: U kunt taken maken in een specifiek project in Adobe Workfront.
 author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: 5776570c-f303-4e62-bc80-5038191a83fd
-source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
+source-git-commit: c1b8af0d8a95714bb597db7a429794773358cf05
 workflow-type: tm+mt
-source-wordcount: '46'
+source-wordcount: '49'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ U kunt taken maken in een specifiek project in Adobe Workfront.
 
 Deze sectie bevat de volgende artikelen:
 
-* [&#x200B; creeer takenoverzicht &#x200B;](../../../manage-work/tasks/create-tasks/create-tasks-overview.md)
-* [&#x200B; creeer taken in een project &#x200B;](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md)
-* [&#x200B; creeer subtasks &#x200B;](../../../manage-work/tasks/create-tasks/create-subtasks.md)
+* [ creeer takenoverzicht ](../../../manage-work/tasks/create-tasks/create-tasks-overview.md)
+* [ creeer taken in een project ](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md)
+* [ creeer subtasks ](../../../manage-work/tasks/create-tasks/create-subtasks.md)
 * [Herhalende taken maken](../../../manage-work/tasks/create-tasks/create-recurring-tasks.md)

@@ -6,9 +6,9 @@ description: Leer hoe u inhoud in een proefdruk kunt weergeven.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: f44e191c-edce-4387-8ab0-7a014d094a29
-source-git-commit: 0cdd29a0fd58427197f1b9a4b4907089d3d86115
+source-git-commit: 385f4a6663cacfdcf519bf5699fc1840c2cb2adc
 workflow-type: tm+mt
-source-wordcount: '897'
+source-wordcount: '827'
 ht-degree: 0%
 
 ---
@@ -26,32 +26,34 @@ Met de proefdrukviewer kunt u bestanden weergeven en markeren in Workfront.
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-abonnement*</td> 
-   <td> <p>Huidig abonnement: Pro of hoger</p> <p>of</p> <p>Verouderd abonnement: Selecteren of Premium</p> <p>Voor meer informatie over het proefdrukken van toegang met de verschillende plannen, zie <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref"> Toegang tot het proefdrukken van functionaliteit in Workfront </a>.</p> </td> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Huidig plan: Werk of Plan</p> <p>Ouder plan: Willekeurig (proefdrukken moet zijn ingeschakeld voor de gebruiker)</p> </td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td> <p>Alle</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Proefdrukrol </td> 
+   <td>Revisor, Reviewer en fiatteur, auteur, moderator</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Bewijs van machtigingsprofiel </td> 
    <td>Manager of hoger</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot documenten bewerken</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
+   <td> <p>Toegang tot documenten bewerken</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42; om te weten te komen welk plan, rol, of Profiel van de Toestemming van het Bewijs u hebt, contacteer uw beheerder van Workfront of van Workfront Proof.
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -63,7 +65,7 @@ U kunt een statisch bewijs dat meerdere pagina&#39;s bevat, in één weergave, i
 1. Vind de proef u nodig hebt, dan klik **Open proef**.
 
 1. Zoek in de linkerbovenhoek van de proefdrukviewer de weergaveopties.\
-   ![&#x200B; changing_the_view.png &#x200B;](assets/changing-the-view-350x213.png)
+   ![ changing_the_view.png ](assets/changing-the-view-350x213.png)
 
 1. Klik op een van de volgende opties:
 
@@ -90,7 +92,7 @@ U kunt een statisch bewijs dat meerdere pagina&#39;s bevat, in één weergave, i
 
 Het deelvenster met miniaturen wordt aan de linkerkant van de proefdrukviewer weergegeven. In het gebied met miniaturen kunt u door de proefdruk navigeren. Miniaturen zijn vooral handig wanneer een proefdruk meerdere pagina&#39;s bevat.
 
-* [&#x200B; verberg en toon het duimnagelpaneel &#x200B;](#hide-and-display-the-thumbnails-panel)
+* [ verberg en toon het duimnagelpaneel ](#hide-and-display-the-thumbnails-panel)
 * [Zoomen en pannen in de miniatuurweergave](#zoom-and-pan-in-the-thumbnail-view)
 
 ### Het deelvenster Miniaturen verbergen en weergeven {#hide-and-display-the-thumbnails-panel}
@@ -101,7 +103,7 @@ Het deelvenster Miniaturen wordt standaard weergegeven. U kunt de grootte van he
 1. Vind de proef u nodig hebt, dan klik **Open proef**.
 
 1. Klik het **pictogram van de Duimnagel** in de upper-left hoek van de het proef kijker.\
-   ![&#x200B; hide_thumbnails_panel.png &#x200B;](assets/hide-thumbnails-panel-350x213.png)
+   ![ hide_thumbnails_panel.png ](assets/hide-thumbnails-panel-350x213.png)
 
 1. (Optioneel) Klik nogmaals op het pictogram Miniatuur om het deelvenster Miniaturen weer te geven.
 
@@ -121,7 +123,7 @@ Zoomen en pannen in de miniatuurweergave:
 1. Zoek het huidige zoomgebied in het deelvenster met miniaturen.\
    Het zoomgebied wordt weergegeven als een blauw kader rond de randen van de miniatuur.
 
-   ![&#x200B; zoom_thumbnail_-_frame.png &#x200B;](assets/zoom-thumbnail---frame-350x215.png)
+   ![ zoom_thumbnail_-_frame.png ](assets/zoom-thumbnail---frame-350x215.png)
 
 1. Als u de grootte van het zoomgebied wilt aanpassen, sleept u de rechterbenedenhoek van het zoomgebied totdat dit de gewenste grootte heeft.
 1. Als u het zoomgebied naar een ander gedeelte van de proefdruk wilt verplaatsen, sleept u het zoomgebied totdat dit het gedeelte van de proefdruk bedekt dat u wilt weergeven.
@@ -135,7 +137,7 @@ U kunt de proefdruk roteren in de proefdrukviewer. Wanneer u een proefdruk met m
 
 1. Klik het **roteren** pictogram bij de bodem van de het proef kijker.
 
-   ![&#x200B; proof_viewer_static_rotate.png &#x200B;](assets/proof-viewer-static-rotate-350x36.png)
+   ![ proof_viewer_static_rotate.png ](assets/proof-viewer-static-rotate-350x36.png)
 
    De proef wordt geroteerd 90 graden telkens als u **klikt roteer** pictogram.
 
@@ -150,19 +152,19 @@ U kunt het zoompercentage aanpassen wanneer u de proefdruk weergeeft. Als u een 
 
    * Klik het **pictogram van het Gezoem**, dan of klik op de proef om de proef bij een hoger gezoemniveau te bekijken, of belemmering over een gebied van de proef om slechts dat gebied te bekijken.
 
-     ![&#x200B; change_zoom_percentage.png &#x200B;](assets/change-zoom-percentage-350x36.png)
+     ![ change_zoom_percentage.png ](assets/change-zoom-percentage-350x36.png)
 
    * Klik het huidige gezoempercentage, klik een nieuw gezoempercentage of klik **passen aan breedte**, **passen aan hoogte**, of **passen aan pagina**.
 
-     ![&#x200B; zoom_percentage_menu.png &#x200B;](assets/zoom-percentage-menu-350x245.png)
+     ![ zoom_percentage_menu.png ](assets/zoom-percentage-menu-350x245.png)
 
    * Klik **plus** of **min** pictogrammen om het gezoempercentage te verhogen of te verminderen.
 
-     ![&#x200B; change_zoom_percentage_-_plus_minus.png &#x200B;](assets/change-zoom-percentage---plus-minus-350x36.png)
+     ![ change_zoom_percentage_-_plus_minus.png ](assets/change-zoom-percentage---plus-minus-350x36.png)
 
 1. Als u aan een bepaald gebied op de videoproef moet pannen, klik het **Pannen** pictogram, dan sleep de proef zoals nodig.
 
-   ![&#x200B; change_zoom_-_pan.png &#x200B;](assets/change-zoom---pan-350x36.png)
+   ![ change_zoom_-_pan.png ](assets/change-zoom---pan-350x36.png)
 
    >[!TIP]
    >

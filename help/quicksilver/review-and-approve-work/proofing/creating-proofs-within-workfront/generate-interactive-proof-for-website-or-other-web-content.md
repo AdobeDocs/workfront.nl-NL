@@ -6,9 +6,9 @@ description: U kunt een nieuwe interactieve proefdruk of een nieuwe versie van e
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 56e5eeea-1ab9-43c8-bc84-d10638171871
-source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
+source-git-commit: ac714bd5a5259d6f995ac445efbd0125e07022cb
 workflow-type: tm+mt
-source-wordcount: '561'
+source-wordcount: '461'
 ht-degree: 0%
 
 ---
@@ -27,32 +27,32 @@ In een interactieve proefdruk kunnen revisoren navigeren en communiceren zoals z
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-abonnement*</td> 
-   <td> <p>Huidig abonnement: Pro of hoger</p> <p>of</p> <p>Verouderd plan: Premium</p> <p>Voor meer informatie over het proefdrukken van toegang met de verschillende plannen, zie <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref"> Toegang tot het proefdrukken van functionaliteit in Workfront </a>.</p> </td> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Huidig plan: Werk of Plan</p> <p>Ouder plan: Willekeurig (proefdrukken moet zijn ingeschakeld voor de gebruiker)</p> </td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td> 
+   <p>Standard</p>
+   <p>Werken of plannen</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Bewijs van machtigingsprofiel </td> 
    <td>Manager of hoger</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot documenten bewerken</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
+   <td> <p>Toegang tot documenten bewerken</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42; om te weten te komen welk plan, rol, of Profiel van de Toestemming van het Bewijs u hebt, contacteer uw beheerder van Workfront of van Workfront Proof.
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -66,14 +66,14 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
    1. Houd de muisaanwijzer boven de URL-proefdruk waarvoor u een nieuwe versie wilt maken en selecteer deze door op de lichtblauwe achtergrond eromheen te klikken.
 
-      ![&#x200B; Select_proof_by_selecting_light_blue_background.png &#x200B;](assets/select-proof-by-selecting-light-blue-background-350x52.png)
+      ![ Select_proof_by_selecting_light_blue_background.png ](assets/select-proof-by-selecting-light-blue-background-350x52.png)
 
 
    1. In **voeg nieuwe** drop-down toe, klik **Versie** > **Bewijs**.
 
 1. In **voeg dossiers** sectie toe, typ URL van de website u wilt bewijzen, dan druk **binnengaan**.  U kunt dit proces herhalen om meerdere websites toe te voegen die u wilt controleren.
 
-   ![&#x200B; proof_website.png &#x200B;](assets/proof-website-350x65.png)
+   ![ proof_website.png ](assets/proof-website-350x65.png)
 
 
    >[!NOTE]
@@ -82,7 +82,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 1. Klik op de URL die u hebt toegevoegd.
 
-   ![&#x200B; klik URL &#x200B;](assets/click-url-350x137.png)
+   ![ klik URL ](assets/click-url-350x137.png)
 
 1. (Facultatief) als u de naam van de proef van website URL in iets anders wilt veranderen, typ a **naam van het Bewijs**.
 1. Selecteer **Interactief**, dan klik **Gedaan**.

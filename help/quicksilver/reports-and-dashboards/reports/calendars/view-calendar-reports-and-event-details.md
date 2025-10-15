@@ -6,9 +6,9 @@ description: U kunt kalenderrapporten en gebeurtenisdetails bekijken die u creee
 author: Lisa
 feature: Reports and Dashboards
 exl-id: db016e91-43e4-400c-ac9d-1639c7f94479
-source-git-commit: a411c1ddf0c6d19dc7f6e181cceeebba5504530c
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '568'
+source-wordcount: '562'
 ht-degree: 0%
 
 ---
@@ -21,8 +21,6 @@ U kunt kalenderrapporten en gebeurtenisdetails bekijken die u creeerde of met u 
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -30,27 +28,26 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront plan]</td> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licentie</td> 
-   <td><p>Nieuw: Medewerker</p>
-       <p>of</p>
-       <p>Huidig: Verzoek</p></td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td><p>Medewerker</p>
+       <p>Verzoek</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau</td> 
-   <td> <p>[!UICONTROL View] of betere toegang tot [!UICONTROL Reports] , [!UICONTROL Dashboards] , en [!UICONTROL Calendars]</p></td> 
+   <td> <p>Toegang tot rapporten, dashboards en kalenders weergeven of vergroten</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td>[!UICONTROL View] of hogere machtigingen voor het kalenderrapport</td> 
+   <td>De toestemmingen van de mening of hoger aan het kalenderrapport</td> 
   </tr> 
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -58,7 +55,7 @@ Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van d
 
 <!--{{step1-to-calendars}}-->
 
-1. Klik het **[!UICONTROL Main Menu]** pictogram ![&#x200B; Belangrijkste Menu &#x200B;](/help/_includes/assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, of (als beschikbaar), klik het **[!UICONTROL Main Menu]** pictogram ![&#x200B; Belangrijkste Menu &#x200B;](/help/_includes/assets/main-menu-icon-left-nav.png) in de upper-left hoek, dan klik **[!UICONTROL Calendars]**.
+1. Klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, of (als beschikbaar), klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon-left-nav.png) in de upper-left hoek, dan klik **[!UICONTROL Calendars]**.
 
    Afhankelijk van uw toegangsniveau, zou u de volgende vermelde kalenders kunnen zien:
 
@@ -68,14 +65,14 @@ Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van d
 
    * Door u gemaakte kalenders
 
-     Om over het creëren van kalenders te leren, zie [&#x200B; overzicht van de rapporten van de Kalender &#x200B;](../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md).
+     Om over het creëren van kalenders te leren, zie [ overzicht van de rapporten van de Kalender ](../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md).
 
    * Kalenders die andere gebruikers met u hebben gedeeld
 
-     Zie [[!UICONTROL Share a calendar] report &#x200B;](../../../reports-and-dashboards/reports/calendars/share-a-calendar-report.md) voor meer informatie over het delen van kalenders.
+     Zie [[!UICONTROL Share a calendar] report ](../../../reports-and-dashboards/reports/calendars/share-a-calendar-report.md) voor meer informatie over het delen van kalenders.
 
 1. (Voorwaardelijk) klik **[!UICONTROL View]** drop-down, dan selecteer de kalenderduur u wilt bekijken.
-   ![&#x200B; de duur van de Kalender &#x200B;](assets/view-menu-calendar-report-350x189.png)
+   ![ de duur van de Kalender ](assets/view-menu-calendar-report-350x189.png)
 U kunt uit de volgende meningen van het kalenderrapport kiezen:
 
    * **[!UICONTROL Month]**: geeft vier weken van de kalender weer
@@ -97,14 +94,14 @@ U kunt uit de volgende meningen van het kalenderrapport kiezen:
 
       1. Klik op de werkbalk **[!UICONTROL Calendar]** op de pijl naar links van de datumindicator om terug te gaan in de kalender of op de pijl naar rechts om vooruit te gaan.
 
-         ![&#x200B; klik pijl om datum &#x200B;](assets/click-arrows-to-change-dates-calendar-report.png) te veranderen
+         ![ klik pijl om datum ](assets/click-arrows-to-change-dates-calendar-report.png) te veranderen
 
          De weergegeven datums worden aangepast met een interval dat is gebaseerd op de huidige kalenderweergave. Bijvoorbeeld, als u de kalender in de **Week** mening bekijkt, toont de kalendervertoningen of één week vooruit of één week terug, afhankelijk van de pijl u selecteert.
 
       1. (Facultatief) om aan de huidige dag terug te keren, klik [!UICONTROL **vandaag**].
 
 1. (Optioneel) Als u de gebeurtenissen voor een aan de kalender gekoppelde project- of kalendergroep wilt verbergen, wist u de project- of kalendergroep in de projectlijst.
-   ![&#x200B; de gebeurtenissen van de Huid &#x200B;](assets/hide-events-for-project-or-cal-grouping.png)
+   ![ de gebeurtenissen van de Huid ](assets/hide-events-for-project-or-cal-grouping.png)
 U kunt de gebeurtenissen weer zichtbaar maken door de [!UICONTROL project] - of kalendergroep in de projectlijst te selecteren.
 
 ## Gebeurtenisdetails van kalenderrapporten weergeven

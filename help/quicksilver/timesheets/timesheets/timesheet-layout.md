@@ -4,10 +4,10 @@ product-area: timesheets
 navigation-topic: timesheets-navigation-topic
 title: Overzicht van tijdlijnlay-out
 description: In dit artikel wordt de lay-out van tijdbladen in Adobe Workfront beschreven, zodat u beter kunt begrijpen hoe u tijdbladen kunt aanpassen en gebruiken om tijd op te nemen.
-author: Alina
+author: Lisa
 feature: Timesheets
 exl-id: 31c48a50-5235-495c-8e46-0974ed98ede1
-source-git-commit: 1eb1e919bede7e366956d8c0bd969329a641123f
+source-git-commit: 69cd5fb1d089b81b7a1673609b92537137b6b68e
 workflow-type: tm+mt
 source-wordcount: '1049'
 ht-degree: 0%
@@ -26,11 +26,11 @@ ht-degree: 0%
 
 In dit artikel wordt de lay-out van tijdbladen in Adobe Workfront beschreven, zodat u beter kunt begrijpen hoe u tijdbladen kunt aanpassen en gebruiken om tijd op te nemen.
 
-Met de voorkeuren voor tijdbladen en uren bepaalt u wat er op een tijdblad wordt weergegeven. Dit artikel biedt een overzicht van alle beschikbare opties. Voor informatie bij het selecteren van de opties, zie [&#x200B; timesheet en uurvoorkeur &#x200B;](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md) vormen.
+Met de voorkeuren voor tijdbladen en uren bepaalt u wat er op een tijdblad wordt weergegeven. Dit artikel biedt een overzicht van alle beschikbare opties. Voor informatie bij het selecteren van de opties, zie [ timesheet en uurvoorkeur ](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md) vormen.
 
-Voor informatie over hoe te om tijd op een tijdblad te registreren, zie [&#x200B; tijd van het Logboek &#x200B;](../../timesheets/create-and-manage-timesheets/log-time.md).
+Voor informatie over hoe te om tijd op een tijdblad te registreren, zie [ tijd van het Logboek ](../../timesheets/create-and-manage-timesheets/log-time.md).
 
-![&#x200B; lay-out Timesheet &#x200B;](assets/timesheet-layout-unshimmed.png)
+![ lay-out Timesheet ](assets/timesheet-layout-unshimmed.png)
 
 Hieronder vindt u de gebieden van een tijdspad:
 
@@ -50,7 +50,7 @@ Hieronder vindt u de gebieden van een tijdspad:
 
 ## Tijdbladkoptekst
 
-![&#x200B; de kopbal van Timesheet &#x200B;](assets/timesheet-title-unshimmed-redesign.png)
+![ de kopbal van Timesheet ](assets/timesheet-title-unshimmed-redesign.png)
 
 De koptekst van de tijdpagina bevat de volgende informatie:
 
@@ -60,7 +60,7 @@ De koptekst van de tijdpagina bevat de volgende informatie:
    * Het pictogram Meer met een optie van de Schrapping die u toestaat om timesheet te schrappen.
 * De naam van de eigenaar van het tijdblad.
 * Het totale aantal uren voor uren die voor punten worden geregistreerd die in timesheet worden getoond.
-* Het aantal overuren. Dit is een handingang en het is zichtbaar slechts wanneer het **plaatsen van de Overuren** op timesheet wordt toegelaten. Voor meer informatie, zie [&#x200B; timesheet informatie &#x200B;](../create-and-manage-timesheets/edit-timesheets.md) uitgeven.
+* Het aantal overuren. Dit is een handingang en het is zichtbaar slechts wanneer het **plaatsen van de Overuren** op timesheet wordt toegelaten. Voor meer informatie, zie [ timesheet informatie ](../create-and-manage-timesheets/edit-timesheets.md) uitgeven.
 
 >[!TIP]
 >
@@ -70,16 +70,16 @@ De koptekst van de tijdpagina bevat de volgende informatie:
 
 ## Het linkerdeelvenster
 
-![&#x200B; verlaten paneel van de Chronologie &#x200B;](assets/timesheet-left-panel-unshimmed-redesign.png)
+![ verlaten paneel van de Chronologie ](assets/timesheet-left-panel-unshimmed-redesign.png)
 
 In het linkerdeelvenster hebt u toegang tot de volgende secties:
 
 * **Timesheet**: Toont daadwerkelijke timesheet.
-* **Updates**: De commentaren van vertoningen en systeemupdates voor timesheet. Voor meer informatie, zie het [&#x200B; gebied van Updates in de linkerpaneel &#x200B;](#updates-area-in-the-left-panel) sectie in dit artikel.
+* **Updates**: De commentaren van vertoningen en systeemupdates voor timesheet. Voor meer informatie, zie het [ gebied van Updates in de linkerpaneel ](#updates-area-in-the-left-panel) sectie in dit artikel.
 
 ## Werkitems
 
-![&#x200B; het werkpunten van het Tijdoppervlak &#x200B;](assets/timesheet-object-names-unshimmed-redesign.png)
+![ het werkpunten van het Tijdoppervlak ](assets/timesheet-object-names-unshimmed-redesign.png)
 
 De het werkpunten zijn de projecten, de taken en de kwesties die u tijd voor wilt registreren. Als u op de pijl omlaag klikt in de koptekstrij, worden de projecten en de taken en problemen die eronder worden vermeld, samengevouwen. Als u op de pijl omlaag klikt naast de naam van een project, worden de werkitems voor dat project samengevouwen.
 
@@ -87,7 +87,7 @@ Taken, kwesties, en projecten waar de tijd buiten timesheet of punten wordt gere
 
 ## Werkbalk
 
-![&#x200B; de toolbar van Timesheet &#x200B;](assets/timesheet-toolbar-unshimmed-redesign.png)
+![ de toolbar van Timesheet ](assets/timesheet-toolbar-unshimmed-redesign.png)
 
 De werkbalk bevat de volgende opties:
 
@@ -97,11 +97,11 @@ De werkbalk bevat de volgende opties:
 * Het pictogram voor het volledige scherm om de tijdpagina in de modus Volledig scherm weer te geven.
 * De **Open Samenvatting** (of **dicht Samenvatting**) knoop om het Summiere paneel te openen of te sluiten om extra informatie voor taken of kwesties te zien. Deze knop is niet beschikbaar voor projecten.
 
-Voor meer informatie, zie [&#x200B; tijd van het Logboek &#x200B;](../create-and-manage-timesheets/log-time.md).
+Voor meer informatie, zie [ tijd van het Logboek ](../create-and-manage-timesheets/log-time.md).
 
 ## Tijdlijnvoettekst
 
-![&#x200B; footer van het Tijdoppervlak &#x200B;](assets/timesheet-footer-unshimmed-redesign.png)
+![ footer van het Tijdoppervlak ](assets/timesheet-footer-unshimmed-redesign.png)
 
 U kunt **klikken voorlegt voor Goedkeuring**, **dicht**, **goedkeuren**, en **verwerpt** knopen op dit gebied om een timesheet goedkeuring te sluiten of te verwerpen.
 
@@ -109,23 +109,23 @@ Dit gebied bevat ook informatie over wanneer timesheet voor het laatst is opgesl
 
 ## Functie
 
-![&#x200B; de rollen van de Baan &#x200B;](assets/timesheet-job-role-area-unshimmed-redesign.png)
+![ de rollen van de Baan ](assets/timesheet-job-role-area-unshimmed-redesign.png)
 
-U kunt een andere taakrol selecteren die u aan de uurvermeldingen wilt koppelen. Uw beheerder van Workfront moet **toelaten toewijzen baanrollen aan de ingangen van uren** manueel plaatsen. De taakrol die u hebt opgegeven wanneer u aan de taak bent toegewezen of de uitgave wordt standaard weergegeven. Als u geen taakrol aan de taak of de kwestie wordt toegewezen, toont uw Primaire Rol als gebrek. Voor meer informatie, zie [&#x200B; timesheet en uurvoorkeur &#x200B;](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md) vormen.
+U kunt een andere taakrol selecteren die u aan de uurvermeldingen wilt koppelen. Uw beheerder van Workfront moet **toelaten toewijzen baanrollen aan de ingangen van uren** manueel plaatsen. De taakrol die u hebt opgegeven wanneer u aan de taak bent toegewezen of de uitgave wordt standaard weergegeven. Als u geen taakrol aan de taak of de kwestie wordt toegewezen, toont uw Primaire Rol als gebrek. Voor meer informatie, zie [ timesheet en uurvoorkeur ](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md) vormen.
 
-U kunt veelvoudige uuringangen voor het zelfde het werkpunt voor verschillende rollen registreren. Voor meer informatie, zie [&#x200B; tijd van het Logboek &#x200B;](../create-and-manage-timesheets/log-time.md).
+U kunt veelvoudige uuringangen voor het zelfde het werkpunt voor verschillende rollen registreren. Voor meer informatie, zie [ tijd van het Logboek ](../create-and-manage-timesheets/log-time.md).
 
 ## Uurtype
 
-![&#x200B; types van Uur &#x200B;](assets/timesheet-hour-type-unshimmed-redesign.png)
+![ types van Uur ](assets/timesheet-hour-type-unshimmed-redesign.png)
 
-U kunt verschillende uurtypen selecteren die u aan uw uuritems voor elk onderdeel wilt koppelen. Dit gebied toont slechts wanneer de beheerder van Workfront het voor uw milieu toelaat. Voor informatie, zie [&#x200B; timesheet en uurvoorkeur &#x200B;](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md) vormen.
+U kunt verschillende uurtypen selecteren die u aan uw uuritems voor elk onderdeel wilt koppelen. Dit gebied toont slechts wanneer de beheerder van Workfront het voor uw milieu toelaat. Voor informatie, zie [ timesheet en uurvoorkeur ](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md) vormen.
 
-U kunt meerdere uurvermeldingen voor hetzelfde werkitem voor verschillende uurstypen vastleggen. Voor meer informatie, zie [&#x200B; tijd van het Logboek &#x200B;](../create-and-manage-timesheets/log-time.md).
+U kunt meerdere uurvermeldingen voor hetzelfde werkitem voor verschillende uurstypen vastleggen. Voor meer informatie, zie [ tijd van het Logboek ](../create-and-manage-timesheets/log-time.md).
 
 ## Het gebied Updates in het linkerdeelvenster
 
-![&#x200B; gebied van Updates in het linkertimesheet paneel &#x200B;](assets/timesheet-updates-with-all-tab.png)
+![ gebied van Updates in het linkertimesheet paneel ](assets/timesheet-updates-with-all-tab.png)
 
 U kunt commentaren op een timesheet maken om met uw timesheet fiatteurs of andere gebruikers in de sectie van Updates in het linkerpaneel van timesheet te communiceren.
 
@@ -133,15 +133,15 @@ Alle opmerkingen die zijn gemaakt op de tijdlijnweergave in dit gebied.
 
 ## Het deelvenster Samenvatting
 
-![&#x200B; Samenvattings paneel &#x200B;](assets/timesheet-summary-panel-on-updates.png)
+![ Samenvattings paneel ](assets/timesheet-summary-panel-on-updates.png)
 
-U kunt het deelvenster Samenvatting openen voor taken of problemen die in een tijdblad worden weergegeven. Hier kunt u opmerkingen maken over taken en problemen, of de gegevens van deze taken en problemen bijwerken. Voor meer informatie, zie [&#x200B; Overzicht van de Samenvatting &#x200B;](../../workfront-basics/the-new-workfront-experience/summary-overview.md).
+U kunt het deelvenster Samenvatting openen voor taken of problemen die in een tijdblad worden weergegeven. Hier kunt u opmerkingen maken over taken en problemen, of de gegevens van deze taken en problemen bijwerken. Voor meer informatie, zie [ Overzicht van de Samenvatting ](../../workfront-basics/the-new-workfront-experience/summary-overview.md).
 
 De opmerkingen die u invoert voor werkitems in het deelvenster Overzicht van het tijdlijnvenster worden weergegeven in het gedeelte Updates van de taak of het probleem. Het deelvenster Samenvatting is niet beschikbaar voor projecten.
 
 ## Tijdskader en invoergebied in uur
 
-![&#x200B; tijdkader van de Tijdopname &#x200B;](assets/timesheet-time-frame-log-time-area.png)
+![ tijdkader van de Tijdopname ](assets/timesheet-time-frame-log-time-area.png)
 
 Het tijdkader van timesheet toont rechts van de het werkpunten.
 
@@ -149,14 +149,14 @@ U kunt timesheets maken voor één, twee of vier weken.
 
 Het tijdkader wordt in stappen van een volledige week weergegeven. De dagen buiten het gespecificeerde timesheet tijdkader worden gedimd. U kunt geen tijd voor dagen registreren die buiten het tijdkader van timesheet zijn.
 
-Voor informatie, zie [&#x200B; een enig-gebruiks timesheet &#x200B;](../create-and-manage-timesheets/create-tmshts.md) of [&#x200B; creëren, uitgeven, en toewijzen timesheet profielen &#x200B;](../create-and-manage-timesheets/create-timesheet-profiles.md).
+Voor informatie, zie [ een enig-gebruiks timesheet ](../create-and-manage-timesheets/create-tmshts.md) of [ creëren, uitgeven, en toewijzen timesheet profielen ](../create-and-manage-timesheets/create-timesheet-profiles.md).
 
 <!--drafted for the resize columns in timesheets story - make this blurb a TIP when the story is released: 
 You can resize the columns that display different weeks, the time frame, or the work item areas by dragging and dropping the vertical lines that separate them.-->
 
 ## Uur-commentaar
 
-![&#x200B; de ingangscommentaren van het Uur &#x200B;](assets/timesheet-hour-entry-comment-button-unshimmed-redesign.png)
+![ de ingangscommentaren van het Uur ](assets/timesheet-hour-entry-comment-button-unshimmed-redesign.png)
 
 U kunt een commentaar voor elk uuringang toevoegen dat u aan uw timesheet toevoegt.
 
@@ -166,12 +166,12 @@ De commentaren u in de de ingangscommentaardoos van het uur ingaat tonen in time
 
 ## Uren
 
-![&#x200B; de uren van de Chronologie &#x200B;](assets/timesheet-hours-area-unshimmed-redesign.png)
+![ de uren van de Chronologie ](assets/timesheet-hours-area-unshimmed-redesign.png)
 
 Het timesheet verstrekt inputgebieden voor elk het werkpunt en dag van timesheet waaier om tijd te registreren die het werken aan het punt wordt doorgebracht. Terwijl u zich aanmeldt bij tijd, wordt het item waarvan u de tijd inlogt voor hooglichten in lichtblauw en het uurvak in donkerblauw weergegeven.
 
 ## Totalen
 
-![&#x200B; de totalen van de Chronologie &#x200B;](assets/timesheet-totals-column-and-header-unshimmed-redesign.png)
+![ de totalen van de Chronologie ](assets/timesheet-totals-column-and-header-unshimmed-redesign.png)
 
 Controleer de som van alle uren ingegaan op timesheet, samengevat door dag (in de kopbal van timesheet) evenals door voorwerp (in de laatste kolom).

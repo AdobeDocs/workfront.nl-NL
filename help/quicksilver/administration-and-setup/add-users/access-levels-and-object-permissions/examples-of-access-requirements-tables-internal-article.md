@@ -4,9 +4,9 @@ description: Dit is een intern artikel voor ons team om een inventaris van de li
 author: Alina
 hide: true
 hidefromtoc: true
-source-git-commit: 12b7638472b2138896a283283d368b4092a1e67b
+source-git-commit: dc4b6dc284c59281206a457395765e634067ba91
 workflow-type: tm+mt
-source-wordcount: '1138'
+source-wordcount: '1245'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te gev
  </tbody> 
 </table>
 
-Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Toegangsvereisten
 
@@ -82,7 +82,7 @@ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te gev
  </tbody> 
 </table>
 
-Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Toegangsvereisten (alleen beschikbaar voor nieuwe klanten)
 
@@ -112,7 +112,7 @@ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te gev
  </tbody> 
 </table>
 
-Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 
 ## Toegangsvereisten (dit is een voorbeeld waarbij de nieuwe functie alleen bestaat in de pakketten 2023/2025)
@@ -141,7 +141,7 @@ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te gev
   </tr>
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Toegangsvereisten (dit is een voorbeeld waar u andere producten moet hebben)
 
@@ -175,7 +175,7 @@ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te gev
   </tr>
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 
 ## Verpakkingsgrootte 2017 moet uit de rij verpakkingen worden verwijderd
@@ -260,7 +260,7 @@ en
 </tbody> 
 </table>
 
-Voor meer informatie over de toegangsvereisten van Workfront, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer informatie over de toegangsvereisten van Workfront, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Toegangsvereisten voor gecentraliseerde recordtypen in Workfront Planning
 
@@ -299,7 +299,7 @@ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te gev
 </tbody> 
 </table>
 
-Voor meer informatie over de toegangsvereisten van Workfront, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer informatie over de toegangsvereisten van Workfront, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 
 ## Toegangsvereisten voor het grootste deel van Scenario Planner
@@ -330,20 +330,20 @@ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te gev
 <td><p>Configuraties op toegangsniveau</p> </td> 
    <td> <p>Toegang tot de functie Scenario instellen bewerken</p> </td> 
   </tr> 
-  <tr data-mc-conditions=""> 
+  <tr> 
    <td> <p>Objectmachtigingen </p> </td> 
    <td> <p>Rechten voor een abonnement beheren</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-Voor informatie, zie [&#x200B; vereisten van de Toegang tot de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang tot de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Toegangsvereisten voor de meeste Workfront-doelen
 
 >[!NOTE]
 >
->Als je bedrijf de Adobe Workfront Goals in het verleden heeft gekocht, is het gekleineerd. Adobe Workfront Goals is niet meer verkrijgbaar.
+>Je kunt Adobe Workfront Goals blijven gebruiken als je bedrijf dit pakket in het verleden heeft gekocht. Adobe Workfront Goals is niet meer verkrijgbaar.
 
 Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
@@ -374,7 +374,7 @@ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te gev
  </tbody> 
 </table>
 
-Voor informatie, zie [&#x200B; vereisten van de Toegang tot de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang tot de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Toegangsvereisten voor Resource Management (voorbeeld van meerdere mogelijke licenties; alle RM-pakketten zijn nu Willekeurig)
 
@@ -404,7 +404,7 @@ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te gev
  </tbody> 
 </table>
 
-Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Toegangsvereisten voor Adobe Workfront Automation and Integration
 
@@ -420,10 +420,10 @@ Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van W
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in documentatie &#x200B;](https://experienceleague.adobe.com/nl/docs/workfront-fusion/using/references/licenses-and-roles/access-level-requirements-in-documentation).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/licenses-and-roles/access-level-requirements-in-documentation).
 
 
-Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [&#x200B; de Fusie van Adobe Workfront vergunningen &#x200B;](https://experienceleague.adobe.com/nl/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration).
+Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [ de Fusie van Adobe Workfront vergunningen ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration).
 
 ## Geavanceerde bedrijfsbesturingselementen
 
@@ -438,7 +438,7 @@ Een artikel over groepsbeheerders vermeldt het pakket dat de klant moet hebben o
 * Workflow Prime en hoger
 * Workfront Prime en hoger
 
-Zie [&#x200B; Adobe Workfront tarifering en het verpakken pagina &#x200B;](https://business.adobe.com/nl/products/workfront/pricing.html) voor meer informatie over pakketten.
+Zie [ Adobe Workfront tarifering en het verpakken pagina ](https://business.adobe.com/products/workfront/pricing.html) voor meer informatie over pakketten.
 
 Geavanceerde bedrijfsbesturingselementen:
 
@@ -461,7 +461,32 @@ Geavanceerde bedrijfsbesturingselementen:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-pakket</td> 
-   <td> <p>Alle</p> </td> 
+   <td> <p>Elk Adobe Workfront Workflow-pakket en elk Adobe Workfront Automation and Integration-pakket</p><p>Workfront Ultimate</p><p>Workfront Prime en Select packages, met extra aanschaf van Workfront Fusion.</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Adobe Workfront-licenties</td> 
+   <td> <p>Standard</p><p>Werk of hoger</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront Fusion-licentie</td> 
+   <td>
+   <p>Exploitatie gebaseerd: geen Workfront Fusion-licentievereisten</p>
+   <p>Connectorgebaseerde (verouderde): Workfront Fusion for Work Automation and Integration </p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Product</td> 
+   <td>
+   <p>Als uw organisatie een Select- of Prime Workfront-pakket heeft dat geen Workfront Automation and Integration bevat, moet uw organisatie Adobe Workfront Fusion aanschaffen.</li></ul>
+   </td> 
+  </tr>
+ </tbody> 
+</table>
+
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/licenses-and-roles/access-level-requirements-in-documentation).
+
+Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [ de Fusie van Adobe Workfront vergunningen ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration).
+<td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie*</td> 

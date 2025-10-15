@@ -6,9 +6,9 @@ description: Leer proefdrukstadia en revisoren te bewerken.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 91549c2d-d7b1-461c-a3c4-ad0032acfb23
-source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
+source-git-commit: ac714bd5a5259d6f995ac445efbd0125e07022cb
 workflow-type: tm+mt
-source-wordcount: '629'
+source-wordcount: '555'
 ht-degree: 0%
 
 ---
@@ -21,19 +21,20 @@ U kunt de fasen en revisiegegevens bewerken in een proefdruk als u de eigenaar o
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-abonnement*</td> 
-   <td> <p>Huidig abonnement: Pro of hoger</p> <p>of</p> <p>Verouderd abonnement: Selecteren of Premium</p> <p>Voor meer informatie over het proefdrukken van toegang met de verschillende plannen, zie <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref"> Toegang tot het proefdrukken van functionaliteit in Workfront </a>.</p> </td> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Huidig plan: Werk of Plan</p> <p>Ouder plan: Willekeurig (proefdrukken moet zijn ingeschakeld voor de gebruiker)</p> </td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td> 
+   <p>Standard</p>
+   <p>Werken of plannen</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Bewijs van machtigingsprofiel </td> 
@@ -44,13 +45,13 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    <td>Auteur of moderator </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot documenten bewerken</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
+   <td> <p>Toegang tot documenten bewerken</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42; om te weten te komen welk plan, rol, of Profiel van de Toestemming van het Bewijs u hebt, contacteer uw beheerder van Workfront of van Workfront Proof.
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -62,7 +63,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
    In standalone Workfront Proof, klik **Meer** (drie punt) menu rechts van de proef, dan klik **de proefdetails van de Mening**.
 
-1. Maak om het even welke volgende veranderingen in de **1&rbrace; sectie van het Werkschema &lbrace;:**
+1. Maak om het even welke volgende veranderingen in de **1} sectie van het Werkschema {:**
 
    <table style="table-layout:auto"> 
     <col> 
@@ -98,7 +99,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 ## Details revisor bewerken
 
 1. In Workfront, houd de aanwijzer boven de proefdruk en klik vervolgens op **Proefdetails** om de pagina Proofing Details te openen.
-1. In de **sectie van het Werkschema**, klik **Meer** menu ![&#x200B; Meer menu &#x200B;](assets/more-button-small.png) aan het recht van de naam van de recensent, dan klik **uitgeven** in het drop-down menu dat verschijnt.
+1. In de **sectie van het Werkschema**, klik **Meer** menu ![ Meer menu ](assets/more-button-small.png) aan het recht van de naam van de recensent, dan klik **uitgeven** in het drop-down menu dat verschijnt.
 
 1. In **geef recensent** doos uit die verschijnt, geef om het even welke volgende details uit:
 

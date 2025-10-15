@@ -1,14 +1,14 @@
 ---
 product-area: enterprise-scenario-planner-product-area
 navigation-topic: enterprise-scenario-planner-navigation-topic
-title: Roltoewijzing voor projecten en initiatieven weergeven in de takenlijst
+title: Roltoewijzing voor projecten en initiatieven weergeven in de taaklijst
 description: Nadat u projecten en initiatieven verbindt, kunt u hun middeltoewijzing naast elkaar beheren om ervoor te zorgen zij aanpassen. Hiermee vermijdt u overmatige of onderbenutte toewijzingen.
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 77152e46-0b7b-4937-9d16-1a20c2a7fdf1
-source-git-commit: 7cfe82eb703e2a043c264cf86c0e5424d1e33d78
+source-git-commit: aa2e9a012a60ab10e2d027dedae520b5e06686c7
 workflow-type: tm+mt
-source-wordcount: '643'
+source-wordcount: '627'
 ht-degree: 0%
 
 ---
@@ -21,11 +21,47 @@ Nadat u projecten en initiatieven verbindt, kunt u hun middeltoewijzing naast el
 
 In dit artikel wordt beschreven hoe u bronnen kunt combineren met het deelvenster [!UICONTROL Role Allocation] in de takenlijst van een project.
 
-Voor algemene informatie over het verzoenen van middelen tussen projecten en initiatieven, met inbegrip van eerste vereisten, zie [&#x200B; Overzicht van het verzoenen van middeltoewijzingen tussen projecten en initiatieven &#x200B;](../scenario-planner/overview-reconcile-allocations-between-projects-initiatives.md).
+Voor algemene informatie over het verzoenen van middelen tussen projecten en initiatieven, met inbegrip van eerste vereisten, zie [ Overzicht van het verzoenen van middeltoewijzingen tussen projecten en initiatieven ](../scenario-planner/overview-reconcile-allocations-between-projects-initiatives.md).
 
 ## Toegangsvereisten
 
-+++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven. 
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td> <p>[!DNL Adobe Workfront] package</p> </td> 
+   <td> 
+   <p>Workfront Ultimate</p>
+<p><b>OPMERKING</b></p>
+<p>Neem contact op met uw Workfront-vertegenwoordiger als u een ander Workfront-pakket hebt.</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td> <p>[!DNL Adobe Workfront] licentie</p> </td> 
+   <td> <p>[!UICONTROL Light] of hoger</p> 
+   <p>[!UICONTROL Review] of hoger</p> </td> 
+  </tr> 
+    <tr> 
+   <td>Configuraties op toegangsniveau</td> 
+   <td> <p>De mening of hogere toegang tot Projecten.</p></td> 
+  </tr> 
+  <tr> 
+   <td> <p>Objectmachtigingen </p> </td> 
+   <td> <p> Weergave of hogere machtigingen voor een project.</p></td> 
+  </tr> 
+ </tbody> 
+</table>
+
+Voor meer informatie over toegang tot de Planner van het Scenario, zie [ Toegang nodig om  [!DNL Scenario Planner]](../scenario-planner/access-needed-to-use-sp.md) te gebruiken.
+
+Voor informatie over de toegangsvereisten van Workfront, zie [ vereisten van de Toegang tot de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
+<!--Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -34,44 +70,40 @@ Voor algemene informatie over het verzoenen van middelen tussen projecten en ini
   <tr> 
    <td> <p>[!DNL Adobe Workfront] plan*</p> </td> 
    <td> <ul></li>
-   <li><p>Nieuw: Ultimate </p></li>
-   <p>De Scenario Planner is niet beschikbaar voor de nieuwe Workfront Select- of Workfront Prime-plannen. </p>
-   <li><p>Huidig: [!UICONTROL Business] of hoger</p></ul>
+   <li><p>New: Ultimate </p></li>
+   <p>The Scenario Planner is not available for the new Workfront Select or Workfront Prime plans. </p>
+   <li><p>Current: [!UICONTROL Business] or higher</p></ul>
    </td> 
   </tr> 
   <tr> 
-   <td> <p>[!DNL Adobe Workfront] licentie*</p> </td> 
-   <td> <p>Nieuw: Licht of hoger</p> 
-   <p>Huidig: [!UICONTROL Review] of hoger</p> </td> 
+   <td> <p>[!DNL Adobe Workfront] license*</p> </td> 
+   <td> <p>New: Light or higher</p> 
+   <p>Current: [!UICONTROL Review] or higher</p> </td> 
   </tr> 
   <tr> 
    <td>Product* </td> 
-   <td> <ul><li><p>Voor de nieuwe plannen van Workfront:</p><p> Adobe Workfront</li></p>
-   <li><p>Voor de huidige plannen van Workfront: </p>
+   <td> <ul><li><p>For the new Workfront plans:</p><p> Adobe Workfront</li></p>
+   <li><p>For the current Workfront plans: </p>
    <p>Adobe Workfront</p> <p>Adobe Workfront Scenario Planner</p></li></ul>
-
-<p>Voor meer informatie, zie <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref"> Toegang nodig om [!DNL Scenario Planner]</a> te gebruiken. </p> </td> 
+   
+   <p>For more information, see <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Access needed to use the [!DNL Scenario Planner]</a>. </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>Toegangsniveau </td> 
-   <td> <p>De mening of hogere toegang tot Projecten.</p> </td> 
+   <td>Access level </td> 
+   <td> <p>View or higher access to Projects.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p>Objectmachtigingen </p> </td> 
-   <td> <p> Weergave of hogere machtigingen voor een project.</p> </td> 
+   <td> <p>Object permissions </p> </td> 
+   <td> <p> View or higher permission to a project.</p> </td> 
   </tr> 
  </tbody> 
-</table>
-
-*For informatie, zie [&#x200B; vereisten van de Toegang tot de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
-
-+++
+</table>-->
 
 ## Roltoewijzing voor projecten en initiatieven weergeven in de takenlijst
 
 Als uw bedrijf een [!DNL Workfront Scenario Planner] -licentie heeft aangeschaft, kunt u de brontoewijzingen afstemmen tussen het initiatief en het project dat eraan is gekoppeld in het [!UICONTROL Tasks] -gedeelte van het project.
 
-1. (Voorwaardelijk) een project moet met een initiatief worden verbonden gebruikend één van de methodes die in de sectie [&#x200B; worden beschreven tonen roltoewijzing voor projecten en initiatieven in de taaklijst &#x200B;](#show-role-allocation-for-projects-and-initiatives-in-the-task-list) van dit artikel.
+1. (Voorwaardelijk) een project moet met een initiatief worden verbonden gebruikend één van de methodes die in de sectie [ worden beschreven tonen roltoewijzing voor projecten en initiatieven in de taaklijst ](#show-role-allocation-for-projects-and-initiatives-in-the-task-list) van dit artikel.
 
    >[!IMPORTANT]
    >
@@ -79,7 +111,7 @@ Als uw bedrijf een [!DNL Workfront Scenario Planner] -licentie heeft aangeschaft
 
 1. Ga naar het project waar u de toewijzing van baanrollen voor het project evenals voor het bijbehorende initiatief wilt herzien.
 1. Klik op **[!UICONTROL Tasks]** in het linkerdeelvenster.
-1. Klik het **[!UICONTROL Show role allocation]** pictogram ![&#x200B; tonen roltoewijzing &#x200B;](assets/show-role-allocation-icon.png) in de hoger-juiste hoek van de toolbar.
+1. Klik het **[!UICONTROL Show role allocation]** pictogram ![ tonen roltoewijzing ](assets/show-role-allocation-icon.png) in de hoger-juiste hoek van de toolbar.
 
    Het deelvenster [!UICONTROL Role Allocation] wordt weergegeven.
 
@@ -134,14 +166,14 @@ Als uw bedrijf een [!DNL Workfront Scenario Planner] -licentie heeft aangeschaft
 
    * Verlaag het aantal Geplande Uren voor één baanrol die overtoegewezen toont of meer middelen aan de taken toevoegt en meer Geplande Uren aan de nieuwe middelen verdeelt. U kunt toewijzingen of het aantal geplande uren voor taken of problemen bijwerken wanneer u deze bewerkt. Zie de volgende artikelen voor meer informatie:
 
-      * [&#x200B; geef taken &#x200B;](../manage-work/tasks/manage-tasks/edit-tasks.md) uit
+      * [ geef taken ](../manage-work/tasks/manage-tasks/edit-tasks.md) uit
       * [Problemen bewerken](../manage-work/issues/manage-issues/edit-issues.md)
 
      >[!NOTE]
      >
      >U moet over aanvullende toegang en machtigingen beschikken om taken en problemen te kunnen bewerken.
 
-   * Verhoog het aantal vereiste uren voor de rol die de overtoewijzing op het initiatief toont. Voor meer informatie, zie [&#x200B; initiatieven in  [!DNL Adobe Workfront Scenario Planner]](create-and-edit-initiatives.md) creëren en uitgeven.
+   * Verhoog het aantal vereiste uren voor de rol die de overtoewijzing op het initiatief toont. Voor meer informatie, zie [ initiatieven in  [!DNL Adobe Workfront Scenario Planner]](create-and-edit-initiatives.md) creëren en uitgeven.
 
      >[!NOTE]
      >

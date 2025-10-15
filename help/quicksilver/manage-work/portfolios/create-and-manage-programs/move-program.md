@@ -6,9 +6,9 @@ description: U kunt bestaande programma's toevoegen aan een portfolio. Omdat pro
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 73dbe277-12d2-4041-8a02-91ccf5f8b465
-source-git-commit: 78b4724ca8d5df15ed76e9e882179e3cb127282c
+source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
 workflow-type: tm+mt
-source-wordcount: '238'
+source-wordcount: '220'
 ht-degree: 0%
 
 ---
@@ -27,23 +27,21 @@ U kunt bestaande programma&#39;s toevoegen aan een portfolio. Omdat programma&#3
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] package</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licentie*</td> 
-   <td> <p>Nieuw: [!UICONTROL Standard] </p><p>of </p><p>Huidig: [!UICONTROL Plan] </p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licentie</td> 
+   <td> <p>[!UICONTROL Standard]</p><p>[!UICONTROL Plan]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau</td> 
-   <td> <p>[!UICONTROL Edit] toegang tot portfolio's en programma's </p> </td> 
+   <td> <p>[!UICONTROL Edit] toegang tot [!UICONTROL Portfolios] en [!UICONTROL Programs] </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
@@ -52,9 +50,34 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-*For informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*For informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
+   <td> <p>New: [!UICONTROL Standard] </p><p>Or </p><p>Current: [!UICONTROL Plan] </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>[!UICONTROL Edit] access to Portfolios and Programs </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>[!UICONTROL Manage] permissions to the portfolio and the program</p> </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## Een bestaand programma toevoegen aan een portfolio
 
@@ -64,7 +87,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
    **voegt Programma&#39;s** doos toe opent. <!--check screen shot - I logged changes for this casing-->
 
-   ![&#x200B; voeg programmadoos &#x200B;](assets/add-programs-box.png) toe
+   ![ voeg programmadoos ](assets/add-programs-box.png) toe
 
    >[!IMPORTANT]
    >
@@ -74,7 +97,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
    U kunt meerdere programma&#39;s toevoegen.
 
-1. (Facultatief) klik het **pictogram van de Schrapping ![&#x200B; pictogram van de Schrapping &#x200B;](assets/delete-icon.png) naast de naam van een programma als u besluit om het niet aan de portefeuille toe te voegen.**
+1. (Facultatief) klik het **pictogram van de Schrapping** pictogram van de Schrapping ![ naast de naam van een programma als u besluit om het niet aan de portefeuille toe te voegen.](assets/delete-icon.png)
 
 1. Klik op **[!UICONTROL Add Programs]** . <!--check this button in the UI after they implemented the changes??-->
 

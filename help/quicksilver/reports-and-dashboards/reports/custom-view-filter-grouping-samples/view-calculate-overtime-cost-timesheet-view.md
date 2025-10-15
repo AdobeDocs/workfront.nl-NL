@@ -7,9 +7,9 @@ description: Overuren worden niet standaard berekend in Adobe Workfront, maar u 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: ad6205cd-7534-49e5-b142-09f90bf672ce
-source-git-commit: ecce7484423419823effa2cb41da892ba3fb207c
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '359'
+source-wordcount: '345'
 ht-degree: 0%
 
 ---
@@ -21,38 +21,31 @@ ht-degree: 0%
 Overuren worden niet standaard berekend in Adobe Workfront, maar u kunt wel een rapport met een tijdlijnrapport maken dat overwerk berekent.
 
 Als de gebruiker in zijn profiel aan een kostenpercentage per uur is gekoppeld, kunt u ook de hoeveelheid kosten voor de overuren van die gebruiker berekenen.\
-Voor informatie over het associëren van gebruikers met Kosten per de tarieven van het Uur, zie het artikel [&#x200B; Mijn Montages &#x200B;](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md) vormen.
+Voor informatie over het associëren van gebruikers met Kosten per de tarieven van het Uur, zie het artikel [ Mijn Montages ](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md) vormen.
 
 >[!NOTE]
 >
->Het gebied van Overwerk dat u aan een mening van de Chronologie in een lijst of een rapport kunt toevoegen toont de informatie die op het gebied van Overuren van timesheet wordt gevonden. Deze informatie wordt manueel bijgewerkt door een gebruiker met toegang om timesheet te wijzigen. Voor meer informatie over het gebied van Overuren in een timesheet, zie het artikel [&#x200B; overzicht van de lay-out van de Tijdopnemer &#x200B;](../../../timesheets/timesheets/timesheet-layout.md).
+>Het gebied van Overwerk dat u aan een mening van de Chronologie in een lijst of een rapport kunt toevoegen toont de informatie die op het gebied van Overuren van timesheet wordt gevonden. Deze informatie wordt manueel bijgewerkt door een gebruiker met toegang om timesheet te wijzigen. Voor meer informatie over het gebied van Overuren in een timesheet, zie het artikel [ overzicht van de lay-out van de Tijdopnemer ](../../../timesheets/timesheets/timesheet-layout.md).
 
-![&#x200B; calculate_overtime_cost_in_timesheet_report.png &#x200B;](assets/calculated-overtime-cost-in-timesheet-report-350x92.png)
+![ calculate_overtime_cost_in_timesheet_report.png ](assets/calculated-overtime-cost-in-timesheet-report-350x92.png)
 
 ## Toegangsvereisten
 
-+++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
-
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan</td> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie*</td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
    <td> 
-    <p>Nieuw:</p>
-   <ul><li><p>Medewerker om een filter te wijzigen </p></li>
-   <li><p>Standaard voor het wijzigen van een rapport</p></li> </ul>
-
-<p>Huidige:</p>
-   <ul><li><p>Verzoek om een filter te wijzigen </p></li>
-   <li><p>Plan om een rapport te wijzigen</p></li> </ul></td> 
+   <p>Medewerker of verzoek om een filter te wijzigen </p>
+   <p>Standaard of Plan om een rapport te wijzigen</p>
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau</td> 
@@ -65,8 +58,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-*For informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
-
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 +++
 
 ## De kosten voor overwerk berekenen in een tijdlijnweergave

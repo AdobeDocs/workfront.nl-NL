@@ -2,12 +2,12 @@
 content-type: overview
 product-area: projects
 navigation-topic: use-predecessors
-title: Overzicht van taakafhankelijkheidslus
+title: Overzicht van taakafhankelijke lus
 description: Wanneer het toevoegen van predecessor verhoudingen aan taken zou u gebiedsdeellijnen kunnen ontmoeten. Voor informatie over predecessors, zie Overzicht van taakvoordecessors.
 author: Alina
 feature: Work Management
 exl-id: 142e9637-841c-43d1-b297-e42c28a9e010
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
 workflow-type: tm+mt
 source-wordcount: '253'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 # Overzicht van taakafhankelijkheidslus
 
-Wanneer het toevoegen van predecessor verhoudingen aan taken zou u gebiedsdeellijnen kunnen ontmoeten. Voor informatie over predecessors, zie [&#x200B; Overzicht van taakvoordecessors &#x200B;](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md).
+Wanneer het toevoegen van predecessor verhoudingen aan taken zou u gebiedsdeellijnen kunnen ontmoeten. Voor informatie over predecessors, zie [ Overzicht van taakvoordecessors ](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md).
 
 ## Overzicht van afhankelijkheidslus
 

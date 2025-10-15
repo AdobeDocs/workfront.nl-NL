@@ -6,21 +6,23 @@ description: De afgifteperiode is het aantal dagen tussen de geplande begindatum
 author: Alina
 feature: Work Management
 exl-id: 5a8f7c74-21e4-4e90-bb55-b4ff6e35a751
-source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
+source-git-commit: 0542587bb3254dec5664de493c1c321528cf7f3e
 workflow-type: tm+mt
-source-wordcount: '104'
+source-wordcount: '102'
 ht-degree: 0%
 
 ---
 
 # Overzicht duur van uitgave
 
+<!--Audited: 08/2025-->
+
 De afgifteperiode is het aantal dagen tussen de geplande begindatum en de geplande afsluitende datum van de afgifte.
 
-De duur van een uitgave wordt automatisch berekend door Adobe Workfront en kan niet handmatig worden gewijzigd.
+Adobe Workfront berekent automatisch de duur van een uitgave en kan niet handmatig worden gewijzigd.
 
 U kunt de Duur van een kwestie in een uitgiftenrapport of de mening van een lijst van kwesties tonen.
 
-Voor meer informatie over de bouw van een rapport, zie [&#x200B; een douanerapport &#x200B;](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) creëren.
+Voor meer informatie over de bouw van een rapport, zie [ een douanerapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) creëren.
 
-![&#x200B; de duurmening van de Uitgave &#x200B;](assets/nwe-issue-duration-view-highlighted-350x73.png)
+![ de duurmening van de Uitgave ](assets/nwe-issue-duration-view-highlighted-350x73.png)

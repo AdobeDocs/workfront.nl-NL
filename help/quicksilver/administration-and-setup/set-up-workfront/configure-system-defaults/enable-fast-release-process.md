@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 71ef7a50-7a9f-43c4-b67c-8d9fc722569f
-source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
+source-git-commit: 7ca27795ec115a112acb55113bfade4a5fee15ad
 workflow-type: tm+mt
-source-wordcount: '368'
+source-wordcount: '406'
 ht-degree: 0%
 
 ---
@@ -30,6 +30,33 @@ Voorbeeld:
 >
 >* Klanten die Workfront hebben aangeschaft na de release van 23.3 (juli 2023) hebben standaard het snelle releaseproces ingeschakeld en kunnen weigeren.
 >* Klanten die vóór de release 23.3 Workfront hebben aangeschaft, hebben het snelle releaseproces standaard uitgeschakeld en kunnen zich aanmelden.
+
+## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Workfront-pakket</td> 
+   <td><p>Alle</p></td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td><p>Standard</p> <p>Plan</p></td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
+   <td>U moet een Workfront-beheerder zijn. </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Overwegingen bij het in- of uitschakelen van het snelle releaseproces
 

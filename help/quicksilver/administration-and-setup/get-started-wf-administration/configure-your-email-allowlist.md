@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 76b6acc4-c432-47b4-90bf-6e37e970625f
-source-git-commit: 937965ad495453e185504d53f9d9c88c3cd7e201
+source-git-commit: 15ea03bf586054f7ef421f8cacede6f42835a6e4
 workflow-type: tm+mt
-source-wordcount: '508'
+source-wordcount: '399'
 ht-degree: 0%
 
 ---
@@ -31,42 +31,40 @@ Dit is handig als het beveiligingsbeleid van uw organisatie gebruikers beperkt i
 >Alle e-mailberichten van Workfront worden vanaf dat adres verzonden om een betere e-maillevering mogelijk te maken en spoofing van e-mails te voorkomen. Dit omvat zowel geautomatiseerde alarm als gebruiker-aan-gebruiker mededeling.
 >
 >Zo ziet de From-regel in een Workfront-e-mail die u ontvangt van een gebruiker met de naam Joan Harris er als volgt uit:
->`Joan Harris <notifications@my.workfront.com>`
+>>`Joan Harris <notifications@my.workfront.com>`
 
-Voor informatie over het vormen van de firewall van uw organisatie om communicatie tussen uw milieu en de servers van Adobe Workfront te openen, zie [&#x200B; de lijst van gewenste personen van uw firewall &#x200B;](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md) vormen.
+Voor informatie over het vormen van de firewall van uw organisatie om communicatie tussen uw milieu en de servers van Adobe Workfront te openen, zie [ de lijst van gewenste personen van uw firewall ](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md) vormen.
 
 ## Toegangsvereisten
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
-
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan</td> 
-   <td>Alle</td> 
+   <td role="rowheader">Workfront-pakket</td> 
+   <td><p>Alle</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie</td> 
-   <td>Plan</td> 
+   <td><p>Standard</p> <p>Plan</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau</td> 
-   <td> <p>U moet een Workfront-beheerder zijn. Voor meer informatie, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref"> een gebruiker volledige administratieve toegang verlenen </a>.</p> <p><b> NOTA </b>: Als u nog geen toegang hebt, vraag uw beheerder van Workfront als zij extra beperkingen in uw toegangsniveau plaatsen. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
+   <td>U moet een Workfront-beheerder zijn. </td> 
   </tr> 
  </tbody> 
 </table>
+
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Overige lijsten van gewenste personen
 
-Als uw organisatie het plan van de Onderneming heeft, kunt u een lijst van gewenste personen vormen van Adobe Workfront IP die toegang tot Workfront tot 75 IP adressen of IP adreswaaiers beperkt die u specificeert. Dit biedt een extra beveiligingslaag voor de Workfront-toepassing. Voor meer informatie, zie [&#x200B; toegang tot Adobe Workfront door IP adres &#x200B;](../../administration-and-setup/manage-workfront/security/restrict-access-workfront-ip-address.md) beperken.
-
-Ook, als uw firewall of postserver wordt gevormd om toegang tot slechts bepaalde verkopers toe te staan, moet u bepaalde IP adressen aan zijn lijst van gewenste personen toevoegen. Hierdoor wordt de communicatie tussen uw omgeving en de Adobe Workfront-servers geopend. Voor informatie over dat, zie [&#x200B; de lijst van gewenste personen van uw firewall &#x200B;](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md) vormen.
+Als uw firewall of postserver wordt gevormd om toegang tot slechts bepaalde verkopers toe te staan, moet u bepaalde IP adressen aan zijn lijst van gewenste personen toevoegen. Hierdoor wordt de communicatie tussen uw omgeving en de Adobe Workfront-servers geopend. Voor informatie over dat, zie [ de lijst van gewenste personen van uw firewall ](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md) vormen.
 
 ## Uw e-maillijst van gewenste personen configureren
 

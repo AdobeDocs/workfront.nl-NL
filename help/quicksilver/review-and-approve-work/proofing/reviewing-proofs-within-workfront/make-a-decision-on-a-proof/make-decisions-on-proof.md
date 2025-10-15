@@ -6,9 +6,9 @@ description: U kunt een beslissing over een proefdruk rechtstreeks in de proefdr
 author: Courtney
 feature: Digital Content and Documents
 exl-id: cf74ac54-b8c1-4404-b35f-2aa94831ecad
-source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
+source-git-commit: fe269b088c82e7045ffbb5155d54432e0b413cbe
 workflow-type: tm+mt
-source-wordcount: '402'
+source-wordcount: '325'
 ht-degree: 0%
 
 ---
@@ -21,19 +21,17 @@ U kunt een beslissing over een proefdruk rechtstreeks in de proefdrukviewer neme
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-abonnement*</td> 
-   <td> <p>Huidig abonnement: Pro of hoger</p> <p>of</p> <p>Verouderd abonnement: Selecteren of Premium</p> <p>Voor meer informatie over het proefdrukken van toegang met de verschillende plannen, zie <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref"> Toegang tot het proefdrukken van functionaliteit in Workfront </a>.</p> </td> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Huidig plan: Werk of Plan</p> <p>Ouder plan: Willekeurig (proefdrukken moet zijn ingeschakeld voor de gebruiker)</p> </td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Bewijs van machtigingsprofiel </td> 
@@ -44,13 +42,13 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    <td>Fiatteur, Reviewer en fiatteur, auteur, moderator</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot documenten bewerken</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
+   <td> <p>Toegang tot documenten bewerken</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42; om te weten te komen welk plan, rol, of Profiel van de Toestemming van het Bewijs u hebt, contacteer uw beheerder van Workfront of van Workfront Proof.
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -90,7 +88,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
     </tbody> 
    </table>
 
-1. (Voorwaardelijk) Als de beheerder van Adobe Workfront of de beheerder van Workfront Proof een sectie Redenen heeft toegevoegd, selecteer om het even welke toepasselijke redenen voor uw besluit. Voor meer informatie over hoe de beheerders beslissingsredenen kunnen vormen, zie  [&#x200B; vorm de opties van het goedkeuringsbesluit in Workfront Proof &#x200B;](../../../../workfront-proof/wp-acct-admin/account-settings/configure-approval-decision-in-wp.md).
+1. (Voorwaardelijk) Als de beheerder van Adobe Workfront of de beheerder van Workfront Proof een sectie Redenen heeft toegevoegd, selecteer om het even welke toepasselijke redenen voor uw besluit. Voor meer informatie over hoe de beheerders beslissingsredenen kunnen vormen, zie  [ vorm de opties van het goedkeuringsbesluit in Workfront Proof ](../../../../workfront-proof/wp-acct-admin/account-settings/configure-approval-decision-in-wp.md).
 1. (Optioneel) Selecteer **Stuur me een e-mailbevestiging** om een e-mailbevestiging van uw beslissing te ontvangen.
 1. Klik **maken Beslissing**.
 

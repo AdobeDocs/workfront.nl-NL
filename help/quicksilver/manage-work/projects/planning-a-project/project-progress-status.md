@@ -2,12 +2,12 @@
 content-type: overview
 product-area: projects
 navigation-topic: plan-a-project
-title: Overzicht van voortgang van project
+title: Voortgangsoverzicht van project
 description: Adobe Workfront bepaalt de Voortgangsstatus van een project door de vooruitgang van het project over zijn chronologie te bekijken. U kunt Workfront vormen om de Voorwaarde van een project te bepalen dat op de waarde van de Status van de Voortgang van de taken wordt gebaseerd. Meer informatie over de status van projectvoortgang vindt u in dit artikel.
 author: Alina
 feature: Work Management
 exl-id: 922ca4cf-c526-4704-9966-de67b0c36a2a
-source-git-commit: d85ccb9dbef343ecc8808412e89264b3ea6ab25e
+source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
 workflow-type: tm+mt
 source-wordcount: '390'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 <!--Audited: 12/2023-->
 
-Adobe Workfront bepaalt de Voortgangsstatus van een project door de vooruitgang van het project over zijn chronologie te bekijken. U kunt Workfront vormen om de Voorwaarde van een project te bepalen dat op de waarde van de Status van de Voortgang van de taken wordt gebaseerd. Voor meer informatie over het vormen van de Voorwaarde van het project, zie het artikel [&#x200B; Overzicht van het Type van de Voorwaarde en van de Voorwaarde van het Project &#x200B;](../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md).
+Adobe Workfront bepaalt de Voortgangsstatus van een project door de vooruitgang van het project over zijn chronologie te bekijken. U kunt Workfront vormen om de Voorwaarde van een project te bepalen dat op de waarde van de Status van de Voortgang van de taken wordt gebaseerd. Voor meer informatie over het vormen van de Voorwaarde van het project, zie het artikel [ Overzicht van het Type van de Voorwaarde en van de Voorwaarde van het Project ](../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md).
 
 Hieronder vindt u de stand van de projecten in Workfront:
 
@@ -53,6 +53,6 @@ Overweeg het volgende:
 * De verwachte afsluitende datum van het project wordt bepaald door de taak op het kritieke pad met de meest recente geplande afwerkingsdatum.
 * De geschatte uitvoeringsdatum van het project wordt bepaald door de taak op het kritieke pad met de meest recente geschatte uitvoeringsdatum.
 
-Voor informatie over het project Kritieke Weg, zie [&#x200B; Overzicht van het project Kritieke Weg &#x200B;](../../../manage-work/tasks/manage-tasks/critical-path.md).
+Voor informatie over het project Kritieke Weg, zie [ Overzicht van het project Kritieke Weg ](../../../manage-work/tasks/manage-tasks/critical-path.md).
 
-Voor informatie over Geprojecteerde Datums van de Voltooiing, zie [&#x200B; Overzicht van de Geprojecteerde Datum van de Voltooiing voor projecten, taken, en kwesties &#x200B;](../../../manage-work/projects/planning-a-project/project-projected-completion-date.md).
+Voor informatie over Geprojecteerde Datums van de Voltooiing, zie [ Overzicht van de Geprojecteerde Datum van de Voltooiing voor projecten, taken, en kwesties ](../../../manage-work/projects/planning-a-project/project-projected-completion-date.md).

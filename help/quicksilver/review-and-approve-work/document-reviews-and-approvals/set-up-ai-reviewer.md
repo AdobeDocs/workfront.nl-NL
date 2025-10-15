@@ -7,7 +7,7 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 4673049e-119e-4315-95f0-f10d8b286856
-source-git-commit: d088b40cd8d46a986998fde2176646aa1660cb6b
+source-git-commit: 7572dd64a7f23d6f8dcae374a327d67f2d6738c5
 workflow-type: tm+mt
 source-wordcount: '250'
 ht-degree: 0%
@@ -35,11 +35,11 @@ Als u ten minste één merk hebt ingesteld in GenStudio Foundation, kunt u meerd
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-abonnement*</td> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie*</td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
    <td> <p>Standard</p> </td> 
   </tr> 
   <tr> 
@@ -49,7 +49,7 @@ Als u ten minste één merk hebt ingesteld in GenStudio Foundation, kunt u meerd
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -57,7 +57,7 @@ Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van d
 
 Voordat u begint, moet u richtlijnen voor het maken van afbeeldingsmerken in GenStudio Foundation instellen.
 
-Meer over de richtlijnen van het beeldmerk leren, zie [&#x200B; begonnen worden met Adobe GenStudio for Performance Marketing &#x200B;](https://experienceleague.adobe.com/nl/docs/genstudio-for-performance-marketing/user-guide/get-started).
+Meer over de richtlijnen van het beeldmerk leren, zie [ begonnen worden met Adobe GenStudio for Performance Marketing ](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started).
 
 ## Een AI-revisor toevoegen
 

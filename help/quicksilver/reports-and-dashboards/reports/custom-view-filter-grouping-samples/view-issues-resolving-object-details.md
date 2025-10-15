@@ -3,13 +3,13 @@ content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Weergeven: Problemen met het oplossen van objectdetails'
-description: In deze weergave worden de naam en het percentage weergegeven dat is voltooid met het object dat het probleem heeft opgelost, zodat de maker van het probleem inzicht heeft in de voortgang van het probleem, zelfs zonder toegang tot de taak of het project die het probleem heeft opgelost.
+description: In deze weergave worden de naam en het percentage weergegeven dat is voltooid met het object dat het probleem heeft opgelost, zodat de maker van het probleem insight kan hebben in de voortgang van het probleem, zelfs zonder toegang tot de taak of het project die het probleem heeft opgelost.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 7f4c923a-01e4-4896-9f54-1f0c66d64bb5
-source-git-commit: 6405c01c8b1d842a4175f9caa18a7ed31316a3a1
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '300'
+source-wordcount: '278'
 ht-degree: 0%
 
 ---
@@ -18,42 +18,43 @@ ht-degree: 0%
 
 <!--Audited: 11/2024-->
 
-In deze weergave worden de naam en het percentage weergegeven dat is voltooid met het object dat het probleem heeft opgelost, zodat de maker van het probleem inzicht heeft in de voortgang van het probleem, zelfs zonder toegang tot de taak of het project die het probleem heeft opgelost.
+In deze weergave worden de naam en het percentage weergegeven dat is voltooid met het object dat het probleem heeft opgelost, zodat de maker van het probleem insight kan hebben in de voortgang van het probleem, zelfs zonder toegang tot de taak of het project die het probleem heeft opgelost.
 
-In deze weergave wordt de tag `sharecol=true` gebruikt om meerdere velden onder dezelfde kolomkop te combineren. Voor meer informatie over de `sharecol` markering, zie [&#x200B; Mening: fusie informatie van veelvoudige kolommen in één gedeelde kolom &#x200B;](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-merge-columns.md).
+In deze weergave wordt de tag `sharecol=true` gebruikt om meerdere velden onder dezelfde kolomkop te combineren. Voor meer informatie over de `sharecol` markering, zie [ Mening: fusie informatie van veelvoudige kolommen in één gedeelde kolom ](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-merge-columns.md).
 
-![&#x200B; issue_custom_view_with_resolving_object_name_and_percent_complete.png &#x200B;](assets/issue-custom-view-350x77.png)
+![ issue_custom_view_with_resolving_object_name_and_percent_complete.png ](assets/issue-custom-view-350x77.png)
 
 ## Toegangsvereisten
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
-
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan</td> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie</td> 
-   <td> <p>Nieuw:<ul><li>Medewerker om een weergave te wijzigen</li><li>Standaard voor het wijzigen van een rapport</li></ul></p><p>of</p>Huidige:<ul><li>Verzoek om een weergave te wijzigen</li><li>Plan om een rapport te wijzigen</li></ul></p> </td> 
+   <td> 
+   <p>Medewerker of verzoek om een weergave te wijzigen </p>
+   <p>Standaard of Plan om een rapport te wijzigen</p>
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau</td> 
    <td> <p>Toegang tot rapporten, dashboards, kalenders bewerken om een rapport te wijzigen</p> <p>Toegang tot filters, weergaven en groepen bewerken om een weergave te wijzigen</p> </td> 
-  </tr>  
+  </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Machtigingen beheren voor een rapport</p> </td> 
+   <td> <p>Machtigingen beheren voor een rapport</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
 
 +++
 

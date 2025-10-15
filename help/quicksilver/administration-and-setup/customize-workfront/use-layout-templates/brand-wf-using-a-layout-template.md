@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: ded9ab1e-c5f4-476b-ac81-0497dbe6b24d
-source-git-commit: 80bdc2f2c1bedbc5a894b5a474425c5544c039fd
+source-git-commit: 76e32fa6b87583d2b8c296045da731afdb6d1f9a
 workflow-type: tm+mt
-source-wordcount: '548'
+source-wordcount: '532'
 ht-degree: 0%
 
 ---
@@ -27,11 +27,11 @@ ht-degree: 0%
 
 U kunt een lay-outmalplaatje gebruiken om de logo&#39;s op het hoogste navigatiegebied en op het Belangrijkste Menu voor bepaalde groepen, teams, baanrollen, en gebruikers aan te passen. Dit is vooral handig voor groepen in een grote organisatie die hun eigen merk hebben.
 
-Voor informatie over lay-outmalplaatjes voor groepen, zie [&#x200B; tot stand brengen en wijzigen de lay-outmalplaatjes van een groep &#x200B;](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
+Voor informatie over lay-outmalplaatjes voor groepen, zie [ tot stand brengen en wijzigen de lay-outmalplaatjes van een groep ](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
 
 >[!NOTE]
 >
->Een beheerder van Workfront kan de zelfde branding aanpassingen voor de volledige organisatie op het systeemniveau maken, zoals die in [&#x200B; wordt verklaard merk uw instantie van Adobe Workfront &#x200B;](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md). Maar het brandmerken in een lay-outmalplaatje treedt systeem-vlakke branding met voeten.
+>Een beheerder van Workfront kan de zelfde branding aanpassingen voor de volledige organisatie op het systeemniveau maken, zoals die in [ wordt verklaard merk uw instantie van Adobe Workfront ](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md). Maar het brandmerken in een lay-outmalplaatje treedt systeem-vlakke branding met voeten.
 ><!--
 >Maybe add a section about deleting these 2 settings to revert to default branding?
 >-->
@@ -40,38 +40,36 @@ Voor informatie over lay-outmalplaatjes voor groepen, zie [&#x200B; tot stand br
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan</td> 
-   <td>Alle</td> 
+   <td>Adobe Workfront-pakket</td> 
+   <td><p>Alle</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td><p>Nieuw: Standaard</p>
-  <p> Huidig: Plan</p>
-   </td> 
+   <td>Adobe Workfront-licentie</td> 
+   <td><p>Standard</p>
+       <p>Plan</p></td>
+  </tr> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau</td> 
-   <td> <p>Om deze stappen op systeemniveau uit te voeren, hebt u het toegangsniveau van de Beheerder van het Systeem nodig.
-Om hen voor een groep uit te voeren, moet u een manager van die groep zijn.</p> </td> 
+   <td>Configuraties op toegangsniveau</td> 
+   <td> <p>Om deze stappen op systeemniveau uit te voeren, hebt u het toegangsniveau van de Beheerder van het Systeem nodig.</p>
+        <p>Om hen voor een groep uit te voeren, moet u een manager van die groep zijn.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Voor meer informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Merk Adobe Workfront met een lay-outsjabloon
 
-1. Begin werkend aan een lay-outmalplaatje, zoals die in [&#x200B; wordt beschreven creeer en beheer lay-outmalplaatjes &#x200B;](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
-1. Klik de benedenpijl ![&#x200B; benedenpijl &#x200B;](assets/dropdown-arrow.png) onder **aanpassen wat de gebruikers** zien, dan **Brandend** klikken.
+1. Begin werkend aan een lay-outmalplaatje, zoals die in [ wordt beschreven creeer en beheer lay-outmalplaatjes ](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
+1. Klik de benedenpijl ![ benedenpijl ](assets/dropdown-arrow.png) onder **aanpassen wat de gebruikers** zien, dan **Brandend** klikken.
 1. Breng een van de volgende wijzigingen aan om Workfront aan te passen met brandingafbeeldingen voor diegenen aan wie deze lay-outsjabloon is toegewezen.
 
    <table style="table-layout:auto"> 
@@ -101,4 +99,4 @@ Om hen voor een groep uit te voeren, moet u een manager van die groep zijn.</p> 
 
 1. Klik **sparen**.
 
-Voor meer informatie over lay-outmalplaatjes, zie [&#x200B; lay-outmalplaatjes &#x200B;](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md) creëren en beheren.
+Voor meer informatie over lay-outmalplaatjes, zie [ lay-outmalplaatjes ](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md) creëren en beheren.

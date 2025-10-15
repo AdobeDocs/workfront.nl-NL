@@ -5,9 +5,9 @@ author: Courtney
 draft: Probably
 feature: Digital Content and Documents
 exl-id: 360d0f4a-a78c-4c17-b4a1-6d4b811f7bb6
-source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
+source-git-commit: ac714bd5a5259d6f995ac445efbd0125e07022cb
 workflow-type: tm+mt
-source-wordcount: '363'
+source-wordcount: '289'
 ht-degree: 0%
 
 ---
@@ -20,32 +20,33 @@ U kunt de proefdrukdetails weergeven en beheren.
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-abonnement*</td> 
-   <td> <p>Huidig abonnement: Pro of hoger</p> <p>of</p> <p>Verouderd abonnement: Selecteren of Premium</p> <p>Voor meer informatie over het proefdrukken van toegang met de verschillende plannen, zie <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref"> Toegang tot het proefdrukken van functionaliteit in Workfront </a>.</p> </td> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Huidig plan: Werk of Plan</p> <p>Ouder plan: Willekeurig (proefdrukken moet zijn ingeschakeld voor de gebruiker)</p> </td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td> 
+   <p>Standard</p>
+   <p>Werken of plannen</p> 
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Bewijs van machtigingsprofiel </td> 
    <td>Manager of hoger</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot documenten bewerken</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
+   <td> <p>Toegang tot documenten bewerken</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42; om te weten te komen welk plan, rol, of Profiel van de Toestemming van het Bewijs u hebt, contacteer uw beheerder van Workfront of van Workfront Proof.
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -54,7 +55,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 1. In een documentlijst, beweegt de muiswijzer zich over de rij die de proef bevat, dan klik **Details van het Document**.
 1. Klik boven aan de pagina Documentdetails op het vervolgkeuzemenu naast de naam en klik vervolgens op de naam van de versie die u wilt weergeven en beheren.
 
-   ![&#x200B; drop-down van de Versie &#x200B;](assets/version-drop-dn-doc-dtls-nwe-350x93.png)
+   ![ drop-down van de Versie ](assets/version-drop-dn-doc-dtls-nwe-350x93.png)
 
    Samen met het bekijken van de Details van de versie, kunt u veranderingen in de versie, zoals zijn naam, meta-gegevens, en het proef montages (als het een documentbewijs is) aanbrengen.
 
@@ -69,7 +70,7 @@ Gebruikers moeten een bewijs van bevoegdheid hebben om de bewijsgegevens van een
 1. Voor de pagina van de Details van het Document, klik **het Proofing Werkschema** in het linkerpaneel om het even welke volgend te doen:
 
    * Voeg een geautomatiseerde workflow toe. Zie de sectie in het artikel voor meer informatie.
-   * Deel de openbare URL van de proefdruk. Voor meer informatie, zie [&#x200B; een proefverbinding &#x200B;](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md#share) in [&#x200B; Deel een bewijs binnen Adobe Workfront &#x200B;](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md).
+   * Deel de openbare URL van de proefdruk. Voor meer informatie, zie [ een proefverbinding ](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md#share) in [ Deel een bewijs binnen Adobe Workfront ](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md).
    * Bekijk alle activiteiten die op de proefdruk zijn uitgevoerd.
    * Herinneringsberichten sturen naar revisoren op de proefdruk.
 

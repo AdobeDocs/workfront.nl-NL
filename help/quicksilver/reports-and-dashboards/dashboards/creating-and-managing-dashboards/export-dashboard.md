@@ -6,7 +6,7 @@ description: U kunt een dashboard naar een .pdf- dossier uitvoeren gebruikend de
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 6c8dc5be-6adb-400a-b86a-a7f7e84d0ba7
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: c8b7ad473b0c2120ef5ea52374b3501ad6f553f1
 workflow-type: tm+mt
 source-wordcount: '375'
 ht-degree: 3%
@@ -26,43 +26,35 @@ U kunt een dashboard naar een .pdf- dossier uitvoeren gebruikend de drukopties b
 
 ## Toegangsvereisten
 
-+++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
-
-U moet het volgende hebben:
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront-plan</strong></td> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront-licentie</strong></td> 
-    <td> 
-      <p>Nieuw:</p>
-         <ul>
-         <li><p>Standaard</p></li>
-         </ul>
-      <p>Huidige:</p>
-         <ul>
-         <li><p>Werk of hoger</p></li>
-         </ul>
-   </td>
+   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td> 
+      <p>Standard</p>
+      <p>Werk of hoger</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Configuraties op toegangsniveau</strong></td> 
-   <td> <p>Toegang tot rapporten, dashboards en kalenders weergeven</p> </td> 
-  </tr> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
+   <td> <p>Toegang tot rapporten, dashboards en kalenders bewerken</p></td> 
+  </tr>  
   <tr> 
-   <td role="rowheader"><strong>Objectmachtigingen</strong></td> 
+   <td role="rowheader">Objectmachtigingen</td> 
    <td> <p>Machtigingen weergeven voor het dashboard</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -70,14 +62,14 @@ Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van W
 
 Het dashboard moet worden gemaakt voordat u het kunt exporteren.
 
-Voor informatie bij het creëren van dashboards, zie [&#x200B; een dashboard &#x200B;](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md) creëren.
+Voor informatie bij het creëren van dashboards, zie [ een dashboard ](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md) creëren.
 
 ## Een dashboard exporteren naar een .pdf-bestand:
 
 1. Ga naar het dashboard dat u wilt exporteren.
 1. Klik {de acties van 0} Dashboard **, dan selecteren** Voorproef van de Druk **.**
 
-   ![&#x200B; de drukvoorproef van het dashboard &#x200B;](assets/dashboard-actions-print-350x254.png)
+   ![ de drukvoorproef van het dashboard ](assets/dashboard-actions-print-350x254.png)
 
    Het venster Afdrukvoorbeeld wordt geopend.
 
@@ -107,7 +99,7 @@ Voor informatie bij het creëren van dashboards, zie [&#x200B; een dashboard &#x
       <td>Internet Explorer, Microsoft Edge en Mozilla Firefox</td> 
       <td> <p>Opmerking: als u Internet Explorer versie 11 gebruikt, kunt u de functie Afdrukken naar PDF mogelijk niet gebruiken zonder een plug-in van derden te installeren.</p> 
        <ol> 
-        <li value="1">In het <strong> Printer </strong> of <strong> Uitgezochte het 3&rbrace; gebied van de Printer, de uitgezochte <strong> Afdruk van Microsoft aan PDF </strong>, dan wijzigt om het even welke andere drukopties u wilt veranderen.</strong></li> 
+        <li value="1">In het <strong> Printer </strong> of <strong> Uitgezochte het 3} gebied van de Printer, de uitgezochte </strong> Afdruk van Microsoft aan PDF <strong>, dan wijzigt om het even welke andere drukopties u wilt veranderen.</strong></li> 
         <li value="2">Klik <strong> Druk </strong>.</li> 
         <li value="3">Ga a <strong> Naam van het Dossier </strong> in</li> 
         <li value="4">(Optioneel) Selecteer een nieuwe mapbestemming voor het bestand.</li> 

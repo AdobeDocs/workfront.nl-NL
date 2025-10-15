@@ -1,14 +1,14 @@
 ---
 product-area: projects
 navigation-topic: use-predecessors
-title: Een eerdere relatie maken met het gebied Voorgangers
+title: Een eerdere relatie maken met behulp van het gebied Voorgangers
 description: U kunt voorgangstaken (of alleen voorgangers) gebruiken om taken te koppelen die afhankelijk zijn van andere taken die moeten worden gestart of voltooid.
 author: Alina
 feature: Work Management
 exl-id: 68774286-da24-409a-bbd8-eb18dfe75063
-source-git-commit: 6d02397a15b0b06c3c60fb5d71dfeb3cb0b0a30d
+source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
 workflow-type: tm+mt
-source-wordcount: '469'
+source-wordcount: '419'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ U kunt voorgangstaken (of alleen voorgangers) gebruiken om taken te koppelen die
 
 In dit artikel wordt weergegeven hoe u voordecessors kunt instellen met het tabblad Voorgangers in een taak.
 
-Voor informatie over het plaatsen van voorgangers in een lijst van taken, zie [&#x200B; een voorgangersverhouding op de taaklijst &#x200B;](../../../manage-work/tasks/use-prdcssrs/create-predecessors-on-task-list.md) creëren.
+Voor informatie over het plaatsen van voorgangers in een lijst van taken, zie [ een voorgangersverhouding op de taaklijst ](../../../manage-work/tasks/use-prdcssrs/create-predecessors-on-task-list.md) creëren.
 
 U kunt de voorgangers van taken in de volgende gebieden van Adobe Workfront bekijken:
 
@@ -29,38 +29,37 @@ U kunt de voorgangers van taken in de volgende gebieden van Adobe Workfront beki
 * In de Gantt-grafiek
 * In de takenlijst in de kolom Voorgangers
 
-Voor informatie over predecessors, zie [&#x200B; Overzicht van taakvoordecessors &#x200B;](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md).
+Voor informatie over predecessors, zie [ Overzicht van taakvoordecessors ](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md).
 
 ## Toegangsvereisten
 
-+++ Vouw uit om de vereisten voor toegang weer te geven.
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan</td> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie</td> 
-   <td> 
-   <p>Standard </p>
-    <p>Plan </p> </td> 
+   <td><p>Standard</p> 
+   <p>Plan</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau</td> 
-   <td> <p>Toegang tot taken en projecten bewerken</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
+   <td> <p>Toegang tot taken en projecten bewerken</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Rechten voor de taken en het project beheren</p> <p>Voor informatie bij het verzoeken van extra toegang, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> Toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
+   <td> <p>Rechten voor de taken en het project beheren</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -74,11 +73,11 @@ Een voorgangertaak maken voor een projecttaak:
 
 1. In het linkerpaneel, klik **Predecessors**.
 
-1. In de **sectie 0&rbrace; Voorgangers &lbrace;, klik** toevoegen Voorganger **.** **voegt de dialoogdoos van de Voorganger** toe opent.
+1. In de **sectie 0} Voorgangers {, klik** toevoegen Voorganger **.** **voegt de dialoogdoos van de Voorganger** toe opent.
 
-1. (Facultatief) om een dwars-projectvoorganger toe te voegen, vervang de naam van het project op het **gebied van het Project van de 1&rbrace; ouder** met een ander project.
+1. (Facultatief) om een dwars-projectvoorganger toe te voegen, vervang de naam van het project op het **gebied van het Project van de 1} ouder** met een ander project.
 
-   Voor informatie, zie [&#x200B; tot dwars-project predecessors &#x200B;](../../../manage-work/tasks/use-prdcssrs/cross-project-predecessors.md) leiden.
+   Voor informatie, zie [ tot dwars-project predecessors ](../../../manage-work/tasks/use-prdcssrs/cross-project-predecessors.md) leiden.
 
    >[!TIP]
    >
@@ -89,20 +88,20 @@ Een voorgangertaak maken voor een projecttaak:
 
 1. Selecteer het Type van a **Afhankelijkheid**.
 
-   Voor informatie, zie [&#x200B; Overzicht van de types van taakgebiedsdeel &#x200B;](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
+   Voor informatie, zie [ Overzicht van de types van taakgebiedsdeel ](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
 
 1. Ga a **bedrag van de a** Lag in.
 
-   Voor informatie, zie &#x200B; [&#x200B; overzicht van de Types van Lag &#x200B;](../../../manage-work/tasks/use-prdcssrs/lag-types.md).
+   Voor informatie, zie &#x200B; [ overzicht van de Types van Lag ](../../../manage-work/tasks/use-prdcssrs/lag-types.md).
 
-   ![&#x200B; voeg de dialoogdoos van de Voorganger &#x200B;](assets/add-predecessor-dialog-box.png) toe
+   ![ voeg de dialoogdoos van de Voorganger ](assets/add-predecessor-dialog-box.png) toe
 
 1. Selecteer **gedwongen** checkbox als u de voorgangersverhouding tussen de twee taken wilt afdwingen.
 
-   Voor informatie, zie [&#x200B; predecessors &#x200B;](../../../manage-work/tasks/use-prdcssrs/enforced-predecessors.md) afdwingen.
+   Voor informatie, zie [ predecessors ](../../../manage-work/tasks/use-prdcssrs/enforced-predecessors.md) afdwingen.
 
 1. Klik **sparen**.
 
-1. (Facultatief) om een voorganger te verwijderen, selecteer het uit de lijst van voorgangers, dan klik **verwijderen** pictogram ![&#x200B; verwijderen pictogram &#x200B;](assets/remove-or-delete-icon.png).
+1. (Facultatief) om een voorganger te verwijderen, selecteer het uit de lijst van voorgangers, dan klik **verwijderen** pictogram ![ verwijderen pictogram ](assets/remove-or-delete-icon.png).
 
    De voorganger wordt uit de lijst verwijderd. De voorgangstaak wordt niet geschrapt uit zijn project.

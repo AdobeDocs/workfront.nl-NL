@@ -3,13 +3,13 @@ title: Workspace-hiërarchieën maken
 description: U kunt meerdere werkruimtemhiërarchieën maken tussen de recordtypen in een werkruimte.
 hide: true
 hidefromtoc: true
-source-git-commit: 6d02397a15b0b06c3c60fb5d71dfeb3cb0b0a30d
+exl-id: 2f83c427-4439-499d-a0b2-fc8630552cae
+source-git-commit: b102960e088f072f10baadcbeca4f7f579daa287
 workflow-type: tm+mt
-source-wordcount: '85'
-ht-degree: 1%
+source-wordcount: '117'
+ht-degree: 0%
 
 ---
-
 
 <!--update the metadata with real information when making this available in TOC and in the left nav:
 
@@ -41,27 +41,32 @@ U kunt meerdere werkruimtemhiërarchieën maken tussen de recordtypen in een wer
 </col> 
 <col> 
 </col> 
-<tbody>
-
+<tbody> 
+    <tr> 
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront-pakketten</p></td> 
+</tr>   
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront-pakket</p></td> 
    <td> 
-<p>Elk Workfront Workflow-pakket</p> 
-<p>Willekeurig Workfront-planningspakket</p> 
+<ul> 
+<li><p>Alle Workfront en alle planningspakketten</p></li>
+of
+<li><p>Alle workflows en planningspakketten</li></ul>
+<p>Neem voor meer informatie over wat er in elk planningspakket voor Workfront staat, contact op met uw Workfront-accountvertegenwoordiger. </p> 
    </td> 
-  </tr> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront-licentie</p></td> 
    <td><p>Standard</p>
-  </td> 
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Objectmachtigingen</p></td> 
-   <td><p>U ontvangt beheermachtigingen voor de werkruimten die u maakt. </p> </td> 
-  </tr> 
+   <td>   <p>Machtigingen beheren in een werkruimte</p>  
+   <p>Systeembeheerders hebben machtigingen voor alle werkruimten, inclusief de werkruimten die ze niet hebben gemaakt</p>  </td> 
+  </tr>  
 </tbody> 
 </table>
 
-Voor meer informatie over de toegangsvereisten van Workfront, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer informatie over de toegangsvereisten van Workfront, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-+++   
++++

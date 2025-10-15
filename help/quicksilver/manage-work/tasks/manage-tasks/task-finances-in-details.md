@@ -2,13 +2,13 @@
 product-area: projects
 navigation-topic: manage-tasks
 title: Taakfinanciën beheren in de sectie Taakdetails
-description: Taakfinanciën beheren in de sectie Taakdetails
+description: U kunt de financiële informatie van een taak bekijken of uitgeven door tot het gebied van het Overzicht van de sectie van de Details van de Taak toegang te hebben. Er is een beperkt aantal velden dat u kunt weergeven of bewerken in de sectie Taakdetails.
 author: Alina
 feature: Work Management
 exl-id: 54ae48e5-bc8c-4e90-8fa1-0015523df4e6
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
 workflow-type: tm+mt
-source-wordcount: '856'
+source-wordcount: '830'
 ht-degree: 0%
 
 ---
@@ -19,36 +19,65 @@ ht-degree: 0%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: some of the information (fields) in this article is also in the Edit tasks article; if you need to update one field, to it in both articles)</p>
 -->
 
-U kunt de financiële informatie van een taak bekijken of uitgeven door tot het gebied van het Overzicht van de sectie van de Details van de Taak toegang te hebben. Er is een beperkt aantal velden dat u in dit gebied kunt weergeven of bewerken. Voor informatie over het uitgeven van alle financiële informatie voor een taak zie [&#x200B; taken &#x200B;](../../../manage-work/tasks/manage-tasks/edit-tasks.md) uitgeven.
+U kunt de financiële informatie van een taak bekijken of uitgeven door tot het gebied van het Overzicht van de sectie van de Details van de Taak toegang te hebben. Er is een beperkt aantal velden dat u in dit gebied kunt weergeven of bewerken.
+
+Voor informatie over het uitgeven van alle financiële informatie voor een taak zie [ taken ](../../../manage-work/tasks/manage-tasks/edit-tasks.md) uitgeven.
 
 ## Toegangsvereisten
 
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-abonnement*</td> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Werk of hoger</p> </td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td><p>Standard</p> 
+   <p>Werk of hoger</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot projecten en taken bewerken</p> <p>Toegang tot financiële gegevens of hoger weergeven</p> <p>U moet Edit toegang tot Financiële Gegevens hebben om financiële informatie over taken uit te geven</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan veranderen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
+   <td> <p>Toegang tot projecten en taken bewerken</p> <p>Toegang tot financiële gegevens of hoger weergeven</p> <p>U moet Edit toegang tot Financiële Gegevens hebben om financiële informatie over taken uit te geven</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Machtigingen weergeven voor de taak die View Finance of hoger bevat</p> <p>U moet beheermachtigingen hebben voor de taak die onder meer Edit Finance bevat om financiële informatie over taken te bewerken</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
+   <td> <p>Machtigingen weergeven voor de taak die View Finance of hoger bevat</p> <p>U moet beheermachtigingen hebben voor de taak die onder meer Edit Finance bevat om financiële informatie over taken te bewerken</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
+Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
+<!--Old:
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Work or higher</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations*</td> 
+   <td> <p>Edit access to Projects and Tasks</p> <p>View access to&nbsp;Financial&nbsp;Data or higher</p> <p>You must have Edit access to&nbsp;Financial Data to edit financial information on tasks</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>View permissions to the task that include View Finance or higher</p> <p>You must have Manage permissions on the task that include Edit Finance to edit financial information on tasks</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## Taakfinanciën bewerken in de sectie Taakdetails
 
@@ -56,7 +85,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
    >[!NOTE]
    >
-   >Als u een taak wilt zoeken, kunt u er ook naar zoeken en op de naam klikken om de taak te openen. Voor meer informatie bij het zoeken naar voorwerpen in Workfront, zie [&#x200B; Onderzoek Adobe Workfront &#x200B;](../../../workfront-basics/navigate-workfront/search/search-workfront.md).
+   >Als u een taak wilt zoeken, kunt u er ook naar zoeken en op de naam klikken om de taak te openen. Voor meer informatie bij het zoeken naar voorwerpen in Workfront, zie [ Onderzoek Adobe Workfront ](../../../workfront-basics/navigate-workfront/search/search-workfront.md).
 
 1. Klik **Taken** in het linkerpaneel.
 1. Klik op de naam van een taak die u wilt weergeven.
@@ -67,7 +96,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
    >[!NOTE]
    >
-   >Afhankelijk van hoe uw Workfront-beheerder of groepsbeheerder onze lay-outsjabloon instelt, kunnen de velden in de sectie Taakdetails opnieuw worden gerangschikt of niet worden weergegeven. Voor informatie, zie [&#x200B; de mening van Details aanpassen gebruikend een lay-outmalplaatje &#x200B;](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
+   >Afhankelijk van hoe uw Workfront-beheerder of groepsbeheerder onze lay-outsjabloon instelt, kunnen de velden in de sectie Taakdetails opnieuw worden gerangschikt of niet worden weergegeven. Voor informatie, zie [ de mening van Details aanpassen gebruikend een lay-outmalplaatje ](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
 
 1. Klik **Financiën** om de financiële informatie voor de taak uit te breiden en te bekijken.
 

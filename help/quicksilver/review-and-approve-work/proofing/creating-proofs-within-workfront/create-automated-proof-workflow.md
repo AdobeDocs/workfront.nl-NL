@@ -6,9 +6,9 @@ description: Met een geautomatiseerde workflow kunt u het controleproces eenvoud
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 977fe1bc-458f-4301-8056-dc51c61edb6c
-source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
+source-git-commit: ac714bd5a5259d6f995ac445efbd0125e07022cb
 workflow-type: tm+mt
-source-wordcount: '1838'
+source-wordcount: '1783'
 ht-degree: 0%
 
 ---
@@ -17,25 +17,24 @@ ht-degree: 0%
 
 <!-- Audited: 2/2024 -->
 
-Met een geautomatiseerde workflow kunt u het controleproces eenvoudiger beheren als uw proces complex is of als u inhoud ter controle regelmatig naar dezelfde personen verzendt. De proefdruk gaat van stadium aan stadium en Adobe Workfront brengt elke gebruiker op de hoogte wanneer het hun beurt is om het te herzien. Voor meer informatie over Geautomatiseerde werkschema&#39;s, zie [&#x200B; Geautomatiseerd overzicht van het Werkschema &#x200B;](../../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md).
+Met een geautomatiseerde workflow kunt u het controleproces eenvoudiger beheren als uw proces complex is of als u inhoud ter controle regelmatig naar dezelfde personen verzendt. De proefdruk gaat van stadium aan stadium en Adobe Workfront brengt elke gebruiker op de hoogte wanneer het hun beurt is om het te herzien. Voor meer informatie over Geautomatiseerde werkschema&#39;s, zie [ Geautomatiseerd overzicht van het Werkschema ](../../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md).
 
 ## Toegangsvereisten
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
-
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan</td> 
-   <td> <p>Nieuw: alle</p><p>Huidig abonnement: Pro of hoger</p><p>Verouderd abonnement: Selecteren of hoger</p> <p>Voor meer informatie over het proefdrukken van toegang met de verschillende plannen, zie <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref"> Toegang tot het proefdrukken van functionaliteit in Workfront </a>.</p> </td> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie</td> 
-   <td> <p>Nieuw: Standaard</p><p>Huidig plan: Werk of Plan</p> <p>Ouder plan: Willekeurig (proefdrukken moet zijn ingeschakeld voor de gebruiker)</p> </td> 
+   <td> Standard</p>
+   <p>Werken of plannen</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Bewijs van machtigingsprofiel </td> 
@@ -48,7 +47,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -139,7 +138,7 @@ Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van d
 
       Naast de opties **op proefverwezenlijking**, **op een specifieke datum en een tijd**, of **manueel**, kunt u een optie selecteren die van wat in de vorige stap afhankelijk is voorgekomen:
 
-      ![&#x200B; activeer werkgebiedopties &#x200B;](assets/activate-stage-options-for-stage-2-plus-350x177.png)
+      ![ activeer werkgebiedopties ](assets/activate-stage-options-for-stage-2-plus-350x177.png)
 
    1. Als u een werkgebiedoptie activeren hebt geselecteerd die afhankelijk is van wat er in de vorige stap is gebeurd, gebruikt u de opties die de activeringsinstelling lijken te configureren.
 
@@ -149,19 +148,19 @@ Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van d
 
    Aangezien u stadia aan de Geautomatiseerde Werkschema toevoegt, vormt een diagram op het scherm om hen te vertegenwoordigen:
 
-   ![&#x200B; diagram van Stages &#x200B;](assets/stages-diagram-350x213.png)
+   ![ diagram van Stages ](assets/stages-diagram-350x213.png)
 
-1. Ga met [&#x200B; verder vormen e-mailmontages voor de proef &#x200B;](#configure-email-settings-for-the-proof) hieronder.
+1. Ga met [ verder vormen e-mailmontages voor de proef ](#configure-email-settings-for-the-proof) hieronder.
 
 ## E-mailinstellingen configureren voor de proefdruk {#configure-email-settings-for-the-proof}
 
-1. In de **E-mail- bericht** sectie, selecteer of om e-mailberichten en een douanebericht naar de gebruikers te verzenden u in [&#x200B; selecteerde creeer een geavanceerde proef met een Geautomatiseerd werkschema &#x200B;](#workflow) vroeger in dit artikel:
+1. In de **E-mail- bericht** sectie, selecteer of om e-mailberichten en een douanebericht naar de gebruikers te verzenden u in [ selecteerde creeer een geavanceerde proef met een Geautomatiseerd werkschema ](#workflow) vroeger in dit artikel:
 
    <table>
       <tbody>
       <tr>
       <td>Ontvangers op de hoogte stellen van dit bewijs</td>
-      <td>Selecteer deze optie om een e-mailbericht naar gebruikers te verzenden. Wanneer <strong> Basis het delen </strong> in de <strong> 3&rbrace; sectie van het Werkschema {wordt geselecteerd, wordt een e-mailbericht verzonden wanneer de proef wordt gecreeerd. </strong> Wanneer <strong> Geautomatiseerde werkschema </strong> in de <strong> 3} sectie van het Werkschema &lbrace;wordt geselecteerd, wordt een e-mailbericht verzonden wanneer het bewijs het stadium van het Geautomatiseerde Werkschema ingaat dat de gebruiker met wordt geassocieerd.</strong></td>
+      <td>Selecteer deze optie om een e-mailbericht naar gebruikers te verzenden. Wanneer <strong> Basis het delen </strong> in de <strong> 3} sectie van het Werkschema {wordt geselecteerd, wordt een e-mailbericht verzonden wanneer de proef wordt gecreeerd. </strong> Wanneer <strong> Geautomatiseerde werkschema </strong> in de <strong> 3} sectie van het Werkschema {wordt geselecteerd, wordt een e-mailbericht verzonden wanneer het bewijs het stadium van het Geautomatiseerde Werkschema ingaat dat de gebruiker met wordt geassocieerd.</strong></td>
       </tr>
       <tr>
       <td>Aangepast bericht toevoegen</td>
@@ -171,7 +170,7 @@ Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van d
       </table>
 
 
-1. Ga met [&#x200B; verder vormen proefmontages &#x200B;](#configure-proof-settings) hieronder.
+1. Ga met [ verder vormen proefmontages ](#configure-proof-settings) hieronder.
 
 ## Proofinginstellingen configureren {#configure-proof-settings}
 
@@ -230,6 +229,6 @@ Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van d
 
 1. Nadat de proef wordt geproduceerd, klik **Open proef** om de het proef kijker te lanceren.
 
-   ![&#x200B; Open proef &#x200B;](assets/open-proof-350x132.png)
+   ![ Open proef ](assets/open-proof-350x132.png)
 
-   Gebruikers die geen proefdrukken op hun account hebben ingeschakeld, kunnen het document nog steeds bekijken en opmerkingen naar de proefdruk maken [&#x200B; . &#x200B;](../../../timesheets/config-timesheet-prefs/config-time-logged-hrs-days.md)
+   Gebruikers die geen proefdrukken op hun account hebben ingeschakeld, kunnen het document nog steeds bekijken en opmerkingen naar de proefdruk maken [ . ](../../../timesheets/config-timesheet-prefs/config-time-logged-hrs-days.md)

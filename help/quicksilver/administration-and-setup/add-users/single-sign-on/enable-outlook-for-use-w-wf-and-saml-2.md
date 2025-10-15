@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 8a55d364-962a-4eef-8968-b2233a71cf31
-source-git-commit: 945fa710e98b094a37258d5c94f7b1a2eb056abb
+source-git-commit: 75fea812b4574191522af4721a013b57aa5d609f
 workflow-type: tm+mt
-source-wordcount: '419'
+source-wordcount: '376'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->[&#x200B; Microsoft is in het proces om steun voor de online tokens van de erfenisUitwisseling &#x200B;](https://learn.microsoft.com/en-us/office/dev/add-ins/outlook/faq-nested-app-auth-outlook-legacy-tokens) onbruikbaar te maken, die momenteel door de toe:voegen-binnen van Workfront Vooruitzichten voor authentificatie worden gebruikt. Deze verandering door Microsoft is al begonnen met gevolgen voor de klanten en zal tot oktober 2025 in fasen blijven doorlopen.
+>[ Microsoft is in het proces om steun voor de online tokens van de erfenisUitwisseling ](https://learn.microsoft.com/en-us/office/dev/add-ins/outlook/faq-nested-app-auth-outlook-legacy-tokens) onbruikbaar te maken, die momenteel door de toe:voegen-binnen van Workfront Vooruitzichten voor authentificatie worden gebruikt. Deze verandering door Microsoft is al begonnen met gevolgen voor de klanten en zal tot oktober 2025 in fasen blijven doorlopen.
 >
 >* **nadat Microsoft volledig deze tokens onbruikbaar maakt, zal Workfront voor de integratie van Microsoft Outlook niet meer functioneren.**
 >
@@ -39,26 +39,26 @@ Als u SAML 2.0 authentificatie toelaat en u uw gebruikers aan login aan Workfron
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan</td> 
-   <td>Alle</td> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
+   <td><p>Alle</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie</td> 
-   <td>Plan</td> 
+   <td><p>Standard</p><p>Plan</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau</td> 
-   <td> <p>U moet een Workfront-beheerder zijn.</p> <p><b> NOTA </b>: Als u nog geen toegang hebt, vraag uw beheerder van Workfront als zij extra beperkingen in uw toegangsniveau plaatsen. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
+   <td> <p>U moet een Workfront-beheerder zijn.</p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
+
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -78,7 +78,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    >
    >Als u de optie **toelaat het inbedden van Workfront in een iframe**, staat de optie **SAML 2.0 authentificatie in Bureau 365 toe:voegen-ins** toe en wordt toegelaten.
    >
-   >![&#x200B; staat het inbedden optie &#x200B;](assets/if-you-enable.png) toe
+   >![ staat het inbedden optie ](assets/if-you-enable.png) toe
    >
 
 1. Klik **sparen**.

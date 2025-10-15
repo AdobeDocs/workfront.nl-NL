@@ -6,9 +6,10 @@ title: Een sjabloontaak verwijderen
 description: U kunt sjabloontaken verwijderen als deze niet meer nodig zijn. Verwijderde sjabloontaken kunnen niet worden hersteld. Projecttaken die zijn gemaakt op basis van de sjabloontaak, worden niet verwijderd of gewijzigd.
 author: Alina
 feature: Work Management
-source-git-commit: bbf2d987bf3267117ab61b123141dd2cb2f82fc3
+exl-id: dd733e9f-8045-4b65-828b-fe6aa40d973f
+source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
 workflow-type: tm+mt
-source-wordcount: '268'
+source-wordcount: '275'
 ht-degree: 0%
 
 ---
@@ -24,7 +25,7 @@ U kunt sjabloontaken verwijderen als deze niet meer nodig zijn. Projecttaken die
 
 ## Toegangsvereisten
 
-+++ Vouw uit om de vereisten voor toegang weer te geven. 
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -35,12 +36,12 @@ U kunt sjabloontaken verwijderen als deze niet meer nodig zijn. Projecttaken die
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront-licentie*</p></td> 
-   <td> <p>Standard </p>
-   <p>Plan </p> </td> 
+   <td role="rowheader"><p>Adobe Workfront-licentie</p></td> 
+   <td> <p>Standard</p>
+   <p>Plan</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Toegangsniveau</p></td> 
+   <td role="rowheader"><p>Configuratie op toegangsniveau</p></td> 
    <td> <p>Toegang tot sjablonen bewerken</p>  </td> 
   </tr> 
   <tr> 
@@ -50,9 +51,35 @@ U kunt sjabloontaken verwijderen als deze niet meer nodig zijn. Projecttaken die
  </tbody> 
 </table>
 
-*Voor meer informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront package</p></td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront license*</p></td> 
+   <td> <p>Standard </p>
+   <p>Plan </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Access level</p></td> 
+   <td> <p>Edit access to Templates</p>  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Object permissions</p> </td> 
+   <td> <p>Manage permissions for a template.</p> <p>You cannot share a template task.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## Een sjabloontaak verwijderen
 
@@ -63,8 +90,8 @@ U kunt een of meerdere sjabloontaken bulksgewijs verwijderen.
 1. Klik op de naam van een sjabloon om deze te openen.
 1. Klik **Taken van het Malplaatje** in het linkerpaneel.
 1. Voer een van de volgende handelingen uit:
-   * Klik de naam van een malplaatjetaak in de lijst om de malplaatjetaak te openen > **Meer** menu ![&#x200B; Meer menu &#x200B;](assets/more-icon.png) > **de Taak van het Malplaatje van de Schrapping**.
-   * Selecteer één of verscheidene malplaatjetaken in de lijst > **schrap** pictogram ![&#x200B; pictogram van de Schrapping &#x200B;](assets/delete.png).
+   * Klik de naam van een malplaatjetaak in de lijst om de malplaatjetaak te openen > **Meer** menu ![ Meer menu ](assets/more-icon.png) > **de Taak van het Malplaatje van de Schrapping**.
+   * Selecteer één of verscheidene malplaatjetaken in de lijst > **schrap** pictogram ![ pictogram van de Schrapping ](assets/delete.png).
 
    Het **vakje van de Taak van het Malplaatje van de Schrapping** opent.
 1. Klik ja **, schrap het** om te bevestigen.
@@ -76,7 +103,3 @@ U kunt een of meerdere sjabloontaken bulksgewijs verwijderen.
 >U kunt op de gedeelten Voorgangers of Subtaken in het linkerdeelvenster van een sjabloontaak klikken om een voorganger of een subtaak te verwijderen.
 >
 >Herhaal bovenstaande stappen om voorgangers of subtaken voor sjabloontaken te verwijderen.
-
-
-
-

@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 5b36106f-d521-4cc1-9f1f-647415c282b4
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: a42a167447d2f11b5502e4a0953b5e7eec2e67b1
 workflow-type: tm+mt
-source-wordcount: '623'
+source-wordcount: '600'
 ht-degree: 0%
 
 ---
@@ -25,9 +25,9 @@ Omgekeerd, staat het ontgrendelen van een voorkeur op het groepsniveau subgroepb
 
 Dit is parallel aan de mogelijkheid dat een Workfront-beheerder een voorkeur voor iedereen in het systeem moet vergrendelen of ontgrendelen.
 
-Voor informatie over hoe een beheerder van Workfront een timesheet en een uurvoorkeur voor alle groepen in het systeem kan sluiten of ontgrendelen, zie [&#x200B; timesheet en uurvoorkeur &#x200B;](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md) vormen.
+Voor informatie over hoe een beheerder van Workfront een timesheet en een uurvoorkeur voor alle groepen in het systeem kan sluiten of ontgrendelen, zie [ timesheet en uurvoorkeur ](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md) vormen.
 
-Voor informatie over het vormen van een timesheet en een uurvoorkeur voor een groep, zie [&#x200B; timesheet en uurvoorkeur voor een groep &#x200B;](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-timesheet-hour-preferences-group.md) vormen.
+Voor informatie over het vormen van een timesheet en een uurvoorkeur voor een groep, zie [ timesheet en uurvoorkeur voor een groep ](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-timesheet-hour-preferences-group.md) vormen.
 
 <!--
 Unlike other Lock/Unlock articles that start just like this one, we need the steps here. In other areas, the lock/unlock step is part of the article about setting preferences or creating statuses.</p>
@@ -48,32 +48,27 @@ Unlike other Lock/Unlock articles that start just like this one, we need the ste
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan</td> 
-   <td>Alle</td> 
+   <td>Adobe Workfront-pakket</td> 
+   <td><p>Alle</p></td> 
   </tr> 
   <tr> 
+   <td>Adobe Workfront-licentie</td> 
+   <td><p>Standard</p>
+       <p>Plan</p></td>
+  </tr>
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie</td> 
-   <td><p>Nieuw: Standaard</p>
-       <p>of</p>
-       <p>Huidig: Plan</p></td>
-  </tr> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau</td> 
+   <td>Configuraties op toegangsniveau</td> 
    <td>U moet een groepsbeheerder van de groep of een systeembeheerder zijn.</td>
-  </tr> 
+  </tr>
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -91,8 +86,8 @@ Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van d
 
 1. Voer op de pagina die wordt weergegeven een van de volgende handelingen uit:
 
-   * Als u beheerders van groepen onder uw groep een voorkeur voor hun groepen wilt kunnen vormen, ontgrendel het ![&#x200B; knevel van de Ontgrendeling &#x200B;](assets/unlock-toggle-button.png).
-   * Als u alle groepen onder van u wilt gebruiken uw configuratie voor een voorkeur, zorg ervoor dat het gesloten ![&#x200B; knevel van het Slot &#x200B;](assets/lock-toggle-button.png) is (dit is het gebrek).
+   * Als u beheerders van groepen onder uw groep een voorkeur voor hun groepen wilt kunnen vormen, ontgrendel het ![ knevel van de Ontgrendeling ](assets/unlock-toggle-button.png).
+   * Als u alle groepen onder van u wilt gebruiken uw configuratie voor een voorkeur, zorg ervoor dat het gesloten ![ knevel van het Slot ](assets/lock-toggle-button.png) is (dit is het gebrek).
 
      >[!IMPORTANT]
      >

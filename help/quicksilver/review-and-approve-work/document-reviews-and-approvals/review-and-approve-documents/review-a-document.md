@@ -6,9 +6,9 @@ description: Als controleur kunt u een voorvertoning weergeven van een document 
 author: Nolan
 feature: Work Management, Digital Content and Documents
 exl-id: 371970e4-cd3e-49b6-8a2d-6cb8fa628679
-source-git-commit: 19003988a8e164db225f8511f567d38e6eeaf627
+source-git-commit: 7572dd64a7f23d6f8dcae374a327d67f2d6738c5
 workflow-type: tm+mt
-source-wordcount: '596'
+source-wordcount: '529'
 ht-degree: 0%
 
 ---
@@ -19,38 +19,38 @@ Als controleur kunt u een document bekijken dat ter controle aan u is voorgelegd
 
 >[!IMPORTANT]
 >
->De inhoud van dit artikel verwijst naar de functionaliteit voor bijgewerkte documentgoedkeuring die alleen beschikbaar is voor specifieke accounts. Voor informatie over standaardgoedkeuringsprocessen, zie de artikelen die in [&#x200B; worden vermeld goedkeuringen van het Werk &#x200B;](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
+>De inhoud van dit artikel verwijst naar de functionaliteit voor bijgewerkte documentgoedkeuring die alleen beschikbaar is voor specifieke accounts. Voor informatie over standaardgoedkeuringsprocessen, zie de artikelen die in [ worden vermeld goedkeuringen van het Werk ](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
 
 ## Toegangsvereisten
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
-
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-abonnement*</td> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Controleren of hoger</p> </td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td> 
+   <p>Medewerker of hoger</p>
+   <p>Controleren of hoger</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot de objecten die aan goedkeuringen zijn gekoppeld weergeven of vergroten</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
+   <td> <p>Toegang tot de objecten die aan goedkeuringen zijn gekoppeld weergeven of vergroten</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Machtigingen weergeven of hoger voor objecten die zijn gekoppeld aan goedkeuringen</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
+   <td> <p>Machtigingen weergeven of hoger voor objecten die zijn gekoppeld aan goedkeuringen</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -73,7 +73,7 @@ Add once functionality is added
 
    Klik **Download** om een lokaal exemplaar van het document op uw apparaat te downloaden.
 
-1. (Facultatief) Zodra u het document hebt herzien, kunt u een commentaar voor de aanvrager in de 1&rbrace; sectie van de Updates van het document **&lbrace;verlaten.** Voor meer informatie bij het becommentariëren, zie [&#x200B; het werk van de Update &#x200B;](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+1. (Facultatief) Zodra u het document hebt herzien, kunt u een commentaar voor de aanvrager in de 1} sectie van de Updates van het document **{verlaten.** Voor meer informatie bij het becommentariëren, zie [ het werk van de Update ](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. Om te registreren dat u uw overzicht hebt voltooid, klik **Volledige overzicht**.
 
 ## Een document reviseren vanuit het deelvenster Documentsamenvatting
@@ -92,9 +92,9 @@ Add once functionality is added
 
    Klik **Download** om een lokaal exemplaar van het document op uw apparaat te downloaden.
 
-1. (Facultatief) Zodra u het document hebt herzien, kunt u een commentaar voor de aanvrager in de 1&rbrace; sectie van de Updates van het document **&lbrace;verlaten.** Voor meer informatie bij het becommentariëren, zie [&#x200B; het werk van de Update &#x200B;](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+1. (Facultatief) Zodra u het document hebt herzien, kunt u een commentaar voor de aanvrager in de 1} sectie van de Updates van het document **{verlaten.** Voor meer informatie bij het becommentariëren, zie [ het werk van de Update ](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-1. (Facultatief) u kunt een specifieke versie van het document ook voorproef of downloaden door neer aan de **sectie van Versies** van het Summiere paneel van het Document te scrollen, dan klikkend op het Meer pictogram ![&#x200B; Meer pictogram &#x200B;](../assets/more-icon.png) naast de versie u **Download** of **Voorproef** zou willen herzien en selecteren.
+1. (Facultatief) u kunt een specifieke versie van het document ook voorproef of downloaden door neer aan de **sectie van Versies** van het Summiere paneel van het Document te scrollen, dan klikkend op het Meer pictogram ![ Meer pictogram ](../assets/more-icon.png) naast de versie u **Download** of **Voorproef** zou willen herzien en selecteren.
 1. Om te registreren dat u uw overzicht hebt voltooid, klik **Volledige overzicht**.
 
 ## Een document reviseren vanuit de proefdrukviewer
@@ -105,7 +105,7 @@ Een document reviseren:
 
 1. Zodra u in Workfront bent, klik **gaan aan proef**.
 
-1. Bekijk de inhoud en voeg eventuele opmerkingen of markeringen toe. Voor meer informatie over hoe te om de het proeven kijker te gebruiken, zie [&#x200B; proefdrukken van het Overzicht binnen Adobe Workfront: artikelindex &#x200B;](/help/quicksilver/review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md).
+1. Bekijk de inhoud en voeg eventuele opmerkingen of markeringen toe. Voor meer informatie over hoe te om de het proeven kijker te gebruiken, zie [ proefdrukken van het Overzicht binnen Adobe Workfront: artikelindex ](/help/quicksilver/review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md).
 
 1. Om te registreren dat u uw overzicht hebt voltooid, klik **Volledige overzicht**.
 

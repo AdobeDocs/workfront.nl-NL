@@ -6,9 +6,9 @@ description: Als u uw rapporten deelt met andere gebruikers in Adobe Workfront, 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 0ea65b3f-fbcf-40f4-a4d1-4dd91619c349
-source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '1162'
+source-wordcount: '1146'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Als u uw rapporten deelt met andere gebruikers in Adobe Workfront, kunt u overwe
 
 U kunt het tabblad Details van uw rapporten aanpassen door speciale of voorwaardelijke opmaak toe te voegen aan de weergave van uw rapporten.
 
-Voor meer informatie over het creëren van rapporten, zie het artikel [&#x200B; een douanerapport &#x200B;](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) creëren.
+Voor meer informatie over het creëren van rapporten, zie het artikel [ een douanerapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) creëren.
 
 Door kolommen in de mening van het rapport voorwaardelijk te formatteren, kunt u opstellingsregels die de manier beïnvloeden de rapportvertoningen. Wanneer aan deze voorwaarden of regels is voldaan, wordt de speciale opmaak toegepast.
 
@@ -39,38 +39,35 @@ De veranderingen u in de mening van het rapport aanbrengt worden van kracht slec
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront-abonnement*</strong></td> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront-licentie*</strong></td> 
-   <td> <p>Nieuw:</p> 
-   <ul><li>Standaard voor rapportweergaven</li>
-  <li> Medewerker of hoger voor lijstweergaven</li></ul>
-   <p>Huidige:</p>
-   <ul>
-    <li> Plan voor rapportmeningen </li>
-    <li> Aanvraag of hoger voor lijstweergaven </li> </ul></td> 
+   <td role="rowheader">Adobe Workfront-licentie</strong></td> 
+   <td> 
+    <p>Standaard of Plan voor rapportweergaven</p>
+    <p>Medewerker of verzoek om lijstweergaven</p>
+   </td>
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Configuraties op toegangsniveau*</strong></td> 
-   <td> <p>Toegang tot filters, weergaven, groepen bewerken</p> <p>Toegang tot rapporten, dashboards, kalenders bewerken om een weergave in een rapport te bewerken</p></td> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
+   <td> <p>Toegang tot filters, weergaven, groepen bewerken</p> <p>Toegang tot rapporten, dashboards, kalenders bewerken om een weergave in een rapport te bewerken</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Objectmachtigingen</strong></td> 
-   <td> <p>Rechten voor een rapport beheren om een weergave in een rapport te maken of te bewerken</p> <p>Rechten beheren voor een weergave</p></td> 
+   <td role="rowheader">Objectmachtigingen</td> 
+    <td> <p>Rechten voor een rapport beheren om een weergave in een rapport te maken of te bewerken</p> <p>Rechten beheren voor een weergave</p></td> 
+   </td> 
   </tr> 
  </tbody> 
 </table>
 
-*For informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -78,7 +75,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 U moet een rapport maken voordat u voorwaardelijke opmaak aan de weergave kunt toevoegen.
 
-Voor informatie bij het creëren van een rapport, zie [&#x200B; een rapport &#x200B;](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-report.md) creëren.
+Voor informatie bij het creëren van een rapport, zie [ een rapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-report.md) creëren.
 
 ## Een weergave met voorwaardelijke opmaak maken
 

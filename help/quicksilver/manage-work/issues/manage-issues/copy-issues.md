@@ -1,19 +1,21 @@
 ---
 product-area: projects
 navigation-topic: manage-issues
-title: Uitgaven kopiëren
+title: Problemen kopiëren
 description: U kunt een uitgave of een verzoek kopiëren en hen op het zelfde of een ander project opslaan. U kunt een kwestie van een taak aan een ander project ook kopiëren.
 author: Alina
 feature: Work Management
 exl-id: a28adc22-825f-401e-9ed2-efddaa297b8d
-source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
+source-git-commit: 0542587bb3254dec5664de493c1c321528cf7f3e
 workflow-type: tm+mt
-source-wordcount: '1064'
+source-wordcount: '1006'
 ht-degree: 0%
 
 ---
 
 # Uitgaven kopiëren
+
+<!--Audited: 08/2025-->
 
 U kunt een uitgave of een verzoek kopiëren en hen op het zelfde of een ander project opslaan. U kunt een kwestie van een taak aan een ander project ook kopiëren.
 
@@ -30,32 +32,64 @@ U kunt uitgaven van de volgende voorwerpen kopiëren:
 
 ## Toegangsvereisten
 
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-abonnement*</td> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Aanvraag of hoger</p> <p>U kunt een licentie voor het kopiëren van een uitgave controleren of verhogen in de sectie Issues van een project.</p> </td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td> 
+   <ul><li><p>Medewerker of hoger</p> </li>
+   <li><p>Lichte of hogere vergunning om een kwestie in de sectie van Kwesties van een project te kopiëren</p></li></ul>
+   of
+   <ul><li><p>Aanvrager of hoger</p> </li>
+   <li><p>De revisor of hoger licentie om een uitgave te kopiëren in de sectie Issues van een project</p></li></ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Toegangsniveau*</td> 
-   <td> <p>Toegang tot problemen bewerken</p> <p>De mening of hogere toegang tot Projecten en Taken</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over toegang tot kwesties in uw Niveau van de Toegang, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref"> Toegang van de Verlening tot kwesties </a>. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan veranderen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen. </p> </td> 
+   <td role="rowheader">Configuratie op toegangsniveau</td> 
+   <td> <p>Toegang tot problemen bewerken</p> <p>De mening of hogere toegang tot Projecten en Taken</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Rechten voor het probleem beheren</p> <p>Contribute-machtigingen voor het item waarnaar u het probleem kopieert, met de mogelijkheid om problemen toe te voegen.</p> <p> Voor informatie over het verlenen van toestemmingen aan kwesties, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref"> een kwestie delen </a></p> <p>Voor informatie bij het vragen van extra toestemmingen, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> Toegang tot voorwerpen verzoeken </a>.</p> </td> 
+   <td> <p>Rechten voor het probleem beheren</p> <p>Contribute-machtigingen voor het item waarnaar u het probleem kopieert, met de mogelijkheid om problemen toe te voegen.</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Request or higher</p> <p>Review or higher license to copy an issue in the Issues section of a project.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level*</td> 
+   <td> <p>Edit access to Issues</p> <p>View or higher access to Projects and Tasks</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information about access to issues in your Access Level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">Grant access to issues</a>. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>. </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>Manage permissions to the issue</p> <p>Contribute permissions to the item where you are copying the issue to with the ability to Add Issues.</p> <p> For information about granting permissions to issues, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Share an issue </a></p> <p>For information on requesting additional permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## Overwegingen bij het kopiëren van problemen
 
@@ -95,9 +129,9 @@ U kunt een of meerdere uitgaven kopiëren uit een lijst met problemen of uit een
 1. Als u selecteerde om naar een project te gaan, klik **Kwesties** in het linkerpaneel.
 1. Selecteer de kwestie of de kwesties die u wilt kopiëren en **klikken Meer menu** bij de bovenkant van de lijst van de kwestie, dan klik **Exemplaar aan**.
 
-   ![&#x200B; kwestie van het Exemplaar in lijst &#x200B;](assets/copy-issue-in-list-nwe-350x169.png)
+   ![ kwestie van het Exemplaar in lijst ](assets/copy-issue-in-list-nwe-350x169.png)
 
-1. Ga met het kopiëren van de kwestie voort, zoals die in de sectie [&#x200B; wordt beschreven Kopieer één enkele kwestie &#x200B;](#copy-a-single-issue) die met Stap 2 begint.
+1. Ga met het kopiëren van de kwestie voort, zoals die in de sectie [ wordt beschreven Kopieer één enkele kwestie ](#copy-a-single-issue) die met Stap 2 begint.
 
    <!--
    <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -109,13 +143,13 @@ U kunt een of meerdere uitgaven kopiëren uit een lijst met problemen of uit een
 
 U kunt één uitgave kopiëren wanneer het bekijken.
 
-1. Ga naar een kwestie die u wilt kopiëren, dan **Meer** menu ![&#x200B; &#x200B;](assets/more-icon.png) aan het recht van de uitgevende naam, dan **Exemplaar** aan klikken.
+1. Ga naar een kwestie die u wilt kopiëren, dan **Meer** menu ![ ](assets/more-icon.png) aan het recht van de uitgevende naam, dan **Exemplaar aan** klikken.
 
-   ![&#x200B; Exemplaar op uitgiftenniveau &#x200B;](assets/nwe-copy-at-issue-level-highlighted-350x580.png)
+   ![ Exemplaar op uitgiftenniveau ](assets/nwe-copy-at-issue-level-highlighted-350x580.png)
 
    De **vertoningen van de Kwestie van het Exemplaar**.
 
-   ![&#x200B; de uitgiftedoos van het Exemplaar &#x200B;](assets/copy-issue-box-nwe-350x285.png)
+   ![ de uitgiftedoos van het Exemplaar ](assets/copy-issue-box-nwe-350x285.png)
 
 1. In de **Uitgezochte sectie van het Project van de Bestemming**, specificeer de naam van het project waar u de kwesties wilt kopiëren. De naam van het huidige project toont door gebrek.
 
@@ -126,11 +160,11 @@ U kunt één uitgave kopiëren wanneer het bekijken.
 1. (Voorwaardelijk) klik **verzoektoegang** als u geen toegang hebt om kwesties aan het project te kopiëren.
 1. (Voorwaardelijk) blijf de kwestie aan het geselecteerde bestemmingsproject kopiëren zonder toegang te vragen als u toegang hebt om kwesties aan één van de taken op het bestemmingsproject toe te voegen.
 
-   ![&#x200B; Uitgave van het Exemplaar en verzoek toegang &#x200B;](assets/copy-issue-request-access-from-project-nwe-350x125.png)
+   ![ Uitgave van het Exemplaar en verzoek toegang ](assets/copy-issue-request-access-from-project-nwe-350x125.png)
 
    >[!TIP]
    >
-   >De gelijkaardige berichten tonen als het geselecteerde project in afwachting van goedkeuring, voltooid, of dood is, wanneer de beheerder van Workfront het toevoegen van kwesties aan deze projecten verhindert. Voor meer informatie, zie [&#x200B; systeem-brede projectvoorkeur &#x200B;](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) vormen.
+   >De gelijkaardige berichten tonen als het geselecteerde project in afwachting van goedkeuring, voltooid, of dood is, wanneer de beheerder van Workfront het toevoegen van kwesties aan deze projecten verhindert. Voor meer informatie, zie [ systeem-brede projectvoorkeur ](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) vormen.
 
 1. (Facultatief) in de **sectie van Opties**, schrap om het even welke punten die in de lijst hieronder worden vermeld om hen uit de nieuwe kwestie te verwijderen. Alle opties zijn standaard geselecteerd.
 

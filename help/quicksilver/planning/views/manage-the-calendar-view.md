@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 45b5be81-703c-45d5-a08c-60cb8ec5b103
-source-git-commit: fbf902196c9f5b55ddd1e20516e4237309dff2ed
+source-git-commit: b102960e088f072f10baadcbeca4f7f579daa287
 workflow-type: tm+mt
-source-wordcount: '1895'
+source-wordcount: '1832'
 ht-degree: 0%
 
 ---
@@ -17,17 +17,17 @@ ht-degree: 0%
 
 <span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>
 
-<span class="preview"> voor informatie over snelle versies, zie [&#x200B; snelle versies voor uw organisatie &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
+<span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
 
 {{planning-important-intro}}
 
 U kunt records en de bijbehorende velden weergeven in een kalenderweergave, vanaf de pagina met recordtypen.
 
-Voor informatie over de meningen van de Planning van Adobe Workfront en hoe te om hen te beheren, zie [&#x200B; verslagmeningen &#x200B;](/help/quicksilver/planning/views/manage-record-views.md) leiden.
+Voor informatie over de meningen van de Planning van Adobe Workfront en hoe te om hen te beheren, zie [ verslagmeningen ](/help/quicksilver/planning/views/manage-record-views.md) leiden.
 
 ## Toegangsvereisten
 
-+++ Vouw uit om de vereisten voor toegang weer te geven. 
++++ Breid uit om de toegangsvereisten voor de functionaliteit in dit artikel te bekijken. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -37,47 +37,23 @@ Voor informatie over de meningen van de Planning van Adobe Workfront en hoe te o
 <tbody> 
     <tr> 
 <tr> 
-<td> 
-   <p> Producten</p> </td> 
-   <td> 
-   <ul><li><p> Adobe Workfront</p></li> 
-   <li><p> Adobe Workfront Planning<p></li></ul></td> 
-  </tr>   
+</tr>   
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront-abonnement*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront-pakket</p></td> 
    <td> 
-<p>Een van de volgende Workfront-plannen:</p> 
-<ul><li>Selecteren</li> 
-<li>Prime</li> 
-<li>Ultimate</li></ul> 
-<p>Workfront Planning is niet beschikbaar voor oudere Workfront-plannen</p> 
+<ul> 
+<li><p>Alle Workfront en alle planningspakketten</p></li>
+of
+<li><p>Alle workflows en planningspakketten</li></ul>
+<p>Neem voor meer informatie over wat er in elk planningspakket voor Workfront staat, contact op met uw Workfront-accountvertegenwoordiger. </p> 
    </td> 
-<tr> 
-   <td role="rowheader"><p>Adobe Workfront-planningspakket*</p></td> 
-   <td> 
-<p>Alle </p> 
-<p>Neem contact op met uw Workfront-accountmanager voor meer informatie over wat er in elk Workfront-planningsplan is opgenomen. </p> 
-   </td> 
- <tr> 
-   <td role="rowheader"><p>Adobe Workfront-platform</p></td> 
-   <td> 
-<p>Het geval van Workfront van uw organisatie moet aan de Verenigde Ervaring van Adobe worden genegeerd om tot de Planning van Workfront te kunnen toegang hebben.</p> 
-<p>Voor meer informatie, zie <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md"> Adobe Verenigde Ervaring voor Workfront </a>. </p> 
-   </td> 
-   </tr> 
-  </tr> 
-    <td role="rowheader"><p>Adobe Workfront-licentie*</p></td> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront-licentie</p></td> 
    <td><p> Standaard voor het maken en verwijderen van weergaven</p>
    <p>Medewerker of hoger om weergave-elementen bij te werken</p>
-   <p>Workfront Planning is niet beschikbaar voor oudere Workfront-licenties</p> 
   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Configuratie op toegangsniveau</p></td> 
-   <td> <p>Er zijn geen toegangsniveaucontroles voor de Planning van Adobe Workfront</p>   
-</td> 
-  </tr> 
-<tr> 
    <td role="rowheader"><p>Objectmachtigingen</p></td> 
    <td>   <p>Rechten beheren voor een weergave</p>  
    <p>Machtigingen weergeven voor een weergave om de weergave-instellingen tijdelijk te wijzigen of te dupliceren</p> </td> 
@@ -87,14 +63,77 @@ Voor informatie over de meningen van de Planning van Adobe Workfront en hoe te o
    <td> De gebruikers met een Licht of de vergunning van de Medewerker moeten een lay-outmalplaatje worden toegewezen dat Planning omvat.
    <p>De standaardgebruikers en de Beheerders van het Systeem hebben de Gebieden van de Planning die door gebrek worden toegelaten.</p></div></li></ul>
 </td>
-  </tr>
-
+  </tr> 
 </tbody> 
 </table>
 
-*Voor meer informatie over de toegangsvereisten van Workfront, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer informatie over de toegangsvereisten van Workfront, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-+++   
++++ 
+
+<!--Old:
+ <table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+    <tr> 
+<tr> 
+<td> 
+   <p> Products</p> </td> 
+   <td> 
+   <ul><li><p> Adobe Workfront</p></li> 
+   <li><p> Adobe Workfront Planning<p></li></ul></td> 
+  </tr>   
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront plan*</p></td> 
+   <td> 
+<p>Any of the following Workfront plans:</p> 
+<ul><li>Select</li> 
+<li>Prime</li> 
+<li>Ultimate</li></ul> 
+<p>Workfront Planning is not available for legacy Workfront plans</p> 
+   </td> 
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront Planning package*</p></td> 
+   <td> 
+<p>Any </p> 
+<p>For more information about what is included in each Workfront Planning plan, contact your Workfront account manager. </p> 
+   </td> 
+ <tr> 
+   <td role="rowheader"><p>Adobe Workfront platform</p></td> 
+   <td> 
+<p>Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience to be able to access Workfront Planning.</p> 
+<p>For more information, see <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p> 
+   </td> 
+   </tr> 
+  </tr> 
+    <td role="rowheader"><p>Adobe Workfront license*</p></td> 
+   <td><p> Standard to create and delete views</p>
+   <p>Contributor or higher to update view elements</p>
+   <p>Workfront Planning is not available for legacy Workfront licenses</p> 
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Access level configuration</p></td> 
+   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+</td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>Object permissions</p></td> 
+   <td>   <p>Manage permissions to a view</p>  
+   <p>View permissions to a view to temporarily change the view settings or to duplicate it</p> </td> 
+  </tr> 
+<tr>
+   <td role="rowheader"><p>Layout template</p></td>
+   <td> Users with a Light or Contributor license must be assigned a layout template that includes Planning.
+   <p>Standard users and System Administrators have the Planning areas enabled by default.</p></div></li></ul>
+</td>
+  </tr>
+
+</tbody> 
+</table> -->
 
 ## Een kalenderweergave beheren {#manage-a-calendar-view}
 
@@ -114,11 +153,11 @@ Overweeg het volgende:
 Een kalenderweergave beheren:
 
 1. Ga naar de recordtypepagina waarvoor u de kalender wilt bekijken.
-1. Creeer een kalendermening, zoals die in artikel [&#x200B; wordt beschreven beheer verslagmeningen &#x200B;](/help/quicksilver/planning/views/manage-record-views.md).
+1. Creeer een kalendermening, zoals die in artikel [ wordt beschreven beheer verslagmeningen ](/help/quicksilver/planning/views/manage-record-views.md).
 
    <div class="preview">
 
-   ![&#x200B; de meningsvoorbeeld van de Kalender &#x200B;](assets/calendar-view-example.png)
+   ![ de meningsvoorbeeld van de Kalender ](assets/calendar-view-example.png)
 
    De records die zijn gekoppeld aan het geselecteerde recordtype, worden in een kalender weergegeven als balken. De kleur van de balken komt standaard overeen met de kleur van het recordpictogram.
 
@@ -137,23 +176,23 @@ Een kalenderweergave beheren:
          * Records die zich uitstrekken over meerdere dagen worden boven aan de kalender weergegeven.
          * Records die een dag of minder duren, worden weergegeven in de onderste helft van de kalenderweergave. Als u hebt opgegeven dat u het uur van de begin- en einddatum wilt weergeven, wordt de record op het juiste tijdstip weergegeven binnen de dag dat deze plaatsvindt.
 
-1. <span class="preview"> (Facultatief) klik het **Volledige scherm** pictogram ![&#x200B; Open volledig het schermpictogram &#x200B;](assets/open-full-screen-icon.png) om de mening in volledig scherm te openen, dan de **Uitgang volledig scherm** pictogram ![&#x200B; het volledige het schermpictogram van de Uitgang &#x200B;](assets/exit-full-screen-icon.png) of Escape op uw toetsenbord om het volledige scherm weg te gaan.  </span>
+1. <span class="preview"> (Facultatief) klik het **Volledige scherm** pictogram ![ Open volledig het schermpictogram ](assets/open-full-screen-icon.png) om de mening in volledig scherm te openen, dan de **Uitgang volledig scherm** pictogram ![ het volledige het schermpictogram van de Uitgang ](assets/exit-full-screen-icon.png) of Escape op uw toetsenbord om het volledige scherm weg te gaan.  </span>
 
 1. <span class="preview"> om verslagen in de kalendermening tot stand te brengen of hun data uit te geven doe één van het volgende:</span>
 
    * <span class="preview"> tweemaal klik overal op de kalender om een verslag tot stand te brengen. </span>
 
-     <span class="preview"> voor informatie, zie [&#x200B; verslagen &#x200B;](/help/quicksilver/planning/records/create-records.md) creëren.</span>
+     <span class="preview"> voor informatie, zie [ verslagen ](/help/quicksilver/planning/records/create-records.md) creëren.</span>
 
    * <span class="preview"> klik op de linker of juiste marge van een verslagbar, dan belemmering en laat vallen het in een nieuwe positie. Als u de grootte van de balken van de records wijzigt, worden de begin- of einddatums onmiddellijk bijgewerkt. </span>
 
    * <span class="preview"> belemmering en laat vallen de verslagbars om hun positie en data bij te werken. Als u de balken van de records verplaatst, worden de begin- en einddatum onmiddellijk bijgewerkt.</span>
 
-     <span class="preview"> voor informatie, zie [&#x200B; verslagen &#x200B;](/help/quicksilver/planning/records/edit-records.md) uitgeven.</span>
+     <span class="preview"> voor informatie, zie [ verslagen ](/help/quicksilver/planning/records/edit-records.md) uitgeven.</span>
 
 1. Werk de volgende weergave-elementen bij zoals in de onderstaande subsecties wordt beschreven:
    * [Filters](#add-filters)
-   * <span class="preview">[&#x200B; de hoogte van de Rij &#x200B;](#modify-row-height)</span>
+   * <span class="preview">[ de hoogte van de Rij ](#modify-row-height)</span>
    * [Instellingen](#edit-the-calendar-view-settings)
 
    <!--* [Grouping](#add-grouping)-->
@@ -183,7 +222,7 @@ Houd rekening met het volgende wanneer u werkt met filters in de kalenderweergav
 
 Een filter toevoegen aan een kalenderweergave:
 
-1. Creeer een kalendermening voor een verslagtype pagina, zoals die in artikel [&#x200B; wordt beschreven beheer verslagmeningen &#x200B;](/help/quicksilver/planning/views/manage-record-views.md).
+1. Creeer een kalendermening voor een verslagtype pagina, zoals die in artikel [ wordt beschreven beheer verslagmeningen ](/help/quicksilver/planning/views/manage-record-views.md).
 1. Selecteer een kalendermening, dan klik **Filters** in de toolbar van de kalender.
 1. Klik **toevoegen voorwaarde** en voeg de volgende informatie toe:
 
@@ -257,7 +296,7 @@ Een filter toevoegen aan een kalenderweergave:
 
    * Selecteer een waarde voor het geselecteerde veld.
 
-   ![&#x200B; de lijstmening van de Filter UI &#x200B;](assets/filter-ui-table-view.png)
+   ![ de lijstmening van de Filter UI ](assets/filter-ui-table-view.png)
 
    Er is geen limiet voor het aantal filtervoorwaarden dat u kunt toevoegen.
 
@@ -269,7 +308,7 @@ Een filter toevoegen aan een kalenderweergave:
 
    1. (Facultatief) voeg extra **EN** of **OF** exploitanten tussen veelvoudige voorwaardengroeperingen toe.
 
-      ![&#x200B; Multi-tiered filters in meningen &#x200B;](assets/multi-tiered-filters-in-views.png)
+      ![ Multi-tiered filters in meningen ](assets/multi-tiered-filters-in-views.png)
 
    De lijst met records wordt automatisch gefilterd.  <!--at this time, you can't name and save the filter - but will this change?!-->
    <!-- asked on the task for the simple filters whether there is a limitation for how many statements a filter can have?!-->
@@ -290,7 +329,7 @@ Het aantal records dat in de kalender wordt weergegeven, is afhankelijk van het 
 >Deze instelling is alleen beschikbaar wanneer u de kalender per maand weergeeft.
 
 
-1. Creeer een kalendermening voor een verslagtype pagina, zoals die in artikel [&#x200B; wordt beschreven beheer verslagmeningen &#x200B;](/help/quicksilver/planning/views/manage-record-views.md).
+1. Creeer een kalendermening voor een verslagtype pagina, zoals die in artikel [ wordt beschreven beheer verslagmeningen ](/help/quicksilver/planning/views/manage-record-views.md).
 1. (Voorwaardelijk) toon de kalendermening door maand, dan klik **de hoogte van de Rij** in de toolbar van de kalender.
 1. Kies een van de volgende opties:
 
@@ -348,7 +387,7 @@ Het aantal records dat in de kalender wordt weergegeven, is afhankelijk van het 
 
 Werk de instellingen van de kalenderweergave bij om aan te geven wat en hoe informatie in de weergave wordt weergegeven.
 
-1. Creeer een kalendermening voor een verslagtype, zoals die in artikel [&#x200B; wordt beschreven beheer verslagmeningen &#x200B;](/help/quicksilver/planning/views/manage-record-views.md).
+1. Creeer een kalendermening voor een verslagtype, zoals die in artikel [ wordt beschreven beheer verslagmeningen ](/help/quicksilver/planning/views/manage-record-views.md).
 1. Klik **Montages**.
 1. Klik **Datum en tijd** in het linkerpaneel, dan de datum van het a **Begin** en een **einddatum** om op de kalender te tonen. U kunt de standaardbegin- en einddatum kiezen of een datumveld kiezen dat beschikbaar is.
 
@@ -369,7 +408,7 @@ Werk de instellingen van de kalenderweergave bij om aan te geven wat en hoe info
 
    >[!NOTE]
    >
-   >    U moet eerst miniaturen toevoegen in de tabelweergave voordat u ze kunt weergeven in de kalenderweergave. Voor meer informatie, zie [&#x200B; een duimnagel aan een verslag &#x200B;](/help/quicksilver/planning/records/add-thumbnails-to-records.md) toevoegen.
+   >    U moet eerst miniaturen toevoegen in de tabelweergave voordat u ze kunt weergeven in de kalenderweergave. Voor meer informatie, zie [ een duimnagel aan een verslag ](/help/quicksilver/planning/records/add-thumbnails-to-records.md) toevoegen.
 
 1. Klik **toevoegen gebied**, dan klik binnen het **vakje van het Onderzoek gebieden**, en klik het gebied u wilt toevoegen.
 
@@ -383,11 +422,11 @@ Werk de instellingen van de kalenderweergave bij om aan te geven wat en hoe info
 
    Aan de rechterkant wordt een voorbeeld weergegeven van hoe de balken eruit zullen zien op de kalender.
 
-   ![&#x200B; de stijlsectie van de Bar in de montages van de kalendermening &#x200B;](assets/bar-style-section-in-calendar-view-settings-with-preview.png)
+   ![ de stijlsectie van de Bar in de montages van de kalendermening ](assets/bar-style-section-in-calendar-view-settings-with-preview.png)
 
 1. Klik **Kleur** in het linkerpaneel, om de kleuren van de verslagen op de kalender aan te passen.
 
-   ![&#x200B; paneel van de Kleur op de montages van de kalendermening &#x200B;](assets/color-panel-on-calendar-view-settings.png)
+   ![ paneel van de Kleur op de montages van de kalendermening ](assets/color-panel-on-calendar-view-settings.png)
 
 1. In de **Vastgestelde verslagkleur aan** sectie, selecteer van de volgende opties om een kleur voor de verslagen te plaatsen:
 
@@ -397,7 +436,7 @@ Werk de instellingen van de kalenderweergave bij om aan te geven wat en hoe info
 
 1. (Voorwaardelijk) als u **waarden van het Gebied** voor de verslagkleuren selecteerde, selecteer een gebied van **gelijke de verslagkleur aan** drop-down menu.
 
-   ![&#x200B; de selecteur van het Gebied drop-down menu voor kalendermening &#x200B;](assets/field-selector-drop-down-menu-calendar-view.png)
+   ![ de selecteur van het Gebied drop-down menu voor kalendermening ](assets/field-selector-drop-down-menu-calendar-view.png)
 
    Alleen velden met opties voor kleurcodes worden weergegeven in het keuzemenu.
 

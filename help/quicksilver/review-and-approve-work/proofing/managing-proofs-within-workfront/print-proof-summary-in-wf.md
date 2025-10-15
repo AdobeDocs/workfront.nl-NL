@@ -6,9 +6,9 @@ description: U kunt een proefdrukoverzicht afdrukken, opslaan als een PDF of exp
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 129c8e6b-5c66-445b-a5d0-7b1460aeabd6
-source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
+source-git-commit: ac714bd5a5259d6f995ac445efbd0125e07022cb
 workflow-type: tm+mt
-source-wordcount: '772'
+source-wordcount: '670'
 ht-degree: 0%
 
 ---
@@ -21,32 +21,33 @@ U kunt een proefdrukoverzicht afdrukken, opslaan als een PDF of exporteren als e
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-abonnement*</td> 
-   <td> <p>Huidig abonnement: Pro of hoger</p> <p>of</p> <p>Verouderd abonnement: Selecteren of Premium</p> <p>Voor meer informatie over het proefdrukken van toegang met de verschillende plannen, zie <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref"> Toegang tot het proefdrukken van functionaliteit in Workfront </a>.</p> </td> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Huidig plan: Werk of Plan</p> <p>Ouder plan: Willekeurig (proefdrukken moet zijn ingeschakeld voor de gebruiker)</p> </td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td> 
+   <p>Standard</p>
+   <p>Werken of plannen</p>
+    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Bewijs van machtigingsprofiel </td> 
    <td>Manager of hoger</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot documenten bewerken</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
+   <td> <p>Toegang tot documenten bewerken</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42; om te weten te komen welk plan, rol, of Profiel van de Toestemming van het Bewijs u hebt, contacteer uw beheerder van Workfront of van Workfront Proof.
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -61,11 +62,11 @@ U kunt een proefdrukoverzicht rechtstreeks vanuit de documentlijst afdrukken.
 
 1. Van de documentlijst die de proef bevat, beweegt zich over de rij die het document bevat, dan klik **Samenvatting van de Druk**.
 
-   ![&#x200B; proof_printsummary.png &#x200B;](assets/proof-printsummary-350x166.png)
+   ![ proof_printsummary.png ](assets/proof-printsummary-350x166.png)
 
    of
 
-   Terwijl het bekijken van de proef in de het proeven kijker, klik het **pictogram van de Druk ![&#x200B; &#x200B;](assets/print-icon-in-pv.png) pictogram van de Druk in de linkertoolbar.** (Als de linkertoolbar niet zichtbaar is, klik het pictogram van het Menu ![&#x200B; pictogram van het Menu &#x200B;](assets/menu-icon-in-pv.png) in de upper-left hoek van de het proef kijker.)
+   Terwijl het bekijken van de proef in de het proeven kijker, klik het **pictogram van de Druk** ![ pictogram van de Druk in de linkertoolbar. ](assets/print-icon-in-pv.png) (Als de linkertoolbar niet zichtbaar is, klik het pictogram van het Menu ![ pictogram van het Menu ](assets/menu-icon-in-pv.png) in de upper-left hoek van de het proef kijker.)
 
 1. Gebruik een van de volgende opties:
 
@@ -122,11 +123,11 @@ U kunt een proefdrukoverzicht voor statische inhoud exporteren als XLS-bestand o
 
 1. Van de documentlijst die de proef bevat, beweegt zich over de rij die het document bevat, dan klik **Samenvatting van de Druk**.
 
-   ![&#x200B; proof_printsummary.png &#x200B;](assets/proof-printsummary-350x166.png)
+   ![ proof_printsummary.png ](assets/proof-printsummary-350x166.png)
 
 1. Klik op het pictogram XLS of PDF in de rechterbovenhoek van de pagina.
 
-   ![&#x200B; het pictogram van XLS PDF &#x200B;](assets/xls-pdf-icons-350x136.png)
+   ![ het pictogram van XLS PDF ](assets/xls-pdf-icons-350x136.png)
 
 Wanneer het geëxporteerde bestand gereed is, ontvangt u een e-mail waarin u het bestand kunt downloaden.
 

@@ -3,12 +3,12 @@ product-area: projects
 navigation-topic: manage-issues
 title: Gebruikerstoewijzingen wijzigen voor meerdere uitgaven in een lijst
 description: Gebruikerstoewijzingen wijzigen voor meerdere uitgaven in een lijst
-author: Alina
+author: Lisa
 feature: Work Management
 exl-id: e1e75027-1847-44cf-afeb-b19394dc3ea5
-source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
+source-git-commit: 7aa420946115fc612ad1d9e310583e5453ae0678
 workflow-type: tm+mt
-source-wordcount: '751'
+source-wordcount: '749'
 ht-degree: 0%
 
 ---
@@ -22,10 +22,10 @@ ht-degree: 0%
 
 U kunt gebruikerstoewijzingen aan veelvoudige kwesties gelijktijdig wijzigen. Zie ook de volgende artikelen voor informatie over het bewerken van uitgaven of het een voor een toewijzen van uitgaven:
 
-* [&#x200B; geeft kwesties &#x200B;](../../../manage-work/issues/manage-issues/edit-issues.md) uit
+* [ geeft kwesties ](../../../manage-work/issues/manage-issues/edit-issues.md) uit
 * [Problemen toewijzen](../../../manage-work/issues/manage-issues/assign-issues.md)
 
-Voor algemene informatie over het toewijzen van kwesties, zie [&#x200B; Overzicht van het wijzigen van uitgiftetaken &#x200B;](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md).
+Voor algemene informatie over het toewijzen van kwesties, zie [ Overzicht van het wijzigen van uitgiftetaken ](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md).
 
 >[!NOTE]
 >
@@ -33,33 +33,33 @@ Voor algemene informatie over het toewijzen van kwesties, zie [&#x200B; Overzich
 
 ## Toegangsvereisten
 
-+++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan</td> 
-   <td> <p>Alle </p> </td> 
+   <td>Adobe Workfront-pakket</td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licenties*</td> 
-   <td> <p>Nieuw: Standaard </p>
-   <p>Huidig: Verzoek of hoger</p> </td> 
+   <td>Adobe Workfront-licentie</td> 
+   <td> <p>Standard</p>
+   <p>Aanvraag of hoger</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau</td> 
+   <td>Configuraties op toegangsniveau</td> 
    <td> <p>Toegang tot problemen bewerken</p> <p>De mening of de hogere toegang tot Projecten en Taken om één kwestie toe te wijzen</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Objectmachtigingen</td> 
+   <td>Objectmachtigingen</td> 
    <td> <p>Rechten voor het probleem beheren</p> <p>Contribute-machtigingen of hoger voor het project of de taak waar de uitgave zich bevindt, wanneer u meerdere uitgaven toewijst.</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-*For informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -102,13 +102,13 @@ Voor algemene informatie over het toewijzen van kwesties, zie [&#x200B; Overzich
    1. Typ de naam van de gebruiker of rol waarvoor u wilt filteren en klik vervolgens op de naam wanneer deze wordt weergegeven in de vervolgkeuzelijst.
    1. Klik **sparen Filter.**
 
-1. Selecteer de kwesties waarvoor u taken wilt wijzigen, dan klik **uitgeven** pictogram ![&#x200B; uitgeven pictogram &#x200B;](assets/qs-edit-icon.png).
+1. Selecteer de kwesties waarvoor u taken wilt wijzigen, dan klik **uitgeven** pictogram ![ uitgeven pictogram ](assets/qs-edit-icon.png).
 
    **geeft Kwesties** vertoningen uit. De items die worden bewerkt, worden in de linkerbovenhoek van de pagina weergegeven.
 
 1. Ga naar de **sectie van Taken**, dan uitgezochte **Ontvanger**.
 
-   ![&#x200B; gebied van Taken &#x200B;](assets/classic-assignmens-area-on-edit-box-350x119.png)
+   ![ gebied van Taken ](assets/classic-assignmens-area-on-edit-box-350x119.png)
 
 1. Voer een van de volgende handelingen uit:
 

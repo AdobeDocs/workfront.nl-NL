@@ -2,23 +2,27 @@
 content-type: overview;reference
 product-area: projects
 navigation-topic: projects-navigation-topic
-title: Problemen
-description: De volgende secties bevatten informatie over het beheren en converteren van problemen in Adobe Workfront.
+title: 'Problemen: index van artikelen'
+description: Tijdens het werken aan een project, zou u kunnen ontdekken dat de onverwachte gebeurtenissen zich voordoen. U kunt die onverwachte gebeurtenissen als kwesties voor een bepaald project of voor een taak registreren. Deze sectie bevat de volgende subsecties die beschrijven hoe te om kwesties in Adobe Workfront te gebruiken.
 author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: 3615f31e-72a1-4c85-b093-c6f8295e7fda
-source-git-commit: b08377e539b04e896e84d17f46d2c941b0f66731
+source-git-commit: 0542587bb3254dec5664de493c1c321528cf7f3e
 workflow-type: tm+mt
-source-wordcount: '27'
+source-wordcount: '106'
 ht-degree: 0%
 
 ---
 
-# Problemen
+# Problemen: artikelindex
 
-Deze sectie bevat de volgende subsecties:
+<!--Audited: 08/2025-->
 
-* [&#x200B; Bekeerling kwesties &#x200B;](../../manage-work/issues/convert-issues/convert-issues-overview.md)
-* [&#x200B; informatie van de Uitgave &#x200B;](../../manage-work/issues/issue-information/issue-info-overview.md)
-* [Problemen beheren](../../manage-work/issues/manage-issues/manage-issues-overview.md)
+Tijdens het werken aan een project, zou u kunnen ontdekken dat de onverwachte gebeurtenissen zich voordoen. U kunt die onverwachte gebeurtenissen als kwesties voor een bepaald project of voor een taak registreren.
+
+Deze sectie bevat de volgende subsecties die beschrijven hoe te om kwesties in Adobe Workfront te gebruiken:
+
+* [ Bekeerling kwesties: artikelindex ](../../manage-work/issues/convert-issues/convert-issues-overview.md)
+* [ informatie van de Uitgave: artikelindex ](../../manage-work/issues/issue-information/issue-info-overview.md)
+* [Uitgaven beheren: artikelindex](../../manage-work/issues/manage-issues/manage-issues-overview.md)

@@ -1,25 +1,29 @@
 ---
 product-area: projects
 navigation-topic: convert-issues
-title: Een uitgave converteren naar een taak in Adobe Workfront
-description: Als er meer moet worden gedaan om een probleem op te lossen nadat het probleem is verzonden, kunt u het probleem omzetten in een taak.
+title: Een probleem converteren naar een taak
+description: Als er meer moet worden gedaan om een probleem op te lossen nadat het probleem is verzonden, kunt u het probleem converteren naar een taak in Adobe Workfront.
 author: Alina
 feature: Work Management
 exl-id: 9d8e50ab-9fed-4ded-83e1-29dc92c37171
-source-git-commit: 55c714436fe59c84251c7f4e2a46614feae92cd6
+source-git-commit: 0542587bb3254dec5664de493c1c321528cf7f3e
 workflow-type: tm+mt
-source-wordcount: '1042'
+source-wordcount: '1004'
 ht-degree: 0%
 
 ---
 
-# Een uitgave converteren naar een taak in Adobe Workfront
+# Een uitgave converteren naar een taak
 
-Als er meer moet worden gedaan om een probleem op te lossen nadat het probleem is verzonden, kunt u het probleem omzetten in een taak.
+<!--Audited: 08/2025-->
 
-Voor algemene informatie over het omzetten van kwesties, zie [&#x200B; Overzicht van het omzetten van kwesties in Adobe Workfront &#x200B;](../../../manage-work/issues/convert-issues/convert-issues.md).
+Als er meer moet worden gedaan om een probleem op te lossen nadat het probleem is verzonden, kunt u het probleem converteren naar een taak in Adobe Workfront.
+
+Voor algemene informatie over het omzetten van kwesties, zie [ Overzicht van het omzetten van kwesties in Adobe Workfront ](../../../manage-work/issues/convert-issues/convert-issues.md).
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
@@ -28,25 +32,54 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-abonnement*</td> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Werk of hoger</p> </td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td> <p>Standard</p>
+   <p>Werk of hoger</p>
+    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot problemen, taken en projecten bewerken</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan veranderen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
+   <td> <p>Toegang tot problemen, taken en projecten bewerken</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Machtigingen weergeven voor de uitgave</p> <p>Contribute-machtigingen voor het project</p> <p>U krijgt beheermachtigingen voor de taak nadat de uitgave is omgezet</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
+   <td> <p>Machtigingen weergeven voor de uitgave</p> <p>Contribute-machtigingen voor het project</p> <p>U krijgt beheermachtigingen voor de taak nadat de uitgave is omgezet</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Neem contact op met uw Workfront-beheerder om te weten te komen welk abonnement, licentietype of toegang u hebt.
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
+
+<!--Old:
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Work or higher</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations*</td> 
+   <td> <p>Edit access to Issues, Tasks, and Projects</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>View permissions to the issue</p> <p>Contribute permissions to the project</p> <p>You obtain&nbsp;Manage permissions to the task after the issue is converted</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table> -->
 
 ## Overwegingen
 
@@ -58,15 +91,15 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 1. Klik op de uitgave die u wilt converteren om naar de openingspagina van de uitgave te gaan.
 1. Klik het [!UICONTROL **Meer**] menu op de kwestie, dan [!UICONTROL **zet in Taak**] om.
 
-   ![&#x200B; Uitgave Meer menu &#x200B;](assets/qs-issue-more-menu-highlighted-350x469.png)
+   ![ Uitgave Meer menu ](assets/qs-issue-more-menu-highlighted-350x469.png)
 
    >[!TIP]
    >
-   >Als het probleem is gekoppeld aan een goedkeuringsproces of al is gekoppeld aan een oplossend object, geeft Workfront boven in het vak [!UICONTROL Convert to Project] een waarschuwing weer om aan te geven dat de goedkeuring is verwijderd of dat het oplossende object tijdens de conversie is overschreven. Voor meer informatie, zie [&#x200B; Overzicht van het omzetten van kwesties in Adobe Workfront &#x200B;](../../../manage-work/issues/convert-issues/convert-issues.md).
+   >Als het probleem is gekoppeld aan een goedkeuringsproces of al is gekoppeld aan een oplossend object, geeft Workfront boven in het vak [!UICONTROL Convert to Project] een waarschuwing weer om aan te geven dat de goedkeuring is verwijderd of dat het oplossende object tijdens de conversie is overschreven. Voor meer informatie, zie [ Overzicht van het omzetten van kwesties in Adobe Workfront ](../../../manage-work/issues/convert-issues/convert-issues.md).
 
 1. Werk de taaknaam bij in de sectie [!UICONTROL Task Name] . Standaard krijgt de taak dezelfde naam als de oorspronkelijke uitgave.
 
-   ![&#x200B; Bekeerling aan taakdoos &#x200B;](assets/convert-to-task-box-nwe.png)
+   ![ Bekeerling aan taakdoos ](assets/convert-to-task-box-nwe.png)
 
 1. Klik [!UICONTROL **Project van de Bestemming**], dan begin de naam van het project te typen waar u de nieuwe taak in het [!UICONTROL **gebied van het Project van de Bestemming**] wilt plaatsen en het selecteren wanneer het in de lijst toont. Het project van de kwestie wordt geselecteerd door gebrek.
 
@@ -88,8 +121,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
      >
      >Gebruikers zonder toegang of machtigingen om problemen te verwijderen, kunnen de uitgave niet verwijderen omdat ze deze converteren, ongeacht de status van deze instelling. Voor informatie over toegang en toestemmingen tot kwesties, zie:
      >   
-     >   * [&#x200B; de toegang van de Verlening tot kwesties &#x200B;](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md)
-     >   * [&#x200B; Deel een kwestie &#x200B;](../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md)
+     >   * [ de toegang van de Verlening tot kwesties ](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md)
+     >   * [ Deel een kwestie ](../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md)
      >   
      >
 
@@ -104,16 +137,16 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
      >[!NOTE]
      >
      >
-     >Welke opties hier worden weergegeven, is afhankelijk van de configuratie die de Workfront-beheerder heeft opgegeven voor iedereen in het systeem. Voor meer informatie, zie [&#x200B; taak voor het hele systeem vormen en voorkeur uitgeven &#x200B;](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+     >Welke opties hier worden weergegeven, is afhankelijk van de configuratie die de Workfront-beheerder heeft opgegeven voor iedereen in het systeem. Voor meer informatie, zie [ taak voor het hele systeem vormen en voorkeur uitgeven ](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
      >
-     >Of, als de top-level groepen in uw organisatie hen afzonderlijk vormden, hangen de opties die hier tonen af van welke groep met het project wordt geassocieerd u in stap 6 selecteerde. Voor meer informatie, zie [&#x200B; taak vormen en uitgiftevoorkeur voor een groep &#x200B;](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md).
+     >Of, als de top-level groepen in uw organisatie hen afzonderlijk vormden, hangen de opties die hier tonen af van welke groep met het project wordt geassocieerd u in stap 6 selecteerde. Voor meer informatie, zie [ taak vormen en uitgiftevoorkeur voor een groep ](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md).
 
 1. (Facultatief) klik [!UICONTROL **Aangepaste Forms**] en maak een douaneformulier voor de nieuwe taak vast.
 
    >[!TIP]
    >
    >* Als een aangepast formulier voor meerdere objecten dat aan de uitgave is gekoppeld, is geconfigureerd voor gebruik met zowel uitgaven als taken, blijft alle informatie die in het formulier is opgeslagen behouden wanneer u de conversie uitvoert als de velden zowel voor de uitgave als voor de aangepaste formulieren van de taak bestaan.
-   >* Als een aangepast formulier met meerdere objecten en een berekend veld aan de uitgave en de taak is gekoppeld, moeten de uitgave en de taak compatibel zijn met alle velden waarnaar wordt verwezen in de berekende aangepaste velden van het formulier. Als er sprake is van incompatibiliteit, wordt u gewaarschuwd dat u aanpassingen moet aanbrengen. Voor meer informatie, zie [&#x200B; berekende gebieden aan een vorm &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) toevoegen.
+   >* Als een aangepast formulier met meerdere objecten en een berekend veld aan de uitgave en de taak is gekoppeld, moeten de uitgave en de taak compatibel zijn met alle velden waarnaar wordt verwezen in de berekende aangepaste velden van het formulier. Als er sprake is van incompatibiliteit, wordt u gewaarschuwd dat u aanpassingen moet aanbrengen. Voor meer informatie, zie [ berekende gebieden aan een vorm ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) toevoegen.
    >* Als voor het doelproject standaardformulieren zijn gedefinieerd in het veld Standaard aangepaste Forms voor taak bij het bewerken van het project, worden deze taakformulieren ook toegevoegd aan de nieuwe taak. Aangepaste velden die veel voorkomen tussen de oorspronkelijke uitgave en de velden op de standaardtaakformulieren, worden vooraf ingevuld met informatie uit de uitgiftevelden.
 
 
@@ -125,13 +158,13 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
    Het probleem is nu gekoppeld aan de nieuwe taak voor het project dat u hebt gekozen en wordt voltooid zodra de taak is voltooid, als u de oorspronkelijke uitgave wilt behouden.
 
-   Sommige probleemvelden worden overgebracht naar de taak. Voor informatie, zie de [&#x200B; oorspronkelijke de uitgevende informatie van de Mening over projecten en taken &#x200B;](#view-original-issue-information-on-projects-and-tasks) sectie in dit artikel.
+   Sommige probleemvelden worden overgebracht naar de taak. Voor informatie, zie de [ oorspronkelijke de uitgevende informatie van de Mening over projecten en taken ](#view-original-issue-information-on-projects-and-tasks) sectie in dit artikel.
 
 1. (Optioneel) Ga desgewenst verder met het bewerken van de taak.
 
 ## Originele informatie over projecten en taken weergeven {#view-original-issue-information-on-projects-and-tasks}
 
-U kunt de originele uitgifteinformatie in project en taaklijsten en rapporten of in het gebied van de Details van het Project bekijken. Voor informatie over de bouw van rapporten, zie [&#x200B; een douanerapport &#x200B;](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) creëren.
+U kunt de originele uitgifteinformatie in project en taaklijsten en rapporten of in het gebied van de Details van het Project bekijken. Voor informatie over de bouw van rapporten, zie [ een douanerapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) creëren.
 
 In de volgende tabel wordt aangegeven welke velden zichtbaar zijn van de omgezette projecten en taken.
 

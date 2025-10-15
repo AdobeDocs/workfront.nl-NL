@@ -6,9 +6,9 @@ description: Lees dit artikel om te leren hoe u subtaken kunt maken voor bestaan
 author: Lisa
 feature: Agile
 exl-id: c6610616-80e5-4ded-9d23-63f15536e45c
-source-git-commit: 452f8ddc5268a0d67e32090d166199f2fad7dbc7
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
-source-wordcount: '289'
+source-wordcount: '281'
 ht-degree: 0%
 
 ---
@@ -31,8 +31,6 @@ Houd rekening met het volgende wanneer u subtaken maakt voor bestaande artikelen
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -40,23 +38,22 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licentie</td> 
-   <td> <p>Nieuw: [!UICONTROL Standard]</p> 
-   of
-   <p>Huidig: [!UICONTROL Work] of hoger</p> </td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td> <p>Standard</p> 
+   <p>Werk of hoger</p> </td> 
   </tr>
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td>[!UICONTROL Contribute] of [!UICONTROL Manage] toegang hebben tot de taak waarop de subtaak is uitgevoerd</td> 
+   <td>Contribute of Manage toegang tot de taak waarop de subtaak zich bevindt</td> 
   </tr> 
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -64,4 +61,4 @@ Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van d
 
 1. Ga naar de [!UICONTROL Kanban] -board die het artikel bevat waar u een subtaak wilt toevoegen.
 1. Klik op de naam van de taak in de artikeltegel op het [!UICONTROL Kanban] -bord.
-1. Voeg een subtask aan de taak toe zoals u in een andere taaklijst binnen [!DNL Workfront] zou doen, zoals die in [&#x200B; wordt beschreven creeer subtasks &#x200B;](../../manage-work/tasks/create-tasks/create-subtasks.md).
+1. Voeg een subtask aan de taak toe zoals u in een andere taaklijst binnen [!DNL Workfront] zou doen, zoals die in [ wordt beschreven creeer subtasks ](../../manage-work/tasks/create-tasks/create-subtasks.md).

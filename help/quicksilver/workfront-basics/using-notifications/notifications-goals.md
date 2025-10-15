@@ -6,16 +6,16 @@ description: 'Meldingen: Doelstellingen'
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 12e66711-4438-4fcf-af79-7fcc2c3b1522
-source-git-commit: 585a65c497211c84cffafeeaa5016218fd66acd2
+source-git-commit: 770e20cf9e32ac9884f5eb320f7067fcf162c63d
 workflow-type: tm+mt
-source-wordcount: '389'
+source-wordcount: '345'
 ht-degree: 0%
 
 ---
 
 # Meldingen: Doelstellingen
 
-U kunt uw e-mailmeldingen inschakelen voor gebeurtenissen in [!DNL Adobe Workfront Goals] in uw profiel. Een gebruiker met een [!UICONTROL Plan] -licentie kan deze ook inschakelen voor andere gebruikers. Voor informatie, zie [[!DNL Adobe Workfront]  berichten &#x200B;](../../workfront-basics/using-notifications/wf-notifications.md).
+U kunt uw e-mailmeldingen inschakelen voor gebeurtenissen in [!DNL Adobe Workfront Goals] in uw profiel. Een gebruiker met een [!UICONTROL Plan] -licentie kan deze ook inschakelen voor andere gebruikers. Voor informatie, zie [[!DNL Adobe Workfront]  berichten ](../../workfront-basics/using-notifications/wf-notifications.md).
 
 ## Toegangsvereisten
 
@@ -23,39 +23,34 @@ U kunt uw e-mailmeldingen inschakelen voor gebeurtenissen in [!DNL Adobe Workfro
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: because there are conditions for who sees this, I added this from the How To articles/ template although this is not a How To. But I like the format, so I thought keeping it consistent might help users. We may decide to update this when we have access and prereq for overview-type articles)</p>
 -->
 
-+++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
-
-U moet het volgende hebben:
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront plan*]</strong></td> 
-   <td> <p>[!UICONTROL Pro] of hoger</p> </td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront package]</strong></td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licentie*</strong></td> 
-   <td> <p>[!UICONTROL Request] of hoger</p> </td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] licentie</strong></td> 
+   <td>
+   <p>Medewerker of hoger</p>
+    <p>Aanvraag of hoger</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Product</strong></td> 
+   <td role="rowheader"><strong>Aanvullende producten</strong></td> 
    <td>[!DNL Workfront Goals] <p>Voor informatie over [!DNL Workfront Goals], zie <a href="../../workfront-goals/goal-management/wf-goals-overview.md" class="MCXref xref">[!DNL Adobe Workfront Goals] overzicht </a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Configuraties op toegangsniveau*</strong></td> 
-   <td> <p>[!UICONTROL View] toegang tot [!DNL Goals] of hoger</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de [!DNL Workfront] -beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een [!DNL Workfront] beheerder uw toegangsniveau kan veranderen, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
-  </tr> <!--
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td role="rowheader">Object permissions</td> 
-    <td> <p>[Insert permissions needed]</p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
-   </tr>
-  --> 
+   <td> <p>[!UICONTROL View] toegang tot [!DNL Goals] of hoger</p></td> 
+  </tr>
  </tbody> 
 </table>
 
-&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw [!DNL Workfront] beheerder.
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -66,15 +61,15 @@ U moet het volgende hebben:
 
 ## [!DNL Goals] -meldingen in het [!UICONTROL user profile] -gebied
 
-De berichten in de volgende lijst waarschuwen u over gebeurtenissen die in [!DNL Workfront Goals] gebeuren, zoals iemand die u een doel, een resultaat, of een activiteit toewijst of iemand die een update op een doel, een resultaat, of een activiteit maakt die u bezit. Voor informatie over het vormen van welke berichten u ontvangt, zie [&#x200B; uw eigen e-mailberichten wijzigen &#x200B;](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+De berichten in de volgende lijst waarschuwen u over gebeurtenissen die in [!DNL Workfront Goals] gebeuren, zoals iemand die u een doel, een resultaat, of een activiteit toewijst of iemand die een update op een doel, een resultaat, of een activiteit maakt die u bezit. Voor informatie over het vormen van welke berichten u ontvangt, zie [ uw eigen e-mailberichten wijzigen ](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
-![&#x200B; de voorkeur van Meldingen &#x200B;](assets/goals-notifications-preferences-350x114.png)
+![ de voorkeur van Meldingen ](assets/goals-notifications-preferences-350x114.png)
 
 >[!NOTE]
 >
 >Instant-meldingen voor [!DNL Goals] zijn standaard uitgeschakeld. U kunt dagelijkse meldingen niet in- of uitschakelen en u ontvangt geen dagelijkse samenvattingse-mails voor de gebeurtenissen in deze categorie. U kunt afzonderlijke expresmeldingen voor de categorie [!DNL Goals] in- of uitschakelen.
 
-Zie ook [&#x200B; de berichten van de Gebeurtenis &#x200B;](../../workfront-basics/using-notifications/event-notifications.md).
+Zie ook [ de berichten van de Gebeurtenis ](../../workfront-basics/using-notifications/event-notifications.md).
 
 <table style="table-layout:auto"> 
  <col> 

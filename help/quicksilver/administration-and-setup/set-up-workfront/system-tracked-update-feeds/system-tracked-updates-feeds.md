@@ -10,7 +10,7 @@ feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: b43b8583-41cb-4a96-8e61-77208eaa219a
-source-git-commit: 4448d2fc6d0230ef2f53ad0ea7ae0f10f52fcac4
+source-git-commit: c8987d036e1c1324618cb53ebcbb8fd7e4bcc6a4
 workflow-type: tm+mt
 source-wordcount: '118'
 ht-degree: 0%
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 # Door het systeem bijgehouden updateffeeds: artikelindex
 
-<!--Audited: April, 2024-->
+<!--Audited: 04/2024-->
 
 Adobe Workfront registreert automatisch de activiteit die op bepaalde voorwerpen in hun [!UICONTROL Updates] sectie plaatsvindt als systeemupdate. Een systeemupdate bevat een korte beschrijving van het type wijziging dat is opgetreden met het object. [!DNL Workfront] beheerders kunnen bepalen welk type wijzigingen het systeem moet bijhouden in de sectie [!UICONTROL Updates] .
 

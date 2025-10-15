@@ -6,9 +6,9 @@ description: U kunt slimme toewijzingen gebruiken om te bepalen wie de beste geb
 author: Lisa
 feature: Work Management
 exl-id: 073a3234-3156-4b4f-a3e1-dbb32d61068a
-source-git-commit: a0b635953245cf307b558d343ad234a27c96da94
+source-git-commit: d0be569333b0454e26f4d0de1078b0425cf81707
 workflow-type: tm+mt
-source-wordcount: '403'
+source-wordcount: '380'
 ht-degree: 0%
 
 ---
@@ -23,40 +23,38 @@ De slimme taken zijn suggesties voor gebruikers, rollen, of teams die Adobe Work
 
 <!--<span class="preview">There are two separate algorithms in Workfront that calculate smart assignments that work differently for tasks and for issues.</span> -->
 
-Voor meer informatie over de criteria die in het bepalen van slimme taken worden gebruikt, zie [&#x200B; Slim toewijzingsoverzicht &#x200B;](/help/quicksilver/manage-work/tasks/assign-tasks/smart-assignments.md).
+Voor meer informatie over de criteria die in het bepalen van slimme taken worden gebruikt, zie [ Slim toewijzingsoverzicht ](/help/quicksilver/manage-work/tasks/assign-tasks/smart-assignments.md).
 
 ## Toegangsvereisten
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
-
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan</td> 
+   <td>Adobe Workfront-pakket</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie</td> 
-   <td> <p>Nieuw: Standaard</p>
-      of
-      <p>Huidig: Werk of hoger</p> </td> 
+   <td>Adobe Workfront-licentie</td> 
+   <td> <p>Standard</p>
+   <p>Werk of hoger</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau</td> 
-   <td> <p>Toegang tot taken en problemen bewerken</p> <p>Toegang tot projecten weergeven of vergroten</p>  </td> 
+   <td>Configuraties op toegangsniveau</td> 
+   <td> <p>Toegang tot taken en problemen bewerken</p> <p>Toegang tot projecten weergeven of vergroten</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Contribute of hoger met de mogelijkheid om taken en uitgaven toe te wijzen</p> </td> 
-  </tr> 
- </tbody> 
+   <td>Objectmachtigingen</td>
+   <td>Contribute of hoger met de mogelijkheid om taken en uitgaven toe te wijzen</td>
+  </tr>
+ </tbody>
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -84,9 +82,9 @@ Slimme toewijzingen zijn beschikbaar op de meeste locaties waar u toewijzingen k
    <!--* <span class="preview">**Suggested assignments**: Displays assignments identified in the first phase of the task smart assignment algorithm.</span> -->
    * **Gebruikers en teams** of **de rollen van de Baan** <!--or **Rate card job roles**: Assignments identified in the second phase of the task smart assignment's algorithm calculation.-->
 
-   ![&#x200B; Slim toewijzingsvoorbeeld in taaklijst &#x200B;](assets/smart-assignments-task-list.png)
+   ![ Slim toewijzingsvoorbeeld in taaklijst ](assets/smart-assignments-task-list.png)
 
-   Voor meer informatie, zie [&#x200B; Slim toewijzingsoverzicht &#x200B;](../../../manage-work/tasks/assign-tasks/smart-assignments.md).
+   Voor meer informatie, zie [ Slim toewijzingsoverzicht ](../../../manage-work/tasks/assign-tasks/smart-assignments.md).
 
 1. Selecteer de bron in de lijst met aanbevelingen door op de naam ervan te klikken.
 

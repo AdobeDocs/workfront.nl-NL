@@ -8,9 +8,9 @@ feature: System Setup and Administration
 role: Admin
 author: Lisa
 exl-id: 149c08de-fd3a-465a-afd1-0b53012d30d8
-source-git-commit: dc820b4012fec494ce5ebb1baefb4ee0df214916
+source-git-commit: dadee63c9c7bfb418566d19ee559f1f2a222cb05
 workflow-type: tm+mt
-source-wordcount: '647'
+source-wordcount: '626'
 ht-degree: 0%
 
 ---
@@ -27,11 +27,11 @@ Als Adobe Workfront-beheerder kunt u wisselkoersen instellen in Workfront. Dit o
 * Opwaardering van de wisselkoersen in Workfront in overeenstemming met de huidige wisselkoersen
 * De wisselkoersen voor meerdere valuta&#39;s configureren (hierdoor kunnen gebruikers een standaardvaluta kiezen voor afzonderlijke projecten)
 
-Wisselkoersen beïnvloeden alle financiële elementen in Workfront. De basisvaluta is de standaardvaluta voor alle projecten in het hele systeem, tenzij deze voor een bepaald project of een bepaalde functie wordt overschreven. De huidige basis of de standaardmunt wordt vermeld met een pictogram ![&#x200B; Standaard muntpictogram &#x200B;](assets/default-icon.png) in de lijst. U kunt ook selecteren om financiële informatie in valuta&#39;s beschikbaar in uw systeem te tonen die verschillend zijn dan de basisvaluta of die van het project wanneer het bekijken van hen in een rapport of een lijst. Voor meer informatie, zie [&#x200B; de rapporten van financiële gegevens met unieke wisselkoersen &#x200B;](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-financial-data-reports-unique-exchange-rates.md) creëren.
+Wisselkoersen beïnvloeden alle financiële elementen in Workfront. De basisvaluta is de standaardvaluta voor alle projecten in het hele systeem, tenzij deze voor een bepaald project of een bepaalde functie wordt overschreven. De huidige basis of de standaardmunt wordt vermeld met een pictogram ![ Standaard muntpictogram ](assets/default-icon.png) in de lijst. U kunt ook selecteren om financiële informatie in valuta&#39;s beschikbaar in uw systeem te tonen die verschillend zijn dan de basisvaluta of die van het project wanneer het bekijken van hen in een rapport of een lijst. Voor meer informatie, zie [ de rapporten van financiële gegevens met unieke wisselkoersen ](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-financial-data-reports-unique-exchange-rates.md) creëren.
 
 Raadpleeg de volgende artikelen voor meer informatie over het overschrijven van de basisvaluta in Workfront voor projecten en functies:
 
-* [&#x200B; verander de projectmunt &#x200B;](../../../manage-work/projects/project-finances/change-project-currency.md)
+* [ verander de projectmunt ](../../../manage-work/projects/project-finances/change-project-currency.md)
 * [Taakrollen maken en beheren](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md)
 
 De manier waarop u wisselkoersen instelt, bepaalt of gebruikers de wisselkoersen voor een bepaald project kunnen wijzigen.
@@ -44,32 +44,27 @@ De manier waarop u wisselkoersen instelt, bepaalt of gebruikers de wisselkoersen
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan</td> 
-   <td>Alle</td> 
+   <td>Adobe Workfront-pakket</td> 
+   <td><p>Alle</p></td> 
   </tr> 
   <tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront-licentie</td> 
-   <td><p>Nieuw: Standaard</p>
-       <p>of</p>
-       <p>Huidig: Plan</p></td>
-  </tr> 
+   <td>Adobe Workfront-licentie</td> 
+   <td><p>Standard</p>
+       <p>Plan</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau</td> 
-   <td>[!UICONTROL System Administrator]</td>
+   <td>Configuraties op toegangsniveau</td> 
+   <td>Systeembeheerder</td> 
   </tr> 
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -102,11 +97,11 @@ Gebruikers kunnen de standaardvaluta voor een project wijzigen als aan de volgen
 
 * De gebruiker heeft een Standaard of vergunning van het Plan met de administratieve toegang tot de Tarieven van de Uitwisseling.
 
-  Voor meer informatie, zie [&#x200B; gebruikers administratieve toegang van de Verlening tot bepaalde gebieden &#x200B;](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
+  Voor meer informatie, zie [ gebruikers administratieve toegang van de Verlening tot bepaalde gebieden ](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 
 * Op het Workfront-systeem zijn meerdere valuta&#39;s ingeschakeld.
 
-Voor informatie over hoe de gebruikers de standaardmunt op een bepaald project kunnen veranderen, zie [&#x200B; Verandering de projectmunt &#x200B;](../../../manage-work/projects/project-finances/change-project-currency.md).
+Voor informatie over hoe de gebruikers de standaardmunt op een bepaald project kunnen veranderen, zie [ Verandering de projectmunt ](../../../manage-work/projects/project-finances/change-project-currency.md).
 
 ## Gebruikers toestaan de standaardvaluta voor een taakrol te wijzigen
 
@@ -114,11 +109,11 @@ Gebruikers kunnen de valuta voor een taakrol wijzigen als aan de volgende voorwa
 
 * De gebruiker heeft een Standard- of Plan-licentie met beheertoegang tot Job Roles.
 
-  Voor meer informatie, zie [&#x200B; gebruikers administratieve toegang van de Verlening tot bepaalde gebieden &#x200B;](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
+  Voor meer informatie, zie [ gebruikers administratieve toegang van de Verlening tot bepaalde gebieden ](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 
 * In het Workfront-systeem zijn meerdere valuta&#39;s ingeschakeld.
 
-Voor informatie over hoe de gebruikers de standaardmunt op een bepaalde baanrol kunnen veranderen, zie [&#x200B; baanrollen &#x200B;](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md) creëren en beheren.
+Voor informatie over hoe de gebruikers de standaardmunt op een bepaalde baanrol kunnen veranderen, zie [ baanrollen ](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md) creëren en beheren.
 
 
 <!--The default currency is the currency that is used as the default for all projects and reports throughout the system. The current default is indicated with an icon ![Default currency icon](assets/default-icon.png).-->

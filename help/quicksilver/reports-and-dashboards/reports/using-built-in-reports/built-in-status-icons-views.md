@@ -6,9 +6,9 @@ description: U kunt het veld Ingebouwde statuspictogrammen als een kolom in uw w
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 7831d5c1-e982-4780-a5a8-54dc6decb3a1
-source-git-commit: 0022892cabb9a44fb21e33d88148b098c937f388
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '1213'
+source-wordcount: '1205'
 ht-degree: 0%
 
 ---
@@ -34,44 +34,36 @@ Overweeg het volgende:
 
 * Als een van de items die door de pictogrammen worden vertegenwoordigd, niet aanwezig is in het object, wordt het pictogram dat het ontbrekende item vertegenwoordigt, grijs weergegeven in de kolom Statuspictogrammen in plaats van in een gekleurde afbeelding.
 
-  ![&#x200B; task_status_icons.png &#x200B;](assets/task-status-icons.png)
+  ![ task_status_icons.png ](assets/task-status-icons.png)
 
-  Voor meer informatie, zie het [&#x200B; Overzicht van de Pictogrammen van de Status en sectie van Vlaggen &#x200B;](#overview-of-status-icons-and-flags) in dit artikel.
+  Voor meer informatie, zie het [ Overzicht van de Pictogrammen van de Status en sectie van Vlaggen ](#overview-of-status-icons-and-flags) in dit artikel.
 
-* In sommige meningen, wordt het **gebied van de Pictogrammen van de Status 0&rbrace; genoemd** Vlaggen **of** Pictogrammen van de Mening **.**\
+* In sommige meningen, wordt het **gebied van de Pictogrammen van de Status 0} genoemd** Vlaggen **of** Pictogrammen van de Mening **.**\
   U kunt de vormgeving van de pictogrammen in het veld Statuspictogrammen niet aanpassen.
 
 * U kunt het aantal pictogrammen niet bewerken in het veld Statuspictogrammen.
 
 ## Toegangsvereisten
 
-+++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
-
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-abonnement*</td> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie*</td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
    <td> 
-      <p>Nieuw:</p>
-         <ul>
-         <li><p>Medewerker of hoger</p></li>
-         </ul>
-      <p>Huidige:</p>
-         <ul>
-         <li><p>Aanvraag of hoger</p></li>
-         </ul>
+      <p>Medewerker of hoger</p>
+      <p>Aanvraag of hoger</p>
    </td>
   </tr>
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau*</td> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
    <td> <p>Toegang tot filters, weergaven, groepen bewerken</p> <p>Toegang tot rapporten, dashboards, kalenders bewerken om kolommen aan een rapport toe te voegen</p></td> 
   </tr> 
   <tr> 
@@ -81,7 +73,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-*For informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -103,8 +95,8 @@ Het veld Statuspictogrammen toevoegen aan een aangepaste weergave die u vanaf nu
    * Uitgaven
    * Documenten
    * Gebruikers\
-     Slechts hebben deze voorwerpen het **beschikbare gebied van de Pictogrammen van de Status 0&rbrace; &lbrace;.**\
-     Voor informatie over objecten lijsten, zie [&#x200B; begonnen worden met lijsten in Adobe Workfront &#x200B;](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
+     Slechts hebben deze voorwerpen het **beschikbare gebied van de Pictogrammen van de Status 0} {.**\
+     Voor informatie over objecten lijsten, zie [ begonnen worden met lijsten in Adobe Workfront ](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
 
 1. Van het **drop-down menu van de Mening**, uitgezochte **Nieuwe Mening**.
 
@@ -125,7 +117,7 @@ Het veld Statuspictogrammen toevoegen aan een aangepaste weergave die u vanaf nu
 1. (Optioneel) Plaats de muisaanwijzer op een pictogram om te begrijpen wat het vertegenwoordigt.
 1. (Optioneel) Klik op een pictogram om naar het gebied van het object te gaan dat wordt weergegeven.\
    Niet alle pictogrammen zijn koppelingen naar objecten.\
-   Voor een volledige lijst van attributen voor elk pictogram, zie het [&#x200B; Overzicht van de Pictogrammen van de Status en sectie van Vlaggen &#x200B;](#overview-of-status-icons-and-flags).
+   Voor een volledige lijst van attributen voor elk pictogram, zie het [ Overzicht van de Pictogrammen van de Status en sectie van Vlaggen ](#overview-of-status-icons-and-flags).
 
 ## Overzicht van statuspictogrammen en vlaggen {#overview-of-status-icons-and-flags}
 

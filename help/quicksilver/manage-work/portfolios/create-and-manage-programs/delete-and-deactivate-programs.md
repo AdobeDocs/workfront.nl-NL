@@ -5,7 +5,7 @@ title: Programma's verwijderen en deactiveren
 description: Een programma vertegenwoordigt een inzameling van projecten die een gemeenschappelijke strategie, een doelstelling, of een doel delen die projectgrenzen overschrijden. Programma's zijn een onderverdeling van portefeuilles en kunnen niet bestaan buiten een portefeuille. De programma's delen typisch de zelfde middelen zoals andere programma's binnen de zelfde portefeuille. U kunt een programma verwijderen of deactiveren wanneer dit irrelevant wordt.
 author: Alina
 feature: Work Management, Strategic Planning
-source-git-commit: 03c1f17504846fc4b8c4114ddc32df687281bc07
+source-git-commit: 85ccee879fd4ba5a80b6e885458839901f83d26e
 workflow-type: tm+mt
 source-wordcount: '420'
 ht-degree: 0%
@@ -32,7 +32,7 @@ We raden u aan een portfolio te deactiveren in plaats van het te verwijderen om 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td>
+   <td role="rowheader">[!DNL Adobe Workfront] package</td>
 
 <td> <p>Alle</p> </td> 
   </tr> 
@@ -51,7 +51,7 @@ We raden u aan een portfolio te deactiveren in plaats van het te verwijderen om 
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

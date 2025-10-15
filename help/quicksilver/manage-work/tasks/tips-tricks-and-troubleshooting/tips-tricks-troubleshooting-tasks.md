@@ -1,14 +1,13 @@
 ---
-title: Tips, trucs en probleemoplossing voor taken
-description: Tips, trucs en probleemoplossing voor taken
+title: Tips, trucs en het oplossen van problemen voor Taken
+description: Deze sectie bevat artikelen die u helpen enkele van de vaakst gestelde vragen te behandelen of gemeenschappelijke fouten problemen op te lossen wanneer het werken met taken in Adobe Workfront.
 author: Alina
-draft: Probably
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: c93388d2-3166-4beb-9156-e309041ed109
-source-git-commit: b08377e539b04e896e84d17f46d2c941b0f66731
+source-git-commit: c1b8af0d8a95714bb597db7a429794773358cf05
 workflow-type: tm+mt
-source-wordcount: '33'
+source-wordcount: '52'
 ht-degree: 0%
 
 ---
@@ -17,5 +16,5 @@ ht-degree: 0%
 
 Deze sectie bevat de volgende artikelen:
 
-* [&#x200B; Veelgestelde vragen van Taken &#x200B;](../../../manage-work/tasks/tips-tricks-and-troubleshooting/tasks-faqs.md)
+* [ Veelgestelde vragen van Taken ](../../../manage-work/tasks/tips-tricks-and-troubleshooting/tasks-faqs.md)
 * [Geprojecteerde duur komt niet overeen met geplande duur](../../../manage-work/tasks/tips-tricks-and-troubleshooting/projected-and-planned-durations-dont-match.md)

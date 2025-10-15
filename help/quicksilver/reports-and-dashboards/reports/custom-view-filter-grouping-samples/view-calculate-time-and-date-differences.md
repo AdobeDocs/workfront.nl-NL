@@ -7,9 +7,9 @@ description: Leer tijd- en datumverschillen te berekenen.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 548dd91f-02bc-43ed-8322-d0facf3488f0
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '621'
+source-wordcount: '599'
 ht-degree: 0%
 
 ---
@@ -35,26 +35,24 @@ U kunt het verschil tussen het volgende berekenen:
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan</td> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie</td> 
-   <td> <p>Nieuw: </p><ul><li><p>Medewerker om een weergave te wijzigen </p></li><li>
-   <p>Standaard voor het wijzigen van een rapport</p></li></ul><p>of</p><p>Huidige:</p><ul><li><p>Verzoek om een weergave te wijzigen </p></li><li>
-   <p>Plan om een rapport te wijzigen</p> </li><ul></td> 
+   <td> 
+   <p>Medewerker of verzoek om een filter te wijzigen </p>
+   <p>Standaard of Plan om een rapport te wijzigen</p>
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau</td> 
-   <td> <p>Toegang tot rapporten, dashboards, kalenders bewerken om een rapport te wijzigen</p> <p>Toegang tot filters, weergaven en groepen bewerken om een weergave te wijzigen</p> </td> 
-  </tr>  
+   <td> <p>Toegang tot rapporten, dashboards, kalenders bewerken om een rapport te wijzigen</p> <p>Toegang tot filters, weergaven en groepen bewerken om een filter te wijzigen</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
    <td> <p>Machtigingen beheren voor een rapport</p>  </td> 
@@ -62,7 +60,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -70,7 +68,7 @@ Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van d
 
 U kunt bijvoorbeeld het verschil berekenen tussen de Geplande Voltooiingsdatum en de Werkelijke Voltooiingsdatum van een taak.
 
-![&#x200B; de datumverschil van de Mening &#x200B;](assets/view-planned-actual-completion-dates-datediff-column-new.png)
+![ de datumverschil van de Mening ](assets/view-planned-actual-completion-dates-datediff-column-new.png)
 
 1. Ga naar een takenlijst.
 1. Van het **drop-down menu van de Mening**, klik **Nieuwe Mening**.
@@ -97,10 +95,10 @@ U kunt bijvoorbeeld het verschil berekenen tussen de Geplande Voltooiingsdatum e
 
 ## Het tijd- en datumverschil berekenen tussen het veld op een object en een ander veld op een bovenliggend object
 
-Voor een lijst van voorwerpen en hun ouders, zie het &quot;Begrijpen van de Interdependentie en de Hiërarchie van de sectie van Objecten&quot;in [&#x200B; voorwerpen in Adobe Workfront &#x200B;](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md) begrijpen.\
+Voor een lijst van voorwerpen en hun ouders, zie het &quot;Begrijpen van de Interdependentie en de Hiërarchie van de sectie van Objecten&quot;in [ voorwerpen in Adobe Workfront ](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md) begrijpen.\
 Bijvoorbeeld, kunt u het verschil tussen de Geplande Datum van Voltooiing van een taak en de Geplande Datum van Voltooiing van zijn oudertaak, of van het project berekenen dat de taak is.
 
-![&#x200B; Mening gepland verschil van de voltooiingsdatum &#x200B;](assets/view-project-planned-task-planned-completion-dates-datediff-column-new.png)
+![ Mening gepland verschil van de voltooiingsdatum ](assets/view-project-planned-task-planned-completion-dates-datediff-column-new.png)
 
 1. Ga naar een takenlijst.
 1. Van het **drop-down menu van de Mening**, klik **Nieuwe Mening**.

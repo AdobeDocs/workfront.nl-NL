@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 484aa52e-7f87-40ab-a5e9-3b0c55232189
-source-git-commit: b886284eb44c2154987019655ff07cdeb0e1ae22
+source-git-commit: 985f1aa11ad1d5efc8d043907d60ad5f5c1bba13
 workflow-type: tm+mt
-source-wordcount: '337'
+source-wordcount: '324'
 ht-degree: 0%
 
 ---
@@ -23,21 +23,19 @@ Prioriteiten geven de werkitems weer die aan u zijn toegewezen. U kunt geen werk
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
-U moet het volgende hebben:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-abonnement*</td> 
-   <td> <p> Alle</p> </td> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licenties*</td> 
    <td> 
-   <p>Nieuw: Medewerker of hoger</p> 
-   <p>Huidig: Verzoek of hoger</p> </td> 
+   <p>Medewerker of hoger</p> 
+   <p>Aanvraag of hoger</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
@@ -46,7 +44,7 @@ U moet het volgende hebben:
  </tbody> 
 </table>
 
-Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of toegang u hebt.
+Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -54,14 +52,14 @@ Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licen
 
 {{step1-to-priorities}}
 
-1. Beweeg over de naam, dan klik **Meer** ![&#x200B; Meer pictogram &#x200B;](assets/more-icon.png) pictogram.
+1. Beweeg over de naam, dan klik **Meer** ![ Meer pictogram ](assets/more-icon.png) pictogram.
 1. Klik **uploaden**.
-   ![&#x200B; Update, logboektijd, en upload &#x200B;](assets/update-log-upload.png)
+   ![ Update, logboektijd, en upload ](assets/update-log-upload.png)
 1. (Facultatief) in **uploadt Dossiers** doos, selecteer een omslag.
 1. Sleep het bestand of Cmd/Ctrl + V om het van het klembord te plakken
 of
 Klik **toevoegen dossiers** om dossiers te doorbladeren of dossiers van een leverancier van Document Cloud in te voeren.
-   ![&#x200B; voeg dossiers &#x200B;](assets/add-files.png) toe
+   ![ voeg dossiers ](assets/add-files.png) toe
 1. (Optioneel) Voeg een opmerking toe.
 1. (Optioneel) Voeg meer bestanden toe.
 
@@ -80,7 +78,7 @@ Klik **toevoegen dossiers** om dossiers te doorbladeren of dossiers van een leve
 1. Sleep het bestand of Cmd/Ctrl + V om het van het klembord te plakken
 of
 Klik **toevoegen dossiers** om dossiers te doorbladeren of dossiers van een leverancier van Document Cloud in te voeren.
-   ![&#x200B; voeg dossiers &#x200B;](assets/add-files.png) toe
+   ![ voeg dossiers ](assets/add-files.png) toe
 1. (Optioneel) Voeg een opmerking toe.
 1. (Optioneel) Voeg meer bestanden toe.
 

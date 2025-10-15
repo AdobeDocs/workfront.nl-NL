@@ -2,43 +2,18 @@
 product-area: user-management
 navigation-topic: manage-your-workfront-account
 title: Ontvang e-mailuitnodigingen en maak een wachtwoord voor  [!DNL Adobe Workfront]
-description: Wanneer a  [!DNL Workfront]  beheerder tot een nieuwe gebruiker leidt, kan de nieuwe gebruiker een uitnodigingsE-mail ontvangen die op verscheidene factoren wordt gebaseerd.
+description: Wanneer a  [!DNL Workfront]  beheerder tot een nieuwe gebruiker leidt, kan de nieuwe gebruiker een uitnodigingsE-mail ontvangen die hen uitnodigt om een wachtwoord tot stand te brengen.
 author: Courtney
 feature: Get Started with Workfront
 exl-id: a13dbe33-f283-4732-a7f2-5a94a37855f0
-source-git-commit: a25eb28800ca8bbeeffedb521b3d72c8df71c697
+source-git-commit: c6272c7631941720e3ab1e1c80ed7d304a67d34b
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: '298'
 ht-degree: 0%
 
 ---
 
 # E-mailuitnodigingen ontvangen en een wachtwoord maken voor [!DNL Adobe Workfront]
-
-## Toegangsvereisten
-
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
-
-<table style="table-layout:auto"> 
- <col> 
- </col> 
- <col> 
- </col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
-   <td> <p>Alle</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licentie*</strong></td> 
-   <td> <p>[!UICONTROL Request] of hoger</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-Neem contact op met de [!DNL Workfront] -beheerder als u wilt weten welk abonnement- of licentietype u hebt.
-
-## E-mailuitnodigingen ontvangen
 
 Wanneer een beheerder van [!DNL Workfront] een nieuwe gebruiker maakt, kan de nieuwe gebruiker op basis van verschillende factoren een e-mailuitnodiging ontvangen:
 
@@ -47,9 +22,34 @@ Wanneer een beheerder van [!DNL Workfront] een nieuwe gebruiker maakt, kan de ni
 * Of de gebruiker toegang heeft tot andere [!DNL Adobe] -producten of een nieuwe [!DNL Adobe] -gebruiker is
 * Of de beheerder de gebruiker een e-mailuitnodiging heeft gestuurd (alleen van toepassing op organisaties die zich nog niet in de [!DNL Admin Console] bevinden)
 
-Voor meer informatie over hoe een [!DNL Workfront] beheerder e-mailuitnodigingen verzendt terwijl het creëren van nieuwe gebruikers, zie [&#x200B; e-mailuitnodigingen aan nieuwe gebruikers beheren &#x200B;](../../../administration-and-setup/manage-workfront/emails/manage-email-invitations.md).
+Voor meer informatie over hoe een [!DNL Workfront] beheerder e-mailuitnodigingen verzendt terwijl het creëren van nieuwe gebruikers, zie [ e-mailuitnodigingen aan nieuwe gebruikers beheren ](../../../administration-and-setup/manage-workfront/emails/manage-email-invitations.md).
 
-Voor meer informatie over hoe een beheerder van Workfront nieuwe gebruikers aan [!DNL Adobe Workfront] toevoegt, zie [&#x200B; gebruikers &#x200B;](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md) toevoegen.
+Voor meer informatie over hoe een beheerder van Workfront nieuwe gebruikers aan [!DNL Adobe Workfront] toevoegt, zie [ gebruikers ](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md) toevoegen.
+
+## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
+
+<table style="table-layout:auto"> 
+ <col> 
+ </col>
+ <tbody> 
+  <tr> 
+   <td>Adobe Workfront-pakket</td> 
+   <td> <p>Alle</p> </td> 
+  </tr> 
+  <tr> 
+   <td>Adobe Workfront-licentie</td> 
+   <td> 
+   <p>Medewerker of hoger</p>
+   <p>Aanvraag of hoger</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Een wachtwoord maken voor [!DNL Workfront]
 
@@ -63,7 +63,7 @@ Een wachtwoord maken voor [!DNL Workfront] met de e-mail met de uitnodiging:
 
 1. Klik op **[!UICONTROL Get Started]** in de uitnodigingse-mail van Workfront.
 
-   ![&#x200B; Nieuw gebruikersscherm van e-mailuitnodiging &#x200B;](assets/new-user-screen-from-invitation-adobe-350x292.png)
+   ![ Nieuw gebruikersscherm van e-mailuitnodiging ](assets/new-user-screen-from-invitation-adobe-350x292.png)
 
 1. Geef de volgende informatie op:\
    **[!UICONTROL First Name]**: Uw voornaam (moet worden voorgevuld).\
@@ -72,6 +72,6 @@ Een wachtwoord maken voor [!DNL Workfront] met de e-mail met de uitnodiging:
    **[!UICONTROL Password]**: kies een wachtwoord om u aan te melden bij Workfront.\
    **[!UICONTROL Confirm Password]** : bevestig uw [!DNL Workfront] -wachtwoord.
 
-1. Selecteer **[!UICONTROL I accept the Terms and Conditions]** .
+1. Selecteer **[!UICONTROL I accept the Terms and Conditions]**.
 1. Klik op **[!UICONTROL Log Me In]**.\
    Hiermee wordt het maken van je gebruikersaccount in Workfront voltooid.

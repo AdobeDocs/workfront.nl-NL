@@ -6,9 +6,9 @@ description: U kunt de uitlijning tussen twee doelen verwijderen als het niet la
 author: Alina
 feature: Workfront Goals
 exl-id: a6196356-ca11-4759-9cff-64850a60208e
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: '428'
 ht-degree: 0%
 
 ---
@@ -21,14 +21,18 @@ U kunt de uitlijning tussen twee doelen verwijderen als het niet langer logisch 
 
 Raadpleeg de volgende artikelen voor informatie over het uitlijnen van doelen:
 
-* [&#x200B; richt doelstellingen door hen in de Doelen van Adobe Workfront te verbinden &#x200B;](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md)
+* [ richt doelstellingen door hen in de Doelen van Adobe Workfront te verbinden ](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md)
 * [Richt doelstellingen door resultaten en activiteiten aan doelstellingen om te zetten](../../workfront-goals/goal-alignment/align-goals-by-converting-results-activities.md)
 
 ## Toegangsvereisten
 
-+++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
+>[!NOTE]
+>
+>Uw bedrijf zou kunnen verkiezen om de Doelen van Adobe Workfront verder te gebruiken als zij dit pakket in het verleden kochten. U moet voor meer informatie contact opnemen met uw accountvertegenwoordiger.
+>
+>Adobe Workfront Goals kan niet meer worden aangeschaft.
 
-U moet het volgende hebben:
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven. 
 
 <table style="table-layout:auto">
 <col>
@@ -37,52 +41,89 @@ U moet het volgende hebben:
 </col>
 <tbody>
  <tr>
- <td role="rowheader">Adobe Workfront-abonnement*</td>
- <td> 
-   <p>Voor het nieuwe plan en de nieuwe licentiestructuur:
-  <ul><li>Een Ultimate-abonnement </li></ul>
-   </p>
-<p>Voor het huidige plan en de licentiestructuur: 
-<ul><li> Een Pro of hoger </li>
-  <li>Een Adobe Workfront Goals-licentie in aanvulling op een Workfront-licentie.</li></ul></p>
+  <td> <p>Adobe Workfront-pakket</p> </td> 
+   <td> 
+   <p>Adobe Workfront Ultimate</p>
    </td> 
- </tr>
+  </tr> 
  <tr>
- <td role="rowheader">Adobe Workfront-licentie*</td>
+ <td role="rowheader">Adobe Workfront-licentie</td>
  <td>
- <p>Nieuwe licentie: Medewerker of hoger</p>
- of
- <p>Huidige licentie: aanvragen of hoger</p> </td>
+ <p>Medewerker of hoger</p>
+ <p>Aanvraag of hoger</p> </td>
  </tr>
- <tr>
- <td role="rowheader">Product*</td>
- <td>
-   <p> Nieuwe productvereisten: Workfront</p>
-   of
-   <p>Huidige productvereiste: Naast een Workfront-licentie moet u een licentie aanschaffen voor Adobe Workfront Goals. </p> <p>Voor informatie, zie <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref"> Vereisten om de Doelen van Workfront </a> te gebruiken. </p> </td>
- </tr>
- <tr>
+  <tr>
  <td role="rowheader">Toegangsniveau</td>
  <td> <p>Toegang tot doelen bewerken</p> </td>
  </tr>
- <tr data-mc-conditions="">
+ <tr>
  <td role="rowheader">Objectmachtigingen</td>
  <td>
   <p>De toestemmingen van de mening of hoger aan het doel om het te bekijken</p>
   <p>Machtigingen beheren om het te bewerken</p>
-  <p>Voor informatie over het delen van doelstellingen, zie <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref"> een doel in de Doelen van Workfront delen </a>. </p>
-  </td>
+
+</td>
  </tr>
    <td role="rowheader"><p>Lay-outsjabloon</p></td>
-   <td> <p>Aan alle gebruikers, inclusief Workfront-beheerders, moet een lay-outsjabloon worden toegewezen die het gebied Doelen in het hoofdmenu bevat. </p>  
+   <td> <p>Aan alle gebruikers, inclusief Systeembeheerders, moet een lay-outsjabloon worden toegewezen die het gebied Doelen in het hoofdmenu bevat. </p>  
 </td>
   </tr>
 </tbody>
 </table>
 
-*Voor meer informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+<!--Old:
+<table style="table-layout:auto">
+<col>
+</col>
+<col>
+</col>
+<tbody>
+ <tr>
+ <td role="rowheader">Adobe Workfront plan*</td>
+ <td> 
+   <p>For the new plan and license structure:
+  <ul><li>An Ultimate plan </li></ul>
+   </p>
+<p>For the current plan and license structure: 
+<ul><li> A Pro or higher </li>
+  <li>An Adobe Workfront Goals license in addition to a Workfront license.</li></ul></p>
+   </td> 
+ </tr>
+ <tr>
+ <td role="rowheader">Adobe Workfront license*</td>
+ <td>
+ <p>New license: Contributor or higher</p>
+ Or
+ <p>Current license: Request or higher</p> </td>
+ </tr>
+ <tr>
+ <td role="rowheader">Product*</td>
+ <td>
+   <p> New product requirement: Workfront</p>
+   Or
+   <p>Current product requirement: In addition to a Workfront license, you must purchase a license for Adobe Workfront Goals. </p> <p>For information, see <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requirements to use Workfront Goals</a>. </p> </td>
+ </tr>
+ <tr>
+ <td role="rowheader">Access level</td>
+ <td> <p>Edit access to Goals</p> </td>
+ </tr>
+ <tr data-mc-conditions="">
+ <td role="rowheader">Object permissions</td>
+ <td>
+  <p>View or higher permissions to the goal to view it</p>
+  <p>Manage permissions to the goal to edit it</p>
+  <p>For information about sharing goals, see <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Share a goal in Workfront Goals</a>. </p>
+  </td>
+ </tr>
+   <td role="rowheader"><p>Layout template</p></td>
+   <td> <p>All users, including Workfront administrators,  must be assigned a layout template that includes the Goals area in the Main Menu. </p>  
+</td>
+  </tr>
+</tbody>
+</table>-->
 
 ## Vereisten
 
@@ -124,9 +165,9 @@ Removing goal alignment differs depending on which environment you use.
 1. Heb toegang tot het **gebied van Doelen** in Workfront en klik de naam van een doel om de pagina van het doel te openen.
 1. Van de pagina van het doel van een ouderdoel, klik **Indicatoren van de Voortgang** in het linkerpaneel.
 
-   ![&#x200B; REmove doel groepering &#x200B;](assets/remove-goal-alignment-from-list-unshimmed.png)
+   ![ REmove doel groepering ](assets/remove-goal-alignment-from-list-unshimmed.png)
 
-1. In het **Type: Goal** groeperen, selecteer een doel, dan klik **losmaakt** pictogram ![&#x200B; los pictogram &#x200B;](assets/disconnect-goal-to-remove-alignment-icon-unshimmed.png) bij de bovenkant van de lijst los.
+1. In het **Type: Goal** groeperen, selecteer een doel, dan klik **losmaakt** pictogram ![ los pictogram ](assets/disconnect-goal-to-remove-alignment-icon-unshimmed.png) bij de bovenkant van de lijst los.
 
    Het vak Verbinding verbreken wordt weergegeven.
 

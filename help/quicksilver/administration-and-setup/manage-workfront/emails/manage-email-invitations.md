@@ -8,9 +8,9 @@ author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: e13e3479-391f-4aec-b998-e9b6057f256b
-source-git-commit: dccbd5a036e1b148bc8f3e41fac3a67babe6dc9a
+source-git-commit: e34abb5ff1068de99eaba33dc95287164e556742
 workflow-type: tm+mt
-source-wordcount: '936'
+source-wordcount: '945'
 ht-degree: 0%
 
 ---
@@ -25,13 +25,13 @@ ht-degree: 0%
 >
 >De op deze pagina beschreven procedure is alleen van toepassing op organisaties die nog niet aan boord van de Admin Console zijn. Als uw organisatie is aangemeld bij de Adobe Admin Console, moet u deze handeling uitvoeren via de Adobe Admin Console.
 >
->Voor een lijst van procedures die verschillen gebaseerd op of uw organisatie aan Adobe Admin Console is genegeerd, zie [&#x200B; Op platform-gebaseerde beleidsverschillen (Adobe Workfront/Adobe Bedrijfsplatform) &#x200B;](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>Voor een lijst van procedures die verschillen gebaseerd op of uw organisatie aan Adobe Admin Console is genegeerd, zie [ Op platform-gebaseerde beleidsverschillen (Adobe Workfront/Adobe Bedrijfsplatform) ](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
 Als Adobe Workfront-beheerder kunt u gebruikers toevoegen aan Workfront en ze laten weten dat ze zijn toegevoegd door e-mailuitnodigingen te gebruiken.
 
 Met de e-mailuitnodiging kunnen nieuwe gebruikers een koppeling volgen waarin ze een wachtwoord voor hun Workfront-account kunnen kiezen. Ze kunnen dan hun accountinstellingen voltooien.
 
-Voor de beveiliging van de nieuwe accounts raden we u aan e-mailuitnodigingen te gebruiken voor nieuwe gebruikers, zodat deze hun eigen wachtwoord kunnen kiezen. U kunt ook een wachtwoord voor een nieuwe gebruiker selecteren wanneer u een account maakt. Voor meer informatie over het toevoegen van nieuwe gebruikers aan Workfront, zie [&#x200B; gebruikers &#x200B;](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md) toevoegen.
+Voor de beveiliging van de nieuwe accounts raden we u aan e-mailuitnodigingen te gebruiken voor nieuwe gebruikers, zodat deze hun eigen wachtwoord kunnen kiezen. U kunt ook een wachtwoord voor een nieuwe gebruiker selecteren wanneer u een account maakt. Voor meer informatie over het toevoegen van nieuwe gebruikers aan Workfront, zie [ gebruikers ](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md) toevoegen.
 
 U kunt de e-mails voor nieuwe gebruikers configureren voor:
 
@@ -40,7 +40,7 @@ U kunt de e-mails voor nieuwe gebruikers configureren voor:
 
 Alle nieuwe gebruikers zien hetzelfde e-mailbericht wanneer een e-mailuitnodiging wordt verzonden.
 
-Voor informatie over het ontvangen van e-mailuitnodigingen, zie [&#x200B; e-mailuitnodigingen ontvangen en een wachtwoord voor Adobe Workfront &#x200B;](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/receive-email-invitations.md) creëren.
+Voor informatie over het ontvangen van e-mailuitnodigingen, zie [ e-mailuitnodigingen ontvangen en een wachtwoord voor Adobe Workfront ](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/receive-email-invitations.md) creëren.
 
 ## Toegangsvereisten
 
@@ -53,12 +53,14 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan</td> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
    <td>Alle</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie</td> 
-   <td>Plan</td> 
+   <td>
+   <p>Standard</p>
+   <p>Plan</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau</td> 
@@ -67,20 +69,22 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
 +++
 
 ## E-mailuitnodigingen opnieuw verzenden naar bestaande niet-geregistreerde gebruikers
 
 E-mailuitnodigingen worden gegenereerd in de volgende scenario&#39;s:
 
-* Wanneer u een nieuwe gebruiker creeert en u **selecteert verzend een uitnodigingsE-mail naar deze persoon** op de **Nieuwe Gebruiker** vorm. Voor meer informatie over het creëren van nieuwe gebruikers, zie [&#x200B; gebruikers &#x200B;](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md) toevoegen.
-* Wanneer u veelvoudige nieuwe gebruikers invoert en u **selecteert verzend uitnodigt e-mail aan deze mensen** optie. Voor meer informatie over het invoeren van verscheidene nieuwe gebruikers, zie [&#x200B; de gebruikers van de Invoer &#x200B;](../../../administration-and-setup/add-users/create-and-manage-users/import-users.md).
+* Wanneer u een nieuwe gebruiker creeert en u **selecteert verzend een uitnodigingsE-mail naar deze persoon** op de **Nieuwe Gebruiker** vorm. Voor meer informatie over het creëren van nieuwe gebruikers, zie [ gebruikers ](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md) toevoegen.
+* Wanneer u veelvoudige nieuwe gebruikers invoert en u **selecteert verzend uitnodigt e-mail aan deze mensen** optie. Voor meer informatie over het invoeren van verscheidene nieuwe gebruikers, zie [ de gebruikers van de Invoer ](../../../administration-and-setup/add-users/create-and-manage-users/import-users.md).
 * Nadat de gebruikers zijn gemaakt, kunt u de uitnodigingen handmatig genereren voor gebruikers die hun account nog niet bij Workfront hebben geregistreerd en die nog geen Workfront-wachtwoord hebben ingesteld.\
   De gebruikers die een gecreeerde rekening hebben maar nog niet hun rekening hebben geregistreerd zijn duidelijk als **Niet geregistreerd** in Workfront.
 
   >[!NOTE]
   >
-  >Als u **schrapt verzend een e-mailuitnodiging naar deze persoon** doos wanneer u de gebruiker creeert, kan de e-mailuitnodiging niet manueel worden geproduceerd. Het handmatig doorsturen van de e-mailuitnodigingen is alleen mogelijk voor gebruikers die de oorspronkelijke e-mailuitnodiging hebben ontvangen toen hun account werd gemaakt. Voor meer informatie over het creëren van nieuwe gebruikers, zie [&#x200B; gebruikers &#x200B;](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md) toevoegen.
+  >Als u **schrapt verzend een e-mailuitnodiging naar deze persoon** doos wanneer u de gebruiker creeert, kan de e-mailuitnodiging niet manueel worden geproduceerd. Het handmatig doorsturen van de e-mailuitnodigingen is alleen mogelijk voor gebruikers die de oorspronkelijke e-mailuitnodiging hebben ontvangen toen hun account werd gemaakt. Voor meer informatie over het creëren van nieuwe gebruikers, zie [ gebruikers ](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md) toevoegen.
 
 E-mailuitnodigingen handmatig opnieuw verzenden naar bestaande niet-geregistreerde gebruikers:
 
@@ -88,9 +92,9 @@ E-mailuitnodigingen handmatig opnieuw verzenden naar bestaande niet-geregistreer
 
 1. Selecteer de gebruiker die het **Niet geregistreerde** etiket na hun naam toont.
 
-   ![&#x200B; Niet geregistreerd &#x200B;](assets/unreg-user-qs-350x221.png)
+   ![ Niet geregistreerd ](assets/unreg-user-qs-350x221.png)
 
-1. Klik het Meer pictogram ![&#x200B; Meer pictogram &#x200B;](assets/more-icon.png), dan klik **herinnering gebruiker om** te registreren.
+1. Klik het Meer pictogram ![ Meer pictogram ](assets/more-icon.png), dan klik **herinnering gebruiker om** te registreren.
 
    Er wordt een e-mailuitnodiging verzonden naar de nieuwe gebruiker met een nieuwe koppeling waarmee deze zijn Workfront-wachtwoord kan maken.
 

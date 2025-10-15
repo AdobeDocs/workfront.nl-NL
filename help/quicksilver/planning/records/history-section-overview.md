@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 8258589f-a7c3-4d77-9abe-c99e9184bd21
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: b102960e088f072f10baadcbeca4f7f579daa287
 workflow-type: tm+mt
-source-wordcount: '658'
+source-wordcount: '594'
 ht-degree: 0%
 
 ---
@@ -25,12 +25,12 @@ U kunt aan de verslagen van de Planning van Adobe Workfront samenwerken, door co
 
 In het rechterdeelvenster van een record worden de volgende secties weergegeven:
 
-* **Commentaren**: De commentaren van vertoningen en antwoorden gebruikers voegen aan verslagen toe. Voor meer informatie over het beheren van commentaren in de verslagen van de Planning van Workfront, zie [&#x200B; recordcommentaren beheren &#x200B;](/help/quicksilver/planning/records/manage-record-comments.md).
+* **Commentaren**: De commentaren van vertoningen en antwoorden gebruikers voegen aan verslagen toe. Voor meer informatie over het beheren van commentaren in de verslagen van de Planning van Workfront, zie [ recordcommentaren beheren ](/help/quicksilver/planning/records/manage-record-comments.md).
 * **Geschiedenis**: De systeem-geregistreerde veranderingen van vertoningen die de gebruikers aan de verslaggebieden aanbrengen.
 
 ## Toegangsvereisten
 
-+++ Vouw uit om de vereisten voor toegang weer te geven.
++++ Breid uit om de toegangsvereisten voor de functionaliteit in dit artikel te bekijken. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -40,64 +40,103 @@ In het rechterdeelvenster van een record worden de volgende secties weergegeven:
 <tbody> 
     <tr> 
 <tr> 
+</tr>   
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront-pakket</p></td> 
+   <td> 
+<ul> 
+<li><p>Alle Workfront en alle planningspakketten</p></li>
+of
+<li><p>Alle workflows en planningspakketten</li></ul>
+<p>Neem voor meer informatie over wat er in elk planningspakket voor Workfront staat, contact op met uw Workfront-accountvertegenwoordiger. </p> 
+   </td> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront-licentie</p></td> 
+   <td><p>Medewerker of hoger</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Objectmachtigingen</p></td> 
+   <td>   <p>Machtigingen weergeven of hoger voor een werkruimte en recordtype</p>  
+   <p>Systeembeheerders hebben machtigingen voor alle werkruimten, inclusief de werkruimten die ze niet hebben gemaakt</p> </td> 
+  </tr> 
+  </tr> 
+  <tr>
+   <td role="rowheader"><p>Lay-outsjabloon</p></td>
+   <td> De gebruikers met een Licht of de vergunning van de Medewerker moeten een lay-outmalplaatje worden toegewezen dat Planning omvat.
+   <p>De standaardgebruikers en de Beheerders van het Systeem hebben de Gebieden van de Planning die door gebrek worden toegelaten.</p></div></li></ul>
+</td>
+  </tr>  
+</tbody> 
+</table>
+
+Voor meer informatie over de toegangsvereisten van Workfront, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++  
+
+<!--Old:
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+    <tr> 
+<tr> 
 <td> 
-   <p> Producten</p> </td> 
+   <p> Products</p> </td> 
    <td> 
    <ul><li><p> Adobe Workfront</p></li> 
    <li><p> Adobe Workfront Planning<p></li></ul></td> 
   </tr>   
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront-abonnement*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront plan*</p></td> 
    <td> 
-<p>Een van de volgende Workfront-plannen:</p> 
-<ul><li>Selecteren</li> 
+<p>Any of the following Workfront plans:</p> 
+<ul><li>Select</li> 
 <li>Prime</li> 
 <li>Ultimate</li></ul> 
-<p>Workfront Planning is niet beschikbaar voor oudere Workfront-plannen</p> 
+<p>Workfront Planning is not available for legacy Workfront plans</p> 
    </td> 
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront-planningspakket*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront Planning package*</p></td> 
    <td> 
-<p>Alle </p> 
-<p>Neem contact op met uw Workfront-accountmanager voor meer informatie over wat er in elk Workfront-planningsplan is opgenomen. </p> 
+<p>Any </p> 
+<p>For more information about what is included in each Workfront Planning plan, contact your Workfront account manager. </p> 
    </td> 
  <tr> 
-   <td role="rowheader"><p>Adobe Workfront-platform</p></td> 
+   <td role="rowheader"><p>Adobe Workfront platform</p></td> 
    <td> 
-<p>Het geval van Workfront van uw organisatie moet aan de Verenigde Ervaring van Adobe worden genegeerd om tot de Planning van Workfront te kunnen toegang hebben.</p> 
-<p>Voor meer informatie, zie <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md"> Adobe Verenigde Ervaring voor Workfront </a>. </p> 
+<p>Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience to be able to access Workfront Planning.</p> 
+<p>For more information, see <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p> 
    </td> 
    </tr> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront-licentie*</p></td> 
-   <td> <p>Medewerker of hogere licentie</p>
-   <p>Workfront Planning is niet beschikbaar voor oudere Workfront-licenties</p> 
+   <td role="rowheader"><p>Adobe Workfront license*</p></td> 
+   <td> <p>Contributor or higher license</p>
+   <p>Workfront Planning is not available for legacy Workfront licenses</p> 
   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Configuratie op toegangsniveau</p></td> 
-   <td> <p>Er zijn geen toegangsniveaucontroles voor de Planning van Adobe Workfront</p>   
+   <td role="rowheader"><p>Access level configuration</p></td> 
+   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
 </td> 
   </tr> 
 <tr> 
-   <td role="rowheader"><p>Objectmachtigingen</p></td> 
-   <td>   <p>Machtigingen weergeven of hoger voor een werkruimte en recordtype </a> </p>  
-   <p>Systeembeheerders hebben machtigingen voor alle werkruimten, inclusief de werkruimten die ze niet hebben gemaakt</p> </td> 
+   <td role="rowheader"><p>Object permissions</p></td> 
+   <td>   <p>View or higher permissions to a workspace and record type</p>  
+   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p> </td> 
   </tr> 
 <tr>
-   <td role="rowheader"><p>Lay-outsjabloon</p></td>
-   <td> De gebruikers met een Licht of de vergunning van de Medewerker moeten een lay-outmalplaatje worden toegewezen dat Planning omvat.
-   <p>De standaardgebruikers en de Beheerders van het Systeem hebben de Gebieden van de Planning die door gebrek worden toegelaten.</p></div></li></ul>
-
+   <td role="rowheader"><p>Layout template</p></td>
+   <td> Users with a Light or Contributor license must be assigned a layout template that includes Planning.
+   <p>Standard users and System Administrators have the Planning areas enabled by default.</p></div></li></ul>
+  
 </td>
   </tr>
 </tbody> 
-</table>
-
-*Voor meer informatie over de toegangsvereisten van Workfront, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
-
-+++
+</table> -->
 
 ## De sectie Historie van een record zoeken
 
@@ -113,14 +152,14 @@ De recordtypepagina wordt geopend en alle records van dat type worden weergegeve
 1. Klik vanuit een willekeurige weergave op de naam van een record.
 
    De pagina van de record wordt geopend. Het gebied Opmerkingen wordt standaard in het rechtervenster geopend.
-1. Klik **tonen het pictogram van de Geschiedenis** ![&#x200B; tonen geschiedenispictogram &#x200B;](assets/show-history-icon.png). Alle wijzigingen die in de velden van de record zijn aangebracht, worden in het rechterdeelvenster weergegeven, te beginnen met de meest recente.
-1. (Facultatief) klik het **pictogram van de Geschiedenis van de Verbergen** ![&#x200B; het geschiedenispictogram van de Verbergen &#x200B;](assets/hide-history-icon.png) om het juiste paneel te sluiten.
+1. Klik **tonen het pictogram van de Geschiedenis** ![ tonen geschiedenispictogram ](assets/show-history-icon.png). Alle wijzigingen die in de velden van de record zijn aangebracht, worden in het rechterdeelvenster weergegeven, te beginnen met de meest recente.
+1. (Facultatief) klik het **pictogram van de Geschiedenis van de Verbergen** ![ het geschiedenispictogram van de Verbergen ](assets/hide-history-icon.png) om het juiste paneel te sluiten.
 
 ## Overwegingen bij de sectie Historie
 
 U kunt de wijzigingen die zijn aangebracht in recordvelden, bekijken in de sectie Historie van het rechterdeelvenster van de pagina van een record.
 
-![&#x200B; gebied van de Geschiedenis in Commentaren &#x200B;](assets/history-area-in-comments.png)
+![ gebied van de Geschiedenis in Commentaren ](assets/history-area-in-comments.png)
 
 * Workfront Planning registreert de volgende informatie in de sectie van de Geschiedenis:
 
@@ -152,7 +191,7 @@ U kunt de wijzigingen die zijn aangebracht in recordvelden, bekijken in de secti
 
 * In velden van het type selectievakje wordt de oude waarde nooit doorgehaald weergegeven. Als het veld wordt bewerkt, wordt alleen het huidige frame weergegeven op het moment dat de wijziging is aangebracht.
 
-  Voor meer informatie over de Planning van Workfront gebieden, zie [&#x200B; gebieden &#x200B;](/help/quicksilver/planning/fields/create-fields.md) creëren.
+  Voor meer informatie over de Planning van Workfront gebieden, zie [ gebieden ](/help/quicksilver/planning/fields/create-fields.md) creëren.
 
 * Wijzigingen in velden van de volgende typen worden niet weergegeven in de sectie Historie:
 

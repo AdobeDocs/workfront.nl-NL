@@ -3,14 +3,14 @@ content-type: reference
 product-area: reporting
 keywords: audit,trail,custom,field
 navigation-topic: calculate-custom-data-reports
-title: "Voorbeeld van een berekend aangepast veld: bewerkingsgeschiedenis van een veld weergeven"
+title: 'Voorbeeld van een berekend aangepast veld: bewerkingsgeschiedenis van een veld weergeven'
 description: Als gebruikers regelmatig aangepaste velden bijwerken en u wilt een logboek vastleggen van alle wijzigingen die in een veld zijn aangebracht en ook een datum waarop de wijzigingen worden aangebracht, kunt u deze gegevens vastleggen in een berekend aangepast veld.
-author: Nolan
+author: Jenny
 feature: Reports and Dashboards
 exl-id: e233ef28-c95a-42a1-b2eb-448dad5feddb
-source-git-commit: ecafbd693237427d727b15dd22afd485b4e59c72
+source-git-commit: a1ead6d0c1c85bfbe6d7302506743db8d8b3e205
 workflow-type: tm+mt
-source-wordcount: '656'
+source-wordcount: '612'
 ht-degree: 0%
 
 ---
@@ -35,35 +35,38 @@ Dit doet het volgende:
 
 ## Toegangsvereisten
 
-U moet het volgende hebben:
+## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 <table style="table-layout:auto"> 
- <caption style="text-align: left;"> 
-  <p>*Neem contact op met uw Workfront-beheerder om te weten te komen welk abonnement, licentietype of toegang u hebt.</p> 
- </caption> 
  <col> 
- </col> 
  <col> 
- </col> 
  <tbody> 
   <tr> 
-   <td> <p>Adobe Workfront-abonnement*</p> </td> 
-   <td>Alle</td> 
+   <td> <p>Adobe Workfront-pakket</p> </td> 
+   <td><p>Alle</p></td> 
   </tr> 
   <tr> 
-   <td> <p>Workfront-licentie*</p> </td> 
-   <td> <p>Plan </p> </td> 
+   <td> <p>Adobe Workfront-licentie</p> </td> 
+   <td>
+      <p>Standard</p>
+      <p>Plan</p></td>
   </tr> 
   <tr> 
-   <td><strong> het niveauconfiguraties van de Toegang* </strong> </td> 
-   <td> <p>Administratieve toegang tot Aangepaste Forms</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan veranderen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
+   <td><p>Configuraties op toegangsniveau</p></td> 
+   <td> <p>Administratieve toegang tot Aangepaste Forms</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong> de toestemmingen van Objecten </strong> </p> </td> 
-   <td> <p>Rechten voor aangepaste formulieren beheren </p> <p>Voor meer informatie, zie <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md" class="MCXref xref"> een douanevorm </a> delen.<br></p> </td> 
+   <td> <p>Objectmachtigingen</p> </td> 
+   <td> <p>Rechten voor aangepaste formulieren beheren</p></td> 
   </tr> 
  </tbody> 
 </table>
+
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Vereisten
 
@@ -96,7 +99,7 @@ Als u een berekend veld met de bewerkingsgeschiedenis van een veld wilt toevoege
    ```
 
 1. (Geadviseerd) Deeg de zelfde berekening in het **gebied van Instructies** op het berekende gebied op de vorm.
-1. Zorg ervoor dat **Tekst** op het **3&rbrace; gebied van het Formaat &lbrace;wordt geselecteerd om het berekende douanegebied als tekst te formatteren.**
+1. Zorg ervoor dat **Tekst** op het **3} gebied van het Formaat {wordt geselecteerd om het berekende douanegebied als tekst te formatteren.**
 
    Dit is de standaardinstelling.
 

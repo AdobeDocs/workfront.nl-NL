@@ -7,9 +7,9 @@ description: Wanneer u de langetermijnstrategie van uw bedrijf plant, is er veel
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 9a79ef81-6271-4cc9-b701-3ba0aeafb324
-source-git-commit: 7cfe82eb703e2a043c264cf86c0e5424d1e33d78
+source-git-commit: aa2e9a012a60ab10e2d027dedae520b5e06686c7
 workflow-type: tm+mt
-source-wordcount: '915'
+source-wordcount: '882'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,43 @@ Wanneer u de langetermijnstrategie van uw bedrijf plant, is er veel informatie d
 
 ## Toegangsvereisten
 
-+++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven. 
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td> <p>[!DNL Adobe Workfront] package</p> </td> 
+   <td> 
+   <p>Workfront Ultimate</p>
+<p><b>OPMERKING</b></p>
+<p>Neem contact op met uw Workfront-vertegenwoordiger als u een ander Workfront-pakket hebt.</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td> <p>[!DNL Adobe Workfront] licentie</p> </td> 
+   <td> <p>[!UICONTROL Light] of hoger</p> 
+   <p>[!UICONTROL Review] of hoger</p> </td> 
+  </tr> 
+    <tr> 
+   <td>Configuraties op toegangsniveau</td> 
+   <td> <p>[!UICONTROL Edit] toegang tot de [!DNL Scenario Planner]</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>Objectmachtigingen </p> </td> 
+   <td> <p>[!UICONTROL Manage] machtigingen voor een abonnement</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+Voor meer informatie over toegang tot de Planner van het Scenario, zie [ Toegang nodig om  [!DNL Scenario Planner]](../scenario-planner/access-needed-to-use-sp.md) te gebruiken.
+
+Voor informatie over de toegangsvereisten van Workfront, zie [ vereisten van de Toegang tot de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
+<!--Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -31,39 +67,34 @@ Wanneer u de langetermijnstrategie van uw bedrijf plant, is er veel informatie d
   <tr> 
    <td> <p>[!DNL Adobe Workfront] plan*</p> </td> 
    <td> <ul></li>
-   <li><p>Nieuw: Ultimate </p></li>
-   <p>De Scenario Planner is niet beschikbaar voor de nieuwe Workfront Select- of Workfront Prime-plannen. </p>
-   <li><p>Huidig: [!UICONTROL Business] of hoger</p></ul>
+   <li><p>New: Ultimate </p></li>
+   <p>The Scenario Planner is not available for the new Workfront Select or Workfront Prime plans. </p>
+   <li><p>Current: [!UICONTROL Business] or higher</p></ul>
    </td> 
   </tr> 
   <tr> 
-   <td> <p>[!DNL Adobe Workfront] licentie*</p> </td> 
-   <td> <p>Nieuw: Licht of hoger</p> 
-   <p>Huidig: [!UICONTROL Review] of hoger</p> </td> 
+   <td> <p>[!DNL Adobe Workfront] license*</p> </td> 
+   <td> <p>New: Light or higher</p> 
+   <p>Current: [!UICONTROL Review] or higher</p> </td> 
   </tr> 
   <tr> 
    <td>Product* </td> 
-   <td> <ul><li><p>Voor de nieuwe plannen van Workfront:</p><p> Adobe Workfront</li></p>
-   <li><p>Voor de huidige plannen van Workfront: </p>
+   <td> <ul><li><p>For the new Workfront plans:</p><p> Adobe Workfront</li></p>
+   <li><p>For the current Workfront plans: </p>
    <p>Adobe Workfront</p> <p>Adobe Workfront Scenario Planner</p></li></ul>
-
-<p>Voor meer informatie, zie <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref"> Toegang nodig om [!DNL Scenario Planner]</a> te gebruiken. </p> </td> 
+   
+   <p>For more information, see <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Access needed to use the [!DNL Scenario Planner]</a>. </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>Toegangsniveau </td> 
-   <td> <p>[!UICONTROL Edit] toegang tot de [!DNL Scenario Planner]</p> </td> 
+   <td>Access level </td> 
+   <td> <p>[!UICONTROL Edit] access to the [!DNL Scenario Planner]</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p>Objectmachtigingen </p> </td> 
-   <td> <p>[!UICONTROL Manage] machtigingen voor een abonnement</p> <p>Voor informatie bij het vragen van om extra toegang tot een plan, zie <a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref"> de toegang van het Verzoek tot een plan in [!DNL Scenario Planner]</a>.</p> </td> 
+   <td> <p>Object permissions </p> </td> 
+   <td> <p>[!UICONTROL Manage] permissions to a plan</p> <p>For information on requesting additional access to a plan, see <a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">Request access to a plan in the [!DNL Scenario Planner]</a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>
-
-
-*For informatie, zie [&#x200B; vereisten van de Toegang tot de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
-
-+++
+</table>-->
 
 ## Scènes maken
 
@@ -73,13 +104,13 @@ Een scenario is een exemplaar van een plan. U kunt zoveel scenario&#39;s maken a
 
 1. Maak een abonnement of klik op de naam van een bestaand abonnement.
 
-   Voor informatie over het creëren van plannen, zie [&#x200B; plannen in  [!DNL Scenario Planner]](../scenario-planner/create-and-edit-plans.md) creëren en uitgeven.
+   Voor informatie over het creëren van plannen, zie [ plannen in  [!DNL Scenario Planner]](../scenario-planner/create-and-edit-plans.md) creëren en uitgeven.
 
    Het eerste plan u creeert wordt automatisch bewaard als &quot;[!UICONTROL Initial scenario].&quot;
 
 1. Klik op de pijl omlaag naast een bestaand scenario en klik vervolgens op het pictogram **[!UICONTROL Copy]** .
 
-   ![&#x200B; scenario van het Exemplaar &#x200B;](assets/copy-scenarios-ui-and-highlighted-icon-350x95.png)
+   ![ scenario van het Exemplaar ](assets/copy-scenarios-ui-and-highlighted-icon-350x95.png)
 
    Dit leidt tot een nieuw scenario met de zelfde informatie zoals het gekopieerde scenario. Het wordt automatisch genoemd &quot;[!UICONTROL Scenario 2]&quot;als het het tweede scenario van uw plan, &quot;[!UICONTROL Scenario 3]&quot;is als het de derde, etc. is. U kunt de naam van uw scenario&#39;s niet wijzigen. Er is geen limiet voor het aantal exemplaren dat u kunt maken.
 
@@ -97,13 +128,13 @@ Een scenario is een exemplaar van een plan. U kunt zoveel scenario&#39;s maken a
      >
      >Wanneer u een initiatief in een scenario schrapt wordt het verwijderd slechts uit het geselecteerde scenario, niet uit alle scenario&#39;s.
 
-     Voor informatie over het creëren van initiatieven, zie [&#x200B; initiatieven in  [!DNL Scenario Planner]](../scenario-planner/create-and-edit-initiatives.md) creëren en uitgeven.
+     Voor informatie over het creëren van initiatieven, zie [ initiatieven in  [!DNL Scenario Planner]](../scenario-planner/create-and-edit-initiatives.md) creëren en uitgeven.
 
    * De prioriteiten van uw initiatieven bijwerken
    * Personen of begrotingsgegevens aanpassen
    * Initiatiefconflicten in uw scenario bekijken en aanpassen
 
-     Voor informatie over het oplossen van conflicten, zie [&#x200B; initiatiefconflicten oplossen in  [!DNL Scenario Planner]](../scenario-planner/resolve-conflicts-in-sp.md).
+     Voor informatie over het oplossen van conflicten, zie [ initiatiefconflicten oplossen in  [!DNL Scenario Planner]](../scenario-planner/resolve-conflicts-in-sp.md).
 
 1. Klik op **[!UICONTROL Save Plan]** om de wijzigingen op te slaan.
 
@@ -116,7 +147,7 @@ Nadat u uw scenario&#39;s hebt gemaakt, kunt u deze vergelijken om de beste voor
 
    Alle bestaande scenario&#39;s voor de planvertoning in een zij-aan-zij kaartformaat. Het aanvankelijke scenario wordt altijd eerst vermeld en het is statisch.
 
-   ![&#x200B; de kaarten van Senario &#x200B;](assets/scenario-cards-overlapping-350x166.png)
+   ![ de kaarten van Senario ](assets/scenario-cards-overlapping-350x166.png)
 
 1. (Optioneel) Schuif naar rechts om alle scenario-kaarten weer te geven.
 
@@ -174,13 +205,13 @@ Nadat u uw scenario&#39;s hebt gemaakt, kunt u deze vergelijken om de beste voor
    >Wanneer de informatie tussen het aanvankelijke scenario en extra scenario&#39;s verschilt, een omhoog of omlaag pijlvertoningen naast de waarde die om op een verhoging of een daling van die waarde, in vergelijking met het aanvankelijke scenario wordt veranderd te wijzen.
    >
    >
-   >![&#x200B; pijlen op scenarioKaarten &#x200B;](assets/arrows-on-scenario-cards-highlighted-350x70.png)
+   >![ pijlen op scenarioKaarten ](assets/arrows-on-scenario-cards-highlighted-350x70.png)
    >
    >Bijvoorbeeld de begroting, het aantal functies, het aantal initiatieven kan van het ene scenario naar het andere veranderen.
 
 1. Klik op de naam van een scenario om het te openen en er wijzigingen in aan te brengen.
 
-   Voor meer informatie, zie [&#x200B; scenario&#39;s &#x200B;](#create-scenarios) sectie in dit artikel creëren.
+   Voor meer informatie, zie [ scenario&#39;s ](#create-scenarios) sectie in dit artikel creëren.
 
 1. Klik op **[!UICONTROL Add description]** om een beschrijving voor het scenario toe te voegen
 
@@ -188,9 +219,9 @@ Nadat u uw scenario&#39;s hebt gemaakt, kunt u deze vergelijken om de beste voor
 
    Klik op het beschrijvingsveld om het bij te werken en klik vervolgens ergens op het scherm om de wijzigingen op te slaan.
 
-1. (Facultatief) klik het **[!UICONTROL More]** menu ![&#x200B; Meer pictogram &#x200B;](assets/more-icon.png) aan **[!UICONTROL Copy]** of **[!UICONTROL Delete]** het scenario.
+1. (Facultatief) klik het **[!UICONTROL More]** menu ![ Meer pictogram ](assets/more-icon.png) aan **[!UICONTROL Copy]** of **[!UICONTROL Delete]** het scenario.
 
-   ![&#x200B; het scenario van het Exemplaar of schrapt &#x200B;](assets/copy-or-delete-scenario-links-from-card-350x109.png)
+   ![ het scenario van het Exemplaar of schrapt ](assets/copy-or-delete-scenario-links-from-card-350x109.png)
 
    Wanneer u een scenario kopieert, verschijnt het automatisch op de kaartpagina en volgens dit patroon anders genoemd: &quot;[!UICONTROL Scenario] `<next number in order>`&quot;.
 
@@ -198,6 +229,6 @@ Nadat u uw scenario&#39;s hebt gemaakt, kunt u deze vergelijken om de beste voor
 
    Verwijderde scenario&#39;s kunnen niet worden hersteld.
 
-   Voor informatie over het schrappen van scenario&#39;s, zie [&#x200B; plannen van de Schrapping in  [!DNL Scenario Planner]](../scenario-planner/delete-plans.md).
+   Voor informatie over het schrappen van scenario&#39;s, zie [ plannen van de Schrapping in  [!DNL Scenario Planner]](../scenario-planner/delete-plans.md).
 
 1. Klik **[!UICONTROL Save Plan]** om uw scenario&#39;s en uw plan te bewaren.

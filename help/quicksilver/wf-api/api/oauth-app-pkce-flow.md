@@ -7,7 +7,7 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 61fe77b6-c6d7-4f23-bfb6-617bccaa1989
-source-git-commit: 6f041459caf040846ffdec5bc75e9d74c99e318b
+source-git-commit: f9a154fa92217810b762ac48169512bc0bca7305
 workflow-type: tm+mt
 source-wordcount: '811'
 ht-degree: 0%
@@ -47,7 +47,7 @@ Een PKCE-stroom heeft de volgende stappen. De stappen in deze sectie worden alle
 
 Voordat u autorisatie kunt implementeren, moet u uw app registreren in OAuth2 door een app-integratie te maken vanuit Workfront.
 
-Voor instructies bij het creëren van de toepassing OAuth2, zie [&#x200B; een OAuth2 enig-pagina Webtoepassing gebruikend PKCE &#x200B;](../../administration-and-setup/configure-integrations/create-oauth-application.md#create-an-oauth2-single-page-web-application-using-pkce) in [&#x200B; creëren toepassingen OAuth2 voor de integratie van Workfront &#x200B;](../../administration-and-setup/configure-integrations/create-oauth-application.md)
+Voor instructies bij het creëren van de toepassing OAuth2, zie [ een OAuth2 enig-pagina Webtoepassing gebruikend PKCE ](../../administration-and-setup/configure-integrations/create-oauth-application.md#create-an-oauth2-single-page-web-application-using-pkce) in [ creëren toepassingen OAuth2 voor de integratie van Workfront ](../../administration-and-setup/configure-integrations/create-oauth-application.md)
 
 >[!NOTE]
 >
@@ -128,7 +128,7 @@ Maak een notitie van de parameters die worden doorgegeven:
 
 ## De code voor tokens uitwisselen
 
-Als u de machtigingscode voor een toegangstoken wilt uitwisselen, geeft u deze samen met `code_verifier` door aan het eindpunt van de machtigingsserver `/token` .
+Als u de machtigingscode voor een toegangstoken wilt uitwisselen, geeft u deze samen met `/token` door aan het eindpunt van de machtigingsserver `code_verifier` .
 
 >[!INFO]
 >
@@ -154,7 +154,7 @@ Maak een notitie van de parameters die worden doorgegeven:
 
 * `code` is de vergunningscode die u van het /authorize eindpunt ontving.
 
-* `code_verifier` is de PKCE codecontroleur die uw app in [&#x200B; wordt geproduceerd creeert de Sleutel van het Bewijs voor de Uitwisseling van de Code &#x200B;](#Create).
+* `code_verifier` is de PKCE codecontroleur die uw app in [ wordt geproduceerd creeert de Sleutel van het Bewijs voor de Uitwisseling van de Code ](#Create).
 
 * `client_id` identificeert uw klant en moet overeenkomen met de waarde die vooraf is geregistreerd in OAuth2.
 
@@ -190,7 +190,7 @@ U kunt uw toegangstoken met een API vraag bevestigen gelijkend op het volgende:
 
 ## Een vernieuwingstoken aanvragen
 
-Als u een vernieuwingstoken wilt aanvragen, kunt u een POST-aanroep naar de API maken, vergelijkbaar met het volgende:
+Als u een vernieuwingstoken wilt aanvragen, kunt u een POST-aanroep naar de API uitvoeren, vergelijkbaar met het volgende:
 
 >[!INFO]
 >

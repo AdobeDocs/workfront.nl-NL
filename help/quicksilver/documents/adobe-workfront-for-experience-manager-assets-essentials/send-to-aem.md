@@ -6,9 +6,9 @@ description: U kunt documenten van Workfront naar Experience Manager Assets of A
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 7942e77b-9466-4dff-9737-97b17647ac48
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 430751f0e38c6c45145c965398990ee3652f36fe
 workflow-type: tm+mt
-source-wordcount: '919'
+source-wordcount: '868'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Assets die naar Experience Manager door deze integratie wordt verzonden heeft ee
 
 In het milieu van de Voorproef, heeft Assets die naar Experience Manager door deze integratie wordt verzonden een groottegrens van **30 GB**.
 
-Metagegevensvelden worden eerst toegewezen wanneer u een element verzendt van Workfront naar Experience Manager Assets of Elementen. Eventuele metagegevens die zijn geconfigureerd om toe te wijzen voor bovenliggende objecten, worden ook verzonden. Voor meer informatie bij het vormen meta-gegevensafbeelding, zie [&#x200B; de integratie van Experience Manager Assets as a Cloud Service &#x200B;](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md) vormen of [&#x200B; vormen de integratie van de Hoofdzaak van Experience Manager Assets &#x200B;](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
+Metagegevensvelden worden eerst toegewezen wanneer u een element verzendt van Workfront naar Experience Manager Assets of Elementen. Eventuele metagegevens die zijn geconfigureerd om toe te wijzen voor bovenliggende objecten, worden ook verzonden. Voor meer informatie bij het vormen meta-gegevensafbeelding, zie [ de integratie van Experience Manager Assets as a Cloud Service ](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md) vormen of [ vormen de integratie van de Hoofdzaak van Experience Manager Assets ](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
 
 >[!INFO]
 >
@@ -31,37 +31,40 @@ Metagegevensvelden worden eerst toegewezen wanneer u een element verzendt van Wo
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
-U moet de volgende toegang hebben om de stappen in dit artikel te voltooien:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://business.adobe.com/nl/products/workfront/pricing.html" target="_blank"> plan van Adobe Workfront </a>*</td> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
    <td> <p> Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref"> overzicht van de Vergunningen van de Vererfenis </a>*</td> 
-   <td> <p>Aanvraag of hoger</p> </td> 
+   <td role="rowheader">Adobe Workfront-licenties</td> 
+   <td> 
+   <p>Medewerker of hoger</p> 
+   <p>Aanvraag of hoger</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Product</td> 
-   <td>U moet Experience Manager as a Cloud Service of Assets Essentials hebben en u moet als gebruiker aan het product worden toegevoegd in de Admin Console.
-</td> 
+   <td role="rowheader">Aanvullende producten</td> 
+   <td>U moet Experience Manager as a Cloud Service of Assets Essentials hebben en u moet als gebruiker aan het product worden toegevoegd in de Admin Console.</td> 
   </tr> 
+   <tr> 
+    <td role="rowheader">Experience Manager-machtigingen</td> 
+    <td>U moet schrijftoegang tot de map hebben.</td> 
+   </tr>
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot documenten bewerken</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
+   <td> <p>Toegang tot documenten bewerken</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Toegang of hoger weergeven op documenten</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
+   <td> <p>Toegang weergeven of hoger</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -69,12 +72,12 @@ U moet de volgende toegang hebben om de stappen in dit artikel te voltooien:
 
 Voordat u begint,
 
-* Uw Workfront-beheerder moet een Experience Manager-integratie configureren. Voor meer informatie, zie [&#x200B; de integratie van Experience Manager Assets as a Cloud Service &#x200B;](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md) vormen of [&#x200B; vormen de integratie van de Hoofdzaak van Experience Manager Assets &#x200B;](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
+* Uw Workfront-beheerder moet een Experience Manager-integratie configureren. Voor meer informatie, zie [ de integratie van Experience Manager Assets as a Cloud Service ](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md) vormen of [ vormen de integratie van de Hoofdzaak van Experience Manager Assets ](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
 
 
 ## Een document verzenden vanuit Workfront
 
-Wanneer een gebruiker een document van Workfront naar Experience Manager Assets of Assets Essentials verzendt, worden de toegewezen metagegevens over het document overgedragen. Nadat het document is verzonden, worden wijzigingen die zijn aangebracht in de metagegevens van het document in Workfront, niet doorgevoerd in Assets of Assets Essentials. Als een toegewezen veld in Workfront wordt gewijzigd, moet u een nieuwe versie van het document met de bijgewerkte metagegevens verzenden naar Assets of Assets Essentials. Aan opstelling of geef meta-gegevens uit, zie [&#x200B; de integratie van Experience Manager Assets as a Cloud Service &#x200B;](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md) of [&#x200B; vormen de integratie van de Hoofdzaak van Experience Manager Assets &#x200B;](../../documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
+Wanneer een gebruiker een document van Workfront naar Experience Manager Assets of Assets Essentials verzendt, worden de toegewezen metagegevens over het document overgedragen. Nadat het document is verzonden, worden wijzigingen die zijn aangebracht in de metagegevens van het document in Workfront, niet doorgevoerd in Assets of Assets Essentials. Als een toegewezen veld in Workfront wordt gewijzigd, moet u een nieuwe versie van het document met de bijgewerkte metagegevens verzenden naar Assets of Assets Essentials. Aan opstelling of geef meta-gegevens uit, zie [ de integratie van Experience Manager Assets as a Cloud Service ](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md) of [ vormen de integratie van de Hoofdzaak van Experience Manager Assets ](../../documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
 
 Een document verzenden:
 
@@ -85,14 +88,14 @@ Een document verzenden:
    >
    >De Workfront-beheerder kan een willekeurige naam voor deze integratie kiezen, dus Assets of Assets Essentials wordt niet specifiek vermeld.
 
-   ![&#x200B; verzendt naar &#x200B;](assets/copy-of-send-to-in-toolbar-350x149.png)
+   ![ verzendt naar ](assets/copy-of-send-to-in-toolbar-350x149.png)
 
 1. Kies waar u de activa wilt gaan, dan klik **Uitgezochte Omslag**.
 1. Wanneer u uw gewenste bestemming vindt, klik **sparen**.
 
 ## Nieuwe versie verzenden
 
-U kunt een nieuwe versie toevoegen aan een document dat u eerder naar Workfront hebt geüpload. Voor meer informatie, zie [&#x200B; een nieuwe versie van een document &#x200B;](../../documents/managing-documents/upload-new-document-version.md) uploaden. Nadat de meest recente versie is geüpload, kunt u deze naar Elementen verzenden. Als een toegewezen veld in Workfront is gewijzigd, werkt de nieuwe versie de metagegevens in Elementen bij wanneer deze worden verzonden.
+U kunt een nieuwe versie toevoegen aan een document dat u eerder naar Workfront hebt geüpload. Voor meer informatie, zie [ een nieuwe versie van een document ](../../documents/managing-documents/upload-new-document-version.md) uploaden. Nadat de meest recente versie is geüpload, kunt u deze naar Elementen verzenden. Als een toegewezen veld in Workfront is gewijzigd, werkt de nieuwe versie de metagegevens in Elementen bij wanneer deze worden verzonden.
 
 >[!IMPORTANT]
 >
@@ -107,7 +110,7 @@ De meest recente versie verzenden:
    >
    >De Workfront-beheerder kan een willekeurige naam voor deze integratie kiezen, dus Assets of Assets Essentials wordt niet specifiek genoemd.
 
-   ![&#x200B; verzendt naar &#x200B;](assets/copy-of-send-to-in-toolbar-350x149.png)
+   ![ verzendt naar ](assets/copy-of-send-to-in-toolbar-350x149.png)
 
 1. Klik **sparen**. De nieuwe versie slaat op dezelfde locatie op als de vorige versie.
 

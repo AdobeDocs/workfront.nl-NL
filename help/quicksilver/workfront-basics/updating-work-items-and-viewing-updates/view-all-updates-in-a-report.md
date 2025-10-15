@@ -6,16 +6,16 @@ description: Als u alle updates wilt zien die een van de gebruikers voor een obj
 author: Alina
 feature: Get Started with Workfront
 exl-id: fa5b91e4-b88c-42f0-860c-6864105b4652
-source-git-commit: abf5f21281b05dedfecbe71c6ffbf54ee69e2460
+source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
 workflow-type: tm+mt
-source-wordcount: '396'
+source-wordcount: '373'
 ht-degree: 0%
 
 ---
 
 # Alle updates in een notitierapport weergeven
 
-<!-- Audited: 6/2025 -->
+<!-- Audited: 10/2025 -->
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Alina: ***This is a report and it is in the Getting Started/ Updates section because I think it makes more sense to be in this area, where people want to view updates. - added this to this section from Reporting on 7/3/2018 ) </p>
@@ -25,11 +25,11 @@ In het gedeelte Updates van een object wordt standaard maximaal 200 updates weer
 
 >[!NOTE]
 >
->U kunt een rapport bouwen om updates op voorwerpen in Voorproef met het de ingangsrapport van het Dagboek te bekijken. Voor meer informatie, zie [&#x200B; Rapport over het gebied van Updates met een rapport van de Ingang van het Dagboek &#x200B;](../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md).
+>U kunt een rapport bouwen om updates op voorwerpen in Voorproef met het de ingangsrapport van het Dagboek te bekijken. Voor meer informatie, zie [ Rapport over het gebied van Updates met een rapport van de Ingang van het Dagboek ](../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md).
 
 ## Toegangsvereisten
 
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -38,31 +38,65 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan</td> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie</td> 
-   <td> <p>Nieuw: Standaard </p>
-   <p>Huidig: Plan</p> </td> 
+   <td> <p>Standard</p>
+   <p>Plan</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau</td> 
-   <td> <p>Toegang bewerken tot:</p> 
+   <td> <p>Bewerk de toegang met de mogelijkheid om het volgende te maken:</p> 
     <ul> 
-     <li> <p>Rapporten, dashboards en kalenders maken</p> </li> 
-     <li> <p>Filters, weergaven en groepen maken</p> </li> 
+     <li> <p>Rapporten, dashboards en Kalenders</p> </li> 
+     <li> <p>Filters, Weergaven en Groepen</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Weergave</p>
-    <p>Nota: Als u geen toestemming van de Mening of hoger aan een voorwerp hebt, toont de informatie voor dat voorwerp niet in het rapport.</p>  </td> 
+   <td> <p>De toestemmingen van de mening op de voorwerpen in het rapport</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
+<!--Old:
+<table style="table-layout:auto"> 
+ <col> 
+ </col> 
+ <col> 
+ </col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> <p>New: Standard </p>
+   <p>Current: Plan</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>Edit access to:</p> 
+    <ul> 
+     <li> <p>Create Reports, Dashboards, and Calendars</p> </li> 
+     <li> <p>Create Filters, Views, and Groupings</p> </li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>View</p>
+    <p>Note: If you do not have View permission or higher to an object, information for that object doesn't display in the report.</p>  </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## Een notitierapport maken
 

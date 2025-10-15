@@ -6,9 +6,9 @@ description: U kunt doelstellingen bekijken die u of iemand anders in de Doelen 
 author: Alina
 feature: Workfront Goals
 exl-id: ec9b6789-fffe-425c-8316-eefe670ad0d6
-source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
+source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
 workflow-type: tm+mt
-source-wordcount: '1358'
+source-wordcount: '1304'
 ht-degree: 0%
 
 ---
@@ -17,13 +17,17 @@ ht-degree: 0%
 
 <!--Audited for P&P only: 4/2025-->
 
-U kunt doelstellingen bekijken die u of iemand anders in de Doelen van Adobe Workfront toevoegde. Voor informatie over het creëren van doelstellingen, zie [&#x200B; doelstellingen in de Doelen van Adobe Workfront &#x200B;](../../workfront-goals/goal-management/create-goals.md) creëren. Wanneer u doelstellingen bekijkt, kunt u informatie in de Doelen van Workfront filtreren om slechts doelstellingen te bekijken die voor u belangrijk zijn.
+U kunt doelstellingen bekijken die u of iemand anders in de Doelen van Adobe Workfront toevoegde. Voor informatie over het creëren van doelstellingen, zie [ doelstellingen in de Doelen van Adobe Workfront ](../../workfront-goals/goal-management/create-goals.md) creëren. Wanneer u doelstellingen bekijkt, kunt u informatie in de Doelen van Workfront filtreren om slechts doelstellingen te bekijken die voor u belangrijk zijn.
 
 ## Toegangsvereisten
 
-+++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
+>[!NOTE]
+>
+>Uw bedrijf zou kunnen verkiezen om de Doelen van Adobe Workfront verder te gebruiken als zij dit pakket in het verleden kochten. U moet voor meer informatie contact opnemen met uw accountvertegenwoordiger.
+>
+>Adobe Workfront Goals kan niet meer worden aangeschaft.
 
-U moet het volgende hebben:
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven. 
 
 <table style="table-layout:auto">
 <col>
@@ -31,55 +35,94 @@ U moet het volgende hebben:
 <col>
 </col>
 <tbody>
- <tr> 
-   <td role="rowheader">Adobe Workfront-abonnement*</td> 
+ <tr>
+  <td> <p>Adobe Workfront-pakket</p> </td> 
    <td> 
-   <p>Voor het nieuwe plan en de nieuwe licentiestructuur:
-  <ul><li>Een Ultimate-abonnement </li></ul>
-   </p>
-<p>Voor het huidige plan en de licentiestructuur: 
-<ul><li> Een Pro of hoger </li>
-  <li>Een Adobe Workfront Goals-licentie in aanvulling op een Workfront-licentie.</li></ul></p>
-   </td>  
+   <p>Adobe Workfront Ultimate</p>
+   </td> 
   </tr>
  <tr>
- <td role="rowheader">Adobe Workfront-licentie*</td>
+ <td role="rowheader">Adobe Workfront-licentie</td>
  <td>
- <p>Nieuwe licentie: Medewerker of hoger</p>
- of
- <p>Huidige licentie: aanvragen of hoger</p> <p>Voor meer informatie, zie <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref"> het vergunningsoverzicht van Adobe Workfront </a>.</p> </td>
+ <p>Medewerker of hoger</p>
+<p>Aanvraag of hoger</p></td>
  </tr>
- <tr>
- <td role="rowheader">Product*</td>
- <td>
-   <p> Nieuwe productvereisten: Workfront</p>
-  <p>of</p>
-   <p>Huidige productvereiste: Naast een Workfront-licentie moet u een licentie aanschaffen voor Adobe Workfront Goals. </p> <p>Voor informatie, zie <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref"> Vereisten om de Doelen van Workfront </a> te gebruiken. </p> </td>
- </tr>
- <tr>
- <td role="rowheader">Toegangsniveau</td>
+  <tr>
+ <td role="rowheader">Configuratie op toegangsniveau</td>
  <td> <p>Toegang tot doelen bewerken</p> </td>
  </tr>
  <tr data-mc-conditions="">
  <td role="rowheader">Objectmachtigingen</td>
  <td>
   <div>
-  <p>De toestemmingen van de mening of hoger aan het doel om het te bekijken</p>
-  <p>Machtigingen beheren om het te bewerken</p>
-  <p>Voor informatie over het delen van doelstellingen, zie <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref"> een doel in de Doelen van Workfront delen </a>. </p>
+  <p>De toestemmingen van de mening of hoger aan de doelstellingen om hen te bekijken</p>
+  <p>Rechten voor de doelen beheren om deze te bewerken</p>
   </div> </td>
  </tr>
- <tr>
+<tr>
    <td role="rowheader"><p>Lay-outsjabloon</p></td>
-   <td> <p>Aan alle gebruikers, inclusief Workfront-beheerders, moet een lay-outsjabloon worden toegewezen die het gebied Doelen in het hoofdmenu bevat. </p>  
+   <td> <p>Aan alle gebruikers, inclusief Systeembeheerders, moet een lay-outsjabloon worden toegewezen die het gebied Doelen in het hoofdmenu bevat. </p>  
 </td>
   </tr>
 </tbody>
 </table>
 
-*Voor meer informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+<!--Old:
+<table style="table-layout:auto">
+<col>
+</col>
+<col>
+</col>
+<tbody>
+ <tr> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td> 
+   <p>For the new plan and license structure:
+  <ul><li>An Ultimate plan </li></ul>
+   </p>
+<p>For the current plan and license structure: 
+<ul><li> A Pro or higher </li>
+  <li>An Adobe Workfront Goals license in addition to a Workfront license.</li></ul></p>
+   </td>  
+  </tr>
+ <tr>
+ <td role="rowheader">Adobe Workfront license*</td>
+ <td>
+ <p>New license: Contributor or higher</p>
+ Or
+ <p>Current license: Request or higher</p> <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p> </td>
+ </tr>
+ <tr>
+ <td role="rowheader">Product*</td>
+ <td>
+   <p> New product requirement: Workfront</p>
+  <p>Or</p>
+   <p>Current product requirement: In addition to a Workfront license, you must purchase a license for Adobe Workfront Goals. </p> <p>For information, see <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requirements to use Workfront Goals</a>. </p> </td>
+ </tr>
+ <tr>
+ <td role="rowheader">Access level</td>
+ <td> <p>Edit access to Goals</p> </td>
+ </tr>
+ <tr data-mc-conditions="">
+ <td role="rowheader">Object permissions</td>
+ <td>
+  <div>
+  <p>View or higher permissions to the goal to view it</p>
+  <p>Manage permissions to the goal to edit it</p>
+  <p>For information about sharing goals, see <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Share a goal in Workfront Goals</a>. </p>
+  </div> </td>
+ </tr>
+ <tr>
+   <td role="rowheader"><p>Layout template</p></td>
+   <td> <p>All users, including Workfront administrators,  must be assigned a layout template that includes the Goals area in the Main Menu. </p>  
+</td>
+  </tr>
+</tbody>
+</table>-->
 
 ## Overzicht van filters in Workfront Goals
 
@@ -93,7 +136,7 @@ In Workfront kunt u zoeken naar doelen in de volgende secties van het gebied Doe
 * Grafieken
 * Goal Alignment
 
-Voor informatie over de secties van het gebied van Doelen, zie [&#x200B; Overzicht van de secties van de Doelen van Adobe Workfront &#x200B;](../../workfront-goals/goal-review-and-workfront-goals-sections/overview-of-wf-goals-sections.md).
+Voor informatie over de secties van het gebied van Doelen, zie [ Overzicht van de secties van de Doelen van Adobe Workfront ](../../workfront-goals/goal-review-and-workfront-goals-sections/overview-of-wf-goals-sections.md).
 
 >[!IMPORTANT]
 >
@@ -115,7 +158,7 @@ Houd rekening met het volgende wanneer u werkt met filters in Workfront Goals:
 
 U kunt een snel filter in een lijst van doelstellingen gebruiken om u van slechts punten te helpen de plaats bepalen die voor u belangrijk zijn. U kunt snelle filters niet opslaan en deze zijn niet blijvend. Workfront wist de resultaten van een snel filter wanneer u de pagina vernieuwt.
 
-Voor meer informatie, zie [&#x200B; de snelle filter op een lijst &#x200B;](../../workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md) toepassen.
+Voor meer informatie, zie [ de snelle filter op een lijst ](../../workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md) toepassen.
 
 ## Een filter maken en toepassen in Workfront Goals
 
@@ -125,13 +168,13 @@ U kunt een geheel nieuw filter maken of een van de ingebouwde filters bewerken.
 
 1. Ga naar de Workfront-doelen.
 
-   Voor informatie over de toegang tot van Workfront Doelen, zie [&#x200B; Toegang en open doelstellingen in de Doelen van Adobe Workfront &#x200B;](../../workfront-goals/goal-management/access-goals-in-wf-goals.md)
+   Voor informatie over de toegang tot van Workfront Doelen, zie [ Toegang en open doelstellingen in de Doelen van Adobe Workfront ](../../workfront-goals/goal-management/access-goals-in-wf-goals.md)
 
    Standaard wordt de sectie Lijst met doelstellingen weergegeven.
 
 1. Klik **Filter** in de hoger-juiste hoek van de lijst.
 
-   ![&#x200B; pictogram van de Filter &#x200B;](assets/filter-icon-and-label.png)
+   ![ pictogram van de Filter ](assets/filter-icon-and-label.png)
 
    Door gebrek, past Workfront de **Al** filter toe dat alle doelstellingen in uw systeem toont.
 
@@ -175,7 +218,7 @@ U kunt een geheel nieuw filter maken of een van de ingebouwde filters bewerken.
       </tbody> 
      </table>
 
-   * Beweeg over de naam van een filter, dan klik **uitgeven** pictogram ![&#x200B; pictogram &#x200B;](assets/edit-icon.png) naast zijn naam geeft uit om het aan te passen en specifieke namen van gebruikers, teams, groepen, of de naam van uw organisatie toe te voegen, dan het selecteren wanneer zij op de lijst verschijnen.
+   * Beweeg over de naam van een filter, dan klik **uitgeven** pictogram ![ pictogram ](assets/edit-icon.png) naast zijn naam geeft uit om het aan te passen en specifieke namen van gebruikers, teams, groepen, of de naam van uw organisatie toe te voegen, dan het selecteren wanneer zij op de lijst verschijnen.
 
    * Klik **Nieuwe Filter** om een nieuw filter tot stand te brengen, dan selecteer van de volgende opties om de nieuwe filter aan te passen:
 
@@ -252,11 +295,11 @@ U kunt een geheel nieuw filter maken of een van de ingebouwde filters bewerken.
 
 1. (Facultatief en voorwaardelijk) wanneer het bekijken van doelstellingen in de sectie van de Groepering van het Doel, klik **tonen hen** als u de gefiltreerde uit doelstellingen wilt bekijken.
 
-   ![&#x200B; toon hen verbinding op gefilterde punten &#x200B;](assets/show-them-link-on-filtered-items-goal-list-350x109.png)
+   ![ toon hen verbinding op gefilterde punten ](assets/show-them-link-on-filtered-items-goal-list-350x109.png)
 
    De filternaam wordt geel weergegeven om aan te geven dat deze wordt genegeerd.
 
-   ![&#x200B; gele overzicht van de Filter &#x200B;](assets/filter-yellow-outline-next-to-reapply-filter-link-350x118.png)
+   ![ gele overzicht van de Filter ](assets/filter-yellow-outline-next-to-reapply-filter-link-350x118.png)
 
 
 1. (Facultatief en voorwaardelijk) klik **filter opnieuw toepassen** om de filter toe te passen en de punten weg te laten u in de vorige stap toonde.

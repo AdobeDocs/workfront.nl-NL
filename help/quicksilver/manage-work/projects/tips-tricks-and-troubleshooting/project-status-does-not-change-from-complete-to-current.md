@@ -3,13 +3,13 @@ content-type: tips-tricks-troubleshooting
 product-area: projects
 navigation-topic: tips-tricks-and-troubleshooting-projects
 title: De projectstatus verandert niet van Voltooid in Huidige
-description: (Hoewel dit als FAQ kan worden toegevoegd, heb ik dit als zijn eigen artikel om onderzoek-ability redenen verlaten)
+description: In dit artikel wordt een scenario beschreven waarin u de projectstatus niet kunt bijwerken van Voltooid naar Huidige.
 author: Alina
 feature: Work Management
 exl-id: 774c103f-8785-4d8b-83e9-a074e6518293
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
 workflow-type: tm+mt
-source-wordcount: '185'
+source-wordcount: '182'
 ht-degree: 0%
 
 ---
@@ -33,9 +33,9 @@ Als de Voltooiingsmodus van een project is ingesteld op Handmatig, kan de projec
 De voltooiingsmodus van een project bijwerken naar Handmatig:
 
 1. Ga naar het project u wilt bijwerken.
-1. Klik het **Meer** pictogram ![&#x200B; Meer pictogram &#x200B;](assets/more-icon.png) aan het recht van de projectnaam, dan klik **uitgeven**.
-1. Klik **&#x200B;**&#x200B;Montages van het Project **&#x200B;**.
+1. Klik het **Meer** pictogram ![ Meer pictogram ](assets/more-icon.png) aan het recht van de projectnaam, dan klik **uitgeven**.
+1. Klik **** Montages van het Project ****.
 
-1. Bepaal de plaats van de **drop-down menu van de Wijze van de Voltooiing 0&rbrace; &lbrace;en selecteer** Handboek **.**
+1. Bepaal de plaats van de **drop-down menu van de Wijze van de Voltooiing 0} {en selecteer** Handboek **.**
 
 1. Klik **sparen**.

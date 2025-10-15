@@ -8,46 +8,43 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: df10bc8f-b980-4c61-ae6d-bcea03103738
-source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
+source-git-commit: 5fd855bec596926a4361fd07a1a763c7956e5e61
 workflow-type: tm+mt
-source-wordcount: '1764'
+source-wordcount: '1749'
 ht-degree: 0%
 
 ---
 
 # Een blauwdruk configureren
 
-U kunt details van een blauwdruk vormen alvorens u het installeert. Voor de blauwdruktypen van projectsjablonen en organisatiestructuren moeten meestal enkele voorkeuren worden ingesteld en moeten bepaalde eigenschappen worden toegewezen. Voor andere typen blauwdrukken is mogelijk geen configuratie vereist en u installeert deze ongewijzigd. Voor meer informatie over installatie, zie [&#x200B; een blauwdruk &#x200B;](/help/quicksilver/administration-and-setup/blueprints/blueprints-install.md) installeren.
+U kunt details van een blauwdruk vormen alvorens u het installeert. Voor de blauwdruktypen van projectsjablonen en organisatiestructuren moeten meestal enkele voorkeuren worden ingesteld en moeten bepaalde eigenschappen worden toegewezen. Voor andere typen blauwdrukken is mogelijk geen configuratie vereist en u installeert deze ongewijzigd. Voor meer informatie over installatie, zie [ een blauwdruk ](/help/quicksilver/administration-and-setup/blueprints/blueprints-install.md) installeren.
 
 ## Toegangsvereisten
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
-
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
    <td>Alle</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licentie</td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
    <td>
-   <p>Nieuw: Standaard</p>
-   <p>of</p>
-   <p>Huidig: Plan</p></td> 
+   <p>Standard</p>
+   <p>Plan</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau</td> 
-   <td>U moet een [!DNL Workfront] beheerder zijn. </td> 
+   <td>Workfront-beheerder </td> 
   </tr> 
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -83,9 +80,9 @@ Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van d
 
 Kies hoe u de sjabloon wilt installeren.
 
-U kunt sjablooneigendom ook toewijzen voordat u de blauwdruk installeert. U kunt deze velden wijzigen nadat de sjabloon is geïnstalleerd. Voor meer informatie, zie [&#x200B; projectmalplaatjes &#x200B;](../../manage-work/projects/create-and-manage-templates/edit-templates.md) uitgeven.
+U kunt sjablooneigendom ook toewijzen voordat u de blauwdruk installeert. U kunt deze velden wijzigen nadat de sjabloon is geïnstalleerd. Voor meer informatie, zie [ projectmalplaatjes ](../../manage-work/projects/create-and-manage-templates/edit-templates.md) uitgeven.
 
-![[!UICONTROL Template Preferences] section &#x200B;](assets/Blueprints_TemplatePreferences.png)
+![[!UICONTROL Template Preferences] section ](assets/Blueprints_TemplatePreferences.png)
 
 1. Geef in de sectie [!UICONTROL Template Preferences] een nieuwe sjabloonnaam op.
 1. Geef het volgende op:
@@ -136,14 +133,14 @@ U kunt sjablooneigendom ook toewijzen voordat u de blauwdruk installeert. U kunt
    >[!INFO]
    >
    >**Voorbeeld:** de nieuwe uitgiftevoorkeur in deze blauwdruk verstrekt vier rijonderwerpen. De gebruiker selecteert één van deze onderwerpen wanneer het creëren van een kwestie. (Omdat slechts één onderwerpgroep bestaat, wordt het automatisch toegepast en de gebruiker moet het niet selecteren.) Wanneer de gebruiker voltooit en de kwestie voorlegt, bepaalt het verpletteren van regels welke baanrol of team het aan wordt toegewezen.
-   >![&#x200B; Voorkeur van de Steekproef nieuwe kwestie &#x200B;](assets/Blueprints_IssuePrefsDetails.png)
-   >![&#x200B; de onderwerpen van de Rij voor nieuwe kwestie &#x200B;](assets/blueprints-newissueqtopicsexample-350x204.png)
-   >![&#x200B; Uitgave verpletterde aan baanrol &#x200B;](assets/Blueprints_ProjectShowsIssueAssignment.png)
+   >![ Voorkeur van de Steekproef nieuwe kwestie ](assets/Blueprints_IssuePrefsDetails.png)
+   >![ de onderwerpen van de Rij voor nieuwe kwestie ](assets/blueprints-newissueqtopicsexample-350x204.png)
+   >![ Uitgave verpletterde aan baanrol ](assets/Blueprints_ProjectShowsIssueAssignment.png)
 
    >[!TIP]
    >
    >* Met de voorkeuren voor uitgaven kunt u zorgen voor consistentie bij de manier waarop nieuwe problemen of verzoeken worden vastgelegd in uw projecten.
-   >* Als u deze voorkeuren instelt, worden de projecten die op basis van de sjabloon zijn gemaakt, niet automatisch omgezet in aanvraagwachtrijen. Voor informatie over vestiging ziet een verzoekrij, [&#x200B; een Rij van het Verzoek &#x200B;](../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md) creëren.
+   >* Als u deze voorkeuren instelt, worden de projecten die op basis van de sjabloon zijn gemaakt, niet automatisch omgezet in aanvraagwachtrijen. Voor informatie over vestiging ziet een verzoekrij, [ een Rij van het Verzoek ](../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md) creëren.
    >* Niet alle blauwdrukken bevatten nieuwe uitgiftevoorkeuren.
 
 
@@ -157,7 +154,7 @@ Sommige sjablonen bevatten verplichte taakrollen. De rollen van de baan helpen u
 
 De blauwdruk zoekt door de rolnaam om te zien of om het even welke bestaande rollen aanpassen. De zoekopdracht is hoofdlettergevoelig, dus namen moeten exact overeenkomen. Als er geen bestaande rollen overeenkomen, kunt u de blauwdruk deze voor u maken.
 
-![[!UICONTROL Role Mapping] section &#x200B;](assets/Blueprints_RoleMapping.png)
+![[!UICONTROL Role Mapping] section ](assets/Blueprints_RoleMapping.png)
 
 1. Als een rol bestaat, kunt u één van de volgende opties kiezen:
 
@@ -174,9 +171,9 @@ De blauwdruk zoekt door de rolnaam om te zien of om het even welke bestaande rol
 
 >[!NOTE]
 >
->Het installatieproces past geen rollen op specifieke mensen toe. U zou de mensen in die rollen na het installeren van de blauwdrukoplossing moeten verifiëren en mensen toewijzen indien nodig. Voor informatie, zie [&#x200B; Acties na het installeren van een blauwdruk &#x200B;](../../administration-and-setup/blueprints/best-next-actions-after-install.md) te nemen.
+>Het installatieproces past geen rollen op specifieke mensen toe. U zou de mensen in die rollen na het installeren van de blauwdrukoplossing moeten verifiëren en mensen toewijzen indien nodig. Voor informatie, zie [ Acties na het installeren van een blauwdruk ](../../administration-and-setup/blueprints/best-next-actions-after-install.md) te nemen.
 
-Voor meer informatie over baanrollen in [!DNL Workfront], zie [&#x200B; creëren en baanrollen beheren &#x200B;](../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
+Voor meer informatie over baanrollen in [!DNL Workfront], zie [ creëren en baanrollen beheren ](../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
 
 ## [!UICONTROL Team mapping] {#team-mapping}
 
@@ -188,7 +185,7 @@ Sommige sjablonen bevatten voorgeschreven teams. Het werk dat aan een team wordt
 
 De blauwdruk zoekt door de teamnaam om te zien of om het even welke bestaande teams aanpassen. De zoekopdracht is hoofdlettergevoelig, dus namen moeten exact overeenkomen. Als er geen bestaande teams overeenkomen, kunt u de blauwdruk voor u maken.
 
-![[!UICONTROL Team Mapping] section &#x200B;](assets/Blueprints_TeamMapping.png)
+![[!UICONTROL Team Mapping] section ](assets/Blueprints_TeamMapping.png)
 
 1. Als een team bestaat, kunt u één van de volgende opties kiezen:
 
@@ -205,9 +202,9 @@ De blauwdruk zoekt door de teamnaam om te zien of om het even welke bestaande te
 
 >[!NOTE]
 >
->Het installatieproces voegt geen mensen toe aan de teams. U zou de mensen op de teams na het installeren van de blauwdrukoplossing moeten verifiëren en mensen toewijzen indien nodig. Voor informatie, zie [&#x200B; Acties na het installeren van een blauwdruk &#x200B;](../../administration-and-setup/blueprints/best-next-actions-after-install.md) te nemen.
+>Het installatieproces voegt geen mensen toe aan de teams. U zou de mensen op de teams na het installeren van de blauwdrukoplossing moeten verifiëren en mensen toewijzen indien nodig. Voor informatie, zie [ Acties na het installeren van een blauwdruk ](../../administration-and-setup/blueprints/best-next-actions-after-install.md) te nemen.
 
-Voor meer informatie over hoe de teamfunctie in [!DNL Workfront] werkt, zie [&#x200B; teams &#x200B;](../../people-teams-and-groups/create-and-manage-teams/create-and-mange-teams.md) creëren en beheren.
+Voor meer informatie over hoe de teamfunctie in [!DNL Workfront] werkt, zie [ teams ](../../people-teams-and-groups/create-and-manage-teams/create-and-mange-teams.md) creëren en beheren.
 
 ## Bedrijfstoewijzing {#company-mapping}
 
@@ -219,7 +216,7 @@ Sommige blauwdrukken omvatten voorgeschreven bedrijven. Een bedrijf is een organ
 
 De blauwdruk zoekt door de bedrijfsnaam om te zien of om het even welke bestaande bedrijven aanpassen. De zoekopdracht is hoofdlettergevoelig, dus namen moeten exact overeenkomen. Als er geen overeenkomende bestaande bedrijven zijn, kunt u de blauwdruk voor u maken. Het primaire bedrijf in de blauwdruk wordt in kaart gebracht aan het primaire bedrijf in uw milieu, zelfs als zij niet de zelfde naam hebben.
 
-![[!UICONTROL Company Mapping] section &#x200B;](assets/Blueprints_CompanyMapping.png)
+![[!UICONTROL Company Mapping] section ](assets/Blueprints_CompanyMapping.png)
 
 1. Als een bedrijf bestaat, kunt u één van de volgende opties kiezen:
 
@@ -238,11 +235,11 @@ De blauwdruk zoekt door de bedrijfsnaam om te zien of om het even welke bestaand
 
 >[!NOTE]
 >
->Om de bedrijven na het installeren van de blauwdruk te vormen, zie [&#x200B; Acties na het installeren van een blauwdruk &#x200B;](../../administration-and-setup/blueprints/best-next-actions-after-install.md) te nemen.
+>Om de bedrijven na het installeren van de blauwdruk te vormen, zie [ Acties na het installeren van een blauwdruk ](../../administration-and-setup/blueprints/best-next-actions-after-install.md) te nemen.
 
-Voor informatie over het associëren van een malplaatje met een bedrijf, zie [&#x200B; projectmalplaatjes &#x200B;](../../manage-work/projects/create-and-manage-templates/edit-templates.md) uitgeven.
+Voor informatie over het associëren van een malplaatje met een bedrijf, zie [ projectmalplaatjes ](../../manage-work/projects/create-and-manage-templates/edit-templates.md) uitgeven.
 
-Voor informatie over hoe de bedrijven in [!DNL Workfront] functioneren, zie [&#x200B; bedrijven &#x200B;](../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md) creëren en uitgeven.
+Voor informatie over hoe de bedrijven in [!DNL Workfront] functioneren, zie [ bedrijven ](../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md) creëren en uitgeven.
 
 ## [!UICONTROL Group mapping] {#group-mapping}
 
@@ -254,7 +251,7 @@ Sommige blauwdrukken bevatten voorgeschreven groepen. Een groep is een groep geb
 
 De blauwdruk zoekt op de groepsnaam of er bestaande groepen overeenkomen. De zoekopdracht is hoofdlettergevoelig, dus namen moeten exact overeenkomen. Als er geen bestaande groepen overeenkomen, kunt u de blauwdruk voor u maken.
 
-![[!UICONTROL Group Mapping] section &#x200B;](assets/Blueprints_GroupMapping.png)
+![[!UICONTROL Group Mapping] section ](assets/Blueprints_GroupMapping.png)
 
 1. Als er een groep bestaat, kunt u **[!UICONTROL Remap Group]** selecteren en een van de volgende opties kiezen:
 
@@ -273,6 +270,6 @@ De blauwdruk zoekt op de groepsnaam of er bestaande groepen overeenkomen. De zoe
 
 >[!NOTE]
 >
->Om de groepen na het installeren van de blauwdruk te vormen, zie [&#x200B; Acties na het installeren van een blauwdruk &#x200B;](../../administration-and-setup/blueprints/best-next-actions-after-install.md) te nemen.
+>Om de groepen na het installeren van de blauwdruk te vormen, zie [ Acties na het installeren van een blauwdruk ](../../administration-and-setup/blueprints/best-next-actions-after-install.md) te nemen.
 
-Voor informatie over het gebruiken van groepen in [!DNL Workfront], zie [&#x200B; Overzicht van Groepen &#x200B;](../../administration-and-setup/manage-groups/groups-overview/groups.md).
+Voor informatie over het gebruiken van groepen in [!DNL Workfront], zie [ Overzicht van Groepen ](../../administration-and-setup/manage-groups/groups-overview/groups.md).

@@ -6,7 +6,7 @@ description: Het doel van het dashboard is om snel toegang tot informatie te bie
 author: Nolan
 feature: Reports and Dashboards
 exl-id: de15ab45-4bcd-4638-b3d7-fc70a0866d2d
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: c8b7ad473b0c2120ef5ea52374b3501ad6f553f1
 workflow-type: tm+mt
 source-wordcount: '497'
 ht-degree: 0%
@@ -21,11 +21,11 @@ Het doel van het dashboard is om snel toegang tot informatie te bieden. In Adobe
 
 * Rapporten
 
-  Voor meer informatie over het creëren van rapporten, zie [&#x200B; een douanerapport &#x200B;](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) creëren.
+  Voor meer informatie over het creëren van rapporten, zie [ een douanerapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) creëren.
 
 * Externe pagina&#39;s
 
-  Voor meer informatie over het creëren van externe pagina&#39;s, zie [&#x200B; een externe Web-pagina in een dashboard &#x200B;](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md) inbedden.
+  Voor meer informatie over het creëren van externe pagina&#39;s, zie [ een externe Web-pagina in een dashboard ](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md) inbedden.
 
 Nadat u deze items hebt gemaakt en deze aan een dashboard hebt toegevoegd, kunt u het dashboard bewerken om er meer items aan toe te voegen, er bestaande items uit te verwijderen of de dashboardgegevens te bewerken.
 
@@ -35,43 +35,36 @@ Wanneer u een dashboard met gebruikers deelt, worden alle rapporten en externe p
 
 ## Toegangsvereisten
 
-+++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven. 
 
-U moet het volgende hebben:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront-plan</strong></td> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront-licentie</strong></td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
    <td> 
-      <p>Nieuw:</p>
-         <ul>
-         <li><p>Standaard</p></li>
-         </ul>
-      <p>Huidige:</p>
-         <ul>
-         <li><p>Plan</p></li>
-         </ul>
+      <p>Standard</p>
+      <p>Plan</p>
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Configuraties op toegangsniveau</strong></td> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
    <td> <p>Toegang tot rapporten, dashboards en kalenders bewerken</p></td> 
-  </tr> 
+  </tr>  
   <tr> 
-   <td role="rowheader"><strong>Objectmachtigingen</strong></td> 
+   <td role="rowheader">Objectmachtigingen</td> 
    <td> <p>Rechten voor het dashboard beheren</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -79,18 +72,18 @@ Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van W
 
 U moet een dashboard maken voordat u het kunt bewerken.
 
-Voor informatie bij het creëren van dashboards, zie [&#x200B; een dashboard &#x200B;](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md) creëren.
+Voor informatie bij het creëren van dashboards, zie [ een dashboard ](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md) creëren.
 
 ## Een dashboard bewerken
 
 1. Ga naar het dashboard dat u wilt bewerken.
 1. Klik **Acties van het Dashboard**, dan klik **uitgeven**.
 
-   ![&#x200B; geef dashboard &#x200B;](assets/unshimmed-edit-dashboard.png) uit
+   ![ geef dashboard ](assets/unshimmed-edit-dashboard.png) uit
 
    >[!TIP]
    >
-   >Leren hoe te om een dashboard te schrappen, zie [&#x200B; een dashboard &#x200B;](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/delete-dashboard.md) schrappen.
+   >Leren hoe te om een dashboard te schrappen, zie [ een dashboard ](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/delete-dashboard.md) schrappen.
 
 1. U kunt de volgende velden bewerken:
 
@@ -109,6 +102,6 @@ Voor informatie bij het creëren van dashboards, zie [&#x200B; een dashboard &#x
 1. (Optioneel) Klik op **Externe pagina toevoegen** om een externe pagina aan het dashboard toe te voegen.\
    of\
    Bepaal de plaats van een bestaande externe pagina in het dashboard, dan muis over het en klik **uitgeven** pictogram om de externe pagina uit te geven.\
-   Voor meer informatie over het toevoegen van of het uitgeven van externe pagina&#39;s in een dashboard, zie [&#x200B; een externe Web-pagina in een dashboard &#x200B;](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md) inbedden.
+   Voor meer informatie over het toevoegen van of het uitgeven van externe pagina&#39;s in een dashboard, zie [ een externe Web-pagina in een dashboard ](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md) inbedden.
 
 1. Klik **sparen + Sluiten**.

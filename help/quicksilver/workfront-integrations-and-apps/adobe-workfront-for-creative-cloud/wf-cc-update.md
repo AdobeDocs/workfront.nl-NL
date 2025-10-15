@@ -6,10 +6,10 @@ description: U kunt uw werk bijwerken met de Adobe Workfront-insteekmodule.
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: 865beaa8-a585-4bdd-9d04-b5fbdf40748c
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+source-git-commit: a65a4568c6428768ee6bc60a59a8499efdbec9f8
 workflow-type: tm+mt
-source-wordcount: '213'
-ht-degree: 0%
+source-wordcount: '184'
+ht-degree: 1%
 
 ---
 
@@ -23,7 +23,6 @@ U kunt uw werk bijwerken vanuit de volgende [!DNL Adobe Creative Cloud] -toepass
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -32,25 +31,27 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </col> 
  <tbody> 
   <tr> 
-   <!--<td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
-   <td> <p>[!UICONTROL Pro] or higher</p> </td> 
+   <!--<td role="rowheader">[!DNL Adobe Workfront] package</td> 
+   <td>Any</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
-   <td> <p>[!UICONTROL Work] or [!UICONTROL Plan]</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] license</td> 
+   <td> 
+   <p>Standard</p>
+   <p>Work or higher</p> </td> 
   </tr> -->
   <tr> 
-   <td role="rowheader">Product</td> 
+   <td role="rowheader">Aanvullende producten</td> 
    <td>U moet een [!DNL Adobe Creative Cloud] licentie hebben naast een [!DNL Workfront] licentie.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>[!UICONTROL View] toegang tot het object dat u wilt bijwerken. </p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
+   <td> <p>[!UICONTROL View] toegang tot het object dat u wilt bijwerken. </p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw [!DNL Workfront] beheerder.
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -86,11 +87,11 @@ Een update plaatsen:
 
 1. Klik op het pictogram **[!UICONTROL Menu]** in de rechterbovenhoek en selecteer vervolgens **[!UICONTROL Work List]** . U kunt het menu ook gebruiken om naar bovenliggende objecten te navigeren.
 
-   ![&#x200B; Terugkeer aan de Lijst van het Werk &#x200B;](assets/go-back-to-work-list-350x314.png)
+   ![ Terugkeer aan de Lijst van het Werk ](assets/go-back-to-work-list-350x314.png)
 
 1. Selecteer in het **[!UICONTROL Work List]** het werkitem waarnaar u een update wilt posten.
 1. Klik op **[!UICONTROL Update]** in de navigatiebalk.\
-   ![&#x200B; de update van Photoshop &#x200B;](assets/photoshop-update-350x295.png)
+   ![ de update van Photoshop ](assets/photoshop-update-350x295.png)
 
 1. Klik op **[!UICONTROL New Update]**.
 1. Typ de update.

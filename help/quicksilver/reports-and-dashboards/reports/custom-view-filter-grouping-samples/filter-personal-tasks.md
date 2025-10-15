@@ -7,9 +7,9 @@ description: Met dit taakfilter worden ad-hocverzoeken geretourneerd die naar ee
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 204cfae1-7c57-4223-9e00-ac94e1e2ba3a
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '305'
+source-wordcount: '291'
 ht-degree: 0%
 
 ---
@@ -22,34 +22,27 @@ Dit taakfilter retourneert ad-hocwerkverzoeken die naar een gebruiker zijn verzo
 
 Ad-hocverzoeken voor werk en items voor taken worden in Adobe Workfront opgeslagen als persoonlijke taken.
 
-De persoonlijke taken worden niet verbonden met een project maar zij kunnen aan een project worden verplaatst, indien nodig. Voor informatie, zie [&#x200B; persoonlijke taken &#x200B;](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/create-personal-tasks.md) creëren.
+De persoonlijke taken worden niet verbonden met een project maar zij kunnen aan een project worden verplaatst, indien nodig. Voor informatie, zie [ persoonlijke taken ](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/create-personal-tasks.md) creëren.
 
-![&#x200B; Persoonlijke takenrapport &#x200B;](assets/personal-tasks-report.png)
+![ Persoonlijke takenrapport ](assets/personal-tasks-report.png)
 
 ## Toegangsvereisten
 
-+++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
-
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan</td> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie*</td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
    <td> 
-    <p>Nieuw:</p>
-   <ul><li><p>Medewerker om een filter te wijzigen </p></li>
-   <li><p>Standaard voor het wijzigen van een rapport</p></li> </ul>
-
-<p>Huidige:</p>
-   <ul><li><p>Verzoek om een filter te wijzigen </p></li>
-   <li><p>Plan om een rapport te wijzigen</p></li> </ul></td> 
+   <p>Medewerker of verzoek om een filter te wijzigen </p>
+   <p>Standaard of Plan om een rapport te wijzigen</p>
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau</td> 
@@ -62,7 +55,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-*For informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

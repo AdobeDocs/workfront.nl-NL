@@ -7,9 +7,9 @@ description: Lag is de hoeveelheid tijd die na de voltooiing van gedwongen voorg
 author: Alina
 feature: Work Management
 exl-id: 9b3cac9a-1b8d-4697-b5d4-a2d669c790a9
-source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
+source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
 workflow-type: tm+mt
-source-wordcount: '1452'
+source-wordcount: '1444'
 ht-degree: 0%
 
 ---
@@ -31,29 +31,55 @@ De geplande, voorspelde en geschatte datums van de vervolgtaken worden berekend 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan</td> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td><p>Nieuw: Standaard</p>
-       <p>of</p>
-       <p>Huidig: Plan </p> </td>
+   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td><p>Standard</p> 
+   <p>Plan</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Toegangsniveau</td> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
    <td> <p>Toegang tot taken en projecten bewerken</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Rechten voor de taken en het project beheren</p> </td> 
+   <td> <p>Rechten voor de taken en het project beheren</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-*For meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td><p>New: Standard</p>
+       <p>or</p>
+       <p>Current: Plan </p> </td>
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level</td> 
+   <td> <p>Edit access to Tasks and Projects</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>Manage permissions to the tasks and the project</p> </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## Laagtypen {#lag-types}
 
@@ -144,11 +170,11 @@ U kunt vlagtypes op taken wijzen wanneer u hun voorgangersverhoudingen bepaalt.
 1. Ga naar een taak waarvoor u voorganger en het Type van Lag wilt bepalen.
 1. Klik **Predecessors** in het linkerpaneel.
 1. Klik **toevoegen Voorganger**.
-1. (Facultatief) als u een dwars-projectvoorganger wilt toevoegen, vervang de **naam van het Project van de ouder** &lbrace;met een ander project.
+1. (Facultatief) als u een dwars-projectvoorganger wilt toevoegen, vervang de **naam van het Project van de ouder** {met een ander project.
 1. Typ de naam van de voorgaande taak en selecteer deze wanneer deze in de lijst wordt weergegeven.
 1. Selecteer het **Type van Afhankelijkheid**.
 
-   Voor meer informatie over de Types van Afhankelijkheid van predecessor, zie [&#x200B; Overzicht van de types van taakgebiedsdeel &#x200B;](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
+   Voor meer informatie over de Types van Afhankelijkheid van predecessor, zie [ Overzicht van de types van taakgebiedsdeel ](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
 
 1. Specificeer a **bedrag van de a** Lag gebruikend een numerieke waarde. U kunt negatieve getallen opgeven om een negatieve vertraging aan te geven.
 1. Selecteer een van de volgende opties om het type vertraging aan te geven dat u voor uw voorganger wilt opgeven:
@@ -159,7 +185,7 @@ U kunt vlagtypes op taken wijzen wanneer u hun voorgangersverhoudingen bepaalt.
    * **Dag van de Week**
    * **Dag van de Week (Nul)**
 
-     Voor meer informatie over deze Types van Lag en hoe zij worden berekend, zie de types van sectie [&#x200B; Lag &#x200B;](#lag-types) in dit artikel.
+     Voor meer informatie over deze Types van Lag en hoe zij worden berekend, zie de types van sectie [ Lag ](#lag-types) in dit artikel.
 
 1. Klik **sparen**.
 
@@ -167,20 +193,20 @@ U kunt vlagtypes op taken wijzen wanneer u hun voorgangersverhoudingen bepaalt.
 
 1. Ga naar een taaklijst, en selecteer de **Standaard** mening.
 
-1. Klik binnen de **1&rbrace; kolom van Predecessors &lbrace;die aan de taak beantwoordt waarvoor u een voorganger en een vertragingsbedrag wilt specificeren.**
+1. Klik binnen de **1} kolom van Predecessors {die aan de taak beantwoordt waarvoor u een voorganger en een vertragingsbedrag wilt specificeren.**
 1. Voer het volgende in zonder spaties:
 
    * het aantal van de taak u als voorganger van de geselecteerde taak wilt wijzen
    * de afkorting voor het gebiedstype u tussen de taken wilt wijzen
 
-     Voor meer informatie over de afkortingen voor de Types van Afhankelijkheid, zie [&#x200B; Overzicht van de types van taakgebiedsdeel &#x200B;](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
+     Voor meer informatie over de afkortingen voor de Types van Afhankelijkheid, zie [ Overzicht van de types van taakgebiedsdeel ](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
 
    * of a **+** voor een positieve vertraging of a **-** voor een negatieve vertraging
 
    * de omvang van de vertraging
    * de afkorting voor het gewenste Laagtype
 
-     Voor meer informatie over de afkortingen voor de Types van Lag, zie de sectie [&#x200B; Types van Lag &#x200B;](#lag-types) in dit artikel.
+     Voor meer informatie over de afkortingen voor de Types van Lag, zie de sectie [ Types van Lag ](#lag-types) in dit artikel.
 
    Als u bijvoorbeeld wilt aangeven dat een taak een voorganger en een positieve vertraging van twee dagen heeft, typt u `1fs+2d` in de kolom Voorgangers.
 

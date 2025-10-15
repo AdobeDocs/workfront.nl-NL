@@ -8,9 +8,9 @@ feature: System Setup and Administration
 role: Admin
 author: Lisa
 exl-id: 9243ee60-006b-4628-bde7-5b037dde7511
-source-git-commit: 379772f6bd1ed9448e6fd5feee956a931f65f69e
+source-git-commit: 156341072c291b5c03432da399a509d9772b73ea
 workflow-type: tm+mt
-source-wordcount: '347'
+source-wordcount: '326'
 ht-degree: 0%
 
 ---
@@ -27,38 +27,33 @@ U kunt Diagnostiek gebruiken om geautomatiseerde processen, zoals op tijd gebase
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan</td> 
-   <td>Alle</td> 
+   <td>Adobe Workfront-pakket</td> 
+   <td><p>Alle</p></td> 
   </tr> 
   <tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront-licentie</td> 
-   <td><p>Nieuw: Standaard</p>
-       <p>of</p>
-       <p>Huidig: Plan</p></td>
-  </tr> 
+   <td>Adobe Workfront-licentie</td> 
+   <td><p>Standard</p>
+       <p>Plan</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau</td> 
-   <td>[!UICONTROL System Administrator]</td>
+   <td>Configuraties op toegangsniveau</td> 
+   <td>Systeembeheerder</td> 
   </tr> 
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Gebruik diagnostiek om geautomatiseerde processen te activeren
 
-1. Klik het **pictogram 1&rbrace; van het Belangrijkste Menu ![&#x200B; Belangrijkste menupictogram &#x200B;](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik** de montages van de Opstelling **![&#x200B; Gear pictogram &#x200B;](assets/gear-icon-settings.png).**
+1. Klik het **pictogram 1} van het Belangrijkste Menu** Belangrijkste menupictogram ![ in de hoger-juiste hoek van Adobe Workfront, dan klik ](assets/main-menu-icon.png) de montages van de Opstelling **** Gear pictogram ![.](assets/gear-icon-settings.png)
 
 1. Breid **Systeem** uit, dan klik **Diagnostiek**.
 1. Selecteer een van de volgende opties:

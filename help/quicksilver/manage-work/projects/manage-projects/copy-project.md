@@ -7,9 +7,9 @@ author: Alina
 feature: Projects, Work Management
 role: User
 exl-id: 1bb133a8-eb76-46b8-969f-37f57f9453b4
-source-git-commit: 3827e834a71084f14a99cb27aadefd97327b02d7
+source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
 workflow-type: tm+mt
-source-wordcount: '715'
+source-wordcount: '712'
 ht-degree: 0%
 
 ---
@@ -52,36 +52,6 @@ Houd er rekening mee dat projecten niet in bulk kunnen worden gekopieerd.
 
 ## Toegangsvereisten
 
-<!-- drafted for P&P:
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td> <p>Adobe Workfront plan*</p> </td> 
-   <td>Any</td> 
-  </tr> 
-  <tr> 
-   <td> <p>Adobe Workfront license*</p> </td> 
-   <td> <p>Current license: Standard </p> 
-   Or
-   <p>Legacy license: Plan </p>
-   </td> 
-  </tr> 
-  <tr data-mc-conditions=""> 
-   <td><strong>Access level configurations*</strong> </td> 
-   <td> <p>Edit access to Projects with ability to Create <span>and Copy</span> projects</p> <p><b>NOTE</b>
-   
-   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
-  </tr> 
-  <tr data-mc-conditions=""> 
-   <td> <p><strong>Object permissions</strong> </p> </td> 
-   <td> <p>View permissions or higher to the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
--->
-
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
@@ -90,31 +60,57 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  <col> 
  <tbody> 
   <tr> 
-   <td> <p>Adobe Workfront-plan</p> </td> 
+   <td> <p>Adobe Workfront-pakket</p> </td>  
    <td>Alle</td> 
   </tr> 
   <tr> 
    <td> <p>Adobe Workfront-licentie</p> </td> 
-   <td> <p>Nieuw: Standaard </p> 
-   <p>of</p>
-   <p>Huidig: Plan </p>
+   <td> <p>Standard</p> 
+   <p>Plan</p>
+      </td> 
+  </tr> 
+     <td>Configuraties op toegangsniveau </td> 
+   <td> <p>Toegang tot projecten bewerken met de mogelijkheid projecten te maken en te kopiëren</p> </td> 
+  </tr>
 
-</td> 
-  </tr> 
-  <tr data-mc-conditions=""> 
-   <td>Configuraties op toegangsniveau </td> 
-   <td> <p>Geef toegang tot Projecten met capaciteit uit om <span> te creëren en </span> projecten te kopiëren</p> </td> 
-  </tr> 
-  <tr data-mc-conditions=""> 
-   <td> <p>Objectmachtigingen </p> </td> 
+<td> <p>Objectmachtigingen </p> </td> 
    <td> <p>Machtigingen of hoger weergeven voor het project</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+<!--Old:
+ 
+ <table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td> <p>Adobe Workfront plan</p> </td> 
+   <td>Any</td> 
+  </tr> 
+  <tr> 
+   <td> <p>Adobe Workfront license</p> </td> 
+   <td> <p>New: Standard </p> 
+   <p>Or</p>
+   <p>Current: Plan </p>
+   
+   </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>Access level configurations </td> 
+   <td> <p>Edit access to Projects with ability to Create <span>and Copy</span> projects</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td> <p>Object permissions </p> </td> 
+   <td> <p>View permissions or higher to the project</p>  </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## Eén project kopiëren
 
@@ -124,17 +120,17 @@ Een project kopiëren:
 
 {{step1-to-projects}}
 
-1. Selecteer het project dat u van de projectlijst wilt kopiëren, dan klik **Meer** pictogram ![&#x200B; Meer menu &#x200B;](assets/more-icon.png) rechts van de projectnaam.
+1. Selecteer het project dat u van de projectlijst wilt kopiëren, dan klik **Meer** pictogram ![ Meer menu ](assets/more-icon.png) rechts van de projectnaam.
 
    of
 
-   Ga naar een projectlijst of een rapport en selecteer een project, dan klik het **Meer** pictogram ![&#x200B; Meer menu &#x200B;](assets/more-icon.png) bij de bovenkant van de lijst.
+   Ga naar een projectlijst of een rapport en selecteer een project, dan klik het **Meer** pictogram ![ Meer menu ](assets/more-icon.png) bij de bovenkant van de lijst.
 
 1. In **Meer** drop-down menu, klik **Exemplaar**. Het **Exemplaar van [ de dialoogvakje van de Naam van het Project]** verschijnt.
 
 1. (Facultatief) werk de **Naam van het Project** bij. Door gebrek, is de nieuwe naam **Exemplaar van [ Oorspronkelijke projectnaam]**.
 
-   ![&#x200B; het projectvakje van het Exemplaar &#x200B;](assets/copy-of-project-box.png)
+   ![ het projectvakje van het Exemplaar ](assets/copy-of-project-box.png)
 
 1. Selecteer a **Status**. Standaard is de status van het oorspronkelijke project geselecteerd.
 
@@ -184,7 +180,7 @@ Een project kopiëren:
       <td role="rowheader">Geforceerde uren</td> 
       <td> <p>Verwijdert de uren die in het gebied van de Planning van het Middel van het BedrijfsGeval van het project in de begroting worden opgenomen uit het gekopieerde project.</p> 
     <p>
-   De uren die in de begroting zijn opgenomen met de Scenario Planner worden nooit naar het nieuwe project gekopieerd omdat het nieuwe project niet gekoppeld is aan een initiatief in de Scenario Planner. Voor meer informatie, zie &lbrace;de middelen van de Begroting in het BedrijfsGeval gebruikend de Planner van het Scenario </a><a href="../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md"></p>
+   De uren die in de begroting zijn opgenomen met de Scenario Planner worden nooit naar het nieuwe project gekopieerd omdat het nieuwe project niet gekoppeld is aan een initiatief in de Scenario Planner. Voor meer informatie, zie {de middelen van de Begroting in het BedrijfsGeval gebruikend de Planner van het Scenario <a href="../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md"></a></p>
    </tr></td>
     <tr> 
       <td role="rowheader">Financiële informatie</td> 

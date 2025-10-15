@@ -6,9 +6,9 @@ description: De informatie op deze pagina verwijst naar functionaliteit die alle
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 568360df-bec9-4767-8b5a-32a294d05d47
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '625'
+source-wordcount: '617'
 ht-degree: 0%
 
 ---
@@ -29,49 +29,43 @@ Hoewel de testomgevingen zo dicht mogelijk bij uw productieomgeving moeten werke
 
 U kunt rapporten plannen in de testmilieu&#39;s, maar de manier zij worden geleverd verschilt van hoe zij van het milieu van de Productie worden geleverd.
 
-Voor informatie over het plannen van rapporten voor levering in het milieu van de Productie, zie [&#x200B; de leveringsoverzicht van het Rapport &#x200B;](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md).
+Voor informatie over het plannen van rapporten voor levering in het milieu van de Productie, zie [ de leveringsoverzicht van het Rapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md).
 
 Afhankelijk van waar u de rapporten plant, verschilt de leveringsfunctionaliteit tussen de Voorproef en de Douane verfrist zandbakken.
 
 ## Toegangsvereisten
 
-+++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
-
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-abonnement*</td> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie*</td> 
-      <td> 
-      <p>Nieuw:</p>
-         <ul>
-         <li><p>Standaard</p></li>
-         </ul>
-      <p>Huidige:</p>
-         <ul>
-         <li><p>Plan</p></li>
-         </ul>
+   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td> 
+      <p>Standard</p>
+      <p>Plan</p>
    </td>
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot rapporten, dashboards, kalenders bewerken</p> <p>Toegang tot filters, weergaven, groepen bewerken</p></td> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
+   <td> <p>Toegang tot rapporten, dashboards, kalenders bewerken</p>
+   <p>Toegang tot filters, weergaven, groepen bewerken</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Machtigingen beheren voor een rapport</p></td> 
+     <td> <p>Machtigingen beheren voor een rapport</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-*For informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -83,11 +77,11 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 Of een geleverd rapport wordt geproduceerd of niet in het milieu van de Voorproef hangt af van of **e-mails van dit testmilieu** wordt toegelaten of niet ontvangt.
 
-Voor informatie over het toelaten van e-mails van het milieu Sandbox zie [&#x200B; levering van e-mails van het milieu van de zandbak van de Voorproef &#x200B;](../../../workfront-basics/using-notifications/enable-delivery-emails-from-preview-sandbox-environment.md) toelaten.
+Voor informatie over het toelaten van e-mails van het milieu Sandbox zie [ levering van e-mails van het milieu van de zandbak van de Voorproef ](../../../workfront-basics/using-notifications/enable-delivery-emails-from-preview-sandbox-environment.md) toelaten.
 
-![&#x200B; ontvang e-mails van zandbakoptie &#x200B;](assets/receive-emails-from-sandbox-setting-edit-350x223.png)
+![ ontvang e-mails van zandbakoptie ](assets/receive-emails-from-sandbox-setting-edit-350x223.png)
 
-Het plannen van rapporten voor levering in het milieu van de Voorproef is identiek aan het plannen van rapporten in het milieu van de Productie. Voor informatie over het plannen van een rapport voor levering, zie [&#x200B; de leveringsoverzicht van het Rapport &#x200B;](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md).
+Het plannen van rapporten voor levering in het milieu van de Voorproef is identiek aan het plannen van rapporten in het milieu van de Productie. Voor informatie over het plannen van een rapport voor levering, zie [ de leveringsoverzicht van het Rapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md).
 
 Wanneer u een rapport voor levering in het milieu van de Voorproef plant, bestaan de volgende scenario&#39;s:
 
@@ -98,11 +92,11 @@ Wanneer u een rapport voor levering in het milieu van de Voorproef plant, bestaa
 
 Of een geleverd rapport wordt geproduceerd of niet in de Douane verfrist Sandbox hangt af van of ontvangt e-mail van deze testmilieu het plaatsen of niet wordt toegelaten.
 
-Voor informatie over het toelaten van e-mails van het milieu van de Voorproef zie de sectie [&#x200B; Mening en wijzig uw montages van het e-mailbericht &#x200B;](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md#view) in het artikel [&#x200B; uw eigen e-mailberichten &#x200B;](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md) wijzigen.
+Voor informatie over het toelaten van e-mails van het milieu van de Voorproef zie de sectie [ Mening en wijzig uw montages van het e-mailbericht ](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md#view) in het artikel [ uw eigen e-mailberichten ](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md) wijzigen.
 
-![&#x200B; ontvang e-mails van zandbakoptie &#x200B;](assets/receive-emails-from-sandbox-setting-edit-350x223.png)
+![ ontvang e-mails van zandbakoptie ](assets/receive-emails-from-sandbox-setting-edit-350x223.png)
 
-Het plannen van rapporten voor levering in het milieu van de Zandbak van de Douane verfrist zich is identiek aan het plannen van rapporten in het milieu van de Productie. Voor informatie over het plannen van een rapport voor levering, zie [&#x200B; de leveringsoverzicht van het Rapport &#x200B;](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md).
+Het plannen van rapporten voor levering in het milieu van de Zandbak van de Douane verfrist zich is identiek aan het plannen van rapporten in het milieu van de Productie. Voor informatie over het plannen van een rapport voor levering, zie [ de leveringsoverzicht van het Rapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md).
 
 Wanneer u een rapport voor levering in het milieu van de Zandbak van de Douane plant verfrist, bestaan de volgende scenario&#39;s:
 

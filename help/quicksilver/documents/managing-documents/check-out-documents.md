@@ -6,9 +6,9 @@ description: U kunt een document uitchecken om te voorkomen dat andere gebruiker
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 15d9ea43-1cee-4cb1-9365-4374a291c090
-source-git-commit: 85a2f154b3b561cdf53c68d50e66b8945f9f9823
+source-git-commit: 4a0448583cbcfd1f1df10d6474fdf4e77e7bff3e
 workflow-type: tm+mt
-source-wordcount: '694'
+source-wordcount: '634'
 ht-degree: 0%
 
 ---
@@ -21,32 +21,32 @@ U kunt een document uitchecken om te voorkomen dat andere gebruikers het documen
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-abonnement*</td> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Controleren of hoger</p> </td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td> 
+   <p>Medewerker of hoger</p>
+   <p>Controleren of hoger</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot documenten bewerken</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
+   <td> <p>Toegang tot documenten bewerken</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Toegang tot het document beheren</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
+   <td> <p>Toegang tot het document beheren</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -67,7 +67,7 @@ Gebruikers met beheerde toegang tot het document kunnen het volgende doen:
 * Goedkeuren of een goedkeuring op het document toepassen.
 * Het document controleren in de proefdrukviewer
 
-  Voor meer informatie over het proef, zie [&#x200B; het Bewijzen &#x200B;](../../review-and-approve-work/proofing/proofing.md)
+  Voor meer informatie over het proef, zie [ het Bewijzen ](../../review-and-approve-work/proofing/proofing.md)
 
 ## Een document uitchecken
 
@@ -75,11 +75,11 @@ Als u beheerdersmachtigingen voor een document hebt, kunt u het uitchecken om be
 
 1. Ga naar het gebied waar het document is opgeslagen en selecteer het document. 
 
-   Voor informatie over het toevoegen van documenten, zie [&#x200B; documenten aan Adobe Workfront van uw dossiersysteem &#x200B;](../../documents/adding-documents-to-workfront/add-documents-from-file-system.md) toevoegen.
+   Voor informatie over het toevoegen van documenten, zie [ documenten aan Adobe Workfront van uw dossiersysteem ](../../documents/adding-documents-to-workfront/add-documents-from-file-system.md) toevoegen.
 
-1. Klik het **pictogram van de Controle uit** pictogram ![&#x200B; Controle uit &#x200B;](assets/check-out-25x23.png).
+1. Klik het **pictogram van de Controle uit** pictogram ![ Controle uit ](assets/check-out-25x23.png).
 
-1. Een slotpictogram ![&#x200B; het pictogram van het Slot &#x200B;](assets/lock-icon-locked-qs.png) toont rechts van de documentnaam. Het document blijft uitgecheckt nadat u zich hebt afgemeld bij Workfront.
+1. Een slotpictogram ![ het pictogram van het Slot ](assets/lock-icon-locked-qs.png) toont rechts van de documentnaam. Het document blijft uitgecheckt nadat u zich hebt afgemeld bij Workfront.
 1. Alleen de gebruiker die het document heeft uitgecheckt of de Workfront-beheerder kan het document inchecken.
 
 ## Uitgecheckte documenten beheren
@@ -91,7 +91,7 @@ Overweeg het volgende over uitgecheckte documenten:
 * Als de Workfront-beheerder een gebruiker verwijdert die een document dat hij of zij heeft uitgecheckt en het document op een object wordt geüpload, blijft het document uitgecheckt. Alleen een Workfront-beheerder kan deze weer inchecken.
 * Als de Workfront-beheerder een gebruiker verwijdert die een document dat hij of zij heeft uitgecheckt en het document alleen wordt geüpload in het gebied Documenten (niet in een object), wordt het document met de gebruiker verwijderd.
 
-  Voor informatie over het schrappen van gebruikers, zie [&#x200B; gebruikers van de Schrapping &#x200B;](../../administration-and-setup/add-users/create-and-manage-users/delete-a-user.md).
+  Voor informatie over het schrappen van gebruikers, zie [ gebruikers van de Schrapping ](../../administration-and-setup/add-users/create-and-manage-users/delete-a-user.md).
 
 * Als de Workfront-beheerder een gebruiker deactiveert, blijven alle uitgecheckte documenten uitgecheckt. Alleen een Workfront-beheerder kan ze weer inchecken. 
 
@@ -103,6 +103,6 @@ Een document inchecken:
 
 1. Ga naar het gebied waar het document is opgeslagen en selecteer het document. 
 
-   Een slotpictogram ![&#x200B; het pictogram van het Slot &#x200B;](assets/lock-icon-locked-qs.png) toont rechts van de documentnaam.
+   Een slotpictogram ![ het pictogram van het Slot ](assets/lock-icon-locked-qs.png) toont rechts van de documentnaam.
 
-1. Klik het **pictogram van de Controle binnen** ![&#x200B; Controle in pictogram &#x200B;](assets/check-in-25x22.png).
+1. Klik het **pictogram van de Controle binnen** ![ Controle in pictogram ](assets/check-in-25x22.png).

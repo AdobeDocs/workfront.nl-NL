@@ -8,9 +8,9 @@ author: Courtney, Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 7cf4787d-7cff-489e-bd5b-69db3ff09f6e
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 85ccee879fd4ba5a80b6e885458839901f83d26e
 workflow-type: tm+mt
-source-wordcount: '581'
+source-wordcount: '539'
 ht-degree: 0%
 
 ---
@@ -23,28 +23,30 @@ Metagegevens zijn beschrijvende informatie die aan een document is gekoppeld. U 
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
-   <td>Alle</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licentie</td> 
-   <td>[!UICONTROL Plan]</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau</td> 
-   <td> <p>U moet een [!DNL Workfront] beheerder zijn. Voor meer informatie, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref"> een gebruiker volledige administratieve toegang verlenen </a>.</p> <p><b> NOTA </b>: Als u nog geen toegang hebt, vraag uw [!DNL Workfront] beheerder als zij extra beperkingen in uw toegangsniveau plaatsen. Voor informatie over hoe een [!DNL Workfront] beheerder uw toegangsniveau kan wijzigen, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
-  </tr> 
- </tbody> 
+<table>
+  <tr>
+   <td>Adobe Workfront-pakket
+   </td>
+   <td> <p>Prime of Ultimate</p>
+    <p>Workflow Ultimate</p>
+   </td>
+  </tr>
+  <tr>
+   <td>Adobe Workfront-licenties
+   </td>
+   <td><p>Standard</p>
+   <p>Plan</p>
+   </td>
+  </tr>
+   <tr>
+   <td>Configuraties op toegangsniveau
+   </td>
+   <td>U moet een [!DNL Workfront] beheerder zijn.
+   </td>
+  </tr>
 </table>
 
-+++
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Informatie over [!DNL Workfront] metagegevens
 
@@ -62,9 +64,9 @@ Wanneer een gebruiker een document van [!DNL Workfront] naar een [!DNL Workfront
 
 U kunt hetzelfde [!DNL Workfront] -veld toewijzen aan verschillende metagegevensvelden in [!DNL Workfront DAM] , maar u kunt in geen van deze toepassingen een metagegevensveld gebruiken voor meerdere metagegevensvelden van [!DNL Workfront] .
 
-Als u meerdere [!DNL Workfront] -velden wilt configureren voor export naar één metagegevensveld in een [!DNL Workfront] -toepassing, maakt u eerst een berekend aangepast veld in [!DNL Workfront] om alle afzonderlijke aangepaste velden van een object weer te geven. Wijs vervolgens het berekende [!DNL Workfront] veld toe aan een metagegevensveld in de [!DNL Workfront] -toepassing. Voor meer informatie over berekende douanevelden, zie [&#x200B; berekende gebieden aan een vorm &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) toevoegen.
+Als u meerdere [!DNL Workfront] -velden wilt configureren voor export naar één metagegevensveld in een [!DNL Workfront] -toepassing, maakt u eerst een berekend aangepast veld in [!DNL Workfront] om alle afzonderlijke aangepaste velden van een object weer te geven. Wijs vervolgens het berekende [!DNL Workfront] veld toe aan een metagegevensveld in de [!DNL Workfront] -toepassing. Voor meer informatie over berekende douanevelden, zie [ berekende gebieden aan een vorm ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) toevoegen.
 
-Voordat u velden kunt toewijzen voor het toewijzen van metagegevens, moet u de toepassing inschakelen in [!DNL Workfront] . Voor meer informatie, zie [&#x200B; documentintegratie &#x200B;](../../administration-and-setup/configure-integrations/configure-document-integrations.md) vormen.
+Voordat u velden kunt toewijzen voor het toewijzen van metagegevens, moet u de toepassing inschakelen in [!DNL Workfront] . Voor meer informatie, zie [ documentintegratie ](../../administration-and-setup/configure-integrations/configure-document-integrations.md) vormen.
 
 ## [!DNL Workfront] configureren voor het verzenden van metagegevens
 
@@ -72,7 +74,7 @@ Voordat u velden kunt toewijzen voor het toewijzen van metagegevens, moet u de t
 
 1. Klik in het linkerdeelvenster op **[!UICONTROL Documents]** > **[!UICONTROL Metadata Mapping]** .
 
-   ![&#x200B; de afbeelding van Meta-gegevens &#x200B;](assets/metadata-mapping.png)
+   ![ de afbeelding van Meta-gegevens ](assets/metadata-mapping.png)
 
 1. Typ in het vak **[!UICONTROL Select Source Field for Mapping]** de naam van het Workfront-veld dat u wilt toewijzen aan [!DNL Workfront DAM] en selecteer het veld wanneer het in de lijst wordt weergegeven.
 1. Selecteer in het vak **[!UICONTROL Select Target Field for Mapping]** het veld dat u wilt vullen met de gegevens in het geselecteerde [!DNL Workfront] -veld.

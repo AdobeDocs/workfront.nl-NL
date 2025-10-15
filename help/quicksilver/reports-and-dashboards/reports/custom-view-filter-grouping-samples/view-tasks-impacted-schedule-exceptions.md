@@ -7,9 +7,9 @@ description: Deze taakmening identificeert taken die wegens weekends, Persoonlij
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 7d7c77fa-d9a7-4e91-8dae-ad3aaca6f1da
-source-git-commit: 66de6c952272f52876f8e912c96d1526575b6f0b
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '343'
+source-wordcount: '322'
 ht-degree: 0%
 
 ---
@@ -28,50 +28,39 @@ In deze weergave wordt het volgende weergegeven:
 * Het aantal van de dag in het programma van het project wanneer de taak (de Datum van het Begin van de Kalender) begint
 * De duur van de weekdagen van de taken volgens het aantal weekdagen tussen de geplande aanvangs- en geplande einddatum van de taken (duur weekdag)
 * Als de Duur van de Dag van de Week groter is dan de duur van de taken, die erop wijst dat er uitzonderingsdagen in de duur van de taken zijn, zijn de taken duidelijk als &quot;Uitzondering&quot;.\
-  ![&#x200B; tasks_with_agenda_exception.png &#x200B;](assets/tasks-with-calendar-exceptions-350x51.png)
+  ![ tasks_with_agenda_exception.png ](assets/tasks-with-calendar-exceptions-350x51.png)
 
 ## Toegangsvereisten
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
-
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan</td> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie</td> 
-   <td> <p> Huidige: 
-   <ul>
-   <li>Verzoek om een weergave te wijzigen</li> 
-   <li>Plan om een rapport te wijzigen</li>
-   </ul>
-     </p>
-     <p> Nieuw: 
-   <ul>
-   <li>Medewerker om een weergave te wijzigen</li> 
-   <li>Standaard voor het wijzigen van een rapport</li>
-   </ul>
-     </p>
-    </td> 
+   <td> 
+   <p>Medewerker of verzoek om een weergave te wijzigen </p>
+   <p>Standaard of Plan om een rapport te wijzigen</p>
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau*</td> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
    <td> <p>Toegang tot rapporten, dashboards, kalenders bewerken om een rapport te wijzigen</p> <p>Toegang tot filters, weergaven en groepen bewerken om een weergave te wijzigen</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Machtigingen beheren voor een rapport</p> </td> 
+   <td> <p>Machtigingen beheren voor een rapport</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
 
 +++
 

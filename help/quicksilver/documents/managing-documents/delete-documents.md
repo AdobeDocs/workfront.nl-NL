@@ -6,9 +6,9 @@ description: U kunt documenten verwijderen die u uploadt. Als u beheertoegang to
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 1a4c4849-bca1-4ae3-9111-d0ed4dacca14
-source-git-commit: 5595b1c286d82f77bca9ee16e20bae8380ce45b5
+source-git-commit: 4a0448583cbcfd1f1df10d6474fdf4e77e7bff3e
 workflow-type: tm+mt
-source-wordcount: '236'
+source-wordcount: '182'
 ht-degree: 0%
 
 ---
@@ -21,32 +21,32 @@ U kunt documenten verwijderen die u uploadt. Als u beheertoegang tot specifieke 
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
-U moet het volgende hebben:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-abonnement*</td> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
    <td> <p> Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licenties*</td> 
-   <td> <p>Werk of hoger</p> </td> 
+   <td role="rowheader">Adobe Workfront-licenties</td> 
+   <td> 
+   <p>Standard</p>
+   <p>Werk of hoger</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot documenten bewerken waarvoor de machtiging Verwijderen is ingeschakeld</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
+   <td> <p>Toegang tot documenten bewerken waarvoor de machtiging Verwijderen is ingeschakeld</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Toegang of hoger weergeven voor het object dat het document bevat</p> <p>Toegang beheren met de machtiging Verwijderen ingeschakeld in het document</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
+   <td> <p>Toegang of hoger weergeven voor het object dat het document bevat</p> <p>Toegang beheren met de machtiging Verwijderen ingeschakeld in het document</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -55,8 +55,8 @@ Een document verwijderen:
 1. Ga naar het project, de taak, of de kwestie die het document bevat, dan selecteren **Documenten**.
 1. Zoek het document dat u nodig hebt.
 
-1. Klik het **pictogram van de Schrapping ![&#x200B; &#x200B;](assets/delete.png) boven het gebied van Documenten**.
+1. Klik het **pictogram van de Schrapping** ![ boven het gebied van Documenten ](assets/delete.png).
 
 1. In de doos die verschijnt, klik ja **, schrap het** om te bevestigen.
 
-Een systeem of groepsbeheerder kan een document herstellen binnen 30 dagen na worden geschrapt, zoals die in [&#x200B; worden beschreven herstelt geschrapte punten &#x200B;](../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).
+Een systeem of groepsbeheerder kan een document herstellen binnen 30 dagen na worden geschrapt, zoals die in [ worden beschreven herstelt geschrapte punten ](../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).

@@ -8,9 +8,9 @@ author: Courtney, Becky
 feature: System Setup and Administration, Workfront Integrations and Apps, Digital Content and Documents
 role: Admin
 exl-id: cf5c4e3d-b45f-46cd-a938-22e412d1c491
-source-git-commit: ec0e2be036ce1298e285ce85cdeddae97cd1f144
+source-git-commit: 85ccee879fd4ba5a80b6e885458839901f83d26e
 workflow-type: tm+mt
-source-wordcount: '1111'
+source-wordcount: '1032'
 ht-degree: 0%
 
 ---
@@ -23,42 +23,44 @@ ht-degree: 0%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">***DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **</p>
 -->
 
-Als [!DNL Adobe Workfront] -beheerder kunt u documentintegratie configureren om documenten te beheren in [!UICONTROL Workfront] . U kunt [!UICONTROL Workfront] ook zo configureren dat documenten alleen worden opgeslagen in documentservices en niet in [!UICONTROL Workfront] zelf. Voor meer informatie, zie [&#x200B; Update en verbind een document van [!UICONTROL Workfront] met een externe wolkenleverancier &#x200B;](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md#update-and-link-a-document-from-workfront-to-an-external-cloud-provider) in [&#x200B; documenten van de Verbinding van externe toepassingen &#x200B;](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
+Als [!DNL Adobe Workfront] -beheerder kunt u documentintegratie configureren om documenten te beheren in [!UICONTROL Workfront] . U kunt [!UICONTROL Workfront] ook zo configureren dat documenten alleen worden opgeslagen in documentservices en niet in [!UICONTROL Workfront] zelf. Voor meer informatie, zie [ Update en verbind een document van [!UICONTROL Workfront] met een externe wolkenleverancier ](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md#update-and-link-a-document-from-workfront-to-an-external-cloud-provider) in [ documenten van de Verbinding van externe toepassingen ](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
 
 >[!NOTE]
 >
->Om open communicatie tussen [!DNL Workfront Proof] en de [!DNL Workfront] servers toe te staan, zou u bepaalde IP adressen aan uw lijst van gewenste personen kunnen moeten toevoegen. Voor meer informatie, zie [&#x200B; de lijst van gewenste personen van uw firewall &#x200B;](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md) vormen.
+>Om open communicatie tussen [!DNL Workfront Proof] en de [!DNL Workfront] servers toe te staan, zou u bepaalde IP adressen aan uw lijst van gewenste personen kunnen moeten toevoegen. Voor meer informatie, zie [ de lijst van gewenste personen van uw firewall ](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md) vormen.
 
 ## Toegangsvereisten
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
-U moet het volgende hebben om de stappen in dit artikel uit te voeren:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
-   <td>Alle</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licentie</td> 
-   <td><p>Nieuw: [!UICONTROL Standard]</p>
-       <p>of</p>
-       <p>Huidige: [!UICONTROL Plan]</p></td>
-  </tr> 
-  <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau</td> 
-   <td> <p>U moet een [!DNL Workfront] beheerder zijn.</p> </td> 
-  </tr> 
- </tbody> 
+<table>
+  <tr>
+   <td>Adobe Workfront-pakket
+   </td>
+   <td> <p>Prime of Ultimate</p>
+    <p>Workflow Ultimate</p>
+   </td>
+  </tr>
+    <tr>
+   <td>Adobe Workfront-licenties
+   </td>
+   <td>Standard
+   <p>Plan</p>
+   </td>
+  </tr>
+   <tr>
+   <td>Configuraties op toegangsniveau
+   </td>
+   <td>U moet een [!DNL Workfront] beheerder zijn.
+   </td>
+  </tr>
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+
 
 ## Ondersteunde integratie
 
@@ -74,11 +76,11 @@ U kunt de volgende integraties configureren voor het beheer van documenten:
 
 * [!DNL Workfront Proof]
 
-  Door proefdrukken van [!DNL Workfront Proof] te koppelen, kunt u proefdrukken maken die oorspronkelijk zijn gemaakt in [!DNL Workfront Proof] , beschikbaar zijn in [!DNL Workfront] . Voor de huidige plannen is een [!UICONTROL Pro] [!DNL Workfront] -abonnement of hoger vereist als u deze functie wilt gebruiken. Voor de nieuwe plannen, is deze eigenschap beschikbaar met alle plannen. Voor meer informatie over de diverse beschikbare plannen, zie [&#x200B; Abonnementen van Workfront &#x200B;](https://business.adobe.com/nl/products/workfront/pricing.html).
+  Door proefdrukken van [!DNL Workfront Proof] te koppelen, kunt u proefdrukken maken die oorspronkelijk zijn gemaakt in [!DNL Workfront Proof] , beschikbaar zijn in [!DNL Workfront] .
 
 * [!DNL Microsoft SharePoint]
 
-  Voor informatie over het integreren met [!DNL SharePoint], zie [&#x200B; de  [!DNL SharePoint]  integratie &#x200B;](../../administration-and-setup/configure-integrations/configure-sharepoint-integration.md) vormen.
+  Voor informatie over het integreren met [!DNL SharePoint], zie [ de  [!DNL SharePoint]  integratie ](../../administration-and-setup/configure-integrations/configure-sharepoint-integration.md) vormen.
 
 * Leveranciers van clouddocumenten van derden:
 
@@ -97,8 +99,6 @@ U kunt de volgende integraties configureren voor het beheer van documenten:
 
 * Andere documentproviders (via aangepaste documentintegratie).
 
-  Voor de huidige plannen is een [!UICONTROL Pro] [!DNL Workfront] -abonnement of hoger vereist als u deze functie wilt gebruiken. Voor de nieuwe plannen, is deze eigenschap beschikbaar met alle plannen. Voor meer informatie over de diverse beschikbare plannen, zie [&#x200B; Abonnementen van Workfront &#x200B;](https://business.adobe.com/nl/products/workfront/pricing.html).
-
 Bovendien kunt u uw [!DNL Workfront] -documentervaring verbeteren met DAM-integratie van derden. Beheerders moeten deze functies inschakelen om gebruikers de service te laten koppelen aan hun [!DNL Workfront] -account.
 
 ## Integraties configureren om documenten te beheren
@@ -107,12 +107,12 @@ Bovendien kunt u uw [!DNL Workfront] -documentervaring verbeteren met DAM-integr
 
 1. Klik in het linkerdeelvenster op **[!UICONTROL Documents]** > **[!UICONTROL Cloud Providers].**
 
-1. (Optioneel) Selecteer **[!UICONTROL Prevent Users From Storing Documents in [!DNL Workfront]]** als u documenten wilt opslaan in een toepassing voor documentservices en niet in [!DNL Workfront] .
+1. (Optioneel) Selecteer [!DNL Workfront] **[!UICONTROL Prevent Users From Storing Documents in [!DNL Workfront]]als u documenten wilt opslaan in een toepassing voor documentservices en niet in** .
 
 1. Selecteer de integraties die u wilt inschakelen.
 1. Klik op **[!UICONTROL Save]**.
 
-Als u integraties instelt met [!DNL Workfront DAM] , kunt u [!DNL Workfront] inschakelen om metagegevens op te nemen in documenten. Voor informatie over kaartmeta-gegevens, zie [&#x200B; de meta-gegevensafbeelding van de Opstelling &#x200B;](../../administration-and-setup/configure-integrations/set-up-metadata-mapping.md).
+Als u integraties instelt met [!DNL Workfront DAM] , kunt u [!DNL Workfront] inschakelen om metagegevens op te nemen in documenten. Voor informatie over kaartmeta-gegevens, zie [ de meta-gegevensafbeelding van de Opstelling ](../../administration-and-setup/configure-integrations/set-up-metadata-mapping.md).
 
 ## Aangepaste documentintegratie configureren
 
@@ -122,7 +122,7 @@ Als u integraties instelt met [!DNL Workfront DAM] , kunt u [!DNL Workfront] ins
 
 Dankzij de integratie van aangepaste documenten kunnen [!DNL Workfront] -gebruikers vanuit vrijwel elk systeem bestanden koppelen naar [!DNL Workfront] , op voorwaarde dat het systeem is ontworpen voor samenwerking met [!DNL Workfront] .
 
-Als u de aangepaste integratie beschikbaar wilt maken voor gebruikers, moet u eerst de integratie maken. Voor informatie over hoe te om integratie te bouwen die met [!DNL Workfront] moet worden gebruikt, zie [&#x200B; Webhooks API van het Document &#x200B;](../../wf-api/doc-wbhks-api/docu-webhook-api.md).
+Als u de aangepaste integratie beschikbaar wilt maken voor gebruikers, moet u eerst de integratie maken. Voor informatie over hoe te om integratie te bouwen die met [!DNL Workfront] moet worden gebruikt, zie [ Webhooks API van het Document ](../../wf-api/doc-wbhks-api/docu-webhook-api.md).
 
 Nadat de integratie van aangepaste documenten is voltooid, kunt u deze beschikbaar maken voor gebruikers op uw site.
 
@@ -197,9 +197,9 @@ Nadat de integratie van aangepaste documenten is voltooid, kunt u deze beschikba
 
 ## Documentintegratie gebruiken
 
-Voor informatie over hoe de gebruikers het proef kunnen gebruiken, zie [&#x200B; tot proeven &#x200B;](../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-proofs-in-wf.md) leiden.
+Voor informatie over hoe de gebruikers het proef kunnen gebruiken, zie [ tot proeven ](../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-proofs-in-wf.md) leiden.
 
-Voor informatie over hoe de gebruikers de integratie van het derdedocument kunnen gebruiken nadat u hen hebt gevormd, zie [&#x200B; documenten van de Verbinding van externe toepassingen &#x200B;](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
+Voor informatie over hoe de gebruikers de integratie van het derdedocument kunnen gebruiken nadat u hen hebt gevormd, zie [ documenten van de Verbinding van externe toepassingen ](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
 
 ### [!DNL Workfront] configureren voor het verzenden van metagegevens naar [!UICONTROL [!DNL Workfront] DAM] {#configure-workfront-to-send-metadata-to-workfront-dam}
 
@@ -213,7 +213,7 @@ Informatie wordt slechts in één richting toegewezen, van [!DNL Workfront] naar
 U kunt hetzelfde [!DNL Workfront] -veld toewijzen aan verschillende [!DNL Workfront DAM] -velden, maar u kunt niet hetzelfde [!DNL Workfront DAM] -veld gebruiken voor meerdere [!DNL Workfront] -velden.
 
 Als u meerdere [!DNL Workfront] -velden moet configureren om te exporteren naar één [!DNL Workfront DAM] -veld, maakt u eerst een berekend aangepast veld in [!DNL Workfront] om alle afzonderlijke aangepaste velden van een object weer te geven. Wijs vervolgens het berekende [!DNL Workfront] veld toe aan één [!DNL Workfront DAM] veld.\
-Voor meer informatie over berekende douanevelden, zie [&#x200B; berekende gebieden aan een vorm &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) toevoegen.
+Voor meer informatie over berekende douanevelden, zie [ berekende gebieden aan een vorm ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) toevoegen.
 
 De toewijzing is van invloed op alle documenten die door een gebruiker zijn geüpload van [!DNL Workfront] naar [!UICONTROL Workfront] DAM.
 
@@ -258,4 +258,4 @@ of
    * U kunt een documentmap maken in Workfront, vervolgens alle bestanden in de Google-map selecteren en deze toevoegen aan de Workfront-map.
 
 
-* De integratie van Google Drive-documenten ondersteunt het toevoegen van bestanden van de sectie Mijn schijf van uw Google Drive. U kunt geen mappen of afbeeldingen toevoegen vanaf een gedeeld station. Leer meer over [&#x200B; Google Gedeelde aandrijving &#x200B;](https://support.google.com/a/users/answer/7212025?hl=en).
+* De integratie van Google Drive-documenten ondersteunt het toevoegen van bestanden van de sectie Mijn schijf van uw Google Drive. U kunt geen mappen of afbeeldingen toevoegen vanaf een gedeeld station. Leer meer over [ Google Gedeelde aandrijving ](https://support.google.com/a/users/answer/7212025?hl=en).

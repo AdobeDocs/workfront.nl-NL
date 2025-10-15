@@ -1,21 +1,21 @@
 ---
 product-area: portfolios
 navigation-topic: create-and-manage-portfolios
-title: Portefeuilles verwijderen en deactiveren
+title: Portfolio's verwijderen en deactiveren
 description: Portfolio's zijn verzamelingen van projecten of programma's in Adobe Workfront. U kunt een portfolio verwijderen of deactiveren als u vindt dat dit niet relevant is voor uw systeem.
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: f88669d2-e8e9-4905-a771-1427b1fd32b2
-source-git-commit: 03c1f17504846fc4b8c4114ddc32df687281bc07
+source-git-commit: 00e693fc8b35a59f6ed212bc30da7f85cc78c845
 workflow-type: tm+mt
-source-wordcount: '420'
+source-wordcount: '430'
 ht-degree: 0%
 
 ---
 
 # Portefeuilles verwijderen en deactiveren
 
-<!--Audited: 2/2024-->
+<!--Audited: 08/2025-->
 
 Portfolio&#39;s zijn verzamelingen van projecten of programma&#39;s in [!DNL Adobe Workfront] . U kunt een portfolio verwijderen of deactiveren als u vindt dat dit niet relevant is voor uw systeem.
 
@@ -23,15 +23,15 @@ Wij adviseren deactivering van een portefeuille die niet meer met toekomstige pr
 
 ## Toegangsvereisten
 
-+++ Vouw uit om de vereisten voor toegang weer te geven.
++++ Breid uit om toegangseisen weer te geven.Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
-   <td> <p>Alle </p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] package</td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licentie</td> 
@@ -49,9 +49,38 @@ Wij adviseren deactivering van een portefeuille die niet meer met toekomstige pr
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td> <p>Any </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] license</td> 
+   <td> <p>[!UICONTROL Standard]</p>
+   <p>[!UICONTROL Plan]</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>[!UICONTROL Edit] access to Projects and Portfolios</p>  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>[!UICONTROL Manage] permissions on the portfolio </p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+-->
 
 ## Overzicht van het verwijderen en deactiveren van portfolio&#39;s
 
@@ -74,8 +103,8 @@ Houd rekening met het volgende wanneer u besluit of u portfolio&#39;s wilt verwi
 
 1. Voer een van de volgende handelingen uit:
 
-   * Selecteer de portefeuille in de lijst, dan klik het **[!UICONTROL Delete]** pictogram ![&#x200B; pictogram van de Schrapping &#x200B;](assets/delete.png).
-   * Klik de portefeuille om het te openen, dan klik **Meer** menu ![&#x200B; &#x200B;](assets/more-icon.png) aan het recht van de portefeuillenaam, dan **Schrapping Portfolio**.
+   * Selecteer de portefeuille in de lijst, dan klik het **[!UICONTROL Delete]** pictogram ![ pictogram van de Schrapping ](assets/delete.png).
+   * Klik de portefeuille om het te openen, dan klik **Meer** menu ![ ](assets/more-icon.png) aan het recht van de portefeuillenaam, dan **Schrapping Portfolio**.
 1. Klik op **[!UICONTROL Yes, Delete It]** om te bevestigen.
 
    Het portfolio wordt verwijderd en kan niet worden hersteld.
@@ -86,14 +115,14 @@ Wanneer u een portfolio deactiveert, hebt u nog steeds toegang tot dit portfolio
 
 >[!NOTE]
 >
->Afhankelijk van de configuratie van de lay-outsjabloon door de [!DNL Workfront] - of groepsbeheerder, wordt het [!UICONTROL Portfolios] -gebied mogelijk niet weergegeven in de [!UICONTROL Main Menu] . Voor meer informatie, zie [&#x200B; het Belangrijkste Menu aanpassen gebruikend een lay-outmalplaatje &#x200B;](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
+>Afhankelijk van de configuratie van de lay-outsjabloon door de [!DNL Workfront] - of groepsbeheerder, wordt het [!UICONTROL Portfolios] -gebied mogelijk niet weergegeven in de [!UICONTROL Main Menu] . Voor meer informatie, zie [ het Belangrijkste Menu aanpassen gebruikend een lay-outmalplaatje ](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
 
 {{step1-click-main-menu}}
 
 1. Klik op **[!UICONTROL Portfolios]** .
 1. Klik op de naam van het portfolio.
-1. Klik **Meer** menu ![&#x200B; Meer menu &#x200B;](assets/more-icon.png) rechts van de portefeuillenaam, dan klik **[!UICONTROL Deactivate Portfolio]**.
+1. Klik **Meer** menu ![ Meer menu ](assets/more-icon.png) rechts van de portefeuillenaam, dan klik **[!UICONTROL Deactivate Portfolio]**.
 Het portfolio wordt onmiddellijk gedeactiveerd.
-1. (Facultatief) klik het **Meer** menu ![&#x200B; Meer menu &#x200B;](assets/more-icon.png) rechts van de portefeuillenaam, dan klik **[!UICONTROL Activate Portfolio]** om het te reactiveren.
+1. (Facultatief) klik het **Meer** menu ![ Meer menu ](assets/more-icon.png) rechts van de portefeuillenaam, dan klik **[!UICONTROL Activate Portfolio]** om het te reactiveren.
 
 

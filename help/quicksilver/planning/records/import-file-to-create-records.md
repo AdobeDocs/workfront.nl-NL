@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 940945df-391c-4672-9d9d-180d5028509b
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: b102960e088f072f10baadcbeca4f7f579daa287
 workflow-type: tm+mt
-source-wordcount: '986'
+source-wordcount: '886'
 ht-degree: 0%
 
 ---
@@ -18,17 +18,17 @@ ht-degree: 0%
 
 <span class="preview"> de informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>
 
-<span class="preview"> voor informatie over snelle versies, zie [&#x200B; snelle versies voor uw organisatie &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
+<span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
 
 {{planning-important-intro}}
 
 Records zijn afzonderlijke instanties van recordtypen. Dit zijn de objecttypen van Adobe Workfront Planning. In de Planning van Workfront, kunt u verslagen tot stand brengen door informatie van een CSV of dossier van Excel in te voeren.
 
-Voor meer informatie over het creëren van verslagen, zie [&#x200B; verslagen &#x200B;](/help/quicksilver/planning/records/create-records.md) creëren.
+Voor meer informatie over het creëren van verslagen, zie [ verslagen ](/help/quicksilver/planning/records/create-records.md) creëren.
 
 ## Toegangsvereisten
 
-+++ Vouw uit om de vereisten voor toegang weer te geven.
++++ Breid uit om de toegangsvereisten voor de functionaliteit in dit artikel te bekijken. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -38,60 +38,95 @@ Voor meer informatie over het creëren van verslagen, zie [&#x200B; verslagen &#
 <tbody> 
     <tr> 
 <tr> 
+</tr>   
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront-pakket</p></td> 
+   <td> 
+<ul> 
+<li><p>Alle Workfront en alle planningspakketten</p></li>
+of
+<li><p>Alle workflows en planningspakketten</li></ul>
+<p>Neem voor meer informatie over wat er in elk planningspakket voor Workfront staat, contact op met uw Workfront-accountvertegenwoordiger. </p> 
+   </td> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront-licentie</p></td> 
+   <td><p>Standard</p>
+   </td> 
+  </tr>
+
+<tr> 
+   <td role="rowheader"><p>Objectmachtigingen</p></td> 
+   <td> <p>Draag of hoger toestemmingen aan de werkruimte bij en verslagtype waar u verslagen invoert. </p>
+   <p>Systeembeheerders hebben machtigingen voor alle werkruimten, inclusief de werkruimten die ze niet hebben gemaakt</p>
+   </td> 
+  </tr>  
+</tbody> 
+</table>
+
+Voor meer informatie over de toegangsvereisten van Workfront, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++  
+
+
+<!--Old:
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+    <tr> 
+<tr> 
 <td> 
-   <p> Producten</p> </td> 
+   <p> Products</p> </td> 
    <td> 
    <ul><li><p> Adobe Workfront</p></li> 
    <li><p> Adobe Workfront Planning<p></li></ul></td> 
   </tr>   
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront-abonnement*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront plan*</p></td> 
    <td> 
-<p>Een van de volgende Workfront-plannen:</p> 
-<ul><li>Selecteren</li> 
+<p>Any of the following Workfront plans:</p> 
+<ul><li>Select</li> 
 <li>Prime</li> 
 <li>Ultimate</li></ul> 
-<p>Workfront Planning is niet beschikbaar voor oudere Workfront-plannen</p> 
+<p>Workfront Planning is not available for legacy Workfront plans</p> 
    </td> 
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront-planningspakket*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront Planning package*</p></td> 
    <td> 
-<p>Alle </p> 
-<p>Neem contact op met uw Workfront-accountmanager voor meer informatie over wat er in elk Workfront-planningsplan is opgenomen. </p> 
+<p>Any </p> 
+<p>For more information about what is included in each Workfront Planning plan, contact your Workfront account manager. </p> 
    </td> 
  <tr> 
-   <td role="rowheader"><p>Adobe Workfront-platform</p></td> 
+   <td role="rowheader"><p>Adobe Workfront platform</p></td> 
    <td> 
-<p>Het geval van Workfront van uw organisatie moet aan de Verenigde Ervaring van Adobe worden genegeerd om tot de Planning van Workfront te kunnen toegang hebben.</p> 
-<p>Voor meer informatie, zie <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md"> Adobe Verenigde Ervaring voor Workfront </a>. </p> 
+<p>Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience to be able to access Workfront Planning.</p> 
+<p>For more information, see <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p> 
    </td> 
    </tr> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront-licentie*</p></td> 
-   <td> Standaard
-   <p>Workfront Planning is niet beschikbaar voor oudere Workfront-licenties</p> 
+   <td role="rowheader"><p>Adobe Workfront license*</p></td> 
+   <td> Standard
+   <p>Workfront Planning is not available for legacy Workfront licenses</p> 
   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Configuratie op toegangsniveau</p></td> 
-   <td> <p>Er zijn geen toegangsniveaucontroles voor de Planning van Adobe Workfront</p> 
-   <p>Toegang in Workfront bewerken voor de objecttypen die u wilt maken (projecten, programma's en portfolio's) terwijl u deze koppelt aan nieuwe records  </p>  
+   <td role="rowheader"><p>Access level configuration</p></td> 
+   <td> <p>There are no access level controls for Adobe Workfront Planning</p> 
+   <p>Edit access in Workfront for the object types that you want to create (projects, programs, and portfolios) as you connect them from new records  </p>  
 </td> 
   </tr> 
 <tr> 
-   <td role="rowheader"><p>Objectmachtigingen</p></td> 
-   <td> <p>Draag of hogere toestemmingen aan de werkruimte bij en verslagtype waar u verslagen wilt toevoegen. </p>  
-   <p>Systeembeheerders hebben machtigingen voor alle werkruimten, inclusief de werkruimten die ze niet hebben gemaakt</p>
-   <p>Rechten voor Workfront-objecten (portfolio's) beheren om onderliggende objecten (projecten) toe te voegen.</p>
+   <td role="rowheader"><p>Object permissions</p></td> 
+   <td> <p>Contribute or higher permissions to the workspace and record type where you want to add records. </p>  
+   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
+   <p>Manage permissions to Workfront objects (portfolios) to add children objects (projects).</p>
    </td> 
   </tr> 
 </tbody> 
-</table>
-
-*Voor meer informatie over de toegangsvereisten van Workfront, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
-
-+++
+</table> -->
 
 
 ## Overwegingen bij het importeren van records met een Excel- of CSV-bestand
@@ -127,22 +162,22 @@ Voor meer informatie over het creëren van verslagen, zie [&#x200B; verslagen &#
 1. Klik op de kaart van het recordtype waar u de records wilt importeren.
 1. Klik **Nieuw verslag** in de hoger-juiste hoek van het scherm.
 
-   ![&#x200B; kies manier om verslagen drie knoopdoos toe te voegen &#x200B;](assets/choose-way-to-add-records-three-button-box.png)
+   ![ kies manier om verslagen drie knoopdoos toe te voegen ](assets/choose-way-to-add-records-three-button-box.png)
 1. Klik **uploaden van dossier**, dan **verdergaan**. <!--add screen shot when all three buttons are added - with the Submit a request button-->
 1. Sleep en laat vallen een Excel of Csv- dossier eerder op uw computer, of klik **Uitgezocht een Csv of dossier van Excel** om voor te doorbladeren.
 1. Klik **Voorproef en geef uit**.
 1. (Voorwaardelijk) als het ingevoerde dossier meer dan één blad heeft, selecteer het radioknoop van het blad u in **wilt invoeren Selecteer een blad om** doos in te voeren, dan klik **daarna**. Anders gaat u door met de volgende stap.
 
-   ![&#x200B; selecteer een blad om verslagen in te voeren &#x200B;](assets/select-a-sheet-to-import-box.png)
+   ![ selecteer een blad om verslagen in te voeren ](assets/select-a-sheet-to-import-box.png)
 1. In de **Kaart de gebieden van de Planning aan uw kolomkopballen** selecteren het **Geplande gebied** dat het best de informatie in elk van de kolommen van het blad aanpast.
 
-   ![&#x200B; Kaart de gebieden van de Planning aan kolommen wanneer het invoeren van verslagen &#x200B;](assets/map-planning-fields-to-columns-when-importing-records.png)
+   ![ Kaart de gebieden van de Planning aan kolommen wanneer het invoeren van verslagen ](assets/map-planning-fields-to-columns-when-importing-records.png)
 
    Elke rij vertegenwoordigt een nieuwe record. Alleen de eerste 10 records worden weergegeven in het vak Voorbeeld en bewerken.
 
    >[!TIP]
    >
-   >Niet alle veldtypen worden ondersteund. Voor meer informatie, zie de sectie [&#x200B; Overwegingen over het invoeren van verslagen gebruikend een Excel of Csv- dossier &#x200B;](#considerations-about-importing-records-using-an-excel-or-csv-file) in dit artikel.
+   >Niet alle veldtypen worden ondersteund. Voor meer informatie, zie de sectie [ Overwegingen over het invoeren van verslagen gebruikend een Excel of Csv- dossier ](#considerations-about-importing-records-using-an-excel-or-csv-file) in dit artikel.
 
 
 1. (Facultatief en voorwaardelijk) als u hebt leiden toestemmingen aan de werkruimte, **creeer ontbrekende opties** in de laag-linkerhoek van het scherm. Als deze optie is ingeschakeld, worden de ontbrekende keuzen van velden met één of meerdere selecties toegevoegd.

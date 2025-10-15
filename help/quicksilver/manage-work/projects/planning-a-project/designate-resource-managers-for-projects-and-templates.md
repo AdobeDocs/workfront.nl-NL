@@ -6,9 +6,9 @@ description: U kunt de Managers van het Middel voor een project aanwijzen om ero
 author: Alina
 feature: Work Management
 exl-id: ae2a89e7-8049-4ee6-9b28-ce247d3f2a6f
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
 workflow-type: tm+mt
-source-wordcount: '829'
+source-wordcount: '748'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,39 @@ Designating Resource Managers for a project is a prerequisite for using the Sche
 
 ## Toegangsvereisten
 
-<!--drafted for P&P:
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
+   <td> <p>Alle</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td><p>Standard</p> 
+   <p>Plan</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
+   <td> <p>Toegang tot projecten en sjablonen bewerken</p></td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Objectmachtigingen</td> 
+   <td> <p>Rechten voor het project of de sjabloon beheren</p>
+
+</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
+<!--Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -51,10 +83,7 @@ Designating Resource Managers for a project is a prerequisite for using the Sche
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Current license: Standard </p> 
-   Or
-   <p>Legacy license: Plan </p>
-   </td> 
+   <td> <p>Plan </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
@@ -71,41 +100,7 @@ Designating Resource Managers for a project is a prerequisite for using the Sche
    Users who are added as Resource Managers to a project or a template immediately gain Manage permissions on the project or the template</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>
--->
-
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront-abonnement*</td> 
-   <td> <p>Alle</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Plan </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot projecten en sjablonen bewerken</p> <p><b>OPMERKING</b>
-
-Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td>
-</tr> 
-  <tr> 
-   <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Rechten voor het project of de sjabloon beheren</p>
-
-<p><b>OPMERKING</b>
-
-De gebruikers die als Managers van het Middel aan een project of een malplaatje worden toegevoegd krijgen direct Manage toestemmingen op het project of het malplaatje</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td>
-</tr> 
- </tbody> 
-</table>
-
-*Neem contact op met uw Workfront-beheerder om te weten te komen welk abonnement, licentietype of toegang u hebt.
+</table>-->
 
 ## Overwegingen over Resource Managers
 
@@ -132,15 +127,15 @@ De gebruikers die als Managers van het Middel aan een project of een malplaatje 
 
 * De gebruikers die u als Beheerders van het Middel op een project of een malplaatje aanwijst worden automatisch geen deel van het Team van het Project.
 
-  Voor informatie over projectteams, zie [&#x200B; het Team van het Project beheren &#x200B;](../../../manage-work/projects/planning-a-project/manage-project-team.md).
+  Voor informatie over projectteams, zie [ het Team van het Project beheren ](../../../manage-work/projects/planning-a-project/manage-project-team.md).
 
 * U kunt de Managers van het Middel voor projecten of voor projectmalplaatjes aanwijzen. Wanneer u de Managers van het Middel op een projectmalplaatje aanwijst, om het even welke gebruikers u als Managers van het Middel op het malplaatje aanwijst worden automatisch de Managers van het Middel op om het even welke projecten die gebruikend dat malplaatje worden gecreeerd.
 * U kunt het gebied van de Manager van het Middel op de volgende gebieden bekijken:
 
    * Tijdens het bewerken van een project, zoals beschreven in dit artikel.
    * Tijdens het bewerken van een sjabloon, zoals beschreven in dit artikel.
-   * Tijdens het samenstellen van project- of sjabloonrapporten. Voor informatie over de bouw van rapporten, zie [&#x200B; een douanerapport &#x200B;](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) creëren.
-   * Bij het maken of aanpassen van een project- of sjabloonweergave voor een lijst. Voor meer informatie, zie [&#x200B; Overzicht van Meningen in Adobe Workfront &#x200B;](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+   * Tijdens het samenstellen van project- of sjabloonrapporten. Voor informatie over de bouw van rapporten, zie [ een douanerapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) creëren.
+   * Bij het maken of aanpassen van een project- of sjabloonweergave voor een lijst. Voor meer informatie, zie [ Overzicht van Meningen in Adobe Workfront ](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
 * U kunt de Managers van het Middel op veelvoudige projecten of malplaatjes snel toevoegen of verwijderen door het gebied van de Manager van het Middel aan een mening van een lijst of een project toe te voegen en dit gebied uit te geven gebruikend in-line geef uit.
 
@@ -156,7 +151,7 @@ De gebruikers die als Managers van het Middel aan een project of een malplaatje 
 
    * Om de Managers van het Middel aan een nieuw project toe te voegen, begin creërend een nieuw project.
 
-     Voor informatie over het creëren van een project, zie [&#x200B; een project &#x200B;](../../../manage-work/projects/create-projects/create-project.md) creëren.
+     Voor informatie over het creëren van een project, zie [ een project ](../../../manage-work/projects/create-projects/create-project.md) creëren.
 
 1. In de **sectie van het Overzicht** op het Edit de dialoogvakje van het Project, klik op het **gebied van de Manager van het Middel**.
 1. Typ de naam van de gebruiker die u als middelmanager voor het project wilt toevoegen, dan klik de naam wanneer het in de lijst verschijnt.
@@ -167,7 +162,7 @@ De gebruikers die als Managers van het Middel aan een project of een malplaatje 
 
 ## Bronbeheer toewijzen voor een sjabloon
 
-1. Klik het **pictogram van het 1&rbrace; pictogram van het Belangrijkste Menu ![&#x200B; &#x200B;](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront.**
+1. Klik het **pictogram van het 1} pictogram van het Belangrijkste Menu** ![ in de hoger-juiste hoek van Adobe Workfront.](assets/main-menu-icon.png)
 
 1. Klik **Malplaatjes**.
 

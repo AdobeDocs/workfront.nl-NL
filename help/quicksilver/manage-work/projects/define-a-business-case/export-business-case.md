@@ -3,12 +3,12 @@ product-area: projects
 navigation-topic: business-case-and-scorecards
 title: De bedrijfscase van een project exporteren
 description: U kunt de Business Case exporteren naar een PDF-bestand, voor het geval u deze wilt afdrukken of in een gecondenseerde indeling aan een e-mail wilt koppelen.
-author: Alina
+author: Becky
 feature: Work Management
 exl-id: 834c56c4-ca11-4aff-b67e-0eac9fa23403
-source-git-commit: 724c507dd5ee09b3364fc2037380a8cb18be08f2
+source-git-commit: aa3ae2a5d92420f4adcedb60a4f7404533eaa59b
 workflow-type: tm+mt
-source-wordcount: '183'
+source-wordcount: '176'
 ht-degree: 0%
 
 ---
@@ -26,14 +26,14 @@ U kunt de Business Case naar een PDF-bestand exporteren voor het geval u deze wi
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront-abonnement*</p></td> 
-   <td> <p>Huidig: Prime of hoger </p> <p>Verouderd: Pro of hoger </p> </td> 
+   <td role="rowheader"><p>Adobe Workfront-pakket</p></td> 
+   <td> <p>Prime of hoger </p>  </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront-licentie*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront-licentie</p></td> 
    <td> 
-   <p>Huidig: Licht of hoger</p>
-   <p>Verouderd: revisie of hoger</p> </td> 
+   <p>Licht of hoger</p>
+   <p>Controleren of hoger</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau</td> 
@@ -46,7 +46,7 @@ U kunt de Business Case naar een PDF-bestand exporteren voor het geval u deze wi
  </tbody> 
 </table>
 
-*For informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -58,6 +58,6 @@ U kunt de Business Case naar een PDF-bestand exporteren voor het geval u deze wi
 1. Klik **Bedrijfs Geval** in het linkerpaneel.
 1. In de hoger-juiste hoek van het **Samenvatting van BedrijfsGeval** gebied, klik **Uitvoer**. Er wordt een PDF-bestand naar de computer gedownload.
 
-   ![&#x200B; Samenvatting Bedrijfs van het Geval &#x200B;](assets/bc-summary.png)
+   ![ Samenvatting Bedrijfs van het Geval ](assets/bc-summary.png)
 
 

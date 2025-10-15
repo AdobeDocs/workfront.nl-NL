@@ -6,7 +6,7 @@ description: U kunt een rapport rechtstreeks vanuit een rapport toevoegen aan ee
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 42d5945d-66c5-430b-8a37-dca9c2973716
-source-git-commit: 6e665acd48ce5ee4f870282cbdb59e89c5d21096
+source-git-commit: c8b7ad473b0c2120ef5ea52374b3501ad6f553f1
 workflow-type: tm+mt
 source-wordcount: '345'
 ht-degree: 0%
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 <!-- Audited: 1/2025 -->
 
-U kunt een rapport rechtstreeks vanuit een rapport toevoegen aan een nieuw of bestaand dashboard. U kunt een bestaand rapport aan een dashboard ook toevoegen, zoals die in [&#x200B; wordt beschreven creeer een dashboard &#x200B;](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md). U kunt maximaal 25 rapporten, kalenders of externe pagina&#39;s aan één dashboard toevoegen.
+U kunt een rapport rechtstreeks vanuit een rapport toevoegen aan een nieuw of bestaand dashboard. U kunt een bestaand rapport aan een dashboard ook toevoegen, zoals die in [ wordt beschreven creeer een dashboard ](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md). U kunt maximaal 25 rapporten, kalenders of externe pagina&#39;s aan één dashboard toevoegen.
 
 >[!NOTE]
 >
@@ -25,43 +25,35 @@ U kunt een rapport rechtstreeks vanuit een rapport toevoegen aan een nieuw of be
 
 ## Toegangsvereisten
 
-+++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
-
-U moet het volgende hebben:
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront-plan</strong></td> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront-licentie</strong></td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
    <td> 
-      <p>Nieuw:</p>
-         <ul>
-         <li><p>Standaard</p></li>
-         </ul>
-      <p>Huidige:</p>
-         <ul>
-         <li><p>Plan</p></li>
-         </ul>
+      <p>Standard</p>
+      <p>Plan</p>
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Configuraties op toegangsniveau</strong></td> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
    <td> <p>Toegang tot rapporten, dashboards en kalenders bewerken</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Objectmachtigingen</strong></td> 
+   <td role="rowheader">Objectmachtigingen</td> 
    <td> <p>Rechten voor het dashboard beheren</p> <p>De toestemmingen van de mening aan het rapport</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -69,7 +61,7 @@ Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van W
 
 U moet een rapport maken voordat u het aan een dashboard kunt toevoegen.
 
-Voor informatie bij het creëren van een rapport, zie [&#x200B; een rapport &#x200B;](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-report.md) creëren.
+Voor informatie bij het creëren van een rapport, zie [ een rapport ](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-report.md) creëren.
 
 ## Een rapport toevoegen aan een bestaand dashboard
 

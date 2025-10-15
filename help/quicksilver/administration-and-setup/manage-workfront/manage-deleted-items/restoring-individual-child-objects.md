@@ -8,9 +8,9 @@ feature: System Setup and Administration
 role: Admin
 author: Lisa
 exl-id: e2e4fbb7-5433-4d88-8e36-d82f4cc8a194
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: 156341072c291b5c03432da399a509d9772b73ea
 workflow-type: tm+mt
-source-wordcount: '638'
+source-wordcount: '617'
 ht-degree: 0%
 
 ---
@@ -19,25 +19,25 @@ ht-degree: 0%
 
 In dit artikel wordt beschreven hoe u hulp kunt krijgen bij het herstellen van afzonderlijke onderliggende objecten die minder dan 30 dagen geleden zijn verwijderd uit uw Adobe Workfront Production- of Preview-omgeving.
 
-Een beheerder van Workfront kan projecten, taken, kwesties, en documenten in elke instantie van Workfront herstellen, zoals die in [&#x200B; wordt beschreven herstelt geschrapte punten &#x200B;](../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md). Maar alleen het Workfront-databaseteam kan objecten zoals taken, uitgaven, documenten, aangepaste formulieren, uren en notities, onafhankelijk van het bovenliggende object herstellen.
+Een beheerder van Workfront kan projecten, taken, kwesties, en documenten in elke instantie van Workfront herstellen, zoals die in [ wordt beschreven herstelt geschrapte punten ](../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md). Maar alleen het Workfront-databaseteam kan objecten zoals taken, uitgaven, documenten, aangepaste formulieren, uren en notities, onafhankelijk van het bovenliggende object herstellen.
 
 Gegevens uit uw live omgeving zijn maximaal 7 dagen beschikbaar in de voorvertoningssandbox. Dit betekent dat u de standalone gegevens van het milieu van de Sandbox van de Voorproef kunt uitvoeren gebruikend de volgende methodes:
 
 * Kick-start
 * Een rapport maken en de resultaten exporteren
 
-Voor meer informatie over het uitvoeren van gegevens van Workfront, zie [&#x200B; Gegevens van de Uitvoer &#x200B;](../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md).
+Voor meer informatie over het uitvoeren van gegevens van Workfront, zie [ Gegevens van de Uitvoer ](../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md).
 
 U kunt de geëxporteerde gegevens op de volgende manieren importeren:
 
 * Handmatig als u geëxporteerde rapporten gebruikt
 * Als u Kick-Starts in bulk gebruikt
 
-  Voor meer informatie over het invoeren van gegevens in Workfront die Kick-Begint gebruiken, zie [&#x200B; Gegevens van de Invoer in Adobe Workfront gebruikend een Kick-Begin malplaatje &#x200B;](../../../administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
+  Voor meer informatie over het invoeren van gegevens in Workfront die Kick-Begint gebruiken, zie [ Gegevens van de Invoer in Adobe Workfront gebruikend een Kick-Begin malplaatje ](../../../administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
 
 De omgeving van de zandbak van de Voorproef wordt verfrist tijdens onze onderhoudsvensters tijdens het weekend.
 
-Voor meer informatie over de vensters van onderhoud voor het milieu van Sandbox van de Voorproef, zie [&#x200B; de plaats van de de statusstatus van de Adobe &#x200B;](https://status.adobe.com).
+Voor meer informatie over de vensters van onderhoud voor het milieu van de Sandbox van de Voorproef, zie [ de de statusplaats van Adobe ](https://status.adobe.com).
 
 >[!IMPORTANT]
 >
@@ -47,32 +47,27 @@ Voor meer informatie over de vensters van onderhoud voor het milieu van Sandbox 
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan</td> 
-   <td>Alle</td> 
+   <td>Adobe Workfront-pakket</td> 
+   <td><p>Alle</p></td> 
   </tr> 
   <tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront-licentie</td> 
-   <td><p>Nieuw: Standaard</p>
-       <p>of</p>
-       <p>Huidig: Plan</p></td>
-  </tr> 
+   <td>Adobe Workfront-licentie</td> 
+   <td><p>Standard</p>
+       <p>Plan</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau</td> 
-   <td>[!UICONTROL System Administrator]</td>
+   <td>Configuraties op toegangsniveau</td> 
+   <td>Systeembeheerder</td> 
   </tr> 
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

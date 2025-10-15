@@ -6,9 +6,9 @@ description: U kunt een aangepast formulier toevoegen aan een document of aan ee
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 6c974293-1f54-447b-8d42-8d039f7911f1
-source-git-commit: 85a2f154b3b561cdf53c68d50e66b8945f9f9823
+source-git-commit: 4a0448583cbcfd1f1df10d6474fdf4e77e7bff3e
 workflow-type: tm+mt
-source-wordcount: '334'
+source-wordcount: '282'
 ht-degree: 0%
 
 ---
@@ -21,32 +21,32 @@ U kunt een aangepast formulier toevoegen aan een document of aan een documentver
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
-U moet het volgende hebben:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-abonnement*</td> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
    <td> <p> Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licenties*</td> 
-   <td> <p>Aanvraag of hoger</p> </td> 
+   <td role="rowheader">Adobe Workfront-licenties</td> 
+   <td> 
+   <p>Medewerker of hoger</p>
+   <p>Aanvraag of hoger</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot documenten bewerken</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
+   <td> <p>Toegang tot documenten bewerken</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Toegang tot het document beheren</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
+   <td> <p>Toegang tot het document beheren</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -61,20 +61,20 @@ Een aangepast formulier toevoegen aan een document:
 1. Ga naar het project, de taak, of de kwestie die het document bevat, dan selecteren **Documenten**.
 1. Zoek het document dat u nodig hebt.
 
-1. Klik het **Summiere** pictogram van de Samenvatting ![&#x200B; &#x200B;](assets/summary-panel-icon.png), dan vind de **sectie van Details**.
+1. Klik het **Summiere** pictogram van de Samenvatting ![ ](assets/summary-panel-icon.png), dan vind de **sectie van Details**.
 1. In **voeg douanevorm** doos toe, begin typend en selecteer een douanevorm. Het formulier wordt automatisch in het document opgeslagen.
 
    >[!NOTE]
    >
-   >Alleen actieve aangepaste formulieren worden weergegeven in de vervolgkeuzelijst. U kunt maximaal 10 aangepaste formulieren per document toevoegen. Als u een douaneformulier moet creëren, zie [&#x200B; een douaneformulier &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren.
+   >Alleen actieve aangepaste formulieren worden weergegeven in de vervolgkeuzelijst. U kunt maximaal 10 aangepaste formulieren per document toevoegen. Als u een douaneformulier moet creëren, zie [ een douaneformulier ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren.
 
 ## Een aangepast formulier bewerken
 
 1. Ga naar het project, de taak, of de kwestie die het document bevat, dan selecteren **Documenten**.
 1. Zoek het document dat u nodig hebt.
 
-1. Klik het **Summiere** pictogram van de Samenvatting ![&#x200B; &#x200B;](assets/summary-panel-icon.png), dan vind de **sectie van Details** dichtbij de bovenkant.
+1. Klik het **Summiere** pictogram van de Samenvatting ![ ](assets/summary-panel-icon.png), dan vind de **sectie van Details** dichtbij de bovenkant.
 1. Klik **uitgeven** in de hoger-juiste hoek, dan breid de gewenste vorm uit.
 1. Breng de noodzakelijke veranderingen aan, dan klik **sparen**.
 
-   ![&#x200B; geef douanevorm &#x200B;](assets/edit-custom-form-350x265.png) uit
+   ![ geef douanevorm ](assets/edit-custom-form-350x265.png) uit

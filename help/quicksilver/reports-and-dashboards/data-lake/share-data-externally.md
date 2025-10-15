@@ -7,9 +7,9 @@ description: Met Workfront Data Connect kunt u de Workfront-gegevens van uw orga
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8348f5ff-c1f8-4608-b683-15f6407c6128
-source-git-commit: ea9c674b798c48927c7a0a542d36d5ded15ea3f1
+source-git-commit: 7764e512a3fb30a89e6645a4d8544a5fcffee231
 workflow-type: tm+mt
-source-wordcount: '587'
+source-wordcount: '562'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Met Workfront Data Connect kunt u de Workfront-gegevens van uw organisatie gebruiken met de tools voor bedrijfsintelligentie of deze opslaan in een extern gegevenspakhuis.
 
-Om uw Gegevens aan te sluiten verbind gegevens meer met een extern product, moet u een verbinding eerst tot stand brengen zoals die in [&#x200B; wordt beschreven leidt tot een lezerrekening of een verbinding voor Snowflake &#x200B;](/help/quicksilver/reports-and-dashboards/data-lake/create-a-reader-account.md). Dan, moet u om het even welke vereiste IPs aan de lijst van gewenste personen toevoegen zoals die in [&#x200B; wordt beschreven voeg IPs aan de lijst van gewenste personen &#x200B;](#add-ips-to-the-allowlist) hieronder toe.
+Om uw Gegevens aan te sluiten verbind gegevens meer met een extern product, moet u een verbinding eerst tot stand brengen zoals die in [ wordt beschreven leidt tot een lezerrekening of een verbinding voor Snowflake ](/help/quicksilver/reports-and-dashboards/data-lake/create-a-reader-account.md). Dan, moet u om het even welke vereiste IPs aan de lijst van gewenste personen toevoegen zoals die in [ wordt beschreven voeg IPs aan de lijst van gewenste personen ](#add-ips-to-the-allowlist) hieronder toe.
 
 De meeste producten zullen de volgende informatie over uw gegevens meer vereisen om een verbinding te vestigen:
 
@@ -33,7 +33,7 @@ De meeste producten zullen de volgende informatie over uw gegevens meer vereisen
 | Gebruikersnaam | De gebruikersbenaming die wanneer het creëren van de verbinding wordt gekozen (die op **Gegevens wordt gevonden verbindt** pagina in Workfront*) |
 | Wachtwoord | Het wachtwoord dat is gekozen bij de eerste Snowflake-aanmelding* |
 
-*For informatie over waar te om **Gegevens te vinden verbindt** pagina die uw verbindingen bevat, zie [&#x200B; een reader rekening of verbinding voor Snowflake &#x200B;](/help/quicksilver/reports-and-dashboards/data-lake/create-a-reader-account.md) creëren.
+*For informatie over waar te om **Gegevens te vinden verbindt** pagina die uw verbindingen bevat, zie [ een reader rekening of verbinding voor Snowflake ](/help/quicksilver/reports-and-dashboards/data-lake/create-a-reader-account.md) creëren.
 
 >[!IMPORTANT]
 >
@@ -43,46 +43,38 @@ De meeste producten zullen de volgende informatie over uw gegevens meer vereisen
 
 ## Toegangsvereisten
 
-+++ Vouw uit om de vereisten voor toegang weer te geven.
-
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
++++ Vouw uit om de vereisten voor toegang weer te geven. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan</td> 
-   <td><p>Opgenomen in de volgende plannen:</p>
-    <ul>
-        <li><p>Ultimate</p></li> 
-    </ul>    
-   <!--<p>Can be purchased as an add-on to the following plans:</p> 
-    <ul>
-        <li>Select</li> 
-        <li>Prime</li>
-    </ul>--> 
-    <p>Workfront Data Connect is niet beschikbaar voor oudere Workfront-plannen.</p> 
-   </td> </td> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
+   <td><p>Ultimate</p>
+    <p>Workflow Ultimate</p>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie</td> 
-   <td><p>Plan</p></td> 
+   <td>
+   <p>Standard</p>
+   <p>Plan</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau</td> 
-   <td> <p>U moet een Workfront-beheerder zijn.</p></td> 
+   <td> <p>U moet een Workfront-beheerder zijn</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Voeg IPs aan de lijst van gewenste personen toe
 
-1. Klik het **[!UICONTROL Main Menu]** pictogram ![&#x200B; Belangrijkste Menu &#x200B;](/help/_includes/assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, of (als beschikbaar), klik het **[!UICONTROL Main Menu]** pictogram ![&#x200B; Belangrijkste Menu &#x200B;](/help/_includes/assets/main-menu-icon-left-nav.png) in de upper-left hoek, dan klik **Opstelling**.
+1. Klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, of (als beschikbaar), klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon-left-nav.png) in de upper-left hoek, dan klik **Opstelling**.
 
 1. In het linkerpaneel, klik **Systeem** > **Gegevens verbinden**.
 
@@ -90,15 +82,15 @@ Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van d
 
 1. Ga een naam voor het IP adres in **IP de beschrijving van het Adres** in en ga het IP adres (of blok CIDR) voor het hulpmiddel in u in **IP Adres** zou willen gebruiken, dan klik **IP aan Lijst van gewenste personen** toevoegen.
 
-   ![&#x200B; voeg IP adres &#x200B;](/help/quicksilver/reports-and-dashboards/data-lake/assets/add-IP-allowlist.png) toe {width="500"}
+   ![ voeg IP adres ](/help/quicksilver/reports-and-dashboards/data-lake/assets/add-IP-allowlist.png) {width="500"} toe
 
 ## Verwijder een IP adres uit de lijst van gewenste personen
 
-1. Klik het **[!UICONTROL Main Menu]** pictogram ![&#x200B; Belangrijkste Menu &#x200B;](/help/_includes/assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, of (als beschikbaar), klik het **[!UICONTROL Main Menu]** pictogram ![&#x200B; Belangrijkste Menu &#x200B;](/help/_includes/assets/main-menu-icon-left-nav.png) in de upper-left hoek, dan klik **Opstelling**.
+1. Klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, of (als beschikbaar), klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon-left-nav.png) in de upper-left hoek, dan klik **Opstelling**.
 
 1. In het linkerpaneel, klik **Systeem** > **Gegevens verbinden**.
 
-1. Klik op het **Toegestane IPs** lusje, dan klik op het trashcan pictogram ![&#x200B; pictogram van de Schrapping &#x200B;](/help/quicksilver/reports-and-dashboards/data-lake/assets/delete.png) rechts van het IP adres u zou willen verwijderen.
+1. Klik op het **Toegestane IPs** lusje, dan klik op het trashcan pictogram ![ pictogram van de Schrapping ](/help/quicksilver/reports-and-dashboards/data-lake/assets/delete.png) rechts van het IP adres u zou willen verwijderen.
 
 1. In het venster dat verschijnt, controleer de doos om te bevestigen en dan **Schrapping** te klikken.
 

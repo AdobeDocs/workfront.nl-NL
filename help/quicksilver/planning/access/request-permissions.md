@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 94dfa36a-801a-4eef-bcf5-4a3fecc5a3d0
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: c879d06cfe7ba76df3e974c160a7349f1503f17f
 workflow-type: tm+mt
-source-wordcount: '629'
+source-wordcount: '519'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 >
 >De functionaliteit die in dit artikel wordt beschreven is beschikbaar slechts wanneer uw organisatie aan de Adobe Verenigde Ervaring is genegeerd.
 >
->Voor meer informatie, zie [&#x200B; Adobe Verenigde Ervaring voor Workfront &#x200B;](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
+>Voor meer informatie, zie [ Adobe Verenigde Ervaring voor Workfront ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
 
 U kunt machtigingen aanvragen voor een weergave of werkruimte wanneer iemand een koppeling deelt met u naar de weergave of werkruimte waartoe u geen toegang hebt.
@@ -40,9 +40,7 @@ Zie de volgende artikelen voor informatie over het verlenen van machtigingen aan
 
 ## Toegangsvereisten
 
-+++ Vouw uit om de vereisten voor toegang weer te geven.
-
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -52,41 +50,16 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 <tbody> 
     <tr> 
 <tr> 
-<td> 
-   <p> Producten</p> </td> 
+   <td role="rowheader"><p>Adobe Workfront-pakket</p></td> 
    <td> 
-   <ul><li><p> Adobe Workfront</p></li> 
-   <li><p> Adobe Workfront Planning<p></li></ul></td> 
-  </tr>   
+<p>Alle Workfront- en planningspakketten</p> 
+of
+<p>Willekeurig workflowpakket en planningspakket</p> 
+ </tr>
+
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront-abonnement*</p></td> 
-   <td> 
-<p>Een van de volgende Workfront-plannen:</p> 
-<ul><li>Selecteren</li> 
-<li>Prime</li> 
-<li>Ultimate</li></ul> 
-<p>Workfront Planning is niet beschikbaar voor oudere Workfront-plannen</p> 
-   </td> 
-<tr> 
-   <td role="rowheader"><p>Adobe Workfront-planningspakket*</p></td> 
-   <td> 
-<p>Alle </p> 
-<p>Neem contact op met uw Workfront-accountmanager voor meer informatie over wat er in elk Workfront-planningsplan is opgenomen. </p> 
-   </td> 
- <tr> 
-   <td role="rowheader"><p>Adobe Workfront-platform</p></td> 
-   <td> 
-<p>Het geval van Workfront van uw organisatie moet aan de Verenigde Ervaring van Adobe worden genegeerd om tot de Planning van Workfront te kunnen toegang hebben.</p> 
-<p><b>BELANGRIJK</b></p>
-<p>De gebruikers in uw organisatie kunnen om toestemmingen voor meningen en werkruimten slechts verzoeken wanneer uw organisatie aan de Adobe Verenigde Ervaring wordt betreden. </p>
-<p>Voor meer informatie, zie <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md"> Adobe Verenigde Ervaring voor Workfront </a>. </p> 
-   </td> 
-   </tr> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><p>Adobe Workfront-licentie*</p></td> 
-   <td><p> Standaard, licht of contribuant</p>
-   <p>Workfront Planning is niet beschikbaar voor oudere Workfront-licenties</p> 
+   <td role="rowheader"><p>Adobe Workfront-licentie</p></td> 
+   <td><p>Alle</p> 
   </td> 
   </tr> 
   <tr> 
@@ -112,9 +85,79 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 </tbody> 
 </table>
 
-*Voor meer informatie over de toegangsvereisten van Workfront, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer informatie over de toegangsvereisten van Workfront, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+<!--Old:
+ 
+ <table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+    <tr> 
+<tr> 
+<td> 
+   <p> Products</p> </td> 
+   <td> 
+   <ul><li><p> Adobe Workfront</p></li> 
+   <li><p> Adobe Workfront Planning<p></li></ul></td> 
+  </tr>   
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront plan*</p></td> 
+   <td> 
+<p>Any of the following Workfront plans:</p> 
+<ul><li>Select</li> 
+<li>Prime</li> 
+<li>Ultimate</li></ul> 
+<p>Workfront Planning is not available for legacy Workfront plans</p> 
+   </td> 
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront Planning package*</p></td> 
+   <td> 
+<p>Any </p> 
+<p>For more information about what is included in each Workfront Planning plan, contact your Workfront account manager. </p> 
+   </td> 
+ <tr> 
+   <td role="rowheader"><p>Adobe Workfront platform</p></td> 
+   <td> 
+<p>Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience to be able to access Workfront Planning.</p> 
+<p><b>IMPORTANT</b></p>
+<p>The users in your organization can request permissions for views and workspaces only when your organization is onboarded to the Adobe Unified Experience. </p>
+<p>For more information, see <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p> 
+   </td> 
+   </tr> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront license*</p></td> 
+   <td><p> Standard, Light, or Contributor</p>
+   <p>Workfront Planning is not available for legacy Workfront licenses</p> 
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Access level configuration</p></td> 
+   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+</td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>Object permissions</p></td> 
+   <td>  <p>After your request for permission is granted, you could gain the following permissions:</p>
+   <ul><li><p>View or Manage for a view</p></li>
+   <li><p>View, Contribute, or Manage to a workspace</p></li></ul>  
+   <p>Only users with Manage permissions to a workspace and a view can share a view publicly.</p></td> 
+  </tr> 
+<tr>
+   <td role="rowheader"><p>Layout template</p></td>
+   <td> Users with a Light or Contributor license must be assigned a layout template that includes Planning.
+   <p>Standard users and System Administrators have the Planning areas enabled by default.</p></div></li></ul>
+  
+</td>
+  </tr>
+ 
+</tbody> 
+</table> -->
 
 
 ## Machtigingen aanvragen voor een weergave of werkruimte
@@ -127,7 +170,7 @@ Wanneer iemand met u een koppeling deelt naar een werkruimte of een weergave waa
 
    A **u hebt geen toegang** paginagtoningen om u mee te delen dat u geen toegang tot de mening of de werkruimte hebt.
 
-   ![&#x200B; toegang van het Verzoek tot mening &#x200B;](assets/request-access-to-view.png)
+   ![ toegang van het Verzoek tot mening ](assets/request-access-to-view.png)
 
 1. (Voorwaardelijk) als de gedeelde verbinding voor een mening voor een werkruimte is waar u toegang hebt, klik **Open met bestaande mening**. Als u toegang hebt tot de werkruimte, wordt de pagina met recordtypen geopend in de standaardweergave.
 
@@ -135,10 +178,8 @@ Wanneer iemand met u een koppeling deelt naar een werkruimte of een weergave waa
 
    Alle gebruikers met de machtiging Beheren voor de weergave of werkruimte ontvangen de volgende meldingen voor de toegangsaanvraag:
    * Een melding in de app
-
-     ![&#x200B; In-app bericht voor toegangsverzoek &#x200B;](assets/in-app-notification-for-access-request.png)
+     ![ In-app bericht voor toegangsverzoek ](assets/in-app-notification-for-access-request.png)
    * Een e-mailmelding
-
-     ![&#x200B; E-mailbericht voor toegangsverzoek &#x200B;](assets/email-notification-for-access-request.png)
+     ![ E-mailbericht voor toegangsverzoek ](assets/email-notification-for-access-request.png)
 
 1. (Voorwaardelijk) Wanneer de weergave of werkruimtenmanager u machtigingen verleent aan de weergave of werkruimte, ontvangt u een e-mailmelding en een melding in de app met een bevestiging dat de machtiging is verleend. <!--check this - I was not able to test this, but Isk confirmed.-->

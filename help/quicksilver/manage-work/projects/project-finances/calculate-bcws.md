@@ -7,9 +7,9 @@ description: Ook gekend als Geplande Waarde, is de Begrotende Kosten van het Gep
 author: Lisa
 feature: Work Management
 exl-id: b9a36333-9430-42bd-99dd-3ad82803b633
-source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
+source-git-commit: 23a4d055871c9138818e70fa1cd936581dbd7552
 workflow-type: tm+mt
-source-wordcount: '621'
+source-wordcount: '598'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Overweeg het volgende wanneer het herzien van de waarden voor BCWS op een taak o
 
   U kunt uw project vormen om PIM te berekenen gebruikend uren of kosten en BCWS wordt ook berekend gebruikend de zelfde waarden.
 
-  Voor informatie over het vormen hoe BCWS wordt berekend, zie de sectie [&#x200B; vormen hoe BCWS &#x200B;](#configure-how-bcws-is-calculated) in dit artikel wordt berekend.
+  Voor informatie over het vormen hoe BCWS wordt berekend, zie de sectie [ vormen hoe BCWS ](#configure-how-bcws-is-calculated) in dit artikel wordt berekend.
 
 * Workfront berekent BCWS voor een project door alle waarden BCWS van alle oudertaken en individuele taken op het project toe te voegen.
 
@@ -38,35 +38,32 @@ Overweeg het volgende wanneer het herzien van de waarden voor BCWS op een taak o
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan</td> 
+   <td>Adobe Workfront-pakket</td> 
    <td>Alle</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td>Adobe Workfront-licentie</td> 
    <td>
-   <p>Nieuw: Standaard</p>
-   <p>of</p>
-   <p>Huidig: Plan</p></td> 
+   <p>Standard</p>
+   <p>Plan</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau</td> 
+   <td>Configuraties op toegangsniveau</td> 
    <td>Toegang tot projecten bewerken</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Objectmachtigingen</td> 
+   <td>Objectmachtigingen</td> 
    <td>Rechten voor het project beheren</td> 
   </tr> 
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -77,7 +74,7 @@ U kunt vormen of BCWS in uren of kosten wordt berekend door te vormen hoe de Met
 1. Ga naar een project en klik **Details van het Project** in het linkerpaneel.
 1. Op het **gebied van de Financiën**, bepaal de plaats van het **gebied van de Methode van de Index van Prestaties** en klik het tweemaal om het uit te geven.
 
-   ![&#x200B; PIM opties &#x200B;](assets/pim-options-hour-cost-based-nwe.png)
+   ![ PIM opties ](assets/pim-options-hour-cost-based-nwe.png)
 
 1. Selecteer een van de volgende opties:
 
@@ -126,7 +123,7 @@ U kunt de waarde van de Geplande Kosten van het Werk bekijken die in een rapport
 1. Klik **toevoegen Kolom**.
 1. In **toon in deze kolom:** gebiedsbegin typend **BCWS** en klik om het te selecteren wanneer het in de lijst toont.
 
-   ![&#x200B; BCWS in projectweergave &#x200B;](assets/bcws-in-project-view.png)
+   ![ BCWS in projectweergave ](assets/bcws-in-project-view.png)
 
 1. Klik **sparen Mening**.
 1. Het **BCWS** gebiedsvertoningen in de mening.

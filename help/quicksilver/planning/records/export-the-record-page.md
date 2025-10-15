@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 8de68b70-dd87-4aad-9137-980ea9fc0d69
-source-git-commit: 10fec10e1bb885ac20e1ef9526cfa8a59086d874
+source-git-commit: b102960e088f072f10baadcbeca4f7f579daa287
 workflow-type: tm+mt
-source-wordcount: '467'
+source-wordcount: '434'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,51 @@ Als u efficiënter wilt samenwerken met anderen die mogelijk geen Workfront-acco
 
 ## Toegangsvereisten
 
-+++ Vouw uit om de vereisten voor toegang weer te geven.
++++ Breid uit om de toegangsvereisten voor de functionaliteit in dit artikel te bekijken. 
+
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+    <tr> 
+<tr> 
+</tr>   
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront-pakket</p></td> 
+   <td> 
+<ul> 
+<li><p>Alle Workfront en alle planningspakketten</p></li>
+of
+<li><p>Alle workflows en planningspakketten</li></ul>
+<p>Neem voor meer informatie over wat er in elk planningspakket voor Workfront staat, contact op met uw Workfront-accountvertegenwoordiger. </p> 
+   </td> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront-licentie</p></td> 
+   <td><p>Licht of hoger</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Objectmachtigingen</p></td> 
+   <td>   <p>De mening of hogere toestemmingen aan een werkruimte en verslagtype </a> </p>  
+   <p>Systeembeheerders hebben machtigingen voor alle werkruimten, inclusief de werkruimten die ze niet hebben gemaakt</p> </td> 
+  </tr> 
+  </tr> 
+  <tr>
+   <td role="rowheader"><p>Lay-outsjabloon</p></td>
+   <td> De gebruikers met een Licht of de vergunning van de Medewerker moeten een lay-outmalplaatje worden toegewezen dat Planning omvat.
+   <p>De standaardgebruikers en de Beheerders van het Systeem hebben de Gebieden van de Planning die door gebrek worden toegelaten.</p></div></li></ul>
+</td>
+  </tr>  
+</tbody> 
+</table>
+
+Voor meer informatie over de toegangsvereisten van Workfront, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++  
+
+<!--Old:
 
 <table style="table-layout:auto"> 
 <col> 
@@ -35,56 +79,54 @@ Als u efficiënter wilt samenwerken met anderen die mogelijk geen Workfront-acco
     <tr> 
 <tr> 
 <td> 
-   <p> Producten</p> </td> 
+   <p> Products</p> </td> 
    <td> 
    <ul><li><p> Adobe Workfront</p></li> 
    <li><p> Adobe Workfront Planning<p></li></ul></td> 
   </tr>   
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront-abonnement*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront plan*</p></td> 
    <td> 
-<p>Een van de volgende Workfront-plannen:</p> 
-<ul><li>Selecteren</li> 
+<p>Any of the following Workfront plans:</p> 
+<ul><li>Select</li> 
 <li>Prime</li> 
 <li>Ultimate</li></ul> 
-<p>Workfront Planning is niet beschikbaar voor oudere Workfront-plannen</p> 
+<p>Workfront Planning is not available for legacy Workfront plans</p> 
    </td> 
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront-planningspakket*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront Planning package*</p></td> 
    <td> 
-<p>Alle </p> 
-<p>Neem contact op met uw Workfront-accountmanager voor meer informatie over wat er in elk Workfront-planningsplan is opgenomen. </p> 
+<p>Any </p> 
+<p>For more information about what is included in each Workfront Planning plan, contact your Workfront account manager. </p> 
    </td> 
  <tr> 
-   <td role="rowheader"><p>Adobe Workfront-platform</p></td> 
+   <td role="rowheader"><p>Adobe Workfront platform</p></td> 
    <td> 
-<p>Het geval van Workfront van uw organisatie moet aan de Verenigde Ervaring van Adobe worden genegeerd om tot de Planning van Workfront te kunnen toegang hebben.</p> 
-<p>Voor meer informatie, zie <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md"> Adobe Verenigde Ervaring voor Workfront </a>. </p> 
+<p>Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience to be able to access Workfront Planning.</p> 
+<p>For more information, see <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p> 
    </td> 
    </tr> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront-licentie*</p></td> 
-   <td> <p>Licht of hoger</p>
-   <p>Workfront Planning is niet beschikbaar voor oudere Workfront-licenties</p> 
+   <td role="rowheader"><p>Adobe Workfront license*</p></td> 
+   <td> <p>Light or higher</p>
+   <p>Workfront Planning is not available for legacy Workfront licenses</p> 
   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Configuratie op toegangsniveau</p></td> 
-   <td> <p>Er zijn geen toegangsniveaucontroles voor de Planning van Adobe Workfront</p>   
+   <td role="rowheader"><p>Access level configuration</p></td> 
+   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
 </td> 
   </tr> 
 <tr> 
-   <td role="rowheader"><p>Objectmachtigingen</p></td> 
-   <td>   <p>De mening of hogere toestemmingen aan een werkruimte en verslagtype </a> </p>  
-   <p>Systeembeheerders hebben machtigingen voor alle werkruimten, inclusief de werkruimten die ze niet hebben gemaakt</p> </td> 
+   <td role="rowheader"><p>Object permissions</p></td> 
+   <td>   <p>View or higher permissions to a workspace and record type</a> </p>  
+   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p> </td> 
   </tr> 
 </tbody> 
-</table>
+</table> 
 
-*Voor meer informatie over de toegangsvereisten van Workfront, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
-
-+++
+ *For more information about Workfront access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).-->
 
 
 ## Overwegingen bij het exporteren van de details van een record:
@@ -113,11 +155,11 @@ De recordtypepagina wordt geopend en alle records van dat type worden weergegeve
 
    Het voorvertoningsvak van de record wordt geopend.
 
-1. (Facultatief) klik **Open in nieuw lusje** pictogram ![&#x200B; Open details in een nieuw lusjepictogram &#x200B;](assets/open-details-in-a-new-tab-icon.png) om de pagina van het verslag te openen.
+1. (Facultatief) klik **Open in nieuw lusje** pictogram ![ Open details in een nieuw lusjepictogram ](assets/open-details-in-a-new-tab-icon.png) om de pagina van het verslag te openen.
 
 1. Kies het **Details** lusje. Het tabblad Details moet standaard worden geopend.
 
-1. Klik het **menu van de Uitvoer** pictogram van de Uitvoer in verslagdetailpagina ![&#x200B; of in de voorproef of de pagina van het verslag, dan klik één van het volgende:](assets/export-icon-in-record-details-page.png)
+1. Klik het **menu van de Uitvoer** pictogram van de Uitvoer in verslagdetailpagina ![ of in de voorproef of de pagina van het verslag, dan klik één van het volgende:](assets/export-icon-in-record-details-page.png)
 
    * **Word van Microsoft**
    * **Adobe PDF**
@@ -126,7 +168,7 @@ De recordtypepagina wordt geopend en alle records van dat type worden weergegeve
 
    De naam van het geëxporteerde bestand is het primaire veld van de record.
 
-   ![&#x200B; Uitgevoerd woorddossier &#x200B;](assets/exported-word-file.png)
+   ![ Uitgevoerd woorddossier ](assets/exported-word-file.png)
 
    >[!NOTE]
    >

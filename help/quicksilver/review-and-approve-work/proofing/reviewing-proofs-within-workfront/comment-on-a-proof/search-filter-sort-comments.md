@@ -6,9 +6,9 @@ description: U kunt opmerkingen met een proefdruk zoeken, filteren en sorteren, 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 03edaa7e-08c3-4ab1-83ab-747694cf1c17
-source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
+source-git-commit: fe269b088c82e7045ffbb5155d54432e0b413cbe
 workflow-type: tm+mt
-source-wordcount: '864'
+source-wordcount: '787'
 ht-degree: 0%
 
 ---
@@ -21,32 +21,30 @@ U kunt opmerkingen met een proefdruk zoeken, filteren en sorteren, zodat u eenvo
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-abonnement*</td> 
-   <td> <p>Huidig abonnement: Pro of hoger</p> <p>of</p> <p>Verouderd abonnement: Selecteren of Premium</p> <p>Voor meer informatie over het proefdrukken van toegang met de verschillende plannen, zie <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref"> Toegang tot het proefdrukken van functionaliteit in Workfront </a>.</p> </td> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Huidig plan: Werk of Plan</p> <p>Ouder plan: Willekeurig (proefdrukken moet zijn ingeschakeld voor de gebruiker)</p> </td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td> <p>Alle</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Bewijs van machtigingsprofiel </td> 
    <td>Manager of hoger</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot documenten bewerken</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
+   <td> <p>Toegang tot documenten bewerken</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42; om te weten te komen welk plan, rol, of Profiel van de Toestemming van het Bewijs u hebt, contacteer uw beheerder van Workfront of van Workfront Proof.
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -77,7 +75,7 @@ U kunt de opmerkingen die worden weergegeven, filteren door filterparameter zoal
 1. (Voorwaardelijk) als het commentaargebied niet open is, klik **commentaren van de Mening** in de hoger-juiste hoek.
 1. Op het commentaargebied, klik het **pictogram van de Filter**.
 
-   ![&#x200B; proof_comment_filter.png &#x200B;](assets/proof-comment-filter.png)
+   ![ proof_comment_filter.png ](assets/proof-comment-filter.png)
 
 1. Gebruik de opties die onder het **pictogram van de Filter** verschijnen om de commentaren door om het even welke volgende criteria te filtreren:
 
@@ -110,7 +108,7 @@ U kunt de opmerkingen die worden weergegeven, filteren door filterparameter zoal
 
 1. Klik **toepassen** of klik het **pictogram van de Filter** om de commentaarlijst met uw toegepaste filtercriteria te bekijken. Het pictogram Filter wordt weergegeven met een blauwe stip om aan te geven dat een filter wordt toegepast.
 
-1. Wanneer u gebeëindigd het filtreren bent en u alle commentaren wilt zien, klik het **pictogram van de Filter**, klik **Terugstellen**, dan klik opnieuw het **&#x200B;**&#x200B;pictogram van de Filter &lbrace;.
+1. Wanneer u gebeëindigd het filtreren bent en u alle commentaren wilt zien, klik het **pictogram van de Filter**, klik **Terugstellen**, dan klik opnieuw het **** pictogram van de Filter {.
 
 ## De lijst met opmerkingen sorteren
 
@@ -120,7 +118,7 @@ Wanneer u de lijst met opmerkingen sorteert, wordt de gekozen sorteeroptie ontho
 1. Als het commentaargebied niet open is, klik **commentaren van de Mening** in de hoger-juiste hoek.
 
 1. Klik op het sorteermenu om het te openen.
-1. ![&#x200B; Sorterend menu &#x200B;](assets/mceclip3.png)
+1. ![ Sorterend menu ](assets/mceclip3.png)
 
 1. Selecteer een van de volgende sorteeropties:
 

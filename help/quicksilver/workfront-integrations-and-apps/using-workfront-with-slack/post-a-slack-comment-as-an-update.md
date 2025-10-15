@@ -6,9 +6,9 @@ description: U kunt een Slack-opmerking toevoegen als een update voor een bepaal
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 18b22f2c-2490-41e2-afb9-0551f9579973
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 6178cabbf021fbf92bd8795c5c2bd0346801d64d
 workflow-type: tm+mt
-source-wordcount: '254'
+source-wordcount: '258'
 ht-degree: 0%
 
 ---
@@ -19,29 +19,33 @@ U kunt een [!DNL Slack] -opmerking toevoegen als een update voor een bepaald pro
 
 ## Toegangsvereisten
 
-U moet het volgende hebben:
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 <table style="table-layout:auto"> 
  <col> 
- </col> 
  <col> 
- </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://business.adobe.com/nl/products/workfront/pricing.html" target="_blank">[!DNL [!DNL Adobe Workfront] plan] </a>*</td> 
-   <td> <p>[!UICONTROL Pro] of hoger</p> </td> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
+   <td> <p>Alle</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td> <p>Alle</p>
   </tr> 
  </tbody> 
 </table>
 
-&#42; om te weten te komen welk plan, licentietype, of toegang u hebt, contacteer uw [!DNL Workfront] beheerder.\
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Vereisten
 
 Voordat u een [!DNL Slack] -opmerking kunt plaatsen als een update, moet u
 
 * Configureren [!DNL Workfront for Slack]\
-   Voor instructies bij het vormen [!DNL Workfront for Slack], zie [&#x200B; vormen  [!DNL Adobe Workfront for Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md).
+   Voor instructies bij het vormen [!DNL Workfront for Slack], zie [ vormen  [!DNL Adobe Workfront for Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md).
 
 ## [!DNL Slack] -opmerkingen als een update plaatsen in [!DNL Workfront]
 
@@ -64,4 +68,4 @@ Voordat u een [!DNL Slack] -opmerking kunt plaatsen als een update, moet u
 
    Wanneer een opmerking afkomstig is uit [!DNL Slack] , wordt het bericht &quot; [!UICONTROL Posted from [!DNL Slack]]&quot; weergegeven in [!DNL Workfront] .
 
-   ![&#x200B; gepost Update van Slack &#x200B;](assets/slack-update-posted-from-slack-350x112.png)
+   ![ gepost Update van Slack ](assets/slack-update-posted-from-slack-350x112.png)

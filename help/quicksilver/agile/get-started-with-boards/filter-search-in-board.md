@@ -6,9 +6,9 @@ description: U kunt een bord filteren om alleen bepaalde kaarten weer te geven.
 author: Lisa
 feature: Agile
 exl-id: 26abce82-dcd9-4865-96f4-c710f7f0a0d8
-source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
-source-wordcount: '668'
+source-wordcount: '659'
 ht-degree: 0%
 
 ---
@@ -28,36 +28,33 @@ Als u het bord sorteert, worden alle kaarten in de kolommen gesorteerd. U kunt g
 
 Door te zoeken kunt u ook een bepaalde kaart op het bord vinden.
 
-Wanneer de filters worden toegepast, wordt een indicator getoond op de raad ![&#x200B; die Filter op raad &#x200B;](assets/boards-filterapplied-30x30.png) wordt toegepast. Klik op **[!UICONTROL Clear All]** om alle filters van het bord te verwijderen en klik op het pictogram Samenvouwen om het filterdeelvenster te sluiten.
+Wanneer de filters worden toegepast, wordt een indicator getoond op de raad ![ die Filter op raad ](assets/boards-filterapplied-30x30.png) wordt toegepast. Klik op **[!UICONTROL Clear All]** om alle filters van het bord te verwijderen en klik op het pictogram Samenvouwen om het filterdeelvenster te sluiten.
 
-![&#x200B; het paneel van de Filter &#x200B;](assets/boards-all-filters-collapsed-0823.png)
+![ het paneel van de Filter ](assets/boards-all-filters-collapsed-0823.png)
 
 ## Toegangsvereisten
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
-
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront]</td> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licentie</td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
    <td> 
-   <p>Nieuw: [!UICONTROL Contributor] of hoger</p> 
-   <p>of</p>
-   <p>Huidig: [!UICONTROL Request] of hoger</p>
+   <p>Medewerker of hoger</p> 
+   <p>Aanvraag of hoger</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -65,17 +62,17 @@ Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van d
 
 {{step1-to-boards}}
 
-1. Toegang tot een bord. Voor informatie, zie [&#x200B; creeer of geef een raad &#x200B;](../../agile/get-started-with-boards/create-edit-board.md) uit.
+1. Toegang tot een bord. Voor informatie, zie [ creeer of geef een raad ](../../agile/get-started-with-boards/create-edit-board.md) uit.
 1. Klik [!UICONTROL **Filter**], breid de [!UICONTROL Members] sectie uit, en selecteer de persoon of de mensen waarvan kaarten u wilt zien. U kunt ook niet-toegewezen kaarten weergeven.
 
-   ![&#x200B; Filter door lid &#x200B;](assets/boards-filter-by-assignees-0822.png)
+   ![ Filter door lid ](assets/boards-filter-by-assignees-0822.png)
 
 ## Een board filteren op tags
 
 1. Toegang tot het bord.
 1. Klik [!UICONTROL **Filter**], breid de [!UICONTROL Tags] sectie uit, en selecteer de markeringen u wilt zien.
 
-   ![&#x200B; Filter door markering &#x200B;](assets/boards-filter-by-tags-0822.png)
+   ![ Filter door markering ](assets/boards-filter-by-tags-0822.png)
 
 ## Een bord filteren op status
 
@@ -84,7 +81,7 @@ Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van d
 
    U kunt ook voltooide kaarten verbergen.
 
-   ![&#x200B; Filter door status &#x200B;](assets/boards-filter-by-status-0822.png)
+   ![ Filter door status ](assets/boards-filter-by-status-0822.png)
 
 ## Een board filteren op de datum van de datum
 
@@ -93,7 +90,7 @@ Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van d
 
    Alleen kaarten in de geselecteerde datumbereiken worden weergegeven.
 
-   ![&#x200B; Filter door te zijn datum &#x200B;](assets/boards-filter-by-due-date-0822.png)
+   ![ Filter door te zijn datum ](assets/boards-filter-by-due-date-0822.png)
 
 ## Een kaart filteren om gearchiveerde kaarten weer te geven
 
@@ -107,11 +104,11 @@ Standaard worden alleen actieve kaarten op een bord weergegeven. U kunt het bord
 
    Het filter geeft het aantal gearchiveerde kaarten weer.
 
-   ![&#x200B; gearchiveerde kaarten van de Filter &#x200B;](assets/filter-by-archived-cards.png)
+   ![ gearchiveerde kaarten van de Filter ](assets/filter-by-archived-cards.png)
 
    >[!NOTE]
    >
-   >De sectie [!UICONTROL Archived Cards] is niet beschikbaar in het filter als u de configuratie-instelling niet hebt ingeschakeld voor het weergeven van gearchiveerde kaarten. Voor meer informatie, zie [&#x200B; aanpassen welke gebieden op een kaart &#x200B;](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md) worden getoond.
+   >De sectie [!UICONTROL Archived Cards] is niet beschikbaar in het filter als u de configuratie-instelling niet hebt ingeschakeld voor het weergeven van gearchiveerde kaarten. Voor meer informatie, zie [ aanpassen welke gebieden op een kaart ](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md) worden getoond.
 
 1. Selecteer nogmaals **[!UICONTROL Archived cards]** om de optie te wissen en alleen actieve kaarten weer te geven.
 
@@ -122,7 +119,7 @@ Standaard worden alleen actieve kaarten op een bord weergegeven. U kunt het bord
 
    U kunt ook kaarten weergeven die niet zijn verbonden met een project.
 
-   ![&#x200B; Filter door verbinding &#x200B;](assets/boards-filter-by-connection.png)
+   ![ Filter door verbinding ](assets/boards-filter-by-connection.png)
 
 ## Sorteren op een board
 
@@ -139,9 +136,9 @@ Wanneer u een optie selecteert om op te sorteren, worden alle kolommen gesorteer
 
    De pijl op het sorteerpictogram geeft aan of de kolommen in oplopende of aflopende volgorde worden gesorteerd.
 
-   Wanneer een soort buiten het gebrek wordt toegepast, wordt een indicator getoond op het soortpictogram ![&#x200B; toegepaste Soort &#x200B;](assets/sort-applied-boards.png).
+   Wanneer een soort buiten het gebrek wordt toegepast, wordt een indicator getoond op het soortpictogram ![ toegepaste Soort ](assets/sort-applied-boards.png).
 
-   ![&#x200B; Soort door kolommen op een raad &#x200B;](assets/sort-by-columns-in-board.png)
+   ![ Soort door kolommen op een raad ](assets/sort-by-columns-in-board.png)
 
 ## Zoeken in een board
 
@@ -152,4 +149,4 @@ Wanneer u een optie selecteert om op te sorteren, worden alle kolommen gesorteer
 
    Klik op de X om de zoekopdracht te wissen.
 
-   ![&#x200B; Onderzoek naar kaarten in een raad &#x200B;](assets/boards-searchbox.png)
+   ![ Onderzoek naar kaarten in een raad ](assets/boards-searchbox.png)

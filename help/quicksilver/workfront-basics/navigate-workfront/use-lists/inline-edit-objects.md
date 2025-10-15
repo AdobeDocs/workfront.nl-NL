@@ -6,9 +6,9 @@ description: U kunt objecten inline bewerken wanneer ze in een lijst of rapport 
 feature: Get Started with Workfront
 author: Nolan
 exl-id: a94b5aaf-71de-4fcd-946b-459ca3edf7e4
-source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
+source-git-commit: f0b3b8aa64fa0b03a196bbcc2bdd037eeeb0f89e
 workflow-type: tm+mt
-source-wordcount: '701'
+source-wordcount: '686'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ U kunt objecten inline bewerken wanneer ze in een lijst of rapport worden weerge
 
 Als u een veld in een aangepast formulier inline bewerkt dat niet aan het object is gekoppeld, wordt het aangepaste formulier automatisch aan het object toegevoegd. Als het veld bestaat op meerdere aangepaste formulieren, wordt het aangepaste formulier dat het laatst is bijgewerkt, aan het object gekoppeld.
 
-Voor meer informatie over lijsten, zie [&#x200B; begonnen worden met lijsten in  [!DNL Adobe Workfront]](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
+Voor meer informatie over lijsten, zie [ begonnen worden met lijsten in  [!DNL Adobe Workfront]](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
 
 De meeste objecten die in lijsten of rapporten worden weergegeven, kunnen inline worden bewerkt in [!DNL Adobe Workfront] , maar er zijn enkele beperkingen, waaronder:
 
@@ -31,34 +31,28 @@ De meeste objecten die in lijsten of rapporten worden weergegeven, kunnen inline
   Bijvoorbeeld, kunt u de status van een taak in een rapport van de Taak uitgeven, maar u kunt niet de naam van het project uitgeven de taak met in het zelfde rapport wordt geassocieerd. U kunt de naam van het project slechts in een rapport van het Project uitgeven.
 * U kunt velden niet inline bewerken wanneer de standaardvaluta niet wordt weergegeven in de weergave voor een lijst.
 
-  Voor informatie bij het tonen van de standaardmunt, zie de sectie [&#x200B; rapporten met unieke valuta &#x200B;](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-financial-data-reports-unique-exchange-rates.md#editing-reports-with-unique-currencies) in het artikel [&#x200B; uitgeven financiële gegevensrapporten met unieke wisselkoersen &#x200B;](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-financial-data-reports-unique-exchange-rates.md).
+  Voor informatie bij het tonen van de standaardmunt, zie de sectie [ rapporten met unieke valuta ](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-financial-data-reports-unique-exchange-rates.md#editing-reports-with-unique-currencies) in het artikel [ uitgeven financiële gegevensrapporten met unieke wisselkoersen ](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-financial-data-reports-unique-exchange-rates.md).
 * U kunt markeringen en pictogrammen die in een lijst worden weergegeven niet bewerken.
 * U kunt rapportvelden die afkomstig zijn uit andere rapporten niet inline bewerken.
 
 ## Toegangsvereisten
 
-+++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
-
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan</td> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie*</td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
    <td> 
-    <p>Nieuw:</p>
-   <ul><li><p>Medewerker of hoger </p></li>
-   </ul>
-
-<p>Huidige:</p>
-   <ul><li><p>Aanvraag of hoger</p></li>
-    </ul></td> 
+   <p>Medewerker of hoger </p>
+   <p>Aanvraag of hoger</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau</td> 
@@ -71,7 +65,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-*For informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -90,19 +84,19 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    >   * **Paginering**: Klik achteruit en door:sturen pijlen om tussen pagina&#39;s te navigeren.
    >     Het gebied [!UICONTROL pagination] bevindt zich in de rechterbenedenhoek van de lijst en blijft ongewijzigd wanneer u door de lijst schuift.
    >   * **Snelle filter**: Klik het filterpictogram of type Alt+F om de snelle filter te openen, dan tekst in te gaan om slechts punten te tonen die de ingegane tekst bevatten.
-   >     Het snelfilter bevindt zich op de lijstwerkbalk. Voor meer informatie, zie [&#x200B; de snelle filter op een lijst &#x200B;](../../../workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md) toepassen.
+   >     Het snelfilter bevindt zich op de lijstwerkbalk. Voor meer informatie, zie [ de snelle filter op een lijst ](../../../workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md) toepassen.
 
    Als het veld kan worden bewerkt, worden het veld en alle andere velden in de lijst omgezet in bewerkbare cellen.
 
-   ![&#x200B; Bewerkbare cellen &#x200B;](assets/nwe-editable-cells-350x131.png)
+   ![ Bewerkbare cellen ](assets/nwe-editable-cells-350x131.png)
 
 1. Bewerk de informatie in deze cel en druk op [!UICONTROL Enter] .
 
    >[!NOTE]
    >
    >Als een aangepast veld is geconfigureerd voor opmaak, kunt u tekst vet maken, cursief maken of onderstrepen wanneer u het veld inline bewerkt in een bijgewerkte lijst.
-   >Voor informatie bij het vormen van het formatteren voor een douanegebied, zie [&#x200B; een douaneformulier &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren.
-   >Voor informatie over bijgewerkte lijsten, zie de sectie &quot;het verschil tussen de bijgewerkte en erfenislijsten&quot;in artikel [&#x200B; worden begonnen met lijsten in  [!DNL Adobe Workfront]](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
+   >Voor informatie bij het vormen van het formatteren voor een douanegebied, zie [ een douaneformulier ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren.
+   >Voor informatie over bijgewerkte lijsten, zie de sectie &quot;het verschil tussen de bijgewerkte en erfenislijsten&quot;in artikel [ worden begonnen met lijsten in  [!DNL Adobe Workfront]](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
 
 1. Druk op [!UICONTROL Tab] om naar de volgende bewerkbare cel te gaan.
 1. (Voorwaardelijk) Als u uw bewerkingen niet kunt opslaan en de cel rood wordt weergegeven, klikt u in het veld om het validatiebericht te bekijken dat naast de cel wordt weergegeven en de juiste updates uit te voeren.

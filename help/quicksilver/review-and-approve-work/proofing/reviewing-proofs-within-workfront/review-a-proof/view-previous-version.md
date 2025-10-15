@@ -6,9 +6,9 @@ description: U kunt een vorige versie van een proef bekijken als één bestaat. 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 9416a3ee-2812-4a25-af38-2c5daeaeef07
-source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
+source-git-commit: 385f4a6663cacfdcf519bf5699fc1840c2cb2adc
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '252'
 ht-degree: 0%
 
 ---
@@ -25,32 +25,34 @@ U kunt een vorige versie van een proef bekijken als één bestaat. Eerdere versi
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-abonnement*</td> 
-   <td> <p>Huidig abonnement: Pro of hoger</p> <p>of</p> <p>Verouderd abonnement: Selecteren of Premium</p> <p>Voor meer informatie over het proefdrukken van toegang met de verschillende plannen, zie <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref"> Toegang tot het proefdrukken van functionaliteit in Workfront </a>.</p> </td> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Huidig plan: Werk of Plan</p> <p>Ouder plan: Willekeurig (proefdrukken moet zijn ingeschakeld voor de gebruiker)</p> </td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td> <p>Alle</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Proefdrukrol </td> 
+   <td>Revisor, Reviewer en fiatteur, auteur, moderator</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Bewijs van machtigingsprofiel </td> 
    <td>Manager of hoger</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot documenten bewerken</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
+   <td> <p>Toegang tot documenten bewerken</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42; om te weten te komen welk plan, rol, of Profiel van de Toestemming van het Bewijs u hebt, contacteer uw beheerder van Workfront of van Workfront Proof.
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -61,7 +63,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 1. Klik in de linkerbovenhoek van de proefdrukviewer op de naam van de proefdruk.
 
-   ![&#x200B; phq_viewer_version.png &#x200B;](assets/phq-viewer-version-350x184.png)
+   ![ phq_viewer_version.png ](assets/phq-viewer-version-350x184.png)
 
 1. Klik in de lijst die wordt weergegeven op de versie die u wilt weergeven.
-1. (Facultatief) om de versie te ontgrendelen als u gebruikers commentaren wilt kunnen toevoegen of een besluit veranderen, als u rechten hebt om dit te doen, **pictogram 0&rbrace; ontgrendelen &lbrace;in het linkerpaneel, dan klik** ja, ontgrendelen **.** Voor meer informatie, zie [&#x200B; Slot of ontgrendel een proef &#x200B;](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/lock-or-unlock-proof.md).
+1. (Facultatief) om de versie te ontgrendelen als u gebruikers commentaren wilt kunnen toevoegen of een besluit veranderen, als u rechten hebt om dit te doen, **pictogram 0} ontgrendelen {in het linkerpaneel, dan klik** ja, ontgrendelen **.** Voor meer informatie, zie [ Slot of ontgrendel een proef ](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/lock-or-unlock-proof.md).

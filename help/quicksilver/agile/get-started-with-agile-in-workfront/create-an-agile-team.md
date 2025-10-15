@@ -6,9 +6,9 @@ description: Met Adobe Workfront kunnen mobiele teams hun werk op een incremente
 author: Lisa
 feature: Agile
 exl-id: 3afd16db-7829-4c9c-a981-461990c9dbc8
-source-git-commit: 79da9f7ed5149ca33f6eaeac347188149f410695
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
-source-wordcount: '933'
+source-wordcount: '924'
 ht-degree: 0%
 
 ---
@@ -23,15 +23,13 @@ Om het even welke gebruiker in de organisatie kan het agile team zien en alle ag
 
 [!DNL Workfront] biedt ondersteuning voor de volgende methoden:
 
-* **[!UICONTROL Scrum]**: Teams hebben een achterstand in hun werk die moet worden uitgevoerd. Wanneer het team aan een specifiek segment van het werk klaar is te werken, wordt het werk verplaatst van de achterstand naar een herhaling. Voor meer gedetailleerde informatie over het beheren van een team van het Trommel, zie [&#x200B; Trommel in een flexibel team &#x200B;](../../agile/use-scrum-in-an-agile-team/scrum-in-an-agile-team.md).
+* **[!UICONTROL Scrum]**: Teams hebben een achterstand in hun werk die moet worden uitgevoerd. Wanneer het team aan een specifiek segment van het werk klaar is te werken, wordt het werk verplaatst van de achterstand naar een herhaling. Voor meer gedetailleerde informatie over het beheren van een team van het Trommel, zie [ Trommel in een flexibel team ](../../agile/use-scrum-in-an-agile-team/scrum-in-an-agile-team.md).
 
-* **[!UICONTROL Kanban]:** de teams bewegen het werk in de mening Kanban over vooraf bepaalde statussen. De standaardstatussen zijn: achterstand, in-proces, en gedaan. Voor meer gedetailleerde informatie over het beheren van een team Kanban, zie [&#x200B; Kanban in een flexibel team &#x200B;](../../agile/use-kanban-in-an-agile-team/using-kanban-in-an-agile-team.md).
+* **[!UICONTROL Kanban]:** de teams bewegen het werk in de mening Kanban over vooraf bepaalde statussen. De standaardstatussen zijn: achterstand, in-proces, en gedaan. Voor meer gedetailleerde informatie over het beheren van een team Kanban, zie [ Kanban in een flexibel team ](../../agile/use-kanban-in-an-agile-team/using-kanban-in-an-agile-team.md).
 
 ## Toegangsvereisten
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
-
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -40,20 +38,19 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licentie</td> 
-   <td> <p>Nieuw: Standaard</p>
-   Huidige: 
-   <ul><li><p>[!UICONTROL Plan] om een nieuw team te creëren</p></li> 
-   <li><p>[!UICONTROL Work] of hoger om een team om te zetten in een flexibel team</p></li></ul> </td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td> <p>Standard</p>
+   <p>Een nieuw team maken</p>
+  <p>Werk of hoger om een team om te zetten in een flexibel team</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -72,13 +69,13 @@ Met de [!DNL Kanban] &#39;agile&#39;-methode in [!DNL Workfront] kunt u artikele
 Deze methode wordt ondersteund door de volgende functionaliteit:
 
 * Geef de achtergrond weer op de [!DNL Kanban] -kaart voor een nieuw artikel.
-Voor meer informatie, zie [&#x200B; de achterstand aan de [!UICONTROL Kanban] raad &#x200B;](../../agile/use-kanban-in-an-agile-team/view-the-backlog-on-the-kanban-board.md) toevoegen.
+Voor meer informatie, zie [ de achterstand aan de [!UICONTROL Kanban] raad ](../../agile/use-kanban-in-an-agile-team/view-the-backlog-on-the-kanban-board.md) toevoegen.
 
 * Configureer de items op de achtergrond die automatisch aan de [!UICONTROL Kanban] agile story-board moeten worden toegevoegd wanneer andere items naar een status worden verplaatst die gelijk is aan Voltooien.
-Voor meer informatie, zie de sectie [&#x200B; verhalen vormen die automatisch van de achterstand &#x200B;](../../agile/get-started-with-agile-in-workfront/configure-kanban.md#configur5) in het artikel [&#x200B; worden toegevoegd Kanban &#x200B;](../../agile/get-started-with-agile-in-workfront/configure-kanban.md) vormen.
+Voor meer informatie, zie de sectie [ verhalen vormen die automatisch van de achterstand ](../../agile/get-started-with-agile-in-workfront/configure-kanban.md#configur5) in het artikel [ worden toegevoegd Kanban ](../../agile/get-started-with-agile-in-workfront/configure-kanban.md) vormen.
 
 * Configureer een WIP-limiet (Work In progress) die moet worden weergegeven op de [!UICONTROL Kanban] -kaart voor onregelmatig artikel.
-Voor meer informatie, zie [&#x200B; leiden het werk lopend (WIP) grens op de raad Kanban &#x200B;](../../agile/use-kanban-in-an-agile-team/work-in-progress-limit-on-the-kanban-board.md).
+Voor meer informatie, zie [ leiden het werk lopend (WIP) grens op de raad Kanban ](../../agile/use-kanban-in-an-agile-team/work-in-progress-limit-on-the-kanban-board.md).
 
 ### Voordelen van het gebruik van Scrum in [!DNL Workfront]
 
@@ -90,15 +87,15 @@ Deze methode wordt ondersteund door de volgende functionaliteit:
 * Inclusief problemen op de achtergrond van een bestandsteam
 * Subtaken kunnen worden weergegeven op het [!UICONTROL Scrum] artikelbord
 * Een uitvouwdiagram weergeven om de voortgang tegen artikelen tijdens de herhaling te bekijken
-Voor meer informatie, zie [&#x200B; Overzicht van de de burndown grafiek van de Gelijkheid &#x200B;](../../agile/use-scrum-in-an-agile-team/burndown/burndown-chart-overview.md).
+Voor meer informatie, zie [ Overzicht van de de burndown grafiek van de Gelijkheid ](../../agile/use-scrum-in-an-agile-team/burndown/burndown-chart-overview.md).
 
 ## Een bestandsteam maken
 
 {{step1-to-team}}
 
-1. Klik het **[!UICONTROL Switch Teams]** pictogram van het pictogram ![&#x200B; team van de Schakelaar &#x200B;](assets/switch-team-icon.png), dan klik **[!UICONTROL Create new team]**.
+1. Klik het **[!UICONTROL Switch Teams]** pictogram van het pictogram ![ team van de Schakelaar ](assets/switch-team-icon.png), dan klik **[!UICONTROL Create new team]**.
 
-   ![&#x200B; Uitgezocht creeer nieuw team &#x200B;](assets/create-new-team.png)
+   ![ Uitgezocht creeer nieuw team ](assets/create-new-team.png)
 
    Het vak Nieuw team wordt weergegeven.
 
@@ -125,7 +122,7 @@ Voor meer informatie, zie [&#x200B; Overzicht van de de burndown grafiek van de 
 
    <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
       <td role="rowheader"><strong>[!UICONTROL Group]</strong> </td> 
-      <td> <p>Typ de naam van een groep die u aan het team wilt toevoegen en selecteer vervolgens de naam wanneer deze in de vervolgkeuzelijst wordt weergegeven.</p> <p><b>OPMERKING</b></p> <p> Wanneer een team aan een groep of subgroep wordt toegewezen, kunnen om het even welke groepsbeheerders van die groep of subgroep het team beheren zonder een lid van het team te zijn. Groepbeheerders kunnen vanuit [!UICONTROL Main Menu] naar het gebied [!UICONTROL Teams] gaan en op [!UICONTROL Switch Teams] pijl <img src="assets/switch-team-icon.png" alt="Teampictogram wisselen"> klikken om alle teams weer te geven die zijn toegewezen aan de groepen die ze beheren.</p> </td> 
+      <td> <p>Typ de naam van een groep die u aan het team wilt toevoegen en selecteer vervolgens de naam wanneer deze in de vervolgkeuzelijst wordt weergegeven.</p> <p><b>OPMERKING</b></p> <p> Wanneer een team aan een groep of subgroep wordt toegewezen, kunnen om het even welke groepsbeheerders van die groep of subgroep het team beheren zonder een lid van het team te zijn. Groepbeheerders kunnen vanuit [!UICONTROL Teams] naar het gebied [!UICONTROL Main Menu] gaan en op [!UICONTROL Switch Teams] pijl <img src="assets/switch-team-icon.png" alt="Teampictogram wisselen"> klikken om alle teams weer te geven die zijn toegewezen aan de groepen die ze beheren.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Team Members]</strong> </td> 
@@ -152,15 +149,15 @@ U kunt een bestaand team omzetten in een flexibel team:
 
 {{step1-to-team}}
 
-1. Klik het **[!UICONTROL Switch team]** pictogram van het pictogram ![&#x200B; team van de Schakelaar &#x200B;](assets/switch-team-icon.png), dan of selecteer een nieuw team van het drop-down menu of onderzoek naar een team in de onderzoeksbar.
+1. Klik het **[!UICONTROL Switch team]** pictogram van het pictogram ![ team van de Schakelaar ](assets/switch-team-icon.png), dan of selecteer een nieuw team van het drop-down menu of onderzoek naar een team in de onderzoeksbar.
 
 1. Selecteer het team dat u in een flexibel team wilt omzetten.
 1. Klik op het menu **[!UICONTROL More]** en selecteer vervolgens **[!UICONTROL Edit]** .
 
    Deze optie wordt alleen weergegeven voor teamleden met een licentie [!UICONTROL Standard] , [!UICONTROL Plan] of [!UICONTROL Work] .
-   ![&#x200B; Uitgezochte geeft uit &#x200B;](assets/edit-team-settings.png)
+   ![ Uitgezochte geeft uit ](assets/edit-team-settings.png)
 
-1. Selecteer **[!UICONTROL This is an Agile Team]** in de sectie **[!UICONTROL Agile]** .
+1. Selecteer **[!UICONTROL Agile]** in de sectie **[!UICONTROL This is an Agile Team]** .
 
 1. Geef in de sectie **[!UICONTROL Methodology]** op of het team een **[!UICONTROL Scrum]** - of **[!UICONTROL Kanban]** -methode gebruikt.
 

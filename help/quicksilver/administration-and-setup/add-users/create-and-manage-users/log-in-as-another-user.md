@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 2f8dd132-1086-4980-9b56-993a68231e96
-source-git-commit: 6068c9c53568d3ebec9fae294bfee1cbd365714b
+source-git-commit: f8d04790caefd12c9811ea3ed94e1f892311d031
 workflow-type: tm+mt
-source-wordcount: '738'
+source-wordcount: '714'
 ht-degree: 0%
 
 ---
@@ -42,37 +42,37 @@ Some users, such as executives, need to be able to control which administrators 
 >
 >Omdat een documentintegratie verbinding kan maken met persoonlijke privébestanden, hebben beheerders geen toegang tot documentintegratie wanneer ze zijn aangemeld als een andere gebruiker.
 >
->Voor meer informatie over documentintegratie, zie [&#x200B; documentintegratie &#x200B;](../../../administration-and-setup/configure-integrations/configure-document-integrations.md) vormen.
+>Voor meer informatie over documentintegratie, zie [ documentintegratie ](../../../administration-and-setup/configure-integrations/configure-document-integrations.md) vormen.
 
 ## Toegangsvereisten
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
-
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan</td> 
-   <td>Alle</td> 
+   <td>Adobe Workfront-pakket</td> 
+   <td><p>Alle</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie</td> 
-   <td> <p>Nieuw: Standaard</p>
-   <p>of</p>
-   <p>Huidig: Plan</p></td> 
-  </tr> 
+   <td>Adobe Workfront-licentie</td> 
+   <td><p>Standard</p>
+       <p>Plan</p></td> 
+  </tr>
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau</td> 
-   <td> <p>Met het de toegangsniveau van de Beheerder van het Systeem, kunt u login als iedereen.</p> <p>Met een Norm of het toegangsniveau van de Planner, kunt u login als gebruiker met een lager vergunningsniveau als de Gebruikers die op het toegangsniveau plaatsen wordt gevormd om toegang uit te geven, met Create en minstens één van de twee die opties van Admin van de Gebruiker onder Uw montages <img src="assets/gear-icon-in-access-levels.png"> worden toegelaten. </p> 
-   <p>NOTA: Van deze twee opties, als de Gebruiker Admin (de Gebruikers van de Groep) wordt toegelaten, moet u een groepbeheerder van een groep zijn waar de gebruiker een lid is.</p></td>
+   <td>Configuraties op toegangsniveau</td> 
+   <td> <p>U moet een van de volgende opties hebben:</p> 
+    <ul> 
+     <li> <p>Het toegangsniveau voor systeembeheerders. Op deze manier kunt u zich als iedereen aanmelden.</li> 
+     <li> <p><b> Gebruikers </b> het plaatsen in uw toegangsniveau dat aan <b> wordt gevormd geeft </b> toegang uit, met <b> creeert </b> en minstens één van de twee <b> die gebruikers Admin </b> opties onder <b> worden toegelaten verfijnen uw montages </b> <img src="assets/gear-icon-in-access-levels.png">. Op deze manier kunt u zich aanmelden als een gebruiker met een lagere licentie. </p> <p>Van deze twee opties, als <b> Admin van de Gebruiker (de Gebruikers van de Groep) </b> wordt toegelaten, moet u een groepsbeheerder van een groep zijn waar de gebruiker een lid is.</p> </li> 
+    </ul> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -84,9 +84,9 @@ Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van d
    >
    >* Als u een groepsbeheerder bent, kunt u zich slechts als gebruikers in de groepen aanmelden u beheert. Ook, moet de toestemming van Admin van de Gebruiker (de Gebruikers van de Groep) op uw toegangsniveau worden toegelaten:
    >   
-   >  ![&#x200B; Admin gebruiker van de Groep &#x200B;](assets/group-admin-user.png)
+   >  ![ Admin gebruiker van de Groep ](assets/group-admin-user.png)
    >   
-   >  Deze instelling is standaard uitgeschakeld. Voor meer informatie, zie [&#x200B; tot douanetoegangsniveaus &#x200B;](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md) leiden of wijzigen.
+   >  Deze instelling is standaard uitgeschakeld. Voor meer informatie, zie [ tot douanetoegangsniveaus ](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md) leiden of wijzigen.
    >   
    >* U kunt het wachtwoord van een Workfront-beheerder niet opnieuw instellen.
 
@@ -138,7 +138,7 @@ Workfront biedt mechanismen voor het bijhouden en controleren van activiteiten d
 
 Wanneer u zich aanmeldt als een andere gebruiker, wordt de laatste aanmeldingsdatum voor die gebruiker gewijzigd in de datum waarop de systeem- of groepsbeheerder zich aanmeldt als die gebruiker.
 
-* [&#x200B; indicatoren van de Mening over punten &#x200B;](#view-indicators-on-items)
+* [ indicatoren van de Mening over punten ](#view-indicators-on-items)
 * [Controlegegevens weergeven](#view-audit-information)
 
 ### Indicatoren weergeven voor objecten {#view-indicators-on-items}

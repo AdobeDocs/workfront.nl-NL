@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 8eb9dcaf-bba3-466d-b06d-5383991bc4ea
-source-git-commit: b886284eb44c2154987019655ff07cdeb0e1ae22
+source-git-commit: 0940e4c89de6cd3518cd98a1e06dc726f434846b
 workflow-type: tm+mt
-source-wordcount: '653'
+source-wordcount: '651'
 ht-degree: 0%
 
 ---
@@ -32,14 +32,14 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront-plan</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront-pakket</strong></td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront-licentie*</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront-licentie</strong></td> 
    <td> 
-   <p>Huidig: Verzoek of hoger</p>
-   <p>Nieuw: Medewerker of hoger</p> 
+   <p>Aanvraag of hoger</p>
+   <p>Medewerker of hoger</p> 
    </td> 
   </tr> 
   <tr> 
@@ -53,7 +53,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-*Voor meer informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -65,7 +65,7 @@ U kunt taken en kwesties filtreren die aan u worden toegewezen.
 
 1. Klik **Filters** in de hoogste linkerzijde van de werklijst.
 1. In de **Standaard filters** sectie, selecteer één of meerdere filters om onderaan uw het werkpunten te versmallen.
-   ![&#x200B; Filter &#x200B;](assets/filter-new.png)
+   ![ Filter ](assets/filter-new.png)
 
 +++Uitbreiden om gedetailleerde informatie over beschikbare filters weer te geven
 <table>
@@ -135,7 +135,7 @@ Gebruik natuurlijke taal om werk snel te filteren.
 
 >[!NOTE]
 >
->Deze eigenschap is slechts beschikbaar voor klanten op de Verenigde Ervaring van Adobe gebruikend AI Medewerker. Voor meer informatie over AI Medewerker, zie [&#x200B; AI Hulpoverzicht &#x200B;](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md).
+>Deze eigenschap is slechts beschikbaar voor klanten op de Verenigde Ervaring van Adobe gebruikend AI Medewerker. Voor meer informatie over AI Medewerker, zie [ AI Hulpoverzicht ](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md).
 
 {{step1-to-priorities}}
 
@@ -155,7 +155,7 @@ Gebruik natuurlijke taal om werk snel te filteren.
 
 1. Klik **Groepen** in de hoogste linkerzijde van de werklijst.
 1. Selecteer een groep om uw werklijst te organiseren.
-   ![&#x200B; Groepen &#x200B;](assets/groups-new.png)
+   ![ Groepen ](assets/groups-new.png)
 
 +++Uitbreiden om gedetailleerde informatie over beschikbare groepen weer te geven
 
@@ -174,7 +174,7 @@ U kunt individuele het werkpunten tussen categorieën slepen en laten vallen wan
 
 1. Groepeer uw werk door **Status** of **Mijn Prioriteit**.
 2. Beweeg over het het werkpunt om het **pictogram van de Belemmering** te klikken en het naar de gewenste categorie te bewegen.
-   ![&#x200B; belemmeringspictogram &#x200B;](assets/drag-and-drop.png)
+   ![ belemmeringspictogram ](assets/drag-and-drop.png)
 
 ## Uw werk sorteren
 
@@ -182,16 +182,16 @@ U kunt individuele het werkpunten tussen categorieën slepen en laten vallen wan
 
 Om uw werk binnen een groep te sorteren, open **Groep** en selecteer als u in het stijgen of dalende orde wilt sorteren.
 
-![&#x200B; Soort in groepen &#x200B;](assets/sort-in-groups.png)
+![ Soort in groepen ](assets/sort-in-groups.png)
 
 ### Kolommen sorteren
 
 Als u afzonderlijke kolommen wilt sorteren, gaat u naar de kolom en klikt u op de pijl omlaag.
 
-![&#x200B; benedenpijl in kolom &#x200B;](assets/sort-columns.png)
+![ benedenpijl in kolom ](assets/sort-columns.png)
 
 ### Alle groepssecties uitvouwen of samenvouwen
 
 Om alle groepssecties uit te breiden of te doen ineenstorten, open **Groep** en klik **breid allen uit** of **samen allen**.
 
-![&#x200B; breid of doen ineenstorten groepen &#x200B;](assets/expand-collapse-groups.png) uit
+![ breid of doen ineenstorten groepen ](assets/expand-collapse-groups.png) uit

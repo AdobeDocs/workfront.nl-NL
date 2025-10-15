@@ -6,9 +6,9 @@ description: U kunt de montages van een rapport uitgeven om te bepalen hoe het v
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 6fbbc557-65da-4ffe-968a-9c8db6a45811
-source-git-commit: 394eb1aed6508399b6459430acec7c0729036edc
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '620'
+source-wordcount: '612'
 ht-degree: 0%
 
 ---
@@ -21,43 +21,35 @@ U kunt de montages van een rapport uitgeven om te bepalen hoe het voor andere ge
 
 ## Toegangsvereisten
 
-+++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
-
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-abonnement*</td> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie*</td> 
-      <td> 
-      <p>Nieuw:</p>
-         <ul>
-         <li><p>Standaard</p></li>
-         </ul>
-      <p>Huidige:</p>
-         <ul>
-         <li><p>Plan</p></li>
-         </ul>
-   </td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td> 
+      <p>Standard</p>
+      <p>Plan</p>
+   </td>
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot rapporten, dashboards, kalenders bewerken</p> <p>Toegang tot filters, weergaven, groepen bewerken</p></td> 
+   <td role="rowheader">Configuratie op toegangsniveau</td> 
+   <td> <p>Toegang tot rapporten, dashboards, kalenders bewerken</p> <p>Toegang tot filters, weergaven, groepen bewerken</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Machtigingen beheren voor een rapport</p></td> 
+ <td> <p>Machtigingen beheren voor een rapport</p></td>  
   </tr> 
  </tbody> 
 </table>
 
-*For informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -128,7 +120,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    </table>
 
 1. Klik **Vragen van het Rapport** aan opstelling om het even welke herinneringen voor het rapport.\
-   Voor meer informatie over het toevoegen van herinneringen aan een rapport, zie het artikel [&#x200B; een herinnering aan een rapport &#x200B;](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md) toevoegen.
+   Voor meer informatie over het toevoegen van herinneringen aan een rapport, zie het artikel [ een herinnering aan een rapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md) toevoegen.
 
 1. Klik **Gedaan,** dan klik **sparen + Sluiten**.
 
@@ -137,6 +129,6 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 Zie ook:
 
 <!--outdated: * [Basic Report Creation Program for the new Workfront experience](https://one.workfront.com/s/basic-report-creation-program) -->
-* [&#x200B; worden begonnen met rapporten &#x200B;](../../../reports-and-dashboards/reports/reporting/get-started-reports-workfront.md)
-* [&#x200B; de ingebouwde rapporten van Adobe Workfront van het Gebruik &#x200B;](../../../reports-and-dashboards/reports/using-built-in-reports/use-workfront-built-in-reports.md)
+* [ worden begonnen met rapporten ](../../../reports-and-dashboards/reports/reporting/get-started-reports-workfront.md)
+* [ de ingebouwde rapporten van Adobe Workfront van het Gebruik ](../../../reports-and-dashboards/reports/using-built-in-reports/use-workfront-built-in-reports.md)
 * [Een aangepast rapport maken](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)

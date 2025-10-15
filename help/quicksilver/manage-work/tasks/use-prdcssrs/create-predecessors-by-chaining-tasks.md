@@ -1,14 +1,14 @@
 ---
 product-area: projects
 navigation-topic: use-predecessors
-title: Maak vorige relaties door taken in een keten te plaatsen
+title: Creeer de Verhoudingen van de Predecessor door Taken te bepalen
 description: In Adobe Workfront kunt u op meerdere manieren voorgangersrelaties maken. Eén methode is het koppelen van taken.
 author: Alina
 feature: Work Management
 exl-id: 38ea13a5-ab95-4617-a47f-9dde5f752fb4
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
 workflow-type: tm+mt
-source-wordcount: '335'
+source-wordcount: '278'
 ht-degree: 0%
 
 ---
@@ -17,38 +17,67 @@ ht-degree: 0%
 
 In Adobe Workfront kunt u op meerdere manieren voorgangersrelaties maken. Eén methode is het koppelen van taken.
 
-Voor informatie over voorgangerstaken, zie [&#x200B; Overzicht van taakvoorgangers &#x200B;](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md).
+Voor informatie over voorgangerstaken, zie [ Overzicht van taakvoorgangers ](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md).
 
 Door taken in een keten op te nemen, kunt u het systeem toestaan om automatisch de voorgangersrelaties te maken voor geselecteerde taken, in plaats van handmatig zelf een relatie te maken voor elke taak. De verschillende types van voorgangersverhouding kunnen nog tussen taken worden gebruikt.
 
 ## Toegangsvereisten
 
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-abonnement*</td> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Plan </p> </td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td><p>Standard</p> 
+   <p>Plan</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot taken en projecten bewerken</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
+   <td> <p>Toegang tot taken en projecten bewerken</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Rechten voor de taken en het project beheren</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
+   <td> <p>Rechten voor de taken en het project beheren</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
+Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
+<!--Old:
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> 
+   <p>Standard </p>
+    <p>Plan </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>Edit access to Tasks and Projects</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>Manage permissions to the tasks and the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects</a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## De taken van de ketting om voorgangersverhoudingen tot stand te brengen
 
@@ -70,7 +99,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    * **begin-Begin**
    * **begin-Afwerking**
 
-   Voor meer informatie over de types van voorgangsafhankelijkheid, zie [&#x200B; Overzicht van de types van taakgebiedsdeel &#x200B;](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
+   Voor meer informatie over de types van voorgangsafhankelijkheid, zie [ Overzicht van de types van taakgebiedsdeel ](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
 
 1. (Facultatief) klik **Unchain** als sommige taken eerder zijn geketend.
 

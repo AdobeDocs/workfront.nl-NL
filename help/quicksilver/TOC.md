@@ -3,7 +3,7 @@ user-guide-title: Handleiding voor Workfront
 user-guide-description: Gebruik de documenten, zelfstudies en aanvullende bronnen om te leren hoe u Adobe Workfront in uw organisatie implementeert en effectief gebruikt.
 role: User
 feature-set: Workfront
-source-git-commit: 30b99255a2178f972f9a9f3f7eda5f2929a24978
+source-git-commit: dc4b6dc284c59281206a457395765e634067ba91
 workflow-type: tm+mt
 source-wordcount: '13446'
 ht-degree: 0%
@@ -120,7 +120,7 @@ ht-degree: 0%
          * [23.3 Andere verbeteringen](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-other-enhancements.md)
          * [Updates weergeven en voelen tijdens de releaseperiode van 23.3](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-look-and-feel-updates.md)
       * 23.2 Release {#release-23-2}
-         * [&#x200B; 23.2 Overzicht van de Versie &#x200B;](product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md)
+         * [ 23.2 Overzicht van de Versie ](product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md)
          * [23.2 Beheerdersverbeteringen](product-announcements/product-releases/23.2-release-activity/23-2-admin-enhancements.md)
          * [23.2 Verbeteringen aan mobiele apparaten](product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md)
          * [23.2 Verbeteringen van het projectbeheer](product-announcements/product-releases/23.2-release-activity/23-2-project-enhancements.md)
@@ -214,8 +214,8 @@ ht-degree: 0%
          * [21.1 Verbeteringen voor mobiele apparaten](product-announcements/product-releases/21.1-release-activity/21-1-mobile-enhancements.md)
          * [21.1 Andere verbeteringen](product-announcements/product-releases/21.1-release-activity/21-1-other-enhancements.md)
       * Adobe Workfront Planning Release-activiteit{#planning-release-activity}
-         * [&#x200B; de versieactiviteit van de Planning van Adobe Workfront &#x200B;](product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)
-           [&#x200B; Vierde Kwartaal 2025 versieactiviteit voor de Planning van Adobe Workfront &#x200B;](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q4.md)
+         * [ de versieactiviteit van de Planning van Adobe Workfront ](product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)
+           [ Vierde Kwartaal 2025 versieactiviteit voor de Planning van Adobe Workfront ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q4.md)
          * [Derde Kwart 2025 releaseactiviteit voor de Planning van Adobe Workfront](product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q3.md)
          * [Tweede kwartaal 2025: releaseactiviteit voor Adobe Workfront Planning](product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q2.md)
          * [Eerste kwartaal van 2025: releaseactiviteit voor Adobe Workfront Planning](product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q1.md)
@@ -450,7 +450,7 @@ ht-degree: 0%
          * [Een schema maken](administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)
       * Organisatorische instellingen {#organization-setup}
          * [Organisatorische instellingen](administration-and-setup/set-up-workfront/organizational-setup/organizational-setup.md)
-         * [Bedrijven beheren](administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md)
+         * [Bedrijven maken en bewerken](administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md)
          * [Ondernemingslidmaatschappen beheren](administration-and-setup/set-up-workfront/organizational-setup/manage-company-memberships.md)
          * [Een bedrijf deactiveren of opnieuw activeren](administration-and-setup/set-up-workfront/organizational-setup/deactivate-a-company.md)
          * [Functie](administration-and-setup/set-up-workfront/organizational-setup/job-role-overview.md)
@@ -782,8 +782,8 @@ ht-degree: 0%
       * [Lijst met beschikbare blauwdrukken](administration-and-setup/blueprints/list-of-available-blueprints.md)
    * Beheer in de Adobe Admin Console {#admin-in-admin-console}
       * [Workfront Administration in de Adobe Admin Console](administration-and-setup/adobe-admin-console/wf-admin-in-admin-console.md)
-      * [&#x200B; voorbereidingen treffen voor Adobe Admin Console &#x200B;](administration-and-setup/adobe-admin-console/prep-for-admin-console.md)
-      * [&#x200B; Begrijpend de Migratie van Workfront aan Adobe Admin Console &#x200B;](administration-and-setup/adobe-admin-console/understand-wf-migration-to-admin-console.md)
+      * [ voorbereidingen treffen voor Adobe Admin Console ](administration-and-setup/adobe-admin-console/prep-for-admin-console.md)
+      * [ Begrijpend de Migratie van Workfront aan Adobe Admin Console ](administration-and-setup/adobe-admin-console/understand-wf-migration-to-admin-console.md)
    * Tips, trucs en probleemoplossing voor beheer en installatie {#admin-setup-tips}
       * [Tips, trucs en probleemoplossing](administration-and-setup/tips-tricks-and-troubleshooting/ttt-admin-setup.md)
       * [Groepbeheerders moeten een hogere toegang hebben dan de beheerders die ze beheren](administration-and-setup/tips-tricks-and-troubleshooting/group-admin-access-level.md)
@@ -991,7 +991,7 @@ ht-degree: 0%
          * [Updates toevoegen in Adobe Workfront View](workfront-basics/mobile-apps/using-workfront-view/add-updates-in-workfront-view.md)
       * Tips, trucs en probleemoplossing voor Adobe Workfront Mobile Apps {#tips-tricks-for-mobile-apps}
          * [Tips, trucs en probleemoplossing voor Adobe Workfront Mobile Apps](workfront-basics/mobile-apps/tips-tricks-and-troubleshooting/tips-tricks-and-troubleshooting-mobile.md)
-         * [&#x200B; Bericht van de Fout op de Mobiele App van Adobe Workfront: &quot;Uw rekening is niet toegelaten API.&quot;](workfront-basics/mobile-apps/tips-tricks-and-troubleshooting/error-message-on-mobile-app.md)
+         * [ Bericht van de Fout op de Mobiele App van Adobe Workfront: &quot;Uw rekening is niet toegelaten API.&quot;](workfront-basics/mobile-apps/tips-tricks-and-troubleshooting/error-message-on-mobile-app.md)
    * Tips, trucs en probleemoplossing voor Adobe Workfront Basics {#tips-tricks-for-basics}
       * [Tips, trucs en probleemoplossing voor Adobe Workfront: artikelindex](workfront-basics/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-basics.md)
       * [Je snelle gids voor hulp in Adobe Workfront](workfront-basics/tips-tricks-and-troubleshooting/guide-for-help-in-workfront.md)
@@ -1155,7 +1155,7 @@ ht-degree: 0%
          * [Elementen en mappen ontkoppelen of verwijderen uit Experience Manager Assets of Elementen.](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/unlink-or-delete-aem-assets.md)
          * [Workflows gebruiken in de integratie met Experience Manager Assets Essentials](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md)
          * [Workfront Fusion gebruiken om een Workfront-uitgave om te zetten in een project dat Adobe Experience Manager-workflows bevat](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-fusion-to-create-project-with-workflows.md)
-         * [&#x200B; los de Integratie van Adobe Experience Manager  problemen op](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/troubleshoot-aem-asset-integration.md)
+         * [ los de Integratie van Adobe Experience Manager ](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/troubleshoot-aem-asset-integration.md) problemen op
    * Migreren vanaf verouderde of verbeterde connectors {#migrate-from-legacy-enhanced-connectors}
       * [Migreren vanaf verouderde of verbeterde connectors](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/migrate-from-legacy-enhanced-connectors.md)
       * [Migreren van de verouderde of verbeterde aansluiting naar Workfront for Adobe Experience Manager as a Cloud Service-integratie](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/migrate-to-workfont-integration.md)
@@ -1226,7 +1226,7 @@ ht-degree: 0%
          * [Bronnen voor een project plannen](manage-work/projects/manage-projects/schedule-resources-for-projects.md)
          * [Communiceren met projectteamleden](manage-work/projects/manage-projects/communicate-with-project-team-members.md)
          * [Een project beheren in de Google View](manage-work/projects/manage-projects/manage-projects-in-agile-view.md)
-         * [Overzicht van projectmetriek](manage-work/projects/manage-projects/project-metrics.md)
+         * [Projectmetriek begrijpen](manage-work/projects/manage-projects/project-metrics.md)
          * [Overzicht van projectlimieten](manage-work/projects/manage-projects/project-maximums.md)
          * [Updates samenvatten met AI Assistant](/help/quicksilver/manage-work/projects/manage-projects/summarize-projects-ai-assistant.md)
       * Projectsjablonen maken en beheren {#create-and-manage-project-templates}
@@ -1375,7 +1375,7 @@ ht-degree: 0%
          * [Werk de Geplande Uren en Duur van een taak met het Eenvoudige Type van Duur bij](manage-work/tasks/taskdurtn/update-planned-hours-duration-for-simple-duration-task.md)
          * [Duur typen in Adobe Workfront- en Microsoft-project](manage-work/tasks/taskdurtn/workfront-ms-project-duration-types.md)
       * Voorlopers voor taken gebruiken {#use-task-predecessors}
-         * [Voorlopers voor taken gebruiken](manage-work/tasks/use-prdcssrs/use-task-predecessors.md)
+         * [Voorgangers voor taken gebruiken: artikelindex](manage-work/tasks/use-prdcssrs/use-task-predecessors.md)
          * [Overzicht van voorgangers van taken](manage-work/tasks/use-prdcssrs/predecessors-overview.md)
          * [Een voorganger-relatie maken in de takenlijst](manage-work/tasks/use-prdcssrs/create-predecessors-on-task-list.md)
          * [Een eerdere relatie maken met het gebied Voorgangers](manage-work/tasks/use-prdcssrs/create-predecessors-in-predecessors-area.md)
@@ -1390,24 +1390,24 @@ ht-degree: 0%
          * [Veelgestelde vragen over taken](manage-work/tasks/tips-tricks-and-troubleshooting/tasks-faqs.md)
          * [Geprojecteerde duur komt niet overeen met geplande duur](manage-work/tasks/tips-tricks-and-troubleshooting/projected-and-planned-durations-dont-match.md)
    * Problemen {#issues}
-      * [Problemen](manage-work/issues/issues-overview.md)
+      * [Problemen: artikelindex](manage-work/issues/issues-overview.md)
       * Uitgaven converteren {#convert-issues}
-         * [Uitgaven converteren](manage-work/issues/convert-issues/convert-issues-overview.md)
+         * [Uitgaven converteren: artikelindex](manage-work/issues/convert-issues/convert-issues-overview.md)
          * [Overzicht van conversie van problemen in Adobe Workfront](manage-work/issues/convert-issues/convert-issues.md)
-         * [Een uitgave converteren naar een project in Adobe Workfront](manage-work/issues/convert-issues/convert-issue-to-project.md)
-         * [Een uitgave converteren naar een taak in Adobe Workfront](manage-work/issues/convert-issues/convert-issue-to-task.md)
+         * [Een uitgave converteren naar een project](manage-work/issues/convert-issues/convert-issue-to-project.md)
+         * [Een uitgave converteren naar een taak](manage-work/issues/convert-issues/convert-issue-to-task.md)
          * [Overzicht van Oplossende en Oplosbare objecten](manage-work/issues/convert-issues/resolving-and-resolvable-objects.md)
          * [Problemen ontkoppelen van hun oplossende objecten](manage-work/issues/convert-issues/unlink-issues-from-resolvable-objects.md)
          * [De oplossing van een probleem handmatig koppelen aan andere problemen, taken of projecten](manage-work/issues/convert-issues/manually-tie-resolution-of-issue-to-ptis.md)
       * Informatie over uitgifte {#issue-information}
-         * [Informatie over uitgifte](manage-work/issues/issue-information/issue-info-overview.md)
+         * [Informatie over problemen: artikelindex](manage-work/issues/issue-information/issue-info-overview.md)
          * [Overzicht duur van uitgave](manage-work/issues/issue-information/issue-duration.md)
          * [Prioriteit van probleem bijwerken](manage-work/issues/issue-information/update-issue-priority.md)
          * [Ernst van probleem bijwerken](manage-work/issues/issue-information/update-issue-severity.md)
          * [Overzicht van de geplande afsluitdatum van de uitgave](manage-work/issues/issue-information/issue-planned-completion-date.md)
          * [Gebruik &quot;opTask&quot; en &quot;issue&quot; bij het verwijzen naar problemen](manage-work/issues/issue-information/use-optask-instead-of-issue.md)
       * Problemen beheren {#manage-issues}
-         * [Problemen beheren](manage-work/issues/manage-issues/manage-issues-overview.md)
+         * [Uitgaven beheren: artikelindex](manage-work/issues/manage-issues/manage-issues-overview.md)
          * [Problemen maken](manage-work/issues/manage-issues/create-issues.md)
          * [Problemen toewijzen](manage-work/issues/manage-issues/assign-issues.md)
          * [Problemen weergeven](manage-work/issues/manage-issues/view-issues.md)
@@ -1436,9 +1436,9 @@ ht-degree: 0%
          * [Portfolio&#39;s: artikelindex](manage-work/portfolios/portfolios-overview/portfolio-overview-1.md)
          * [Navigeren binnen een portfolio](manage-work/portfolios/portfolios-overview/navigate-within-portfolio.md)
          * [Overzicht van Portfolio Management](manage-work/portfolios/portfolios-overview/portfolio-managament-overview.md)
-         * [Portfolio-overzicht in Adobe Workfront](manage-work/portfolios/portfolios-overview/portfolio-overview.md)
+         * [Inzicht in portefeuillemethodologie](manage-work/portfolios/portfolios-overview/portfolio-overview.md)
       * Portfolio&#39;s maken en beheren {#create-and-manage-portfolios}
-         * [Portfolio&#39;s maken en beheren](manage-work/portfolios/create-and-manage-portfolios/create-and-manage-portfolios.md)
+         * [Portfolio&#39;s maken en beheren: artikelindex](manage-work/portfolios/create-and-manage-portfolios/create-and-manage-portfolios.md)
          * [Een portfolio maken](manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md)
          * [Portefeuilles verwijderen en deactiveren](manage-work/portfolios/create-and-manage-portfolios/delete-deactivate-portfolios.md)
          * [Portfolio&#39;s bewerken](manage-work/portfolios/create-and-manage-portfolios/edit-portfolios.md)
@@ -1455,7 +1455,7 @@ ht-degree: 0%
          * [Een project uit een programma verwijderen](manage-work/portfolios/create-and-manage-programs/remove-project-from-program.md)
          * [Programma&#39;s verwijderen en deactiveren](manage-work/portfolios/create-and-manage-programs/delete-and-deactivate-programs.md)
       * Projecten beheren in Portfolio Optimizer {#manage-projects-in-portfolio-optimizer}
-         * [Projecten beheren in Portfolio Optimizer](manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md)
+         * [Projecten beheren in Portfolio Optimizer: artikelindex](manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md)
          * [Overzicht van Portfolio Optimizer](manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md)
          * [De Portfolio Optimizer zoeken](manage-work/portfolios/portfolio-optimizer/locate-portfolio-optimizer.md)
          * [Overzicht van de Portfolio Optimizer Score](manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-score.md)
@@ -1507,7 +1507,7 @@ ht-degree: 0%
       * [Het organigram weergeven](people-teams-and-groups/work-directly-with-others/view-the-org-chart.md)
    * Werken met groepen en teams {#work-with-groups-teams}
       * [Werken met groepen en teams](people-teams-and-groups/work-with-groups-and-teams/work-with-groups-and-teams.md)
-      * [Groepen versus teams in Adobe Workfront](people-teams-and-groups/work-with-groups-and-teams/understanding-differences-and-similarities-between-groups-and-teams.md)
+      * [Groepen versus teams in Workfront](people-teams-and-groups/work-with-groups-and-teams/understanding-differences-and-similarities-between-groups-and-teams.md)
    * Werken met teamverzoeken {#work-with-team-requests}
       * [Werken met teamverzoeken](people-teams-and-groups/work-with-team-requests/work-with-team-requests.md)
       * [Overzicht van teamverzoeken](people-teams-and-groups/work-with-team-requests/team-requests-overview.md)
@@ -1750,7 +1750,7 @@ ht-degree: 0%
          * [KPI-vragen](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/kpi-queries.md)
          * [Vragen over vliegplannen](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/flight-plan-queries.md)
          * [Vragen over projectactiviteiten](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/project-activity-queries.md)
-         * [&#x200B; de vragen van de de treemap van het Project &#x200B;](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/project-tree-map-queries.md)
+         * [ de vragen van de de treemap van het Project ](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/project-tree-map-queries.md)
          * [Activiteit door teamvragen](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/team-queries.md)
       * Tips, trucs en probleemoplossing voor Data Connect{#troubleshooting-data-connect}
          * [Tips, trucs en probleemoplossing voor Data Connect](/help/quicksilver/reports-and-dashboards/data-lake/tips-tricks-troubleshooting/tips-tricks-troubleshooting-data-connect.md)
@@ -1999,7 +1999,7 @@ ht-degree: 0%
       * [Hour-records bijhouden met de Adobe Workfront API](timesheets/tips-tricks-and-troubleshooting/track-hour-records-with-wfapi.md)
       * [Unable to Log Time for Future Dates](timesheets/tips-tricks-and-troubleshooting/unable-to-log-time-future-dates.md)
 * Adobe Workfront Scenario Planner {#scenario-planner}
-   * [Adobe Workfront Scenario Planner](scenario-planner/scenario-planning.md)
+   * [[!DNL Adobe Workfront Scenario Planner]: artikelindex](scenario-planner/scenario-planning.md)
    * [Aan de slag met de functie Scenario Planner](scenario-planner/get-started-with-scenario-planning.md)
    * [Overzicht van de functie Scenario Planner](scenario-planner/scenario-planner-overview.md)
    * [Toegang nodig om de Planner van het Scenario te gebruiken](scenario-planner/access-needed-to-use-sp.md)
@@ -2101,8 +2101,8 @@ ht-degree: 0%
       * [Overzicht van velden](planning/fields/fields-overview.md)
       * [Velden maken](planning/fields/create-fields.md)
       * [Veldinstellingen bewerken](planning/fields/edit-fields.md)
-      * [&#x200B; schrapt gebieden &#x200B;](planning/fields/delete-fields.md)
-      * [&#x200B; overzicht van de gebieden van de Formule &#x200B;](planning/fields/formula-fields.md)
+      * [ schrapt gebieden ](planning/fields/delete-fields.md)
+      * [ overzicht van de gebieden van de Formule ](planning/fields/formula-fields.md)
       * [Velden importeren uit Adobe Workfront](planning/fields/import-fields-from-workfront.md)
       * [Overzicht van primair veld](planning/fields/primary-field-overview.md)
    * Toegang tot Adobe Workfront Planning {#adobe-workfront-planning-access}
@@ -2115,7 +2115,7 @@ ht-degree: 0%
       * [Weergaven delen](planning/access/share-views.md)
       * [Machtigingen aanvragen voor een weergave of werkruimte](planning/access/request-permissions.md)
    * Adobe Workfront-planningsrecords {#adobe-workfront-planning-records}
-      * [&#x200B; Verslagen: artikelindex &#x200B;](planning/records/records-information.md)
+      * [ Verslagen: artikelindex ](planning/records/records-information.md)
       * [Records maken](planning/records/create-records.md)
       * [Records maken door gegevens te importeren uit een CSV- of Excel-bestand](planning/records/import-file-to-create-records.md)
       * [Overzicht van verbonden records](planning/records/connected-records-overview.md)
@@ -2157,7 +2157,7 @@ ht-degree: 0%
       * [E-mailberichten voor Adobe Workfront Planning beheren](planning/notifications/manage-planning-email-notifications.md)
       * [In-app-berichten voor Adobe Workfront-planning beheren](planning/notifications/manage-planning-in-app-notifications.md)
    * Adobe Workfront Planning and Gen Studio for Performance Marketing Integration {#planning-and-genstudio-integration}
-      * [&#x200B; de Planning van Adobe Workfront en de integratie van Adobe GenStudio for Performance Marketing: artikelindex &#x200B;](planning/planning-and-genstudio-integration/planning-and-genstudio-integration-article-index.md)
+      * [ de Planning van Adobe Workfront en de integratie van Adobe GenStudio for Performance Marketing: artikelindex ](planning/planning-and-genstudio-integration/planning-and-genstudio-integration-article-index.md)
       * [Ga aan de slag met de Workfront Planning and GenStudio for Performance Marketing integratie](planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md)
       * [De GenStudio-werkruimte beheren in Adobe Workfront Planning](planning/planning-and-genstudio-integration/manage-gen-studio-workspace-in-planning.md)
       * [Een Workfront-planningswerkruimte promoten naar GenStudio](planning/planning-and-genstudio-integration/promote-planning-workspace-to-genstudio.md)
@@ -2180,7 +2180,7 @@ ht-degree: 0%
          * [Werk bij met de Adobe Workfront-insteekmodule](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-update.md)
          * [Werkitems markeren die zijn voltooid met de Adobe Workfront-insteekmodule](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-complete.md)
          * [Logtijd met de Adobe Workfront-insteekmodule](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-log-time.md)
-         * [&#x200B; [!DNL Adobe Workfront]  berichten van Adobe Creative Cloud beheren](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-notifications.md)
+         * [ [!DNL Adobe Workfront]  berichten van Adobe Creative Cloud beheren](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-notifications.md)
       * Documenten en proefdrukken uploaden met de Adobe Workfront-insteekmodule voor Creative Cloud-toepassingen {#upload-docs-proofs-wf-cc}
          * [Upload documenten en proef van  [!DNL Adobe Workfront plugin]  aan  [!DNL Creative Cloud]](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/upload-documents-and-proofs.md)
          * [Documenten en proefdrukken uploaden met de Adobe Workfront-insteekmodule voor Creative Cloud-toepassingen](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-docs-proofs-toc.md)
@@ -2491,7 +2491,6 @@ ht-degree: 0%
    * API-notities {#api-notes}
       * [API-notities](wf-api/api/api.md)
       * [Bestanden uploaden via de API](wf-api/api/uploading-files-api.md)
-      * [Aflopende ondersteuning voor JSONP](wf-api/api/ending-support-jsonp.md)
       * [Beschikbare tijd van de gebruiker ophalen](wf-api/api/api-user-available-time.md)
       * [Integraties bijwerken die standaard-API-versies gebruiken](wf-api/api/update-default-api-versioning.md)
       * [Abonnementsberichten voor gebeurtenissen filteren](wf-api/api/filter-event-sub-messages.md)
@@ -2503,10 +2502,10 @@ ht-degree: 0%
       * [Geslaagde tekens in API-reacties](wf-api/api/escaped-characters-api.md)
       * [Vorm en gebruik de douane OAuth 2 van uw organisatie toepassingen gebruikend de stroom van de vergunningscode](wf-api/api/oauth-app-code-token-flow.md)
       * [Configureer en gebruik de aangepaste OAuth 2-toepassingen van uw organisatie met behulp van JWT-flow](wf-api/api/oauth-app-jwt-flow.md)
-      * [&#x200B; vorm en gebruik de douane OAuth 2 toepassingen van uw organisatie die de stroom PKCE gebruiken &#x200B;](wf-api/api/oauth-app-pkce-flow.md)
+      * [ vorm en gebruik de douane OAuth 2 toepassingen van uw organisatie die de stroom PKCE gebruiken ](wf-api/api/oauth-app-pkce-flow.md)
       * [Vervalsing van API-intern](wf-api/api/deprecation-api-internal.md)
-      * [&#x200B; wat in API versie 20  nieuw is](wf-api/api/new-api-version-20.md)
-      * [&#x200B; wat in API versie 19  nieuw is](wf-api/api/new-api-version-19.md)
+      * [ wat in API versie 20 ](wf-api/api/new-api-version-20.md) nieuw is
+      * [ wat in API versie 19 ](wf-api/api/new-api-version-19.md) nieuw is
       * [Nieuwe functies in API-versie 18](wf-api/api/new-api-version-18.md)
       * [Nieuwe functies in API-versie 17](wf-api/api/new-api-version-17.md)
       * [Nieuwe functies in API-versie 16](wf-api/api/new-api-version-16.md)

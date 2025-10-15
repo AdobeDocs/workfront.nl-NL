@@ -6,9 +6,9 @@ description: U kunt gebruikers rechtstreeks aan artikelen op het Kanban-bord toe
 author: Lisa
 feature: Agile
 exl-id: ed727302-68c7-4e00-b05c-a5ed238bcc2d
-source-git-commit: 452f8ddc5268a0d67e32090d166199f2fad7dbc7
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
-source-wordcount: '218'
+source-wordcount: '208'
 ht-degree: 0%
 
 ---
@@ -21,8 +21,6 @@ U kunt gebruikers rechtstreeks aan artikelen op het Kanban-bord toewijzen.
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -30,19 +28,18 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licentie</td> 
-   <td> <p>Nieuw: [!UICONTROL Standard]</p> 
-   of
-   <p>Huidig: [!UICONTROL Work] of hoger</p> </td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td> <p>Standard</p> 
+   <p>Werk of hoger</p> </td> 
   </tr>
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -50,7 +47,7 @@ Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van d
 
 {{step1-to-team}}
 
-1. (Facultatief) klik het **[!UICONTROL Switch team]** pictogram van de pictogram ![&#x200B; Schakelaar teampictogram &#x200B;](assets/switch-team-icon.png), dan of selecteer een nieuw team Kanban van het drop-down menu of onderzoek naar een team in de onderzoeksbar.
+1. (Facultatief) klik het **[!UICONTROL Switch team]** pictogram van de pictogram ![ Schakelaar teampictogram ](assets/switch-team-icon.png), dan of selecteer een nieuw team Kanban van het drop-down menu of onderzoek naar een team in de onderzoeksbar.
 
 1. Ga naar de agile [!UICONTROL Kanban] board waar u gebruikers wilt toewijzen.
 1. Ga naar de artikeltegel op het [!UICONTROL Kanban] -bord waar u een gebruiker wilt toevoegen.
@@ -60,4 +57,4 @@ Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van d
    >
    >U kunt ook een taakrol toewijzen aan een artikel. U kunt alleen actieve gebruikers en actieve rollen toewijzen.
 
-   ![&#x200B; voeg taak aan verhaalkaart toe &#x200B;](assets/addassignmenttostorycard-350x472.png)
+   ![ voeg taak aan verhaalkaart toe ](assets/addassignmenttostorycard-350x472.png)

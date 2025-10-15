@@ -6,9 +6,9 @@ description: U kunt de Planner van het Middel gebruiken om de toewijzing van uw 
 author: Lisa
 feature: Resource Management
 exl-id: 0de749df-5af9-4124-8539-06b82dca2ec4
-source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
+source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
 workflow-type: tm+mt
-source-wordcount: '506'
+source-wordcount: '471'
 ht-degree: 0%
 
 ---
@@ -25,38 +25,31 @@ U kunt de Planner van het Middel gebruiken om de toewijzing van uw middelen aan 
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan</td> 
-   <td><p>Nieuw: alle</p>
-       <p>of</p>
-       <p>Huidig: Pro of hoger</p> </td> 
+   <td>Adobe Workfront-pakket</td> 
+   <td><p>Alle</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie</td> 
-   <td><p>Nieuw: Licht of hoger;</br>
-          Standaard voor het zoeken van de bronnenplanner in het hoofdmenu</p>
-       <p>of</p>
-       <p>Huidig: Controleren of hoger;</br>
-       Plan om van de Planner van het Middel in het Belangrijkste Menu de plaats te bepalen</p></td>
+   <td>Adobe Workfront-licentie</td> 
+   <td><p>Licht of hoger voor één project; Standaard voor meerdere projecten</p>
+       <p>Evaluatie of hoger voor één project; plan voor meerdere projecten</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau</td> 
+   <td>Configuraties op toegangsniveau</td> 
    <td> <p>Toegang tot of hoger weergeven voor bronnenbeheer</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Objectmachtigingen</td> 
+   <td>Objectmachtigingen</td> 
    <td> <p>Toestemmingen voor projecten en gebruikers weergeven </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -64,17 +57,13 @@ Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van d
 
 Zorg ervoor dat aan alle voorwaarden voor toegang tot en het werken met de Planner van het Middel wordt voldaan alvorens het te beginnen te gebruiken. Op deze manier zorgt u ervoor dat de functie Bronnen de juiste gegevens weergeeft voordat u begint met het budgetteren van uw bronnen.
 
-Voor informatie over de eerste vereisten van de Planner van het Middel, zie [&#x200B; begonnen met de Planning van het Middel &#x200B;](../../resource-mgmt/resource-planning/get-started-resource-planning.md).
+Voor informatie over de eerste vereisten van de Planner van het Middel, zie [ begonnen met de Planning van het Middel ](../../resource-mgmt/resource-planning/get-started-resource-planning.md).
 
 ## Bronnen zoeken
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(this was moved from the get-started-resource-planner article)</p>
--->
-
 U kunt van de Planner van het Middel in twee gebieden van Workfront de plaats bepalen, afhankelijk van of u uw middelen voor veelvoudige projecten, of voor enkel één project wilt begroten.
 
-* [&#x200B; gebruik de Planner van het Middel voor veelvoudige projecten &#x200B;](#use-the-resource-planner-for-multiple-projects)
+* [ gebruik de Planner van het Middel voor veelvoudige projecten ](#use-the-resource-planner-for-multiple-projects)
 * [Gebruik de Planner van het Middel voor één project](#use-the-resource-planner-for-one-project)
 
 ### Gebruik de Planner van het Middel voor veelvoudige projecten {#use-the-resource-planner-for-multiple-projects}
@@ -85,12 +74,12 @@ De sectie Planner openen in het gebied Bronnen:
 
 {{step1-to-resourcing}}
 
-Standaard wordt de Planner weergegeven.  Voor informatie over het opnemen van middelen in de Planner van het Middel, zie de artikel [&#x200B; middelen van de Begroting in de Planner van het Middel gebruikend de meningen van het Project en van de Rol &#x200B;](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md).
+Standaard wordt de Planner weergegeven.  Voor informatie over het opnemen van middelen in de Planner van het Middel, zie de artikel [ middelen van de Begroting in de Planner van het Middel gebruikend de meningen van het Project en van de Rol ](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md).
 
-![&#x200B; planner van het Middel als gebrek &#x200B;](assets/qs-resource-management-area-with-planner-as-default-350x152.png)
+![ planner van het Middel als gebrek ](assets/qs-resource-management-area-with-planner-as-default-350x152.png)
 
 1. Klik **Pools van het Middel** in het linkerpaneel.
-Voor informatie over het creëren van middelpools, zie [&#x200B; middelpools &#x200B;](../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md) creëren.
+Voor informatie over het creëren van middelpools, zie [ middelpools ](../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md) creëren.
 
 ### Gebruik de Planner van het Middel voor één project {#use-the-resource-planner-for-one-project}
 
@@ -98,13 +87,13 @@ Wanneer het gebruiken van de Planner van het Middel voor één project, vertegen
 
 1. Ga naar een project waarvoor u middelen wilt begroten.
 1. Klik **Bedrijfs Geval** in het linkerpaneel.
-1. De rol aan de **Begrotende 1&rbrace; sectie van het Middel van het BedrijfsGeval.**
+1. De rol aan de **Begrotende 1} sectie van het Middel van het BedrijfsGeval.**
 1. Klik **uitgeven Middel die** begroten om middelpools aan uw project toe te voegen en beginnen uw middelen in de begroting op te nemen.
 
    >[!TIP]
    >
    >U kunt een middelpool in het het Lagen van het Middel gebied van het BedrijfsGeval slechts toevoegen wanneer het project geen middelgroepen verbonden aan het heeft. Wanneer het project reeds een Pool van het Middel heeft, tonen de gebruikers in de pool en hun baanrollen in het het Leiden van het Middel gebied door gebrek.
 
-   ![&#x200B; het in de begroting opnemen van het Middel &#x200B;](assets/resource-budgeting-area-on-project-350x70.png)
+   ![ het in de begroting opnemen van het Middel ](assets/resource-budgeting-area-on-project-350x70.png)
 
-   Voor informatie over het opnemen van middelen voor één project, zie de middelen van de artikel [&#x200B; Begroting in het BedrijfsGeval &#x200B;](../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md).
+   Voor informatie over het opnemen van middelen voor één project, zie de middelen van de artikel [ Begroting in het BedrijfsGeval ](../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md).

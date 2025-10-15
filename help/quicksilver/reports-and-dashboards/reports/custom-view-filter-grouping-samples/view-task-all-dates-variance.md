@@ -7,9 +7,9 @@ description: Deze taakweergave is vergelijkbaar met de weergave Alle datums die 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 20df7cd8-113e-4c0d-b3f5-1def7db968a5
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '335'
+source-wordcount: '314'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 <!--Audited: 11/2024-->
 
-Deze taakweergave is vergelijkbaar met de weergave Alle datums die bij uw Adobe Workfront-account wordt geleverd. Deze bijzondere mening omvat *kolommen van de Variantie 0&rbrace; &lbrace;, die het verschil in dagen tussen de volgende data berekenen:*
+Deze taakweergave is vergelijkbaar met de weergave Alle datums die bij uw Adobe Workfront-account wordt geleverd. Deze bijzondere mening omvat *kolommen van de Variantie 0} {, die het verschil in dagen tussen de volgende data berekenen:*
 
 * Geplande en voorspelde begindatums
 * Geplande en werkelijke begindatums
@@ -27,52 +27,41 @@ Deze taakweergave is vergelijkbaar met de weergave Alle datums die bij uw Adobe 
 
 Deze weergave vertegenwoordigt een voorbeeld van berekende kolommen, waarin u de waarden uit twee verschillende kolommen kunt nemen en deze via een berekening kunt verbinden om een derde waarde te verkrijgen. In dit geval trekt u datum 1 in van datum 2.
 
-Voor meer informatie over het gebruiken van berekeningen in een Mening, zie het [&#x200B; Overzicht van gemeenschappelijk gebruik voor de sectie van de Wijze van de Tekst &#x200B;](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md) in  [&#x200B; Overzicht van gemeenschappelijk gebruik voor de Wijze van de Tekst &#x200B;](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md).
+Voor meer informatie over het gebruiken van berekeningen in een Mening, zie het [ Overzicht van gemeenschappelijk gebruik voor de sectie van de Wijze van de Tekst ](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md) in  [ Overzicht van gemeenschappelijk gebruik voor de Wijze van de Tekst ](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md).
 
-![&#x200B; taak van de Mening met alle data &#x200B;](assets/view-task-with-all-dates-variance.png)
+![ taak van de Mening met alle data ](assets/view-task-with-all-dates-variance.png)
 
 ## Toegangsvereisten
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
-
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan</td> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie</td> 
-   <td> <p> Huidige: 
-   <ul>
-   <li>Verzoek om een weergave te wijzigen</li> 
-   <li>Plan om een rapport te wijzigen</li>
-   </ul>
-     </p>
-     <p> Nieuw: 
-   <ul>
-   <li>Medewerker om een weergave te wijzigen</li> 
-   <li>Standaard voor het wijzigen van een rapport</li>
-   </ul>
-     </p>
-    </td> 
+   <td> 
+   <p>Medewerker of verzoek om een weergave te wijzigen </p>
+   <p>Standaard of Plan om een rapport te wijzigen</p>
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau*</td> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
    <td> <p>Toegang tot rapporten, dashboards, kalenders bewerken om een rapport te wijzigen</p> <p>Toegang tot filters, weergaven en groepen bewerken om een weergave te wijzigen</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Machtigingen beheren voor een rapport</p> </td> 
+   <td> <p>Machtigingen beheren voor een rapport</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
 
 +++
 

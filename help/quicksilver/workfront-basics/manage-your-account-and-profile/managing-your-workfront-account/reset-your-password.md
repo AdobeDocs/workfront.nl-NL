@@ -6,9 +6,9 @@ description: U kunt uw  [!DNL Adobe Workfront]  wachtwoord terugstellen. Als bel
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 571cd77d-4f63-40c2-8a21-9646e924e75e
-source-git-commit: 1a81c1becfc0866b92dbd1358af23671e5302266
+source-git-commit: 80897b9b7752283ec985611e349e4180e48b224a
 workflow-type: tm+mt
-source-wordcount: '223'
+source-wordcount: '220'
 ht-degree: 0%
 
 ---
@@ -21,43 +21,32 @@ U kunt het wachtwoord van [!DNL Adobe Workfront] opnieuw instellen. Als belangri
 
 >[!NOTE]
 >
->Een [!DNL Workfront] beheerder kan de beperkingen van het douanewachtwoord vormen, zoals die in [&#x200B; worden verklaard vormt de voorkeur van de systeemveiligheid &#x200B;](../../../administration-and-setup/manage-workfront/security/configure-security-preferences.md) en [&#x200B; vormt wachtwoordbeleid voor authentificatie &#x200B;](../../../administration-and-setup/manage-workfront/security/configure-password-policies-authentication.md).
+>Een [!DNL Workfront] beheerder kan de beperkingen van het douanewachtwoord vormen, zoals die in [ worden verklaard vormt de voorkeur van de systeemveiligheid ](../../../administration-and-setup/manage-workfront/security/configure-security-preferences.md) en [ vormt wachtwoordbeleid voor authentificatie ](../../../administration-and-setup/manage-workfront/security/configure-password-policies-authentication.md).
 >
 ><!-- [!DNL Workfront] administrator can also reset your password in an Enhanced Authentication enabled environment. For more information, see [Reset a user's password with Enhanced Authentication](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/reset-user-password-eauth.md).-->
 
 ## Toegangsvereisten
 
-+++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven. 
-
-U moet het volgende hebben:
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 <table style="table-layout:auto"> 
  <col> 
- </col> 
- <col> 
- </col> 
+ </col>
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan</strong></td> 
+   <td>Adobe Workfront-pakket</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licentie</strong></td> 
+   <td>Adobe Workfront-licentie</td> 
    <td> 
-      <p>Nieuw:</p>
-         <ul>
-         <li><p>Medewerker of hoger</p></li>
-         </ul>
-      <p>Huidige:</p>
-         <ul>
-         <li><p>Aanvraag of hoger</p></li>
-         </ul>
-   </td>
+   <p>Medewerker of hoger</p>
+   <p>Aanvraag of hoger</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -65,13 +54,13 @@ Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van W
 
 {{step1-click-profile-pic}}
 
-![&#x200B; open het belangrijkste menu en selecteer uw gebruikersnaam.](assets/main-menu-options-350x481.png)
+![ open het belangrijkste menu en selecteer uw gebruikersnaam.](assets/main-menu-options-350x481.png)
 
-1. Klik **[!UICONTROL More menu]** ![&#x200B; Meer pictogram &#x200B;](assets/more-icon.png), dan klik **[!UICONTROL Edit]**.
+1. Klik **[!UICONTROL More menu]** ![ Meer pictogram ](assets/more-icon.png), dan klik **[!UICONTROL Edit]**.
 
 1. Klik onder **[!UICONTROL Edit Person]** in het vak **[!UICONTROL Personal Info]** dat wordt weergegeven op **[!UICONTROL Change password]** .
 
-   ![&#x200B; klik het wachtwoord van de Verandering &#x200B;](assets/edit-user-change-password.png)
+   ![ klik het wachtwoord van de Verandering ](assets/edit-user-change-password.png)
 
    Als uw organisatie [!DNL Workfront] met een oplossing SSO heeft geïntegreerd, kunt u worden verpletterd om uw wachtwoorden door uw SSO systeem terug te stellen wanneer u **[!UICONTROL Change password]** klikt. Hiermee wordt uw SSO-wachtwoord opnieuw ingesteld, wat invloed heeft op het aanmelden bij al uw andere toepassingen binnen uw organisatie.
 

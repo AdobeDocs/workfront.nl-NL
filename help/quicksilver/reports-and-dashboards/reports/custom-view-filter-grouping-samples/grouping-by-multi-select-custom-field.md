@@ -7,9 +7,9 @@ description: U kunt alleen in de tekstmodus groeperen met de waarde in een aange
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 530dff59-0d4c-490e-b464-1d3bb1d0f36f
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '518'
+source-wordcount: '504'
 ht-degree: 0%
 
 ---
@@ -25,13 +25,13 @@ Voorbeelden van aangepaste velden met meerdere selecties zijn:
 * Selectievakjes
 * Meerdere vervolgkeuzemenu&#39;s selecteren
 
-Voor informatie over het gebruiken van tekstwijze, zie het overzicht van de Wijze van de Tekst van artikel [&#128279;](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
+Voor informatie over het gebruiken van tekstwijze, zie het overzicht van de Wijze van de Tekst van artikel [ ](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
 
 ## Overwegingen bij groeperen op basis van een aangepast veld met meerdere selecties
 
 * U kunt geen rapport in kaart brengen dat een tekst-wijze groepering gebruikt. U moet een extra berekend gebied tot stand brengen dat naar het multi-uitgezochte douanegebied verwijst om het rapport door de waarde van het multi-uitgezochte gebied van de douane ook in kaart te brengen.
 
-  Voor meer informatie, zie [&#x200B; Grafiek een rapport door een multi-uitgezochte douanegebied &#x200B;](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/chart-report-by-multi-select-custom-field.md).
+  Voor meer informatie, zie [ Grafiek een rapport door een multi-uitgezochte douanegebied ](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/chart-report-by-multi-select-custom-field.md).
 * Items waarvoor een van de gekozen opties is geselecteerd, worden slechts één keer geteld.
 
   Als u bijvoorbeeld een aangepast veld Selectievakje hebt met Keuze 1 en Keuze 2 als opties, en u het formulier koppelt aan taken, worden de taken waarvoor zowel Keuze 1 als Keuze 2 is geselecteerd, afzonderlijk gegroepeerd van de taken waarvoor Alleen Keuze 1 of Keuze 2 is geselecteerd.
@@ -39,28 +39,21 @@ Voor informatie over het gebruiken van tekstwijze, zie het overzicht van de Wijz
 
 ## Toegangsvereisten
 
-+++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
-
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan</td> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie*</td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
    <td> 
-    <p>Nieuw:</p>
-   <ul><li><p>Medewerker om een filter te wijzigen </p></li>
-   <li><p>Standaard voor het wijzigen van een rapport</p></li> </ul>
-
-<p>Huidige:</p>
-   <ul><li><p>Verzoek om een filter te wijzigen </p></li>
-   <li><p>Plan om een rapport te wijzigen</p></li> </ul></td> 
+   <p>Medewerker of verzoek om een filter te wijzigen </p>
+   <p>Standaard of Plan om een rapport te wijzigen</p>
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau</td> 
@@ -73,7 +66,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-*For informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -82,7 +75,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 Als u wilt groeperen op een aangepast veld met meerdere selecties, moet u aan de volgende voorwaarden voldoen:
 
 * Maak het aangepaste veld voor meerdere selecties in een aangepast formulier.\
-  Voor informatie over de bouw van douaneformulieren en het toevoegen van douanevelden aan hen, zie het artikel [&#x200B; een douaneformulier &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren.
+  Voor informatie over de bouw van douaneformulieren en het toevoegen van douanevelden aan hen, zie het artikel [ een douaneformulier ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren.
 
 * Koppel het aangepaste formulier aan objecten.
 * Vul het aangepaste veld voor meerdere selecties met een waarde voor elk object.
@@ -90,7 +83,7 @@ Als u wilt groeperen op een aangepast veld met meerdere selecties, moet u aan de
 Om door een multi-select douanegebied in een rapport te groeperen:
 
 1. Maak een rapport of bewerk een bestaand rapport waaraan u een groep voor een aangepast veld met meerdere selecties wilt toevoegen.\
-   Voor informatie over het creëren van rapporten, zie het artikel [&#x200B; een douanerapport &#x200B;](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) creëren.
+   Voor informatie over het creëren van rapporten, zie het artikel [ een douanerapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) creëren.
 1. Klik **de Acties van het Rapport**, dan **uitgeven**.
 1. Selecteer de **Groepen** tabel.
 1. Klik **Schakelaar aan de Wijze van de Tekst**.
@@ -109,7 +102,7 @@ Om door een multi-select douanegebied in een rapport te groeperen:
 
    De objecten in het rapport worden gegroepeerd op de waarden van het aangepaste veld voor meerdere selecties.
 
-   ![&#x200B; Groepering mijn multi-select gebied &#x200B;](assets/grouping-by-multi-select-field-text-mode-ui-example.png)
+   ![ Groepering mijn multi-select gebied ](assets/grouping-by-multi-select-field-text-mode-ui-example.png)
 
    De naam van de groepen in het rapport zijn de namen van het aangepaste veld met meerdere selecties, gevolgd door de waarden die in het veld zijn geselecteerd.
 

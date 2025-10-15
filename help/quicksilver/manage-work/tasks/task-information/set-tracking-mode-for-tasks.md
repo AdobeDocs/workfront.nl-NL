@@ -1,14 +1,14 @@
 ---
 product-area: projects
 navigation-topic: task-information
-title: Traceermodus instellen voor taken
+title: Traceermodus voor taken instellen
 description: De volgmodus van een taak bepaalt hoe de status van de taakvoortgang in Adobe Workfront wordt bijgewerkt.
 author: Alina
 feature: Work Management
 exl-id: 751071b4-3716-4153-97fe-4fe0ebc7cbb0
-source-git-commit: 928ea5da9955b8c1c98782df81698c49987d4c18
+source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
 workflow-type: tm+mt
-source-wordcount: '215'
+source-wordcount: '199'
 ht-degree: 0%
 
 ---
@@ -19,27 +19,25 @@ ht-degree: 0%
 
 De volgmodus van een taak bepaalt hoe de status van de taakvoortgang in Adobe Workfront wordt bijgewerkt.
 
-Voor informatie over het Volgen Wijze op taken, zie [&#x200B; het Volgen van de Taak overzicht van de Wijze &#x200B;](../../../manage-work/tasks/task-information/task-tracking-mode.md).
+Voor informatie over het Volgen Wijze op taken, zie [ het Volgen van de Taak overzicht van de Wijze ](../../../manage-work/tasks/task-information/task-tracking-mode.md).
 
 ## Toegangsvereisten
 
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
-
-+++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan</td> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Nieuw: Standaard</p> 
-   of
-   <p>Huidig: Werk of hoger</p> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td> <p>Standard</p>
+
+<p>Werk of hoger</p> 
    </td> 
   </tr> 
   <tr> 
@@ -53,37 +51,36 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-*For informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*For informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 <!--old: 
-You must have the following access to perform the steps in this article:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan/td> 
+   <td role="rowheader">Adobe Workfront plan</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>*</td> 
-   <td> <p>Work or higher</p> </td> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>New: Standard</p> 
+   Or
+   <p>Current: Work or higher</p> 
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Tasks </p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a></p> </td> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>Edit access to Tasks </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage permissions on a task</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+   <td> <p>Manage permissions on a task</p> </td> 
   </tr> 
  </tbody> 
 </table>
-
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
 -->
 
@@ -108,6 +105,6 @@ U stelt de modus Tekstspatiëring als volgt in:
    * Automatisch aanvullen
    * Voorganger
 
-   Voor meer informatie over de volgende wijzeopties, zie [&#x200B; het Volgen van de Taak het Overzicht van de Wijze &#x200B;](../../../manage-work/tasks/task-information/task-tracking-mode.md)
+   Voor meer informatie over de volgende wijzeopties, zie [ het Volgen van de Taak het Overzicht van de Wijze ](../../../manage-work/tasks/task-information/task-tracking-mode.md)
 
 1. Klik **sparen**.

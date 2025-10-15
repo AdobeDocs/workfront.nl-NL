@@ -4,10 +4,10 @@ product-area: reporting
 navigation-topic: calculate-custom-data-reports
 title: Overzicht van berekende gegevensexpressies
 description: U kunt gegevensexpressies gebruiken om berekende aangepaste gegevensvelden in Adobe Workfront te definiëren. Berekende expressies verbinden bestaande Workfront-velden met instructies die een nieuw veld genereren.
-author: Courtney, Lisa
+author: Jenny, Lisa
 feature: Reports and Dashboards
 exl-id: cfb3ace9-76c3-4006-878f-e2ad25ffa03b
-source-git-commit: 36cd1c23dfb6e01dc1016a6a12ae47e4f9172d20
+source-git-commit: a1ead6d0c1c85bfbe6d7302506743db8d8b3e205
 workflow-type: tm+mt
 source-wordcount: '2551'
 ht-degree: 0%
@@ -24,11 +24,11 @@ U kunt berekende gegevensexpressies gebruiken in:
 
 * Een berekend aangepast veld op een aangepast formulier
 
-  Voor meer informatie over het creëren van berekende douanevelden op douanevormen in Workfront, zie [&#x200B; berekende gebieden aan een vorm &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) toevoegen.
+  Voor meer informatie over het creëren van berekende douanevelden op douanevormen in Workfront, zie [ berekende gebieden aan een vorm ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) toevoegen.
 
 * Een berekende aangepaste kolom in een rapport of lijst wanneer u de tekstmodus gebruikt
 
-  Voor meer informatie over het gebruiken van tekstwijze in rapporten en meningen, zie [&#x200B; Overzicht van de Wijze van de Tekst &#x200B;](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
+  Voor meer informatie over het gebruiken van tekstwijze in rapporten en meningen, zie [ Overzicht van de Wijze van de Tekst ](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
 
 ## Syntaxis van berekende aangepaste velden versus berekende aangepaste kolommen
 
@@ -77,17 +77,17 @@ Bijvoorbeeld:
   >
   >Dezelfde syntaxis is van toepassing op alle rapportelementen in de tekstmodus waarvoor berekende expressies worden gebruikt: weergaven, filters, groepen en aanwijzingen.
 
-Voor meer informatie over de syntaxis moet u in een berekende douanekolom gebruiken, zie [&#x200B; Overzicht van de Wijze van de Tekst &#x200B;](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
+Voor meer informatie over de syntaxis moet u in een berekende douanekolom gebruiken, zie [ Overzicht van de Wijze van de Tekst ](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
 
 ## Gegevensexpressies die u kunt gebruiken
 
 In de onderstaande lijsten worden de beschikbare expressies gedefinieerd die u kunt gebruiken wanneer u een van de drie verschillende typen berekende aangepaste velden maakt in Workfront:
 
-* [&#x200B; Datum en tijd berekende douanevelden &#x200B;](#date-time-calculated-custom-fields)
-* [&#x200B; Wiskundige berekende douanevelden &#x200B;](#mathematical-calculated-custom-fields)
+* [ Datum en tijd berekende douanevelden ](#date-time-calculated-custom-fields)
+* [ Wiskundige berekende douanevelden ](#mathematical-calculated-custom-fields)
 * [Berekende tekst, aangepaste velden](#text-calculated-custom-fields)
 
-U kunt de hieronder vermelde uitdrukkingen gebruiken om berekende douanekolommen te bouwen. Nochtans, moet u de correcte syntaxis voor een berekende douanekolom gebruiken, zoals die in de sectie [&#x200B; Syntaxis van berekende douanegebieden vs. berekende douanekolommen &#x200B;](#syntax-of-calculated-custom-fields-vs-calculated-custom-columns) in dit artikel wordt beschreven.
+U kunt de hieronder vermelde uitdrukkingen gebruiken om berekende douanekolommen te bouwen. Nochtans, moet u de correcte syntaxis voor een berekende douanekolom gebruiken, zoals die in de sectie [ Syntaxis van berekende douanegebieden vs. berekende douanekolommen ](#syntax-of-calculated-custom-fields-vs-calculated-custom-columns) in dit artikel wordt beschreven.
 
 ### Berekende datum en tijd, aangepaste velden {#date-time-calculated-custom-fields}
 

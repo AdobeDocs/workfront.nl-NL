@@ -6,47 +6,49 @@ description: U kunt goedkeuring aanvragen bij managers of andere gebruikers voor
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: f54a221b-4bf0-414e-b2f3-ace861d85496
-source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
+source-git-commit: 2503b6e628e4860a5652c620d8e4d0eea2414443
 workflow-type: tm+mt
-source-wordcount: '582'
+source-wordcount: '515'
 ht-degree: 0%
 
 ---
 
 # Documentgoedkeuring aanvragen
 
-U kunt goedkeuring aanvragen bij managers of andere gebruikers voor een document in Adobe Workfront. U kunt documentgoedkeuringen van mensen zonder de rekeningen van Workfront ook verzoeken als uw beheerder van Workfront dit vermogen heeft toegelaten, zoals die in [&#x200B; wordt beschreven vormt de voorkeur van de systeemveiligheid &#x200B;](../../administration-and-setup/manage-workfront/security/configure-security-preferences.md).
+U kunt goedkeuring aanvragen bij managers of andere gebruikers voor een document in Adobe Workfront. U kunt documentgoedkeuringen van mensen zonder de rekeningen van Workfront ook verzoeken als uw beheerder van Workfront dit vermogen heeft toegelaten, zoals die in [ wordt beschreven vormt de voorkeur van de systeemveiligheid ](../../administration-and-setup/manage-workfront/security/configure-security-preferences.md).
 
 ## Toegangsvereisten
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-abonnement*</td> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Controleren of hoger</p> </td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td>
+   <p>Contribute of hoger</p>
+   <p>Controleren of hoger</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot projecten, taken, problemen, sjablonen, portfolio's, programma's, rapporten, dashboards en agenda's, documenten weergeven of vergroten</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
+   <td> <p>Toegang tot projecten, taken, problemen, sjablonen, portfolio's, programma's, rapporten, dashboards en agenda's, documenten weergeven of vergroten</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Toegang tot het object beheren dat is gekoppeld aan de toegang tot of goedkeuring van de aanvraag </p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
+   <td> <p>Toegang tot het object beheren dat is gekoppeld aan de toegang tot of goedkeuring van de aanvraag </p></td> 
   </tr> 
  </tbody> 
 </table>
 
-Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of toegang u hebt.
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -57,7 +59,7 @@ Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licen
 
 1. De rol neer aan de **goedkeurt** sectie in de Samenvatting, en begint typend in **voegt Approver** tekstvakje toe. U kunt Workfront-gebruikers toevoegen op naam of via e-mail.
 
-1. Als uw beheerder van Adobe Workfront het vermogen heeft toegelaten om met mensen samen te werken die geen Workfront gebruiken, zoals die in [&#x200B; wordt beschreven vormt de voorkeur van de systeemveiligheid &#x200B;](../../administration-and-setup/manage-workfront/security/configure-security-preferences.md), kunt u hun e-mailadressen typen om hen te omvatten.
+1. Als uw beheerder van Adobe Workfront het vermogen heeft toegelaten om met mensen samen te werken die geen Workfront gebruiken, zoals die in [ wordt beschreven vormt de voorkeur van de systeemveiligheid ](../../administration-and-setup/manage-workfront/security/configure-security-preferences.md), kunt u hun e-mailadressen typen om hen te omvatten.
 
    U kunt geen goedkeuring aanvragen bij teams of groepen.
 
@@ -72,7 +74,7 @@ Goedkeuringsbeslissingen voor documenten worden niet automatisch opnieuw ingeste
 
 1. De rol neer aan de **goedkeurt** sectie in de Samenvatting, klikt het Meer pictogram, dan klikt opnieuw voorlegt.
 
-   ![&#x200B; hervat goedkeuring &#x200B;](assets/nwe-resubmit-approval-350x149.png)
+   ![ hervat goedkeuring ](assets/nwe-resubmit-approval-350x149.png)
 
 ## Een aanvraag voor documentgoedkeuring verwijderen
 

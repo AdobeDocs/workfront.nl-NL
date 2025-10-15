@@ -6,9 +6,9 @@ description: U kunt een project uit een portfolio verwijderen en dit koppelen aa
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 8982097e-76ee-497a-aa7c-74c6fbd3002d
-source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
+source-git-commit: fbe17e50ff161156a0b4b2a8b468b4eb844cae59
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '209'
 ht-degree: 0%
 
 ---
@@ -23,23 +23,23 @@ U kunt ook projecten uit een portfolio verwijderen, zodat deze ook uit [!DNL Ado
 
 ## Toegangsvereisten
 
-+++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] package</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licentie*</td> 
-   <td> <p>Nieuw: Standaard</p>
-   <p>Huidig: [!UICONTROL Plan] </p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licentie</td> 
+   <td> <p>[!UICONTROL Standard]</p>
+   <p>[!UICONTROL Plan] </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Toegangsniveau</td> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
    <td> <p>[!UICONTROL Edit] toegang tot projecten</p> <p>[!UICONTROL Edit] toegang tot portfolio's</p>  </td> 
   </tr> 
   <tr> 
@@ -50,18 +50,47 @@ U kunt ook projecten uit een portfolio verwijderen, zodat deze ook uit [!DNL Ado
  </tbody> 
 </table>
 
-*For informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*For informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
+   <td> <p>New: Standard</p>
+   <p>Current: [!UICONTROL Plan] </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level</td> 
+   <td> <p>[!UICONTROL Edit] access to Projects</p> <p>[!UICONTROL Edit] access to Portfolios</p>  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>[!UICONTROL Manage] permissions on the portfolio and the projects to remove projects</p>
+   <p>[!UICONTROL Manage] permissions with [!UICONTROL Delete] access to the projects to delete them from the portfolio</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). -->
 
 ## Een project uit een portfolio verwijderen
 
 1. Ga naar een Portfolio en klik op **[!UICONTROL Projects]** in het linkerdeelvenster.
 1. Selecteer het project dat u wilt verwijderen. 
 
-   ![&#x200B; verwijdert projectknoop &#x200B;](assets/nwe-remove-projects-button-inside-portfolio-350x141.png)
+   ![ verwijdert projectknoop ](assets/nwe-remove-projects-button-inside-portfolio-350x141.png)
 
 1. Klik op **[!UICONTROL Remove Projects]** .
 1. Klik op **[!UICONTROL Delete]** om het project uit [!DNL Workfront] te verwijderen of op **[!UICONTROL Remove]** **[!UICONTROL from Portfolio]** om het uit de geselecteerde Portfolio te verwijderen.
 
-1. (Optioneel en voorwaardelijk) Zoek het project dat u uit het portfolio hebt verwijderd en koppel het aan een ander portfolio. Voor informatie over het associëren van projecten met portefeuilles zie [&#x200B; projecten aan een portefeuille &#x200B;](../../../manage-work/portfolios/create-and-manage-portfolios/add-projects-to-portfolios.md) toevoegen.
+1. (Optioneel en voorwaardelijk) Zoek het project dat u uit het portfolio hebt verwijderd en koppel het aan een ander portfolio. Voor informatie over het associëren van projecten met portefeuilles zie [ projecten aan een portefeuille ](../../../manage-work/portfolios/create-and-manage-portfolios/add-projects-to-portfolios.md) toevoegen.

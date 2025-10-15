@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 441a53d1-ad39-41b7-93fe-2ae1836476c9
-source-git-commit: fbf902196c9f5b55ddd1e20516e4237309dff2ed
+source-git-commit: b102960e088f072f10baadcbeca4f7f579daa287
 workflow-type: tm+mt
-source-wordcount: '454'
+source-wordcount: '391'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 <span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>
 
-<span class="preview"> voor informatie over snelle versies, zie [&#x200B; snelle versies voor uw organisatie &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
+<span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
 
 
 {{planning-important-intro}}
@@ -34,7 +34,7 @@ Het dupliceren van weergaven is hetzelfde voor alle typen weergaven in Workfront
 
 ## Toegangsvereisten
 
-+++ Vouw uit om de vereisten voor toegang weer te geven. 
++++ Breid uit om de toegangsvereisten voor de functionaliteit in dit artikel te bekijken. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -44,57 +44,89 @@ Het dupliceren van weergaven is hetzelfde voor alle typen weergaven in Workfront
 <tbody> 
     <tr> 
 <tr> 
+</tr>   
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront-pakket</p></td> 
+   <td> 
+<ul> 
+<li><p>Alle Workfront en alle planningspakketten</p></li>
+of
+<li><p>Alle workflows en planningspakketten</li></ul>
+<p>Neem voor meer informatie over wat er in elk planningspakket voor Workfront staat, contact op met uw Workfront-accountvertegenwoordiger. </p> 
+   </td> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront-licentie</p></td> 
+   <td><p>Standard</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Objectmachtigingen</p></td> 
+   <td>   <p>Rechten beheren voor een weergave</p>  
+   <p>Machtigingen weergeven voor een weergave om de weergave-instellingen tijdelijk te wijzigen of te dupliceren.</p> </td> 
+  </tr>   
+</tbody> 
+</table>
+
+Voor meer informatie over de toegangsvereisten van Workfront, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
+<!--Old:
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+    <tr> 
+<tr> 
 <td> 
-   <p> Producten</p> </td> 
+   <p> Products</p> </td> 
    <td> 
    <ul><li><p> Adobe Workfront</p></li> 
    <li><p> Adobe Workfront Planning<p></li></ul></td> 
   </tr>   
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront-abonnement*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront plan*</p></td> 
    <td> 
-<p>Een van de volgende Workfront-plannen:</p> 
-<ul><li>Selecteren</li> 
+<p>Any of the following Workfront plans:</p> 
+<ul><li>Select</li> 
 <li>Prime</li> 
 <li>Ultimate</li></ul> 
-<p>Workfront Planning is niet beschikbaar voor oudere Workfront-plannen</p> 
+<p>Workfront Planning is not available for legacy Workfront plans</p> 
    </td> 
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront-planningspakket*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront Planning package*</p></td> 
    <td> 
-<p>Alle </p> 
-<p>Neem contact op met uw Workfront-accountmanager voor meer informatie over wat er in elk Workfront-planningsplan is opgenomen. </p> 
+<p>Any </p> 
+<p>For more information about what is included in each Workfront Planning plan, contact your Workfront account manager. </p> 
    </td> 
  <tr> 
-   <td role="rowheader"><p>Adobe Workfront-platform</p></td> 
+   <td role="rowheader"><p>Adobe Workfront platform</p></td> 
    <td> 
-<p>Het geval van Workfront van uw organisatie moet aan de Verenigde Ervaring van Adobe worden genegeerd om tot de Planning van Workfront te kunnen toegang hebben.</p> 
-<p>Voor meer informatie, zie <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md"> Adobe Verenigde Ervaring voor Workfront </a>. </p> 
+<p>Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience to be able to access Workfront Planning.</p> 
+<p>For more information, see <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p> 
    </td> 
    </tr> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront-licentie*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront license*</p></td> 
    <td><p> Standard </p>
-   <p>Workfront Planning is niet beschikbaar voor oudere Workfront-licenties</p> 
+   <p>Workfront Planning is not available for legacy Workfront licenses</p> 
   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Configuratie op toegangsniveau</p></td> 
-   <td> <p>Er zijn geen toegangsniveaucontroles voor de Planning van Adobe Workfront</p>   
+   <td role="rowheader"><p>Access level configuration</p></td> 
+   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
 </td> 
   </tr> 
 <tr> 
-   <td role="rowheader"><p>Objectmachtigingen</p></td> 
-   <td>   <p>Rechten beheren voor een weergave</p>  
-   <p>Machtigingen weergeven voor een weergave om de weergave-instellingen tijdelijk te wijzigen of te dupliceren.</p> </td> 
+   <td role="rowheader"><p>Object permissions</p></td> 
+   <td>   <p>Manage permissions to a view</p>  
+   <p>View permissions to a view to temporarily change the view settings or to duplicate it.</p> </td> 
   </tr> 
 </tbody> 
-</table>
-
-*Voor meer informatie over de toegangsvereisten van Workfront, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
-
-+++   
+</table> -->
 
 ## Een recordweergave dupliceren
 
@@ -111,9 +143,9 @@ Standaard worden alle records van het geselecteerde type weergegeven in de tabel
 
 1. Afhankelijk van de omgeving die u gebruikt, gaat u als volgt te werk:
 
-   * In het milieu van de Productie, houd over één van de namen van de mening in het meningslusje, dan klik **Meer** ![&#x200B; Meer menu &#x200B;](assets/more-menu.png) links van de meningsnaam, dan klik **&#x200B;**&#x200B;dupliceren.
-   * <span class="preview"> in het milieu van de Voorproef, klik het dropdown pictogram ![&#x200B; Dropdown pictogram &#x200B;](assets/drop-down-icon.png) naast de huidige meningsnaam, over de naam van een mening, klik **Meer**, dan **Dupliceer**.</span>
+   * In het milieu van de Productie, houd over één van de namen van de mening in het meningslusje, dan klik **Meer** ![ Meer menu ](assets/more-menu.png) links van de meningsnaam, dan klik **** dupliceren.
+   * <span class="preview"> in het milieu van de Voorproef, klik het dropdown pictogram ![ Dropdown pictogram ](assets/drop-down-icon.png) naast de huidige meningsnaam, over de naam van een mening, klik **Meer**, dan **Dupliceer**.</span>
 
-     ![&#x200B; Meer menu op mening met opties &#x200B;](assets/more-menu-for-views-expanded-with-delete-option.png)
+     ![ Meer menu op mening met opties ](assets/more-menu-for-views-expanded-with-delete-option.png)
 
      De weergave wordt gedupliceerd en de naam van de nieuwe weergave volgt het volgende patroon: `Original view's name (Copy)` . Het nieuwe meningslusje toont aan het eind van alle meningslusjes.

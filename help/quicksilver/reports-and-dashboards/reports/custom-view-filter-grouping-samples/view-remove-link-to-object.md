@@ -7,9 +7,9 @@ description: Sommige objecten die u in een weergave weergeeft, zijn standaard ge
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 08264437-f12d-43fa-8cb4-264806c6479b
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '392'
+source-wordcount: '371'
 ht-degree: 0%
 
 ---
@@ -26,44 +26,33 @@ U kunt deze koppeling verwijderen met de tekstmodus in kolommen die in alle weer
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan</td> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie</td> 
-   <td> <p> Huidige: 
-   <ul>
-   <li>Verzoek om een weergave te wijzigen</li> 
-   <li>Plan om een rapport te wijzigen</li>
-   </ul>
-     </p>
-     <p> Nieuw: 
-   <ul>
-   <li>Medewerker om een weergave te wijzigen</li> 
-   <li>Standaard voor het wijzigen van een rapport</li>
-   </ul>
-     </p>
-    </td> 
+   <td> 
+   <p>Medewerker of verzoek om een weergave te wijzigen </p>
+   <p>Standaard of Plan om een rapport te wijzigen</p>
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau*</td> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
    <td> <p>Toegang tot rapporten, dashboards, kalenders bewerken om een rapport te wijzigen</p> <p>Toegang tot filters, weergaven en groepen bewerken om een weergave te wijzigen</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Machtigingen beheren voor een rapport</p> </td> 
+   <td> <p>Machtigingen beheren voor een rapport</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
 
 +++
 
@@ -75,9 +64,7 @@ Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van d
 
    of
 
-   Klik het **uitgeven pictogram** ![&#x200B; uitgeven pictogram &#x200B;](assets/edit-icon.png)
-
-   als u een bestaande weergave wilt bewerken, selecteert u de weergave.
+   Klik het **uitgeven pictogram** ![ uitgeven pictogram ](assets/edit-icon.png) om een bestaande mening uit te geven, dan de mening te selecteren.
 
 1. Klik **toevoegen Kolom** om een nieuwe kolom toe te voegen.
 

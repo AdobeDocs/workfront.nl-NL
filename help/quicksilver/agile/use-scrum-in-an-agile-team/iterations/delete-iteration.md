@@ -6,9 +6,9 @@ description: U kunt een herhaling voor uw agile team schrappen als het niet meer
 author: Lisa
 feature: Agile
 exl-id: db7fbafd-9d22-4035-a130-60ec2e4ad347
-source-git-commit: 95208e0f396d8eab9a71ca156c616891a7f56f7a
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
-source-wordcount: '182'
+source-wordcount: '172'
 ht-degree: 0%
 
 ---
@@ -27,19 +27,16 @@ Wanneer u een herhaling verwijdert, worden alle artikelen in de herhaling naar d
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
-
 <table style="table-layout:auto"> 
  <tbody> 
-  <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <tr> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licentie</td> 
-   <td> <p>Nieuw: [!UICONTROL Standard]</p> 
-   of
-   <p>Huidig: [!UICONTROL Work] of hoger</p> </td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td> <p>Standard</p> 
+   <p>Werk of hoger</p> </td> 
   </tr>
    <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
@@ -48,7 +45,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -56,7 +53,7 @@ Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van d
 
 {{step1-to-team}}
 
-1. (Facultatief) klik het **[!UICONTROL Switch team]** pictogram van de pictogram ![&#x200B; Schakelaar teampictogram &#x200B;](assets/switch-team-icon.png), dan of selecteer een nieuw team van het Trommel van het drop-down menu of onderzoek naar een team in de onderzoeksbar.
+1. (Facultatief) klik het **[!UICONTROL Switch team]** pictogram van de pictogram ![ Schakelaar teampictogram ](assets/switch-team-icon.png), dan of selecteer een nieuw team van het Trommel van het drop-down menu of onderzoek naar een team in de onderzoeksbar.
 
 1. Selecteer **[!UICONTROL Iterations]** in het linkerdeelvenster.
-1. Selecteer de herhaling die u wilt schrappen, dan klik het **pictogram van de Schrapping ![&#x200B; pictogram van de Schrapping &#x200B;](assets/delete-icon.png).**
+1. Selecteer de herhaling die u wilt schrappen, dan klik het [!UICONTROL **pictogram van de Schrapping**] pictogram van de Schrapping ![.](assets/delete-icon.png)

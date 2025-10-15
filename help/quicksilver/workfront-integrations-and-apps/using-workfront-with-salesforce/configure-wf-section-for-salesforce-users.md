@@ -6,10 +6,10 @@ description: Nadat u  [!DNL Adobe Workfront]  voor Salesforce als a  [!DNL Workf
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 81481813-74db-4408-8c85-c3b5b844f932
-source-git-commit: f9af669b023309abc132421f35a2ece974e796b0
+source-git-commit: 85ccee879fd4ba5a80b6e885458839901f83d26e
 workflow-type: tm+mt
-source-wordcount: '714'
-ht-degree: 0%
+source-wordcount: '691'
+ht-degree: 1%
 
 ---
 
@@ -21,39 +21,42 @@ ht-degree: 0%
 >
 >We raden u aan Workfront Automation and Integration te gebruiken voor de integratiebehoeften van uw organisatie met Salesforce.
 >
->Voor een overzicht van de Automatisering en de Integratie van Workfront, zie [&#x200B; het overzicht van de Fusie van Adobe Workfront &#x200B;](https://experienceleague.adobe.com/nl/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+>Voor een overzicht van de Automatisering en de Integratie van Workfront, zie [ het overzicht van de Fusie van Adobe Workfront ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 >
->Voor informatie over de specifieke mogelijkheden van de modules van de Automatisering en van de Integratie van Workfront voor Salesforce, zie [&#x200B; modules van Salesforce &#x200B;](https://experienceleague.adobe.com/nl/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/salesforce-modules).
-
-U hebt een [!UICONTROL Pro] [!DNL Workfront] -abonnement nodig om deze functie te kunnen gebruiken. Voor meer informatie over de diverse beschikbare plannen, zie [[!DNL Workfront]  Plannen.](https://business.adobe.com/nl/products/workfront/pricing.html)
+>Voor informatie over de specifieke mogelijkheden van de modules van de Automatisering en van de Integratie van Workfront voor Salesforce, zie [ modules van Salesforce ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/salesforce-modules).
 
 Nadat u [!DNL Adobe Workfront] for [!DNL Salesforce] as a [!DNL Workfront] administrator hebt geïnstalleerd, kunt u deze beschikbaar maken voor uw gebruikers door deze in een nieuwe sectie toe te voegen aan hun [!UICONTROL Opportunity] en [!UICONTROL Account]
 paginalay-outs in [!UICONTROL Salesforce] .
 
-Voor informatie over het installeren van [!DNL Workfront for Salesforce], zie [&#x200B; installeren  [!DNL Adobe Workfront for Salesforce]](../../workfront-integrations-and-apps/using-workfront-with-salesforce/install-workfront-for-salesforce.md).
+Voor informatie over het installeren van [!DNL Workfront for Salesforce], zie [ installeren  [!DNL Adobe Workfront for Salesforce]](../../workfront-integrations-and-apps/using-workfront-with-salesforce/install-workfront-for-salesforce.md).
 
 Als u wilt dat [!DNL Workfront] beschikbaar is in zowel de [!DNL Classic] - als [!DNL Lightning Experience] -frameworks, moet u de pagina&#39;s [!DNL WorkfrontOpportunities] en [!DNL WorkfrontAccounts] [!UICONTROL Visualforce] toevoegen aan respectievelijk de [!UICONTROL Opportunity] - en [!UICONTROL Accounts] -paginalay-outs.
 
+
+
 ## Toegangsvereisten
 
-U moet de volgende toegang hebben om de in dit artikel beschreven functionaliteit te kunnen gebruiken:
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
-   <td> <p>[!UICONTROL Pro] of hoger</p> </td> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licentie*</td> 
-   <td> <p>[!UICONTROL Plan]</p> </td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td> <p>Standard</p>
+   <p>Plan</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw [!DNL Workfront] beheerder.
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Vereisten
 
@@ -104,7 +107,7 @@ U moet de volgende toegang hebben om de in dit artikel beschreven functionalitei
 
    * **[!UICONTROL Width (in pixels or %)]**: 100%
    * **[!UICONTROL Height (in pixels)]**: 600
-   * Selecteer **[!UICONTROL Show scrollbars]** .
+   * Selecteer **[!UICONTROL Show scrollbars]**.
 
 1. Klik op **[!UICONTROL OK]**.
 1. Klik op **[!UICONTROL Save]** om de lay-out op te slaan.
@@ -142,14 +145,14 @@ of [!UICONTROL Opportunity] -object.
 
    Klik op **[!UICONTROL New]** om een nieuwe pagina-indeling te maken.
 
-1. Ga met [&#x200B; verder vormen de  [!DNL Workfront]  Sectie op het niveau van de Kans of van de Rekening &#x200B;](#configure-the-workfront-section-at-the-opportunity-or-account-level-configure-the-workfront-section-at-the-opportunity-or-account-level) hieronder.
+1. Ga met [ verder vormen de  [!DNL Workfront]  Sectie op het niveau van de Kans of van de Rekening ](#configure-the-workfront-section-at-the-opportunity-or-account-level-configure-the-workfront-section-at-the-opportunity-or-account-level) hieronder.
 
 ### Configureer de sectie [!DNL Workfront] op het niveau Opportunity of Account {#configure-the-workfront-section-at-the-opportunity-or-account-level}
 
 1. Meld u aan bij [!DNL Salesforce] als systeembeheerder.
 1. Ga naar een **[!UICONTROL Opportunity]** of **[!UICONTROL Account]** .
 
-1. Klik op het pictogram **[!UICONTROL Setup]** en klik vervolgens op **[!UICONTROL Edit Page]**\.
+1. Klik op het pictogram **[!UICONTROL Setup]** en klik vervolgens op **[!UICONTROL Edit Page]** .
 
 1. Vouw de sectie **[!UICONTROL Custom-Managed]** uit.
 1. Sleep de component **[!DNL Workfront]** naar uw [!UICONTROL Opportunity] of account

@@ -6,9 +6,9 @@ description: U kunt berichten in Adobe Creative Cloud van  [!DNL Adobe Workfront
 author: Courtney,Becky
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: b07474c0-ba41-4382-8374-040f633a47ed
-source-git-commit: 4256e1ecd16179d0a2aa8e623b05be754d8bbd2d
+source-git-commit: a65a4568c6428768ee6bc60a59a8499efdbec9f8
 workflow-type: tm+mt
-source-wordcount: '316'
+source-wordcount: '298'
 ht-degree: 0%
 
 ---
@@ -27,8 +27,6 @@ Meldingen zijn beschikbaar in de volgende Adobe Creative Cloud-apps:
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -37,20 +35,22 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  <tbody> 
   <tr> 
    <!--<td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
-   <td> <p>[!UICONTROL Pro] or higher</p> </td> 
+   <td> Any</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
-   <td> <p>[!UICONTROL Work] or [!UICONTROL Plan]</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] license</td> 
+   <td> 
+   <p>Standard</p>
+   <p>Work or higher</p> </td> 
   </tr> -->
   <tr> 
-   <td role="rowheader">Product</td> 
+   <td role="rowheader">Aanvullende producten</td> 
    <td>U moet een [!DNL Adobe Creative Cloud] licentie hebben naast een [!DNL Workfront] licentie.</td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw [!DNL Workfront] beheerder.
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -58,11 +58,11 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 {{cc-install-prereq}}
 
-* U hebt expresmeldingen ingeschakeld in [!DNL Workfront] . Voor informatie bij het toelaten van onmiddellijke berichten, zie [&#x200B; uw eigen e-mailberichten wijzigen &#x200B;](/help/quicksilver/workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+* U hebt expresmeldingen ingeschakeld in [!DNL Workfront] . Voor informatie bij het toelaten van onmiddellijke berichten, zie [ uw eigen e-mailberichten wijzigen ](/help/quicksilver/workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 ## [!DNL Workfront] -meldingen weergeven en beheren in Adobe Creative Cloud
 
-1. Klik op het **[!UICONTROL Notifications]** pictogram ![&#x200B; pictogram van Meldingen &#x200B;](assets/cc-plugin-notifications-icon.png) dichtbij de bovenkant van het plugin paneel. Een blauwe stip op het pictogram geeft aan dat er ongelezen meldingen zijn.
+1. Klik op het **[!UICONTROL Notifications]** pictogram ![ pictogram van Meldingen ](assets/cc-plugin-notifications-icon.png) dichtbij de bovenkant van het plugin paneel. Een blauwe stip op het pictogram geeft aan dat er ongelezen meldingen zijn.
 1. (Optioneel) Als u alle meldingen wilt markeren zoals deze worden weergegeven, klikt u op **[!UICONTROL Mark all as seen]** .
 
    Dit markeert berichten zoals die in de stop evenals in Workfront worden gezien. Zachte meldingen zijn niet meer zichtbaar in de lijst met meldingen in de plug-in.

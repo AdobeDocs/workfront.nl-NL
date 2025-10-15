@@ -1,14 +1,14 @@
 ---
 product-area: workfront-integrations;setup
 navigation-topic: adobe-workfront-for-xd
-title: XD tekengebieden als proefdrukken uploaden naar Workfront
+title: XD-tekengebieden als proefdrukken uploaden naar Workfront
 description: U kunt uw tekengebieden als proefdrukken rechtstreeks uploaden naar Adobe Workfront voor een grondige revisie en goedkeuring.
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: d6699fd7-f130-4231-8713-0cfa8dc3c910
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+source-git-commit: a65a4568c6428768ee6bc60a59a8499efdbec9f8
 workflow-type: tm+mt
-source-wordcount: '952'
+source-wordcount: '905'
 ht-degree: 0%
 
 ---
@@ -21,22 +21,20 @@ U kunt tekengebieden als proefdrukken rechtstreeks uploaden naar [!DNL Adobe Wor
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
-  <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
-   <td> <p>Huidig abonnement: [!UICONTROL Pro] of hoger</p> <p>of</p> <p>Ouder plan: [!UICONTROL Premium]</p> <p>Voor meer informatie over het proefdrukken van toegang met de verschillende plannen, zie.</p> </td> 
+ <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] package</td> 
+   <td>Alle </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licentie*</td> 
-   <td> <p>Huidig abonnement: [!UICONTROL Work] of [!UICONTROL Proof]</p> <p>Ouder plan: Willekeurig (proefdrukken moet zijn ingeschakeld voor de gebruiker)</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licentie</td> 
+   <td> <p>Standard</p> <p>Werk of hoger</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Product</td> 
+   <td role="rowheader">Aanvullende producten</td> 
    <td>U moet een [!DNL Adobe Creative Cloud] licentie hebben naast een [!DNL Workfront] licentie.</td> 
   </tr> 
   <tr> 
@@ -50,7 +48,8 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-&#42; om te weten te komen welk plan, rol, of Profiel van de Toestemming van het Bewijs u hebt, contacteer uw [!DNL Workfront] of [!DNL Workfront Proof] beheerder.
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
 
 +++
 
@@ -58,16 +57,16 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 * U moet de plug-in [!DNL Adobe Workfront for XD] installeren voordat u proefdrukken kunt uploaden in [!DNL Adobe XD] .
 
-  Voor instructies, zie [&#x200B; installeren  [!DNL Adobe Workfront for XD]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-install.md).
+  Voor instructies, zie [ installeren  [!DNL Adobe Workfront for XD]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-install.md).
 
 ## Een statische proefdruk uploaden
 
 1. Klik op het pictogram **[!UICONTROL Menu]** in de rechterbovenhoek en selecteer vervolgens **[!UICONTROL Work List]** . U kunt het menu ook gebruiken om naar bovenliggende objecten te navigeren.
 
-   ![&#x200B; pictogram van het Menu &#x200B;](assets/menu-350x440.png)
+   ![ pictogram van het Menu ](assets/menu-350x440.png)
 
 1. Ga naar het het werkpunt waar u een statisch bewijs wilt uploaden.
-1. Klik het **[!UICONTROL Document]** pictogram van het pictogram van het 1&rbrace; Document ![&#128279;](assets/documents.png) in de navigatiebar.
+1. Klik het **[!UICONTROL Document]** pictogram van het pictogram van het 1} Document ![ in de navigatiebar.](assets/documents.png)
 
 1. Klik op **[!UICONTROL New File]** onder aan de plug-in.
 1. Selecteer de tekengebieden die u wilt uploaden.
@@ -108,7 +107,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 1. (Optioneel) Typ een opmerking in het **[!UICONTROL Updates]** -gebied.
 
-   ![&#x200B; Goedkeuring van het Bewijs in XD &#x200B;](assets/proof-approvals-xd-350x396.png)
+   ![ goedkeuringen van het Bewijs in XD ](assets/proof-approvals-xd-350x396.png)
 
 1. Kies de exportindeling in het keuzemenu **[!UICONTROL Asset Type]** .
 
@@ -117,7 +116,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 1. (Optioneel) Geef de PDF een naam.
 
-   ![&#x200B; PDF opties &#x200B;](assets/pdf-options.png)
+   ![ de opties van PDF ](assets/pdf-options.png)
 
 1. Klik op **[!UICONTROL Upload]**.\
    Het document wordt weergegeven in het gebied [!UICONTROL Documents] in de plug-in en de bureaubladtoepassing.
@@ -133,13 +132,13 @@ Met de [!DNL Workfront for Adobe] -plug-in kunt u een interactieve proefdruk mak
 
    1. Geef de koppeling een naam.
    1. Kies een weergave-instelling.
-   1. Controleer of **[!UICONTROL Anyone with this link]** is geselecteerd in de sectie **[!UICONTROL Link Access]** .
+   1. Controleer of **[!UICONTROL Link Access]** is geselecteerd in de sectie **[!UICONTROL Anyone with this link]** .
 
       U moet dit type toegang inschakelen om een interactief bewijs te genereren.
 
    1. Klik op **[!UICONTROL Create Link]**.
 
-1. Klik weer op **[!UICONTROL Design]** in de linkerbovenhoek van het scherm. Ga aan [&#x200B; verder uploaden een interactieve proefdruk &#x200B;](#upload-an-interactive-proof) hieronder sectie.
+1. Klik weer op **[!UICONTROL Design]** in de linkerbovenhoek van het scherm. Ga aan [ verder uploaden een interactieve proefdruk ](#upload-an-interactive-proof) hieronder sectie.
 
    >[!NOTE]
    >
@@ -149,10 +148,10 @@ Met de [!DNL Workfront for Adobe] -plug-in kunt u een interactieve proefdruk mak
 
 1. Klik op het pictogram **[!UICONTROL Menu]** in de rechterbovenhoek en selecteer vervolgens **[!UICONTROL Work List]** . U kunt het menu ook gebruiken om naar bovenliggende objecten te navigeren.
 
-   ![&#x200B; pictogram van het Menu &#x200B;](assets/menu-350x440.png)
+   ![ pictogram van het Menu ](assets/menu-350x440.png)
 
 1. Ga naar het werkitem waar u een interactieve proefdruk wilt uploaden.
-1. Klik het **[!UICONTROL Document]** pictogram van het pictogram van het 1&rbrace; Document ![&#128279;](assets/documents.png) in de navigatiebar.
+1. Klik het **[!UICONTROL Document]** pictogram van het pictogram van het 1} Document ![ in de navigatiebar.](assets/documents.png)
 
 1. Klik op **[!UICONTROL New File]** onder aan de plug-in.
 1. Schakel **[!UICONTROL Create a Proof]** in.
@@ -184,10 +183,10 @@ Met de [!DNL Workfront for Adobe] -plug-in kunt u een interactieve proefdruk mak
 
 1. (Optioneel) Typ een opmerking in het **[!UICONTROL Updates]** -gebied.
 
-   ![&#x200B; Goedkeuring van het Bewijs in XD &#x200B;](assets/proof-approvals-xd-350x396.png)
+   ![ goedkeuringen van het Bewijs in XD ](assets/proof-approvals-xd-350x396.png)
 
-1. In het **[!UICONTROL Asset Type]** drop-down menu, kies de verbinding u enkel onder **Gedeelde verbindingen** tabel creeerde. Voor meer informatie, zie [&#x200B; een interactieve verbinding voor uw artboard &#x200B;](#create-an-interactive-link-for-your-artboard) creëren.\
-   ![&#x200B; Gedeelde verbindingen in XD &#x200B;](assets/shared-links-xd-350x870.png)
+1. In het **[!UICONTROL Asset Type]** drop-down menu, kies de verbinding u enkel onder **Gedeelde verbindingen** tabel creeerde. Voor meer informatie, zie [ een interactieve verbinding voor uw artboard ](#create-an-interactive-link-for-your-artboard) creëren.\
+   ![ Gedeelde verbindingen in XDS ](assets/shared-links-xd-350x870.png)
 
 1. Klik op **[!UICONTROL Upload]**.
 
@@ -195,7 +194,7 @@ Met de [!DNL Workfront for Adobe] -plug-in kunt u een interactieve proefdruk mak
 
    >[!IMPORTANT]
    >
-   >Gebruikers moeten toegang hebben tot [!UICONTROL Desktop Proofing Viewer] om interactieve proefdrukken te kunnen beoordelen en goedkeuren. Voor meer informatie, zie [&#x200B; installeer [!UICONTROL Desktop Proofing Viewer]](../../review-and-approve-work/proofing/use-the-desktop-proofing-viewer/installing-desktop-proofing-viewer.md).
+   >Gebruikers moeten toegang hebben tot [!UICONTROL Desktop Proofing Viewer] om interactieve proefdrukken te kunnen beoordelen en goedkeuren. Voor meer informatie, zie [ installeer [!UICONTROL Desktop Proofing Viewer]](../../review-and-approve-work/proofing/use-the-desktop-proofing-viewer/installing-desktop-proofing-viewer.md).
 
 ## Een nieuwe proefdrukversie uploaden
 
@@ -203,10 +202,10 @@ U kunt een nieuwe versie van een proefdruk uploaden. De plug-in onthoudt de test
 
 1. Klik op het pictogram **[!UICONTROL Menu]** in de rechterbovenhoek en selecteer vervolgens **[!UICONTROL Work List]** . U kunt het menu ook gebruiken om naar bovenliggende objecten te navigeren.
 
-   ![&#x200B; pictogram van het Menu &#x200B;](assets/menu-350x440.png)
+   ![ pictogram van het Menu ](assets/menu-350x440.png)
 
 1. Ga naar het werkitem waarnaar u een document moet uploaden.
-1. Klik het **[!UICONTROL Document]** pictogram van het pictogram van het 1&rbrace; Document ![&#128279;](assets/documents.png) in de navigatiebar.
+1. Klik het **[!UICONTROL Document]** pictogram van het pictogram van het 1} Document ![ in de navigatiebar.](assets/documents.png)
 
 1. Klik op **[!UICONTROL New Version]** onder aan de plug-in.
 1. Schakel **[!UICONTROL Create a Proof]** in.
@@ -243,11 +242,11 @@ U kunt een nieuwe versie van een proefdruk uploaden. De plug-in onthoudt de test
 
 1. Kies de exportindeling in het keuzemenu **[!UICONTROL Asset Type]** .
 
-   ![&#x200B; creeer een proef in XD &#x200B;](assets/create-a-proof-xd-350x202.png)
+   ![ creeer een proef in XD ](assets/create-a-proof-xd-350x202.png)
 
 1. (Optioneel) Typ een opmerking in het **[!UICONTROL Updates]** -gebied.
 
-   ![&#x200B; Goedkeuring van het Bewijs in XD &#x200B;](assets/proof-approvals-xd-350x396.png)
+   ![ goedkeuringen van het Bewijs in XD ](assets/proof-approvals-xd-350x396.png)
 
 1. (Facultatief) als u PDF als activatype selecteert en meer dan één geselecteerd artboard hebt, kies als u uw artboards als **[!UICONTROL Single PDF file]s** of **M[!UICONTROL ultiple PDF files]** wilt uitvoeren.
 

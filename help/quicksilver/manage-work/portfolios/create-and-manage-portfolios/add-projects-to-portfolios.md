@@ -1,21 +1,21 @@
 ---
 product-area: portfolios;projects
 navigation-topic: create-and-manage-portfolios
-title: Projecten toevoegen aan een portfolio
+title: Projecten toevoegen aan een Portfolio
 description: We raden u aan projecten aan portfolio's toe te voegen wanneer u deze initialiseert. U kunt ze echter op elk gewenst moment tijdens de levensduur van de portfolio toevoegen.
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 97f36c18-3ac8-45ac-b5bc-dfe8b1363faf
-source-git-commit: 78b4724ca8d5df15ed76e9e882179e3cb127282c
+source-git-commit: fbe17e50ff161156a0b4b2a8b468b4eb844cae59
 workflow-type: tm+mt
-source-wordcount: '378'
+source-wordcount: '377'
 ht-degree: 0%
 
 ---
 
 # Projecten toevoegen aan een portfolio
 
-<!--Audited: 5/2025-->
+<!--Audited: 08/2025-->
 
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release. </span>   
 
@@ -30,24 +30,24 @@ Houd rekening met het volgende wanneer u projecten aan portfolio&#39;s toevoegt:
 
 ## Toegangsvereisten
 
-+++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] package</td> 
    <td> <p>Alle</p>
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licentie*</td> 
-   <td><p>Nieuw: Standaard</p> 
-   <p>Huidig: [!UICONTROL Plan] </p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licentie</td> 
+   <td><p>Standard</p> 
+   <p>[!UICONTROL Plan] </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Toegangsniveau</td> 
+   <td role="rowheader">Configuratie op toegangsniveau</td> 
    <td> <p>[!UICONTROL Edit] toegang tot portfolio's</p> <p>[!UICONTROL Edit] toegang tot projecten</p> </td> 
   </tr> 
   <tr> 
@@ -57,15 +57,42 @@ Houd rekening met het volgende wanneer u projecten aan portfolio&#39;s toevoegt:
  </tbody> 
 </table>
 
-*For informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*For informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td> <p>Any</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
+   <td><p>New: Standard</p> 
+   <p>Current: [!UICONTROL Plan] </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level</td> 
+   <td> <p>[!UICONTROL Edit] access Portfolios</p> <p>[!UICONTROL Edit] access to Projects</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>[!UICONTROL Manage] permissions to the portfolio</p> <p>[!UICONTROL Manage] permissions to the projects</p>  </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## Een project toevoegen aan een portfolio
 
 1. Ga naar een portfolio en klik op **[!UICONTROL Projects]** in het linkerdeelvenster.
 
-   ![&#x200B; Portfolio met projecten &#x200B;](assets/qs-portfolio-with-projects-350x90.png)
+   ![ Portfolio met projecten ](assets/qs-portfolio-with-projects-350x90.png)
 
 1. Klik op **[!UICONTROL New Project]** en selecteer een methode om een project toe te voegen.
 
@@ -102,11 +129,11 @@ Houd rekening met het volgende wanneer u projecten aan portfolio&#39;s toevoegt:
     </tbody> 
    </table>
 
-   ![&#x200B; Nieuwe projectdropdown &#x200B;](assets/new-project-dropdown-expanded-from-portfolio-nwe-350x376.png)
+   ![ Nieuwe projectdropdown ](assets/new-project-dropdown-expanded-from-portfolio-nwe-350x376.png)
 
 1. (Voorwaardelijk) als u selecteerde om een bestaand project toe te voegen, **voegt de doos van Projecten** toe opent. <!--check this after UI changes-->
 
-   ![&#x200B; voeg bestaand project &#x200B;](assets/add-existing-projects-to-portfolios-box.png) toe <!--check this after UI changes-->
+   ![ voeg bestaand project ](assets/add-existing-projects-to-portfolios-box.png) toe <!--check this after UI changes-->
 
 1. Typ de naam van een project in het veld **[!UICONTROL Add Projects to this Portfolio]** en klik vervolgens op de naam wanneer deze in de lijst wordt weergegeven.  <!--check this after UI changes-->
 

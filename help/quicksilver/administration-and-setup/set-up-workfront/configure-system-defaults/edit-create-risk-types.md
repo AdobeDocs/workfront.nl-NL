@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: f929806f-9087-4b64-be4b-70bbceaaeab0
-source-git-commit: a8d2447eea4ca8d814035d183f40921cad49a0d8
+source-git-commit: 20ebcb74c79aea67ea7cb1ba083dfea623fe7c16
 workflow-type: tm+mt
-source-wordcount: '627'
+source-wordcount: '544'
 ht-degree: 0%
 
 ---
@@ -20,10 +20,6 @@ ht-degree: 0%
 <!--Audited: 03/2025-->
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
-
-<span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>
-
-<span class="preview"> voor informatie over snelle versies, zie [&#x200B; snelle versies voor uw organisatie &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
 
 Adobe Workfront heeft een aantal standaardrisicopatypen die u in de planningsfase aan projecten kunt koppelen om potentiële obstakels te identificeren alvorens om het even welk werk goed te keuren.
 
@@ -37,39 +33,35 @@ U kunt risicstypes met projectrisico&#39;s associëren om te identificeren welk 
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
-   <td>Alle</td> 
+   <td>[!DNL Adobe Workfront] package</td> 
+   <td><p>Alle</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licentie*</td> 
-   <td><p>Nieuw: [!UICONTROL Standard]</p>
-   of
-   <p>Huidige: [!UICONTROL Plan]</p>
-   </td> 
+   <td>[!DNL Adobe Workfront] licentie</td> 
+   <td><p>[!UICONTROL Standard]</p>
+       <p>[!UICONTROL Plan]</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau</td> 
-   <td>[!UICONTROL System Administrator]</td>
+   <td>Configuraties op toegangsniveau</td> 
+   <td>[!UICONTROL System Administrator]</td> 
   </tr> 
  </tbody> 
 </table>
 
-*For meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Typen risico&#39;s
+## Risicotypes
 
 De types van risico zijn etiketten u voor uw risico&#39;s kunt gebruiken om hen voor rapporteringsdoeleinden te categoriseren.
 
-Als a [!DNL Workfront] beheerder, kunt u [!UICONTROL Risk Types] in het [!UICONTROL **3&rbrace; gebied van de Opstelling &lbrace;tot stand brengen.**]
+Als a [!DNL Workfront] beheerder, kunt u [!UICONTROL Risk Types] in het [!UICONTROL **3} gebied van de Opstelling {tot stand brengen.**]
 
 Nadat u de typen risico&#39;s hebt ingesteld, zijn deze allemaal voor uw systeem beschikbaar.
 
@@ -91,15 +83,15 @@ U kunt het volgende doen om het aantal risicstypen in uw Workfront-instantie te 
 
 1. Klik op **[!UICONTROL Risk Types]**.
 1. Selecteer het risicatype dat u wilt bewerken.
-1. Klik het **[!UICONTROL Edit]** pictogram ![&#x200B; uitgeven pictogram &#x200B;](assets/edit-icon.png).
+1. Klik het **[!UICONTROL Edit]** pictogram ![ uitgeven pictogram ](assets/edit-icon.png).
 
-   <span class="preview"> [!UICONTROL **geeft het Type van Risico uit**] doos opent.</span>
+   Het [!UICONTROL **geeft het Type van Risico**] vakje uit opent.
 
-   ![&#x200B; geef risicomatype doos &#x200B;](assets/edit-risk-type-box.png) uit
+   ![ geef risicomatype doos ](assets/edit-risk-type-box.png) uit
 
    >[!TIP]
    >
-   >   U kunt de informatie over het risicatype inline bewerken wanneer u dubbelklikt op de naam of beschrijving van een risicatype in een lijst met risicstypen.
+   >U kunt de informatie over het risicatype inline bewerken wanneer u dubbelklikt op de naam of beschrijving van een risicatype in een lijst met risicstypen.
 
 1. (Optioneel) Wijzig de naam en de beschrijving van het type risico.
 
@@ -107,9 +99,9 @@ U kunt het volgende doen om het aantal risicstypen in uw Workfront-instantie te 
 
 1. Klik op **[!UICONTROL Save Changes].**
 
-1. (Facultatief) om een risicatype te schrappen, het in de lijst te selecteren, dan het [!UICONTROL **pictogram van de Schrapping**] ![&#x200B; te klikken pictogram van de Schrapping &#x200B;](assets/delete.png), dan ja te klikken [!UICONTROL **, het**] te schrappen. Het risicomatype wordt verwijderd en kan niet worden hersteld.
+1. (Facultatief) om een risicatype te schrappen, het in de lijst te selecteren, dan het [!UICONTROL **pictogram van de Schrapping**] ![ te klikken pictogram van de Schrapping ](assets/delete.png), dan ja te klikken [!UICONTROL **, het**] te schrappen. Het risicomatype wordt verwijderd en kan niet worden hersteld.
 
-1. (Facultatief) om een lijst van risicstypes uit te voeren, klik het **pictogram van de Uitvoer ![&#x200B; pictogram van de Uitvoer &#x200B;](assets/export-icon.png).** U kunt naar de volgende bestandstypen exporteren:
+1. (Facultatief) om een lijst van risicstypes uit te voeren, klik het [!UICONTROL **pictogram van de Uitvoer**] pictogram van de Uitvoer ![. ](assets/export-icon.png) U kunt naar de volgende bestandstypen exporteren:
 
    * PDF
    * Excel
@@ -119,7 +111,6 @@ U kunt het volgende doen om het aantal risicstypen in uw Workfront-instantie te 
    >[!TIP]
    >
    >   U kunt eerst een beperkt aantal soorten risico selecteren en deze vervolgens voor een kleinere lijst exporteren.
-
 
 ### Risicotypen maken {#create-risk-types}
 
@@ -135,10 +126,9 @@ Naast de standaardtypen kunt u ook soorten risico&#39;s maken.
 
    Klik [!UICONTROL **toevoegen Meer Types van Risico**] in de laag-linkerhoek van de lijst van het risicatype om inline risicstypes toe te voegen.
 
-   <span class="preview"> het **Nieuwe vakje van het Type van Risico** opent. <span>
+   Het **Nieuwe vakje van het Type van Risico** opent.
 
-   ![&#x200B; Nieuwe doos van het risicatype &#x200B;](assets/new-risk-type-box.png)
-
+   ![ Nieuwe doos van het risicatype ](assets/new-risk-type-box.png)
 
 1. Voeg een **[!UICONTROL Name]** (vereist) en een **[!UICONTROL Description]** (facultatief) voor het risicatype toe.
 
@@ -150,10 +140,10 @@ Naast de standaardtypen kunt u ook soorten risico&#39;s maken.
 
    >[!TIP]
    >
-   >Zie de sectie [[!UICONTROL Edit existing] risicstypen &#x200B;](#edit-existing-risk-types) in dit artikel voor informatie over het bewerken van een type aangepast risico.
+   >Zie de sectie [[!UICONTROL Edit existing] risicstypen ](#edit-existing-risk-types) in dit artikel voor informatie over het bewerken van een type aangepast risico.
 
 ## Risico&#39;s koppelen aan soorten risico&#39;s in projecten
 
 U kunt risicstypes gebruiken om risico&#39;s te etiketteren die aan uw projecten worden toegevoegd.
 
-Voor meer informatie over hoe te om risico&#39;s aan projecten toe te voegen, zie [&#x200B; risico&#39;s op projecten &#x200B;](../../../manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md) creëren en uitgeven.
+Voor meer informatie over hoe te om risico&#39;s aan projecten toe te voegen, zie [ risico&#39;s op projecten ](../../../manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md) creëren en uitgeven.

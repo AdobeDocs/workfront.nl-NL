@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 546e19ab-dc50-4d23-b5f6-31bde1c82b6a
-source-git-commit: 48de4553478fc42d88d81ea953440337f6684e50
+source-git-commit: 5fd855bec596926a4361fd07a1a763c7956e5e61
 workflow-type: tm+mt
-source-wordcount: '483'
+source-wordcount: '468'
 ht-degree: 0%
 
 ---
@@ -26,31 +26,28 @@ U kunt een blauwdruk installeren in de productieomgeving of in een Sandbox-omgev
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
    <td>Alle</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licentie</td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
    <td>
-   <p>Nieuw: Standaard</p>
-   <p>of</p>
-   <p>Huidig: Plan</p></td> 
+   <p>Standard</p>
+   <p>Plan</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau</td> 
-   <td>U moet een [!DNL Workfront] beheerder zijn. </td> 
+   <td>Workfront-beheerder</td> 
   </tr> 
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -90,14 +87,14 @@ U kunt uw pakket installeren in een van de volgende omgevingen:
 1. (Optioneel) Klik op **[!UICONTROL Details]** voor meer informatie over de werking van de blauwdruk.
 1. Klik op **[!UICONTROL Install]**.
 1. Kies of u wilt installeren in uw productieomgeving of in een sandbox-omgeving.\
-   Voor meer informatie, zie [&#x200B; waar zou ik een blauwdruk moeten installeren?](#where-should-i-install-a-blueprint) in dit artikel.
+   Voor meer informatie, zie [ waar zou ik een blauwdruk moeten installeren?](#where-should-i-install-a-blueprint) in dit artikel.
 1. Op **vorm** pagina, kunt u verkiezen om één van het volgende te doen:
 
    * Installeer de blauwdruk zoals deze is. Voor blauwdruktypes die geen configuratie vereisen, is dit de enige optie. Voor blauwdruktypes die configuratie nodig hebben, kunt u naar keuze verkiezen om de blauwdruk nu te installeren en het later te vormen. Klik op **[!UICONTROL Install as is]**.
    * Vorm de blauwdruk vóór installatie, voor blauwdrukken die configuratie vereisen. Maak uw configuratieselecties, dan klik **[!UICONTROL Install blueprint]**.
 
-     Voor meer informatie, zie [&#x200B; een blauwdruk &#x200B;](../../administration-and-setup/blueprints/configure-template-package.md) vormen.
+     Voor meer informatie, zie [ een blauwdruk ](../../administration-and-setup/blueprints/configure-template-package.md) vormen.
 
    De installatie is voltooid en er wordt een bericht weergegeven met een lijst met specifieke objecten (zoals rollen, teams of groepen) die met succes zijn geïnstalleerd met de blauwdruk en alle objecten die niet zijn geïnstalleerd.
 
-Na het installeren van de blauwdruk, zouden sommige extra acties kunnen nodig zijn om het volledig op te stellen. Voor informatie, zie [&#x200B; Acties na het installeren van een blauwdruk &#x200B;](../../administration-and-setup/blueprints/best-next-actions-after-install.md) te nemen.
+Na het installeren van de blauwdruk, zouden sommige extra acties kunnen nodig zijn om het volledig op te stellen. Voor informatie, zie [ Acties na het installeren van een blauwdruk ](../../administration-and-setup/blueprints/best-next-actions-after-install.md) te nemen.

@@ -1,12 +1,12 @@
 ---
 product-area: enterprise-scenario-planner-product-area
 navigation-topic: enterprise-scenario-planner-navigation-topic
-title: Overzicht van de afstemming van de toewijzingen van middelen tussen projecten en initiatieven
+title: Overzicht van het op elkaar afstemmen van de toewijzing van middelen tussen projecten en initiatieven
 description: Overzicht van de afstemming van de toewijzingen van middelen tussen projecten en initiatieven
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 82cd9641-1213-436c-935a-2f04a0425e9c
-source-git-commit: 2ff32ba11f9ef214f16b11323386223792b0877e
+source-git-commit: 86ee649cdf0ac04230035a94a1326c45b67d36d2
 workflow-type: tm+mt
 source-wordcount: '505'
 ht-degree: 0%
@@ -42,11 +42,11 @@ U kunt projecten verbinden met initiatieven door één van het volgende te doen:
 
 * Projecten als nieuwe initiatieven in een plan importeren
 
-  Voor meer informatie, zie [&#x200B; de projecten van de Invoer in plannen in  [!DNL Scenario Planner]](../scenario-planner/import-projects-to-plans.md).
+  Voor meer informatie, zie [ de projecten van de Invoer in plannen in  [!DNL Scenario Planner]](../scenario-planner/import-projects-to-plans.md).
 
-* Publish-initiatieven voor projecten
+* Initiatieven publiceren naar projecten
 
-  Voor meer informatie, zie [&#x200B; Update of creeer projecten door initiatieven in  [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md) te publiceren.
+  Voor meer informatie, zie [ Update of creeer projecten door initiatieven in  [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md) te publiceren.
 
 Beide processen zorgen voor een verband tussen de projecten en hun overeenkomstige initiatieven. Nadat u deze hebt aangesloten, kunt u de toewijzingen van bronnen beheren door ze te vergelijken en ervoor te zorgen dat ze overeenkomen.
 
@@ -66,7 +66,7 @@ Beide processen zorgen voor een verband tussen de projecten en hun overeenkomsti
 
    * [!DNL Scenario Planner] van het [!UICONTROL Project Details] -gebied in een project. Raadpleeg de volgende artikelen voor meer informatie:
 
-      * [&#x200B; werk of creeer projecten door initiatieven in  [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md) te publiceren bij
+      * [ werk of creeer projecten door initiatieven in  [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md) te publiceren bij
       * [Informatie beheren in het projectgebied [!UICONTROL Overview]](../manage-work/projects/manage-projects/understand-project-overview-area.md)
 
      >[!TIP]
@@ -77,17 +77,17 @@ Beide processen zorgen voor een verband tussen de projecten en hun overeenkomsti
 
       * [!UICONTROL Workload Balancer] van het project
 
-        Voor informatie over hoe te om de toewijzingen van rollen tussen het initiatief en het verbonden project in [!UICONTROL Workload Balancer] te bekijken en te verzoenen, zie [&#x200B; roltoewijzing voor projecten en initiatieven in [!UICONTROL Workload Balancer]](../scenario-planner/show-role-allocation-workload-balancer.md) tonen.
+        Voor informatie over hoe te om de toewijzingen van rollen tussen het initiatief en het verbonden project in [!UICONTROL Workload Balancer] te bekijken en te verzoenen, zie [ roltoewijzing voor projecten en initiatieven in [!UICONTROL Workload Balancer]](../scenario-planner/show-role-allocation-workload-balancer.md) tonen.
 
       * [!UICONTROL Tasks] -sectie
 
-        Voor informatie over hoe te om de toewijzingen van rollen tussen het initiatief en het verbonden project in de [!UICONTROL Tasks] sectie met elkaar in overeenstemming te brengen, zie [&#x200B; roltoewijzing voor projecten en initiatieven in de taaklijst &#x200B;](../scenario-planner/show-role-allocation-task-list-nwe.md) tonen.
+        Voor informatie over hoe te om de toewijzingen van rollen tussen het initiatief en het verbonden project in de [!UICONTROL Tasks] sectie met elkaar in overeenstemming te brengen, zie [ roltoewijzing voor projecten en initiatieven in de taaklijst ](../scenario-planner/show-role-allocation-task-list-nwe.md) tonen.
 
      >[!TIP]
      >
      >U kunt taakrolinformatie van het project en het initiatief naast elkaar zien in het deelvenster [!UICONTROL Role Allocation] .
 
-* U kunt de taaktoewijzing voor een project niet bekijken op een gekoppeld initiatief. Voor meer informatie, zie [&#x200B; de projecten van de Invoer in plannen in  [!DNL Scenario Planner]](../scenario-planner/import-projects-to-plans.md).
+* U kunt de taaktoewijzing voor een project niet bekijken op een gekoppeld initiatief. Voor meer informatie, zie [ de projecten van de Invoer in plannen in  [!DNL Scenario Planner]](../scenario-planner/import-projects-to-plans.md).
 
   <!--
   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">

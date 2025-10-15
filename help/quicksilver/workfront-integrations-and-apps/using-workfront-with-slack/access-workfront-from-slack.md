@@ -6,9 +6,9 @@ description: Het integreren  [!DNL Adobe Workfront]  met  [!DNL Slack]  staat u 
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 5f531217-3bd6-4156-8b9f-eabc95d4df10
-source-git-commit: 65bfeafe67a10c72e87a02e0ece285df619fcb81
+source-git-commit: 6178cabbf021fbf92bd8795c5c2bd0346801d64d
 workflow-type: tm+mt
-source-wordcount: '1042'
+source-wordcount: '1071'
 ht-degree: 0%
 
 ---
@@ -17,13 +17,36 @@ ht-degree: 0%
 
 Door [!DNL Adobe Workfront] te integreren met [!DNL Slack] hebt u toegang tot [!DNL Workfront] vanuit [!DNL Slack] of kunt u bepaalde handelingen uitvoeren in [!DNL Workfront] met behulp van een slash-opdracht. De integratie kan vanuit elke [!DNL Slack] -omgeving worden gebruikt, inclusief de mobiele app van [!DNL Slack] .
 
-Uw [!DNL Slack] -beheerder moet de [!DNL Workfront] app in uw [!DNL Slack] -instantie installeren voordat u [!DNL Workfront] from [!DNL Slack] kunt gebruiken. Voor meer informatie, zie [&#x200B; Adobe Workfront voor Slack &#x200B;](../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md) vormen.
+Uw [!DNL Slack] -beheerder moet de [!DNL Workfront] app in uw [!DNL Slack] -instantie installeren voordat u [!DNL Workfront] from [!DNL Slack] kunt gebruiken. Voor meer informatie, zie [ Adobe Workfront voor Slack ](../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md) vormen.
+
+## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
+   <td> <p>Alle</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td> <p>Alle</p>
+  </tr> 
+ </tbody> 
+</table>
+
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Informatie over slash-opdrachten {#about-slash-commands}
 
 Wanneer u [!DNL Slack] gebruikt, typt u berichten in een berichtveld. Wanneer u uw bericht met een schuine streep begint, wordt het een bevel en het gedraagt zich anders dan een eenvoudig bericht. De opdracht geeft [!DNL Slack] de opdracht een handeling uit te voeren.
 
-U hebt vanuit [!DNL Slack] toegang tot uw [!DNL Workfront] -instantie door een slash-opdracht in een willekeurig [!DNL Slack] -kanaal te typen.
+U hebt vanuit [!DNL Workfront] toegang tot uw [!DNL Slack] -instantie door een slash-opdracht in een willekeurig [!DNL Slack] -kanaal te typen.
 
 Houd rekening met het volgende wanneer u een slash-opdracht in [!DNL Slack] gebruikt om toegang te krijgen tot [!DNL Workfront] :
 
@@ -33,12 +56,12 @@ Houd rekening met het volgende wanneer u een slash-opdracht in [!DNL Slack] gebr
 
   Dit geeft aan dat uw opdracht bedoeld is voor de [!DNL Workfront] -app. De opdrachten voor [!DNL Workfront] werken alleen wanneer u de [!DNL Workfront] app met uw [!DNL Slack] -instantie al hebt geconfigureerd.
 
-Voor een lijst van alle bevelen u van Slack voor [!DNL Workfront] kunt in werking stellen, zie [&#x200B; Toegang  [!DNL Workfront]  van een schuine streep bevel in  [!DNL Slack]](#access-workfront-from-a-slash-command-in-slack-access-workfront-from-a-slash-command-in-slack).
+Voor een lijst van alle bevelen u van Slack voor [!DNL Workfront] kunt in werking stellen, zie [ Toegang  [!DNL Workfront]  van een schuine streep bevel in  [!DNL Slack]](#access-workfront-from-a-slash-command-in-slack-access-workfront-from-a-slash-command-in-slack).
 
 ## Aanmelden bij [!DNL Workfront] vanuit [!DNL Slack] {#log-in-to-workfront-from-slack}
 
-Wanneer u een opdracht in het berichtveld in Slack typt, wordt u gevraagd zich eerst aan te melden bij [!DNL Workfront] .\
-Voor een volledige lijst van [!DNL Workfront] bevelen van [!DNL Slack], zie [&#x200B; Toegang  [!DNL Workfront]  van een slash bevel in  [!DNL Slack]](#access-workfront-from-a-slash-command-in-slack-access-workfront-from-a-slash-command-in-slack) sectie in dit artikel.
+Wanneer u een opdracht in het berichtveld in Slack typt, wordt u gevraagd u eerst aan te melden bij [!DNL Workfront] .\
+Voor een volledige lijst van [!DNL Workfront] bevelen van [!DNL Slack], zie [ Toegang  [!DNL Workfront]  van een slash bevel in  [!DNL Slack]](#access-workfront-from-a-slash-command-in-slack-access-workfront-from-a-slash-command-in-slack) sectie in dit artikel.
 
 Als u zich wilt aanmelden bij [!DNL Workfront] vanaf [!DNL Slack] :
 
@@ -65,7 +88,7 @@ Als u zich wilt aanmelden bij [!DNL Workfront] vanaf [!DNL Slack] :
 
 1. (Optioneel) Schakel alle [!DNL Workfront] -meldingen uit die u niet wilt ontvangen in [!DNL Slack] .
 
-   Voor informatie over het vormen van [!DNL Workfront] montages voor [!DNL Slack], zie [&#x200B; montages &#x200B;](#configure-settings-configure-settings) sectie in dit artikel vormen
+   Voor informatie over het vormen van [!DNL Workfront] montages voor [!DNL Slack], zie [ montages ](#configure-settings-configure-settings) sectie in dit artikel vormen
 
 1. Ga terug naar het kanaal [!DNL Slack] .
 
@@ -79,7 +102,7 @@ Als u zich wilt aanmelden bij [!DNL Workfront] vanaf [!DNL Slack] :
 ## Toegang [!DNL Workfront] via een slash-opdracht in [!DNL Slack] {#access-workfront-from-a-slash-command-in-slack}
 
 1. Meld u aan bij de [!DNL Slack] -instantie en meld u aan bij [!DNL Workfront] from [!DNL Slack] .\
-   Voor meer informatie over het programma openen aan [!DNL Workfront] van [!DNL Slack], zie [&#x200B; Login aan  [!DNL Workfront]  van  [!DNL Slack]](#log-in-to-workfront-from-slack-log-in-to-workfront-from-slack)
+   Voor meer informatie over het programma openen aan [!DNL Workfront] van [!DNL Slack], zie [ Login aan  [!DNL Workfront]  van  [!DNL Slack]](#log-in-to-workfront-from-slack-log-in-to-workfront-from-slack)
 
 1. Typ de volgende opdracht in het berichtveld vanaf een willekeurig kanaal:
 
@@ -95,7 +118,7 @@ Als u zich wilt aanmelden bij [!DNL Workfront] vanaf [!DNL Slack] :
 
      De knopen van vertoningen waarvan u tot lijsten van uw taken, kwesties, en goedkeuringen kunt toegang hebben. Wanneer u op een van de knoppen klikt, worden de eerste 20 items van elke lijst in [!DNL Slack] weergegeven.
 
-     Voor meer informatie over het beheren van [!DNL Workfront] het werkpunten van [!DNL Slack], zie [&#x200B; uw werk en goedkeuringen van  [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/manage-your-work-and-approvals-from-slack.md) leiden.
+     Voor meer informatie over het beheren van [!DNL Workfront] het werkpunten van [!DNL Slack], zie [ uw werk en goedkeuringen van  [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/manage-your-work-and-approvals-from-slack.md) leiden.
 
    * `/wf add task <TaskName>`
 
@@ -103,7 +126,7 @@ Als u zich wilt aanmelden bij [!DNL Workfront] vanaf [!DNL Slack] :
 
      Voegt een taak toe aan [!DNL Workfront].
 
-     Voor meer informatie over het toevoegen van taken aan [!DNL Workfront] van Slack, zie de &quot;Creërende Taken van [!DNL Slack]&quot;sectie in [&#x200B; tot taken en kwesties van  [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/create-tasks-and-issues-from-slack.md) leiden.
+     Voor meer informatie over het toevoegen van taken aan [!DNL Workfront] van Slack, zie de &quot;Creërende Taken van [!DNL Slack]&quot;sectie in [ tot taken en kwesties van  [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/create-tasks-and-issues-from-slack.md) leiden.
 
    * `/wf add issue <Issue Name>`
 
@@ -111,35 +134,35 @@ Als u zich wilt aanmelden bij [!DNL Workfront] vanaf [!DNL Slack] :
 
      Hiermee voegt u een uitgave toe aan [!DNL Workfront]
 
-     Voor meer informatie over het toevoegen van kwesties aan [!DNL Workfront] van [!DNL Slack], zie de &quot;Creërende Kwesties van [!DNL Slack]&quot;sectie in [&#x200B; creeer taken en kwesties van  [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/create-tasks-and-issues-from-slack.md).
+     Voor meer informatie over het toevoegen van kwesties aan [!DNL Workfront] van [!DNL Slack], zie de &quot;Creërende Kwesties van [!DNL Slack]&quot;sectie in [ creeer taken en kwesties van  [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/create-tasks-and-issues-from-slack.md).
 
    * `/wf favorites`
 
      Geeft de lijst met uw [!DNL Workfront] favorieten weer.
 
-     Voor meer informatie over de toegang tot van uw Favorieten van [!DNL Slack], zie [&#x200B; tot Uw [!UICONTROL Favorites] Lijst van  [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-favorites-and-recent-items-from-slack.md#accessing-favorites) sectie in [&#x200B; toegang hebbend tot Uw Favorieten en Recente Punten van  [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-favorites-and-recent-items-from-slack.md) artikel.
+     Voor meer informatie over de toegang tot van uw Favorieten van [!DNL Slack], zie [ tot Uw [!UICONTROL Favorites] Lijst van  [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-favorites-and-recent-items-from-slack.md#accessing-favorites) sectie in [ toegang hebbend tot Uw Favorieten en Recente Punten van  [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-favorites-and-recent-items-from-slack.md) artikel.
 
    * `/wf recent`
 
      Hiermee geeft u de lijst weer van de laatst geopende items in [!DNL Workfront] .
 
-     Voor meer informatie over de toegang tot van uw Recente Punten van [!DNL Slack], zie [&#x200B; Toegang tot Uw [!UICONTROL Recent Items] Lijst van  [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-favorites-and-recent-items-from-slack.md#accessing-recent-items) section in the [[!UICONTROL Access your favorites]  en [!UICONTROL recent items from [!DNL Slack]] &#x200B;](../../workfront-integrations-and-apps/using-workfront-with-slack/access-favorites-and-recent-items-from-slack.md) artikel.
+     Voor meer informatie over de toegang tot van uw Recente Punten van [!DNL Slack], zie [ Toegang tot Uw [!UICONTROL Recent Items] Lijst van  [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-favorites-and-recent-items-from-slack.md#accessing-recent-items) section in the [[!UICONTROL Access your favorites]  en [!UICONTROL recent items from [!DNL Slack]] ](../../workfront-integrations-and-apps/using-workfront-with-slack/access-favorites-and-recent-items-from-slack.md) artikel.
 
    * `wf tasks`
 
      Hiermee geeft u een lijst met uw taken weer.
 
-     Voor meer informatie over het beheren van uw taken van [!DNL Slack], zie &quot;het Leiden Uw Taken van [!DNL Slack]&quot;sectie in [&#x200B; het Leiden Uw Werk en Goedkeuringen van  [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/manage-your-work-and-approvals-from-slack.md).
+     Voor meer informatie over het beheren van uw taken van [!DNL Slack], zie &quot;het Leiden Uw Taken van [!DNL Slack]&quot;sectie in [ het Leiden Uw Werk en Goedkeuringen van  [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/manage-your-work-and-approvals-from-slack.md).
 
    * `/wf issues`
 
      Hier wordt een lijst met uw problemen weergegeven.
 
-     Voor meer informatie over het beheren van uw kwesties van [!DNL Slack], zie &quot;het Leiden Uw Kwesties van [!DNL Slack]&quot;sectie in [&#x200B; het Leiden Uw Werk en Goedkeuringen van  [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/manage-your-work-and-approvals-from-slack.md).
+     Voor meer informatie over het beheren van uw kwesties van [!DNL Slack], zie &quot;het Leiden Uw Kwesties van [!DNL Slack]&quot;sectie in [ het Leiden Uw Werk en Goedkeuringen van  [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/manage-your-work-and-approvals-from-slack.md).
 
    * `/wf approvals` Geeft uw [!DNL Workfront] -goedkeuringen weer.\
 
-     Voor meer informatie over het beheren van uw goedkeuringen van [!DNL Slack], zie &quot;het Leiden Uw Goedkeuringen van [!DNL Slack]&quot;sectie in [&#x200B; uw werk en goedkeuringen van  [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/manage-your-work-and-approvals-from-slack.md) leiden.
+     Voor meer informatie over het beheren van uw goedkeuringen van [!DNL Slack], zie &quot;het Leiden Uw Goedkeuringen van [!DNL Slack]&quot;sectie in [ uw werk en goedkeuringen van  [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/manage-your-work-and-approvals-from-slack.md) leiden.
 
    * `/wf search <keyword>`
 
@@ -160,7 +183,7 @@ Als u zich wilt aanmelden bij [!DNL Workfront] vanaf [!DNL Slack] :
       * Bedrijf
       * Notitie \
 
-        Voor meer informatie over het zoeken in [!DNL Slack], zie [&#x200B; Onderzoek naar  [!DNL Adobe Workfront]  punten van Slack &#x200B;](../../workfront-integrations-and-apps/using-workfront-with-slack/search-for-wf-items-from-slack.md).
+        Voor meer informatie over het zoeken in [!DNL Slack], zie [ Onderzoek naar  [!DNL Adobe Workfront]  punten van Slack ](../../workfront-integrations-and-apps/using-workfront-with-slack/search-for-wf-items-from-slack.md).
    * `/wf log in`
 
      Hiermee meldt u zich aan bij [!DNL Workfront] vanuit [!DNL Slack] .
@@ -172,7 +195,7 @@ Als u zich wilt aanmelden bij [!DNL Workfront] vanaf [!DNL Slack] :
 
      Biedt u toegang tot het configureren van uw [!DNL Workfront] -instellingen in [!DNL Slack] .
 
-     Voor informatie over het vormen van [!DNL Workfront] montages in Slack, zie [&#x200B; montages &#x200B;](#configure-settings-configure-settings) vormen.
+     Voor informatie over het vormen van [!DNL Workfront] montages in Slack, zie [ montages ](#configure-settings-configure-settings) vormen.
 
    * `/wf help`
 Hiermee geeft u een volledige lijst met opdrachten voor [!DNL Workfront] weer.
@@ -181,7 +204,7 @@ Hiermee geeft u een volledige lijst met opdrachten voor [!DNL Workfront] weer.
    * `Visit Workfront Help`: opent de [!UICONTROL Slack] -sectie op de [!DNL Workfront] Help-site in een nieuw browsertabblad.
 
 
-1. (Optioneel) Als u het bericht van een opdracht wilt verwijderen, klikt u met de muis in de rechterbovenhoek van het bericht met de opdracht in de Slack en klikt u op &#x200B; **[!UICONTROL Show message actions]** . Klik vervolgens op **[!UICONTROL Delete message]** .
+1. (Optioneel) Als u het bericht van een opdracht wilt verwijderen, beweegt u de muis boven de rechterbovenhoek van het Slack-bericht met de opdracht en klikt u op &#x200B; **[!UICONTROL Show message actions]** en vervolgens op **[!UICONTROL Delete message]** .
 
 1. (Optioneel en voorwaardelijk) Klik op **[!UICONTROL Delete]** om te bevestigen dat u dit bericht wilt verwijderen.
 
@@ -189,7 +212,7 @@ Hiermee geeft u een volledige lijst met opdrachten voor [!DNL Workfront] weer.
 
 U hebt toegang tot [!DNL Workfront] -objecten via een koppeling naar de objecten die u in [!DNL Slack] deelt.
 
-Voor meer informatie over de toegang tot van [!DNL Workfront] van een gedeelde verbinding, zie [&#x200B; Toegang  [!DNL Adobe Workfront]  voorwerpen van een gedeelde verbinding in  [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-wf-objects-from-shared-linked-in-slack.md).
+Voor meer informatie over de toegang tot van [!DNL Workfront] van een gedeelde verbinding, zie [ Toegang  [!DNL Adobe Workfront]  voorwerpen van een gedeelde verbinding in  [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-wf-objects-from-shared-linked-in-slack.md).
 
 ## Instellingen configureren {#configure-settings}
 
@@ -209,7 +232,7 @@ Voor meer informatie over de toegang tot van [!DNL Workfront] van een gedeelde v
 
    * Schakel in het gebied **[!UICONTROL Notifications Settings]** de meldingen uit die u niet meer van Workfront wilt ontvangen.\
 
-     Voor informatie over het ontvangen van [!DNL Workfront] berichten in [!DNL Slack], zie [&#x200B; ontvangen  [!DNL Adobe Workfront]  berichten in  [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/receive-workfront-notifications-in-slack.md).
+     Voor informatie over het ontvangen van [!DNL Workfront] berichten in [!DNL Slack], zie [ ontvangen  [!DNL Adobe Workfront]  berichten in  [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/receive-workfront-notifications-in-slack.md).
 
 ## Log uit van [!DNL Workfront] van [!DNL Slack]
 

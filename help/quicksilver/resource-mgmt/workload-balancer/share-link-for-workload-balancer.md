@@ -6,40 +6,36 @@ description: U kunt de werklastbalans delen met andere gebruikers die mogelijk n
 author: Lisa
 feature: Resource Management
 exl-id: e2d6b1f8-bdc9-4a34-bdc3-b56f7aa2e7a5
-source-git-commit: 58567104d88e7e1363d4196aec8a36ee0566b95a
+source-git-commit: 18c39c5b1959c31b6fd0018476b48643b4b15021
 workflow-type: tm+mt
-source-wordcount: '697'
+source-wordcount: '674'
 ht-degree: 0%
 
 ---
 
 # De werklastbalans delen met een koppeling
 
-U kunt de werklastbalans delen met andere gebruikers die mogelijk niet over het gebied Bronnen in het hoofdmenu beschikken. Voor informatie over het gebruiken van de Balancer van de Werklast, zie [&#x200B; de Balancer van de Werkbelasting &#x200B;](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) navigeren.
+U kunt de werklastbalans delen met andere gebruikers die mogelijk niet over het gebied Bronnen in het hoofdmenu beschikken. Voor informatie over het gebruiken van de Balancer van de Werklast, zie [ de Balancer van de Werkbelasting ](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) navigeren.
 
 ## Toegangsvereisten
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
-
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan</td> 
-   <td> <p>Alle </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront-licentie</td> 
-   <td><p>Nieuw: Standaard</p>
-       <p>of</p>
-       <p>Huidig: Plan, wanneer het gebruiken van de Balancer van de Werkbelasting in het gebied van de Middelen;</br>
-       Het werk, wanneer het gebruiken van de Balancer van de Werkbelasting van een team of een project</p></td>
+   <td>Adobe Workfront-pakket</td> 
+   <td><p>Alle</p></td>
   </tr>
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau</td> 
+   <td>Adobe Workfront-licentie</td> 
+   <td><p>Standard</p>
+       <p>Plan, wanneer het gebruiken van de Balancer van de Werkbelasting in het gebied van Middelen; het werk, wanneer het gebruiken van de Balancer van de Werkbelasting van een team of een project</p></td>
+  </tr>
+  <tr> 
+   <td>Configuraties op toegangsniveau</td> 
    <td> <p>Toegang tot het volgende weergeven of vergroten:</p> 
     <ul> 
      <li>Bronbeheer</li> 
@@ -50,13 +46,13 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Objectmachtigingen</td> 
+   <td>Objectmachtigingen</td> 
    <td>Bekijk of hoger toestemmingen aan de projecten, de taken, en de kwesties</td> 
   </tr> 
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -86,7 +82,7 @@ De volgende opties zijn beschikbaar voor de gebruiker die de werklastbalans weer
 * Het pictogram Instellingen
 * Pictogram Toewijzingen weergeven
 
-  Voor informatie over het gebruiken van deze opties, zie [&#x200B; de Balancer van de Werkbelasting &#x200B;](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) navigeren.
+  Voor informatie over het gebruiken van deze opties, zie [ de Balancer van de Werkbelasting ](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) navigeren.
 
 * Pictogram Roltoewijzingen weergeven
 
@@ -103,14 +99,14 @@ De gebruiker die de gedeelde koppeling ontvangt, kan het volgende niet doen in W
 U hebt de volgende toegang nodig om informatie in het werklastevenwicht te bekijken via een gedeelde koppeling:
 
 * Een geldige Adobe Workfront-licentie en u moet zijn aangemeld bij Workfront.
-* Minstens de toegang van de Mening tot het Beheer van het Middel in uw Niveau van de Toegang. Voor informatie over het verlenen van de toegang van het Beheer van het Middel, zie [&#x200B; Toegang van de Verlening tot het Beheer van het Middel &#x200B;](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md).
+* Minstens de toegang van de Mening tot het Beheer van het Middel in uw Niveau van de Toegang. Voor informatie over het verlenen van de toegang van het Beheer van het Middel, zie [ Toegang van de Verlening tot het Beheer van het Middel ](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md).
 * De toestemmingen van de mening aan de projecten, de taken, de kwesties, en de gebruikers die in de Balancer van de Werkbelasting worden getoond.
 
 ## De werklastbalans delen met andere gebruikers via een koppeling
 
 1. Naar werklastverdeling
 
-   Voor informatie over de toegang tot van de Balancer van de Werkbelasting, zie [&#x200B; de Balancer van de Werkbelasting &#x200B;](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) navigeren.
+   Voor informatie over de toegang tot van de Balancer van de Werkbelasting, zie [ de Balancer van de Werkbelasting ](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) navigeren.
 
 1. (Optioneel) Voer een of meer van de volgende handelingen uit:
 
@@ -121,9 +117,9 @@ U hebt de volgende toegang nodig om informatie in het werklastevenwicht te bekij
 
    * Pas filters op de Niet toegewezen en Toegewezen gebieden van het Werk toe.
 
-     Voor informatie over het filtreren van informatie in de Balancer van de Werkbelasting, zie [&#x200B; informatie van de Filter in de Balancer van de Werkbelasting &#x200B;](../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md).
+     Voor informatie over het filtreren van informatie in de Balancer van de Werkbelasting, zie [ informatie van de Filter in de Balancer van de Werkbelasting ](../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md).
 
-1. Klik het **koppelingspictogram** ![&#x200B; pictogram van de Verbinding &#x200B;](assets/wb-shearable-link-icon-small.png).
+1. Klik het **koppelingspictogram** ![ pictogram van de Verbinding ](assets/wb-shearable-link-icon-small.png).
 
    Hiermee voegt u de koppeling naar het klembord toe.
 
@@ -132,7 +128,7 @@ U hebt de volgende toegang nodig om informatie in het werklastevenwicht te bekij
    * Plak het in een e-mail, chatbericht of een andere toepassing en deel het bericht met andere gebruikers.
    * Voeg het toe aan een dashboard als externe pagina, voeg het dashboard aan het profiel van een gebruiker, of aan een lay-outmalplaatje toe, dan deel het lay-outmalplaatje met gebruikers, teams, baanrollen, of groepen.
 
-     Voor informatie over het creëren van een externe pagina, zie [&#x200B; een externe Web-pagina in een dashboard &#x200B;](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md) inbedden. Voor informatie over het toevoegen van dashboards aan een lay-outmalplaatje, zie [&#x200B; het linkerpaneel aanpassen gebruikend een lay-outmalplaatje &#x200B;](../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md).
+     Voor informatie over het creëren van een externe pagina, zie [ een externe Web-pagina in een dashboard ](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md) inbedden. Voor informatie over het toevoegen van dashboards aan een lay-outmalplaatje, zie [ het linkerpaneel aanpassen gebruikend een lay-outmalplaatje ](../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md).
 
      >[!IMPORTANT]
      >

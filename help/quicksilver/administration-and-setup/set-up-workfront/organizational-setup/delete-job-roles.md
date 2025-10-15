@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: b0e81d76-5227-4fda-9a58-68fbce3f5b94
-source-git-commit: 439303273239549bb326c171be44eea321f5bb5f
+source-git-commit: 15063d937a5ba9b5285c66a0987e8deea6cc6d74
 workflow-type: tm+mt
-source-wordcount: '362'
+source-wordcount: '341'
 ht-degree: 0%
 
 ---
@@ -19,37 +19,35 @@ ht-degree: 0%
 
 U kunt taakrollen verwijderen die uw organisatie niet meer gebruikt. Wij adviseren dat u baanrollen niet schrapt als zij met het werkpunten in het verleden zijn geassocieerd.
 
-Om al uw historische informatie over werktaken te houden, adviseren wij dat u rollen deactiveert, eerder dan hen schrapt wanneer zij verouderd worden. Voor informatie over het deactiveren van rollen, zie [&#x200B; werkrollen &#x200B;](../../../administration-and-setup/set-up-workfront/organizational-setup/deactivate-job-roles.md) deactiveren.
+Om al uw historische informatie over werktaken te houden, adviseren wij dat u rollen deactiveert, eerder dan hen schrapt wanneer zij verouderd worden. Voor informatie over het deactiveren van rollen, zie [ werkrollen ](../../../administration-and-setup/set-up-workfront/organizational-setup/deactivate-job-roles.md) deactiveren.
+
+## Toegangsvereisten
 
 ## Toegangsvereisten
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
-
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
-   <td> <p>Alle </p> </td> 
+   <td>[!DNL Adobe Workfront] package</td> 
+   <td><p>Alle</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licentie</td> 
-   <td>
-   <p>Nieuw: [!UICONTROL Standard]</p>
-   <p>of</p>
-   <p>Huidige: [!UICONTROL Plan]</p></td> 
+   <td>[!DNL Adobe Workfront] licentie</td> 
+   <td><p>[!UICONTROL Standard]</p>
+       <p>[!UICONTROL Plan]</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau</td> 
-   <td>Administratieve toegang tot taakrollen</td> 
+   <td>Configuraties op toegangsniveau</td> 
+   <td>Administratieve toegang tot taakrollen</td>
   </tr> 
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

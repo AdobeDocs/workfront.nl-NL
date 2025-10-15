@@ -6,9 +6,9 @@ description: De geplande en werkelijke kosten van de taken en hun arbeidskosten 
 author: Alina
 feature: Work Management
 exl-id: bc30ecab-7347-4dff-8e06-e8ea3f50d5b3
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
 workflow-type: tm+mt
-source-wordcount: '273'
+source-wordcount: '216'
 ht-degree: 0%
 
 ---
@@ -19,36 +19,64 @@ De geplande en werkelijke kosten van de taken en hun arbeidskosten worden bepaal
 
 U kunt het Type van Kosten voor individuele taken binnen het project vormen. Elk kostentype beïnvloedt de Geplande Kosten en de Ware Waarden van Kosten.
 
-Voor informatie over het volgen van kosten in Adobe Workfront, zie [&#x200B; Kosten van het Spoor &#x200B;](../../../manage-work/projects/project-finances/track-costs.md).
+Voor informatie over het volgen van kosten in Adobe Workfront, zie [ Kosten van het Spoor ](../../../manage-work/projects/project-finances/track-costs.md).
 
 ## Toegangsvereisten
 
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-abonnement*</td> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Plan </p> </td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td> <p>Standard</p>
+   <p>Plan</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot projecten, taken en financiële gegevens bewerken</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
+   <td> <p>Toegang tot projecten, taken en financiële gegevens bewerken</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Contribute- of hogere machtigingen voor een project</p> <p>Rechten voor een taak beheren</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
+   <td> <p>Contribute of hoger machtigingen voor een project</p> <p>Rechten voor een taak beheren</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
+Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Plan </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations*</td> 
+   <td> <p>Edit access to Projects, Tasks, and Financial&nbsp;Data</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>Contribute or higher permissions to a project</p> <p>Manage permissions to a task</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## Vorm het Type van Kosten van een individuele taak
 
@@ -65,6 +93,6 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    * Uur gebruiker
    * Rol Uur
 
-   Voor meer informatie over elk type van taakkosten, zie [&#x200B; Kosten van het Spoor &#x200B;](../../../manage-work/projects/project-finances/track-costs.md).
+   Voor meer informatie over elk type van taakkosten, zie [ Kosten van het Spoor ](../../../manage-work/projects/project-finances/track-costs.md).
 
 1. Klik **sparen** **Veranderingen** **.**

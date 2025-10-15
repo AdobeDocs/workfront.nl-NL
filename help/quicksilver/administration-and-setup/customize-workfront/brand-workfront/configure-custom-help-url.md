@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: d2b63508-1943-4f9e-888e-8f1bfb54c33e
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 17aaf70977aa6ce0276676c6a30fd6c951be956c
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '253'
 ht-degree: 0%
 
 ---
@@ -19,42 +19,37 @@ ht-degree: 0%
 
 Als u een aangepaste interne Help-site maakt die informatie bevat over hoe uw organisatie Workfront gebruikt, kunt u het pictogram Hoofdmenu Help configureren om naar die site te gaan.
 
-![&#x200B; knoop van de Hulp van de Douane &#x200B;](assets/custom-help-button.png)
+![ knoop van de Hulp van de Douane ](assets/custom-help-button.png)
 
 Dit heeft geen invloed op contextgevoelige Help-koppelingen in Workfront, die gebruikers naar de Help-site van Workfront brengen.
 
-Voor informatie over hoe de gebruikers tot zowel een douaneHulp URL toegang hebben die u in Workfront en de regelmatige de hulpplaats van Workfront vormt, zie [&#x200B; Hulp van Adobe Workfront van de Toegang &#x200B;](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/access-workfront-help.md).
+Voor informatie over hoe de gebruikers tot zowel een douaneHulp URL toegang hebben die u in Workfront en de regelmatige de hulpplaats van Workfront vormt, zie [ Hulp van Adobe Workfront van de Toegang ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/access-workfront-help.md).
 
 ## Toegangsvereisten
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
-
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan</td> 
-   <td>Alle</td> 
+   <td>Adobe Workfront-pakket</td> 
+   <td><p>Alle</p></td> 
   </tr> 
   <tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront-licentie</td> 
-   <td><p>Nieuw: Standaard</p>
-       <p>of</p>
-       <p>Huidig: Plan</p></td>
-  </tr> 
+   <td>Adobe Workfront-licentie</td> 
+   <td><p>Standard</p>
+       <p>Plan</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau</td> 
-   <td>[!UICONTROL System Administrator]</td>
+   <td>Configuraties op toegangsniveau</td> 
+   <td>Systeembeheerder</td> 
   </tr> 
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

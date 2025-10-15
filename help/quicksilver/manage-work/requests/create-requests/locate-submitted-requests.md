@@ -3,14 +3,14 @@ product-area: requests
 navigation-topic: create-requests
 title: Verzonden verzoeken zoeken
 description: Leer over de gebieden van Adobe Workfront waar u van verzoeken kunt de plaats bepalen die u of iemand anders indiende of verzoeken die u nooit hebt voorgelegd en als ontwerpen bewaard.
-author: Alina
+author: Becky
 feature: Requests
 topic: Collaboration
 role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: 0ffae8ed285f6e9164a239552feb90465bea3cca
+source-git-commit: 9cdf3d78e1d19f3d581f8d527919a608c5cc0ddc
 workflow-type: tm+mt
-source-wordcount: '978'
+source-wordcount: '955'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ U kunt de volgende typen verzoeken zoeken die u of iemand anders heeft verzonden
 
 * Het **Workfront** lusje van het gebied van Verzoeken in Workfront: Zoek verzoeken die aan de verzoekrijen van Workfront in de volgende secties worden voorgelegd:
    * **voorgelegde sectie**: Alle verzoeken die u of iemand anders voorlegde en u toegang tot minstens Mening hebt.
-   * **sectie van het Ontwerp**: Alle verzoeken die u begon maar u nooit beëindigde en u voorlegde nooit. Voor meer informatie over ontwerp verzoeken, zie [&#x200B; Adobe Workfront verzoeken &#x200B;](../../../manage-work/requests/create-requests/create-submit-requests.md) creëren en voorleggen.
+   * **sectie van het Ontwerp**: Alle verzoeken die u begon maar u nooit beëindigde en u voorlegde nooit. Voor meer informatie over ontwerp verzoeken, zie [ Adobe Workfront verzoeken ](../../../manage-work/requests/create-requests/create-submit-requests.md) creëren en voorleggen.
 
   >[!TIP]
   >
@@ -41,21 +41,18 @@ U kunt de volgende typen verzoeken zoeken die u of iemand anders heeft verzonden
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan</td> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
    <td> <p>Alle </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie</td> 
-   <td> <p>Nieuw: Medewerker of hoger</p>
-   of
-   <p>Huidig: Verzoek of hoger</p>
+   <td> <p>Medewerker of hoger</p>
+   <p>Aanvraag of hoger</p>
     </td> 
   </tr> 
   <tr> 
@@ -73,7 +70,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -136,7 +133,7 @@ Om van verzoeken de plaats te bepalen die u of andere gebruikers hebben voorgele
    >
    >Wanneer u bij de lijst Verzendverzoeken vandaan navigeert, blijft de geselecteerde sorteeroptie behouden.
 
-1. (Facultatief) selecteer een verzoek in de lijst, dan klik het **Open Samenvatting** pictogram ![](assets/open-summary-with-text-nwe.png) om het Summiere paneel te openen en extra informatie over het verzoek te tonen, commentaren, documenten toe te voegen, of het toe te wijzen. Voor informatie over het Summiere paneel, zie [&#x200B; Overzicht &#x200B;](../../../workfront-basics/the-new-workfront-experience/summary-overview.md).
+1. (Facultatief) selecteer een verzoek in de lijst, dan klik het **Open Samenvatting** pictogram ![](assets/open-summary-with-text-nwe.png) om het Summiere paneel te openen en extra informatie over het verzoek te tonen, commentaren, documenten toe te voegen, of het toe te wijzen. Voor informatie over het Summiere paneel, zie [ Overzicht ](../../../workfront-basics/the-new-workfront-experience/summary-overview.md).
 
    >[!TIP]
    >
@@ -144,7 +141,7 @@ Om van verzoeken de plaats te bepalen die u of andere gebruikers hebben voorgele
 
 1. (Facultatief en voorwaardelijk) klik het **X** pictogram in de hoger-juiste hoek of het **Dichte Samenvatting** pictogram ![](assets/close-summary-with-text-nwe.png) om het Summiere Comité te sluiten.
 
-   Als een kwestie in een taak of een project werd omgezet en de kwestie in het omzettingsproces werd geschrapt, is het Summiere paneel leeg. Voor informatie over het omzetten van kwesties, zie [&#x200B; Overzicht van het omzetten van kwesties in Adobe Workfront &#x200B;](../../../manage-work/issues/convert-issues/convert-issues.md).
+   Als een kwestie in een taak of een project werd omgezet en de kwestie in het omzettingsproces werd geschrapt, is het Summiere paneel leeg. Voor informatie over het omzetten van kwesties, zie [ Overzicht van het omzetten van kwesties in Adobe Workfront ](../../../manage-work/issues/convert-issues/convert-issues.md).
 
 1. Van het **pictogram van de Filter** ![](assets/filter-nwepng.png) in het hoogste recht van de lijst, selecteer om het even welke filters die in de hieronder lijst worden vermeld.
 
@@ -204,7 +201,7 @@ Om van verzoeken de plaats te bepalen die u of andere gebruikers hebben voorgele
    </ul></li>
    -->
 
-1. Klik **Concepten** om alle opgestelde verzoeken te bekijken. Workfront slaat een onbeperkt aantal concepten op voor elke aanvraagwachtrij in deze map. Wanneer u een nieuw verzoek voor een rijonderwerp ingaat dat reeds een ontwerp heeft, zult u worden ertoe aangezet om een bestaand ontwerp te gebruiken. Voor meer informatie, zie [&#x200B; verzoeken van concepten &#x200B;](../../../manage-work/requests/create-requests/create-requests-from-drafts.md) creëren.
+1. Klik **Concepten** om alle opgestelde verzoeken te bekijken. Workfront slaat een onbeperkt aantal concepten op voor elke aanvraagwachtrij in deze map. Wanneer u een nieuw verzoek voor een rijonderwerp ingaat dat reeds een ontwerp heeft, zult u worden ertoe aangezet om een bestaand ontwerp te gebruiken. Voor meer informatie, zie [ verzoeken van concepten ](../../../manage-work/requests/create-requests/create-requests-from-drafts.md) creëren.
 
 1. (Facultatief en voorwaardelijk) als uw organisatie een pakket van de Planning van Workfront kocht, klik het **Planning** lusje, dan klik **voorgelegde** in het linkerpaneel om de verzoeken van de Planning van Workfront te bekijken.
 
@@ -212,6 +209,6 @@ Om van verzoeken de plaats te bepalen die u of andere gebruikers hebben voorgele
 
    ![](assets/workfront-planning-tab-submitted-section-in-requests-area.png)
 
-   Voor informatie, zie [&#x200B; de Verzoeken van de Planning van Adobe Workfront voorleggen om verslagen &#x200B;](/help/quicksilver/planning/requests/submit-requests.md) tot stand te brengen.
+   Voor informatie, zie [ de Verzoeken van de Planning van Adobe Workfront voorleggen om verslagen ](/help/quicksilver/planning/requests/submit-requests.md) tot stand te brengen.
 
 

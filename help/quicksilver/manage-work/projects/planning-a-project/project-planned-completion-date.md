@@ -2,15 +2,15 @@
 content-type: overview
 product-area: projects
 navigation-topic: plan-a-project
-title: Geplande afsluitdatum van project instellen
+title: De geplande projectuitvoeringsdatum instellen
 description: De geplande uitvoeringsdatum van een project is de datum waarop het project moet worden voltooid.
 author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: 996398c5-de92-445e-8e86-36b2efdcf6b5
-source-git-commit: fedb0328450896d212081715df4cde7644b169bc
+source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
 workflow-type: tm+mt
-source-wordcount: '591'
+source-wordcount: '523'
 ht-degree: 0%
 
 ---
@@ -21,31 +21,66 @@ ht-degree: 0%
 
 De geplande uitvoeringsdatum van een project is de datum waarop het project moet worden voltooid.
 
-Voor het geplande begin en de geplande einddatum van een project wordt uitgegaan van de datum van de taken van het project. In dit artikel wordt beschreven hoe u de geplande voltooiingsdatum van een project handmatig of automatisch kunt instellen. Voor meer informatie over de Geplande Datum van de Voltooiing van een taak, zie [&#x200B; Overzicht van de taak Geplande Datum van de Voltooiing &#x200B;](../../../manage-work/tasks/task-information/task-planned-completion-date.md).
+Voor het geplande begin en de geplande einddatum van een project wordt uitgegaan van de datum van de taken van het project. In dit artikel wordt beschreven hoe u de geplande voltooiingsdatum van een project handmatig of automatisch kunt instellen. Voor meer informatie over de Geplande Datum van de Voltooiing van een taak, zie [ Overzicht van de taak Geplande Datum van de Voltooiing ](../../../manage-work/tasks/task-information/task-planned-completion-date.md).
 
 De geplande Voltooiingsdatum van een project kan manueel of automatisch worden geplaatst, afhankelijk van of u het project van het Begin of van de Datum van de Voltooiing plant.
 
 ## Toegangsvereisten
 
-<!--drafted for P&P:
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Any</p> </td> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Current license: Standard </p>
-   Or
-   <p>Legacy license: Plan </p>
+   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td><p>Standard</p>
+   <p>Plan</p>
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations*</td> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
+   <td> <p>Toegang tot projecten bewerken</p>  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Objectmachtigingen</td> 
+   <td> <p>Rechten voor het project beheren</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td><p>
+   New: Standard
+
+   Or
+
+   Current: Plan </p>
+   
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
    <td> <p>Edit access to Projects</p> <p><b>NOTE</b>
    
    If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
@@ -55,48 +90,7 @@ De geplande Voltooiingsdatum van een project kan manueel of automatisch worden g
    <td> <p>Manage permissions to the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>
--->
-
-+++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
-
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront-plan</td> 
-   <td> <p>Alle</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront-licentie</td> 
-   <td><p>
-   Nieuw: Standaard
-
-of
-
-Huidig: Plan </p>
-
-</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau</td> 
-   <td> <p>Toegang tot projecten bewerken</p> <p><b>OPMERKING</b>
-
-Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td>
-</tr> 
-  <tr> 
-   <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Rechten voor het project beheren</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
-
-+++
+</table>-->
 
 ## De geplande voltooiingsdatum van een project handmatig instellen
 
@@ -111,15 +105,15 @@ Een project plannen vanaf de voltooiingsdatum:
 
 {{step1-to-projects}}
 
-1. Klik **Nieuw Project**, dan uitgezocht **Nieuw Project** van drop-down die verschijnt.
+1. Klik **Nieuw Project**, dan uitgezocht **Nieuw Project** van dropdown.
 
-   Voor meer informatie over het creëren van projecten, zie het artikel [&#x200B; een project &#x200B;](../../../manage-work/projects/create-projects/create-project.md) creëren.
+   Voor meer informatie over het creëren van projecten, zie het artikel [ een project ](../../../manage-work/projects/create-projects/create-project.md) creëren.
 
 1. Selecteer **Details van het Project** in het linkerpaneel.
 
-1. Klik **uitgeven het pictogram van het Project** ![&#x200B; geeft pictogram &#x200B;](/help/quicksilver/manage-work/projects/planning-a-project/assets/qs-edit-icon.png) in de hoger-juiste hoek uit en selecteert dan **Overzicht** in de drop-down die verschijnt.
+1. Klik **uitgeven het pictogram van het Project** ![ geeft pictogram ](/help/quicksilver/manage-work/projects/planning-a-project/assets/qs-edit-icon.png) in de hoger-juiste hoek uit en selecteert dan **Overzicht** in de drop-down die verschijnt.
 
-1. In de **sectie van de Datums van het 0&rbrace; Project &lbrace;, klik het** gebied van de Wijze van het Programma **, dan selecteer** Datum van de Voltooiing **.**
+1. In de **sectie van de Datums van het 0} Project {, klik het** gebied van de Wijze van het Programma **, dan selecteer** Datum van de Voltooiing **.**
 
 1. Specificeer de **Geplande Datum van de Voltooiing** van het project.
 1. Klik **sparen Veranderingen**.
@@ -136,20 +130,20 @@ Een project plannen vanaf de begindatum:
 
 1. Klik **Nieuw Project**, dan uitgezocht **Nieuw Project** van drop-down die verschijnt.
 
-   Voor meer informatie over het creëren van projecten, zie het artikel [&#x200B; een project &#x200B;](../../../manage-work/projects/create-projects/create-project.md) creëren.
+   Voor meer informatie over het creëren van projecten, zie het artikel [ een project ](../../../manage-work/projects/create-projects/create-project.md) creëren.
 
 1. Selecteer **Details van het Project** in het linkerpaneel.
 
-1. Klik **uitgeven het pictogram van het Project** ![&#x200B; geeft pictogram &#x200B;](/help/quicksilver/manage-work/projects/planning-a-project/assets/qs-edit-icon.png) in de hoger-juiste hoek uit en selecteert dan **Overzicht** in de drop-down die verschijnt.
+1. Klik **uitgeven het pictogram van het Project** ![ geeft pictogram ](/help/quicksilver/manage-work/projects/planning-a-project/assets/qs-edit-icon.png) in de hoger-juiste hoek uit en selecteert dan **Overzicht** in de drop-down die verschijnt.
 
-1. In de **sectie van de Datums van het 0&rbrace; Project &lbrace;, klik het** gebied van de Wijze van het Programma **, dan selecteer** Datum van het Begin **.**
+1. In de **sectie van de Datums van het 0} Project {, klik het** gebied van de Wijze van het Programma **, dan selecteer** Datum van het Begin **.**
 
 1. Specificeer de **Geplande Datum van het Begin** van het project.
 1. Klik **sparen Veranderingen**.
 
    Aangezien u begint taken aan uw project toe te voegen, berekent de **Geplande Datum van de Voltooiing** van het project gebaseerd op de totale Duur van alle taken. 
 
-   Voor meer informatie over de Duur van de Taak, zie het artikel [&#x200B; Overzicht van het Type van Duur en van de Duur van de Taak &#x200B;](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
+   Voor meer informatie over de Duur van de Taak, zie het artikel [ Overzicht van het Type van Duur en van de Duur van de Taak ](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
 
    De geplande datum van voltooiing van het project valt in dit geval samen met de geplande datum van voltooiing van de laatste taak van het project.
 

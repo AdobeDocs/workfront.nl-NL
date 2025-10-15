@@ -7,10 +7,10 @@ description: Lees deze tips als er een fout optreedt die de gebruikersnaam al ge
 author: Lisa
 feature: People Teams and Groups
 exl-id: dc9accf0-7ef4-4555-9b1c-d69b2110f3da
-source-git-commit: dfd5c7423b65e6065ab9c2094578443b81189abd
+source-git-commit: 722295463c1338a70ff42c26acf69b09cf33f725
 workflow-type: tm+mt
-source-wordcount: '303'
-ht-degree: 0%
+source-wordcount: '280'
+ht-degree: 1%
 
 ---
 
@@ -20,31 +20,28 @@ ht-degree: 0%
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
-
-<table style="table-layout:auto"> 
+<table style="table-layout:auto">
  <col> 
- <col> 
+ <col>
  <tbody> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Adobe Workfront-plan</p> </td> 
-   <td>Alle</td> 
+  <tr> 
+   <td>Adobe Workfront-pakket</td> 
+   <td><p>Alle</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td>Adobe Workfront-licentie</td> 
    <td>
-   <p>Nieuw: Standaard</p>
-   <p>of</p>
-   <p>Huidig: Plan</p></td>
+   <p>Standard</p>
+   <p>Plan</p></td>
   </tr> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader">Configuraties op toegangsniveau</td> 
-   <td> <p>Systeembeheerder</p> </td> 
+  <tr> 
+   <td>Configuraties op toegangsniveau</td> 
+   <td><p>Systeembeheerder</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: a6eb8c7c-a34d-4c84-a45c-7e7f050a4302
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: f2fe6ef78b3032f7a89d4c816cb11b525634c067
 workflow-type: tm+mt
-source-wordcount: '444'
+source-wordcount: '366'
 ht-degree: 0%
 
 ---
@@ -22,13 +22,60 @@ U kunt in-app berichten van de Planning van Workfront ontvangen wanneer de volge
 
 * Iemand tagt u of uw teams in een recordopmerking
 
-  Voor informatie over het etiketteren van anderen in een verslagcommentaar, zie [&#x200B; recordcommentaren beheren &#x200B;](/help/quicksilver/planning/records/manage-record-comments.md).
+  Voor informatie over het etiketteren van anderen in een verslagcommentaar, zie [ recordcommentaren beheren ](/help/quicksilver/planning/records/manage-record-comments.md).
 * Iemand vraagt uw toestemming om een mening of een werkruimte te openen
 * Iemand bevestigt dat uw toegang is verleend voor een weergave of werkruimte <!--Isk confirmed there is no notification for denying permissions - did not test-->
 
 ## Toegangsvereisten
 
-+++ Vouw uit om de vereisten voor toegang weer te geven.
++++ Breid uit om de toegangsvereisten voor de functionaliteit in dit artikel te bekijken. 
+
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+    <tr> 
+<tr> 
+</tr>   
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront-pakket</p></td> 
+   <td> 
+<ul> 
+<li><p>Alle Workfront en alle planningspakketten</p></li>
+of
+<li><p>Alle workflows en planningspakketten</li></ul>
+<p>Neem voor meer informatie over wat er in elk planningspakket voor Workfront staat, contact op met uw Workfront-accountvertegenwoordiger. </p> 
+   </td> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront-licentie</p></td> 
+   <td><p>Licht of hoger</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Objectmachtigingen</p></td> 
+   <td>   <p>De mening of hogere toestemmingen aan een werkruimte </a> </p>  
+   <p>Systeembeheerders hebben machtigingen voor alle werkruimten, inclusief de werkruimten die ze niet hebben gemaakt</p> </td> 
+  </tr> 
+<tr>
+   <td role="rowheader"><p>Lay-outsjabloon</p></td>
+   <td> De gebruikers met een Licht of de vergunning van de Medewerker moeten een lay-outmalplaatje worden toegewezen dat Planning omvat.
+   <p>De standaardgebruikers en de Beheerders van het Systeem hebben de Gebieden van de Planning die door gebrek worden toegelaten.</p></div></li></ul>
+</td>
+  </tr> 
+</tbody> 
+</table>
+
+Voor meer informatie over de toegangsvereisten van Workfront, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++   
+
+
+<!--
+OLD:
+
++++ Expand to view access requirements. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -39,130 +86,68 @@ U kunt in-app berichten van de Planning van Workfront ontvangen wanneer de volge
     <tr> 
 <tr> 
 <td> 
-   <p> Producten</p> </td> 
+   <p> Products</p> </td> 
    <td> 
    <ul><li><p> Adobe Workfront</p></li> 
    <li><p> Adobe Workfront Planning<p></li></ul></td> 
   </tr>   
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront-abonnement*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront plan*</p></td> 
    <td> 
-<p>Een van de volgende Workfront-plannen:</p> 
-<ul><li>Selecteren</li> 
+<p>Any of the following Workfront plans:</p> 
+<ul><li>Select</li> 
 <li>Prime</li> 
 <li>Ultimate</li></ul> 
-<p>Workfront Planning is niet beschikbaar voor oudere Workfront-plannen</p> 
+<p>Workfront Planning is not available for legacy Workfront plans</p> 
    </td> 
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront-planningspakket*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront Planning package*</p></td> 
    <td> 
-<p>Alle </p> 
-<p>Neem contact op met uw Workfront-accountmanager voor meer informatie over wat er in elk Workfront-planningsplan is opgenomen. </p> 
+<p>Any </p> 
+<p>For more information about what is included in each Workfront Planning plan, contact your Workfront account manager. </p> 
    </td> 
  <tr> 
-   <td role="rowheader"><p>Adobe Workfront-platform</p></td> 
+   <td role="rowheader"><p>Adobe Workfront platform</p></td> 
    <td> 
-<p>Het geval van Workfront van uw organisatie moet aan de Verenigde Ervaring van Adobe worden genegeerd.</p> 
-<p>De gebruikers in uw organisatie ontvangen berichten van de Planning van Workfront slechts wanneer uw organisatie aan de Adobe Verenigde Ervaring wordt betreden. </p>
-<p>Voor meer informatie, zie <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md"> Adobe Verenigde Ervaring voor Workfront </a>. </p> 
+<p>Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience.</p> 
+<p>The users in your organization receive notifications from Workfront Planning only when your organization is onboarded to the Adobe Unified Experience. </p>
+<p>For more information, see <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p> 
    </td> 
    </tr> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront-licentie*</p></td> 
-   <td><p> Standaard, licht of contribuant</p>
-   <p>Workfront Planning is niet beschikbaar voor oudere Workfront-licenties</p> 
+   <td role="rowheader"><p>Adobe Workfront license*</p></td> 
+   <td><p> Standard, Light, or Contributor</p>
+   <p>Workfront Planning is not available for legacy Workfront licenses</p> 
   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Configuratie op toegangsniveau</p></td> 
-   <td> <p>Er zijn geen toegangsniveaucontroles voor de Planning van Adobe Workfront</p>   
+   <td role="rowheader"><p>Access level configuration</p></td> 
+   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
 </td> 
   </tr> 
 <tr> 
-   <td role="rowheader"><p>Objectmachtigingen</p></td> 
-   <td>   <p>De mening of hogere toestemmingen aan een werkruimte </a> </p>  
-   <p>Systeembeheerders hebben machtigingen voor alle werkruimten, inclusief de werkruimten die ze niet hebben gemaakt</p>  </td> 
+   <td role="rowheader"><p>Object permissions</p></td> 
+   <td>   <p>View or higher permissions to a workspace</a> </p>  
+   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>  </td> 
   </tr> 
 <tr>
-   <td role="rowheader"><p>Lay-outsjabloon</p></td>
-   <td> De gebruikers met een Licht of de vergunning van de Medewerker moeten een lay-outmalplaatje worden toegewezen dat Planning omvat.
-   <p>De standaardgebruikers en de Beheerders van het Systeem hebben de Gebieden van de Planning die door gebrek worden toegelaten.</p></div></li></ul>
+   <td role="rowheader"><p>Layout template</p></td>
+   <td> Users with a Light or Contributor license must be assigned a layout template that includes Planning.
+   <p>Standard users and System Administrators have the Planning areas enabled by default.</p></div></li></ul>
 </td>
   </tr>
 </tbody> 
-</table>
-
-*Voor meer informatie over de toegangsvereisten van Workfront, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
-
-+++
-
-
-<!--
-OLD:
-
-+++ Expand to view access requirements. 
-
-<table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-    <tr>
-<tr>
-<td>
-   <p> Product</p> </td>
-   <td>
-   <p> Adobe Workfront</p> 
-   <p>In order to receive notifications from Workfront Planning, your organization's instance of Workfront must be onboarded to the Adobe Unified Experience. For information, see <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>.</p></td>
-  </tr>  
- <td role="rowheader"><p>Adobe Workfront agreement</p></td>
-   <td>
-<p>Your organization must be enrolled in the early access stage for Workfront Planning </p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront plan</p></td>
-   <td>
-<p>Any</p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront license</p></td>
-   <td>
-   <p>Any</p> 
-  </td>
-  </tr>
-  
-  <tr>
-   <td role="rowheader"><p>Access level configuration</p></td>
-   <td> <p>There are no access level controls in Workfront Planning. </p>  
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Permissions</p></td>
-   <td> <p>View or higher permissions to a workspace</a> </p>  
-   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
-</td>
-  </tr>
-
-<tr>
-   <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>Your Workfront or group administrator must add the Planning area in your layout template. For information, see <a href="/help/quicksilver/planning/access/access-overview.md">Access overview</a>. </p>  
-</td>
-  </tr>
- </tbody>
-</table>
+</table> 
 
 +++
 -->
 
 ## Meldingen in de app beheren wanneer iemand u in een opmerking van tags voorziet
 
-1. (Voorwaardelijk) na iemand u of uw teams in een commentaar op een verslag etiketteert, ga naar het in-app **pictogram van Meldingen** pictogram ![&#x200B; de wolkenberichten van de Ervaring &#x200B;](assets/experience-cloud-notifications-icon.png) in Adobe Experience Cloud.
+1. (Voorwaardelijk) na iemand u of uw teams in een commentaar op een verslag etiketteert, ga naar het in-app **pictogram van Meldingen** pictogram ![ de wolkenberichten van de Ervaring ](assets/experience-cloud-notifications-icon.png) in Adobe Experience Cloud.
 
-   ![&#x200B; In-app meldingsvoorbeeld &#x200B;](assets/in-app-notification-example.png)
+   ![ In-app meldingsvoorbeeld ](assets/in-app-notification-example.png)
 
 1. Klik op het bericht.
 
@@ -177,4 +162,4 @@ U ontvangt meldingen in de app wanneer iemand u om toestemming vraagt of verleen
 
 Voor informatie over het verzoeken van, het verlenen van, of het ontkennen van toestemmingen aan een mening of een werkruimte, zie {de toestemmingen van 0} Verzoek aan een mening of een werkruimte [.](/help/quicksilver/planning/access/request-permissions.md)
 
-Voor informatie over het beheren van uw berichten van de Planning van Workfront, zie [&#x200B; de het berichtvoorkeur van de Planning van Adobe Workfront beheren &#x200B;](/help/quicksilver/planning/notifications/manage-notification-preferences.md).
+Voor informatie over het beheren van uw berichten van de Planning van Workfront, zie [ de het berichtvoorkeur van de Planning van Adobe Workfront beheren ](/help/quicksilver/planning/notifications/manage-notification-preferences.md).

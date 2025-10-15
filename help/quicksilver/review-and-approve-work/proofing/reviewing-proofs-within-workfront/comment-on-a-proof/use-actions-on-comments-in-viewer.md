@@ -6,9 +6,9 @@ description: U kunt acties gebruiken om bij te houden wat er op elke commentaard
 author: Courtney
 feature: Digital Content and Documents
 exl-id: d1ee871c-ef61-44ca-8287-1093c5e5cb97
-source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
+source-git-commit: fe269b088c82e7045ffbb5155d54432e0b413cbe
 workflow-type: tm+mt
-source-wordcount: '441'
+source-wordcount: '364'
 ht-degree: 0%
 
 ---
@@ -23,19 +23,17 @@ Voor informatie over hoe uw beheerder van Workfront toelaat en acties vormt, zie
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-abonnement*</td> 
-   <td> <p>Huidig abonnement: Pro of hoger</p> <p>of</p> <p>Verouderd abonnement: Selecteren of Premium</p> <p>Voor meer informatie over het proefdrukken van toegang met de verschillende plannen, zie <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref"> Toegang tot het proefdrukken van functionaliteit in Workfront </a>.</p> </td> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Huidig plan: Werk of Plan</p> <p>Ouder plan: Willekeurig (proefdrukken moet zijn ingeschakeld voor de gebruiker)</p> </td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td> <p>Alle</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Bewijs van machtigingsprofiel </td> 
@@ -46,13 +44,13 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    <td>Auteur of moderator</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot documenten bewerken</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
+   <td> <p>Toegang tot documenten bewerken</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42; om te weten te komen welk plan, rol, of Profiel van de Toestemming van het Bewijs u hebt, contacteer uw beheerder van Workfront of van Workfront Proof.
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -67,11 +65,11 @@ Een actie toepassen op een bestaande opmerking in de conceptviewer:
 
    * Klik op het vlagpictogram in de rechterbenedenhoek van de opmerking en klik vervolgens op de gewenste actie in het vervolgkeuzemenu.
 
-     ![&#x200B; de vlagpictogram van Acties &#x200B;](assets/actions-flag-icon-350x198.png)
+     ![ de vlagpictogram van Acties ](assets/actions-flag-icon-350x198.png)
 
    * Klik het **Meer** pictogram (drie horizontale punten op de commentaar), dan klik de actie u in de lagere sectie van het drop-down menu wilt dat verschijnt.
 
-     ![&#x200B; Actions_on_comments-More_menu.png &#x200B;](assets/actions-on-coments-more-menu-350x347.png)
+     ![ Actions_on_comments-More_menu.png ](assets/actions-on-coments-more-menu-350x347.png)
 
 1. (Optioneel) Als u van gedachten verandert, kunt u een van de volgende handelingen uitvoeren:
 
@@ -81,4 +79,4 @@ Een actie toepassen op een bestaande opmerking in de conceptviewer:
 
 >[!TIP]
 >
->U kunt opmerkingen filteren op een bepaalde handeling. Voor meer informatie, zie [&#x200B; Onderzoek, filter, en de commentaren van de soortproef &#x200B;](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/search-filter-sort-comments.md).
+>U kunt opmerkingen filteren op een bepaalde handeling. Voor meer informatie, zie [ Onderzoek, filter, en de commentaren van de soortproef ](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/search-filter-sort-comments.md).

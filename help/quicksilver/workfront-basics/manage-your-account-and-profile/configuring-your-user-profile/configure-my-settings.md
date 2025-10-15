@@ -6,7 +6,7 @@ description: Uw  [!DNL Adobe Workfront]  profiel bevat informatie over zich (bij
 author: Becky
 feature: Get Started with Workfront
 exl-id: 0199bf74-0611-48f0-9c05-da6afac85033
-source-git-commit: 00162e3d20ab541f3233afd5d0c5d90b4c4d6309
+source-git-commit: fb555df123701c62e9a0f2d451ad6dcd16586595
 workflow-type: tm+mt
 source-wordcount: '2903'
 ht-degree: 0%
@@ -31,7 +31,7 @@ Afhankelijk van het toegangsniveau dat u in [!DNL Workfront] hebt, kunt u sommig
 
 Afhankelijk van het toegangsniveau dat u hebt, kunt u secties in uw [!UICONTROL My Settings] -gebied al dan niet bewerken.
 
-Sommige gebieden in editable secties kunnen niet worden uitgegeven, afhankelijk van andere montages die al dan niet in uw toegangsniveau zouden kunnen worden gevormd. Voor meer informatie over extra toegang nodig voor het uitgeven van sommige gebieden u in [!UICONTROL My Settings] vindt, zie de secties in [&#x200B; het Vormen van het [!UICONTROL My Settings] gebied &#x200B;](#configuring-the-my-settings-area).
+Sommige gebieden in editable secties kunnen niet worden uitgegeven, afhankelijk van andere montages die al dan niet in uw toegangsniveau zouden kunnen worden gevormd. Voor meer informatie over extra toegang nodig voor het uitgeven van sommige gebieden u in [!UICONTROL My Settings] vindt, zie de secties in [ het Vormen van het [!UICONTROL My Settings] gebied ](#configuring-the-my-settings-area).
 
 Neem contact op met de [!DNL Workfront] -beheerder als u wilt weten welk toegangsniveau u hebt.
 
@@ -200,7 +200,7 @@ In het volgende raster ziet u welke secties in het [!UICONTROL My Settings] -geb
 
 {{step1-click-profile-pic}}
 
-1. Klik het **[!UICONTROL More]** menu naast uw naam ![&#x200B; Meer menu &#x200B;](assets/more-icon.png), dan klik **[!UICONTROL Edit]**.
+1. Klik het **[!UICONTROL More]** menu naast uw naam ![ Meer menu ](assets/more-icon.png), dan klik **[!UICONTROL Edit]**.
 
 1. Afhankelijk van uw toegangsniveau, kunt u de volgende secties bijwerken:
 
@@ -254,7 +254,7 @@ In deze subsectie kunt u de volgende opties wijzigen:
    <td> Als uw [!DNL Workfront] -beheerder een SSO-integratie met [!DNL Workfront] heeft ingeschakeld, wordt de gebruikersnaam van de SSO in dit veld weergegeven. Het type SSO-configuratie dat voor uw [!DNL Workfront] -instantie is ingeschakeld, is zichtbaar in dit veld.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>(Voorwaardelijk) [!UICONTROL Only Allow &lt;SSO Configuration> Authentication]</strong></td> 
+   <td role="rowheader"><strong>(Voorwaardelijk) [!UICONTROL Only Allow <SSO Configuration> Authentication]</strong></td> 
    <td> <p> Als uw [!DNL Workfront] -beheerder een SSO-integratie met [!DNL Workfront] heeft ingeschakeld en gebruikers voor SSO heeft bijgewerkt, wordt dit veld standaard geselecteerd. Het type SSO-configuratie dat voor uw [!DNL Workfront] -instantie is ingeschakeld, is zichtbaar in dit veld.</p> <p>Als dit veld is geselecteerd, moet u zich aanmelden bij [!DNL Workfront] met uw SSO-referenties. Als u de optie uitschakelt, kunt u zich aanmelden bij [!DNL Workfront] met uw [!DNL Workfront] -referenties.</p> <p>Voor meer informatie over het vormen [!DNL Workfront] met een oplossing SSO, zie <a href="../../../administration-and-setup/add-users/single-sign-on/single-sign-on.md" class="MCXref xref"> Enige sign-on in [!DNL Workfront]: artikelindex </a>. Voor meer informatie over het bijwerken van gebruikers voor SSO, zie <a href="../../../administration-and-setup/add-users/single-sign-on/update-users-sso.md" class="MCXref xref"> de gebruikers van de Update voor enig teken-op </a>.</p> </td> 
   </tr>
  </tbody> 
@@ -355,7 +355,7 @@ In deze subsectie kunt u de volgende opties wijzigen:
 
 ### [!UICONTROL Notifications]
 
-Geef op welke meldingen u wilt ontvangen van [!DNL Workfront] . Voor meer informatie over het vormen van berichten, zie [&#x200B; uw eigen e-mailberichten wijzigen &#x200B;](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+Geef op welke meldingen u wilt ontvangen van [!DNL Workfront] . Voor meer informatie over het vormen van berichten, zie [ uw eigen e-mailberichten wijzigen ](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 ### [!UICONTROL Access]
 
@@ -392,13 +392,13 @@ In deze subsectie kunt u de volgende opties wijzigen:
   --> 
   <tr> 
    <td role="rowheader"><strong>(Voorwaardelijk) [!UICONTROL User can generate proofs (... out of ... proof licenses left)]</strong></td> 
-   <td>Dit veld is alleen beschikbaar als uw bedrijf een verouderd [!DNL Workfront] abonnement gebruikt en de [!DNL Workfront Proof] -component heeft aangeschaft. Als deze optie is geselecteerd, wordt u ingeschakeld als proefgebruiker. Ook wordt het aantal proeflicenties dat in uw systeem wordt gebruikt weergegeven van het totale aantal aangeschafte bewijslicenties. Dit veld is alleen zichtbaar en bewerkbaar voor gebruikers die ook [!DNL Workfront] beheerders zijn. Voor meer informatie over de planopties voor het proef binnen [!DNL Workfront], zie <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md"> Toegang tot het proef functionaliteit in [!DNL Workfront]</a>.</td>
+   <td>Dit veld is alleen beschikbaar als uw bedrijf een verouderd [!DNL Workfront] -pakket gebruikt en de [!DNL Workfront Proof] -component heeft aangeschaft. Als deze optie is geselecteerd, wordt u ingeschakeld als proefgebruiker. Ook wordt het aantal proeflicenties dat in uw systeem wordt gebruikt weergegeven van het totale aantal aangeschafte bewijslicenties. Dit veld is alleen zichtbaar en bewerkbaar voor gebruikers die ook [!DNL Workfront] beheerders zijn. Voor meer informatie over de planopties voor het proef binnen [!DNL Workfront], zie <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md"> Toegang tot het proef functionaliteit in [!DNL Workfront]</a>.</td>
   </tr> 
   <tr> 
    <td role="rowheader"><strong>(Voorwaardelijk) [!UICONTROL Permission Profile]</strong></td> 
    <td> <p>In dit veld wordt het toegangsniveau weergegeven dat u hebt in [!DNL Workfront Proof] . Het is alleen beschikbaar als:</p> 
     <ul> 
-     <li>Uw bedrijf gebruikt een verouderd [!DNL Workfront] -abonnement en heeft de [!DNL Workfront Proof] -component aangeschaft, of u hebt een [!UICONTROL Standard] -, [!UICONTROL Work] - of [!UICONTROL Plan] -licentie voor een nieuwer [!DNL Workfront] -abonnement.</li> 
+     <li>Uw bedrijf gebruikt een verouderd [!DNL Workfront] -pakket en heeft de [!DNL Workfront Proof] -component aangeschaft, of u hebt een [!UICONTROL Standard] -, [!UICONTROL Work] - of [!UICONTROL Plan] -licentie op een nieuwer [!DNL Workfront] -pakket.</li> 
      <li>U bent ingeschakeld als proefgebruiker.</li> 
     </ul> <p>[!DNL Workfront] beheerders kunnen het veld voor alle gebruikers behalve zichzelf bewerken, zodat alle gebruikers het veld als alleen-weergeven in hun eigen profielen zien. Voor meer informatie over het toestemmingsprofiel, zie <a href="../../../review-and-approve-work/proofing/proofing-overview/permission-profiles.md" class="MCXref xref"> overzicht van het Profiel van de Toestemming van het Bewijs </a>.</p> </td> 
   </tr> 
@@ -522,7 +522,7 @@ U moet over een van de volgende toegangsrechten of machtigingen beschikken om ee
 
 Alle gebruikers kunnen aangepaste formulieren zien die zijn gekoppeld aan hun profielen.
 
-Uw [!DNL Workfront] -beheerder moet aangepaste formulieren voor het gebruikersobject configureren, zodat u een aangepast formulier aan uw gebruikersprofiel kunt koppelen. Voor meer informatie over het creëren van douaneformulieren, zie [&#x200B; een douaneformulier &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren.
+Uw [!DNL Workfront] -beheerder moet aangepaste formulieren voor het gebruikersobject configureren, zodat u een aangepast formulier aan uw gebruikersprofiel kunt koppelen. Voor meer informatie over het creëren van douaneformulieren, zie [ een douaneformulier ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren.
 
 ### [!UICONTROL Comment]
 

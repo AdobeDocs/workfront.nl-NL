@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 7832986b-a5e8-4f14-8802-d3b8e32b14bc
-source-git-commit: d585b698b6c7900d861a30dc6b5e0bff6bd6d13a
+source-git-commit: 6b2d93d2573d72e4390761038d8078f47d96d55e
 workflow-type: tm+mt
-source-wordcount: '705'
+source-wordcount: '662'
 ht-degree: 0%
 
 ---
@@ -29,32 +29,32 @@ De verbeterde mogelijkheden voor wachtwoordbeheer zijn binnenkort beschikbaar vo
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan</td> 
-   <td>Alle</td> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
+   <td><p>Alle</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie</td> 
-   <td>Plan</td> 
+   <td><p>Standard</p><p>Plan</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau</td> 
-   <td> <p>U moet een Workfront-beheerder zijn.</p> <p><b> NOTA </b>: Als u nog geen toegang hebt, vraag uw beheerder van Workfront als zij extra beperkingen in uw toegangsniveau plaatsen. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
+   <td> <p>U moet een Workfront-beheerder zijn.</p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
+
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Verificatie configureren (beschikbaar voor alle klanten) {#configure-authentication-available-for-all-customers}
 
-De opties van de authentificatie worden getoond voor alle klanten. De verbeterde mogelijkheden van het wachtwoordbeheer komen binnenkort of zouden reeds beschikbaar voor uw organisatie kunnen zijn, zoals die in de sectie [&#x200B; wordt beschreven vormt verbeterde authentificatie) &#x200B;](#configure-enhanced-authentication-coming-soon) in dit artikel.
+De opties van de authentificatie worden getoond voor alle klanten. De verbeterde mogelijkheden van het wachtwoordbeheer komen binnenkort of zouden reeds beschikbaar voor uw organisatie kunnen zijn, zoals die in de sectie [ wordt beschreven vormt verbeterde authentificatie) ](#configure-enhanced-authentication-coming-soon) in dit artikel.
 
 Verificatievoorkeuren configureren:
 
@@ -97,14 +97,14 @@ Verificatievoorkeuren configureren:
 
 ## Uitgebreide verificatie configureren{#configure-enhanced-authentication-coming-soon}
 
-Deze sectie beschrijft de verbeterde authentificatieervaring, die nog niet voor uw organisatie beschikbaar zou kunnen zijn. Als uw organisatie niet aan de nieuwe authentificatieervaring is gemigreerd, moet u de authentificatiemontages vormen, zoals die in [&#x200B; worden beschreven vormt authentificatie (beschikbaar voor alle klanten) &#x200B;](#configure-authentication-available-for-all-customers).
+Deze sectie beschrijft de verbeterde authentificatieervaring, die nog niet voor uw organisatie beschikbaar zou kunnen zijn. Als uw organisatie niet aan de nieuwe authentificatieervaring is gemigreerd, moet u de authentificatiemontages vormen, zoals die in [ worden beschreven vormt authentificatie (beschikbaar voor alle klanten) ](#configure-authentication-available-for-all-customers).
 
 Uitgebreide verificatievoorkeuren configureren:
 
 {{step-1-to-setup}}
 
 1. Klik **Systeem** > **Verbeterde Authentificatie**.
-1. In het **vakje van de Lengte van het Wachtwoord 0&rbrace; &lbrace;, ga het minimumaantal karakters in dat voor een geldig wachtwoord wordt vereist.**
+1. In het **vakje van de Lengte van het Wachtwoord 0} {, ga het minimumaantal karakters in dat voor een geldig wachtwoord wordt vereist.**
 
    Workfront vereist ten minste 6 tekens.
 

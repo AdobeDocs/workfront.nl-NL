@@ -6,9 +6,9 @@ description: U kunt een dashboard en al zijn inhoud (rapporten, kalenders, en ex
 author: Nolan
 feature: Reports and Dashboards
 exl-id: a88cc171-2bb1-40f0-a778-8dac7eecb718
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: c8b7ad473b0c2120ef5ea52374b3501ad6f553f1
 workflow-type: tm+mt
-source-wordcount: '893'
+source-wordcount: '884'
 ht-degree: 0%
 
 ---
@@ -21,43 +21,35 @@ U kunt een dashboard en al zijn inhoud (rapporten, kalenders, en externe pagina&
 
 ## Toegangsvereisten
 
-+++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
-
-U moet het volgende hebben:
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront-abonnement*</strong></td> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront-licentie*</strong></td> 
-    <td> 
-      <p>Nieuw:</p>
-         <ul>
-         <li><p>Standaard</p></li>
-         </ul>
-      <p>Huidige:</p>
-         <ul>
-         <li><p>Plan</p></li>
-         </ul>
+   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td> 
+      <p>Standard</p>
+      <p>Plan</p>
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Configuraties op toegangsniveau*</strong></td> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
    <td> <p>Toegang tot rapporten, dashboards en kalenders bewerken</p></td> 
-  </tr> 
+  </tr>  
   <tr> 
-   <td role="rowheader"><strong>Objectmachtigingen</strong></td> 
-   <td> <p>Toegang tot een dashboard weergeven</p> <p>U krijgt beheertoegang tot het gekopieerde dashboard</p></td> 
+   <td role="rowheader">Objectmachtigingen</td> 
+   <td> <p>Toegang tot een dashboard weergeven</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -65,13 +57,13 @@ Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van W
 
 U moet een dashboard maken voordat u het kunt kopiëren.
 
-Voor informatie bij het creëren van dashboards, zie [&#x200B; een dashboard &#x200B;](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md) creëren.
+Voor informatie bij het creëren van dashboards, zie [ een dashboard ](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md) creëren.
 
 ## Een dashboard kopiëren
 
-1. Klik het **[!UICONTROL Main Menu]** pictogram ![&#x200B; Belangrijkste Menu &#x200B;](/help/_includes/assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, of (als beschikbaar), klik het **[!UICONTROL Main Menu]** pictogram ![&#x200B; Belangrijkste Menu &#x200B;](/help/_includes/assets/main-menu-icon-left-nav.png) in de upper-left hoek, dan klik **[!UICONTROL Dashboards]**.
+1. Klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, of (als beschikbaar), klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon-left-nav.png) in de upper-left hoek, dan klik **[!UICONTROL Dashboards]**.
 
-1. Selecteer het dashboard dat u wilt kopiëren, dan klik **![&#x200B; het pictogram van het Exemplaar &#x200B;](assets/copy-icon.png).**\
+1. Selecteer het dashboard dat u wilt kopiëren, dan klik **** het pictogram van het Exemplaar ![.](assets/copy-icon.png)\
    of\
    Open het dashboard dat u wilt kopiëren, dan klik **Acties van het Dashboard** > **Exemplaar**.\
    Het dialoogvenster Kopiëren van dashboard wordt weergegeven. Alle items op het oorspronkelijke dashboard worden weergegeven.

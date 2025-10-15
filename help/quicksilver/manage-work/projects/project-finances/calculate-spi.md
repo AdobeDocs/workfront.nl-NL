@@ -7,9 +7,9 @@ description: De index van de Prestaties van het Programma (SPI) beschrijft het v
 author: Lisa
 feature: Work Management
 exl-id: 38259774-f22b-4b69-9e22-5b541118a7de
-source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
+source-git-commit: 23a4d055871c9138818e70fa1cd936581dbd7552
 workflow-type: tm+mt
-source-wordcount: '419'
+source-wordcount: '396'
 ht-degree: 0%
 
 ---
@@ -26,41 +26,38 @@ De index van de Prestaties van het Programma (SPI) beschrijft het verband tussen
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan</td> 
+   <td>Adobe Workfront-pakket</td> 
    <td>Alle</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td>Adobe Workfront-licentie</td> 
    <td>
-   <p>Nieuw: Licht of hoger</p>
-   <p>of</p>
-   <p>Huidig: Controleren of hoger</p></td>  
+   <p>Licht of hoger</p>
+   <p>Controleren of hoger</p></td>  
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau</td> 
+   <td>Configuraties op toegangsniveau</td> 
    <td>Toegang tot projecten en financiële gegevens weergeven</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Objectmachtigingen</td> 
+   <td>Objectmachtigingen</td> 
    <td>De mening of hogere toestemmingen aan het project met toestemmingen aan de Financiën van de Mening</td> 
   </tr> 
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Overzicht van de prestatie-index (SPI) voor schema
 
-* [&#x200B; wat de waarde SPI &#x200B;](#what-the-spi-value-shows) toont
+* [ wat de waarde SPI ](#what-the-spi-value-shows) toont
 * [Hoe Workfront SPI berekent](#how-workfront-calculates-spi)
 
 ### Wat de SPI waarde toont {#what-the-spi-value-shows}
@@ -98,6 +95,6 @@ Bijvoorbeeld, als u een project met 1 taak hebt en de taak 10 geplande uren en e
 
    1. Klik **Details van de Taak** in het linkerpaneel, dan bekijk het **Financiën** gebied.
 
-      ![&#x200B; SPI op project &#x200B;](assets/spi-on-project-nwe.png)
+      ![ SPI op project ](assets/spi-on-project-nwe.png)
 
 1. Vind het **CPI/SPI/CSI** gebied.

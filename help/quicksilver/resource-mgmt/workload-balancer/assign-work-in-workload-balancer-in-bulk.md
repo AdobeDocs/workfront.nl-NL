@@ -6,9 +6,9 @@ description: Met de Adobe Workfront Workload Balancer kunt u resources toewijzen
 author: Lisa
 feature: Resource Management
 exl-id: fb0f80d3-7da4-4f5f-857d-3fb518ba12e2
-source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
+source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
 workflow-type: tm+mt
-source-wordcount: '1551'
+source-wordcount: '1528'
 ht-degree: 0%
 
 ---
@@ -19,31 +19,27 @@ ht-degree: 0%
 
 Met de Adobe Workfront Workload Balancer kunt u resources toewijzen aan meerdere taken en problemen in bulk.
 
-Voor algemene informatie over het toewijzen van het werk aan gebruikers die de Balancer van de Werklast gebruiken, zie [&#x200B; Overzicht van het toewijzen van het werk in de Balancer van de Werklast &#x200B;](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
+Voor algemene informatie over het toewijzen van het werk aan gebruikers die de Balancer van de Werklast gebruiken, zie [ Overzicht van het toewijzen van het werk in de Balancer van de Werklast ](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
 
 ## Toegangsvereisten
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
-
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan</td> 
-   <td> <p>Alle </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront-licentie</td> 
-   <td><p>Nieuw: Standaard</p>
-       <p>of</p>
-       <p>Huidig: Plan, wanneer het gebruiken van de Balancer van de Werkbelasting in het gebied van de Middelen;</br>
-       Het werk, wanneer het gebruiken van de Balancer van de Werkbelasting van een team of een project</p></td>
+   <td>Adobe Workfront-pakket</td> 
+   <td><p>Alle</p></td>
   </tr>
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau</td> 
+   <td>Adobe Workfront-licentie</td> 
+   <td><p>Standard</p>
+       <p>Plan, wanneer het gebruiken van de Balancer van de Werkbelasting in het gebied van Middelen; het werk, wanneer het gebruiken van de Balancer van de Werkbelasting van een team of een project</p></td>
+  </tr>
+  <tr> 
+   <td>Configuraties op toegangsniveau</td> 
    <td> <p>Toegang tot het volgende bewerken:</p> 
     <ul> 
      <li>Bronbeheer</li> 
@@ -54,13 +50,13 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Objectmachtigingen</td> 
+   <td>Objectmachtigingen</td> 
    <td>Contribute-machtigingen of hoger voor projecten, taken en problemen die Toewijzingen maken bevatten</td> 
   </tr> 
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -84,38 +80,38 @@ Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van d
 
 1. Ga naar Werklastverdeling waar u werk wilt toewijzen.
 
-   U kunt werk aan gebruikers toewijzen gebruikend de Balancer van de Werkbelasting in het gebied van het Middelen, op het project, of op het teamniveau. Voor meer informatie over waar de Balancer van de Werkbelasting in Workfront wordt gevestigd, zie [&#x200B; plaats van de Balancer van de Werkbelasting &#x200B;](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
+   U kunt werk aan gebruikers toewijzen gebruikend de Balancer van de Werkbelasting in het gebied van het Middelen, op het project, of op het teamniveau. Voor meer informatie over waar de Balancer van de Werkbelasting in Workfront wordt gevestigd, zie [ plaats van de Balancer van de Werkbelasting ](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
 
 
-1. Klik **![&#x200B; Bulktoewijzingen &#x200B;](assets/bulk-assignments-wb.png) bij de bovenkant van de Balancer van de Werklast.**
+1. Klik **** Bulktoewijzingen ![ bij de bovenkant van de Balancer van de Werklast.](assets/bulk-assignments-wb.png)
 
    Het deelvenster Bulktoewijzingen wordt rechts van Workload Balancer geopend.
 
 1. (Voorwaardelijk) als u tot de Balancer van de Werkbelasting van het Bronsgebied of voor een team toegang hebt, breid het **Project uit: Naam** drop-down menu en gebruik de filterbepalingen om het project of de projecten te selecteren waarvoor u taken wilt maken. U kunt projecten op Naam (dit is de standaardoptie) of door Status selecteren.
 
-   Voor informatie over de filterbepalingen van Workfront, zie [&#x200B; Filters en voorwaardenbepalingen &#x200B;](../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
+   Voor informatie over de filterbepalingen van Workfront, zie [ Filters en voorwaardenbepalingen ](../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
 
    >[!NOTE]
    >
    >De naam van het Project wordt geselecteerd door gebrek wanneer u tot de Balancer van de Werkbelasting voor een project toegang hebt.
 
-   ![&#x200B; naam van het Project in bulktaken &#x200B;](assets/project-name-status-dropdown-bulk-assignments-wb-nwe-350x133.png)
+   ![ naam van het Project in bulktaken ](assets/project-name-status-dropdown-bulk-assignments-wb-nwe-350x133.png)
 
 1. (Facultatief) klik **Uitgezochte projecttaken** om de taak of de taken te selecteren die u taken voor, dan in de **Taak wilt maken: Naam** drop-down menu, uitgezochte taken door Naam (dit is de standaardoptie) of Status en de filterbepalingen gebruiken om naar specifieke taken te zoeken.
 
-   Voor informatie over de filterbepalingen van Workfront, zie [&#x200B; Filters en voorwaardenbepalingen &#x200B;](../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
+   Voor informatie over de filterbepalingen van Workfront, zie [ Filters en voorwaardenbepalingen ](../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
 
    >[!NOTE]
    >
    >U kunt geen taken in de status Voltooid selecteren.
 
-   ![&#x200B; status van de Taak in bulktaken &#x200B;](assets/task-name-status-dropdown-bulk-assignments-wb-nwe-350x102.png)
+   ![ status van de Taak in bulktaken ](assets/task-name-status-dropdown-bulk-assignments-wb-nwe-350x102.png)
 
    >[!TIP]
    >
    >Laat deze selectie leeg als u niet alleen taken maar ook taken in grote hoeveelheden wilt toewijzen.
 
-1. (Facultatief) klik het **pictogram van de Schrapping** ![&#x200B; pictogram van de Schrapping &#x200B;](assets/delete.png) naast één van de geselecteerde criteria
+1. (Facultatief) klik het **pictogram van de Schrapping** ![ pictogram van de Schrapping ](assets/delete.png) naast één van de geselecteerde criteria
 
    of
 
@@ -123,8 +119,8 @@ Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van d
 
 1. Selecteer een van de volgende opties en ga verder met de hieronder beschreven stappen:
 
-   * [&#x200B; wijs gebruiker &#x200B;](#assign-user) toe
-   * [&#x200B; vervang gebruiker &#x200B;](#replace-user)
+   * [ wijs gebruiker ](#assign-user) toe
+   * [ vervang gebruiker ](#replace-user)
    * [Gebruiker vrijgeven](#unassign-user)
 
    >[!TIP]
@@ -147,15 +143,15 @@ Om een gebruiker aan werkpunten toe te wijzen die eerder aan baanrollen worden t
 
 1. Begin het toewijzen van het werkpunten gebruikend BulkToewijzingen in de Balancer van de Werkbelasting zoals hierboven beschreven en selecteer **toewijzen**.
 
-1. Op het **gebied van de Rol 0&rbrace; &lbrace;, klik de drop-down pijl om van een lijst van rollen te kiezen.** Slechts worden de rollen momenteel toegewezen binnen de gespecificeerde projecten getoond. Dit is een verplicht veld.
+1. Op het **gebied van de Rol 0} {, klik de drop-down pijl om van een lijst van rollen te kiezen.** Slechts worden de rollen momenteel toegewezen binnen de gespecificeerde projecten getoond. Dit is een verplicht veld.
 
-   ![&#x200B; de taak van de Rol &#x200B;](assets/bulk-assignments-workload-balancer-assign-selected.png)
+   ![ de taak van de Rol ](assets/bulk-assignments-workload-balancer-assign-selected.png)
 
 1. In de **Gebruiker om** gebied toe te wijzen, klik de drop-down pijl om van een lijst van gesuggereerde gebruikers te kiezen of een naam van een andere gebruiker te typen.
 
    Selecteer gebruikers in de volgende gebieden:
 
-   * **voorgestelde Toewijzingen**: Gebruikers die de geselecteerde rol kunnen vervullen en die de criteria voor Slimme Toewijzingen aanpassen. Voor meer informatie, zie [&#x200B; Slim toewijzingsoverzicht &#x200B;](../../manage-work/tasks/assign-tasks/smart-assignments.md).
+   * **voorgestelde Toewijzingen**: Gebruikers die de geselecteerde rol kunnen vervullen en die de criteria voor Slimme Toewijzingen aanpassen. Voor meer informatie, zie [ Slim toewijzingsoverzicht ](../../manage-work/tasks/assign-tasks/smart-assignments.md).
    * **Andere Toewijzingen**: Alle gebruikers in het systeem die de geselecteerde rol kunnen vervullen.
 
      >[!TIP]
@@ -176,7 +172,7 @@ Om een gebruiker aan werkpunten toe te wijzen die eerder aan baanrollen worden t
 
    Je ontvangt een bevestiging over hoeveel tijdelijke objecten de geselecteerde rol hebben vervangen door de geselecteerde gebruiker.
 
-   ![&#x200B; Bulk toewijzingsbevestiging &#x200B;](assets/bulk-assign-user-confirmation-before-assigning-nwe-350x83.png)
+   ![ Bulk toewijzingsbevestiging ](assets/bulk-assign-user-confirmation-before-assigning-nwe-350x83.png)
 
 ### Gebruiker vervangen {#replace-user}
 
@@ -194,13 +190,13 @@ Een gebruiker vervangen door een andere gebruiker:
 1. Begin het toewijzen van het werkpunten in de Balancer van de Werkbelasting zoals hierboven beschreven en selecteer **Vervangen**.
 1. Op het **momenteel toegewezen gebruiker** gebied, klik de drop-down pijl om van een lijst van gebruikers te kiezen. Slechts worden de gebruikers momenteel toegewezen aan onvolledige het werkpunten binnen de gespecificeerde projecten getoond. Dit is een verplicht veld.
 
-   ![&#x200B; vervang gebruiker &#x200B;](assets/bulk-assignments-workload-balancer-replace-selected-350x345.png)
+   ![ vervang gebruiker ](assets/bulk-assignments-workload-balancer-replace-selected-350x345.png)
 
-1. In de **Gebruiker om** gebied toe te wijzen, klik de drop-down pijl om van een lijst van gesuggereerde gebruikers te kiezen of een andere gebruikersnaam te typen. Gebruikers die standaard in de lijst worden vermeld, komen overeen met de criteria voor slimme toewijzingen. Voor meer informatie, zie [&#x200B; Slim toewijzingsoverzicht &#x200B;](../../manage-work/tasks/assign-tasks/smart-assignments.md).
+1. In de **Gebruiker om** gebied toe te wijzen, klik de drop-down pijl om van een lijst van gesuggereerde gebruikers te kiezen of een andere gebruikersnaam te typen. Gebruikers die standaard in de lijst worden vermeld, komen overeen met de criteria voor slimme toewijzingen. Voor meer informatie, zie [ Slim toewijzingsoverzicht ](../../manage-work/tasks/assign-tasks/smart-assignments.md).
 
    Workfront geeft een notitie weer over het aantal items waar de momenteel toegewezen gebruiker de tweede gebruiker vervangt en welke rollen deze zal vervangen.
 
-   ![&#x200B; Bulk vervangt gebruikersbevestiging &#x200B;](assets/bulk-replace-user-confirmation-before-replacing-nwe-350x49.png)
+   ![ Bulk vervangt gebruikersbevestiging ](assets/bulk-replace-user-confirmation-before-replacing-nwe-350x49.png)
 
 1. Klik **vervangen**.
 
@@ -219,7 +215,7 @@ Wanneer u de toewijzing van een gebruiker uit al hun toewijzingen ongedaan maakt
 
 * Als de gespecificeerde gebruiker aan het werkpunten wordt toegewezen die worden voltooid, blijft de gebruiker toegewezen aan die het werkpunten.
 
-Voor meer informatie over gebruiker en baanroltaken, zie [&#x200B; Overzicht van het toewijzen van het werk in de Balancer van de Werkbelasting &#x200B;](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
+Voor meer informatie over gebruiker en baanroltaken, zie [ Overzicht van het toewijzen van het werk in de Balancer van de Werkbelasting ](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
 
 Om een gebruiker van het werkpunten in de geselecteerde projecten of voor de geselecteerde taken of kwesties ongedaan te maken waar zij worden toegewezen:
 
@@ -227,11 +223,11 @@ Om een gebruiker van het werkpunten in de geselecteerde projecten of voor de ges
 
 1. In de **Gebruiker om** gebied ongedaan te maken, klik de drop-down pijl om van een lijst van gebruikers te kiezen. Alleen gebruikers die momenteel zijn toegewezen aan onvolledige werkitems binnen de opgegeven projectweergave. Dit is een verplicht veld.
 
-   ![&#x200B; wijs gebruiker &#x200B;](assets/bulk-assignments-workload-balancer-unassign-selected-350x318.png) ongedaan
+   ![ wijs gebruiker ](assets/bulk-assignments-workload-balancer-unassign-selected-350x318.png) ongedaan
 
    Workfront geeft een notitie weer over het aantal items waarvoor de momenteel toegewezen gebruiker niet is toegewezen.
 
-   ![&#x200B; Bulk unassign bevestiging &#x200B;](assets/bulk-unassign-user-confirmation-before-assigning-nwe-350x45.png)
+   ![ Bulk unassign bevestiging ](assets/bulk-unassign-user-confirmation-before-assigning-nwe-350x45.png)
 
 1. Klik **unassign**.\
    U ontvangt een bevestiging over het aantal werkitems waarop de opgegeven gebruiker is verwijderd.

@@ -1,23 +1,25 @@
 ---
 product-area: projects
 navigation-topic: use-the-gantt-chart
-title: Informatie bijwerken in de Gantt-grafiek van de takenlijst
-description: De van de taaklijst Gantt- Grafiek toont details over taken die op een project of een malplaatje zijn.
+title: Informatie bijwerken in de Gantt-grafiek van de Taaklijst
+description: De Grafiek van Gantt van een de taaklijst van Adobe Workfront toont details over taken die op een project of een malplaatje zijn.
 author: Alina
 feature: Work Management
 exl-id: 0a8e6fd5-985c-49e5-842d-67ade29ee1c9
-source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
+source-git-commit: c8987d036e1c1324618cb53ebcbb8fd7e4bcc6a4
 workflow-type: tm+mt
-source-wordcount: '883'
+source-wordcount: '846'
 ht-degree: 0%
 
 ---
 
 # Gegevens bijwerken in de takenlijst [!UICONTROL Gantt Chart]
 
-De takenlijst [!UICONTROL Gantt Chart] bevat details over taken die zich in een project of sjabloon bevinden.
+<!--Audited: 08/2025-->
 
-In een sjabloon geeft de takenlijst [!UICONTROL Gantt Chart] de updates weer die in de takenlijst van de sjabloon op taakniveau zijn aangebracht. U kunt de aan een sjabloon gekoppelde [!UICONTROL Gantt chart] niet bewerken.
+[!UICONTROL Gantt Chart] van een de taaklijst van Adobe Workfront toont details over taken die op een project of een malplaatje zijn.
+
+In een sjabloon geeft de takenlijst [!UICONTROL Gantt Chart] de updates weer die in de takenlijst van de sjabloon op sjabloontaakniveau zijn aangebracht. U kunt de aan een sjabloon gekoppelde [!UICONTROL Gantt chart] niet bewerken.
 
 In een project kunt u taakgegevens rechtstreeks in de takenlijst bijwerken [!UICONTROL Gantt Chart] .
 
@@ -31,7 +33,37 @@ In dit artikel worden de volgende handelingen beschreven die u rechtstreeks in d
 
 ## Toegangsvereisten
 
-U moet het volgende hebben om de stappen in dit artikel te volgen:
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven. 
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] package</td> 
+   <td> <p>Alle</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] licentie</td> 
+   <td> <p>[!UICONTROL Standard]</p>
+   <p>[!UICONTROL Plan]</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
+   <td> <p>[!UICONTROL Edit] toegang tot projecten en taken</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Objectmachtigingen</td> 
+   <td> <p>[!UICONTROL Manage] toegang tot het project en de taken</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++ 
+
+<!--Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -39,41 +71,39 @@ U moet het volgende hebben om de stappen in dit artikel te volgen:
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
-   <td> <p>Alle </p> </td> 
+   <td> <p>Any </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licentie*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
    <td> <p>[!UICONTROL Plan] </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>[!UICONTROL Edit] toegang tot projecten en taken</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de [!DNL Workfront] -beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een [!DNL Workfront] beheerder uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
+   <td role="rowheader">Access level configurations*</td> 
+   <td> <p>[!UICONTROL Edit] access to Projects and Tasks</p> <p>Note: If you still don't have access, ask your [!DNL Workfront] administrator if they set additional restrictions in your access level. For information on how a [!DNL Workfront] administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>[!UICONTROL Manage] toegang tot het project en de taken </p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>[!UICONTROL Manage] access to the project and tasks </p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>
-
-&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw [!DNL Workfront] beheerder.
+</table>-->
 
 ## Taakduur wijzigen
 
 1. Ga naar het project u wilt wijzigen.
 1. Klik op **[!UICONTROL Tasks]** in het linkerdeelvenster.
 
-   ![&#x200B; gebied van Taken &#x200B;](assets/qs-tasks-area-highlighted-in-the-secondary-nav-350x206.png)
+   ![ gebied van Taken ](assets/qs-tasks-area-highlighted-in-the-secondary-nav-350x206.png)
 
 1. Klik op het pictogram **[!UICONTROL Gantt chart]** .
 
-   ![&#x200B; klik het pictogram van de Grafiek van de Gantt &#x200B;](assets/click-gantt-chart-icon.png)
+   ![ klik het pictogram van de Grafiek van de Gantt ](assets/click-gantt-chart-icon.png)
 
    Alle wijzigingen worden automatisch opgeslagen wanneer de optie **[!UICONTROL Autosave]** is ingeschakeld. Deze optie is standaard ingeschakeld.
 
 1. (Optioneel) Klik op het pictogram **[!UICONTROL Plan mode]** en selecteer **[!UICONTROL Manual save Standard]** of **[!UICONTROL Timeline Planning]** om de wijzigingen handmatig op te slaan.
 
-   ![&#x200B; Toegelaten het Handmatig plaatsen &#x200B;](assets/manual-standard-setting-enabled-quicksilver-task-list-350x493.png)
+   ![ Toegelaten het Handmatig plaatsen ](assets/manual-standard-setting-enabled-quicksilver-task-list-350x493.png)
 
 1. Houd de cursor boven de tijdlijn van een taak en sleep de tijdlijnindicator naar een andere datum.
 1. Zet de indicator neer wanneer u de correcte nieuwe Datum van Voltooiing voor de taak hebt bereikt.
@@ -99,15 +129,15 @@ U moet het volgende hebben om de stappen in dit artikel te volgen:
 
    De optie **[!UICONTROL Autosave]** is standaard geselecteerd. In dat geval worden alle wijzigingen automatisch opgeslagen.
 
-   ![&#x200B; klik het pictogram van de Grafiek van de Gantt &#x200B;](assets/click-gantt-chart-icon.png)
+   ![ klik het pictogram van de Grafiek van de Gantt ](assets/click-gantt-chart-icon.png)
 
 1. (Optioneel) Klik op het pictogram **[!UICONTROL Plan mode]** en selecteer **[!UICONTROL Manual save Standard]** of **[!UICONTROL Timeline Planning]** om de wijzigingen handmatig op te slaan.
 
-   ![&#x200B; Toegelaten het Handmatig plaatsen &#x200B;](assets/manual-standard-setting-enabled-quicksilver-task-list-350x493.png)
+   ![ Toegelaten het Handmatig plaatsen ](assets/manual-standard-setting-enabled-quicksilver-task-list-350x493.png)
 
 1. Als u een voorgaande relatie wilt maken, klikt u op het beginpunt van een taak en sleept u deze naar het eindpunt van de taak.
 1. Als u een eerdere relatie wilt verwijderen, klikt u op een eerdere regel die twee taken met elkaar verbindt om deze te selecteren en drukt u vervolgens op **[!UICONTROL Delete]** op het toetsenbord.\
-   ![&#x200B; Delete_predecessor.png &#x200B;](assets/delete-predecessor-350x152.png)
+   ![ Delete_predecessor.png ](assets/delete-predecessor-350x152.png)
 
 1. (Optioneel en voorwaardelijk) Als u de wijzigingen handmatig wilt opslaan, klikt u op het pictogram **[!UICONTROL Undo]** of &#x200B; **[!UICONTROL Redo]** als u een van de wijzigingen wilt annuleren of dupliceren.
 
@@ -131,16 +161,16 @@ U moet het volgende hebben om de stappen in dit artikel te volgen:
 
    Alle wijzigingen worden automatisch opgeslagen wanneer de optie **[!UICONTROL Autosave]** is ingeschakeld. Deze optie is standaard ingeschakeld.
 
-   ![&#x200B; klik het pictogram van de Grafiek van de Gantt &#x200B;](assets/click-gantt-chart-icon.png)
+   ![ klik het pictogram van de Grafiek van de Gantt ](assets/click-gantt-chart-icon.png)
 
 1. (Optioneel) Klik op het pictogram **[!UICONTROL Plan mode]** en selecteer **[!UICONTROL Manual save Standard]** of **[!UICONTROL Timeline Planning]** om de wijzigingen handmatig op te slaan.
 
-   ![&#x200B; Toegelaten het Handmatig plaatsen &#x200B;](assets/manual-standard-setting-enabled-quicksilver-task-list-350x493.png)
+   ![ Toegelaten het Handmatig plaatsen ](assets/manual-standard-setting-enabled-quicksilver-task-list-350x493.png)
 
 1. Houd de muisaanwijzer boven het midden van de taak en zoek de pijl met meerdere richtingen.
 1. Klik en sleep de taak naar de gewenste datum.
 
-   ![&#x200B; Change_start_end_date.png &#x200B;](assets/change-start-end-date.png)
+   ![ Change_start_end_date.png ](assets/change-start-end-date.png)
 
 1. Als u de taakdatum wijzigt op een manier die invloed heeft op de taakbeperking, klikt u op **[!UICONTROL Accept]** om de wijziging in de taakbeperking te bevestigen.
 
@@ -178,7 +208,7 @@ U moet het volgende hebben om de stappen in dit artikel te volgen:
 1. Ga naar het project u wilt wijzigen.
 1. Klik in het gebied **[!UICONTROL Tasks]** op het pictogram **[!UICONTROL Gantt chart]** .
 
-   ![&#x200B; klik het pictogram van de Grafiek van de Gantt &#x200B;](assets/click-gantt-chart-icon.png)
+   ![ klik het pictogram van de Grafiek van de Gantt ](assets/click-gantt-chart-icon.png)
 
    Alle wijzigingen worden automatisch opgeslagen wanneer de optie **[!UICONTROL Autosave]** is ingeschakeld. Deze optie is standaard ingeschakeld.
 
@@ -190,7 +220,7 @@ U moet het volgende hebben om de stappen in dit artikel te volgen:
    >U moet [!UICONTROL % Complete] in het dialoogvenster [!UICONTROL Options] hebben geselecteerd om het volledige percentage bij te werken. Klik hiertoe op het pictogram **[!UICONTROL Options]** en selecteer **[!UICONTROL % Complete]** .
    >
    >
-   >![&#x200B; update_percent_complete.png &#x200B;](assets/update-percent-complete-350x175.png)   >
+   >![ update_percent_complete.png ](assets/update-percent-complete-350x175.png)   >
    >
 
 1. (Optioneel en voorwaardelijk) Als u de wijzigingen handmatig wilt opslaan, klikt u op het pictogram **[!UICONTROL Undo]** of &#x200B; **[!UICONTROL Redo]** als u een van de wijzigingen wilt annuleren of dupliceren.
@@ -212,7 +242,7 @@ U moet het volgende hebben om de stappen in dit artikel te volgen:
 
 U kunt de Taaklijst [!UICONTROL Gantt Chart] gebruiken om uw middelen te nivelleren.
 
-Voor informatie over het nivelleren van middelen in [!UICONTROL Gantt chart], zie [&#x200B; Middelen van het Niveau in [!UICONTROL Gantt Chart]](../../../manage-work/gantt-chart/use-the-gantt-chart/level-resources-in-gantt.md).
+Voor informatie over het nivelleren van middelen in [!UICONTROL Gantt chart], zie [ Middelen van het Niveau in [!UICONTROL Gantt Chart]](../../../manage-work/gantt-chart/use-the-gantt-chart/level-resources-in-gantt.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

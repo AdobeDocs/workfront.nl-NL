@@ -7,9 +7,9 @@ description: U kunt op een van de volgende manieren bekijken welke gebruikers in
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4d45ecd9-4348-43a4-9fa7-090b996b4695
-source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
+source-git-commit: 385f4a6663cacfdcf519bf5699fc1840c2cb2adc
 workflow-type: tm+mt
-source-wordcount: '380'
+source-wordcount: '310'
 ht-degree: 0%
 
 ---
@@ -29,12 +29,14 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-abonnement*</td> 
-   <td> <p>Verouderd abonnement: Selecteren of Premium</p> <p>Voor meer informatie over het proefdrukken van toegang met de verschillende plannen, zie <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref"> Toegang tot het proefdrukken van functionaliteit in Workfront </a>.</p> </td> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Plan</p> </td> 
+   <td> 
+   <p>Standard</p> 
+   <p>Plan</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
@@ -42,12 +44,12 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
     <ul> 
      <li> <p>Rapporten, dashboards en kalenders maken</p> </li> 
      <li> <p>Filters, weergaven en groepen maken</p> </li> 
-    </ul> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan veranderen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
+    </ul> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42; om te weten te komen welk plan, rol, of Profiel van de Toestemming van het Bewijs u hebt, contacteer uw beheerder van Workfront of van Workfront Proof.
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -64,7 +66,7 @@ U kunt een gebruikersrapport maken om te bekijken welke gebruikers proefdrukken 
 
 1. Selecteer **Gelijk** > **Waar**.
 
-   ![&#x200B; report_prooflicenses.png &#x200B;](assets/report-prooflicenses-350x135.png)
+   ![ report_prooflicenses.png ](assets/report-prooflicenses-350x135.png)
 
 1. Klik **sparen+Sluiten**.
 

@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: cbeaa0d7-a61a-4806-a871-96663d9ce124
-source-git-commit: 80bdc2f2c1bedbc5a894b5a474425c5544c039fd
+source-git-commit: 76e32fa6b87583d2b8c296045da731afdb6d1f9a
 workflow-type: tm+mt
-source-wordcount: '529'
+source-wordcount: '513'
 ht-degree: 0%
 
 ---
@@ -23,50 +23,47 @@ Als Adobe Workfront-beheerder of groepsbeheerder kunt u een lay-outsjabloon gebr
 >
 >Het aanpassen van objecten kopballen is momenteel beschikbaar voor projecten, taken, en kwesties.
 
-![&#x200B; de kopbalgebieden van Objecten &#x200B;](assets/object-header-fields.png)
+![ de kopbalgebieden van Objecten ](assets/object-header-fields.png)
 
-Voor informatie over het creëren van lay-outmalplaatjes, zie [&#x200B; lay-outmalplaatjes &#x200B;](../use-layout-templates/create-and-manage-layout-templates.md) creëren en beheren.
+Voor informatie over het creëren van lay-outmalplaatjes, zie [ lay-outmalplaatjes ](../use-layout-templates/create-and-manage-layout-templates.md) creëren en beheren.
 
-Voor informatie over lay-outmalplaatjes voor groepen, zie [&#x200B; tot stand brengen en wijzigen de lay-outmalplaatjes van een groep &#x200B;](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
+Voor informatie over lay-outmalplaatjes voor groepen, zie [ tot stand brengen en wijzigen de lay-outmalplaatjes van een groep ](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
 
-Nadat u een lay-outmalplaatje hebt gevormd, moet u het aan gebruikers voor veranderingen toewijzen u aanbracht om aan anderen zichtbaar te zijn. Voor informatie over het toewijzen van een lay-outmalplaatje aan gebruikers, zie [&#x200B; gebruikers aan een lay-outmalplaatje &#x200B;](../use-layout-templates/assign-users-to-layout-template.md) toewijzen.
+Nadat u een lay-outmalplaatje hebt gevormd, moet u het aan gebruikers voor veranderingen toewijzen u aanbracht om aan anderen zichtbaar te zijn. Voor informatie over het toewijzen van een lay-outmalplaatje aan gebruikers, zie [ gebruikers aan een lay-outmalplaatje ](../use-layout-templates/assign-users-to-layout-template.md) toewijzen.
 
 ## Toegangsvereisten
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
-
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
-
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan</td> 
-   <td>Alle</td> 
+   <td>Adobe Workfront-pakket</td> 
+   <td><p>Alle</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td><p>Nieuw: Standaard</p>
-  <p> Huidig: Plan</p>
-   </td> 
+   <td>Adobe Workfront-licentie</td> 
+   <td><p>Standard</p>
+       <p>Plan</p></td>
+  </tr> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau</td> 
-   <td> <p>Om deze stappen op systeemniveau uit te voeren, hebt u het toegangsniveau van de Beheerder van het Systeem nodig.
-Om hen voor een groep uit te voeren, moet u een manager van die groep zijn.</p> </td> 
+   <td>Configuraties op toegangsniveau</td> 
+   <td> <p>Om deze stappen op systeemniveau uit te voeren, hebt u het toegangsniveau van de Beheerder van het Systeem nodig.</p>
+        <p>Om hen voor een groep uit te voeren, moet u een manager van die groep zijn.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Voor meer informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Objectkoppen aanpassen
 
-1. Begin werkend aan een lay-outmalplaatje, zoals die in [&#x200B; wordt beschreven creeer en beheer lay-outmalplaatjes &#x200B;](../../customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
+1. Begin werkend aan een lay-outmalplaatje, zoals die in [ wordt beschreven creeer en beheer lay-outmalplaatjes ](../../customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 1. In **pas aan welke gebruikers** drop-down menu zien, selecteren **Projecten**, **Taken**, of **Kwesties**.
 
    <!--when this will be possible for more than 3 objects, at production, make this more general: update the sentence above to say "select an object you want to customize in the Customize what users see drop-down menu). -->
@@ -80,7 +77,7 @@ Om hen voor een groep uit te voeren, moet u een manager van die groep zijn.</p> 
 
    <!--(NOTE: make sure the default names of these fields have not changed; otherwise, update screen shot)-->
 
-   ![&#x200B; de kopbalgebieden van Objecten verbergen en bewegen pictogrammen &#x200B;](assets/object-header-field-x-and-grab-icons-in-lt.png)
+   ![ de kopbalgebieden van Objecten verbergen en bewegen pictogrammen ](assets/object-header-field-x-and-grab-icons-in-lt.png)
 
 1. U kunt maximaal vijf velden in de koptekst van een object opnemen.
 Als u al vijf velden hebt geselecteerd, moet u een veld verwijderen voordat u een nieuw veld kunt toevoegen.
@@ -95,7 +92,7 @@ Als u al vijf velden hebt geselecteerd, moet u een veld verwijderen voordat u ee
    >* Wanneer u het veld &quot;Opgelost door&quot; toevoegt aan de koptekst van een probleem, verandert het veld in &quot;Probleem oplossen, Taak of Project&quot; wanneer er een object is dat is gekoppeld aan het probleem.
 
 
-   ![&#x200B; voeg gebied aan kopbal toe &#x200B;](assets/add-field-to-header-in-lt-list.png)
+   ![ voeg gebied aan kopbal toe ](assets/add-field-to-header-in-lt-list.png)
 
 
 1. (Optioneel) Sleep de toegevoegde velden in een andere volgorde.

@@ -6,20 +6,20 @@ description: De wijzigingen die u aanbrengt in een tijdlijnprofiel, zijn niet on
 author: Alina
 feature: Timesheets
 exl-id: c6a86c1b-8580-4896-8933-d4e2818e98ed
-source-git-commit: 210ca2e82286ff904bc7defb7b8c9c2559489d66
+source-git-commit: 69cd5fb1d089b81b7a1673609b92537137b6b68e
 workflow-type: tm+mt
-source-wordcount: '810'
+source-wordcount: '751'
 ht-degree: 0%
 
 ---
 
 # Tijdschema&#39;s in Adobe Workfront verwijderen
 
-De veranderingen u aan een timesheet profiel aanbrengt zijn niet onmiddellijk voor de momenteel bestaande timesheets, zoals die in [&#x200B; worden verklaard creeer, geef uit, en wijs timesheet profielen &#x200B;](../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md) toe. Als u de wijzigingen zichtbaar wilt maken op bestaande tijdbladen, moet u de tijdbladen verwijderen die zijn gegenereerd en nieuwe tijdbladen genereren. Dit is alleen van toepassing op tijdbladen die zijn gegenereerd door tijdbladprofielen aan gebruikers te koppelen.
+De veranderingen u aan een timesheet profiel aanbrengt zijn niet onmiddellijk voor de momenteel bestaande timesheets, zoals die in [ worden verklaard creeer, geef uit, en wijs timesheet profielen ](../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md) toe. Als u de wijzigingen zichtbaar wilt maken op bestaande tijdbladen, moet u de tijdbladen verwijderen die zijn gegenereerd en nieuwe tijdbladen genereren. Dit is alleen van toepassing op tijdbladen die zijn gegenereerd door tijdbladprofielen aan gebruikers te koppelen.
 
 >[!NOTE]
 >
->De chronologiebladen die manueel zijn gecreeerd kunnen niet worden opnieuw gemaakt door timesheets te regenereren, tenzij de gebruikers met een timesheet profiel zijn geassocieerd aangezien timesheet manueel werd gecreeerd. Als u een handmatig gemaakt tijdblad verwijdert, kunnen er gegevens verloren gaan. Voor informatie over het creëren van één enkele timesheets, zie [&#x200B; een enig-gebruik timesheet &#x200B;](../../timesheets/create-and-manage-timesheets/create-tmshts.md) creëren.
+>De chronologiebladen die manueel zijn gecreeerd kunnen niet worden opnieuw gemaakt door timesheets te regenereren, tenzij de gebruikers met een timesheet profiel zijn geassocieerd aangezien timesheet manueel werd gecreeerd. Als u een handmatig gemaakt tijdblad verwijdert, kunnen er gegevens verloren gaan. Voor informatie over het creëren van één enkele timesheets, zie [ een enig-gebruik timesheet ](../../timesheets/create-and-manage-timesheets/create-tmshts.md) creëren.
 
 Adobe Workfront-beheerders of groepsbeheerders kunnen tijdbladen voor iedereen in het systeem genereren. Voor meer informatie over manueel het produceren van timesheets, zie:
 
@@ -35,28 +35,32 @@ Adobe Workfront-beheerders of groepsbeheerders kunnen tijdbladen voor iedereen i
 
 ## Toegangsvereisten
 
-U moet het volgende hebben om de stappen in dit artikel uit te voeren:
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
-<table style="table-layout:auto"> 
+<table style="table-layout:auto">
  <col> 
- <col> 
+ <col>
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan</td> 
-   <td> <p>Alle</p> </td> 
+   <td>Adobe Workfront-pakket</td> 
+   <td><p>Alle</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie</td> 
-   <td> <p>Plan </p> </td> 
+   <td>Adobe Workfront-licentie</td> 
+   <td>
+   <p>Standard</p>
+   <p>Plan</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>U moet administratieve toegang tot Chronologie hebben. </p> <p>Voor meer informatie, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref"> gebruikers administratieve toegang van de Verlening tot bepaalde gebieden </a>.</p> <p>Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
+   <td>Configuraties op toegangsniveau</td> 
+   <td><p>Administratieve toegang tot timesheets</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Neem contact op met uw Workfront-beheerder om te weten te komen welk abonnement, licentietype of toegang u hebt.
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Tijdschema&#39;s in een lijst verwijderen
 
@@ -78,7 +82,7 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
 
      ![](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
 
-   * Klik op het pictogram Filter ![](assets/filter-nwepng.png) om een ander filter toe te passen of een nieuw filter te maken. Voor informatie over het creëren van of het bijwerken van filters, zie [&#x200B; filters in Adobe Workfront &#x200B;](../../reports-and-dashboards/reports/reporting-elements/create-filters.md) creëren of uitgeven.
+   * Klik op het pictogram Filter ![](assets/filter-nwepng.png) om een ander filter toe te passen of een nieuw filter te maken. Voor informatie over het creëren van of het bijwerken van filters, zie [ filters in Adobe Workfront ](../../reports-and-dashboards/reports/reporting-elements/create-filters.md) creëren of uitgeven.
 
    >[!NOTE]
    >
@@ -86,7 +90,7 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
    >
    >   
    >   
-   >   * [&#x200B; pas Filters, Weergaven, en Groepen aan gebruikend een lay-outmalplaatje &#x200B;](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
+   >   * [ pas Filters, Weergaven, en Groepen aan gebruikend een lay-outmalplaatje ](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
    >   
    >
 
@@ -94,8 +98,8 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
 
    Zie de volgende artikelen voor informatie over het maken van filters, weergaven of groepen:
 
-   * [&#x200B; creeer of geef filters in Adobe Workfront uit &#x200B;](../../reports-and-dashboards/reports/reporting-elements/create-filters.md)
-   * [&#x200B; creeer of geef meningen in Adobe Workfront uit &#x200B;](../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md)
+   * [ creeer of geef filters in Adobe Workfront uit ](../../reports-and-dashboards/reports/reporting-elements/create-filters.md)
+   * [ creeer of geef meningen in Adobe Workfront uit ](../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md)
    * [Groepen maken in Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-groupings.md)
 
 1. Selecteer één of verscheidene timesheets die u wilt schrappen en het **pictogram van de Schrapping** ![](assets/delete.png) bij de bovenkant van de lijst van timesheets klikken.
@@ -108,8 +112,8 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
 
    Raadpleeg de volgende secties voor meer informatie:
 
-   * [&#x200B; creeer, geef uit, en wijs timesheet profielen &#x200B;](../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md) toe
-   * [&#x200B; produceert manueel timesheets &#x200B;](../../timesheets/create-and-manage-timesheets/manually-generate-timesheets.md)
+   * [ creeer, geef uit, en wijs timesheet profielen ](../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md) toe
+   * [ produceert manueel timesheets ](../../timesheets/create-and-manage-timesheets/manually-generate-timesheets.md)
    * [De profielen van een groep maken en beheren](../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-timesheet-profiles.md)
 
 ## Een timesheet verwijderen uit de pagina met tijdlijnen
@@ -118,7 +122,7 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
 1. Klik op de tijdpagina die u wilt verwijderen om deze te openen.
 1. Klik [!UICONTROL **Meer**] pictogram ![](assets/more-icon.png) aan het recht van de timesheet naam, dan klik **Schrapping**.
 
-   ![&#x200B; Schrap timesheet van timesheet pagina &#x200B;](assets/delete-timesheet-from-timesheet-page.png)
+   ![ Schrap timesheet van timesheet pagina ](assets/delete-timesheet-from-timesheet-page.png)
 1. Klik [!UICONTROL **Schrapping**] om te bevestigen.
 
    Het tijdschema wordt verwijderd en kan niet worden hersteld.

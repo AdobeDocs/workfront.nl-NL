@@ -6,9 +6,9 @@ description: U kunt een gebied binnen een bewijs meten.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: c44de4f0-654e-4b1e-b3d6-2bd8f1ee9d8a
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 385f4a6663cacfdcf519bf5699fc1840c2cb2adc
 workflow-type: tm+mt
-source-wordcount: '357'
+source-wordcount: '287'
 ht-degree: 0%
 
 ---
@@ -21,32 +21,34 @@ U kunt een gebied binnen een bewijs meten.
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-abonnement*</td> 
-   <td> <p>Huidig abonnement: Pro of hoger</p> <p>of</p> <p>Verouderd abonnement: Selecteren of Premium</p> <p>Voor meer informatie over het proefdrukken van toegang met de verschillende plannen, zie <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref"> Toegang tot het proefdrukken van functionaliteit in Workfront </a>.</p> </td> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Huidig plan: Werk of Plan</p> <p>Ouder plan: Willekeurig (proefdrukken moet zijn ingeschakeld voor de gebruiker)</p> </td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td> <p>Alle</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Proefdrukrol </td> 
+   <td>Revisor, Reviewer en fiatteur, auteur, moderator</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Bewijs van machtigingsprofiel </td> 
    <td>Manager of hoger</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot documenten bewerken</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
+   <td> <p>Toegang tot documenten bewerken</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42; om te weten te komen welk plan, rol, of Profiel van de Toestemming van het Bewijs u hebt, contacteer uw beheerder van Workfront of van Workfront Proof.
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -57,10 +59,10 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 1. Klik de **Meet een gebied** pictogram bij de bovenkant van de het proef kijker.
 
-   ![&#x200B; measurement_tool_button.png &#x200B;](assets/measurement-tool-button-350x128.png)
+   ![ measurement_tool_button.png ](assets/measurement-tool-button-350x128.png)
 
 1. (Facultatief) klik **de markeringskleur van de Meting** om de kleurenopties uit te breiden, dan een kleur en **Dekking** te klikken die op uw bewijs gemakkelijk te zien is.\
-   ![&#x200B; kleur van de Selectie &#x200B;](assets/selection-color-350x330.png)
+   ![ kleur van de Selectie ](assets/selection-color-350x330.png)
 
    De standaardkleur van het meetgereedschap is rood.
 
@@ -74,13 +76,13 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 1. Sleep het meetvenster naar het gebied van de proefdruk dat u moet meten.
 
-   ![&#x200B; Measurement_tool_when_first_lijkt.png &#x200B;](assets/measurement-tool-when-first-appears-350x143.png)
+   ![ Measurement_tool_when_first_lijkt.png ](assets/measurement-tool-when-first-appears-350x143.png)
 
 1. Sleep de hoeken of randen van het meetvenster om het formaat ervan te wijzigen.
-1. (Facultatief) als u het metingsgebied een nauwkeurige grootte nodig hebt, type **waarden van de grootte van de Selectie 0&rbrace; &lbrace;.**
+1. (Facultatief) als u het metingsgebied een nauwkeurige grootte nodig hebt, type **waarden van de grootte van de Selectie 0} {.**
 1. (Optioneel) Als u een bepaald percentage in een gebied wilt meten, schakelt u het selectievakje Percentage berekenen in. Er wordt een nieuw vak weergegeven waarin u het kunt aanpassen\
-   ![&#x200B; berekenen percentage &#x200B;](assets/calculate-percentage-350x230.png)
+   ![ berekenen percentage ](assets/calculate-percentage-350x230.png)
 
 1. Klik de **Meet een gebied** pictogram bij de bovenkant van de het proef kijker om het hulpmiddel te sluiten wanneer u wordt gebeëindigd.
 
-   ![&#x200B; measurement_tool_button.png &#x200B;](assets/measurement-tool-button-350x128.png)
+   ![ measurement_tool_button.png ](assets/measurement-tool-button-350x128.png)

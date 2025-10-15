@@ -6,22 +6,22 @@ description: Uw Adobe Workfront-beheerder kan u toegang verlenen tot weergave- o
 author: Alina
 feature: Get Started with Workfront
 exl-id: 7025f097-ea99-41bf-965e-617b0f532ff7
-source-git-commit: 871117ddb06af6d37448c683a259ccc7e708930c
+source-git-commit: 4ae96f67b15838403ffce32317d871d6904d6d95
 workflow-type: tm+mt
-source-wordcount: '349'
+source-wordcount: '295'
 ht-degree: 0%
 
 ---
 
 # Overerfde machtigingen voor objecten weergeven
 
-Uw Adobe Workfront-beheerder kan u toegang verlenen tot weergave- of bewerkingsobjecten wanneer u uw toegangsniveau toewijst. Voor meer informatie, zie [&#x200B; toegang van de Verlening tot projecten &#x200B;](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md).
+Uw Adobe Workfront-beheerder kan u toegang verlenen tot weergave- of bewerkingsobjecten wanneer u uw toegangsniveau toewijst. Voor meer informatie, zie [ toegang van de Verlening tot projecten ](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md).
 
-Samen met het toegangsniveau dat de gebruikers worden verleend, kunt u hen toestemmingen aan specifieke voorwerpen ook verlenen die u toegang hebt om te delen. Voor meer informatie over toegangsniveaus en toestemmingen, zie [&#x200B; hoe de toegangsniveaus en de toestemmingen samen &#x200B;](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md) werken.
+Samen met het toegangsniveau dat de gebruikers worden verleend, kunt u hen toestemmingen aan specifieke voorwerpen ook verlenen die u toegang hebt om te delen. Voor meer informatie over toegangsniveaus en toestemmingen, zie [ hoe de toegangsniveaus en de toestemmingen samen ](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md) werken.
 
 Objecten nemen machtigingen over van bovenliggende objecten in Adobe Workfront.
 
-Voor informatie over de hiërarchie van voorwerpen in Workfront, zie [&#x200B; voorwerpen in Adobe Workfront &#x200B;](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md) begrijpen.
+Voor informatie over de hiërarchie van voorwerpen in Workfront, zie [ voorwerpen in Adobe Workfront ](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md) begrijpen.
 
 ## Toegangsvereisten
 
@@ -55,34 +55,34 @@ Voor informatie over de hiërarchie van voorwerpen in Workfront, zie [&#x200B; v
 </table>
 -->
 
-+++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
-
-U moet het volgende hebben:
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-abonnement*</td> 
-   <td> <p>Alle </p> </td> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Werk of hoger</p> </td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td> <p>Standard</p> 
+   <p>Werk of hoger</p> 
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang weergeven of vergroten voor de objecten waarvoor u machtigingen wilt weergeven</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
+   <td> <p>Toegang weergeven of vergroten voor de objecten waarvoor u machtigingen wilt weergeven</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Machtigingen weergeven of hoger voor de objecten waarvoor u machtigingen wilt weergeven</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
+   <td> <p>Machtigingen weergeven of hoger voor de objecten waarvoor u machtigingen wilt weergeven</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -101,7 +101,7 @@ U kunt als volgt overgeërfde machtigingen voor een project weergeven:
 
    ![](assets/remove-inherited-permissions-on-project-nwe-350x475.png)
 
-1. (Facultatief) om geërfte toestemmingen van een voorwerp te verwijderen, zie [&#x200B; toestemmingen uit voorwerpen &#x200B;](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md) verwijderen.
+1. (Facultatief) om geërfte toestemmingen van een voorwerp te verwijderen, zie [ toestemmingen uit voorwerpen ](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md) verwijderen.
 
    >[!NOTE]
    >

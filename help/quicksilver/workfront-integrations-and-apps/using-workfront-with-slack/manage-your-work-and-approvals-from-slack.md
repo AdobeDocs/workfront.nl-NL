@@ -6,9 +6,9 @@ description: U kunt uw thuiswerklijst openen, taken en problemen controleren en 
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 802a2f16-d827-455e-9e49-f58f4c5fc482
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 6178cabbf021fbf92bd8795c5c2bd0346801d64d
 workflow-type: tm+mt
-source-wordcount: '861'
+source-wordcount: '864'
 ht-degree: 0%
 
 ---
@@ -21,36 +21,42 @@ Nadat u [!DNL Adobe Workfront for Slack] hebt geïnstalleerd, kunt u het volgend
 * Controleren en accepteren om te werken aan taken en problemen vanuit [!DNL Slack]
 * Goedkeuringen beoordelen en beslissen via [!DNL Slack]
 
-Voor meer informatie over het vormen [!DNL Workfront] met [!DNL Slack], zie [&#x200B;  [!DNL Adobe Workfront for Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md) vormen.
+Voor meer informatie over het vormen [!DNL Workfront] met [!DNL Slack], zie [  [!DNL Adobe Workfront for Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md) vormen.
 
 ## Toegangsvereisten
 
-U moet het volgende hebben:
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://business.adobe.com/nl/products/workfront/pricing.html" target="_blank">[!DNL Adobe Workfront] plan </a>*</td> 
-   <td> <p>[!UICONTROL Pro] of hoger</p> </td> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
+   <td> <p>Alle</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td> <p>Alle</p>
   </tr> 
  </tbody> 
 </table>
 
-&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Vereisten
 
 Voordat u uw werk en goedkeuringen kunt beheren vanuit [!DNL Slack] , moet u
 
 * Configureren [!DNL Workfront for Slack]\
-  Voor instructies bij het vormen [!DNL Workfront for Slack], zie [&#x200B; vormen  [!DNL Adobe Workfront for Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md).
+  Voor instructies bij het vormen [!DNL Workfront for Slack], zie [ vormen  [!DNL Adobe Workfront for Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md).
 
 ## Uw werk beheren vanuit [!DNL Slack]
 
 1. Meld u aan bij de [!DNL Slack] -instantie en meld u aan bij [!DNL Workfront] from [!DNL Slack] .\
-   Voor meer informatie over het programma openen aan [!DNL Workfront] van [!DNL Slack], zie het &quot;Aanmelden aan [!DNL Workfront] van [!DNL Slack]&quot;sectie in [&#x200B; Toegang  [!DNL Adobe Workfront]  van  [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md).
+   Voor meer informatie over het programma openen aan [!DNL Workfront] van [!DNL Slack], zie het &quot;Aanmelden aan [!DNL Workfront] van [!DNL Slack]&quot;sectie in [ Toegang  [!DNL Adobe Workfront]  van  [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md).
 
 1. Typ de volgende opdracht in het berichtveld vanaf een willekeurig kanaal:
 
@@ -65,19 +71,19 @@ Voordat u uw werk en goedkeuringen kunt beheren vanuit [!DNL Slack] , moet u
 
 1. (Optioneel) Klik op **[!UICONTROL Tasks]** om al uw taken weer te geven.
 
-   Voor meer informatie over het beheren van taken in [!DNL Slack], zie [&#x200B; het Leiden Uw Taken van  [!DNL Slack]](#manage-your-tasks-from-slack-manage-your-tasks-from-slack).
+   Voor meer informatie over het beheren van taken in [!DNL Slack], zie [ het Leiden Uw Taken van  [!DNL Slack]](#manage-your-tasks-from-slack-manage-your-tasks-from-slack).
 
 1. (Optioneel) Klik op **[!UICONTROL Issues]** om al uw problemen weer te geven.
 
-   Voor meer informatie over het beheren van kwesties in [!DNL Slack], zie [&#x200B; het Leiden Uw Kwesties van  [!DNL Slack]](#manage-your-issues-from-slack-manage-your-issues-from-slack).
+   Voor meer informatie over het beheren van kwesties in [!DNL Slack], zie [ het Leiden Uw Kwesties van  [!DNL Slack]](#manage-your-issues-from-slack-manage-your-issues-from-slack).
 
 1. (Optioneel) Klik op **[!UICONTROL Approvals]** om alle goedkeuringen weer te geven die op uw beslissing wachten.\
-   Voor meer informatie over het beheren van uw goedkeuringen in [!DNL Slack], zie [&#x200B; uw goedkeuringen van  [!DNL Slack]](#manage-your-approvals-from-slack-manage-your-approvals-from-slack) leiden.
+   Voor meer informatie over het beheren van uw goedkeuringen in [!DNL Slack], zie [ uw goedkeuringen van  [!DNL Slack]](#manage-your-approvals-from-slack-manage-your-approvals-from-slack) leiden.
 
 ## Uw taken beheren vanuit [!DNL Slack] {#manage-your-tasks-from-slack}
 
 1. Meld u aan bij de [!DNL Slack] -instantie en meld u aan bij [!DNL Workfront] from [!DNL Slack] .\
-   Voor informatie over het aanmelden bij [!DNL Workfront] van [!DNL Slack], zie het &quot;Aanmelden aan [!DNL Workfront] van [!DNL Slack]&quot;sectie in [&#x200B; Toegang  [!DNL Adobe Workfront]  van  [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md).
+   Voor informatie over het aanmelden bij [!DNL Workfront] van [!DNL Slack], zie het &quot;Aanmelden aan [!DNL Workfront] van [!DNL Slack]&quot;sectie in [ Toegang  [!DNL Adobe Workfront]  van  [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md).
 
 1. Typ een van de volgende opdrachten in het berichtveld vanaf een willekeurig kanaal:
 
@@ -120,7 +126,7 @@ Voordat u uw werk en goedkeuringen kunt beheren vanuit [!DNL Slack] , moet u
 ## Uw uitgaven beheren vanuit [!DNL Slack] {#manage-your-issues-from-slack}
 
 1. Meld u aan bij de [!DNL Slack] -instantie en meld u aan bij [!DNL Workfront] from [!DNL Slack] .\
-   Voor meer informatie over het programma openen aan [!DNL Workfront] van [!DNL Slack], zie [&#x200B; het Aanmelden aan  [!DNL Workfront]  van  [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md#logging-in-to-workfront) section in [Access [!DNL Adobe Workfront]  van  [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md).
+   Voor meer informatie over het programma openen aan [!DNL Workfront] van [!DNL Slack], zie [ het Aanmelden aan  [!DNL Workfront]  van  [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md#logging-in-to-workfront) section in [Access [!DNL Adobe Workfront]  van  [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md).
 
 1. Typ een van de volgende opdrachten in het berichtveld vanaf een willekeurig kanaal:
 
@@ -153,7 +159,7 @@ Voordat u uw werk en goedkeuringen kunt beheren vanuit [!DNL Slack] , moet u
 ## Uw goedkeuringen beheren vanuit [!DNL Slack] {#manage-your-approvals-from-slack}
 
 1. Meld u aan bij de [!DNL Slack] -instantie en meld u aan bij [!DNL Workfront] from [!DNL Slack] .\
-   Voor meer informatie over het programma openen aan [!DNL Workfront] van [!DNL Slack], zie het &quot;Aanmelden aan [!DNL Workfront] van [!DNL Slack]&quot;sectie in [&#x200B; Toegang  [!DNL Adobe Workfront]  van  [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md).
+   Voor meer informatie over het programma openen aan [!DNL Workfront] van [!DNL Slack], zie het &quot;Aanmelden aan [!DNL Workfront] van [!DNL Slack]&quot;sectie in [ Toegang  [!DNL Adobe Workfront]  van  [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md).
 
 1. Typ een van de volgende opdrachten in het berichtveld vanaf een willekeurig kanaal:
 

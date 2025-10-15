@@ -1,14 +1,14 @@
 ---
 title: 'Tips, trucs en probleemoplossing voor projecten: artikelindex'
-description: Tips, trucs en probleemoplossing voor projecten
+description: Dit artikel biedt tips voor het oplossen van veelvoorkomende problemen bij het werken met projecten in Adobe Workfront.
 author: Alina
 draft: Probably
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: dd849f4e-aa48-4e27-80b7-af321f730708
-source-git-commit: fb1c7ade6622db391e0dac54f37603efe9dc0a58
+source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
 workflow-type: tm+mt
-source-wordcount: '57'
+source-wordcount: '68'
 ht-degree: 0%
 
 ---
@@ -17,9 +17,9 @@ ht-degree: 0%
 
 Deze sectie bevat de volgende artikelen:
 
-* [&#x200B; Veelgestelde vragen van Projecten &#x200B;](../../../manage-work/projects/tips-tricks-and-troubleshooting/projects-faqs.md)
-* [&#x200B; de status van het Project zal niet van Volledig in Huidige &#x200B;](../../../manage-work/projects/tips-tricks-and-troubleshooting/project-status-does-not-change-from-complete-to-current.md) veranderen
-* [&#x200B; het voorbeeld van de Berekening - bereken EAC op het Niveau van het Project &#x200B;](../../../manage-work/projects/tips-tricks-and-troubleshooting/calculate-eac-at-project-level-example.md)
+* [ Veelgestelde vragen van Projecten ](../../../manage-work/projects/tips-tricks-and-troubleshooting/projects-faqs.md)
+* [ de status van het Project zal niet van Volledig in Huidige ](../../../manage-work/projects/tips-tricks-and-troubleshooting/project-status-does-not-change-from-complete-to-current.md) veranderen
+* [ het voorbeeld van de Berekening - bereken EAC op het Niveau van het Project ](../../../manage-work/projects/tips-tricks-and-troubleshooting/calculate-eac-at-project-level-example.md)
 * [Voorbeeld van berekening - EAC berekenen als een roll-up van taken](../../../manage-work/projects/tips-tricks-and-troubleshooting/calculate-eac-by-rolling-up-from-tasks-example.md)
 
   <!--

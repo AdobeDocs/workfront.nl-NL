@@ -4,12 +4,12 @@ product-area: timesheets
 navigation-topic: tips-tricks-and-troubleshooting-timesheets
 title: Unable to Log Time for Future Dates
 description: U kunt geen uren voor toekomstige data over projecten, taken, of kwesties registreren omdat de gebieden gehandicapt zijn.
-author: Alina
+author: Lisa
 feature: Timesheets
 exl-id: 6108fad2-f0a2-4989-8645-69a16820032b
-source-git-commit: 0483230c5d8b7d33f420c6c5f09c4a5aafe37f37
+source-git-commit: 69cd5fb1d089b81b7a1673609b92537137b6b68e
 workflow-type: tm+mt
-source-wordcount: '151'
+source-wordcount: '135'
 ht-degree: 0%
 
 ---
@@ -30,12 +30,12 @@ Systeembeheerders kunnen een instelling bijwerken, zodat u zich kunt aanmelden b
 
 Als systeembeheerder, doe het volgende:
 
-1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik **Opstelling** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Breid **Tijdopnamen &amp; Uren** uit, dan klik **Voorkeur**.
 
-1. In de **Algemene sectie van de Voorkeur**, selecteer de **uren van het Logboek voor toekomstige data**.
+1. In de **Algemene sectie van de Voorkeur**, uitgezochte **uren van het Logboek voor toekomstige data**.
 
 1. Klik **sparen**.
 
-Voor meer informatie over dit en andere opties betreffende timesheets en uren, zie [&#x200B; timesheet en uurvoorkeur &#x200B;](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md) vormen.
+Voor meer informatie over dit en andere opties betreffende timesheets en uren, zie [ timesheet en uurvoorkeur ](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md) vormen.

@@ -1,14 +1,14 @@
 ---
 title: Verzoeken kopiëren en verzenden
 description: Wanneer u regelmatig vergelijkbare verzoeken indient, kunt u een bestaand verzonden verzoek kopiëren. In dit geval kunt u een bestaande aanvraag kopiëren, er minimale wijzigingen in aanbrengen en deze opnieuw verzenden als een nieuw verzoek.
-author: Alina
+author: Becky
 feature: Work Management
 role: User
 topic: Collaboration
 exl-id: 3d7581d0-e99c-4204-b1e5-04fde72251bb
-source-git-commit: 0ffae8ed285f6e9164a239552feb90465bea3cca
+source-git-commit: 9cdf3d78e1d19f3d581f8d527919a608c5cc0ddc
 workflow-type: tm+mt
-source-wordcount: '1361'
+source-wordcount: '1338'
 ht-degree: 0%
 
 ---
@@ -17,63 +17,22 @@ ht-degree: 0%
 
 Wanneer u regelmatig vergelijkbare verzoeken indient, kunt u een bestaand verzonden verzoek kopiëren. In dit geval kunt u een bestaande aanvraag kopiëren, er minimale wijzigingen in aanbrengen en deze opnieuw verzenden als een nieuw verzoek.
 
-<!--Old?? 
-
-## Access requirements
-
-+++ Expand to view access requirements for the functionality in this article.
-
-You must have the following access to perform the steps in this article:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Any</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Request or higher</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Issues</p> <p><b>NOTE</b> 
-   
-   If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Object permissions</td> 
-   <td> <p>Access to add requests to a request queue</p> <p>View or higher permissions on the existing request</p> <p>For information on setting up a request queue, see <a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">Create a Request Queue</a>. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
-
-+++
--->
-
 ## Toegangsvereisten
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan</td> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
    <td> <p>Alle </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie</td> 
-   <td> <p>Nieuw: Medewerker of hoger</p>
-   of
-   <p>Huidig: Verzoek of hoger</p>
+   <td> <p>Medewerker of hoger</p>
+   <p>Aanvraag of hoger</p>
     </td> 
   </tr> 
   <tr> 
@@ -91,7 +50,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -108,7 +67,7 @@ U moet een verzoek hebben dat u of iemand in uw organisatie eerder heeft ingedie
 
   Raadpleeg de volgende artikelen voor meer informatie:
 
-   * [&#x200B; creeer een Rij van het Verzoek &#x200B;](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)
+   * [ creeer een Rij van het Verzoek ](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)
    * [Projecten bewerken](../../../manage-work/projects/manage-projects/edit-projects.md)
 
 * U kunt de kopie van de oorspronkelijke aanvraag bijwerken voordat u deze opnieuw indient als een nieuwe aanvraag.
@@ -121,12 +80,12 @@ U moet een verzoek hebben dat u of iemand in uw organisatie eerder heeft ingedie
      >
      >Als het rijonderwerp slechts in de verzoekrij was, kunt u nog het verzoek kopiëren en voorleggen en het zal onder de verzoekrij zelf worden bewaard.
 
-   * De verzoekrij wordt niet meer gepubliceerd als Rij van het Verzoek van de Hulp. Voor informatie, zie [&#x200B; een Rij van het Verzoek &#x200B;](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md) creëren.
+   * De verzoekrij wordt niet meer gepubliceerd als Rij van het Verzoek van de Hulp. Voor informatie, zie [ een Rij van het Verzoek ](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md) creëren.
    * Als de verzoekrij geen rijonderwerp heeft en het originele verzoek werd voorgelegd vóór Januari 2022.
 
    * De status van het project verbonden aan de verzoekrij is niet meer Huidig.
 
-* U kunt een kopie van een omgezette aanvraag kopiëren en verzenden als de aanvraag tijdens het conversieproces is behouden. Voor meer informatie, zie [&#x200B; Overzicht van het omzetten van kwesties in Adobe Workfront &#x200B;](../../../manage-work/issues/convert-issues/convert-issues.md).
+* U kunt een kopie van een omgezette aanvraag kopiëren en verzenden als de aanvraag tijdens het conversieproces is behouden. Voor meer informatie, zie [ Overzicht van het omzetten van kwesties in Adobe Workfront ](../../../manage-work/issues/convert-issues/convert-issues.md).
 
   >[!TIP]
   >
@@ -171,7 +130,7 @@ U moet een verzoek hebben dat u of iemand in uw organisatie eerder heeft ingedie
      >
      >Als de weg van de weg van het originele verzoek verandert, dan wijzigde de maker van de verzoekrij de rij.
 
-1. (Optioneel) Werk de gegevens van de gekopieerde aanvraag bij. Afhankelijk van welke gebieden de schepper van de verzoekrij in de **Nieuwe Uitgevende Gebieden** sectie van de Rij **&#x200B;**&#x200B;subtab van de Details van de Rij op het project werd toegelaten, zou u om het even welke volgende gebieden kunnen vinden:
+1. (Optioneel) Werk de gegevens van de gekopieerde aanvraag bij. Afhankelijk van welke gebieden de schepper van de verzoekrij in de **Nieuwe Uitgevende Gebieden** sectie van de Rij **** subtab van de Details van de Rij op het project werd toegelaten, zou u om het even welke volgende gebieden kunnen vinden:
 
    <table style="table-layout:auto"> 
     <col> 

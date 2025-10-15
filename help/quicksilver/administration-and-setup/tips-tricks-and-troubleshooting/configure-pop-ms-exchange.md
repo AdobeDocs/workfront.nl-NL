@@ -5,13 +5,13 @@ product-area: system-administration;setup
 navigation-topic: tips-tricks-troubleshooting-setup-admin
 title: POP configureren in Microsoft Exchange
 description: Een POP e-mailrekening in  [!DNL Microsoft Exchange]  wordt onbruikbaar gemaakt.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 4f7b6f40-cfbd-4f02-8c3e-de26b05db13b
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: 929502c256011b464d938ad1095c127407e4a795
 workflow-type: tm+mt
-source-wordcount: '394'
+source-wordcount: '371'
 ht-degree: 0%
 
 ---
@@ -26,39 +26,31 @@ Een POP-e-mailaccount in [!DNL Microsoft Exchange] is uitgeschakeld.
 
 Voordat u tijd besteedt aan het oplossen van problemen, moet u ervoor zorgen dat de POP-account van de gebruiker correct is geconfigureerd. Als u problemen blijft ervaren nadat u hebt bevestigd dat de POP-account correct is geconfigureerd, neemt u contact op met de [!DNL Microsoft] Support of een van de partners voor extra hulp.
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">For instructions on integrating a POP account in Adobe Workfront, see .</p>
--->
-
 ## Toegangsvereisten
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
-
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
-   <td>Alle</td> 
+   <td>[!DNL Adobe Workfront] package</td> 
+   <td><p>Alle</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licentie</td> 
-   <td>
-   <p>Nieuw: Standaard</p>
-   <p>of</p>
-   <p>Huidig: Plan</p></td> 
+   <td>[!DNL Adobe Workfront] licentie</td> 
+   <td><p>Standard</p>
+       <p>Plan</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau</td> 
+   <td>Configuraties op toegangsniveau</td> 
    <td>[!UICONTROL System Administrator]</td> 
   </tr> 
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

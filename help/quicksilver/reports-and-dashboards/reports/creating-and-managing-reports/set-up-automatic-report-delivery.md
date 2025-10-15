@@ -6,9 +6,9 @@ description: Plan een automatische levering van rapporten
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 5b8e382c-bfe8-43aa-aa09-a2aa0c4d56cc
-source-git-commit: 62f56486ccc590921b7dc8227d46cdede84df32d
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '1309'
+source-wordcount: '1293'
 ht-degree: 0%
 
 ---
@@ -23,50 +23,47 @@ ht-degree: 0%
 
 U kunt rapporten plannen om automatisch aan gebruikers op een bepaald programma te leveren, of u kunt rapporten manueel één keer verzenden. Wanneer u een rapport van Adobe Workfront verzendt, ontvangt de gebruiker een e-mail met het Workfront-rapport in een aparte bijlage.
 
-Voor meer informatie, met inbegrip van groottebeperkingen die de levering van uw rapporten kunnen beïnvloeden, zie [&#x200B; de leveringsoverzicht van het Rapport &#x200B;](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md).
+Voor meer informatie, met inbegrip van groottebeperkingen die de levering van uw rapporten kunnen beïnvloeden, zie [ de leveringsoverzicht van het Rapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md).
 
 ## Toegangsvereisten
 
-+++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
-
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan</td> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie</td> 
-      <td> 
-      <p>Nieuw: Standaard</p>
-      <p>of</p>
-
-<p>Huidig: Plan</p>
-
-</td>
+   <td> 
+      <p>Standard</p>
+      <p>Plan</p>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau</td> 
-   <td> <p>Toegang tot rapporten, dashboards, kalenders bewerken</p> <p>Toegang tot filters, weergaven, groepen bewerken</p> </td> 
+   <td> <p>Toegang tot rapporten, dashboards, kalenders bewerken</p>
+   <p>Toegang tot filters, weergaven, groepen bewerken</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Machtigingen beheren voor een rapport</p></td> 
+     <td> <p>Machtigingen beheren voor een rapport</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Vereisten
 
-Voordat u begint, moet u een rapport maken. Meer leren over het creëren van rapporten, zie [&#x200B; een douanerapport &#x200B;](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) creëren.
+Voordat u begint, moet u een rapport maken. Meer leren over het creëren van rapporten, zie [ een douanerapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) creëren.
 
 ## Een rapportlevering plannen
 
@@ -112,7 +109,7 @@ Een rapport plannen voor automatische levering: &#x200B;
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Dit rapport leveren met de toegangsrechten van</p> </td> 
-      <td> <p>Typ de naam van een gebruiker die toegang heeft tot het rapport en klik vervolgens op de naam wanneer deze wordt weergegeven in de vervolgkeuzelijst. De gebruikers die het rapport ontvangen zullen het zelfde niveau van toegang tot het rapport worden verleend zoals de gebruiker die u hier specificeert.<br> voor meer informatie, zie <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/run-deliver-report-access-rights-another-user.md" class="MCXref xref"> Looppas en lever een rapport met de toegangsrechten van een andere gebruiker </a>.</p> <p>Opmerking: dit veld ondersteunt geen jokertekens. Bijvoorbeeld, stelt het gebruiken van het vervangings{</em> 0}$$User.ID niet het rapport met de toegangsrechten van de gebruiker in werking die het rapport ontvangt.<em></p> </td> 
+      <td> <p>Typ de naam van een gebruiker die toegang heeft tot het rapport en klik vervolgens op de naam wanneer deze wordt weergegeven in de vervolgkeuzelijst. De gebruikers die het rapport ontvangen zullen het zelfde niveau van toegang tot het rapport worden verleend zoals de gebruiker die u hier specificeert.<br> voor meer informatie, zie <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/run-deliver-report-access-rights-another-user.md" class="MCXref xref"> Looppas en lever een rapport met de toegangsrechten van een andere gebruiker </a>.</p> <p>Opmerking: dit veld ondersteunt geen jokertekens. Bijvoorbeeld, stelt het gebruiken van het vervangings{<em> 0}$$User.ID niet het rapport met de toegangsrechten van de gebruiker in werking die het rapport ontvangt.</em></p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Indeling</p> </td> 
@@ -169,13 +166,13 @@ Een rapport plannen voor automatische levering: &#x200B;
 
 1. Klik **sparen** om de rapportlevering te bewaren. De rapportvertoningen in de **Herhalende Leveringen** sectie van **verzenden het de dialoogvakje van het Rapport** en zullen op de geplande tijd verzenden.
 
-   Voor informatie over groottebeperkingen die de levering van uw rapporten kunnen beïnvloeden, zie de de leveringsgrenzen van het sectierapport [&#128279;](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md#understanding-export-limits) en [&#x200B; de grenzen van de Uitvoer &#x200B;](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md#export).
+   Voor informatie over groottebeperkingen die de levering van uw rapporten kunnen beïnvloeden, zie de de leveringsgrenzen van het sectierapport [ ](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md#understanding-export-limits) en [ de grenzen van de Uitvoer ](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md#export).
 
 >[!IMPORTANT]
 >
 >Geplande rapporten zijn onderworpen aan een interne tijdslimiet wanneer zij voor levering worden verwerkt. Als een rapport langer duurt dan de te verzenden limiet, ontvangt u een melding en wordt het rapport niet meer bezorgd, ongeacht de resterende geplande leveringen. Om het rapport verder te verzenden, probeer eerst de grootte van het rapport door filters en meningen te verminderen, dan creeer een nieuwe geplande levering.
 >
->Als u een gepland rapport gebruikt om Workfront-gegevens te analyseren met een BI-programma, raden we u aan in plaats daarvan Workfront Data Connect te gebruiken. Voor meer informatie, zie [&#x200B; de Gegevens van Workfront verbinden overzicht &#x200B;](/help/quicksilver/reports-and-dashboards/data-lake/data-lake-overview.md).
+>Als u een gepland rapport gebruikt om Workfront-gegevens te analyseren met een BI-programma, raden we u aan in plaats daarvan Workfront Data Connect te gebruiken. Voor meer informatie, zie [ de Gegevens van Workfront verbinden overzicht ](/help/quicksilver/reports-and-dashboards/data-lake/data-lake-overview.md).
 
 ## Een geplande rapportlevering verwijderen
 

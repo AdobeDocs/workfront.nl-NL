@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 7b76b9e8-fbb8-45a7-9e26-1ddc6d5176d8
-source-git-commit: 7f95df7acfb1afd0974c0138152a68326631d265
+source-git-commit: 20ebcb74c79aea67ea7cb1ba083dfea623fe7c16
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '350'
 ht-degree: 1%
 
 ---
@@ -27,31 +27,27 @@ U kunt alle onkostentypen die u maakt, bewerken of verwijderen. U kunt de ingebo
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
-   <td>Alle</td> 
+   <td>[!DNL Adobe Workfront] package</td> 
+   <td><p>Alle</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licentie</td> 
-   <td><p>Nieuw: [!UICONTROL Standard]</p>
-   of
-   <p>Huidige: [!UICONTROL Plan]</p>
-   </td> 
+   <td>[!DNL Adobe Workfront] licentie</td> 
+   <td><p>[!UICONTROL Standard]</p>
+       <p>[!UICONTROL Plan]</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau</td> 
-   <td>[!UICONTROL System Administrator]</td>
-  </tr>
+   <td>Configuraties op toegangsniveau</td> 
+   <td>[!UICONTROL System Administrator]</td> 
+  </tr> 
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -97,7 +93,7 @@ De standaarduitgaventypen in [!DNL Workfront] die niet kunnen worden verwijderd 
 {{step-1-to-setup}}
 
 1. Klik op **[!UICONTROL Expense Types]**.
-1. Selecteer het onkostentype dat u wilt wijzigen, dan klik het **[!UICONTROL Edit]** pictogram ![&#x200B; uitgeven pictogram &#x200B;](assets/edit-icon.png).
+1. Selecteer het onkostentype dat u wilt wijzigen, dan klik het **[!UICONTROL Edit]** pictogram ![ uitgeven pictogram ](assets/edit-icon.png).
 
    Het dialoogvenster **[!UICONTROL Edit Expense Type]** wordt weergegeven.
 
@@ -105,4 +101,4 @@ De standaarduitgaventypen in [!DNL Workfront] die niet kunnen worden verwijderd 
 
    Het uitgaventype is nu beschikbaar voor gebruikers om het met hun uitgaven op projecten en taken te associëren.
 
-Voor meer informatie over hoe te om kosten te gebruiken en hoe zij de kosten van een project kunnen beïnvloeden, zie artikel [&#x200B; projectuitgaven beheren &#x200B;](../../../manage-work/projects/project-finances/manage-project-expenses.md).
+Voor meer informatie over hoe te om kosten te gebruiken en hoe zij de kosten van een project kunnen beïnvloeden, zie artikel [ projectuitgaven beheren ](../../../manage-work/projects/project-finances/manage-project-expenses.md).

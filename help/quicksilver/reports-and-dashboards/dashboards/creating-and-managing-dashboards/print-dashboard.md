@@ -6,9 +6,9 @@ description: U kunt een dashboard afdrukken of exporteren naar een .PDF-bestand.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 30f3481b-23b6-4dc9-be0d-9cffd5d4dfed
-source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
+source-git-commit: c8b7ad473b0c2120ef5ea52374b3501ad6f553f1
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '460'
 ht-degree: 0%
 
 ---
@@ -25,43 +25,35 @@ U kunt een dashboard afdrukken of exporteren naar een .PDF-bestand. Als u een da
 
 ## Toegangsvereisten
 
-+++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
-
-U moet het volgende hebben:
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront-plan</strong></td> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront-licentie</strong></td> 
-      <td> 
-      <p>Nieuw:</p>
-         <ul>
-         <li><p>Standaard</p></li>
-         </ul>
-      <p>Huidige:</p>
-         <ul>
-         <li><p>Werk of hoger</p></li>
-         </ul>
-   </td>
+   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td> 
+      <p>Standard</p>
+      <p>Werk of hoger</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Configuraties op toegangsniveau</strong></td> 
-   <td> <p>Toegang tot rapporten, dashboards en kalenders weergeven</p> </td> 
-  </tr> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
+   <td> <p>Toegang tot rapporten, dashboards en kalenders bewerken</p></td> 
+  </tr>  
   <tr> 
-   <td role="rowheader"><strong> de toestemmingen van Objecten </strong>/td&gt; 
+   <td role="rowheader">Objectmachtigingen</td> 
    <td> <p>Machtigingen weergeven voor het dashboard</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -69,13 +61,13 @@ Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van W
 
 Het dashboard moet worden gemaakt voordat u het kunt afdrukken.
 
-Voor informatie bij het creëren van dashboards, zie [&#x200B; een dashboard &#x200B;](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md) creëren.
+Voor informatie bij het creëren van dashboards, zie [ een dashboard ](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md) creëren.
 
 ## Begrijp welke informatie wordt gedrukt wanneer het drukken van een dashboard
 
 Wanneer u een dashboard afdrukt of opslaat als een .PDF-bestand, worden sommige gegevens van het dashboard, zoals deze worden weergegeven in de Adobe Workfront-webtoepassing, mogelijk niet weergegeven in het afgedrukte of geëxporteerde bestand.
 
-* [&#x200B; wat wordt getoond?](#what-is-displayed)
+* [ wat wordt getoond?](#what-is-displayed)
 * [Wat wordt niet weergegeven?](#what-is-not-displayed)
 
 ### Wat wordt weergegeven? {#what-is-displayed}
@@ -86,7 +78,7 @@ De volgende informatie wordt opgenomen in het afgedrukte of geëxporteerde dashb
 * Titels rapporteren
 * Tijdstempel van wanneer het rapport voor het laatst is gegenereerd
 * Alle objecten op het dashboard, inclusief lijstweergaven, externe webpagina&#39;s, rapporten en kalenders
-* Het logo van uw bedrijf, als uw Workfront-beheerder dit heeft aangepast in uw globale navigatiebalk. Voor meer informatie over branding de plaats van Workfront, zie [&#x200B; merknaam uw instantie van Adobe Workfront &#x200B;](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md).
+* Het logo van uw bedrijf, als uw Workfront-beheerder dit heeft aangepast in uw globale navigatiebalk. Voor meer informatie over branding de plaats van Workfront, zie [ merknaam uw instantie van Adobe Workfront ](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md).
 
 ### Wat wordt niet weergegeven? {#what-is-not-displayed}
 
@@ -107,13 +99,13 @@ De volgende informatie is niet opgenomen in het afgedrukte of geëxporteerde das
 
      >[!IMPORTANT]
      >
-     >* Geen van deze opties is beschikbaar wanneer het dashboard is ingesloten in een aangepast tabblad. Voor informatie over het creëren van douanetabs, zie [&#x200B; douanetabellen of secties &#x200B;](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md) creëren.
+     >* Geen van deze opties is beschikbaar wanneer het dashboard is ingesloten in een aangepast tabblad. Voor informatie over het creëren van douanetabs, zie [ douanetabellen of secties ](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md) creëren.
      >* De optie Sneltoets is niet beschikbaar als u de browser van Internet Explorer gebruikt.
 
 1. Op het **gebied van de Bestemming**, selecteer van de diverse beschikbare drukopties.\
    De afdrukopties variëren afhankelijk van de gebruikte browser- en browserversie.
 
 1. (Facultatief) sparen het dashboard als .PDF dossier, dan klik **sparen** om .PDF te bewaren.\
-   Leren hoe te om het dashboard als .PDF dossier te bewaren, zie [&#x200B; Uitvoer een dashboard &#x200B;](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/export-dashboard.md).
+   Leren hoe te om het dashboard als .PDF dossier te bewaren, zie [ Uitvoer een dashboard ](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/export-dashboard.md).
 
 1. Klik **Druk**.

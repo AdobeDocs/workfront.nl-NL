@@ -6,9 +6,9 @@ description: Documenten kunnen in mappen worden ingedeeld. U kunt persoonlijke m
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 41974d6b-fb00-49b7-9db2-36519994e0fd
-source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
+source-git-commit: 3f9a824780f2ded914d461a473aef3b6ecfa8701
 workflow-type: tm+mt
-source-wordcount: '307'
+source-wordcount: '258'
 ht-degree: 0%
 
 ---
@@ -25,28 +25,28 @@ Documenten kunnen in mappen worden ingedeeld. U kunt persoonlijke mappen maken i
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-abonnement*</td> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Controleren of hoger</p> </td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td> 
+   <p>Medewerker of hoger</p>
+   <p>Controleren of hoger</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot documenten bewerken</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
+   <td> <p>Toegang tot documenten bewerken</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -62,7 +62,7 @@ Met een open voorwerp van Workfront, klik **Documenten** in het linkerpaneel.
 
 1. Klik op de weergaveopties boven het rechterdeelvenster om de weergave van de documenten te wijzigen.
 
-   ![&#x200B; de meningsopties van het Document &#x200B;](assets/screenshot-2016-07-07-12.46.54.png)
+   ![ de meningsopties van het Document ](assets/screenshot-2016-07-07-12.46.54.png)
 
 ## Mappen en submappen maken
 
@@ -82,4 +82,4 @@ Met een open voorwerp van Workfront, klik **Documenten** in het linkerpaneel.
 
 ## Mappen delen
 
-Voor informatie over het delen van omslagen, zie [&#x200B; een documentomslag &#x200B;](../../workfront-basics/grant-and-request-access-to-objects/share-a-document-folder.md) delen.
+Voor informatie over het delen van omslagen, zie [ een documentomslag ](../../workfront-basics/grant-and-request-access-to-objects/share-a-document-folder.md) delen.

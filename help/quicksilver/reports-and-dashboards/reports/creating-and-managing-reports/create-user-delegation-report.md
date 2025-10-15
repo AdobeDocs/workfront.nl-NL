@@ -7,9 +7,9 @@ description: Een gebruikersdelegatierapport maken
 author: Nolan
 feature: Reports and Dashboards
 exl-id: c860574b-0488-499e-8d36-d0f3f85aac2d
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '333'
+source-wordcount: '325'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ In Adobe Workfront, kunnen de gebruikers project delegeren, taak, en goedkeuring
 
 * Begindatum en einddatum van de delegaties
 
-Meer leren over het delegeren van goedkeuringen, zie [&#x200B; de goedkeuringsverzoek van de Afgevaardigde &#x200B;](../../../review-and-approve-work/manage-approvals/delegate-approval-requests.md).
+Meer leren over het delegeren van goedkeuringen, zie [ de goedkeuringsverzoek van de Afgevaardigde ](../../../review-and-approve-work/manage-approvals/delegate-approval-requests.md).
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">DRAFTED: To learn more about delegating work, see <a href="../../../workfront-basics/manage-your-account-and-profile/manage-time-off/personal-time-off.md" class="MCXref xref">Log personal time off and delegate your work</a>.</p>
@@ -41,53 +41,45 @@ Meer leren over het delegeren van goedkeuringen, zie [&#x200B; de goedkeuringsve
 
 ## Toegangsvereisten
 
-+++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
-
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan</td> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie*</td> 
-      <td> 
-      <p>Nieuw:</p>
-         <ul>
-         <li><p>Standaard</p></li>
-         </ul>
-      <p>Huidige:</p>
-         <ul>
-         <li><p>Plan</p></li>
-         </ul>
-   </td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td> 
+      <p>Standard</p>
+      <p>Plan</p>
+   </td>
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot rapporten, dashboards, kalenders bewerken</p> <p>Toegang tot filters, weergaven, groepen bewerken</p></td> 
+   <td role="rowheader">Configuratie op toegangsniveau</td> 
+   <td> <p>Toegang tot rapporten, dashboards, kalenders bewerken</p> <p>Toegang tot filters, weergaven, groepen bewerken</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Machtigingen weergeven voor de onderdelen waarvan de goedkeuringen zijn gedelegeerd en voor de gebruikers die bij de delegatie zijn betrokken</p></td> 
+ <td> <p>Machtigingen weergeven voor de onderdelen waarvan de goedkeuringen zijn gedelegeerd en voor de gebruikers die bij de delegatie zijn betrokken</p></td>  
   </tr> 
  </tbody> 
 </table>
 
-*For informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Een gebruikersdelegatierapport maken
 
-1. Klik het **pictogram van het 1&rbrace; pictogram van het Belangrijkste Menu ![&#x200B; &#x200B;](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik** Rapporten **.**
+1. Klik het **pictogram van het 1} pictogram van het Belangrijkste Menu** ![ in de hoger-juiste hoek van Adobe Workfront, dan klik ](assets/main-menu-icon.png) Rapporten **.**
 
 1. Klik **Nieuw Rapport**, dan uitgezochte **Delegatie van de Gebruiker**.
 
-   ![&#x200B; Nieuwe delegatie van de rapportgebruiker &#x200B;](assets/classic-new-report-user-delegation-350x644.png)
+   ![ Nieuwe delegatie van de rapportgebruiker ](assets/classic-new-report-user-delegation-350x644.png)
 
    De volgende gebieden tonen in dit rapport door gebrek:
 
@@ -107,7 +99,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    * Filters
    * Diagram
 
-   Meer over deze eigenschappen leren, zie [&#x200B; een douanerapport &#x200B;](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) creëren.
+   Meer over deze eigenschappen leren, zie [ een douanerapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) creëren.
 
 1. Nadat u klaar bent met het bouwen van uw rapport, klik **sparen + Sluiten**.
 

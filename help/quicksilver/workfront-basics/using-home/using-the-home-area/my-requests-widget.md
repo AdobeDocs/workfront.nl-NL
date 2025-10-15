@@ -6,9 +6,9 @@ description: U kunt aanvragen verzenden in de widget Mijn verzoeken. U kunt de w
 author: Becky
 feature: Get Started with Workfront
 exl-id: 2b994f44-2404-4aa3-8c38-0686a0c287b7
-source-git-commit: 2fe55f61bd24ebb3ecfe09fff29c4aad2ca33608
+source-git-commit: 41f58261d4f2e6075187886b371a23eb5e97d823
 workflow-type: tm+mt
-source-wordcount: '812'
+source-wordcount: '782'
 ht-degree: 0%
 
 ---
@@ -17,12 +17,12 @@ ht-degree: 0%
 
 <span class="preview"> de informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>
 
-<span class="preview"> voor informatie over snelle versies, zie [&#x200B; snelle versies voor uw organisatie &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken.
+<span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken.
 
 >[!IMPORTANT]
 >
 >In dit artikel wordt de nieuwe widget Mijn verzoeken beschreven. De nieuwe widget kan alleen worden weergegeven als u de nieuwe ervaring voor aanvragen hebt ingeschakeld.
->&#x200B;>U kunt de nieuwe verzoekervaring op uw gebied van Verzoeken toelaten.
+>>U kunt de nieuwe verzoekervaring op uw gebied van Verzoeken toelaten.
 
 Op de widget Mijn verzoeken worden aanvragen weergegeven die zijn ingediend bij uw organisatie. U kunt de verzoeken filteren, naar specifieke verzoeken zoeken of de kolomvolgorde en de zichtbaarheid aanpassen. U kunt ook een nieuw verzoek maken via de widget Mijn verzoeken.
 
@@ -34,27 +34,24 @@ Op de widget Mijn verzoeken worden aanvragen weergegeven die zijn ingediend bij 
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Product]</strong></td> 
-   <td> <ul><li>Adobe Workfront</li><li>U moet Adobe Workfront Planning hebben om de verzoeken van de Planning te bekijken of om formulieren te verzoeken</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront plan]</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront package]</strong></td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licentie*</strong></td> 
-   <td> <p>Nieuw: Medewerker of hoger</p>
-   of   
-   <p>Huidig: [!UICONTROL Request] of hoger</p> </td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] licentie</strong></td> 
+   <td> <p>Medewerker of hoger</p>
+   <p>Aanvraag of hoger</p> </td> 
   </tr> 
   <tr> 
+    <tr> 
+   <td role="rowheader"><strong>Aanvullende producten</strong></td> 
+   <td> U moet Adobe Workfront Planning hebben om de verzoeken van de Planning te bekijken of om formulieren te verzoeken</td> 
+  </tr> 
    <td role="rowheader"><strong>Configuratie op toegangsniveau</strong></td> 
    <td> <p>De toegang van de mening of hoger tot om het even welke voorwerpen waarvoor u in een gesprek wordt geëtiketteerd of een goedkeuring moet oplossen (Projecten, Taken, Kwesties, Documenten)</p> </td> 
   </tr> 
@@ -65,7 +62,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-*Neem contact op met de [!DNL Workfront] -beheerder om te weten te komen welk abonnement, licentietype of toegang u hebt. Voor meer informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -73,7 +70,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 U kunt een verzoek rechtstreeks vanuit de widget Mijn verzoeken maken.
 
-Voor instructies, zie [&#x200B; een verzoek &#x200B;](/help/quicksilver/workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md#create-a-request) in artikel creëren het werkpunten en projecten van het gebied van het Huis.
+Voor instructies, zie [ een verzoek ](/help/quicksilver/workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md#create-a-request) in artikel creëren het werkpunten en projecten van het gebied van het Huis.
 
 ## Filterverzoeken
 
@@ -81,7 +78,7 @@ De widget Mijn verzoeken heeft een aanpasbaar filter waarmee u kunt bepalen welk
 
 Om de filter in Mijn widget van Verzoeken te vormen:
 
-1. Klik het **[!UICONTROL Main Menu]** ![&#x200B; Belangrijkste pictogram van het Menu &#x200B;](assets/main-menu-icon.png) in de hoger-juiste hoek, dan klik **[!UICONTROL Home]**.
+1. Klik het **[!UICONTROL Main Menu]** ![ Belangrijkste pictogram van het Menu ](assets/main-menu-icon.png) in de hoger-juiste hoek, dan klik **[!UICONTROL Home]**.
 1. (Voorwaardelijk) om **Mijn verzoeken** widget aan uw huisscherm toe te voegen. Klik **aanpassen**, en vinden **Mijn Verzoeken**.
 1. In Mijn widget van Verzoeken, klik **Filter**.
 1. Selecteer in het meest linkse veld waarnaar u wilt filteren. Beschikbare opties zijn:
@@ -123,10 +120,10 @@ Beschikbare kolommen zijn:
 
 U kunt als volgt de kolommen op de widget Mijn verzoeken aanpassen:
 
-1. Klik het **[!UICONTROL Main Menu]** ![&#x200B; Belangrijkste pictogram van het Menu &#x200B;](assets/main-menu-icon.png) in de hoger-juiste hoek, dan klik **[!UICONTROL Home]**.
+1. Klik het **[!UICONTROL Main Menu]** ![ Belangrijkste pictogram van het Menu ](assets/main-menu-icon.png) in de hoger-juiste hoek, dan klik **[!UICONTROL Home]**.
 1. (Voorwaardelijk) om **Mijn verzoeken** widget aan uw huisscherm toe te voegen. Klik **aanpassen**, en vinden **Mijn Verzoeken**.
 1. In Mijn widget van Verzoeken, klik **Kolommen**.
-1. (Facultatief) om kolommen opnieuw in orde te brengen, klik de belemmering handvat ![&#x200B; belemmering handvat &#x200B;](assets/drag-handle.png) van de kolom u het aan de gewenste plaatsen bewegen en wilt slepen. De kolom bij de bovenkant van de lijst verschijnt in Mijn widget Verzoeken als meest linkse kolom.
+1. (Facultatief) om kolommen opnieuw in orde te brengen, klik de belemmering handvat ![ belemmering handvat ](assets/drag-handle.png) van de kolom u het aan de gewenste plaatsen bewegen en wilt slepen. De kolom bij de bovenkant van de lijst verschijnt in Mijn widget Verzoeken als meest linkse kolom.
 1. (Optioneel) Gebruik de schakeloptie om te bepalen of een kolom wordt weergegeven in de widget Mijn verzoeken.
 
 Kolomvoorkeuren worden automatisch opgeslagen.
@@ -135,7 +132,7 @@ Kolomvoorkeuren worden automatisch opgeslagen.
 
 Om naar specifieke verzoeken in Mijn widget van Verzoeken te zoeken:
 
-1. Klik het **[!UICONTROL Main Menu]** ![&#x200B; Belangrijkste pictogram van het Menu &#x200B;](assets/main-menu-icon.png) in de hoger-juiste hoek, dan klik **[!UICONTROL Home]**.
+1. Klik het **[!UICONTROL Main Menu]** ![ Belangrijkste pictogram van het Menu ](assets/main-menu-icon.png) in de hoger-juiste hoek, dan klik **[!UICONTROL Home]**.
 1. (Voorwaardelijk) om **Mijn verzoeken** widget aan uw huisscherm toe te voegen. Klik **aanpassen**, en vinden **Mijn Verzoeken**.
 1. Voer in de zoekbalk rechtsboven in de widget Mijn verzoeken de term in waarnaar u wilt zoeken.
 

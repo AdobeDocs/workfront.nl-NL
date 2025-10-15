@@ -7,9 +7,9 @@ description: U kunt updates aan projecten herzien en toevoegen u in  [!DNL Adobe
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 5d0260ad-7049-42c6-a8a0-9b53fb115ec6
-source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
+source-git-commit: f9b9381b4b38796dbf7dfd9eddffc50fb9e5c24c
 workflow-type: tm+mt
-source-wordcount: '173'
+source-wordcount: '172'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ U kunt geen updates toevoegen aan taken of problemen in [!DNL Workfront View] .
 
 ## Toegangsvereisten
 
-U moet in [!DNL Workfront] de volgende toegang hebben om de stappen in dit artikel uit te voeren:
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -31,30 +31,34 @@ U moet in [!DNL Workfront] de volgende toegang hebben om de stappen in dit artik
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront-pakket</strong></td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licentie*</strong></td> 
-   <td> <p>[!UICONTROL Review] of hoger</p> </td> 
+   <td role="rowheader"><strong>Adobe Workfront-licentie</strong></td> 
+   <td> 
+   <p>Medewerker of hoger</p>
+   <p>Controleren of hoger</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw [!DNL Workfront] beheerder.
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Updates toevoegen aan een project in [!DNL Workfront View]
 
 1. Tik op de startpagina van [!UICONTROL Workfront View] op een project om dit te openen.
 1. (Optioneel) Voeg de **[!UICONTROL Updates]** -widget toe aan uw weergave.\
-   Voor meer informatie over het toevoegen van widgets aan uw projectweergave, zie [&#x200B; Update widgets in de [!UICONTROL Project Details] mening &#x200B;](../../../workfront-basics/mobile-apps/using-workfront-view/update-widgets-in-workfront-view.md).
+   Voor meer informatie over het toevoegen van widgets aan uw projectweergave, zie [ Update widgets in de [!UICONTROL Project Details] mening ](../../../workfront-basics/mobile-apps/using-workfront-view/update-widgets-in-workfront-view.md).
 
 1. Tik op het pictogram **[!UICONTROL Updates]** (rechtsonder) of (voorwaardelijk) op het pictogram **[+]** op een update in de **[!UICONTROL Updates]** -widget.\
-   ![[!DNL workfront_view_updates_icon].png &#x200B;](assets/workfront-view-updates-icon-315x196.png)
+   ![[!DNL workfront_view_updates_icon].png ](assets/workfront-view-updates-icon-315x196.png)
 
 1. Typ een update.
 1. (Optioneel) Neem andere bestanden op in de update door op het pictogram [!UICONTROL people] te tikken en de naam van een andere gebruiker op te geven.\
-   ![&#x200B; Updates in mobiele app &#x200B;](assets/screen-shot-2014-002-21-at-2.57.44-pm-350x222.png)
+   ![ Updates in mobiele app ](assets/screen-shot-2014-002-21-at-2.57.44-pm-350x222.png)
 
 1. Tik op **[!UICONTROL Post]** .\
    De update wordt in de **[!UICONTROL Updates]** -widget in het project weergegeven.

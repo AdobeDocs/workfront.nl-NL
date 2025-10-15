@@ -1,61 +1,90 @@
 ---
 navigation-topic: use-the-gantt-chart
 title: Informatie weergeven in de [!UICONTROL Gantt Chart]
-description: De de vertoningsinformatie van de Grafiek van Gantt van de taaklijst en van de projectlijst van Gantt van de Grafiek over projecten en taken.
+description: In de Adobe Workfront-taak en het-project [!UICONTROL Gantt Charts] wordt informatie over taken en projecten weergegeven.
 author: Alina
 feature: Work Management
 exl-id: e6b55699-0831-40d4-a997-6fe3f8828ee1
-source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
+source-git-commit: c8987d036e1c1324618cb53ebcbb8fd7e4bcc6a4
 workflow-type: tm+mt
-source-wordcount: '818'
+source-wordcount: '782'
 ht-degree: 0%
 
 ---
 
 # Informatie weergeven in de [!UICONTROL Gantt Chart]
 
-In de taaklijst [!UICONTROL Gantt Chart] en de projectlijst [!UICONTROL Gantt Chart] wordt informatie over projecten en taken weergegeven.
+<!--Audited: 08/2025-->
+
+In de Adobe Workfront-taak en het-project [!UICONTROL Gantt Charts] wordt informatie over taken en projecten weergegeven.
 
 ## Toegangsvereisten
 
-U moet het volgende hebben om de stappen in dit artikel te volgen:
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
-   <td> <p>Alle </p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] package</td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] overzicht van licenties*</td> 
-   <td> <p>[!UICONTROL Review] of hoger</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licentie</td> 
+   <td><p>[!UICONTROL Light] of hoger</p>
+    <p>[!UICONTROL Review] of hoger</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>[!UICONTROL View] of betere toegang tot Projecten en Taken</p> <p><b>OPMERKING</b>
-
-Als u nog steeds geen toegang hebt, vraagt u de [!DNL Workfront] -beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een [!DNL Workfront] beheerder uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td>
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
+   <td> <p>[!UICONTROL View] of betere toegang tot Projecten en Taken</p></td>
 </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>[!UICONTROL View] of een betere toegang tot het project</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
+   <td> <p>[!UICONTROL View] of een betere toegang tot het project en de taken</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw [!DNL Workfront] beheerder.
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++ 
+
+<!--Old:
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
+   <td> <p>Any </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] licenses overview*</td> 
+   <td> <p>[!UICONTROL Review] or higher</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations*</td> 
+   <td> <p>[!UICONTROL View] or higher access to Projects and Tasks</p> <p><b>NOTE</b>
+
+If you still don't have access, ask your [!DNL Workfront] administrator if they set additional restrictions in your access level. For information on how a [!DNL Workfront] administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td>
+</tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>[!UICONTROL View] or higher access to the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## Zoek de [!UICONTROL Gantt Chart]
 
-U kunt zowel het Gantt-diagram als de projectlijst [!UICONTROL Gantt chart] vinden in meerdere gebieden in Workfront. Voor meer informatie, zie [&#x200B; begonnen worden met [!UICONTROL Gantt Chart]](../../../manage-work/gantt-chart/use-the-gantt-chart/get-started-with-gantt.md).
+U kunt zowel het Gantt-diagram als de projectlijst [!UICONTROL Gantt chart] vinden in meerdere gebieden in Workfront. Voor meer informatie, zie [ begonnen worden met [!UICONTROL Gantt Chart]](../../../manage-work/gantt-chart/use-the-gantt-chart/get-started-with-gantt.md).
 
 ## Taken weergeven op de [!UICONTROL Critical Path]
 
 In de Projectlijst [!UICONTROL Gantt Chart] worden taken die zich niet in [!UICONTROL Critical Path] bevinden, weergegeven als lichtblauwe horizontale lijnen. Taken die zich op [!UICONTROL Critical Path] van een project bevinden, worden weergegeven als rode horizontale lijnen.
 
-Voor meer informatie over taken over [!UICONTROL Critical Path], zie [&#x200B; Overzicht van het project [!UICONTROL Critical Path]](../../../manage-work/tasks/manage-tasks/critical-path.md).
+Voor meer informatie over taken over [!UICONTROL Critical Path], zie [ Overzicht van het project [!UICONTROL Critical Path]](../../../manage-work/tasks/manage-tasks/critical-path.md).
 
 ## Taakgegevens weergeven in de projectlijst [!UICONTROL Gantt Chart]
 
@@ -75,21 +104,17 @@ Om taken in een project van een lijst van projecten te bekijken:
 
 1. Ga naar een van de bovengenoemde gebieden.
 
-   Klik bijvoorbeeld in het vak [!UICONTROL Main Menu] op **[!UICONTROL Projects]** .
+   Bijvoorbeeld, van het [!UICONTROL **Belangrijkste Menu**] ![ Belangrijkste menupictogram ](assets/lines-main-menu.png) in Workfront, klik **[!UICONTROL Projects]**.
 
    Een lijst met projecten wordt weergegeven.
 
-1. Klik het **[!UICONTROL Gantt chart]** pictogram ![&#x200B; Gantt pictogram &#x200B;](assets/gantt-icon-nwe.png) in de hoger-juiste hoek van het scherm.
+1. Klik het **[!UICONTROL Gantt chart]** pictogram ![ Gantt pictogram ](assets/gantt-icon-nwe.png) in de hoger-juiste hoek van het scherm.
 
-   <!--
-   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: images conditioned for classic and nwe) <br></p>
-   -->
-
-1. Klik op het pictogram **[!UICONTROL Show Task List]** .
+1. Klik het **[!UICONTROL Show Task List]** ![ pictogram van de taaklijst van de Show ](assets/show-task-list-icon.png) pictogram.
 
 1. In de projectlijst aan de linkerzijde, klik de drop-down pijl naast de naam van het project om het even welke taken onder dat project te tonen.\
    Hierdoor wordt taakinformatie weergegeven op de [!UICONTROL Gantt Chart] .\
-   ![&#x200B; Show_task_list_enabled_project_extended.png &#x200B;](assets/show-task-list-enabled-project-expanded-350x78.png)
+   ![ Show_task_list_enabled_project_extended.png ](assets/show-task-list-enabled-project-expanded-350x78.png)
 
 1. (Optioneel) Klik op het pictogram **[!UICONTROL Print]** in de rechterbovenhoek om de [!UICONTROL Gantt Chart] te exporteren.
 
@@ -107,13 +132,13 @@ U kunt de tijdsperiode aanpassen die op [!UICONTROL Gantt Chart] wordt weergegev
 ### De tijdsperiode korrelig wijzigen {#change-the-time-period-on-a-granular-level}
 
 1. Houd de muisaanwijzer boven de tijdlijn van [!UICONTROL Gantt Chart] en sleep de zoomindicator van links naar rechts om de tijdlijn uit te breiden of in te perken.\
-   ![&#x200B; zoom_tool_in_gantt.png &#x200B;](assets/zoom-tool-in-gantt-350x180.png)
+   ![ zoom_tool_in_gantt.png ](assets/zoom-tool-in-gantt-350x180.png)
 
 ### Gegevens weergeven op dag, week, maand, kwartaal of jaar {#view-information-by-day-week-month-quarter-or-year}
 
 1. Klik in het [!UICONTROL Gantt Chart] op de vervolgkeuzelijst voor het tijdframe.
 
-   ![&#x200B; opties van de Chronologie &#x200B;](assets/timeline-options.png)
+   ![ opties van de Chronologie ](assets/timeline-options.png)
 
 1. Selecteer een tijdkader uit de volgende beschikbare opties:
 
@@ -132,7 +157,7 @@ U kunt de tijdsperiode aanpassen die op [!UICONTROL Gantt Chart] wordt weergegev
    >
    >De tijdlijnopname wordt alleen weergegeven nadat u op de horizontale schuifbalk hebt geklikt.
 
-   ![&#x200B; stretchy_gantt_minimap_with_outline__1_.png &#x200B;](assets/stretchy-gantt-minimap-with-outline--1--350x140.png)
+   ![ momentopname van de Chronologie mini-kaart ](assets/stretchy-gantt-minimap-with-outline--1--350x140.png)
 
 1. (Optioneel) Klik ergens in de momentopname van de tijdlijn om naar een specifiek punt in de levensduur van het project te navigeren.\
    of\
@@ -144,20 +169,20 @@ U kunt de tijdsperiode aanpassen die op [!UICONTROL Gantt Chart] wordt weergegev
 
 >[!CAUTION]
 >
->U kunt geen filters, weergaven en groepen toepassen wanneer u [!UICONTROL Manual] Opslaan [!UICONTROL Timeline Planning] selecteert om de wijzigingen in uw takenlijst op te slaan. Voor informatie over het bewaren van veranderingen in taken in een lijst, zie [&#x200B; taken in een lijst &#x200B;](../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md) uitgeven.
+>U kunt geen filters, weergaven en groepen toepassen wanneer u [!UICONTROL Manual] Opslaan [!UICONTROL Timeline Planning] selecteert om de wijzigingen in uw takenlijst op te slaan. Voor informatie over het bewaren van veranderingen in taken in een lijst, zie [ taken in een lijst ](../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md) uitgeven.
 
 De filters en de groeperingen die u op de lijst toepast worden weerspiegeld op zowel de Lijst van het Project als Lijst van de Taak [!UICONTROL Gantt Chart] s en ook inbegrepen wanneer de grafieken van Gantt worden uitgevoerd:
 
 * Filters\
    U kunt een filter op de lijst toepassen om de informatie te controleren die in [!UICONTROL Gantt Chart] wordt getoond.\
-   Voor informatie over het toepassen van een Filter, zie [&#x200B; Overzicht van Filters &#x200B;](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+   Voor informatie over het toepassen van een Filter, zie [ Overzicht van Filters ](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 * Groepen\
    Groepen die u op de lijst toepast, worden weergegeven in de [!UICONTROL Gantt Chart] .\
-   Voor informatie over het toepassen van een Groepering, zie [&#x200B; Overzicht van Groepen in Adobe Workfront &#x200B;](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
+   Voor informatie over het toepassen van een Groepering, zie [ Overzicht van Groepen in Adobe Workfront ](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
-Weergaven worden niet weerspiegeld in de [!UICONTROL Gantt Chart] . Nochtans, wanneer u [!UICONTROL Gantt Chart] (zoals die in [&#x200B; wordt beschreven de Uitvoer [!UICONTROL Gantt Chart] naar PDF &#x200B;](../../../manage-work/gantt-chart/use-the-gantt-chart/export-gantt-chart-to-pdf.md)) uitvoert, wordt de taaklijst uitgevoerd naast [!UICONTROL Gantt chart], met de huidige Mening die op de lijst wordt toegepast.
+Weergaven worden niet weerspiegeld in de [!UICONTROL Gantt Chart] . Nochtans, wanneer u [!UICONTROL Gantt Chart] (zoals die in [ wordt beschreven de Uitvoer [!UICONTROL Gantt Chart] naar PDF ](../../../manage-work/gantt-chart/use-the-gantt-chart/export-gantt-chart-to-pdf.md)) uitvoert, wordt de taaklijst uitgevoerd naast [!UICONTROL Gantt chart], met de huidige Mening die op de lijst wordt toegepast.
 
 ## Weergaveopties configureren
 
-U kunt kiezen welk type informatie in beide [!UICONTROL Gantt charts] wordt weergegeven. Voor meer informatie, zie [&#x200B; vormen hoe de informatievertoningen op [!UICONTROL Gantt Chart]](../../../manage-work/gantt-chart/use-the-gantt-chart/configure-info-on-gantt-chart.md).
+U kunt kiezen welk type informatie in beide [!UICONTROL Gantt charts] wordt weergegeven. Voor meer informatie, zie [ vormen hoe de informatievertoningen op [!UICONTROL Gantt Chart]](../../../manage-work/gantt-chart/use-the-gantt-chart/configure-info-on-gantt-chart.md).

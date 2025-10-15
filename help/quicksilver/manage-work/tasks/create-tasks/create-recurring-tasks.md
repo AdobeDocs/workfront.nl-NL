@@ -1,15 +1,15 @@
 ---
 product-area: projects
 navigation-topic: create-tasks
-title: Herhalende taken maken
+title: Terugkerende taken maken
 description: U kunt terugkomende taken voor taken tot stand brengen u als deel van één enkel project moet herhalen.
 author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: dbde5419-02ce-456b-a430-b2825d81fb87
-source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
+source-git-commit: c1b8af0d8a95714bb597db7a429794773358cf05
 workflow-type: tm+mt
-source-wordcount: '917'
+source-wordcount: '875'
 ht-degree: 0%
 
 ---
@@ -20,43 +20,71 @@ ht-degree: 0%
 
 U kunt terugkomende taken voor taken tot stand brengen u als deel van één enkel project moet herhalen.
 
-Voor algemene informatie over terugkomende taken, met inbegrip van het effect van het uitgeven van een bestaande terugkomende taak, zie [&#x200B; Terugkerende takenoverzicht &#x200B;](../../../manage-work/tasks/manage-tasks/recurring-tasks-overview.md).
+Voor algemene informatie over terugkomende taken, met inbegrip van het effect van het uitgeven van een bestaande terugkomende taak, zie [ Terugkerende takenoverzicht ](../../../manage-work/tasks/manage-tasks/recurring-tasks-overview.md).
 
 ## Toegangsvereisten
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
-
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-abonnement*</td> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Nieuw: Standaard</p> 
-   <p>Huidig: Werk of hoger</p> </td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td> <p>Standard</p> 
+   <p>Werk of hoger</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau*</td> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
    <td> <p>Toegang tot taken en projecten bewerken</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
    <td> <p>Contribute-machtigingen voor het project met de mogelijkheid om taken of hoger toe te voegen</p> 
    <p>Als u een taak maakt, ontvangt u automatisch beheermachtigingen voor de taak</p> 
-   <p> Voor informatie over taaktoestemmingen, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-task.md" class="MCXref xref"> een taak delen </a>.</p>  </td> 
+    </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront. Voor meer informatie over toegangsvereisten, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>New: Standard</p> 
+   <p>Current: Work or higher</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations*</td> 
+   <td> <p>Edit access to Tasks and Projects</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>Contribute permissions to the project with ability to Add Tasks or higher</p> 
+   <p>When you create a task you automatically receive Manage permissions to the task</p> 
+   <p> For information about task permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-task.md" class="MCXref xref">Share a task </a>.</p>  </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator. For more information about access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). -->
 
 ## Een terugkerende taak maken
 
@@ -72,7 +100,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    ![](assets/nwe-create-task-small-screen-350x272.png)
 
 1. Klik **Meer opties** dan ga een naam voor de taak op het **gebied van de Naam van de Taak** in.
-1. Werk de taak verder bij op dezelfde manier als wanneer u een nieuwe taak toevoegt. Voor meer informatie over het toevoegen van een nieuwe taak, zie [&#x200B; tot taken in een project &#x200B;](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md) leiden.
+1. Werk de taak verder bij op dezelfde manier als wanneer u een nieuwe taak toevoegt. Voor meer informatie over het toevoegen van een nieuwe taak, zie [ tot taken in een project ](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md) leiden.
 
    >[!TIP]
    >
@@ -120,7 +148,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
    >[!NOTE]
    >
-   >Als u een Uitzondering van het Programma verbonden aan het programma van het project hebt, kunnen de terugkomende taken niet tijdens de uitzondering beginnen. De terugkomende taken die tijdens de planningsuitzondering voorkomen zijn gepland om op de eerste werkdag te beginnen die de uitzondering volgt. Voor meer informatie over planningsuitzonderingen, zie het artikel [&#x200B; een programma &#x200B;](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md) creëren.
+   >Als u een Uitzondering van het Programma verbonden aan het programma van het project hebt, kunnen de terugkomende taken niet tijdens de uitzondering beginnen. De terugkomende taken die tijdens de planningsuitzondering voorkomen zijn gepland om op de eerste werkdag te beginnen die de uitzondering volgt. Voor meer informatie over planningsuitzonderingen, zie het artikel [ een programma ](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md) creëren.
 
 1. Op **begint** gebied, selecteer de datum en de tijd wanneer u de terugkomende taken wilt beginnen.
 1. Op **beëindigt** gebied, selecteer de datum en de tijd wanneer u de terugkomende taken wilt voltooien
@@ -133,7 +161,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
    De takenlijst wordt weergegeven. De terugkomende taak wordt gecreeerd als ouder, en alle recurrences zijn zijn zijn kinderen. Workfront heeft de namen van de onderliggende taken automatisch gegenereerd. Hierbij wordt de naam gebruikt die u voor het bovenliggende onderdeel hebt opgegeven, gevolgd door een getal. De terugkomende taken worden geplaatst aan het eind van de taaklijst.
 
-   Voor meer informatie over welke gebieden auto-gevuld van de ouder terugkomende taak zijn, zie [&#x200B; Terugkerende takenoverzicht &#x200B;](../../../manage-work/tasks/manage-tasks/recurring-tasks-overview.md).
+   Voor meer informatie over welke gebieden auto-gevuld van de ouder terugkomende taak zijn, zie [ Terugkerende takenoverzicht ](../../../manage-work/tasks/manage-tasks/recurring-tasks-overview.md).
 
    ![](assets/recurring-tasks-in-task-list-nwe-350x87.png)
 
@@ -143,4 +171,4 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
    >[!IMPORTANT]
    >
-   >Het aanpassen van de bovenliggende recidieven nadat de kinderen individueel zijn aangepast kan leiden tot verschillende informatie tussen de kinderen of tussen de kinderen en de ouder. Voor meer informatie, zie [&#x200B; Terugkerende takenoverzicht &#x200B;](../../../manage-work/tasks/manage-tasks/recurring-tasks-overview.md).
+   >Het aanpassen van de bovenliggende recidieven nadat de kinderen individueel zijn aangepast kan leiden tot verschillende informatie tussen de kinderen of tussen de kinderen en de ouder. Voor meer informatie, zie [ Terugkerende takenoverzicht ](../../../manage-work/tasks/manage-tasks/recurring-tasks-overview.md).

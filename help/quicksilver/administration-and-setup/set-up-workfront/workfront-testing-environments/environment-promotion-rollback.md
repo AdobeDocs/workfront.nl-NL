@@ -10,9 +10,9 @@ feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 70f7e2a8-bb27-4546-afb7-53e0eec30bf1
-source-git-commit: 7e15301dae4b761d19c85a3581bfdb4540ed40fd
+source-git-commit: 7ca27795ec115a112acb55113bfade4a5fee15ad
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '379'
 ht-degree: 0%
 
 ---
@@ -31,32 +31,32 @@ U moet het volgende hebben:
 
 <table>
   <tr>
-   <td><strong>[!DNL Adobe Workfront] plan </strong>
+   <td>Adobe Workfront-pakket
    </td>
-   <td> <p>Nieuw: Premier of Ultimate</p><p>of</p><p>Huidig: Niet beschikbaar</p>
+   <td> <p>Prime of Ultimate</p>
    </td>
   </tr>
   <tr>
-   <td><strong>[!DNL Adobe Workfront] licenties </strong>
+   <td><strong> de vergunningen van Workfront </strong>
    </td>
-   <td> <p>[!UICONTROL Standard]</p><p>of</p><p>Huidig: Niet beschikbaar</p>
+   <td> <p>Standard</p>&gt;
    </td>
   </tr>
    <tr>
    <td>Configuraties op toegangsniveau
    </td>
-   <td>U moet een [!DNL Workfront] beheerder zijn.
+   <td><p>U moet een Workfront-beheerder zijn.</p>
    </td>
   </tr>
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Vereisten
 
 * Een milieubevorderingspakket moet worden geïnstalleerd alvorens het kan worden teruggedraaid.
 
-  Voor instructies, zie [&#x200B; een pakket van de milieubevordering installeren &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-install-package.md).
+  Voor instructies, zie [ een pakket van de milieubevordering installeren ](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-install-package.md).
 
 
 ## Bepalen of een specifieke pakketimplementatie kan worden teruggedraaid
@@ -72,7 +72,7 @@ Om te weten of een specifieke pakketplaatsing kan worden teruggedraaid, overweeg
 ## Een geïnstalleerd pakket voor milieubescherming terugdraaien
 
 1. Ga naar de omgeving waarin het pakket is geïnstalleerd.
-1. Klik het **[!UICONTROL Main Menu]** pictogram ![&#x200B; Belangrijkste Menu &#x200B;](/help/_includes/assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, of (als beschikbaar), klik het **[!UICONTROL Main Menu]** pictogram ![&#x200B; Belangrijkste Menu &#x200B;](/help/_includes/assets/main-menu-icon-left-nav.png) in de upper-left hoek, dan klik **[!UICONTROL Setup]** ![&#x200B; pictogram van de Opstelling &#x200B;](/help/_includes/assets/gear-icon-setup.png).
+1. Klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, of (als beschikbaar), klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon-left-nav.png) in de upper-left hoek, dan klik **[!UICONTROL Setup]** ![ pictogram van de Opstelling ](/help/_includes/assets/gear-icon-setup.png).
 1. Selecteer **Bevordering van het Milieu** in de linkernavigatie.
 1. Selecteer het pakket dat u terug wilt rollen, en **Plaatsingen** klikken.
 1. Houd de muis boven de implementatie (installatie) die u wilt terugdraaien en klik vervolgens op Terugdraaien wanneer deze rechts van de regel van die implementatie wordt weergegeven.

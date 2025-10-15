@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: a815aeb1-3403-4491-a8ad-7e47c519905c
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: a42a167447d2f11b5502e4a0953b5e7eec2e67b1
 workflow-type: tm+mt
-source-wordcount: '546'
+source-wordcount: '523'
 ht-degree: 0%
 
 ---
@@ -26,40 +26,35 @@ Een Workfront-beheerder kan dit ook voor elke groep doen.
 
 Het vormen van een gebeurtenisbericht voor een groep beïnvloedt gebruikers voor wie die groep, of één van zijn subgroepen, hun Groep van het Huis is. In hun gebruikersprofielen zien deze gebruikers de gebeurtenismeldingen die voor hun thuisgroep zijn geactiveerd in plaats van de gebeurtenismeldingen die voor het hele systeem zijn geactiveerd.
 
-Voor informatie over hoe een beheerder van Workfront een gebeurtenisbericht ontgrendelt, zie [&#x200B; configuratie van gebeurtenisberichten voor alle groepen &#x200B;](../../../administration-and-setup/manage-workfront/emails/unlock-configuration-of-event-notifications-for-groups.md) ontgrendelen of sluiten.
+Voor informatie over hoe een beheerder van Workfront een gebeurtenisbericht ontgrendelt, zie [ configuratie van gebeurtenisberichten voor alle groepen ](../../../administration-and-setup/manage-workfront/emails/unlock-configuration-of-event-notifications-for-groups.md) ontgrendelen of sluiten.
 
-Voor informatie over het standaardbericht dat voor een gebeurtenis plaatst, zie [&#x200B; de berichttypes van de Gebeurtenis &#x200B;](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
+Voor informatie over het standaardbericht dat voor een gebeurtenis plaatst, zie [ de berichttypes van de Gebeurtenis ](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
 
 ## Toegangsvereisten
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
-
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan</td> 
-   <td>Alle</td> 
+   <td>Adobe Workfront-pakket</td> 
+   <td><p>Alle</p></td> 
   </tr> 
   <tr> 
+   <td>Adobe Workfront-licentie</td> 
+   <td><p>Standard</p>
+       <p>Plan</p></td>
+  </tr>
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie</td> 
-   <td><p>Nieuw: Standaard</p>
-       <p>of</p>
-       <p>Huidig: Plan</p></td>
-  </tr> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau</td> 
+   <td>Configuraties op toegangsniveau</td> 
    <td>U moet een groepsbeheerder van de groep of een systeembeheerder zijn.</td>
-  </tr> 
+  </tr>
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -71,7 +66,7 @@ Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van d
 
 {{step-1-to-setup}}
 
-1. In het linkerpaneel, klik **Groepen** ![&#x200B; Groepen &#x200B;](assets/groups-icon.png).
+1. In het linkerpaneel, klik **Groepen** ![ Groepen ](assets/groups-icon.png).
 
 1. Klik op de naam van de bovenste groep.
 1. In het linkermenu, klik **de berichten van de Gebeurtenis**.

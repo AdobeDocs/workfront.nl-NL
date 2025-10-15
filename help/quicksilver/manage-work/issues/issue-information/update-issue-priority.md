@@ -1,14 +1,14 @@
 ---
 product-area: projects
 navigation-topic: issue-information
-title: Prioriteit van probleem bijwerken
+title: Probleemprioriteit bijwerken
 description: U kunt een prioriteit voor een kwestie bepalen om te wijzen op hoe belangrijk de kwestie is.
 author: Alina
 feature: Work Management
 exl-id: eff5c9e8-1908-4654-9629-e20c0ce2a225
-source-git-commit: 7db80f5bacf52b7bbe540f4e38e88853af86a5e2
+source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
 workflow-type: tm+mt
-source-wordcount: '371'
+source-wordcount: '295'
 ht-degree: 1%
 
 ---
@@ -17,36 +17,37 @@ ht-degree: 1%
 
 U kunt een prioriteit voor een kwestie bepalen om te wijzen op hoe belangrijk de kwestie is.
 
-U moet over beheerdersmachtigingen voor het probleem beschikken om de prioriteit van het probleem te wijzigen. [&#x200B; werk de Prioriteit van een kwestie &#x200B;](#update-the-priority-of-an-issue) bij.
-
 ## Toegangsvereisten
 
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-abonnement*</td> 
-   <td> <p>Alle </p> </td> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Aanvraag of hoger</p> </td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td><p>Medewerker of hoger</p> 
+   <p>Aanvraag of hoger</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot problemen bewerken</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
+   <td> <p>Toegang tot problemen bewerken</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Rechten voor het probleem beheren</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
+   <td> <p>Rechten voor het probleem beheren</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
+Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Overzicht van de prioriteiten van de problematiek
 
@@ -57,7 +58,7 @@ Adobe Workfront-beheerders kunnen prioriteitslabels in Workfront wijzigen of ze 
 U zou vertrouwd met de nummeringsopeenvolging voor prioriteiten moeten worden die in uw organisatie worden gebruikt.\
 Bijvoorbeeld, zou uw organisatie aantal 1 kunnen gebruiken om naar urgente taken te verwijzen, als het etiket van de prioriteit is gewijzigd.
 
-Voor meer informatie over het aanpassen van de namen van prioriteiten in uw instantie, zie [&#x200B; prioriteiten &#x200B;](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md) creëren en aanpassen.
+Voor meer informatie over het aanpassen van de namen van prioriteiten in uw instantie, zie [ prioriteiten ](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md) creëren en aanpassen.
 
 Verwijs naar de volgende lijst om elk standaard prioritaire etiket en zijn overeenkomstige aantal te begrijpen:
 
@@ -103,7 +104,7 @@ Verwijs naar de volgende lijst om elk standaard prioritaire etiket en zijn overe
 
 1. Klik het **Prioritaire** gebied op het **Basisinformatie** gebied.
 
-   ![&#x200B; Prioriteit van de Uitgave &#x200B;](assets/issue-priority-field.png)
+   ![ Prioriteit van de Uitgave ](assets/issue-priority-field.png)
 
 1. Selecteer een waarde voor het **Prioritaire** gebied.
 

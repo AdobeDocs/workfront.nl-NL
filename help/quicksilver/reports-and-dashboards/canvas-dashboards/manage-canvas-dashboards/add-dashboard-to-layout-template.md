@@ -6,9 +6,9 @@ description: U kunt een Canvasdashboard toevoegen aan een lay-outsjabloon, zodat
 author: Courtney and Jenny
 feature: Reports and Dashboards
 exl-id: 91ebcec5-99a4-4096-8d4e-b4ea31755d75
-source-git-commit: 56d0b9281387cc7b35055461e7868c7e4a194f81
+source-git-commit: 1059950dd3b20e0959c626e580f958bed5076541
 workflow-type: tm+mt
-source-wordcount: '572'
+source-wordcount: '576'
 ht-degree: 0%
 
 ---
@@ -17,9 +17,9 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->De functie Canvasdashboards is momenteel alleen beschikbaar voor gebruikers die deelnemen aan de bètafase. Onderdelen van het onderdeel zijn mogelijk niet compleet of werken niet zoals bedoeld in deze fase. Gelieve te dienen om het even welke terugkoppelen betreffende uw ervaring door de instructies in [&#x200B; te volgen verstrekt &#x200B;](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) sectie in het de bètaoverzichtsartikel van de dashboards van het Canvas.<br>
->&#x200B;>Als u feedback hebt over een mogelijk probleem met een probleem of een technisch probleem, stuurt u een ticket naar Workfront Support. Voor meer informatie, zie [&#x200B; de Steun van de Klant van het Contact &#x200B;](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
->&#x200B;>Deze bètaversie is niet beschikbaar op de volgende cloudproviders:
+>De functie Canvasdashboards is momenteel alleen beschikbaar voor gebruikers die deelnemen aan de bètafase. Onderdelen van het onderdeel zijn mogelijk niet compleet of werken niet zoals bedoeld in deze fase. Gelieve te dienen om het even welke terugkoppelen betreffende uw ervaring door de instructies in [ te volgen verstrekt ](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) sectie in het de bètaoverzichtsartikel van de dashboards van het Canvas.<br>
+>>Als u feedback hebt over een mogelijk probleem met een probleem of een technisch probleem, stuurt u een ticket naar Workfront Support. Voor meer informatie, zie [ de Steun van de Klant van het Contact ](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
+>>Deze bètaversie is niet beschikbaar op de volgende cloudproviders:
 >
 >* Je eigen sleutel voor Amazon Web Services
 >* Azure
@@ -27,11 +27,11 @@ ht-degree: 0%
 
 U kunt een Canvasdashboard toevoegen aan een lay-outsjabloon, zodat deze de startpagina vervangt, in het linkerdeelvenster van een object wordt weergegeven of in Adobe Workfront op de bovenste balk wordt vastgezet.
 
-![&#x200B; Linkerpaneel &#x200B;](assets/left-panel.png)
+![ Linkerpaneel ](assets/left-panel.png)
 
 ## Toegangsvereisten
 
-+++ Vouw uit om de vereisten voor toegang weer te geven. 
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 <table style="table-layout:auto"> 
 <col> 
@@ -40,7 +40,7 @@ U kunt een Canvasdashboard toevoegen aan een lay-outsjabloon, zodat deze de star
 </col> 
 <tbody> 
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront-plan</p></td> 
+   <td role="rowheader"><p>Adobe Workfront-pakket</p></td> 
    <td> 
 <p>Alle </p> 
    </td> 
@@ -48,8 +48,8 @@ U kunt een Canvasdashboard toevoegen aan een lay-outsjabloon, zodat deze de star
  <tr> 
    <td role="rowheader"><p>Adobe Workfront-licentie</p></td> 
    <td> 
-<p>Huidig: Plan </p> 
-<p>Nieuw: Standaard</p> 
+<p>Standard</p> 
+<p>Plan</p> 
    </td> 
    </tr> 
   </tr> 
@@ -67,7 +67,7 @@ U kunt een Canvasdashboard toevoegen aan een lay-outsjabloon, zodat deze de star
 </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 +++
 
 ## Een canvasdashboard toevoegen aan het linkerdeelvenster
@@ -80,7 +80,7 @@ Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van d
 
 1. Voor de pagina van malplaatjedetails, selecteer het voorwerp u het dashboard aan in **wilt toevoegen aanpassen welke gebruikers** drop-down zien.
 
-   ![&#x200B; pas aan welke gebruikers drop-down &#x200B;](assets/customize-what-users-see.png) zien
+   ![ pas aan welke gebruikers drop-down ](assets/customize-what-users-see.png) zien
 
 1. De rol neer aan de bodem van de **Linkerpaneel** sectie, dan klikt **dashboard** toevoegen.
 

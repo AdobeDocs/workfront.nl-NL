@@ -3,13 +3,13 @@ content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Filter: uw huidige projecten weergeven in afwachting van goedkeuring'
-description: De volgende projectfilter toont projecten in Huidig - in afwachting van de status van de Goedkeuring, waar de het programma geopende gebruiker of Sponsor van het Project of de Manager van het Portfolio is.
+description: De volgende projectfilter toont projecten in Huidig - in afwachting van de status van de Goedkeuring, waar de het programma geopende gebruiker of Sponsor van het Project of de Manager van Portfolio is.
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 32045aec-acc5-44d2-bad5-7759dc797414
-source-git-commit: a19668ac2238448010b5a177120f936ef7ba5bba
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '197'
 ht-degree: 0%
 
 ---
@@ -18,32 +18,25 @@ ht-degree: 0%
 
 <!--Audited: 10/2024-->
 
-De volgende projectfilter toont projecten in Huidig - in afwachting van de status van de Goedkeuring, waar de het programma geopende gebruiker of Sponsor van het Project of de Manager van het Portfolio is.
+De volgende projectfilter toont projecten in Huidig - in afwachting van de status van de Goedkeuring, waar de het programma geopende gebruiker of Sponsor van het Project of de Manager van Portfolio is.
 
 ## Toegangsvereisten
 
-+++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
-
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan</td> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie*</td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
    <td> 
-    <p>Nieuw:</p>
-   <ul><li><p>Medewerker om een filter te wijzigen </p></li>
-   <li><p>Standaard voor het wijzigen van een rapport</p></li> </ul>
-
-<p>Huidige:</p>
-   <ul><li><p>Verzoek om een filter te wijzigen </p></li>
-   <li><p>Plan om een rapport te wijzigen</p></li> </ul></td> 
+   <p>Medewerker of verzoek om een filter te wijzigen </p>
+   <p>Standaard of Plan om een rapport te wijzigen</p>
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau</td> 
@@ -56,7 +49,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-*For informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

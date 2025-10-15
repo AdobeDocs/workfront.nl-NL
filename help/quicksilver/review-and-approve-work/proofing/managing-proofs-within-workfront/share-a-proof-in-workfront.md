@@ -6,9 +6,9 @@ description: U kunt een proefdocument delen in Adobe Workfront door het document
 author: Courtney
 feature: Digital Content and Documents
 exl-id: a5438db3-6507-4ebc-a27c-65f02c45783e
-source-git-commit: aaf5beb8692b2fdbb797ba908796d78b4ee8866c
+source-git-commit: ac714bd5a5259d6f995ac445efbd0125e07022cb
 workflow-type: tm+mt
-source-wordcount: '1231'
+source-wordcount: '1157'
 ht-degree: 0%
 
 ---
@@ -21,25 +21,25 @@ Als u de proefdruk deelt, zoals in dit artikel wordt uitgelegd, heeft de ontvang
 
 >[!TIP]
 >
->U kunt ook een proefdruk delen vanuit de proefdrukviewer. Voor instructies, zie [&#x200B; een proef van de het proef kijker &#x200B;](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/share-a-proof-in-proofing-viewer.md) delen.
+>U kunt ook een proefdruk delen vanuit de proefdrukviewer. Voor instructies, zie [ een proef van de het proef kijker ](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/share-a-proof-in-proofing-viewer.md) delen.
 
 ## Toegangsvereisten
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
-
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-abonnement*</td> 
-   <td> <p>Huidig abonnement: Pro of hoger</p> <p>of</p> <p>Verouderd abonnement: Selecteren of Premium</p> <p>Voor meer informatie over het proefdrukken van toegang met de verschillende plannen, zie <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref"> Toegang tot het proefdrukken van functionaliteit in Workfront </a>.</p> </td> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Huidig plan: Werk of Plan</p> <p>Ouder plan: Willekeurig (proefdrukken moet zijn ingeschakeld voor de gebruiker)</p> </td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td> 
+   <p>Standard</p>
+   <p>Werken of plannen</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Bewijs van machtigingsprofiel </td> 
@@ -50,13 +50,13 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    <td>Auteur of moderator</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot documenten bewerken</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
+   <td> <p>Toegang tot documenten bewerken</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42; om te weten te komen welk plan, rol, of Profiel van de Toestemming van het Bewijs u hebt, contacteer uw beheerder van Workfront of van Workfront Proof.
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -130,7 +130,7 @@ U kunt elke Workfront-gebruiker aan de proefdruk toevoegen als u bewerkingsrecht
 >Houd rekening met het volgende als u een verouderd Workfront-plan gebruikt waarin proefdrukken voor een gebruiker kan worden in- en uitgeschakeld:
 >
 >* De ontvangers hoeven geen proef te hebben toegelaten om de proef te herzien.
->* Als Geautomatiseerde workflow is ingeschakeld en u een gebruiker toevoegt aan de proefdruk die geen proefdrukken heeft in Workfront, wordt een nieuw werkgebied gemaakt in de Geautomatiseerde workflow. De gebruiker die u toevoegt, wordt automatisch toegevoegd aan dit nieuwe werkgebied wanneer deze de proefdruk voor het eerst weergeeft. (Voor meer informatie, zie [&#x200B; Geautomatiseerd Overzicht van het Werkschema &#x200B;](../../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md).)
+>* Als Geautomatiseerde workflow is ingeschakeld en u een gebruiker toevoegt aan de proefdruk die geen proefdrukken heeft in Workfront, wordt een nieuw werkgebied gemaakt in de Geautomatiseerde workflow. De gebruiker die u toevoegt, wordt automatisch toegevoegd aan dit nieuwe werkgebied wanneer deze de proefdruk voor het eerst weergeeft. (Voor meer informatie, zie [ Geautomatiseerd Overzicht van het Werkschema ](../../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md).)
 >
 
 ### Gebruikers toevoegen aan een bestaande proefdruk via het tabblad Documenten
@@ -154,7 +154,7 @@ U kunt elke Workfront-gebruiker aan de proefdruk toevoegen als u bewerkingsrecht
 
 U kunt gebruikers aan een proefdruk toevoegen terwijl u een proef in de Kijker van het Keuren van het Web en in de Kijker van het Proofing van de Desktop bekijkt.
 
-Voor meer informatie, zie [&#x200B; een proef delen door gebruikers aan het &#x200B;](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/share-a-proof-in-proofing-viewer.md#sharing-with-individual-users) in het artikel [&#x200B; toe te voegen Deel een bewijs van de het proef kijker &#x200B;](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/share-a-proof-in-proofing-viewer.md)
+Voor meer informatie, zie [ een proef delen door gebruikers aan het ](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/share-a-proof-in-proofing-viewer.md#sharing-with-individual-users) in het artikel [ toe te voegen Deel een bewijs van de het proef kijker ](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/share-a-proof-in-proofing-viewer.md)
 
 ## Verslag over goedkeuringen voor proefdrukken
 
@@ -166,12 +166,12 @@ U kunt een rapport maken dat rapporten weergeeft over de proefdrukgoedkeuringen 
 * Proef-id
 * Aanmaakdatum proefdrukken
 
-U hebt toegang tot deze goedkeuring wanneer het creëren van een rapport dat op een voorwerp wordt gebaseerd, zoals die in [&#x200B; wordt beschreven creeer een douanerapport &#x200B;](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+U hebt toegang tot deze goedkeuring wanneer het creëren van een rapport dat op een voorwerp wordt gebaseerd, zoals die in [ wordt beschreven creeer een douanerapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
-Voor meer informatie over het Proef keurt objecten rapport goed, zie het [&#x200B; Rapport over voorwerpen &#x200B;](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#reporting-on-objects) sectie in [&#x200B; voorwerpen in Adobe Workfront &#x200B;](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md) begrijpen
+Voor meer informatie over het Proef keurt objecten rapport goed, zie het [ Rapport over voorwerpen ](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#reporting-on-objects) sectie in [ voorwerpen in Adobe Workfront ](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md) begrijpen
 
 ## Een gedeelde proefdruk goedkeuren
 
 Wanneer een gebruiker u aan een proef toevoegt en of de rol Fiatteur of Reviewer &amp; Approver gebruikend Geautomatiseerde Workflow verleent, toont het goedkeuringsverzoek in Mijn widget Goedkeuringen in het gebied van het Huis. Vervolgens kunt u het bewijs bekijken en rechtstreeks vanuit Workfront een goedkeuringsbesluit nemen over het bewijs.
 
-Voor informatie over hoe te om goedkeuringsbesluiten van Mijn widget goedkeurt te nemen, zie [&#x200B; werk van het gebied van het Huis &#x200B;](../../../review-and-approve-work/manage-approvals/approving-work.md#approving-work-from-the-home-area) goedkeuren of [&#x200B; werk &#x200B;](../../../review-and-approve-work/manage-approvals/approving-work.md#approving-work-from-the-my-work-area) in [&#x200B; goedkeurend werk &#x200B;](../../../review-and-approve-work/manage-approvals/approving-work.md).
+Voor informatie over hoe te om goedkeuringsbesluiten van Mijn widget goedkeurt te nemen, zie [ werk van het gebied van het Huis ](../../../review-and-approve-work/manage-approvals/approving-work.md#approving-work-from-the-home-area) goedkeuren of [ werk ](../../../review-and-approve-work/manage-approvals/approving-work.md#approving-work-from-the-my-work-area) in [ goedkeurend werk ](../../../review-and-approve-work/manage-approvals/approving-work.md).

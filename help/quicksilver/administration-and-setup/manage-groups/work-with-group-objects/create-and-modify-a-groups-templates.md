@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: f97a12eb-9002-4f11-908a-c68c1e6dc9c9
-source-git-commit: 485f2985c70b1bb095e31323b7b4698bcb7a04cf
+source-git-commit: 10780ff51d5b1d9d73cb0a6fb0982abc320b0313
 workflow-type: tm+mt
-source-wordcount: '1264'
+source-wordcount: '1241'
 ht-degree: 0%
 
 ---
@@ -25,34 +25,31 @@ Als er om het even welke groepen boven uw groep zijn, kunnen hun beheerders deze
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan</td> 
-   <td>Alle</td> 
+   <td>Adobe Workfront-pakket</td> 
+   <td><p>Alle</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie</td>
-   <td><p>Nieuw: Standaard</p>
-       <p>of</p>
-       <p>Huidig: Plan</p></td>
-  <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau</td> 
+   <td>Adobe Workfront-licentie</td> 
+   <td><p>Standard</p>
+       <p>Plan</p></td>
+  </tr>
+  <tr>
+   <td>Configuraties op toegangsniveau</td> 
    <td>U moet een groepsbeheerder van de groep of een systeembeheerder zijn.</td>
   </tr>
   <tr> 
-   <td role="rowheader">Objectmachtigingen</td>
+   <td>Objectmachtigingen</td>
    <td>Toegang tot of hoger weergeven voor de sjablonen die u wilt weergeven en waarmee u wilt werken</td> 
-  </tr> 
-  </tr> 
+  </tr>
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -60,12 +57,12 @@ Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van d
 
 {{step-1-to-setup}}
 
-1. In het linkerpaneel, klik **Groepen** ![&#x200B; Groepen &#x200B;](assets/groups-icon.png).
+1. In het linkerpaneel, klik **Groepen** ![ Groepen ](assets/groups-icon.png).
 
 1. Klik op de naam van de groep waarvoor u sjablonen wilt maken of wijzigen.
 1. In het linkerpaneel, klik **Malplaatjes** om van de malplaatjes een lijst te maken die met de groep en met om het even welke subgroups worden geassocieerd het zou kunnen hebben.
 
-   U moet toegang tot een sjabloon weergeven als u de sjabloon in deze lijst wilt zien. Voor informatie over deze toegang, zie [&#x200B; toegang van de Verlening tot malplaatjes &#x200B;](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-templates.md).
+   U moet toegang tot een sjabloon weergeven als u de sjabloon in deze lijst wilt zien. Voor informatie over deze toegang, zie [ toegang van de Verlening tot malplaatjes ](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-templates.md).
 
 1. Voer een van de volgende handelingen uit:
 
@@ -121,7 +118,7 @@ Wanneer u een projectmalplaatje creeert, worden de montages die in de lijsten hi
 >* U geeft geen groep op wanneer u de sjabloon maakt met de API
 >
 
-* [&#x200B; het malplaatjemontages van het Project die door project en taakvoorkeur worden gevormd &#x200B;](#project-template-settings-configured-by-project-and-task-preferences)
+* [ het malplaatjemontages van het Project die door project en taakvoorkeur worden gevormd ](#project-template-settings-configured-by-project-and-task-preferences)
 * [Taakinstellingen voor sjablonen geconfigureerd door taakvoorkeuren](#template-task-settings-configured-by-task-preferences)
 
 ### Instellingen voor projectsjablonen geconfigureerd door project- en taakvoorkeuren {#project-template-settings-configured-by-project-and-task-preferences}
@@ -157,9 +154,9 @@ Wanneer u een projectmalplaatje creeert, worden de montages die in de lijsten hi
  </tbody> 
 </table>
 
-Voor informatie over de projectvoorkeur die in deze lijst wordt vermeld, zie [&#x200B; systeem-brede projectvoorkeur &#x200B;](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) vormen.
+Voor informatie over de projectvoorkeur die in deze lijst wordt vermeld, zie [ systeem-brede projectvoorkeur ](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) vormen.
 
-Voor informatie over de taak en de uitgiftevoorkeur, zie [&#x200B; systeembrede taak en uitgiftevoorkeur &#x200B;](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md) vormen.
+Voor informatie over de taak en de uitgiftevoorkeur, zie [ systeembrede taak en uitgiftevoorkeur ](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md) vormen.
 
 >[!NOTE]
 >
@@ -169,7 +166,7 @@ Voor informatie over de taak en de uitgiftevoorkeur, zie [&#x200B; systeembrede 
 >   * Type inkomsten
 >   * Kostensoort
 >
->  Nochtans, wordt de malplaatjetaak beïnvloed door het plaatsen &quot;wanneer iemand aan een taak&quot;op het nieuwe malplaatje wordt toegewezen. Voor meer informatie, zie de sectie [&#x200B; Toegang &#x200B;](../../../manage-work/projects/create-and-manage-templates/edit-templates.md#access) in het artikel [&#x200B; projectmalplaatjes &#x200B;](../../../manage-work/projects/create-and-manage-templates/edit-templates.md) uitgeven.
+>  Nochtans, wordt de malplaatjetaak beïnvloed door het plaatsen &quot;wanneer iemand aan een taak&quot;op het nieuwe malplaatje wordt toegewezen. Voor meer informatie, zie de sectie [ Toegang ](../../../manage-work/projects/create-and-manage-templates/edit-templates.md#access) in het artikel [ projectmalplaatjes ](../../../manage-work/projects/create-and-manage-templates/edit-templates.md) uitgeven.
 >
 >* Wanneer een beheerder een project als malplaatje bewaart, worden alle montages voor het malplaatje geërft van het project, met inbegrip van de groep.
 >
@@ -199,4 +196,4 @@ Wanneer u een malplaatjetaak creeert, worden sommige van zijn montages gevormd a
  </tbody> 
 </table>
 
-Voor informatie over de taakvoorkeur die in deze lijst wordt vermeld, zie [&#x200B; de taak van het hele systeem vormen en voorkeur uitgeven &#x200B;](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+Voor informatie over de taakvoorkeur die in deze lijst wordt vermeld, zie [ de taak van het hele systeem vormen en voorkeur uitgeven ](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).

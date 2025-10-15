@@ -7,9 +7,9 @@ description: U kunt de informatie die in veelvoudige afzonderlijke kolommen word
 author: Nolan
 feature: Reports and Dashboards
 exl-id: d4f9db12-59ce-4cfc-90dd-e611b49fafdf
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '1091'
+source-wordcount: '1070'
 ht-degree: 0%
 
 ---
@@ -24,44 +24,33 @@ U kunt de informatie die in veelvoudige afzonderlijke kolommen wordt getoond sam
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan</td> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie</td> 
-   <td> <p> Huidige: 
-   <ul>
-   <li>Verzoek om een weergave te wijzigen</li> 
-   <li>Plan om een rapport te wijzigen</li>
-   </ul>
-     </p>
-     <p> Nieuw: 
-   <ul>
-   <li>Medewerker om een weergave te wijzigen</li> 
-   <li>Standaard voor het wijzigen van een rapport</li>
-   </ul>
-     </p>
-    </td> 
+   <td> 
+   <p>Medewerker of verzoek om een weergave te wijzigen </p>
+   <p>Standaard of Plan om een rapport te wijzigen</p>
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau*</td> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
    <td> <p>Toegang tot rapporten, dashboards, kalenders bewerken om een rapport te wijzigen</p> <p>Toegang tot filters, weergaven en groepen bewerken om een weergave te wijzigen</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Machtigingen beheren voor een rapport</p> </td> 
+   <td> <p>Machtigingen beheren voor een rapport</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
 
 +++
 
@@ -95,7 +84,7 @@ U kunt de gegevens van meerdere afzonderlijke kolommen samenvoegen en deze weerg
 Gegevens van twee kolommen samenvoegen zonder een regeleinde:
 
 1. Ga naar een lijst met objecten.
-1. Van de **drop-down Mening**, selecteer een mening, dan klik **uitgeven** pictogram ![&#x200B; uitgeven pictogram &#x200B;](assets/edit-icon.png) om de mening uit te geven.
+1. Van de **drop-down Mening**, selecteer een mening, dan klik **uitgeven** pictogram ![ uitgeven pictogram ](assets/edit-icon.png) om de mening uit te geven.
 1. Ga naar de eerste kolom u wilt samenvoegen, dan klik **Schakelaar aan de Wijze van de Tekst** > **uitgeven de Wijze van de Tekst**.
 1. Voeg de volgende tekst toe aan de eerste kolom die u wilt samenvoegen:
 
@@ -121,7 +110,7 @@ Gegevens van twee kolommen samenvoegen zonder een regeleinde:
    column.3.valueformat=HTML
    ```
 
-   ![&#x200B; Gedeelde kolom zonder lijnonderbrekingen &#x200B;](assets/shared-column-no-line-breaks-350x142.png)
+   ![ Gedeelde kolom zonder lijnonderbrekingen ](assets/shared-column-no-line-breaks-350x142.png)
 
 
 1. Klik **Gedaan**, dan **sparen Mening**.
@@ -131,7 +120,7 @@ Gegevens van twee kolommen samenvoegen zonder een regeleinde:
 Ga als volgt te werk om de gegevens van meerdere kolommen samen te voegen en weer te geven in één gemeenschappelijke kolom met een regeleinde tussen de waarden van elke kolom:
 
 1. Ga naar een lijst met objecten.
-1. Van de **drop-down Mening**, selecteer een mening, dan klik **uitgeven** pictogram ![&#x200B; uitgeven pictogram &#x200B;](assets/edit-icon.png) om de mening uit te geven.
+1. Van de **drop-down Mening**, selecteer een mening, dan klik **uitgeven** pictogram ![ uitgeven pictogram ](assets/edit-icon.png) om de mening uit te geven.
 1. Voeg een derde kolom toe tussen de twee kolommen die u wilt samenvoegen.
 
    >[!TIP]
@@ -182,6 +171,6 @@ Ga als volgt te werk om de gegevens van meerdere kolommen samen te voegen en wee
    column.5.valueformat=HTML 
    ```
 
-   ![&#x200B; Gedeelde kolom met lijnonderbrekingen &#x200B;](assets/shared-column-with-line-breaks-350x199.png)
+   ![ Gedeelde kolom met lijnonderbrekingen ](assets/shared-column-with-line-breaks-350x199.png)
 
 1. Klik **Gedaan**, dan **sparen Mening**.

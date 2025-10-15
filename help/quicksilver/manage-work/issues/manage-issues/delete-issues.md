@@ -2,22 +2,24 @@
 product-area: projects
 navigation-topic: manage-issues
 title: Problemen verwijderen
-description: In Adobe Workfront kunt u problemen of aanvragen verwijderen als u hiervoor de juiste toegangsrechten en machtigingen hebt.
+description: In Adobe Workfront kunt u problemen of aanvragen verwijderen als u hiervoor de juiste toegangsrechten en machtigingen hebt en als u merkt dat deze niet langer nodig zijn. We raden u aan deze bestanden te sluiten in plaats van ze te verwijderen, zodat u de nauwkeurigheid van uw projecten kunt behouden.
 author: Alina
 feature: Work Management
 exl-id: 31cc802f-7fa6-420c-8494-a45313df1f10
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: 0542587bb3254dec5664de493c1c321528cf7f3e
 workflow-type: tm+mt
-source-wordcount: '712'
+source-wordcount: '757'
 ht-degree: 0%
 
 ---
 
 # Problemen verwijderen
 
-<!--Audited: 05/2025-->
+<!--Audited: 08/2025-->
 
-In Adobe Workfront kunt u problemen of aanvragen verwijderen als u hiervoor de juiste toegangsrechten en machtigingen hebt.
+In Adobe Workfront kunt u problemen of aanvragen verwijderen als u hiervoor de juiste toegangsrechten en machtigingen hebt en als u merkt dat deze niet langer nodig zijn. We raden u aan deze bestanden te sluiten in plaats van ze te verwijderen, zodat u de nauwkeurigheid van uw projecten kunt behouden.
+
+Workfront-beheerders kunnen verwijderde problemen herstellen.
 
 >[!TIP]
 >
@@ -25,22 +27,20 @@ In Adobe Workfront kunt u problemen of aanvragen verwijderen als u hiervoor de j
 
 ## Toegangsvereisten
 
-+++ Vouw uit om de vereisten voor toegang weer te geven.
-
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
++++ Vouw uit om de vereisten voor toegang weer te geven. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan</td> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Nieuw: Medewerker of hoger</p>
-   <p>Huidig: Verzoek of hoger</p>
+   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td> <p>Medewerker of hoger</p>
+   <p>Aanvraag of hoger</p>
  </td> 
   </tr> 
   <tr> 
@@ -54,7 +54,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-*Voor meer informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -62,11 +62,11 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 * Uw Workfront-beheerder of groepsbeheerder moet het verwijderen van problemen inschakelen in een project met de status Voltooid in het gedeelte Projectvoorkeuren.
 
-  Voor informatie over vestiging projectvoorkeur, zie [&#x200B; systeem-brede projectvoorkeur &#x200B;](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) vormen.
+  Voor informatie over vestiging projectvoorkeur, zie [ systeem-brede projectvoorkeur ](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) vormen.
 
 * Als de uitgave uren heeft geregistreerd, moet de beheerder van Workfront of een groepsbeheerder de schrapping van deze kwesties toestaan door de Voorkeur van de Taak &amp; van de Uitgave in uw instantie van Workfront te vormen. Dit is ook van toepassing wanneer u probeert om projecten te schrappen die kwesties met het programma geopende uren hebben.
 
-  Voor meer informatie over het toelaten van de schrapping van kwesties waar de uren worden geregistreerd, zie de &quot;Schrapping&quot;sectie in [&#x200B; de taak van het hele systeem vormen en voorkeur uitgeven &#x200B;](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+  Voor meer informatie over het toelaten van de schrapping van kwesties waar de uren worden geregistreerd, zie de &quot;Schrapping&quot;sectie in [ de taak van het hele systeem vormen en voorkeur uitgeven ](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
 
 ## Het effect van het verwijderen van problemen
@@ -77,7 +77,7 @@ De volgende objecten die aan een uitgave zijn gekoppeld, worden ook verwijderd w
 
 * Documenten
 
-  Het is niet mogelijk een uitgave te verwijderen waaraan een document is toegevoegd dat is uitgecheckt. Voor meer informatie over het controleren van documenten, zie [&#x200B; Controle uit documenten &#x200B;](../../../documents/managing-documents/check-out-documents.md).
+  Het is niet mogelijk een uitgave te verwijderen waaraan een document is toegevoegd dat is uitgecheckt. Voor meer informatie over het controleren van documenten, zie [ Controle uit documenten ](../../../documents/managing-documents/check-out-documents.md).
 
 * Notities
 * Goedkeuringen
@@ -95,10 +95,10 @@ Afhankelijk van hoe uw Workfront of groepsbeheerder het Project, de Taak, of de 
   </MadCap:conditionalText>
   -->
 
-  Voor meer informatie over het vormen van de schrappingsvoorkeur voor uren het programma geopende kwesties, zie [&#x200B; timesheet en uurvoorkeur &#x200B;](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md) vormen.
+  Voor meer informatie over het vormen van de schrappingsvoorkeur voor uren het programma geopende kwesties, zie [ timesheet en uurvoorkeur ](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md) vormen.
 
 * De gebruikers die aan de kwestie of aan de uitgiftegoedkeuring worden toegewezen blijven op het projectteam.\
-  Voor meer informatie over projectteams, zie [&#x200B; Overzicht van het Team van het Project &#x200B;](../../../manage-work/projects/planning-a-project/project-team-overview.md).
+  Voor meer informatie over projectteams, zie [ Overzicht van het Team van het Project ](../../../manage-work/projects/planning-a-project/project-team-overview.md).
 
 ## Problemen verwijderen
 
@@ -110,12 +110,12 @@ Afhankelijk van hoe uw Workfront of groepsbeheerder het Project, de Taak, of de 
 1. Klik **Kwesties** in het linkerpaneel.
 
    Een lijst van kwesties verbonden aan het geselecteerde project toont aan het recht.
-1. Selecteer één of veelvoudige kwesties in de lijst, dan klik het **pictogram van de Schrapping ![&#x200B; pictogram van de Schrapping &#x200B;](assets/delete.png) bij de bovenkant van de lijst.**
+1. Selecteer één of veelvoudige kwesties in de lijst, dan klik het **pictogram van de Schrapping** pictogram van de Schrapping ![ bij de bovenkant van de lijst.](assets/delete.png)
 
 1. Als de schrapping wordt toegestaan, klik **Schrapping**.
 
    Uw Workfront-beheerder staat mogelijk niet toe dat problemen worden verwijderd waarvoor uren zijn geregistreerd.\
-   Voor meer informatie over de toegang en de toestemmingen nodig om een kwestie te schrappen, zie de sectie [&#x200B; Overwegingen voor het schrappen van kwesties &#x200B;](#considerations-for-deleting-issues) in dit artikel.
+   Voor meer informatie over de toegang en de toestemmingen nodig om een kwestie te schrappen, zie de sectie [ Overwegingen voor het schrappen van kwesties ](#considerations-for-deleting-issues) in dit artikel.
 
 ### Eén uitgave verwijderen {#delete-a-single-issue}
 
@@ -124,12 +124,12 @@ Afhankelijk van hoe uw Workfront of groepsbeheerder het Project, de Taak, of de 
 1. Klik de projectnaam die de kwestie bevat u wilt schrappen.
 1. Klik **Kwesties** in het linkerpaneel.
 
-   ![&#x200B; sectie van Kwesties in linkerpaneel &#x200B;](assets/qs-issues-icon-highlighted-on-project-350x278.png)
+   ![ sectie van Kwesties in linkerpaneel ](assets/qs-issues-icon-highlighted-on-project-350x278.png)
 
 1. Klik op de naam van het probleem dat u wilt verwijderen.
 1. Klik het **Meer** menu rechts van de voorwaardennaam.
 
-   ![&#x200B; Uitgave Meer menu &#x200B;](assets/qs-issue-more-menu-highlighted-350x469.png)
+   ![ Uitgave Meer menu ](assets/qs-issue-more-menu-highlighted-350x469.png)
 
 1. Klik **Uitgave van de Schrapping**.
 1. Klik **Schrapping** aan.
@@ -137,10 +137,10 @@ Afhankelijk van hoe uw Workfront of groepsbeheerder het Project, de Taak, of de 
    >[!NOTE]
    >
    >  Uw Workfront-beheerder staat mogelijk niet toe dat problemen worden verwijderd waarvoor uren zijn geregistreerd.\
-   >  Voor meer informatie over de toegang en de toestemmingen nodig om een kwestie te schrappen, zie de sectie [&#x200B; Overwegingen voor het schrappen van kwesties &#x200B;](#considerations-for-deleting-issues) in dit artikel.
+   >  Voor meer informatie over de toegang en de toestemmingen nodig om een kwestie te schrappen, zie de sectie [ Overwegingen voor het schrappen van kwesties ](#considerations-for-deleting-issues) in dit artikel.
 
 ## Verwijderde problemen herstellen
 
 Een Workfront of groepsbeheerder kan de problemen binnen 30 dagen nadat ze zijn verwijderd, herstellen.
 
-Voor meer informatie over het herstellen van punten in Workfront, zie [&#x200B; geschrapte punten &#x200B;](../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md) herstellen.
+Voor meer informatie over het herstellen van punten in Workfront, zie [ geschrapte punten ](../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md) herstellen.

@@ -2,26 +2,26 @@
 content-type: reference
 product-area: portfolios;projects
 navigation-topic: portfolios-navigation-topic
-title: Projecten beheren in de [!UICONTROL Portfolio Optimizer]
+title: 'Projecten beheren in het dialoogvenster [!UICONTROL Portfolio Optimizer] : Artikelindex'
 description: '[!UICONTROL Portfolio Optimizer] is het hulpmiddel dat voor projectevaluatie en vergelijking wordt gebruikt. Het proces om de waarden van BedrijfsGeval voor projecten te herzien en te vergelijken die aan een portefeuille worden toegewezen is hoe een portefeuillemanager projecten kan voorrang geven en de meeste waarde voor een organisatie produceert.'
 author: Alina
 feature: Work Management, Strategic Planning
 recommendations: noDisplay, noCatalog
 exl-id: 662d4975-3af5-4de6-befa-abadeedf2b0d
-source-git-commit: b08377e539b04e896e84d17f46d2c941b0f66731
+source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
 workflow-type: tm+mt
-source-wordcount: '116'
+source-wordcount: '120'
 ht-degree: 0%
 
 ---
 
-# Projecten beheren in de [!UICONTROL Portfolio Optimizer]
+# Projecten beheren in de [!UICONTROL Portfolio Optimizer] : artikelindex
 
 [!UICONTROL Portfolio Optimizer] is het hulpmiddel dat voor projectevaluatie en vergelijking wordt gebruikt. Het proces om de waarden van BedrijfsGeval voor projecten te herzien en te vergelijken die aan een portefeuille worden toegewezen is hoe een portefeuillemanager projecten kan voorrang geven en de meeste waarde voor een organisatie produceert.
 
 Deze sectie bevat de volgende artikelen:
 
-* [[!UICONTROL Portfolio Optimizer] overzicht](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md)
+* [[!UICONTROL Portfolio Optimizer]-overzicht](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md)
 * [Zoek de [!UICONTROL Portfolio Optimizer]](../../../manage-work/portfolios/portfolio-optimizer/locate-portfolio-optimizer.md)
 * [Overzicht van de [!UICONTROL Portfolio Optimizer] score](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-score.md)
 * [Prioriteit geven aan projecten in de [!UICONTROL Portfolio Optimizer]](../../../manage-work/portfolios/portfolio-optimizer/prioritize-projects-in-portfolio-optimizer.md)

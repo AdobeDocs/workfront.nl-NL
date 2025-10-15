@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 2fed8c96-0c9c-4662-a9c4-66dae507ff2a
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: b102960e088f072f10baadcbeca4f7f579daa287
 workflow-type: tm+mt
-source-wordcount: '580'
+source-wordcount: '504'
 ht-degree: 0%
 
 ---
@@ -27,9 +27,44 @@ U kunt een bestaande record dupliceren in de tabelweergave. Er wordt een identie
 
 ## Toegangsvereisten
 
-+++ Vouw uit om de vereisten voor toegang weer te geven.
++++ Breid uit om de toegangsvereisten voor de functionaliteit in dit artikel te bekijken. 
 
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+    <tr> 
+<tr> 
+</tr>   
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront-pakket</p></td> 
+   <td> 
+<ul> 
+<li><p>Alle Workfront en alle planningspakketten</p></li>
+of
+<li><p>Alle workflows en planningspakketten</li></ul>
+<p>Neem voor meer informatie over wat er in elk planningspakket voor Workfront staat, contact op met uw Workfront-accountvertegenwoordiger. </p> 
+   </td> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront-licentie</p></td> 
+   <td><p>Standard</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Objectmachtigingen</p></td> 
+   <td>   <p>Contribute of hoger machtigingen voor een werkruimte en recordtype  </p>  
+   <p>Systeembeheerders hebben machtigingen voor alle werkruimten, inclusief de werkruimten die ze niet hebben gemaakt</p> </td> 
+  </tr>   
+</tbody> 
+</table>
+
+Voor meer informatie over de toegangsvereisten van Workfront, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++   
+
+<!--Old:
 
 <table style="table-layout:auto"> 
 <col> 
@@ -40,56 +75,52 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
     <tr> 
 <tr> 
 <td> 
-   <p> Producten</p> </td> 
+   <p> Products</p> </td> 
    <td> 
    <ul><li><p> Adobe Workfront</p></li> 
    <li><p> Adobe Workfront Planning<p></li></ul></td> 
   </tr>   
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront-abonnement*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront plan*</p></td> 
    <td> 
-<p>Een van de volgende Workfront-plannen:</p> 
-<ul><li>Selecteren</li> 
+<p>Any of the following Workfront plans:</p> 
+<ul><li>Select</li> 
 <li>Prime</li> 
 <li>Ultimate</li></ul> 
-<p>Workfront Planning is niet beschikbaar voor oudere Workfront-plannen</p> 
+<p>Workfront Planning is not available for legacy Workfront plans</p> 
    </td> 
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront-planningspakket*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront Planning package*</p></td> 
    <td> 
-<p>Alle </p> 
-<p>Neem contact op met uw Workfront-accountmanager voor meer informatie over wat er in elk Workfront-planningsplan is opgenomen. </p> 
+<p>Any </p> 
+<p>For more information about what is included in each Workfront Planning plan, contact your Workfront account manager. </p> 
    </td> 
  <tr> 
-   <td role="rowheader"><p>Adobe Workfront-platform</p></td> 
+   <td role="rowheader"><p>Adobe Workfront platform</p></td> 
    <td> 
-<p>Het geval van Workfront van uw organisatie moet aan de Verenigde Ervaring van Adobe worden genegeerd om tot de Planning van Workfront te kunnen toegang hebben.</p> 
-<p>Voor meer informatie, zie <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md"> Adobe Verenigde Ervaring voor Workfront </a>. </p> 
+<p>Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience to be able to access Workfront Planning.</p> 
+<p>For more information, see <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p> 
    </td> 
    </tr> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront-licentie*</p></td> 
-   <td><p> Standaard</p>
-   <p>Workfront Planning is niet beschikbaar voor oudere Workfront-licenties</p> 
+   <td role="rowheader"><p>Adobe Workfront license*</p></td> 
+   <td><p> Standard</p>
+   <p>Workfront Planning is not available for legacy Workfront licenses</p> 
   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Configuratie op toegangsniveau</p></td> 
-   <td> <p>Er zijn geen toegangsniveaucontroles voor de Planning van Adobe Workfront</p>   
+   <td role="rowheader"><p>Access level configuration</p></td> 
+   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
 </td> 
   </tr> 
 <tr> 
-   <td role="rowheader"><p>Objectmachtigingen</p></td> 
-   <td>   <p>Contribute of hoger machtigingen voor een werkruimte en recordtype </a> </p>  
-   <p>Systeembeheerders hebben machtigingen voor alle werkruimten, inclusief de werkruimten die ze niet hebben gemaakt</p> </td> 
+   <td role="rowheader"><p>Object permissions</p></td> 
+   <td>   <p>Contribute or higher permissions to a workspace and record type</a> </p>  
+   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p> </td> 
   </tr> 
 </tbody> 
-</table>
-
-*Voor meer informatie over de toegangsvereisten van Workfront, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
-
-+++
+</table> -->
 
 
 ## Een record dupliceren <!--in a record type table (I don't think you can create them elsewhere right now)-->
@@ -103,7 +134,7 @@ U kunt records maken in de tabelweergave van een recordtype door een bestaande r
 
    De werkruimte wordt geopend en de recordtypen worden als kaarten weergegeven.
 
-1. Klik op een opnametype. Voor informatie over het creëren van een verslagtype, zie [&#x200B; recordtypes &#x200B;](/help/quicksilver/planning/architecture/create-record-types.md) creëren.
+1. Klik op een opnametype. Voor informatie over het creëren van een verslagtype, zie [ recordtypes ](/help/quicksilver/planning/architecture/create-record-types.md) creëren.
 
    De pagina met recordtypen wordt geopend in de weergave die u het laatst hebt geopend. Standaard wordt een pagina met recordtypen geopend in de tabelweergave.
 Alle records van het geselecteerde type worden in de weergave weergegeven.
@@ -112,13 +143,13 @@ Alle records van het geselecteerde type worden in de weergave weergegeven.
 
 1. Voer een van de volgende handelingen uit:
 
-   * Beweeg over de naam van een verslag dan het **Meer** menu gealigneerd met de verslagnaam, dan klik het **Dubbele** pictogram ![&#x200B; dubbele grijze pictogram &#x200B;](assets/duplicate-icon-gray.png).
+   * Beweeg over de naam van een verslag dan het **Meer** menu gealigneerd met de verslagnaam, dan klik het **Dubbele** pictogram ![ dubbele grijze pictogram ](assets/duplicate-icon-gray.png).
 
-     ![&#x200B; Meer menu van verslag in lijstmening &#x200B;](assets/more-menu-from-record-in-table-view.png)
+     ![ Meer menu van verslag in lijstmening ](assets/more-menu-from-record-in-table-view.png)
 
-   * Selecteer een verslag, dan klik het **pictogram** Dupliceer pictogram ![&#x200B; in de toolbar bij de bodem van de pagina wit en blauw &#x200B;](assets/duplicate-icon-white-and-blue.png).
+   * Selecteer een verslag, dan klik het **pictogram** Dupliceer pictogram ![ in de toolbar bij de bodem van de pagina wit en blauw ](assets/duplicate-icon-white-and-blue.png).
 
-     ![&#x200B; Dupliceer pictogram in toolbar in lijstmening &#x200B;](assets/duplicate-icon-in-toolbar-in-table-view.png)
+     ![ Dupliceer pictogram in toolbar in lijstmening ](assets/duplicate-icon-in-toolbar-in-table-view.png)
 
    Onder de oorspronkelijke record wordt een identieke record met dezelfde naam gemaakt. Alle velden van de nieuwe record worden gevuld met dezelfde informatie als in de oorspronkelijke record.
 
@@ -126,11 +157,11 @@ Alle records van het geselecteerde type worden in de weergave weergegeven.
 
    >[!NOTE]
    >
-   >  * Er zijn geen verplichte velden voor records. Nochtans, adviseren wij dat u informatie voor het primaire gebied van een verslag toevoegt, aangezien het nuttig is om verslagen te identificeren wanneer het verbinden van verslagen aan elkaar. Voor meer informatie over primaire gebieden, zie [&#x200B; de lijstmening &#x200B;](/help/quicksilver/planning/views/manage-the-table-view.md) beheren en [&#x200B; Primair gebiedsoverzicht &#x200B;](/help/quicksilver/planning/fields/primary-field-overview.md).
+   >  * Er zijn geen verplichte velden voor records. Nochtans, adviseren wij dat u informatie voor het primaire gebied van een verslag toevoegt, aangezien het nuttig is om verslagen te identificeren wanneer het verbinden van verslagen aan elkaar. Voor meer informatie over primaire gebieden, zie [ de lijstmening ](/help/quicksilver/planning/views/manage-the-table-view.md) beheren en [ Primair gebiedsoverzicht ](/help/quicksilver/planning/fields/primary-field-overview.md).
    >
    >  * Velden die naar andere recordtypen of berekende velden verwijzen, zijn alleen-lezen velden.
 
-   Voor meer informatie over het uitgeven van verslagen, zie [&#x200B; verslagen &#x200B;](/help/quicksilver/planning/records/edit-records.md) uitgeven.
+   Voor meer informatie over het uitgeven van verslagen, zie [ verslagen ](/help/quicksilver/planning/records/edit-records.md) uitgeven.
 
 1. (Optioneel) Gebruik de volgende sneltoetsen om nieuwe records of de bijbehorende informatie ongedaan te maken of opnieuw toe te voegen wanneer u deze in de tabelweergave toevoegt:
 

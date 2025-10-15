@@ -7,54 +7,50 @@ description: Met Adobe Workfront kunt u snel en eenvoudig berichten verzenden di
 author: Lisa
 feature: People Teams and Groups
 exl-id: 82a1c304-176a-48c5-809d-40663ee768b7
-source-git-commit: 3b5452c51c19edfafc9244c2cfd58d7174732375
+source-git-commit: 18c39c5b1959c31b6fd0018476b48643b4b15021
 workflow-type: tm+mt
-source-wordcount: '570'
+source-wordcount: '544'
 ht-degree: 0%
 
 ---
 
 # Directe berichten verzenden naar andere gebruikers
 
-Met [!DNL Adobe Workfront] kunt u snel en eenvoudig berichten verzenden die geen verband houden met een werkitem en deze rechtstreeks naar andere [!DNL Workfront] -gebruikers sturen. Berichten die worden verzonden zoals beschreven in deze sectie, worden weergegeven op het tabblad [!UICONTROL Updates] op de profielpagina van de gebruiker en zijn zichtbaar voor alle gebruikers. Voor extra informatie over updates, zie [&#x200B; het werkpunten van de Update en meningsupdates: artikelindex &#x200B;](../../workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md).
+Met [!DNL Adobe Workfront] kunt u snel en eenvoudig berichten verzenden die geen verband houden met een werkitem en deze rechtstreeks naar andere [!DNL Workfront] -gebruikers sturen. Berichten die worden verzonden zoals beschreven in deze sectie, worden weergegeven op het tabblad [!UICONTROL Updates] op de profielpagina van de gebruiker en zijn zichtbaar voor alle gebruikers. Voor extra informatie over updates, zie [ het werkpunten van de Update en meningsupdates: artikelindex ](../../workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md).
 
 De gebruiker u verzendt het bericht om de volgende types van berichten te ontvangen wanneer u een bericht verzendt zoals die in deze sectie wordt beschreven:
 
-* Een in-app bericht, zoals die in [&#x200B; wordt beschreven Mening en beheert in-app berichten &#x200B;](../../workfront-basics/using-notifications/view-and-manage-in-app-notifications.md)
+* Een in-app bericht, zoals die in [ wordt beschreven Mening en beheert in-app berichten ](../../workfront-basics/using-notifications/view-and-manage-in-app-notifications.md)
 * Een e-mailmelding
 
-  Dit is afhankelijk van de typen e-mailberichten die de gebruiker moet ontvangen. Voor meer informatie, zie [&#x200B; gebeurtenisberichten voor iedereen in het systeem &#x200B;](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md) vormen, [&#x200B; Mening en vorm gebeurtenisberichten voor een groep &#x200B;](../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md), en [&#x200B; wijzig uw eigen e-mailberichten &#x200B;](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+  Dit is afhankelijk van de typen e-mailberichten die de gebruiker moet ontvangen. Voor meer informatie, zie [ gebeurtenisberichten voor iedereen in het systeem ](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md) vormen, [ Mening en vorm gebeurtenisberichten voor een groep ](../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md), en [ wijzig uw eigen e-mailberichten ](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 ## Toegangsvereisten
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader">Adobe Workfront-plan</td> 
-   <td>Alle</td> 
+  <tr> 
+   <td>Adobe Workfront-pakket</td> 
+   <td><p>Alle</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td>Adobe Workfront-licentie</td> 
    <td>
-   <p>Om een bericht van de de profielpagina van de gebruiker te verzenden, moet u:<br> hebben
-   Nieuw: Licht of hoger <br>
-   or<br>
-   Huidig: Controleren of hoger</p>
-   <p>Om een bericht van de lijst van de Gebruiker te verzenden, moet u:<br> hebben
-   Nieuw: Standaard <br>
-   or<br>
-   Huidig: Werk of hoger</p></td>
+   <p>Als u een bericht wilt verzenden vanaf de profielpagina van de gebruiker, moet u beschikken over:</P>
+   <p>Licht of hoger</p>
+   <p>Controleren of hoger</p>
+   <p>Als u een bericht wilt verzenden vanuit de gebruikerslijst, moet u beschikken over:</p>
+   <p>Standard</p>
+   <p>Werk of hoger</p></td>
   </tr> 
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -66,7 +62,7 @@ Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van d
 
 1. Klik op het tabblad **[!UICONTROL Updates]** in het tekstvakveld.
 
-   ![&#x200B; gebruiker van het Bericht op het [!UICONTROL Updates] lusje &#x200B;](assets/send-message-to-user-on-updates-tab.png)
+   ![ gebruiker van het Bericht op het [!UICONTROL Updates] lusje ](assets/send-message-to-user-on-updates-tab.png)
 
 1. Typ uw bericht.
 1. (Optioneel) Klik in het veld **[!UICONTROL Notify]** en typ de naam van een andere gebruiker die u in dit bericht wilt opnemen.
@@ -87,11 +83,11 @@ Deze optie is alleen beschikbaar als u een Standard-, Plan- of Werkvergunning he
 {{step-1-to-users}}
 
 1. Selecteer de gebruiker of de gebruikers u een bericht wilt verzenden naar, en [!UICONTROL **verzenden Update naar Gebruiker**] klikken.
-1. Typ uw bericht in het [!UICONTROL Send update to user] venster. Gebruik zo nodig de opties voor tekstopmaak. Voor meer informatie, zie [&#x200B; Rijke Tekst van het Gebruik in een commentaar van Workfront &#x200B;](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md#use-rich-text-in-a-workfront-comment) in het artikel [&#x200B; werk van de Update &#x200B;](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+1. Typ uw bericht in het [!UICONTROL Send update to user] venster. Gebruik zo nodig de opties voor tekstopmaak. Voor meer informatie, zie [ Rijke Tekst van het Gebruik in een commentaar van Workfront ](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md#use-rich-text-in-a-workfront-comment) in het artikel [ werk van de Update ](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-   ![&#x200B; gebruiker van het Bericht op Send update aan gebruikersvenster &#x200B;](assets/send-update-to-user-072825.png)
+   ![ gebruiker van het Bericht op Send update aan gebruikersvenster ](assets/send-update-to-user-072825.png)
 
-1. (Facultatief) klik **mensen van de Markering** om het even welke extra gebruikers op het bericht te etiketteren. Voor meer informatie, zie [&#x200B; Tags anderen op updates &#x200B;](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
+1. (Facultatief) klik **mensen van de Markering** om het even welke extra gebruikers op het bericht te etiketteren. Voor meer informatie, zie [ Tags anderen op updates ](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
 1. (Optioneel) Selecteer **[!UICONTROL Private to my company]** om dit bericht alleen zichtbaar te maken voor andere gebruikers in uw bedrijf.
 
    >[!TIP]

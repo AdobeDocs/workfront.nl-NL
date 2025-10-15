@@ -6,20 +6,20 @@ description: Uw Adobe Workfront-beheerder kan u toegang verlenen tot financiële
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0d0e13d9-b234-48d3-a818-5b6fb36a4688
-source-git-commit: b8a2fea8c1eac376f49201dc840f7a4fcc67d759
+source-git-commit: 4ae96f67b15838403ffce32317d871d6904d6d95
 workflow-type: tm+mt
-source-wordcount: '565'
+source-wordcount: '504'
 ht-degree: 0%
 
 ---
 
 # Financiële machtigingen delen op een object
 
-Uw Adobe Workfront-beheerder kan u toegang verlenen tot financiële gegevens wanneer u uw toegangsniveau toewijst. Voor meer informatie, zie [&#x200B; toegang van de Verlening tot financiële gegevens &#x200B;](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
+Uw Adobe Workfront-beheerder kan u toegang verlenen tot financiële gegevens wanneer u uw toegangsniveau toewijst. Voor meer informatie, zie [ toegang van de Verlening tot financiële gegevens ](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
 
 Samen met het toegangsniveau dat de gebruikers worden verleend, kunt u hen toestemmingen aan Mening verlenen of financiën voor specifieke projecten, taken, of kwesties beheren die u toegang hebt om te delen.
 
-Voor informatie over welke gebruikers in elk toegangsniveau met financiële gegevens kunnen doen, zie de sectie [&#x200B; Financiële gegevens &#x200B;](../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md#financia) in de artikel [&#x200B; Functionaliteit beschikbaar voor elk objecten type &#x200B;](../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md).
+Voor informatie over welke gebruikers in elk toegangsniveau met financiële gegevens kunnen doen, zie de sectie [ Financiële gegevens ](../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md#financia) in de artikel [ Functionaliteit beschikbaar voor elk objecten type ](../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md).
 
 ## Toegangsvereisten
 
@@ -53,33 +53,34 @@ Voor informatie over welke gebruikers in elk toegangsniveau met financiële gege
 </table>
 -->
 
-+++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
-U moet de volgende opties hebben om financiële gegevens over objecten te kunnen delen:
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-abonnement*</td> 
-   <td> <p>Alle </p> </td> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Plan </p> </td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td> <p>Standard</p> 
+   <p>Plan</p> 
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>De mening of de hogere toegang tot Projecten, Taken, Kwesties, en Financiële Gegevens</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
+   <td> <p>De mening of de hogere toegang tot Projecten, Taken, Kwesties, en Financiële Gegevens</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>De toestemmingen van de mening of hoger aan projecten, taken, en kwesties die minstens de toestemmingen van de Financiën van de Mening omvatten</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
+   <td> <p>De toestemmingen van de mening of hoger aan projecten, taken, en kwesties die minstens de toestemmingen van de Financiën van de Mening omvatten</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -179,4 +180,4 @@ In de volgende tabel wordt weergegeven welke financiële machtigingen gebruikers
 
 &#42; vereist de extra toegang van het Beheer van het Middel.
 
-Voor informatie over de toegang van het Beheer van het Middel, zie [&#x200B; Toegang van de Verlening tot het Beheer van het Middel &#x200B;](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md).
+Voor informatie over de toegang van het Beheer van het Middel, zie [ Toegang van de Verlening tot het Beheer van het Middel ](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md).

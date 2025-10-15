@@ -4,9 +4,9 @@ description: Recordtypen zijn de objecttypen voor Adobe Workfront Planning. In d
 hidefromtoc: true
 hide: true
 exl-id: b977d5dd-8975-42c4-9968-a7ac357972e6
-source-git-commit: 7d37481fc5b468f6f8ea1fce6ccd7ae064f00251
+source-git-commit: 92748bab4eee807d9529a61a9d97ac1c1df9c8cf
 workflow-type: tm+mt
-source-wordcount: '856'
+source-wordcount: '832'
 ht-degree: 0%
 
 ---
@@ -25,17 +25,17 @@ recommendations: noDisplay, noCatalog
 
 <span class="preview"> de informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>
 
-<span class="preview"> voor informatie over snelle versies, zie [&#x200B; snelle versies voor uw organisatie &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
+<span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
 
 Als werkruimtenmanager, kunt u een verslagtype toevoegen dat in een andere werkruimte aan een werkruimte bestaat die u in de Planning van Adobe Workfront beheert.
 
 Een werkruimtemanager moet eerst een recordtype aanwijzen als een globaal recordtype voordat u dit kunt toevoegen aan werkruimten die u als een bestaand recordtype beheert. Workspace-managers kunnen een recordtype als globaal aanwijzen wanneer ze deze maken of bewerken, door de instellingen voor de werkruimte van het recordtype te definiëren.
 
-Voor informatie, zie [&#x200B; mogelijkheden van de dwars-werkruimte voor verslagtypes &#x200B;](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md) vormen.
+Voor informatie, zie [ mogelijkheden van de dwars-werkruimte voor verslagtypes ](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md) vormen.
 
 In dit artikel wordt beschreven hoe u een recordtype uit een bestaand recordtype kunt toevoegen en hoe u het kunt verwijderen als het niet meer nodig is.
 
-Alvorens verslagen aan een werkruimte van een globaal verslagtype toe te voegen, zie ook het artikel [&#x200B; overzicht van de types van het interwerkruimterecord &#x200B;](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md).
+Alvorens verslagen aan een werkruimte van een globaal verslagtype toe te voegen, zie ook het artikel [ overzicht van de types van het interwerkruimterecord ](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md).
 
 
 ## Toegangsvereisten
@@ -49,40 +49,71 @@ Alvorens verslagen aan een werkruimte van een globaal verslagtype toe te voegen,
 </col> 
 <tbody> 
     <tr> 
-<tr>
-
+<tr> 
 </tr>   
 <tr> 
    <td role="rowheader"><p>Adobe Workfront-pakket</p></td> 
    <td> 
-<ul><li><p>Willekeurig Workfront-pakket</p></li>
-<p>en</p>
-<li><p>Willekeurig planningspakket om verbindingbare recordtypen te maken</p></li>
-<li><p>Een Plannings plus pakket om globale verslagtypes tot stand te brengen</p></li>
-</ul>
-Of:
-<ul><li><p>Een Prime- of Ultimate-workflowpakket</p> </li>
-en
-<li><p>Een planningpakket voor Prime of Ultimate</p></li></ul>
-<p>Neem contact op met uw Workfront-accountmanager voor meer informatie over wat er in elk Workfront-planningspakket wordt opgenomen. </p> 
-   </td>
-
-<tr> 
+<ul><li><p>Willekeurig Workfront-pakket en een plannings Plus-pakket</p></li>
+of
+<li><p>Workflow en planning voor Prime- en Ultimate-pakketten</li></ul>
+<p>Neem voor meer informatie over wat er in elk planningspakket voor Workfront staat, contact op met uw Workfront-accountvertegenwoordiger. </p> 
+   </td> 
+  <tr> 
    <td role="rowheader"><p>Adobe Workfront-licentie</p></td> 
    <td><p>Standard</p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Objectmachtigingen</p></td> 
-   <td>   <p>Rechten beheren in een werkruimte en op het recordtype </a> </p>  
+   <td>   <p>Machtigingen beheren in een werkruimte</p>  
    <p>Systeembeheerders hebben machtigingen voor alle werkruimten, inclusief de werkruimten die ze niet hebben gemaakt</p>  </td> 
   </tr>  
 </tbody> 
 </table>
 
-Voor meer informatie over de toegangsvereisten van Workfront, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer informatie over de toegangsvereisten van Workfront, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++   
+
+<!--Old:
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+    <tr> 
+<tr> 
+
+  </tr>   
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront package</p></td> 
+   <td> 
+<ul><li><p>Any Workfront package</p></li>
+<p>And</p>
+<li><p>Any Planning package to create connectable record types</p></li>
+<li><p>A Planning Plus package to create global record types</p></li>
+</ul>
+Or:
+<ul><li><p>A Prime or Ultimate Workflow package</p> </li>
+And
+<li><p>A Planning Prime or Ultimate package</p></li></ul>
+<p>For more information about what is included in each Workfront Planning package, contact your Workfront account manager. </p> 
+   </td> 
+
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront license</p></td> 
+   <td><p>Standard</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Object permissions</p></td> 
+   <td>   <p>Manage permissions to a workspace and to the record type</a> </p>  
+   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>  </td> 
+  </tr>  
+</tbody> 
+</table>-->
 
 ## Een recordtype maken door een bestaand type uit een andere werkruimte toe te voegen
 
@@ -90,9 +121,9 @@ Voor meer informatie over de toegangsvereisten van Workfront, zie [&#x200B; vere
 >
 >Zorg ervoor dat er ten minste één recordtype is opgegeven dat globaal is in ten minste één andere werkruimte.
 
-1. Begin creërend een verslagtype, zoals die in het artikel [&#x200B; wordt beschreven creeer verslagtypes &#x200B;](/help/quicksilver/planning/architecture/create-record-types.md), dan klik **voegt bestaand** toe. <!--check this - the option might have been renamed in the UI-->
+1. Begin creërend een verslagtype, zoals die in het artikel [ wordt beschreven creeer verslagtypes ](/help/quicksilver/planning/architecture/create-record-types.md), dan klik **voegt bestaand** toe. <!--check this - the option might have been renamed in the UI-->
 
-   ![&#x200B; Modal om verslagtype met optie toe te voegen van een andere werkruimte &#x200B;](assets/add-record-type-from-existing-workspace-option-when-creating-records.png)
+   ![ Modal om verslagtype met optie toe te voegen van een andere werkruimte ](assets/add-record-type-from-existing-workspace-option-when-creating-records.png)
 
    >[!TIP]
    >
@@ -142,10 +173,10 @@ Een algemeen recordtype uit een secundaire werkruimte verwijderen:
 
 1. Ga naar het algemene recordtype in de secundaire werkruimte.
 
-1. (Facultatief) klik op **Meer** menu ![&#x200B; Meer menu &#x200B;](assets/more-menu.png) op de kaart van het verslagtype, of rechts van de naam van het verslagtype op zijn pagina, dan klik **Schrapping**.
+1. (Facultatief) klik op **Meer** menu ![ Meer menu ](assets/more-menu.png) op de kaart van het verslagtype, of rechts van de naam van het verslagtype op zijn pagina, dan klik **Schrapping**.
 1. (Voorwaardelijk) Type **schrapt** op het verstrekte gebied, dan klik **permanent schrapt**.
 
-   ![&#x200B; Schrap secundaire globale doos van de verslagtype bevestiging &#x200B;](assets/delete-secondary-global-record-type.png)
+   ![ Schrap secundaire globale doos van de verslagtype bevestiging ](assets/delete-secondary-global-record-type.png)
 
    De volgende dingen doen zich voor:
 

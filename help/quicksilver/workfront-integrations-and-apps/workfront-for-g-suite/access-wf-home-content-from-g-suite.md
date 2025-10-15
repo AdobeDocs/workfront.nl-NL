@@ -7,7 +7,7 @@ description: U kunt tot uw  [!DNL Adobe Workfront]  inhoud van het Huis toegang 
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: da2ecaf1-5cfb-470e-90a1-fbb386db8670
-source-git-commit: 58543982fef6e7ba2d05787dc023a2099e47bbc7
+source-git-commit: 1e5b3c7d087c34870ccb0f4e65021358f08b81bf
 workflow-type: tm+mt
 source-wordcount: '449'
 ht-degree: 0%
@@ -26,63 +26,65 @@ ht-degree: 0%
 >
 >We raden u aan Workfront Automation and Integration te gebruiken voor de integratiebehoeften van uw organisatie met Google Workspace.
 >
->Voor een overzicht van de Automatisering en de Integratie van Workfront, zie [&#x200B; het overzicht van de Fusie van Adobe Workfront &#x200B;](https://experienceleague.adobe.com/nl/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+>Voor een overzicht van de Automatisering en de Integratie van Workfront, zie [ het overzicht van de Fusie van Adobe Workfront ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 >
->Voor informatie over de specifieke mogelijkheden van de modules van de Automatisering en van de Integratie van Workfront voor Google Workspace, zie [&#x200B; modules van Gmail &#x200B;](https://experienceleague.adobe.com/nl/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/gmail-modules) en [&#x200B; modules van de Kalender van Google &#x200B;](https://experienceleague.adobe.com/nl/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-calendar-modules).
+>Voor informatie over de specifieke mogelijkheden van de modules van de Automatisering en van de Integratie van Workfront voor Google Workspace, zie [ modules van Gmail ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/gmail-modules) en [ modules van de Kalender van Google ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-calendar-modules).
 
 U hebt toegang tot uw [!DNL Adobe Workfront] [!UICONTROL Home] -inhoud, inclusief alle taken, problemen, goedkeuringen en toegangsaanvragen die aan u zijn toegewezen, zonder Google Workspace te verlaten.
 
 ## Toegangsvereisten
 
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licentie*</td> 
-   <td> <p>[!UICONTROL Work], [!UICONTROL Plan]</p> </td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td> <p>Standard</p><p>Werk of hoger</p>
   </tr> 
  </tbody> 
 </table>
 
-&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw [!DNL Workfront] beheerder.
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Vereisten
 
 Voordat u [!UICONTROL Home] -inhoud kunt openen vanuit [!DNL Google Workspace] , moet u
 
 * Installeren [!DNL Workfront for Google Workspace]\
-   Voor instructies, zie [&#x200B; installeren  [!DNL Adobe Workfront for Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/install-workfront-for-gsuite.md).
+   Voor instructies, zie [ installeren  [!DNL Adobe Workfront for Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/install-workfront-for-gsuite.md).
 
 ## Toegang [!DNL Workfront] [!UICONTROL Home] van [!DNL Google Workspace]
 
 1. Controleer of u bent aangemeld bij [!DNL Workfront] .
-1. Als het [!UICONTROL Workfront for Google Workspace] paneel niet wordt getoond, klik het [!DNL Workfront] pictogram ![&#x200B; pictogram van Workfront &#x200B;](assets/wf-lion-icon.png) in [!DNL Google Workspace] toe:voegen-ons sidebar bij uiterst rechts van de pagina.
+1. Als het [!UICONTROL Workfront for Google Workspace] paneel niet wordt getoond, klik het [!DNL Workfront] pictogram ![ pictogram van Workfront ](assets/wf-lion-icon.png) in [!DNL Google Workspace] toe:voegen-ons sidebar bij uiterst rechts van de pagina.
 1. Als er een pijl naar links boven [!DNL Workfront] for [!DNL Google Workspace] verschijnt, klikt u op de pijl om naar het [!UICONTROL Home] -gebied te gaan.
 
-1. In het **[!UICONTROL Sort by]** gebied, klik de uitgevouwen pijl ![&#x200B; breid pijl &#x200B;](assets/dropdown-arrow.png) uit, dan klik een optie om te specificeren hoe u uw het werkpunten wilt groeperen zodat kunt u vinden u wilt.
+1. In het **[!UICONTROL Sort by]** gebied, klik de uitgevouwen pijl ![ breid pijl ](assets/dropdown-arrow.png) uit, dan klik een optie om te specificeren hoe u uw het werkpunten wilt groeperen zodat kunt u vinden u wilt.
 
    Wanneer u sorteert op **[!UICONTROL Commit date]** of **[!UICONTROL Planned completion]** datum, staan de oudste werkitems bovenaan.
 
    Wanneer u sorteert op **[!UICONTROL Project]**, worden de het werkpunten weergegeven in de orde van hun ouderprojecten, alfabetisch vermeld van A tot Z. De punten van het werk zonder een ouderprojectvertoning onder **[!UICONTROL No Project]**.
 
-1. Klik de uitvouwpijl ![&#x200B; breidt pijl &#x200B;](assets/dropdown-arrow.png) voor het groeperen uit u wilt bekijken.
+1. Klik de uitvouwpijl ![ breidt pijl ](assets/dropdown-arrow.png) voor het groeperen uit u wilt bekijken.
 
    Het aantal items in elke groep wordt tussen haakjes weergegeven. Wanneer u op de pijl [!UICONTROL expand] klikt, worden alle werkitems in de groep weergegeven.
 
    Werkitems worden als volgt weergegeven:
 
-   * {het pictogram van de Taak 1} ![&#x200B; &#x200B;](assets/task-icon.png) toont de Taken van de Taak de naam van het ouderproject, de taaknaam, en de geplande voltooiingsdatum.**&#x200B;**
+   * {het pictogram van de Taak 1} ![ ](assets/task-icon.png) toont de Taken van de Taak de naam van het ouderproject, de taaknaam, en de geplande voltooiingsdatum.****
 
-   * ![&#x200B; &#x200B;](assets/issue-icon.png) het pictogram van de kwestie **toont de 3&rbrace; vertoning van de kwesties van de kwestie de naam van het ouderproject, kwestie, en geplande voltooiingsdatum.**
+   * ![ ](assets/issue-icon.png) het pictogram van de kwestie **toont de 3} vertoning van de kwesties van de kwestie de naam van het ouderproject, kwestie, en geplande voltooiingsdatum.**
 
-   * {het pictogram van het 0} Document ![&#x200B; &#x200B;](assets/document-icon.png) keurt **vertoning de naam van de aanvrager, documentnaam, en voorleggingsdatum goed.**
+   * {het pictogram van het 0} Document ![ ](assets/document-icon.png) keurt **vertoning de naam van de aanvrager, documentnaam, en voorleggingsdatum goed.**
    * **de verzoeken van de Toegang** tonen de naam van de aanvrager, objecten naam, en voorleggingsdatum. Het pictogram voor het objecttype wordt links weergegeven.
 
 1. Klik ergens op een werkitem om de details, updates en documenten ervan weer te geven.

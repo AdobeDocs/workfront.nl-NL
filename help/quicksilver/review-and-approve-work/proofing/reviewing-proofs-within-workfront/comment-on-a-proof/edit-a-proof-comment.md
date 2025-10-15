@@ -6,9 +6,9 @@ description: Opmerkingen kunnen niet worden bewerkt nadat een antwoord aan de op
 author: Courtney
 feature: Digital Content and Documents
 exl-id: ae92fb7d-372f-4cae-b0c3-03801248ccdc
-source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
+source-git-commit: a117b4e671490a380518cb987b897ca17e54cb16
 workflow-type: tm+mt
-source-wordcount: '376'
+source-wordcount: '294'
 ht-degree: 0%
 
 ---
@@ -21,36 +21,30 @@ Opmerkingen kunnen niet worden bewerkt nadat een antwoord aan de opmerking is to
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-abonnement*</td> 
-   <td> <p>Huidig abonnement: Pro of hoger</p> <p>of</p> <p>Verouderd abonnement: Selecteren of Premium</p> <p>Voor meer informatie over het proefdrukken van toegang met de verschillende plannen, zie <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref"> Toegang tot het proefdrukken van functionaliteit in Workfront </a>.</p> </td> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Huidig plan: Werk of Plan</p> <p>Ouder plan: Willekeurig (proefdrukken moet zijn ingeschakeld voor de gebruiker)</p> </td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Bewijs van machtigingsprofiel </td> 
    <td>Toezichthouder</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Proefdrukrol</td> 
-   <td>Auteur of moderator</td> 
-  </tr> 
-  <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot documenten bewerken</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
+   <td> <p>Toegang tot documenten bewerken</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42; om te weten te komen welk plan, rol, of Profiel van de Toestemming van het Bewijs u hebt, contacteer uw beheerder van Workfront of van Workfront Proof.
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -71,7 +65,7 @@ Proefdrukopmerkingen bewerken:
 1. (Voorwaardelijk) als het commentaargebied niet open is, klik **commentaren van de Mening** in de hoger-juiste hoek.
 1. Beweeg over de opmerking u wilt uitgeven, **klikken Meer** pictogram dat verschijnt, dan **uitgeeft** klikken.
 
-1. ![&#x200B; Edit_a_comment-More_icon.png &#x200B;](assets/edit-a-comment-more-icon.png)
+1. ![ Edit_a_comment-More_icon.png ](assets/edit-a-comment-more-icon.png)
 
 1. Breng om het even welke veranderingen in de commentaar aan, dan klik **Post**.
 

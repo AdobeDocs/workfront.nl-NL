@@ -6,9 +6,9 @@ description: U kunt opmerkingen toevoegen aan alle doelen die u kunt weergeven i
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: 6e2e337969fccba88ea7089fe9a6d9db605343f7
+source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: '238'
 ht-degree: 0%
 
 ---
@@ -34,9 +34,13 @@ U kunt opmerkingen toevoegen aan alle doelen die u kunt weergeven in Adobe Workf
 
 ## Toegangsvereisten
 
-+++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
+>[!NOTE]
+>
+>Uw bedrijf zou kunnen verkiezen om de Doelen van Adobe Workfront verder te gebruiken als zij dit pakket in het verleden kochten. U moet voor meer informatie contact opnemen met uw accountvertegenwoordiger.
+>
+>Adobe Workfront Goals kan niet meer worden aangeschaft.
 
-U moet de volgende toegang hebben om de handelingen uit te voeren die in dit artikel worden beschreven:
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 <table style="table-layout:auto">
 <col>
@@ -44,64 +48,102 @@ U moet de volgende toegang hebben om de handelingen uit te voeren die in dit art
 <col>
 </col>
 <tbody>
- <tr> 
-   <td role="rowheader">Adobe Workfront-abonnement*</td> 
+ <tr>
+  <td> <p>Adobe Workfront-pakket</p> </td> 
    <td> 
-   <p>Voor het nieuwe plan en de nieuwe licentiestructuur:
-  <ul><li>Een Ultimate-abonnement </li></ul>
-   </p>
-<p>Voor het huidige plan en de licentiestructuur: 
-<ul><li> Een Pro of hoger </li>
-  <li>Een Adobe Workfront Goals-licentie in aanvulling op een Workfront-licentie.</li></ul></p>
+   <p>Adobe Workfront Ultimate</p>
    </td> 
   </tr>
  <tr>
  <td role="rowheader">Adobe Workfront-licentie</td>
  <td>
- <p>Alle</td>
+ <p>Alle</p></td>
  </tr>
- <tr>
- <td role="rowheader">Product*</td>
- <td>
- <p> Nieuwe productvereisten: Workfront</p>
- of
- <p>Huidige productvereiste: Naast een Workfront-licentie moet u een licentie aanschaffen voor Adobe Workfront Goals. </p> <p>Voor informatie, zie <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref"> Vereisten om de Doelen van Workfront </a> te gebruiken. </p> </td>
- </tr>
- <tr>
+  <tr>
  <td role="rowheader">Configuratie op toegangsniveau</td>
- <td> <p>Toegang tot doelen weergeven of vergroten</p> </td>
+ <td> <p>Toegang tot doelen weergeven of vergroten</p> 
+ </td>
  </tr>
- <tr data-mc-conditions="">
+ <tr>
  <td role="rowheader">Objectmachtigingen</td>
  <td>
   <div>
   <p>De toestemmingen van de mening of hoger aan het doel</p>
-  <p>Standaard krijgen gebruikers geen toegang tot doelen </p>
- <p>Voor informatie over het delen van doelstellingen, zie <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref"> een doel in de Doelen van Workfront delen </a>. </p>
   </div> </td>
  </tr>
  <tr>
    <td role="rowheader"><p>Lay-outsjabloon</p></td>
-   <td> <p>Aan alle gebruikers, inclusief Workfront-beheerders, moet een lay-outsjabloon worden toegewezen die het gebied Doelen in het hoofdmenu bevat. </p>  
+   <td> <p>Aan alle gebruikers, inclusief Systeembeheerders, moet een lay-outsjabloon worden toegewezen die het gebied Doelen in het hoofdmenu bevat. </p>  
 </td>
   </tr>
 </tbody>
 </table>
 
-*Voor meer informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+<!--Old:
+<table style="table-layout:auto">
+<col>
+</col>
+<col>
+</col>
+<tbody>
+ <tr> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td> 
+   <p>For the new plan and license structure:
+  <ul><li>An Ultimate plan </li></ul>
+   </p>
+<p>For the current plan and license structure: 
+<ul><li> A Pro or higher </li>
+  <li>An Adobe Workfront Goals license in addition to a Workfront license.</li></ul></p>
+   </td> 
+  </tr>
+ <tr>
+ <td role="rowheader">Adobe Workfront license</td>
+ <td>
+ <p>Any</td>
+ </tr>
+ <tr>
+ <td role="rowheader">Product*</td>
+ <td>
+ <p> New product requirement: Workfront</p>
+ Or
+ <p>Current product requirement: In addition to a Workfront license, you must purchase a license for Adobe Workfront Goals. </p> <p>For information, see <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requirements to use Workfront Goals</a>. </p> </td>
+ </tr>
+ <tr>
+ <td role="rowheader">Access level configuration</td>
+ <td> <p>View or higher access to Goals</p> </td>
+ </tr>
+ <tr data-mc-conditions="">
+ <td role="rowheader">Object permissions</td>
+ <td>
+  <div>
+  <p>View or higher permissions to the goal</p>
+  <p>By default, users get No Access to goals </p>
+ <p>For information about sharing goals, see <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Share a goal in Workfront Goals</a>. </p>
+  </div> </td>
+ </tr>
+ <tr>
+   <td role="rowheader"><p>Layout template</p></td>
+   <td> <p>All users, including Workfront administrators,  must be assigned a layout template that includes the Goals area in the Main Menu. </p>  
+</td>
+  </tr>
+</tbody>
+</table>-->
 
 ## Doelopmerkingen beheren
 
 U kunt commentaren aan doelstellingen in de sectie van Updates van een doelpagina toevoegen.
 
-1. Klik het **pictogram van het 1&rbrace; Belangrijkste Menu ![&#x200B; pictogram van het Menu &#x200B;](assets/main-menu-icon.png) in de hoger-juiste hoek, of het** Belangrijkste **pictogram van het Menu ![&#x200B; Belangrijkste het menulijnen &#x200B;](assets/lines-main-menu.png) in de upper-left hoek, als beschikbaar, dan klik** Doelen **.**
+1. Klik het **pictogram van het 1} Belangrijkste Menu** pictogram van het Menu ![ in de hoger-juiste hoek, of het ](assets/main-menu-icon.png) Belangrijkste **pictogram van het Menu** Belangrijkste het menulijnen ![ in de upper-left hoek, als beschikbaar, dan klik ](assets/lines-main-menu.png) Doelen **.**
 Hierdoor wordt de lijst met doelen geopend.
 1. Zoek het doel waaraan u opmerkingen wilt toevoegen en klik op de naam van het doel om de doelpagina te openen.
 1. Klik **Updates** in het linkerpaneel.
 
-   Voor meer informatie over het beheren van commentaren voor de voorwerpen van Workfront, zie [&#x200B; het werk van de Update &#x200B;](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+   Voor meer informatie over het beheren van commentaren voor de voorwerpen van Workfront, zie [ het werk van de Update ](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 <!--   
 1. (Optional) To locate an existing comment, start typing a keyword (*****or a user's name********) in the **Search** box in the upper-right corner of the **Comments** tab. 

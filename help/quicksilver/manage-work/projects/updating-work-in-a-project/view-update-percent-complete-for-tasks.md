@@ -6,9 +6,9 @@ description: U kunt het percentage van voltooiing van een taak bijwerken om de v
 author: Alina
 feature: Work Management
 exl-id: e53bca4d-1ed3-4e4d-8a35-217529a246dc
-source-git-commit: 66fc75ed9a7fca4b44ac776c314a6e08a6fbd450
+source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
 workflow-type: tm+mt
-source-wordcount: '690'
+source-wordcount: '682'
 ht-degree: 0%
 
 ---
@@ -23,23 +23,20 @@ Het bijwerken van het percentage voltooide uitgaven is vergelijkbaar met het bij
 
 ## Toegangsvereisten
 
-+++ Vouw uit om de vereisten voor toegang weer te geven.
-
-U moet de volgende toegang hebben om taken handmatig bij te werken:
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan</td> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Nieuwe licentie: standaard</p> 
-   of
-   <p>Huidige licentie: werken of hoger</p>
+   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td> <p>Standard</p> 
+   <p>Werk of hoger</p>
    </td> 
   </tr> 
   <tr> 
@@ -53,9 +50,36 @@ U moet de volgende toegang hebben om taken handmatig bij te werken:
  </tbody> 
 </table>
 
-*For informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+<!--Old:
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>New license: Standard</p> 
+   Or
+   <p>Current license: Work or higher</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>Edit access to Tasks</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>Manage permissions to the task</p>  </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## Gebieden waar u het percentage van voltooiing van een taak kunt bijwerken
 
@@ -63,7 +87,7 @@ U kunt het voltooide percentage voor een taak op een van de volgende gebieden bi
 
 * **in een taaklijst**: U kunt het percentage bijwerken volledig van een taak wanneer de Percent Volledige kolomvertoningen.
 
-  Voor meer informatie over gealigneerde het uitgeven, zie [&#x200B; gealigneerd punten in een lijst in Adobe Workfront &#x200B;](../../../workfront-basics/navigate-workfront/use-lists/inline-edit-objects.md) uitgeven.
+  Voor meer informatie over gealigneerde het uitgeven, zie [ gealigneerd punten in een lijst in Adobe Workfront ](../../../workfront-basics/navigate-workfront/use-lists/inline-edit-objects.md) uitgeven.
 
 * **in de mening van de Mijlpaal**: U kunt de percenten bijwerken volledig van een taak wanneer het gebruiken van de mening van de Mijlpaal op een projectlijst of een projectrapport.
 
@@ -72,7 +96,7 @@ U kunt het voltooide percentage voor een taak op een van de volgende gebieden bi
   >  U kunt het percentage van de voltooide problemen niet bijwerken in de milestone-weergave.
 
 
-  Voor meer informatie, zie [&#x200B; Gebruik de mening van de Mijlpaal &#x200B;](../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md).
+  Voor meer informatie, zie [ Gebruik de mening van de Mijlpaal ](../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md).
 
 * **in de taakkopbal**: U kunt het percentage bijwerken volledig van een taak in de taakkopbal.
 
@@ -86,11 +110,11 @@ U kunt het voltooide percentage voor een taak op een van de volgende gebieden bi
 
   ![](assets/update-percent-complete-in-task-summary-highlighted.png)
 
-  Voor meer informatie, zie [&#x200B; Samenvatting &#x200B;](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
+  Voor meer informatie, zie [ Samenvatting ](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
 
 * **Huis**: U kunt het percentage bijwerken volledig van een taak of kwestie van het Summiere paneel in het gebied van het Huis, of van Mijn Werk widget.
 
-  Voor informatie, zie [&#x200B; Begonnen het worden met Huis &#x200B;](/help/quicksilver/workfront-basics/using-home/using-the-home-area/get-started-with-home.md).
+  Voor informatie, zie [ Begonnen het worden met Huis ](/help/quicksilver/workfront-basics/using-home/using-the-home-area/get-started-with-home.md).
 
 ## Overwegingen bij het bijwerken van het percentage voltooide taken
 
@@ -100,13 +124,13 @@ U kunt het voltooide percentage voor een taak op een van de volgende gebieden bi
    * U kunt niet het percentage bijwerken volledig van een oudertaak aan 100% wanneer de Summiere Wijze van de Voltooiing van het project aan Automatisch wordt geplaatst en de subtaken niet worden voltooid.
    * U kunt het percentage bijwerken volledig van een oudertaak of van een project aan 100% wanneer de Summiere Wijze van de Voltooiing van het project aan Handboek wordt geplaatst en subtaken worden voltooid of onvolledig.
 
-  Voor meer informatie, zie [&#x200B; projecten &#x200B;](../manage-projects/edit-projects.md) uitgeven.
+  Voor meer informatie, zie [ projecten ](../manage-projects/edit-projects.md) uitgeven.
 
 ## Het percentage van een taak bijwerken
 
 1. Ga naar een van de gebieden waar u het percentage wilt bijwerken dat een taak is voltooid.
 
-   Voor informatie, zie de sectie [&#x200B; Gebieden waar u het percent volledig van een taak &#x200B;](#areas-where-you-can-update-the-percent-complete-of-a-task) in dit artikel kunt bijwerken.
+   Voor informatie, zie de sectie [ Gebieden waar u het percent volledig van een taak ](#areas-where-you-can-update-the-percent-complete-of-a-task) in dit artikel kunt bijwerken.
 
 1. Bepaal de plaats van het **Volledige** gebied van de Percentage voor de taak waarvan percent voltooit u wilt bijwerken.
 
@@ -114,7 +138,7 @@ U kunt het voltooide percentage voor een taak op een van de volgende gebieden bi
    >
    >Het veld Percentage voltooid wordt altijd boven in het deelvenster Overzicht weergegeven.
 
-1. Klik binnen het **Volledige 1&rbrace; gebied van de Percentage &lbrace;en typ een aantal tussen 0 en 100**
+1. Klik binnen het **Volledige 1} gebied van de Percentage {en typ een aantal tussen 0 en 100**
 
    of
 

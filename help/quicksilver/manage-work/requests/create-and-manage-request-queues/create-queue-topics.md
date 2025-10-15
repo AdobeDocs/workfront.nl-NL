@@ -3,13 +3,13 @@ product-area: requests
 navigation-topic: create-and-manage-request-queues
 title: Werkvoorraadonderwerpen maken
 description: De Onderwerpen van de rij werken samen met het Verpletteren van Regels om het inkomende werk aan een gebruiker, baanrol, team automatisch toe te wijzen, of het op een project te plaatsen. De Onderwerpen van de rij bepalen de voorwaarden die voor de Verpletterende Regel moeten bestaan worden uitgevoerd.
-author: Alina
+author: Becky
 feature: Work Management, Requests
 role: User, Admin
 exl-id: 65a74698-011f-4caa-9739-d7510faeb66f
-source-git-commit: 613904bd75aabe3062c5ab50f28cf44eb62919e8
+source-git-commit: 4a0cb96f5888819747f63472712f91c685621cf1
 workflow-type: tm+mt
-source-wordcount: '1036'
+source-wordcount: '1013'
 ht-degree: 0%
 
 ---
@@ -60,22 +60,19 @@ Zodra gecreeerd, kunt u rijonderwerpen van één project of malplaatje aan een a
 </table>
 -->
 
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan</td> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
    <td> <p>Alle </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie</td> 
    <td>
-    <p>Nieuw: Standaard</p>
-    <p>of</p>
-    <p>Huidig: Plan</p></td>  
+    <p>Standard</p>
+    <p>Plan</p></td>  
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau</td> 
@@ -88,7 +85,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -97,12 +94,12 @@ Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van d
 1. Creeer een Verpletterende Regel, een Groep van het Onderwerp, en een douaneformulier, als u van plan bent om hen met uw Onderwerp van de Rij te associëren.\
    Voor meer informatie over hoe te om het Verpletteren van Regels, de Groepen van het Onderwerp of douanevormen tot stand te brengen, verwijs naar de volgende artikelen:
 
-   * [&#x200B; creeer Verpletterend Regels &#x200B;](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md)
-   * [&#x200B; creeer de Groepen van het Onderwerp &#x200B;](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md)
+   * [ creeer Verpletterend Regels ](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md)
+   * [ creeer de Groepen van het Onderwerp ](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md)
    * [Een aangepast formulier maken](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)
 
 1. Ga naar het project of het malplaatje u verkoos om als Rij van het Verzoek van de Hulp toe te laten en waar u een nieuw rijonderwerp wilt creëren.\
-   Voor meer informatie over hoe te om een project als Rij van het Verzoek van de Hulp aan te wijzen, zie [&#x200B; een Rij van het Verzoek van de Vraag &#x200B;](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md) creëren.
+   Voor meer informatie over hoe te om een project als Rij van het Verzoek van de Hulp aan te wijzen, zie [ een Rij van het Verzoek van de Vraag ](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md) creëren.
 
    U kunt verwante Onderwerpen van de Rij onder een Groep van het Onderwerp organiseren. De aanvrager krijgt dan een aantal vervolgkeuzemenu&#39;s bij het indienen van een aanvraag.
 
@@ -110,7 +107,7 @@ Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van d
 
    U kunt de Onderwerpen van de Rij onder het project direct nesten dat als Rij van het Verzoek van de Hulp, zonder een Groep van het Onderwerp wordt aangewezen.
 
-   Voor informatie over het creëren van de Groepen van het Onderwerp, zie [&#x200B; de Groepen van het Onderwerp &#x200B;](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md) creëren.
+   Voor informatie over het creëren van de Groepen van het Onderwerp, zie [ de Groepen van het Onderwerp ](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md) creëren.
 
 1. Klik **de Onderwerpen van de Rij** in het linkerpaneel.
 1. Klik **Nieuw Onderwerp van de Rij**.
@@ -171,7 +168,7 @@ Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van d
     </tbody> 
    </table>
 
-   ![&#x200B; Nieuwe doos van het Onderwerp van de Rij &#x200B;](assets/new-queue-topic-box.png)
+   ![ Nieuwe doos van het Onderwerp van de Rij ](assets/new-queue-topic-box.png)
 
 1. Klik **sparen**.\
    Het onderwerp van de Rij is nu beschikbaar aan gebruik en is zichtbaar in het gebied van Verzoeken van Workfront, nadat een Rij van het Verzoek en een Groep van het Onderwerp worden geselecteerd.
@@ -185,7 +182,7 @@ Een bestaand onderwerp van de Rij uitgeven:
 1. In het milieu van de Productie, selecteer het Onderwerp van de Rij dat u wilt uitgeven. Voor de pagina van Details die opent, geeft de klik **het Onderwerp van de Rij** uit.
 1. <span class="preview"> in het milieu van de Voorproef, klik het rijonderwerp dat u wilt uitgeven.
 
-Voor informatie over beschikbare geef opties uit, zie [&#x200B; tot een Onderwerp van de Rij &#x200B;](#create-a-queue-topic) in dit artikel leiden.
+Voor informatie over beschikbare geef opties uit, zie [ tot een Onderwerp van de Rij ](#create-a-queue-topic) in dit artikel leiden.
 
 ## Een onderwerp uit de wachtrij verwijderen
 
@@ -194,5 +191,5 @@ U kunt één of meerdere rijonderwerpen tezelfdertijd schrappen.
 1. Ga naar het project of het malplaatje dat het Onderwerp van de Rij bevat u wilt schrappen.
 1. Klik **de Onderwerpen van de Rij** in het linkerpaneel.
 1. Klik de doos naast de naam van elk Onderwerp van de Rij dat u wilt schrappen. Er verschijnt een vinkje in het vak.
-1. Klik het **pictogram van de Schrapping** ![&#x200B; bij de bovenkant van de pagina.](assets/delete-icon.png)
+1. Klik het **pictogram van de Schrapping** ![ bij de bovenkant van de pagina.](assets/delete-icon.png)
 

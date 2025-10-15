@@ -7,9 +7,9 @@ description: Met de samenvatting kunt u rechtstreeks vanuit de documentenlijst w
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 7a4a4bd3-ad60-4d84-b4b0-332c2a4eb8fb
-source-git-commit: a9dbfe21337be9cd9929f4e982e4979265ca14e1
+source-git-commit: 4a0448583cbcfd1f1df10d6474fdf4e77e7bff3e
 workflow-type: tm+mt
-source-wordcount: '443'
+source-wordcount: '441'
 ht-degree: 0%
 
 ---
@@ -35,13 +35,13 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan</td> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
    <td> <p> Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licenties</td> 
-   <td> <p>Nieuw: Medewerker of hoger</p> 
-   <p>Huidig: Verzoek of hoger</p>
+   <td> <p>Medewerker of hoger</p> 
+   <p>Aanvraag of hoger</p>
    </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -55,7 +55,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -65,9 +65,9 @@ Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van d
 
 1. Voor de **pagina van Documenten**, selecteer een document in de lijst.
 
-1. In de hoger-juiste hoek van de pagina, klik het **Open Samenvatting** pictogram ![&#x200B; Open Summiere pictogram &#x200B;](assets/qs-summary-in-new-toolbar-small.png). Het **Samenvatting van het Document** zijpaneel opent.
+1. In de hoger-juiste hoek van de pagina, klik het **Open Samenvatting** pictogram ![ Open Summiere pictogram ](assets/qs-summary-in-new-toolbar-small.png). Het **Samenvatting van het Document** zijpaneel opent.
 
-   ![&#x200B; Summiere details &#x200B;](assets/document-summary-panel.png)
+   ![ Summiere details ](assets/document-summary-panel.png)
 
    Nadat u de samenvatting hebt geopend, blijft deze geopend op deze pagina (zelfs als u op andere documenten klikt) totdat u deze handmatig sluit.
 
@@ -76,26 +76,26 @@ Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van d
 
 In de sectie Details kunt u overzichtsgegevens op hoog niveau weergeven en communiceren met aangepaste formulieren. Klik op Details boven aan de sectie om naar de volledige pagina Documentdetails te gaan.
 
-* [&#x200B; Overzicht &#x200B;](#overview)
+* [Overzicht](#overview)
 * [Aangepaste Forms](#custom-forms)
 
 ### Overzicht {#overview}
 
 Vouw de sectie Overzicht uit om een miniatuur van een afbeelding weer te geven of te downloaden, open een proefdruk, werk de basisbeschrijving bij, check het document uit en nog veel meer.
 
-![&#x200B; Overzicht van het Overzicht van het Document &#x200B;](assets/details-section.png)
+![ Overzicht van het Overzicht van het Document ](assets/details-section.png)
 
 ### Aangepaste Forms {#custom-forms}
 
-Met de sectie Aangepaste Forms kunt u aangepaste formulieren die aan het document zijn gekoppeld, toevoegen, bewerken of weergeven. Typ de naam van het aangepaste formulier om het aan het document toe te voegen. Voor meer informatie, zie [&#x200B; een douanevorm aan een document &#x200B;](../../documents/managing-documents/add-custom-form-documents.md) toevoegen of uitgeven.
+Met de sectie Aangepaste Forms kunt u aangepaste formulieren die aan het document zijn gekoppeld, toevoegen, bewerken of weergeven. Typ de naam van het aangepaste formulier om het aan het document toe te voegen. Voor meer informatie, zie [ een douanevorm aan een document ](../../documents/managing-documents/add-custom-form-documents.md) toevoegen of uitgeven.
 
-![&#x200B; voeg een douanevorm in documentsamenvatting toe &#x200B;](assets/custom-forms-section.png)
+![ voeg een douanevorm in documentsamenvatting toe ](assets/custom-forms-section.png)
 
 ## Updates
 
-In de sectie Updates kunt u een update weergeven van iemand die in het document of de proefdruk is aangebracht. In het overzicht worden de eerste twee opmerkingen weergegeven. Voor meer informatie over updates, zie [&#x200B; Commentaar op een proef &#x200B;](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/comment-on-proof.md).
+In de sectie Updates kunt u een update weergeven van iemand die in het document of de proefdruk is aangebracht. In het overzicht worden de eerste twee opmerkingen weergegeven. Voor meer informatie over updates, zie [ Commentaar op een proef ](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/comment-on-proof.md).
 
-![&#x200B; sectie van Updates in Samenvattend paneel &#x200B;](assets/updates-section.png)
+![ sectie van Updates in Samenvattend paneel ](assets/updates-section.png)
 
 ## Goedkeuringen
 
@@ -103,14 +103,14 @@ Gebruik de sectie Goedkeuringen om goedkeuring van een document te vragen. U kun
 
 Goedkeuringen van proefdrukken moeten worden toegevoegd aan de proefwerkstroom. Zie voor meer informatie over goedkeuringen
 
-* [&#x200B; goedkeurend het werk &#x200B;](../../review-and-approve-work/manage-approvals/approving-work.md)
+* [ goedkeurend het werk ](../../review-and-approve-work/manage-approvals/approving-work.md)
 * [Documentgoedkeuring aanvragen](../../review-and-approve-work/manage-approvals/request-document-approvals.md)
 
-![&#x200B; de summiere goedkeuringen van het Document &#x200B;](assets/approvals-section.png)
+![ de summiere goedkeuringen van het Document ](assets/approvals-section.png)
 
 ## Versies
 
-In de sectie Versies kunt u het aantal versies weergeven dat voor een bepaald document is gemaakt. Klik het Meer pictogram ![&#x200B; Meer pictogram &#x200B;](assets/more-icon.png) om het volgende te doen:
+In de sectie Versies kunt u het aantal versies weergeven dat voor een bepaald document is gemaakt. Klik het Meer pictogram ![ Meer pictogram ](assets/more-icon.png) om het volgende te doen:
 
 * Open een proefdruk.
 * Download een proefdruk of document.
@@ -118,4 +118,4 @@ In de sectie Versies kunt u het aantal versies weergeven dat voor een bepaald do
 * Ga naar Documentdetails.
 * Een proefdruk of document verwijderen.
 
-![&#x200B; de summiere versies van het Document &#x200B;](assets/versions-section.png)
+![ de summiere versies van het Document ](assets/versions-section.png)

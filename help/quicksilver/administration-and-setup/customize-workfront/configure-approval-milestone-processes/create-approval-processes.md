@@ -8,16 +8,16 @@ author: Alina
 feature: System Setup and Administration, Approvals
 role: Admin
 exl-id: 1709e285-51a5-49a1-a03a-743a334fbe4d
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: c8987d036e1c1324618cb53ebcbb8fd7e4bcc6a4
 workflow-type: tm+mt
-source-wordcount: '2193'
+source-wordcount: '2213'
 ht-degree: 0%
 
 ---
 
 # Een goedkeuringsproces voor werkitems maken
 
-<!-- Audited: 12/2023 -->
+<!-- Audited: 08/2025-->
 
 <!--see below the "hidden" content for the redesigned tabs - August 2023-->
 
@@ -27,7 +27,7 @@ Dit artikel beschrijft hoe te om een systeem-niveau of groep-vlakke globale goed
 
 Zie de volgende artikelen voor informatie over goedkeuringen die zijn gekoppeld aan documenten of proefdrukken:
 
-* [&#x200B; het documentgoedkeuringen van het Verzoek &#x200B;](../../../review-and-approve-work/manage-approvals/request-document-approvals.md)
+* [ het documentgoedkeuringen van het Verzoek ](../../../review-and-approve-work/manage-approvals/request-document-approvals.md)
 * [Geautomatiseerd workflowoverzicht](../../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md)
 
 >[!NOTE]
@@ -38,41 +38,71 @@ Zie de volgende artikelen voor informatie over goedkeuringen die zijn gekoppeld 
 >
 >Op groepsniveau is een algemeen goedkeuringsproces beperkt tot werkitems en statussen die tot de groep behoren.
 >
->Voor informatie over enig-gebruik goedkeuringsprocessen, zie [&#x200B; overzicht van het het procesproces van de Goedkeuring &#x200B;](../../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md) en [&#x200B; associëren een nieuw of bestaand goedkeuringsproces met het werk &#x200B;](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
+>Voor informatie over enig-gebruik goedkeuringsprocessen, zie [ overzicht van het het procesproces van de Goedkeuring ](../../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md) en [ associëren een nieuw of bestaand goedkeuringsproces met het werk ](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
 
 ## Toegangsvereisten
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
-
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan</td> 
-   <td><p>Goedkeuringsprocedure op systeemniveau of voor eenmalig gebruik:</p>
-   <p>Goedkeuringsprocedure op groepsniveau: Prime of Ultimate</p></td> 
-  </tr> 
+   <td role="rowheader">Adobe Workfront-pakket*</td> 
+   <td><p>Voor goedkeuringsprocedure op systeemniveau of voor eenmalig gebruik:</p><ul><li><p>Willekeurig pakket</p></li></ul>
+   <p>Voor goedkeuringsproces op groepsniveau:</p>
+   <ul><li><p>Workflow Prime of Ultimate</p></li>
+   <li><p>Workfront Prime of Ultimate</p></li></ul>
+   </td>
+
+</tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie</td> 
-   <td> <p>Nieuw: Standaard </p>
- <p>of</p> 
-<p>Huidig: Plan </p> 
+   <td> <p>Standard</p>
+ <p>Plan</p> 
 </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau</td> 
-   <td> <p>Als u een systeembeheerder bent of administratieve toegang tot goedkeuringsprocessen hebt, kunt u een systeem-vlakke goedkeuringsproces, of een groep-vlakke goedkeuringsproces voor een bepaalde groep tot stand brengen.</p> 
-   <p>Als u een groepsbeheerder bent, kunt u goedkeuringsprocessen op groepsniveau voor groepen tot stand brengen die u beheert.</p> </td> 
+   <td> <p>Als u een systeembeheerder bent of administratieve toegang tot de processen van de Goedkeuring hebt, kunt u een systeem-vlakke goedkeuringsproces, of een groep-vlakke goedkeuringsproces voor een bepaalde groep tot stand brengen.</p> 
+   <p>Als u een groepsbeheerder bent en u administratieve toegang tot de processen van de Goedkeuring hebt, kunt u tot groep-vlakke goedkeuringsprocessen voor groepen leiden die u beheert.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*For meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td><p>System-level or single-use approval process: Any</p>
+   <p>Group-level approval process: Prime or Ultimate</p></td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> <p>New: Standard </p>
+ <p>or</p> 
+<p>Current: Plan </p> 
+</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>If you are a system administrator or you have administrative access to approval processes, you can create a system-level approval process, or a group-level approval process for a particular group.</p> 
+   <p>If you are a group administrator, you can create group-level approval processes for groups that you manage.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).-->
+
 
 ## Een algemeen goedkeuringsproces op systeemniveau of groepsniveau voor werkitems maken
 
@@ -82,7 +112,7 @@ Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van d
 
    of
 
-   Als u een groep-vlakke goedkeuringsproces creeert, klik **Groepen** ![&#x200B; pictogram van Groepen &#x200B;](assets/groups-icon.png), klik de naam van de groep, dan klik **goedkeurt**.
+   Als u een groep-vlakke goedkeuringsproces creeert, klik **Groepen** ![ pictogram van Groepen ](assets/groups-icon.png), klik de naam van de groep, dan klik **goedkeurt**.
 
    <!--hidden for the new tab redesign - August 2023: 
    ![Approvals area in setup](assets/approvals-area-in-setup-processes.png)
@@ -99,7 +129,7 @@ Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van d
     <tbody> 
      <tr> 
       <td role="rowheader">Naam goedkeuringsproces</td> 
-      <td><p>Typ een beschrijvende naam voor het goedkeuringsproces. De gebruikers zien deze naam wanneer het toepassen van het goedkeuringsproces op een voorwerp, zoals die in <a href="../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md" class="MCXref xref"> wordt beschreven associëren een nieuw of bestaand goedkeuringsproces met het werk </a>.</p></td> 
+      <td><p>Typ een beschrijvende naam voor het goedkeuringsproces. De gebruikers zien deze naam wanneer het toepassen van het goedkeuringsproces op een voorwerp, zoals die in <a href="../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md" class="MCXref xref"> wordt beschreven associëren een nieuw of bestaand goedkeuringsproces met het werk </a>.</p> <p> Dit is een verplicht veld. </p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">Beschrijving</td> 
@@ -116,8 +146,9 @@ Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van d
        <li>Als u een systeembeheerder bent of administratieve toegang tot goedkeuringsprocessen hebt, kunt u om het even welke groep in het systeem zien wanneer u zijn naam typt. <b> Alle groepen </b> wordt geselecteerd door gebrek. </li> 
        <li>Als u een groepsbeheerder zonder administratieve toegang tot goedkeuringsprocessen bent, kunt u het goedkeuringsproces aan om het even welke groep toewijzen u beheert wanneer u zijn naam typt. De <b> Alle Groepen </b> optie is niet beschikbaar.</li> 
        </ul> 
+       <p>Dit is een verplicht veld.</p>
        <p>Deze optie is niet beschikbaar voor goedkeuringsprocedures voor eenmalig gebruik.</p> 
-       <p><b> WAARSCHUWING </b>: Wanneer u veranderingen in het groep-specifieke goedkeuringsproces aanbrengt, zouden de bestaande goedkeuringsprocessen die reeds met het werkpunten zijn geassocieerd kunnen veranderen. Voor informatie over deze veranderingen, zie <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md" class="MCXref xref"> hoe de groep en de veranderingen van het goedkeuringsproces toegewezen goedkeuringsprocessen </a> beïnvloeden.</p> 
+       <p><b>WAARSCHUWING</b></p> <p> Wanneer u veranderingen in het groep-specifieke goedkeuringsproces aanbrengt, zouden de bestaande goedkeuringsprocessen die reeds met het werkpunten zijn geassocieerd kunnen veranderen. Voor informatie over deze veranderingen, zie <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md" class="MCXref xref"> hoe de groep en de veranderingen van het goedkeuringsproces toegewezen goedkeuringsprocessen </a> beïnvloeden.</p> 
        <p>Voor informatie over het een lijst maken van en het beheren van de goedkeuringsprocessen van uw groep van de pagina van uw groep, zie <a href="../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-groups-approval-processes.md" class="MCXref xref"> groep-vlakke goedkeuringsprocessen </a>. </p> 
        <p>Voor informatie over administratieve toegang tot goedkeuringsprocessen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref"> gebruikers administratieve toegang van de Verlening tot bepaalde gebieden </a>.</p> </td> 
      </tr> 
@@ -134,7 +165,9 @@ Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van d
     <tbody> 
      <tr> 
       <td role="rowheader"> <p role="rowheader">Goedkeuringsproces starten wanneer de status is ingesteld op</p> </td> 
-      <td> <p>Selecteer de status die het goedkeuringsproces voor werkitems activeert. Wanneer iemand een tijdelijk onderdeel aan deze status bijwerkt, wordt het goedkeuringsproces gestart. </p> <p>Dezelfde status kan niet worden geselecteerd voor meerdere goedkeuringsprocespaden.</p> <p>De beschikbare statussen zijn gebaseerd op wat onder de optie <b> wordt geselecteerd Deze goedkeuring kan door </b> worden gebruikt (verklaard in de lijst hierboven):</p> 
+      <td> <p>Selecteer de status die het goedkeuringsproces voor werkitems activeert. Wanneer iemand een tijdelijk onderdeel aan deze status bijwerkt, wordt het goedkeuringsproces gestart. </p> 
+      <p>Dit is een verplicht veld. </p>
+      <p>Dezelfde status kan niet worden geselecteerd voor meerdere goedkeuringsprocespaden.</p> <p>De beschikbare statussen zijn gebaseerd op wat onder de optie <b> wordt geselecteerd Deze goedkeuring kan door </b> worden gebruikt (verklaard in de lijst hierboven):</p> 
        <ul> 
        <li> Als <b> Alle groepen </b> wordt geselecteerd, slechts zijn de status voor het hele systeem beschikbaar
        <li> <p>Als een specifieke groep is geselecteerd, zijn alleen de statussen beschikbaar voor die groep</p> </li> 
@@ -146,18 +179,19 @@ Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van d
      </tr> 
      <tr> 
       <td role="rowheader">Fiatteurs</td> 
-      <td> <p>Typ de naam van de gebruiker, het team of de taakrol die u wilt toewijzen als fiatteur voor dit werkgebied en klik vervolgens op de naam wanneer deze wordt weergegeven in de vervolgkeuzelijst. U kunt slechts actieve gebruikers, <span> baanrollen </span>, en teams toevoegen. </p>
+      <td> <p>Typ de naam van de gebruiker, het team of de taakrol die u wilt toewijzen als fiatteur voor dit werkgebied en klik vervolgens op de naam wanneer deze wordt weergegeven in de vervolgkeuzelijst. U kunt slechts actieve gebruikers, <span> baanrollen </span>, en teams toevoegen. </p> 
+      <p>Dit is een verplicht veld.</p>
 
-   <p><b> TIP </b>:</p>
+   <p><b>TIP</b></p>
 
    <p>Wanneer u een gebruiker toevoegt als fiatar, ziet u de avatar, de primaire rol van de gebruiker of hun e-mailadres om onderscheid te maken tussen gebruikers met identieke namen. Gebruikers moeten aan ten minste één taakrol zijn gekoppeld om deze te kunnen bekijken terwijl u ze toevoegt.</p>
       <p>De instelling Contactinfo weergeven moet zijn ingeschakeld op uw toegangsniveau zodat gebruikers de e-mails van gebruikers kunnen bekijken. Voor informatie, zie <a href="../../add-users/configure-and-grant-access/grant-access-other-users.md"> toegang van de Verlening tot gebruikers </a>. </p>
 
-   <p><b> NOTA </b>:
+   <p><b>OPMERKING</b>
 
-   Als u een gebruiker, team of rol als fiatteur toevoegt, geeft u deze niet automatisch machtigingen voor het object dat aan die goedkeuring is gekoppeld. Ze ontvangen machtigingen voor het object wanneer de goedkeuringsstap wordt geactiveerd. Anders moeten de objecten met hen worden gedeeld voordat ze een goedkeuringsbesluit kunnen nemen. </p> <p>U kunt een persoon ook als fiatteur aanwijzen door de rol van het individu op te geven. U kunt bijvoorbeeld een projecteigenaar, projectsponsor, eigenaar van Portfolio, programmaeigenaar of beheerder toewijzen als fiatteur. Deze opties worden automatisch weergegeven wanneer u begint te typen.</p>
+   Als u een gebruiker, team of rol als fiatteur toevoegt, geeft u deze niet automatisch machtigingen voor het object dat aan die goedkeuring is gekoppeld. Ze ontvangen machtigingen voor het object wanneer de goedkeuringsstap wordt geactiveerd. Anders moeten de objecten met hen worden gedeeld voordat ze een goedkeuringsbesluit kunnen nemen. </p> <p>U kunt een persoon ook als fiatteur aanwijzen door de rol van het individu op te geven. U kunt bijvoorbeeld een projecteigenaar, projectsponsor, Portfolio-eigenaar, programmaeigenaar of -beheerder toewijzen als fiatteur. Deze opties worden automatisch weergegeven wanneer u begint te typen.</p>
 
-   <p><b> BELANGRIJK </b>:  
+   <p><b> BELANGRIJK </b>  
        <ul> 
        <li> <p>Wanneer u een goedkeuring toewijst aan de projectsponsor en niemand als sponsor van een project is aangewezen, wordt de goedkeuring opnieuw toegewezen aan de eigenaar van het project. Als niemand als eigenaar van het project wordt aangewezen, wordt de goedkeuring toegewezen aan de beheerder van Workfront. </p> </li> 
       </ul> 
@@ -166,7 +200,7 @@ Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van d
        </ul> 
        <ul> 
        <li> <p>Wanneer u een goedkeuring toewijst aan de Eigenaar van het Project en niemand als eigenaar van een project wordt aangewezen, wordt de goedkeuring opnieuw toegewezen aan de belangrijkste beheerder van Workfront zoals die in de sectie van de Info van de Klant in het gebied van de Opstelling wordt vermeld. Voor informatie, zie <a href="../../../administration-and-setup/get-started-wf-administration/configure-basic-info.md" class="MCXref xref"> basisinformatie voor uw systeem </a> vormen.  </p> </li> 
-       </ul> <p> <img src="assets/approval-create-add-users-nwe-350x304.png" style="width: 350;height: 304;"> </p> </p> <p>U kunt dit proces herhalen om meerdere fiatteurs toe te voegen aan het werkgebied. Eén fase kan een combinatie van gebruikers, teams en taakrollen als fiatteurs bevatten. Er is geen limiet voor het aantal fiatteurs dat u aan een werkgebied kunt toevoegen.</p> <p><b> BELANGRIJK </b>:  <p>Wanneer u baanrollen als fiatteurs toewijst, kunnen alle gebruikers verbonden aan die baanrol die ook op het projectteam is een besluit over de goedkeuring nemen. </p> <p>Wanneer u een team als fiatteur toewijst, kan om het even welke gebruiker in dat team een besluit over de goedkeuring nemen. </p> <p>Voor meer informatie over het projectteam, zie <a href="../../../manage-work/projects/planning-a-project/project-team-overview.md" class="MCXref xref"> Overzicht van het Team van het Project </a>. Voor meer informatie over het goedkeuren van het werk, zie <a href="../../../review-and-approve-work/manage-approvals/approving-work.md" class="MCXref xref"> het goedkeuren van het werk </a>.</p> </p> </td> 
+       </ul> <p> <img src="assets/approval-create-add-users-nwe-350x304.png" style="width: 350;height: 304;"> </p> </p> <p>U kunt dit proces herhalen om meerdere fiatteurs toe te voegen aan het werkgebied. Eén fase kan een combinatie van gebruikers, teams en taakrollen als fiatteurs bevatten. Er is geen limiet voor het aantal fiatteurs dat u aan een werkgebied kunt toevoegen.</p> <p><b>BELANGRIJK</b></p> <p>Wanneer u baanrollen als fiatteurs toewijst, kunnen alle gebruikers verbonden aan die baanrol die ook op het projectteam is een besluit over de goedkeuring nemen. </p> <p>Wanneer u een team als fiatteur toewijst, kan om het even welke gebruiker in dat team een besluit over de goedkeuring nemen. </p> <p>Voor meer informatie over het projectteam, zie <a href="../../../manage-work/projects/planning-a-project/project-team-overview.md" class="MCXref xref"> Overzicht van het Team van het Project </a>. Voor meer informatie over het goedkeuren van het werk, zie <a href="../../../review-and-approve-work/manage-approvals/approving-work.md" class="MCXref xref"> het goedkeuren van het werk </a>.</p> </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Er is slechts één beslissing vereist <br> <br> (Wordt alleen weergegeven als u meerdere fiatteurs aan het werkgebied toevoegt) </td> 
@@ -199,11 +233,11 @@ Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van d
 1. Klik **sparen**.
 1. Nadat het goedkeuringsproces is gemaakt, gaat u door met een van de volgende handelingen:
 
-   * Associeer het goedkeuringsproces met specifieke projecten, taken, of kwesties door uw systeem, zoals die in [&#x200B; wordt beschreven associeer een nieuw of bestaand goedkeuringsproces met het werk &#x200B;](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
-   * Buiten Workfront, breng gebruikers op de hoogte dat het goedkeuringsproces voor hen beschikbaar is om met hun projecten, taken, of kwesties te associëren, zoals die in [&#x200B; worden beschreven associeer een nieuw of bestaand goedkeuringsproces met het werk &#x200B;](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
+   * Associeer het goedkeuringsproces met specifieke projecten, taken, of kwesties door uw systeem, zoals die in [ wordt beschreven associeer een nieuw of bestaand goedkeuringsproces met het werk ](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
+   * Buiten Workfront, breng gebruikers op de hoogte dat het goedkeuringsproces voor hen beschikbaar is om met hun projecten, taken, of kwesties te associëren, zoals die in [ worden beschreven associeer een nieuw of bestaand goedkeuringsproces met het werk ](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
    * Maak een ander goedkeuringsproces dat wordt geactiveerd als dit goedkeuringsproces wordt geweigerd en het onderdeel een andere status krijgt. Op deze manier kunt u goedkeuringsprocessen aan elkaar koppelen.
 
-Voor informatie over het uitgeven van een goedkeuringsproces, zie [&#x200B; een goedkeuringsproces &#x200B;](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/edit-an-approval-process.md) uitgeven.
+Voor informatie over het uitgeven van een goedkeuringsproces, zie [ een goedkeuringsproces ](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/edit-an-approval-process.md) uitgeven.
 
 ## Een goedkeuringsproces koppelen aan een tijdelijk onderdeel
 
@@ -213,14 +247,14 @@ Wanneer u een goedkeuringsproces voor een het werkpunt (project, taak, of kwesti
 1. Het werkitem maken
 1. Het goedkeuringsproces koppelen aan het werkitem
 
-Voor instructies bij het associëren van een goedkeuringsproces met een het werkpunt, zie [&#x200B; een nieuw of bestaand goedkeuringsproces met het werk &#x200B;](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md) associëren.
+Voor instructies bij het associëren van een goedkeuringsproces met een het werkpunt, zie [ een nieuw of bestaand goedkeuringsproces met het werk ](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md) associëren.
 
 >[!NOTE]
 >
->Elke Workfront-gebruiker met beheermachtigingen voor een project, taak of uitgave kan goedkeuringsprocessen voor eenmalig gebruik maken die alleen kunnen worden gebruikt op het object waar ze zijn gemaakt. Voor meer informatie, zie [&#x200B; een nieuw of bestaand goedkeuringsproces met het werk &#x200B;](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md) associëren.
+>Elke Workfront-gebruiker met beheermachtigingen voor een project, taak of uitgave kan goedkeuringsprocessen voor eenmalig gebruik maken die alleen kunnen worden gebruikt op het object waar ze zijn gemaakt. Voor meer informatie, zie [ een nieuw of bestaand goedkeuringsproces met het werk ](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md) associëren.
 
 ## Toelatend gebruikers om globale goedkeuringsprocessen voor één enkel het werkpunt te wijzigen
 
-Door gebrek, kunnen de gebruikers die toestemmingen op projecten, taken, en kwesties leiden tot enig-gebruiksgoedkeuringsprocessen op hen tot stand brengen. Voor informatie over het toevoegen van enig-gebruiks goedkeuringsprocessen aan projecten, taken, en kwesties, zie de sectie [&#x200B; een enig-gebruiks goedkeuringsproces met een project, een taak, een kwestie, een malplaatje, of malplaatjetaak &#x200B;](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md#creating-a-single-use-approval-process) in het artikel [&#x200B; associëren een nieuw of bestaand goedkeuringsproces met het werk &#x200B;](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
+Door gebrek, kunnen de gebruikers die toestemmingen op projecten, taken, en kwesties leiden tot enig-gebruiksgoedkeuringsprocessen op hen tot stand brengen. Voor informatie over het toevoegen van enig-gebruiks goedkeuringsprocessen aan projecten, taken, en kwesties, zie de sectie [ een enig-gebruiks goedkeuringsproces met een project, een taak, een kwestie, een malplaatje, of malplaatjetaak ](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md#creating-a-single-use-approval-process) in het artikel [ associëren een nieuw of bestaand goedkeuringsproces met het werk ](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
 
-Gebruikers kunnen ook instellingen wijzigen voor algemene goedkeuringsprocessen die aan een tijdelijk onderdeel zijn gekoppeld. Deze veranderingen beïnvloeden slechts het project, de taak, of de kwestie verbonden aan het systeem-vlakke goedkeuringsproces. Voor meer informatie, zie de sectie [&#x200B; een globaal goedkeuringsproces voor gebruik op een specifiek voorwerp &#x200B;](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md#modifying-a-global-approval-process) in het artikel [&#x200B; associëren een nieuw of bestaand goedkeuringsproces met het werk &#x200B;](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md)).
+Gebruikers kunnen ook instellingen wijzigen voor algemene goedkeuringsprocessen die aan een tijdelijk onderdeel zijn gekoppeld. Deze veranderingen beïnvloeden slechts het project, de taak, of de kwestie verbonden aan het systeem-vlakke goedkeuringsproces. Voor meer informatie, zie de sectie &quot;een globaal goedkeuringsproces voor gebruik op een specifiek voorwerp&quot;in het artikel [ een nieuw of bestaand goedkeuringsproces met het werk ](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md) associëren.

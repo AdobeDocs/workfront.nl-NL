@@ -6,9 +6,9 @@ description: Het menu [!UICONTROL Recents] bevindt zich op de bovenste navigatie
 feature: Get Started with Workfront
 author: Lisa
 exl-id: 531b6b77-bf54-4ab3-a757-5c59fc0586a6
-source-git-commit: 4bd88c0e4a3d27e30580fefea993224fe5446e32
+source-git-commit: f0b3b8aa64fa0b03a196bbcc2bdd037eeeb0f89e
 workflow-type: tm+mt
-source-wordcount: '202'
+source-wordcount: '210'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ Het menu [!UICONTROL Recents] bevindt zich op de bovenste navigatiebalk. In dit 
 
 ## Toegangsvereisten
 
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -28,27 +28,32 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licentie*</strong></td> 
-   <td> <p>[!UICONTROL Request] of hoger</p> </td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td> 
+   <p>Medewerker of hoger</p> 
+   <p>Aanvraag of hoger</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42; om te weten te komen welk plan of vergunningstype u hebt, contacteer uw [!DNL Workfront] beheerder.
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
 
 ## Recente objecten weergeven
 
 1. Klik op het **[!UICONTROL Recents]** pictogram ![[!UICONTROL Recents]](assets/recents-icon-40x43.png) in de rechterbovenhoek van een pagina.
 
-   ![&#x200B; lijst van Recenten &#x200B;](assets/recents-list-2022-350x319.png)
+   ![ lijst van Recenten ](assets/recents-list-2022-350x319.png)
 
    Onder elk objecttype kunt u maximaal vijf van de laatste items zien die u onlangs hebt bekeken.
 
 1. (Optioneel) Als u de lijst met recente items wilt uitvouwen, klikt u op **[!UICONTROL View More]** net onder het laatste item onder een objecttype om de vorige 10 weergegeven items weer te geven. U kunt de lijst uitbreiden om maximaal 20 items per objecttype weer te geven.
 1. Klik op de X in de rechterbovenhoek om de lijst te sluiten.
 
-Voor informatie over hoe te om recente punten als favorieten te merken, zie [&#x200B; Mening en beheer favorieten &#x200B;](../../../workfront-basics/navigate-workfront/recent-and-favorites/view-and-manage-favorites.md).
+Voor informatie over hoe te om recente punten als favorieten te merken, zie [ Mening en beheer favorieten ](../../../workfront-basics/navigate-workfront/recent-and-favorites/view-and-manage-favorites.md).

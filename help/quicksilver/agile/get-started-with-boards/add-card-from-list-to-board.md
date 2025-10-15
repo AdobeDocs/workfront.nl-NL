@@ -6,9 +6,9 @@ description: U kunt elke taak of elk probleem vanuit een lijst- of rapportweerga
 author: Lisa
 feature: Agile
 exl-id: 5e6fd681-8068-4091-9f42-0364b17e0465
-source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
-source-wordcount: '586'
+source-wordcount: '577'
 ht-degree: 0%
 
 ---
@@ -25,32 +25,29 @@ U kunt elke taak of uitgave toevoegen aan een board of een werkstroom in [!DNL A
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
-
 <table style="table-layout:auto">
  <col>
  <col>
  <tbody>
   <tr>
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td>
+   <td role="rowheader">Adobe Workfront-pakket</td>
    <td> <p>Alle</p> </td>
   </tr>
   <tr>
-   <td role="rowheader">[!DNL Adobe Workfront] licentie</td>
+   <td role="rowheader">Adobe Workfront-licentie</td>
    <td>
-   <p>Nieuw: [!UICONTROL Standard]</p> 
-   <p>of</p>
-   <p>Huidig: [!UICONTROL Work] of hoger</p>
+   <p>Standard</p> 
+   <p>Werk of hoger</p>
    </td>
   </tr>
   <tr>
    <td role="rowheader">Objectmachtigingen</td>
-   <td>[!UICONTROL View] of hogere machtigingen voor de taak of uitgave </td>
+   <td>Machtigingen weergeven of hoger voor de taak of uitgave </td>
   </tr>
  </tbody>
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -73,7 +70,7 @@ Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van d
 
    Voor een board: de taak of uitgave wordt als kaart aan de raad toegevoegd. Als op de kaart kolombeleid is toegepast voor status, wordt de kaart toegevoegd in de kolom die overeenkomt met de status. Anders wordt deze weergegeven in de eerste kolom aan de linkerkant, exclusief de inlaatkolom.
 
-   Voor informatie over kolombeleid, zie [&#x200B; de kolommen van het Comité beheren &#x200B;](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md).
+   Voor informatie over kolombeleid, zie [ de kolommen van het Comité beheren ](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md).
 
    Voor een werkstream: de taak of uitgave wordt als een ongeplande kaart toegevoegd aan de kaartlijst van de werkstream.
 
@@ -93,7 +90,7 @@ Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van d
 
    Voor een board: de taak of uitgave wordt als kaart aan de raad toegevoegd. Als op de kaart kolombeleid is toegepast voor status, wordt de kaart toegevoegd in de kolom die overeenkomt met de status. Anders wordt deze weergegeven in de eerste kolom aan de linkerkant, exclusief de inlaatkolom.
 
-   Voor informatie over kolombeleid, zie [&#x200B; de kolommen van het Comité beheren &#x200B;](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md).
+   Voor informatie over kolombeleid, zie [ de kolommen van het Comité beheren ](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md).
 
    Voor een werkstream: de taak of uitgave wordt als een ongeplande kaart toegevoegd aan de kaartlijst van de werkstream.
 
@@ -101,11 +98,11 @@ Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van d
 
 1. Ga naar het project, het rapport, of het dashboard dat de taak of de kwestie bevat u plankeninformatie voor wilt zien.
 1. Selecteer een weergave die de kolom Borden bevat of maak een nieuwe weergave met de kolom Borden.
-Voor informatie over meningen, zie [&#x200B; meningen in Adobe Workfront &#x200B;](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md) creëren of uitgeven.
+Voor informatie over meningen, zie [ meningen in Adobe Workfront ](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md) creëren of uitgeven.
 1. Klik [!UICONTROL **tonen**] in de kolom om de lijst van raden te tonen de taak of de kwestie is.
 
-   ![&#x200B; toon Borden in kolom &#x200B;](assets/show-boards-in-column.png)
+   ![ toon Borden in kolom ](assets/show-boards-in-column.png)
 
 1. Klik op de naam van een board om de verbonden taak of uitgave in de board te openen.
 
-   ![&#x200B; Uitgezochte een raad &#x200B;](assets/select-board-in-column.png)
+   ![ Uitgezochte een raad ](assets/select-board-in-column.png)

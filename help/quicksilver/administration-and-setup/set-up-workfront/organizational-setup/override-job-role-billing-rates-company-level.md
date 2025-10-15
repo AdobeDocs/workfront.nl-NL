@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: ee60987e-78b5-4853-9a4f-e44aa7a81c05
-source-git-commit: 439303273239549bb326c171be44eea321f5bb5f
+source-git-commit: 15063d937a5ba9b5285c66a0987e8deea6cc6d74
 workflow-type: tm+mt
-source-wordcount: '438'
+source-wordcount: '415'
 ht-degree: 0%
 
 ---
@@ -19,38 +19,34 @@ ht-degree: 0%
 
 Wanneer een baanrol wordt gecreeerd, hebt u de optie om een uurtarief voor die rol te selecteren. U kunt meerdere factureringssnelheden per uur maken die specifiek zijn voor een bedrijf. Elk factureringstarief is effectief voor een specifieke datumwaaier.
 
-Op het projectniveau, kunt u een optie toelaten om bedrijf-vlakke het factureringspercentages toe te staan om tarief op projectniveau met voeten te treden. Voor meer informatie, zie [&#x200B; project-Vlakke het Facturerings Tarieven met het bedrijf-Vlakke Facturerings &#x200B;](../../../manage-work/projects/project-finances/override-project-level-with-company-level-billing-rates.md) met voeten treden.
+Op het projectniveau, kunt u een optie toelaten om bedrijf-vlakke het factureringspercentages toe te staan om tarief op projectniveau met voeten te treden. Voor meer informatie, zie [ project-Vlakke het Facturerings Tarieven met het bedrijf-Vlakke Facturerings ](../../../manage-work/projects/project-finances/override-project-level-with-company-level-billing-rates.md) met voeten treden.
 
 ## Toegangsvereisten
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
-
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
-   <td> <p>Alle </p> </td> 
+   <td>[!DNL Adobe Workfront] package</td> 
+   <td><p>Alle</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licentie</td> 
-   <td>
-   <p>Nieuw: [!UICONTROL Standard]</p>
-   <p>of</p>
-   <p>Huidige: [!UICONTROL Plan]</p></td> 
+   <td>[!DNL Adobe Workfront] licentie</td> 
+   <td><p>[!UICONTROL Standard]</p>
+       <p>[!UICONTROL Plan]</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau</td> 
+   <td>Configuraties op toegangsniveau</td> 
    <td> <p>Administratieve toegang tot Bedrijven als u geen Beheerder van het Systeem bent</p>
-   <p>Toegang tot financiële gegevens bewerken</p> </td> 
+   <p>Toegang tot financiële gegevens bewerken</p> </td>
   </tr> 
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -67,7 +63,7 @@ Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van d
 
    Het [!UICONTROL **Standaard het Facturerings Tarief van het Facturerings**] toont het systeem-vlakke tarief voor deze baanrol.
 
-   ![&#x200B; Nieuwe de dialoog van het Tarief van het Facturerings &#x200B;](assets/date-effective-billing-rates-for-company.png)
+   ![ Nieuwe de dialoog van het Tarief van het Facturerings ](assets/date-effective-billing-rates-for-company.png)
 
 1. Op het [!DNL **Facturerings 1**] gebied van Tarieven 1, ga het factureringstarief in. Dan, klik [!UICONTROL **sparen**] om het het factureren tarief één keer met voeten te treden.
 
@@ -87,4 +83,4 @@ Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van d
 
    >[!NOTE]
    >
-   >Veranderde roltarieven op het project hebben alleen invloed op dat project. De op bedrijfsniveau gewijzigde tarieven zullen gevolgen hebben voor alle projecten. Voor meer informatie, zie [&#x200B; Overzicht van het met voeten treden van de FactureringsRates van de Rol van de Baan en het berekenen van Inkomsten op een project &#x200B;](../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
+   >Veranderde roltarieven op het project hebben alleen invloed op dat project. De op bedrijfsniveau gewijzigde tarieven zullen gevolgen hebben voor alle projecten. Voor meer informatie, zie [ Overzicht van het met voeten treden van de FactureringsRates van de Rol van de Baan en het berekenen van Inkomsten op een project ](../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).

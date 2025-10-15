@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 934cef1a-8157-45db-b000-24a08a94dd18
-source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
+source-git-commit: 15063d937a5ba9b5285c66a0987e8deea6cc6d74
 workflow-type: tm+mt
-source-wordcount: '627'
+source-wordcount: '606'
 ht-degree: 0%
 
 ---
@@ -23,33 +23,31 @@ U kunt taakrollen ook opnieuw activeren die eerder zijn gedeactiveerd.
 
 ## Toegangsvereisten
 
-+++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
+## Toegangsvereisten
 
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
-   <td> <p>Alle </p> </td> 
+   <td>[!DNL Adobe Workfront] package</td> 
+   <td><p>Alle</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licentie</td> 
-   <td>
-   <p>Nieuw: [!UICONTROL Standard]</p>
-   <p>of</p>
-   <p>Huidige: [!UICONTROL Plan]</p></td> 
+   <td>[!DNL Adobe Workfront] licentie</td> 
+   <td><p>[!UICONTROL Standard]</p>
+       <p>[!UICONTROL Plan]</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau</td> 
-   <td>Administratieve toegang tot taakrollen</td> 
+   <td>Configuraties op toegangsniveau</td> 
+   <td>Administratieve toegang tot taakrollen</td>
   </tr> 
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -72,7 +70,7 @@ Als u een taakrol deactiveert, wordt deze niet meer weergegeven in de volgende g
 * Het dialoogvenster [!UICONTROL Add assignment to Kanban board] in een project
 * Het veld [!UICONTROL Job Role] van een abonnement of een initiatief wanneer iemand [!DNL Adobe Workfront Scenario Planner] gebruikt.
 
-  [!DNL Scenario Planner] is alleen beschikbaar in de nieuwe [!DNL Adobe Workfront] -ervaring en vereist een extra licentie. Voor informatie over [!DNL Workfront Scenario Planner], zie [&#x200B; het  [!DNL Scenario Planner]  overzicht &#x200B;](../../../scenario-planner/scenario-planner-overview.md).
+  [!DNL Scenario Planner] is alleen beschikbaar in de nieuwe [!DNL Adobe Workfront] -ervaring en vereist een extra licentie. Voor informatie over [!DNL Workfront Scenario Planner], zie [ het  [!DNL Scenario Planner]  overzicht ](../../../scenario-planner/scenario-planner-overview.md).
 
 >[!TIP]
 >
@@ -88,7 +86,7 @@ Het is beter om baanrollen te deactiveren eerder dan te schrappen die verouderd 
 
 We raden u aan het volgende te doen voordat u een ongebruikte taakrol deactiveert:
 
-* Bouw rapporten voor om het even welke voorwerpen die aan de rol worden toegewezen u van plan bent om hen aan een actieve baanrol te deactiveren en opnieuw toe te wijzen. Voor informatie over de bouw van rapporten, zie [&#x200B; een rapport &#x200B;](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-report.md) creëren.
+* Bouw rapporten voor om het even welke voorwerpen die aan de rol worden toegewezen u van plan bent om hen aan een actieve baanrol te deactiveren en opnieuw toe te wijzen. Voor informatie over de bouw van rapporten, zie [ een rapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-report.md) creëren.
 
   >[!TIP]
   >
@@ -110,12 +108,12 @@ We raden u aan het volgende te doen voordat u een ongebruikte taakrol deactiveer
 {{step-1-to-setup}}
 
 1. Klik in het linkerdeelvenster op &#x200B; **[!UICONTROL Job Roles].**
-1. (Optioneel) Selecteer **[!UICONTROL Active]** in het vervolgkeuzemenu **[!UICONTROL Filter]** als u alleen actieve taakrollen wilt weergeven.
+1. (Optioneel) Selecteer **[!UICONTROL Filter]** in het vervolgkeuzemenu **[!UICONTROL Active]** als u alleen actieve taakrollen wilt weergeven.
 1. Klik op de naam van de taakrol die u wilt deactiveren.
-1. Selecteer **[!UICONTROL No]** in de vervolgkeuzelijst **[!UICONTROL Is Active]** .
+1. Selecteer **[!UICONTROL Is Active]** in de vervolgkeuzelijst **[!UICONTROL No]** .
 
-   ![&#x200B; Deactivate baanrol &#x200B;](assets/deactivate-job-role-edit-role-box-nwe.png)
+   ![ Deactivate baanrol ](assets/deactivate-job-role-edit-role-box-nwe.png)
 
 1. Klik op **[!UICONTROL Save Changes]**.
 
-   De taakrol is gedeactiveerd en kan niet meer aan het werk worden toegewezen, gekoppeld aan lay-outsjablonen, enzovoort. Voor informatie over al gebruik van baanrollen in [!DNL Workfront], zie [&#x200B; het overzicht van de rol van de Baan &#x200B;](../../../administration-and-setup/set-up-workfront/organizational-setup/job-role-overview.md).
+   De taakrol is gedeactiveerd en kan niet meer aan het werk worden toegewezen, gekoppeld aan lay-outsjablonen, enzovoort. Voor informatie over al gebruik van baanrollen in [!DNL Workfront], zie [ het overzicht van de rol van de Baan ](../../../administration-and-setup/set-up-workfront/organizational-setup/job-role-overview.md).

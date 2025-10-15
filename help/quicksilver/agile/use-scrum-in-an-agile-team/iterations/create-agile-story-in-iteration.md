@@ -6,43 +6,40 @@ description: In dit artikel wordt beschreven hoe u een nieuw, flexibel artikel k
 author: Lisa
 feature: Agile
 exl-id: 9712e065-5fbf-4deb-a39f-36e0e918ed12
-source-git-commit: d660707dd69fab78095eed1414092a7c909ba174
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
-source-wordcount: '481'
+source-wordcount: '472'
 ht-degree: 0%
 
 ---
 
 # Een flexibel artikel maken in een herhaling
 
-In dit artikel wordt beschreven hoe u een nieuw, flexibel artikel kunt maken wanneer u zich al in de herhaling bevindt. Voor informatie over het creëren van een flexibel verhaal van een taak, kwestie, of ander gebied van [!DNL Adobe Workfront], zie [&#x200B; verhalen aan een bestaande herhaling &#x200B;](../../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md) toevoegen.
+In dit artikel wordt beschreven hoe u een nieuw, flexibel artikel kunt maken wanneer u zich al in de herhaling bevindt. Voor informatie over het creëren van een flexibel verhaal van een taak, kwestie, of ander gebied van [!DNL Adobe Workfront], zie [ verhalen aan een bestaande herhaling ](../../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md) toevoegen.
 
 ## Toegangsvereisten
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
-
 <table style="table-layout:auto"> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licentie</td> 
-   <td> <p>Nieuw: [!UICONTROL Standard]</p> 
-   of
-   <p>Huidig: [!UICONTROL Work] of hoger</p> </td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td> <p>Standard</p> 
+   <p>Werk of hoger</p> </td> 
   </tr>
    <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td>[!UICONTROL Manage] toegang tot het project waarop het verhaal zich bevindt </td> 
+   <td>Toegang beheren tot het project waarop het artikel zich bevindt </td> 
   </tr>
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -52,7 +49,7 @@ Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van d
 
    {{step1-to-team}}
 
-   1. (Facultatief) klik het **[!UICONTROL Switch team]** pictogram van de pictogram ![&#x200B; Schakelaar teampictogram &#x200B;](assets/switch-team-icon.png), dan of selecteer een nieuw team van het Trommel van het drop-down menu of onderzoek naar een team in de onderzoeksbar.
+   1. (Facultatief) klik het **[!UICONTROL Switch team]** pictogram van de pictogram ![ Schakelaar teampictogram ](assets/switch-team-icon.png), dan of selecteer een nieuw team van het Trommel van het drop-down menu of onderzoek naar een team in de onderzoeksbar.
 
    1. Selecteer **[!UICONTROL Iterations]** in het linkerdeelvenster.
    1. Klik op de naam van de specifieke herhaling waar u een artikel wilt maken.

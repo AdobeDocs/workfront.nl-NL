@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: c669217a-40e2-471f-951d-93157a34f1ee
-source-git-commit: 7815fd0f84170cb92eef1bafa8aa90abe5365c04
+source-git-commit: b102960e088f072f10baadcbeca4f7f579daa287
 workflow-type: tm+mt
-source-wordcount: '766'
+source-wordcount: '716'
 ht-degree: 0%
 
 ---
@@ -28,11 +28,11 @@ U kunt bijvoorbeeld een bestaande automatisering gebruiken die een Workfront-pla
 
 In dit artikel wordt beschreven hoe u Workfront Planning-records of Workfront-objecten kunt maken met behulp van een bestaande automatisering.
 
-Voor informatie over het creëren van automatiseringen voor een verslagtype, zie [&#x200B; de automatisering van de Planning van Adobe Workfront vormen om verslagen &#x200B;](/help/quicksilver/planning/records/configure-automations-to-create-records.md) tot stand te brengen.
+Voor informatie over het creëren van automatiseringen voor een verslagtype, zie [ de automatisering van de Planning van Adobe Workfront vormen om verslagen ](/help/quicksilver/planning/records/configure-automations-to-create-records.md) tot stand te brengen.
 
 Nadat u records of Workfront-objecten hebt gemaakt met behulp van automatisering, worden deze automatisch gekoppeld aan de records waaruit u de automatisering uitvoert.
 
-Voor meer informatie over verbonden verslagen, zie [&#x200B; Verbonden verslagenoverzicht &#x200B;](/help/quicksilver/planning/records/connected-records-overview.md).
+Voor meer informatie over verbonden verslagen, zie [ Verbonden verslagenoverzicht ](/help/quicksilver/planning/records/connected-records-overview.md).
 
 U kunt de volgende items maken met behulp van automatisering in Workfront Planning:
 
@@ -45,7 +45,7 @@ U kunt de volgende items maken met behulp van automatisering in Workfront Planni
 
 ## Toegangsvereisten
 
-+++ Vouw uit om de vereisten voor toegang weer te geven.
++++ Breid uit om de toegangsvereisten voor de functionaliteit in dit artikel te bekijken. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -55,40 +55,20 @@ U kunt de volgende items maken met behulp van automatisering in Workfront Planni
 <tbody> 
     <tr> 
 <tr> 
-<td> 
-   <p> Producten</p> </td> 
-   <td> 
-   <ul><li><p> Adobe Workfront</p></li> 
-   <li><p> Adobe Workfront Planning<p></li></ul></td> 
-  </tr>   
+</tr>   
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront-abonnement*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront-pakket</p></td> 
    <td> 
-<p>Een van de volgende Workfront-plannen:</p> 
-<ul><li>Selecteren</li> 
-<li>Prime</li> 
-<li>Ultimate</li></ul> 
-<p>Workfront Planning is niet beschikbaar voor oudere Workfront-plannen</p> 
+<ul> 
+<li><p>Alle Workfront en alle planningspakketten</p></li>
+of
+<li><p>Alle workflows en planningspakketten</li></ul>
+<p>Neem voor meer informatie over wat er in elk planningspakket voor Workfront staat, contact op met uw Workfront-accountvertegenwoordiger. </p> 
    </td> 
-<tr> 
-   <td role="rowheader"><p>Adobe Workfront-planningspakket*</p></td> 
-   <td> 
-<p>Alle </p> 
-<p>Neem contact op met uw Workfront-accountmanager voor meer informatie over wat er in elk Workfront-planningsplan is opgenomen. </p> 
-   </td> 
- <tr> 
-   <td role="rowheader"><p>Adobe Workfront-platform</p></td> 
-   <td> 
-<p>Het geval van Workfront van uw organisatie moet aan de Verenigde Ervaring van Adobe worden genegeerd om tot de Planning van Workfront te kunnen toegang hebben.</p> 
-<p>Voor meer informatie, zie <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md"> Adobe Verenigde Ervaring voor Workfront </a>. </p> 
-   </td> 
-   </tr> 
-  </tr> 
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront-licentie*</p></td> 
-   <td> Standaard
-   <p>Workfront Planning is niet beschikbaar voor oudere Workfront-licenties</p> 
-  </td> 
+   <td role="rowheader"><p>Adobe Workfront-licentie</p></td> 
+   <td><p>Standard</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Configuratie op toegangsniveau</p></td> 
@@ -102,14 +82,75 @@ U kunt de volgende items maken met behulp van automatisering in Workfront Planni
    <p>Rechten voor Workfront-objecten (portfolio's) beheren om onderliggende objecten (programma's of projecten) toe te voegen.</p>
    <p>Systeembeheerders hebben beheermachtigingen voor alle werkruimten, inclusief de werkruimten die ze niet hebben gemaakt</p>
    </td> 
-  </tr>
-
+  </tr> 
 </tbody> 
 </table>
 
-*Voor meer informatie over de toegangsvereisten van Workfront, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer informatie over de toegangsvereisten van Workfront, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-+++
++++   
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+    <tr> 
+<tr> 
+<td> 
+   <p> Products</p> </td> 
+   <td> 
+   <ul><li><p> Adobe Workfront</p></li> 
+   <li><p> Adobe Workfront Planning<p></li></ul></td> 
+  </tr>   
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront plan*</p></td> 
+   <td> 
+<p>Any of the following Workfront plans:</p> 
+<ul><li>Select</li> 
+<li>Prime</li> 
+<li>Ultimate</li></ul> 
+<p>Workfront Planning is not available for legacy Workfront plans</p> 
+   </td> 
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront Planning package*</p></td> 
+   <td> 
+<p>Any </p> 
+<p>For more information about what is included in each Workfront Planning plan, contact your Workfront account manager. </p> 
+   </td> 
+ <tr> 
+   <td role="rowheader"><p>Adobe Workfront platform</p></td> 
+   <td> 
+<p>Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience to be able to access Workfront Planning.</p> 
+<p>For more information, see <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p> 
+   </td> 
+   </tr> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront license*</p></td> 
+   <td> Standard
+   <p>Workfront Planning is not available for legacy Workfront licenses</p> 
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Access level configuration</p></td> 
+   <td> <p>There are no access level controls for Adobe Workfront Planning</p> 
+   <p>Edit access with access to Create objects in Workfront for the object types that you want to create (projects, portfolios, programs). </p>  
+</td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>Object permissions</p></td> 
+   <td> <p>Contribute or higher permissions to the workspace and to the record type where you want to create objects using existing automations. </p>  
+   <p>Manage permissions to Workfront objects (portfolios) to add children objects (programs or projects).</p>
+   <p>System Administrators have Manage permissions to all workspaces, including the ones they did not create</p>
+   </td> 
+  </tr> 
+
+</tbody> 
+</table> -->
 
 ## Overwegingen bij het maken van objecten en records via een automatisering
 
@@ -119,7 +160,7 @@ U kunt de volgende items maken met behulp van automatisering in Workfront Planni
 
   `[ Name of the record ] Name of the field choice`
 
-  Voor meer informatie, zie het [&#x200B; Gebruik een automatisering van de Planning van Workfront om een voorwerp of een verslag &#x200B;](#use-a-workfront-planning-automation-to-create-an-object-or-a-record) sectie in dit artikel tot stand te brengen.
+  Voor meer informatie, zie het [ Gebruik een automatisering van de Planning van Workfront om een voorwerp of een verslag ](#use-a-workfront-planning-automation-to-create-an-object-or-a-record) sectie in dit artikel tot stand te brengen.
 
 * Nieuwe objecten of records overschrijven bestaande in hetzelfde veld niet. Als u dezelfde automatisering meerdere keren voor dezelfde record trigt, worden de nieuwe objecten of records in hetzelfde verbonden veld van de oorspronkelijke record toegevoegd, naast de objecten of records die u eerder hebt gemaakt.
 
@@ -135,7 +176,7 @@ U kunt de volgende items maken met behulp van automatisering in Workfront Planni
    Onder aan de tabel wordt een blauwe balk weergegeven met extra knoppen, zoals automatiseringsknoppen.
 1. Klik op de knop Automatisering op de blauwe balk.
 
-   ![&#x200B; knoop van de Automatisering &#x200B;](assets/automation-custom-button.png)
+   ![ knoop van de Automatisering ](assets/automation-custom-button.png)
 
    De volgende dingen doen zich voor:
 

@@ -1,14 +1,14 @@
 ---
 product-area: projects
 navigation-topic: manage-projects
-title: Selecteer het Type van projectupdate
+title: Selecteer het type Projectupdate
 description: Door een Type van Update voor een project te selecteren, kunt u controleren hoe vaak de veranderingen u aan de chronologie van het project aanbrengt op de oudertaken of het project worden bewaard.
 author: Alina
 feature: Work Management
 exl-id: ffdfffec-d217-4daa-9849-cb0c794992c0
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
 workflow-type: tm+mt
-source-wordcount: '710'
+source-wordcount: '652'
 ht-degree: 0%
 
 ---
@@ -27,73 +27,44 @@ De volgende wijzigingen in de taken van het project activeren bijvoorbeeld een u
 
 ## Toegangsvereisten
 
-<!-- drafted for P&P:
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Any </p> </td> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Current license: Standard</p> 
-   Or
-   <p>Legacy license: Plan </p> </td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td><p>Standard</p> 
+   <p>Plan</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Projects</p> <p><b>NOTE</b>
-   
-   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
+   <td> <p>Toegang tot projecten bewerken</p> </td> 
   </tr> 
-  <tr> 
-   <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage permissions to a project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
--->
-
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront-abonnement*</td> 
-   <td> <p>Alle </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Plan </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot projecten bewerken</p> <p><b>OPMERKING</b>
-
-Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td>
-</tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Rechten voor een project beheren</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
+   <td> <p>Rechten voor een project beheren</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Het updatetype van een project bijwerken
 
 Wanneer de taken bijwerken, werken hun oudervoorwerpen (oudertaken of het project) op de tijd bij die door het Type van Update wordt vermeld.  Om een Type van Update voor uw project te specificeren:
 
 1. Ga naar het project waarvan Type van Update u wilt specificeren.
-1. Klik het Meer menu ![&#x200B; Meer pictogram &#x200B;](assets/more-icon.png) naast de naam van het project, dan klik **uitgeven**.
+1. Klik het Meer menu ![ Meer pictogram ](assets/more-icon.png) naast de naam van het project, dan klik **uitgeven**.
 
-1. Klik **&#x200B;**&#x200B;Montages van het Project **&#x200B;**.
+1. Klik **** Montages van het Project ****.
 
    ![](assets/update-type-field-on-project-edit-box-nwe-350x378.png)
 
@@ -124,7 +95,7 @@ Wanneer de taken bijwerken, werken hun oudervoorwerpen (oudertaken of het projec
      >
      >Een project herberekent niet automatisch elke nacht als het in de status van de Planning is. Het herberekent alleen op verandering.
 
-   * **Hand slechts:** de projectchronologie wordt bijgewerkt slechts wanneer u de optie om **Chronologie** opnieuw te berekenen, zoals die in de sectie &quot;Handmatige herberekening&quot;in de artikel [&#x200B; wordt beschreven projectchronologie &#x200B;](../../../manage-work/projects/manage-projects/recalculate-project-timeline.md) opnieuw berekent.\
+   * **Hand slechts:** de projectchronologie wordt bijgewerkt slechts wanneer u de optie om **Chronologie** opnieuw te berekenen, zoals die in de sectie &quot;Handmatige herberekening&quot;in de artikel [ wordt beschreven projectchronologie ](../../../manage-work/projects/manage-projects/recalculate-project-timeline.md) opnieuw berekent.\
      U kunt deze optie selecteren als u in één keer veel wijzigingen aanbrengt in het project en u wilt dat de tijdlijnherberekening plaatsvindt nadat alle wijzigingen zijn aangebracht (in plaats van na elke afzonderlijke wijziging).
 
 1. Klik **sparen**.

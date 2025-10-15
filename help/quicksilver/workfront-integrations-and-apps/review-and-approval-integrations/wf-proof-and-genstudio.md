@@ -8,9 +8,9 @@ author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 9905a522-9913-49c0-8c80-a8b46221fcbb
-source-git-commit: 6d02397a15b0b06c3c60fb5d71dfeb3cb0b0a30d
+source-git-commit: a65a4568c6428768ee6bc60a59a8499efdbec9f8
 workflow-type: tm+mt
-source-wordcount: '551'
+source-wordcount: '543'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Met de integratie tussen GenStudio for Performance Marketing en Workfront Proof 
 
 * Besluiten over beoordelingen in GenStudio for Performance Marketing bekijken voor definitieve goedkeuring en publicatie
 
-Voor meer informatie over overzicht en goedkeuring in GenStudio for Performance Marketing, zie [&#x200B; integratie van Workfront Proof met GenStudio for Performance Marketing &#x200B;](https://experienceleague.adobe.com/nl/docs/genstudio-for-performance-marketing/user-guide/approve/proof-integration).
+Voor meer informatie over overzicht en goedkeuring in GenStudio for Performance Marketing, zie [ integratie van Workfront Proof met GenStudio for Performance Marketing ](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/approve/proof-integration).
 
 
 ## Toegangsvereisten
@@ -37,7 +37,7 @@ Voor meer informatie over overzicht en goedkeuring in GenStudio for Performance 
  <col> 
  <tbody> 
  <tr> 
-   <td role="rowheader">Adobe Workfront-plan</td> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
    <td> 
    <p>Alle</p> 
    </td> 
@@ -45,11 +45,11 @@ Voor meer informatie over overzicht en goedkeuring in GenStudio for Performance 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie</td> 
    <td> 
-   <p>Huidig: Standaard </p> 
-   <p>Verouderd: Plan </p></td> 
+   <p>Standard </p> 
+   <p>Plan </p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Product</td> 
+   <td role="rowheader">Aanvullende producten</td> 
    <td> 
    <p> U moet GenStudio for Performance Marketing hebben en u moet als gebruiker aan het product in de Admin Console worden toegevoegd. </p> </td> 
   </tr> 
@@ -60,7 +60,7 @@ Voor meer informatie over overzicht en goedkeuring in GenStudio for Performance 
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -80,10 +80,10 @@ Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van d
 
 U moet een systeembeheerder zijn om deze integratie toe te laten.
 
-1. Klik het **[!UICONTROL Main Menu]** pictogram ![&#x200B; Belangrijkste Menu &#x200B;](/help/_includes/assets/main-menu-icon-left-nav.png) in de upper-left hoek, dan klik **[!UICONTROL Setup]** ![&#x200B; pictogram van de Opstelling &#x200B;](/help/_includes/assets/gear-icon-setup.png).
+1. Klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon-left-nav.png) in de upper-left hoek, dan klik **[!UICONTROL Setup]** ![ pictogram van de Opstelling ](/help/_includes/assets/gear-icon-setup.png).
 1. In het linkerpaneel, klik **Overzicht en Goedkeuring** > **Adobe GenStudio**.
 1. Laat **de proefdrukgoedkeuringen van het Gebruik** toe.
-   ![&#x200B; laat het proef voor GenStudio toe plaatsend &#x200B;](assets/enable-proofing-gs.png)
+   ![ laat het proef voor GenStudio toe plaatsend ](assets/enable-proofing-gs.png)
 
 ## Workfront-proefdruksjablonen gebruiken om goedkeuringswerkstromen te definiëren
 
@@ -102,7 +102,7 @@ Ga voor meer informatie over het maken van geautomatiseerde workflows en sjablon
 
 Wanneer een gebruiker een revisie start in GenStudio for Performance Marketing, kiest hij of zij gewoon de sjabloon die hij of zij nodig heeft. Gebruikers kunnen op elk gewenst moment eenvoudig een sjabloon voor een proefwerkstroom wijzigen en revisoren en fasen toevoegen of verwijderen.
 
-Voor meer informatie, zie [&#x200B; overzicht en goedkeuring van het Verzoek &#x200B;](https://experienceleague.adobe.com/nl/docs/genstudio-for-performance-marketing/user-guide/approve/request-review).
+Voor meer informatie, zie [ overzicht en goedkeuring van het Verzoek ](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/approve/request-review).
 
 ## GenStudio for Performance Marketing-conceptinhoud in de Workfront-proefdrukviewer controleren en goedkeuren
 
@@ -114,16 +114,16 @@ Met de proefdrukviewer kunt u
 * Concept markeren om te tonen wat moet worden gewijzigd
 * Beslissingen nemen
 
-Voor meer informatie, zie [&#x200B; Overzicht en geef inhoud &#x200B;](https://experienceleague.adobe.com/nl/docs/genstudio-for-performance-marketing/user-guide/approve/review-and-edit) uit.
+Voor meer informatie, zie [ Overzicht en geef inhoud ](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/approve/review-and-edit) uit.
 
 
 >[!IMPORTANT]
 >
->De gebruikers moeten de [&#x200B; interactieve inhoud van het Overzicht met het de overzichtshulpmiddel van Adobe Workfront &#x200B;](/help/quicksilver/review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/review-proof-in-web-viewer-extension.md) installeren alvorens zij concepten in GenStudio for Performance Marketing kunnen beginnen te herzien.
+>De gebruikers moeten de [ interactieve inhoud van het Overzicht met het de overzichtshulpmiddel van Adobe Workfront ](/help/quicksilver/review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/review-proof-in-web-viewer-extension.md) installeren alvorens zij concepten in GenStudio for Performance Marketing kunnen beginnen te herzien.
 
 
 ## Besluiten over beoordelingen in GenStudio for Performance Marketing bekijken voor definitieve goedkeuring en publicatie
 
 Nadat het element is gecontroleerd en goedgekeurd, kunt u het revisiebesluit bekijken en de inhoud rechtstreeks vanuit GenStudio for Performance Marketing publiceren.
 
-Voor meer informatie, zie [&#x200B; goedgekeurde inhoud &#x200B;](https://experienceleague.adobe.com/nl/docs/genstudio-for-performance-marketing/user-guide/approve/publish-content) publiceren.
+Voor meer informatie, zie [ goedgekeurde inhoud ](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/approve/publish-content) publiceren.

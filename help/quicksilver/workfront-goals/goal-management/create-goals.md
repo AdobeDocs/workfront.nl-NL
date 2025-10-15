@@ -6,9 +6,9 @@ description: Of u nu CEO, manager of individuele medewerker bent, u kunt doelste
 author: Alina
 feature: Workfront Goals
 exl-id: 14bf48b6-eb0c-4b00-a1a4-0d070ccc1392
-source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
+source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
 workflow-type: tm+mt
-source-wordcount: '705'
+source-wordcount: '651'
 ht-degree: 0%
 
 ---
@@ -21,9 +21,13 @@ Of u nu CEO, manager of individuele medewerker bent, u kunt doelstellingen in de
 
 ## Toegangsvereisten
 
-+++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
+>[!NOTE]
+>
+>Uw bedrijf zou kunnen verkiezen om de Doelen van Adobe Workfront verder te gebruiken als zij dit pakket in het verleden kochten. U moet voor meer informatie contact opnemen met uw accountvertegenwoordiger.
+>
+>Adobe Workfront Goals kan niet meer worden aangeschaft.
 
-U moet het volgende hebben:
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven. 
 
 <table style="table-layout:auto">
 <col>
@@ -31,34 +35,20 @@ U moet het volgende hebben:
 <col>
 </col>
 <tbody>
- <tr> 
-   <td role="rowheader">Adobe Workfront-abonnement*</td> 
+ <tr>
+  <td> <p>Adobe Workfront-pakket</p> </td> 
    <td> 
-   <p>Voor het nieuwe plan en de nieuwe licentiestructuur:
-  <ul><li>Een Ultimate-abonnement </li></ul>
-   </p>
-<p>Voor het huidige plan en de licentiestructuur: 
-<ul><li> Een Pro of hoger </li>
-  <li>Een Adobe Workfront Goals-licentie in aanvulling op een Workfront-licentie.</li></ul></p>
-   </td>  
+   <p>Adobe Workfront Ultimate</p>
+   </td> 
   </tr>
  <tr>
- <tr>
- <td role="rowheader">Adobe Workfront-licentie*</td>
+ <td role="rowheader">Adobe Workfront-licentie</td>
  <td>
- <p>Nieuwe licentie: Medewerker of hoger</p>
- of
- <p>Huidige licentie: aanvragen of hoger</p> <p>Voor meer informatie, zie <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref"> het vergunningsoverzicht van Adobe Workfront </a>.</p> </td>
+ <p>Medewerker of hoger</p>
+<p>Aanvraag of hoger</p></td>
  </tr>
- <tr>
- <td role="rowheader">Product*</td>
- <td>
-  <p> Nieuwe productvereisten: Workfront</p>
- <p>of</p>
-  <p>Huidige productvereiste: Naast een Workfront-licentie moet u een licentie aanschaffen voor Adobe Workfront Goals. </p> <p>Voor informatie, zie <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref"> Vereisten om de Doelen van Workfront </a> te gebruiken. </p> </td>
- </tr>
- <tr>
- <td role="rowheader">Toegangsniveau</td>
+  <tr>
+ <td role="rowheader">Configuratie op toegangsniveau</td>
  <td> <p>Toegang tot doelen bewerken</p> </td>
  </tr>
  <tr data-mc-conditions="">
@@ -67,33 +57,87 @@ U moet het volgende hebben:
   <div>
   <p>De toestemmingen van de mening of hoger aan het doel om het te bekijken</p>
   <p>Machtigingen beheren om het te bewerken</p>
-  <p>Voor informatie over het delen van doelstellingen, zie <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref"> een doel in de Doelen van Workfront delen </a>. </p>
   </div> </td>
  </tr>
 <tr>
    <td role="rowheader"><p>Lay-outsjabloon</p></td>
-   <td> <p>Aan alle gebruikers, inclusief Workfront-beheerders, moet een lay-outsjabloon worden toegewezen die het gebied Doelen in het hoofdmenu bevat. </p>  
+   <td> <p>Aan alle gebruikers, inclusief Systeembeheerders, moet een lay-outsjabloon worden toegewezen die het gebied Doelen in het hoofdmenu bevat. </p>  
 </td>
   </tr>
 </tbody>
 </table>
 
-*Voor meer informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
+<!--Old:
+
+<table style="table-layout:auto">
+<col>
+</col>
+<col>
+</col>
+<tbody>
+ <tr> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td> 
+   <p>For the new plan and license structure:
+  <ul><li>An Ultimate plan </li></ul>
+   </p>
+<p>For the current plan and license structure: 
+<ul><li> A Pro or higher </li>
+  <li>An Adobe Workfront Goals license in addition to a Workfront license.</li></ul></p>
+   </td>  
+  </tr>
+ <tr>
+ <tr>
+ <td role="rowheader">Adobe Workfront license*</td>
+ <td>
+ <p>New license: Contributor or higher</p>
+ Or
+ <p>Current license: Request or higher</p> <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p> </td>
+ </tr>
+ <tr>
+ <td role="rowheader">Product*</td>
+ <td>
+  <p> New product requirement: Workfront</p>
+ <p>Or</p>
+  <p>Current product requirement: In addition to a Workfront license, you must purchase a license for Adobe Workfront Goals. </p> <p>For information, see <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requirements to use Workfront Goals</a>. </p> </td>
+ </tr>
+ <tr>
+ <td role="rowheader">Access level</td>
+ <td> <p>Edit access to Goals</p> </td>
+ </tr>
+ <tr data-mc-conditions="">
+ <td role="rowheader">Object permissions</td>
+ <td>
+  <div>
+  <p>View or higher permissions to the goal to view it</p>
+  <p>Manage permissions to the goal to edit it</p>
+  <p>For information about sharing goals, see <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Share a goal in Workfront Goals</a>. </p>
+  </div> </td>
+ </tr>
+<tr>
+   <td role="rowheader"><p>Layout template</p></td>
+   <td> <p>All users, including Workfront administrators,  must be assigned a layout template that includes the Goals area in the Main Menu. </p>  
+</td>
+  </tr>
+</tbody>
+</table>-->
+
 ## Richtlijnen voor het maken van doelen
 
-Voordat we beginnen met Workfront Goals, raden we u aan om te lezen over onze aanbevelingen en richtlijnen voor het effectief beheren van doelen. Voor meer informatie over richtlijnen voor het creëren van en het leiden van doelstellingen, zie [&#x200B; overzicht van de Doelen van Adobe Workfront &#x200B;](../../workfront-goals/goal-management/wf-goals-overview.md).
+Voordat we beginnen met Workfront Goals, raden we u aan om te lezen over onze aanbevelingen en richtlijnen voor het effectief beheren van doelen. Voor meer informatie over richtlijnen voor het creëren van en het leiden van doelstellingen, zie [ overzicht van de Doelen van Adobe Workfront ](../../workfront-goals/goal-management/wf-goals-overview.md).
 
 ## Doelen maken
 
-In dit artikel wordt beschreven hoe u een strategisch doel maakt in Workfront Goals. Voor informatie over het creëren van een bedrijfscasedoel, zie [&#x200B; BedrijfsGevallendoelstellingen &#x200B;](../../manage-work/projects/define-a-business-case/create-business-case-goals.md) creëren.
+In dit artikel wordt beschreven hoe u een strategisch doel maakt in Workfront Goals. Voor informatie over het creëren van een bedrijfscasedoel, zie [ BedrijfsGevallendoelstellingen ](../../manage-work/projects/define-a-business-case/create-business-case-goals.md) creëren.
 
 U kunt een strategisch doel op een van de volgende manieren maken:
 
-* [&#x200B; creeer een doel van kras &#x200B;](#create-a-goal-from-scratch)
-* [&#x200B; Exemplaar een bestaand doel &#x200B;](#copy-an-existing-goal)
+* [ creeer een doel van kras ](#create-a-goal-from-scratch)
+* [ Exemplaar een bestaand doel ](#copy-an-existing-goal)
 * [Een resultaat of activiteit omzetten in een doel](#convert-a-result-or-activity-to-a-goal)
 
 ### Een geheel nieuwe doelstelling maken {#create-a-goal-from-scratch}
@@ -175,7 +219,7 @@ Creating goals differs depending on what environment you use.
 
 -->
 
-1. Klik het **pictogram van het 1&rbrace; pictogram van het Belangrijkste Menu ![&#x200B; &#x200B;](assets/main-menu-icon.png) in de hogere juiste hoek, dan klik** Doelen **.**
+1. Klik het **pictogram van het 1} pictogram van het Belangrijkste Menu** ![ in de hogere juiste hoek, dan klik ](assets/main-menu-icon.png) Doelen **.**
 
    <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
@@ -185,7 +229,7 @@ Creating goals differs depending on what environment you use.
 
    De Nieuwe doeldoos toont.
 
-   ![&#x200B; Nieuwe doeldoos &#x200B;](assets/new-goal-box-unshimmed.png)
+   ![ Nieuwe doeldoos ](assets/new-goal-box-unshimmed.png)
 
 1. Voer in de volgende velden gegevens in:
    * **Goal naam**: Ga een naam voor het doel in. Dit is een verplicht veld.
@@ -210,24 +254,24 @@ Creating goals differs depending on what environment you use.
    Voer ten minste een van de volgende handelingen uit om een te activeren doel voor te bereiden:
    * Een resultaat toevoegen
 
-     Voor informatie over het toevoegen van resultaten, zie [&#x200B; resultaten aan doelstellingen in de Doelen van Adobe Workfront &#x200B;](../results-and-activities/add-results-to-goals.md) toevoegen.
+     Voor informatie over het toevoegen van resultaten, zie [ resultaten aan doelstellingen in de Doelen van Adobe Workfront ](../results-and-activities/add-results-to-goals.md) toevoegen.
    * Een activiteit toevoegen
 
-     Voor informatie over het toevoegen van activiteiten, zie [&#x200B; activiteiten aan doelstellingen in de Doelen van Adobe Workfront &#x200B;](../results-and-activities/add-activities-to-goals.md) toevoegen.
+     Voor informatie over het toevoegen van activiteiten, zie [ activiteiten aan doelstellingen in de Doelen van Adobe Workfront ](../results-and-activities/add-activities-to-goals.md) toevoegen.
    * Nog een doel uitlijnen
 
-     Voor informatie over het richten van doelstellingen, zie [&#x200B; doelstellingen door hen in de Doelen van Adobe Workfront &#x200B;](../goal-alignment/align-goals-by-connecting-them.md) te verbinden.
+     Voor informatie over het richten van doelstellingen, zie [ doelstellingen door hen in de Doelen van Adobe Workfront ](../goal-alignment/align-goals-by-connecting-them.md) te verbinden.
 
 
 ### Een bestaand doel kopiëren {#copy-an-existing-goal}
 
 U kunt een doel creëren door bestaande te kopiëren.
 
-Voor informatie over het kopiëren van doelstellingen, zie [&#x200B; doelstellingen van het Exemplaar in de Doelen van Adobe Workfront &#x200B;](../../workfront-goals/goal-management/copy-goals.md).
+Voor informatie over het kopiëren van doelstellingen, zie [ doelstellingen van het Exemplaar in de Doelen van Adobe Workfront ](../../workfront-goals/goal-management/copy-goals.md).
 
 ### Een resultaat of activiteit omzetten in een doel {#convert-a-result-or-activity-to-a-goal}
 
 U kunt een doel tot stand brengen door het resultaat of de activiteit van een bestaand doel in een doel om te zetten. Het nieuwe doel wordt uitgelijnd op het oorspronkelijke doel.
 
-Voor informatie over het omzetten van resultaten en activiteiten in doelstellingen, zie [&#x200B; doelstellingen richten door resultaten en activiteiten in doelstellingen &#x200B;](../../workfront-goals/goal-alignment/align-goals-by-converting-results-activities.md) om te zetten.
+Voor informatie over het omzetten van resultaten en activiteiten in doelstellingen, zie [ doelstellingen richten door resultaten en activiteiten in doelstellingen ](../../workfront-goals/goal-alignment/align-goals-by-converting-results-activities.md) om te zetten.
 

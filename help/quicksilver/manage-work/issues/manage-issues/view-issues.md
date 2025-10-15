@@ -6,9 +6,9 @@ description: U kunt kwesties bekijken die met een project, een taak, of een herh
 author: Alina
 feature: Work Management
 exl-id: b6791c8f-b356-4235-8b0e-952e29a88952
-source-git-commit: 393f858ba3711b367cf06ad846ea60be0d6d9034
+source-git-commit: dc4b6dc284c59281206a457395765e634067ba91
 workflow-type: tm+mt
-source-wordcount: '1027'
+source-wordcount: '960'
 ht-degree: 0%
 
 ---
@@ -21,32 +21,65 @@ U kunt kwesties bekijken die met een project, een taak, of een herhaling worden 
 
 ## Toegangsvereisten
 
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-abonnement*</td> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Aanvraag of hoger</p> <p>Controleer of u een hogere licentie hebt om problemen weer te geven in de sectie Issues van een project.</p> </td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td> 
+   <ul><li><p>Medewerker of hoger</p></li> <li><p>Lichte of hogere licentie om problemen weer te geven in de sectie Issues van een project.</p></li>
+
+of
+
+<ul><li><p>Aanvraag of hoger</p></li> <li><p>Controleer of u een hogere licentie hebt om problemen weer te geven in de sectie Issues van een project.</p></li></ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot problemen bekijken</p> <p>De mening of hogere toegang tot Projecten en Taken</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over toegang tot kwesties in uw Niveau van de Toegang, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref"> Toegang van de Verlening tot kwesties </a>. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan veranderen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen. </p> </td> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
+   <td> <p>Toegang tot problemen bekijken</p> <p>De mening of hogere toegang tot Projecten en Taken</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Machtigingen weergeven voor de uitgave</p> <p> Voor informatie over het verlenen van toestemmingen aan kwesties, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref"> een kwestie delen </a></p> <p>Voor informatie bij het vragen van extra toestemmingen, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> Toegang tot voorwerpen verzoeken </a>.</p> </td> 
+   <td> <p>Machtigingen weergeven voor de uitgave</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
+*For informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
+<!--Old:
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Request or higher</p> <p>Review or higher license to view issues in the Issues section of a project.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations*</td> 
+   <td> <p>View access to Issues</p> <p>View or higher access to Projects and Tasks</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information about access to issues in your Access Level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">Grant access to issues</a>. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>. </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>View permissions to the issue</p> <p> For information about granting permissions to issues, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Share an issue </a></p> <p>For information on requesting additional permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+-->
 
 ## Problemen weergeven die zijn gebaseerd op status
 
@@ -64,7 +97,7 @@ Om kwesties over een project, een taak, of een herhaling te bekijken:
 
   Dit geldt ook voor objecten die zijn gekoppeld aan een object Resolving en objecten in de status Gesloten - In afwachting van goedkeuring.
 
-  Voor informatie over het Oplossen van Voorwerpen, zie [&#x200B; Overzicht van het Oplossen en Oplosbare Voorwerpen &#x200B;](../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md).
+  Voor informatie over het Oplossen van Voorwerpen, zie [ Overzicht van het Oplossen en Oplosbare Voorwerpen ](../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md).
 
 * **Voltooid:** toont alle kwesties die een Ware Datum van de Voltooiing hebben.
 * **allen** toont alle kwesties.
@@ -96,9 +129,9 @@ Ga als volgt te werk om een uitgave te openen en informatie hierover weer te gev
    * Logtijd.
    * Wijzig de status van de uitgave.
 
-     Voor meer informatie over het bijwerken van het werk in Workfront, zie [&#x200B; het werk van de Update &#x200B;](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+     Voor meer informatie over het bijwerken van het werk in Workfront, zie [ het werk van de Update ](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-* **Documenten**: Maak documenten aan de kwestie vast. Voor meer informatie over het toevoegen van documenten aan Workfront, zie [&#x200B; documenten aan Adobe Workfront van uw dossiersysteem &#x200B;](../../../documents/adding-documents-to-workfront/add-documents-from-file-system.md) toevoegen.
+* **Documenten**: Maak documenten aan de kwestie vast. Voor meer informatie over het toevoegen van documenten aan Workfront, zie [ documenten aan Adobe Workfront van uw dossiersysteem ](../../../documents/adding-documents-to-workfront/add-documents-from-file-system.md) toevoegen.
 
 * **Details van de Uitgave**: Breid deze verbinding uit om het **Overzicht** en **de gebieden van Forms van de Douane** te tonen.
 
@@ -111,7 +144,7 @@ Ga als volgt te werk om een uitgave te openen en informatie hierover weer te gev
 
      Als een kwestie als verzoek in een verzoekrij werd voorgelegd, zijn de namen van het project, de Groep van het Onderwerp, en het Onderwerp van de Rij hier vermeld. Dit veld kan niet worden bewerkt.
 
-     Voor meer informatie over het voorleggen van verzoeken, zie [&#x200B; Adobe Workfront verzoeken &#x200B;](../../../manage-work/requests/create-requests/create-submit-requests.md) creëren en voorleggen.
+     Voor meer informatie over het voorleggen van verzoeken, zie [ Adobe Workfront verzoeken ](../../../manage-work/requests/create-requests/create-submit-requests.md) creëren en voorleggen.
 
    * **Beschrijving**
    * **URL**: om het even welk Webadres met betrekking tot de kwestie.
@@ -136,7 +169,7 @@ Ga als volgt te werk om een uitgave te openen en informatie hierover weer te gev
 * **Uren**: Toont een lijst van uuringangen op de kwestie.
 * **goedkeurt:** toont de goedkeuringswegen verbonden aan de kwestie.
 
-  Voor meer informatie over het associëren van goedkeuringen met een kwestie, zie [&#x200B; Associerend een goedkeuringsproces met een het werkpunt &#x200B;](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md#associating-the-approval-process-with-an-object) sectie in [&#x200B; een goedkeuringsproces voor het werkpunten &#x200B;](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md) creëren.
+  Voor meer informatie over het associëren van goedkeuringen met een kwestie, zie [ Associerend een goedkeuringsproces met een het werkpunt ](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md#associating-the-approval-process-with-an-object) sectie in [ een goedkeuringsproces voor het werkpunten ](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md) creëren.
 
 ## Weergeven welke projecten en taken problemen hebben
 
@@ -155,4 +188,4 @@ Om pictogrammen toe te voegen die tonen of een project kwesties in een projectra
 
    De vertoning van de vertoningspictogrammen op de projecten die kwesties in de **Icons van de Status** kolom hebben.
 
-   ![&#x200B; lijst van het Project met uitgiftepictogram &#x200B;](assets/project-list-with-issue-icon-350x132.png)
+   ![ lijst van het Project met uitgiftepictogram ](assets/project-list-with-issue-icon-350x132.png)

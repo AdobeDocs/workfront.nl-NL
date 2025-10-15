@@ -2,12 +2,12 @@
 content-type: reference
 product-area: projects
 navigation-topic: task-information
-title: Verschil tussen Geplande Duur en Duur voor taken
+title: Verschil tussen Geplande Duur en Duur voor Taken
 description: De duur is de hoeveelheid tijd tussen de Geplande Begin en Geplande Datum van Voltooiing van een het werkpunt. De taken hebben een Duur en een Geplande Duur in Adobe Workfront, afhankelijk van het Type van Duur van de taak.
 author: Alina
 feature: Work Management
 exl-id: 183a3334-b4af-4f45-8e72-9e82ff3862a0
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
 workflow-type: tm+mt
 source-wordcount: '334'
 ht-degree: 0%
@@ -31,7 +31,7 @@ Wanneer het Type van Duur van de taak Gedreven de inspanning is, vermindert de G
 Als u drie middelen met een full-time programma aan de zelfde taak toewijst, blijft de Duur 3 dagen, maar de Geplande Duur wordt 1 dag. De Geplande Duur verandert ook de Geplande Begin en Geplande Datum van de Voltooiing van de taak, om de nieuwe Geplande Duur te weerspiegelen. Hierdoor wordt ook de tijdlijn van het project beïnvloed.
 U kunt het Type van Duur van de inspanning Gedreven gebruiken wanneer u een taak aan veelvoudige middelen toewijst. Dit verkort de tijd die nodig is om het werk aan de taak af te ronden.
 
-Voor meer informatie over het Door inspanning Gedreven Type van Duur, zie [&#x200B; overzicht van het Type van Duur: Gedreven inspanning &#x200B;](../../../manage-work/tasks/taskdurtn/effort-driven.md).
+Voor meer informatie over het Door inspanning Gedreven Type van Duur, zie [ overzicht van het Type van Duur: Gedreven inspanning ](../../../manage-work/tasks/taskdurtn/effort-driven.md).
 
 ## Probleem en projectduur
 

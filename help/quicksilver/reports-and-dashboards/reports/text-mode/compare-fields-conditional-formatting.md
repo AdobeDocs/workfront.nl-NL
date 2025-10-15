@@ -6,9 +6,9 @@ description: Met voorwaardelijke opmaak kunt u twee verschillende velden in een 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: da4447ba-6e76-4701-88ee-87a30393bed9
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '469'
+source-wordcount: '468'
 ht-degree: 0%
 
 ---
@@ -21,29 +21,21 @@ Met voorwaardelijke opmaak kunt u twee verschillende velden in een weergave verg
 
 ## Toegangsvereisten
 
-+++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
-
-U moet het volgende hebben:
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan</td> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie</td> 
    <td> 
-      <p>Nieuw:</p>
-         <ul>
-         <li><p>Standaard</p></li>
-         </ul>
-      <p>Huidige:</p>
-         <ul>
-         <li><p>Plan</p></li>
-         </ul>
+     <p>Standard</p>
+     <p>Plan</p>
    </td> 
   </tr> 
   <tr> 
@@ -57,7 +49,7 @@ U moet het volgende hebben:
  </tbody> 
 </table>
 
-Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -76,7 +68,7 @@ U kunt als volgt de geplande begindatum en de werkelijke begindatum vergelijken 
 1. Voer de vergelijkingscriteria in op basis van bestaande waarden in de builder en geef de voorwaardelijke opmaak op.\
    We willen bijvoorbeeld taken markeren waarbij de werkelijke begindatum later is dan (of hoger is dan) de geplande begindatum. Selecteer de optie Groter dan en selecteer een werkelijke datum in het datumveld.
 
-   ![&#x200B; Voorwaardelijke het formatteren voor daadwerkelijke begindatum &#x200B;](assets/cond-format-1-350x84.png)
+   ![ Voorwaardelijke het formatteren voor daadwerkelijke begindatum ](assets/cond-format-1-350x84.png)
 
 1. (Optioneel) Selecteer **Toepassen op volledige rij** als u de opmaak op de volledige rij wilt toepassen.
 1. Klik **sparen**.
@@ -97,14 +89,14 @@ U kunt als volgt de geplande begindatum en de werkelijke begindatum vergelijken 
 
    >[!NOTE]
    >
-   >Als u een eigen Workfront-veld vergelijkt, gebruikt u de syntaxis van camelhoofdletters voor de naam van het veld. Als u een douanegebied vergelijkt, gebruik **DE:Ware Naam van het Gebied** voor het naamgebied u met het eerste gebied vergelijkt.\
+   >Als u een eigen Workfront-veld vergelijkt, gebruikt u de syntaxis van camelhoofdletters voor de naam van het veld. Als u een douanegebied vergelijkt, gebruik **DE :Actual Naam van het Gebied** voor het naamgebied u met het eerste gebied vergelijkt.\
    >Bijvoorbeeld, als u de **Ware Datum van het Begin** met een douanegebied etiketteerde **Datum van de Levering** vergelijkt, voeg de volgende verklaring op uw code van de tekstwijze toe:
    >
    >`styledef.case.0.comparison.rightmethod=DE:Delivery Date`
 
 1. Zorg ervoor dat de coderegel `righttext` overeenkomt met de instructie in de coderegel `rightmethod` .
 
-   ![&#x200B; Voorwaardelijke het formatteren &#x200B;](assets/cond-format-2-350x171.png)
+   ![ Voorwaardelijke het formatteren ](assets/cond-format-2-350x171.png)
 
 1. Klik **sparen**.
 1. Klik **sparen + Sluiten**.

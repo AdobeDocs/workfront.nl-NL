@@ -7,7 +7,7 @@ description: U kunt een bestaand project, een bestaande taak of een bestaand pro
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 2ac392f5-98a3-4ab6-a0e3-cda378f0f68b
-source-git-commit: 58543982fef6e7ba2d05787dc023a2099e47bbc7
+source-git-commit: 1e5b3c7d087c34870ccb0f4e65021358f08b81bf
 workflow-type: tm+mt
 source-wordcount: '681'
 ht-degree: 0%
@@ -26,43 +26,45 @@ ht-degree: 0%
 >
 >We raden u aan Workfront Automation and Integration te gebruiken voor de integratiebehoeften van uw organisatie met Google Workspace.
 >
->Voor een overzicht van de Automatisering en de Integratie van Workfront, zie [&#x200B; het overzicht van de Fusie van Adobe Workfront &#x200B;](https://experienceleague.adobe.com/nl/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+>Voor een overzicht van de Automatisering en de Integratie van Workfront, zie [ het overzicht van de Fusie van Adobe Workfront ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 >
->Voor informatie over de specifieke mogelijkheden van de modules van de Automatisering en van de Integratie van Workfront voor Google Workspace, zie [&#x200B; modules van Gmail &#x200B;](https://experienceleague.adobe.com/nl/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/gmail-modules) en [&#x200B; modules van de Kalender van Google &#x200B;](https://experienceleague.adobe.com/nl/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-calendar-modules).
+>Voor informatie over de specifieke mogelijkheden van de modules van de Automatisering en van de Integratie van Workfront voor Google Workspace, zie [ modules van Gmail ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/gmail-modules) en [ modules van de Kalender van Google ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-calendar-modules).
 
 U kunt een bestaand project, een taak, of een kwestie bijwerken met informatie van niet [!DNL Adobe Workfront] e-mail.
 
 ## Toegangsvereisten
 
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licentie*</td> 
-   <td> <p>[!UICONTROL Work], [!UICONTROL Plan]</p> </td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td> <p>Standard</p><p>Werk of hoger</p>
   </tr> 
  </tbody> 
 </table>
 
-&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw [!DNL Workfront] beheerder.
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Vereisten
 
 Voordat u een [!DNL Workfront] -item kunt bijwerken met e-mailinhoud uit [!DNL Google Workspace] , moet u
 
 * Installeren [!DNL Workfront for Google Workspace]\
-   Voor instructies, zie [&#x200B; installeren  [!DNL Adobe Workfront for Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/install-workfront-for-gsuite.md).
+   Voor instructies, zie [ installeren  [!DNL Adobe Workfront for Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/install-workfront-for-gsuite.md).
 
 ## Een [!DNL Workfront] -item bijwerken met e-mailinhoud uit [!DNL Google Workspace]
 
-1. Als het [!UICONTROL Workfront for Google Workspace] paneel niet wordt getoond, klik het pictogram van Workfront ![&#x200B; Workfront &#x200B;](assets/wf-lion-icon.png) in [!DNL Google Workspace] toe:voegen-ons sidebar bij uiterst rechts van de pagina.
+1. Als het [!UICONTROL Workfront for Google Workspace] paneel niet wordt getoond, klik het pictogram van Workfront ![ Workfront ](assets/wf-lion-icon.png) in [!DNL Google Workspace] toe:voegen-ons sidebar bij uiterst rechts van de pagina.
 1. Open het e-mailbericht in [!DNL Google Workspace] en klik op **[!UICONTROL Post as a new update]** in het deelvenster [!DNL Google Workspace] .
 1. Klik onder **[!UICONTROL Type]** op de vervolgkeuzepijl en klik vervolgens op het type object waar u de update wilt toevoegen.
 1. Klik op de optie **[!UICONTROL Search for]** , typ de naam van het object waaraan u de update wilt toevoegen en selecteer het item wanneer dit in de onderstaande lijst wordt weergegeven.
@@ -101,7 +103,7 @@ Voordat u een [!DNL Workfront] -item kunt bijwerken met e-mailinhoud uit [!DNL G
 
    U kunt op de koppeling klikken om naar de tab [!UICONTROL Updates] in [!DNL Workfront] te gaan voor het object dat u in stap 4 hebt opgegeven.
 
-   U kunt deze stappen herhalen om zelfde e-mail in updates, taak, en kwesties (zie [&#x200B; tot een kwestie van Adobe Workfront in  [!DNL Google Workspace]  gebruikend e-mailinhoud &#x200B;](../../workfront-integrations-and-apps/workfront-for-g-suite/create-wf-issue-in-g-suite-using-email-content.md) leiden) om te zetten. Wanneer u uw browser vernieuwt of op een ander moment terugkeert naar de e-mail, worden alle koppelingen die u voor de e-mail hebt gemaakt, onder in het deelvenster [!UICONTROL Workfront for Google Workspace] weergegeven.
+   U kunt deze stappen herhalen om zelfde e-mail in updates, taak, en kwesties (zie [ tot een kwestie van Adobe Workfront in  [!DNL Google Workspace]  gebruikend e-mailinhoud ](../../workfront-integrations-and-apps/workfront-for-g-suite/create-wf-issue-in-g-suite-using-email-content.md) leiden) om te zetten. Wanneer u uw browser vernieuwt of op een ander moment terugkeert naar de e-mail, worden alle koppelingen die u voor de e-mail hebt gemaakt, onder in het deelvenster [!UICONTROL Workfront for Google Workspace] weergegeven.
 
 1. (Optioneel) Ga op een van de volgende manieren te werk om met de update te werken in het invoegvenster van [!DNL Workfront] :
 

@@ -5,9 +5,9 @@ description: Met AI kunt u aanvraagvelden automatisch aanvullen met gegevens uit
 author: Becky
 feature: Get Started with Workfront
 exl-id: a0cd1fbf-d3c6-454c-a85a-ceca4b1e8a7b
-source-git-commit: 21039f9ab14529b56935d65e0261dc1ce068918c
+source-git-commit: 1b7964b533093c4eee20d69a74512a145e207e29
 workflow-type: tm+mt
-source-wordcount: '331'
+source-wordcount: '308'
 ht-degree: 0%
 
 ---
@@ -24,21 +24,18 @@ Gebruikers ontvangen geen suggesties voor gegevens waartoe zij anders geen toega
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan</td> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
    <td> <p>Alle </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie</td> 
-   <td> <p>Nieuw: Medewerker of hoger</p>
-   of
-   <p>Huidig: Verzoek of hoger</p>
+   <td> <p>Medewerker of hoger</p>
+   <p>Aanvraag of hoger</p>
     </td> 
   </tr> 
   <tr> 
@@ -52,7 +49,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -66,15 +63,15 @@ Op eerdere verzoeken gebaseerde suggesties gebruiken:
 
 1. Maak een aanvraag.
 
-   Voor instructies, zie [&#x200B; verzoeken &#x200B;](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md) creëren en voorleggen.
+   Voor instructies, zie [ verzoeken ](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md) creëren en voorleggen.
 
 1. Velden invullen.
 
    Terwijl u velden invult, kunnen in andere velden suggesties worden weergegeven.
 
-1. Voor elke gebiedssuggestie, keurt de uitgezochte **&#x200B;**&#x200B;goed of **verwerpt** voor dat gebied.
+1. Voor elke gebiedssuggestie, keurt de uitgezochte **** goed of **verwerpt** voor dat gebied.
 
-   ![&#x200B; Accepteer of verwerp suggestie &#x200B;](assets/accept-reject-suggestion.png)
+   ![ Accepteer of verwerp suggestie ](assets/accept-reject-suggestion.png)
 
    of
 

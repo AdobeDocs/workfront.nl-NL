@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 5fbd4989-460b-4380-a136-8a9f6b79787d
-source-git-commit: f62d8f681fa75d2b18d78d7918df46734fa61e2e
+source-git-commit: 366043a786c94f1bc40ad3b20af175bb84c94742
 workflow-type: tm+mt
-source-wordcount: '239'
+source-wordcount: '218'
 ht-degree: 0%
 
 ---
@@ -23,32 +23,27 @@ U kunt een aangepaste voorwaarde verwijderen als deze niet meer nodig is.
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan</td> 
-   <td>Alle</td> 
+   <td>Adobe Workfront-pakket</td> 
+   <td><p>Alle</p></td> 
   </tr> 
   <tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront-licentie</td> 
-   <td><p>Nieuw: Standaard</p>
-       <p>of</p>
-       <p>Huidig: Plan</p></td>
-  </tr> 
+   <td>Adobe Workfront-licentie</td> 
+   <td><p>Standard</p>
+       <p>Plan</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau</td> 
-   <td>[!UICONTROL System Administrator]</td>
+   <td>Configuraties op toegangsniveau</td> 
+   <td>Systeembeheerder</td> 
   </tr> 
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -71,4 +66,4 @@ Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van d
 >
 >U kunt niet de ingebouwde voorwaarden schrappen, die op Doel, op Risico, en in Problemen zijn. U kunt de namen en kleuren van de bestanden echter wijzigen.
 >
->Voor informatie over het uitgeven van douanevoorwaarden, zie [&#x200B; een douanevoorwaarde &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md) creëren of uitgeven.
+>Voor informatie over het uitgeven van douanevoorwaarden, zie [ een douanevoorwaarde ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md) creëren of uitgeven.

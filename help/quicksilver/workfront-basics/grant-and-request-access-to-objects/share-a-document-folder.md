@@ -6,9 +6,9 @@ description: U kunt een map en de inhoud ervan delen vanuit het gebied Documente
 author: Alina
 feature: Get Started with Workfront
 exl-id: c0d318a8-b1cf-4522-b478-acf092687658
-source-git-commit: 842c61cf6dfee0c79b1c95ff84888083c9f5b5a4
+source-git-commit: 4ae96f67b15838403ffce32317d871d6904d6d95
 workflow-type: tm+mt
-source-wordcount: '914'
+source-wordcount: '854'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ U kunt een map en de inhoud ervan delen vanuit het gebied Documenten.
 >
 >* De map moet zich in de bovenste vijf niveaus van een maphiërarchie op een object bevinden. Elke map op het zesde niveau of erft de configuraties voor delen van de map direct erboven.
 >
->  Voor informatie over het toevoegen van subfolders om een omslaghiërarchie tot stand te brengen, zie de sectie [&#x200B; tot omslagen en subfolders &#x200B;](../../documents/organizing-documents/create-documents-folder.md#creating-folders) in artikel [&#x200B; documentomslagen &#x200B;](../../documents/organizing-documents/create-documents-folder.md) creëren.
+>  Voor informatie over het toevoegen van subfolders om een omslaghiërarchie tot stand te brengen, zie de sectie [ tot omslagen en subfolders ](../../documents/organizing-documents/create-documents-folder.md#creating-folders) in artikel [ documentomslagen ](../../documents/organizing-documents/create-documents-folder.md) creëren.
 >
 >* Slimme mappen kunnen niet worden gedeeld.
 >* Als u het delen opties voor een documentomslag binnen een malplaatje vormt, en dan leidt iemand tot een project van dat malplaatje, uw het delen configuraties brengen niet naar de documentomslag in het nieuwe project over.
@@ -61,34 +61,34 @@ U kunt een map en de inhoud ervan delen vanuit het gebied Documenten.
  </tbody> 
 </table>
 -->
-+++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
-
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-abonnement*</td> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Controleren of hoger</p> </td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td> <p>Licht of hoger</p> 
+   <p>Controleren of hoger</p> 
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot documenten weergeven</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
+   <td> <p>Toegang tot documenten weergeven</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Toegang tot een object weergeven</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
+   <td> <p>Toegang tot een object weergeven</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -144,7 +144,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 Als u een map deelt, zien de ontvangers de map momenteel niet in hun documentengebied. Ze hebben echter wel toegang tot de documenten door een documentrapport uit te voeren.
 
-Voor informatie over het runnen van een rapport, zie het sectie [&#x200B; Rapport over voorwerpen &#x200B;](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#reporting-on-objects) in het artikel [&#x200B; voorwerpen in Adobe Workfront &#x200B;](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md) begrijpen. Zie ook [&#x200B; een douanerapport &#x200B;](../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) creëren.
+Voor informatie over het runnen van een rapport, zie het sectie [ Rapport over voorwerpen ](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#reporting-on-objects) in het artikel [ voorwerpen in Adobe Workfront ](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md) begrijpen. Zie ook [ een douanerapport ](../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) creëren.
 
 <!--
 <div class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -174,6 +174,6 @@ Wanneer u een object deelt dat een documentmap heeft, krijgen de ontvangers ook 
 
 * Als de optie &quot;nooit documenttoegang van projecten, taken, kwesties, enz. erft&quot;op het toegangsniveau van de ontvanger wordt toegelaten, zullen zij geen toestemmingen aan documenten in een omslag erven die u met hen deelt. Als u ze toegang wilt geven tot een document in de map, moet u het document delen.
 
-  Voor informatie over &quot;erven nooit&quot;optie, zie [&#x200B; toegang tot Adobe Workfront &#x200B;](../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md) vormen.
+  Voor informatie over &quot;erven nooit&quot;optie, zie [ toegang tot Adobe Workfront ](../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md) vormen.
 
-  Voor informatie over het delen van een document, zie [&#x200B; een document &#x200B;](../../workfront-basics/grant-and-request-access-to-objects/document-permissions.md) delen.
+  Voor informatie over het delen van een document, zie [ een document ](../../workfront-basics/grant-and-request-access-to-objects/document-permissions.md) delen.

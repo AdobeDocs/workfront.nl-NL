@@ -6,10 +6,10 @@ description: Lees dit artikel om de Projecten problemen op te lossen ik ben op f
 feature: Get Started with Workfront
 author: Nolan
 exl-id: 4701464a-4cf5-4be1-bcc0-0892019986ec
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: 85ccee879fd4ba5a80b6e885458839901f83d26e
 workflow-type: tm+mt
-source-wordcount: '164'
-ht-degree: 0%
+source-wordcount: '184'
+ht-degree: 1%
 
 ---
 
@@ -17,26 +17,34 @@ ht-degree: 0%
 
 ## Toegangsvereisten
 
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan</strong></td> 
-   <td> <p>Alle</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><strong>Adobe [!DNL Workfront] licentie</strong></td> 
-   <td> <p>[!UICONTROL Plan] </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><strong>Configuraties op toegangsniveau</strong></td> 
-   <td> <p>[!UICONTROL System administrator]</p> </td> 
-  </tr> 
- </tbody> 
+<table>
+  <tr>
+   <td>Adobe Workfront-pakket
+   </td>
+   <td> <p>Prime of Ultimate</p>
+    <p>Workflow Ultimate</p>
+   </td>
+  </tr>
+  <tr>
+   <td>Adobe Workfront-licenties
+   </td>
+   <td><p>Standard</p>
+   <p>Plan</p>
+   </td>
+  </tr>
+   <tr>
+   <td>Configuraties op toegangsniveau
+   </td>
+   <td>U moet een [!DNL Workfront] beheerder zijn.
+   </td>
+  </tr>
 </table>
+
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
+
 
 ## Probleem
 
@@ -52,4 +60,4 @@ De [!UICONTROL **Projecten ik ben op**] filter omvat projecten die de gebruiker 
 
 1. Probeer gebruikend een gelijkaardige filter, zoals [!UICONTROL **Projecten I Bezit**], die slechts projecten omvat die specifiek aan u worden toegewezen.
 
-Voor meer informatie bij het gebruiken van filters in [!DNL Workfront], zie [&#x200B; Overzicht van Filters &#x200B;](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+Voor meer informatie bij het gebruiken van filters in [!DNL Workfront], zie [ Overzicht van Filters ](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/filters-overview.md).

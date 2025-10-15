@@ -6,9 +6,9 @@ description: Wanneer u werktaken en problemen hebt toegewezen, worden deze weerg
 author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: 79826743-eeb9-4849-b46f-cc3f086e3194
-source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
+source-git-commit: 41f58261d4f2e6075187886b371a23eb5e97d823
 workflow-type: tm+mt
-source-wordcount: '807'
+source-wordcount: '753'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Wanneer u werktaken en problemen hebt toegewezen, worden deze weergegeven in de 
 
 ## Toegangsvereisten
 
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -31,25 +31,27 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront plan*]</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront package]</strong></td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licentie*</strong></td> 
-   <td> <p>[!UICONTROL Work] of hoger</p> </td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] licentie</strong></td> 
+   <td>
+   <p>Standard</p>
+    <p>Werk of hoger</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Configuraties op toegangsniveau*</strong></td> 
-   <td> <p>[!UICONTROL Edit] toegang tot taken en problemen</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de [!DNL Workfront] -beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een [!DNL Workfront] beheerder uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
+   <td role="rowheader"><strong>Configuraties op toegangsniveau</strong></td> 
+   <td> <p>[!UICONTROL Edit] toegang tot taken en problemen</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Objectmachtigingen</strong></td> 
-   <td> <p>Contribute-machtigingen of hoger voor de taken en problemen waaraan u moet werken</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
+   <td> <p>Contribute-machtigingen of hoger voor de taken en problemen waaraan u moet werken</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw [!DNL Workfront] beheerder.
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -59,14 +61,14 @@ Werkitems die aan u zijn toegewezen, worden weergegeven in de widget Mijn werk i
 
 U kunt filters selecteren waarmee items worden weergegeven die klaar zijn om aan te werken, of items waaraan u momenteel al werkt.
 
-In dit artikel wordt beschreven hoe u de filters in het gebied [!UICONTROL Home] kunt gebruiken om items weer te geven waaraan u momenteel werkt of waaraan u wellicht wilt beginnen te werken. Voor informatie over hoe te om filters in het [!UICONTROL Home] gebied te gebruiken, zie [&#x200B; punten van de Vertoning in [!UICONTROL worklist] in het [!UICONTROL Home] gebied &#x200B;](/help/quicksilver/workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
+In dit artikel wordt beschreven hoe u de filters in het gebied [!UICONTROL Home] kunt gebruiken om items weer te geven waaraan u momenteel werkt of waaraan u wellicht wilt beginnen te werken. Voor informatie over hoe te om filters in het [!UICONTROL Home] gebied te gebruiken, zie [ punten van de Vertoning in [!UICONTROL worklist] in het [!UICONTROL Home] gebied ](/help/quicksilver/workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
 
 Een tijdelijk item weergeven in de widget Mijn werk:
 
-1. Klik het **[!UICONTROL Main Menu]** ![&#x200B; Belangrijkste pictogram van het Menu &#x200B;](assets/main-menu-icon.png) in de hoger-juiste hoek, dan klik **[!UICONTROL Home]**.
+1. Klik het **[!UICONTROL Main Menu]** ![ Belangrijkste pictogram van het Menu ](assets/main-menu-icon.png) in de hoger-juiste hoek, dan klik **[!UICONTROL Home]**.
 1. (Voorwaardelijk) klik **aanpassen** om **Mijn werk** widget toe te voegen.
 
-1. Klik het **pictogram van de Filter ![&#x200B; &#x200B;](assets/filter-nwepng.png) pictogram van de Filter** &lbrace;in de hoogste-linkerhoek van de widgetwerklijst.
+1. Klik het **pictogram van de Filter** ![ pictogram van de Filter ](assets/filter-nwepng.png) {in de hoogste-linkerhoek van de widgetwerklijst.
 
 1. Klik op een van de volgende opties of op beide opties voor taken:
 
@@ -85,16 +87,16 @@ Een tijdelijk item weergeven in de widget Mijn werk:
 
 ## Toegang tot een teamverzoek in de widget Teamverzoek
 
-U hebt rechtstreeks toegang tot een aanvraag die aan uw team is toegewezen via de widget Teamverzoeken in [!UICONTROL Home] -gebied. Voor meer informatie over teamverzoeken, zie [&#x200B; overzicht van de verzoeken van het Team &#x200B;](../../../people-teams-and-groups/work-with-team-requests/team-requests-overview.md).
+U hebt rechtstreeks toegang tot een aanvraag die aan uw team is toegewezen via de widget Teamverzoeken in [!UICONTROL Home] -gebied. Voor meer informatie over teamverzoeken, zie [ overzicht van de verzoeken van het Team ](../../../people-teams-and-groups/work-with-team-requests/team-requests-overview.md).
 
 Om tot een teamverzoek toegang te hebben:
 
-1. Klik het **[!UICONTROL Main Menu]** ![&#x200B; Belangrijkste pictogram van het Menu &#x200B;](assets/main-menu-icon.png) in de hoger-juiste hoek, dan klik **[!UICONTROL Home]**.
+1. Klik het **[!UICONTROL Main Menu]** ![ Belangrijkste pictogram van het Menu ](assets/main-menu-icon.png) in de hoger-juiste hoek, dan klik **[!UICONTROL Home]**.
 1. (Voorwaardelijk) klik **aanpassen** om **de Verzoeken van het Team** widget toe te voegen.
 
-   De widget geeft teamverzoeken weer onder teamgroeperingen. De widget **[!UICONTROL Team Requests]** geeft alle aanvragen weer die zijn toegewezen aan een team dat u hebt ingeschakeld. Voor meer informatie over het werken met teamverzoeken, zie [&#x200B; werk en teamverzoeken &#x200B;](../../../people-teams-and-groups/work-with-team-requests/manage-work-and-team-requests.md) leiden.
+   De widget geeft teamverzoeken weer onder teamgroeperingen. De widget **[!UICONTROL Team Requests]** geeft alle aanvragen weer die zijn toegewezen aan een team dat u hebt ingeschakeld. Voor meer informatie over het werken met teamverzoeken, zie [ werk en teamverzoeken ](../../../people-teams-and-groups/work-with-team-requests/manage-work-and-team-requests.md) leiden.
 
-   ![&#x200B; de verzoekwidget van het Team &lbrace;](assets/team-request-widget.png)
+   ![ de verzoekwidget van het Team {](assets/team-request-widget.png)
 
 ## Werken met een tijdelijk item in de widget Mijn werk
 
@@ -102,13 +104,13 @@ Wanneer u op de knop [!UICONTROL Work On It] klikt, geeft u aan welke gebruiker 
 
 U kunt als volgt aan een werkitem werken:
 
-1. Klik het **[!UICONTROL Main Menu]** ![&#x200B; Belangrijkste pictogram van het Menu &#x200B;](assets/main-menu-icon.png) in de hoger-juiste hoek, dan klik **[!UICONTROL Home]**.
+1. Klik het **[!UICONTROL Main Menu]** ![ Belangrijkste pictogram van het Menu ](assets/main-menu-icon.png) in de hoger-juiste hoek, dan klik **[!UICONTROL Home]**.
 1. (Voorwaardelijk) klik **aanpassen** om **Mijn werk** widget toe te voegen.
 
 1. Selecteer in het **[!UICONTROL worklist]** -gebied van de widget de aanvraag waaraan u wilt werken en klik op **[!UICONTROL Work On It]** .
 1. Beweeg over het het werkpunt, dan klik het **Summiere** pictogram om informatie over het het werkpunt te bekijken.
 
-   ![&#x200B; Open Samenvatting &#x200B;](assets/open-summary-new-home.png)
+   ![ Open Samenvatting ](assets/open-summary-new-home.png)
 
 
 ## Een tijdelijk item verwijderen
@@ -117,13 +119,13 @@ Als u besluit dat u niet aan het het werkpunt zou moeten werken, kunt u het uit 
 
 Een tijdelijk item verwijderen:
 
-1. Klik het **[!UICONTROL Main Menu]** ![&#x200B; Belangrijkste pictogram van het Menu &#x200B;](assets/main-menu-icon.png) in de hoger-juiste hoek, dan klik **[!UICONTROL Home]**.
+1. Klik het **[!UICONTROL Main Menu]** ![ Belangrijkste pictogram van het Menu ](assets/main-menu-icon.png) in de hoger-juiste hoek, dan klik **[!UICONTROL Home]**.
 1. (Voorwaardelijk) klik **aanpassen** om **Mijn werk** widget toe te voegen.
 
 1. In de widgetwerklijst, houd over het het werkpunt, dan klik het **Summiere** pictogram om informatie over het het werkpunt te bekijken.
-   ![&#x200B; Open Samenvatting &#x200B;](assets/open-summary-new-home.png)
+   ![ Open Samenvatting ](assets/open-summary-new-home.png)
 1. in de **sectie van Taken**, verwijder uw naam.
-   ![&#x200B; verwijder taak &#x200B;](assets/remove-assignment.png)
+   ![ verwijder taak ](assets/remove-assignment.png)
 
 
 

@@ -6,9 +6,9 @@ description: Wanneer u aan een proefdruk werkt, of u een gebruiker van Adobe Wor
 author: Courtney
 feature: Digital Content and Documents
 exl-id: c38e005c-8984-4e99-9527-94a0a6b1071d
-source-git-commit: c79d030ff2d05487e5f7e3457bf98df591822a80
+source-git-commit: 385f4a6663cacfdcf519bf5699fc1840c2cb2adc
 workflow-type: tm+mt
-source-wordcount: '800'
+source-wordcount: '730'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 <!-- Audited: 4/2025 -->
 
-Wanneer u aan een proefdruk werkt, of u een gebruiker van Adobe Workfront of een externe medewerker bent, kunt u specificeren welke e-mailberichten u over commentaren en besluiten over de proefdruk wilt ontvangen. Voor meer informatie, zie [&#x200B; Meldingen voor de proefdrukcommentaren en besluiten overzicht &#x200B;](../../../review-and-approve-work/proofing/proofing-overview/notifications-proof-comments-decisions.md).
+Wanneer u aan een proefdruk werkt, of u een gebruiker van Adobe Workfront of een externe medewerker bent, kunt u specificeren welke e-mailberichten u over commentaren en besluiten over de proefdruk wilt ontvangen. Voor meer informatie, zie [ Meldingen voor de proefdrukcommentaren en besluiten overzicht ](../../../review-and-approve-work/proofing/proofing-overview/notifications-proof-comments-decisions.md).
 
 >[!NOTE]
 >
@@ -27,32 +27,34 @@ Wanneer u aan een proefdruk werkt, of u een gebruiker van Adobe Workfront of een
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-abonnement*</td> 
-   <td> <p>Huidig abonnement: Pro of hoger</p> <p>of</p> <p>Verouderd abonnement: Selecteren of Premium</p> <p>Voor meer informatie over het proefdrukken van toegang met de verschillende plannen, zie <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref"> Toegang tot het proefdrukken van functionaliteit in Workfront </a>.</p> </td> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Huidig plan: Werk of Plan</p> <p>Ouder plan: Willekeurig (proefdrukken moet zijn ingeschakeld voor de gebruiker)</p> </td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td> <p>Alle</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Proefdrukrol </td> 
+   <td>Revisor, Reviewer en fiatteur, auteur, moderator</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Bewijs van machtigingsprofiel </td> 
    <td>Manager of hoger</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot documenten bewerken</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
+   <td> <p>Toegang tot documenten bewerken</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42; om te weten te komen welk plan, rol, of Profiel van de Toestemming van het Bewijs u hebt, contacteer uw beheerder van Workfront of van Workfront Proof.
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -61,9 +63,9 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 1. Open de proefdruk u berichten voor wilt vormen.
 1. Als de linkertoolbar niet toont, klik het **pictogram van het Menu** in de upper-left hoek van de Kijker van het Bewijs van het Web.
 
-   ![&#x200B; Menu_icon_in_Proofing_Viewer.png &#x200B;](assets/menu-icon-in-proofing-viewer-350x228.png)
+   ![ Menu_icon_in_Proofing_Viewer.png ](assets/menu-icon-in-proofing-viewer-350x228.png)
 
-1. In de linkertoolbar, klik het **pictogram van Montages ![&#x200B; Settings_icon.png &#x200B;](assets/settings-icon.png).**
+1. In de linkertoolbar, klik het **pictogram van Montages** Settings_icon.png ![.](assets/settings-icon.png)
 
 1. In **verzend me e-mailberichten over** sectie, selecteer het bericht dat voor deze proef plaatst.
 

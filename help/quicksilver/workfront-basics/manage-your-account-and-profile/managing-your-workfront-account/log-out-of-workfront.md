@@ -6,9 +6,9 @@ description: Om veiligheidsredenen, is het belangrijk om uit  [!DNL Adobe Workfr
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 3b457a44-53a1-44c5-99ce-445ab1463303
-source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
+source-git-commit: c6272c7631941720e3ab1e1c80ed7d304a67d34b
 workflow-type: tm+mt
-source-wordcount: '216'
+source-wordcount: '217'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ Om veiligheidsredenen is het belangrijk dat u zich regelmatig afmeldt bij [!DNL 
 
 >[!NOTE]
 >
->Normaal kan een [!DNL Workfront] beheerder deze hoeveelheid tijd aan overal tussen 15 minuten en 7 dagen van inactiviteit veranderen, zoals die in [&#x200B; wordt verklaard vormt de voorkeur van de systeemveiligheid &#x200B;](../../../administration-and-setup/manage-workfront/security/configure-security-preferences.md), maar deze functionaliteit is momenteel niet beschikbaar. We werken aan verificatieverbeteringen die automatische afmelding na een bepaalde periode van inactiviteit mogelijk maken.
+>Normaal kan een [!DNL Workfront] beheerder deze hoeveelheid tijd aan overal tussen 15 minuten en 7 dagen van inactiviteit veranderen, zoals die in [ wordt verklaard vormt de voorkeur van de systeemveiligheid ](../../../administration-and-setup/manage-workfront/security/configure-security-preferences.md), maar deze functionaliteit is momenteel niet beschikbaar. We werken aan verificatieverbeteringen die automatische afmelding na een bepaalde periode van inactiviteit mogelijk maken.
 
 <!--
 ><MadCap:conditionalText style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -35,28 +35,30 @@ Om veiligheidsredenen is het belangrijk dat u zich regelmatig afmeldt bij [!DNL 
 
 ## Toegangsvereisten
 
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 <table style="table-layout:auto"> 
  <col> 
- </col> 
- <col> 
- </col> 
+ </col>
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
+   <td>Adobe Workfront-pakket</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licentie*</strong></td> 
-   <td> <p>[!UICONTROL Request] of hoger</p> </td> 
+   <td>Adobe Workfront-licentie</td> 
+   <td> 
+   <p>Medewerker of hoger</p>
+   <p>Aanvraag of hoger</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42; om te weten te komen welk plan of vergunningstype u hebt, contacteer uw [!DNL Workfront] beheerder.
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Afmelden bij uw [!DNL Workfront] -account
 
-1. Klik het **[!UICONTROL Main Menu]** pictogram ![&#x200B; Belangrijkste menupictogram &#x200B;](assets/main-menu-icon.png) in de hoger-juiste hoek van [!DNL Adobe Workfront], dan klik **[!UICONTROL Logout]** ![&#x200B; Logout pictogram &#x200B;](assets/logout-icon.png).
+1. Klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste menupictogram ](assets/main-menu-icon.png) in de hoger-juiste hoek van [!DNL Adobe Workfront], dan klik **[!UICONTROL Logout]** ![ Logout pictogram ](assets/logout-icon.png).
 1. Hiermee keert u terug naar de aanmeldingspagina waar u uw gebruikersnaam en wachtwoord opnieuw kunt invoeren.

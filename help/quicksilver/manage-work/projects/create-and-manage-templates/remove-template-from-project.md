@@ -6,35 +6,33 @@ description: U kunt een sjabloon niet uit een project verwijderen. U kunt inform
 author: Alina
 feature: Work Management
 exl-id: a8b6055a-7fac-4f9b-a880-10b2b85299b7
-source-git-commit: 2ccf2775a858371aacdb6e8637fd5a30a212a82d
+source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '395'
 ht-degree: 0%
 
 ---
 
 # Sjabloongegevens uit een project verwijderen
 
-U kunt een sjabloon niet uit een project verwijderen. U kunt informatie slechts manueel verwijderen die aan het project werd toegevoegd nadat een malplaatje aan het project in bijlage was. Voor informatie over het vastmaken van malplaatjes, zie [&#x200B; een malplaatje aan een project &#x200B;](../../../manage-work/projects/create-and-manage-templates/attach-template-to-project.md) vastmaken.
+U kunt een sjabloon niet uit een project verwijderen. U kunt informatie slechts manueel verwijderen die aan het project werd toegevoegd nadat een malplaatje aan het project in bijlage was. Voor informatie over het vastmaken van malplaatjes, zie [ een malplaatje aan een project ](../../../manage-work/projects/create-and-manage-templates/attach-template-to-project.md) vastmaken.
 
 ## Toegangsvereisten
 
-+++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
-
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan</td> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Nieuw: Standaard</p>
-   <p>Huidig: Werk of hoger</p> </td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td> <p>Standard</p>
+   <p>Werk of hoger</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau</td> 
@@ -42,14 +40,40 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Toegang tot taken beheren </p> <p>Contribute of hoger toegang tot het project </p>  </td> 
+   <td> <p>Toegang tot taken beheren </p> <p>Contribute of hoger toegang tot het project</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Voor meer informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>New: Standard</p>
+   <p>Current: Work or higher</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>Edit access to Tasks</p>  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>Manage access to tasks </p> <p>Contribute or higher access to the project </p>  </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## Opties voor het verwijderen van sjablooninformatie uit een project
 
@@ -57,15 +81,15 @@ Als u sjabloongegevens wilt verwijderen die aan het project zijn toegevoegd, kun
 
 * Verwijder handmatig informatie uit het project nadat de sjabloon is gekoppeld.
 
-  Voor informatie, zie [&#x200B; projecten &#x200B;](../../../manage-work/projects/manage-projects/edit-projects.md) uitgeven.
+  Voor informatie, zie [ projecten ](../../../manage-work/projects/manage-projects/edit-projects.md) uitgeven.
 
 * Schrap de taken in het project die met het malplaatje werden toegevoegd.
 
-  Voor informatie, zie de [&#x200B; taken van de Schrapping die van een malplaatje &#x200B;](#delete-tasks-created-from-a-template) sectie in dit artikel worden gecreeerd.
+  Voor informatie, zie de [ taken van de Schrapping die van een malplaatje ](#delete-tasks-created-from-a-template) sectie in dit artikel worden gecreeerd.
 
 * Verwijder de sjabloon uit Workfront. Als u de sjabloon uit Workfront verwijdert, worden de taken die aan de sjabloon zijn toegevoegd, niet verwijderd uit projecten.
 
-  Voor informatie, zie [&#x200B; projectmalplaatjes van de Schrapping &#x200B;](../../../manage-work/projects/create-and-manage-templates/delete-templates.md).
+  Voor informatie, zie [ projectmalplaatjes van de Schrapping ](../../../manage-work/projects/create-and-manage-templates/delete-templates.md).
 
 ## Taken verwijderen die met een sjabloon zijn gemaakt {#delete-tasks-created-from-a-template}
 
@@ -78,7 +102,7 @@ Als u sjabloongegevens wilt verwijderen die aan het project zijn toegevoegd, kun
      Task >> Template Task ID >>Is Not Blank
      ```
 
-     Voor informatie over het creëren van een filter, zie [&#x200B; filters in Adobe Workfront &#x200B;](../../../reports-and-dashboards/reports/reporting-elements/create-filters.md) creëren of uitgeven.
+     Voor informatie over het creëren van een filter, zie [ filters in Adobe Workfront ](../../../reports-and-dashboards/reports/reporting-elements/create-filters.md) creëren of uitgeven.
 
      Wanneer u het filter toepast, worden alleen taken die aan een Sjabloontaak-id zijn gekoppeld, in de lijst weergegeven.
 
@@ -86,6 +110,6 @@ Als u sjabloongegevens wilt verwijderen die aan het project zijn toegevoegd, kun
 
      Wanneer u de mening toepast, werden de taken die informatie in identiteitskaart van de Taak van het Malplaatje of de naamkolom van de Taak van het Malplaatje bevatten gecreeerd gebruikend een malplaatje.
 
-     Voor informatie over het creëren van een mening, zie [&#x200B; Overzicht van Meningen in Adobe Workfront &#x200B;](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+     Voor informatie over het creëren van een mening, zie [ Overzicht van Meningen in Adobe Workfront ](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
-1. Selecteer alle taken die in Stap 2 worden geïdentificeerd zoals die van een malplaatje worden gecreeerd, dan klik **het pictogram van de Schrapping**&#x200B;**> ja, schrap het**. Voor meer informatie, zie [&#x200B; de taken van de Schrapping &#x200B;](../../../manage-work/tasks/manage-tasks/delete-tasks.md).
+1. Selecteer alle taken die in Stap 2 worden geïdentificeerd zoals die van een malplaatje worden gecreeerd, dan klik **het pictogram van de Schrapping****> ja, schrap het**. Voor meer informatie, zie [ de taken van de Schrapping ](../../../manage-work/tasks/manage-tasks/delete-tasks.md).

@@ -6,9 +6,9 @@ description: U kunt het rapport voor proefdrukgoedkeuring gebruiken om informati
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4f8c924e-7c33-43f3-a9d6-75c56af28527
-source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
+source-git-commit: ac714bd5a5259d6f995ac445efbd0125e07022cb
 workflow-type: tm+mt
-source-wordcount: '299'
+source-wordcount: '249'
 ht-degree: 0%
 
 ---
@@ -21,32 +21,33 @@ U kunt het rapport voor proefdrukgoedkeuring gebruiken om informatie weer te gev
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
-U moet het volgende hebben:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>Workfront-abonnement*</p> </td> 
+   <td role="rowheader"> <p>Workfront-pakket</p> </td> 
    <td>Alle</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>Overzicht Adobe Workfront-licenties*</p> </td> 
-   <td> <p>Plan</p> </td> 
+   <td role="rowheader"> <p>Adobe Workfront-licentie</p> </td> 
+   <td> 
+   <p>Standard</p>
+   <p>Plan</p>
+   </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"><strong> Toegangsniveau* </strong> </td> 
+   <td role="rowheader"><strong> het niveauconfiguratie van de Toegang </strong> </td> 
    <td> <p>Toegang bewerken tot:</p> 
     <ul> 
      <li> <p>Rapporten, dashboards en kalenders maken</p> </li> 
      <li> <p>Filters, weergaven en groepen maken</p> </li> 
-    </ul> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan veranderen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
+    </ul> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -56,7 +57,7 @@ U moet het volgende hebben:
 
 1. Klik **Nieuw Rapport**, dan rol om **Goedkeuring van het Bewijs** te selecteren.
 
-   ![&#x200B; rapport van de Goedkeuring van het Bewijs &#x200B;](assets/proof-approval-report.png)
+   ![ rapport van de Goedkeuring van het Bewijs ](assets/proof-approval-report.png)
 
 1. (Optioneel) Voeg aanvullende velden toe.
 1. Klik **sparen + Sluiten**.

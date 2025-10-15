@@ -6,9 +6,9 @@ description: U kunt bestanden downloaden van een bestaande proefdruk. Opmerkinge
 author: Courtney
 feature: Digital Content and Documents
 exl-id: dae3e083-3ad4-4a59-9e04-b017d078a89b
-source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
+source-git-commit: 385f4a6663cacfdcf519bf5699fc1840c2cb2adc
 workflow-type: tm+mt
-source-wordcount: '240'
+source-wordcount: '170'
 ht-degree: 0%
 
 ---
@@ -21,32 +21,34 @@ U kunt bestanden downloaden van een bestaande proefdruk. Opmerkingen en andere i
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-abonnement*</td> 
-   <td> <p>Huidig abonnement: Pro of hoger</p> <p>of</p> <p>Verouderd abonnement: Selecteren of Premium</p> <p>Voor meer informatie over het proefdrukken van toegang met de verschillende plannen, zie <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref"> Toegang tot het proefdrukken van functionaliteit in Workfront </a>.</p> </td> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Huidig plan: Werk of Plan</p> <p>Ouder plan: Willekeurig (proefdrukken moet zijn ingeschakeld voor de gebruiker)</p> </td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td> <p>Alle</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Proefdrukrol </td> 
+   <td>Revisor, Reviewer en fiatteur, auteur, moderator</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Bewijs van machtigingsprofiel </td> 
    <td>Manager of hoger</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot documenten bewerken</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
+   <td> <p>Toegang tot documenten bewerken</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42; om te weten te komen welk plan, rol, of Profiel van de Toestemming van het Bewijs u hebt, contacteer uw beheerder van Workfront of van Workfront Proof.
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -56,6 +58,6 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 1. Vind de proef u nodig hebt, dan klik **Open proef**.
 
 1. In de toolbar op de linkerzijde van de het proefKijker, klik de **knoop van de Download**.\
-   ![&#x200B; Proofing_Viewer_toolbar_button_-_Download.png &#x200B;](assets/proofing-viewer-toolbar-button---download.png)
+   ![ Proofing_Viewer_toolbar_button_-_Download.png ](assets/proofing-viewer-toolbar-button---download.png)
 
 1. Blader naar de plaats op uw dossiersysteem waar u de proef wilt downloaden, dan klik **sparen**.

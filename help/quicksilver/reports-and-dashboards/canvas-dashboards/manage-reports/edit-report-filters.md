@@ -6,9 +6,9 @@ description: U kunt rapportfilters uitgeven nadat zij op een Dashboard van het C
 author: Courtney and Jenny
 feature: Reports and Dashboards
 exl-id: 5205c342-7f63-438e-97c8-e74f7dfecfd0
-source-git-commit: 56d0b9281387cc7b35055461e7868c7e4a194f81
+source-git-commit: 1059950dd3b20e0959c626e580f958bed5076541
 workflow-type: tm+mt
-source-wordcount: '1048'
+source-wordcount: '1052'
 ht-degree: 0%
 
 ---
@@ -17,9 +17,9 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->De functie Canvasdashboards is momenteel alleen beschikbaar voor gebruikers die deelnemen aan de bètafase. Onderdelen van het onderdeel zijn mogelijk niet compleet of werken niet zoals bedoeld in deze fase. Gelieve te dienen om het even welke terugkoppelen betreffende uw ervaring door de instructies in [&#x200B; te volgen verstrekt &#x200B;](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) sectie in het de bètaoverzichtsartikel van de dashboards van het Canvas.<br>
->&#x200B;>Als u feedback hebt over een mogelijk probleem met een probleem of een technisch probleem, stuurt u een ticket naar Workfront Support. Voor meer informatie, zie [&#x200B; de Steun van de Klant van het Contact &#x200B;](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
->&#x200B;>Deze bètaversie is niet beschikbaar op de volgende cloudproviders:
+>De functie Canvasdashboards is momenteel alleen beschikbaar voor gebruikers die deelnemen aan de bètafase. Onderdelen van het onderdeel zijn mogelijk niet compleet of werken niet zoals bedoeld in deze fase. Gelieve te dienen om het even welke terugkoppelen betreffende uw ervaring door de instructies in [ te volgen verstrekt ](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) sectie in het de bètaoverzichtsartikel van de dashboards van het Canvas.<br>
+>>Als u feedback hebt over een mogelijk probleem met een probleem of een technisch probleem, stuurt u een ticket naar Workfront Support. Voor meer informatie, zie [ de Steun van de Klant van het Contact ](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
+>>Deze bètaversie is niet beschikbaar op de volgende cloudproviders:
 >
 >* Je eigen sleutel voor Amazon Web Services
 >* Azure
@@ -29,7 +29,7 @@ U kunt rapportfilters uitgeven zodra u hen op een Dashboard van het Canvas hebt 
 
 ## Toegangsvereisten
 
-+++ Vouw uit om de vereisten voor toegang weer te geven. 
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 <table style="table-layout:auto"> 
 <col> 
@@ -38,7 +38,7 @@ U kunt rapportfilters uitgeven zodra u hen op een Dashboard van het Canvas hebt 
 </col> 
 <tbody> 
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront-plan</p></td> 
+   <td role="rowheader"><p>Adobe Workfront-pakket</p></td> 
    <td> 
 <p>Alle </p> 
    </td> 
@@ -46,8 +46,8 @@ U kunt rapportfilters uitgeven zodra u hen op een Dashboard van het Canvas hebt 
  <tr> 
    <td role="rowheader"><p>Adobe Workfront-licentie</p></td> 
    <td> 
-<p>Huidig: Plan </p> 
-<p>Nieuw: Standaard</p> 
+<p>Standard</p> 
+<p>Plan</p> 
    </td> 
    </tr> 
   </tr> 
@@ -64,7 +64,7 @@ U kunt rapportfilters uitgeven zodra u hen op een Dashboard van het Canvas hebt 
 </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 +++
 
 ## Vereisten
@@ -75,16 +75,16 @@ U moet een filter aan een rapport toevoegen alvorens het kan worden uitgegeven.
 
 >[!NOTE]
 >
->Er zijn vele beschikbare configuratiehulpmiddelen om een rapportfilter te bouwen en uit te geven. Voor meer informatie over deze hulpmiddelen, zie de volgende sectie in dit artikel: [&#x200B; Overwegingen wanneer het uitgeven van een rapportfilter &#x200B;](#considerations-when-editing-a-report-filter).
+>Er zijn vele beschikbare configuratiehulpmiddelen om een rapportfilter te bouwen en uit te geven. Voor meer informatie over deze hulpmiddelen, zie de volgende sectie in dit artikel: [ Overwegingen wanneer het uitgeven van een rapportfilter ](#considerations-when-editing-a-report-filter).
 
 
 {{step1-to-dashboards}}
 
 1. In het linkerpaneel, klik **de Dashboards van het Canvas**.
 
-1. Op de **pagina van de Dashboards van het Canvas**, klik **Meer** ![&#x200B; Meer pictogram &#x200B;](assets/more-icon.png) in de hoger-juiste hoek van het rapport dat de filter bevat u wilt uitgeven, dan uitgezocht **geeft** uit.
+1. Op de **pagina van de Dashboards van het Canvas**, klik **Meer** ![ Meer pictogram ](assets/more-icon.png) in de hoger-juiste hoek van het rapport dat de filter bevat u wilt uitgeven, dan uitgezocht **geeft** uit.
 
-   ![&#x200B; geef een rapport &#x200B;](assets/edit-report-box.png) uit
+   ![ geef een rapport ](assets/edit-report-box.png) uit
 
 1. Op de linkerkant van **vorm** dialoogdoos, selecteer het **paneel van Filters**.
 
@@ -92,7 +92,7 @@ U moet een filter aan een rapport toevoegen alvorens het kan worden uitgegeven.
 
 1. Selecteer het veld of de modifier die u wilt bewerken en pas de huidige selecties naar wens aan.
 
-   ![&#x200B; toevoegt voorwaarde &#x200B;](assets/add-condition.png)
+   ![ toevoegt voorwaarde ](assets/add-condition.png)
 
 1. (Facultatief) klik **toevoegen filtergroep** om een andere reeks het filtreren criteria toe te voegen. De standaardoperator tussen de sets is AND. Klik op de operator om deze te wijzigen in OR.
 
@@ -102,7 +102,7 @@ U moet een filter aan een rapport toevoegen alvorens het kan worden uitgegeven.
 
 ### Op datum gebaseerde jokertekenfiltervariabelen
 
-De op datum-gebaseerde vervangingsopties kunnen in combinatie met om het even welk attribuut van de datumfilter worden gebruikt. Voor informatie over het toevoegen van een op datum-gebaseerde vervanging aan een rapport, zie het artikel [&#x200B; Op datum-gebaseerde vervangingen van het Gebruik om rapporten &#x200B;](../../../reports-and-dashboards/reports/reporting-elements/use-date-based-wildcards-generalize-reports.md) te generaliseren.
+De op datum-gebaseerde vervangingsopties kunnen in combinatie met om het even welk attribuut van de datumfilter worden gebruikt. Voor informatie over het toevoegen van een op datum-gebaseerde vervanging aan een rapport, zie het artikel [ Op datum-gebaseerde vervangingen van het Gebruik om rapporten ](../../../reports-and-dashboards/reports/reporting-elements/use-date-based-wildcards-generalize-reports.md) te generaliseren.
 
 >[!NOTE]
 >
@@ -158,15 +158,15 @@ Het jokerteken `$$TODAYb+2w` verwijst bijvoorbeeld naar &quot;2 weken vanaf het 
 
 * Wanneer het filtreren op het gebruiker `name` attribuut, zult u **me (Logged in gebruiker)** optie bekijken.
 
-  ![&#x200B; het attribuut van de Naam van de Gebruiker &#x200B;](assets/user-name-attribute.png)
+  ![ het attribuut van de Naam van de Gebruiker ](assets/user-name-attribute.png)
 
 * Wanneer het filtreren op een groep `name` attribuut, zult u **Mijn huisgroep (die in gebruikersgroep wordt geregistreerd)** bekijken en **Mijn andere groepen (die in gebruikersgroepen worden geregistreerd)** opties om in een filtervoorwaarde te gebruiken.
 
-  ![&#x200B; de naamattributen van de Groep &#x200B;](assets/group-name-attribute.png)
+  ![ de naamattributen van de Groep ](assets/group-name-attribute.png)
 
 * Wanneer het filtreren op een team `name` attribuut, zult u **Mijn standaardteam (die in gebruikersteam wordt geregistreerd)** bekijken en **Mijn andere teams (die in gebruikersteams worden geregistreerd)** opties om van in de filtervoorwaarde te kiezen.
 
-  ![&#x200B; de naamattributen van het Team &#x200B;](assets/team-name-attribute.png)
+  ![ de naamattributen van het Team ](assets/team-name-attribute.png)
 
 
 ### Verwijzen naar onderliggende objecten

@@ -6,9 +6,9 @@ description: U kunt een bestaande kalender wijzigen door een verbinding aan een 
 author: Lisa
 feature: Reports and Dashboards
 exl-id: 494d040c-bd1d-4356-824f-a75890803617
-source-git-commit: 5c0278607faf65b58abeb9b813e403f97032a965
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '272'
 ht-degree: 0%
 
 ---
@@ -25,8 +25,6 @@ U kunt een bestaande kalender wijzigen door een verbinding aan een project toe t
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -34,27 +32,26 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront plan]</td> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licentie</td> 
-   <td><p>Nieuw: Standaard</p>
-       <p>of</p>
-       <p>Huidig: Plan</p></td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td><p>Standard</p>
+       <p>Plan</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau</td> 
-   <td> <p>[!UICONTROL Edit] toegang tot [!UICONTROL Reports] , [!UICONTROL Dashboards] en [!UICONTROL Calendars]</p></td> 
+   <td> <p> Toegang tot rapporten, dashboards en kalenders bewerken</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td>[!UICONTROL Manage] toegang tot het kalenderverslag</td> 
+   <td>Toegang tot het kalenderrapport beheren</td> 
   </tr> 
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -70,14 +67,12 @@ Als u het kalenderrapport met andere gebruikers of teams hebt gedeeld, wordt de 
    1. Klik op **[!UICONTROL Add to Calendar].**
    1. Typ de naam van een project waarvan u kalendergebeurtenissen wilt toevoegen en klik vervolgens op de naam wanneer deze wordt weergegeven in de vervolgkeuzelijst.
    1. Klik **toevoegen**.
-
-      ![&#x200B; voeg een project aan een kalender &#x200B;](assets/add-a-calendar-project.png) toe
+      ![ voeg een project aan een kalender ](assets/add-a-calendar-project.png) toe
 
 
 1. (Optioneel) Een kalendergroep toevoegen of een bestaande kalendergroep wijzigen:
    1. Klik het **Meer** menu naast de projectnaam, dan klik **uitgeven**.
-
-      ![&#x200B; geef project in kalender uit &#x200B;](assets/edit-project-in-calendar.png)
+      ![ geef project in kalender uit ](assets/edit-project-in-calendar.png)
 
    1. Kies hoe je je objecten wilt groeperen:
 

@@ -6,10 +6,10 @@ description: Lees dit artikel om filterknoppen problemen op te lossen die niet i
 feature: Get Started with Workfront
 author: Nolan and Alina
 exl-id: 327564ed-60df-441a-a38b-a17a8c57adb0
-source-git-commit: 114d306d99ae9ba0a18abd63a6137ad0568ab202
+source-git-commit: 85ccee879fd4ba5a80b6e885458839901f83d26e
 workflow-type: tm+mt
-source-wordcount: '208'
-ht-degree: 0%
+source-wordcount: '228'
+ht-degree: 1%
 
 ---
 
@@ -17,26 +17,32 @@ ht-degree: 0%
 
 ## Toegangsvereisten
 
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan</strong></td> 
-   <td> <p>Alle</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><strong>Adobe [!DNL Workfront] licentie</strong></td> 
-   <td> <p>[!UICONTROL Plan] </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><strong>Configuraties op toegangsniveau</strong></td> 
-   <td> <p>[!UICONTROL System administrator]</p> </td> 
-  </tr> 
- </tbody> 
+<table>
+  <tr>
+   <td>Adobe Workfront-pakket
+   </td>
+   <td> <p>Prime of Ultimate</p>
+    <p>Workflow Ultimate</p>
+   </td>
+  </tr>
+  <tr>
+   <td>Adobe Workfront-licenties
+   </td>
+   <td><p>Standard</p>
+   <p>Plan</p>
+   </td>
+  </tr>
+   <tr>
+   <td>Configuraties op toegangsniveau
+   </td>
+   <td>U moet een [!DNL Workfront] beheerder zijn.
+   </td>
+  </tr>
 </table>
+
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Probleem
 
@@ -90,6 +96,6 @@ De filterknoppen in het gebied [!UICONTROL Projects and Timesheets] worden niet 
    1. Controleer in de sectie **[!UICONTROL Filter]** of **[!UICONTROL Projects I'm On]** , **[!UICONTROL Projects I Own]** (voor projecten) en **[!UICONTROL My Timesheet Approvals]** en **[!UICONTROL My Timesheets]** (voor tijdbladen) zijn geselecteerd.
    1. Klik op **[!UICONTROL Save]**.
 
-   Voor meer informatie, zie [&#x200B; Filters, Mening, en Groepen aanpassen gebruikend een lay-outmalplaatje &#x200B;](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md).
+   Voor meer informatie, zie [ Filters, Mening, en Groepen aanpassen gebruikend een lay-outmalplaatje ](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md).
 
-1. Wijs het lay-outmalplaatje aan de correcte gebruikers, baanrollen, teams, of groepen toe. Voor informatie, zie [&#x200B; gebruikers aan een lay-outmalplaatje &#x200B;](../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md) toewijzen.
+1. Wijs het lay-outmalplaatje aan de correcte gebruikers, baanrollen, teams, of groepen toe. Voor informatie, zie [ gebruikers aan een lay-outmalplaatje ](../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md) toewijzen.

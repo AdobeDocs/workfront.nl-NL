@@ -2,12 +2,12 @@
 content-type: overview
 product-area: projects
 navigation-topic: task-information
-title: Overzicht van projectpercentage voltooid
+title: Projectpercentage voltooid overzicht
 description: De volledige waarde van Percentage van een project wordt berekend gebaseerd op of de Geplande Duur of de Geplande Uren van taken in het project. Uw beheerder van Adobe Workfront of een groepsbeheerder bepaalt welke waarde in rekening wordt gebracht wanneer het berekenen van percent volledig in uw systeem wanneer zij informatie in het gebied van de Voorkeur van het Project vormen. Voor informatie over het vormen van projectvoorkeur, zie systeem-brede projectvoorkeur vormen.
 author: Alina
 feature: Work Management
 exl-id: d2395569-9fe5-42e7-a392-cff49eb519d9
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
 workflow-type: tm+mt
 source-wordcount: '778'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 De volledige waarde van Percentage van een project wordt berekend gebaseerd op of de Duur of Geplande Uren van taken in het project. Uw beheerder van Adobe Workfront of een groepsbeheerder bepaalt welke waarde in rekening wordt gebracht wanneer het berekenen van percent volledig in uw systeem wanneer zij informatie in het gebied van de Voorkeur van het Project vormen.
 
-Voor informatie over het vormen van projectvoorkeur, zie [&#x200B; systeem-brede projectvoorkeur &#x200B;](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) vormen.
+Voor informatie over het vormen van projectvoorkeur, zie [ systeem-brede projectvoorkeur ](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) vormen.
 
 Percentage voltooid van een oudertaak is gebaseerd op de Duur of Geplande Uren van elk van zijn subtaken.
 
@@ -40,7 +40,7 @@ U kunt het percentage van een taak handmatig wijzigen. Dit is geen berekening.
 
 Workfront gebruikt het percentage voltooide van een individuele taak om het percentage te berekenen voltooit van zijn oudertaak of het percentage voltooide van het project.
 
-Voor informatie over het bijwerken van het percentage voltooide van een taak, zie [&#x200B; Mening en werk Percentage bij Voltooid voor taken &#x200B;](../../../manage-work/projects/updating-work-in-a-project/view-update-percent-complete-for-tasks.md).
+Voor informatie over het bijwerken van het percentage voltooide van een taak, zie [ Mening en werk Percentage bij Voltooid voor taken ](../../../manage-work/projects/updating-work-in-a-project/view-update-percent-complete-for-tasks.md).
 
 ### Hoe Workfront Percentage voltooide op een bovenliggende taak berekent {#how-workfront-calculates-percent-complete-on-a-parent-task}
 

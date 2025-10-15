@@ -4,14 +4,14 @@ content-type: tips-tricks-troubleshooting
 product-area: system-administration
 navigation-topic: tips-tricks-troubleshooting-setup-admin
 title: 'Foutbericht: ongeldige parameter: conversiewaarde'
-description: 'U ontvangt het volgende foutbericht wanneer u probeert de indeling van een aangepast veld op een bestaand aangepast formulier te wijzigen: ''Ongeldige parameter: conversiewaarde &grave;&lt;..&gt;'''''
+description: 'U ontvangt het volgende foutbericht wanneer u probeert de indeling van een aangepast veld op een bestaand aangepast formulier te wijzigen: ''Ongeldige parameter: conversiewaarde `&lt;..&gt;'''''
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 4f7aac95-4afb-422d-877b-0fa49ef43883
-source-git-commit: c389b4829f16bf82a5851a597f5dd358d9c96999
+source-git-commit: 929502c256011b464d938ad1095c127407e4a795
 workflow-type: tm+mt
-source-wordcount: '334'
+source-wordcount: '311'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 ## Probleem
 
 U ontvangt het volgende foutbericht wanneer u probeert de indeling van een aangepast veld te wijzigen op een bestaand aangepast formulier: &quot;Ongeldige parameter: conversiewaarde &quot;&lt;...>&quot;&quot;\
-![&#x200B; custom_field_format_invalid_parameter_error.png &#x200B;](assets/custom-field-format-invalid-parameter-error-350x148.png)
+![ custom_field_format_invalid_parameter_error.png ](assets/custom-field-format-invalid-parameter-error-350x148.png)
 
 ## Oorzaak
 
@@ -33,25 +33,21 @@ U hebt bijvoorbeeld een aangepast veld dat als tekst is opgemaakt.  Nu wilt u de
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
-   <td>Alle</td> 
+   <td>[!DNL Adobe Workfront] package</td> 
+   <td><p>Alle</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licentie</td> 
-   <td>
-   <p>Nieuw: Standaard</p>
-   <p>of</p>
-   <p>Huidig: Plan</p></td> 
-  </tr> 
+   <td>[!DNL Adobe Workfront] licentie</td> 
+   <td><p>Standard</p>
+       <p>Plan</p></td>
+  </tr>
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau</td> 
+   <td>Configuraties op toegangsniveau</td> 
    <td> <p>Toegang bewerken tot:</p> 
     <ul> 
      <li> <p>Rapporten, dashboards en kalenders maken</p> </li> 
@@ -61,7 +57,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -70,7 +66,7 @@ Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van d
 Ga als volgt te werk:
 
 1. Stel rapporten samen voor alle objecten waaraan dit veld is gekoppeld met hun aangepaste Forms.\
-   Voor informatie over de bouw van een rapport, zie [&#x200B; een douanerapport &#x200B;](../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) creëren.
+   Voor informatie over de bouw van een rapport, zie [ een douanerapport ](../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) creëren.
 
 1. Neem het aangepaste veld dat u wilt bewerken op in de weergave van het rapport, zodat u kunt zien welk object dit veld bevat dat is gevuld met een tekstwaarde.
 1. Corrigeer de aangepaste veldwaarden van de objecten die in een tekstindeling worden weergegeven en geef deze de waarde Valuta en probeer vervolgens het veld Opmaak opnieuw te wijzigen in het aangepaste formulier.\

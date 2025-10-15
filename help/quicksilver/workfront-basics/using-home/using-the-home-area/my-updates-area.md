@@ -6,9 +6,9 @@ description: U kunt het [!UICONTROL My Updates] gebied gebruiken om de goedkeuri
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 809605a0-8c24-4873-b98f-504a158be022
-source-git-commit: 4448d2fc6d0230ef2f53ad0ea7ae0f10f52fcac4
+source-git-commit: 41f58261d4f2e6075187886b371a23eb5e97d823
 workflow-type: tm+mt
-source-wordcount: '736'
+source-wordcount: '706'
 ht-degree: 0%
 
 ---
@@ -25,29 +25,26 @@ U kunt het [!UICONTROL My Updates] gebied gebruiken om de goedkeuringen snel te 
 
 Als gebruiker met een [!UICONTROL Review] -licentie kunt u standaard het [!UICONTROL My Updates] -gebied in de [!UICONTROL Main Menu] vinden en is het [!UICONTROL My Updates] -gebied de standaardbestemmingspagina voor u.
 
-Voor informatie over [!DNL Adobe Workfront] vergunningen, zie [[!DNL Adobe Workfront]  overzicht van vergunningen &#x200B;](../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md).
+Voor informatie over [!DNL Adobe Workfront] vergunningen, zie [[!DNL Adobe Workfront]  overzicht van vergunningen ](../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md).
 
-Als u een ander licentietype hebt dan Revisie, moet de beheerder van [!DNL Workfront] of Groep het [!UICONTROL My Updates] -gebied aan uw lay-outsjabloon toevoegen om het in het hoofdmenu weer te geven. Voor informatie, zie [&#x200B; [!UICONTROL Main Menu] aanpassen gebruikend een lay-outmalplaatje &#x200B;](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
+Als u een ander licentietype hebt dan Revisie, moet de beheerder van [!DNL Workfront] of Groep het [!UICONTROL My Updates] -gebied aan uw lay-outsjabloon toevoegen om het in het hoofdmenu weer te geven. Voor informatie, zie [ [!UICONTROL Main Menu] aanpassen gebruikend een lay-outmalplaatje ](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
 
 ## Toegangsvereisten
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
-
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront plan]</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront package]</strong></td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licentie*</strong></td> 
-   <td> <p>Nieuw: Medewerker of hoger</p>
-   of   
-   <p>Huidig: [!UICONTROL Request] of hoger</p> </td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] licentie</strong></td> 
+   <td> <p>Medewerker of hoger</p>
+   <p>Aanvraag of hoger</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Configuratie op toegangsniveau</strong></td> 
@@ -60,7 +57,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-*Neem contact op met de [!DNL Workfront] -beheerder om te weten te komen welk abonnement, licentietype of toegang u hebt. Voor meer informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -80,7 +77,7 @@ Het gebied [!UICONTROL My Updates] wordt geopend.
 
 De goedkeuringen en de verzoeken om toegang die aan u worden toegewezen zijn vermeld in de eerste helft van de pagina, onder **Mijn Updates**.
 
-![&#x200B; Mijn Herzieners van Updates &#x200B;](assets/my-updates-mentions-for-reviwers-nwe-350x418.png)
+![ Mijn Herzieners van Updates ](assets/my-updates-mentions-for-reviwers-nwe-350x418.png)
 
 1. (Facultatief) Schuif aan de bodem van het [!UICONTROL **Mijn gebied van Updates**] en klik de naar rechts wijzende pijl om meer goedkeuringen te tonen die op extra pagina&#39;s tonen.
 
@@ -88,9 +85,9 @@ De goedkeuringen en de verzoeken om toegang die aan u worden toegewezen zijn ver
    >
    >De eerste vijf goedkeuringen of verzoeken om toegang tonen door gebrek. De resterende goedkeuringen worden weergegeven op extra pagina&#39;s. U kunt maximaal 2000 goedkeuringen weergeven in het [!UICONTROL My Updates] -gebied.
 
-   ![&#x200B; Paginering voor Mijn Updates &#x200B;](assets/pagination-for-my-updates-page-highlighted-nwe-350x78.png)
+   ![ Paginering voor Mijn Updates ](assets/pagination-for-my-updates-page-highlighted-nwe-350x78.png)
 
-1. (Facultatief) breid het **[!UICONTROL Filter]** drop-down menu ![&#x200B; pictogram van de Filter &#x200B;](assets/filter-nwepng.png) in de hoger-juiste hoek van de **[!UICONTROL My Updates]** sectie uit en selecteer van het volgende:
+1. (Facultatief) breid het **[!UICONTROL Filter]** drop-down menu ![ pictogram van de Filter ](assets/filter-nwepng.png) in de hoger-juiste hoek van de **[!UICONTROL My Updates]** sectie uit en selecteer van het volgende:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -115,13 +112,13 @@ De goedkeuringen en de verzoeken om toegang die aan u worden toegewezen zijn ver
 
 1. U kunt als volgt een item goedkeuren of afwijzen of wijzigingen in een document voorstellen voordat u het goedkeurt:
 
-   1. (Facultatief) klik het **pictogram van de drop-down ![&#x200B; Vervolgkeuzelijst &#x200B;](assets/down-arrow-blue.png) naast uw goedkeuringsbesluit (**&#x200B;[!UICONTROL Approve]&#x200B;**,**&#x200B;[!UICONTROL Changes]&#x200B;**,**&#x200B;[!UICONTROL Reject]&#x200B;**) en voeg een commentaar toe, dan klik &#x200B;** [!UICONTROL Add]&#x200B;**.**
+   1. (Facultatief) klik het **pictogram van de drop-down** Vervolgkeuzelijst ![ naast uw goedkeuringsbesluit (](assets/down-arrow-blue.png), **[!UICONTROL Approve]**, **[!UICONTROL Changes]**) en voeg een commentaar toe, dan klik **[!UICONTROL Reject]**.**[!UICONTROL Add]**
 
       of
 
       Klik op **[!UICONTROL Skip]** als u geen opmerking wilt invoeren.
 
-      ![&#x200B; de beslissingsknopen van de Goedkeuring met commentaardoos &#x200B;](assets/approval-decision-buttons-in-my-updates-with-comment-box-nwe-350x183.png)
+      ![ de beslissingsknopen van de Goedkeuring met commentaardoos ](assets/approval-decision-buttons-in-my-updates-with-comment-box-nwe-350x183.png)
 
       >[!NOTE]
       >
@@ -134,9 +131,9 @@ De goedkeuringen en de verzoeken om toegang die aan u worden toegewezen zijn ver
       >Als u geen commentaar aan uw besluit wilt toevoegen, kunt u **[!UICONTROL Approve]** klikken, **[!UICONTROL Reject]**, of **[!UICONTROL Changes]** knoop en het goedkeuringsbesluit wordt verleend onmiddellijk.
       >
       >
-      >![&#x200B; de beslissingsknopen van de Goedkeuring &#x200B;](assets/approval-decision-buttons-in-my-updates-nwe-350x169.png)
+      >![ de beslissingsknopen van de Goedkeuring ](assets/approval-decision-buttons-in-my-updates-nwe-350x169.png)
       >
-      >Voor meer informatie over het goedkeuren van het werk, zie [&#x200B; het goedkeuren van het werk &#x200B;](../../../review-and-approve-work/manage-approvals/approving-work.md).
+      >Voor meer informatie over het goedkeuren van het werk, zie [ het goedkeuren van het werk ](../../../review-and-approve-work/manage-approvals/approving-work.md).
 
 1. Klik op **[!UICONTROL Grant access]** om het aan u verzonden toegangsverzoek te verlenen
 
@@ -144,10 +141,10 @@ De goedkeuringen en de verzoeken om toegang die aan u worden toegewezen zijn ver
 
    Vouw het vervolgkeuzemenu **[!UICONTROL Change access]** uit om de gevraagde toegang te wijzigen voordat u deze verleent.
 
-   ![&#x200B; de toegangsknoop van de Verandering &#x200B;](assets/grant-access-button-in-my-updates-nwe-350x224.png)
+   ![ de toegangsknoop van de Verandering ](assets/grant-access-button-in-my-updates-nwe-350x224.png)
 
 1. (Optioneel) Klik op **[!UICONTROL Ignore]** om het toegangsverzoek uit uw goedkeuringslijst te verwijderen zonder het toe te kennen.
-1. Klik op **[!UICONTROL Delegate my approvals]** om de goedkeuringen die u hebt ontvangen te delegeren als u nog enige tijd geen goedkeuringsbeslissingen kunt nemen. Voor meer informatie over het delegeren van goedkeuringen, zie [&#x200B; de goedkeuringsverzoek van de Afgevaardigde &#x200B;](../../../review-and-approve-work/manage-approvals/delegate-approval-requests.md).
+1. Klik op **[!UICONTROL Delegate my approvals]** om de goedkeuringen die u hebt ontvangen te delegeren als u nog enige tijd geen goedkeuringsbeslissingen kunt nemen. Voor meer informatie over het delegeren van goedkeuringen, zie [ de goedkeuringsverzoek van de Afgevaardigde ](../../../review-and-approve-work/manage-approvals/delegate-approval-requests.md).
 1. Blader naar het **[!UICONTROL Mentions]** -gebied onder uw goedkeuringen. Hier, kunt u alle punten bekijken waar u in een gesprek inbegrepen bent geweest.
 
    >[!TIP]
@@ -160,10 +157,10 @@ De goedkeuringen en de verzoeken om toegang die aan u worden toegewezen zijn ver
    * Gebruik de werkbalk RTF om uw tekst op te maken, koppelingen, lijsten, emojis, aanhalingstekens of afbeeldingen aan uw bericht toe te voegen
    * Voeg gebruikers of teams toe om hen van uw antwoord op de hoogte te brengen.
 
-     Voor meer informatie over het antwoorden op updates, zie [&#x200B; het werk van de Update &#x200B;](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+     Voor meer informatie over het antwoorden op updates, zie [ het werk van de Update ](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
      Klik op **[!UICONTROL Submit]** als u klaar bent met het toevoegen van de reactie.
 
-     ![&#x200B; Antwoord op het Mijn gebied van Updates &#x200B;](assets/reply-in-the-my-updates-area.png)
+     ![ Antwoord op het Mijn gebied van Updates ](assets/reply-in-the-my-updates-area.png)
 
 1. (Optioneel) Klik op **[!UICONTROL Pin current page]** om het [!UICONTROL My Updates] -gebied vast te zetten op de bovenste navigatie.

@@ -9,10 +9,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: d30a67dd-4f91-41cf-b1ba-fefadc4e396a
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: 929502c256011b464d938ad1095c127407e4a795
 workflow-type: tm+mt
-source-wordcount: '270'
-ht-degree: 0%
+source-wordcount: '234'
+ht-degree: 2%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 U kunt geen verbinding maken met ADFS.
 
-![&#x200B; error_message.png &#x200B;](assets/error-message.png)
+![ error_message.png ](assets/error-message.png)
 
 >[!NOTE]
 >
@@ -30,35 +30,29 @@ U kunt geen verbinding maken met ADFS.
 
 ## Toegangsvereisten
 
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
-
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
-
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
-   <td>Alle</td> 
+   <td>[!DNL Adobe Workfront] package</td> 
+   <td><p>Alle</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licentie</td> 
-   <td>
-   <p>Nieuw: Standaard</p>
-   <p>of</p>
-   <p>Huidig: Plan</p></td> 
+   <td>[!DNL Adobe Workfront] licentie</td> 
+   <td><p>Standard</p>
+       <p>Plan</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau</td> 
+   <td>Configuraties op toegangsniveau</td> 
    <td>[!UICONTROL System Administrator]</td> 
   </tr> 
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

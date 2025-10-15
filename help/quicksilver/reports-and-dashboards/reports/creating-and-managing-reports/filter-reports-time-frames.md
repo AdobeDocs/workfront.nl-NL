@@ -6,9 +6,9 @@ description: U kunt een rapport filteren op het tijdframe van een datum die op e
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 7dea484c-d38e-4786-85d0-f4c106cfa46f
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '963'
+source-wordcount: '947'
 ht-degree: 0%
 
 ---
@@ -23,25 +23,21 @@ U kunt een rapport filteren op het tijdframe van een datum die op een object bes
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan</td> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie</td> 
-      <td> 
-      <p>Nieuw: Standaard</p>
-       <p> of</p>
-      <p>Huidig: Plan</p>
+   <td> 
+      <p>Standard</p>
+      <p>Plan</p>
    </td>
-
-</tr> 
+  </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau</td> 
    <td> <p>Toegang tot rapporten, dashboards, kalenders bewerken</p> <p>Toegang tot filters, weergaven, groepen bewerken</p></td> 
@@ -53,7 +49,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-Voor meer details over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -61,7 +57,7 @@ Voor meer details over de informatie in deze lijst, zie [&#x200B; vereisten van 
 
 Het rapport moet worden gecreeerd alvorens u zijn resultaten kunt filtreren.
 
-Voor meer informatie bij het creëren van rapporten, zie [&#x200B; een rapport &#x200B;](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-report.md) creëren.
+Voor meer informatie bij het creëren van rapporten, zie [ een rapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-report.md) creëren.
 
 ## Een rapport filteren op de tijdlijn van een datum {#filter-a-report-by-the-timeframe-of-a-date}
 
@@ -74,7 +70,7 @@ Voor meer informatie bij het creëren van rapporten, zie [&#x200B; een rapport &
 1. Klik **toevoegen een Regel van de Filter**, dan **Uitgezocht een gebied**.
 
 1. In **selecteer een gebied** dialoogdoos, uitgezochte **Uur**, toen **Datum van de Ingang**.
-   ![&#x200B; het Filtreren het rapport van uur door timeframe &#x200B;](assets/qs-filtering-hour-report-by-timeframe-350x357.png)
+   ![ het Filtreren het rapport van uur door timeframe ](assets/qs-filtering-hour-report-by-timeframe-350x357.png)
 
 1. Selecteer een van de volgende opties in het keuzemenu dat wordt weergegeven:
 

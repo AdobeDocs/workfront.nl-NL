@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 475a519d-d3bd-4461-8099-0e296d556d34
-source-git-commit: 58d2bf9f14b9a3adf4bacfad58f1b9862aeaf247
+source-git-commit: f2fe6ef78b3032f7a89d4c816cb11b525634c067
 workflow-type: tm+mt
-source-wordcount: '908'
+source-wordcount: '767'
 ht-degree: 0%
 
 ---
@@ -28,15 +28,46 @@ This article describes how you can share a view with others. For information abo
 
 >[!NOTE]
 >
->Het verlenen van toestemmingen aan een werkruimte geeft andere gebruikers geen toestemmingen aan de meningen op de verslagtypepagina&#39;s. U moet machtigingen verlenen aan afzonderlijke weergaven in een recordtypepagina om deze te kunnen delen met andere gebruikers. Voor informatie, zie [&#x200B; een mening &#x200B;](/help/quicksilver/planning/access/share-views.md) delen.
+>Het verlenen van toestemmingen aan een werkruimte geeft andere gebruikers geen toestemmingen aan de meningen op de verslagtypepagina&#39;s. U moet machtigingen verlenen aan afzonderlijke weergaven in een recordtypepagina om deze te kunnen delen met andere gebruikers. Voor informatie, zie [ een mening ](/help/quicksilver/planning/access/share-views.md) delen.
 
 
 ## Toegangsvereisten
 
-+++ Vouw uit om de vereisten voor toegang weer te geven.
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven. 
 
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
+<!--at GA, check that the Workfront plans article linked below has Planning info-->
 
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront-pakket</p></td> 
+   <td> 
+<p>Alle Workfront- en planningspakketten</p> 
+of
+<p>Willekeurig workflowpakket en planningspakket</p> 
+ </tr>
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront-licentie</p></td> 
+   <td><p>Standard</p> 
+  </td> 
+  </tr>
+
+<td role="rowheader"><p>Objectmachtigingen</p></td> 
+   <td>  <p>Machtigingen beheren in een werkruimte</p>  </td> 
+  </tr>
+
+</tbody> 
+</table>
+
+Voor meer informatie over de toegangsvereisten van Workfront, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
+<!--Old:
 <table style="table-layout:auto"> 
 <col> 
 </col> 
@@ -46,62 +77,58 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
     <tr> 
 <tr> 
 <td> 
-   <p> Producten</p> </td> 
+   <p> Products</p> </td> 
    <td> 
    <ul><li><p> Adobe Workfront</p></li> 
    <li><p> Adobe Workfront Planning<p></li></ul></td> 
   </tr>   
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront-abonnement*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront plan*</p></td> 
    <td> 
-<p>Een van de volgende Workfront-plannen:</p> 
-<ul><li>Selecteren</li> 
+<p>Any of the following Workfront plans:</p> 
+<ul><li>Select</li> 
 <li>Prime</li> 
 <li>Ultimate</li></ul> 
-<p>Workfront Planning is niet beschikbaar voor oudere Workfront-plannen</p> 
+<p>Workfront Planning is not available for legacy Workfront plans</p> 
    </td> 
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront-planningspakket*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront Planning package*</p></td> 
    <td> 
-<p>Alle </p> 
-<p>Neem contact op met uw Workfront-accountmanager voor meer informatie over wat er in elk Workfront-planningsplan is opgenomen. </p> 
+<p>Any </p> 
+<p>For more information about what is included in each Workfront Planning plan, contact your Workfront account manager. </p> 
    </td> 
  <tr> 
-   <td role="rowheader"><p>Adobe Workfront-platform</p></td> 
+   <td role="rowheader"><p>Adobe Workfront platform</p></td> 
    <td> 
-<p>Het geval van Workfront van uw organisatie moet aan de Verenigde Ervaring van Adobe worden genegeerd om tot de Planning van Workfront te kunnen toegang hebben.</p>
-<p>Uw organisatie moet aan de Verenigde Ervaring van Adobe worden bezet voor gebruikers om toestemmingen aan een werkruimte van een toestemmingsverzoek te kunnen verzoeken en verlenen. </p> 
-<p>Gebruikers moeten aan de Adobe Admin Console worden toegevoegd om machtigingen te verkrijgen voor de werkruimten voor Workfront Planning.</p>
-<p>Voor meer informatie, zie <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md"> Adobe Verenigde Ervaring voor Workfront </a>. </p> 
+<p>Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience to be able to access Workfront Planning.</p>
+<p>Your organization must be onboarded to the Adobe Unified Experience for users to be able to request and grant permissions to a workspace from a permission request. </p> 
+<p>Users must be added to the Adobe Admin Console in order to gain permissions to Workfront Planning workspaces.</p>
+<p>For more information, see <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p> 
    </td> 
    </tr> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront-licentie*</p></td> 
-   <td><p> Standaard </p>
-   <p>Workfront Planning is niet beschikbaar voor oudere Workfront-licenties</p> 
+   <td role="rowheader"><p>Adobe Workfront license*</p></td> 
+   <td><p> Standard </p>
+   <p>Workfront Planning is not available for legacy Workfront licenses</p> 
   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Configuratie op toegangsniveau</p></td> 
-   <td> <p>Er zijn geen toegangsniveaucontroles voor de Planning van Adobe Workfront</p>   
+   <td role="rowheader"><p>Access level configuration</p></td> 
+   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
 </td> 
   </tr> 
 <tr> 
-   <td role="rowheader"><p>Objectmachtigingen</p></td> 
-   <td>  <p>Machtigingen beheren in een werkruimte</p>  </td> 
-  </tr>
+   <td role="rowheader"><p>Object permissions</p></td> 
+   <td>  <p>Manage permissions to a workspace</p>  </td> 
+  </tr> 
 
 </tbody> 
-</table>
-
-*Voor meer informatie over de toegangsvereisten van Workfront, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
-
-+++
+</table> -->
 
 ## Overwegingen bij het delen van werkruimten
 
-* Voor algemene informatie over het delen van voorwerpen in de Planning van Workfront, zie ook [&#x200B; Overzicht van het delen van toestemmingen in de Planning van Adobe Workfront &#x200B;](/help/quicksilver/planning/access/sharing-permissions-overview.md).
+* Voor algemene informatie over het delen van voorwerpen in de Planning van Workfront, zie ook [ Overzicht van het delen van toestemmingen in de Planning van Adobe Workfront ](/help/quicksilver/planning/access/sharing-permissions-overview.md).
 * U kunt werkruimten delen met gebruikers, teams, rollen, groepen, of bedrijven binnen uw organisatie.
 * Naast teams, groepen, bedrijven, en baanrollen, kunt u slechts met gebruikers delen die aan Adobe Admin Console zijn toegevoegd.
 * U kunt werkruimten niet delen met gebruikers buiten uw organisatie.
@@ -122,15 +149,15 @@ Een werkruimte delen met anderen:
 
 1. Open de werkruimte u wilt delen, dan **Aandeel** in de hoger-juiste hoek van het scherm klikken.
 
-   ![&#x200B; knoop van het Aandeel op werkruimte het hoogste recht &#x200B;](assets/share-button-on-workspace-top-right.png)
+   ![ knoop van het Aandeel op werkruimte het hoogste recht ](assets/share-button-on-workspace-top-right.png)
 
 1. In de **toegang van de Verlening tot dit werkruimte** gebied, begin de naam van een gebruiker, een groep, een team, een bedrijf, of baanrol te typen dan het te klikken wanneer het in de lijst toont.
 
-   ![&#x200B; delend UI met groepen &#x200B;](assets/sharing-ui-with-groups.png)
+   ![ delend UI met groepen ](assets/sharing-ui-with-groups.png)
 
    >[!NOTE]
    >
-   >   Naast teams, groepen, bedrijven, en baanrollen, kunt u slechts met gebruikers delen die aan Adobe Admin Console zijn toegevoegd. U kunt geen gebruikers met alleen Workfront toevoegen. Voor informatie, zie [&#x200B; gebruikers in Adobe Admin Console &#x200B;](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md) leiden.
+   >   Naast teams, groepen, bedrijven, en baanrollen, kunt u slechts met gebruikers delen die aan Adobe Admin Console zijn toegevoegd. U kunt geen gebruikers met alleen Workfront toevoegen. Voor informatie, zie [ gebruikers in Adobe Admin Console ](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md) leiden.
 
 
 1. Selecteer een van de volgende machtigingsniveaus in het keuzemenu:
@@ -138,7 +165,7 @@ Een werkruimte delen met anderen:
    * Contribute
    * Beheren
 
-     Voor informatie over toestemmingsniveaus en welke acties kunnen de gebruikers voor elk niveau uitvoeren, zie [&#x200B; Overzicht van het delen van toestemmingen in de Planning van Adobe Workfront &#x200B;](/help/quicksilver/planning/access/sharing-permissions-overview.md).
+     Voor informatie over toestemmingsniveaus en welke acties kunnen de gebruikers voor elk niveau uitvoeren, zie [ Overzicht van het delen van toestemmingen in de Planning van Adobe Workfront ](/help/quicksilver/planning/access/sharing-permissions-overview.md).
 1. Klik **verbinding van het Exemplaar** om een verbinding aan de werkruimte aan uw klembord te kopiëren.
 1. Deel de gekopieerde koppeling met anderen. Gebruikers die de koppeling ontvangen, moeten actieve gebruikers zijn en zich aanmelden bij Workfront om toegang te krijgen tot de werkruimte.
 1. Klik **sparen**.
@@ -152,18 +179,16 @@ Gebruikers die een koppeling openen naar een werkruimte waarvoor zij geen machti
 1. (Voorwaardelijk) Als u de manager van een werkruimte bent, zou u een verzoek van een andere gebruiker kunnen ontvangen om tot de mening op de volgende gebieden toegang te hebben:
 
    * Een melding in de app
-
-     ![&#x200B; In-app bericht voor toegangsverzoek &#x200B;](assets/in-app-notification-for-access-request.png)
+     ![ In-app bericht voor toegangsverzoek ](assets/in-app-notification-for-access-request.png)
    * Een e-mailmelding
-
-     ![&#x200B; E-mailbericht voor toegangsverzoek &#x200B;](assets/email-notification-for-access-request.png)
+     ![ E-mailbericht voor toegangsverzoek ](assets/email-notification-for-access-request.png)
 1. (Voorwaardelijk) Klik in het systeemvak in Workfront op de melding in de app.
 of
 Van het e-mailbericht, klik **Mening alle berichten**, dan klik het bericht in de lijst.
 
    De **hangende toegangsverzoeken** vakvertoningen.
 
-   ![&#x200B; de lijstgoedkeuringsdoos van Meldingen &#x200B;](assets/notifications-list-approval-box.png)
+   ![ de lijstgoedkeuringsdoos van Meldingen ](assets/notifications-list-approval-box.png)
 
 1. (Optioneel) Voor de gebruiker wiens machtigingen u wilt goedkeuren, selecteert u een van de volgende opties in het vervolgkeuzemenu rechts van de gebruikersnaam:
    * **Mening**

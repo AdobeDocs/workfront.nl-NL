@@ -6,9 +6,9 @@ description: U kunt een nieuwe documentversie uploaden en goedkeuring aanvragen 
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 0eb8cfba-2317-419c-b28f-da2e7a99401c
-source-git-commit: 42fbb40cb8a0f3c70e22fd04bd3d0ce625f58fec
+source-git-commit: b615236d2666ebcc6db0d1f796fb0baaf362e0f2
 workflow-type: tm+mt
-source-wordcount: '488'
+source-wordcount: '455'
 ht-degree: 0%
 
 ---
@@ -38,22 +38,24 @@ Als de nieuwste documentversie wordt verwijderd, blijven de vorige versies vergr
    <td> <p> Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licenties*</td> 
+   <td role="rowheader">Adobe Workfront-licenties</td> 
    <td> <p>Aanvraag of hoger</p>
-   <p>Medewerker of hoger</p> </td> 
+   <p>Medewerker of hoger</p>
+   <p>Als u de integratie Frame.io gebruikt, moet u een Standaard vergunning hebben om goedkeuringswerkschema's tot stand te brengen.</p>
+    </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Configuraties op toegangsniveau</td> 
-   <td> <p>Toegang tot documenten bewerken</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
+   <td> <p>Toegang tot documenten bewerken</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Toegang tot het aan het document gekoppelde object bewerken</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/grant-and-request-access-to-objects.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
+   <td> <p>Toegang tot het aan het document gekoppelde object bewerken</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -74,7 +76,7 @@ Een nieuwe versie toevoegen:
 1. Sleep het nieuwe bestand naar het vorige document. Hiermee wordt automatisch een nieuwe versie gemaakt.
 
 1. Zodra het document eindigt uploadend, selecteer het document, dan klik **Details van het Document**.
-   ![&#x200B; open de pagina van documentdetails &#x200B;](assets/open-doc-details.png)
+   ![ open de pagina van documentdetails ](assets/open-doc-details.png)
 
 
 1. In het linkerpaneel, klik **goedkeurt**, dan klik **toevoegen**.
@@ -86,13 +88,13 @@ Een nieuwe versie toevoegen:
 
    >[!TIP]
    >
-   >   Gebruikers met een standaardlicentie kunnen acceptatiesjablonen maken die u kunt gebruiken vanuit het gedeelte Instellen. Voor meer informatie, zie [&#x200B; een Malplaatje van de Goedkeuring voor activa en documenten &#x200B;](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md) creëren.
+   >   Gebruikers met een standaardlicentie kunnen acceptatiesjablonen maken die u kunt gebruiken vanuit het gedeelte Instellen. Voor meer informatie, zie [ een Malplaatje van de Goedkeuring voor activa en documenten ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md) creëren.
 
 
 1. (Optioneel) Stel een deadline in voor de goedkeuring. Gebruikers en teams worden 72 uur per e-mail op de hoogte gesteld en 24 uur vóór de opgegeven deadline.
 
 1. Zodra u alle recensenten en fiatteurs hebt toegevoegd, klik **voorleggen Verzoek**. Deelnemers worden via e-mail op de hoogte gesteld.
 
-   ![&#x200B; voorlegt nieuwe versie voor goedkeuring &#x200B;](assets/add-previous-participants.png)
+   ![ voorlegt nieuwe versie voor goedkeuring ](assets/add-previous-participants.png)
 
 

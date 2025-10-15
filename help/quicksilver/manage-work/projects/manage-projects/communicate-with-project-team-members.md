@@ -6,9 +6,9 @@ description: U kunt eenvoudig communiceren met de leden van uw projectteam via A
 author: Alina
 feature: Work Management
 exl-id: 2dadc10c-ffa8-4bb5-b2f1-14e2a8f0a7d6
-source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
+source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
 workflow-type: tm+mt
-source-wordcount: '452'
+source-wordcount: '397'
 ht-degree: 0%
 
 ---
@@ -17,11 +17,11 @@ ht-degree: 0%
 
 U kunt eenvoudig communiceren met de leden van uw projectteam via Adobe Workfront.
 
-Alle gebruikers verbonden aan een project vormen het Team van het Project. Voor informatie over het Team van het Project, zie [&#x200B; Overzicht van het Team van het Project &#x200B;](../../../manage-work/projects/planning-a-project/project-team-overview.md).
+Alle gebruikers verbonden aan een project vormen het Team van het Project. Voor informatie over het Team van het Project, zie [ Overzicht van het Team van het Project ](../../../manage-work/projects/planning-a-project/project-team-overview.md).
 
 ## Toegangsvereisten
 
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -30,25 +30,55 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-abonnement*</td> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Aanvraag of hoger</p> </td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td><p>Medewerker of hoger</p> 
+   <p>Aanvraag of hoger</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot projecten weergeven of vergroten</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
+   <td> <p>Toegang tot projecten weergeven of vergroten</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>De toestemmingen van de mening of hoger aan het project</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
+   <td> <p>De toestemmingen van de mening of hoger aan het project</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
+Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ </col> 
+ <col> 
+ </col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Request or higher</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations*</td> 
+   <td> <p>View or higher access to&nbsp;Projects</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>View or higher permissions to the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## Een e-mail verzenden naar een projectteamlid {#send-an-email-to-a-project-team-member}
 
@@ -59,11 +89,11 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
    of
 
-   Om bepaalde leden van het projectteam bij te werken, selecteer één of verscheidene gebruikers in de lijst, dan klik **verzenden Update naar Gebruiker** **&#x200B;**.\
-   ![&#x200B; Commenting_1.png &#x200B;](assets/commenting-1-350x352.png)
+   Om bepaalde leden van het projectteam bij te werken, selecteer één of verscheidene gebruikers in de lijst, dan klik **verzenden Update naar Gebruiker** ****.\
+   ![ Commenting_1.png ](assets/commenting-1-350x352.png)
 
 1. Typ uw update op **post een update aan dit project** gebied.
-1. (Facultatief) om de update privé te maken, klik het **&#x200B;**&#x200B;pictogram van het Slot.
+1. (Facultatief) om de update privé te maken, klik het **** pictogram van het Slot.
 
    Gebruikers buiten het bedrijf kunnen geen persoonlijke update weergeven.
 
@@ -79,11 +109,11 @@ U kunt projectupdates naar teamleden en naar andere gebruikers verzenden die gee
 1. Ga naar een project waarvan u updates naar andere gebruikers wilt verzenden.
 1. (Optioneel en voorwaardelijk) Als de gebruikers waarnaar u updates wilt verzenden zich niet in het projectteam bevinden, voegt u deze toe aan het projectteam.
 
-   Voor informatie over het toevoegen van gebruikers aan het projectteam, zie [&#x200B; het Team van het Project beheren &#x200B;](../../../manage-work/projects/planning-a-project/manage-project-team.md).
+   Voor informatie over het toevoegen van gebruikers aan het projectteam, zie [ het Team van het Project beheren ](../../../manage-work/projects/planning-a-project/manage-project-team.md).
 
 1. Verzend een update naar de leden van het projectteam, zoals beschreven in het
 
-   [&#x200B; verzend een e-mail naar een lid van het Team van het Project &#x200B;](#send-an-email-to-a-project-team-member) sectie in dit artikel.
+   [ verzend een e-mail naar een lid van het Team van het Project ](#send-an-email-to-a-project-team-member) sectie in dit artikel.
 
    De update en de namen van de gebruikers inbegrepen in het tonen in het lusje van Updates van het project.
 

@@ -6,7 +6,7 @@ description: U kunt een groepering in een lijst of een rapport uitgeven gebruike
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 2eeecc16-ea6d-4a56-8ea3-e213706e89bf
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
 source-wordcount: '1539'
 ht-degree: 0%
@@ -25,30 +25,22 @@ U kunt een groepering in een lijst of een rapport uitgeven gebruikend tekstwijze
 
 ## Toegangsvereisten
 
-+++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
-
-U moet het volgende hebben:
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan</td> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie</td> 
    <td> 
-      <p>Nieuw:</p>
-         <ul>
-         <li><p>Standaard</p></li>
-         </ul>
-      <p>Huidige:</p>
-         <ul>
-         <li><p>Plan</p></li>
-         </ul>
-   </td>
+     <p>Standard</p>
+     <p>Plan</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau</td> 
@@ -57,11 +49,11 @@ U moet het volgende hebben:
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
    <td> <p>Rechten voor een rapport beheren om groepen in een rapport te bewerken</p> <p>Rechten voor een groep beheren om deze te bewerken</p></td> 
-  </tr> 
+  </tr>
  </tbody> 
 </table>
 
-Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -71,8 +63,8 @@ Voordat u de tekstmodus in een rapport of lijst gaat gebruiken, moet u altijd op
 
 Zie voor meer informatie:
 
-* [&#x200B; Overzicht van de Wijze van de Tekst &#x200B;](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md)
-* [&#x200B; overzicht van de de wijzesyntaxis van de Tekst &#x200B;](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md)
+* [ Overzicht van de Wijze van de Tekst ](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md)
+* [ overzicht van de de wijzesyntaxis van de Tekst ](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md)
 * [Voorbeelden van aangepaste weergaven, filters en groepen: artikelindex](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
 
 ## Een groep bewerken in de tekstmodus
@@ -81,16 +73,16 @@ Het bewerken van een groep in de tekstmodus is identiek voor rapporten en lijste
 
 >[!NOTE]
 >
->Groepen zijn een verplicht rapportageelement voor het maken van grafieken in rapporten. Groepen in tekstmodus worden niet ondersteund in grafieken. Voor informatie over het toevoegen van grafieken aan rapporten, zie [&#x200B; een grafiek aan een rapport &#x200B;](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md) toevoegen.
+>Groepen zijn een verplicht rapportageelement voor het maken van grafieken in rapporten. Groepen in tekstmodus worden niet ondersteund in grafieken. Voor informatie over het toevoegen van grafieken aan rapporten, zie [ een grafiek aan een rapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md) toevoegen.
 
-Voor meer informatie over bouwingsgroeperingen, zie [&#x200B; groepen in Adobe Workfront &#x200B;](../../../reports-and-dashboards/reports/reporting-elements/create-groupings.md) creëren.
+Voor meer informatie over bouwingsgroeperingen, zie [ groepen in Adobe Workfront ](../../../reports-and-dashboards/reports/reporting-elements/create-groupings.md) creëren.
 
-Voor informatie over het creëren van een rapport, zie [&#x200B; een douanerapport &#x200B;](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) creëren.
+Voor informatie over het creëren van een rapport, zie [ een douanerapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) creëren.
 
 1. Voer een van de volgende handelingen uit:
 
-   1. Om tot de groepering van een rapport toegang te hebben, ga naar het rapport, dan klik **de Acties van het 0&rbrace; Rapport** uitgeven **>** Groepen **tabel.**
-   1. Om tot het groeperen van een lijst toegang te hebben, ga naar de lijst en van het **Groeperen** drop-down menu, muis over de groepering die u wilt wijzigen en **klikken geeft** pictogram ![&#x200B; pictogram uit &#x200B;](assets/edit-icon.png).
+   1. Om tot de groepering van een rapport toegang te hebben, ga naar het rapport, dan klik **de Acties van het 0} Rapport** uitgeven **>** Groepen **tabel.**
+   1. Om tot het groeperen van een lijst toegang te hebben, ga naar de lijst en van het **Groeperen** drop-down menu, muis over de groepering die u wilt wijzigen en **klikken geeft** pictogram ![ pictogram uit ](assets/edit-icon.png).
 
       De groeperingsbouwer wordt geopend.
 
@@ -203,7 +195,7 @@ Voor informatie over het creëren van een rapport, zie [&#x200B; een douanerappo
      </tr> 
      <tr> 
       <td> <p><strong> valueexpression= </strong> </p> </td> 
-      <td> <p>U kunt deze regel toevoegen ter vervanging van <code>valuefield</code> als u de lijst wilt groeperen door een berekening tussen verschillende velden.</p> <p>Telkens wanneer u de objecten gebruikt in een <code>valueexpression</code> , moet u de <code>valuefield</code> van de objecten tussen accolades plaatsen.</p> <p>De volgende scenario's bestaan:</p> 
+      <td> <p>U kunt deze regel toevoegen ter vervanging van <code>valuefield</code> als u de lijst wilt groeperen door een berekening tussen verschillende velden.</p> <p>Telkens wanneer u de objecten gebruikt in een <code>valuefield</code> , moet u de <code>valueexpression</code> van de objecten tussen accolades plaatsen.</p> <p>De volgende scenario's bestaan:</p> 
        <ol> 
         <li value="1"> <p>Als u de naam van een groep in hoofdletters wilt weergeven, gebruikt u:</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b> Voorbeeld: </b></span></span><code>group.0.valueexpression=UPPER({valuefield})</code> </p> <p>De <code>valuefield</code> van het object wordt gespeld zoals deze wordt weergegeven in de API Explorer.</p> </li> 
         <li value="2">Als u veelvoudige <code>valuefields</code> wilt toevoegen door hen samen in a <code>valueexpression </code> lijn te binden, moet u hen door een periode scheiden.<p>Als u bijvoorbeeld de naam van het portfolio in hoofdletters wilt weergeven in een takenlijst, gebruikt u de volgende code op de regel <code>valueexpression</code> :</p><p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Voorbeeld: </b></span></span><code>group.0.valueexpression=UPPER({project}.{portfolio}.{name})</code></p><p>Als u een aangepast veld wilt gebruiken op een <code>valueexpression</code> -regel, moet u de naam van het veld voorafgegaan door <code>DE:</code> om aan te geven dat het een aangepast veld is. De naam van het veld wordt gespeld zoals deze wordt weergegeven in de interface.</p><p>Belangrijk: <span> wanneer u een douanegebied gebruikt dat in een sectie van de douanevorm wordt geplaatst die toestemmingen voor sommige gebruikers heeft beperkt, is de berekening van <code>valueexpression </code> leeg wanneer die gebruikers deze berekening in een rapport bekijken. Voor informatie over het aanpassen van toestemmingen op de secties van de douanevorm, zie </span> <span href="help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md"><a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md"> een douaneformulier </a></span> creëren.</p><p>Als u bijvoorbeeld een aangepast veld hebt met de naam "Naam ontwikkelaar" en u dit veld door dit veld wilt groeperen en in hoofdletters wilt weergeven, kunt u de volgende <code>valueexpression</code> gebruiken om dit aan te geven:</p><p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b> Voorbeeld: </b></span></span><code>group.0.valueexpression=UPPER({DE:Developer Name}</code>)</p><p>Wanneer u naar een aangepast Typeahead-tekstveld verwijst, gebruikt u de volgende expressie om naar de naam van het object te verwijzen dat is geselecteerd in een veld met de naam "Naam ontwikkelaar":</p><p><code>valueexpression=UPPER({DE:Developer Name:name})</code></p></li> 

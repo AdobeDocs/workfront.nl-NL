@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: fe213fe7-5bb8-479c-926b-761cbdd7ba4e
-source-git-commit: 8fe93796b2bc89352ac2c924d6a5e3bf25551ff0
+source-git-commit: 7ca27795ec115a112acb55113bfade4a5fee15ad
 workflow-type: tm+mt
-source-wordcount: '946'
+source-wordcount: '941'
 ht-degree: 0%
 
 ---
@@ -33,32 +33,32 @@ U moet het volgende hebben:
 
 <table>
   <tr>
-   <td><strong>[!DNL Adobe Workfront] plan </strong>
+   <td>Adobe Workfront-pakket
    </td>
-   <td> Prime of Ultimate (alleen nieuwe abonnementen)
+   <td> <p>Prime of Ultimate</p>
    </td>
   </tr>
   <tr>
-   <td><strong>[!DNL Adobe Workfront] licenties </strong>
+   <td><strong> de vergunningen van Workfront </strong>
    </td>
-   <td> [!UICONTROL Standard]
+   <td> <p>Standard</p>&gt;
    </td>
   </tr>
    <tr>
    <td>Configuraties op toegangsniveau
    </td>
-   <td>U moet een [!DNL Workfront] beheerder zijn.
+   <td><p>U moet een Workfront-beheerder zijn.</p>
    </td>
   </tr>
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Vereisten
 
 Er moet een milieubevorderingspakket worden gemaakt voordat het kan worden geïnstalleerd.
 
-Voor instructies, zie [&#x200B; creeer of geef een pakket van de milieubevordering &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-create-package.md) uit.
+Voor instructies, zie [ creeer of geef een pakket van de milieubevordering ](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-create-package.md) uit.
 
 ## Pakketstatus voor installatie
 
@@ -68,12 +68,12 @@ We raden u aan het pakket naar de status TESTING te verplaatsen en in een andere
 
 De status van een pakket bewerken:
 
-1. Selecteer het pakket zoals die in [&#x200B; wordt beschreven uitgeven of een bestaand pakket &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-create-package.md#create-or-edit-an-environment-promotion-package) in het artikel assembleren creeer en geef de pakketten van de milieubevordering uit.
+1. Selecteer het pakket zoals die in [ wordt beschreven uitgeven of een bestaand pakket ](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-create-package.md#create-or-edit-an-environment-promotion-package) in het artikel assembleren creeer en geef de pakketten van de milieubevordering uit.
 1. Klik **uitgeven Pakket**.
 1. Klik **Status**.
 1. Selecteer de gewenste status in de keuzelijst.
 
-Voor meer informatie over statussen, zie [&#x200B; Status van de Bevordering van het Milieu &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md#environment-promotion-statuses) in het artikelOverzicht van het bewegen van voorwerpen tussen de milieu&#39;s van Workfront.
+Voor meer informatie over statussen, zie [ Status van de Bevordering van het Milieu ](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md#environment-promotion-statuses) in het artikelOverzicht van het bewegen van voorwerpen tussen de milieu&#39;s van Workfront.
 
 ## Een pakket installeren
 
@@ -82,14 +82,14 @@ Voor meer informatie over statussen, zie [&#x200B; Status van de Bevordering van
 >* Als u een pakket wilt installeren, moet u zijn aangemeld bij de omgeving waarin u het pakket wilt installeren. Dit is het milieu dat u voorwerpen **aan** kopieert.
 
 1. Ga naar de omgeving waarin u het pakket wilt installeren.
-1. Klik het **[!UICONTROL Main Menu]** pictogram ![&#x200B; Belangrijkste Menu &#x200B;](/help/_includes/assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, of (als beschikbaar), klik het **[!UICONTROL Main Menu]** pictogram ![&#x200B; Belangrijkste Menu &#x200B;](/help/_includes/assets/main-menu-icon-left-nav.png) in de upper-left hoek, dan klik **[!UICONTROL Setup]** ![&#x200B; pictogram van de Opstelling &#x200B;](/help/_includes/assets/gear-icon-setup.png).
+1. Klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, of (als beschikbaar), klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon-left-nav.png) in de upper-left hoek, dan klik **[!UICONTROL Setup]** ![ pictogram van de Opstelling ](/help/_includes/assets/gear-icon-setup.png).
 1. Selecteer **Systeem** in de linkernavigatie, dan selecteren **Bevordering van het Milieu**.
 1. Selecteer het pakket in de weergegeven lijst.
 1. Voor elk voorwerp dat een botsing heeft, selecteer hoe te om de botsing op te lossen.
 
    Als u een botsing wilt oplossen, klikt u op de vervolgkeuzepijl naast het objecttype en selecteert u de actie die u wilt uitvoeren.
 
-   Voor meer informatie, zie [&#x200B; Toelichtingen &#x200B;](#collisions) in dit artikel
+   Voor meer informatie, zie [ Toelichtingen ](#collisions) in dit artikel
 1. Om het pakket in het nieuwe milieu op te stellen, klik **opstellen** bij het hoger-recht van het scherm.
 
 ## Botsingdetectie
@@ -112,7 +112,7 @@ Om een botsing op te lossen, selecteer een actie in de kolom van de Actie van de
 
   U kunt ook objecten kiezen die u wilt overschrijven, zelfs als er geen botsing wordt gedetecteerd.
 
-  Voor details op hoe het beschrijven ouder en kindvoorwerpen beïnvloedt, zie [&#x200B; het Schrijven ouder en kindvoorwerpen &#x200B;](#overwriting-parent-and-child-objects) in dit artikel.
+  Voor details op hoe het beschrijven ouder en kindvoorwerpen beïnvloedt, zie [ het Schrijven ouder en kindvoorwerpen ](#overwriting-parent-and-child-objects) in dit artikel.
 <!--
 * Do not use: The object in the package is not installed in the target environment. If you select Do not use, an error message will appear detailing how this choice will affect other objects or fields.
 -->

@@ -7,9 +7,9 @@ description: 'Verslag: Budgeted Hour'
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 2c0b60a6-fae4-4b29-8243-2a7f7d1f574b
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '670'
+source-wordcount: '656'
 ht-degree: 0%
 
 ---
@@ -28,32 +28,25 @@ Wanneer u de informatie van het BoedgetedUur met andere gebruikers wilt delen di
 >
 >De begrote Uren worden normaal elk uur bijgewerkt (zelden, kan het een maximum van drie uren) in het gegevensbestand van Adobe Workfront vergen. Het verfrissen van het rapport verfrist noodzakelijk niet de uurinformatie in het. U kunt de tijd bekijken die sinds de laatste update in de hoger-juiste hoek van elk Boekgeted rapport van het Uur is verlopen. Als u het rapport vernieuwt, wordt de informatie in het rapport alleen vernieuwd als er meer dan een uur is verstreken sinds de laatste update.
 >
->![&#x200B; de synchronisatiewaarschuwing van de het rapporttijd van het begrote uur tijd &#x200B;](assets/budgeted-hour-report-time-sync-warning-350x74.png)
+>![ de synchronisatiewaarschuwing van de het rapporttijd van het begrote uur tijd ](assets/budgeted-hour-report-time-sync-warning-350x74.png)
 
 ## Toegangsvereisten
 
-+++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
-
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan</td> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie*</td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
    <td> 
-    <p>Nieuw:</p>
-   <ul><li><p>Medewerker om een filter te wijzigen </p></li>
-   <li><p>Standaard voor het wijzigen van een rapport</p></li> </ul>
-
-<p>Huidige:</p>
-   <ul><li><p>Verzoek om een filter te wijzigen </p></li>
-   <li><p>Plan om een rapport te wijzigen</p></li> </ul></td> 
+   <p>Medewerker of verzoek om een filter te wijzigen </p>
+   <p>Standaard of Plan om een rapport te wijzigen</p>
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau</td> 
@@ -66,13 +59,13 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-*For informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Een rapport over een &#39;Budgeted Hour&#39; maken
 
-1. Klik het **pictogram van het 1&rbrace; Belangrijkste Menu ![&#x200B; pictogram van het Menu &#x200B;](assets/main-menu-icon.png) in de hoger-juiste hoek, of het** Belangrijkste pictogram van het Menu **pictogram ![&#x200B; Belangrijkste lijnen van het Menu &#x200B;](assets/lines-main-menu.png) in de upper-left hoek, als beschikbaar, dan klik** Rapporten **.**
+1. Klik het **pictogram van het 1} Belangrijkste Menu** pictogram van het Menu ![ in de hoger-juiste hoek, of het ](assets/main-menu-icon.png) Belangrijkste pictogram van het Menu **pictogram** Belangrijkste lijnen van het Menu ![ in de upper-left hoek, als beschikbaar, dan klik ](assets/lines-main-menu.png) Rapporten **.**
 
 1. Klik **Nieuw Rapport** > **Meer** > **Beoogde Uur**.
 
@@ -83,7 +76,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
    Hiermee wordt het aantal begrotingsuren afgerond op een aantal decimalen dat u opgeeft.
 
-   Voor informatie over hoe te om een aantal in Workfront te afronden, zie het artikel [&#x200B; Overzicht van berekende gegevensuitdrukkingen &#x200B;](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+   Voor informatie over hoe te om een aantal in Workfront te afronden, zie het artikel [ Overzicht van berekende gegevensuitdrukkingen ](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
 
 1. Klik **Gedaan**.
 1. (Facultatief) klik **Kolom** toevoegen om extra kolommen toe te voegen.

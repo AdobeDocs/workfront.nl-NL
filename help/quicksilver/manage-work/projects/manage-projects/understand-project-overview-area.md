@@ -3,14 +3,14 @@ content-type: overview
 product-area: projects
 navigation-topic: manage-projects
 title: Informatie beheren in het gebied Projectoverzicht
-description: Informatie beheren in het gebied Projectoverzicht
+description: U kunt de informatie van een project bekijken of uitgeven door tot het gebied van het Overzicht van de sectie van de Details van het Project toegang te hebben. Er is een beperkt aantal velden dat u in dit gebied kunt weergeven of bewerken.
 author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: 6113bc62-18f2-4558-bc2f-986b1e7d1a83
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
 workflow-type: tm+mt
-source-wordcount: '1453'
+source-wordcount: '1404'
 ht-degree: 0%
 
 ---
@@ -21,39 +21,68 @@ ht-degree: 0%
 <p>(NOTE: some information in here is duplicated in Edit projects. If you need to update one of the fields in this area, do it in both places.)</p>
 -->
 
-U kunt de informatie van een project bekijken of uitgeven door tot het gebied van het Overzicht van de sectie van de Details van het Project toegang te hebben. Er is een beperkt aantal velden dat u in dit gebied kunt weergeven of bewerken. Voor informatie over het uitgeven van alle informatie voor een project zie [&#x200B; projecten &#x200B;](../../../manage-work/projects/manage-projects/edit-projects.md) uitgeven.
+U kunt de informatie van een project bekijken of uitgeven door tot het gebied van het Overzicht van de sectie van de Details van het Project toegang te hebben. Er is een beperkt aantal velden dat u in dit gebied kunt weergeven of bewerken. Voor informatie over het uitgeven van alle informatie voor een project zie [ projecten ](../../../manage-work/projects/manage-projects/edit-projects.md) uitgeven.
 
 ## Toegangsvereisten
 
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-abonnement*</td> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p role="rowheader">Adobe Workfront-licentie*</p> </td> 
-   <td> <p>Controleren of hoger</p> </td> 
+   <td role="rowheader"> <p role="rowheader">Adobe Workfront-licentie</p> </td> 
+   <td><p>Licht of hoger</p> 
+   <p>Controleren of hoger</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot of hoger voor projecten weergeven </p>
-
-<p>Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan veranderen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
+   <td> <p>Toegang tot of hoger voor projecten weergeven</p>
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Toegang tot het project weergeven om beperkte informatie over het project weer te geven</p> 
-   <p>Toegang tot het project beheren om informatie over het project te bewerken</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
+   <td> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p role="rowheader">Adobe Workfront license*</p> </td> 
+   <td> <p>Review or higher</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations*</td> 
+   <td> <p>View access or higher to Projects </p>
+   
+   <p>If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>View access to the project to view limited information about the project</p> 
+   <p>Manage access to the project to edit information about the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## De sectie Overzicht openen
 
@@ -63,22 +92,22 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
    of
 
-   Klik **uitgeven** pictogram ![&#x200B; geeft pictogram &#x200B;](assets/edit-icon.png) in de hoger-juiste hoek van de sectie van Details uit, dan klik **Overzicht**. Hiermee opent u het gebied Overzicht voor bewerking.
+   Klik **uitgeven** pictogram ![ geeft pictogram ](assets/edit-icon.png) in de hoger-juiste hoek van de sectie van Details uit, dan klik **Overzicht**. Hiermee opent u het gebied Overzicht voor bewerking.
 
    >[!NOTE]
    >
-   >Afhankelijk van hoe uw beheerder van Workfront uw Malplaatje van de Lay-out vormde, zou de sectie van het Overzicht niet eerst kunnen worden vermeld, in welk geval het wordt doen ineenstorten. Voor informatie, zie [&#x200B; de mening van Details aanpassen gebruikend een lay-outmalplaatje &#x200B;](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
+   >Afhankelijk van hoe uw beheerder van Workfront uw Malplaatje van de Lay-out vormde, zou de sectie van het Overzicht niet eerst kunnen worden vermeld, in welk geval het wordt doen ineenstorten. Voor informatie, zie [ de mening van Details aanpassen gebruikend een lay-outmalplaatje ](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
 
-1. (Voorwaardelijk) als er een specifiek gebied is dat op een project moet worden bijgewerkt maar niet in deze sectie wordt getoond, klik het **Meer menu** ![&#x200B; Meer pictogram &#x200B;](assets/more-icon.png) naast de projectnaam, dan **geeft** uit om meer projectgebieden te bekijken.
+1. (Voorwaardelijk) als er een specifiek gebied is dat op een project moet worden bijgewerkt maar niet in deze sectie wordt getoond, klik het **Meer menu** ![ Meer pictogram ](assets/more-icon.png) naast de projectnaam, dan **geeft** uit om meer projectgebieden te bekijken.
 
-   Voor meer informatie over het uitgeven van projecten, zie [&#x200B; projecten &#x200B;](../../../manage-work/projects/manage-projects/edit-projects.md) uitgeven.
+   Voor meer informatie over het uitgeven van projecten, zie [ projecten ](../../../manage-work/projects/manage-projects/edit-projects.md) uitgeven.
 
 1. Bewerk of herzie de gebieden in de lijst onder die vertoning in de **sectie van het Overzicht**.\
    Als u een veld wilt bewerken dat beschikbaar is voor bewerking, klikt u op het veld of klikt u op **+ Toevoegen** om informatie toe te voegen aan een leeg veld.
 
    >[!NOTE]
    >
-   >Afhankelijk van de configuratie van uw lay-outsjabloon door uw Workfront-beheerder, worden mogelijk niet alle velden weergegeven. Voor informatie, zie [&#x200B; de mening van Details aanpassen gebruikend een lay-outmalplaatje &#x200B;](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
+   >Afhankelijk van de configuratie van uw lay-outsjabloon door uw Workfront-beheerder, worden mogelijk niet alle velden weergegeven. Voor informatie, zie [ de mening van Details aanpassen gebruikend een lay-outmalplaatje ](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
 
    <table style="table-layout:auto"> 
     <col> 
@@ -162,7 +191,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    >
    >Gebruikers moeten aan ten minste één taakrol zijn gekoppeld om deze te kunnen bekijken terwijl u ze toevoegt.
    > 
-   >De instelling Contactinfo weergeven moet zijn ingeschakeld op uw toegangsniveau zodat gebruikers de e-mails van gebruikers kunnen bekijken. Voor informatie, zie [&#x200B; toegang van de Verlening tot gebruikers &#x200B;](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
+   >De instelling Contactinfo weergeven moet zijn ingeschakeld op uw toegangsniveau zodat gebruikers de e-mails van gebruikers kunnen bekijken. Voor informatie, zie [ toegang van de Verlening tot gebruikers ](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 
 
 1. Bekijk de volgende velden in de sectie Overzicht. U kunt de volgende velden niet bewerken:
@@ -210,7 +239,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
       <td><span> de laatste dag van de eindmaand van het initiatief, wanneer het project met een initiatief verbonden is. </span> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">{de Rollen van de Baan van 0} Initiatief in FTEs en Uren </span><span> </td> 
+      <td role="rowheader">{de Rollen van de Baan van 0} Initiatief in FTEs en Uren <span></span> </td> 
       <td> <p>Informatie over de bijbehorende functies en de tijdstoewijzingen voor het initiatief. Dit omvat:</p> 
        <ul> 
         <li>Functienaam</li> 
@@ -221,6 +250,6 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
     </tbody> 
    </table>
 
-   Voor informatie over het verbinden van projecten met initiatieven, zie [&#x200B; Update of creeer projecten door initiatieven in de Planner van het Scenario te publiceren &#x200B;](../../../scenario-planner/publish-scenarios-update-projects.md).
+   Voor informatie over het verbinden van projecten met initiatieven, zie [ Update of creeer projecten door initiatieven in de Planner van het Scenario te publiceren ](../../../scenario-planner/publish-scenarios-update-projects.md).
 
 1. Klik **sparen Veranderingen**.

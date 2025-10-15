@@ -6,9 +6,9 @@ description: U kunt middelen of een omslag van Experience Manager Assets of de H
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: dbd19985-88b1-48ca-9cba-b7933ff2c191
-source-git-commit: 85a2f154b3b561cdf53c68d50e66b8945f9f9823
+source-git-commit: 430751f0e38c6c45145c965398990ee3652f36fe
 workflow-type: tm+mt
-source-wordcount: '690'
+source-wordcount: '639'
 ht-degree: 0%
 
 ---
@@ -23,22 +23,22 @@ Metagegevensvelden worden eerst toegewezen wanneer u een element verzendt van Wo
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
-U moet het volgende hebben:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-abonnement*</td> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
    <td> <p> Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licenties*</td> 
-   <td> <p>Aanvraag of hoger</p> </td> 
+   <td role="rowheader">Adobe Workfront-licenties</td> 
+   <td> 
+   <p>Medewerker of hoger</p> 
+   <p>Aanvraag of hoger</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Product</td> 
+   <td role="rowheader">Aanvullende producten</td> 
    <td>U moet Experience Manager as a Cloud Service of Assets Essentials hebben en u moet als gebruiker aan het product worden toegevoegd in de Admin Console.</td> 
   </tr> 
    <tr> 
@@ -46,17 +46,17 @@ U moet het volgende hebben:
     <td>U moet schrijftoegang tot de map hebben.</td> 
    </tr>
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot documenten bewerken</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
+   <td> <p>Toegang tot documenten bewerken</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Toegang weergeven of hoger</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
+   <td> <p>Toegang weergeven of hoger</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -64,13 +64,13 @@ U moet het volgende hebben:
 
 Voordat u begint,
 
-* Uw Workfront-beheerder moet een Experience Manager-integratie configureren. Voor meer informatie, zie [&#x200B; de integratie van Experience Manager Assets as a Cloud Service &#x200B;](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md) vormen of [&#x200B; vormen de integratie van de Hoofdzaak van Experience Manager Assets &#x200B;](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
+* Uw Workfront-beheerder moet een Experience Manager-integratie configureren. Voor meer informatie, zie [ de integratie van Experience Manager Assets as a Cloud Service ](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md) vormen of [ vormen de integratie van de Hoofdzaak van Experience Manager Assets ](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
 
 ## Middelen van Experience Manager Assets of Elementen koppelen
 
 U kunt middelen van Experience Manager Assets of Elementen aan Workfront koppelen. Als het element eenmaal is gekoppeld, kunt u
 
-* [&#x200B; Bewijs van een verbonden activa voor Experience Manager Assets of de Hoofdzaak van Activa &#x200B;](../../documents/adobe-workfront-for-experience-manager-assets-essentials/proof-linked-asset-aem.md)
+* [ Bewijs van een verbonden activa voor Experience Manager Assets of de Hoofdzaak van Activa ](../../documents/adobe-workfront-for-experience-manager-assets-essentials/proof-linked-asset-aem.md)
 * [Een nieuwe versie van een document uploaden](../../documents/managing-documents/upload-new-document-version.md)
 
 1. Ga naar het **gebied van Documenten** in Workfront waar u het document wilt toevoegen.
@@ -82,7 +82,7 @@ U kunt middelen van Experience Manager Assets of Elementen aan Workfront koppele
 
 1. Selecteer de gewenste elementen.
 
-   ![&#x200B; Uitgezocht een activa &#x200B;](assets/select-an-asset.png)
+   ![ Uitgezocht een activa ](assets/select-an-asset.png)
 
 1. Klik **Uitgezocht**.
 
@@ -99,7 +99,7 @@ Machtigingen om afzonderlijke elementen in een map weer te geven, zijn afhankeli
 
 1. Selecteer de gewenste mappen.
 
-   ![&#x200B; selecteer een omslag &#x200B;](assets/select-a-folder.png)
+   ![ selecteer een omslag ](assets/select-a-folder.png)
 
 1. Klik **Uitgezocht**.
 
@@ -119,7 +119,7 @@ Een nieuwe versie koppelen van Elementen:
 
 1. Selecteer het gewenste element.
 
-   ![&#x200B; Uitgezocht een activa &#x200B;](assets/select-an-asset.png)
+   ![ Uitgezocht een activa ](assets/select-an-asset.png)
 
 1. Klik **Uitgezocht**.
 

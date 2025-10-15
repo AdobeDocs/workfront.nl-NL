@@ -1,14 +1,14 @@
 ---
 product-area: enterprise-scenario-planner-product-area
 navigation-topic: enterprise-scenario-planner-navigation-topic
-title: Roltoewijzing voor projecten en initiatieven weergeven in Workload Balancer
+title: Roltoewijzing voor projecten en initiatieven weergeven in werklastbalans
 description: Nadat u projecten en initiatieven verbindt, kunt u hun middeltoewijzing naast elkaar beheren om ervoor te zorgen zij
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: cdc3a1b0-7021-4853-9b51-c3682fd55430
-source-git-commit: 7cfe82eb703e2a043c264cf86c0e5424d1e33d78
+source-git-commit: aa2e9a012a60ab10e2d027dedae520b5e06686c7
 workflow-type: tm+mt
-source-wordcount: '757'
+source-wordcount: '741'
 ht-degree: 0%
 
 ---
@@ -21,11 +21,47 @@ Nadat u projecten en initiatieven verbindt, kunt u hun middeltoewijzing naast el
 
 In dit artikel wordt beschreven hoe u bronnen kunt combineren met het deelvenster [!UICONTROL Role Allocation] in [!UICONTROL Workload Balancer] van een project.
 
-Voor algemene informatie over het verzoenen van middelen tussen projecten en initiatieven, met inbegrip van eerste vereisten, zie [&#x200B; Overzicht van het verzoenen van middeltoewijzingen tussen projecten en initiatieven &#x200B;](../scenario-planner/overview-reconcile-allocations-between-projects-initiatives.md).
+Voor algemene informatie over het verzoenen van middelen tussen projecten en initiatieven, met inbegrip van eerste vereisten, zie [ Overzicht van het verzoenen van middeltoewijzingen tussen projecten en initiatieven ](../scenario-planner/overview-reconcile-allocations-between-projects-initiatives.md).
 
 ## Toegangsvereisten
 
-+++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven. 
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td> <p>[!DNL Adobe Workfront] package</p> </td> 
+   <td> 
+   <p>Workfront Ultimate</p>
+<p><b>OPMERKING</b></p>
+<p>Neem contact op met uw Workfront-vertegenwoordiger als u een ander Workfront-pakket hebt.</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td> <p>[!DNL Adobe Workfront] licentie</p> </td> 
+   <td> <p>[!UICONTROL Light] of hoger</p> 
+   <p>[!UICONTROL Review] of hoger</p> </td> 
+  </tr> 
+    <tr> 
+   <td>Configuraties op toegangsniveau</td> 
+   <td> <p>De mening of hogere toegang tot Projecten.</p></td> 
+  </tr> 
+  <tr> 
+   <td> <p>Objectmachtigingen </p> </td> 
+   <td> <p> Weergave of hogere machtigingen voor een project.</p></td> 
+  </tr> 
+ </tbody> 
+</table>
+
+Voor meer informatie over toegang tot de Planner van het Scenario, zie [ Toegang nodig om  [!DNL Scenario Planner]](../scenario-planner/access-needed-to-use-sp.md) te gebruiken.
+
+Voor informatie over de toegangsvereisten van Workfront, zie [ vereisten van de Toegang tot de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
+<!--Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -34,38 +70,34 @@ Voor algemene informatie over het verzoenen van middelen tussen projecten en ini
   <tr> 
    <td> <p>[!DNL Adobe Workfront] plan*</p> </td> 
    <td> <ul></li>
-   <li><p>Nieuw: Ultimate </p></li>
-   <p>De Scenario Planner is niet beschikbaar voor de nieuwe Workfront Select- of Workfront Prime-plannen. </p>
-   <li><p>Huidig: [!UICONTROL Business] of hoger</p></ul>
+   <li><p>New: Ultimate </p></li>
+   <p>The Scenario Planner is not available for the new Workfront Select or Workfront Prime plans. </p>
+   <li><p>Current: [!UICONTROL Business] or higher</p></ul>
    </td> 
   </tr> 
   <tr> 
-   <td> <p>[!DNL Adobe Workfront] licentie*</p> </td> 
-   <td> <p>Nieuw: Licht of hoger</p> 
-   <p>Huidig: [!UICONTROL Review] of hoger</p> </td> 
+   <td> <p>[!DNL Adobe Workfront] license*</p> </td> 
+   <td> <p>New: Light or higher</p> 
+   <p>Current: [!UICONTROL Review] or higher</p> </td> 
   </tr> 
   <tr> 
    <td>Product* </td> 
-   <td> <ul><li><p>Voor de nieuwe plannen van Workfront:</p><p> Adobe Workfront</li></p>
-   <li><p>Voor de huidige plannen van Workfront: </p>
+   <td> <ul><li><p>For the new Workfront plans:</p><p> Adobe Workfront</li></p>
+   <li><p>For the current Workfront plans: </p>
    <p>Adobe Workfront</p> <p>Adobe Workfront Scenario Planner</p></li></ul>
-
-<p>Voor meer informatie, zie <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref"> Toegang nodig om [!DNL Scenario Planner]</a> te gebruiken. </p> </td> 
+   
+   <p>For more information, see <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Access needed to use the [!DNL Scenario Planner]</a>. </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>Toegangsniveau </td> 
-   <td> <p>De mening of hogere toegang tot Projecten.</p> </td> 
+   <td>Access level </td> 
+   <td> <p>View or higher access to Projects.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p>Objectmachtigingen </p> </td> 
-   <td> <p> Weergave of hogere machtigingen voor een project.</p> </td> 
+   <td> <p>Object permissions </p> </td> 
+   <td> <p> View or higher permission to a project.</p> </td> 
   </tr> 
  </tbody> 
-</table>
-
-*For informatie, zie [&#x200B; vereisten van de Toegang tot de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
-
-+++
+</table>-->
 
 ## Roltoewijzing voor projecten en initiatieven weergeven in het dialoogvenster [!UICONTROL Workload Balancer]
 
@@ -73,8 +105,8 @@ Als uw bedrijf een [!DNL Workfront Scenario Planner] -licentie heeft aangeschaft
 
 1. (Voorwaardelijk) Verbind een project met een initiatief gebruikend één van de methodes die in de volgende artikelen worden beschreven:
 
-   * [&#x200B; de projecten van de Invoer aan plannen in  [!DNL Adobe Workfront Scenario Planner]](import-projects-to-plans.md).
-   * [&#x200B; werk of creeer projecten door initiatieven in  [!DNL Adobe Workfront Scenario Planner]](publish-scenarios-update-projects.md) te publiceren bij.
+   * [ de projecten van de Invoer aan plannen in  [!DNL Adobe Workfront Scenario Planner]](import-projects-to-plans.md).
+   * [ werk of creeer projecten door initiatieven in  [!DNL Adobe Workfront Scenario Planner]](publish-scenarios-update-projects.md) te publiceren bij.
 
    >[!IMPORTANT]
    >
@@ -87,12 +119,12 @@ Als uw bedrijf een [!DNL Workfront Scenario Planner] -licentie heeft aangeschaft
 
 1. Voer een van de volgende handelingen uit:
 
-   * Klik **[!UICONTROL Month]** om de Balancer van de Werkbelasting door maand te bekijken, klik het drop-down menu naast een maand in de chronologie ![&#x200B; Dropdown naast maand &#x200B;](assets/drop-down-next-to-month-month-view-wb.png), dan klik **[!UICONTROL More]**.
-   * Klik het **[!UICONTROL Show role allocation]** pictogram ![&#x200B; tonen roltoewijzing &#x200B;](assets/show-role-allocation-icon.png) in de hoger-juiste hoek van de toolbar.
+   * Klik **[!UICONTROL Month]** om de Balancer van de Werkbelasting door maand te bekijken, klik het drop-down menu naast een maand in de chronologie ![ Dropdown naast maand ](assets/drop-down-next-to-month-month-view-wb.png), dan klik **[!UICONTROL More]**.
+   * Klik het **[!UICONTROL Show role allocation]** pictogram ![ tonen roltoewijzing ](assets/show-role-allocation-icon.png) in de hoger-juiste hoek van de toolbar.
 
    Het deelvenster [!UICONTROL Role Allocation] wordt weergegeven.
 
-   ![&#x200B; het toewijzingspaneel van de Rol &#x200B;](assets/role-allocation-panel-months-collapsed-350x319.png)
+   ![ het toewijzingspaneel van de Rol ](assets/role-allocation-panel-months-collapsed-350x319.png)
 
    >[!CAUTION]
    >
@@ -147,14 +179,14 @@ Als uw bedrijf een [!DNL Workfront Scenario Planner] -licentie heeft aangeschaft
 
    * Verlaag het aantal Geplande Uren voor één baanrol die overtoegewezen toont of meer middelen aan de taken toevoegt en meer Geplande Uren aan de nieuwe middelen verdeelt. U kunt toewijzingen of het aantal geplande uren voor taken of problemen bijwerken wanneer u deze bewerkt. Zie de volgende artikelen voor meer informatie:
 
-      * [&#x200B; geef taken &#x200B;](../manage-work/tasks/manage-tasks/edit-tasks.md) uit
+      * [ geef taken ](../manage-work/tasks/manage-tasks/edit-tasks.md) uit
       * [Problemen bewerken](../manage-work/issues/manage-issues/edit-issues.md)
 
      >[!NOTE]
      >
      >U moet over aanvullende toegang en machtigingen beschikken om taken en problemen te kunnen bewerken.
 
-   * Verhoog het aantal vereiste uren voor de rol die de overtoewijzing op het initiatief toont. Voor meer informatie, zie [&#x200B; initiatieven in  [!DNL Adobe Workfront Scenario Planner]](create-and-edit-initiatives.md) creëren en uitgeven.
+   * Verhoog het aantal vereiste uren voor de rol die de overtoewijzing op het initiatief toont. Voor meer informatie, zie [ initiatieven in  [!DNL Adobe Workfront Scenario Planner]](create-and-edit-initiatives.md) creëren en uitgeven.
 
      >[!NOTE]
      >
@@ -162,7 +194,7 @@ Als uw bedrijf een [!DNL Workfront Scenario Planner] -licentie heeft aangeschaft
 
 1. (Optioneel) Klik op het vervolgkeuzepictogram om een van de maanden in het deelvenster [!UICONTROL Role Allocation] of in de tijdlijn van [!UICONTROL Workload Balancer] uit te vouwen.
 
-   ![&#x200B; breid maand in het deelvenster Roltoewijzing uit &#x200B;](assets/month-expanded-highlighted-role-allocation-panel-wb-350x145.png)
+   ![ breid maand in het deelvenster Roltoewijzing uit ](assets/month-expanded-highlighted-role-allocation-panel-wb-350x145.png)
 
    Voor elke maand wordt hetzelfde type informatie weergegeven in het gebied [!UICONTROL Project Totals] .
 

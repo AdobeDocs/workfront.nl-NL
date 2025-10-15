@@ -6,9 +6,9 @@ description: In Adobe Workfront kunnen taken bovenliggende en onderliggende rela
 author: Alina
 feature: Work Management
 exl-id: 3d970794-b5ea-422f-bc92-51846cb7db35
-source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
+source-git-commit: c1b8af0d8a95714bb597db7a429794773358cf05
 workflow-type: tm+mt
-source-wordcount: '566'
+source-wordcount: '542'
 ht-degree: 0%
 
 ---
@@ -23,36 +23,62 @@ In Adobe Workfront kunnen taken bovenliggende en onderliggende relaties hebben. 
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
+   <td> <p>Alle</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td> <p>Standard</p> 
+   <p>Werk of hoger</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
+   <td> <p>Toegang tot taken en projecten bewerken</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Objectmachtigingen</td> 
+   <td> <p>Contribute-machtigingen voor het project met de mogelijkheid om taken of hoger toe te voegen</p> 
+   <p>Als u een taak maakt, ontvangt u automatisch beheermachtigingen voor de taak</p> 
+    </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
+<!--Old:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan</td> 
-   <td> <p>Alle</p> </td> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td role="rowheader">Adobe Workfront license</td> 
    <td> 
-   <p>Nieuw: Standaard</p>
-   <p>Huidig: Werk of hoger</p> </td> 
+   <p>New: Standard</p>
+   <p>Current: Work or higher</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot taken en projecten bewerken</p>  </td> 
+   <td role="rowheader">Access level configurations*</td> 
+   <td> <p>Edit access to Tasks and Projects</p>  </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Contribute-machtigingen voor het project en de bovenliggende taak met de mogelijkheid om taken of hoger toe te voegen</p> <p>Nadat u de taak hebt gemaakt, ontvangt u automatisch beheermachtigingen voor de taak.</p>  </td> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>Contribute permissions to the project and the parent task with ability to Add Tasks or higher</p> <p>You automatically receive Manage permissions to the task after you create it.</p>  </td> 
   </tr> 
  </tbody> 
-</table>
-
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
-
-+++
+</table>-->
 
 ## Subtaken maken
 
@@ -90,7 +116,7 @@ U kunt subtaken maken in de takenlijst of de taaksubtaaksectie.
 1. Klik **subtasks** sectie in het linkerpaneel, als heden.
 1. Klik **Nieuwe Taak.**
 
-   Volg de stappen in het volgende artikel blijven creërend subtask: [&#x200B; creeer taken in een project &#x200B;](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md).
+   Volg de stappen in het volgende artikel blijven creërend subtask: [ creeer taken in een project ](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md).
 
 1. Klik **creëren taak.**
 

@@ -8,9 +8,9 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: 5d17322b-e517-4475-aa77-faaeb4677152
-source-git-commit: 0da724e975cfb1f0f7e36cffdc545c6223a14a76
+source-git-commit: 0542587bb3254dec5664de493c1c321528cf7f3e
 workflow-type: tm+mt
-source-wordcount: '222'
+source-wordcount: '224'
 ht-degree: 0%
 
 ---
@@ -27,10 +27,10 @@ Daarnaast kunt u de Gantt-grafiek gebruiken om een tijdlijn van uw werk te defin
 
 Deze sectie bevat de volgende subsecties:
 
-* [&#x200B; Projecten: artikelindex &#x200B;](../manage-work/projects/projects-overview.md)
-* [&#x200B; Taken: artikelindex &#x200B;](../manage-work/tasks/tasks-overview.md)
-* [&#x200B; Kwesties &#x200B;](../manage-work/issues/issues-overview.md)
-* [&#x200B; de Grafiek van Gantt &#x200B;](../manage-work/gantt-chart/the-gantt-chart.md)
-* [&#x200B; Beheer van het Portfolio &#x200B;](../manage-work/portfolios/portfolio-management-overview.md)
+* [ Projecten: artikelindex ](../manage-work/projects/projects-overview.md)
+* [ Taken: artikelindex ](../manage-work/tasks/tasks-overview.md)
+* [ Kwesties: artikelindex ](../manage-work/issues/issues-overview.md)
+* [ de Grafiek van Gantt ](../manage-work/gantt-chart/the-gantt-chart.md)
+* [ het Beheer van Portfolio ](../manage-work/portfolios/portfolio-management-overview.md)
 * [Verzoeken](../manage-work/requests/requests-overview.md)
 * [Werk delegeren](../manage-work/delegate-work/delegate-work.md)

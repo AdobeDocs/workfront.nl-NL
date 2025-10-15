@@ -9,9 +9,9 @@ author: Nolan
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: cd09e78c-bd2a-4712-9c35-8acbf1a3729d
-source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
+source-git-commit: 711812d9fd4bf48bb7612c0339cee2cdbe08ef10
 workflow-type: tm+mt
-source-wordcount: '194'
+source-wordcount: '148'
 ht-degree: 0%
 
 ---
@@ -24,26 +24,26 @@ U kunt de toegang tot de mobiele app van [!DNL Adobe Workfront] in- of uitschake
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
-   <td>Alle</td> 
+   <td role="rowheader">Workfront-pakket</td> 
+   <td><p>Alle</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licentie</td> 
-   <td>[!UICONTROL Plan]</td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td><p>Standard</p> <p>Plan</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau</td> 
-   <td> <p>U moet een [!DNL Workfront] beheerder zijn. Voor meer informatie, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref"> een gebruiker volledige administratieve toegang verlenen </a>.</p> <p><b> NOTA </b>: Als u nog geen toegang hebt, vraag uw [!DNL Workfront] beheerder als zij extra beperkingen in uw toegangsniveau plaatsen. Voor informatie over hoe een [!DNL Workfront] beheerder uw toegangsniveau kan wijzigen, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
+   <td>U moet een Workfront-beheerder zijn. </td> 
   </tr> 
  </tbody> 
 </table>
+
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -60,6 +60,6 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 1. Klik op **[!UICONTROL Save].**
 
-Voor informatie over hoe te om [!DNL Workfront] mobiele app te gebruiken nadat het voor de plaats wordt toegelaten, zie [&#x200B; Gebruik  [!DNL Adobe Workfront]  mobiele app &#x200B;](../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/use-the-mobile-app.md).
+Voor informatie over hoe te om [!DNL Workfront] mobiele app te gebruiken nadat het voor de plaats wordt toegelaten, zie [ Gebruik  [!DNL Adobe Workfront]  mobiele app ](../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/use-the-mobile-app.md).
 
-Voor informatie over hoe te om [!DNL Workfront for Outlook] te gebruiken, zie [&#x200B; Gebruikend  [!DNL Workfront with Outlook]](../../workfront-integrations-and-apps/using-workfront-with-outlook/workfront-for-outlook.md) sectie.
+Voor informatie over hoe te om [!DNL Workfront for Outlook] te gebruiken, zie [ Gebruikend  [!DNL Workfront with Outlook]](../../workfront-integrations-and-apps/using-workfront-with-outlook/workfront-for-outlook.md) sectie.

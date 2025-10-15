@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: e9b61da8-2eca-4d88-969b-ae337e402540
-source-git-commit: 80bdc2f2c1bedbc5a894b5a474425c5544c039fd
+source-git-commit: 76e32fa6b87583d2b8c296045da731afdb6d1f9a
 workflow-type: tm+mt
-source-wordcount: '784'
+source-wordcount: '768'
 ht-degree: 0%
 
 ---
@@ -19,68 +19,66 @@ ht-degree: 0%
 
 Als Adobe Workfront-beheerder kunt u een lay-outsjabloon gebruiken om op te geven welke lijstbesturingselementen worden weergegeven in de vervolgkeuzemenu&#39;s Filter, Weergave en Groeperen. Deze menu&#39;s worden boven op lijsten in Workfront weergegeven, zoals de lijst met taken voor een project:
 
-![&#x200B; de mening die van de Filter lay-outmalplaatjes groeperen &#x200B;](assets/filter-view-grouping-layout-templates.png)
+![ de mening die van de Filter lay-outmalplaatjes groeperen ](assets/filter-view-grouping-layout-templates.png)
 
-Voor meer informatie over lay-outmalplaatjes, zie [&#x200B; lay-outmalplaatjes &#x200B;](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md) creëren en beheren.
+Voor meer informatie over lay-outmalplaatjes, zie [ lay-outmalplaatjes ](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md) creëren en beheren.
 
-Voor informatie over lay-outmalplaatjes voor groepen, zie [&#x200B; tot stand brengen en wijzigen de lay-outmalplaatjes van een groep &#x200B;](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
+Voor informatie over lay-outmalplaatjes voor groepen, zie [ tot stand brengen en wijzigen de lay-outmalplaatjes van een groep ](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
 
-Nadat u een lay-outmalplaatje hebt gevormd, moet u het aan gebruikers voor veranderingen toewijzen u aanbracht om aan anderen zichtbaar te zijn. Voor informatie over het toewijzen van een lay-outmalplaatje aan gebruikers, zie [&#x200B; gebruikers aan een lay-outmalplaatje &#x200B;](../use-layout-templates/assign-users-to-layout-template.md) toewijzen.
+Nadat u een lay-outmalplaatje hebt gevormd, moet u het aan gebruikers voor veranderingen toewijzen u aanbracht om aan anderen zichtbaar te zijn. Voor informatie over het toewijzen van een lay-outmalplaatje aan gebruikers, zie [ gebruikers aan een lay-outmalplaatje ](../use-layout-templates/assign-users-to-layout-template.md) toewijzen.
 
 ## Toegangsvereisten
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
-
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan</td> 
-   <td>Alle</td> 
+   <td>Adobe Workfront-pakket</td> 
+   <td><p>Alle</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td><p>Nieuw: Standaard</p>
-  <p> Huidig: Plan</p>
-   </td> 
+   <td>Adobe Workfront-licentie</td> 
+   <td><p>Standard</p>
+       <p>Plan</p></td>
+  </tr> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau</td> 
-   <td> <p>Om deze stappen op systeemniveau uit te voeren, hebt u het toegangsniveau van de Beheerder van het Systeem nodig.
-Om hen voor een groep uit te voeren, moet u een manager van die groep zijn.</p> </td> 
+   <td>Configuraties op toegangsniveau</td> 
+   <td> <p>Om deze stappen op systeemniveau uit te voeren, hebt u het toegangsniveau van de Beheerder van het Systeem nodig.</p>
+        <p>Om hen voor een groep uit te voeren, moet u een manager van die groep zijn.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Voor meer informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Besturingselementen voor filters, weergave en groeperingslijsten aanpassen:
+## Besturingselementen voor filters-, weergave- en groeperingslijsten aanpassen
 
-1. Begin werkend aan een lay-outmalplaatje, zoals die in [&#x200B; wordt beschreven creeer en beheer lay-outmalplaatjes &#x200B;](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
-1. Klik de benedenpijl ![&#x200B; benedenpijl &#x200B;](assets/down-arrow-blue.png) onder **aanpassen welke gebruikers** zien, dan klik **Lijsten** in het drop-down menu dat toont.
+1. Begin werkend aan een lay-outmalplaatje, zoals die in [ wordt beschreven creeer en beheer lay-outmalplaatjes ](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
+1. Klik de benedenpijl ![ benedenpijl ](assets/down-arrow-blue.png) onder **aanpassen welke gebruikers** zien, dan klik **Lijsten** in het drop-down menu dat toont.
 
-   ![&#x200B; pas aan wat de gebruikers &#x200B;](assets/customize-what-users-see-dropdown-on-pg-adobe-branding.png) zien
+   ![ pas aan wat de gebruikers ](assets/customize-what-users-see-dropdown-on-pg-adobe-branding.png) zien
 
-1. Klik de benedenpijl ![&#x200B; benedenpijl &#x200B;](assets/down-arrow-blue.png) onder **selecteer een lijst om** aan te passen, dan selecteer het type van voorwerp van Workfront waarvoor u de Filter, de Mening, en de de lijstcontroles van de Groepering wilt aanpassen.
+1. Klik de benedenpijl ![ benedenpijl ](assets/down-arrow-blue.png) onder **selecteer een lijst om** aan te passen, dan selecteer het type van voorwerp van Workfront waarvoor u de Filter, de Mening, en de de lijstcontroles van de Groepering wilt aanpassen.
 
-   ![&#x200B; selecteer een lijst om &#x200B;](assets/select-a-list-to-customize-menu-on-pg-adobe-branding.png) aan te passen
+   ![ selecteer een lijst om ](assets/select-a-list-to-customize-menu-on-pg-adobe-branding.png) aan te passen
 
    >[!NOTE]
    >
    >Als u Projecten als lijst selecteert om aan te passen, dan Projecten onbruikbaar te maken ik of Projecten in de sectie van de Filter ben, zullen de gebruikers niet meer zien of die filter kunnen gebruiken:
    >
-   >* In de lijst van filters die toont wanneer zij het pictogram van de filter ![&#x200B; Filter &#x200B;](assets/filter-nwepng.png) boven een lijst klikken:
+   >* In de lijst van filters die toont wanneer zij het pictogram van de filter ![ Filter ](assets/filter-nwepng.png) boven een lijst klikken:
    >   
-   >  ![&#x200B; maak filters &#x200B;](assets/disable-filters-projects-im-on-or-own.png) onbruikbaar
+   >  ![ maak filters ](assets/disable-filters-projects-im-on-or-own.png) onbruikbaar
    >   
    >* In de koptekst van het gebied Projecten:
    >   
-   >  ![&#x200B; maak filterknoop &#x200B;](assets/disable-filter-pills.png) onbruikbaar
+   >  ![ maak filterknoop ](assets/disable-filter-pills.png) onbruikbaar
 
 1. (Facultatief) als u de standaardfilter, mening, of groepering voor het lay-outmalplaatje wilt veranderen, over de filter, de mening, of het groeperen, dan klik **Reeks als gebrek**.
 
@@ -94,7 +92,7 @@ Om hen voor een groep uit te voeren, moet u een manager van die groep zijn.</p> 
 
    U kunt elke andere optie verwijderen die als standaard wordt gebruikt, maar u moet eerst een andere standaardinstelling selecteren.
 
-   Voor informatie over het schrappen van filters, meningen, en groeperingen, zie [&#x200B; creeren, uitgeven, en aandeel standaardfilters, meningen, en groeperingen &#x200B;](../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-and-share-default-fvgs.md).
+   Voor informatie over het schrappen van filters, meningen, en groeperingen, zie [ creeren, uitgeven, en aandeel standaardfilters, meningen, en groeperingen ](../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-and-share-default-fvgs.md).
 
 1. Besturingselementen voor lijsten verbergen en toevoegen:
 

@@ -6,9 +6,9 @@ description: U kunt [!UICONTROL Portfolio Optimizer] gebruiken om aan uw project
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 25debc5b-5d7d-453f-ab0a-9bf3fba05693
-source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
+source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
 workflow-type: tm+mt
-source-wordcount: '433'
+source-wordcount: '407'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ U kunt [!UICONTROL Portfolio Optimizer] gebruiken om aan uw projecten voorrang t
 
 ## Toegangsvereisten
 
-+++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven. 
 
 U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
@@ -28,30 +28,57 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
-   <td> Alle</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] package</td> 
+   <td> <p>Workfront Prime of hoger</p>
+      <p>Workflow Prime of hoger</p>
+    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licenties*</td> 
-   <td> <p>Nieuw: [!UICONTROL Standard] </p>
-   <p>Huidig: [!UICONTROL Plan] </p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licentie</td> 
+   <td> <p>[!UICONTROL Standard]</p>
+   <p>[!UICONTROL Plan]</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>[!UICONTROL Edit] toegang tot projecten en portfolio's</p> </td> 
-  </tr> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
+   <td> <p>[!UICONTROL Edit] toegang tot [!UICONTROL Portfolios] en [!UICONTROL Projects]</p>  </td>
+</tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>[!UICONTROL Manage] machtigingen voor het portfolio</p> <p>Contribute of hoger machtigingen voor de projecten</p> 
-   <p>U moet hebben leiden toestemmingen aan alle projecten in de lijst om <b> te kunnen gebruiken Vastgestelde projectprioriteit </b>.</p>
-    </td> 
+   <td> <p>[!UICONTROL Manage] machtigingen voor het portfolio</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-*For informatie, zie [&#x200B; vereisten van de Toegang voor de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*For informatie, zie [ vereisten van de Toegang voor de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+<!--Old
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td> Any</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront licenses*</td> 
+   <td> <p>New: [!UICONTROL Standard] </p>
+   <p>Current: [!UICONTROL Plan] </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations*</td> 
+   <td> <p>[!UICONTROL Edit] access to Projects and Portfolios</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>[!UICONTROL Manage] permissions to the portfolio</p> <p>Contribute or higher permissions to the projects</p> 
+   <p>You must have Manage permissions to all the projects in the list to be able to use <b>Set project priority</b>.</p>
+    </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## Projecten optimaliseren in Portfolio Optimizer
 
@@ -61,7 +88,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 1. Klik op het pictogram **[!UICONTROL Optimize]** .
 
-   ![&#x200B; optimaliseer pictogram &#x200B;](assets/optimize-icon-portfolio-optimizer.png)
+   ![ optimaliseer pictogram ](assets/optimize-icon-portfolio-optimizer.png)
 
    De categorieën waarmee een project kan worden gescoord, worden links van het pictogram [!UICONTROL Optimize] weergegeven.
 
@@ -77,7 +104,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
    Hiermee werkt u de [!UICONTROL Score] -waarden bij voor elk project in de kolom **[!UICONTROL Score]** .
 
-   Voor informatie over de [!UICONTROL Portfolio Optimizer] Score, zie [&#x200B; Overzicht van de [!UICONTROL Portfolio Optimizer] Score &#x200B;](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-score.md).
+   Voor informatie over de [!UICONTROL Portfolio Optimizer] Score, zie [ Overzicht van de [!UICONTROL Portfolio Optimizer] Score ](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-score.md).
 
 1. Nadat de juiste gewichten voor de kolom **[!UICONTROL Score]** zijn ingesteld, klikt u op de kop van de kolom **[!UICONTROL Score]** om op deze kolom te sorteren. Het project met de hoogste score wordt getoond bij de bovenkant van de lijst.
 
@@ -89,6 +116,6 @@ Hierdoor verandert de volgorde van de projecten in de [!UICONTROL Portfolio Opti
    >
    >   U moet hebben leiden toestemmingen aan alle projecten in de lijst om **te kunnen gebruiken Vastgestelde projectprioriteit**.
 
-   Voor meer informatie over het prioriteren van projecten in [!UICONTROL Portfolio Optimizer], zie het artikel [&#x200B; projecten van Prioriteit in [!UICONTROL Portfolio Optimizer]](../../../manage-work/portfolios/portfolio-optimizer/prioritize-projects-in-portfolio-optimizer.md).
+   Voor meer informatie over het prioriteren van projecten in [!UICONTROL Portfolio Optimizer], zie het artikel [ projecten van Prioriteit in [!UICONTROL Portfolio Optimizer]](../../../manage-work/portfolios/portfolio-optimizer/prioritize-projects-in-portfolio-optimizer.md).
 
 1. Klik op **[!UICONTROL Save]** om de [!UICONTROL Portfolio Optimizer] op te slaan.

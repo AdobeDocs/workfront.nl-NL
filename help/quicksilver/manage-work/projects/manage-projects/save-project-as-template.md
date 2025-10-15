@@ -2,13 +2,13 @@
 product-area: projects;templates
 navigation-topic: manage-projects
 title: Een project opslaan als een sjabloon
-description: Sparen een project als malplaatje op het projectniveau, zodat zien de gebruikers dat in UI; er is een ander artikel dat dit verbindt aan welke meer diepgaand (geleidelijke) is. Deze functionaliteit moet in zowel projecten als malplaatjegebieden blijven.)
+description: Sparen een project als templateSave als malplaatje"op het projectniveau, zodat zien de gebruikers dat in UI; er is een ander artikel dat dit verbindingen aan die diepgaander (geleidelijke) is.
 author: Alina
 feature: Work Management
 exl-id: 4b5dfe12-f984-47c6-8e19-78b549f19159
-source-git-commit: 13621c29f32a514af46489fb58397f3e96f640ce
+source-git-commit: 00e693fc8b35a59f6ed212bc30da7f85cc78c845
 workflow-type: tm+mt
-source-wordcount: '487'
+source-wordcount: '475'
 ht-degree: 0%
 
 ---
@@ -42,14 +42,13 @@ Als u besluit dat een project ergens in de toekomst opnieuw zal voorkomen, kunt 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan</td> 
-   <td> <p>Alle </p> </td> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Nieuw: Standaard </p>
-   of 
-   <p>Huidig: Plan </p> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td> <p>Standard</p>
+   <p>Plan</p> 
    </td> 
   </tr> 
   <tr> 
@@ -63,9 +62,37 @@ Als u besluit dat een project ergens in de toekomst opnieuw zal voorkomen, kunt 
  </tbody> 
 </table>
 
-*For informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td> <p>Any </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>New: Standard </p>
+   Or 
+   <p>Current: Plan </p> 
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>Edit access to Templates</p> /td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>View or higher permissions to a project </p> <p>You obtain Manage permissions to the template after you save the project as a template</p> </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## Een project opslaan als een sjabloon
 
@@ -132,7 +159,7 @@ Saving a project as a template differs in the Production and the Preview environ
 -->
 
 1. Ga naar het project dat u als malplaatje wilt bewaren.
-1. Klik **Meer** menu ![&#x200B; Meer pictogram &#x200B;](assets/qs-more-icon-on-an-object.png), dan **sparen als Malplaatje**.
+1. Klik **Meer** menu ![ Meer pictogram ](assets/qs-more-icon-on-an-object.png), dan **sparen als Malplaatje**.
 1. In **sparen als Malplaatje** sectie, specificeer de volgende informatie voor het malplaatje:
 
    <table style="table-layout:auto"> 
@@ -167,17 +194,17 @@ Saving a project as a template differs in the Production and the Preview environ
    Als u de volgorde van de formulieren wilt wijzigen, sleept u de formulieren en zet u ze neer in de juiste volgorde.
 Om een vorm te verwijderen, selecteer het, dan klik **verwijdert**. Klik **annuleren** om de geselecteerde vormen te verwijderen.
 
-   ![&#x200B; gebied van de Vorm van de Douane in sparen als malplaatjevakje &#x200B;](assets/custom-forms-ara-in-save-as-template-box.png)
+   ![ gebied van de Vorm van de Douane in sparen als malplaatjevakje ](assets/custom-forms-ara-in-save-as-template-box.png)
 
 1. Werk indien nodig gegevens bij in de bijgevoegde aangepaste formulieren. De informatie wordt naar de sjabloon overgedragen.
 
 1. Klik **Opties** in het linkerpaneel, dan selecteren checkbox naast om het even welke informatie u naar het malplaatje wilt overbrengen. Niet-geselecteerde items worden niet naar de sjabloon overgebracht. Alle opties zijn standaard uitgeschakeld.
 
-   ![&#x200B; gebied van Opties in sparen als malplaatjedoos &#x200B;](assets/options-area-in-save-as-template-box.png)
+   ![ gebied van Opties in sparen als malplaatjedoos ](assets/options-area-in-save-as-template-box.png)
 
 1. Klik **uitsluiten** in het linkerpaneel, dan om het even welke taken selecteren die u van het project wilt uitsluiten. Standaard zijn alle taken uitgeschakeld.
 
-   ![&#x200B; sluit gebied in sparen als malplaatjedoos &#x200B;](assets/exclude-area-save-as-template-box.png) uit
+   ![ sluit gebied in sparen als malplaatjedoos ](assets/exclude-area-save-as-template-box.png) uit
 
 1. Klik **Einde en sparen Malplaatje** in de hoger-juiste hoek van het scherm.
 

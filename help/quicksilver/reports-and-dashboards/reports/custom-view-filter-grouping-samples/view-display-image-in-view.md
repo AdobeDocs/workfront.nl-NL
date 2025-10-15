@@ -7,9 +7,9 @@ description: U kunt de naam van een object in een weergave vervangen door een af
 author: Nolan
 feature: Reports and Dashboards
 exl-id: e1e4a993-f05c-4b6e-b00a-e96c9ab4c94f
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '497'
+source-wordcount: '483'
 ht-degree: 0%
 
 ---
@@ -24,32 +24,25 @@ U kunt de naam van een object in een weergave vervangen door een afbeelding in d
 >
 >Afbeeldingen worden weergegeven in de werkelijke resolutie, dus probeer kleine afbeeldingen te gebruiken.
 
-![&#x200B; vervang projectnaam met beeld en verbinding &#x200B;](assets/replace-project-name-with-image-and-link-350x125.png)
+![ vervang projectnaam met beeld en verbinding ](assets/replace-project-name-with-image-and-link-350x125.png)
 
 ## Toegangsvereisten
 
-+++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
-
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan</td> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie*</td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
    <td> 
-    <p>Nieuw:</p>
-   <ul><li><p>Medewerker om een filter te wijzigen </p></li>
-   <li><p>Standaard voor het wijzigen van een rapport</p></li> </ul>
-
-<p>Huidige:</p>
-   <ul><li><p>Verzoek om een filter te wijzigen </p></li>
-   <li><p>Plan om een rapport te wijzigen</p></li> </ul></td> 
+   <p>Medewerker of verzoek om een filter te wijzigen </p>
+   <p>Standaard of Plan om een rapport te wijzigen</p>
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau</td> 
@@ -62,7 +55,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-*For informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -86,7 +79,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    1. Klik met de rechtermuisknop en selecteer **het beeldplaats van het Exemplaar**, of **krijg verbinding**, afhankelijk van uw browser. U hebt nu de URL voor die specifieke afbeelding en kunt deze plakken vanaf het klembord.
    1. Zorg ervoor dat iedereen met die verbinding toestemmingen heeft om het beeld te bekijken door enkel naar de verbinding te gaan en zij hebben geen login nodig om tot het toegang te hebben.
 
-1. Ga naar een project, klik **Meer** menu ![&#x200B; Meer pictogram &#x200B;](assets/more-icon-45x33.png) naast de naam van het project, dan klik **uitgeven**.
+1. Ga naar een project, klik **Meer** menu ![ Meer pictogram ](assets/more-icon-45x33.png) naast de naam van het project, dan klik **uitgeven**.
 
 1. Op het **URL** gebied, voeg de verbinding aan het beeld toe.
 1. Ga naar een projectmening in een lijst van projecten.

@@ -1,54 +1,82 @@
 ---
 product-area: projects;user-management
 navigation-topic: manage-projects
-title: Gebruikers uit projecten verwijderen
+title: Gebruikers verwijderen uit projecten
 description: U kunt gebruikers uit een project verwijderen wanneer zij niet meer betrokken zijn bij de voltooiing van het werk aan het project.
 author: Alina
 feature: Work Management
 exl-id: 3a75c78d-faed-41cd-a0a4-59504bb981af
-source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
+source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
 workflow-type: tm+mt
-source-wordcount: '561'
+source-wordcount: '510'
 ht-degree: 0%
 
 ---
 
 # Gebruikers uit projecten verwijderen
 
-U kunt gebruikers uit een project verwijderen wanneer zij niet meer betrokken zijn bij de voltooiing van het werk aan het project. Het verwijderen van gebruikers uit projecten heeft implicaties op taak en probleemtaken, evenals op projectrollen. Verwijderde gebruikers houden op ontvangend berichten voorgenomen voor het Team van het Project. Voor meer informatie over berichten voor de projectteams, zie [&#x200B; de berichttypes van de Gebeurtenis &#x200B;](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
+U kunt gebruikers uit een project verwijderen wanneer zij niet meer betrokken zijn bij de voltooiing van het werk aan het project. Het verwijderen van gebruikers uit projecten heeft implicaties op taak en probleemtaken, evenals op projectrollen. Verwijderde gebruikers houden op ontvangend berichten voorgenomen voor het Team van het Project. Voor meer informatie over berichten voor de projectteams, zie [ de berichttypes van de Gebeurtenis ](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
 
-De gebruikers verbonden aan een project zijn vermeld in het gebied van Mensen van een project. Zij vertegenwoordigen het Team van het Project. Voor meer informatie over het Team van het Project, zie [&#x200B; Overzicht van het Team van het Project &#x200B;](../../../manage-work/projects/planning-a-project/project-team-overview.md).
+De gebruikers verbonden aan een project zijn vermeld in het gebied van Mensen van een project. Zij vertegenwoordigen het Team van het Project. Voor meer informatie over het Team van het Project, zie [ Overzicht van het Team van het Project ](../../../manage-work/projects/planning-a-project/project-team-overview.md).
 
 ## Toegangsvereisten
 
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-abonnement*</td> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Plan </p> </td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td> <p>Standard</p> 
+   <p>Plan</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot projecten bewerken</p> <p><b>OPMERKING</b>
-
-Als u nog steeds geen toegang hebt, vraagt u de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau instelt. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td>
-</tr> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
+   <td> <p>Toegang tot projecten bewerken</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Rechten voor het project beheren</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
+   <td> <p>Rechten voor het project beheren</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Neem contact op met uw Workfront-beheerder om te weten te komen welk abonnement, licentietype of toegang u hebt.
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Plan </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations*</td> 
+   <td> <p>Edit access to Projects</p> <p><b>NOTE</b>
+   
+   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>Manage permissions on the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## Hoe het verwijderen van een gebruiker bestaande taken, kwesties en projecten beïnvloedt
 
@@ -67,7 +95,7 @@ Wanneer de gebruikers rollen op een project vervullen, worden zij een deel van h
 
 Wanneer u gebruikers uit hun rollen op het project verwijdert, blijven zij deel van het projectteam.
 
-Voor informatie over de rollen van gebruikers op een project, zie [&#x200B; het Team van het Project beheren &#x200B;](../planning-a-project/manage-project-team.md).
+Voor informatie over de rollen van gebruikers op een project, zie [ het Team van het Project beheren ](../planning-a-project/manage-project-team.md).
 
 Om gebruikers uit het Team van het Project te verwijderen:
 
@@ -75,7 +103,7 @@ Om gebruikers uit het Team van het Project te verwijderen:
 
 1. Klik **Mensen** in het linkerpaneel, dan selecteer de gebruikers u wilt verwijderen.
 
-1. Klik **verwijderen** pictogram ![&#x200B; verwijderen punt &#x200B;](assets/remove-icon---x-in-circle.png) bij de bovenkant van de lijst van gebruikers.
+1. Klik **verwijderen** pictogram ![ verwijderen punt ](assets/remove-icon---x-in-circle.png) bij de bovenkant van de lijst van gebruikers.
 
 1. Klik **ja, verwijder Geselecteerde Gebruikers** om verwijdering te bevestigen.
 

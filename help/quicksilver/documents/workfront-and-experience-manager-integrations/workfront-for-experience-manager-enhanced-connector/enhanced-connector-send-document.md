@@ -6,9 +6,9 @@ description: U kunt documenten van Workfront naar Experience Manager Assets verz
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: d687d2db-28e0-45e8-9d60-8419921f02e9
-source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
+source-git-commit: 3f9a824780f2ded914d461a473aef3b6ecfa8701
 workflow-type: tm+mt
-source-wordcount: '457'
+source-wordcount: '409'
 ht-degree: 0%
 
 ---
@@ -19,36 +19,39 @@ U kunt documenten van Workfront naar Experience Manager Assets verzenden. Docume
 
 ## Toegangsvereisten
 
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-abonnement*</td> 
-   <td> <p>Pro of hoger</p> </td> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Aanvraag of hoger</p> </td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td> 
+   <p>Medewerker of hoger</p>
+   <p>Aanvraag of hoger</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Product</td> 
+   <td role="rowheader">Aanvullende producten</td> 
    <td>Experience Manager Assets </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot documenten bewerken</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
+   <td> <p>Toegang tot documenten bewerken</p> s="MCXref xref"&gt;Aangepaste toegangsniveaus maken of wijzigen </a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Toegang of hoger weergeven op documenten</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
+   <td> <p>Toegang of hoger weergeven op documenten</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
++++
 
 ## Vereisten
 
@@ -69,14 +72,14 @@ Een document verzenden:
    >
    >Voor deze integratie kan elke naam worden gekozen, dus Experience Manager Assets wordt niet specifiek vermeld.
 
-   ![&#x200B; verzendt naar &#x200B;](assets/copy-of-send-to-in-toolbar-350x149.png)
+   ![ verzendt naar ](assets/copy-of-send-to-in-toolbar-350x149.png)
 
 1. Kies waar u de activa wilt gaan, dan klik **Uitgezochte Omslag**.
 1. Wanneer u uw gewenste bestemming vindt, klik **sparen**.
 
 ## Een nieuwe versie naar Experience Manager Assets sturen
 
-U kunt een nieuwe versie toevoegen aan een document dat u eerder naar Workfront hebt geüpload. Voor meer informatie, zie [&#x200B; een nieuwe versie van een document &#x200B;](../../../documents/managing-documents/upload-new-document-version.md) uploaden. Nadat de laatste versie is geüpload, kunt u deze naar Experience Manager Assets verzenden. Als een toegewezen veld in Workfront is gewijzigd, werkt de nieuwe versie de metagegevens bij in Experience Manager Assets wanneer deze worden verzonden.
+U kunt een nieuwe versie toevoegen aan een document dat u eerder naar Workfront hebt geüpload. Voor meer informatie, zie [ een nieuwe versie van een document ](../../../documents/managing-documents/upload-new-document-version.md) uploaden. Nadat de laatste versie is geüpload, kunt u deze naar Experience Manager Assets verzenden. Als een toegewezen veld in Workfront is gewijzigd, werkt de nieuwe versie de metagegevens bij in Experience Manager Assets wanneer deze worden verzonden.
 
 De meest recente versie verzenden:
 
@@ -87,6 +90,6 @@ De meest recente versie verzenden:
    >
    >Voor deze integratie kan elke naam worden gekozen, dus Experience Manager Assets wordt niet specifiek vermeld.
 
-   ![&#x200B; verzendt naar &#x200B;](assets/copy-of-send-to-in-toolbar-350x149.png)
+   ![ verzendt naar ](assets/copy-of-send-to-in-toolbar-350x149.png)
 
 1. Klik **sparen**. De nieuwe versie slaat op dezelfde locatie op als de vorige versie.

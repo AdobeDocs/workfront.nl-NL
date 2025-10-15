@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 1fc91438-1ead-40d2-b0aa-863c1125c2fb
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 366043a786c94f1bc40ad3b20af175bb84c94742
 workflow-type: tm+mt
-source-wordcount: '364'
+source-wordcount: '343'
 ht-degree: 0%
 
 ---
@@ -24,38 +24,33 @@ Workfront wordt geleverd met 9 statussen van systeemprojecten. U kunt de naam va
 
 U kunt ook aangepaste projectstatussen toevoegen om aan de behoeften in uw organisatie te voldoen.
 
-Als beheerder van Workfront, vormt u de standaardstatus voor alle nieuwe projecten in het systeem. Voor instructies, zie [&#x200B; systeem-brede projectvoorkeur &#x200B;](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) vormen.
+Als beheerder van Workfront, vormt u de standaardstatus voor alle nieuwe projecten in het systeem. Voor instructies, zie [ systeem-brede projectvoorkeur ](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) vormen.
 
 ## Toegangsvereisten
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
-
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan</td> 
-   <td>Alle</td> 
+   <td>Adobe Workfront-pakket</td> 
+   <td><p>Alle</p></td> 
   </tr> 
   <tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront-licentie</td> 
-   <td><p>Nieuw: Standaard</p>
-       <p>of</p>
-       <p>Huidig: Plan</p></td>
-  </tr> 
+   <td>Adobe Workfront-licentie</td> 
+   <td><p>Standard</p>
+       <p>Plan</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau</td> 
-   <td>[!UICONTROL System Administrator]</td>
+   <td>Configuraties op toegangsniveau</td> 
+   <td>Systeembeheerder</td> 
   </tr> 
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -63,7 +58,7 @@ Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van d
 
 Als beheerder van Workfront, kunt u tot de lijst van systeem-vlakke projectstatussen toegang hebben.
 
-Voor informatie over het uitgeven van een systeemstatus en het creëren van douanestatus, zie [&#x200B; een status &#x200B;](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md) creëren of uitgeven.
+Voor informatie over het uitgeven van een systeemstatus en het creëren van douanestatus, zie [ een status ](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md) creëren of uitgeven.
 
 {{step-1-to-setup}}
 
@@ -73,12 +68,12 @@ Voor informatie over het uitgeven van een systeemstatus en het creëren van doua
 
    De projectstatussen die beschikbaar zijn in Workfront, worden weergegeven op dit tabblad.
 
-   ![&#x200B; status van het Project &#x200B;](assets/project-status.png)
+   ![ status van het Project ](assets/project-status.png)
 
-   Voor details over elk van de ingebouwde statussen van het systeemproject, zie [&#x200B; Overzicht van de statussen van het systeemproject &#x200B;](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/system-project-statuses.md).
+   Voor details over elk van de ingebouwde statussen van het systeemproject, zie [ Overzicht van de statussen van het systeemproject ](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/system-project-statuses.md).
 
 ## Aangepaste projectstatussen maken en systeemstatussen aanpassen
 
-Als Workfront-beheerder kunt u systeemprojectstatussen toevoegen aan Workfront. Als groepseigenaar kunt u een aangepaste status toevoegen die specifiek is voor één groep. Voor meer informatie over het creëren van douanestatus of het uitgeven van de systeemdegenen, zie [&#x200B; een status &#x200B;](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md) creëren of uitgeven.
+Als Workfront-beheerder kunt u systeemprojectstatussen toevoegen aan Workfront. Als groepseigenaar kunt u een aangepaste status toevoegen die specifiek is voor één groep. Voor meer informatie over het creëren van douanestatus of het uitgeven van de systeemdegenen, zie [ een status ](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md) creëren of uitgeven.
 
-Wanneer u een status van het douaneproject creeert, moet u de nieuwe status met een bestaande systeemstatus altijd gelijkstellen. U moet het gedrag van de systeemstatus begrijpen om te weten welke status geschikt is om uw aangepaste status met te vergelijken. Nadat u de status gelijk hebt geselecteerd, kan deze selectie niet meer worden gewijzigd. Voor meer informatie over de statussen van het systeemproject, zie [&#x200B; Overzicht van de statussen van het systeemproject &#x200B;](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/system-project-statuses.md).
+Wanneer u een status van het douaneproject creeert, moet u de nieuwe status met een bestaande systeemstatus altijd gelijkstellen. U moet het gedrag van de systeemstatus begrijpen om te weten welke status geschikt is om uw aangepaste status met te vergelijken. Nadat u de status gelijk hebt geselecteerd, kan deze selectie niet meer worden gewijzigd. Voor meer informatie over de statussen van het systeemproject, zie [ Overzicht van de statussen van het systeemproject ](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/system-project-statuses.md).

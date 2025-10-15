@@ -6,9 +6,9 @@ description: Met een basisworkflow kunt u meerdere revisoren een proefdruk laten
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4f5d0c0e-e070-4f32-89c4-3b511a3b7fdc
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: ac714bd5a5259d6f995ac445efbd0125e07022cb
 workflow-type: tm+mt
-source-wordcount: '1858'
+source-wordcount: '1793'
 ht-degree: 0%
 
 ---
@@ -23,24 +23,21 @@ Met een basisworkflow kunt u meerdere revisoren een proefdruk laten maken, maar 
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-abonnement*</td> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
    <td>
-   <p>Nieuw: alle</p>
-    <p>Huidig abonnement: Pro of hoger</p>
-   <p>Verouderd abonnement: Selecteren of hoger</p> <p>Voor meer informatie over het proefdrukken van toegang met de verschillende plannen, zie <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref"> Toegang tot het proefdrukken van functionaliteit in Workfront </a>.</p> </td> 
+   <p>Alle</p>
+    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie</td> 
    <td>
-   <p>Nieuw: Standaard</p>
-    <p>Huidig: Werk of Plan</p> <p>Ouder plan: Willekeurig (proefdrukken moet zijn ingeschakeld voor de gebruiker)</p> </td> 
+   <p>Standard</p>
+    <p>Werken of plannen</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Bewijs van machtigingsprofiel </td> 
@@ -53,7 +50,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-&#42; om te weten te komen welk plan, rol, of Profiel van de Toestemming van het Bewijs u hebt, contacteer uw beheerder van Workfront of van Workfront Proof.
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -71,7 +68,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 1. In de het type van Werkschema sectie, kies **Basis**.
 1. Geef de gebruikers op die u wilt toevoegen en kies een proefdrukrol.
 
-   ![&#x200B; Nieuwe proefdrukrollen &#x200B;](assets/new-proof---roles-350x213.png)
+   ![ Nieuwe proefdrukrollen ](assets/new-proof---roles-350x213.png)
 
 1. In de volgende tabel worden elke rol en de bijbehorende rechten weergegeven.
 
@@ -268,17 +265,17 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
     </tbody> 
    </table>
 
-1. Ga met [&#x200B; verder vormen e-mailmontages voor de proef &#x200B;](#configure-email-settings-for-the-proof) hieronder.
+1. Ga met [ verder vormen e-mailmontages voor de proef ](#configure-email-settings-for-the-proof) hieronder.
 
 ## E-mailinstellingen configureren voor de proefdruk {#configure-email-settings-for-the-proof}
 
-1. In de **E-mail- bericht** sectie, selecteer of om e-mailberichten en een douanebericht naar de gebruikers te verzenden u in [&#x200B; selecteerde creeer een geavanceerde proef met een Basiswerkschema &#x200B;](#workflow) vroeger in dit artikel:
+1. In de **E-mail- bericht** sectie, selecteer of om e-mailberichten en een douanebericht naar de gebruikers te verzenden u in [ selecteerde creeer een geavanceerde proef met een Basiswerkschema ](#workflow) vroeger in dit artikel:
 
    <table>
    <tbody>
    <tr>
    <td>Ontvangers op de hoogte stellen van dit bewijs</td>
-   <td>Selecteer deze optie om een e-mailbericht naar gebruikers te verzenden. Wanneer <strong> Basis het delen </strong> in de <strong> 3&rbrace; sectie van het Werkschema {wordt geselecteerd, wordt een e-mailbericht verzonden wanneer de proef wordt gecreeerd. </strong> Wanneer <strong> Geautomatiseerde werkschema </strong> in de <strong> 3} sectie van het Werkschema &lbrace;wordt geselecteerd, wordt een e-mailbericht verzonden wanneer het bewijs het stadium van het Geautomatiseerde Werkschema ingaat dat de gebruiker met wordt geassocieerd.</strong></td>
+   <td>Selecteer deze optie om een e-mailbericht naar gebruikers te verzenden. Wanneer <strong> Basis het delen </strong> in de <strong> 3} sectie van het Werkschema {wordt geselecteerd, wordt een e-mailbericht verzonden wanneer de proef wordt gecreeerd. </strong> Wanneer <strong> Geautomatiseerde werkschema </strong> in de <strong> 3} sectie van het Werkschema {wordt geselecteerd, wordt een e-mailbericht verzonden wanneer het bewijs het stadium van het Geautomatiseerde Werkschema ingaat dat de gebruiker met wordt geassocieerd.</strong></td>
    </tr>
    <tr>
    <td>Aangepast bericht toevoegen</td>
@@ -288,7 +285,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    </table>
 
 
-1. Ga met [&#x200B; verder vormen proefmontages &#x200B;](#configure-proof-settings) hieronder.
+1. Ga met [ verder vormen proefmontages ](#configure-proof-settings) hieronder.
 
 ## Proofinginstellingen configureren {#configure-proof-settings}
 
@@ -347,6 +344,6 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 1. Nadat de proef wordt geproduceerd, klik **Open proef** om de het proef kijker te lanceren.
 
-   ![&#x200B; Open proef &#x200B;](assets/open-proof-350x132.png)
+   ![ Open proef ](assets/open-proof-350x132.png)
 
    Gebruikers die geen proefdrukken op hun account hebben ingeschakeld, kunnen het document nog steeds bekijken en opmerkingen naar de proefdruk maken.

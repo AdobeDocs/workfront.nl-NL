@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: cf09859c-7d6f-4bf0-9b7f-c57096233c94
-source-git-commit: 93f4c1691210d88531fcc269bd40ee7ed8633309
+source-git-commit: 22ae8b489c63ba6eea1472cf415f95e375a94773
 workflow-type: tm+mt
-source-wordcount: '1061'
+source-wordcount: '1038'
 ht-degree: 0%
 
 ---
@@ -29,41 +29,36 @@ ht-degree: 0%
 >
 >De op deze pagina beschreven procedure is alleen van toepassing op organisaties die nog niet aan boord van de Adobe Admin Console zijn.
 >
->Om gebruikersattributen in kaart te brengen in organisaties die aan Adobe Admin Console in kaart zijn gebracht, zie [&#x200B; de gebruikersattributen van de Kaart in Adobe verenigde ervaring &#x200B;](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/map-user-attributes.md#map-user-attributes-in-the-adobe-unified-experience) in de gebruikersattributen van de artikel Kaart.
+>Om gebruikersattributen in kaart te brengen in organisaties die aan Adobe Admin Console in kaart zijn gebracht, zie [ de gebruikersattributen van de Kaart in Adobe verenigde ervaring ](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/map-user-attributes.md#map-user-attributes-in-the-adobe-unified-experience) in de gebruikersattributen van de artikel Kaart.
 
 Als beheerder van Adobe Workfront, kunt u het Web van Workfront en mobiele toepassingen vormen om met een oplossing van de Prijsverhoging van de Veiligheid (SAML) 2.0 voor enig teken-binnen (SSO) te integreren.
 
-Nadat u SAML 2.0 in Workfront hebt gevormd, zoals die in de volgende secties wordt beschreven, kunt u de configuratie handhaven, zoals die in [&#x200B; wordt beschreven Update SAML 2.0 meta-gegevens in uw identiteitsleverancier &#x200B;](../../../administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip.md).
+Nadat u SAML 2.0 in Workfront hebt gevormd, zoals die in de volgende secties wordt beschreven, kunt u de configuratie handhaven, zoals die in [ wordt beschreven Update SAML 2.0 meta-gegevens in uw identiteitsleverancier ](../../../administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip.md).
 
 ## Toegangsvereisten
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
-
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan</td> 
-   <td>Alle</td> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
+   <td><p>Alle</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie</td> 
-   <td><p>Nieuw: Standaard </p>
-       <p>of</p> 
-       <p>Huidig: Plan </p>
-   </td> 
+   <td><p>Standard</p><p>Plan</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau</td> 
-   <td> <p>U moet een Workfront-beheerder zijn.</p> </td> 
+   <td> <p>U moet een Workfront-beheerder zijn.</p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

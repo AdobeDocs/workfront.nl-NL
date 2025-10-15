@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 89c9b450-72a6-4b72-98d1-22956696543a
-source-git-commit: 7f719c903ad4079470a6dbd046dce445ba227a5b
+source-git-commit: 22ae8b489c63ba6eea1472cf415f95e375a94773
 workflow-type: tm+mt
-source-wordcount: '670'
+source-wordcount: '674'
 ht-degree: 0%
 
 ---
@@ -47,26 +47,21 @@ U kunt als volgt een scorecard maken:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
-   <td> <p>Nieuw: Ultimate</p>
-   <p>Huidig: [!UICONTROL Business] of hoger</p> 
-   </td> 
+   <td role="rowheader">Workfront-pakket</td> 
+   <td><p>Alle</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licentie*</td> 
-   <td><p>Nieuw: [!UICONTROL Standard]</p>
-   <p>Huidige: [!UICONTROL Plan]</p>
-   </td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td><p>Standard</p> <p>Plan</p></td> 
   </tr> 
-   <tr> 
-   <td role="rowheader"><p>Toegangsniveau</p></td> 
-   <td><p>Systeembeheerder</p>
-   </td> 
-  </tr>
+  <tr> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
+   <td>U moet een Workfront-beheerder zijn. </td> 
+  </tr> 
  </tbody> 
 </table>
 
-*For informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -78,7 +73,7 @@ U kunt als volgt een scorecard maken:
 
    De **Nieuwe scorecard** doos opent.
 
-   ![&#x200B; Nieuwe scorecard doos &#x200B;](assets/new-scorecard-350x173.png)
+   ![ Nieuwe scorecard doos ](assets/new-scorecard-350x173.png)
 
 1. Geef een **[!UICONTROL Scorecard Name]** en een **[!UICONTROL Description]** op.
 
@@ -127,11 +122,11 @@ U kunt een scorecard tot stand brengen door bestaande te kopiëren en uit te gev
 {{step-1-to-setup}}
 
 1. Klik op **[!UICONTROL Scorecards]** in het linkerdeelvenster.
-1. Selecteer een scorecard in de lijst, dan klik het **pictogram van het Exemplaar** pictogram van het Exemplaar scorecard ![&#x200B; bij de bovenkant van de scorecardlijst.](assets/copy-scorecard-icon.png)
+1. Selecteer een scorecard in de lijst, dan klik het **pictogram van het Exemplaar** pictogram van het Exemplaar scorecard ![ bij de bovenkant van de scorecardlijst.](assets/copy-scorecard-icon.png)
 
    Het **Scorecard van het Exemplaar** vakje opent.
 
-   ![&#x200B; de scorecarddoos van het Exemplaar &#x200B;](assets/copy-scorecard-box.png)
+   ![ de scorecarddoos van het Exemplaar ](assets/copy-scorecard-box.png)
 
 1. Geef de volgende informatie op:
 
@@ -147,8 +142,8 @@ U kunt een scorecard tot stand brengen door bestaande te kopiëren en uit te gev
 
 Een gebruiker met [!UICONTROL manage] toestemmingen op een project kan een scorecard op een project toepassen, nadat scorecard door de [!DNL Workfront] beheerder is gecreeerd.
 
-Een scorecard wordt toegevoegd aan een project als deel van het creëren van een bedrijfsgeval voor het project. Voor meer informatie over het toevoegen van een scorecard aan een project, zie [&#x200B; een scorecard op een project toepassen en een Score van de Uitlijning &#x200B;](../../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md) produceren.
+Een scorecard wordt toegevoegd aan een project als deel van het creëren van een bedrijfsgeval voor het project. Voor meer informatie over het toevoegen van een scorecard aan een project, zie [ een scorecard op een project toepassen en een Score van de Uitlijning ](../../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md) produceren.
 
-Voor meer informatie over projecttoestemmingen, zie [&#x200B; een project in  [!DNL Adobe Workfront]](../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md) delen.
+Voor meer informatie over projecttoestemmingen, zie [ een project in  [!DNL Adobe Workfront]](../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md) delen.
 
 

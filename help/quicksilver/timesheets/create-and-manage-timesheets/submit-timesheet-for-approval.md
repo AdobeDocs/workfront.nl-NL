@@ -3,12 +3,12 @@ product-area: timesheets
 navigation-topic: create-and-manage-timesheets
 title: Een tijdschema ter goedkeuring indienen
 description: Door uw tijdspagina ter goedkeuring in te dienen, krijgt uw manager inzicht in uw werkuren. De fiatteurs kunnen verifiëren dat alle geregistreerde tijd in de juiste gebieden is toegewezen en dat er gedurende de periode een voldoende aantal uren is geregistreerd.
-author: Alina
+author: Lisa
 feature: Timesheets
 exl-id: 253e20c8-58f8-4b23-a769-b0e36557066a
-source-git-commit: 9debb7c6d9df0f9f4962f3e66f146e5f605d20f0
+source-git-commit: 69cd5fb1d089b81b7a1673609b92537137b6b68e
 workflow-type: tm+mt
-source-wordcount: '855'
+source-wordcount: '839'
 ht-degree: 0%
 
 ---
@@ -23,67 +23,65 @@ Door uw tijdspagina ter goedkeuring in te dienen, krijgt uw manager inzicht in u
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan</td> 
+   <td>Adobe Workfront-pakket</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Nieuw: Licht of hoger </p>
-   <p>Huidig: Controleren of hoger </p>
+   <td>Adobe Workfront-licentie</td> 
+   <td> <p>Licht of hoger </p>
+   <p>Controleren of hoger </p>
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau</td> 
+   <td>Configuraties op toegangsniveau</td> 
    <td> <p>Toegang tot taken en problemen weergeven of vergroten </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Objectmachtigingen</td> 
+   <td>Objectmachtigingen</td> 
    <td> <p>De toestemmingen van de mening of hoger aan timesheet</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Voor meer informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Een tijdschema ter goedkeuring indienen
 
-* [&#x200B; voorlegt een timesheet voor goedkeuring &#x200B;](#submit-a-timesheet-for-approval)
+* [ voorlegt een timesheet voor goedkeuring ](#submit-a-timesheet-for-approval)
 * [De status van een verzonden tijdsplaat weergeven](#view-the-status-of-a-submitted-timesheet)
 
 ### Een tijdschema ter goedkeuring indienen
 
-Nadat een timesheet fiatteur wordt geplaatst (zoals die in de sectie [&#x200B; wordt beschreven wijs timesheet goedkeurt &#x200B;](../../timesheets/create-and-manage-timesheets/timesheet-approvals.md#designating-a-timesheet-approver) in het artikel [&#x200B; een timesheet &#x200B;](../../timesheets/create-and-manage-timesheets/timesheet-approvals.md) goed), **dicht** knoop bij de bodem van de timesheet verandert in a **voorleggen voor goedkeuring** knoop.
+Nadat een timesheet fiatteur wordt geplaatst (zoals die in de sectie [ wordt beschreven wijs timesheet goedkeurt ](../../timesheets/create-and-manage-timesheets/timesheet-approvals.md#designating-a-timesheet-approver) in het artikel [ een timesheet ](../../timesheets/create-and-manage-timesheets/timesheet-approvals.md) goed), **dicht** knoop bij de bodem van de timesheet verandert in a **voorleggen voor goedkeuring** knoop.
 
 Een tijdschema ter goedkeuring indienen:
 
 1. Ga naar een timesheet dat is gevormd om een fiatteur te hebben.
-1. De tijd van het logboek, zoals die in [&#x200B; wordt beschreven tijd van het Logboek &#x200B;](../../timesheets/create-and-manage-timesheets/log-time.md).
+1. De tijd van het logboek, zoals die in [ wordt beschreven tijd van het Logboek ](../../timesheets/create-and-manage-timesheets/log-time.md).
 1. Klik **voorleggen voor goedkeuring** om het proces van de timesheet goedkeuring te lanceren.
 
    ![](assets/submit-for-approval-button-on-timesheet-nwe.png)
 
    **voorlegt voor goedkeuring** knoop wordt vervangen door **goedkeuren**, **Afwijzen**, en **Recall** knopen. Het statuut van timesheet verandert in **Voorgelegd**.
 
-   Wanneer uw timesheet voor goedkeuring wordt voorgelegd, ziet de fiatteur timesheet dat in **wordt vermeld Mijn goedkeurt** widget in het **3&rbrace; gebied van het Huis.** De volgende dingen kunnen zich voordoen:
+   Wanneer uw timesheet voor goedkeuring wordt voorgelegd, ziet de fiatteur timesheet dat in **wordt vermeld Mijn goedkeurt** widget in het **3} gebied van het Huis.** De volgende dingen kunnen zich voordoen:
 
    * Als zij het goedkeuren, verandert de **Herinnerde** knoop in **heropenen** en de updates van de timesheet status aan **Open**.
    * Als zij het verwerpen, **voorlegt voor goedkeuring** knoop vervangt de **Recall** knoop en de updates van de timesheet status aan **Verworpen**.
 
-1. (Facultatief) klik **Herinneren** als u timesheet moet heropenen en uw tijd bijwerken. Voor informatie, zie [&#x200B; Rappel een timesheet &#x200B;](#recall-a-timesheet) sectie in dit artikel.
+1. (Facultatief) klik **Herinneren** als u timesheet moet heropenen en uw tijd bijwerken. Voor informatie, zie [ Rappel een timesheet ](#recall-a-timesheet) sectie in dit artikel.
 
 ### De status van een verzonden tijdsplaat weergeven {#view-the-status-of-a-submitted-timesheet}
 
 U kunt de status van een tijdblad bekijken nadat u het hebt verzonden.
 
-Als de beheerder van Workfront de Goedkeuring van de Tijdopmaak aan Gebruiker en de Afwijzing van de Chronologie aan de gebeurtenismanagers van de Gebruiker heeft toegelaten, wordt u op de hoogte gebracht nadat timesheet wordt goedgekeurd of verworpen. Voor informatie over het toelaten van gebeurtenisberichten, zie [&#x200B; de berichttypes van de Gebeurtenis &#x200B;](../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
+Als de beheerder van Workfront de Goedkeuring van de Tijdopmaak aan Gebruiker en de Afwijzing van de Chronologie aan de gebeurtenismanagers van de Gebruiker heeft toegelaten, wordt u op de hoogte gebracht nadat timesheet wordt goedgekeurd of verworpen. Voor informatie over het toelaten van gebeurtenisberichten, zie [ de berichttypes van de Gebeurtenis ](../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
 
 Zonder deze berichten, kunt u over de status van uw voorgelegde chronologie in het gebied van de Chronologie van Workfront leren.
 
@@ -106,7 +104,7 @@ U kunt als volgt de status van een tijdblad weergeven:
 
      ![](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
 
-   * Klik op het pictogram Filter ![](assets/filter-nwepng.png) om een ander filter toe te passen of een nieuw filter te maken. Voor informatie over het creëren van of het bijwerken van filters, zie [&#x200B; filters in Adobe Workfront &#x200B;](../../reports-and-dashboards/reports/reporting-elements/create-filters.md) creëren of uitgeven.
+   * Klik op het pictogram Filter ![](assets/filter-nwepng.png) om een ander filter toe te passen of een nieuw filter te maken. Voor informatie over het creëren van of het bijwerken van filters, zie [ filters in Adobe Workfront ](../../reports-and-dashboards/reports/reporting-elements/create-filters.md) creëren of uitgeven.
 
    >[!NOTE]
    >
@@ -114,7 +112,7 @@ U kunt als volgt de status van een tijdblad weergeven:
    >
    >   
    >   
-   >   * [&#x200B; pas Filters, Weergaven, en Groepen aan gebruikend een lay-outmalplaatje &#x200B;](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
+   >   * [ pas Filters, Weergaven, en Groepen aan gebruikend een lay-outmalplaatje ](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
    >   
    >
 

@@ -7,9 +7,9 @@ description: Meer informatie over de projectweergave in meerdere rijen vindt u i
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 3c6028c0-2c9f-4f86-aa6c-bf089844bac8
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '275'
+source-wordcount: '254'
 ht-degree: 0%
 
 ---
@@ -21,56 +21,44 @@ ht-degree: 0%
 In deze projectweergave kunt u:
 
 * Projectinformatie weergeven in een indeling met meerdere rijen.\
-  In de weergave wordt de tag `sharecol=true` gebruikt om meerdere velden onder dezelfde kolomkop te combineren. Meer over deze markering leren, zie [&#x200B; Mening: voeg informatie van veelvoudige kolommen in één gedeelde kolom &#x200B;](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-merge-columns.md) samen.
+  In de weergave wordt de tag `sharecol=true` gebruikt om meerdere velden onder dezelfde kolomkop te combineren. Meer over deze markering leren, zie [ Mening: voeg informatie van veelvoudige kolommen in één gedeelde kolom ](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-merge-columns.md) samen.
 
 * Gebruik een kolom van de plaatshouder die een markering van de de regelonderbreking van HTML (`<br>`) bevat om de Beschrijving te dwingen om onder de projectnaam, bijvoorbeeld te tonen.
 * Geef de eigenaar van het project tussen haakjes weer achter de projectnaam.
 * Toon de Naam van het Project als verbinding aan het project.
 
-![&#x200B; rij van het Project met gestapelde mening &#x200B;](assets/project-multi-row-stacked-view-350x219.png)
+![ rij van het Project met gestapelde mening ](assets/project-multi-row-stacked-view-350x219.png)
 
 ## Toegangsvereisten
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
-
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan</td> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie</td> 
-   <td> <p> Huidige: 
-   <ul>
-   <li>Verzoek om een weergave te wijzigen</li> 
-   <li>Plan om een rapport te wijzigen</li>
-   </ul>
-     </p>
-     <p> Nieuw: 
-   <ul>
-   <li>Medewerker om een weergave te wijzigen</li> 
-   <li>Standaard voor het wijzigen van een rapport</li>
-   </ul>
-     </p>
-    </td> 
+   <td> 
+   <p>Medewerker of verzoek om een weergave te wijzigen </p>
+   <p>Standaard of Plan om een rapport te wijzigen</p>
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau*</td> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
    <td> <p>Toegang tot rapporten, dashboards, kalenders bewerken om een rapport te wijzigen</p> <p>Toegang tot filters, weergaven en groepen bewerken om een weergave te wijzigen</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Machtigingen beheren voor een rapport</p> </td> 
+   <td> <p>Machtigingen beheren voor een rapport</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

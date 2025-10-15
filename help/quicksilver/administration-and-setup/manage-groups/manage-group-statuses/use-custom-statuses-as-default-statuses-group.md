@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 51018635-cd9a-402d-a136-c5bec4707cda
-source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
+source-git-commit: fb555df123701c62e9a0f2d451ad6dcd16586595
 workflow-type: tm+mt
-source-wordcount: '685'
+source-wordcount: '662'
 ht-degree: 0%
 
 ---
@@ -33,32 +33,30 @@ Als er groepen zijn boven de groep die u beheert, kunnen hun beheerders dit ook 
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan</td> 
+   <td>Adobe Workfront-pakket</td> 
    <td>Alle</td> 
   </tr> 
   <tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie</td> 
-   <td><p>Nieuw: Standaard</p>
-       <p>of</p>
-       <p>Huidig: Plan</p></td>
+   <td>Adobe Workfront-licentie</td> 
+   <td>
+   <p>Standard</p>
+   <p>Plan</p></td>
   </tr> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau</td> 
+   <td>Configuraties op toegangsniveau</td> 
    <td>U moet een groepsbeheerder van de groep of een systeembeheerder zijn.</td>
   </tr> 
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -66,14 +64,14 @@ Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van d
 
 Als de aangepaste status de status Uitgave is, moeten alle vier de uitgiftetypen hiervoor zijn ingeschakeld (Foutenrapport, Wijzigingsvolgorde, Uitgave en Verzoek). In de onderstaande status van de uitgave kan de status Opnieuw geopend bijvoorbeeld niet als standaardstatus worden gebruikt omdat het type Uitgave volgorde wijzigen niet is geselecteerd:
 
-![&#x200B; Alle toegelaten uitgiftetypen &#x200B;](assets/all-4-issue-types-enabled.png)
+![ Alle toegelaten uitgiftetypen ](assets/all-4-issue-types-enabled.png)
 
 ## Een aangepaste status instellen als standaardstatus voor een groep
 
 {{step-1-to-setup}}
 
-1. In het linkerpaneel, klik **Groepen** ![&#x200B; Groepen &#x200B;](assets/groups-icon.png), dan klik de naam van de groep waar u statussen creëren of wilt aanpassen.
-1. In het linkerpaneel, klik **Statussen** ![&#x200B; het montagespictogram van het Gear &#x200B;](assets/gear-icon-settings.png).
+1. In het linkerpaneel, klik **Groepen** ![ Groepen ](assets/groups-icon.png), dan klik de naam van de groep waar u statussen creëren of wilt aanpassen.
+1. In het linkerpaneel, klik **Statussen** ![ het montagespictogram van het Gear ](assets/gear-icon-settings.png).
 1. Open het **Project**, **Taken**, of **Kwesties** lusje, afhankelijk van het type van status u als standaardstatus wilt plaatsen.
 1. Klik **Vastgestelde StandaardStatussen** dichtbij de hoger-juiste hoek.
 1. Selecteer in het vervolgkeuzemenu dat wordt weergegeven, naast de status waar u de standaardstatus wilt instellen, de standaardstatus die u wilt instellen.
@@ -90,8 +88,8 @@ Als de aangepaste status de status Uitgave is, moeten alle vier de uitgiftetypen
    >Als u het project aan een verschillende groep toewijst, zal de projectstatus opnieuw laden en kon veranderen.
 
    1. Ga naar het project waar u de douanestatus wilt gebruiken.
-   1. Klik het Meer menu ![&#x200B; Meer pictogram &#x200B;](assets/more-icon.png), dan klik **uitgeven**.
-   1. In **geef de doos van het Project** uit die, op het **3&rbrace; gebied van de Groep &lbrace;onder** de vereniging van het Project **toont, de groep selecteren die de douanestatus met wordt geassocieerd.**
+   1. Klik het Meer menu ![ Meer pictogram ](assets/more-icon.png), dan klik **uitgeven**.
+   1. In **geef de doos van het Project** uit die, op het **3} gebied van de Groep {onder** de vereniging van het Project **toont, de groep selecteren die de douanestatus met wordt geassocieerd.**
 
    1. Klik **sparen Veranderingen**.
 
@@ -101,7 +99,7 @@ Nadat een beheerder van Workfront een douanestatus als standaardstatus vormt, er
 
 Op dezelfde manier nadat een groepsbeheerder een douanestatus als standaardstatus plaatst, erven de nieuwe die subgroepen direct onder de groep worden gecreeerd die configuratie.
 
-Voor meer informatie, zie [&#x200B; Hoe de groepen statussen &#x200B;](../../../administration-and-setup/manage-groups/manage-group-statuses/how-groups-inherit-statuses.md) erven.
+Voor meer informatie, zie [ Hoe de groepen statussen ](../../../administration-and-setup/manage-groups/manage-group-statuses/how-groups-inherit-statuses.md) erven.
 
 ## Wanneer een standaardstatus verborgen is
 
@@ -109,4 +107,4 @@ Als u een standaardstatus verbergt (door de statusoptie Verbergen hiervoor in te
 
 Als er geen beschikbare status van het gelijkwaardige type is, toont het statustype als **Verborgen** en is niet beschikbaar voor het werkpunten.
 
-![&#x200B; Geen beschikbare status &#x200B;](assets/when-hide-default-status-no-equivalent.png)
+![ Geen beschikbare status ](assets/when-hide-default-status-no-equivalent.png)

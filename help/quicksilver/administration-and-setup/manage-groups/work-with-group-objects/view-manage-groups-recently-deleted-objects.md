@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: d5fbc71b-3b22-48d1-a056-f2c4b32c220c
-source-git-commit: 485f2985c70b1bb095e31323b7b4698bcb7a04cf
+source-git-commit: 7eaff1c74cd880bde062e6fdf169c73d6eeb7f75
 workflow-type: tm+mt
-source-wordcount: '437'
+source-wordcount: '414'
 ht-degree: 0%
 
 ---
@@ -25,40 +25,37 @@ Wanneer u een groep bekijkt die u in het gebied van Groepen beheert, kunt u met 
 
 Als er om het even welke groepen boven uw groep zijn, kunnen hun beheerders deze dingen voor uw groep ook doen. Hetzelfde geldt voor Workfront-beheerders (voor elke groep).
 
-Voor meer informatie over geschrapte punten, zie [&#x200B; verwijderde punten &#x200B;](../../../administration-and-setup/manage-workfront/manage-deleted-items/manage-deleted-items.md) leiden.
+Voor meer informatie over geschrapte punten, zie [ verwijderde punten ](../../../administration-and-setup/manage-workfront/manage-deleted-items/manage-deleted-items.md) leiden.
 
 ## Toegangsvereisten
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
-
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan</td> 
-   <td>Alle</td> 
+   <td>Adobe Workfront-pakket</td> 
+   <td><p>Alle</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie</td>
-   <td><p>Nieuw: Standaard</p>
-       <p>of</p>
-       <p>Huidig: Plan</p></td>
-  <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau</td> 
+   <td>Adobe Workfront-licentie</td> 
+   <td><p>Standard</p>
+       <p>Plan</p></td>
+  </tr> 
+  <tr>
+   <td>Configuraties op toegangsniveau</td> 
    <td>U moet een groepsbeheerder van de groep of een systeembeheerder zijn.</td>
   </tr>
   <tr> 
-   <td role="rowheader">Objectmachtigingen</td>
+   <td>Objectmachtigingen</td>
    <td>De verwijderde items moeten worden gekoppeld aan de groep of een van de subgroepen ervan.</td> 
-  </tr> 
   </tr> 
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -66,7 +63,7 @@ Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van d
 
 {{step-1-to-setup}}
 
-1. In het linkerpaneel, klik **Groepen** ![&#x200B; Groepen &#x200B;](assets/groups-icon.png).
+1. In het linkerpaneel, klik **Groepen** ![ Groepen ](assets/groups-icon.png).
 
 1. Klik op de naam van de groep.
 1. In het linkerpaneel, klik **onlangs Geschrapt**.

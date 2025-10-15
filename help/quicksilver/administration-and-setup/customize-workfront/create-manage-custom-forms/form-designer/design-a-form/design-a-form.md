@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 75ac50d23c80aaf1b2100b02780adfe7fd7abb39
+source-git-commit: 15ac51cc13eeb57d2de194a9a6ceec7683acfbe6
 workflow-type: tm+mt
-source-wordcount: '6606'
+source-wordcount: '6583'
 ht-degree: 0%
 
 ---
@@ -31,31 +31,27 @@ U kunt een aangepast formulier ontwerpen met de formulierontwerper in Adobe Work
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Adobe Workfront-plan</p> </td> 
-   <td>Alle</td> 
+  <tr> 
+   <td>Adobe Workfront-pakket</td> 
+   <td><p>Alle</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie</td> 
-   <td>
-   <p>Nieuw: Standaard</p>
-   <p>of</p>
-   <p>Huidig: Plan</p></td> 
+   <td>Adobe Workfront-licentie</td> 
+   <td><p>Standard</p>
+       <p>Plan</p></td>
   </tr> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader">Configuraties op toegangsniveau</td> 
+  <tr> 
+   <td>Configuraties op toegangsniveau</td> 
    <td> <p>Administratieve toegang tot aangepaste formulieren</p> </td> 
   </tr>  
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -68,10 +64,10 @@ Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van d
 1. Klik **Nieuwe Vorm van de Douane.**
 1. Selecteer welke objecten types u de douaneformulier aan wilt vastmaken, dan **blijven** klikken.
 
-   ![&#x200B; kies objecten type &#x200B;](assets/choose-object-type.jpg)
+   ![ kies objecten type ](assets/choose-object-type.jpg)
 
 1. In **voeg een gebied van de vormnaam** toe, typ de titel van de douanevorm.
-1. (Facultatief) als u meer objecten types aan de vorm wilt toevoegen zodat het aan meer voorwerpen kan worden vastgemaakt, **&#x200B;**&#x200B;pictogram ![&#x200B; toevoegen &#x200B;](assets/add-objects-icon.png) naast **Objecttypes**, dan selecteren het type u in het menu wilt dat toont. U kunt dit herhalen om zoveel objecttypen toe te voegen als u wilt.
+1. (Facultatief) als u meer objecten types aan de vorm wilt toevoegen zodat het aan meer voorwerpen kan worden vastgemaakt, **** pictogram ![ toevoegen ](assets/add-objects-icon.png) naast **Objecttypes**, dan selecteren het type u in het menu wilt dat toont. U kunt dit herhalen om zoveel objecttypen toe te voegen als u wilt.
 
    Nadat u meerdere objecten aan het formulier hebt toegevoegd, kunt u op de X op een objecttype klikken om het object uit het formulier te verwijderen.
 
@@ -79,7 +75,7 @@ Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van d
    >
    >Als u een aangepast formulier verwijdert, worden ook alle aangepaste gegevens verwijderd over de objecten die aan het formulier zijn gekoppeld. De verwijderde gegevens kunnen niet worden hersteld. U kunt ook een aangepast formulier deactiveren dat u niet meer gebruikt, zodat alle bijbehorende historische gegevens behouden blijven.
    >
-   >Voor meer informatie, zie [&#x200B; objecttypes van een bestaande douanevorm &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/add-or-remove-objects-from-a-form.md) toevoegen of schrappen en [&#x200B; een douaneformulier &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/activate-deactivate-form.md) deactiveren of reactiveren.
+   >Voor meer informatie, zie [ objecttypes van een bestaande douanevorm ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/add-or-remove-objects-from-a-form.md) toevoegen of schrappen en [ een douaneformulier ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/activate-deactivate-form.md) deactiveren of reactiveren.
 
 
 1. Vervolgens kunt u velden toevoegen aan uw aangepaste formulier. Raadpleeg de volgende secties voor meer informatie:
@@ -135,7 +131,7 @@ Elke aangepaste veldnaam moet uniek zijn in het Workfront-exemplaar van uw organ
 >[!NOTE]
 >
 >Hoewel dit mogelijk is, raden we u aan deze naam niet te wijzigen nadat u of andere gebruikers het aangepaste formulier in Workfront hebben gebruikt. Als u dat doet, herkent het systeem het aangepaste veld niet meer waar er nu naar wordt verwezen in andere gebieden van Workfront.
->&#x200B;>Bijvoorbeeld, als u het douanegebied aan een rapport toevoegt en later zijn naam verandert, herkent Workfront het niet in het rapport en het zal daar ophouden correct te werken tenzij u het aan het rapport gebruikend de nieuwe naam opnieuw toevoegt.
+>>Bijvoorbeeld, als u het douanegebied aan een rapport toevoegt en later zijn naam verandert, herkent Workfront het niet in het rapport en het zal daar ophouden correct te werken tenzij u het aan het rapport gebruikend de nieuwe naam opnieuw toevoegt.
 >
 >We raden u aan geen naam te typen die al wordt gebruikt voor ingebouwde Workfront-velden.
 >
@@ -186,7 +182,7 @@ Een tekstveld toevoegen:
    * Tekst met opmaak
    * Beschrijvende tekst
 
-   ![&#x200B; gebied van de belemmering aan sectie &#x200B;](assets/drag-field-to-section.png)
+   ![ gebied van de belemmering aan sectie ](assets/drag-field-to-section.png)
 
 1. Configureer rechts in het scherm de opties die beschikbaar zijn voor het type aangepast veld dat u toevoegt:
 
@@ -283,7 +279,7 @@ Een tekstveld toevoegen:
 
    Als u een veld wilt kopiëren, plaatst u de muis boven een veld en klikt u op het pictogram Kopiëren.
 
-   ![&#x200B; exemplaarpictogram &#x200B;](assets/copy-field.png)
+   ![ exemplaarpictogram ](assets/copy-field.png)
 
 1. Om uw veranderingen te bewaren, **van toepassing is** en zich op een andere sectie te bewegen om uw vorm verder te bouwen.
 
@@ -295,7 +291,7 @@ Een tekstveld toevoegen:
 
 In een aangepast formulier kunt u een berekend aangepast veld toevoegen waarin bestaande gegevens worden gebruikt om nieuwe gegevens te genereren wanneer het aangepaste formulier aan een object wordt gekoppeld.
 
-Om een berekend gebied toe te voegen, zie [&#x200B; berekende gebieden met de vormontwerper &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) toevoegen.
+Om een berekend gebied toe te voegen, zie [ berekende gebieden met de vormontwerper ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) toevoegen.
 
 ### Keuzerondjes, groepen selectievakjes en vervolgkeuzelijsten toevoegen
 
@@ -323,7 +319,7 @@ Keuzerondjes, groepen selectievakjes en vervolgkeuzelijsten toevoegen:
    * Vervolgkeuzelijst met één keuze
    * Vervolgkeuzelijst met meerdere selecties
 
-   ![&#x200B; belemmering een gebied op het canvas &#x200B;](assets/drag-field-to-section.png)
+   ![ belemmering een gebied op het canvas ](assets/drag-field-to-section.png)
 
 1. Configureer rechts in het scherm de opties die beschikbaar zijn voor het type aangepast veld dat u toevoegt:
 
@@ -435,7 +431,7 @@ Keuzerondjes, groepen selectievakjes en vervolgkeuzelijsten toevoegen:
 
    Als u een veld wilt kopiëren, plaatst u de muis boven een veld en klikt u op het pictogram Kopiëren.
 
-   ![&#x200B; pictogram van het Exemplaar &#x200B;](assets/copy-field.png)
+   ![ pictogram van het Exemplaar ](assets/copy-field.png)
 
 1. Om uw veranderingen te bewaren, **van toepassing is** en zich op een andere sectie te bewegen om uw vorm verder te bouwen.
 
@@ -470,7 +466,7 @@ U voegt als volgt velden voor typekop en datum toe:
    * Typeahead
    * Datum
 
-   ![&#x200B; gebied van de belemmering aan sectie &#x200B;](assets/drag-field-to-section.png)
+   ![ gebied van de belemmering aan sectie ](assets/drag-field-to-section.png)
 
 1. Configureer rechts in het scherm de opties die beschikbaar zijn voor het type aangepast veld dat u toevoegt:
 
@@ -564,7 +560,7 @@ U voegt als volgt velden voor typekop en datum toe:
 
    Als u een veld wilt kopiëren, plaatst u de muis boven een veld en klikt u op het pictogram Kopiëren.
 
-   ![&#x200B; exemplaarpictogram &#x200B;](assets/copy-field.png)
+   ![ exemplaarpictogram ](assets/copy-field.png)
 
 1. Om uw veranderingen te bewaren, **van toepassing is** en zich op een andere sectie te bewegen om uw vorm verder te bouwen.
 
@@ -576,7 +572,7 @@ U voegt als volgt velden voor typekop en datum toe:
 
 Een extern raadplegingsgebied roept externe API aan en keert waarden als opties op een drop-down gebied terug. Gebruikers die werken met het object waaraan het aangepaste formulier is gekoppeld, kunnen een of meer van deze opties in de vervolgkeuzelijst selecteren, afhankelijk van het feit of het externe opzoekveld één veld of een veld met meerdere selecties is. De externe opzoekvelden zijn ook beschikbaar in lijsten en rapporten.
 
-Voor voorbeelden om het Externe raadplegingsgebied te gebruiken om de zelfde instantie van Workfront of openbare API te roepen, zie [&#x200B; Voorbeelden van het Externe raadplegingsgebied in een douanevorm &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/external-lookup-examples.md).
+Voor voorbeelden om het Externe raadplegingsgebied te gebruiken om de zelfde instantie van Workfront of openbare API te roepen, zie [ Voorbeelden van het Externe raadplegingsgebied in een douanevorm ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/external-lookup-examples.md).
 
 >[!NOTE]
 >
@@ -634,12 +630,12 @@ Een externe zoekopdracht toevoegen:
       <td role="rowheader">JSON-pad</td>
       <td><p>Typ of plak het JSON-pad voor de API.</p> <p>Met deze optie kunnen gegevens worden opgehaald uit de JSON die door de API-URL wordt geretourneerd. Hiermee kunt u selecteren welke waarden in de JSON-code worden weergegeven in de vervolgkeuzelijst.</p><p>Bijvoorbeeld, als uw API URL JSON in het volgende formaat terugkeert, dan kunt u "$.data[*].name"gebruiken om V.S. en Canada als drop-down opties te selecteren:</br>
       <pre>
-      &lbrace;
-       data: &lbrace;
+      {
+       data: {
          { name: "USA"},
          { name: "Canada"}
-       &rbrace;
-      &rbrace;
+       }
+      }
       </pre>
       </p>
      <p>Voor meer informatie over de Weg JSON en het verzekeren u de correcte Weg JSON schrijft, verwijs naar <a href="https://jsonpath.com/"> https://jsonpath.com/ </a>.</p></td>
@@ -706,7 +702,7 @@ Afbeeldingen, PDF&#39;s of video&#39;s toevoegen:
    * PDF
    * Video
 
-   ![&#x200B; gebied van de belemmering aan sectie &#x200B;](assets/drag-field-to-section.png)
+   ![ gebied van de belemmering aan sectie ](assets/drag-field-to-section.png)
 
 1. Typ of bewerk een van de volgende eigenschappen voor de widget:
 
@@ -755,7 +751,7 @@ Afbeeldingen, PDF&#39;s of video&#39;s toevoegen:
 
    Als u een veld wilt kopiëren, plaatst u de muis boven een veld en klikt u op het pictogram Kopiëren.
 
-   ![&#x200B; exemplaarpictogram &#x200B;](assets/copy-field.png)
+   ![ exemplaarpictogram ](assets/copy-field.png)
 
 1. Om uw veranderingen te bewaren, **van toepassing is** en zich op een andere sectie te bewegen om uw vorm verder te bouwen.
 
@@ -769,7 +765,7 @@ Afbeeldingen, PDF&#39;s of video&#39;s toevoegen:
 >
 >Wanneer u op deze manier een video toevoegt aan een aangepast formulier, gelden de machtigingen die in het gebied Documenten zijn ingesteld voor de video wanneer gebruikers het formulier openen op een object.
 
-1. Ga naar de video in het gebied van Documenten en produceer een proef voor het, zoals die in [&#x200B; wordt beschreven creeer een interactieve proef voor een website of andere Webinhoud &#x200B;](/help/quicksilver/review-and-approve-work/proofing/creating-proofs-within-workfront/generate-interactive-proof-for-website-or-other-web-content.md).
+1. Ga naar de video in het gebied van Documenten en produceer een proef voor het, zoals die in [ wordt beschreven creeer een interactieve proef voor een website of andere Webinhoud ](/help/quicksilver/review-and-approve-work/proofing/creating-proofs-within-workfront/generate-interactive-proof-for-website-or-other-web-content.md).
 1. Open de proefdruk.
 1. Klik overal op de video met de rechtermuisknop aan, dan selecteer **VideoAdres van het Exemplaar**.
 1. In de douanevorm waar u video widget toevoegt, kleef het gekopieerde adres in de **URL** doos.
@@ -937,7 +933,7 @@ Een Adobe XD-bestand toevoegen:
 
    Als u een veld wilt kopiëren, plaatst u de muis boven een veld en klikt u op het pictogram Kopiëren.
 
-   ![&#x200B; exemplaarpictogram &#x200B;](assets/copy-field.png)
+   ![ exemplaarpictogram ](assets/copy-field.png)
 
 1. Om uw veranderingen te bewaren, **van toepassing is** en zich op een andere sectie te bewegen om uw vorm verder te bouwen.
 
@@ -957,9 +953,9 @@ Een Adobe XD-bestand toevoegen:
 >* Een extra pakket voor Workfront Planning.
 >* Het geval van Workfront van uw organisatie moet aan de Verenigde Ervaring van Adobe worden genegeerd.
 >
-> Voor een volledige lijst van vereisten om tot de Planning van Workfront toegang te hebben, zie [&#x200B; het toegangsoverzicht van de Planning van Adobe Workfront &#x200B;](/help/quicksilver/planning/access/access-overview.md).
+> Voor een volledige lijst van vereisten om tot de Planning van Workfront toegang te hebben, zie [ het toegangsoverzicht van de Planning van Adobe Workfront ](/help/quicksilver/planning/access/access-overview.md).
 > 
->Voor meer informatie over de Planning van Workfront, zie [&#x200B; het Overzicht van de Planning van Adobe Workfront &#x200B;](/help/quicksilver/planning/general/planning-overview.md).
+>Voor meer informatie over de Planning van Workfront, zie [ het Overzicht van de Planning van Adobe Workfront ](/help/quicksilver/planning/general/planning-overview.md).
 
 U kunt records die zijn verbonden via Workfront Planning weergeven in een aangepast veld op een Workfront-object door een aangepast veld voor de planningsverbinding toe te voegen aan het aangepaste formulier van een object.
 
@@ -1033,7 +1029,7 @@ Een verbindingsveld voor planning toevoegen:
 
    Als u een veld wilt kopiëren, plaatst u de muis boven een veld en klikt u op het pictogram Kopiëren.
 
-   ![&#x200B; exemplaarpictogram &#x200B;](assets/copy-field.png)
+   ![ exemplaarpictogram ](assets/copy-field.png)
 
 1. Om uw veranderingen te bewaren, **van toepassing is** en zich op een andere sectie te bewegen om uw vorm verder te bouwen.
 
@@ -1046,11 +1042,11 @@ Een verbindingsveld voor planning toevoegen:
    * Bekijk Workfront Planning-recordtypen die zijn verbonden met het Workfront-object, als er recordtypen zijn.
    * Verbind of maak verslagen van het voorwerp van Workfront los.
 
-   Voor meer informatie, zie [&#x200B; recordverbindingen van de voorwerpen van Workfront beheren &#x200B;](/help/quicksilver/planning/records/manage-records-in-planning-section.md)
+   Voor meer informatie, zie [ recordverbindingen van de voorwerpen van Workfront beheren ](/help/quicksilver/planning/records/manage-records-in-planning-section.md)
 
 ## Een formulier organiseren en een voorbeeld bekijken met de formulierontwerper
 
-Voor informatie over hoe te om een douanevorm met sectieonderbrekingen te organiseren en een voorproef van de vorm te zien, zie [&#x200B; een vorm met de vormontwerper organiseren en voorproef &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md).
+Voor informatie over hoe te om een douanevorm met sectieonderbrekingen te organiseren en een voorproef van de vorm te zien, zie [ een vorm met de vormontwerper organiseren en voorproef ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md).
 
 
 

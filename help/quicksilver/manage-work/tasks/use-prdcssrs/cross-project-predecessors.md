@@ -6,9 +6,9 @@ description: Een voorganger voor meerdere projecten is een taak waarvan een ande
 author: Alina
 feature: Work Management
 exl-id: 7e29e589-e0a5-437e-935d-d5bc1b268594
-source-git-commit: a92c85ad5f58700138d7750423cc3d134d980a9e
+source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
 workflow-type: tm+mt
-source-wordcount: '753'
+source-wordcount: '741'
 ht-degree: 0%
 
 ---
@@ -29,45 +29,69 @@ Wanneer het verbinden van projecten door dwars-project predecessors, zullen de d
 
 >[!TIP]
 >
->U moet chronologie voor de projecten opnieuw berekenen om data te zien die voor het secundaire project worden bijgewerkt. Voor meer informatie bij het opnieuw berekenen van chronologie, zie [&#x200B; chronologieherberekeningen voor projecten &#x200B;](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md) vormen.
+>U moet chronologie voor de projecten opnieuw berekenen om data te zien die voor het secundaire project worden bijgewerkt. Voor meer informatie bij het opnieuw berekenen van chronologie, zie [ chronologieherberekeningen voor projecten ](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md) vormen.
 
-Voor meer informatie over voorgangersverhoudingen, zie [&#x200B; Overzicht van taakvoorgangers &#x200B;](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md).
+Voor meer informatie over voorgangersverhoudingen, zie [ Overzicht van taakvoorgangers ](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md).
 
 ## Toegangsvereisten
 
-+++ Vouw uit om de vereisten voor toegang weer te geven.
-
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan</td> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Standaard </p>
-
-<p>Plan </p>
-   </td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td><p>Standard</p> 
+   <p>Plan</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Toegangsniveau</td> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
    <td> <p>Toegang tot taken en projecten bewerken</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Rechten voor de taken en projecten beheren</p> </td> 
+   <td> <p>Rechten voor de taken en het project beheren</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-*For meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Standard </p> 
+  
+   <p>Plan </p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level</td> 
+   <td> <p>Edit access to Tasks and Projects</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>Manage permissions to the tasks and the projects</p> </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## Een voorganger voor meerdere projecten maken
 
@@ -84,17 +108,17 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    >   Uw Workfront of groepsbeheerder kon de **Predecessors** sectie of andere secties uit het linkerpaneel verwijderen.
 
 1. Klik **toevoegen Voorganger.**
-1. Op het **gebied van het Project van de Ouder 0&rbrace; &lbrace;, begin typend de naam van het project dat de taak bevat die u voorganger aan uw huidige taak wilt zijn.**
+1. Op het **gebied van het Project van de Ouder 0} {, begin typend de naam van het project dat de taak bevat die u voorganger aan uw huidige taak wilt zijn.**
 1. Klik op de naam wanneer deze wordt weergegeven in de vervolgkeuzelijst.
 1. Op het **gebied van Taken**, begin typend de naam van de taak die u voorganger aan uw huidige taak wilt zijn.
 1. Geef de volgende informatie op voor het definiëren van de relatie tussen de voorganger en de afhankelijke taak:
 
 
-   * **Type van Afhankelijkheid:** selecteer de verhouding die u de voorgangertaak met de afhankelijke taak wilt hebben. De standaardverhouding is &quot;eind-Begin,&quot;betekenend dat de voorgangerstaak moet beëindigen alvorens de afhankelijke taak kan beginnen. Voor meer informatie over de diverse gebiedsdeeltypes, zie [&#x200B; Overzicht van de types van taakgebiedsdeel &#x200B;](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
+   * **Type van Afhankelijkheid:** selecteer de verhouding die u de voorgangertaak met de afhankelijke taak wilt hebben. De standaardverhouding is &quot;eind-Begin,&quot;betekenend dat de voorgangerstaak moet beëindigen alvorens de afhankelijke taak kan beginnen. Voor meer informatie over de diverse gebiedsdeeltypes, zie [ Overzicht van de types van taakgebiedsdeel ](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
 
-   * **Lag:** specificeer de hoeveelheid tijd die na de voltooiing van afgedwongen voorganger moet overgaan tot de afhankelijke taak kan beginnen. Voor meer informatie over de diverse soorten vertraging, zie [&#x200B; Overzicht van de Types van Markeringen &#x200B;](../../../manage-work/tasks/use-prdcssrs/lag-types.md).
+   * **Lag:** specificeer de hoeveelheid tijd die na de voltooiing van afgedwongen voorganger moet overgaan tot de afhankelijke taak kan beginnen. Voor meer informatie over de diverse soorten vertraging, zie [ Overzicht van de Types van Markeringen ](../../../manage-work/tasks/use-prdcssrs/lag-types.md).
 
-   * **gedwongen:** wanneer deze optie wordt geselecteerd, kan de gebiedsverhouding tussen de twee taken niet worden omzeild door gebruikers die taken beginnen vroeg. Bijvoorbeeld, als u een verband tussen Taak A en Taak B afdwingt, kan de Taak B niet worden begonnen tot Taak A volledig is. Voor meer informatie over het afdwingen van predecessors, zie [&#x200B; predecessors &#x200B;](../../../manage-work/tasks/use-prdcssrs/enforced-predecessors.md) afdwingen.
+   * **gedwongen:** wanneer deze optie wordt geselecteerd, kan de gebiedsverhouding tussen de twee taken niet worden omzeild door gebruikers die taken beginnen vroeg. Bijvoorbeeld, als u een verband tussen Taak A en Taak B afdwingt, kan de Taak B niet worden begonnen tot Taak A volledig is. Voor meer informatie over het afdwingen van predecessors, zie [ predecessors ](../../../manage-work/tasks/use-prdcssrs/enforced-predecessors.md) afdwingen.
 
      Als deze optie niet is geselecteerd, wordt de afhankelijkheid behandeld als een suggestie voor gebruikers. Bijvoorbeeld, kunnen de gebruikers Taak B beginnen alvorens Taak A volledig is.
 
@@ -102,7 +126,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
    De taken die een dwars-projectvoorganger hebben tonen het verwijzingsaantal van het project predecessor tot behoort en het aantal van de taak, die door een dubbelpunt wordt gescheiden, in de kolom van Predecessors op een taaklijst.
 
-   ![&#x200B; dwars-project voorganger &#x200B;](assets/cross-project-predecessor-in-list-view.png)
+   ![ dwars-project voorganger ](assets/cross-project-predecessor-in-list-view.png)
 
    Het voorgangspictogram wordt groen als de voorganger de markering Voltooid heeft. Dit wijst erop dat de afhankelijke taak klaar voor het werk is.
 
@@ -112,7 +136,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
    Klik **zie Project** om het project van de voorganger te openen.
 
-   ![&#x200B; dwars-project voorgangersdetails &#x200B;](assets/cross-project-predecessor-details.png)
+   ![ dwars-project voorgangersdetails ](assets/cross-project-predecessor-details.png)
 
    >[!TIP]
    >

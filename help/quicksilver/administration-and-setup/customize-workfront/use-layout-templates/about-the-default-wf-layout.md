@@ -9,22 +9,22 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: a68bca5e-1cec-432d-bb38-14b426a9c051
-source-git-commit: 76797ce2afb6a6a929531f02ed3a3b3f75240602
+source-git-commit: 76e32fa6b87583d2b8c296045da731afdb6d1f9a
 workflow-type: tm+mt
 source-wordcount: '614'
-ht-degree: 0%
+ht-degree: 17%
 
 ---
 
 # De standaard Adobe Workfront-lay-out
 
-De standaardlay-out is de regeling van het Belangrijkste het menupictogram van het Menu ![&#x200B; Belangrijkste &#x200B;](assets/main-menu-icon.png) of het Belangrijkste het menupictogram van het Menu ![&#x200B; &#x200B;](assets/main-menu-icon.png), als beschikbaar, het linkerpaneel, en de meningen, groeperingen, en filters alvorens een beheerder van Adobe Workfront om het even welke veranderingen gebruikend een lay-outmalplaatje aanbrengt.
+De standaardlay-out is de regeling van het Belangrijkste het menupictogram van het Menu ![ Belangrijkste ](assets/main-menu-icon.png) of het Belangrijkste het menupictogram van het Menu ![ ](assets/main-menu-icon-left-nav.png), als beschikbaar, het linkerpaneel, en de meningen, groeperingen, en filters alvorens een beheerder van Adobe Workfront om het even welke veranderingen gebruikend een lay-outmalplaatje aanbrengt.
 
-Voor informatie over hoe een beheerder van Workfront de standaardlay-out van een gebruiker kan wijzigen door de gebruiker een lay-outmalplaatje toe te wijzen, zie [&#x200B; gebruikers aan een lay-outmalplaatje &#x200B;](../../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md) toewijzen.
+Voor informatie over hoe een beheerder van Workfront de standaardlay-out van een gebruiker kan wijzigen door de gebruiker een lay-outmalplaatje toe te wijzen, zie [ gebruikers aan een lay-outmalplaatje ](../../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md) toewijzen.
 
 >[!NOTE]
 >
->Gebruikers kunnen hun eigen lay-out wijzigen door hun voorkeuren voor gebruikersprofielen te bewerken. Voor meer informatie, zie de [&#x200B; sectie van de Voorkeur &#x200B;](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md#preferences) in [&#x200B; Mijn Montages &#x200B;](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md) vormen.
+>Gebruikers kunnen hun eigen lay-out wijzigen door hun voorkeuren voor gebruikersprofielen te bewerken. Voor meer informatie, zie de [ sectie van de Voorkeur ](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md#preferences) in [ Mijn Montages ](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md) vormen.
 
 ## Standaardmenu-items voor elk type licentie
 
@@ -37,7 +37,7 @@ Uw organisatie kan twee typen licenties toewijzen:
 
 <!--rename the above if we change Current to Legacy-->
 
-Voor meer informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ### Standaardhoofdmenu voor huidige licentietypen
 
@@ -56,7 +56,7 @@ In de volgende tabel worden de standaarditems van het hoofdmenu en de items van 
   </tr></thead>
 <tbody>
   <tr>
-    <td class="tg-0lax">Home</td>
+    <td class="tg-0lax">Startpagina</td>
     <td class="tg-0lax">De Prioriteiten van het huis <br></td>
     <td class="tg-0lax">✔ (standaardbestemmingspagina)</td>
     <td class="tg-0lax">✔ (standaardbestemmingspagina)</td>
@@ -258,7 +258,7 @@ In de volgende tabel worden de standaarditems van het hoofdmenu en de items van 
 
 </tbody></table>
 
-*U moet zijn ingeschreven voor de bètaversie van canvasdashboards om dit gebied te kunnen bekijken. Voor meer informatie, zie {de bètainformatie van de Dashboards van het 0} Canvas [&#128279;](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md).
+*U moet zijn ingeschreven voor de bètaversie van canvasdashboards om dit gebied te kunnen bekijken. Voor meer informatie, zie {de bètainformatie van de Dashboards van het 0} Canvas [.](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md)
 
 ### Standaardhoofdmenu voor nieuwe licentietypen
 
@@ -269,14 +269,14 @@ In de volgende tabel worden de standaarditems van het hoofdmenu en de items van 
     <th class="tg-fymr">Gebied</th>
     <th class="tg-fymr">Items van het linkerdeelvenster</th>
     <th class="tg-fymr">Systeembeheerder</th>
-    <th class="tg-fymr">Standaard</th>
+    <th class="tg-fymr">Standard</th>
     <th class="tg-fymr">Licht</th>
     <th class="tg-fymr">Medewerker</th>
     <th class="tg-fymr">Externe gebruiker</th>
   </tr></thead>
 <tbody>
   <tr>
-    <td class="tg-0pky">Home</td>
+    <td class="tg-0pky">Startpagina</td>
     <td class="tg-0pky">De Prioriteiten van het huis <br></td>
     <td class="tg-0pky">✔ (standaardbestemmingspagina)</td>
     <td class="tg-0pky">✔ (standaardbestemmingspagina)</td>
@@ -457,7 +457,7 @@ In de volgende tabel worden de standaarditems van het hoofdmenu en de items van 
   </tr>
 </tbody></table>
 
-*U moet zijn ingeschreven voor de bètaversie van canvasdashboards om dit gebied te kunnen bekijken. Voor meer informatie, zie {de bètainformatie van de Dashboards van het 0} Canvas [&#128279;](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md).
+*U moet zijn ingeschreven voor de bètaversie van canvasdashboards om dit gebied te kunnen bekijken. Voor meer informatie, zie {de bètainformatie van de Dashboards van het 0} Canvas [.](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md)
 
 <!--
 

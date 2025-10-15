@@ -2,13 +2,13 @@
 product-area: projects
 navigation-topic: manage-tasks
 title: Taakgegevens beheren in het gebied Overzicht van taakdetails
-description: Taakgegevens beheren in het gebied Overzicht van taakdetails
+description: U kunt de informatie van een taak bekijken of uitgeven door tot het gebied van het Overzicht van de sectie van de Details van de Taak toegang te hebben. Er is een beperkt aantal velden dat u kunt weergeven of bewerken in de sectie Taakdetails.
 author: Alina
 feature: Work Management
 exl-id: 4980b28f-914d-4cf9-813f-14983aac660b
-source-git-commit: 5b7a5aff0f8bdf7cf8429ac29b50c3beaf4bd3b4
+source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
 workflow-type: tm+mt
-source-wordcount: '2089'
+source-wordcount: '2102'
 ht-degree: 0%
 
 ---
@@ -19,41 +19,41 @@ ht-degree: 0%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: some of the information (fields) in this article is also in the Edit tasks article; if you need to update one field, do it in both articles)</p>
 -->
 
-U kunt de informatie van een taak bekijken of uitgeven door tot het gebied van het Overzicht van de sectie van de Details van de Taak toegang te hebben. Er is een beperkt aantal velden dat u in dit gebied kunt weergeven of bewerken. Voor informatie over het uitgeven van alle informatie voor een taak zie [&#x200B; taken &#x200B;](../../../manage-work/tasks/manage-tasks/edit-tasks.md) uitgeven.
+U kunt de informatie van een taak bekijken of uitgeven door tot het gebied van het Overzicht van de sectie van de Details van de Taak toegang te hebben. Er is een beperkt aantal velden dat u kunt weergeven of bewerken in de sectie Taakdetails.
+
+Voor informatie over het uitgeven van alle informatie voor een taak zie [ taken ](../../../manage-work/tasks/manage-tasks/edit-tasks.md) uitgeven.
 
 Dit artikel beschrijft om informatie op het gebied van het Overzicht van de Details van de Taak te bekijken of uit te geven. Raadpleeg de volgende artikelen voor informatie over het bijwerken van andere taakdetails:
 
-* [&#x200B; beheer taakfinanciën in de sectie van de Details van de Taak &#x200B;](../../../manage-work/tasks/manage-tasks/task-finances-in-details.md)
-* [&#x200B; voeg een douanevorm aan een voorwerp &#x200B;](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md) toe
+* [ beheer taakfinanciën in de sectie van de Details van de Taak ](../../../manage-work/tasks/manage-tasks/task-finances-in-details.md)
+* [ voeg een douanevorm aan een voorwerp ](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md) toe
 * [Aangepaste formulieren beheren die zijn gekoppeld aan objecten](../../../workfront-basics/work-with-custom-forms/manage-custom-forms-attached-to-objects.md)
 
 ## Toegangsvereisten
 
-U moet het volgende hebben:
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven. 
 
 <table style="table-layout:auto"> 
- <caption style="text-align: left;">
-   *Neem contact op met uw Workfront-beheerder om te weten te komen welk abonnement, licentietype of toegang u hebt. 
- </caption> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td> <p>Adobe Workfront <b> plan* </b> </p> </td> 
+   <td> <p>Adobe Workfront-pakket</p> </td> 
    <td>Alle</td> 
   </tr> 
   <tr> 
-   <td> <p>Adobe Workfront<b> license*</b> </p> </td> 
-   <td> <p>Werk of hoger</p> </td> 
+   <td> <p>Adobe Workfront-licentie </p> </td> 
+   <td><p>Standard</p> 
+   <p>Werk of hoger</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td><strong> het niveauconfiguraties van de Toegang* </strong> </td> 
-   <td> <p>De mening of hogere toegang tot Projecten en Taken</p> <p>Als u het juiste toegangsniveau hebt maar nog steeds de sectie Details van de taak niet kunt bewerken, vraagt u de Adobe Workfront of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan veranderen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
+   <td>Configuraties op toegangsniveau</td> 
+   <td> <p>De mening of hogere toegang tot Projecten en Taken</p> <p>Als u het juiste toegangsniveau hebt maar nog steeds de sectie Details van de taak niet kunt bewerken, vraagt u de Adobe Workfront of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><strong> de toestemmingen van Objecten </strong> </p> </td> 
-   <td> <p>Contribute- of hogere machtigingen voor het project</p> <p>De toestemmingen van de mening voor de taak om informatie in de sectie van Details te bekijken. </p> 
-   <p>Contribute-machtigingen voor de taak om de volgende gegevens bij te werken in de sectie Details:</p>
+   <td> <p>Objectmachtigingen</p> </td> 
+   <td> <p>Contribute of hoger voor het project</p> <p>De toestemmingen van de mening voor de taak om informatie in de sectie van Details te bekijken. </p> 
+   <p>Contribute-machtigingen voor de taak om de volgende gegevens in de sectie Details bij te werken:</p>
 
 <ul>
    <li>Beschrijving</li>
@@ -65,6 +65,42 @@ U moet het volgende hebben:
  </tbody> 
 </table>
 
+Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
+<!--Old:
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td> <p>Adobe Workfront<b> plan*</b> </p> </td> 
+   <td>Any</td> 
+  </tr> 
+  <tr> 
+   <td> <p>Adobe Workfront<b> license*</b> </p> </td> 
+   <td> <p>Work or higher</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td><strong>Access level configurations*</strong> </td> 
+   <td> <p>View or higher access to Projects and Tasks</p> <p>If you have the correct access level but still can't edit the Details  section  of the task, ask your Adobe Workfront if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td> <p><strong>Object permissions</strong> </p> </td> 
+   <td> <p>Contribute or higher permissions for the project</p> <p>View permissions for the task to view information in the Details section. </p> 
+   <p>Contribute permissions for the task to update the following information  in the Details section:</p>
+
+   <ul>
+   <li>Description</li>
+   <li>Status</li>
+   </ul>
+   
+   <p>Manage permissions for the task to update all information in the Details section.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>-->
+
 ## Taakgegevens bewerken in de sectie Overzicht van taakdetails
 
 1. Ga naar een taak die u wilt bekijken of uitgeven.
@@ -75,7 +111,7 @@ U moet het volgende hebben:
 
    >[!NOTE]
    >
-   >Afhankelijk van hoe uw Workfront-beheerder of groepsbeheerder onze lay-outsjabloon instelt, kunnen de velden in de sectie Taakdetails opnieuw worden gerangschikt of niet worden weergegeven. Voor informatie, zie [&#x200B; de mening van Details aanpassen gebruikend een lay-outmalplaatje &#x200B;](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
+   >Afhankelijk van hoe uw Workfront-beheerder of groepsbeheerder onze lay-outsjabloon instelt, kunnen de velden in de sectie Taakdetails opnieuw worden gerangschikt of niet worden weergegeven. Voor informatie, zie [ de mening van Details aanpassen gebruikend een lay-outmalplaatje ](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
 
 1. Klik **uitgeven** pictogram ![](assets/edit-icon.png) in de hoger-juiste hoek van de sectie van Details, dan klik **Overzicht**.
 
@@ -117,7 +153,7 @@ U moet het volgende hebben:
         <li> <p>Normaal </p> </li> 
         <li> <p>Hoog </p> </li> 
         <li> <p> Dringend </p> </li> 
-       </ul> <p>Afhankelijk van de projectvoorkeuren die door uw Workfront-beheerder zijn geselecteerd, kunnen de namen van prioriteiten voor u anders zijn. Voor informatie over taakprioriteiten, zie {de Prioriteit van de Taak van 0} Update </a>.<a href="../../../manage-work/tasks/task-information/task-priority.md" class="MCXref xref"> </p> </td> 
+       </ul> <p>Afhankelijk van de projectvoorkeuren die door uw Workfront-beheerder zijn geselecteerd, kunnen de namen van prioriteiten voor u anders zijn. Voor informatie over taakprioriteiten, zie {de Prioriteit van de Taak van 0} Update <a href="../../../manage-work/tasks/task-information/task-priority.md" class="MCXref xref">.</a> </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Duur</td> 

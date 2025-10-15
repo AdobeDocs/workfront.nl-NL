@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 83ff53ac-f18e-4b71-bdb2-57e05d69ed29
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: b102960e088f072f10baadcbeca4f7f579daa287
 workflow-type: tm+mt
-source-wordcount: '658'
+source-wordcount: '580'
 ht-degree: 0%
 
 ---
@@ -46,7 +46,7 @@ In dit artikel wordt beschreven hoe u een koppeling naar de pagina van een recor
 
 ## Toegangsvereisten
 
-+++ Vouw uit om de vereisten voor toegang weer te geven.
++++ Breid uit om de toegangsvereisten voor de functionaliteit in dit artikel te bekijken. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -56,50 +56,24 @@ In dit artikel wordt beschreven hoe u een koppeling naar de pagina van een recor
 <tbody> 
     <tr> 
 <tr> 
-<td> 
-   <p> Producten</p> </td> 
-   <td> 
-   <ul><li><p> Adobe Workfront</p></li> 
-   <li><p> Adobe Workfront Planning<p></li></ul></td> 
-  </tr>   
+</tr>   
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront-abonnement*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront-pakket</p></td> 
    <td> 
-<p>Een van de volgende Workfront-plannen:</p> 
-<ul><li>Selecteren</li> 
-<li>Prime</li> 
-<li>Ultimate</li></ul> 
-<p>Workfront Planning is niet beschikbaar voor oudere Workfront-plannen</p> 
+<ul> 
+<li><p>Alle Workfront en alle planningspakketten</p></li>
+of
+<li><p>Alle workflows en planningspakketten</li></ul>
+<p>Neem voor meer informatie over wat er in elk planningspakket voor Workfront staat, contact op met uw Workfront-accountvertegenwoordiger. </p> 
    </td> 
-<tr> 
-   <td role="rowheader"><p>Adobe Workfront-planningspakket*</p></td> 
-   <td> 
-<p>Alle </p> 
-<p>Neem contact op met uw Workfront-accountmanager voor meer informatie over wat er in elk Workfront-planningsplan is opgenomen. </p> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront-licentie</p></td> 
+   <td><p>Medewerker of hoger</p>
    </td> 
- <tr> 
-   <td role="rowheader"><p>Adobe Workfront-platform</p></td> 
-   <td> 
-<p>Het geval van Workfront van uw organisatie moet aan de Verenigde Ervaring van Adobe worden genegeerd om tot de Planning van Workfront te kunnen toegang hebben.</p> 
-<p>Voor meer informatie, zie <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md"> Adobe Verenigde Ervaring voor Workfront </a>. </p> 
-   </td> 
-   </tr> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront-licentie*</p></td> 
-   <td><p> Medewerker of hogere licentie </p>
-   <p>Workfront Planning is niet beschikbaar voor oudere Workfront-licenties</p> 
-  </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><p>Configuratie op toegangsniveau</p></td> 
-   <td> <p>Er zijn geen toegangsniveaucontroles voor de Planning van Adobe Workfront</p>   
-</td> 
-  </tr> 
-<tr> 
    <td role="rowheader"><p>Objectmachtigingen</p></td> 
-   <td>  <p>Machtigingen weergeven of hoger voor een werkruimte en de functie opnemen om te delen   een record met behulp van een koppeling </p>
-   <p>Machtigingen beheren voor een werkruimte en recordtype om de records in de werkruimte te delen </p>
+   <td>  <p>Machtigingen voor een werkruimte weergeven of hoger en recordtype opnemen om een record te delen met een koppeling</p>
    <p>Systeembeheerders hebben machtigingen voor alle werkruimten, inclusief de werkruimten die ze niet hebben gemaakt</p>  </td> 
   </tr> 
 <tr>
@@ -107,13 +81,78 @@ In dit artikel wordt beschreven hoe u een koppeling naar de pagina van een recor
    <td> De gebruikers met een Licht of de vergunning van de Medewerker moeten een lay-outmalplaatje worden toegewezen dat Planning omvat.
    <p>De standaardgebruikers en de Beheerders van het Systeem hebben de Gebieden van de Planning die door gebrek worden toegelaten.</p></div></li></ul>
 </td>
-  </tr>
+  </tr> 
 </tbody> 
 </table>
 
-*Voor meer informatie over de toegangsvereisten van Workfront, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer informatie over de toegangsvereisten van Workfront, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-+++
++++  
+
+
+<!--Old:
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+    <tr> 
+<tr> 
+<td> 
+   <p> Products</p> </td> 
+   <td> 
+   <ul><li><p> Adobe Workfront</p></li> 
+   <li><p> Adobe Workfront Planning<p></li></ul></td> 
+  </tr>   
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront plan*</p></td> 
+   <td> 
+<p>Any of the following Workfront plans:</p> 
+<ul><li>Select</li> 
+<li>Prime</li> 
+<li>Ultimate</li></ul> 
+<p>Workfront Planning is not available for legacy Workfront plans</p> 
+   </td> 
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront Planning package*</p></td> 
+   <td> 
+<p>Any </p> 
+<p>For more information about what is included in each Workfront Planning plan, contact your Workfront account manager. </p> 
+   </td> 
+ <tr> 
+   <td role="rowheader"><p>Adobe Workfront platform</p></td> 
+   <td> 
+<p>Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience to be able to access Workfront Planning.</p> 
+<p>For more information, see <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p> 
+   </td> 
+   </tr> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront license*</p></td> 
+   <td><p> Contributor or higher license </p>
+   <p>Workfront Planning is not available for legacy Workfront licenses</p> 
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Access level configuration</p></td> 
+   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+</td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>Object permissions</p></td> 
+   <td>  <p>View or higher permissions to a workspace and record typeto share   a record using a link </p>
+   <p>Manage permissions to a workspace and record type to share the records in the workspace </p>
+   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>  </td> 
+  </tr> 
+<tr>
+   <td role="rowheader"><p>Layout template</p></td>
+   <td> Users with a Light or Contributor license must be assigned a layout template that includes Planning.
+   <p>Standard users and System Administrators have the Planning areas enabled by default.</p></div></li></ul>
+</td>
+  </tr>
+</tbody> 
+</table> -->
 
 
 ## Recordkoppelingen delen vanuit de tabelweergave van het recordtype
@@ -131,9 +170,9 @@ De werkruimte die u het laatst hebt geopend.
 
    of
 
-   Beweeg over de naam van een verslag, klik **Meer** menu ![&#x200B; Meer menu &#x200B;](assets/more-menu.png), dan klik **verbinding van het Exemplaar**.
+   Beweeg over de naam van een verslag, klik **Meer** menu ![ Meer menu ](assets/more-menu.png), dan klik **verbinding van het Exemplaar**.
 
-   ![&#x200B; Contextueel menu voor verslagrij &#x200B;](assets/contextual-menu-for-record-row.png)
+   ![ Contextueel menu voor verslagrij ](assets/contextual-menu-for-record-row.png)
 
    De koppeling wordt naar het klembord gekopieerd.
 
@@ -154,7 +193,7 @@ Recordtypen en records nemen dezelfde machtigingen over van de werkruimte.
 
 Alleen gebruikers met de machtiging Beheren in een werkruimte kunnen deze delen met anderen.
 
-Voor meer informatie, zie [&#x200B; een werkruimte &#x200B;](/help/quicksilver/planning/access/share-workspaces.md) delen.
+Voor meer informatie, zie [ een werkruimte ](/help/quicksilver/planning/access/share-workspaces.md) delen.
 
 ## Alle records in een recordtype delen door het recordtype te delen
 
@@ -169,5 +208,5 @@ U kunt echter een van de volgende handelingen uitvoeren:
 
 Alleen gebruikers met de machtiging Beheren in een werkruimte kunnen hun recordtypen en records delen met anderen.
 
-Voor meer informatie, zie [&#x200B; recordtypes van het Aandeel &#x200B;](/help/quicksilver/planning/access/share-record-types.md).
+Voor meer informatie, zie [ recordtypes van het Aandeel ](/help/quicksilver/planning/access/share-record-types.md).
 

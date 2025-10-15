@@ -6,9 +6,9 @@ description: Soms worden nieuwe software-updates met verbeteringen en foutoploss
 author: Courtney
 feature: Digital Content and Documents
 exl-id: b29ce9d0-9203-49aa-aa4c-70dee121cd17
-source-git-commit: 21d4fb3bd2a6c08b390338d28e357a80f4befeae
+source-git-commit: 385f4a6663cacfdcf519bf5699fc1840c2cb2adc
 workflow-type: tm+mt
-source-wordcount: '332'
+source-wordcount: '302'
 ht-degree: 0%
 
 ---
@@ -33,15 +33,17 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan</td> 
-   <td> <p>Huidig abonnement: Pro of hoger</p> <p>of</p> <p>Verouderd abonnement: Selecteren of Premium</p> <p>Voor meer informatie over het proefdrukken van toegang met de verschillende plannen, zie <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref"> Toegang tot het proefdrukken van functionaliteit in Workfront </a>.</p> </td> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Alle</p> <p>Ouder plan: Willekeurig (proefdrukken moet zijn ingeschakeld voor de gebruiker)</p> </td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
  </tbody> 
 </table>
+
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -65,7 +67,7 @@ Handmatig controleren op updates:
 
 ## Standaardupdates
 
-De Desktop Proofing Viewer kan functioneren zonder de niet-kritieke updates. Voor een optimale functionaliteit raden we u echter aan deze toe te passen als ze beschikbaar zijn. U zult op de hoogte worden gesteld wanneer zij door een **update** knoop van de App &lbrace;in de linkerzijbalk van de Kijker van het Proofing van de Desktop beschikbaar zijn.
+De Desktop Proofing Viewer kan functioneren zonder de niet-kritieke updates. Voor een optimale functionaliteit raden we u echter aan deze toe te passen als ze beschikbaar zijn. U zult op de hoogte worden gesteld wanneer zij door een **update** knoop van de App {in de linkerzijbalk van de Kijker van het Proofing van de Desktop beschikbaar zijn.
 
 1. Klik **update van de App.**
 

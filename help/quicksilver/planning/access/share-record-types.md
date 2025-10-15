@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: bf49db73-09f1-417e-836b-16c6062740d4
-source-git-commit: a4bb3582eb476acbefa5d11db1f2c06eafc13cdd
+source-git-commit: c879d06cfe7ba76df3e974c160a7349f1503f17f
 workflow-type: tm+mt
-source-wordcount: '1540'
+source-wordcount: '1473'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 <span class="preview"> de informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>
 
-<span class="preview"> voor informatie over snelle versies, zie [&#x200B; snelle versies voor uw organisatie &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
+<span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
 
 {{planning-important-intro}}
 
@@ -29,18 +29,67 @@ U kunt een recordtype met anderen delen om samenwerking te verzekeren wanneer he
 >[!IMPORTANT]
 >
 >Gebruikers met toegang tot een werkruimte krijgen automatisch minstens weergavemachtigingen voor alle recordtypen in de werkruimte.
->&#x200B;>Als u weergaven deelt, geeft u gebruikers geen machtigingen om gegevenstypen op te nemen. Alleen werkruimten delen kan gebruikers machtigingen verlenen om gegevenstypen op te nemen.
+>>Als u weergaven deelt, geeft u gebruikers geen machtigingen om gegevenstypen op te nemen. Alleen werkruimten delen kan gebruikers machtigingen verlenen om gegevenstypen op te nemen.
 >
->* Voor algemene informatie over het delen van voorwerpen in de Planning van Workfront, zie ook [&#x200B; Overzicht van het delen van toestemmingen in de Planning van Adobe Workfront &#x200B;](/help/quicksilver/planning/access/sharing-permissions-overview.md).
->* Voor meer informatie, zie de [&#x200B; Overwegingen wanneer het delen van verslagtypes &#x200B;](#considerations-when-sharing-record-types) sectie in dit artikel.
+>* Voor algemene informatie over het delen van voorwerpen in de Planning van Workfront, zie ook [ Overzicht van het delen van toestemmingen in de Planning van Adobe Workfront ](/help/quicksilver/planning/access/sharing-permissions-overview.md).
+>* Voor meer informatie, zie de [ Overwegingen wanneer het delen van verslagtypes ](#considerations-when-sharing-record-types) sectie in dit artikel.
 
 ## Toegangsvereisten
 
-+++ Vouw uit om de vereisten voor toegang weer te geven.
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven. 
 
 <!--at GA, check that the Workfront plans article linked below has Planning info-->
 
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
+
+
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+    <tr> 
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront-pakket</p></td> 
+   <td> 
+<p>Alle Workfront- en planningspakketten</p> 
+of
+<p>Willekeurig workflowpakket en planningspakket</p> 
+ </tr>
+
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront-licentie</p></td> 
+   <td><p>Alle</p> 
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Configuratie op toegangsniveau</p></td> 
+   <td> <p>Er zijn geen toegangsniveaucontroles voor de Planning van Adobe Workfront</p>   
+</td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>Objectmachtigingen</p></td> 
+   <td>  <p>Machtigingen beheren voor een werkruimte en een recordtype</p>  
+   <p><b>BELANGRIJK</b></p>
+   <p>Alleen gebruikers met de machtiging Beheren in een werkruimte kunnen beheermachtigingen delen met een recordtype</p></td> 
+  </tr>
+<tr>
+   <td role="rowheader"><p>Lay-outsjabloon</p></td>
+   <td> De gebruikers met een Licht of de vergunning van de Medewerker moeten een lay-outmalplaatje worden toegewezen dat Planning omvat.
+   <p>De standaardgebruikers en de Beheerders van het Systeem hebben de Gebieden van de Planning die door gebrek worden toegelaten.</p></div></li></ul>
+
+</td>
+  </tr>
+
+</tbody> 
+</table>
+
+
+Voor meer informatie over de toegangsvereisten van Workfront, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
+<!--Old:
 
 <table style="table-layout:auto"> 
 <col> 
@@ -51,58 +100,54 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
     <tr> 
 <tr> 
 <td> 
-   <p> Producten</p> </td> 
+   <p> Products</p> </td> 
    <td> 
    <ul><li><p> Adobe Workfront</p></li> 
    <li><p> Adobe Workfront Planning<p></li></ul></td> 
   </tr>   
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront-abonnement*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront plan*</p></td> 
    <td> 
-<p>Een van de volgende Workfront-plannen:</p> 
-<ul><li>Selecteren</li> 
+<p>Any of the following Workfront plans:</p> 
+<ul><li>Select</li> 
 <li>Prime</li> 
 <li>Ultimate</li></ul> 
-<p>Workfront Planning is niet beschikbaar voor oudere Workfront-plannen</p> 
+<p>Workfront Planning is not available for legacy Workfront plans</p> 
    </td> 
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront-planningspakket*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront Planning package*</p></td> 
    <td> 
-<p>Alle </p> 
-<p>Neem contact op met uw Workfront-accountmanager voor meer informatie over wat er in elk Workfront-planningsplan is opgenomen. </p> 
+<p>Any </p> 
+<p>For more information about what is included in each Workfront Planning plan, contact your Workfront account manager. </p> 
    </td> 
  <tr> 
-   <td role="rowheader"><p>Adobe Workfront-platform</p></td> 
+   <td role="rowheader"><p>Adobe Workfront platform</p></td> 
    <td> 
-<p>Het geval van Workfront van uw organisatie moet aan de Verenigde Ervaring van Adobe worden genegeerd om tot de Planning van Workfront te kunnen toegang hebben.</p> 
-<p>Gebruikers moeten aan de Adobe Admin Console worden toegevoegd om machtigingen te verkrijgen voor de Workfront-planningsweergaven.</p>
-<p>Voor meer informatie, zie <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md"> Adobe Verenigde Ervaring voor Workfront </a>. </p> 
+<p>Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience to be able to access Workfront Planning.</p> 
+<p>Users must be added to the Adobe Admin Console in order to gain permissions to Workfront Planning views.</p>
+<p>For more information, see <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p> 
    </td> 
    </tr> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront-licentie*</p></td> 
-   <td><p> Standaard</p>
-   <p>Workfront Planning is niet beschikbaar voor oudere Workfront-licenties</p> 
+   <td role="rowheader"><p>Adobe Workfront license*</p></td> 
+   <td><p> Standard</p>
+   <p>Workfront Planning is not available for legacy Workfront licenses</p> 
   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Configuratie op toegangsniveau</p></td> 
-   <td> <p>Er zijn geen toegangsniveaucontroles voor de Planning van Adobe Workfront</p>   
+   <td role="rowheader"><p>Access level configuration</p></td> 
+   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
 </td> 
   </tr> 
 <tr> 
-   <td role="rowheader"><p>Objectmachtigingen</p></td> 
-   <td>  <p>Machtigingen beheren voor een recordtype</p>  
-   <p>Alleen gebruikers met de machtiging Beheren in een werkruimte kunnen beheermachtigingen delen met een recordtype</p></td> 
-  </tr>
-
+   <td role="rowheader"><p>Object permissions</p></td> 
+   <td>  <p>Manage permissions to a record type</p>  
+   <p>Only users with Manage permissions to a workspace can share Manage permissions to a record type</p></td> 
+  </tr> 
+ 
 </tbody> 
-</table>
-
-*Voor meer informatie over de toegangsvereisten van Workfront, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
-
-+++
+</table>-->
 
 ## Overwegingen bij het delen van recordtypen
 
@@ -151,7 +196,7 @@ U kunt machtigingen aanpassen voor afzonderlijke recordtypen in een werkruimte a
 
    Het **vakje van het Aandeel** opent.
 
-   ![&#x200B; Toestemmingen voor verslagtypes met geërfte toestemmingen op &#x200B;](assets/permissions-for-record-types-with-inherited-permissions-on.png)
+   ![ Toestemmingen voor verslagtypes met geërfte toestemmingen op ](assets/permissions-for-record-types-with-inherited-permissions-on.png)
 
 1. (Facultatief) in **die toegang** heeft, kan **iedereen in de werkruimte** optie bekijken door gebrek worden geselecteerd.  Alle gebruikers met de machtiging Weergave of hoger voor de werkruimte kunnen het recordtype weergeven.
 
@@ -174,11 +219,11 @@ U kunt machtigingen aanpassen voor afzonderlijke recordtypen in een werkruimte a
 
    >[!IMPORTANT]
    >
-   >* Naast teams, groepen, bedrijven, en baanrollen, kunt u slechts met gebruikers delen die aan Adobe Admin Console zijn toegevoegd. U kunt geen gebruikers met alleen Workfront toevoegen. Voor informatie, zie [&#x200B; gebruikers in Adobe Admin Console &#x200B;](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md) leiden.
+   >* Naast teams, groepen, bedrijven, en baanrollen, kunt u slechts met gebruikers delen die aan Adobe Admin Console zijn toegevoegd. U kunt geen gebruikers met alleen Workfront toevoegen. Voor informatie, zie [ gebruikers in Adobe Admin Console ](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md) leiden.
    >* U kunt gebruikers nooit meer machtigingen geven voor een recordtype dan op een werkruimte.
    >* U kunt gebruikers niet minder bevoegdheden geven dan Beheren voor een recordtype, als zij beheerdersmachtigingen voor de werkruimte hebben.
    >* U kunt gebruikers minder bevoegdheden geven aan het recordtype als zij over Contribute-machtigingen voor de werkruimte beschikken.
-   > Voor meer informatie, zie [&#x200B; Overzicht van het delen van toestemmingen in de Planning van Adobe Workfront &#x200B;](/help/quicksilver/planning/access/sharing-permissions-overview.md).
+   > Voor meer informatie, zie [ Overzicht van het delen van toestemmingen in de Planning van Adobe Workfront ](/help/quicksilver/planning/access/sharing-permissions-overview.md).
 
 1. Om gebruikers te geven die geen toestemmingen aan de werkruimtetoegang hebben om een verslagtype, op de **toegang van de Verlening tot dit mening** gebied te bekijken, begin de naam van een gebruiker, een groep, een team, een bedrijf, of baanrol te typen, dan het te klikken wanneer het in de lijst toont.
 
@@ -211,7 +256,7 @@ U kunt gebruikersmachtigingen verwijderen uit een recordtype. Ze behouden echter
    Het **vakje van het Aandeel** opent.
 1. Vind de gebruiker, de groep, het team, het bedrijf, of de baanrol die de toestemmingen u wilt verwijderen, het drop-down menu van toestemmingen rechts van hun naam uitbreiden, dan **verwijderen** klikken. <!--check the screen shot below - the UI text for View might not be accurate-->
 
-   ![&#x200B; verwijdert optie op verslagtype dat drop-down deelt &#x200B;](assets/remove-option-on-record-type-sharing-drop-down.png)
+   ![ verwijdert optie op verslagtype dat drop-down deelt ](assets/remove-option-on-record-type-sharing-drop-down.png)
 
 1. Klik **sparen**.
 

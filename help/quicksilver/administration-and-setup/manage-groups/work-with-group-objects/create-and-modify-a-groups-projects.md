@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: db90cf52-7c8f-4972-b67f-401657ba9b13
-source-git-commit: 485f2985c70b1bb095e31323b7b4698bcb7a04cf
+source-git-commit: 7eaff1c74cd880bde062e6fdf169c73d6eeb7f75
 workflow-type: tm+mt
-source-wordcount: '466'
+source-wordcount: '443'
 ht-degree: 0%
 
 ---
@@ -29,39 +29,36 @@ Als er om het even welke groepen boven uw groep zijn, kunnen hun beheerders deze
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan</td> 
-   <td>Alle</td> 
+   <td>Adobe Workfront-pakket</td> 
+   <td><p>Alle</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie</td>
-   <td><p>Nieuw: Standaard</p>
-       <p>of</p>
-       <p>Huidig: Plan</p></td>
-  <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau</td> 
+   <td>Adobe Workfront-licentie</td> 
+   <td><p>Standard</p>
+       <p>Plan</p></td>
+  </tr>
+  <tr>
+   <td>Configuraties op toegangsniveau</td> 
    <td>U moet een groepsbeheerder van de groep of een systeembeheerder zijn.</td>
   </tr>
   <tr> 
-   <td role="rowheader">Objectmachtigingen</td>
+   <td>Objectmachtigingen</td>
    <td> 
     <ul> 
      <li> <p>Het project moet met de groep of om het even welk van zijn subgroepen worden geassocieerd. </p> <p>Voor informatie over het toewijzen van een groep aan een project, zie <a href="../../../manage-work/projects/manage-projects/understand-project-overview-area.md" class="MCXref xref"> informatie in het gebied van het projectoverzicht </a> leiden.</p> </li> 
      <li> <p>Bovendien moet u machtigingen hebben om het project te bewerken, omdat u het hebt gemaakt of omdat het met u is gedeeld.</p></li> 
     </ul>
     <p><b> NOTA </b>: Wanneer u een project van de pagina van een groep creeert, wijst het systeem het project aan die groep toe. Dit is anders dan het maken van een project in andere Workfront-gebieden, waar het systeem het project toewijst aan de Home Group van de gebruiker die het maakt (de projecteigenaar).</p> </td>
-  </tr> 
-  </tr> 
+  </tr>
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -69,10 +66,10 @@ Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van d
 
 {{step-1-to-setup}}
 
-1. In het linkerpaneel, klik **Groepen** ![&#x200B; Groepen &#x200B;](assets/groups-icon.png).
+1. In het linkerpaneel, klik **Groepen** ![ Groepen ](assets/groups-icon.png).
 
 1. Klik op de naam van de groep waarvoor u projecten wilt maken, weergeven of bewerken.
-1. In het linkerpaneel, klik **Projecten** ![&#x200B; Projecten in het Belangrijkste Menu &#x200B;](assets/projects-in-main-menu.png) om een lijst van de projecten te bekijken verbonden aan de groep.
+1. In het linkerpaneel, klik **Projecten** ![ Projecten in het Belangrijkste Menu ](assets/projects-in-main-menu.png) om een lijst van de projecten te bekijken verbonden aan de groep.
 
 1. Voer een van de volgende handelingen uit:
 

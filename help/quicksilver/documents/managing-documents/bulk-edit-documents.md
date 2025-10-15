@@ -8,9 +8,9 @@ author: Courtney
 feature: Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: e8badce6-86f5-416c-a238-f9b7f19cdd2d
-source-git-commit: 486b672a67c62b86f3306c9375a286895c2fae01
+source-git-commit: 4a0448583cbcfd1f1df10d6474fdf4e77e7bff3e
 workflow-type: tm+mt
-source-wordcount: '728'
+source-wordcount: '671'
 ht-degree: 0%
 
 ---
@@ -38,33 +38,31 @@ U hebt mogelijk een aangepast formulier met een selectievakje met drie selectiev
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
-U moet het volgende hebben:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-abonnement*</td> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
    <td> <p> Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licenties*</td> 
-   <td><p> Nieuw: Medewerker of hoger</p> 
-   <p> Huidig: Verzoek of hoger</p> </td> 
+   <td><p>Medewerker of hoger</p> 
+   <p>Aanvraag of hoger</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot documenten bewerken</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
+   <td> <p>Toegang tot documenten bewerken</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Toegang tot het document beheren</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
+   <td> <p>Toegang tot het document beheren</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -74,8 +72,8 @@ Documenten in bulk bewerken:
 
 1. Navigeer naar het tabblad Documenten van een project of het gebied Documenten vanuit het hoofdmenu.
 1. Druk op Ctrl of cmd op het toetsenbord en selecteer de documenten die u wilt bewerken.
-1. Klik het Edit pictogram ![&#x200B; uitgeven pictogram &#x200B;](assets/edit-icon.png).
-   ![&#x200B; geef pictogramplaats op pagina uit &#x200B;](assets/edit-multiple-documents.png)
+1. Klik het Edit pictogram ![ uitgeven pictogram ](assets/edit-icon.png).
+   ![ geef pictogramplaats op pagina uit ](assets/edit-multiple-documents.png)
 1. (Facultatief) voeg of geef de **Beschrijving** uit. Als de beschrijving op elk document verschillend is, zult u _Veelvoudige waarden_ in de beschrijvingsdoos zien. U kunt dezelfde beschrijving toevoegen voor alle documenten, maar u kunt afzonderlijke documentbeschrijvingen niet bewerken als u deze bulksgewijs bewerkt.
 1. Breng de volgende wijzigingen aan in aangepaste formulieren:
 
@@ -100,10 +98,10 @@ Documenten in bulk bewerken:
 
 1. Navigeer naar een bestaand documentrapport.
 of
-Creeer een documentrapport zoals die in [&#x200B; wordt beschreven een douanerapport &#x200B;](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) creëren.
+Creeer een documentrapport zoals die in [ wordt beschreven een douanerapport ](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) creëren.
 1. Selecteer de documenten die u wilt bewerken.
-1. Klik het Edit pictogram ![&#x200B; uitgeven pictogram &#x200B;](assets/edit-icon.png).
-   ![&#x200B; geef pictogramplaats op pagina uit &#x200B;](assets/edit-multiple-documents.png)
+1. Klik het Edit pictogram ![ uitgeven pictogram ](assets/edit-icon.png).
+   ![ geef pictogramplaats op pagina uit ](assets/edit-multiple-documents.png)
 1. (Facultatief) voeg of geef de **Beschrijving** uit. Als de beschrijving op elk document verschillend is, zult u _Veelvoudige waarden_ in de beschrijvingsdoos zien. U kunt dezelfde beschrijving toevoegen voor alle documenten, maar u kunt afzonderlijke documentbeschrijvingen niet bewerken als u deze bulksgewijs bewerkt.
 1. Breng de volgende wijzigingen aan in aangepaste formulieren:
 

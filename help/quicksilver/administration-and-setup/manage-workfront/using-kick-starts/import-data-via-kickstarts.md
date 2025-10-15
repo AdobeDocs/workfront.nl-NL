@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 25813946-e338-4dd9-b02c-d20fa18c539c
-source-git-commit: aa2bef064df3ff7dd9e4fd896ac7482df3c55e32
+source-git-commit: 156341072c291b5c03432da399a509d9772b73ea
 workflow-type: tm+mt
-source-wordcount: '2848'
+source-wordcount: '2828'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 <!--Audited: 12/2023-->
 
-Kick-start zijn speciaal opgemaakte Excel-werkboeken die u kunt vullen met gegevens die u in Workfront wilt importeren. Adobe Workfront verstrekt een Kick-Begin malplaatje u kunt gebruiken om dit te doen, zoals verklaard in [&#x200B; Kick-Begint gegevensimporteur &#x200B;](../../../administration-and-setup/manage-workfront/using-kick-starts/kick-starts-data-importer.md).
+Kick-start zijn speciaal opgemaakte Excel-werkboeken die u kunt vullen met gegevens die u in Workfront wilt importeren. Adobe Workfront verstrekt een Kick-Begin malplaatje u kunt gebruiken om dit te doen, zoals verklaard in [ Kick-Begint gegevensimporteur ](../../../administration-and-setup/manage-workfront/using-kick-starts/kick-starts-data-importer.md).
 
 Dit proces wordt opgedeeld in drie hoofdtaken:
 
@@ -34,31 +34,27 @@ Elk van deze procedures wordt geschetst in de juiste orde in dit artikel.
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan</td> 
-   <td>Alle</td> 
+   <td>Adobe Workfront-pakket</td> 
+   <td><p>Alle</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie</td> 
-   <td>
-   <p> Nieuw: Standaard</p>
-   of
-   <p>Huidig: Plan</p></td> 
+   <td>Adobe Workfront-licentie</td> 
+   <td><p>Standard</p>
+       <p>Plan</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau</td> 
-   <td>[!UICONTROL System Administrator]</td> 
+   <td>Configuraties op toegangsniveau</td> 
+   <td>Systeembeheerder</td> 
   </tr> 
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -279,21 +275,21 @@ Een Kick-Start-sjabloon exporteren:
    </table>
 
 1. Klik **Download**.
-1. Ga met [&#x200B; verder bevolken het spreadsheetmalplaatje met uw gegevens &#x200B;](#populate-the-spreadsheet-template-with-your-data) om het lege malplaatjespreadsheet met uw informatie te bevolken.
+1. Ga met [ verder bevolken het spreadsheetmalplaatje met uw gegevens ](#populate-the-spreadsheet-template-with-your-data) om het lege malplaatjespreadsheet met uw informatie te bevolken.
 
 ## De spreadsheetsjabloon vullen met uw gegevens {#populate-the-spreadsheet-template-with-your-data}
 
 * [Overzicht van de tabbladen (gegevensbladen) in het werkblad](#overview-of-the-tabs-data-sheets-included-in-the-spreadsheet)
-* [&#x200B; de Invoer een verslag &#x200B;](#import-a-record)
-* [&#x200B; omvat data &#x200B;](#include-dates)
-* [&#x200B; vervangingen van het Gebruik &#x200B;](#use-wildcards)
+* [ de Invoer een verslag ](#import-a-record)
+* [ omvat data ](#include-dates)
+* [ vervangingen van het Gebruik ](#use-wildcards)
 * [Vervanging van kenmerknaam voor id&#39;s](#attribute-name-substitution-for-ids)
 
 ### Overzicht van de tabbladen (gegevensbladen) in het werkblad
 
 >[!TIP]
 >
->Om beter te begrijpen hoe u de informatie in elke kolom zult moeten formatteren wanneer u het Kick-Begin malplaatje bevolkt, denk na handelend een praktijk door een Kick-Begin met bestaande gegevens van Workfront over de voorwerpen uit te voeren u probeert om in te voeren. Voor instructies, zie [&#x200B; gegevens van de Uitvoer van Adobe Workfront via Kick-Begint &#x200B;](../../../administration-and-setup/manage-workfront/using-kick-starts/export-data-from-wf-via-kick-starts.md).
+>Om beter te begrijpen hoe u de informatie in elke kolom zult moeten formatteren wanneer u het Kick-Begin malplaatje bevolkt, denk na handelend een praktijk door een Kick-Begin met bestaande gegevens van Workfront over de voorwerpen uit te voeren u probeert om in te voeren. Voor instructies, zie [ gegevens van de Uitvoer van Adobe Workfront via Kick-Begint ](../../../administration-and-setup/manage-workfront/using-kick-starts/export-data-from-wf-via-kick-starts.md).
 
 Wanneer u een leeg Kick-Begint malplaatje opent, zijn een aantal lusjes (gegevensbladen) beschikbaar. Ze zijn afhankelijk van de objecten die u hebt geselecteerd om te downloaden. Elk object vertegenwoordigt een object in de toepassing, zoals project, taken, uren, dashboard en gebruikers:
 
@@ -309,7 +305,7 @@ Wanneer u een van deze tabbladen opent, worden in rij 2 de velden weergegeven vo
 >
 >     Als een vereist veld echter een standaardwaarde bevat die is ingesteld in de systeemvoorkeuren, hoeft u deze waarde niet in te vullen.
 >
->     Bijvoorbeeld, op het **lusje van het Project van 0&rbrace; PROJ, kunnen de** setCondition **en** setConditionType **gebieden leeg worden verlaten, maar** setGroupID **en** setName **kolommen kunnen niet.**
+>     Bijvoorbeeld, op het **lusje van het Project van 0} PROJ, kunnen de** setCondition **en** setConditionType **gebieden leeg worden verlaten, maar** setGroupID **en** setName **kolommen kunnen niet.**
 >
 >* Bepaalde gebieden, met inbegrip van **setResourceRevenue** en **setEnteredByID**, worden automatisch geproduceerd door het systeem. Als u gegevens voor deze velden in het werkblad invoert, wordt deze genegeerd tijdens het uploaden van het werkblad.
 
@@ -340,12 +336,12 @@ Elke rij van het blad komt overeen met een uniek object.
    * Als u een malplaatje met gegevens downloadde, bevatten de bestaande voorwerpen reeds GUID als identiteitskaart
    * U kunt een nieuw voorwerp invoeren dat op een bestaand voorwerp wordt gebaseerd door **VALS** te veranderen **WAAR** in de **isNew** kolom, die identiteitskaart veranderen, en de noodzakelijke gegevensaanpassingen alvorens in te voeren.
 
-   ![&#x200B; identiteitskaart van de Steekproef voor een Groep &#x200B;](assets/kick-start-group-example.png)
+   ![ identiteitskaart van de Steekproef voor een Groep ](assets/kick-start-group-example.png)
 
    * Wanneer u een project invoert, moet u op een identiteitskaart van de Groep wijzen.
 
       * Als de groep reeds in Workfront bestaat, moet u zijn unieke identiteitskaart aan het **setGroupID** gebied voor het project toevoegen.
-      * Als de groep niet in Workfront bestaat, kunt u het **blad van de Groep van de 0&rbrace; GROEP aan uw het invoeren dossier toevoegen, plaats het** isNew **gebied aan** WAAR **op het blad van de Groep, en wijs op een numerieke identiteitskaart voor de nieuwe groep in de** identiteitskaart **kolom.** Het **setGroupID** gebied voor het nieuwe project moet numerieke **identiteitskaart** voor de nieuwe groep aanpassen.
+      * Als de groep niet in Workfront bestaat, kunt u het **blad van de Groep van de 0} GROEP aan uw het invoeren dossier toevoegen, plaats het** isNew **gebied aan** WAAR **op het blad van de Groep, en wijs op een numerieke identiteitskaart voor de nieuwe groep in de** identiteitskaart **kolom.** Het **setGroupID** gebied voor het nieuwe project moet numerieke **identiteitskaart** voor de nieuwe groep aanpassen.
 
      **Voorbeeld:** voor een project, moet de waarde die in de **wordt getoond setGroupID** kolom één van het volgende:
 
@@ -360,7 +356,7 @@ Elke rij van het blad komt overeen met een uniek object.
    * In de kolom **setCategoryID**, typ GUID van de bestaande douanevorm waarop dit douanegebied verblijft. Dit veld is vereist bij het importeren van aangepaste gegevens.
    * Als u meerdere gegevenswaarden in het aangepaste veld wilt toevoegen (zoals keuzerondjes, selectievakjes of lijsten), gebruikt u het verticale scheidingsteken voor aangepaste gegevens op de balk &quot;|&quot; in het tabblad Voorkeuren om de waarden van elkaar te scheiden.
 
-     **Voorbeeld:** Type A|D onder DE:De kolom van Departementen om afdeling A en afdeling D in uw douaneformulier te bevolken.
+     **Voorbeeld:** Type A|D onder DE :Departments kolom om afdeling A en afdeling D in uw douaneformulier te bevolken.
 
      >[!NOTE]
      >
@@ -378,11 +374,11 @@ Workfront kan de meeste datumnotaties verwerken. U moet er echter voor zorgen da
 
 Workfront accepteert ook tijdwaarden als onderdeel van de datum.
 
-Bijvoorbeeld: 07/10/2022 01:30 of 07/10/2022 1:00 PM.
+Bijvoorbeeld: 07/10/2022 01 :30 of 07/10/2022 1 :00 PM.
 
 Als u een tijd in de datum weglaat, voert Workfront een van de volgende handelingen uit:
 
-* Veronderstelt dat de tijd 12:00 is. Om het datumresultaat te zien u verwacht, moet de systeemtijdzone uw tijdzone aanpassen.
+* Veronderstelt dat de tijd 12 :00 AM is. Om het datumresultaat te zien u verwacht, moet de systeemtijdzone uw tijdzone aanpassen.
 * Als het zich op een voorwerp bevindt dat met een programma wordt geassocieerd, verschuift de tijd aan de vroegste tijd dat het programma toestaat.
 
 >[!NOTE]
@@ -432,7 +428,7 @@ Hoewel het een beste praktijk is om IDs te gebruiken waar mogelijk, soms is het 
 
 * **de invoer van het Project**
 
-  Wanneer het invoeren van projecten, plaats **setGroupID** van de projecten door naar het **blad van de Groep van de GROEP** te gaan, nota te nemen van respectieve Groep IDs, en hen te kleven in de correcte cellen (**setGroupID** kolom) op het **7&rbrace; blad van het Project van de PROJ.**
+  Wanneer het invoeren van projecten, plaats **setGroupID** van de projecten door naar het **blad van de Groep van de GROEP** te gaan, nota te nemen van respectieve Groep IDs, en hen te kleven in de correcte cellen (**setGroupID** kolom) op het **7} blad van het Project van de PROJ.**
 
   Dit is mogelijk wanneer u met slechts een paar groepen en projecten werkt, maar als u met verschillende groepen werkt, is het niet praktisch.
 
@@ -458,7 +454,7 @@ Hoewel het een beste praktijk is om IDs te gebruiken waar mogelijk, soms is het 
 
      Voor roltoewijzingen aan nieuwe rolverslagen, input identiteitskaart u op het blad van de Rol van de ROL in setRoleID toewees.
 
-     ![&#x200B; identiteitskaart van de Rol voor gebruikers &#x200B;](assets/set-role-id.png)
+     ![ identiteitskaart van de Rol voor gebruikers ](assets/set-role-id.png)
 
 ## De spreadsheetgegevens importeren in Workfront
 

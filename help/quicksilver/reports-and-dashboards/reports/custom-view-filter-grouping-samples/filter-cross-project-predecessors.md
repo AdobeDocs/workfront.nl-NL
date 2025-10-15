@@ -7,9 +7,9 @@ description: Deze taakfilter retourneert onvolledige voordecessors voor meerdere
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 7ee2432c-1d82-454e-a73a-f1f6b6a5c10d
-source-git-commit: a19668ac2238448010b5a177120f936ef7ba5bba
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '213'
+source-wordcount: '199'
 ht-degree: 0%
 
 ---
@@ -22,28 +22,21 @@ Deze taakfilter retourneert onvolledige voordecessors voor meerdere projecten.
 
 ## Toegangsvereisten
 
-+++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
-
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan</td> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie*</td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
    <td> 
-    <p>Nieuw:</p>
-   <ul><li><p>Medewerker om een filter te wijzigen </p></li>
-   <li><p>Standaard voor het wijzigen van een rapport</p></li> </ul>
-
-<p>Huidige:</p>
-   <ul><li><p>Verzoek om een filter te wijzigen </p></li>
-   <li><p>Plan om een rapport te wijzigen</p></li> </ul></td> 
+   <p>Medewerker of verzoek om een filter te wijzigen </p>
+   <p>Standaard of Plan om een rapport te wijzigen</p>
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau</td> 
@@ -56,7 +49,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-*For informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -71,4 +64,4 @@ Dit filter toepassen:
 1. Plak in het nieuwe gebied de volgende code:
    <pre>predecessorsMM:projectID=FIELD:projectID <br> predecessorsMM:projectID_Mod=ne <br> percentComplete=100 <br> percentComplete_Mod=ne</pre>
 
-1. (Voorwaardelijk) klik **sparen Filter** als u tot de filter van een rapport toegang had, of **&#x200B;**&#x200B;van toepassing is, dan **sparen als nieuw** als u tot de filter van een taaklijst toegang had.
+1. (Voorwaardelijk) klik **sparen Filter** als u tot de filter van een rapport toegang had, of **** van toepassing is, dan **sparen als nieuw** als u tot de filter van een taaklijst toegang had.

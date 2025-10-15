@@ -2,14 +2,14 @@
 content-type: reference
 product-area: reporting
 navigation-topic: calculate-custom-data-reports
-title: "Voorbeeld van berekend aangepast veld: geef de manager van de maker van een uitgave weer op het aangepaste formulier voor uitgave"
+title: 'Voorbeeld van berekend aangepast veld: geef de manager van de maker van een uitgave weer op het aangepaste formulier voor uitgave'
 description: Met behulp van een berekend aangepast veld kunt u de naam van de beheerder van de maker van een uitgave weergeven op een aangepast formulier dat aan de uitgave is gekoppeld. Met dezelfde instructie kunt u vergelijkbare berekende velden maken voor projecten, problemen en andere objecten.
-author: Nolan
+author: Jenny
 feature: Reports and Dashboards
 exl-id: f501ce1a-7a80-458b-9b30-2292426c9262
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: a1ead6d0c1c85bfbe6d7302506743db8d8b3e205
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '334'
 ht-degree: 0%
 
 ---
@@ -26,32 +26,36 @@ Met behulp van een berekend aangepast veld kunt u de naam van de beheerder van d
 
 ## Toegangsvereisten
 
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td> <p>Adobe Workfront-abonnement*</p> </td> 
-   <td>Alle</td> 
+   <td> <p>Adobe Workfront-pakket</p> </td> 
+   <td><p>Alle</p></td> 
   </tr> 
   <tr> 
-   <td> <p>Adobe Workfront-licentie*</p> </td> 
-   <td> <p>Plan </p> </td> 
+   <td> <p>Adobe Workfront-licentie</p> </td> 
+   <td>
+      <p>Standard</p>
+      <p>Plan</p></td>
   </tr> 
-  <tr data-mc-conditions=""> 
-   <td>Configuraties op toegangsniveau*</td> 
-   <td> <p>De administratieve toegang tot de vormen van de Douane <br> voor informatie over het verlenen van administratieve toegang van het toegangsniveau, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref"> gebruikers administratieve toegang van de Verlening tot bepaalde gebieden </a>.</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan veranderen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
+  <tr> 
+   <td><p>Configuraties op toegangsniveau</p></td> 
+   <td> <p>Administratieve toegang tot aangepaste formulieren</p> </td> 
   </tr> 
-  <tr data-mc-conditions=""> 
+  <tr> 
    <td> <p>Objectmachtigingen</p> </td> 
-   <td> <p>Contribute heeft toegang tot het object waaraan het formulier is gekoppeld, en heeft toegang tot het aangepaste formulier bewerken</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
+   <td> <p>Contribute opent het object waaraan het formulier is gekoppeld met toegang tot het aangepaste formulier bewerken</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## De manager van de maker van een uitgave weergeven op het aangepaste formulier voor uitgave
 

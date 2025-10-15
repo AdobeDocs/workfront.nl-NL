@@ -7,7 +7,7 @@ description: U kunt de details van een tijdelijk object weergeven en beheren zon
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 0f15b05f-3b4a-4f0b-9d9a-21a0f97de1ea
-source-git-commit: 58543982fef6e7ba2d05787dc023a2099e47bbc7
+source-git-commit: 1e5b3c7d087c34870ccb0f4e65021358f08b81bf
 workflow-type: tm+mt
 source-wordcount: '508'
 ht-degree: 0%
@@ -26,44 +26,46 @@ ht-degree: 0%
 >
 >We raden u aan Workfront Automation and Integration te gebruiken voor de integratiebehoeften van uw organisatie met Google Workspace.
 >
->Voor een overzicht van de Automatisering en de Integratie van Workfront, zie [&#x200B; het overzicht van de Fusie van Adobe Workfront &#x200B;](https://experienceleague.adobe.com/nl/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+>Voor een overzicht van de Automatisering en de Integratie van Workfront, zie [ het overzicht van de Fusie van Adobe Workfront ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 >
->Voor informatie over de specifieke mogelijkheden van de modules van de Automatisering en van de Integratie van Workfront voor Google Workspace, zie [&#x200B; modules van Gmail &#x200B;](https://experienceleague.adobe.com/nl/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/gmail-modules) en [&#x200B; modules van de Kalender van Google &#x200B;](https://experienceleague.adobe.com/nl/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-calendar-modules).
+>Voor informatie over de specifieke mogelijkheden van de modules van de Automatisering en van de Integratie van Workfront voor Google Workspace, zie [ modules van Gmail ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/gmail-modules) en [ modules van de Kalender van Google ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-calendar-modules).
 
 U kunt de details van een tijdelijk item weergeven en beheren zonder [!DNL Google Workspace] te verlaten. U kunt bijvoorbeeld de beschrijving van een taak lezen, het bovenliggende object bekijken, de status wijzigen en markeren als voltooid, allemaal binnen [!DNL Adobe Workfront for Google Workspace] .
 
 ## Toegangsvereisten
 
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licentie*</td> 
-   <td> <p>[!UICONTROL Work], [!UICONTROL Plan]</p> </td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td> <p>Standard</p><p>Werk of hoger</p>
   </tr> 
-</tbody> 
+ </tbody> 
 </table>
 
-&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw [!DNL Workfront] beheerder.
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Vereisten
 
 Voordat u de details van het werkitem kunt weergeven en beheren in [!DNL Google Workspace] , moet u
 
 * Installeren [!DNL Workfront for Google Workspace]\
-   Voor instructies, zie [&#x200B; installeren  [!DNL Adobe Workfront for Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/install-workfront-for-gsuite.md).
+   Voor instructies, zie [ installeren  [!DNL Adobe Workfront for Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/install-workfront-for-gsuite.md).
 
 ## Details van het werkitem weergeven en beheren in [!DNL Google Workspace]
 
-1. Als het [!UICONTROL Workfront for Google Workspace] paneel niet wordt getoond, klik het [!DNL Workfront] pictogram ![&#x200B; pictogram van Workfront &#x200B;](assets/wf-lion-icon.png) in [!DNL Google Workspace] toe:voegen-ons sidebar bij uiterst rechts van de pagina.
-1. Ga naar de [!DNL Workfront] taak of kwestie binnen [!DNL Google Workspace], zoals die in [&#x200B; wordt beschreven Toegang  [!DNL Adobe Workfront] [!UICONTROL Home] inhoud van  [!DNL Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/access-wf-home-content-from-g-suite.md).
+1. Als het [!UICONTROL Workfront for Google Workspace] paneel niet wordt getoond, klik het [!DNL Workfront] pictogram ![ pictogram van Workfront ](assets/wf-lion-icon.png) in [!DNL Google Workspace] toe:voegen-ons sidebar bij uiterst rechts van de pagina.
+1. Ga naar de [!DNL Workfront] taak of kwestie binnen [!DNL Google Workspace], zoals die in [ wordt beschreven Toegang  [!DNL Adobe Workfront] [!UICONTROL Home] inhoud van  [!DNL Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/access-wf-home-content-from-g-suite.md).
 
    Wanneer u een taak of uitgave selecteert, is het tabblad **[!UICONTROL Details]** geopend. In het gebied boven het tabblad **[!UICONTROL Details]** worden de naam van het bovenliggende object, de naam van de taak of uitgave en [!UICONTROL Due date] (als het een taak is) of [!UICONTROL Priority date] (als het een uitgave is) weergegeven.
 
@@ -91,5 +93,5 @@ Voordat u de details van het werkitem kunt weergeven en beheren in [!DNL Google 
 
 1. (Optioneel) Klik op **[!UICONTROL View in [!DNL Workfront]]** om naar het huidige tijdelijke item in [!DNL Workfront] te gaan.
 
-* Voor informatie over het gebruiken van het [!UICONTROL Updates] lusje in [!DNL Workfront for Google Workspace], zie [&#x200B; Update een  [!DNL Adobe Workfront]  voorwerp van  [!DNL Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/update-a-workfront-object-in-gsuite.md).
-* Voor informatie over het gebruiken van het [!UICONTROL Documents] lusje in [!DNL Workfront for Google Workspace], zie [&#x200B; Mening en beheer documenten van [!DNL G Suite] &#x200B;](../../workfront-integrations-and-apps/workfront-for-g-suite/view-and-manage-documents-in-gsuite.md).
+* Voor informatie over het gebruiken van het [!UICONTROL Updates] lusje in [!DNL Workfront for Google Workspace], zie [ Update een  [!DNL Adobe Workfront]  voorwerp van  [!DNL Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/update-a-workfront-object-in-gsuite.md).
+* Voor informatie over het gebruiken van het [!UICONTROL Documents] lusje in [!DNL Workfront for Google Workspace], zie [ Mening en beheer documenten van [!DNL G Suite] ](../../workfront-integrations-and-apps/workfront-for-g-suite/view-and-manage-documents-in-gsuite.md).

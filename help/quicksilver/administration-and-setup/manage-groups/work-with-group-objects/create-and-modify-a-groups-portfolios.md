@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 76ac1f4e-8323-45d1-81f3-6a07e4e2e080
-source-git-commit: 485f2985c70b1bb095e31323b7b4698bcb7a04cf
+source-git-commit: 1554c067afcc548c7f7abd03dbc3a49404e3c89c
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '350'
 ht-degree: 1%
 
 ---
@@ -25,34 +25,31 @@ Als er groepen zijn boven de groep die u beheert, kunnen hun beheerders dit ook 
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan</td> 
-   <td>Alle</td> 
+   <td>Adobe Workfront-pakket</td> 
+   <td><p>Alle</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie</td>
-   <td><p>Nieuw: Standaard</p>
-       <p>of</p>
-       <p>Huidig: Plan</p></td>
+   <td>Adobe Workfront-licentie</td> 
+   <td><p>Standard</p>
+       <p>Plan</p></td>
+  </tr>
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau</td> 
+   <td>Configuraties op toegangsniveau</td> 
    <td>U moet een groepsbeheerder van de groep of een systeembeheerder zijn.</td>
   </tr>
   <tr> 
-   <td role="rowheader">Objectmachtigingen</td>
+   <td>Objectmachtigingen</td>
    <td> <p>De portefeuille moet aan de groep of om het even welk van zijn subgroepen worden geassocieerd.</p> <p>U moet ook over machtigingen beschikken om het portfolio weer te geven, omdat u het hebt gemaakt of omdat het met u is gedeeld.</p></td> 
-  </tr> 
   </tr> 
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -60,7 +57,7 @@ Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van d
 
 {{step-1-to-setup}}
 
-1. In het linkerpaneel, klik **Groepen** ![&#x200B; Groepen &#x200B;](assets/groups-icon.png).
+1. In het linkerpaneel, klik **Groepen** ![ Groepen ](assets/groups-icon.png).
 
 1. Klik op de naam van de groep waarvoor u portfolio&#39;s wilt maken, weergeven of bewerken.
 1. In het linkerpaneel, klik **Portfolio&#39;s** om van de portefeuilles een lijst te maken verbonden aan de groep (en om het even welke subgroups onder het).

@@ -8,34 +8,46 @@ author: Alina
 feature: Workfront Goals
 recommendations: noDisplay, noCatalog
 exl-id: 7cdef9d5-e37b-4f1f-9293-39c79781590a
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
 workflow-type: tm+mt
-source-wordcount: '123'
+source-wordcount: '110'
 ht-degree: 0%
 
 ---
 
 # Instellingen voor Adobe Workfront-doelen
 
+<!--Audited for P&P only: 10/2025-->
+
+>[!NOTE]
+>
+>Uw bedrijf zou kunnen verkiezen om de Doelen van Adobe Workfront verder te gebruiken als zij dit pakket in het verleden kochten. U moet voor meer informatie contact opnemen met uw accountvertegenwoordiger.
+>
+>Adobe Workfront Goals kan niet meer worden aangeschaft.
+>
+>Voor extra informatie over toegang tot de Doelen van Workfront, zie [ Vereisten om de Doelen van Workfront ](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md) te gebruiken.
+
+<!--Old:
+
 >[!IMPORTANT]
 >
->Uw organisatie moet het volgende hebben om de functionaliteit te gebruiken die in dit artikel wordt beschreven:
+>Your organization must have the following to use the functionality described in this article:
 >
->* Voor het nieuwe plan en de nieuwe licentiestructuur:
+>* For the new plan and license structure:
 >
->   * Het Ultimate Workfront-plan
+>   * The Ultimate Workfront plan 
 >    
->* Voor het huidige plan en de licentiestructuur:
+>* For the current plan and license structure: 
 >
->   * Een Pro- of hoger Workfront-abonnement
->   * Een Adobe Workfront Goals-licentie in aanvulling op een Workfront-licentie.
+>   * A Pro or higher Workfront plan
+>   * An Adobe Workfront Goals license in addition to a Workfront license.
 >
->Neem contact op met uw Workfront-accountmanager voor meer informatie over een Workfront Goals-licentie.
+>Contact your Workfront account manager to learn about a Workfront Goals license.    
 > 
->Voor extra informatie over toegang tot de Doelen van Workfront, zie [&#x200B; Vereisten om de Doelen van Workfront &#x200B;](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md) te gebruiken.
+>For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).  -->
 
-Deze sectie bevat de volgende artikelen:
+Meer informatie over doelgerelateerde meldingen en hoe u een doel kunt delen in Adobe Workfront Goals vindt u in de volgende artikelen:
 
-* [&#x200B; laat de berichten van de Doelen van Adobe Workfront &#x200B;](../../workfront-goals/workfront-goals-settings/wf-goals-notifications.md) toe
+* [ laat de berichten van de Doelen van Adobe Workfront ](../../workfront-goals/workfront-goals-settings/wf-goals-notifications.md) toe
 * [Een doel delen in Workfront-doelen](../../workfront-goals/workfront-goals-settings/share-a-goal.md)
 * [Terminologie voor Adobe Workfront-doelen aanpassen](../workfront-goals-settings/customize-wf-goals-terminology.md)

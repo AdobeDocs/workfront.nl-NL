@@ -7,9 +7,9 @@ description: Wanneer u een rapport over rapporten creeert, kunt u specifieke rap
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 3861ac81-d2e4-4dec-b9cd-96eee0b66a38
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '659'
+source-wordcount: '608'
 ht-degree: 0%
 
 ---
@@ -20,36 +20,40 @@ Wanneer u een rapport over rapporten creeert, kunt u specifieke rapportinformati
 
 ## Toegangsvereisten
 
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-abonnement*</td> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Plan </p> </td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td> 
+   <p>Standard</p>
+   <p>Plan </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot rapporten, dashboards, kalenders bewerken</p> <p>Toegang tot filters, weergaven, groepen bewerken</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
+   <td> <p>Toegang tot rapporten, dashboards, kalenders bewerken</p> <p>Toegang tot filters, weergaven, groepen bewerken</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Machtigingen beheren voor een rapport</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
+   <td> <p>Machtigingen beheren voor een rapport</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Rapport maken over bestaande rapporten {#create-the-report-about-existing-reports}
 
-1. Klik het **pictogram van het 1&rbrace; pictogram van het Belangrijkste Menu ![&#x200B; &#x200B;](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront.**
+1. Klik het **pictogram van het 1} pictogram van het Belangrijkste Menu** ![ in de hoger-juiste hoek van Adobe Workfront.](assets/main-menu-icon.png)
 1. Klik **Rapporten**, dan **Nieuw Rapport**.
 1. In het **Nieuwe drop-down menu van het Rapport**, uitgezochte **Rapport** om een rapport over bestaande rapporten tot stand te brengen.
 
@@ -85,7 +89,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    Uw rapportgegevens worden weergegeven.
 
 1. (Optioneel) Exporteer dit rapport naar Excel en sla het op uw computer op.\
-   Voor informatie bij het uitvoeren van een rapport, zie [&#x200B; Gegevens van de Uitvoer &#x200B;](../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md).
+   Voor informatie bij het uitvoeren van een rapport, zie [ Gegevens van de Uitvoer ](../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md).
 
 ## Informatie over een rapport bijwerken
 
@@ -94,11 +98,11 @@ Nadat u uw rapport hebt gemaakt, kunt u uw rapporten naar wens bijwerken.
 1. Ga naar het rapport dat u wilt bijwerken.
 1. Voer afhankelijk van de actie die u wilt uitvoeren een van de volgende handelingen uit:
 
-   * Werk **in werking stelt dit rapport met de Rechten van de Toegang van:** gebied aan een actieve gebruiker bij: Voor meer informatie, zie [&#x200B; Looppas en lever een rapport met de toegangsrechten van een andere gebruiker &#x200B;](../../../reports-and-dashboards/reports/creating-and-managing-reports/run-deliver-report-access-rights-another-user.md).
+   * Werk **in werking stelt dit rapport met de Rechten van de Toegang van:** gebied aan een actieve gebruiker bij: Voor meer informatie, zie [ Looppas en lever een rapport met de toegangsrechten van een andere gebruiker ](../../../reports-and-dashboards/reports/creating-and-managing-reports/run-deliver-report-access-rights-another-user.md).
 
-   * Creeer een exemplaar van het rapport: Voor meer informatie, zie [&#x200B; een exemplaar van een rapport &#x200B;](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md) creëren.
-   * Schrap een rapport: Voor meer informatie, zie [&#x200B; een nauwkeurige exemplaar van een rapport &#x200B;](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md#update2) sectie van het artikel [&#x200B; creëren een exemplaar van een rapport &#x200B;](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md).
+   * Creeer een exemplaar van het rapport: Voor meer informatie, zie [ een exemplaar van een rapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md) creëren.
+   * Schrap een rapport: Voor meer informatie, zie [ een nauwkeurige exemplaar van een rapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md#update2) sectie van het artikel [ creëren een exemplaar van een rapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md).
 
-   * Deel een rapport: Voor meer informatie, zie [&#x200B; een rapport in Adobe Workfront &#x200B;](../../../reports-and-dashboards/reports/creating-and-managing-reports/share-report.md) delen.
+   * Deel een rapport: Voor meer informatie, zie [ een rapport in Adobe Workfront ](../../../reports-and-dashboards/reports/creating-and-managing-reports/share-report.md) delen.
 
-1. (Voorwaardelijk) als u de originele rapporten kopieert, gebruik de informatie van het rapport u in [&#x200B; creeerde leidt tot het rapport over bestaande rapporten &#x200B;](#create-the-report-about-existing-reports) om de nieuwe exemplaren met de zelfde entiteiten zoals de originele rapporten te delen.
+1. (Voorwaardelijk) als u de originele rapporten kopieert, gebruik de informatie van het rapport u in [ creeerde leidt tot het rapport over bestaande rapporten ](#create-the-report-about-existing-reports) om de nieuwe exemplaren met de zelfde entiteiten zoals de originele rapporten te delen.

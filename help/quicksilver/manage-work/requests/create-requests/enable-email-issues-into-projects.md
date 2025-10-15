@@ -3,12 +3,12 @@ product-area: requests
 navigation-topic: create-requests
 title: Gebruikers toestaan een probleem te e-mailen naar een aanvraagwachtrij-project
 description: U kunt een project vormen om gebruikers toe te staan om kwesties aan het project via e-mail toe te voegen.
-author: Alina, Courtney
+author: Becky
 feature: Work Management
 exl-id: 556775e8-7ac9-482d-8c1c-863678584aa4
-source-git-commit: bca543ad2ee8ead26cfa662900eb513af36f743c
+source-git-commit: 1b7964b533093c4eee20d69a74512a145e207e29
 workflow-type: tm+mt
-source-wordcount: '812'
+source-wordcount: '789'
 ht-degree: 0%
 
 ---
@@ -21,27 +21,24 @@ ht-degree: 0%
 <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;When updating POP account information here, also update information in these articles: Allowing users to reply to email notifications, Configuring Email Notifications, Understanding the Queue Details Tab in a Project )</p>
 -->
 
-U kunt een project vormen om gebruikers toe te staan om kwesties aan het project via e-mail toe te voegen. U kunt kwesties slechts toestaan om in een project worden gemaild als het project als Rij van het Verzoek wordt aangewezen. Voor meer informatie over het creëren van een project van de Rij van het Verzoek, zie [&#x200B; een Rij van het Verzoek &#x200B;](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md) creëren.
+U kunt een project vormen om gebruikers toe te staan om kwesties aan het project via e-mail toe te voegen. U kunt kwesties slechts toestaan om in een project worden gemaild als het project als Rij van het Verzoek wordt aangewezen. Voor meer informatie over het creëren van een project van de Rij van het Verzoek, zie [ een Rij van het Verzoek ](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md) creëren.
 
 ## Toegangsvereisten
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
-
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan</td> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
    <td> <p>Alle </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie</td> 
-   <td> <p>Nieuw: Medewerker of hoger</p>
-   of
-   <p>Huidig: Verzoek of hoger</p>
+   <td> <p>Medewerker of hoger</p>
+   <p>Aanvraag of hoger</p>
     </td> 
   </tr> 
   <tr> 
@@ -55,7 +52,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -79,13 +76,13 @@ De volgende voorwaarden worden vereist om een project te vormen om gebruikers to
 >* Workfront staat één unieke e-mail per aanvraagwachtrij toe voor alle clusters. Als u ervoor kiest om uw aanvraagwachtrij uit te schakelen, behoudt u het e-mailadres dat u hebt gemaakt zolang dit zich nog in het vak E-mailadres invoegen bevindt. Als u ervoor kiest het gebruik van de inname-e-mail te beëindigen, moet u deze verwijderen uit het veld E-mailbericht innemen, zodat deze later kan worden gebruikt.
 >
 >* Als de verzoekrij veelvoudige rijonderwerpen of onderwerpgroepen heeft, zal Workfront willekeurig het rijonderwerp selecteren dat de gemailde verzoeken zullen gaan naar, makend gemailde verzoeken moeilijk te beheren.
->  &#x200B;>Wij adviseren dat het project dat u opstelling om verzoeken door e-mail te ontvangen niet meer dan één rijonderwerp zou moeten hebben. Als de voorgelegde verzoeken voor verschillende middelen of projecten bedoeld zijn zou u hen moeten leiden of manueel bewegen, nadat zij zijn voorgelegd.
+>  >Wij adviseren dat het project dat u opstelling om verzoeken door e-mail te ontvangen niet meer dan één rijonderwerp zou moeten hebben. Als de voorgelegde verzoeken voor verschillende middelen of projecten bedoeld zijn zou u hen moeten leiden of manueel bewegen, nadat zij zijn voorgelegd.
 
 1. Ga naar het project dat u wilt inschakelen om problemen via e-mail te ontvangen.
 1. Klik **Details van de Rij** in het linkerpaneel.
-1. In het **gebied van het Type van Rij 0&rbrace;, uitgezocht** publiceer als Rij van het Verzoek van de Hulp **.**
+1. In het **gebied van het Type van Rij 0}, uitgezocht** publiceer als Rij van het Verzoek van de Hulp **.**
 
-1. De rol neer aan het **gebied van de Montages van de Rij 0&rbrace; E-mail, dan selecteert** laat de opname van het Verzoek via e-mail **toe.**
+1. De rol neer aan het **gebied van de Montages van de Rij 0} E-mail, dan selecteert** laat de opname van het Verzoek via e-mail **toe.**
 
 1. Ga het begin van het e-mailadres in het **Inname E-mailadres** vakje in.
 

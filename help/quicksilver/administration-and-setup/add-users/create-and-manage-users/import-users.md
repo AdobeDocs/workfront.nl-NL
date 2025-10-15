@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 3dd99d01-a32f-4af8-90e3-f8c0e9027651
-source-git-commit: 0239cad2d9173da20770934e6132b29301117cdf
+source-git-commit: f8d04790caefd12c9811ea3ed94e1f892311d031
 workflow-type: tm+mt
-source-wordcount: '503'
+source-wordcount: '480'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 >
 >The procedure described on this page applies only to organizations that have not yet been onboarded to the Admin Console. If your organization has been onboarded to the Adobe Admin Console, you must perform this action through the Adobe Admin Console.
 >
->For instructions on editing a user's profile in the Adobe Admin Console, see the section "Add users" in the article [Bulk Upload Users](https://helpx.adobe.com/nl/enterprise/using/bulk-upload-users.html) or contact your Adobe Admin Console Administrator.
+>For instructions on editing a user's profile in the Adobe Admin Console, see the section "Add users" in the article [Bulk Upload Users](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html) or contact your Adobe Admin Console Administrator.
 >
 >For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
@@ -37,22 +37,20 @@ Voordat u een nieuwe gebruiker maakt, moet u eerst controleren of u alle objecte
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan</td> 
-   <td>Alle</td> 
+   <td>Adobe Workfront-pakket</td> 
+   <td><p>Alle</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie</td> 
-   <td><p>Nieuw: Standaard</p><p>of</p><p>Huidig: Plan</p></td> 
+   <td>Adobe Workfront-licentie</td> 
+   <td><p>Standard</p><p>Plan</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau</td> 
+   <td>Configuraties op toegangsniveau</td> 
    <td> <p>U moet een van de volgende opties hebben:</p> 
     <ul> 
      <li> <p>Het toegangsniveau voor systeembeheerders. </li> 
@@ -62,7 +60,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -94,7 +92,7 @@ Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van d
 
    Wanneer u met een rij wordt gebeëindigd, zou het als volgt moeten kijken:
 
-   ![&#x200B; het invoeren-nieuw-users.png &#x200B;](assets/importing-new-users.png)
+   ![ het invoeren-nieuw-users.png ](assets/importing-new-users.png)
 
 1. Sla het bestand op een locatie op uw werkstation op.
 1. Klik **kiezen dossier** in het **de gebruikers van de Invoer** vakje.
@@ -118,4 +116,4 @@ Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van d
 > 
 >Als een gebruiker binnen een paar minuten niet de status Uitgeschakeld en In afwachting van goedkeuring verlaat en het scherm vernieuwt de badge In afwachting van goedkeuring niet verwijdert, kunt u de batch gebruikers rechtstreeks aan de Adobe Admin Console toevoegen.
 >
->Voor instructies, zie [&#x200B; veelvoudige gebruikers beheren | Bulk CSV upload &#x200B;](https://helpx.adobe.com/nl/enterprise/using/bulk-upload-users.html) in de documentatie van Adobe.
+>Voor instructies, zie [ veelvoudige gebruikers beheren | Bulk CSV upload ](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html) in de documentatie van Adobe.

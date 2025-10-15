@@ -2,14 +2,14 @@
 content-type: reference
 product-area: setup
 navigation-topic: use-the-gantt-chart
-title: Configureer hoe informatie wordt weergegeven op het [!UICONTROL Gantt] -diagram
+title: Vorm hoe de Informatie op de [!UICONTROL Gantt] Grafiek toont
 description: U kunt vormen welke informatie in zowel de Grafiek van Gantt van de Lijst van de Taak als de Grafiek van Gantt van de Lijst van het Project toont.
 author: Alina
 feature: Work Management
 exl-id: 465365a2-d94b-47b6-a393-16770fca2714
-source-git-commit: 3827e834a71084f14a99cb27aadefd97327b02d7
+source-git-commit: c8987d036e1c1324618cb53ebcbb8fd7e4bcc6a4
 workflow-type: tm+mt
-source-wordcount: '798'
+source-wordcount: '735'
 ht-degree: 0%
 
 ---
@@ -24,38 +24,64 @@ U kunt vormen welke informatie in zowel de Grafiek van Gantt van de Lijst van de
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
-U moet het volgende hebben om de stappen in dit artikel te volgen:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> Adobe Workfront-plan</td> 
-   <td> <p>Alle </p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] package</td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licentie</td> 
    <td> 
-   <p>Nieuw: Licht<p>
-   <p>of</p>
-   <p>Huidige: revisie</p>
+   <p>[!UICONTROL Light] of hoger<p>
+   <p>[!UICONTROL Review] of hoger</p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau</td> 
-   <td> <p>[!UICONTROL View] of betere toegang tot Projecten en Taken</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de [!DNL Workfront] -beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een [!DNL Workfront] beheerder uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
+   <td> <p>[!UICONTROL View] of betere toegang tot Projecten en Taken</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>[!UICONTROL View] of een betere toegang tot het project</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
+   <td> <p>[!UICONTROL View] of een betere toegang tot het project en de taken</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+
+<!--Old:
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"> Adobe Workfront plan</td> 
+   <td> <p>Any </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> 
+   <p>New: Light<p>
+   <p>Or</p>
+   <p>Current: Review</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>[!UICONTROL View] or higher access to Projects and Tasks</p> <p>Note: If you still don't have access, ask your [!DNL Workfront] administrator if they set additional restrictions in your access level. For information on how a [!DNL Workfront] administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>[!UICONTROL View] or higher access to the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## Weergaveopties begrijpen
 
@@ -114,7 +140,7 @@ In de volgende tabel worden de weergaveopties voor de [!UICONTROL Gantt chart] w
   <tr> 
    <td role="rowheader">[!UICONTROL Progress Status]</td> 
    <td> <p>[!UICONTROL On Time] <img src="assets/task-on-time--oct.-2017.png" alt="task_on_time__okt._2017.png"></p> <p>[!UICONTROL Behind]    <img src="assets/task-behind--oct.-2017.png" alt="task_behind_okt._2017.png"></p> <p>[!UICONTROL At Risk]    <img src="assets/task-at-risk.png" alt="task_at_risk.png"></p> <p>Late        <img src="assets/task-late-oct.2017.png" alt="task_late_Oct.2017.png"></p> </td> 
-   <td> <p> </p> <p>De status van de huidige voortgang van een bepaalde taak. </p> <p>Voor meer informatie, zie [!UICONTROL Progress Status] overzicht van de Taak 0&rbrace; </a>.<a href="../../../manage-work/tasks/task-information/task-progress-status.md" class="MCXref xref"></p> </td> 
+   <td> <p> </p> <p>De status van de huidige voortgang van een bepaalde taak. </p> <p>Voor meer informatie, zie <a href="../../../manage-work/tasks/task-information/task-progress-status.md" class="MCXref xref"> overzicht van de Taak 0} [!UICONTROL Progress Status].</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Geprojecteerde datums</td> 
@@ -127,11 +153,11 @@ In de volgende tabel worden de weergaveopties voor de [!UICONTROL Gantt chart] w
 ## Weergaveopties configureren
 
 1. Ga naar de **Gantt Grafiek van de Lijst van de Taak** of de **Gantt Grafiek van de Lijst van het Project**.\
-   Voor meer informatie over waar één van beide grafiek van Gantt wordt gevestigd, zie [&#x200B; begonnen worden met [!UICONTROL Gantt Chart]](../../../manage-work/gantt-chart/use-the-gantt-chart/get-started-with-gantt.md).
+   Voor meer informatie over waar één van beide grafiek van Gantt wordt gevestigd, zie [ begonnen worden met [!UICONTROL Gantt Chart]](../../../manage-work/gantt-chart/use-the-gantt-chart/get-started-with-gantt.md).
 
 1. (Facultatief) selecteer de **Schakelaar aan Geprojecteerde Datums** plaatsen om de taken door hun Geprojecteerde Datums te tonen. Taken worden standaard weergegeven op basis van de geplande datums.
 1. Klik het **pictogram van Opties**. Het **de dialoogvakje van Opties** opent.\
-   ![&#x200B; Options.png &#x200B;](assets/options-350x129.png)
+   ![ Options.png ](assets/options-350x129.png)
 
 1. Selecteer de configuratieopties die u in [!UICONTROL Gantt chart] wilt weergeven.
 

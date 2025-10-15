@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: bd51e58c-c824-40b8-aedd-e247a5ccad55
-source-git-commit: b886284eb44c2154987019655ff07cdeb0e1ae22
+source-git-commit: 985f1aa11ad1d5efc8d043907d60ad5f5c1bba13
 workflow-type: tm+mt
-source-wordcount: '422'
+source-wordcount: '407'
 ht-degree: 0%
 
 ---
@@ -28,8 +28,6 @@ Prioriteiten geven de werkitems weer die aan u zijn toegewezen. U kunt geen werk
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -37,14 +35,14 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront-plan</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront-pakket</strong></td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront-licentie*</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront-licentie</strong></td> 
    <td> 
-   <p>Huidig: Revisor of hoger</p>
-   <p>Nieuw: Licht of hoger</p> 
+   <p>Revisor of hoger</p>
+   <p>Licht of hoger</p> 
    </td> 
   </tr> 
   <tr> 
@@ -58,7 +56,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-*Voor meer informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -76,7 +74,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    * Een bestand toevoegen
    * Ga rechtstreeks naar het project
 
-   ![&#x200B; projectdetails &#x200B;](assets/project-details-new.png)
+   ![ projectdetails ](assets/project-details-new.png)
 
 ### Taakdetails weergeven
 
@@ -93,7 +91,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
    * Snelle koppelingen toevoegen
 
 
-   ![&#x200B; taakdetails &#x200B;](assets/task-details-new.png)
+   ![ taakdetails ](assets/task-details-new.png)
 
 ### Uitgavendetails weergeven
 
@@ -110,7 +108,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
       * Een bestand toevoegen
       * Snelle koppelingen toevoegen
 
-   ![&#x200B; uitgiftedetails &#x200B;](assets/issue-details.png)
+   ![ uitgiftedetails ](assets/issue-details.png)
 
 ## Details weergeven op de pagina Details
 

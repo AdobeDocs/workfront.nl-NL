@@ -6,9 +6,9 @@ description: U kunt een nieuwe statische proefdruk of een nieuwe versie van een 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 1c0511f6-c60b-4a81-bfff-55b6f866add6
-source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
+source-git-commit: ac714bd5a5259d6f995ac445efbd0125e07022cb
 workflow-type: tm+mt
-source-wordcount: '778'
+source-wordcount: '676'
 ht-degree: 0%
 
 ---
@@ -23,32 +23,32 @@ Houd rekening met het volgende wanneer u statische proefdrukken maakt voor een w
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-abonnement*</td> 
-   <td> <p>Huidig abonnement: Pro of hoger</p> <p>of</p> <p>Verouderd abonnement: Selecteren of Premium</p> <p>Voor meer informatie over het proefdrukken van toegang met de verschillende plannen, zie <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref"> Toegang tot het proefdrukken van functionaliteit in Workfront </a>.</p> </td> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Huidig plan: Werk of Plan</p> <p>Ouder plan: Willekeurig (proefdrukken moet zijn ingeschakeld voor de gebruiker)</p> </td> 
+   <td> 
+   <p>Standard</p>
+   <p>Werken of plannen</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Bewijs van machtigingsprofiel </td> 
    <td>Manager of hoger</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot documenten bewerken</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
+   <td> <p>Toegang tot documenten bewerken</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42; om te weten te komen welk plan, rol, of Profiel van de Toestemming van het Bewijs u hebt, contacteer uw beheerder van Workfront of van Workfront Proof.
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -58,7 +58,7 @@ Als u een statisch bewijs wilt maken, moet de website openbaar toegankelijk zijn
 
 >[!TIP]
 >
->We raden interactieve proefdrukken aan in plaats van statische proefdrukken voor interne pagina&#39;s waarvoor verificatie en met een wachtwoord beveiligde pagina&#39;s vereist zijn. Voor meer informatie, zie [&#x200B; Interactieve inhoudsproeven overzicht &#x200B;](../../../review-and-approve-work/proofing/proofing-overview/interactive-content-proofs.md).
+>We raden interactieve proefdrukken aan in plaats van statische proefdrukken voor interne pagina&#39;s waarvoor verificatie en met een wachtwoord beveiligde pagina&#39;s vereist zijn. Voor meer informatie, zie [ Interactieve inhoudsproeven overzicht ](../../../review-and-approve-work/proofing/proofing-overview/interactive-content-proofs.md).
 
 1. Ga naar het project, de taak of de uitgave waar u een nieuwe websiteproef of een nieuwe versie van bestaande wilt tot stand brengen.
 1. Klik **Documenten** in het linkerpaneel.
@@ -67,7 +67,7 @@ Als u een statisch bewijs wilt maken, moet de website openbaar toegankelijk zijn
 
    1. Plaats de muisaanwijzer boven de URL-proefdruk waarvoor u een nieuwe versie wilt maken en selecteer deze door op de lichtblauwe achtergrond eromheen te klikken.
 
-      ![&#x200B; Select_proof_by_selecting_light_blue_background.png &#x200B;](assets/select-proof-by-selecting-light-blue-background-350x52.png)
+      ![ Select_proof_by_selecting_light_blue_background.png ](assets/select-proof-by-selecting-light-blue-background-350x52.png)
 
    1. Klik **toevoegen nieuw** > **Versie** > **Bewijs**.
 
@@ -81,7 +81,7 @@ Als u een statisch bewijs wilt maken, moet de website openbaar toegankelijk zijn
 
    Er worden opties weergegeven voor het configureren van de proefdruk van de website.
 
-   ![&#x200B; Interactieve proef &#x200B;](assets/interactive-proof-radio-btn-area-350x199.png)
+   ![ Interactieve proef ](assets/interactive-proof-radio-btn-area-350x199.png)
 
 1. (Facultatief) als u de naam van de proef van website URL in iets anders wilt veranderen, typ a **naam van het Bewijs.**
 1. Zorg ervoor **het schermschot van de Vangst** wordt geselecteerd en gebruik om het even welke volgende opties:

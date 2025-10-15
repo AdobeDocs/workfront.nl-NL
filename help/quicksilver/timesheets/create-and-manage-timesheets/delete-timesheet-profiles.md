@@ -3,10 +3,10 @@ product-area: timesheets
 navigation-topic: create-and-manage-timesheets
 title: Tijdbladprofielen verwijderen
 description: U kunt een tijdlijnprofiel verwijderen dat mogelijk niet meer relevant is.
-author: Alina
+author: Lisa
 feature: Timesheets
 exl-id: 1fb39f74-205b-485e-9e8b-a2ab3f9f1ac4
-source-git-commit: a94f358e7d4b8a23ff37d1adc0644f4e3ee6f013
+source-git-commit: 69cd5fb1d089b81b7a1673609b92537137b6b68e
 workflow-type: tm+mt
 source-wordcount: '289'
 ht-degree: 0%
@@ -21,34 +21,34 @@ Het creëren van en het toewijzen van timesheet profielen aan gebruikers verzeke
 
 U kunt een timesheet-profiel verwijderen dat mogelijk niet meer relevant is.
 
-Voor informatie over timesheet profielen, zie [&#x200B; creëren, uitgeven, en toewijzen timesheet profielen &#x200B;](../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).
+Voor informatie over timesheet profielen, zie [ creëren, uitgeven, en toewijzen timesheet profielen ](../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).
 
 ## Toegangsvereisten
 
-+++ Vouw uit om de vereisten voor toegang weer te geven. 
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
-<table style="table-layout:auto"> 
+<table style="table-layout:auto">
  <col> 
- <col> 
+ <col>
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan</td> 
-   <td> <p>Alle</p> </td> 
+   <td>Adobe Workfront-pakket</td> 
+   <td><p>Alle</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Nieuw: Standaard</p>
-   of
-   <p>Huidig: Plan </p> </td> 
+   <td>Adobe Workfront-licentie</td> 
+   <td>
+   <p>Standard</p>
+   <p>Plan</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau</td> 
-   <td> <p>U moet administratieve toegang tot Chronologie hebben. </p>  </td> 
+   <td>Configuraties op toegangsniveau</td> 
+   <td><p>Administratieve toegang tot timesheets</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*For informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -64,7 +64,7 @@ Voor informatie over timesheet profielen, zie [&#x200B; creëren, uitgeven, en t
 1. Selecteer minstens één timesheet profiel dat u wilt schrappen, dan klikken **Meer** pictogram ![](assets/more-icon.png) > **Schrapping** voor het systeem-brede timesheet profiel
 
 1. Klik **Profielen van de Chronologie**.
-1. Selecteer minstens één timesheet profiel dat u wilt schrappen, dan het meer pictogram ![&#x200B; meer pictogram &#x200B;](assets/more-icon.png) klikken > **Schrapping**.
+1. Selecteer minstens één timesheet profiel dat u wilt schrappen, dan het meer pictogram ![ meer pictogram ](assets/more-icon.png) klikken > **Schrapping**.
 of
 Klik **Meer** > **Schrapping** voor het groep-vlakke timesheet profiel.
 1. (Voorwaardelijk) als het timesheet profiel reeds aan gebruikers wordt toegewezen, de **vakvertoningen van het Profiel van de Tijdopnemer van de Vervanging**. Ga als volgt te werk:

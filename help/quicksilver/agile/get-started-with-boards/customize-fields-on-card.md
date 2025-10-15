@@ -6,9 +6,9 @@ description: U kunt aanpassen welke velden op een kaart worden weergegeven door 
 author: Lisa
 feature: Agile
 exl-id: 28fa6455-04dd-4115-9ead-cb3e7c26289e
-source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
-source-wordcount: '657'
+source-wordcount: '648'
 ht-degree: 0%
 
 ---
@@ -34,28 +34,25 @@ U kunt ook aangepaste velden weergeven die eerder zijn gemaakt. U kunt geen nieu
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront]</td> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licentie</td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
    <td> 
-   <p>Nieuw: [!UICONTROL Contributor] of hoger</p> 
-   <p>of</p>
-   <p>Huidig: [!UICONTROL Request] of hoger</p>
+   <p>Medewerker of hoger</p> 
+   <p>Aanvraag of hoger</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -63,14 +60,14 @@ Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van d
 
 {{step1-to-boards}}
 
-1. Toegang tot een bord. Voor informatie, zie [&#x200B; creeer of geef een raad &#x200B;](../../agile/get-started-with-boards/create-edit-board.md) uit.
+1. Toegang tot een bord. Voor informatie, zie [ creeer of geef een raad ](../../agile/get-started-with-boards/create-edit-board.md) uit.
 1. Klik [!UICONTROL **vormen**] op het recht van de raad om het Configure paneel te openen.
 1. Breid [!UICONTROL **Kaarten**] uit.
 
    De meeste velden en secties zijn standaard ingeschakeld.
 
 1. Schakel een veld of sectie uit om het in beide kaartweergaven uit te schakelen.
-1. Klik het pictogram van de Verbergen ![&#x200B; pictogram van de Verbergen &#x200B;](assets/eye-hide-icon.png) naast een gebied of een sectie om het op de versmalde mening te verbergen.
+1. Klik het pictogram van de Verbergen ![ pictogram van de Verbergen ](assets/eye-hide-icon.png) naast een gebied of een sectie om het op de versmalde mening te verbergen.
 1. Om alle gebieden en secties in beide meningen te tonen, klik [!UICONTROL **herstel alle gebieden aan gebrek**].
 1. Klik [!UICONTROL **Verbergen vormen**] om het Configure paneel te sluiten.
 
@@ -87,7 +84,7 @@ De gegevens op aangepaste velden kunnen op de kaart worden bewerkt, maar bepaald
 
    De categorieën van beschikbare gebieden voor taken of kwesties verschijnen. Vouw een categorie uit om alle velden weer te geven. U kunt ook naar een veld zoeken.
 
-   ![&#x200B; Onderzoek naar douanegebied &#x200B;](assets/boards-search-for-custom-field.png)
+   ![ Onderzoek naar douanegebied ](assets/boards-search-for-custom-field.png)
 
    >[!NOTE]
    >
@@ -98,9 +95,9 @@ De gegevens op aangepaste velden kunnen op de kaart worden bewerkt, maar bepaald
 1. (Optioneel) Wijzig de **[!UICONTROL Field label]** in de veldnaam die u op de kaarten wilt weergeven.
 1. Wanneer u wordt gebeëindigd die veranderingen aanbrengt, klik [!UICONTROL **sparen gebied**].
 
-   ![&#x200B; het gebiedswaarde en etiket van de Douane &#x200B;](assets/save-custom-field-value-label.png)
+   ![ het gebiedswaarde en etiket van de Douane ](assets/save-custom-field-value-label.png)
 
-   Het aangepaste veld wordt toegevoegd aan de lijst met beschikbare velden en is standaard ingeschakeld. U kunt het douanegebied na de stappen in [&#x200B; onbruikbaar maken vormt kaarten &#x200B;](customize-fields-on-card.md#configure-cards) hierboven sectie, geeft het gebied uit, of schrapt het van alle kaarten.
+   Het aangepaste veld wordt toegevoegd aan de lijst met beschikbare velden en is standaard ingeschakeld. U kunt het douanegebied na de stappen in [ onbruikbaar maken vormt kaarten ](customize-fields-on-card.md#configure-cards) hierboven sectie, geeft het gebied uit, of schrapt het van alle kaarten.
 
 >[!NOTE]
 >
@@ -114,10 +111,10 @@ U moet een configuratie-instelling inschakelen om gearchiveerde kaarten op een b
 1. Breid [!UICONTROL **Kaarten**] uit.
 1. Zet [!UICONTROL **gearchiveerde kaarten van de Vertoning op de raad**] aan.
 
-   Nu kunt u het bord filteren om kaarten weer te geven die zijn gearchiveerd. Voor details, zie [&#x200B; Filter en onderzoek in een raad &#x200B;](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md).
+   Nu kunt u het bord filteren om kaarten weer te geven die zijn gearchiveerd. Voor details, zie [ Filter en onderzoek in een raad ](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md).
 
 1. Klik [!UICONTROL **Verbergen vormen**] om het Configure paneel te sluiten.
 
 ## Afvalfunctie van kaart configureren
 
-Om kaarten van de raad na een periode automatisch te verwijderen, zie [&#x200B; kaart het wegvallen &#x200B;](/help/quicksilver/agile/use-boards-agile-planning-tools/configure-card-falloff.md) vormen.
+Om kaarten van de raad na een periode automatisch te verwijderen, zie [ kaart het wegvallen ](/help/quicksilver/agile/use-boards-agile-planning-tools/configure-card-falloff.md) vormen.

@@ -6,9 +6,9 @@ description: U kunt instellingen configureren voor zowel de webtestviewer als de
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 3993cd67-90a9-4d7e-bbc0-7b9bd1057f54
-source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
+source-git-commit: 385f4a6663cacfdcf519bf5699fc1840c2cb2adc
 workflow-type: tm+mt
-source-wordcount: '1424'
+source-wordcount: '1354'
 ht-degree: 0%
 
 ---
@@ -44,32 +44,34 @@ U kunt de volgende instellingen configureren voor de Desktop Proofing Viewer:
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-abonnement*</td> 
-   <td> <p>Huidig abonnement: Pro of hoger</p> <p>of</p> <p>Verouderd abonnement: Selecteren of Premium</p> <p>Voor meer informatie over het proefdrukken van toegang met de verschillende plannen, zie <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref"> Toegang tot het proefdrukken van functionaliteit in Workfront </a>.</p> </td> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Huidig plan: Werk of Plan</p> <p>Ouder plan: Willekeurig (proefdrukken moet zijn ingeschakeld voor de gebruiker)</p> </td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td> <p>Alle</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Proefdrukrol </td> 
+   <td>Revisor, Reviewer en fiatteur, auteur, moderator</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Bewijs van machtigingsprofiel </td> 
    <td>Manager of hoger</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot documenten bewerken</p> <p>Voor informatie bij het vragen van om extra toegang, zie <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> de toegang van het Verzoek tot voorwerpen </a>.</p> </td> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
+   <td> <p>Toegang tot documenten bewerken</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42; om te weten te komen welk plan, rol, of Profiel van de Toestemming van het Bewijs u hebt, contacteer uw beheerder van Workfront of van Workfront Proof.
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -80,13 +82,13 @@ De instellingen voor de proefdrukviewer configureren:
 1. Open de webtestviewer of de Desktop Proofing Viewer op een van de volgende manieren:
 
    * Als u bewijs binnen Adobe Workfront, naar een documentlijst gaat die een proef bevat u wilt bekijken, over het document beweegt, dan klik **Open proef**.
-   * Als u Workfront Proof gebruikt, klik **ga naar het pictogram van het Bewijs** voor de proef in het Dashboard of a lijst van Meningen ![&#x200B; ga naar Bewijs &#x200B;](assets/go-to-proof-blue-icon.png).
+   * Als u Workfront Proof gebruikt, klik **ga naar het pictogram van het Bewijs** voor de proef in het Dashboard of a lijst van Meningen ![ ga naar Bewijs ](assets/go-to-proof-blue-icon.png).
 
 1. Als de linkertoolbar niet toont, klik het **pictogram van het Menu**, dat in de upper-left hoek van de Kijker van het Bewijs van het Web wordt gevestigd.
 
-   ![&#x200B; pictogram van het Menu &#x200B;](assets/menu-icon-in-proofing-viewer-350x228.png)
+   ![ pictogram van het Menu ](assets/menu-icon-in-proofing-viewer-350x228.png)
 
-1. In de linkertoolbar, klik het **pictogram ![&#x200B; pictogram van Montages** &#x200B;](assets/settings-icon-in-pv.png).
+1. In de linkertoolbar, klik het **pictogram** pictogram van Montages ![ ](assets/settings-icon-in-pv.png).
 
 1. Vorm om het even welke volgende **Montages** die vertoning.
 
@@ -104,7 +106,7 @@ De instellingen voor de proefdrukviewer configureren:
 
      Deze instelling geldt voor alle proefdrukken die u opent.
 
-   * **verzend me e-mailberichten over** (altijd beschikbaar in de Kijker van het Proofing van het Web en de Kijker van het Proofing van de Desktop): Klik één van de hieronder opties. Deze instelling is alleen van invloed op de proefdruk die u hebt geopend. Voor meer informatie, zie [&#x200B; Meldingen voor de proefdrukcommentaren en besluiten overzicht &#x200B;](../../../review-and-approve-work/proofing/proofing-overview/notifications-proof-comments-decisions.md).
+   * **verzend me e-mailberichten over** (altijd beschikbaar in de Kijker van het Proofing van het Web en de Kijker van het Proofing van de Desktop): Klik één van de hieronder opties. Deze instelling is alleen van invloed op de proefdruk die u hebt geopend. Voor meer informatie, zie [ Meldingen voor de proefdrukcommentaren en besluiten overzicht ](../../../review-and-approve-work/proofing/proofing-overview/notifications-proof-comments-decisions.md).
 
      <table style="table-layout:auto"> 
       <col> 

@@ -6,9 +6,9 @@ description: De slimme omslagen worden gebruikt om documenten buiten een project
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 62dfc6b9-72a4-4dd5-acd7-42269cd99b1b
-source-git-commit: 3695c5bb566434d70907bfecf775ccd12b9208f4
+source-git-commit: 3f9a824780f2ded914d461a473aef3b6ecfa8701
 workflow-type: tm+mt
-source-wordcount: '561'
+source-wordcount: '512'
 ht-degree: 0%
 
 ---
@@ -23,28 +23,28 @@ De eerste keer dat u het gebied Documenten opent, hebt u standaard toegang tot t
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-abonnement*</td> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Controleren of hoger</p> </td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td> 
+   <p>Medewerker of hoger</p>
+   <p>Controleren of hoger</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot documenten bewerken</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
+   <td> <p>Toegang tot documenten bewerken</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -52,7 +52,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
 
 U kunt mappen weergeven in miniaturen, standaard- of lijstweergave. Als u de weergave wilt wijzigen, gebruikt u de weergaveopties in de rechterbovenhoek.
 
-![&#x200B; geef Slimme Omslag &#x200B;](assets/screenshot-2016-07-07-12.46.54.png) uit
+![ geef Slimme Omslag ](assets/screenshot-2016-07-07-12.46.54.png) uit
 
 ## Een slimme map maken 
 
@@ -68,7 +68,7 @@ U kunt mappen weergeven in miniaturen, standaard- of lijstweergave. Als u de wee
 ## Een slimme map bewerken 
 
 1. Ga naar het **gebied van Documenten** dat de slimme omslag bevat die u wilt uitgeven.
-1. In de **Mappen** kolom, klik het **Meer** pictogram ![&#x200B; Meer menu &#x200B;](assets/more-icon.png) naast de slimme omslag die u wilt uitgeven.
+1. In de **Mappen** kolom, klik het **Meer** pictogram ![ Meer menu ](assets/more-icon.png) naast de slimme omslag die u wilt uitgeven.
 1. Klik **uitgeven**.
 
 1. Breng uw veranderingen aan, dan klik **sparen Omslag**.

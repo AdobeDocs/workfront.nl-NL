@@ -7,20 +7,21 @@ description: Een programma is een inzameling van projecten die verenigende kenme
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 1c64fe00-12e3-49f6-b864-b8f89ed9140d
-source-git-commit: 0792651822fd85cb3bfbb754aaf949c4fc4038a1
+source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
 workflow-type: tm+mt
-source-wordcount: '489'
+source-wordcount: '483'
 ht-degree: 0%
 
 ---
 
 # Overzicht van programma&#39;s
 
-<!-- Audited: 09/2024 -->
+<!-- Audited: 08/2025 -->
 
 In Adobe Workfront bestaat een programma uit een verzameling projecten met een verenigend karakter. Ze kunnen bijvoorbeeld concurreren om hetzelfde budget, dezelfde middelen of hetzelfde tijdpad. Programma&#39;s zijn een subgroep van portefeuilles.
 
 Dit artikel bevat algemene informatie over programma&#39;s in Workfront.
+
 
 ## Toegang nodig om programma&#39;s te maken
 
@@ -33,18 +34,18 @@ U moet de volgende toegang hebben om portfolio&#39;s te maken en te beheren:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
-   <td> <p>Nieuw: alle</p>
-   <p>Huidig: [!UICONTROL Business] of hoger</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] package</td> 
+   <td> <p>Alle</p>
+   <p>[!UICONTROL Business] of hoger</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licentie</td> 
-   <td> <p>Nieuw: [!UICONTROL Standard]</p>
-   <p>Huidig: [!UICONTROL Plan] </p> </td> 
+   <td> <p>[!UICONTROL Standard]</p>
+   <p>[!UICONTROL Plan]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau</td> 
-   <td> <p>[!UICONTROL Edit] toegang tot portfolio's en programma's</p>  </td> 
+   <td> <p>[!UICONTROL Edit] toegang tot [!UICONTROL Portfolios] en [!UICONTROL Programs]</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
@@ -57,7 +58,37 @@ U moet de volgende toegang hebben om portfolio&#39;s te maken en te beheren:
  </tbody> 
 </table>
 
-Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
+<!--Old:
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td> <p>New: Any</p>
+   <p>Current: [!UICONTROL Business] or higher</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] license</td> 
+   <td> <p>New: [!UICONTROL Standard]</p>
+   <p>Current: [!UICONTROL Plan] </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>[!UICONTROL Edit] access to Portfolios and Programs</p>  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>Manage permissions to edit a program or add projects to it</p>
+   <p>Manage permissions to the portfolio that the program belongs to </p>
+   <p>View permissions to a program to view it</p>
+   <p>After you create a program, you have Manage permissions to it, by default</p> 
+    </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 
 ## Overwegingen bij het werken met programma&#39;s
@@ -72,7 +103,7 @@ Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van W
 
 * U moet eerst een portfolio maken en vervolgens kunt u meerdere programma&#39;s binnen hetzelfde portfolio maken.
 
-  Voor informatie over het gebruiken van Programma&#39;s, zie [&#x200B; een programma &#x200B;](../../../manage-work/portfolios/create-and-manage-programs/create-program.md) creëren.
+  Voor informatie over het gebruiken van Programma&#39;s, zie [ een programma ](../../../manage-work/portfolios/create-and-manage-programs/create-program.md) creëren.
 
 * U moet eerst een portfolio maken en vervolgens een programma voordat u een project aan een programma en een portfolio kunt koppelen.
 
@@ -94,4 +125,4 @@ Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van W
 
 * Met de functie voor het optimaliseren van portfolio kunt u de prestaties van alle projecten in een portfolio analyseren. U kunt de prestaties van meerdere projecten niet alleen vergelijken met die van hetzelfde programma. U moet projectprestaties op het portfolioniveau analyseren.
 
-  Voor informatie, zie [&#x200B; projecten in Portfolio optimaliseren &#x200B;](/help/quicksilver/manage-work/portfolios/portfolio-optimizer/optimize-projects-in-portfolio-optimizer.md).
+  Voor informatie, zie [ projecten in Portfolio optimaliseren ](/help/quicksilver/manage-work/portfolios/portfolio-optimizer/optimize-projects-in-portfolio-optimizer.md).

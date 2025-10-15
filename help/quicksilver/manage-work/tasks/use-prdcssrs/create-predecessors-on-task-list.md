@@ -6,9 +6,9 @@ description: U kunt voorgangstaken (of alleen voorgangers) gebruiken om taken te
 author: Alina
 feature: Work Management
 exl-id: a84d88ac-8dd4-4952-b83f-02fafa61e68b
-source-git-commit: a92c85ad5f58700138d7750423cc3d134d980a9e
+source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
 workflow-type: tm+mt
-source-wordcount: '642'
+source-wordcount: '622'
 ht-degree: 0%
 
 ---
@@ -27,38 +27,64 @@ U kunt de voorgangers van taken in de volgende gebieden van Adobe Workfront beki
 * In het Gantt-diagram.
 * In de sectie Predecessors van een afhankelijke taak.
 
-Voor meer informatie, zie [&#x200B; Overzicht van taakvoordecessors &#x200B;](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md).
+Voor meer informatie, zie [ Overzicht van taakvoordecessors ](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md).
 
 ## Toegangsvereisten
 
-+++ Vouw uit om de vereisten voor toegang weer te geven.
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan</td> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie</td> 
-   <td> <p>Standaard </p><p>Plan </p> </td> 
+   <td><p>Standard</p> 
+   <p>Plan</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau</td> 
-   <td> <p>Toegang tot taken en projecten bewerken</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. </p> </td> 
+   <td> <p>Toegang tot taken en projecten bewerken</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectmachtigingen</td> 
-   <td> <p>Rechten voor de taken en het project beheren</p> </td> 
+   <td> <p>Rechten voor de taken en het project beheren</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> <p>Standard </p><p>Plan </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>Edit access to Tasks and Projects</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>Manage permissions to the tasks and the project</p> </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## Een voorganger maken
 
@@ -69,7 +95,7 @@ Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van d
 1. In de **drop-down Meningen**, selecteer een mening die de **Predecessor** kolom toont, of voeg de kolom aan uw huidige mening toe.
 
 1. Selecteer de taak die u als afhankelijke taak wilt aanwijzen.
-1. Klik binnen de 0&rbrace; Predecessors van de taak **kolom.**
+1. Klik binnen de 0} Predecessors van de taak **kolom.**
 1. Het type in het taakaantal u als voorganger van de geselecteerde taak wilt aanwijzen, dan drukt **gaat** binnen.
 
    >[!TIP]
@@ -80,7 +106,7 @@ Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van d
    >
    >1. Typ in het referentienummer van het project van de voorganger gevolgd door een dubbele punt en het nummer van de taak. Bijvoorbeeld, die in *765021:12* typt wijst erop dat het Aantal van de Verwijzing van het project van de voorganger 765021 is en voorganger taakaantal 12 op het project is.
    >
-   >1. Voeg het gebiedstype voor deze voorganger toe. Voor meer informatie, zie [&#x200B; tot dwars-project predecessors &#x200B;](/help/quicksilver/manage-work/tasks/use-prdcssrs/cross-project-predecessors.md) leiden.
+   >1. Voeg het gebiedstype voor deze voorganger toe. Voor meer informatie, zie [ tot dwars-project predecessors ](/help/quicksilver/manage-work/tasks/use-prdcssrs/cross-project-predecessors.md) leiden.
    >
    >1. Pers **gaat** binnen.
    >
@@ -90,21 +116,21 @@ Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van d
 
    Het voorgangspictogram wordt groen als de voorganger de markering Voltooid heeft. Dit wijst erop dat de afhankelijke taak klaar voor het werk is.
 
-   Voor meer informatie over de relatietypen beschikbaar in de kolom Predecessors, zie [&#x200B; Overzicht van taakvoordecessors &#x200B;](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md).
+   Voor meer informatie over de relatietypen beschikbaar in de kolom Predecessors, zie [ Overzicht van taakvoordecessors ](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md).
 
 ## Details voorganger weergeven
 
 U kunt snel details over de voorganger bekijken in de takenlijst.
 
-1. Voor de taaklijst, houd over het voorgangersaantal in de **1&rbrace; kolom van Predecessors &lbrace;.** Er wordt een vak met de voorganger weergegeven.
+1. Voor de taaklijst, houd over het voorgangersaantal in de **1} kolom van Predecessors {.** Er wordt een vak met de voorganger weergegeven.
 
-   ![&#x200B; Details van de Predecessor &#x200B;](assets/predecessor-details-in-task-list.png)
+   ![ Details van de Predecessor ](assets/predecessor-details-in-task-list.png)
 
    De volgende details worden weergegeven:
 
    **naam van de Voorganger:** De naam van predecessor die van verwijzingen wordt voorzien. Het taaknummer van de voorganger wordt opgenomen. Klik op de taaknaam om deze te openen.
 
-   **naam van het Project:** De naam van het project waar predecessor verblijft. Het project wordt geïdentificeerd als het huidige project als predecessor tot de zelfde projecten zoals de taak, of als dwars project behoort, als predecessor tot een verschillend project behoort. Voor meer informatie over dwars-project predecessors, zie [&#x200B; creëren dwars-project predecessors &#x200B;](../../tasks/use-prdcssrs/cross-project-predecessors.md).
+   **naam van het Project:** De naam van het project waar predecessor verblijft. Het project wordt geïdentificeerd als het huidige project als predecessor tot de zelfde projecten zoals de taak, of als dwars project behoort, als predecessor tot een verschillend project behoort. Voor meer informatie over dwars-project predecessors, zie [ creëren dwars-project predecessors ](../../tasks/use-prdcssrs/cross-project-predecessors.md).
 
    U kunt de projectdetails uitbreiden om de geplande begin en einddata van het project, voorwaarde, status, volledig percentage, en eigenaar te zien. Voor een dwars project, kunt u **dan klikken zie Project** om het project te openen.
 

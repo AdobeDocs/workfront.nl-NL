@@ -7,9 +7,9 @@ description: U kunt 4 groepen in een matrixrapport hebben. Zie Een matrixrapport
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 1147a47b-c6e2-496e-b202-eefeb500054e
-source-git-commit: 7b25d3b5fe69f610e245db5ada116ea967f22c7b
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '263'
+source-wordcount: '249'
 ht-degree: 0%
 
 ---
@@ -18,38 +18,31 @@ ht-degree: 0%
 
 <!--Audited: 10/2024-->
 
-U kunt 4 groepen in een matrixrapport hebben. Voor meer informatie over matrixrapporten, zie [&#x200B; een matrixrapport &#x200B;](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md) creëren.
+U kunt 4 groepen in een matrixrapport hebben. Voor meer informatie over matrixrapporten, zie [ een matrixrapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md) creëren.
 
 U kunt slechts 3 groeperingen in een standaardrapport door de standaardinterface hebben. Om een vierde groepering in een standaardrapport toe te voegen, moet u tekstwijze gebruiken.
 
-![&#x200B; Four_groupings_in_a_standard_report.png &#x200B;](assets/four-tier-grouping-for-tasks-350x239.png)
+![ Four_groupings_in_a_standard_report.png ](assets/four-tier-grouping-for-tasks-350x239.png)
 
 Bijvoorbeeld, zou u een taakrapport kunnen hebben dat door de Naam van het Project, de Status van de Voortgang en Geplande Datum van de Voltooiing wordt gegroepeerd, maar u wilt ook het rapport groeperen door Toegewezen aan Naam.
 
 ## Toegangsvereisten
 
-+++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
-
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan</td> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie*</td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
    <td> 
-    <p>Nieuw:</p>
-   <ul><li><p>Medewerker om een filter te wijzigen </p></li>
-   <li><p>Standaard voor het wijzigen van een rapport</p></li> </ul>
-
-<p>Huidige:</p>
-   <ul><li><p>Verzoek om een filter te wijzigen </p></li>
-   <li><p>Plan om een rapport te wijzigen</p></li> </ul></td> 
+   <p>Medewerker of verzoek om een filter te wijzigen </p>
+   <p>Standaard of Plan om een rapport te wijzigen</p>
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau</td> 
@@ -62,7 +55,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-*For informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

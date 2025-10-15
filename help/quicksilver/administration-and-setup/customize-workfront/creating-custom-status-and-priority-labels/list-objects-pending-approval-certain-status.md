@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 52dd8750-9a6f-4ac6-9779-ba4ea9b6f4e0
-source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
+source-git-commit: 366043a786c94f1bc40ad3b20af175bb84c94742
 workflow-type: tm+mt
-source-wordcount: '523'
+source-wordcount: '500'
 ht-degree: 0%
 
 ---
@@ -23,36 +23,33 @@ Als u probeert om een status te schrappen, zou een foutenmelding u kunnen vertel
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan</td> 
-   <td>Alle</td> 
+   <td>Adobe Workfront-pakket</td> 
+   <td><p>Alle</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td>Adobe Workfront-licentie</td> 
    <td>
-     <p>Nieuw: Standaard</p>
-     <p>of</p>
-     <p>Huidig: Plan</p>
+     <p>Standard</p>
+     <p>Plan</p>
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau</td> 
+   <td>Configuraties op toegangsniveau</td> 
    <td><p>Toegang tot rapporten, dashboards, kalenders bewerken</p><p>Toegang tot filters, weergaven, groepen bewerken</p></td>
   </tr>
   <tr> 
-   <td role="rowheader">Objectmachtigingen</td> 
+   <td>Objectmachtigingen</td> 
    <td>U krijgt beheermachtigingen voor de rapporten die u maakt.</td>
   </tr>
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

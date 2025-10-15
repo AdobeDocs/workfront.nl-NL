@@ -6,9 +6,9 @@ description: Wanneer Adobe Workfront voor het eerst een document uploadt van een
 author: Courtney
 feature: Digital Content and Documents
 exl-id: fce8e8aa-fc48-49e1-a71d-c3933a179cf5
-source-git-commit: b87839d6c6dbfe978a3e14ef4b448560742f95c3
+source-git-commit: 430751f0e38c6c45145c965398990ee3652f36fe
 workflow-type: tm+mt
-source-wordcount: '421'
+source-wordcount: '373'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Wanneer Adobe Workfront voor het eerst een document uploadt van een willekeurige service, vraagt het de gebruiker om toestemming om toegang te krijgen tot de documentservice. Wanneer de gebruiker zijn aanmeldingsgegevens van de documentservice doorgeeft, wordt de documentservice gekoppeld aan Workfront.
 
-Voor informatie over het verbinden van externe documentdiensten aan Workfront, zie [&#x200B; het Verbinden van Documenten van Externe Toepassingen &#x200B;](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
+Voor informatie over het verbinden van externe documentdiensten aan Workfront, zie [ het Verbinden van Documenten van Externe Toepassingen ](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
 
 Aangezien de documentservice de service is die toestemming verleent om een koppeling naar Workfront te maken, is het voor Workfront niet mogelijk om de machtigingen die door de documentservice zijn verleend, te verwijderen. U moet de toestemming uit binnen de toepassing van de documentdienst verwijderen of u moet ons Team van de Steun roepen om deze verbinding uit onze servers te verwijderen.
 
@@ -25,34 +25,34 @@ Aangezien de documentservice de service is die toestemming verleent om een koppe
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
-U moet het volgende hebben:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-abonnement*</td> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
    <td> <p> Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licenties*</td> 
-   <td> <p>Aanvraag of hoger</p> </td> 
+   <td> 
+   <p>Medewerker of hoger</p>
+   <p>Aanvraag of hoger</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau*</td> 
-   <td> <p>Toegang tot documenten bewerken</p> <p>Opmerking: als u nog steeds geen toegang hebt, vraag dan aan de Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.</p> </td> 
+   <td role="rowheader">Configuraties op toegangsniveau</td> 
+   <td> <p>Toegang tot documenten bewerken</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## De koppeling tussen Workfront en Dropbox verwijderen
 
-1. Meld u aan bij de Dropbox.
+1. Meld u aan bij Dropbox.
 1. Klik uw profielfoto in de hogere juiste hoek, dan klik **Montages**.
 1. Klik **Verbonden apps** tabel, dan scrol neer aan **Gekoppelde apps**.
 
@@ -78,4 +78,4 @@ U moet het volgende hebben:
 
 U moet ons ondersteuningsteam bellen om Microsoft One Drive of WebDAM van Workfront los te koppelen.
 
-Voor informatie over het contacteren van ons Team van de Steun, zie [&#x200B; de Steun van de Klant van het Contact &#x200B;](../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).
+Voor informatie over het contacteren van ons Team van de Steun, zie [ de Steun van de Klant van het Contact ](../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).

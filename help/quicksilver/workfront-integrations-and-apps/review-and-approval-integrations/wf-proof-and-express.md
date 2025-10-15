@@ -8,9 +8,9 @@ author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 2eef36a6-8c61-4e7e-9760-23114f942250
-source-git-commit: dce2d9413b3a363d6508cabec0147c260817ed98
+source-git-commit: a65a4568c6428768ee6bc60a59a8499efdbec9f8
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '504'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ Workfront Proof met Adobe Express gebruiken om
  <col> 
  <tbody> 
  <tr> 
-   <td role="rowheader">Adobe Workfront-plan</td> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
    <td> 
    <p>Alle</p> 
    </td> 
@@ -47,19 +47,18 @@ Workfront Proof met Adobe Express gebruiken om
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie</td> 
    <td> 
-   <p>Standaard </p> 
+   <p>Standard </p> 
   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Product</td> 
+   <td role="rowheader">Aanvullende producten</td> 
    <td> 
    <p> U moet Adobe Express hebben en u moet als gebruiker aan het product in de Admin Console worden toegevoegd. </p> </td> 
   </tr>
-
-</tbody> 
+ </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -73,14 +72,14 @@ Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van d
   >
   >De integratie met Adobe Express en Workfront Proof is beschikbaar voor gebruikers in de loop van verschillende releases, te beginnen met accounts waaraan Workfront en Adobe Express zijn gekoppeld met dezelfde organisatie-id in de Adobe Admin Console, gevolgd door klanten met gebruikers die in verschillende IMS-organisaties werken. Als u de integratie wilt inschakelen, neemt u contact op met uw Customer Success of Strategic Account Manager.
 
-* De gebruikers moeten de [&#x200B; interactieve inhoud van het Overzicht met het de overzichtshulpmiddel van Adobe Workfront &#x200B;](/help/quicksilver/review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/review-proof-in-web-viewer-extension.md) installeren alvorens zij concepten in Adobe Express kunnen beginnen te herzien.
+* De gebruikers moeten de [ interactieve inhoud van het Overzicht met het de overzichtshulpmiddel van Adobe Workfront ](/help/quicksilver/review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/review-proof-in-web-viewer-extension.md) installeren alvorens zij concepten in Adobe Express kunnen beginnen te herzien.
 
 
 ## Goedkeuringswerkstromen instellen in Workfront
 
 Voordat gebruikers een goedkeuringswerkstroom kunnen toevoegen aan een Express-sjabloon, moet een Proefbeheerder met een Standard-licentie een goedkeuringswerkstroom maken in Workfront.
 
-Voor meer informatie, zie [&#x200B; Geautomatiseerde malplaatjes van het Werkschema &#x200B;](/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/create-manage-automated-workflow-templates.md) creëren en beheren.
+Voor meer informatie, zie [ Geautomatiseerde malplaatjes van het Werkschema ](/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/create-manage-automated-workflow-templates.md) creëren en beheren.
 
 ## Een goedkeuringswerkstroom toevoegen aan een Express-sjabloon
 
@@ -90,7 +89,7 @@ Wanneer een Uitdrukkelijke malplaatje wordt opnieuw gemengd, zal een goedkeuring
 
 Gebruikers moeten een Workfront-standaardlicentie hebben om Adobe Express om goedkeuring te vragen.
 
-Leer hoe te [&#x200B; goedkeuring op ontwerpen &#x200B;](https://helpx.adobe.com/nl/express/web/share-and-publish/share-and-collaborate/request-approval.html) krijgen.
+Leer hoe te [ goedkeuring op ontwerpen ](https://helpx.adobe.com/express/web/share-and-publish/share-and-collaborate/request-approval.html) krijgen.
 
 
 ## Express-sjablonen opnieuw mixen en verzenden voor revisie en goedkeuring

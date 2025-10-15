@@ -7,9 +7,9 @@ description: U kunt de namen van groepen in lijsten en rapporten wijzigen in iet
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 072d3c2b-9ede-4bb9-9a27-dc77ceb732c4
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '365'
+source-wordcount: '351'
 ht-degree: 0%
 
 ---
@@ -22,36 +22,29 @@ U kunt de namen van groepen wijzigen in iets wat de gebruikers beter bekend is.
 
 Bijvoorbeeld, wanneer u de standaardPortfolio Naam groepering op een lijst van projecten toepast, verschijnt de naam van de groepering als *Portfolio: Naam:`<name of portfolio>`*.
 
-![&#x200B; Groepering door onuitgegeven naam &#x200B;](assets/grouping-unedited-name-350x167.png)
+![ Groepering door onuitgegeven naam ](assets/grouping-unedited-name-350x167.png)
 
 U kunt deze groepering wijzigen door in de tekstmodus een naam weer te geven die beter leesbaar is.
 
-![&#x200B; Groepering door uitgegeven naam &#x200B;](assets/grouping-edited-name-350x160.png)
+![ Groepering door uitgegeven naam ](assets/grouping-edited-name-350x160.png)
 
 ## Toegangsvereisten
 
-+++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
-
-U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan</td> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie*</td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
    <td> 
-    <p>Nieuw:</p>
-   <ul><li><p>Medewerker om een filter te wijzigen </p></li>
-   <li><p>Standaard voor het wijzigen van een rapport</p></li> </ul>
-
-<p>Huidige:</p>
-   <ul><li><p>Verzoek om een filter te wijzigen </p></li>
-   <li><p>Plan om een rapport te wijzigen</p></li> </ul></td> 
+   <p>Medewerker of verzoek om een filter te wijzigen </p>
+   <p>Standaard of Plan om een rapport te wijzigen</p>
   </tr> 
   <tr> 
    <td role="rowheader">Configuraties op toegangsniveau</td> 
@@ -64,7 +57,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-*For informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -103,7 +96,7 @@ De weergavenaam wijzigen in een projectgroep:
      >U kunt ook de regels `group.0.name=` en `group.0.displayname=` leeg laten. In dat geval geeft de groepering de waarde weer waarop u groepeert.
 
 
-     ![&#x200B; Groepering door uitgegeven naam zonder naam &#x200B;](assets/grouping-edited-name-no-name-350x162.png)
+     ![ Groepering door uitgegeven naam zonder naam ](assets/grouping-edited-name-no-name-350x162.png)
 
 1. Klik **Gedaan**, dan **sparen Groepering**.
 1. (Facultatief) werk de groeperingsnaam bij, dan klik **sparen Groepering**.
