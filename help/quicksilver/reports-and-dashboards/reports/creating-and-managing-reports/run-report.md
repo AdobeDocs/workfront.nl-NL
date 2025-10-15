@@ -56,13 +56,13 @@ After a report is cached, it is available for the next 12 hours. Any user who ru
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Een rapport uitvoeren
 
-1. Klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, of (als beschikbaar), klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon-left-nav.png) in de upper-left hoek, dan klik **[!UICONTROL Reports]**.
+1. Klik het **[!UICONTROL Main Menu]** pictogram ![&#x200B; Belangrijkste Menu &#x200B;](/help/_includes/assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, of (als beschikbaar), klik het **[!UICONTROL Main Menu]** pictogram ![&#x200B; Belangrijkste Menu &#x200B;](/help/_includes/assets/main-menu-icon-left-nav.png) in de upper-left hoek, dan klik **[!UICONTROL Reports]**.
 
 1. Selecteer een van de volgende opties:
 
@@ -73,14 +73,14 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 1. Klik op de naam van het rapport dat u wilt uitvoeren.\
    of\
    Als het rapport gebruikend herinneringen werd gecreeerd, selecteer de aangewezen informatie van de drop-down menu&#39;s, dan klik **Rapport van de Looppas**.\
-   Voor meer informatie over herinneringen, zie [ een herinnering aan een rapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md) toevoegen.\
+   Voor meer informatie over herinneringen, zie [&#x200B; een herinnering aan een rapport &#x200B;](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md) toevoegen.\
    De inhoud van de rapportvertoning met een timestamp in de hoger-juiste hoek van het rapport die de datum, de tijd, en de tijdzone omvat toen het rapport van de context van de gebruiker werd in werking gesteld die het rapport in werking stelde.
 
-1. (Optioneel) Klik op het pictogram **Opnieuw laden** pictogram Opnieuw laden ![ om de resultaten in een rapport te vernieuwen als het rapport een tijdje in uw browser is weergegeven.](assets/unshimmed-report-refresh-icon.png)
+1. (Optioneel) Klik op het pictogram **Opnieuw laden** pictogram Opnieuw laden ![&#x200B; om de resultaten in een rapport te vernieuwen als het rapport een tijdje in uw browser is weergegeven.](assets/unshimmed-report-refresh-icon.png)
 
 1. (Voorwaardelijk) als het rapport filters of herinneringen gebruikt, klik **tonen Filters en Vragen** om een lijst van filters en herinneringen te tonen die op het rapport worden gebruikt u bekijkt. Als het rapport slechts filters of slechts herinneringen bevat, **toont Filters** of **toont Herinneringen** in plaats daarvan verschijnt.
 
-   ![ toon filters en herinneringen ](assets/unshimmed-show-filters-and-prompts.png)
+   ![&#x200B; toon filters en herinneringen &#x200B;](assets/unshimmed-show-filters-and-prompts.png)
 
    De informatie wordt weergegeven onder de rapportnaam aan de linkerkant van de pagina. Voor herinneringen, is dit informatie over de snelle selecties die op het tijdstip werden gemaakt het rapport in werking werd gesteld, zoals die in Stap 3 wordt beschreven.
 
@@ -92,7 +92,7 @@ Uw rapport kan in de cache worden geplaatst als het al een tijdje in uw browser 
 
 * Bewerk de rapportinstellingen en sla het rapport op.
 * Wijzig de weergave, groep of filter.
-* Klik het **pictogram opnieuw laden** ![ pictogram opnieuw laden ](assets/unshimmed-report-refresh-icon.png)
-Deze optie is beschikbaar in de hoger-juiste hoek van de pagina binnen het berichtvakje dat op de tijd wijst dat het rapport werd bewaard, of het is beschikbaar in de hoger-juiste hoek van het dashboard dat het rapport wordt geplaatst. Voor meer informatie over het opnieuw laden van dashboards, zie de sectie &quot;Dashboards van de Vertoning&quot;in artikel [ begonnen worden met dashboards ](../../../reports-and-dashboards/dashboards/understanding-dashboards/get-started-dashboards.md).
+* Klik het **pictogram opnieuw laden** ![&#x200B; pictogram opnieuw laden &#x200B;](assets/unshimmed-report-refresh-icon.png)
+Deze optie is beschikbaar in de hoger-juiste hoek van de pagina binnen het berichtvakje dat op de tijd wijst dat het rapport werd bewaard, of het is beschikbaar in de hoger-juiste hoek van het dashboard dat het rapport wordt geplaatst. Voor meer informatie over het opnieuw laden van dashboards, zie de sectie &quot;Dashboards van de Vertoning&quot;in artikel [&#x200B; begonnen worden met dashboards &#x200B;](../../../reports-and-dashboards/dashboards/understanding-dashboards/get-started-dashboards.md).
 
 * Heb toegang tot om het even welke pagina van het rapport voorbij de eerste pagina door aan de Summiere, Matrijs, of lusjes van de Grafiek te navigeren.

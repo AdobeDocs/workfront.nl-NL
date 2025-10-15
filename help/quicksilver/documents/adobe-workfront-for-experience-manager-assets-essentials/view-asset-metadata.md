@@ -58,7 +58,7 @@ In het deelvenster Documentdetails en -overzicht voor documenten ziet u een real
 </table>
 
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -66,7 +66,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 Voordat u begint,
 
-* Uw Workfront-beheerder moet een Experience Manager-integratie configureren. Voor meer informatie, zie [ de integratie van Experience Manager Assets as a Cloud Service ](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md) vormen of [ vormen de integratie van de Hoofdzaak van Experience Manager Assets ](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
+* Uw Workfront-beheerder moet een Experience Manager-integratie configureren. Voor meer informatie, zie [&#x200B; de integratie van Experience Manager Assets as a Cloud Service &#x200B;](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md) vormen of [&#x200B; vormen de integratie van de Hoofdzaak van Experience Manager Assets &#x200B;](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
 
 
 ## Documentdetails
@@ -81,7 +81,7 @@ Het deelvenster Metagegevens openen in Documentdetails:
    >
    >U kunt de velden in deze sectie niet bewerken. Ze zijn alleen-weergeven.
 
-![ paneel van documentdetails ](assets/metadata-panel-doc-details.png)
+![&#x200B; paneel van documentdetails &#x200B;](assets/metadata-panel-doc-details.png)
 
 
 ## Samenvatting voor documenten
@@ -90,10 +90,10 @@ U opent als volgt het deelvenster Metagegevens in het deelvenster Samenvatting:
 
 1. Ga naar het project, de taak, of de kwestie die het document bevat, dan selecteren **Documenten**.
 1. Zoek het document dat u nodig hebt.
-1. Klik het **Summiere pictogram van de Samenvatting** ![ summiere pictogram ](assets/summary-panel-icon.png), dan breid de **Meta-gegevens** sectie uit.
+1. Klik het **Summiere pictogram van de Samenvatting** ![&#x200B; summiere pictogram &#x200B;](assets/summary-panel-icon.png), dan breid de **Meta-gegevens** sectie uit.
 
    >[!NOTE]
    >
    >U kunt de velden in deze sectie niet bewerken. Ze zijn alleen-weergeven.
 
-![ samenvatting voor documenten ](assets/metadata-panel-summary.png)
+![&#x200B; samenvatting voor documenten &#x200B;](assets/metadata-panel-summary.png)

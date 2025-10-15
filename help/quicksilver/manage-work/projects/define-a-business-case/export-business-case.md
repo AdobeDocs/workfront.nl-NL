@@ -46,7 +46,7 @@ U kunt de Business Case naar een PDF-bestand exporteren voor het geval u deze wi
  </tbody> 
 </table>
 
-Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -58,6 +58,6 @@ Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront
 1. Klik **Bedrijfs Geval** in het linkerpaneel.
 1. In de hoger-juiste hoek van het **Samenvatting van BedrijfsGeval** gebied, klik **Uitvoer**. Er wordt een PDF-bestand naar de computer gedownload.
 
-   ![ Samenvatting Bedrijfs van het Geval ](assets/bc-summary.png)
+   ![&#x200B; Samenvatting Bedrijfs van het Geval &#x200B;](assets/bc-summary.png)
 
 

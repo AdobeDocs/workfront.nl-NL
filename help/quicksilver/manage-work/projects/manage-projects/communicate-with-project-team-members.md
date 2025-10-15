@@ -17,7 +17,7 @@ ht-degree: 0%
 
 U kunt eenvoudig communiceren met de leden van uw projectteam via Adobe Workfront.
 
-Alle gebruikers verbonden aan een project vormen het Team van het Project. Voor informatie over het Team van het Project, zie [ Overzicht van het Team van het Project ](../../../manage-work/projects/planning-a-project/project-team-overview.md).
+Alle gebruikers verbonden aan een project vormen het Team van het Project. Voor informatie over het Team van het Project, zie [&#x200B; Overzicht van het Team van het Project &#x200B;](../../../manage-work/projects/planning-a-project/project-team-overview.md).
 
 ## Toegangsvereisten
 
@@ -49,7 +49,7 @@ Alle gebruikers verbonden aan een project vormen het Team van het Project. Voor
  </tbody> 
 </table>
 
-Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -89,11 +89,11 @@ Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Work
 
    of
 
-   Om bepaalde leden van het projectteam bij te werken, selecteer één of verscheidene gebruikers in de lijst, dan klik **verzenden Update naar Gebruiker** ****.\
-   ![ Commenting_1.png ](assets/commenting-1-350x352.png)
+   Om bepaalde leden van het projectteam bij te werken, selecteer één of verscheidene gebruikers in de lijst, dan klik **verzenden Update naar Gebruiker** **&#x200B;**.\
+   ![&#x200B; Commenting_1.png &#x200B;](assets/commenting-1-350x352.png)
 
 1. Typ uw update op **post een update aan dit project** gebied.
-1. (Facultatief) om de update privé te maken, klik het **** pictogram van het Slot.
+1. (Facultatief) om de update privé te maken, klik het **&#x200B;**&#x200B;pictogram van het Slot.
 
    Gebruikers buiten het bedrijf kunnen geen persoonlijke update weergeven.
 
@@ -109,11 +109,11 @@ U kunt projectupdates naar teamleden en naar andere gebruikers verzenden die gee
 1. Ga naar een project waarvan u updates naar andere gebruikers wilt verzenden.
 1. (Optioneel en voorwaardelijk) Als de gebruikers waarnaar u updates wilt verzenden zich niet in het projectteam bevinden, voegt u deze toe aan het projectteam.
 
-   Voor informatie over het toevoegen van gebruikers aan het projectteam, zie [ het Team van het Project beheren ](../../../manage-work/projects/planning-a-project/manage-project-team.md).
+   Voor informatie over het toevoegen van gebruikers aan het projectteam, zie [&#x200B; het Team van het Project beheren &#x200B;](../../../manage-work/projects/planning-a-project/manage-project-team.md).
 
 1. Verzend een update naar de leden van het projectteam, zoals beschreven in het
 
-   [ verzend een e-mail naar een lid van het Team van het Project ](#send-an-email-to-a-project-team-member) sectie in dit artikel.
+   [&#x200B; verzend een e-mail naar een lid van het Team van het Project &#x200B;](#send-an-email-to-a-project-team-member) sectie in dit artikel.
 
    De update en de namen van de gebruikers inbegrepen in het tonen in het lusje van Updates van het project.
 

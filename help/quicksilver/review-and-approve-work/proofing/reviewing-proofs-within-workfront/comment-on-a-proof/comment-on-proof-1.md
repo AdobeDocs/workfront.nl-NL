@@ -57,7 +57,7 @@ Wanneer u gebruikers codeert in opmerkingen op een proefdruk, kunnen de gebruike
  </tbody> 
 </table>
 
-Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -133,7 +133,7 @@ Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront
    >Dit geldt alleen voor de standaardgereedschappen voor annotatiemarkeringen, niet voor de gereedschappen voor tekstopmaak.
 
 1. Typ uw commentaar in **voeg commentaar** doos op het recht toe.
-1. (Optioneel) Als u een andere gebruiker in de opmerking wilt labelen en toevoegen aan de workflow van de proefdruk, typt u @ in het opmerkingsvak, typt u vervolgens de naam of het e-mailadres van de gebruiker en selecteert u de gebruiker in het menu dat verschijnt. Voor meer informatie, zie [ de gebruikers van de Markering om een proef ](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/tag-users-to-share-proof.md) te delen.
+1. (Optioneel) Als u een andere gebruiker in de opmerking wilt labelen en toevoegen aan de workflow van de proefdruk, typt u @ in het opmerkingsvak, typt u vervolgens de naam of het e-mailadres van de gebruiker en selecteert u de gebruiker in het menu dat verschijnt. Voor meer informatie, zie [&#x200B; de gebruikers van de Markering om een proef &#x200B;](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/tag-users-to-share-proof.md) te delen.
 1. (Optioneel) Voer een van de volgende twee handelingen uit om een bestand aan een opmerking te koppelen:
 
    * Klik op het pictogram van de papierclip in de rechterbovenhoek van de opmerking en zoek en selecteer het bestand dat u wilt uploaden.

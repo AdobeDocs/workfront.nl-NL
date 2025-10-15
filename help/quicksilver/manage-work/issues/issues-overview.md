@@ -23,6 +23,6 @@ Tijdens het werken aan een project, zou u kunnen ontdekken dat de onverwachte ge
 
 Deze sectie bevat de volgende subsecties die beschrijven hoe te om kwesties in Adobe Workfront te gebruiken:
 
-* [ Bekeerling kwesties: artikelindex ](../../manage-work/issues/convert-issues/convert-issues-overview.md)
-* [ informatie van de Uitgave: artikelindex ](../../manage-work/issues/issue-information/issue-info-overview.md)
+* [&#x200B; Bekeerling kwesties: artikelindex &#x200B;](../../manage-work/issues/convert-issues/convert-issues-overview.md)
+* [&#x200B; informatie van de Uitgave: artikelindex &#x200B;](../../manage-work/issues/issue-information/issue-info-overview.md)
 * [Uitgaven beheren: artikelindex](../../manage-work/issues/manage-issues/manage-issues-overview.md)

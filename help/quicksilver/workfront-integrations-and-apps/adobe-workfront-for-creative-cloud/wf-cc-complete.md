@@ -52,7 +52,7 @@ U kunt in de volgende [!DNL Adobe Creative Cloud] -toepassingen blijven en uw we
  </tbody> 
 </table>
 
-Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 
 +++
@@ -65,7 +65,7 @@ Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront
 
 1. Klik op het pictogram **[!UICONTROL Menu]** in de rechterbovenhoek en selecteer vervolgens **[!UICONTROL Work List]** . U kunt het menu ook gebruiken om naar bovenliggende objecten te navigeren.
 
-   ![ Terugkeer aan de Lijst van het Werk ](assets/go-back-to-work-list-350x314.png)
+   ![&#x200B; Terugkeer aan de Lijst van het Werk &#x200B;](assets/go-back-to-work-list-350x314.png)
 
 1. Selecteer in het **[!UICONTROL Work List]** de taak of uitgave die u als voltooid wilt markeren.
 1. Klik op **[!UICONTROL Done]** .  Als u de enige gebruiker bent die aan deze taak of uitgave is toegewezen, markeert dit het item [!UICONTROL Complete] of [!UICONTROL Resolved] in [!DNL Workfront] .
@@ -80,6 +80,6 @@ Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront
    >[!NOTE]
    >
    >Als het werkitem voorgangers heeft, is de knop Gereed grijs totdat deze voorgangers zijn gemarkeerd als voltooid. Als u voorgangers in [!DNL Workfront] wilt weergeven, klikt u op de naam van de taak.
-   >![ ga aan Workfront ](assets/navigate-to-workfront.png)
+   >![&#x200B; ga aan Workfront &#x200B;](assets/navigate-to-workfront.png)
 
 <!-- I dont think we need this one ![Complete work](assets/complete-work-350x529.png) -->

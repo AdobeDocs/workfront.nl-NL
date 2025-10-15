@@ -25,7 +25,7 @@ Als u de invoegopties wilt gebruiken, moet de takenlijst op nummer worden gesort
 
 ### Antwoord
 
-De datum van daadwerkelijke voltooiing vertegenwoordigt de datum en de tijd het werk wordt voltooid. Voor meer informatie, zie [ Overzicht van het project de Ware Datum van de Voltooiing ](../../../manage-work/projects/planning-a-project/project-actual-completion-date.md).
+De datum van daadwerkelijke voltooiing vertegenwoordigt de datum en de tijd het werk wordt voltooid. Voor meer informatie, zie [&#x200B; Overzicht van het project de Ware Datum van de Voltooiing &#x200B;](../../../manage-work/projects/planning-a-project/project-actual-completion-date.md).
 
 ## Waarom ontbreekt de knop Inspringing/Uitspringen?
 
@@ -37,7 +37,7 @@ Als u de knop Inspringing/Uitspringen wilt gebruiken, zorgt u ervoor dat de take
 
 Ik krijg het volgende foutbericht wanneer ik probeer mijn project te markeren voltooid:
 
-![ Project_FAQ_Complete_Error_message.png ](assets/project-faq-complete-error-message-350x138.png)
+![&#x200B; Project_FAQ_Complete_Error_message.png &#x200B;](assets/project-faq-complete-error-message-350x138.png)
 
 ### Antwoord
 
@@ -50,7 +50,7 @@ U kunt de status van een project niet wijzigen om te voltooien als u een van de 
 
 ### Antwoord
 
-Als voor het project de modus Voltooien is ingesteld op Automatisch, wordt de status van het project automatisch ingesteld op Voltooien als alle taken en problemen zijn voltooid en kunt u de status niet wijzigen in een andere status. De Voltooiingswijze van het project moet aan Handboek worden geplaatst om een volledig project aan Huidig te kunnen veranderen. Voor informatie, zie [ de status van het Project niet van Voltooid in Huidige ](../../../manage-work/projects/tips-tricks-and-troubleshooting/project-status-does-not-change-from-complete-to-current.md) veranderen.
+Als voor het project de modus Voltooien is ingesteld op Automatisch, wordt de status van het project automatisch ingesteld op Voltooien als alle taken en problemen zijn voltooid en kunt u de status niet wijzigen in een andere status. De Voltooiingswijze van het project moet aan Handboek worden geplaatst om een volledig project aan Huidig te kunnen veranderen. Voor informatie, zie [&#x200B; de status van het Project niet van Voltooid in Huidige &#x200B;](../../../manage-work/projects/tips-tricks-and-troubleshooting/project-status-does-not-change-from-complete-to-current.md) veranderen.
 
 ## Waarom kan ik geen Project aan een Portfolio toevoegen, hoewel ik de correcte toestemmingen heb om dit te doen?
 
@@ -78,7 +78,7 @@ De Managers van het middel ontvangen automatisch leiden toegang tot projecten. A
 
 De status van het project verandert als gevolg van de standaardstatus van de groep. Wanneer u een groep aan een project toevoegt, verandert het de lijst van statussen in de standaardstatussen die voor de groep worden geplaatst.
 
-Voor meer informatie, zie het artikel [ creeer of geef een status ](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md) uit.
+Voor meer informatie, zie het artikel [&#x200B; creeer of geef een status &#x200B;](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md) uit.
 
 ## Wat is de begrotingsstatus?
 
@@ -98,6 +98,6 @@ Hieronder vindt u begrotingsstaten:
 
 De beheerder van Adobe Workfront beperkte u tot het bekijken van slechts Bedrijven, Groepen &amp; Teams die u tot in uw Niveau van de Toegang van behoort. Het team dat u zoekt is niet één van de teams u tot behoort.
 
-![ slechts teams van de Mening, groepen, bedrijven zij tot ](assets/view-only-team-groups-companies-they-belong-to-350x141.png) behoren
+![&#x200B; slechts teams van de Mening, groepen, bedrijven zij tot &#x200B;](assets/view-only-team-groups-companies-they-belong-to-350x141.png) behoren
 
-Voor informatie over het toelaten van een gebruiker om alle teams in het systeem te bekijken, zie [ tot douanetoegangsniveaus ](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md) leiden of wijzigen.
+Voor informatie over het toelaten van een gebruiker om alle teams in het systeem te bekijken, zie [&#x200B; tot douanetoegangsniveaus &#x200B;](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md) leiden of wijzigen.

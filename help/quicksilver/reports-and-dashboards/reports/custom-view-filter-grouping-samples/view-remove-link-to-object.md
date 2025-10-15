@@ -51,7 +51,7 @@ U kunt deze koppeling verwijderen met de tekstmodus in kolommen die in alle weer
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 
 +++
@@ -64,7 +64,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
    of
 
-   Klik het **uitgeven pictogram** ![ uitgeven pictogram ](assets/edit-icon.png) om een bestaande mening uit te geven, dan de mening te selecteren.
+   Klik het **uitgeven pictogram** ![&#x200B; uitgeven pictogram &#x200B;](assets/edit-icon.png) om een bestaande mening uit te geven, dan de mening te selecteren.
 
 1. Klik **toevoegen Kolom** om een nieuwe kolom toe te voegen.
 

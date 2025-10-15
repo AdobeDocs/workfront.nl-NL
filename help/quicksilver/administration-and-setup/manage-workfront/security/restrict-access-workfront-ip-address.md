@@ -49,15 +49,15 @@ Deze IP adressen of IP adreswaaiers zouden door uw netwerkbeheerder moeten worde
  </tbody> 
 </table>
 
-Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Overige lijsten van gewenste personen
 
-Als uw firewall of postserver wordt gevormd om toegang tot slechts bepaalde verkopers toe te staan, moet u bepaalde IP adressen aan zijn lijst van gewenste personen toevoegen. Hierdoor wordt de communicatie tussen uw omgeving en de Adobe Workfront-servers geopend. Voor informatie over dat, zie [ de lijst van gewenste personen van uw firewall ](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md) vormen.
+Als uw firewall of postserver wordt gevormd om toegang tot slechts bepaalde verkopers toe te staan, moet u bepaalde IP adressen aan zijn lijst van gewenste personen toevoegen. Hierdoor wordt de communicatie tussen uw omgeving en de Adobe Workfront-servers geopend. Voor informatie over dat, zie [&#x200B; de lijst van gewenste personen van uw firewall &#x200B;](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md) vormen.
 
-Als uw organisatie het Enterprise-abonnement gebruikt, kunt u de Workfront e-mailtoepassing configureren om te bepalen welke e-maildomeinen e-mails van Workfront mogen accepteren en welke e-maildomeinen zich in het e-mailadres kunnen bevinden dat gebruikers in hun Workfront-gebruikersprofiel opgeven. Voor meer informatie, zie [ uw e-maillijst van gewenste personen ](../../../administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md) vormen.
+Als uw organisatie het Enterprise-abonnement gebruikt, kunt u de Workfront e-mailtoepassing configureren om te bepalen welke e-maildomeinen e-mails van Workfront mogen accepteren en welke e-maildomeinen zich in het e-mailadres kunnen bevinden dat gebruikers in hun Workfront-gebruikersprofiel opgeven. Voor meer informatie, zie [&#x200B; uw e-maillijst van gewenste personen &#x200B;](../../../administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md) vormen.
 
 ## IP adressen toevoegen aan de lijst van gewenste personen
 
@@ -67,7 +67,7 @@ Nadat u IP adressen aan de lijst van gewenste personen van Workfront toevoegt, s
 
 1. Klik **Systeem** > **Info van de Klant.**
 
-1. In de **sectie van de lijst van gewenste personen van 0} IP, uitgezochte** laat IP lijst van gewenste personen toe.****
+1. In de **sectie van de lijst van gewenste personen van 0&rbrace; IP, uitgezochte** laat IP lijst van gewenste personen toe.**&#x200B;**
 
    Deze optie is standaard uitgeschakeld.
 

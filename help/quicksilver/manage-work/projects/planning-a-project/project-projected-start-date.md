@@ -43,6 +43,6 @@ U kunt de Geprojecteerde Datum van het Begin van een project of een taak in de v
 
 * U kunt het aan een project of een taakrapport of mening toevoegen.
 
-  Voor meer informatie over het creëren van een rapport, zie het artikel [ een douanerapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) creëren.
+  Voor meer informatie over het creëren van een rapport, zie het artikel [&#x200B; een douanerapport &#x200B;](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) creëren.
 
 * In de sectie van de Details van het Project van een project of de sectie van de Details van de Taak van een taak.

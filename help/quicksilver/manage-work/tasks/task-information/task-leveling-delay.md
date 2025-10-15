@@ -19,7 +19,7 @@ Soms kunnen er conflicten optreden tussen taakplanningen in een project. U kunt 
 
 Als projectmanager, of de taak toegewezen, kunt u een Vertraging van het Niveaus op individuele taken ook toevoegen om van om het even welke middel of het plannen conflicten rekenschap te geven. Met andere woorden, een taak zou met een vertraging kunnen worden gepland om ervoor te zorgen dat wanneer Adobe Workfront niveaus de taken een realistischer programma middelconflicten overtreedt.
 
-Door een niveauvertraging toe te voegen aan een taak, past u de verwachte Voltooiingsdatum van de taak aan. Voor informatie over de voorgenomen voltooiingsdatum, zie [ Overzicht van de Verwachte Datum van de Voltooiing voor projecten, taken, en kwesties ](../../../manage-work/projects/planning-a-project/project-projected-completion-date.md).
+Door een niveauvertraging toe te voegen aan een taak, past u de verwachte Voltooiingsdatum van de taak aan. Voor informatie over de voorgenomen voltooiingsdatum, zie [&#x200B; Overzicht van de Verwachte Datum van de Voltooiing voor projecten, taken, en kwesties &#x200B;](../../../manage-work/projects/planning-a-project/project-projected-completion-date.md).
 
 ## Toegangsvereisten
 
@@ -49,7 +49,7 @@ Door een niveauvertraging toe te voegen aan een taak, past u de verwachte Voltoo
  </tbody> 
 </table>
 
-Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

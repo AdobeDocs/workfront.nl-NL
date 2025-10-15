@@ -51,7 +51,7 @@ U moet het volgende hebben:
   </tr>
 </table>
 
-Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Vereisten
 
@@ -61,7 +61,7 @@ Het Create eindpunt van het Pakket van de Bevordering veronderstelt dat u reeds 
 
 Het vermogen van de Bevordering van het Milieu is bedoeld om de capaciteit te verstrekken om op configuratie betrekking hebbende voorwerpen van één milieu aan een andere te bewegen. Het ondersteunt niet de mogelijkheid om transactieobjecten te verplaatsen (met beperkte uitzonderingen).
 
-Voor een lijst van promotable voorwerpen en hun inbegrepen promotable subobjects, zie [ Gesteunde voorwerpen voor milieubevordering ](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md#supported-objects-for-environment-promotion) in het artikel [ Overzicht van het bewegen van voorwerpen tussen de milieu&#39;s van Workfront ](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md).
+Voor een lijst van promotable voorwerpen en hun inbegrepen promotable subobjects, zie [&#x200B; Gesteunde voorwerpen voor milieubevordering &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md#supported-objects-for-environment-promotion) in het artikel [&#x200B; Overzicht van het bewegen van voorwerpen tussen de milieu&#39;s van Workfront &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md).
 
 ## Verificatie
 
@@ -71,7 +71,7 @@ Verificatie wordt uitgevoerd door een sessie-id of API-sleutel door te geven. De
 
 ### Koptekstverificatie aanvragen
 
-De aangewezen methode van authentificatie is een verzoekkopbal over te gaan genoemd SessionID die het zittingsteken bevat. Dit heeft het voordeel om tegen [ Cross-site van het Verzoek Smederij (CSRF) ](https://en.wikipedia.org/wiki/Cross-site_request_forgery) aanvallen veilig te zijn en zich niet met URI voor caching doeleinden te mengen.
+De aangewezen methode van authentificatie is een verzoekkopbal over te gaan genoemd SessionID die het zittingsteken bevat. Dit heeft het voordeel om tegen [&#x200B; Cross-site van het Verzoek Smederij (CSRF) &#x200B;](https://en.wikipedia.org/wiki/Cross-site_request_forgery) aanvallen veilig te zijn en zich niet met URI voor caching doeleinden te mengen.
 
 Hieronder ziet u een voorbeeld van een aanvraagkoptekst:
 
@@ -118,7 +118,7 @@ In de tweede stap wordt de array `objectCollections` in de hoofdtekst van de POS
 >
 >Elk item bevat ook een `entities` -verzameling. Hiermee wordt het veld `ID` verwacht. Het kan ook een optioneel `name` -kenmerk accepteren, zodat u gemakkelijker kunt zien wat de `ID` vertegenwoordigt.
 >
->Voor de lijst van toegestane objecten codes die in de `objectCollections` lijst moeten worden gevraagd, zie de [ Gesteunde voorwerpen voor milieu bevordering ](#supported-objects-for-environment-promotion) sectie in dit artikel.
+>Voor de lijst van toegestane objecten codes die in de `objectCollections` lijst moeten worden gevraagd, zie de [&#x200B; Gesteunde voorwerpen voor milieu bevordering &#x200B;](#supported-objects-for-environment-promotion) sectie in dit artikel.
 
 #### URL
 
@@ -372,7 +372,7 @@ De bewerkbare kenmerken zijn:
 1. description (string)
 1. status (tekenreeks met validatie van waarden)
 
-Voor een gedetailleerde beschrijving van beschikbare statussen, zie [ de bevorderingsstatussen van het Milieu ](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md#environment-promotion-statuses) in het artikel [ Overzicht van het bewegen van voorwerpen tussen de milieu&#39;s van Workfront ](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md).
+Voor een gedetailleerde beschrijving van beschikbare statussen, zie [&#x200B; de bevorderingsstatussen van het Milieu &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md#environment-promotion-statuses) in het artikel [&#x200B; Overzicht van het bewegen van voorwerpen tussen de milieu&#39;s van Workfront &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md).
 
 
 #### URL
@@ -680,7 +680,7 @@ of
 >
 >Als om het even welke veranderingen in het bestemmingsmilieu (het milieu zijn aangebracht dat het pakket wordt opgesteld) na het uitvoeren van pre-looppas, adviseren wij nogmaals uitvoering pre-run. Als u de voorvertoning niet opnieuw uitvoert, is de uitvoering mogelijk niet correct voltooid of mislukt de installatie mogelijk.
 >
->Voor instructies bij het uitvoeren van een pre-looppas, zie [ prerun ](#execute-a-pre-run) uitvoeren.
+>Voor instructies bij het uitvoeren van een pre-looppas, zie [&#x200B; prerun &#x200B;](#execute-a-pre-run) uitvoeren.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -1016,7 +1016,7 @@ Een vertaalkaart, met een `202 - OK` -status
 
 Er is geen eindpunt voor deze stap.
 
-1. In de vertaalkaart die in [ Stap 1 is teruggekeerd - creeer een Vertaal Kaart ](#step-1---create-a-translation-map), inspecteer de lijst van voorwerpen die zullen worden geïnstalleerd.
+1. In de vertaalkaart die in [&#x200B; Stap 1 is teruggekeerd - creeer een Vertaal Kaart &#x200B;](#step-1---create-a-translation-map), inspecteer de lijst van voorwerpen die zullen worden geïnstalleerd.
 1. Werk het actieveld op elk voorwerp aan de gewenste installatieactie bij.
 1. Valideer de `targetId` voor elk object. Als de actie set `USEEXISTING` of `OVERWRITING` is, moet de `targetId` worden ingesteld op de UUID van het doelobject in de doelomgeving. Voor elke andere actie moet targetId een lege tekenreeks zijn.
 
@@ -1034,7 +1034,7 @@ POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/p
 
 #### Lichaam
 
-Dit is een voorwerp met één enkel gebied `translationMap`, dat de gewijzigde vertaalkaart van [ Stap 2 zou moeten evenaren - wijzig de Omzettingskaart ](#step-2---modify-the-translation-map).
+Dit is een voorwerp met één enkel gebied `translationMap`, dat de gewijzigde vertaalkaart van [&#x200B; Stap 2 zou moeten evenaren - wijzig de Omzettingskaart &#x200B;](#step-2---modify-the-translation-map).
 
 ```json
 {

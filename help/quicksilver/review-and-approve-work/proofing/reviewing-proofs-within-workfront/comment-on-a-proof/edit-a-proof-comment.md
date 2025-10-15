@@ -44,7 +44,7 @@ Opmerkingen kunnen niet worden bewerkt nadat een antwoord aan de opmerking is to
  </tbody> 
 </table>
 
-Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -65,7 +65,7 @@ Proefdrukopmerkingen bewerken:
 1. (Voorwaardelijk) als het commentaargebied niet open is, klik **commentaren van de Mening** in de hoger-juiste hoek.
 1. Beweeg over de opmerking u wilt uitgeven, **klikken Meer** pictogram dat verschijnt, dan **uitgeeft** klikken.
 
-1. ![ Edit_a_comment-More_icon.png ](assets/edit-a-comment-more-icon.png)
+1. ![&#x200B; Edit_a_comment-More_icon.png &#x200B;](assets/edit-a-comment-more-icon.png)
 
 1. Breng om het even welke veranderingen in de commentaar aan, dan klik **Post**.
 

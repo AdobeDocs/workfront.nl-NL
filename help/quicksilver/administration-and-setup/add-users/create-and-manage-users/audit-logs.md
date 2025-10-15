@@ -21,7 +21,7 @@ ht-degree: 0%
 
 Als beheerder van Adobe Workfront, kunt u gebruiker-veranderingen volgen die in het systeem tijdens de afgelopen 90 dagen worden teweeggebracht gebruikend de hieronder beschreven controlelogboeken.
 
-Voor instructies bij het bekijken van en het filtreren wat u in deze controlelogboeken wilt zien, zie [ de controlelogboeken van de Mening en van de uitvoer ](../../../administration-and-setup/add-users/create-and-manage-users/view-and-export-audit-logs.md).
+Voor instructies bij het bekijken van en het filtreren wat u in deze controlelogboeken wilt zien, zie [&#x200B; de controlelogboeken van de Mening en van de uitvoer &#x200B;](../../../administration-and-setup/add-users/create-and-manage-users/view-and-export-audit-logs.md).
 
 ## De informatie u in een controlelogboek kunt vinden
 
@@ -64,21 +64,21 @@ De volgende gebieden worden geregistreerd in elke ingang van het controlelogboek
 
 ## Controlelogbestandstypen en de acties die deze activeren
 
-* [ Niveau van de Toegang ](#access-level)
+* [&#x200B; Niveau van de Toegang &#x200B;](#access-level)
 * [Zakelijke regels](#business-rules)
-* [ Bedrijf ](#company)
-* [ Voorwaarde ](#condition)
-* [ Douane Gebied ](#custom-field)
-* [ Vorm van de Douane ](#custom-forms)
-* [ Sectie van de Douane ](#custom-section)
-* [ Wisselkoers ](#exchange-rate)
-* [ Groep ](#group)
-* [ Rol van de Baan ](#job-role)
-* [ Prioriteit ](#priority)
-* [ Voorkeur van het Project ](#project-preference)
-* [ Ernst ](#severity)
-* [ Status ](#status)
-* [ Taken &amp; de Voorkeur van Kwesties ](#tasks-issues-preferences)
+* [&#x200B; Bedrijf &#x200B;](#company)
+* [&#x200B; Voorwaarde &#x200B;](#condition)
+* [&#x200B; Douane Gebied &#x200B;](#custom-field)
+* [&#x200B; Vorm van de Douane &#x200B;](#custom-forms)
+* [&#x200B; Sectie van de Douane &#x200B;](#custom-section)
+* [&#x200B; Wisselkoers &#x200B;](#exchange-rate)
+* [&#x200B; Groep &#x200B;](#group)
+* [&#x200B; Rol van de Baan &#x200B;](#job-role)
+* [&#x200B; Prioriteit &#x200B;](#priority)
+* [&#x200B; Voorkeur van het Project &#x200B;](#project-preference)
+* [&#x200B; Ernst &#x200B;](#severity)
+* [&#x200B; Status &#x200B;](#status)
+* [&#x200B; Taken &amp; de Voorkeur van Kwesties &#x200B;](#tasks-issues-preferences)
 * [Gebruiker](#user)
 <!--* [Login Attempt](#login-attempt) -->
 
@@ -101,7 +101,7 @@ Het systeem produceert een het logboekingang van het Niveau van de Toegang wanne
 
 ### Zakelijke regels
 
-Zakelijke regels zijn alleen beschikbaar voor klanten die een Ultimate Workfront-abonnement hebben aangeschaft. Voor meer informatie, zie [ bedrijfsregels ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md) creëren en uitgeven.
+Zakelijke regels zijn alleen beschikbaar voor klanten die een Ultimate Workfront-abonnement hebben aangeschaft. Voor meer informatie, zie [&#x200B; bedrijfsregels &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md) creëren en uitgeven.
 
 Het systeem produceert een ingang van het de controlelogboek van de BedrijfsRegel wanneer een gebruiker één van het volgende doet:
 
@@ -131,7 +131,7 @@ Het systeem produceert een ingang van het de controlelogboek van het Bedrijf wan
 
 * Een bedrijf verwijderen
 
-Voor meer informatie over statussen, zie [ Overzicht van Statussen ](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/statuses-overview.md).
+Voor meer informatie over statussen, zie [&#x200B; Overzicht van Statussen &#x200B;](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/statuses-overview.md).
 
 ### Voorwaarde {#condition}
 
@@ -148,7 +148,7 @@ Het systeem produceert een ingang van het de controlelogboek van de Voorwaarde w
 
 * Hiermee wordt een voorwaarde verwijderd
 
-Voor meer informatie over het vormen van baanrollen, zie [ een douanevoorwaarde ](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md) creëren of uitgeven.
+Voor meer informatie over het vormen van baanrollen, zie [&#x200B; een douanevoorwaarde &#x200B;](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md) creëren of uitgeven.
 
 ### Aangepast veld {#custom-field}
 
@@ -208,7 +208,7 @@ Het systeem produceert een ingang van het de controlelogboek van de Sectie van d
 * De naam of beschrijving van een aangepaste sectie wijzigen
 * Hiermee verwijdert u een aangepaste sectie
 
-Voor informatie over douanesecties in douaneformulieren, zie [ een douaneformulier ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren.
+Voor informatie over douanesecties in douaneformulieren, zie [&#x200B; een douaneformulier &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren.
 
 ### Wisselkoers {#exchange-rate}
 
@@ -223,7 +223,7 @@ Het systeem produceert een ingang van het de controlelogboek van het Tarief van 
 
 * Verwijdert een wisselkoers
 
-Voor meer informatie over het vormen van wisselkoersen, zie [ de wisselkoers van de Opstelling ](../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md).
+Voor meer informatie over het vormen van wisselkoersen, zie [&#x200B; de wisselkoers van de Opstelling &#x200B;](../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md).
 
 ### Groep {#group}
 
@@ -250,7 +250,7 @@ Het systeem produceert een ingang van het de controlelogboek van de Rollen van d
 
 * Hiermee wordt een taakrol verwijderd
 
-Voor meer informatie over het vormen van baanrollen, zie [ baanrollen ](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md) creëren en beheren.
+Voor meer informatie over het vormen van baanrollen, zie [&#x200B; baanrollen &#x200B;](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md) creëren en beheren.
 
 ### Aanmeldingspoging {#login-attempt}
 
@@ -281,7 +281,7 @@ Het systeem produceert een ingang van het Prioritair controlelogboek wanneer een
 
 * Hiermee wordt een prioriteit verwijderd
 
-Voor meer informatie over het vormen van prioriteiten, zie [ prioriteiten ](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md) creëren en aanpassen.
+Voor meer informatie over het vormen van prioriteiten, zie [&#x200B; prioriteiten &#x200B;](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md) creëren en aanpassen.
 
 ### Projectvoorkeur {#project-preference}
 
@@ -297,7 +297,7 @@ Het systeem produceert een ingang van het de controlelogboek van de Voorkeur van
 
 * Hiermee wordt een aangepast kwartaal verwijderd
 
-Voor meer informatie over projectvoorkeur, zie [ systeem-brede projectvoorkeur ](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) vormen.
+Voor meer informatie over projectvoorkeur, zie [&#x200B; systeem-brede projectvoorkeur &#x200B;](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) vormen.
 
 ### Ernst {#severity}
 
@@ -314,7 +314,7 @@ Het systeem genereert een item in het log voor de controle van de ernst wanneer 
 
 * Hiermee verwijdert u de ernst van een uitgave
 
-Voor meer informatie over het vormen van baanrollen, zie [ tot stand brengen of passen de controles van de kwestie ](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-issue-severities.md) aan.
+Voor meer informatie over het vormen van baanrollen, zie [&#x200B; tot stand brengen of passen de controles van de kwestie &#x200B;](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-issue-severities.md) aan.
 
 ### Status {#status}
 
@@ -331,7 +331,7 @@ Het systeem produceert een ingang van het de controlelogboek van de Status wanne
 
 * Hiermee wordt een status op systeem- of groepsniveau verwijderd
 
-Voor meer informatie over statussen, zie [ Overzicht van Statussen ](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/statuses-overview.md).
+Voor meer informatie over statussen, zie [&#x200B; Overzicht van Statussen &#x200B;](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/statuses-overview.md).
 
 ### Voorkeuren voor taken en problemen {#tasks-issues-preferences}
 
@@ -341,7 +341,7 @@ Het systeem genereert een controlelogbestandvermelding voor taken en problemen w
 * Hiermee wordt de instelling voor een voorkeur gewijzigd
 * Hiermee wijzigt u de instelling Toegang voor taken, problemen of verzoeken
 
-Voor meer informatie over taak en uitgevende voorkeur, zie [ taak voor het hele systeem vormen en voorkeur uitgeven ](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+Voor meer informatie over taak en uitgevende voorkeur, zie [&#x200B; taak voor het hele systeem vormen en voorkeur uitgeven &#x200B;](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
 ### Gebruiker {#user}
 

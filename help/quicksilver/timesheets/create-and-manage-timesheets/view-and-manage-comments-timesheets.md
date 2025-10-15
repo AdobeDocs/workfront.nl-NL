@@ -23,7 +23,7 @@ U kunt opmerkingen maken over de volgende items in een tijdsplaat:
 * Op de uurvermeldingen
 * Op een afzonderlijk item, zoals een taak of een probleem
 
-U kunt updates van een timesheet of van individuele uuringangen in een rapport van de Nota tonen. Voor informatie, zie [ Mening alle updates in een rapport van de Nota ](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/view-all-updates-in-a-report.md).
+U kunt updates van een timesheet of van individuele uuringangen in een rapport van de Nota tonen. Voor informatie, zie [&#x200B; Mening alle updates in een rapport van de Nota &#x200B;](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/view-all-updates-in-a-report.md).
 
 ## Toegangsvereisten
 
@@ -53,13 +53,13 @@ U kunt updates van een timesheet of van individuele uuringangen in een rapport v
  </tbody> 
 </table>
 
-Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## De ingangen van uren van de mening over een timesheet {#view-hour-entry-comments-on-a-timesheet}
 
-U kunt commentaren vormen die op individuele uuringangen worden gemaakt om in timesheet worden getoond. De optie om opmerkingen weer te geven en te verbergen, heeft geen invloed op opmerkingen die zijn gemaakt in de algemene tijdlijn of op opmerkingen die zijn gemaakt voor afzonderlijke items. Zie voor meer informatie  [ maak commentaren op een timesheet ](#make-comments-on-a-timesheet).
+U kunt commentaren vormen die op individuele uuringangen worden gemaakt om in timesheet worden getoond. De optie om opmerkingen weer te geven en te verbergen, heeft geen invloed op opmerkingen die zijn gemaakt in de algemene tijdlijn of op opmerkingen die zijn gemaakt voor afzonderlijke items. Zie voor meer informatie  [&#x200B; maak commentaren op een timesheet &#x200B;](#make-comments-on-a-timesheet).
 
 Opmerkingen worden standaard verborgen wanneer u voor het eerst een tijdblad opent.
 
@@ -73,26 +73,26 @@ Het **gebied van Tijdopnemers** opent.
 1. Klik **tonen commentaren** in de hoger-juiste hoek van timesheet.
 De commentaren tonen onder het punt waar de uuringang en de commentaar werden geregistreerd.
 
-   ![ Commentaren die onder taken worden uitgebreid opnieuw ontworpen timesheet ](assets/comments-expanded-under-tasks-redesigned-timesheet.png)
+   ![&#x200B; Commentaren die onder taken worden uitgebreid opnieuw ontworpen timesheet &#x200B;](assets/comments-expanded-under-tasks-redesigned-timesheet.png)
 
 
 ## Opmerkingen maken op een tijdblad {#make-comments-on-a-timesheet}
 
-* [ Commentaar op algemene timesheet ](#comment-on-the-overall-timesheet)
-* [ commentaar op een individuele uuringang in een timesheet ](#comment-on-an-individual-hour-entry-in-a-timesheet)
+* [&#x200B; Commentaar op algemene timesheet &#x200B;](#comment-on-the-overall-timesheet)
+* [&#x200B; commentaar op een individuele uuringang in een timesheet &#x200B;](#comment-on-an-individual-hour-entry-in-a-timesheet)
 * [Opmerking over een werkitem in een tijdsplaat](#comment-on-a-work-item-in-a-timesheet)
 
 ### Opmerking over de algemene tijdlijn {#comment-on-the-overall-timesheet}
 
 U kunt algemene opmerkingen maken over de tijdpagina. Het plaatsen van opmerkingen over de gehele tijdlijn lijkt op het plaatsen van opmerkingen over andere objecten.
 
-1. Klik het **pictogram 1} van het Belangrijkste Menu** Belangrijkste menupictogram ![ in de hoger-juiste hoek, of het ](assets/main-menu-icon.png) Belangrijkste **pictogram van het Menu** het belangrijkste menu van Lijnen ![ in de upper-left hoek of Workfront, als beschikbaar.](assets/lines-main-menu.png)
+1. Klik het **pictogram 1&rbrace; van het Belangrijkste Menu** Belangrijkste menupictogram ![&#x200B; in de hoger-juiste hoek, of het &#x200B;](assets/main-menu-icon.png) Belangrijkste **pictogram van het Menu** het belangrijkste menu van Lijnen ![&#x200B; in de upper-left hoek of Workfront, als beschikbaar.](assets/lines-main-menu.png)
 
 1. Klik **Tijdopnemers**.
 1. Ga naar de tijdpagina waarop u een opmerking wilt maken.
 1. Klik **Updates** in het linkerpaneel, dan klik de **Commentaren** tabel.
-1. Begin toevoegend nieuwe commentaren of antwoord aan bestaande degenen, zoals die in [ het werk van de Update ](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md) worden beschreven.
-1. (Facultatief) voeg mensen of teams in het **mensen of de teams van de Markering** gebied toe om anderen in uw update te omvatten. Voor meer informatie, zie [ Tags anderen op updates ](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
+1. Begin toevoegend nieuwe commentaren of antwoord aan bestaande degenen, zoals die in [&#x200B; het werk van de Update &#x200B;](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md) worden beschreven.
+1. (Facultatief) voeg mensen of teams in het **mensen of de teams van de Markering** gebied toe om anderen in uw update te omvatten. Voor meer informatie, zie [&#x200B; Tags anderen op updates &#x200B;](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
 1. (Facultatief) selecteer de **Privé aan mijn bedrijf** optie als u slechts mensen van uw bedrijf de update wilt bekijken.
 
    >[!TIP]
@@ -114,11 +114,11 @@ U kunt algemene opmerkingen maken over de tijdpagina. Het plaatsen van opmerking
    >   Het tabblad Alles is een alleen-lezen tabblad en u kunt niet reageren op opmerkingen van dat tabblad.
 
 
-   Voor meer informatie, zie [ het werk van de Update ](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+   Voor meer informatie, zie [&#x200B; het werk van de Update &#x200B;](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 ### Commentaar op een individuele uuringang in een timesheet {#comment-on-an-individual-hour-entry-in-a-timesheet}
 
-1. Klik het **pictogram 1} van het Belangrijkste Menu** Belangrijkste menupictogram ![ in de hoger-juiste hoek van Adobe Workfront.](assets/main-menu-icon.png)
+1. Klik het **pictogram 1&rbrace; van het Belangrijkste Menu** Belangrijkste menupictogram ![&#x200B; in de hoger-juiste hoek van Adobe Workfront.](assets/main-menu-icon.png)
 
 1. Klik **Tijdopnemers**.
 1. Ga naar timesheet waar u een commentaar wilt maken en **Timesheet** in het linkerpaneel klikken.
@@ -133,11 +133,11 @@ U kunt algemene opmerkingen maken over de tijdpagina. Het plaatsen van opmerking
 
    * Typ een nieuwe commentaar en klik **Gereed**.
    * Bewerk een bestaande commentaar en klik **Gedaan**, of klik **annuleert** om de veranderingen te verwerpen.
-   * Klik het **pictogram van de Schrapping** pictogram ![ pictogram van de Schrapping ](assets/delete.png) om een bewaarde commentaar te schrappen.
+   * Klik het **pictogram van de Schrapping** pictogram ![&#x200B; pictogram van de Schrapping &#x200B;](assets/delete.png) om een bewaarde commentaar te schrappen.
 
      Een blauwe markering wordt in de rechterbovenhoek van het invoervak van het uur weergegeven om aan te geven dat er opmerkingen zijn geregistreerd bij het invoeren van de tijd.
 
-   ![ knoop van de Commentaar op uurlogboek opnieuw ontworpen timesheet ](assets/commment-button-on-hour-log-redesigned-timesheet.png)
+   ![&#x200B; knoop van de Commentaar op uurlogboek opnieuw ontworpen timesheet &#x200B;](assets/commment-button-on-hour-log-redesigned-timesheet.png)
 
    >[!TIP]
    >
@@ -146,7 +146,7 @@ U kunt algemene opmerkingen maken over de tijdpagina. Het plaatsen van opmerking
    >   * Cmd + Return voor Mac-computers.
 
 
-1. (Facultatief) om uur-ingang commentaren aan vertoning in timesheet te vormen, zie de sectie [ de uur-ingang van de Mening commentaren op een timesheet ](#view-hour-entry-comments-on-a-timesheet) in dit artikel.
+1. (Facultatief) om uur-ingang commentaren aan vertoning in timesheet te vormen, zie de sectie [&#x200B; de uur-ingang van de Mening commentaren op een timesheet &#x200B;](#view-hour-entry-comments-on-a-timesheet) in dit artikel.
 
 ### Opmerking over een werkitem in een tijdsplaat {#comment-on-a-work-item-in-a-timesheet}
 
@@ -157,7 +157,7 @@ U kunt algemene opmerkingen maken over de tijdpagina. Het plaatsen van opmerking
 
 U kunt alleen opmerkingen maken over taken en problemen in een tijdsplaat. U kunt geen opmerkingen maken over projecten of algemene tijd.
 
-1. Klik het [!UICONTROL **pictogram 1} van het Belangrijkste Menu**] Belangrijkste menupictogram ![ in de hoger-juiste hoek van Adobe Workfront.](assets/main-menu-icon.png)
+1. Klik het [!UICONTROL **pictogram 1&rbrace; van het Belangrijkste Menu**] Belangrijkste menupictogram ![&#x200B; in de hoger-juiste hoek van Adobe Workfront.](assets/main-menu-icon.png)
 1. Klik [!UICONTROL **Tijdopnemers**].
 1. Ga naar timesheet waar u een commentaar wilt maken, en [!UICONTROL **Timesheet**] in het linkerpaneel klikken.
 1. Klik de rij van een taak of een kwestie, dan klik [!UICONTROL **Open Samenvatting**].
@@ -165,4 +165,4 @@ U kunt alleen opmerkingen maken over taken en problemen in een tijdsplaat. U kun
 De update wordt weergegeven in de sectie Updates van de taak en uitgave.
 1. (Optioneel) Klik op [!UICONTROL **Samenvatting sluiten**] om het deelvenster Samenvatting te sluiten.
 
-   Voor meer informatie over het bijwerken van taken en kwesties in het Summiere paneel, zie [ Overzicht van de Samenvatting ](../../workfront-basics/the-new-workfront-experience/summary-overview.md).
+   Voor meer informatie over het bijwerken van taken en kwesties in het Summiere paneel, zie [&#x200B; Overzicht van de Samenvatting &#x200B;](../../workfront-basics/the-new-workfront-experience/summary-overview.md).

@@ -50,7 +50,7 @@ U kunt nieuwe taken en kwesties direct van Prioriteiten tot stand brengen:
  </tbody> 
 </table>
 
-*Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Voor meer informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -67,7 +67,7 @@ Een taak of kwestie in een project tot stand brengen:
 {{step1-to-priorities}}
 
 1. Klik **creëren nieuw** in de hoger-juiste hoek.
-   ![ creeer nieuw (productie) ](assets/create-new--.png)
+   ![&#x200B; creeer nieuw (productie) &#x200B;](assets/create-new--.png)
 1. Geef de volgende informatie op:
 
    | Veld | Instructies |

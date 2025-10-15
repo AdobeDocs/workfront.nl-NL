@@ -226,16 +226,16 @@ In deze tabel staan de beheersactiviteiten die beschikbaar zijn voor:
  </tbody> 
 </table>
 
-&#42; in het de toegangsniveau van de groepsbeheerder, **geeft uit** moet voor het **plaatsen van Gebruikers** worden geselecteerd, met **Gebruiker Admin (de Gebruikers van de Groep)** die onder **wordt geselecteerd uw montages** ![ verfspictogram van de Montages ](assets/gear-icon-in-access-levels.png). Voor meer informatie, zie de sectie [ gebruikers&#39; toegang vormen om gebruikers uit te geven gebruikend een niveau van de douanetoegang ](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md#access-to-edit) in het artikel [ toegang van de Verlening tot gebruikers ](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
+&#42; in het de toegangsniveau van de groepsbeheerder, **geeft uit** moet voor het **plaatsen van Gebruikers** worden geselecteerd, met **Gebruiker Admin (de Gebruikers van de Groep)** die onder **wordt geselecteerd uw montages** ![&#x200B; verfspictogram van de Montages &#x200B;](assets/gear-icon-in-access-levels.png). Voor meer informatie, zie de sectie [&#x200B; gebruikers&#39; toegang vormen om gebruikers uit te geven gebruikend een niveau van de douanetoegang &#x200B;](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md#access-to-edit) in het artikel [&#x200B; toegang van de Verlening tot gebruikers &#x200B;](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 
-&#42;&#42; In het toegangsniveau van de groepsbeheerder, moet de toegang tot deze actie worden toegelaten. Voor meer informatie, zie [ gebruikers administratieve toegang van de Verlening tot bepaalde gebieden ](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
+&#42;&#42; In het toegangsniveau van de groepsbeheerder, moet de toegang tot deze actie worden toegelaten. Voor meer informatie, zie [&#x200B; gebruikers administratieve toegang van de Verlening tot bepaalde gebieden &#x200B;](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 
 &#42;&#42;&#42; Deze pakketten bevatten de volgende functies van Advanced Enterprise Controls:
 
 * Workflow Prime en hoger
 * Workfront Prime en hoger
 
-Zie [ Adobe Workfront tarifering en het verpakken pagina ](https://business.adobe.com/products/workfront/pricing.html) voor meer informatie over pakketten.
+Zie [&#x200B; Adobe Workfront tarifering en het verpakken pagina &#x200B;](https://business.adobe.com/products/workfront/pricing.html) voor meer informatie over pakketten.
 
 Geavanceerde bedrijfsbesturingselementen:
 

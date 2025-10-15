@@ -24,9 +24,9 @@ Zo snel mogelijk is een taakbeperking die de begintijd van de taak zo dicht moge
 
 * Als een project een planningswijze van Programma van de Datum van het Begin gebruikt en als het systeem of de groep standaardDatum van het Begin voor een nieuwe taak aan Vandaag wordt geplaatst, dan is de standaardBeperking van de Taak Geen Eerder dan Begin.
 
-  Voor informatie over waar te om de standaardBeperking voor een nieuwe taak te plaatsen, verwijs naar [ de taak van het hele systeem vormen en voorkeur van de uitgave ](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md) uitgeven.
+  Voor informatie over waar te om de standaardBeperking voor een nieuwe taak te plaatsen, verwijs naar [&#x200B; de taak van het hele systeem vormen en voorkeur van de uitgave &#x200B;](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md) uitgeven.
 
-Voor informatie over hoe te om de Restrictie van de Taak op een taak bij te werken, zie [ de Restrictie van de Taak van een taak ](../../../manage-work/tasks/task-constraints/update-task-constraint-of-task.md) bijwerken.
+Voor informatie over hoe te om de Restrictie van de Taak op een taak bij te werken, zie [&#x200B; de Restrictie van de Taak van een taak &#x200B;](../../../manage-work/tasks/task-constraints/update-task-constraint-of-task.md) bijwerken.
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

@@ -26,9 +26,9 @@ Programma&#39;s zijn een onderverdeling van portfolio&#39;s en kunnen niet besta
 Deze sectie bevat de volgende artikelen:
 
 * [Overzicht van programma&#39;s in  [!DNL Adobe Workfront]](/help/quicksilver/manage-work/portfolios/create-and-manage-programs/programs-overview.md)
-* [ creeer een programma ](../../../manage-work/portfolios/create-and-manage-programs/create-program.md)
-* [ geeft programma&#39;s ](../../../manage-work/portfolios/create-and-manage-programs/edit-programs.md) uit
-* [ voeg een bestaand programma aan een portefeuille ](../../../manage-work/portfolios/create-and-manage-programs/move-program.md) toe
-* [ voeg een project aan een programma ](../../../manage-work/portfolios/create-and-manage-programs/add-project-to-program.md) toe
+* [&#x200B; creeer een programma &#x200B;](../../../manage-work/portfolios/create-and-manage-programs/create-program.md)
+* [&#x200B; geeft programma&#39;s &#x200B;](../../../manage-work/portfolios/create-and-manage-programs/edit-programs.md) uit
+* [&#x200B; voeg een bestaand programma aan een portefeuille &#x200B;](../../../manage-work/portfolios/create-and-manage-programs/move-program.md) toe
+* [&#x200B; voeg een project aan een programma &#x200B;](../../../manage-work/portfolios/create-and-manage-programs/add-project-to-program.md) toe
 * [Een project uit een programma verwijderen](../../../manage-work/portfolios/create-and-manage-programs/remove-project-from-program.md)
 * [Programma&#39;s verwijderen en deactiveren](/help/quicksilver/manage-work/portfolios/create-and-manage-programs/delete-and-deactivate-programs.md)

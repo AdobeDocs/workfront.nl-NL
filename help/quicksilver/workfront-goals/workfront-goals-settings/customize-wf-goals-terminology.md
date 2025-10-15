@@ -23,7 +23,7 @@ ht-degree: 0%
 >
 >Adobe Workfront Goals kan niet meer worden aangeschaft.
 >
->Voor extra informatie over toegang tot de Doelen van Workfront, zie [ Vereisten om de Doelen van Workfront ](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md) te gebruiken.
+>Voor extra informatie over toegang tot de Doelen van Workfront, zie [&#x200B; Vereisten om de Doelen van Workfront &#x200B;](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md) te gebruiken.
 
 <!--Old:
 
@@ -56,4 +56,4 @@ Als beheerder kunt u de volgende objectnamen van Workfront Goals aanpassen met b
 
 Het aanpassen van de terminologie van Workfront Goals is hetzelfde als het aanpassen van de terminologie in Workfront.
 
-Voor informatie over het aanpassen van terminologie in Workfront, zie [ gebruikersinterfaceterminologie aanpassen gebruikend een lay-outmalplaatje ](../../administration-and-setup/customize-workfront/use-layout-templates/customize-terminology.md).
+Voor informatie over het aanpassen van terminologie in Workfront, zie [&#x200B; gebruikersinterfaceterminologie aanpassen gebruikend een lay-outmalplaatje &#x200B;](../../administration-and-setup/customize-workfront/use-layout-templates/customize-terminology.md).

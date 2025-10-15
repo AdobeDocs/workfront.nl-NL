@@ -49,7 +49,7 @@ U kunt tekengebieden als proefdrukken rechtstreeks uploaden naar [!DNL Adobe Wor
  </tbody> 
 </table>
 
-Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 
 +++
@@ -58,16 +58,16 @@ Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront
 
 * U moet de plug-in [!DNL Adobe Workfront for design and video] installeren voordat u proefdrukken van [!DNL InDesign] kunt uploaden.
 
-  Voor instructies, zie [ installeren  [!DNL Adobe Workfront for design and video]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-install-cc.md).
+  Voor instructies, zie [&#x200B; installeren  [!DNL Adobe Workfront for design and video]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-install-cc.md).
 
 ## Een basisproef uploaden
 
 1. Klik op het pictogram **[!UICONTROL Menu]** in de rechterbovenhoek en selecteer vervolgens **[!UICONTROL Work List]** . U kunt het menu ook gebruiken om naar bovenliggende objecten te navigeren.
 
-   ![ Terugkeer aan de Lijst van het Werk ](assets/go-back-to-work-list-350x314.png)
+   ![&#x200B; Terugkeer aan de Lijst van het Werk &#x200B;](assets/go-back-to-work-list-350x314.png)
 
 1. Ga naar het werkitem waar u een proefdruk wilt uploaden.
-1. Klik het **[!UICONTROL Document]** pictogram van het pictogram van het 1} Document ![ in de navigatiebar.](assets/documents.png)
+1. Klik het **[!UICONTROL Document]** pictogram van het pictogram van het 1&rbrace; Document ![&#x200B; in de navigatiebar.](assets/documents.png)
 1. Klik op **[!UICONTROL New File]** onder aan de plug-in.
 1. Schakel de **[!UICONTROL Create a proof]** -schakeloptie in.
 1. (Optioneel) Typ een naam voor de proefdruk in het tekstvak **[!UICONTROL Proof Name]** .
@@ -75,14 +75,14 @@ Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront
 1. (Optioneel) Voeg fiatteurs toe.
 1. (Optioneel) Typ een opmerking in het **[!UICONTROL Updates]** -gebied.
 
-   ![ voeg een commentaar ](assets/add-comment.png) toe
+   ![&#x200B; voeg een commentaar &#x200B;](assets/add-comment.png) toe
 
 1. Kies de **[!UICONTROL Asset Type]** in de vervolgkeuzelijst.
 
 1. (Optioneel) Selecteer **[!UICONTROL Add outside file]** om een bestand van uw computer toe te voegen.
 1. Klik op **[!UICONTROL Upload]** en configureer de gewenste exportopties op basis van het hierboven gekozen elementtype.
 
-   ![ Dossiers in plugin ](assets/plugin-files-350x307.png)\
+   ![&#x200B; Dossiers in plugin &#x200B;](assets/plugin-files-350x307.png)\
    Het document wordt weergegeven in het gebied [!UICONTROL Documents] in de plug-in en de bureaubladtoepassing.
 
 
@@ -90,10 +90,10 @@ Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront
 
 1. Klik op het pictogram **[!UICONTROL Menu]** in de rechterbovenhoek en selecteer vervolgens **[!UICONTROL Work List]** . U kunt het menu ook gebruiken om naar bovenliggende objecten te navigeren.
 
-   ![ Terugkeer aan de Lijst van het Werk ](assets/go-back-to-work-list-350x314.png)
+   ![&#x200B; Terugkeer aan de Lijst van het Werk &#x200B;](assets/go-back-to-work-list-350x314.png)
 
 1. Ga naar het werkitem waar u een proefdruk wilt uploaden.
-1. Klik het **[!UICONTROL Document]** pictogram van het pictogram van het 1} Document ![ in de navigatiebar.](assets/documents.png)
+1. Klik het **[!UICONTROL Document]** pictogram van het pictogram van het 1&rbrace; Document ![&#x200B; in de navigatiebar.](assets/documents.png)
 
 1. Klik op **[!UICONTROL New File]** onder aan de plug-in.
 1. Schakel de **[!UICONTROL Create a proof]** -schakeloptie in.
@@ -110,7 +110,7 @@ Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront
 
 1. (Optioneel) Typ een opmerking in het **[!UICONTROL Updates]** -gebied.
 
-   ![ voeg commentaargeautomatiseerde goedkeuring ](assets/add-comment-automated-approval.png) toe
+   ![&#x200B; voeg commentaargeautomatiseerde goedkeuring &#x200B;](assets/add-comment-automated-approval.png) toe
 
 1. Kies de **[!UICONTROL Asset Type]** in de vervolgkeuzelijst.
 1. (Optioneel) Selecteer **[!UICONTROL Add outside file]** om een bestand van uw computer toe te voegen.
@@ -123,10 +123,10 @@ U kunt een nieuwe versie van een proefdruk uploaden. De plug-in onthoudt de test
 
 1. Klik op het pictogram **[!UICONTROL Menu]** in de rechterbovenhoek en selecteer vervolgens **[!UICONTROL Work List]** . U kunt het menu ook gebruiken om naar bovenliggende objecten te navigeren.
 
-   ![ Terugkeer aan de Lijst van het Werk ](assets/go-back-to-work-list-350x314.png)
+   ![&#x200B; Terugkeer aan de Lijst van het Werk &#x200B;](assets/go-back-to-work-list-350x314.png)
 
 1. Ga naar het werkitem waarnaar u een document moet uploaden.
-1. Klik het **[!UICONTROL Document]** pictogram van het pictogram van het 1} Document ![ in de navigatiebar.](assets/documents.png)
+1. Klik het **[!UICONTROL Document]** pictogram van het pictogram van het 1&rbrace; Document ![&#x200B; in de navigatiebar.](assets/documents.png)
 
 1. Klik op **[!UICONTROL New Version]** onder aan de plug-in.
 1. Schakel de **[!UICONTROL Create a proof]** -schakeloptie in.

@@ -19,9 +19,9 @@ U kunt de toewijzing van gebruikers ongedaan maken uit werkitems in het gedeelte
 
 U kunt de toewijzing aan gebruikers van werkitems handmatig ongedaan maken door te slepen en neer te zetten of in bulk. In dit artikel wordt beschreven hoe u de toewijzing van gebruikers handmatig ongedaan kunt maken.
 
-Voor informatie over het ongedaan maken van gebruikers door te slepen en te laten vallen, zie [ werk in de Balancer van de Werkbelasting toewijzen door te slepen en te laten vallen ](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-by-drag-and-drop.md)
+Voor informatie over het ongedaan maken van gebruikers door te slepen en te laten vallen, zie [&#x200B; werk in de Balancer van de Werkbelasting toewijzen door te slepen en te laten vallen &#x200B;](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-by-drag-and-drop.md)
 
-Voor informatie over het unassigning van gebruikers in bulk, zie [ werk in bulk toewijzen gebruikend de Balancer van de Werkbelasting ](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-in-bulk.md).
+Voor informatie over het unassigning van gebruikers in bulk, zie [&#x200B; werk in bulk toewijzen gebruikend de Balancer van de Werkbelasting &#x200B;](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-in-bulk.md).
 
 ## Toegangsvereisten
 
@@ -57,7 +57,7 @@ Voor informatie over het unassigning van gebruikers in bulk, zie [ werk in bulk 
  </tbody> 
 </table>
 
-Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -71,10 +71,10 @@ U kunt als volgt de toewijzing van werkitems door gebruikers ongedaan maken:
 1. Voer een van de volgende handelingen uit:
 
    * Zoek het item dat u wilt vrijmaken in het gebied van de gebruiker, klik erop en sleep het item naar het gebied Niet toegewezen of naar het gebied van een andere gebruiker.
-   * Klik het **Meer** pictogram ![ Meer pictogram ](assets/more-icon-task-list.png) aan het recht van de naam van een het werkpunt, klik **toewijzen dit aan**, dan verwijder de naam van de entiteiten die aan het het werkpunt worden toegewezen of ga een andere naam in, en klik **sparen**.
+   * Klik het **Meer** pictogram ![&#x200B; Meer pictogram &#x200B;](assets/more-icon-task-list.png) aan het recht van de naam van een het werkpunt, klik **toewijzen dit aan**, dan verwijder de naam van de entiteiten die aan het het werkpunt worden toegewezen of ga een andere naam in, en klik **sparen**.
 
-     ![ wijs dit aan ](assets/assign-this-to-link-from-task-wb-nwe-350x104.png) toe
+     ![&#x200B; wijs dit aan &#x200B;](assets/assign-this-to-link-from-task-wb-nwe-350x104.png) toe
 
    Het punt toont in het Niet toegewezen gebied van het Werk als het de het filtreren criteria voor dat gebied aanpast en het niet aan andere gebruikers wordt toegewezen, of het toont in het gebruikersgebied als het aan een andere gebruiker wordt toegewezen.
 
-   Voor informatie over het filtreren van informatie in de Balancer van de Werkbelasting, zie [ informatie van de Filter in de Balancer van de Werkbelasting ](../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md).
+   Voor informatie over het filtreren van informatie in de Balancer van de Werkbelasting, zie [&#x200B; informatie van de Filter in de Balancer van de Werkbelasting &#x200B;](../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md).

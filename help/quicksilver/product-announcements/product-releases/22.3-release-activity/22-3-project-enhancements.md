@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # 22.3 Projectverbeteringen
 
-Op deze pagina worden alle projectverbeteringen beschreven die zijn aangebracht met de release 22.3 voor de voorvertoningsomgeving. Deze verbeteringen zijn in de week van 11 juli 2022 beschikbaar gesteld in de productieomgeving. Voor een lijst van alle veranderingen beschikbaar met de versie 22.3, zie [ overzicht van de Versie 22.3 ](../../../product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md).
+Op deze pagina worden alle projectverbeteringen beschreven die zijn aangebracht met de release 22.3 voor de voorvertoningsomgeving. Deze verbeteringen zijn in de week van 11 juli 2022 beschikbaar gesteld in de productieomgeving. Voor een lijst van alle veranderingen beschikbaar met de versie 22.3, zie [&#x200B; overzicht van de Versie 22.3 &#x200B;](../../../product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md).
 
 ## Delegatie van werkzaamheden buiten het kantoor
 
@@ -39,7 +39,7 @@ Hier volgen enkele functies die we met deze update hebben toegevoegd:
 >Alleen gebruikers met een licentie Revisie of hoger kunnen hun werk delegeren aan anderen. Het werk kan aan om het even welke gebruiker, ongeacht hun toegangsniveau worden gedelegeerd. Gedelegeerde gebruikers ontvangen dezelfde machtigingen als de toewijzingen voor de gedelegeerde items. Als deze toestemmingen lager zijn dan de configuratie van het de toegangsniveau van een gebruiker, zouden de gedelegeerde gebruikers kunnen worden verhinderd om sommige activiteiten op de taken en de kwesties uit te voeren die aan hen worden gedelegeerd.
 
 
-Voor meer informatie, zie [ de taak van de Afgevaardigde en geven overzicht ](/help/quicksilver/manage-work/delegate-work/delegate-work-overview.md) uit.
+Voor meer informatie, zie [&#x200B; de taak van de Afgevaardigde en geven overzicht &#x200B;](/help/quicksilver/manage-work/delegate-work/delegate-work-overview.md) uit.
 
 ## Nieuwe ervaring bij het converteren van een uitgave naar een taak
 
@@ -54,7 +54,7 @@ Deze update bevat:
 * De standaard aangepaste formulieren die zijn gedefinieerd in het gedeelte Taken van het doelproject dat aan de nieuwe taak is toegevoegd.
 
 
-Voor meer informatie, zie [ Bekeerling een kwestie in een taak ](/help/quicksilver/manage-work/issues/convert-issues/convert-issue-to-task.md).
+Voor meer informatie, zie [&#x200B; Bekeerling een kwestie in een taak &#x200B;](/help/quicksilver/manage-work/issues/convert-issues/convert-issue-to-task.md).
 
 ## Nieuwe ervaring wanneer het omzetten van een kwestie in een project zonder een malplaatje
 
@@ -62,13 +62,13 @@ Om uw gebruik van Workfront in overeenstemming te brengen met de nieuwe ervaring
 
 Naast een bijgewerkte gebruikersinterface die de rest van de nieuwe ervaring van Workfront aanpast, hebben wij ook de capaciteit toegevoegd om een kwestie in lege projecten van een lijst of een rapport om te zetten.
 
-Voor meer informatie, zie [ Bekeerling een kwestie in een project in Adobe Workfront ](/help/quicksilver/manage-work/issues/convert-issues/convert-issue-to-project.md).
+Voor meer informatie, zie [&#x200B; Bekeerling een kwestie in een project in Adobe Workfront &#x200B;](/help/quicksilver/manage-work/issues/convert-issues/convert-issue-to-project.md).
 
 ## Slimme tags toepassen in de updatestream
 
 De codering van gebruikers in de updatestream is verbeterd wanneer u een nieuwe update maakt of op een bestaande update reageert. Wanneer u nu een gebruiker codeert om deze in een update op te nemen, naast zijn of haar naam en avatar, geven we ook zijn of haar primaire rol en e-mail weer. Zo kunt u beter onderscheid maken tussen meerdere gebruikers met dezelfde of vergelijkbare namen.
 
-Voor meer informatie, zie [ Tags anderen op updates ](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
+Voor meer informatie, zie [&#x200B; Tags anderen op updates &#x200B;](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
 
 ## Nieuwe syntaxis voor berekeningen in aangepaste velden
 
@@ -82,7 +82,7 @@ Sommige goedkeuringsprocessen vereisen goedkeuring van twee verschillende rollen
 
 Vóór deze wijziging werden beide goedkeuringen vastgelegd voor de tweede gebruiker omdat deze een van de goedkeuringsrollen deelde met de eerste fiatteur. In dit geval heeft de tweede fiatteur de informatie van de eerste fiatteur overschreven.
 
-Voor meer informatie over goedkeuringsprocessen in Workfront, zie [ overzicht van het proces van de Goedkeuring ](/help/quicksilver/review-and-approve-work/manage-approvals/approval-process-in-workfront.md).
+Voor meer informatie over goedkeuringsprocessen in Workfront, zie [&#x200B; overzicht van het proces van de Goedkeuring &#x200B;](/help/quicksilver/review-and-approve-work/manage-approvals/approval-process-in-workfront.md).
 
 ## Toewijzingstijden worden niet meer verwijderd wanneer u wijzigingen aanbrengt in toewijzingen
 
@@ -102,7 +102,7 @@ De volgende wijzigingen zijn aangebracht in taken met het type Eenvoudige duur:
 * Individuele toewijzingen blijven behouden op de rol wanneer de gebruiker wordt verwijderd. (Verwijderd uit de release. Geplande uren worden nu ingesteld op 0 nadat alle toegewezen uren zijn verwijderd.)
 
 
-Voor meer informatie over Geplande Uren, zie [ Gepland overzicht van Uren ](/help/quicksilver/manage-work/tasks/task-information/planned-hours.md).
+Voor meer informatie over Geplande Uren, zie [&#x200B; Gepland overzicht van Uren &#x200B;](/help/quicksilver/manage-work/tasks/task-information/planned-hours.md).
 
 ## Verbeteringen voor borden
 
@@ -129,7 +129,7 @@ De volgende verbeteringen zijn toegevoegd aan Adobe Workfront-borden:
 * Update-indicator voor velden - Er wordt nu een indicator weergegeven wanneer u een kaart opslaat om te bevestigen dat uw updates zijn opgeslagen.
 
 
-Voor meer informatie, zie [ begonnen worden met raden in Adobe Workfront ](/help/quicksilver/agile/get-started-with-boards/get-started-with-boards.md).
+Voor meer informatie, zie [&#x200B; begonnen worden met raden in Adobe Workfront &#x200B;](/help/quicksilver/agile/get-started-with-boards/get-started-with-boards.md).
 
 ## Alleen mappen delen in de bovenste vijf niveaus van een mappenhiërarchie
 
@@ -137,13 +137,13 @@ Voor de beste prestaties voor gebruikers die mappen delen, beperken we het delen
 
 Elke map op het zesde niveau of erft de configuraties voor delen van de map direct erboven.
 
-Voor meer informatie over het delen van omslagen, zie [ een top-level documentomslag ](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/share-a-document-folder.md) delen.
+Voor meer informatie over het delen van omslagen, zie [&#x200B; een top-level documentomslag &#x200B;](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/share-a-document-folder.md) delen.
 
 ## Workfront Campaigns (Beta) - een nieuwe manier om uw werk te beheren
 
 >[!NOTE]
 >
->Deze functie wordt verwijderd uit Voorvertoning op 9 januari 2023. Voor meer informatie, zie de [ 23.1 overzichtspagina van de Versie ](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-release-overview.md).
+>Deze functie wordt verwijderd uit Voorvertoning op 9 januari 2023. Voor meer informatie, zie de [&#x200B; 23.1 overzichtspagina van de Versie &#x200B;](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-release-overview.md).
 
 >[!NOTE]
 >

@@ -46,7 +46,7 @@ Deze handleiding is gericht op het instellen van ADFS zonder automatische provis
  </tbody> 
 </table>
 
-Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -54,9 +54,9 @@ Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront
 
 Voer de volgende secties in om verificatie in te schakelen voor de Workfront-webtoepassing en de mobiele Workfront-toepassing met SAML 2.0:
 
-* [ wint het de meta-gegevensdossier van Workfront terug SSO ](#retrieve-the-workfront-sso-metadata-file)
-* [ vormt het Relying de Vertrouwen van de Partij ](#configure-relying-party-trusts)
-* [ vorm de Regels van de Claim ](#configure-claim-rules)
+* [&#x200B; wint het de meta-gegevensdossier van Workfront terug SSO &#x200B;](#retrieve-the-workfront-sso-metadata-file)
+* [&#x200B; vormt het Relying de Vertrouwen van de Partij &#x200B;](#configure-relying-party-trusts)
+* [&#x200B; vorm de Regels van de Claim &#x200B;](#configure-claim-rules)
 * [Upload het metagegevensbestand en test de verbinding](#upload-the-metadata-file-and-test-the-connection)
 
 ### Het Workfront SSO-metagegevensbestand ophalen {#retrieve-the-workfront-sso-metadata-file}
@@ -66,7 +66,7 @@ Voer de volgende secties in om verificatie in te schakelen voor de Workfront-web
 1. In het linkerpaneel, klik **Systeem** > **Enige Sign-On (SSO)**.
 1. In het **Type** drop-down menu, klik **SAML 2.0** om extra informatie en opties te tonen.
 1. Kopieer URL die na **Meta-gegevens URL** toont.
-1. Ga aan de volgende sectie verder, [ vormen het Vertrouwen van de Partij van het Vertrouwen ](#configure-relying-party-trusts).
+1. Ga aan de volgende sectie verder, [&#x200B; vormen het Vertrouwen van de Partij van het Vertrouwen &#x200B;](#configure-relying-party-trusts).
 
 ### Reliëfpartijtrusts configureren {#configure-relying-party-trusts}
 
@@ -86,7 +86,7 @@ Voer de volgende secties in om verificatie in te schakelen voor de Workfront-web
 
    Dit neemt u aan **Klaar om het Vertrouwen** sectie toe te voegen.
 
-1. Ga aan de volgende sectie [ verder vormen de Regels van de Claim ](#configure-claim-rules).
+1. Ga aan de volgende sectie [&#x200B; verder vormen de Regels van de Claim &#x200B;](#configure-claim-rules).
 
 ### Claimregels configureren {#configure-claim-rules}
 
@@ -129,7 +129,7 @@ Voer de volgende secties in om verificatie in te schakelen voor de Workfront-web
    * Achternaam
    * E-mailadres
 
-1. Klik **Afwerking**, dan klik O.K. **** op het volgende scherm.
+1. Klik **Afwerking**, dan klik O.K. **&#x200B;**&#x200B;op het volgende scherm.
 1. Klik met de rechtermuisknop op het nieuwe **Vertrouwen van de Partij**, dan selecteren **Eigenschappen**.
 1. Selecteer het **Geavanceerde Lusje**. En onder **Veilig algoritme van de Hash** uitgezochte SHA-1 of SHA-256.
 
@@ -137,7 +137,7 @@ Voer de volgende secties in om verificatie in te schakelen voor de Workfront-web
    >
    >De optie die u onder Veilig algoritme van de Hash selecteert moet het Veilige gebied van het Algoritme van de Hash in Workfront onder Opstelling > Systeem > Enige Sign-ON (SSO) aanpassen.
 
-1. Ga aan de volgende sectie [ verder uploadt het meta-gegevensdossier en test de verbinding ](#upload-the-metadata-file-and-test-the-connection).
+1. Ga aan de volgende sectie [&#x200B; verder uploadt het meta-gegevensdossier en test de verbinding &#x200B;](#upload-the-metadata-file-and-test-the-connection).
 
 ### Upload het metagegevensbestand en test de verbinding {#upload-the-metadata-file-and-test-the-connection}
 
@@ -151,7 +151,7 @@ Voer de volgende secties in om verificatie in te schakelen voor de Workfront-web
 
 1. Klik **Verbinding van de Test**. Indien correct ingesteld, ziet u een pagina die vergelijkbaar is met de hieronder weergegeven pagina:
 
-   ![ SAML 2 succesbericht ](assets/success-saml-2.png)
+   ![&#x200B; SAML 2 succesbericht &#x200B;](assets/success-saml-2.png)
 
    >[!NOTE]
    >
@@ -168,9 +168,9 @@ Voer de volgende secties in om verificatie in te schakelen voor de Workfront-web
 
 Na deze gids, zal **Sso- Gebruikersnaam** hun **Actieve Gebruikersnaam van de Folder** zijn.
 
-Als Workfront-beheerder kunt u updategebruikers bulksgewijs verzenden naar SSO. Voor meer informatie over het bijwerken van gebruikers voor SSO, zie [ de gebruikers van de Update voor enig teken-op ](../../../administration-and-setup/add-users/single-sign-on/update-users-sso.md).
+Als Workfront-beheerder kunt u updategebruikers bulksgewijs verzenden naar SSO. Voor meer informatie over het bijwerken van gebruikers voor SSO, zie [&#x200B; de gebruikers van de Update voor enig teken-op &#x200B;](../../../administration-and-setup/add-users/single-sign-on/update-users-sso.md).
 
-Als Workfront-beheerder kunt u ook handmatig een federatie-id toewijzen die het profiel van de gebruiker bewerkt en het veld Federation ID invult. Voor meer informatie over het uitgeven van een gebruiker, zie [ het profiel van een gebruiker ](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) uitgeven.
+Als Workfront-beheerder kunt u ook handmatig een federatie-id toewijzen die het profiel van de gebruiker bewerkt en het veld Federation ID invult. Voor meer informatie over het uitgeven van een gebruiker, zie [&#x200B; het profiel van een gebruiker &#x200B;](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) uitgeven.
 
 >[!NOTE]
 >

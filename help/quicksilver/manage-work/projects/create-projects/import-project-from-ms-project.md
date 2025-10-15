@@ -23,7 +23,7 @@ U kunt projecten van het Project van Microsoft in Adobe Workfront invoeren en al
 >
 >Niet alle Microsoft-projectvelden worden overgedragen naar Workfront.
 >
->Voor meer informatie over de verenigbaarheid van gebieden tussen het Project van Workfront en van Microsoft, zie [ de gebieden van het Project van Microsoft van de Kaart aan de projecten van Adobe Workfront ](../../../manage-work/projects/manage-projects/map-ms-project-fields-to-workfront.md).
+>Voor meer informatie over de verenigbaarheid van gebieden tussen het Project van Workfront en van Microsoft, zie [&#x200B; de gebieden van het Project van Microsoft van de Kaart aan de projecten van Adobe Workfront &#x200B;](../../../manage-work/projects/manage-projects/map-ms-project-fields-to-workfront.md).
 
 ## Toegangsvereisten
 
@@ -59,7 +59,7 @@ U kunt projecten van het Project van Microsoft in Adobe Workfront invoeren en al
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -103,14 +103,14 @@ U kunt een project van het **gebied van Projecten** in het **Belangrijkste Menu*
 1. Meld u aan bij Workfront.
 1. Voer een van de volgende handelingen uit:
 
-   * Klik het **Belangrijkste pictogram van het Menu** ![ Belangrijkste pictogram van het Menu ](assets/main-menu-icon.png) in de hoger-juiste hoek van Workfront, of klik de **Belangrijkste Lijnen van het Menu** ![ Belangrijkste Menu ](assets/lines-main-menu.png) in de upper-left hoek, als beschikbaar, klik **Projecten**, dan breid **Nieuw Project** uit.
+   * Klik het **Belangrijkste pictogram van het Menu** ![&#x200B; Belangrijkste pictogram van het Menu &#x200B;](assets/main-menu-icon.png) in de hoger-juiste hoek van Workfront, of klik de **Belangrijkste Lijnen van het Menu** ![&#x200B; Belangrijkste Menu &#x200B;](assets/lines-main-menu.png) in de upper-left hoek, als beschikbaar, klik **Projecten**, dan breid **Nieuw Project** uit.
    * Ga naar een portefeuille, dan breid **Nieuw Project** uit.
    * Ga naar een programma, dan breid **Nieuw Project** uit.
-   * Als u een groepsbeheerder bent, kunt u een project in de **sectie van Projecten** van een groep tot stand brengen u beheert. Voor meer informatie, zie [ tot stand brengen en wijzigen de projecten van een groep ](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md).
+   * Als u een groepsbeheerder bent, kunt u een project in de **sectie van Projecten** van een groep tot stand brengen u beheert. Voor meer informatie, zie [&#x200B; tot stand brengen en wijzigen de projecten van een groep &#x200B;](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md).
 
 1. Klik **het Project van MS van de Invoer**. Het **de dialoogvakje van het Dossier van de Invoer MS** verschijnt.
 
-   ![ Nieuwe projectdropdown ](assets/import-ms-project-option.png)
+   ![&#x200B; Nieuwe projectdropdown &#x200B;](assets/import-ms-project-option.png)
 
 1. Klik **Uitgezochte Dossier**, dan doorblader voor het .xml- dossier op uw computer die u van het Project van Microsoft uitvoerde.
 1. Het geselecteerde bestand importeren. Workfront begint het importproces en maakt een nieuw project op basis van het bestand dat is geëxporteerd uit Microsoft Project.
@@ -119,11 +119,11 @@ U kunt een project van het **gebied van Projecten** in het **Belangrijkste Menu*
 
    >[!NOTE]
    >
-   >Workfront heeft een tijdlimiet van 15 minuten voor het uploaden van bestanden. Als het uploaden van het bestand langer duurt dan dat, raden we u aan uw project in kleinere projecten op te delen en afzonderlijk te importeren. Zodra zij in Workfront zijn ingevoerd, verplaats de taken van één project naar het andere project om hen in één project te combineren. Voor informatie bij het bewegen van taken, zie [ de taken van de Beweging ](../../../manage-work/tasks/manage-tasks/move-tasks.md).
+   >Workfront heeft een tijdlimiet van 15 minuten voor het uploaden van bestanden. Als het uploaden van het bestand langer duurt dan dat, raden we u aan uw project in kleinere projecten op te delen en afzonderlijk te importeren. Zodra zij in Workfront zijn ingevoerd, verplaats de taken van één project naar het andere project om hen in één project te combineren. Voor informatie bij het bewegen van taken, zie [&#x200B; de taken van de Beweging &#x200B;](../../../manage-work/tasks/manage-tasks/move-tasks.md).
 
-1. (Optioneel) Ga door met het bewerken van het project in Workfront. Voor informatie over het uitgeven van projecten, zie [ projecten ](../../../manage-work/projects/manage-projects/edit-projects.md) uitgeven.
+1. (Optioneel) Ga door met het bewerken van het project in Workfront. Voor informatie over het uitgeven van projecten, zie [&#x200B; projecten &#x200B;](../../../manage-work/projects/manage-projects/edit-projects.md) uitgeven.
 
 
    >[!NOTE]
    >
-   >Het statuut van een nieuw die project van een malplaatje wordt gecreeerd beantwoordt met de status door uw beheerder van Workfront in het **wordt bepaald gebied van de Voorkeur van het Project** of door een groepsbeheerder in het **gebied van de Voorkeur van het Project van de Groep**. Voor informatie over het vormen van projectvoorkeur, zie [ systeem-brede projectvoorkeur ](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) vormen.
+   >Het statuut van een nieuw die project van een malplaatje wordt gecreeerd beantwoordt met de status door uw beheerder van Workfront in het **wordt bepaald gebied van de Voorkeur van het Project** of door een groepsbeheerder in het **gebied van de Voorkeur van het Project van de Groep**. Voor informatie over het vormen van projectvoorkeur, zie [&#x200B; systeem-brede projectvoorkeur &#x200B;](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) vormen.

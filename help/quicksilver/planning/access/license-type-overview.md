@@ -27,9 +27,9 @@ Het Adobe Workfront-licentietype werkt in combinatie met uw Adobe Workfront-plan
 * Werkruimten of recordtypen weergeven, bijdragen of beheren
 * Weergaven weergeven of beheren.
 
-Voor informatie over toestemmingen aan voorwerpen in de Planning van Workfront, zie [ Overzicht van het delen van toestemmingen in de Planning van Adobe Workfront ](/help/quicksilver/planning/access/sharing-permissions-overview.md).
+Voor informatie over toestemmingen aan voorwerpen in de Planning van Workfront, zie [&#x200B; Overzicht van het delen van toestemmingen in de Planning van Adobe Workfront &#x200B;](/help/quicksilver/planning/access/sharing-permissions-overview.md).
 
-Voor informatie over toegang tot de Planning van Workfront, zie [ Adobe die toegangsoverzicht van de Planning ](/help/quicksilver/planning/access/access-overview.md) plant.
+Voor informatie over toegang tot de Planning van Workfront, zie [&#x200B; Adobe die toegangsoverzicht van de Planning &#x200B;](/help/quicksilver/planning/access/access-overview.md) plant.
 
 ## De relatie tussen Workfront-licentietypen en Workfront-planningsmachtigingen
 
@@ -73,7 +73,7 @@ Gebruikers met alle andere licentietypen kunnen weergavemachtigingen hebben voor
 >
 >Er is een aanwijzing in het deelvak dat gebruikers geen machtigingen kunnen worden verleend om bij te dragen aan een werkruimte of een werkruimte te beheren wanneer zij een licentie op een lager niveau hebben, omdat deze machtigingsniveaus grijs worden weergegeven.
 >
->![ Bevoegdheden grayed uit voor contributorgebruiker op werkruimte ](assets/permissions-grayed-out-for-contributor-user-on-workspace.png)
+>![&#x200B; Bevoegdheden grayed uit voor contributorgebruiker op werkruimte &#x200B;](assets/permissions-grayed-out-for-contributor-user-on-workspace.png)
 
 
 ### Typen licenties en machtigingen voor weergaven
@@ -92,4 +92,4 @@ Gebruikers met alle andere licentietypen kunnen weergavemachtigingen hebben voor
 >
 >Er is een aanwijzing in het deelvak dat gebruikers geen machtigingen kunnen worden verleend om een weergave te beheren wanneer zij een licentie op een lager niveau hebben, omdat deze machtigingsniveaus grijs worden weergegeven.
 >
->![ Bevoegdheden grayed uit voor lichte gebruiker op meningsaandeel ](assets/permissions-grayed-out-for-light-user.png)
+>![&#x200B; Bevoegdheden grayed uit voor lichte gebruiker op meningsaandeel &#x200B;](assets/permissions-grayed-out-for-light-user.png)

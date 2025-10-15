@@ -27,9 +27,9 @@ Dit gebeurt gewoonlijk wanneer u niet bent toegewezen aan een tijdlijnprofiel en
 
 ## Oplossing
 
-Uw beheerder van Workfront zou timesheet profielen tot stand moeten brengen en iedereen aan een profiel toewijzen, zoals die in [ wordt beschreven creeer, geef uit, en wijs timesheet profielen ](/help/quicksilver/timesheets/create-and-manage-timesheets/create-timesheet-profiles.md) toe. De Workfront-beheerder kan de begindatum van een tijdblad bepalen op een andere dag dan de verwachte wekelijkse begindatum. Vraag hen om na te gaan wat de begindatum van een tijdbladprofiel is voor uw timesheet.
+Uw beheerder van Workfront zou timesheet profielen tot stand moeten brengen en iedereen aan een profiel toewijzen, zoals die in [&#x200B; wordt beschreven creeer, geef uit, en wijs timesheet profielen &#x200B;](/help/quicksilver/timesheets/create-and-manage-timesheets/create-timesheet-profiles.md) toe. De Workfront-beheerder kan de begindatum van een tijdblad bepalen op een andere dag dan de verwachte wekelijkse begindatum. Vraag hen om na te gaan wat de begindatum van een tijdbladprofiel is voor uw timesheet.
 
-Als uw timesheet manueel werd gecreeerd, vormt de begindag van de week in timesheet de e-mailmontages van de Plaats in het profiel van uw gebruiker, zoals die in artikel [ wordt beschreven Mijn Montages ](/help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md).
+Als uw timesheet manueel werd gecreeerd, vormt de begindag van de week in timesheet de e-mailmontages van de Plaats in het profiel van uw gebruiker, zoals die in artikel [&#x200B; wordt beschreven Mijn Montages &#x200B;](/help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md).
 
 Als bijvoorbeeld de landinstelling voor e-mail is ingesteld op Engels (Verenigde Staten), begint de week in de tijdpagina op zondag. Als de landinstelling voor e-mail is ingesteld op Engels (Verenigd Koninkrijk), begint de week in de tijdpagina op maandag.
 

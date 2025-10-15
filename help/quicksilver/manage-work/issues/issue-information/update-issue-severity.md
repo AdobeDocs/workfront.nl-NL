@@ -22,7 +22,7 @@ U kunt ernst koppelen aan problemen in Adobe Workfront. Taken en projecten hebbe
 Problemen zijn onverwachte gebeurtenissen die kunnen voorkomen dat uw projecten op tijd of binnen het budget worden voltooid. Met serienummers kunt u aangeven hoe ernstig een probleem is.
 
 Uw Workfront-beheerder definieert de beschikbare serienummers in Workfront. Nadat zij hen vestigen, zijn zij beschikbaar voor u om met een kwestie te associëren.\
-Voor meer informatie over het creëren van servers in Workfront, zie [ creeer of pas kwestiesSverities ](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-issue-severities.md) aan.
+Voor meer informatie over het creëren van servers in Workfront, zie [&#x200B; creeer of pas kwestiesSverities &#x200B;](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-issue-severities.md) aan.
 
 U moet over Contribute-machtigingen voor een uitgave beschikken om de ernst van de uitgave te kunnen bijwerken.
 
@@ -60,7 +60,7 @@ U kunt de ernst van de problemen in de volgende Workfront-gebieden bijwerken:
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -75,7 +75,7 @@ U kunt als volgt de ernst van een probleem bijwerken in het gebied Details van p
 
 1. Klik het **gebied van de Ernst** op het **Basisinformatie** gebied.
 
-   ![ strengheid van de Uitgave ](assets/issue-severity-field.png)
+   ![&#x200B; strengheid van de Uitgave &#x200B;](assets/issue-severity-field.png)
 
 1. Selecteer de aangewezen **Ernst** van het drop-down menu.
 

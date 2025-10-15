@@ -22,7 +22,7 @@ ht-degree: 0%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Linked to the product. Do not change link.)</p>
 -->
 
-De kostenprestatie-index (CPI) beschrijft de relatie op het project- of taakniveau tussen de geplande kosten en de werkelijke kosten. De Managers van het project herzien dit metrisch om taken of projecten te identificeren die momenteel onder of over kosten op een bepaald punt volgen. De kosten kunnen in uren of dollars, afhankelijk van uw Methode van de Index van Prestaties (PIM) worden gemeten. Voor meer informatie over het plaatsen van de Methode van de Index van Prestaties, zie [ de Methode van de Index van Prestaties (PIM) plaatsen ](../../../manage-work/projects/project-finances/set-pim.md).
+De kostenprestatie-index (CPI) beschrijft de relatie op het project- of taakniveau tussen de geplande kosten en de werkelijke kosten. De Managers van het project herzien dit metrisch om taken of projecten te identificeren die momenteel onder of over kosten op een bepaald punt volgen. De kosten kunnen in uren of dollars, afhankelijk van uw Methode van de Index van Prestaties (PIM) worden gemeten. Voor meer informatie over het plaatsen van de Methode van de Index van Prestaties, zie [&#x200B; de Methode van de Index van Prestaties (PIM) plaatsen &#x200B;](../../../manage-work/projects/project-finances/set-pim.md).
 
 Slechts kunnen de organisaties die tijdingang vereisen CPI gebruiken. Bovendien zijn op kosten gebaseerde PIM-waarden alleen correct in organisaties die kostenpercentages voor taaktoewijzing hebben gedefinieerd (functies of gebruikers).
 
@@ -55,7 +55,7 @@ Slechts kunnen de organisaties die tijdingang vereisen CPI gebruiken. Bovendien 
  </tbody> 
 </table>
 
-Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -74,9 +74,9 @@ Projectbeheerders begrijpen dat een CPI-waarde van 1 betekent dat het project pr
 
 ### Hoe CPI wordt berekend {#how-cpi-is-calculated}
 
-In Adobe Workfront, hangt de berekening voor CPI van de Methode van de Index van Prestaties af die voor het project wordt geselecteerd. Voor meer informatie over het plaatsen van de Methode van de Index van Prestaties, zie [ de Methode van de Index van Prestaties (PIM) plaatsen ](../../../manage-work/projects/project-finances/set-pim.md).
+In Adobe Workfront, hangt de berekening voor CPI van de Methode van de Index van Prestaties af die voor het project wordt geselecteerd. Voor meer informatie over het plaatsen van de Methode van de Index van Prestaties, zie [&#x200B; de Methode van de Index van Prestaties (PIM) plaatsen &#x200B;](../../../manage-work/projects/project-finances/set-pim.md).
 
-* [ CPI berekeningen wanneer het gebruiken van Op uren-Gebaseerde PIM ](#cpi-calculations-when-using-hour-based-pim)
+* [&#x200B; CPI berekeningen wanneer het gebruiken van Op uren-Gebaseerde PIM &#x200B;](#cpi-calculations-when-using-hour-based-pim)
 * [CPI Berekeningen wanneer het gebruiken van Op kosten-gebaseerde PIM](#cpi-calculations-when-using-cost-based-pim)
 
 #### CPI berekeningen wanneer het gebruiken van op uren-gebaseerde PIM {#cpi-calculations-when-using-hour-based-pim}
@@ -105,7 +105,7 @@ Totaal uitgevoerd begrotingskostenwerk = de som van het veld Totaal begrote kost
 * **voor een project:**
 Totaal uitgevoerd begroot kostenwerk = de som van het totaal uitgevoerd budget-kostenwerkveld voor alle taken op topniveau (ouders en zelfstandige taken).
 
-Voor informatie over het totale Gedragsde Uitgevoerde Werk van Kosten (BCWP), zie [ Gemaakt het Geplande Gepresteerde Werk van Kosten (BCWP) ](../../../manage-work/projects/project-finances/calculate-bcwp.md) berekenen.
+Voor informatie over het totale Gedragsde Uitgevoerde Werk van Kosten (BCWP), zie [&#x200B; Gemaakt het Geplande Gepresteerde Werk van Kosten (BCWP) &#x200B;](../../../manage-work/projects/project-finances/calculate-bcwp.md) berekenen.
 
 #### CPI Berekeningen wanneer het gebruiken van Op kosten-gebaseerde PIM {#cpi-calculations-when-using-cost-based-pim}
 
@@ -194,4 +194,4 @@ U kunt CPI van een project of een taak in een project of een taaklijst of rappor
 
 1. Klik **Financiën**. De vertoningen CPI op het **CPI/SPI/CSI** gebied.
 
-   ![ CPI op project ](assets/cpi-on-project-nwe.png)
+   ![&#x200B; CPI op project &#x200B;](assets/cpi-on-project-nwe.png)

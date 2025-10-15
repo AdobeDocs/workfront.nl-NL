@@ -53,7 +53,7 @@ Het Niveau van uw middelen op een project heeft twee doeleinden:
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 <!--Old:
@@ -96,9 +96,9 @@ Overweeg het volgende wanneer het nivelleren van middelen op een project:
 * Eerdere relaties hebben voorrang op bronnenniveau.
 * **[!UICONTROL Resource Leveling]** moet voor het project worden ingesteld op **[!UICONTROL Manual]** om het niveau in de [!UICONTROL Gantt chart] aan te passen. Als u beheerdersmachtigingen voor het project hebt, kunt u ervoor zorgen dat het systeem bronnen automatisch op niveau brengt door deze instelling aan te passen op het project en **[!UICONTROL Automatic]** te selecteren in plaats van **[!UICONTROL Manual]** in het vak **[!UICONTROL Edit Project]** .
 
-  ![ het niveauwijze van het Middel ](assets/resource-leveling-mode-350x177.png)
+  ![&#x200B; het niveauwijze van het Middel &#x200B;](assets/resource-leveling-mode-350x177.png)
 
-* Als projecteigenaar, of de taak toegewezen, kunt u een nivellerende vertraging voor een taak introduceren om erop te wijzen dat er een grote kans is dat de taak extra tijd zou kunnen vereisen. Voor informatie over het toevoegen van een nivellerende vertraging aan een taak, zie [ de taak Levende Vertraging van de Update ](../../../manage-work/tasks/task-information/task-leveling-delay.md).
+* Als projecteigenaar, of de taak toegewezen, kunt u een nivellerende vertraging voor een taak introduceren om erop te wijzen dat er een grote kans is dat de taak extra tijd zou kunnen vereisen. Voor informatie over het toevoegen van een nivellerende vertraging aan een taak, zie [&#x200B; de taak Levende Vertraging van de Update &#x200B;](../../../manage-work/tasks/task-information/task-leveling-delay.md).
 
 ## Bronniveaus toepassen in de [!UICONTROL Gantt Chart]
 
@@ -115,11 +115,11 @@ U kunt de Taaklijst [!UICONTROL Gantt Chart] gebruiken om uw middelen te nivelle
    >
    >U kunt resources niet in de [!UICONTROL Gantt Chart] nivelleren wanneer de optie [!UICONTROL Autosave] is ingeschakeld.
 
-   ![ Toegelaten het Handmatig plaatsen ](assets/manual-standard-setting-enabled-quicksilver-task-list-350x493.png)
+   ![&#x200B; Toegelaten het Handmatig plaatsen &#x200B;](assets/manual-standard-setting-enabled-quicksilver-task-list-350x493.png)
 
 1. Klik op de vervolgkeuzelijst **[!UICONTROL Level Resources]** .
 
-   ![ Level_resources.png ](assets/level-resouces.png)
+   ![&#x200B; Level_resources.png &#x200B;](assets/level-resouces.png)
 
 1. Selecteer een van de volgende opties:
 

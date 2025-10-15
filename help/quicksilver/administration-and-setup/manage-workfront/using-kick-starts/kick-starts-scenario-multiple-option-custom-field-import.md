@@ -62,7 +62,7 @@ Deze velden kunnen soms veel (soms honderden) opties bevatten. Als u ze importee
  </tbody> 
 </table>
 
-Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -84,9 +84,9 @@ Bestaande gegevens exporteren uit Workfront:
 
 1. Selecteer **Gegevens van de Douane** in **wat om** sectie te omvatten.
 
-   ![ Uitgezochte Gegevens van de Douane ](assets/kickstarts-select-existing-data.png)
+   ![&#x200B; Uitgezochte Gegevens van de Douane &#x200B;](assets/kickstarts-select-existing-data.png)
 
-1. Kies **.xlsx- dossier** in de **3} sectie van het formaat van de Download {.**
+1. Kies **.xlsx- dossier** in de **3&rbrace; sectie van het formaat van de Download &lbrace;.**
 
    >[!TIP]
    >
@@ -94,7 +94,7 @@ Bestaande gegevens exporteren uit Workfront:
 
 1. Klik **Download**. Een .xlsx-bestand wordt naar de computer gedownload. Navigeer ernaar en open het.
 
-   ![ Geëxporteerde gegevens in Excel ](assets/existing-data-excel-parameter-sheet.png)
+   ![&#x200B; Geëxporteerde gegevens in Excel &#x200B;](assets/existing-data-excel-parameter-sheet.png)
 
 1. Onderzoek het gedownloade dossier en neem nota van de volgende details:
 
@@ -120,7 +120,7 @@ Nadat u de informatie over bestaande aangepaste velden in uw systeem hebt gescan
 
 1. In het **Download een leeg Kick-Begin spreadsheet** gebied, selecteer het **de controlevakje van Gegevens van de Douane**, en klik **Download**.
 
-   ![ Uitgezochte Gegevens van de Douane ](assets/kickstarts-blank-spreadsheet-options.png)
+   ![&#x200B; Uitgezochte Gegevens van de Douane &#x200B;](assets/kickstarts-blank-spreadsheet-options.png)
 
    Een leeg bestand met de startfunctie wordt naar de computer gedownload.
 
@@ -144,11 +144,11 @@ Om het spreadsheet van Excel met informatie voor de nieuwe douanevelden te bevol
 
    U moet de namen van de objecten en hun kenmerken schrijven in de indeling die wordt ondersteund door de Workfront-database.
 
-   Voor informatie over de betekenis van deze voorwerpen, zie de [ Verklarende woordenlijst van  [!DNL Adobe Workfront]  terminologie ](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
+   Voor informatie over de betekenis van deze voorwerpen, zie de [&#x200B; Verklarende woordenlijst van  [!DNL Adobe Workfront]  terminologie &#x200B;](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
 
-   Voor informatie over de namen van de voorwerpen in het gegevensbestand van Workfront, zie de [ API Ontdekkingsreiziger ](../../../wf-api/general/api-explorer.md).
+   Voor informatie over de namen van de voorwerpen in het gegevensbestand van Workfront, zie de [&#x200B; API Ontdekkingsreiziger &#x200B;](../../../wf-api/general/api-explorer.md).
 
-   ![ Bladen inbegrepen in gegevensuitvoer ](assets/sheets-included-in-custom-data-export-kick-start-file.png)
+   ![&#x200B; Bladen inbegrepen in gegevensuitvoer &#x200B;](assets/sheets-included-in-custom-data-export-kick-start-file.png)
 
 1. Zorg ervoor dat de volgende informatie correct is opgemaakt:
 
@@ -187,7 +187,7 @@ Om het spreadsheet van Excel met informatie voor de nieuwe douanevelden te bevol
 
      >[!TIP]
      >
-     >Om het Type van Gegevens en de informatie van het Type van Vertoning te vinden, verwijs naar [ API Ontdekkingsreiziger ](../../../wf-api/general/api-explorer.md), breid het **voorwerp van de Parameter** uit, en zoek deze attributen onder de **gebieden** tabel.
+     >Om het Type van Gegevens en de informatie van het Type van Vertoning te vinden, verwijs naar [&#x200B; API Ontdekkingsreiziger &#x200B;](../../../wf-api/general/api-explorer.md), breid het **voorwerp van de Parameter** uit, en zoek deze attributen onder de **gebieden** tabel.
 
    * **`setName`** = voer de naam in van de aangepaste velden zoals u deze in Workfront wilt weergeven.
 
@@ -199,9 +199,9 @@ Om het spreadsheet van Excel met informatie voor de nieuwe douanevelden te bevol
 
    De waarde van een veld is de naam die wordt weergegeven in rapporten, terwijl de naam wordt weergegeven in de aangepaste formulieren die aan objecten zijn gekoppeld.
 
-   Voor meer informatie, zie [ een douaneformulier ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren.
+   Voor meer informatie, zie [&#x200B; een douaneformulier &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren.
 
-   ![ Gevulde het blad van de Parameter ](assets/parameter-sheet-filled-out-kick-starts.png)
+   ![&#x200B; Gevulde het blad van de Parameter &#x200B;](assets/parameter-sheet-filled-out-kick-starts.png)
 
 1. Selecteer het **`POPT Parameter Options`** -werkblad en voeg in de volgende vereiste kolommen informatie toe over de opties van elk aangepast veld:
 
@@ -218,12 +218,12 @@ Om het spreadsheet van Excel met informatie voor de nieuwe douanevelden te bevol
      >
      >Er kan slechts één standaardoptie voor elk veld zijn.
 
-   * **`setParameterID`** = de opties die aan het _Merk_ douanegebied beantwoorden hebben a **`setParameterID`** van 1, en de opties die aan de _Media_ beantwoorden hebben een ** `setParameterID` **van 2. De vellen `PARAM` en `POPT` verwijzen naar elkaar om aan te geven welke opties behoren tot welk aangepast veld.
+   * **`setParameterID`** = de opties die aan het _Merk_ douanegebied beantwoorden hebben a **`setParameterID`** van 1, en de opties die aan de _Media_ beantwoorden hebben een **&#x200B; `setParameterID` &#x200B;** van 2. De vellen `PARAM` en `POPT` verwijzen naar elkaar om aan te geven welke opties behoren tot welk aangepast veld.
    * **`setDisplayOrder`**= de kolom van de vertoningsorde wijst op de orde waarin de opties op uw douanegebied zullen tonen. U kunt beginnen met 1 en in oplopende volgorde verdergaan voor alle opties, ongeacht tot welke velden ze behoren. Het is belangrijk dat er voor elke optie unieke nummers zijn.
-   * De kolommen **`setLabel`** en `**setValue`** bevatten doorgaans dezelfde informatie en moeten de namen weerspiegelen die u in de gebruikersinterface van Workfront wilt gebruiken. De waarde van een optie is de naam die in rapporten wordt weergegeven, terwijl het label in de aangepaste formulieren wordt weergegeven wanneer het aan een object is gekoppeld. Voor meer informatie, zie [ een douaneformulier ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren.
+   * De kolommen **`setLabel`** en `**setValue`** bevatten doorgaans dezelfde informatie en moeten de namen weerspiegelen die u in de gebruikersinterface van Workfront wilt gebruiken. De waarde van een optie is de naam die in rapporten wordt weergegeven, terwijl het label in de aangepaste formulieren wordt weergegeven wanneer het aan een object is gekoppeld. Voor meer informatie, zie [&#x200B; een douaneformulier &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren.
    * **`setIsHidden`** = ga `TRUE` in als u om het even welke opties wilt worden verborgen.
 
-   ![ Gevulde het blad van de Parameter ](assets/parameter-option-sheet-filled-out-kick-starts.png)
+   ![&#x200B; Gevulde het blad van de Parameter &#x200B;](assets/parameter-option-sheet-filled-out-kick-starts.png)
 
 1. (Optioneel) Als u ook een aangepast formulier wilt maken waarin u de nieuwe velden later kunt toevoegen, selecteert u het **`CTGY Category`** -werkblad en werkt u de volgende vereiste kolommen bij voor de aangepaste formuliergegevens:
 
@@ -253,7 +253,7 @@ Om het spreadsheet van Excel met informatie voor de nieuwe douanevelden te bevol
 
    * **`setName`** = dit is de naam van het aangepaste formulier zoals u het wilt weergeven in de Workfront-interface.
 
-     ![ Gevulde het blad van de Categorie ](assets/category-sheet-filled-out-kick-starts.png)
+     ![&#x200B; Gevulde het blad van de Categorie &#x200B;](assets/category-sheet-filled-out-kick-starts.png)
 
 1. Sla het spreadsheet op als een .xls- of .xlsx-bestand op uw computer. Uw Excel-werkblad is ingevuld en kan nu worden geïmporteerd in Workfront.
 
@@ -277,7 +277,7 @@ Nadat u de in de vorige secties beschreven stappen hebt uitgevoerd, gaat u als v
    >
    >De nieuwe formulieren en de geïmporteerde velden hebben nog geen verbinding. Het formulier wordt geïmporteerd zonder aangepaste velden. U moet de velden handmatig toevoegen aan het nieuwe aangepaste formulier of aan een ander bestaand aangepast formulier.
 
-   Voor informatie over het toevoegen van gebieden aan douaneformulieren, zie [ een douaneformulier ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren.
+   Voor informatie over het toevoegen van gebieden aan douaneformulieren, zie [&#x200B; een douaneformulier &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren.
 
 1. (Voorwaardelijk) Als het importeren niet is gelukt, wordt een foutbericht weergegeven waarin wordt aangegeven wat het probleem is. Probeer het veld, het blad en het rijnummer te identificeren waarin het probleem is aangetroffen en corrigeer de gegevens in het Excel-bestand. Probeer het bestand vervolgens nog een keer te importeren.
 

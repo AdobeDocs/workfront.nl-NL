@@ -52,7 +52,7 @@ Het exporteren van gegevens via Kick-Starts is ook handig om te begrijpen welke 
  </tbody> 
 </table>
 
-Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -62,7 +62,7 @@ Er zijn twee manieren om gegevens te exporteren in Workfront:
 
 * Gegevens uit een rapport of lijst exporteren
 
-  Voor meer informatie over het uitvoeren van gegevens van een rapport of een lijst, zie [ gegevens van de Uitvoer ](../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md).
+  Voor meer informatie over het uitvoeren van gegevens van een rapport of een lijst, zie [&#x200B; gegevens van de Uitvoer &#x200B;](../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md).
 
 * Gegevens exporteren via een startprocedure
 
@@ -137,7 +137,7 @@ De volgende beperkingen gelden voor het exporteren van gegevens via de functie v
      </tr> 
      <tr> 
       <td scope="col" valign="top"> <p>Aangepaste gegevens</p> </td> 
-      <td scope="col" valign="top"> <p>De Optie van de Parameter <br> van de Optie van de Parameter van de 1} <br> Categorie van de Parameter <br> Voorkeur <br><br></p> </td> 
+      <td scope="col" valign="top"> <p>De Optie van de Parameter <br> van de Optie van de Parameter van de 1&rbrace; <br> Categorie van de Parameter <br> Voorkeur <br><br></p> </td> 
       <td scope="col" valign="top"> <p> Excel</p> </td> 
      </tr> 
      <tr> 
@@ -173,7 +173,7 @@ De volgende beperkingen gelden voor het exporteren van gegevens via de functie v
 
    De enige uitzondering is het **voorwerp van de Niveaus van de Toegang**. Het gegevensblad van de Niveaus van de Toegang dat in de uitvoer inbegrepen is wordt verstrekt slechts voor verwijzingsdoeleinden. Hiermee kunt u een toegangsniveau aan een nieuwe gebruikersaccount toewijzen met een id.
 
-   Voor meer informatie over het invoeren van gegevens in Workfront via schop-begin, zie [ Gegevens van de Invoer in Adobe Workfront gebruikend een Kick-Begin malplaatje ](../../../administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md). Hieronder volgt een lijst met alle objecten die kunnen worden geëxporteerd via het starten van een trap:
+   Voor meer informatie over het invoeren van gegevens in Workfront via schop-begin, zie [&#x200B; Gegevens van de Invoer in Adobe Workfront gebruikend een Kick-Begin malplaatje &#x200B;](../../../administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md). Hieronder volgt een lijst met alle objecten die kunnen worden geëxporteerd via het starten van een trap:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -249,7 +249,7 @@ De volgende beperkingen gelden voor het exporteren van gegevens via de functie v
      </tr> 
      <tr> 
       <td valign="top">Mijlpad</td> 
-      <td valign="top"> De Weg van de Mijlsteen <br> Voorkeur van de Weg van 0} Mijl<br> </td> 
+      <td valign="top"> De Weg van de Mijlsteen <br> Voorkeur van de Weg van 0&rbrace; Mijl<br> </td> 
       <td valign="top">Excel </td> 
      </tr> 
      <tr> 
@@ -331,13 +331,13 @@ De volgende beperkingen gelden voor het exporteren van gegevens via de functie v
 
    De **opties van het Dashboard** en **Rapport** staan u toe om specifieke dashboards en rapporten te selecteren om in de download te omvatten. Voor dashboards, kunt u dashboards slechts uitvoeren die systeem-wijd worden gedeeld.
 
-   U kunt matrixrapporten niet exporteren. Voor meer informatie over matrixrapporten, zie [ een matrixrapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md) creëren.
+   U kunt matrixrapporten niet exporteren. Voor meer informatie over matrixrapporten, zie [&#x200B; een matrixrapport &#x200B;](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md) creëren.
 
    Kick-Starts ondersteunt geen filters of groepen in de tekstmodus. Voor een geslaagde export moeten de rapportfilters en -groepen worden overgeschakeld op de standaardmodus.
 
    U kunt maximaal 100 dashboards en 100 rapporten selecteren in één export.
 
-   ![ Kickstart de uitvoer ](assets/kickstart-export-spreadsheet-options.png)
+   ![&#x200B; Kickstart de uitvoer &#x200B;](assets/kickstart-export-spreadsheet-options.png)
 
    U kunt meerdere objecten tegelijk exporteren.
 

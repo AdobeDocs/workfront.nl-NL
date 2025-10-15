@@ -21,9 +21,9 @@ ht-degree: 0%
 
 Als u als fiatteur wordt geplaatst, zou u regelmatig moeten herzien welk werk in afwachting van uw goedkeuring is.
 
-Voor informatie over het creëren van goedkeuringsprocessen, zie [ een goedkeuringsproces voor het werkpunten ](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md) creëren.
+Voor informatie over het creëren van goedkeuringsprocessen, zie [&#x200B; een goedkeuringsproces voor het werkpunten &#x200B;](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md) creëren.
 
-Voor informatie over het associëren van goedkeuringen met het werk in Workfront, zie [ een nieuw of bestaand goedkeuringsproces met het werk ](../../review-and-approve-work/manage-approvals/associate-approval-with-work.md) associëren.
+Voor informatie over het associëren van goedkeuringen met het werk in Workfront, zie [&#x200B; een nieuw of bestaand goedkeuringsproces met het werk &#x200B;](../../review-and-approve-work/manage-approvals/associate-approval-with-work.md) associëren.
 
 ## Toegangsvereisten
 
@@ -54,7 +54,7 @@ Voor informatie over het associëren van goedkeuringen met het werk in Workfront
  </tbody> 
 </table>
 
-Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -62,11 +62,11 @@ Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront
 
 U kunt goedkeuringen bekijken en beheren in verschillende gebieden van Workfront.
 
-Voor meer informatie over het bekijken van punten die op goedkeuring wachten of punten die u voor goedkeuring zelf hebt voorgelegd, zie [ goedkeuringen van de Mening ](../../review-and-approve-work/manage-approvals/view-approvals.md).
+Voor meer informatie over het bekijken van punten die op goedkeuring wachten of punten die u voor goedkeuring zelf hebt voorgelegd, zie [&#x200B; goedkeuringen van de Mening &#x200B;](../../review-and-approve-work/manage-approvals/view-approvals.md).
 
 ## Werk goedkeuren vanuit het thuisgebied
 
-1. Klik het **[!UICONTROL Main Menu]** ![ Belangrijkste pictogram van het Menu ](assets/main-menu-icon.png) in de hoger-juiste hoek, dan klik **[!UICONTROL Home]**.
+1. Klik het **[!UICONTROL Main Menu]** ![&#x200B; Belangrijkste pictogram van het Menu &#x200B;](assets/main-menu-icon.png) in de hoger-juiste hoek, dan klik **[!UICONTROL Home]**.
 1. (Voorwaardelijk) klik **aanpassen** om **Mijn goedkeurt** widget toe te voegen.
 1. (Voorwaardelijk) klik het **drop-down menu van de Filter**, dan selecteer **allen** om goedkeuringen te zien die aan u worden toegewezen en worden gedelegeerd.
 
@@ -77,7 +77,7 @@ Voor meer informatie over het bekijken van punten die op goedkeuring wachten of 
 
 1. Selecteer het item waarop u een goedkeuringsbesluit wilt nemen.
 
-   ![ Mijn widget goedkeurt ](assets/my-approvals-widget.png)
+   ![&#x200B; Mijn widget goedkeurt &#x200B;](assets/my-approvals-widget.png)
 
 1. Klik op een van de beschikbare opties wanneer u een goedkeuringsbesluit neemt in het rechterdeelvenster. De volgende opties worden in de rechterbovenhoek van de pagina weergegeven, afhankelijk van het type item dat u goedkeurt:
 
@@ -146,7 +146,7 @@ Om het werk van een project, een taak, of een kwestie direct goed te keuren:
 
    De informatie van de goedkeuring betreffende het huidige goedkeuringsproces van een project, een taak, of een kwestie toont in de kopbal van het punt.
 
-   ![ Huidige goedkeuringsproces in projectkopbal ](assets/current-approval-process-in-project-header-with-stages-nwe-350x92.png)
+   ![&#x200B; Huidige goedkeuringsproces in projectkopbal &#x200B;](assets/current-approval-process-in-project-header-with-stages-nwe-350x92.png)
 
    De volgende goedkeuringsinformatie is beschikbaar:
 
@@ -172,10 +172,10 @@ Om het werk van een project, een taak, of een kwestie direct goed te keuren:
 
 1. Ga naar het documentgebied dat het document bevat dat uw goedkeuring vereist.
 1. Selecteer het document, dan klik **goedkeuren**, **Veranderingen**, of **verwerpen**.\
-   ![ keur document ](assets/approval-approve-document-350x215.png) goed\
-   ![ de goedkeuring van het Document ](assets/document-approval-350x199.png)
+   ![&#x200B; keur document &#x200B;](assets/approval-approve-document-350x215.png) goed\
+   ![&#x200B; de goedkeuring van het Document &#x200B;](assets/document-approval-350x199.png)
 
-1. (Facultatief) als een proef voor het document is geproduceerd, kunt u het document binnen de het proeven interface goedkeuren, zoals die in [ wordt beschreven een document van een proef ](#approve-a-document-from-a-proof) goedkeuren.
+1. (Facultatief) als een proef voor het document is geproduceerd, kunt u het document binnen de het proeven interface goedkeuren, zoals die in [&#x200B; wordt beschreven een document van een proef &#x200B;](#approve-a-document-from-a-proof) goedkeuren.
 
 ## Een document goedkeuren via een e-mailbericht voor goedkeuring
 
@@ -185,16 +185,16 @@ Afhankelijk van uw berichtinstellingen ontvangt u mogelijk e-mailberichten waari
 1. Voer een van de volgende handelingen uit om het document te reviseren:
 
    * De metagegevens van het document weergeven.
-   * Als een bewijs voor het herzien van het document met prijsverhoging en commentaren is gecreeerd, klik **Open proef** ![ Open proef ](assets/open-proof-icon-qs.png) dichtbij de hogere juiste hoek en herzie de proef.
+   * Als een bewijs voor het herzien van het document met prijsverhoging en commentaren is gecreeerd, klik **Open proef** ![&#x200B; Open proef &#x200B;](assets/open-proof-icon-qs.png) dichtbij de hogere juiste hoek en herzie de proef.
 
      <!--   
      <span style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">[Andrzej, does it make sense to leave this here if it's s document approval?&nbsp;Would there never be a proof in that situation?]</span>   
      -->
 
-     Voor informatie over het herzien van proeven, zie [ proefdrukken van het Overzicht binnen Adobe Workfront ](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md).
+     Voor informatie over het herzien van proeven, zie [&#x200B; proefdrukken van het Overzicht binnen Adobe Workfront &#x200B;](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md).
 
 1. Klik de optie van het a **Besluit** in de hogere juiste hoek om, met veranderingen goed te keuren, goed te keuren of het document te verwerpen.
 
 ## Een document op basis van een bewijs goedkeuren {#approve-a-document-from-a-proof}
 
-U kunt een document goedkeuren in de proefdrukviewer. Voor meer informatie, zie [ een besluit over een bewijs in de het proeven kijker ](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md) in het artikel [ nemen een besluit over een bewijs in de het proef kijker ](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md).
+U kunt een document goedkeuren in de proefdrukviewer. Voor meer informatie, zie [&#x200B; een besluit over een bewijs in de het proeven kijker &#x200B;](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md) in het artikel [&#x200B; nemen een besluit over een bewijs in de het proef kijker &#x200B;](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md).

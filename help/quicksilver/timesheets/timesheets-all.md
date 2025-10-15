@@ -20,7 +20,7 @@ ht-degree: 0%
 
 Deze sectie bevat de artikelen in de volgende subsecties:
 
-* [ de details van de Tijdopname: artikelindex ](../timesheets/timesheets/timesheets.md)
-* [ creeer en beheer timesheets: artikelindex ](../timesheets/create-and-manage-timesheets/create-and-manage-timesheets.md)
-* [ vormt hoe de tijd wordt geregistreerd: artikelindex ](../timesheets/config-timesheet-prefs/configure-timesheet-preferences.md)
+* [&#x200B; de details van de Tijdopname: artikelindex &#x200B;](../timesheets/timesheets/timesheets.md)
+* [&#x200B; creeer en beheer timesheets: artikelindex &#x200B;](../timesheets/create-and-manage-timesheets/create-and-manage-timesheets.md)
+* [&#x200B; vormt hoe de tijd wordt geregistreerd: artikelindex &#x200B;](../timesheets/config-timesheet-prefs/configure-timesheet-preferences.md)
 * [Tips, trucs en problemen oplossen: artikelindex](../timesheets/tips-tricks-and-troubleshooting/tips-tricks-and-troubleshooting-timesheets.md)

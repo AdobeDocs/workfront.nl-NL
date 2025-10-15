@@ -24,7 +24,7 @@ ht-degree: 0%
 >
 >Adobe Workfront Goals kan niet meer worden aangeschaft.
 >
->Voor extra informatie over toegang tot de Doelen van Workfront, zie [ Vereisten om de Doelen van Workfront ](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md) te gebruiken.
+>Voor extra informatie over toegang tot de Doelen van Workfront, zie [&#x200B; Vereisten om de Doelen van Workfront &#x200B;](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md) te gebruiken.
 
 
 <!--Old:
@@ -54,22 +54,22 @@ U kunt filters toepassen om alleen de doelen weer te geven die voor u in elke se
 
 >[!TIP]
 >
->Filters die in één sectie worden bijgewerkt, worden automatisch toegepast op de secties Goal List, Graphs en Goal Alignment. Op deze manier kunt u ze maar één keer bijwerken. Voor meer informatie, zie [ informatie van de Filter in de Doelen van Adobe Workfront ](../../workfront-goals/goal-management/filter-information-wf-goals.md).
+>Filters die in één sectie worden bijgewerkt, worden automatisch toegepast op de secties Goal List, Graphs en Goal Alignment. Op deze manier kunt u ze maar één keer bijwerken. Voor meer informatie, zie [&#x200B; informatie van de Filter in de Doelen van Adobe Workfront &#x200B;](../../workfront-goals/goal-management/filter-information-wf-goals.md).
 
 Hieronder volgt een kort overzicht van de gedeelten van Workfront Goals en de opties die beschikbaar zijn voor het beheer van doelen. Voor meer informatie over extra acties die u binnen elke sectie van de Doelen van Workfront kunt uitvoeren, adviseren wij ook de volgende artikelen:
 
-* [ creeer doelstellingen in de Doelen van Adobe Workfront ](../../workfront-goals/goal-management/create-goals.md)
-* [ het doel van de Update vooruitgang in de Doelen van Adobe Workfront ](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md)
-* [ informatie van de Filter in de Doelen van Adobe Workfront ](../../workfront-goals/goal-management/filter-information-wf-goals.md)
+* [&#x200B; creeer doelstellingen in de Doelen van Adobe Workfront &#x200B;](../../workfront-goals/goal-management/create-goals.md)
+* [&#x200B; het doel van de Update vooruitgang in de Doelen van Adobe Workfront &#x200B;](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md)
+* [&#x200B; informatie van de Filter in de Doelen van Adobe Workfront &#x200B;](../../workfront-goals/goal-management/filter-information-wf-goals.md)
 
 
 ## Lijst met doelen
 
 U kunt de Lijst van het Doel gebruiken om doelstellingen te herzien die tot u, uw teams, groepen, of uw organisatie behoren. U kunt doelstellingen in om het even welke status en van om het even welke tijdspanne bekijken.
 
-Voor informatie over het navigeren van de Lijst van het Doel en het beheren van doelstellingen, zie [ doelstellingen in de Lijst van het Doel van de Doelen van Adobe Workfront ](../../workfront-goals/goal-review-and-workfront-goals-sections/manage-goals-in-goal-list.md) leiden.
+Voor informatie over het navigeren van de Lijst van het Doel en het beheren van doelstellingen, zie [&#x200B; doelstellingen in de Lijst van het Doel van de Doelen van Adobe Workfront &#x200B;](../../workfront-goals/goal-review-and-workfront-goals-sections/manage-goals-in-goal-list.md) leiden.
 
-![ Lijst van het Doel ](assets/goal-list-unshimmed.png)
+![&#x200B; Lijst van het Doel &#x200B;](assets/goal-list-unshimmed.png)
 
 Gebruik de Lijst met doelen voor het volgende:
 
@@ -77,11 +77,11 @@ Gebruik de Lijst met doelen voor het volgende:
 * De doelstellingen van het overzicht en hun informatie (bijvoorbeeld, naam, eigenaar, vooruitgang, of voorwaarde).
 * Voeg nieuwe doelen toe.
 
-  Voor meer informatie, zie [ doelstellingen in de Doelen van Adobe Workfront ](../../workfront-goals/goal-management/create-goals.md) creëren.
+  Voor meer informatie, zie [&#x200B; doelstellingen in de Doelen van Adobe Workfront &#x200B;](../../workfront-goals/goal-management/create-goals.md) creëren.
 
 * Open de pagina van een doel en bewerk en werk het doel, de resultaten of de activiteiten ervan bij
 
-  Voor meer informatie, zie [ doelstellingen in de Doelen van Adobe Workfront ](../../workfront-goals/goal-management/edit-goals.md) uitgeven.
+  Voor meer informatie, zie [&#x200B; doelstellingen in de Doelen van Adobe Workfront &#x200B;](../../workfront-goals/goal-management/edit-goals.md) uitgeven.
 
 * Doelen bewerken.
 
@@ -89,9 +89,9 @@ Gebruik de Lijst met doelen voor het volgende:
 
 U kunt de sectie van Grafieken gebruiken om een holistische mening van de gezondheid van doelstellingen te bereiken die tot u of tot uw organisatie behoren. U kunt de voortgangsinformatie van doelstellingen in om het even welke status van om het even welke tijdspanne in deze sectie bekijken.
 
-Voor informatie over het gebruiken van de sectie van Grafieken, zie [ grafieken van het Overzicht om de tendensen van de doelvooruitgang in de Doelen van Adobe Workfront ](../../workfront-goals/goal-review-and-workfront-goals-sections/review-goal-graphs.md) te begrijpen.
+Voor informatie over het gebruiken van de sectie van Grafieken, zie [&#x200B; grafieken van het Overzicht om de tendensen van de doelvooruitgang in de Doelen van Adobe Workfront &#x200B;](../../workfront-goals/goal-review-and-workfront-goals-sections/review-goal-graphs.md) te begrijpen.
 
-![ sectie van Grafieken ](assets/graphs-section-unshimmed.png)
+![&#x200B; sectie van Grafieken &#x200B;](assets/graphs-section-unshimmed.png)
 
 Gebruik de sectie Grafieken voor het volgende:
 
@@ -103,14 +103,14 @@ Gebruik de sectie Grafieken voor het volgende:
 
 Als uw doelstellingen aan elkaar worden gericht, kunt u de sectie van de Groepering van het Doel gebruiken om alle doelstellingen in uw organisatie en hun groepering aan elkaar te tonen en te herzien. Doelstellingen die hier worden uitgelijnd, worden weergegeven op verbonden kaarten om hun uitlijning met elkaar te illustreren. De doelstellingen van de ouder tonen eerst, en de kinddoelstellingen worden gestapeld achter hen. U kunt doelstellingen in om het even welke status en van om het even welke tijdspanne in deze sectie bekijken.
 
-Voor informatie over het navigeren van de sectie van de Groepering van het Doel om doelstellingen te beheren, zie [ de sectie van de Groepering van het Doel in de Doelen van Adobe Workfront ](../../workfront-goals/goal-alignment/navigate-goal-alignment-chart.md) navigeren.
+Voor informatie over het navigeren van de sectie van de Groepering van het Doel om doelstellingen te beheren, zie [&#x200B; de sectie van de Groepering van het Doel in de Doelen van Adobe Workfront &#x200B;](../../workfront-goals/goal-alignment/navigate-goal-alignment-chart.md) navigeren.
 
 Raadpleeg de volgende artikelen voor informatie over het uitlijnen van doelen:
 
-* [ richt doelstellingen door hen in de Doelen van Adobe Workfront te verbinden ](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md)
+* [&#x200B; richt doelstellingen door hen in de Doelen van Adobe Workfront te verbinden &#x200B;](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md)
 * [Richt doelstellingen door resultaten en activiteiten aan doelstellingen om te zetten](../../workfront-goals/goal-alignment/align-goals-by-converting-results-activities.md)
 
-![ Goal groeperingssectie ](assets/goal-alignment-section-unshimmed.png)
+![&#x200B; Goal groeperingssectie &#x200B;](assets/goal-alignment-section-unshimmed.png)
 
 Gebruik het gedeelte Uitlijning doel voor het volgende:
 

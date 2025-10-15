@@ -30,7 +30,7 @@ ht-degree: 0%
 >
 >Neem voor meer informatie contact op met uw accountmanager
 >
->Voor meer informatie over de Planning van Workfront, zie [ het Overzicht van de Planning van Adobe Workfront ](/help/quicksilver/planning/general/planning-overview.md).
+>Voor meer informatie over de Planning van Workfront, zie [&#x200B; het Overzicht van de Planning van Adobe Workfront &#x200B;](/help/quicksilver/planning/general/planning-overview.md).
 
 Er gelden beperkingen voor licenties en deelmachtigingen voor het gebruik van Adobe Workfront Planning.
 
@@ -107,7 +107,7 @@ U moet de volgende toegang tot de Planning van Workfront hebben:
  </tbody>
 </table>
 
-Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 
 ## Het planningsgebied delen met een lay-outsjabloon
@@ -134,11 +134,11 @@ Workfront-planningsgebieden toevoegen aan of verwijderen uit gebruikers van uw W
 
 1. Ga naar **Belangrijkste menu** > **Opstelling** > **Interface** > **Malplaatjes van de Lay-out** en open of creeer een lay-outmalplaatje.
 
-   Voor informatie over het aanpassen van een lay-outmalplaatje, zie [ lay-outmalplaatjes ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md) creëren en beheren.
+   Voor informatie over het aanpassen van een lay-outmalplaatje, zie [&#x200B; lay-outmalplaatjes &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md) creëren en beheren.
 
 1. Wijs het lay-outmalplaatje aan de gebruikers toe die u toegang tot de Planning van Workfront wilt hebben.
 
-   Voor informatie, zie [ gebruikers aan een lay-outmalplaatje ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md) toewijzen.
+   Voor informatie, zie [&#x200B; gebruikers aan een lay-outmalplaatje &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md) toewijzen.
 
    Alle gebruikers die aan de sjabloon zijn toegewezen, hebben nu toegang tot de Workfront-planning in hun hoofdmenu.
 
@@ -148,7 +148,7 @@ Workfront-planningsgebieden toevoegen aan of verwijderen uit gebruikers van uw W
 
 U kunt licenties toewijzen aan gebruikers wanneer u hun toegangsniveau configureert terwijl u deze bewerkt of maakt.
 
-Voor informatie, zie [ de profielen van een gebruiker ](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) uitgeven
+Voor informatie, zie [&#x200B; de profielen van een gebruiker &#x200B;](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) uitgeven
 
 ## Toegangsniveau configureren
 
@@ -166,10 +166,10 @@ U kunt toestemmingen aan de volgende entiteiten in de Planning van Workfront ver
 * Recordtypen
 * Weergaven
 
-Voor meer informatie, zie [ Overzicht van het delen van toestemmingen in de Planning van Adobe Workfront ](/help/quicksilver/planning/access/sharing-permissions-overview.md).
+Voor meer informatie, zie [&#x200B; Overzicht van het delen van toestemmingen in de Planning van Adobe Workfront &#x200B;](/help/quicksilver/planning/access/sharing-permissions-overview.md).
 
 Uw Adobe Workfront-licentietype werkt met uw Workfront-planningsbevoegdheden om u toegang te geven tot Workfront-planningsobjecten, deze te kunnen bekijken of beheren.
 
-Voor informatie over hoe de vergunningstypes toestemmingsniveaus voor de Planning van Workfront voorwerpen beïnvloeden, zie [ het type van Vergunning overzicht wanneer het gebruiken van de Planning van Adobe Workfront ](/help/quicksilver/planning/access/license-type-overview.md).
+Voor informatie over hoe de vergunningstypes toestemmingsniveaus voor de Planning van Workfront voorwerpen beïnvloeden, zie [&#x200B; het type van Vergunning overzicht wanneer het gebruiken van de Planning van Adobe Workfront &#x200B;](/help/quicksilver/planning/access/license-type-overview.md).
 
 

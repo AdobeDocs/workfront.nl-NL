@@ -38,4 +38,4 @@ Als systeembeheerder, doe het volgende:
 
 1. Klik **sparen**.
 
-Voor meer informatie over dit en andere opties betreffende timesheets en uren, zie [ timesheet en uurvoorkeur ](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md) vormen.
+Voor meer informatie over dit en andere opties betreffende timesheets en uren, zie [&#x200B; timesheet en uurvoorkeur &#x200B;](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md) vormen.

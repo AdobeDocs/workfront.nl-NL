@@ -19,7 +19,7 @@ ht-degree: 0%
 
 U kunt werkitems toewijzen met de Adobe Workfront Workload Balancer door werkitems naar de juiste gebruikers te slepen en neer te zetten.
 
-Voor algemene informatie over het toewijzen van het werk aan gebruikers die de Balancer van de Werklast gebruiken, zie [ Overzicht van het toewijzen van het werk in de Balancer van de Werklast ](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
+Voor algemene informatie over het toewijzen van het werk aan gebruikers die de Balancer van de Werklast gebruiken, zie [&#x200B; Overzicht van het toewijzen van het werk in de Balancer van de Werklast &#x200B;](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
 
 ## Toegangsvereisten
 
@@ -56,7 +56,7 @@ Voor algemene informatie over het toewijzen van het werk aan gebruikers die de B
  </tbody> 
 </table>
 
-Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -66,7 +66,7 @@ U kunt een item uit het gebied Niet toegewezen werk toewijzen aan een gebruiker 
 
 1. Ga naar Werklastverdeling waar u werk wilt toewijzen.
 
-   U kunt werk aan gebruikers toewijzen gebruikend de Balancer van de Werkbelasting in het gebied van het Middelen, op het project, of op het teamniveau. Voor meer informatie over waar de Balancer van de Werkbelasting in Workfront wordt gevestigd, zie [ plaats van de Balancer van de Werkbelasting ](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
+   U kunt werk aan gebruikers toewijzen gebruikend de Balancer van de Werkbelasting in het gebied van het Middelen, op het project, of op het teamniveau. Voor meer informatie over waar de Balancer van de Werkbelasting in Workfront wordt gevestigd, zie [&#x200B; plaats van de Balancer van de Werkbelasting &#x200B;](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
 
 1. (Facultatief) ga naar het **Niet toegewezen gebied van het Werk** en pas een filter op meningstaken, kwesties, <span class="preview"> en roltaken </span> toe die niet aan gebruikers worden toegewezen
 
@@ -76,15 +76,15 @@ U kunt een item uit het gebied Niet toegewezen werk toewijzen aan een gebruiker 
 
    >[!NOTE]
    >
-   ><span class="preview"> de taken van de Rol worden getoond onder het werkpunten in het Niet toegewezen gebied van het Werk wanneer het plaatsen van de Taken van de Rol van de Show wordt toegelaten. Voor meer informatie, zie [ de mening ](/help/quicksilver/resource-mgmt/workload-balancer/navigate-the-workload-balancer.md#customize-the-view) in [ aanpassen de Balancer van de Werkbelasting ](/help/quicksilver/resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).</span>
+   ><span class="preview"> de taken van de Rol worden getoond onder het werkpunten in het Niet toegewezen gebied van het Werk wanneer het plaatsen van de Taken van de Rol van de Show wordt toegelaten. Voor meer informatie, zie [&#x200B; de mening &#x200B;](/help/quicksilver/resource-mgmt/workload-balancer/navigate-the-workload-balancer.md#customize-the-view) in [&#x200B; aanpassen de Balancer van de Werkbelasting &#x200B;](/help/quicksilver/resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).</span>
 
-1. (Voorwaardelijk) in de Balancer van de Werklast van een project, klik **toon alle gebruikers** pictogram ![ tonen alle gebruikers ](assets/show-all-users-icon-project-workload-balancer.png) om alle gebruikers van Workfront te tonen.
+1. (Voorwaardelijk) in de Balancer van de Werklast van een project, klik **toon alle gebruikers** pictogram ![&#x200B; tonen alle gebruikers &#x200B;](assets/show-all-users-icon-project-workload-balancer.png) om alle gebruikers van Workfront te tonen.
 
    Alle gebruikers die toegang hebben tot de weergave worden dan weergegeven.
 
    De gebruikers die ook deel uitmaken van het projectteam en reeds aan punten op het project worden toegewezen hebben het projectpictogram rechts van hun naam in het Toegewezen gebied van het Werk.
 
-   ![ Gebruiker op het project ](assets/user-on-the-project-indicator-highlighted-project-workload-balancer.png)
+   ![&#x200B; Gebruiker op het project &#x200B;](assets/user-on-the-project-indicator-highlighted-project-workload-balancer.png)
 
    >[!TIP]
    >
@@ -102,10 +102,10 @@ U kunt een item uit het gebied Niet toegewezen werk toewijzen aan een gebruiker 
    >De Geplande Uren voor de gebruiker u over update in echt - tijd met het aantal dagelijkse Geplande Uren van het het werkpunt beweegt, om erop te wijzen wat het effect van het toevoegen van een nieuw punt aan hun algemene toewijzing zou kunnen zijn.
 
    <span class="preview"> beeld van de Steekproef in het milieu van de Voorproef:</span>
-   ![ punt van de Daling aan een gebruiker ](assets/wb-drag-drop-role-or-task-to-user.png) toe te wijzen
+   ![&#x200B; punt van de Daling aan een gebruiker &#x200B;](assets/wb-drag-drop-role-or-task-to-user.png) toe te wijzen
 
    Voorbeeldafbeelding in de productieomgeving:
-   ![ punt van de Daling aan een gebruiker ](assets/drag-drop-item-from-unassigned-to-assigned-wb-nwe-350x152.png) toe te wijzen
+   ![&#x200B; punt van de Daling aan een gebruiker &#x200B;](assets/drag-drop-item-from-unassigned-to-assigned-wb-nwe-350x152.png) toe te wijzen
 
 1. Wanneer u klaar bent, laat vallen het geselecteerde het werkpunt <span class="preview"> of roltaak </span> in de zelfde lijn zoals de naam van de gebruiker in het Toegewezen Gebied. Het punt wordt toegewezen en de toegewezen Geplande Uren worden bijgewerkt voor de gebruiker met de nieuwe uren van het het werkpunt.
 
@@ -116,14 +116,14 @@ U kunt een item uit het gebied Niet toegewezen werk toewijzen aan een gebruiker 
    >* Als u Groep door Project op het gebied van Montages toeliet, toont de toegewezen taak onder het overeenkomstige project. Als de instelling is uitgeschakeld, wordt de toegewezen taak weergegeven in het gebruikersgebied.
    >
    >
-   >     Het item wordt weergegeven volgens de criteria voor werklastbalans voor het sorteren van werkitems. Voor meer informatie, zie [ de Balancer van de Werkbelasting ](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) navigeren.
+   >     Het item wordt weergegeven volgens de criteria voor werklastbalans voor het sorteren van werkitems. Voor meer informatie, zie [&#x200B; de Balancer van de Werkbelasting &#x200B;](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) navigeren.
    >
    >
-   >* Als u toeliet toon alle gebruikers in de Balancer van de Werkbelasting van een project en toewees punten aan gebruikers die niet eerder aan punten op het project werden toegewezen, worden de gebruikers toegevoegd aan het Team van het Project. Voor meer informatie, zie [ projectteam ](../../manage-work/projects/planning-a-project/manage-project-team.md) leiden.
+   >* Als u toeliet toon alle gebruikers in de Balancer van de Werkbelasting van een project en toewees punten aan gebruikers die niet eerder aan punten op het project werden toegewezen, worden de gebruikers toegevoegd aan het Team van het Project. Voor meer informatie, zie [&#x200B; projectteam &#x200B;](../../manage-work/projects/planning-a-project/manage-project-team.md) leiden.
 
 
 1. (Optioneel) Klik op de balk van een tijdelijk item onder de naam van een gebruiker in het gebied Toegewezen werk en sleep het item vervolgens over het gebied Niet toegewezen werk om de toewijzing ongedaan te maken. Het punt is unassigned van de gebruiker, maar het zou nog aan een baanrol kunnen worden toegewezen waarin het in het Unassigned gebied van het Werk toont. Als het punt aan een andere gebruiker wordt toegewezen, blijft het in het Toegewezen gebied van het Werk onder de naam van de gebruiker die nog wordt toegewezen.
-1. (Facultatief) klik het **pictogram van de Toon toewijzingen** ![ toewijzingspictogram ](assets/show-allocations-icon-small.png) tonen, dan klik het **Meer menu** ![ Meer menu ](assets/qs-more-menu.png) > **geeft toewijzingen** uit.
+1. (Facultatief) klik het **pictogram van de Toon toewijzingen** ![&#x200B; toewijzingspictogram &#x200B;](assets/show-allocations-icon-small.png) tonen, dan klik het **Meer menu** ![&#x200B; Meer menu &#x200B;](assets/qs-more-menu.png) > **geeft toewijzingen** uit.
 
    <!--
    (make sure these are still called this, and that the icon has not changed)
@@ -132,7 +132,7 @@ U kunt een item uit het gebied Niet toegewezen werk toewijzen aan een gebruiker 
 
    Dubbelklik op een dagelijkse of wekelijkse toewijzing om de hoeveelheid tijd aan te passen die de gebruiker aan het werkitem heeft toegewezen.
 
-   Voor informatie over het wijzigen van gebruikerstoewijzingen in de Balancer van de Werkbelasting, zie de &quot;wijzig gebruikerstoewijzingen&quot;sectie in artikel [ gebruikerstoewijzingen in de Balancer van de Werkbelasting ](../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md) beheren.
+   Voor informatie over het wijzigen van gebruikerstoewijzingen in de Balancer van de Werkbelasting, zie de &quot;wijzig gebruikerstoewijzingen&quot;sectie in artikel [&#x200B; gebruikerstoewijzingen in de Balancer van de Werkbelasting &#x200B;](../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md) beheren.
 
-   Voor informatie over het verwijderen van taken uit een het werkpunt gebruikend de Balancer van de Werklast, zie [ werk in de Balancer van de Werkbelasting ](../../resource-mgmt/workload-balancer/unassign-work-in-workload-balancer.md) unassign.
+   Voor informatie over het verwijderen van taken uit een het werkpunt gebruikend de Balancer van de Werklast, zie [&#x200B; werk in de Balancer van de Werkbelasting &#x200B;](../../resource-mgmt/workload-balancer/unassign-work-in-workload-balancer.md) unassign.
 

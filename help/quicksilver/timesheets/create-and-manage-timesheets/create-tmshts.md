@@ -19,9 +19,9 @@ ht-degree: 0%
 
 U kunt manueel tot een enig-gebruik timesheet leiden als u een timesheet wilt die niet terugkeert. Wanneer de einddatum van timesheet wordt bereikt en u meer timesheets nodig hebt, moet u nieuwe degenen creëren.
 
-Voor informatie over het creëren van een timesheet profiel dat terugkomende timesheets voor uw gebruikers zonder enige verdere interventie van u (geadviseerd) produceert, [ creeert, uitgeeft, en toewijst timesheet profielen ](../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).
+Voor informatie over het creëren van een timesheet profiel dat terugkomende timesheets voor uw gebruikers zonder enige verdere interventie van u (geadviseerd) produceert, [&#x200B; creeert, uitgeeft, en toewijst timesheet profielen &#x200B;](../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).
 
-Voor informatie over manueel het produceren van timesheets voor alle gebruikers in het systeem die met een timesheet profiel worden geassocieerd, zie [ manueel timesheets ](/help/quicksilver/timesheets/create-and-manage-timesheets/manually-generate-timesheets.md) produceren.
+Voor informatie over manueel het produceren van timesheets voor alle gebruikers in het systeem die met een timesheet profiel worden geassocieerd, zie [&#x200B; manueel timesheets &#x200B;](/help/quicksilver/timesheets/create-and-manage-timesheets/manually-generate-timesheets.md) produceren.
 
 >[!NOTE]
 >
@@ -31,7 +31,7 @@ Voor informatie over manueel het produceren van timesheets voor alle gebruikers 
 >  -->
 >* Wanneer het creëren van enig-gebruik timesheet, kunt u geen specifieke algemene uurtypes selecteren om in uw timesheet te omvatten. Alle typen van algemene uren die in uw systeem worden geactiveerd, worden in handmatig gemaakte tijdbladen weergegeven.
 >
->  Als u slechts bepaalde algemene uurtypes aan vertoning in uw timesheets wilt selecteren, gebruik een timesheet profiel. Voor meer informatie over timesheet profielen, zie [ creëren, uitgeven, en toewijzen timesheet profielen ](../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).
+>  Als u slechts bepaalde algemene uurtypes aan vertoning in uw timesheets wilt selecteren, gebruik een timesheet profiel. Voor meer informatie over timesheet profielen, zie [&#x200B; creëren, uitgeven, en toewijzen timesheet profielen &#x200B;](../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).
 >
 
 ## Toegangsvereisten
@@ -59,7 +59,7 @@ Voor informatie over manueel het produceren van timesheets voor alle gebruikers 
  </tbody> 
 </table>
 
-Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -69,7 +69,7 @@ Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront
 
 Het **Al** filter wordt geselecteerd door gebrek. Alle tijdbladen die u kunt bekijken, worden dan weergegeven.
 
-![ lijst van Tijdopnemers met één geselecteerd timesheet ](assets/timesheet-list-one-timesheet-selected-nwe-350x70.png)
+![&#x200B; lijst van Tijdopnemers met één geselecteerd timesheet &#x200B;](assets/timesheet-list-one-timesheet-selected-nwe-350x70.png)
 
 1. (Optioneel) Voer een van de volgende handelingen uit om het filter in de lijst met tijdbladen bij te werken:
 
@@ -81,25 +81,25 @@ Het **Al** filter wordt geselecteerd door gebrek. Alle tijdbladen die u kunt bek
 
      Dit past Mijn Goedkeuringen Timesheet of de Mijn filters Timesheet op de lijst van timesheets toe.
 
-     ![ Mijn timesheets filterknopen op de de lijstpagina van Tijdopnemers ](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
+     ![&#x200B; Mijn timesheets filterknopen op de de lijstpagina van Tijdopnemers &#x200B;](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
 
-   * Klik het **pictogram van de Filter** pictogram ![ van de Filter ](assets/filter-nwepng.png) om een verschillende filter toe te passen, of nieuwe tot stand te brengen. Voor informatie over het creëren van of het bijwerken van filters, zie [ filters in Adobe Workfront ](../../reports-and-dashboards/reports/reporting-elements/create-filters.md) creëren of uitgeven.
+   * Klik het **pictogram van de Filter** pictogram ![&#x200B; van de Filter &#x200B;](assets/filter-nwepng.png) om een verschillende filter toe te passen, of nieuwe tot stand te brengen. Voor informatie over het creëren van of het bijwerken van filters, zie [&#x200B; filters in Adobe Workfront &#x200B;](../../reports-and-dashboards/reports/reporting-elements/create-filters.md) creëren of uitgeven.
 
    >[!NOTE]
    >
    >De Mijn Goedkeuringen Timesheet en Mijn opties Timesheets tonen niet bij de bovenkant van timesheet lijst of in de lijst van filters als uw beheerder van Workfront of een groepsbeheerder de Mijn Goedkeuringen Timesheet en de Mijn filters van Timesheets van of de Controles van de Lijst in het gebied van de Opstelling of van uw Malplaatje van de Lay-out verwijderde. Zie de volgende artikelen voor meer informatie:
    > 
-   >   * [ pas Filters, Weergaven, en Groepen aan gebruikend een lay-outmalplaatje ](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
+   >   * [&#x200B; pas Filters, Weergaven, en Groepen aan gebruikend een lay-outmalplaatje &#x200B;](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
 
 
-1. (Facultatief) klik het **pictogram van het Onderzoek** pictogram van het Onderzoek ![ om een sleutelwoord te typen en naar specifieke timesheet te zoeken. ](assets/search-icon.png) U kunt bijvoorbeeld zoeken naar een tijdlijntijdframe met de naam van de eigenaar.
+1. (Facultatief) klik het **pictogram van het Onderzoek** pictogram van het Onderzoek ![&#x200B; om een sleutelwoord te typen en naar specifieke timesheet te zoeken. &#x200B;](assets/search-icon.png) U kunt bijvoorbeeld zoeken naar een tijdlijntijdframe met de naam van de eigenaar.
 
-1. (Facultatief) klik de **pictogrammen van de Mening** ![ Mening ](assets/view-icon.png) of **Groepering** ![ het pictogram van de Groepering ](assets/grouping.png) om een verschillende mening of groepering toe te passen of nieuwe te creëren.
+1. (Facultatief) klik de **pictogrammen van de Mening** ![&#x200B; Mening &#x200B;](assets/view-icon.png) of **Groepering** ![&#x200B; het pictogram van de Groepering &#x200B;](assets/grouping.png) om een verschillende mening of groepering toe te passen of nieuwe te creëren.
 
    Zie de volgende artikelen voor informatie over het maken van filters, weergaven of groepen:
 
-   * [ creeer of geef filters in Adobe Workfront uit ](../../reports-and-dashboards/reports/reporting-elements/create-filters.md)
-   * [ creeer of geef meningen in Adobe Workfront uit ](../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md)
+   * [&#x200B; creeer of geef filters in Adobe Workfront uit &#x200B;](../../reports-and-dashboards/reports/reporting-elements/create-filters.md)
+   * [&#x200B; creeer of geef meningen in Adobe Workfront uit &#x200B;](../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md)
    * [Groepen maken in Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-groupings.md)
 
 1. Klik **Nieuwe Chronologie** bij de bovenkant van de lijst van timesheets.
@@ -174,4 +174,4 @@ Een taak of een kwestie die aan een gebruiker wordt toegewezen verschijnt automa
 * De taak of kwestie wordt vastgezet aan timesheet
 * De geplande datum van voltooiing valt binnen het datumbereik van het tijdschema en de status is bezig
 
-Als **pre-bevolkt timesheets met ...** voorkeur (die in de voorkeur van Timesheets &amp; van het Uur wordt gevestigd) wordt geschrapt, toont timesheet kwesties en taken die een status van Bezig hebben. Voor meer informatie over de Voorkeur van Timesheets &amp; van het Uur, zie [ timesheet en uurvoorkeur ](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md) vormen.
+Als **pre-bevolkt timesheets met ...** voorkeur (die in de voorkeur van Timesheets &amp; van het Uur wordt gevestigd) wordt geschrapt, toont timesheet kwesties en taken die een status van Bezig hebben. Voor meer informatie over de Voorkeur van Timesheets &amp; van het Uur, zie [&#x200B; timesheet en uurvoorkeur &#x200B;](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md) vormen.

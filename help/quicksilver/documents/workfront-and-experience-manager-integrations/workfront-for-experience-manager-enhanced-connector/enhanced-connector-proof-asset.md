@@ -52,7 +52,7 @@ Nadat u middelen van Experience Manager Assets hebt verbonden, kunt u een proef 
 </table>
 
 
-Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -104,7 +104,7 @@ Zodra u een bewijs hebt gecreeerd, kunt u dingen als doen
 * Revisoren en deadlines bijwerken
 * De workflow bewerken
 
-Voor meer informatie over hoe te om een bestaand bewijs te beheren, zie [ proef binnen Adobe Workfront ](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proofs-in-wf.md) beheren.
+Voor meer informatie over hoe te om een bestaand bewijs te beheren, zie [&#x200B; proef binnen Adobe Workfront &#x200B;](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proofs-in-wf.md) beheren.
 
 ## Een proefafdruk controleren
 
@@ -115,4 +115,4 @@ Toegewezen revisoren kunnen dingen doen zoals
 * Versies vergelijken
 * Het bewijs goedkeuren of afwijzen
 
-Voor meer informatie over wat u met het het proef hulpmiddel kunt doen, zie [ proefdrukken van het Overzicht binnen Adobe Workfront ](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md).
+Voor meer informatie over wat u met het het proef hulpmiddel kunt doen, zie [&#x200B; proefdrukken van het Overzicht binnen Adobe Workfront &#x200B;](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md).

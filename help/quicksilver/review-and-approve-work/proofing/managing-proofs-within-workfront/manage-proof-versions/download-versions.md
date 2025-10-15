@@ -47,16 +47,16 @@ U kunt één versie of alle versies van een proefdruk downloaden.
  </tbody> 
 </table>
 
-Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Eén proefdrukversie downloaden
 
 1. Klik in de documentlijst op de proefdruk.
-1. In de Samenvatting, onder **Versies**, klik het Meer menu ![ Meer pictogram ](assets/more-icon.png) rechts van de versie, dan klik **Download** in de drop-down lijst die verschijnt.
+1. In de Samenvatting, onder **Versies**, klik het Meer menu ![&#x200B; Meer pictogram &#x200B;](assets/more-icon.png) rechts van de versie, dan klik **Download** in de drop-down lijst die verschijnt.
 
-   ![ Download een versie ](assets/more-versions-350x143.png)
+   ![&#x200B; Download een versie &#x200B;](assets/more-versions-350x143.png)
 
 ## Alle versies van een proefdruk downloaden
 

@@ -44,7 +44,7 @@ Zoek het werk dat in [!DNL Adobe Workfront] aan u is toegewezen zonder de volgen
  </tbody> 
 </table>
 
-Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -122,4 +122,4 @@ Gebruik de balk [!UICONTROL Search] om projecten, taken, problemen en documenten
 
 Met het pictogram [!UICONTROL Menu] kunt u naar bovenliggende items in een project navigeren.
 
-![ Terugkeer aan de Lijst van het Werk ](assets/go-back-to-work-list-350x314.png)
+![&#x200B; Terugkeer aan de Lijst van het Werk &#x200B;](assets/go-back-to-work-list-350x314.png)

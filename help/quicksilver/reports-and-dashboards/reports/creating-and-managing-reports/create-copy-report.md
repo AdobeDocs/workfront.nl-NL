@@ -50,7 +50,7 @@ U kunt een kopie maken van elk rapport waartoe u toegang hebt. U kunt of een nau
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -58,7 +58,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 Als u een exemplaar van een douanerapport wilt maken, doe het volgende:
 
-1. Klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, of (als beschikbaar), klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon-left-nav.png) in de upper-left hoek, dan klik **[!UICONTROL Reports]**.
+1. Klik het **[!UICONTROL Main Menu]** pictogram ![&#x200B; Belangrijkste Menu &#x200B;](/help/_includes/assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, of (als beschikbaar), klik het **[!UICONTROL Main Menu]** pictogram ![&#x200B; Belangrijkste Menu &#x200B;](/help/_includes/assets/main-menu-icon-left-nav.png) in de upper-left hoek, dan klik **[!UICONTROL Reports]**.
 
 1. Klik **Alle Rapporten**, dan open een rapport.
 
@@ -67,9 +67,9 @@ Als u een exemplaar van een douanerapport wilt maken, doe het volgende:
    >[!TIP]
    >
    >Als het rapport een standaardrapport is, verschijnt de optie van het Exemplaar niet in het menu van de Acties van het Rapport.\
-   >Voor informatie over hoe te om een exemplaar van een standaardrapport tot stand te brengen, zie [ een nieuwe versie van een rapport ](#create-a-new-version-of-a-report) creëren.
+   >Voor informatie over hoe te om een exemplaar van een standaardrapport tot stand te brengen, zie [&#x200B; een nieuwe versie van een rapport &#x200B;](#create-a-new-version-of-a-report) creëren.
 
-   ![ het rapport van het Exemplaar ](assets/unshimmed-report-actions-copy.png)
+   ![&#x200B; het rapport van het Exemplaar &#x200B;](assets/unshimmed-report-actions-copy.png)
 
    Een exemplaar van het originele rapport wordt gecreeerd met de standaardnaam van _[Naam van het originele rapport ] (Exemplaar)_. Bijvoorbeeld, zou een exemplaar van het rapport &quot;Q4 Voltooide Taken&quot;worden genoemd &quot;Q4 Voltooide Taken (Exemplaar)&quot;.
 
@@ -80,7 +80,7 @@ Als u een exemplaar van een douanerapport wilt maken, doe het volgende:
    >[!NOTE]
    >
    >De delende informatie brengt niet naar het gekopieerde rapport over van de originele versie.\
-   >Voor informatie over hoe te zien wie het vorige rapport met werd gedeeld, zie [ een rapport over het melden van activiteiten ](../../../reports-and-dashboards/reports/report-usage/create-report-reporting-activities.md#identify) creëren.
+   >Voor informatie over hoe te zien wie het vorige rapport met werd gedeeld, zie [&#x200B; een rapport over het melden van activiteiten &#x200B;](../../../reports-and-dashboards/reports/report-usage/create-report-reporting-activities.md#identify) creëren.
 
 1. (Optioneel) Als u beheermachtigingen hebt voor het oorspronkelijke rapport en het oorspronkelijke rapport niet meer nodig is, kunt u het verwijderen om overbodige dubbele rapporten in Workfront te verwijderen.
 
@@ -96,26 +96,26 @@ Als u een exemplaar van een douanerapport wilt maken, doe het volgende:
 
 Als u een exemplaar van een ingebouwd rapport wilt tot stand brengen, doe het volgende:
 
-1. Klik het **pictogram van het 1} pictogram van het Belangrijkste Menu** ![ in de hoger-juiste hoek van Adobe Workfront.](assets/main-menu-icon.png)
+1. Klik het **pictogram van het 1&rbrace; pictogram van het Belangrijkste Menu** ![&#x200B; in de hoger-juiste hoek van Adobe Workfront.](assets/main-menu-icon.png)
 
 1. Klik **Rapporten**, dan **Alle Rapporten**.
 1. Klik op de naam van een ingebouwd rapport om het te openen.
 1. Klik **de Acties van het Rapport**, dan **uitgeven**.
 
-   ![ geef rapport ](assets/unshimmed-report-actions-default-report.png) uit
+   ![&#x200B; geef rapport &#x200B;](assets/unshimmed-report-actions-default-report.png) uit
 
 1. Breng om het even welke wijzigingen aan u in de volgende lusjes van het rapport moet aanbrengen:
 
-   * **Kolommen (Mening)**: Voor meer informatie over het aanpassen van meningen, zie het artikel [ Overzicht van Meningen in Adobe Workfront ](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
-   * **Groepen**: Voor meer informatie over het aanpassen van groeperingen, zie het artikel [ Overzicht van Groepen in Adobe Workfront ](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
-   * **Filters**: Voor meer informatie over het aanpassen van filters, zie het overzicht van artikel [ Filters ](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
-   * **Grafiek**: Voor meer informatie over het aanpassen van een rapportgrafiek, zie het artikel [ een grafiek aan een rapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md) toevoegen.
+   * **Kolommen (Mening)**: Voor meer informatie over het aanpassen van meningen, zie het artikel [&#x200B; Overzicht van Meningen in Adobe Workfront &#x200B;](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+   * **Groepen**: Voor meer informatie over het aanpassen van groeperingen, zie het artikel [&#x200B; Overzicht van Groepen in Adobe Workfront &#x200B;](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
+   * **Filters**: Voor meer informatie over het aanpassen van filters, zie het overzicht van artikel [&#x200B; Filters &#x200B;](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+   * **Grafiek**: Voor meer informatie over het aanpassen van een rapportgrafiek, zie het artikel [&#x200B; een grafiek aan een rapport &#x200B;](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md) toevoegen.
 
 1. In de hoger-juiste hoek, klik **Montages van het Rapport**.
-1. Op het **gebied van de Titel van het 0} Rapport, geef het rapport een nieuwe naam.**
+1. Op het **gebied van de Titel van het 0&rbrace; Rapport, geef het rapport een nieuwe naam.**
 1. Klik **Gedaan**.
 1. Klik **sparen als Nieuw Rapport**.
 
-   ![ sparen als nieuw rapport ](assets/unshimmed-save-as-new-report.png)
+   ![&#x200B; sparen als nieuw rapport &#x200B;](assets/unshimmed-save-as-new-report.png)
 
 1. (Facultatief) om de nieuwe versie van het rapport met andere gebruikers te delen, klik **Acties van het Rapport**, toen **het Delen**.

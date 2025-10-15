@@ -25,7 +25,7 @@ ht-degree: 0%
 >
 >Adobe Workfront Goals kan niet meer worden aangeschaft.
 >
->Voor extra informatie over toegang tot de Doelen van Workfront, zie [ Vereisten om de Doelen van Workfront ](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md) te gebruiken.
+>Voor extra informatie over toegang tot de Doelen van Workfront, zie [&#x200B; Vereisten om de Doelen van Workfront &#x200B;](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md) te gebruiken.
 
 <!--Old:
 
@@ -48,6 +48,6 @@ ht-degree: 0%
 
 Meer informatie over doelgerelateerde meldingen en hoe u een doel kunt delen in Adobe Workfront Goals vindt u in de volgende artikelen:
 
-* [ laat de berichten van de Doelen van Adobe Workfront ](../../workfront-goals/workfront-goals-settings/wf-goals-notifications.md) toe
+* [&#x200B; laat de berichten van de Doelen van Adobe Workfront &#x200B;](../../workfront-goals/workfront-goals-settings/wf-goals-notifications.md) toe
 * [Een doel delen in Workfront-doelen](../../workfront-goals/workfront-goals-settings/share-a-goal.md)
 * [Terminologie voor Adobe Workfront-doelen aanpassen](../workfront-goals-settings/customize-wf-goals-terminology.md)

@@ -45,7 +45,7 @@ U kunt een prioriteit voor een kwestie bepalen om te wijzen op hoe belangrijk de
  </tbody> 
 </table>
 
-Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -58,7 +58,7 @@ Adobe Workfront-beheerders kunnen prioriteitslabels in Workfront wijzigen of ze 
 U zou vertrouwd met de nummeringsopeenvolging voor prioriteiten moeten worden die in uw organisatie worden gebruikt.\
 Bijvoorbeeld, zou uw organisatie aantal 1 kunnen gebruiken om naar urgente taken te verwijzen, als het etiket van de prioriteit is gewijzigd.
 
-Voor meer informatie over het aanpassen van de namen van prioriteiten in uw instantie, zie [ prioriteiten ](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md) creëren en aanpassen.
+Voor meer informatie over het aanpassen van de namen van prioriteiten in uw instantie, zie [&#x200B; prioriteiten &#x200B;](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md) creëren en aanpassen.
 
 Verwijs naar de volgende lijst om elk standaard prioritaire etiket en zijn overeenkomstige aantal te begrijpen:
 
@@ -104,7 +104,7 @@ Verwijs naar de volgende lijst om elk standaard prioritaire etiket en zijn overe
 
 1. Klik het **Prioritaire** gebied op het **Basisinformatie** gebied.
 
-   ![ Prioriteit van de Uitgave ](assets/issue-priority-field.png)
+   ![&#x200B; Prioriteit van de Uitgave &#x200B;](assets/issue-priority-field.png)
 
 1. Selecteer een waarde voor het **Prioritaire** gebied.
 

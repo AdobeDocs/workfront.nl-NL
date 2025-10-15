@@ -51,7 +51,7 @@ U kunt de fasen en revisiegegevens bewerken in een proefdruk als u de eigenaar o
  </tbody> 
 </table>
 
-Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -63,7 +63,7 @@ Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront
 
    In standalone Workfront Proof, klik **Meer** (drie punt) menu rechts van de proef, dan klik **de proefdetails van de Mening**.
 
-1. Maak om het even welke volgende veranderingen in de **1} sectie van het Werkschema {:**
+1. Maak om het even welke volgende veranderingen in de **1&rbrace; sectie van het Werkschema &lbrace;:**
 
    <table style="table-layout:auto"> 
     <col> 
@@ -99,7 +99,7 @@ Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront
 ## Details revisor bewerken
 
 1. In Workfront, houd de aanwijzer boven de proefdruk en klik vervolgens op **Proefdetails** om de pagina Proofing Details te openen.
-1. In de **sectie van het Werkschema**, klik **Meer** menu ![ Meer menu ](assets/more-button-small.png) aan het recht van de naam van de recensent, dan klik **uitgeven** in het drop-down menu dat verschijnt.
+1. In de **sectie van het Werkschema**, klik **Meer** menu ![&#x200B; Meer menu &#x200B;](assets/more-button-small.png) aan het recht van de naam van de recensent, dan klik **uitgeven** in het drop-down menu dat verschijnt.
 
 1. In **geef recensent** doos uit die verschijnt, geef om het even welke volgende details uit:
 

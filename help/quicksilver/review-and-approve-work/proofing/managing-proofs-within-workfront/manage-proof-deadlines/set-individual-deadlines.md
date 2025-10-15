@@ -52,7 +52,7 @@ U kunt verschillende termijnen voor verschillende recensenten op een bewijs plaa
  </tbody> 
 </table>
 
-Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -61,7 +61,7 @@ Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront
 1. Beweeg over de proef, dan klik **het Proofing werkschema** om de pagina van het Werkschema te openen.
 1. In de hoger-juiste hoek, klik **Nieuw stadium**
 
-   ![ New_Stage_button.png ](assets/new-stage-button.png)
+   ![&#x200B; New_Stage_button.png &#x200B;](assets/new-stage-button.png)
 
    >[!NOTE]
    >

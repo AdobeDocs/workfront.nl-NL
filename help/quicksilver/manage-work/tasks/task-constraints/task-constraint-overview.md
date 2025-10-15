@@ -119,11 +119,11 @@ Workfront gebruikt twee variabelen om te beslissen welke Restrictie van de Taak 
 
 * Het **Programma van het Project van** gebied op het project.
 
-  Voor informatie over het Programma van het Project van gebied, zie [ projecten ](../../../manage-work/projects/manage-projects/edit-projects.md) uitgeven.
+  Voor informatie over het Programma van het Project van gebied, zie [&#x200B; projecten &#x200B;](../../../manage-work/projects/manage-projects/edit-projects.md) uitgeven.
 
-* De **voorkeur van de Datum van het 0} Begin {die door uw Workfront of groepsbeheerder in het** wordt gevormd Taken &amp; van Kwesties **gebied van** Opstelling **.**
+* De **voorkeur van de Datum van het 0&rbrace; Begin &lbrace;die door uw Workfront of groepsbeheerder in het** wordt gevormd Taken &amp; van Kwesties **gebied van** Opstelling **.**
 
-  Voor informatie over de Voorkeur van Taken &amp; van Kwesties, zie de [ Nieuwe sectie van de Taak Standaardwaarden ](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md#new-task-defaults) in [ de taak van het hele systeem vormen en voorkeur van de uitgave ](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+  Voor informatie over de Voorkeur van Taken &amp; van Kwesties, zie de [&#x200B; Nieuwe sectie van de Taak Standaardwaarden &#x200B;](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md#new-task-defaults) in [&#x200B; de taak van het hele systeem vormen en voorkeur van de uitgave &#x200B;](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
 De volgende lijst toont de standaardBeperking van de Taak wanneer het kiezen van verschillende variabelen voor uw project en uw nieuwe taken:
 

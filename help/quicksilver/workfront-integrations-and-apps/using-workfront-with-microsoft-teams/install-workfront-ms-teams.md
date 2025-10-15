@@ -19,7 +19,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Als [ Microsoft overgangen aan de Nieuwe cliënt van Teams ](https://learn.microsoft.com/en-us/microsoftteams/teams-classic-client-end-of-availability), zal de Klassieke cliënt van Teams niet meer beschikbaar na 1 Juli, 2025 zijn. Als u Microsoft Teams en geïntegreerde toepassingen zoals Workfront wilt blijven gebruiken, moeten klanten vóór deze datum overstappen naar de New Teams-client.
+>Als [&#x200B; Microsoft overgangen aan de Nieuwe cliënt van Teams &#x200B;](https://learn.microsoft.com/en-us/microsoftteams/teams-classic-client-end-of-availability), zal de Klassieke cliënt van Teams niet meer beschikbaar na 1 Juli, 2025 zijn. Als u Microsoft Teams en geïntegreerde toepassingen zoals Workfront wilt blijven gebruiken, moeten klanten vóór deze datum overstappen naar de New Teams-client.
 >
 >De bijgewerkte Workfront-integratie is nu beschikbaar en volledig compatibel met de New Teams-ervaring. In de meeste gevallen wordt Workfront automatisch weergegeven wanneer gebruikers een overgang hebben gemaakt. Als dit niet het geval is, kan de integratie handmatig worden geïnstalleerd vanaf de Microsoft Teams App Store.
 
@@ -53,7 +53,7 @@ Met de app [!DNL Adobe Workfront for Microsoft Teams] kunt u basishandelingen ui
  </tbody> 
 </table>
 
-Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -76,16 +76,16 @@ Als teameigenaar in [!DNL Microsoft Teams] kunt u de [!DNL Workfront for Microso
 1. Klik **toevoegen** in de dialoog die opent.
 1. In Uitgezocht een kanaalsectie, selecteer het team u Workfront app aan wilt toevoegen, en **Go** klikken.
 
-   ![ selecteer een team ](assets/select-a-team.png)
+   ![&#x200B; selecteer een team &#x200B;](assets/select-a-team.png)
 1. Klik **Login** aan Workfront om tot Workfront voor Microsoft Teams toegang te hebben.
 
-   Voor informatie over het programma openen aan [!DNL Workfront], zie het [ Login aan Workfront van de sectie van Microsoft Teams ](#log-in-to-workfront-from-microsoft-teams) in dit artikel.
+   Voor informatie over het programma openen aan [!DNL Workfront], zie het [&#x200B; Login aan Workfront van de sectie van Microsoft Teams &#x200B;](#log-in-to-workfront-from-microsoft-teams) in dit artikel.
 
 ### [!DNL Workfront for Microsoft Teams] installeren vanuit een privébestand
 
 Als uw organisatie de toegang tot het downloaden van apps vanuit de [!DNL Microsoft] Store beperkt, moet u contact opnemen met ons ondersteuningsteam en een privébestand van de [!DNL Workfront for Microsoft Teams] -app aanvragen om de app te installeren.
 
-Voor informatie over het contacteren van ons Team van de Steun, zie [ de Steun van de Klant van het Contact ](../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).
+Voor informatie over het contacteren van ons Team van de Steun, zie [&#x200B; de Steun van de Klant van het Contact &#x200B;](../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).
 
 [!DNL Workfront for Microsoft Teams] installeren vanuit een privébestand:
 
@@ -104,9 +104,9 @@ Als teameigenaar van [!DNL Microsoft Teams] moet u de [!DNL Workfront for Micros
 
 Wanneer u bent aangemeld bij [!DNL Workfront] vanuit [!DNL Microsoft Teams] , kunt u [!DNL Workfront] -meldingen ontvangen in het [!DNL Workfront] beide kanaal of u kunt bepaalde handelingen uitvoeren in [!DNL Workfront] vanuit [!DNL Microsoft Teams] .
 
-Voor informatie over het installeren van [!DNL Workfront] app, zie [ installeer  [!DNL Workfront for Microsoft Teams]](#install-workfront-for-microsoft-teams) sectie in dit artikel.
+Voor informatie over het installeren van [!DNL Workfront] app, zie [&#x200B; installeer  [!DNL Workfront for Microsoft Teams]](#install-workfront-for-microsoft-teams) sectie in dit artikel.
 
-Voor informatie over de toegang tot van [!DNL Workfront] van [!DNL Microsoft Teams] om bepaalde acties uit te voeren, zie [ Toegang  [!DNL Adobe Workfront]  van  [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/access-workfront-from-ms-teams.md).
+Voor informatie over de toegang tot van [!DNL Workfront] van [!DNL Microsoft Teams] om bepaalde acties uit te voeren, zie [&#x200B; Toegang  [!DNL Adobe Workfront]  van  [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/access-workfront-from-ms-teams.md).
 
 Als u zich wilt aanmelden bij [!DNL Workfront] vanaf [!DNL Microsoft Teams] :
 

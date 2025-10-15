@@ -26,7 +26,7 @@ De informatie in dit verslag is ook te vinden in het gebied Mensen van het proje
 >
 >Als geen baanrollen voor de gebruikers maar u weten dat zij met baanrollen in hun gebruikersprofielen worden geassocieerd, zou dit kunnen betekenen zij aan taken en kwesties worden toegewezen maar zij zouden niet met een baanrol op de taak of de kwestie kunnen worden geassocieerd, of de gebruikers die in het rapport worden vermeld zijn niet de toegewezen taken en kwesties, maar vervullen andere rollen op het project (bijvoorbeeld, Eigenaar of Sponsor.)
 
-![ project_with_user_and_role_information_report.png ](assets/project-with-user-and-role-information-report-350x100.png)
+![&#x200B; project_with_user_and_role_information_report.png &#x200B;](assets/project-with-user-and-role-information-report-350x100.png)
 
 ## Toegangsvereisten
 
@@ -57,7 +57,7 @@ De informatie in dit verslag is ook te vinden in het gebied Mensen van het proje
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 
 +++

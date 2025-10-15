@@ -19,9 +19,9 @@ U kunt een nieuwe versie toevoegen van een document dat u eerder naar Adobe Work
 
 Als de bestandsnaam van de nieuwe versie afwijkt van de bestandsnaam van de vorige versie, geeft Workfront het document weer met de nieuwere bestandsnaam.
 
-Als het document een proef bevat en u een nieuwe versie van het beschermde document wilt tot stand brengen, zie de sectie [ een document uploaden en tot een nieuwe versie van een proef ](../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-for-a-document.md#uploading-a-document-and-creating-a-new-version-of-a-proof) in het artikel [ leiden tot een proef voor een document ](../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-for-a-document.md).
+Als het document een proef bevat en u een nieuwe versie van het beschermde document wilt tot stand brengen, zie de sectie [&#x200B; een document uploaden en tot een nieuwe versie van een proef &#x200B;](../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-for-a-document.md#uploading-a-document-and-creating-a-new-version-of-a-proof) in het artikel [&#x200B; leiden tot een proef voor een document &#x200B;](../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-for-a-document.md).
 
-Voor informatie over het toevoegen van een nieuwe versie van een document verbonden aan Workfront van een externe toepassing, zie [ een nieuwe versie van een verbonden document ](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md#add) in [ de documenten van de Verbinding van externe toepassingen ](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md) toevoegen.
+Voor informatie over het toevoegen van een nieuwe versie van een document verbonden aan Workfront van een externe toepassing, zie [&#x200B; een nieuwe versie van een verbonden document &#x200B;](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md#add) in [&#x200B; de documenten van de Verbinding van externe toepassingen &#x200B;](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md) toevoegen.
 
 ## Toegangsvereisten
 
@@ -54,7 +54,7 @@ Voor informatie over het toevoegen van een nieuwe versie van een document verbon
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 +++
 
 ## Slepen en neerzetten gebruiken om een nieuwe versie toe te voegen
@@ -66,19 +66,19 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 1. Ga naar het gebied Documenten waar het document is geüpload.
 1. Sleep de nieuwe versie van het document vanaf het bureaublad of een aparte tab voor de browser boven op de bestaande versie in Workfront.
 
-   ![ belemmering en laat vallen documentversie ](assets/drag-drop-doc-qs-350x145.png)
+   ![&#x200B; belemmering en laat vallen documentversie &#x200B;](assets/drag-drop-doc-qs-350x145.png)
 
    Terwijl u de nieuwe versie sleept, kunt u de muis boven een map met Workfront-documenten houden om deze te openen. Vervolgens kunt u omhoog en omlaag schuiven door de bestanden naar de boven- of onderkant van het scherm te slepen.
 
 1. Daling de nieuwe versie bovenop het bestaande dossier op de **Documenten** tabel.
 
-   Voor informatie over het beheren van documentversies, zie [ documentversies beheren ](../../documents/managing-documents/manage-document-versions.md).
+   Voor informatie over het beheren van documentversies, zie [&#x200B; documentversies beheren &#x200B;](../../documents/managing-documents/manage-document-versions.md).
 
 ## Voeg een nieuwe versie toe via het menu Meer
 
 1. Selecteer het document waaraan u een nieuwe versie wilt toevoegen.
 1. Klik **toevoegen Nieuw** > **Versie**.
 
-   ![ voeg nieuwe versie ](assets/add-new-version-350x185.png) toe
+   ![&#x200B; voeg nieuwe versie &#x200B;](assets/add-new-version-350x185.png) toe
 
 1. Selecteer het type document dat u wilt uploaden en volg de aanwijzingen.

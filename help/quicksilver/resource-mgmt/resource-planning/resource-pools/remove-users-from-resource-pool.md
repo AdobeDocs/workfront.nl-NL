@@ -19,7 +19,7 @@ Hoewel er geen grens aan hoeveel gebruikers u in een middelpool kunt hebben, too
 
 Wij adviseren dat u gebruikers verwijdert die zijn gedeactiveerd of verplaatste rollen of afdelingen, om ervoor te zorgen u altijd een nauwkeurige lijst van gebruikers in alle middelgroepen hebt.
 
-Voor meer informatie over middelpools, zie [ overzicht van de pools van het Middel ](../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md).
+Voor meer informatie over middelpools, zie [&#x200B; overzicht van de pools van het Middel &#x200B;](../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md).
 
 ## Toegangsvereisten
 
@@ -45,7 +45,7 @@ Voor meer informatie over middelpools, zie [ overzicht van de pools van het Midd
  </tbody> 
 </table>
 
-Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -66,7 +66,7 @@ of\
    of\
    Begin de naam van een bedrijf, baanrol, team, of groep te typen, als u alle gebruikers verbonden aan die entiteiten wilt verwijderen.
 
-   ![ verwijdert gebruikers uit de Pool van het Middel ](assets/remove-users-from-resource-pool.png)
+   ![&#x200B; verwijdert gebruikers uit de Pool van het Middel &#x200B;](assets/remove-users-from-resource-pool.png)
 
 1. Klik op het X-pictogram op gebruikersniveau om een gebruiker uit de bronnenpool te verwijderen. Ze worden verwijderd uit alle lijsten waarin ze voorkomen.
    <!--Or  

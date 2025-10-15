@@ -68,7 +68,7 @@ U kunt doelstellingen in de Doelen van Adobe Workfront kopiëren om een doel tot
 </tbody>
 </table>
 
-Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -129,7 +129,7 @@ Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Work
 
 ## Overwegingen bij het kopiëren van doelstellingen
 
-U moet toegang tot Edit Doelstellingen in uw toegangsniveau hebben alvorens u doelstellingen kunt kopiëren. Voor informatie over het verlenen van toegang tot Doelen, zie [ Toegang verlenen tot de Doelen van Adobe Workfront ](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md).
+U moet toegang tot Edit Doelstellingen in uw toegangsniveau hebben alvorens u doelstellingen kunt kopiëren. Voor informatie over het verlenen van toegang tot Doelen, zie [&#x200B; Toegang verlenen tot de Doelen van Adobe Workfront &#x200B;](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md).
 
 Een aantal redenen waarom u een bestaand doel wilt kopiëren zijn:
 
@@ -139,7 +139,7 @@ Een aantal redenen waarom u een bestaand doel wilt kopiëren zijn:
 
 >[!TIP]
 >
->U kunt een doel in om het even welke status kopiëren. Voor informatie over doelstatussen, zie [ overzicht van de Goal status in de Doelen van Adobe Workfront ](../../workfront-goals/goal-management/goal-status-overview.md).
+>U kunt een doel in om het even welke status kopiëren. Voor informatie over doelstatussen, zie [&#x200B; overzicht van de Goal status in de Doelen van Adobe Workfront &#x200B;](../../workfront-goals/goal-management/goal-status-overview.md).
 
 Houd rekening met het volgende wanneer u doelstellingen kopieert:
 
@@ -225,9 +225,9 @@ To copy goals in the Production environment:
 -->
 
 
-1. Ga naar een doel en klik **Meer** menu ![ Meer pictogram ](assets/more-icon.png), dan klik **Goal van het Exemplaar**.
+1. Ga naar een doel en klik **Meer** menu ![&#x200B; Meer pictogram &#x200B;](assets/more-icon.png), dan klik **Goal van het Exemplaar**.
 
-   ![ het doelvakje van het Exemplaar ](assets/copy-goal-box-unshimmed.png)
+   ![&#x200B; het doelvakje van het Exemplaar &#x200B;](assets/copy-goal-box-unshimmed.png)
 
 1. Werk de volgende informatie voor het gekopieerde doel bij:
    * **naam van het Doel**: De naam van het nieuwe doel. De standaardnaam voor het gekopieerde doel is &quot;Kopie van &lt;origineel doel>&quot;.
@@ -235,7 +235,7 @@ To copy goals in the Production environment:
 
      of
 
-     Selecteer **douanedata** toelaten om douanedata voor het 2} Begin van het doel **en** Eind data **te specificeren.** De instelling Aangepaste datums inschakelen is standaard uitgeschakeld.
+     Selecteer **douanedata** toelaten om douanedata voor het 2&rbrace; Begin van het doel **en** Eind data **te specificeren.** De instelling Aangepaste datums inschakelen is standaard uitgeschakeld.
 
      >[!TIP]
      >
@@ -258,9 +258,9 @@ To copy goals in the Production environment:
    >
    >Als u de resultaten van het oorspronkelijke doel niet hebt gekopieerd, moet u het nieuwe doel eerst aan een voortgangsindicator koppelen voordat u het kunt activeren en beginnen te werken om het te bereiken.
    >Zie de volgende artikelen voor informatie over het koppelen van doelen aan voortgangsindicatoren:
-   >* [ voeg resultaten aan doelstellingen in de Doelen van Adobe Workfront toe ](../results-and-activities/add-results-to-goals.md)
-   >* [ voeg activiteiten aan doelstellingen in de Doelen van Adobe Workfront toe ](../results-and-activities/add-activities-to-goals.md)
-   >* [ richt doelstellingen door hen in de Doelen van Adobe Workfront te verbinden ](../goal-alignment/align-goals-by-connecting-them.md)
+   >* [&#x200B; voeg resultaten aan doelstellingen in de Doelen van Adobe Workfront toe &#x200B;](../results-and-activities/add-results-to-goals.md)
+   >* [&#x200B; voeg activiteiten aan doelstellingen in de Doelen van Adobe Workfront toe &#x200B;](../results-and-activities/add-activities-to-goals.md)
+   >* [&#x200B; richt doelstellingen door hen in de Doelen van Adobe Workfront te verbinden &#x200B;](../goal-alignment/align-goals-by-connecting-them.md)
    >
-   >Voor informatie over het activeren van doelstellingen, zie [ doelstellingen ](../goal-management/activate-goals.md) activeren.
+   >Voor informatie over het activeren van doelstellingen, zie [&#x200B; doelstellingen &#x200B;](../goal-management/activate-goals.md) activeren.
 

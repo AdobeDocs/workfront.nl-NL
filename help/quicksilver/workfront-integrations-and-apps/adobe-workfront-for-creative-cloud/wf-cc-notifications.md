@@ -50,7 +50,7 @@ Meldingen zijn beschikbaar in de volgende Adobe Creative Cloud-apps:
  </tbody> 
 </table>
 
-Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -58,11 +58,11 @@ Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront
 
 {{cc-install-prereq}}
 
-* U hebt expresmeldingen ingeschakeld in [!DNL Workfront] . Voor informatie bij het toelaten van onmiddellijke berichten, zie [ uw eigen e-mailberichten wijzigen ](/help/quicksilver/workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+* U hebt expresmeldingen ingeschakeld in [!DNL Workfront] . Voor informatie bij het toelaten van onmiddellijke berichten, zie [&#x200B; uw eigen e-mailberichten wijzigen &#x200B;](/help/quicksilver/workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 ## [!DNL Workfront] -meldingen weergeven en beheren in Adobe Creative Cloud
 
-1. Klik op het **[!UICONTROL Notifications]** pictogram ![ pictogram van Meldingen ](assets/cc-plugin-notifications-icon.png) dichtbij de bovenkant van het plugin paneel. Een blauwe stip op het pictogram geeft aan dat er ongelezen meldingen zijn.
+1. Klik op het **[!UICONTROL Notifications]** pictogram ![&#x200B; pictogram van Meldingen &#x200B;](assets/cc-plugin-notifications-icon.png) dichtbij de bovenkant van het plugin paneel. Een blauwe stip op het pictogram geeft aan dat er ongelezen meldingen zijn.
 1. (Optioneel) Als u alle meldingen wilt markeren zoals deze worden weergegeven, klikt u op **[!UICONTROL Mark all as seen]** .
 
    Dit markeert berichten zoals die in de stop evenals in Workfront worden gezien. Zachte meldingen zijn niet meer zichtbaar in de lijst met meldingen in de plug-in.

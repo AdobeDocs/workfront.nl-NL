@@ -51,7 +51,7 @@ U kunt sjabloontaken verwijderen als deze niet meer nodig zijn. Projecttaken die
  </tbody> 
 </table>
 
-Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -90,8 +90,8 @@ U kunt een of meerdere sjabloontaken bulksgewijs verwijderen.
 1. Klik op de naam van een sjabloon om deze te openen.
 1. Klik **Taken van het Malplaatje** in het linkerpaneel.
 1. Voer een van de volgende handelingen uit:
-   * Klik de naam van een malplaatjetaak in de lijst om de malplaatjetaak te openen > **Meer** menu ![ Meer menu ](assets/more-icon.png) > **de Taak van het Malplaatje van de Schrapping**.
-   * Selecteer één of verscheidene malplaatjetaken in de lijst > **schrap** pictogram ![ pictogram van de Schrapping ](assets/delete.png).
+   * Klik de naam van een malplaatjetaak in de lijst om de malplaatjetaak te openen > **Meer** menu ![&#x200B; Meer menu &#x200B;](assets/more-icon.png) > **de Taak van het Malplaatje van de Schrapping**.
+   * Selecteer één of verscheidene malplaatjetaken in de lijst > **schrap** pictogram ![&#x200B; pictogram van de Schrapping &#x200B;](assets/delete.png).
 
    Het **vakje van de Taak van het Malplaatje van de Schrapping** opent.
 1. Klik ja **, schrap het** om te bevestigen.

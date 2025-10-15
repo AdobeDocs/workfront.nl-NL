@@ -68,7 +68,7 @@ De resultaten meten de vooruitgang van een doel. Zonder resultaten, activiteiten
 </tbody>
 </table>
 
-Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -136,7 +136,7 @@ U moet het volgende hebben voordat u kunt beginnen:
 * Een lay-outsjabloon die het gebied Doelen in het hoofdmenu bevat.
 * Een bestaand doel.
 
-  Voor informatie over het creëren van doelstellingen, zie [ doelstellingen in de Doelen van Adobe Workfront ](../../workfront-goals/goal-management/create-goals.md) creëren.
+  Voor informatie over het creëren van doelstellingen, zie [&#x200B; doelstellingen in de Doelen van Adobe Workfront &#x200B;](../../workfront-goals/goal-management/create-goals.md) creëren.
 
 >[!IMPORTANT]
 >Een doel kan niet meer dan 1000 activiteiten, resultaten, projecten, of gerichte doelstellingen hebben.
@@ -187,7 +187,7 @@ Adding results to goals differs depending on which environment you use.
 
 -->
 
-1. Klik het Belangrijkste pictogram van het Menu ![ Hoofd ](assets/main-menu-icon.png), toen **Doelen**.
+1. Klik het Belangrijkste pictogram van het Menu ![&#x200B; Hoofd &#x200B;](assets/main-menu-icon.png), toen **Doelen**.
 
 1. Van de **Lijst van het Doel**, klik de naam van een doel om de doelpagina te openen.
 1. Klik **indicatoren van de Voortgang** in het linkerpaneel.
@@ -195,7 +195,7 @@ Adding results to goals differs depending on which environment you use.
 
    Het vak Nieuw resultaat wordt geopend.
 
-   ![ Nieuwe resultaatdoos ](assets/new-result-box-unshimmed.png)
+   ![&#x200B; Nieuwe resultaatdoos &#x200B;](assets/new-result-box-unshimmed.png)
 
 1. Ga een naam voor het resultaat in het **gebied van de Naam van het Resultaat** in. Dit is een verplicht veld.
 1. (Facultatief) verwijder uw naam uit het **gebied van de resultaateigenaar** als u het resultaat aan een andere gebruiker wilt toewijzen. Standaard bent u de eigenaar van een activiteit die u maakt.
@@ -221,4 +221,4 @@ Adding results to goals differs depending on which environment you use.
 
    Het resultaat wordt weergegeven in de sectie Voortgangsindicatoren van de doelpagina, onder de resultatengroep.
 
-   Nadat u het doel hebt geactiveerd, wordt de voortgang van het doel automatisch bijgewerkt wanneer u de voortgang van een resultaat bijwerkt. Voor informatie over het activeren van een doel, zie [ doelstellingen in de Doelen van Adobe Workfront ](../goal-management/activate-goals.md) activeren.
+   Nadat u het doel hebt geactiveerd, wordt de voortgang van het doel automatisch bijgewerkt wanneer u de voortgang van een resultaat bijwerkt. Voor informatie over het activeren van een doel, zie [&#x200B; doelstellingen in de Doelen van Adobe Workfront &#x200B;](../goal-management/activate-goals.md) activeren.

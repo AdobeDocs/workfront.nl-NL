@@ -58,7 +58,7 @@ Volg uw werk eenvoudig met een duidelijke, visuele kalender. Met de Prioriteiten
  </tbody> 
 </table>
 
-Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -69,7 +69,7 @@ Prioriteiten geven de werkitems weer die aan u zijn toegewezen. U kunt de werkit
 {{step1-to-priorities}}
 
 1. Klik het **pictogram van de Kalender** bij de bovenkant van de werklijst.
-   ![ kalenderpictogram ](assets/calendar-tab.png)
+   ![&#x200B; kalenderpictogram &#x200B;](assets/calendar-tab.png)
 1. Selecteer een of meer filters om uw werkitems te versmallen.
 
    +++Uitbreiden om gedetailleerde informatie over beschikbare filters weer te geven
@@ -142,18 +142,18 @@ Prioriteiten geven de werkitems weer die aan u zijn toegewezen. U kunt de werkit
    * Logtijd
    * Snelle koppelingen toevoegen
 
-1. (Optioneel) Klik op **Nieuw maken** om een nieuw werkitem aan de kalender toe te voegen. Voor meer informatie, zie [ een nieuwe taak of een kwestie in Prioriteiten ](/help/quicksilver/workfront-basics/priorities/create-task-issue-priorities.md) creëren.
+1. (Optioneel) Klik op **Nieuw maken** om een nieuw werkitem aan de kalender toe te voegen. Voor meer informatie, zie [&#x200B; een nieuwe taak of een kwestie in Prioriteiten &#x200B;](/help/quicksilver/workfront-basics/priorities/create-task-issue-priorities.md) creëren.
 
 ## De kalender configureren
 
 {{step1-to-priorities}}
 
 1. Klik het **pictogram van de Kalender** bij de bovenkant van de werklijst.
-   ![ kalenderpictogram ](assets/calendar-tab.png)
+   ![&#x200B; kalenderpictogram &#x200B;](assets/calendar-tab.png)
 1. Klik het **pictogram van Montages** in de rechterhoek van de kalender.
 
 1. Voor de **stijl van de Bar** tabel, kies tot 5 gebieden aan vertoning op de bar van het het werkpunt in de kalender.
-   ![ steekproefbar ](assets/sample-task-for-field-config.png)
+   ![&#x200B; steekproefbar &#x200B;](assets/sample-task-for-field-config.png)
 
 1. Op het **lusje van de Kleur**, kies hoe u uw het werkpunten aan vertoning zou willen. Bijvoorbeeld, als u **Project** kiest, tonen uw het werkpunten volgens de kleur die aan het project op de werklijst wordt toegewezen.
-   ![ project van de steekproefkleur ](assets/sample-calendar-projects.png)
+   ![&#x200B; project van de steekproefkleur &#x200B;](assets/sample-calendar-projects.png)

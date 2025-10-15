@@ -22,7 +22,7 @@ ht-degree: 1%
 
 U kunt geen verbinding maken met ADFS.
 
-![ SAML_2.0_Error_Primary_Status_Code.png ](assets/saml-2.0-error-primary-status-code.png)
+![&#x200B; SAML_2.0_Error_Primary_Status_Code.png &#x200B;](assets/saml-2.0-error-primary-status-code.png)
 
 >[!NOTE]
 >
@@ -52,7 +52,7 @@ U kunt geen verbinding maken met ADFS.
  </tbody> 
 </table>
 
-Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -67,7 +67,7 @@ Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront
 
 1. Klik met de rechtermuisknop op het vertrouwen van de betrouwbare partij dat betrekking heeft op [!DNL Adobe Workfront] en selecteer vervolgens **[!UICONTROL Properties]** .
 1. Klik op de tab **[!UICONTROL Advanced]** en selecteer vervolgens **[!UICONTROL SHA-1]** in de vervolgkeuzelijst **[!UICONTROL Secure hash algorithm]** .
-   ![ SHA-1 ](assets/1-350x287.png)
+   ![&#x200B; SHA-1 &#x200B;](assets/1-350x287.png)
 
 ## Oorzaak 2: ADFS-ondertekeningscertificaat verloopt binnenkort en is vervangen door een nieuw certificaat met overlappende datums
 

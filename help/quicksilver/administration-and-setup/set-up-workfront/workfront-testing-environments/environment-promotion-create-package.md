@@ -49,18 +49,18 @@ U moet het volgende hebben:
   </tr>
 </table>
 
-Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Een pakket maken
 
 1. Ga naar de omgeving waarin u het pakket wilt maken. Dit is het milieu dat u voorwerpen **van** kopieert.
-1. Klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, of (als beschikbaar), klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon-left-nav.png) in de upper-left hoek, dan klik **[!UICONTROL Setup]** ![ pictogram van de Opstelling ](/help/_includes/assets/gear-icon-setup.png).
+1. Klik het **[!UICONTROL Main Menu]** pictogram ![&#x200B; Belangrijkste Menu &#x200B;](/help/_includes/assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, of (als beschikbaar), klik het **[!UICONTROL Main Menu]** pictogram ![&#x200B; Belangrijkste Menu &#x200B;](/help/_includes/assets/main-menu-icon-left-nav.png) in de upper-left hoek, dan klik **[!UICONTROL Setup]** ![&#x200B; pictogram van de Opstelling &#x200B;](/help/_includes/assets/gear-icon-setup.png).
 1. Selecteer **Systeem** in de linkernavigatie, dan selecteren **Bevordering van het Milieu**.
 1. Klik **Create Pakket**.
 
    De pagina Nieuw promotiepakket wordt geopend.
 
-1. Op het **gebied van de naam van het Pakket** {, ga een naam voor het pakket in.
+1. Op het **gebied van de naam van het Pakket** &lbrace;, ga een naam voor het pakket in.
 1. Op het **gebied van de Beschrijving**, ga een beschrijving voor dit pakket in.
 1. Als u een object aan het pakket wilt toevoegen, selecteert u in de linkernavigatie het type object dat u wilt toevoegen.
 1. Selecteer een of meer objecten in de lijst die wordt weergegeven of typ de naam in de zoekbalk en selecteer het object wanneer dit in de lijst wordt weergegeven. U kunt meerdere objecten in de lijst selecteren.
@@ -94,23 +94,23 @@ Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront
 Een pakket moet de status `DRAFT` hebben om te kunnen worden bewerkt.
 
 1. Ga naar de omgeving waarin u het pakket wilt bewerken. Dit is de omgeving waarin het pakket oorspronkelijk is gemaakt.
-1. Klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, of (als beschikbaar), klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon-left-nav.png) in de upper-left hoek, dan klik **[!UICONTROL Setup]** ![ pictogram van de Opstelling ](/help/_includes/assets/gear-icon-setup.png).
+1. Klik het **[!UICONTROL Main Menu]** pictogram ![&#x200B; Belangrijkste Menu &#x200B;](/help/_includes/assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, of (als beschikbaar), klik het **[!UICONTROL Main Menu]** pictogram ![&#x200B; Belangrijkste Menu &#x200B;](/help/_includes/assets/main-menu-icon-left-nav.png) in de upper-left hoek, dan klik **[!UICONTROL Setup]** ![&#x200B; pictogram van de Opstelling &#x200B;](/help/_includes/assets/gear-icon-setup.png).
 1. Selecteer **Systeem** in de linkernavigatie, dan selecteren **Bevordering van het Milieu**.
 1. Selecteer het pakket in de weergegeven lijst.
 1. (Voorwaardelijk) om gehandicapte pakketten te zien, laat **toe tonen gepensioneerde pakketten** optie.
 1. (Facultatief) om de inhoud, met inbegrip van alle voorwerpen en hun sub-voorwerpen te bekijken, klik de drop-down pijl naast het objecten type in de **sectie van de Inhoud**.
 1. (Facultatief) om vorige installaties en installatiepogingen van dit pakket te bekijken, klik **Plaatsingen**.
 1. (Facultatief) om het pakket uit te geven, klik **uitgeven Pakket** bij het hoger-recht van het scherm.
-Een pakket moet de status `DRAFT` hebben om te kunnen worden bewerkt. Om het pakket aan `DRAFT` status, op het **2} gebied van de Status te bewegen {, selecteer**. `Draft` U kunt het pakket vervolgens blijven bewerken.
+Een pakket moet de status `DRAFT` hebben om te kunnen worden bewerkt. Om het pakket aan `DRAFT` status, op het **2&rbrace; gebied van de Status te bewegen &lbrace;, selecteer**. `Draft` U kunt het pakket vervolgens blijven bewerken.
 1. Om het pakket te installeren, klik **installeer** bij het hoger-recht van het scherm.
 
-   Voor instructies bij het installeren van een pakket, zie [ een pakket van de milieubevordering installeren ](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-install-package.md).
+   Voor instructies bij het installeren van een pakket, zie [&#x200B; een pakket van de milieubevordering installeren &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-install-package.md).
 
 ## Een pakket maken op basis van een objectvergelijking
 
 U kunt een pakket rechtstreeks op basis van een objectvergelijking maken.
 
-1. Creeer een objecten vergelijking, zoals die in [ wordt beschreven vergelijkt voorwerpen tussen milieu&#39;s ](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-compare.md).
+1. Creeer een objecten vergelijking, zoals die in [&#x200B; wordt beschreven vergelijkt voorwerpen tussen milieu&#39;s &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-compare.md).
 1. Selecteer in de gegenereerde vergelijking de objecten die u in het pakket wilt opnemen.
 1. Klik **creeer pakket** in de hoger-juiste hoek van het scherm.
 1. Voer een naam en beschrijving in voor het pakket.

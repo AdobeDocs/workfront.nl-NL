@@ -47,7 +47,7 @@ U kunt eerdere versies van een proefdruk weergeven.
  </tbody> 
 </table>
 
-Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -56,7 +56,7 @@ Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront
 1. Ga naar de documentlijst en selecteer de proefdruk.
 1. In Samenvatting, scrol aan de mening **Alle Versies** sectie. Hier kunt u alle versies van de proefdruk bekijken.
 
-   ![ Exemplaar van versies ](assets/copy-of-versions-350x173.png)
+   ![&#x200B; Exemplaar van versies &#x200B;](assets/copy-of-versions-350x173.png)
 
 ## Een voorbeeld van een vorige proefdrukversie weergeven
 
@@ -65,7 +65,7 @@ Bestanden waarvan geen voorvertoning kan worden weergegeven (zoals XLSX en DOC),
 1. Ga naar de documentlijst en selecteer een proefdruk.
 1. In Samenvatting, scrol neer aan **Versies**, klik **Meer** menu, dan uitgezochte **Voorproef**.
 
-   ![ Proefversies in samenvatting ](assets/proof-versions-in-summary-350x167.png)
+   ![&#x200B; Proefversies in samenvatting &#x200B;](assets/proof-versions-in-summary-350x167.png)
 
 ## Vorige proefdrukversie weergeven
 
@@ -75,4 +75,4 @@ Elke gebruiker in Workfront met View-toegang tot het document kan eerdere versie
 1. Zoek de proefdruk die u nodig hebt.
 1. In Samenvatting, scrol neer aan **Versies**, klik **Meer** menu, dan selecteren **Open proef**.
 
-   ![ Proefversies in samenvatting ](assets/proof-versions-in-summary-350x167.png)
+   ![&#x200B; Proefversies in samenvatting &#x200B;](assets/proof-versions-in-summary-350x167.png)

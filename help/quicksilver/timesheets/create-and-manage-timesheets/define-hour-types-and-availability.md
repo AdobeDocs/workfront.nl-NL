@@ -28,7 +28,7 @@ Wanneer het registreren van tijd in Workfront, de project-specifieke uurtypes di
 
 De uurtypes die beschikbaar zijn om te selecteren wanneer het registreren tijd (op projecten, taken, en kwesties) eerst door de uurtypes worden bepaald die systeem-breed door de systeembeheerder ter beschikking worden gesteld, en dan door de uurtypes die op het project en gebruikersniveaus worden geselecteerd.
 
-Nadat de aangewezen uurtypes zijn gevormd, kunt u tijd van veelvoudige plaatsen in Workfront registreren. Voor meer informatie, zie [ tijd van het Logboek ](../../timesheets/create-and-manage-timesheets/log-time.md).
+Nadat de aangewezen uurtypes zijn gevormd, kunt u tijd van veelvoudige plaatsen in Workfront registreren. Voor meer informatie, zie [&#x200B; tijd van het Logboek &#x200B;](../../timesheets/create-and-manage-timesheets/log-time.md).
 
 ## Toegangsvereisten
 
@@ -59,13 +59,13 @@ Nadat de aangewezen uurtypes zijn gevormd, kunt u tijd van veelvoudige plaatsen 
  </tbody> 
 </table>
 
-Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Beschikbaarheid op systeemniveau bepalen
 
-De systeembeheerder bepaalt welke project-specifieke uurtypes in het hele systeem ter beschikking worden gesteld. Voor meer informatie, zie [ de types van uren ](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/hour-types.md) leiden.
+De systeembeheerder bepaalt welke project-specifieke uurtypes in het hele systeem ter beschikking worden gesteld. Voor meer informatie, zie [&#x200B; de types van uren &#x200B;](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/hour-types.md) leiden.
 
 ## Beschikbaarheid op projectniveau bepalen {#define-availability-at-the-project-level}
 
@@ -74,7 +74,7 @@ De projecteigenaar bepaalt of alle die uurtypes op het systeemniveau worden bepa
 {{step1-to-projects}}
 
 1. Voor de **pagina van Projecten**, selecteer het project u de beschikbaarheid van uurtypes voor wilt bepalen.
-1. Klik het **Meer** pictogram ![ Meer pictogram ](assets/more-icon.png) naast de projectnaam in de kopbal, dan klik **uitgeven**. Het **geeft** paneel van het Project uit opent.
+1. Klik het **Meer** pictogram ![&#x200B; Meer pictogram &#x200B;](assets/more-icon.png) naast de projectnaam in de kopbal, dan klik **uitgeven**. Het **geeft** paneel van het Project uit opent.
 
 1. In de **sectie van de Montages van het Project**, bepaal de plaats van de **Types van Uur van de Filter**.
 
@@ -102,17 +102,17 @@ De projecteigenaar bepaalt of alle die uurtypes op het systeemniveau worden bepa
 
 U kunt uren voor een bepaald uurtype op projecten, taken, en kwesties registreren slechts als dat uurtype op het systeemniveau, projectniveau, en gebruikersniveau beschikbaar is gemaakt.
 
-Als u een uurtype op het gebruikersniveau beschikbaar maakt zoals die in deze sectie wordt beschreven maar niet dat uurtype ziet wanneer het registreren van tijd op een project, een taak, of een kwestie, dat uurtype niet beschikbaar op het project is gemaakt. Voor meer informatie, zie de volgende sectie in dit artikel: [ bepaalt beschikbaarheid op het projectniveau ](#define-availability-at-the-project-level).
+Als u een uurtype op het gebruikersniveau beschikbaar maakt zoals die in deze sectie wordt beschreven maar niet dat uurtype ziet wanneer het registreren van tijd op een project, een taak, of een kwestie, dat uurtype niet beschikbaar op het project is gemaakt. Voor meer informatie, zie de volgende sectie in dit artikel: [&#x200B; bepaalt beschikbaarheid op het projectniveau &#x200B;](#define-availability-at-the-project-level).
 
 Om de uurtypes te bepalen die aan een gebruiker beschikbaar zijn:
 
-1. Klik het **pictogram van het 1} pictogram van het Belangrijkste Menu** ![ in de hoger-juiste hoek van Adobe Workfront, dan klik uw gebruikersavatar in de upper-left hoek.](assets/main-menu-icon.png)
+1. Klik het **pictogram van het 1&rbrace; pictogram van het Belangrijkste Menu** ![&#x200B; in de hoger-juiste hoek van Adobe Workfront, dan klik uw gebruikersavatar in de upper-left hoek.](assets/main-menu-icon.png)
 
    of
 
-   Klik het **pictogram van het 1} Belangrijkste Menu** pictogram van het Menu ![ in de hoger-juiste hoek, als beschikbaar, dan klik ](assets/adobe-main-menu.png) Profiel van Workfront **.**
+   Klik het **pictogram van het 1&rbrace; Belangrijkste Menu** pictogram van het Menu ![&#x200B; in de hoger-juiste hoek, als beschikbaar, dan klik &#x200B;](assets/adobe-main-menu.png) Profiel van Workfront **.**
 
-1. Klik het **Meer** pictogram ![ Meer pictogram ](assets/more-icon.png) naast de gebruikersnaam, dan klik **uitgeven**. Het **geeft Persoon** vakje uit opent.
+1. Klik het **Meer** pictogram ![&#x200B; Meer pictogram &#x200B;](assets/more-icon.png) naast de gebruikersnaam, dan klik **uitgeven**. Het **geeft Persoon** vakje uit opent.
 
    >[!IMPORTANT]
    >
@@ -122,12 +122,12 @@ Om de uurtypes te bepalen die aan een gebruiker beschikbaar zijn:
 1. In de **Planning van het Middel** sectie, in **Beschikbare types van Uur** drop-down menu, doe één van beiden van het volgende, afhankelijk van welke uurtypes u beschikbaar wilt maken wanneer het registreren van tijd op een project, een taak, of een kwestie:
 
    * **om alle uurtypes ter beschikking te stellen voor de gebruiker:** selecteer alle uurtypes.\
-     Als u alle uurtypen niet selecteert, is dit technisch hetzelfde als het selecteren van alle uurtypen. Nochtans, in dit geval, zijn alle uurtype beschikbaar voor de gebruiker slechts op projecten, taken, en kwesties waar **Nr** in de **optie van de Types van Uur van de Filter** wordt geselecteerd wanneer het uitgeven van het project, zoals die in [ wordt beschreven bepaalt beschikbaarheid op het projectniveau ](#define-availability-at-the-project-level).
+     Als u alle uurtypen niet selecteert, is dit technisch hetzelfde als het selecteren van alle uurtypen. Nochtans, in dit geval, zijn alle uurtype beschikbaar voor de gebruiker slechts op projecten, taken, en kwesties waar **Nr** in de **optie van de Types van Uur van de Filter** wordt geselecteerd wanneer het uitgeven van het project, zoals die in [&#x200B; wordt beschreven bepaalt beschikbaarheid op het projectniveau &#x200B;](#define-availability-at-the-project-level).
    * **om slechts een ondergroep van de uurtypes beschikbaar voor de gebruiker te maken:** selecteer slechts de uurtypes u beschikbaar wilt maken.
 
-     Opdat de uurtypes u op het gebruikersniveau selecteert om op projecten, taken, en kwesties beschikbaar te zijn, moeten deze zelfde uurtypes ook in de **optie van de Types van Uur van de Filter** worden geselecteerd wanneer het uitgeven van het project, zoals die in [ wordt beschreven bepaalt beschikbaarheid op het projectniveau ](#define-availability-at-the-project-level).
+     Opdat de uurtypes u op het gebruikersniveau selecteert om op projecten, taken, en kwesties beschikbaar te zijn, moeten deze zelfde uurtypes ook in de **optie van de Types van Uur van de Filter** worden geselecteerd wanneer het uitgeven van het project, zoals die in [&#x200B; wordt beschreven bepaalt beschikbaarheid op het projectniveau &#x200B;](#define-availability-at-the-project-level).
 
-1. (Facultatief) in het **drop-down menu van het Type van Uur 0} Standaard, selecteer één uurtype.** Wanneer het Type van Uur van de gebruiker Standaard en een project Gefilterde Type van Uur aanpast, wordt dat uurtype geselecteerd door gebrek wanneer het registreren tijd.
+1. (Facultatief) in het **drop-down menu van het Type van Uur 0&rbrace; Standaard, selecteer één uurtype.** Wanneer het Type van Uur van de gebruiker Standaard en een project Gefilterde Type van Uur aanpast, wordt dat uurtype geselecteerd door gebrek wanneer het registreren tijd.
 
 1. Klik **sparen Veranderingen**. Nu, wanneer u uren op een project, een taak, of een kwestie registreert, zijn de uurtypes u uitgezocht beschikbaar als die zelfde uurtypes op het projectniveau beschikbaar zijn gemaakt.
 

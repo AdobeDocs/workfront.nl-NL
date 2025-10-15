@@ -19,7 +19,7 @@ U kunt informatie van om het even welke mening van de Planner van het Middel naa
 
 >[!IMPORTANT]
 >
->Er gelden beperkingen voor welke informatie wordt weergegeven en welke informatie u kunt exporteren vanuit de functie voor middelenbeheer. Voor informatie over deze beperkingen, zie {de vertoningsbeperkingen van de Banner van 0} Middel [](../../resource-mgmt/resource-planning/resource-planner-display-limitations.md)
+>Er gelden beperkingen voor welke informatie wordt weergegeven en welke informatie u kunt exporteren vanuit de functie voor middelenbeheer. Voor informatie over deze beperkingen, zie {de vertoningsbeperkingen van de Banner van 0} Middel [&#128279;](../../resource-mgmt/resource-planning/resource-planner-display-limitations.md)
 
 ## Toegangsvereisten
 
@@ -50,7 +50,7 @@ U kunt informatie van om het even welke mening van de Planner van het Middel naa
  </tbody> 
 </table>
 
-Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -70,7 +70,7 @@ De **vertoningen van de Planner** door gebrek.
 
    Het dialoogvenster Exportopties wordt weergegeven.
 
-   ![ de opties van de Uitvoer ](assets/rp-export-options-box-350x421.png)
+   ![&#x200B; de opties van de Uitvoer &#x200B;](assets/rp-export-options-box-350x421.png)
 
 1. Geef de volgende informatie op:\
    **Datum van het Begin**: De begindatum van uw uitvoer. Het geëxporteerde bestand bevat informatie over de toewijzing en beschikbaarheid vanaf de eerste dag van de week die de dag bevat die u hier opgeeft.\
@@ -117,7 +117,7 @@ U kunt de volgende gegevens exporteren:
 Er wordt een Excel-bestand (.xlsx) gedownload naar de computer.\
    Exporteren vanuit de functie Bronnen is niet beschikbaar terwijl het bestand is voorbereid voor downloaden.\
    (Voorwaardelijk) Als u een grote hoeveelheid gegevens exporteert, ontvangt u een e-mail met een koppeling waarmee u het bestand kunt downloaden.\
-   ![ RP_email_with_exporting_planner_attached.png ](assets/rp-eamil-with-exported-planner-attached-350x116.png)
+   ![&#x200B; RP_email_with_exporting_planner_attached.png &#x200B;](assets/rp-eamil-with-exported-planner-attached-350x116.png)
 
 1. (Voorwaardelijk) wanneer u e-mail met het uitgevoerde dossier ontvangt, klik **Download** om het dossier te downloaden.\
    Hiermee gaat u terug naar Workfront waar u het bestand kunt downloaden.\

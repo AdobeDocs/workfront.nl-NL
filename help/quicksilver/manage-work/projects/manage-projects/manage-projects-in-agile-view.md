@@ -19,7 +19,7 @@ ht-degree: 0%
 
 U kunt flexibele functionaliteit voor uw project gebruiken zonder de administratieve uitdagingen die agile praktijken typisch begeleiden (zoals het beheren van een teamachterstand of het creëren van herhalingen).
 
-Als u in een mobiel milieu wilt werken dat een teamachterstand gebruikt en u toestaat om herhalingen van taken op de achterstand tot stand te brengen, volg de instructies in [ Werk in een flexibel milieu ](../../../agile/work-in-an-agile-environment/work-in-an-agile-environment.md).
+Als u in een mobiel milieu wilt werken dat een teamachterstand gebruikt en u toestaat om herhalingen van taken op de achterstand tot stand te brengen, volg de instructies in [&#x200B; Werk in een flexibel milieu &#x200B;](../../../agile/work-in-an-agile-environment/work-in-an-agile-environment.md).
 
 ## Toegangsvereisten
 
@@ -57,7 +57,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -96,15 +96,15 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 ## Een project weergeven in de Google-weergave
 
 1. Ga naar het project u in een flexibele mening, op of de taaklijst of de lijst van de kwestie wilt bekijken.
-1. Klik het **pictogram van de 1} mening van de Raad** Raad ![.](assets/board-icon-for-agile-view.png)
+1. Klik het **pictogram van de 1&rbrace; mening van de Raad** Raad ![.](assets/board-icon-for-agile-view.png)
 
    De boardweergave van het project wordt standaard weergegeven.
 
-   ![ Raad mening van project ](assets/project-agile-board-view.png)
+   ![&#x200B; Raad mening van project &#x200B;](assets/project-agile-board-view.png)
 
 
 1. (Facultatief) klik **vormen** om opties voor de kolommen en de kaarten te plaatsen.
 
-   Voor meer informatie, zie [ de kolommen van het Beheer ](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md) en [ aanpassen welke gebieden op een kaart ](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md) worden getoond. Merk op dat u geen kolombeleid op de boardmening van een project kunt bepalen.
+   Voor meer informatie, zie [&#x200B; de kolommen van het Beheer &#x200B;](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md) en [&#x200B; aanpassen welke gebieden op een kaart &#x200B;](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md) worden getoond. Merk op dat u geen kolombeleid op de boardmening van een project kunt bepalen.
 
 1. (Facultatief) om aan de lijstmening terug te keren, klik het **pictogram van de Lijst**.

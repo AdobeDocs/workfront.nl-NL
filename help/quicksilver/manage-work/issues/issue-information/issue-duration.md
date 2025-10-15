@@ -23,6 +23,6 @@ Adobe Workfront berekent automatisch de duur van een uitgave en kan niet handmat
 
 U kunt de Duur van een kwestie in een uitgiftenrapport of de mening van een lijst van kwesties tonen.
 
-Voor meer informatie over de bouw van een rapport, zie [ een douanerapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) creëren.
+Voor meer informatie over de bouw van een rapport, zie [&#x200B; een douanerapport &#x200B;](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) creëren.
 
-![ de duurmening van de Uitgave ](assets/nwe-issue-duration-view-highlighted-350x73.png)
+![&#x200B; de duurmening van de Uitgave &#x200B;](assets/nwe-issue-duration-view-highlighted-350x73.png)

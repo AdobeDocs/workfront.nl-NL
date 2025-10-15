@@ -20,9 +20,9 @@ ht-degree: 0%
 
 Deze taakmening toont details van predecessors van de taken gebruikend een inzamelingsmening. In een verzamelingsweergave kunt u informatie weergeven over objecten die een &#39;een-op-veel&#39;-relatie hebben. In dit geval kan elke taak (één) meerdere voordecessors (vele) hebben. De weergave bevat de naam van de taken, de namen van de voorgangers, de projectnamen van de voorgangers, de geplande afsluitdatums van de voorgangers en de statussen van de voorgangers.
 
-Voor informatie over het van verwijzingen voorzien van inzamelingen in rapporten, zie [ inzamelingen van de Verwijzing in een rapport ](../../../reports-and-dashboards/reports/text-mode/reference-collections-report.md).
+Voor informatie over het van verwijzingen voorzien van inzamelingen in rapporten, zie [&#x200B; inzamelingen van de Verwijzing in een rapport &#x200B;](../../../reports-and-dashboards/reports/text-mode/reference-collections-report.md).
 
-![ predecessor_details_task_view.png ](assets/predecessor-details-task-view-350x34.png)
+![&#x200B; predecessor_details_task_view.png &#x200B;](assets/predecessor-details-task-view-350x34.png)
 
 ## Toegangsvereisten
 
@@ -53,7 +53,7 @@ Voor informatie over het van verwijzingen voorzien van inzamelingen in rapporten
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 
 +++

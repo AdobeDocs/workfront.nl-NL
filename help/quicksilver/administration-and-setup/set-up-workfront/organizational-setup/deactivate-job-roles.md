@@ -47,7 +47,7 @@ U kunt taakrollen ook opnieuw activeren die eerder zijn gedeactiveerd.
  </tbody> 
 </table>
 
-Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -70,7 +70,7 @@ Als u een taakrol deactiveert, wordt deze niet meer weergegeven in de volgende g
 * Het dialoogvenster [!UICONTROL Add assignment to Kanban board] in een project
 * Het veld [!UICONTROL Job Role] van een abonnement of een initiatief wanneer iemand [!DNL Adobe Workfront Scenario Planner] gebruikt.
 
-  [!DNL Scenario Planner] is alleen beschikbaar in de nieuwe [!DNL Adobe Workfront] -ervaring en vereist een extra licentie. Voor informatie over [!DNL Workfront Scenario Planner], zie [ het  [!DNL Scenario Planner]  overzicht ](../../../scenario-planner/scenario-planner-overview.md).
+  [!DNL Scenario Planner] is alleen beschikbaar in de nieuwe [!DNL Adobe Workfront] -ervaring en vereist een extra licentie. Voor informatie over [!DNL Workfront Scenario Planner], zie [&#x200B; het  [!DNL Scenario Planner]  overzicht &#x200B;](../../../scenario-planner/scenario-planner-overview.md).
 
 >[!TIP]
 >
@@ -86,7 +86,7 @@ Het is beter om baanrollen te deactiveren eerder dan te schrappen die verouderd 
 
 We raden u aan het volgende te doen voordat u een ongebruikte taakrol deactiveert:
 
-* Bouw rapporten voor om het even welke voorwerpen die aan de rol worden toegewezen u van plan bent om hen aan een actieve baanrol te deactiveren en opnieuw toe te wijzen. Voor informatie over de bouw van rapporten, zie [ een rapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-report.md) creëren.
+* Bouw rapporten voor om het even welke voorwerpen die aan de rol worden toegewezen u van plan bent om hen aan een actieve baanrol te deactiveren en opnieuw toe te wijzen. Voor informatie over de bouw van rapporten, zie [&#x200B; een rapport &#x200B;](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-report.md) creëren.
 
   >[!TIP]
   >
@@ -112,8 +112,8 @@ We raden u aan het volgende te doen voordat u een ongebruikte taakrol deactiveer
 1. Klik op de naam van de taakrol die u wilt deactiveren.
 1. Selecteer **[!UICONTROL Is Active]** in de vervolgkeuzelijst **[!UICONTROL No]** .
 
-   ![ Deactivate baanrol ](assets/deactivate-job-role-edit-role-box-nwe.png)
+   ![&#x200B; Deactivate baanrol &#x200B;](assets/deactivate-job-role-edit-role-box-nwe.png)
 
 1. Klik op **[!UICONTROL Save Changes]**.
 
-   De taakrol is gedeactiveerd en kan niet meer aan het werk worden toegewezen, gekoppeld aan lay-outsjablonen, enzovoort. Voor informatie over al gebruik van baanrollen in [!DNL Workfront], zie [ het overzicht van de rol van de Baan ](../../../administration-and-setup/set-up-workfront/organizational-setup/job-role-overview.md).
+   De taakrol is gedeactiveerd en kan niet meer aan het werk worden toegewezen, gekoppeld aan lay-outsjablonen, enzovoort. Voor informatie over al gebruik van baanrollen in [!DNL Workfront], zie [&#x200B; het overzicht van de rol van de Baan &#x200B;](../../../administration-and-setup/set-up-workfront/organizational-setup/job-role-overview.md).

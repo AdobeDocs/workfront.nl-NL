@@ -54,7 +54,7 @@ U kunt een dashboard naar een .pdf- dossier uitvoeren gebruikend de drukopties b
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -62,14 +62,14 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 Het dashboard moet worden gemaakt voordat u het kunt exporteren.
 
-Voor informatie bij het creëren van dashboards, zie [ een dashboard ](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md) creëren.
+Voor informatie bij het creëren van dashboards, zie [&#x200B; een dashboard &#x200B;](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md) creëren.
 
 ## Een dashboard exporteren naar een .pdf-bestand:
 
 1. Ga naar het dashboard dat u wilt exporteren.
 1. Klik {de acties van 0} Dashboard **, dan selecteren** Voorproef van de Druk **.**
 
-   ![ de drukvoorproef van het dashboard ](assets/dashboard-actions-print-350x254.png)
+   ![&#x200B; de drukvoorproef van het dashboard &#x200B;](assets/dashboard-actions-print-350x254.png)
 
    Het venster Afdrukvoorbeeld wordt geopend.
 
@@ -99,7 +99,7 @@ Voor informatie bij het creëren van dashboards, zie [ een dashboard ](../../../
       <td>Internet Explorer, Microsoft Edge en Mozilla Firefox</td> 
       <td> <p>Opmerking: als u Internet Explorer versie 11 gebruikt, kunt u de functie Afdrukken naar PDF mogelijk niet gebruiken zonder een plug-in van derden te installeren.</p> 
        <ol> 
-        <li value="1">In het <strong> Printer </strong> of <strong> Uitgezochte het 3} gebied van de Printer, de uitgezochte </strong> Afdruk van Microsoft aan PDF <strong>, dan wijzigt om het even welke andere drukopties u wilt veranderen.</strong></li> 
+        <li value="1">In het <strong> Printer </strong> of <strong> Uitgezochte het 3&rbrace; gebied van de Printer, de uitgezochte </strong> Afdruk van Microsoft aan PDF <strong>, dan wijzigt om het even welke andere drukopties u wilt veranderen.</strong></li> 
         <li value="2">Klik <strong> Druk </strong>.</li> 
         <li value="3">Ga a <strong> Naam van het Dossier </strong> in</li> 
         <li value="4">(Optioneel) Selecteer een nieuwe mapbestemming voor het bestand.</li> 

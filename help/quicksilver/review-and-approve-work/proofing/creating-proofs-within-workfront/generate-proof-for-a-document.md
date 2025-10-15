@@ -57,7 +57,7 @@ If a proof fails to generate after following the steps described in the followin
  </tbody> 
 </table>
 
-Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -65,16 +65,16 @@ Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront
 
 1. Ga naar het project, de taak, of de kwestie waar u een nieuwe proef wilt tot stand brengen.
 1. Klik de **Documenten** tabel.
-1. Klik het pictogram van Documenten ![ ](assets/document-icon.png) in het linkerpaneel.
+1. Klik het pictogram van Documenten ![&#x200B; &#x200B;](assets/document-icon.png) in het linkerpaneel.
 1. Klik **toevoegen Nieuw**, dan klik **Bewijs** in het menu dat verschijnt.
 
    >[!TIP]
    >
-   >U kunt **toelaten automatisch produceren proef wanneer het uploaden van documenten** plaatsend in uw gebruikersprofiel om dit proces te automatiseren. Voor meer informatie, zie [ Mijn Montages ](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md) vormen.
+   >U kunt **toelaten automatisch produceren proef wanneer het uploaden van documenten** plaatsend in uw gebruikersprofiel om dit proces te automatiseren. Voor meer informatie, zie [&#x200B; Mijn Montages &#x200B;](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md) vormen.
 
 1. In de **Nieuwe proefdruk** pagina die verschijnt, kunt u
 
-   * [ creeer een geavanceerd bewijs met een Basiswerkschema ](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md)
+   * [&#x200B; creeer een geavanceerd bewijs met een Basiswerkschema &#x200B;](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md)
    * [Een geavanceerde proefdruk maken met een geautomatiseerde workflow](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-automated-proof-workflow.md)
 
 ## Een document uploaden en een nieuwe versie van een proefdruk maken
@@ -85,21 +85,21 @@ Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront
 1. Klik **toevoegen Nieuw** > **Versie** > **Bewijs**.
 1. In de **Nieuwe pagina van de Versie van het Bewijs** die verschijnt, kunt u
 
-   * [ creeer een geavanceerd bewijs met een Basiswerkschema ](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md)
+   * [&#x200B; creeer een geavanceerd bewijs met een Basiswerkschema &#x200B;](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md)
    * [Een geavanceerde proefdruk maken met een geautomatiseerde workflow](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-automated-proof-workflow.md)
 
 ## Gebruik slepen en neerzetten om een eenvoudige proefdruk te maken voor een nieuwe versie
 
 U kunt een document slepen en neerzetten vanaf het bestandssysteem (bijvoorbeeld het bureaublad) om een nieuwe proefdruk of een nieuwe versie van een bestaande proefdruk te maken. De proefdruk bevat de volgende instellingen, afhankelijk van het feit of u een nieuwe proefdruk of een nieuwe versie maakt:
 
-* **Nieuwe proef:** creeert een eenvoudig bewijs dat slechts met u wordt gedeeld. U kunt aandeelmontages wijzigen nadat de proef wordt gecreeerd zoals die in [ wordt beschreven geef proefmontages ](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/edit-proof-settings.md) uit.
+* **Nieuwe proef:** creeert een eenvoudig bewijs dat slechts met u wordt gedeeld. U kunt aandeelmontages wijzigen nadat de proef wordt gecreeerd zoals die in [&#x200B; wordt beschreven geef proefmontages &#x200B;](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/edit-proof-settings.md) uit.
 
 * **Nieuwe versie van bestaand bewijs:** creeert een nieuwe versie met de zelfde proefdrukmontages zoals de vorige versie.
 
 Met slepen en neerzetten kunt u een nieuwe proefdruk of nieuwe proefdrukversie genereren:
 
 1. Zorg ervoor dat proefdrukken zijn geconfigureerd om automatisch te worden gegenereerd, zoals wordt beschreven in .
-1. Doorgaan met  [ voegt documenten aan Adobe Workfront van uw dossiersysteem ](../../../documents/adding-documents-to-workfront/add-documents-from-file-system.md) toe, dat de belemmering-en-dalingsmethode verklaart om documenten toe te voegen. 
+1. Doorgaan met  [&#x200B; voegt documenten aan Adobe Workfront van uw dossiersysteem &#x200B;](../../../documents/adding-documents-to-workfront/add-documents-from-file-system.md) toe, dat de belemmering-en-dalingsmethode verklaart om documenten toe te voegen. 
 
 ## Een proefdruk maken voor een bestaand document
 

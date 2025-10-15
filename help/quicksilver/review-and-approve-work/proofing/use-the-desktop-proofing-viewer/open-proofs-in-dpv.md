@@ -48,7 +48,7 @@ Neem contact op met uw Adobe Workfront-beheerder of de Workfront Proof-beheerder
  </tbody> 
 </table>
 
-Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -56,15 +56,15 @@ Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront
 
 ## Vereisten
 
-* U moet de Desktop Proofing Viewer installeren. Voor meer informatie, zie [ installeer de Desktop het Proofing Kijker ](../../../review-and-approve-work/proofing/use-the-desktop-proofing-viewer/installing-desktop-proofing-viewer.md).
+* U moet de Desktop Proofing Viewer installeren. Voor meer informatie, zie [&#x200B; installeer de Desktop het Proofing Kijker &#x200B;](../../../review-and-approve-work/proofing/use-the-desktop-proofing-viewer/installing-desktop-proofing-viewer.md).
 
 ## Proefdrukken openen vanuit de Desktop Proofing Viewer
 
-Als u regelmatig interactieve inhoud controleert in de Desktop Proofing Viewer, kan uw Workfront-beheerder de Desktop Proofing Viewer instellen als de standaardviewer. Voor meer informatie, zie [ Gebruiker die voor het Openen van Niet-Interactieve Proofs in de Desktop het Proofing Kijker ](../../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/destop-proofing-viewer.md#user-setting-for-launching-non-interactive-proofs) plaatst in het artikel, [ de Desktop het Proofing Kijker ](../../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/destop-proofing-viewer.md) begrijpt.
+Als u regelmatig interactieve inhoud controleert in de Desktop Proofing Viewer, kan uw Workfront-beheerder de Desktop Proofing Viewer instellen als de standaardviewer. Voor meer informatie, zie [&#x200B; Gebruiker die voor het Openen van Niet-Interactieve Proofs in de Desktop het Proofing Kijker &#x200B;](../../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/destop-proofing-viewer.md#user-setting-for-launching-non-interactive-proofs) plaatst in het artikel, [&#x200B; de Desktop het Proofing Kijker &#x200B;](../../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/destop-proofing-viewer.md) begrijpt.
 
 1. In de Desktop het Proofing Kijker, typ uw **Bewijs URL**.
 
-   Voor informatie over de toegang tot van proef URLs, zie [ Toegang tot een bewijs dat met u ](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/access-proofs-shared-with-you.md) wordt gedeeld.
+   Voor informatie over de toegang tot van proef URLs, zie [&#x200B; Toegang tot een bewijs dat met u &#x200B;](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/access-proofs-shared-with-you.md) wordt gedeeld.
 
    >[!NOTE]
    >

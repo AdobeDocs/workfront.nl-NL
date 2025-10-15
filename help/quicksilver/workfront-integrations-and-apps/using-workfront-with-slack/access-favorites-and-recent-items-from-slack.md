@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Nadat u [!DNL Adobe Workfront for Slack] hebt geïnstalleerd en geconfigureerd, kunt u uw [!UICONTROL Workfront] Favorieten en recent gebruikte items weergeven en vanuit [!DNL Slack] toegang krijgen tot items in de lijst.
 
-Voor meer informatie over het vormen [!DNL Workfront with Slack], zie [  [!DNL Adobe Workfront for Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md) vormen.
+Voor meer informatie over het vormen [!DNL Workfront with Slack], zie [&#x200B;  [!DNL Adobe Workfront for Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md) vormen.
 
 ## Toegangsvereisten
 
@@ -38,7 +38,7 @@ Voor meer informatie over het vormen [!DNL Workfront with Slack], zie [  [!DNL A
  </tbody> 
 </table>
 
-Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -47,12 +47,12 @@ Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront
 Voordat u toegang kunt krijgen tot uw favorieten en recente items vanuit [!DNL Slack] , moet u
 
 * Configureren [!DNL Workfront for Slack]\
-   Voor instructies bij het vormen [!DNL Workfront for Slack], zie [ vormen  [!DNL Adobe Workfront for Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md).
+   Voor instructies bij het vormen [!DNL Workfront for Slack], zie [&#x200B; vormen  [!DNL Adobe Workfront for Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md).
 
 ## Open uw [!UICONTROL Favorites] -lijst vanuit [!DNL Slack]
 
 1. Meld u aan bij de [!DNL Slack] -instantie en meld u aan bij [!DNL Workfront] from [!DNL Slack] .\
-   Voor meer informatie over het programma openen aan [!DNL Workfront] van [!DNL Slack], zie het &quot;Aanmelden aan [!DNL Workfront] van [!DNL Slack]&quot;sectie in [ Toegang  [!DNL Adobe Workfront]  van  [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md).
+   Voor meer informatie over het programma openen aan [!DNL Workfront] van [!DNL Slack], zie het &quot;Aanmelden aan [!DNL Workfront] van [!DNL Slack]&quot;sectie in [&#x200B; Toegang  [!DNL Adobe Workfront]  van  [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md).
 
 1. Typ vanuit elk kanaal de volgende opdracht in het veld [!UICONTROL message] : `/workfront favorites`
 
@@ -68,7 +68,7 @@ Voordat u toegang kunt krijgen tot uw favorieten en recente items vanuit [!DNL S
 ## Toegang tot uw lijst met recente items vanuit [!DNL Slack]
 
 1. Meld u aan bij uw [!DNL Slack] -instantie en meld u aan bij [!DNL Workfront] vanuit Slack.\
-   Voor meer informatie over het programma openen aan [!DNL Workfront] van [!DNL Slack], zie het &quot;Aanmelden aan [!DNL Workfront] van [!DNL Slack]&quot;sectie in [ Toegang  [!DNL Adobe Workfront]  van  [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md).
+   Voor meer informatie over het programma openen aan [!DNL Workfront] van [!DNL Slack], zie het &quot;Aanmelden aan [!DNL Workfront] van [!DNL Slack]&quot;sectie in [&#x200B; Toegang  [!DNL Adobe Workfront]  van  [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md).
 
 1. Typ vanuit elk kanaal de volgende opdracht in het veld [!UICONTROL message] : `/workfront recent`
 

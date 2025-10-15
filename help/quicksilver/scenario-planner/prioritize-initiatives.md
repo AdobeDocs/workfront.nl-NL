@@ -19,9 +19,9 @@ Prioriteit geven aan initiatieven is belangrijk omdat initiatieven uit het plan 
 
 U kunt aan initiatieven op een plan voorrang geven dat u creeerde of op een plan dat iemand met u deelde.
 
-Voor informatie over het creëren van plannen, zie [ plannen in  [!DNL Scenario Planner]](../scenario-planner/create-and-edit-plans.md) creëren en uitgeven.
+Voor informatie over het creëren van plannen, zie [&#x200B; plannen in  [!DNL Scenario Planner]](../scenario-planner/create-and-edit-plans.md) creëren en uitgeven.
 
-Voor informatie over het creëren van initiatieven, zie [ initiatieven in  [!DNL Scenario Planner]](../scenario-planner/create-and-edit-initiatives.md) creëren en uitgeven.
+Voor informatie over het creëren van initiatieven, zie [&#x200B; initiatieven in  [!DNL Scenario Planner]](../scenario-planner/create-and-edit-initiatives.md) creëren en uitgeven.
 
 ## Toegangsvereisten
 
@@ -55,9 +55,9 @@ Voor informatie over het creëren van initiatieven, zie [ initiatieven in  [!DNL
  </tbody> 
 </table>
 
-Voor meer informatie over toegang tot de Planner van het Scenario, zie [ Toegang nodig om  [!DNL Scenario Planner]](../scenario-planner/access-needed-to-use-sp.md) te gebruiken.
+Voor meer informatie over toegang tot de Planner van het Scenario, zie [&#x200B; Toegang nodig om  [!DNL Scenario Planner]](../scenario-planner/access-needed-to-use-sp.md) te gebruiken.
 
-Voor informatie over de toegangsvereisten van Workfront, zie [ vereisten van de Toegang tot de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie over de toegangsvereisten van Workfront, zie [&#x200B; vereisten van de Toegang tot de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -122,7 +122,7 @@ Een lijst met plannen wordt weergegeven.
 
      Workfront geeft het aantal geselecteerde initiatieven weer.
 
-     ![ Multi select initiatiefaantal ](assets/multi-select-initiative-number.png)
+     ![&#x200B; Multi select initiatiefaantal &#x200B;](assets/multi-select-initiative-number.png)
 
    * Klik op het vak **[!UICONTROL Prioritize]** onder aan het abonnement en kies een van de volgende opties:
 
@@ -130,7 +130,7 @@ Een lijst met plannen wordt weergegeven.
       * **[!UICONTROL Bottom]**: hiermee plaatst u de geselecteerde initiatieven onder aan de lijst met initiatieven. De geselecteerde initiatieven staan als laatste vermeld in het plan.
       * **[!UICONTROL Select a number]**: verplaatst de geselecteerde initiatieven na het initiatief dat u hier aangeeft.
 
-        ![ Prioritize initiatieven ](assets/prioritize-initiatives-expanded-highlighted-350x171.png)
+        ![&#x200B; Prioritize initiatieven &#x200B;](assets/prioritize-initiatives-expanded-highlighted-350x171.png)
 
      [!DNL Workfront] plaatst de geselecteerde initiatieven onmiddellijk op de aangegeven locatie en het aantal van alle initiatieven wordt dienovereenkomstig bijgewerkt.
 

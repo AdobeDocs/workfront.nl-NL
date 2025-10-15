@@ -20,7 +20,7 @@ ht-degree: 0%
 
 In deze taakmening, kunt u code aan de kolom van de Naam van de Taak toevoegen om de taken te tonen die volgens de Structuur van de Onderverdeling van het Werk van het project worden ingesprongen.
 
-![ de taakinspringing van de Mening ](assets/view-text-mode-indentation-task-list-350x171.png)
+![&#x200B; de taakinspringing van de Mening &#x200B;](assets/view-text-mode-indentation-task-list-350x171.png)
 
 ## Toegangsvereisten
 
@@ -51,7 +51,7 @@ In deze taakmening, kunt u code aan de kolom van de Naam van de Taak toevoegen o
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

@@ -21,9 +21,9 @@ ht-degree: 0%
 >
 >We raden u aan Workfront Automation and Integration te gebruiken voor de integratiebehoeften van uw organisatie met Salesforce.
 >
->Voor een overzicht van de Automatisering en de Integratie van Workfront, zie [ het overzicht van de Fusie van Adobe Workfront ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+>Voor een overzicht van de Automatisering en de Integratie van Workfront, zie [&#x200B; het overzicht van de Fusie van Adobe Workfront &#x200B;](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 >
->Voor informatie over de specifieke mogelijkheden van de modules van de Automatisering en van de Integratie van Workfront voor Salesforce, zie [ modules van Salesforce ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/salesforce-modules).
+>Voor informatie over de specifieke mogelijkheden van de modules van de Automatisering en van de Integratie van Workfront voor Salesforce, zie [&#x200B; modules van Salesforce &#x200B;](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/salesforce-modules).
 
 Nadat u [!DNL Adobe Workfront] voor Salesforce hebt geïnstalleerd, kunt u triggers definiëren die [!DNL Workfront] -projecten maken als aan bepaalde criteria wordt voldaan op [!DNL Salesforce] [!UICONTROL Opportunities] en [!UICONTROL Accounts] .
 
@@ -47,7 +47,7 @@ Nadat u [!DNL Adobe Workfront] voor Salesforce hebt geïnstalleerd, kunt u trigg
  </tbody> 
 </table>
 
-Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -57,11 +57,11 @@ Een [!DNL Workfront] aanvraag verzenden vanuit een [!DNL Salesforce] [!UICONTROL
 zorg ervoor dat u het volgende in uw milieu hebt:
 
 * Uw [!DNL Workfront] -beheerder heeft [!DNL Workfront for Salesforce] geïnstalleerd.\
-   Voor meer informatie over het installeren van [!DNL Workfront for Salesforce], zie [ installeren  [!DNL Adobe Workfront for Salesforce]](../../workfront-integrations-and-apps/using-workfront-with-salesforce/install-workfront-for-salesforce.md)
+   Voor meer informatie over het installeren van [!DNL Workfront for Salesforce], zie [&#x200B; installeren  [!DNL Adobe Workfront for Salesforce]](../../workfront-integrations-and-apps/using-workfront-with-salesforce/install-workfront-for-salesforce.md)
 
 * Uw [!DNL Workfront] -beheerder heeft de [!DNL Workfront] -sectie toegevoegd aan uw [!UICONTROL Opportunity] en account
 paginalay-outs.\
-   Voor meer informatie over het toevoegen van de [!DNL Workfront] sectie aan een paginalay-out, zie [ de  [!DNL Adobe Workfront]  sectie voor  [!DNL Salesforce]  gebruikers ](../../workfront-integrations-and-apps/using-workfront-with-salesforce/configure-wf-section-for-salesforce-users.md) vormen.
+   Voor meer informatie over het toevoegen van de [!DNL Workfront] sectie aan een paginalay-out, zie [&#x200B; de  [!DNL Adobe Workfront]  sectie voor  [!DNL Salesforce]  gebruikers &#x200B;](../../workfront-integrations-and-apps/using-workfront-with-salesforce/configure-wf-section-for-salesforce-users.md) vormen.
 
 * U hebt een [!DNL Workfront] -account en u kunt zich er vanuit de [!DNL Workfront] -sectie in uw [!UICONTROL Opportunity] of account bij aanmelden
 .
@@ -81,7 +81,7 @@ Als systeembeheerder van [!DNL Salesforce] kunt u triggers definiëren die autom
 wordt bijgewerkt.
 
 Triggers kunnen alleen worden geconfigureerd nadat u [!DNL Workfront for Salesforce] hebt geïnstalleerd.  \
-Voor informatie over het installeren van [!DNL Workfront for Salesforce], zie [ installeren  [!DNL Adobe Workfront for Salesforce]](../../workfront-integrations-and-apps/using-workfront-with-salesforce/install-workfront-for-salesforce.md).
+Voor informatie over het installeren van [!DNL Workfront for Salesforce], zie [&#x200B; installeren  [!DNL Adobe Workfront for Salesforce]](../../workfront-integrations-and-apps/using-workfront-with-salesforce/install-workfront-for-salesforce.md).
 
 Houd rekening met het volgende wanneer u triggers configureert om automatisch [!DNL Workfront] -projecten te maken wanneer [!DNL Salesforce] -items worden gemaakt of bijgewerkt:
 
@@ -120,7 +120,7 @@ triggers configureren in [!UICONTROL Salesforce] :
 
    De pagina **[!UICONTROL Triggers]** wordt weergegeven.
 
-   ![ salesforce_triggers_page_empty.png ](assets/salesforce-triggers-page-empty-350x134.png)
+   ![&#x200B; salesforce_triggers_page_empty.png &#x200B;](assets/salesforce-triggers-page-empty-350x134.png)
 
 1. Klik op **[!UICONTROL New Trigger]**.
 1. Selecteer **[!UICONTROL [!DNL Salesforce] Object]** in de vervolgkeuzelijst **[!UICONTROL Opportunity]** .
@@ -162,7 +162,7 @@ triggers configureren in [!UICONTROL Salesforce] :
       >Het project wordt alleen gemaakt wanneer het werkgebied wordt bijgewerkt in [!UICONTROL Opportunity] . Er wordt een uniek project gemaakt voor elk product dat wordt opgegeven wanneer het veld Werkgebied wordt bijgewerkt, en niet wanneer de producten aan [!UICONTROL Opportunities] worden toegevoegd.
 
 1. (Optioneel) Klik op **[!UICONTROL New Trigger]** .
-1. (Optioneel) Selecteer **Account in de vervolgkeuzelijst **[!UICONTROL [!DNL Salesforce] Object]**
+1. (Optioneel) Selecteer **Account in de vervolgkeuzelijst &#x200B;** [!UICONTROL [!DNL Salesforce] Object]**
 **.
 
    Dit is een verplicht veld.
@@ -171,7 +171,7 @@ triggers configureren in [!UICONTROL Salesforce] :
    1. Selecteer een **[!UICONTROL Type]** in de vervolgkeuzelijst **[!UICONTROL Type]** .
 
       Als er een **Account is
-** wordt opgegeven als de **[!UICONTROL Type]** die hier wordt opgegeven in [!DNL Salesforce] , a **[!UICONTROL Project]** wordt gemaakt in [!DNL Workfront] .
+**&#x200B; wordt opgegeven als de &#x200B;** [!UICONTROL Type] **&#x200B; die hier wordt opgegeven in [!DNL Salesforce] , a &#x200B;** [!UICONTROL Project]** wordt gemaakt in [!DNL Workfront] .
 
       Dit is een verplicht veld.
 
@@ -187,7 +187,7 @@ triggers configureren in [!UICONTROL Salesforce] :
       >
       >Als u een Eigenaar van het Malplaatje op het malplaatje hebt gespecificeerd dat u voor deze integratie van plan bent te gebruiken, wordt dat de Eigenaar van het Project van het nieuwe project. De nieuwe projecten worden weergegeven onder de **[!UICONTROL Projects I Own]** -lijst van de gebruiker die de eigenaar van het nieuwe project is, volgens de sjabloon.
 
-   ![ salesforce_triggers_page_with_clean_up_template_names.png ](assets/salesforce-triggers-page-with-cleaned-up-template-names-350x157.png)
+   ![&#x200B; salesforce_triggers_page_with_clean_up_template_names.png &#x200B;](assets/salesforce-triggers-page-with-cleaned-up-template-names-350x157.png)
 
 1. Klik op **[!UICONTROL Save]**.
 
@@ -205,7 +205,7 @@ Afhankelijk van welke trigger de projecten heeft gegenereerd, kunnen de namen va
 Als uw [!DNL Workfront] -beheerder de [!DNL Workfront] -sectie heeft toegevoegd aan uw [!UICONTROL Opportunity] of account
 paginalay-out, kunt u de projecten zien die automatisch in het [!UICONTROL Projects] lusje van deze sectie worden gecreeerd.\
 Voor meer informatie over het toevoegen van de sectie [!DNL Workfront] aan de pagina-indeling van een [!UICONTROL Opportunity] of account
-, zie [ de  [!DNL Adobe Workfront]  sectie voor  [!DNL Salesforce]  gebruikers ](../../workfront-integrations-and-apps/using-workfront-with-salesforce/configure-wf-section-for-salesforce-users.md) vormen.
+, zie [&#x200B; de  [!DNL Adobe Workfront]  sectie voor  [!DNL Salesforce]  gebruikers &#x200B;](../../workfront-integrations-and-apps/using-workfront-with-salesforce/configure-wf-section-for-salesforce-users.md) vormen.
 
 U moet een [!DNL Workfront] -account hebben en aangemeld zijn bij [!DNL Workfront] om het tabblad [!UICONTROL Projects] weer te geven.
 

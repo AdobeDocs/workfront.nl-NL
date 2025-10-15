@@ -21,7 +21,7 @@ U kunt voorgangstaken (of alleen voorgangers) gebruiken om taken te koppelen die
 
 In dit artikel wordt weergegeven hoe u voordecessors kunt instellen met het tabblad Voorgangers in een taak.
 
-Voor informatie over het plaatsen van voorgangers in een lijst van taken, zie [ een voorgangersverhouding op de taaklijst ](../../../manage-work/tasks/use-prdcssrs/create-predecessors-on-task-list.md) creëren.
+Voor informatie over het plaatsen van voorgangers in een lijst van taken, zie [&#x200B; een voorgangersverhouding op de taaklijst &#x200B;](../../../manage-work/tasks/use-prdcssrs/create-predecessors-on-task-list.md) creëren.
 
 U kunt de voorgangers van taken in de volgende gebieden van Adobe Workfront bekijken:
 
@@ -29,7 +29,7 @@ U kunt de voorgangers van taken in de volgende gebieden van Adobe Workfront beki
 * In de Gantt-grafiek
 * In de takenlijst in de kolom Voorgangers
 
-Voor informatie over predecessors, zie [ Overzicht van taakvoordecessors ](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md).
+Voor informatie over predecessors, zie [&#x200B; Overzicht van taakvoordecessors &#x200B;](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md).
 
 ## Toegangsvereisten
 
@@ -59,7 +59,7 @@ Voor informatie over predecessors, zie [ Overzicht van taakvoordecessors ](../..
  </tbody> 
 </table>
 
-Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -73,11 +73,11 @@ Een voorgangertaak maken voor een projecttaak:
 
 1. In het linkerpaneel, klik **Predecessors**.
 
-1. In de **sectie 0} Voorgangers {, klik** toevoegen Voorganger **.** **voegt de dialoogdoos van de Voorganger** toe opent.
+1. In de **sectie 0&rbrace; Voorgangers &lbrace;, klik** toevoegen Voorganger **.** **voegt de dialoogdoos van de Voorganger** toe opent.
 
-1. (Facultatief) om een dwars-projectvoorganger toe te voegen, vervang de naam van het project op het **gebied van het Project van de 1} ouder** met een ander project.
+1. (Facultatief) om een dwars-projectvoorganger toe te voegen, vervang de naam van het project op het **gebied van het Project van de 1&rbrace; ouder** met een ander project.
 
-   Voor informatie, zie [ tot dwars-project predecessors ](../../../manage-work/tasks/use-prdcssrs/cross-project-predecessors.md) leiden.
+   Voor informatie, zie [&#x200B; tot dwars-project predecessors &#x200B;](../../../manage-work/tasks/use-prdcssrs/cross-project-predecessors.md) leiden.
 
    >[!TIP]
    >
@@ -88,20 +88,20 @@ Een voorgangertaak maken voor een projecttaak:
 
 1. Selecteer het Type van a **Afhankelijkheid**.
 
-   Voor informatie, zie [ Overzicht van de types van taakgebiedsdeel ](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
+   Voor informatie, zie [&#x200B; Overzicht van de types van taakgebiedsdeel &#x200B;](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
 
 1. Ga a **bedrag van de a** Lag in.
 
-   Voor informatie, zie &#x200B; [ overzicht van de Types van Lag ](../../../manage-work/tasks/use-prdcssrs/lag-types.md).
+   Voor informatie, zie &#x200B; [&#x200B; overzicht van de Types van Lag &#x200B;](../../../manage-work/tasks/use-prdcssrs/lag-types.md).
 
-   ![ voeg de dialoogdoos van de Voorganger ](assets/add-predecessor-dialog-box.png) toe
+   ![&#x200B; voeg de dialoogdoos van de Voorganger &#x200B;](assets/add-predecessor-dialog-box.png) toe
 
 1. Selecteer **gedwongen** checkbox als u de voorgangersverhouding tussen de twee taken wilt afdwingen.
 
-   Voor informatie, zie [ predecessors ](../../../manage-work/tasks/use-prdcssrs/enforced-predecessors.md) afdwingen.
+   Voor informatie, zie [&#x200B; predecessors &#x200B;](../../../manage-work/tasks/use-prdcssrs/enforced-predecessors.md) afdwingen.
 
 1. Klik **sparen**.
 
-1. (Facultatief) om een voorganger te verwijderen, selecteer het uit de lijst van voorgangers, dan klik **verwijderen** pictogram ![ verwijderen pictogram ](assets/remove-or-delete-icon.png).
+1. (Facultatief) om een voorganger te verwijderen, selecteer het uit de lijst van voorgangers, dan klik **verwijderen** pictogram ![&#x200B; verwijderen pictogram &#x200B;](assets/remove-or-delete-icon.png).
 
    De voorganger wordt uit de lijst verwijderd. De voorgangstaak wordt niet geschrapt uit zijn project.

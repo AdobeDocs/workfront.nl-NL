@@ -21,7 +21,7 @@ De geplande afgiftedatum is de datum waarop de afgifte naar verwachting zal zijn
 
 U kunt de Geplande Voltooiingsdatum van een kwestie specificeren, of u kunt het aan Adobe Workfront verlaten om het te berekenen afhankelijk van bepaalde criteria.
 
-De geplande uitvoeringstermijnen hebben geen invloed op de geplande uitvoeringsdatum van het project. Alleen de geplande voltooiingsdatums van de taken zijn van invloed op de geplande uitvoeringsdatum van het project. Voor meer informatie over het project Geplande Datum van de Voltooiing, zie [ plaatsen het project Geplande Datum van de Voltooiing ](../../../manage-work/projects/planning-a-project/project-planned-completion-date.md).
+De geplande uitvoeringstermijnen hebben geen invloed op de geplande uitvoeringsdatum van het project. Alleen de geplande voltooiingsdatums van de taken zijn van invloed op de geplande uitvoeringsdatum van het project. Voor meer informatie over het project Geplande Datum van de Voltooiing, zie [&#x200B; plaatsen het project Geplande Datum van de Voltooiing &#x200B;](../../../manage-work/projects/planning-a-project/project-planned-completion-date.md).
 
 >[!NOTE]
 >
@@ -29,10 +29,10 @@ De geplande uitvoeringstermijnen hebben geen invloed op de geplande uitvoeringsd
 >
 >* De Vastlegdatum is de datum waarop de persoon die aan de uitgifte is toegewezen, handmatig schat dat hij de uitgifte zal hebben voltooid. Zie de volgende artikelen voor meer informatie:
 >
->   * [ het overzicht van de Datum van het Vastleggen ](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md)
->   * [ Interacties tussen de Vastlegdatum en de Geplande Datum van de Voltooiing ](../../../manage-work/projects/updating-work-in-a-project/interactions-between-commit-and-planned-completion-dates.md).
+>   * [&#x200B; het overzicht van de Datum van het Vastleggen &#x200B;](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md)
+>   * [&#x200B; Interacties tussen de Vastlegdatum en de Geplande Datum van de Voltooiing &#x200B;](../../../manage-work/projects/updating-work-in-a-project/interactions-between-commit-and-planned-completion-dates.md).
 >
->* De voorspelde afsluitdatum is een door Workfront berekende datum die rekening houdt met externe factoren om een datum in real-time vast te stellen waarop de uitgifte realistisch kan worden voltooid. Voor meer informatie, zie [ Overzicht van de Verwachte Datum van de Voltooiing voor projecten, taken, en kwesties ](../../../manage-work/projects/planning-a-project/project-projected-completion-date.md).
+>* De voorspelde afsluitdatum is een door Workfront berekende datum die rekening houdt met externe factoren om een datum in real-time vast te stellen waarop de uitgifte realistisch kan worden voltooid. Voor meer informatie, zie [&#x200B; Overzicht van de Verwachte Datum van de Voltooiing voor projecten, taken, en kwesties &#x200B;](../../../manage-work/projects/planning-a-project/project-projected-completion-date.md).
 >
 
 ## Handmatig de geplande afsluitdatum van een uitgave instellen
@@ -41,12 +41,12 @@ U moet over Edit toegang tot Kwesties en Beheren toestemmingen op de kwestie heb
 
 U kunt de Geplande Datum van Voltooiing van een kwestie in de volgende gebieden van Workfront manueel plaatsen:
 
-* In het vak Uitgave bewerken of in het gebied Details van uitgave bij het maken of bewerken van een uitgave. Voor informatie, zie [ kwesties ](../../../manage-work/issues/manage-issues/edit-issues.md) uitgeven.
-* In het gebied van het Huis als de Geplande Datum van de Voltooiing in het Summiere paneel van een kwestie verschijnt. Voor informatie, zie [ Update of geef een het werkpunt op het gebied van het Huis ](../../../workfront-basics/using-home/using-the-home-area/update-and-edit-work-item-home.md) uit.
-* In de uitgiftekop. Voor informatie, zie [ Nieuwe objecten kopballen ](../../../workfront-basics/the-new-workfront-experience/new-object-headers.md).
+* In het vak Uitgave bewerken of in het gebied Details van uitgave bij het maken of bewerken van een uitgave. Voor informatie, zie [&#x200B; kwesties &#x200B;](../../../manage-work/issues/manage-issues/edit-issues.md) uitgeven.
+* In het gebied van het Huis als de Geplande Datum van de Voltooiing in het Summiere paneel van een kwestie verschijnt. Voor informatie, zie [&#x200B; Update of geef een het werkpunt op het gebied van het Huis &#x200B;](../../../workfront-basics/using-home/using-the-home-area/update-and-edit-work-item-home.md) uit.
+* In de uitgiftekop. Voor informatie, zie [&#x200B; Nieuwe objecten kopballen &#x200B;](../../../workfront-basics/the-new-workfront-experience/new-object-headers.md).
 * In een uitgiftenlijst of rapport wanneer het Geplande gebied van de Datum van de Voltooiing in de mening toont.
 
-  Voor informatie, zie [ kwesties in een lijst ](../../../manage-work/issues/manage-issues/edit-issues-in-a-list.md) uitgeven.
+  Voor informatie, zie [&#x200B; kwesties in een lijst &#x200B;](../../../manage-work/issues/manage-issues/edit-issues-in-a-list.md) uitgeven.
 
 ## Hoe Workfront automatisch de geplande voltooiingsdatum voor een uitgave berekent
 
@@ -56,7 +56,7 @@ Wanneer Workfront automatisch de Geplande Voltooiingsdatum van een kwestie berek
 
   De ingangsdatum en de geplande begindatum moeten overeenkomen met een uitgave wanneer u de uitgave voor het eerst maakt.
 
-* De standaardduur zoals die in de sectie van de Details van de Rij van het project wordt gevormd. Voor informatie, zie [ een Rij van het Verzoek ](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md) creëren.
+* De standaardduur zoals die in de sectie van de Details van de Rij van het project wordt gevormd. Voor informatie, zie [&#x200B; een Rij van het Verzoek &#x200B;](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md) creëren.
 
   Als de standaardduur 0 dagen is, komt de geplande uitvoeringsdatum overeen met de geplande begindatum van de uitgave.
 
@@ -72,7 +72,7 @@ Planned Completion Date = Planned Start Date (or Entry Date + Default Duration
 
 De volgende situaties bestaan:
 
-* Als het project geen Plan heeft, wordt het StandaardProgramma van uw systeem van Workfront in aanmerking genomen. Voor informatie, zie [ Overzicht van Programma&#39;s ](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/schedules-overview.md).
+* Als het project geen Plan heeft, wordt het StandaardProgramma van uw systeem van Workfront in aanmerking genomen. Voor informatie, zie [&#x200B; Overzicht van Programma&#39;s &#x200B;](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/schedules-overview.md).
 * Als het Programma maandag-vrijdag 9.00 tot 13.00 uur (4 uur per dag) is en de Normale uren van uw Workfront-systeem per werkdag 8 uur, is de Geplande Voltooiingsdatum 27 januari.
 
 >[!TIP]

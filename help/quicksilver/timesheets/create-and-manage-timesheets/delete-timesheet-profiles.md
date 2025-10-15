@@ -21,7 +21,7 @@ Het creëren van en het toewijzen van timesheet profielen aan gebruikers verzeke
 
 U kunt een timesheet-profiel verwijderen dat mogelijk niet meer relevant is.
 
-Voor informatie over timesheet profielen, zie [ creëren, uitgeven, en toewijzen timesheet profielen ](../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).
+Voor informatie over timesheet profielen, zie [&#x200B; creëren, uitgeven, en toewijzen timesheet profielen &#x200B;](../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).
 
 ## Toegangsvereisten
 
@@ -48,7 +48,7 @@ Voor informatie over timesheet profielen, zie [ creëren, uitgeven, en toewijzen
  </tbody> 
 </table>
 
-Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -64,7 +64,7 @@ Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront
 1. Selecteer minstens één timesheet profiel dat u wilt schrappen, dan klikken **Meer** pictogram ![](assets/more-icon.png) > **Schrapping** voor het systeem-brede timesheet profiel
 
 1. Klik **Profielen van de Chronologie**.
-1. Selecteer minstens één timesheet profiel dat u wilt schrappen, dan het meer pictogram ![ meer pictogram ](assets/more-icon.png) klikken > **Schrapping**.
+1. Selecteer minstens één timesheet profiel dat u wilt schrappen, dan het meer pictogram ![&#x200B; meer pictogram &#x200B;](assets/more-icon.png) klikken > **Schrapping**.
 of
 Klik **Meer** > **Schrapping** voor het groep-vlakke timesheet profiel.
 1. (Voorwaardelijk) als het timesheet profiel reeds aan gebruikers wordt toegewezen, de **vakvertoningen van het Profiel van de Tijdopnemer van de Vervanging**. Ga als volgt te werk:

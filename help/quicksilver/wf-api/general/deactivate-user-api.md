@@ -20,9 +20,9 @@ ht-degree: 0%
 
 Wanneer een gebruiker uw organisatie verlaat, kunt u de gebruiker deactiveren, hun Adobe Workfront-licentie beschikbaar maken voor een andere gebruiker en voorkomen dat deze per ongeluk werk krijgt toegewezen. Door een gebruiker te deactiveren, behoudt u de werkgeschiedenis, inclusief de werktoewijzingen en de koppeling met notities, uren en documenten.
 
-Meer over het deactiveren van een gebruiker leren, zie &quot; [ een gebruiker ](../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md) deactiveren of reactiveren.
+Meer over het deactiveren van een gebruiker leren, zie &quot; [&#x200B; een gebruiker &#x200B;](../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md) deactiveren of reactiveren.
 
-Voor informatie over het gebruiken van de Kern API, zie [ API grondbeginselen ](../../wf-api/general/api-basics.md).
+Voor informatie over het gebruiken van de Kern API, zie [&#x200B; API grondbeginselen &#x200B;](../../wf-api/general/api-basics.md).
 
 Een gebruiker deactiveren via de API:
 
@@ -34,7 +34,7 @@ Een gebruiker deactiveren via de API:
 
 1. Zoek GUID voor de gebruiker die u wilt deactiveren.
 
-   Gebruik het volgende API verzoek om GUID voor alle gebruikers in uw systeem terug te winnen, merk op dat het **isActive** gebied **** waar {voor gebruikers toont die momenteel actief en **vals** voor gebruikers zijn die zijn gedeactiveerd:
+   Gebruik het volgende API verzoek om GUID voor alle gebruikers in uw systeem terug te winnen, merk op dat het **isActive** gebied **&#x200B;**&#x200B;waar &lbrace;voor gebruikers toont die momenteel actief en **vals** voor gebruikers zijn die zijn gedeactiveerd:
 
    ```
    <domain>`.my.workfront.com/attask/api/v15.0/USER/search?fields=isActive

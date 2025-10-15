@@ -23,7 +23,7 @@ Zorg ervoor dat u het volgende doet terwijl u de planning voor uw projecten in A
 
   Raadpleeg de volgende artikelen voor meer informatie:
 
-   * [ Planning van het Middel: artikelindex ](../../../resource-mgmt/resource-planning/resource-planning-overview.md)
+   * [&#x200B; Planning van het Middel: artikelindex &#x200B;](../../../resource-mgmt/resource-planning/resource-planning-overview.md)
    * [Aan de slag met de functie Scenario Planner](../../../scenario-planner/get-started-with-scenario-planning.md)
 
-* Plan uw bronnen of wijs deze toe aan taken en problemen. Wanneer u uw middelen aan taken en kwesties toewijst kunt u gebruikers, teams, of rollen aan specifieke het werkpunten associëren die hen verantwoordelijk maken voor de voltooiing van deze punten. Voor informatie, zie [ Overzicht van de Balancer van de Werkbelasting ](../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+* Plan uw bronnen of wijs deze toe aan taken en problemen. Wanneer u uw middelen aan taken en kwesties toewijst kunt u gebruikers, teams, of rollen aan specifieke het werkpunten associëren die hen verantwoordelijk maken voor de voltooiing van deze punten. Voor informatie, zie [&#x200B; Overzicht van de Balancer van de Werkbelasting &#x200B;](../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).

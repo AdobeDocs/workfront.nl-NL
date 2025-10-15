@@ -50,7 +50,7 @@ Voor informatie over hoe uw beheerder van Workfront toelaat en acties vormt, zie
  </tbody> 
 </table>
 
-Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -65,11 +65,11 @@ Een actie toepassen op een bestaande opmerking in de conceptviewer:
 
    * Klik op het vlagpictogram in de rechterbenedenhoek van de opmerking en klik vervolgens op de gewenste actie in het vervolgkeuzemenu.
 
-     ![ de vlagpictogram van Acties ](assets/actions-flag-icon-350x198.png)
+     ![&#x200B; de vlagpictogram van Acties &#x200B;](assets/actions-flag-icon-350x198.png)
 
    * Klik het **Meer** pictogram (drie horizontale punten op de commentaar), dan klik de actie u in de lagere sectie van het drop-down menu wilt dat verschijnt.
 
-     ![ Actions_on_comments-More_menu.png ](assets/actions-on-coments-more-menu-350x347.png)
+     ![&#x200B; Actions_on_comments-More_menu.png &#x200B;](assets/actions-on-coments-more-menu-350x347.png)
 
 1. (Optioneel) Als u van gedachten verandert, kunt u een van de volgende handelingen uitvoeren:
 
@@ -79,4 +79,4 @@ Een actie toepassen op een bestaande opmerking in de conceptviewer:
 
 >[!TIP]
 >
->U kunt opmerkingen filteren op een bepaalde handeling. Voor meer informatie, zie [ Onderzoek, filter, en de commentaren van de soortproef ](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/search-filter-sort-comments.md).
+>U kunt opmerkingen filteren op een bepaalde handeling. Voor meer informatie, zie [&#x200B; Onderzoek, filter, en de commentaren van de soortproef &#x200B;](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/search-filter-sort-comments.md).

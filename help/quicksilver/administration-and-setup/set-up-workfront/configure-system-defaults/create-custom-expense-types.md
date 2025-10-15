@@ -47,7 +47,7 @@ U kunt alle onkostentypen die u maakt, bewerken of verwijderen. U kunt de ingebo
  </tbody> 
 </table>
 
-Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -93,7 +93,7 @@ De standaarduitgaventypen in [!DNL Workfront] die niet kunnen worden verwijderd 
 {{step-1-to-setup}}
 
 1. Klik op **[!UICONTROL Expense Types]**.
-1. Selecteer het onkostentype dat u wilt wijzigen, dan klik het **[!UICONTROL Edit]** pictogram ![ uitgeven pictogram ](assets/edit-icon.png).
+1. Selecteer het onkostentype dat u wilt wijzigen, dan klik het **[!UICONTROL Edit]** pictogram ![&#x200B; uitgeven pictogram &#x200B;](assets/edit-icon.png).
 
    Het dialoogvenster **[!UICONTROL Edit Expense Type]** wordt weergegeven.
 
@@ -101,4 +101,4 @@ De standaarduitgaventypen in [!DNL Workfront] die niet kunnen worden verwijderd 
 
    Het uitgaventype is nu beschikbaar voor gebruikers om het met hun uitgaven op projecten en taken te associëren.
 
-Voor meer informatie over hoe te om kosten te gebruiken en hoe zij de kosten van een project kunnen beïnvloeden, zie artikel [ projectuitgaven beheren ](../../../manage-work/projects/project-finances/manage-project-expenses.md).
+Voor meer informatie over hoe te om kosten te gebruiken en hoe zij de kosten van een project kunnen beïnvloeden, zie artikel [&#x200B; projectuitgaven beheren &#x200B;](../../../manage-work/projects/project-finances/manage-project-expenses.md).

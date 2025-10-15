@@ -19,7 +19,7 @@ ht-degree: 0%
 
 Wanneer u een nieuw aangepast veld of een nieuwe aangepaste widget toevoegt aan een aangepast formulier, kan iedereen in het systeem die toegang heeft tot aangepaste formulieren standaard de eigenschappen voor dat item bewerken, zoals het label en de naam. U kunt dit wijzigen door te bepalen met wie het bestand kan worden gedeeld.
 
-Voor informatie over douanegebieden en widgets in douanevormen, zie [ een douanevorm ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren.
+Voor informatie over douanegebieden en widgets in douanevormen, zie [&#x200B; een douanevorm &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren.
 
 ## Toegangsvereisten
 
@@ -45,7 +45,7 @@ Voor informatie over douanegebieden en widgets in douanevormen, zie [ een douane
  </tbody> 
 </table>
 
-Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -55,16 +55,16 @@ Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront
 
 1. In het linkerpaneel, klik **Aangepaste Forms**.
 1. Klik **Gebieden** om het gebied van Gebieden te openen.
-1. Selecteer het punt u het delen voor wilt vormen, dan klik ![ pictogram van het Aandeel ](assets/share-icon.png).
+1. Selecteer het punt u het delen voor wilt vormen, dan klik ![&#x200B; pictogram van het Aandeel &#x200B;](assets/share-icon.png).
 1. Geef in het vak Aangepaste veldtoegang dat wordt weergegeven op met wie u het item wilt delen en hoe u het wilt delen:
 
    1. Vlak de laag-linkerhoek van de **doos van de Toegang van het Gebied van de Douane**, onder **geef de toegang van het douanegebied tot**, begin de naam van een gebruiker, een team, een baanrol, een groep, of een bedrijf te typen u het punt met wilt delen, dan de naam klikken wanneer het verschijnt.
 
-      ![ doos van de Toegang van het Gebied van de Douane ](assets/share-field-give-access-to.jpg)
+      ![&#x200B; doos van de Toegang van het Gebied van de Douane &#x200B;](assets/share-field-give-access-to.jpg)
 
    1. Als u specifieker wilt zijn over hoe u het punt wilt delen, klik de drop-down lijst rechts van de naam, dan gebruik om het even welke volgende opties:
 
-      ![ het Delen opties ](assets/share-field-view-mng-options.jpg)
+      ![&#x200B; het Delen opties &#x200B;](assets/share-field-view-mng-options.jpg)
 
       <table style="table-layout:auto"> 
        <col> 
@@ -82,7 +82,7 @@ Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront
       </table>
 
 1. (Optioneel) Herhaal de vorige stap om andere namen aan de lijst toe te voegen en de opties te configureren.
-1. (Facultatief) klik het pictogram van de Montages van het tandwielpictogram ![ ](assets/gear-icon-settings.png) in de hoger-juiste hoek als u een systeem-brede het delen optie voor het gebied wilt kiezen.
+1. (Facultatief) klik het pictogram van de Montages van het tandwielpictogram ![&#x200B; &#x200B;](assets/gear-icon-settings.png) in de hoger-juiste hoek als u een systeem-brede het delen optie voor het gebied wilt kiezen.
 
    Niet alle volgende opties worden tegelijkertijd weergegeven in dit vervolgkeuzemenu. De tweede wordt bijvoorbeeld alleen weergegeven wanneer een van de andere twee is geselecteerd.
 
@@ -135,7 +135,7 @@ Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront
 
      Beperkt de toegang tot slechts die u aan de lijst toevoegde.
 
-   ![ het Delen opties ](assets/share-field-in-designer.png)
+   ![&#x200B; het Delen opties &#x200B;](assets/share-field-in-designer.png)
 
 1. Klik **sparen**.
 
@@ -160,4 +160,4 @@ U kunt erachter komen wie toegang tot een aangepast veld of een aangepaste widge
 
 ### Toegang tot een aangepast veld of aangepaste widget verwijderen in een aangepast formulier dat is gedeeld {#remove-access-to-a-custom-field-or-widget-in-a-custom-form-that-was-shared}
 
-Als u de toegang tot een aangepast veld of een aangepaste widget in een gedeeld formulier moet verwijderen, moet u het delen van het formulier opheffen. Voor instructies, zie de sectie [ toegang tot een douaneformulier ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md#remove-access-to-a-custom-form-from-the-list-of-forms) in het artikel [ om een douaneformulier ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md) te delen.
+Als u de toegang tot een aangepast veld of een aangepaste widget in een gedeeld formulier moet verwijderen, moet u het delen van het formulier opheffen. Voor instructies, zie de sectie [&#x200B; toegang tot een douaneformulier &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md#remove-access-to-a-custom-form-from-the-list-of-forms) in het artikel [&#x200B; om een douaneformulier &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md) te delen.

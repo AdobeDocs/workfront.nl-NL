@@ -52,7 +52,7 @@ U kunt één enkele termijn voor een basisproef plaatsen nadat het is gecreeerd.
  </tbody> 
 </table>
 
-Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -63,7 +63,7 @@ Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront
 1. Klik **het Proofing Werkschema**.
 1. In het **gebied van het Werkschema**, uitgezochte **Geen Deadline**.
 
-   ![ Geen deadline ](assets/no-deadline-basic-proof-350x70.png)
+   ![&#x200B; Geen deadline &#x200B;](assets/no-deadline-basic-proof-350x70.png)
 
 1. Kies een datum, geef een tijd op en klik vervolgens ergens op het scherm.
 1. Kies of u de controleurs op de hoogte wilt stellen van de nieuwe deadline.

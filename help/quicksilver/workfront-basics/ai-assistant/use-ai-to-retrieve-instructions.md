@@ -16,7 +16,7 @@ ht-degree: 0%
 
 AI Assistant kan informatie zoeken in Workfront-documentatie, zodat u niet naar de Adobe Experience League hoeft te gaan om de hulp te krijgen die u nodig hebt.
 
-Bijvoorbeeld, als u AI Medewerker &quot;vraagt hoe ik een verzoekrij creeer,&quot;keert het instructies voor het creëren van het verzoek terug, die uit artikel [ worden getrokken leidt tot en beheert de Queues van het Verzoek ](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+Bijvoorbeeld, als u AI Medewerker &quot;vraagt hoe ik een verzoekrij creeer,&quot;keert het instructies voor het creëren van het verzoek terug, die uit artikel [&#x200B; worden getrokken leidt tot en beheert de Queues van het Verzoek &#x200B;](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
 
 ## Toegangsvereisten
@@ -38,7 +38,7 @@ Bijvoorbeeld, als u AI Medewerker &quot;vraagt hoe ik een verzoekrij creeer,&quo
  </tbody> 
 </table>
 
-Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -46,16 +46,16 @@ Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront
 
 * Uw Workfront-beheerder moet AI Assistant hebben ingeschakeld voor uw organisatie.
 
-  Voor meer informatie, zie [ Vereisten aan AI Medewerker ](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant) in het artikelAI Hulpoverzicht.
+  Voor meer informatie, zie [&#x200B; Vereisten aan AI Medewerker &#x200B;](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant) in het artikelAI Hulpoverzicht.
 * Uw Workfront-beheerder moet AI Assistant hebben ingeschakeld voor uw toegangsniveau.
 
-  Voor meer informatie, zie [ toelaten of AI Medewerker ](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md) onbruikbaar maken.
+  Voor meer informatie, zie [&#x200B; toelaten of AI Medewerker &#x200B;](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md) onbruikbaar maken.
 
 ## Informatie ophalen van AI Assistant
 
 Informatie of instructies ophalen uit de Workfront-documentatie met behulp van AI Assistant:
 
-1. Klik het **pictogram AI van de Medewerker** AI Medewerker pictogram ![ dichtbij de hoger-juiste hoek van het scherm.](assets/ai-assistant-icon.png)
+1. Klik het **pictogram AI van de Medewerker** AI Medewerker pictogram ![&#x200B; dichtbij de hoger-juiste hoek van het scherm.](assets/ai-assistant-icon.png)
 1. Voer in het deelvenster AI-assistent de vraag in het tekstgebied onder aan het deelvenster in.
 
    AI Assistant kan enkele ogenblikken duren om de informatie te zoeken, afhankelijk van de grootte of complexiteit van de vraag. We raden eenvoudige aanwijzingen aan.

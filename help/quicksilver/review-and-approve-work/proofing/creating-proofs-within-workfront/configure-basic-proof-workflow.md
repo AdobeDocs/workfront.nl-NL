@@ -50,7 +50,7 @@ Met een basisworkflow kunt u meerdere revisoren een proefdruk laten maken, maar 
  </tbody> 
 </table>
 
-Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -68,7 +68,7 @@ Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront
 1. In de het type van Werkschema sectie, kies **Basis**.
 1. Geef de gebruikers op die u wilt toevoegen en kies een proefdrukrol.
 
-   ![ Nieuwe proefdrukrollen ](assets/new-proof---roles-350x213.png)
+   ![&#x200B; Nieuwe proefdrukrollen &#x200B;](assets/new-proof---roles-350x213.png)
 
 1. In de volgende tabel worden elke rol en de bijbehorende rechten weergegeven.
 
@@ -265,17 +265,17 @@ Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront
     </tbody> 
    </table>
 
-1. Ga met [ verder vormen e-mailmontages voor de proef ](#configure-email-settings-for-the-proof) hieronder.
+1. Ga met [&#x200B; verder vormen e-mailmontages voor de proef &#x200B;](#configure-email-settings-for-the-proof) hieronder.
 
 ## E-mailinstellingen configureren voor de proefdruk {#configure-email-settings-for-the-proof}
 
-1. In de **E-mail- bericht** sectie, selecteer of om e-mailberichten en een douanebericht naar de gebruikers te verzenden u in [ selecteerde creeer een geavanceerde proef met een Basiswerkschema ](#workflow) vroeger in dit artikel:
+1. In de **E-mail- bericht** sectie, selecteer of om e-mailberichten en een douanebericht naar de gebruikers te verzenden u in [&#x200B; selecteerde creeer een geavanceerde proef met een Basiswerkschema &#x200B;](#workflow) vroeger in dit artikel:
 
    <table>
    <tbody>
    <tr>
    <td>Ontvangers op de hoogte stellen van dit bewijs</td>
-   <td>Selecteer deze optie om een e-mailbericht naar gebruikers te verzenden. Wanneer <strong> Basis het delen </strong> in de <strong> 3} sectie van het Werkschema {wordt geselecteerd, wordt een e-mailbericht verzonden wanneer de proef wordt gecreeerd. </strong> Wanneer <strong> Geautomatiseerde werkschema </strong> in de <strong> 3} sectie van het Werkschema {wordt geselecteerd, wordt een e-mailbericht verzonden wanneer het bewijs het stadium van het Geautomatiseerde Werkschema ingaat dat de gebruiker met wordt geassocieerd.</strong></td>
+   <td>Selecteer deze optie om een e-mailbericht naar gebruikers te verzenden. Wanneer <strong> Basis het delen </strong> in de <strong> 3&rbrace; sectie van het Werkschema {wordt geselecteerd, wordt een e-mailbericht verzonden wanneer de proef wordt gecreeerd. </strong> Wanneer <strong> Geautomatiseerde werkschema </strong> in de <strong> 3} sectie van het Werkschema &lbrace;wordt geselecteerd, wordt een e-mailbericht verzonden wanneer het bewijs het stadium van het Geautomatiseerde Werkschema ingaat dat de gebruiker met wordt geassocieerd.</strong></td>
    </tr>
    <tr>
    <td>Aangepast bericht toevoegen</td>
@@ -285,7 +285,7 @@ Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront
    </table>
 
 
-1. Ga met [ verder vormen proefmontages ](#configure-proof-settings) hieronder.
+1. Ga met [&#x200B; verder vormen proefmontages &#x200B;](#configure-proof-settings) hieronder.
 
 ## Proofinginstellingen configureren {#configure-proof-settings}
 
@@ -344,6 +344,6 @@ Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront
 
 1. Nadat de proef wordt geproduceerd, klik **Open proef** om de het proef kijker te lanceren.
 
-   ![ Open proef ](assets/open-proof-350x132.png)
+   ![&#x200B; Open proef &#x200B;](assets/open-proof-350x132.png)
 
    Gebruikers die geen proefdrukken op hun account hebben ingeschakeld, kunnen het document nog steeds bekijken en opmerkingen naar de proefdruk maken.

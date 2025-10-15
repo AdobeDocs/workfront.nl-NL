@@ -17,11 +17,11 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Als [ Microsoft overgangen aan de Nieuwe cliënt van Teams ](https://learn.microsoft.com/en-us/microsoftteams/teams-classic-client-end-of-availability), zal de Klassieke cliënt van Teams niet meer beschikbaar na 1 Juli, 2025 zijn. Als u Microsoft Teams en geïntegreerde toepassingen zoals Workfront wilt blijven gebruiken, moeten klanten vóór deze datum overstappen naar de New Teams-client.
+>Als [&#x200B; Microsoft overgangen aan de Nieuwe cliënt van Teams &#x200B;](https://learn.microsoft.com/en-us/microsoftteams/teams-classic-client-end-of-availability), zal de Klassieke cliënt van Teams niet meer beschikbaar na 1 Juli, 2025 zijn. Als u Microsoft Teams en geïntegreerde toepassingen zoals Workfront wilt blijven gebruiken, moeten klanten vóór deze datum overstappen naar de New Teams-client.
 >
->De bijgewerkte Workfront-integratie is nu beschikbaar en volledig compatibel met de New Teams-ervaring. In de meeste gevallen wordt Workfront automatisch weergegeven wanneer gebruikers een overgang hebben gemaakt. Als dit niet het geval is, kan de integratie handmatig worden geïnstalleerd vanaf de Microsoft Teams App Store. Om de integratie van Workfront in de Nieuwe cliënt van Teams te installeren of te verifiëren, zie [  [!DNL Adobe Workfront]  installeren voor Microsoft Teams ](/help/quicksilver/workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md).
+>De bijgewerkte Workfront-integratie is nu beschikbaar en volledig compatibel met de New Teams-ervaring. In de meeste gevallen wordt Workfront automatisch weergegeven wanneer gebruikers een overgang hebben gemaakt. Als dit niet het geval is, kan de integratie handmatig worden geïnstalleerd vanaf de Microsoft Teams App Store. Om de integratie van Workfront in de Nieuwe cliënt van Teams te installeren of te verifiëren, zie [&#x200B;  [!DNL Adobe Workfront]  installeren voor Microsoft Teams &#x200B;](/help/quicksilver/workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md).
 
-Nadat de eigenaar van uw team [!DNL Adobe Workfront for Microsoft Teams] heeft geïnstalleerd, kunt u [!DNL Workfront] -aanvragen indienen via uw [!DNL Microsoft Teams] -account. Hiervoor hebt u een Workfront-account nodig die toegang heeft tot het verzenden van aanvragen. Voor informatie over het installeren van [!DNL Workfront for Microsoft Teams], zie [ het Installeren  [!DNL Workfront for Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md).
+Nadat de eigenaar van uw team [!DNL Adobe Workfront for Microsoft Teams] heeft geïnstalleerd, kunt u [!DNL Workfront] -aanvragen indienen via uw [!DNL Microsoft Teams] -account. Hiervoor hebt u een Workfront-account nodig die toegang heeft tot het verzenden van aanvragen. Voor informatie over het installeren van [!DNL Workfront for Microsoft Teams], zie [&#x200B; het Installeren  [!DNL Workfront for Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md).
 
 >[!NOTE]
 >
@@ -50,7 +50,7 @@ Nadat de eigenaar van uw team [!DNL Adobe Workfront for Microsoft Teams] heeft g
  </tbody> 
 </table>
 
-Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -69,7 +69,7 @@ De eigenaar van het [!DNL Microsoft Teams] -team moet [!DNL Workfront] for [!DNL
 1. (Optioneel) Selecteer een onderwerpgroep of een onderwerp in de wachtrij als deze beschikbaar zijn in de aanvraagwachtrij.
 1. Geef de volgende informatie op:
 
-   (Afhankelijk van hoe de verzoekrij opstelling was, zouden de opties en de dozen u ziet kunnen variëren. Voor een volledige lijst en een beschrijving van mogelijke gebieden, zie [  [!DNL Adobe Workfront]  verzoeken ](../../manage-work/requests/create-requests/create-submit-requests.md) creëren en voorleggen.)
+   (Afhankelijk van hoe de verzoekrij opstelling was, zouden de opties en de dozen u ziet kunnen variëren. Voor een volledige lijst en een beschrijving van mogelijke gebieden, zie [&#x200B;  [!DNL Adobe Workfront]  verzoeken &#x200B;](../../manage-work/requests/create-requests/create-submit-requests.md) creëren en voorleggen.)
 
    <table style="table-layout:auto"> 
     <col> 

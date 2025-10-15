@@ -21,7 +21,7 @@ Als Adobe Workfront-beheerder kunt u de pagina Mededelingen gebruiken om aankond
 
 Aankondigingsberichten van Workfront bevatten doorgaans informatie over nieuwe functies en releases, proceswijzigingen enzovoort.
 
-Voor informatie over het bekijken van aankondigingen, zie [ Mening en beheer in-app berichten ](../../workfront-basics/using-notifications/view-and-manage-in-app-notifications.md).
+Voor informatie over het bekijken van aankondigingen, zie [&#x200B; Mening en beheer in-app berichten &#x200B;](../../workfront-basics/using-notifications/view-and-manage-in-app-notifications.md).
 
 ## Toegangsvereisten
 
@@ -46,7 +46,7 @@ Voor informatie over het bekijken van aankondigingen, zie [ Mening en beheer in-
  </tbody> 
 </table>
 
-Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -54,7 +54,7 @@ Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront
 
 U kunt de **pagina van Mededelingen** gebruiken om met gebruikers in uw systeem van Workfront te communiceren door aankondigingen door:sturen die van Workfront worden verzonden en door nieuwe aankondigingen samen te stellen. U kunt aankondigingen naar specifieke gebruikers, groepen, teams of bedrijven in uw Workfront-systeem verzenden.
 
-* [ door:sturen Workfront aankondigingen aan gebruikers ](#forward-workfront-announcements-to-users)
+* [&#x200B; door:sturen Workfront aankondigingen aan gebruikers &#x200B;](#forward-workfront-announcements-to-users)
 * [Nieuwe aankondigingen samenstellen](#compose-new-announcements)
 
 ### Workfront-aankondigingen doorsturen naar gebruikers {#forward-workfront-announcements-to-users}
@@ -63,7 +63,7 @@ U kunt gemakkelijk berichten die u van Workfront aan gebruikers in uw systeem on
 
 1. Ga naar de pagina van Mededelingen door het **pictogram van het Bericht** in de hoger-juiste hoek van de interface van Workfront te klikken, dan klik **Alle Mededelingen**.
 
-   ![ Alle aankondigingen ](assets/announcement-access-350x212.png)
+   ![&#x200B; Alle aankondigingen &#x200B;](assets/announcement-access-350x212.png)
 
 1. Voor de **pagina van Mededelingen**, selecteer het bericht dat u wilt door:sturen.
 1. Klik **vooruit**.
@@ -73,13 +73,13 @@ U kunt gemakkelijk berichten die u van Workfront aan gebruikers in uw systeem on
 
    Om de aankondiging aan alle gebruikers in uw systeem door:sturen, begin **iedereen** te typen, dan het te klikken wanneer het in de drop-down lijst verschijnt.
 
-1. Ga met Stap 3 in [ verder stel nieuwe aankondigingen ](#compose-new-announcements) samen.
+1. Ga met Stap 3 in [&#x200B; verder stel nieuwe aankondigingen &#x200B;](#compose-new-announcements) samen.
 
 ### Nieuwe aankondigingen samenstellen {#compose-new-announcements}
 
 1. Ga naar de pagina van Mededelingen door het **pictogram van het Bericht** in de hoger-juiste hoek van de interface van Workfront te klikken, dan klik **Alle Mededelingen**.
 
-   ![ Alle aankondigingen ](assets/announcement-access-350x212.png)
+   ![&#x200B; Alle aankondigingen &#x200B;](assets/announcement-access-350x212.png)
 
 1. Op de **Mededelingen** pagina, klik **Nieuwe Aankondiging.**
 
@@ -102,7 +102,7 @@ U kunt gemakkelijk berichten die u van Workfront aan gebruikers in uw systeem on
 
 1. Klik **verzenden.**
 
-   De gebruikers kunnen het aankondigingsbericht nu bekijken, zoals die in [ wordt beschreven Mening en binnen-app berichten ](../../workfront-basics/using-notifications/view-and-manage-in-app-notifications.md) beheert.
+   De gebruikers kunnen het aankondigingsbericht nu bekijken, zoals die in [&#x200B; wordt beschreven Mening en binnen-app berichten &#x200B;](../../workfront-basics/using-notifications/view-and-manage-in-app-notifications.md) beheert.
 
 ## Beperk de typen Workfront-aankondigingen die u ontvangt
 

@@ -22,7 +22,7 @@ ht-degree: 2%
 
 U kunt geen verbinding maken met ADFS.
 
-![ error_message.png ](assets/error-message.png)
+![&#x200B; error_message.png &#x200B;](assets/error-message.png)
 
 >[!NOTE]
 >
@@ -52,7 +52,7 @@ U kunt geen verbinding maken met ADFS.
  </tbody> 
 </table>
 
-Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

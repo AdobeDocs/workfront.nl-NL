@@ -49,7 +49,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren en 
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -59,16 +59,16 @@ U kunt de tijd van het logboek rechtstreeks van de werklijst registreren:
 
 {{step1-to-priorities}}
 
-1. Beweeg over de naam, dan klik **Meer** ![ Meer pictogram ](assets/more-icon.png) pictogram.
+1. Beweeg over de naam, dan klik **Meer** ![&#x200B; Meer pictogram &#x200B;](assets/more-icon.png) pictogram.
 1. Selecteer **tijd van het Logboek**.
-   ![ Update, logboektijd, en upload ](assets/update-log-upload.png)
+   ![&#x200B; Update, logboektijd, en upload &#x200B;](assets/update-log-upload.png)
 1. In het **drop-down menu van het Type van 1 uur**, selecteer het aangewezen uurtype. De types van uren zijn beschikbaar afhankelijk van wat op het systeem, het project, en gebruikersniveaus is bepaald, zoals die in Define uurtypes en beschikbaarheid wordt beschreven.
 
 1. (Voorwaardelijk) Als uw Workfront of groepsbeheerder de optie Taak toewijzen aan uren handmatig heeft ingeschakeld, selecteert u een taakrol in het keuzemenu. De rol die wordt gespecificeerd wanneer u aan de het werkpuntvertoningen door gebrek wordt toegewezen. Als u geen rol op het voorwerp wordt toegewezen, toont uw Primaire Rol als gebrek. Als u geen primaire rol hebt toegewezen, wordt de rol Geen taak weergegeven.
 
 1. Ga de tijd in u wilt registreren, dan klik **tijd van het Logboek**.
 
-   ![ tijd van het Logboek ](assets/log-time-dialog.png)
+   ![&#x200B; tijd van het Logboek &#x200B;](assets/log-time-dialog.png)
 
 ## Tijd vastleggen in een werkitem
 
@@ -83,4 +83,4 @@ U kunt de tijd in een individueel het werkpunt registreren:
 
 1. Ga de tijd in u wilt registreren, dan klik **tijd van het Logboek**.
 
-   ![ tijd van het Logboek ](assets/log-time-dialog.png)
+   ![&#x200B; tijd van het Logboek &#x200B;](assets/log-time-dialog.png)

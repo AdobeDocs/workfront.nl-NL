@@ -56,7 +56,7 @@ Prioriteiten geven de werkitems weer die aan u zijn toegewezen. U kunt geen werk
  </tbody> 
 </table>
 
-Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -74,7 +74,7 @@ Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Work
    * Een bestand toevoegen
    * Ga rechtstreeks naar het project
 
-   ![ projectdetails ](assets/project-details-new.png)
+   ![&#x200B; projectdetails &#x200B;](assets/project-details-new.png)
 
 ### Taakdetails weergeven
 
@@ -91,7 +91,7 @@ Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Work
    * Snelle koppelingen toevoegen
 
 
-   ![ taakdetails ](assets/task-details-new.png)
+   ![&#x200B; taakdetails &#x200B;](assets/task-details-new.png)
 
 ### Uitgavendetails weergeven
 
@@ -108,7 +108,7 @@ Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Work
       * Een bestand toevoegen
       * Snelle koppelingen toevoegen
 
-   ![ uitgiftedetails ](assets/issue-details.png)
+   ![&#x200B; uitgiftedetails &#x200B;](assets/issue-details.png)
 
 ## Details weergeven op de pagina Details
 

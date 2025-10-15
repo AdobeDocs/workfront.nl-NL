@@ -51,7 +51,7 @@ Prioriteiten geven de werkitems weer die aan u zijn toegewezen. U kunt geen werk
  </tbody> 
 </table>
 
-Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -64,7 +64,7 @@ U kunt een opmerking toevoegen vanuit de werklijst:
 
 1. Zoek het werkitem dat u wilt bijwerken.
 1. Beweeg over de naam, dan klik **nieuwe update** toevoegen.
-   ![ voeg nieuwe update ](assets/add-update.png) toe
+   ![&#x200B; voeg nieuwe update &#x200B;](assets/add-update.png) toe
    <!--new screen for prod ![Update](assets/update-log-upload.png)-->
 1. Typ uw opmerking.
 1. (Facultatief) in de **mensen of teams van de Markering** doos, begin de naam of e-mail van een gebruiker, of een team te typen dat u in deze commentaar zou willen omvatten, dan het selecteren wanneer het in de lijst toont.
@@ -75,7 +75,7 @@ U kunt een opmerking toevoegen vanuit de werklijst:
    >
    >Je kunt je opmerking alleen binnen 15 minuten bewerken nadat je deze hebt verzonden. Om een commentaar uit te geven, klik het **Meer** menu in de hoger-juiste hoek van de commentaar, dan klik **uitgeven**.
 
-Voor meer gedetailleerde informatie over het toevoegen van updates, zie [ een update aan een het werkpunt ](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md) toevoegen.
+Voor meer gedetailleerde informatie over het toevoegen van updates, zie [&#x200B; een update aan een het werkpunt &#x200B;](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md) toevoegen.
 
 ## Opmerkingen en systeemupdates in een werkitem weergeven en toevoegen
 
@@ -88,7 +88,7 @@ U kunt opmerkingen toevoegen en opmerkingen en systeemupdates weergeven in een a
 1. (Facultatief) gebruik het **lusje van Commentaren** om updates te bekijken anderen op het het werkpunt hebben gemaakt.
 1. (Facultatief) gebruik het **de activiteit van het Systeem** lusje om de systeemactiviteit met betrekking tot het het werkpunt te bekijken.
 1. (Facultatief) om een commentaar toe te voegen, ga naar het **lusje van de Commentaar** en begin typend in de **Nieuwe commentaardoos**. Klik **voorleggen** wanneer u wordt gebeëindigd.
-   ![ gebied van Updates ](assets/updates-area-in-overview.png)
+   ![&#x200B; gebied van Updates &#x200B;](assets/updates-area-in-overview.png)
 
 ## Een opmerking beantwoorden
 
@@ -99,7 +99,7 @@ U kunt reageren op een opmerking in een tijdelijk onderdeel:
 1. Klik op de naam van een het werkpunt om de **pagina van het Overzicht** te openen.
 1. Bepaal de plaats van het **gebied van Updates** in de bodem-juiste hoek van het scherm.
 1. Op het **lusje van Commentaren**, vind de commentaar u wilt antwoorden aan, dan **antwoordt**.
-1. (Voorwaardelijk) Als u de inhoud van een bericht in uw antwoord wilt brengen, klik het **Meer** menupictogram ![ Meer menu ](assets/more-icon.png) naast het lichaam van het bericht en kies **antwoord van het Citaat**.
+1. (Voorwaardelijk) Als u de inhoud van een bericht in uw antwoord wilt brengen, klik het **Meer** menupictogram ![&#x200B; Meer menu &#x200B;](assets/more-icon.png) naast het lichaam van het bericht en kies **antwoord van het Citaat**.
 
 1. Typ uw antwoord, dan klik **voorleggen**.
 
@@ -107,4 +107,4 @@ U kunt reageren op een opmerking in een tijdelijk onderdeel:
    >
    >Je kunt je opmerking alleen binnen 15 minuten bewerken nadat je deze hebt verzonden. Om een commentaar uit te geven, klik het **Meer** menu in de hoger-juiste hoek van de commentaar, dan klik **uitgeven**.
 
-   ![ Antwoord aan commentaar ](assets/reply-to-comment.png)
+   ![&#x200B; Antwoord aan commentaar &#x200B;](assets/reply-to-comment.png)

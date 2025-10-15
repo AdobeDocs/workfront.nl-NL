@@ -21,7 +21,7 @@ Als u een Adobe Workfront-beheerder bent, kunt u de mogelijkheid voor groepsbehe
 
 Als er groepen zijn boven de groep die u beheert, kunnen hun beheerders dit ook voor uw groep doen. Hetzelfde geldt voor Workfront-beheerders (voor elke groep).
 
-Wanneer een beheerder een gebeurtenisbericht voor een groep vormt, beïnvloedt de configuratie gebruikers voor wie die groep, of één van zijn subgroepen, hun Groep van het Huis is. In hun gebruikersprofielen zien deze gebruikers de gebeurtenismeldingen die voor hun thuisgroep zijn geactiveerd in plaats van de gebeurtenismeldingen die voor het hele systeem zijn geactiveerd. Voor meer informatie, zie [ Mening en vorm gebeurtenisberichten voor een groep ](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md).
+Wanneer een beheerder een gebeurtenisbericht voor een groep vormt, beïnvloedt de configuratie gebruikers voor wie die groep, of één van zijn subgroepen, hun Groep van het Huis is. In hun gebruikersprofielen zien deze gebruikers de gebeurtenismeldingen die voor hun thuisgroep zijn geactiveerd in plaats van de gebeurtenismeldingen die voor het hele systeem zijn geactiveerd. Voor meer informatie, zie [&#x200B; Mening en vorm gebeurtenisberichten voor een groep &#x200B;](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md).
 
 >[!NOTE]
 >
@@ -54,7 +54,7 @@ Wanneer een beheerder een gebeurtenisbericht voor een groep vormt, beïnvloedt d
  </tbody> 
 </table>
 
-Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -69,11 +69,11 @@ Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront
 1. Klik **E-mail** > **Meldingen**.
 
 1. Zorg ervoor de **Berichten van de Gebeurtenis** tabel open is.
-1. Klik het pictogram aan het recht van het bericht om het aan het gesloten ![ pictogram van het Slot ](assets/lock-toggle-button.png) of ontgrendelde ![ te schakelen ontgrendelen pictogram ](assets/unlock-toggle-button.png) positie.
+1. Klik het pictogram aan het recht van het bericht om het aan het gesloten ![&#x200B; pictogram van het Slot &#x200B;](assets/lock-toggle-button.png) of ontgrendelde ![&#x200B; te schakelen ontgrendelen pictogram &#x200B;](assets/unlock-toggle-button.png) positie.
 
    of
 
-   Als u veelvoudige berichten wilt ontgrendelen of sluiten allen in één keer, hen selecteren, dan klik het pictogram van de Ontgrendeling ![ of van het Slot ](assets/unlock-icon-toolbar.png) het pictogram van het Slot ![ knoop dat in de toolbar boven de lijst toont.](assets/lock-icon-locked-qs.png)
+   Als u veelvoudige berichten wilt ontgrendelen of sluiten allen in één keer, hen selecteren, dan klik het pictogram van de Ontgrendeling ![&#x200B; of van het Slot &#x200B;](assets/unlock-icon-toolbar.png) het pictogram van het Slot ![&#x200B; knoop dat in de toolbar boven de lijst toont.](assets/lock-icon-locked-qs.png)
 
 1. Klik **sparen**.
 1. (Optioneel) Als u het gebeurtenisbericht voor een groep op hoofdniveau wilt configureren in plaats van deze taak over te laten aan de beheerder van de groep, kunt u een van de volgende handelingen uitvoeren:

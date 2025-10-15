@@ -53,7 +53,7 @@ U kunt een dashboard afdrukken of exporteren naar een .PDF-bestand. Als u een da
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -61,13 +61,13 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 Het dashboard moet worden gemaakt voordat u het kunt afdrukken.
 
-Voor informatie bij het creëren van dashboards, zie [ een dashboard ](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md) creëren.
+Voor informatie bij het creëren van dashboards, zie [&#x200B; een dashboard &#x200B;](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md) creëren.
 
 ## Begrijp welke informatie wordt gedrukt wanneer het drukken van een dashboard
 
 Wanneer u een dashboard afdrukt of opslaat als een .PDF-bestand, worden sommige gegevens van het dashboard, zoals deze worden weergegeven in de Adobe Workfront-webtoepassing, mogelijk niet weergegeven in het afgedrukte of geëxporteerde bestand.
 
-* [ wat wordt getoond?](#what-is-displayed)
+* [&#x200B; wat wordt getoond?](#what-is-displayed)
 * [Wat wordt niet weergegeven?](#what-is-not-displayed)
 
 ### Wat wordt weergegeven? {#what-is-displayed}
@@ -78,7 +78,7 @@ De volgende informatie wordt opgenomen in het afgedrukte of geëxporteerde dashb
 * Titels rapporteren
 * Tijdstempel van wanneer het rapport voor het laatst is gegenereerd
 * Alle objecten op het dashboard, inclusief lijstweergaven, externe webpagina&#39;s, rapporten en kalenders
-* Het logo van uw bedrijf, als uw Workfront-beheerder dit heeft aangepast in uw globale navigatiebalk. Voor meer informatie over branding de plaats van Workfront, zie [ merknaam uw instantie van Adobe Workfront ](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md).
+* Het logo van uw bedrijf, als uw Workfront-beheerder dit heeft aangepast in uw globale navigatiebalk. Voor meer informatie over branding de plaats van Workfront, zie [&#x200B; merknaam uw instantie van Adobe Workfront &#x200B;](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md).
 
 ### Wat wordt niet weergegeven? {#what-is-not-displayed}
 
@@ -99,13 +99,13 @@ De volgende informatie is niet opgenomen in het afgedrukte of geëxporteerde das
 
      >[!IMPORTANT]
      >
-     >* Geen van deze opties is beschikbaar wanneer het dashboard is ingesloten in een aangepast tabblad. Voor informatie over het creëren van douanetabs, zie [ douanetabellen of secties ](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md) creëren.
+     >* Geen van deze opties is beschikbaar wanneer het dashboard is ingesloten in een aangepast tabblad. Voor informatie over het creëren van douanetabs, zie [&#x200B; douanetabellen of secties &#x200B;](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md) creëren.
      >* De optie Sneltoets is niet beschikbaar als u de browser van Internet Explorer gebruikt.
 
 1. Op het **gebied van de Bestemming**, selecteer van de diverse beschikbare drukopties.\
    De afdrukopties variëren afhankelijk van de gebruikte browser- en browserversie.
 
 1. (Facultatief) sparen het dashboard als .PDF dossier, dan klik **sparen** om .PDF te bewaren.\
-   Leren hoe te om het dashboard als .PDF dossier te bewaren, zie [ Uitvoer een dashboard ](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/export-dashboard.md).
+   Leren hoe te om het dashboard als .PDF dossier te bewaren, zie [&#x200B; Uitvoer een dashboard &#x200B;](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/export-dashboard.md).
 
 1. Klik **Druk**.

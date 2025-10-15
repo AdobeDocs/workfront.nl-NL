@@ -48,7 +48,7 @@ U kunt een gebied binnen een bewijs meten.
  </tbody> 
 </table>
 
-Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -59,10 +59,10 @@ Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront
 
 1. Klik de **Meet een gebied** pictogram bij de bovenkant van de het proef kijker.
 
-   ![ measurement_tool_button.png ](assets/measurement-tool-button-350x128.png)
+   ![&#x200B; measurement_tool_button.png &#x200B;](assets/measurement-tool-button-350x128.png)
 
 1. (Facultatief) klik **de markeringskleur van de Meting** om de kleurenopties uit te breiden, dan een kleur en **Dekking** te klikken die op uw bewijs gemakkelijk te zien is.\
-   ![ kleur van de Selectie ](assets/selection-color-350x330.png)
+   ![&#x200B; kleur van de Selectie &#x200B;](assets/selection-color-350x330.png)
 
    De standaardkleur van het meetgereedschap is rood.
 
@@ -76,13 +76,13 @@ Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront
 
 1. Sleep het meetvenster naar het gebied van de proefdruk dat u moet meten.
 
-   ![ Measurement_tool_when_first_lijkt.png ](assets/measurement-tool-when-first-appears-350x143.png)
+   ![&#x200B; Measurement_tool_when_first_lijkt.png &#x200B;](assets/measurement-tool-when-first-appears-350x143.png)
 
 1. Sleep de hoeken of randen van het meetvenster om het formaat ervan te wijzigen.
-1. (Facultatief) als u het metingsgebied een nauwkeurige grootte nodig hebt, type **waarden van de grootte van de Selectie 0} {.**
+1. (Facultatief) als u het metingsgebied een nauwkeurige grootte nodig hebt, type **waarden van de grootte van de Selectie 0&rbrace; &lbrace;.**
 1. (Optioneel) Als u een bepaald percentage in een gebied wilt meten, schakelt u het selectievakje Percentage berekenen in. Er wordt een nieuw vak weergegeven waarin u het kunt aanpassen\
-   ![ berekenen percentage ](assets/calculate-percentage-350x230.png)
+   ![&#x200B; berekenen percentage &#x200B;](assets/calculate-percentage-350x230.png)
 
 1. Klik de **Meet een gebied** pictogram bij de bovenkant van de het proef kijker om het hulpmiddel te sluiten wanneer u wordt gebeëindigd.
 
-   ![ measurement_tool_button.png ](assets/measurement-tool-button-350x128.png)
+   ![&#x200B; measurement_tool_button.png &#x200B;](assets/measurement-tool-button-350x128.png)

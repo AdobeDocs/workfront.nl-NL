@@ -18,7 +18,7 @@ ht-degree: 0%
 
 De blauwdrukken verstrekken basisbouwstenen om u te helpen een werkbeheersysteem tot stand brengen dat met u groeit. Alle gebruikers van [!DNL Adobe Workfront] kunnen door de catalogus met blauwdrukken bladeren. U kunt ook een aanvraag indienen om de [!DNL Workfront] -beheerder een specifieke blauwdruk voor u te laten installeren als uw beheerder blauwdrukverzoeken heeft ingeschakeld.
 
-Alleen de systeembeheerder kan blauwdrukken installeren. Voor informatie, zie [ een blauwdruk ](../../administration-and-setup/blueprints/blueprints-install.md) installeren.
+Alleen de systeembeheerder kan blauwdrukken installeren. Voor informatie, zie [&#x200B; een blauwdruk &#x200B;](../../administration-and-setup/blueprints/blueprints-install.md) installeren.
 
 ## Toegangsvereisten
 
@@ -40,13 +40,13 @@ Alleen de systeembeheerder kan blauwdrukken installeren. Voor informatie, zie [ 
  </tbody> 
 </table>
 
-Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Door de catalogus Bladeren
 
-In de catalogus worden alle blauwdrukken weergegeven die beschikbaar zijn voor uw organisatie. Voor informatie over blauwdrukken zoals blauwdruktypes en matrijsniveaus, zie [ Overzicht van Vervagen ](../../administration-and-setup/blueprints/blueprints-overview.md).
+In de catalogus worden alle blauwdrukken weergegeven die beschikbaar zijn voor uw organisatie. Voor informatie over blauwdrukken zoals blauwdruktypes en matrijsniveaus, zie [&#x200B; Overzicht van Vervagen &#x200B;](../../administration-and-setup/blueprints/blueprints-overview.md).
 
 {{step1-to-blueprints}}
 
@@ -60,11 +60,11 @@ In de catalogus worden alle blauwdrukken weergegeven die beschikbaar zijn voor u
 
 1. (Optioneel) Klik op **[!UICONTROL Details]** voor een blauwdruk om te leren hoe het werkt.
 
-   Voor informatie over de inhoud beschikbaar op de [!UICONTROL Details] pagina, zie [ Overzicht van Vervagen ](../../administration-and-setup/blueprints/blueprints-overview.md).
+   Voor informatie over de inhoud beschikbaar op de [!UICONTROL Details] pagina, zie [&#x200B; Overzicht van Vervagen &#x200B;](../../administration-and-setup/blueprints/blueprints-overview.md).
 
 ## Installatie van een blauwdruk aanvragen
 
-U kunt om de installatie van een blauwdruk verzoeken als uw systeembeheerder blauwdrukverzoeken toestaat. Voor meer informatie, zie [ toegang tot blauwdrukken ](../../administration-and-setup/blueprints/configure-access-to-blueprints.md) vormen.
+U kunt om de installatie van een blauwdruk verzoeken als uw systeembeheerder blauwdrukverzoeken toestaat. Voor meer informatie, zie [&#x200B; toegang tot blauwdrukken &#x200B;](../../administration-and-setup/blueprints/configure-access-to-blueprints.md) vormen.
 
 Wanneer u om een geïnstalleerde blauwdruk verzoekt, wordt het verzoek verzonden naar de systeembeheerder. U ontvangt een melding wanneer het verzoek is voltooid, afhankelijk van uw berichtgevingsvoorkeuren.
 
@@ -75,4 +75,4 @@ Wanneer u om een geïnstalleerde blauwdruk verzoekt, wordt het verzoek verzonden
 
    Als de knop **[!UICONTROL Request]** niet wordt weergegeven op de blauwdruk, heeft de systeembeheerder geen verzoeken ingeschakeld.
 
-   ![ Verblauwdruk van het Verzoek ](assets/blueprints-non-admin-request-bp-350x283.png)
+   ![&#x200B; Verblauwdruk van het Verzoek &#x200B;](assets/blueprints-non-admin-request-bp-350x283.png)

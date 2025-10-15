@@ -21,7 +21,7 @@ Nadat u projecten en initiatieven verbindt, kunt u hun middeltoewijzing naast el
 
 In dit artikel wordt beschreven hoe u bronnen kunt combineren met het deelvenster [!UICONTROL Role Allocation] in [!UICONTROL Workload Balancer] van een project.
 
-Voor algemene informatie over het verzoenen van middelen tussen projecten en initiatieven, met inbegrip van eerste vereisten, zie [ Overzicht van het verzoenen van middeltoewijzingen tussen projecten en initiatieven ](../scenario-planner/overview-reconcile-allocations-between-projects-initiatives.md).
+Voor algemene informatie over het verzoenen van middelen tussen projecten en initiatieven, met inbegrip van eerste vereisten, zie [&#x200B; Overzicht van het verzoenen van middeltoewijzingen tussen projecten en initiatieven &#x200B;](../scenario-planner/overview-reconcile-allocations-between-projects-initiatives.md).
 
 ## Toegangsvereisten
 
@@ -55,9 +55,9 @@ Voor algemene informatie over het verzoenen van middelen tussen projecten en ini
  </tbody> 
 </table>
 
-Voor meer informatie over toegang tot de Planner van het Scenario, zie [ Toegang nodig om  [!DNL Scenario Planner]](../scenario-planner/access-needed-to-use-sp.md) te gebruiken.
+Voor meer informatie over toegang tot de Planner van het Scenario, zie [&#x200B; Toegang nodig om  [!DNL Scenario Planner]](../scenario-planner/access-needed-to-use-sp.md) te gebruiken.
 
-Voor informatie over de toegangsvereisten van Workfront, zie [ vereisten van de Toegang tot de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie over de toegangsvereisten van Workfront, zie [&#x200B; vereisten van de Toegang tot de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -105,8 +105,8 @@ Als uw bedrijf een [!DNL Workfront Scenario Planner] -licentie heeft aangeschaft
 
 1. (Voorwaardelijk) Verbind een project met een initiatief gebruikend één van de methodes die in de volgende artikelen worden beschreven:
 
-   * [ de projecten van de Invoer aan plannen in  [!DNL Adobe Workfront Scenario Planner]](import-projects-to-plans.md).
-   * [ werk of creeer projecten door initiatieven in  [!DNL Adobe Workfront Scenario Planner]](publish-scenarios-update-projects.md) te publiceren bij.
+   * [&#x200B; de projecten van de Invoer aan plannen in  [!DNL Adobe Workfront Scenario Planner]](import-projects-to-plans.md).
+   * [&#x200B; werk of creeer projecten door initiatieven in  [!DNL Adobe Workfront Scenario Planner]](publish-scenarios-update-projects.md) te publiceren bij.
 
    >[!IMPORTANT]
    >
@@ -119,12 +119,12 @@ Als uw bedrijf een [!DNL Workfront Scenario Planner] -licentie heeft aangeschaft
 
 1. Voer een van de volgende handelingen uit:
 
-   * Klik **[!UICONTROL Month]** om de Balancer van de Werkbelasting door maand te bekijken, klik het drop-down menu naast een maand in de chronologie ![ Dropdown naast maand ](assets/drop-down-next-to-month-month-view-wb.png), dan klik **[!UICONTROL More]**.
-   * Klik het **[!UICONTROL Show role allocation]** pictogram ![ tonen roltoewijzing ](assets/show-role-allocation-icon.png) in de hoger-juiste hoek van de toolbar.
+   * Klik **[!UICONTROL Month]** om de Balancer van de Werkbelasting door maand te bekijken, klik het drop-down menu naast een maand in de chronologie ![&#x200B; Dropdown naast maand &#x200B;](assets/drop-down-next-to-month-month-view-wb.png), dan klik **[!UICONTROL More]**.
+   * Klik het **[!UICONTROL Show role allocation]** pictogram ![&#x200B; tonen roltoewijzing &#x200B;](assets/show-role-allocation-icon.png) in de hoger-juiste hoek van de toolbar.
 
    Het deelvenster [!UICONTROL Role Allocation] wordt weergegeven.
 
-   ![ het toewijzingspaneel van de Rol ](assets/role-allocation-panel-months-collapsed-350x319.png)
+   ![&#x200B; het toewijzingspaneel van de Rol &#x200B;](assets/role-allocation-panel-months-collapsed-350x319.png)
 
    >[!CAUTION]
    >
@@ -179,14 +179,14 @@ Als uw bedrijf een [!DNL Workfront Scenario Planner] -licentie heeft aangeschaft
 
    * Verlaag het aantal Geplande Uren voor één baanrol die overtoegewezen toont of meer middelen aan de taken toevoegt en meer Geplande Uren aan de nieuwe middelen verdeelt. U kunt toewijzingen of het aantal geplande uren voor taken of problemen bijwerken wanneer u deze bewerkt. Zie de volgende artikelen voor meer informatie:
 
-      * [ geef taken ](../manage-work/tasks/manage-tasks/edit-tasks.md) uit
+      * [&#x200B; geef taken &#x200B;](../manage-work/tasks/manage-tasks/edit-tasks.md) uit
       * [Problemen bewerken](../manage-work/issues/manage-issues/edit-issues.md)
 
      >[!NOTE]
      >
      >U moet over aanvullende toegang en machtigingen beschikken om taken en problemen te kunnen bewerken.
 
-   * Verhoog het aantal vereiste uren voor de rol die de overtoewijzing op het initiatief toont. Voor meer informatie, zie [ initiatieven in  [!DNL Adobe Workfront Scenario Planner]](create-and-edit-initiatives.md) creëren en uitgeven.
+   * Verhoog het aantal vereiste uren voor de rol die de overtoewijzing op het initiatief toont. Voor meer informatie, zie [&#x200B; initiatieven in  [!DNL Adobe Workfront Scenario Planner]](create-and-edit-initiatives.md) creëren en uitgeven.
 
      >[!NOTE]
      >
@@ -194,7 +194,7 @@ Als uw bedrijf een [!DNL Workfront Scenario Planner] -licentie heeft aangeschaft
 
 1. (Optioneel) Klik op het vervolgkeuzepictogram om een van de maanden in het deelvenster [!UICONTROL Role Allocation] of in de tijdlijn van [!UICONTROL Workload Balancer] uit te vouwen.
 
-   ![ breid maand in het deelvenster Roltoewijzing uit ](assets/month-expanded-highlighted-role-allocation-panel-wb-350x145.png)
+   ![&#x200B; breid maand in het deelvenster Roltoewijzing uit &#x200B;](assets/month-expanded-highlighted-role-allocation-panel-wb-350x145.png)
 
    Voor elke maand wordt hetzelfde type informatie weergegeven in het gebied [!UICONTROL Project Totals] .
 

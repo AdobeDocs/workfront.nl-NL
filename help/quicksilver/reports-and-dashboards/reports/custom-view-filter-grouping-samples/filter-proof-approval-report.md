@@ -51,7 +51,7 @@ Dit is bijvoorbeeld handig als u is gevraagd proefdrukken met meerdere versies g
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -67,7 +67,7 @@ U kunt een filter voor een rapport van de Goedkeuring van het Bewijs tot stand b
    <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Sarah: Add sub bullets for report creation.</p>
    -->
 
-   Om uw eigen rapport van de Goedkeuring van het Proef te creëren, klik het **pictogram van het Belangrijkste Menu** pictogram van het Menu ![ in de hoger-juiste hoek, of het ](assets/main-menu-icon.png) Belangrijkste pictogram van het Menu **pictogram** Belangrijkste lijnen van het Menu ![ in de upper-left hoek, dan klik ](assets/lines-main-menu.png) het pictogram van Rapporten ****.![](assets/reports-in-main-menu.png)
+   Om uw eigen rapport van de Goedkeuring van het Proef te creëren, klik het **pictogram van het Belangrijkste Menu** pictogram van het Menu ![&#x200B; in de hoger-juiste hoek, of het &#x200B;](assets/main-menu-icon.png) Belangrijkste pictogram van het Menu **pictogram** Belangrijkste lijnen van het Menu ![&#x200B; in de upper-left hoek, dan klik &#x200B;](assets/lines-main-menu.png) het pictogram van Rapporten **&#x200B;**.![](assets/reports-in-main-menu.png)
 
 1. Klik **Nieuw Rapport**. De lijst met objecttypen wordt weergegeven.
 1. Klik **Goedkeuring van het Bewijs** in de lijst.
@@ -81,6 +81,6 @@ De rapportaannemer opent.
 1. Klik binnen de **Vastgestelde Regels van de Filter voor uw doos van het Rapport**, dan uitgezochte **Goedkeuring van het Bewijs** van de lijst.
 1. Klik **is Huidige Versie van het Document** in de lijst onder het **voorwerp van de Goedkeuring van het Bewijs**.
 1. Kies Gelijk voor uw filterbepaling, dan uitgezochte Waar.
-1. Klik **sparen + Sluiten** in de laag-linkerhoek van Adobe Workfront, dan klik **** in de doos toepassen die verschijnt.
+1. Klik **sparen + Sluiten** in de laag-linkerhoek van Adobe Workfront, dan klik **&#x200B;**&#x200B;in de doos toepassen die verschijnt.
 
    In het rapport Goedkeuring proef worden alleen de proefdrukken weergegeven die zijn gekoppeld aan de huidige versies van een document, als de proefdrukgoedkeuringen aan deze filtercriteria voldoen.

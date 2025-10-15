@@ -36,7 +36,7 @@ U kunt een [!DNL Slack] -opmerking toevoegen als een update voor een bepaald pro
  </tbody> 
 </table>
 
-Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -45,7 +45,7 @@ Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront
 Voordat u een [!DNL Slack] -opmerking kunt plaatsen als een update, moet u
 
 * Configureren [!DNL Workfront for Slack]\
-   Voor instructies bij het vormen [!DNL Workfront for Slack], zie [ vormen  [!DNL Adobe Workfront for Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md).
+   Voor instructies bij het vormen [!DNL Workfront for Slack], zie [&#x200B; vormen  [!DNL Adobe Workfront for Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md).
 
 ## [!DNL Slack] -opmerkingen als een update plaatsen in [!DNL Workfront]
 
@@ -68,4 +68,4 @@ Voordat u een [!DNL Slack] -opmerking kunt plaatsen als een update, moet u
 
    Wanneer een opmerking afkomstig is uit [!DNL Slack] , wordt het bericht &quot; [!UICONTROL Posted from [!DNL Slack]]&quot; weergegeven in [!DNL Workfront] .
 
-   ![ gepost Update van Slack ](assets/slack-update-posted-from-slack-350x112.png)
+   ![&#x200B; gepost Update van Slack &#x200B;](assets/slack-update-posted-from-slack-350x112.png)

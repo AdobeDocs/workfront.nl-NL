@@ -27,7 +27,7 @@ Hier volgen enkele kenmerken van lijsten in [!DNL Workfront] :
 
 * Een [!DNL Workfront] -beheerder kan aangepaste lijsten maken die op verschillende gebieden van [!DNL Workfront] worden toegepast.
 
-  Voor meer informatie over het creëren van systeem-vlakke lijsten, zie het artikel [ creëren, uitgeven, en delen standaardfilters, meningen, en groeperingen ](../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-and-share-default-fvgs.md).
+  Voor meer informatie over het creëren van systeem-vlakke lijsten, zie het artikel [&#x200B; creëren, uitgeven, en delen standaardfilters, meningen, en groeperingen &#x200B;](../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-and-share-default-fvgs.md).
 
 ## Toegangsvereisten
 
@@ -59,7 +59,7 @@ Hier volgen enkele kenmerken van lijsten in [!DNL Workfront] :
  </tbody> 
 </table>
 
-Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -325,16 +325,16 @@ Hieronder vindt u de elementen van een lijst:
 
 Deze elementen worden standaard boven aan elke lijst weergegeven. Ze zijn vast en bewegen niet als u door de lijst schuift. Plaats de muis boven het pictogram voor elk element om het te identificeren.
 
-![ de elementen van de Lijst ](assets/nwe-list-elements.png)
+![&#x200B; de elementen van de Lijst &#x200B;](assets/nwe-list-elements.png)
 
 U kunt lijstelementen in de volgende gebieden aanpassen en hen met andere gebruikers delen:
 
-* Om het even welk systeem standaardlijst die in de sectie [ wordt gevonden wordt begonnen met lijsten in  [!DNL Adobe Workfront]](#default-workfront-lists) in dit artikel
+* Om het even welk systeem standaardlijst die in de sectie [&#x200B; wordt gevonden wordt begonnen met lijsten in  [!DNL Adobe Workfront]](#default-workfront-lists) in dit artikel
 * Elk rapport dat met u wordt gedeeld
 
 De bouwelementen voor lijsten zijn het zelfde als de bouwstenen voor rapporten.
 
-Voor meer informatie over het creëren van en het aanpassen van de bouwselementen van lijsten en rapporten, zie [ Meldend elementen: filters, meningen, en groeperingen ](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md).
+Voor meer informatie over het creëren van en het aanpassen van de bouwselementen van lijsten en rapporten, zie [&#x200B; Meldend elementen: filters, meningen, en groeperingen &#x200B;](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md).
 
 ## Handelingen weergeven
 
@@ -600,9 +600,9 @@ In de volgende tabel worden de overeenkomsten en verschillen tussen lijsten en r
  </tbody> 
 </table>
 
-U moet toegang hebben tot filters, weergaven en groepen om deze te kunnen maken. Voor meer informatie, zie [ toegang van de Verlening tot filters, meningen, en groeperingen ](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md).
+U moet toegang hebben tot filters, weergaven en groepen om deze te kunnen maken. Voor meer informatie, zie [&#x200B; toegang van de Verlening tot filters, meningen, en groeperingen &#x200B;](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md).
 
-U moet toegang hebben tot filters, weergaven en groepen, maar ook tot rapporten, dashboards en kalenders om deze te kunnen maken. Voor meer informatie, zie [ toegang van de Verlening tot rapporten, dashboards, en kalenders ](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
+U moet toegang hebben tot filters, weergaven en groepen, maar ook tot rapporten, dashboards en kalenders om deze te kunnen maken. Voor meer informatie, zie [&#x200B; toegang van de Verlening tot rapporten, dashboards, en kalenders &#x200B;](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
 
 U kunt lijsten voor rapporten aanpassen die op een dashboard worden geplaatst slechts als de schepper van het rapport de lijstelementen heeft gevormd om op het dashboard zichtbaar te zijn.
 
@@ -610,7 +610,7 @@ U kunt lijsten voor rapporten aanpassen die op een dashboard worden geplaatst sl
 >
 >U kunt geen lijst aan een dashboard toevoegen zonder eerst een rapport te creëren en het toe te voegen aan het dashboard.
 
-Voor meer informatie over de bouw van een rapport, zie [ een douanerapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) creëren. Voor informatie over het creëren van douanesecties, zie [ douanetabellen of secties ](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md) creëren.
+Voor meer informatie over de bouw van een rapport, zie [&#x200B; een douanerapport &#x200B;](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) creëren. Voor informatie over het creëren van douanesecties, zie [&#x200B; douanetabellen of secties &#x200B;](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md) creëren.
 
 ## Het verschil tussen de bijgewerkte en de oudere lijsten
 
@@ -618,11 +618,11 @@ Voor meer informatie over de bouw van een rapport, zie [ een douanerapport ](../
 
 * Oudere lijsten
 
-  ![ Blauwe groeperingen ](assets/legacy-list-screen-shot-blue-groupings-350x101.png)
+  ![&#x200B; Blauwe groeperingen &#x200B;](assets/legacy-list-screen-shot-blue-groupings-350x101.png)
 
 * Bijgewerkte lijsten
 
-  ![ Grijze groeperingen ](assets/updated-list-screen-shot-gray-groupings-350x71.png)
+  ![&#x200B; Grijze groeperingen &#x200B;](assets/updated-list-screen-shot-gray-groupings-350x71.png)
 
 In de volgende tabel ziet u een aantal verschillen tussen de verouderde en bijgewerkte lijsten in [!DNL Workfront] :
 

@@ -71,7 +71,7 @@ U kunt de volgende instellingen configureren voor de Desktop Proofing Viewer:
  </tbody> 
 </table>
 
-Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -82,13 +82,13 @@ De instellingen voor de proefdrukviewer configureren:
 1. Open de webtestviewer of de Desktop Proofing Viewer op een van de volgende manieren:
 
    * Als u bewijs binnen Adobe Workfront, naar een documentlijst gaat die een proef bevat u wilt bekijken, over het document beweegt, dan klik **Open proef**.
-   * Als u Workfront Proof gebruikt, klik **ga naar het pictogram van het Bewijs** voor de proef in het Dashboard of a lijst van Meningen ![ ga naar Bewijs ](assets/go-to-proof-blue-icon.png).
+   * Als u Workfront Proof gebruikt, klik **ga naar het pictogram van het Bewijs** voor de proef in het Dashboard of a lijst van Meningen ![&#x200B; ga naar Bewijs &#x200B;](assets/go-to-proof-blue-icon.png).
 
 1. Als de linkertoolbar niet toont, klik het **pictogram van het Menu**, dat in de upper-left hoek van de Kijker van het Bewijs van het Web wordt gevestigd.
 
-   ![ pictogram van het Menu ](assets/menu-icon-in-proofing-viewer-350x228.png)
+   ![&#x200B; pictogram van het Menu &#x200B;](assets/menu-icon-in-proofing-viewer-350x228.png)
 
-1. In de linkertoolbar, klik het **pictogram** pictogram van Montages ![ ](assets/settings-icon-in-pv.png).
+1. In de linkertoolbar, klik het **pictogram** pictogram van Montages ![&#x200B; &#x200B;](assets/settings-icon-in-pv.png).
 
 1. Vorm om het even welke volgende **Montages** die vertoning.
 
@@ -106,7 +106,7 @@ De instellingen voor de proefdrukviewer configureren:
 
      Deze instelling geldt voor alle proefdrukken die u opent.
 
-   * **verzend me e-mailberichten over** (altijd beschikbaar in de Kijker van het Proofing van het Web en de Kijker van het Proofing van de Desktop): Klik één van de hieronder opties. Deze instelling is alleen van invloed op de proefdruk die u hebt geopend. Voor meer informatie, zie [ Meldingen voor de proefdrukcommentaren en besluiten overzicht ](../../../review-and-approve-work/proofing/proofing-overview/notifications-proof-comments-decisions.md).
+   * **verzend me e-mailberichten over** (altijd beschikbaar in de Kijker van het Proofing van het Web en de Kijker van het Proofing van de Desktop): Klik één van de hieronder opties. Deze instelling is alleen van invloed op de proefdruk die u hebt geopend. Voor meer informatie, zie [&#x200B; Meldingen voor de proefdrukcommentaren en besluiten overzicht &#x200B;](../../../review-and-approve-work/proofing/proofing-overview/notifications-proof-comments-decisions.md).
 
      <table style="table-layout:auto"> 
       <col> 

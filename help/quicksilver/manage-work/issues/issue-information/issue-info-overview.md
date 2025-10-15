@@ -25,8 +25,8 @@ In tegenstelling tot taken, kunnen de kwesties niet het percentage drijven volle
 
 Deze sectie bevat de volgende artikelen:
 
-* [ overzicht van de Duur van de Uitgave ](../../../manage-work/issues/issue-information/issue-duration.md)
-* [ Prioriteit van de Uitgave van de Update ](../../../manage-work/issues/issue-information/update-issue-priority.md)
-* [ de kwestie van de Update strengheid ](../../../manage-work/issues/issue-information/update-issue-severity.md)
-* [ Overzicht van de kwestie Geplande Datum van de Voltooiing ](../../../manage-work/issues/issue-information/issue-planned-completion-date.md)
+* [&#x200B; overzicht van de Duur van de Uitgave &#x200B;](../../../manage-work/issues/issue-information/issue-duration.md)
+* [&#x200B; Prioriteit van de Uitgave van de Update &#x200B;](../../../manage-work/issues/issue-information/update-issue-priority.md)
+* [&#x200B; de kwestie van de Update strengheid &#x200B;](../../../manage-work/issues/issue-information/update-issue-severity.md)
+* [&#x200B; Overzicht van de kwestie Geplande Datum van de Voltooiing &#x200B;](../../../manage-work/issues/issue-information/issue-planned-completion-date.md)
 * [Gebruik &quot;opTask&quot; en &quot;issue&quot; bij het verwijzen naar problemen](../../../manage-work/issues/issue-information/use-optask-instead-of-issue.md)

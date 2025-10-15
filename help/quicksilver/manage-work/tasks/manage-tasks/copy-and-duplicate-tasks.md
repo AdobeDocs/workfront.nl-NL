@@ -48,7 +48,7 @@ U kunt een of meer taken of bovenliggende taken tegelijk kopiëren of dupliceren
  </tbody> 
 </table>
 
-Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -108,13 +108,13 @@ Houd rekening met het volgende wanneer u een taak kopieert:
    Ga naar een taakrapport.
 
 1. (Voorwaardelijk) klik **Taken** in het linkerpaneel, als u het project opende dat de taken bevat.
-1. Klik het **pictogram van de Wijze van het 0} Plan**, en zorg ervoor dat de ![](assets/qs-list-mode-or-save-mode-icon-small.png) optie Autosave **wordt toegelaten.**
+1. Klik het **pictogram van de Wijze van het 0&rbrace; Plan**, en zorg ervoor dat de ![](assets/qs-list-mode-or-save-mode-icon-small.png) optie Autosave **wordt toegelaten.**
 
    ![](assets/autosave-icon-on-highlighted-350x202.png)
 
    >[!IMPORTANT]
    >
-   >U kunt taken alleen in een lijst kopiëren wanneer u uw wijzigingen automatisch opslaat. Voor informatie over besparingsopties wanneer het uitgeven van taken, zie [ taken in een lijst ](../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md) uitgeven.
+   >U kunt taken alleen in een lijst kopiëren wanneer u uw wijzigingen automatisch opslaat. Voor informatie over besparingsopties wanneer het uitgeven van taken, zie [&#x200B; taken in een lijst &#x200B;](../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md) uitgeven.
 
 1. Selecteer de taak of taken die u wilt kopiëren en voer een van de volgende handelingen uit:
 
@@ -124,7 +124,7 @@ Houd rekening met het volgende wanneer u een taak kopieert:
 
    ![](assets/copy-task-in-list-nwe-350x131.png)
 
-1. Ga met het kopiëren van de taak voort, zoals die in de sectie [ wordt beschreven Kopieer een taak op het taakniveau ](#copy-a-task-at-the-task-level) die met Stap 4 begint.
+1. Ga met het kopiëren van de taak voort, zoals die in de sectie [&#x200B; wordt beschreven Kopieer een taak op het taakniveau &#x200B;](#copy-a-task-at-the-task-level) die met Stap 4 begint.
 
    <!--
       (NOTE: is this still accurate?!)
@@ -167,7 +167,7 @@ Naast het kopiëren van taken in een lijst met taken kunt u ook een taak kopiër
 
    >[!TIP]
    >
-   >De gelijkaardige berichten tonen als het geselecteerde project in afwachting van goedkeuring, voltooid, of dood is, wanneer de beheerder van Workfront het toevoegen van taken aan deze projecten verhindert. Voor meer informatie, zie [ systeem-brede projectvoorkeur ](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) vormen.
+   >De gelijkaardige berichten tonen als het geselecteerde project in afwachting van goedkeuring, voltooid, of dood is, wanneer de beheerder van Workfront het toevoegen van taken aan deze projecten verhindert. Voor meer informatie, zie [&#x200B; systeem-brede projectvoorkeur &#x200B;](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) vormen.
 
 1. Klik **Opties** in het linkerpaneel, dan schrap de taakattributen die u niet met de taak wilt kopiëren. Alle opties zijn standaard geselecteerd.
 
@@ -237,11 +237,11 @@ Naast het kopiëren van taken in een lijst met taken kunt u ook een taak kopiër
    Voer een van de volgende handelingen uit om een bovenliggend element te selecteren:
 
    * In de taaklijst, selecteer één van de ouders in het projectplan.
-   * Klik het pictogram van het onderzoekspictogram ![ Onderzoek ](assets/search-icon.png) en onderzoek naar een oudertaak door naam.
+   * Klik het pictogram van het onderzoekspictogram ![&#x200B; Onderzoek &#x200B;](assets/search-icon.png) en onderzoek naar een oudertaak door naam.
 
    De taak wordt weergegeven in de lijst.
 
-   ![ Uitgezochte oudertaak wanneer het bewegen van een taak met onderzoeksfunctionaliteit ](assets/select-parent-when-moving-tasks-with-search-functionality-nwe-350x110.png)
+   ![&#x200B; Uitgezochte oudertaak wanneer het bewegen van een taak met onderzoeksfunctionaliteit &#x200B;](assets/select-parent-when-moving-tasks-with-search-functionality-nwe-350x110.png)
 
 1. Selecteer het keuzerondje voor het bovenliggende element nadat u het hebt gevonden.
 
@@ -258,7 +258,7 @@ De gekopieerde taken zijn nu op het gespecificeerde project en of subtaken aan d
 
 U kunt een taak snel dupliceren in een takenlijst als u een identieke taak nodig hebt voor hetzelfde project.
 
-* [ Overwegingen voor het dupliceren van taken ](#considerations-for-duplicating-tasks)
+* [&#x200B; Overwegingen voor het dupliceren van taken &#x200B;](#considerations-for-duplicating-tasks)
 * [Taken dupliceren](#duplicate-tasks)
 
 ### Overwegingen bij het dupliceren van taken {#considerations-for-duplicating-tasks}
@@ -294,11 +294,11 @@ U kunt een taak snel dupliceren in een takenlijst als u een identieke taak nodig
 
      ![](assets/duplicate-tasks-in-list-nwe-350x196.png)
 
-   * (Voorwaardelijk) klik het **pictogram van de Wijze van het 0} Plan** > ![](assets/qs-list-mode-or-save-mode-icon-small.png) Handboek sparen **>** Standaard **of** Planning van de Chronologie **, dan doe het volgende:**
+   * (Voorwaardelijk) klik het **pictogram van de Wijze van het 0&rbrace; Plan** > ![](assets/qs-list-mode-or-save-mode-icon-small.png) Handboek sparen **>** Standaard **of** Planning van de Chronologie **, dan doe het volgende:**
 
       1. Selecteer de taak of de taken u, **dupliceren** wilt dupliceren en klikken.
       1. (Facultatief) klik **ongedaan maken** om uw veranderingen om te keren en niet de taken te dupliceren.
-      1. (Facultatief en voorwaardelijk) klik **opnieuw** als u eerder **** had geklikt ongedaan maken, om de veranderingen te houden en de taken te dupliceren.
+      1. (Facultatief en voorwaardelijk) klik **opnieuw** als u eerder **&#x200B;**&#x200B;had geklikt ongedaan maken, om de veranderingen te houden en de taken te dupliceren.
 
       1. Klik **sparen** om uw veranderingen te bewaren.
 

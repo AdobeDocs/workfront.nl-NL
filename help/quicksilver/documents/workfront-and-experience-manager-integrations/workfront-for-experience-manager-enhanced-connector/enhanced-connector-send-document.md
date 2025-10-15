@@ -50,7 +50,7 @@ U kunt documenten van Workfront naar Experience Manager Assets verzenden. Docume
  </tbody> 
 </table>
 
-Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 +++
 
 ## Vereisten
@@ -72,14 +72,14 @@ Een document verzenden:
    >
    >Voor deze integratie kan elke naam worden gekozen, dus Experience Manager Assets wordt niet specifiek vermeld.
 
-   ![ verzendt naar ](assets/copy-of-send-to-in-toolbar-350x149.png)
+   ![&#x200B; verzendt naar &#x200B;](assets/copy-of-send-to-in-toolbar-350x149.png)
 
 1. Kies waar u de activa wilt gaan, dan klik **Uitgezochte Omslag**.
 1. Wanneer u uw gewenste bestemming vindt, klik **sparen**.
 
 ## Een nieuwe versie naar Experience Manager Assets sturen
 
-U kunt een nieuwe versie toevoegen aan een document dat u eerder naar Workfront hebt geüpload. Voor meer informatie, zie [ een nieuwe versie van een document ](../../../documents/managing-documents/upload-new-document-version.md) uploaden. Nadat de laatste versie is geüpload, kunt u deze naar Experience Manager Assets verzenden. Als een toegewezen veld in Workfront is gewijzigd, werkt de nieuwe versie de metagegevens bij in Experience Manager Assets wanneer deze worden verzonden.
+U kunt een nieuwe versie toevoegen aan een document dat u eerder naar Workfront hebt geüpload. Voor meer informatie, zie [&#x200B; een nieuwe versie van een document &#x200B;](../../../documents/managing-documents/upload-new-document-version.md) uploaden. Nadat de laatste versie is geüpload, kunt u deze naar Experience Manager Assets verzenden. Als een toegewezen veld in Workfront is gewijzigd, werkt de nieuwe versie de metagegevens bij in Experience Manager Assets wanneer deze worden verzonden.
 
 De meest recente versie verzenden:
 
@@ -90,6 +90,6 @@ De meest recente versie verzenden:
    >
    >Voor deze integratie kan elke naam worden gekozen, dus Experience Manager Assets wordt niet specifiek vermeld.
 
-   ![ verzendt naar ](assets/copy-of-send-to-in-toolbar-350x149.png)
+   ![&#x200B; verzendt naar &#x200B;](assets/copy-of-send-to-in-toolbar-350x149.png)
 
 1. Klik **sparen**. De nieuwe versie slaat op dezelfde locatie op als de vorige versie.

@@ -48,13 +48,13 @@ De verbeterde mogelijkheden voor wachtwoordbeheer zijn binnenkort beschikbaar vo
  </tbody> 
 </table>
 
-Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Verificatie configureren (beschikbaar voor alle klanten) {#configure-authentication-available-for-all-customers}
 
-De opties van de authentificatie worden getoond voor alle klanten. De verbeterde mogelijkheden van het wachtwoordbeheer komen binnenkort of zouden reeds beschikbaar voor uw organisatie kunnen zijn, zoals die in de sectie [ wordt beschreven vormt verbeterde authentificatie) ](#configure-enhanced-authentication-coming-soon) in dit artikel.
+De opties van de authentificatie worden getoond voor alle klanten. De verbeterde mogelijkheden van het wachtwoordbeheer komen binnenkort of zouden reeds beschikbaar voor uw organisatie kunnen zijn, zoals die in de sectie [&#x200B; wordt beschreven vormt verbeterde authentificatie) &#x200B;](#configure-enhanced-authentication-coming-soon) in dit artikel.
 
 Verificatievoorkeuren configureren:
 
@@ -97,14 +97,14 @@ Verificatievoorkeuren configureren:
 
 ## Uitgebreide verificatie configureren{#configure-enhanced-authentication-coming-soon}
 
-Deze sectie beschrijft de verbeterde authentificatieervaring, die nog niet voor uw organisatie beschikbaar zou kunnen zijn. Als uw organisatie niet aan de nieuwe authentificatieervaring is gemigreerd, moet u de authentificatiemontages vormen, zoals die in [ worden beschreven vormt authentificatie (beschikbaar voor alle klanten) ](#configure-authentication-available-for-all-customers).
+Deze sectie beschrijft de verbeterde authentificatieervaring, die nog niet voor uw organisatie beschikbaar zou kunnen zijn. Als uw organisatie niet aan de nieuwe authentificatieervaring is gemigreerd, moet u de authentificatiemontages vormen, zoals die in [&#x200B; worden beschreven vormt authentificatie (beschikbaar voor alle klanten) &#x200B;](#configure-authentication-available-for-all-customers).
 
 Uitgebreide verificatievoorkeuren configureren:
 
 {{step-1-to-setup}}
 
 1. Klik **Systeem** > **Verbeterde Authentificatie**.
-1. In het **vakje van de Lengte van het Wachtwoord 0} {, ga het minimumaantal karakters in dat voor een geldig wachtwoord wordt vereist.**
+1. In het **vakje van de Lengte van het Wachtwoord 0&rbrace; &lbrace;, ga het minimumaantal karakters in dat voor een geldig wachtwoord wordt vereist.**
 
    Workfront vereist ten minste 6 tekens.
 

@@ -18,7 +18,7 @@ ht-degree: 0%
 
 <!-- Audited: 11/2024 -->
 
-U kunt de breedte van kolommen tijdelijk aanpassen door de marges te slepen en neer te zetten, zodat deze overeenkomen met de gewenste breedte. Voor meer informatie, zie [ kolombreedte en orde wijzigen ](../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md).
+U kunt de breedte van kolommen tijdelijk aanpassen door de marges te slepen en neer te zetten, zodat deze overeenkomen met de gewenste breedte. Voor meer informatie, zie [&#x200B; kolombreedte en orde wijzigen &#x200B;](../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md).
 
 Als u de breedte van een kolom van een weergave permanent wilt wijzigen, moet u de tekstmodus in de kolom gebruiken wanneer u de weergave bewerkt.
 
@@ -51,7 +51,7 @@ Als u de breedte van een kolom van een weergave permanent wilt wijzigen, moet u 
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -59,9 +59,9 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 >[!IMPORTANT]
 >
->Als u manueel de breedte van een kolom zoals die in de sectie [ wordt beschreven wijzigt tijdelijk breedte en orde van kolommen ](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md#modify-width-and-order-of-columns-temporarily) in het artikel [ wijzigt kolombreedte en orde ](../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md) nadat u permanent de breedte van de kolom hebt gewijzigd, wordt de breedte van de kolom bewaard volgens uw handresizing. In dit geval wordt de breedte van de kolom die wordt bijgewerkt volgens de volgende stappen, overschreven. U kunt de kolom weergeven op basis van de breedte die in de volgende stappen is gedefinieerd nadat u de cache hebt gewist of zich hebt aangemeld vanuit een andere browser.
+>Als u manueel de breedte van een kolom zoals die in de sectie [&#x200B; wordt beschreven wijzigt tijdelijk breedte en orde van kolommen &#x200B;](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md#modify-width-and-order-of-columns-temporarily) in het artikel [&#x200B; wijzigt kolombreedte en orde &#x200B;](../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md) nadat u permanent de breedte van de kolom hebt gewijzigd, wordt de breedte van de kolom bewaard volgens uw handresizing. In dit geval wordt de breedte van de kolom die wordt bijgewerkt volgens de volgende stappen, overschreven. U kunt de kolom weergeven op basis van de breedte die in de volgende stappen is gedefinieerd nadat u de cache hebt gewist of zich hebt aangemeld vanuit een andere browser.
 >
->Voor extra informatie over het aanpassen van de breedte van kolommen wanneer het gebruiken van de interface van de Wijze van de Tekst, zie de &quot;breedte&quot;en &quot;uitrekbare&quot;definities in de [ Verklarende woordenlijst van de terminologie van Adobe Workfront ](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
+>Voor extra informatie over het aanpassen van de breedte van kolommen wanneer het gebruiken van de interface van de Wijze van de Tekst, zie de &quot;breedte&quot;en &quot;uitrekbare&quot;definities in de [&#x200B; Verklarende woordenlijst van de terminologie van Adobe Workfront &#x200B;](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
 
 1. Ga naar een lijst met objecten.
 1. Van het **drop-down menu van de Mening**, klik **Nieuwe Mening**.

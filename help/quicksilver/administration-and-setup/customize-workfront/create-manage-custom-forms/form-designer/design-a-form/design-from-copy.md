@@ -45,7 +45,7 @@ U kunt een nieuw aangepast formulier ontwerpen dat is gebaseerd op een bestaand 
  </tbody> 
 </table>
 
-Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -54,7 +54,7 @@ Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront
 {{step-1-to-setup}}
 
 1. Klik **Aangepaste Forms.**
-1. Selecteer de douanevorm die u als basis voor een nieuwe douanevorm wilt gebruiken, dan klik ![ pictogram van het Exemplaar ](assets/copy-icon.png).
+1. Selecteer de douanevorm die u als basis voor een nieuwe douanevorm wilt gebruiken, dan klik ![&#x200B; pictogram van het Exemplaar &#x200B;](assets/copy-icon.png).
 1. In het **vakje van het Exemplaar van de Vorm van de Douane** dat verschijnt, typ de volgende informatie:
 
    <table style="table-layout:auto"> 
@@ -81,8 +81,8 @@ Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront
 
    Als een toegangsoptie voor een sectie-einde op het oorspronkelijke formulier niet compatibel is met een objecttype dat u toevoegt aan het nieuwe formulier, wordt u in een bericht gevraagd de optie aan te passen.
 
-1. Selecteer de vorm die u enkel kopieerde, dan klik ![ uitgeven pictogram ](assets/edit-icon.png).
-1. Breng om het even welke veranderingen in de vorm aan, zoals die in de volgende secties van [ worden verklaard creeer een artikel van de douanevorm ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md):
+1. Selecteer de vorm die u enkel kopieerde, dan klik ![&#x200B; uitgeven pictogram &#x200B;](assets/edit-icon.png).
+1. Breng om het even welke veranderingen in de vorm aan, zoals die in de volgende secties van [&#x200B; worden verklaard creeer een artikel van de douanevorm &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md):
 
    * [Een bestaand veld of een bestaande widget opnieuw gebruiken die al in een ander aangepast formulier wordt gebruikt](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#reuse-an-existing-field-or-widget-already-used-in-another-custom-form)
    * [Tekstvelden toevoegen](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-text-fields)
@@ -93,4 +93,4 @@ Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront
    * [Adobe XD-bestanden toevoegen](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-adobe-xd-files)
    * [Verbindingsvelden voor planning toevoegen](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-planning-connection-fields)
 
-1. (Facultatief) nadat u **klikt sparen en sluit**, maak de vorm aan het voorwerp vast waar u het wilt gebruiken, zoals die in [ wordt beschreven een douaneformulier aan een voorwerp ](/help/quicksilver/workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md) toevoegen.
+1. (Facultatief) nadat u **klikt sparen en sluit**, maak de vorm aan het voorwerp vast waar u het wilt gebruiken, zoals die in [&#x200B; wordt beschreven een douaneformulier aan een voorwerp &#x200B;](/help/quicksilver/workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md) toevoegen.

@@ -67,7 +67,7 @@ Wanneer u aan een doel begint te werken en het in uw organisatie irrelevant word
 </tbody>
 </table>
 
-Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -129,21 +129,21 @@ Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Work
 
 U kunt een doel deactiveren dat niet meer relevant is en dat u in de toekomst wellicht opnieuw wilt activeren.
 
-* [ Overwegingen wanneer het deactiveren van doelstellingen ](#considerations-when-deactivating-goals)
+* [&#x200B; Overwegingen wanneer het deactiveren van doelstellingen &#x200B;](#considerations-when-deactivating-goals)
 * [Doelen deactiveren](#deactivate-goals)
 
 ### Overwegingen bij het deactiveren van doelen
 
 Herinner het volgende wanneer het deactiveren van doelstellingen:
 
-* U kunt doelen alleen deactiveren in een actieve status. Voor informatie over het activeren van een doel, zie [ doelstellingen in de Doelen van Adobe Workfront ](../../workfront-goals/goal-management/activate-goals.md) activeren.
+* U kunt doelen alleen deactiveren in een actieve status. Voor informatie over het activeren van een doel, zie [&#x200B; doelstellingen in de Doelen van Adobe Workfront &#x200B;](../../workfront-goals/goal-management/activate-goals.md) activeren.
 
   >[!TIP]
   >
   >U kunt doelen in een conceptstatus niet deactiveren.
 
 * Workfront berekent niet langer de voortgang van gedeactiveerde doelen.
-* Niet-actieve doelen worden niet meer weergegeven in het gedeelte Grafieken van Workfront Goals, of er wordt hiermee rekening mee gehouden. Voor informatie over de grafieken van de Doelen van Workfront, zie [ grafieken van het Overzicht om de tendensen van de doelvooruitgang in de Doelen van Adobe Workfront te begrijpen ](../../workfront-goals/goal-review-and-workfront-goals-sections/review-goal-graphs.md).
+* Niet-actieve doelen worden niet meer weergegeven in het gedeelte Grafieken van Workfront Goals, of er wordt hiermee rekening mee gehouden. Voor informatie over de grafieken van de Doelen van Workfront, zie [&#x200B; grafieken van het Overzicht om de tendensen van de doelvooruitgang in de Doelen van Adobe Workfront te begrijpen &#x200B;](../../workfront-goals/goal-review-and-workfront-goals-sections/review-goal-graphs.md).
 
   <!--* The Check-in section. For information about the Check-in page, see [Update goal progress in Adobe Workfront Goals](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md). -->
 
@@ -178,7 +178,7 @@ Deactivating goals differs depending on which environment you use.
 1. Click the **X** icon in the upper-right to close Goal Details.
 -->
 
-1. Klik het **pictogram van het 1} pictogram van het Belangrijkste Menu** ![ in de hogere juiste hoek, dan klik ](assets/main-menu-icon.png) Doelen **.**
+1. Klik het **pictogram van het 1&rbrace; pictogram van het Belangrijkste Menu** ![&#x200B; in de hogere juiste hoek, dan klik &#x200B;](assets/main-menu-icon.png) Doelen **.**
 
    De vertoningen van de doellijst.
 
@@ -187,15 +187,15 @@ Deactivating goals differs depending on which environment you use.
 
 1. (Optioneel) Wijzig de filters om alleen actieve doelen weer te geven.
 
-   Voor informatie over het filtreren van informatie in de Doelen van Workfront, zie [ informatie van de Filter in de Doelen van Adobe Workfront ](../goal-management/filter-information-wf-goals.md).
+   Voor informatie over het filtreren van informatie in de Doelen van Workfront, zie [&#x200B; informatie van de Filter in de Doelen van Adobe Workfront &#x200B;](../goal-management/filter-information-wf-goals.md).
 
 1. Klik op een actief doel.
 
    De doelpagina wordt geopend.
 
-   ![ Goal pagina ](assets/goal-page-unshimmed.png)
+   ![&#x200B; Goal pagina &#x200B;](assets/goal-page-unshimmed.png)
 
-1. Klik het **Meer** menu ![ Meer pictogram ](assets/more-icon.png) aan het recht van de doelnaam, dan klik **Deactivate**.
+1. Klik het **Meer** menu ![&#x200B; Meer pictogram &#x200B;](assets/more-icon.png) aan het recht van de doelnaam, dan klik **Deactivate**.
 
 1. Het doel wordt gedeactiveerd en zijn status wordt Inactief.
 
@@ -203,7 +203,7 @@ Deactivating goals differs depending on which environment you use.
 
 U kunt doelstellingen schrappen die niet meer of zou nooit relevant kunnen zijn.
 
-* [ Overwegingen wanneer het schrappen van doelstellingen ](#considerations-when-deleting-goals)
+* [&#x200B; Overwegingen wanneer het schrappen van doelstellingen &#x200B;](#considerations-when-deleting-goals)
 * [Doelstellingen verwijderen](#delete-goals)
 
 ### Overwegingen bij het verwijderen van doelen {#considerations-when-deleting-goals}
@@ -235,14 +235,14 @@ Deleting  goals differs depending on which environment you use.
    The goal is removed from the Goal List and cannot be recovered.
 -->
 
-1. Klik het Belangrijkste pictogram van het Menu ![ Belangrijkste pictogram van het Menu ](assets/main-menu-icon.png) in de hogere juiste hoek, dan klik **Doelen**.
+1. Klik het Belangrijkste pictogram van het Menu ![&#x200B; Belangrijkste pictogram van het Menu &#x200B;](assets/main-menu-icon.png) in de hogere juiste hoek, dan klik **Doelen**.
 
    De vertoningen van de doellijst.
 
    <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
 1. Klik op de naam van een doel. Hierdoor wordt de doelpagina geopend.
-1. Klik het **Meer** menu ![ Meer pictogram ](assets/more-icon.png) aan het recht van de doelnaam, dan klik **Goal van de Schrapping**, toen **Schrapping**.
+1. Klik het **Meer** menu ![&#x200B; Meer pictogram &#x200B;](assets/more-icon.png) aan het recht van de doelnaam, dan klik **Goal van de Schrapping**, toen **Schrapping**.
 
    Het doel en de activiteiten en resultaten ervan worden eveneens geschrapt en kunnen niet worden teruggevorderd. De projecten die met het doel of de kinddoelstellingen werden geassocieerd worden niet geschrapt.
 

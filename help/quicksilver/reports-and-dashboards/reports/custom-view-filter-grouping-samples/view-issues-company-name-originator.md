@@ -20,7 +20,7 @@ ht-degree: 0%
 
 In deze weergave wordt de bedrijfsnaam weergegeven van de gebruiker die de uitgave heeft verzonden.
 
-![ custom_view_for_issues_with_originator_company_name.png ](assets/custom-view-for-issues-350x33.png)
+![&#x200B; custom_view_for_issues_with_originator_company_name.png &#x200B;](assets/custom-view-for-issues-350x33.png)
 
 ## Toegangsvereisten
 
@@ -51,7 +51,7 @@ In deze weergave wordt de bedrijfsnaam weergegeven van de gebruiker die de uitga
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 
 +++

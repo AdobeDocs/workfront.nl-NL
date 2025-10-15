@@ -46,7 +46,7 @@ Als er groepen zijn boven de groep die u beheert, kunnen hun beheerders dit ook 
  </tbody> 
 </table>
 
-Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -59,7 +59,7 @@ Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront
    In de lijst die wordt weergegeven, ziet u de groepen die u beheert, samen met eventuele subgroepen die u beheert. Adobe Workfront-beheerders kunnen alle groepen zien.
 
 1. Klik op de naam van de groep waarvoor u lay-outsjablonen wilt maken of wijzigen.
-1. In het linkerpaneel, klik **** pictogram van de malplaatjes van de Lay-out ![ Malplaatjes van de Lay-out ](assets/layout-templates-icon.png).
+1. In het linkerpaneel, klik **&#x200B;**&#x200B;pictogram van de malplaatjes van de Lay-out ![&#x200B; Malplaatjes van de Lay-out &#x200B;](assets/layout-templates-icon.png).
 
 1. Voer een van de volgende handelingen uit:
 
@@ -69,13 +69,13 @@ Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront
 
      Om een nieuw malplaatje voor de groep tot stand te brengen die op bestaande gebaseerd is, selecteer het bestaande malplaatje, dan klik het **pictogram van het Exemplaar** ![.](assets/copy-icon.png)
 
-     Voor informatie bij het creëren van een Malplaatje van de Lay-out, zie [ lay-outmalplaatjes ](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md) creëren en leiden.
+     Voor informatie bij het creëren van een Malplaatje van de Lay-out, zie [&#x200B; lay-outmalplaatjes &#x200B;](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md) creëren en leiden.
 
-     Voor informatie over het kopiëren van een lay-outmalplaatje om nieuwe tot stand te brengen, zie [ een lay-outmalplaatje ](../../../administration-and-setup/customize-workfront/use-layout-templates/copy-a-layout-template.md) kopiëren.
+     Voor informatie over het kopiëren van een lay-outmalplaatje om nieuwe tot stand te brengen, zie [&#x200B; een lay-outmalplaatje &#x200B;](../../../administration-and-setup/customize-workfront/use-layout-templates/copy-a-layout-template.md) kopiëren.
 
-   * Om een bestaand malplaatje van de groepslay-out uit te geven, selecteer het, dan klik **uitgeven** pictogram ![ pictogram geeft pictogram ](assets/edit-icon.png) uit.
+   * Om een bestaand malplaatje van de groepslay-out uit te geven, selecteer het, dan klik **uitgeven** pictogram ![&#x200B; pictogram geeft pictogram &#x200B;](assets/edit-icon.png) uit.
 
-     Voor informatie bij het uitgeven van een lay-outmalplaatje, zie [ lay-outmalplaatjes ](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md) creëren en beheren.
+     Voor informatie bij het uitgeven van een lay-outmalplaatje, zie [&#x200B; lay-outmalplaatjes &#x200B;](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md) creëren en beheren.
 
    * Om één of meerdere lay-outmalplaatjes te schrappen, hen te selecteren, dan klik het **pictogram van de Schrapping** pictogram van de Schrapping ![.](assets/delete.png)
    * Om de lijst van lay-outmalplaatjes uit te voeren, klik het **pictogram van de Uitvoer** pictogram van de Uitvoer ![.](assets/export-icon.png)

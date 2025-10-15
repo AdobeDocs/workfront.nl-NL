@@ -24,7 +24,7 @@ ht-degree: 0%
 might need to add information about the permissions to plans/ initiatives if those will be coming later?
 -->
 
-Zonder correcte toegang of toestemmingen, kunt u niet het [!UICONTROL Scenarios] gebied van [!DNL  Adobe Workfront] kunnen bekijken noch plannen of initiatieven voor uw organisatie beheren. Het beheren van plannen en initiatieven omvat het maken, bewerken en verwijderen ervan.
+Zonder correcte toegang of toestemmingen, kunt u niet het [!UICONTROL Scenarios] gebied van [!DNL &#x200B; Adobe Workfront] kunnen bekijken noch plannen of initiatieven voor uw organisatie beheren. Het beheren van plannen en initiatieven omvat het maken, bewerken en verwijderen ervan.
 
 ## Toegang nodig om de [!DNL Adobe Workfront Scenario Planner]
 
@@ -65,9 +65,9 @@ U moet ervoor zorgen dat aan alle volgende voorwaarden wordt voldaan voordat u t
 
 1. Uw [!DNL Workfront] -beheerder moet u [!UICONTROL View] of [!UICONTROL Edit] toegang geven tot [!DNL Scenario Planner] op toegangsniveau.
 
-   Voor informatie over het verlenen van toegang tot [!DNL Workfront Scenario Planner], zie [ de toegang van de Verlening tot  [!DNL Scenario Planner]](../administration-and-setup/add-users/configure-and-grant-access/grant-access-sp.md).
+   Voor informatie over het verlenen van toegang tot [!DNL Workfront Scenario Planner], zie [&#x200B; de toegang van de Verlening tot  [!DNL Scenario Planner]](../administration-and-setup/add-users/configure-and-grant-access/grant-access-sp.md).
 
-1. (Optioneel en aanbevolen) Als u financiële informatie voor uw plannen en initiatieven wilt weergeven of bijwerken, moet de [!DNL Workfront] -beheerder u ook toegang geven tot [!UICONTROL Financial Data] op uw toegangsniveau. Voor informatie over het verlenen van financiële gegevens in uw toegangsniveau, zie [ de toegang van de Verlening tot financiële gegevens ](../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
+1. (Optioneel en aanbevolen) Als u financiële informatie voor uw plannen en initiatieven wilt weergeven of bijwerken, moet de [!DNL Workfront] -beheerder u ook toegang geven tot [!UICONTROL Financial Data] op uw toegangsniveau. Voor informatie over het verlenen van financiële gegevens in uw toegangsniveau, zie [&#x200B; de toegang van de Verlening tot financiële gegevens &#x200B;](../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
 
 
 <!--1. (Optional) If you need to access plans you didn't create, a plan creator must give you the correct permissions to their plan to access it. For information about the permissions needed to access plans and initiatives that you didn't create, see the [Permissions needed to access plans and initiatives](#permissions-needed-to-access-plans-and-initiatives) section in this article.-->
@@ -130,11 +130,11 @@ Om plannen te bekijken die andere gebruikers creeerden moeten zij hun plannen me
 
 * Deel het abonnement met u
 
-  Voor informatie over het delen van plannen, zie [ een plan in  [!DNL Scenario Planner]](../scenario-planner/share-a-plan.md) delen.
+  Voor informatie over het delen van plannen, zie [&#x200B; een plan in  [!DNL Scenario Planner]](../scenario-planner/share-a-plan.md) delen.
 
 * Een koppeling verzenden naar een abonnement dat ze hebben gemaakt
 
-  Als een gebruiker een verbinding met een plan deelt zonder het plan ook te delen, kunt u toestemmingen aan het plan verzoeken. Voor informatie over het verzoeken van toestemmingen aan plannen, zie [ Toegang van het Verzoek tot een plan in  [!DNL Scenario Planner]](../scenario-planner/request-access-to-plan.md).
+  Als een gebruiker een verbinding met een plan deelt zonder het plan ook te delen, kunt u toestemmingen aan het plan verzoeken. Voor informatie over het verzoeken van toestemmingen aan plannen, zie [&#x200B; Toegang van het Verzoek tot een plan in  [!DNL Scenario Planner]](../scenario-planner/request-access-to-plan.md).
 
 >[!NOTE]
 >

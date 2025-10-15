@@ -43,7 +43,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -51,7 +51,7 @@ Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront
 
 {{step-1-to-users}}
 
-1. Sorteer uw gebruikers door **Niveau van de Toegang**. Wij adviseren partij het uitgeven door het Niveau van de Toegang om het **gebied van het Profiel van de Toestemming van 0} te verzekeren verschijnt.**
+1. Sorteer uw gebruikers door **Niveau van de Toegang**. Wij adviseren partij het uitgeven door het Niveau van de Toegang om het **gebied van het Profiel van de Toestemming van 0&rbrace; te verzekeren verschijnt.**
 
 1. Klik checkbox naast de gebruikers u binnen het zelfde toegangsniveau wilt selecteren. Het veld Proefmachtigingsprofiel is alleen beschikbaar voor toegangsniveaus voor Worker en hoger.
 1. Klik **uitgeven** bij de bovenkant van de lijst.
@@ -61,6 +61,6 @@ Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront
    >
    >Afhankelijk van uw plan van Workfront, kunt u de **Gebruiker moeten toelaten om proef** checkbox te produceren opdat het **menu van het Profiel van de Toestemming van de Bewijs** verschijnt.
 
-   ![ profiel van de toestemmingen van het Bewijs ](assets/proof-permission-profile-350x203.png)
+   ![&#x200B; profiel van de toestemmingen van het Bewijs &#x200B;](assets/proof-permission-profile-350x203.png)
 
 1. Klik **sparen Veranderingen**.

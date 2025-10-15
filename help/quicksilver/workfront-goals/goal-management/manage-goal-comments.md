@@ -79,7 +79,7 @@ U kunt opmerkingen toevoegen aan alle doelen die u kunt weergeven in Adobe Workf
 </tbody>
 </table>
 
-*Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Voor meer informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -138,12 +138,12 @@ U kunt opmerkingen toevoegen aan alle doelen die u kunt weergeven in Adobe Workf
 
 U kunt commentaren aan doelstellingen in de sectie van Updates van een doelpagina toevoegen.
 
-1. Klik het **pictogram van het 1} Belangrijkste Menu** pictogram van het Menu ![ in de hoger-juiste hoek, of het ](assets/main-menu-icon.png) Belangrijkste **pictogram van het Menu** Belangrijkste het menulijnen ![ in de upper-left hoek, als beschikbaar, dan klik ](assets/lines-main-menu.png) Doelen **.**
+1. Klik het **pictogram van het 1&rbrace; Belangrijkste Menu** pictogram van het Menu ![&#x200B; in de hoger-juiste hoek, of het &#x200B;](assets/main-menu-icon.png) Belangrijkste **pictogram van het Menu** Belangrijkste het menulijnen ![&#x200B; in de upper-left hoek, als beschikbaar, dan klik &#x200B;](assets/lines-main-menu.png) Doelen **.**
 Hierdoor wordt de lijst met doelen geopend.
 1. Zoek het doel waaraan u opmerkingen wilt toevoegen en klik op de naam van het doel om de doelpagina te openen.
 1. Klik **Updates** in het linkerpaneel.
 
-   Voor meer informatie over het beheren van commentaren voor de voorwerpen van Workfront, zie [ het werk van de Update ](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+   Voor meer informatie over het beheren van commentaren voor de voorwerpen van Workfront, zie [&#x200B; het werk van de Update &#x200B;](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 <!--   
 1. (Optional) To locate an existing comment, start typing a keyword (*****or a user's name********) in the **Search** box in the upper-right corner of the **Comments** tab. 

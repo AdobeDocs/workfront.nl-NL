@@ -28,7 +28,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
 -->
 
-Het team van het Project bestaat uit gebruikers die met het project worden geassocieerd. Voor meer informatie, zie [ Overzicht van het Team van het Project ](/help/quicksilver/manage-work/projects/planning-a-project/project-team-overview.md).
+Het team van het Project bestaat uit gebruikers die met het project worden geassocieerd. Voor meer informatie, zie [&#x200B; Overzicht van het Team van het Project &#x200B;](/help/quicksilver/manage-work/projects/planning-a-project/project-team-overview.md).
 
 De leden van de vertoning van het Team van het Project in de sectie van Mensen van het project.
 
@@ -41,7 +41,7 @@ De volgende gebruikers worden automatisch toegevoegd aan het projectteam, voor z
 * Gebruikers die zijn toegewezen aan taken
 * Gebruikers die zijn toegewezen aan problemen (alleen voor een project)
 
-De gebruikers in het projectteam ontvangen berichten over het project. Voor meer informatie, zie [ de berichttypes van de Gebeurtenis ](/help/quicksilver/administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
+De gebruikers in het projectteam ontvangen berichten over het project. Voor meer informatie, zie [&#x200B; de berichttypes van de Gebeurtenis &#x200B;](/help/quicksilver/administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
 
 U kunt de gebruikers in het project en de teams van het malplaatje beheren door hen (slechts voor het project) toe te voegen, hen te verwijderen, of hen te verzenden een update.
 
@@ -74,7 +74,7 @@ U kunt de gebruikers in het project en de teams van het malplaatje beheren door 
  </tbody> 
 </table>
 
-Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -201,7 +201,7 @@ If users that don't fulfill any role on the project want to be notified about ce
 
    <!--update screen shot when they fix the bug - the text above the box needs to match the OLD box, below-->
 
-![ verzendt update naar gebruikersdoos op het project ](assets/send-update-to-user-on-project-box-2025.png)
+![&#x200B; verzendt update naar gebruikersdoos op het project &#x200B;](assets/send-update-to-user-on-project-box-2025.png)
 
 <!--Old UI for projects but the text above the comment box is right and matches the functionality):
    ![OLD Send update to user on a project](assets/send-update-to-user-on-project-box.png)-->
@@ -219,7 +219,7 @@ If users that don't fulfill any role on the project want to be notified about ce
 
    Gebruikers ontvangen mogelijk een e-mailbericht als ze hiervoor zijn ingeschakeld en ontvangen een melding in de app over de nieuwe update.
 
-1. (Facultatief) klik het **pictogram van de Uitvoer** Uitvoer ![ om de lijst van gebruikers naar een dossier uit te voeren](assets/export-icon.png)
+1. (Facultatief) klik het **pictogram van de Uitvoer** Uitvoer ![&#x200B; om de lijst van gebruikers naar een dossier uit te voeren](assets/export-icon.png)
 
    of
 
@@ -241,7 +241,7 @@ If users that don't fulfill any role on the project want to be notified about ce
 
    De gebruikers worden verwijderd en unassigned van de malplaatjetaken.
 
-   Voor meer informatie, zie de [ Overwegingen voor het verwijderen van gebruikers uit een sectie van het projectteam ](#considerations-for-removing-users-from-a-project-team) in dit artikel.
+   Voor meer informatie, zie de [&#x200B; Overwegingen voor het verwijderen van gebruikers uit een sectie van het projectteam &#x200B;](#considerations-for-removing-users-from-a-project-team) in dit artikel.
 
 1. (Facultatief) om een update naar gebruikers te verzenden, klik **Update allen** om de update naar alle gebruikers in de lijst te verzenden
 
@@ -251,7 +251,7 @@ If users that don't fulfill any role on the project want to be notified about ce
 
    <!--update screen shot for unshim production, notice the text above the box - it needs to say "Post an update to each person's profile"-->
 
-   ![ verzendt update naar gebruikersdoos op malplaatje ](assets/send-update-to-user-on-template-box.png)
+   ![&#x200B; verzendt update naar gebruikersdoos op malplaatje &#x200B;](assets/send-update-to-user-on-template-box.png)
 
    **verzendt update naar gebruiker** opent doos.
 
@@ -270,7 +270,7 @@ If users that don't fulfill any role on the project want to be notified about ce
 
    Gebruikers ontvangen mogelijk een e-mailbericht als ze hiervoor zijn ingeschakeld en ontvangen een melding in de app over de nieuwe update.
 
-1. Klik het **pictogram van de Uitvoer** pictogram van de Uitvoer ![ om de lijst van gebruikers naar een dossier uit te voeren](assets/export-icon.png)
+1. Klik het **pictogram van de Uitvoer** pictogram van de Uitvoer ![&#x200B; om de lijst van gebruikers naar een dossier uit te voeren](assets/export-icon.png)
 
    of
 
@@ -296,5 +296,5 @@ De volgende gebruikers worden niet verwijderd uit hun rollen op het project wann
 * Eigenaar
 * Sponsor
 
-Voor meer informatie over het verwijderen van gebruikers uit het projectteam, zie [ gebruikers uit projecten ](../../../manage-work/projects/manage-projects/remove-users-from-projects.md) verwijderen.
+Voor meer informatie over het verwijderen van gebruikers uit het projectteam, zie [&#x200B; gebruikers uit projecten &#x200B;](../../../manage-work/projects/manage-projects/remove-users-from-projects.md) verwijderen.
 

@@ -53,7 +53,7 @@ U kunt [!DNL JumpSeat] integreren met [!DNL Workfront] om aangepaste, in-product
   </tr>
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -61,7 +61,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 Voordat u begint, moet u
 
-* Voeg [!DNL Workfront] toe en activeer dit als een toepassing in [!DNL JumpSeat] . Voor meer informatie, zie [ hoe te om een toepassing ](https://support.jumpseat.io/article/how-to-add-an-application/) toe te voegen of te schrappen.
+* Voeg [!DNL Workfront] toe en activeer dit als een toepassing in [!DNL JumpSeat] . Voor meer informatie, zie [&#x200B; hoe te om een toepassing &#x200B;](https://support.jumpseat.io/article/how-to-add-an-application/) toe te voegen of te schrappen.
 
 >[!IMPORTANT]
 >
@@ -75,7 +75,7 @@ We raden u aan een [!DNL JumpSeat] -integratie in te stellen in zowel uw voorver
 
 >[!TIP]
 >
->U moet twee aparte [!DNL Workfront] -toepassingen toevoegen en activeren in [!DNL JumpSeat] : een voor Voorvertoning en een voor Productie. Zie [ hoe te om een toepassing ](https://support.jumpseat.io/article/how-to-add-an-application/) voor meer informatie toe te voegen of te schrappen.
+>U moet twee aparte [!DNL Workfront] -toepassingen toevoegen en activeren in [!DNL JumpSeat] : een voor Voorvertoning en een voor Productie. Zie [&#x200B; hoe te om een toepassing &#x200B;](https://support.jumpseat.io/article/how-to-add-an-application/) voor meer informatie toe te voegen of te schrappen.
 
 U configureert de integratie met [!DNL JumpSeat] als volgt:
 
@@ -90,7 +90,7 @@ U configureert de integratie met [!DNL JumpSeat] als volgt:
 
 https://{mycompanyname}.spronsit.io
 
->>
+&#x200B;>>
 
 >[!ENDSHADEBOX]
 
@@ -105,10 +105,10 @@ https://{mycompanyname}.spronsit.io
    >
    >De in stap 5 uitgevoerde configuratietest moet slagen om de integratie te activeren.
 
-   ![ JumpSeat de pagina van de Integratie ](assets/jumpseat-integration-page.png)
+   ![&#x200B; JumpSeat de pagina van de Integratie &#x200B;](assets/jumpseat-integration-page.png)
 
 1. Klik op **[!UICONTROL Save]**.
 
 >[!TIP]
 >
->Voor meer informatie over het vormen van uw [!DNL JumpSeat] integratie, zie de [!DNL JumpSeat] documentatie voor [ JumpSeat+Workfront ](https://jumpseat.io/landing-page/jumpseat-workfront/).
+>Voor meer informatie over het vormen van uw [!DNL JumpSeat] integratie, zie de [!DNL JumpSeat] documentatie voor [&#x200B; JumpSeat+Workfront &#x200B;](https://jumpseat.io/landing-page/jumpseat-workfront/).

@@ -19,7 +19,7 @@ U kunt goedkeuring aanvragen bij andere gebruikers of teams voor een document in
 
 >[!IMPORTANT]
 >
->De inhoud van dit artikel verwijst naar de functionaliteit voor bijgewerkte documentgoedkeuring die alleen beschikbaar is voor specifieke accounts. Voor informatie over standaardgoedkeuringsprocessen, zie de artikelen die in [ worden vermeld goedkeuringen van het Werk ](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
+>De inhoud van dit artikel verwijst naar de functionaliteit voor bijgewerkte documentgoedkeuring die alleen beschikbaar is voor specifieke accounts. Voor informatie over standaardgoedkeuringsprocessen, zie de artikelen die in [&#x200B; worden vermeld goedkeuringen van het Werk &#x200B;](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
 
 ## Toegangsvereisten
 
@@ -52,14 +52,14 @@ U kunt goedkeuring aanvragen bij andere gebruikers of teams voor een document in
  </tbody> 
 </table>
 
-Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Een documentrevisie of goedkeuringsaanvraag maken op de documentpagina
 
 1. Houd de muis boven het document en klik vervolgens op Documentdetails.
-   ![ de details van het Document ](assets/doc-details.png)
+   ![&#x200B; de details van het Document &#x200B;](assets/doc-details.png)
 
 1. Selecteer bij de documentnaam de versie van het document waarvoor u een goedkeuring wilt maken in het vervolgkeuzemenu. De meest recente versie wordt standaard geselecteerd.
 
@@ -69,9 +69,9 @@ Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront
 
 1. Om een fiatteur toe te voegen, klik **Approver** en begin typend in een gebruiker of teamnaam.
 
-1. Om een recensent toe te voegen, klik **checkbox 0} Recensent {en begin typend in een gebruiker of teamnaam.**
+1. Om een recensent toe te voegen, klik **checkbox 0&rbrace; Recensent &lbrace;en begin typend in een gebruiker of teamnaam.**
 
-   ![ voeg fiatteur en deadline ](assets/add-approver-and-deadline.png) toe
+   ![&#x200B; voeg fiatteur en deadline &#x200B;](assets/add-approver-and-deadline.png) toe
 
 1. Herhaal de vorige stap om extra fiatteurs of revisoren toe te voegen.
 
@@ -85,15 +85,15 @@ Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront
 
 1. De rol neer aan de **goedkeurt** sectie in de Summiere ruit van het Document, dan klikt **toevoegt**.
 
-![ voegt fiatteurs in documentsamenvatting ](assets/doc-summary-add-approvers.png) toe
+![&#x200B; voegt fiatteurs in documentsamenvatting &#x200B;](assets/doc-summary-add-approvers.png) toe
 
 1. (Optioneel) Stel een deadline in voor de goedkeuring. Gebruikers en teams worden 72 uur per e-mail op de hoogte gesteld en 24 uur vóór de opgegeven deadline.
 
 1. Om een fiatteur toe te voegen, klik **Approver** en begin typend in een gebruiker of teamnaam.
 
-1. Om een recensent toe te voegen, klik **checkbox 0} Recensent {en begin typend in een gebruiker of teamnaam.**
+1. Om een recensent toe te voegen, klik **checkbox 0&rbrace; Recensent &lbrace;en begin typend in een gebruiker of teamnaam.**
 
-   ![ voeg fiatteur en deadline ](assets/add-approver-and-deadline.png) toe
+   ![&#x200B; voeg fiatteur en deadline &#x200B;](assets/add-approver-and-deadline.png) toe
 
 1. Herhaal de vorige stap om extra fiatteurs of revisoren toe te voegen.
 

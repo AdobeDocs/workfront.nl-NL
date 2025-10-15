@@ -21,13 +21,13 @@ ht-degree: 0%
 Overuren worden niet standaard berekend in Adobe Workfront, maar u kunt wel een rapport met een tijdlijnrapport maken dat overwerk berekent.
 
 Als de gebruiker in zijn profiel aan een kostenpercentage per uur is gekoppeld, kunt u ook de hoeveelheid kosten voor de overuren van die gebruiker berekenen.\
-Voor informatie over het associëren van gebruikers met Kosten per de tarieven van het Uur, zie het artikel [ Mijn Montages ](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md) vormen.
+Voor informatie over het associëren van gebruikers met Kosten per de tarieven van het Uur, zie het artikel [&#x200B; Mijn Montages &#x200B;](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md) vormen.
 
 >[!NOTE]
 >
->Het gebied van Overwerk dat u aan een mening van de Chronologie in een lijst of een rapport kunt toevoegen toont de informatie die op het gebied van Overuren van timesheet wordt gevonden. Deze informatie wordt manueel bijgewerkt door een gebruiker met toegang om timesheet te wijzigen. Voor meer informatie over het gebied van Overuren in een timesheet, zie het artikel [ overzicht van de lay-out van de Tijdopnemer ](../../../timesheets/timesheets/timesheet-layout.md).
+>Het gebied van Overwerk dat u aan een mening van de Chronologie in een lijst of een rapport kunt toevoegen toont de informatie die op het gebied van Overuren van timesheet wordt gevonden. Deze informatie wordt manueel bijgewerkt door een gebruiker met toegang om timesheet te wijzigen. Voor meer informatie over het gebied van Overuren in een timesheet, zie het artikel [&#x200B; overzicht van de lay-out van de Tijdopnemer &#x200B;](../../../timesheets/timesheets/timesheet-layout.md).
 
-![ calculate_overtime_cost_in_timesheet_report.png ](assets/calculated-overtime-cost-in-timesheet-report-350x92.png)
+![&#x200B; calculate_overtime_cost_in_timesheet_report.png &#x200B;](assets/calculated-overtime-cost-in-timesheet-report-350x92.png)
 
 ## Toegangsvereisten
 
@@ -58,7 +58,7 @@ Voor informatie over het associëren van gebruikers met Kosten per de tarieven v
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 +++
 
 ## De kosten voor overwerk berekenen in een tijdlijnweergave

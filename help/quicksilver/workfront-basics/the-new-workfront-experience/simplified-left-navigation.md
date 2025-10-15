@@ -20,11 +20,11 @@ De meeste gebieden en objecten in SWF maken gebruik van een eenvoudig navigatiev
 * Hierdoor is een beter beheer van de schermruimte mogelijk.
 * Uw [!DNL Workfront] -beheerder kan elke sectie in het linkerdeelvenster verbergen, behalve de objectdetails met behulp van lay-outsjablonen.
 
-  Voor informatie over het gebruiken van lay-outmalplaatjes, zie artikel [ lay-outmalplaatjes ](../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md) creëren en leiden.
+  Voor informatie over het gebruiken van lay-outmalplaatjes, zie artikel [&#x200B; lay-outmalplaatjes &#x200B;](../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md) creëren en leiden.
 
 * U kunt de volgorde van de secties in de linkernavigatie eenvoudig wijzigen zonder extra schermen te openen door deze in de gewenste volgorde te slepen.
 
-  Voor meer informatie, zie de volgende sectie in dit artikel: [ Gebruik het linkernavigatievenster ](#use-the-left-navigation-panel).
+  Voor meer informatie, zie de volgende sectie in dit artikel: [&#x200B; Gebruik het linkernavigatievenster &#x200B;](#use-the-left-navigation-panel).
 
 * U kunt het linkerdeelvenster aanpassen door een dashboard toe te voegen.
 
@@ -52,7 +52,7 @@ De meeste gebieden en objecten in SWF maken gebruik van een eenvoudig navigatiev
  </tbody> 
 </table>
 
-Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -80,7 +80,7 @@ Het linkerdeelvenster is beschikbaar voor de volgende objecten:
 >[!IMPORTANT]
 >
 >Als in het linkerdeelvenster standaard slechts één sectie wordt weergegeven, bijvoorbeeld **[!UICONTROL All Projects]** in het **[!UICONTROL Projects]** -gebied, moet een [!DNL Workfront] -beheerder ten minste één dashboard aan dit gebied toevoegen wanneer een lay-outsjabloon wordt gemaakt en u aan die sjabloon toewijzen voordat het linkerdeelvenster in dat gebied wordt weergegeven.
->>Voor informatie over hoe een [!DNL Workfront] beheerder het linkerpaneel in een lay-outmalplaatje aanpast, zie [ het linkerpaneel aanpassen gebruikend een lay-outmalplaatje ](../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md).
+>&#x200B;>Voor informatie over hoe een [!DNL Workfront] beheerder het linkerpaneel in een lay-outmalplaatje aanpast, zie [&#x200B; het linkerpaneel aanpassen gebruikend een lay-outmalplaatje &#x200B;](../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md).
 
 Het linkerdeelvenster is beschikbaar voor de volgende gebieden:
 
@@ -110,7 +110,7 @@ De volgende secties worden in het linkerdeelvenster voor het **[!UICONTROL Dashb
     </tr>
 </table>
 
-Leren hoe te om het linkerpaneel in het gebied van Dashboards te gebruiken, zie het sectie [ Gebruik het linkernavigatievenster ](#use-the-left-navigation-panel) in dit artikel.
+Leren hoe te om het linkerpaneel in het gebied van Dashboards te gebruiken, zie het sectie [&#x200B; Gebruik het linkernavigatievenster &#x200B;](#use-the-left-navigation-panel) in dit artikel.
 
 ### Standaardsecties in het gebied [!UICONTROL Requests]
 
@@ -125,7 +125,7 @@ Leren hoe te om het linkerpaneel in het gebied van Dashboards te gebruiken, zie 
     </tr>
 </table>
 
-Leren hoe te om het linkerpaneel in het [!UICONTROL Requests] gebied te gebruiken, zie de sectie [ Gebruik het linkernavigatievenster ](#use-the-left-navigation-panel) in dit artikel.
+Leren hoe te om het linkerpaneel in het [!UICONTROL Requests] gebied te gebruiken, zie de sectie [&#x200B; Gebruik het linkernavigatievenster &#x200B;](#use-the-left-navigation-panel) in dit artikel.
 
 ### Standaardsecties in het gebied [!UICONTROL Resourcing]
 
@@ -156,7 +156,7 @@ De volgende secties worden in het linkerdeelvenster voor het **[!UICONTROL Resou
 </table>
 
 
-Leren hoe te om het linkerpaneel in het [!UICONTROL Resourcing] gebied te gebruiken, zie de sectie [ Gebruik het linkernavigatievenster ](#use-the-left-navigation-panel) in dit artikel.
+Leren hoe te om het linkerpaneel in het [!UICONTROL Resourcing] gebied te gebruiken, zie de sectie [&#x200B; Gebruik het linkernavigatievenster &#x200B;](#use-the-left-navigation-panel) in dit artikel.
 
 ### Standaardsecties in het gebied [!UICONTROL Projects]
 
@@ -173,7 +173,7 @@ De volgende secties worden in het linkerdeelvenster voor het **[!UICONTROL Proje
     </tr>
 </table>
 
-Leren hoe te om het linkerpaneel in het [!UICONTROL Projects] gebied te gebruiken, zie de sectie [ Gebruik het linkernavigatievenster ](#use-the-left-navigation-panel) in dit artikel.
+Leren hoe te om het linkerpaneel in het [!UICONTROL Projects] gebied te gebruiken, zie de sectie [&#x200B; Gebruik het linkernavigatievenster &#x200B;](#use-the-left-navigation-panel) in dit artikel.
 
 ### Standaardsecties in het gebied [!UICONTROL Timesheets]
 
@@ -194,13 +194,13 @@ De volgende secties worden in het linkerdeelvenster voor het **[!UICONTROL Times
     </tr>
 </table>
 
-Leren hoe te om het linkerpaneel in het [!UICONTROL Timesheets] gebied te gebruiken, zie de sectie [ Gebruik het linkernavigatievenster ](#use-the-left-navigation-panel) in dit artikel.
+Leren hoe te om het linkerpaneel in het [!UICONTROL Timesheets] gebied te gebruiken, zie de sectie [&#x200B; Gebruik het linkernavigatievenster &#x200B;](#use-the-left-navigation-panel) in dit artikel.
 
 ### Standaardsecties in het gebied [!DNL Goals]
 
 >[!NOTE]
 >
->Voor toegang tot doelen is een extra licentie vereist. Voor informatie over [!DNL Workfront Goals], zie [[!DNL Adobe Workfront Goals]  overzicht ](../../workfront-goals/goal-management/wf-goals-overview.md).
+>Voor toegang tot doelen is een extra licentie vereist. Voor informatie over [!DNL Workfront Goals], zie [[!DNL Adobe Workfront Goals]  overzicht &#x200B;](../../workfront-goals/goal-management/wf-goals-overview.md).
 
 De volgende secties worden in het linkerdeelvenster voor het **[!UICONTROL Goals]** -gebied weergegeven:
 
@@ -236,13 +236,13 @@ De volgende secties worden in het linkerdeelvenster voor het **[!UICONTROL Goals
     </tr>
 </table>
 -->
-Leren hoe te om het linkerpaneel in het [!UICONTROL Goals] gebied te gebruiken, zie de sectie [ Gebruik het linkernavigatievenster ](#use-the-left-navigation-panel) in dit artikel.
+Leren hoe te om het linkerpaneel in het [!UICONTROL Goals] gebied te gebruiken, zie de sectie [&#x200B; Gebruik het linkernavigatievenster &#x200B;](#use-the-left-navigation-panel) in dit artikel.
 
 ## Het linkernavigatievenster gebruiken
 
 Het zoeken naar en bewerken van informatie in het linkerdeelvenster is vergelijkbaar voor deze objecten. Welke opties beschikbaar zijn in het linkerdeelvenster, is afhankelijk van het object dat u opent.
 
-Om te leren welke secties voor specifieke gebieden beschikbaar zijn, zie [[!UICONTROL Default sections] in het linkernavigatievenster ](#default-sections-in-the-left-navigation-panel).
+Om te leren welke secties voor specifieke gebieden beschikbaar zijn, zie [[!UICONTROL Default sections] in het linkernavigatievenster &#x200B;](#default-sections-in-the-left-navigation-panel).
 
 {{step1-click-main-menu}}
 
@@ -261,7 +261,7 @@ Om te leren welke secties voor specifieke gebieden beschikbaar zijn, zie [[!UICO
 
    U moet over machtigingen beschikken om het object te bewerken voordat u de gegevens kunt bewerken.
 
-   ![ Linkerdeelvenstersecties ](assets/left-navigation-panel.png)
+   ![&#x200B; Linkerdeelvenstersecties &#x200B;](assets/left-navigation-panel.png)
 
 1. (Optioneel) Als u een snelle koppeling naar een dashboard wilt toevoegen, klikt u op **[!UICONTROL Add a Dashboard]** onder in het linkerdeelvenster en voert u de volgende handelingen uit:
 
@@ -272,11 +272,11 @@ Om te leren welke secties voor specifieke gebieden beschikbaar zijn, zie [[!UICO
       >
       >U moet het dashboard bouwen alvorens het in de lijst verschijnt.
 
-1. (Facultatief) om een dashboard snelle verbinding te verwijderen, beweegt zich over het dashboard in de linkernavigatie, dan klikt **verwijdert** pictogram ![ pictogram ](assets/remove-dashboard-from-left.png) wanneer het verschijnt.
+1. (Facultatief) om een dashboard snelle verbinding te verwijderen, beweegt zich over het dashboard in de linkernavigatie, dan klikt **verwijdert** pictogram ![&#x200B; pictogram &#x200B;](assets/remove-dashboard-from-left.png) wanneer het verschijnt.
 
 1. (Optioneel) Als u de volgorde van een sectie in het linkerdeelvenster wilt wijzigen, klikt u op het pictogram **[!UICONTROL Drag]** ![](assets/drag-icon.png) naast een sectie en sleept u deze omhoog of omlaag.
 
-   ![ belemmering een sectie ](assets/drag-section.png)
+   ![&#x200B; belemmering een sectie &#x200B;](assets/drag-section.png)
 
 1. (Optioneel) Als u het linkerdeelvenster wilt sluiten, klikt u op het pictogram **[!UICONTROL Collapse]** ![](assets/left-panel-collapse-icon.png) .
 

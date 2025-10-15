@@ -51,13 +51,13 @@ U kunt de beschikbaarheid van uw middelen en de hoeveelheid gepland of begroot w
  </tbody> 
 </table>
 
-Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Vereisten
 
-U moet aan alle voorwaarden voldoen die worden vereist om met de Planner van het Middel te werken. Voor meer informatie, zie [ overzicht van de Planner van het Middel ](../../resource-mgmt/resource-planning/get-started-resource-planner.md).
+U moet aan alle voorwaarden voldoen die worden vereist om met de Planner van het Middel te werken. Voor meer informatie, zie [&#x200B; overzicht van de Planner van het Middel &#x200B;](../../resource-mgmt/resource-planning/get-started-resource-planner.md).
 
 >[!IMPORTANT]
 >
@@ -65,7 +65,7 @@ U moet aan alle voorwaarden voldoen die worden vereist om met de Planner van het
 
 ## Beschikbaarheid en toewijzing van middelen
 
-De kolommen die de beschikbaarheid en de toewijzing van uw middelen tonen veranderen afhankelijk van welke mening u op de Planner van het Middel van toepassing bent. Voor informatie over het tonen van de informatie in de Planner van het Middel door Project, Rol, of Gebruiker zie [ het navigatieoverzicht van de Planner van het Middel ](../../resource-mgmt/resource-planning/resource-planner-navigation.md).
+De kolommen die de beschikbaarheid en de toewijzing van uw middelen tonen veranderen afhankelijk van welke mening u op de Planner van het Middel van toepassing bent. Voor informatie over het tonen van de informatie in de Planner van het Middel door Project, Rol, of Gebruiker zie [&#x200B; het navigatieoverzicht van de Planner van het Middel &#x200B;](../../resource-mgmt/resource-planning/resource-planner-navigation.md).
 
 Overweeg het volgende wanneer het veranderen van uw mening in de Planner van het Middel:
 
@@ -97,12 +97,12 @@ Overweeg het volgende wanneer het veranderen van uw mening in de Planner van het
 >De informatie is niet beschikbaar als Kosten wanneer het toepassen van de **Mening door Gebruiker** mening op de Planner van het Middel.
 >
 >Voor meer informatie over wat elke kolom toont, muis over de naam van de kolom waarin het aantal wordt getoond.\
->![ Net_hours_res_planner_mouse_over.png ](assets/net-hours-res-planner-mouse-over-350x95.png)
+>![&#x200B; Net_hours_res_planner_mouse_over.png &#x200B;](assets/net-hours-res-planner-mouse-over-350x95.png)
 >
 >Zie de volgende artikelen voor meer informatie over de gegevens die in elke kolom worden weergegeven:
 >
->* [ Overzicht van uren, FTE, en kosteninformatie in het Project en de meningen van de Rol van de Planner van het Middel ](../../resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md)
->* [ Beschikbare Mening, Geplant, en Ware Uren of VTE in de Planner van het Middel wanneer het gebruiken van de mening van de Gebruiker ](../../resource-mgmt/resource-planning/view-hours-fte-user-view-resource-planner.md)
+>* [&#x200B; Overzicht van uren, FTE, en kosteninformatie in het Project en de meningen van de Rol van de Planner van het Middel &#x200B;](../../resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md)
+>* [&#x200B; Beschikbare Mening, Geplant, en Ware Uren of VTE in de Planner van het Middel wanneer het gebruiken van de mening van de Gebruiker &#x200B;](../../resource-mgmt/resource-planning/view-hours-fte-user-view-resource-planner.md)
 >
 
 ## Informatie weergeven per uur, VTE of Kosten
@@ -112,7 +112,7 @@ Overweeg het volgende wanneer het veranderen van uw mening in de Planner van het
    Door gebrek, informatievertoningen door Uren in de Planner van het Middel.
 
 1. Vouw het keuzemenu uit.\
-   ![ Hours_fte_or_cost_dropdown.png ](assets/hours-fte-or-cost-dropdown.png)
+   ![&#x200B; Hours_fte_or_cost_dropdown.png &#x200B;](assets/hours-fte-or-cost-dropdown.png)
 
 1. Selecteer een van de volgende opties:
 
@@ -141,9 +141,9 @@ Overweeg het volgende wanneer het veranderen van uw mening in de Planner van het
     </tbody> 
    </table>
 
-1. (Voorwaardelijk) als u **** selecteerde, wijs opties op **toont getoonde metriek** doos aan opstelling uw douanemening aan.
+1. (Voorwaardelijk) als u **&#x200B;**&#x200B;selecteerde, wijs opties op **toont getoonde metriek** doos aan opstelling uw douanemening aan.
 
-   ![ pas meningsdoos ](assets/planner-customize-view-box-350x114.png) aan
+   ![&#x200B; pas meningsdoos &#x200B;](assets/planner-customize-view-box-350x114.png) aan
 
 1. In het **type van Mening** kolom op de linkerzijde, selecteer één van de volgende meningen:
 
@@ -184,7 +184,7 @@ Overweeg het volgende wanneer het veranderen van uw mening in de Planner van het
    >
    >U kunt slechts één aangepaste weergave hebben.
 
-   ![ de urendropdown van de Planner ](assets/planner-hours-drop-down-with-custom-and-customize-option-183x281.png)
+   ![&#x200B; de urendropdown van de Planner &#x200B;](assets/planner-hours-drop-down-with-custom-and-customize-option-183x281.png)
 
 ## Het diagram Gebruikerstoewijzing weergeven
 
@@ -194,7 +194,7 @@ De toewijzing van gebruikers weergeven in een grafiek:
 
 1. Ga naar de bronnenplanner.
 
-   Voor meer informatie over de toegang tot van de Planner van het Middel, zie [ van de Planner van het Middel ](../../resource-mgmt/resource-planning/get-started-resource-planner.md#accessing-the-resource-planner) sectie in het artikel [ overzicht van de Planner van het Middel ](../../resource-mgmt/resource-planning/get-started-resource-planner.md) lokaliseren.
+   Voor meer informatie over de toegang tot van de Planner van het Middel, zie [&#x200B; van de Planner van het Middel &#x200B;](../../resource-mgmt/resource-planning/get-started-resource-planner.md#accessing-the-resource-planner) sectie in het artikel [&#x200B; overzicht van de Planner van het Middel &#x200B;](../../resource-mgmt/resource-planning/get-started-resource-planner.md) lokaliseren.
 
 1. Selecteer **Mening door Gebruiker**.
 
@@ -202,7 +202,7 @@ De toewijzing van gebruikers weergeven in een grafiek:
    >
    >U kunt de grafiek van de Toewijzing van de Gebruiker slechts in de Mening van de Gebruiker bekijken.
 
-1. Klik het **pictogram** RP_user_assign_chart.png van de gebruikerstoewijzing ![ ](assets/rp-user-allocation-chart.png) om de volgende informatie te tonen:
+1. Klik het **pictogram** RP_user_assign_chart.png van de gebruikerstoewijzing ![&#x200B; &#x200B;](assets/rp-user-allocation-chart.png) om de volgende informatie te tonen:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -231,14 +231,14 @@ De toewijzing van gebruikers weergeven in een grafiek:
     </tbody> 
    </table>
 
-   ![ RP__user_assign_chart_Dec._7_2017.png ](assets/rp--user-allocation-chart-dec.-7--2017-350x148.png)
+   ![&#x200B; RP__user_assign_chart_Dec._7_2017.png &#x200B;](assets/rp--user-allocation-chart-dec.-7--2017-350x148.png)
 
 1. (Facultatief) klik **Overtoewijzing % voor alle gebruikers** gebied in de grafiek.\
    Alle gebruikers die zijn oververdeeld, worden rood gemarkeerd.
 1. (Facultatief) klik **Onderbenutting % voor alle gebruikers** gebied in de grafiek.\
    Alle gebruikers die onvoldoende worden gebruikt, worden in blauw gemarkeerd.
 
-1. (Facultatief) klik het indicatorpictogram ![ one_user_overassign_marker.png ](assets/one-user-overallocation-marker.png) dat toont waar u minstens één gebruiker hebt oververdeeld.\
+1. (Facultatief) klik het indicatorpictogram ![&#x200B; one_user_overassign_marker.png &#x200B;](assets/one-user-overallocation-marker.png) dat toont waar u minstens één gebruiker hebt oververdeeld.\
    De gebruikers die zijn oververdeeld, worden rood gemarkeerd.
 
 1. (Optioneel) Vernieuw de pagina om het diagram samen te vouwen.

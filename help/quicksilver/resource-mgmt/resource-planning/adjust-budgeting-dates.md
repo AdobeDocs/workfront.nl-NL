@@ -47,7 +47,7 @@ Overtoewijzingen kunnen verschijnen wanneer de begrote Uren, FTE, of Kosten van 
  </tbody> 
 </table>
 
-Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -64,7 +64,7 @@ Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront
    De tijdlijn voor projecttoewijzing wordt weergegeven.\
    Het tijdsbestek waarin de uren momenteel in de begroting zijn opgenomen, wordt oranje gemarkeerd als er sprake is van een begrotingsconflict en blauw als er geen conflicten zijn.
 
-   ![ Adjust in de begroting stellende data ](assets/rp-adjust-budgeting-dates-with-no-done-button-350x63.png)
+   ![&#x200B; Adjust in de begroting stellende data &#x200B;](assets/rp-adjust-budgeting-dates-with-no-done-button-350x63.png)
 
 1. Sleep het gemarkeerde tijdframe naar een ander tijdstip om te begrijpen waar er geen begrotingsconflicten zijn voor het geselecteerde project. Wanneer u een tijdkader vindt waar de Netto waarde positief is, verandert het benadrukte tijdkader in blauw.
 1. Klik op de &#39;x&#39; in de rechterbovenhoek van de tijdlijn van de projecttoewijzing om deze te sluiten.
@@ -72,7 +72,7 @@ Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront
 1. Klik **sparen**.
 1. (Voorwaardelijk en optioneel) Als de tijdframes zonder budgetconflicten zich buiten de tijdlijn van het project bevinden, klikt u op de naam van het project om het project te openen.
 1. (Voorwaardelijk en facultatief) klik **uitgeven Project**, dan geef de **Geplande Datum van het Begin** of de **Geplande Datum van de Voltooiing** uit om de chronologie van het project voor het tijdkader zonder het in de begroting opnemen conflicten te wijzigen.\
-   Voor meer informatie over het uitgeven van projecten, zie het artikel [ projecten ](../../manage-work/projects/manage-projects/edit-projects.md) uitgeven.
+   Voor meer informatie over het uitgeven van projecten, zie het artikel [&#x200B; projecten &#x200B;](../../manage-work/projects/manage-projects/edit-projects.md) uitgeven.
 
 1. (Voorwaardelijk en facultatief) klik **sparen Veranderingen**.
 1. Keer terug naar de Planner van het Middel en neem de Begrotingspunten, FTEs, of Kosten in het tijdkader opnieuw op zonder in de begroting op te nemen conflicten.

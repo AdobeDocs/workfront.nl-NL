@@ -20,9 +20,9 @@ ht-degree: 0%
 >
 >De op deze pagina beschreven procedure is alleen van toepassing op organisaties die nog niet aan boord van de Admin Console zijn. Als uw organisatie is aangemeld bij de Adobe Admin Console, moet u deze handeling uitvoeren via de Adobe Admin Console.
 >
->Voor instructies bij het verlenen van volledige beheerdertoegang in Adobe Admin Console, zie [ gebruikers in Adobe Admin Console beheren ](../../../administration-and-setup/add-users/create-and-manage-users/admin-console.md).
+>Voor instructies bij het verlenen van volledige beheerdertoegang in Adobe Admin Console, zie [&#x200B; gebruikers in Adobe Admin Console beheren &#x200B;](../../../administration-and-setup/add-users/create-and-manage-users/admin-console.md).
 >
->Voor een lijst van procedures die verschillen gebaseerd op of uw organisatie aan Adobe Admin Console is genegeerd, zie [ Op platform-gebaseerde beleidsverschillen (Adobe Workfront/Adobe Bedrijfsplatform) ](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>Voor een lijst van procedures die verschillen gebaseerd op of uw organisatie aan Adobe Admin Console is genegeerd, zie [&#x200B; Op platform-gebaseerde beleidsverschillen (Adobe Workfront/Adobe Bedrijfsplatform) &#x200B;](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
 Als beheerder van Adobe Workfront, kunt u een andere beheerder van Workfront tot stand brengen door hen het de toegangsniveau van de Beheerder van het Systeem toe te wijzen. Een gebruiker met dit toegangsniveau heeft volledige administratieve toegang tot alles in Workfront, met inbegrip van punten zij niet creeerden zelf.
 
@@ -30,8 +30,8 @@ Als beheerder van Adobe Workfront, kunt u een andere beheerder van Workfront tot
 >
 >Dit verschilt van het gebruik van een toegangsniveau om gebruikers administratieve toegang tot bepaalde gebieden van het systeem te verlenen. Raadpleeg de volgende secties voor meer informatie:
 >
->* [ gebruikers administratieve toegang van de vergunning tot bepaalde gebieden ](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md)
->* [ Toegang van een beheerder van Workfront vs. toegang van een gebruiker van het Plan met administratieve rechten ](#access-of-a-workfront-administrator-vs-access-of-a-plan-user-with-administrative-rights) in dit artikel
+>* [&#x200B; gebruikers administratieve toegang van de vergunning tot bepaalde gebieden &#x200B;](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md)
+>* [&#x200B; Toegang van een beheerder van Workfront vs. toegang van een gebruiker van het Plan met administratieve rechten &#x200B;](#access-of-a-workfront-administrator-vs-access-of-a-plan-user-with-administrative-rights) in dit artikel
 >
 
 ## Toegangsvereisten
@@ -58,7 +58,7 @@ Als beheerder van Adobe Workfront, kunt u een andere beheerder van Workfront tot
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 +++
 
 ## Volledige toegang van de Beheerder van het Systeem tot één enkele gebruiker verlenen
@@ -88,7 +88,7 @@ Gebruikers met een licentie voor abonnementen die functies in één gebied kunne
 
 >[!NOTE]
 >
->De gebruikers met een vergunning van het Plan die als groepsbeheerders worden aangewezen kunnen sommige acties uitvoeren toegestaan voor de beheerders van Workfront. Ze mogen deze handelingen alleen uitvoeren voor de groepen die ze beheren, hun subgroepen en de gebruikers in deze groepen en subgroepen. Voor meer informatie, zie [ de beheerders van de Groep ](../../../administration-and-setup/manage-groups/group-roles/group-administrators.md).
+>De gebruikers met een vergunning van het Plan die als groepsbeheerders worden aangewezen kunnen sommige acties uitvoeren toegestaan voor de beheerders van Workfront. Ze mogen deze handelingen alleen uitvoeren voor de groepen die ze beheren, hun subgroepen en de gebruikers in deze groepen en subgroepen. Voor meer informatie, zie [&#x200B; de beheerders van de Groep &#x200B;](../../../administration-and-setup/manage-groups/group-roles/group-administrators.md).
 
 * [Toegang tot het gedeelte Instellen](#access-to-the-setup-area)
 * [Toegang tot objecten](#access-to-objects)

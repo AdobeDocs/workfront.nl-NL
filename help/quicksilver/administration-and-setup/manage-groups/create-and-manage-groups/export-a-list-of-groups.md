@@ -45,7 +45,7 @@ Als er groepen zijn boven de groep die u beheert, kunnen hun beheerders dit ook 
  </tbody> 
 </table>
 
-Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -53,14 +53,14 @@ Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront
 
 {{step-1-to-setup}}
 
-1. In het linkerpaneel, klik **Groepen** ![ Groepen ](assets/groups-icon.png).
+1. In het linkerpaneel, klik **Groepen** ![&#x200B; Groepen &#x200B;](assets/groups-icon.png).
 
    In de lijst die wordt weergegeven, ziet u de groepen die u beheert, samen met eventuele subgroepen die u beheert. Adobe Workfront-beheerders kunnen alle groepen zien.
 
-1. Als u de volledige groep groepen wilt uitvoeren die u beheert, klik het pictogram van de Uitvoer ![ Uitvoer ](assets/export.png).
+1. Als u de volledige groep groepen wilt uitvoeren die u beheert, klik het pictogram van de Uitvoer ![&#x200B; Uitvoer &#x200B;](assets/export.png).
 
    of
 
-   Om sommige groepen uit te voeren u beheert, die groepen selecteert, dan klik het pictogram van de Uitvoer ![ Uitvoer ](assets/export.png).
+   Om sommige groepen uit te voeren u beheert, die groepen selecteert, dan klik het pictogram van de Uitvoer ![&#x200B; Uitvoer &#x200B;](assets/export.png).
 
 1. Selecteer de gewenste bestandsindeling voor de geëxporteerde lijst.

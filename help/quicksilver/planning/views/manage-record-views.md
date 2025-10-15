@@ -20,7 +20,7 @@ ht-degree: 0%
 
 <span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>
 
-<span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
+<span class="preview"> voor informatie over snelle versies, zie [&#x200B; snelle versies voor uw organisatie &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
 
 
 {{planning-important-intro}}
@@ -29,20 +29,20 @@ Nadat u een recordtype hebt geselecteerd in het gedeelte Adobe Workfront Plannin
 
 * Tabel
 
-  Voor meer informatie, zie [ de lijstmening ](/help/quicksilver/planning/views/manage-the-table-view.md) leiden.
+  Voor meer informatie, zie [&#x200B; de lijstmening &#x200B;](/help/quicksilver/planning/views/manage-the-table-view.md) leiden.
 
 * Tijdlijn
 
-  Voor meer informatie, zie [ de chronologiemening ](/help/quicksilver/planning/views/manage-the-timeline-view.md) leiden.
+  Voor meer informatie, zie [&#x200B; de chronologiemening &#x200B;](/help/quicksilver/planning/views/manage-the-timeline-view.md) leiden.
 
 * Kalender
 
-  Voor meer informatie, zie [ de kalendermening ](/help/quicksilver/planning/views/manage-the-calendar-view.md) leiden.
+  Voor meer informatie, zie [&#x200B; de kalendermening &#x200B;](/help/quicksilver/planning/views/manage-the-calendar-view.md) leiden.
 
 In dit artikel wordt de volgende informatie over recordweergaven beschreven:
 
-* [ creeer en geef een mening ](#create-or-edit-record-views) uit
-* [ laat de aanwezigheidsindicatoren in real time in een mening toe ](#enable-the-real-time-presence-indicator-in-a-view)
+* [&#x200B; creeer en geef een mening &#x200B;](#create-or-edit-record-views) uit
+* [&#x200B; laat de aanwezigheidsindicatoren in real time in een mening toe &#x200B;](#enable-the-real-time-presence-indicator-in-a-view)
   <!--* [Add a view as a favorite](#add-a-view-as-a-favorite) - not possible yet-->
 
 Raadpleeg ook de volgende artikelen voor meer informatie over het beheren van de opnamen van Workfront Planning:
@@ -94,7 +94,7 @@ of
 </tbody> 
 </table>
 
-Voor meer informatie over de toegangsvereisten van Workfront, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer informatie over de toegangsvereisten van Workfront, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -232,7 +232,7 @@ In de volgende tabel worden de overeenkomsten en verschillen tussen de tabel-, t
 1. Afhankelijk van de omgeving die u gebruikt, gaat u als volgt te werk:
 
    * Klik in de productieomgeving op de tab **+View** .
-   * <span class="preview"> in het milieu van de Voorproef, klik het drop-down pictogram ![ pictogram Dropdown ](assets/drop-down-icon.png) naast de huidige meningsnaam, dan klik **+ Nieuwe mening**.</span>
+   * <span class="preview"> in het milieu van de Voorproef, klik het drop-down pictogram ![&#x200B; pictogram Dropdown &#x200B;](assets/drop-down-icon.png) naast de huidige meningsnaam, dan klik **+ Nieuwe mening**.</span>
 
 1. Selecteer een van de volgende typen weergaven:
 
@@ -242,7 +242,7 @@ In de volgende tabel worden de overeenkomsten en verschillen tussen de tabel-, t
 
    In de productieomgeving wordt een nieuw tabblad gemaakt met de geselecteerde weergave.
 
-   Afhankelijk van de breedte van uw scherm, zouden de extra meningen in **Meer** menu ![ Meer menu ](assets/more-menu.png) kunnen tonen.
+   Afhankelijk van de breedte van uw scherm, zouden de extra meningen in **Meer** menu ![&#x200B; Meer menu &#x200B;](assets/more-menu.png) kunnen tonen.
 
    >[!TIP]
    >
@@ -255,12 +255,12 @@ In de volgende tabel worden de overeenkomsten en verschillen tussen de tabel-, t
 
    <span class="preview"> in het milieu van de Voorproef, kies een meningstype, dan klik **creeer**. Er wordt een nieuwe weergave toegevoegd aan het vervolgkeuzemenu. </span>
 
-   <span class="preview">![ creeer meningsdoos ](assets/create-view-box.png)</span>
+   <span class="preview">![&#x200B; creeer meningsdoos &#x200B;](assets/create-view-box.png)</span>
 
-1. <span class="preview"> om een bestaande mening uit te geven, typ de naam van een mening op het **2} gebied van het Onderzoek {en druk binnengaan op uw toetsenbord.**</span>
+1. <span class="preview"> om een bestaande mening uit te geven, typ de naam van een mening op het **2&rbrace; gebied van het Onderzoek &lbrace;en druk binnengaan op uw toetsenbord.**</span>
 1. <span class="preview"> van het meningsdrop-down menu, belemmering en dalingsmeningen in orde van uw voorkeur.</span>
 
-   <span class="preview">![ de types van Mening drop-down van verslagtype lijst ](assets/view-types-drop-down-from-record-type-list.png)</span>
+   <span class="preview">![&#x200B; de types van Mening drop-down van verslagtype lijst &#x200B;](assets/view-types-drop-down-from-record-type-list.png)</span>
 
 1. (Voorwaardelijk) klik **daarna**, wanneer het creëren van een chronologie of een kalendermening.
 
@@ -280,21 +280,21 @@ In de volgende tabel worden de overeenkomsten en verschillen tussen de tabel-, t
    >
    >U moet aggregators voor datumgebieden (MAX of MIN) gebruiken wanneer u raadplegingsgebieden wanneer het verbinden van verslagtypes selecteert. Alleen wanneer u de aggregators toevoegt, kunt u de datums van de verbindingen gebruiken als begin- en einddatum voor de tijdlijn- en kalenderweergave.
    >
-   >Voor informatie, zie [ verbind verslagtypes ](/help/quicksilver/planning/architecture/connect-record-types.md).
+   >Voor informatie, zie [&#x200B; verbind verslagtypes &#x200B;](/help/quicksilver/planning/architecture/connect-record-types.md).
 
 1. Klik **creëren**.
 
    De weergave wordt weergegeven als een nieuw tabblad. De weergaven worden in chronologische volgorde weergegeven vanaf het moment waarop ze zijn gemaakt of met u zijn gedeeld.
-1. (Facultatief) klik **Meer** menu ![ meer inlasteken neer pictogrammeningen ](assets/more-caret-down-icon-views.png) naast de laatste mening om alle meningen voor het geselecteerde verslagtype te tonen.
+1. (Facultatief) klik **Meer** menu ![&#x200B; meer inlasteken neer pictogrammeningen &#x200B;](assets/more-caret-down-icon-views.png) naast de laatste mening om alle meningen voor het geselecteerde verslagtype te tonen.
 
    De extra meningsvertoning onder **Meer** menu na het laatste meningslusje. Het aantal naast **meer** menu toont het aantal extra meningen.
-1. (Facultatief) om een mening anders te noemen nadat het wordt gecreeerd, klik het meningsdrop-down menu, dan klik **Meer** menu ![ Meer menu ](assets/more-menu.png) > **anders noemen** om de meningsnaam bij te werken
+1. (Facultatief) om een mening anders te noemen nadat het wordt gecreeerd, klik het meningsdrop-down menu, dan klik **Meer** menu ![&#x200B; Meer menu &#x200B;](assets/more-menu.png) > **anders noemen** om de meningsnaam bij te werken
 
    of
 
    Dubbelklik op de weergavenaam en typ de nieuwe naam.  <!--ensure there is not another saving step here?!-->
 
-1. <span class="preview"> (Facultatief) klik het **Volledige het schermpictogram** pictogram ![ Open volledig het schermpictogram ](assets/open-full-screen-icon.png) om het even welke mening in volledig scherm te openen, dan het **Uitgang volledig scherm** pictogram ![ het volledige het schermpictogram van de Uitgang ](assets/exit-full-screen-icon.png) of Escape op uw toetsenbord om het volledige scherm weg te gaan.  </span>
+1. <span class="preview"> (Facultatief) klik het **Volledige het schermpictogram** pictogram ![&#x200B; Open volledig het schermpictogram &#x200B;](assets/open-full-screen-icon.png) om het even welke mening in volledig scherm te openen, dan het **Uitgang volledig scherm** pictogram ![&#x200B; het volledige het schermpictogram van de Uitgang &#x200B;](assets/exit-full-screen-icon.png) of Escape op uw toetsenbord om het volledige scherm weg te gaan.  </span>
 
 1. (Optioneel) Raadpleeg de volgende artikelen voor informatie over het beheren van een bepaald weergavetype:
 
@@ -310,7 +310,7 @@ De avatars van andere gebruikers die recordinformatie uitgeven tezelfdertijd zoa
 
 Wanneer u de tabelweergave weergeeft, kunt u ook bekijken welk veld een andere gebruiker bewerkt op het moment dat u de record weergeeft.
 
-Voor meer informatie, zie [ de lijstmening ](/help/quicksilver/planning/views/manage-the-table-view.md) leiden.
+Voor meer informatie, zie [&#x200B; de lijstmening &#x200B;](/help/quicksilver/planning/views/manage-the-table-view.md) leiden.
 
 
 

@@ -23,13 +23,13 @@ U kunt de volgende typen filters toepassen in Adobe Workfront:
 
 * Snelle filters in een lijst met objecten om een item te zoeken met een trefwoord. Dit zijn tijdelijke filters die u niet kunt opslaan voor toekomstig gebruik.
 
-  Voor informatie over snelle filters, zie [ de snelle filter op een lijst ](../../../workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md) toepassen.
+  Voor informatie over snelle filters, zie [&#x200B; de snelle filter op een lijst &#x200B;](../../../workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md) toepassen.
 
 * Permanente filters die u kunt opslaan en meerdere keren kunt gebruiken in meerdere lijsten en rapporten. In dit artikel wordt beschreven hoe u een permanent filter kunt maken of een bestaand filter in een lijst of rapport kunt bewerken.
 
 * Filters in andere gebieden van Workfront, buiten lijsten en rapporten.
 
-  Voor een lijst van alle filters in Workfront en de gebieden waar u hen kunt toepassen, zie [ Overzicht van Filters ](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+  Voor een lijst van alle filters in Workfront en de gebieden waar u hen kunt toepassen, zie [&#x200B; Overzicht van Filters &#x200B;](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 ## Toegangsvereisten
 
@@ -63,7 +63,7 @@ U kunt de volgende typen filters toepassen in Adobe Workfront:
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -113,14 +113,14 @@ U kunt filters tot stand brengen gebruikend de types van filterbouwers die in de
 </tbody>
 </table>
 
-Voor informatie over de voorwerpen van Workfront, zie [ voorwerpen in Adobe Workfront ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md) begrijpen.
+Voor informatie over de voorwerpen van Workfront, zie [&#x200B; voorwerpen in Adobe Workfront &#x200B;](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md) begrijpen.
 
 Houd rekening met het volgende wanneer u filters maakt met behulp van de verschillende interfaces:
 
 * U kunt de standaardbuilder vinden op dezelfde plaatsen als waar u de oudere filterinterface vindt voor de gebieden die in de bovenstaande tabel worden vermeld.
 * De standaard builder is de standaardeigenschap voor alle gebieden waar het beschikbaar is. Om aan de bouwer van de erfenisfilter over te schakelen, klik **Meer** menu naast [!UICONTROL **Filters**] en selecteer [!UICONTROL **Ga terug naar Oudere Filters**].
 
-  ![ ga terug naar Verouderde Filters ](assets/use-legacy-filters.png)
+  ![&#x200B; ga terug naar Verouderde Filters &#x200B;](assets/use-legacy-filters.png)
 
 * Opgeslagen filters zijn beschikbaar in beide builders, ongeacht welke ervaring u gebruikte om ze oorspronkelijk te bouwen. Als u bijvoorbeeld een filter hebt gemaakt met de verouderde builder, kunt u dit ook vinden en wijzigen in de standaardbuilderinterface.
 
@@ -138,7 +138,7 @@ Houd rekening met het volgende wanneer u filters maakt met behulp van de verschi
   >
   >      `(A OR B) AND C`
   >
-  >1. De schakelaar aan de erfenisbouwer en geeft de filter uit gebruikend de syntaxis van de erfenisbouwer zoals die in de sectie [ wordt beschreven leidt tot of geeft een filter in de erfenisbouwer ](#create-filter-in-legacy-builder) in dit artikel uit. In de syntaxis voor de verouderde builder worden de filterinstructies als volgt weergegeven:
+  >1. De schakelaar aan de erfenisbouwer en geeft de filter uit gebruikend de syntaxis van de erfenisbouwer zoals die in de sectie [&#x200B; wordt beschreven leidt tot of geeft een filter in de erfenisbouwer &#x200B;](#create-filter-in-legacy-builder) in dit artikel uit. In de syntaxis voor de verouderde builder worden de filterinstructies als volgt weergegeven:
   >
   >      `A AND C`
   >      `OR`
@@ -167,9 +167,9 @@ U kunt op de volgende manieren filters maken met de standaardbuilderinterface:
 Maak een filter met de standaardbuilderinterface:
 
 1. Ga naar een lijst waar u een filter wilt tot stand brengen of die het filter bevat u wilt aanpassen.
-1. Klik het **pictogram van de Filter** pictogram ![ van de Filter ](assets/filter-nwepng.png) om de bouwerinterface te openen.
+1. Klik het **pictogram van de Filter** pictogram ![&#x200B; van de Filter &#x200B;](assets/filter-nwepng.png) om de bouwerinterface te openen.
 
-   ![ Standaard filterbouwer ](assets/new-filters-all-filter-types.png)
+   ![&#x200B; Standaard filterbouwer &#x200B;](assets/new-filters-all-filter-types.png)
 
 1. Bekijk de volgende lijsten met filters:
 
@@ -199,13 +199,13 @@ Maak een filter met de standaardbuilderinterface:
 1. Voer een van de volgende handelingen uit:
 
    * Klik **Nieuwe filter** om een filter van kras tot stand te brengen.
-   * Beweeg over een bestaand filter dat u toestemmingen hebt om te leiden en **te klikken geeft** pictogram ![ uit uitgeven pictogram ](assets/edit-icon.png) uit om het uit te geven.
+   * Beweeg over een bestaand filter dat u toestemmingen hebt om te leiden en **te klikken geeft** pictogram ![&#x200B; uit uitgeven pictogram &#x200B;](assets/edit-icon.png) uit om het uit te geven.
 
      of
 
-     Beweeg over een bestaand filter dat u toestemmingen hebt om te bekijken, **Meer** menu ![ ](assets/more-icon-spectrum.png) te klikken Meer menu, en **te klikken dupliceert** om de bestaande filter te kopiëren en een exemplaar uit te geven.
+     Beweeg over een bestaand filter dat u toestemmingen hebt om te bekijken, **Meer** menu ![&#x200B; &#x200B;](assets/more-icon-spectrum.png) te klikken Meer menu, en **te klikken dupliceert** om de bestaande filter te kopiëren en een exemplaar uit te geven.
 
-   ![ Meer menuopties ](assets/new-filters-more-menu-options-with-delete.png)
+   ![&#x200B; Meer menuopties &#x200B;](assets/new-filters-more-menu-options-with-delete.png)
 
 1. (Voorwaardelijk) Afhankelijk van het feit of u objecten wilt zoeken die overeenkomen met alle instructies in een filtergroep of een van de instructies in een filtergroep, kunt u een van de volgende opties selecteren:
 
@@ -224,19 +224,19 @@ Maak een filter met de standaardbuilderinterface:
    </tbody>
    </table>
 
-   ![ omvat als allen of om het even welk of waar drop-down menu ](assets/new-filters-all-or-any-are-true-drop-down-menu-nwe.png)
+   ![&#x200B; omvat als allen of om het even welk of waar drop-down menu &#x200B;](assets/new-filters-all-or-any-are-true-drop-down-menu-nwe.png)
 
-   Voor meer informatie over filterexploitanten, zie [ Overzicht van Filters ](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+   Voor meer informatie over filterexploitanten, zie [&#x200B; Overzicht van Filters &#x200B;](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 1. Klik op het vervolgkeuzemenu met velden om een lijst weer te geven met onlangs gebruikte velden en stel velden voor waarop u wilt filteren. De voorgestelde velden worden momenteel weergegeven in de lijst waarop u filtert.
 
    U kunt ook selecteren **doorbladert gebieden** om een lijst van alle gebieden te bekijken u door kunt filtreren. De velden in de geavanceerde zoekopdracht worden gegroepeerd op objectcategorie.
 
-   ![ bepaal de plaats van een gebied door ](assets/new-filter-search-for-field.png) te filtreren
+   ![&#x200B; bepaal de plaats van een gebied door &#x200B;](assets/new-filter-search-for-field.png) te filtreren
 
 1. Klik op de vervolgkeuzelijst met opties om een optie te selecteren. De standaardbepaling is &quot;evenaart.&quot;
 
-   Voor meer informatie, zie [ Filter en voorwaardenbepalingen ](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
+   Voor meer informatie, zie [&#x200B; Filter en voorwaardenbepalingen &#x200B;](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
 
    >[!TIP]
    >
@@ -249,7 +249,7 @@ Maak een filter met de standaardbuilderinterface:
    >Afhankelijk van de optie die u hebt geselecteerd, kunt u meerdere waarden selecteren.
 
 1. Klik **filter** toevoegen om een ander gebied te selecteren voeg een het filtreren criteria aan de filterverklaring toe.
-1. (Facultatief) klik het **pictogram van de Schrapping** pictogram van de Schrapping ![ om bestaande filterverklaringen te verwijderen.](assets/delete.png)
+1. (Facultatief) klik het **pictogram van de Schrapping** pictogram van de Schrapping ![&#x200B; om bestaande filterverklaringen te verwijderen.](assets/delete.png)
 
    of
 
@@ -271,17 +271,17 @@ Maak een filter met de standaardbuilderinterface:
 
 1. (Facultatief) klik **wijze van de Tekst** om verder bouwend de filter gebruikend tekstwijze.
 
-   ![ Uitgezochte tekstwijze ](assets/new-filter-select-text-mode.png)
+   ![&#x200B; Uitgezochte tekstwijze &#x200B;](assets/new-filter-select-text-mode.png)
 
    De interface van de tekstmodus wordt geopend.
 
-   ![ de wijzeinterface van de Tekst ](assets/text-mode-interface-for-beta-filters-nwe.png)
+   ![&#x200B; de wijzeinterface van de Tekst &#x200B;](assets/text-mode-interface-for-beta-filters-nwe.png)
 
    >[!TIP]
    >
    >We raden u aan zoveel mogelijk van het filter te maken met de standaardbuilderinterface en alleen tekstmodus te gebruiken wanneer u de filters moet wijzigen die alleen in de tekstmodus worden ondersteund.
 
-   Voor meer informatie over het creëren van een filter gebruikend de interface van de tekstwijze, zie [ een filter uitgeven gebruikend tekstwijze ](/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md).
+   Voor meer informatie over het creëren van een filter gebruikend de interface van de tekstwijze, zie [&#x200B; een filter uitgeven gebruikend tekstwijze &#x200B;](/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md).
 
 1. Klik **de tekstwijze van de Uitgang** om aan de standaard bouwerinterface terug te keren.
 
@@ -295,7 +295,7 @@ Maak een filter met de standaardbuilderinterface:
 
 1. Klik **sparen als nieuw** om de filter voor toekomstig gebruik te bewaren.
 
-   ![ Naam en sparen de filter ](assets/save-as-untitled-filter-ui-nwe.png)
+   ![&#x200B; Naam en sparen de filter &#x200B;](assets/save-as-untitled-filter-ui-nwe.png)
 
 1. Selecteer **Naamloze Filter** en typ in plaats daarvan de naam van de nieuwe filter.
 
@@ -305,7 +305,7 @@ Maak een filter met de standaardbuilderinterface:
 
 1. Selecteer een pictogram voor de nieuwe filter van het **drop-down menu van het Pictogram**.
 
-   ![ selecteer een pictogram voor de filter ](assets/new-filter-select-icon.png)
+   ![&#x200B; selecteer een pictogram voor de filter &#x200B;](assets/new-filter-select-icon.png)
 
 1. (Optioneel) Voeg een beschrijving van het filter toe om aan te geven wat er uniek aan is. De beschrijving wordt onder de filternaam in de lijst met filters weergegeven.
 
@@ -314,11 +314,11 @@ Maak een filter met de standaardbuilderinterface:
    >Het klikken **annuleert** op elk ogenblik neemt u terug naar het gebied van de filterbouw.
 
 1. Klik **sparen**. Het filter wordt opgeslagen in de lijst Opgeslagen en wordt toegepast op de lijst met items.
-1. (Facultatief) om een filter naar de Favoriete lijst te bewegen, over om het even welk filter in de filterlade te bewegen en het **pictogram van de Favoriet** ![ te klikken Favoriete.](assets/favorites-icon-small.png)
+1. (Facultatief) om een filter naar de Favoriete lijst te bewegen, over om het even welk filter in de filterlade te bewegen en het **pictogram van de Favoriet** ![&#x200B; te klikken Favoriete.](assets/favorites-icon-small.png)
 
    of
 
-   Beweeg over om het even welk filter in de filterlade, klik het Meer menu ![ Meer menu ](assets/more-icon-spectrum.png), en klik **Favoriet**.
+   Beweeg over om het even welk filter in de filterlade, klik het Meer menu ![&#x200B; Meer menu &#x200B;](assets/more-icon-spectrum.png), en klik **Favoriet**.
 
 1. (Optioneel) Klik op de knop **Stapelfilters** om gestapelde filters te activeren. Met deze optie kunt u meerdere opgeslagen filters toepassen. De filterregels worden toegepast in de volgorde waarin u ze selecteert.
 
@@ -328,17 +328,17 @@ Maak een filter met de standaardbuilderinterface:
    >
    >Wanneer u meerdere filters selecteert, moet tegelijkertijd aan alle bijbehorende voorwaarden worden voldaan om overeenkomende resultaten weer te geven.
 
-   ![ de filters van de Stapel ](assets/new-filter-stack-filters.png)
+   ![&#x200B; de filters van de Stapel &#x200B;](assets/new-filter-stack-filters.png)
 
    Het aantal filters dat u hebt geselecteerd, wordt weergegeven naast het filterpictogram boven aan de lijst met items.
 
-   ![ Aantal geselecteerde filters ](assets/number-of-filters-selected.png)
+   ![&#x200B; Aantal geselecteerde filters &#x200B;](assets/number-of-filters-selected.png)
 
 1. (Optioneel) Voer een van de volgende handelingen uit:
 
-   * Deel het filter met anderen of maak het systeembreed beschikbaar. Voor meer informatie, zie [ een filter, mening, of groepering ](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md) delen.
+   * Deel het filter met anderen of maak het systeembreed beschikbaar. Voor meer informatie, zie [&#x200B; een filter, mening, of groepering &#x200B;](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md) delen.
 
-   * Verwijder het filter als het niet meer geldig is of als het niet meer gedupliceerd is. U kunt alleen filters verwijderen die u bezit. U kunt filters verwijderen die met u zijn gedeeld. Voor informatie, zie [ filters, meningen, en groeperingen ](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/remove-filters-views-groupings.md) verwijderen.
+   * Verwijder het filter als het niet meer geldig is of als het niet meer gedupliceerd is. U kunt alleen filters verwijderen die u bezit. U kunt filters verwijderen die met u zijn gedeeld. Voor informatie, zie [&#x200B; filters, meningen, en groeperingen &#x200B;](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/remove-filters-views-groupings.md) verwijderen.
 
 ## Een filter maken of bewerken in de verouderde builder {#create-filter-in-legacy-builder}
 
@@ -350,7 +350,7 @@ U kunt oudere filters op de volgende manieren maken in lijsten en rapporten:
 Ongeacht de methode die u gebruikt om filters te maken, lijkt het alsof u een geheel nieuw filter maakt of een bestaand filter gebruikt.
 
 1. Ga naar een lijst of een rapport die het filter bevat dat u wilt aanpassen.
-1. Klik het **pictogram van de Filter** ![ pictogram van de Filter ](assets/filter-nwepng.png) {, dan klik het **Meer** pictogram ![ Meer pictogram ](assets/more-icon.png) en klik **Ga terug naar Verouderde Filters**.
+1. Klik het **pictogram van de Filter** ![&#x200B; pictogram van de Filter &#x200B;](assets/filter-nwepng.png) &lbrace;, dan klik het **Meer** pictogram ![&#x200B; Meer pictogram &#x200B;](assets/more-icon.png) en klik **Ga terug naar Verouderde Filters**.
 
    >[!TIP]
    >
@@ -360,7 +360,7 @@ Ongeacht de methode die u gebruikt om filters te maken, lijkt het alsof u een ge
 
    of
 
-   Beweeg over de filter die u wilt wijzigen en **klikken geeft** pictogram ![ uit pictogram ](assets/edit-icon.png) uit.
+   Beweeg over de filter die u wilt wijzigen en **klikken geeft** pictogram ![&#x200B; uit pictogram &#x200B;](assets/edit-icon.png) uit.
 
    De builder voor het aanpassen van de filterlanceringen.
 
@@ -372,13 +372,13 @@ Ongeacht de methode die u gebruikt om filters te maken, lijkt het alsof u een ge
      De gebieden verbonden aan het voorwerp van uw filter zijn vermeld in het **Begin typend gebiedsnaam** vakje.
 
    * Klik **EN** OF **OF** wanneer het toevoegen van een filterregel.\
-     Wanneer het toevoegen van filterregels, gebruik de filterbepalingen om de voorwaarde van uw filter te vestigen. Voor meer informatie over filterbepalingen, zie [ Filter en voorwaardenbepalingen ](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
+     Wanneer het toevoegen van filterregels, gebruik de filterbepalingen om de voorwaarde van uw filter te vestigen. Voor meer informatie over filterbepalingen, zie [&#x200B; Filter en voorwaardenbepalingen &#x200B;](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
 
      >[!NOTE]
      >
      >Wanneer u een groep EN verklaringen door veelvoudige OF verklaringen verbindt, moet u de gebieden herhalen die niet tussen OF verklaringen voor elke groep verklaringen veranderen.
      >
-     >![ Verbonden filterverklaringen ](assets/filters-and-statements-connected-by-or-statements-builder-ui-legacy-filters.png)
+     >![&#x200B; Verbonden filterverklaringen &#x200B;](assets/filters-and-statements-connected-by-or-statements-builder-ui-legacy-filters.png)
      >
      >Wanneer u een filter voor taken bouwt die het woord &quot;marketing&quot;bevatten en in projecten met een status van Huidige of Planning zijn, moet u de volgende filterregels hebben:
      >
@@ -396,7 +396,7 @@ Ongeacht de methode die u gebruikt om filters te maken, lijkt het alsof u een ge
 
 1. (Facultatief) klik **Schakelaar aan de Wijze van de Tekst** om een filter toe te voegen gebruikend de interface van de Wijze van de Tekst.
 
-   Voor meer informatie over het creëren van een filter gebruikend de interface van de tekstwijze, zie [ een filter uitgeven gebruikend tekstwijze ](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md).
+   Voor meer informatie over het creëren van een filter gebruikend de interface van de tekstwijze, zie [&#x200B; een filter uitgeven gebruikend tekstwijze &#x200B;](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md).
 
 1. Klik **sparen Filter** om een filter tot stand te brengen of geselecteerde te vervangen met uw veranderingen.
 
@@ -408,7 +408,7 @@ Ongeacht de methode die u gebruikt om filters te maken, lijkt het alsof u een ge
 
 1. (Optioneel) Voer een van de volgende handelingen uit:
 
-   * U kunt filters delen die u met andere gebruikers maakt, of deze in het hele systeem beschikbaar maken. Voor informatie, zie [ een filter, mening, of groepering ](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md) delen.
-   * Verwijder de filters die u niet meer in de lijst wilt weergeven. Voor informatie, zie [ filters, meningen, en groeperingen ](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/remove-filters-views-groupings.md) verwijderen.
+   * U kunt filters delen die u met andere gebruikers maakt, of deze in het hele systeem beschikbaar maken. Voor informatie, zie [&#x200B; een filter, mening, of groepering &#x200B;](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md) delen.
+   * Verwijder de filters die u niet meer in de lijst wilt weergeven. Voor informatie, zie [&#x200B; filters, meningen, en groeperingen &#x200B;](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/remove-filters-views-groupings.md) verwijderen.
 
 

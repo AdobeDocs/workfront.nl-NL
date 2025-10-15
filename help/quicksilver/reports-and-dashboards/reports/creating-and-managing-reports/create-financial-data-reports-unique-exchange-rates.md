@@ -23,7 +23,7 @@ Als er in Adobe Workfront meerdere wisselkoersen zijn geconfigureerd, kunt u de 
 >
 >Als u een munt buiten de standaardmunt in een Mening selecteert, ziet u niet meer de verbindingen **Meer Taken** toevoegen en **voegt Meer Kwesties** bij de bodem van een projectlijst toe.
 
-Voor informatie over hoe te om de standaardmunt voor een bepaald project te veranderen, zie [ Verandering de projectmunt ](../../../manage-work/projects/project-finances/change-project-currency.md).
+Voor informatie over hoe te om de standaardmunt voor een bepaald project te veranderen, zie [&#x200B; Verandering de projectmunt &#x200B;](../../../manage-work/projects/project-finances/change-project-currency.md).
 
 Als het verslag projecten met één munt bevat, worden de bedragen in groepen ook weergegeven in de standaardvaluta van het systeem.
 
@@ -57,13 +57,13 @@ Als het verslag projecten met één munt bevat, worden de bedragen in groepen oo
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Vereisten
 
-Voordat u alternatieve valuta&#39;s kunt weergeven zoals in deze sectie wordt beschreven, moet de Workfront-beheerder eerst meerdere valuta&#39;s inschakelen en configureren in het gedeelte Setup van Workfront. Voor informatie, zie [ de wisselkoersen van de Opstelling ](../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md).
+Voordat u alternatieve valuta&#39;s kunt weergeven zoals in deze sectie wordt beschreven, moet de Workfront-beheerder eerst meerdere valuta&#39;s inschakelen en configureren in het gedeelte Setup van Workfront. Voor informatie, zie [&#x200B; de wisselkoersen van de Opstelling &#x200B;](../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md).
 
 ## Financiële waarden toepassen op een rapport {#apply-financial-values-to-a-report}
 
@@ -81,7 +81,7 @@ Financiële waarden tussen valuta&#39;s omzetten bij het werken met rapporten:
 
    Met deze optie kunt u snel financiële waarden in een rapport omzetten tussen rentewaarden.
 
-   ![ munt van de Verandering ](assets/qs-change-currency-2022-350x257.png)
+   ![&#x200B; munt van de Verandering &#x200B;](assets/qs-change-currency-2022-350x257.png)
 
    <!--
    <p data-mc-conditions="QuicksilverOrClassic.Quicksilver,QuicksilverOrClassic.Draft mode">(NOTE: drafted this tip because I think this is confusing; this is in the step above.)</p>
@@ -103,31 +103,31 @@ Wanneer u de munt op het projectniveau aanpast en u informatie van alle projecte
 
 * Als u een rapport maakt dat financiële informatie ophaalt uit twee of meer projecten waarop verschillende valuta&#39;s zijn toegepast, geeft het samenvattingsoverzicht standaard de standaardvaluta van het systeem weer, zoals geselecteerd door de Workfront-beheerder.
 * Als u een rapport maakt voor twee of meer projecten die dezelfde valuta hebben, maar verschillen van de standaardvaluta van het systeem, worden de bedragen in de groepen weergegeven met de standaardvaluta van het systeem.
-* Als u een rapport maakt voor twee of meer projecten met taaktaken die zijn gekoppeld aan een valutaoverschrijving, converteert Workfront de financiële informatie van de overschreven valutakoersen van de rol naar de valuta van het project (wanneer u de oorspronkelijke valuta van het project in de weergave selecteert) of naar een andere valuta die u selecteert wanneer u het rapport weergeeft. Voor informatie over het met voeten treden van de munt van een baanrol, zie [ baanrollen ](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md) creëren en beheren.
+* Als u een rapport maakt voor twee of meer projecten met taaktaken die zijn gekoppeld aan een valutaoverschrijving, converteert Workfront de financiële informatie van de overschreven valutakoersen van de rol naar de valuta van het project (wanneer u de oorspronkelijke valuta van het project in de weergave selecteert) of naar een andere valuta die u selecteert wanneer u het rapport weergeeft. Voor informatie over het met voeten treden van de munt van een baanrol, zie [&#x200B; baanrollen &#x200B;](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md) creëren en beheren.
 
 Twee projecten met aangepaste valuta&#39;s weergeven in een rapport:
 
 1. Maak twee projecten met verschillende toegepaste valuta.
 
-   ![ Valuta ](assets/qs-currency-350x217.png)
+   ![&#x200B; Valuta &#x200B;](assets/qs-currency-350x217.png)
 
 1. Log uren op beide projecten.
 
-   Voor meer informatie over logboektijd, zie [ tijd van het Logboek ](../../../timesheets/create-and-manage-timesheets/log-time.md).
+   Voor meer informatie over logboektijd, zie [&#x200B; tijd van het Logboek &#x200B;](../../../timesheets/create-and-manage-timesheets/log-time.md).
 
-1. Klik het **pictogram van het 1} pictogram van het Belangrijkste Menu** ![, dan klik ](assets/main-menu-icon.png) Meldend **.**
+1. Klik het **pictogram van het 1&rbrace; pictogram van het Belangrijkste Menu** ![, dan klik &#x200B;](assets/main-menu-icon.png) Meldend **.**
 1. Klik **Nieuw Rapport**, toen **Rapport van het Project**.
 1. In de **Kolommen (Mening)** tabel, voeg een **Ware Kostenkolom** toe en vat het door **Som** samen.
 
-   Voor informatie over hoe te om een kolom tot stand te brengen, zie [ Overzicht van Meningen in Adobe Workfront ](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+   Voor informatie over hoe te om een kolom tot stand te brengen, zie [&#x200B; Overzicht van Meningen in Adobe Workfront &#x200B;](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
 1. In het **lusje van Groepen**, pas a **Geplande Datum van de Voltooiing** groepering toe.
 
-   Voor informatie over hoe te om een groepering tot stand te brengen, zie [ Overzicht van Groepen in Adobe Workfront ](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
+   Voor informatie over hoe te om een groepering tot stand te brengen, zie [&#x200B; Overzicht van Groepen in Adobe Workfront &#x200B;](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
 1. In het **lusje van Filters**, voeg een filter voor **Naam van het Project** toe en selecteer de twee projecten met de verschillende valuta&#39;s.
 
-   Voor informatie over hoe te om een filter tot stand te brengen, zie [ Overzicht van Filters ](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+   Voor informatie over hoe te om een filter tot stand te brengen, zie [&#x200B; Overzicht van Filters &#x200B;](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 1. Klik **sparen + Sluiten**.
 
@@ -142,7 +142,7 @@ Als een groepering op een taak of een uurlijst binnen een project wordt toegepas
 1. Maak een project met een aangepaste valuta, anders dan de standaardvaluta van het systeem.
 1. Ga naar het project en zorg ervoor dat het uren omvat die voor taken zijn geregistreerd.
 
-   Voor meer informatie over logboektijd, zie [ tijd van het Logboek ](../../../timesheets/create-and-manage-timesheets/log-time.md).
+   Voor meer informatie over logboektijd, zie [&#x200B; tijd van het Logboek &#x200B;](../../../timesheets/create-and-manage-timesheets/log-time.md).
 
    >[!NOTE]
    >
@@ -168,12 +168,12 @@ Een financieel veld in een rapport online bewerken:
    >[!NOTE]
    >
    >Als de standaardvaluta niet wordt weergegeven voor een lijst in een ander gebied, kunt u de weergave bewerken en de standaardvaluta weergeven.\
-   >Voor informatie over hoe te om de munt in een Mening te veranderen, zie de sectie in dit artikel [ financiële waarden op een rapport ](#apply-financial-values-to-a-report) toepassen.
+   >Voor informatie over hoe te om de munt in een Mening te veranderen, zie de sectie in dit artikel [&#x200B; financiële waarden op een rapport &#x200B;](#apply-financial-values-to-a-report) toepassen.
 
 1. Klik **de Acties van het Rapport**, dan uitgezocht **uitgeven**.
 1. Klik **Montages van het Rapport**.
 1. Klik de **drop-down Van de StandaardValuta**, dan uitgezochte **Oorspronkelijke Valuta van het Project**.
 
-   ![ Standaardmunt ](assets/qs-report-settings-default-currency-350x370.png)
+   ![&#x200B; Standaardmunt &#x200B;](assets/qs-report-settings-default-currency-350x370.png)
 
 1. Klik **Gedaan**.

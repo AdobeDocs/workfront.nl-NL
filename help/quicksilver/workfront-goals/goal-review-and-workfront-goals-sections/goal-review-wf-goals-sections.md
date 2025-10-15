@@ -24,7 +24,7 @@ ht-degree: 0%
 >
 >Adobe Workfront Goals kan niet meer worden aangeschaft.
 >
->Voor extra informatie over toegang tot de Doelen van Workfront, zie [ Vereisten om de Doelen van Workfront ](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md) te gebruiken.
+>Voor extra informatie over toegang tot de Doelen van Workfront, zie [&#x200B; Vereisten om de Doelen van Workfront &#x200B;](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md) te gebruiken.
 
 <!--Old:
 
@@ -48,7 +48,7 @@ ht-degree: 0%
 
 Leer over het herzien van doelstellingen en begrijp de secties waar u doelstellingen in Adobe Workfront kunt beheren in de volgende artikelen:
 
-* [ Overzicht van de secties van de Doelen van Adobe Workfront ](../../workfront-goals/goal-review-and-workfront-goals-sections/overview-of-wf-goals-sections.md)
-* [ beheert doelstellingen in de Lijst van het Doel van Adobe Workfront Doelen ](../../workfront-goals/goal-review-and-workfront-goals-sections/manage-goals-in-goal-list.md)
-* [ het doel van de Update vooruitgang in de Doelen van Adobe Workfront ](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md)
+* [&#x200B; Overzicht van de secties van de Doelen van Adobe Workfront &#x200B;](../../workfront-goals/goal-review-and-workfront-goals-sections/overview-of-wf-goals-sections.md)
+* [&#x200B; beheert doelstellingen in de Lijst van het Doel van Adobe Workfront Doelen &#x200B;](../../workfront-goals/goal-review-and-workfront-goals-sections/manage-goals-in-goal-list.md)
+* [&#x200B; het doel van de Update vooruitgang in de Doelen van Adobe Workfront &#x200B;](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md)
 * [Grafieken bekijken om trends in de voortgang van het doel in Adobe Workfront-doelen te begrijpen](../../workfront-goals/goal-review-and-workfront-goals-sections/review-goal-graphs.md)

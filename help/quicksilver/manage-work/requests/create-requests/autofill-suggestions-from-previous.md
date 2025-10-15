@@ -49,7 +49,7 @@ Gebruikers ontvangen geen suggesties voor gegevens waartoe zij anders geen toega
  </tbody> 
 </table>
 
-Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -63,15 +63,15 @@ Op eerdere verzoeken gebaseerde suggesties gebruiken:
 
 1. Maak een aanvraag.
 
-   Voor instructies, zie [ verzoeken ](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md) creëren en voorleggen.
+   Voor instructies, zie [&#x200B; verzoeken &#x200B;](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md) creëren en voorleggen.
 
 1. Velden invullen.
 
    Terwijl u velden invult, kunnen in andere velden suggesties worden weergegeven.
 
-1. Voor elke gebiedssuggestie, keurt de uitgezochte **** goed of **verwerpt** voor dat gebied.
+1. Voor elke gebiedssuggestie, keurt de uitgezochte **&#x200B;**&#x200B;goed of **verwerpt** voor dat gebied.
 
-   ![ Accepteer of verwerp suggestie ](assets/accept-reject-suggestion.png)
+   ![&#x200B; Accepteer of verwerp suggestie &#x200B;](assets/accept-reject-suggestion.png)
 
    of
 

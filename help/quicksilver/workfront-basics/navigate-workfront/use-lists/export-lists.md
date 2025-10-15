@@ -18,7 +18,7 @@ ht-degree: 0%
 
 U kunt een lijst met objecten exporteren vanuit [!DNL Adobe Workfront] . Wanneer de lijst met objecten in [!DNL Workfront] meer dan 2000 items bevat, kunt u alleen alle items in de lijst op één pagina controleren door de lijst te exporteren.
 
-Voor informatie over de uitvoerformaten en grenzen, zie [ Gegevens van de Uitvoer ](../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md).
+Voor informatie over de uitvoerformaten en grenzen, zie [&#x200B; Gegevens van de Uitvoer &#x200B;](../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md).
 
 ## Toegangsvereisten
 
@@ -50,7 +50,7 @@ Voor informatie over de uitvoerformaten en grenzen, zie [ Gegevens van de Uitvoe
  </tbody> 
 </table>
 
-Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -58,7 +58,7 @@ Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront
 
 1. Ga naar een lijst met objecten.
 1. (Optioneel) Selecteer het filter, de weergave en de groepering die u op de lijst wilt toepassen voordat u gaat exporteren.
-Voor informatie over filters, meningen, en groeperingen, zie [ Meldend elementen: filters, meningen, en groeperingen ](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md).
+Voor informatie over filters, meningen, en groeperingen, zie [&#x200B; Meldend elementen: filters, meningen, en groeperingen &#x200B;](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md).
 
 1. (Optioneel) Als u alleen bepaalde items in een lijst wilt exporteren, selecteert u alle gewenste items in de lijst in het geëxporteerde bestand.
 
@@ -68,15 +68,15 @@ Voor informatie over filters, meningen, en groeperingen, zie [ Meldend elementen
    >
    >   
    >   
-   >   * **Uitgezocht om Alle of 2000 punten in de lijsten** te tonen: Voor meer informatie, zie [ wijzigen zich hoe een lijst ](../../../workfront-basics/navigate-workfront/use-lists/modify-list-display.md) toont.
+   >   * **Uitgezocht om Alle of 2000 punten in de lijsten** te tonen: Voor meer informatie, zie [&#x200B; wijzigen zich hoe een lijst &#x200B;](../../../workfront-basics/navigate-workfront/use-lists/modify-list-display.md) toont.
    >   
-   >   * **Gebruik de snelle filter**: Voor meer informatie, zie [ de snelle filter op een lijst ](../../../workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md) toepassen.\
+   >   * **Gebruik de snelle filter**: Voor meer informatie, zie [&#x200B; de snelle filter op een lijst &#x200B;](../../../workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md) toepassen.\
    >     Het snelle filter wordt alleen toegepast op de huidige pagina in de lijst.
 
 
-   ![ select_all_projects_with_highlight__1_.png ](assets/select-all-projects-with-highlight--1--350x173.png)
+   ![&#x200B; select_all_projects_with_highlight__1_.png &#x200B;](assets/select-all-projects-with-highlight--1--350x173.png)
 
-1. Klik het **[!UICONTROL Export]** pictogram ![ Uitvoer ](assets/export.png).
+1. Klik het **[!UICONTROL Export]** pictogram ![&#x200B; Uitvoer &#x200B;](assets/export.png).
 
 1. Selecteer een van de volgende indelingen:
 

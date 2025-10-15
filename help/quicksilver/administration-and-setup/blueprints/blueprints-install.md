@@ -47,7 +47,7 @@ U kunt een blauwdruk installeren in de productieomgeving of in een Sandbox-omgev
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -87,14 +87,14 @@ U kunt uw pakket installeren in een van de volgende omgevingen:
 1. (Optioneel) Klik op **[!UICONTROL Details]** voor meer informatie over de werking van de blauwdruk.
 1. Klik op **[!UICONTROL Install]**.
 1. Kies of u wilt installeren in uw productieomgeving of in een sandbox-omgeving.\
-   Voor meer informatie, zie [ waar zou ik een blauwdruk moeten installeren?](#where-should-i-install-a-blueprint) in dit artikel.
+   Voor meer informatie, zie [&#x200B; waar zou ik een blauwdruk moeten installeren?](#where-should-i-install-a-blueprint) in dit artikel.
 1. Op **vorm** pagina, kunt u verkiezen om één van het volgende te doen:
 
    * Installeer de blauwdruk zoals deze is. Voor blauwdruktypes die geen configuratie vereisen, is dit de enige optie. Voor blauwdruktypes die configuratie nodig hebben, kunt u naar keuze verkiezen om de blauwdruk nu te installeren en het later te vormen. Klik op **[!UICONTROL Install as is]**.
    * Vorm de blauwdruk vóór installatie, voor blauwdrukken die configuratie vereisen. Maak uw configuratieselecties, dan klik **[!UICONTROL Install blueprint]**.
 
-     Voor meer informatie, zie [ een blauwdruk ](../../administration-and-setup/blueprints/configure-template-package.md) vormen.
+     Voor meer informatie, zie [&#x200B; een blauwdruk &#x200B;](../../administration-and-setup/blueprints/configure-template-package.md) vormen.
 
    De installatie is voltooid en er wordt een bericht weergegeven met een lijst met specifieke objecten (zoals rollen, teams of groepen) die met succes zijn geïnstalleerd met de blauwdruk en alle objecten die niet zijn geïnstalleerd.
 
-Na het installeren van de blauwdruk, zouden sommige extra acties kunnen nodig zijn om het volledig op te stellen. Voor informatie, zie [ Acties na het installeren van een blauwdruk ](../../administration-and-setup/blueprints/best-next-actions-after-install.md) te nemen.
+Na het installeren van de blauwdruk, zouden sommige extra acties kunnen nodig zijn om het volledig op te stellen. Voor informatie, zie [&#x200B; Acties na het installeren van een blauwdruk &#x200B;](../../administration-and-setup/blueprints/best-next-actions-after-install.md) te nemen.

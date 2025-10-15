@@ -47,7 +47,7 @@ De metriek van het project geeft u een algemene mening in grafiekformaat over ho
  </tbody> 
 </table>
 
-*Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Voor meer informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -83,7 +83,7 @@ Als u het gebied Metriek wilt openen vanuit het linkerdeelvenster van een projec
 
 * De optie Metrische gegevens voor de linkerdeelvensteroptie is ingeschakeld in het gedeelte Projecten van uw lay-outsjabloon.
 
-  Leren hoe een beheerder van Workfront of groepsbeheerder het linkerpaneel met een Malplaatje van de Lay-out kan aanpassen, zie [ het linkerpaneel aanpassen gebruikend een lay-outmalplaatje ](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md).
+  Leren hoe een beheerder van Workfront of groepsbeheerder het linkerpaneel met een Malplaatje van de Lay-out kan aanpassen, zie [&#x200B; het linkerpaneel aanpassen gebruikend een lay-outmalplaatje &#x200B;](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md).
 
 ## Overzicht van het gebied Metriek van het project
 
@@ -125,7 +125,7 @@ Deze KPI&#39;s worden onderverdeeld in de volgende categorieën:
 >
 >Om een lijst van het werkpunten voor specifieke KPI te tonen, klik dat KPI. In die lijst kunt u op een specifiek werkitem klikken om meer details op een nieuw tabblad weer te geven.\
 >![](assets/completed-tasks-dialog-350x75.png)\
->Voor meer informatie, zie [ de details van Metriek van de Mening ](#view-metrics-details).
+>Voor meer informatie, zie [&#x200B; de details van Metriek van de Mening &#x200B;](#view-metrics-details).
 
 ## Taakgrafiek of werkbalkgrafiek
 
@@ -143,7 +143,7 @@ Wanneer de prioriteit in deze grafiek wordt geselecteerd, kunt u alle prioriteit
 >
 >Als u een lijst met werkitems met een bepaalde status of prioriteit wilt weergeven, klikt u op een balk in het diagram. In die lijst kunt u op een specifiek werkitem klikken om meer details op een nieuw tabblad weer te geven.\
 >![](assets/completed-tasks-dialog-350x75.png)\
->Voor meer informatie, zie [ de details van Metriek van de Mening ](#view-metrics-details).
+>Voor meer informatie, zie [&#x200B; de details van Metriek van de Mening &#x200B;](#view-metrics-details).
 
 ## Donut-diagram
 
@@ -161,7 +161,7 @@ In het drop-down menu boven de grafiek, kunt u selecteren:
 >
 >Als u een lijst met voltooide of onvolledige werkitems wilt weergeven, klikt u op die sectie in het donutdiagram. In die lijst kunt u op een specifiek werkitem klikken om meer details op een nieuw tabblad weer te geven.\
 >![](assets/completed-tasks-dialog-350x75.png)\
->Voor meer informatie, zie [ de details van Metriek van de Mening ](#view-metrics-details).
+>Voor meer informatie, zie [&#x200B; de details van Metriek van de Mening &#x200B;](#view-metrics-details).
 
 ## Toegewezen staafdiagram
 
@@ -181,7 +181,7 @@ U kunt taaktoewijzingen voor een project in de volgende categorieën bekijken:
 >
 >Als u een lijst met werkitems in de geselecteerde categorie wilt weergeven die aan een specifieke gebruiker zijn toegewezen, klikt u op de balk naast de naam van de gebruiker in het diagram. In die lijst kunt u op een specifiek werkitem klikken om meer details op een nieuw tabblad weer te geven.\
 >![](assets/completed-tasks-dialog-350x75.png)\
->Voor meer informatie, zie [ de details van Metriek van de Mening ](#view-metrics-details).
+>Voor meer informatie, zie [&#x200B; de details van Metriek van de Mening &#x200B;](#view-metrics-details).
 
 ## Metrische details weergeven {#view-metrics-details}
 

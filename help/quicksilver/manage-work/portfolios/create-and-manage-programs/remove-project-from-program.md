@@ -21,7 +21,7 @@ U kunt een project uit een programma verwijderen door één van het volgende te 
 * Verwijder het permanent uit het huidige programma en koppel het niet aan een ander programma.
 * Verwijder het project definitief.
 
-  Voor informatie over het schrappen van projecten, zie [ projecten ](../../../manage-work/projects/manage-projects/delete-projects.md) schrappen.
+  Voor informatie over het schrappen van projecten, zie [&#x200B; projecten &#x200B;](../../../manage-work/projects/manage-projects/delete-projects.md) schrappen.
 
 ## Toegangsvereisten
 
@@ -51,7 +51,7 @@ U kunt een project uit een programma verwijderen door één van het volgende te 
  </tbody> 
 </table>
 
-*For informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)
+*For informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)
 
 +++
 

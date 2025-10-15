@@ -19,7 +19,7 @@ Standaard berekent Adobe Workfront de duur van een taak met een type eenvoudige 
 
 U kunt Geplande uren en Duur van een taak met het Eenvoudige Type van Duur inline of op het taakniveau in het gebied van Taken uitgeven.
 
-Voor meer informatie over het uitgeven van informatie gealigneerd, zie [ gealigneerd punten in een lijst in Adobe Workfront ](../../../workfront-basics/navigate-workfront/use-lists/inline-edit-objects.md) uitgeven.
+Voor meer informatie over het uitgeven van informatie gealigneerd, zie [&#x200B; gealigneerd punten in een lijst in Adobe Workfront &#x200B;](../../../workfront-basics/navigate-workfront/use-lists/inline-edit-objects.md) uitgeven.
 
 In dit artikel wordt beschreven hoe u de Geplande uren en Duur voor een taak met een Eenvoudig Duur Type op het taakniveau, in het gebied van Taken kunt bijwerken.
 
@@ -51,7 +51,7 @@ In dit artikel wordt beschreven hoe u de Geplande uren en Duur voor een taak met
  </tbody> 
 </table>
 
-Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

@@ -64,7 +64,7 @@ Sluit uw werk aan op uw inhoud in Experience Manager Assets Essentials &#x200B;:
   </tr>
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -72,7 +72,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 {{step-1-to-setup}}
 
-1. Selecteer **Documenten** ![ documentenpictogram ](assets/document-icon.png) in het linkerpaneel, dan de uitgezochte **Integratie van Experience Manager**.
+1. Selecteer **Documenten** ![&#x200B; documentenpictogram &#x200B;](assets/document-icon.png) in het linkerpaneel, dan de uitgezochte **Integratie van Experience Manager**.
 1. Selecteer **toevoegen de Integratie van Experience Manager**.
 1. Geef het volgende op:
 
@@ -99,7 +99,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
    </tr>
    </table>
 
-1. Klik **sparen** of beweging op de [ Opgestelde meta-gegevens (facultatief) ](#set-up-metadata-optional) sectie in dit artikel.
+1. Klik **sparen** of beweging op de [&#x200B; Opgestelde meta-gegevens (facultatief) &#x200B;](#set-up-metadata-optional) sectie in dit artikel.
 
 
 ## Metagegevens instellen (optioneel)
@@ -111,8 +111,8 @@ Wijs Workfront-objectgegevens toe aan middelenmediavelden in Experience Manager 
 
 Voordat u begint, moet u
 
-* Vorm een meta-gegevensschema in de Hoofdzaak van Experience Manager Assets zoals die in [ wordt verklaard vormt activa meta-gegevensafbeelding tussen Adobe Workfront en Experience Manager Assets ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
-* (Optioneel) Configureer aangepaste formuliervelden in Workfront. Workfront heeft veel ingebouwde aangepaste velden die u kunt gebruiken. U kunt echter ook uw eigen aangepaste velden maken. Voor meer informatie, zie [ een douaneformulier ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren.
+* Vorm een meta-gegevensschema in de Hoofdzaak van Experience Manager Assets zoals die in [&#x200B; wordt verklaard vormt activa meta-gegevensafbeelding tussen Adobe Workfront en Experience Manager Assets &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
+* (Optioneel) Configureer aangepaste formuliervelden in Workfront. Workfront heeft veel ingebouwde aangepaste velden die u kunt gebruiken. U kunt echter ook uw eigen aangepaste velden maken. Voor meer informatie, zie [&#x200B; een douaneformulier &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren.
 
 ## Ondersteunde velden voor Workfront en Experience Manager Assets
 
@@ -145,8 +145,8 @@ Metagegevens worden toegewezen wanneer een element voor het eerst vanuit Workfro
    Als u een Workfront-veld wilt toewijzen aan een Experience Manager Assets-tag, selecteert u `xcm:keywords` .
 
 1. Herhaal stap 1 en 2 zo nodig.
-   ![ laat meta-gegevens ](assets/metadata-assets-essentials.png) toe
-1. Klik **sparen** of beweging op de [ Opstelling verbonden omslagen (facultatief) ](#set-up-linked-folders-optional) sectie in dit artikel.
+   ![&#x200B; laat meta-gegevens &#x200B;](assets/metadata-assets-essentials.png) toe
+1. Klik **sparen** of beweging op de [&#x200B; Opstelling verbonden omslagen (facultatief) &#x200B;](#set-up-linked-folders-optional) sectie in dit artikel.
 
 
 ## Gekoppelde mappen instellen (optioneel)

@@ -48,7 +48,7 @@ Deze toepassing wordt ondersteund door de volgende besturingssystemen:
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -62,19 +62,19 @@ Als dit niet het geval is, kunt u de onderstaande stappen volgen.
 
 1. Voer een van de volgende handelingen uit om de app te downloaden:
 
-   * Als u het milieu van de Productie gebruikt, klik [ de Download van de Productie van Mac voor de Desktop het Proofing Kijker.](https://app.proofhq.com/desktopviewer/mac)
-   * Als u het milieu van de Voorproef gebruikt, klik [ de Download van de Voorproef van Mac voor de Kijker van het Proofing van de Desktop.](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview-2.1.44.pkg)
+   * Als u het milieu van de Productie gebruikt, klik [&#x200B; de Download van de Productie van Mac voor de Desktop het Proofing Kijker.](https://app.proofhq.com/desktopviewer/mac)
+   * Als u het milieu van de Voorproef gebruikt, klik [&#x200B; de Download van de Voorproef van Mac voor de Kijker van het Proofing van de Desktop.](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview-2.1.44.pkg)
 
 1. Open het bestand dat u zojuist hebt gedownload om de installatie te starten.
-1. Voor de installatievak die verschijnt, ga **** voort, dan klik **installeer**.
+1. Voor de installatievak die verschijnt, ga **&#x200B;**&#x200B;voort, dan klik **installeer**.
 
-   ![ 0}000776.png ](assets/00000776-350x244.png)
+   ![&#x200B; 0&rbrace;000776.png &#x200B;](assets/00000776-350x244.png)
 
 1. Open een interactieve proefdruk vanuit het gebied Documenten.
 
 >[!NOTE]
 >
->Als de Desktop Proofing Kijker niet lanceert wanneer u een interactieve proef opent, betekent dit waarschijnlijk dat uw Workfront of beheerder van Workfront Proof de Kijker van het Proofing van de Desktop als standaardkijker voor interactieve proefdrukken moet vormen, zoals die in [ wordt beschreven Gebruiker die voor het openen van niet-Interactieve Proofs in de Kijker van het Proofing van de Desktop ](../../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/destop-proofing-viewer.md#user-setting-for-opening-non-interactive-proofs-in-the-desktop-proofing-viewer) plaatst.
+>Als de Desktop Proofing Kijker niet lanceert wanneer u een interactieve proef opent, betekent dit waarschijnlijk dat uw Workfront of beheerder van Workfront Proof de Kijker van het Proofing van de Desktop als standaardkijker voor interactieve proefdrukken moet vormen, zoals die in [&#x200B; wordt beschreven Gebruiker die voor het openen van niet-Interactieve Proofs in de Kijker van het Proofing van de Desktop &#x200B;](../../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/destop-proofing-viewer.md#user-setting-for-opening-non-interactive-proofs-in-the-desktop-proofing-viewer) plaatst.
 
 ## De Desktop Proofing Viewer installeren in Windows
 
@@ -86,16 +86,16 @@ Als uw Workfront- of Workfront Proof-beheerder de app op uw werkstation heeft ge
 
 1. Voer een van de volgende handelingen uit om de app te downloaden:
 
-   * In het milieu van de Productie, klik [ download van de Productie van Vensters voor de Desktop het Proofing Kijker.](https://app.proofhq.com/desktopviewer/windows)
-   * In het milieu van de Voorproef, klik [ download van de Voorproef van Vensters voor de Kijker van het Proofing van de Desktop ](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview+Setup+2.1.44.exe)
+   * In het milieu van de Productie, klik [&#x200B; download van de Productie van Vensters voor de Desktop het Proofing Kijker.](https://app.proofhq.com/desktopviewer/windows)
+   * In het milieu van de Voorproef, klik [&#x200B; download van de Voorproef van Vensters voor de Kijker van het Proofing van de Desktop &#x200B;](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview+Setup+2.1.44.exe)
 
 1. Open het bestand dat u zojuist hebt gedownload om de installatie te starten.
 1. Open in het installatievak dat wordt weergegeven het bestand dat u net hebt gedownload om de installatie te starten.
 
-   ![ Screen_Shot_2018-05-02_at_10.56.55_AM.png ](assets/screen-shot-2018-05-02-at-10.56.55-am-350x271.png)
+   ![&#x200B; Screen_Shot_2018-05-02_at_10.56.55_AM.png &#x200B;](assets/screen-shot-2018-05-02-at-10.56.55-am-350x271.png)
 
 1. In de doos van de veiligheidswaarschuwing die verschijnt, klik **Looppas**. De Desktop Proofing Viewer wordt automatisch geïnstalleerd en uitgevoerd.
 1. (Voorwaardelijk) Als u de toepassing installeert met Internet Explorer, vernieuwt u de startpagina in de browser nadat de toepassing is geïnstalleerd.
 1. Open een interactieve proefdruk vanuit het gebied Documenten.
 
-Nadat de Desktop Proofing Viewer is geïnstalleerd, worden alle interactieve proefdrukken geopend in de Desktop Proofing Viewer. Als de Desktop Proofing Kijker niet lanceert wanneer u een interactieve proef opent, betekent dit waarschijnlijk dat uw Workfront of beheerder van Workfront Proof de Kijker van het Proofing van de Desktop als standaardkijker voor interactieve proefdrukken moet vormen, zoals die in [ wordt beschreven Gebruiker die voor het openen van niet-Interactieve Proofs in de Kijker van het Proofing van de Desktop ](../../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/destop-proofing-viewer.md#user-setting-for-launching-non-interactive-proofs) plaatst.
+Nadat de Desktop Proofing Viewer is geïnstalleerd, worden alle interactieve proefdrukken geopend in de Desktop Proofing Viewer. Als de Desktop Proofing Kijker niet lanceert wanneer u een interactieve proef opent, betekent dit waarschijnlijk dat uw Workfront of beheerder van Workfront Proof de Kijker van het Proofing van de Desktop als standaardkijker voor interactieve proefdrukken moet vormen, zoals die in [&#x200B; wordt beschreven Gebruiker die voor het openen van niet-Interactieve Proofs in de Kijker van het Proofing van de Desktop &#x200B;](../../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/destop-proofing-viewer.md#user-setting-for-launching-non-interactive-proofs) plaatst.

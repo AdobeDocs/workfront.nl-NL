@@ -43,7 +43,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -67,7 +67,7 @@ Handmatig controleren op updates:
 
 ## Standaardupdates
 
-De Desktop Proofing Viewer kan functioneren zonder de niet-kritieke updates. Voor een optimale functionaliteit raden we u echter aan deze toe te passen als ze beschikbaar zijn. U zult op de hoogte worden gesteld wanneer zij door een **update** knoop van de App {in de linkerzijbalk van de Kijker van het Proofing van de Desktop beschikbaar zijn.
+De Desktop Proofing Viewer kan functioneren zonder de niet-kritieke updates. Voor een optimale functionaliteit raden we u echter aan deze toe te passen als ze beschikbaar zijn. U zult op de hoogte worden gesteld wanneer zij door een **update** knoop van de App &lbrace;in de linkerzijbalk van de Kijker van het Proofing van de Desktop beschikbaar zijn.
 
 1. Klik **update van de App.**
 

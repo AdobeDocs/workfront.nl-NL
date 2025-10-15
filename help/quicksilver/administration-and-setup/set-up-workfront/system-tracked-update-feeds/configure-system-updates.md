@@ -40,7 +40,7 @@ Deze systeemupdates bevatten het volgende type informatie:
 * De naam van de gebruiker die de wijziging heeft aangebracht
 * Het tijdstip en de datum van de wijziging
 
-Voor meer informatie over systeemupdates, zie [ systeem-geleide updates ](../system-tracked-update-feeds/system-tracked-update-feeds.md).
+Voor meer informatie over systeemupdates, zie [&#x200B; systeem-geleide updates &#x200B;](../system-tracked-update-feeds/system-tracked-update-feeds.md).
 
 Als [!DNL Workfront] beheerder kunt u configureren welke objectvelden en handelingen [!DNL Workfront] bijhoudt om systeemupdates op te nemen.
 
@@ -71,7 +71,7 @@ U kunt bijvoorbeeld in [!DNL Workfront] alle wijzigingen bijhouden die gebruiker
  </tbody> 
 </table>
 
-*For meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*For meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -115,7 +115,7 @@ U kunt velden toevoegen die u in [!DNL Workfront] voor een bepaald type object w
 
 >[!NOTE]
 >
->U kunt maximaal 300 ingebouwde en aangepaste velden bijhouden in de updatefeed. Als u het maximumaantal velden bijhoudt en aanvullende velden wilt bijhouden die niet op het subtabblad [!UICONTROL All Fields] worden weergegeven, moet u eerst enkele bijgehouden velden verwijderen om nieuwe velden bij te houden. Voor meer informatie over het verwijderen van gebieden uit de updategebieden, zie [ gebieden verwijderen u niet gevolgd ](#remove-fields-you-don-t-want-tracked) wilt.
+>U kunt maximaal 300 ingebouwde en aangepaste velden bijhouden in de updatefeed. Als u het maximumaantal velden bijhoudt en aanvullende velden wilt bijhouden die niet op het subtabblad [!UICONTROL All Fields] worden weergegeven, moet u eerst enkele bijgehouden velden verwijderen om nieuwe velden bij te houden. Voor meer informatie over het verwijderen van gebieden uit de updategebieden, zie [&#x200B; gebieden verwijderen u niet gevolgd &#x200B;](#remove-fields-you-don-t-want-tracked) wilt.
 
 {{step-1-to-setup}}
 
@@ -160,7 +160,7 @@ U kunt velden verwijderen die het systeem niet voor een bepaald type object hoef
 
 1. Selecteer op het tabblad **[!UICONTROL Tracked Fields]** de subtab **[!UICONTROL All fields]** . Zowel de ingebouwde als de aangepaste velden die momenteel worden bijgehouden, worden weergegeven.
 
-1. Selecteer het gebied u het volgen wilt ophouden, dan klik het **[!UICONTROL Remove]** pictogram ![ verwijderen pictogram ](assets/remove-icon.png).
+1. Selecteer het gebied u het volgen wilt ophouden, dan klik het **[!UICONTROL Remove]** pictogram ![&#x200B; verwijderen pictogram &#x200B;](assets/remove-icon.png).
 
 1. Klik in het vak **[!UICONTROL Remove Field]** dat wordt weergegeven op **[!UICONTROL Yes, Remove It]** om te bevestigen.
 

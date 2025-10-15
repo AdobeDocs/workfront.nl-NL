@@ -69,7 +69,7 @@ U moet uw doelstellingen periodiek herzien en hun vooruitgang bijwerken om ervoo
 </tbody>
 </table>
 
-Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -145,16 +145,16 @@ Houd rekening met het volgende wanneer u de voortgang op het gebied van doelstel
 
   Zie ook de volgende artikelen:
 
-   * Voor informatie over het toevoegen van activiteiten aan doelstellingen, zie [ activiteiten aan doelstellingen in de Doelen van Adobe Workfront ](../../workfront-goals/results-and-activities/add-activities-to-goals.md) toevoegen.
-   * Voor informatie over het toevoegen van resultaten aan doelstellingen, zie [ resultaten aan doelstellingen in de Doelen van Adobe Workfront ](../../workfront-goals/results-and-activities/add-results-to-goals.md) toevoegen.
-   * Voor informatie over hoe de Doelen van Workfront de vooruitgang op een doel berekent, zie [ Overzicht van doelvooruitgang en voorwaarde in de Doelen van Adobe Workfront ](../../workfront-goals/goal-management/calculate-goal-progress.md).
+   * Voor informatie over het toevoegen van activiteiten aan doelstellingen, zie [&#x200B; activiteiten aan doelstellingen in de Doelen van Adobe Workfront &#x200B;](../../workfront-goals/results-and-activities/add-activities-to-goals.md) toevoegen.
+   * Voor informatie over het toevoegen van resultaten aan doelstellingen, zie [&#x200B; resultaten aan doelstellingen in de Doelen van Adobe Workfront &#x200B;](../../workfront-goals/results-and-activities/add-results-to-goals.md) toevoegen.
+   * Voor informatie over hoe de Doelen van Workfront de vooruitgang op een doel berekent, zie [&#x200B; Overzicht van doelvooruitgang en voorwaarde in de Doelen van Adobe Workfront &#x200B;](../../workfront-goals/goal-management/calculate-goal-progress.md).
 
 * U moet doelen maken en deze activeren voordat u de voortgang kunt bijwerken.
 
   Zie ook de volgende artikelen:
 
-   * Voor informatie over het creëren van doelstellingen, zie [ doelstellingen in de Doelen van Adobe Workfront ](../../workfront-goals/goal-management/create-goals.md) creëren.
-   * Voor informatie over het activeren van doelstellingen, zie [ doelstellingen in de Doelen van Adobe Workfront ](../../workfront-goals/goal-management/activate-goals.md) activeren.
+   * Voor informatie over het creëren van doelstellingen, zie [&#x200B; doelstellingen in de Doelen van Adobe Workfront &#x200B;](../../workfront-goals/goal-management/create-goals.md) creëren.
+   * Voor informatie over het activeren van doelstellingen, zie [&#x200B; doelstellingen in de Doelen van Adobe Workfront &#x200B;](../../workfront-goals/goal-management/activate-goals.md) activeren.
 
   >[!IMPORTANT]
   >
@@ -291,7 +291,7 @@ When you check in on a goal in the Check-in section, you can update the progress
 
 Voortgang van doelen bijwerken:
 
-1. Klik het **pictogram van het 1} pictogram van het Belangrijkste Menu** ![ > ](assets/main-menu-icon.png) Doelen **in de hoger-juiste hoek.**
+1. Klik het **pictogram van het 1&rbrace; pictogram van het Belangrijkste Menu** ![&#x200B; > &#x200B;](assets/main-menu-icon.png) Doelen **in de hoger-juiste hoek.**
 
    <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-review-and-workfront-goals-sections/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
@@ -316,7 +316,7 @@ Voortgang van doelen bijwerken:
 
 1. Om de vooruitgang van een resultaat of een activiteit bij te werken, klik de waarde binnen de **Ware kolom van de Voortgang** van het resultaat of de activiteit en typ een aantal om zijn waarde bij te werken, dan druk binnengaan.
 
-   ![ Ware vooruitgang ](assets/actual-progress-result-updating-highlighted-unshimmed.png)
+   ![&#x200B; Ware vooruitgang &#x200B;](assets/actual-progress-result-updating-highlighted-unshimmed.png)
 
    De voortgangsbalk voor de voortgangsindicator in de kolom Voortgang en de voortgang van het doel in de doelkoptekst worden direct bijgewerkt.
 

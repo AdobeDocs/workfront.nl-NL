@@ -49,7 +49,7 @@ Wij adviseren deactivering van een portefeuille die niet meer met toekomstige pr
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -103,8 +103,8 @@ Houd rekening met het volgende wanneer u besluit of u portfolio&#39;s wilt verwi
 
 1. Voer een van de volgende handelingen uit:
 
-   * Selecteer de portefeuille in de lijst, dan klik het **[!UICONTROL Delete]** pictogram ![ pictogram van de Schrapping ](assets/delete.png).
-   * Klik de portefeuille om het te openen, dan klik **Meer** menu ![ ](assets/more-icon.png) aan het recht van de portefeuillenaam, dan **Schrapping Portfolio**.
+   * Selecteer de portefeuille in de lijst, dan klik het **[!UICONTROL Delete]** pictogram ![&#x200B; pictogram van de Schrapping &#x200B;](assets/delete.png).
+   * Klik de portefeuille om het te openen, dan klik **Meer** menu ![&#x200B; &#x200B;](assets/more-icon.png) aan het recht van de portefeuillenaam, dan **Schrapping Portfolio**.
 1. Klik op **[!UICONTROL Yes, Delete It]** om te bevestigen.
 
    Het portfolio wordt verwijderd en kan niet worden hersteld.
@@ -115,14 +115,14 @@ Wanneer u een portfolio deactiveert, hebt u nog steeds toegang tot dit portfolio
 
 >[!NOTE]
 >
->Afhankelijk van de configuratie van de lay-outsjabloon door de [!DNL Workfront] - of groepsbeheerder, wordt het [!UICONTROL Portfolios] -gebied mogelijk niet weergegeven in de [!UICONTROL Main Menu] . Voor meer informatie, zie [ het Belangrijkste Menu aanpassen gebruikend een lay-outmalplaatje ](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
+>Afhankelijk van de configuratie van de lay-outsjabloon door de [!DNL Workfront] - of groepsbeheerder, wordt het [!UICONTROL Portfolios] -gebied mogelijk niet weergegeven in de [!UICONTROL Main Menu] . Voor meer informatie, zie [&#x200B; het Belangrijkste Menu aanpassen gebruikend een lay-outmalplaatje &#x200B;](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
 
 {{step1-click-main-menu}}
 
 1. Klik op **[!UICONTROL Portfolios]** .
 1. Klik op de naam van het portfolio.
-1. Klik **Meer** menu ![ Meer menu ](assets/more-icon.png) rechts van de portefeuillenaam, dan klik **[!UICONTROL Deactivate Portfolio]**.
+1. Klik **Meer** menu ![&#x200B; Meer menu &#x200B;](assets/more-icon.png) rechts van de portefeuillenaam, dan klik **[!UICONTROL Deactivate Portfolio]**.
 Het portfolio wordt onmiddellijk gedeactiveerd.
-1. (Facultatief) klik het **Meer** menu ![ Meer menu ](assets/more-icon.png) rechts van de portefeuillenaam, dan klik **[!UICONTROL Activate Portfolio]** om het te reactiveren.
+1. (Facultatief) klik het **Meer** menu ![&#x200B; Meer menu &#x200B;](assets/more-icon.png) rechts van de portefeuillenaam, dan klik **[!UICONTROL Activate Portfolio]** om het te reactiveren.
 
 

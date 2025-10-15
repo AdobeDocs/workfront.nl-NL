@@ -53,7 +53,7 @@ Met de widget Mijn werk worden alle toegewezen taken, problemen en verzoeken op 
  </tbody> 
 </table>
 
-Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -61,7 +61,7 @@ Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront
 
 U kunt de Mijn filters van het Werk verfijnen om zich op specifieke punten in uw lijst van het werk te concentreren:
 
-![ Mijn filter van het Werk ](assets/filter-my-work-widget.png)
+![&#x200B; Mijn filter van het Werk &#x200B;](assets/filter-my-work-widget.png)
 
 ### Filterdetails
 
@@ -112,7 +112,7 @@ U kunt de Mijn filters van het Werk verfijnen om zich op specifieke punten in uw
 
 >[!TIP]
 >
->Als u specifiekere filteropties zoekt, kunt u Mijn Taak of Mijn Uitgave widgets gebruiken. Voor meer informatie over Mijn Taak en Mijn filters van de Uitgave, zie [ overzicht van de widgetfilters van het Huis ](/help/quicksilver/workfront-basics/using-home/using-the-home-area/widget-filter-overview-home.md).
+>Als u specifiekere filteropties zoekt, kunt u Mijn Taak of Mijn Uitgave widgets gebruiken. Voor meer informatie over Mijn Taak en Mijn filters van de Uitgave, zie [&#x200B; overzicht van de widgetfilters van het Huis &#x200B;](/help/quicksilver/workfront-basics/using-home/using-the-home-area/widget-filter-overview-home.md).
 
 ## Uw werk organiseren
 
@@ -133,7 +133,7 @@ Eerdere items geven een waarschuwingspictogram weer naast de datum. Workfront ge
 >Als u een lijst wilt maken waarin alle items worden weergegeven die in het verleden verschuldigd zijn boven aan de widget Mijn werk, sorteert u deze op Datum verstreken en past u geen groepering toe.
 
 
-![ Soort in Mijn widget van het Werk ](assets/sort-my-work-widget.png)
+![&#x200B; Soort in Mijn widget van het Werk &#x200B;](assets/sort-my-work-widget.png)
 
 ### Groep
 
@@ -149,7 +149,7 @@ De vervaldatum wordt bepaald door de geplande datum van voltooiing.
 >Wanneer u een groep toepast, bepaalt de selectie in het menu Sorteren de volgorde binnen de groep.
 
 
-![ Groepering in Mijn widget van het Werk ](assets/group-my-work-widget.png)
+![&#x200B; Groepering in Mijn widget van het Werk &#x200B;](assets/group-my-work-widget.png)
 
 ## Gegevens over het werkitem bijwerken in het overzicht
 
@@ -159,15 +159,15 @@ U kunt het deelvenster Samenvatting openen om informatie in een taak of uitgave 
 * Een update toevoegen
 * Navigeer naar het gebied Document om een document te uploaden
 * Details van werkitems weergeven en aangepaste velden bijwerken
-Workfront-beheerders kunnen aanpassen welke velden worden weergegeven in het overzicht in de lay-outsjabloon. Voor meer informatie, zie [ het Summiere paneel aanpassen gebruikend een lay-outmalplaatje ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
+Workfront-beheerders kunnen aanpassen welke velden worden weergegeven in het overzicht in de lay-outsjabloon. Voor meer informatie, zie [&#x200B; het Summiere paneel aanpassen gebruikend een lay-outmalplaatje &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
 * De status van het werkitem wijzigen
 * Subtaken weergeven
 * Logtijd
 * Bijgevoegde goedkeuringsprocessen weergeven
 
-Om de Samenvatting te openen, over het het werkpunt te bewegen, dan het **pictogram van de Samenvatting** ![ te klikken pictogram van de Samenvatting 0}.](assets/open-summary-new-home.png)
+Om de Samenvatting te openen, over het het werkpunt te bewegen, dan het **pictogram van de Samenvatting** ![&#x200B; te klikken pictogram van de Samenvatting 0&rbrace;.](assets/open-summary-new-home.png)
 
-Voor extra informatie over hoe te om het Summiere paneel te gebruiken, zie [ Overzicht van de Samenvatting ](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md).
+Voor extra informatie over hoe te om het Summiere paneel te gebruiken, zie [&#x200B; Overzicht van de Samenvatting &#x200B;](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md).
 
 ## Snelle acties gebruiken om werkitems bij te werken
 
@@ -180,7 +180,7 @@ U kunt het menu Handelingen gebruiken om
 
 Houd de muisaanwijzer boven het werkitem om het menu met snelle acties te zoeken. De snelle vertoningen van de actielijst dichtbij het **Werk op het** of **Gereed** knoop.
 
-![ Snelle actiemenu ](assets/quick-actions-new-home.png)
+![&#x200B; Snelle actiemenu &#x200B;](assets/quick-actions-new-home.png)
 
 
 ## Goedkeuringen en teamverzoeken weergeven
@@ -191,4 +191,4 @@ De goedkeuringen en de teamverzoeken worden niet weergegeven in Mijn werk widget
 * Alle goedkeuringen
 * Teamverzoeken
 
-Voor informatie over het toevoegen van widgets aan uw Nieuwe pagina van het Huis, zie [ toevoegen, uitgeven, of verwijder widgets in Huis ](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md).
+Voor informatie over het toevoegen van widgets aan uw Nieuwe pagina van het Huis, zie [&#x200B; toevoegen, uitgeven, of verwijder widgets in Huis &#x200B;](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md).

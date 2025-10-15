@@ -23,9 +23,9 @@ U kunt een kwestie in een project met ons omzetten zonder een projectmalplaatje 
 
 >[!IMPORTANT]
 >
->Voor algemene informatie over het omzetten van kwesties, adviseren wij dat u ook het artikel [ Overzicht van het omzetten van kwesties in Adobe Workfront ](../../../manage-work/issues/convert-issues/convert-issues.md) leest.
+>Voor algemene informatie over het omzetten van kwesties, adviseren wij dat u ook het artikel [&#x200B; Overzicht van het omzetten van kwesties in Adobe Workfront &#x200B;](../../../manage-work/issues/convert-issues/convert-issues.md) leest.
 
-Wanneer het creëren van een project van een kwestie, bevolken sommige gebieden op het project van andere voorwerpen. Voor meer informatie, zie de &quot;Nieuwe sectie van het projectgebrek montages&quot;in het artikel [ een project ](../../../manage-work/projects/create-projects/create-project.md) creëren.
+Wanneer het creëren van een project van een kwestie, bevolken sommige gebieden op het project van andere voorwerpen. Voor meer informatie, zie de &quot;Nieuwe sectie van het projectgebrek montages&quot;in het artikel [&#x200B; een project &#x200B;](../../../manage-work/projects/create-projects/create-project.md) creëren.
 
 ## Toegangsvereisten
 
@@ -56,7 +56,7 @@ Wanneer het creëren van een project van een kwestie, bevolken sommige gebieden 
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -99,16 +99,16 @@ U kunt een uitgave in een leeg project omzetten.
 1. Ga naar een project en klik op **[!UICONTROL Issues]** in het linkerdeelvenster.
 1. Voer een van de volgende handelingen uit in de lijst met weergegeven problemen:
 
-   * Om een kwestie in een leeg project om te zetten, klik de naam van de kwestie, klik het **[!UICONTROL More]** menu ![ Meer menu ](assets/more-icon.png) rechts van de uitgevende naam, dan klik **[!UICONTROL Convert to a blank project]**.
+   * Om een kwestie in een leeg project om te zetten, klik de naam van de kwestie, klik het **[!UICONTROL More]** menu ![&#x200B; Meer menu &#x200B;](assets/more-icon.png) rechts van de uitgevende naam, dan klik **[!UICONTROL Convert to a blank project]**.
 
 
      of
 
-     Selecteer de kwestie in de lijst van kwestie, klik het **[!UICONTROL More]** menu ![ Meer menu ](assets/more-icon.png) bij de bovenkant van de lijst, dan klik **[!UICONTROL Convert to a blank project]**.
+     Selecteer de kwestie in de lijst van kwestie, klik het **[!UICONTROL More]** menu ![&#x200B; Meer menu &#x200B;](assets/more-icon.png) bij de bovenkant van de lijst, dan klik **[!UICONTROL Convert to a blank project]**.
 
      >[!IMPORTANT]
      >
-     >De optie Omzetten in een leeg project wordt alleen weergegeven wanneer uw systeem- of groepsbeheerder de voorkeur [!UICONTROL Allow users to create projects without using a template] heeft ingeschakeld in het [!UICONTROL Setup] -gebied. Voor meer informatie, zie [ systeem-brede projectvoorkeur ](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) vormen.
+     >De optie Omzetten in een leeg project wordt alleen weergegeven wanneer uw systeem- of groepsbeheerder de voorkeur [!UICONTROL Allow users to create projects without using a template] heeft ingeschakeld in het [!UICONTROL Setup] -gebied. Voor meer informatie, zie [&#x200B; systeem-brede projectvoorkeur &#x200B;](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) vormen.
 
 
      U moet taken aan het project manueel toevoegen of een malplaatje vastmaken aan het project nadat u de kwestie omzet.
@@ -120,7 +120,7 @@ U kunt een uitgave in een leeg project omzetten.
 
      >[!TIP]
      >
-     >Als het probleem is gekoppeld aan een goedkeuringsproces of al is gekoppeld aan een oplossend object, geeft Workfront boven aan het vak Converteren naar project een waarschuwing weer om aan te geven dat de goedkeuring wordt verwijderd of dat het oplossende object tijdens de conversie wordt overschreven. Voor meer informatie, zie [ Overzicht van het omzetten van kwesties in Adobe Workfront ](../../../manage-work/issues/convert-issues/convert-issues.md).
+     >Als het probleem is gekoppeld aan een goedkeuringsproces of al is gekoppeld aan een oplossend object, geeft Workfront boven aan het vak Converteren naar project een waarschuwing weer om aan te geven dat de goedkeuring wordt verwijderd of dat het oplossende object tijdens de conversie wordt overschreven. Voor meer informatie, zie [&#x200B; Overzicht van het omzetten van kwesties in Adobe Workfront &#x200B;](../../../manage-work/issues/convert-issues/convert-issues.md).
 
 1. (Facultatief en voorwaardelijk) klik [!UICONTROL **Opties**] in het linkerpaneel, dan selecteer van de opties die beschikbaar zijn:
 
@@ -132,9 +132,9 @@ U kunt een uitgave in een leeg project omzetten.
      >
      >Gebruikers zonder toegang of machtigingen om problemen te verwijderen, kunnen de uitgave niet verwijderen omdat ze deze converteren, ongeacht de status van deze instelling. Voor informatie over toegang en toestemmingen tot kwesties, zie:
      >
-     >* [ de toegang van de Verlening tot kwesties ](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md)
+     >* [&#x200B; de toegang van de Verlening tot kwesties &#x200B;](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md)
      > 
-     >* [ Deel een kwestie ](../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md)
+     >* [&#x200B; Deel een kwestie &#x200B;](../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md)
 
    * [!UICONTROL **staat (de Naam van de Gebruiker) toe om toegang tot dit project te hebben**]
 
@@ -142,24 +142,24 @@ U kunt een uitgave in een leeg project omzetten.
 
      >[!NOTE]
      >
-     >Welke opties hier beschikbaar zijn, is afhankelijk van de manier waarop de Workfront-beheerder deze voor iedereen in het systeem of voor uw groep heeft geconfigureerd. Voor meer informatie, zie [ taak voor het hele systeem vormen en voorkeur uitgeven ](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+     >Welke opties hier beschikbaar zijn, is afhankelijk van de manier waarop de Workfront-beheerder deze voor iedereen in het systeem of voor uw groep heeft geconfigureerd. Voor meer informatie, zie [&#x200B; taak voor het hele systeem vormen en voorkeur uitgeven &#x200B;](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
      >
      >
-     >Of, als de top-level groepen in uw organisatie hen afzonderlijk vormden, hangen de beschikbare opties hier af van welke groep u voor het nieuwe project in stap 6 selecteerde. Voor meer informatie, zie [ taak vormen en uitgiftevoorkeur voor een groep ](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md).
+     >Of, als de top-level groepen in uw organisatie hen afzonderlijk vormden, hangen de beschikbare opties hier af van welke groep u voor het nieuwe project in stap 6 selecteerde. Voor meer informatie, zie [&#x200B; taak vormen en uitgiftevoorkeur voor een groep &#x200B;](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md).
 
 1. Klik [!UICONTROL **Forms van de Douane**] en doe om het even welke volgend:
 
    * Bekijk de aangepaste formulieren die aan de uitgave zijn gekoppeld. Zij zullen naar het nieuwe project, als zij ook projectdouaneformulieren zijn overbrengen.
    * Meer aangepaste formulieren toevoegen
    * Controleer of alle vereiste velden geldige gegevens bevatten.
-   * Herschik de douanevormen door hen ![ pictogram van de Belemmering ](assets/drag-object-icon.png) te slepen waar u hen wilt.
+   * Herschik de douanevormen door hen ![&#x200B; pictogram van de Belemmering &#x200B;](assets/drag-object-icon.png) te slepen waar u hen wilt.
    * Klik het **x** pictogram aan het recht van om het even welke vorm die u niet naar het project wilt overbrengen. Hiermee verwijdert u het formulier uit het project.
    * Indien nodig, breng de informatie van de douaneformulier van de kwestie aan het project over.
 
      >[!TIP]
      >
      >* Als een multi-objecten douaneformulier in bijlage aan de kwestie voor gebruik met zowel kwesties als projecten wordt gevormd, wordt alle informatie bewaard die in de vorm wordt opgeslagen wanneer u de omzetting maakt als de gebieden zowel op de kwestie als de douaneformulieren van het project bestaan.
-     >* Als een aangepast formulier met meerdere objecten en een berekend veld is gekoppeld aan zowel de uitgave als het project, moeten de uitgave en het project compatibel zijn met alle velden waarnaar wordt verwezen in de berekende aangepaste velden van het formulier. Als er sprake is van incompatibiliteit, wordt u gewaarschuwd dat u aanpassingen moet aanbrengen. Voor meer informatie, zie de &quot;Berekende douanegebieden in multi-objecten douaneformulieren&quot;sectie in [ berekende gebieden aan een vorm ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) toevoegen.
+     >* Als een aangepast formulier met meerdere objecten en een berekend veld is gekoppeld aan zowel de uitgave als het project, moeten de uitgave en het project compatibel zijn met alle velden waarnaar wordt verwezen in de berekende aangepaste velden van het formulier. Als er sprake is van incompatibiliteit, wordt u gewaarschuwd dat u aanpassingen moet aanbrengen. Voor meer informatie, zie de &quot;Berekende douanegebieden in multi-objecten douaneformulieren&quot;sectie in [&#x200B; berekende gebieden aan een vorm &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) toevoegen.
 
 1. Klik [!UICONTROL **Bekeerling in project**].
 
@@ -183,7 +183,7 @@ U kunt een uitgave in een leeg project omzetten.
 U kunt een uitgave in een project omzetten gebruikend een malplaatje.
 
 1. Ga naar een project en klik op **[!UICONTROL Issues]** in het linkerdeelvenster.
-1. In de lijst van kwesties die toont, klik de naam van de kwestie, klik het **[!UICONTROL More]** menu ![ Meer menu ](assets/more-icon.png) rechts van de uitgevende naam, dan klik **Bekeerling aan project van Malplaatje** en begin de naam van een malplaatje in het **Sjabloon van het Onderzoek** vakje te typen, dan klik de naam van het malplaatje wanneer het in de lijst toont. Ga verder met stap 3.
+1. In de lijst van kwesties die toont, klik de naam van de kwestie, klik het **[!UICONTROL More]** menu ![&#x200B; Meer menu &#x200B;](assets/more-icon.png) rechts van de uitgevende naam, dan klik **Bekeerling aan project van Malplaatje** en begin de naam van een malplaatje in het **Sjabloon van het Onderzoek** vakje te typen, dan klik de naam van het malplaatje wanneer het in de lijst toont. Ga verder met stap 3.
 
    >[!TIP]
    >
@@ -191,11 +191,11 @@ U kunt een uitgave in een project omzetten gebruikend een malplaatje.
 
    Het vak Nieuw project van sjabloon wordt weergegeven.
 
-   ![ Nieuw project van malplaatje ](assets/new-project-from-template-small-box-with-template-details-panel-nwe-350x279.png)
+   ![&#x200B; Nieuw project van malplaatje &#x200B;](assets/new-project-from-template-small-box-with-template-details-panel-nwe-350x279.png)
 
    >[!TIP]
    >
-   >* Als het probleem is gekoppeld aan een goedkeuringsproces of al is gekoppeld aan een oplossend object, geeft Workfront boven aan het vak Converteren naar project een waarschuwing weer om aan te geven dat de goedkeuring wordt verwijderd of dat het oplossende object tijdens de conversie wordt overschreven. Voor meer informatie, zie [ Overzicht van het omzetten van kwesties in Adobe Workfront ](../../../manage-work/issues/convert-issues/convert-issues.md).
+   >* Als het probleem is gekoppeld aan een goedkeuringsproces of al is gekoppeld aan een oplossend object, geeft Workfront boven aan het vak Converteren naar project een waarschuwing weer om aan te geven dat de goedkeuring wordt verwijderd of dat het oplossende object tijdens de conversie wordt overschreven. Voor meer informatie, zie [&#x200B; Overzicht van het omzetten van kwesties in Adobe Workfront &#x200B;](../../../manage-work/issues/convert-issues/convert-issues.md).
    >   
    >* Als de kwestie gebruikend een verzoekrij werd gecreeerd, erft het nieuwe project de Groep van de verzoekrij.
    >* Als de kwestie door het toe te voegen aan de sectie van Kwesties van het project werd gecreeerd, erft het nieuwe project de Groep van het project van de kwestie.
@@ -210,7 +210,7 @@ U kunt een uitgave in een project omzetten gebruikend een malplaatje.
    * Het aantal taken in de sjabloon
    * De namen van de aangepaste sjabloonformulieren
 
-1. (Facultatief) muis over de naam van een malplaatje en klik het **pictogram van Favorieten** ![ om het als favoriet voor toekomstig gebruik te merken.](assets/favorites-icon-small.png)
+1. (Facultatief) muis over de naam van een malplaatje en klik het **pictogram van Favorieten** ![&#x200B; om het als favoriet voor toekomstig gebruik te merken.](assets/favorites-icon-small.png)
 
    >[!TIP]
    >
@@ -220,15 +220,15 @@ U kunt een uitgave in een project omzetten gebruikend een malplaatje.
 
    Het vak [!UICONTROL Convert to Project] wordt geopend.
 
-   ![ Bekeerling aan project ](assets/convert-to-project-from-template-large-project-box-nwe-350x291.png)
+   ![&#x200B; Bekeerling aan project &#x200B;](assets/convert-to-project-from-template-large-project-box-nwe-350x291.png)
 
-1. Als een veld al in de sjabloon is ingevuld, wordt het veld vooraf ingevuld in het vak [!UICONTROL Convert to project] . U kunt de vooraf ingevulde waarden bewerken zodat deze beter overeenkomen met uw project. Voor meer informatie, zie [ projecten ](../../../manage-work/projects/manage-projects/edit-projects.md) uitgeven.
+1. Als een veld al in de sjabloon is ingevuld, wordt het veld vooraf ingevuld in het vak [!UICONTROL Convert to project] . U kunt de vooraf ingevulde waarden bewerken zodat deze beter overeenkomen met uw project. Voor meer informatie, zie [&#x200B; projecten &#x200B;](../../../manage-work/projects/manage-projects/edit-projects.md) uitgeven.
 
    >[!TIP]
    >
    >* Uw systeem- of groepsbeheerder kan velden toevoegen aan of verwijderen uit [!UICONTROL Convert to Project box] door de projectdetails in uw [!UICONTROL Layout Template] bij te werken.
    >
-   >* Als u velden in de sectie [!UICONTROL Finance] in het vak [!UICONTROL Convert to Project] wilt bijwerken, moet u [!UICONTROL Edit] toegang hebben tot [!UICONTROL Financial Data] op toegangsniveau. Als u [!UICONTROL View] toegang tot [!UICONTROL Financial Data] in uw toegangsniveau hebt alle financiële informatie van de malplaatjeoverdrachten aan het nieuwe project en u kunt niet het uitgeven terwijl u de kwestie omzet. Voor informatie, zie [ toegang van de Verlening tot financiële gegevens ](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md) en [ Deel een malplaatje ](../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
+   >* Als u velden in de sectie [!UICONTROL Finance] in het vak [!UICONTROL Convert to Project] wilt bijwerken, moet u [!UICONTROL Edit] toegang hebben tot [!UICONTROL Financial Data] op toegangsniveau. Als u [!UICONTROL View] toegang tot [!UICONTROL Financial Data] in uw toegangsniveau hebt alle financiële informatie van de malplaatjeoverdrachten aan het nieuwe project en u kunt niet het uitgeven terwijl u de kwestie omzet. Voor informatie, zie [&#x200B; toegang van de Verlening tot financiële gegevens &#x200B;](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md) en [&#x200B; Deel een malplaatje &#x200B;](../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
 
 1. (Facultatief en voorwaardelijk) klik [!UICONTROL **Opties**] in het linkerpaneel, dan selecteer van de opties die beschikbaar zijn:
 
@@ -240,9 +240,9 @@ U kunt een uitgave in een project omzetten gebruikend een malplaatje.
      >
      >Gebruikers zonder toegang of machtigingen om problemen te verwijderen, kunnen de uitgave niet verwijderen omdat ze deze converteren, ongeacht de status van deze instelling. Voor informatie over toegang en toestemmingen tot kwesties, zie:
      >
-     >* [ de toegang van de Verlening tot kwesties ](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md)
+     >* [&#x200B; de toegang van de Verlening tot kwesties &#x200B;](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md)
      > 
-     >* [ Deel een kwestie ](../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md)
+     >* [&#x200B; Deel een kwestie &#x200B;](../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md)
 
    * [!UICONTROL **staat (de Naam van de Gebruiker) toe om toegang tot dit project te hebben**]
 
@@ -250,24 +250,24 @@ U kunt een uitgave in een project omzetten gebruikend een malplaatje.
 
      >[!NOTE]
      >
-     >Welke opties hier beschikbaar zijn, is afhankelijk van de manier waarop de Workfront-beheerder deze voor iedereen in het systeem of voor uw groep heeft geconfigureerd. Voor meer informatie, zie [ taak voor het hele systeem vormen en voorkeur uitgeven ](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+     >Welke opties hier beschikbaar zijn, is afhankelijk van de manier waarop de Workfront-beheerder deze voor iedereen in het systeem of voor uw groep heeft geconfigureerd. Voor meer informatie, zie [&#x200B; taak voor het hele systeem vormen en voorkeur uitgeven &#x200B;](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
      >
      >
-     >Of, als de top-level groepen in uw organisatie hen afzonderlijk vormden, hangen de beschikbare opties hier af van welke groep u voor het nieuwe project in stap 6 selecteerde. Voor meer informatie, zie [ taak vormen en uitgiftevoorkeur voor een groep ](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md).
+     >Of, als de top-level groepen in uw organisatie hen afzonderlijk vormden, hangen de beschikbare opties hier af van welke groep u voor het nieuwe project in stap 6 selecteerde. Voor meer informatie, zie [&#x200B; taak vormen en uitgiftevoorkeur voor een groep &#x200B;](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md).
 
    1. Klik [!UICONTROL **Forms van de Douane**] en doe om het even welke volgend:
 
       * Bekijk de aangepaste formulieren die aan de sjabloon zijn gekoppeld. Zij zullen worden overgedragen naar het nieuwe project.
       * Bekijk de aangepaste formulieren die aan de uitgave zijn gekoppeld. Zij zullen naar het project worden overgedragen als het ook projectvormen zijn.
       * Controleer of alle vereiste velden geldige gegevens bevatten.
-      * Herschik de douanevormen door hen ![ pictogram van de Belemmering ](assets/drag-object-icon.png) te slepen waar u hen wilt.
+      * Herschik de douanevormen door hen ![&#x200B; pictogram van de Belemmering &#x200B;](assets/drag-object-icon.png) te slepen waar u hen wilt.
       * Klik het **x** pictogram aan het recht van om het even welke vorm die u niet naar het project wilt overbrengen.
       * Indien nodig, breng de informatie van de douaneformulier van de kwestie aan het project over.
 
         >[!TIP]
         >
         >* Als een multi-objecten douaneformulier in bijlage aan de kwestie voor gebruik met zowel kwesties als projecten wordt gevormd, wordt alle informatie bewaard die in de vorm wordt opgeslagen wanneer u de omzetting maakt als de gebieden zowel op de kwestie als de douaneformulieren van het project bestaan.
-        >* Als een aangepast formulier met meerdere objecten en een berekend veld is gekoppeld aan zowel de uitgave als het project, moeten de uitgave en het project compatibel zijn met alle velden waarnaar wordt verwezen in de berekende aangepaste velden van het formulier. Als er sprake is van incompatibiliteit, wordt u gewaarschuwd dat u aanpassingen moet aanbrengen. Voor meer informatie, zie [ berekende gebieden aan een vorm ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) toevoegen.
+        >* Als een aangepast formulier met meerdere objecten en een berekend veld is gekoppeld aan zowel de uitgave als het project, moeten de uitgave en het project compatibel zijn met alle velden waarnaar wordt verwezen in de berekende aangepaste velden van het formulier. Als er sprake is van incompatibiliteit, wordt u gewaarschuwd dat u aanpassingen moet aanbrengen. Voor meer informatie, zie [&#x200B; berekende gebieden aan een vorm &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) toevoegen.
         >* Als een aangepast formulier dat aan de sjabloon is gekoppeld, een aangepast veld bevat dat ook wordt gevonden in een aangepast formulier dat aan de uitgave is gekoppeld, wordt de veldwaarde van de uitgave gebruikt voor het nieuwe project. Als het aangepaste veld echter leeg is in de uitgave, wordt de waarde uit de sjabloon gebruikt.
 
 1. (Optioneel) Stel desgewenst verdere projectdetails &#x200B; (eigenaar van project, projectdatums) en taken in.
@@ -282,6 +282,6 @@ U kunt een uitgave in een project omzetten gebruikend een malplaatje.
       >  
       >Als u besloot om de oorspronkelijke uitgave te behouden, is de kwestie nu verbonden met het nieuwe project en het zal voltooien wanneer het project voltooit.
       >
-      >Sommige probleemgebieden worden overgedragen naar het project. De meeste die gebieden in het malplaatje worden bepaald brengen automatisch naar het nieuwe gecreeerde project over als u hen in vorige stappen niet veranderde. Voor informatie, zie [ Overzicht van het omzetten van kwesties in Adobe Workfront ](../../../manage-work/issues/convert-issues/convert-issues.md).
+      >Sommige probleemgebieden worden overgedragen naar het project. De meeste die gebieden in het malplaatje worden bepaald brengen automatisch naar het nieuwe gecreeerde project over als u hen in vorige stappen niet veranderde. Voor informatie, zie [&#x200B; Overzicht van het omzetten van kwesties in Adobe Workfront &#x200B;](../../../manage-work/issues/convert-issues/convert-issues.md).
 
    De uitgave wordt nu omgezet in een project. De vertoningen van de projectpagina.

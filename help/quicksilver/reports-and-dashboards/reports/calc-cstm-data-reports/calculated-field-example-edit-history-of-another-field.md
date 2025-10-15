@@ -64,7 +64,7 @@ Dit doet het volgende:
  </tbody> 
 </table>
 
-Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -99,7 +99,7 @@ Als u een berekend veld met de bewerkingsgeschiedenis van een veld wilt toevoege
    ```
 
 1. (Geadviseerd) Deeg de zelfde berekening in het **gebied van Instructies** op het berekende gebied op de vorm.
-1. Zorg ervoor dat **Tekst** op het **3} gebied van het Formaat {wordt geselecteerd om het berekende douanegebied als tekst te formatteren.**
+1. Zorg ervoor dat **Tekst** op het **3&rbrace; gebied van het Formaat &lbrace;wordt geselecteerd om het berekende douanegebied als tekst te formatteren.**
 
    Dit is de standaardinstelling.
 

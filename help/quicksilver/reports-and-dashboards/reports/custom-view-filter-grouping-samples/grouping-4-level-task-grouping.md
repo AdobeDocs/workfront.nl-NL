@@ -20,7 +20,7 @@ ht-degree: 0%
 
 Deze taakgroepering verstrekt 4 niveaus van Groepering. In dit geval worden de taken gegroepeerd door Portfolio Owner, Program Owner, Project Owner en Project Status. U kunt slechts tot 3 niveaus van Groepering hebben gebruikend de standaardinterface. Als u een vierde niveau wilt toevoegen, moet u Tekstmodus gebruiken. U kunt rapporten niet groeperen met meer dan 4 criteria tezelfdertijd.
 
-![ four_tier_grouping_for_tasks.png ](assets/four-tier-grouping-for-tasks-350x239.png)
+![&#x200B; four_tier_grouping_for_tasks.png &#x200B;](assets/four-tier-grouping-for-tasks-350x239.png)
 
 ## Toegangsvereisten
 
@@ -51,7 +51,7 @@ Deze taakgroepering verstrekt 4 niveaus van Groepering. In dit geval worden de t
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -65,7 +65,7 @@ Deze groep toepassen:
 1. Klik **Schakelaar aan de Wijze van de Tekst**.
 1. Verwijder de tekst in de **Groep uw gebied van het Rapport**.
 1. Vervang de tekst in het vak dat wordt weergegeven door de volgende code:
-   <pre>groep.0.linkedname=project <br> group.0.name=Portfolio Eigenaar <br> group.0.notime=false <br> group.0.valueField=project :portfolio: eigenaar:name <br> group.0.valueformat=string <br> group.1.linkedname=project <br> group.1.name=Program Eigenaar <br> group.1.notime=false 8} group.1.valueField=project <br> eigenaar:name :program: group.1.valueformat=string <br> group.2.linkedname=projectOwnerMM <br> group.2.listgrouingparsedmethod=nested (project).nested (eigenaar).string(naam) <br> group.2.namekey=townermm <br> group.2.notime=false <br> group.2.valuefield=projectOwnerMM:name <br> group.2.valueformat=string <br> group.3.enumclass=com.attask.common.constants.ProjectStatusEnum <br> group.3.linkedname=project <br>group.3.namekey=view.relatedcolumn <br> group.3.namekeyargkey.0=project <br> group.3.namekeyargkey.1=status <br> group.3.notime=false <br> group.3.valuefield=project:status <br> group.3.valueformat=val<br></pre>
+   <pre>groep.0.linkedname=project <br> group.0.name=Portfolio Eigenaar <br> group.0.notime=false <br> group.0.valueField=project :portfolio: eigenaar:name <br> group.0.valueformat=string <br> group.1.linkedname=project <br> group.1.name=Program Eigenaar <br> group.1.notime=false 8&rbrace; group.1.valueField=project <br> eigenaar:name :program: group.1.valueformat=string <br> group.2.linkedname=projectOwnerMM <br> group.2.listgrouingparsedmethod=nested (project).nested (eigenaar).string(naam) <br> group.2.namekey=townermm <br> group.2.notime=false <br> group.2.valuefield=projectOwnerMM:name <br> group.2.valueformat=string <br> group.3.enumclass=com.attask.common.constants.ProjectStatusEnum <br> group.3.linkedname=project <br>group.3.namekey=view.relatedcolumn <br> group.3.namekeyargkey.0=project <br> group.3.namekeyargkey.1=status <br> group.3.notime=false <br> group.3.valuefield=project:status <br> group.3.valueformat=val<br></pre>
 
 1. Klik **Gedaan**, dan **sparen Groepering**.
 1. (Facultatief) werk de naam voor de groepering bij, dan klik **sparen Groepering**.

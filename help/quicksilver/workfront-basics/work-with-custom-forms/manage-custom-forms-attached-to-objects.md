@@ -47,7 +47,7 @@ U kunt de volgorde bijwerken waarin de aangepaste formulieren die aan een object
  </tbody> 
 </table>
 
-Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -77,10 +77,10 @@ Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Work
 
 ## Vereisten
 
-* Uw Workfront-beheerder of een Abonnementsgebruiker met beheerdersrechten voor aangepaste formulieren moet aangepaste formulieren maken in uw omgeving. Voor meer informatie, zie [ een douaneformulier ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren.
+* Uw Workfront-beheerder of een Abonnementsgebruiker met beheerdersrechten voor aangepaste formulieren moet aangepaste formulieren maken in uw omgeving. Voor meer informatie, zie [&#x200B; een douaneformulier &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren.
 * Er moeten aangepaste formulieren aan een object zijn gekoppeld.
 
-  Voor informatie over hoe te om douaneformulieren op een voorwerp toe te passen, zie [ een douaneformulier aan een voorwerp ](../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md) toevoegen.
+  Voor informatie over hoe te om douaneformulieren op een voorwerp toe te passen, zie [&#x200B; een douaneformulier aan een voorwerp &#x200B;](../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md) toevoegen.
 
 ## Meerdere aangepaste formulieren die aan een object zijn gekoppeld opnieuw ordenen {#reorder-multiple-custom-forms-attached-to-an-object}
 
@@ -88,7 +88,7 @@ Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Work
 
    **Voorbeeld:** Bijvoorbeeld, om de douaneformulieren van een project te beheren, ga naar het project, klik **Meer** menu ![](assets/more-icon.png), dan klik **uitgeven**.
 
-1. In de **sectie van de Douane Forms van 0} {voor projecten, taken, en kwesties, klik het** pictogram naast de naam van een douanevorm. ![](assets/move-icon---dots.png) Voor alle andere voorwerpen, klik **leiden Forms**. Deze optie wordt alleen weergegeven als ten minste één aangepast formulier aan het object is gekoppeld.
+1. In de **sectie van de Douane Forms van 0&rbrace; &lbrace;voor projecten, taken, en kwesties, klik het** pictogram naast de naam van een douanevorm. ![](assets/move-icon---dots.png) Voor alle andere voorwerpen, klik **leiden Forms**. Deze optie wordt alleen weergegeven als ten minste één aangepast formulier aan het object is gekoppeld.
 1. Sleep een formulier ![](assets/move-icon---dots.png) naar een nieuwe locatie in de lijst.
 1. Voor projecten, taken, en kwesties douaneformulieren, klik **sparen**.
 
@@ -104,7 +104,7 @@ Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Work
 
    Bijvoorbeeld, ga naar een project, klik de **sectie van de Details van het Project**.
 
-1. Klik **uitgeven** pictogram ![ geeft pictogram ](assets/edit-icon.png) in de hoger-juiste hoek van de pagina van de objecten uit, dan klik **allen** uitgeven.
+1. Klik **uitgeven** pictogram ![&#x200B; geeft pictogram &#x200B;](assets/edit-icon.png) in de hoger-juiste hoek van de pagina van de objecten uit, dan klik **allen** uitgeven.
 1. Klik het **pictogram van de Schrapping** aan het recht van een naam van de douanevorm, dan klik ![](assets/delete-icon.png) Schrapping **om de vorm van het voorwerp te bevestigen en te verwijderen, of** annuleert **om de verwijdering te verhinderen.**
 1. Klik **sparen Veranderingen**.
 
@@ -116,7 +116,7 @@ Hetzelfde veld wordt mogelijk weergegeven op meerdere aangepaste formulieren die
 
   U kunt geen verschillende waarden voor dezelfde velden hebben op verschillende formulieren die aan hetzelfde object zijn gekoppeld.
 
-* Als u dezelfde berekende velden op twee verschillende objecten hebt, moeten de berekeningen identiek zijn om fouten te voorkomen. Voor informatie over het toevoegen van berekende gebieden aan douanevormen met inbegrip van veelvoudige vormen, zie [ berekende gebieden aan een vorm ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) toevoegen.
+* Als u dezelfde berekende velden op twee verschillende objecten hebt, moeten de berekeningen identiek zijn om fouten te voorkomen. Voor informatie over het toevoegen van berekende gebieden aan douanevormen met inbegrip van veelvoudige vormen, zie [&#x200B; berekende gebieden aan een vorm &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) toevoegen.
 
 ## Meerdere aangepaste formulieren beheren wanneer objecten voor bulkbewerking
 
@@ -127,7 +127,7 @@ drafted for bulk-editing projects. When it releases to Prod for projects, take "
 >
 >Het beheren van aangepaste formulieren op objecten is identiek voor alle objecten, behalve voor projecten.
 >
->Voor informatie over het toevoegen van douaneformulieren aan projecten in bulk, zie het artikel [ projecten ](../../manage-work/projects/manage-projects/edit-projects.md) uitgeven.
+>Voor informatie over het toevoegen van douaneformulieren aan projecten in bulk, zie het artikel [&#x200B; projecten &#x200B;](../../manage-work/projects/manage-projects/edit-projects.md) uitgeven.
 
 Wanneer u objecten voor bulkbewerking gebruikt waarop meerdere aangepaste formulieren zijn toegepast, kunt u de manier bewerken waarop aangepaste formulieren op deze objecten worden weergegeven en kunt u ook gemeenschappelijke velden bewerken in de aangepaste formulieren.
 
@@ -158,11 +158,11 @@ Meerdere aangepaste formulieren bewerken wanneer objecten bulksgewijs worden bew
 
 1. (Optioneel) Als u aangepaste formulieren hebt toegevoegd aan alle objecten, maar de objecten nog niet hebt opgeslagen, kunt u de volgorde wijzigen waarin de aangepaste formulieren op de objecten worden weergegeven.
 
-   Voor meer informatie over het veranderen van de orde van de vormen, zie [ veelvoudige douaneformulieren opnieuw ordenen in bijlage aan een voorwerp ](#reorder-multiple-custom-forms-attached-to-an-object) in dit artikel.
+   Voor meer informatie over het veranderen van de orde van de vormen, zie [&#x200B; veelvoudige douaneformulieren opnieuw ordenen in bijlage aan een voorwerp &#x200B;](#reorder-multiple-custom-forms-attached-to-an-object) in dit artikel.
 
 1. Klik **verwijderen Vorm** om een douanevorm uit de voorwerpen te verwijderen.
 
-   Voor meer informatie over het verwijderen van douaneformulieren uit voorwerpen, zie [ een douaneformulier uit een voorwerp ](#remove-a-custom-form-from-an-object) verwijderen.
+   Voor meer informatie over het verwijderen van douaneformulieren uit voorwerpen, zie [&#x200B; een douaneformulier uit een voorwerp &#x200B;](#remove-a-custom-form-from-an-object) verwijderen.
 
    Houd rekening met het volgende wanneer u bulkformulieren van verschillende objecten verwijdert:
 

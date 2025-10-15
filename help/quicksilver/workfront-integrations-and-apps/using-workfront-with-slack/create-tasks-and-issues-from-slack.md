@@ -17,11 +17,11 @@ ht-degree: 0%
 
 Nadat u [!DNL Adobe Workfront for Slack] hebt geïnstalleerd en geconfigureerd, kunt u taken en problemen maken vanuit [!DNL Slack] en deze koppelen aan projecten in [!DNL Workfront] .
 
-Voor meer informatie over het vormen [!DNL Workfront] met [!DNL Slack], zie [  [!DNL Adobe Workfront for Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md) vormen.
+Voor meer informatie over het vormen [!DNL Workfront] met [!DNL Slack], zie [&#x200B;  [!DNL Adobe Workfront for Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md) vormen.
 
 U moet toegang hebben om taken en kwesties in uw Niveau van de Toegang tot stand te brengen en u moet [!UICONTROL Contribute] toestemmingen op het project hebben dat u hen associeert met.
 
-Voor meer informatie over de Niveaus van de Toegang, zie [ overzicht van de Niveaus van de Toegang ](../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md). Voor meer informatie over toestemmingen aan voorwerpen, zie [ Overzicht van het delen van toestemmingen op voorwerpen ](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+Voor meer informatie over de Niveaus van de Toegang, zie [&#x200B; overzicht van de Niveaus van de Toegang &#x200B;](../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md). Voor meer informatie over toestemmingen aan voorwerpen, zie [&#x200B; Overzicht van het delen van toestemmingen op voorwerpen &#x200B;](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
 ## Toegangsvereisten
 
@@ -42,7 +42,7 @@ Voor meer informatie over de Niveaus van de Toegang, zie [ overzicht van de Nive
  </tbody> 
 </table>
 
-Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -51,12 +51,12 @@ Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront
 Voordat u taken en problemen kunt maken vanuit [!DNL Slack] , moet u
 
 * [!DNL Workfront] voor Slack configureren\
-   Voor instructies bij het vormen [!DNL Workfront for Slack], zie [ vormen  [!DNL Adobe Workfront for Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md).
+   Voor instructies bij het vormen [!DNL Workfront for Slack], zie [&#x200B; vormen  [!DNL Adobe Workfront for Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md).
 
 ## Taken maken van [!DNL Slack]
 
 1. Meld u aan bij de [!DNL Slack] -instantie en meld u aan bij [!DNL Workfront] from [!DNL Slack] .\
-   Voor meer informatie over het programma openen aan Workfront van [!DNL Slack], zie het &quot;Aanmelden aan [!DNL Workfront] van [!DNL Slack]&quot;sectie in [ Toegang  [!DNL Adobe Workfront]  van  [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md).
+   Voor meer informatie over het programma openen aan Workfront van [!DNL Slack], zie het &quot;Aanmelden aan [!DNL Workfront] van [!DNL Slack]&quot;sectie in [&#x200B; Toegang  [!DNL Adobe Workfront]  van  [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md).
 
 1. Typ de volgende opdracht in het berichtveld vanaf een willekeurig kanaal:
 
@@ -75,7 +75,7 @@ Voordat u taken en problemen kunt maken vanuit [!DNL Slack] , moet u
 ## Uitgaven maken van [!DNL Slack]
 
 1. Meld u aan bij de [!DNL Slack] -instantie en meld u aan bij [!DNL Workfront] from [!DNL Slack] .\
-   Voor meer informatie over het programma openen aan [!DNL Workfront] van [!DNL Slack], zie het &quot;Aanmelden aan [!DNL Workfront] van [!DNL Slack]&quot;sectie in [ Toegang  [!DNL Adobe Workfront]  van  [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md).
+   Voor meer informatie over het programma openen aan [!DNL Workfront] van [!DNL Slack], zie het &quot;Aanmelden aan [!DNL Workfront] van [!DNL Slack]&quot;sectie in [&#x200B; Toegang  [!DNL Adobe Workfront]  van  [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md).
 
 1. Typ de volgende opdracht in het berichtveld vanaf een willekeurig kanaal:
 

@@ -23,7 +23,7 @@ ht-degree: 0%
 
 Als Adobe Workfront-beheerder of een gebruiker met een licentie voor een abonnement kunt u bekijken welke projecten, taken, problemen en documenten in de afgelopen 7 dagen zijn hersteld.
 
-Voor informatie over hoe te om een project, een taak, een kwestie, of een document te herstellen nadat het is geschrapt, zie [ geschrapte punten ](../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md) herstellen.
+Voor informatie over hoe te om een project, een taak, een kwestie, of een document te herstellen nadat het is geschrapt, zie [&#x200B; geschrapte punten &#x200B;](../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md) herstellen.
 
 ## Toegangsvereisten
 
@@ -49,7 +49,7 @@ Voor informatie over hoe te om een project, een taak, een kwestie, of een docume
  </tbody> 
 </table>
 
-Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

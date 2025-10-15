@@ -49,7 +49,7 @@ Als er groepen zijn boven de groep die u beheert, kunnen hun beheerders dit ook 
  </tbody> 
 </table>
 
-Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -68,18 +68,18 @@ Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront
 
 1. Voer een van de volgende handelingen uit:
 
-   * Selecteer een lid in de lijst, dan klik uitgeven ![ pictogram ](assets/edit-icon.png) uitgeven om het gebruikersprofiel van die persoon te wijzigen.
+   * Selecteer een lid in de lijst, dan klik uitgeven ![&#x200B; pictogram &#x200B;](assets/edit-icon.png) uitgeven om het gebruikersprofiel van die persoon te wijzigen.
 
-     Voor meer informatie, zie [ het profiel van een gebruiker ](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) uitgeven of [ gebruikersprofielen in bulk ](../../../administration-and-setup/add-users/create-and-manage-users/edit-user-profiles-in-bulk.md) uitgeven.
+     Voor meer informatie, zie [&#x200B; het profiel van een gebruiker &#x200B;](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) uitgeven of [&#x200B; gebruikersprofielen in bulk &#x200B;](../../../administration-and-setup/add-users/create-and-manage-users/edit-user-profiles-in-bulk.md) uitgeven.
 
    * Selecteer om het even welk aantal subgroepsleden in de lijst, dan klik **verzenden Update naar Gebruiker** om een commentaar aan hun gebruikersprofielen toe te voegen.
 
      De gebruiker of gebruikers ontvangen een melding in de app en een e-mailbericht met uw opmerking. De opmerking wordt weergegeven in het gedeelte Updates van het gebruikersprofiel.
 
-     Voor meer informatie, zie [ directe berichten naar andere gebruikers ](/help/quicksilver/people-teams-and-groups/work-directly-with-others/send-direct-messages-to-other-users.md) verzenden.
+     Voor meer informatie, zie [&#x200B; directe berichten naar andere gebruikers &#x200B;](/help/quicksilver/people-teams-and-groups/work-directly-with-others/send-direct-messages-to-other-users.md) verzenden.
 
-   * Selecteer om het even welk aantal leden in de lijst, dan klik Deactivate ![ gebruiker ](assets/deactivate-user.png) of activeer ![ gebruiker ](assets/activate-user.png).
+   * Selecteer om het even welk aantal leden in de lijst, dan klik Deactivate ![&#x200B; gebruiker &#x200B;](assets/deactivate-user.png) of activeer ![&#x200B; gebruiker &#x200B;](assets/activate-user.png).
 
-     Voor meer informatie, zie [ een gebruiker ](../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md) deactiveren of reactiveren.
+     Voor meer informatie, zie [&#x200B; een gebruiker &#x200B;](../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md) deactiveren of reactiveren.
 
-   * De uitvoer ![ Uitvoer ](assets/export.png) de lijst van leden.
+   * De uitvoer ![&#x200B; Uitvoer &#x200B;](assets/export.png) de lijst van leden.

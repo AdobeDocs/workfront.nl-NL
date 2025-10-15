@@ -48,7 +48,7 @@ U kunt de maateenheid aanpassen die in de videotijdlijn wordt gebruikt. U kunt d
  </tbody> 
 </table>
 
-Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -59,7 +59,7 @@ Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront
 
 1. Klik in de linkerbenedenhoek van de proefdrukviewer op de huidige maateenheid.
 
-   ![ Video chronologie ](assets/phq-viewer-video-timeline.png)
+   ![&#x200B; Video chronologie &#x200B;](assets/phq-viewer-video-timeline.png)
 
 1. Selecteer een van de volgende opties:
 

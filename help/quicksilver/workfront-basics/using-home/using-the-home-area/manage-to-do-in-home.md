@@ -21,7 +21,7 @@ U en andere gebruikers kunnen uw persoonlijke taken in een persoonlijk taakrappo
 
 >[!TIP]
 >
->De werkitems die u naar andere gebruikers of naar uzelf verzendt vanaf de pagina met gebruikersprofielen, worden ook weergegeven in de widget Aan/uit in het gedeelte Home van de gebruiker. Voor informatie, zie [ persoonlijke taken ](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/create-personal-tasks.md) creëren.
+>De werkitems die u naar andere gebruikers of naar uzelf verzendt vanaf de pagina met gebruikersprofielen, worden ook weergegeven in de widget Aan/uit in het gedeelte Home van de gebruiker. Voor informatie, zie [&#x200B; persoonlijke taken &#x200B;](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/create-personal-tasks.md) creëren.
 
 ## Toegangsvereisten
 
@@ -52,7 +52,7 @@ U en andere gebruikers kunnen uw persoonlijke taken in een persoonlijk taakrappo
  </tbody> 
 </table>
 
-Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -60,11 +60,11 @@ Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront
 
 1. Klik **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in de hoger-juiste hoek, of het **Belangrijkste menu** ![](assets/lines-main-menu.png) in de hoger-linkerhoek, als beschikbaar, dan klik **[!UICONTROL Home]**.
 1. (Voorwaardelijk) klik **aanpassen**, dan klik **aan-Dozen** om toe te voegen aan-Doopwidget aan uw huisscherm.
-1. Ga naar **** widget, dan klik **toevoegen aan-doe**.
+1. Ga naar **&#x200B;**&#x200B;widget, dan klik **toevoegen aan-doe**.
 1. Typ de naam voor het persoonlijke aan-doe item en klik op Enter.
 1. (Facultatief) klik het **pictogram van de Datum** ![](assets/date-icon.png) om een vervaldatum voor het punt toe te voegen.
    ![](assets/my-work-to-dos.png)
-1. (Optioneel) Maak een persoonlijk taakrapport of filter. Voor informatie over het creëren van een persoonlijke taakfilter, zie [ Filter: persoonlijke taak ](/help/quicksilver/reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-personal-tasks.md).
+1. (Optioneel) Maak een persoonlijk taakrapport of filter. Voor informatie over het creëren van een persoonlijke taakfilter, zie [&#x200B; Filter: persoonlijke taak &#x200B;](/help/quicksilver/reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-personal-tasks.md).
 U kunt uw aan-doe punten evenals andere gebruikers aan-doe punten in het persoonlijke taakrapport bekijken.
 
 
@@ -72,7 +72,7 @@ U kunt uw aan-doe punten evenals andere gebruikers aan-doe punten in het persoon
 
 1. Klik **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in de hoger-juiste hoek, of het **Belangrijkste menu** ![](assets/lines-main-menu.png) in de hoger-linkerhoek, als beschikbaar, dan klik **[!UICONTROL Home]**.
 1. (Voorwaardelijk) klik **aanpassen**, dan klik **aan-Dozen** om toe te voegen aan-Doopwidget aan uw huisscherm.
-1. Ga naar **** widget te doen en om het even welke volgend te doen:
+1. Ga naar **&#x200B;**&#x200B;widget te doen en om het even welke volgend te doen:
    1. Als u de naam van een item wilt bewerken, klikt u in de naamruimte en brengt u een wijziging aan.
    1. Klik op het pictogram Kalender of typ een nieuwe datum als u de vervaldatum wilt wijzigen voor een item dat u wilt uitvoeren.
    1. Als u een te-do-item wilt verwijderen, plaatst u de muisaanwijzer boven het item en klikt u op het pictogram Verwijderen.

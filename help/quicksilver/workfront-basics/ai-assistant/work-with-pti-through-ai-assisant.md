@@ -36,13 +36,13 @@ Met AI Assistant kunt u projecten, taken en problemen in Workfront zoeken.
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Werkitems zoeken
 
-1. Klik het **pictogram AI van de Medewerker** AI Medewerker pictogram ![ dichtbij de hoger-juiste hoek van het scherm.](assets/ai-assistant-icon.png)
+1. Klik het **pictogram AI van de Medewerker** AI Medewerker pictogram ![&#x200B; dichtbij de hoger-juiste hoek van het scherm.](assets/ai-assistant-icon.png)
 1. Voer een vraag in, zoals:
 
    * *vind mijn taken die deze week verschuldigd zijn*

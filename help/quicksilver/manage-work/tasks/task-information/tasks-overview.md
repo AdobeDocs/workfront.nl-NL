@@ -22,7 +22,7 @@ Een taak is een het werkpunt binnen een project. Het is een eindige hoeveelheid 
 
 Taken kunnen worden toegewezen aan gebruikers die moeten worden voltooid. Wanneer alle taken in een project worden voltooid, kan de projectStatus worden duidelijk Voltooid.
 
-Voor meer informatie over projecten in Adobe Workfront, zie [ een project ](../../../manage-work/projects/create-projects/create-project.md) creëren.
+Voor meer informatie over projecten in Adobe Workfront, zie [&#x200B; een project &#x200B;](../../../manage-work/projects/create-projects/create-project.md) creëren.
 
 Hieronder ziet u taaktypen in een project:
 
@@ -38,15 +38,15 @@ U kunt een taak die groter in werkingsgebied in verscheidene kleinere taken verd
 
 Afhankelijk van wat de Summiere Wijze van de Voltooiing op het project is, kunt u een oudertaak onafhankelijk van zijn kindtaken kunnen voltooien. Standaard kunt u een bovenliggende taak niet onafhankelijk van de onderliggende taken voltooien of bijwerken.
 
-Voor meer informatie over de Summiere Wijze van de Voltooiing van projecten, zie [ projecten ](../../../manage-work/projects/manage-projects/edit-projects.md) uitgeven.
+Voor meer informatie over de Summiere Wijze van de Voltooiing van projecten, zie [&#x200B; projecten &#x200B;](../../../manage-work/projects/manage-projects/edit-projects.md) uitgeven.
 
 ## Overzicht van Subtaken of kindtaken
 
 Subtaken of kindtaken zijn taken die onder een oudertaak worden vermeld. Ze beïnvloeden doorgaans het bijwerken en de resolutie van de bovenliggende taak.
 
-Voor meer informatie over oudertaken, zie [ Overzicht van de taken van de Ouder ](#overview-of-parent-tasks) in dit artikel.
+Voor meer informatie over oudertaken, zie [&#x200B; Overzicht van de taken van de Ouder &#x200B;](#overview-of-parent-tasks) in dit artikel.
 
-Voor meer informatie over het creëren van een kindtaak, zie [ tot taken in een project ](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md) leiden.
+Voor meer informatie over het creëren van een kindtaak, zie [&#x200B; tot taken in een project &#x200B;](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md) leiden.
 
 ## Overzicht van taken op hoofdniveau
 
@@ -62,4 +62,4 @@ U kunt het werk taken bijwerken en voltooien zonder de update of de resolutie va
 
 ## Terugkerende taken
 
-Als u een taak hebt die herhaaldelijk voorkomt, kunt u het als terugkomende taak met veelvoudige recurrences tot stand brengen. Voor informatie over terugkomende taken, zie [ Terugkerende takenoverzicht ](../../../manage-work/tasks/manage-tasks/recurring-tasks-overview.md).
+Als u een taak hebt die herhaaldelijk voorkomt, kunt u het als terugkomende taak met veelvoudige recurrences tot stand brengen. Voor informatie over terugkomende taken, zie [&#x200B; Terugkerende takenoverzicht &#x200B;](../../../manage-work/tasks/manage-tasks/recurring-tasks-overview.md).

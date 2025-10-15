@@ -38,7 +38,7 @@ Met de functie voor het organigram kunt u het organigram weergeven dat is gekopp
  </tbody> 
 </table>
 
-Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -47,6 +47,6 @@ Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront
 {{step1-click-profile-pic}}
 
 1. Klik in het linkerdeelvenster op **[!UICONTROL Org Chart]** .
-   ![ grafiek van de Organisatie ](assets/org-chart-2025.png)
+   ![&#x200B; grafiek van de Organisatie &#x200B;](assets/org-chart-2025.png)
 
    Het organigram wordt weergegeven.

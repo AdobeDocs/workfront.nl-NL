@@ -52,21 +52,21 @@ U kunt een proefdruk delen vanuit de proefdrukviewer als delen is ingeschakeld d
  </tbody> 
 </table>
 
-Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## De URL delen
 
-U kunt een proef via een URL delen als de eigenaar de proef voor het delen heeft gevormd. Eigenaars van proefdrukken kunnen instellingen voor delen op elk gewenst moment bijwerken. Voor meer informatie, zie [ proefdrukmontages ](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/edit-proof-settings.md) uitgeven.
+U kunt een proef via een URL delen als de eigenaar de proef voor het delen heeft gevormd. Eigenaars van proefdrukken kunnen instellingen voor delen op elk gewenst moment bijwerken. Voor meer informatie, zie [&#x200B; proefdrukmontages &#x200B;](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/edit-proof-settings.md) uitgeven.
 
 1. Als het linkerpictogrammenu niet wordt getoond, klik het **pictogram van het Menu** op de upper-left hoek van de het proef kijker.
 
-   ![ pictogram van het Menu ](assets/menu-icon-in-proofing-viewer-350x188.png)
+   ![&#x200B; pictogram van het Menu &#x200B;](assets/menu-icon-in-proofing-viewer-350x188.png)
 
 1. In het linkerpictogrammenu van de het proef kijker, klik het **Aandeel** pictogram.
 
-   ![ Share_btn_in_viewer.png ](assets/share-btn-in-viewer.png)
+   ![&#x200B; Share_btn_in_viewer.png &#x200B;](assets/share-btn-in-viewer.png)
 
 1. In de **de proefdruk van het Aandeel** opties die verschijnen, zorg ervoor **aandeelbare verbinding** krijgt wordt geselecteerd.
 
@@ -119,7 +119,7 @@ Een proefdruk delen via de insluitcode:
 
 1. In de toolbar op de linkerzijde van de het proefKijker, klik het **pictogram van het Aandeel**.
 
-   ![ Share_btn_in_viewer__1_.png ](assets/share-btn-in-viewer--1-.png)
+   ![&#x200B; Share_btn_in_viewer__1_.png &#x200B;](assets/share-btn-in-viewer--1-.png)
 
 1. In de **de proefdruk van het Aandeel** opties die verschijnen, klik **bed code** in, dan klik **Exemplaar**.
 
@@ -131,29 +131,29 @@ U kunt gebruikers aan een proef toevoegen terwijl het herzien van een proef als 
 * Beheerdersmachtigingen en u bent de maker of eigenaar van de proefdrukken
 * De toestemmingen van de manager met de de proefdrukrol van de Auteur of van de Moderator
 
-Als de proefdruk een Geautomatiseerde Werkstroom heeft, kunt u de gebruiker aan een individueel stadium toevoegen. Voor meer informatie, zie [ Geautomatiseerd overzicht van het Werkschema ](../../../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md).
+Als de proefdruk een Geautomatiseerde Werkstroom heeft, kunt u de gebruiker aan een individueel stadium toevoegen. Voor meer informatie, zie [&#x200B; Geautomatiseerd overzicht van het Werkschema &#x200B;](../../../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md).
 
 Standaard voegen gebruikers die u toevoegt aan de proefdruk:
 
 * U ontvangt een e-mailbericht met een koppeling naar de proefdruk.
-* Kan goedkeuringsbesluiten op de proef van het gebied van het Huis, zoals die in [ wordt beschreven goedkeurend het werk ](../../../../review-and-approve-work/manage-approvals/approving-work.md).
+* Kan goedkeuringsbesluiten op de proef van het gebied van het Huis, zoals die in [&#x200B; wordt beschreven goedkeurend het werk &#x200B;](../../../../review-and-approve-work/manage-approvals/approving-work.md).
 * U hoeft geen proefdrukken in te schakelen om de proefdruk te kunnen controleren.
 
-Als Geautomatiseerde workflow is ingeschakeld en u een gebruiker toevoegt aan de proefdruk die geen proefdrukken heeft in Workfront, wordt een nieuw werkgebied gemaakt in de Geautomatiseerde workflow. De gebruiker die u toevoegt, wordt automatisch toegevoegd aan dit nieuwe werkgebied wanneer deze de proefdruk voor het eerst weergeeft. Voor meer informatie, zie [ Geautomatiseerd overzicht van het Werkschema ](../../../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md).
+Als Geautomatiseerde workflow is ingeschakeld en u een gebruiker toevoegt aan de proefdruk die geen proefdrukken heeft in Workfront, wordt een nieuw werkgebied gemaakt in de Geautomatiseerde workflow. De gebruiker die u toevoegt, wordt automatisch toegevoegd aan dit nieuwe werkgebied wanneer deze de proefdruk voor het eerst weergeeft. Voor meer informatie, zie [&#x200B; Geautomatiseerd overzicht van het Werkschema &#x200B;](../../../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md).
 
 Een proefdruk delen met individuele gebruikers:
 
 1. In de toolbar op de linkerzijde van de het proefKijker, klik het **pictogram van het Aandeel**.
 
-   ![ Share_btn_in_viewer__2_.png ](assets/share-btn-in-viewer--2-.png)
+   ![&#x200B; Share_btn_in_viewer__2_.png &#x200B;](assets/share-btn-in-viewer--2-.png)
 
 1. Klik **toevoegen ontvangers** in de lijst op de linkerzijde.
 1. Onder **Nieuwe proefdrukontvangers**, begin typend de naam van een gebruiker die u de proef met wilt delen, dan klik de naam wanneer het in de drop-down lijst verschijnt.
 1. (Optioneel) Wijzig de revisieopties rechts van de naam van de persoon:
 
-   * **rol van het Bewijs**: Voor meer informatie, zie [ de Rollen van het Bewijs in Workfront Proof ](../../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md) leiden.
+   * **rol van het Bewijs**: Voor meer informatie, zie [&#x200B; de Rollen van het Bewijs in Workfront Proof &#x200B;](../../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md) leiden.
 
-   * **Stadium**: (Beschikbaar slechts als het bewijs een Geautomatiseerde Workflow heeft). Zie voor meer informatie  [ Geautomatiseerd overzicht van de Staven van het Werkschema ](../../../../review-and-approve-work/proofing/proofing-overview/stages.md).
+   * **Stadium**: (Beschikbaar slechts als het bewijs een Geautomatiseerde Workflow heeft). Zie voor meer informatie  [&#x200B; Geautomatiseerd overzicht van de Staven van het Werkschema &#x200B;](../../../../review-and-approve-work/proofing/proofing-overview/stages.md).
 
    * **E-mail alarm**: Selecteer één van de volgende opties om te specificeren hoe de persoon over activiteit op de proef zal worden geïnformeerd.
 

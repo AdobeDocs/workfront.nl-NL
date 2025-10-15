@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # Proefdrukopmerkingen verwijderen
 
-U kunt een opmerking of antwoord op een opmerking verwijderen zolang niemand er al op heeft gereageerd. Het is doorgaans beter om een opmerking op te lossen in plaats van deze te verwijderen. Voor meer informatie, zie [ de proefdrukcommentaren van de Los ](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/resolve-proof-comments.md).
+U kunt een opmerking of antwoord op een opmerking verwijderen zolang niemand er al op heeft gereageerd. Het is doorgaans beter om een opmerking op te lossen in plaats van deze te verwijderen. Voor meer informatie, zie [&#x200B; de proefdrukcommentaren van de Los &#x200B;](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/resolve-proof-comments.md).
 
 ## Toegangsvereisten
 
@@ -50,7 +50,7 @@ U kunt een opmerking of antwoord op een opmerking verwijderen zolang niemand er 
  </tbody> 
 </table>
 
-Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -62,6 +62,6 @@ Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront
 1. (Voorwaardelijk) als het commentaargebied niet open is, klik **commentaren van de Mening** in de hoger-juiste hoek.
 1. Selecteer de commentaar of het antwoord, dan klik het **Meer** pictogram.
 
-   ![ phq_viewer_comment_edit.png ](assets/phq-viewer-comment-edit.png)
+   ![&#x200B; phq_viewer_comment_edit.png &#x200B;](assets/phq-viewer-comment-edit.png)
 
 1. Klik **Schrapping** > **ja, schrap het**. Nadat een opmerking is verwijderd, wordt in het systeem een vermelding in de sectie Proofingactiviteit geregistreerd, waaruit blijkt dat de opmerking is verwijderd.

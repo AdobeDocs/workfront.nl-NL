@@ -55,7 +55,7 @@ In de volgende secties wordt beschreven hoe de Geprojecteerde Voltooiingsdatum w
  </tbody> 
 </table>
 
-Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -74,11 +74,11 @@ De criteria die worden gebruikt om de Geprojecteerde Datum van Voltooiing te bep
    * **de updates van de Voortgang die op de taak door de taaktoegewezen persoon worden aangebracht:** de updates van de Voortgang omvatten veranderingen in percenten volledig en veranderingen van taakstatus.
    * **VastleggingsDatum:** als de taaktoegewezen persoon een VastleggingsDatum specificeert, verandert de Geprojecteerde Datum van de Voltooiing om de VastleggingsDatum aan te passen.
 
-     Voor meer informatie over Commit Dates, zie het artikel [ overzicht van de Datum van het Vastleggen ](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
+     Voor meer informatie over Commit Dates, zie het artikel [&#x200B; overzicht van de Datum van het Vastleggen &#x200B;](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
 
    * **predecessors:** als er geen vertragingen op de voorgangerstaken zijn, zou de Geprojecteerde Datum van de Voltooiing de Geplande Datum van de Voltooiing moeten aanpassen. Als er vertragingen optreden, geven afhankelijke taken een verwachte voltooiingsdatum groter weer dan de geplande voltooiingsdatum.
 
-     Voor meer informatie over de Geplande Datum van de Voltooiing van taken, zie [ Overzicht van de taak Geplande Datum van de Voltooiing ](../../../manage-work/tasks/task-information/task-planned-completion-date.md).
+     Voor meer informatie over de Geplande Datum van de Voltooiing van taken, zie [&#x200B; Overzicht van de taak Geplande Datum van de Voltooiing &#x200B;](../../../manage-work/tasks/task-information/task-planned-completion-date.md).
 
   >[!IMPORTANT]
   >
@@ -91,7 +91,7 @@ De criteria die worden gebruikt om de Geprojecteerde Datum van Voltooiing te bep
 
   Als de uitgiftebestemming een datum opgeeft die moet worden vastgelegd, veranderen zowel de Geprojecteerde Voltooiingsdatum als de Geplande Voltooiingsdatum zodat deze overeenkomt met de Vastleggingsdatum.
 
-  Voor meer informatie over Commit Dates, zie het artikel [ overzicht van de Datum van het Vastleggen ](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
+  Voor meer informatie over Commit Dates, zie het artikel [&#x200B; overzicht van de Datum van het Vastleggen &#x200B;](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
 
 ## De verwachte voltooiingsdatum weergeven
 
@@ -115,7 +115,7 @@ U kunt de Geprojecteerde Voltooiingsdatum voor kwesties slechts in een uitgiften
 
 U kunt als volgt een uitgiftenrapport maken met de geplande afsluitdatum:
 
-1. Creeer een uitgifterapport, zoals die in artikel [ wordt beschreven een douanerapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) creëren.
+1. Creeer een uitgifterapport, zoals die in artikel [&#x200B; wordt beschreven een douanerapport &#x200B;](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) creëren.
 1. Selecteer de **Kolommen (Mening)** tabel.
 1. Klik **toevoegen Kolom**, en beginnen **Geprojecteerde Datum van de Voltooiing** in **tonen in deze kolom te typen:** gebied.
 

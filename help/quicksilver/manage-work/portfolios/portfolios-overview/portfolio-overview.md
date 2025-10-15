@@ -20,13 +20,13 @@ ht-degree: 0%
 
 Portfolio of Project Portfolio Management (PPM) is het proces waarbij prioriteiten worden gesteld aan en een lijst met projecten wordt beheerd om specifieke bedrijfsdoelstellingen te bereiken.
 
-Voor algemene informatie over PPM, zie [ het overzicht van het Beheer van Portfolio ](/help/quicksilver/manage-work/portfolios/portfolios-overview/portfolio-managament-overview.md).
+Voor algemene informatie over PPM, zie [&#x200B; het overzicht van het Beheer van Portfolio &#x200B;](/help/quicksilver/manage-work/portfolios/portfolios-overview/portfolio-managament-overview.md).
 
 In Adobe Workfront is een portfolio een verzameling projecten met een verenigend karakter. Deze projecten concurreren doorgaans met dezelfde middelen, hetzelfde budget of dezelfde tijd. U kunt portfolio&#39;s opsplitsen in programma&#39;s en de projecten koppelen aan de programma&#39;s voordat ze aan een Portfolio worden toegevoegd.
 
 U kunt Portfolio&#39;s en Programma&#39;s gebruiken om projecten te organiseren. Door projecten te organiseren, kunt u gelijkaardige projecten vergelijken en bepalen waar de middelen het best zullen worden besteed.
 
-Voor informatie over het gebruiken van Programma&#39;s, zie [ een programma ](../../../manage-work/portfolios/create-and-manage-programs/create-program.md) creëren.
+Voor informatie over het gebruiken van Programma&#39;s, zie [&#x200B; een programma &#x200B;](../../../manage-work/portfolios/create-and-manage-programs/create-program.md) creëren.
 
 Dit artikel bevat algemene informatie over portfolio&#39;s in Workfront.
 
@@ -65,7 +65,7 @@ Dit artikel bevat algemene informatie over portfolio&#39;s in Workfront.
  </tbody> 
 </table>
 
-*For informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*For informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -118,22 +118,22 @@ We raden u aan deze stappen te volgen voor een efficiënte organisatie van uw po
    * Een uitlijningsscore
    * Een risicobeoordeling
 
-   Voor meer informatie over [!UICONTROL Business Case], zie [ een BedrijfsGeval voor een project ](../../../manage-work/projects/define-a-business-case/create-business-case.md) creëren.
+   Voor meer informatie over [!UICONTROL Business Case], zie [&#x200B; een BedrijfsGeval voor een project &#x200B;](../../../manage-work/projects/define-a-business-case/create-business-case.md) creëren.
 
-   U kunt het project met een portefeuille associëren terwijl het bouwen van zijn bedrijfscase. U moet een portfolio maken voordat u het aan een project kunt koppelen. Voor informatie, zie [ een portefeuille ](/help/quicksilver/manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md) creëren
+   U kunt het project met een portefeuille associëren terwijl het bouwen van zijn bedrijfscase. U moet een portfolio maken voordat u het aan een project kunt koppelen. Voor informatie, zie [&#x200B; een portefeuille &#x200B;](/help/quicksilver/manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md) creëren
 
    De details die u verzamelt tijdens het maken van een bedrijfscase, worden in [!UICONTROL portfolio optimizer] en [!UICONTROL resource planner] gebruikt om het beheer bij te staan bij de selectie van projecten.
 1. Koppel bronnenpools aan projecten terwijl u hun bedrijfscase bouwt.
 
    Portfolio&#39;s zijn gewoonlijk geconfigureerd om overeen te stemmen met bronnenpools. De programma&#39;s in een Portfolio worden ook uitgelijnd met een bronnenpool. Deze correlatie helpt ervoor te zorgen dat alle bronnenplanning binnen het doel van de Portfolio past, aangezien de projecten binnen dezelfde Portfolio gewoonlijk met dezelfde middelen concurreren.
 
-   Voor meer informatie, zie [ middelpools ](/help/quicksilver/resource-mgmt/resource-planning/resource-pools/create-resource-pools.md) creëren.
+   Voor meer informatie, zie [&#x200B; middelpools &#x200B;](/help/quicksilver/resource-mgmt/resource-planning/resource-pools/create-resource-pools.md) creëren.
 
 1. Laat [!UICONTROL Business Case] goedkeuren door Portfolio Manager.
 
-   Voor informatie, zie [ een BedrijfsGeval ](/help/quicksilver/manage-work/projects/define-a-business-case/approve-business-case.md) goedkeuren.
+   Voor informatie, zie [&#x200B; een BedrijfsGeval &#x200B;](/help/quicksilver/manage-work/projects/define-a-business-case/approve-business-case.md) goedkeuren.
 1. De prestaties van uw projecten in het portfolio in het [!UICONTROL Portfolio Optimizer] beheren.
 
    Portfolio Managers kunnen de financiële prestaties binnen de portefeuille volgen gebruikend het dashboard van Portfolio. Dit dashboard wordt weergegeven in de koptekst van de Portfolio.
 
-   Voor informatie over de financiële gebieden van een Portfolio, zie [ Begrijpend de Financiële Gebieden in de Optimizer van Portfolio ](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md#financial-fieds-subsection) sectie in [ Portfolio Optimizer overzicht ](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md).
+   Voor informatie over de financiële gebieden van een Portfolio, zie [&#x200B; Begrijpend de Financiële Gebieden in de Optimizer van Portfolio &#x200B;](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md#financial-fieds-subsection) sectie in [&#x200B; Portfolio Optimizer overzicht &#x200B;](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md).

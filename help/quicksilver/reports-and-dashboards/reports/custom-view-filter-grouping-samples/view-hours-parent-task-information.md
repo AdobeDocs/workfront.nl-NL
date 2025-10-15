@@ -20,7 +20,7 @@ ht-degree: 0%
 
 In deze uurweergave ziet u de naam van de taak waarin de uren zijn vastgelegd, plus de naam van de bovenliggende taak.
 
-![ custom_hour_view_with_task_and_parent_task_info.png ](assets/custom-hour-view-with-task-and-parent-task-info-350x55.png)
+![&#x200B; custom_hour_view_with_task_and_parent_task_info.png &#x200B;](assets/custom-hour-view-with-task-and-parent-task-info-350x55.png)
 
 ## Toegangsvereisten
 
@@ -51,7 +51,7 @@ In deze uurweergave ziet u de naam van de taak waarin de uren zijn vastgelegd, p
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 
 +++

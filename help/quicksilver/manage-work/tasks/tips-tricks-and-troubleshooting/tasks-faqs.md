@@ -34,4 +34,4 @@ De knop Nieuwe taak wordt niet weergegeven, omdat Adobe Workfront een taak met g
 
 ### Antwoord
 
-De datum van toewijzing is de eerste dag (zondag) van een week waarin de toewijzing van een Rol van de Baan aan een taak begint. Voor informatie, zie [ Verklarende woordenlijst van de terminologie van Adobe Workfront ](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
+De datum van toewijzing is de eerste dag (zondag) van een week waarin de toewijzing van een Rol van de Baan aan een taak begint. Voor informatie, zie [&#x200B; Verklarende woordenlijst van de terminologie van Adobe Workfront &#x200B;](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).

@@ -23,7 +23,7 @@ U kunt de knoop van de Inhoud van de Samenvatting gebruiken om een samenvatting 
 >
 >De functies voor het samenvatten van AI-assistent verschillen van die in het deelvenster Samenvatting.
 >
->Voor informatie over het Summiere paneel in Workfront, zie [ Overzicht Overzicht ](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md).
+>Voor informatie over het Summiere paneel in Workfront, zie [&#x200B; Overzicht Overzicht &#x200B;](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md).
 
 ## Toegangsvereisten
 
@@ -53,7 +53,7 @@ U kunt de knoop van de Inhoud van de Samenvatting gebruiken om een samenvatting 
 </tbody> 
 </table>
 
-Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -81,16 +81,16 @@ Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront
 
 * Uw Workfront-beheerder moet de AI-assistent voor uw organisatie inschakelen.
 
-  Voor meer informatie, zie [ Vereisten aan AI Medewerker ](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant) in het artikelAI Hulpoverzicht.
+  Voor meer informatie, zie [&#x200B; Vereisten aan AI Medewerker &#x200B;](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant) in het artikelAI Hulpoverzicht.
 * Uw Workfront-beheerder moet AI Assistant inschakelen voor uw toegangsniveau.
 
-  Voor meer informatie, zie [ toelaten of AI Medewerker ](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md) onbruikbaar maken.
+  Voor meer informatie, zie [&#x200B; toelaten of AI Medewerker &#x200B;](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md) onbruikbaar maken.
 
 ## Samenvatten met knop Overzicht van opmerkingen
 
 1. Ga naar het object waarvan u de updates wilt samenvatten.
 1. Klik **Updates** in het linkerpaneel.
-1. Klik **samenvatten commentaren** knoop bij de bovenkant van het **3} gebied van Updates {.**
+1. Klik **samenvatten commentaren** knoop bij de bovenkant van het **3&rbrace; gebied van Updates &lbrace;.**
 
    AI Assistant wordt geopend met de vraag of de laatste 7 dagen van opmerkingen over de updatestream moeten worden samengevat.
 
@@ -106,7 +106,7 @@ Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront
 Een overzicht van een object weergeven:
 
 1. Navigeer naar het object waarvoor u een overzicht wilt weergeven.
-1. Klik het **pictogram AI van de Medewerker** AI Medewerker pictogram ![ dichtbij de hoger-juiste hoek van het scherm.](assets/ai-assistant-icon.png)
+1. Klik het **pictogram AI van de Medewerker** AI Medewerker pictogram ![&#x200B; dichtbij de hoger-juiste hoek van het scherm.](assets/ai-assistant-icon.png)
 1. Voer in het deelvenster AI-assistent een aanwijzing in, zoals:
 
    * Een overzicht in drie zinnen opgeven

@@ -32,9 +32,9 @@ Omdat de gebruikersnamen GUID moeilijk kunnen zijn te gebruiken, adviseren wij u
 >
 >  In de URL `https://acme.workfront.com/user/61941ab1000af22d7104628efa1c738b/details` kopieert u bijvoorbeeld de reeks getallen en letters tussen de laatste twee slashes: `61941ab1000af22d7104628efa1c738b` .
 >
->  Voor meer informatie, zie [ het profiel van een gebruiker ](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) uitgeven.
+>  Voor meer informatie, zie [&#x200B; het profiel van een gebruiker &#x200B;](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) uitgeven.
 >
->* Creeer een gebruikersrapport met een Gebruiker > GUID kolom. Voor meer informatie, zie [ een rapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-report.md) creëren.
+>* Creeer een gebruikersrapport met een Gebruiker > GUID kolom. Voor meer informatie, zie [&#x200B; een rapport &#x200B;](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-report.md) creëren.
 >
 >* Vraag de Workfront API op.
 >
@@ -63,7 +63,7 @@ Omdat de gebruikersnamen GUID moeilijk kunnen zijn te gebruiken, adviseren wij u
  </tbody> 
 </table>
 
-Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -75,15 +75,15 @@ Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront
 
    U ontvangt een reactie die vergelijkbaar is met het volgende:
 
-   ![ krijgt GUID ](assets/get-guid.png)
+   ![&#x200B; krijgt GUID &#x200B;](assets/get-guid.png)
 
    De terugkeer voor &quot;gebruikersbenaming&quot;is GUID van de gebruiker.
 
 1. Gebruikend hun GUID als hun gebruikersnaam, verander het wachtwoord van de gebruiker.
 
-   Voor meer informatie bij het veranderen van uw wachtwoord, zie [ het Terugstellen van uw wachtwoord ](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/reset-your-password.md).
+   Voor meer informatie bij het veranderen van uw wachtwoord, zie [&#x200B; het Terugstellen van uw wachtwoord &#x200B;](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/reset-your-password.md).
 
-   Als uw organisatie een SSO-systeem gebruikt, kan alleen een Workfront-systeembeheerder het wachtwoord van een gebruiker wijzigen. Voor meer informatie, zie [ Overzicht van enig teken-op in Adobe Workfront ](../../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md)
+   Als uw organisatie een SSO-systeem gebruikt, kan alleen een Workfront-systeembeheerder het wachtwoord van een gebruiker wijzigen. Voor meer informatie, zie [&#x200B; Overzicht van enig teken-op in Adobe Workfront &#x200B;](../../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md)
 
 1. Blader met de gebruiker aangemeld bij Workfront naar:
 
@@ -93,7 +93,7 @@ Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront
 
 1. In het **Uw login e-mailadres** vakje, verifieer dat het e-mailadres van de gebruiker correct is, dan klik **Rekening van de Update**.
 
-   ![ Gebruikersnaam ](assets/guidusername-350x272.png)
+   ![&#x200B; Gebruikersnaam &#x200B;](assets/guidusername-350x272.png)
 
    De gebruikersnaam van de gebruiker wordt gewijzigd in het Workfront-e-mailadres.
 
@@ -101,7 +101,7 @@ Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront
 >
 >De id van een gebruiker zoeken:
 >
->1. Klik het **pictogram 1} van het Belangrijkste Menu** Belangrijkste menupictogram ![ in de hoger-juiste hoek van Adobe Workfront, dan klik ](assets/main-menu-icon.png) Gebruikers **** pictogram van Gebruikers ![.](assets/users-icon-in-main-menu.png)
+>1. Klik het **pictogram 1&rbrace; van het Belangrijkste Menu** Belangrijkste menupictogram ![&#x200B; in de hoger-juiste hoek van Adobe Workfront, dan klik &#x200B;](assets/main-menu-icon.png) Gebruikers **&#x200B;**&#x200B;pictogram van Gebruikers ![.](assets/users-icon-in-main-menu.png)
 >
 >1. Selecteer de gebruiker.
 >

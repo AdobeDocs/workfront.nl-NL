@@ -49,7 +49,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -66,7 +66,7 @@ U kunt een gebruikersrapport maken om te bekijken welke gebruikers proefdrukken 
 
 1. Selecteer **Gelijk** > **Waar**.
 
-   ![ report_prooflicenses.png ](assets/report-prooflicenses-350x135.png)
+   ![&#x200B; report_prooflicenses.png &#x200B;](assets/report-prooflicenses-350x135.png)
 
 1. Klik **sparen+Sluiten**.
 

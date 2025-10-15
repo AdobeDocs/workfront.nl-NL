@@ -61,7 +61,7 @@ Een bedrijf is een organisatorische eenheid in [!DNL Adobe Workfront] die uw org
  </tbody> 
 </table>
 
-Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -73,19 +73,19 @@ Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront
 
    * Gebruikers van hetzelfde bedrijf kunnen elkaars verzoeken zien.
 
-     Voor meer informatie over hoe een [!DNL Workfront] beheerder gelijkaardige toegang tot verzoeken kan geven die op het bedrijf van gebruikers worden gebaseerd, zie de sectie [ taak en kwesties voorkeur voor iedereen binnen  [!DNL Workfront]](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md#changing-task-and-issue-preferences) in het artikel [ vormt systeembrede taak en geeft voorkeur ](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md) uit.
+     Voor meer informatie over hoe een [!DNL Workfront] beheerder gelijkaardige toegang tot verzoeken kan geven die op het bedrijf van gebruikers worden gebaseerd, zie de sectie [&#x200B; taak en kwesties voorkeur voor iedereen binnen  [!DNL Workfront]](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md#changing-task-and-issue-preferences) in het artikel [&#x200B; vormt systeembrede taak en geeft voorkeur &#x200B;](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md) uit.
 
-     Voor meer informatie over hoe een groepsbeheerder gelijkaardige toegang tot verzoeken kan geven die op het bedrijf van gebruikers worden gebaseerd, zie [ taak vormen en voorkeur voor een groep ](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md) uitgeven.
+     Voor meer informatie over hoe een groepsbeheerder gelijkaardige toegang tot verzoeken kan geven die op het bedrijf van gebruikers worden gebaseerd, zie [&#x200B; taak vormen en voorkeur voor een groep &#x200B;](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md) uitgeven.
 
-   * De gebruikers kunnen slechts verzoekrijen zien die met hun bedrijven worden geassocieerd. Voor meer informatie over het beperken van zicht van een verzoekrij, zie [ toegang verlenen tot verzoekrijen ](../../../manage-work/requests/create-and-manage-request-queues/provide-access-to-request-queues.md).
-   * U kunt gebruikers beperken tot slechts gebruikers in hun bedrijf of hun bedrijf en het primaire bedrijf zien. Voor informatie over de primaire bedrijffunctionaliteit betreffende gebruikersprivacy, zie [ tot douanetoegangsniveaus ](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md) leiden of wijzigen.
-   * Gebruikers kunnen de updates die zij op items maken, beperken tot het zichtbaar zijn voor alleen hun bedrijfsgebruikers. Voor meer informatie over het maken van een update privé aan een bedrijf, zie [ het werk van de Update ](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+   * De gebruikers kunnen slechts verzoekrijen zien die met hun bedrijven worden geassocieerd. Voor meer informatie over het beperken van zicht van een verzoekrij, zie [&#x200B; toegang verlenen tot verzoekrijen &#x200B;](../../../manage-work/requests/create-and-manage-request-queues/provide-access-to-request-queues.md).
+   * U kunt gebruikers beperken tot slechts gebruikers in hun bedrijf of hun bedrijf en het primaire bedrijf zien. Voor informatie over de primaire bedrijffunctionaliteit betreffende gebruikersprivacy, zie [&#x200B; tot douanetoegangsniveaus &#x200B;](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md) leiden of wijzigen.
+   * Gebruikers kunnen de updates die zij op items maken, beperken tot het zichtbaar zijn voor alleen hun bedrijfsgebruikers. Voor meer informatie over het maken van een update privé aan een bedrijf, zie [&#x200B; het werk van de Update &#x200B;](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 ## Een bedrijf maken of bewerken in [!DNL Workfront] {#create-or-edit-a-company-in-workfront}
 
 Er is geen limiet aan het aantal bedrijven dat u kunt toevoegen. Nochtans, adviseren wij dat het aantal bedrijven beperkt u wegens problemen gebruikt die met voorwerp kunnen voorkomen toestemmings-teveel de fragmentatie zich in de zichtbaarheid van gebruikers aan het werk punten zou kunnen mengen.
 
-Standaard wordt het bedrijf dat aan uw instantie van [!DNL Workfront] is gekoppeld, al in uw [!DNL Workfront] -systeem gemaakt en is dit het primaire bedrijf voor uw organisatie. Deze heeft dezelfde naam als de naam van uw klant. Voor meer informatie over uw klanteninformatie in [!DNL Workfront], zie [ basisinformatie voor uw systeem ](../../../administration-and-setup/get-started-wf-administration/configure-basic-info.md) vormen.
+Standaard wordt het bedrijf dat aan uw instantie van [!DNL Workfront] is gekoppeld, al in uw [!DNL Workfront] -systeem gemaakt en is dit het primaire bedrijf voor uw organisatie. Deze heeft dezelfde naam als de naam van uw klant. Voor meer informatie over uw klanteninformatie in [!DNL Workfront], zie [&#x200B; basisinformatie voor uw systeem &#x200B;](../../../administration-and-setup/get-started-wf-administration/configure-basic-info.md) vormen.
 
 Een bedrijf toevoegen of bewerken:
 
@@ -99,7 +99,7 @@ Een bedrijf toevoegen of bewerken:
 
    of
 
-   Als u een bestaand bedrijf uitgeeft, selecteer het bedrijf, dan klik het **[!UICONTROL Edit]** pictogram ![ uitgeeft pictogram ](assets/edit-icon.png) bij de bovenkant van de bedrijflijst.
+   Als u een bestaand bedrijf uitgeeft, selecteer het bedrijf, dan klik het **[!UICONTROL Edit]** pictogram ![&#x200B; uitgeeft pictogram &#x200B;](assets/edit-icon.png) bij de bovenkant van de bedrijflijst.
 
 1. Werk de volgende gegevens bij:
 
@@ -133,19 +133,19 @@ Een bedrijf toevoegen of bewerken:
 
 ## Ondernemingslidmaatschappen beheren
 
-Voor informatie over het beheren van lidmaatschappen voor een bestaand bedrijf, zie [ bedrijflidmaatschappen beheren ](../../../administration-and-setup/set-up-workfront/organizational-setup/manage-company-memberships.md).
+Voor informatie over het beheren van lidmaatschappen voor een bestaand bedrijf, zie [&#x200B; bedrijflidmaatschappen beheren &#x200B;](../../../administration-and-setup/set-up-workfront/organizational-setup/manage-company-memberships.md).
 
 ## Factureringssnelheden beheren
 
-Voor informatie over het met voeten treden van het factureringspercentages op het bedrijfsniveau, zie [ het factureren van de baanrol van de Opheffing op het bedrijfsniveau ](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/override-job-role-billing-rates-company-level.md).
+Voor informatie over het met voeten treden van het factureringspercentages op het bedrijfsniveau, zie [&#x200B; het factureren van de baanrol van de Opheffing op het bedrijfsniveau &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/override-job-role-billing-rates-company-level.md).
 
 ## Overzicht van het delen van objecten met bedrijven
 
-Bepaalde toestemmingen zijn beschikbaar aan gebruikers die met een bedrijf worden geassocieerd, zoals verklaard in de sectie [ Voordelen om gebruikers aan een bedrijf ](#benefits-of-adding-users-to-a-company) toe te voegen. Naast deze machtigingen kunt u gebruikersmachtigingen toestaan om objecten in [!DNL Workfront] weer te geven, bij te dragen of te bewerken door het object met hun bedrijf te delen.
+Bepaalde toestemmingen zijn beschikbaar aan gebruikers die met een bedrijf worden geassocieerd, zoals verklaard in de sectie [&#x200B; Voordelen om gebruikers aan een bedrijf &#x200B;](#benefits-of-adding-users-to-a-company) toe te voegen. Naast deze machtigingen kunt u gebruikersmachtigingen toestaan om objecten in [!DNL Workfront] weer te geven, bij te dragen of te bewerken door het object met hun bedrijf te delen.
 
 In plaats van een object met één individuele gebruiker tegelijk te delen, kunt u het met het hele bedrijf delen. Elke gebruiker in het bedrijf heeft de zelfde toestemmingen op dat voorwerp.
 
-Voor meer informatie over het delen van voorwerpen, zie [ Overzicht van het delen van toestemmingen op voorwerpen ](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+Voor meer informatie over het delen van voorwerpen, zie [&#x200B; Overzicht van het delen van toestemmingen op voorwerpen &#x200B;](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
 ## Groepsbeheerders en bedrijven {#group-administrators-and-companies}
 
@@ -153,8 +153,8 @@ Wanneer een [!DNL Workfront] beheerder een groep toewijst aan een bedrijf, krijg
 
 Met deze toegang tot de [!UICONTROL Companies] pagina, kan een groepsbeheerder een groep aan een bedrijf toewijzen, maar het moet een bedrijf zijn dat de groepsbeheerder creeerde. Als het de toegangsniveau van de groepsbeheerder niet met administratieve toegang tot bedrijven wordt gevormd, wordt het [!UICONTROL Group] gebied vereist wanneer de groepsbeheerder tot bedrijf-zijn bolded titel leidt wijst op dit:
 
-![ geef bedrijf ](assets/group-admin-add-company.png) uit
+![&#x200B; geef bedrijf &#x200B;](assets/group-admin-add-company.png) uit
 
-Voor informatie over hoe de gebruikers administratieve toegang tot bedrijven in hun toegangsniveau verkrijgen, zie [ gebruikers administratieve toegang van de Verlening tot bepaalde gebieden ](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
+Voor informatie over hoe de gebruikers administratieve toegang tot bedrijven in hun toegangsniveau verkrijgen, zie [&#x200B; gebruikers administratieve toegang van de Verlening tot bepaalde gebieden &#x200B;](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 
-Voor informatie over het beheren van een bedrijf in het [!UICONTROL Setup] gebied, zie [ creeer of geef een bedrijf in  [!DNL Workfront]](#create-or-edit-a-company-in-workfront) in dit artikel uit.
+Voor informatie over het beheren van een bedrijf in het [!UICONTROL Setup] gebied, zie [&#x200B; creeer of geef een bedrijf in  [!DNL Workfront]](#create-or-edit-a-company-in-workfront) in dit artikel uit.

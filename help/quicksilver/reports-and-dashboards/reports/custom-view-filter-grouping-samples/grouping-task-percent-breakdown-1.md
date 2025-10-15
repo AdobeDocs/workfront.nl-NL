@@ -29,7 +29,7 @@ De volgende groepering organiseert taken door het percentage volledige waarde in
 * 76-99%
 * 100%
 
-![ task_25__break_grouping.png ](assets/task-25--breakdown-grouping-350x412.png)
+![&#x200B; task_25__break_grouping.png &#x200B;](assets/task-25--breakdown-grouping-350x412.png)
 
 ## Toegangsvereisten
 
@@ -60,7 +60,7 @@ De volgende groepering organiseert taken door het percentage volledige waarde in
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

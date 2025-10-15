@@ -23,7 +23,7 @@ U kunt taken maken in een specifiek project in Adobe Workfront.
 
 Deze sectie bevat de volgende artikelen:
 
-* [ creeer takenoverzicht ](../../../manage-work/tasks/create-tasks/create-tasks-overview.md)
-* [ creeer taken in een project ](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md)
-* [ creeer subtasks ](../../../manage-work/tasks/create-tasks/create-subtasks.md)
+* [&#x200B; creeer takenoverzicht &#x200B;](../../../manage-work/tasks/create-tasks/create-tasks-overview.md)
+* [&#x200B; creeer taken in een project &#x200B;](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md)
+* [&#x200B; creeer subtasks &#x200B;](../../../manage-work/tasks/create-tasks/create-subtasks.md)
 * [Herhalende taken maken](../../../manage-work/tasks/create-tasks/create-recurring-tasks.md)

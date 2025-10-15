@@ -44,7 +44,7 @@ U kunt opmerkingen met een proefdruk zoeken, filteren en sorteren, zodat u eenvo
  </tbody> 
 </table>
 
-Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -75,7 +75,7 @@ U kunt de opmerkingen die worden weergegeven, filteren door filterparameter zoal
 1. (Voorwaardelijk) als het commentaargebied niet open is, klik **commentaren van de Mening** in de hoger-juiste hoek.
 1. Op het commentaargebied, klik het **pictogram van de Filter**.
 
-   ![ proof_comment_filter.png ](assets/proof-comment-filter.png)
+   ![&#x200B; proof_comment_filter.png &#x200B;](assets/proof-comment-filter.png)
 
 1. Gebruik de opties die onder het **pictogram van de Filter** verschijnen om de commentaren door om het even welke volgende criteria te filtreren:
 
@@ -108,7 +108,7 @@ U kunt de opmerkingen die worden weergegeven, filteren door filterparameter zoal
 
 1. Klik **toepassen** of klik het **pictogram van de Filter** om de commentaarlijst met uw toegepaste filtercriteria te bekijken. Het pictogram Filter wordt weergegeven met een blauwe stip om aan te geven dat een filter wordt toegepast.
 
-1. Wanneer u gebeëindigd het filtreren bent en u alle commentaren wilt zien, klik het **pictogram van de Filter**, klik **Terugstellen**, dan klik opnieuw het **** pictogram van de Filter {.
+1. Wanneer u gebeëindigd het filtreren bent en u alle commentaren wilt zien, klik het **pictogram van de Filter**, klik **Terugstellen**, dan klik opnieuw het **&#x200B;**&#x200B;pictogram van de Filter &lbrace;.
 
 ## De lijst met opmerkingen sorteren
 
@@ -118,7 +118,7 @@ Wanneer u de lijst met opmerkingen sorteert, wordt de gekozen sorteeroptie ontho
 1. Als het commentaargebied niet open is, klik **commentaren van de Mening** in de hoger-juiste hoek.
 
 1. Klik op het sorteermenu om het te openen.
-1. ![ Sorterend menu ](assets/mceclip3.png)
+1. ![&#x200B; Sorterend menu &#x200B;](assets/mceclip3.png)
 
 1. Selecteer een van de volgende sorteeropties:
 

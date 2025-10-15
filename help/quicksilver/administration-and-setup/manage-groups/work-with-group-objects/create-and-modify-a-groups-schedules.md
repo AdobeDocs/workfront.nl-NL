@@ -21,13 +21,13 @@ Wanneer u een groep bekijkt die u in het gebied van Groepen beheert, kunt u beki
 
 Als er groepen zijn boven de groep die u beheert, kunnen hun beheerders dit ook voor uw groep doen. Hetzelfde geldt voor Workfront-beheerders (voor elke groep).
 
-Voor algemene informatie over het creëren van en het uitgeven van een programma, zie [ een programma ](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md) creëren.
+Voor algemene informatie over het creëren van en het uitgeven van een programma, zie [&#x200B; een programma &#x200B;](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md) creëren.
 
 >[!NOTE]
 >
 >Beheerders en gebruikers met een licentie voor abonnementen die andere gebruikers kunnen bewerken, kunnen een schema op systeemniveau of op groepsniveau aan een andere gebruiker toevoegen wanneer deze het profiel van die gebruiker bewerkt.
 
-Voor informatie over hoe de programma&#39;s in middel planning worden gebruikt, zie [ Overzicht van Programma&#39;s ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/schedules-overview.md) en [ overzicht van de Planner van het Middel ](/help/quicksilver/resource-mgmt/resource-planning/get-started-resource-planner.md).
+Voor informatie over hoe de programma&#39;s in middel planning worden gebruikt, zie [&#x200B; Overzicht van Programma&#39;s &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/schedules-overview.md) en [&#x200B; overzicht van de Planner van het Middel &#x200B;](/help/quicksilver/resource-mgmt/resource-planning/get-started-resource-planner.md).
 
 ## Toegangsvereisten
 
@@ -53,7 +53,7 @@ Voor informatie over hoe de programma&#39;s in middel planning worden gebruikt, 
  </tbody> 
 </table>
 
-Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

@@ -25,7 +25,7 @@ Wanneer SSO (Single Sign-On) is ingeschakeld in uw Adobe Workfront-instantie, ku
 
 Als u een bestaand systeem hebt dat al is gevuld met gebruikers die zijn gekoppeld aan SSO-referenties, kunt u de gebruikers-id&#39;s importeren in Workfront door een CSV-bestand (comma-separated values, door komma&#39;s gescheiden waarden) te importeren in Workfront.
 
-Voor meer informatie over het integreren van Workfront met een SSO systeem, zie [ Overzicht van enige sign-on in Adobe Workfront ](../../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md).
+Voor meer informatie over het integreren van Workfront met een SSO systeem, zie [&#x200B; Overzicht van enige sign-on in Adobe Workfront &#x200B;](../../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md).
 
 
 ## Toegangsvereisten
@@ -51,7 +51,7 @@ Voor meer informatie over het integreren van Workfront met een SSO systeem, zie 
  </tbody> 
 </table>
 
-Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -80,7 +80,7 @@ U kunt uw importbestand voorbereiden door een rapport van alle gebruikers in Wor
 
 1. Bouw een gebruikersrapport in Workfront.
 
-   Voor instructies bij de bouw van gebruikersrapporten in Workfront, zie [ een douanerapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) creëren.
+   Voor instructies bij de bouw van gebruikersrapporten in Workfront, zie [&#x200B; een douanerapport &#x200B;](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) creëren.
 
 1. Selecteer de volgende gebieden in uw rapport:
 
@@ -90,7 +90,7 @@ U kunt uw importbestand voorbereiden door een rapport van alle gebruikers in Wor
    | ID | De id is de alfanumerieke GUID van Workfront. |
    | SSO-gebruikersnaam | Door het veld SSO-gebruikersnaam toe te voegen, weet u zeker dat u geen gebruikersnamen overschrijft met het importeren. Dit veld moet leeg zijn voor alle gebruikers als uw gebruikers nog niet zijn bijgewerkt voor SSO. |
 
-   ![ Gebruikers met gebruikersbenaming SSO maar geen toegang ](assets/users-with-sso-username-and-no-sso-access-only-field.png)
+   ![&#x200B; Gebruikers met gebruikersbenaming SSO maar geen toegang &#x200B;](assets/users-with-sso-username-and-no-sso-access-only-field.png)
 
 1. Sla het rapport op.
 1. Klik **Uitvoer** bij de bovenkant van het rapport en voer het rapport naar Excel uit.
@@ -110,7 +110,7 @@ U kunt uw importbestand voorbereiden door een rapport van alle gebruikers in Wor
    * De tweede kolom moet de Sso- Gebruikersnaam bevatten, aangezien het in uw SSO systeem toont.
    * De kolommen mogen geen kopteksten hebben en er mogen geen lege rijen boven aan de lijst met namen staan.
 
-     ![ de gebruikers CSV van de Update ](assets/update-users-for-sso-csv-file-for-import.png)
+     ![&#x200B; de gebruikers CSV van de Update &#x200B;](assets/update-users-for-sso-csv-file-for-import.png)
 
 1. Sla het rapport op als een CSV- of TSV-bestand op uw computer.
 
@@ -124,7 +124,7 @@ Het proces om gebruikers voor SSO bij te werken of voegt het gebied van de Gebru
 
 1. Klik **kiezen Dossier** om voor het dossier te doorbladeren u voorbereidde.
 
-   Voor meer informatie over hoe te om dit dossier voor te bereiden, zie [ het de invoerdossier ](#prepare-the-import-file) voorbereiden.
+   Voor meer informatie over hoe te om dit dossier voor te bereiden, zie [&#x200B; het de invoerdossier &#x200B;](#prepare-the-import-file) voorbereiden.
 
 1. Selecteer het dossier van waar het op uw computer wordt bewaard, dan klik **Open**.
 
@@ -134,7 +134,7 @@ Het proces om gebruikers voor SSO bij te werken of voegt het gebied van de Gebru
 
 ## Verifieer SSO tegen de gebruikersnamen van Workfront van uw gebruikers
 
-Voor instructies bij de bouw van een gebruikersrapport dat Sso- Gebruikersnaam informatie bevat, zie [ het de invoerdossier ](#prepare-the-import-file) voorbereiden.
+Voor instructies bij de bouw van een gebruikersrapport dat Sso- Gebruikersnaam informatie bevat, zie [&#x200B; het de invoerdossier &#x200B;](#prepare-the-import-file) voorbereiden.
 
 1. Voer een gebruikersrapport met SSO-gebruikersnaam in.
 
@@ -143,6 +143,6 @@ Voor instructies bij de bouw van een gebruikersrapport dat Sso- Gebruikersnaam i
 1. Zorg ervoor dat de waarden voor de kolom Gebruikersnaam SSO overeenkomen met de gebruikersnaam van SSO op uw SSO-server.
 1. Als de kolom Gebruikersnaam SSO leeg is, werkt u de SSO-gebruikersnamen van uw gebruikers bij.
 
-   ![ Gebruikers met gebied SSO ](assets/users-with-sso-field-updated.png)
+   ![&#x200B; Gebruikers met gebied SSO &#x200B;](assets/users-with-sso-field-updated.png)
 
-   Voor instructies bij het bijwerken van uw gebruikers voor SSO, zie [ Update uw gebruikers voor SSO ](#update-your-users-for-sso).
+   Voor instructies bij het bijwerken van uw gebruikers voor SSO, zie [&#x200B; Update uw gebruikers voor SSO &#x200B;](#update-your-users-for-sso).

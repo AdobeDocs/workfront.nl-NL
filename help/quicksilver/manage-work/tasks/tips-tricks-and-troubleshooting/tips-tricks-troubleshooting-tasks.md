@@ -16,5 +16,5 @@ ht-degree: 0%
 
 Deze sectie bevat de volgende artikelen:
 
-* [ Veelgestelde vragen van Taken ](../../../manage-work/tasks/tips-tricks-and-troubleshooting/tasks-faqs.md)
+* [&#x200B; Veelgestelde vragen van Taken &#x200B;](../../../manage-work/tasks/tips-tricks-and-troubleshooting/tasks-faqs.md)
 * [Geprojecteerde duur komt niet overeen met geplande duur](../../../manage-work/tasks/tips-tricks-and-troubleshooting/projected-and-planned-durations-dont-match.md)

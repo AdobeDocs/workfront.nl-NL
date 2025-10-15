@@ -17,7 +17,7 @@ ht-degree: 0%
 
 U kunt zoeken naar [!DNL Adobe Workfront] items vanuit [!DNL Slack] als de [!DNL Slack] -toepassing is geïnstalleerd in uw exemplaar van [!DNL Workfront] .
 
-Voor meer informatie over het vormen [!DNL Workfront] met [!DNL Slack], zie [  [!DNL Adobe Workfront]  voor  [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md) vormen.
+Voor meer informatie over het vormen [!DNL Workfront] met [!DNL Slack], zie [&#x200B;  [!DNL Adobe Workfront]  voor  [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md) vormen.
 
 ## Toegangsvereisten
 
@@ -38,7 +38,7 @@ Voor meer informatie over het vormen [!DNL Workfront] met [!DNL Slack], zie [  [
  </tbody> 
 </table>
 
-Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -47,12 +47,12 @@ Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront
 Voordat u naar [!DNL Workfront] items kunt zoeken vanuit [!DNL Slack] , moet u
 
 * [!DNL Workfront] voor [!DNL Slack] configureren\
-   Voor instructies bij het vormen [!DNL Workfront for Slack], zie [ vormen  [!DNL Adobe Workfront for Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md).
+   Voor instructies bij het vormen [!DNL Workfront for Slack], zie [&#x200B; vormen  [!DNL Adobe Workfront for Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md).
 
 ## Zoeken naar [!DNL Workfront] items in [!DNL Slack] :
 
 1. Meld u aan bij de [!DNL Slack] -instantie en meld u aan bij [!DNL Workfront] from [!DNL Slack] .\
-   Voor meer informatie over het programma openen aan [!DNL Workfront] van [!DNL Slack], zie het &quot;Aanmelden aan [!DNL Workfront] van [!DNL Slack]&quot;sectie in [ Toegang  [!DNL Adobe Workfront]  van  [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md).
+   Voor meer informatie over het programma openen aan [!DNL Workfront] van [!DNL Slack], zie het &quot;Aanmelden aan [!DNL Workfront] van [!DNL Slack]&quot;sectie in [&#x200B; Toegang  [!DNL Adobe Workfront]  van  [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md).
 
 1. Typ een van de volgende opdrachten in het berichtveld vanaf een willekeurig kanaal:
 

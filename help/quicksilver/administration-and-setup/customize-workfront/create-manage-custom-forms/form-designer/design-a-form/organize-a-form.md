@@ -43,7 +43,7 @@ U kunt een aangepast formulier organiseren met de formulierontwerper en er een v
  </tbody> 
 </table>
 
-Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -55,13 +55,13 @@ Als u bijvoorbeeld gevoelige informatie wilt bijhouden die alleen systeembeheerd
 
 De toegangsinstellingen die u voor een sectie selecteert, zijn rechtstreeks gekoppeld aan de machtigingen die gebruikers hebben voor het Workfront-object waaraan het aangepaste formulier is gekoppeld. U kunt een sectie verbergen of weergeven op basis van het feit of de gebruiker toegang heeft tot het object, een bijdrage levert aan dat object of dat object beheert. U kunt ook een sectie alleen instellen op Beheerder, zodat alleen gebruikers met een toegangsniveau van de systeembeheerder toegang hebben tot de sectie.
 
-Voor informatie over toestemmingen op voorwerpen, zie [ Overzicht van het delen van toestemmingen op voorwerpen ](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+Voor informatie over toestemmingen op voorwerpen, zie [&#x200B; Overzicht van het delen van toestemmingen op voorwerpen &#x200B;](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
-Voor informatie over douanegebieden en widgets in douanevormen, zie [ een douanevorm ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren.
+Voor informatie over douanegebieden en widgets in douanevormen, zie [&#x200B; een douanevorm &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren.
 
 ### Toegang voor een sectie in een aangepast formulier maken en configureren
 
-1. Begin creërend of het uitgeven van een douanevorm en het toevoegen van gebieden, zoals die in [ worden beschreven creeer een douanevorm ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+1. Begin creërend of het uitgeven van een douanevorm en het toevoegen van gebieden, zoals die in [&#x200B; worden beschreven creeer een douanevorm &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 1. Klik **de onderbreking van de Sectie** en sleep het in de gewenste positie op het canvas.
 
@@ -143,7 +143,7 @@ Als u in een aangepast formulier met een sectie-einde dat is geconfigureerd met 
 ## Aangepaste velden en widgets in een aangepast formulier plaatsen
 
 
-1. Beginnen creërend of het uitgeven van een douanevorm, zoals die in [ wordt beschreven creeer een douanevorm ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+1. Beginnen creërend of het uitgeven van een douanevorm, zoals die in [&#x200B; wordt beschreven creeer een douanevorm &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 1. Als u aangepaste velden en widgets op dezelfde rij wilt plaatsen, sleept u een naast elkaar totdat er een lijn tussen de velden en widgets wordt weergegeven.
 
@@ -156,7 +156,7 @@ Als u in een aangepast formulier met een sectie-einde dat is geconfigureerd met 
 
 1. Om een douanegebied naar een andere sectie op de vorm te bewegen, kunt u het slepen en laten vallen in plaats, of de **Beweging aan** pictogram op het gebied klikken en de sectie selecteren om het te bewegen naar.
 
-   ![ gebied van de beweging aan een sectie ](assets/move-field-to-section.png)
+   ![&#x200B; gebied van de beweging aan een sectie &#x200B;](assets/move-field-to-section.png)
 
 1. Om uw veranderingen te bewaren, klik **toepassen**
 
@@ -166,7 +166,7 @@ Als u in een aangepast formulier met een sectie-einde dat is geconfigureerd met 
 
 ## Een voorbeeld van een aangepast formulier bekijken
 
-1. Begin creërend of het uitgeven van een douanevorm en het toevoegen van gebieden, zoals die in [ worden beschreven creeer een douanevorm ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+1. Begin creërend of het uitgeven van een douanevorm en het toevoegen van gebieden, zoals die in [&#x200B; worden beschreven creeer een douanevorm &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 1. Klik **Voorproef** in de hoger-juiste hoek om te zien hoe de vorm wanneer wordt gebruikt zal kijken, dan klik **Voorproef van het Eind** om op het uitgeven van de vorm terug te keren.
 

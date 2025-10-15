@@ -51,7 +51,7 @@ Prioriteiten geven de werkitems weer die aan u zijn toegewezen. U kunt geen werk
  </tbody> 
 </table>
 
-Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -63,7 +63,7 @@ Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Work
 1. In de **Snelle verbindingen** sectie, klik **verbinding** toevoegen.
 1. Plak URL in **voeg verbinding** doos toe.
 1. Klik **sparen**.
-   ![ voeg verbinding ](assets/add-link.png) toe
+   ![&#x200B; voeg verbinding &#x200B;](assets/add-link.png) toe
 
 ## Een snelle koppeling naar het klembord kopiëren
 
@@ -71,8 +71,8 @@ Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Work
 
 1. Klik op de naam van een het werkpunt om de **pagina van het Overzicht** te openen.
 1. In de **Snelle verbindingen** sectie, vind de verbinding u wilt kopiëren.
-1. Klik het **pictogram van het Exemplaar 1} van het Exemplaar**![ pictogram.](assets/copy-icon.png)
-   ![ verbinding van het Exemplaar ](assets/copy-link.png)
+1. Klik het **pictogram van het Exemplaar 1&rbrace; van het Exemplaar**![&#x200B; pictogram.](assets/copy-icon.png)
+   ![&#x200B; verbinding van het Exemplaar &#x200B;](assets/copy-link.png)
 
 ## Een snelkoppeling openen
 
@@ -81,7 +81,7 @@ Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Work
 1. Klik op de naam van een het werkpunt om de **pagina van het Overzicht** te openen.
 1. In de **Snelle verbindingen** sectie, vind de verbinding u wilt openen.
 1. Klik op de koppeling. De koppeling wordt geopend op een nieuw tabblad.
-   ![ Open verbinding ](assets/open-link.png)
+   ![&#x200B; Open verbinding &#x200B;](assets/open-link.png)
 
 ## Snelle koppelingen verwijderen
 
@@ -89,5 +89,5 @@ Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Work
 
 1. Klik op de naam van een het werkpunt om de **pagina van het Overzicht** te openen.
 1. Klik **uitgeven Details** in de hoger-juiste hoek van het scherm.
-   ![ geef details ](assets/edit-details.png) uit
-1. Vind de verbinding die u wilt verwijderen, dan klikken **Schrapping** ![ pictogram van de Schrapping ](assets/delete-icon.png) pictogram.
+   ![&#x200B; geef details &#x200B;](assets/edit-details.png) uit
+1. Vind de verbinding die u wilt verwijderen, dan klikken **Schrapping** ![&#x200B; pictogram van de Schrapping &#x200B;](assets/delete-icon.png) pictogram.

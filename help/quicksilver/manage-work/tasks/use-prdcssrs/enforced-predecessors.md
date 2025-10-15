@@ -19,11 +19,11 @@ ht-degree: 0%
 
 Predecessors zijn taken waarvan andere taken afhankelijk zijn voor voltooiing. Relaties van vorige versies zijn van invloed op de start- en voltooiingsdatums van de taken en hebben uiteindelijk invloed op de tijdlijn van het project.
 
-Voor informatie over predecessors, zie [ Overzicht van taakvoordecessors ](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md).
+Voor informatie over predecessors, zie [&#x200B; Overzicht van taakvoordecessors &#x200B;](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md).
 
 Door voorgangerrelaties tussen taken in te stellen, definieert u hoe het begin of einde van een afhankelijke taak afhankelijk is van het begin of einde van hun voorgangertaken. Dit wordt gedaan door verschillende Types van Afhankelijkheid te gebruiken.
 
-Voor informatie over de Types van Afhankelijkheid, zie [ Overzicht van de types van taakgebiedsdeel ](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
+Voor informatie over de Types van Afhankelijkheid, zie [&#x200B; Overzicht van de types van taakgebiedsdeel &#x200B;](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
 
 ## Overzicht van gedwongen voorgangers
 
@@ -63,7 +63,7 @@ Als een voorganger wordt afgedwongen, kan de opvolgertaak niet worden gestart vo
  </tbody> 
 </table>
 
-Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -100,7 +100,7 @@ Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Work
 
 1. Ga naar de opvolgertaak waarvan voorganger u wilt afdwingen.
 1. Klik **Voorgangers** in het linkerpaneel, dan klik **toevoegen Voorganger**.
-1. (Voorwaardelijk) Als u een dwars-projectvoorganger wilt toevoegen, verwijder de naam van het project op het **gebied van het Project van de Ouder 1} en vervang het met een ander project.**
+1. (Voorwaardelijk) Als u een dwars-projectvoorganger wilt toevoegen, verwijder de naam van het project op het **gebied van het Project van de Ouder 1&rbrace; en vervang het met een ander project.**
 1. Specificeer de naam van de voorgangerstaak of de taken op het **gebied van Taken**.
 1. Specificeer het **Type van Afhankelijkheid** tussen deze twee taken.
 
@@ -119,4 +119,4 @@ Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Work
 1. In de **kolom van Predecessors**, begin het aantal van de voorgangertaak in te gaan die door &quot;e&quot;wordt gevolgd. Typ bijvoorbeeld &quot;1e&quot; om taaknummer 1 als voorganger aan de geselecteerde taak toe te voegen.
 1. Klik op Enter om uw voorganger-informatie voor de taak op te slaan.
 
-   ![ predecessor_required_in_list.png ](assets/predecessor-enforced-in-list-350x308.png)
+   ![&#x200B; predecessor_required_in_list.png &#x200B;](assets/predecessor-enforced-in-list-350x308.png)

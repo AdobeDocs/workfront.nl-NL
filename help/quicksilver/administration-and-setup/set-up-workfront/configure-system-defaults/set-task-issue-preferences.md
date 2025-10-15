@@ -29,7 +29,7 @@ Linked to Converting Issues.-->
 
 Als [!DNL Adobe Workfront] beheerder kunt u systeembrede voorkeuren configureren voor taken en problemen. Deze voorkeuren zijn van invloed op de manier waarop uw gebruikers taken en problemen maken in [!DNL Workfront] .
 
-Standaard zijn taak- en probleemvoorkeuren vergrendeld en kunnen groepsbeheerders deze op groepsniveau niet wijzigen, tenzij u ze voor alle groepen in het systeem ontgrendelt. Voor meer informatie, zie de sectie [ taak van het Slot en geef voorkeur voor groepen ](#lock-task-and-issue-preferences-for-groups) in dit artikel uit.
+Standaard zijn taak- en probleemvoorkeuren vergrendeld en kunnen groepsbeheerders deze op groepsniveau niet wijzigen, tenzij u ze voor alle groepen in het systeem ontgrendelt. Voor meer informatie, zie de sectie [&#x200B; taak van het Slot en geef voorkeur voor groepen &#x200B;](#lock-task-and-issue-preferences-for-groups) in dit artikel uit.
 
 
 ## Toegangsvereisten
@@ -56,7 +56,7 @@ Standaard zijn taak- en probleemvoorkeuren vergrendeld en kunnen groepsbeheerder
  </tbody> 
 </table>
 
-Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -154,7 +154,7 @@ Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront
 >
 >Deze instelling is ook van toepassing op het verwijderen van projecten die taken of problemen hebben met het aantal uren dat is aangemeld. Deze instelling is niet van toepassing op het verwijderen van projecten waarbij de tijd rechtstreeks voor het project wordt vastgelegd.
 
-* Als deze optie is geselecteerd, ontvangt u een informatieve waarschuwing wanneer u een taak of uitgave verwijdert. De waarschuwing herinnert u eraan dat als de taak of de kwestie uren het programma heeft geopend, zij of naar het project zullen worden verplaatst of worden geschrapt. U kunt configureren of de uren worden verwijderd of naar het project worden verplaatst in het [!UICONTROL Timesheet & Hours Preferences] -gebied van [!UICONTROL Setup] . Nadat u hebt bevestigd dat u de waarschuwing hebt gezien, wordt de taak of het probleem verwijderd. Voor meer informatie over het vormen van de Voorkeur van Timesheet &amp; van Uren, zie [ timesheet en uurvoorkeur ](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md) vormen.
+* Als deze optie is geselecteerd, ontvangt u een informatieve waarschuwing wanneer u een taak of uitgave verwijdert. De waarschuwing herinnert u eraan dat als de taak of de kwestie uren het programma heeft geopend, zij of naar het project zullen worden verplaatst of worden geschrapt. U kunt configureren of de uren worden verwijderd of naar het project worden verplaatst in het [!UICONTROL Timesheet & Hours Preferences] -gebied van [!UICONTROL Setup] . Nadat u hebt bevestigd dat u de waarschuwing hebt gezien, wordt de taak of het probleem verwijderd. Voor meer informatie over het vormen van de Voorkeur van Timesheet &amp; van Uren, zie [&#x200B; timesheet en uurvoorkeur &#x200B;](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md) vormen.
 
   >[!TIP]
   >
@@ -284,11 +284,11 @@ I have not had a chance to follow up with customers to verify if this is still a
 
 Als de groepen in uw organisatie een taak of uitgiftevoorkeur nodig hebben die verschillend voor hun unieke werkschema&#39;s wordt gevormd, kunt u de voorkeur voor alle groepen door de organisatie ontgrendelen zodat zij het op hun kunnen vormen. Wanneer een voorkeur wordt ontgrendeld en de groepsbeheerder het wijzigt, worden de taken of kwesties verbonden aan de groep beïnvloed door groep-niveau die voor de voorkeur plaatst in plaats van systeem-niveau het plaatsen.
 
-Voor informatie over hoe een groepsbeheerder taak vormt en uit:geven voorkeur voor een groep, zie [ taak en uitgiftevoorkeur voor een groep ](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md) vormen.
+Voor informatie over hoe een groepsbeheerder taak vormt en uit:geven voorkeur voor een groep, zie [&#x200B; taak en uitgiftevoorkeur voor een groep &#x200B;](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md) vormen.
 
 >[!NOTE]
 >
->Nadat een [!DNL Workfront] beheerder een voorkeur op het systeemniveau ontgrendelt, kan om het even welke groepbeheerder het vormen en dan het sluiten om ervoor te zorgen dat iedereen in hun groep en subgroups hieronder de zelfde configuratie gebruikt. Dit is parallel aan de mogelijkheid dat een [!DNL Workfront] -beheerder een voorkeur voor iedereen in het systeem moet configureren en vergrendelen. Voor meer informatie, zie [ projectvoorkeur voor een groep ](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md) en [ Slot of ontgrendel een project, een taak, of een uitgiftevoorkeur voor subgroups ](../../../administration-and-setup/manage-groups/create-and-manage-groups/lock-or-unlock-a-group-preference.md) vormen.
+>Nadat een [!DNL Workfront] beheerder een voorkeur op het systeemniveau ontgrendelt, kan om het even welke groepbeheerder het vormen en dan het sluiten om ervoor te zorgen dat iedereen in hun groep en subgroups hieronder de zelfde configuratie gebruikt. Dit is parallel aan de mogelijkheid dat een [!DNL Workfront] -beheerder een voorkeur voor iedereen in het systeem moet configureren en vergrendelen. Voor meer informatie, zie [&#x200B; projectvoorkeur voor een groep &#x200B;](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md) en [&#x200B; Slot of ontgrendel een project, een taak, of een uitgiftevoorkeur voor subgroups &#x200B;](../../../administration-and-setup/manage-groups/create-and-manage-groups/lock-or-unlock-a-group-preference.md) vormen.
 
 Een taak of een uitgiftevoorkeur vergrendelen of ontgrendelen zodat groepen deze kunnen configureren:
 
@@ -298,7 +298,7 @@ Een taak of een uitgiftevoorkeur vergrendelen of ontgrendelen zodat groepen deze
 
 1. Voer een van de volgende handelingen uit:
 
-   * Als u beheerders van groepen onder uw groep een voorkeur voor hun groepen wilt kunnen vormen, ontgrendel het ![ knevel van de Ontgrendeling ](assets/unlock-toggle-button.png).
+   * Als u beheerders van groepen onder uw groep een voorkeur voor hun groepen wilt kunnen vormen, ontgrendel het ![&#x200B; knevel van de Ontgrendeling &#x200B;](assets/unlock-toggle-button.png).
    * Als u wilt dat de groep en alle onderliggende groepen uw configuratie voor een voorkeur gebruiken, moet u controleren of deze is vergrendeld (dit is de standaardinstelling).
 
      >[!IMPORTANT]

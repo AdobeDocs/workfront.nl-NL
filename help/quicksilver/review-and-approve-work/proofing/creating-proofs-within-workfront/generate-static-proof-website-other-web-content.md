@@ -48,7 +48,7 @@ Houd rekening met het volgende wanneer u statische proefdrukken maakt voor een w
  </tbody> 
 </table>
 
-Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -58,7 +58,7 @@ Als u een statisch bewijs wilt maken, moet de website openbaar toegankelijk zijn
 
 >[!TIP]
 >
->We raden interactieve proefdrukken aan in plaats van statische proefdrukken voor interne pagina&#39;s waarvoor verificatie en met een wachtwoord beveiligde pagina&#39;s vereist zijn. Voor meer informatie, zie [ Interactieve inhoudsproeven overzicht ](../../../review-and-approve-work/proofing/proofing-overview/interactive-content-proofs.md).
+>We raden interactieve proefdrukken aan in plaats van statische proefdrukken voor interne pagina&#39;s waarvoor verificatie en met een wachtwoord beveiligde pagina&#39;s vereist zijn. Voor meer informatie, zie [&#x200B; Interactieve inhoudsproeven overzicht &#x200B;](../../../review-and-approve-work/proofing/proofing-overview/interactive-content-proofs.md).
 
 1. Ga naar het project, de taak of de uitgave waar u een nieuwe websiteproef of een nieuwe versie van bestaande wilt tot stand brengen.
 1. Klik **Documenten** in het linkerpaneel.
@@ -67,7 +67,7 @@ Als u een statisch bewijs wilt maken, moet de website openbaar toegankelijk zijn
 
    1. Plaats de muisaanwijzer boven de URL-proefdruk waarvoor u een nieuwe versie wilt maken en selecteer deze door op de lichtblauwe achtergrond eromheen te klikken.
 
-      ![ Select_proof_by_selecting_light_blue_background.png ](assets/select-proof-by-selecting-light-blue-background-350x52.png)
+      ![&#x200B; Select_proof_by_selecting_light_blue_background.png &#x200B;](assets/select-proof-by-selecting-light-blue-background-350x52.png)
 
    1. Klik **toevoegen nieuw** > **Versie** > **Bewijs**.
 
@@ -81,7 +81,7 @@ Als u een statisch bewijs wilt maken, moet de website openbaar toegankelijk zijn
 
    Er worden opties weergegeven voor het configureren van de proefdruk van de website.
 
-   ![ Interactieve proef ](assets/interactive-proof-radio-btn-area-350x199.png)
+   ![&#x200B; Interactieve proef &#x200B;](assets/interactive-proof-radio-btn-area-350x199.png)
 
 1. (Facultatief) als u de naam van de proef van website URL in iets anders wilt veranderen, typ a **naam van het Bewijs.**
 1. Zorg ervoor **het schermschot van de Vangst** wordt geselecteerd en gebruik om het even welke volgende opties:

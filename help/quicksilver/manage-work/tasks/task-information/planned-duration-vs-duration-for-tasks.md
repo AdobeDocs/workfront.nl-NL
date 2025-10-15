@@ -31,7 +31,7 @@ Wanneer het Type van Duur van de taak Gedreven de inspanning is, vermindert de G
 Als u drie middelen met een full-time programma aan de zelfde taak toewijst, blijft de Duur 3 dagen, maar de Geplande Duur wordt 1 dag. De Geplande Duur verandert ook de Geplande Begin en Geplande Datum van de Voltooiing van de taak, om de nieuwe Geplande Duur te weerspiegelen. Hierdoor wordt ook de tijdlijn van het project beïnvloed.
 U kunt het Type van Duur van de inspanning Gedreven gebruiken wanneer u een taak aan veelvoudige middelen toewijst. Dit verkort de tijd die nodig is om het werk aan de taak af te ronden.
 
-Voor meer informatie over het Door inspanning Gedreven Type van Duur, zie [ overzicht van het Type van Duur: Gedreven inspanning ](../../../manage-work/tasks/taskdurtn/effort-driven.md).
+Voor meer informatie over het Door inspanning Gedreven Type van Duur, zie [&#x200B; overzicht van het Type van Duur: Gedreven inspanning &#x200B;](../../../manage-work/tasks/taskdurtn/effort-driven.md).
 
 ## Probleem en projectduur
 

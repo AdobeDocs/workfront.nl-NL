@@ -45,7 +45,7 @@ Met tariefkaarten kunt u meerdere factureringssnelheden per rol definiëren, op 
  </tbody> 
 </table>
 
-Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -58,7 +58,7 @@ Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront
 1. (Facultatief) op het scherm van de Details van de Kaart van het Tarief, voeg a [!UICONTROL **Beschrijving**] toe.
 1. (Facultatief) om een douaneformulier aan de tariefkaart vast te maken, klik [!UICONTROL **voeg douanevorm**] gebied in de hoger-juiste hoek toe en selecteer een douanevorm van de lijst die toont.
 
-   Voor meer informatie bij het vastmaken van een douanevorm, zie [ een douanevorm aan een voorwerp ](/help/quicksilver/workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md) toevoegen.
+   Voor meer informatie bij het vastmaken van een douanevorm, zie [&#x200B; een douanevorm aan een voorwerp &#x200B;](/help/quicksilver/workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md) toevoegen.
 
 1. Klik [!UICONTROL **Rollen en Tarieven van de Baan**] in het linkernavigatievenster.
 1. Voor de Rollen en het scherm van de Baan van de Kaart van het Tarief, klik [!UICONTROL **baanrol**] toevoegen.
@@ -66,7 +66,7 @@ Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront
 
    Het standaardFactureringstarief toont het systeem-vlakke tarief voor deze baanrol, als wordt bepaald.
 
-   ![ Nieuwe de dialoog van het Tarief van het Facturerings ](assets/location-rate-for-rate-card.png)
+   ![&#x200B; Nieuwe de dialoog van het Tarief van het Facturerings &#x200B;](assets/location-rate-for-rate-card.png)
 
 1. Selecteer a [!UICONTROL **Valuta**] voor de baanrol.
 1. (Facultatief) selecteer a [!UICONTROL **Plaats**] voor de baanrol.
@@ -86,7 +86,7 @@ Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront
 
 1. Klik [!UICONTROL **sparen**].
 1. (Facultatief) om een ander het facturerings tarief toe te voegen, of voor de zelfde baanrol in een andere plaats of voor een afzonderlijke baanrol, klik [!UICONTROL **toevoegt baanrol**].
-1. (Optioneel) Als u een tariefkaart wilt bewerken, klikt u op de naam van de tariefkaart in de lijst Sneltoetsen in Setup. Om een het factureren tarief uit te geven, klik [!UICONTROL **Rollen en Tarieven van de Baan**] in het linkernavigatievenster van de tariefkaart. Dan, selecteer het tarief en klik **uitgeven** pictogram ![ pictogram ](assets/edit-icon.png) uitgeeft.
+1. (Optioneel) Als u een tariefkaart wilt bewerken, klikt u op de naam van de tariefkaart in de lijst Sneltoetsen in Setup. Om een het factureren tarief uit te geven, klik [!UICONTROL **Rollen en Tarieven van de Baan**] in het linkernavigatievenster van de tariefkaart. Dan, selecteer het tarief en klik **uitgeven** pictogram ![&#x200B; pictogram &#x200B;](assets/edit-icon.png) uitgeeft.
 
 ## Een creditcard kopiëren
 
@@ -103,7 +103,7 @@ Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront
 {{step-1-to-setup}}
 
 1. In het linkerpaneel, klik [!UICONTROL **kaarten van het Tarief**].
-1. Selecteer de controledoos naast de tariefkaart in de lijst, en klik het **pictogram van de Schrapping** ![ pictogram van de Schrapping ](assets/delete.png).
+1. Selecteer de controledoos naast de tariefkaart in de lijst, en klik het **pictogram van de Schrapping** ![&#x200B; pictogram van de Schrapping &#x200B;](assets/delete.png).
 
    >[!NOTE]
    >

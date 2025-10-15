@@ -49,9 +49,9 @@ U kunt initiatieven op een plan schrappen dat u of op een plan creeerde dat iema
  </tbody> 
 </table>
 
-Voor meer informatie over toegang tot de Planner van het Scenario, zie [ Toegang nodig om  [!DNL Scenario Planner]](../scenario-planner/access-needed-to-use-sp.md) te gebruiken.
+Voor meer informatie over toegang tot de Planner van het Scenario, zie [&#x200B; Toegang nodig om  [!DNL Scenario Planner]](../scenario-planner/access-needed-to-use-sp.md) te gebruiken.
 
-Voor informatie over de toegangsvereisten van Workfront, zie [ vereisten van de Toegang tot de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie over de toegangsvereisten van Workfront, zie [&#x200B; vereisten van de Toegang tot de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -106,13 +106,13 @@ Houd rekening met het volgende wanneer u initiatieven verwijdert:
    * Het initiatief wordt uit het scenario verwijderd, maar het gebied [!DNL Scenario Planner] blijft in de sectie [!UICONTROL Project Details] .
    * Als het initiatief dat u schrapt het enige gepubliceerde initiatief op het scenario is, wordt de indicator dat het plan is gepubliceerd ook geschrapt.
 
-     Voor informatie over het publiceren van initiatieven aan projecten, zie [ Update of creeer projecten door initiatieven in  [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md) te publiceren.
+     Voor informatie over het publiceren van initiatieven aan projecten, zie [&#x200B; Update of creeer projecten door initiatieven in  [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md) te publiceren.
 
-     Voor informatie over het creëren van initiatieven door projecten in te voeren, zie [ projecten van de Invoer in plannen in  [!DNL Scenario Planner]](../scenario-planner/import-projects-to-plans.md).
+     Voor informatie over het creëren van initiatieven door projecten in te voeren, zie [&#x200B; projecten van de Invoer in plannen in  [!DNL Scenario Planner]](../scenario-planner/import-projects-to-plans.md).
 
 U kunt één initiatief tegelijk verwijderen of meerdere initiatieven bulksgewijs verwijderen.
 
-* [ Schrap één initiatief ](#delete-one-initiative)
+* [&#x200B; Schrap één initiatief &#x200B;](#delete-one-initiative)
 * [Initiatieven bulksgewijs verwijderen](#delete-initiatives-in-bulk)
 
 ### Eén initiatief verwijderen {#delete-one-initiative}
@@ -124,7 +124,7 @@ Een lijst met plannen wordt weergegeven.
 1. Klik op de naam van een abonnement om het te openen en zoek het initiatief dat u wilt verwijderen.
 1. Voer een van de volgende handelingen uit:
 
-   * Klik **[!UICONTROL More menu]** ![ Meer menu ](assets/more-menu.png) rechts van de initiatiefnaam, dan klik **[!UICONTROL Delete]** > **[!UICONTROL Yes, delete it]**.
+   * Klik **[!UICONTROL More menu]** ![&#x200B; Meer menu &#x200B;](assets/more-menu.png) rechts van de initiatiefnaam, dan klik **[!UICONTROL Delete]** > **[!UICONTROL Yes, delete it]**.
 
    * Selecteer het vak links van het initiatief en klik op **[!UICONTROL Delete]** in het zwevende menu dat onder aan het abonnement wordt weergegeven en klik vervolgens op **[!UICONTROL Yes, delete it]** .
 
@@ -141,7 +141,7 @@ Een lijst met plannen wordt weergegeven.
 1. Klik op de naam van een abonnement om het te openen en zoek het initiatief dat u wilt verwijderen.
 1. Selecteer de vakjes links van de initiatieven die u wilt schrappen, dan klik **[!UICONTROL Delete]** van het menu dat bij de bodem van het plan verschijnt, dan klik **[!UICONTROL Yes, delete them]**.
 
-   ![ beheert initiatiefmenu ](assets/bottom-manage-initiative-menu-350x45.png)
+   ![&#x200B; beheert initiatiefmenu &#x200B;](assets/bottom-manage-initiative-menu-350x45.png)
 
    De initiatieven en hun functie en kosteninformatie worden uit het plan geschrapt.
 

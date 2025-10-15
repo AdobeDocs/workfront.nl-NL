@@ -17,9 +17,9 @@ ht-degree: 0%
 
 <!--Audited: 08/2025-->
 
-Als Adobe Workfront-beheerder kunt u verschillende vooraf geconfigureerde sjablonen in uw Workfront-instantie downloaden met behulp van Vervagen. Voor meer informatie, zie [ een blauwdruk ](../../../administration-and-setup/blueprints/configure-template-package.md) vormen.
+Als Adobe Workfront-beheerder kunt u verschillende vooraf geconfigureerde sjablonen in uw Workfront-instantie downloaden met behulp van Vervagen. Voor meer informatie, zie [&#x200B; een blauwdruk &#x200B;](../../../administration-and-setup/blueprints/configure-template-package.md) vormen.
 
-Als gebruiker met om het even welke vergunning van Workfront, kunt u verzoeken om een blauwdrukmalplaatje worden geïnstalleerd. Voor meer informatie, zie [ doorbladeren de catalogus van blauwdrukken en verzoekinstallatie van blauwdrukken ](../../../administration-and-setup/blueprints/browse-catalog.md).
+Als gebruiker met om het even welke vergunning van Workfront, kunt u verzoeken om een blauwdrukmalplaatje worden geïnstalleerd. Voor meer informatie, zie [&#x200B; doorbladeren de catalogus van blauwdrukken en verzoekinstallatie van blauwdrukken &#x200B;](../../../administration-and-setup/blueprints/browse-catalog.md).
 
 De blauwdrukken verstrekt basisbouwstenen om u te helpen een werkbeheersysteem tot stand brengen dat met u groeit. U kunt door de blauwdrukcatalogus bladeren en gebruiksklare projectsjablonen installeren.
 

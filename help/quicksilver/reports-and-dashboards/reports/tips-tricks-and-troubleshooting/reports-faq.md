@@ -54,7 +54,7 @@ Hier volgen vaak gestelde vragen over rapporten.
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -88,7 +88,7 @@ Afhankelijk van het veld Werkelijke uren dat u voor de berekening wilt gebruiken
 
   `valueexpression=SUB(workRequired/60,actualWorkRequiredDouble)`
 
-Voor meer informatie, zie [ Ware Uren van de Mening ](/help/quicksilver/manage-work/tasks/task-information/actual-hours.md).
+Voor meer informatie, zie [&#x200B; Ware Uren van de Mening &#x200B;](/help/quicksilver/manage-work/tasks/task-information/actual-hours.md).
 
 ## Waarom wordt de waarde van elk van mijn diagramelementen in een rapport niet getoond op de grafiek?
 
@@ -106,16 +106,16 @@ Als ik een rapport met een grafiek stel, zie ik de foutmelding &quot;Wow daar...
 
 Deze fout betekent dat uw grafiek tot 618 verschillende resultaten-voor voorbeeld, meer dan 618 bars in een staafgrafiek bevat. Als u het weergaveprobleem wilt verhelpen, moet u de resultaten verfijnen door het huidige filter en de selecties te wijzigen.
 
-Voor informatie bij het wijzigen van filters en groeperingen, zie het overzicht van artikelen [ Filters ](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md) en [ Overzicht van Groepen in Adobe Workfront ](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
+Voor informatie bij het wijzigen van filters en groeperingen, zie het overzicht van artikelen [&#x200B; Filters &#x200B;](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md) en [&#x200B; Overzicht van Groepen in Adobe Workfront &#x200B;](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
 ## Waarom zie ik mijn taken (of kwesties) wanneer ik tot het zelfde rapport (of kalender) toegang heb zoals mijn medewerker en zij hun taken in plaats daarvan zien?
 
 ### Antwoord
 
 Het rapport of de kalender zouden een variabele van de vervangingsfilter kunnen hebben die aan de gebruiker richt die het programma wordt geopend. In dit geval, toont het rapport informatie die op de gebruiker wordt gebaseerd die het programma wordt geopend. Pas het filter aan om het jokerteken te verwijderen dat naar de aangemelde gebruiker wijst.\
-![ de filtervariabele van identiteitskaart van de Gebruiker ](assets/qs--user.id-filter-variable-350x79.png)
+![&#x200B; de filtervariabele van identiteitskaart van de Gebruiker &#x200B;](assets/qs--user.id-filter-variable-350x79.png)
 
-Voor een volledige lijst van op gebruiker-gebaseerde het filtervariabelen overzicht van de Vervanging, zie [ overzicht van de de filtervariabelen van de Vervanging ](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
+Voor een volledige lijst van op gebruiker-gebaseerde het filtervariabelen overzicht van de Vervanging, zie [&#x200B; overzicht van de de filtervariabelen van de Vervanging &#x200B;](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
 
 ## Waarom lijken de gegevens in mijn verslag onvolledig?
 
@@ -125,7 +125,7 @@ Dit kan in de meeste gevallen gebeuren als u een beperkte toegang hebt waardoor 
 
 De maker van het rapport kan het rapport uitgeven om het met de toegangsrechten van een systeembeheerder in werking te stellen, of om het even welke gebruiker van het Plan die toegang heeft om de gegevens te zien.
 
-Voor meer informatie, zie [ Looppas en lever een rapport met de toegangsrechten van een andere gebruiker ](../../../reports-and-dashboards/reports/creating-and-managing-reports/run-deliver-report-access-rights-another-user.md).
+Voor meer informatie, zie [&#x200B; Looppas en lever een rapport met de toegangsrechten van een andere gebruiker &#x200B;](../../../reports-and-dashboards/reports/creating-and-managing-reports/run-deliver-report-access-rights-another-user.md).
 
 ## Hoe kan ik rapporteren over taken (of kwesties) waaraan ik ben toegewezen, of ik nu de eigenaar van ben of niet?
 
@@ -145,7 +145,7 @@ Om alle taken of kwesties te zien die aan u worden toegewezen, of u de Eigenaar 
 1. Selecteer de **Gelijke** bepaling.
 1. Typ *$$USER.ID* in het tekstvak en selecteer het in de vervolgkeuzelijst die wordt weergegeven.\
    Dit zorgt ervoor dat u alle taken en kwesties ziet die aan de het programma geopende gebruiker worden toegewezen. U kunt het jokerteken vervangen door een specifieke gebruikersnaam.\
-   ![ Taken die aan me ](assets/qs-tasks-assigned-to-me-assignment-users-name-filter-350x63.png) worden toegewezen
+   ![&#x200B; Taken die aan me &#x200B;](assets/qs-tasks-assigned-to-me-assignment-users-name-filter-350x63.png) worden toegewezen
 
 1. Klik **sparen + Sluiten**.
 
@@ -158,15 +158,15 @@ Eerst, zorg ervoor dat u de correcte toegang en de toestemmingen hebt om kwestie
 Er zijn echter een paar dingen die voorkomen dat deze koppelingen worden weergegeven:
 
 * Als u het snelle filter hebt toegepast op deze lijsten, worden de koppelingen niet weergegeven. Verwijder het snelle filter en de verbindingen zouden moeten tonen zodat kunt u kwesties en taken aan uw projecten toevoegen.\
-  Voor informatie over de snelle filter, zie [ begonnen worden met lijsten in Adobe Workfront ](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
+  Voor informatie over de snelle filter, zie [&#x200B; begonnen worden met lijsten in Adobe Workfront &#x200B;](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
 
 * Als u a **Groepering** hebt toegepast op deze lijsten, tonen de verbindingen niet. Verwijder de **Groepering** en de verbindingen zouden moeten tonen zodat kunt u kwesties en taken aan uw projecten toevoegen.\
-  Voor informatie over het creëren van Groepen, zie [ Overzicht van Groepen in Adobe Workfront ](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
+  Voor informatie over het creëren van Groepen, zie [&#x200B; Overzicht van Groepen in Adobe Workfront &#x200B;](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
 * Als u a **Mening** hebt die op deze lijsten wordt toegepast die een valuta anders dan de standaardmunt voor het project heeft geselecteerd, tonen de verbindingen niet. Verander de **Mening** aan **Originele Munt van het Project** en de verbindingen zouden moeten tonen zodat kunt u kwesties en taken aan uw projecten toevoegen.\
-  Voor meer informatie bij het veranderen van de munt in uw Mening, zie [ financiële gegevensrapporten met unieke wisselkoersen ](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-financial-data-reports-unique-exchange-rates.md) creëren.
+  Voor meer informatie bij het veranderen van de munt in uw Mening, zie [&#x200B; financiële gegevensrapporten met unieke wisselkoersen &#x200B;](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-financial-data-reports-unique-exchange-rates.md) creëren.
 
-![ de munteenheid van het Project ](assets/nwe-project-original-currency-350x229.png)
+![&#x200B; de munteenheid van het Project &#x200B;](assets/nwe-project-original-currency-350x229.png)
 
 ## Vernieuwt de informatie in mijn rapport of dashboard automatisch?
 
@@ -175,10 +175,10 @@ Er zijn echter een paar dingen die voorkomen dat deze koppelingen worden weergeg
 De informatie in rapporten of dashboards verfrist zich niet automatisch.
 
 De informatie kan manueel in een caching rapport worden verfrist.\
-Voor meer informatie over het verfrissen van een caching rapport, zie [ een rapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/run-report.md) in werking stellen.
+Voor meer informatie over het verfrissen van een caching rapport, zie [&#x200B; een rapport &#x200B;](../../../reports-and-dashboards/reports/creating-and-managing-reports/run-report.md) in werking stellen.
 
 De informatie kan manueel in een caching dashboard worden verfrist.\
-Voor meer informatie over het verfrissen van een caching dashboard, zie de sectie [ dashboards van de Vertoning ](../../../reports-and-dashboards/dashboards/understanding-dashboards/get-started-dashboards.md#running-dashboards) in het artikel [ begonnen met dashboards ](../../../reports-and-dashboards/dashboards/understanding-dashboards/get-started-dashboards.md).
+Voor meer informatie over het verfrissen van een caching dashboard, zie de sectie [&#x200B; dashboards van de Vertoning &#x200B;](../../../reports-and-dashboards/dashboards/understanding-dashboards/get-started-dashboards.md#running-dashboards) in het artikel [&#x200B; begonnen met dashboards &#x200B;](../../../reports-and-dashboards/dashboards/understanding-dashboards/get-started-dashboards.md).
 
 ## Kan ik de eigenaar van een rapport wijzigen?
 
@@ -187,12 +187,12 @@ Voor meer informatie over het verfrissen van een caching dashboard, zie de secti
 U kunt de eigenaar van een rapport niet wijzigen. Nochtans, kan de gebruiker die het rapport creeerde andere gebruikers toestaan om het rapport uit te geven. De manier u gebruikers kunt toestaan om een rapport uit te geven hangt van het type van gebruiker af u bent.
 
 * De beheerders van het systeem kunnen gebruikers met een vergunning van het Plan toestaan om rapporten uit te geven door de Edit optie in de rij van Rapporten te vormen om de toegang te omvatten tot Create een rapport.\
-  Voor meer informatie, zie [ toegang van de Verlening tot rapporten, dashboards, en kalenders ](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
+  Voor meer informatie, zie [&#x200B; toegang van de Verlening tot rapporten, dashboards, en kalenders &#x200B;](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
 
 * Eindgebruikers die toegang hebben tot het maken en delen van rapporten, kunnen afzonderlijke rapporten bewerken door deze te delen en andere gebruikers de machtiging Beheren te geven.\
-  Voor meer informatie, zie [ een rapport in Adobe Workfront ](../../../reports-and-dashboards/reports/creating-and-managing-reports/share-report.md) delen.
+  Voor meer informatie, zie [&#x200B; een rapport in Adobe Workfront &#x200B;](../../../reports-and-dashboards/reports/creating-and-managing-reports/share-report.md) delen.
 
-Als u toestemmingen hebt om een rapport te bekijken of te beheren, kunt u een exemplaar van het rapport ook maken, dat u dan de eigenaar van door gebrek zult zijn. Meer over het kopiëren van een rapport leren, zie [ een exemplaar van een rapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md) creëren.
+Als u toestemmingen hebt om een rapport te bekijken of te beheren, kunt u een exemplaar van het rapport ook maken, dat u dan de eigenaar van door gebrek zult zijn. Meer over het kopiëren van een rapport leren, zie [&#x200B; een exemplaar van een rapport &#x200B;](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md) creëren.
 
 ## Waarom heb ik geen toegang tot een rapport dat eigendom is van een gedeactiveerde gebruiker?
 
@@ -200,7 +200,7 @@ Als u toestemmingen hebt om een rapport te bekijken of te beheren, kunt u een ex
 
 Soms, is de eigenaar van het rapport ook de gebruiker die in **wordt gespecificeerd dit rapport met de Rechten van de Toegang van:** gebied op het rapport in werking stellen. Als de **looppas dit rapport met de Rechten van de Toegang van:** gebruiker wordt gedeactiveerd, toont het rapport niet meer voor gebruikers die het rapport hebben dat met hen wordt gedeeld. Wanneer dit gebeurt, kunt u het rapport toegankelijk maken opnieuw door **dit Rapport met de Rechten van de Toegang van te verlaten:** leeg of een actieve gebruiker op het gebied in te gaan.
 
-Om meer over **te leren stel dit Rapport met de Rechten van de Toegang van in werking:** gebied, zie [ Looppas en lever een rapport met de toegangsrechten van een andere gebruiker ](../../../reports-and-dashboards/reports/creating-and-managing-reports/run-deliver-report-access-rights-another-user.md). Voor informatie bij het identificeren van alle rapporten die door gedeactiveerde gebruikers worden bezeten, zie [ een rapport over het melden van activiteiten ](../../../reports-and-dashboards/reports/report-usage/create-report-reporting-activities.md) creëren.
+Om meer over **te leren stel dit Rapport met de Rechten van de Toegang van in werking:** gebied, zie [&#x200B; Looppas en lever een rapport met de toegangsrechten van een andere gebruiker &#x200B;](../../../reports-and-dashboards/reports/creating-and-managing-reports/run-deliver-report-access-rights-another-user.md). Voor informatie bij het identificeren van alle rapporten die door gedeactiveerde gebruikers worden bezeten, zie [&#x200B; een rapport over het melden van activiteiten &#x200B;](../../../reports-and-dashboards/reports/report-usage/create-report-reporting-activities.md) creëren.
 
 ## Hoe heb ik toegang tot een dashboard dat een rapport bevat dat door een geschrapte gebruiker wordt bezeten?
 
@@ -210,12 +210,12 @@ Wanneer u een gebruiker schrapt, kunt u tot om het even welke rapporten nog toeg
 
 * Een dashboard dat het rapport bevat, inclusief dashboards in het linkerdeelvenster van een object
 
-Meer over de implicaties leren van het schrappen van een gebruiker, zie [ gebruikers van de Schrapping ](../../../administration-and-setup/add-users/create-and-manage-users/delete-a-user.md).
+Meer over de implicaties leren van het schrappen van een gebruiker, zie [&#x200B; gebruikers van de Schrapping &#x200B;](../../../administration-and-setup/add-users/create-and-manage-users/delete-a-user.md).
 
 Als u de toegang van de Mening tot het rapport hebt, kunt u het volgende doen:
 
 1. Maak een kopie van het rapport.\
-   Leren hoe te om een exemplaar van een rapport tot stand te brengen, zie [ een exemplaar van een rapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md) creëren.
+   Leren hoe te om een exemplaar van een rapport tot stand te brengen, zie [&#x200B; een exemplaar van een rapport &#x200B;](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md) creëren.
 
 1. Werk het dashboard bij om het gekopieerde rapport op te nemen.\
-   Leren hoe te om een dashboard uit te geven, zie [ een dashboard ](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/edit-dashboard.md) uitgeven.
+   Leren hoe te om een dashboard uit te geven, zie [&#x200B; een dashboard &#x200B;](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/edit-dashboard.md) uitgeven.

@@ -22,16 +22,16 @@ ht-degree: 0%
 U hebt de volgende informatie nodig om u aan te melden bij [!DNL Adobe Workfront] :
 
 * **login URL van A:** Dit is unieke URL van uw bedrijf, die dit formaat zou moeten hebben: **`yourCompanyDomain.my.workfront.com`**.\
-   Als u bent ingesteld voor Single Sign-On (SSO), is uw URL mogelijk gewijzigd door uw [!DNL Workfront] -beheerder. Voor meer informatie over het programma openen aan [!DNL Workfront] met SSO, zie [ Login aan  [!DNL Workfront]  met SSO ](#log-in-to-workfront-with-sso) in dit artikel.
+   Als u bent ingesteld voor Single Sign-On (SSO), is uw URL mogelijk gewijzigd door uw [!DNL Workfront] -beheerder. Voor meer informatie over het programma openen aan [!DNL Workfront] met SSO, zie [&#x200B; Login aan  [!DNL Workfront]  met SSO &#x200B;](#log-in-to-workfront-with-sso) in dit artikel.
 
-  De domeinnaam voor uw bedrijf wordt vastgesteld door [!DNL Workfront] . Neem contact op met het Customer Support-team als u uw domeinnaam wilt wijzigen. Voor informatie over hoe te om ons team van de Steun van de Klant te contacteren, zie [ de Steun van de Klant van het Contact ](../../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).
+  De domeinnaam voor uw bedrijf wordt vastgesteld door [!DNL Workfront] . Neem contact op met het Customer Support-team als u uw domeinnaam wilt wijzigen. Voor informatie over hoe te om ons team van de Steun van de Klant te contacteren, zie [&#x200B; de Steun van de Klant van het Contact &#x200B;](../../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).
 
 * **de gebruikersbenaming van A:** Uw [!DNL Workfront] beheerderreeksen - omhoog uw gebruikersnaam.
 * **een wachtwoord van A:** als uw systeem niet opstelling voor SSO is, plaatst u opstelling uw [!DNL Workfront] wachtwoord na het ontvangen van een e-mailuitnodiging van de [!DNL Workfront] beheerder.
 
-  Voor meer informatie over het programma openen aan [!DNL Workfront] met SSO, zie [ Login aan  [!DNL Workfront]  met SSO ](#log-in-to-workfront-with-sso) in dit artikel.
+  Voor meer informatie over het programma openen aan [!DNL Workfront] met SSO, zie [&#x200B; Login aan  [!DNL Workfront]  met SSO &#x200B;](#log-in-to-workfront-with-sso) in dit artikel.
 
-  Voor meer informatie over het ontvangen van e-mailuitnodigingen en het creëren van a [!DNL Workfront] wachtwoord, zie [ e-mailuitnodigingen ontvangen en een wachtwoord voor  [!DNL Adobe Workfront]](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/receive-email-invitations.md) creëren.
+  Voor meer informatie over het ontvangen van e-mailuitnodigingen en het creëren van a [!DNL Workfront] wachtwoord, zie [&#x200B; e-mailuitnodigingen ontvangen en een wachtwoord voor  [!DNL Adobe Workfront]](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/receive-email-invitations.md) creëren.
 
 ## Toegangsvereisten
 
@@ -54,36 +54,36 @@ U hebt de volgende informatie nodig om u aan te melden bij [!DNL Adobe Workfront
  </tbody> 
 </table>
 
-Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Aanmelden bij [!DNL Workfront] zonder SSO
 
-Als uw [!DNL Workfront] beheerder [!DNL Workfront] niet heeft ingesteld om te integreren met uw SSO-oplossing, hebt u een nieuwe gebruikersnaam en een nieuw wachtwoord voor Workfront nodig. Voor informatie over het vormen van Workfront om met een oplossing te integreren SSO, zie [ Overzicht van enige sign-on in Adobe Workfront ](../../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md).
+Als uw [!DNL Workfront] beheerder [!DNL Workfront] niet heeft ingesteld om te integreren met uw SSO-oplossing, hebt u een nieuwe gebruikersnaam en een nieuw wachtwoord voor Workfront nodig. Voor informatie over het vormen van Workfront om met een oplossing te integreren SSO, zie [&#x200B; Overzicht van enige sign-on in Adobe Workfront &#x200B;](../../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md).
 
 U kunt zich als volgt aanmelden bij [!DNL Workfront] met uw [!DNL Workfront] -gebruikersnaam en -wachtwoord:
 
 1. Open een browservenster en typ vervolgens de unieke URL van uw bedrijf in de volgende indeling: **`yourCompanyDomain.my.workfront.com`** .
 
-   Voor meer informatie over welke browsers voor [!DNL Workfront] worden gesteund, zie [[!DNL Adobe Workfront]  browser vereisten ](../../../workfront-basics/workfront-browser-requirements.md).
+   Voor meer informatie over welke browsers voor [!DNL Workfront] worden gesteund, zie [[!DNL Adobe Workfront]  browser vereisten &#x200B;](../../../workfront-basics/workfront-browser-requirements.md).
 
 1. Voer in het aanmeldingsscherm uw gebruikersnaam en wachtwoord in.
 
-   Uw gebruikersnaam is doorgaans het e-mailadres dat is gekoppeld aan uw [!DNL Workfront] -account. Als u uw wachtwoord vergat, zie [ het Terugstellen van uw wachtwoord ](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/reset-your-password.md).
+   Uw gebruikersnaam is doorgaans het e-mailadres dat is gekoppeld aan uw [!DNL Workfront] -account. Als u uw wachtwoord vergat, zie [&#x200B; het Terugstellen van uw wachtwoord &#x200B;](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/reset-your-password.md).
 
 1. (Voorwaardelijk) Als de aanmeldings-URL van uw organisatie voor [!DNL Workfront] geen domein bevat, moet u uw domein opgeven in het veld [!UICONTROL Domain] .
 1. Klik op **[!UICONTROL Login]**.
 
 ## Aanmelden bij [!DNL Workfront] met SSO
 
-Als uw [!DNL Workfront] beheerder [!DNL Workfront] heeft geïntegreerd met één aanmeldingsoplossing, neemt u contact op met de beheerder voor de informatie die nodig is voor uw aanmelding bij [!DNL Workfront] . Voor meer informatie over het integreren van Workfront met een oplossing SSO, zie [ Overzicht van enige sign-on in  [!DNL Adobe Workfront]](../../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md).
+Als uw [!DNL Workfront] beheerder [!DNL Workfront] heeft geïntegreerd met één aanmeldingsoplossing, neemt u contact op met de beheerder voor de informatie die nodig is voor uw aanmelding bij [!DNL Workfront] . Voor meer informatie over het integreren van Workfront met een oplossing SSO, zie [&#x200B; Overzicht van enige sign-on in  [!DNL Adobe Workfront]](../../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md).
 
 Als u zich wilt aanmelden bij [!DNL Workfront] met uw SSO-gebruikersnaam en -wachtwoord:
 
 1. Open een browservenster.
 
-   Voor meer informatie over welke browsers voor [!DNL Workfront] worden gesteund, zie [[!DNL Adobe Workfront]  browser vereisten ](../../../workfront-basics/workfront-browser-requirements.md).
+   Voor meer informatie over welke browsers voor [!DNL Workfront] worden gesteund, zie [[!DNL Adobe Workfront]  browser vereisten &#x200B;](../../../workfront-basics/workfront-browser-requirements.md).
 
 1. Typ de unieke URL van uw bedrijf.
 
@@ -131,7 +131,7 @@ Als u zich wilt aanmelden bij [!DNL Workfront] met uw SSO-gebruikersnaam en -wac
 
 1. (Voorwaardelijk) Als u zich voor het eerst aanmeldt, wordt een pagina weergegeven waarop de mobiele app van [!DNL Workfront] om toegang tot uw account wordt gevraagd. Klik **verlenen toegang** om verder te gaan.
 
-1. U wordt omgeleid naar een webpagina waarmee u zich op dezelfde manier kunt aanmelden als op de desktopsite. Dit proces varieert afhankelijk van de configuratie van Workfront van uw organisatie, zie [ Login aan  [!DNL Workfront]  zonder SSO ](#log-in-to-workfront-without-sso) of [ Login aan  [!DNL Workfront]  met SSO ](#log-in-to-workfront-with-sso) hierboven voor meer informatie.
+1. U wordt omgeleid naar een webpagina waarmee u zich op dezelfde manier kunt aanmelden als op de desktopsite. Dit proces varieert afhankelijk van de configuratie van Workfront van uw organisatie, zie [&#x200B; Login aan  [!DNL Workfront]  zonder SSO &#x200B;](#log-in-to-workfront-without-sso) of [&#x200B; Login aan  [!DNL Workfront]  met SSO &#x200B;](#log-in-to-workfront-with-sso) hierboven voor meer informatie.
 
    Nadat de bewerking is voltooid, wordt u omgeleid naar de mobiele app en aangemeld.
 

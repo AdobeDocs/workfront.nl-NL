@@ -23,7 +23,7 @@ U kunt timesheet-profielen maken, bewerken en toewijzen die terugkerende tijdbla
 * Fiatteurs
 * Algemene uurtypen
 
-Voor meer informatie over het creëren van manueel timesheet, zie [ een enig-gebruiktimesheet ](../../timesheets/create-and-manage-timesheets/create-tmshts.md) creëren.
+Voor meer informatie over het creëren van manueel timesheet, zie [&#x200B; een enig-gebruiktimesheet &#x200B;](../../timesheets/create-and-manage-timesheets/create-tmshts.md) creëren.
 
 ## Toegangsvereisten
 
@@ -50,7 +50,7 @@ Voor meer informatie over het creëren van manueel timesheet, zie [ een enig-geb
  </tbody> 
 </table>
 
-Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -65,7 +65,7 @@ Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront
 
 >[!IMPORTANT]
 >
->Als u wijzigingen in het tijdlijnprofiel in de huidige tijdbladen wilt inschakelen, moet u de bestaande tijdbladen verwijderen voordat u de wijzigingen in de tijdlijnprofielen aanbrengt en vervolgens nieuwe tijdbladen genereren. Voor instructies, zie [ timesheets van de Schrapping in Adobe Workfront ](../../timesheets/create-and-manage-timesheets/delete-timesheets.md) en [ produceren manueel timesheets ](../../timesheets/create-and-manage-timesheets/manually-generate-timesheets.md).
+>Als u wijzigingen in het tijdlijnprofiel in de huidige tijdbladen wilt inschakelen, moet u de bestaande tijdbladen verwijderen voordat u de wijzigingen in de tijdlijnprofielen aanbrengt en vervolgens nieuwe tijdbladen genereren. Voor instructies, zie [&#x200B; timesheets van de Schrapping in Adobe Workfront &#x200B;](../../timesheets/create-and-manage-timesheets/delete-timesheets.md) en [&#x200B; produceren manueel timesheets &#x200B;](../../timesheets/create-and-manage-timesheets/manually-generate-timesheets.md).
 
 {{step-1-to-setup}}
 
@@ -112,7 +112,7 @@ Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront
 
    * **Approvers**: Approvers zijn gebruikers die timesheet voor de gebruikers goedkeuren verbonden aan timesheet. U kunt maximaal 7 gebruikers identificeren als fiatteurs op een timesheet. Het identificeren van veelvoudige gebruikers is nuttig om een fiatteur beschikbaar te verzekeren wanneer iemand uit het bureau is. Alle fiatteurs worden op de hoogte gesteld wanneer een gebruiker het tijdspad ter goedkeuring indient. Slechts één gebruiker wordt vereist om timesheet goed te keuren om het te worden goedgekeurd.
 
-     Alleen gebruikers met beheerdersrechten voor tijdschriften kunnen worden ingesteld als fiatteurs. Voor meer informatie over timesheet administratieve rechten, zie [ gebruikers administratieve toegang van de Verlening tot bepaalde gebieden ](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
+     Alleen gebruikers met beheerdersrechten voor tijdschriften kunnen worden ingesteld als fiatteurs. Voor meer informatie over timesheet administratieve rechten, zie [&#x200B; gebruikers administratieve toegang van de Verlening tot bepaalde gebieden &#x200B;](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 
      Gebruik het drop-down menu om fiatteur voor timesheet (als een fiatteur wordt vereist) te selecteren. U kunt uit de volgende opties selecteren:
 
@@ -122,7 +122,7 @@ Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront
 
    * **kan tijd** uitgeven: Selecteer deze optie om de fiatteurs toe te staan om uren op timesheet uit te geven.
 
-     Deze optie werkt samen met **beperkt timesheet het uitgeven aan eigenaars en beheert** plaatsen in de Opstelling > de Tijdopmaak &amp; het gebied van de Uren > van de Voorkeur. Voor meer informatie, zie [ timesheet en uurvoorkeur ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md) vormen.
+     Deze optie werkt samen met **beperkt timesheet het uitgeven aan eigenaars en beheert** plaatsen in de Opstelling > de Tijdopmaak &amp; het gebied van de Uren > van de Voorkeur. Voor meer informatie, zie [&#x200B; timesheet en uurvoorkeur &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md) vormen.
 
      De volgende scenario&#39;s bestaan:
 
@@ -139,7 +139,7 @@ Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront
 
      >[!NOTE]
      >
-     >Nadat u een tijdspad ter goedkeuring hebt verzonden, kunt u de uren niet meer bewerken. Om een voorgelegde timesheet aan een editable staat terug te keren, wijs timesheet terug of hebben fiatteur de timesheet verwerpen. Voor meer informatie, zie [ een timesheet voor goedkeuring ](/help/quicksilver/timesheets/create-and-manage-timesheets/submit-timesheet-for-approval.md) voorleggen en [ goedkeuren timesheet ](/help/quicksilver/timesheets/create-and-manage-timesheets/timesheet-approvals.md).
+     >Nadat u een tijdspad ter goedkeuring hebt verzonden, kunt u de uren niet meer bewerken. Om een voorgelegde timesheet aan een editable staat terug te keren, wijs timesheet terug of hebben fiatteur de timesheet verwerpen. Voor meer informatie, zie [&#x200B; een timesheet voor goedkeuring &#x200B;](/help/quicksilver/timesheets/create-and-manage-timesheets/submit-timesheet-for-approval.md) voorleggen en [&#x200B; goedkeuren timesheet &#x200B;](/help/quicksilver/timesheets/create-and-manage-timesheets/timesheet-approvals.md).
 
    * **Overtime**: U kunt verkiezen om de doos van Overuren in chronologiebladen te verbergen. Deze optie is standaard uitgeschakeld.
    * **Beschikbare Types van Uur**: Dit het plaatsen verwijst slechts naar de Algemene Types van Uur, en niet naar project-specifieke uurtypes.
@@ -148,27 +148,27 @@ Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront
 
    * **Herinneringsberichten**: Voeg een herinnering bericht toe. Workfront stuurt herinneringen naar gebruikers om hen te vragen hun tijdbladen in te vullen of goed te keuren. U moet herinneringsberichten tot stand brengen alvorens u hen met een timesheet profiel kunt associëren.
 
-1. Om het timesheet profiel met specifieke gebruikers, groepen, of (als u een beheerder van Workfront bent) teams te associëren, scrol naar de bodem van de pagina en **te vinden wijs de 1} sectie van Mensen {toe.**
+1. Om het timesheet profiel met specifieke gebruikers, groepen, of (als u een beheerder van Workfront bent) teams te associëren, scrol naar de bodem van de pagina en **te vinden wijs de 1&rbrace; sectie van Mensen &lbrace;toe.**
 
    Typ de naam van de gebruiker, groep of team en klik vervolgens op de naam wanneer deze in de vervolgkeuzelijst wordt weergegeven.
 
    <!--To associate the timesheet profile with specific users, groups, or (if you are a Workfront administrator) teams, scroll towards the bottom of the page and find the **Assign People** section.-->
 
-   Als u een groepsbeheerder bent, kunt u het timesheet-profiel toewijzen aan groepen die u beheert, maar niet aan teams. Voor meer informatie, zie [ Beperkingen voor een groepsbeheerder die een timesheet profiel ](#limitations-for-a-group-administrator-assigning-a-timesheet-profile) in dit artikel toewijst.
+   Als u een groepsbeheerder bent, kunt u het timesheet-profiel toewijzen aan groepen die u beheert, maar niet aan teams. Voor meer informatie, zie [&#x200B; Beperkingen voor een groepsbeheerder die een timesheet profiel &#x200B;](#limitations-for-a-group-administrator-assigning-a-timesheet-profile) in dit artikel toewijst.
 
    >[!NOTE]
    >
-   >* U kunt een gebruiker ook aan een tijdlijnprofiel koppelen door het gebruikersprofiel te bewerken. Voor meer informatie, zie [ het profiel van een gebruiker ](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) uitgeven.
+   >* U kunt een gebruiker ook aan een tijdlijnprofiel koppelen door het gebruikersprofiel te bewerken. Voor meer informatie, zie [&#x200B; het profiel van een gebruiker &#x200B;](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) uitgeven.
    >* Wanneer u een groep toevoegt, wordt alleen de groepsnaam weergegeven op het tabblad Personen toewijzen, niet de lijst met groepsleden. Als u de hier vermelde groepsleden wilt zien, klik sparen Veranderingen, dan klik de naam van het timesheet profiel u enkel creeerde.
    >* Wanneer u deze stappen beëindigt, produceert het timesheet profiel timesheets slechts voor de toegewezen gebruikers of groepsleden die geen bestaande timesheets voor de huidige periode hebben.
 
 1. Klik **sparen**.
 
-1. Bij de bovenkant van de lijst van het timesheet profiel, klik **Meer** pictogram ![ Meer pictogram ](assets/more-icon.png), dan klik **produceert timesheets**.
+1. Bij de bovenkant van de lijst van het timesheet profiel, klik **Meer** pictogram ![&#x200B; Meer pictogram &#x200B;](assets/more-icon.png), dan klik **produceert timesheets**.
 
    Onder aan het scherm wordt bevestigd dat tijdbladen zijn gegenereerd. Nieuwe tijdbladen worden gegenereerd op basis van de nieuwe profielen die u hebt gemaakt.
 
-   Voor meer informatie, zie [ manueel timesheets ](/help/quicksilver/timesheets/create-and-manage-timesheets/manually-generate-timesheets.md) produceren.
+   Voor meer informatie, zie [&#x200B; manueel timesheets &#x200B;](/help/quicksilver/timesheets/create-and-manage-timesheets/manually-generate-timesheets.md) produceren.
 
    De eerste keer wordt het timesheet profiel timesheets geproduceerd, twee timesheets gecreeerd voor elke gebruiker, zowel voor het timeframe dat de huidige tijd evenals voor het volgende timeframe omvat.
 
@@ -187,9 +187,9 @@ Voor deze groepen en gebruikers, zult u geen toegang tot timesheets hebben die h
 
 Als de optie Gebruikersbeheer (Groepgebruikers) ook is uitgeschakeld in uw toegangsniveau, kunt u het tijdbladprofiel toewijzen aan een groep die u beheert, maar dit heeft alleen invloed op de gebruikers in de groep die u toegang hebt om te bewerken. Als de groep gebruikers bevat die u geen toegang hebt om te bewerken, wordt aan deze gebruikers niet het tijdbladprofiel en de rest van de groep toegewezen.
 
-Voor informatie over de optiesTijdopnemers &amp; uren in uw toegangsniveau, zie [ gebruikers administratieve toegang van de Verlening tot bepaalde gebieden ](../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
+Voor informatie over de optiesTijdopnemers &amp; uren in uw toegangsniveau, zie [&#x200B; gebruikers administratieve toegang van de Verlening tot bepaalde gebieden &#x200B;](../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 
-Voor informatie over de optieGebruiker Admin (de Gebruikers van de Groep) in uw toegangsniveau, zie [ Toegang van de Verlening tot gebruikers ](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
+Voor informatie over de optieGebruiker Admin (de Gebruikers van de Groep) in uw toegangsniveau, zie [&#x200B; Toegang van de Verlening tot gebruikers &#x200B;](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 
 ## Meerdere terugkerende tijdbladprofielen
 

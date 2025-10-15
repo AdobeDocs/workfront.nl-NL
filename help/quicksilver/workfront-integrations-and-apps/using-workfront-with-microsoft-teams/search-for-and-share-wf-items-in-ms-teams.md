@@ -17,9 +17,9 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Als [ Microsoft overgangen aan de Nieuwe cliënt van Teams ](https://learn.microsoft.com/en-us/microsoftteams/teams-classic-client-end-of-availability), zal de Klassieke cliënt van Teams niet meer beschikbaar na 1 Juli, 2025 zijn. Als u Microsoft Teams en geïntegreerde toepassingen zoals Workfront wilt blijven gebruiken, moeten klanten vóór deze datum overstappen naar de New Teams-client.
+>Als [&#x200B; Microsoft overgangen aan de Nieuwe cliënt van Teams &#x200B;](https://learn.microsoft.com/en-us/microsoftteams/teams-classic-client-end-of-availability), zal de Klassieke cliënt van Teams niet meer beschikbaar na 1 Juli, 2025 zijn. Als u Microsoft Teams en geïntegreerde toepassingen zoals Workfront wilt blijven gebruiken, moeten klanten vóór deze datum overstappen naar de New Teams-client.
 >
->De bijgewerkte Workfront-integratie is nu beschikbaar en volledig compatibel met de New Teams-ervaring. In de meeste gevallen wordt Workfront automatisch weergegeven wanneer gebruikers een overgang hebben gemaakt. Als dit niet het geval is, kan de integratie handmatig worden geïnstalleerd vanaf de Microsoft Teams App Store. Om de integratie van Workfront in de Nieuwe cliënt van Teams te installeren of te verifiëren, zie [  [!DNL Adobe Workfront]  installeren voor Microsoft Teams ](/help/quicksilver/workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md).
+>De bijgewerkte Workfront-integratie is nu beschikbaar en volledig compatibel met de New Teams-ervaring. In de meeste gevallen wordt Workfront automatisch weergegeven wanneer gebruikers een overgang hebben gemaakt. Als dit niet het geval is, kan de integratie handmatig worden geïnstalleerd vanaf de Microsoft Teams App Store. Om de integratie van Workfront in de Nieuwe cliënt van Teams te installeren of te verifiëren, zie [&#x200B;  [!DNL Adobe Workfront]  installeren voor Microsoft Teams &#x200B;](/help/quicksilver/workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md).
 
 U kunt zoeken naar [!DNL Workfront] -items in elk [!DNL Adobe Workfront] kanaal in [!DNL Microsoft Teams] en deze items delen met leden van uw teams.
 
@@ -48,7 +48,7 @@ U kunt zoeken naar [!DNL Workfront] -items in elk [!DNL Adobe Workfront] kanaal 
  </tbody> 
 </table>
 
-Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -59,7 +59,7 @@ U kunt [!DNL Workfront] -items zoeken en delen in [!DNL Microsoft Teams] als aan
 * Een teameigenaar heeft [!DNL Workfront for Microsoft Teams] voor uw team geïnstalleerd en geconfigureerd.
 * U bent aangemeld bij [!DNL Workfront] vanuit [!UICONTROL Microsoft Teams] .
 
-Voor informatie over het installeren van [!UICONTROL Workfront for Microsoft Teams] en het programma openen aan [!UICONTROL Workfront] van [!DNL Microsoft Teams], zie [ Adobe Workfront voor Microsoft Teams installeren ](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md).
+Voor informatie over het installeren van [!UICONTROL Workfront for Microsoft Teams] en het programma openen aan [!UICONTROL Workfront] van [!DNL Microsoft Teams], zie [&#x200B; Adobe Workfront voor Microsoft Teams installeren &#x200B;](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md).
 
 >[!NOTE]
 >
@@ -88,17 +88,17 @@ U kunt als volgt een [!DNL Workfront] -item uit [!DNL Microsoft Teams] zoeken en
 
    * Klik op het pictogram [!DNL Workfront] onder het gespreksveld.\
 
-     ![ ms_teams_workfront_pinned_icon_highlight.png ](assets/ms-teams-workfront-pinned-icon-highlight-350x69.png)\
+     ![&#x200B; ms_teams_workfront_pinned_icon_highlight.png &#x200B;](assets/ms-teams-workfront-pinned-icon-highlight-350x69.png)\
       Afhankelijk van uw instellingen wordt dit pictogram mogelijk onder het pictogram **[!UICONTROL More]** weergegeven.\
-      ![ more_icon.png ](assets/more-icon-52x34.png)\
+      ![&#x200B; more_icon.png &#x200B;](assets/more-icon-52x34.png)\
       Het vak **[!UICONTROL Search]** wordt standaard weergegeven.
 
    * Typ *@[!DNL Workfront]* vanuit een willekeurig kanaal, selecteer Workfront en selecteer vervolgens **[!UICONTROL Search].**
 
-     ![ ms_teams_search_from_command.png ](assets/ms-teams-search-from-command-350x74.png)
+     ![&#x200B; ms_teams_search_from_command.png &#x200B;](assets/ms-teams-search-from-command-350x74.png)
 
 1. Typ in het tekstvak [!UICONTROL search] de naam of het referentienummer van een project, taak of uitgave en klik op de naam wanneer deze in de lijst wordt weergegeven.\
-   ![ ms_teams_finding_for_items.png ](assets/ms-teams-searching-for-items-350x359.png)\
+   ![&#x200B; ms_teams_finding_for_items.png &#x200B;](assets/ms-teams-searching-for-items-350x359.png)\
    Hiermee wordt een kaart toegevoegd met het [!DNL Workfront] -item in het chatveld. Sommige informatie over het item is op de kaart opgenomen, zoals de naam van het item, het bovenliggende object, de status, de prioriteit en het percentage dat is voltooid.
 
 1. (Optioneel) Voeg een opmerking toe onder de [!DNL Workfront] -kaart en klik vervolgens op **[!UICONTROL Send]** of druk op Enter.\

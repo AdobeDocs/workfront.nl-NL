@@ -19,7 +19,7 @@ ht-degree: 0%
 
 {{important-admin-console-onboard}}
 
-Nadat u SSO (Single Sign-On) in Adobe Workfront hebt gedeactiveerd, moeten gebruikers zich aanmelden met hun Workfront-gegevens. Dit zijn de referenties die de gebruiker oorspronkelijk heeft ingesteld. (Als u gebruikersgeloofsbrieven moet veranderen, zie [ het profiel van een gebruiker ](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) uitgeven.)
+Nadat u SSO (Single Sign-On) in Adobe Workfront hebt gedeactiveerd, moeten gebruikers zich aanmelden met hun Workfront-gegevens. Dit zijn de referenties die de gebruiker oorspronkelijk heeft ingesteld. (Als u gebruikersgeloofsbrieven moet veranderen, zie [&#x200B; het profiel van een gebruiker &#x200B;](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) uitgeven.)
 
 
 ## Toegangsvereisten
@@ -45,7 +45,7 @@ Nadat u SSO (Single Sign-On) in Adobe Workfront hebt gedeactiveerd, moeten gebru
  </tbody> 
 </table>
 
-Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

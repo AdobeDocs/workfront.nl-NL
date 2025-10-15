@@ -25,7 +25,7 @@ ht-degree: 0%
 >Uw bedrijf zou kunnen verkiezen om de Doelen van Adobe Workfront verder te gebruiken als zij dit pakket in het verleden kochten. U moet voor meer informatie contact opnemen met uw accountvertegenwoordiger.
 >
 >Adobe Workfront Goals kan niet meer worden aangeschaft.
->>Voor extra informatie over toegang tot de Doelen van Workfront, zie [ Vereisten om de Doelen van Workfront ](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md) te gebruiken.
+>&#x200B;>Voor extra informatie over toegang tot de Doelen van Workfront, zie [&#x200B; Vereisten om de Doelen van Workfront &#x200B;](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md) te gebruiken.
 
 <!--Old:
 >[!NOTE]
@@ -49,8 +49,8 @@ Het verzekeren dat alle doelstellingen in uw onderneming van om het even welk ni
 
 In de volgende artikelen vindt u meer informatie over het uitlijnen van doelen in Adobe Workfront:
 
-* [ Goal groeperingsoverzicht in de Doelen van Adobe Workfront ](../../workfront-goals/goal-alignment/goal-alignment-overview.md)
-* [ richt doelstellingen door hen in de Doelen van Adobe Workfront te verbinden ](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md)
-* [ richt doelstellingen door resultaten en activiteiten in doelstellingen om te zetten ](../../workfront-goals/goal-alignment/align-goals-by-converting-results-activities.md)
-* [ verwijder doelgroepering in de Doelen van Adobe Workfront ](../../workfront-goals/goal-alignment/remove-goal-alignment.md)
+* [&#x200B; Goal groeperingsoverzicht in de Doelen van Adobe Workfront &#x200B;](../../workfront-goals/goal-alignment/goal-alignment-overview.md)
+* [&#x200B; richt doelstellingen door hen in de Doelen van Adobe Workfront te verbinden &#x200B;](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md)
+* [&#x200B; richt doelstellingen door resultaten en activiteiten in doelstellingen om te zetten &#x200B;](../../workfront-goals/goal-alignment/align-goals-by-converting-results-activities.md)
+* [&#x200B; verwijder doelgroepering in de Doelen van Adobe Workfront &#x200B;](../../workfront-goals/goal-alignment/remove-goal-alignment.md)
 * [Navigeren in de sectie Goal Alignment in Adobe Workfront Goals](../../workfront-goals/goal-alignment/navigate-goal-alignment-chart.md)

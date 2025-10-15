@@ -54,7 +54,7 @@ Wanneer u een document verplaatst, worden ook de volgende elementen verplaatst m
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -63,7 +63,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 1. Ga naar het project, de taak, of de kwestie die het document bevat, dan selecteren **Documenten**.
 1. Zoek het document dat u nodig hebt.
 
-1. Klik het **pictogram van de Beweging** van de Beweging ![ ](assets/move-document--25x19.png) pictogram.
+1. Klik het **pictogram van de Beweging** van de Beweging ![&#x200B; &#x200B;](assets/move-document--25x19.png) pictogram.
 1. Van het drop-down menu in de doos die verschijnt, klik **Uitgeven**, **Project** of **Taak** om op het type van voorwerp te wijzen waar u het document wilt bewegen. 
 
 1. Typ de naam van de **Uitgave**, **Project** of **Taak** in het tekstvakje.

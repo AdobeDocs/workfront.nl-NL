@@ -47,7 +47,7 @@ U kunt het rapport voor proefdrukgoedkeuring gebruiken om informatie weer te gev
  </tbody> 
 </table>
 
-Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -57,7 +57,7 @@ Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront
 
 1. Klik **Nieuw Rapport**, dan rol om **Goedkeuring van het Bewijs** te selecteren.
 
-   ![ rapport van de Goedkeuring van het Bewijs ](assets/proof-approval-report.png)
+   ![&#x200B; rapport van de Goedkeuring van het Bewijs &#x200B;](assets/proof-approval-report.png)
 
 1. (Optioneel) Voeg aanvullende velden toe.
 1. Klik **sparen + Sluiten**.

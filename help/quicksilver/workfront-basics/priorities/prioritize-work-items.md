@@ -51,7 +51,7 @@ Prioriteiten geven de werkitems weer die aan u zijn toegewezen. U kunt geen werk
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -69,7 +69,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
    | **Normaal** | Normaal is voor routinematige werkitems waaraan u zult werken nadat de items Dringend en Hoge prioriteit zijn voltooid. Dit is de standaardinstelling voor taken en problemen. |
    | **Laag** | Laag is voor het werkpunten die geen directe aandacht nodig hebben en kan worden uitgesteld tot alle hoger-prioritaire het werkpunten worden gedaan. |
 
-   ![ Mijn Focus ](assets/my-focus-new.png)
+   ![&#x200B; Mijn Focus &#x200B;](assets/my-focus-new.png)
 
    >[!TIP]
    >

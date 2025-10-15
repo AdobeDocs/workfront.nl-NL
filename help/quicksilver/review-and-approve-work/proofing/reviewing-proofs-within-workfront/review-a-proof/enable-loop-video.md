@@ -48,7 +48,7 @@ U kunt de video zo configureren dat deze continu wordt afgespeeld (de video word
  </tbody> 
 </table>
 
-Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -59,6 +59,6 @@ Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront
 
 1. In de laag-juiste hoek van de het proef kijker, klik het **pictogram van Montages**.
 
-   ![ phq_viewer_video_playbackspeed__3_.png ](assets/phq-viewer-video-playbackspeed--3-.png)
+   ![&#x200B; phq_viewer_video_playbackspeed__3_.png &#x200B;](assets/phq-viewer-video-playbackspeed--3-.png)
 
 1. Laat de **optie van de Lijn** toe.

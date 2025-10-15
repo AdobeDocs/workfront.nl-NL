@@ -19,12 +19,12 @@ ht-degree: 0%
 
 Deze sectie bevat de volgende artikelen:
 
-* [ Overzicht van taakvoordecessors ](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md)
-* [ creeer een voorgangersverhouding op de taaklijst ](../../../manage-work/tasks/use-prdcssrs/create-predecessors-on-task-list.md)
-* [ creeer een voorgangersverhouding gebruikend het gebied van Voorgangers ](../../../manage-work/tasks/use-prdcssrs/create-predecessors-in-predecessors-area.md)
-* [ creeer predecessor verhoudingen door taken te ketenen ](../../../manage-work/tasks/use-prdcssrs/create-predecessors-by-chaining-tasks.md)
-* [ creeer dwars-project predecessors ](../../../manage-work/tasks/use-prdcssrs/cross-project-predecessors.md)
-* [ Overzicht van de types van taakgebiedsdeel ](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md)
-* [ dwingen predecessors ](../../../manage-work/tasks/use-prdcssrs/enforced-predecessors.md)
-* [ overzicht van de Types van Lag ](../../../manage-work/tasks/use-prdcssrs/lag-types.md)
+* [&#x200B; Overzicht van taakvoordecessors &#x200B;](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md)
+* [&#x200B; creeer een voorgangersverhouding op de taaklijst &#x200B;](../../../manage-work/tasks/use-prdcssrs/create-predecessors-on-task-list.md)
+* [&#x200B; creeer een voorgangersverhouding gebruikend het gebied van Voorgangers &#x200B;](../../../manage-work/tasks/use-prdcssrs/create-predecessors-in-predecessors-area.md)
+* [&#x200B; creeer predecessor verhoudingen door taken te ketenen &#x200B;](../../../manage-work/tasks/use-prdcssrs/create-predecessors-by-chaining-tasks.md)
+* [&#x200B; creeer dwars-project predecessors &#x200B;](../../../manage-work/tasks/use-prdcssrs/cross-project-predecessors.md)
+* [&#x200B; Overzicht van de types van taakgebiedsdeel &#x200B;](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md)
+* [&#x200B; dwingen predecessors &#x200B;](../../../manage-work/tasks/use-prdcssrs/enforced-predecessors.md)
+* [&#x200B; overzicht van de Types van Lag &#x200B;](../../../manage-work/tasks/use-prdcssrs/lag-types.md)
 * [Overzicht van taakafhankelijkheidslus](../../../manage-work/tasks/use-prdcssrs/dependency-loop-overview.md)

@@ -46,7 +46,7 @@ Documenten kunnen in mappen worden ingedeeld. U kunt persoonlijke mappen maken i
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -62,7 +62,7 @@ Met een open voorwerp van Workfront, klik **Documenten** in het linkerpaneel.
 
 1. Klik op de weergaveopties boven het rechterdeelvenster om de weergave van de documenten te wijzigen.
 
-   ![ de meningsopties van het Document ](assets/screenshot-2016-07-07-12.46.54.png)
+   ![&#x200B; de meningsopties van het Document &#x200B;](assets/screenshot-2016-07-07-12.46.54.png)
 
 ## Mappen en submappen maken
 
@@ -82,4 +82,4 @@ Met een open voorwerp van Workfront, klik **Documenten** in het linkerpaneel.
 
 ## Mappen delen
 
-Voor informatie over het delen van omslagen, zie [ een documentomslag ](../../workfront-basics/grant-and-request-access-to-objects/share-a-document-folder.md) delen.
+Voor informatie over het delen van omslagen, zie [&#x200B; een documentomslag &#x200B;](../../workfront-basics/grant-and-request-access-to-objects/share-a-document-folder.md) delen.

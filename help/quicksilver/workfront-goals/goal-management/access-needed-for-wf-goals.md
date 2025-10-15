@@ -22,15 +22,15 @@ Uw Adobe Workfront-beheerder moet ervoor zorgen dat aan alle volgende voorwaarde
 
 * Uw organisatie heeft in het verleden een pakket Adobe Workfront Goals aangeschaft. Adobe Workfront Goals kan niet meer worden aangeschaft.
 
-  Voor meer informatie, zie de sectie [ de organisatietoegang van de Doelen van Workfront ](#obtain-workfront-goals-organization-access) in dit artikel verkrijgen.
+  Voor meer informatie, zie de sectie [&#x200B; de organisatietoegang van de Doelen van Workfront &#x200B;](#obtain-workfront-goals-organization-access) in dit artikel verkrijgen.
 
-* Wijs het juiste type Workfront-licentie toe. Voor informatie over het toewijzen van licentietypen en toegangsniveaus, zie de de licentietypen van de sectie [ Update en de montages van het toegangsniveau ](#update-license-types-and-access-level-settings) in dit artikel.
+* Wijs het juiste type Workfront-licentie toe. Voor informatie over het toewijzen van licentietypen en toegangsniveaus, zie de de licentietypen van de sectie [&#x200B; Update en de montages van het toegangsniveau &#x200B;](#update-license-types-and-access-level-settings) in dit artikel.
 
   >[!NOTE]
   >
   >Gebruikers met een extern licentietype hebben geen toegang tot Workfront Goals.
 
-* Geef u toegang tot Doelstellingen in uw toegangsniveau. Voor informatie, zie [ Toegang verlenen tot de Doelen van Adobe Workfront ](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md)
+* Geef u toegang tot Doelstellingen in uw toegangsniveau. Voor informatie, zie [&#x200B; Toegang verlenen tot de Doelen van Adobe Workfront &#x200B;](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md)
 
   >[!NOTE]
   >
@@ -43,11 +43,11 @@ Uw Adobe Workfront-beheerder moet ervoor zorgen dat aan alle volgende voorwaarde
   >
   >Aan alle gebruikers, inclusief Systeembeheerders, moet een lay-outsjabloon worden toegewezen die het gebied Doelen in het hoofdmenu bevat.
 
-  Voor informatie zie de sectie [ de Doelen van Workfront aan een lay-outmalplaatje ](#add-workfront-goals-to-a-layout-template) in dit artikel toevoegen.
+  Voor informatie zie de sectie [&#x200B; de Doelen van Workfront aan een lay-outmalplaatje &#x200B;](#add-workfront-goals-to-a-layout-template) in dit artikel toevoegen.
 
 * Als u doelstellingen moet wijzigen die u niet zelf creeerde, moet de doelschepper de doelstellingen met u delen en u geeft beheertoestemmingen aan hen.
 
-  Voor informatie, zie de sectie [ individuele doelstellingen van het Aandeel met andere gebruikers ](#share-individual-goals-with-other-users) in dit artikel.
+  Voor informatie, zie de sectie [&#x200B; individuele doelstellingen van het Aandeel met andere gebruikers &#x200B;](#share-individual-goals-with-other-users) in dit artikel.
 
 ## Toegang verkrijgen tot Workfront Goals organisatie {#obtain-workfront-goals-organization-access}
 
@@ -94,9 +94,9 @@ Als uw bedrijf toegang heeft tot Workfront Goals van een eerdere aankoop, moet u
 
    * De mening of de hogere toegang tot Doelen in uw toegangsniveau.
 
-   Voor informatie over toegang tot Doelen, zie [ Toegang van de Verlening tot de Doelen van Adobe Workfront ](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md).
+   Voor informatie over toegang tot Doelen, zie [&#x200B; Toegang van de Verlening tot de Doelen van Adobe Workfront &#x200B;](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md).
 
-Als Workfront-beheerder kunt u het aantal licenties voor Workfront Goals in uw systeem controleren en begrijpen hoeveel licenties er momenteel zijn ingeschakeld. Voor meer informatie, zie [ beschikbare vergunningen in uw systeem ](../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md) beheren.
+Als Workfront-beheerder kunt u het aantal licenties voor Workfront Goals in uw systeem controleren en begrijpen hoeveel licenties er momenteel zijn ingeschakeld. Voor meer informatie, zie [&#x200B; beschikbare vergunningen in uw systeem &#x200B;](../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md) beheren.
 
 >[!NOTE]
 >
@@ -106,7 +106,7 @@ Als Workfront-beheerder kunt u het aantal licenties voor Workfront Goals in uw s
 
 Uw Workfront- of groepsbeheerder moet u een lay-outsjabloon toewijzen die het gebied Doelen in het hoofdmenu bevat, zodat u toegang kunt krijgen tot de doelen van Workfront.
 
-![ malplaatje van de Lay-out ](assets/layout-template-align-highlighted-350x220.png)
+![&#x200B; malplaatje van de Lay-out &#x200B;](assets/layout-template-align-highlighted-350x220.png)
 
 Uw Workfront-beheerder of groepsbeheerder kan ook het volgende toevoegen aan uw lay-outsjabloon, zodat u eenvoudig toegang hebt tot Workfront Goals:
 
@@ -115,10 +115,10 @@ Uw Workfront-beheerder of groepsbeheerder kan ook het volgende toevoegen aan uw 
 
 Zie de volgende artikelen voor informatie over het bijwerken van de Lay-outsjabloon:
 
-* [ creeer en beheer lay-outmalplaatjes ](../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)
-* [ pas het Belangrijkste Menu aan gebruikend een lay-outmalplaatje ](../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md)
-* [ pas vastgezette pagina&#39;s gebruikend een lay-outmalplaatje ](../../administration-and-setup/customize-workfront/use-layout-templates/customize-pinned-pages.md) aan
-* [ pas de het landen pagina gebruikend een lay-outmalplaatje ](../../administration-and-setup/customize-workfront/use-layout-templates/customize-landing-page.md) aan
+* [&#x200B; creeer en beheer lay-outmalplaatjes &#x200B;](../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)
+* [&#x200B; pas het Belangrijkste Menu aan gebruikend een lay-outmalplaatje &#x200B;](../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md)
+* [&#x200B; pas vastgezette pagina&#39;s gebruikend een lay-outmalplaatje &#x200B;](../../administration-and-setup/customize-workfront/use-layout-templates/customize-pinned-pages.md) aan
+* [&#x200B; pas de het landen pagina gebruikend een lay-outmalplaatje &#x200B;](../../administration-and-setup/customize-workfront/use-layout-templates/customize-landing-page.md) aan
 * [Gebruikers toewijzen aan een lay-outsjabloon](../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md)
 
 ## Individuele doelstellingen delen met andere gebruikers {#share-individual-goals-with-other-users}
@@ -127,4 +127,4 @@ Door gebrek, kunnen alle gebruikers die minstens de toegang van de Mening tot Do
 
 Om het even welke gebruiker met Edit toegang tot Doelen kan doelstellingen tot stand brengen en zij krijgen automatisch Manage toegang tot de doelstellingen zij creëren. Als zij de doelstellingen van andere gebruikers moeten uitgeven, moet iemand met Manage toestemmingen aan die doelstellingen met hen delen de doelstellingen zij niet creeerden.
 
-Voor informatie over het delen van doelstellingen met gebruikers en het geven van hen leiden toestemmingen, zie [ een doel in de Doelen van Workfront delen ](../../workfront-goals/workfront-goals-settings/share-a-goal.md).
+Voor informatie over het delen van doelstellingen met gebruikers en het geven van hen leiden toestemmingen, zie [&#x200B; een doel in de Doelen van Workfront delen &#x200B;](../../workfront-goals/workfront-goals-settings/share-a-goal.md).

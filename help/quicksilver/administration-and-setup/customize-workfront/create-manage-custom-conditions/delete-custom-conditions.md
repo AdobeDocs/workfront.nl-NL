@@ -43,7 +43,7 @@ U kunt een aangepaste voorwaarde verwijderen als deze niet meer nodig is.
  </tbody> 
 </table>
 
-Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -66,4 +66,4 @@ Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront
 >
 >U kunt niet de ingebouwde voorwaarden schrappen, die op Doel, op Risico, en in Problemen zijn. U kunt de namen en kleuren van de bestanden echter wijzigen.
 >
->Voor informatie over het uitgeven van douanevoorwaarden, zie [ een douanevoorwaarde ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md) creëren of uitgeven.
+>Voor informatie over het uitgeven van douanevoorwaarden, zie [&#x200B; een douanevoorwaarde &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md) creëren of uitgeven.

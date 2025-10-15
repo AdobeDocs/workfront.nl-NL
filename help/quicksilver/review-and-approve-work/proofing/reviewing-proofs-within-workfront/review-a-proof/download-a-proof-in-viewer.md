@@ -48,7 +48,7 @@ U kunt bestanden downloaden van een bestaande proefdruk. Opmerkingen en andere i
  </tbody> 
 </table>
 
-Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -58,6 +58,6 @@ Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront
 1. Vind de proef u nodig hebt, dan klik **Open proef**.
 
 1. In de toolbar op de linkerzijde van de het proefKijker, klik de **knoop van de Download**.\
-   ![ Proofing_Viewer_toolbar_button_-_Download.png ](assets/proofing-viewer-toolbar-button---download.png)
+   ![&#x200B; Proofing_Viewer_toolbar_button_-_Download.png &#x200B;](assets/proofing-viewer-toolbar-button---download.png)
 
 1. Blader naar de plaats op uw dossiersysteem waar u de proef wilt downloaden, dan klik **sparen**.

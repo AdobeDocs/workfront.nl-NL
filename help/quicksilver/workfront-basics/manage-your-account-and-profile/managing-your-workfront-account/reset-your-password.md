@@ -21,7 +21,7 @@ U kunt het wachtwoord van [!DNL Adobe Workfront] opnieuw instellen. Als belangri
 
 >[!NOTE]
 >
->Een [!DNL Workfront] beheerder kan de beperkingen van het douanewachtwoord vormen, zoals die in [ worden verklaard vormt de voorkeur van de systeemveiligheid ](../../../administration-and-setup/manage-workfront/security/configure-security-preferences.md) en [ vormt wachtwoordbeleid voor authentificatie ](../../../administration-and-setup/manage-workfront/security/configure-password-policies-authentication.md).
+>Een [!DNL Workfront] beheerder kan de beperkingen van het douanewachtwoord vormen, zoals die in [&#x200B; worden verklaard vormt de voorkeur van de systeemveiligheid &#x200B;](../../../administration-and-setup/manage-workfront/security/configure-security-preferences.md) en [&#x200B; vormt wachtwoordbeleid voor authentificatie &#x200B;](../../../administration-and-setup/manage-workfront/security/configure-password-policies-authentication.md).
 >
 ><!-- [!DNL Workfront] administrator can also reset your password in an Enhanced Authentication enabled environment. For more information, see [Reset a user's password with Enhanced Authentication](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/reset-user-password-eauth.md).-->
 
@@ -46,7 +46,7 @@ U kunt het wachtwoord van [!DNL Adobe Workfront] opnieuw instellen. Als belangri
  </tbody> 
 </table>
 
-Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -54,13 +54,13 @@ Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront
 
 {{step1-click-profile-pic}}
 
-![ open het belangrijkste menu en selecteer uw gebruikersnaam.](assets/main-menu-options-350x481.png)
+![&#x200B; open het belangrijkste menu en selecteer uw gebruikersnaam.](assets/main-menu-options-350x481.png)
 
-1. Klik **[!UICONTROL More menu]** ![ Meer pictogram ](assets/more-icon.png), dan klik **[!UICONTROL Edit]**.
+1. Klik **[!UICONTROL More menu]** ![&#x200B; Meer pictogram &#x200B;](assets/more-icon.png), dan klik **[!UICONTROL Edit]**.
 
 1. Klik onder **[!UICONTROL Edit Person]** in het vak **[!UICONTROL Personal Info]** dat wordt weergegeven op **[!UICONTROL Change password]** .
 
-   ![ klik het wachtwoord van de Verandering ](assets/edit-user-change-password.png)
+   ![&#x200B; klik het wachtwoord van de Verandering &#x200B;](assets/edit-user-change-password.png)
 
    Als uw organisatie [!DNL Workfront] met een oplossing SSO heeft geïntegreerd, kunt u worden verpletterd om uw wachtwoorden door uw SSO systeem terug te stellen wanneer u **[!UICONTROL Change password]** klikt. Hiermee wordt uw SSO-wachtwoord opnieuw ingesteld, wat invloed heeft op het aanmelden bij al uw andere toepassingen binnen uw organisatie.
 

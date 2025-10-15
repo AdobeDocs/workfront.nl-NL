@@ -27,10 +27,10 @@ Daarnaast kunt u de Gantt-grafiek gebruiken om een tijdlijn van uw werk te defin
 
 Deze sectie bevat de volgende subsecties:
 
-* [ Projecten: artikelindex ](../manage-work/projects/projects-overview.md)
-* [ Taken: artikelindex ](../manage-work/tasks/tasks-overview.md)
-* [ Kwesties: artikelindex ](../manage-work/issues/issues-overview.md)
-* [ de Grafiek van Gantt ](../manage-work/gantt-chart/the-gantt-chart.md)
-* [ het Beheer van Portfolio ](../manage-work/portfolios/portfolio-management-overview.md)
+* [&#x200B; Projecten: artikelindex &#x200B;](../manage-work/projects/projects-overview.md)
+* [&#x200B; Taken: artikelindex &#x200B;](../manage-work/tasks/tasks-overview.md)
+* [&#x200B; Kwesties: artikelindex &#x200B;](../manage-work/issues/issues-overview.md)
+* [&#x200B; de Grafiek van Gantt &#x200B;](../manage-work/gantt-chart/the-gantt-chart.md)
+* [&#x200B; het Beheer van Portfolio &#x200B;](../manage-work/portfolios/portfolio-management-overview.md)
 * [Verzoeken](../manage-work/requests/requests-overview.md)
 * [Werk delegeren](../manage-work/delegate-work/delegate-work.md)

@@ -31,7 +31,7 @@ Afhankelijk van het toegangsniveau dat u in [!DNL Workfront] hebt, kunt u sommig
 
 Afhankelijk van het toegangsniveau dat u hebt, kunt u secties in uw [!UICONTROL My Settings] -gebied al dan niet bewerken.
 
-Sommige gebieden in editable secties kunnen niet worden uitgegeven, afhankelijk van andere montages die al dan niet in uw toegangsniveau zouden kunnen worden gevormd. Voor meer informatie over extra toegang nodig voor het uitgeven van sommige gebieden u in [!UICONTROL My Settings] vindt, zie de secties in [ het Vormen van het [!UICONTROL My Settings] gebied ](#configuring-the-my-settings-area).
+Sommige gebieden in editable secties kunnen niet worden uitgegeven, afhankelijk van andere montages die al dan niet in uw toegangsniveau zouden kunnen worden gevormd. Voor meer informatie over extra toegang nodig voor het uitgeven van sommige gebieden u in [!UICONTROL My Settings] vindt, zie de secties in [&#x200B; het Vormen van het [!UICONTROL My Settings] gebied &#x200B;](#configuring-the-my-settings-area).
 
 Neem contact op met de [!DNL Workfront] -beheerder als u wilt weten welk toegangsniveau u hebt.
 
@@ -200,7 +200,7 @@ In het volgende raster ziet u welke secties in het [!UICONTROL My Settings] -geb
 
 {{step1-click-profile-pic}}
 
-1. Klik het **[!UICONTROL More]** menu naast uw naam ![ Meer menu ](assets/more-icon.png), dan klik **[!UICONTROL Edit]**.
+1. Klik het **[!UICONTROL More]** menu naast uw naam ![&#x200B; Meer menu &#x200B;](assets/more-icon.png), dan klik **[!UICONTROL Edit]**.
 
 1. Afhankelijk van uw toegangsniveau, kunt u de volgende secties bijwerken:
 
@@ -254,7 +254,7 @@ In deze subsectie kunt u de volgende opties wijzigen:
    <td> Als uw [!DNL Workfront] -beheerder een SSO-integratie met [!DNL Workfront] heeft ingeschakeld, wordt de gebruikersnaam van de SSO in dit veld weergegeven. Het type SSO-configuratie dat voor uw [!DNL Workfront] -instantie is ingeschakeld, is zichtbaar in dit veld.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>(Voorwaardelijk) [!UICONTROL Only Allow <SSO Configuration> Authentication]</strong></td> 
+   <td role="rowheader"><strong>(Voorwaardelijk) [!UICONTROL Only Allow &lt;SSO Configuration> Authentication]</strong></td> 
    <td> <p> Als uw [!DNL Workfront] -beheerder een SSO-integratie met [!DNL Workfront] heeft ingeschakeld en gebruikers voor SSO heeft bijgewerkt, wordt dit veld standaard geselecteerd. Het type SSO-configuratie dat voor uw [!DNL Workfront] -instantie is ingeschakeld, is zichtbaar in dit veld.</p> <p>Als dit veld is geselecteerd, moet u zich aanmelden bij [!DNL Workfront] met uw SSO-referenties. Als u de optie uitschakelt, kunt u zich aanmelden bij [!DNL Workfront] met uw [!DNL Workfront] -referenties.</p> <p>Voor meer informatie over het vormen [!DNL Workfront] met een oplossing SSO, zie <a href="../../../administration-and-setup/add-users/single-sign-on/single-sign-on.md" class="MCXref xref"> Enige sign-on in [!DNL Workfront]: artikelindex </a>. Voor meer informatie over het bijwerken van gebruikers voor SSO, zie <a href="../../../administration-and-setup/add-users/single-sign-on/update-users-sso.md" class="MCXref xref"> de gebruikers van de Update voor enig teken-op </a>.</p> </td> 
   </tr>
  </tbody> 
@@ -355,7 +355,7 @@ In deze subsectie kunt u de volgende opties wijzigen:
 
 ### [!UICONTROL Notifications]
 
-Geef op welke meldingen u wilt ontvangen van [!DNL Workfront] . Voor meer informatie over het vormen van berichten, zie [ uw eigen e-mailberichten wijzigen ](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+Geef op welke meldingen u wilt ontvangen van [!DNL Workfront] . Voor meer informatie over het vormen van berichten, zie [&#x200B; uw eigen e-mailberichten wijzigen &#x200B;](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 ### [!UICONTROL Access]
 
@@ -522,7 +522,7 @@ U moet over een van de volgende toegangsrechten of machtigingen beschikken om ee
 
 Alle gebruikers kunnen aangepaste formulieren zien die zijn gekoppeld aan hun profielen.
 
-Uw [!DNL Workfront] -beheerder moet aangepaste formulieren voor het gebruikersobject configureren, zodat u een aangepast formulier aan uw gebruikersprofiel kunt koppelen. Voor meer informatie over het creëren van douaneformulieren, zie [ een douaneformulier ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren.
+Uw [!DNL Workfront] -beheerder moet aangepaste formulieren voor het gebruikersobject configureren, zodat u een aangepast formulier aan uw gebruikersprofiel kunt koppelen. Voor meer informatie over het creëren van douaneformulieren, zie [&#x200B; een douaneformulier &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren.
 
 ### [!UICONTROL Comment]
 

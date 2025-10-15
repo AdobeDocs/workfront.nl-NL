@@ -46,7 +46,7 @@ U kunt een aangepast formulier toevoegen aan een document of aan een documentver
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -61,20 +61,20 @@ Een aangepast formulier toevoegen aan een document:
 1. Ga naar het project, de taak, of de kwestie die het document bevat, dan selecteren **Documenten**.
 1. Zoek het document dat u nodig hebt.
 
-1. Klik het **Summiere** pictogram van de Samenvatting ![ ](assets/summary-panel-icon.png), dan vind de **sectie van Details**.
+1. Klik het **Summiere** pictogram van de Samenvatting ![&#x200B; &#x200B;](assets/summary-panel-icon.png), dan vind de **sectie van Details**.
 1. In **voeg douanevorm** doos toe, begin typend en selecteer een douanevorm. Het formulier wordt automatisch in het document opgeslagen.
 
    >[!NOTE]
    >
-   >Alleen actieve aangepaste formulieren worden weergegeven in de vervolgkeuzelijst. U kunt maximaal 10 aangepaste formulieren per document toevoegen. Als u een douaneformulier moet creëren, zie [ een douaneformulier ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren.
+   >Alleen actieve aangepaste formulieren worden weergegeven in de vervolgkeuzelijst. U kunt maximaal 10 aangepaste formulieren per document toevoegen. Als u een douaneformulier moet creëren, zie [&#x200B; een douaneformulier &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren.
 
 ## Een aangepast formulier bewerken
 
 1. Ga naar het project, de taak, of de kwestie die het document bevat, dan selecteren **Documenten**.
 1. Zoek het document dat u nodig hebt.
 
-1. Klik het **Summiere** pictogram van de Samenvatting ![ ](assets/summary-panel-icon.png), dan vind de **sectie van Details** dichtbij de bovenkant.
+1. Klik het **Summiere** pictogram van de Samenvatting ![&#x200B; &#x200B;](assets/summary-panel-icon.png), dan vind de **sectie van Details** dichtbij de bovenkant.
 1. Klik **uitgeven** in de hoger-juiste hoek, dan breid de gewenste vorm uit.
 1. Breng de noodzakelijke veranderingen aan, dan klik **sparen**.
 
-   ![ geef douanevorm ](assets/edit-custom-form-350x265.png) uit
+   ![&#x200B; geef douanevorm &#x200B;](assets/edit-custom-form-350x265.png) uit

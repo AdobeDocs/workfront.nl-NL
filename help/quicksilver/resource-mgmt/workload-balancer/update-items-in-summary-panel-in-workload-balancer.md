@@ -54,7 +54,7 @@ Het deelvenster Samenvatting is beschikbaar voor taken en problemen in zowel de 
  </tbody> 
 </table>
 
-Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -74,15 +74,15 @@ Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront
 
    of
 
-   Klik **Open Samenvatting** pictogram ![ Open Samenvattend pictogram ](assets/summary-panel-icon.png), dan klik de bar van een taak of kwestie om het Summiere paneel te openen.
+   Klik **Open Samenvatting** pictogram ![&#x200B; Open Samenvattend pictogram &#x200B;](assets/summary-panel-icon.png), dan klik de bar van een taak of kwestie om het Summiere paneel te openen.
 
    of
 
-   Klik het **Meer** menu ![ Meer pictogram ](assets/more-icon.png) aan het recht van een taak of een kwestie, dan klik **Open Samenvatting**.
+   Klik het **Meer** menu ![&#x200B; Meer pictogram &#x200B;](assets/more-icon.png) aan het recht van een taak of een kwestie, dan klik **Open Samenvatting**.
 
    Het deelvenster Samenvatting wordt aan de rechterkant geopend.
 
-   ![ Samenvattings paneel ](assets/summary-panel-task-wb-new-comments.png)
+   ![&#x200B; Samenvattings paneel &#x200B;](assets/summary-panel-task-wb-new-comments.png)
 
 1. Wijzig een aantal gebieden voor het het werkpunt, ga een update in, of u navigeert van hier aan andere gebieden van Workfront om documenten of andere informatie aan het het werkpunt toe te voegen.
 
@@ -90,7 +90,7 @@ Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront
    >
    >Als u van de sectie Overzicht naar de sectie Subtaken gaat om subtaken toe te voegen, wordt de oorspronkelijke taak verwijderd, omdat bovenliggende taken niet worden weergegeven in Workload Balancer.
 
-   Voor meer informatie over het bijwerken van informatie die de Samenvatting gebruiken, zie [ Overzicht van de Samenvatting ](../../workfront-basics/the-new-workfront-experience/summary-overview.md).
+   Voor meer informatie over het bijwerken van informatie die de Samenvatting gebruiken, zie [&#x200B; Overzicht van de Samenvatting &#x200B;](../../workfront-basics/the-new-workfront-experience/summary-overview.md).
 
 1. (Voorwaardelijk) als u om het even welke secties van het het werkpunt opende, klik uw browser **Achterknoop** om aan de Balancer van de Werklast terug te keren.
-1. Klik het **Dichte pictogram** ![ Dichte pictogram ](assets/close-icon.png) in de hoger-juiste hoek van de Samenvatting, om het te sluiten.
+1. Klik het **Dichte pictogram** ![&#x200B; Dichte pictogram &#x200B;](assets/close-icon.png) in de hoger-juiste hoek van de Samenvatting, om het te sluiten.
