@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 479dfb9d-0e47-4790-a33a-336b415fbf6e
-source-git-commit: 15063d937a5ba9b5285c66a0987e8deea6cc6d74
+source-git-commit: 30b61b32add4c6d062b5b524773d309008c9563d
 workflow-type: tm+mt
 source-wordcount: '295'
 ht-degree: 0%
@@ -16,6 +16,8 @@ ht-degree: 0%
 ---
 
 # Een bedrijf deactiveren of opnieuw activeren
+
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment, and is being released in a phased rollout to Production.</span>-->
 
 U kunt een bedrijf deactiveren dat u niet meer gebruikt terwijl het behouden van al zijn bijbehorende historische gegevens. Als u een bedrijf deactiveert dat al ergens in het systeem in gebruik is, blijft het functioneren net als altijd. Het wordt niet verwijderd of geblokkeerd.
 
@@ -56,7 +58,7 @@ U kunt een bedrijf deactiveren dat u niet meer gebruikt terwijl het behouden van
  </tbody> 
 </table>
 
-Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -64,11 +66,11 @@ Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van W
 
 {{step-1-to-setup}}
 
-1. In het linkerpaneel, klik **[!UICONTROL Companies]** ![&#x200B; pictogram van Bedrijven &#x200B;](assets/companies-icon-left-panel.png).
+1. In het linkerpaneel, klik **[!UICONTROL Companies]** ![ pictogram van Bedrijven ](assets/companies-icon-left-panel.png).
 
 1. Selecteer een of meer bedrijven om te deactiveren of opnieuw te activeren.
-1. Klik op **[!UICONTROL Edit]**.
-1. Voor één bedrijf schakelt u de optie **[!UICONTROL Is Active]** uit om het te deactiveren of schakelt u de optie in om het te activeren.
+1. Klik op **[!UICONTROL Edit]**. <!--MAKE THIS A SEPARATE NUMBERED LINE<span class="preview">In the Preview environment, disable the **[!UICONTROL Is Active]** option to deactivate it, or enable the option to activate it.</span>-->
+1. <!--In the Production environment, -->Voor één bedrijf schakelt u de optie **[!UICONTROL Is Active]** uit om het te deactiveren of schakelt u de optie in om het te activeren.
 
    of
 
