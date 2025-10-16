@@ -6,24 +6,24 @@ description: Als projectmanager, kunt u specificeren wat het het facturerings ta
 author: Lisa
 feature: Work Management
 exl-id: b7a33459-6929-4611-8546-06ca979e5dbe
-source-git-commit: 18c39c5b1959c31b6fd0018476b48643b4b15021
+source-git-commit: 1992e1c07e5e530a2e627ef5d2059b2384b31000
 workflow-type: tm+mt
-source-wordcount: '875'
+source-wordcount: '826'
 ht-degree: 0%
 
 ---
 
 # De Factureringstarieven van de Rol van de Opheffing van de Taak op het projectniveau
 
-<span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Het is beschikbaar slechts in het milieu van de Sandbox van de Voorproef, en wordt vrijgegeven in gefaseerde uitrol aan Productie.</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment, and is being released in a phased rollout to Production.</span>-->
 
 Als projectmanager, kunt u specificeren wat het het facturerings tarief voor een baanrol op een specifiek project is. Dit factureringstarief op projectniveau treedt het factureringstarief op het systeemniveau voor deze baanrol met voeten. Workfront gebruikt het factureringstarief op projectniveau van de baanrol om opbrengst te berekenen, in plaats van het systeem-vlakke factureringstarief te gebruiken.
 
 In dit artikel wordt beschreven hoe u de factureringssnelheden voor de rol van het systeem voor een project kunt overschrijven.
 
-Voor algemene informatie over het met voeten treden van de het factureringspercentages van de baanrol voor projecten en het berekenen van de opbrengsten van het project, zie [&#x200B; Overzicht van het met voeten treden van de Facturerings van de Rol van de Taak en het berekenen van Inkomsten op een project &#x200B;](../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
+Voor algemene informatie over het met voeten treden van de het factureringspercentages van de baanrol voor projecten en het berekenen van de opbrengsten van het project, zie [ Overzicht van het met voeten treden van de Facturerings van de Rol van de Taak en het berekenen van Inkomsten op een project ](../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
 
-Voor meer informatie over welke baanrol wordt gebruikt om opbrengst op het project te berekenen, zie de &quot;Begrijpende Berekeningen van de Ontvangsten voor Taken die op Gebruiker en van de Rol&quot;sectie in het artikel [&#x200B; Overzicht van het Factureren en de Ontvangsten &#x200B;](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md) worden gebaseerd.
+Voor meer informatie over welke baanrol wordt gebruikt om opbrengst op het project te berekenen, zie de &quot;Begrijpende Berekeningen van de Ontvangsten voor Taken die op Gebruiker en van de Rol&quot;sectie in het artikel [ Overzicht van het Factureren en de Ontvangsten ](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md) worden gebaseerd.
 
 >[!NOTE]
 >
@@ -58,7 +58,7 @@ Voor meer informatie over welke baanrol wordt gebruikt om opbrengst op het proje
  </tbody> 
 </table>
 
-Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -72,7 +72,7 @@ U kunt het factureringspercentage van een taakrol op een project op de volgende 
 * Verscheidene tijden, door verscheidene nieuwe tarieven voor specifieke datumwaaiers te selecteren.\
   U kunt voor elk opgegeven datumbereik een andere frequentie gebruiken.
 
-* U kunt nieuwe het factureren tarieven aan een projectmalplaatje toevoegen en die tarieven worden het factureren van het project wanneer u het project van dat malplaatje creeert. Voor informatie over het uitgeven van malplaatjes, zie [&#x200B; projectmalplaatjes &#x200B;](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-templates.md) uitgeven.
+* U kunt nieuwe het factureren tarieven aan een projectmalplaatje toevoegen en die tarieven worden het factureren van het project wanneer u het project van dat malplaatje creeert. Voor informatie over het uitgeven van malplaatjes, zie [ projectmalplaatjes ](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-templates.md) uitgeven.
 
 >[!TIP]
 >
@@ -86,7 +86,7 @@ Een factureringssnelheid voor een project overschrijven:
 
    Het vak Nieuwe factureringsfrequentie wordt geopend.
 
-1. Op het **gebied van de Rol van de Baan 0&rbrace;, selecteer de baanrol u het facturerings tarief voor wilt veranderen.**
+1. Op het **gebied van de Rol van de Baan 0}, selecteer de baanrol u het facturerings tarief voor wilt veranderen.**
 
    Het **Standaard het FactureringsTarief** gebied toont het systeem-vlakke tarief voor deze baanrol.
 
@@ -102,13 +102,13 @@ Een factureringssnelheid voor een project overschrijven:
    * **Datum van het Begin**: dit is de datum wanneer het StandaardTarief beëindigt.
    * **Datum van het Eind**: de datum wanneer de nieuwe het factureren tariefopheffing beëindigt.
 
-   <span class="preview"> beeld van de Steekproef in het milieu van de Voorproef:</span>
-   ![&#x200B; het Factureren tarieven met opheffingsdata &#x200B;](assets/billing-rates-093025.png)
+   <!--<span class="preview">Sample image in the Preview environment:</span>-->
+   ![ het Factureren tarieven met opheffingsdata ](assets/billing-rates-093025.png)
 
-   Voorbeeldafbeelding in de productieomgeving:
-   ![&#x200B; het Factureren tarieven met opheffingsdata &#x200B;](assets/new-billing-rate-with-adjustment-dates-350x266.png)
+   <!--Sample image in the Production environment:
+   ![Billing rates with override dates](assets/new-billing-rate-with-adjustment-dates-350x266.png)-->
 
-1. De tijdzone voor de data die u selecteert, wordt onder in het vak Nieuwe factureringssnelheid weergegeven. Dit is de tijdzone verbonden aan uw instantie van Workfront, zoals aangetoond in het gebied van Info van de Klant van Opstelling. Voor informatie, zie [&#x200B; basisinformatie voor uw systeem &#x200B;](../../../administration-and-setup/get-started-wf-administration/configure-basic-info.md) vormen.
+1. De tijdzone voor de data die u selecteert, wordt onder in het vak Nieuwe factureringssnelheid weergegeven. Dit is de tijdzone verbonden aan uw instantie van Workfront, zoals aangetoond in het gebied van Info van de Klant van Opstelling. Voor informatie, zie [ basisinformatie voor uw systeem ](../../../administration-and-setup/get-started-wf-administration/configure-basic-info.md) vormen.
 1. Workfront past het tarief van de opheffingsbaan op de uren toe die tijdens de gespecificeerde tijdkaders voorkomen wanneer het berekenen van opbrengst op het project.
 1. Er mogen geen tussenruimten zijn tussen de tijdframes van twee overschrijvingssnelheden. De **Datum van het Begin** van een met voeten getreden tarief zou de dag onmiddellijk na de **Datum van het Eind** van de vorige met voeten getreden datum moeten zijn.
 
