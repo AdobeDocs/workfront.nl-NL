@@ -6,7 +6,7 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 8de68b70-dd87-4aad-9137-980ea9fc0d69
-source-git-commit: b102960e088f072f10baadcbeca4f7f579daa287
+source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
 workflow-type: tm+mt
 source-wordcount: '434'
 ht-degree: 0%
@@ -41,7 +41,7 @@ Als u efficiënter wilt samenwerken met anderen die mogelijk geen Workfront-acco
 <ul> 
 <li><p>Alle Workfront en alle planningspakketten</p></li>
 of
-<li><p>Alle workflows en planningspakketten</li></ul>
+<li><p>Willekeurige workflow en planningspakket</p></li></ul>
 <p>Neem voor meer informatie over wat er in elk planningspakket voor Workfront staat, contact op met uw Workfront-accountvertegenwoordiger. </p> 
    </td> 
   <tr> 
@@ -64,7 +64,7 @@ of
 </tbody> 
 </table>
 
-Voor meer informatie over de toegangsvereisten van Workfront, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer informatie over de toegangsvereisten van Workfront, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++  
 
@@ -155,11 +155,11 @@ De recordtypepagina wordt geopend en alle records van dat type worden weergegeve
 
    Het voorvertoningsvak van de record wordt geopend.
 
-1. (Facultatief) klik **Open in nieuw lusje** pictogram ![&#x200B; Open details in een nieuw lusjepictogram &#x200B;](assets/open-details-in-a-new-tab-icon.png) om de pagina van het verslag te openen.
+1. (Facultatief) klik **Open in nieuw lusje** pictogram ![ Open details in een nieuw lusjepictogram ](assets/open-details-in-a-new-tab-icon.png) om de pagina van het verslag te openen.
 
 1. Kies het **Details** lusje. Het tabblad Details moet standaard worden geopend.
 
-1. Klik het **menu van de Uitvoer** pictogram van de Uitvoer in verslagdetailpagina ![&#x200B; of in de voorproef of de pagina van het verslag, dan klik één van het volgende:](assets/export-icon-in-record-details-page.png)
+1. Klik het **menu van de Uitvoer** pictogram van de Uitvoer in verslagdetailpagina ![ of in de voorproef of de pagina van het verslag, dan klik één van het volgende:](assets/export-icon-in-record-details-page.png)
 
    * **Word van Microsoft**
    * **Adobe PDF**
@@ -168,7 +168,7 @@ De recordtypepagina wordt geopend en alle records van dat type worden weergegeve
 
    De naam van het geëxporteerde bestand is het primaire veld van de record.
 
-   ![&#x200B; Uitgevoerd woorddossier &#x200B;](assets/exported-word-file.png)
+   ![ Uitgevoerd woorddossier ](assets/exported-word-file.png)
 
    >[!NOTE]
    >

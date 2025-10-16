@@ -6,7 +6,7 @@ feature: Workfront Planning
 recommendations: noDisplay, noCatalog
 role: User, Admin
 exl-id: 99fac041-a235-4991-b826-d19944164bc9
-source-git-commit: c879d06cfe7ba76df3e974c160a7349f1503f17f
+source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
 workflow-type: tm+mt
 source-wordcount: '703'
 ht-degree: 0%
@@ -15,6 +15,8 @@ ht-degree: 0%
 
 
 # Toegangsoverzicht voor Adobe Workfront Planning
+
+<!--leave the global record type reference in yellow till Jan 2026-->
 
 <!--do not use the snippet for IMPORTANT , as it links to this article-->
 
@@ -30,7 +32,7 @@ ht-degree: 0%
 >
 >Neem voor meer informatie contact op met uw accountmanager
 >
->Voor meer informatie over de Planning van Workfront, zie [&#x200B; het Overzicht van de Planning van Adobe Workfront &#x200B;](/help/quicksilver/planning/general/planning-overview.md).
+>Voor meer informatie over de Planning van Workfront, zie [ het Overzicht van de Planning van Adobe Workfront ](/help/quicksilver/planning/general/planning-overview.md).
 
 Er gelden beperkingen voor licenties en deelmachtigingen voor het gebruik van Adobe Workfront Planning.
 
@@ -42,7 +44,7 @@ In dit artikel worden de toegang en instellingen beschreven die u nodig hebt om 
 
 <!--*********ensure that the link ^^^^^^^^below^^^^^^^^ to Workfront Pricing and Packaging now also includes information about Workfront Planning. If not, talk with Lauren S.***************-->
 
-U moet de volgende toegang tot de Planning van Workfront hebben:
+U moet de volgende toegang hebben om de Planning van Workfront te gebruiken:
 
 <table style="table-layout:auto">
  <col>
@@ -55,9 +57,13 @@ U moet de volgende toegang tot de Planning van Workfront hebben:
    <td role="rowheader"><p>Adobe Workfront-pakket</p></td>
    <td>
    <p>Alle Workfront- en planningspakketten</p>
-   of
+   <p>of</p>
    <p>Willekeurig workflowpakket en planningspakket</p>
- </td>
+   <!--<p><b>NOTE</b></p>
+<p><span class="preview">For access to global record types:</span></p>
+<ul><li><p><span class="preview">Any Workfront package and a Planning Plus package</span></p></li>
+<p>Or</p>
+<li><p><span class="preview">Workflow and Planning Prime and Ultimate packages</span></p></li></ul>--> </td>
 <tr>
    <td role="rowheader"><p>Adobe Workfront-platform</p></td>
    <td>
@@ -107,7 +113,7 @@ U moet de volgende toegang tot de Planning van Workfront hebben:
  </tbody>
 </table>
 
-Voor meer informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 
 ## Het planningsgebied delen met een lay-outsjabloon
@@ -134,11 +140,11 @@ Workfront-planningsgebieden toevoegen aan of verwijderen uit gebruikers van uw W
 
 1. Ga naar **Belangrijkste menu** > **Opstelling** > **Interface** > **Malplaatjes van de Lay-out** en open of creeer een lay-outmalplaatje.
 
-   Voor informatie over het aanpassen van een lay-outmalplaatje, zie [&#x200B; lay-outmalplaatjes &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md) creëren en beheren.
+   Voor informatie over het aanpassen van een lay-outmalplaatje, zie [ lay-outmalplaatjes ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md) creëren en beheren.
 
 1. Wijs het lay-outmalplaatje aan de gebruikers toe die u toegang tot de Planning van Workfront wilt hebben.
 
-   Voor informatie, zie [&#x200B; gebruikers aan een lay-outmalplaatje &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md) toewijzen.
+   Voor informatie, zie [ gebruikers aan een lay-outmalplaatje ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md) toewijzen.
 
    Alle gebruikers die aan de sjabloon zijn toegewezen, hebben nu toegang tot de Workfront-planning in hun hoofdmenu.
 
@@ -148,7 +154,7 @@ Workfront-planningsgebieden toevoegen aan of verwijderen uit gebruikers van uw W
 
 U kunt licenties toewijzen aan gebruikers wanneer u hun toegangsniveau configureert terwijl u deze bewerkt of maakt.
 
-Voor informatie, zie [&#x200B; de profielen van een gebruiker &#x200B;](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) uitgeven
+Voor informatie, zie [ de profielen van een gebruiker ](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) uitgeven
 
 ## Toegangsniveau configureren
 
@@ -166,10 +172,10 @@ U kunt toestemmingen aan de volgende entiteiten in de Planning van Workfront ver
 * Recordtypen
 * Weergaven
 
-Voor meer informatie, zie [&#x200B; Overzicht van het delen van toestemmingen in de Planning van Adobe Workfront &#x200B;](/help/quicksilver/planning/access/sharing-permissions-overview.md).
+Voor meer informatie, zie [ Overzicht van het delen van toestemmingen in de Planning van Adobe Workfront ](/help/quicksilver/planning/access/sharing-permissions-overview.md).
 
 Uw Adobe Workfront-licentietype werkt met uw Workfront-planningsbevoegdheden om u toegang te geven tot Workfront-planningsobjecten, deze te kunnen bekijken of beheren.
 
-Voor informatie over hoe de vergunningstypes toestemmingsniveaus voor de Planning van Workfront voorwerpen beïnvloeden, zie [&#x200B; het type van Vergunning overzicht wanneer het gebruiken van de Planning van Adobe Workfront &#x200B;](/help/quicksilver/planning/access/license-type-overview.md).
+Voor informatie over hoe de vergunningstypes toestemmingsniveaus voor de Planning van Workfront voorwerpen beïnvloeden, zie [ het type van Vergunning overzicht wanneer het gebruiken van de Planning van Adobe Workfront ](/help/quicksilver/planning/access/license-type-overview.md).
 
 

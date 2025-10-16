@@ -6,7 +6,7 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d8ac4d94-28b5-41d6-acb8-259696897c8a
-source-git-commit: b102960e088f072f10baadcbeca4f7f579daa287
+source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
 workflow-type: tm+mt
 source-wordcount: '464'
 ht-degree: 0%
@@ -42,7 +42,7 @@ U kunt verslagen en hun informatie van de lijstmening naar een Excel of een Csv-
 <ul> 
 <li><p>Alle Workfront en alle planningspakketten</p></li>
 of
-<li><p>Alle workflows en planningspakketten</li></ul>
+<li><p>Willekeurige workflow en planningspakket</p></li></ul>
 <p>Neem voor meer informatie over wat er in elk planningspakket voor Workfront staat, contact op met uw Workfront-accountvertegenwoordiger. </p> 
    </td> 
   <tr> 
@@ -66,7 +66,7 @@ of
 </tbody> 
 </table>
 
-Voor meer informatie over de toegangsvereisten van Workfront, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer informatie over de toegangsvereisten van Workfront, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++   
 
@@ -144,13 +144,13 @@ Informatie exporteren uit de tabelweergave of een recordtype:
 1. Ga naar een pagina met recordtypen en klik op een tabblad met tabelweergave.
 1. Voer een van de volgende handelingen uit:
 
-   * Beweeg over de naam van het lusje van de lijstmening, dan klik **Meer** menu ![&#x200B; Meer menu &#x200B;](assets/more-menu.png) rechts van de meningsnaam, dan klik **Uitvoer**.
+   * Beweeg over de naam van het lusje van de lijstmening, dan klik **Meer** menu ![ Meer menu ](assets/more-menu.png) rechts van de meningsnaam, dan klik **Uitvoer**.
 
-   ![&#x200B; Meer menu op een mening &#x200B;](assets/view-more-menu-with-duplicate-option.png)
+   ![ Meer menu op een mening ](assets/view-more-menu-with-duplicate-option.png)
 
    * Klik **Aandeel** > **Uitvoer de huidige mening**. Deze optie is alleen beschikbaar wanneer u de tabelweergave weergeeft.
 
-   ![&#x200B; knoop van het Aandeel met verslagtype en mening die opties delen &#x200B;](assets/share-button-with-record-type-and-view-sharing-options.png)
+   ![ knoop van het Aandeel met verslagtype en mening die opties delen ](assets/share-button-with-record-type-and-view-sharing-options.png)
 
 1. Selecteer een van de volgende indelingen:
 

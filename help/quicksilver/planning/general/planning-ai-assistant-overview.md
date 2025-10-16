@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 53f57953-fb9f-47ef-be18-a7164c844682
-source-git-commit: a24180f95c89c76605eaa735467a791102254645
+source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
 workflow-type: tm+mt
-source-wordcount: '789'
+source-wordcount: '784'
 ht-degree: 0%
 
 ---
@@ -40,13 +40,8 @@ De bevelen van de gebruiker en de uitvoering van AI van die bevelen werken samen
 <tr> 
    <td role="rowheader"><p>Adobe Workfront-pakketten</p></td> 
    <td> 
-<ul><li><p>Willekeurig Workfront-pakket</p></li>
-en
-<li><p>Willekeurig planningspakket</p></li></ul>
-of
-<ul><li><p>Willekeurig workflowpakket</p></li>
-en
-<li><p>Willekeurig planningspakket</p></li></ul>
+<p>Alle Workfront- en planningspakketten</p>
+<p>Willekeurig workflowpakket en planningspakket</p>
    </td> </tr>
 
 </tr> 
@@ -63,16 +58,16 @@ en
 </tbody> 
 </table>
 
-Voor meer informatie over de toegangsvereisten van Workfront, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer informatie over de toegangsvereisten van Workfront, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Overwegingen over de AI-assistent
 
-* De AI-assistent moet zijn ingeschakeld voor uw organisatie voordat deze beschikbaar is voor gebruikers in uw bedrijf. Voor informatie, zie [&#x200B; AI Hulpoverzicht &#x200B;](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md).
-* Nadat Workfront de AI Assistant voor uw organisatie heeft ingeschakeld, is deze beschikbaar voor de Workfront-hoofdbeheerder. Voor informatie, zie [&#x200B; basisinformatie voor uw systeem &#x200B;](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-basic-info.md) vormen.
+* De AI-assistent moet zijn ingeschakeld voor uw organisatie voordat deze beschikbaar is voor gebruikers in uw bedrijf. Voor informatie, zie [ AI Hulpoverzicht ](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md).
+* Nadat Workfront de AI Assistant voor uw organisatie heeft ingeschakeld, is deze beschikbaar voor de Workfront-hoofdbeheerder. Voor informatie, zie [ basisinformatie voor uw systeem ](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-basic-info.md) vormen.
 
-* De Workfront-beheerder moet de AI-assistent inschakelen voor alle andere gebruikers. Voor meer informatie, zie [&#x200B; toelaten of AI Medewerker &#x200B;](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md) onbruikbaar maken.
+* De Workfront-beheerder moet de AI-assistent inschakelen voor alle andere gebruikers. Voor meer informatie, zie [ toelaten of AI Medewerker ](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md) onbruikbaar maken.
 
 * De AI Assistant werkt in de context van elke pagina. De aanvragen die u voor de AI-assistent indient, moeten verwijzen naar functionaliteit die beschikbaar is op de pagina die u hebt geopend.
 
@@ -116,7 +111,7 @@ U kunt de AI-assistent vinden op de volgende gebieden van de Workfront-planning:
 
 ## De AI-assistent openen in het planningsgebied
 
-1. Login aan Workfront, dan klik het **pictogram van het Belangrijkste Menu** het belangrijkste menu van Dots ![&#x200B; in de hoger-juiste hoek van het scherm, of het &#x200B;](assets/dots-main-menu.png) Belangrijkste **pictogram** het belangrijkste menu van Lijnen ![&#x200B; in de upper-left hoek, als beschikbaar.](assets/lines-main-menu.png)
+1. Login aan Workfront, dan klik het **pictogram van het Belangrijkste Menu** het belangrijkste menu van Dots ![ in de hoger-juiste hoek van het scherm, of het ](assets/dots-main-menu.png) Belangrijkste **pictogram** het belangrijkste menu van Lijnen ![ in de upper-left hoek, als beschikbaar.](assets/lines-main-menu.png)
 
 . Klik **Planning**. Het planningsgebied wordt geopend.
 
@@ -124,15 +119,15 @@ U kunt de AI-assistent vinden op de volgende gebieden van de Workfront-planning:
 
 1. (Facultatief) klik a **verslagtype kaart**.
 
-1. (Facultatief) klik a **verslag** om de 2&rbrace; Details van het verslag **pagina te openen.**
+1. (Facultatief) klik a **verslag** om de 2} Details van het verslag **pagina te openen.**
 
 1. Klik het **AI Hulppictogram** in de hoger-juiste hoek van het scherm in de globale navigatiebar of in de hoger-juiste hoek van de voorproef of de pagina van het verslag.
 
-   ![&#x200B; AI Hulp pictogram &#x200B;](assets/ai-assistant-icon-highlighted.png)
+   ![ AI Hulp pictogram ](assets/ai-assistant-icon-highlighted.png)
 
 1. Typ in de beschikbare ruimte opdrachten voor de AI-assistent en klik vervolgens op Enter wanneer u klaar bent.
 
-   ![&#x200B; AI Medewerker paneel met lege beveldoos &#x200B;](assets/ai-assistant-panel-with-empty-command-box.png)
+   ![ AI Medewerker paneel met lege beveldoos ](assets/ai-assistant-panel-with-empty-command-box.png)
 
    U kunt bijvoorbeeld een van de volgende typen:
 

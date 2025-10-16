@@ -4,9 +4,9 @@ description: Recordtypen zijn de objecttypen voor Adobe Workfront Planning. In d
 hidefromtoc: true
 hide: true
 exl-id: b977d5dd-8975-42c4-9968-a7ac357972e6
-source-git-commit: 92748bab4eee807d9529a61a9d97ac1c1df9c8cf
+source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
 workflow-type: tm+mt
-source-wordcount: '832'
+source-wordcount: '619'
 ht-degree: 0%
 
 ---
@@ -25,17 +25,17 @@ recommendations: noDisplay, noCatalog
 
 <span class="preview"> de informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>
 
-<span class="preview"> voor informatie over snelle versies, zie [&#x200B; snelle versies voor uw organisatie &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
+<span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
 
 Als werkruimtenmanager, kunt u een verslagtype toevoegen dat in een andere werkruimte aan een werkruimte bestaat die u in de Planning van Adobe Workfront beheert.
 
 Een werkruimtemanager moet eerst een recordtype aanwijzen als een globaal recordtype voordat u dit kunt toevoegen aan werkruimten die u als een bestaand recordtype beheert. Workspace-managers kunnen een recordtype als globaal aanwijzen wanneer ze deze maken of bewerken, door de instellingen voor de werkruimte van het recordtype te definiëren.
 
-Voor informatie, zie [&#x200B; mogelijkheden van de dwars-werkruimte voor verslagtypes &#x200B;](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md) vormen.
+Voor informatie, zie [ mogelijkheden van de dwars-werkruimte voor verslagtypes ](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md) vormen.
 
-In dit artikel wordt beschreven hoe u een recordtype uit een bestaand recordtype kunt toevoegen en hoe u het kunt verwijderen als het niet meer nodig is.
+In dit artikel wordt beschreven hoe u een recordtype uit een bestaand recordtype kunt toevoegen.
 
-Alvorens verslagen aan een werkruimte van een globaal verslagtype toe te voegen, zie ook het artikel [&#x200B; overzicht van de types van het interwerkruimterecord &#x200B;](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md).
+Alvorens verslagen aan een werkruimte van een globaal verslagtype toe te voegen, zie ook het artikel [ overzicht van de types van het interwerkruimterecord ](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md).
 
 
 ## Toegangsvereisten
@@ -55,8 +55,8 @@ Alvorens verslagen aan een werkruimte van een globaal verslagtype toe te voegen,
    <td role="rowheader"><p>Adobe Workfront-pakket</p></td> 
    <td> 
 <ul><li><p>Willekeurig Workfront-pakket en een plannings Plus-pakket</p></li>
-of
-<li><p>Workflow en planning voor Prime- en Ultimate-pakketten</li></ul>
+<p>of</p>
+<li><p>Workflow en planning voor Prime- en Ultimate-pakketten</p></p></li></ul>
 <p>Neem voor meer informatie over wat er in elk planningspakket voor Workfront staat, contact op met uw Workfront-accountvertegenwoordiger. </p> 
    </td> 
   <tr> 
@@ -72,7 +72,7 @@ of
 </tbody> 
 </table>
 
-Voor meer informatie over de toegangsvereisten van Workfront, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer informatie over de toegangsvereisten van Workfront, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++   
 
@@ -121,9 +121,9 @@ And
 >
 >Zorg ervoor dat er ten minste één recordtype is opgegeven dat globaal is in ten minste één andere werkruimte.
 
-1. Begin creërend een verslagtype, zoals die in het artikel [&#x200B; wordt beschreven creeer verslagtypes &#x200B;](/help/quicksilver/planning/architecture/create-record-types.md), dan klik **voegt bestaand** toe. <!--check this - the option might have been renamed in the UI-->
+1. Begin creërend een verslagtype, zoals die in het artikel [ wordt beschreven creeer verslagtypes ](/help/quicksilver/planning/architecture/create-record-types.md), dan klik **voegt bestaand** toe. <!--check this - the option might have been renamed in the UI-->
 
-   ![&#x200B; Modal om verslagtype met optie toe te voegen van een andere werkruimte &#x200B;](assets/add-record-type-from-existing-workspace-option-when-creating-records.png)
+   ![ Modal om verslagtype met optie toe te voegen van een andere werkruimte ](assets/add-record-type-from-existing-workspace-option-when-creating-records.png)
 
    >[!TIP]
    >
@@ -148,6 +148,9 @@ And
      >U kunt de weergave, aanvullende instellingen of originele velden van het nieuwe recordtype niet bewerken. U kunt het recordtype en alle oorspronkelijke velden en instellingen alleen vanuit de oorspronkelijke werkruimte bewerken.
 
 1. (Optioneel) Klik en sleep het nieuwe recordtype naar een willekeurige sectie in de werkruimte.
+1. (Facultatief) klik het **Meer** menu op de kaart van het nieuwe verslagtype of rechts van de naam van het verslagtype op zijn pagina, dan klik **Schrapping**.
+
+   Voor meer informatie, zie de sectie &quot;schrap globale verslagtypes&quot;in het artikel [ schrapt verslagtypes ](/help/quicksilver/planning/architecture/delete-record-types.md).
 
 <!--This will be released later with another epic: 
 1. In the table view, click the **+** icon in the upper-right corner to add new fields. For information, see [Create fields](/help/quicksilver/planning/fields/create-fields.md).
@@ -156,34 +159,7 @@ And
 
 &lt;!—controleren met Lilit of wij automatiseringen of aanvraagformulieren aan secundaire globale RTs kunnen toevoegen???-voeg stap met verbindingen aan die artikelen toe als/ wanneer ja—>
 
-## Een algemeen recordtype uit een secundaire werkruimte verwijderen
 
-U kunt een recordtype dat u hebt toegevoegd uit een andere werkruimte verwijderen als u dit niet meer nodig hebt. Als u deze verwijdert, wordt deze alleen verwijderd uit de secundaire werkruimte.
-
-Wanneer u een globaal recordtype uit een secundaire werkruimte schrapt, worden het volgende ook geschrapt:
-
-* De records die vanuit de secundaire werkruimte worden toegevoegd.
-* De velden die worden toegevoegd vanuit de secundaire werkruimte.
-
-Algemene recordtypen die uit de secundaire werkruimten zijn verwijderd, kunnen niet worden hersteld.
-
-Het oorspronkelijke recordtype blijft in de oorspronkelijke werkruimte en in andere werkruimten waar het is toegevoegd.
-
-Een algemeen recordtype uit een secundaire werkruimte verwijderen:
-
-1. Ga naar het algemene recordtype in de secundaire werkruimte.
-
-1. (Facultatief) klik op **Meer** menu ![&#x200B; Meer menu &#x200B;](assets/more-menu.png) op de kaart van het verslagtype, of rechts van de naam van het verslagtype op zijn pagina, dan klik **Schrapping**.
-1. (Voorwaardelijk) Type **schrapt** op het verstrekte gebied, dan klik **permanent schrapt**.
-
-   ![&#x200B; Schrap secundaire globale doos van de verslagtype bevestiging &#x200B;](assets/delete-secondary-global-record-type.png)
-
-   De volgende dingen doen zich voor:
-
-   * Het recordtype dat is gemaakt van een algemeen recordtype, wordt verwijderd uit de geselecteerde werkruimte.
-   * Het oorspronkelijke recordtype en de bijbehorende velden blijven in de oorspronkelijke werkruimte staan.
-   * Het recordtype blijft in alle andere werkruimten waar het is toegevoegd.
-   * De records en velden die vanuit de huidige werkruimte aan het recordtype zijn toegevoegd, worden verwijderd. Alle andere records die zijn toegevoegd vanuit aanvullende werkruimten waar het algemene recordtype is toegevoegd, blijven behouden. Velden blijven behouden in de werkruimten waar ze zijn toegevoegd.
 
 
 

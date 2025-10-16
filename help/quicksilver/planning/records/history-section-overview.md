@@ -6,7 +6,7 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 8258589f-a7c3-4d77-9abe-c99e9184bd21
-source-git-commit: b102960e088f072f10baadcbeca4f7f579daa287
+source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
 workflow-type: tm+mt
 source-wordcount: '594'
 ht-degree: 0%
@@ -25,7 +25,7 @@ U kunt aan de verslagen van de Planning van Adobe Workfront samenwerken, door co
 
 In het rechterdeelvenster van een record worden de volgende secties weergegeven:
 
-* **Commentaren**: De commentaren van vertoningen en antwoorden gebruikers voegen aan verslagen toe. Voor meer informatie over het beheren van commentaren in de verslagen van de Planning van Workfront, zie [&#x200B; recordcommentaren beheren &#x200B;](/help/quicksilver/planning/records/manage-record-comments.md).
+* **Commentaren**: De commentaren van vertoningen en antwoorden gebruikers voegen aan verslagen toe. Voor meer informatie over het beheren van commentaren in de verslagen van de Planning van Workfront, zie [ recordcommentaren beheren ](/help/quicksilver/planning/records/manage-record-comments.md).
 * **Geschiedenis**: De systeem-geregistreerde veranderingen van vertoningen die de gebruikers aan de verslaggebieden aanbrengen.
 
 ## Toegangsvereisten
@@ -47,7 +47,7 @@ In het rechterdeelvenster van een record worden de volgende secties weergegeven:
 <ul> 
 <li><p>Alle Workfront en alle planningspakketten</p></li>
 of
-<li><p>Alle workflows en planningspakketten</li></ul>
+<li><p>Willekeurige workflow en planningspakket</p></li></ul>
 <p>Neem voor meer informatie over wat er in elk planningspakket voor Workfront staat, contact op met uw Workfront-accountvertegenwoordiger. </p> 
    </td> 
   <tr> 
@@ -70,7 +70,7 @@ of
 </tbody> 
 </table>
 
-Voor meer informatie over de toegangsvereisten van Workfront, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer informatie over de toegangsvereisten van Workfront, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++  
 
@@ -152,14 +152,14 @@ De recordtypepagina wordt geopend en alle records van dat type worden weergegeve
 1. Klik vanuit een willekeurige weergave op de naam van een record.
 
    De pagina van de record wordt geopend. Het gebied Opmerkingen wordt standaard in het rechtervenster geopend.
-1. Klik **tonen het pictogram van de Geschiedenis** ![&#x200B; tonen geschiedenispictogram &#x200B;](assets/show-history-icon.png). Alle wijzigingen die in de velden van de record zijn aangebracht, worden in het rechterdeelvenster weergegeven, te beginnen met de meest recente.
-1. (Facultatief) klik het **pictogram van de Geschiedenis van de Verbergen** ![&#x200B; het geschiedenispictogram van de Verbergen &#x200B;](assets/hide-history-icon.png) om het juiste paneel te sluiten.
+1. Klik **tonen het pictogram van de Geschiedenis** ![ tonen geschiedenispictogram ](assets/show-history-icon.png). Alle wijzigingen die in de velden van de record zijn aangebracht, worden in het rechterdeelvenster weergegeven, te beginnen met de meest recente.
+1. (Facultatief) klik het **pictogram van de Geschiedenis van de Verbergen** ![ het geschiedenispictogram van de Verbergen ](assets/hide-history-icon.png) om het juiste paneel te sluiten.
 
 ## Overwegingen bij de sectie Historie
 
 U kunt de wijzigingen die zijn aangebracht in recordvelden, bekijken in de sectie Historie van het rechterdeelvenster van de pagina van een record.
 
-![&#x200B; gebied van de Geschiedenis in Commentaren &#x200B;](assets/history-area-in-comments.png)
+![ gebied van de Geschiedenis in Commentaren ](assets/history-area-in-comments.png)
 
 * Workfront Planning registreert de volgende informatie in de sectie van de Geschiedenis:
 
@@ -191,7 +191,7 @@ U kunt de wijzigingen die zijn aangebracht in recordvelden, bekijken in de secti
 
 * In velden van het type selectievakje wordt de oude waarde nooit doorgehaald weergegeven. Als het veld wordt bewerkt, wordt alleen het huidige frame weergegeven op het moment dat de wijziging is aangebracht.
 
-  Voor meer informatie over de Planning van Workfront gebieden, zie [&#x200B; gebieden &#x200B;](/help/quicksilver/planning/fields/create-fields.md) creëren.
+  Voor meer informatie over de Planning van Workfront gebieden, zie [ gebieden ](/help/quicksilver/planning/fields/create-fields.md) creëren.
 
 * Wijzigingen in velden van de volgende typen worden niet weergegeven in de sectie Historie:
 

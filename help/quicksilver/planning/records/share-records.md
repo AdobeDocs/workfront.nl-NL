@@ -6,7 +6,7 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 83ff53ac-f18e-4b71-bdb2-57e05d69ed29
-source-git-commit: b102960e088f072f10baadcbeca4f7f579daa287
+source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
 workflow-type: tm+mt
 source-wordcount: '580'
 ht-degree: 0%
@@ -63,7 +63,7 @@ In dit artikel wordt beschreven hoe u een koppeling naar de pagina van een recor
 <ul> 
 <li><p>Alle Workfront en alle planningspakketten</p></li>
 of
-<li><p>Alle workflows en planningspakketten</li></ul>
+<li><p>Willekeurige workflow en planningspakket</p></li></ul>
 <p>Neem voor meer informatie over wat er in elk planningspakket voor Workfront staat, contact op met uw Workfront-accountvertegenwoordiger. </p> 
    </td> 
   <tr> 
@@ -85,7 +85,7 @@ of
 </tbody> 
 </table>
 
-Voor meer informatie over de toegangsvereisten van Workfront, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer informatie over de toegangsvereisten van Workfront, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++  
 
@@ -170,9 +170,9 @@ De werkruimte die u het laatst hebt geopend.
 
    of
 
-   Beweeg over de naam van een verslag, klik **Meer** menu ![&#x200B; Meer menu &#x200B;](assets/more-menu.png), dan klik **verbinding van het Exemplaar**.
+   Beweeg over de naam van een verslag, klik **Meer** menu ![ Meer menu ](assets/more-menu.png), dan klik **verbinding van het Exemplaar**.
 
-   ![&#x200B; Contextueel menu voor verslagrij &#x200B;](assets/contextual-menu-for-record-row.png)
+   ![ Contextueel menu voor verslagrij ](assets/contextual-menu-for-record-row.png)
 
    De koppeling wordt naar het klembord gekopieerd.
 
@@ -193,7 +193,7 @@ Recordtypen en records nemen dezelfde machtigingen over van de werkruimte.
 
 Alleen gebruikers met de machtiging Beheren in een werkruimte kunnen deze delen met anderen.
 
-Voor meer informatie, zie [&#x200B; een werkruimte &#x200B;](/help/quicksilver/planning/access/share-workspaces.md) delen.
+Voor meer informatie, zie [ een werkruimte ](/help/quicksilver/planning/access/share-workspaces.md) delen.
 
 ## Alle records in een recordtype delen door het recordtype te delen
 
@@ -208,5 +208,5 @@ U kunt echter een van de volgende handelingen uitvoeren:
 
 Alleen gebruikers met de machtiging Beheren in een werkruimte kunnen hun recordtypen en records delen met anderen.
 
-Voor meer informatie, zie [&#x200B; recordtypes van het Aandeel &#x200B;](/help/quicksilver/planning/access/share-record-types.md).
+Voor meer informatie, zie [ recordtypes van het Aandeel ](/help/quicksilver/planning/access/share-record-types.md).
 

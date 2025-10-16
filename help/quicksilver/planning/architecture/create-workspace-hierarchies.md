@@ -4,7 +4,7 @@ description: U kunt meerdere werkruimtemhiërarchieën maken tussen de recordtyp
 hide: true
 hidefromtoc: true
 exl-id: 2f83c427-4439-499d-a0b2-fc8630552cae
-source-git-commit: b102960e088f072f10baadcbeca4f7f579daa287
+source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
 workflow-type: tm+mt
 source-wordcount: '117'
 ht-degree: 0%
@@ -34,6 +34,8 @@ U kunt meerdere werkruimtemhiërarchieën maken tussen de recordtypen in een wer
 
 <!--check the access to see if you oversimplified???-->
 
+<!--Update the TOC for this to publish-->
+
 +++ Breid uit om de toegangsvereisten te bekijken om de stappen in dit artikel uit te voeren:  
 
 <table style="table-layout:auto"> 
@@ -50,8 +52,8 @@ U kunt meerdere werkruimtemhiërarchieën maken tussen de recordtypen in een wer
    <td> 
 <ul> 
 <li><p>Alle Workfront en alle planningspakketten</p></li>
-of
-<li><p>Alle workflows en planningspakketten</li></ul>
+<p>of</p>
+<li><p>Willekeurige workflow en planningspakket</p></li></ul>
 <p>Neem voor meer informatie over wat er in elk planningspakket voor Workfront staat, contact op met uw Workfront-accountvertegenwoordiger. </p> 
    </td> 
   <tr> 
@@ -67,6 +69,6 @@ of
 </tbody> 
 </table>
 
-Voor meer informatie over de toegangsvereisten van Workfront, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer informatie over de toegangsvereisten van Workfront, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
