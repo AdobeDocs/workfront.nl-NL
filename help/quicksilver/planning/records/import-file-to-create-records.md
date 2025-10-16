@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 940945df-391c-4672-9d9d-180d5028509b
-source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
+source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
 workflow-type: tm+mt
-source-wordcount: '886'
+source-wordcount: '826'
 ht-degree: 0%
 
 ---
@@ -16,15 +16,17 @@ ht-degree: 0%
 
 # Records maken door gegevens te importeren uit een CSV- of Excel-bestand
 
-<span class="preview"> de informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>
+<!--
 
-<span class="preview"> voor informatie over snelle versies, zie [&#x200B; snelle versies voor uw organisatie &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
 Records zijn afzonderlijke instanties van recordtypen. Dit zijn de objecttypen van Adobe Workfront Planning. In de Planning van Workfront, kunt u verslagen tot stand brengen door informatie van een CSV of dossier van Excel in te voeren.
 
-Voor meer informatie over het creëren van verslagen, zie [&#x200B; verslagen &#x200B;](/help/quicksilver/planning/records/create-records.md) creëren.
+Voor meer informatie over het creëren van verslagen, zie [ verslagen ](/help/quicksilver/planning/records/create-records.md) creëren.
 
 ## Toegangsvereisten
 
@@ -42,10 +44,7 @@ Voor meer informatie over het creëren van verslagen, zie [&#x200B; verslagen &#
 <tr> 
    <td role="rowheader"><p>Adobe Workfront-pakket</p></td> 
    <td> 
-<ul> 
-<li><p>Alle Workfront en alle planningspakketten</p></li>
-of
-<li><p>Willekeurige workflow en planningspakket</p></li></ul>
+<p>Alle Workfront en alle planningspakketten</p> <p>Willekeurige workflow en planningspakket</p>
 <p>Neem voor meer informatie over wat er in elk planningspakket voor Workfront staat, contact op met uw Workfront-accountvertegenwoordiger. </p> 
    </td> 
   <tr> 
@@ -63,7 +62,7 @@ of
 </tbody> 
 </table>
 
-Voor meer informatie over de toegangsvereisten van Workfront, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer informatie over de toegangsvereisten van Workfront, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++  
 
@@ -146,7 +145,7 @@ Voor meer informatie over de toegangsvereisten van Workfront, zie [&#x200B; vere
    * Formuliervelden
    * Gemaakt op
    * Laatst gewijzigd op
-   * <span class="preview"> Goedgekeurde datum, die door </span> wordt goedgekeurd
+   * Goedgekeurd op
    * Mensen
    * Als een multi- of single-select gebied wordt ingevoerd en het meer keuzen dan een gelijkaardig gebied in Planning heeft, worden de extra opties gecreeerd tijdens de invoer. Alleen gebruikers met de machtiging Beheren in de werkruimte kunnen nieuwe keuzen importeren.
 
@@ -162,22 +161,22 @@ Voor meer informatie over de toegangsvereisten van Workfront, zie [&#x200B; vere
 1. Klik op de kaart van het recordtype waar u de records wilt importeren.
 1. Klik **Nieuw verslag** in de hoger-juiste hoek van het scherm.
 
-   ![&#x200B; kies manier om verslagen drie knoopdoos toe te voegen &#x200B;](assets/choose-way-to-add-records-three-button-box.png)
+   ![ kies manier om verslagen drie knoopdoos toe te voegen ](assets/choose-way-to-add-records-three-button-box.png)
 1. Klik **uploaden van dossier**, dan **verdergaan**. <!--add screen shot when all three buttons are added - with the Submit a request button-->
 1. Sleep en laat vallen een Excel of Csv- dossier eerder op uw computer, of klik **Uitgezocht een Csv of dossier van Excel** om voor te doorbladeren.
 1. Klik **Voorproef en geef uit**.
 1. (Voorwaardelijk) als het ingevoerde dossier meer dan één blad heeft, selecteer het radioknoop van het blad u in **wilt invoeren Selecteer een blad om** doos in te voeren, dan klik **daarna**. Anders gaat u door met de volgende stap.
 
-   ![&#x200B; selecteer een blad om verslagen in te voeren &#x200B;](assets/select-a-sheet-to-import-box.png)
+   ![ selecteer een blad om verslagen in te voeren ](assets/select-a-sheet-to-import-box.png)
 1. In de **Kaart de gebieden van de Planning aan uw kolomkopballen** selecteren het **Geplande gebied** dat het best de informatie in elk van de kolommen van het blad aanpast.
 
-   ![&#x200B; Kaart de gebieden van de Planning aan kolommen wanneer het invoeren van verslagen &#x200B;](assets/map-planning-fields-to-columns-when-importing-records.png)
+   ![ Kaart de gebieden van de Planning aan kolommen wanneer het invoeren van verslagen ](assets/map-planning-fields-to-columns-when-importing-records.png)
 
    Elke rij vertegenwoordigt een nieuwe record. Alleen de eerste 10 records worden weergegeven in het vak Voorbeeld en bewerken.
 
    >[!TIP]
    >
-   >Niet alle veldtypen worden ondersteund. Voor meer informatie, zie de sectie [&#x200B; Overwegingen over het invoeren van verslagen gebruikend een Excel of Csv- dossier &#x200B;](#considerations-about-importing-records-using-an-excel-or-csv-file) in dit artikel.
+   >Niet alle veldtypen worden ondersteund. Voor meer informatie, zie de sectie [ Overwegingen over het invoeren van verslagen gebruikend een Excel of Csv- dossier ](#considerations-about-importing-records-using-an-excel-or-csv-file) in dit artikel.
 
 
 1. (Facultatief en voorwaardelijk) als u hebt leiden toestemmingen aan de werkruimte, **creeer ontbrekende opties** in de laag-linkerhoek van het scherm. Als deze optie is ingeschakeld, worden de ontbrekende keuzen van velden met één of meerdere selecties toegevoegd.

@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: a6eb8c7c-a34d-4c84-a45c-7e7f050a4302
-source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
+source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
 workflow-type: tm+mt
-source-wordcount: '366'
+source-wordcount: '365'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ U kunt in-app berichten van de Planning van Workfront ontvangen wanneer de volge
 
 * Iemand tagt u of uw teams in een recordopmerking
 
-  Voor informatie over het etiketteren van anderen in een verslagcommentaar, zie [&#x200B; recordcommentaren beheren &#x200B;](/help/quicksilver/planning/records/manage-record-comments.md).
+  Voor informatie over het etiketteren van anderen in een verslagcommentaar, zie [ recordcommentaren beheren ](/help/quicksilver/planning/records/manage-record-comments.md).
 * Iemand vraagt uw toestemming om een mening of een werkruimte te openen
 * Iemand bevestigt dat uw toegang is verleend voor een weergave of werkruimte <!--Isk confirmed there is no notification for denying permissions - did not test-->
 
@@ -42,10 +42,7 @@ U kunt in-app berichten van de Planning van Workfront ontvangen wanneer de volge
 <tr> 
    <td role="rowheader"><p>Adobe Workfront-pakket</p></td> 
    <td> 
-<ul> 
-<li><p>Alle Workfront en alle planningspakketten</p></li>
-of
-<li><p>Willekeurige workflow en planningspakket</p></li></ul>
+<p>Alle Workfront en alle planningspakketten</p> <p>Willekeurige workflow en planningspakket</p>
 <p>Neem voor meer informatie over wat er in elk planningspakket voor Workfront staat, contact op met uw Workfront-accountvertegenwoordiger. </p> 
    </td> 
   <tr> 
@@ -67,7 +64,7 @@ of
 </tbody> 
 </table>
 
-Voor meer informatie over de toegangsvereisten van Workfront, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer informatie over de toegangsvereisten van Workfront, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++   
 
@@ -145,9 +142,9 @@ OLD:
 
 ## Meldingen in de app beheren wanneer iemand u in een opmerking van tags voorziet
 
-1. (Voorwaardelijk) na iemand u of uw teams in een commentaar op een verslag etiketteert, ga naar het in-app **pictogram van Meldingen** pictogram ![&#x200B; de wolkenberichten van de Ervaring &#x200B;](assets/experience-cloud-notifications-icon.png) in Adobe Experience Cloud.
+1. (Voorwaardelijk) na iemand u of uw teams in een commentaar op een verslag etiketteert, ga naar het in-app **pictogram van Meldingen** pictogram ![ de wolkenberichten van de Ervaring ](assets/experience-cloud-notifications-icon.png) in Adobe Experience Cloud.
 
-   ![&#x200B; In-app meldingsvoorbeeld &#x200B;](assets/in-app-notification-example.png)
+   ![ In-app meldingsvoorbeeld ](assets/in-app-notification-example.png)
 
 1. Klik op het bericht.
 
@@ -162,4 +159,4 @@ U ontvangt meldingen in de app wanneer iemand u om toestemming vraagt of verleen
 
 Voor informatie over het verzoeken van, het verlenen van, of het ontkennen van toestemmingen aan een mening of een werkruimte, zie {de toestemmingen van 0} Verzoek aan een mening of een werkruimte [.](/help/quicksilver/planning/access/request-permissions.md)
 
-Voor informatie over het beheren van uw berichten van de Planning van Workfront, zie [&#x200B; de het berichtvoorkeur van de Planning van Adobe Workfront beheren &#x200B;](/help/quicksilver/planning/notifications/manage-notification-preferences.md).
+Voor informatie over het beheren van uw berichten van de Planning van Workfront, zie [ de het berichtvoorkeur van de Planning van Adobe Workfront beheren ](/help/quicksilver/planning/notifications/manage-notification-preferences.md).

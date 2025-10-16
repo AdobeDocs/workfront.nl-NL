@@ -6,20 +6,18 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 441a53d1-ad39-41b7-93fe-2ae1836476c9
-source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
+source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
 workflow-type: tm+mt
-source-wordcount: '391'
+source-wordcount: '286'
 ht-degree: 0%
 
 ---
 
 # Recordweergaven dupliceren
 
-<!--remove preview and production references-->
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>
-
-<span class="preview"> voor informatie over snelle versies, zie [&#x200B; snelle versies voor uw organisatie &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 
 {{planning-important-intro}}
@@ -48,10 +46,9 @@ Het dupliceren van weergaven is hetzelfde voor alle typen weergaven in Workfront
 <tr> 
    <td role="rowheader"><p>Adobe Workfront-pakket</p></td> 
    <td> 
-<ul> 
-<li><p>Alle Workfront en alle planningspakketten</p></li>
-of
-<li><p>Willekeurige workflow en planningspakket</p></li></ul>
+<p>Alle Workfront en alle planningspakketten</p>
+
+<p>Willekeurige workflow en planningspakket</p>
 <p>Neem voor meer informatie over wat er in elk planningspakket voor Workfront staat, contact op met uw Workfront-accountvertegenwoordiger. </p> 
    </td> 
   <tr> 
@@ -67,7 +64,7 @@ of
 </tbody> 
 </table>
 
-Voor meer informatie over de toegangsvereisten van Workfront, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer informatie over de toegangsvereisten van Workfront, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -141,11 +138,8 @@ Voor meer informatie over de toegangsvereisten van Workfront, zie [&#x200B; vere
    De pagina met recordtypen wordt geopend.
 Standaard worden alle records van het geselecteerde type weergegeven in de tabelweergave.
 
-1. Afhankelijk van de omgeving die u gebruikt, gaat u als volgt te werk:
+1. Klik het dropdown pictogram ![ Dropdown pictogram ](assets/drop-down-icon.png) naast de huidige meningsnaam, over de naam van een mening, klik **Meer**, dan **Dupliceer**.
 
-   * In het milieu van de Productie, houd over één van de namen van de mening in het meningslusje, dan klik **Meer** ![&#x200B; Meer menu &#x200B;](assets/more-menu.png) links van de meningsnaam, dan klik **&#x200B;**&#x200B;dupliceren.
-   * <span class="preview"> in het milieu van de Voorproef, klik het dropdown pictogram ![&#x200B; Dropdown pictogram &#x200B;](assets/drop-down-icon.png) naast de huidige meningsnaam, over de naam van een mening, klik **Meer**, dan **Dupliceer**.</span>
+   ![ Meer menu op mening met opties ](assets/more-menu-for-views-expanded-with-delete-option.png)
 
-     ![&#x200B; Meer menu op mening met opties &#x200B;](assets/more-menu-for-views-expanded-with-delete-option.png)
-
-     De weergave wordt gedupliceerd en de naam van de nieuwe weergave volgt het volgende patroon: `Original view's name (Copy)` . Het nieuwe meningslusje toont aan het eind van alle meningslusjes.
+   De weergave wordt gedupliceerd en de naam van de nieuwe weergave volgt het volgende patroon: `Original view's name (Copy)` . Het nieuwe meningslusje toont aan het eind van alle meningslusjes.

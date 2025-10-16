@@ -6,18 +6,18 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: f86971bc-e807-459e-9fa8-dc34967bc069
-source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
+source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
 workflow-type: tm+mt
-source-wordcount: '359'
+source-wordcount: '222'
 ht-degree: 0%
 
 ---
 
 # Recordweergaven verwijderen
 
-<span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview"> voor informatie over snelle versies, zie [&#x200B; snelle versies voor uw organisatie &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 
 {{planning-important-intro}}
@@ -42,11 +42,10 @@ De weergave wordt verwijderd voor alle gebruikers die toegangsrechten hebben. Ve
 <tr> 
    <td role="rowheader"><p>Adobe Workfront-pakket</p></td> 
    <td> 
-<ul> 
-<li><p>Alle Workfront en alle planningspakketten</p></li>
-of
-<li><p>Willekeurige workflow en planningspakket</p></li></ul>
-<p>Neem voor meer informatie over wat er in elk planningspakket voor Workfront staat, contact op met uw Workfront-accountvertegenwoordiger. </p> 
+   <p>Alle Workfront en alle planningspakketten</p>
+
+<p>Willekeurige workflow en planningspakket</p>
+   <p>Neem voor meer informatie over wat er in elk planningspakket voor Workfront staat, contact op met uw Workfront-accountvertegenwoordiger. </p> 
    </td> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront-licentie</p></td> 
@@ -61,7 +60,7 @@ of
 </tbody> 
 </table>
 
-Voor meer informatie over de toegangsvereisten van Workfront, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer informatie over de toegangsvereisten van Workfront, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++   
 
@@ -139,20 +138,10 @@ Voor meer informatie over de toegangsvereisten van Workfront, zie [&#x200B; vere
    Standaard worden alle records van het geselecteerde type weergegeven in de tabelweergave.
 
 
-1. Voer op het tabblad van de weergave een van de volgende handelingen uit:
+1. Van het lusje van de mening, klik het lusje van de mening, over de mening in het drop-down menu, klik **Meer** menu ![ Meer menu ](assets/more-menu.png), dan klik **Schrapping**.</span>
 
-   * Afhankelijk van de omgeving waarin u de weergave opent, voert u de volgende handelingen uit:
+   ![ Meer menu met opties ](assets/more-menu-for-views-expanded-with-delete-option.png)
 
-      * In het milieu van de Productie, houd over de lusjenaam van de mening u **Meer** menu ![&#x200B; Meer menu &#x200B;](assets/more-menu.png) aan het recht van de meningsnaam wilt delen en klikken, dan **Schrapping**.
-
-     >[!TIP]
-     >
-     >U zou **Meer** aan het recht van het laatste lusje kunnen moeten klikken om de mening te vinden u wilt schrappen.
-
-      * <span class="preview"> In het milieu van de Voorproef, klik het lusje van de mening, over de mening in het drop-down menu, klik het **Meer** menu ![&#x200B; Meer menu &#x200B;](assets/more-menu.png), dan klik **Schrapping**.</span>
-
-     ![&#x200B; Meer menu met opties &#x200B;](assets/more-menu-for-views-expanded-with-delete-option.png)
-
-1. Klik **Schrapping** om te bevestigen. <!--ensure there is not another saving step here?!-->
+1. Klik **Schrapping** om te bevestigen.
 
    De weergave wordt verwijderd voor alle gebruikers die toegang hebben tot het recordgebied.

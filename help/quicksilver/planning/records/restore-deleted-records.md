@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 8b6df633-eb05-4d3e-bfe6-76cedabdb76d
-source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
+source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '389'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 U kunt verwijderde records uit het onlangs verwijderde gebied in Adobe Workfront Planning herstellen.
 
-Voor informatie over het schrappen van verslagen, zie [&#x200B; verslagen van de Schrapping &#x200B;](/help/quicksilver/planning/records/delete-records.md).
+Voor informatie over het schrappen van verslagen, zie [ verslagen van de Schrapping ](/help/quicksilver/planning/records/delete-records.md).
 
 ## Toegangsvereisten
 
@@ -41,10 +41,7 @@ Voor informatie over het schrappen van verslagen, zie [&#x200B; verslagen van de
 <tr> 
    <td role="rowheader"><p>Adobe Workfront-pakket</p></td> 
    <td> 
-<ul> 
-<li><p>Alle Workfront en alle planningspakketten</p></li>
-of
-<li><p>Willekeurige workflow en planningspakket</p></li></ul>
+<p>Alle Workfront en alle planningspakketten</p> <p>Willekeurige workflow en planningspakket</p>
 <p>Neem voor meer informatie over wat er in elk planningspakket voor Workfront staat, contact op met uw Workfront-accountvertegenwoordiger. </p> 
    </td> 
   <tr> 
@@ -60,7 +57,7 @@ of
 </tbody> 
 </table>
 
-Voor meer informatie over de toegangsvereisten van Workfront, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer informatie over de toegangsvereisten van Workfront, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++   
 
@@ -128,7 +125,7 @@ Voor meer informatie over de toegangsvereisten van Workfront, zie [&#x200B; vere
 * Als de verwijderde records zijn gekoppeld aan andere records, worden de gekoppelde records niet verwijderd, maar worden de gegevens uit de verwijderde record ook verwijderd. Door de verwijderde records te herstellen, worden de gegevens uit de verbonden records hersteld.
 * U kunt records bulksgewijs herstellen.
 * Wanneer de records worden verwijderd, wordt de volgende informatie opgeslagen in het vak Onlangs verwijderd:
-   * **Naam**: Dit is de informatie op het Primaire gebied van het verslag. Voor meer informatie over primaire gebieden van het verslag, zie [&#x200B; Primair gebiedsoverzicht &#x200B;](/help/quicksilver/planning/fields/primary-field-overview.md).
+   * **Naam**: Dit is de informatie op het Primaire gebied van het verslag. Voor meer informatie over primaire gebieden van het verslag, zie [ Primair gebiedsoverzicht ](/help/quicksilver/planning/fields/primary-field-overview.md).
    * **Geschrapte datum**: De tijd en de datum toen het verslag werd geschrapt.
    * **Tijd in onlangs geschrapt**: De tijd sinds het verslag werd geschrapt. Records die meer dan 30 dagen vóór de huidige datum zijn verwijderd, worden niet weergegeven in het recent verwijderde vak.
    * **die door** wordt geschrapt: De naam van de gebruiker die het verslag schrapte.
@@ -136,11 +133,11 @@ Voor meer informatie over de toegangsvereisten van Workfront, zie [&#x200B; vere
 ## Verwijderde records herstellen
 
 1. Ga naar de pagina met recordtypen waarop u records hebt verwijderd.
-1. Klik **ongedaan maken** pictogram ![&#x200B; pictogram &#x200B;](assets/undo-icon.png) in de hoger-juiste hoek van om het even welke verslagtype paginamening, dan klik onlangs geschrapt **&#x200B;**.
+1. Klik **ongedaan maken** pictogram ![ pictogram ](assets/undo-icon.png) in de hoger-juiste hoek van om het even welke verslagtype paginamening, dan klik onlangs geschrapt ****.
 
    De **onlangs geschrapte** vakvertoningen.
 
-   ![&#x200B; onlangs geschrapt doos &#x200B;](assets/recently-deleted-box.png)
+   ![ onlangs geschrapt doos ](assets/recently-deleted-box.png)
 
 1. Selecteer de verslagen u wilt schrappen, dan **herstellen** > **herstellen**. U kunt meerdere records selecteren.
 
