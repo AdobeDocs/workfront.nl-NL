@@ -5,16 +5,15 @@ title: Weergaven maken in het gebied Verzoeken
 description: Als u gebruikmaakt van de nieuwe ervaring voor aanvragen, kunt u weergaven maken en opslaan voor het gebied Verzoeken.
 author: Becky
 feature: Work Management
-source-git-commit: 1c7e2fb7de500083f0f7e42f1016323305054d88
+source-git-commit: 1a56846647e443cf3f5f09eed8c3084434de5ddb
 workflow-type: tm+mt
-source-wordcount: '608'
+source-wordcount: '587'
 ht-degree: 0%
 
 ---
 
 # Weergaven maken of bewerken in het gebied Verzoeken
 
-<span class="preview"> de informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Het is beschikbaar slechts in het milieu van de Sandbox van de Voorproef.</span>
 
 Als u gebruikmaakt van de nieuwe ervaring voor aanvragen, kunt u weergaven maken en opslaan voor het gebied Verzoeken. Deze weergaven omvatten filters en kolomschikkingen.
 
@@ -49,7 +48,7 @@ Als u gebruikmaakt van de nieuwe ervaring voor aanvragen, kunt u weergaven maken
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -64,14 +63,14 @@ Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van d
    * Uw beheerder heeft u toegang verleend tot de Planning van Workfront
    * U hebt minstens weergavemachtigingen voor een Workfront-planningswerkruimte
 
-   Voor meer informatie, zie [&#x200B; de Verzoeken van de Planning van Adobe Workfront voorleggen om verslagen &#x200B;](/help/quicksilver/planning/requests/submit-requests.md) tot stand te brengen
+   Voor meer informatie, zie [ de Verzoeken van de Planning van Adobe Workfront voorleggen om verslagen ](/help/quicksilver/planning/requests/submit-requests.md) tot stand te brengen
 
-1. Klik de **dropdown** Meningen 1&rbrace; van Meningen ![&#x200B; en selecteer &#x200B;](assets/view-icon-requests.png) Nieuwe mening **.**
+1. Klik de **dropdown** Meningen 1} van Meningen ![ en selecteer ](assets/view-icon-requests.png) Nieuwe mening **.**
 
-   ![&#x200B; Nieuwe mening &#x200B;](assets/create-new-view.png)
+   ![ Nieuwe mening ](assets/create-new-view.png)
 
 1. Ga een naam voor de nieuwe mening in, en klik **creeer**.
-1. Ga aan [&#x200B; uit uitgeven een mening op het gebied van Verzoeken &#x200B;](#edit-a-view-in-the-requests-area).
+1. Ga aan [ uit uitgeven een mening op het gebied van Verzoeken ](#edit-a-view-in-the-requests-area).
 
 ## Een weergave bewerken in het gebied Verzoeken
 
@@ -86,13 +85,13 @@ U kunt bestaande weergaven bewerken, inclusief de weergaven die u zojuist hebt g
    * Uw beheerder heeft u toegang verleend tot de Planning van Workfront
    * U hebt minstens weergavemachtigingen voor een Workfront-planningswerkruimte
 
-   Voor meer informatie, zie [&#x200B; de Verzoeken van de Planning van Adobe Workfront voorleggen om verslagen &#x200B;](/help/quicksilver/planning/requests/submit-requests.md) 1 tot stand te brengen.
+   Voor meer informatie, zie [ de Verzoeken van de Planning van Adobe Workfront voorleggen om verslagen ](/help/quicksilver/planning/requests/submit-requests.md) 1 tot stand te brengen.
 
-1. (Facultatief) om een mening anders te noemen, klik **dropdown** Meningen ![&#x200B; en klik het drie-punt menu naast de mening, &#x200B;](assets/view-icon-requests.png) anders noemen **, dan type in de nieuwe naam voor de mening.**
-1. Klik de **dropdown** drop-down Meningen ![&#x200B; en selecteer de mening u wilt uitgeven.](assets/view-icon-requests.png)
+1. (Facultatief) om een mening anders te noemen, klik **dropdown** Meningen ![ en klik het drie-punt menu naast de mening, ](assets/view-icon-requests.png) anders noemen **, dan type in de nieuwe naam voor de mening.**
+1. Klik de **dropdown** drop-down Meningen ![ en selecteer de mening u wilt uitgeven.](assets/view-icon-requests.png)
 1. (Facultatief) klik **Filters** en begin voorwaarden toe te voegen voor welke verzoeken u in de Planning tabel wilt bekijken.
 
-   ![&#x200B; het Uitgeven filters in de Verzoeken tabel van de Planning &#x200B;](assets/filters-editing-box-in-requests-planning-tab.png)
+   ![ het Uitgeven filters in de Verzoeken tabel van de Planning ](assets/filters-editing-box-in-requests-planning-tab.png)
 
    U kunt filteren op de volgende velden:
 
@@ -108,7 +107,7 @@ De aanvraaglijst wordt automatisch gefilterd, aangezien u de filtervoorwaarden t
 
 1. (Facultatief) klik **Kolommen** en verberg, toon, of herschik de kolommen in de verzoeklijst.
 
-   ![&#x200B; doos van Kolommen &#x200B;](assets/columns-editing-box-in-requests-planning-tab.png)
+   ![ doos van Kolommen ](assets/columns-editing-box-in-requests-planning-tab.png)
 
    >[!TIP]
    >
@@ -123,4 +122,4 @@ De aanvraaglijst wordt automatisch gefilterd, aangezien u de filtervoorwaarden t
 
 Een Workfront-beheerder kan de nieuwe weergave toevoegen aan lay-outsjablonen.
 
-Voor instructies, zie [&#x200B; Filters, Mening, en Groepen aanpassen gebruikend een lay-outmalplaatje &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md).
+Voor instructies, zie [ Filters, Mening, en Groepen aanpassen gebruikend een lay-outmalplaatje ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md).

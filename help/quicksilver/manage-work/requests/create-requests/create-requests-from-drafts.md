@@ -6,16 +6,14 @@ description: Naast het gebruik van de beschikbare concepten die Workfront u voor
 author: Becky
 feature: Work Management
 exl-id: 664004e7-04c8-4a1f-b682-7b82d349643d
-source-git-commit: 9cdf3d78e1d19f3d581f8d527919a608c5cc0ddc
+source-git-commit: 1a56846647e443cf3f5f09eed8c3084434de5ddb
 workflow-type: tm+mt
-source-wordcount: '664'
+source-wordcount: '618'
 ht-degree: 0%
 
 ---
 
 # Verzoeken maken op basis van concepten
-
-<span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>
 
 Naast het gebruik van de beschikbare concepten die Workfront u voorstelt wanneer u een nieuw verzoek invoert, kunt u ook een conceptverzoek vanuit de sectie Concepten openen en de aanvraag van daaruit voltooien.
 
@@ -48,7 +46,7 @@ Naast het gebruik van de beschikbare concepten die Workfront u voorstelt wanneer
  </tbody> 
 </table>
 
-Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -58,7 +56,7 @@ U moet het volgende doen alvorens u een verzoek van een ontwerp kunt tot stand b
 
 * Start met het maken van een aanvraag. Hiermee slaat u het verzoek automatisch als een concept op in de sectie Concepten.
 
-  Voor informatie over het creëren van verzoeken, zie [&#x200B; Adobe Workfront verzoeken &#x200B;](../../../manage-work/requests/create-requests/create-submit-requests.md) creëren en voorleggen.
+  Voor informatie over het creëren van verzoeken, zie [ Adobe Workfront verzoeken ](../../../manage-work/requests/create-requests/create-submit-requests.md) creëren en voorleggen.
 
 ## Verzoeken maken op basis van concepten
 
@@ -88,14 +86,14 @@ U moet het volgende doen alvorens u een verzoek van een ontwerp kunt tot stand b
    >
    >U kunt geen permanente filters toepassen in de sectie Concepten van het gebied Verzoeken. Bovendien zijn er geen opties om de weergave van de lijst met concepten te wijzigen of te wijzigen.
 
-1. Werk de informatie voor het verzoek bij zoals die in [&#x200B; wordt beschreven leidt tot en legt verzoeken van Adobe Workfront &#x200B;](../../../manage-work/requests/create-requests/create-submit-requests.md) voor.
-1. (Facultatief en voorwaardelijk) op om het even welk punt tijdens het ingaan van het verzoek, klik **verwerpen** ontwerp als u het ontwerp wilt schrappen. Hiermee verwijdert u het concept dat niet kan worden hersteld. Voor meer informatie over het schrappen van concepten, zie [&#x200B; een verzoekontwerp &#x200B;](../../../manage-work/requests/create-requests/delete-request-draft.md) schrappen.
+1. Werk de informatie voor het verzoek bij zoals die in [ wordt beschreven leidt tot en legt verzoeken van Adobe Workfront ](../../../manage-work/requests/create-requests/create-submit-requests.md) voor.
+1. (Facultatief en voorwaardelijk) op om het even welk punt tijdens het ingaan van het verzoek, klik **verwerpen** ontwerp als u het ontwerp wilt schrappen. Hiermee verwijdert u het concept dat niet kan worden hersteld. Voor meer informatie over het schrappen van concepten, zie [ een verzoekontwerp ](../../../manage-work/requests/create-requests/delete-request-draft.md) schrappen.
 
 1. (Facultatief) klik **annuleert** in de laag-linkerhoek van de pagina als u uw actie wilt terugkeren en het ontwerp houden.
 
 1. Voer een van de volgende handelingen uit nadat u de informatie voor het verzoek hebt voltooid:
 
-   * Klik **voorleggen** als u bereid bent om het verzoek voor te leggen. De aanvraag wordt opgeslagen in de sectie Verzenden. Afhankelijk van de Verpletterende Regel van de Rij van het Verzoek, zou dit verzoek aan een verschillend project dan kunnen worden verpletterd die als Rij van het Verzoek wordt aangewezen. Voor informatie over het verpletteren van regels, zie [&#x200B; het Verpletteren van Regels &#x200B;](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md) creëren.
+   * Klik **voorleggen** als u bereid bent om het verzoek voor te leggen. De aanvraag wordt opgeslagen in de sectie Verzenden. Afhankelijk van de Verpletterende Regel van de Rij van het Verzoek, zou dit verzoek aan een verschillend project dan kunnen worden verpletterd die als Rij van het Verzoek wordt aangewezen. Voor informatie over het verpletteren van regels, zie [ het Verpletteren van Regels ](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md) creëren.
 
      of
 
@@ -107,6 +105,6 @@ U moet het volgende doen alvorens u een verzoek van een ontwerp kunt tot stand b
 
    >[!NOTE]
    >
-   >* <span class="preview"> in de nieuwe het vragen ervaring, zijn de concepten in de zelfde lijst zoals voorgelegde verzoeken.</span>
-   ><span class="preview"> voor meer informatie bij het creëren van verzoeken in de nieuwe ervaring, zie [&#x200B; verzoeken creëren en ontwerpen in het Web van Workfront produceren app &#x200B;](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md#create-requests-and-generate-drafts-in-the-workfront-web-app) in het artikel creëren en verzoeken voorleggen.</span>
+   >In de nieuwe ervaring met aanvragen staan concepten in dezelfde lijst als de ingediende verzoeken.
+   >Voor meer informatie bij het creëren van verzoeken in de nieuwe ervaring, zie [ verzoeken tot stand brengen en ontwerpen in Workfront Web app ](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md#create-requests-and-generate-drafts-in-the-workfront-web-app) in het artikel produceren en verzoeken voorleggen.
 

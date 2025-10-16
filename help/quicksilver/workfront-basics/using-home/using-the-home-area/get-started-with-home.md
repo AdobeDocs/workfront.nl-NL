@@ -6,9 +6,9 @@ description: Met Home kunt u uw werk beheren. U kunt deze flexibele ruimte aanpa
 author: Courtney
 feature: Get Started with Workfront
 exl-id: eddb2db0-88c5-40f9-ba05-14839a3dfc7f
-source-git-commit: 1cb165e826ee57483989474c095553a08e33bc9a
+source-git-commit: 1a56846647e443cf3f5f09eed8c3084434de5ddb
 workflow-type: tm+mt
-source-wordcount: '1105'
+source-wordcount: '1029'
 ht-degree: 0%
 
 ---
@@ -20,8 +20,6 @@ ht-degree: 0%
 >[!IMPORTANT]
 >
 >Inhoud in dit artikel is vervangen door inhoud uit het artikel Aan de slag met een nieuw artikel Home. Nieuwe startpagina wordt nu Home genoemd.
-
-<span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>
 
 De nieuwe Home-ervaring in Adobe Workfront is bedoeld om de huidige Home-ervaring te verbeteren en biedt een flexibelere manier om u te richten op het juiste werk.
 
@@ -35,7 +33,7 @@ Het nieuwe Huis wordt ontworpen om hoogst aanpasbaar te zijn, toestaand u om wid
 
 Widgets vormen de basis van het nieuwe startpunt. Door widgets aan uw startpagina toe te voegen, kunt u het type informatie kiezen dat wordt weergegeven om optimaal aan uw werkbehoeften te voldoen. Sommige widgets zijn alleen beschikbaar voor specifieke licentietypen, aangezien de objecten die ze bijhouden alleen beschikbaar zijn voor die licenties.
 
-Voor informatie bij het toevoegen van, het bewegen van, het resizing van, of het schrappen van widgets, zie [&#x200B; toevoegen, uitgeven, of verwijder widgets in Nieuw Huis &#x200B;](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md).
+Voor informatie bij het toevoegen van, het bewegen van, het resizing van, of het schrappen van widgets, zie [ toevoegen, uitgeven, of verwijder widgets in Nieuw Huis ](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md).
 
 Hieronder vindt u een overzicht van de 11 widgets die u momenteel kunt kiezen, en een overzicht van de gegevens die worden weergegeven:
 
@@ -55,9 +53,7 @@ Hieronder vindt u een overzicht van de 11 widgets die u momenteel kunt kiezen, e
     Hiermee geeft u problemen weer die aan u zijn toegewezen in een lijst. U kunt bestaande filters, weergaven of groepen gebruiken om de lijst aan te passen, of u kunt een uitgave rechtstreeks vanuit de widget maken. Deze widget bevat alleen problemen waarvan de bijbehorende projecten zijn ingesteld op Huidig en die geen voltooide projecten bevatten. U kunt uw kwesties ook delegeren terwijl u weg van het bureau bent.
 
 * **Mijn verzoeken**\
-    Hiermee geeft u alle verzoeken weer die u hebt verzonden, een filter om alleen open aanvragen weer te geven en een knop waarmee het overzichtsvenster voor een aanvraag wordt geopend.
-
-  <span class="preview"> in het milieu van de Voorproef, toont deze widget alle verzoeken u hebt voorgelegd, een filter om slechts verzoeken te tonen die aan criteria voldoen u specificeert, en een knoop die u toestaat om de kolommen in widget te herschikken. Als u toegang tot de Planning van Workfront hebt, verschijnen uw verzoeken van de Planning ook hier.</span>
+    Hiermee geeft u alle verzoeken weer die u hebt verzonden, een filter om alleen aanvragen weer te geven die aan door u opgegeven criteria voldoen, en een knop waarmee u de kolommen in de widget opnieuw kunt rangschikken. Als u toegang tot de Planning van Workfront hebt, verschijnen uw Verzoeken van de Planning ook hier.
 
 
 * **verzoeken van het Team**\
@@ -67,7 +63,7 @@ Hieronder vindt u een overzicht van de 11 widgets die u momenteel kunt kiezen, e
     Toont al uw hangende, toegewezen, gedelegeerde en verzonden goedkeuringen; een knoop om goedkeuringen te delegeren; en knopen om goedkeuringsbesluiten direct binnen widget te nemen.
 
 * **metriek van de Goedkeuring van het Document**\
-        Toont 2 grafieken met informatie over gemiddelde tijd en besluiten van de documentgoedkeuring evenals lijstmeningen van hangende en achterstallige goedkeuringen. U moet [&#x200B; Verenigde Goedkeuringen &#x200B;](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md) hebben die worden toegelaten om deze widget te gebruiken.
+        Toont 2 grafieken met informatie over gemiddelde tijd en besluiten van de documentgoedkeuring evenals lijstmeningen van hangende en achterstallige goedkeuringen. U moet [ Verenigde Goedkeuringen ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md) hebben die worden toegelaten om deze widget te gebruiken.
 
 * **Vermeldingen**\
     Geeft recente commentaarthreads van over Workfront weer, vergelijkbaar met de pagina Mijn updates. U kunt de antwoordknoop gebruiken om een antwoord binnen widget samen te stellen. Deze widget bevat ook opmerkingen over taken en problemen die u hebt toegewezen, die u hebt toegewezen aan een andere gebruiker, die u hebt, waarop u primair contact hebt gemaakt of die u hebt gemaakt, zolang de taak of uitgave in de afgelopen 30 dagen is bijgewerkt.
@@ -143,12 +139,12 @@ U kunt een beetje persoonlijke flakkering aan uw Homepage toevoegen door een kle
 
 1. Ga naar uw startpagina door een van de volgende handelingen uit te voeren:
 
-   * Als het Huis als uw het landen pagina wordt geplaatst, klik het **pictogram van Adobe Workfront** het Pictogram van Adobe Workfront ![&#x200B; in de upper-left hoek van uw scherm.](assets/home-icon-30x29.png)
-   * Klik het **Belangrijkste pictogram van het Menu** in de hoger-juiste hoek van het scherm, of het **Belangrijkste pictogram van het Menu** pictogram van het Menu ![&#x200B; Hoofd &#x200B;](assets/main-menu-icon.png) in de upper-left hoek, als beschikbaar, dan klik **Huis**.
+   * Als het Huis als uw het landen pagina wordt geplaatst, klik het **pictogram van Adobe Workfront** het Pictogram van Adobe Workfront ![ in de upper-left hoek van uw scherm.](assets/home-icon-30x29.png)
+   * Klik het **Belangrijkste pictogram van het Menu** in de hoger-juiste hoek van het scherm, of het **Belangrijkste pictogram van het Menu** pictogram van het Menu ![ Hoofd ](assets/main-menu-icon.png) in de upper-left hoek, als beschikbaar, dan klik **Huis**.
 
 1. Klik **aanpassen** bij de hoger-juiste hoek van het scherm.
 
-   ![&#x200B; pas Knoop &#x200B;](assets/customize-button.png) aan
+   ![ pas Knoop ](assets/customize-button.png) aan
 
    Het deelvenster Aanpassen wordt geopend.
 

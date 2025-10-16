@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: f92ceed7-b191-425b-9fff-1b0947f32db8
-source-git-commit: 1b7964b533093c4eee20d69a74512a145e207e29
+source-git-commit: 1a56846647e443cf3f5f09eed8c3084434de5ddb
 workflow-type: tm+mt
-source-wordcount: '795'
+source-wordcount: '735'
 ht-degree: 0%
 
 ---
@@ -22,10 +22,6 @@ DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH T
 -->
 
 <!--Audited: 05/2024-->
-
-<span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>
-
-<span class="preview"> voor informatie over snelle versies, zie [&#x200B; snelle versies voor uw organisatie &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
 
 {{important-admin-console-onboard}}
 
@@ -61,7 +57,7 @@ We raden u aan uw systeemvoorkeuren tijdens de Workfront-implementatie te config
  </tbody> 
 </table>
 
-Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -128,16 +124,16 @@ Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van W
       <td>Hiermee kunt u ervoor kiezen om de werklijstervaring Prioriteiten in of uit te schakelen voor uw gebruikers. Gebruikers zien nog steeds de Prioriteitspictogrammen in Workfront, maar ze hebben geen toegang tot de functionaliteit. Voor meer informatie over Prioriteiten, zie <a href="/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md"> begonnen worden met Prioriteiten </a>.</td> 
      </tr>
      <tr> 
-      <td role="rowheader"><span class="preview"> laat AI </span> toe </td> 
-      <td><span class="preview">Hiermee kunt u AI inschakelen, inclusief AI Assistant. <p><b> Nota </b>: Uw organisatie moet aan specifieke vereisten voldoen om AI toe te laten. Voor meer informatie over AI, met inbegrip van de vereisten, zie <a href="/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md"> AI Hulpoverzicht </a>.</p></span></td> 
+      <td role="rowheader">AI inschakelen </td> 
+      <td>Hiermee kunt u AI inschakelen, inclusief AI Assistant. <p><b> Nota </b>: Uw organisatie moet aan specifieke vereisten voldoen om AI toe te laten. Voor meer informatie over AI, met inbegrip van de vereisten, zie <a href="/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md"> AI Hulpoverzicht </a>.</p></td> 
      </tr>
      <tr> 
-      <td role="rowheader"><span class="preview">Formulier automatisch aanvullen </span></td> 
-      <td><span class="preview">Hiermee kunt u de mogelijkheid inschakelen om aanvraagformulieren automatisch in te vullen op basis van eerdere aanvraaggegevens. Voor meer informatie over Auto-Volledige Vorm, zie <a href="/help/quicksilver/manage-work/requests/create-requests/autofill-suggestions-from-previous.md"> auto-Vul een verzoek van vorige gegevens </a>.</span></td> 
+      <td role="rowheader">Formulier automatisch aanvullen </td> 
+      <td>Hiermee kunt u de mogelijkheid inschakelen om aanvraagformulieren automatisch in te vullen op basis van eerdere aanvraaggegevens. Voor meer informatie over Auto-Volledige Vorm, zie <a href="/help/quicksilver/manage-work/requests/create-requests/autofill-suggestions-from-previous.md"> auto-Vul een verzoek van vorige gegevens </a>.</td> 
      </tr>
      <tr> 
-      <td role="rowheader"><span class="preview">Aanmelden bij AI Betas </span></td> 
-      <td><span class="preview">Hiermee kunt u AI-functies inschakelen die zich momenteel in Beta bevinden. Als u deze optie inschakelt, kunt u selecteren welke AI Beta-functies u wilt inschakelen. Voor meer informatie over elke AI Beta-functie klikt u op het informatiepictogram naast die functie.</span></td> 
+      <td role="rowheader">Aanmelden bij AI Betas </td> 
+      <td>&gt;Hiermee kunt u AI-functies inschakelen die momenteel in Beta zijn geïnstalleerd. Als u deze optie inschakelt, kunt u selecteren welke AI Beta-functies u wilt inschakelen. Voor meer informatie over elke AI Beta-functie klikt u op het informatiepictogram naast die functie.</td> 
      </tr>
      <tr> 
       <td role="rowheader">Testomgevingen</td> 
