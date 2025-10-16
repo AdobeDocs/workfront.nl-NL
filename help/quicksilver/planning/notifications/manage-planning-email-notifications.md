@@ -26,11 +26,11 @@ U kunt e-mailmeldingen ontvangen van Workfront Planning wanneer de volgende scen
 
 * Iemand tagt u of uw teams in een recordopmerking
 
-  Voor informatie over het etiketteren van anderen in een verslagcommentaar, zie [ recordcommentaren beheren ](/help/quicksilver/planning/records/manage-record-comments.md).
+  Voor informatie over het etiketteren van anderen in een verslagcommentaar, zie [&#x200B; recordcommentaren beheren &#x200B;](/help/quicksilver/planning/records/manage-record-comments.md).
 * Iemand vraagt uw toestemming om een mening of een werkruimte te openen
 * Iemand bevestigt dat uw toegang is verleend voor een weergave of werkruimte <!--Isk confirmed that there is nno email for denying access but did not test-->
-* Je verzendt een aanvraag voor Workfront-planning. Voor informatie, zie [ creeer en beheer een verzoekvorm in de Planning van Adobe Workfront ](/help/quicksilver/planning/requests/create-request-form.md)
-* Iemand keurt of verwerpt een Workfront-planningsverzoek dat u hebt ingediend goed. Voor informatie, zie [ een verzoek in de Planning van Adobe Workfront goedkeuren ](/help/quicksilver/planning/requests/approve-request.md)
+* Je verzendt een aanvraag voor Workfront-planning. Voor informatie, zie [&#x200B; creeer en beheer een verzoekvorm in de Planning van Adobe Workfront &#x200B;](/help/quicksilver/planning/requests/create-request-form.md)
+* Iemand keurt of verwerpt een Workfront-planningsverzoek dat u hebt ingediend goed. Voor informatie, zie [&#x200B; een verzoek in de Planning van Adobe Workfront goedkeuren &#x200B;](/help/quicksilver/planning/requests/approve-request.md)
 * De status verandert in een Workfront-planningsverzoek dat u hebt verzonden.
 
 ## Toegangsvereisten
@@ -71,7 +71,7 @@ U kunt e-mailmeldingen ontvangen van Workfront Planning wanneer de volgende scen
 </tbody> 
 </table>
 
-Voor meer informatie over de toegangsvereisten van Workfront, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer informatie over de toegangsvereisten van Workfront, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -149,7 +149,7 @@ OLD:
 
 1. (Voorwaardelijk en optioneel) Nadat iemand u of uw team tags heeft toegevoegd aan een opmerking in een record, gaat u naar het e-mailbericht dat u op de hoogte brengt van de tag en de opmerking. De afzender van de e-mail is Adobe Experience Cloud.
 
-   ![ E-mail- berichten voorbeeld ](assets/email-notification-example.png)
+   ![&#x200B; E-mail- berichten voorbeeld &#x200B;](assets/email-notification-example.png)
 
 1. (Facultatief) klik het bericht in het **Workfront** vakje binnen e-mail.
 
@@ -172,7 +172,7 @@ De **pagina van Meldingen** opent in Adobe Experience Cloud. Alle berichten van 
 
 Voor informatie over het verzoeken van, het verlenen van, of het ontkennen van toestemmingen aan een mening of een werkruimte, zie {de toestemmingen van 0} Verzoek aan een mening of een werkruimte [.](/help/quicksilver/planning/access/request-permissions.md)
 
-Voor informatie over het beheren van uw berichten van de Planning van Workfront, zie [ de het berichtvoorkeur van de Planning van Adobe Workfront beheren ](/help/quicksilver/planning/notifications/manage-notification-preferences.md).
+Voor informatie over het beheren van uw berichten van de Planning van Workfront, zie [&#x200B; de het berichtvoorkeur van de Planning van Adobe Workfront beheren &#x200B;](/help/quicksilver/planning/notifications/manage-notification-preferences.md).
 
 ## E-mailmeldingen beheren over het verzenden, goedkeuren of negeren van Workfront-planningsverzoeken
 
@@ -181,6 +181,6 @@ nadat u een verzoek hebt ingediend of nadat een door u ingediend verzoek is goed
 
 1. (Facultatief) klik **Open verzoek**. Dit opent het verzoek in de Planning van Workfront.
 
-1. Klik het **pictogram van de Meldingen** pictogram van het het gebiedspictogram van ![ in de hoger-juiste hoek van het scherm ](assets/notifications-area-icon-unified-shell.png) **pagina van Meldingen toegang te hebben.**
+1. Klik het **pictogram van de Meldingen** pictogram van het het gebiedspictogram van ![&#x200B; in de hoger-juiste hoek van het scherm &#x200B;](assets/notifications-area-icon-unified-shell.png) **pagina van Meldingen toegang te hebben.**
 
-   Voor informatie over het beheren van uw berichten van de Planning van Workfront, zie [ de het berichtvoorkeur van de Planning van Adobe Workfront beheren ](/help/quicksilver/planning/notifications/manage-notification-preferences.md).
+   Voor informatie over het beheren van uw berichten van de Planning van Workfront, zie [&#x200B; de het berichtvoorkeur van de Planning van Adobe Workfront beheren &#x200B;](/help/quicksilver/planning/notifications/manage-notification-preferences.md).

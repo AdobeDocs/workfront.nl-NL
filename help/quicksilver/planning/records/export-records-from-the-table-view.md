@@ -63,7 +63,7 @@ U kunt verslagen en hun informatie van de lijstmening naar een Excel of een Csv-
 </tbody> 
 </table>
 
-Voor meer informatie over de toegangsvereisten van Workfront, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer informatie over de toegangsvereisten van Workfront, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++   
 
@@ -141,13 +141,13 @@ Informatie exporteren uit de tabelweergave of een recordtype:
 1. Ga naar een pagina met recordtypen en klik op een tabblad met tabelweergave.
 1. Voer een van de volgende handelingen uit:
 
-   * Beweeg over de naam van het lusje van de lijstmening, dan klik **Meer** menu ![ Meer menu ](assets/more-menu.png) rechts van de meningsnaam, dan klik **Uitvoer**.
+   * Beweeg over de naam van het lusje van de lijstmening, dan klik **Meer** menu ![&#x200B; Meer menu &#x200B;](assets/more-menu.png) rechts van de meningsnaam, dan klik **Uitvoer**.
 
-   ![ Meer menu op een mening ](assets/view-more-menu-with-duplicate-option.png)
+   ![&#x200B; Meer menu op een mening &#x200B;](assets/view-more-menu-with-duplicate-option.png)
 
    * Klik **Aandeel** > **Uitvoer de huidige mening**. Deze optie is alleen beschikbaar wanneer u de tabelweergave weergeeft.
 
-   ![ knoop van het Aandeel met verslagtype en mening die opties delen ](assets/share-button-with-record-type-and-view-sharing-options.png)
+   ![&#x200B; knoop van het Aandeel met verslagtype en mening die opties delen &#x200B;](assets/share-button-with-record-type-and-view-sharing-options.png)
 
 1. Selecteer een van de volgende indelingen:
 

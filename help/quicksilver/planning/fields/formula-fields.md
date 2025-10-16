@@ -27,7 +27,7 @@ U kunt douanegebieden in de Planning van Adobe Workfront tot stand brengen door 
 
 Formulervelden genereren een nieuwe waarde met behulp van bestaande waarden uit andere velden in een recordtype en een functie die aangeeft hoe de bestaande waarden moeten worden berekend.
 
-Voor informatie, zie de &quot;sectie van de Formule&quot;in artikel [ gebieden ](/help/quicksilver/planning/fields/create-fields.md) creëren.
+Voor informatie, zie de &quot;sectie van de Formule&quot;in artikel [&#x200B; gebieden &#x200B;](/help/quicksilver/planning/fields/create-fields.md) creëren.
 
 <!--do we need these for an overview article?
 
@@ -147,7 +147,7 @@ For more information about Workfront access requirements, see [Access requiremen
    * Tags
    * Datum
 
-  Voor meer informatie, zie de &quot;sectie van de Formule&quot;in artikel [ gebieden ](/help/quicksilver/planning/fields/create-fields.md) creëren.
+  Voor meer informatie, zie de &quot;sectie van de Formule&quot;in artikel [&#x200B; gebieden &#x200B;](/help/quicksilver/planning/fields/create-fields.md) creëren.
 * U kunt in nieuwe formules verwijzen naar formuleringsvelden. Zodra de waarde wordt bijgewerkt in een veld waarnaar wordt verwezen in een formuleveld, worden alle volgende velden die verwijzen naar dat veld of naar formulevelden die dat veld bevatten, automatisch bijgewerkt.
 
 * Wanneer u een formuleringsgebied of een gebied bijwerkt dat het kon beïnvloeden, brengt een alarm u op de hoogte van de invloed van uw verandering. De waarschuwing wordt in de volgende gevallen weergegeven:
@@ -190,7 +190,7 @@ De de formules van de Planning van Adobe Workfront gebieden steunen de meeste ui
 
 <!--remove the ones commented out when we go live to Preview and Prod, if they truly are added to Planning-->
 
-Voor een volledige lijst van de uitdrukkingen van Workfront, zie [ Overzicht van berekende gegevensuitdrukkingen ](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+Voor een volledige lijst van de uitdrukkingen van Workfront, zie [&#x200B; Overzicht van berekende gegevensuitdrukkingen &#x200B;](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
 
 Daarnaast ondersteunen we de volgende expressies voor velden in de formule Workfront Planning. De volgende expressies worden niet ondersteund voor Workfront-expressies:
 

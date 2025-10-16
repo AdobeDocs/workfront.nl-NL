@@ -64,7 +64,7 @@ Het dupliceren van weergaven is hetzelfde voor alle typen weergaven in Workfront
 </tbody> 
 </table>
 
-Voor meer informatie over de toegangsvereisten van Workfront, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer informatie over de toegangsvereisten van Workfront, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -138,8 +138,8 @@ Voor meer informatie over de toegangsvereisten van Workfront, zie [ vereisten va
    De pagina met recordtypen wordt geopend.
 Standaard worden alle records van het geselecteerde type weergegeven in de tabelweergave.
 
-1. Klik het dropdown pictogram ![ Dropdown pictogram ](assets/drop-down-icon.png) naast de huidige meningsnaam, over de naam van een mening, klik **Meer**, dan **Dupliceer**.
+1. Klik het dropdown pictogram ![&#x200B; Dropdown pictogram &#x200B;](assets/drop-down-icon.png) naast de huidige meningsnaam, over de naam van een mening, klik **Meer**, dan **Dupliceer**.
 
-   ![ Meer menu op mening met opties ](assets/more-menu-for-views-expanded-with-delete-option.png)
+   ![&#x200B; Meer menu op mening met opties &#x200B;](assets/more-menu-for-views-expanded-with-delete-option.png)
 
    De weergave wordt gedupliceerd en de naam van de nieuwe weergave volgt het volgende patroon: `Original view's name (Copy)` . Het nieuwe meningslusje toont aan het eind van alle meningslusjes.

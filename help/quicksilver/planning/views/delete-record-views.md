@@ -60,7 +60,7 @@ De weergave wordt verwijderd voor alle gebruikers die toegangsrechten hebben. Ve
 </tbody> 
 </table>
 
-Voor meer informatie over de toegangsvereisten van Workfront, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer informatie over de toegangsvereisten van Workfront, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++   
 
@@ -138,9 +138,9 @@ Voor meer informatie over de toegangsvereisten van Workfront, zie [ vereisten va
    Standaard worden alle records van het geselecteerde type weergegeven in de tabelweergave.
 
 
-1. Van het lusje van de mening, klik het lusje van de mening, over de mening in het drop-down menu, klik **Meer** menu ![ Meer menu ](assets/more-menu.png), dan klik **Schrapping**.</span>
+1. Van het lusje van de mening, klik het lusje van de mening, over de mening in het drop-down menu, klik **Meer** menu ![&#x200B; Meer menu &#x200B;](assets/more-menu.png), dan klik **Schrapping**.</span>
 
-   ![ Meer menu met opties ](assets/more-menu-for-views-expanded-with-delete-option.png)
+   ![&#x200B; Meer menu met opties &#x200B;](assets/more-menu-for-views-expanded-with-delete-option.png)
 
 1. Klik **Schrapping** om te bevestigen.
 

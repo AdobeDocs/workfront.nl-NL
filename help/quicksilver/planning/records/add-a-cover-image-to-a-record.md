@@ -24,11 +24,11 @@ ht-degree: 0%
 
 U kunt records personaliseren door een omslagafbeelding toe te voegen aan de recordpagina in Adobe Workfront Planning, wanneer u een record bewerkt.
 
-Voor informatie over het uitgeven van verslagen, zie [ verslagen ](/help/quicksilver/planning/records/edit-records.md) uitgeven.
+Voor informatie over het uitgeven van verslagen, zie [&#x200B; verslagen &#x200B;](/help/quicksilver/planning/records/edit-records.md) uitgeven.
 
 U moet recordtypen maken voordat u records kunt maken en bewerken.
 
-Voor informatie, zie [ recordtypes ](/help/quicksilver/planning/architecture/create-record-types.md) creëren.
+Voor informatie, zie [&#x200B; recordtypes &#x200B;](/help/quicksilver/planning/architecture/create-record-types.md) creëren.
 
 ## Toegangsvereisten
 
@@ -62,7 +62,7 @@ Voor informatie, zie [ recordtypes ](/help/quicksilver/planning/architecture/cre
 </tbody> 
 </table>
 
-Voor meer informatie over de toegangsvereisten van Workfront, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer informatie over de toegangsvereisten van Workfront, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++   
 
@@ -160,46 +160,46 @@ U kunt een record personaliseren door een omslagafbeelding boven aan de voorvert
 
    of
 
-   Van de mening van de lijstlijst, klik **Open details** pictogram ![ Open detailspictogram ](assets/open-details-icon-in-table-name-field.png) in de eerste kolom.
+   Van de mening van de lijstlijst, klik **Open details** pictogram ![&#x200B; Open detailspictogram &#x200B;](assets/open-details-icon-in-table-name-field.png) in de eerste kolom.
 
    De voorvertoning van de record wordt in de weergave geopend.
 
-   ![ de voorproefdoos van Details ](assets/details-box.png)
+   ![&#x200B; de voorproefdoos van Details &#x200B;](assets/details-box.png)
 
 
-1. (Facultatief) klik **Open in nieuw lusje** pictogram ![ Open in nieuw lusjepictogram ](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> in de hoger-juiste hoek van de verslagvoorproef om de pagina van het verslag in een nieuw lusje te openen.
+1. (Facultatief) klik **Open in nieuw lusje** pictogram ![&#x200B; Open in nieuw lusjepictogram &#x200B;](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> in de hoger-juiste hoek van de verslagvoorproef om de pagina van het verslag in een nieuw lusje te openen.
 
    De recordpagina wordt geopend.
 
-   ![ pagina van Details ](assets/details-page.png)
+   ![&#x200B; pagina van Details &#x200B;](assets/details-page.png)
 
 1. In de verslagvoorproef of detailspagina, houd over de ruimte boven de verslagnaam, dan klik **omslag** toevoegen.
 
    of
 
-   Beweeg over een bestaand omslagbeeld, klik **Meer** menu ![ Meer menu ](assets/more-menu.png), dan klik **uploaden**. <!--check the casing here; I logged a bug for this-->
+   Beweeg over een bestaand omslagbeeld, klik **Meer** menu ![&#x200B; Meer menu &#x200B;](assets/more-menu.png), dan klik **uploaden**. <!--check the casing here; I logged a bug for this-->
 De **omslag van het Verslag** doos opent in **uploadt** tabel.
 
-   ![ de omslagdoos van het Verslag voor upload ](assets/record-cover-box-for-upload.png)
+   ![&#x200B; de omslagdoos van het Verslag voor upload &#x200B;](assets/record-cover-box-for-upload.png)
 
 1. Klik **doorbladert beelden** en doorblader naar een beeld op uw computer om het te selecteren en toe te voegen.
 
-1. (Facultatief) om het beeld te verwijderen alvorens het wordt bewaard, klik **uploadt nieuw beeld** pictogram ![ uploadt nieuw beeldpictogram ](assets/upload-new-image-icon.png), en uploadt een nieuw beeld.
+1. (Facultatief) om het beeld te verwijderen alvorens het wordt bewaard, klik **uploadt nieuw beeld** pictogram ![&#x200B; uploadt nieuw beeldpictogram &#x200B;](assets/upload-new-image-icon.png), en uploadt een nieuw beeld.
 
 1. (Facultatief) klik de **Galerij** tabel, dan klik een beeld in de galerij van beelden. De galerie met afbeeldingen kan niet worden gewijzigd.
 
-   ![ omslag van het Verslag doos voor galerij ](assets/record-cover-box-for-gallery.png)
+   ![&#x200B; omslag van het Verslag doos voor galerij &#x200B;](assets/record-cover-box-for-gallery.png)
 
 1. Klik **beeld van het Gebruik**.
 
    De afbeelding wordt boven aan de recordvoorvertoning geüpload of de detailpagina wordt automatisch opgeslagen.
 
-   ![ pagina van het Verslag met omslagbeeld ](assets/record-page-with-cover-image.png)
+   ![&#x200B; pagina van het Verslag met omslagbeeld &#x200B;](assets/record-page-with-cover-image.png)
 
-1. (Facultatief) Beweeg over het beeld, dan klik **Meer** menu ![ Meer menu ](assets/more-menu.png) in de laag-juiste hoek van het omslag beeld, dan doe één van het volgende:
+1. (Facultatief) Beweeg over het beeld, dan klik **Meer** menu ![&#x200B; Meer menu &#x200B;](assets/more-menu.png) in de laag-juiste hoek van het omslag beeld, dan doe één van het volgende:
 
    * Klik **uploaden** als u het omslagbeeld wilt vervangen en Stap 6 herhalen om een nieuw beeld te uploaden en te bewaren.
-   * Klik **Verplaatsing**, en gebruik het **het hulpmiddelpictogram van de Verplaatsing** van het hulpmiddel ![ ](assets/reposition-tool-icon.png) om het omslagbeeld te centreren, dan klik **sparen** wanneer gedaan.
+   * Klik **Verplaatsing**, en gebruik het **het hulpmiddelpictogram van de Verplaatsing** van het hulpmiddel ![&#x200B; &#x200B;](assets/reposition-tool-icon.png) om het omslagbeeld te centreren, dan klik **sparen** wanneer gedaan.
    * Klik **verwijderen** om het omslagbeeld te verwijderen.
 
    Workfront slaat uw wijzigingen automatisch op.
