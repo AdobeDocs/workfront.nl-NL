@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 2a640cd5-f4a8-4ff3-81b6-32f85f6e4535
-source-git-commit: 7d37481fc5b468f6f8ea1fce6ccd7ae064f00251
+source-git-commit: 2fb95d37c32984e248767993c4858038d27e0590
 workflow-type: tm+mt
-source-wordcount: '441'
+source-wordcount: '450'
 ht-degree: 1%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 <span class="preview"> de informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet.</span>
 
-<span class="preview"> voor informatie over snelle versies, zie [&#x200B; snelle versies voor uw organisatie &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
+<span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
 
 {{planning-important-intro}}
 
@@ -48,13 +48,9 @@ In de volgende tabel staan de limieten voor het aantal objecten dat u kunt maken
 | De grootte van CSV van het dossier van Excel u kunt invoeren om recordtypes tot stand te brengen | 5 MB |
 | Aantal rijen dat u in een CSV- of Excel-bestand kunt importeren om recordtypen te maken | 25.000 |
 | Aantal kolommen dat u in een CSV- of Excel-bestand kunt importeren om recordtypen te maken | 500 |
-| <span class="preview"> Aantal formules gebieden voor één verslagtype </span> | <span class="preview"> 20 </span> |
-| <span class="preview"> Aantal karakters in een uitdrukking van het formuleringsgebied </span> | <span class="preview"> 50.000 </span> |
-
-
-<!-- Add this after the formula fields limit above:
-
-| <span class="preview">Number of connection fields for one record type</span> | <span class="preview">30</span> |-->
+| Aantal formulevelden voor één recordtype | 20 |
+| <span class="preview"> Aantal verbindingsgebieden voor één verslagtype </span> | <span class="preview"> 30 </span> |
+| Aantal tekens in een expressie van een formulerveld | 50.000 |
 
 *Wij adviseren om niet te veel werkruimten te hebben, aangezien zij moeilijk zouden kunnen worden te beheren en uw werkschema&#39;s zouden te gefragmenteerd kunnen zijn.
 

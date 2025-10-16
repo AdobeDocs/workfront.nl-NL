@@ -1,44 +1,35 @@
 ---
 title: Het instellingengebied van een recordtype configureren
-description: U kunt recordtypen bewerken nadat u deze hebt opgeslagen op de pagina Instellingen.
-hide: true
-hidefromtoc: true
-source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
+description: Naast het bewerken van een recordtype in het vak Recordtype bewerken kunt u ook recordtypen bewerken op de pagina Instellingen.
+feature: Workfront Planning
+role: User, Admin
+author: Alina
+recommendations: noDisplay, noCatalog
+source-git-commit: 2fb95d37c32984e248767993c4858038d27e0590
 workflow-type: tm+mt
-source-wordcount: '443'
+source-wordcount: '483'
 ht-degree: 0%
 
 ---
 
 
-<!--add better metadata at release:
-
-title: Configure Record Type Settings
-description: You can edit record types after they have been saved in the Settings page. 
-feature: Workfront Planning
-role: User, Admin
-author: Alina
-recommendations: noDisplay, noCatalog 
-
--->
-
 # Het gebied Instellingen van een recordtype configureren
 
 <span class="preview"> de informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>
 
-<span class="preview"> voor informatie over snelle versies, zie [&#x200B; snelle versies voor uw organisatie &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
+<span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
 
 {{planning-important-intro}}
 
 U kunt extra montages voor een verslagtype vormen nadat zij in de Planning van Adobe Workfront zijn bewaard.
 
-Afhankelijk van welke mogelijkheden u voor een verslagtype wilt bepalen, kunt u extra montages voor het vormen door één van het volgende te doen:
+Afhankelijk van welke mogelijkheden u voor een verslagtype wilt bepalen, kunt u extra montages vormen door één van het volgende te doen:
 
 <!--the above will need to be reworded when we add automations and manage request forms to this area-->
 
 * Ze bewerken
 
-  Voor informatie, zie [&#x200B; recordtypes &#x200B;](/help/quicksilver/planning/architecture/edit-record-types.md) uitgeven.
+  Voor informatie, zie [ recordtypes ](/help/quicksilver/planning/architecture/edit-record-types.md) uitgeven.
 
 * De pagina Instellingen van een recordtype configureren.
 
@@ -46,7 +37,7 @@ Afhankelijk van welke mogelijkheden u voor een verslagtype wilt bepalen, kunt u 
 
 ## Toegangsvereisten
 
-+++ Breid uit om de toegangsvereisten voor de functionaliteit in dit artikel te bekijken.
++++ Breid uit om de toegangsvereisten voor de functionaliteit in dit artikel te bekijken. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -55,38 +46,44 @@ Afhankelijk van welke mogelijkheden u voor een verslagtype wilt bepalen, kunt u 
 </col> 
 <tbody> 
     <tr> 
-<tr>
-
+<tr> 
 </tr>   
 <tr> 
    <td role="rowheader"><p>Adobe Workfront-pakket</p></td> 
    <td> 
-<ul><li><p>Willekeurig Workfront-pakket</p></li>
-<p>en</p>
-<li><p>Willekeurig planningspakket om verbindingbare recordtypen te maken</p></li>
-<li><p>Planning Plus-pakket om gecentraliseerde recordtypen te maken</p></li>
-</ul>
-<p>Of:</p>
-<ul><li><p>Een Workflow- en planningspakket voor Prime of Ultimate</p> </li></ul>
-<p>Neem contact op met uw Workfront-accountmanager voor meer informatie over wat er in elk Workfront-planningspakket wordt opgenomen. </p> 
-   </td>
+<p>Alle Workfront- en planningspakketten</p>
+<p>Alle Workfront- en planningspakketten</p>
+<p><b>OPMERKING</b></p>
+<p>Verbindbare recordtypen configureren: </p>
+<ul> 
+<li><p>Alle Workfront-pakketten en alle planningspakketten</p></li>
+<p>of</p>
+<li><p>Willekeurige workflow en planningpakket voor Prime of Ultimate</p></li></ul>
 
-<tr> 
+<p>Globale recordtypen configureren:</p>
+
+<ul> 
+<li><p>Willekeurig Workfront-pakket en een plannings Plus-pakket</p></li>
+<p>of</p>
+<li><p>Willekeurige workflow en planningpakket voor Prime of Ultimate</p></li></ul>
+<p>Neem voor meer informatie over wat er in elk planningspakket voor Workfront staat, contact op met uw Workfront-accountvertegenwoordiger. </p>
+   </td> </tr>
+  <tr> 
    <td role="rowheader"><p>Adobe Workfront-licentie</p></td> 
    <td><p>Standard</p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Objectmachtigingen</p></td> 
-   <td>   <p>Rechten beheren in een werkruimte </a> </p>  
+   <td>   <p>Machtigingen beheren in een werkruimte</p>  
    <p>Systeembeheerders hebben machtigingen voor alle werkruimten, inclusief de werkruimten die ze niet hebben gemaakt</p>  </td> 
   </tr>  
 </tbody> 
 </table>
 
-Voor meer informatie over de toegangsvereisten van Workfront, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer informatie over de toegangsvereisten van Workfront, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-+++   
++++    
 
 <!--Old:
 
@@ -163,13 +160,17 @@ U kunt de mogelijkheden voor werkruimten voor een recordtype definiëren door de
    De werkruimtepagina wordt geopend en de recordtypen worden weergegeven.
 1. Voer een van de volgende handelingen uit:
 
-   * Beweeg over de kaart van een verslagtype en klik **Meer** menu ![&#x200B; Meer menu &#x200B;](assets/more-menu.png) in de hoger-juiste hoek van de kaart van het verslagtype, dan klik **Montages**
-of
-   * Klik een kaart van het verslagtype om de verslagtype pagina te openen, klik **Meer** menu ![&#x200B; &#x200B;](assets/more-menu.png) rechts van de naam van het verslagtype, dan klik **Montages**.
+   * Beweeg over de kaart van een verslagtype en klik **Meer** menu ![ Meer menu ](assets/more-menu.png) in de hoger-juiste hoek van de kaart van het verslagtype, dan klik **Montages**
 
-   <!--update screen shot at release-->
+     ![ Meer menuopties van verslagtype kaart ](assets/more-menu-options-from-record-type-card-with-settings-link.png)
 
-   ![&#x200B; Meer menuopties van verslagtype kaart &#x200B;](assets/more-menu-options-from-record-type-card.png)
+     of
+
+   * Klik een kaart van het verslagtype om de verslagtype pagina te openen, klik **Meer** menu ![ ](assets/more-menu.png) rechts van de naam van het verslagtype, dan klik **Montages**.
+
+   <!--update screen shot at prod??-->
+
+   ![ dwars-werkruimte montages op de pagina van Montages ](assets/settings-page-cross-workspace-settings.png)
 
 1. De **sectie van de montages van de dwars-werkruimte** wordt geselecteerd door gebrek.
 1. Schakel een van de volgende instellingen in of uit:
@@ -179,4 +180,4 @@ of
 
    De instellingen zijn standaard uitgeschakeld.
 
-   Voor informatie, zie [&#x200B; dwars-werkruimtemogelijkheden voor verslagtypes &#x200B;](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md) vormen
+   Voor meer informatie, zie [ dwars-werkruimtemogelijkheden voor verslagtypes ](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md) vormen

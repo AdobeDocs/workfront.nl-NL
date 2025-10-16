@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 70fd3887-3871-45b5-9c21-f57da63662aa
-source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
+source-git-commit: 2fb95d37c32984e248767993c4858038d27e0590
 workflow-type: tm+mt
-source-wordcount: '405'
+source-wordcount: '1062'
 ht-degree: 0%
 
 ---
@@ -18,17 +18,17 @@ ht-degree: 0%
 
 # Recordtypen verwijderen
 
-<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
 
 {{planning-important-intro}}
 
 U kunt recordtypen verwijderen wanneer deze niet meer relevant zijn.
 
-Als u echter recordtypen verwijdert, wordt ook alle informatie verwijderd die aan de recordtypen is gekoppeld. Voor meer informatie, zie de [&#x200B; Overwegingen wanneer het schrappen van verslagtypes &#x200B;](#considerations-when-deleting-record-types) sectie in dit artikel.
+Als u echter recordtypen verwijdert, wordt ook alle informatie verwijderd die aan de recordtypen is gekoppeld. Voor meer informatie, zie de [ Overwegingen wanneer het schrappen van verslagtypes ](#considerations-when-deleting-record-types) sectie in dit artikel.
 
-Voor informatie over verslagtypes, zie [&#x200B; overzicht van de types van Verslag &#x200B;](/help/quicksilver/planning/architecture/overview-of-record-types.md).
+Voor informatie over verslagtypes, zie [ overzicht van de types van Verslag ](/help/quicksilver/planning/architecture/overview-of-record-types.md).
 
 <!-- last sentence might need to be deleted when we can recover or replace deleted record types-->
 
@@ -52,10 +52,12 @@ Voor informatie over verslagtypes, zie [&#x200B; overzicht van de types van Vers
 <li><p>Alle Workfront en alle planningspakketten</p></li>
 <p>of</p>
 <li><p>Willekeurige workflow en planningspakket</p></li></ul>
-<!--<p>To delete global record types:</p>
-<ul><li><p>Any Workfront package and a Planning Plus package</p></li>
-<p>Or</p>
-<li><p>Workflow and Planning Prime and Ultimate packages</p></li></ul>-->
+<div class="preview">
+<p>Globale recordtypen verwijderen:</p>
+<ul><li><p>Willekeurig Workfront-pakket en een plannings Plus-pakket</p></li>
+<p>of</p>
+<li><p>Willekeurige workflow en planningpakket voor Prime of Ultimate</p></li></ul>
+</div>
 <p>Neem voor meer informatie over wat er in elk planningspakket voor Workfront staat, contact op met uw Workfront-accountvertegenwoordiger. </p> 
    </td> 
   <tr> 
@@ -71,7 +73,7 @@ Voor informatie over verslagtypes, zie [&#x200B; overzicht van de types van Vers
 </tbody> 
 </table>
 
-*Voor meer informatie over de toegangsvereisten van Workfront, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer informatie over de toegangsvereisten van Workfront, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++   
 
@@ -148,14 +150,13 @@ Voor informatie over verslagtypes, zie [&#x200B; overzicht van de types van Vers
 * U kunt verwijderde recordtypen of de bijbehorende gegevens niet herstellen.
 * U wordt aangeraden de velden en records die zijn gekoppeld aan het recordtype dat u wilt verwijderen, opnieuw te maken in een ander recordtype voordat u ze verwijdert.
 
-<!--
 <div class="preview">
 
-* You cannot delete a global record type that has been added to other workspaces. 
+* U kunt geen algemeen recordtype verwijderen dat aan andere werkruimten is toegevoegd.
 
-   For more information, see the section [Delete global record types](#delete-global-record-types) in this article. 
+  Voor meer informatie, zie de sectie [ globale verslagtypes van de Schrapping ](#delete-global-record-types) in dit artikel.
 
-</div>-->
+</div>
 
 ## Recordtypen verwijderen
 
@@ -171,80 +172,77 @@ Voor informatie over verslagtypes, zie [&#x200B; overzicht van de types van Vers
 1. Voer een van de volgende handelingen uit:
 
    * Beweeg over de kaart van het verslagtype, klik **Meer** menu, toen **Schrapping**.
-   * Klik de kaart voor het verslagtype dat u, en van de verslagtype pagina wilt schrappen, **Meer** menu ![&#x200B; Meer menu &#x200B;](assets/more-menu.png) aan het recht van de verslagtype naam klikken, dan **Schrapping**.
+   * Klik de kaart voor het verslagtype dat u, en van de verslagtype pagina wilt schrappen, **Meer** menu ![ Meer menu ](assets/more-menu.png) aan het recht van de verslagtype naam klikken, dan **Schrapping**.
 
-   ![&#x200B; permanent schrapt verslagtype bevestiging &#x200B;](assets/permanently-delete-record-type-confirmation.png)
+   ![ permanent schrapt verslagtype bevestiging ](assets/permanently-delete-record-type-confirmation.png)
 
 
 1. Het type **schrapt** in de bevestigingsdoos, dan klikt **permanent schrapt**. Dit is niet hoofdlettergevoelig.
 
    Het geselecteerde recordtype en de bijbehorende velden, bijbehorende records en weergaven worden verwijderd en kunnen niet worden hersteld.
 
-<!--
-
 <div class="preview">
 
-## Delete global record types
+## Algemene recordtypen verwijderen
 
-The following scenarios exist when deleting global record types:
+De volgende scenario&#39;s bestaan wanneer het schrappen van globale verslagtypes:
 
-* If a record type configured as global has not yet been added to another workspace, you can delete it from its original workspace. 
+* Als een recordtype dat als globaal is geconfigureerd, nog niet aan een andere werkruimte is toegevoegd, kunt u het verwijderen uit de oorspronkelijke werkruimte.
 
-* If a record type configured as a global record type has been added to at least one other workspace, you cannot delete it from its original workspace. You must first remove (by deleting) global record types from the secondary workspaces where they were added and then you can permanently delete the global record type from its original workspace. 
+* Als een recordtype dat als een globaal recordtype is geconfigureerd, aan ten minste één andere werkruimte is toegevoegd, kunt u het niet verwijderen uit de oorspronkelijke werkruimte. U moet eerst algemene recordtypen verwijderen (door deze te verwijderen) uit de secundaire werkruimten waar ze zijn toegevoegd en vervolgens kunt u het algemene recordtype definitief verwijderen uit de oorspronkelijke werkruimte.
 
-### Delete a global record type from the original workspace
+### Een algemeen recordtype uit de oorspronkelijke werkruimte verwijderen
 
-You can delete a record type from its original workspace if it's no longer relevant. 
+U kunt een recordtype uit de originele werkruimte verwijderen als het niet meer relevant is.
 
-1. Go to the global record type in its original workspace. 
+1. Ga naar het algemene recordtype in de oorspronkelijke werkruimte.
 
-1. (Conditional) Do one of the following, depending on whether the global record type has been added to secondary workspaces: 
+1. (Voorwaardelijk) doe één van het volgende, afhankelijk van of het globale verslagtype aan secundaire werkruimten is toegevoegd:
 
-   * If the record type was not added to a secondary workspace, click on the **More** menu ![More menu](assets/more-menu.png) on the record type's card, or to the right of the record type's name on its page, then click **Delete**. 
-   * If the record type was added to at least one other secondary workspace, first, go to the secondary workspace and delete the global record from that space. 
+   * Als het verslagtype niet aan een secundaire werkruimte werd toegevoegd, klik op **Meer** menu ![ Meer menu ](assets/more-menu.png) op de kaart van het verslagtype, of rechts van de naam van het verslagtype op zijn pagina, dan klik **Schrapping**.
+   * Als het recordtype aan minstens één andere secundaire werkruimte werd toegevoegd, eerst, ga naar de secundaire werkruimte en schrap het globale verslag van die ruimte.
 
-      For information, see the section [Delete a global record type from a secondary workspace](#delete-a-global-record-type-from-a-secondary-workspace) in this article. 
-   
-1. (Conditional) Continue deleting the record type, as described in the section [Delete record types](#delete-record-types-1) in this article.
+     Voor informatie, zie de sectie [ een globaal verslagtype van een secundaire werkruimte ](#delete-a-global-record-type-from-a-secondary-workspace) in dit artikel schrappen.
 
-   The following things occur: 
+1. (Voorwaardelijk) blijven het schrappen van het verslagtype, zoals die in de sectie [ wordt beschreven de verslagtypes van Schrapping ](#delete-record-types-1) in dit artikel.
 
-   * The global record type is removed from the original workspace and the record type, its records and fields cannot be recovered.
-   * All global record types from the secondary workspaces and their records are also removed.
+   De volgende dingen doen zich voor:
 
-### Delete a global record type from a secondary workspace
+   * Het algemene recordtype wordt verwijderd uit de oorspronkelijke werkruimte en het recordtype, de records en velden kunnen niet worden hersteld.
+   * Alle algemene recordtypen uit de secundaire werkruimten en de bijbehorende records worden ook verwijderd.
 
-You can delete a record type you added from another workspace if no longer needed. 
+### Een algemeen recordtype uit een secundaire werkruimte verwijderen
 
-Consider the following:
+U kunt een recordtype dat u hebt toegevoegd uit een andere werkruimte verwijderen als u dit niet meer nodig hebt.
 
-* Deleting a global record type from a secondary workspace will only remove it from the secondary workspace. The record type remains in the original workspace. 
+Overweeg het volgende:
 
-* When you delete a global record type from a secondary workspace, the following are also deleted:
+* Als u een algemeen recordtype verwijdert uit een secundaire werkruimte, wordt dit alleen verwijderd uit de secundaire werkruimte. Het recordtype blijft in de oorspronkelijke werkruimte.
 
-   * The records added from the secondary workspace.
+* Wanneer u een globaal recordtype uit een secundaire werkruimte schrapt, worden het volgende ook geschrapt:
 
-   ***************Not yet there, coming soon:* The fields added from the secondary workspace.*********
+   * De records die vanuit de secundaire werkruimte worden toegevoegd.
 
-* Global record types deleted from their secondary workspaces cannot be recovered. 
+  <!--Coming later: * The fields added from the secondary workspace.-->
 
-* The original record type remains in its original workspace as well as in other workspaces where it's been added. 
+* Algemene recordtypen die uit de secundaire werkruimten zijn verwijderd, kunnen niet worden hersteld.
 
-To delete a global record type from a secondary workspace: 
+* Het oorspronkelijke recordtype blijft in de oorspronkelijke werkruimte en in andere werkruimten waar het is toegevoegd.
 
-1. Go to the global record type in its secondary workspace. 
+Een algemeen recordtype uit een secundaire werkruimte verwijderen:
 
-1. (Optional) Click on the **More** menu ![More menu](assets/more-menu.png) on the record type's card, or to the right of the record type's name on its page, then click **Delete**.
-1. (Conditional) Type **delete** in the field provided, then click **Permanently delete**.
+1. Ga naar het algemene recordtype in de secundaire werkruimte.
 
-   ![Delete secondary global record type confirmation box](assets/delete-secondary-global-record-type.png)
+1. (Facultatief) klik op **Meer** menu ![ Meer menu ](assets/more-menu.png) op de kaart van het verslagtype, of rechts van de naam van het verslagtype op zijn pagina, dan klik **Schrapping**.
+1. (Voorwaardelijk) Type **schrapt** op het verstrekte gebied, dan klik **permanent schrapt**.
 
-   The following things occur: 
+   ![ Schrap secundaire globale doos van de verslagtype bevestiging ](assets/delete-secondary-global-record-type.png)
 
-   * The record type created from a global record type is removed from the selected workspace. 
-   * The original record type with its fields remain in their original workspace. 
-   * The record type remains in all other workspaces where it's been added.
-   * The records *******and fields****** added to the record type from the current workspace are deleted. All other records added from additional workspaces where the global record type was added are preserved in their respective workspaces and in the original workspace. <!--Fields are preserved in the workspaces where they were added.
-   
-</div>   
-   -->
+   De volgende dingen doen zich voor:
+
+   * Het recordtype dat is gemaakt van een algemeen recordtype, wordt verwijderd uit de geselecteerde werkruimte.
+   * Het oorspronkelijke recordtype met de bijbehorende velden blijft in de oorspronkelijke werkruimte staan.
+   * Het recordtype blijft in alle andere werkruimten waar het is toegevoegd.
+   * De records die <!--and fields--> uit de huidige werkruimte aan het recordtype heeft toegevoegd, worden verwijderd. Alle andere records die zijn toegevoegd vanuit aanvullende werkruimten waar het algemene recordtype is toegevoegd, blijven behouden in de desbetreffende werkruimte en in de oorspronkelijke werkruimte. &lt;!—Velden blijven behouden in de werkruimten waar ze zijn toegevoegd.
+
+</div>

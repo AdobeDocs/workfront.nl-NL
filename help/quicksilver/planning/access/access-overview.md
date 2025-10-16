@@ -6,9 +6,9 @@ feature: Workfront Planning
 recommendations: noDisplay, noCatalog
 role: User, Admin
 exl-id: 99fac041-a235-4991-b826-d19944164bc9
-source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
+source-git-commit: 2fb95d37c32984e248767993c4858038d27e0590
 workflow-type: tm+mt
-source-wordcount: '703'
+source-wordcount: '809'
 ht-degree: 0%
 
 ---
@@ -20,9 +20,9 @@ ht-degree: 0%
 
 <!--do not use the snippet for IMPORTANT , as it links to this article-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
 
 >[!IMPORTANT]
 >
@@ -32,7 +32,7 @@ ht-degree: 0%
 >
 >Neem voor meer informatie contact op met uw accountmanager
 >
->Voor meer informatie over de Planning van Workfront, zie [&#x200B; het Overzicht van de Planning van Adobe Workfront &#x200B;](/help/quicksilver/planning/general/planning-overview.md).
+>Voor meer informatie over de Planning van Workfront, zie [ het Overzicht van de Planning van Adobe Workfront ](/help/quicksilver/planning/general/planning-overview.md).
 
 Er gelden beperkingen voor licenties en deelmachtigingen voor het gebruik van Adobe Workfront Planning.
 
@@ -57,14 +57,20 @@ U moet de volgende toegang hebben om de Planning van Workfront te gebruiken:
    <td role="rowheader"><p>Adobe Workfront-pakket</p></td>
    <td>
    <p>Alle Workfront- en planningspakketten</p>
-   <p>of</p>
    <p>Willekeurig workflowpakket en planningspakket</p>
-   <!--<p><b>NOTE</b></p>
-<p><span class="preview">For access to global record types:</span></p>
-<ul><li><p><span class="preview">Any Workfront package and a Planning Plus package</span></p></li>
-<p>Or</p>
-<li><p><span class="preview">Workflow and Planning Prime and Ultimate packages</span></p></li></ul>--> </td>
-<tr>
+
+<p><b>OPMERKING</b></p>
+
+<p>Voor toegang tot verbindingbare recordtypen:</p>
+   <ul><li><p>Elk Workfront-pakket en een planningspakket</p></li>
+   <li><p>Willekeurige workflow en planningpakket voor Prime en Ultimate</p></li></ul>
+
+<div class="preview">
+   <p>Voor toegang tot algemene recordtypen:</p>
+   <ul><li><p>Willekeurig Workfront-pakket en een plannings Plus-pakket</p></li>
+   <li><p>Elk workflowpakket en een planningpakket voor Prime en Ultimate</p></li></ul> </td></tr>
+   </div>
+   <tr>
    <td role="rowheader"><p>Adobe Workfront-platform</p></td>
    <td>
    <p>Het geval van Workfront van uw organisatie moet aan de Verenigde Ervaring van Adobe worden genegeerd om tot de Planning van Workfront te kunnen toegang hebben.</p>
@@ -113,7 +119,7 @@ U moet de volgende toegang hebben om de Planning van Workfront te gebruiken:
  </tbody>
 </table>
 
-Voor meer informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 
 ## Het planningsgebied delen met een lay-outsjabloon
@@ -140,11 +146,11 @@ Workfront-planningsgebieden toevoegen aan of verwijderen uit gebruikers van uw W
 
 1. Ga naar **Belangrijkste menu** > **Opstelling** > **Interface** > **Malplaatjes van de Lay-out** en open of creeer een lay-outmalplaatje.
 
-   Voor informatie over het aanpassen van een lay-outmalplaatje, zie [&#x200B; lay-outmalplaatjes &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md) creëren en beheren.
+   Voor informatie over het aanpassen van een lay-outmalplaatje, zie [ lay-outmalplaatjes ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md) creëren en beheren.
 
 1. Wijs het lay-outmalplaatje aan de gebruikers toe die u toegang tot de Planning van Workfront wilt hebben.
 
-   Voor informatie, zie [&#x200B; gebruikers aan een lay-outmalplaatje &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md) toewijzen.
+   Voor informatie, zie [ gebruikers aan een lay-outmalplaatje ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md) toewijzen.
 
    Alle gebruikers die aan de sjabloon zijn toegewezen, hebben nu toegang tot de Workfront-planning in hun hoofdmenu.
 
@@ -154,7 +160,7 @@ Workfront-planningsgebieden toevoegen aan of verwijderen uit gebruikers van uw W
 
 U kunt licenties toewijzen aan gebruikers wanneer u hun toegangsniveau configureert terwijl u deze bewerkt of maakt.
 
-Voor informatie, zie [&#x200B; de profielen van een gebruiker &#x200B;](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) uitgeven
+Voor informatie, zie [ de profielen van een gebruiker ](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) uitgeven
 
 ## Toegangsniveau configureren
 
@@ -172,10 +178,10 @@ U kunt toestemmingen aan de volgende entiteiten in de Planning van Workfront ver
 * Recordtypen
 * Weergaven
 
-Voor meer informatie, zie [&#x200B; Overzicht van het delen van toestemmingen in de Planning van Adobe Workfront &#x200B;](/help/quicksilver/planning/access/sharing-permissions-overview.md).
+Voor meer informatie, zie [ Overzicht van het delen van toestemmingen in de Planning van Adobe Workfront ](/help/quicksilver/planning/access/sharing-permissions-overview.md).
 
 Uw Adobe Workfront-licentietype werkt met uw Workfront-planningsbevoegdheden om u toegang te geven tot Workfront-planningsobjecten, deze te kunnen bekijken of beheren.
 
-Voor informatie over hoe de vergunningstypes toestemmingsniveaus voor de Planning van Workfront voorwerpen beïnvloeden, zie [&#x200B; het type van Vergunning overzicht wanneer het gebruiken van de Planning van Adobe Workfront &#x200B;](/help/quicksilver/planning/access/license-type-overview.md).
+Voor informatie over hoe de vergunningstypes toestemmingsniveaus voor de Planning van Workfront voorwerpen beïnvloeden, zie [ het type van Vergunning overzicht wanneer het gebruiken van de Planning van Adobe Workfront ](/help/quicksilver/planning/access/license-type-overview.md).
 
 
