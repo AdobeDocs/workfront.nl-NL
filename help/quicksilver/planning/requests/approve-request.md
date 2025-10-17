@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: aca9b313-3420-43f6-8f6c-dd74888bd120
-source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
+source-git-commit: df0686038adb1278339e872e122a311884cb6d29
 workflow-type: tm+mt
-source-wordcount: '796'
+source-wordcount: '813'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ We raden u aan ook de volgende artikelen te bekijken:
    * **Voltooid**: Als alle fiatteurs het verzoekvoorwerp goedkeuren, zijn statusveranderingen in **Voltooid**, of als het verzoek geen goedkeuring verwierf.
    * **Verworpen**: Als om het even welke fiatteur het verzoekvoorwerp verwerpt, wordt de status **Geweigerd**. Er wordt geen record gemaakt en er moet een nieuw verzoek worden ingediend om de record te maken.
 
-* U kunt goedkeuringsgegevens weergeven in een record die is gemaakt door een aanvraagformulier in te dienen in de velden Goedgekeurd door en Goedgekeurd. Voor informatie, zie [&#x200B; gebieden &#x200B;](/help/quicksilver/planning/fields/create-fields.md) creëren.
+* U kunt goedkeuringsgegevens weergeven in een record die is gemaakt door een aanvraagformulier in te dienen in de velden Goedgekeurd door en Goedgekeurd. Voor informatie, zie [ gebieden ](/help/quicksilver/planning/fields/create-fields.md) creëren.
 
 ## Toegangsvereisten
 
@@ -60,13 +60,10 @@ We raden u aan ook de volgende artikelen te bekijken:
 <tr> 
    <td role="rowheader"><p>Adobe Workfront-pakketten</p></td> 
    <td> 
-<ul><li><p>Willekeurig Workfront-pakket</p></li>
-en
-<li><p>Willekeurig planningspakket</p></li></ul>
+<p>Alle Workfront-pakketten en alle planningspakketten</p>
 of
-<ul><li><p>Willekeurig workflowpakket</p></li>
-en
-<li><p>Willekeurig planningspakket</p></li></ul>
+<p>Willekeurig workflowpakket en elk planningspakket</p>
+<p>Neem voor meer informatie over wat er in elk planningspakket voor Workfront staat, contact op met uw Workfront-accountvertegenwoordiger.</p>
    </td> </tr>
 
 </tr> 
@@ -83,7 +80,7 @@ en
 </tbody> 
 </table>
 
-Voor meer informatie over de toegangsvereisten van Workfront, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer informatie over de toegangsvereisten van Workfront, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -104,20 +101,20 @@ Een verzoek goedkeuren:
 
 1. Voer een van de volgende handelingen uit:
 
-   * Als u toegang tot de Planning van Workfront hebt en minstens één werkruimte kunt bekijken, klik **het Belangrijkste menu van het Menu** Dots ![&#x200B; in de hoger-juiste hoek van het scherm, of &#x200B;](assets/dots-menu.png) Belangrijkste Menu **&#x200B;**&#x200B;het belangrijkste menu van Lijnen ![&#x200B; in de upper-left hoek, als beschikbaar, dan klik &#x200B;](assets/lines-menu.png) Verzoeken **>** > **2&rbrace; Planning**, en klik het verzoek met het statuut van **In afwachting van overzicht** of **in overzicht**.**&#x200B;**
+   * Als u toegang tot de Planning van Workfront hebt en minstens één werkruimte kunt bekijken, klik **het Belangrijkste menu van het Menu** Dots ![ in de hoger-juiste hoek van het scherm, of ](assets/dots-menu.png) Belangrijkste Menu **** het belangrijkste menu van Lijnen ![ in de upper-left hoek, als beschikbaar, dan klik ](assets/lines-menu.png) Verzoeken **>** > **2} Planning**, en klik het verzoek met het statuut van **In afwachting van overzicht** of **in overzicht**.****
 
      >[!TIP]
      >
      >Als u geen toegang hebt tot Workfront Planning, of als u geen toegang hebt tot om het even welke werkruimten te bekijken, kunt u tot een verzoek slechts toegang hebben om het goed te keuren gebruikend uw e-mail of in-app berichten.
 
-   * Klik het **pictogram van het het gebiedspictogram van Meldingen** in Verenigde Shell ![&#x200B; in de hoger-juiste hoek van het scherm en klik het bericht over een verzoek in afwachting van uw goedkeuring om het verzoek te openen.](assets/notifications-area-icon-unified-shell.png)
+   * Klik het **pictogram van het het gebiedspictogram van Meldingen** in Verenigde Shell ![ in de hoger-juiste hoek van het scherm en klik het bericht over een verzoek in afwachting van uw goedkeuring om het verzoek te openen.](assets/notifications-area-icon-unified-shell.png)
    * Ga naar het e-mailbericht in uw e-mail die u over een verzoek in afwachting van uw goedkeuring op de hoogte brengt, dan klik **Open verzoek** om het verzoek te openen. <!--add the name of the button here, from the email-->
 
    De aanvraagpagina wordt geopend in de modus Alleen-lezen.
 
-   ![&#x200B; read-only verzoekpagina in overzichtsstatus &#x200B;](assets/read-only-reqeust-page-in-review-status.png)
+   ![ read-only verzoekpagina in overzichtsstatus ](assets/read-only-reqeust-page-in-review-status.png)
 
-1. (Optioneel) Klik op het pictogram **Goedkeuringen** pictogram ![&#x200B; in de rechterbovenhoek van het verzoek om de fiatteurs weer te geven.](assets/approvals-icon.png)
+1. (Optioneel) Klik op het pictogram **Goedkeuringen** pictogram ![ in de rechterbovenhoek van het verzoek om de fiatteurs weer te geven.](assets/approvals-icon.png)
 1. Klik **Overzicht en keur** goed, dan kies één van het volgende:
 
    * **keur** goed: Dit keurt het verzoek goed. Er wordt direct een record gemaakt voor het recordtype dat aan het aanvraagformulier is gekoppeld, nadat alle fiatteurs het verzoek hebben goedgekeurd.
