@@ -17,7 +17,7 @@ ht-degree: 0%
 
 De widgets voor het thuisgebied van [!DNL iOS] en [!DNL Android] helpen u uw werkitems snel te vinden.
 
-![ het gebiedswidgets van het Huis ](assets/mobile-home-area-widgets.png)
+![&#x200B; het gebiedswidgets van het Huis &#x200B;](assets/mobile-home-area-widgets.png)
 
 **[!UICONTROL Due Today]:** toont het aantal het werkpunten vandaag verschuldigd. Selecteer de widget om de lijst met items weer te geven.
 

@@ -21,13 +21,13 @@ ht-degree: 0%
 
 Deze sectie bevat de volgende artikelen:
 
-* [ creeer of geef een groepsstatus ](../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md) uit
-* [ groepstatussen opnieuw rangschikken ](../../../administration-and-setup/manage-groups/manage-group-statuses/reorder-group-statuses-from-groups-area.md)
-* [ Gebruik een douanestatus als standaardstatus voor een groep ](../../../administration-and-setup/manage-groups/manage-group-statuses/use-custom-statuses-as-default-statuses-group.md)
-* [ Vergrendelde en ontgrendelde groepsstatussen ](../../../administration-and-setup/manage-groups/manage-group-statuses/lock-or-unlock-a-custom-group-status.md)
-* [ Hoe de groepen statussen ](../../../administration-and-setup/manage-groups/manage-group-statuses/how-groups-inherit-statuses.md) erven
-* [ Schrap een groepsstatus ](../../../administration-and-setup/manage-groups/manage-group-statuses/delete-a-group-status.md)
-* [ de statussen van de Douane in een groep die wordt bewogen of geschrapt ](../../../administration-and-setup/manage-groups/manage-group-statuses/custom-statuses-in-group-moved-or-deleted.md)
+* [&#x200B; creeer of geef een groepsstatus &#x200B;](../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md) uit
+* [&#x200B; groepstatussen opnieuw rangschikken &#x200B;](../../../administration-and-setup/manage-groups/manage-group-statuses/reorder-group-statuses-from-groups-area.md)
+* [&#x200B; Gebruik een douanestatus als standaardstatus voor een groep &#x200B;](../../../administration-and-setup/manage-groups/manage-group-statuses/use-custom-statuses-as-default-statuses-group.md)
+* [&#x200B; Vergrendelde en ontgrendelde groepsstatussen &#x200B;](../../../administration-and-setup/manage-groups/manage-group-statuses/lock-or-unlock-a-custom-group-status.md)
+* [&#x200B; Hoe de groepen statussen &#x200B;](../../../administration-and-setup/manage-groups/manage-group-statuses/how-groups-inherit-statuses.md) erven
+* [&#x200B; Schrap een groepsstatus &#x200B;](../../../administration-and-setup/manage-groups/manage-group-statuses/delete-a-group-status.md)
+* [&#x200B; de statussen van de Douane in een groep die wordt bewogen of geschrapt &#x200B;](../../../administration-and-setup/manage-groups/manage-group-statuses/custom-statuses-in-group-moved-or-deleted.md)
 * [Aangepaste status op een taak of uitgave die wordt verplaatst of gekopieerd](../../../administration-and-setup/manage-groups/manage-group-statuses/custom-statuses-on-a-task-or-issue-that-is-moved-or-copied.md)
 
-Voor informatie over het opnieuw in orde brengen van groepsstatussen, zie [ systeem-niveau opnieuw ordenen en groepsstatussen ](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/reorder-system-statuses.md).
+Voor informatie over het opnieuw in orde brengen van groepsstatussen, zie [&#x200B; systeem-niveau opnieuw ordenen en groepsstatussen &#x200B;](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/reorder-system-statuses.md).

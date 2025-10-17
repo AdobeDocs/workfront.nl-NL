@@ -49,7 +49,7 @@ Als er groepen zijn boven de groep die u beheert, kunnen hun beheerders dit ook 
  </tbody> 
 </table>
 
-Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -57,7 +57,7 @@ Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront
 
 {{step-1-to-setup}}
 
-1. In het linkerpaneel, klik **Groepen** ![ Groepen ](assets/groups-icon.png).
+1. In het linkerpaneel, klik **Groepen** ![&#x200B; Groepen &#x200B;](assets/groups-icon.png).
 
 1. Klik op de naam van de groep waarvoor u programma&#39;s wilt maken of wijzigen.
 1. In het linkerpaneel, klik **Programma&#39;s** om van de programma&#39;s een lijst te maken verbonden aan de groep die u toegang tot mening (en om het even welke subgroepen onder het) hebt.
@@ -71,7 +71,7 @@ Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront
       <td role="rowheader">Een programma toevoegen</td> 
       <td> 
        <ol> 
-        <li value="1"> <p>Klik <strong> Nieuw Programma </strong>, dan vorm het programma in het scherm dat toont. </p> <p>Het systeem vult in het <strong> gebied van de Groep </strong> {voor het nieuwe programma met de groep u bekijkt.</p> <p>Voor informatie over de configuratieopties, zie <a href="../../../manage-work/portfolios/create-and-manage-programs/create-program.md" class="MCXref xref"> een programma </a> creëren.</p> </li> 
+        <li value="1"> <p>Klik <strong> Nieuw Programma </strong>, dan vorm het programma in het scherm dat toont. </p> <p>Het systeem vult in het <strong> gebied van de Groep </strong> &lbrace;voor het nieuwe programma met de groep u bekijkt.</p> <p>Voor informatie over de configuratieopties, zie <a href="../../../manage-work/portfolios/create-and-manage-programs/create-program.md" class="MCXref xref"> een programma </a> creëren.</p> </li> 
         <li value="2"> <p>Klik <strong> sparen </strong> om aan de lijst van de Programma's van de groep terug te keren.</p> </li> 
        </ol> </td> 
      </tr> 

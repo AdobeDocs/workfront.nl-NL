@@ -25,4 +25,4 @@ Wanneer u een taak of kwestie aan een verschillend project beweegt of kopieert, 
 
 * Als een status in de taak of de kwestie niet de zelfde sleutel zoals de gelijkwaardige status in de groep van het bestemmingsproject heeft, verandert de status in de taak of de kwestie in de gelijkwaardige standaardstatus in de groep van het bestemmingsproject.
 
-Voor informatie over statussleutels, zie [ tot stand brengen of een groepsstatus ](../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md) uitgeven.
+Voor informatie over statussleutels, zie [&#x200B; tot stand brengen of een groepsstatus &#x200B;](../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md) uitgeven.

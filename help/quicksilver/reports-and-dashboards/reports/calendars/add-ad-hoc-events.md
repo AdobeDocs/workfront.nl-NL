@@ -47,7 +47,7 @@ U kunt ad-hocgebeurtenissen toevoegen aan een kalender. Een ad-hocgebeurtenis di
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -60,4 +60,4 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 1. Kies een kleur voor de gebeurtenis.
 1. Kies of de gebeurtenis meerdere dagen moet beslaan.
 1. Voer een datum in of kies een datum met het kalenderpictogram.
-   ![ voeg ad-hoc gebeurtenis ](assets/add-ad-hoc.png) toe
+   ![&#x200B; voeg ad-hoc gebeurtenis &#x200B;](assets/add-ad-hoc.png) toe

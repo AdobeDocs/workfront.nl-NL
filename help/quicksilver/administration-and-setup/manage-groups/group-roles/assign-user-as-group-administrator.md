@@ -19,9 +19,9 @@ ht-degree: 0%
 
 Als beheerder van een groep, kunt u andere gebruikers als groepsbeheerders voor die groep toewijzen. Adobe Workfront-beheerders kunnen dit ook doen.
 
-Voor meer informatie over groepsbeheerders en wat zij kunnen doen, zie {de beheerders van de Groep 1} en [ Acties die voor verschillende types van beheerders ](../../../administration-and-setup/manage-groups/group-roles/group-administrators.md) worden toegestaan.[](../../../administration-and-setup/manage-groups/group-roles/group-actions-allowed-different-types-admins.md)
+Voor meer informatie over groepsbeheerders en wat zij kunnen doen, zie {de beheerders van de Groep 1} en [&#x200B; Acties die voor verschillende types van beheerders &#x200B;](../../../administration-and-setup/manage-groups/group-roles/group-administrators.md) worden toegestaan.[&#128279;](../../../administration-and-setup/manage-groups/group-roles/group-actions-allowed-different-types-admins.md)
 
-Voor algemene informatie over groepen, zie [ Overzicht van Groepen ](../../../administration-and-setup/manage-groups/groups-overview/groups.md).
+Voor algemene informatie over groepen, zie [&#x200B; Overzicht van Groepen &#x200B;](../../../administration-and-setup/manage-groups/groups-overview/groups.md).
 
 ## Toegangsvereisten
 
@@ -47,7 +47,7 @@ Voor algemene informatie over groepen, zie [ Overzicht van Groepen ](../../../ad
  </tbody> 
 </table>
 
-Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -55,7 +55,7 @@ Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront
 
 {{step-1-to-setup}}
 
-1. In het linkerpaneel, klik **Groepen** ![ Groepen ](assets/groups-icon.png).
+1. In het linkerpaneel, klik **Groepen** ![&#x200B; Groepen &#x200B;](assets/groups-icon.png).
 
 1. Klik de naam van de groep waarvoor u een groepsbeheerder wilt toewijzen.
 1. In de kopbal, dichtbij de hoger-juiste hoek, klik één van de beelden van het gebruikersprofiel onder **Beheerders van de Groep**.

@@ -20,9 +20,9 @@ ht-degree: 4%
 
 Deze sectie bevat de volgende artikelen:
 
-* [ Overzicht van blauwdrukken ](../../administration-and-setup/blueprints/blueprints-overview.md)
-* [ vormt toegang tot blauwdrukken ](../../administration-and-setup/blueprints/configure-access-to-blueprints.md)
-* [ installeer een blauwdruk ](../../administration-and-setup/blueprints/blueprints-install.md)
-* [ vorm een blauwdruk ](../../administration-and-setup/blueprints/configure-template-package.md)
+* [&#x200B; Overzicht van blauwdrukken &#x200B;](../../administration-and-setup/blueprints/blueprints-overview.md)
+* [&#x200B; vormt toegang tot blauwdrukken &#x200B;](../../administration-and-setup/blueprints/configure-access-to-blueprints.md)
+* [&#x200B; installeer een blauwdruk &#x200B;](../../administration-and-setup/blueprints/blueprints-install.md)
+* [&#x200B; vorm een blauwdruk &#x200B;](../../administration-and-setup/blueprints/configure-template-package.md)
 * [Handelingen die moeten worden uitgevoerd na de installatie van een blauwdruk](../../administration-and-setup/blueprints/best-next-actions-after-install.md)
 * [Lijst met beschikbare blauwdrukken](/help/quicksilver/administration-and-setup/blueprints/list-of-available-blueprints.md)

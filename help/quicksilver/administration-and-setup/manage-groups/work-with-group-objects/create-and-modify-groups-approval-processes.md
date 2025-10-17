@@ -21,6 +21,6 @@ Wanneer u een groep bekijkt die u in het gebied van Groepen beheert, kunt u de g
 
 Als er groepen zijn boven de groep die u beheert, kunnen hun beheerders dit ook voor uw groep doen. Hetzelfde geldt voor Workfront-beheerders (voor elke groep).
 
-Voor instructies, zie [ een goedkeuringsproces voor het werkpunten ](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md) creëren.
+Voor instructies, zie [&#x200B; een goedkeuringsproces voor het werkpunten &#x200B;](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md) creëren.
 
-Voor meer informatie over goedkeuringsprocessen, zie [ overzicht van het proces van de Goedkeuring ](../../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md).
+Voor meer informatie over goedkeuringsprocessen, zie [&#x200B; overzicht van het proces van de Goedkeuring &#x200B;](../../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md).

@@ -24,7 +24,7 @@ Houd rekening met het volgende wanneer u markeringen in artikelen gebruikt:
 * Vlaggen zijn geen status, maar een visuele indicatie dat het verhaal gereed is om door een ander teamlid naar de volgende status te worden verplaatst.
 * Vlaggen worden niet weergegeven op artikelkaarten in de kolom [!UICONTROL Backlog] of in de kolom [!UICONTROL Complete] (of in een kolom waarin de status van de kolom gelijk is aan [!UICONTROL Complete] ).
 
-  Voor meer informatie over artikelstatussen, zie {de vlaggen van 0} Gebruik op verhalen op de karton Kanban [](#updating-the-status-of-stories-and-subtasks)
+  Voor meer informatie over artikelstatussen, zie {de vlaggen van 0} Gebruik op verhalen op de karton Kanban [&#128279;](#updating-the-status-of-stories-and-subtasks)
 
 ## Toegangsvereisten
 
@@ -48,7 +48,7 @@ Houd rekening met het volgende wanneer u markeringen in artikelen gebruikt:
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -58,24 +58,24 @@ Een markering in een artikel wijzigen:
 
 {{step1-to-team}}
 
-1. (Facultatief) klik het **[!UICONTROL Switch team]** pictogram van de pictogram ![ Schakelaar teampictogram ](assets/switch-team-icon.png), dan of selecteer een nieuw [!UICONTROL Kanban] team van het drop-down menu of onderzoek naar een team in de onderzoeksbar.
+1. (Facultatief) klik het **[!UICONTROL Switch team]** pictogram van de pictogram ![&#x200B; Schakelaar teampictogram &#x200B;](assets/switch-team-icon.png), dan of selecteer een nieuw [!UICONTROL Kanban] team van het drop-down menu of onderzoek naar een team in de onderzoeksbar.
 
 1. Ga naar het [!UICONTROL Kanban] -bord waar u een markering in een artikel wilt wijzigen.
 1. Vouw de artikeltegel uit om de markering weer te geven.
 De markering is standaard ingesteld op **[!UICONTROL On Track]** voor elk artikel.
-   ![ Kanban kaart ](assets/agile-storycard-kanban-2021-350x308.png)
+   ![&#x200B; Kanban kaart &#x200B;](assets/agile-storycard-kanban-2021-350x308.png)
 
 1. Klik op de huidige markering en selecteer een van de volgende markeringsopties:
 
    * **[!UICONTROL On Track]:** Het artikel heeft de juiste status en op dit moment hoeft niets te worden gedaan.
 
      Dit is de standaardvlag voor elk verhaal op het Kanban-bord.
-     ![ kanban_flag_ontrack.png ](assets/kanban-flag-ontrack.png)
+     ![&#x200B; kanban_flag_ontrack.png &#x200B;](assets/kanban-flag-ontrack.png)
 
-   * **[!UICONTROL Is Blocked]:** Het artikel kan niet doorgaan naar de volgende status. Wanneer deze markering is ingesteld op een artikel, telt het artikel niet mee voor de WIP-limiet. (Voor meer informatie over de grenzen van WIP, zie het artikel [ Kanban ](../../agile/get-started-with-agile-in-workfront/configure-kanban.md) vormen.)
+   * **[!UICONTROL Is Blocked]:** Het artikel kan niet doorgaan naar de volgende status. Wanneer deze markering is ingesteld op een artikel, telt het artikel niet mee voor de WIP-limiet. (Voor meer informatie over de grenzen van WIP, zie het artikel [&#x200B; Kanban &#x200B;](../../agile/get-started-with-agile-in-workfront/configure-kanban.md) vormen.)
 
-     ![ kanban_flag_locked.png ](assets/kanban-flag-blocked.png)
+     ![&#x200B; kanban_flag_locked.png &#x200B;](assets/kanban-flag-blocked.png)
 
    * **[!UICONTROL Ready to Pull]:** Het artikel kan door een ander lid van het team naar de volgende status worden verplaatst.
 
-     ![ kanban_flag_ready.png ](assets/kanban-flag-ready.png)
+     ![&#x200B; kanban_flag_ready.png &#x200B;](assets/kanban-flag-ready.png)

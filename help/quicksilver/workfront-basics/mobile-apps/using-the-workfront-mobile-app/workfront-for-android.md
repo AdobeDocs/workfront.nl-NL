@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Met de app [!DNL Adobe Workfront] hebt u toegang tot uw werk op elk [!DNL Android] -apparaat. U kunt de mobiele app [!DNL Workfront] installeren en gebruiken op telefoons en tablets met [!DNL Android] 5.0 of hoger.
 
-Voor informatie over het programma openen aan mobiele app, zie het sectie [ Login aan  [!DNL Workfront]  mobiele app ](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-in-to-workfront.md#log) in het artikel [ Login aan  [!DNL Adobe Workfront]](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-in-to-workfront.md).
+Voor informatie over het programma openen aan mobiele app, zie het sectie [&#x200B; Login aan  [!DNL Workfront]  mobiele app &#x200B;](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-in-to-workfront.md#log) in het artikel [&#x200B; Login aan  [!DNL Adobe Workfront]](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-in-to-workfront.md).
 
 ## [!UICONTROL Home]
 
@@ -48,17 +48,17 @@ In het gebied [!UICONTROL Home] kunt u rechtstreeks werken aan taken, problemen 
  </tbody> 
 </table>
 
-Zie de secties [[!UICONTROL Home] Gebiedswidgets ](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/home-area-widgets-mobile.md) en [[!UICONTROL My Work] in de mobiele app ](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/my-work-section-mobile.md) voor meer informatie.
+Zie de secties [[!UICONTROL Home] Gebiedswidgets &#x200B;](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/home-area-widgets-mobile.md) en [[!UICONTROL My Work] in de mobiele app &#x200B;](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/my-work-section-mobile.md) voor meer informatie.
 
-![ gebied van het Huis ](assets/mobile-home-area.png)
+![&#x200B; gebied van het Huis &#x200B;](assets/mobile-home-area.png)
 
 ## [!UICONTROL Boards]
 
 In het gebied [!UICONTROL Boards] hebt u toegang tot uw [!DNL Workfront] -borden.
 
-![ het gebied van Boden ](assets/mobile-all-boards-displayed.png)
+![&#x200B; het gebied van Boden &#x200B;](assets/mobile-all-boards-displayed.png)
 
-Zie [[!DNL Adobe Workfront] [!UICONTROL Boards] for mobile ](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/mobile-boards.md) voor meer informatie.
+Zie [[!DNL Adobe Workfront] [!UICONTROL Boards] for mobile &#x200B;](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/mobile-boards.md) voor meer informatie.
 
 ## [!UICONTROL Projects]
 
@@ -87,7 +87,7 @@ In het gebied [!UICONTROL Projects] kunt u communiceren met en projecten beheren
  </tbody> 
 </table>
 
-![ Gebied van Projecten ](assets/mobile-projects-area.png)
+![&#x200B; Gebied van Projecten &#x200B;](assets/mobile-projects-area.png)
 
 ## [!UICONTROL Approvals]
 
@@ -113,11 +113,11 @@ In het gebied [!UICONTROL Approvals] kunt u goedkeuringen bekijken en goedkeuren
  </tbody>
 </table>
 
-Voor meer informatie over goedkeuringen, zie [ Goedkeuringen in  [!DNL Adobe Workfront]  mobiele app ](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/approvals-in-mobile-app.md).
+Voor meer informatie over goedkeuringen, zie [&#x200B; Goedkeuringen in  [!DNL Adobe Workfront]  mobiele app &#x200B;](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/approvals-in-mobile-app.md).
 
-Voor informatie bij het herzien van en het goedkeuren van proeven, zie [ Overzicht en maak besluiten over proeven in  [!DNL Adobe Workfront]  mobiele app ](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/work-with-proofs-in-mobile-app.md).
+Voor informatie bij het herzien van en het goedkeuren van proeven, zie [&#x200B; Overzicht en maak besluiten over proeven in  [!DNL Adobe Workfront]  mobiele app &#x200B;](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/work-with-proofs-in-mobile-app.md).
 
-![ lijst van Goedkeuringen in mobiele app ](assets/mobile-approvals-adobe-350x574.png)
+![&#x200B; lijst van Goedkeuringen in mobiele app &#x200B;](assets/mobile-approvals-adobe-350x574.png)
 
 ## [!UICONTROL Notifications]
 
@@ -126,7 +126,7 @@ In het gebied [!UICONTROL Notifications] kunt u meldingen in de app voor uw werk
 >[!NOTE]
 >Hyperlinks zijn niet beschikbaar in de updatemeldingen, tenzij de volledige inhoud van een notitie een hyperlink zonder weergavetekst is.
 
-![ gebied van Meldingen ](assets/mobile-notifications-area.png)
+![&#x200B; gebied van Meldingen &#x200B;](assets/mobile-notifications-area.png)
 
 ## [!UICONTROL Requests]
 
@@ -154,7 +154,7 @@ In het gebied [!UICONTROL Requests] kunt u details over aanvragen weergeven. Van
  </tbody>
 </table>
 
-![ gebied van Verzoeken ](assets/mobile-requests-area.png)
+![&#x200B; gebied van Verzoeken &#x200B;](assets/mobile-requests-area.png)
 
 ## [!UICONTROL Timesheets]
 
@@ -166,19 +166,19 @@ In het gebied [!UICONTROL timesheets] kunt u details over uw tijdbladen bekijken
 * Opmerkingen invoeren op uw timesheet
 * Uw timesheet sluiten
 
-![ gebied van Tijdopnemers ](assets/mobile-timesheets-area.png)
+![&#x200B; gebied van Tijdopnemers &#x200B;](assets/mobile-timesheets-area.png)
 
 ## [!UICONTROL Favorites]
 
 U kunt bestaande items openen via het menu [!UICONTROL Favorites] en nieuwe items toevoegen aan het menu Favorieten.
 
-![ gebied van Favorieten ](assets/mobile-favorites-area.png)
+![&#x200B; gebied van Favorieten &#x200B;](assets/mobile-favorites-area.png)
 
 ## [!UICONTROL Contacts]
 
 In het gebied [!UICONTROL Contacts] kunt u de contactgegevens van alle gebruikers in uw bedrijf bekijken.
 
-![ het gebied van Contacten ](assets/mobile-contacts-area.png)
+![&#x200B; het gebied van Contacten &#x200B;](assets/mobile-contacts-area.png)
 
 ## [!UICONTROL Configuration]
 
@@ -191,4 +191,4 @@ In het gebied [!UICONTROL Configuration] kunt u het volgende doen:
 * Help-inhoud openen
 * Afmelden
 
-![ gebied van de Configuratie ](assets/android-configuration-area.png)
+![&#x200B; gebied van de Configuratie &#x200B;](assets/android-configuration-area.png)

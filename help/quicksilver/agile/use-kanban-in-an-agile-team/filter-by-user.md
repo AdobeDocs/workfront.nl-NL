@@ -39,7 +39,7 @@ U kunt het filter op een [!UICONTROL Kanban] board gebruiken om te zien welke he
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -47,7 +47,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 {{step1-to-team}}
 
-1. (Facultatief) klik het **[!UICONTROL Switch team]** pictogram van de pictogram ![ Schakelaar teampictogram ](assets/switch-team-icon.png), dan of selecteer een nieuw team Kanban van het drop-down menu of onderzoek naar een team in de onderzoeksbar.
+1. (Facultatief) klik het **[!UICONTROL Switch team]** pictogram van de pictogram ![&#x200B; Schakelaar teampictogram &#x200B;](assets/switch-team-icon.png), dan of selecteer een nieuw team Kanban van het drop-down menu of onderzoek naar een team in de onderzoeksbar.
 
 1. Ga naar een [!UICONTROL Kanban] board.
 1. Klik op het vervolgkeuzemenu [!UICONTROL Filter] aan de rechterkant van de kaart [!UICONTROL Kanban] .
@@ -59,4 +59,4 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
    >* Filters worden niet toegepast op de kolom [!UICONTROL Backlog] .
 
 
-   ![ Filter door gebruiker ](assets/filter-by-user-agile-nwe.png)
+   ![&#x200B; Filter door gebruiker &#x200B;](assets/filter-by-user-agile-nwe.png)

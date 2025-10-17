@@ -44,7 +44,7 @@ U kunt elke gewenste taak of uitgave toevoegen aan een [!UICONTROL Kanban] -boar
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -56,8 +56,8 @@ Een taak of een kwestie aan een [!UICONTROL Kanban] raad van een project toevoeg
 
 1. Selecteer het project dat de taak of kwestie bevat u aan de raad Kanban wilt toevoegen.
 1. Klik of de **Taken** of **Kwesties** tabel, dan selecteren één of meerdere het werkpunten om toe te voegen.
-1. Klik het **[!UICONTROL More]** pictogram ![ Meer pictogram ](assets/more-icon.png), dan uitgezocht **voeg aan Raad Kanban** toe. [!UICONTROL **voegt aan**] dialoogdoos toe opent.
-1. Op het **1} gebied Kanban van de Raad, typ de naam van het Kanban team, dan selecteer het van drop-down.**
+1. Klik het **[!UICONTROL More]** pictogram ![&#x200B; Meer pictogram &#x200B;](assets/more-icon.png), dan uitgezocht **voeg aan Raad Kanban** toe. [!UICONTROL **voegt aan**] dialoogdoos toe opent.
+1. Op het **1&rbrace; gebied Kanban van de Raad, typ de naam van het Kanban team, dan selecteer het van drop-down.**
 
    >[!NOTE]
    >
@@ -74,8 +74,8 @@ Om een taak of een kwestie aan een raad [!UICONTROL Kanban] van een rapport toe 
 
 1. Selecteer de taak of het uitgiftenrapport die het het werkpunt bevat u aan de karton wilt toevoegen Kanban.
 1. Selecteer een of meer werkitems die u wilt toevoegen.
-1. Klik het **[!UICONTROL More]** pictogram ![ Meer pictogram ](assets/more-icon.png), dan uitgezocht **voeg aan Raad Kanban** toe. [!UICONTROL **voegt aan**] dialoogdoos toe opent.
-1. Op het **1} gebied Kanban van de Raad, typ de naam van het Kanban team, dan selecteer het van drop-down.**
+1. Klik het **[!UICONTROL More]** pictogram ![&#x200B; Meer pictogram &#x200B;](assets/more-icon.png), dan uitgezocht **voeg aan Raad Kanban** toe. [!UICONTROL **voegt aan**] dialoogdoos toe opent.
+1. Op het **1&rbrace; gebied Kanban van de Raad, typ de naam van het Kanban team, dan selecteer het van drop-down.**
 
    >[!NOTE]
    >
@@ -93,8 +93,8 @@ Een taak of uitgave toevoegen aan een [!UICONTROL Kanban] -board vanaf een dashb
 
 1. Selecteer het dashboard dat het het werkpunt bevat u aan het Kanban board wilt toevoegen.
 1. Selecteer een of meer werkitems die u wilt toevoegen.
-1. Klik het **[!UICONTROL More]** pictogram ![ Meer pictogram ](assets/more-icon.png), dan uitgezocht **voeg aan Raad Kanban** toe. [!UICONTROL **voegt aan**] dialoogdoos toe opent.
-1. Op het **1} gebied Kanban van de Raad, typ de naam van het Kanban team, dan selecteer het van drop-down.**
+1. Klik het **[!UICONTROL More]** pictogram ![&#x200B; Meer pictogram &#x200B;](assets/more-icon.png), dan uitgezocht **voeg aan Raad Kanban** toe. [!UICONTROL **voegt aan**] dialoogdoos toe opent.
+1. Op het **1&rbrace; gebied Kanban van de Raad, typ de naam van het Kanban team, dan selecteer het van drop-down.**
 
    >[!NOTE]
    >

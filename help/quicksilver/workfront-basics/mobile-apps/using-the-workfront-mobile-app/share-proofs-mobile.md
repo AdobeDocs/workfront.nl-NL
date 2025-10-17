@@ -19,13 +19,13 @@ U kunt een proefdrukdocument rechtstreeks vanuit de mobiele app delen met intern
 
 >[!NOTE]
 >
->Alle ontvangers moeten toegang hebben in [!DNL Workfront] om proefdrukken te controleren. Voor informatie over vergunningen en toegangsniveaus, zie [ Profielen van de Toestemmingen van de Bewijs in  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md).
+>Alle ontvangers moeten toegang hebben in [!DNL Workfront] om proefdrukken te controleren. Voor informatie over vergunningen en toegangsniveaus, zie [&#x200B; Profielen van de Toestemmingen van de Bewijs in  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md).
 
 ## De proefdruk delen
 
 Met deze optie verzendt u een e-mail met een unieke proefkoppeling naar een contactpersoon via [!DNL Workfront Proof] . U kunt ook een nieuwe contactpersoon toevoegen die wordt opgeslagen aan uw proefdrukcontactpersonen.
 
-1. Open de documentproef en selecteer het **[!UICONTROL More]** menu ![ Meer menu ](assets/mobile-verticalmoremenu-20x33.png) op het hogere recht van het document. Selecteer vervolgens **[!UICONTROL More]** .
+1. Open de documentproef en selecteer het **[!UICONTROL More]** menu ![&#x200B; Meer menu &#x200B;](assets/mobile-verticalmoremenu-20x33.png) op het hogere recht van het document. Selecteer vervolgens **[!UICONTROL More]** .
 1. Selecteer **[!UICONTROL Share]**.
 1. Typ de naam van de contactpersoon in het vak **[!UICONTROL Share with]** en selecteer de contactpersoon in de lijst.
 
@@ -34,21 +34,21 @@ Met deze optie verzendt u een e-mail met een unieke proefkoppeling naar een cont
    Als de persoon niet in de lijst staat, typt u het e-mailadres in het vak **[!UICONTROL Share with]** en selecteert u **[!UICONTROL Add Recipient]** om de persoon toe te voegen.
 
 1. Selecteer **[!UICONTROL Proof Role]** voor de ontvanger.\
-   Voor informatie over proefdrukrollen, zie [ overzicht van de Rollen van het Bewijs ](../../../review-and-approve-work/proofing/proofing-overview/proof-roles.md).
+   Voor informatie over proefdrukrollen, zie [&#x200B; overzicht van de Rollen van het Bewijs &#x200B;](../../../review-and-approve-work/proofing/proofing-overview/proof-roles.md).
 1. Selecteer de **[!UICONTROL Email Alerts]** die de ontvanger moet ontvangen.\
-   Voor informatie over e-mailalarm voor proeven, zie [ de waakzame montages van de Verandering e-mail voor een proef in  [!DNL Workfront Proof]](../../../workfront-proof/wp-emailsntfctns/email-alerts/change-email-alert-settings-wp.md) en [ vormen de montages van het e-mailbericht in  [!DNL Workfront Proof]](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md).
+   Voor informatie over e-mailalarm voor proeven, zie [&#x200B; de waakzame montages van de Verandering e-mail voor een proef in  [!DNL Workfront Proof]](../../../workfront-proof/wp-emailsntfctns/email-alerts/change-email-alert-settings-wp.md) en [&#x200B; vormen de montages van het e-mailbericht in  [!DNL Workfront Proof]](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md).
 
-   ![ het scherm van het Aandeel ](assets/mobile-shareproof-350x551.png)
+   ![&#x200B; het scherm van het Aandeel &#x200B;](assets/mobile-shareproof-350x551.png)
 
 1. Herhaal stap 3-5 om een andere ontvanger toe te voegen.
 1. Selecteer **[!UICONTROL Set deadline for new contacts]** als u een vervaldatum wilt kiezen waarop alle ontvangers de proefdruk kunnen bekijken. Selecteer vervolgens een datum in de kalender.
-1. Selecteer het **[!UICONTROL Send]** pictogram ![ verzend pictogram ](assets/mobile-send-icon-25x26.png) om e-mail naar de ontvangers te verzenden.
+1. Selecteer het **[!UICONTROL Send]** pictogram ![&#x200B; verzend pictogram &#x200B;](assets/mobile-send-icon-25x26.png) om e-mail naar de ontvangers te verzenden.
 
 ## Een koppeling naar de proefdruk verzenden
 
 Met deze optie kopieert u een koppeling naar het klembord die u in een e-mail kunt plakken. Vervolgens kunt u het e-mailbericht met de proefdrukkoppeling naar een interne of externe ontvanger verzenden.
 
-1. Open de documentproef en selecteer het **[!UICONTROL More]** menu ![ Meer menu ](assets/mobile-verticalmoremenu-20x33.png) op het hogere recht van het document. Selecteer vervolgens **[!UICONTROL More]** .
+1. Open de documentproef en selecteer het **[!UICONTROL More]** menu ![&#x200B; Meer menu &#x200B;](assets/mobile-verticalmoremenu-20x33.png) op het hogere recht van het document. Selecteer vervolgens **[!UICONTROL More]** .
 1. Selecteer **[!UICONTROL Send Copy]**.
 1. Selecteer **[!UICONTROL Copy to clipboard]**.
 1. Open uw e-mailprogramma en plak de proefdrukkoppeling in de tekst van de e-mail.
@@ -58,7 +58,7 @@ Met deze optie kopieert u een koppeling naar het klembord die u in een e-mail ku
 
 Met deze optie verzendt u een e-mail met een openbare proefkoppeling naar een contactpersoon via [!DNL Workfront Proof] . U kunt indien nodig een nieuwe contactpersoon toevoegen. U kunt ervoor kiezen een openbare URL, een downloadbare koppeling of beide te verzenden.
 
-1. Open de documentproef en selecteer het **[!UICONTROL More]** menu ![ Meer menu ](assets/mobile-verticalmoremenu-20x33.png) op het hogere recht van het document. Selecteer vervolgens **[!UICONTROL More]** .
+1. Open de documentproef en selecteer het **[!UICONTROL More]** menu ![&#x200B; Meer menu &#x200B;](assets/mobile-verticalmoremenu-20x33.png) op het hogere recht van het document. Selecteer vervolgens **[!UICONTROL More]** .
 1. Selecteer **[!UICONTROL Share with Public URL]**.
 1. Typ de naam van de contactpersoon in het vak **[!UICONTROL Share with]** en selecteer de contactpersoon in de lijst.
 
@@ -73,12 +73,12 @@ Met deze optie verzendt u een e-mail met een openbare proefkoppeling naar een co
 
    ![[!UICONTROL Share with Public URL screen]](assets/mobile-sharepublicurl-proof-350x296.png)
 
-1. Selecteer het **[!UICONTROL Send]** pictogram ![ verzend pictogram ](assets/mobile-send-icon-25x26.png) om e-mail naar de ontvangers te verzenden.
+1. Selecteer het **[!UICONTROL Send]** pictogram ![&#x200B; verzend pictogram &#x200B;](assets/mobile-send-icon-25x26.png) om e-mail naar de ontvangers te verzenden.
 
 ## De proefdruk downloaden
 
 U kunt een kopie van het proefdrukdocument downloaden naar uw mobiele apparaat. Hoewel u geen voorvertoning van videobestanden kunt weergeven, kunt u deze wel downloaden.
 
-1. Open de documentproef en selecteer het **[!UICONTROL More]** menu ![ Meer menu ](assets/mobile-verticalmoremenu-20x33.png) op het hogere recht van het document. Selecteer vervolgens **[!UICONTROL More]** .
+1. Open de documentproef en selecteer het **[!UICONTROL More]** menu ![&#x200B; Meer menu &#x200B;](assets/mobile-verticalmoremenu-20x33.png) op het hogere recht van het document. Selecteer vervolgens **[!UICONTROL More]** .
 1. Selecteer **[!UICONTROL Download]**.
 1. Volg de aanwijzingen van uw apparaat om het downloaden te voltooien en het documentbestand te openen.

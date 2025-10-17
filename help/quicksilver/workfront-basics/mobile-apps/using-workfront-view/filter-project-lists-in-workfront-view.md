@@ -43,7 +43,7 @@ U kunt de lijst met projecten in [!DNL Workfront View] filteren om alleen projec
  </tbody> 
 </table>
 
-Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -52,7 +52,7 @@ Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront
 1. Ga naar de lijst met projecten in de [!DNL Workfront] Mobiele app weergeven.
 1. Tik op het lijstpictogram linksboven in de lijst.\
    De lijst met beschikbare filters wordt weergegeven.\
-   ![ WF_View_filters_050621.jpg ](assets/wf-view-filters-050621-350x427.jpg)
+   ![&#x200B; WF_View_filters_050621.jpg &#x200B;](assets/wf-view-filters-050621-350x427.jpg)
 
 1. Selecteer een van de volgende filters:
 

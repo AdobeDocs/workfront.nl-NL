@@ -21,5 +21,5 @@ ht-degree: 0%
 
 Deze sectie bevat de volgende artikelen:
 
-* [ creeer een team van het gebied van de Opstelling ](../../../administration-and-setup/add-users/create-and-manage-teams/create-a-team-from-setup.md)
+* [&#x200B; creeer een team van het gebied van de Opstelling &#x200B;](../../../administration-and-setup/add-users/create-and-manage-teams/create-a-team-from-setup.md)
 * [De instellingen van een team bewerken in het gedeelte Instellen](../../../administration-and-setup/add-users/create-and-manage-teams/edit-team-settings-from-setup.md)

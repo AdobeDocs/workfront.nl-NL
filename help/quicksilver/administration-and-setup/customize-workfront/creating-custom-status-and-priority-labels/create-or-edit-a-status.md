@@ -21,11 +21,11 @@ ht-degree: 0%
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT THROUGH CONTEXT SENSITIVE HELP LINKS.-->
 
-Als beheerder van Adobe Workfront, kunt u douanestatus voor projecten, taken, en kwesties tot stand brengen. Dit kan voor gebruikers door het volledige systeem van Workfront, of voor specifieke groepen of subgroepen zijn. Voor meer informatie over statussen, zie [ Overzicht van Statussen ](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/statuses-overview.md).
+Als beheerder van Adobe Workfront, kunt u douanestatus voor projecten, taken, en kwesties tot stand brengen. Dit kan voor gebruikers door het volledige systeem van Workfront, of voor specifieke groepen of subgroepen zijn. Voor meer informatie over statussen, zie [&#x200B; Overzicht van Statussen &#x200B;](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/statuses-overview.md).
 
 >[!NOTE]
 >
->Groepbeheerders kunnen ook hun eigen groepsstatussen maken, alleen voor gebruik door hun groepen. Voor meer informatie, zie [ creeer of geef een groepsstatus ](../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md) uit.
+>Groepbeheerders kunnen ook hun eigen groepsstatussen maken, alleen voor gebruik door hun groepen. Voor meer informatie, zie [&#x200B; creeer of geef een groepsstatus &#x200B;](../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md) uit.
 
 ## Toegangsvereisten
 
@@ -51,7 +51,7 @@ Als beheerder van Adobe Workfront, kunt u douanestatus voor projecten, taken, en
  </tbody> 
 </table>
 
-Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -59,7 +59,7 @@ Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront
 
 U kunt een aangepaste status toevoegen voor gebruik door uw volledige organisatie of door één groep.
 
-Wanneer u een douanestatus voor de volledige organisatie creeert, kunt u het vormen zodat alle groepen in het systeem het kunnen gebruiken zonder het uit te geven. Of u kunt het vormen zodat de groepsbeheerders het voor hun groepen kunnen wijzigen, zoals verklaard in [ creeer of geef een groepsstatus ](../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md) uit.
+Wanneer u een douanestatus voor de volledige organisatie creeert, kunt u het vormen zodat alle groepen in het systeem het kunnen gebruiken zonder het uit te geven. Of u kunt het vormen zodat de groepsbeheerders het voor hun groepen kunnen wijzigen, zoals verklaard in [&#x200B; creeer of geef een groepsstatus &#x200B;](../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md) uit.
 
 {{step-1-to-setup}}
 
@@ -67,13 +67,13 @@ Wanneer u een douanestatus voor de volledige organisatie creeert, kunt u het vor
 
 1. (Voorwaardelijk) als u creeert of een status voor gebruik systeembreed uitgeeft, zorg ervoor dat **de Statussen van het Systeem** in de doos in de hoger-juiste hoek wordt geselecteerd.
 
-   ![ status van het Systeem ](assets/system-statuses-in-upper-rt-corner-new.jpg)
+   ![&#x200B; status van het Systeem &#x200B;](assets/system-statuses-in-upper-rt-corner-new.jpg)
 
    of
 
    Als de status voor een groep of subgroep is, typt u de naam van de groep in de rechterbovenhoek en selecteert u de naam wanneer deze wordt weergegeven.
 
-   ![ de statussen van het Systeem voor groep ](assets/system-statuses-in-upper-rt-corner-group.jpg)
+   ![&#x200B; de statussen van het Systeem voor groep &#x200B;](assets/system-statuses-in-upper-rt-corner-group.jpg)
 
 1. Selecteer het lusje van het objecten type (**Project**, **Taken**, of **Kwesties**) dat u met de status wilt associëren.
 
@@ -81,9 +81,9 @@ Wanneer u een douanestatus voor de volledige organisatie creeert, kunt u het vor
 
    of
 
-   Als u een bestaande status uitgeeft, beweegt over het, dan klik **** pictogram uitgeven dat aan uiterst rechts toont.
+   Als u een bestaande status uitgeeft, beweegt over het, dan klik **&#x200B;**&#x200B;pictogram uitgeven dat aan uiterst rechts toont.
 
-   ![ geef douanestatus ](assets/custom-status-edit.png) uit
+   ![&#x200B; geef douanestatus &#x200B;](assets/custom-status-edit.png) uit
 
 1. Configureer de status met behulp van de volgende opties:
 
@@ -138,6 +138,6 @@ Wanneer u een douanestatus voor de volledige organisatie creeert, kunt u het vor
 
 1. Klik **sparen**.
 
-   Voor instructies bij het maken van deze status een standaardstatus, zie [ de douanestatus van het Gebruik als standaardstatussen ](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/use-custom-statuses-as-default-statuses.md).
+   Voor instructies bij het maken van deze status een standaardstatus, zie [&#x200B; de douanestatus van het Gebruik als standaardstatussen &#x200B;](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/use-custom-statuses-as-default-statuses.md).
 
-Voor informatie over het opnieuw in orde brengen van groepsstatussen, zie [ systeem-niveau opnieuw ordenen en groepsstatussen ](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/reorder-system-statuses.md).
+Voor informatie over het opnieuw in orde brengen van groepsstatussen, zie [&#x200B; systeem-niveau opnieuw ordenen en groepsstatussen &#x200B;](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/reorder-system-statuses.md).

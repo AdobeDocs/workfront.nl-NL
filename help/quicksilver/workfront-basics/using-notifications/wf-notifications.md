@@ -23,7 +23,7 @@ ht-degree: 0%
 
 [!DNL Workfront] verzendt e-mailmeldingen om gebruikers te waarschuwen over activiteiten in Workfront en geeft nuttige informatie en koppelingen.
 
-Om de voorkeur voor uw e-mailberichten te veranderen, zie [ uw eigen e-mailberichten wijzigen ](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+Om de voorkeur voor uw e-mailberichten te veranderen, zie [&#x200B; uw eigen e-mailberichten wijzigen &#x200B;](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 >[!NOTE]
 >
@@ -45,13 +45,13 @@ Gebeurtenismeldingen die gewoonlijk worden geactiveerd door bepaalde vooraf gede
 
 Nadat de [!DNL Workfront] -beheerder of groepsbeheerder gebeurtenismeldingen in uw [!DNL Workfront] -systeem heeft geactiveerd, kunt u selecteren welke meldingen u wilt ontvangen door uw [!UICONTROL Notifications] -voorkeuren in uw gebruikersprofiel te bewerken. U kunt ook kiezen of u meldingen wilt ontvangen terwijl er gebeurtenissen plaatsvinden, of dat u gebeurtenissen wilt ontvangen die zijn samengevat in één e-mailoverzicht voor dagelijkse controlesamenvatting.
 
-Afhankelijk van de manier waarop de [!DNL Workfront] -beheerder gebeurtenismeldingen voor uw [!DNL Workfront] -systeem heeft geconfigureerd, ziet u mogelijk alleen een subset van deze meldingen in uw instellingen. Voor meer informatie, zie [ gebeurtenisberichten voor iedereen in het systeem ](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md) vormen.
+Afhankelijk van de manier waarop de [!DNL Workfront] -beheerder gebeurtenismeldingen voor uw [!DNL Workfront] -systeem heeft geconfigureerd, ziet u mogelijk alleen een subset van deze meldingen in uw instellingen. Voor meer informatie, zie [&#x200B; gebeurtenisberichten voor iedereen in het systeem &#x200B;](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md) vormen.
 
 In de standaardstatus wordt aangegeven welke meldingen (dagelijks, direct of beide) standaard zijn ingeschakeld voor nieuwe gebruikers wanneer u de nieuwe gebruikers maakt.
 
-Voor een volledige lijst van de gebeurtenisberichten, en informatie over hoe zij op het systeemniveau, groepsniveau, of gebruikersniveau worden toegelaten en gevormd, zie [ de berichten van de Gebeurtenis beschikbaar in  [!DNL Adobe Workfront]](../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
+Voor een volledige lijst van de gebeurtenisberichten, en informatie over hoe zij op het systeemniveau, groepsniveau, of gebruikersniveau worden toegelaten en gevormd, zie [&#x200B; de berichten van de Gebeurtenis beschikbaar in  [!DNL Adobe Workfront]](../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
 
-Voor informatie over hoe te om te kiezen welke gebeurtenisberichten u wilt ontvangen, zie [ uw eigen e-mailberichten wijzigen ](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+Voor informatie over hoe te om te kiezen welke gebeurtenisberichten u wilt ontvangen, zie [&#x200B; uw eigen e-mailberichten wijzigen &#x200B;](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 >[!NOTE]
 >
@@ -61,7 +61,7 @@ Voor informatie over hoe te om te kiezen welke gebeurtenisberichten u wilt ontva
 
 Een dagelijkse overzichtsmelding is een e-mail die alle berichten van een bepaald type bevat die u in de 24 uur vóór e-mail hebt ontvangen.
 
-Voor een volledige lijst van welke e-mailberichten voor een dagelijkse samenvatting e-maillevering evenals informatie over alle categorieën voor e-mailberichten zijn toegelaten, zie [ de berichten van de Gebeurtenis ](../../workfront-basics/using-notifications/event-notifications.md#understanding-instant-and-daily-digest-notifications).
+Voor een volledige lijst van welke e-mailberichten voor een dagelijkse samenvatting e-maillevering evenals informatie over alle categorieën voor e-mailberichten zijn toegelaten, zie [&#x200B; de berichten van de Gebeurtenis &#x200B;](../../workfront-basics/using-notifications/event-notifications.md#understanding-instant-and-daily-digest-notifications).
 
 >[!NOTE]
 >
@@ -101,7 +101,7 @@ Als u wilt reageren op de opmerking of deze wilt bekijken in Workfront:
 
    Er is een antwoordvenster geopend dat u kunt gebruiken om op de opmerking te reageren.
 
-Voor meer informatie over het vormen van e-mailberichten, met inbegrip van het toelaten van dagelijkse samenvattingsberichten, zie [ Mening en wijzig uw montages van het e-mailbericht ](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md#view-and-modify-your-email-notification-settings) in [ uw eigen e-mailberichten wijzigen ](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+Voor meer informatie over het vormen van e-mailberichten, met inbegrip van het toelaten van dagelijkse samenvattingsberichten, zie [&#x200B; Mening en wijzig uw montages van het e-mailbericht &#x200B;](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md#view-and-modify-your-email-notification-settings) in [&#x200B; uw eigen e-mailberichten wijzigen &#x200B;](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 ### Automatische herinneringen
 
@@ -126,7 +126,7 @@ Afhankelijk van welke automatische herinnering wordt geactiveerd, zijn de volgen
 * Prioriteit van de taak of kwestie
 * Datum waarop de taak of uitgifte achterstallig werd
 
-Voor informatie over het toelaten van automatische herinneringen, zie [ Opstelling automatische herinneringen ](../../administration-and-setup/manage-workfront/emails/setting-up-automatic-reminders.md).
+Voor informatie over het toelaten van automatische herinneringen, zie [&#x200B; Opstelling automatische herinneringen &#x200B;](../../administration-and-setup/manage-workfront/emails/setting-up-automatic-reminders.md).
 
 ### Herinneringsmeldingen
 
@@ -138,15 +138,15 @@ Een [!DNL Workfront] -beheerder (of een gebruiker met een [!UICONTROL Planner] -
 
 Herinneringsberichten worden verzonden vanaf het e-mailadres dat de beheerder van [!DNL Workfront] heeft geselecteerd voor de verwerking van uitgaande e-mailberichten.
 
-Voor informatie over vestiging en het toelaten van herinneringsberichten, zie [ de herinneringsberichten van de Opstelling ](../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md).
+Voor informatie over vestiging en het toelaten van herinneringsberichten, zie [&#x200B; de herinneringsberichten van de Opstelling &#x200B;](../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md).
 
-Voor informatie over hoe u de vereiste administratieve toegang kunt krijgen, zie [ gebruikers administratieve toegang van de Verlening tot bepaalde gebieden ](../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
+Voor informatie over hoe u de vereiste administratieve toegang kunt krijgen, zie [&#x200B; gebruikers administratieve toegang van de Verlening tot bepaalde gebieden &#x200B;](../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 
 ### Boekberichten
 
 [!DNL Adobe Workfront] [!UICONTROL Boards] stuurt u een e-mail wanneer u aan een bord wordt toegevoegd en wanneer een kaart aan u wordt toegewezen. U kunt selecteren welke e-mails u wilt ontvangen in de voorkeursinstellingen voor de kamers.
 
-Voor meer informatie, zie [ Boards e-mailberichten en voorkeur ](/help/quicksilver/agile/get-started-with-boards/boards-emails.md).
+Voor meer informatie, zie [&#x200B; Boards e-mailberichten en voorkeur &#x200B;](/help/quicksilver/agile/get-started-with-boards/boards-emails.md).
 
 ### Overige [!DNL Workfront] e-mails
 
@@ -166,7 +166,7 @@ De volgende e-mails kunnen alleen op gebruikersprofielniveau worden geconfiguree
 
 U kunt meldingen ontvangen in de [!DNL Workfront] -webtoepassing wanneer bepaalde gebeurtenissen plaatsvinden.
 
-Voor meer informatie over in-app berichten, zie [ Mening en beheer in-app berichten ](../../workfront-basics/using-notifications/view-and-manage-in-app-notifications.md).
+Voor meer informatie over in-app berichten, zie [&#x200B; Mening en beheer in-app berichten &#x200B;](../../workfront-basics/using-notifications/view-and-manage-in-app-notifications.md).
 
 ## E-mailmeldingen in de mobiele e-mailtoepassing
 
@@ -182,4 +182,4 @@ Als u de [!DNL Workfront] Mobile-app op uw telefoon hebt geïnstalleerd, kunt u 
 * [!UICONTROL Get Started]
 * [!UICONTROL See More Details]
 
-Voor meer informatie over [!DNL Workfront] Mobiele App, zie [ Gebruik  [!DNL Adobe Workfront]  mobiele app ](../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/use-the-mobile-app.md).
+Voor meer informatie over [!DNL Workfront] Mobiele App, zie [&#x200B; Gebruik  [!DNL Adobe Workfront]  mobiele app &#x200B;](../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/use-the-mobile-app.md).

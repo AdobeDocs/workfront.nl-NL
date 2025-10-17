@@ -25,7 +25,7 @@ Omgekeerd, staat het ontgrendelen van de douanestatus van een groep de beheerder
 >
 >Als u een douanestatus sluit nadat het voor om het even welke periode is ontgrendeld, vervangen uw montages voor de status die door groepsbeheerders in lagere subgroepen worden gemaakt. Terwijl de status is vergrendeld, kunnen deze beheerders de status voor hun groepen niet wijzigen of verwijderen.
 
-Voor instructies bij het sluiten van of het ontgrendelen van een groepsstatus, zie [ tot stand brengen of een groepsstatus ](../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md) uitgeven.
+Voor instructies bij het sluiten van of het ontgrendelen van een groepsstatus, zie [&#x200B; tot stand brengen of een groepsstatus &#x200B;](../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md) uitgeven.
 
 U kunt zowel vergrendelde als ontgrendelde statussen gebruiken in een goedkeuringsproces voor groepen. Als u een proces van de groepsgoedkeuring met een ontgrendelde groepsstatus creeert, kunnen de gebruikers het goedkeuringsproces aan om het even welk project, taak, of kwestie vastmaken die met de groep wordt geassocieerd.
 

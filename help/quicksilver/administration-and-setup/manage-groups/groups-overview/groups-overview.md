@@ -25,6 +25,6 @@ De beheerder van Workfront verleent groepen de toegang tot de gebieden van Workf
 
 Deze sectie bevat de volgende artikelen:
 
-* [ Overzicht van Groepen ](../../../administration-and-setup/manage-groups/groups-overview/groups.md)
-* [ Subgroups overzicht ](../../../administration-and-setup/manage-groups/groups-overview/subgroups.md)
+* [&#x200B; Overzicht van Groepen &#x200B;](../../../administration-and-setup/manage-groups/groups-overview/groups.md)
+* [&#x200B; Subgroups overzicht &#x200B;](../../../administration-and-setup/manage-groups/groups-overview/subgroups.md)
 * [Overzicht van thuisgroepen](../../../administration-and-setup/manage-groups/groups-overview/home-groups.md)

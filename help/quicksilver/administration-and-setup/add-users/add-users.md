@@ -25,9 +25,9 @@ U kunt gebruikers maken en beheren in Workfront.
 
 Deze index bevat koppelingen naar de volgende subsecties over gebruikersbeheer:
 
-* [ creeer en beheer gebruikers: artikelindex ](../../administration-and-setup/add-users/create-and-manage-users/create-and-manage-users.md)
+* [&#x200B; creeer en beheer gebruikers: artikelindex &#x200B;](../../administration-and-setup/add-users/create-and-manage-users/create-and-manage-users.md)
 * [Hoe de nieuwe toegangsniveaus werken](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-levels-toc.md)
-* [ hoe de toegangsniveaus ](../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels.md) werken
-* [ vorm toegang tot Adobe Workfront ](../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md)
+* [&#x200B; hoe de toegangsniveaus &#x200B;](../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels.md) werken
+* [&#x200B; vorm toegang tot Adobe Workfront &#x200B;](../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md)
 * [Single Sign-On in Workfront: artikelindex](../../administration-and-setup/add-users/single-sign-on/single-sign-on.md)
 * [Teams maken en beheren](../../administration-and-setup/add-users/create-and-manage-teams/create-and-manage-teams.md)

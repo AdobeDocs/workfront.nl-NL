@@ -28,12 +28,12 @@ Met behulp van borden kunt u:
 * Werk voor een team organiseren en beheren op één locatie
 * Tegelplanningstools gebruiken, zoals een inlaatkolom voor Kanban-borden
 
-Voor informatie over hoe te om de basiseigenschappen van Borden te gebruiken, zie [ begonnen met borden: artikelindex ](../agile/get-started-with-boards/get-started-with-boards.md). Voor informatie over agile planningshulpmiddelen in raden van bestuur, zie [ het overzicht van de de planningshulpmiddelen van de Gelijkheid ](/help/quicksilver/agile/use-boards-agile-planning-tools/agile-planning-tools-overview.md).
+Voor informatie over hoe te om de basiseigenschappen van Borden te gebruiken, zie [&#x200B; begonnen met borden: artikelindex &#x200B;](../agile/get-started-with-boards/get-started-with-boards.md). Voor informatie over agile planningshulpmiddelen in raden van bestuur, zie [&#x200B; het overzicht van de de planningshulpmiddelen van de Gelijkheid &#x200B;](/help/quicksilver/agile/use-boards-agile-planning-tools/agile-planning-tools-overview.md).
 
-Voor informatie over het gebruiken van een raad op een project, zie [ een project in de Mening van de Gelijkheid beheren ](/help/quicksilver/manage-work/projects/manage-projects/manage-projects-in-agile-view.md).
+Voor informatie over het gebruiken van een raad op een project, zie [&#x200B; een project in de Mening van de Gelijkheid beheren &#x200B;](/help/quicksilver/manage-work/projects/manage-projects/manage-projects-in-agile-view.md).
 
-U kunt ook borden openen in de mobiele app. Zie [[!DNL Adobe Workfront] [!UICONTROL Boards] for mobile ](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/mobile-boards.md) voor meer informatie.
+U kunt ook borden openen in de mobiele app. Zie [[!DNL Adobe Workfront] [!UICONTROL Boards] for mobile &#x200B;](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/mobile-boards.md) voor meer informatie.
 
-Zie [[!DNL Adobe Workfront] [!UICONTROL Boards] videodemonstraties ](/help/quicksilver/agile/get-started-with-boards/boards-video-demonstrations.md) voor een video-analyse van functies van borden.
+Zie [[!DNL Adobe Workfront] [!UICONTROL Boards] videodemonstraties &#x200B;](/help/quicksilver/agile/get-started-with-boards/boards-video-demonstrations.md) voor een video-analyse van functies van borden.
 
-Voor informatie over extra agile hulpmiddelen in [!DNL Workfront], zie [ het overzicht van de Gelijkheid ](../agile/agile-overview.md).
+Voor informatie over extra agile hulpmiddelen in [!DNL Workfront], zie [&#x200B; het overzicht van de Gelijkheid &#x200B;](../agile/agile-overview.md).

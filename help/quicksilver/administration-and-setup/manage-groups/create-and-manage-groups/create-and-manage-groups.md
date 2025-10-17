@@ -21,17 +21,17 @@ ht-degree: 0%
 
 Deze sectie bevat de volgende artikelen:
 
-* [ creeer een groep ](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md)
-* [ beheer een groep ](../../../administration-and-setup/manage-groups/create-and-manage-groups/manage-a-group.md)
-* [ Mening en beheer de details van een groep ](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-details.md)
-* [ Mening en beheer het lidmaatschap van een groep ](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-memberships.md)
-* [ Mening het aantal vergunningen die in een groep in de nieuwe ervaring van Adobe Workfront worden toegewezen en worden gebruikt ](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-number-licenses-allocated-used-group.md)
-* [ vorm projectvoorkeur voor een groep ](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md)
-* [ vorm taak en geef voorkeur voor een groep ](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md) uit
-* [ ontgrendel of ontgrendel een project, een taak, of een kwestie voorkeur voor subgroups ](../../../administration-and-setup/manage-groups/create-and-manage-groups/lock-or-unlock-a-group-preference.md)
-* [ vorm timesheet en uurvoorkeur voor een groep ](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-timesheet-hour-preferences-group.md)
-* [ Slot of ontgrendel een groep timesheet en een uurvoorkeur ](../../../administration-and-setup/manage-groups/create-and-manage-groups/lock-or-unlock-a-group-timesheet-hour-preference.md)
-* [ Mening en vorm gebeurtenisberichten voor een groep ](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md)
-* [ Beweeg een groep ](../../../administration-and-setup/manage-groups/create-and-manage-groups/move-a-group.md)
-* [ Schrap een groep ](../../../administration-and-setup/manage-groups/create-and-manage-groups/delete-a-group.md)
+* [&#x200B; creeer een groep &#x200B;](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md)
+* [&#x200B; beheer een groep &#x200B;](../../../administration-and-setup/manage-groups/create-and-manage-groups/manage-a-group.md)
+* [&#x200B; Mening en beheer de details van een groep &#x200B;](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-details.md)
+* [&#x200B; Mening en beheer het lidmaatschap van een groep &#x200B;](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-memberships.md)
+* [&#x200B; Mening het aantal vergunningen die in een groep in de nieuwe ervaring van Adobe Workfront worden toegewezen en worden gebruikt &#x200B;](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-number-licenses-allocated-used-group.md)
+* [&#x200B; vorm projectvoorkeur voor een groep &#x200B;](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md)
+* [&#x200B; vorm taak en geef voorkeur voor een groep &#x200B;](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md) uit
+* [&#x200B; ontgrendel of ontgrendel een project, een taak, of een kwestie voorkeur voor subgroups &#x200B;](../../../administration-and-setup/manage-groups/create-and-manage-groups/lock-or-unlock-a-group-preference.md)
+* [&#x200B; vorm timesheet en uurvoorkeur voor een groep &#x200B;](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-timesheet-hour-preferences-group.md)
+* [&#x200B; Slot of ontgrendel een groep timesheet en een uurvoorkeur &#x200B;](../../../administration-and-setup/manage-groups/create-and-manage-groups/lock-or-unlock-a-group-timesheet-hour-preference.md)
+* [&#x200B; Mening en vorm gebeurtenisberichten voor een groep &#x200B;](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md)
+* [&#x200B; Beweeg een groep &#x200B;](../../../administration-and-setup/manage-groups/create-and-manage-groups/move-a-group.md)
+* [&#x200B; Schrap een groep &#x200B;](../../../administration-and-setup/manage-groups/create-and-manage-groups/delete-a-group.md)
 * [Een lijst met groepen exporteren](../../../administration-and-setup/manage-groups/create-and-manage-groups/export-a-list-of-groups.md)

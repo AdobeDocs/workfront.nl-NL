@@ -60,7 +60,7 @@ Voordat u een nieuwe gebruiker maakt, moet u eerst controleren of u alle objecte
  </tbody> 
 </table>
 
-Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -92,7 +92,7 @@ Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront
 
    Wanneer u met een rij wordt gebeëindigd, zou het als volgt moeten kijken:
 
-   ![ het invoeren-nieuw-users.png ](assets/importing-new-users.png)
+   ![&#x200B; het invoeren-nieuw-users.png &#x200B;](assets/importing-new-users.png)
 
 1. Sla het bestand op een locatie op uw werkstation op.
 1. Klik **kiezen dossier** in het **de gebruikers van de Invoer** vakje.
@@ -116,4 +116,4 @@ Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront
 > 
 >Als een gebruiker binnen een paar minuten niet de status Uitgeschakeld en In afwachting van goedkeuring verlaat en het scherm vernieuwt de badge In afwachting van goedkeuring niet verwijdert, kunt u de batch gebruikers rechtstreeks aan de Adobe Admin Console toevoegen.
 >
->Voor instructies, zie [ veelvoudige gebruikers beheren | Bulk CSV upload ](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html) in de documentatie van Adobe.
+>Voor instructies, zie [&#x200B; veelvoudige gebruikers beheren | Bulk CSV upload &#x200B;](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html) in de documentatie van Adobe.

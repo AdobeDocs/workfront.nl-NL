@@ -49,7 +49,7 @@ Als er groepen zijn boven de groep die u beheert, kunnen hun beheerders dit ook 
  </tbody> 
 </table>
 
-Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -57,7 +57,7 @@ Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront
 
 {{step-1-to-setup}}
 
-1. In het linkerpaneel, klik **Groepen** ![ Groepen ](assets/groups-icon.png).
+1. In het linkerpaneel, klik **Groepen** ![&#x200B; Groepen &#x200B;](assets/groups-icon.png).
 
 1. Klik op de naam van de groep waarvoor u portfolio&#39;s wilt maken, weergeven of bewerken.
 1. In het linkerpaneel, klik **Portfolio&#39;s** om van de portefeuilles een lijst te maken verbonden aan de groep (en om het even welke subgroups onder het).

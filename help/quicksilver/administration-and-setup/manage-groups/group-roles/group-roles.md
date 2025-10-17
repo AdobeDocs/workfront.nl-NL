@@ -23,7 +23,7 @@ Deze sectie bevat de volgende artikelen:
 
 * [Groepbeheerders](../../../administration-and-setup/manage-groups/group-roles/group-administrators.md)
 
-* [ wijs een gebruiker als groepsbeheerder ](../../../administration-and-setup/manage-groups/group-roles/assign-user-as-group-administrator.md) toe
+* [&#x200B; wijs een gebruiker als groepsbeheerder &#x200B;](../../../administration-and-setup/manage-groups/group-roles/assign-user-as-group-administrator.md) toe
 * [Handelingen toegestaan voor verschillende typen beheerders](../../../administration-and-setup/manage-groups/group-roles/group-actions-allowed-different-types-admins.md)
 
 * [Overzicht van Business Leader](../../../administration-and-setup/manage-groups/group-roles/business-leader-overview.md)
