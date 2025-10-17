@@ -3,10 +3,10 @@ product-area: agile-and-teams;setup
 navigation-topic: create-and-manage-teams
 title: De knop Gereed voor problemen configureren
 description: Met de knop Gereed kunt u automatisch de status van een taak of een uitgave instellen. Adobe Workfront markeert standaard een probleem dat is opgelost wanneer een toegewezen persoon op Gereed klikt voor het betreffende werkitem.
-author: Lisa
+author: Jenny
 feature: People Teams and Groups
 exl-id: 2e72854a-2d49-4665-b307-b88f660b141e
-source-git-commit: dd47158a4c2e1b7372af6c9450b2d277d1ca8c6f
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '1062'
 ht-degree: 0%
@@ -25,10 +25,10 @@ Met de knop [!UICONTROL Done] kunt u automatisch de status van een taak of een u
 
 Gebruikers met bepaalde machtigingen kunnen de knop [!UICONTROL Done] zo configureren dat bepaalde statussen in het systeem worden weerspiegeld. Er zijn drie verschillende manieren waarop de knop [!UICONTROL Done] werkt voor problemen in [!DNL Workfront] :
 
-* Als de gebruiker een toegewezen [!UICONTROL Home Team] heeft, kan een [!DNL Workfront] beheerder of een gebruiker met een [!UICONTROL Plan] licentie de [!UICONTROL Done] knop configureren om bepaalde statussen voor teamleden te weerspiegelen. Zie [&#x200B; de [!UICONTROL Done] knoop voor een Team &#x200B;](#configure-the-uicontrol-done-button-for-a-team) in dit artikel vormen.
+* Als de gebruiker een toegewezen [!UICONTROL Home Team] heeft, kan een [!DNL Workfront] beheerder of een gebruiker met een [!UICONTROL Plan] licentie de [!UICONTROL Done] knop configureren om bepaalde statussen voor teamleden te weerspiegelen. Zie [ de [!UICONTROL Done] knoop voor een Team ](#configure-the-uicontrol-done-button-for-a-team) in dit artikel vormen.
 * Als de gebruiker geen [!UICONTROL Home Team] heeft maar [!UICONTROL Other Teams] in zijn profiel, zoekt Workfront naar de instelling van de knop [!UICONTROL Done] in een van de teams die aan de gebruiker zijn gekoppeld. De selectie is willekeurig en de status verbonden aan om het even welke teams wordt gebruikt voor de kwestie.
 * Als de gebruiker geen [!UICONTROL Home Team] toegewezen heeft, is de [!UICONTROL Done] knop voor uitgaven gekoppeld aan een door het systeem gegenereerde [!UICONTROL Resolved] status met de drielettercode [!UICONTROL RLV] . Er zijn geen configuratieopties beschikbaar in dit scenario. Deze status wordt automatisch ingesteld op de knop [!UICONTROL Done] .
-* Als de status [!UICONTROL Resolved] ([!UICONTROL RLV]) wordt verwijderd en de gebruiker die de uitgave als [!UICONTROL Done] markeert geen [!UICONTROL Home Team] heeft, is de standaarduitgavestatus gekoppeld aan wat als standaard voor [!UICONTROL Closed] wordt ingesteld voor de groep die is toegewezen aan het project waartoe de uitgave behoort. De Workfront-beheerder kan een standaardinstelling voor de groep configureren voor het hele systeem. Zie [&#x200B; vormen de [!UICONTROL Done] knoop wanneer de [!UICONTROL Resolved] status &#x200B;](#configure-the-uicontrol-done-button-when-the-uicontrol-resolved-status-has-been-deleted) in dit artikel is geschrapt.
+* Als de status [!UICONTROL Resolved] ([!UICONTROL RLV]) wordt verwijderd en de gebruiker die de uitgave als [!UICONTROL Done] markeert geen [!UICONTROL Home Team] heeft, is de standaarduitgavestatus gekoppeld aan wat als standaard voor [!UICONTROL Closed] wordt ingesteld voor de groep die is toegewezen aan het project waartoe de uitgave behoort. De Workfront-beheerder kan een standaardinstelling voor de groep configureren voor het hele systeem. Zie [ vormen de [!UICONTROL Done] knoop wanneer de [!UICONTROL Resolved] status ](#configure-the-uicontrol-done-button-when-the-uicontrol-resolved-status-has-been-deleted) in dit artikel is geschrapt.
 
 ## Toegangsvereisten
 
@@ -55,7 +55,7 @@ Gebruikers met bepaalde machtigingen kunnen de knop [!UICONTROL Done] zo configu
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

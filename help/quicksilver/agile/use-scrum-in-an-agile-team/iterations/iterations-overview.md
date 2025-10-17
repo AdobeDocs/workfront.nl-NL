@@ -3,10 +3,10 @@ product-area: agile-and-teams
 navigation-topic: iterations
 title: Overzicht van herhalingen
 description: De iteraties van het iegel bestaan uit drie gebieden - voltooiingsstatus, insluiting, en de verhaalraad.
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: db32d3b9-f573-43e3-b4fb-49b75162057b
-source-git-commit: 91dc9946566e15bf32d0d89975e3e6b66b39e873
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '55'
 ht-degree: 0%
@@ -17,8 +17,8 @@ ht-degree: 0%
 
 De iteraties van het iegel bestaan uit drie gebieden: voltooiingsstatus, begraving, en de verhaalraad.
 
-![&#x200B; mening van de Interlatie &#x200B;](assets/agile-iteration-with-callouts.png)
+![ mening van de Interlatie ](assets/agile-iteration-with-callouts.png)
 
 Zie de sectie [[!UICONTROL Burndown]](../../../agile/use-scrum-in-an-agile-team/burndown/burndown.md) voor meer informatie over het uitvouwdiagram en de voltooiingsstatus.
 
-Zie de sectie [[!UICONTROL Scrum] board &#x200B;](../../../agile/use-scrum-in-an-agile-team/scrum-board/scrum-board.md) voor meer informatie over het artikelbord.
+Zie de sectie [[!UICONTROL Scrum] board ](../../../agile/use-scrum-in-an-agile-team/scrum-board/scrum-board.md) voor meer informatie over het artikelbord.

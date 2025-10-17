@@ -5,11 +5,11 @@ product-area: system-administration;user-management;setup
 keywords: groep,voorkeuren,taak,uitgave,ontgrendelen
 navigation-topic: create-and-manage-groups
 description: Als de groepen in uw organisatie een taak of een uitgiftevoorkeur onafhankelijk van de manier moeten vormen het op het systeemniveau wordt gevormd, kan een beheerder van Adobe Workfront de voorkeur ontgrendelen. Dan, als groepsbeheerder, kunt u de voorkeur voor uw groep vormen en het zal alle taken of kwesties beïnvloeden verbonden aan uw groep.
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 6889b94a-1be6-4be9-8397-c38f890f9103
-source-git-commit: a42a167447d2f11b5502e4a0953b5e7eec2e67b1
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '2136'
 ht-degree: 0%
@@ -26,19 +26,19 @@ Als de groepen in uw organisatie een taak of een uitgiftevoorkeur onafhankelijk 
 
 Als er groepen zijn boven de groep die u beheert, kunnen hun beheerders dit ook voor uw groep doen. Hetzelfde geldt voor Workfront-beheerders (voor elke groep).
 
-Voor informatie over hoe de beheerder van Workfront voorkeur ontgrendelt, zie [&#x200B; het Slot of ontgrendelt projectvoorkeur voor alle groepen in het systeem &#x200B;](../../../administration-and-setup/set-up-workfront/configure-system-defaults/lock-or-unlock-project-preferences-for-groups-system.md).
+Voor informatie over hoe de beheerder van Workfront voorkeur ontgrendelt, zie [ het Slot of ontgrendelt projectvoorkeur voor alle groepen in het systeem ](../../../administration-and-setup/set-up-workfront/configure-system-defaults/lock-or-unlock-project-preferences-for-groups-system.md).
 
 >[!TIP]
 >
->Configuratie op groepsniveau is ook mogelijk voor projectvoorkeuren. Voor informatie, zie [&#x200B; projectvoorkeur voor een groep &#x200B;](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md) vormen.
+>Configuratie op groepsniveau is ook mogelijk voor projectvoorkeuren. Voor informatie, zie [ projectvoorkeur voor een groep ](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md) vormen.
 
 >[!NOTE]
 >
 >* Een niet-vergrendelde voorkeur blijft meestal voor onbepaalde tijd ontgrendeld. Als de beheerder van Workfront het opnieuw sluit, wordt het systeem opnieuw plaatsend dat en de montages voor de voorkeur door de groepsbeheerders wordt gemaakt worden verloren.
 >* De voorkeuren die zijn ingesteld voor de groep die is gekoppeld aan een project, hebben voorrang op de voorkeuren die zijn ingesteld voor de thuisgroep van de gebruiker die het project maakt.
->* Sommige voorkeuren op groepsniveau zijn van invloed op projectsjablonen die u voor de groep maakt. Voor meer informatie, zie de sectie [&#x200B; Mening, werk met, en creeer malplaatjes voor uw groep van het gebied van Groepen &#x200B;](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md#view) in het artikel [&#x200B; creeer en wijzig het projectmalplaatjes van een groep &#x200B;](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md).
+>* Sommige voorkeuren op groepsniveau zijn van invloed op projectsjablonen die u voor de groep maakt. Voor meer informatie, zie de sectie [ Mening, werk met, en creeer malplaatjes voor uw groep van het gebied van Groepen ](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md#view) in het artikel [ creeer en wijzig het projectmalplaatjes van een groep ](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md).
 >
->* Nadat een beheerder van Workfront een voorkeur op het systeemniveau ontgrendelt, kunt u het vormen en dan het sluiten om ervoor te zorgen dat iedereen in uw groep en in zijn subgroepen de zelfde configuratie gebruikt. Dit is parallel aan de mogelijkheid dat een Workfront-beheerder een voorkeur voor iedereen in het systeem moet configureren en vergrendelen. Voor meer informatie, zie [&#x200B; Slot of ontgrendel een project, een taak, of een uitgiftevoorkeur voor subgroups &#x200B;](../../../administration-and-setup/manage-groups/create-and-manage-groups/lock-or-unlock-a-group-preference.md).
+>* Nadat een beheerder van Workfront een voorkeur op het systeemniveau ontgrendelt, kunt u het vormen en dan het sluiten om ervoor te zorgen dat iedereen in uw groep en in zijn subgroepen de zelfde configuratie gebruikt. Dit is parallel aan de mogelijkheid dat een Workfront-beheerder een voorkeur voor iedereen in het systeem moet configureren en vergrendelen. Voor meer informatie, zie [ Slot of ontgrendel een project, een taak, of een uitgiftevoorkeur voor subgroups ](../../../administration-and-setup/manage-groups/create-and-manage-groups/lock-or-unlock-a-group-preference.md).
 >
 
 ## Toegangsvereisten
@@ -65,7 +65,7 @@ Voor informatie over hoe de beheerder van Workfront voorkeur ontgrendelt, zie [&
  </tbody> 
 </table>
 
-Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -77,19 +77,19 @@ Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van W
 
 {{step-1-to-setup}}
 
-1. In het linkerpaneel, klik **Groepen** ![&#x200B; pictogram van Groepen &#x200B;](assets/groups-icon.png).
+1. In het linkerpaneel, klik **Groepen** ![ pictogram van Groepen ](assets/groups-icon.png).
 
 1. Klik op de naam van de groep waarvoor u de ontgrendelde taak en voorkeuren voor uitgaven wilt configureren.
 1. Op de pagina die voor de groep, in het linkerpaneel toont, klik **de Voorkeur van de Taak &amp; van de Kwestie**.
 1. Op de pagina die verschijnt, ga met één van de 5 die secties onder deze stappen worden vermeld om montages voor de Gebieden Nieuwe Gebieden te vormen de Gebreken van de Taak, Kwesties, Schrapping, Ware Datums, en Toegang, dan klik **sparen**.
 
-   Als u over het slotpictogram ![&#x200B; pictogram van het Slot &#x200B;](assets/lock-toggle-button-dimmed.png) voor een voorkeur beweegt die u moet vormen en toont van een hulpmiddeluiteinde om u te vertellen dat gesloten is, kunt u uw beheerder van Workfront vragen om het voor alle groepen in de organisatie te ontgrendelen.
+   Als u over het slotpictogram ![ pictogram van het Slot ](assets/lock-toggle-button-dimmed.png) voor een voorkeur beweegt die u moet vormen en toont van een hulpmiddeluiteinde om u te vertellen dat gesloten is, kunt u uw beheerder van Workfront vragen om het voor alle groepen in de organisatie te ontgrendelen.
 
    Wanneer deze ontgrendeld is, kunnen u en andere groepsbeheerders deze afzonderlijk configureren voor uw eigen groepen. U kunt deze ook vergrendelen voor uw groep en voor alle subgroepen onder uw groep.
 
-   * [&#x200B; Nieuwe Gebreken van de Taak &#x200B;](#new-task-defaults)
-   * [&#x200B; Kwesties &#x200B;](#issues)
-   * [&#x200B; Schrapping &#x200B;](#deletion)
+   * [ Nieuwe Gebreken van de Taak ](#new-task-defaults)
+   * [ Kwesties ](#issues)
+   * [ Schrapping ](#deletion)
    * [Verplaatsen](#move)
    * [Werkelijke datums](#actual-dates)
    * [Delegatie](#delegation)

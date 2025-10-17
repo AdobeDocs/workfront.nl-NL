@@ -5,11 +5,11 @@ keywords: groep,projecten
 navigation-topic: work-with-a-groups-objects
 title: De projecten van een groep maken en wijzigen
 description: Wanneer u een groep weergeeft die u beheert in het gebied Groepen, kunt u de projecten van de groep maken, bewerken, exporteren, kopiëren en verwijderen.
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: db90cf52-7c8f-4972-b67f-401657ba9b13
-source-git-commit: 7eaff1c74cd880bde062e6fdf169c73d6eeb7f75
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '443'
 ht-degree: 0%
@@ -58,7 +58,7 @@ Als er om het even welke groepen boven uw groep zijn, kunnen hun beheerders deze
  </tbody> 
 </table>
 
-Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -66,10 +66,10 @@ Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van W
 
 {{step-1-to-setup}}
 
-1. In het linkerpaneel, klik **Groepen** ![&#x200B; Groepen &#x200B;](assets/groups-icon.png).
+1. In het linkerpaneel, klik **Groepen** ![ Groepen ](assets/groups-icon.png).
 
 1. Klik op de naam van de groep waarvoor u projecten wilt maken, weergeven of bewerken.
-1. In het linkerpaneel, klik **Projecten** ![&#x200B; Projecten in het Belangrijkste Menu &#x200B;](assets/projects-in-main-menu.png) om een lijst van de projecten te bekijken verbonden aan de groep.
+1. In het linkerpaneel, klik **Projecten** ![ Projecten in het Belangrijkste Menu ](assets/projects-in-main-menu.png) om een lijst van de projecten te bekijken verbonden aan de groep.
 
 1. Voer een van de volgende handelingen uit:
 

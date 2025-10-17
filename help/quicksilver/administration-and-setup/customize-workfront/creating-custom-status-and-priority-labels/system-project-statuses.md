@@ -5,11 +5,11 @@ product-area: system-administration;projects
 navigation-topic: create-custom-status-and-priority-labels
 title: Overzicht van de statussen van het Project van het Systeem
 description: Workfront heeft 9 ingebouwde status van systeemprojecten. De eerste 3 in de tabel hieronder zijn vereist. Dit betekent dat u de clips kunt ontgrendelen, hernoemen en opnieuw ordenen, maar dat u ze niet kunt verbergen of verwijderen. Het wijzigen van de projectstatus is doorgaans een handmatig proces. Soms wordt de status van een project echter automatisch gewijzigd, afhankelijk van andere activiteiten die in het systeem plaatsvinden.
-author: Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 6b8dd52b-1696-4e5d-bcbb-5b6d3b736df0
-source-git-commit: c3bfaf666fb0ceb43bcabda13949b27b567b5d08
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '1607'
 ht-degree: 0%

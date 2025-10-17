@@ -4,11 +4,11 @@ product-area: system-administration;user-management
 navigation-topic: manage-group-statuses
 title: Groepsstatus verwijderen
 description: Als groepsbeheerder, kunt u een status voor een groep schrappen die u beheert als het niet als vereiste of gesloten status op het systeemniveau, of voor een hogere groep in de hiërarchie wordt gevormd.
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: bfce0325-fe6e-459f-96ca-9a5c94c61ed3
-source-git-commit: 1554c067afcc548c7f7abd03dbc3a49404e3c89c
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '541'
 ht-degree: 0%
@@ -52,7 +52,7 @@ Als er groepen zijn boven de groep die u beheert, kunnen hun beheerders dit ook 
  </tbody> 
 </table>
 
-Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -65,7 +65,7 @@ Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van W
 1. In het linkerpaneel klik **Statussen**.
 1. In de lijst van statussen die toont, over de status bewegen u wilt schrappen, dan **Schrapping** klikken wanneer het aan uiterst rechts verschijnt.
 
-   ![&#x200B; Schrapping &#x200B;](assets/hover-click-delete.jpg)
+   ![ Schrapping ](assets/hover-click-delete.jpg)
 
 1. In de doos die toont, selecteer een status om een vervangingsstatus voor voorwerpen (projecten, taken, kwesties, en goedkeuringsprocessen) aan te wijzen die de status gebruikten die u schrapt.
 
@@ -82,7 +82,7 @@ Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van W
       * Als er andere vergrendelde, niet-verborgen statussen zijn, zijn alleen deze beschikbaar.
       * Als er geen vergrendelde, niet-verborgen status is, is de standaard Workfront-status beschikbaar, zelfs als deze verborgen of ontgrendeld is.
 
-        Voor informatie over de status standaard van Workfront, zie [&#x200B; Toegang tot de lijst van de statussen van het systeemproject &#x200B;](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/project-statuses.md), [&#x200B; toegang tot de lijst van de statussen van de systeemtaak &#x200B;](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/task-statuses.md), en de informatie over de 4 vereiste uitgevende status in [&#x200B; toegang tot de lijst van de statussen van de systeemkwestie &#x200B;](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/issue-statuses.md).
+        Voor informatie over de status standaard van Workfront, zie [ Toegang tot de lijst van de statussen van het systeemproject ](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/project-statuses.md), [ toegang tot de lijst van de statussen van de systeemtaak ](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/task-statuses.md), en de informatie over de 4 vereiste uitgevende status in [ toegang tot de lijst van de statussen van de systeemkwestie ](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/issue-statuses.md).
 
 1. Klik **Status van de Schrapping**.
 
@@ -92,4 +92,4 @@ Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van W
 
 ## Wanneer een groep wordt verwijderd
 
-Wanneer een groep wordt verwijderd en door een andere groep wordt vervangen, worden alle unieke statussen die de verwijderde groep had, toegevoegd aan de statussen van de vervangingsgroep. Voor meer informatie, zie {de statussen van 0} Douane in een groep die wordt bewogen of [&#x200B; geschrapt.](../../../administration-and-setup/manage-groups/manage-group-statuses/custom-statuses-in-group-moved-or-deleted.md)
+Wanneer een groep wordt verwijderd en door een andere groep wordt vervangen, worden alle unieke statussen die de verwijderde groep had, toegevoegd aan de statussen van de vervangingsgroep. Voor meer informatie, zie {de statussen van 0} Douane in een groep die wordt bewogen of [ geschrapt.](../../../administration-and-setup/manage-groups/manage-group-statuses/custom-statuses-in-group-moved-or-deleted.md)

@@ -4,11 +4,11 @@ product-area: system-administration;timesheets
 navigation-topic: configure-timesheets-and-schedules
 title: Voorkeuren voor tijdpagina's en uren configureren
 description: Als  [!DNL Adobe Workfront]  beheerder, kunt u voorkeur voor timesheets en uren in  [!DNL Workfront]  specificeren om te bepalen welke punten de timesheets met kunnen pre-bevolken en welke punten gebruikers tijd kunnen registreren aan.
-author: Alina and Lisa
+author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 8cc49dc2-b23f-4899-85dd-bd53d5242dbe
-source-git-commit: e8c89b68a022ae1c0cf5da20257cd8bc36e94d4c
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '1247'
 ht-degree: 0%
@@ -31,7 +31,7 @@ Als [!DNL Adobe Workfront] -beheerder kunt u voorkeuren opgeven voor tijdbladen 
 >* Items die zijn vastgezet aan de tijdpagina
 >* Items die u zoekt en die u handmatig toevoegt aan de tijdpagina. Items die handmatig worden toegevoegd, worden standaard vastgezet.
 >
->Voor meer informatie, zie [&#x200B; tijd van het Logboek &#x200B;](../../../timesheets/create-and-manage-timesheets/log-time.md) en [&#x200B; overzicht van de Tijdopnemer &#x200B;](/help/quicksilver/timesheets/timesheets/timesheets-overview.md).
+>Voor meer informatie, zie [ tijd van het Logboek ](../../../timesheets/create-and-manage-timesheets/log-time.md) en [ overzicht van de Tijdopnemer ](/help/quicksilver/timesheets/timesheets/timesheets-overview.md).
 
 Alle wijzigingen die u aanbrengt in tijdbladen, zijn van invloed op alle tijdbladen die in de toekomst worden gemaakt.
 
@@ -59,7 +59,7 @@ Alle wijzigingen die u aanbrengt in tijdbladen, zijn van invloed op alle tijdbla
  </tbody> 
 </table>
 
-Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -73,9 +73,9 @@ Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van W
 
 1. (Facultatief) in de **het onderzoekvakje van de Tijdopnamen en van de Huren van het Systeem**, begin de naam van een groep te typen, dan het te selecteren wanneer het in de lijst toont.
 
-   ![&#x200B; Onderzoek naar groepsdoos &#x200B;](assets/search-for-group-box-in-timesheets-preferences-page.png)
+   ![ Onderzoek naar groepsdoos ](assets/search-for-group-box-in-timesheets-preferences-page.png)
 
-   De pagina met voorkeuren voor tijdbladen en uren wordt bijgewerkt met de voorkeuren voor de groep die u hebt geselecteerd. Voorkeuren op systeemniveau moeten zijn ontgrendeld om voorkeuren op groepsniveau te kunnen wijzigen. Voor meer informatie, zie de sectie [&#x200B; timesheet en uurvoorkeur voor groepen &#x200B;](#unlock-timesheet-and-hour-preferences-for-groups) in dit artikel ontgrendelen.
+   De pagina met voorkeuren voor tijdbladen en uren wordt bijgewerkt met de voorkeuren voor de groep die u hebt geselecteerd. Voorkeuren op systeemniveau moeten zijn ontgrendeld om voorkeuren op groepsniveau te kunnen wijzigen. Voor meer informatie, zie de sectie [ timesheet en uurvoorkeur voor groepen ](#unlock-timesheet-and-hour-preferences-for-groups) in dit artikel ontgrendelen.
 
 1. Configureer in de sectie **[!UICONTROL General preferences]** een van de volgende opties:
 
@@ -194,11 +194,11 @@ De groepen in uw organisatie zouden timesheets of de voorkeur van het uur kunnen
 
 Wanneer een voorkeur wordt ontgrendeld en een groepsbeheerder het wijzigt, beïnvloedt het timesheet eigenaars als de groep hun Groep van het Huis is.
 
-Voor informatie over hoe een groepsbeheerder timesheet en uurvoorkeur voor een groep vormt, zie [&#x200B; timesheet en uurvoorkeur voor een groep &#x200B;](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-timesheet-hour-preferences-group.md) vormen.
+Voor informatie over hoe een groepsbeheerder timesheet en uurvoorkeur voor een groep vormt, zie [ timesheet en uurvoorkeur voor een groep ](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-timesheet-hour-preferences-group.md) vormen.
 
 >[!NOTE]
 >
->Nadat een [!DNL Workfront] beheerder een voorkeur op het systeemniveau ontgrendelt, kan om het even welke groepbeheerder het vormen en dan het sluiten om ervoor te zorgen dat iedereen in hun groep en subgroups hieronder de zelfde configuratie gebruikt. Dit is parallel aan de mogelijkheid dat een [!DNL Workfront] -beheerder een voorkeur voor iedereen in het systeem moet configureren en vergrendelen. Voor meer informatie, zie [&#x200B; Slot of ontgrendel een groep timesheet en een uurvoorkeur &#x200B;](../../../administration-and-setup/manage-groups/create-and-manage-groups/lock-or-unlock-a-group-timesheet-hour-preference.md).
+>Nadat een [!DNL Workfront] beheerder een voorkeur op het systeemniveau ontgrendelt, kan om het even welke groepbeheerder het vormen en dan het sluiten om ervoor te zorgen dat iedereen in hun groep en subgroups hieronder de zelfde configuratie gebruikt. Dit is parallel aan de mogelijkheid dat een [!DNL Workfront] -beheerder een voorkeur voor iedereen in het systeem moet configureren en vergrendelen. Voor meer informatie, zie [ Slot of ontgrendel een groep timesheet en een uurvoorkeur ](../../../administration-and-setup/manage-groups/create-and-manage-groups/lock-or-unlock-a-group-timesheet-hour-preference.md).
 
 Een projectvoorkeur ontgrendelen zodat groepen deze kunnen configureren:
 
@@ -208,8 +208,8 @@ Een projectvoorkeur ontgrendelen zodat groepen deze kunnen configureren:
 
 1. Voer een van de volgende handelingen uit:
 
-   * Als u groepsbeheerders een voorkeur voor hun groepen wilt kunnen vormen, klik **ontgrendelen** knevel ![&#x200B; ontgrendelen knevel &#x200B;](assets/unlock-toggle-button.png) om het te ontgrendelen.
-   * Als u alle groepen uw configuratie voor een voorkeur wilt gebruiken, zorg ervoor dat het knevel gesloten ![&#x200B; Vergrendelde voorkeurknevel &#x200B;](assets/locked-preference-toggle.png) is (dit is het gebrek).
+   * Als u groepsbeheerders een voorkeur voor hun groepen wilt kunnen vormen, klik **ontgrendelen** knevel ![ ontgrendelen knevel ](assets/unlock-toggle-button.png) om het te ontgrendelen.
+   * Als u alle groepen uw configuratie voor een voorkeur wilt gebruiken, zorg ervoor dat het knevel gesloten ![ Vergrendelde voorkeurknevel ](assets/locked-preference-toggle.png) is (dit is het gebrek).
 
      >[!IMPORTANT]
      >

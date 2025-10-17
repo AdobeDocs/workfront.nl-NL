@@ -3,10 +3,10 @@ product-area: documents
 navigation-topic: approvals
 title: Het aantal proef- en documentbeslissingen voor alle gebruikers weergeven
 description: U kunt het aantal proef- en documentbeslissingen bekijken dat gebruikers in uw Workfront-exemplaar hebben genomen.
-author: Courtney and Lisa
+author: Courtney and Jenny
 feature: Work Management
 exl-id: e7b1ee0a-3306-49a8-aa4f-142b9d894834
-source-git-commit: 551426cd26aece0d15304a9ac4b88329bacbd29b
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '333'
 ht-degree: 0%
@@ -22,7 +22,7 @@ U kunt het aantal proef- en documentbeslissingen bekijken dat gebruikers in uw W
 
 >[!NOTE]
 >
->Dit rapport is zichtbaar slechts voor gebruikers op het nieuwe model van het toegangsniveau. Voor meer informatie, zie [&#x200B; Nieuw overzicht van toegangsniveaus &#x200B;](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md).
+>Dit rapport is zichtbaar slechts voor gebruikers op het nieuwe model van het toegangsniveau. Voor meer informatie, zie [ Nieuw overzicht van toegangsniveaus ](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md).
 
 Om het aantal besluiten voor een gebruiker te bekijken:
 
@@ -35,7 +35,7 @@ Om het aantal besluiten voor een gebruiker te bekijken:
 
 >[!NOTE]
 >
->Als de Historische Mening van de Gebruiker niet beschikbaar is, dan kunt u een nieuwe mening tot stand brengen om de historische gegevens te tonen. Voeg **Historische Besluiten van Gebruikers** als kolom in de mening toe. Voor informatie bij het toevoegen van een kolom aan een mening, zie [&#x200B; meningen in Adobe Workfront &#x200B;](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md) creëren of uitgeven.
+>Als de Historische Mening van de Gebruiker niet beschikbaar is, dan kunt u een nieuwe mening tot stand brengen om de historische gegevens te tonen. Voeg **Historische Besluiten van Gebruikers** als kolom in de mening toe. Voor informatie bij het toevoegen van een kolom aan een mening, zie [ meningen in Adobe Workfront ](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md) creëren of uitgeven.
 
 
 ## Besluiten weergeven in het gebied Rapportering
@@ -49,7 +49,7 @@ Om het aantal besluiten voor een gebruiker te bekijken:
 1. Klik **Nieuw Rapport**, dan uitgezochte **Besluiten van Gebruikers**.
 1. Vind de kolom **Besluiten deze maand** om het aantal besluiten te bekijken elke gebruiker in de maand heeft gemaakt.
 
-   De gegevens kunnen tot 12 maanden vóór de huidige maand omvatten, afhankelijk van wanneer dit rapport aan uw organisatie ter beschikking werd gesteld. De **Maand** en **3&rbrace; kolommen van het Jaar tonen welke maand de besluiten binnen werden genomen.** Maand 1 is Januari, maand 2 is Februari, etc.
+   De gegevens kunnen tot 12 maanden vóór de huidige maand omvatten, afhankelijk van wanneer dit rapport aan uw organisatie ter beschikking werd gesteld. De **Maand** en **3} kolommen van het Jaar tonen welke maand de besluiten binnen werden genomen.** Maand 1 is Januari, maand 2 is Februari, etc.
 
-1. Controleer het rapport en bewerk het indien nodig. Voor meer informatie, zie [&#x200B; een douanerapport &#x200B;](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) creëren.
+1. Controleer het rapport en bewerk het indien nodig. Voor meer informatie, zie [ een douanerapport ](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) creëren.
 

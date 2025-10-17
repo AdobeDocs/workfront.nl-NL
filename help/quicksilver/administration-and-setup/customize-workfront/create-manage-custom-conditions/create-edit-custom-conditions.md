@@ -4,11 +4,11 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-conditions
 description: Als Adobe Workfront-beheerder kunt u een aangepaste voorwaarde maken of bewerken voor projecten, taken en uitgaven die aansluiten op de behoeften van uw organisatie.
-author: Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 5c950862-4358-4aab-997b-223972662150
-source-git-commit: e50afb39f151ae8663ca2903454b475b21aa6f83
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '623'
 ht-degree: 0%
@@ -43,7 +43,7 @@ Als Adobe Workfront-beheerder kunt u een aangepaste voorwaarde maken of bewerken
  </tbody> 
 </table>
 
-Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -61,7 +61,7 @@ Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van W
 
    Om een bestaande voorwaarde uit te geven, **geeft** naast de voorwaardennaam uit.
 
-   ![&#x200B; geef douanetoewijzing &#x200B;](assets/custom-conditions-0825.png) uit
+   ![ geef douanetoewijzing ](assets/custom-conditions-0825.png) uit
 
 1. Configureer uw aangepaste voorwaarde met behulp van de volgende opties:
 
@@ -105,27 +105,27 @@ Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van W
    >
    >U kunt de terminologie en de kleuren van voorwaarden standaardiseren voor alle drie de objecttypen. Om dit te doen, kopieer de voorwaardenNaam en de hexadecimale code van de Kleur van één lusje (Project, Taak, Kwestie) aan de overeenkomstige voorwaarde op de andere twee lusjes.
 
-1. (Facultatief) sleep ![&#x200B; pictogram van de Beweging &#x200B;](assets/move-icon---dots.png) om het even welke voorwaarde aan een nieuwe positie om de lijst opnieuw in orde te brengen.
+1. (Facultatief) sleep ![ pictogram van de Beweging ](assets/move-icon---dots.png) om het even welke voorwaarde aan een nieuwe positie om de lijst opnieuw in orde te brengen.
 
    Dit verandert de orde waarin de voorwaarden in projecten, taken en kwesties tonen:
 
    * Wanneer een gebruiker een project bewerkt
 
-     ![&#x200B; voorwaarde van de Verandering wanneer het uitgeven van project &#x200B;](assets/change-condition-edit-project-0825.png)
+     ![ voorwaarde van de Verandering wanneer het uitgeven van project ](assets/change-condition-edit-project-0825.png)
 
    * Wanneer een gebruiker de voorwaarde voor een taak of kwestie in een lijstmening wijzigt:
 
-     ![&#x200B; voorwaarde van de Verandering in lijst &#x200B;](assets/change-conditions-list-dropdown-0925.png)
+     ![ voorwaarde van de Verandering in lijst ](assets/change-conditions-list-dropdown-0925.png)
 
      >[!NOTE]
      >
-     >In de standaardmening van de Voorwaarde, is het **1&rbrace; gebied van de Voorwaarde een type van gebied dat niet inline kan worden uitgegeven.** Wanneer u het **gebied van de Voorwaarde** aan een mening afzonderlijk toevoegt, is het editable. Voor informatie over gealigneerde het uitgeven, zie [&#x200B; gealigneerd punten in een lijst in Adobe Workfront &#x200B;](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/inline-edit-objects.md) uitgeven.
+     >In de standaardmening van de Voorwaarde, is het **1} gebied van de Voorwaarde een type van gebied dat niet inline kan worden uitgegeven.** Wanneer u het **gebied van de Voorwaarde** aan een mening afzonderlijk toevoegt, is het editable. Voor informatie over gealigneerde het uitgeven, zie [ gealigneerd punten in een lijst in Adobe Workfront ](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/inline-edit-objects.md) uitgeven.
 
 1. Klik **sparen**.
 
-U kunt uw douanevoorwaarde als standaardvoorwaarde voor projecten of voor taken en kwesties plaatsen. Voor meer informatie, zie [&#x200B; Plaats een douanetoewijzing als gebrek voor projecten &#x200B;](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-projects.md) en [&#x200B; plaats een douanetoewijzing als gebrek voor taken en kwesties &#x200B;](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-tasks-issues.md).
+U kunt uw douanevoorwaarde als standaardvoorwaarde voor projecten of voor taken en kwesties plaatsen. Voor meer informatie, zie [ Plaats een douanetoewijzing als gebrek voor projecten ](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-projects.md) en [ plaats een douanetoewijzing als gebrek voor taken en kwesties ](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-tasks-issues.md).
 
-Voor meer informatie over douanevoorwaarden, zie [&#x200B; de voorwaarden van de Douane &#x200B;](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/custom-conditions.md).
+Voor meer informatie over douanevoorwaarden, zie [ de voorwaarden van de Douane ](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/custom-conditions.md).
 
 
 <!-- THIS WAS ORIGINALLY BETWEEN THE OTHER TWO BULLETS.

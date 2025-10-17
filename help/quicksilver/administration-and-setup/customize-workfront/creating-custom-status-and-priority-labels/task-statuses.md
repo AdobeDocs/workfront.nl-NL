@@ -5,11 +5,11 @@ content-type: reference;how-to-procedural
 product-area: system-administration;projects
 navigation-topic: create-custom-status-and-priority-labels
 description: U kunt de status van een taak gebruiken om gebruikers te laten zien in welk ontwikkelingsstadium een taak zich op een bepaald moment bevindt.
-author: Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 2cdedc67-b7b0-4e83-a446-d71e3afe255c
-source-git-commit: 366043a786c94f1bc40ad3b20af175bb84c94742
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '258'
 ht-degree: 0%
@@ -44,13 +44,13 @@ U kunt de status van een taak gebruiken om gebruikers te laten zien in welk ontw
  </tbody> 
 </table>
 
-Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Toegang krijgen tot taakstatussen
 
-Voor informatie over het uitgeven van de systeemstatussen of het creëren van nieuwe douanestatus, zie [&#x200B; tot stand brengen of een status &#x200B;](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md) uitgeven.
+Voor informatie over het uitgeven van de systeemstatussen of het creëren van nieuwe douanestatus, zie [ tot stand brengen of een status ](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md) uitgeven.
 
 {{step-1-to-setup}}
 
@@ -60,9 +60,9 @@ Voor informatie over het uitgeven van de systeemstatussen of het creëren van ni
 
    De taakstatussen die beschikbaar zijn in Workfront, worden weergegeven op dit tabblad.
 
-   ![&#x200B; status van de Taak &#x200B;](assets/task-status.png)
+   ![ status van de Taak ](assets/task-status.png)
 
-   Voor details over elk van de ingebouwde statussen van de systeemtaak, zie [&#x200B; de taakstatussen van het Systeem &#x200B;](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/system-task-statuses.md).
+   Voor details over elk van de ingebouwde statussen van de systeemtaak, zie [ de taakstatussen van het Systeem ](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/system-task-statuses.md).
 
 ## Aangepaste taakstatussen maken
 
@@ -72,4 +72,4 @@ Als eigenaar van een groep kunt u aangepaste taakstatussen toevoegen voor uw gro
 
 Wanneer u een status van een aangepaste taak maakt, moet u de nieuwe status altijd vergelijken met een bestaande systeemstatus. U moet het gedrag van de systeemstatus begrijpen om te weten welke status geschikt is om uw aangepaste status met te vergelijken. Nadat u de gelijkheidsstatus hebt geselecteerd, kan deze selectie niet meer worden gewijzigd.
 
-Voor meer informatie over het creëren van douanestatus, het uitgeven systeemdegenen, of het selecteren van nieuwe standaardstatussen voor uw taken, zie [&#x200B; tot stand brengen of een status &#x200B;](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md) uitgeven.
+Voor meer informatie over het creëren van douanestatus, het uitgeven systeemdegenen, of het selecteren van nieuwe standaardstatussen voor uw taken, zie [ tot stand brengen of een status ](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md) uitgeven.

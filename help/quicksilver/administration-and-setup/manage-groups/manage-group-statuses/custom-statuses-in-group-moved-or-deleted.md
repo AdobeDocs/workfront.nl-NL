@@ -4,11 +4,11 @@ product-area: system-administration;user-management
 navigation-topic: manage-group-statuses
 title: Aangepaste statussen in een groep die wordt verplaatst of verwijderd
 description: In dit artikel wordt uitgelegd wat er gebeurt met het groeperen van aangepaste statussen wanneer u een groep verplaatst of verwijdert.
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 83885d86-eb00-46cc-93e9-e3364b6125e8
-source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '849'
 ht-degree: 0%
@@ -23,7 +23,7 @@ In dit artikel wordt uitgelegd wat er gebeurt met het groeperen van aangepaste s
 
 Overweeg de volgende scenario&#39;s die beschrijven wat aan de status van de groepsdouane gebeurt wanneer u één groep naar een nieuwe plaats onder een andere groep beweegt.
 
-Voor informatie over het bewegen van een groep, zie [&#x200B; een groep &#x200B;](../../../administration-and-setup/manage-groups/create-and-manage-groups/move-a-group.md) bewegen.
+Voor informatie over het bewegen van een groep, zie [ een groep ](../../../administration-and-setup/manage-groups/create-and-manage-groups/move-a-group.md) bewegen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -80,6 +80,6 @@ Als een van de statussen van de verwijderde groep ook door de bestemmingsgroep w
 >* De naam van de versie van Groep B van de status treedt de naam van de versie van Groep A met voeten.
 >* Als de status op een object is toegepast door iemand in groep A voordat die groep is verwijderd, wordt de statusnaam op het object bijgewerkt met de naam voor de status die wordt gebruikt door groep B.
 >
->Voor informatie over de sleutel voor een status, zie de lijst in dit artikel onder [&#x200B; creeer of geef een douanestatus &#x200B;](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md#create) uit [&#x200B; creeer of geef een status voor een groep &#x200B;](../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md#create) uit.
+>Voor informatie over de sleutel voor een status, zie de lijst in dit artikel onder [ creeer of geef een douanestatus ](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md#create) uit [ creeer of geef een status voor een groep ](../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md#create) uit.
 >
->Voor informatie over het schrappen van een groep, zie [&#x200B; een groep &#x200B;](../../../administration-and-setup/manage-groups/create-and-manage-groups/delete-a-group.md) schrappen.
+>Voor informatie over het schrappen van een groep, zie [ een groep ](../../../administration-and-setup/manage-groups/create-and-manage-groups/delete-a-group.md) schrappen.

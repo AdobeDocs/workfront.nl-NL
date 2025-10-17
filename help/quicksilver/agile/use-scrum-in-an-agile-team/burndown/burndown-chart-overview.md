@@ -4,10 +4,10 @@ product-area: agile-and-teams
 navigation-topic: burndown
 title: Overzicht van de Grafiek van de Gegraveerde Verbranding
 description: De burndown grafiek verstrekt een visuele vertegenwoordiging van hoe de verhalen door de herhaling of het project vorderen. De daadwerkelijke burndown tarief wordt gemeten tegen het ideale burndown tarief voor de iteratie of projectchronologie.
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: 414e3315-35ed-4aa4-a2d8-be42ec585f29
-source-git-commit: 91dc9946566e15bf32d0d89975e3e6b66b39e873
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '956'
 ht-degree: 0%
@@ -71,9 +71,9 @@ Het burndown-diagram bevat de volgende visuele indicatoren:
 
 ## De invloed van vrije dagen op de burndown-grafiek {#how-days-off-affect-the-burndown-chart}
 
-Het standaardschema dat in [!DNL Workfront] wordt gedefinieerd, is van invloed op het burndown-diagram door dagen uit (weekends en feestdagen) van de burndown uit te sluiten. Het burdown grafiek gebruikt het standaardprogramma om werkdagen (zoals die in  [&#x200B; creeer een programma &#x200B;](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)).
+Het standaardschema dat in [!DNL Workfront] wordt gedefinieerd, is van invloed op het burndown-diagram door dagen uit (weekends en feestdagen) van de burndown uit te sluiten. Het burdown grafiek gebruikt het standaardprogramma om werkdagen (zoals die in  [ creeer een programma ](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)).
 
-De mobiele teams kunnen team-specifieke niet-werkdagen opnemen door een afwisselend programma (zoals die in het artikel [&#x200B; wordt beschreven Gebruik een afwisselend teamprogramma voor burndown grafieken &#x200B;](../../../agile/use-scrum-in-an-agile-team/burndown/use-alt-team-schedule-burndown-charts.md)) te bepalen. Dit afwisselende programma wordt dan weerspiegeld in de burndown grafiek van om het even welke herhaling die aan het team wordt toegewezen. Het afwisselende programma beïnvloedt slechts de burndown grafiek.
+De mobiele teams kunnen team-specifieke niet-werkdagen opnemen door een afwisselend programma (zoals die in het artikel [ wordt beschreven Gebruik een afwisselend teamprogramma voor burndown grafieken ](../../../agile/use-scrum-in-an-agile-team/burndown/use-alt-team-schedule-burndown-charts.md)) te bepalen. Dit afwisselende programma wordt dan weerspiegeld in de burndown grafiek van om het even welke herhaling die aan het team wordt toegewezen. Het afwisselende programma beïnvloedt slechts de burndown grafiek.
 
 Dagen worden alleen in de uitbouwgrafiek weergegeven als:
 
@@ -92,4 +92,4 @@ Dagen worden alleen in de uitbouwgrafiek weergegeven als:
 
   Wanneer u de herhaling plant en de einddatum van de herhaling instelt voor een niet-werkdag en de herhaling wordt bijgehouden zodat deze op tijd wordt voltooid, wordt de [!UICONTROL Estimated Completion] -datum ingesteld voor de laatste werkdag voorafgaand aan de einddatum van de herhaling die u instelt (omdat het werk volgens de planning niet op niet-werkdagen wordt afgebrand).
 
-  De einddatum voor de herhaling wordt gespecificeerd wanneer de herhaling wordt gepland, zoals die in artikel [&#x200B; wordt beschreven creeer een herhaling &#x200B;](../../../agile/use-scrum-in-an-agile-team/iterations/create-an-iteration.md).
+  De einddatum voor de herhaling wordt gespecificeerd wanneer de herhaling wordt gepland, zoals die in artikel [ wordt beschreven creeer een herhaling ](../../../agile/use-scrum-in-an-agile-team/iterations/create-an-iteration.md).

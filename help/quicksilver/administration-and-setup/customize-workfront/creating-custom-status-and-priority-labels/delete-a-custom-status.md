@@ -4,11 +4,11 @@ product-area: system-administration
 navigation-topic: create-custom-status-and-priority-labels
 title: Een aangepaste status verwijderen
 description: U kunt een aangepaste systeemstatus verwijderen als deze niet langer nuttig is voor uw organisatie.
-author: Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 73c4eb87-94f6-47bf-b447-eb02a703f7ef
-source-git-commit: 366043a786c94f1bc40ad3b20af175bb84c94742
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '435'
 ht-degree: 0%
@@ -33,11 +33,11 @@ Of de status vergrendeld of ontgrendeld is, bepaalt of de status voor alle groep
 >
 >  U kunt echter een ontgrendelde systeemstatus verwijderen die wordt gebruikt in een goedkeuringsproces op basis van één gebruik of op groepsniveau dat momenteel in afwachting is van goedkeuring.
 >
->  U kunt een rapport uitvoeren om de objecten te zoeken en de goedkeuringen in behandeling op te lossen en vervolgens opnieuw proberen om de status te verwijderen. Voor instructies, zie [&#x200B; de voorwerpen van de Lijst met een hangende goedkeuringsprocessen gebruikend een bepaalde status &#x200B;](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/list-objects-pending-approval-certain-status.md).
+>  U kunt een rapport uitvoeren om de objecten te zoeken en de goedkeuringen in behandeling op te lossen en vervolgens opnieuw proberen om de status te verwijderen. Voor instructies, zie [ de voorwerpen van de Lijst met een hangende goedkeuringsprocessen gebruikend een bepaalde status ](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/list-objects-pending-approval-certain-status.md).
 >
 >* Statussen die worden gebruikt in goedkeuringsprocessen die momenteel in afwachting zijn van goedkeuring voor ten minste één object in uw systeem.
 
-Voor instructies bij het schrappen van een groepsstatus, zie [&#x200B; een groepsstatus schrappen &#x200B;](../../../administration-and-setup/manage-groups/manage-group-statuses/delete-a-group-status.md).
+Voor instructies bij het schrappen van een groepsstatus, zie [ een groepsstatus schrappen ](../../../administration-and-setup/manage-groups/manage-group-statuses/delete-a-group-status.md).
 
 ## Toegangsvereisten
 
@@ -63,7 +63,7 @@ Voor instructies bij het schrappen van een groepsstatus, zie [&#x200B; een groep
  </tbody> 
 </table>
 
-Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -73,7 +73,7 @@ Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van W
 
 1. In het linkerpaneel, klik **Voorkeur van het Project** > **Statussen**.
 
-1. Om de status over het volledige systeem (met inbegrip van individuele groepen), muis over de status te schrappen, geeft de klik **&#x200B;**&#x200B;uit, dan zorgt ervoor dat **Slot voor alle groepen** wordt geselecteerd. Klik **sparen**.
+1. Om de status over het volledige systeem (met inbegrip van individuele groepen), muis over de status te schrappen, geeft de klik **** uit, dan zorgt ervoor dat **Slot voor alle groepen** wordt geselecteerd. Klik **sparen**.
 
    of
 

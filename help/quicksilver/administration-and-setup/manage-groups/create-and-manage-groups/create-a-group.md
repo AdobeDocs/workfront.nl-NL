@@ -5,11 +5,11 @@ keywords: maken,groep,subgroep,nieuw
 navigation-topic: create-and-manage-groups
 title: Een groep maken
 description: Als Adobe Workfront-beheerder kunt u groepen maken om gebruikers en projecten te organiseren en toegangsrechten toe te wijzen in Workfront.
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 4a039619-0943-4b5b-ba7a-1ad9b5c11df0
-source-git-commit: a42a167447d2f11b5502e4a0953b5e7eec2e67b1
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '1633'
 ht-degree: 0%
@@ -22,11 +22,11 @@ ht-degree: 0%
 DON'T DELETE, DRAFT, OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT THROUGH CONTEXT-SENSITIVE HELP LINKS.
 -->
 
-Als Adobe Workfront-beheerder kunt u groepen maken om gebruikers en projecten te organiseren en toegangsrechten toe te wijzen in Workfront. Voor meer informatie, zie [&#x200B; Overzicht van Groepen &#x200B;](../../../administration-and-setup/manage-groups/groups-overview/groups.md).
+Als Adobe Workfront-beheerder kunt u groepen maken om gebruikers en projecten te organiseren en toegangsrechten toe te wijzen in Workfront. Voor meer informatie, zie [ Overzicht van Groepen ](../../../administration-and-setup/manage-groups/groups-overview/groups.md).
 
 Elke subgroep heeft minstens één groepsbeheerder nodig. Groepbeheerders kunnen de pagina Groepen gebruiken om hun groepen op één locatie te beheren.
 
-Als u een groepsbeheerder of een Workfront-beheerder bent, kunt u ook subgroepen maken onder een groep. Voor instructies, zie [&#x200B; een subgroep &#x200B;](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/create-a-subgroup.md) creëren.
+Als u een groepsbeheerder of een Workfront-beheerder bent, kunt u ook subgroepen maken onder een groep. Voor instructies, zie [ een subgroep ](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/create-a-subgroup.md) creëren.
 
 ## Toegangsvereisten
 
@@ -52,19 +52,19 @@ Als u een groepsbeheerder of een Workfront-beheerder bent, kunt u ook subgroepen
  </tbody> 
 </table>
 
-Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Een geheel nieuwe groep op hoofdniveau maken
 
-In deze stappen wordt uitgelegd hoe u een nieuwe groep helemaal zelf kunt maken. Voor informatie over het creëren van een groep of subgroep door bestaande te kopiëren, zie [&#x200B; een top-level groep tot stand brengen door een bestaande groep of subgroep &#x200B;](#create-a-top-level-group-by-copying-an-existing-group-or-subgroup) in dit artikel te kopiëren.
+In deze stappen wordt uitgelegd hoe u een nieuwe groep helemaal zelf kunt maken. Voor informatie over het creëren van een groep of subgroep door bestaande te kopiëren, zie [ een top-level groep tot stand brengen door een bestaande groep of subgroep ](#create-a-top-level-group-by-copying-an-existing-group-or-subgroup) in dit artikel te kopiëren.
 
 U moet een beheerder van Workfront zijn om een top-level groep tot stand te brengen.
 
 {{step-1-to-setup}}
 
-1. In het linkerpaneel, klik **Groepen** ![&#x200B; Groepen &#x200B;](assets/groups-icon.png).
+1. In het linkerpaneel, klik **Groepen** ![ Groepen ](assets/groups-icon.png).
 
 1. Boven de lijst van groepen, klik **Nieuwe Groep**.
 
@@ -136,12 +136,12 @@ Een nieuwe bovenste groep maken door een groep of subgroep te kopiëren:
 
 {{step-1-to-setup}}
 
-1. In het linkerpaneel, klik **Groepen** ![&#x200B; groepen &#x200B;](assets/groups-icon.png).
+1. In het linkerpaneel, klik **Groepen** ![ groepen ](assets/groups-icon.png).
 
    In de lijst die wordt weergegeven, ziet u de groepen die u beheert, samen met eventuele subgroepen die u beheert. Adobe Workfront-beheerders kunnen alle groepen zien.
 
-1. Selecteer de groep u wilt kopiëren, dan het pictogram van het Exemplaar ![&#x200B; pictogram van het Exemplaar &#x200B;](assets/copy-icon.png) klikken.
-1. In het **vakje van de Groep van het 0&rbrace; Exemplaar dat verschijnt, typ de Naam van de a** Groep **voor de gekopieerde groep.**
+1. Selecteer de groep u wilt kopiëren, dan het pictogram van het Exemplaar ![ pictogram van het Exemplaar ](assets/copy-icon.png) klikken.
+1. In het **vakje van de Groep van het 0} Exemplaar dat verschijnt, typ de Naam van de a** Groep **voor de gekopieerde groep.**
 
 1. Geef de volgende informatie op:
 

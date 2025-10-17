@@ -4,10 +4,10 @@ product-area: agile-and-teams
 navigation-topic: boards
 title: Metriek herhaling controleren
 description: Metriek zijn beschikbaar voor elke herhaling in een werkstroom, op de werkplaats van het iteratieproces.
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: 09743566-161d-4850-9a1a-b96da6d537a7
-source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '228'
 ht-degree: 0%
@@ -44,7 +44,7 @@ Metrische gegevens zijn beschikbaar voor elke herhaling in een werkstroom, op he
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -58,7 +58,7 @@ Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van d
 
    De volgende metriek worden weergegeven: het totale aantal punten dat aan de herhaling is toegewezen, de resterende punten die nog niet in de herhaling zijn voltooid en het aantal punten dat in de herhaling is voltooid.
 
-1. (Optioneel) Klik op de [!UICONTROL **pictogram**] Iteratiedetails ![&#x200B; van de Details van de Interlatie &#x200B;](assets/iteration-details-button.png) om de detaildialoog voor de geselecteerde herhaling te openen.
+1. (Optioneel) Klik op de [!UICONTROL **pictogram**] Iteratiedetails ![ van de Details van de Interlatie ](assets/iteration-details-button.png) om de detaildialoog voor de geselecteerde herhaling te openen.
 
 ## Metrische gegevens van herhalingen op het dashboard bekijken
 

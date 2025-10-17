@@ -5,9 +5,9 @@ navigation-topic: use-workfront-view
 title: De projectlijsten van de filter in  [!DNL Adobe Workfront]  Mening
 feature: Get Started with Workfront
 description: Door gebrek,  [!DNL Adobe Workfront]  toont de Mening de [!UICONTROL All Projects] lijst in  [!DNL Workfront], zodat zijn alle projecten u toegang tot mening hebt vermeld, ongeacht hun status.
-author: Nolan
+author: Lisa
 exl-id: 78efce1a-f144-4e47-bd7e-c0347e016bea
-source-git-commit: f9b9381b4b38796dbf7dfd9eddffc50fb9e5c24c
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '292'
 ht-degree: 0%
@@ -43,7 +43,7 @@ U kunt de lijst met projecten in [!DNL Workfront View] filteren om alleen projec
  </tbody> 
 </table>
 
-Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -52,7 +52,7 @@ Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van W
 1. Ga naar de lijst met projecten in de [!DNL Workfront] Mobiele app weergeven.
 1. Tik op het lijstpictogram linksboven in de lijst.\
    De lijst met beschikbare filters wordt weergegeven.\
-   ![&#x200B; WF_View_filters_050621.jpg &#x200B;](assets/wf-view-filters-050621-350x427.jpg)
+   ![ WF_View_filters_050621.jpg ](assets/wf-view-filters-050621-350x427.jpg)
 
 1. Selecteer een van de volgende filters:
 

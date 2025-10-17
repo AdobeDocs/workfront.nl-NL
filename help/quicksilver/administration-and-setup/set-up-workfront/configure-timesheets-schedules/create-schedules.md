@@ -4,11 +4,11 @@ product-area: system-administration;timesheets
 navigation-topic: configure-timesheets-and-schedules
 title: Een schema maken
 description: U kunt de werkweken van uw gebruikers bepalen met programma's. U kunt een programma met een gebruiker of een project associëren. Dit staat  [!DNL Workfront]  toe om chronologie en gebruikersbeschikbaarheid te berekenen.
-author: Lisa, Alina
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: f7347ba6-68bf-45d8-b5d2-6136f3e696c9
-source-git-commit: e8c89b68a022ae1c0cf5da20257cd8bc36e94d4c
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '760'
 ht-degree: 0%
@@ -27,13 +27,13 @@ Als [!DNL Adobe Workfront] beheerder, kunt u uw werkweek met programma&#39;s bep
 
 Wanneer u gebruikers hebt die in verschillende tijdzones werken, zorgt het creëren van een programma in elk van de tijdzones en het associëren van het met die gebruikers ervoor dat hun werk in [!DNL Workfront] in echt - tijd wordt geregistreerd en dat hun beschikbaarheid altijd nauwkeurig volgens is wanneer zij werken.
 
-Voor informatie over het associëren van programma&#39;s met gebruikers en projecten, zie [&#x200B; het profiel van een gebruiker &#x200B;](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) uitgeven en [&#x200B; projecten &#x200B;](../../../manage-work/projects/manage-projects/edit-projects.md) uitgeven.
+Voor informatie over het associëren van programma&#39;s met gebruikers en projecten, zie [ het profiel van een gebruiker ](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) uitgeven en [ projecten ](../../../manage-work/projects/manage-projects/edit-projects.md) uitgeven.
 
-De beheerders van de groep kunnen ook programma&#39;s tot stand brengen die met de groepen worden geassocieerd zij leiden. Voor meer informatie, zie [&#x200B; creeer en wijzig de programma&#39;s van een groep &#x200B;](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-schedules.md).
+De beheerders van de groep kunnen ook programma&#39;s tot stand brengen die met de groepen worden geassocieerd zij leiden. Voor meer informatie, zie [ creeer en wijzig de programma&#39;s van een groep ](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-schedules.md).
 
-Voor informatie over het gebruiken van programma&#39;s om gebruikers te helpen in [!DNL Workfront] over tijdstreken samenwerken, zie [&#x200B; Werkend over tijdstreken &#x200B;](../../../workfront-basics/tips-tricks-and-troubleshooting/working-across-timezones.md).
+Voor informatie over het gebruiken van programma&#39;s om gebruikers te helpen in [!DNL Workfront] over tijdstreken samenwerken, zie [ Werkend over tijdstreken ](../../../workfront-basics/tips-tricks-and-troubleshooting/working-across-timezones.md).
 
-Voor informatie over hoe de programma&#39;s in middel planning worden gebruikt, zie [&#x200B; Overzicht van Programma&#39;s &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/schedules-overview.md) en [&#x200B; overzicht van de Planner van het Middel &#x200B;](/help/quicksilver/resource-mgmt/resource-planning/get-started-resource-planner.md).
+Voor informatie over hoe de programma&#39;s in middel planning worden gebruikt, zie [ Overzicht van Programma&#39;s ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/schedules-overview.md) en [ overzicht van de Planner van het Middel ](/help/quicksilver/resource-mgmt/resource-planning/get-started-resource-planner.md).
 
 ## Toegangsvereisten
 
@@ -59,7 +59,7 @@ Voor informatie over hoe de programma&#39;s in middel planning worden gebruikt, 
  </tbody> 
 </table>
 
-Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -80,13 +80,13 @@ Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van W
    >
    >U kunt geen programma als standaardprogramma aanwijzen als u een groepsbeheerder bent. Alleen een [!DNL Workfront] -beheerder kan een schema aanwijzen als standaard voor het systeem.
 
-   ![&#x200B; Nieuw programma &#x200B;](assets/new-schedule.png)
+   ![ Nieuw programma ](assets/new-schedule.png)
 
 1. Selecteer op het tabblad **[!UICONTROL Schedule]** een dagelijks schema door de blauwe omtrek over uurblokken te slepen om deze te markeren.
 
    We raden u aan 8 blokken van een uur te selecteren over een periode van 9 uur. Dit is geschikt voor lunch of andere onderbrekingen.
 
-   ![&#x200B; blokken van de Tijd op een programma &#x200B;](assets/new-schedule-with-exceptions.png)
+   ![ blokken van de Tijd op een programma ](assets/new-schedule-with-exceptions.png)
 
 1. Voer op het tabblad **[!UICONTROL Details]** de volgende informatie in:
 
@@ -131,18 +131,18 @@ Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van W
 
    Volledige of gedeeltelijke dagen kunnen van het werkschema worden uitgesloten. Klik op de datum om deze als uitzondering te selecteren en selecteer vervolgens het veld **[!UICONTROL All day]** om aan te geven of de uitzondering een volledige dag is of niet.
 
-   ![&#x200B; Alle daguitzondering &#x200B;](assets/schedule-adding-an-all-day-exception.png)
+   ![ Alle daguitzondering ](assets/schedule-adding-an-all-day-exception.png)
 
 1. Ga de begin en eindtijd voor de gedeeltelijke daguitzonderingen in.
 
-   ![&#x200B; Gedeeltelijke daguitzondering &#x200B;](assets/partial-day-exception-on-schedules.png)
+   ![ Gedeeltelijke daguitzondering ](assets/partial-day-exception-on-schedules.png)
 
 1. Klik **[!UICONTROL Save]**, dan klik **[!UICONTROL Save]Veranderingen**.
 
 1. (Optioneel) Koppel het schema aan een gebruiker.
 
-   Voor informatie, zie [&#x200B; het profiel van een gebruiker &#x200B;](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) uitgeven.
+   Voor informatie, zie [ het profiel van een gebruiker ](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) uitgeven.
 
 1. (Optioneel) Koppel het programma aan een project.
 
-   Voor informatie, zie [&#x200B; projecten &#x200B;](../../../manage-work/projects/manage-projects/edit-projects.md) uitgeven.
+   Voor informatie, zie [ projecten ](../../../manage-work/projects/manage-projects/edit-projects.md) uitgeven.

@@ -3,10 +3,10 @@ product-area: projects
 navigation-topic: use-the-home-area
 title: Een tijdelijk item bijwerken of bewerken in het begingebied
 description: U kunt updates van een werkitem weergeven en toevoegen in het gebied [!UICONTROL Home] in Adobe Workfront. U kunt andere gegevens met betrekking tot het het werkpunt ook uitgeven als u toegang hebt om het uit te geven.
-author: Lisa
+author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: db643781-4f52-4a8c-8c13-0bbc4c7056fd
-source-git-commit: 41f58261d4f2e6075187886b371a23eb5e97d823
+source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
 workflow-type: tm+mt
 source-wordcount: '824'
 ht-degree: 0%
@@ -53,7 +53,7 @@ U kunt updates van een werkitem weergeven en toevoegen in het [!UICONTROL Home] 
  </tbody> 
 </table>
 
-Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -100,13 +100,13 @@ U kunt werkitems bewerken in de volgende widgets in het gebied Start:
 
 U kunt updates opgeven voor elk werkitem in de [!UICONTROL My Work] -widget:
 
-1. Klik het **[!UICONTROL Main Menu]** ![&#x200B; Belangrijkste pictogram van het Menu &#x200B;](assets/main-menu-icon.png) in de hoger-juiste hoek, of het **Belangrijkste pictogram van het Menu** ![&#x200B; Belangrijkste de lijnen van het Menu &#x200B;](assets/lines-main-menu.png) in de upper-left hoek, als beschikbaar, dan klik **[!UICONTROL Home]**.
+1. Klik het **[!UICONTROL Main Menu]** ![ Belangrijkste pictogram van het Menu ](assets/main-menu-icon.png) in de hoger-juiste hoek, of het **Belangrijkste pictogram van het Menu** ![ Belangrijkste de lijnen van het Menu ](assets/lines-main-menu.png) in de upper-left hoek, als beschikbaar, dan klik **[!UICONTROL Home]**.
 1. (Voorwaardelijk) klik **aanpassen** om [!UICONTROL **Mijn werk**] widget toe te voegen.
 
 1. Bepaal de plaats van het het werkpunt dat u in [!UICONTROL **Mijn werk**] widget wilt bijwerken.
 1. Beweeg over de naam, dan klik **voeg nieuw update** pictogram toe.
 
-   ![&#x200B; voeg update op widget &#x200B;](assets/add-update-on-widget.png) toe
+   ![ voeg update op widget ](assets/add-update-on-widget.png) toe
 
 1. Typ uw opmerking.
 1. (Facultatief) in de **mensen of teams van de Markering** doos, begin de naam of e-mail van een gebruiker, of een team te typen dat u in deze commentaar zou willen omvatten, dan het selecteren wanneer het in de lijst toont.
@@ -117,7 +117,7 @@ U kunt updates opgeven voor elk werkitem in de [!UICONTROL My Work] -widget:
    >
    >Je kunt je opmerking alleen binnen 15 minuten bewerken nadat je deze hebt verzonden. Om een commentaar uit te geven, klik het **Meer** menu in de hoger-juiste hoek van de commentaar, dan klik **uitgeven**.
 
-   Voor meer gedetailleerde informatie over het toevoegen van updates, zie [&#x200B; het werk van de Update &#x200B;](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+   Voor meer gedetailleerde informatie over het toevoegen van updates, zie [ het werk van de Update ](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 
 ## Een opmerking toevoegen aan een item in de widget Aantekeningen
@@ -128,7 +128,7 @@ U kunt updates opgeven voor elk werkitem in de [!UICONTROL My Work] -widget:
 
 1. Klik **Reageren**.
 
-   ![&#x200B; Antwoord aan commentaar &#x200B;](assets/reply-to-comment-in-mentions-widget.png)
+   ![ Antwoord aan commentaar ](assets/reply-to-comment-in-mentions-widget.png)
 
 1. Typ uw opmerking.
 1. (Facultatief) in de **mensen van de Markering** doos, begin de naam van een gebruiker of een team te typen dat u in deze commentaar zou willen omvatten, dan het selecteren wanneer het in de lijst toont.
@@ -139,17 +139,17 @@ U kunt updates opgeven voor elk werkitem in de [!UICONTROL My Work] -widget:
    >
    >Je kunt je opmerking alleen binnen 15 minuten bewerken nadat je deze hebt verzonden. Om een commentaar uit te geven, klik het **Meer** menu in de hoger-juiste hoek van de commentaar, dan klik **uitgeven**.
 
-   Voor meer gedetailleerde informatie over het toevoegen van updates, zie [&#x200B; het werk van de Update &#x200B;](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+   Voor meer gedetailleerde informatie over het toevoegen van updates, zie [ het werk van de Update ](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 ## Een tijdelijk item bewerken
 
 U kunt elk veld op elk werkitem bewerken dat u kunt bewerken.
 
-1. Klik het **[!UICONTROL Main Menu]** ![&#x200B; Belangrijkste pictogram van het Menu &#x200B;](assets/main-menu-icon.png) in de hoger-juiste hoek, of het **Belangrijkste pictogram van het Menu** ![&#x200B; Belangrijkste de lijnen van het Menu &#x200B;](assets/lines-main-menu.png) in de upper-left hoek, als beschikbaar, dan klik **[!UICONTROL Home]**.
+1. Klik het **[!UICONTROL Main Menu]** ![ Belangrijkste pictogram van het Menu ](assets/main-menu-icon.png) in de hoger-juiste hoek, of het **Belangrijkste pictogram van het Menu** ![ Belangrijkste de lijnen van het Menu ](assets/lines-main-menu.png) in de upper-left hoek, als beschikbaar, dan klik **[!UICONTROL Home]**.
 1. (Voorwaardelijk) klik **aanpassen** om **Mijn werk** widget toe te voegen.
 
 1. Beweeg over het het werkpunt, dan klik het **Summiere** pictogram.
-   ![&#x200B; Open Samenvatting &#x200B;](assets/open-summary-new-home.png)
+   ![ Open Samenvatting ](assets/open-summary-new-home.png)
 
 1. Houd de muisaanwijzer boven het veld dat u wilt bewerken in het deelvenster Samenvatting.
 Als u rechten hebt om het veld te bewerken, wordt het veld gemarkeerd wanneer u de cursor op het veld plaatst.

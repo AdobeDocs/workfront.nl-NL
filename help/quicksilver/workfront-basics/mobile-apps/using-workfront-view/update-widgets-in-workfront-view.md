@@ -3,10 +3,10 @@ product-previous: mobile
 navigation-topic: use-workfront-view
 title: Widgets bijwerken in de weergave Projectdetails
 description: U kunt aanvullende informatie over de [!UICONTROL project] weergeven nadat u deze hebt geopend in de projectlijst door widgets toe te voegen aan het [!UICONTROL Project Details] -scherm. Elke gebruiker kan zijn eigen widgets aanpassen.
-author: Nolan
+author: Lisa
 feature: Get Started with Workfront
 exl-id: 593dc4a2-20aa-44d3-b819-1d4b160095ed
-source-git-commit: f9b9381b4b38796dbf7dfd9eddffc50fb9e5c24c
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '469'
 ht-degree: 0%
@@ -40,7 +40,7 @@ U kunt aanvullende informatie over de [!UICONTROL project] weergeven nadat u dez
  </tbody> 
 </table>
 
-Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -50,7 +50,7 @@ Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van W
 1. Tik op de tab onderaan in het midden van het scherm.\
    Het gebied [!UICONTROL widget] wordt weergegeven.\
    Blader door de widgets door van links naar rechts te vegen.\
-   ![&#x200B; Widgets &#x200B;](assets/screen-shot-2013-009-11-at-8.25.01-am-350x262.png)
+   ![ Widgets ](assets/screen-shot-2013-009-11-at-8.25.01-am-350x262.png)
 
 1. Sleep een widget om de lay-out van uw projectpagina aan te passen.\
    U kunt maximaal vier widgets tegelijk weergeven.\
@@ -92,4 +92,4 @@ Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van W
       * Projectplanning
    * **[!UICONTROL Team]**: geeft de namen weer van de gebruikers die deel uitmaken van het projectteam.\
 
-     Voor meer informatie over projectteams, zie [&#x200B; Overzicht van het Team van het Project &#x200B;](../../../manage-work/projects/planning-a-project/project-team-overview.md).
+     Voor meer informatie over projectteams, zie [ Overzicht van het Team van het Project ](../../../manage-work/projects/planning-a-project/project-team-overview.md).

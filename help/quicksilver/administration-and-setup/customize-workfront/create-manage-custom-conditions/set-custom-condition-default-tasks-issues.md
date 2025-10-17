@@ -4,11 +4,11 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-conditions
 description: Wanneer een gebruiker op het Werk klikt of een updatecommentaar toevoegt aan een nieuwe taak zij (zonder manueel een voorwaarde voor de taak te plaatsen) zijn toegewezen, toont Adobe Workfront de standaardvoorwaarde voor taken, die in Opstelling wordt gevormd. Hetzelfde geldt voor kwesties.
-author: Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 40b426f4-0a9c-49a6-91c7-b5f8aa48bd37
-source-git-commit: 366043a786c94f1bc40ad3b20af175bb84c94742
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 0%
@@ -45,7 +45,7 @@ Workfront gebruikt de ingebouwde voorwaarde Vloeiend als standaardvoorwaarde voo
  </tbody> 
 </table>
 
-Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -63,7 +63,7 @@ Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van W
 
 >[!NOTE]
 >
->* Een gebruiker die is toegewezen aan een taak of uitgave, of die beheermachtigingen heeft, kan de voorwaarde handmatig wijzigen. Voor meer informatie, zie [&#x200B; Voorwaarde van de Update voor taken en kwesties &#x200B;](../../../manage-work/projects/updating-work-in-a-project/update-condition-for-tasks-and-issues.md).
->* De drie standaardvoorwaarden voor taken en problemen die met Workfront worden geleverd, zijn Vloeiend, Sommige zorgen en Belangrijke wegversperringen. U kunt deze voorwaarden niet verbergen of verwijderen, maar u kunt wel de naam en de kleur van de voorwaarden wijzigen. Of u kunt nieuwe degenen in plaats daarvan tot stand brengen om te gebruiken, zoals die in [&#x200B; wordt beschreven creeer of geef een douanevoorwaarde &#x200B;](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md) uit.
+>* Een gebruiker die is toegewezen aan een taak of uitgave, of die beheermachtigingen heeft, kan de voorwaarde handmatig wijzigen. Voor meer informatie, zie [ Voorwaarde van de Update voor taken en kwesties ](../../../manage-work/projects/updating-work-in-a-project/update-condition-for-tasks-and-issues.md).
+>* De drie standaardvoorwaarden voor taken en problemen die met Workfront worden geleverd, zijn Vloeiend, Sommige zorgen en Belangrijke wegversperringen. U kunt deze voorwaarden niet verbergen of verwijderen, maar u kunt wel de naam en de kleur van de voorwaarden wijzigen. Of u kunt nieuwe degenen in plaats daarvan tot stand brengen om te gebruiken, zoals die in [ wordt beschreven creeer of geef een douanevoorwaarde ](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md) uit.
 
-Voor informatie over het vormen van een douanevoorwaarde als standaardvoorwaarde voor projecten, zie [&#x200B; Plaats een douanetoewijzing als gebrek voor projecten &#x200B;](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-projects.md).
+Voor informatie over het vormen van een douanevoorwaarde als standaardvoorwaarde voor projecten, zie [ Plaats een douanetoewijzing als gebrek voor projecten ](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-projects.md).

@@ -3,10 +3,10 @@ product-previous: mobile
 navigation-topic: use-the-workfront-mobile-app
 title: sectie Mijn werk in de mobiele app
 description: In het gedeelte [!UICONTROL My Work] van het gebied [!UICONTROL Home] worden uw taken, problemen, projecten, goedkeuringen, aanvragen en tijdschriften weergegeven.
-author: Nolan
+author: Lisa
 feature: Get Started with Workfront
 exl-id: 006f6f5e-fe10-4530-a22a-4ab33a4e0da5
-source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '147'
 ht-degree: 0%
@@ -21,7 +21,7 @@ In het gedeelte [!UICONTROL My Work] van het gebied [!UICONTROL Home] worden uw 
 >
 >[!UICONTROL My Work] in de mobiele app gescheiden is van [!UICONTROL My Work] in de desktopversie van [!UICONTROL Adobe Workfront] .
 
-![&#x200B; Mijn Werk &#x200B;](assets/home-myworksection-338x379.png)
+![ Mijn Werk ](assets/home-myworksection-338x379.png)
 
 ## De sectie [!UICONTROL My Work] aanpassen
 
@@ -36,4 +36,4 @@ U kunt kiezen welke menu-items u wilt weergeven in [!UICONTROL My Work] en de vo
    >
    >Het menu-item [!UICONTROL Tasks and Issues] wordt altijd weergegeven en u kunt het item niet verbergen.
 
-   ![&#x200B; Mobiele montages &#x200B;](assets/mobile-settings-338x366.png)
+   ![ Mobiele montages ](assets/mobile-settings-338x366.png)

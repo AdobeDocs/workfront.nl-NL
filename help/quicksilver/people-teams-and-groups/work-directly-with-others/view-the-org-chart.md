@@ -3,10 +3,10 @@ product-area: user-management
 navigation-topic: collaboration
 title: De organisatieschema weergeven
 description: Met de functie voor het organigram kunt u het organigram weergeven dat is gekoppeld aan een bepaalde Adobe Workfront-gebruiker. Organisatiekaarten zijn een geweldige manier om de structuur van een bepaalde afdeling te visualiseren.
-author: Lisa
+author: Becky
 feature: People Teams and Groups
 exl-id: 10c1fc55-8df4-4c2a-9251-ee6db9ee6c0d
-source-git-commit: 722295463c1338a70ff42c26acf69b09cf33f725
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '122'
 ht-degree: 0%
@@ -38,7 +38,7 @@ Met de functie voor het organigram kunt u het organigram weergeven dat is gekopp
  </tbody> 
 </table>
 
-Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -47,6 +47,6 @@ Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van W
 {{step1-click-profile-pic}}
 
 1. Klik in het linkerdeelvenster op **[!UICONTROL Org Chart]** .
-   ![&#x200B; grafiek van de Organisatie &#x200B;](assets/org-chart-2025.png)
+   ![ grafiek van de Organisatie ](assets/org-chart-2025.png)
 
    Het organigram wordt weergegeven.

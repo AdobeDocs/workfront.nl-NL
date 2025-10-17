@@ -3,10 +3,10 @@ product-area: user-management
 navigation-topic: workfront-navigation
 title: De navigatie voor een gebruiker van een revisielicentie begrijpen
 description: Het Belangrijkste Menu verandert met het toegangsniveau u door uw  [!DNL Adobe Workfront]  beheerder bent toegewezen. Standaard krijgt u alleen toegang tot de gebieden die functionaliteit bevatten die door uw toegangsniveau is toegestaan.
-author: Lisa
+author: Lisa and Courtney
 feature: Get Started with Workfront
 exl-id: c646b3d2-2eca-47ef-b181-9358cef03ed7
-source-git-commit: 577761ff5d1fb59db104df5995af953a0b5e6c0c
+source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
 workflow-type: tm+mt
 source-wordcount: '330'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # De navigatie voor een gebruiker met een [!UICONTROL Review] licentie begrijpen
 
-[!UICONTROL Main Menu] verandert met het toegangsniveau u door uw [!DNL Adobe Workfront] beheerder bent toegewezen. Standaard krijgt u alleen toegang tot de gebieden die functionaliteit bevatten die door uw toegangsniveau is toegestaan. Om de componenten van de standaardlay-out van elk toegangsniveau te begrijpen, zie [&#x200B; Ongeveer de standaard  [!DNL Adobe Workfront]  lay-out &#x200B;](../../../administration-and-setup/customize-workfront/use-layout-templates/about-the-default-wf-layout.md).
+[!UICONTROL Main Menu] verandert met het toegangsniveau u door uw [!DNL Adobe Workfront] beheerder bent toegewezen. Standaard krijgt u alleen toegang tot de gebieden die functionaliteit bevatten die door uw toegangsniveau is toegestaan. Om de componenten van de standaardlay-out van elk toegangsniveau te begrijpen, zie [ Ongeveer de standaard  [!DNL Adobe Workfront]  lay-out ](../../../administration-and-setup/customize-workfront/use-layout-templates/about-the-default-wf-layout.md).
 
 ## De standaardwaarde [!UICONTROL Main Menu] van een [!UICONTROL Reviewer] begrijpen
 
@@ -31,11 +31,11 @@ De volgende gebieden worden opgenomen in de standaardlay-out van een [!UICONTROL
 
 * **[!UICONTROL Requests]**: U kunt verzoeken die u of andere gebruikers van uw bedrijf in dit gebied hebben verzonden, verzenden en bekijken.
 * **[!UICONTROL Documents]**: U kunt documenten uploaden of documenten reviseren die hier met u worden gedeeld.
-* **[!UICONTROL Blueprints]**: controleer bestaande blauwdrukken in uw systeem en verzoek om te worden geïnstalleerd, als de [!DNL Workfront] beheerder de verzoekrij voor blauwdrukken vormde. Voor meer informatie, zie [&#x200B; Overzicht van Vervagen &#x200B;](../../../administration-and-setup/blueprints/blueprints-overview.md).
+* **[!UICONTROL Blueprints]**: controleer bestaande blauwdrukken in uw systeem en verzoek om te worden geïnstalleerd, als de [!DNL Workfront] beheerder de verzoekrij voor blauwdrukken vormde. Voor meer informatie, zie [ Overzicht van Vervagen ](../../../administration-and-setup/blueprints/blueprints-overview.md).
 
 
-![&#x200B; heb toegang tot mijn updates van het Belangrijkste menu &#x200B;](assets/access-my-updates-from-main-menu-reviewer-user-nwe-350x294.png)
+![ heb toegang tot mijn updates van het Belangrijkste menu ](assets/access-my-updates-from-main-menu-reviewer-user-nwe-350x294.png)
 
 ## Uw standaard aanpassen [!UICONTROL Main Menu]
 
-Uw [!DNL Workfront] -beheerder kan de [!DNL Workfront] -standaardindeling wijzigen door u een lay-outsjabloon toe te wijzen. Voor meer informatie over het werken met lay-outmalplaatjes, zie [&#x200B; [!UICONTROL Main Menu] aanpassen gebruikend een lay-outmalplaatje &#x200B;](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
+Uw [!DNL Workfront] -beheerder kan de [!DNL Workfront] -standaardindeling wijzigen door u een lay-outsjabloon toe te wijzen. Voor meer informatie over het werken met lay-outmalplaatjes, zie [ [!UICONTROL Main Menu] aanpassen gebruikend een lay-outmalplaatje ](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).

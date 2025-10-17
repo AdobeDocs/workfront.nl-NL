@@ -3,10 +3,10 @@ product-previous: mobile
 navigation-topic: use-the-workfront-mobile-app
 title: Widgets thuisgebied
 description: Met de thuisgebiedwidgets voor zowel iOS als Android kunt u uw werkitems snel vinden.
-author: Nolan
+author: Lisa
 feature: Get Started with Workfront
 exl-id: 36af1b05-4c95-4b8e-9b96-03b30fa9852c
-source-git-commit: 854eb3c0e4ee49315c36e00c7012e0baf2d98c37
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '130'
 ht-degree: 0%
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 De widgets voor het thuisgebied van [!DNL iOS] en [!DNL Android] helpen u uw werkitems snel te vinden.
 
-![&#x200B; het gebiedswidgets van het Huis &#x200B;](assets/mobile-home-area-widgets.png)
+![ het gebiedswidgets van het Huis ](assets/mobile-home-area-widgets.png)
 
 **[!UICONTROL Due Today]:** toont het aantal het werkpunten vandaag verschuldigd. Selecteer de widget om de lijst met items weer te geven.
 

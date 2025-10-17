@@ -5,11 +5,11 @@ content-type: reference;how-to-procedural
 product-area: system-administration;projects
 navigation-topic: create-custom-status-and-priority-labels
 description: Met de status van een uitgave kunt u gebruikers in het systeem laten zien in welk ontwikkelingsstadium een uitgave zich op een bepaald moment bevindt.
-author: Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 9bdaec2f-acdf-4cbf-a308-ebcc861dbb89
-source-git-commit: 366043a786c94f1bc40ad3b20af175bb84c94742
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '1422'
 ht-degree: 0%
@@ -44,13 +44,13 @@ Met de status van een uitgave kunt u gebruikers in het systeem laten zien in wel
  </tbody> 
 </table>
 
-Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Status van toegangskwesties
 
-U kunt tot systeem-vlakke uitgiftestatussen toegang hebben en wijzigen. U kunt bepaalde informatie over de standaardsysteemstatus bewerken of u kunt nieuwe aangepaste statussen maken. Voor meer informatie over het creëren van douanestatus of het uitgeven systeemstatussen, zie [&#x200B; tot stand brengen of een status &#x200B;](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md) uitgeven.
+U kunt tot systeem-vlakke uitgiftestatussen toegang hebben en wijzigen. U kunt bepaalde informatie over de standaardsysteemstatus bewerken of u kunt nieuwe aangepaste statussen maken. Voor meer informatie over het creëren van douanestatus of het uitgeven systeemstatussen, zie [ tot stand brengen of een status ](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md) uitgeven.
 
 Toegang krijgen tot uitgiftestatussen op systeemniveau:
 
@@ -60,13 +60,13 @@ Toegang krijgen tot uitgiftestatussen op systeemniveau:
 
 1. Klik het **lusje van Kwesties** om de uitgevende statussen beschikbaar in Workfront te zien.
 
-   ![&#x200B; status van de Uitgave &#x200B;](assets/issue-status.png)
+   ![ status van de Uitgave ](assets/issue-status.png)
 
 ## Statussen van systeemuitgiften
 
 Workfront wordt geleverd met 10 oorspronkelijke uitgiftestatussen. De eerste 4 in de tabel hieronder zijn vereist. Dit betekent dat u de bestanden kunt ontgrendelen, hernoemen en opnieuw ordenen, maar dat u ze niet kunt verbergen of verwijderen.
 
-U kunt aangepaste uitgiftestatussen toevoegen aan de behoeften van uw organisatie. Voor meer informatie, zie [&#x200B; een status &#x200B;](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md) creëren of uitgeven.
+U kunt aangepaste uitgiftestatussen toevoegen aan de behoeften van uw organisatie. Voor meer informatie, zie [ een status ](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md) creëren of uitgeven.
 
 Voor gebruikers is het wijzigen van de status van een uitgave doorgaans een handmatig proces. Er zijn echter situaties, die in de volgende lijst worden beschreven, waarin de status van een uitgave automatisch verandert, afhankelijk van andere factoren die zich in het systeem voordoen.
 
@@ -139,6 +139,6 @@ De volgende uitgavestatussen worden bij uw Workfront-exemplaar geleverd:
 
 ## Uitgiftestatussen aanpassen
 
-Een Workfront-beheerder kan emissiestatussen op systeemniveau en op groepsniveau toevoegen aan Workfront en de volgorde wijzigen waarin gebruikers deze weergeven. Voor meer informatie, zie [&#x200B; een status &#x200B;](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md) creëren of uitgeven.
+Een Workfront-beheerder kan emissiestatussen op systeemniveau en op groepsniveau toevoegen aan Workfront en de volgorde wijzigen waarin gebruikers deze weergeven. Voor meer informatie, zie [ een status ](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md) creëren of uitgeven.
 
-Een groepbeheerder kan een aangepaste status toevoegen die specifiek is voor één groep. Voor meer informatie, zie [&#x200B; creeer of geef een groepsstatus &#x200B;](../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md) uit.
+Een groepbeheerder kan een aangepaste status toevoegen die specifiek is voor één groep. Voor meer informatie, zie [ creeer of geef een groepsstatus ](../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md) uit.

@@ -3,10 +3,10 @@ product-area: calendars
 navigation-topic: calendars-navigation-topic
 title: Een kalenderrapport delen
 description: U kunt een kalender met andere gebruikers delen en u kunt het openbaar ter beschikking stellen, toestaand iemand zonder een  [!DNL Adobe Workfront]  vergunning om het te bekijken.
-author: Lisa
+author: Jenny
 feature: Reports and Dashboards
 exl-id: 77eed0fe-2d47-40c4-a03d-590f7fa17dbe
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '569'
 ht-degree: 0%
@@ -48,13 +48,13 @@ U kunt een kalender delen met andere gebruikers en deze openbaar maken, zodat ie
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Een kalender delen met [!DNL Workfront] -gebruikers {#share-a-calendar-with-workfront-users}
 
-Het delen van een kalender is vergelijkbaar met het delen van andere objecten. Voor meer informatie over het delen van voorwerpen in [!DNL Adobe Workfront], zie [&#x200B; Overzicht van het delen van toestemmingen op voorwerpen &#x200B;](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+Het delen van een kalender is vergelijkbaar met het delen van andere objecten. Voor meer informatie over het delen van voorwerpen in [!DNL Adobe Workfront], zie [ Overzicht van het delen van toestemmingen op voorwerpen ](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
 Kalenders die met u zijn gedeeld tonen met een asterisk (&#42;) naast de kalendernaam.
 
@@ -62,20 +62,20 @@ Een kalender delen in [!DNL Workfront] :
 
 1. Ga naar de kalender die u wilt delen.
 1. Klik het **Meer** menu naast de kalendernaam, dan klik **het Delen**.
-   ![&#x200B; kalender meer menu &#x200B;](assets/more-menu-calendar.png)
+   ![ kalender meer menu ](assets/more-menu-calendar.png)
 1. Typ in het veld **[!UICONTROL Give Calendar access to]** de naam van de gebruiker, het team, de rol, de groep of het bedrijf die u de kalender wilt delen, en klik vervolgens op de naam wanneer deze wordt weergegeven in de vervolgkeuzelijst.\
-   Om over het plaatsen van toestemmingen te leren, zie [&#x200B; Overzicht van het delen van toestemmingen op voorwerpen &#x200B;](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+   Om over het plaatsen van toestemmingen te leren, zie [ Overzicht van het delen van toestemmingen op voorwerpen ](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
 1. (Optioneel) Herhaal stap 3 voor elke gebruiker, elk team, elke rol of elke groep die u toegang tot de kalender wilt verlenen.
 1. Specificeer de toestemmingen voor elke gebruiker, het team, de rol, de groep, of het bedrijf die u in Stap 3 door het drop-down menu toevoegde te klikken toevoegde, dan het toestemmingsniveau dat u wilt verlenen:
 
    * **[!UICONTROL View]:** Gebruikers kunnen de kalender controleren en delen.
 
-     ![&#x200B; kalender van het Aandeel met meningstoegang &#x200B;](assets/view-calendar.png)
+     ![ kalender van het Aandeel met meningstoegang ](assets/view-calendar.png)
 
    * **[!UICONTROL Manage]:** De gebruikers hebben volledige toegang tot de kalender, minus administratieve rechten, die op het toegangsniveau, plus alle toestemmingen van de Mening worden verleend.
 
-     ![&#x200B; kalender van het Aandeel met beheerde toegang &#x200B;](assets/manage-calendar.png)
+     ![ kalender van het Aandeel met beheerde toegang ](assets/manage-calendar.png)
 
      >[!NOTE]
      >
@@ -83,7 +83,7 @@ Een kalender delen in [!DNL Workfront] :
 
 1. (Optioneel) Afhankelijk van de rol van een gebruiker kunt u mogelijk op **[!UICONTROL Advanced Options]** klikken en vervolgens op **[!UICONTROL Share]** &#x200B; klikken om de gebruiker de kalender te laten delen met andere gebruikers.
 
-   Voor meer informatie over de toestemmingsniveaus, zie [&#x200B; Overzicht van het delen van toestemmingen op voorwerpen &#x200B;](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+   Voor meer informatie over de toestemmingsniveaus, zie [ Overzicht van het delen van toestemmingen op voorwerpen ](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
 1. (Optioneel) Als u de kalender beschikbaar wilt maken voor alle [!DNL Workfront] -gebruikers, klikt u op het tandwielpictogram en klikt u vervolgens in de vervolgkeuzelijst **[!UICONTROL Make this visible system-wide]** om het object beschikbaar te maken voor alle [!DNL Workfront] -gebruikers.\
    Alle gebruikers kunnen het object zien op basis van de machtigingen die u instelt.
@@ -97,7 +97,7 @@ U kunt een kalender openbaar maken en een koppeling delen met personen die geen 
 1. Ga naar de kalender die u wilt delen.
 1. Klik op **[!UICONTROL Calendar Actions]** en vervolgens op **[!UICONTROL Sharing]** .
 1. Klik het **Meer** menu naast de kalendernaam.
-   ![&#x200B; kalender meer menu &#x200B;](assets/more-menu-calendar.png)
+   ![ kalender meer menu ](assets/more-menu-calendar.png)
 Klik **openbare verbinding van het Exemplaar**.
 1. Klik op **[!UICONTROL Save]**.
 
@@ -107,9 +107,9 @@ U kunt een persoonlijke kalenderkoppeling delen met [!DNL Workfront] -gebruikers
 
 1. Ga naar de kalender die u wilt delen.
 1. Klik **Meer** menu naast de kalendernaam, dan klik **[!UICONTROL Get Sharable Link]**.
-   ![&#x200B; kalender meer menu &#x200B;](assets/more-menu-calendar.png)
+   ![ kalender meer menu ](assets/more-menu-calendar.png)
 
    >[!NOTE]
    >
-   >[!DNL Workfront] -gebruikers moeten toegang hebben tot de kalender om deze te kunnen openen met de koppeling. Om toegang te verlenen, zie [&#x200B; een kalender met  [!DNL Workfront]  gebruikers &#x200B;](#share-a-calendar-with-workfront-users) delen.\
+   >[!DNL Workfront] -gebruikers moeten toegang hebben tot de kalender om deze te kunnen openen met de koppeling. Om toegang te verlenen, zie [ een kalender met  [!DNL Workfront]  gebruikers ](#share-a-calendar-with-workfront-users) delen.\
    >Als gebruikers geen toegang hebben, kunnen ze deze aanvragen nadat ze de koppeling in hun browser hebben geplakt.

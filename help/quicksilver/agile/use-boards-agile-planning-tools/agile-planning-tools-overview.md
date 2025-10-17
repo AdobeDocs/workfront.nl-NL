@@ -4,10 +4,10 @@ product-area: agile-and-teams
 navigation-topic: agile-navigation-topic
 title: 'Overzicht van gereedschappen voor mobiele planning: artikelindex'
 description: Als u een kaart maakt met behulp van ad-hockaarten en kaarten met een verbinding, kunt u gebruikmaken van extra flexibele planningstools op borden.
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: c1d28eeb-e920-4f57-a94b-ffd928b384a4
-source-git-commit: a9dbfe21337be9cd9929f4e982e4979265ca14e1
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '193'
 ht-degree: 0%

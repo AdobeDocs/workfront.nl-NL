@@ -4,11 +4,11 @@ user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
 description: U kunt gebruikers aanwijzen als directe rapporten aan een andere gebruiker. Dit staat u toe om een organisatieschema tot stand te brengen die de beheersstructuur van uw organisatie toont.
-author: Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: dea77522-d89f-4baa-a701-aea124d2b3a5
-source-git-commit: f8d04790caefd12c9811ea3ed94e1f892311d031
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '233'
 ht-degree: 0%
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # Directe rapporten maken
 
-U kunt gebruikers aanwijzen als directe rapporten aan een andere gebruiker. Dit staat u toe om een organisatieschema tot stand te brengen die de beheersstructuur van uw organisatie toont. Voor meer informatie, zie [&#x200B; Mening de organisatorische grafiek &#x200B;](../../../people-teams-and-groups/work-directly-with-others/view-the-org-chart.md).
+U kunt gebruikers aanwijzen als directe rapporten aan een andere gebruiker. Dit staat u toe om een organisatieschema tot stand te brengen die de beheersstructuur van uw organisatie toont. Voor meer informatie, zie [ Mening de organisatorische grafiek ](../../../people-teams-and-groups/work-directly-with-others/view-the-org-chart.md).
 
 ## Toegangsvereisten
 
@@ -46,13 +46,13 @@ U kunt gebruikers aanwijzen als directe rapporten aan een andere gebruiker. Dit 
  </tbody> 
 </table>
 
-Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Directe rapporten maken
 
-1. Begin het uitgeven van een gebruiker zoals die in [&#x200B; wordt beschreven geef het profiel van een gebruiker &#x200B;](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) uit.
+1. Begin het uitgeven van een gebruiker zoals die in [ wordt beschreven geef het profiel van een gebruiker ](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) uit.
 1. In de **sectie van de Organisatie**, zorg ervoor dat een bedrijf op het **gebied van het Bedrijf** wordt geselecteerd.
 
    Dit veld mag niet leeg zijn.

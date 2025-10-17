@@ -4,10 +4,10 @@ product-area: user-management
 navigation-topic: tips-tricks-and-troubleshooting-groups
 title: Gebruikersnaam al in gebruik
 description: Lees deze tips als er een fout optreedt die de gebruikersnaam al gebruikt.
-author: Lisa
+author: Becky
 feature: People Teams and Groups
 exl-id: dc9accf0-7ef4-4555-9b1c-d69b2110f3da
-source-git-commit: 722295463c1338a70ff42c26acf69b09cf33f725
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '280'
 ht-degree: 1%
@@ -41,7 +41,7 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

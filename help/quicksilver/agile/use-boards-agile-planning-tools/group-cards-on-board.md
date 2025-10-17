@@ -4,10 +4,10 @@ content-type: reference
 navigation-topic: boards
 title: Groepen gebruiken op een bord
 description: U kunt kaarten op een bord groeperen door een ontvanger of door markering. Wanneer u een optie selecteert om door te groeperen, verschijnen de kaarten in een swimlane formaat.
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: 6f57a20e-0e47-4457-8605-9bce55c013ec
-source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '305'
 ht-degree: 0%
@@ -20,7 +20,7 @@ U kunt kaarten op een bord groeperen door een ontvanger of door markering. Wanne
 
 >[!NOTE]
 >
->Kaarten in de inlaatkolom worden niet in een groep opgenomen en de inlaatkolom wordt verborgen wanneer een groep wordt toegepast. Voor informatie over de inlaatkolom, zie [&#x200B; een inlaatkolom aan een raad &#x200B;](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md) toevoegen.
+>Kaarten in de inlaatkolom worden niet in een groep opgenomen en de inlaatkolom wordt verborgen wanneer een groep wordt toegepast. Voor informatie over de inlaatkolom, zie [ een inlaatkolom aan een raad ](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md) toevoegen.
 
 ## Toegangsvereisten
 
@@ -44,7 +44,7 @@ U kunt kaarten op een bord groeperen door een ontvanger of door markering. Wanne
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -52,7 +52,7 @@ Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van d
 
 {{step1-to-boards}}
 
-1. Toegang tot een bord. Voor informatie, zie [&#x200B; creeer of geef een raad &#x200B;](../../agile/get-started-with-boards/create-edit-board.md) uit.
+1. Toegang tot een bord. Voor informatie, zie [ creeer of geef een raad ](../../agile/get-started-with-boards/create-edit-board.md) uit.
 1. Klik op **[!UICONTROL Group]** om het deelvenster Groep links van het bord te openen.
 
    >[!NOTE]
@@ -63,7 +63,7 @@ Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van d
 
    De kaarten worden automatisch gegroepeerd. Klik op de pijl naast de groepsnaam om de groep samen te vouwen en uit te vouwen.
 
-   ![&#x200B; Gegroepeerde kaarten op een raad &#x200B;](assets/group-by-assignee.png)
+   ![ Gegroepeerde kaarten op een raad ](assets/group-by-assignee.png)
 
 1. Selecteer wat er gebeurt wanneer een kaart naar een andere groep wordt verplaatst.
 

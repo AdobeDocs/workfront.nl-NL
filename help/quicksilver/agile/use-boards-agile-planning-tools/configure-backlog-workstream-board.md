@@ -4,10 +4,10 @@ content-type: reference
 navigation-topic: boards
 title: De back-up op een werkstroomkaart configureren
 description: U kunt verkiezen om een backlogkolom op een raad in een werkstroom te tonen, en een vraag voor de kaarten te bepalen die in de bordbacklog van de werkstroomkaartlijst worden getrokken.
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: fd2f6eeb-a565-4461-a153-0504ad3c07d7
-source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '487'
 ht-degree: 0%
@@ -26,7 +26,7 @@ U kunt verkiezen om een backlogkolom op een raad in een werkstroom te tonen, en 
 >
 >Als u een nieuwe kaart in de backlogkolom toevoegt die niet de vraagcriteria aanpast, zal de kaart van backlog verdwijnen wanneer de raad wordt verfrist en het zal slechts in de kaartlijst beschikbaar zijn. U kunt de vraag op elk ogenblik veranderen om aan te passen welke kaarten in de backlogkolom verschijnen.
 
-De backlogkolom en de vraag zijn niet beschikbaar op standalone borden. Voor informatie over het toevoegen van een inlaatkolom aan een standalone raad, zie [&#x200B; een inlaatkolom aan een raad &#x200B;](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md) toevoegen.
+De backlogkolom en de vraag zijn niet beschikbaar op standalone borden. Voor informatie over het toevoegen van een inlaatkolom aan een standalone raad, zie [ een inlaatkolom aan een raad ](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md) toevoegen.
 
 ## Toegangsvereisten
 
@@ -50,7 +50,7 @@ De backlogkolom en de vraag zijn niet beschikbaar op standalone borden. Voor inf
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -88,7 +88,7 @@ Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van d
 
 1. (Facultatief) klik [!UICONTROL **toevoegen voorwaarde**] om een andere voorwaarde aan de vraag toe te voegen.
 
-   ![&#x200B; Backlog vraag &#x200B;](assets/backlog-query-wrkstrm-board.png)
+   ![ Backlog vraag ](assets/backlog-query-wrkstrm-board.png)
 
 1. (Facultatief) klik [!UICONTROL **maken groep**] om een groep voorwaarden toe te voegen die met de eerste voorwaarde met OF exploitant worden verbonden.
 1. Klik [!UICONTROL **sparen vraag**].

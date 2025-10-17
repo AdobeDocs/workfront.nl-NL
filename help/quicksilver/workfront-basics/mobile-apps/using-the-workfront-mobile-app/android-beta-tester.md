@@ -3,10 +3,10 @@ product-previous: mobile
 navigation-topic: use-the-workfront-mobile-app
 title: Word een Android beta tester
 description: Herzie dit artikel om een bètameetapparaat van Android voor  [!DNL Adobe Workfront]  mobiele app te worden.
-author: Nolan
+author: Lisa
 feature: Get Started with Workfront
 exl-id: 84188dec-301b-40f6-a2a3-5e7befae1dc9
-source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '302'
 ht-degree: 0%
@@ -34,13 +34,13 @@ U moet de app [!DNL Workfront] installeren voordat u zich bij de bètaversie kun
 
 1. Nadat de voortgang is voltooid, ontvangt u een bevestiging dat u nu een bètagebruiker bent.\
    Het woord &quot;[!UICONTROL Beta]&quot; verschijnt na de naam van uw app in [!DNL Play Store] om aan te geven dat u de bètaversie van de app gebruikt.\
-   ![&#x200B; de bètameetapparaat van Android &#x200B;](assets/android-beta-tester-adobe-350x468.png)
+   ![ de bètameetapparaat van Android ](assets/android-beta-tester-adobe-350x468.png)
 
 ### QR-code
 
 U kunt ook de onderstaande QR-code scannen om u aan te melden voor de bètaversie en de app downloaden:
 
-![&#x200B; QR van Android code &#x200B;](assets/android-qr-code-350x409.png)
+![ QR van Android code ](assets/android-qr-code-350x409.png)
 
 ## Laat ons weten hoe we het doen
 

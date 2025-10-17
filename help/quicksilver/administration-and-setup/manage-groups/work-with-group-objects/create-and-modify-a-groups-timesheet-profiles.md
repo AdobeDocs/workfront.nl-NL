@@ -4,11 +4,11 @@ product-area: system-administration;user-management
 navigation-topic: work-with-a-groups-objects
 title: De tijdbladprofielen van een groep maken en beheren
 description: Wanneer u een groep bekijkt die u in het gebied van Groepen beheert, kunt u met timesheet profielen bekijken en werken waarvoor de beheerders van de groep, of één van zijn subgroepen, administratieve toegang hebben.
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 5c895e77-bd88-435f-a903-37c2325eab45
-source-git-commit: 7eaff1c74cd880bde062e6fdf169c73d6eeb7f75
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '344'
 ht-degree: 0%
@@ -50,23 +50,23 @@ Als er groepen zijn boven de groep die u beheert, kunnen hun beheerders dit ook 
  </tbody> 
 </table>
 
-Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Tijdbladprofielen op groepsniveau maken en bewerken
 
-U kunt tijdlijnprofielen maken en bewerken voor gebruik in een groep die u beheert. Voor instructies, zie [&#x200B; creeer, geef, en wijs timesheet profielen &#x200B;](../../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md) uit.
+U kunt tijdlijnprofielen maken en bewerken voor gebruik in een groep die u beheert. Voor instructies, zie [ creeer, geef, en wijs timesheet profielen ](../../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md) uit.
 
 ## Tijdbladprofielen op groepsniveau verwijderen
 
-U kunt tijdbladprofielen verwijderen die worden gebruikt door een groep die u beheert. Voor instructies, zie [&#x200B; timesheet profielen van de Schrapping &#x200B;](../../../timesheets/create-and-manage-timesheets/delete-timesheet-profiles.md).
+U kunt tijdbladprofielen verwijderen die worden gebruikt door een groep die u beheert. Voor instructies, zie [ timesheet profielen van de Schrapping ](../../../timesheets/create-and-manage-timesheets/delete-timesheet-profiles.md).
 
 ## Groepshulpbladen handmatig genereren
 
-Om veranderingen toe te laten die u aan groepstimesheet- profielen aanbracht om in huidige groepstijdschema&#39;s te weerspiegelen, moet u eerst bestaande timesheets schrappen en dan manueel nieuwe manueel produceren. Voor instructies, zie [&#x200B; manueel timesheets van het gebied van Timesheets &amp; van Uren &#x200B;](../../../timesheets/create-and-manage-timesheets/manually-generate-timesheets.md#manually) in [&#x200B; produceren manueel timesheets &#x200B;](../../../timesheets/create-and-manage-timesheets/manually-generate-timesheets.md).
+Om veranderingen toe te laten die u aan groepstimesheet- profielen aanbracht om in huidige groepstijdschema&#39;s te weerspiegelen, moet u eerst bestaande timesheets schrappen en dan manueel nieuwe manueel produceren. Voor instructies, zie [ manueel timesheets van het gebied van Timesheets &amp; van Uren ](../../../timesheets/create-and-manage-timesheets/manually-generate-timesheets.md#manually) in [ produceren manueel timesheets ](../../../timesheets/create-and-manage-timesheets/manually-generate-timesheets.md).
 
-Voor informatie over het schrappen van groepstimesheets, zie [&#x200B; timesheets van de Schrapping in Adobe Workfront &#x200B;](../../../timesheets/create-and-manage-timesheets/delete-timesheets.md).
+Voor informatie over het schrappen van groepstimesheets, zie [ timesheets van de Schrapping in Adobe Workfront ](../../../timesheets/create-and-manage-timesheets/delete-timesheets.md).
 
 ## Tijdbladprofielen op groepsniveau exporteren
 

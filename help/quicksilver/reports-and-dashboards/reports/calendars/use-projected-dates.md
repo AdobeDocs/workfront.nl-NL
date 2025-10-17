@@ -3,10 +3,10 @@ product-area: calendars
 navigation-topic: calendars-navigation-topic
 title: Geprojecteerde datums gebruiken in een kalenderrapport
 description: Een kalenderrapport is een dynamisch rapport dat een visuele vertegenwoordiging van uw werk verstrekt. U kunt de Geprojecteerde gebieden van de Datum in een kalenderrapport voor taken, kwesties, en projecten gebruiken.
-author: Lisa
+author: Jenny
 feature: Reports and Dashboards
 exl-id: 39e16f0b-c10d-429e-9eb5-d4847c7e4ed9
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '514'
 ht-degree: 0%
@@ -51,7 +51,7 @@ Een kalenderrapport is een dynamisch rapport dat een visuele vertegenwoordiging 
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -131,8 +131,8 @@ Nadat u hebt ingesteld hoe de items moeten worden weergegeven, moet u de objecte
 1. Stel een voorwaardelijke instructie in voor de kalendergroep.
 
 
-   ![&#x200B; Uitgezochte voorwerp voor kalender &#x200B;](assets/calendar-field-name.png)
-Om over het plaatsen van voorwaarden te leren, zie [&#x200B; Filter en voorwaardenbepalingen &#x200B;](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
+   ![ Uitgezochte voorwerp voor kalender ](assets/calendar-field-name.png)
+Om over het plaatsen van voorwaarden te leren, zie [ Filter en voorwaardenbepalingen ](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
 
 1. (Optioneel) Geef aanvullende objecten voor de kalendergroep op door stap 1-4 te herhalen.
 1. Selecteer in het veld **[!UICONTROL Set the Tasks/Projects/Issues labels to be the...]** hoe de objecten in deze kalendergroep worden gelabeld in de kalender.
@@ -141,7 +141,7 @@ Om over het plaatsen van voorwaarden te leren, zie [&#x200B; Filter en voorwaard
    >
    >Als de standaardlabelopties niet beschikbaar zijn voor een bepaald object, wordt in plaats daarvan de naam van het object weergegeven. Wanneer u bijvoorbeeld het label [!UICONTROL Parent Task] hebt geselecteerd en er geen bovenliggende taak aan het object is gekoppeld, geeft [!DNL Adobe Workfront] de objectnaam weer die u in de kalender weergeeft.
 
-   ![&#x200B; vastgestelde taaketiketten &#x200B;](assets/set-task-labels.png)
+   ![ vastgestelde taaketiketten ](assets/set-task-labels.png)
 
 1. Klik op **[!UICONTROL Save]**.
 

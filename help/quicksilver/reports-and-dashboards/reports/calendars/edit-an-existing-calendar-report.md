@@ -3,10 +3,10 @@ product-area: calendars
 navigation-topic: calendars-navigation-topic
 title: Een bestaand kalenderrapport bewerken
 description: U kunt een bestaande kalender wijzigen door een verbinding aan een project toe te voegen of te schrappen. U kunt ook kalendergroepen wijzigen die zijn gekoppeld aan een kalenderrapport.
-author: Lisa
+author: Jenny
 feature: Reports and Dashboards
 exl-id: 494d040c-bd1d-4356-824f-a75890803617
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '272'
 ht-degree: 0%
@@ -51,7 +51,7 @@ U kunt een bestaande kalender wijzigen door een verbinding aan een project toe t
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -67,12 +67,12 @@ Als u het kalenderrapport met andere gebruikers of teams hebt gedeeld, wordt de 
    1. Klik op **[!UICONTROL Add to Calendar].**
    1. Typ de naam van een project waarvan u kalendergebeurtenissen wilt toevoegen en klik vervolgens op de naam wanneer deze wordt weergegeven in de vervolgkeuzelijst.
    1. Klik **toevoegen**.
-      ![&#x200B; voeg een project aan een kalender &#x200B;](assets/add-a-calendar-project.png) toe
+      ![ voeg een project aan een kalender ](assets/add-a-calendar-project.png) toe
 
 
 1. (Optioneel) Een kalendergroep toevoegen of een bestaande kalendergroep wijzigen:
    1. Klik het **Meer** menu naast de projectnaam, dan klik **uitgeven**.
-      ![&#x200B; geef project in kalender uit &#x200B;](assets/edit-project-in-calendar.png)
+      ![ geef project in kalender uit ](assets/edit-project-in-calendar.png)
 
    1. Kies hoe je je objecten wilt groeperen:
 

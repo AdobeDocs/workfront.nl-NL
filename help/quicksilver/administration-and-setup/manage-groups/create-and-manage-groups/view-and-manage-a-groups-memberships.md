@@ -5,11 +5,11 @@ keywords: toevoegen,gebruikers,groep,toevoegen,een andere,toewijzen,beheerder,ve
 navigation-topic: create-and-manage-groups
 title: De lidmaatschappen van een groep weergeven en beheren
 description: Als Adobe Workfront-beheerder kunt u leden van elke groep die u beheert, weergeven, toevoegen, verwijderen, exporteren, activeren en deactiveren. U kunt ook hun profielen bewerken, Updates toevoegen aan hun profielen en deze toewijzen als extra groepbeheerders voor de groep.
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 219e5fa3-cf25-477d-82f6-046e3ff30989
-source-git-commit: a42a167447d2f11b5502e4a0953b5e7eec2e67b1
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '727'
 ht-degree: 0%
@@ -46,7 +46,7 @@ Als er om het even welke groepen boven uw groep zijn, kunnen hun beheerders deze
  </tbody> 
 </table>
 
-Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

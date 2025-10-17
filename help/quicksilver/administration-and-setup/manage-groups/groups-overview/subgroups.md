@@ -5,11 +5,11 @@ product-area: system-administration;user-management
 navigation-topic: groups-overview
 title: Overzicht subgroepen
 description: U kunt maximaal 14 niveaus subgroepen maken onder één groep. Op elk van deze niveaus kunt u een onbeperkt aantal parallelle subgroepen maken.
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: a4280498-6719-4911-a69a-b715a5438eed
-source-git-commit: 01487bb9cb195d6fa89bbe0fbdb7678254642714
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '639'
 ht-degree: 0%
@@ -18,9 +18,9 @@ ht-degree: 0%
 
 # Overzicht subgroepen
 
-U kunt maximaal 14 niveaus subgroepen maken onder één groep. Op elk van deze niveaus kunt u een onbeperkt aantal parallelle subgroepen maken. Voor instructies, zie [&#x200B; een subgroep &#x200B;](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/create-a-subgroup.md) creëren.
+U kunt maximaal 14 niveaus subgroepen maken onder één groep. Op elk van deze niveaus kunt u een onbeperkt aantal parallelle subgroepen maken. Voor instructies, zie [ een subgroep ](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/create-a-subgroup.md) creëren.
 
-Voor informatie over groepen, zie [&#x200B; Overzicht van Groepen &#x200B;](../../../administration-and-setup/manage-groups/groups-overview/groups.md).
+Voor informatie over groepen, zie [ Overzicht van Groepen ](../../../administration-and-setup/manage-groups/groups-overview/groups.md).
 
 ## Wat erven subgroepen?
 
@@ -44,7 +44,7 @@ Voor een openbare groep kan elke gebruiker (in of uit de groep) die toegang heef
 
 U kunt deze optie alleen bewerken in de bovenste bovenliggende groep in een hiërarchie van groepen met meer dan één niveau. Alle subgroepen van de bovenliggende groep nemen de instelling over.
 
-Als u een subgroep onder een groep maakt die openbaar is, is de subgroep standaard ook openbaar. Voor meer informatie over het creëren van een groep en het maken van het openbaar, zie [&#x200B; een groep &#x200B;](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md) creëren. Voor meer informatie over de toegang nodig om gebruikers uit te geven, zie [&#x200B; toegang van de Verlening tot gebruikers &#x200B;](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
+Als u een subgroep onder een groep maakt die openbaar is, is de subgroep standaard ook openbaar. Voor meer informatie over het creëren van een groep en het maken van het openbaar, zie [ een groep ](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md) creëren. Voor meer informatie over de toegang nodig om gebruikers uit te geven, zie [ toegang van de Verlening tot gebruikers ](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 
 Elke groep die u toevoegt aan een bestaande groep wordt automatisch een subgroep en is geen hoofdgroep meer. Nochtans, behoudt subgroup zijn bestaande gebruikers, evenals om het even welke verenigingen met projecten, kwesties, en taken, naast al project, taak, en uitgevende statussen die tot de nieuwe oudergroep behoren.
 
@@ -54,7 +54,7 @@ Elke groep die u toevoegt aan een bestaande groep wordt automatisch een subgroep
 Group Admins of a subgroup can't manage statuses or project preferences of the subgroup YET (Sprint 22/Oct 28, 2020)</p>
 -->
 
-U kunt subgroepsleden als groepsbeheerders toewijzen aan de subgroep wanneer u deze maakt of bewerkt. Voor instructies, zie [&#128279;](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md#create) in het artikel [&#x200B; een groep &#x200B;](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md) creëren.
+U kunt subgroepsleden als groepsbeheerders toewijzen aan de subgroep wanneer u deze maakt of bewerkt. Voor instructies, zie [](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md#create) in het artikel [ een groep ](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md) creëren.
 
 Afwisselend, kunt u beleid van subgroup aan de groepsbeheerders verlaten die aan de groepen boven het worden toegewezen. Wanneer u een subgroep maakt, hebben groepsbeheerders boven de groepen erboven automatisch toegang om de subgroep te beheren.
 
@@ -62,4 +62,4 @@ Afwisselend, kunt u beleid van subgroup aan de groepsbeheerders verlaten die aan
 >
 >Als u een gebruiker aan een subgroep toevoegt en die gebruiker een groepsbeheerder voor een groep overal boven de subgroep is, heeft die gebruiker administratieve rechten om de subgroep te beheren, zelfs zonder als groepsbeheerder voor het worden toegewezen.
 
-Om te leren welke acties beschikbaar voor een beheerder van Adobe Workfront die het systeem van Workfront, een groepsbeheerder beheren een top-level groep, en een groepsbeheerder die een subgroep beheren, zie [&#x200B; Acties toegestaan voor verschillende types van beheerders &#x200B;](../../../administration-and-setup/manage-groups/group-roles/group-actions-allowed-different-types-admins.md) beheren.
+Om te leren welke acties beschikbaar voor een beheerder van Adobe Workfront die het systeem van Workfront, een groepsbeheerder beheren een top-level groep, en een groepsbeheerder die een subgroep beheren, zie [ Acties toegestaan voor verschillende types van beheerders ](../../../administration-and-setup/manage-groups/group-roles/group-actions-allowed-different-types-admins.md) beheren.

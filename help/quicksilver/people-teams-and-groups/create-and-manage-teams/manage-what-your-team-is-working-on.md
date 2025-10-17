@@ -3,10 +3,10 @@ product-area: agile-and-teams
 navigation-topic: create-and-manage-teams
 title: Beheer waaraan uw team werkt
 description: U kunt een kalenderweergave zien van taken en problemen waaraan uw team momenteel werkt. U kunt niet-toegewezen items toewijzen, huidige toewijzingen aanpassen, huidige toewijzingen aanpassen en meer.
-author: Lisa
+author: Jenny
 feature: People Teams and Groups
 exl-id: 4bdec4b9-18b0-4981-a067-f47e259bc708
-source-git-commit: 79da9f7ed5149ca33f6eaeac347188149f410695
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '100'
 ht-degree: 0%
@@ -21,4 +21,4 @@ U kunt niet-toegewezen items toewijzen, de huidige toewijzingen aanpassen, de hu
 
 Zie [[!UICONTROL Workload Balancer]](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md) voor meer informatie over het beheren van taken die aan uw team zijn toegewezen.
 
-![&#x200B; pagina van het Team die de Balancer van de Werkbelasting toont &#x200B;](assets/team-page-workload-balancer.png)
+![ pagina van het Team die de Balancer van de Werkbelasting toont ](assets/team-page-workload-balancer.png)

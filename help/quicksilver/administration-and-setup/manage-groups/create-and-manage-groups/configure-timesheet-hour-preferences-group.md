@@ -5,11 +5,11 @@ keywords: groep,voorkeuren,taak,groepen,uitgave,ontgrendelen
 navigation-topic: create-and-manage-groups
 title: De voorkeuren voor tijdbladen en uren voor een groep configureren
 description: Op systeemniveau, kan een beheerder van Adobe Workfront de timesheet en de sectie van de uurvoorkeur Algemene Voorkeur ontgrendelen en pre-bevolkt timesheets met. Hierdoor kunnen groepsbeheerders de opties in die secties onafhankelijk voor hun eigen groepen configureren.
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 1ee9343e-9452-4e41-a9ff-a6c865d4813b
-source-git-commit: a42a167447d2f11b5502e4a0953b5e7eec2e67b1
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '1336'
 ht-degree: 0%
@@ -30,11 +30,11 @@ De volgende secties op de pagina van de Voorkeur van Timesheet en van Uren zijn 
 
 * Verwijderde projecten, taken en problemen
 
-Voor informatie over hoe een beheerder van Workfront een timesheet en een uurvoorkeur ontgrendelt, zie de sectie [&#x200B; timesheet en de uurvoorkeur voor groepen &#x200B;](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md#lock) in het artikel [&#x200B; vormen timesheet en uurvoorkeur &#x200B;](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+Voor informatie over hoe een beheerder van Workfront een timesheet en een uurvoorkeur ontgrendelt, zie de sectie [ timesheet en de uurvoorkeur voor groepen ](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md#lock) in het artikel [ vormen timesheet en uurvoorkeur ](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
 >[!TIP]
 >
->Configuratie op groepsniveau is ook mogelijk voor projectvoorkeuren en voor taak- en uitgavenvoorkeuren. Voor informatie, zie [&#x200B; projectvoorkeur voor een groep &#x200B;](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md) vormen en [&#x200B; vorm taak en geef voorkeur voor een groep &#x200B;](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md) uit.
+>Configuratie op groepsniveau is ook mogelijk voor projectvoorkeuren en voor taak- en uitgavenvoorkeuren. Voor informatie, zie [ projectvoorkeur voor een groep ](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md) vormen en [ vorm taak en geef voorkeur voor een groep ](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md) uit.
 
 ## Toegangsvereisten
 
@@ -60,7 +60,7 @@ Voor informatie over hoe een beheerder van Workfront een timesheet en een uurvoo
  </tbody> 
 </table>
 
-Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -76,7 +76,7 @@ Overweeg de volgende informatie over het vormen van een ontgrendelde timesheet o
   Add example here?
   -->
 
-* Nadat een beheerder van Workfront een voorkeur op het systeemniveau ontgrendelt en u het voor uw groep vormt, kunt u het dan sluiten om ervoor te zorgen dat iedereen in de groepen onder u de zelfde configuratie gebruikt. Dit is parallel aan de mogelijkheid dat een Workfront-beheerder een voorkeur voor iedereen in het systeem moet configureren en vergrendelen. Voor meer informatie, zie [&#x200B; Slot of ontgrendel een groep timesheet en een uurvoorkeur &#x200B;](../../../administration-and-setup/manage-groups/create-and-manage-groups/lock-or-unlock-a-group-timesheet-hour-preference.md).
+* Nadat een beheerder van Workfront een voorkeur op het systeemniveau ontgrendelt en u het voor uw groep vormt, kunt u het dan sluiten om ervoor te zorgen dat iedereen in de groepen onder u de zelfde configuratie gebruikt. Dit is parallel aan de mogelijkheid dat een Workfront-beheerder een voorkeur voor iedereen in het systeem moet configureren en vergrendelen. Voor meer informatie, zie [ Slot of ontgrendel een groep timesheet en een uurvoorkeur ](../../../administration-and-setup/manage-groups/create-and-manage-groups/lock-or-unlock-a-group-timesheet-hour-preference.md).
 
 ## Vorm een niet gesloten timesheet of een uurvoorkeur voor een groep
 
@@ -86,7 +86,7 @@ Overweeg de volgende informatie over het vormen van een ontgrendelde timesheet o
 
 {{step-1-to-setup}}
 
-1. In het linkerpaneel, klik **Groepen** ![&#x200B; Groepen &#x200B;](assets/groups-icon.png).
+1. In het linkerpaneel, klik **Groepen** ![ Groepen ](assets/groups-icon.png).
 
 1. Klik de naam van de groep waarvan timesheet of uurvoorkeur u wilt vormen.
 1. In het linkerpaneel, klik **Chronologie &amp; Uren**.

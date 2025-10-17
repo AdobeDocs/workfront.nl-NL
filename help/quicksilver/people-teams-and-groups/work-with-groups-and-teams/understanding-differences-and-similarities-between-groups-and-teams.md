@@ -4,10 +4,10 @@ product-area: user-management;agile-and-teams
 navigation-topic: work-with-groups-and-teams
 title: Groepen versus teams in Workfront
 description: Groepen en teams zijn verzamelingen van gebruikers in Adobe Workfront. Leer over de verschillen en de gelijkenissen tussen groepen en teams.
-author: Lisa
+author: Jenny and Becky
 feature: People Teams and Groups
 exl-id: 28eb1967-390b-4500-abfc-8ed68ff14a16
-source-git-commit: 722295463c1338a70ff42c26acf69b09cf33f725
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '372'
 ht-degree: 0%
@@ -30,7 +30,7 @@ Wij adviseren dat u groepen vormt om uw afdelingsstructuur aan te passen.
 
 Bijvoorbeeld, zou u een groep van Financiën kunnen hebben die gebruikers in de Afdeling van Financiën bevat. Binnen de afdeling Financiën kunnen mensen worden gestructureerd in teams die onafhankelijk van elkaar werken.
 
-Voor meer informatie over het creëren van en het leiden van groepen, zie [&#x200B; een groep &#x200B;](../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md) creëren en [&#x200B; leiden een groep &#x200B;](../../administration-and-setup/manage-groups/create-and-manage-groups/manage-a-group.md).
+Voor meer informatie over het creëren van en het leiden van groepen, zie [ een groep ](../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md) creëren en [ leiden een groep ](../../administration-and-setup/manage-groups/create-and-manage-groups/manage-a-group.md).
 
 ## Gebruik teams om de werkstructuur binnen een afdeling te vertegenwoordigen
 
@@ -38,7 +38,7 @@ Wij adviseren dat u teams vormt om de de werkstructuur van dag tot dag van uw af
 
 U hebt bijvoorbeeld een team van Payroll, een team van Rekeningen te betalen en een team van Rekeningen te ontvangen. Typisch, werken de mensen in elk van deze teams aan projecten, taken, of kwesties die voor die teams gelijkaardig zijn.
 
-Voor meer informatie over het creëren van en het leiden van teams, zie [&#x200B; teams &#x200B;](../../people-teams-and-groups/create-and-manage-teams/create-and-mange-teams.md) creëren en beheren.
+Voor meer informatie over het creëren van en het leiden van teams, zie [ teams ](../../people-teams-and-groups/create-and-manage-teams/create-and-mange-teams.md) creëren en beheren.
 
 ## Vergelijking van groep- en teamfunctionaliteit
 

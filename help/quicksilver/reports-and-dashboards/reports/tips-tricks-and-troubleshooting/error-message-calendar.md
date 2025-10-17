@@ -4,10 +4,10 @@ product-area: reporting;calendars
 navigation-topic: tips-tricks-and-troubleshooting-reports
 title: 'Foutbericht op kalender: ''Deze kalender heeft de weergaverechten van een gedeactiveerde gebruiker.'''
 description: Meer informatie over het foutbericht 'Deze kalender heeft de weergaverechten van een gedeactiveerde gebruiker'.
-author: Lisa
+author: Jenny
 feature: Reports and Dashboards
 exl-id: ba1e25f2-4960-47f7-ac7d-6f6b0f59cfe2
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '258'
 ht-degree: 0%
@@ -46,7 +46,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -65,7 +65,7 @@ De gebruiker die deze kalender heeft gemaakt (de oorspronkelijke eigenaar) is ee
 U kunt dit op de volgende manier oplossen:
 
 1. Kopieer de oorspronkelijke kalender. Wanneer u een kalender kopieert, wordt u de eigenaar van de kalender. De gekopieerde kalender moet alle informatie uit de oorspronkelijke kalender bevatten.\
-   Voor meer informatie over het kopiëren van een kalender, zie [&#x200B; Kopieer een kalenderrapport &#x200B;](../../../reports-and-dashboards/reports/calendars/copy-a-calendar-report.md).
+   Voor meer informatie over het kopiëren van een kalender, zie [ Kopieer een kalenderrapport ](../../../reports-and-dashboards/reports/calendars/copy-a-calendar-report.md).
 
 1. Deel de gekopieerde kalender met dezelfde gebruikers als de oorspronkelijke kalender. Alle gebruikers moeten dezelfde informatie op de nieuwe kalender zien.
 1. (Optioneel en voorwaardelijk) Als u machtigingen hebt om de oorspronkelijke kalender te beheren, verwijdert u alle andere gebruikers met wie de kalender wordt gedeeld uit het gebied voor het delen van kalender. Dit voorkomt verwarring bij gebruikers die de verkeerde kalender proberen weer te geven.

@@ -4,11 +4,11 @@ product-area: system-administration;user-management
 navigation-topic: group-roles
 title: Overzicht van bedrijfsleider
 description: In een groep, is de Bedrijfsleider de persoon die besluiten voor de groep betreffende doelstellingen, strategieën, begroting, en het huren etc. neemt. Bijvoorbeeld, in een organisatie die een HoofdMarketing Functionaris heeft, zou die persoon waarschijnlijk de Bedrijfsleider voor Marketing zijn.
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 4081587f-1ace-4f40-a3a1-57231d5a5d43
-source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '318'
 ht-degree: 0%
@@ -19,9 +19,9 @@ ht-degree: 0%
 
 In een groep, is de Bedrijfsleider de persoon die besluiten voor de groep betreffende doelstellingen, strategieën, begroting, en het huren etc. neemt. Bijvoorbeeld, in een organisatie die een HoofdMarketing Functionaris heeft, zou die persoon waarschijnlijk de Bedrijfsleider voor Marketing zijn.
 
-Als groepsbeheerder, kunt u één gebruiker als Bedrijfsleider voor een groep of een subgroep toewijzen die u beheert. Als er groepen zijn boven de groep die u beheert, kunnen hun beheerders dit ook voor uw groep doen. Hetzelfde geldt voor Workfront-beheerders (voor elke groep). Voor instructies, zie [&#x200B; een groep &#x200B;](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md) creëren.
+Als groepsbeheerder, kunt u één gebruiker als Bedrijfsleider voor een groep of een subgroep toewijzen die u beheert. Als er groepen zijn boven de groep die u beheert, kunnen hun beheerders dit ook voor uw groep doen. Hetzelfde geldt voor Workfront-beheerders (voor elke groep). Voor instructies, zie [ een groep ](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md) creëren.
 
-Als u algemene informatie over groepen nodig hebt, zie [&#x200B; Overzicht van Groepen &#x200B;](../../../administration-and-setup/manage-groups/groups-overview/groups.md).
+Als u algemene informatie over groepen nodig hebt, zie [ Overzicht van Groepen ](../../../administration-and-setup/manage-groups/groups-overview/groups.md).
 
 >[!NOTE]
 >
@@ -45,4 +45,4 @@ Bijvoorbeeld:
 
 Bovendien is het veld Bedrijfsleader opgenomen in de standaardweergave in rapporten als een lijstkolom.
 
-Voor meer informatie, zie [&#x200B; Meldend elementen: filters, meningen, en groeperingen &#x200B;](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md).
+Voor meer informatie, zie [ Meldend elementen: filters, meningen, en groeperingen ](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md).

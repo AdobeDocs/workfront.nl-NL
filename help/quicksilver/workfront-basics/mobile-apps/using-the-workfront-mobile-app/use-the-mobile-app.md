@@ -3,11 +3,11 @@ product-previous: mobile
 navigation-topic: mobile-apps
 title: Gebruik  [!DNL Adobe Workfront]  mobiele app
 description: Versnel overeenkomst en stroomlijnt werk voor teams en individuen in uw organisatie door  [!DNL Adobe Workfront's]  mobiele app, beschikbaar op om het even welk iOS of apparaat van Android.
-author: Nolan
+author: Lisa
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 10419dc8-8e7b-40fb-91fe-0ddbd0a493c9
-source-git-commit: 60ff39c7a8c4736e1a176dd22bd0be5ab804223f
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '266'
 ht-degree: 0%
@@ -24,12 +24,12 @@ Versnel uw betrokkenheid en stroomlijnt uw werk voor teams en personen in uw org
 * Houd uw workflow aan de gang met acties in één stap
 * Onderweg productief blijven
 
-U kunt app van [&#x200B; Apple App Store &#x200B;](https://apps.apple.com/us/app/adobe-workfront/id1033282981) of de [&#x200B; opslag van Google Play downloaden en installeren &#x200B;](https://play.google.com/store/apps/details?id=com.workfront.android.aware).
+U kunt app van [ Apple App Store ](https://apps.apple.com/us/app/adobe-workfront/id1033282981) of de [ opslag van Google Play downloaden en installeren ](https://play.google.com/store/apps/details?id=com.workfront.android.aware).
 
 In de mobiele app kunt u werkitems voltooien en informatie weergeven, net als in de browserversie van [!DNL Workfront] . Deze en meer functies zijn beschikbaar:
 
 * Taken en problemen onderbrengen en toewijzen
-* Post-updates
+* Updates verzenden
 * Toegang tot Workfront-borden
 * Projecten weergeven en beheren
 * Weergeven, opmerkingen plaatsen en beslissingen nemen over proefdrukken

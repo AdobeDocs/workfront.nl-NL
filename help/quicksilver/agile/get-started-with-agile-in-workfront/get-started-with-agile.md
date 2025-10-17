@@ -5,11 +5,11 @@ keywords: behagen
 navigation-topic: agile-navigation-topic
 title: Begonnen met  [!DNL Agile]  binnen  [!DNL Adobe Workfront]
 description: Lees deze artikelen om aan de slag te gaan met agile in Workfront.
-author: Lisa
+author: Jenny
 feature: Agile
 recommendations: noDisplay, noCatalog
 exl-id: 151aec93-3ccb-475f-b894-61be20a8544a
-source-git-commit: 452f8ddc5268a0d67e32090d166199f2fad7dbc7
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '31'
 ht-degree: 0%

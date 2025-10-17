@@ -4,11 +4,11 @@ product-area: system-administration;user-management;setup
 navigation-topic: create-and-manage-groups
 title: Een groepstijdblad en de voorkeur voor uren vergrendelen of ontgrendelen
 description: Als u een groepsbeheerder bent, kunt u een timesheet en een uurvoorkeur voor uw groep vormen en dan sluiten nadat een beheerder van Workfront het op het systeemniveau ontgrendelt.
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 5b36106f-d521-4cc1-9f1f-647415c282b4
-source-git-commit: a42a167447d2f11b5502e4a0953b5e7eec2e67b1
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '600'
 ht-degree: 0%
@@ -25,9 +25,9 @@ Omgekeerd, staat het ontgrendelen van een voorkeur op het groepsniveau subgroepb
 
 Dit is parallel aan de mogelijkheid dat een Workfront-beheerder een voorkeur voor iedereen in het systeem moet vergrendelen of ontgrendelen.
 
-Voor informatie over hoe een beheerder van Workfront een timesheet en een uurvoorkeur voor alle groepen in het systeem kan sluiten of ontgrendelen, zie [&#x200B; timesheet en uurvoorkeur &#x200B;](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md) vormen.
+Voor informatie over hoe een beheerder van Workfront een timesheet en een uurvoorkeur voor alle groepen in het systeem kan sluiten of ontgrendelen, zie [ timesheet en uurvoorkeur ](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md) vormen.
 
-Voor informatie over het vormen van een timesheet en een uurvoorkeur voor een groep, zie [&#x200B; timesheet en uurvoorkeur voor een groep &#x200B;](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-timesheet-hour-preferences-group.md) vormen.
+Voor informatie over het vormen van een timesheet en een uurvoorkeur voor een groep, zie [ timesheet en uurvoorkeur voor een groep ](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-timesheet-hour-preferences-group.md) vormen.
 
 <!--
 Unlike other Lock/Unlock articles that start just like this one, we need the steps here. In other areas, the lock/unlock step is part of the article about setting preferences or creating statuses.</p>
@@ -68,7 +68,7 @@ Unlike other Lock/Unlock articles that start just like this one, we need the ste
  </tbody> 
 </table>
 
-Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -86,8 +86,8 @@ Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van W
 
 1. Voer op de pagina die wordt weergegeven een van de volgende handelingen uit:
 
-   * Als u beheerders van groepen onder uw groep een voorkeur voor hun groepen wilt kunnen vormen, ontgrendel het ![&#x200B; knevel van de Ontgrendeling &#x200B;](assets/unlock-toggle-button.png).
-   * Als u alle groepen onder van u wilt gebruiken uw configuratie voor een voorkeur, zorg ervoor dat het gesloten ![&#x200B; knevel van het Slot &#x200B;](assets/lock-toggle-button.png) is (dit is het gebrek).
+   * Als u beheerders van groepen onder uw groep een voorkeur voor hun groepen wilt kunnen vormen, ontgrendel het ![ knevel van de Ontgrendeling ](assets/unlock-toggle-button.png).
+   * Als u alle groepen onder van u wilt gebruiken uw configuratie voor een voorkeur, zorg ervoor dat het gesloten ![ knevel van het Slot ](assets/lock-toggle-button.png) is (dit is het gebrek).
 
      >[!IMPORTANT]
      >

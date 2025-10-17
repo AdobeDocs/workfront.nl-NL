@@ -4,11 +4,11 @@ user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
 description: Workfront-beheerders kunnen een gebruiker deactiveren of opnieuw activeren.
-author: Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: aba243ba-46c2-4eb7-b704-4368bf0ae3cc
-source-git-commit: 72d0b8e0e190f774c7e3f14a78904fb1dd3f2b14
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '1081'
 ht-degree: 0%
@@ -30,7 +30,7 @@ ht-degree: 0%
 >
 >The procedure described on this page applies only to organizations that have not yet been onboarded to the Admin Console. If your organization has been onboarded to the Adobe Admin Console, you must perform this action through the Adobe Admin Console.
 >
->For instructions on deactivating a user in the Adobe Admin Console, see the section "Remove users" in the article [Manage users individually](https://helpx.adobe.com/nl/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
+>For instructions on deactivating a user in the Adobe Admin Console, see the section "Remove users" in the article [Manage users individually](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
 >
 >For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
@@ -48,7 +48,7 @@ U kunt een gebruiker op elk gewenst moment opnieuw activeren.
 >
 >* Als u een gebruiker in Workfront deactiveert, worden de gebruikerslicenties zowel voor Workfront als voor digitale proefdrukken verwijderd. Bovendien kan aan de gebruiker geen werk meer worden toegewezen. Wanneer een gebruiker wordt gedeactiveerd, wordt de Workfront-licentie en -proeflicentie van die gebruiker beschikbaar voor gebruik door een andere gebruiker. Alle andere informatie in het profiel van de gedeactiveerde gebruiker blijft ongewijzigd.
 >
->* Als u een gebruiker deactiveert in Workfront, wordt de gebruiker niet verwijderd uit het Workfront-productprofiel in de Adobe Admin Console. Voor meer informatie, zie [&#x200B; gebruikers van de Schrapping &#x200B;](../../../administration-and-setup/add-users/create-and-manage-users/delete-a-user.md).
+>* Als u een gebruiker deactiveert in Workfront, wordt de gebruiker niet verwijderd uit het Workfront-productprofiel in de Adobe Admin Console. Voor meer informatie, zie [ gebruikers van de Schrapping ](../../../administration-and-setup/add-users/create-and-manage-users/delete-a-user.md).
 
 
 ## Toegangsvereisten
@@ -78,7 +78,7 @@ U kunt een gebruiker op elk gewenst moment opnieuw activeren.
  </tbody> 
 </table>
 
-Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -86,7 +86,7 @@ Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van W
 
 Voordat u een Workfront-beheerder of een gebruiker van een Standard- of Plan-licentie deactiveert, moet u de objecten en activiteiten aan een andere gebruiker koppelen.
 
-Voor meer informatie, zie [&#x200B; Ongeveer het deactiveren van de beheerders van Workfront en Standaard of de vergunningsgebruikers van het Plan &#x200B;](#about-deactivating-workfront-administrators-and-plan-license-users) in dit artikel.
+Voor meer informatie, zie [ Ongeveer het deactiveren van de beheerders van Workfront en Standaard of de vergunningsgebruikers van het Plan ](#about-deactivating-workfront-administrators-and-plan-license-users) in dit artikel.
 
 ## Een gebruiker deactiveren
 
@@ -103,9 +103,9 @@ Een gebruiker deactiveren:
 {{step-1-to-users}}
 
 1. Selecteer een gebruiker in de gebruikerslijst.
-1. Klik het **Meer** pictogram ![&#x200B; Meer pictogram &#x200B;](assets/more-icon.png), dan klik **deactivate**.
+1. Klik het **Meer** pictogram ![ Meer pictogram ](assets/more-icon.png), dan klik **deactivate**.
 
-1. In het **Deactivate gebruikers** dialoogvakje, klik **&#x200B;**&#x200B;deactivate.
+1. In het **Deactivate gebruikers** dialoogvakje, klik **** deactivate.
 
 ## Gebruikers plannen voor deactivering
 
@@ -123,7 +123,7 @@ Een gebruiker plannen voor deactivering:
 
    (Optioneel) Selecteer meerdere gebruikers om ze bulksgewijs te deactiveren.
 
-1. Klik **uitgeven** pictogram ![&#x200B; uitgeven pictogram &#x200B;](assets/edit-icon.png).
+1. Klik **uitgeven** pictogram ![ uitgeven pictogram ](assets/edit-icon.png).
 1. In het linkerpaneel van **geef de doos van de Gebruiker** uit, klik **Planning van het Middel**.
 1. Klik **Vastgestelde deactiveringsdatum**.
 
@@ -145,7 +145,7 @@ Wij adviseren dat u een rapport voor gebruikers bouwt die u voor deactivering he
 
 {{step-1-to-users}}
 
-1. Selecteer een gebruiker, klik het **Meer** pictogram ![&#x200B; Meer pictogram &#x200B;](assets/more-icon.png), dan klik **activeert**.
+1. Selecteer een gebruiker, klik het **Meer** pictogram ![ Meer pictogram ](assets/more-icon.png), dan klik **activeert**.
 
 1. In het **Reactivate gebruiker** dialoog, selecteer een nieuw **niveau van de Toegang** in het drop-down menu, dan klik **Reactivate**.
 <!--
@@ -157,8 +157,8 @@ Deactivated users lose access to their assigned Frame.io accounts as well as ass
 
 Gedeactiveerde gebruikers verliezen hun toegewezen standaardproofingrol en hun proefdruklicentie (als u op een Workfront Premium Legacy Plan bent). Als u ervoor kiest de gebruiker opnieuw te activeren, moet u:
 
-* Wijs de licentie opnieuw toe (als u een Workfront Premium Legacy Plan gebruikt). Voor meer informatie over het proefdrukken van Workfront plannen, zie [&#x200B; Toegang tot het proefdrukken functionaliteit in Workfront &#x200B;](../../../administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md).
-* Controleer of ze de juiste proefdrukrol hebben. De opnieuw geactiveerde proefdrukgebruikers worden toegewezen wat als standaardproefrol voor nieuwe gebruikers wordt gespecificeerd. Zie [&#x200B; standaard het proef rollen &#x200B;](../../../administration-and-setup/manage-workfront/configure-proofing/configure-default-proofing-roles.md) voor meer informatie vormen.
+* Wijs de licentie opnieuw toe (als u een Workfront Premium Legacy Plan gebruikt). Voor meer informatie over het proefdrukken van Workfront plannen, zie [ Toegang tot het proefdrukken functionaliteit in Workfront ](../../../administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md).
+* Controleer of ze de juiste proefdrukrol hebben. De opnieuw geactiveerde proefdrukgebruikers worden toegewezen wat als standaardproefrol voor nieuwe gebruikers wordt gespecificeerd. Zie [ standaard het proef rollen ](../../../administration-and-setup/manage-workfront/configure-proofing/configure-default-proofing-roles.md) voor meer informatie vormen.
 
 ## Informatie over het deactiveren van Workfront-beheerders en gebruikers van een Standard- of Plan-licentie
 
@@ -183,5 +183,5 @@ Wanneer u een gebruiker voor deactivering plant, verschijnen zij niet meer in de
 
 De Planner van het Middel houdt rekening met alle baanrollen van de gebruikers en Geplande Datums van de Voltooiing van de taken en berekent dienovereenkomstig middelen.
 
-Voor meer informatie over de Planner van het Middel, zie [&#x200B; Overzicht van de Planner van het Middel &#x200B;](../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
+Voor meer informatie over de Planner van het Middel, zie [ Overzicht van de Planner van het Middel ](../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
 
