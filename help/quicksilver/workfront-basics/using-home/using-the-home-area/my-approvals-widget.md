@@ -55,13 +55,13 @@ De widget Mijn goedkeuringen ondersteunt goedkeuringen van de volgende Workfront
  </tbody> 
 </table>
 
-Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Werken goedkeuren via de widget Mijn goedkeuringen
 
-1. Klik het **[!UICONTROL Main Menu]** ![ Belangrijkste pictogram van het Menu ](assets/main-menu-icon.png) in de hoger-juiste hoek, dan klik **[!UICONTROL Home]**.
+1. Klik het **[!UICONTROL Main Menu]** ![&#x200B; Belangrijkste pictogram van het Menu &#x200B;](assets/main-menu-icon.png) in de hoger-juiste hoek, dan klik **[!UICONTROL Home]**.
 1. (Voorwaardelijk) klik **aanpassen** om **Mijn goedkeurt** widget toe te voegen.
 1. (Voorwaardelijk) klik het **drop-down menu van de Filter**, dan selecteer **allen** om goedkeuringen te zien die aan u worden toegewezen en worden gedelegeerd.
 
@@ -72,7 +72,7 @@ Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront
 
 1. Selecteer het item waarop u een goedkeuringsbesluit wilt nemen.
 
-   ![ Mijn widget goedkeurt ](assets/my-approvals-widget.png)
+   ![&#x200B; Mijn widget goedkeurt &#x200B;](assets/my-approvals-widget.png)
 
 1. Klik op een van de beschikbare opties wanneer u een goedkeuringsbesluit neemt in het rechterdeelvenster. De volgende opties worden in de rechterbovenhoek van de pagina weergegeven, afhankelijk van het type item dat u goedkeurt:
 
