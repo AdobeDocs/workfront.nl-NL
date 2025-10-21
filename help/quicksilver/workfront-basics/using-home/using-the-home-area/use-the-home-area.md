@@ -7,9 +7,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 246e3f71-6403-4381-866c-fa693fb9944d
-source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
+source-git-commit: e05b15bbb9e9148cc6f2940ae33f7ea9f98b7444
 workflow-type: tm+mt
-source-wordcount: '117'
+source-wordcount: '125'
 ht-degree: 2%
 
 ---
@@ -25,6 +25,7 @@ Lees deze artikelen voor meer informatie over het gebruik van het gebied Home in
 * [Het [!UICONTROL My Updates] -gebied gebruiken](../../../workfront-basics/using-home/using-the-home-area/my-updates-area.md)
 * [Items weergeven in het [!UICONTROL Work List] gebied in het [!UICONTROL Home] gebied](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md)
 * [Overzicht van widgetfilters thuis](/help/quicksilver/workfront-basics/using-home/using-the-home-area/widget-filter-overview-home.md)
+* [Uw goedkeuringen beheren met de widget Mijn goedkeuringen](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-approvals-widget.md)
 * [Werk- en teamaanvragen beheren in het gebied [!UICONTROL Home]](../../../workfront-basics/using-home/using-the-home-area/manage-work-and-team-requests-home.md)
 * [Een tijdelijk item bijwerken of bewerken in het gebied [!UICONTROL Home]](../../../workfront-basics/using-home/using-the-home-area/update-and-edit-work-item-home.md)
 * [Werkitems en projecten maken vanuit het [!UICONTROL Home] -gebied](../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md)
