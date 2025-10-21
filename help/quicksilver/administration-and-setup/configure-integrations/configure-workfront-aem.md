@@ -71,7 +71,7 @@ Met [!DNL Workfront for AEM Assets connector] kan uw organisatie het volgende do
 
 Voordat u de [!DNL Workfront] -connector voor [!UICONTROL AEM Assets] kunt installeren, moet u controleren of aan de volgende voorwaarden is voldaan:
 
-* [!UICONTROL AEM Assets] is geïnstalleerd en geconfigureerd, versie 6.5 of hoger. Voor informatie over het installeren van [!UICONTROL AEM Assets], zie de [[!DNL Adobe Experience Manager]  documentatie &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager).
+* [!UICONTROL AEM Assets] is geïnstalleerd en geconfigureerd, versie 6.5 of hoger. Voor informatie over het installeren van [!UICONTROL AEM Assets], zie de [[!DNL Adobe Experience Manager]  documentatie &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager).
 * (Voorwaardelijk) als uw firewallregels verkeer niet zoals verwacht toestaan, voeg het IP van uw cluster adres en/of domein aan uw lijst van gewenste personen toe. Voor meer informatie, zie [&#x200B; de lijst van gewenste personen van uw firewall &#x200B;](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md) vormen.
 
 ## Installeer het aansluitingspakket [!DNL Workfront for AEM Assets] {#install-the-workfront-for-aem-assets-connector-package}
