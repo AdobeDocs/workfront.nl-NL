@@ -6,7 +6,7 @@ description: Enkele eigenschappen zijn verschillend tussen  [!DNL Workfront]  en
 author: Nolan
 feature: Get Started with Workfront
 exl-id: b9076fe0-26d7-4f33-80a4-564875ea13ba
-source-git-commit: a25eb28800ca8bbeeffedb521b3d72c8df71c697
+source-git-commit: b9547764abd4f1f61d93da6bc66d9e6776954f4d
 workflow-type: tm+mt
 source-wordcount: '1380'
 ht-degree: 0%
@@ -27,13 +27,13 @@ In deze tabel worden enkele functies beschreven die verschillen tussen de twee e
 
 | [!DNL Adobe Unified Experience] | [!DNL Workfront] alleen ervaring |
 | ---- | ----|
-| [!UICONTROL [!DNL Workfront] Main Menu] is op het linker![&#x200B; Belangrijkste Menu &#x200B;](assets/main-menu-icon-left-nav.png) | [!UICONTROL [!DNL Workfront] Main Menu] is op het juiste ![&#x200B; Belangrijkste Menu &#x200B;](assets/main-menu-icon.png) |
+| [!UICONTROL [!DNL Workfront] Main Menu] is op het linker![ Belangrijkste Menu ](assets/main-menu-icon-left-nav.png) | [!UICONTROL [!DNL Workfront] Main Menu] is op het juiste ![ Belangrijkste Menu ](assets/main-menu-icon.png) |
 | Er is één aanmeldings-URL beschikbaar voor alle [!DNL Adobe Experience Cloud] -toepassingen | Meld u aan bij [!DNL Workfront] met een aangepaste [!DNL Workfront] URL |
 | Met een &quot;bedrijfsswitch&quot; kunt u schakelen tussen [!DNL Workfront] organisaties en omgevingen | De &quot;organisatieschakeloptie&quot; is niet beschikbaar |
 | Navigatie omvat een navigatiegebied op hoofdniveau voor [!DNL Adobe] -producten, [!DNL Adobe] -meldingen, Help en uw gebruikersprofiel, naast de navigatiebalk van [!DNL Workfront] | Navigatie bevat alleen de navigatiebalk van [!DNL Workfront] |
 | De Help is toegankelijk via het navigatiegebied [!UICONTROL Main Menu] en boven. | De Help is toegankelijk via de navigatiebalk [!UICONTROL Main Menu] en [!DNL Workfront] |
 | De proefdrukviewer wordt geopend op een nieuw tabblad | De proefdrukviewer wordt geopend in Workfront |
-| URL voor toegang tot Workfront is `experience.adobe.com` | URL voor toegang tot Workfront is `(CompanyName).my.workfront.com` |
+| URL voor toegang tot Workfront is `experience.adobe.com` | URL voor toegang tot Workfront is `(CompanyName).my.workfront.adobe.com` |
 | Datumnotatie (zoals MM/DD/JJJJ) is gebaseerd op de taalinstellingen voor Unified Experience. Als de gebruiker zijn taalinstellingen niet heeft bijgewerkt, worden `en-US` -instellingen gebruikt. | De datumnotatie (zoals DD-MM-JJJJ) is gebaseerd op de browservoorkeuren |
 
 {style="table-layout:auto"}
@@ -55,15 +55,15 @@ Lees de volgende artikelen voor meer informatie over [!DNL Admin Console] :
 
 * [Voor  [!DNL Adobe Admin Console] voorbereiden](/help/quicksilver/administration-and-setup/adobe-admin-console/prep-for-admin-console.md)
 * [Op platform-gebaseerde beleidsverschillen ([!DNL Adobe Workfront]/[!DNL Adobe Business Platform])](/help/quicksilver/administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)
-* [[!DNL Adobe Admin Console]  overzicht &#x200B;](https://helpx.adobe.com/nl/enterprise/using/admin-console.html)
+* [[!DNL Adobe Admin Console]  overzicht ](https://helpx.adobe.com/nl/enterprise/using/admin-console.html)
 
 ### Wat moet ik als klant doen om de migratie te vergemakkelijken?
 
 Er wordt contact opgenomen met bestaande klanten om migraties te plannen. De collega&#39;s die ondersteuning bieden voor het migratieteam zullen klanten door het proces laten lopen, advies geven over [!DNL Admin Console] -installatie en koppelingen verschaffen naar documentatie die nodig is om de stap zo eenvoudig en probleemloos mogelijk te maken.
 
-* [[!DNL Adobe Workfront]  Overzicht van de Steun &#x200B;](https://experienceleague.adobe.com/nl/docs/customer-one/using/workfront/overview)
-* [[!DNL Workfront Admin Console]  informatie &#x200B;](https://experienceleague.adobe.com/nl/docs/customer-one/using/workfront/landing)
-* [[!DNL Adobe Business Platform]  en  [!DNL Admin Console]  Veelgestelde vragen &#x200B;](https://experienceleague.adobe.com/nl/docs/customer-one/using/workfront/faq)
+* [[!DNL Adobe Workfront]  Overzicht van de Steun ](https://experienceleague.adobe.com/en/docs/customer-one/using/workfront/overview)
+* [[!DNL Workfront Admin Console]  informatie ](https://experienceleague.adobe.com/en/docs/customer-one/using/workfront/landing)
+* [[!DNL Adobe Business Platform]  en  [!DNL Admin Console]  Veelgestelde vragen ](https://experienceleague.adobe.com/en/docs/customer-one/using/workfront/faq)
 
 ### Hoe gaat u met [!DNL Adobe Admin Console] voor bedrijven die dit al hebben ingeschakeld voor gefedereerde id&#39;s anders dan met [!DNL Workfront] SSO is ingesteld?
 
