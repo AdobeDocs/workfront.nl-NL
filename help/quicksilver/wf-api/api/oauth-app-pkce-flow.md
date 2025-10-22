@@ -7,7 +7,7 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 61fe77b6-c6d7-4f23-bfb6-617bccaa1989
-source-git-commit: f9a154fa92217810b762ac48169512bc0bca7305
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '811'
 ht-degree: 0%
@@ -47,7 +47,7 @@ Een PKCE-stroom heeft de volgende stappen. De stappen in deze sectie worden alle
 
 Voordat u autorisatie kunt implementeren, moet u uw app registreren in OAuth2 door een app-integratie te maken vanuit Workfront.
 
-Voor instructies bij het creëren van de toepassing OAuth2, zie [&#x200B; een OAuth2 enig-pagina Webtoepassing gebruikend PKCE &#x200B;](../../administration-and-setup/configure-integrations/create-oauth-application.md#create-an-oauth2-single-page-web-application-using-pkce) in [&#x200B; creëren toepassingen OAuth2 voor de integratie van Workfront &#x200B;](../../administration-and-setup/configure-integrations/create-oauth-application.md)
+Voor instructies bij het creëren van de toepassing OAuth2, zie [ een OAuth2 enig-pagina Webtoepassing gebruikend PKCE ](../../administration-and-setup/configure-integrations/create-oauth-application.md#create-an-oauth2-single-page-web-application-using-pkce) in [ creëren toepassingen OAuth2 voor de integratie van Workfront ](../../administration-and-setup/configure-integrations/create-oauth-application.md)
 
 >[!NOTE]
 >
@@ -118,11 +118,8 @@ Maak een notitie van de parameters die worden doorgegeven:
   Zie Een OAuth2-webtoepassing van één pagina maken met PKCE in OAuth2-toepassingen maken voor Workfront-integratie voor instructies.
 
 * `response_type` is `code` omdat de toepassing het subsidietype voor machtigingscode gebruikt.
-
 * `redirect_uri` is de callback plaats waaraan de gebruikersagent samen met `code` wordt geleid. Dit moet één van redirect URls aanpassen die u specificeerde toen u uw toepassing OAuth2 creeerde.
-
 * `code_challenge_method` is de knoeiboelmethode die wordt gebruikt om de uitdaging te produceren, die altijd `S256` voor Workfront Oauth2 toepassingen is die PKCE gebruiken.
-
 * `code_challenge` is de code die voor PKCE wordt gebruikt.
 
 
@@ -154,7 +151,7 @@ Maak een notitie van de parameters die worden doorgegeven:
 
 * `code` is de vergunningscode die u van het /authorize eindpunt ontving.
 
-* `code_verifier` is de PKCE codecontroleur die uw app in [&#x200B; wordt geproduceerd creeert de Sleutel van het Bewijs voor de Uitwisseling van de Code &#x200B;](#Create).
+* `code_verifier` is de PKCE codecontroleur die uw app in [ wordt geproduceerd creeert de Sleutel van het Bewijs voor de Uitwisseling van de Code ](#Create).
 
 * `client_id` identificeert uw klant en moet overeenkomen met de waarde die vooraf is geregistreerd in OAuth2.
 

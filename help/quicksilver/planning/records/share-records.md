@@ -6,7 +6,7 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 83ff53ac-f18e-4b71-bdb2-57e05d69ed29
-source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '579'
 ht-degree: 0%
@@ -82,7 +82,7 @@ In dit artikel wordt beschreven hoe u een koppeling naar de pagina van een recor
 </tbody> 
 </table>
 
-Voor meer informatie over de toegangsvereisten van Workfront, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer informatie over de toegangsvereisten van Workfront, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++  
 
@@ -157,19 +157,22 @@ Voor meer informatie over de toegangsvereisten van Workfront, zie [&#x200B; vere
 {{step1-to-planning}}
 
 De werkruimte die u het laatst hebt geopend.
+
 1. Klik op een opnametype.
 
    De pagina met recordtypen wordt geopend.
+
 1. (Voorwaardelijk) van **Mening** drop-down menu in de hoger-juiste hoek van de lijst, selecteer een lijstmening. Dit moet de standaardweergave zijn, tenzij u het recordtype in de tijdlijnweergave hebt bekeken toen u het als laatste opende.
 
    De records die aan het geselecteerde recordtype zijn gekoppeld, worden in de tabelweergave weergegeven.
+
 1. Klik met de rechtermuisknop op een recordrij
 
    of
 
-   Beweeg over de naam van een verslag, klik **Meer** menu ![&#x200B; Meer menu &#x200B;](assets/more-menu.png), dan klik **verbinding van het Exemplaar**.
+   Beweeg over de naam van een verslag, klik **Meer** menu ![ Meer menu ](assets/more-menu.png), dan klik **verbinding van het Exemplaar**.
 
-   ![&#x200B; Contextueel menu voor verslagrij &#x200B;](assets/contextual-menu-for-record-row.png)
+   ![ Contextueel menu voor verslagrij ](assets/contextual-menu-for-record-row.png)
 
    De koppeling wordt naar het klembord gekopieerd.
 
@@ -190,7 +193,7 @@ Recordtypen en records nemen dezelfde machtigingen over van de werkruimte.
 
 Alleen gebruikers met de machtiging Beheren in een werkruimte kunnen deze delen met anderen.
 
-Voor meer informatie, zie [&#x200B; een werkruimte &#x200B;](/help/quicksilver/planning/access/share-workspaces.md) delen.
+Voor meer informatie, zie [ een werkruimte ](/help/quicksilver/planning/access/share-workspaces.md) delen.
 
 ## Alle records in een recordtype delen door het recordtype te delen
 
@@ -205,5 +208,5 @@ U kunt echter een van de volgende handelingen uitvoeren:
 
 Alleen gebruikers met de machtiging Beheren in een werkruimte kunnen hun recordtypen en records delen met anderen.
 
-Voor meer informatie, zie [&#x200B; recordtypes van het Aandeel &#x200B;](/help/quicksilver/planning/access/share-record-types.md).
+Voor meer informatie, zie [ recordtypes van het Aandeel ](/help/quicksilver/planning/access/share-record-types.md).
 

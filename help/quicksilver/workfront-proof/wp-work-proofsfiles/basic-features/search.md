@@ -8,7 +8,7 @@ description: U kunt op de Workfront Proof-site naar inhoud zoeken.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 1596b3d2-d513-4e36-98b7-92e349aca5bc
-source-git-commit: c3e15a052533d43065b50a9f56169b82f8dc3765
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '345'
 ht-degree: 0%
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [&#x200B; het Bewijzen &#x200B;](../../../review-and-approve-work/proofing/proofing.md).
+>Dit artikel verwijst naar functionaliteit in het zelfstandige product [!DNL Workfront Proof] . Voor informatie bij het proef binnen [!DNL Adobe Workfront], zie [ het Bewijzen ](../../../review-and-approve-work/proofing/proofing.md).
 
 U kunt op de [!DNL Workfront Proof] -site zoeken naar de volgende typen inhoud:
 
@@ -44,13 +44,16 @@ U kunt als volgt de [!DNL Workfront Proof] -site zoeken:
    * Als u de naam van een vorige proefversie in het zoekveld invoert, wordt de meest recente versie van die proefdruk weergegeven in de zoekresultaten.
    * Bovenliggende mappen en submappen worden afzonderlijk vermeld.
 
-1. (Optioneel) In de zoekresultaten die worden weergegeven, sorteert u op kolom door op de koptekst boven aan een kolom te klikken. (Optioneel) Voeg filters toe aan de resultaten door op het pictogram [!UICONTROL search] aan het einde van de koptekstrij te klikken. ![&#x200B; Search_filter_in_Search_results.png &#x200B;](assets/search-filter-in-search-results-350x90.png)
+1. (Optioneel) In de zoekresultaten die worden weergegeven, sorteert u op kolom door op de koptekst boven aan een kolom te klikken. (Optioneel) Voeg filters toe aan de resultaten door op het pictogram [!UICONTROL search] aan het einde van de koptekstrij te klikken. ![ Search_filter_in_Search_results.png ](assets/search-filter-in-search-results-350x90.png)
 
-Hiermee voegt u vervolgkeuzemenu&#39;s toe waarin u filters kunt selecteren om uw zoekopdracht te beperken.
-1. ![&#x200B; Search_filter_boxes_appear_in_Search_results.png &#x200B;](assets/search-filter-boxes-appear-in-search-results-350x154.png)
+   Hiermee voegt u vervolgkeuzemenu&#39;s toe waarin u filters kunt selecteren om uw zoekopdracht te beperken.
 
-1. (Optioneel) Verfijn uw zoekopdracht door het tabblad [!UICONTROL Tags] te openen en op een tag in het navigatiezijpaneel links te klikken. Items die aan die tag zijn gekoppeld, worden weergegeven in de zoekresultaten.\
-   ![&#x200B; Searching_by_tag.png &#x200B;](assets/searching-by-tag-350x209.png)\
+   ![ Search_filter_boxes_appear_in_Search_results.png ](assets/search-filter-boxes-appear-in-search-results-350x154.png)
+
+1. (Optioneel) Verfijn uw zoekopdracht door het tabblad [!UICONTROL Tags] te openen en op een tag in het navigatiezijpaneel links te klikken. Items die aan die tag zijn gekoppeld, worden weergegeven in de zoekresultaten.
+
+   ![ Searching_by_tag.png ](assets/searching-by-tag-350x209.png)
+
    De tagnaam wordt weergegeven in het zoekveld in de rechterbovenhoek van Workfront Proof. U kunt uw zoekopdracht verfijnen door extra tags te selecteren of door meer trefwoorden in het zoekveld te typen. U kunt een tag uit het zoekveld verwijderen door op het x-pictogram naast de tagnaam te klikken.
 
-Voor informatie over het zoeken naar tekst binnen proefdrukinhoud, zie [&#x200B; inhoud van het Onderzoek binnen een proef &#x200B;](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/search-in-a-proof.md).
+Voor informatie over het zoeken naar tekst binnen proefdrukinhoud, zie [ inhoud van het Onderzoek binnen een proef ](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/search-in-a-proof.md).

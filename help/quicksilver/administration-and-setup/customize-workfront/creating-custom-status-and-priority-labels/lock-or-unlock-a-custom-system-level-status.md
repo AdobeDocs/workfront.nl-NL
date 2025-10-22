@@ -8,7 +8,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 0e58a1d6-5e0c-4445-a5ac-400dfd4c4948
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '497'
 ht-degree: 0%
@@ -25,7 +25,7 @@ Omgekeerd, staat het ontgrendelen van douanestatus groepsbeheerders meer flexibi
 >
 >Als u een douanestatus sluit nadat het voor om het even welke periode is ontgrendeld, vervangen uw systeem-brede montages voor de status die door groepsbeheerders worden gemaakt. Terwijl de status is vergrendeld, kunnen groepsbeheerders de status voor hun groepen niet wijzigen of verwijderen.
 
-Voor instructies bij het sluiten van of het ontgrendelen van een systeem-vlakke status, zie [&#x200B; tot een status &#x200B;](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md) leiden of uitgeven.
+Voor instructies bij het sluiten van of het ontgrendelen van een systeem-vlakke status, zie [ tot een status ](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md) leiden of uitgeven.
 
 ## Niet-vergrendelde statussen in goedkeuringsprocessen
 
@@ -34,9 +34,7 @@ U kunt zowel vergrendelde als ontgrendelde statussen gebruiken in een systeemgoe
 De berichten van de waarschuwing tonen in de volgende scenario&#39;s om u en uw gebruikers te helpen ervoor zorgen u resultaten van de volgende scenario&#39;s begrijpt:
 
 * Een beheerder ontgrendelt een status op systeemniveau die in een goedkeuringsproces wordt gebruikt. Een bericht waarschuwt dat de ontgrendelde status voor hun groepen zou kunnen schrappen, die groepsleden zou verhinderen dat die goedkeuringsprocedure behoorlijk voor voorwerpen te gebruiken die aan hun groep worden toegewezen.
-
 * Een gebruiker begint een goedkeuringsproces uit te geven dat een ontgrendelde status gebruikt. In een bericht wordt de gebruiker gewaarschuwd voor de ontgrendelde status, zodat deze kan beoordelen of het een goed idee is om de status opnieuw te vergrendelen of te vervangen.
-
 * Een goedkeuringsproces op systeemniveau met een niet-vergrendelde status is gekoppeld aan een object en de status is verwijderd voor de groep die aan het object is toegewezen. Wanneer een groepslid naar de sectie van Goedkeuringen voor het voorwerp gaat, verklaart een bericht dat het goedkeuringsproces niet voor het voorwerp kan worden in werking gesteld.
 
 U kunt zowel vergrendelde als ontgrendelde statussen gebruiken in een goedkeuringsproces voor groepen. Als u een proces van de groepsgoedkeuring met een ontgrendelde groepsstatus creeert, kunnen de gebruikers het goedkeuringsproces aan om het even welk project, taak, of kwestie vastmaken die met de groep wordt geassocieerd.

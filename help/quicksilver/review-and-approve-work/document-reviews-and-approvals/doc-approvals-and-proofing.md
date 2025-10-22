@@ -6,7 +6,7 @@ description: U kunt Verenigde Goedkeuringen met proef gebruiken.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: be484629-6e70-4809-ad4c-a489d5814da6
-source-git-commit: 601285fdbf26365dcaea14f990904d049816af21
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '847'
 ht-degree: 0%
@@ -48,11 +48,11 @@ U kunt revisoren, fiatteurs of een combinatie van beide toewijzen:
 Om deelnemers toe te wijzen:
 
 1. Selecteer het document dat u hebt geüpload en open de samenvatting van het document.
-   ![&#x200B; Open documentsamenvatting &#x200B;](assets/open-doc-summary.png)
+   ![ Open documentsamenvatting ](assets/open-doc-summary.png)
 
 1. De rol neer aan de sectie van Goedkeuringen, dan klikt **toevoegt**.
 
-1. (Optioneel) Kies een bestaande goedkeuringssjabloon. Gebruikers met een standaardlicentie kunnen acceptatiesjablonen maken die u kunt gebruiken vanuit het gedeelte Instellen. Voor meer informatie, zie [&#x200B; een Malplaatje van de Goedkeuring voor activa en documenten &#x200B;](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md) creëren.
+1. (Optioneel) Kies een bestaande goedkeuringssjabloon. Gebruikers met een standaardlicentie kunnen acceptatiesjablonen maken die u kunt gebruiken vanuit het gedeelte Instellen. Voor meer informatie, zie [ een Malplaatje van de Goedkeuring voor activa en documenten ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md) creëren.
 
 1. (Optioneel) Stel een deadline in voor de goedkeuring. Gebruikers en teams worden 72 uur per e-mail op de hoogte gesteld en 24 uur vóór de opgegeven deadline.
 
@@ -60,7 +60,7 @@ Om deelnemers toe te wijzen:
 
 1. Als u een revisor wilt toevoegen, klikt u op de knop Revisor en typt u de naam van een gebruiker of team.
 
-   ![&#x200B; voegt fiatteurs &#x200B;](assets/add-approvers.png) toe
+   ![ voegt fiatteurs ](assets/add-approvers.png) toe
 
 1. Zodra u alle recensenten en fiatteurs hebt toegevoegd, klik **voorleggen Verzoek**. Deelnemers worden via e-mail op de hoogte gesteld.
 
@@ -75,11 +75,11 @@ Een nieuwe versie toevoegen:
 1. Zodra het document eindigt uploadend, selecteer het document, dan klik **creeer bewijs** > **Eenvoudige proef**.
 
 1. Selecteer het document opnieuw en open het document Summary.
-   ![&#x200B; Open documentsamenvatting &#x200B;](assets/open-doc-summary.png)
+   ![ Open documentsamenvatting ](assets/open-doc-summary.png)
 
 1. De rol neer aan de sectie van Goedkeuringen, dan klikt **toevoegt**.
 
-1. (Optioneel) Kies een bestaande goedkeuringssjabloon. Gebruikers met een standaardlicentie kunnen acceptatiesjablonen maken die u kunt gebruiken vanuit het gedeelte Instellen. Voor meer informatie, zie [&#x200B; een Malplaatje van de Goedkeuring voor activa en documenten &#x200B;](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md) creëren.
+1. (Optioneel) Kies een bestaande goedkeuringssjabloon. Gebruikers met een standaardlicentie kunnen acceptatiesjablonen maken die u kunt gebruiken vanuit het gedeelte Instellen. Voor meer informatie, zie [ een Malplaatje van de Goedkeuring voor activa en documenten ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md) creëren.
 
 1. (Optioneel) Stel een deadline in voor de goedkeuring. Gebruikers en teams worden 72 uur per e-mail op de hoogte gesteld en 24 uur vóór de opgegeven deadline.
 
@@ -87,7 +87,7 @@ Een nieuwe versie toevoegen:
 
 1. Als u een revisor wilt toevoegen, klikt u op de knop Revisor en typt u een gebruiker- of teamnaam. Kies vervolgens een revisor uit de vorige versie.
 
-   ![&#x200B; voegt fiatteurs &#x200B;](assets/add-approvers.png) toe
+   ![ voegt fiatteurs ](assets/add-approvers.png) toe
 
 1. Zodra u alle recensenten en fiatteurs hebt toegevoegd, klik **voorleggen Verzoek**. Deelnemers worden via e-mail op de hoogte gesteld.
 
@@ -104,13 +104,13 @@ Een document controleren en goedkeuren:
 
 1. Zodra u in Workfront bent, klik **gaan aan proef**.
 
-1. Bekijk de inhoud en voeg eventuele opmerkingen of markeringen toe. Voor meer informatie over hoe te om de het proeven kijker te gebruiken, zie [&#x200B; proefdrukken van het Overzicht binnen Adobe Workfront: artikelindex &#x200B;](/help/quicksilver/review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md).
+1. Bekijk de inhoud en voeg eventuele opmerkingen of markeringen toe. Voor meer informatie over hoe te om de het proeven kijker te gebruiken, zie [ proefdrukken van het Overzicht binnen Adobe Workfront: artikelindex ](/help/quicksilver/review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md).
 
 1. Kies een van de volgende beslissingen:
 
    * **keur** goed: Het document vereist geen veranderingen en is klaar voor gebruik.
    * **keur met veranderingen** goed: Het document vereist veranderingen en is klaar voor gebruik zodra zij worden gemaakt. Aanvullende goedkeuring is niet vereist.
-   * **het werk van behoeften**: Het document vereist veranderingen en is niet klaar voor gebruik. Nadat de opgegeven wijzigingen zijn aangebracht, moet het document worden geüpload als een nieuwe versie en door een andere goedkeuringsronde worden geleid. Voor meer informatie bij het uploaden van een nieuwe versie, zie [&#x200B; een nieuwe versie creëren zoals nodig &#x200B;](#create-a-new-version-as-needed) in dit artikel.
+   * **het werk van behoeften**: Het document vereist veranderingen en is niet klaar voor gebruik. Nadat de opgegeven wijzigingen zijn aangebracht, moet het document worden geüpload als een nieuwe versie en door een andere goedkeuringsronde worden geleid. Voor meer informatie bij het uploaden van een nieuwe versie, zie [ een nieuwe versie creëren zoals nodig ](#create-a-new-version-as-needed) in dit artikel.
 
 Nadat u een beslissing hebt genomen, wordt de eigenaar van het document via e-mail op de hoogte gesteld.
 

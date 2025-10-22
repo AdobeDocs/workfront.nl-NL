@@ -7,7 +7,7 @@ description: Ook gekend als Geëiste Waarde, is de Begrotte Kosten van het Gepre
 author: Lisa
 feature: Work Management
 exl-id: 203709a7-e522-4875-b3eb-40b967a938ec
-source-git-commit: 23a4d055871c9138818e70fa1cd936581dbd7552
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '571'
 ht-degree: 0%
@@ -28,7 +28,7 @@ Overweeg het volgende wanneer het herzien van de waarden voor BCWP op een taak o
 
   U kunt uw project vormen om PMI te berekenen gebruikend uren of kosten en BCWP wordt ook berekend gebruikend de zelfde waarden.
 
-  Voor informatie over het vormen hoe BCWP wordt berekend, zie de sectie [&#x200B; vormen hoe BCWP &#x200B;](#configure-how-bcwp-is-calculated) in dit artikel wordt berekend.
+  Voor informatie over het vormen hoe BCWP wordt berekend, zie de sectie [ vormen hoe BCWP ](#configure-how-bcwp-is-calculated) in dit artikel wordt berekend.
 
 * Workfront berekent BCWP voor een project door alle waarden BCWP van alle oudertaken en individuele taken op het project toe te voegen.
 
@@ -63,7 +63,7 @@ Overweeg het volgende wanneer het herzien van de waarden voor BCWP op een taak o
  </tbody> 
 </table>
 
-Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -74,7 +74,7 @@ U kunt vormen of BCWP in uren of kosten door te vormen wordt berekend hoe de Met
 1. Ga naar een project en breid **Details van het Project** in het linkerpaneel uit.
 1. Op het **gebied van de Financiën**, bepaal de plaats van het **gebied van de Methode van de Index van Prestaties** en klik tweemaal om het uit te geven.
 
-   ![&#x200B; PIM opties &#x200B;](assets/pim-options-hour-cost-based-nwe.png)
+   ![ PIM opties ](assets/pim-options-hour-cost-based-nwe.png)
 
 1. Selecteer een van de volgende opties:
 
@@ -85,7 +85,7 @@ U kunt vormen of BCWP in uren of kosten door te vormen wordt berekend hoe de Met
 
 1. Klik **sparen Veranderingen**.
 
-Het BCWP van de taken op het project wordt berekend aan de hand van uren of kosten.
+   Het BCWP van de taken op het project wordt berekend aan de hand van uren of kosten.
 
 ## BCWP berekenen
 
@@ -122,7 +122,7 @@ U kunt de waarde van de Begrotende Kosten van het Werk bekijken dat in een rappo
 1. Klik **toevoegen Kolom**.
 1. In **toon in deze kolom:** gebiedsbegin typend **BCWP** en klik om het te selecteren wanneer het in de lijst toont.
 
-   ![&#x200B; BCWP in projectweergave &#x200B;](assets/bcwp-project-view.png)
+   ![ BCWP in projectweergave ](assets/bcwp-project-view.png)
 
 1. Klik **sparen Mening**.
 1. Het BCWP- gebiedsvertoningen in de mening.

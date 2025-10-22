@@ -5,7 +5,7 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: d560a3b7-81a0-41b2-a40e-81c784a42bf6
-source-git-commit: e32f759218a3addf63dad7aa207ccdde8acb1975
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '597'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Op deze pagina vindt u een beschrijving van de verbeteringen die door de beheerder zijn aangebracht in de release Vierde kwartaal 2025 voor de voorvertoningsomgeving. Deze verbeteringen zullen beschikbaar worden gesteld in de productieomgeving, zoals vermeld.
 
-Voor een lijst van alle veranderingen beschikbaar op dit punt in het Vierde Kwartaal 2025 versiecyclus, zie [&#x200B; Vierde Kwartaal 2025 releaseoverzicht &#x200B;](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar op dit punt in het Vierde Kwartaal 2025 versiecyclus, zie [ Vierde Kwartaal 2025 releaseoverzicht ](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-release-overview.md).
 
 ## Bevestiging bij het verwijderen van een aangepast formulier uit een object
 
@@ -29,7 +29,7 @@ Om ervoor te zorgen dat u toegang behoudt tot de gegevens die u nodig hebt, hebb
 
 Eerder was de enige waarschuwing voor het verwijderen van gegevens tekst bij de verwijderoptie.
 
-Voor meer informatie bij het verwijderen van een douaneformulier, zie [&#x200B; een douaneformulier uit een voorwerp &#x200B;](/help/quicksilver/workfront-basics/work-with-custom-forms/manage-custom-forms-attached-to-objects.md#remove-a-custom-form-from-an-object) in artikel verwijderen leidt douaneformulieren in bijlage aan voorwerpen.
+Voor meer informatie bij het verwijderen van een douaneformulier, zie [ een douaneformulier uit een voorwerp ](/help/quicksilver/workfront-basics/work-with-custom-forms/manage-custom-forms-attached-to-objects.md#remove-a-custom-form-from-an-object) in artikel verwijderen leidt douaneformulieren in bijlage aan voorwerpen.
 
 ## Updates voor het Workfront-gebruikersprofiel
 
@@ -45,7 +45,7 @@ Er zijn enkele kleine functieverschillen ten opzichte van het huidige gebruikers
 * Sommige selectievakjes (zoals de gebruiker als actief markeren) zijn veranderd in schakelknoppen of knoppen.
 * De optie &quot;Werk verzenden dat ik toewijs aan mezelf naar mijn tabblad Werken op tabblad&quot; onder Voorkeuren is hernoemd naar &quot;De taakstatus automatisch instellen op Bezig wanneer taken zelf worden toegewezen&quot; om het doel ervan te weerspiegelen.
 
-Voor meer informatie, zie [&#x200B; het profiel van een gebruiker &#x200B;](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) uitgeven.
+Voor meer informatie, zie [ het profiel van een gebruiker ](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) uitgeven.
 
 ## Nieuwe Admin-weergave voor raden
 
@@ -57,7 +57,7 @@ Voor meer informatie, zie [&#x200B; het profiel van een gebruiker &#x200B;](/hel
 
 De mening van Admin van Boards bevat een lijst van elke Raad in uw rekening die de Beheerders van het Systeem kunnen gebruiken om een snelle momentopname van de algemene details van Boards te krijgen, met inbegrip van toen zij het laatst werden bijgewerkt, hoeveel kaarten elk heeft, en meer.
 
-Voor meer, zie [&#x200B; de Mening van Admin van Borden beheren &#x200B;](/help/quicksilver/agile/get-started-with-boards/manage-boards-admin-view.md).
+Voor meer, zie [ de Mening van Admin van Borden beheren ](/help/quicksilver/agile/get-started-with-boards/manage-boards-admin-view.md).
 
 ## AI Beta-functies inschakelen voor uw organisatie
 
@@ -71,9 +71,9 @@ Om het voor u gemakkelijker te maken om aanstaande AI eigenschappen te zien en t
 
 Eerder konden systeembeheerders Beta-functies niet inschakelen.
 
-Voor meer informatie bij het plaatsen van systeemvoorkeur, zie [&#x200B; systeemvoorkeur &#x200B;](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md) vormen.
+Voor meer informatie bij het plaatsen van systeemvoorkeur, zie [ systeemvoorkeur ](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md) vormen.
 
-Voor eerste vereisten aan het toelaten van AI eigenschappen, zie [&#x200B; Vereisten aan AI Medewerker &#x200B;](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant).
+Voor eerste vereisten aan het toelaten van AI eigenschappen, zie [ Vereisten aan AI Medewerker ](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant).
 
 
 
@@ -89,4 +89,4 @@ Een nieuw veldtype, Multi-select externe zoekopdracht, is nu beschikbaar in de a
 
 Wanneer het formulier aan een object wordt toegevoegd, worden de waarden die door de API worden geretourneerd, weergegeven in een vervolgkeuzelijst en kan de gebruiker meerdere waarden selecteren.
 
-Voor meer informatie, zie [&#x200B; een douaneformulier &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren.
+Voor meer informatie, zie [ een douaneformulier ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren.

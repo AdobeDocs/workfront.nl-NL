@@ -2,7 +2,7 @@
 title: Weergavelogica toevoegen en logica overslaan naar een aangepast formulier
 description: Weergavelogica toevoegen en logica overslaan naar een aangepast formulier
 draft: Probably
-source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '1475'
 ht-degree: 0%
@@ -68,7 +68,7 @@ U moet het volgende hebben om de stappen in dit artikel uit te voeren:
 
 De beste manier om te leren hoe te om vertoning toe te voegen en logica aan een douaneformulier over te slaan is door het praktische voorbeeld dat in de twee volgende secties wordt verklaard:
 
-* [&#x200B; logica van de Vertoning - praktisch voorbeeld &#x200B;](#display-logic-practical-example)
+* [ logica van de Vertoning - praktisch voorbeeld ](#display-logic-practical-example)
 * [Logica overslaan - praktisch voorbeeld](#skip-logic-practical-example)
 
 ### Logica weergeven - praktisch voorbeeld {#display-logic-practical-example}
@@ -81,7 +81,7 @@ In dit voorbeeld maakt u een aangepast formulier met een meerkeuzerondje-veld. V
 
 1. Klik **Nieuwe Vorm van de Douane**, uitgezochte **Project** in de doos die toont, dan uitgezocht **gaat** verder.
 
-1. In het **tekstvakje van de Titel van de Vorm 0&rbrace;, type** de douanevorm van de Steekproef - het leren vertoningslogica en overslaat logica **om de vorm te noemen.**
+1. In het **tekstvakje van de Titel van de Vorm 0}, type** de douanevorm van de Steekproef - het leren vertoningslogica en overslaat logica **om de vorm te noemen.**
 
    ![](assets/form-title-box-350x247.png)
 
@@ -121,19 +121,19 @@ In dit voorbeeld maakt u een aangepast formulier met een meerkeuzerondje-veld. V
 
 1. Selecteer **Voorproef** om ervoor te zorgen de logica de manier werkt u het aan op de vorm wilt, dan selecteren **Voorproef van het Eind**.
 
-1. Klik **sparen + Sluiten** sparen de vorm, dan verdergaat op [&#x200B; logica Overslaan - praktisch voorbeeld &#x200B;](#skip-logic-practical-example) hieronder.
+1. Klik **sparen + Sluiten** sparen de vorm, dan verdergaat op [ logica Overslaan - praktisch voorbeeld ](#skip-logic-practical-example) hieronder.
 
 ### Logica overslaan - praktisch voorbeeld {#skip-logic-practical-example}
 
 Logische functies voor overslaan werken ongeveer op dezelfde manier als voor de weergave van logica, maar fungeren als het omgekeerde: in plaats van specifieke aangepaste multikeuze-velden weer te geven op basis van eerdere gebruikersselecties, bepaalt u welke velden moeten worden verborgen (overgeslagen) omdat ze niet relevant zijn voor de gebruiker.
 
-Om over dit te leren, blijf werkend aan de vorm van de steekproefdouane u in de sectie [&#x200B; logica van de Vertoning - praktisch voorbeeld &#x200B;](#display-logic-practical-example) in dit artikel creeerde.
+Om over dit te leren, blijf werkend aan de vorm van de steekproefdouane u in de sectie [ logica van de Vertoning - praktisch voorbeeld ](#display-logic-practical-example) in dit artikel creeerde.
 
 1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, dan klik **Opstelling** ![](assets/gear-icon-settings.png).
 
 1. Klik **Aangepaste Forms**.
 1. Klik de naam van de vorm **aangepaste vorm van de Steekproef - het leren vertoningslogica en overslaan logica** die u in de stappen hierboven creeerde, om het voor het uitgeven te openen.
-1. Selecteer het drop-down gebied u genoemde *noemde  Welk type van website hebt u nodig?*, voeg de volgende keuzen voor het gebied toe, dan klik **&#x200B;**&#x200B;van toepassing zijn:
+1. Selecteer het drop-down gebied u genoemde *noemde  Welk type van website hebt u nodig?*, voeg de volgende keuzen voor het gebied toe, dan klik **** van toepassing zijn:
 
    *e-commerce*
 
@@ -141,7 +141,7 @@ Om over dit te leren, blijf werkend aan de vorm van de steekproefdouane u in de 
 
    *Lidmaatschap*
 
-1. Open **voeg een gebied** tabel toe, creeer een **Tekstgebied met het Formatteren &#x200B;** gebied geroepen *wat het doel voor de website is?*, dan klik **toepassen**.
+1. Open **voeg een gebied** tabel toe, creeer het Gebied van de a **Tekst met het Formatteren** geroepen gebied *wat het doel voor de website is?*, dan klik **toepassen**.
 
    In deze organisatie, wordt een de documentatieplaats van de Hulp gecreeerd door het Technisch schrijvende team, niet de afdeling van de Marketing. Er is dus geen verdere informatie nodig van een gebruiker die Help-documentatie selecteert in het tweede veld. Er wordt een tekstregel gemaakt (een beschrijvend tekstveld) waarmee ze het team voor technisch schrijven kunnen bekijken. En wij zullen een overslaan logische regel gebruiken die die gebruiker aan die lijn van tekst overslaat.
 

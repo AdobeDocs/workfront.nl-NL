@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 94603393-bdea-4673-9256-08da14f6916e
-source-git-commit: 17aaf70977aa6ce0276676c6a30fd6c951be956c
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '881'
 ht-degree: 0%
@@ -31,29 +31,27 @@ Als Workfront-beheerder kunt u Workfront op de volgende plaatsen voorzien van lo
 
 * Aanmeldingsscherm
 
-  ![&#x200B; Merk in login scherm &#x200B;](assets/brand-login-screen-nwe-adobe.jpg)
+  ![ Merk in login scherm ](assets/brand-login-screen-nwe-adobe.jpg)
 
 * Bovenste navigatiegebied
 
-  ![&#x200B; Merk in hoogste navigatie &#x200B;](assets/brand-top-nav-area-nwe-adobe.jpg)
+  ![ Merk in hoogste navigatie ](assets/brand-top-nav-area-nwe-adobe.jpg)
 
 * Hoofdmenu
 
-  ![&#x200B; Merk in hoofdmenu &#x200B;](assets/brand-main-menu-adobe.jpg)
+  ![ Merk in hoofdmenu ](assets/brand-main-menu-adobe.jpg)
 
 U kunt ook de achtergrondafbeelding en -kleur van het aanmeldingsscherm wijzigen:
 
-![&#x200B; Banner op login scherm &#x200B;](assets/wf_banner_on_login_screen-adobe.png)
+![ Banner op login scherm ](assets/wf_banner_on_login_screen-adobe.png)
 
 >[!NOTE]
 >
 >* Het wijzigen van de achtergrondafbeelding en -kleur van de aanmelding is niet beschikbaar als de Workfront-instantie van uw organisatie een aangepast SSO-portaal gebruikt. Zie uw netwerk of beheerder van IT als u meer informatie nodig hebt.
-><!--
->or is enabled with Adobe IMS  >
->  >
->-->
 >
->* Een Workfront-beheerder of groepsbeheerder kan Workfront ook markeren voor bepaalde groepen en gebruikers met behulp van een lay-outsjabloon. Branding in een lay-outmalplaatje treedt de systeem-vlakke branding met voeten die in dit artikel wordt verklaard. Voor instructies op branding in een lay-outmalplaatje, zie [&#x200B; merk Adobe Workfront gebruikend een lay-outmalplaatje &#x200B;](../../../administration-and-setup/customize-workfront/use-layout-templates/brand-wf-using-a-layout-template.md).
+><!-- or is enabled with Adobe IMS -->
+>
+>* Een Workfront-beheerder of groepsbeheerder kan Workfront ook markeren voor bepaalde groepen en gebruikers met behulp van een lay-outsjabloon. Branding in een lay-outmalplaatje treedt de systeem-vlakke branding met voeten die in dit artikel wordt verklaard. Voor instructies op branding in een lay-outmalplaatje, zie [ merk Adobe Workfront gebruikend een lay-outmalplaatje ](../../../administration-and-setup/customize-workfront/use-layout-templates/brand-wf-using-a-layout-template.md).
 
 ## Toegangsvereisten
 
@@ -79,7 +77,7 @@ U kunt ook de achtergrondafbeelding en -kleur van het aanmeldingsscherm wijzigen
  </tbody> 
 </table>
 
-Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -115,7 +113,7 @@ Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van W
       <td role="rowheader">Merk het login scherm achtergrondbeeld <span style="font-weight: normal;"> (vertoningen achter de doos waar de gebruikers hun login geloofsbrieven typen) </span></td> 
       <td> 
        <ol style="list-style-type: lower-alpha;"> 
-        <li value="1"> <p> In het <strong> gebied van het het Login Scherm van de 1&rbrace; Login, onder </strong> Achtergrondbeeld <strong>, klik de doos, dan vind en selecteer uw beeld of beelden van JPG of van PNG (tot 20).</strong> </p> <p>Meerdere achtergrondafbeeldingen worden in willekeurige volgorde weergegeven, waarbij gebruikers hun aanmeldingspagina telkens vernieuwen. We raden afbeeldingen aan die niet groter zijn dan 2 MB.</p> </li> 
+        <li value="1"> <p> In het <strong> gebied van het het Login Scherm van de 1} Login, onder </strong> Achtergrondbeeld <strong>, klik de doos, dan vind en selecteer uw beeld of beelden van JPG of van PNG (tot 20).</strong> </p> <p>Meerdere achtergrondafbeeldingen worden in willekeurige volgorde weergegeven, waarbij gebruikers hun aanmeldingspagina telkens vernieuwen. We raden afbeeldingen aan die niet groter zijn dan 2 MB.</p> </li> 
         <li value="2"> <p>Houd de muisaanwijzer boven elke achtergrondafbeelding die u hebt geüpload, klik op het pictogram Instellingen (versnelling) en gebruik een van de volgende opties om op te geven waar en hoe u de afbeelding wilt weergeven op de achtergrond van het aanmeldingsscherm:</p> 
          <ul> 
           <li> <p><strong> het Scherm van de Vulling </strong>: Past het beeld aan de login het schermachtergrond aan, die het beeld kan vergroten. Gebruik een afbeelding met hoge resolutie (maximaal 2 MB) voor de beste resultaten.</p> <p>Als u deze optie gebruikt, bedekt de Workfront-banner, die niet aanpasbaar is, een deel van de afbeelding.</p> </li> 
@@ -134,10 +132,8 @@ Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van W
    >[!NOTE]
    >
    >Dit is niet beschikbaar als het Workfront-exemplaar van uw organisatie een aangepast SSO-portaal gebruikt.
-   ><!--   >
-   >or is enabled with Adobe IMS   >
-   >   >
-   >-->
+   >
+   ><!--  or is enabled with Adobe IMS -->
    >
    >Zie uw netwerk of beheerder van IT als u meer informatie nodig hebt.
 

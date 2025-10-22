@@ -8,7 +8,7 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 2a4488fb-fe2f-422a-887c-996f6367afc5
-source-git-commit: 0542587bb3254dec5664de493c1c321528cf7f3e
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '1461'
 ht-degree: 0%
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 Tijdens het werken aan een project, zou u kunnen ontdekken dat de onverwachte gebeurtenissen zich voordoen. U kunt die onverwachte gebeurtenissen als kwesties voor een bepaald project of van een taak registreren. Gebruikers met de juiste toegang kunnen de status van problemen bekijken en controleren terwijl het project of de taak wordt voltooid, zodat er geen lange e-mailketens of statusvergaderingen nodig zijn. In tegenstelling tot taken, die geplande gebeurtenissen zijn, vormen kwesties ongeplande het werkpunten in Adobe Workfront.
 
-U kunt kwesties aan projecten als verzoeken ook toevoegen. Voor informatie, zie [&#x200B; Adobe Workfront verzoeken &#x200B;](../../../manage-work/requests/create-requests/create-submit-requests.md) creëren en voorleggen.
+U kunt kwesties aan projecten als verzoeken ook toevoegen. Voor informatie, zie [ Adobe Workfront verzoeken ](../../../manage-work/requests/create-requests/create-submit-requests.md) creëren en voorleggen.
 
 >[!TIP]
 >
@@ -68,7 +68,7 @@ U kunt kwesties aan projecten als verzoeken ook toevoegen. Voor informatie, zie 
  </tbody> 
 </table>
 
-*For informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*For informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -111,7 +111,7 @@ U kunt kwesties aan projecten als verzoeken ook toevoegen. Voor informatie, zie 
 
 Wanneer u de correcte toegang en de toestemmingen hebt kunt u kwesties op een project of een taak tot stand brengen. Het volgende is echter het geval wanneer u mogelijk geen problemen kunt maken:
 
-* Uw Workfront-beheerder of groepsbeheerder moet het toevoegen van problemen aan een project in de status Voltooid of Dode inschakelen in het gedeelte Projectvoorkeuren. Voor informatie over het plaatsen van projectvoorkeur, zie [&#x200B; systeem-brede projectvoorkeur &#x200B;](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) vormen.
+* Uw Workfront-beheerder of groepsbeheerder moet het toevoegen van problemen aan een project in de status Voltooid of Dode inschakelen in het gedeelte Projectvoorkeuren. Voor informatie over het plaatsen van projectvoorkeur, zie [ systeem-brede projectvoorkeur ](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) vormen.
 * U kunt geen kwesties aan een project toevoegen dat in Hangende Goedkeuring is.
 
 ## Het formulier Nieuwe uitgave voorbereiden
@@ -133,9 +133,9 @@ U kunt het formulier New Issue zo configureren dat deze de volgende informatie b
 
 De gebieden voor nieuwe kwesties of verzoeken worden bepaald in de sectie van de Details van de Rij van het project waar de kwesties zullen worden geregistreerd.
 
-Voor informatie over het vormen van de sectie van de Details van de Rij van het project, zie [&#x200B; een Rij van het Verzoek &#x200B;](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md) creëren.
+Voor informatie over het vormen van de sectie van de Details van de Rij van het project, zie [ een Rij van het Verzoek ](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md) creëren.
 
-Voor informatie over het creëren van kwesties door hen aan een verzoekrij voor te leggen, zie [&#x200B; kwesties creëren door een nieuwe verzoek &#x200B;](#create-issues-by-entering-a-new-request) sectie in dit artikel in te gaan.
+Voor informatie over het creëren van kwesties door hen aan een verzoekrij voor te leggen, zie [ kwesties creëren door een nieuwe verzoek ](#create-issues-by-entering-a-new-request) sectie in dit artikel in te gaan.
 
 ## Problemen op een taak of project maken met de knop Nieuw probleem
 
@@ -152,10 +152,10 @@ Om een kwestie op een taak of een project tot stand te brengen:
 1. Klik **Nieuwe Uitgave** bij de bovenkant van de lijst van de kwestie.
 Het vak Nieuwe uitgave wordt weergegeven.
 
-   ![&#x200B; Nieuwe uitgavvakje &#x200B;](assets/new-issue-box-matches-new-request-ui.png)
+   ![ Nieuwe uitgavvakje ](assets/new-issue-box-matches-new-request-ui.png)
 
 1. (Voorwaardelijk) als de projectmaker de Onderwerpen van de Rij of de Groepen van het Onderwerp op het project creeerde worden zij toegevoegd aan de nieuwe uitgifteformulier. Specificeer de **Groep van het Onderwerp** of **Onderwerp van de Rij** van uw nieuwe kwestie. De Groepen van het onderwerp en de Onderwerpen van de Rij hebben namen die aan uw milieu worden aangepast.\
-   Voor meer informatie over het creëren van de Groepen van het Onderwerp, zie [&#x200B; tot de Groepen van het Onderwerp &#x200B;](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md) leiden. Voor meer informatie over het creëren van de Onderwerpen van de Rij, zie [&#x200B; de Onderwerpen van de Rij &#x200B;](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md) creëren.
+   Voor meer informatie over het creëren van de Groepen van het Onderwerp, zie [ tot de Groepen van het Onderwerp ](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md) leiden. Voor meer informatie over het creëren van de Onderwerpen van de Rij, zie [ de Onderwerpen van de Rij ](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md) creëren.
 
    * Als er slechts één die Onderwerp van de Rij op het project wordt geplaatst is, wordt het automatisch getoond.
    * Als de Groep van het Onderwerp geen Onderwerpen van de Rij of de Groepen van het Onderwerp onder het heeft, is niets beschikbaar in de drop-down Groep van het Onderwerp.
@@ -173,32 +173,33 @@ Het vak Nieuwe uitgave wordt weergegeven.
    >[!TIP]
    >
    >De types van Verzoek moeten in de Details van de Rij worden toegelaten en evenals wanneer het creëren van het Onderwerp van de Rij om als selectie in de Nieuwe vorm van de Uitgave te tonen. Raadpleeg de volgende artikelen voor meer informatie:
-   >* [&#x200B; creeer een Rij van het Verzoek &#x200B;](../../requests/create-and-manage-request-queues/create-request-queue.md)
-   >  * [&#x200B; creeer de Onderwerpen van de Rij &#x200B;](../../requests/create-and-manage-request-queues/create-queue-topics.md)
+   >
+   >* [ creeer een Rij van het Verzoek ](../../requests/create-and-manage-request-queues/create-request-queue.md)
+   >* [ creeer de Onderwerpen van de Rij ](../../requests/create-and-manage-request-queues/create-queue-topics.md)
 
-1. Ga verder specificerend de gebieden beschikbaar in de **Nieuwe kwestie** vorm. Voor meer informatie over de beschikbare gebieden aangezien u een nieuwe kwestie ingaat, zie [&#x200B; kwesties &#x200B;](../../../manage-work/issues/manage-issues/edit-issues.md) uitgeven.
+1. Ga verder specificerend de gebieden beschikbaar in de **Nieuwe kwestie** vorm. Voor meer informatie over de beschikbare gebieden aangezien u een nieuwe kwestie ingaat, zie [ kwesties ](../../../manage-work/issues/manage-issues/edit-issues.md) uitgeven.
 
    >[!IMPORTANT]
    >
-   >Niet alle velden met betrekking tot uitgaven zijn beschikbaar in het formulier Nieuwe uitgave. De projectschepper laat de gebieden beschikbaar toe wanneer het creëren van een kwestie wanneer zij het gebied van de Details van de Rij van het project bepalen. Voor meer informatie, zie [&#x200B; een Rij van Verzoeken &#x200B;](../../requests/create-and-manage-request-queues/create-request-queue.md) creëren.
+   >Niet alle velden met betrekking tot uitgaven zijn beschikbaar in het formulier Nieuwe uitgave. De projectschepper laat de gebieden beschikbaar toe wanneer het creëren van een kwestie wanneer zij het gebied van de Details van de Rij van het project bepalen. Voor meer informatie, zie [ een Rij van Verzoeken ](../../requests/create-and-manage-request-queues/create-request-queue.md) creëren.
 
 
 1. (Voorwaardelijk) als de Onderwerpen van de Rij met een douaneformulier worden geassocieerd, zal dat douaneformulier in de **Nieuwe kwestie** vorm tonen.\
    of\
    Als het project met een vorm van de uitgaven douanevorm door het gebied van de Details van de Rij wordt geassocieerd, toont de vormvertoningen in de **Nieuwe kwestie** vorm, na de standaardgebieden van Workfront.
 
-   Voor informatie, zie [&#x200B; een Rij van het Verzoek &#x200B;](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md) creëren.
+   Voor informatie, zie [ een Rij van het Verzoek ](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md) creëren.
 
 1. Klik **voorleggen**.
 
-   De kwesties kunnen aan veelvoudige gebruikers, baanrollen of aan een team worden toegewezen. Voor meer informatie over het toewijzen van en het beheren van verzoeken, zie [&#x200B; werk en teamverzoeken &#x200B;](../../../people-teams-and-groups/work-with-team-requests/manage-work-and-team-requests.md) leiden.
+   De kwesties kunnen aan veelvoudige gebruikers, baanrollen of aan een team worden toegewezen. Voor meer informatie over het toewijzen van en het beheren van verzoeken, zie [ werk en teamverzoeken ](../../../people-teams-and-groups/work-with-team-requests/manage-work-and-team-requests.md) leiden.
 
 
 ## Problemen op een taak of project inline maken
 
 >[!IMPORTANT]
 >
->De projecteigenaar moet **toestaan gebruikers om kwesties toe te voegen gealigneerd** wanneer het bepalen van uitgeven montages voor het project alvorens u kwesties aan het project of de taken kunt inline toevoegen. Voor informatie over het vormen van uitgeven montages op een project, zie [&#x200B; projecten &#x200B;](../../../manage-work/projects/manage-projects/edit-projects.md) uitgeven.
+>De projecteigenaar moet **toestaan gebruikers om kwesties toe te voegen gealigneerd** wanneer het bepalen van uitgeven montages voor het project alvorens u kwesties aan het project of de taken kunt inline toevoegen. Voor informatie over het vormen van uitgeven montages op een project, zie [ projecten ](../../../manage-work/projects/manage-projects/edit-projects.md) uitgeven.
 >
 
 Wanneer u snel meerdere problemen wilt toevoegen, kunt u inline problemen voor een taak of project maken door deze toe te voegen aan een lijst met problemen.
@@ -218,9 +219,9 @@ Inline uitgaven maken:
 
    >[!TIP]
    >
-   >Deze optie is grijs als de optie Gebruikers toestaan inline uitgaven toe te voegen in het vak Project bewerken is uitgeschakeld. Voor informatie, zie [&#x200B; projecten &#x200B;](../../../manage-work/projects/manage-projects/edit-projects.md) uitgeven.
+   >Deze optie is grijs als de optie Gebruikers toestaan inline uitgaven toe te voegen in het vak Project bewerken is uitgeschakeld. Voor informatie, zie [ projecten ](../../../manage-work/projects/manage-projects/edit-projects.md) uitgeven.
 
-   ![&#x200B; voeg meer kwesties toe knoop &#x200B;](assets/add-more-issues-button-highlighted-issue-list-nwe-350x272.png)
+   ![ voeg meer kwesties toe knoop ](assets/add-more-issues-button-highlighted-issue-list-nwe-350x272.png)
 
 1. Typ de naam van de uitgave in het veld Naam en voeg vervolgens meer informatie over de uitgave inline toe.
 
@@ -242,4 +243,4 @@ U kunt projecten aanwijzen die u wilt ontvangen voor het ontvangen van problemen
 >
 >De termen &quot;issue&quot; en &quot;request&quot; zijn onderling verwisselbaar in Workfront.
 
-Voor meer informatie over hoe te opstellingsprojecten als de Rijen van het Verzoek om kwesties te ontvangen, zie [&#x200B; een Rij van het Verzoek &#x200B;](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md) creëren. Voor informatie over het voorleggen van verzoeken, zie [&#x200B; Adobe Workfront verzoeken &#x200B;](../../../manage-work/requests/create-requests/create-submit-requests.md) creëren en voorleggen.
+Voor meer informatie over hoe te opstellingsprojecten als de Rijen van het Verzoek om kwesties te ontvangen, zie [ een Rij van het Verzoek ](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md) creëren. Voor informatie over het voorleggen van verzoeken, zie [ Adobe Workfront verzoeken ](../../../manage-work/requests/create-requests/create-submit-requests.md) creëren en voorleggen.

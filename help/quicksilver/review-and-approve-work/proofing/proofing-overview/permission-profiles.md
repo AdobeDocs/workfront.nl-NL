@@ -8,7 +8,7 @@ description: Proefmachtigingsprofielen bepalen welke machtigingen gebruikers heb
 author: Courtney
 feature: Digital Content and Documents
 exl-id: fb6faa48-d97b-4b7b-83ae-fe39d40b3963
-source-git-commit: c79d030ff2d05487e5f7e3457bf98df591822a80
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '498'
 ht-degree: 0%
@@ -21,11 +21,11 @@ ht-degree: 0%
 
 Proefmachtigingsprofielen bepalen welke machtigingen gebruikers hebben over alle proefdrukken in uw account. Profielen met proefmachtigingen worden toegewezen aan gebruikers in hun gebruikersprofiel.
 
-Proefmachtigingsprofielen verschillen van proefdrukrollen. Voor meer informatie over proefdrukrollen, zie [&#x200B; overzicht van de Rollen van het Bewijs &#x200B;](../../../review-and-approve-work/proofing/proofing-overview/proof-roles.md).
+Proefmachtigingsprofielen verschillen van proefdrukrollen. Voor meer informatie over proefdrukrollen, zie [ overzicht van de Rollen van het Bewijs ](../../../review-and-approve-work/proofing/proofing-overview/proof-roles.md).
 
 >[!NOTE]
 >
->Beheerders kunnen aangepaste profielen maken voor gebruikers in uw organisatie. Voor meer informatie, zie [&#x200B; douaneprofielen in Workfront Proof &#x200B;](../../../workfront-proof/wp-acct-admin/account-settings/configure-custom-profiles.md) vormen.
+>Beheerders kunnen aangepaste profielen maken voor gebruikers in uw organisatie. Voor meer informatie, zie [ douaneprofielen in Workfront Proof ](../../../workfront-proof/wp-acct-admin/account-settings/configure-custom-profiles.md) vormen.
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Consider the following about roles and permissions:</p>
@@ -139,7 +139,7 @@ In de volgende tabel worden de machtigingen weergegeven die beschikbaar zijn bij
 
 ### Beheerder
 
-De beheerders hebben toegang tot [&#x200B; montages van de Rekening &#x200B;](https://support.workfront.com/hc/en-us/sections/115000912147-Account-Settings) en hebben de volgende toestemmingen:
+De beheerders hebben toegang tot [ montages van de Rekening ](https://support.workfront.com/hc/en-us/sections/115000912147-Account-Settings) en hebben de volgende toestemmingen:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -304,15 +304,17 @@ Managers hebben de volgende machtigingen:
 -->
 
 
-><!--
-><p data-mc-conditions="QuicksilverOrClassic.Draft mode">Menus and functions available to Observers are limited. </p>>
->-->
->  <!--
->  <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Observers do not see the Header menu or the green New menu in their Dashboard</li>>
->  -->
->  <!--
->  <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Observers do not see the following links in their Settings: Account settings, Billing </li>>
->  -->
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">Menus and functions available to Observers are limited. </p>>
+-->
+
+<!--
+<li data-mc-conditions="QuicksilverOrClassic.Draft mode">Observers do not see the Header menu or the green New menu in their Dashboard</li>>
+-->
+
+<!--
+<li data-mc-conditions="QuicksilverOrClassic.Draft mode">Observers do not see the following links in their Settings: Account settings, Billing </li>>
+-->
 
 <!--
 <h3 data-mc-conditions="QuicksilverOrClassic.Draft mode">Guest</h3>

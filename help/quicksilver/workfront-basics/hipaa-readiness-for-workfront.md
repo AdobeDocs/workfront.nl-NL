@@ -6,7 +6,7 @@ description: Een Workfront-klant die, zoals gedefinieerd in HIPAA, een Business 
 feature: Get Started with Workfront
 author: Courtney
 exl-id: e3cdaa03-d523-46a4-954b-8456d5f190e4
-source-git-commit: 15a703e2292883427e371603f77a99765ed9d00a
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '474'
 ht-degree: 0%
@@ -23,7 +23,7 @@ Een Workfront-klant die, zoals gedefinieerd in HIPAA, een Business Associate en/
 | **het Plaatsen van de Veiligheid** | **wat is het?** | **Vereiste** |
 |----------------------|------------------|------------------|
 | Minimale wachtwoordsterkte voor overeenkomsten | Wat is de minimumsterkte voor overeenkomstwachtwoorden? | Niet minder dan 8 tekens |
-| Minimale wachtwoordsterkte voor gebruikerswachtwoorden | Wat is de minimumsterkte voor de wachtwoorden van gebruikers? | Teken van drie van de volgende categorieën:<br> * Hoofdletters (Latijn alfabet) <br> * Kleine letters (Latijn alfabet) <br> * Basis 10 cijfers <br> * Niet alfanumerieke karakters |
+| Minimale wachtwoordsterkte voor gebruikerswachtwoorden | Wat is de minimumsterkte voor de wachtwoorden van gebruikers? | Teken van drie van de volgende categorieën:<br> Hoofdletters (Latijn alfabet) <br> Kleine letters (Latijn alfabet) <br> Basis 10 cijfers <br> Niet alfanumerieke karakters |
 | Wachtwoordduur | Hoe lang zouden de wachtwoorden moeten worden toegestaan om onveranderd te blijven? | Wachtwoorden moeten ten minste om de 90 dagen worden gewijzigd |
 | Wachtwoordgeschiedenis | Hoeveel wachtwoorden uit het verleden moeten worden onthouden en niet toegestaan? | Minimaal 5 |
 

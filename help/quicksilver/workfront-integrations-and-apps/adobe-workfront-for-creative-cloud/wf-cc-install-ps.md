@@ -6,7 +6,7 @@ description: U kunt de Adobe Workfront for Photoshop-insteekmodule installeren v
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: f5e9f121-a711-4b75-8564-54f29c5cfa48
-source-git-commit: a65a4568c6428768ee6bc60a59a8499efdbec9f8
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '467'
 ht-degree: 1%
@@ -36,16 +36,6 @@ U kunt de [!DNL Adobe Workfront for Photoshop] -plug-in installeren vanuit [!DNL
  <col> 
  <col> 
  <tbody> 
-  <!--<tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] package</td> 
-   <td>Any</td> 
-  </tr> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader">[!DNL Adobe Workfront] license</td> 
-   <td> 
-   <p>Standard</p>
-   <p>Work or higher</p> </td> 
-  </tr> -->
   <tr> 
    <td role="rowheader">Aanvullende producten</td> 
    <td><p>U moet een [!DNL Adobe Creative Cloud] licentie hebben naast een [!DNL Workfront] licentie.</p></td> 
@@ -53,7 +43,7 @@ U kunt de [!DNL Adobe Workfront for Photoshop] -plug-in installeren vanuit [!DNL
  </tbody> 
 </table>
 
-Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -63,17 +53,17 @@ Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van W
 
 ## Installeer de [!DNL Adobe Workfront for Photoshop] -plug-in voor uw organisatie
 
-Als u een [!DNL Adobe Admin Console] -beheerder bent, kunt u de plug-in opnemen in [!DNL Creative Cloud] -implementatiepakketten. Voor meer informatie, zie [&#x200B; Including steekmodules in uw pakket &#x200B;](https://helpx.adobe.com/in/enterprise/using/manage-extensions.html).
+Als u een [!DNL Adobe Admin Console] -beheerder bent, kunt u de plug-in opnemen in [!DNL Creative Cloud] -implementatiepakketten. Voor meer informatie, zie [ Including steekmodules in uw pakket ](https://helpx.adobe.com/in/enterprise/using/manage-extensions.html).
 
-[&#x200B; Mening hier een videoleerprogramma &#x200B;](https://www.youtube.com/watch?v=zzvXNLIBzrc){target=_blank}.
+[ Mening hier een videoleerprogramma ](https://www.youtube.com/watch?v=zzvXNLIBzrc){target=_blank}.
 
-[!DNL Adobe Admin Console] -beheerders kunnen ook pakketten met alleen plug-ins maken voor distributie naar gebruikers. Voor meer informatie, zie [&#x200B; [!UICONTROL [!DNL Adobe Workfront] creëren voor  [!DNL Creative Cloud]]  pakketten voor uw gebruikers in  [!DNL Adobe Admin Console]](/help/quicksilver/administration-and-setup/configure-integrations/create-plugin-only-packages.md)
+[!DNL Adobe Admin Console] -beheerders kunnen ook pakketten met alleen plug-ins maken voor distributie naar gebruikers. Voor meer informatie, zie [ [!UICONTROL [!DNL Adobe Workfront] creëren voor  [!DNL Creative Cloud]]  pakketten voor uw gebruikers in  [!DNL Adobe Admin Console]](/help/quicksilver/administration-and-setup/configure-integrations/create-plugin-only-packages.md)
 
 ## De [!DNL Adobe Workfront for Photoshop] -plug-in afzonderlijk installeren
 
 U kunt de [!DNL Adobe Workfront for Photoshop] -insteekmodule voor uzelf installeren vanuit de [!DNL Adobe Exchange] .
 
-1. Ga naar [&#x200B; Adobe Workfront voor Photoshop installeert pagina &#x200B;](https://adobe.com/go/cc_plugins_discover_plugin?pluginId=37722a55&workflow=share) op Adobe Exchange.
+1. Ga naar [ Adobe Workfront voor Photoshop installeert pagina ](https://adobe.com/go/cc_plugins_discover_plugin?pluginId=37722a55&workflow=share) op Adobe Exchange.
 1. In de dialoog die verschijnt, klik **Open [!DNL Adobe Creative Cloud] Desktop app**.
 1. Klik op [!DNL Adobe Photoshop] als **[!UICONTROL Install]** Plug-inbeheer wordt geopend.
 1. Lees de informatie in het dialoogvenster en klik op **[!UICONTROL OK]** .
@@ -88,7 +78,7 @@ U kunt de [!DNL Adobe Workfront for Photoshop] -insteekmodule voor uzelf install
 
 1. Klik in het bovenste menu op **[!UICONTROL Plugins]** > **[!UICONTROL Plugins Panel]** .
 
-   ![&#x200B; het paneel van Insteekmodules &#x200B;](assets/plugins-panel-ps.png)
+   ![ het paneel van Insteekmodules ](assets/plugins-panel-ps.png)
 
 1. Kies in **[!UICONTROL Plugins Panel]** de tab **[!UICONTROL Plugins]** en zoek **[!UICONTROL Workfront for Adobe Photoshop]** .
 
@@ -107,9 +97,9 @@ U kunt de [!DNL Adobe Workfront for Photoshop] -insteekmodule voor uzelf install
    >[!TIP]
    >
    >* Als u uw domein wilt zoeken, opent u een browser, navigeert u naar de instantie [!DNL Workfront] en kopieert u het eerste deel van de URL:\
-   >![&#x200B; plaats van domein &#x200B;](assets/domain-350x50.png)
+   >![ plaats van domein ](assets/domain-350x50.png)
    >
-   > * Als uw Workfront-exemplaar is geïntegreerd met Experience Cloud, vraagt u uw beheerder om het Workfront-domein dat u kunt vinden onder Product > Workfront in de Admin Console.
+   >* Als uw Workfront-exemplaar is geïntegreerd met Experience Cloud, vraagt u uw beheerder om het Workfront-domein dat u kunt vinden onder Product > Workfront in de Admin Console.
 
 1. Voer in de browser uw [!DNL Workfront] -gegevens in en klik op **[!UICONTROL Log in]** . Als uw bedrijf één enkel teken-op (SSO) gebruikt, zult u aan de pagina van uw leverancier worden geleid SSO om zich aan te melden.
 
