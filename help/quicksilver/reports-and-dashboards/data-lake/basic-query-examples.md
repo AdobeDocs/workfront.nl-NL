@@ -182,10 +182,10 @@ Het onderzoeken van de vraag van binnenuit: 
 >[!NOTE]
 >
 >Het is raadzaam deze query als een eigen &quot;Weergave&quot; in PowerBI of Tableau te gebruiken.  Als u andere velden vanuit de `<object>_event view` wilt inbrengen, voegt u de uitvoer van deze query terug naar de `<object>_event view` .  De samenvoegvelden zijn als volgt: <br>
->>Voor project_event: 
->>`From projects_event p`
->>`Join <above query> c on c.projectid = p.projectid  `
->>`and c. status_begin_effective_timestamp = p begin_effective_timestamp`
+>&#x200B;>Voor project_event: 
+>&#x200B;>`From projects_event p`
+>&#x200B;>`Join <above query> c on c.projectid = p.projectid  `
+>&#x200B;>`and c. status_begin_effective_timestamp = p begin_effective_timestamp`
 
 
 
