@@ -18,15 +18,15 @@ ht-degree: 0%
 
 Als deel van middelplanning, kunt u de Planner van het Scenario van Adobe Workfront gebruiken om de baanrollen noodzakelijk voor de voltooiing van het werk in een project te voorzien wanneer u het bedrijfscase bouwt.
 
-Voor meer informatie over het creëren van een bedrijfsgeval, zie [ een BedrijfsGeval voor een project ](../../../manage-work/projects/define-a-business-case/create-business-case.md) creëren.
+Voor meer informatie over het creëren van een bedrijfsgeval, zie [&#x200B; een BedrijfsGeval voor een project &#x200B;](../../../manage-work/projects/define-a-business-case/create-business-case.md) creëren.
 
 >[!TIP]
 >
->De informatie van de baanrol voor het initiatief verbonden aan het project dat u in de systeem-vlakke Planner van het Scenario ingaat is zichtbaar in het het budgetteren van het Middel gebied van het bedrijfscase van het project wanneer u het initiatief publiceert. De Scenario Planner is alleen beschikbaar in de nieuwe Adobe Workfront-ervaring en vereist een aanvullende licentie. Voor informatie over de Planner van het Scenario van Workfront, zie [ het overzicht van de Planner van het Scenario ](../../../scenario-planner/scenario-planner-overview.md).
+>De informatie van de baanrol voor het initiatief verbonden aan het project dat u in de systeem-vlakke Planner van het Scenario ingaat is zichtbaar in het het budgetteren van het Middel gebied van het bedrijfscase van het project wanneer u het initiatief publiceert. De Scenario Planner is alleen beschikbaar in de nieuwe Adobe Workfront-ervaring en vereist een aanvullende licentie. Voor informatie over de Planner van het Scenario van Workfront, zie [&#x200B; het overzicht van de Planner van het Scenario &#x200B;](../../../scenario-planner/scenario-planner-overview.md).
 
 U kunt middelen in het bedrijfsgeval ook begroten gebruikend de Planner van het Middel. Raadpleeg de volgende secties voor meer informatie:
 
-* [ middelen van de Begroting in het BedrijfsGeval ](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md)
+* [&#x200B; middelen van de Begroting in het BedrijfsGeval &#x200B;](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md)
   <!--* [Budget resources by project in the Resource Planner](../../../resource-mgmt/resource-planning/budget-by-project-resource-planner-d.md)-->
 
 >[!NOTE]
@@ -73,7 +73,7 @@ U kunt middelen in het bedrijfsgeval ook begroten gebruikend de Planner van het 
  </tbody> 
 </table>
 
-*For informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*For informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -83,7 +83,7 @@ Voordat u begint, moet u het volgende doen:
 
 * Maak een plan met de functie Scenario.
 
-  Voor informatie, zie [ plannen in de Planner van het Scenario creëren en uitgeven ](../../../scenario-planner/create-and-edit-plans.md).
+  Voor informatie, zie [&#x200B; plannen in de Planner van het Scenario creëren en uitgeven &#x200B;](../../../scenario-planner/create-and-edit-plans.md).
 
 * Maak een initiatief over het plan en koppel het aan een project.
 
@@ -91,9 +91,9 @@ Voordat u begint, moet u het volgende doen:
 
   Raadpleeg de volgende artikelen voor meer informatie:
 
-   * [ creeer en geef initiatieven in de Planner van het Scenario uit ](../../../scenario-planner/create-and-edit-initiatives.md)
-   * [ de projecten van de Invoer aan plannen in de Planner van het Scenario ](../../../scenario-planner/import-projects-to-plans.md)
-   * [ werk of creeer projecten door initiatieven in de Planner van het Scenario ](../../../scenario-planner/publish-scenarios-update-projects.md) te publiceren bij.
+   * [&#x200B; creeer en geef initiatieven in de Planner van het Scenario uit &#x200B;](../../../scenario-planner/create-and-edit-initiatives.md)
+   * [&#x200B; de projecten van de Invoer aan plannen in de Planner van het Scenario &#x200B;](../../../scenario-planner/import-projects-to-plans.md)
+   * [&#x200B; werk of creeer projecten door initiatieven in de Planner van het Scenario &#x200B;](../../../scenario-planner/publish-scenarios-update-projects.md) te publiceren bij.
 
 * Hoewel dit geen eerste vereisten zijn, adviseren wij ook het volgende:
 
@@ -102,7 +102,7 @@ Voordat u begint, moet u het volgende doen:
 
      Dit helpt u begrijpen hoeveel werk een taak zou kunnen moeten voltooien, die met het besluit helpt hoeveel tijd de middelen voor de voltooiing van de taak zouden moeten worden begroot.
 
-     Voor informatie over het associëren van taken met Geplande Uren, zie [ taken ](../../../manage-work/tasks/manage-tasks/edit-tasks.md) uitgeven.
+     Voor informatie over het associëren van taken met Geplande Uren, zie [&#x200B; taken &#x200B;](../../../manage-work/tasks/manage-tasks/edit-tasks.md) uitgeven.
 
 ## Begrotingsmiddelen in het geval van de Zaken die de Planner van het Scenario gebruiken voor projecten met betrekking tot initiatieven
 
@@ -131,11 +131,11 @@ Voordat u begint, moet u het volgende doen:
 
    * Als de Planner van het Middel eerder voor het opnemen van middelen voor het project werd geselecteerd, klik **Verandering** > **de Planner van het Scenario** > **kiezen**.
 
-     ![ Bedrijfs geval in de Planner van het scenario met Choose knoop ](assets/business-case-rp-selected-change-option-to-switch-to-sp-highlighted-350x37.png)
+     ![&#x200B; Bedrijfs geval in de Planner van het scenario met Choose knoop &#x200B;](assets/business-case-rp-selected-change-option-to-switch-to-sp-highlighted-350x37.png)
 
      Workfront maakt gebruik van de vereiste arbeidstijden van het gekoppelde initiatief om de begrote arbeidskosten en de begrote uren uren uren te berekenen. Dit is de aanbevolen optie. Kostendenvertoningen in het BedrijfsGeval in de valuta van het project.
 
-     Wanneer u een project kopieert, en u uitgezocht om de Begroeide Uren aan het nieuwe project te kopiëren, worden de uren die in de begroting worden opgenomen gebruikend de Planner van het Scenario niet gekopieerd aan het nieuwe project. Alleen uren die in de bronnenplanner zijn opgenomen, worden gekopieerd. Voor meer informatie, zie [ een project ](../manage-projects/copy-project.md) kopiëren.
+     Wanneer u een project kopieert, en u uitgezocht om de Begroeide Uren aan het nieuwe project te kopiëren, worden de uren die in de begroting worden opgenomen gebruikend de Planner van het Scenario niet gekopieerd aan het nieuwe project. Alleen uren die in de bronnenplanner zijn opgenomen, worden gekopieerd. Voor meer informatie, zie [&#x200B; een project &#x200B;](../manage-projects/copy-project.md) kopiëren.
 
      >[!IMPORTANT]
      >
@@ -144,12 +144,12 @@ Voordat u begint, moet u het volgende doen:
      >   
      >   
      >   * Bronbudgettair gebied van de Business Case
-     >   * De Scenario-planner op systeemniveau als de Personeelskosten van het initiatief in verband met het project. Voor meer informatie, zie [ initiatieven in de Planner van het Scenario creëren en uitgeven ](../../../scenario-planner/create-and-edit-initiatives.md).
+     >   * De Scenario-planner op systeemniveau als de Personeelskosten van het initiatief in verband met het project. Voor meer informatie, zie [&#x200B; initiatieven in de Planner van het Scenario creëren en uitgeven &#x200B;](../../../scenario-planner/create-and-edit-initiatives.md).
      >   
      >
 
 1. (Facultatief) klik **Mening in de Planner van het Scenario** om het plan te openen dat het initiatief verbonden aan het project bevat. Hiermee opent u het deelvenster Scenario in een nieuw browsertabblad.
-1. (Optioneel) Informatie over het initiatief bijwerken. Voor meer informatie, zie [ initiatieven in de Planner van het Scenario creëren en uitgeven ](../../../scenario-planner/create-and-edit-initiatives.md).
+1. (Optioneel) Informatie over het initiatief bijwerken. Voor meer informatie, zie [&#x200B; initiatieven in de Planner van het Scenario creëren en uitgeven &#x200B;](../../../scenario-planner/create-and-edit-initiatives.md).
 
    >[!NOTE]
    >

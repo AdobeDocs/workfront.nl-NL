@@ -25,7 +25,7 @@ Omgekeerd, staat het ontgrendelen van douanestatus groepsbeheerders meer flexibi
 >
 >Als u een douanestatus sluit nadat het voor om het even welke periode is ontgrendeld, vervangen uw systeem-brede montages voor de status die door groepsbeheerders worden gemaakt. Terwijl de status is vergrendeld, kunnen groepsbeheerders de status voor hun groepen niet wijzigen of verwijderen.
 
-Voor instructies bij het sluiten van of het ontgrendelen van een systeem-vlakke status, zie [ tot een status ](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md) leiden of uitgeven.
+Voor instructies bij het sluiten van of het ontgrendelen van een systeem-vlakke status, zie [&#x200B; tot een status &#x200B;](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md) leiden of uitgeven.
 
 ## Niet-vergrendelde statussen in goedkeuringsprocessen
 
