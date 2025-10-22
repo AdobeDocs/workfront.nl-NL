@@ -40,12 +40,12 @@ Voor meer informatie over [!DNL Workfront] kunt u het volgende doen:
  <tbody> 
   <tr> 
    <td><strong> Uitchecken [!DNL Workfront] on [!DNL Adobe Experience League]</strong> </td> 
-   <td> <p>U kunt de onderzoeksbar bij de bovenkant van <a href="https://experienceleague.adobe.com/en/docs/workfront"> https://experienceleague.adobe.com/en/docs/workfront </a> gebruiken om u te helpen een specifiek artikel, een bespreking, of een opleiding vinden. Beschouw het als de zoekmachine voor alle dingen [!DNL Workfront] .</p> <p>Hier vindt u ook bronnen zoals</p> 
+   <td> <p>U kunt de onderzoeksbar bij de bovenkant van <a href="https://experienceleague.adobe.com/nl/docs/workfront"> https://experienceleague.adobe.com/nl/docs/workfront </a> gebruiken om u te helpen een specifiek artikel, een bespreking, of een opleiding vinden. Beschouw het als de zoekmachine voor alle dingen [!DNL Workfront] .</p> <p>Hier vindt u ook bronnen zoals</p> 
     <ul> 
-     <li> <p><a href="https://experienceleague.adobe.com/en/docs/workfront/using/home">Documentatie</a> </p> </li> 
-     <li> <p><a href="https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home"> Zelfstudies </a> </p> </li> 
-     <li> <p><a href="https://experienceleague.adobe.com/en/docs/workfront/using/product-announcements/product-releases/product-releases"> Versies </a> </p></li> 
-     <li> <p><a href="https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-api/api-general-information/api-basics"> API documentatie </a> </p> </li> 
+     <li> <p><a href="https://experienceleague.adobe.com/nl/docs/workfront/using/home">Documentatie</a> </p> </li> 
+     <li> <p><a href="https://experienceleague.adobe.com/nl/docs/workfront-learn/tutorials-workfront/home"> Zelfstudies </a> </p> </li> 
+     <li> <p><a href="https://experienceleague.adobe.com/nl/docs/workfront/using/product-announcements/product-releases/product-releases"> Versies </a> </p></li> 
+     <li> <p><a href="https://experienceleague.adobe.com/nl/docs/workfront/using/adobe-workfront-api/api-general-information/api-basics"> API documentatie </a> </p> </li> 
      <li> <p>En meer!</p> </li> 
     </ul> </td> 
   </tr> 
@@ -63,11 +63,11 @@ Voor meer informatie over [!DNL Workfront] kunt u het volgende doen:
   </tr> 
   <tr> 
    <td><strong> zie wat in om het even welk </strong>[!DNL Workfront] <strong> producten </strong> nieuw is</td> 
-   <td>Bezoek <a href="https://experienceleague.adobe.com/en/docs/workfront/using/product-announcements/product-releases/product-releases"> de versies van het Product </a> voor de recentste informatie over wat nieuw is.</td> 
+   <td>Bezoek <a href="https://experienceleague.adobe.com/nl/docs/workfront/using/product-announcements/product-releases/product-releases"> de versies van het Product </a> voor de recentste informatie over wat nieuw is.</td> 
   </tr> 
   <tr> 
    <td><strong> leer op bestelling en duik diep met [!DNL Workfront] Opleiding </strong> </td> 
-   <td><a href="https://experienceleague.adobe.com"> Experience League </a> biedt op rol-gebaseerde het leren wegen aan om planners, arbeiders, medewerkers, en systeembeheerders te krijgen in en lopend met zeer belangrijke functionaliteit in [!DNL Workfront].<br> breid uw [!DNL Workfront] kennis </a> uit door het leren wegen, videoleerprogramma's, en downloadbare gidsen over uw onderwerpen van belang te onderzoeken.<br></td> 
+   <td><a href="https://experienceleague.adobe.com/nl"> Experience League </a> biedt op rol-gebaseerde het leren wegen aan om planners, arbeiders, medewerkers, en systeembeheerders te krijgen in en lopend met zeer belangrijke functionaliteit in [!DNL Workfront].<br> breid uw [!DNL Workfront] kennis </a> uit door het leren wegen, videoleerprogramma's, en downloadbare gidsen over uw onderwerpen van belang te onderzoeken.<br></td> 
   </tr> 
  </tbody> 
 </table>
@@ -81,11 +81,11 @@ De volgende bronnen kunnen u helpen bepalen hoe u [!DNL Workfront] kunt gebruike
  <col> 
  <tbody> 
   <tr> 
-   <td><a href="https://business.adobe.com/resources/main.html?Products=Workfront">[!DNL Workfront] bronnen die klanten markeren </a> </td> 
+   <td><a href="https://business.adobe.com/nl/resources/main.html?Products=Workfront">[!DNL Workfront] bronnen die klanten markeren </a> </td> 
    <td>Dit is uw startbron voor webinars, boeken, whitepapers, video's en rapporten.</td> 
   </tr> 
   <tr> 
-   <td><a href="https://business.adobe.com/customer-success-stories.html?Products=Adobe%2520Workfront%22%3E">Casestudy's </a></td> 
+   <td><a href="https://business.adobe.com/nl/customer-success-stories.html?Products=Adobe%2520Workfront%22%3E">Casestudy's </a></td> 
    <td>Lees door een groeiende verzameling van meer dan 60 casestudy's die de uitdagingen van de klant en [!DNL Workfront] oplossingen en voordelen benadrukken.</td> 
   </tr> 
   <tr> 
@@ -107,7 +107,7 @@ Deze 3 stappen kunnen u als [!DNL Workfront] beheerder helpen bovenop elke nieuw
    <td><strong> Stap 1: Leer wat komt </strong> </td> 
    <td> <p>Deze bronnen houden u op de hoogte van de updates die aan Workfront worden uitgebracht:</p> 
     <ul> 
-     <li> <p><a href="https://experienceleague.adobe.com/en/docs/workfront/using/product-announcements/product-releases/product-releases"> Aankondigingen van het Product </a>: zoekend updates van het product van Workfront roadmap? Op de pagina Productaankondigingen vindt u releaseupdates en roadmap-presentaties.</p> </li> 
+     <li> <p><a href="https://experienceleague.adobe.com/nl/docs/workfront/using/product-announcements/product-releases/product-releases"> Aankondigingen van het Product </a>: zoekend updates van het product van Workfront roadmap? Op de pagina Productaankondigingen vindt u releaseupdates en roadmap-presentaties.</p> </li> 
      <li> <p><strong> Mededelingscentrum </strong>: Herzie uw berichten en ontvang belangrijke updates van ons [!DNL Workfront] team van het Product betreffende informatie voor alle klanten. Ga naar de sectie <a href="https://experience.workfront.com/s/article/View-and-manage-in-app-notifications-323912892">[!UICONTROL "Notifications"]</a> in [!DNL Workfront] in de bovenste navigatie.</p> </li> 
     </ul> </td> 
   </tr> 
@@ -116,7 +116,7 @@ Deze 3 stappen kunnen u als [!DNL Workfront] beheerder helpen bovenop elke nieuw
    <td> 
     <ul> 
      <li> <p>Test de meest recente updates in uw [!DNL Workfront] Sandbox-voorvertoningsomgeving. Voor informatie over het milieu van de Sandbox van de Voorproef, zie <a href="https://experience.workfront.com/s/article/The-Workfront-Preview-Sandbox-Environment-519456234"> het [!DNL Adobe Workfront] Milieu van Sandbox van de Voorproef </a>.</p> </li> 
-     <li> <p>Bepaal hoe deze updates effect hebben op de manier waarop uw mensen werken. Onze <a href="https://experienceleague.adobe.com/en/docs/workfront/using/home"> Kennisbank </a> en <a href="https://experienceleague.adobe.com/en/events"> Gebeurtenissen </a> kunnen helpen! Onze productmanagers verwijzen vaak naar het directe probleem van de eindgebruiker of het bedrijf dat door de functionaliteit wordt opgelost, waardoor u de gevolgen van de wijziging kunt versnellen.</p> </li> 
+     <li> <p>Bepaal hoe deze updates effect hebben op de manier waarop uw mensen werken. Onze <a href="https://experienceleague.adobe.com/nl/docs/workfront/using/home"> Kennisbank </a> en <a href="https://experienceleague.adobe.com/nl/events"> Gebeurtenissen </a> kunnen helpen! Onze productmanagers verwijzen vaak naar het directe probleem van de eindgebruiker of het bedrijf dat door de functionaliteit wordt opgelost, waardoor u de gevolgen van de wijziging kunt versnellen.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -142,8 +142,8 @@ De volgende bronnen kunnen u helpen meer te weten te komen over de API van [!DNL
 
 | [[!DNL Adobe Workfront]  integraties &#x200B;](../../administration-and-setup/configure-integrations/workfront-integrations-1.md) | U kunt [!DNL Workfront] integreren met toepassingen van derden. Integraties kunnen het nut van [!DNL Workfront] uitbreiden en het aanpassen aan de behoeften van uw organisatie. Dit artikel in de Knowledge Base behandelt uw integratieopties en wijst u in de volgende richting. |
 |---|---|
-| [[!DNL Workfront]  ingebouwde integraties &#x200B;](https://business.adobe.com/products/workfront/integrations.html) | Dankzij de gratis ingebouwde integratie van Workfront kunnen u en uw team probleemloos overstappen op het Workfront-platform, terwijl u dezelfde workflows en processen behoudt. |
-| [[!DNL Adobe Workfront Fusion]](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/home) | Verbindt [!DNL Workfront] met 100+ toepassingen, die het gemakkelijk maken om uw bedrijfskritieke processen zonder code te automatiseren. |
+| [[!DNL Workfront]  ingebouwde integraties &#x200B;](https://business.adobe.com/nl/products/workfront/integrations.html) | Dankzij de gratis ingebouwde integratie van Workfront kunnen u en uw team probleemloos overstappen op het Workfront-platform, terwijl u dezelfde workflows en processen behoudt. |
+| [[!DNL Adobe Workfront Fusion]](https://experienceleague.adobe.com/nl/docs/workfront-fusion/using/home) | Verbindt [!DNL Workfront] met 100+ toepassingen, die het gemakkelijk maken om uw bedrijfskritieke processen zonder code te automatiseren. |
 
 {style="table-layout:auto"}
 
@@ -153,7 +153,7 @@ Abonneren aan [&#x200B; status.adobe.com &#x200B;](https://status.adobe.com/) om
 
 Meer over de [!DNL Workfront] plaats van de Status leren, zie [&#x200B; de  [!DNL Adobe Workfront]  plaats van de Status &#x200B;](../../workfront-basics/tips-tricks-and-troubleshooting/understand-the-status-site.md).
 
-Om te leren wat in een wekelijkse Update van het Onderhoud is bevestigd, zie [&#x200B; Updates van het Onderhoud &#x200B;](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates).
+Om te leren wat in een wekelijkse Update van het Onderhoud is bevestigd, zie [&#x200B; Updates van het Onderhoud &#x200B;](https://experienceleague.adobe.com/nl/docs/workfront-known-issues/releases/current-updates).
 
 <!-- the links in this section don't work anymore and I am not sure who would have the content?! Made a note to update this but will have to do some searching - October 26, 2023: 
 
