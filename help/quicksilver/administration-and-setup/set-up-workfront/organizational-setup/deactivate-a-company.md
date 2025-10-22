@@ -58,7 +58,7 @@ U kunt een bedrijf deactiveren dat u niet meer gebruikt terwijl het behouden van
  </tbody> 
 </table>
 
-Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -66,7 +66,7 @@ Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront
 
 {{step-1-to-setup}}
 
-1. In het linkerpaneel, klik **[!UICONTROL Companies]** ![ pictogram van Bedrijven ](assets/companies-icon-left-panel.png).
+1. In het linkerpaneel, klik **[!UICONTROL Companies]** ![&#x200B; pictogram van Bedrijven &#x200B;](assets/companies-icon-left-panel.png).
 
 1. Selecteer een of meer bedrijven om te deactiveren of opnieuw te activeren.
 1. Klik op **[!UICONTROL Edit]**. <!--MAKE THIS A SEPARATE NUMBERED LINE<span class="preview">(Conditional) In the Preview environment, disable the **[!UICONTROL Is Active]** option to deactivate it, or enable the option to activate it.</span>-->

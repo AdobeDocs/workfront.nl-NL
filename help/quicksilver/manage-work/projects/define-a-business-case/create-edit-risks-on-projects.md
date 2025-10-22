@@ -31,7 +31,7 @@ Risico&#39;s kunnen verband houden met kosten, maar de werkelijke risicokosten h
 >
 >Dit artikel bepaalt de risico&#39;s verbonden aan het project aangezien u hen in het BedrijfsGeval van het project of aangezien u hen in het lusje van Risken van het project toevoegt.
 >
->Voor informatie over het gebied van het Risico dat wanneer het uitgeven van een project beschikbaar is, zie [ projecten ](../../../manage-work/projects/manage-projects/edit-projects.md) uitgeven.
+>Voor informatie over het gebied van het Risico dat wanneer het uitgeven van een project beschikbaar is, zie [&#x200B; projecten &#x200B;](../../../manage-work/projects/manage-projects/edit-projects.md) uitgeven.
 
 ## Toegangsvereisten
 
@@ -63,16 +63,16 @@ Risico&#39;s kunnen verband houden met kosten, maar de werkelijke risicokosten h
  </tbody> 
 </table>
 
-Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 
 +++
 
 ## Risico&#39;s maken en bewerken in Business Case
 
-U kunt risico&#39;s tot stand brengen als deel van het plannen van het BedrijfsGeval van een project. U kunt hen in het BedrijfsGeval later uitgeven, wanneer de veranderingen in hun waarschijnlijkheid, matigingsplan, of kosten, bijvoorbeeld voorkomen. Voor informatie over het creëren van een BedrijfsGeval, zie [ een BedrijfsGeval voor een project ](../../../manage-work/projects/define-a-business-case/create-business-case.md) creëren.
+U kunt risico&#39;s tot stand brengen als deel van het plannen van het BedrijfsGeval van een project. U kunt hen in het BedrijfsGeval later uitgeven, wanneer de veranderingen in hun waarschijnlijkheid, matigingsplan, of kosten, bijvoorbeeld voorkomen. Voor informatie over het creëren van een BedrijfsGeval, zie [&#x200B; een BedrijfsGeval voor een project &#x200B;](../../../manage-work/projects/define-a-business-case/create-business-case.md) creëren.
 
-Uw beheerder van Workfront of groepsbeheerder moet de **sectie van Risken** in uw BedrijfsGeval in het gebied van de Voorkeur van het Project toelaten alvorens u het op het projectniveau in de BedrijfsGevallensectie kunt bekijken. Voor informatie over het plaatsen van projectvoorkeur, zie [ systeem-brede projectvoorkeur ](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) vormen.
+Uw beheerder van Workfront of groepsbeheerder moet de **sectie van Risken** in uw BedrijfsGeval in het gebied van de Voorkeur van het Project toelaten alvorens u het op het projectniveau in de BedrijfsGevallensectie kunt bekijken. Voor informatie over het plaatsen van projectvoorkeur, zie [&#x200B; systeem-brede projectvoorkeur &#x200B;](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) vormen.
 
 Het creëren en het uitgeven van risico&#39;s in het BedrijfsGeval is identiek.
 
@@ -80,7 +80,7 @@ Een risico maken of bewerken in de Business Case:
 
 1. Ga naar het project waarvoor u risico&#39;s wilt creëren.
 1. Klik **Bedrijfs Geval** in het linkerpaneel.
-1. In de **sectie van Risico&#39;s**, klik **uitgeven** pictogram ![ pictogram ](assets/edit-icon.png)
+1. In de **sectie van Risico&#39;s**, klik **uitgeven** pictogram ![&#x200B; pictogram &#x200B;](assets/edit-icon.png)
 1. Voer de volgende gegevens in of bewerk deze:
 
    * **Beschrijving:** beschrijf het risico.
@@ -94,7 +94,7 @@ Een risico maken of bewerken in de Business Case:
 
    * **Kosten van de Vermindering**: Ga de kosten van het matigingsplan in dat u op zijn plaats moet zetten om het risico te verhinderen voor te komen.
 
-   ![ Risks ](assets/edit-risk.png)
+   ![&#x200B; Risks &#x200B;](assets/edit-risk.png)
 
 1. (Facultatief) klik **Voeg een ander Risico** toe om meer risico&#39;s toe te voegen.
 1. Klik **sparen**.
@@ -108,7 +108,7 @@ U kunt risico&#39;s in de sectie van Risico&#39;s van een project of een malplaa
 1. Ga naar het project u risico&#39;s voor wilt creëren.
 1. Klik **Risks** in het linkerpaneel.
 
-   ![ sectie van de Risico&#39;s van taak ](assets/risks-section-on-project-2022.png)
+   ![&#x200B; sectie van de Risico&#39;s van taak &#x200B;](assets/risks-section-on-project-2022.png)
 
 1. Klik **toevoegen Meer Risken** en creeer risico&#39;s door in-lijn het uitgeven van hun informatie.
 
@@ -116,13 +116,13 @@ U kunt risico&#39;s in de sectie van Risico&#39;s van een project of een malplaa
 
    Klik **Nieuw Risico** om de **Nieuwe risicobak** te openen.
 
-   ![ Nieuwe risicodoos ](assets/new-risk-box.png)
+   ![&#x200B; Nieuwe risicodoos &#x200B;](assets/new-risk-box.png)
 
 1. (Voorwaardelijk) als u een risico in het **Nieuwe risico** vakje toevoegt, ga de volgende informatie in:
 
    * **Beschrijving**: Beschrijf het risico. Dit is een verplicht veld.
    * **Type van Risico**: Wijs op welke categorie het risico onder valt.\
-     Uw Workfront-beheerder definieert de typen risico&#39;s die beschikbaar zijn in uw omgeving. Voor informatie over het bepalen van de Types van Risico, zie het artikel [ uitgeven en creeer risicstypes ](../../../administration-and-setup/set-up-workfront/configure-system-defaults/edit-create-risk-types.md).
+     Uw Workfront-beheerder definieert de typen risico&#39;s die beschikbaar zijn in uw omgeving. Voor informatie over het bepalen van de Types van Risico, zie het artikel [&#x200B; uitgeven en creeer risicstypes &#x200B;](../../../administration-and-setup/set-up-workfront/configure-system-defaults/edit-create-risk-types.md).
 
    * **Kans**: Verwijs de waarschijnlijkheid van het risico dat als percentagewaarde voorkomt.
    * **Potentiële Kosten**: Verwijs op de geschatte kosten als het risico zou moeten voorkomen.
@@ -132,7 +132,7 @@ U kunt risico&#39;s in de sectie van Risico&#39;s van een project of een malplaa
 
 1. Klik **sparen**.
 
-1. (Facultatief) selecteer een verschillende **Status** voor het risico, in het **3} drop-down menu van de Status {, wanneer het toepassen van de** Standaard **mening voor de lijst van risico&#39;s.**
+1. (Facultatief) selecteer een verschillende **Status** voor het risico, in het **3&rbrace; drop-down menu van de Status &lbrace;, wanneer het toepassen van de** Standaard **mening voor de lijst van risico&#39;s.**
 
    Door gebrek, wordt de **Status** van een risico **geïdentificeerd**.
 
@@ -150,7 +150,7 @@ Risico&#39;s bewerken:
 
    of
 
-   Selecteer één of verscheidene risico&#39;s, dan klik **uitgeven** pictogram ![ pictogram ](assets/edit-icon-on-white.png) om veelvoudige risico&#39;s tezelfdertijd uit te geven.
+   Selecteer één of verscheidene risico&#39;s, dan klik **uitgeven** pictogram ![&#x200B; pictogram &#x200B;](assets/edit-icon-on-white.png) om veelvoudige risico&#39;s tezelfdertijd uit te geven.
 
    >[!NOTE]
    >
@@ -169,7 +169,7 @@ Risico&#39;s bewerken:
    * **Plan van de Vermindering**: Werk de beschrijving van het plan bij om het risico te verlichten.
 
 1. Klik **sparen**.
-1. (Facultatief) geef de **Status** voor een risico, in het **3} drop-down menu van de Status {uit, wanneer het toepassen van de** Standaard **mening voor de lijst van risico&#39;s.**
+1. (Facultatief) geef de **Status** voor een risico, in het **3&rbrace; drop-down menu van de Status &lbrace;uit, wanneer het toepassen van de** Standaard **mening voor de lijst van risico&#39;s.**
 
    >[!NOTE]
    >
