@@ -22,7 +22,7 @@ Welkom bij de startpagina voor Adobe Workfront-producten en technische documenta
 
 * [Overzicht eerste release 2026, eerste kwartaal](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md)
 * [Adobe Workfront Planning First Quarter 2026 releaseactiviteit](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q1.md)
-* [ de versieactiviteit van de Fusie van Adobe Workfront ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)
+* [&#x200B; de versieactiviteit van de Fusie van Adobe Workfront &#x200B;](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)
 
 >[!TAB  2025 versies ]
 
@@ -42,7 +42,7 @@ Welkom bij de startpagina voor Adobe Workfront-producten en technische documenta
 * [Overzicht tweede release 2024, tweede kwartaal](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md)
 * [Overzicht release derde kwartaal 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md)
 * [Overzicht release 4de kwartaal 2024](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md)
-* [ de versieactiviteit van de Fusie van Adobe Workfront ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)
+* [&#x200B; de versieactiviteit van de Fusie van Adobe Workfront &#x200B;](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)
 * [Adobe Workfront Planning Fourth Quarter 2025 release activity](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-24-q4.md)
 
 >[!TAB  Bèta&#39;s ]
@@ -51,7 +51,7 @@ Welkom bij de startpagina voor Adobe Workfront-producten en technische documenta
 
 >[!TAB  Bekende Kwesties ]
 
-* [ Bekende Kwesties ](https://experienceleague.adobe.com/en/docs/workfront-known-issues/issues/overview)
+* [&#x200B; Bekende Kwesties &#x200B;](https://experienceleague.adobe.com/en/docs/workfront-known-issues/issues/overview)
 
 
 >[!ENDTABS]
@@ -110,9 +110,9 @@ Het zoeken naar documentatie kan efficiënter zijn met een paar strategische ben
 
 ### Secties voor leren en training verkennen
 
-* **de Materialen van de Opleiding**: Navigeer aan de [ de opleiding van Workfront ](https://experienceleague.adobe.com/en/browse/workfront) pagina voor een bibliotheek van opleidingsvideo&#39;s en artikelen die worden ontworpen om u te helpen de eigenschappen en de montages van Workfront beter begrijpen. U kunt tot betaalde trainingsmaterialen bij [ leren.adobe.com ](https://learning.adobe.com/) ook toegang hebben.
-* **Cursussen**: Vind [ gestructureerde het leren cursussen ](https://experienceleague.adobe.com/home?Solution=Workfront#courses) die u door het gebruiken van diverse eigenschappen van Workfront in een logische opeenvolging begeleiden.
+* **de Materialen van de Opleiding**: Navigeer aan de [&#x200B; de opleiding van Workfront &#x200B;](https://experienceleague.adobe.com/en/browse/workfront) pagina voor een bibliotheek van opleidingsvideo&#39;s en artikelen die worden ontworpen om u te helpen de eigenschappen en de montages van Workfront beter begrijpen. U kunt tot betaalde trainingsmaterialen bij [&#x200B; leren.adobe.com &#x200B;](https://learning.adobe.com/) ook toegang hebben.
+* **Cursussen**: Vind [&#x200B; gestructureerde het leren cursussen &#x200B;](https://experienceleague.adobe.com/home?Solution=Workfront#courses) die u door het gebruiken van diverse eigenschappen van Workfront in een logische opeenvolging begeleiden.
 
 ### Antwoorden zoeken in communityforums
 
-* **Vraag Vragen**: Als de documentatie uw vraag niet beantwoordt, probeer post in de [ Communautaire forums van Workfront ](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront?profile.language=en) waar andere gebruikers en deskundigen hulp kunnen aanbieden.
+* **Vraag Vragen**: Als de documentatie uw vraag niet beantwoordt, probeer post in de [&#x200B; Communautaire forums van Workfront &#x200B;](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront?profile.language=en) waar andere gebruikers en deskundigen hulp kunnen aanbieden.
