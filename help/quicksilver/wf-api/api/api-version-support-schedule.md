@@ -7,10 +7,10 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: b072704c-a34c-4a17-aca3-ab93a016dfc8
-source-git-commit: 3bb51eacc60d3c04885e2fcd23cacef805ff27ba
+source-git-commit: cccef57d9a83fa138282200d85c2851570a4b9b1
 workflow-type: tm+mt
-source-wordcount: '440'
-ht-degree: 15%
+source-wordcount: '448'
+ht-degree: 16%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 15%
 
 Adobe Workfront geeft regelmatig nieuwe API-versies weer, meestal twee keer per jaar. API-versies worden 3 jaar na de release ondersteund. API-versies ouder dan 3 jaar worden niet meer ondersteund.
 
-Voor meer informatie bij het identificeren van en het gebruiken van API versies, zie [&#x200B; een API Versie in uw integraties &#x200B;](/help/quicksilver/wf-api/api/specify-api-version-integrations.md) specificeren.
+Voor meer informatie bij het identificeren van en het gebruiken van API versies, zie [ een API Versie in uw integraties ](/help/quicksilver/wf-api/api/specify-api-version-integrations.md) specificeren.
 
 In de volgende tabel vindt u het tijdschema voor de release en ondersteuning van de Workfront API.
 
@@ -37,6 +37,12 @@ In de volgende tabel vindt u het tijdschema voor de release en ondersteuning van
   </tr> 
  </thead> 
  <tbody> 
+ <tr>
+   <td>21</td> 
+   <td> <p>vrijdag 23 oktober 2025</p> </td> 
+   <td> <p>**gedurende 2028</p> <p>(met de release van 28.10)</p> </td> 
+   <td></td> 
+  </tr> 
  <tr>
    <td>20</td> 
    <td> <p>maandag 4 mei 2025</p> </td> 
@@ -176,4 +182,4 @@ In de volgende tabel vindt u het tijdschema voor de release en ondersteuning van
 
 &#42;&#42; Data onderhevig aan verandering.
 
-Voor informatie over het gebruiken van specifieke versies van API, zie [&#x200B; een API Versie in uw integraties specificeren &#x200B;](../../wf-api/api/specify-api-version-integrations.md)
+Voor informatie over het gebruiken van specifieke versies van API, zie [ een API Versie in uw integraties specificeren ](../../wf-api/api/specify-api-version-integrations.md)
