@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: abe026d0-3584-49f3-a6db-ef88b3aab186
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: e25ea757129e9645f7b5f0729cd498d5947f49f2
 workflow-type: tm+mt
-source-wordcount: '380'
+source-wordcount: '390'
 ht-degree: 1%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 1%
 
 <!-- Audited: 12/2023 -->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment, and is being released in a phased rollout to Production.</span>-->
+<span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Het is beschikbaar slechts in het milieu van de Sandbox van de Voorproef, en wordt vrijgegeven in gefaseerde uitrol aan Productie.</span>
 
 Als Adobe Workfront-beheerder kunt u de voorkeursinstellingen voor gebruikers in het Workfront-systeem opnieuw instellen of verwijderen.
 
@@ -49,7 +49,7 @@ Individuele gebruikers kunnen ook hun eigen voorkeursinstellingen voor gebruiker
  </tbody> 
 </table>
 
-Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -57,61 +57,67 @@ Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van W
 
 Wanneer u gebruikersvoorkeuren opnieuw instelt, worden sommige voorkeuren teruggezet op de standaardsysteemstandaard en worden andere gewist of verwijderd:
 
+<!--
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <thead> 
   <tr> 
-   <th><strong> Voorkeur </strong> </th> 
-   <th><strong> Status na het terugstellen </strong> </th> 
+   <th><strong>Preference</strong> </th> 
+   <th><strong>Status after the reset</strong> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td>Weergaven</td> 
-   <td> <p> Teruggedraaid naar systeemstandaard</p> <p>Bestaande weergaven worden niet verwijderd. U kunt deze opnieuw selecteren.</p> </td> 
+   <td>Views</td> 
+   <td> <p> Reverted to the system default</p> <p>Existing views are not deleted. You can select them again.</p> </td> 
   </tr> 
   <tr> 
    <td>Filters</td> 
-   <td> <p>Teruggedraaid naar systeemstandaard</p> <p>Bestaande filters worden niet verwijderd. U kunt deze opnieuw selecteren.</p> </td> 
+   <td> <p>Reverted to the system default</p> <p>Existing filters are not deleted. You can select them again.</p> </td> 
   </tr> 
   <tr> 
-   <td>Groepen</td> 
-   <td> <p>Teruggedraaid naar systeemstandaard</p> <p>Bestaande groepen worden niet verwijderd. U kunt deze opnieuw selecteren.</p> </td> 
+   <td>Groupings</td> 
+   <td> <p>Reverted to the system default</p> <p>Existing groupings are not deleted. You can select them again.</p> </td> 
   </tr> 
   <tr> 
-   <td>Lijst met recente items</td> 
+   <td>Recent Items list</td> 
    <td>Cleared</td> 
   </tr> 
   <tr> 
-   <td>Lijst Favorieten</td> 
-   <td>Onbeïnvloed</td> 
+   <td>Favorites list</td> 
+   <td>Unaffected</td> 
   </tr> 
   <tr> 
-   <td>Gebruikersvoorkeuren</td> 
-   <td> <p>Teruggedraaid naar systeemstandaard</p> <p>E-mailmeldingen worden teruggezet naar de standaardwaarden van het systeem. De standaardberichten worden vermeld in <a href="/help/quicksilver/administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md"> berichten van de Gebeurtenis beschikbaar in Adobe Workfront </a>.</p> </td> 
+   <td>User Preferences</td> 
+   <td> <p>Reverted to the system default</p> <p>Email notifications revert to the system defaults. The default notifications are listed in <a href="/help/quicksilver/administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md">Event notifications available in Adobe Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td>Door gebruiker gedefinieerde aangepaste tabbladen</td> 
-   <td>Verwijderd</td> 
+   <td>User-Defined Custom Tabs</td> 
+   <td>Removed</td> 
   </tr> 
   <tr> 
-   <td>Door gebruiker gedefinieerde globale navigatieopties</td> 
-   <td>Terugzetten op definitie van lay-outsjabloon of systeemstandaard als er geen lay-outsjabloon is toegewezen.</td> 
+   <td>User-Defined Global Navigation Options</td> 
+   <td>Set back to layout template definition, or system default if no layout template is assigned.</td> 
   </tr> 
  </tbody> 
 </table>
-
-<!-- Display this table and hide the HTML table above, when the unshim is released.
-| Preference | Status after the reset |
-| --- | --- |
-| Views | Reverted to the system default <p>Existing views are not deleted. You can select them again.</p> |
-| Filters | Reverted to the system default <p>Existing filters are not deleted. You can select them again.</p> |
-| Groupings | Reverted to the system default <p>Existing groupings are not deleted. You can select them again.</p> |
-| Recent items list | Cleared |
-| Favorites list | Unaffected |
-| User Preferences | Reverted to the system default <p>Email notifications revert to the system defaults. The default notifications are listed in [Event notifications available in Adobe Workfront](/help/quicksilver/administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).</p> |
 -->
+
+<!--Display this table and hide the HTML table above, when the unshim is released.-->
+
+<div class="preview">
+
+| Voorkeur | Status na het opnieuw instellen |
+| --- | --- |
+| Weergaven | Teruggedraaid naar systeemstandaard <p>Bestaande weergaven worden niet verwijderd. U kunt deze opnieuw selecteren.</p> |
+| Filters | Teruggedraaid naar systeemstandaard <p>Bestaande filters worden niet verwijderd. U kunt deze opnieuw selecteren.</p> |
+| Groepen | Teruggedraaid naar systeemstandaard <p>Bestaande groepen worden niet verwijderd. U kunt deze opnieuw selecteren.</p> |
+| Lijst met recente objecten | Cleared |
+| Lijst Favorieten | Onbeïnvloed |
+| Gebruikersvoorkeuren | Teruggedraaid naar systeemstandaard <p>E-mailmeldingen worden teruggezet naar de standaardwaarden van het systeem. De standaardberichten worden vermeld in [ berichten van de Gebeurtenis beschikbaar in Adobe Workfront ](/help/quicksilver/administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).</p> |
+
+</div>
 
 ## Gebruikersvoorkeuren opnieuw instellen
 
@@ -141,9 +147,13 @@ Wanneer u gebruikersvoorkeuren opnieuw instelt, worden sommige voorkeuren terugg
      >`https://experience.adobe.com/#/@company/so:(domain)-(environment)/workfront/resetUser`
 
 1. Pers **gaat** binnen.
-1. Om alle gebruikersvoorkeur terug te stellen, selecteer **Terugstellen**.
 
-   <!--When this is unshimmed, adjust the comment tags to hide these last two lines, because the Reset Tabs button is going away.-->
-of
+<div class="preview">
 
-   Om slechts douanetabs terug te stellen, uitgezochte **Lusjes van het Terugstellen**.
+1. Om alle gebruikersvoorkeur terug te stellen, klik **Terugstellen**.
+
+   of
+
+   Om slechts douanetabs terug te stellen, klik **Linkernavigatie van het Terugstellen**.
+
+</div>

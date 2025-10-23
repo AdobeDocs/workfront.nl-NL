@@ -7,9 +7,9 @@ description: Het is belangrijk om in Adobe Workfront aan te geven wanneer goedge
 author: Becky
 feature: Get Started with Workfront
 exl-id: e7710495-c418-47b1-8598-725580054fc5
-source-git-commit: 95cc394c3e1aa0ee5713e981030a96e27dd1f183
+source-git-commit: e25ea757129e9645f7b5f0729cd498d5947f49f2
 workflow-type: tm+mt
-source-wordcount: '425'
+source-wordcount: '473'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 <!-- Audited: 12/2023 -->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment, and is being released in a phased rollout to Production.</span>-->
+<span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Het is beschikbaar slechts in het milieu van de Sandbox van de Voorproef, en wordt vrijgegeven in gefaseerde uitrol aan Productie.</span>
 
 [!DNL Adobe Workfront] is niet ontworpen voor het repliceren of vervangen van uw bestaande systemen voor het beheren, oplopen en volgen van persoonlijke tijd uit.
 
@@ -32,8 +32,8 @@ De hulpmiddelen van het Beheer van het middel gebruiken ook uw persoonlijke tijd
 >
 >Om ervoor te zorgen dat geen inconsistenties met de data voorkomen die u uw tijd van plan bent weg voor, adviseren wij dat de tijdzone van uw gebruikersprofiel dat van uw programma aanpast. Raadpleeg de volgende artikelen voor meer informatie:
 >
->* [&#x200B; creeer een programma &#x200B;](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)
->* [&#x200B; geef het profiel van een gebruiker &#x200B;](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) uit
+>* [ creeer een programma ](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)
+>* [ geef het profiel van een gebruiker ](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) uit
 >
 
 ## Toegangsvereisten
@@ -62,7 +62,7 @@ De hulpmiddelen van het Beheer van het middel gebruiken ook uw persoonlijke tijd
  </tbody> 
 </table>
 
-Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -74,16 +74,16 @@ Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van W
 >
 >Als u op de Adobe Unified Experience werkt, hebt u toegang tot uw Workfront-profiel door te klikken op het menu Adobe-account (uw profielfoto) in het bovenste navigatiegebied en vervolgens Workfront Profile te kiezen.
 >
->![&#x200B; werkfront profiel &#x200B;](assets/aue-profile.png)
+>![ werkfront profiel ](assets/aue-profile.png)
 
 1. Klik in het linkerdeelvenster op **[!UICONTROL Time Off]** .
 1. Selecteer de gewenste datum voor uw persoonlijke tijd weg.
 
-   <!--<span class="preview">Sample image in the Preview environment:</span>
-   ![Personal time off calendar](assets/personal-time-off-calendar-0925.png)-->
+   <span class="preview"> beeld van de Steekproef in het milieu van de Voorproef:</span>
+   ![ Persoonlijke tijd van kalender ](assets/personal-time-off-calendar-0925.png)
 
-   <!--Sample image in the Production environment:-->
-   ![&#x200B; Persoonlijke tijd van kalender &#x200B;](assets/personal-time-off-calendar.png)
+   Voorbeeldafbeelding in de productieomgeving:
+   ![ Persoonlijke tijd van kalender ](assets/personal-time-off-calendar.png)
 
 1. Selecteer **[!UICONTROL All day]** als u een volledige dag uit wilt halen.
 
