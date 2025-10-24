@@ -49,7 +49,7 @@ Objecten in Workfront (en dus ook in het Data Connect Data Lake) worden niet all
 >[!IMPORTANT]
 >
 >Het verstrekte entiteitrelatiediagram (ERD) is opzettelijk onvolledig aangezien een volledig ERD onleesbaar zou worden als gevolg van het grote aantal relaties binnen de toepassing.<br>
->>Dit diagram verstrekt een voorbeeld van hoe de verhoudingen die in de lijst van het Project in de [ lijst van de Terminologie ](#terminology-table) hieronder sectie worden gedocumenteerd kunnen worden gebruikt om zich bij gegevens van de gegevensmening van het Project aan aangrenzende voorwerpen aan te sluiten. Er wordt verwacht dat een volledige ERD niet nodig is zodra dit patroon wordt begrepen voor de projectobjectrelaties
+>&#x200B;>Dit diagram verstrekt een voorbeeld van hoe de verhoudingen die in de lijst van het Project in de [&#x200B; lijst van de Terminologie &#x200B;](#terminology-table) hieronder sectie worden gedocumenteerd kunnen worden gebruikt om zich bij gegevens van de gegevensmening van het Project aan aangrenzende voorwerpen aan te sluiten. Er wordt verwacht dat een volledige ERD niet nodig is zodra dit patroon wordt begrepen voor de projectobjectrelaties
 
 ## Datumtypen
 
@@ -67,7 +67,7 @@ De volgende tabel correleert objectnamen in Workfront (en hun namen in de interf
 >[!NOTE]
 >
 >Nieuwe velden kunnen zonder voorafgaande kennisgeving aan de objectweergaven worden toegevoegd ter ondersteuning van de veranderende gegevensbehoeften van de Workfront-toepassing. Wij waarschuwen tegen het gebruiken van &quot;UITGEZOCHTE&quot;vragen waar de stroomafwaartse gegevensontvanger niet bereid is om extra kolommen te behandelen aangezien zij worden toegevoegd.<br>
->>Als het anders noemen of het verwijderen van een kolom wordt vereist, zullen wij vooraf bericht van deze veranderingen verstrekken.
+>&#x200B;>Als het anders noemen of het verwijderen van een kolom wordt vereist, zullen wij vooraf bericht van deze veranderingen verstrekken.
 
 ### Toegangsniveau
 
