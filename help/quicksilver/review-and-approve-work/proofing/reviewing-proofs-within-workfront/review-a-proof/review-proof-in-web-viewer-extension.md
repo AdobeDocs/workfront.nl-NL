@@ -6,9 +6,9 @@ description: Het Adobe Workfront-revisieprogramma is een browserextensie waarmee
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4fea13cc-2d56-466e-8851-6134782e7e80
-source-git-commit: 7bff0a8c43355472453403fcd404388a3d95d471
+source-git-commit: 78d9e8e47f8f6777f9211d8f85a3dfbc9405d798
 workflow-type: tm+mt
-source-wordcount: '604'
+source-wordcount: '607'
 ht-degree: 0%
 
 ---
@@ -37,11 +37,14 @@ Het Adobe Workfront-revisieprogramma is een webbrowserextensie waarmee u interac
 
 Revisoren en fiatteurs moeten het Adobe Workfront-revisieprogramma installeren. in een van de volgende browsers:
 
-* [&#x200B; uitbreiding Firefox &#x200B;](https://addons.mozilla.org/en-US/firefox/addon/adobe-workfront-review-tool/)
+* [ uitbreiding Firefox ](https://addons.mozilla.org/en-US/firefox/addon/adobe-workfront-review-tool/)
 
-* [&#x200B; de uitbreiding van Chrome &#x200B;](https://chromewebstore.google.com/detail/adobe-workfront-review-to/lhdepbgeilldghlfnankdnponhljpgml)
+* [ de uitbreiding van Chrome ](https://chromewebstore.google.com/detail/adobe-workfront-review-to/lhdepbgeilldghlfnankdnponhljpgml)
 
-* [&#x200B; Edge &#x200B;](https://microsoftedge.microsoft.com/addons/detail/adobe-workfront-review-to/llhapmaiiddmcamgeapaipjpagnoijen)
+* [ Edge ](https://microsoftedge.microsoft.com/addons/detail/adobe-workfront-review-to/llhapmaiiddmcamgeapaipjpagnoijen)
+
+* [ uitbreiding Safari ](https://apps.apple.com/us/app/adobe-workfront-review-tool/id6741517062?mt=12)
+
 
 
 Als u wilt dat interactieve proefdrukken automatisch worden geopend in het Adobe Workfront-revisieprogramma, moet een Workfront-beheerder de proefdrukinstellingen vooraf bijwerken, zoals in de onderstaande secties wordt beschreven.
