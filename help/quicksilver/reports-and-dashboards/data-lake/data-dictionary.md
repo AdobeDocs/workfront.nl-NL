@@ -7,9 +7,9 @@ description: Deze pagina bevat informatie over de structuur en inhoud van de geg
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 57985404-554e-4289-b871-b02d3427aa5c
-source-git-commit: 8df633f7f0946f81d6e81578a3d47719f6d8975e
+source-git-commit: e06db80d752d79157c758b3ecf3a8d4e7040e96d
 workflow-type: tm+mt
-source-wordcount: '8733'
+source-wordcount: '8788'
 ht-degree: 1%
 
 ---
@@ -48,7 +48,8 @@ Objecten in Workfront (en dus ook in het Data Connect Data Lake) worden niet all
 
 >[!IMPORTANT]
 >
->Het entiteitrelatiediagram is een werk in uitvoering. Als zodanig is het slechts ter referentie en kan het worden gewijzigd.
+>Het verstrekte entiteitrelatiediagram (ERD) is opzettelijk onvolledig aangezien een volledig ERD onleesbaar zou worden als gevolg van het grote aantal relaties binnen de toepassing.<br>
+>>Dit diagram verstrekt een voorbeeld van hoe de verhoudingen die in de lijst van het Project in de [ lijst van de Terminologie ](#terminology-table) hieronder sectie worden gedocumenteerd kunnen worden gebruikt om zich bij gegevens van de gegevensmening van het Project aan aangrenzende voorwerpen aan te sluiten. Er wordt verwacht dat een volledige ERD niet nodig is zodra dit patroon wordt begrepen voor de projectobjectrelaties
 
 ## Datumtypen
 
@@ -66,7 +67,7 @@ De volgende tabel correleert objectnamen in Workfront (en hun namen in de interf
 >[!NOTE]
 >
 >Nieuwe velden kunnen zonder voorafgaande kennisgeving aan de objectweergaven worden toegevoegd ter ondersteuning van de veranderende gegevensbehoeften van de Workfront-toepassing. Wij waarschuwen tegen het gebruiken van &quot;UITGEZOCHTE&quot;vragen waar de stroomafwaartse gegevensontvanger niet bereid is om extra kolommen te behandelen aangezien zij worden toegevoegd.<br>
->&#x200B;>Als het anders noemen of het verwijderen van een kolom wordt vereist, zullen wij vooraf bericht van deze veranderingen verstrekken.
+>>Als het anders noemen of het verwijderen van een kolom wordt vereist, zullen wij vooraf bericht van deze veranderingen verstrekken.
 
 ### Toegangsniveau
 
