@@ -7,7 +7,7 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 3606b6c3-b373-47ea-9cb5-813bd3af8da7
-source-git-commit: 2c5a4ff65088652b67099d187e6ee4c11d80a3b3
+source-git-commit: 0921cc0e45a0a845404df90fc8789efc764f5790
 workflow-type: tm+mt
 source-wordcount: '320'
 ht-degree: 0%
@@ -71,7 +71,7 @@ server {
 }
 ```
 
-Voor meer informatie, zie de [&#x200B; documentatie NGiNX voor ngx_http_ssl_module &#x200B;](https://nginx.org/en/docs/http/ngx_http_ssl_module.html).
+Voor meer informatie, zie de [ documentatie NGiNX voor ngx_http_ssl_module ](https://nginx.org/en/docs/http/ngx_http_ssl_module.html).
 
 ### Apache
 
@@ -94,8 +94,8 @@ Listen 443
 
 Zie voor meer informatie
 
-* [&#x200B; de Authentificatie van de Cliënt en het Controle van de Toegang &#x200B;](https://httpd.apache.org/docs/2.4/ssl/ssl_howto.html#accesscontrol)
-* [&#x200B; Apache Module mod_ssl &#x200B;](https://httpd.apache.org/docs/2.4/mod/mod_ssl.html)
+* [ de Authentificatie van de Cliënt en het Controle van de Toegang ](https://httpd.apache.org/docs/2.4/ssl/ssl_howto.html#accesscontrol)
+* [ Apache Module mod_ssl ](https://httpd.apache.org/docs/2.4/mod/mod_ssl.html)
  
 
 ## Toewijzing certificaat aan omgeving
@@ -111,9 +111,9 @@ Zie voor meer informatie
 
 Klik op de volgende koppelingen om de clientcertificaten te downloaden.
 
-* [Clientcertificaat - Productieomgeving](assets/prod-environment-nov-2024.crt)
-* [Clientcertificaat - Voorvertoningsomgeving](assets/preview-environment-nov-2024.crt)
-* [Clientcertificaat - Sandbox-omgeving](assets/sandbox-environment-nov-2024.crt)
+* [Clientcertificaat - Productieomgeving](assets/prod-ES-client-cert-oct25.crt)
+* [Clientcertificaat - Voorvertoningsomgeving](assets/preview-ES-client-cert-oct25.crt)
+* [Clientcertificaat - Sandbox-omgeving](assets/sandbox-ES-client-cert-oct25.crt)
 
 >[!NOTE]
 >
