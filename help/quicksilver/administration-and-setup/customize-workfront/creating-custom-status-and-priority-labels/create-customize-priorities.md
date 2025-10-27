@@ -5,18 +5,16 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 6e7952cf-f07a-412b-9f9a-623cdba46849
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 5706ebd11985b9e67c93686918f8f0327adabdf1
 workflow-type: tm+mt
-source-wordcount: '737'
+source-wordcount: '769'
 ht-degree: 0%
 
 ---
 
 # Prioriteiten maken en aanpassen
 
-{{highlighted-preview}}
-
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment, and is being released in a phased rollout to Production.</span>-->
+<span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Het is beschikbaar slechts in het milieu van de Sandbox van de Voorproef, en wordt vrijgegeven in gefaseerde uitrol aan Productie.</span>
 
 <!--
 DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.
@@ -48,7 +46,7 @@ U kunt de prioriteiten voor projecten, taken, en kwesties in het gebied van de O
  </tbody> 
 </table>
 
-Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -59,18 +57,18 @@ Als beheerder van Workfront, kunt u de volgende wijzigingen in de standaardprior
 * Wijzig de naam van prioriteiten.
 * Herstel de prioriteiten.
 
-  Voor meer informatie over hoe te om prioriteiten te herschikken, zie [&#x200B; een prioriteit voor een project, een taak, of een kwestie &#x200B;](#create-a-priority-for-a-project-task-or-issue) creëren.
+  Voor meer informatie over hoe te om prioriteiten te herschikken, zie [ een prioriteit voor een project, een taak, of een kwestie ](#create-a-priority-for-a-project-task-or-issue) creëren.
 
 * Wijzig de standaardprioriteit.
 
-  Voor meer informatie over de functionaliteit om de standaardprioriteit te veranderen, zie [&#x200B; een prioriteit voor een project, een taak, of een kwestie &#x200B;](#create-a-priority-for-a-project-task-or-issue) creëren.
+  Voor meer informatie over de functionaliteit om de standaardprioriteit te veranderen, zie [ een prioriteit voor een project, een taak, of een kwestie ](#create-a-priority-for-a-project-task-or-issue) creëren.
 
 * Bewerk de beschrijving van de prioriteiten.
 * Stel een kleur in voor elke prioriteit.
 
   De kleur van de prioriteit wordt gebruikt in grafiekrapporten, wanneer u uw resultaten door **Prioriteit** groepeert.
 
-  Voor meer informatie over grafiekrapporten, zie [&#x200B; een grafiek aan een rapport &#x200B;](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md) toevoegen.
+  Voor meer informatie over grafiekrapporten, zie [ een grafiek aan een rapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md) toevoegen.
 
 * Prioriteiten verwijderen.
 
@@ -78,7 +76,7 @@ Als beheerder van Workfront, kunt u de volgende wijzigingen in de standaardprior
 
 * Prioriteiten verbergen.
 
-  Voor meer informatie over de functionaliteit om prioriteiten te verbergen, zie [&#x200B; een prioriteit voor een project, een taak, of een kwestie &#x200B;](#create-a-priority-for-a-project-task-or-issue) creëren.
+  Voor meer informatie over de functionaliteit om prioriteiten te verbergen, zie [ een prioriteit voor een project, een taak, of een kwestie ](#create-a-priority-for-a-project-task-or-issue) creëren.
 
   >[!NOTE]
   >
@@ -113,7 +111,7 @@ Naast de standaardprioriteiten in Workfront kunt u ook uw eigen prioriteiten toe
 
    * **Kleur**: Kies een kleur voor de prioriteit.
 
-     De kleur van de prioriteit wordt gebruikt in grafiekrapporten en de Montages van het Team van de Gelijkheid. Voor informatie over grafiekrapporten, zie [&#x200B; een grafiek aan een rapport &#x200B;](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md) toevoegen. Voor informatie over de Montages van het Team van de Gelijke, zie [&#x200B; een nieuw team &#x200B;](/help/quicksilver/agile/get-started-with-agile-in-workfront/create-an-agile-team.md) creëren.
+     De kleur van de prioriteit wordt gebruikt in grafiekrapporten en de Montages van het Team van de Gelijkheid. Voor informatie over grafiekrapporten, zie [ een grafiek aan een rapport ](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md) toevoegen. Voor informatie over de Montages van het Team van de Gelijke, zie [ een nieuw team ](/help/quicksilver/agile/get-started-with-agile-in-workfront/create-an-agile-team.md) creëren.
 
    * **Standaard Prioriteit**: Selecteer de prioriteit u Workfront automatisch op alle pas gecreëerde projecten, taken, of kwesties wilt toepassen.
 
@@ -123,7 +121,7 @@ Naast de standaardprioriteiten in Workfront kunt u ook uw eigen prioriteiten toe
 
      <div class="preview">
 
-     De standaardprioriteit wordt vermeld met een pictogram ![&#x200B; Standaard prioritaire pictogram &#x200B;](assets/default-icon.png). Voer een van de volgende handelingen uit om een nieuwe standaardinstelling te kiezen:
+     De standaardprioriteit wordt vermeld met een pictogram ![ Standaard prioritaire pictogram ](assets/default-icon.png). Voer een van de volgende handelingen uit om een nieuwe standaardinstelling te kiezen:
 
       * Selecteer de controledoos naast de prioritaire naam en selecteer **maak Gebrek** in de actiebar bij de bodem van het scherm.
       * Beweeg over de prioritaire naam en klik **Meer** menu dat verschijnt. Dan, uitgezochte **maak Gebrek**.
@@ -149,6 +147,6 @@ Naast de standaardprioriteiten in Workfront kunt u ook uw eigen prioriteiten toe
 
 Zie de volgende artikelen voor instructies over het toepassen van prioriteiten op projecten, taken en kwesties:
 
-* [&#x200B; Begrijp en werk projectprioriteiten bij &#x200B;](../../../manage-work/projects/planning-a-project/project-priority.md)
-* [&#x200B; Prioriteit van de Taak van de Update &#x200B;](../../../manage-work/tasks/task-information/task-priority.md)
+* [ Begrijp en werk projectprioriteiten bij ](../../../manage-work/projects/planning-a-project/project-priority.md)
+* [ Prioriteit van de Taak van de Update ](../../../manage-work/tasks/task-information/task-priority.md)
 * [Prioriteit van probleem bijwerken](../../../manage-work/issues/issue-information/update-issue-priority.md)

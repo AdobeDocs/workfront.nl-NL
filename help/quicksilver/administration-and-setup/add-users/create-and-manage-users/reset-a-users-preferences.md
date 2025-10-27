@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: abe026d0-3584-49f3-a6db-ef88b3aab186
-source-git-commit: e25ea757129e9645f7b5f0729cd498d5947f49f2
+source-git-commit: 5706ebd11985b9e67c93686918f8f0327adabdf1
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '397'
 ht-degree: 1%
 
 ---
@@ -49,7 +49,7 @@ Individuele gebruikers kunnen ook hun eigen voorkeursinstellingen voor gebruiker
  </tbody> 
 </table>
 
-Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -115,7 +115,7 @@ Wanneer u gebruikersvoorkeuren opnieuw instelt, worden sommige voorkeuren terugg
 | Groepen | Teruggedraaid naar systeemstandaard <p>Bestaande groepen worden niet verwijderd. U kunt deze opnieuw selecteren.</p> |
 | Lijst met recente objecten | Cleared |
 | Lijst Favorieten | Onbeïnvloed |
-| Gebruikersvoorkeuren | Teruggedraaid naar systeemstandaard <p>E-mailmeldingen worden teruggezet naar de standaardwaarden van het systeem. De standaardberichten worden vermeld in [&#x200B; berichten van de Gebeurtenis beschikbaar in Adobe Workfront &#x200B;](/help/quicksilver/administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).</p> |
+| Gebruikersvoorkeuren | Teruggedraaid naar systeemstandaard <p>E-mailmeldingen worden teruggezet naar de standaardwaarden van het systeem. De standaardberichten worden vermeld in [ berichten van de Gebeurtenis beschikbaar in Adobe Workfront ](/help/quicksilver/administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).</p> |
 
 </div>
 
@@ -148,12 +148,8 @@ Wanneer u gebruikersvoorkeuren opnieuw instelt, worden sommige voorkeuren terugg
 
 1. Pers **gaat** binnen.
 
-<div class="preview">
+1. <span class="preview"> om alle gebruikersvoorkeur terug te stellen, klik **Terugstellen**.</span>
 
-1. Om alle gebruikersvoorkeur terug te stellen, klik **Terugstellen**.
+   <span class="preview"> Of </span>
 
-   of
-
-   Om slechts douanetabs terug te stellen, klik **Linkernavigatie van het Terugstellen**.
-
-</div>
+   <span class="preview"> om de linkernavigatie van de gebruiker aan de originele configuratie van het lay-outmalplaatje terug te stellen, klik **Linkernavigatie van het Terugstellen**.</span>
