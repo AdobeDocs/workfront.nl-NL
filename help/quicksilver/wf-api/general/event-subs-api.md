@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: 987eea4d0ad7f8e30b944418836280728ee63812
+source-git-commit: 8f5cd4125281bb00331c4dc895cc57b138190cfe
 workflow-type: tm+mt
-source-wordcount: '3054'
+source-wordcount: '3031'
 ht-degree: 0%
 
 ---
@@ -79,7 +79,7 @@ De volgende Workfront-objecten worden ondersteund door gebeurtenisabonnementen.
 
 >[!NOTE]
 >
->Voor een lijst van gebieden die door de voorwerpen van het gebeurtenisabonnement worden gesteund, zie &lbrace;de gebieden van het het abonnementsmiddel van de Gebeurtenis [.](../../wf-api/api/event-sub-resource-fields.md)
+>Voor een lijst van gebieden die door de voorwerpen van het gebeurtenisabonnement worden gesteund, zie {de gebieden van het het abonnementsmiddel van de Gebeurtenis [.](../../wf-api/api/event-sub-resource-fields.md)
 
 ## Verificatie van abonnement op gebeurtenis
 
@@ -88,7 +88,7 @@ Uw Workfront-gebruiker heeft het volgende nodig om een gebeurtenissenabonnement 
 * Een toegangsniveau van &quot;Beheerder van het Systeem&quot;wordt vereist om de Abonnementen van de Gebeurtenis te gebruiken.
 * Een header `sessionID` is vereist om de API voor abonnementen op gebeurtenissen te gebruiken
 
-  Voor meer informatie, zie [&#x200B; Authentificatie &#x200B;](api-basics.md#authentication) in [&#x200B; API Grondbeginselen &#x200B;](api-basics.md).
+  Voor meer informatie, zie [ Authentificatie ](api-basics.md#authentication) in [ API Grondbeginselen ](api-basics.md).
 
 ## Overlappingen van gebeurtenisabonnementen voorkomen
 
@@ -473,7 +473,7 @@ Workfront heeft twee versies van gebeurtenisabonnementen.
 
 De capaciteit om gebeurtenisabonnementen te bevorderen of te degraderen zorgt ervoor dat wanneer de veranderingen in de structuur van gebeurtenissen worden aangebracht, de bestaande abonnementen niet breken, toestaand u om aan de nieuwe versie zonder een hiaat in uw gebeurtenisabonnement te testen en te bevorderen.
 
-Voor meer informatie over gebeurtenisabonnement versioning, met inbegrip van specifieke verschillen tussen de versie en belangrijke data, zie [&#x200B; het abonnement van de Gebeurtenis versioning &#x200B;](/help/quicksilver/wf-api/general/event-subs-versioning.md).
+Voor meer informatie over gebeurtenisabonnement versioning, met inbegrip van specifieke verschillen tussen de versie en belangrijke data, zie [ het abonnement van de Gebeurtenis versioning ](/help/quicksilver/wf-api/general/event-subs-versioning.md).
 
 >[!NOTE]
 >
@@ -816,7 +816,7 @@ Met deze connector wordt het filter toegepast op de nieuwe status of oude status
 >[!NOTE]
 >
 >Het abonnement hieronder met het opgegeven filter retourneert alleen berichten waarin de naam van de taak `again` bevat op de `oldState` -taak, wat deze was voordat een update op de taak werd uitgevoerd.
->&#x200B;>Een gebruiksgeval voor dit zou zijn om de objCode- berichten te vinden die van één ding aan een ander veranderden. Bijvoorbeeld om alle taken te weten te komen die van &quot;Onderzoek één of andere naam&quot;in &quot;Onderzoek TeamName Één of andere naam&quot;veranderde
+>>Een gebruiksgeval voor dit zou zijn om de objCode- berichten te vinden die van één ding aan een ander veranderden. Bijvoorbeeld om alle taken te weten te komen die van &quot;Onderzoek één of andere naam&quot;in &quot;Onderzoek TeamName Één of andere naam&quot;veranderde
 
 ```
 {
@@ -962,12 +962,14 @@ Het bovenstaande voorbeeld bevat de volgende componenten:
 
 1. Het bovenste filter (buiten de groep):
 
-   * { &quot;fieldName&quot;: &quot;percentComplete&quot;, &quot;fieldValue&quot;: &quot;100&quot;, &quot;compare&quot;: &quot;lt&quot; }
+   * `{ "fieldName": "percentComplete", "fieldValue": "100", "comparison": "lt" }`
    * Dit filter controleert of het percentComplete gebied van de bijgewerkte taak minder dan 100 is.
 
 1. Filtergroep (geneste filters met OR):
-   * { &quot;type&quot;: &quot;group&quot;, &quot;connector&quot;: &quot;OR&quot;, &quot;filters&quot;: [{ &quot;fieldName&quot;: &quot;status&quot;, &quot;fieldValue&quot;: &quot;CUR&quot;, &quot;compare&quot;: &quot;eq&quot; }, { &quot;fieldName&quot;: &quot;priority&quot;, &quot;fieldValue&quot;: &quot;1&quot;, &quot;compare&quot;: &quot;eq&quot; }] }
+
+   * `{ "type": "group", "connector": "OR", "filters": [ { "fieldName": "status", "fieldValue": "CUR", "comparison": "eq" }, { "fieldName": "priority", "fieldValue": "1", "comparison": "eq" } ] }`
    * Deze groep evalueert twee interne filters:
+
       * De eerste controles als de taakstatus &quot;CUR&quot;(huidig) evenaart.
       * De tweede controleert of de prioriteit gelijk is aan &quot;1&quot; (hoge prioriteit).
    * Omdat de schakelaar &quot;OF&quot;is, zal deze groep overgaan als één van beide voorwaarde waar is.
@@ -981,7 +983,8 @@ Het bovenstaande voorbeeld bevat de volgende componenten:
 
 >[!NOTE]
 >
->Er zijn grenzen op zijn plaats om verenigbare systeemprestaties te verzekeren wanneer het gebruiken van filtergroepen, die het volgende omvatten:<br>
+>Er gelden limieten voor consistente systeemprestaties bij het gebruik van filtergroepen, waaronder de volgende:
+>
 >* Elk abonnement ondersteunt maximaal tien filtergroepen (waarbij elke groep meerdere filters bevat).
 >* Elke filtergroep kan maximaal vijf filters bevatten om mogelijke verslechtering van de prestaties tijdens de gebeurtenisverwerking te voorkomen.
 >* Terwijl het hebben van tot 10 filtergroepen (elk met 5 filters) wordt gesteund, kan een groot aantal actieve abonnementen met complexe filterlogica in een vertraging tijdens gebeurtenisevaluatie resulteren.
