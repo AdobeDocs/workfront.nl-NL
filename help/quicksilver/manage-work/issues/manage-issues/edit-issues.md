@@ -8,7 +8,7 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 1449374a-ab0d-4c98-83cd-4e511467633a
-source-git-commit: 6ded38ef130fbcdde8d680f77f6db38fbd81efb4
+source-git-commit: a18b70b20e37f9751fbae2d4aad76e4905f976b2
 workflow-type: tm+mt
 source-wordcount: '2578'
 ht-degree: 0%
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # Problemen bewerken
 
-<!--Audited: 03/2025-->
+<!--Audited: 10/2025-->
 
 <!--
 <div class="preview"> 
@@ -31,7 +31,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
 U kunt informatie bewerken over uitgaven die u hebt gemaakt of die andere gebruikers hebben gemaakt als zij de problemen met u hebben gedeeld.
 
-U kunt één uitgave bewerken of u kunt uitgaven in een lijst bewerken. Voor informatie over het uitgeven van kwesties in een lijst, zie [&#x200B; kwesties in een lijst &#x200B;](../../../manage-work/issues/manage-issues/edit-issues-in-a-list.md) uitgeven.
+U kunt één uitgave bewerken of u kunt uitgaven in een lijst bewerken. Voor informatie over het uitgeven van kwesties in een lijst, zie [ kwesties in een lijst ](../../../manage-work/issues/manage-issues/edit-issues-in-a-list.md) uitgeven.
 
 ## Toegangsvereisten
 
@@ -69,7 +69,7 @@ U kunt één uitgave bewerken of u kunt uitgaven in een lijst bewerken. Voor inf
  </tbody> 
 </table>
 
-*For informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*For informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -114,7 +114,7 @@ U kunt één uitgave bewerken of u kunt uitgaven in een lijst bewerken. Voor inf
 Er zijn enkele beperkingen die kunnen voorkomen dat u problemen kunt bewerken.
 
 * U kunt geen kwesties uitgeven die in een Goedkeuringsproces zijn. U kunt de status van een probleem dat zich in afwachting van goedkeuring bevindt, alleen aanmelden of bijwerken.
-* U kunt documenten aan kwesties op een project uitgeven en toevoegen dat een status van Voltooid heeft, Dead, of in afwachting van Goedkeuring slechts wanneer uw beheerder van Workfront of een groepsbeheerder deze functionaliteit op het gebied van de Voorkeur van het Project toeliet. Voor informatie over het plaatsen van projectvoorkeur, zie [&#x200B; systeem-brede projectvoorkeur &#x200B;](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) vormen.
+* U kunt documenten aan kwesties op een project uitgeven en toevoegen dat een status van Voltooid heeft, Dead, of in afwachting van Goedkeuring slechts wanneer uw beheerder van Workfront of een groepsbeheerder deze functionaliteit op het gebied van de Voorkeur van het Project toeliet. Voor informatie over het plaatsen van projectvoorkeur, zie [ systeem-brede projectvoorkeur ](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) vormen.
 
 ## Eén uitgave bewerken
 
@@ -125,20 +125,20 @@ U kunt een uitgave bewerken met de gebieden Probleem bewerken of Details van pro
 1. (Facultatief) klik **Taken**, dan klik de naam van een taak om de taak te openen.
 1. Klik **Kwesties** in het linkerpaneel.
 
-   ![&#x200B; pictogram van Kwesties &#x200B;](assets/qs-issues-icon-highlighted-on-project-350x278.png)
+   ![ pictogram van Kwesties ](assets/qs-issues-icon-highlighted-on-project-350x278.png)
 
 1. (Facultatief) om beperkte informatie over een kwestie uit te geven, klik **Details van de Uitgave** in het linkerpaneel.
 
    >[!NOTE]
    >
-   >Afhankelijk van de manier waarop uw Workfront-beheerder of groepsbeheerder uw lay-outsjabloon heeft gewijzigd, kunnen de velden in het gebied Details van uitgave opnieuw worden gerangschikt of niet worden weergegeven. Voor informatie, zie [&#x200B; de mening van Details aanpassen gebruikend een lay-outmalplaatje &#x200B;](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
+   >Afhankelijk van de manier waarop uw Workfront-beheerder of groepsbeheerder uw lay-outsjabloon heeft gewijzigd, kunnen de velden in het gebied Details van uitgave opnieuw worden gerangschikt of niet worden weergegeven. Voor informatie, zie [ de mening van Details aanpassen gebruikend een lay-outmalplaatje ](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
 
    Ga als volgt te werk om de gegevens in de sectie Details te bewerken:
 
    1. (Optioneel) Klik op het pictogram **Alles samenvouwen** rechtsboven om alle gebieden samen te vouwen.
-   1. (Facultatief en voorwaardelijk) wanneer een gebied wordt doen ineenstorten, klik de **juist-richt pijl** ![&#x200B; juist richtende pijl &#x200B;](assets/right-pointing-arrow.png) naast elk gebied om het gebied uit te breiden u wilt uitgeven.
+   1. (Facultatief en voorwaardelijk) wanneer een gebied wordt doen ineenstorten, klik de **juist-richt pijl** ![ juist richtende pijl ](assets/right-pointing-arrow.png) naast elk gebied om het gebied uit te breiden u wilt uitgeven.
    1. (Facultatief) om een douaneformulier vast te maken, begin de naam van een vorm in **te typen voeg douaneformulier** toe, dan selecteer het wanneer het in de lijst toont, dan klik **sparen Veranderingen**.
-   1. (Facultatief) klik het **pictogram van de Uitvoer** pictogram van de Uitvoer ![&#x200B; om het Overzicht en de informatie van de douaneformulieren naar een dossier van PDF uit te voeren, dan klik &#x200B;](assets/export.png) Uitvoer **.** Selecteer een van de volgende opties:
+   1. (Facultatief) klik het **pictogram van de Uitvoer** pictogram van de Uitvoer ![ om het Overzicht en de informatie van de douaneformulieren naar een dossier van PDF uit te voeren, dan klik ](assets/export.png) Uitvoer **.** Selecteer een van de volgende opties:
 
       * Alles selecteren (wordt alleen weergegeven als er ten minste één aangepast formulier is gekoppeld)
       * Overzicht
@@ -146,9 +146,9 @@ U kunt een uitgave bewerken met de gebieden Probleem bewerken of Details van pro
 
       Het PDF-bestand wordt naar uw computer gedownload.
 
-      ![&#x200B; de kwesties van de Uitvoer details &#x200B;](assets/export-issue-details-selection-box-with-export-button-350x418.png)
+      ![ de kwesties van de Uitvoer details ](assets/export-issue-details-selection-box-with-export-button-350x418.png)
 
-      Voor meer informatie, zie [&#x200B; de douaneformulieren en objecten details van de Uitvoer &#x200B;](../../../workfront-basics/work-with-custom-forms/export-custom-forms-details.md).
+      Voor meer informatie, zie [ de douaneformulieren en objecten details van de Uitvoer ](../../../workfront-basics/work-with-custom-forms/export-custom-forms-details.md).
 
    Voor informatie over de velden die zichtbaar zijn in de sectie Details van uitgave, gaat u verder met het bewerken van het probleem in het venster Uitgave bewerken, zoals hieronder beschreven.
 
@@ -176,9 +176,9 @@ U kunt een uitgave bewerken met de gebieden Probleem bewerken of Details van pro
 
    >[!NOTE]
    >
-   >Afhankelijk van de manier waarop uw Workfront-beheerder onze lay-outsjabloon instelt, kunnen de velden in het vak Probleem bewerken verschillen in uw omgeving. Voor informatie, zie [&#x200B; de mening van Details aanpassen gebruikend een lay-outmalplaatje &#x200B;](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
+   >Afhankelijk van de manier waarop uw Workfront-beheerder onze lay-outsjabloon instelt, kunnen de velden in het vak Probleem bewerken verschillen in uw omgeving. Voor informatie, zie [ de mening van Details aanpassen gebruikend een lay-outmalplaatje ](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
    >
-   >De meeste velden in de onderstaande secties zijn ook toegankelijk vanuit het vak Nieuwe uitgave wanneer u een uitgave maakt. De secties waaronder de velden zich bevinden, komen niet overeen met het vak Nieuwe uitgave. Voor informatie over het creëren van kwesties, zie [&#x200B; kwesties &#x200B;](../../issues/manage-issues/create-issues.md) creëren.
+   >De meeste velden in de onderstaande secties zijn ook toegankelijk vanuit het vak Nieuwe uitgave wanneer u een uitgave maakt. De secties waaronder de velden zich bevinden, komen niet overeen met het vak Nieuwe uitgave. Voor informatie over het creëren van kwesties, zie [ kwesties ](../../issues/manage-issues/create-issues.md) creëren.
 
 ### Naam van uitgave {#issue-name}
 
@@ -195,7 +195,7 @@ U kunt een uitgave bewerken met de gebieden Probleem bewerken of Details van pro
 1. Bewerk een uitgave zoals hierboven beschreven.
 1. Klik **Overzicht**.
 
-   ![&#x200B; de overzichtssectie van de Uitgave &#x200B;](assets/overview-section-edit-issue-box-nwe-350x284.png)
+   ![ de overzichtssectie van de Uitgave ](assets/overview-section-edit-issue-box-nwe-350x284.png)
 
 1. Werk of herzie om het even welke gebieden in de volgende lijst bij:
 
@@ -328,12 +328,12 @@ U kunt een uitgave bewerken met de gebieden Probleem bewerken of Details van pro
 1. Bewerk de uitgave zoals hierboven beschreven.
 1. Klik **Toewijzingen** in het linkerpaneel.
 
-   ![&#x200B; sectie van de Toewijzingen van de Uitgave &#x200B;](assets/assignments-section-edit-issue-box-nwe-350x230.png)
+   ![ sectie van de Toewijzingen van de Uitgave ](assets/assignments-section-edit-issue-box-nwe-350x230.png)
 
 1. Klik **mensen van het Onderzoek, rol en teams** en begin de naam van een gebruiker, een rol, of een team te typen dat u aan de kwestie wilt toewijzen, dan het klikken of drukken binnengaan wanneer het op de lijst toont.
 
    <!--
-   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: ensure this is still called this; asked Anna to change it to "roles" and add a comma)</p>
+   (NOTE: ensure this is still called this; asked Anna to change it to "roles" and add a comma)
    -->
 
    >[!NOTE]
@@ -351,7 +351,6 @@ U kunt een uitgave bewerken met de gebieden Probleem bewerken of Details van pro
    >* Koppel de gebruikers in een gedeactiveerd team aan een actief team en wijs het het werkpunt aan het actieve team opnieuw toe.
 
    <!--1. (Conditional) Depending on what environment you are editing issues in, do one of the following:
-
    1. In the Production environment, INDENT THE FOLLOWING STEPS FURTHER AT RELEASE: (Optional) Indicate whether an assignee is the primary assignee on the issue, by hovering over the name of the assignee and clicking **Make Primary**. A team cannot be the primary assignee of an issue. -->
 
 1. Werk de volgende velden bij:
@@ -368,7 +367,7 @@ U kunt een uitgave bewerken met de gebieden Probleem bewerken of Details van pro
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">Rol van de gemachtigde</td> 
-      <td> <p>Selecteer een rol van het <strong> drop-down menu van de Rol van 0&rbrace; Toegewezen wanneer u een persoon als toegewezen selecteerde. </strong> Dit is de rol die de verkrijger op dit punt kan vervullen. </p> <p><b>TIP</b>
+      <td> <p>Selecteer een rol van het <strong> drop-down menu van de Rol van 0} Toegewezen wanneer u een persoon als toegewezen selecteerde. </strong> Dit is de rol die de verkrijger op dit punt kan vervullen. </p> <p><b>TIP</b>
 
    Alleen de functies die aan elke toegewezen persoon in het profiel zijn gekoppeld, worden weergegeven in het vervolgkeuzemenu.</p> </td>
    </tr> 
@@ -377,12 +376,17 @@ U kunt een uitgave bewerken met de gebieden Probleem bewerken of Details van pro
 
    <!--
    <div class="preview">
-   1. (Conditional) In the Preview environment, update the **Planned Hours** field
-      Or 
-      Click **Assign to me** to assign the issue to yourself. (********ADD DEFINITION OF PLANNED HOURS FROM THE TABLE AT PROD RELEASE*********)
+   1. (Conditional) In the Preview environment, do one of the following:
+         * Click **Assign to me** to assign the issue to yourself
+      * Update the **Planned Hours** field.
+         The **Planned Hours** is the amount of hours it would take the assignees of the issue to complete it. 
+         >[!NOTE]
+         >
+         >Changing the Planned Hours of the issue will not change the issue Planned Completion Date. 
    </div> -->
 
-1. Om taken uit alle kwesties te verwijderen, zie [&#x200B; kwesties toewijzen &#x200B;](/help/quicksilver/manage-work/issues/manage-issues/assign-issues.md).
+
+1. Om taken uit alle kwesties te verwijderen, zie [ kwesties toewijzen ](/help/quicksilver/manage-work/issues/manage-issues/assign-issues.md).
 
 1. Klik **sparen** of blijf het uitgeven van de volgende secties.
 
@@ -391,15 +395,15 @@ U kunt een uitgave bewerken met de gebieden Probleem bewerken of Details van pro
 1. Bewerk een uitgave zoals hierboven beschreven.
 1. Klik **Aangepaste Forms**.
 
-   ![&#x200B; uitgeeft de sectie van de douanevormen &#x200B;](assets/custom-forms-section-edit-issue-box-nwe-350x132.png)
+   ![ uitgeeft de sectie van de douanevormen ](assets/custom-forms-section-edit-issue-box-nwe-350x132.png)
 
-1. In **voeg douaneformulier** gebied toe, selecteer de douanevorm of de vormen die u met de kwestie wilt associëren. U moet aangepaste formulieren maken voordat u ze in dit veld kunt selecteren. Alleen actieve aangepaste formulieren worden in de lijst weergegeven. Voor meer informatie over de bouw van douaneformulieren, zie [&#x200B; een douaneformulier &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren. U kunt maximaal tien aangepaste formulieren toevoegen aan een uitgave.
+1. In **voeg douaneformulier** gebied toe, selecteer de douanevorm of de vormen die u met de kwestie wilt associëren. U moet aangepaste formulieren maken voordat u ze in dit veld kunt selecteren. Alleen actieve aangepaste formulieren worden in de lijst weergegeven. Voor meer informatie over de bouw van douaneformulieren, zie [ een douaneformulier ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren. U kunt maximaal tien aangepaste formulieren toevoegen aan een uitgave.
 
 1. (Voorwaardelijk) Als u een aangepast formulier aan de uitgave hebt gekoppeld, bewerkt u alle velden op het formulier. U moet alle vereiste velden opgeven voordat u de uitgave kunt opslaan.
 
    >[!NOTE]
    >
-   >Afhankelijk van de manier waarop uw Workfront-beheerder de machtigingen voor de secties in uw aangepaste formulier instelt, kan niet iedereen dezelfde velden op een aangepast formulier weergeven of bewerken. De machtigingen voor het bewerken van velden in een sectie van een aangepast formulier zijn afhankelijk van de machtigingen die u hebt voor de uitgave zelf. Voor informatie over het plaatsen van toestemmingen op secties van een douaneformulier, zie [&#x200B; een douaneformulier &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren. Voor informatie over het plaatsen van de toestemmingen van de uitgave, zie [&#x200B; een kwestie &#x200B;](../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md) delen.
+   >Afhankelijk van de manier waarop uw Workfront-beheerder de machtigingen voor de secties in uw aangepaste formulier instelt, kan niet iedereen dezelfde velden op een aangepast formulier weergeven of bewerken. De machtigingen voor het bewerken van velden in een sectie van een aangepast formulier zijn afhankelijk van de machtigingen die u hebt voor de uitgave zelf. Voor informatie over het plaatsen van toestemmingen op secties van een douaneformulier, zie [ een douaneformulier ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren. Voor informatie over het plaatsen van de toestemmingen van de uitgave, zie [ een kwestie ](../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md) delen.
 
 1. Klik **sparen** of blijf het uitgeven van de volgende sectie.
 
@@ -408,7 +412,7 @@ U kunt een uitgave bewerken met de gebieden Probleem bewerken of Details van pro
 1. Bewerk een uitgave zoals hierboven beschreven.
 1. Klik **Montages**.
 
-   ![&#x200B; pictogram van de montages van de Kwestie &#x200B;](assets/settings-section-edit-issue-box-nwe-350x240.png)
+   ![ pictogram van de montages van de Kwestie ](assets/settings-section-edit-issue-box-nwe-350x240.png)
 
    Werk de volgende gegevens bij:
 
@@ -450,16 +454,16 @@ U kunt een uitgave bewerken met de gebieden Probleem bewerken of Details van pro
 
 U kunt een beperkte hoeveelheid informatie in de uitgiftheader bewerken.
 
-Uw systeem- of groepsbeheerder kan de velden die u in de uitgiftekop ziet, aanpassen. Voor informatie, zie [&#x200B; objecten kopballen aanpassen gebruikend een lay-outmalplaatje &#x200B;](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
+Uw systeem- of groepsbeheerder kan de velden die u in de uitgiftekop ziet, aanpassen. Voor informatie, zie [ objecten kopballen aanpassen gebruikend een lay-outmalplaatje ](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
 
-![&#x200B; kopbal van de Uitgave &#x200B;](assets/issue-header-350x19.png)
+![ kopbal van de Uitgave ](assets/issue-header-350x19.png)
 
 De volgende velden worden standaard opgenomen in de uitgiftheader:
 
 * Naam van uitgave
 * Percentage voltooid
 
-  Voor informatie, zie [&#x200B; Mening en werk Percent bij Voltooid voor taken &#x200B;](/help/quicksilver/manage-work/projects/updating-work-in-a-project/view-update-percent-complete-for-tasks.md).
+  Voor informatie, zie [ Mening en werk Percent bij Voltooid voor taken ](/help/quicksilver/manage-work/projects/updating-work-in-a-project/view-update-percent-complete-for-tasks.md).
 * Toewijzingen
 * Geplande voltooiing Datum en tijd
 * Status

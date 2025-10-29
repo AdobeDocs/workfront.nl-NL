@@ -7,16 +7,16 @@ author: Lisa
 feature: Work Management
 role: User
 exl-id: e2dce29e-7370-4580-8326-99c4437998bf
-source-git-commit: 6ded38ef130fbcdde8d680f77f6db38fbd81efb4
+source-git-commit: a18b70b20e37f9751fbae2d4aad76e4905f976b2
 workflow-type: tm+mt
-source-wordcount: '1424'
+source-wordcount: '1465'
 ht-degree: 0%
 
 ---
 
 # Problemen toewijzen
 
-<!--Audited: 07/2024-->
+<!--Audited: 10/2024-->
 
 <!--
 <div class="preview"> 
@@ -28,7 +28,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 </div> 
 -->
 
-U kunt problemen toewijzen aan gebruikers, rollen en teams om aan te geven wie verantwoordelijk is voor het voltooien van de problemen. Voor algemene informatie over het toewijzen van kwesties, zie [&#x200B; Overzicht van het wijzigen van uitgiftetaken &#x200B;](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md).
+U kunt problemen toewijzen aan gebruikers, rollen en teams om aan te geven wie verantwoordelijk is voor het voltooien van de problemen. Voor algemene informatie over het toewijzen van kwesties, zie [ Overzicht van het wijzigen van uitgiftetaken ](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md).
 
 >[!TIP]
 >
@@ -41,17 +41,17 @@ U kunt problemen toewijzen aan gebruikers, rollen en teams om aan te geven wie v
 
 Naast dit artikel raden we u aan de volgende artikelen te lezen voor meer informatie over het toewijzen van problemen:
 
-* [&#x200B; Overzicht van het wijzigen van uitgiftetaken &#x200B;](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md)
-* [&#x200B; geeft kwesties &#x200B;](../../../manage-work/issues/manage-issues/edit-issues.md) uit
-* [&#x200B; wijzig gebruikerstoewijzingen voor veelvoudige kwesties in een lijst &#x200B;](../../../manage-work/issues/manage-issues/edit-assignments-for-multiple-issues.md)
-* [&#x200B; creeer geavanceerde taken &#x200B;](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md)
-* [&#x200B; maak slimme taken &#x200B;](../../../manage-work/tasks/assign-tasks/make-smart-assignments.md)
-* [&#x200B; Slim overzicht van taken &#x200B;](../../../manage-work/tasks/assign-tasks/smart-assignments.md)
+* [ Overzicht van het wijzigen van uitgiftetaken ](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md)
+* [ geeft kwesties ](../../../manage-work/issues/manage-issues/edit-issues.md) uit
+* [ wijzig gebruikerstoewijzingen voor veelvoudige kwesties in een lijst ](../../../manage-work/issues/manage-issues/edit-assignments-for-multiple-issues.md)
+* [ creeer geavanceerde taken ](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md)
+* [ maak slimme taken ](../../../manage-work/tasks/assign-tasks/make-smart-assignments.md)
+* [ Slim overzicht van taken ](../../../manage-work/tasks/assign-tasks/smart-assignments.md)
 * [Overzicht van het toewijzen van werk in de werklastverdeler](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)
 
 U kunt een kwestie aan één of veelvoudige middelen op het individuele emissieniveau toewijzen, of u kunt veelvoudige middelen aan veelvoudige kwesties in één keer toewijzen.
 
-Het toewijzen van problemen en taken is vergelijkbaar in Adobe Workfront. Voor algemene informatie over het toewijzen van taken, zie [&#x200B; Overzicht van het wijzigen van taaktaken &#x200B;](../../../manage-work/tasks/assign-tasks/modify-task-assignments-overview.md).
+Het toewijzen van problemen en taken is vergelijkbaar in Adobe Workfront. Voor algemene informatie over het toewijzen van taken, zie [ Overzicht van het wijzigen van taaktaken ](../../../manage-work/tasks/assign-tasks/modify-task-assignments-overview.md).
 
 ## Toegangsvereisten
 
@@ -81,7 +81,7 @@ Het toewijzen van problemen en taken is vergelijkbaar in Adobe Workfront. Voor a
  </tbody> 
 </table>
 
-Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -89,7 +89,7 @@ Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van W
 
 Overweeg het volgende wanneer het toewijzen van veelvoudige middelen aan een het werkpunt:
 
-* Gebruikers kunnen meer dan één taakrol aan hun profiel koppelen. Voor informatie over het associëren van gebruikers met baanrollen, zie [&#x200B; het profiel van een gebruiker &#x200B;](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) uitgeven.
+* Gebruikers kunnen meer dan één taakrol aan hun profiel koppelen. Voor informatie over het associëren van gebruikers met baanrollen, zie [ het profiel van een gebruiker ](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) uitgeven.
 
 * Taken of problemen worden doorgaans eerst toegewezen aan een of meerdere taakrollen of teams. Wanneer de projecten klaar zijn om te beginnen, zouden zij ook aan gebruikers kunnen moeten worden toegewezen.
 
@@ -116,7 +116,7 @@ Overweeg het volgende wanneer het toewijzen van veelvoudige middelen aan een het
 </div>
 -->
 
-## Eén probleem toewijzen
+## Eén uitgave toewijzen in de uitgiftekop
 
 1. Ga naar een probleem dat u wilt toewijzen.
 1. Klik **toewijzen aan** in de hoger-juiste hoek van de punthoofdbal, in het **gebied van Taken**
@@ -125,19 +125,19 @@ Overweeg het volgende wanneer het toewijzen van veelvoudige middelen aan een het
 
    Klik op de naam van de huidige toewijzingen als de uitgave al is toegewezen.
 
-   ![&#x200B; wijs aan knoop toe &#x200B;](assets/assign-to-button-in-header.png)
+   ![ wijs aan knoop toe ](assets/assign-to-button-in-header.png)
 
 1. Voer een van de volgende handelingen uit:
 
    * Typ de naam van een gebruiker, rol of team die u wilt toewijzen en klik vervolgens op de naam wanneer deze in de lijst wordt weergegeven.
 
-     ![&#x200B; het onderzoek van Taken &#x200B;](assets/smart-assignments-issue-header.png)
+     ![ het onderzoek van Taken ](assets/smart-assignments-issue-header.png)
 
    * (Voorwaardelijk) Klik één van de namen, rollen, of teams in de beschikbare lijsten
    * Klik **toewijzen aan me** om het aan zich toe te wijzen
    * Klik **Geavanceerd**.
 
-     Het maken van geavanceerde toewijzingen is vergelijkbaar voor taken en problemen. Voor informatie over hoe te om geavanceerde taken te maken, zie [&#x200B; Geavanceerde taken &#x200B;](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md) creëren.
+     Het maken van geavanceerde toewijzingen is vergelijkbaar voor taken en problemen. Voor informatie over hoe te om geavanceerde taken te maken, zie [ Geavanceerde taken ](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md) creëren.
 
      >[!TIP]
      >
@@ -145,7 +145,7 @@ Overweeg het volgende wanneer het toewijzen van veelvoudige middelen aan een het
      >
      >Gebruikers moeten aan ten minste één taakrol zijn gekoppeld om deze te kunnen bekijken terwijl u ze toevoegt.
      >
-     >De instelling Contactinfo weergeven moet zijn ingeschakeld op uw toegangsniveau zodat gebruikers de e-mails van gebruikers kunnen bekijken. Voor informatie, zie [&#x200B; Toegang van de Verlening tot gebruikers &#x200B;](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)
+     >De instelling Contactinfo weergeven moet zijn ingeschakeld op uw toegangsniveau zodat gebruikers de e-mails van gebruikers kunnen bekijken. Voor informatie, zie [ Toegang van de Verlening tot gebruikers ](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)
      >
 
      <!-- this doesn't apply to issues; if it does, add this to the TIP above: 
@@ -155,7 +155,7 @@ Overweeg het volgende wanneer het toewijzen van veelvoudige middelen aan een het
 1. Klik **sparen** om het toewijzen van de kwestie te voltooien.
 1. (Facultatief) klik het **pictogram van X** naast de naam van de taken in het gebied van Taken op de kopbal van de kwestie om een taak te verwijderen.
 
-## Een probleem in een lijst toewijzen
+## Een probleem toewijzen door het inline te bewerken in een lijst
 
 U kunt kwesties in een lijst of een rapport toewijzen wanneer om het even welke toewijzingsgebieden in de mening van de lijst zichtbaar zijn. Dit is een snellere manier om problemen toe te wijzen.
 
@@ -174,11 +174,11 @@ Om kwesties in een lijst toe te wijzen:
 
    * Klik binnen **Toegewezen aan** of **toegewezen** gebieden en begin de naam van een actieve gebruiker te typen die u aan de kwestie wilt toewijzen, dan het te klikken wanneer het in de lijst toont.
 
-     ![&#x200B; Toegewezen aan gebied &#x200B;](assets/assigned-to-field-task-list-nwe.png)
+     ![ Toegewezen aan gebied ](assets/assigned-to-field-task-list-nwe.png)
 
    * Klik binnen het **gebied van Taken** en begin de naam van een actieve gebruiker, baanrol, of actief team te typen dat u aan de kwestie wilt toewijzen, dan het klikken wanneer het in de lijst toont.
 
-     ![&#x200B; het gebied van Taken &#x200B;](assets/assignments-field-0825.png)
+     ![ het gebied van Taken ](assets/assignments-field-0825.png)
 
    >[!TIP]
    >
@@ -186,15 +186,21 @@ Om kwesties in een lijst toe te wijzen:
    >
    >Gebruikers moeten aan ten minste één taakrol zijn gekoppeld om deze te kunnen bekijken terwijl u ze toevoegt.
    >
-   >De instelling Contactinfo weergeven moet zijn ingeschakeld op uw toegangsniveau zodat gebruikers de e-mails van gebruikers kunnen bekijken. Voor informatie, zie [&#x200B; toegang van de Verlening tot gebruikers &#x200B;](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
+   >De instelling Contactinfo weergeven moet zijn ingeschakeld op uw toegangsniveau zodat gebruikers de e-mails van gebruikers kunnen bekijken. Voor informatie, zie [ toegang van de Verlening tot gebruikers ](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 
-1. (Voorwaardelijk) op het gebied van Taken, klik **Geavanceerd** bij de bodem van de lijst, of het **pictogram van Mensen** ![&#x200B; het pictogram van Mensen &#x200B;](assets/teams.png) in de hoger-juiste hoek van de toewijzingsdoos, om de Geavanceerde doos van Toewijzingen te openen en geavanceerde taken tot stand te brengen. Voor meer informatie, zie [&#x200B; Geavanceerde taken &#x200B;](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md) creëren.
+1. (Voorwaardelijk) op het gebied van Taken, klik **Geavanceerd** bij de bodem van de lijst, of het **pictogram van Mensen** ![ het pictogram van Mensen ](assets/teams.png) in de hoger-juiste hoek van de toewijzingsdoos, om de Geavanceerde doos van Toewijzingen te openen en geavanceerde taken tot stand te brengen. Voor meer informatie, zie [ Geavanceerde taken ](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md) creëren.
 
    >[!TIP]
    >
    >U kunt geen geavanceerde toewijzingen maken vanuit de velden Toegewezen aan of Toegewezen.
 
 1. Nadat u de toewijzingen aan de uitgave hebt toegevoegd, drukt u op Enter of klikt u ergens op de pagina om de wijzigingen op te slaan.
+
+## Een probleem toewijzen in het vak Probleem bewerken
+
+U kunt een probleem toewijzen tijdens het bewerken in het vak Uitgave bewerken.
+
+Voor informatie, zie de &quot;sectie van Taken&quot;in het artikel [ uitgeven kwesties ](/help/quicksilver/manage-work/issues/manage-issues/edit-issues.md).
 
 ## Problemen bulksgewijs toewijzen
 
@@ -205,7 +211,7 @@ Assigning issues in bulk is different depending on what environment you choose t
 
 1. Ga naar een lijst met problemen die u bulksgewijs wilt toewijzen.
 1. Selecteer verschillende problemen in de lijst.
-1. Klik het **uitgeven pictogram** ![&#x200B; uitgeven pictogram &#x200B;](assets/qs-edit-icon.png).
+1. Klik het **uitgeven pictogram** ![ uitgeven pictogram ](assets/qs-edit-icon.png).
 
    Het **geeft de dialoogdoos uit van Kwesties** opent.
 
@@ -216,7 +222,7 @@ Assigning issues in bulk is different depending on what environment you choose t
    >Als een van de problemen al is toegewezen, worden de bronnen die u hier opgeeft, toegevoegd aan de problemen in plaats van de bestaande bronnen over de problemen te vervangen.
 
 1. (Facultatief) selecteer het radioknoop in de **kolom van de Eigenaar van de Uitgave** om erop te wijzen welke middel de primaire ontvanger of de Eigenaar van de kwestie is, wanneer u meer dan één middel aan de kwestie toewijst. Dit is niet beschikbaar voor teams.
-1. (Facultatief) selecteer een rol die de gebruiker op de kwestie van **zou moeten vervullen kies een rol** drop-down menu in de **3&rbrace; kolom van de Rol van de Ontvanger &lbrace;wanneer u gebruikers aan kwesties toewijst.** Als u geen rol selecteert, selecteert Workfront automatisch de Primaire Rol van de gebruiker.
+1. (Facultatief) selecteer een rol die de gebruiker op de kwestie van **zou moeten vervullen kies een rol** drop-down menu in de **3} kolom van de Rol van de Ontvanger {wanneer u gebruikers aan kwesties toewijst.** Als u geen rol selecteert, selecteert Workfront automatisch de Primaire Rol van de gebruiker.
 
 1. (Optioneel) Als u bestaande toewijzingen uit alle uitgaven wilt verwijderen, voert u een van de volgende handelingen uit:
 
