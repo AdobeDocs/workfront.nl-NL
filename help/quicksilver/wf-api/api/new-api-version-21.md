@@ -6,9 +6,9 @@ description: Adobe Workfront heeft API-versie 21 uitgebracht op 23 oktober 2025.
 author: Becky
 feature: Workfront API
 role: Developer
-source-git-commit: 50edbfa342ed7f51d1fe2b9654b55b579bb3f5af
+source-git-commit: f47e0bce61322c971f3a815ec01e7c243b090910
 workflow-type: tm+mt
-source-wordcount: '858'
+source-wordcount: '833'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ Adobe Workfront heeft API-versie 21 uitgebracht op 23 oktober 2025. API-versie 2
 
 ## Toegevoegde bronnen
 
-### StaffingPlanTemplate (SPTMPL)
+### OriginalRequest (ORGREQ)
 
 <table>
   <col/>
@@ -29,8 +29,10 @@ Adobe Workfront heeft API-versie 21 uitgebracht op 23 oktober 2025. API-versie 2
       <td role="rowheader">Directe velden</td>
       <td>
         <ul>
+          <li>entryDate</li>
           <li>ID</li>
-          <li>name</li>
+          <li>requestID</li>
+          <li>requestName</li>
         </ul>
       </td>
     </tr>
@@ -39,27 +41,57 @@ Adobe Workfront heeft API-versie 21 uitgebracht op 23 oktober 2025. API-versie 2
       <td>
         <ul>
           <li>ID</li>
+          <li>objCode</li>
+        </ul>
+      </td>
+ </tbody>
+</table>
+
+<!--
+
+### StaffingPlanTemplate (SPTMPL)
+
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">Direct fields</td>
+      <td>
+        <ul>
+          <li>ID</li>
+          <li>name</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">Core fields</td>
+      <td>
+        <ul>
+          <li>ID</li>
           <li>name</li>
           <li>objCode</li>
         </ul>
       </td>
    <tr>
-      <td role="rowheader">Bewerkingen</td>
+      <td role="rowheader">Operations</td>
       <td>
         <ul>
           <li>ADD</li>
-          <li>TELLEN</li>
+          <li>COUNT</li>
           <li>DELETE</li>
-          <li>BEWERKEN</li>
+          <li>EDIT</li>
           <li>GET</li>
-          <li>RAPPORT</li>
-          <li>ZOEKEN</li>
+          <li>REPORT</li>
+          <li>SEARCH</li>
         </ul>
       </td>
     </tr>
     </tr>
  </tbody>
 </table>
+
+-->
 
 ## Verwijderde bronnen
 
@@ -710,30 +742,32 @@ Een ScoreCardQuestion-object vertegenwoordigt een vraag die aan een Scorecard is
  </tbody>
 </table>
 
-### Personeelsformatie
+<!--
+
+### StaffingPlan
 
 <table>
   <col/>
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">Directe velden</td>
+      <td role="rowheader">Direct fields</td>
       <td>
         <ul>
           <li>
-            <p><b> totalEstimatedCost </b>
+            <p><b>totalEstimatedCost</b>
             </p>
-            <p>Toegevoegd</p>
+            <p>Added</p>
               </li>
          <li>
-            <p><b> totalEstimatedHours </b>
+            <p><b>totalEstimatedHours</b>
             </p>
-            <p>Toegevoegd</p>
+            <p>Added</p>
               </li>
          <li>
-            <p><b> totalEstimatedRevenue </b>
+            <p><b>totalEstimatedRevenue</b>
             </p>
-            <p>Toegevoegd</p>
+            <p>Added</p>
               </li>
             </ul>
          </li>
@@ -741,6 +775,10 @@ Een ScoreCardQuestion-object vertegenwoordigt een vraag die aan een Scorecard is
     </tr>
   </tbody>
 </table>
+
+-->
+
+<!--
 
 ### StaffingPlanResource
 
@@ -749,23 +787,23 @@ Een ScoreCardQuestion-object vertegenwoordigt een vraag die aan een Scorecard is
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">Directe velden</td>
+      <td role="rowheader">Direct fields</td>
       <td>
         <ul>
           <li>
-            <p><b> totalEstimatedCost </b>
+            <p><b>totalEstimatedCost</b>
             </p>
-            <p>Toegevoegd</p>
+            <p>Added</p>
               </li>
          <li>
-            <p><b> totalEstimatedHours </b>
+            <p><b>totalEstimatedHours</b>
             </p>
-            <p>Toegevoegd</p>
+            <p>Added</p>
               </li>
          <li>
-            <p><b> totalEstimatedRevenue </b>
+            <p><b>totalEstimatedRevenue</b>
             </p>
-            <p>Toegevoegd</p>
+            <p>Added</p>
               </li>
             </ul>
          </li>
@@ -773,6 +811,8 @@ Een ScoreCardQuestion-object vertegenwoordigt een vraag die aan een Scorecard is
     </tr>
   </tbody>
 </table>
+
+-->
 
 ### Taak (TASK)
 
