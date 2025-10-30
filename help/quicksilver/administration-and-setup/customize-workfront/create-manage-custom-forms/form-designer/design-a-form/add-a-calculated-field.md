@@ -8,14 +8,16 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 407aae49-4bc3-4364-a794-7e170a57a6d3
-source-git-commit: 15ac51cc13eeb57d2de194a9a6ceec7683acfbe6
+source-git-commit: f6e0329ec63038b33006325701007c564c4126cc
 workflow-type: tm+mt
-source-wordcount: '2412'
+source-wordcount: '2446'
 ht-degree: 0%
 
 ---
 
 # Berekende velden toevoegen aan een formulier
+
+{{preview-fast-release-general}}
 
 <!-- Audited: 5/2025 -->
 
@@ -67,7 +69,7 @@ Een berekend aangepast veld kan het volgende bevatten:
  </tbody> 
 </table>
 
-Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -83,7 +85,7 @@ U kunt ook een andere berekening voor hetzelfde veld uitvoeren op het nieuwe for
 >
 >Door wijzigingen in berekende expressies kan de veldwaarde van objecten verouderd raken. Voer een van de volgende handelingen uit om ervoor te zorgen dat u altijd de bijgewerkte berekening in deze velden weergeeft:
 >
->* Na het bewaren van een voorwerp waar u gegevens in een douanevorm in bijlage hebt uitgegeven, klik het Meer pictogram ![&#x200B; Meer pictogram &#x200B;](assets/more-icon.png) op de belangrijkste pagina van de objecten, dan herberekenen de Uitdrukkingen van de Douane.
+>* Na het bewaren van een voorwerp waar u gegevens in een douanevorm in bijlage hebt uitgegeven, klik het Meer pictogram ![ Meer pictogram ](assets/more-icon.png) op de belangrijkste pagina van de objecten, dan herberekenen de Uitdrukkingen van de Douane.
 >* Selecteer de optie Aangepaste expressies opnieuw berekenen wanneer u objecten bulksgewijs bewerkt.
 >* Selecteer de optie Vorige berekeningen bijwerken wanneer u een berekend aangepast veld op een aangepast formulier bewerkt.
 
@@ -102,7 +104,7 @@ Een bestaand berekend aangepast veld opnieuw gebruiken:
 1. In de **Nieuwe dialoog van de Vorm van de Douane**, selecteer welke objecten types u de douanevorm aan wilt vastmaken, dan **blijven** klikken.
 1. Op de top-linkerkant van het scherm, klik **bibliotheek van het Gebied**.
 
-   ![&#x200B; bibliotheek van het Gebied &#x200B;](assets/field-library.png)
+   ![ bibliotheek van het Gebied ](assets/field-library.png)
 
 1. Gebruik het onderzoeksvakje of breid **Berekende** sectie uit om van het berekende gebied de plaats te bepalen u nodig hebt, dan sleep het gebied waar u het in de douanevorm wilt verschijnen.
 
@@ -141,7 +143,7 @@ Een bestaand berekend aangepast veld opnieuw gebruiken:
 
 1. Op de linkerkant van het scherm, vind **Berekend** en sleep het aan een sectie op het canvas.
 
-   ![&#x200B; gebied van de belemmering aan sectie &#x200B;](assets/drag-field-to-section.png)
+   ![ gebied van de belemmering aan sectie ](assets/drag-field-to-section.png)
 
 1. Configureer rechts in het scherm de opties die beschikbaar zijn voor het type aangepast veld dat u toevoegt:
 
@@ -169,6 +171,10 @@ Een bestaand berekend aangepast veld opnieuw gebruiken:
       <p><b> BELANGRIJK </b>: Alvorens u een formaat kiest, overweeg het correcte formaat voor het nieuwe gebied. Het indelingsveld kan niet worden bewerkt nadat het aangepaste formulier is opgeslagen. En het selecteren van het verkeerde formaat kon toekomstige berekeningen en samengevoegde waarden in rapport en lijstgroepen beïnvloeden.</p>
       <p><strong> NOTA </strong>: Berekende gebieden met het formaat van de a <strong> Valuta </strong> zouden geen aanhalingstekens moeten omvatten. (Gebruik bijvoorbeeld 800.00 en niet "800.00.") Het gebruik van aanhalingstekens kan onverwachte gevolgen hebben als gevolg van verschillen in de taalopmaak voor valutatypen.</p></td>
      </tr> 
+     <tr>
+      <td><span class="preview">Actief</span></td>
+      <td><span class="preview"><p>Deze optie is standaard ingeschakeld.<p><p>Wanneer u een veld inactief instelt, wordt het uitgesloten van rapporten, filters en weergaven en is het niet meer beschikbaar in de veldbibliotheek voor aangepaste formulieren.</p></span></td>
+     </tr>
     </tbody> 
    </table>
 
@@ -194,7 +200,7 @@ Een berekening begint gewoonlijk met een expressie, gevolgd door haakjes die de 
 
         Veldnamen zijn hoofdlettergevoelig en moeten in de berekening precies worden weergegeven hoe ze in het Workfront-systeem worden weergegeven.
 
-        Navigeer aan de [&#x200B; ontdekkingsreiziger van Workfront API &#x200B;](https://developer.adobe.com/workfront/api-explorer/) om de gebiedsnamen te identificeren die in berekeningen kunnen worden gebruikt.
+        Navigeer aan de [ ontdekkingsreiziger van Workfront API ](https://developer.adobe.com/workfront/api-explorer/) om de gebiedsnamen te identificeren die in berekeningen kunnen worden gebruikt.
 
       * Als u wilt dat de berekening naar een aangepast veld verwijst, moet de naam van het veld tussen accolades staan en door `DE:` tussen de haakjes worden voorafgegaan.
 
@@ -264,7 +270,7 @@ Een berekening begint gewoonlijk met een expressie, gevolgd door haakjes die de 
         >
         >`IF($$OBJCODE="PROJ",{owner}.{name},{assignedTo}.{name})`
 
-        Voor meer informatie over variabelen als `$$OBJCODE,` zie [&#x200B; overzicht van de de filtervariabelen van de Weigering &#x200B;](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
+        Voor meer informatie over variabelen als `$$OBJCODE,` zie [ overzicht van de de filtervariabelen van de Weigering ](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
 
         **Automatische updates van berekende douanegebieden**
 
@@ -278,7 +284,7 @@ Een berekening begint gewoonlijk met een expressie, gevolgd door haakjes die de 
            >
            ><div>In een douaneformulier in bijlage aan een voorwerp, worden de datum en de tijdverklaringen in berekende douanevelden berekend en bewaard door Coordinated Universal Time (UTC), niet door de configuraties van de tijdzone die voor de instantie van uw organisatie en uw gebruikersprofiel worden geplaatst. Berekeningen in een aangepast formulier worden gegenereerd op basis van de afzonderlijke tijdzones van elke gebruiker.</div>
 
-      +++
+        +++
 
    1. Klik in het grote tekstvakje, dan klik **Uitdrukkingen** en **Gebieden** die beschikbaar zijn om hen aan uw berekening toe te voegen.
 
@@ -294,15 +300,15 @@ Een berekening begint gewoonlijk met een expressie, gevolgd door haakjes die de 
       >
       >U kunt een van de volgende handelingen uitvoeren om hulp te krijgen bij uw berekening:
       > 
-      >* Beweeg over een uitdrukking in uw berekening om een beschrijving te zien, een voorbeeld dat toont hoe het kan worden gebruikt, en a **leren meer** verbinding aan meer informatie in het artikel [&#x200B; Overzicht van berekende gegevensuitdrukkingen &#x200B;](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
-      >  ![&#x200B; de hulptekst van de Uitdrukking &#x200B;](assets/hover-expression-help-text.jpg)
+      >* Beweeg over een uitdrukking in uw berekening om een beschrijving te zien, een voorbeeld dat toont hoe het kan worden gebruikt, en a **leren meer** verbinding aan meer informatie in het artikel [ Overzicht van berekende gegevensuitdrukkingen ](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+      >  ![ de hulptekst van de Uitdrukking ](assets/hover-expression-help-text.jpg)
       >* Gebruik de kleurcodering om de componenten te identificeren die u hebt toegevoegd. Expressies worden in blauw weergegeven en velden in groen.
-      >  ![&#x200B; Kleuren voor gebiedsuitdrukkingen &#x200B;](assets/colors-fields-expressions.jpg)
+      >  ![ Kleuren voor gebiedsuitdrukkingen ](assets/colors-fields-expressions.jpg)
       >* Zoek rekenfouten die roze gemarkeerd zijn. U kunt de muisaanwijzer boven een gemarkeerde fout plaatsen om een korte beschrijving van de oorzaak ervan weer te geven.
-      >  ![&#x200B; Hulp van de Fout &#x200B;](assets/error-help.png)
+      >  ![ Hulp van de Fout ](assets/error-help.png)
       >* Geef een voorvertoning van de resultaten weer in het gebied onder de berekening.
       ><!--or by providing test values (NOT READY YET; CHANGE THIS SCREENSHOT WHEN IT IS)-->
-      >  ![&#x200B; berekening van de Voorproef &#x200B;](assets/preview-calc.jpg)
+      >  ![ berekening van de Voorproef ](assets/preview-calc.jpg)
       >* Verwijzingsexpressies in een lange berekening met behulp van de regelnummers die aan de linkerkant worden weergegeven.
 
       +++
