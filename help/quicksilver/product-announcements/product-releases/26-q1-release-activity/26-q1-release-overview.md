@@ -4,10 +4,10 @@ description: Deze pagina bevat informatie over de functionaliteit die is opgenom
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: faaea3fef9be0fb03c2ed4991bad575f23b08559
+source-git-commit: 1c4f81babf6cdc6579fa633c1a776c151219a6bf
 workflow-type: tm+mt
-source-wordcount: '832'
-ht-degree: 0%
+source-wordcount: '1268'
+ht-degree: 1%
 
 ---
 
@@ -33,9 +33,91 @@ The <add release> release webinar will be held on <date>. You can [register for 
 >
 >Merk op dat voor de definitieve versie van elk kwartaal (25.10 dit kwartaal), gebruikers op het snelle versieschema één dag vroeg (15 oktober 2025) de versie zullen ontvangen.
 >
->Voor meer informatie over het snelle versieproces, zie [&#x200B; toelaten of onbruikbaar maken het snelle versieproces &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
+>Voor meer informatie over het snelle versieproces, zie [ toelaten of onbruikbaar maken het snelle versieproces ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
 
 ## Verbeteringen voor Adobe Workfront
+
+* [Beheerdersverbeteringen](#administrator-enhancements)
+* [Verbeterde documenten en goedkeuringen](#documents-and-approvals-enhancements)
+* [Andere verbeteringen](#other-enhancements)
+
+### Beheerdersverbeteringen
+
+<table style="table-layout:auto">
+  <tbody>
+   <tr>
+        <td><strong> Eigenschap </strong>
+        </td>
+        <td><strong>Voorvertoning</strong></td>
+        <td><strong>Snelle release</strong></td>
+        <td><strong>Driemaandelijks</strong></td>
+    </tr>
+     <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-admin-and-setup.md" class="MCXref xref" xrefformat="{para}"> Updates aan knoopnamen wanneer het uitgeven van een lay-outmalplaatje </a>
+            <p>Voor meer consistentie met andere delen van Setup, zoals de aangepaste formulierontwerper, zijn de knoppen die u ziet bij het bewerken van een lay-outsjabloon gewijzigd in Toepassen, Opslaan en Sluiten en Annuleren. Met de nieuwe optie Toepassen kunt u uw wijzigingen in de lay-outsjabloon opslaan en doorgaan met bewerken. Eerder waren de beschikbare opties Opslaan en Annuleren. </p>
+        </td>
+        <td>vrijdag 30 oktober 2025</td>
+        <td>vrijdag 13 november 2025</td>
+        <td>vrijdag 15 januari 2026</td>
+    </tr>  
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-admin-and-setup.md" class="MCXref xref" xrefformat="{para}"> Verbeterd veldbeheer met actieve markering op aangepaste velden </a>
+            <p>Als het systeem een groot aantal aangepaste velden bevat, kan het moeilijk zijn deze velden in aangepaste formulieren en rapporten te beheren. U kunt douanevelden nu inactief met de nieuwe <b> Actieve </b> vlag merken. Deze markering is beschikbaar wanneer u met een veld werkt op een aangepast formulier of wanneer u een veld uit de lijst Velden toevoegt of bewerkt. </p>
+        </td>
+        <td>vrijdag 30 oktober 2025</td>
+        <td>vrijdag 13 november 2025</td>
+        <td>vrijdag 15 januari 2026</td>
+    </tr>   
+  </tbody>
+</table>
+
+### Verbeterde documenten en goedkeuringen
+
+<table style="table-layout:auto">
+  <tbody>
+   <tr>
+        <td><strong> Eigenschap </strong>
+        </td>
+        <td><strong>Voorvertoning</strong></td>
+        <td><strong>Snelle release</strong></td>
+        <td><strong>Driemaandelijks</strong></td>
+    </tr>
+     <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-documents-approvals.md" class="MCXref xref" xrefformat="{para}"> Adobe Experience Manager nu beschikbaar met de integratie Frame.io <p>[!BADGE Off schema]{type=Neutral}</p> </a>
+            <p>U kunt nu de Experience Manager Assets-​ gebruiken om uw digitale middelen te beheren en op te slaan die de controle- en goedkeuringscyclus hebben doorlopen. Dankzij deze integratie kunt u de mogelijkheden van Adobe Experience Manager, Frame.io en Workfront benutten om uw contentbeheer en samenwerkingsprocessen te stroomlijnen. </p>
+        </td>
+        <td>vrijdag 30 oktober 2025</td>
+        <td>vrijdag 30 oktober 2025</td>
+        <td>vrijdag 30 oktober 2025</td>
+    </tr>   
+  </tbody>
+</table>
+
+### Verbeteringen voor integratie
+
+<table style="table-layout:auto">
+  <tbody>
+   <tr>
+        <td><strong> Eigenschap </strong>
+        </td>
+        <td><strong>Voorvertoning</strong></td>
+        <td><strong>Snelle release</strong></td>
+        <td><strong>Driemaandelijks</strong></td>
+    </tr>
+     <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-integrations.md" class="MCXref xref" xrefformat="{para}"> Nieuwe versie van de integratie van Salesforce nu beschikbaar </a>
+            <p>Om up-to-date te blijven met recente wijzigingen in de Workfront API, hebben we een nieuwe Salesforce-integratie gemaakt. De nieuwe integratie heeft dezelfde functionaliteit als de vorige versie en is bijgewerkt om te voorkomen dat de functionaliteit in de API verloren gaat.</p>
+        </td>
+        <td>vrijdag 30 oktober 2025</td>
+        <td>vrijdag 30 oktober 2025</td>
+        <td>vrijdag 30 oktober 2025</td>
+    </tr>   
+  </tbody>
+</table>
 
 ### Andere verbeteringen
 
@@ -52,7 +134,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr>   
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}"> blik-en-voelt updates tijdens het Vierde Kwartaal 2025 versietijdframe </a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-other.md" class="MCXref xref" xrefformat="{para}"> blik-en-voelt updates tijdens het Vierde Kwartaal 2025 versietijdframe </a>
                         <p>Kleine updates van het uiterlijk van verschillende onderdelen van de Adobe Workfront-toepassing worden uitgevoerd binnen de releaseperiode van het vierde kwartaal van 2025. </p>
                     </td>
                     <td><p>Gedurende het vierde kwartaal van 2025 is de releaseperiode<br /></p>
@@ -61,28 +143,42 @@ The <add release> release webinar will be held on <date>. You can [register for 
                         </ul>
                     </td>
                 </tr>
+                <tr>
+                 <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-other.md" class="MCXref xref" xrefformat="{para}"> Selectiegrenzen voor velden met meerdere selecties </a>
+              <p>Velden die meerdere selecties mogelijk maken, zoals selectievakjes en meerkeuzevelden, zijn nu beperkt tot 5000 selecties wanneer een gebruiker het formulier invult.</p>
+             </td>
+        <td>vrijdag 30 oktober 2025</td>
+        <td>vrijdag 13 november 2025</td>
+        <td>vrijdag 15 januari 2026</td>
+             </tr>   
             </tbody>
         </table>
 
-<!--
-### Functionality soon to be removed from Workfront
 
-* 
--->
+### Functionaliteit die binnenkort uit Workfront wordt verwijderd
+
+#### Afschrijving van de overschrijvingsvaluta op functies met de release 25.11
+
+In het kader van de vereenvoudiging van het financiële model zullen we de overschrijvingsvaluta afschaffen voor functies in Voorvertoning op 30 oktober en in Productie voor alle klanten met de release van 25.11. Deze verandering beïnvloedt hoe de munten en de tarieven op baanrollen in het gebied van de Opstelling worden gevormd.
+
+* De **gebieden van de Valuta van de met voeten treden** op een baanrol zullen niet meer beschikbaar zijn.
+* Elke functie heeft één munt met de bijbehorende kosten en factureringsgraad.
+* Alle bestaande overschrijfvaluta&#39;s en hun wisselkoerswaarden worden automatisch gemigreerd tot de enige valuta en de enige koersen voor die functie.
 
 ## Modernisering van de interface
 
-We werken de interface in Adobe Workfront bij om de gebruikerservaring te verbeteren en deze te verenigen met andere Adobe-toepassingen. Deze veranderingen worden vrijgegeven buiten het standaardversieschema. Voor een lijst van deze veranderingen, zie [&#x200B; Modernisering van de Interface &#x200B;](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
+We werken de interface in Adobe Workfront bij om de gebruikerservaring te verbeteren en deze te verenigen met andere Adobe-toepassingen. Deze veranderingen worden vrijgegeven buiten het standaardversieschema. Voor een lijst van deze veranderingen, zie [ Modernisering van de Interface ](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
 
 ## Opmerkingen bij de release voor andere gebieden
 
 ### Workfront Fusion-verbeteringen
 
-Nieuwe functies in Workfront Fusion zijn beschikbaar in Production op een cadence buiten de standaard releaseschema. Voor meer informatie over de recentste eigenschappen, zie [&#x200B; de versieactiviteit van de Fusie van Adobe Workfront &#x200B;](https://experienceleague.adobe.com/nl/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
+Nieuwe functies in Workfront Fusion zijn beschikbaar in Production op een cadence buiten de standaard releaseschema. Voor meer informatie over de recentste eigenschappen, zie [ de versieactiviteit van de Fusie van Adobe Workfront ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 
 ### Verbeteringen voor Workfront-planning
 
-Nieuwe functies in Workfront Planning zijn beschikbaar in Production. Voor meer informatie over de recentste eigenschappen, zie [&#x200B; Eerste Kwartaal 2026 versieactiviteit voor de Planning van Adobe Workfront &#x200B;](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q1.md).
+Nieuwe functies in Workfront Planning zijn beschikbaar in Production. Voor meer informatie over de recentste eigenschappen, zie [ Eerste Kwartaal 2026 versieactiviteit voor de Planning van Adobe Workfront ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q1.md).
 
 Er zijn geen updates voor het volgende op dit punt in de versie:
 
@@ -108,19 +204,19 @@ Deze update geldt voor zowel Mac als Windows.
 
 Workfront API versie 21 is uitgebracht op 23 oktober 2025. Voor API versie 21 hebben we een aantal bronnen en eindpunten gewijzigd. Sommige wijzigingen ondersteunen nieuwe functionaliteit en andere maken het voor u gemakkelijker om de informatie te gebruiken die beschikbaar is via de API.
 
-Voor informatie over wat nieuw en bijgewerkt is, zie [&#x200B; wat in API versie 21 &#x200B;](/help/quicksilver/wf-api/api/new-api-version-21.md) nieuw is.
+Voor informatie over wat nieuw en bijgewerkt is, zie [ wat in API versie 21 ](/help/quicksilver/wf-api/api/new-api-version-21.md) nieuw is.
 
-Voor informatie over API versies, zie [&#x200B; API versioning en steunprogramma &#x200B;](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
+Voor informatie over API versies, zie [ API versioning en steunprogramma ](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
 
 ### Nieuwe versie van Workfront voor Microsoft Teams
 
-Als [&#x200B; Microsoft overgangen aan de Nieuwe cliënt van Teams &#x200B;](https://learn.microsoft.com/en-us/microsoftteams/teams-classic-client-end-of-availability), zal de Klassieke cliënt van Teams niet meer beschikbaar na 1 Juli, 2025 zijn. Als u Microsoft Teams en geïntegreerde toepassingen zoals Workfront wilt blijven gebruiken, moeten klanten vóór deze datum overstappen naar de New Teams-client.
+Als [ Microsoft overgangen aan de Nieuwe cliënt van Teams ](https://learn.microsoft.com/en-us/microsoftteams/teams-classic-client-end-of-availability), zal de Klassieke cliënt van Teams niet meer beschikbaar na 1 Juli, 2025 zijn. Als u Microsoft Teams en geïntegreerde toepassingen zoals Workfront wilt blijven gebruiken, moeten klanten vóór deze datum overstappen naar de New Teams-client.
 
-De bijgewerkte Workfront-integratie is nu beschikbaar en volledig compatibel met de New Teams-ervaring. In de meeste gevallen wordt Workfront automatisch weergegeven wanneer gebruikers een overgang hebben gemaakt. Als dit niet het geval is, kan de integratie handmatig worden geïnstalleerd vanaf de Microsoft Teams App Store. Om de integratie van Workfront in de Nieuwe cliënt van Teams te installeren of te verifiëren, zie [&#x200B;  [!DNL Adobe Workfront]  installeren voor Microsoft Teams &#x200B;](/help/quicksilver/workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md).
+De bijgewerkte Workfront-integratie is nu beschikbaar en volledig compatibel met de New Teams-ervaring. In de meeste gevallen wordt Workfront automatisch weergegeven wanneer gebruikers een overgang hebben gemaakt. Als dit niet het geval is, kan de integratie handmatig worden geïnstalleerd vanaf de Microsoft Teams App Store. Om de integratie van Workfront in de Nieuwe cliënt van Teams te installeren of te verifiëren, zie [  [!DNL Adobe Workfront]  installeren voor Microsoft Teams ](/help/quicksilver/workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md).
 
 ### Workfront for Microsoft Outlook
 
-[&#x200B; Microsoft is in het proces om steun voor de online tokens van de erfenisUitwisseling &#x200B;](https://learn.microsoft.com/en-us/office/dev/add-ins/outlook/faq-nested-app-auth-outlook-legacy-tokens) onbruikbaar te maken, die momenteel door de toe:voegen-binnen van Workfront Vooruitzichten voor authentificatie worden gebruikt. Deze verandering door Microsoft is al begonnen met gevolgen voor de klanten en zal tot oktober 2025 in fasen blijven doorlopen.
+[ Microsoft is in het proces om steun voor de online tokens van de erfenisUitwisseling ](https://learn.microsoft.com/en-us/office/dev/add-ins/outlook/faq-nested-app-auth-outlook-legacy-tokens) onbruikbaar te maken, die momenteel door de toe:voegen-binnen van Workfront Vooruitzichten voor authentificatie worden gebruikt. Deze verandering door Microsoft is al begonnen met gevolgen voor de klanten en zal tot oktober 2025 in fasen blijven doorlopen.
 
 * **nadat Microsoft volledig deze tokens onbruikbaar maakt, zal Workfront voor de integratie van Microsoft Outlook niet meer functioneren.**
 
@@ -135,13 +231,13 @@ Om stabielere en scalable integratie te leveren, verschuiven wij naar een modern
 * Workfront voor Salesforce.
 
 We raden u aan Workfront Automation and Integration te gebruiken voor de integratiebehoeften van uw organisatie met Google Workspace.
-Voor een overzicht van de Automatisering en de Integratie van Workfront, zie [&#x200B; het overzicht van de Fusie van Adobe Workfront &#x200B;](https://experienceleague.adobe.com/nl/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+Voor een overzicht van de Automatisering en de Integratie van Workfront, zie [ het overzicht van de Fusie van Adobe Workfront ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 
 
 ### Workfront-onderhoudsupdates
 
-Voor informatie over de onderhoudsupdates die tijdens Eerste Kwartaal 2025 versie worden gemaakt, zie {de Updates van het Onderhoud van 0} Workfront [.](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=nl-NL)
+Voor informatie over de onderhoudsupdates die tijdens Eerste Kwartaal 2025 versie worden gemaakt, zie {de Updates van het Onderhoud van 0} Workfront [.](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html)
 
 ### Training-updates
 
-Ontdek de nieuwste updates van leerprogramma&#39;s, leerpaden, video&#39;s en handleidingen voor elke Adobe Workfront-productrelease. Voor meer informatie, zie &quot;wat&quot;sectie van de [&#x200B; pagina van de Leerprogramma&#39;s van Workfront &#x200B;](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=nl-NL) Nieuw is.
+Ontdek de nieuwste updates van leerprogramma&#39;s, leerpaden, video&#39;s en handleidingen voor elke Adobe Workfront-productrelease. Voor meer informatie, zie &quot;wat&quot;sectie van de [ pagina van de Leerprogramma&#39;s van Workfront ](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html) Nieuw is.
