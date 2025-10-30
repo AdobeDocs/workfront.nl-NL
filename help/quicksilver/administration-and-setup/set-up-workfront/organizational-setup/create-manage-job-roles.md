@@ -25,7 +25,7 @@ ht-degree: 0%
 >
 >Met versie 25.11, zal de Valuta van de Opheffing voor baanrollen in Productie worden verouderd. (De veroudering vindt plaats op 30 oktober in de voorvertoningsomgeving.) In plaats van een basisvaluta en overschrijvingsvaluta, zal er één valuta beschikbaar zijn voor functies, en de kosten en factureringstarieven zullen worden bepaald met behulp van die valuta.
 
-Als [!DNL Adobe Workfront] beheerder of een gebruiker met administratieve toegang tot de Rollen van de Baan, kunt u baanrollen tot stand brengen die aan gebruikers kunnen worden toegewezen en standaardbaanrollen schrappen die niet relevant voor uw organisatie zijn. Voor informatie over administratieve toegang in [!DNL Workfront], zie [ gebruikers administratieve toegang van de Verlening tot bepaalde gebieden ](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
+Als [!DNL Adobe Workfront] beheerder of een gebruiker met administratieve toegang tot de Rollen van de Baan, kunt u baanrollen tot stand brengen die aan gebruikers kunnen worden toegewezen en standaardbaanrollen schrappen die niet relevant voor uw organisatie zijn. Voor informatie over administratieve toegang in [!DNL Workfront], zie [&#x200B; gebruikers administratieve toegang van de Verlening tot bepaalde gebieden &#x200B;](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 
 ## Toegangsvereisten
 
@@ -51,7 +51,7 @@ Als [!DNL Adobe Workfront] beheerder of een gebruiker met administratieve toegan
  </tbody> 
 </table>
 
-Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -74,9 +74,9 @@ Een taakrol maken:
    * **Beschrijving**: Ga een beschrijving voor de rol in die erop wijst wat over het uniek is.
    * **is Actief**: Selecteer **ja** als u de rol actief en beschikbaar overal in Workfront wilt zijn om met gebruikers, het werkpunten, enz. worden geassocieerd. Selecteer **Nr** als u de rol wilt worden gedeactiveerd en niet beschikbaar aan gebruikers, het werkpunten, enz. toewijzen.
 
-     Voor informatie over het deactiveren van baanrollen, zie [ werkrollen ](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/deactivate-job-roles.md) deactiveren.
+     Voor informatie over het deactiveren van baanrollen, zie [&#x200B; werkrollen &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/deactivate-job-roles.md) deactiveren.
 
-   * **de Valuta van de Basis**: Dit is de Valuta van de Basis, zoals die in het gebied van de Opstelling door uw beheerder van Workfront wordt geplaatst. Voor informatie, zie [ de wisselkoersen van de Opstelling ](/help/quicksilver/administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md).
+   * **de Valuta van de Basis**: Dit is de Valuta van de Basis, zoals die in het gebied van de Opstelling door uw beheerder van Workfront wordt geplaatst. Voor informatie, zie [&#x200B; de wisselkoersen van de Opstelling &#x200B;](/help/quicksilver/administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md).
 
      >[!TIP]
      >
@@ -110,15 +110,15 @@ Een taakrol maken:
      >
      >Alleen valuta&#39;s die beschikbaar zijn in het gebied Wisselkoersen in uw systeem zijn beschikbaar in dit veld. Als u slechts één valuta hebt ingesteld, wordt dit veld niet weergegeven.
 
-     Voor informatie over vestiging de Valuta van de Basis in Workfront, zie [ de wisselkoers van de Opstelling ](/help/quicksilver/administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md).
+     Voor informatie over vestiging de Valuta van de Basis in Workfront, zie [&#x200B; de wisselkoers van de Opstelling &#x200B;](/help/quicksilver/administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md).
 
-     Voor informatie over het veranderen van de munt van een project, zie [ de projectmunt ](/help/quicksilver/manage-work/projects/project-finances/change-project-currency.md) veranderen.
+     Voor informatie over het veranderen van de munt van een project, zie [&#x200B; de projectmunt &#x200B;](/help/quicksilver/manage-work/projects/project-finances/change-project-currency.md) veranderen.
 
    * **met voeten treedt het Tarief van de Kostprijs van de Valuta**: Dit is de kosten per uurtarief van de baanrol gebruikend de geselecteerde Valuta van de Overschrijving. Workfront gebruikt deze waarde om de geplande en de werkelijke kosten van taken en problemen in verband met de functie te berekenen.
 
      Voer de waarde in de bovenstaande valuta voor overschrijven in. Dit werkt ook het Tarief van Kosten voor deze baanrol bij wanneer het gebruiken van de Valuta van de Basis.
 
-     Voor informatie over hoe Workfront kosten berekent, zie [ Kosten van het Spoor ](/help/quicksilver/manage-work/projects/project-finances/track-costs.md).
+     Voor informatie over hoe Workfront kosten berekent, zie [&#x200B; Kosten van het Spoor &#x200B;](/help/quicksilver/manage-work/projects/project-finances/track-costs.md).
 
      >[!TIP]
      >
@@ -128,7 +128,7 @@ Een taakrol maken:
 
      Voer de waarde in de bovenstaande valuta voor overschrijven in. Dit werkt ook het Facturerings Tarief voor deze baanrol bij wanneer het gebruiken van de Valuta van de Basis.
 
-     Voor informatie over hoe Workfront opbrengst berekent, zie [ Overzicht van Facturering en Ontvangsten ](/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md).
+     Voor informatie over hoe Workfront opbrengst berekent, zie [&#x200B; Overzicht van Facturering en Ontvangsten &#x200B;](/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md).
 
      >[!TIP]
      >
@@ -199,9 +199,9 @@ Een taakrol maken:
 
 >[!TIP]
 >
->De rollen van de baan zijn een integraal deel van het beheren van middelen. Om de middelen planningshulpmiddelen te gebruiken, hebben de baanrollen een kosten en het facturerings tarief verbonden aan hen nodig. Voor informatie, zie [ begonnen worden met het Beheer van het Middel ](../../../resource-mgmt/resource-mgmt-overview/get-started-resource-management.md).
+>De rollen van de baan zijn een integraal deel van het beheren van middelen. Om de middelen planningshulpmiddelen te gebruiken, hebben de baanrollen een kosten en het facturerings tarief verbonden aan hen nodig. Voor informatie, zie [&#x200B; begonnen worden met het Beheer van het Middel &#x200B;](../../../resource-mgmt/resource-mgmt-overview/get-started-resource-management.md).
 
-1. Klik op **[!UICONTROL Create Job Role]**. De taakrol is nu beschikbaar om te worden toegewezen aan taken, uitgaven, goedkeuringen of u kunt lay-outsjablonen of andere objecten ermee delen. Voor informatie over al gebruik van baanrollen in [!DNL Workfront], zie [ het overzicht van de rol van de Baan ](../../../administration-and-setup/set-up-workfront/organizational-setup/job-role-overview.md). Voor informatie over het schrappen van een baanrol, zie [ baanrollen van de Schrapping ](../../../administration-and-setup/set-up-workfront/organizational-setup/delete-job-roles.md).
+1. Klik op **[!UICONTROL Create Job Role]**. De taakrol is nu beschikbaar om te worden toegewezen aan taken, uitgaven, goedkeuringen of u kunt lay-outsjablonen of andere objecten ermee delen. Voor informatie over al gebruik van baanrollen in [!DNL Workfront], zie [&#x200B; het overzicht van de rol van de Baan &#x200B;](../../../administration-and-setup/set-up-workfront/organizational-setup/job-role-overview.md). Voor informatie over het schrappen van een baanrol, zie [&#x200B; baanrollen van de Schrapping &#x200B;](../../../administration-and-setup/set-up-workfront/organizational-setup/delete-job-roles.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
