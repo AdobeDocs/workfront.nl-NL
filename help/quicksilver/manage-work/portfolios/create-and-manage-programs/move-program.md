@@ -6,16 +6,16 @@ description: U kunt bestaande programma's toevoegen aan een portfolio. Omdat pro
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 73dbe277-12d2-4041-8a02-91ccf5f8b465
-source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
+source-git-commit: 7fef704355fad677f2bdf40e630ea0146a9e1d58
 workflow-type: tm+mt
 source-wordcount: '220'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
 # Een bestaand programma toevoegen aan een portfolio
 
-<!--Audited: 5/2025-->
+<!--Audited: 10/2025-->
 
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release. </span>   
 
@@ -50,7 +50,7 @@ U kunt bestaande programma&#39;s toevoegen aan een portfolio. Omdat programma&#3
  </tbody> 
 </table>
 
-*For informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*For informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -85,20 +85,20 @@ U kunt bestaande programma&#39;s toevoegen aan een portfolio. Omdat programma&#3
 1. Klik op **[!UICONTROL New Program]**.
 1. Klik op **[!UICONTROL Existing Program]**.
 
-   **voegt Programma&#39;s** doos toe opent. <!--check screen shot - I logged changes for this casing-->
+   **voegt programma&#39;s** doos toe opent. <!--check screen shot - I logged changes for this casing-->
 
-   ![&#x200B; voeg programmadoos &#x200B;](assets/add-programs-box.png) toe
+   ![ voeg programmadoos ](assets/add-programs-box.png) toe
 
    >[!IMPORTANT]
    >
    >Als u een bestaand programma toevoegt, worden alle projecten die met dat programma verband houden, aan het portfolio toegevoegd. Zorg ervoor dat u projecten niet per ongeluk op deze manier verplaatst.
 
-1. Typ in het veld **[!UICONTROL Add Programs to this Portfolio]** de naam van een programma en selecteer het programma wanneer het in de lijst wordt weergegeven. <!--see the name of this field, I suggested changes here-->
+1. Typ in het veld **[!UICONTROL Add programs to this portfolio]** de naam van een programma en selecteer het programma wanneer het in de lijst wordt weergegeven. <!--see the name of this field, I suggested changes here-->
 
    U kunt meerdere programma&#39;s toevoegen.
 
-1. (Facultatief) klik het **pictogram van de Schrapping** pictogram van de Schrapping ![&#x200B; naast de naam van een programma als u besluit om het niet aan de portefeuille toe te voegen.](assets/delete-icon.png)
+1. (Facultatief) klik het **pictogram van de Schrapping** pictogram van de Schrapping ![ naast de naam van een programma als u besluit om het niet aan de portefeuille toe te voegen.](assets/delete-icon.png)
 
-1. Klik op **[!UICONTROL Add Programs]** . <!--check this button in the UI after they implemented the changes??-->
+1. Klik op **[!UICONTROL Add programs]**.
 
    Het programma wordt weergegeven op het tabblad **[!UICONTROL Programs]** in het portfolio dat u hebt geselecteerd.
