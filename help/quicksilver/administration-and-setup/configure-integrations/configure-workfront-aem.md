@@ -48,7 +48,7 @@ Als [!DNL Adobe Workfront] beheerder kunt u [!DNL Workfront] met [!UICONTROL Ado
   </tr>
 </table>
 
-Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -58,29 +58,29 @@ Met [!DNL Workfront for AEM Assets connector] kan uw organisatie het volgende do
 
 * Creatieve inhoud samenstellen en beheren door AEM-elementen en -mappen te koppelen aan projecten, taken, problemen en aanvragen in [!DNL Workfront] .
 
-  Voor meer informatie over het vormen van documentintegratie met derdetoepassingen, zie [ documentintegratie ](../../administration-and-setup/configure-integrations/configure-document-integrations.md) vormen.
+  Voor meer informatie over het vormen van documentintegratie met derdetoepassingen, zie [&#x200B; documentintegratie &#x200B;](../../administration-and-setup/configure-integrations/configure-document-integrations.md) vormen.
 
 * Integreer met de gegevensopslagruimte [!DNL AEM Digital Asset Managemen] t (DAM), zodat u [!DNL Workfront] kunt gebruiken voor het beheren en delen van digitale elementen die zijn opgeslagen in de DAM.
 
-  Zie voor meer informatie over het koppelen van documenten en mappen met elementen de   [ de documenten van de Verbinding van externe toepassingen ](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
+  Zie voor meer informatie over het koppelen van documenten en mappen met elementen de   [&#x200B; de documenten van de Verbinding van externe toepassingen &#x200B;](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
 
 * Combineer en pas meta-gegevens van beide toepassingen op activa toe.
 * Een allesomvattende communicatiestream voor een element weergeven. Updates en opmerkingen die in [!DNL Workfront] of [!UICONTROL AEM Assets] op een element zijn aangebracht, worden gesynchroniseerd met de andere toepassing en geven een uitgebreide geschiedenis van de communicatie die met het element is gemaakt.
 
-  Voor meer informatie over het maken van commentaren in [!DNL Workfront], zie [ een update aan een document ](../../documents/managing-documents/add-update-documents.md) toevoegen.
+  Voor meer informatie over het maken van commentaren in [!DNL Workfront], zie [&#x200B; een update aan een document &#x200B;](../../documents/managing-documents/add-update-documents.md) toevoegen.
 
 ## Vereisten voor de installatie van de [!DNL AEM Assets] -connector
 
 Voordat u de [!DNL Workfront] -connector voor [!UICONTROL AEM Assets] kunt installeren, moet u controleren of aan de volgende voorwaarden is voldaan:
 
-* [!UICONTROL AEM Assets] is geïnstalleerd en geconfigureerd, versie 6.5 of hoger. Voor informatie over het installeren van [!UICONTROL AEM Assets], zie de [[!DNL Adobe Experience Manager]  documentatie ](https://experienceleague.adobe.com/en/docs/experience-manager).
-* (Voorwaardelijk) als uw firewallregels verkeer niet zoals verwacht toestaan, voeg het IP van uw cluster adres en/of domein aan uw lijst van gewenste personen toe. Voor meer informatie, zie [ de lijst van gewenste personen van uw firewall ](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md) vormen.
+* [!UICONTROL AEM Assets] is geïnstalleerd en geconfigureerd, versie 6.5 of hoger. Voor informatie over het installeren van [!UICONTROL AEM Assets], zie de [[!DNL Adobe Experience Manager]  documentatie &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager).
+* (Voorwaardelijk) als uw firewallregels verkeer niet zoals verwacht toestaan, voeg het IP van uw cluster adres en/of domein aan uw lijst van gewenste personen toe. Voor meer informatie, zie [&#x200B; de lijst van gewenste personen van uw firewall &#x200B;](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md) vormen.
 
 ## Installeer het aansluitingspakket [!DNL Workfront for AEM Assets] {#install-the-workfront-for-aem-assets-connector-package}
 
 >[!IMPORTANT]
 >
->De volgende instructies zijn voor a [!DNL Workfront with AEM Assets] erfenisschakelaar, die door de [[!DNL Workfront for Experience Manager]  verbeterde schakelaar ](../../documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/workfront-for-aem-enhanced-connector.md) is vervangen. Neem contact op met uw accountvertegenwoordiger voor meer informatie.
+>De volgende instructies zijn voor a [!DNL Workfront with AEM Assets] erfenisschakelaar, die door de [[!DNL Workfront for Experience Manager]  verbeterde schakelaar &#x200B;](../../documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/workfront-for-aem-enhanced-connector.md) is vervangen. Neem contact op met uw accountvertegenwoordiger voor meer informatie.
 
 Als u de [!DNL Workfront for AEM Assets] -connector wilt installeren, moet u de connector als pakket importeren in AEM met behulp van [!UICONTROL CRX Package Manager] .
 
@@ -106,13 +106,13 @@ Als u de [!DNL Workfront for AEM Assets] -connector wilt installeren, moet u de 
 
 1. Sluit de lus [!UICONTROL CRX Package Manager] . De connector is geïnstalleerd en u kunt [!DNL AEM Assets] nu configureren voor integratie met [!DNL Workfront] .
 
-1. Ga met [ voort vormen  [!DNL AEM Assets]  om met  [!DNL Workfront]](#configure-aem-assets-to-integrate-with-workfront) te integreren.
+1. Ga met [&#x200B; voort vormen  [!DNL AEM Assets]  om met  [!DNL Workfront]](#configure-aem-assets-to-integrate-with-workfront) te integreren.
 
 ## [!DNL AEM Assets] configureren voor integratie met [!DNL Workfront] {#configure-aem-assets-to-integrate-with-workfront}
 
 Nadat u de connector hebt geïnstalleerd, importeert u het aansluitingspakket naar AEM en configureert u AEM voor koppeling met documenten in [!DNL Workfront] .
 
-Voor informatie bij het installeren van de schakelaar, zie [ het  [!DNL Workfront for AEM Assets]  schakelaarpakket ](#install-the-workfront-for-aem-assets-connector-package) installeren.
+Voor informatie bij het installeren van de schakelaar, zie [&#x200B; het  [!DNL Workfront for AEM Assets]  schakelaarpakket &#x200B;](#install-the-workfront-for-aem-assets-connector-package) installeren.
 
 * [Vereisten](#prerequisites)
 * [AEM integreren met  [!DNL Workfront]](#integrate-aem-with-workfront)
@@ -177,7 +177,7 @@ Voordat u begint, moet u machtigingen inschakelen voor workfront-service:
 
       **[!UICONTROL Ignore Email Domain]:** selecteer deze optie als uw AEM-gebruikers de domeinnaam niet in hun gebruikers-id gebruiken.
 
-      **[!UICONTROL Restrict Access]:** selecteer deze optie om de aangewezen [!DNL Workfront] IP adressen te specificeren die aan de lijst van gewenste personen moeten worden toegevoegd. Voor meer informatie over de lijst van gewenste personen, zie [ de lijst van gewenste personen van uw firewall ](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md) vormen.
+      **[!UICONTROL Restrict Access]:** selecteer deze optie om de aangewezen [!DNL Workfront] IP adressen te specificeren die aan de lijst van gewenste personen moeten worden toegevoegd. Voor meer informatie over de lijst van gewenste personen, zie [&#x200B; de lijst van gewenste personen van uw firewall &#x200B;](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md) vormen.
 
    1. Klik in de linkerbovenhoek van de pagina Workfront Integration Configuration op de tab **[!UICONTROL Basic]** en klik vervolgens op **[!UICONTROL Connect]** .
 
@@ -191,18 +191,18 @@ Voordat u begint, moet u machtigingen inschakelen voor workfront-service:
 
 1. Genereer de AEM API-sleutel door op **[!UICONTROL Generate Key]te klikken.** Kopieer vervolgens de AEM API-sleutel naar het klembord.
 
-   U hebt de AEM API-sleutel later nodig wanneer u [!UICONTROL Workfront] configureert voor integratie met [!UICONTROL AEM Assets] . Voor meer informatie, zie [ Workfront vormen om met de activa van AEM ](#configure-workfront-to-integrate-with-aem-assets) te integreren.
+   U hebt de AEM API-sleutel later nodig wanneer u [!UICONTROL Workfront] configureert voor integratie met [!UICONTROL AEM Assets] . Voor meer informatie, zie [&#x200B; Workfront vormen om met de activa van AEM &#x200B;](#configure-workfront-to-integrate-with-aem-assets) te integreren.
 
 1. Klik in de rechterbovenhoek op **[!UICONTROL Save]** . Het venster [!UICONTROL Global-[!DNL Workfront]] wordt weergegeven.
 
-   ![ Properties.png ](assets/properties-350x117.png)
+   ![&#x200B; Properties.png &#x200B;](assets/properties-350x117.png)
 
 1. (Optioneel) Bidirectionele communicatie tussen AEM en [!DNL Workfront] synchroniseren:
 
    1. Klik op **[!UICONTROL Global-[!DNL Workfront]].**
    1. Klik in de linkerbovenhoek van het venster op **[!UICONTROL Properties]** . De pagina **[!UICONTROL [!DNL Workfront] Integration Configuration]** wordt weergegeven.
 
-      ![ Properties2.png ](assets/properties2-350x444.png)
+      ![&#x200B; Properties2.png &#x200B;](assets/properties2-350x444.png)
 
    1. (Optioneel) Als u de synchronisatie van opmerkingen tussen [!UICONTROL AEM Assets] en [!DNL Workfront] wilt inschakelen, klikt u op **[!UICONTROL Enable Comment Sync]** .
 
@@ -216,9 +216,9 @@ Voordat u begint, moet u machtigingen inschakelen voor workfront-service:
 
       Verwijder het [!UICONTROL NOTE CREATE] -gebeurtenisabonnement dat op uw AEM-exemplaar is geregistreerd.
 
-      Voor informatie over gebeurtenisabonnementen, zie [ Abonnement API van de Gebeurtenis ](../../wf-api/general/event-subs-api.md).
+      Voor informatie over gebeurtenisabonnementen, zie [&#x200B; Abonnement API van de Gebeurtenis &#x200B;](../../wf-api/general/event-subs-api.md).
 
-1. Ga met [ verder vormen [!UICONTROL AEM Externalizer]](#configure-the-aem-externalizer).
+1. Ga met [&#x200B; verder vormen [!UICONTROL AEM Externalizer]](#configure-the-aem-externalizer).
 
 ### De [!UICONTROL AEM Externalizer] configureren {#configure-the-aem-externalizer}
 
@@ -234,22 +234,22 @@ Met [!UICONTROL AEM Externalizer] kan AEM URL&#39;s doorgeven in een indeling di
 
    De domeinnaam in het veld [!UICONTROL author] moet overeenkomen met het domein dat wordt vermeld in de URL-regel van uw AEM-instantie.
 
-   ![[!DNL Extenalizer].png ](assets/extenalizer-350x128.png)
+   ![[!DNL Extenalizer].png &#x200B;](assets/extenalizer-350x128.png)
 
 1. (Voorwaardelijk) Werk indien nodig het domein in het veld **[!UICONTROL Author]** bij.
 1. Klik op **[!UICONTROL Save]**. [!UICONTROL AEM Assets] is nu geconfigureerd voor het koppelen van documenten met [!DNL Workfront] .
 
-1. Ga met [ voort vormen  [!DNL Workfront]  om met  [!DNL AEM assets]](#configure-workfront-to-integrate-with-aem-assets) te integreren.
+1. Ga met [&#x200B; voort vormen  [!DNL Workfront]  om met  [!DNL AEM assets]](#configure-workfront-to-integrate-with-aem-assets) te integreren.
 
 ## [!DNL Workfront] configureren voor integratie met [!DNL AEM assets] {#configure-workfront-to-integrate-with-aem-assets}
 
-Nadat u de [!UICONTROL Workfront for AEM Assets] Schakelaar installeert (zoals die in [ wordt beschreven installeer het [!UICONTROL Workfront for AEM Assets] schakelaarpakket ](#install-the-workfront-for-aem-assets-connector-package)) en vorm [!UICONTROL AEM Assets] (zoals die in [ wordt beschreven vormt [!UICONTROL AEM Assets] om met  [!DNL Workfront]](#configure-aem-assets-to-integrate-with-workfront) te integreren), moet u [!DNL Workfront] vormen om documenten tussen [!DNL Workfront] en [!DNL AEM Assets] te verbinden.
+Nadat u de [!UICONTROL Workfront for AEM Assets] Schakelaar installeert (zoals die in [&#x200B; wordt beschreven installeer het [!UICONTROL Workfront for AEM Assets] schakelaarpakket &#x200B;](#install-the-workfront-for-aem-assets-connector-package)) en vorm [!UICONTROL AEM Assets] (zoals die in [&#x200B; wordt beschreven vormt [!UICONTROL AEM Assets] om met  [!DNL Workfront]](#configure-aem-assets-to-integrate-with-workfront) te integreren), moet u [!DNL Workfront] vormen om documenten tussen [!DNL Workfront] en [!DNL AEM Assets] te verbinden.
 
 1. Meld u als beheerder aan bij Workfront.
 
    >[!TIP]
    >
-   >[!UICONTROL Workfront] raadt u aan een [!UICONTROL Workfront] -beheerder te maken die uitsluitend is bestemd voor uw AEM-integratie. Voor meer informatie over het toewijzen van het [!UICONTROL Workfront] niveau van de beheerdertoegang tot een gebruiker, zie [ gebruikers administratieve toegang van de Verlening tot bepaalde gebieden ](../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
+   >[!UICONTROL Workfront] raadt u aan een [!UICONTROL Workfront] -beheerder te maken die uitsluitend is bestemd voor uw AEM-integratie. Voor meer informatie over het toewijzen van het [!UICONTROL Workfront] niveau van de beheerdertoegang tot een gebruiker, zie [&#x200B; gebruikers administratieve toegang van de Verlening tot bepaalde gebieden &#x200B;](../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 
 {{step-1-to-setup}}
 
@@ -264,24 +264,24 @@ Nadat u de [!UICONTROL Workfront for AEM Assets] Schakelaar installeert (zoals d
 
    De basis-API-URL bestaat uit de URL voor uw AEM-instantie, gevolgd door het pad: /bin/webhooks/api/
 
-   ![ mceclip3.png ](assets/mceclip3-350x130.png)
+   ![&#x200B; mceclip3.png &#x200B;](assets/mceclip3-350x130.png)
 
 1. Selecteer **[!UICONTROL Authentication Type]** in de vervolgkeuzelijst **[!UICONTROL ApiKey].**
 
 1. Plak in het vak &#x200B; **[!UICONTROL API Key]** de AEM API-sleutel die u hebt gekopieerd bij het configureren van [!UICONTROL AEM Assets] .
 1. Klik op **[!UICONTROL Save]**.
 1. (Optioneel) Zorg ervoor dat de integratie is gemarkeerd met [!UICONTROL Active] .\
-   ![ aem_custom_integration_active.png ](assets/aem-custom-integration-active-350x81.png)
+   ![&#x200B; aem_custom_integration_active.png &#x200B;](assets/aem-custom-integration-active-350x81.png)
 
    [!DNL Workfront] is nu geconfigureerd om te werken met [!DNL AEM Assets] .
 
-   Voor toegang tot middelen in AEM moet elke [!DNL Workfront] -gebruiker die de connector moet gebruiken, zijn ingesteld als een gebruiker in AEM. Voor informatie bij het creëren van gebruikers, zie [ de gebruikers van de Opstelling om de schakelaar ](#set-up-users-to-use-the-connector) te gebruiken.
+   Voor toegang tot middelen in AEM moet elke [!DNL Workfront] -gebruiker die de connector moet gebruiken, zijn ingesteld als een gebruiker in AEM. Voor informatie bij het creëren van gebruikers, zie [&#x200B; de gebruikers van de Opstelling om de schakelaar &#x200B;](#set-up-users-to-use-the-connector) te gebruiken.
 
 ## De gebruikers van de opstelling om de schakelaar te gebruiken {#set-up-users-to-use-the-connector}
 
 Gebruikers hebben alleen toegang tot de aansluiting als ze een gebruikersprofiel in AEM hebben en behoren tot een [!DNL Workfront] -groep met toegangsniveaus die de machtigingen [!UICONTROL Create] en [!UICONTROL Delete] bevatten.
 
-Voor meer informatie over [!DNL Workfront] toestemmingen, zie [ tot douanetoegangsniveaus ](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md) leiden of wijzigen.
+Voor meer informatie over [!DNL Workfront] toestemmingen, zie [&#x200B; tot douanetoegangsniveaus &#x200B;](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md) leiden of wijzigen.
 
 * [Gebruikers instellen in  [!DNL AEM assets]](#set-up-users-in-aem-assets)
 
@@ -295,7 +295,7 @@ Voor meer informatie over [!DNL Workfront] toestemmingen, zie [ tot douanetoegan
    1. Klik op **[!UICONTROL Create User].**
    1. Voer de persoonlijke gegevens van de gebruiker in.
 
-      ![ 64NewUser.png ](assets/64newuser-350x524.png)
+      ![&#x200B; 64NewUser.png &#x200B;](assets/64newuser-350x524.png)
 
       Het enige vereiste gebied is het **identiteitskaart** gebied. De AEM-id van de gebruiker moet overeenkomen met de [!DNL Workfront] -id. Dit is het e-mailadres van de gebruiker [!DNL Workfront] .
 
@@ -309,7 +309,7 @@ Voor meer informatie over [!DNL Workfront] toestemmingen, zie [ tot douanetoegan
 
 1. Klik op de tab **[!UICONTROL Groups]** .
 
-   ![ het lusje van Groepen ](assets/groupstab.png)
+   ![&#x200B; het lusje van Groepen &#x200B;](assets/groupstab.png)
 
 1. Zorg ervoor dat de gebruiker tot minstens één [!DNL Workfront] -groep behoort die toegangsniveaus heeft die de machtigingen **[!UICONTROL Create]** en **[!UICONTROL Delete]** bevatten.
 
