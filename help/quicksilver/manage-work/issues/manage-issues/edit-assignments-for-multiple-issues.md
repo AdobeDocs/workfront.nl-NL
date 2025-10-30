@@ -22,10 +22,10 @@ ht-degree: 0%
 
 U kunt gebruikerstoewijzingen aan veelvoudige kwesties gelijktijdig wijzigen. Zie ook de volgende artikelen voor informatie over het bewerken van uitgaven of het een voor een toewijzen van uitgaven:
 
-* [ geeft kwesties ](../../../manage-work/issues/manage-issues/edit-issues.md) uit
+* [&#x200B; geeft kwesties &#x200B;](../../../manage-work/issues/manage-issues/edit-issues.md) uit
 * [Problemen toewijzen](../../../manage-work/issues/manage-issues/assign-issues.md)
 
-Voor algemene informatie over het toewijzen van kwesties, zie [ Overzicht van het wijzigen van uitgiftetaken ](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md).
+Voor algemene informatie over het toewijzen van kwesties, zie [&#x200B; Overzicht van het wijzigen van uitgiftetaken &#x200B;](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md).
 
 >[!NOTE]
 >
@@ -59,7 +59,7 @@ Voor algemene informatie over het toewijzen van kwesties, zie [ Overzicht van he
  </tbody> 
 </table>
 
-Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -95,7 +95,7 @@ Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront
       De lijst met uitgaven filtert automatisch voor uw filtercriteria.
    1. (Facultatief) klik **sparen als nieuw**, dan **sparen**.
 
-1. Selecteer de kwesties waarvoor u taken wilt wijzigen, dan klik **uitgeven** pictogram ![ uitgeven pictogram ](assets/qs-edit-icon.png).
+1. Selecteer de kwesties waarvoor u taken wilt wijzigen, dan klik **uitgeven** pictogram ![&#x200B; uitgeven pictogram &#x200B;](assets/qs-edit-icon.png).
 
    **geeft Kwesties** vertoningen uit. Het aantal geselecteerde items wordt in de linkerbovenhoek van de pagina weergegeven.
 
@@ -103,7 +103,7 @@ Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront
 
    1. Ga naar de **sectie van Taken**, dan uitgezochte **Ontvanger**.
 
-      ![ gebied van Taken ](assets/classic-assignmens-area-on-edit-box-350x119.png)
+      ![&#x200B; gebied van Taken &#x200B;](assets/classic-assignmens-area-on-edit-box-350x119.png)
 
    1. Voer een van de volgende handelingen uit:
 
@@ -151,9 +151,9 @@ Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront
 
       >[!TIP]
       >
-      ><span class="preview"> slechts wijzen die aan alle geselecteerde kwesties vertoning in het **2} gebied van Taken {worden toegewezen.**</span>
+      ><span class="preview"> slechts wijzen die aan alle geselecteerde kwesties vertoning in het **2&rbrace; gebied van Taken &lbrace;worden toegewezen.**</span>
 
-      ![ gebied van Taken in bulk-geef kwesties ](assets/assignments-area-on-bulk-edit-issues.png) uit
+      ![&#x200B; gebied van Taken in bulk-geef kwesties &#x200B;](assets/assignments-area-on-bulk-edit-issues.png) uit
 
    1. <span class="preview"> Begin typend de naam van een gebruiker, een rol, of een team om wijzers aan alle geselecteerde kwesties toe te voegen. </span>
 
