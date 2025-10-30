@@ -6,14 +6,16 @@ description: Adobe Workfront heeft API-versie 21 uitgebracht op 23 oktober 2025.
 author: Becky
 feature: Workfront API
 role: Developer
-source-git-commit: f47e0bce61322c971f3a815ec01e7c243b090910
+source-git-commit: 1c3272c7830bf0a6feddea0281b0e2879b87eacf
 workflow-type: tm+mt
-source-wordcount: '833'
+source-wordcount: '893'
 ht-degree: 0%
 
 ---
 
 # Nieuwe functies in API-versie 21
+
+<span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Het is beschikbaar slechts in het milieu van de Sandbox van de Voorproef.</span>
 
 Adobe Workfront heeft API-versie 21 uitgebracht op 23 oktober 2025. API-versie 21 bevat de volgende wijzigingen ten opzichte van versie 20.
 
@@ -673,6 +675,42 @@ Een object Rate vertegenwoordigt een factureringssnelheid in Workfront.
     </tr>
   </tbody>
 </table>
+
+### Rol (ROLE)
+
+Een object Role (taakrol) vertegenwoordigt een functionele capaciteit of een vaardigheid die een gebruiker zou kunnen opvullen, zoals Designer of Product Manager.
+
+<div class="preview">
+
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">Directe velden</td>
+      <td>
+        <ul>
+          <li>
+            <p><b> met voeten treedt Valuta </b>
+            </p>
+            <p>Verwijderd</p>
+              </li>
+          <li>
+            <p><b> de Kosten Tarief van de Overschrijving </b>
+            </p>
+            <p>Verwijderd</p>
+              </li>
+          <li>
+            <p><b> met voeten treden het Facturerings Tarief </b>
+            </p>
+            <p>Verwijderd</p>
+              </li>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+</div>
 
 ### ScheduledReport (SCHREP)
 
