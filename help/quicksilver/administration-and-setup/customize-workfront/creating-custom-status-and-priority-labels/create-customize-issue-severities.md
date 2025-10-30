@@ -8,16 +8,14 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 0331be3c-a2d8-4788-a41a-5e971fb4bbe1
-source-git-commit: 5706ebd11985b9e67c93686918f8f0327adabdf1
+source-git-commit: 5c80dca8a9f7dd5a693db9bf22738602da8b521b
 workflow-type: tm+mt
-source-wordcount: '673'
+source-wordcount: '629'
 ht-degree: 0%
 
 ---
 
 # Uitgiftecontroles maken of aanpassen
-
-<span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze functie is alleen beschikbaar in de omgeving van de voorvertoningssandbox en wordt vrijgegeven in een gefaseerde implementatie van Production.
 
 <!--
 DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.
@@ -55,7 +53,7 @@ Uw gebruikers kunnen serienummers gebruiken om te bepalen hoe ernstig een proble
  </tbody> 
 </table>
 
-Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++ 
 
@@ -74,16 +72,16 @@ U kunt het volgende bewerken voor deze controles:
 * Naam
 * Kleur
 
-  De kleur van een ernst blijft behouden in een diagramrapport als u de resultaten groepeert op Issue Severity. Voor informatie over grafiekrapporten, zie [&#x200B; een grafiek aan een rapport &#x200B;](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md) toevoegen.
+  De kleur van een ernst blijft behouden in een diagramrapport als u de resultaten groepeert op Issue Severity. Voor informatie over grafiekrapporten, zie [ een grafiek aan een rapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md) toevoegen.
 
 * Welke strengheid is het gebrek
 
-  Voor meer informatie over standaardcontroles, zie [&#x200B; creeer of geef een kwestie strengheid &#x200B;](#create-or-edit-an-issue-severity) in dit artikel uit.
+  Voor meer informatie over standaardcontroles, zie [ creeer of geef een kwestie strengheid ](#create-or-edit-an-issue-severity) in dit artikel uit.
 
 * Beschrijving
 * Of een ernst verborgen is in Workfront
 
-  Voor meer informatie over het verbergen van een strengheid, zie [&#x200B; creeer of geef een kwestie strengheid &#x200B;](#create-or-edit-an-issue-severity) in dit artikel uit.
+  Voor meer informatie over het verbergen van een strengheid, zie [ creeer of geef een kwestie strengheid ](#create-or-edit-an-issue-severity) in dit artikel uit.
 
 * Ernst verwijderen
 
@@ -95,9 +93,9 @@ Als Workfront-beheerder kunt u uitgiftesetters maken en bewerken die zijn afgest
 
 {{step-1-to-setup}}
 
-1. In het linkerpaneel, klik **>** de Voorkeur van het Project **&#x200B;**.
+1. In het linkerpaneel, klik **>** de Voorkeur van het Project ****.
 
-1. Als u een nieuwe strengheid creeert, klik <span class="preview">**Nieuwe rij** bij de bodem van de lijst </span>, of **voeg een Nieuwe Ernst** toe.
+1. Als u een nieuwe strengheid creeert, klik **Nieuwe rij** bij de bodem van de lijst.
 1. Vorm de volgende opties voor de nieuwe strengheid of geef hen voor bestaande uit:
 
    * **Naam van de Ernst**: Type een naam voor de strengheid.
@@ -109,7 +107,7 @@ Als Workfront-beheerder kunt u uitgiftesetters maken en bewerken die zijn afgest
 
    * **Kleur**: Kies een kleur voor de strengheid.
 
-     De kleur van de ernst wordt gebruikt in grafiekrapporten wanneer u uw resultaten groepeert door de Ernst van de Uitgave. Voor informatie over grafiekrapporten, zie [&#x200B; een grafiek aan een rapport &#x200B;](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md) toevoegen.
+     De kleur van de ernst wordt gebruikt in grafiekrapporten wanneer u uw resultaten groepeert door de Ernst van de Uitgave. Voor informatie over grafiekrapporten, zie [ een grafiek aan een rapport ](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md) toevoegen.
 
    * **StandaardErnst van de Ernst**: Selecteer de strengheid u Workfront automatisch op alle pas gecreëerde kwesties wilt toepassen.
 
@@ -117,19 +115,15 @@ Als Workfront-beheerder kunt u uitgiftesetters maken en bewerken die zijn afgest
 
      U kunt een verborgen ernst niet als standaard instellen.
 
-     <div class="preview">
-
-     De standaardstrengheid wordt vermeld met een pictogram ![&#x200B; Standaard strengheidspictogram &#x200B;](assets/default-icon.png). Voer een van de volgende handelingen uit om een nieuwe standaardinstelling te kiezen:
+     De standaardstrengheid wordt vermeld met een pictogram ![ Standaard strengheidspictogram ](assets/default-icon.png). Voer een van de volgende handelingen uit om een nieuwe standaardinstelling te kiezen:
 
       * Selecteer de controledoos naast de ernstnaam en selecteer **maak Gebrek** in de actiebar bij de bodem van het scherm.
       * Beweeg over de ernstnaam en klik **Meer** menu dat verschijnt. Dan, uitgezochte **maak Gebrek**.
 
         De nieuwe standaardernst wordt geëtiketteerd met het pictogram.
 
-     </div>
-
    * **Beschrijving**: Typ een beschrijving voor de strengheid om zijn functie te verklaren.
-   * <span class="preview">**Keuze van de Huid**</span> of **Verbergen**: <span class="preview"> Uitgezochte **ja**</span> of selecteer de controledoos om een strengheid te verbergen die niet meer nodig is.
+   * **Keuze van de Huid**: Selecteer **ja** om een strengheid te verbergen die niet meer nodig is.
 
      Een verborgen ernst wordt nergens in Workfront weergegeven, dus gebruikers kunnen deze optie niet kiezen voor hun uitgaven.
 
@@ -143,4 +137,4 @@ Als Workfront-beheerder kunt u uitgiftesetters maken en bewerken die zijn afgest
 
 1. Klik **sparen**.
 
-Voor meer informatie over hoe te om servers te gebruiken terwijl het werken met kwesties, zie [&#x200B; de vraagstrengheid van de Update &#x200B;](../../../manage-work/issues/issue-information/update-issue-severity.md).
+Voor meer informatie over hoe te om servers te gebruiken terwijl het werken met kwesties, zie [ de vraagstrengheid van de Update ](../../../manage-work/issues/issue-information/update-issue-severity.md).
