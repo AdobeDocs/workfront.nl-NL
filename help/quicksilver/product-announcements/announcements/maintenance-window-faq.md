@@ -19,7 +19,7 @@ ht-degree: 1%
 
 Onderhoudsvensters zijn tijdsblokken die voor Workfront zijn gereserveerd om updates uit te voeren voor infrastructuur en andere platformgerelateerde problemen. Soms worden Sandbox-omgevingen opgenomen in het onderhoud.
 
-Workfront streeft ernaar verstoring zoveel mogelijk te beperken. Als het onderhoud wordt vereist, is het gepland en op de plaats van de Status van Workfront in [ status.adobe.com ](https://status.adobe.com/) aangekondigd.
+Workfront streeft ernaar verstoring zoveel mogelijk te beperken. Als het onderhoud wordt vereist, is het gepland en op de plaats van de Status van Workfront in [&#x200B; status.adobe.com &#x200B;](https://status.adobe.com/) aangekondigd.
 
 ## Wanneer zijn de Workfront-onderhoudsvensters?
 
@@ -27,6 +27,6 @@ Onderhoudsvensters zijn gewoonlijk vooraf gepland in weekends tussen 8h Mountain
 
 ## Kan ik vóór een gepland onderhoud op de hoogte worden gesteld?
 
-U kunt geavanceerd bericht van gepland onderhoud ontvangen door aan de plaats van de Status van Workfront ([ status.adobe.com ](https://status.adobe.com/) in te tekenen.) De plaats van de Status van Workfront kondigt onderhoud minstens 3 dagen vóór de gebeurtenis aan. Als er een noodsituatie is, kan de voorafgaande kennisgeving minder zijn.
+U kunt geavanceerd bericht van gepland onderhoud ontvangen door aan de plaats van de Status van Workfront ([&#x200B; status.adobe.com &#x200B;](https://status.adobe.com/) in te tekenen.) De plaats van de Status van Workfront kondigt onderhoud minstens 3 dagen vóór de gebeurtenis aan. Als er een noodsituatie is, kan de voorafgaande kennisgeving minder zijn.
 
-Voor informatie over hoe te om statusupdates aan onderhoud en trending kwesties te ontvangen, zie [ Abonneren of uw abonnement ](../../workfront-basics/tips-tricks-and-troubleshooting/understand-the-status-site.md#managing-your-subscription) in het artikel [ beheren de plaats van de Status van Adobe Workfront ](../../workfront-basics/tips-tricks-and-troubleshooting/understand-the-status-site.md).
+Voor informatie over hoe te om statusupdates aan onderhoud en trending kwesties te ontvangen, zie [&#x200B; Abonneren of uw abonnement &#x200B;](../../workfront-basics/tips-tricks-and-troubleshooting/understand-the-status-site.md#managing-your-subscription) in het artikel [&#x200B; beheren de plaats van de Status van Adobe Workfront &#x200B;](../../workfront-basics/tips-tricks-and-troubleshooting/understand-the-status-site.md).
