@@ -7,14 +7,16 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: 923deab4-205b-4312-9ec4-4471fd6cea26
-source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
+source-git-commit: 76379d5433cc13ee412c8c1045316ef253b3ee7d
 workflow-type: tm+mt
-source-wordcount: '442'
+source-wordcount: '470'
 ht-degree: 0%
 
 ---
 
 # Sjabloon maken van project
+
+<!--Audited: 10/2025-->
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(Note: Keep this article in the Creating and Managing Templates area with the detailed information that this contains. Since this is an article about creating TEMPLATES, this needs to be detailed under Templates; there is a similar article with almost the same title in Managing projects that points to this one - since this functionality is in the UI under Projects, this article must have a presence in that areas as well. Keep both, but make this one the only editable one (iterative))</p>
@@ -28,7 +30,7 @@ Nadat u een bestaand project als malplaatje opslaat, kunt u het nieuwe malplaatj
 >
 >Wanneer het bewaren van een project als malplaatje, slaan de daadwerkelijke data van de taken en van het project niet voor het malplaatje op.
 >
->Een malplaatje en zijn taken hebben geen daadwerkelijke data, maar eerder een aanwijzing van welke dag (van wanneer het toekomstige project zou kunnen beginnen) een taak zou kunnen beginnen en op welke dag de taak zou kunnen moeten voltooien. Wanneer het gebruiken van malplaatjes om de toekomstige projecten tot stand te brengen, zullen de projecten daadwerkelijke data ontvangen. Voor informatie, zie [&#x200B; een project &#x200B;](../create-projects/create-project.md) creëren.
+>Een malplaatje en zijn taken hebben geen daadwerkelijke data, maar eerder een aanwijzing van welke dag (van wanneer het toekomstige project zou kunnen beginnen) een taak zou kunnen beginnen en op welke dag de taak zou kunnen moeten voltooien. Wanneer het gebruiken van malplaatjes om de toekomstige projecten tot stand te brengen, zullen de projecten daadwerkelijke data ontvangen. Voor informatie, zie [ een project ](../create-projects/create-project.md) creëren.
 
 ## Toegangsvereisten
 
@@ -58,7 +60,7 @@ Nadat u een bestaand project als malplaatje opslaat, kunt u het nieuwe malplaatj
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -89,7 +91,7 @@ Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van d
 ## Sjabloon maken van project
 
 1. Ga naar het project dat u als malplaatje wilt bewaren.
-1. Klik **Meer** menu ![&#x200B; Meer pictogram &#x200B;](assets/qs-more-icon-on-an-object.png), dan **sparen als Malplaatje**.
+1. Klik **Meer** menu ![ Meer pictogram ](assets/more-icon.png), dan **sparen als Malplaatje**.
 1. Geef de volgende informatie voor de sjabloon op:
 
    <table style="table-layout:auto"> 
@@ -97,7 +99,7 @@ Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van d
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">Naam</td> 
+      <td role="rowheader">Sjabloonnaam</td> 
       <td>Geef een naam voor de sjabloon op.</td> 
      </tr> 
      <tr> 
@@ -112,29 +114,32 @@ Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van d
         <li><strong> Nr </strong>: Andere gebruikers kunnen niet het malplaatje vinden en kunnen het niet aan projecten vastmaken.</li> 
        </ul> </td> 
      </tr> 
-     <tr> 
-      <td role="rowheader">Aangepaste Forms</td> 
-      <td>Gebruik de vervolgkeuzelijst om aangepaste formulieren te selecteren die u aan de sjabloon wilt koppelen. Als er al aangepaste formulieren aan het project zijn gekoppeld, worden alle gegevensvelden van die aangepaste formulieren weergegeven.<br> u kunt tot 10 douaneformulieren op één enkel malplaatje omvatten.</td> 
-     </tr> 
     </tbody> 
    </table>
 
-1. Klik **leiden Forms** om de vormen te verwijderen of opnieuw in orde te brengen. Voor informatie over hoe te om douaneformulieren op het malplaatje te verwijderen en opnieuw in orde te brengen, zie [&#x200B; de vormen van de Douane &#x200B;](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md).
+1. Klik **Forms van de Douane** in het linkerpaneel.
+1. Klik **voeg douaneformulier** gebied toe en of begin het typen van de naam van een projectdouane voor, of selecteer één van de lijst.
 
-   ![&#x200B; sparen als malplaatje eerste stap &#x200B;](assets/save-as-template-first-step-350x159.png)
+   Als er al aangepaste formulieren zijn gekoppeld aan het project, worden alle gegevens in de bestaande velden van die aangepaste formulieren weergegeven op de formulieren.
 
-1. Klik **Volgende Stap.**
-1. In de **sectie van Opties**, selecteer checkbox naast om het even welke informatie u van het malplaatje wilt ontruimen.
+   U kunt maximaal 10 aangepaste formulieren in één sjabloon opnemen.
 
-   ![&#x200B; sparen als malplaatjeopties &#x200B;](assets/save-as-template-options-step-350x109.png)
+1. Houd de muisaanwijzer boven de naam van een formulier en klik om het te slepen en neer te zetten op een nieuwe plaats.
 
-1. Klik **Volgende Stap.**
-1. In de **uitsluiten** sectie, selecteer om het even welke taken die u van het project wilt uitsluiten.
+   ![ sparen project als malplaatjebovenkant van de doos ](assets/save-project-as-template-top-of-the-form.png)
 
-   ![&#x200B; sparen als malplaatje sluit uit &#x200B;](assets/save-as-template-exclude-350x205.png)
+1. Klik **Opties** in het linkerpaneel, dan selecteer de gebieden of de punten u aan het malplaatje wilt overbrengen.
+
+   Alle items zijn standaard ingeschakeld. Niet-geselecteerde items worden niet naar de sjabloon overgebracht.
+
+   ![ sparen als malplaatjeopties ](assets/save-project-as-template-options-area.png)
+
+1. Klik **uitsluiten** in het linkerpaneel, dan om het even welke taken selecteren die u van het project wilt uitsluiten.
+
+   ![ sparen als malplaatje sluit uit ](assets/save-project-as-template-exclude-area.png)
 
 1. Klik **Einde en sparen Malplaatje.**
 
-   Uw sjabloon wordt nu weergegeven in de lijst met beschikbare sjablonen en kan worden gekoppeld aan een bestaand project of worden gebruikt om een nieuw project te maken.
+   De sjabloon wordt nu weergegeven in de lijst met beschikbare sjablonen. De gebruikers kunnen of het nieuwe malplaatje aan een bestaand project vastmaken of het gebruiken om een project tot stand te brengen.
 
- 
+

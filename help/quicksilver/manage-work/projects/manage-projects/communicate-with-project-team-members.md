@@ -6,9 +6,9 @@ description: U kunt eenvoudig communiceren met de leden van uw projectteam via A
 author: Alina
 feature: Work Management
 exl-id: 2dadc10c-ffa8-4bb5-b2f1-14e2a8f0a7d6
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: 76379d5433cc13ee412c8c1045316ef253b3ee7d
 workflow-type: tm+mt
-source-wordcount: '397'
+source-wordcount: '413'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 U kunt eenvoudig communiceren met de leden van uw projectteam via Adobe Workfront.
 
-Alle gebruikers verbonden aan een project vormen het Team van het Project. Voor informatie over het Team van het Project, zie [&#x200B; Overzicht van het Team van het Project &#x200B;](../../../manage-work/projects/planning-a-project/project-team-overview.md).
+Alle gebruikers verbonden aan een project vormen het Team van het Project. Voor informatie over het Team van het Project, zie [ Overzicht van het Team van het Project ](../../../manage-work/projects/planning-a-project/project-team-overview.md).
 
 ## Toegangsvereisten
 
@@ -49,7 +49,7 @@ Alle gebruikers verbonden aan een project vormen het Team van het Project. Voor
  </tbody> 
 </table>
 
-Voor meer informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -71,7 +71,7 @@ Voor meer informatie, zie [&#x200B; vereisten van de Toegang in de documentatie 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>View or higher access to&nbsp;Projects</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>View or higher access to Projects</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -89,33 +89,33 @@ Voor meer informatie, zie [&#x200B; vereisten van de Toegang in de documentatie 
 
    of
 
-   Om bepaalde leden van het projectteam bij te werken, selecteer één of verscheidene gebruikers in de lijst, dan klik **verzenden Update naar Gebruiker** **&#x200B;**.\
-   ![&#x200B; Commenting_1.png &#x200B;](assets/commenting-1-350x352.png)
+   Om bepaalde leden van het projectteam bij te werken, selecteer één of verscheidene gebruikers in de lijst, dan klik **verzenden Update naar Gebruiker**.
 
-1. Typ uw update op **post een update aan dit project** gebied.
-1. (Facultatief) om de update privé te maken, klik het **&#x200B;**&#x200B;pictogram van het Slot.
+   ![ verzendt update naar gebruikersdoos op project ](assets/send-update-to-user-box-on-project.png)
+
+1. Typ uw update in **post een update aan het project** gebied.
+1. (Facultatief) om de update privé te maken, selecteer **Privé aan mijn bedrijf** optie.
 
    Gebruikers buiten het bedrijf kunnen geen persoonlijke update weergeven.
 
-1. (Facultatief) klik het **pictogram van Mensen** om meer ontvangers toe te voegen die niet worden geselecteerd.
+1. (Facultatief) klik **mensen van de Markering** om meer ontvangers toe te voegen die niet worden geselecteerd.
 1. Klik **verzenden**.
 
-   De update en de namen van de gebruikers inbegrepen in het tonen in het lusje van Updates van het project.
+   De update en de namen van de gebruikers inbegrepen vertoning in de **sectie van Updates** van het project.
 
 ## Updates verzenden naar leden van het projectteam en anderen
 
 U kunt projectupdates naar teamleden en naar andere gebruikers verzenden die geen deel van het projectteam zouden kunnen uitmaken. Alle gebruikers moeten een actieve Workfront-account hebben. De update wordt verzonden als een melding in Workfront.
 
 1. Ga naar een project waarvan u updates naar andere gebruikers wilt verzenden.
-1. (Optioneel en voorwaardelijk) Als de gebruikers waarnaar u updates wilt verzenden zich niet in het projectteam bevinden, voegt u deze toe aan het projectteam.
+1. Klik **Mensen** in het linkerpaneel.
+1. (Facultatief en voorwaardelijk) als de gebruikers u updates wilt verzenden om niet op het projectteam zijn, klik **gebruikers** toevoegen om hen aan het projectteam toe te voegen.
 
-   Voor informatie over het toevoegen van gebruikers aan het projectteam, zie [&#x200B; het Team van het Project beheren &#x200B;](../../../manage-work/projects/planning-a-project/manage-project-team.md).
+   Voor informatie over het toevoegen van gebruikers aan het projectteam, zie [ het Team van het Project beheren ](../../../manage-work/projects/planning-a-project/manage-project-team.md).
 
-1. Verzend een update naar de leden van het projectteam, zoals beschreven in het
+1. Verzend een update naar de leden van het projectteam, zoals die in de sectie [ wordt beschreven verzendt een e-mail naar een lid van het Team van het Project ](#send-an-email-to-a-project-team-member) in dit artikel.
 
-   [&#x200B; verzend een e-mail naar een lid van het Team van het Project &#x200B;](#send-an-email-to-a-project-team-member) sectie in dit artikel.
-
-   De update en de namen van de gebruikers inbegrepen in het tonen in het lusje van Updates van het project.
+   De update en de namen van de gebruikers inbegrepen in het tonen in de **sectie van Updates** van het project.
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p>(NOTE: drafted. No longer valid)</p>
@@ -124,8 +124,8 @@ U kunt projectupdates naar teamleden en naar andere gebruikers verzenden die gee
 <li value="2"> Click <strong>People</strong> in the left panel.</li>
 <li value="3"> <p>To update all members of the project team, click <strong>Update All</strong> in the upper-left corner of the list of project team members.</p> <p>Or</p> <p>To update certain members of the project team, select one or several users in the list, then click <strong>Update</strong>. </p> </li>
 <li value="4">Type your update in the <strong>Post an update to this project</strong> field.</li>
-<li value="5"> <p>(Optional) To make the update private, click the <strong>Lock</strong> icon.</p> <p>Users outside the company cannot view a private&nbsp;update.</p> </li>
-<li value="6"> <p>(Optional) Add a user who is not&nbsp;part of the Project&nbsp;Team by typing their name in the people field, then selecting the user from the list when it displays. </p> </li>
+<li value="5"> <p>(Optional) To make the update private, click the <strong>Lock</strong> icon.</p> <p>Users outside the company cannot view a private update.</p> </li>
+<li value="6"> <p>(Optional) Add a user who is not part of the Project Team by typing their name in the people field, then selecting the user from the list when it displays. </p> </li>
 <li value="7"> <p>Click <strong>Send.</strong></p> <p>The update and the names of the users included in it display in the Updates tab of the project.</p> </li>
 </ol> </p>
 -->
