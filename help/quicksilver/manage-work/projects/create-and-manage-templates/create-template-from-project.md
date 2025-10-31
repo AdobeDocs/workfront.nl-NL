@@ -30,7 +30,7 @@ Nadat u een bestaand project als malplaatje opslaat, kunt u het nieuwe malplaatj
 >
 >Wanneer het bewaren van een project als malplaatje, slaan de daadwerkelijke data van de taken en van het project niet voor het malplaatje op.
 >
->Een malplaatje en zijn taken hebben geen daadwerkelijke data, maar eerder een aanwijzing van welke dag (van wanneer het toekomstige project zou kunnen beginnen) een taak zou kunnen beginnen en op welke dag de taak zou kunnen moeten voltooien. Wanneer het gebruiken van malplaatjes om de toekomstige projecten tot stand te brengen, zullen de projecten daadwerkelijke data ontvangen. Voor informatie, zie [ een project ](../create-projects/create-project.md) creëren.
+>Een malplaatje en zijn taken hebben geen daadwerkelijke data, maar eerder een aanwijzing van welke dag (van wanneer het toekomstige project zou kunnen beginnen) een taak zou kunnen beginnen en op welke dag de taak zou kunnen moeten voltooien. Wanneer het gebruiken van malplaatjes om de toekomstige projecten tot stand te brengen, zullen de projecten daadwerkelijke data ontvangen. Voor informatie, zie [&#x200B; een project &#x200B;](../create-projects/create-project.md) creëren.
 
 ## Toegangsvereisten
 
@@ -60,7 +60,7 @@ Nadat u een bestaand project als malplaatje opslaat, kunt u het nieuwe malplaatj
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -91,7 +91,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 ## Sjabloon maken van project
 
 1. Ga naar het project dat u als malplaatje wilt bewaren.
-1. Klik **Meer** menu ![ Meer pictogram ](assets/more-icon.png), dan **sparen als Malplaatje**.
+1. Klik **Meer** menu ![&#x200B; Meer pictogram &#x200B;](assets/more-icon.png), dan **sparen als Malplaatje**.
 1. Geef de volgende informatie voor de sjabloon op:
 
    <table style="table-layout:auto"> 
@@ -126,17 +126,17 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 1. Houd de muisaanwijzer boven de naam van een formulier en klik om het te slepen en neer te zetten op een nieuwe plaats.
 
-   ![ sparen project als malplaatjebovenkant van de doos ](assets/save-project-as-template-top-of-the-form.png)
+   ![&#x200B; sparen project als malplaatjebovenkant van de doos &#x200B;](assets/save-project-as-template-top-of-the-form.png)
 
 1. Klik **Opties** in het linkerpaneel, dan selecteer de gebieden of de punten u aan het malplaatje wilt overbrengen.
 
    Alle items zijn standaard ingeschakeld. Niet-geselecteerde items worden niet naar de sjabloon overgebracht.
 
-   ![ sparen als malplaatjeopties ](assets/save-project-as-template-options-area.png)
+   ![&#x200B; sparen als malplaatjeopties &#x200B;](assets/save-project-as-template-options-area.png)
 
 1. Klik **uitsluiten** in het linkerpaneel, dan om het even welke taken selecteren die u van het project wilt uitsluiten.
 
-   ![ sparen als malplaatje sluit uit ](assets/save-project-as-template-exclude-area.png)
+   ![&#x200B; sparen als malplaatje sluit uit &#x200B;](assets/save-project-as-template-exclude-area.png)
 
 1. Klik **Einde en sparen Malplaatje.**
 
