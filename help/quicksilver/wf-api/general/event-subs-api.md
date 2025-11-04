@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: 8f5cd4125281bb00331c4dc895cc57b138190cfe
+source-git-commit: 3a538a15daad5fa0dced8d45bb260d6087be81ff
 workflow-type: tm+mt
-source-wordcount: '3031'
+source-wordcount: '3060'
 ht-degree: 0%
 
 ---
@@ -60,6 +60,7 @@ De volgende Workfront-objecten worden ondersteund door gebeurtenisabonnementen.
 * Bedrijf
 * Dashboard
 * Document
+* Documentversie
 * Kosten
 * Veld
 * Uur
@@ -68,9 +69,16 @@ De volgende Workfront-objecten worden ondersteund door gebeurtenisabonnementen.
 * Portfolio
 * Programma
 * Project
+* Goedkeuring proefdrukken
 * Opnemen
 * Recordtype
 * Rapport
+* Personeelsformatie
+* Parameterwaarde personeelsbestand
+* Personeelsformatie
+* Resourceattribuut van personeelsplan
+* Resourcekenmerkwaarde personeelsbestand instellen
+* Resourceparameterwaarde personeelsplan
 * Taak
 * Sjabloon
 * Tijdschema
@@ -79,7 +87,7 @@ De volgende Workfront-objecten worden ondersteund door gebeurtenisabonnementen.
 
 >[!NOTE]
 >
->Voor een lijst van gebieden die door de voorwerpen van het gebeurtenisabonnement worden gesteund, zie &lbrace;de gebieden van het het abonnementsmiddel van de Gebeurtenis [.](../../wf-api/api/event-sub-resource-fields.md)
+>Voor een lijst van gebieden die door de voorwerpen van het gebeurtenisabonnement worden gesteund, zie {de gebieden van het het abonnementsmiddel van de Gebeurtenis [.](../../wf-api/api/event-sub-resource-fields.md)
 
 ## Verificatie van abonnement op gebeurtenis
 
@@ -88,7 +96,7 @@ Uw Workfront-gebruiker heeft het volgende nodig om een gebeurtenissenabonnement 
 * Een toegangsniveau van &quot;Beheerder van het Systeem&quot;wordt vereist om de Abonnementen van de Gebeurtenis te gebruiken.
 * Een header `sessionID` is vereist om de API voor abonnementen op gebeurtenissen te gebruiken
 
-  Voor meer informatie, zie [&#x200B; Authentificatie &#x200B;](api-basics.md#authentication) in [&#x200B; API Grondbeginselen &#x200B;](api-basics.md).
+  Voor meer informatie, zie [ Authentificatie ](api-basics.md#authentication) in [ API Grondbeginselen ](api-basics.md).
 
 ## Overlappingen van gebeurtenisabonnementen voorkomen
 
@@ -473,7 +481,7 @@ Workfront heeft twee versies van gebeurtenisabonnementen.
 
 De capaciteit om gebeurtenisabonnementen te bevorderen of te degraderen zorgt ervoor dat wanneer de veranderingen in de structuur van gebeurtenissen worden aangebracht, de bestaande abonnementen niet breken, toestaand u om aan de nieuwe versie zonder een hiaat in uw gebeurtenisabonnement te testen en te bevorderen.
 
-Voor meer informatie over gebeurtenisabonnement versioning, met inbegrip van specifieke verschillen tussen de versie en belangrijke data, zie [&#x200B; het abonnement van de Gebeurtenis versioning &#x200B;](/help/quicksilver/wf-api/general/event-subs-versioning.md).
+Voor meer informatie over gebeurtenisabonnement versioning, met inbegrip van specifieke verschillen tussen de versie en belangrijke data, zie [ het abonnement van de Gebeurtenis versioning ](/help/quicksilver/wf-api/general/event-subs-versioning.md).
 
 >[!NOTE]
 >
@@ -816,7 +824,7 @@ Met deze connector wordt het filter toegepast op de nieuwe status of oude status
 >[!NOTE]
 >
 >Het abonnement hieronder met het opgegeven filter retourneert alleen berichten waarin de naam van de taak `again` bevat op de `oldState` -taak, wat deze was voordat een update op de taak werd uitgevoerd.
->&#x200B;>Een gebruiksgeval voor dit zou zijn om de objCode- berichten te vinden die van één ding aan een ander veranderden. Bijvoorbeeld om alle taken te weten te komen die van &quot;Onderzoek één of andere naam&quot;in &quot;Onderzoek TeamName Één of andere naam&quot;veranderde
+>Een gebruiksgeval voor dit zou zijn om de objCode- berichten te vinden die van één ding aan een ander veranderden. Bijvoorbeeld om alle taken te weten te komen die van &quot;Onderzoek één of andere naam&quot;in &quot;Onderzoek TeamName Één of andere naam&quot;veranderde
 
 ```
 {
