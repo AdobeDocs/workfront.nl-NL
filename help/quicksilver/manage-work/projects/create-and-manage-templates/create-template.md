@@ -6,9 +6,9 @@ description: U kunt sjablonen maken en verwijderen vanuit het gebied Sjablonen. 
 author: Alina
 feature: Work Management
 exl-id: 5094ba3f-3cb0-4301-aa7d-88c64d112b78
-source-git-commit: 76379d5433cc13ee412c8c1045316ef253b3ee7d
+source-git-commit: 46133f435c665dd82d134f18d0b5de4e70bab7d7
 workflow-type: tm+mt
-source-wordcount: '648'
+source-wordcount: '654'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ U kunt sjablonen maken en verwijderen vanuit het gebied Sjablonen. Wanneer u een
 
 >[!NOTE]
 >
->Een malplaatje en zijn taken hebben geen daadwerkelijke data, maar eerder een aanwijzing van welke dag (van wanneer het toekomstige project zou kunnen beginnen) een taak zou kunnen beginnen en op welke dag de taak zou kunnen moeten voltooien. Wanneer het gebruiken van malplaatjes om de toekomstige projecten tot stand te brengen, zullen de projecten daadwerkelijke data ontvangen. Voor informatie, zie [&#x200B; een project &#x200B;](../create-projects/create-project.md) creëren.
+>Een malplaatje en zijn taken hebben geen daadwerkelijke data, maar eerder een aanwijzing van welke dag (van wanneer het toekomstige project zou kunnen beginnen) een taak zou kunnen beginnen en op welke dag de taak zou kunnen moeten voltooien. Wanneer het gebruiken van malplaatjes om de toekomstige projecten tot stand te brengen, zullen de projecten daadwerkelijke data ontvangen. Voor informatie, zie [ een project ](../create-projects/create-project.md) creëren.
 
 
 U kunt op de volgende manieren een nieuwe sjabloon maken:
@@ -29,13 +29,13 @@ U kunt op de volgende manieren een nieuwe sjabloon maken:
 * Geheel nieuw, zoals beschreven in dit artikel.
 * Van bestaande projecten, door een project als malplaatje te bewaren.
 
-  Voor meer informatie over het creëren van malplaatjes van bestaande projecten, zie [&#x200B; sparen een project als malplaatje &#x200B;](../../../manage-work/projects/manage-projects/save-project-as-template.md).
+  Voor meer informatie over het creëren van malplaatjes van bestaande projecten, zie [ sparen een project als malplaatje ](../../../manage-work/projects/manage-projects/save-project-as-template.md).
 
 * Door deze uit een andere sjabloon te kopiëren.
 
-  Voor meer informatie over het kopiëren van een bestaand malplaatje, zie [&#x200B; een projectmalplaatje &#x200B;](../../../manage-work/projects/create-and-manage-templates/copy-template.md) kopiëren.
+  Voor meer informatie over het kopiëren van een bestaand malplaatje, zie [ een projectmalplaatje ](../../../manage-work/projects/create-and-manage-templates/copy-template.md) kopiëren.
 
-* Door blauwdrukken te importeren. U moet een Workfront-beheerder zijn om blauwdrukken te kunnen importeren. Voor informatie, zie [&#x200B; een blauwdruk &#x200B;](../../../administration-and-setup/blueprints/configure-template-package.md) vormen.
+* Door blauwdrukken te importeren. U moet een Workfront-beheerder zijn om blauwdrukken te kunnen importeren. Voor informatie, zie [ een blauwdruk ](../../../administration-and-setup/blueprints/configure-template-package.md) vormen.
 
 ## Toegangsvereisten
 
@@ -64,7 +64,7 @@ U kunt op de volgende manieren een nieuwe sjabloon maken:
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -100,7 +100,7 @@ Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van d
 
    De sjabloon heeft geen naam.
 
-   ![&#x200B; Nieuw malplaatje &#x200B;](assets/create-template-nwe-2022-350x102.png)
+   ![ Nieuw malplaatje ](assets/create-template-nwe-2022-350x102.png)
 
 1. Specificeer een naam voor het nieuwe malplaatje in de malplaatjekopbal, dan druk **binnengaan.**
 1. Klik de **sectie van de Taken van het Malplaatje** in het linkerpaneel.
@@ -110,9 +110,27 @@ Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van d
 
    Klik **Nieuwe Taak van het Malplaatje** beginnen taken aan uw malplaatje in de **Nieuwe Taak van het Malplaatje** doos toe te voegen.
 
-   ![&#x200B; Nieuwe doos van de Taak van het Malplaatje &#x200B;](assets/new-template-task-box.png)
+   ![ Nieuwe doos van de Taak van het Malplaatje ](assets/new-template-task-box.png)
 
-1. Werk de gegevens op de volgende gebieden bij:
+   <!--<span class="preview">The Create Template Task opens in the new experience.</span>-->
+
+   <!--
+   1. <span class="preview">(Conditional) Using the new experience, update information in the following areas in the **Create Template Task** box:</span>
+   <div class="preview">
+   * Template Task Name
+   * Overview
+   * Assignments
+   * Finance
+   * Custom Forms
+   * Documents
+   * Settings 
+   </div>
+   1. Click **Save**
+   Or (*******remove the 1. from the step below and continue with those steps here*********)
+   1. (Optional) Click **Switch back to old experience** at the bottom of the **Create Template Task** box.
+   The **New Template Task** opens. (************add screen shot***********)-->
+
+1. De informatie van de update op de volgende gebieden in het **Nieuwe vakje van de Taak van het Malplaatje**:
 
    * Overzicht
    * Financiën
@@ -121,7 +139,7 @@ Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van d
    * Aangepaste Forms
    * Document bijvoegen
 
-     Het bijwerken van informatie voor een malplaatjetaak is gelijkaardig aan het uitgeven van taken over een project. Voor meer informatie, zie [&#x200B; taken &#x200B;](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md) uitgeven.
+     Het bijwerken van informatie voor een malplaatjetaak is gelijkaardig aan het uitgeven van taken over een project. Voor meer informatie, zie [ taken ](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md) uitgeven. <!--should this be relinked at preview/ prod release to say it's the same as Edit template tasks??-->
 
    >[!NOTE]
    >
@@ -138,15 +156,15 @@ Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van d
    >
    >U kunt taken niet rechtstreeks vanuit dit Gantt-diagram bewerken.
 
-1. Om informatie aan uw nieuw malplaatje toe te voegen, klik **Meer** menu ![&#x200B; Meer pictogram &#x200B;](assets/more-icon.png) aan de linkerzijde van de malplaatjenaam in de kopbal, dan klik **uitgeven**.
+1. Om informatie aan uw nieuw malplaatje toe te voegen, klik **Meer** menu ![ Meer pictogram ](assets/more-icon.png) aan de linkerzijde van de malplaatjenaam in de kopbal, dan klik **uitgeven**.
 
-   Voor informatie over het uitgeven van een malplaatje, zie [&#x200B; projectmalplaatjes &#x200B;](../../../manage-work/projects/create-and-manage-templates/edit-templates.md) uitgeven.
+   Voor informatie over het uitgeven van een malplaatje, zie [ projectmalplaatjes ](../../../manage-work/projects/create-and-manage-templates/edit-templates.md) uitgeven.
 
    >[!NOTE]
    >
    >   De koppeling van een projectsjabloon met een groep (of het ontbreken van een groep) bepaalt hoe project-, taak- en uitgiftevoorkeuren bepaalde instellingen in de sjabloon bepalen.
    >
-   >Voor meer informatie, zie de sectie &quot;hoe voorkeur op malplaatjes en malplaatjetaken&quot;in het artikel [&#x200B; van toepassing is creeer en wijzig het projectmalplaatjes van een groep &#x200B;](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md).
+   >Voor meer informatie, zie de sectie &quot;hoe voorkeur op malplaatjes en malplaatjetaken&quot;in het artikel [ van toepassing is creeer en wijzig het projectmalplaatjes van een groep ](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md).
 
 1. Klik **sparen**.
 1. (Optioneel) Voeg de volgende items aan de sjabloon toe
@@ -165,7 +183,7 @@ Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van d
    * Uitgaven
    * Goedkeuringen
 
-   Voor informatie, zie de sectie &quot;meer punten aan een malplaatje&quot;in het artikel [&#x200B; toevoegen projectmalplaatjes &#x200B;](../../../manage-work/projects/create-and-manage-templates/edit-templates.md) uitgeeft.
+   Voor informatie, zie de sectie &quot;meer punten aan een malplaatje&quot;in het artikel [ toevoegen projectmalplaatjes ](../../../manage-work/projects/create-and-manage-templates/edit-templates.md) uitgeeft.
 
 
 

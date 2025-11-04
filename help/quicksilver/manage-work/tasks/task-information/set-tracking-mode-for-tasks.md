@@ -6,9 +6,9 @@ description: De volgmodus van een taak bepaalt hoe de status van de taakvoortgan
 author: Alina
 feature: Work Management
 exl-id: 751071b4-3716-4153-97fe-4fe0ebc7cbb0
-source-git-commit: 76379d5433cc13ee412c8c1045316ef253b3ee7d
+source-git-commit: 87bf2a4485d3b0c29fcfe8e00dcca57874cdec04
 workflow-type: tm+mt
-source-wordcount: '199'
+source-wordcount: '194'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 De volgmodus van een taak bepaalt hoe de status van de taakvoortgang in Adobe Workfront wordt bijgewerkt.
 
-Voor informatie over het Volgen Wijze op taken, zie [&#x200B; het Volgen van de Taak overzicht van de Wijze &#x200B;](../../../manage-work/tasks/task-information/task-tracking-mode.md).
+Voor informatie over het Volgen Wijze op taken, zie [ het Volgen van de Taak overzicht van de Wijze ](../../../manage-work/tasks/task-information/task-tracking-mode.md).
 
 ## Toegangsvereisten
 
@@ -51,7 +51,7 @@ Voor informatie over het Volgen Wijze op taken, zie [&#x200B; het Volgen van de 
  </tbody> 
 </table>
 
-*For informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*For informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -86,8 +86,6 @@ Voor informatie over het Volgen Wijze op taken, zie [&#x200B; het Volgen van de 
 
 ## Traceermodus instellen voor taken
 
-U stelt de modus Tekstspatiëring als volgt in:
-
 1. Ga naar de taak u de volgende wijze voor wilt plaatsen.
 1. Klik het **Meer** pictogram ![](assets/qs-more-icon-on-an-object.png) naast de naam van de taak, dan klik **uitgeven**.
 
@@ -105,6 +103,6 @@ U stelt de modus Tekstspatiëring als volgt in:
    * Automatisch aanvullen
    * Voorganger
 
-   Voor meer informatie over de volgende wijzeopties, zie [&#x200B; het Volgen van de Taak het Overzicht van de Wijze &#x200B;](../../../manage-work/tasks/task-information/task-tracking-mode.md)
+   Voor meer informatie over de volgende wijzeopties, zie [ het Volgen van de Taak het Overzicht van de Wijze ](../../../manage-work/tasks/task-information/task-tracking-mode.md)
 
 1. Klik **sparen**.
