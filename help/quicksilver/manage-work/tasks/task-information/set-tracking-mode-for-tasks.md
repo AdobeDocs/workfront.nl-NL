@@ -19,7 +19,7 @@ ht-degree: 0%
 
 De volgmodus van een taak bepaalt hoe de status van de taakvoortgang in Adobe Workfront wordt bijgewerkt.
 
-Voor informatie over het Volgen Wijze op taken, zie [ het Volgen van de Taak overzicht van de Wijze ](../../../manage-work/tasks/task-information/task-tracking-mode.md).
+Voor informatie over het Volgen Wijze op taken, zie [&#x200B; het Volgen van de Taak overzicht van de Wijze &#x200B;](../../../manage-work/tasks/task-information/task-tracking-mode.md).
 
 ## Toegangsvereisten
 
@@ -51,7 +51,7 @@ Voor informatie over het Volgen Wijze op taken, zie [ het Volgen van de Taak ove
  </tbody> 
 </table>
 
-*For informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*For informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -103,6 +103,6 @@ Voor informatie over het Volgen Wijze op taken, zie [ het Volgen van de Taak ove
    * Automatisch aanvullen
    * Voorganger
 
-   Voor meer informatie over de volgende wijzeopties, zie [ het Volgen van de Taak het Overzicht van de Wijze ](../../../manage-work/tasks/task-information/task-tracking-mode.md)
+   Voor meer informatie over de volgende wijzeopties, zie [&#x200B; het Volgen van de Taak het Overzicht van de Wijze &#x200B;](../../../manage-work/tasks/task-information/task-tracking-mode.md)
 
 1. Klik **sparen**.
