@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 357b5a80-424a-475c-9163-82cffbbd253e
-source-git-commit: 0c8d84cfcc87728e809061c01c56322f3fd1f2f6
+source-git-commit: b78f794ece181da3f4db3a1b9b78e794b16a09ed
 workflow-type: tm+mt
-source-wordcount: '307'
+source-wordcount: '470'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,35 @@ ht-degree: 0%
 
 Deze pagina bevat een beschrijving van de verbeteringen die zijn aangebracht met de release Vierde kwartaal 2025 voor de voorvertoningsomgeving. Deze verbeteringen zullen beschikbaar worden gesteld in de productieomgeving, zoals vermeld.
 
-Voor een lijst van alle veranderingen beschikbaar op dit punt in het Vierde Kwartaal 2025 versiecyclus, zie [&#x200B; Vierde Kwartaal 2025 releaseoverzicht &#x200B;](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar op dit punt in het Vierde Kwartaal 2025 versiecyclus, zie [ Vierde Kwartaal 2025 releaseoverzicht ](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-release-overview.md).
+
+## Updates op het tabblad Rapportoverzicht
+
+>[!NOTE]
+>
+>* Voorbeeld: 13 oktober 2025
+>* Snelle productie: 13 oktober 2025
+>* Productie voor alle afnemers: 13 oktober 2025
+>[!BADGE Uit schema ]{type=Neutral}
+
+Het tabblad Overzicht van een rapport is bijgewerkt met de volgende verbeteringen:
+
+* De namen van de groeperingsgebieden die voor elke rij vooraf bepalen zijn verplaatst naar de eerste kolomkopbal.
+
+* De naamkolom wordt nu gescheiden door slashes (gescheiden door een slash) wanneer meerdere groeperingsniveaus worden toegepast op een rapport.
+
+* Het voorvoegsel van het aggregatietype (&quot;Sum: &quot;, &quot;Max: &quot;, &quot;Min: &quot;, &quot;Avg: &quot;) is uit elke aggregatie verwijderd.
+
+* Het samenvoegingstype voor elke kolom wordt nu weergegeven als een bijlage bij de kolomkopwaarde.
+
+* Subgroepen (2 of 3 groepen) worden in de eerste kolom weergegeven als ingesprongen niveaus. Groepen op hoofdniveau worden nog steeds vet weergegeven.
+
+* U kunt nu de kolombreedten aanpassen. De kolommen worden teruggezet naar de standaardbreedteverdeling wanneer de pagina wordt vernieuwd.
+
+>[!NOTE]
+>
+>De eerste vier wijzigingen gelden ook voor het exporteren van het tabblad Overzicht, indien van toepassing. Niveau-inspringingen en vet lettertype worden niet overgedragen naar een geëxporteerd, door tabs gescheiden tekstbestand.
+
 
 ## Adobe Unified Experience nu beschikbaar voor meer Workfront-organisaties
 
@@ -39,9 +67,9 @@ De Adobe Unified Experience omvat:
 
 Uw beheerder van Workfront zal een bericht van het Centrum van de Aankondiging betreffende de datum ontvangen waarop uw organisatie naar de Adobe Verenigde Ervaring zal bewegen.
 
-Voor meer informatie, zie [&#x200B; Adobe Verenigde Ervaring voor Workfront &#x200B;](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
+Voor meer informatie, zie [ Adobe Verenigde Ervaring voor Workfront ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
-[&#x200B; Bekijk een videodemonstratie van deze eigenschap.](https://video.tv.adobe.com/v/3412388/){target=_blank}## Updates voor verbeterde lijsten
+[ Bekijk een videodemonstratie van deze eigenschap.](https://video.tv.adobe.com/v/3412388/){target=_blank}## Updates voor verbeterde lijsten
 
 >[!NOTE]
 >
@@ -54,4 +82,4 @@ Met onze geavanceerde lijstindeling kunt u filters en groepen gebruiken om uw we
 * Mijn verzoeken-widget
 * Prioriteiten
 
-Voor meer informatie, zie [&#x200B; Gebruik verbeterde lijsten &#x200B;](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
+Voor meer informatie, zie [ Gebruik verbeterde lijsten ](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
