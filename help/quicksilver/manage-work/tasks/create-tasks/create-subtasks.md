@@ -49,7 +49,7 @@ In Adobe Workfront kunnen taken bovenliggende en onderliggende relaties hebben. 
  </tbody> 
 </table>
 
-Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -121,7 +121,7 @@ U kunt subtaken maken in de takenlijst of de taaksubtaaksectie.
 1. Klik de **subtasks** sectie in het linkerpaneel, als beschikbaar.
 1. Klik **Nieuwe Taak.**
 
-   Voor informatie over het creëren van taken, zie [ taken in een project ](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md) creëren.
+   Voor informatie over het creëren van taken, zie [&#x200B; taken in een project &#x200B;](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md) creëren.
 
 1. Klik **creëren taak.**
 

@@ -22,14 +22,14 @@ Workfront heeft API-versie 12 uitgebracht op 12 november 2020. API-versie 12 bev
 
 De volgende bronnen zijn nieuw in Workfront API versie 12.
 
-* [ BreadCrumb ](#breadcrumb)
+* [&#x200B; BreadCrumb &#x200B;](#breadcrumb)
 * [RichTextParameterValue](#richtextparametervalue)
 
 ### BreadCrumb {#breadcrumb}
 
 Een BreadCrumb-object vertegenwoordigt een element in de boven-/onderliggende hiërarchie van een Adobe Workfront-werkitem. Broodkruimels geven aan hoe een werkitem past in de grotere structuur van portfolio&#39;s, projecten, projecten en taken.
 
-Voor meer informatie over Broodkruimels in Workfront, zie [ Overzicht van Broodkruimels in de nieuwe ervaring van Adobe Workfront ](../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md)
+Voor meer informatie over Broodkruimels in Workfront, zie [&#x200B; Overzicht van Broodkruimels in de nieuwe ervaring van Adobe Workfront &#x200B;](../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md)
 
 <table style="table-layout:auto"> <!--
   <col data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -51,7 +51,7 @@ Voor meer informatie over Broodkruimels in Workfront, zie [ Overzicht van Broodk
 
 Rijke tekstvelden zijn nu beschikbaar voor meer objecten. Het RichTextParameterValue-object is toegevoegd aan Workfront ter ondersteuning van deze beschikbaarheid.
 
-Voor meer informatie, zie [ Rijke tekstgebieden in Adobe Workfront API ](../../wf-api/general/rich-text-field-api.md).
+Voor meer informatie, zie [&#x200B; Rijke tekstgebieden in Adobe Workfront API &#x200B;](../../wf-api/general/rich-text-field-api.md).
 
 <table style="table-layout:auto"> <!--
   <col data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -138,7 +138,7 @@ De volgende bronnen zijn gewijzigd voor Workfront API versie 12.
 
 Een voorwerp AccessLevel wordt geassocieerd met gebruikers, en beschrijft de reeks van AccessLevelPermissions die bepalen wat de gebruiker tot toegang heeft.
 
-Voor meer informatie over toegangsniveaus, zie [ hoe de toegangsniveaus ](../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels.md) werken.
+Voor meer informatie over toegangsniveaus, zie [&#x200B; hoe de toegangsniveaus &#x200B;](../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels.md) werken.
 
 <table style="table-layout:auto"> <!--
   <col data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -312,7 +312,7 @@ Een object ActivityLog is een volledige lijst met alle activiteiten die in een b
 
 Een object NoticeAttachment vertegenwoordigt een bestand dat aan een Workfront-aankondiging is gekoppeld.
 
-Voor meer over aankondigingsgehechtheid, zie [ aankondigingen ](../../administration-and-setup/get-started-wf-administration/view-send-announcements.md) verzenden
+Voor meer over aankondigingsgehechtheid, zie [&#x200B; aankondigingen &#x200B;](../../administration-and-setup/get-started-wf-administration/view-send-announcements.md) verzenden
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -372,7 +372,7 @@ Een bepaald het werkpunt, zoals een taak, een document, of een timesheet, kunnen
 
 Een agendapunt is een kalenderrapport.
 
-Voor meer informatie over kalenderrapporten, zie [ overzicht van de rapporten van de Kalender ](../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md).
+Voor meer informatie over kalenderrapporten, zie [&#x200B; overzicht van de rapporten van de Kalender &#x200B;](../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md).
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -395,7 +395,7 @@ Voor meer informatie over kalenderrapporten, zie [ overzicht van de rapporten va
 
 Een object Company vertegenwoordigt een organisatie die bestaat uit een verzameling personen.
 
-Voor meer informatie over bedrijven, zie [ bedrijven ](../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md) creëren en uitgeven.
+Voor meer informatie over bedrijven, zie [&#x200B; bedrijven &#x200B;](../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md) creëren en uitgeven.
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -480,7 +480,7 @@ Een object Document vertegenwoordigt een bestand (zoals geschreven materiaal, af
 
 Een object DocumentVersion vertegenwoordigt een specifieke versie van een bestand (zoals geschreven materiaal, afbeeldingen of andere vormen van informatie).
 
-Voor meer informatie over documentversies, zie [ een nieuwe versie van een document ](../../documents/managing-documents/upload-new-document-version.md) uploaden.
+Voor meer informatie over documentversies, zie [&#x200B; een nieuwe versie van een document &#x200B;](../../documents/managing-documents/upload-new-document-version.md) uploaden.
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -562,7 +562,7 @@ Een object Group vertegenwoordigt een set gebruikers en teams. Groepen vertegenw
 
 Een object LinkedFolder vertegenwoordigt een map die is gekoppeld vanuit een externe documentprovider, zoals Google Drive of Dropbox.
 
-Voor meer informatie over Gekoppelde Omslagen, zie [ documenten van de Verbinding van externe toepassingen ](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
+Voor meer informatie over Gekoppelde Omslagen, zie [&#x200B; documenten van de Verbinding van externe toepassingen &#x200B;](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -618,7 +618,7 @@ Een object Parameter is een aangepast veld.
 
 Het middel van de Parameter voegde de vlag SHARABLE toe.
 
-Voor meer informatie over douanevelden, zie [ een douanevorm ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md) in [ creëren of uitgeven of een douaneformulier ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md) uitgeven.
+Voor meer informatie over douanevelden, zie [&#x200B; een douanevorm &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md) in [&#x200B; creëren of uitgeven of een douaneformulier &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md) uitgeven.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -660,7 +660,7 @@ Voor meer informatie over douanevelden, zie [ een douanevorm ](/help/quicksilver
 
 Een Portfolio-object is een verzameling projecten die concurreren om dezelfde bronnen, meestal geld of mensen om ze te voltooien.
 
-Voor meer informatie over portefeuilles, zie [ overzicht van Portfolio in Adobe Workfront ](../../manage-work/portfolios/portfolios-overview/portfolio-overview.md).
+Voor meer informatie over portefeuilles, zie [&#x200B; overzicht van Portfolio in Adobe Workfront &#x200B;](../../manage-work/portfolios/portfolios-overview/portfolio-overview.md).
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -712,7 +712,7 @@ Een programmaobject is een subset van projecten binnen een portfolio, waarin ver
 
 Een voorwerp QueueDef vertegenwoordigt een Rij, die een Project is dat aan het gebied van de Helpdesk is gepubliceerd om gebruikers toe te staan om Kwesties aan het voor te leggen.
 
-Voor meer informatie over de Rijen van het Verzoek, zie [ een Rij van het Verzoek ](../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md) creëren.
+Voor meer informatie over de Rijen van het Verzoek, zie [&#x200B; een Rij van het Verzoek &#x200B;](../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md) creëren.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -764,7 +764,7 @@ Een voorwerp ScheduledReport vertegenwoordigt een rapport dat is gevormd om voor
 
 Een ScoreCardQuestion-object vertegenwoordigt een vraag die aan een Scorecard is toegevoegd. Deze vragen worden gewoonlijk bepaald door de manager van Portfolio, en hun antwoorden staan de manager toe om te begrijpen hoe goed een project zich op de doelstellingen van de portefeuille richt.
 
-Voor meer informatie over Scorecard Vragen, zie [ een scorecard ](../../administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md) creëren.
+Voor meer informatie over Scorecard Vragen, zie [&#x200B; een scorecard &#x200B;](../../administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md) creëren.
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -851,7 +851,7 @@ Een voorwerp van het Team is een inzameling van Gebruikers die aan een het werkp
 
 Een voorwerp TemplateTask vertegenwoordigt een Taak die deel van een Malplaatje uitmaakt. De Taken van het malplaatje worden Taken in het Project waar het Malplaatje wordt gebruikt.
 
-Voor meer informatie over de Taken van het Malplaatje, zie [ malplaatjetaken ](../../manage-work/projects/create-and-manage-templates/edit-template-task.md) uitgeven.
+Voor meer informatie over de Taken van het Malplaatje, zie [&#x200B; malplaatjetaken &#x200B;](../../manage-work/projects/create-and-manage-templates/edit-template-task.md) uitgeven.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -876,7 +876,7 @@ Voor meer informatie over de Taken van het Malplaatje, zie [ malplaatjetaken ](.
 
 Een voorwerp Timesheet vertegenwoordigt virtuele timecard dat Gebruikers toestaat om werkelijk gewerkte uren voor Taken, Projecten, en de Types van uren van overheaduren in te gaan.
 
-Voor meer informatie over Tijdopnemers, zie [ Overzicht van Tijdopnemers ](../../timesheets/timesheets/timesheets-overview.md)
+Voor meer informatie over Tijdopnemers, zie [&#x200B; Overzicht van Tijdopnemers &#x200B;](../../timesheets/timesheets/timesheets-overview.md)
 
 <table style="table-layout:auto"> 
  <col> 

@@ -32,7 +32,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
 Nadat u een sjabloon hebt gemaakt, kunt u de informatie van de sjabloontaken bewerken. De informatie u op een malplaatjetaak bijwerkt wordt geassocieerd met projecttaken nadat u het malplaatje gebruikt om een project tot stand te brengen of u het malplaatje aan een project vastmaakt.
 
-Voor informatie over het creëren van een malplaatje, zie [ een projectmalplaatje ](../../../manage-work/projects/create-and-manage-templates/create-template.md) creëren.
+Voor informatie over het creëren van een malplaatje, zie [&#x200B; een projectmalplaatje &#x200B;](../../../manage-work/projects/create-and-manage-templates/create-template.md) creëren.
 
 U kunt één sjabloontaak tegelijk bewerken of sjabloontaken bulksgewijs bewerken.
 
@@ -68,7 +68,7 @@ U kunt één sjabloontaak tegelijk bewerken of sjabloontaken bulksgewijs bewerke
  </tbody> 
 </table>
 
-Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -104,7 +104,7 @@ Voordat u begint, moet u
 
 * Maak een sjabloon.
 
-  Voor informatie over het creëren van een malplaatje, zie [ een projectmalplaatje ](../../../manage-work/projects/create-and-manage-templates/create-template.md) creëren.
+  Voor informatie over het creëren van een malplaatje, zie [&#x200B; een projectmalplaatje &#x200B;](../../../manage-work/projects/create-and-manage-templates/create-template.md) creëren.
 
 ## Sjabloontaken bewerken
 
@@ -120,8 +120,8 @@ U kunt een sjabloontaak bewerken met de gebieden Sjabloontaak bewerken of Sjablo
    1. (Facultatief) klik **Documenten** in het linkerpaneel om documenten aan de malplaatjetaak toe te voegen. De documenten zullen naar de projecttaken overbrengen wanneer u het malplaatje gebruikt om het project tot stand te brengen.
    1. (Voorwaardelijk) om beperkte informatie over een malplaatjetaak uit te geven, klik **Details van de Taak van het Malplaatje** in het linkerpaneel, dan ga naar de gebieden van de sectie van Details om informatie voor elk gebied uit te geven.
    1. (Optioneel) Voer een van de volgende handelingen uit:
-      * Klik **samenvouwen alle** pictogram ![ samenvouwen al pictogram ](assets/collapse-all-icon.png) om alle gebieden samen te vouwen.
-      * Klik het **uitgeven** pictogram ![ geeft pictogram ](assets/edit-icon.png) uit, dan selecteren van om het even welke gebieden hieronder, of klik **geef allen** uit om informatie op alle gebieden uit te geven:
+      * Klik **samenvouwen alle** pictogram ![&#x200B; samenvouwen al pictogram &#x200B;](assets/collapse-all-icon.png) om alle gebieden samen te vouwen.
+      * Klik het **uitgeven** pictogram ![&#x200B; geeft pictogram &#x200B;](assets/edit-icon.png) uit, dan selecteren van om het even welke gebieden hieronder, of klik **geef allen** uit om informatie op alle gebieden uit te geven:
 
          * Overzicht
          * Aangepaste Forms
@@ -132,21 +132,21 @@ De namen van douaneformulieren worden alleen weergegeven als er aangepaste formu
         >
         >Voor informatie over alle velden die in het gebied Details worden weergegeven, gaat u verder met het bewerken van alle velden via het vak Sjabloontaak bewerken, zoals hieronder wordt beschreven.
 
-   1. (Facultatief) klik de **Subtasks** sectie in het linkerpaneel om kinderen voor de malplaatjetaak toe te voegen. Het toevoegen van subtaken voor malplaatjetaken is gelijkaardig aan het toevoegen van subtasks van de projecttaak. Voor informatie, zie de sectie &quot;subtasks van de taak subtasks sectie&quot;in artikel [ tot subtasks ](/help/quicksilver/manage-work/tasks/create-tasks/create-subtasks.md) leiden.
+   1. (Facultatief) klik de **Subtasks** sectie in het linkerpaneel om kinderen voor de malplaatjetaak toe te voegen. Het toevoegen van subtaken voor malplaatjetaken is gelijkaardig aan het toevoegen van subtasks van de projecttaak. Voor informatie, zie de sectie &quot;subtasks van de taak subtasks sectie&quot;in artikel [&#x200B; tot subtasks &#x200B;](/help/quicksilver/manage-work/tasks/create-tasks/create-subtasks.md) leiden.
    1. (Facultatief) klik **Uitgaven** in het linkerpaneel, en voeg uitgaven aan de malplaatjetaken toe. De de taakuitgaven van het malplaatje overdracht aan toekomstige projecttaken, wanneer het malplaatje wordt gebruikt om een project tot stand te brengen.
    1. (Facultatief) klik **goedkeurt** in het linkerpaneel om goedkeuringen tot stand te brengen of globale of groep-vlakke goedkeuringen aan de malplaatjetaken vast te maken. De goedkeuringen worden overgedragen naar toekomstige projecttaken.
-   1. (Facultatief) klik de **sectie van Predecessors** in het linkerpaneel om predecessors voor de malplaatjetaken toe te voegen. Het toevoegen van predecessors van de malplaatjetaak is gelijkaardig aan het toevoegen van predecessors van de projecttaak. Voor informatie, zie [ een voorgangersverhouding creëren gebruikend het gebied van Voorgangers ](/help/quicksilver/manage-work/tasks/use-prdcssrs/create-predecessors-in-predecessors-area.md).
+   1. (Facultatief) klik de **sectie van Predecessors** in het linkerpaneel om predecessors voor de malplaatjetaken toe te voegen. Het toevoegen van predecessors van de malplaatjetaak is gelijkaardig aan het toevoegen van predecessors van de projecttaak. Voor informatie, zie [&#x200B; een voorgangersverhouding creëren gebruikend het gebied van Voorgangers &#x200B;](/help/quicksilver/manage-work/tasks/use-prdcssrs/create-predecessors-in-predecessors-area.md).
 
 1. (Facultatief) om verscheidene malplaatjetaken in bulk uit te geven, selecteer veelvoudige malplaatjetaken, dan klik **uitgeven** bij de bovenkant van de malplaatjelijst.
-1. (Voorwaardelijk) om alle informatie over de malplaatjetaak of over verscheidene taken tezelfdertijd uit te geven, klik om hen van een lijst te selecteren, dan **uitgeeft** pictogram ![ pictogram ](assets/edit-icon.png) bij de bovenkant van de lijst uit te geven.
+1. (Voorwaardelijk) om alle informatie over de malplaatjetaak of over verscheidene taken tezelfdertijd uit te geven, klik om hen van een lijst te selecteren, dan **uitgeeft** pictogram ![&#x200B; pictogram &#x200B;](assets/edit-icon.png) bij de bovenkant van de lijst uit te geven.
 
    De **geeft de taakvertoningen van het Malplaatje uit**.
 
    >[!TIP]
    >
-   >U kunt een malplaatjetaak in een lijst ook selecteren, dan **** aan het recht van de naam van de malplaatjetaak in de kopbal uitgeven, om **te openen geeft de Taak van het Malplaatje** vakje uit.
+   >U kunt een malplaatjetaak in een lijst ook selecteren, dan **&#x200B;**&#x200B;aan het recht van de naam van de malplaatjetaak in de kopbal uitgeven, om **te openen geeft de Taak van het Malplaatje** vakje uit.
 
-   ![ geef malplaatjetaak ](assets/edit-template-tasks-box-classic-350x356.png) uit
+   ![&#x200B; geef malplaatjetaak &#x200B;](assets/edit-template-tasks-box-classic-350x356.png) uit
 
    <!--1. (Conditional) In the Production environment, -->
 1. Overweeg informatie op te geven in een van de volgende secties:
@@ -173,7 +173,7 @@ De namen van douaneformulieren worden alleen weergegeven als er aangepaste formu
 1. Beginnen met het bewerken van een sjabloontaak zoals hierboven beschreven.
 1. Klik **Overzicht**.
 
-   ![ geef_task_overview.png uit ](assets/edit-task-overview-350x438.png)
+   ![&#x200B; geef_task_overview.png uit &#x200B;](assets/edit-task-overview-350x438.png)
 
 1. Werk een van de volgende items bij:
 
@@ -274,7 +274,7 @@ De namen van douaneformulieren worden alleen weergegeven als er aangepaste formu
 1. Beginnen met het bewerken van een sjabloontaak zoals hierboven beschreven.
 1. Klik **Financiën**.
 
-   ![ edit_task_finance.png ](assets/edit-task-finance-350x216.png)
+   ![&#x200B; edit_task_finance.png &#x200B;](assets/edit-task-finance-350x216.png)
 
 1. Werk een van de volgende items bij:
 
@@ -321,7 +321,7 @@ De namen van douaneformulieren worden alleen weergegeven als er aangepaste formu
 1. Beginnen met het bewerken van een sjabloontaak zoals hierboven beschreven.
 1. Klik **Montages**.
 
-   ![ geef de montages van de malplaatjetaak ](assets/edit-template-tasks-settings-classic-350x231.png) uit
+   ![&#x200B; geef de montages van de malplaatjetaak &#x200B;](assets/edit-template-tasks-settings-classic-350x231.png) uit
 
 1. Werk een van de volgende items bij:
 
@@ -381,7 +381,7 @@ De namen van douaneformulieren worden alleen weergegeven als er aangepaste formu
 1. Beginnen met het bewerken van een sjabloontaak zoals hierboven beschreven.
 1. Klik **Taken**.
 
-   ![ toewijzingen_edit_tasks.png ](assets/assignments-edit-tasks-350x87.png)
+   ![&#x200B; toewijzingen_edit_tasks.png &#x200B;](assets/assignments-edit-tasks-350x87.png)
 
 1. Klik **toevoegen Ontvanger** om een nieuwe ontvanger aan de malplaatjetaak toe te voegen. U kunt gebruikers, rollen, of teams aan een taak toewijzen. U kunt meerdere toewijzingen aan een taak toewijzen. De toekomstige taken zullen de zelfde middelen hebben die aan het wanneer gecreeerd van deze malplaatjetaak worden toegewezen.
 1. (Facultatief) als u veelvoudige wijzers hebt, selecteer het **Keuzerondje van de Eigenaar** om op te wijzen welke gebruiker of rol als de Eigenaar van de Taak of Primaire Ontvanger wordt beschouwd. Workfront markeert de eerste gebruiker of de baanrol die u aan een malplaatjetaak als Eigenaar of Primaire Ontvanger toewijst.
@@ -393,7 +393,7 @@ De namen van douaneformulieren worden alleen weergegeven als er aangepaste formu
    Specificeer het totale aantal **Geplande Uren** voor de malplaatjetaak. Dit verdeelt de totale uren gelijkelijk over alle toegewezen personen.
 
 1. (Voorwaardelijk en facultatief) als uw Beperking van de Taak Eenvoudig is, specificeer de **Duur** van de malplaatjetaak in dagen. Dit wordt de duur van de taak die op basis van deze sjabloon wordt gemaakt.
-1. (Facultatief) selecteer een rol van het **drop-down menu van de Rol van 0} toewijzen.** Dit is de rol die de ontvanger kan vervullen bij deze toekomstige taak. Alleen de functies die aan elke toegewezen persoon in het profiel zijn gekoppeld, worden weergegeven in het vervolgkeuzemenu.
+1. (Facultatief) selecteer een rol van het **drop-down menu van de Rol van 0&rbrace; toewijzen.** Dit is de rol die de ontvanger kan vervullen bij deze toekomstige taak. Alleen de functies die aan elke toegewezen persoon in het profiel zijn gekoppeld, worden weergegeven in het vervolgkeuzemenu.
 1. (Optioneel) Ga door met het bewerken van de volgende secties, afhankelijk van de gegevens die u wilt wijzigen.
 
    of
@@ -402,20 +402,20 @@ De namen van douaneformulieren worden alleen weergegeven als er aangepaste formu
 
 ### Aangepaste Forms {#custom-forms}
 
-U kunt aangepaste formulieren definiëren die automatisch aan taken worden gekoppeld wanneer de taken aan een project worden toegevoegd. Voor informatie over vestiging het project om de vormen van de standaardtaakdouane te omvatten, zie de &quot;sectie van Taken&quot;in het artikel [ projecten ](../../../manage-work/projects/manage-projects/edit-projects.md) uitgeven.
+U kunt aangepaste formulieren definiëren die automatisch aan taken worden gekoppeld wanneer de taken aan een project worden toegevoegd. Voor informatie over vestiging het project om de vormen van de standaardtaakdouane te omvatten, zie de &quot;sectie van Taken&quot;in het artikel [&#x200B; projecten &#x200B;](../../../manage-work/projects/manage-projects/edit-projects.md) uitgeven.
 
 U kunt ook aangepaste formulieren toevoegen aan de toekomstige taken van een project wanneer het project wordt gemaakt op basis van een sjabloon, door de aangepaste formulieren toe te voegen aan de sjabloontaken.
 
 1. Beginnen met het bewerken van een sjabloontaak zoals hierboven beschreven.
 1. Klik **Aangepaste Forms**.
 
-   ![ custom_forms_edit_task.png ](assets/custom-forms-edit-task-350x136.png)
+   ![&#x200B; custom_forms_edit_task.png &#x200B;](assets/custom-forms-edit-task-350x136.png)
 
 1. Selecteer het aangepaste formulier of de formulieren die u aan de sjabloontaak wilt koppelen.
 
    U moet aangepaste formulieren maken voordat u ze in dit veld kunt selecteren.
 Alleen actieve aangepaste formulieren worden in de lijst weergegeven.
-Voor meer informatie over de bouw van douaneformulieren, zie [ een douaneformulier ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren.
+Voor meer informatie over de bouw van douaneformulieren, zie [&#x200B; een douaneformulier &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren.
 U kunt maximaal tien aangepaste formulieren toevoegen aan een sjabloontaak.
 De formulieren worden automatisch toegevoegd aan de taken die op basis van de sjabloon worden gemaakt.
 1. (Voorwaardelijk en optioneel) Als u een aangepast formulier aan de sjabloontaak hebt gekoppeld, bewerkt u alle velden op het formulier. U moet alle vereiste velden opgeven voordat u de sjabloontaak kunt opslaan.
@@ -423,9 +423,9 @@ De formulieren worden automatisch toegevoegd aan de taken die op basis van de sj
    >[!NOTE]
    >
    >Afhankelijk van de manier waarop uw Workfront-beheerder de machtigingen voor de secties in uw aangepaste formulier instelt, kan niet iedereen dezelfde velden op een aangepast formulier weergeven of bewerken. De machtigingen voor het bewerken van velden in een sectie van een aangepast formulier zijn afhankelijk van de machtigingen die u hebt voor de sjabloontaak of de toekomstige taak.\
-   >Voor informatie over het plaatsen van toestemmingen op secties van een douanevorm, zie [ een douanevorm ](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md) delen.\
-   >Voor informatie over het plaatsen van taaktoestemmingen, zie [ een taak ](../../../workfront-basics/grant-and-request-access-to-objects/share-a-task.md) delen.\
-   >Voor informatie over het plaatsen van malplaatjetoestemmingen, zie [ een malplaatje ](../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md) delen.
+   >Voor informatie over het plaatsen van toestemmingen op secties van een douanevorm, zie [&#x200B; een douanevorm &#x200B;](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md) delen.\
+   >Voor informatie over het plaatsen van taaktoestemmingen, zie [&#x200B; een taak &#x200B;](../../../workfront-basics/grant-and-request-access-to-objects/share-a-task.md) delen.\
+   >Voor informatie over het plaatsen van malplaatjetoestemmingen, zie [&#x200B; een malplaatje &#x200B;](../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md) delen.
 
 1. (Optioneel) Ga door met het bewerken van de volgende sectie, afhankelijk van de informatie die u wilt wijzigen.
 
@@ -438,7 +438,7 @@ De formulieren worden automatisch toegevoegd aan de taken die op basis van de sj
 1. Beginnen met het bewerken van een sjabloontaak zoals hierboven beschreven.
 1. Klik **Commentaar**.
 
-   ![ comment_edit_task.png ](assets/comment-edit-task-350x138.png)
+   ![&#x200B; comment_edit_task.png &#x200B;](assets/comment-edit-task-350x138.png)
 
 1. Geef een opmerking op die u in de updatestream van de sjabloontaak wilt weergeven in het beschikbare veld. Deze opmerking is zichtbaar voor iedereen met Weergavetoegang tot de sjabloon en de sjabloontaak en met toegang tot weergavenotities.
 1. Klik **sparen Veranderingen**.
