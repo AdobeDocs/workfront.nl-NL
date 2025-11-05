@@ -6,9 +6,9 @@ description: In Adobe Workfront kunnen taken bovenliggende en onderliggende rela
 author: Alina
 feature: Work Management
 exl-id: 3d970794-b5ea-422f-bc92-51846cb7db35
-source-git-commit: c1b8af0d8a95714bb597db7a429794773358cf05
+source-git-commit: ac24b2486b9fc5a0b8c2944a6ec240140238b908
 workflow-type: tm+mt
-source-wordcount: '542'
+source-wordcount: '572'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 <!-- Audited: 01/2025 -->
 
-In Adobe Workfront kunnen taken bovenliggende en onderliggende relaties hebben. Onderliggende taken worden subtaken genoemd. U kunt subtaken op de takenlijst tot stand brengen door van een hoofdtaak een subtaak te maken. U kunt een subtaak ook tot een hoofdtaak maken.
+In Adobe Workfront kunnen taken bovenliggende en onderliggende relaties hebben. Onderliggende taken worden subtaken genoemd. U kunt subtaken op de takenlijst tot stand brengen door van een hoofdtaak een subtaak van een andere taak te maken. U kunt een subtaak ook tot een hoofdtaak maken.
 
 ## Toegangsvereisten
 
@@ -49,7 +49,7 @@ In Adobe Workfront kunnen taken bovenliggende en onderliggende relaties hebben. 
  </tbody> 
 </table>
 
-Voor meer informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -84,6 +84,11 @@ Voor meer informatie, zie [&#x200B; vereisten van de Toegang in de documentatie 
 
 U kunt subtaken maken in de takenlijst of de taaksubtaaksectie.
 
+>[!TIP]
+>
+>Het creëren van subtaken voor een project is gelijkaardig aan het creëren van malplaatjesubtasks aan malplaatjetaken op een malplaatje.
+
+
 ### Subtaken maken vanuit de takenlijst {#create-subtasks-from-the-task-list}
 
 1. Ga naar het project waar u subtaken wilt tot stand brengen.
@@ -113,12 +118,14 @@ U kunt subtaken maken in de takenlijst of de taaksubtaaksectie.
 1. Ga naar het project waar u subtaken wilt tot stand brengen.
 1. Klik de **sectie van Taken** in het linkerpaneel.
 1. Klik op de naam van de taak waar u een subtaak wilt maken.
-1. Klik **subtasks** sectie in het linkerpaneel, als heden.
+1. Klik de **subtasks** sectie in het linkerpaneel, als beschikbaar.
 1. Klik **Nieuwe Taak.**
 
-   Volg de stappen in het volgende artikel blijven creërend subtask: [&#x200B; creeer taken in een project &#x200B;](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md).
+   Voor informatie over het creëren van taken, zie [ taken in een project ](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md) creëren.
 
 1. Klik **creëren taak.**
+
+   De nieuwe taak wordt gemaakt als een subtaak voor de taak die u in stap 3 hebt geselecteerd. <!--ensure this is accurate-->
 
 ## Een subtaak als hoofdtaak instellen
 
