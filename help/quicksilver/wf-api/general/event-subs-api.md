@@ -87,7 +87,7 @@ De volgende Workfront-objecten worden ondersteund door gebeurtenisabonnementen.
 
 >[!NOTE]
 >
->Voor een lijst van gebieden die door de voorwerpen van het gebeurtenisabonnement worden gesteund, zie {de gebieden van het het abonnementsmiddel van de Gebeurtenis [.](../../wf-api/api/event-sub-resource-fields.md)
+>Voor een lijst van gebieden die door de voorwerpen van het gebeurtenisabonnement worden gesteund, zie &lbrace;de gebieden van het het abonnementsmiddel van de Gebeurtenis [.](../../wf-api/api/event-sub-resource-fields.md)
 
 ## Verificatie van abonnement op gebeurtenis
 
@@ -96,7 +96,7 @@ Uw Workfront-gebruiker heeft het volgende nodig om een gebeurtenissenabonnement 
 * Een toegangsniveau van &quot;Beheerder van het Systeem&quot;wordt vereist om de Abonnementen van de Gebeurtenis te gebruiken.
 * Een header `sessionID` is vereist om de API voor abonnementen op gebeurtenissen te gebruiken
 
-  Voor meer informatie, zie [ Authentificatie ](api-basics.md#authentication) in [ API Grondbeginselen ](api-basics.md).
+  Voor meer informatie, zie [&#x200B; Authentificatie &#x200B;](api-basics.md#authentication) in [&#x200B; API Grondbeginselen &#x200B;](api-basics.md).
 
 ## Overlappingen van gebeurtenisabonnementen voorkomen
 
@@ -513,7 +513,7 @@ Workfront heeft twee versies van gebeurtenisabonnementen.
 
 De capaciteit om gebeurtenisabonnementen te bevorderen of te degraderen zorgt ervoor dat wanneer de veranderingen in de structuur van gebeurtenissen worden aangebracht, de bestaande abonnementen niet breken, toestaand u om aan de nieuwe versie zonder een hiaat in uw gebeurtenisabonnement te testen en te bevorderen.
 
-Voor meer informatie over gebeurtenisabonnement versioning, met inbegrip van specifieke verschillen tussen de versie en belangrijke data, zie [ het abonnement van de Gebeurtenis versioning ](/help/quicksilver/wf-api/general/event-subs-versioning.md).
+Voor meer informatie over gebeurtenisabonnement versioning, met inbegrip van specifieke verschillen tussen de versie en belangrijke data, zie [&#x200B; het abonnement van de Gebeurtenis versioning &#x200B;](/help/quicksilver/wf-api/general/event-subs-versioning.md).
 
 >[!NOTE]
 >
