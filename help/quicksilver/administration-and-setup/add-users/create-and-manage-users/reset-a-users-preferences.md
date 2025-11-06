@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: abe026d0-3584-49f3-a6db-ef88b3aab186
-source-git-commit: 5706ebd11985b9e67c93686918f8f0327adabdf1
+source-git-commit: f1fe1a2fe6e123d8a039e8d7e3547c0b0a8141df
 workflow-type: tm+mt
-source-wordcount: '397'
+source-wordcount: '365'
 ht-degree: 1%
 
 ---
@@ -18,8 +18,6 @@ ht-degree: 1%
 # Gebruikersvoorkeuren opnieuw instellen
 
 <!-- Audited: 12/2023 -->
-
-<span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Het is beschikbaar slechts in het milieu van de Sandbox van de Voorproef, en wordt vrijgegeven in gefaseerde uitrol aan Productie.</span>
 
 Als Adobe Workfront-beheerder kunt u de voorkeursinstellingen voor gebruikers in het Workfront-systeem opnieuw instellen of verwijderen.
 
@@ -49,7 +47,7 @@ Individuele gebruikers kunnen ook hun eigen voorkeursinstellingen voor gebruiker
  </tbody> 
 </table>
 
-Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -106,8 +104,6 @@ Wanneer u gebruikersvoorkeuren opnieuw instelt, worden sommige voorkeuren terugg
 
 <!--Display this table and hide the HTML table above, when the unshim is released.-->
 
-<div class="preview">
-
 | Voorkeur | Status na het opnieuw instellen |
 | --- | --- |
 | Weergaven | Teruggedraaid naar systeemstandaard <p>Bestaande weergaven worden niet verwijderd. U kunt deze opnieuw selecteren.</p> |
@@ -115,9 +111,7 @@ Wanneer u gebruikersvoorkeuren opnieuw instelt, worden sommige voorkeuren terugg
 | Groepen | Teruggedraaid naar systeemstandaard <p>Bestaande groepen worden niet verwijderd. U kunt deze opnieuw selecteren.</p> |
 | Lijst met recente objecten | Cleared |
 | Lijst Favorieten | Onbeïnvloed |
-| Gebruikersvoorkeuren | Teruggedraaid naar systeemstandaard <p>E-mailmeldingen worden teruggezet naar de standaardwaarden van het systeem. De standaardberichten worden vermeld in [&#x200B; berichten van de Gebeurtenis beschikbaar in Adobe Workfront &#x200B;](/help/quicksilver/administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).</p> |
-
-</div>
+| Gebruikersvoorkeuren | Teruggedraaid naar systeemstandaard <p>E-mailmeldingen worden teruggezet naar de standaardwaarden van het systeem. De standaardberichten worden vermeld in [ berichten van de Gebeurtenis beschikbaar in Adobe Workfront ](/help/quicksilver/administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).</p> |
 
 ## Gebruikersvoorkeuren opnieuw instellen
 
@@ -148,8 +142,8 @@ Wanneer u gebruikersvoorkeuren opnieuw instelt, worden sommige voorkeuren terugg
 
 1. Pers **gaat** binnen.
 
-1. <span class="preview"> om alle gebruikersvoorkeur terug te stellen, klik **Terugstellen**.</span>
+1. Om alle gebruikersvoorkeur terug te stellen, klik **Terugstellen**.
 
-   <span class="preview"> Of </span>
+   of
 
-   <span class="preview"> om de linkernavigatie van de gebruiker aan de originele configuratie van het lay-outmalplaatje terug te stellen, klik **Linkernavigatie van het Terugstellen**.</span>
+   Om de linkernavigatie van de gebruiker aan de originele configuratie van het lay-outmalplaatje terug te stellen, klik **Linkernavigatie van het Terugstellen**.
