@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 572c6008-3a67-47ae-8f5d-6b871ef1f37b
-source-git-commit: ac24b2486b9fc5a0b8c2944a6ec240140238b908
+source-git-commit: 0358e79bd606d0035959bba2a47256456b529b18
 workflow-type: tm+mt
-source-wordcount: '3828'
+source-wordcount: '4464'
 ht-degree: 0%
 
 ---
@@ -28,16 +28,13 @@ ht-degree: 0%
 </div>
 -->
 
-<!--
-<div class="preview"> 
+<div class="preview">
 
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
+De gemarkeerde informatie op deze pagina verwijst naar functionaliteit die nog niet algemeen beschikbaar is. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Dezelfde functies zijn ook beschikbaar in de productieomgeving voor alle klanten vanaf een week na de release Preview.
 
-For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
+Voor meer informatie, zie [ modernisering van de Interface ](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
 
-</div> 
--->
-
+</div>
 
 U kunt informatie bewerken over taken die u hebt gemaakt of waarop u machtigingen voor Contribute of Beheren hebt.
 
@@ -81,7 +78,7 @@ U kunt informatie bewerken over taken die u hebt gemaakt of waarop u machtiginge
  </tbody> 
 </table>
 
-*For informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*For informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -132,9 +129,9 @@ Houd rekening met het volgende wanneer u taken bewerkt:
 * Het bijwerken van taken brengt berichten voor projecten teweeg die een Huidige status zijn. Om verwarring voor gebruikers te vermijden die aan de taken worden toegewezen, beperk het uitgeven taken zoveel mogelijk wanneer het project in de Huidige status is.
 * U kunt taken in een goedkeuringsproces niet bewerken. U kunt de Status voor een taak slechts registreren of bijwerken in een goedkeuringsproces.
 
-  ![&#x200B; geef taak met goedkeuringsproces &#x200B;](assets/edit-task-in-approval-process-nwe-350x148.png) uit
+  ![ geef taak met goedkeuringsproces ](assets/edit-task-in-approval-process-nwe-350x148.png) uit
 
-* U kunt documenten aan taken op een project uitgeven en toevoegen dat een status van Voltooid heeft, Dead, of in afwachting van Goedkeuring slechts wanneer uw beheerder van Workfront of een groepsbeheerder deze functionaliteit op het gebied van de Voorkeur van het Project toeliet. Voor informatie over het plaatsen van projectvoorkeur, zie [&#x200B; systeem-brede projectvoorkeur &#x200B;](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) vormen.
+* U kunt documenten aan taken op een project uitgeven en toevoegen dat een status van Voltooid heeft, Dead, of in afwachting van Goedkeuring slechts wanneer uw beheerder van Workfront of een groepsbeheerder deze functionaliteit op het gebied van de Voorkeur van het Project toeliet. Voor informatie over het plaatsen van projectvoorkeur, zie [ systeem-brede projectvoorkeur ](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) vormen.
 
 * U kunt de volgende informatie over een taak altijd uitgeven wanneer het project is duidelijk Voltooid, Dead, of in een Erkenningsproces is:
 
@@ -148,11 +145,11 @@ Houd rekening met het volgende wanneer u taken bewerkt:
 
 U kunt taakgegevens bewerken in een takenlijst door velden inline te bewerken die worden weergegeven in de weergave van de lijst.
 
-Voor informatie over het uitgeven van taken in lijsten, zie [&#x200B; taken in een lijst &#x200B;](../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md) uitgeven.
+Voor informatie over het uitgeven van taken in lijsten, zie [ taken in een lijst ](../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md) uitgeven.
 
 ## Een taak in een lijst bewerken met Overzicht
 
-U kunt een taak in een lijst bewerken met het deelvenster Overzicht. Voor informatie over het uitgeven van een taak in het Summiere paneel, zie &quot;een taak in de Samenvatting&quot;sectie in [&#x200B; uitgeven taken in een lijst &#x200B;](../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md) artikel.
+U kunt een taak in een lijst bewerken met het deelvenster Overzicht. Voor informatie over het uitgeven van een taak in het Summiere paneel, zie &quot;een taak in de Samenvatting&quot;sectie in [ uitgeven taken in een lijst ](../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md) artikel.
 
 ## Een taak bewerken in het vak Taak bewerken
 
@@ -181,7 +178,7 @@ U kunt een taak bewerken met de gebieden Taak bewerken of Taakdetails. In de vol
 
    >[!NOTE]
    >
-   >Afhankelijk van de manier waarop uw Workfront-beheerder of groepsbeheerder uw lay-outsjabloon heeft gewijzigd, kunnen de velden in het gebied Taakdetails opnieuw worden gerangschikt of niet worden weergegeven. Voor informatie, zie [&#x200B; de mening van Details aanpassen gebruikend een lay-outmalplaatje &#x200B;](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
+   >Afhankelijk van de manier waarop uw Workfront-beheerder of groepsbeheerder uw lay-outsjabloon heeft gewijzigd, kunnen de velden in het gebied Taakdetails opnieuw worden gerangschikt of niet worden weergegeven. Voor informatie, zie [ de mening van Details aanpassen gebruikend een lay-outmalplaatje ](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
 
    Voor informatie over de gebieden zichtbaar in de sectie van de Details van de Taak, ga verder met het uitgeven van de taak in het Edit de vakje van de Taak zoals hieronder beschreven.
 
@@ -191,7 +188,7 @@ U kunt een taak bewerken met de gebieden Taak bewerken of Taakdetails. In de vol
    1. (Facultatief en voorwaardelijk) wanneer een gebied wordt doen ineenstorten, klik de **juist-richt pijl** ![](assets/right-pointing-arrow.png) naast elk gebied om het gebied uit te breiden u wilt uitgeven.
    1. Raadpleeg de volgende artikelen voor meer informatie over het bewerken van informatie op het tabblad Taakdetails:
 
-      * [&#x200B; beheert taakinformatie in het gebied van het Overzicht van de Details van de Taak &#x200B;](../../../manage-work/tasks/manage-tasks/task-information-in-overview.md)
+      * [ beheert taakinformatie in het gebied van het Overzicht van de Details van de Taak ](../../../manage-work/tasks/manage-tasks/task-information-in-overview.md)
       * [Taakfinanciën beheren in de sectie Taakdetails](../../../manage-work/tasks/manage-tasks/task-finances-in-details.md)
 
    1. (Facultatief) als er geen douaneformulieren in bijlage aan de taak zijn, begin de naam van een vorm in het **te typen voeg douaneformulier** gebied toe, dan selecteer het wanneer het in de lijst toont, dan klik **sparen Veranderingen**.
@@ -205,7 +202,7 @@ U kunt een taak bewerken met de gebieden Taak bewerken of Taakdetails. In de vol
 
       ![](assets/export-issue-details-selection-box-with-export-button-350x418.png)
 
-      Voor meer informatie, zie [&#x200B; de douaneformulieren en objecten details van de Uitvoer &#x200B;](../../../workfront-basics/work-with-custom-forms/export-custom-forms-details.md).
+      Voor meer informatie, zie [ de douaneformulieren en objecten details van de Uitvoer ](../../../workfront-basics/work-with-custom-forms/export-custom-forms-details.md).
 
 1. (Voorwaardelijk) om alle informatie over de taak uit te geven, als gebruiker met Manage toestemmingen aan de taak, klik **Meer** menu ![](assets/more-icon.png) naast de naam van de taak, dan klik **uitgeven**.
 
@@ -223,21 +220,21 @@ U kunt een taak bewerken met de gebieden Taak bewerken of Taakdetails. In de vol
 
    >[!NOTE]
    >
-   >Afhankelijk van de manier waarop uw Workfront-beheerder of groepsbeheerder uw lay-outsjabloon heeft gewijzigd, kunnen de velden in het gebied Taakdetails opnieuw worden gerangschikt of niet worden weergegeven. Voor informatie, zie [&#x200B; de mening van Details aanpassen gebruikend een lay-outmalplaatje &#x200B;](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
+   >Afhankelijk van de manier waarop uw Workfront-beheerder of groepsbeheerder uw lay-outsjabloon heeft gewijzigd, kunnen de velden in het gebied Taakdetails opnieuw worden gerangschikt of niet worden weergegeven. Voor informatie, zie [ de mening van Details aanpassen gebruikend een lay-outmalplaatje ](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
 
    Overweeg informatie op te geven in een van de volgende secties:
 
-   * [&#x200B; Naam van de Taak &#x200B;](#task-name)
+   * [ Naam van de Taak ](#task-name)
    * [Overzicht](#overview)
-   * [&#x200B; Taken &#x200B;](#assignments)
-   * [&#x200B; Aangepaste Forms &#x200B;](#Custom%C2%A0F)
-   * [&#x200B; Financiën &#x200B;](#finance)
+   * [ Taken ](#assignments)
+   * [ Aangepaste Forms ](#Custom%C2%A0F)
+   * [ Financiën ](#finance)
    * [Instellingen](#settings)
    * [Opmerking](#comment)
 
    >[!NOTE]
    >
-   >Afhankelijk van hoe uw Workfront-beheerder of groepsbeheerder uw lay-outsjabloon instelt, kunnen de velden in het vak Taak bewerken opnieuw worden gerangschikt of niet worden weergegeven. Voor informatie, zie [&#x200B; de mening van Details aanpassen gebruikend een lay-outmalplaatje &#x200B;](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
+   >Afhankelijk van hoe uw Workfront-beheerder of groepsbeheerder uw lay-outsjabloon instelt, kunnen de velden in het vak Taak bewerken opnieuw worden gerangschikt of niet worden weergegeven. Voor informatie, zie [ de mening van Details aanpassen gebruikend een lay-outmalplaatje ](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
 
 ### Taaknaam {#task-name}
 
@@ -380,135 +377,133 @@ U kunt een taak bewerken met de gebieden Taak bewerken of Taakdetails. In de vol
 1. Bewerk de taak zoals hierboven beschreven.
 1. Klik **Toewijzingen** in het linkerpaneel.
 
-   <!--<span class="preview">The Assignments area opens in the new experience.</span>-->
+   <span class="preview"> het gebied van Taken opent in de nieuwe ervaring.</span>
 
-   <!--indent the bullets below to show new experience functionality:
-      1. (Conditional) Using the new experience, do the following:-->
+1. (Voorwaardelijk) Gebruikend de nieuwe ervaring, doe het volgende:
 
-   <!--Indent this according to what you did above: 
+   1. <span class="preview"> Begin typend de naam van een gebruiker, baanrol, of team in het **de mensen van het Onderzoek, rol of team** gebied, dan selecteren hen wanneer zij in de lijst </span> tonen
 
-      1. <span class="preview">Start typing the name of a user, job role, or team in the **Search people, role or team** field, then select them when they display in the list</span>
+      of
 
-      Or
+      <span class="preview"> klik **toewijzen aan me** om de taak aan zich toe te wijzen. </span>
 
-      <span class="preview">Click **Assign to me** to assign the task to yourself. </span>
+   1. <span class="preview"> werk de volgende informatie bij:</span>
 
-      1. Update the following information:
-
-
-      1. (Conditional and optional) Update the following fields: 
+      <div class="preview">
 
       <table style="table-layout:auto"> 
-      <col> 
-      <col> 
-      <tbody> 
-      <tr> 
-      <td role="rowheader">Duration Type</td> 
-      <td> <p>This identifies the relationship between the following: </p> 
-      <ul> 
-      <li> <p>The number of resources assigned to a task </p> </li> 
-      <li> <p>The total effort required to complete the task </p> </li> 
-      <li> <p> The total duration of the task. </p> </li> 
-      </ul> <p>Your Workfront administrator or a group administrator selects the default Duration Type setting for the tasks in your system or your group. For information about setting project defaults, see <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md" class="MCXref xref">Configure system-wide task and issue preferences</a>. </p> <p>Duration Types enable you to set consistent resource assignments based on the needs of the task. For more information about the Duration Type of a task, see <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Overview of Task Duration and Duration Type</a>. </p> <p>Select from the following options: </p> 
-      <ul> 
-      <li> <p>Calculated Assignment </p> </li> 
-      <li> <p> Calculated Work </p> </li> 
-      <li> <p>Effort Driven </p> </li> 
-      <li> <p>Simple</p> </li> 
-      </ul> </td> 
-      </tr> 
-      <td role="rowheader">Duration per Occurrence</td> 
-      <td> <p>This displays only on the parent of recurring tasks. It displays the duration of each recurring task, as defined when the task was created. For information about creating recurring tasks, see <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">Create recurring tasks</a>. </p> <p> <b>NOTE</b>          
-      Durations modified in individual recurring tasks do not display the value indicated in this field. </p> </td> 
-      </tr>
-      <tr> 
-      <td role="rowheader">Duration</td> 
-      <td> 
-      <div> 
-      <div> 
-      <p>This is the amount of time that you allow a task to remain open before it is completed. </p> 
-      <p><b>IMPORTANT</b>
-   
-      Because the task duration is typically the amount of time between the Planned Start and the Planned Completion Dates, it affects the timeline of the project.</p> 
-   
-      <p>To indicate the Duration of the task and the unit of time do the following:</p> 
-      <ul> 
-      <li> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Type the length of time and select from the units of time available in the drop-down menu.</p> <p><b>TIP</b></p>
-      When you update the Duration of tasks in a task list, you can use the abbreviation for the unit of time. </p> </li> 
-      </ul> 
-      <p> You can choose from the regular time or elapsed time options in the following table: </p> 
-      <table style="table-layout:auto"> 
-      <col> 
-      <col data-mc-conditions=""> 
-      <tbody> 
-      <tr> 
-      <td>Unit of Time</td> 
-      <td>Abbreviation</td> 
-      </tr> 
-      <tr> 
-      <td>Minutes</td> 
-      <td>M</td> 
-      </tr> 
-      <tr> 
-      <td>Hours</td> 
-      <td>H</td> 
-      </tr> 
-      <tr> 
-      <td>Days. This is the default. </td> 
-      <td>D</td> 
-      </tr> 
-      <tr> 
-      <td>Weeks</td> 
-      <td>W</td> 
-      </tr> 
-      <tr> 
-      <td>Months</td> 
-      <td>T</td> 
-      </tr> 
-      <tr> 
-      <td>Elapsed Minutes</td> 
-      <td>EM</td> 
-      </tr> 
-      <tr> 
-      <td>Elapsed Hours</td> 
-      <td>EH</td> 
-      </tr> 
-      <tr> 
-      <td>Elapsed Days</td> 
-      <td>ED</td> 
-      </tr> 
-      <tr> 
-      <td>Elapsed Weeks</td> 
-      <td>EW</td> 
-      </tr> 
-      <tr> 
-      <td>Elapsed Months</td> 
-      <td>ET</td> 
-      </tr> 
-      </tbody> 
-      </table> 
+         <col> 
+         <col> 
+         <tbody> 
+         <tr> 
+         <td role="rowheader">Duur</td> 
+         <td> <p>Dit identificeert de verhouding tussen het volgende: </p> 
+         <ul> 
+         <li> <p>Het aantal middelen die aan een taak worden toegewezen </p> </li> 
+         <li> <p>De totale vereiste inspanning om de taak te voltooien </p> </li> 
+         <li> <p> De totale duur van de taak. </p> </li> 
+         </ul> <p>Uw Workfront-beheerder of groepsbeheerder selecteert de standaardinstelling Duur (Type standaardduur) voor de taken in uw systeem of groep. Voor informatie over het plaatsen van projectgebreken, zie <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md" class="MCXref xref"> systeembrede taak vormen en voorkeur uitgeven </a>. </p> <p>De Types van Duur laten u toe om verenigbare middeltaken te plaatsen die op de behoeften van de taak worden gebaseerd. Voor meer informatie over het Type van Duur van een taak, zie <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref"> Overzicht van het Type van Duur en van de Duur van de Taak </a>. </p> <p>Selecteer een van de volgende opties: </p> 
+         <ul> 
+         <li> <p>Berekende toewijzing </p> </li> 
+         <li> <p> Berekend werk </p> </li> 
+         <li> <p>Inzet gedreven </p> </li> 
+         <li> <p>eenvoudig</p> </li> 
+         </ul> </td> 
+         </tr> 
+         <td role="rowheader">Duur per instantie</td> 
+         <td> <p>Dit wordt alleen weergegeven op het bovenliggende element van terugkerende taken. Het toont de duur van elke terugkomende taak, zoals bepaald toen de taak werd gecreeerd. Voor informatie over het creëren van terugkomende taken, zie <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref"> terugkomende taken </a> creëren. </p> <p> <b> NOTA </b>          
+         De duur die in individuele terugkerende taken wordt gewijzigd toont niet de waarde die op dit gebied wordt vermeld. </p> </td> 
+         </tr>
+         <tr> 
+         <td role="rowheader">Duur</td> 
+         <td> 
+         <div> 
+         <div> 
+         <p>Dit is de hoeveelheid tijd dat u een taak open laat blijven alvorens het wordt voltooid. </p> 
+         <p><b>BELANGRIJK</b>
 
-      <p><b>NOTE</b>
-      
-      <p>Elapsed time is a unit of time for a task's Duration. It is the time between the Planned Start Date and the Planned Completion Date of a task that includes holidays, weekends, and time off. In other words, elapsed time is the passage of calendar days. 
+      Omdat de taakduur typisch de hoeveelheid tijd tussen de Geplande Begin en de Geplande Datums van de Voltooiing is, beïnvloedt het de chronologie van het project.</p>
 
-      Regular time takes into account holidays, weekends, and time off and excludes them from the Duration of the task. For more information about task duration, see <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Overview of Task Duration and Duration Type</a>. </p>
+      <p>Ga als volgt te werk om de duur van de taak en de tijdseenheid aan te geven:</p> 
+         <ul> 
+         <li> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Typ de tijdsduur en selecteer een van de beschikbare tijdeenheden in het keuzemenu.</p> <p><b>TIP</b></p>
+         Wanneer u de Duur van taken in een taaklijst bijwerkt, kunt u de afkorting voor de eenheid van tijd gebruiken. </p> </li> 
+         </ul> 
+         <p> U kunt kiezen uit de opties voor normale tijd of verstreken tijd in de volgende tabel: </p> 
+         <table style="table-layout:auto"> 
+         <col> 
+         <col data-mc-conditions=""> 
+         <tbody> 
+         <tr> 
+         <td>Tijdseenheid</td> 
+         <td>Afkorting</td> 
+         </tr> 
+         <tr> 
+         <td>Minuten</td> 
+         <td>M</td> 
+         </tr> 
+         <tr> 
+         <td>Uren</td> 
+         <td>H</td> 
+         </tr> 
+         <tr> 
+         <td>Dagen. Dit is de standaardinstelling. </td> 
+         <td>D</td> 
+         </tr> 
+         <tr> 
+         <td>Weken</td> 
+         <td>W</td> 
+         </tr> 
+         <tr> 
+         <td>Maanden</td> 
+         <td>T</td> 
+         </tr> 
+         <tr> 
+         <td>Verstreken minuten</td> 
+         <td>EM</td> 
+         </tr> 
+         <tr> 
+         <td>Verstreken uren</td> 
+         <td>EH</td> 
+         </tr> 
+         <tr> 
+         <td>Verstreken dagen</td> 
+         <td>ED</td> 
+         </tr> 
+         <tr> 
+         <td>Verstreken weken</td> 
+         <td>EW</td> 
+         </tr> 
+         <tr> 
+         <td>Verstreken maanden</td> 
+         <td>ET</td> 
+         </tr> 
+         </tbody> 
+         </table>
+
+      <p><b>OPMERKING</b>
+
+      <p>De verstreken tijd is een eenheid van tijd voor de Duur van een taak. Dit is de tijd tussen de Geplande Datum van het Begin en de Geplande Datum van de Voltooiing van een taak die vakantie, weekends, en onderbreking omvat. Met andere woorden, de verstreken tijd is de doorloop van kalenderdagen.
+
+      De regelmatige tijd houdt rekening met vakantie, weekends, en onderbreking en sluit hen van de Duur van de taak uit. Voor meer informatie over taakduur, zie <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref"> Overzicht van het Type van Duur en van de Duur van de Taak </a>. </p>
       </td> 
-      </tr> 
-      <tr> 
-      <td role="rowheader">Planned Hours</td> 
-      <td> <p>Specify the number of Planned Hours for the task, in hours. This is the amount of actual time that it would take the assignees of the task to complete it. You can only specify the number of Planned Hours for a task when the Duration Type is set to Calculated Assignment. For more information about duration types, see <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Overview of Task Duration and Duration Type</a>.</p> 
-      <b>NOTE</b>
-      <p>
-      When creating recurring tasks, the Planned Hours are those of each occurrence. The Planned Hours of the parent tasks are the total of all Planned Hours from all the occurrences. For information about creating recurring tasks, see <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">Create recurring tasks</a>.
-      </p>
-      
-      </td> 
-      </tr> 
-      </tbody> 
-      </table>
+         </tr> 
+         <tr> 
+         <td role="rowheader">Geplande uren</td> 
+         <td> <p>Geef het aantal geplande uren voor de taak op in uren. Dit is de hoeveelheid werkelijke tijd die nodig is om de taken af te ronden. U kunt het aantal geplande uren voor een taak slechts specificeren wanneer het Type van Duur aan Berekende Toewijzing wordt geplaatst. Voor meer informatie over duurtypes, zie <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref"> Overzicht van het Type van Duur en van de Duur van de Taak </a>.</p> 
+         <b> NOTA </b>
+         <p>
+         Bij het maken van terugkerende taken zijn de geplande uren die van elk exemplaar. De geplande uren van de bovenliggende taken zijn het totaal van alle geplande uren van alle voorvallen. Voor informatie over het creëren van terugkomende taken, zie <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref"> terugkomende taken </a> creëren.
+         </p>
 
-      (**********<tr> 
+      </td> 
+         </tr> 
+         </tbody> 
+         </table>
+
+      </div>
+
+      <!--<tr> 
       <td role="rowheader">Allocation</td> 
       <td> <p>If your Task Constraint is Calculated Work or Effort Driven, specify the <strong>Allocation %</strong> (allocation percentage) for each assignee. This is the amount of time from the schedule of the assignee that they can spend on this task. Changing the allocation percentage for an assignee will change the Planned Hours of a task. </p> <p>When the Task Constraint is Simple, you can specify the following:</p> 
          <ul> 
@@ -523,10 +518,11 @@ U kunt een taak bewerken met de gebieden Taak bewerken of Taakdetails. In de vol
          Only the job roles associated with each assignee in their profile appear in the drop-down menu.</p> </td> 
          </tr>
          </tbody> 
-         </table>************)-->
-   <!--1. <span class="preview">(Optional) Click Switch to old experience at the bottom of the **Edit Task** box. </span>
-      <span class="preview">The Assignments area opens in the old experience. </span>
-      ![](assets/nwe-assignments-section-edit-task-box-350x217.png)-->
+         </table>-->
+
+   1. <span class="preview"> (Facultatief) klik **Schakelaar aan oude ervaring** bij de bodem van **uitgeven de doos van de Taak**. </span>
+      <span class="preview"> het gebied van Toewijzingen opent in de oude ervaring. </span>
+      ![](assets/nwe-assignments-section-edit-task-box-350x217.png)
 
 1. Klik **mensen van het Onderzoek, rollen, of teams** en begin de naam van een gebruiker, een rol, of een team te typen dat u aan de taak wilt toewijzen, dan het klikken of drukken binnengaan wanneer het op de lijst toont.
 
@@ -667,18 +663,18 @@ U kunt een taak bewerken met de gebieden Taak bewerken of Taakdetails. In de vol
       </tr> 
       <tr> 
       <td role="rowheader">Rol van de gemachtigde</td> 
-      <td> <p>Selecteer een rol van het <strong> drop-down menu van de Rol van 0&rbrace; Toegewezen wanneer u een persoon als toegewezen selecteerde. </strong> Dit is de rol die de verkrijger kan vervullen in deze taak. </p> <p><b>TIP</b>
+      <td> <p>Selecteer een rol van het <strong> drop-down menu van de Rol van 0} Toegewezen wanneer u een persoon als toegewezen selecteerde. </strong> Dit is de rol die de verkrijger kan vervullen in deze taak. </p> <p><b>TIP</b>
 
    Alleen de functies die aan elke toegewezen persoon in het profiel zijn gekoppeld, worden weergegeven in het vervolgkeuzemenu.</p> </td>
    </tr>
    </tbody>
    </table>
 
-1. Klik **sparen Veranderingen** <!--<span class="preview"> or **Save** </span> --> of ga met de volgende secties verder.
+1. Klik **sparen Veranderingen** <span class="preview"> of **sparen** </span> of ga met de volgende secties verder.
 
 ### Aangepaste Forms
 
-U kunt aangepaste standaardformulieren definiëren die automatisch aan taken worden gekoppeld wanneer de taken aan een project worden toegevoegd. Voor informatie over vestiging het project om de vormen van de standaardtaakdouane voor alle nieuwe taken te omvatten, zie de &quot;sectie van Taken&quot;in het artikel [&#x200B; projecten &#x200B;](../../../manage-work/projects/manage-projects/edit-projects.md) uitgeven.
+U kunt aangepaste standaardformulieren definiëren die automatisch aan taken worden gekoppeld wanneer de taken aan een project worden toegevoegd. Voor informatie over vestiging het project om de vormen van de standaardtaakdouane voor alle nieuwe taken te omvatten, zie de &quot;sectie van Taken&quot;in het artikel [ projecten ](../../../manage-work/projects/manage-projects/edit-projects.md) uitgeven.
 
 1. Bewerk de taak zoals hierboven beschreven.
 1. Klik **Aangepaste Forms** in het linkerpaneel, of klik de naam van een douaneformulier als het reeds in bijlage is.
@@ -687,19 +683,19 @@ U kunt aangepaste standaardformulieren definiëren die automatisch aan taken wor
 
 1. Klik **toevoegen douanevorm** en selecteer de douanevorm of de vormen die u met de taak wilt associëren. U moet aangepaste formulieren maken voordat u ze in dit veld kunt selecteren. Alleen actieve aangepaste formulieren worden in de lijst weergegeven.
 
-   Voor meer informatie over de bouw van douaneformulieren, zie [&#x200B; een douaneformulier &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren.U kunt tot tien douaneformulieren aan een taak toevoegen
+   Voor meer informatie over de bouw van douaneformulieren, zie [ een douaneformulier ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren.U kunt tot tien douaneformulieren aan een taak toevoegen
 
 1. (Voorwaardelijk) Als u een aangepast formulier aan de taak hebt gekoppeld, bewerkt u alle velden op het formulier. U moet alle vereiste velden opgeven voordat u de taak kunt opslaan.
 
    >[!NOTE]
    >
-   >Afhankelijk van de manier waarop uw Workfront-beheerder de machtigingen voor de secties in uw aangepaste formulier instelt, kan niet iedereen dezelfde velden op een aangepast formulier weergeven of bewerken. De machtigingen voor het bewerken van velden in een sectie van een aangepast formulier zijn afhankelijk van de machtigingen die u hebt voor de taak zelf. Voor informatie over het plaatsen van taaktoestemmingen, zie [&#x200B; een taak &#x200B;](../../../workfront-basics/grant-and-request-access-to-objects/share-a-task.md) delen.
+   >Afhankelijk van de manier waarop uw Workfront-beheerder de machtigingen voor de secties in uw aangepaste formulier instelt, kan niet iedereen dezelfde velden op een aangepast formulier weergeven of bewerken. De machtigingen voor het bewerken van velden in een sectie van een aangepast formulier zijn afhankelijk van de machtigingen die u hebt voor de taak zelf. Voor informatie over het plaatsen van taaktoestemmingen, zie [ een taak ](../../../workfront-basics/grant-and-request-access-to-objects/share-a-task.md) delen.
 
 1. Klik **sparen** of ga met de volgende secties verder.
 
 ### Financiën {#finance}
 
-1. Begin het uitgeven van uw taak zoals die in [&#x200B; wordt beschreven geef taken &#x200B;](#Edit2) sectie in dit artikel uit.
+1. Begin het uitgeven van uw taak zoals die in [ wordt beschreven geef taken ](#Edit2) sectie in dit artikel uit.
 1. Klik **Financiën** in het linkerpaneel.
 
    ![](assets/nwe-finance-section-edit-task-box-350x298.png)
@@ -742,7 +738,7 @@ U kunt aangepaste standaardformulieren definiëren die automatisch aan taken wor
 
 ### Instellingen {#settings}
 
-1. Begin het uitgeven van uw taak zoals die in [&#x200B; wordt beschreven geef taken &#x200B;](#Edit2) sectie in dit artikel uit.
+1. Begin het uitgeven van uw taak zoals die in [ wordt beschreven geef taken ](#Edit2) sectie in dit artikel uit.
 1. Klik **Montages** in het linkerpaneel.
 
    ![](assets/nwe-settings-section-edit-task-box-350x304.png)
@@ -808,10 +804,10 @@ U kunt aangepaste standaardformulieren definiëren die automatisch aan taken wor
 
 ### Opmerking
 
-1. Begin het uitgeven van uw taak zoals die in [&#x200B; wordt beschreven geef taken &#x200B;](#Edit2) sectie in dit artikel uit.
+1. Begin het uitgeven van uw taak zoals die in [ wordt beschreven geef taken ](#Edit2) sectie in dit artikel uit.
 1. Klik **Commentaar** in het linkerpaneel.
 
-   ![&#x200B; de sectie van de Commentaar bij geef taakdoos uit &#x200B;](assets/comment-section-on-edit-task-box.png)
+   ![ de sectie van de Commentaar bij geef taakdoos uit ](assets/comment-section-on-edit-task-box.png)
 
 1. Voeg een update toe in de beschikbare ruimte.
 1. (Optioneel) Voeg een van de volgende opties toe aan uw update:
@@ -829,7 +825,7 @@ U kunt aangepaste standaardformulieren definiëren die automatisch aan taken wor
 
 U kunt een beperkte hoeveelheid informatie bewerken in de taakkoptekst.
 
-Uw systeem- of groepsbeheerder kan de velden die u in de taakkoptekst ziet, aanpassen. Voor meer informatie, zie [&#x200B; objecten kopballen aanpassen gebruikend een lay-outmalplaatje &#x200B;](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
+Uw systeem- of groepsbeheerder kan de velden die u in de taakkoptekst ziet, aanpassen. Voor meer informatie, zie [ objecten kopballen aanpassen gebruikend een lay-outmalplaatje ](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
 
 
 ![](assets/qs-task-header-without-approvals-and-with-dependecies-350x17.png)
@@ -839,13 +835,13 @@ De volgende velden worden standaard opgenomen in de taakkoptekst:
 * Taaknaam
 * Percentage voltooid
 
-  Voor informatie, zie [&#x200B; Mening en werk Percent bij Voltooid voor taken &#x200B;](/help/quicksilver/manage-work/projects/updating-work-in-a-project/view-update-percent-complete-for-tasks.md).
+  Voor informatie, zie [ Mening en werk Percent bij Voltooid voor taken ](/help/quicksilver/manage-work/projects/updating-work-in-a-project/view-update-percent-complete-for-tasks.md).
 * Toewijzingen
 * Geplande afsluitdatum
 
   >[!CAUTION]
   >
-  >Sommige Beperkingen van de Taak en andere gebiedsdelen zouden u kunnen verhinderen de Geplande Datum van de Voltooiing van een taak uit te geven. Voor informatie over de Beperkingen van de Taak, zie [&#x200B; Overzicht van de Restrictie van de Taak &#x200B;](../../../manage-work/tasks/task-constraints/task-constraint-overview.md).
+  >Sommige Beperkingen van de Taak en andere gebiedsdelen zouden u kunnen verhinderen de Geplande Datum van de Voltooiing van een taak uit te geven. Voor informatie over de Beperkingen van de Taak, zie [ Overzicht van de Restrictie van de Taak ](../../../manage-work/tasks/task-constraints/task-constraint-overview.md).
 
 * Status
 * Goedkeuringsbeslissingen nemen als u in een huidig goedkeuringsproces als fiatteur bent ingesteld
@@ -854,4 +850,4 @@ De volgende velden worden standaard opgenomen in de taakkoptekst:
 
 U kunt taken in een lijst bulksgewijs bewerken en alle gegevens tegelijk bijwerken wanneer u de wijzigingen die u aanbrengt in taken in de lijst automatisch opslaat.
 
-Voor informatie over besparingstaken in bulk, zie &quot;de taken in bulk&quot;sectie in het artikel [&#x200B; uitgeven taken in een lijst &#x200B;](../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md).
+Voor informatie over besparingstaken in bulk, zie &quot;de taken in bulk&quot;sectie in het artikel [ uitgeven taken in een lijst ](../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md).
