@@ -92,7 +92,7 @@ Workfront Fusion biedt momenteel alleen ondersteuning voor Engels.
 * Workfront Fusion ondersteunt het gebruik van niet-Engelse teksttekens in door gebruikers ingevoerde velden niet.
 
 Uw bedrijf moet een Workfront Fusion-licentie aanschaffen om toegang te krijgen tot Workfront Fusion.\
-Voor meer informatie over de Fusie van Workfront, zie [&#x200B; het overzicht van de Fusie van Adobe Workfront &#x200B;](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+Voor meer informatie over de Fusie van Workfront, zie [&#x200B; het overzicht van de Fusie van Adobe Workfront &#x200B;](https://experienceleague.adobe.com/nl/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 
 ## De taal wijzigen
 
