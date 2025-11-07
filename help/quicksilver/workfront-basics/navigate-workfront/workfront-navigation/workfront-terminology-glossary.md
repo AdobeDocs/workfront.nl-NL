@@ -6,9 +6,9 @@ description: De  [!DNL Adobe Workfront]  verklarende woordenlijst lijsten algeme
 author: Alina
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: fbe17e50ff161156a0b4b2a8b468b4eb844cae59
+source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
 workflow-type: tm+mt
-source-wordcount: '17564'
+source-wordcount: '17858'
 ht-degree: 0%
 
 ---
@@ -716,8 +716,26 @@ De volgende tabel bevat een lijst met veelgebruikte termen in Adobe Workfront:
    <td>[!UICONTROL Cost]</td> 
    <td> <p>Het geldbedrag dat u moet uitgeven wanneer het voltooien van een project, een taak, of een kwestie. </p> <p>U kunt diverse soorten kosten voor arbeid, uitgaven, risico's volgen die op het project betrekking hebben.Voor informatie over het volgen van kosten in [!DNL Workfront] zie <a href="../../../manage-work/projects/project-finances/track-costs.md"> de kosten van het Spoor </a>.</p> 
    </td> 
-  </tr> 
-  <tr> 
+  </tr>
+
+<tr> 
+   <td>[!UICONTROL Cost Performance Index (CPI)]</td> 
+   <td> <p>In [!UICONTROL Cost Performance Index (CPI)] wordt de relatie op project- of taakniveau beschreven tussen de geplande kosten en de werkelijke kosten. De Managers van het project herzien dit metrisch om taken of projecten te identificeren die momenteel onder of over kosten op een bepaald punt volgen. De kosten kunnen worden gemeten in uren of dollars, afhankelijk van uw [!UICONTROL Performance Index Method (PIM)].</p> 
+    <p> Voor informatie, zie <a href="/help/quicksilver/manage-work/projects/project-finances/calculate-cpi.md"> de Index van de Prestaties van de Kosten berekenen (CPI) </a>.</p>
+
+</td> 
+  </tr>
+
+<tr> 
+   <td>[!UICONTROL Cost Schedule Performance Index (CSI)]</td> 
+   <td> <p>[!UICONTROL Cost Schedule Performance Index (CSI)] is een automatische berekening die de [!UICONTROL Cost Performance Index (CPI)] en [!UICONTROL Schedule Performance Index (SPI)] in één algemene maatstaf combineert die kosten en schema in evenwicht brengt. Door deze waarden samen te vermenigvuldigen, kan één enkele metrisch een langdurig programma bij een lager budget of vice versa verklaren. De managers van het project kunnen dit gebruiken om algemene project of taakgezondheid te bepalen wanneer de kosten worden opgeofferd om planning midden-project te drijven.</p> 
+    <p> Voor informatie, zie <a href="/help/quicksilver/manage-work/projects/project-finances/calculate-csi.md"> de Index van de Prestaties van het Programma van de Kosten berekenen </a>.</p>
+    </td> 
+  </tr>
+
+
+
+<tr> 
    <td>[!UICONTROL Cost Type]</td> 
    <td>Voor een taak bepaalt [!UICONTROL Cost Type] hoe de taak kosten zal oplopen. Voorbeelden zijn [!UICONTROL Fixed Hourly] , [!UICONTROL User Hourly] en [!UICONTROL User Hourly plus Fixed] . </td> 
   </tr> 
@@ -894,8 +912,23 @@ De volgende tabel bevat een lijst met veelgebruikte termen in Adobe Workfront:
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Integrated"> 
    <td>[!UICONTROL Enterprise Goals]</td> 
    <td>Interfunctionele doelstellingen die tot de metriek van de bedrijfsdoelstellingen bijdragen.</td> 
-  </tr> 
-  <tr> 
+  </tr>
+
+<tr> 
+   <td>[!UICONTROL Estimate at Completion]</td> 
+   <td><p>Als metrische projectprestaties, vertegenwoordigt de Schatting bij Voltooiing (EAC) de verwachte totale kosten van uw project of taak wanneer het voltooit.</p>
+   <p>Als project het plaatsen, staat het u toe om te bepalen hoe de waarde EAC zou moeten worden berekend.</p>
+   <p>Voor informatie, zie <a href="/help/quicksilver/manage-work/projects/project-finances/calculate-eac.md"> Schatting bij Voltooiing (EAC) berekenen </a>. </p>
+   </td> 
+  </tr>
+
+<tr> 
+   <td>[!UICONTROL Estimated Due Date]</td> 
+   <td>In project-, taak- en uitgifterapporten is de geschatte vervaldatum de datum waarop Workfront schat dat het item moet worden voltooid.</td> 
+  </tr>
+
+
+<tr> 
    <td>[!UICONTROL Event]</td> 
    <td>Elke wijziging in een project of taak.</td> 
   </tr> 
@@ -1557,7 +1590,14 @@ Uur-items kunnen een van de volgende statussen in Workfront hebben:
    <td>[!UICONTROL Percent Complete]</td> 
    <td> <p>Een project, een taak, of een probleemgebied dat toont welk percentage van het werk verbonden aan de taak, het project, of de kwestie wordt voltooid.</p> <p>U kunt dit veld handmatig bijwerken voor problemen en werktaken. </p> <p>Voor projecten en oudertaken, is dit gebied een roll-up van alle het werk taken en u kunt niet het manueel bijwerken. </p> <p>Voor meer informatie, zie <a href="../../../manage-work/tasks/task-information/project-percent-complete.md" class="MCXref xref"> overzicht [!UICONTROL Percent Complete] van het Project </a>.</p> </td> 
   </tr> 
-  <tr> 
+<tr> 
+   <td>[!UICONTROL Performance Index Method (PIM)]</td> 
+   <td> <p>[!UICONTROL Performance Index Method (PIM)] voor het project controleert de methode Adobe Workfront gebruikt om de metriek van projectprestaties zoals de Index van de Prestaties van de Kosten (CPI), de Index van de Prestaties van het Programma van de Kosten (CSI), de Index van de Prestaties van het Programma (SPI), en Schatting bij Voltooiing (EAC) te berekenen.</p> 
+   <p>Workfront berekent deze waarden aan de hand van uren of kosten.</p>
+   <p>Voor informatie, zie <a href="/help/quicksilver/manage-work/projects/project-finances/set-pim.md"> plaats de Methode van de Index van Prestaties (PIM) </a>.</p>
+   </td> 
+  </tr>
+ <tr> 
    <td>[!UICONTROL Permission]</td> 
    <td> <p>Rechten die aan een gebruiker op een voorwerp worden verleend, typisch gegeven zodat kunnen zij het werk aan het punt voltooien of het punt bekijken. U kunt machtigingen verlenen aan:</p> 
     <ul> 
@@ -1606,11 +1646,8 @@ Uur-items kunnen een van de volgende statussen in Workfront hebben:
   <tr> 
    <td>[!UICONTROL Planned Cost]</td> 
    <td> <p>Een totaal van [!UICONTROL Planned Labor Cost] en [!UICONTROL Planned Expense Cost] van het project. Hierbij wordt de eigenschap [!UICONTROL Planned Risk Cost] niet in het project opgenomen.  </p> </td> 
-  </tr>
-
-
-
-<tr> 
+  </tr> 
+  <tr> 
    <td>[!UICONTROL Planned Date Alignment]</td> 
    <td> <p>Dit is een automatische indicator dat Workfront projecten, taken, en kwesties toewijst om te tonen wanneer een punt met betrekking tot zijn Geplande Datum van de Voltooiing zal worden voltooid. </p>
    <p>Hieronder vindt u mogelijke waarden voor de indicator voor het uitlijnen van de geplande datum: </p>
@@ -2069,7 +2106,7 @@ Uur-items kunnen een van de volgende statussen in Workfront hebben:
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Optimized"> 
    <td>[!UICONTROL Scenario] (in [!DNL Workfront Fusion]) </td> 
-   <td> <p>Een scenario bestaat uit een reeks stappen (modules) die aangeven hoe gegevens moeten worden overgebracht en getransformeerd tussen apps/services.</p> <p>Voor informatie over scenario's in [!DNL Workfront Fusion], zie <a href="https://experienceleague.adobe.com/nl/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/scenario-overview">[!DNL Adobe Workfront Fusion] scenario overzicht </a>.</p> </td> 
+   <td> <p>Een scenario bestaat uit een reeks stappen (modules) die aangeven hoe gegevens moeten worden overgebracht en getransformeerd tussen apps/services.</p> <p>Voor informatie over scenario's in [!DNL Workfront Fusion], zie <a href="https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/scenario-overview">[!DNL Adobe Workfront Fusion] scenario overzicht </a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Scenario] (in de [!DNL Workfront Scenario Planner] ) </td> 
@@ -2078,6 +2115,13 @@ Uur-items kunnen een van de volgende statussen in Workfront hebben:
   <tr> 
    <td>[!UICONTROL Schedule]</td> 
    <td>Het wekelijkse werkschema, met inbegrip van werktijden, gecombineerd met Dagen uit (zoals Vakantiedagen) en uitzonderingsdagen (zoals een zaterdag werkdag). U kunt programma's met projecten en gebruikers associëren.</td> 
+  </tr> 
+<tr> 
+   <td>[!UICONTROL Schedule Performance Index (SPI)]</td> 
+   <td><p>In [!UICONTROL Schedule Performance Index (SPI)] wordt de relatie beschreven tussen het geplande schema en het feitelijke schema. Adobe Workfront berekent de SPI op het project en de taakniveaus. De managers van het project herzien dit metrisch om te identificeren of de taken of de projecten momenteel voor of achter programma volgen.</p>
+  <p>Voor informatie, zie <a href="/help/quicksilver/manage-work/projects/project-finances/calculate-spi.md"> de Index van de Prestaties van het Programma berekenen (SPI) </a>
+
+</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Schedule Exemption]</td> 

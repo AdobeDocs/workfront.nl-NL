@@ -3,11 +3,12 @@ title: De  [!DNL Adobe Workfront]  plaats van de Status
 description: U kunt de gezondheid van het  [!DNL Workfront]  platform, met inbegrip van incidenten, geplande onderhoudsvensters, en het huidige statuut van alle  [!DNL Workfront]  clusters bekijken door tot de  [!DNL Workfront Status]  plaats toegang te hebben.
 draft: Probably
 feature: Get Started with Workfront
+author: Becky
 exl-id: 2d8509b4-b0fc-435c-8c2f-3154fe152e7a
-source-git-commit: 108ebd3b8677124085056cf2812fa86e70a11887
+source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
 workflow-type: tm+mt
 source-wordcount: '351'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -30,16 +31,16 @@ U hebt toegang tot de volgende informatie op de statussite:
 
 U kunt statusupdates weergeven op de [!DNL Adobe] statussite.
 
-1. Het type [&#x200B; status.adobe.com &#x200B;](https://status.adobe.com/) in uw browser om tot de plaats van de Status toegang te hebben.
+1. Het type [ status.adobe.com ](https://status.adobe.com/) in uw browser om tot de plaats van de Status toegang te hebben.
 
-1. Selecteer **[!UICONTROL Experience Cloud]** .
+1. Selecteer **[!UICONTROL Experience Cloud]**.
 1. Schuif omlaag en selecteer **[!UICONTROL Adobe Workfront]** in de lijst met oplossingen.
 
 ## Abonneren of uw abonnement beheren
 
 Abonneren op de statussite of uw abonnement beheren nadat u al hebt geabonneerd:
 
-1. Ga naar [&#x200B; status.adobe.com &#x200B;](https://status.adobe.com/).
+1. Ga naar [ status.adobe.com ](https://status.adobe.com/).
 1. Selecteer **[!UICONTROL Manage subscriptions]** op de statusbalk.
    ![](assets/manage-subs.png)
 1. Als u een bestaande account hebt, meldt u zich aan bij de account. Anders maakt u een nieuwe account.
@@ -58,7 +59,7 @@ Kwetsbaarheidonderzoekers en ontwikkelaars gebruiken hun projecten intern om het
 
 ### Hoe kan ik benoemde kwetsbaarheden weergeven die worden geïdentificeerd door [!DNL Workfront?] {#how-do-i-view-named-vulnerabilities-identified-by-workfront}
 
-1. Ga naar [&#x200B; status.adobe.com &#x200B;](https://status.adobe.com/), dan klik **[!UICONTROL Security]**.
+1. Ga naar [ status.adobe.com ](https://status.adobe.com/), dan klik **[!UICONTROL Security]**.
 
 ## Waarom is dit belangrijk? {#why-is-this-important}
 

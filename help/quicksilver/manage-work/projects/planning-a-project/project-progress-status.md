@@ -7,7 +7,7 @@ description: Adobe Workfront bepaalt de Voortgangsstatus van een project door de
 author: Alina
 feature: Work Management
 exl-id: 922ca4cf-c526-4704-9966-de67b0c36a2a
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
 workflow-type: tm+mt
 source-wordcount: '390'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 <!--Audited: 12/2023-->
 
-Adobe Workfront bepaalt de Voortgangsstatus van een project door de vooruitgang van het project over zijn chronologie te bekijken. U kunt Workfront vormen om de Voorwaarde van een project te bepalen dat op de waarde van de Status van de Voortgang van de taken wordt gebaseerd. Voor meer informatie over het vormen van de Voorwaarde van het project, zie het artikel [&#x200B; Overzicht van het Type van de Voorwaarde en van de Voorwaarde van het Project &#x200B;](../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md).
+Adobe Workfront bepaalt de Voortgangsstatus van een project door de vooruitgang van het project over zijn chronologie te bekijken. U kunt Workfront vormen om de Voorwaarde van een project te bepalen dat op de waarde van de Status van de Voortgang van de taken wordt gebaseerd. Voor meer informatie over het vormen van de Voorwaarde van het project, zie het artikel [ Overzicht van het Type van de Voorwaarde en van de Voorwaarde van het Project ](../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md).
 
 Hieronder vindt u de stand van de projecten in Workfront:
 
@@ -28,15 +28,16 @@ Hieronder vindt u de stand van de projecten in Workfront:
  <tbody> 
   <tr> 
    <td>Op tijd</td> 
-   <td> De Voortgangsstatus van een project is <strong> op Tijd </strong> als:<ul><li>Als zowel de verwachte als de geschatte voltooiingsdata eerder zijn dan of gelijk zijn aan de geplande uitvoeringsdatum van het project</li></ul> <p> <img src="assets/project-on-time-progress-status-350x69.png" style="width: 350;height: 69;"> </p> </td> 
+   <td> De Voortgangsstatus van een project is <strong> op Tijd </strong> als:<ul><li>Indien zowel de verwachte als de geschatte vervaldata eerder zijn dan of gelijk zijn aan de geplande afsluitdatum van het project <p> <img src="assets/project-on-time-progress-status-350x69.png" style="width: 350;height: 69;"> </p></li></ul>  </td> 
   </tr> 
   <tr> 
    <td>Risico</td> 
-   <td> De Voortgangsstatus van een project is <strong> bij Risico </strong> als <strong> allen </strong> van het volgende waar zijn:<ul><li>Zowel de geschatte als de verwachte voltooiingsdata zijn in de toekomst</li><li> De geschatte voltooiingsdatum valt later dan zowel de geplande uitvoeringsdatum als de verwachte uitvoeringsdatum </li></ul><p> <img src="assets/project-at-risk-progress-status-350x67.png" style="width: 350;height: 67;"> </p> </td> 
+   <td> De Voortgangsstatus van een project is <strong> bij Risico </strong> als <strong> allen </strong> van het volgende waar zijn:<ul><li>Zowel de geschatte als de verwachte voltooiingsdata zijn in de toekomst</li><li> De geschatte vervaldatum valt later dan zowel de geplande afsluitdatum als de verwachte afsluitende datum. <p> <img src="assets/project-at-risk-progress-status-350x67.png" style="width: 350;height: 67;"> </p></li></ul> </td> 
   </tr> 
   <tr> 
    <td>Achter</td> 
-   <td> De Voortgangsstatus van een project is <strong> Achter </strong> als <strong> allen </strong> van het volgende waar zijn:<ul><li>Zowel de geschatte als de verwachte voltooiingsdata zijn in de toekomst</li><li> Zowel de geschatte als de verwachte voltooiingsdata zijn later dan de geplande uitvoeringsdatum van het project</li><li> De geschatte voltooiingsdatum is niet later dan de verwachte afsluitdatum</li></ul> <p> <img src="assets/project-behind-progress-status-350x67.png" style="width: 350;height: 67;"> </p> </td> 
+   <td> De Voortgangsstatus van een project is <strong> Achter </strong> als <strong> allen </strong> van het volgende waar zijn:<ul><li>Zowel de geschatte als de verwachte voltooiingsdata zijn in de toekomst</li><li> Zowel de geschatte als de verwachte voltooiingsdata zijn later dan de geplande uitvoeringsdatum van het project</li><li> De geschatte vervaldatum is niet later dan de verwachte afsluitdatum
+   <p> <img src="assets/project-behind-progress-status-350x67.png" style="width: 350;height: 67;"> </p></li></ul>  </td> 
   </tr> 
   <tr> 
    <td>Late</td> 
@@ -51,8 +52,8 @@ Hieronder vindt u de stand van de projecten in Workfront:
 Overweeg het volgende:
 
 * De verwachte afsluitende datum van het project wordt bepaald door de taak op het kritieke pad met de meest recente geplande afwerkingsdatum.
-* De geschatte uitvoeringsdatum van het project wordt bepaald door de taak op het kritieke pad met de meest recente geschatte uitvoeringsdatum.
+* De geschatte vervaldatum van het project wordt bepaald door de taak op het kritieke pad met de meest recente geschatte vervaldatum.
 
-Voor informatie over het project Kritieke Weg, zie [&#x200B; Overzicht van het project Kritieke Weg &#x200B;](../../../manage-work/tasks/manage-tasks/critical-path.md).
+Voor informatie over het project Kritieke Weg, zie [ Overzicht van het project Kritieke Weg ](../../../manage-work/tasks/manage-tasks/critical-path.md).
 
-Voor informatie over Geprojecteerde Datums van de Voltooiing, zie [&#x200B; Overzicht van de Geprojecteerde Datum van de Voltooiing voor projecten, taken, en kwesties &#x200B;](../../../manage-work/projects/planning-a-project/project-projected-completion-date.md).
+Voor informatie over Geprojecteerde Datums van de Voltooiing, zie [ Overzicht van de Geprojecteerde Datum van de Voltooiing voor projecten, taken, en kwesties ](../../../manage-work/projects/planning-a-project/project-projected-completion-date.md).

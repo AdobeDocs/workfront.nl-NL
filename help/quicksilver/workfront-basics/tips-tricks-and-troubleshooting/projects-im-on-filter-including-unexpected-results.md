@@ -4,9 +4,9 @@ navigation-topic: tips-tricks-and-troubleshooting-workfront-basics
 title: Projecten waarop ik het filter actief heb, inclusief onverwachte resultaten
 description: Lees dit artikel om de Projecten problemen op te lossen ik ben op filter met inbegrip van onverwachte resultaten.
 feature: Get Started with Workfront
-author: Nolan
+author: Alina
 exl-id: 4701464a-4cf5-4be1-bcc0-0892019986ec
-source-git-commit: 85ccee879fd4ba5a80b6e885458839901f83d26e
+source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
 workflow-type: tm+mt
 source-wordcount: '184'
 ht-degree: 1%
@@ -42,8 +42,9 @@ ht-degree: 1%
   </tr>
 </table>
 
-Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
++++
 
 
 ## Probleem
@@ -60,4 +61,4 @@ De [!UICONTROL **Projecten ik ben op**] filter omvat projecten die de gebruiker 
 
 1. Probeer gebruikend een gelijkaardige filter, zoals [!UICONTROL **Projecten I Bezit**], die slechts projecten omvat die specifiek aan u worden toegewezen.
 
-Voor meer informatie bij het gebruiken van filters in [!DNL Workfront], zie [&#x200B; Overzicht van Filters &#x200B;](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+Voor meer informatie bij het gebruiken van filters in [!DNL Workfront], zie [ Overzicht van Filters ](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/filters-overview.md).

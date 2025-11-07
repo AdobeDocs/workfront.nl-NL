@@ -6,7 +6,7 @@ description: Wanneer het toewijzen van gebruikers of rollen aan een taak, worden
 author: Lisa
 feature: Work Management
 exl-id: 2c0cd6ef-8719-4680-aa63-5e229de0f819
-source-git-commit: 798e9ee9862b34653730c07acc9c48b901b98e63
+source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
 workflow-type: tm+mt
 source-wordcount: '625'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 De gemarkeerde informatie op deze pagina verwijst naar functionaliteit die nog niet algemeen beschikbaar is. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Dezelfde functies zijn ook beschikbaar in de productieomgeving voor alle klanten vanaf een week na de release Preview.
 
-Voor meer informatie, zie [&#x200B; modernisering van de Interface &#x200B;](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
+Voor meer informatie, zie [ modernisering van de Interface ](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
 
 </div>
 
@@ -34,7 +34,7 @@ U kunt de toewijzingstijden wijzigen wanneer u geavanceerde toewijzingen voor ee
 
 >[!NOTE]
 >
->Wanneer gebruikers aan het werk worden toegewezen, heeft hun beschikbaarheid volgens hun programma&#39;s invloed op de geplande en verwachte datum van taken en problemen. Voor informatie over programma&#39;s, zie [&#x200B; een programma &#x200B;](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md) creëren.
+>Wanneer gebruikers aan het werk worden toegewezen, heeft hun beschikbaarheid volgens hun programma&#39;s invloed op de geplande en verwachte datum van taken en problemen. Voor informatie over programma&#39;s, zie [ een programma ](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md) creëren.
 
 ## Toegangsvereisten
 
@@ -61,12 +61,12 @@ U kunt de toewijzingstijden wijzigen wanneer u geavanceerde toewijzingen voor ee
   <tr> 
    <td>Objectmachtigingen</td>
    <td><p>Contribute of hoger machtigingen voor de taak</p>
-   <p>Bewerk toestemmingen om toewijzingsuren in het vak Taak bewerken bij te werken wanneer u taken bewerkt <span class="preview"> met behulp van de oude ervaring. U kunt toewijzingsuren in het Edit taakvakje niet meer beheren wanneer het uitgeven van taken in de nieuwe ervaring.</span></p> <p>Voor informatie, zie <a href="/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md"> taken </a> uitgeven</p>.</td>
+   <p>Bewerk toestemmingen om toewijzingsuren in het vak Taak bewerken bij te werken wanneer u taken bewerkt <span class="preview"> met behulp van de oude ervaring. U kunt toewijzingsuren in het Edit taakvakje niet meer beheren wanneer het uitgeven van taken in de nieuwe ervaring.</span></p> <p>Voor informatie, zie <a href="/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md"> taken </a> uitgeven.</p></td>
   </tr>
  </tbody>
 </table>
 
-Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -79,19 +79,19 @@ Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van W
 
 >[!IMPORTANT]
 >
->Nadat u handmatig de toewijzingen voor elke toewijzing voor taken hebt gewijzigd, kunnen de geplande uren van de taken dienovereenkomstig worden bijgewerkt. Voor meer informatie, zie de sectie [&#x200B; Geplande taak van de Update Uren wanneer het beheren van gebruikerstoewijzingen &#x200B;](../../../manage-work/tasks/task-information/planned-hours.md#update) in het artikel [&#x200B; Geplande overzicht van Uren &#x200B;](../../../manage-work/tasks/task-information/planned-hours.md).
+>Nadat u handmatig de toewijzingen voor elke toewijzing voor taken hebt gewijzigd, kunnen de geplande uren van de taken dienovereenkomstig worden bijgewerkt. Voor meer informatie, zie de sectie [ Geplande taak van de Update Uren wanneer het beheren van gebruikerstoewijzingen ](../../../manage-work/tasks/task-information/planned-hours.md#update) in het artikel [ Geplande overzicht van Uren ](../../../manage-work/tasks/task-information/planned-hours.md).
 
 * Het totaal aantal uren dat is toegewezen aan individuele bronnen die zijn toegewezen aan de taak, vertegenwoordigt de geplande uren van de taak.
 * Als er één gebruiker of roltaak aan een taak is, past de hoeveelheid uren die aan de gebruiker of de rol wordt toegewezen de Geplande Uren van de taak aan.
 * In het geval van veelvoudige taken, wordt elke gebruiker of baanrol toegewezen een gelijke hoeveelheid uren om aan de taak te werken, door gebrek, als het Type van Duur van de taak Eenvoudig is. Raadpleeg de volgende artikelen voor meer informatie:
 
-   * [&#x200B; Overzicht van het Type van Duur en van de Duur van de Taak &#x200B;](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)
+   * [ Overzicht van het Type van Duur en van de Duur van de Taak ](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)
    * [Overzicht van het type duur: Eenvoudig](../../../manage-work/tasks/taskdurtn/simple-duration-type.md)
 
 * Wanneer de taak een Eenvoudig Type van Duur heeft, kunt u de hoeveelheid toegewezen uren voor elke gebruiker of baanrol manueel veranderen om erop te wijzen dat sommige taaktoegewezen aanwezigen meer tijd zouden kunnen hebben om aan een taak te werken dan anderen.
 * U kunt de hoeveelheid uren niet wijzigen die aan teams wordt toegewezen die aan taken worden toegewezen.
 * U kunt de gebruikers- of taakroltoewijzing voor uitgaven niet handmatig wijzigen.
-* U kunt ook dagelijkse, wekelijkse of maandelijkse toewijzingen van gebruikers aan taken of problemen beheren met de werklastverdeler. Voor meer informatie, zie [&#x200B; gebruikerstoewijzingen in de Balancer van de Werklast beheren &#x200B;](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
+* U kunt ook dagelijkse, wekelijkse of maandelijkse toewijzingen van gebruikers aan taken of problemen beheren met de werklastverdeler. Voor meer informatie, zie [ gebruikerstoewijzingen in de Balancer van de Werklast beheren ](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
 
 ## De gebruikers- of roltoewijzingsuren voor een taak wijzigen
 
@@ -100,6 +100,6 @@ Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van W
 1. Zorg ervoor dat het **Type van Duur** van de taak **Eenvoudig** is.
 1. Wijzig het **gebied van Toewijzingen** voor elke taak toegewezen. Dit zijn algemene toewijzingen voor elke toewijzing aan deze taak, voor de volledige duur van de taak. Dit zou de algemene **Geplande Uren** van de taak ook kunnen bijwerken.
 
-   ![&#x200B; wijzigt toewijzingen &#x200B;](assets/advanced-assignments-duration-type-allocations.png)
+   ![ wijzigt toewijzingen ](assets/advanced-assignments-duration-type-allocations.png)
 
 1. Klik **sparen**.
