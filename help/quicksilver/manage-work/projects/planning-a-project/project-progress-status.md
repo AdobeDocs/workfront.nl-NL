@@ -18,7 +18,7 @@ ht-degree: 0%
 
 <!--Audited: 12/2023-->
 
-Adobe Workfront bepaalt de Voortgangsstatus van een project door de vooruitgang van het project over zijn chronologie te bekijken. U kunt Workfront vormen om de Voorwaarde van een project te bepalen dat op de waarde van de Status van de Voortgang van de taken wordt gebaseerd. Voor meer informatie over het vormen van de Voorwaarde van het project, zie het artikel [ Overzicht van het Type van de Voorwaarde en van de Voorwaarde van het Project ](../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md).
+Adobe Workfront bepaalt de Voortgangsstatus van een project door de vooruitgang van het project over zijn chronologie te bekijken. U kunt Workfront vormen om de Voorwaarde van een project te bepalen dat op de waarde van de Status van de Voortgang van de taken wordt gebaseerd. Voor meer informatie over het vormen van de Voorwaarde van het project, zie het artikel [&#x200B; Overzicht van het Type van de Voorwaarde en van de Voorwaarde van het Project &#x200B;](../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md).
 
 Hieronder vindt u de stand van de projecten in Workfront:
 
@@ -54,6 +54,6 @@ Overweeg het volgende:
 * De verwachte afsluitende datum van het project wordt bepaald door de taak op het kritieke pad met de meest recente geplande afwerkingsdatum.
 * De geschatte vervaldatum van het project wordt bepaald door de taak op het kritieke pad met de meest recente geschatte vervaldatum.
 
-Voor informatie over het project Kritieke Weg, zie [ Overzicht van het project Kritieke Weg ](../../../manage-work/tasks/manage-tasks/critical-path.md).
+Voor informatie over het project Kritieke Weg, zie [&#x200B; Overzicht van het project Kritieke Weg &#x200B;](../../../manage-work/tasks/manage-tasks/critical-path.md).
 
-Voor informatie over Geprojecteerde Datums van de Voltooiing, zie [ Overzicht van de Geprojecteerde Datum van de Voltooiing voor projecten, taken, en kwesties ](../../../manage-work/projects/planning-a-project/project-projected-completion-date.md).
+Voor informatie over Geprojecteerde Datums van de Voltooiing, zie [&#x200B; Overzicht van de Geprojecteerde Datum van de Voltooiing voor projecten, taken, en kwesties &#x200B;](../../../manage-work/projects/planning-a-project/project-projected-completion-date.md).

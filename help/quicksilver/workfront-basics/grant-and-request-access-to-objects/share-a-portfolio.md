@@ -13,9 +13,9 @@ ht-degree: 0%
 
 # Een portfolio delen
 
-Uw Adobe Workfront-beheerder kan u toegang verlenen tot de portfolio&#39;s voor weergave of bewerking wanneer u uw toegangsniveau toewijst. U moet een licentie voor abonnementen hebben om een portfolio te kunnen bewerken. Voor meer informatie, zie [ toegang van de Verlening tot portefeuilles ](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-portfolios.md).
+Uw Adobe Workfront-beheerder kan u toegang verlenen tot de portfolio&#39;s voor weergave of bewerking wanneer u uw toegangsniveau toewijst. U moet een licentie voor abonnementen hebben om een portfolio te kunnen bewerken. Voor meer informatie, zie [&#x200B; toegang van de Verlening tot portefeuilles &#x200B;](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-portfolios.md).
 
-Samen met het toegangsniveau dat u wordt verleend, kunt u toestemmingen ook ontvangen om specifieke portefeuilles van gebruikers te bekijken of te beheren die hen met u kunnen delen. Voor meer informatie over toegangsniveaus en toestemmingen, zie [ hoe de toegangsniveaus en de toestemmingen samen ](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md) werken.
+Samen met het toegangsniveau dat u wordt verleend, kunt u toestemmingen ook ontvangen om specifieke portefeuilles van gebruikers te bekijken of te beheren die hen met u kunnen delen. Voor meer informatie over toegangsniveaus en toestemmingen, zie [&#x200B; hoe de toegangsniveaus en de toestemmingen samen &#x200B;](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md) werken.
 
 Machtigingen gelden specifiek voor één item in Workfront en definiëren welke handelingen gebruikers kunnen uitvoeren op dat item.
 
@@ -49,28 +49,28 @@ Machtigingen gelden specifiek voor één item in Workfront en definiëren welke 
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Overwegingen bij het delen van portfolio&#39;s
 
-Naast de overwegingen hieronder, zie ook [ Overzicht van het delen van toestemmingen op voorwerpen ](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+Naast de overwegingen hieronder, zie ook [&#x200B; Overzicht van het delen van toestemmingen op voorwerpen &#x200B;](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
 >[!NOTE]
 >
 >Een Workfront-beheerder kan machtigingen toevoegen of verwijderen voor alle items in het systeem, zonder de eigenaar van die items te zijn.
 
 * De maker van een portfolio beschikt standaard over de machtiging Beheren.
-* U kunt een portfolio afzonderlijk delen, maar u kunt ook meerdere portfolio&#39;s tegelijk delen. Een portfolio delen is hetzelfde als andere objecten delen in Workfront. Voor informatie, zie [ een voorwerp ](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md) delen.
+* U kunt een portfolio afzonderlijk delen, maar u kunt ook meerdere portfolio&#39;s tegelijk delen. Een portfolio delen is hetzelfde als andere objecten delen in Workfront. Voor informatie, zie [&#x200B; een voorwerp &#x200B;](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md) delen.
 
 * U kunt alleen weergave- of beheermachtigingen voor portfolio&#39;s verlenen.
 </span>
 * Wanneer u een portfolio deelt, nemen gebruikers standaard dezelfde machtigingen over voor alle onderliggende objecten die aan het portfolio zijn gekoppeld.
 
-Voor meer informatie over de hiërarchie van voorwerpen in Workfront, zie [ voorwerpen in Adobe Workfront ](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md) begrijpen.
+Voor meer informatie over de hiërarchie van voorwerpen in Workfront, zie [&#x200B; voorwerpen in Adobe Workfront &#x200B;](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md) begrijpen.
 
-* U kunt overgeërfde machtigingen verwijderen uit de Portfolio. Voor meer informatie over het verwijderen van toestemmingen uit voorwerpen, zie [ toestemmingen uit voorwerpen ](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md) verwijderen.
+* U kunt overgeërfde machtigingen verwijderen uit de Portfolio. Voor meer informatie over het verwijderen van toestemmingen uit voorwerpen, zie [&#x200B; toestemmingen uit voorwerpen &#x200B;](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md) verwijderen.
 
 ## Een portfolio delen
 
@@ -78,9 +78,9 @@ Voor meer informatie over de hiërarchie van voorwerpen in Workfront, zie [ voor
 
 1. Voor de **pagina van Portfolio&#39;s**, selecteer de portefeuille u wilt delen. De portfoliopagina wordt geopend.
 
-1. Rechts van de portefeuillenaam, klik **Aandeel**. Het **de dialoogvakje van de Naam van Portfolio 1} van het Aandeel [ opent.]**
+1. Rechts van de portefeuillenaam, klik **Aandeel**. Het **de dialoogvakje van de Naam van Portfolio 1&rbrace; van het Aandeel [ opent.]**
 
-   ![ de portefeuilleknoop van het Aandeel ](assets/share-portfolio-button.png)
+   ![&#x200B; de portefeuilleknoop van het Aandeel &#x200B;](assets/share-portfolio-button.png)
 
 1. In de **portefeuilletoegang van de Verlening tot** gebied, begin typend de naam van de gebruiker, het team, de rol, de groep, of het bedrijf u de portefeuille met wilt delen, dan klik de naam wanneer het in de drop-down lijst verschijnt.
 
@@ -101,7 +101,7 @@ Voor meer informatie over de hiërarchie van voorwerpen in Workfront, zie [ voor
 
 1. (Optioneel) Klik op het pictogram Geavanceerde opties naast het machtigingsniveau dat u hebt toegekend om specifieke machtigingen voor het portfolio te configureren.
 
-   ![ gevormde geavanceerde toestemmingsopties ](assets/advanced-options-icon.png)
+   ![&#x200B; gevormde geavanceerde toestemmingsopties &#x200B;](assets/advanced-options-icon.png)
 
 1. (Facultatief) om de portefeuille snel te delen gebruikend een verbinding, klik **verbinding van het Exemplaar** en door:sturen het aan de ontvanger.
 
@@ -111,9 +111,9 @@ Voor meer informatie over de hiërarchie van voorwerpen in Workfront, zie [ voor
 
 {{step1-to-portfolios}}
 
-1. Voor de **pagina van Portfolio&#39;s**, selecteer de doos links van elke portefeuille u wilt delen, dan klik het **pictogram van het Aandeel** ![ Aandeel ](assets/share-icon.png) bij de bovenkant van de pagina. Het deelmodaal wordt geopend.
+1. Voor de **pagina van Portfolio&#39;s**, selecteer de doos links van elke portefeuille u wilt delen, dan klik het **pictogram van het Aandeel** ![&#x200B; Aandeel &#x200B;](assets/share-icon.png) bij de bovenkant van de pagina. Het deelmodaal wordt geopend.
 
-   ![ Bulk de portefeuilles van het aandeelaandeel ](assets/bulk-share-portfolios.png)
+   ![&#x200B; Bulk de portefeuilles van het aandeelaandeel &#x200B;](assets/bulk-share-portfolios.png)
 
 1. In de **portefeuilletoegang van de Verlening tot** gebied, begin typend de naam van de gebruiker, het team, de rol, de groep, of het bedrijf u de portefeuilles met wilt delen, dan klik de naam wanneer het in de drop-down lijst verschijnt.
 
@@ -135,7 +135,7 @@ Voor meer informatie over de hiërarchie van voorwerpen in Workfront, zie [ voor
 
 1. (Optioneel) Klik op het pictogram Geavanceerde opties naast het machtigingsniveau dat u hebt toegekend om specifieke machtigingen voor de portfolio&#39;s te configureren.
 
-   ![ gevormde geavanceerde toestemmingsopties ](assets/advanced-options-icon.png)
+   ![&#x200B; gevormde geavanceerde toestemmingsopties &#x200B;](assets/advanced-options-icon.png)
 
 1. Klik **sparen**.
 

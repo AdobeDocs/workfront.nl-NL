@@ -135,26 +135,26 @@ Deze 3 stappen kunnen u als [!DNL Workfront] beheerder helpen bovenop elke nieuw
 
 In [!DNL Workfront] [!UICONTROL Innovation Lab] kunnen geautoriseerde ondersteuningscontactpersonen productideeën indienen, in stemming brengen en bespreken met andere klanten.
 
-Meer leren, zie het artikel [ het Laboratorium van de Innovatie ](../../workfront-basics/tips-tricks-and-troubleshooting/idea-exchange.md).
+Meer leren, zie het artikel [&#x200B; het Laboratorium van de Innovatie &#x200B;](../../workfront-basics/tips-tricks-and-troubleshooting/idea-exchange.md).
 
 ## Hoe kan ik tools integreren en verbinden met [!DNL Workfront?]
 
 De volgende bronnen kunnen u helpen meer te weten te komen over de API van [!DNL Workfront] en andere integraties:
 
-| [[!DNL Adobe Workfront]  integraties ](../../administration-and-setup/configure-integrations/workfront-integrations-1.md) | U kunt [!DNL Workfront] integreren met toepassingen van derden. Integraties kunnen het nut van [!DNL Workfront] uitbreiden en het aanpassen aan de behoeften van uw organisatie. Dit artikel in de Knowledge Base behandelt uw integratieopties en wijst u in de volgende richting. |
+| [[!DNL Adobe Workfront]  integraties &#x200B;](../../administration-and-setup/configure-integrations/workfront-integrations-1.md) | U kunt [!DNL Workfront] integreren met toepassingen van derden. Integraties kunnen het nut van [!DNL Workfront] uitbreiden en het aanpassen aan de behoeften van uw organisatie. Dit artikel in de Knowledge Base behandelt uw integratieopties en wijst u in de volgende richting. |
 |---|---|
-| [[!DNL Workfront]  ingebouwde integraties ](https://business.adobe.com/products/workfront/integrations.html) | Dankzij de gratis ingebouwde integratie van Workfront kunnen u en uw team probleemloos overstappen op het Workfront-platform, terwijl u dezelfde workflows en processen behoudt. |
+| [[!DNL Workfront]  ingebouwde integraties &#x200B;](https://business.adobe.com/products/workfront/integrations.html) | Dankzij de gratis ingebouwde integratie van Workfront kunnen u en uw team probleemloos overstappen op het Workfront-platform, terwijl u dezelfde workflows en processen behoudt. |
 | [[!DNL Adobe Workfront Fusion]](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/home) | Verbindt [!DNL Workfront] met 100+ toepassingen, die het gemakkelijk maken om uw bedrijfskritieke processen zonder code te automatiseren. |
 
 {style="table-layout:auto"}
 
 ## Wanneer doet [!DNL Workfront] onderhoud? Hoe kan ik erachter komen of [!DNL Workfront] is uitgevallen?
 
-Abonneren aan [ status.adobe.com ](https://status.adobe.com/) om op onderhoudsprogramma&#39;s en outage kwesties geïnformeerd te blijven.
+Abonneren aan [&#x200B; status.adobe.com &#x200B;](https://status.adobe.com/) om op onderhoudsprogramma&#39;s en outage kwesties geïnformeerd te blijven.
 
-Meer over de [!DNL Workfront] plaats van de Status leren, zie [ de  [!DNL Adobe Workfront]  plaats van de Status ](../../workfront-basics/tips-tricks-and-troubleshooting/understand-the-status-site.md).
+Meer over de [!DNL Workfront] plaats van de Status leren, zie [&#x200B; de  [!DNL Adobe Workfront]  plaats van de Status &#x200B;](../../workfront-basics/tips-tricks-and-troubleshooting/understand-the-status-site.md).
 
-Om te leren wat in een wekelijkse Update van het Onderhoud is bevestigd, zie [ Updates van het Onderhoud ](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates).
+Om te leren wat in een wekelijkse Update van het Onderhoud is bevestigd, zie [&#x200B; Updates van het Onderhoud &#x200B;](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates).
 
 <!-- the links in this section don't work anymore and I am not sure who would have the content?! Made a note to update this but will have to do some searching - October 26, 2023: 
 

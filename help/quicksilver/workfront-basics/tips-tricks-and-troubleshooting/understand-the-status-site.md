@@ -31,7 +31,7 @@ U hebt toegang tot de volgende informatie op de statussite:
 
 U kunt statusupdates weergeven op de [!DNL Adobe] statussite.
 
-1. Het type [ status.adobe.com ](https://status.adobe.com/) in uw browser om tot de plaats van de Status toegang te hebben.
+1. Het type [&#x200B; status.adobe.com &#x200B;](https://status.adobe.com/) in uw browser om tot de plaats van de Status toegang te hebben.
 
 1. Selecteer **[!UICONTROL Experience Cloud]**.
 1. Schuif omlaag en selecteer **[!UICONTROL Adobe Workfront]** in de lijst met oplossingen.
@@ -40,7 +40,7 @@ U kunt statusupdates weergeven op de [!DNL Adobe] statussite.
 
 Abonneren op de statussite of uw abonnement beheren nadat u al hebt geabonneerd:
 
-1. Ga naar [ status.adobe.com ](https://status.adobe.com/).
+1. Ga naar [&#x200B; status.adobe.com &#x200B;](https://status.adobe.com/).
 1. Selecteer **[!UICONTROL Manage subscriptions]** op de statusbalk.
    ![](assets/manage-subs.png)
 1. Als u een bestaande account hebt, meldt u zich aan bij de account. Anders maakt u een nieuwe account.
@@ -59,7 +59,7 @@ Kwetsbaarheidonderzoekers en ontwikkelaars gebruiken hun projecten intern om het
 
 ### Hoe kan ik benoemde kwetsbaarheden weergeven die worden geïdentificeerd door [!DNL Workfront?] {#how-do-i-view-named-vulnerabilities-identified-by-workfront}
 
-1. Ga naar [ status.adobe.com ](https://status.adobe.com/), dan klik **[!UICONTROL Security]**.
+1. Ga naar [&#x200B; status.adobe.com &#x200B;](https://status.adobe.com/), dan klik **[!UICONTROL Security]**.
 
 ## Waarom is dit belangrijk? {#why-is-this-important}
 

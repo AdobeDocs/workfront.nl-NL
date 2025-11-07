@@ -44,19 +44,19 @@ U kunt datumnotaties op de volgende manieren wijzigen in Workfront, afhankelijk 
 
   ![](assets/field-format-in-advanced-options-of-a-view-highlighted.png)
 
-  Voor meer informatie, zie [ een douanerapport ](../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) creëren.
+  Voor meer informatie, zie [&#x200B; een douanerapport &#x200B;](../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) creëren.
 
 * Als u de datumnotatie wilt wijzigen in alle uitgaande e-mailmeldingen voor uw hele organisatie, moet u de instelling [!UICONTROL Default Email Locale] bijwerken in het [!UICONTROL Customer Info] -gebied in [!UICONTROL Setup] .
 
   ![](assets/default-email-locale-field.png)
 
-  Voor meer informatie, zie [ basisinformatie voor uw systeem ](../../administration-and-setup/get-started-wf-administration/configure-basic-info.md) vormen.
+  Voor meer informatie, zie [&#x200B; basisinformatie voor uw systeem &#x200B;](../../administration-and-setup/get-started-wf-administration/configure-basic-info.md) vormen.
 
 * Als u de indeling van alle datums in alle uitgaande e-mailberichten voor één gebruiker wilt wijzigen, moet u de instelling [!UICONTROL Email Locale] in het vak [!UICONTROL Edit Person] bijwerken wanneer u het profiel van een gebruiker bewerkt.
 
   ![](assets/email-locale-for-user-profile-highlighted.png)
 
-  Voor meer informatie, zie [ het profiel van een gebruiker ](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) uitgeven.
+  Voor meer informatie, zie [&#x200B; het profiel van een gebruiker &#x200B;](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) uitgeven.
 
 <!--drafted because we should not document steps for a third-party application
 
