@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 13880fcb-8523-45d2-9ac6-38453e8e2391
-source-git-commit: 3838e355c16275b9e10fb92497f1698ac99c4fa4
+source-git-commit: c6adce09acf993ae00b080ac5177dabd953d69a1
 workflow-type: tm+mt
-source-wordcount: '1414'
+source-wordcount: '1461'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Een extern opzoekveld in een aangepast formulier roept een externe API aan en re
 
 Dit artikel bevat voorbeelden van het gebruik van het externe opzoekveld om dezelfde instantie van Workfront of een openbare API aan te roepen. U kunt de Externe raadpleging ook gebruiken om met een extern systeem zoals Jira, Salesforce, of ServiceNow te communiceren.
 
-Voor meer informatie over het toevoegen van een Extern raadplegingsgebied aan een douaneformulier en extra definities van de externe raadplegingscomponenten, zie [&#x200B; een douaneformulier &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren.
+Voor meer informatie over het toevoegen van een Extern raadplegingsgebied aan een douaneformulier en extra definities van de externe raadplegingscomponenten, zie [ een douaneformulier ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren.
 
 ## Toegangsvereisten
 
@@ -47,7 +47,7 @@ Voor meer informatie over het toevoegen van een Extern raadplegingsgebied aan ee
  </tbody> 
 </table>
 
-Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -55,7 +55,7 @@ Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van W
 
 U kunt de externe zoekopdracht gebruiken om gegevens van uw Workfront-exemplaar over te brengen naar het aangepaste formulier.
 
-<!--When someone accesses the field in the custom form, they will only see in the list of options what they have permissions to see in Workfront. For example, if you are showing a list of projects, the user would only see projects that are shared with them.-->
+Wanneer iemand het veld opent in het aangepaste formulier, ziet hij alleen in de lijst met opties wat hij of zij in Workfront mag zien. Bijvoorbeeld, als u een lijst van projecten toont, zou de gebruiker slechts projecten zien die met hen worden gedeeld.
 
 ### Native Workfront-veldwaarden gebruiken in de externe zoekopdracht
 
@@ -94,13 +94,13 @@ In dit voorbeeld wordt getoond hoe u de Workfront API aanroept en een lijst met 
 
 1. Klik **toepassen**.
 
-   ![&#x200B; Opstelling van API vraag aan Workfront in douanevorm &#x200B;](assets/external-lookup-to-workfront.png)
+   ![ Opstelling van API vraag aan Workfront in douanevorm ](assets/external-lookup-to-workfront.png)
 
    Wanneer het aangepaste formulier wordt toegevoegd aan een Workfront-object (in dit voorbeeld een project), ziet het er ongeveer zo uit.
 
-   ![&#x200B; Vorm van de Douane met extern raadplegingsgebied &#x200B;](assets/external-lookup-project-status-example1.png)
+   ![ Vorm van de Douane met extern raadplegingsgebied ](assets/external-lookup-project-status-example1.png)
 
-   ![&#x200B; Externe raadplegingsopties die op status &#x200B;](assets/external-lookup-project-status-example2.png) worden gebaseerd
+   ![ Externe raadplegingsopties die op status ](assets/external-lookup-project-status-example2.png) worden gebaseerd
 
 ### Aangepaste veldwaarden gebruiken in de externe zoekopdracht
 
@@ -149,7 +149,7 @@ Een eindpunt is beschikbaar in de Planning API van Workfront aan onderzoeksversl
 
   **{fieldID}** is het veld dat in de zoekresultaten voor externe zoekopdrachten op het aangepaste formulier voor eindgebruikers moet worden weergegeven.
 
-Voor meer informatie, zie [&#x200B; de Planning API van Workfront &#x200B;](/help/quicksilver/planning/general/planning-api-basics.md).
+Voor meer informatie, zie [ de Planning API van Workfront ](/help/quicksilver/planning/general/planning-api-basics.md).
 
 ## Een extern opzoekveld instellen voor een openbare API
 
@@ -202,13 +202,13 @@ Geeft alle landen weer: <https://api.first.org/data/v1/countries>
 
 1. Klik **toepassen**.
 
-   ![&#x200B; Opstelling van API vraag aan openbare API in douaneformulier &#x200B;](assets/external-lookup-to-api-for-countries.png)
+   ![ Opstelling van API vraag aan openbare API in douaneformulier ](assets/external-lookup-to-api-for-countries.png)
 
    Wanneer het aangepaste formulier wordt toegevoegd aan een Workfront-object (in dit voorbeeld een project), ziet het er ongeveer zo uit.
 
-   ![&#x200B; Vorm van de Douane met extern raadplegingsgebied &#x200B;](assets/external-lookup-countries-example1.png)
+   ![ Vorm van de Douane met extern raadplegingsgebied ](assets/external-lookup-countries-example1.png)
 
-   ![&#x200B; Externe raadplegingsopties voor een land dat op gebied &#x200B;](assets/external-lookup-countries-example2.png) wordt gebaseerd
+   ![ Externe raadplegingsopties voor een land dat op gebied ](assets/external-lookup-countries-example2.png) wordt gebaseerd
 
 ## Aanvullende gebruiksgevallen voor externe opzoekvelden
 
