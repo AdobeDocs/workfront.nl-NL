@@ -6,9 +6,9 @@ description: U kunt  [!DNL Adobe Workfront for design and video]  van de Marketp
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: f4fbae93-b54b-4d08-82c3-72a9a760c317
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+source-git-commit: c21e1c1d8e45b7c6407e8741b31055bfed9f4717
 workflow-type: tm+mt
-source-wordcount: '604'
+source-wordcount: '580'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ U kunt [!DNL Adobe Workfront for design and video] installeren vanaf [!DNL Adobe
 
 >[!NOTE]
 >
->Er zijn aparte installatie-instructies voor [!DNL Photoshop] en [!DNL XD] . Voor meer informatie, zie [&#x200B; installeren  [!DNL Adobe Workfront for Photoshop]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-ps.md) en [&#x200B;  [!DNL Adobe Workfront for XD]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-install.md) installeren.
+>Er zijn aparte installatie-instructies voor [!DNL Photoshop] en [!DNL XD] . Voor meer informatie, zie [ installeren  [!DNL Adobe Workfront for Photoshop]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-ps.md) en [  [!DNL Adobe Workfront for XD]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-install.md) installeren.
 
 
 ## Toegangsvereisten
@@ -64,7 +64,7 @@ U kunt [!DNL Adobe Workfront for design and video] installeren vanaf [!DNL Adobe
  </tbody> 
 </table>
 
-Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -74,17 +74,17 @@ Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van W
 
 ## [!DNL Workfront for design and video] voor uw organisatie installeren
 
-Als u een [!DNL Adobe Admin Console] beheerder bent, kunt u [!DNL Adobe Workfront for design and video] opnemen in [!DNL Creative Cloud] implementatiepakketten. Voor meer informatie, zie [&#x200B; Including steekmodules in uw pakket &#x200B;](https://helpx.adobe.com/in/enterprise/using/manage-extensions.html).
+Als u een [!DNL Adobe Admin Console] beheerder bent, kunt u [!DNL Adobe Workfront for design and video] opnemen in [!DNL Creative Cloud] implementatiepakketten. Voor meer informatie, zie [ Including steekmodules in uw pakket ](https://helpx.adobe.com/in/enterprise/using/manage-extensions.html).
 
-[&#x200B; Mening hier een videoleerprogramma &#x200B;](https://www.youtube.com/watch?v=zzvXNLIBzrc){target=_blank}.
+[ Mening hier een videoleerprogramma ](https://www.youtube.com/watch?v=zzvXNLIBzrc){target=_blank}.
 
-[!DNL Adobe Admin Console] -beheerders kunnen ook pakketten met alleen plug-ins maken voor distributie naar gebruikers. Voor meer informatie, zie [&#x200B; [!UICONTROL [!DNL Adobe Workfront] creëren voor  [!DNL Creative Cloud]]  pakketten voor uw gebruikers in  [!DNL Adobe Admin Console]](/help/quicksilver/administration-and-setup/configure-integrations/create-plugin-only-packages.md)
+[!DNL Adobe Admin Console] -beheerders kunnen ook pakketten met alleen plug-ins maken voor distributie naar gebruikers. Voor meer informatie, zie [ [!UICONTROL [!DNL Adobe Workfront] creëren voor  [!DNL Creative Cloud]]  pakketten voor uw gebruikers in  [!DNL Adobe Admin Console]](/help/quicksilver/administration-and-setup/configure-integrations/create-plugin-only-packages.md)
 
 ## [!DNL Workfront for design and video] afzonderlijk installeren
 
 U kunt [!DNL Adobe Workfront for design and video] voor uzelf installeren vanuit de map [!DNL Adobe Exchange] .
 
-1. Ga naar [&#x200B; Adobe Workfront voor Ontwerp en Video installeert pagina &#x200B;](https://adobe.com/go/cc_plugins_discover_plugin?pluginId=108938&workflow=share) op Adobe Exchange.
+1. Ga naar [ Adobe Workfront voor Ontwerp en Video installeert pagina ](https://adobe.com/go/cc_plugins_discover_plugin?pluginId=108938&workflow=share) op Adobe Exchange.
 1. In de dialoog die verschijnt, klik **Open [!DNL Adobe Creative Cloud] Desktop app**.
 1. Klik op [!DNL Adobe Creative Cloud] als **[!UICONTROL Install]** Plug-inbeheer wordt geopend.
 1. Lees de informatie in het dialoogvenster en klik op **[!UICONTROL OK]** .
@@ -104,7 +104,7 @@ U kunt [!DNL Adobe Workfront for design and video] voor uzelf installeren vanuit
    >
    >Als u Premiere Pro gebruikt, moet u een project open hebben om tot dit menu toegang te hebben.
 
-   ![&#x200B; het menu van Workfront &#x200B;](assets/adobe-workfront-menu.png)
+   ![ het menu van Workfront ](assets/adobe-workfront-menu.png)
 
 
    >[!TIP]
@@ -124,22 +124,21 @@ U kunt [!DNL Adobe Workfront for design and video] voor uzelf installeren vanuit
    >
    >* Als u uw domein wilt zoeken, opent u een browser, navigeert u naar de instantie [!DNL Workfront] en kopieert u het eerste deel van de URL:
    >
-   >![&#x200B; plaats van domein &#x200B;](assets/domain-350x50.png)
+   >![ plaats van domein ](assets/domain-350x50.png)
    >
-   >* Als uw Workfront-exemplaar is geïntegreerd met Experience Cloud, vraagt u uw beheerder om het Workfront-domein dat u kunt vinden onder Product > Workfront in de Admin Console.
+   >* Als uw Workfront-instantie is geïntegreerd met Experience Cloud en het domein begint met `experience.adobe.com` , vraagt u uw beheerder om het Workfront-domein dat u kunt vinden onder Product > Workfront in de Admin Console.
 
 1. Voer in de browser uw [!DNL Workfront] -gegevens in en klik op **[!UICONTROL Log in]** . Als uw bedrijf één enkel teken-op (SSO) gebruikt, zult u aan de pagina van uw leverancier worden geleid SSO om zich aan te melden.
 
    >[!NOTE]
    >
-   >Mogelijk wordt u niet gevraagd om uw [!DNL Workfront] -referenties in te voeren als u zich onlangs hebt aangemeld.
+   >Mogelijk wordt u niet gevraagd om uw [!DNL Adobe] -referenties in te voeren als u zich onlangs hebt aangemeld.
 
 1. Volg de aanwijzingen om u aan te melden bij [!DNL Workfront] .
 
    >[!NOTE]
    >
    >* [!DNL Workfront] maakt verbinding met [!DNL Adobe Creative Cloud] via OAuth 2.0, een veilige standaard die door de meeste webgebaseerde integraties wordt gebruikt voor de verificatie en autorisatie van gebruikers.
-   >* Wanneer u wordt ertoe aangezet om het [ domein of de gastheer ] van uw [!DNL Workfront] rekening in te gaan, typ het gebruikend dit formaat: *yourCompany&#39;sDomain.my.workfront.com*. Het domein van uw bedrijf is gewoonlijk de naam van uw bedrijf.
 
 1. Klik op **[!UICONTROL Allow Access]** om het aanmelden te voltooien.
 1. Ga terug naar [!DNL Adobe Photoshop] om uw werk te bekijken.
@@ -151,7 +150,7 @@ U kunt [!DNL Adobe Workfront for design and video] voor uzelf installeren vanuit
 
 U kunt een URL die begint met `experience.adobe.com` niet gebruiken om u aan te melden bij de plug-in.
 
-![&#x200B; login fout &#x200B;](assets/plugin-log-in-error.png) ![&#x200B; domein &#x200B;](assets/incorrect-domain.png)
+![ login fout ](assets/plugin-log-in-error.png) ![ domein ](assets/incorrect-domain.png)
 
 
 U kunt dit probleem als volgt oplossen:
@@ -165,4 +164,4 @@ U kunt dit probleem als volgt oplossen:
 
 1. Ga terug naar de plug-in en voer uw Workfront-domein in. Het domein moet `company-name.my.workfront.com` zijn en niet `experience.adobe.com`.
 
-   Om [&#x200B; uw domein van Workfront &#x200B;](/help/quicksilver/wf-api/tips-tricks-and-troubleshooting/locate-domain-for-api.md) te vinden als u op de Adobe Verenigde Ervaring bent, ga naar Opstelling, de info van de Klant.
+   Om [ uw domein van Workfront ](/help/quicksilver/wf-api/tips-tricks-and-troubleshooting/locate-domain-for-api.md) te vinden als u op de Adobe Verenigde Ervaring bent, ga naar Opstelling, de info van de Klant.
