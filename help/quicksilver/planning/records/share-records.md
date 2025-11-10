@@ -6,7 +6,7 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 83ff53ac-f18e-4b71-bdb2-57e05d69ed29
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+source-git-commit: 1ed84baeacda2717c4f58058fb754e7a79b48baf
 workflow-type: tm+mt
 source-wordcount: '579'
 ht-degree: 0%
@@ -41,6 +41,35 @@ U kunt een Adobe Workfront-planningsrecord op de volgende manieren delen:
    * [Een werkruimte delen](/help/quicksilver/planning/access/share-workspaces.md)
 
    * [Een recordtype delen](/help/quicksilver/planning/access/share-record-types.md)
+
+<!--When we release record-level permissions, replace the bullets above with these:
+
+You can share an Adobe Workfront Planning record in the following ways: 
+
+* Copy the link of the record page from your browser when the page is open. 
+
+* Copy a link to the record's page when viewing records in the record type's table view.   
+
+* In the Production environment: 
+
+   * You can share all records in a workspace with other users by sharing the workspace and the record type.
+
+      For more information see the following articles:
+
+      * [Share a workspace](/help/quicksilver/planning/access/share-workspaces.md)
+
+      * [Share a record type](/help/quicksilver/planning/access/share-record-types.md)
+
+<div class="preview">
+
+* In the Preview environment: 
+
+   * You can share individual records with people, teams, roles, groups, or companies.
+
+</div>
+-->
+
+<!--take out the sentence below when we release record-level sharing-->
 
 In dit artikel wordt beschreven hoe u een koppeling naar de pagina van een record kunt kopiëren vanuit de tabelweergave van een recordtype.
 
@@ -82,7 +111,7 @@ In dit artikel wordt beschreven hoe u een koppeling naar de pagina van een recor
 </tbody> 
 </table>
 
-Voor meer informatie over de toegangsvereisten van Workfront, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer informatie over de toegangsvereisten van Workfront, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++  
 
@@ -170,9 +199,9 @@ De werkruimte die u het laatst hebt geopend.
 
    of
 
-   Beweeg over de naam van een verslag, klik **Meer** menu ![&#x200B; Meer menu &#x200B;](assets/more-menu.png), dan klik **verbinding van het Exemplaar**.
+   Beweeg over de naam van een verslag, klik **Meer** menu ![ Meer menu ](assets/more-menu.png), dan klik **verbinding van het Exemplaar**.
 
-   ![&#x200B; Contextueel menu voor verslagrij &#x200B;](assets/contextual-menu-for-record-row.png)
+   ![ Contextueel menu voor verslagrij ](assets/contextual-menu-for-record-row.png)
 
    De koppeling wordt naar het klembord gekopieerd.
 
@@ -193,7 +222,7 @@ Recordtypen en records nemen dezelfde machtigingen over van de werkruimte.
 
 Alleen gebruikers met de machtiging Beheren in een werkruimte kunnen deze delen met anderen.
 
-Voor meer informatie, zie [&#x200B; een werkruimte &#x200B;](/help/quicksilver/planning/access/share-workspaces.md) delen.
+Voor meer informatie, zie [ een werkruimte ](/help/quicksilver/planning/access/share-workspaces.md) delen.
 
 ## Alle records in een recordtype delen door het recordtype te delen
 
@@ -208,5 +237,5 @@ U kunt echter een van de volgende handelingen uitvoeren:
 
 Alleen gebruikers met de machtiging Beheren in een werkruimte kunnen hun recordtypen en records delen met anderen.
 
-Voor meer informatie, zie [&#x200B; recordtypes van het Aandeel &#x200B;](/help/quicksilver/planning/access/share-record-types.md).
+Voor meer informatie, zie [ recordtypes van het Aandeel ](/help/quicksilver/planning/access/share-record-types.md).
 
