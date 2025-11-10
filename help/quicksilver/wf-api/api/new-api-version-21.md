@@ -6,9 +6,9 @@ description: Adobe Workfront heeft API-versie 21 uitgebracht op 23 oktober 2025.
 author: Becky
 feature: Workfront API
 role: Developer
-source-git-commit: 155323314712e020a638619d9bf10d678078645e
+source-git-commit: 040e714c2f81ba764c7895be430446add1250a83
 workflow-type: tm+mt
-source-wordcount: '891'
+source-wordcount: '954'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,12 @@ ht-degree: 0%
 # Nieuwe functies in API-versie 21
 
 <span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Het is beschikbaar slechts in het milieu van de Sandbox van de Voorproef.</span>
+
+>[!IMPORTANT]
+>
+>Deze wijziging in de API-versie heeft een eindwijziging die invloed kan hebben op uw bestaande API-aanroepen. Dit is te wijten aan het feit dat API-versie 21 gebruik maakt van Event Subscriptions versie 2.
+>
+> Voor velden met meerdere selecties verzendt versie 2 van Event-abonnementen altijd als een array. Versie 1 heeft een array verzonden als er meer dan één waarde is geselecteerd. Als er slechts één waarde is geselecteerd, wordt een tekenreeks verzonden.
 
 Adobe Workfront heeft API-versie 21 uitgebracht op 23 oktober 2025. API-versie 21 bevat de volgende wijzigingen ten opzichte van versie 20.
 
