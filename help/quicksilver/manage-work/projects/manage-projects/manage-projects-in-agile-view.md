@@ -6,20 +6,22 @@ description: U kunt flexibele functionaliteit voor uw project gebruiken zonder d
 author: Alina, Courtney
 feature: Work Management
 exl-id: fc633fd6-35b4-4949-8045-22c775002436
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: 4897f165a7316a52b968601b45f95f7045f63840
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: '311'
 ht-degree: 0%
 
 ---
 
 # Een project beheren in de Google View
 
-<!-- Audited: 2/2024 -->
+<!-- Audited: 11/2025 -->
 
 U kunt flexibele functionaliteit voor uw project gebruiken zonder de administratieve uitdagingen die agile praktijken typisch begeleiden (zoals het beheren van een teamachterstand of het creëren van herhalingen).
 
-Als u in een mobiel milieu wilt werken dat een teamachterstand gebruikt en u toestaat om herhalingen van taken op de achterstand tot stand te brengen, volg de instructies in [&#x200B; Werk in een flexibel milieu &#x200B;](../../../agile/work-in-an-agile-environment/work-in-an-agile-environment.md).
+U kunt in een veranderlijke milieu werken dat een teamachterstand gebruikt en u toestaat om herhalingen van taken op de achterstand tot stand te brengen.
+
+Voor informatie, zie [ Werk in een behendig milieu ](../../../agile/work-in-an-agile-environment/work-in-an-agile-environment.md).
 
 ## Toegangsvereisten
 
@@ -57,7 +59,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -95,16 +97,20 @@ Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van d
 
 ## Een project weergeven in de Google-weergave
 
-1. Ga naar het project u in een flexibele mening, op of de taaklijst of de lijst van de kwestie wilt bekijken.
-1. Klik het **pictogram van de 1&rbrace; mening van de Raad** Raad ![.](assets/board-icon-for-agile-view.png)
+U kunt zowel de taken als de kwesties op een project in een flexibele mening in plaats van een lijst bekijken, aan hefboomwerking flexibele functionaliteit voor uw projectontwikkeling.
+
+1. Ga naar het project u in een gelijke mening wilt bekijken, dan **Taken** of **Kwesties** in het linkerpaneel klikken.
+1. Klik het **pictogram van de 1} mening van de Raad** Raad ![.](assets/board-icon-for-agile-view.png)
 
    De boardweergave van het project wordt standaard weergegeven.
 
-   ![&#x200B; Raad mening van project &#x200B;](assets/project-agile-board-view.png)
+   ![ Raad mening van project ](assets/project-agile-board-view.png)
 
 
 1. (Facultatief) klik **vormen** om opties voor de kolommen en de kaarten te plaatsen.
 
-   Voor meer informatie, zie [&#x200B; de kolommen van het Beheer &#x200B;](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md) en [&#x200B; aanpassen welke gebieden op een kaart &#x200B;](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md) worden getoond. Merk op dat u geen kolombeleid op de boardmening van een project kunt bepalen.
+   Voor meer informatie, zie [ de kolommen van het Beheer ](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md) en [ aanpassen welke gebieden op een kaart ](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md) worden getoond. Merk op dat u geen kolombeleid op de boardmening van een project kunt bepalen.
 
-1. (Facultatief) om aan de lijstmening terug te keren, klik het **pictogram van de Lijst**.
+1. (Facultatief) om aan de lijstmening terug te keren, klik het **pictogram van de Lijst** pictogram van de Lijst ![.](assets/list-icon.png)
+
+   De lijst met taken of problemen wordt weergegeven.

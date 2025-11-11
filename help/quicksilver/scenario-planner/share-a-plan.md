@@ -7,7 +7,7 @@ description: U kunt een abonnement dat u hebt gemaakt in de Adobe Workfront Scen
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: b8bbb533-4384-414c-8574-4e137962b8ca
-source-git-commit: aa2e9a012a60ab10e2d027dedae520b5e06686c7
+source-git-commit: 4897f165a7316a52b968601b45f95f7045f63840
 workflow-type: tm+mt
 source-wordcount: '849'
 ht-degree: 0%
@@ -56,9 +56,9 @@ U kunt een abonnement in de [!DNL Adobe Workfront Scenario Planner] delen met an
  </tbody> 
 </table>
 
-Voor meer informatie over toegang tot de Planner van het Scenario, zie [&#x200B; Toegang nodig om  [!DNL Scenario Planner]](../scenario-planner/access-needed-to-use-sp.md) te gebruiken.
+Voor meer informatie over toegang tot de Planner van het Scenario, zie [ Toegang nodig om  [!DNL Scenario Planner]](../scenario-planner/access-needed-to-use-sp.md) te gebruiken.
 
-Voor informatie over de toegangsvereisten van Workfront, zie [&#x200B; vereisten van de Toegang tot de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie over de toegangsvereisten van Workfront, zie [ vereisten van de Toegang tot de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -109,7 +109,7 @@ Voor informatie over de toegangsvereisten van Workfront, zie [&#x200B; vereisten
   NOTE: ensure this stays this way and they don't restrict Workers from SP as well?? OR ensure you can even SEE Requestors as an option or they are not grayed out??)
   -->
 
-Voor meer informatie over toegang tot [!DNL Scenario Planner] voor diverse licentietypen, zie [&#x200B; de toegang van de Verlening tot  [!DNL Scenario Planner]](../administration-and-setup/add-users/configure-and-grant-access/grant-access-sp.md).
+Voor meer informatie over toegang tot [!DNL Scenario Planner] voor diverse licentietypen, zie [ de toegang van de Verlening tot  [!DNL Scenario Planner]](../administration-and-setup/add-users/configure-and-grant-access/grant-access-sp.md).
 
 ## Overwegingen bij het delen van plannen
 
@@ -118,12 +118,12 @@ Voor meer informatie over toegang tot [!DNL Scenario Planner] voor diverse licen
 * U kunt geen plannen bekijken die u niet creeerde of die niet met u worden gedeeld.
 * U kunt een abonnement alleen met andere gebruikers delen. U kunt geen plannen met groepen, teams, of bedrijven delen.
 * U moet een abonnement eerst opslaan voordat u het kunt delen.
-* U kunt een URL naar een abonnement met een andere gebruiker delen. Als de gebruiker geen toestemmingen heeft om het plan minstens te bekijken, kunnen zij om toegang tot het plan van een andere gebruiker verzoeken wanneer zij URL ontvangen. Voor informatie over het verzoeken van toegang tot een plan, zie [&#x200B; toegang van het Verzoek tot een plan in  [!DNL Scenario Planner]](../scenario-planner/request-access-to-plan.md).
+* U kunt een URL naar een abonnement met een andere gebruiker delen. Als de gebruiker geen toestemmingen heeft om het plan minstens te bekijken, kunnen zij om toegang tot het plan van een andere gebruiker verzoeken wanneer zij URL ontvangen. Voor informatie over het verzoeken van toegang tot een plan, zie {de toestemmingen van 0} Verzoek aan een plan in [. [!DNL Scenario Planner]](../scenario-planner/request-access-to-plan.md)
 * Wanneer u meerdere plannen deelt die al met anderen zijn gedeeld, worden de gebruikers met wie u deelt niet vervangen, maar toegevoegd aan de bestaande gebruikers op elk abonnement dat u hebt geselecteerd.
 
 ## Opties voor overzichtsmachtigingen
 
-De volgende lijst maakt een lijst van de toestemmingen die u kunt verlenen wanneer het delen van een plan. Voor meer informatie over de toegangsgebruikers die op hun vergunning worden gebaseerd, zie [&#x200B; toegang van de Verlening tot  [!DNL Scenario Planner]](../administration-and-setup/add-users/configure-and-grant-access/grant-access-sp.md).
+De volgende lijst maakt een lijst van de toestemmingen die u kunt verlenen wanneer het delen van een plan. Voor meer informatie over de toegangsgebruikers die op hun vergunning worden gebaseerd, zie [ toegang van de Verlening tot  [!DNL Scenario Planner]](../administration-and-setup/add-users/configure-and-grant-access/grant-access-sp.md).
 
 <table border="1" cellspacing="15" cellpadding="1"> 
  <col> 
@@ -195,13 +195,13 @@ De volgende lijst maakt een lijst van de toestemmingen die u kunt verlenen wanne
  </tbody> 
 </table>
 
-*U moet toegang tot Financiële Gegevens hebben om financiële informatie over plannen te kunnen bekijken of beheren, zelfs als u toestemmingen aan plannen beheert. Voor informatie over toegang tot financiële gegevens, zie [&#x200B; Toegang van de Verlening tot financiële gegevens &#x200B;](../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
+*U moet toegang tot Financiële Gegevens hebben om financiële informatie over plannen te kunnen bekijken of beheren, zelfs als u toestemmingen aan plannen beheert. Voor informatie over toegang tot financiële gegevens, zie [ Toegang van de Verlening tot financiële gegevens ](../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
 
 **U moet toegang hebben tot creëren en toestemmingen om projecten te beheren om scenario&#39;s te kunnen publiceren.
 
-Voor informatie over het niveau van de projecttoegang, zie [&#x200B; Toegang van de Verlening tot projecten &#x200B;](../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md).
+Voor informatie over het niveau van de projecttoegang, zie [ Toegang van de Verlening tot projecten ](../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md).
 
-Voor informatie over projecttoestemmingen, zie [&#x200B; een project in  [!DNL Adobe Workfront]](../workfront-basics/grant-and-request-access-to-objects/share-a-project.md) delen.
+Voor informatie over projecttoestemmingen, zie [ een project in  [!DNL Adobe Workfront]](../workfront-basics/grant-and-request-access-to-objects/share-a-project.md) delen.
 
 ## Abonnementen delen
 
@@ -217,7 +217,7 @@ Voor informatie over projecttoestemmingen, zie [&#x200B; een project in  [!DNL A
    >
    >U kunt een plan delen door de avatars van gebruikers te klikken met wie het plan in de hoger-juiste hoek van de plankopbal wordt gedeeld.
 
-1. (Voorwaardelijk) als u een plan opende, klik het **[!UICONTROL More]** pictogram ![&#x200B; Meer pictogram &#x200B;](assets/more-icon.png) rechts van de [!UICONTROL Plan] naam, dan klik **[!UICONTROL Share]**
+1. (Voorwaardelijk) als u een plan opende, klik het **[!UICONTROL More]** pictogram ![ Meer pictogram ](assets/more-icon.png) rechts van de [!UICONTROL Plan] naam, dan klik **[!UICONTROL Share]**
 
    of
 
