@@ -7,9 +7,9 @@ description: Als u meerdere velden in Adobe Workfront wilt samenvoegen en die ge
 author: Jenny
 feature: Reports and Dashboards
 exl-id: 17ac554d-0c90-4592-946e-a89f1784571d
-source-git-commit: 4897f165a7316a52b968601b45f95f7045f63840
+source-git-commit: ce986a912c2ee231b9dc2e1c7a3e9587b20aa0ba
 workflow-type: tm+mt
-source-wordcount: '834'
+source-wordcount: '844'
 ht-degree: 0%
 
 ---
@@ -19,12 +19,12 @@ ht-degree: 0%
 Als u meerdere velden in Adobe Workfront wilt samenvoegen en die geaggregeerde waarde wilt weergeven in een nieuw veld, kunt u het volgende maken:
 
 * Een berekend aangepast veld in een aangepast formulier\
-  Voor meer informatie over het toevoegen van een berekend douanegebied aan een douanevorm, zie [&#x200B; berekende gebieden aan een vorm &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) toevoegen.
+  Voor meer informatie over het toevoegen van een berekend douanegebied aan een douanevorm, zie [ berekende gebieden aan een vorm ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) toevoegen.
 
 * Een berekende kolom in een weergave\
-  Voor meer informatie over het gebruiken van berekeningen in een mening, zie de sectie [&#x200B; Wijze van de Tekst van het Gebruik in meningen &#x200B;](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md#use-text-mode-in-views) in het artikel [&#x200B; Overzicht van gemeenschappelijk gebruik voor de Wijze van de Tekst &#x200B;](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md).
+  Voor meer informatie over het gebruiken van berekeningen in een mening, zie de sectie [ Wijze van de Tekst van het Gebruik in meningen ](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md#use-text-mode-in-views) in het artikel [ Overzicht van gemeenschappelijk gebruik voor de Wijze van de Tekst ](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md).
 
-Hoewel u de tekstmodus gebruikt om zowel berekende velden als berekende kolommen samen te stellen, verschilt de syntaxis voor het samenstellen van deze velden. Raadpleeg de bovenstaande artikelen voor meer informatie over het bouwen van berekende velden en berekende kolommen. Voor informatie over de verschillende syntaxis die in berekende gegevensuitdrukkingen zoals berekende douanegebieden en kolommen wordt gebruikt, zie de sectie [&#x200B; Syntaxis van berekende douanegebieden vs. berekende douanekolommen &#x200B;](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-fields-calculated-columns.md#syntax-of-calculated-custom-fields-vs-calculated-custom-columns) in dit artikel.
+Hoewel u de tekstmodus gebruikt om zowel berekende velden als berekende kolommen samen te stellen, verschilt de syntaxis voor het samenstellen van deze velden. Raadpleeg de bovenstaande artikelen voor meer informatie over het bouwen van berekende velden en berekende kolommen. Voor informatie over de verschillende syntaxis die in berekende gegevensuitdrukkingen zoals berekende douanegebieden en kolommen wordt gebruikt, zie de sectie [ Syntaxis van berekende douanegebieden vs. berekende douanekolommen ](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-fields-calculated-columns.md#syntax-of-calculated-custom-fields-vs-calculated-custom-columns) in dit artikel.
 
 U kunt dezelfde berekeningen gebruiken in beide berekende velden en in een berekende kolom. Afhankelijk van wat uw doel is voor deze berekeningen, kunt u echter overwegen om een voor een te bouwen.
 
@@ -75,7 +75,7 @@ De verschillen tussen de twee syntaxis zijn als volgt:
  </tbody> 
 </table>
 
-Voor meer informatie over de syntaxis moet u in een berekende douanekolom gebruiken, zie [&#x200B; Overzicht van de Wijze van de Tekst &#x200B;](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
+Voor meer informatie over de syntaxis moet u in een berekende douanekolom gebruiken, zie [ Overzicht van de Wijze van de Tekst ](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
 
 ## Wanneer moeten berekende aangepaste velden worden gebruikt
 
@@ -85,11 +85,13 @@ Voor meer informatie over de syntaxis moet u in een berekende douanekolom gebrui
 
 ## Handelingen die de update van een berekend aangepast veld activeren
 
-* Op de belangrijkste pagina van een voorwerp, klikkend het Meer pictogram ![&#x200B; Meer pictogram &#x200B;](assets/more-icon.png), dan klikkend **Uitdrukkingen** opnieuw berekenen
+* Op de belangrijkste pagina van een voorwerp, klikkend het Meer pictogram ![ Meer pictogram ](assets/more-icon.png), dan klikkend **Uitdrukkingen** opnieuw berekenen
 
 * Onduidelijk het uitgeven veelvoudige voorwerpen wanneer **de Uitdrukkingen van de Douane** wordt toegelaten opnieuw berekenen.
 * Bulk die veelvoudige voorwerpen uitgeeft wanneer het klikken **Uitdrukkingen** van het Meer menu in een lijst van voorwerpen opnieuw berekent.
 * Het uitgeven van een douanevorm wanneer **vorige berekeningen van de Update** voor het berekende douanegebied wordt toegelaten.
+
+Voor meer informatie, zie [ informatie op de gebieden van de douanevorm ](/help/quicksilver/workfront-basics/work-with-custom-forms/edit-custom-forms.md) uitgeven.
 
 ## Wanneer moeten berekende kolommen in een weergave worden gebruikt
 
@@ -107,9 +109,9 @@ Voor meer informatie over de syntaxis moet u in een berekende douanekolom gebrui
 
 ## Voorbeelden van berekende aangepaste velden en kolommen
 
-Voor voorbeelden van berekende douanegebieden, zie [&#x200B; Berekende douanegegevens in rapporten &#x200B;](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-data-reports.md).
+Voor voorbeelden van berekende douanegebieden, zie [ Berekende douanegegevens in rapporten ](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-data-reports.md).
 
 Raadpleeg de volgende artikelen voor voorbeelden van berekende aangepaste kolommen in weergaven:
 
-* [&#x200B; Overzicht van gemeenschappelijk gebruik voor de Wijze van de Tekst &#x200B;](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md)
+* [ Overzicht van gemeenschappelijk gebruik voor de Wijze van de Tekst ](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md)
 * [Voorbeelden van aangepaste weergaven, filters en groepen: artikelindex](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
