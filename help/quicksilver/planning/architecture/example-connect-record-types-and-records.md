@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 38509572-72a4-4fce-b3ec-2cb31bb4669a
-source-git-commit: 609396b2eb6413c8f6e84361757f00c2cc5e3ad6
+source-git-commit: 1f9a0e6064f83c6f0947e3c7ef596e96c934a687
 workflow-type: tm+mt
-source-wordcount: '2047'
+source-wordcount: '2050'
 ht-degree: 0%
 
 ---
@@ -53,7 +53,7 @@ Dit doet u als volgt:
 
      >[!NOTE]
      >
-     >Het **type van Verbinding** optie is niet beschikbaar wanneer het verbinden van verslagen van verschillende werkruimten of wanneer het verbinden van de activa van Experience Manager. Voor meer informatie, zie [&#x200B; Verbonden overzicht van recordtypes &#x200B;](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
+     >Het **type van Verbinding** optie is niet beschikbaar wanneer het verbinden van verslagen van verschillende werkruimten of wanneer het verbinden van de activa van Experience Manager of GenStudio. Voor meer informatie, zie [ Verbonden overzicht van recordtypes ](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
 
    * **verschijning van het Verslag**: Kies van de volgende opties:
       * **Naam en beeld**: Toont de naam en de duimnagel of het pictogram van de verbonden verslagen. Dit is standaard geselecteerd.
@@ -61,11 +61,11 @@ Dit doet u als volgt:
       * **Beeld**: Toont slechts de duimnagel of het pictogram van de verbonden verslagen.
    * **Uitgezochte raadplegingsgebieden**: Als u deze geselecteerde optie verlaat, **voegt raadplegingsgebieden** volgende doos toe, om u toe te staan om de gebieden van het Product met het verslagtype van de Campagne te verbinden. U kunt **Skip** klikken om deze stap over te slaan en de gebieden van het Product later toe te voegen.
 
-     ![&#x200B; Nieuwe verbinding met het type van productverslag &#x200B;](assets/new-connection-with-product-record-type.png)
+     ![ Nieuwe verbinding met het type van productverslag ](assets/new-connection-with-product-record-type.png)
 
-1. (Voorwaardelijk) als u de **Uitgezochte raadplegingsgebieden optie** in de vorige stap selecteerde, van de lijst van gebieden verbonden aan het **het verslagtype van het Product**, klik het **+** pictogram voor het **7&rbrace; gebied van de Begroting &lbrace;, dan klik** voegt gebieden **toe.** Dit leidt tot een gebied genoemd **Begroting (van de informatie van het Product)**, die de naam van het verbonden gebied is. Alle informatie voor het productbudget wordt in dit veld weergegeven voor de campagnebestanden.
+1. (Voorwaardelijk) als u de **Uitgezochte raadplegingsgebieden optie** in de vorige stap selecteerde, van de lijst van gebieden verbonden aan het **het verslagtype van het Product**, klik het **+** pictogram voor het **7} gebied van de Begroting {, dan klik** voegt gebieden **toe.** Dit leidt tot een gebied genoemd **Begroting (van de informatie van het Product)**, die de naam van het verbonden gebied is. Alle informatie voor het productbudget wordt in dit veld weergegeven voor de campagnebestanden.
 
-   ![&#x200B; voegt gebieden voor begrotingsgebied voor verbinding met verslagtype &#x200B;](assets/add-fields-for-budget-field-for-connector-with-record-type.png) toe
+   ![ voegt gebieden voor begrotingsgebied voor verbinding met verslagtype ](assets/add-fields-for-budget-field-for-connector-with-record-type.png) toe
 
    >[!TIP]
    >
@@ -84,17 +84,17 @@ Dit doet u als volgt:
 
       * **Campagne**: Dit wijst erop dat het het verslagtype van het Product van het verslagtype van de Campagne wordt verbonden.
 
-     ![&#x200B; de gebieden van de campagneinformatie van het Voorbeeld van de lijst van het productverslag &#x200B;](assets/example-campaign-information-relationship-fields-from-product-record-table.png)
+     ![ de gebieden van de campagneinformatie van het Voorbeeld van de lijst van het productverslag ](assets/example-campaign-information-relationship-fields-from-product-record-table.png)
 
    >[!TIP]
    >
-   >    De verbonden verslaggebieden worden voorafgegaan door het het gebiedspictogram van de verhouding ![&#x200B; &#x200B;](assets/relationship-field-icon.png).
+   >    De verbonden verslaggebieden worden voorafgegaan door het het gebiedspictogram van de verhouding ![ ](assets/relationship-field-icon.png).
 
-1. Van de **1&rbrace; het verslagtype van de Campagne &lbrace;lijstmening, creeer een campagne door een nieuwe rij in de lijst van het het verslagtype van de Campagne te toevoegen pagina.**
+1. Van de **1} het verslagtype van de Campagne {lijstmening, creeer een campagne door een nieuwe rij in de lijst van het het verslagtype van de Campagne te toevoegen pagina.**
 
 1. Dubbelklik binnen de **informatie van het Product** kolom van de nieuwe campagne.
 
-   ![&#x200B; verbind andere verslagen kleinere doos in lijstmening &#x200B;](assets/connect-other-records-smaller-box-in-table-view.png)
+   ![ verbind andere verslagen kleinere doos in lijstmening ](assets/connect-other-records-smaller-box-in-table-view.png)
 
 1. Voer een van de volgende handelingen uit:
 
@@ -104,7 +104,7 @@ Dit doet u als volgt:
 
 1. (Voorwaardelijk) als u **klikte zie allen** in de vorige stap, **verbind voorwerpen** vakvertoningen.
 
-   ![&#x200B; Verbonden objecten lijst voor verslagen &#x200B;](assets/connected-objects-table-for-records.png)
+   ![ Verbonden objecten lijst voor verslagen ](assets/connected-objects-table-for-records.png)
 
 1. Typ de naam van een product in het zoekvak en selecteer het product wanneer het in de lijst wordt weergegeven
 
@@ -120,13 +120,13 @@ Dit doet u als volgt:
    * Het **informatie van het Product** gebied bevolkt voor het verslag van de Campagne met de geselecteerde Producten.
    * **het Begroting (van de Informatie van het Product)** gebied bevolkt met de waarde van de Begroting voor elk geselecteerd Product, of met een totaal van alle begrotingen van de geselecteerde producten (als u SUM voor uw aggregator selecteerde).
 
-   ![&#x200B; Voorbeeld van productinformatie en de gebieden van de begrotingsverhouding voor de lijst van het campagneverslag &#x200B;](assets/example-product-information-and-budget-relationship-fields-for-campaign-record-table.png)
+   ![ Voorbeeld van productinformatie en de gebieden van de begrotingsverhouding voor de lijst van het campagneverslag ](assets/example-product-information-and-budget-relationship-fields-for-campaign-record-table.png)
 
    >[!TIP]
    >
    >Wanneer u geen aggregator selecteert voor de meerdere waarden, worden alle waarden van de geselecteerde producten weergegeven, gescheiden door komma&#39;s.
 
-1. Om het **1&rbrace; gebied van de Campagne &lbrace;van de** de lijstmening van het Product **te bevolken, herhaal stappen 5-7 die van de het verslagtype van het Product lijstmening beginnen en campagneinformatie selecteren.** Hiermee werkt u ook het veld Productinformatie in de tabel met recordtypen voor campagne bij. <!--ensure the step numbers remain correct-->
+1. Om het **1} gebied van de Campagne {van de** de lijstmening van het Product **te bevolken, herhaal stappen 5-7 die van de het verslagtype van het Product lijstmening beginnen en campagneinformatie selecteren.** Hiermee werkt u ook het veld Productinformatie in de tabel met recordtypen voor campagne bij. <!--ensure the step numbers remain correct-->
 
 
 ## Een Workfront-planningrecordtype verbinden met een Workfront-projectobjecttype en een record verbinden met afzonderlijke projecten
@@ -159,17 +159,17 @@ Dit doet u als volgt:
    * **verbind slechts voorwerpen die deze criteria** aanpassen: Selecteer een douanevorm van het **Vorm van de Douane** drop-down menu. Alleen projecten die aan de opgegeven formulieren zijn gekoppeld, zijn beschikbaar voor verbinding met campagnes. U kunt meerdere formulieren selecteren.
    * **Uitgezochte raadplegingsgebieden**: Als u deze geselecteerde optie verlaat, **voegt raadplegingsgebieden** volgende doos toe, om u toe te staan om de gebieden van het Project met het verslagtype van de Campagne te verbinden. U kunt **Skip** klikken om deze stap over te slaan en de gebieden van het Project later toe te voegen.
 
-   ![&#x200B; Nieuw verbindingslusje met de optie van Workfront &#x200B;](assets/new-connection-tab-with-workfront-option.png)
+   ![ Nieuw verbindingslusje met de optie van Workfront ](assets/new-connection-tab-with-workfront-option.png)
 
 1. (Voorwaardelijk) als u de **Uitgezochte optie van raadplegingsgebieden** in de vorige stap selecteerde, van de lijst van gebieden verbonden aan het **voorwerp van het Project** type, klik het **+** pictogram voor het **Geplande gebied van de Inkomsten**, dan klik **voegt gebieden** toe. Dit leidt tot een gebied genoemd **Geplande Inkomsten (van de informatie van het Project)**, die de naam van het verbonden gebied is. Alle informatie uit het veld Geplande inkomsten van project wordt automatisch in dit veld weergegeven voor de campagnebestanden.
 
    >[!TIP]
    >
-   >    Als u de Geplande Opbrengst van alle geselecteerde projecten als één totaal aantal wilt bekijken, uitgezochte **SUM** in het drop-down menu rechts van de gebiedsnaam. Wanneer de gebruikers veelvoudige projecten op het **verbonden objecten van het 0&rbrace; Project &lbrace;selecteren, voegt het** Geplande Inkomsten (van de informatie van het Product) **gebied al hun waarden samen toe en toont het totaal.**<!-- check the shot below - added a bug with a couple of UI changes here-->
+   >    Als u de Geplande Opbrengst van alle geselecteerde projecten als één totaal aantal wilt bekijken, uitgezochte **SUM** in het drop-down menu rechts van de gebiedsnaam. Wanneer de gebruikers veelvoudige projecten op het **verbonden objecten van het 0} Project {selecteren, voegt het** Geplande Inkomsten (van de informatie van het Product) **gebied al hun waarden samen toe en toont het totaal.**<!-- check the shot below - added a bug with a couple of UI changes here-->
    >
    > Als u **niets** selecteert, in plaats van **SUM**, de individuele Geplande vertoning van Inkomsten die door komma&#39;s wordt gescheiden.
 
-   ![&#x200B; voeg Geplande het projectgebied van Inkomsten aan nieuwe verbinding toe &#x200B;](assets/add-planned-revenue-project-field-to-new-connection.png)
+   ![ voeg Geplande het projectgebied van Inkomsten aan nieuwe verbinding toe ](assets/add-planned-revenue-project-field-to-new-connection.png)
 
    Hiermee worden de volgende velden gegenereerd:
 
@@ -180,13 +180,13 @@ Dit doet u als volgt:
 
    >[!TIP]
    >
-   >    De verbonden objecten gebieden worden voorafgegaan door het het gebiedspictogram van de verhouding ![&#x200B; &#x200B;](assets/relationship-field-icon.png).
+   >    De verbonden objecten gebieden worden voorafgegaan door het het gebiedspictogram van de verhouding ![ ](assets/relationship-field-icon.png).
 
-1. Van de **1&rbrace; het verslagtype van de Campagne &lbrace;lijstmening, creeer een campagne door een nieuwe rij in de lijst toe te voegen.**
+1. Van de **1} het verslagtype van de Campagne {lijstmening, creeer een campagne door een nieuwe rij in de lijst toe te voegen.**
 
 1. Dubbelklik in de kolom Projectinformatie** van de nieuwe campagne.
 
-   ![&#x200B; verbind projecten kleinere doos in lijst &#x200B;](assets/connect-projects-smaller-box-in-table.png)
+   ![ verbind projecten kleinere doos in lijst ](assets/connect-projects-smaller-box-in-table.png)
 
 1. Voer een van de volgende handelingen uit:
 
@@ -196,7 +196,7 @@ Dit doet u als volgt:
 
 1. (Voorwaardelijk) als u **klikte zie allen** in de vorige stap, **verbind voorwerpen** vakvertoningen.
 
-   ![&#x200B; verbind projecten grotere doos &#x200B;](assets/connect-projects-larger-box.png)
+   ![ verbind projecten grotere doos ](assets/connect-projects-larger-box.png)
 
 1. Typ de naam van een project in het zoekvak en selecteer het vervolgens wanneer het in de lijst wordt weergegeven
 
@@ -214,7 +214,7 @@ Dit doet u als volgt:
       * Het **informatie van het Project** gebied bevolkt voor het verslag van de Campagne met de geselecteerde projecten.
       * Het **Geplande Inkomsten (van de Informatie van het Product)** gebied bevolkt met de waarde van de Begroting voor elk geselecteerd Product. Dit is een alleen-lezen veld.
 
-   ![&#x200B; Project verbonden gebied en Geplande die Inkomsten in benadrukte campagnematabel &#x200B;](assets/project-linked-field-and-planned-revenue-in-campaign-table-highlighted.png)
+   ![ Project verbonden gebied en Geplande die Inkomsten in benadrukte campagnematabel ](assets/project-linked-field-and-planned-revenue-in-campaign-table-highlighted.png)
 
    >[!TIP]
    >

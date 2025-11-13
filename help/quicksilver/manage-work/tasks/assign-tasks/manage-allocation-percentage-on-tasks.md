@@ -6,9 +6,9 @@ description: Het percentage van de toewijzing vertegenwoordigt de hoeveelheid ti
 author: Lisa
 feature: Work Management
 exl-id: 82238dff-b95e-42e4-8e72-6247934b504d
-source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
+source-git-commit: 1f9a0e6064f83c6f0947e3c7ef596e96c934a687
 workflow-type: tm+mt
-source-wordcount: '509'
+source-wordcount: '457'
 ht-degree: 0%
 
 ---
@@ -17,13 +17,13 @@ ht-degree: 0%
 
 <!--remove new/old experience references when they remove the New/ Old experience toggle from the Edit Tasks box-->
 
-<div class="preview">
+<!--<div class="preview"> 
 
-De gemarkeerde informatie op deze pagina verwijst naar functionaliteit die nog niet algemeen beschikbaar is. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Dezelfde functies zijn ook beschikbaar in de productieomgeving voor alle klanten vanaf een week na de release Preview.
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
 
-Voor meer informatie, zie [&#x200B; modernisering van de Interface &#x200B;](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
 
-</div>
+</div> -->
 
 
 Het percentage van de toewijzing vertegenwoordigt de hoeveelheid tijd een toegewezen middel wordt gepland om aan een taak in een dag te werken. Het is het percentage van een het werkdag (volgens het gebruikers of projectprogramma) waarbij een middel door de duur van de taak wordt toegewezen.
@@ -32,7 +32,7 @@ U kunt het toewijzingspercentage wijzigen wanneer u geavanceerde toewijzingen vo
 
 >[!NOTE]
 >
->Wanneer gebruikers aan het werk worden toegewezen, heeft hun beschikbaarheid volgens hun programma&#39;s invloed op de geplande en verwachte datum van taken en problemen. Voor informatie over programma&#39;s, zie [&#x200B; een programma &#x200B;](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md) creëren.
+>Wanneer gebruikers aan het werk worden toegewezen, heeft hun beschikbaarheid volgens hun programma&#39;s invloed op de geplande en verwachte datum van taken en problemen. Voor informatie over programma&#39;s, zie [ een programma ](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md) creëren.
 
 ## Toegangsvereisten
 
@@ -59,12 +59,12 @@ U kunt het toewijzingspercentage wijzigen wanneer u geavanceerde toewijzingen vo
   <tr> 
    <td>Objectmachtigingen</td>
    <td><p>Contribute of hoger machtigingen voor de taak</p>
-   <p>Bewerk machtigingen om het toewijzingspercentage bij te werken in het vak Taak bewerken wanneer <span class="preview"> taken bewerkt met de oude ervaring. U kunt toewijzingspercentage in het Edit taakvakje niet meer beheren wanneer het uitgeven van taken in de nieuwe ervaring.</span></p> <p>Voor informatie, zie <a href="/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md"> taken </a> uitgeven.</p></td>
+   <p>Bewerk machtigingen om het toewijzingspercentage in het vak Taak bewerken bij te werken wanneer u taken bewerkt met de oude ervaring. U kunt het toewijzingspercentage niet meer beheren in het taakvak Bewerken wanneer u taken bewerkt in de nieuwe ervaring.</p> <p>Voor informatie, zie <a href="/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md"> taken </a> uitgeven.</p></td>
   </tr>
  </tbody>
 </table>
 
-Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -79,7 +79,7 @@ Take this piece out of the table above when we remove the new experience/ after 
 * De gebruikers worden toegewezen een gelijk percentage van tijd aan taken zij worden toegewezen, door gebrek.
 * U kunt het toewijzingspercentage voor gebruikers en baanrollen manueel wijzigen die aan taken slechts worden toegewezen wanneer het Type van Duur van de taak Berekend Werk of Gedreven Inspanning is.
 
-  Voor informatie, zie [&#x200B; Overzicht van het Type van Duur en van de Duur van de Taak &#x200B;](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
+  Voor informatie, zie [ Overzicht van het Type van Duur en van de Duur van de Taak ](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
 
 * U kunt niet de percententoewijzing voor teams wijzigen die aan taken worden toegewezen.
 * U kunt niet de percentaletoewijzing voor gebruikers en baanrollen wijzigen die aan kwesties worden toegewezen.
@@ -105,6 +105,6 @@ Take this piece out of the table above when we remove the new experience/ after 
 
    U kunt niet het toewijzingspercentage voor een team wijzigen dat aan een taak wordt toegewezen.
 
-   ![&#x200B; wijzigen toewijzingspercentage &#x200B;](assets/advanced-assignments-allocation-percentage.png)
+   ![ wijzigen toewijzingspercentage ](assets/advanced-assignments-allocation-percentage.png)
 
 1. Klik **sparen**.

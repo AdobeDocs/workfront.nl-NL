@@ -7,9 +7,9 @@ author: Lisa
 feature: Work Management, Tasks, Resource Management
 role: User
 exl-id: 04f7761f-da94-4858-85c5-8dc97bd78bee
-source-git-commit: 798e9ee9862b34653730c07acc9c48b901b98e63
+source-git-commit: 1f9a0e6064f83c6f0947e3c7ef596e96c934a687
 workflow-type: tm+mt
-source-wordcount: '1110'
+source-wordcount: '1047'
 ht-degree: 0%
 
 ---
@@ -18,25 +18,27 @@ ht-degree: 0%
 
 <!--Audited: 11/2025-->
 
+<!--remove the old/new experience references when the toggles are removed-->
+
 <!--
 this article is similar and updates on this one might need to be repeated here: help/quicksilver/manage-work/issues/manage-issues/edit-assignments-for-multiple-issues.md</p>
 -->
 
-<div class="preview">
+<!--<div class="preview"> 
 
-De gemarkeerde informatie op deze pagina verwijst naar functionaliteit die nog niet algemeen beschikbaar is. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Dezelfde functies zijn ook beschikbaar in de productieomgeving voor alle klanten vanaf een week na de release Preview.
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with a week from the Preview release.      
 
-Voor meer informatie, zie [&#x200B; modernisering van de Interface &#x200B;](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
 
-</div>
+</div>-->
 
 Wanneer het beheren van taaktaken, kunt u hen voor veelvoudige taken tegelijkertijd wijzigen door de bulkbewerkingseigenschap in een lijst van taken te gebruiken.
 
 In dit artikel wordt verwezen naar het wijzigen van meerdere gebruikerstoewijzingen voor meerdere taken in een takenlijst. Zie ook de volgende artikelen voor het wijzigen van toewijzingen voor meerdere taken op andere gebieden:
 
-* Voor informatie over het toewijzen van taken die de Balancer van de Werklast gebruiken, zie [&#x200B; Overzicht van het toewijzen van het werk in de Balancer van de Werkbelasting &#x200B;](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
+* Voor informatie over het toewijzen van taken die de Balancer van de Werklast gebruiken, zie [ Overzicht van het toewijzen van het werk in de Balancer van de Werkbelasting ](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
 
-Voor informatie over het toewijzen van een taak aan één middel in een lijst, zie [&#x200B; taken toewijzen &#x200B;](../../../manage-work/tasks/assign-tasks/assign-tasks.md).
+Voor informatie over het toewijzen van een taak aan één middel in een lijst, zie [ taken toewijzen ](../../../manage-work/tasks/assign-tasks/assign-tasks.md).
 
 ## Toegangsvereisten
 
@@ -67,7 +69,7 @@ Voor informatie over het toewijzen van een taak aan één middel in een lijst, z
  </tbody>
 </table>
 
-Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -106,7 +108,7 @@ When assigning users to work, their availability according to their schedules af
 
    Bijvoorbeeld, als uw project een specifieke rol als standaardontvanger voor veelvoudige taken bevat, kunt u een filter tot stand brengen om slechts taken met die rol als toegewezen te tonen. Vervolgens kunt u de rol vervangen door een specifieke gebruiker.
 
-   Voor informatie over het creëren van een filter, zie [&#x200B; filters &#x200B;](../../../reports-and-dashboards/reports/reporting-elements/create-filters.md) creëren of uitgeven.
+   Voor informatie over het creëren van een filter, zie [ filters ](../../../reports-and-dashboards/reports/reporting-elements/create-filters.md) creëren of uitgeven.
 
 
 1. Om op een rol te filtreren, uitgezochte **Rollen van de Taak**, dan klik **identiteitskaart**.
@@ -125,25 +127,22 @@ When assigning users to work, their availability according to their schedules af
 
 1. Selecteer de taken waarvoor u taken wilt wijzigen, dan klik **uitgeven** pictogram ![](assets/edit-icon.png).
 
-   **geeft de doos van Taken** uit opent <span class="preview"> in de nieuwe ervaring. Voer een van de volgende handelingen uit:</span>
-
-   <div class="preview">
+   Het **geeft de doos van Taken** uit opent in de nieuwe ervaring. Voer een van de volgende handelingen uit:
 
    * Om toegewezen toe te voegen, begin het typen van de naam van een toegewezen op het **mensen van het Onderzoek, de rollen, of het gebied van teams**, dan selecteren hen wanneer zij in de lijst tonen.
    * Om toegewezen te verwijderen, klik het **x** pictogram rechts van hun naam. Alleen toewijzingen die worden gedeeld door alle taken die worden weergegeven in de lijst.
    * Klik op Toewijzen aan mij om de geselecteerde taken aan uzelf toe te wijzen.
 
-   </div>
+1. (Voorwaardelijk) wanneer het gebruiken van de nieuwe ervaring, klik **sparen**.
 
-1. <span class="preview"> (Voorwaardelijk) wanneer het gebruiken van de nieuwe ervaring, klik **sparen**.</span>
+1. (Facultatief) klik **Schakelaar aan oude ervaring** bij de bodem van **uitgeven de doos van Taken**.
 
-1. <span class="preview"> (Facultatief) klik **Schakelaar aan oude ervaring** bij de bodem van **uitgeven de doos van Taken**.</span>
+   Het **geeft de doos van Taken** uit opent in de oude ervaring.
 
-   <span class="preview"> **geeft de doos van Taken uit** opent in de oude ervaring.</span>
-
+   <!--
    >[!TIP]
    >
-   >De oude ervaring is standaard beschikbaar in de productieomgeving.
+   >The old experience is available by default in the Production environment.-->
 
 1. (Voorwaardelijk) Voer in de oude ervaring de volgende handelingen uit om de toewijzingen te wijzigen:
 
@@ -151,7 +150,7 @@ When assigning users to work, their availability according to their schedules af
 
       >[!IMPORTANT]
       >
-      >Het verwijderen van toewijzingen kan van invloed zijn op de taakuren en toewijzingspercentages. Voor meer informatie, zie de sectie [&#x200B; hoe het verwijderen van toegewezen taakuren en toewijzingspercentages &#x200B;](#how-removing-assignees-affects-task-hours-and-allocation-percentages) in dit artikel beïnvloedt.
+      >Het verwijderen van toewijzingen kan van invloed zijn op de taakuren en toewijzingspercentages. Voor meer informatie, zie de sectie [ hoe het verwijderen van toegewezen taakuren en toewijzingspercentages ](#how-removing-assignees-affects-task-hours-and-allocation-percentages) in dit artikel beïnvloedt.
 
    1. Voer een van de volgende handelingen uit om toewijzingen toe te voegen of te verwijderen:
 
@@ -168,7 +167,7 @@ When assigning users to work, their availability according to their schedules af
         >
         > * U kunt meerdere gebruikers, taakrollen of teams toewijzen. U kunt alleen actieve gebruikers, taakrollen en teams toewijzen.
         >   
-        > * Wanneer u een gebruikerstoewijzing toevoegt, ziet u de avatar, de primaire rol van de gebruiker of hun e-mailadres om onderscheid te maken tussen gebruikers met identieke namen. Gebruikers moeten aan ten minste één taakrol zijn gekoppeld om deze te kunnen bekijken terwijl u ze toevoegt. De instelling Contactinfo weergeven moet zijn ingeschakeld op uw toegangsniveau zodat gebruikers de e-mails van gebruikers kunnen bekijken. Voor informatie, zie [&#x200B; toegang van de Verlening tot gebruikers &#x200B;](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
+        > * Wanneer u een gebruikerstoewijzing toevoegt, ziet u de avatar, de primaire rol van de gebruiker of hun e-mailadres om onderscheid te maken tussen gebruikers met identieke namen. Gebruikers moeten aan ten minste één taakrol zijn gekoppeld om deze te kunnen bekijken terwijl u ze toevoegt. De instelling Contactinfo weergeven moet zijn ingeschakeld op uw toegangsniveau zodat gebruikers de e-mails van gebruikers kunnen bekijken. Voor informatie, zie [ toegang van de Verlening tot gebruikers ](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
         > 
         >   Als een gebruiker, een baanrol, of een team werd toegewezen alvorens zij werden gedeactiveerd, blijven zij toegewezen aan het het werkpunt. In dit geval raden we het volgende aan:
         >   
@@ -192,7 +191,7 @@ When assigning users to work, their availability according to their schedules af
 
         Het verwijderen van gebruikers uit taken kan taakuren en toewijzingspercentages beïnvloeden.
 
-        Voor meer informatie, zie [&#x200B; Overzicht van het wijzigen van taaktaken &#x200B;](../../../manage-work/tasks/assign-tasks/modify-task-assignments-overview.md).
+        Voor meer informatie, zie [ Overzicht van het wijzigen van taaktaken ](../../../manage-work/tasks/assign-tasks/modify-task-assignments-overview.md).
 
    1. (Optioneel) Wijzig een of meer van de volgende opties voor toewijzingen:
 
@@ -200,7 +199,7 @@ When assigning users to work, their availability according to their schedules af
 
       >[!NOTE]
       >
-      >Deze optie kan slechts worden gewijzigd als het Type van Duur het zelfde over alle taken is die worden uitgegeven. Wanneer het Type van Duur het Getoonde Werk of de Bediende van de inspanning wordt berekend kunt u de Toewijzing % bijwerken. Wanneer het Type van Duur Eenvoudig is kunt u de Uren bijwerken. Voor informatie over het Type van Duur, zie [&#x200B; Overzicht van het Type van Duur en van de Duur van de Taak &#x200B;](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
+      >Deze optie kan slechts worden gewijzigd als het Type van Duur het zelfde over alle taken is die worden uitgegeven. Wanneer het Type van Duur het Getoonde Werk of de Bediende van de inspanning wordt berekend kunt u de Toewijzing % bijwerken. Wanneer het Type van Duur Eenvoudig is kunt u de Uren bijwerken. Voor informatie over het Type van Duur, zie [ Overzicht van het Type van Duur en van de Duur van de Taak ](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
       >
       >
       >Als het veld leeg is, betekent dit dat de waarde voor alle taken anders is. U kunt de waarde echter wel wijzigen.
