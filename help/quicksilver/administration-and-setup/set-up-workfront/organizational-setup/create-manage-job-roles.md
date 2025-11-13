@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 664fb2fe-ff7e-4807-9a43-b37e7d5d57eb
-source-git-commit: e5416fab4f4ad1f2c31edf962554ddd6a4c2f1e5
+source-git-commit: a30e505aa2061240f92642fda274be66e4947bce
 workflow-type: tm+mt
-source-wordcount: '1153'
+source-wordcount: '852'
 ht-degree: 0%
 
 ---
@@ -23,9 +23,13 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Met versie 25.11, zal de Valuta van de Opheffing voor baanrollen in Productie worden verouderd. (De veroudering vindt plaats op 30 oktober in de voorvertoningsomgeving.) In plaats van een basisvaluta en overschrijvingsvaluta, zal er één valuta beschikbaar zijn voor functies, en de kosten en factureringstarieven zullen worden bepaald met behulp van die valuta.
+>Met de versie 25.11 is de valuta van de Overschrijving voor baanrollen afgekeurd in Productie. (De veroudering vond plaats op 30 oktober in de voorvertoningsomgeving.) In plaats van een basisvaluta te hebben en valuta&#39;s te overschrijven, is er nu één valuta beschikbaar voor functies, en de kosten en factureringstarieven worden bepaald met behulp van die valuta.
 
-Als [!DNL Adobe Workfront] beheerder of een gebruiker met administratieve toegang tot de Rollen van de Baan, kunt u baanrollen tot stand brengen die aan gebruikers kunnen worden toegewezen en standaardbaanrollen schrappen die niet relevant voor uw organisatie zijn. Voor informatie over administratieve toegang in [!DNL Workfront], zie [&#x200B; gebruikers administratieve toegang van de Verlening tot bepaalde gebieden &#x200B;](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
+Als [!DNL Adobe Workfront] beheerder of een gebruiker met administratieve toegang tot de Rollen van de Baan, kunt u baanrollen tot stand brengen die aan gebruikers kunnen worden toegewezen en standaardbaanrollen schrappen die niet relevant voor uw organisatie zijn. Voor informatie over administratieve toegang in [!DNL Workfront], zie [ gebruikers administratieve toegang van de Verlening tot bepaalde gebieden ](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
+
+>[!TIP]
+>
+>De rollen van de baan zijn een integraal deel van het beheren van middelen. Om de middelen planningshulpmiddelen te gebruiken, hebben de baanrollen een kosten en het facturerings tarief verbonden aan hen nodig. Voor informatie, zie [ begonnen worden met het Beheer van het Middel ](../../../resource-mgmt/resource-mgmt-overview/get-started-resource-management.md).
 
 ## Toegangsvereisten
 
@@ -51,7 +55,7 @@ Als [!DNL Adobe Workfront] beheerder of een gebruiker met administratieve toegan
  </tbody> 
 </table>
 
-Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -74,67 +78,66 @@ Een taakrol maken:
    * **Beschrijving**: Ga een beschrijving voor de rol in die erop wijst wat over het uniek is.
    * **is Actief**: Selecteer **ja** als u de rol actief en beschikbaar overal in Workfront wilt zijn om met gebruikers, het werkpunten, enz. worden geassocieerd. Selecteer **Nr** als u de rol wilt worden gedeactiveerd en niet beschikbaar aan gebruikers, het werkpunten, enz. toewijzen.
 
-     Voor informatie over het deactiveren van baanrollen, zie [&#x200B; werkrollen &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/deactivate-job-roles.md) deactiveren.
+     Voor informatie over het deactiveren van baanrollen, zie [ werkrollen ](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/deactivate-job-roles.md) deactiveren.
 
-   * **de Valuta van de Basis**: Dit is de Valuta van de Basis, zoals die in het gebied van de Opstelling door uw beheerder van Workfront wordt geplaatst. Voor informatie, zie [&#x200B; de wisselkoersen van de Opstelling &#x200B;](/help/quicksilver/administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md).
+   * **Valuta**: De Valuta van de Basis wordt getoond door gebrek. De beheerder van Workfront voegt de Valuta van de Basis in het gebied van de Opstelling toe. U kunt de selectie wijzigen in een andere beschikbare valuta en u kunt de valuta wijzigen voor effectieve gedateerde tijdbereiken.
 
      >[!TIP]
      >
-     >U kunt de basisvaluta niet op het taakrolniveau bewerken. Dit veld is grijs en dient als herinnering voor wat de basisvaluta voor uw systeem is.
+     >Alleen valuta&#39;s die beschikbaar zijn in het gebied Wisselkoersen in uw systeem zijn beschikbaar in dit veld. Als er maar één valuta is ingesteld, is alleen die valuta beschikbaar.
 
-   * **Tarief van Kosten**: Dit is de kosten per uurtarief van de baanrol. Deze waarde berekent de geplande en de werkelijke kosten van taken en kwesties die verband houden met de rol, en uiteindelijk de geplande en werkelijke kosten van de projecten. Voer de koers in met de basisvaluta.
+     Voor informatie over vestiging de Valuta van de Basis in Workfront, zie [ de wisselkoers van de Opstelling ](/help/quicksilver/administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md).
+
+     Voor informatie over het veranderen van de munt van een project, zie [ de projectmunt ](/help/quicksilver/manage-work/projects/project-finances/change-project-currency.md) veranderen.
+
+   * **Tarief van Kosten**: Dit is de kosten per uurtarief van de baanrol. Deze waarde berekent de geplande en de werkelijke kosten van taken en kwesties die verband houden met de rol, en uiteindelijk de geplande en werkelijke kosten van de projecten. Voer de koers in met de geselecteerde valuta.
 
      Voor datum efficiënte kostentarieven, klik **toevoegen Tarief**. Voer de waarde van de kosten/het uur voor de tijdsperiode in en wijs zo nodig een begindatum en einddatum toe. De eerste kostprijs heeft geen begindatum en de laatste kostprijs heeft geen einddatum.
 
      Sommige datums worden automatisch toegevoegd. Als de eerste kostenvoet bijvoorbeeld geen einddatum heeft en u een tweede kostenpercentage toevoegt met een begindatum van 1 mei 2025, wordt een einddatum van 30 april 2025 toegevoegd aan de eerste kostenvoet zodat er geen hiaten bestaan.
 
+     Voor informatie over hoe Workfront kosten berekent, zie [ Kosten van het Spoor ](/help/quicksilver/manage-work/projects/project-finances/track-costs.md).
+
      >[!TIP]
      >
-     >Wanneer het uitgeven van een bestaande baanrol, kunt u **Soort door begindatum** selecteren om de meest recente begindatum bij de bovenkant van de tarieflijst te zien.
+     >Wanneer u een bestaande taakrol bewerkt, kunt u de lijst sorteren om de meest recente begindatum boven aan de lijst met percentages weer te geven.
 
-   * **het Factureren Tarief**: Dit is het factureren per uurtarief van de baanrol. Deze waarde berekent de geplande en werkelijke inkomsten van de taken en kwesties die verband houden met de rol, en uiteindelijk de geplande en werkelijke inkomsten van de projecten. Voer de koers in met de basisvaluta.
+   * **het Factureren Tarief**: Dit is het factureren per uurtarief van de baanrol. Deze waarde berekent de geplande en werkelijke inkomsten van de taken en kwesties die verband houden met de rol, en uiteindelijk de geplande en werkelijke inkomsten van de projecten. Voer de koers in met de geselecteerde valuta.
 
      Voor datum daadwerkelijke het factureren tarieven, klik **voegt Tarief** toe. Voer de waarde van de facturering/het uur voor de tijdsperiode in en wijs zo nodig een begindatum en einddatum toe. Het eerste factuurtarief heeft geen begindatum en het laatste factuurtarief heeft geen einddatum.
 
      Sommige datums worden automatisch toegevoegd. Als de eerste factureringsfrequentie bijvoorbeeld geen einddatum heeft en u een seconde toevoegt met een begindatum van 1 mei 2025, wordt een einddatum van 30 april 2025 toegevoegd aan de eerste factureringssnelheid zodat er geen hiaten bestaan.
 
-     >[!TIP]
-     >
-     >Wanneer het uitgeven van een bestaande baanrol, kunt u **Soort door begindatum** selecteren om de meest recente begindatum bij de bovenkant van de tarieflijst te zien.
-
-   * **treedt Valuta** met voeten: Selecteer een munt verbonden aan deze baanrol. Dit is de valuta die Workfront gebruikt voor het berekenen van de kosten en inkomsten die met deze functie samenhangen.
-
-     Dit is verschillend dan de Valuta van de Basis die door uw beheerder van Workfront in het gebied van de Opstelling wordt opgesteld, en kan verschillend zijn dan de munt verbonden aan een project.
+     Voor informatie over hoe Workfront opbrengst berekent, zie [ Overzicht van Facturering en Ontvangsten ](/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md).
 
      >[!TIP]
      >
-     >Alleen valuta&#39;s die beschikbaar zijn in het gebied Wisselkoersen in uw systeem zijn beschikbaar in dit veld. Als u slechts één valuta hebt ingesteld, wordt dit veld niet weergegeven.
+     >Wanneer u een bestaande taakrol bewerkt, kunt u de lijst sorteren om de meest recente begindatum boven aan de lijst met percentages weer te geven.
 
-     Voor informatie over vestiging de Valuta van de Basis in Workfront, zie [&#x200B; de wisselkoers van de Opstelling &#x200B;](/help/quicksilver/administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md).
-
-     Voor informatie over het veranderen van de munt van een project, zie [&#x200B; de projectmunt &#x200B;](/help/quicksilver/manage-work/projects/project-finances/change-project-currency.md) veranderen.
-
-   * **met voeten treedt het Tarief van de Kostprijs van de Valuta**: Dit is de kosten per uurtarief van de baanrol gebruikend de geselecteerde Valuta van de Overschrijving. Workfront gebruikt deze waarde om de geplande en de werkelijke kosten van taken en problemen in verband met de functie te berekenen.
-
-     Voer de waarde in de bovenstaande valuta voor overschrijven in. Dit werkt ook het Tarief van Kosten voor deze baanrol bij wanneer het gebruiken van de Valuta van de Basis.
-
-     Voor informatie over hoe Workfront kosten berekent, zie [&#x200B; Kosten van het Spoor &#x200B;](/help/quicksilver/manage-work/projects/project-finances/track-costs.md).
-
-     >[!TIP]
-     >
-     >Wanneer u een bestaande taakrol bijwerkt waaraan al een kostenpercentage is gekoppeld, berekent Workfront de wisselkoers bij overschrijven op basis van de omrekeningskoers in uw systeem. Als u de kostenvoet voor valuta overschrijven bijwerkt, wordt de kostenvoet van de taakrol ook automatisch bijgewerkt.
-
-   * **met voeten treedt het FactureringsTarief van de Valuta**: Dit is het factureren per uurtarief van de baanrol gebruikend de geselecteerde Valuta van de Overschrijving. Workfront gebruikt deze waarde om de geplande en de daadwerkelijke opbrengst van taken en kwesties te berekenen verbonden aan de baanrol.
-
-     Voer de waarde in de bovenstaande valuta voor overschrijven in. Dit werkt ook het Facturerings Tarief voor deze baanrol bij wanneer het gebruiken van de Valuta van de Basis.
-
-     Voor informatie over hoe Workfront opbrengst berekent, zie [&#x200B; Overzicht van Facturering en Ontvangsten &#x200B;](/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md).
-
-     >[!TIP]
-     >
-     >Wanneer u een bestaande taakrol bijwerkt waaraan al een factureringssnelheid is gekoppeld, berekent Workfront de wisselkoers bij overschrijven op basis van de conversiesnelheid in uw systeem. Als u de factureringssnelheid van valuta overschrijven bijwerkt, wordt de factureringssnelheid van de taakrol ook automatisch bijgewerkt.
+1. Klik op **[!UICONTROL Create Job Role]**. De taakrol is nu beschikbaar om te worden toegewezen aan taken, uitgaven, goedkeuringen of u kunt lay-outsjablonen of andere objecten ermee delen. Voor informatie over al gebruik van baanrollen in [!DNL Workfront], zie [ het overzicht van de rol van de Baan ](../../../administration-and-setup/set-up-workfront/organizational-setup/job-role-overview.md). Voor informatie over het schrappen van een baanrol, zie [ baanrollen van de Schrapping ](../../../administration-and-setup/set-up-workfront/organizational-setup/delete-job-roles.md).
 
 <!--
+   * **Override Currency Cost Rate**: This is the cost per hour rate of the job role using the selected Override Currency. Workfront uses this value to calculate the planned and the actual costs of tasks and issues associated with the job role.
+
+     Enter the rate in the Override Currency specified above. This also updates the Cost Rate for this job role when using the Base Currency.
+
+     For information about how Workfront calculates cost, see [Track costs](/help/quicksilver/manage-work/projects/project-finances/track-costs.md).
+
+     >[!TIP]
+     >
+     >When updating an existing job role that already has a cost rate associated with it, Workfront calculates the Override Currency rate based on the conversion rate in your system. If you update the Override Currency Cost Rate, the cost rate of the job role also updates automatically.
+
+   * **Override Currency Billing Rate**: This is the billing per hour rate of the job role using the selected Override Currency. Workfront uses this value to calculate the planned and the actual revenue of tasks and issues associated with the job role.
+
+      Enter the rate in the Override Currency specified above. This also updates the Billing Rate for this job role when using the Base Currency.
+
+      For information about how Workfront calculates revenue, see [Overview of Billing and Revenue](/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md).
+
+     >[!TIP]
+     >
+     >When updating an existing job role that already has a billing rate associated with it, Workfront calculates the Override Currency rate based on the conversion rate in your system. If you update the Override Currency Billing Rate, the billing rate of the job role also updates automatically.
+
+
    <table style="table-layout:auto"> 
     <col> 
     <col> 
@@ -197,27 +200,5 @@ Een taakrol maken:
    </table>
 -->
 
->[!TIP]
->
->De rollen van de baan zijn een integraal deel van het beheren van middelen. Om de middelen planningshulpmiddelen te gebruiken, hebben de baanrollen een kosten en het facturerings tarief verbonden aan hen nodig. Voor informatie, zie [&#x200B; begonnen worden met het Beheer van het Middel &#x200B;](../../../resource-mgmt/resource-mgmt-overview/get-started-resource-management.md).
 
-1. Klik op **[!UICONTROL Create Job Role]**. De taakrol is nu beschikbaar om te worden toegewezen aan taken, uitgaven, goedkeuringen of u kunt lay-outsjablonen of andere objecten ermee delen. Voor informatie over al gebruik van baanrollen in [!DNL Workfront], zie [&#x200B; het overzicht van de rol van de Baan &#x200B;](../../../administration-and-setup/set-up-workfront/organizational-setup/job-role-overview.md). Voor informatie over het schrappen van een baanrol, zie [&#x200B; baanrollen van de Schrapping &#x200B;](../../../administration-and-setup/set-up-workfront/organizational-setup/delete-job-roles.md).
 
-<!--
-<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<h2>Delete a job role</h2>
-<ol data-mc-continue="false">
-<li value="1">Click the <strong>Main Menu</strong> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of Adobe Workfront, then click <strong>Setup</strong> <img src="assets/gear-icon-settings.png">.</li>
-<li value="2">Click<strong>Job Roles.</strong></li>
-<li value="3">Select the job role that you want to delete, then click <strong>Delete.</strong></li>
-<li value="4">If there are any objects (users, tasks, issues) that are assigned to the job role, do one of the following:<br>
-<ul>
-<li><p><strong>Replace the job role with a different job role:</strong> Select the new job role from the drop-down list.</p><p>Any current and past resource allocations that are associated with the deleted job role are transferred to the job role that you select.</p><p>Users who have only one job role assigned to them are reassigned to the job role that you select; users who have a secondary job role assigned to them are not reassigned to the job role that you select.</p></li>
-<li><p><strong>Delete the job role and its resource allocation:</strong> Select<strong>None</strong> from the drop-down list.</p><note type="important">
-Deleting a job role deletes all current and past resource allocation related to that job role for all projects.
-</note><p>​For example, if a task or issue is assigned to only that job role, the task or issue is unassigned after the job role is deleted.</p></li>
-</ul></li>
-<li value="5">Click  <strong>Yes, Delete It</strong>. </li>
-</ol>
-</div>
--->
