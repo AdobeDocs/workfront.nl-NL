@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Op deze pagina worden de verbeteringen beschreven die zijn aangebracht in de release First Quarter 2026 voor de voorvertoningsomgeving. Deze verbeteringen zullen beschikbaar worden gesteld in de productieomgeving, zoals vermeld.
 
-Voor een lijst van alle veranderingen beschikbaar op dit punt in Eerste Kwartaal 2026 versiecyclus, zie [ Eerste Kwartaal 2026 releaseoverzicht ](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar op dit punt in Eerste Kwartaal 2026 versiecyclus, zie [&#x200B; Eerste Kwartaal 2026 releaseoverzicht &#x200B;](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md).
 
 ## Een rapport dupliceren in een Canvasdashboard
 
@@ -23,7 +23,7 @@ Voor een lijst van alle veranderingen beschikbaar op dit punt in Eerste Kwartaal
 >
 >Voorvertoningsrelease: 23 oktober 2025
 >Productie voor alle afnemers: 23 oktober 2025
->[!BADGE Uit schema ]{type=Neutral}
+>[!BADGE Uit schema &#x200B;]{type=Neutral}
 
 U kunt een KPI, een lijst, of grafiekrapport in een Dashboard van het Canvas nu dupliceren nadat het is gecreeerd. Nadat het rapport is gedupliceerd, kunt u het rapport naar wens bewerken voordat u het opslaat.
 
