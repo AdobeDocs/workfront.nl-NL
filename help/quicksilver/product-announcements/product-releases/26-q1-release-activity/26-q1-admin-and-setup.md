@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Op deze pagina worden de verbeteringen van de beheerder beschreven die zijn aangebracht met de release First Quarter 2026 voor de voorvertoningsomgeving. Deze verbeteringen zullen beschikbaar worden gesteld in de productieomgeving, zoals vermeld.
 
-Voor een lijst van alle veranderingen beschikbaar op dit punt in Eerste Kwartaal 2026 versiecyclus, zie [ Eerste Kwartaal 2026 releaseoverzicht ](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar op dit punt in Eerste Kwartaal 2026 versiecyclus, zie [&#x200B; Eerste Kwartaal 2026 releaseoverzicht &#x200B;](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md).
 
 ## Invoerdatum en Ingevoerd door id die zijn opgeslagen op aangepaste objecten
 
@@ -38,7 +38,7 @@ De ingangsdatum en de ingevoerde gegevens met de id worden nu opgeslagen op aang
 
 Om meer consistentie met andere gebieden van Opstelling zoals de ontwerper van de douanevorm te verstrekken, zien de knopen u wanneer het uitgeven van een lay-outmalplaatje is veranderd **,** sparen en dicht **, en** annuleert **.** De nieuwe optie, **past** toe, staat u toe om uw veranderingen in het lay-outmalplaatje te bewaren en verder het uitgeven voort te zetten. Eerder, waren de beschikbare opties **sparen** en **annuleert**.
 
-Voor meer informatie, zie [ lay-outmalplaatjes ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md) creëren en beheren.
+Voor meer informatie, zie [&#x200B; lay-outmalplaatjes &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md) creëren en beheren.
 
 
 
@@ -57,4 +57,4 @@ Als u een veld inactief markeert:
 * Het is uitgesloten van rapporten, filters, weergaven of andere plaatsen in Workfront waar u een aangepast veld kunt toevoegen
 * Het is niet beschikbaar in de veldbibliotheek om aan andere aangepaste formulieren toe te voegen
 
-Voor meer informatie, zie [ een douaneformulier ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren.
+Voor meer informatie, zie [&#x200B; een douaneformulier &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren.
