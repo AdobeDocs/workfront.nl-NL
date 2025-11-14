@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 39ea0d53-ec31-4644-b772-cfe260b8e013
-source-git-commit: 469242118429fa37835766737b88d35d2baefb69
+source-git-commit: c1c30696dc9ef324103467f3bdcb83609cf5d1d8
 workflow-type: tm+mt
-source-wordcount: '1048'
+source-wordcount: '1010'
 ht-degree: 0%
 
 ---
@@ -21,8 +21,6 @@ ht-degree: 0%
 Workfront-documentatie bevat een tabel met uitleg over de vereisten voor toegang en machtigingen die nodig zijn voor die procedure. Deze lijst van de Vereisten van Toegang staat u toe om te begrijpen of u een bepaalde actie in Workfront kunt uitvoeren, of waarom u niet zou kunnen. Dit artikel verklaart elk element van de lijst van de Vereisten van de Toegang, en verstrekt het oplossen van problemenuiteinden en verbindingen aan meer diepgaande informatie.
 
 Als een rij van de lijst van de Vereisten van de Toegang in een bepaald artikel afwezig is, zijn er geen vereisten van dat type voor die actie.
-
-Sommige rijen bevatten informatie met de labels &quot;Nieuw&quot; en &quot;Huidig&quot;. Dit komt omdat Workfront overschakelt naar een nieuw prijsstellings- en verpakkingsmodel, waarbij sommige organisaties onder het nieuwe model opereren en andere nog steeds het huidige model gebruiken. Neem contact op met uw Workfront-beheerder om te weten welk model uw organisatie gebruikt. U kunt details en verbindingen aan informatie in [&#x200B; vinden de sectie van de Vereisten van de Toegang &#x200B;](#the-access-requirements-table) van dit artikel.
 
 >[!NOTE]
 >
@@ -37,16 +35,16 @@ Sommige rijen bevatten informatie met de labels &quot;Nieuw&quot; en &quot;Huidi
   <tr> 
    <td role="rowheader">Adobe Workfront-pakket</td> 
    <td> Adobe Workfront-pakketten verwijzen naar de reeks functies die uw organisatie heeft aangeschaft. De meeste Workfront-functionaliteit is beschikbaar in alle pakketten, met een paar uitzonderingen, meestal in verband met strategische planning en bedrijfscontroles. <p>Pakketten die vóór 2022 bestonden, worden niet vermeld.</p>
-   <p>Workfront-pakketten zijn verdeeld in drie gebieden. Elk gebied bevat verschillende pakketten, zoals Selecteren, Prime en Ultimate.<p>
+   <p>Workfront-pakketten zijn verdeeld in drie gebieden. Sommige gebieden bieden verschillende pakketten, zoals Selecteren, Prime en Ultimate.<p>
    <ul>
-   <li><b> het Werkschema van Workfront </b>: Omvat functionaliteit met betrekking tot verrichtingen, zoals taakbeheer, goedkeuringen, en timesheets.</li>
-   <li><b> Planning van Workfront </b>: Omvat functionaliteit met betrekking tot strategische planning.</li>
+   <li><b> het Werkschema van Workfront </b>: Omvat functionaliteit met betrekking tot verrichtingen, zoals taakbeheer, goedkeuringen, en timesheets. Dit pakket is verder verdeeld in de pakketten Workflow Select, Workflow Prime en Workflow Ultimate.</li>
+   <li><b> Planning van Workfront </b>: Omvat functionaliteit met betrekking tot strategische planning. Dit pakket is verder verdeeld in de pakketten Selecteren, Prime plannen en Ultimate plannen.</li>
    <li><b> de Automatisering en Integratie van Workfront </b>: Omvat functionaliteit met betrekking tot het automatiseren van processen en het integreren met andere toepassingen.</li>
    </ul>
   <p>Uw organisatie heeft mogelijk een Workfront-pakket in een of meer van deze gebieden aangeschaft.</p>
   <p>Eerder bood Workfront Workfront Select-, Workfront Prime- en Workfront Ultimate-pakketten aan zonder onderscheid te maken tussen Workflow, planning en automatisering en integratie. Uw organisatie kan op één van deze erfenispakketten zijn. 
    <ul><li>Neem contact op met uw Workfront-beheerder om te weten welk Adobe Workfront-pakket uw organisatie gebruikt, inclusief of uw organisatie zich onder het huidige of oudere pakketmodel bevindt.</li>
-   <li>Voor instructies op hoe een beheerder van Workfront van het pakket van Workfront van uw organisatie kan de plaats bepalen, zie <a href="/help/quicksilver/administration-and-setup/get-started-wf-administration/firewall-overview.md#view-your-organizations-cluster-and-workfront-package" class="MCXref xref"> de cluster van uw organisatie en het pakket van Workfront van de Mening </a>.</li><li>Voor meer informatie over de pakketten van Workfront, zie <a href="https://business.adobe.com/nl/products/workfront/pricing.html"> Adobe Workfront tarifering en verpakking </a>.</li></ul> </td> 
+   <li>Voor instructies op hoe een beheerder van Workfront van het pakket van Workfront van uw organisatie kan de plaats bepalen, zie <a href="/help/quicksilver/administration-and-setup/get-started-wf-administration/firewall-overview.md#view-your-organizations-cluster-and-workfront-package" class="MCXref xref"> de cluster van uw organisatie en het pakket van Workfront van de Mening </a>.</li><li>Voor meer informatie over de pakketten van Workfront, zie <a href="https://business.adobe.com/products/workfront/pricing.html"> Adobe Workfront tarifering en verpakking </a>.</li></ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie</td> 
@@ -97,7 +95,7 @@ Sommige rijen bevatten informatie met de labels &quot;Nieuw&quot; en &quot;Huidi
    <ul><li>Het huidige licentiemodel is gebaseerd op het aantal uitgevoerde bewerkingen en heeft geen beperkingen op de acties die een organisatie kan uitvoeren. </li>
    <li>Verouderde licenties zijn gebaseerd op de vraag of scenario's verbinding kunnen maken met toepassingen van derden of dat de scenario's alleen voor Workfront-automatisering worden gebruikt. </li>
    </ul>
-   Voor informatie over het verlenen van vergunningen van de Fusie, zie <a href="https://experienceleague.adobe.com/nl/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration" class="MCXref xref"> de vergunningen van de Fusie van Workfront </a>.
+   Voor informatie over het verlenen van vergunningen van de Fusie, zie <a href="https://experienceleague.adobe.com/en/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration" class="MCXref xref"> de vergunningen van de Fusie van Workfront </a>.
    </td> 
   </tr> 
  </tbody> 
