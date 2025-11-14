@@ -6,9 +6,9 @@ description: Het percentage van de toewijzing vertegenwoordigt de hoeveelheid ti
 author: Lisa
 feature: Work Management
 exl-id: 82238dff-b95e-42e4-8e72-6247934b504d
-source-git-commit: 1f9a0e6064f83c6f0947e3c7ef596e96c934a687
+source-git-commit: 8cd6c47acf8de313bab5fe7298125eb63cc10faf
 workflow-type: tm+mt
-source-wordcount: '457'
+source-wordcount: '458'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ U kunt het toewijzingspercentage wijzigen wanneer u geavanceerde toewijzingen vo
 
 >[!NOTE]
 >
->Wanneer gebruikers aan het werk worden toegewezen, heeft hun beschikbaarheid volgens hun programma&#39;s invloed op de geplande en verwachte datum van taken en problemen. Voor informatie over programma&#39;s, zie [&#x200B; een programma &#x200B;](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md) creëren.
+>Wanneer gebruikers aan het werk worden toegewezen, heeft hun beschikbaarheid volgens hun programma&#39;s invloed op de geplande en verwachte datum van taken en problemen. Voor informatie over programma&#39;s, zie [ een programma ](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md) creëren.
 
 ## Toegangsvereisten
 
@@ -59,12 +59,14 @@ U kunt het toewijzingspercentage wijzigen wanneer u geavanceerde toewijzingen vo
   <tr> 
    <td>Objectmachtigingen</td>
    <td><p>Contribute of hoger machtigingen voor de taak</p>
-   <p>Bewerk machtigingen om het toewijzingspercentage in het vak Taak bewerken bij te werken wanneer u taken bewerkt met de oude ervaring. U kunt het toewijzingspercentage niet meer beheren in het taakvak Bewerken wanneer u taken bewerkt in de nieuwe ervaring.</p> <p>Voor informatie, zie <a href="/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md"> taken </a> uitgeven.</p></td>
+   <p>Bewerk machtigingen om het toewijzingspercentage in het vak Taak bewerken bij te werken wanneer u taken bewerkt met de oude ervaring.</p>
+   <p><b>OPMERKING</b></p>
+   <p> U kunt het toewijzingspercentage niet meer beheren in het taakvak Bewerken wanneer u taken bewerkt in de nieuwe ervaring.</p> <p>Voor informatie, zie <a href="/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md"> taken </a> uitgeven.</p></td>
   </tr>
  </tbody>
 </table>
 
-Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -79,7 +81,7 @@ Take this piece out of the table above when we remove the new experience/ after 
 * De gebruikers worden toegewezen een gelijk percentage van tijd aan taken zij worden toegewezen, door gebrek.
 * U kunt het toewijzingspercentage voor gebruikers en baanrollen manueel wijzigen die aan taken slechts worden toegewezen wanneer het Type van Duur van de taak Berekend Werk of Gedreven Inspanning is.
 
-  Voor informatie, zie [&#x200B; Overzicht van het Type van Duur en van de Duur van de Taak &#x200B;](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
+  Voor informatie, zie [ Overzicht van het Type van Duur en van de Duur van de Taak ](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
 
 * U kunt niet de percententoewijzing voor teams wijzigen die aan taken worden toegewezen.
 * U kunt niet de percentaletoewijzing voor gebruikers en baanrollen wijzigen die aan kwesties worden toegewezen.
@@ -105,6 +107,6 @@ Take this piece out of the table above when we remove the new experience/ after 
 
    U kunt niet het toewijzingspercentage voor een team wijzigen dat aan een taak wordt toegewezen.
 
-   ![&#x200B; wijzigen toewijzingspercentage &#x200B;](assets/advanced-assignments-allocation-percentage.png)
+   ![ wijzigen toewijzingspercentage ](assets/advanced-assignments-allocation-percentage.png)
 
 1. Klik **sparen**.

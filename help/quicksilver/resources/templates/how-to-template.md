@@ -2,16 +2,16 @@
 title: [Taaktitel]
 description: [Taaktitel]
 draft: Probably
-source-git-commit: 32bf4cccee672b84e7c3e5b188a71979c0ac241e
+source-git-commit: 8cd6c47acf8de313bab5fe7298125eb63cc10faf
 workflow-type: tm+mt
-source-wordcount: 149
+source-wordcount: 144
 ht-degree: 0%
 
 ---
 
 # [ Titel van de Taak ]
 
-[ Inleiding ]
+[Inleiding]
 
 <!--
 <p style="text-align: center;background-color: #c0c0c0;color: #000000;" data-mc-conditions="QuicksilverOrClassic.Draft mode"><strong>Delete this box before publishing</strong> <br>You can delete any table rows that don't apply.</p>
@@ -27,7 +27,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-abonnement*</td> 
-   <td> <p>[Willekeurig, Pro, Zakelijk, Enterprise] of hoger</p> </td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie*</td> 
