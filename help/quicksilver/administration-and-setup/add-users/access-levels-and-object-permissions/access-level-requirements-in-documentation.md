@@ -44,7 +44,7 @@ Als een rij van de lijst van de Vereisten van de Toegang in een bepaald artikel 
   <p>Uw organisatie heeft mogelijk een Workfront-pakket in een of meer van deze gebieden aangeschaft.</p>
   <p>Eerder bood Workfront Workfront Select-, Workfront Prime- en Workfront Ultimate-pakketten aan zonder onderscheid te maken tussen Workflow, planning en automatisering en integratie. Uw organisatie kan op één van deze erfenispakketten zijn. 
    <ul><li>Neem contact op met uw Workfront-beheerder om te weten welk Adobe Workfront-pakket uw organisatie gebruikt, inclusief of uw organisatie zich onder het huidige of oudere pakketmodel bevindt.</li>
-   <li>Voor instructies op hoe een beheerder van Workfront van het pakket van Workfront van uw organisatie kan de plaats bepalen, zie <a href="/help/quicksilver/administration-and-setup/get-started-wf-administration/firewall-overview.md#view-your-organizations-cluster-and-workfront-package" class="MCXref xref"> de cluster van uw organisatie en het pakket van Workfront van de Mening </a>.</li><li>Voor meer informatie over de pakketten van Workfront, zie <a href="https://business.adobe.com/products/workfront/pricing.html"> Adobe Workfront tarifering en verpakking </a>.</li></ul> </td> 
+   <li>Voor instructies op hoe een beheerder van Workfront van het pakket van Workfront van uw organisatie kan de plaats bepalen, zie <a href="/help/quicksilver/administration-and-setup/get-started-wf-administration/firewall-overview.md#view-your-organizations-cluster-and-workfront-package" class="MCXref xref"> de cluster van uw organisatie en het pakket van Workfront van de Mening </a>.</li><li>Voor meer informatie over de pakketten van Workfront, zie <a href="https://business.adobe.com/nl/products/workfront/pricing.html"> Adobe Workfront tarifering en verpakking </a>.</li></ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie</td> 
@@ -95,7 +95,7 @@ Als een rij van de lijst van de Vereisten van de Toegang in een bepaald artikel 
    <ul><li>Het huidige licentiemodel is gebaseerd op het aantal uitgevoerde bewerkingen en heeft geen beperkingen op de acties die een organisatie kan uitvoeren. </li>
    <li>Verouderde licenties zijn gebaseerd op de vraag of scenario's verbinding kunnen maken met toepassingen van derden of dat de scenario's alleen voor Workfront-automatisering worden gebruikt. </li>
    </ul>
-   Voor informatie over het verlenen van vergunningen van de Fusie, zie <a href="https://experienceleague.adobe.com/en/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration" class="MCXref xref"> de vergunningen van de Fusie van Workfront </a>.
+   Voor informatie over het verlenen van vergunningen van de Fusie, zie <a href="https://experienceleague.adobe.com/nl/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration" class="MCXref xref"> de vergunningen van de Fusie van Workfront </a>.
    </td> 
   </tr> 
  </tbody> 
