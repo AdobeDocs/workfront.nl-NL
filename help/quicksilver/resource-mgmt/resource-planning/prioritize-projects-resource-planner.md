@@ -107,7 +107,7 @@ De projectplanningsprioriteit bewerken:
 >
 >Uw bedrijf moet een Workfront-pakket voor Prime of hoger hebben om prioriteit te geven aan projecten in Portfolio Optimizer.
 >
->Voor meer informatie over de pakketten van Workfront, zie [&#x200B; de pakketten en de tarifering van Adobe Workfront &#x200B;](https://business.adobe.com/products/workfront/pricing.html).
+>Voor meer informatie over de pakketten van Workfront, zie [&#x200B; de pakketten en de tarifering van Adobe Workfront &#x200B;](https://business.adobe.com/nl/products/workfront/pricing.html).
 >
 >Voor informatie over het prioriteren van projecten in Portfolio optimaliseert, zie [&#x200B; projecten in de Optimizer van Portfolio &#x200B;](../../manage-work/portfolios/portfolio-optimizer/prioritize-projects-in-portfolio-optimizer.md) Prioritize.
 
