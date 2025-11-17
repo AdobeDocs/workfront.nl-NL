@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # Toegang tot Adobe Workfront-doelen verlenen
 
-Als beheerder van Adobe Workfront, kunt u een toegangsniveau gebruiken om de toegang van een gebruiker tot de Doelen van Adobe Workfront te bepalen, zoals die in [ het overzicht van de Niveaus van de Toegang ](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md) wordt verklaard.
+Als beheerder van Adobe Workfront, kunt u een toegangsniveau gebruiken om de toegang van een gebruiker tot de Doelen van Adobe Workfront te bepalen, zoals die in [&#x200B; het overzicht van de Niveaus van de Toegang &#x200B;](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md) wordt verklaard.
 
 ## Toegangsvereisten
 
@@ -45,7 +45,7 @@ U moet het volgende hebben om gebruikers toegang tot de Doelen van Workfront te 
  </tbody> 
 </table>
 
-Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -76,7 +76,7 @@ Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront
 
 ## Gebruikerstoegang tot Workfront-doelen verlenen met behulp van een aangepast toegangsniveau
 
-1. Beginnen creërend of het uitgeven van het toegangsniveau, zoals die in [ wordt verklaard creeer of wijzig douanetoegangsniveaus ](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+1. Beginnen creërend of het uitgeven van het toegangsniveau, zoals die in [&#x200B; wordt verklaard creeer of wijzig douanetoegangsniveaus &#x200B;](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 1. Klik de optie aan het recht van **Doelen** die u voor dit toegangsniveau wilt gebruiken.
 
 
@@ -84,7 +84,7 @@ Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront
    >
    >Het type External-licentie staat geen toegang tot Workfront Goals toe voor Weergeven of Bewerken.
 
-1. (Facultatief) om toegangsmontages voor andere voorwerpen en gebieden in het toegangsniveau te vormen u aan werkt, ga met één van de artikelen voort die in [ worden vermeld toegang tot Adobe Workfront ](../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md), zoals [ toegang van de Verlening tot taken ](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md) en [ toegang van de Verlening tot financiële gegevens ](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
+1. (Facultatief) om toegangsmontages voor andere voorwerpen en gebieden in het toegangsniveau te vormen u aan werkt, ga met één van de artikelen voort die in [&#x200B; worden vermeld toegang tot Adobe Workfront &#x200B;](../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md), zoals [&#x200B; toegang van de Verlening tot taken &#x200B;](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md) en [&#x200B; toegang van de Verlening tot financiële gegevens &#x200B;](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
 1. Wanneer u wordt gebeëindigd, klik **sparen**.
 
 ## Toegang tot Workfront-doelen per licentietype
@@ -94,4 +94,4 @@ Een Workfront-beheerder kan een toegangsniveau gebruiken om gebruikers toegang t
 * Standaard, licht, contribuant
 * Licentie voor plannen, werken, aanvragen of controleren.
 
-Voor extra informatie over toegang tot de Doelen van Workfront, zie [ Vereisten om de Doelen van Workfront ](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md) te gebruiken.
+Voor extra informatie over toegang tot de Doelen van Workfront, zie [&#x200B; Vereisten om de Doelen van Workfront &#x200B;](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md) te gebruiken.
