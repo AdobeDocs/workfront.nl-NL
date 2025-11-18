@@ -64,7 +64,7 @@ Ga als volgt te werk om de juridische overeenkomst te beoordelen en te acceptere
    * Alle andere gebruikers beschikken over weergavemachtigingen.
 1. (Facultatief) Begin het onderzoeken van de **Beste werkruimten van de Praktijk** tabel en deel werkruimten of hun voorwerp met anderen.
 
-   Voor meer informatie over het gebruiken van de Planning van Workfront, zie [ begonnen worden met de Planning van Adobe Workfront ](/help/quicksilver/planning/general/planning-overview.md).
+   Voor meer informatie over het gebruiken van de Planning van Workfront, zie [&#x200B; begonnen worden met de Planning van Adobe Workfront &#x200B;](/help/quicksilver/planning/general/planning-overview.md).
 
 <!-- finish these steps and check to see if the UI elements are spelled correctly; also if the trial agreement is accessible according to the steps aboe - ???  -->
 
