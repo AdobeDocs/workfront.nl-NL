@@ -800,7 +800,7 @@ Productie: 8 mei 2024
 
 Voorbeeld: vast te stellen
 
-Als u een Adobe Unified Experience-klant bent en iemand u toevoegt aan een opmerking op de recordpagina, ontvangt u een bericht in de app en een e-mailbericht over de opmerking. U kunt uw berichtvoorkeuren beheren in het gedeelte Voorkeuren van uw Adobe Experience Cloud-profiel. Voor meer informatie, zie [&#x200B; voorkeur en berichten van de Rekening &#x200B;](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences).
+Als u een Adobe Unified Experience-klant bent en iemand u toevoegt aan een opmerking op de recordpagina, ontvangt u een bericht in de app en een e-mailbericht over de opmerking. U kunt uw berichtvoorkeuren beheren in het gedeelte Voorkeuren van uw Adobe Experience Cloud-profiel. Voor meer informatie, zie [&#x200B; voorkeur en berichten van de Rekening &#x200B;](https://experienceleague.adobe.com/nl/docs/core-services/interface/features/account-preferences).
 
 Voor meer informatie over Workfront planningsberichten, zie [&#x200B; de berichten van de Planning van Adobe Workfront: De index van het Artikel &#x200B;](/help/quicksilver/planning/notifications/notifications-information.md).
 
