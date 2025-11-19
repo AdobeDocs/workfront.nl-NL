@@ -6,7 +6,7 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 8c4e4fbb-2f21-43a1-bfb0-d23ac1a33705
-source-git-commit: 96028446d76f32daf512adf77d3b1c53021821ec
+source-git-commit: 15ffe027c281782bcaa4df229badc134d91195a0
 workflow-type: tm+mt
 source-wordcount: '170'
 ht-degree: 0%
@@ -14,8 +14,9 @@ ht-degree: 0%
 ---
 
 
-
 # Algemene informatie over Adobe Workfront Planning: artikelindex
+
+{{planning-important-intro}}
 
 Als leider van marketing verrichtingen, kunt u de Planning van Adobe Workfront gebruiken om het werk over de marketing levenscyclus voor al uw teams te organiseren. De artikelen in deze sectie beschrijven algemene concepten over de Planning van Workfront, beste praktijken over hoe te om het uit te voeren, en geven u een overzicht van enkele eigenschappen momenteel beschikbaar.
 
@@ -28,7 +29,7 @@ Lees de volgende artikelen:
 * [Adobe Workfront Planning Release Activity for 2024](/help/quicksilver/planning/general/release-activity.md)
 * [Adobe Workfront Planning Release Activity for 2023](/help/quicksilver/planning/general/release-activity-archives-2023.md)
 * [Overzicht van beperkingen van Adobe Workfront-planningsobjecten](/help/quicksilver/planning/general/limitations-overview.md)
-* [Aanbevolen procedures voor Adobe Workfront Planning](/help/quicksilver/planning/general/planning-best-practices.md)
-
+* [ de Planning van Adobe Workfront beste praktijken ](/help/quicksilver/planning/general/planning-best-practices.md)
+  <!--* [Get started with the Adobe Workfront Planning free trial](/help/quicksilver/planning/general/trial-workfront-planning.md)-->
 
 
