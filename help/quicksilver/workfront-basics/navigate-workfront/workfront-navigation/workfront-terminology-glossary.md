@@ -6,7 +6,7 @@ description: De  [!DNL Adobe Workfront]  verklarende woordenlijst lijsten algeme
 author: Alina
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
+source-git-commit: f88b6ec019963ff6256e35b9c94eb4d1b7e99730
 workflow-type: tm+mt
 source-wordcount: '17858'
 ht-degree: 0%
@@ -720,7 +720,7 @@ De volgende tabel bevat een lijst met veelgebruikte termen in Adobe Workfront:
 
 <tr> 
    <td>[!UICONTROL Cost Performance Index (CPI)]</td> 
-   <td> <p>In [!UICONTROL Cost Performance Index (CPI)] wordt de relatie op project- of taakniveau beschreven tussen de geplande kosten en de werkelijke kosten. De Managers van het project herzien dit metrisch om taken of projecten te identificeren die momenteel onder of over kosten op een bepaald punt volgen. De kosten kunnen worden gemeten in uren of dollars, afhankelijk van uw [!UICONTROL Performance Index Method (PIM)].</p> 
+   <td> <p>In [!UICONTROL Cost Performance Index (CPI)] wordt de relatie op project- of taakniveau beschreven tussen de geplande kosten en de werkelijke kosten. De Managers van het project herzien dit metrisch om taken of projecten te identificeren die momenteel onder of over kosten op een bepaald punt volgen. De kosten kunnen worden gemeten in uren of valuta, afhankelijk van uw [!UICONTROL Performance Index Method (PIM)].</p> 
     <p> Voor informatie, zie <a href="/help/quicksilver/manage-work/projects/project-finances/calculate-cpi.md"> de Index van de Prestaties van de Kosten berekenen (CPI) </a>.</p>
 
 </td> 
@@ -2106,7 +2106,7 @@ Uur-items kunnen een van de volgende statussen in Workfront hebben:
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Optimized"> 
    <td>[!UICONTROL Scenario] (in [!DNL Workfront Fusion]) </td> 
-   <td> <p>Een scenario bestaat uit een reeks stappen (modules) die aangeven hoe gegevens moeten worden overgebracht en getransformeerd tussen apps/services.</p> <p>Voor informatie over scenario's in [!DNL Workfront Fusion], zie <a href="https://experienceleague.adobe.com/nl/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/scenario-overview">[!DNL Adobe Workfront Fusion] scenario overzicht </a>.</p> </td> 
+   <td> <p>Een scenario bestaat uit een reeks stappen (modules) die aangeven hoe gegevens moeten worden overgebracht en getransformeerd tussen apps/services.</p> <p>Voor informatie over scenario's in [!DNL Workfront Fusion], zie <a href="https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/scenario-overview">[!DNL Adobe Workfront Fusion] scenario overzicht </a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Scenario] (in de [!DNL Workfront Scenario Planner] ) </td> 
