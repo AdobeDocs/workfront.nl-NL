@@ -6,7 +6,7 @@ author: Courtney
 feature: Get Started with Workfront
 hide: true
 hidefromtoc: true
-source-git-commit: 56f63dad88c9ea7d51297bcad181983dc88acf50
+source-git-commit: 4f0ab97409ea959d195dd0bf856d53982402e7fc
 workflow-type: tm+mt
 source-wordcount: '630'
 ht-degree: 0%
@@ -20,7 +20,7 @@ Adobe Workfront verenigt alle DX-producten (Digital Experience) met één consis
 
 Na de migratie hebt u toegang tot alle meldingen in Adobe Workfront en andere Adobe DX-toepassingen op één locatie, zodat u eenvoudig op de hoogte kunt blijven en uw voorkeuren kunt beheren.
 
-![&#x200B; Mededelingen &#x200B;](assets/announcements-center.png)
+![ Mededelingen ](assets/announcements-center.png)
 
 
 ## Waarom we deze wijziging maken
@@ -53,7 +53,7 @@ Workfront maakt deel uit van de Adobe-suite met producten voor digitale beleving
 
 1. In de hoger-juiste hoek van Workfront, klik het **pictogram van Meldingen** pictogram van Berichten ![.](assets/bell-icon.png)
 
-1. In het **paneel van de Meldingen van Experience Cloud** dat opent, selecteer **Meldingen**. Er wordt een lijst met uw meldingen weergegeven, waarbij de meest recente melding boven aan de lijst wordt weergegeven.
+1. In het **paneel van de Meldingen van Experience Cloud** dat opent, selecteer **Meldingen**. Er wordt een lijst met uw meldingen weergegeven. De meest recente melding wordt boven aan de lijst weergegeven.
 
 1. Klik een bericht om het als *te merken Gelezen* en het te verwijderen uit de recente berichtenlijst.
 
@@ -72,9 +72,9 @@ Workfront maakt deel uit van de Adobe-suite met producten voor digitale beleving
 
 1. In de hoger-juiste hoek van Workfront, klik het **pictogram van Meldingen** pictogram van Berichten ![.](assets/bell-icon.png)
 
-1. In de hoger-juiste hoek van het **Experience Cloud** paneel, klik het **pictogram van Montages** pictogram ![&#x200B; van Montages &#x200B;](assets/settings-icon.png).
+1. In de hoger-juiste hoek van het **Experience Cloud** paneel, klik het **pictogram van Montages** pictogram ![ van Montages ](assets/settings-icon.png).
 
-1. In de **sectie van Berichten**, klik de de tegelpijl van het pijlpictogram ![&#x200B; Workfront &#x200B;](assets/arrow-icon.png) op de **Workfront** tegel.
+1. In de **sectie van Berichten**, klik de de tegelpijl van het pijlpictogram ![ Workfront ](assets/arrow-icon.png) op de **Workfront** tegel.
 
 1. In **breng me op de hoogte over de volgende categorieën** sectie, selecteer het type van bericht u voor zowel **Vermeldingen** als **Verzoeken** wilt ontvangen:
    * **Vermeldingen**: Ontvang een bericht wanneer iemand u in een commentaar etiketteert.
@@ -82,7 +82,7 @@ Workfront maakt deel uit van de Adobe-suite met producten voor digitale beleving
 
 1. (Optioneel) Als u bepaalde typen meldingen niet meer wilt ontvangen, schakelt u het vakje uit voor elk type dat momenteel is geselecteerd. Uw wijzigingen worden automatisch opgeslagen.
 
-   ![&#x200B; het type van Bericht selecties &#x200B;](assets/select-notification-types.png)
+   ![ het type van Bericht selecties ](assets/select-notification-types.png)
 
 ## Veelgestelde vragen
 
