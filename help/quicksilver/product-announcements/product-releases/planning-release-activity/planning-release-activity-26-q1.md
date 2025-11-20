@@ -6,7 +6,7 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 21cab3964ffd79b4b58835fcb992f59eefee78ee
+source-git-commit: 0964ad24535bf43a23c740cd63abcf8fea705b8d
 workflow-type: tm+mt
 source-wordcount: '642'
 ht-degree: 0%
@@ -19,7 +19,7 @@ In dit artikel worden de functies beschreven die tijdens de release Eerste kwart
 
 <!--keep the sentence below for all future quarterly release pages-->
 
-Voor een lijst van alle eigenschappen die voor de Planning van Adobe Workfront worden vrijgegeven, zie [&#x200B; de versieactiviteit van de Planning van Adobe Workfront: artikelindex &#x200B;](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+Voor een lijst van alle eigenschappen die voor de Planning van Adobe Workfront worden vrijgegeven, zie [ de versieactiviteit van de Planning van Adobe Workfront: artikelindex ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
 ## Connect GenStudio for Performance Marketing-merken met Workfront Planning-recordtypen
 
@@ -27,11 +27,11 @@ Voor een lijst van alle eigenschappen die voor de Planning van Adobe Workfront w
 >
 >Voorbeeld: 13 november 2025
 >Snelle productie: 13 november 2025
->Productie voor iedereen: 13 november 2026
+>Productie voor iedereen: 13 november 2025
 
 U kunt nu Workfront Planning-recordtypen verbinden met Merken vanuit Adobe GenStudio for Performance Marketing. Uw organisatie moet zowel Workfront Planning als Adobe GenStudio for Performance Marketing hebben.
 
-Voor meer informatie, zie [&#x200B; Connect verslagtypes &#x200B;](/help/quicksilver/planning/architecture/connect-record-types.md).
+Voor meer informatie, zie [ Connect verslagtypes ](/help/quicksilver/planning/architecture/connect-record-types.md).
 
 
 ## Het nieuwe vakje van het gebiedsonderzoek in de Filters, de Gebieden, en de kleurenpictogrammen van de Rij in de meningen van de Planning
@@ -46,7 +46,7 @@ U kunt nu naar een specifiek veld zoeken wanneer u een weergave-element maakt in
 
 Deze verbetering is beschikbaar in alle verslagtypemeningen.
 
-Voor informatie, zie [&#x200B; de lijstmening &#x200B;](/help/quicksilver/planning/views/manage-the-table-view.md) leiden.
+Voor informatie, zie [ de lijstmening ](/help/quicksilver/planning/views/manage-the-table-view.md) leiden.
 
 
 ## Algemene recordtypen en de mogelijkheid om deze als bestaande recordtypen toe te voegen aan andere werkruimten
@@ -67,9 +67,9 @@ U kunt nu een recordtype toewijzen dat globaal moet zijn en het gebruiken in mee
 
 Raadpleeg de volgende artikelen voor meer informatie:
 
-* [&#x200B; het type van het werkruimterecord overzicht &#x200B;](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md)
+* [ het type van het werkruimterecord overzicht ](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md)
 
-* [&#x200B; vorm verslagtype dwars-werkruimtemogelijkheden &#x200B;](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md)
+* [ vorm verslagtype dwars-werkruimtemogelijkheden ](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md)
 
 * [Bestaande recordtypen uit een andere werkruimte toevoegen](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md)
 
@@ -85,7 +85,7 @@ Voor elk recordtype is een limiet van 30 verbindingsvelden ingesteld.
 
 NOTA: Als uw organisatie momenteel meer dan 30 verbindingsgebieden voor één verslagtype heeft, kunt u de extra gebieden houden die de grens van 30 overschrijden. U kunt echter geen verbindingsvelden toevoegen aan recordtypen die de limiet overschrijden. In de toekomst wordt de nieuwe limiet van 30 verbindingsvelden gehandhaafd.
 
-Voor meer informatie, zie [&#x200B; Verbonden overzicht van de Types van Verslag &#x200B;](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
+Voor meer informatie, zie [ Verbonden overzicht van de Types van Verslag ](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
 
 ## Gebruikersvriendelijke waarden instellen voor keuzen in selectievelden
 
@@ -107,4 +107,4 @@ Overweeg het volgende met deze verbetering:
 
 * De gekozen waarden worden weergegeven in kleine letters en worden gescheiden door onderstrepingstekens in het geval van keuzen voor meerdere woorden. Als u een label gebruikt dat al is gebruikt als een andere keuzenaam voor hetzelfde veld, voegt Workfront een volgnummer aan de waarde toe.
 
-Voor informatie, zie [&#x200B; gebieden &#x200B;](/help/quicksilver/planning/fields/create-fields.md) creëren.
+Voor informatie, zie [ gebieden ](/help/quicksilver/planning/fields/create-fields.md) creëren.
