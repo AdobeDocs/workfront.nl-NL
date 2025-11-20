@@ -32,7 +32,7 @@ De volgende artikelen bevatten informatie over de toegang die uw gebruikers nodi
 * [Machtigingen aanvragen voor een weergave of werkruimte](/help/quicksilver/planning/access/request-permissions.md)
 * [Weergaven delen](/help/quicksilver/planning/access/share-views.md)
 * [Werkruimten delen](/help/quicksilver/planning/access/share-workspaces.md)
-* [ de recordtypes van het Aandeel ](/help/quicksilver/planning/access/share-record-types.md)
+* [&#x200B; de recordtypes van het Aandeel &#x200B;](/help/quicksilver/planning/access/share-record-types.md)
   <!--* <span class="preview">[Share records](/help/quicksilver/planning/access/share-records.md)</span>-->
 
 
