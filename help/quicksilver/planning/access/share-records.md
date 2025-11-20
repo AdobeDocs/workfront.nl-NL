@@ -21,7 +21,7 @@ ht-degree: 0%
 
 <span class="preview"> de informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>
 
-<span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
+<span class="preview"> voor informatie over snelle versies, zie [&#x200B; snelle versies voor uw organisatie &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
 
 
 {{planning-important-intro}}
@@ -32,7 +32,7 @@ U kunt een Adobe Workfront-planningsrecord op de volgende manieren delen:
 
 * Een koppeling naar de record delen.
 
-  Voor meer informatie, zie [ verslagen van het Aandeel gebruikend een verbinding ](/help/quicksilver/planning/records/share-records.md).
+  Voor meer informatie, zie [&#x200B; verslagen van het Aandeel gebruikend een verbinding &#x200B;](/help/quicksilver/planning/records/share-records.md).
 
 * Deel alle records in een werkruimte met andere gebruikers door de werkruimte en het recordtype te delen.
 
@@ -51,7 +51,7 @@ U kunt een Adobe Workfront-planningsrecord op de volgende manieren delen:
 >Gebruikers met toegang tot een werkruimte krijgen automatisch minstens weergavemachtigingen voor alle records in de werkruimte.
 >Als u weergaven deelt, geeft u gebruikers geen machtigingen voor records. Alleen werkruimten delen kan gebruikers machtigingen verlenen voor het opnemen van typen en records.
 >
->Voor algemene informatie over het delen van voorwerpen in de Planning van Workfront, zie ook [ Overzicht van het delen van toestemmingen in de Planning van Adobe Workfront ](/help/quicksilver/planning/access/sharing-permissions-overview.md).
+>Voor algemene informatie over het delen van voorwerpen in de Planning van Workfront, zie ook [&#x200B; Overzicht van het delen van toestemmingen in de Planning van Adobe Workfront &#x200B;](/help/quicksilver/planning/access/sharing-permissions-overview.md).
 
 
 ## Toegangsvereisten
@@ -104,7 +104,7 @@ of
 </tbody> 
 </table>
 
-Voor meer informatie over de toegangsvereisten van Workfront, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer informatie over de toegangsvereisten van Workfront, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
