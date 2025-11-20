@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 40722f2b-f8b2-4dc5-805e-2b434a0d46c3
-source-git-commit: 15ac51cc13eeb57d2de194a9a6ceec7683acfbe6
+source-git-commit: f4043daeb7a7dad84b6232b5ac133fd59ca64292
 workflow-type: tm+mt
-source-wordcount: '258'
+source-wordcount: '360'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 U kunt zien welke aangepaste formulieren een aangepast veld of een aangepaste widget gebruiken die u wilt wijzigen of verwijderen. Het is belangrijk om te beoordelen of die douaneformulieren aanpassingen nodig zullen hebben om behoorlijk te blijven werken of nuttig te blijven nadat u het gebied of widget verandert of schrapt.
 
-Voor informatie over douanegebieden en widgets in douanevormen, zie [&#x200B; een douanevorm &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren.
+Voor informatie over douanegebieden en widgets in douanevormen, zie [ een douanevorm ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren.
 
 ## Toegangsvereisten
 
@@ -45,14 +45,31 @@ Voor informatie over douanegebieden en widgets in douanevormen, zie [&#x200B; ee
  </tbody> 
 </table>
 
-Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Ontdek welke aangepaste formulieren een bepaald aangepast veld of een bepaalde aangepaste widget gebruiken
 
+U kunt als volgt het gebruik van een veld in de lijst met alle aangepaste velden weergeven:
+
 {{step-1-to-setup}}
 
 1. In het linkerpaneel, klik **Aangepaste Forms**.
-1. Klik **Gebieden**, zoek het gebied of widget in de **3&rbrace; kolom van de Naam &lbrace;, dan bekijk de** Forms **kolom om te zien welke douanevormen het gebied of widget gebruiken.**
+1. Klik **Gebieden**, zoek het gebied of widget in de **3} kolom van de Naam {, dan bekijk de** Forms **kolom om te zien welke douanevormen het gebied of widget gebruiken.**
 1. (Optioneel) Klik op de naam van een van deze aangepaste formulieren om naar het formulier te gaan en te overwegen welke wijzigingen u daar moet aanbrengen als u het veld of de widget wijzigt.
+
+Het gebruik van een veld in een aangepast formulier bekijken:
+
+{{step-1-to-setup}}
+
+1. In het linkerpaneel, klik **Aangepaste Forms**.
+1. Open een aangepast formulier en voeg een veld toe uit de bibliotheek of selecteer een bestaand veld op het formulier.
+
+   De gebruiksindicator rechts van de formulierontwerper toont hoeveel andere aangepaste formulieren dit veld gebruiken.
+
+1. Klik **Mening Verwante Forms**.
+
+   In de lijst met formulieren kunt u op elke formuliernaam klikken om het formulier te openen en te zien hoe het veld wordt gebruikt. Een indicator geeft aan of elk formulier actief of inactief is.
+
+
