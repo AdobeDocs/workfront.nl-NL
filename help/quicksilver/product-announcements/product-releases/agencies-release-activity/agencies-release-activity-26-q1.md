@@ -22,7 +22,7 @@ In dit artikel worden de agentspecifieke Workfront-functies beschreven die tijde
 
 <!--keep the sentence below for all future quarterly release pages-->
 
-Voor een lijst van alle agentschapeigenschappen die voor Adobe Workfront worden vrijgegeven, zie [ de activiteit van de agentschapsversie van Adobe Workfront: artikelindex ](/help/quicksilver/product-announcements/product-releases/agencies-release-activity/agencies-release-activity-article-index.md).
+Voor een lijst van alle agentschapeigenschappen die voor Adobe Workfront worden vrijgegeven, zie [&#x200B; de activiteit van de agentschapsversie van Adobe Workfront: artikelindex &#x200B;](/help/quicksilver/product-announcements/product-releases/agencies-release-activity/agencies-release-activity-article-index.md).
 
 ## De roltarieven in tariefkaarten aanpassen
 
