@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 hide: true
 hidefromtoc: true
-source-git-commit: 4f0ab97409ea959d195dd0bf856d53982402e7fc
+source-git-commit: 5068386e314e9c4c75ec5f9142c9f101b2c1e43f
 workflow-type: tm+mt
-source-wordcount: '630'
+source-wordcount: '664'
 ht-degree: 0%
 
 ---
@@ -16,12 +16,11 @@ ht-degree: 0%
 
 # Overzicht van Experience Cloud-berichten
 
-Adobe Workfront verenigt alle DX-producten (Digital Experience) met één consistent meldingssysteem, de zogenaamde Experience Cloud Notifications. Vanaf februari 2026 wordt automatisch begonnen met het migreren van uw oude Workfront Notification-services naar het centrale berichtensysteem van Adobe.
+Adobe Workfront verenigt alle DX-producten (Digital Experience) met één consistent meldingssysteem, de zogenaamde Experience Cloud Notifications. Vanaf of rond februari 2026 wordt automatisch begonnen met het migreren van uw oude Workfront Notification-services naar het centrale berichtensysteem van Adobe.
 
-Na de migratie hebt u toegang tot alle meldingen in Adobe Workfront en andere Adobe DX-toepassingen op één locatie, zodat u eenvoudig op de hoogte kunt blijven en uw voorkeuren kunt beheren.
+Na deze overgang hebt u toegang tot alle meldingen in Adobe Workfront en andere Adobe DX-toepassingen op één locatie, zodat u eenvoudig op de hoogte kunt blijven en uw voorkeuren kunt beheren.
 
-![&#x200B; Mededelingen &#x200B;](assets/announcements-center.png)
-
+![ Mededelingen ](assets/announcements-center.png)
 
 ## Waarom we deze wijziging maken
 
@@ -35,8 +34,9 @@ Workfront maakt deel uit van de Adobe-suite met producten voor digitale beleving
 ## Wat verandert
 
 * Het Workfront-waarschuwingspictogram in de bovenste koptekst is vervangen door één meldingspictogram.
-* Uw meldingsinstellingen zijn nu toegankelijk via het nieuwe deelvenster Experience Cloud-meldingen en de pagina Alle meldingen.
+* Uw instellingen voor persoonlijke meldingen zijn nu toegankelijk via het nieuwe deelvenster Experience Cloud-meldingen en de pagina Alle meldingen. Eerder werden deze benaderd in uw gebruikersprofiel.
 * Er zijn nieuwe filters en leveringsopties beschikbaar.
+* Het aanpassen van onderwerpregel voor e-mailmeldingen is niet meer beschikbaar.
 
 ## Wat blijft er hetzelfde?
 
@@ -47,7 +47,6 @@ Workfront maakt deel uit van de Adobe-suite met producten voor digitale beleving
 * Workfront blijft meldingen activeren op basis van je werkobjecten.
 
 * Workfront-gegevens en -machtigingen blijven ongewijzigd.
-
 
 ## Nieuwe berichten weergeven in Experience Cloud
 
@@ -69,20 +68,17 @@ Workfront maakt deel uit van de Adobe-suite met producten voor digitale beleving
 >
 >Neem contact op met de beheerder als u geen toegang hebt tot de instellingen voor persoonlijke meldingen.
 
-
 1. In de hoger-juiste hoek van Workfront, klik het **pictogram van Meldingen** pictogram van Berichten ![.](assets/bell-icon.png)
 
-1. In de hoger-juiste hoek van het **Experience Cloud** paneel, klik het **pictogram van Montages** pictogram ![&#x200B; van Montages &#x200B;](assets/settings-icon.png).
+1. In de hoger-juiste hoek van het **Experience Cloud** paneel, klik het **pictogram van Montages** pictogram ![ van Montages ](assets/settings-icon.png).
 
-1. In de **sectie van Berichten**, klik de de tegelpijl van het pijlpictogram ![&#x200B; Workfront &#x200B;](assets/arrow-icon.png) op de **Workfront** tegel.
+1. In de **sectie van Berichten**, klik de de tegelpijl van het pijlpictogram ![ Workfront ](assets/arrow-icon.png) op de **Workfront** tegel.
 
 1. In **breng me op de hoogte over de volgende categorieën** sectie, selecteer het type van bericht u voor zowel **Vermeldingen** als **Verzoeken** wilt ontvangen:
    * **Vermeldingen**: Ontvang een bericht wanneer iemand u in een commentaar etiketteert.
    * **Verzoeken**: Ontvang een bericht wanneer u een verzoek bent verzonden om toegang tot een voorwerp goed te keuren of te verlenen.
 
 1. (Optioneel) Als u bepaalde typen meldingen niet meer wilt ontvangen, schakelt u het vakje uit voor elk type dat momenteel is geselecteerd. Uw wijzigingen worden automatisch opgeslagen.
-
-   ![&#x200B; het type van Bericht selecties &#x200B;](assets/select-notification-types.png)
 
 ## Veelgestelde vragen
 
@@ -93,15 +89,16 @@ Nee. Je historische berichten blijven toegankelijk in Workfront, maar nieuwe ber
 
 +++ Moeten mijn gebruikers iets doen?
 
-Over het algemeen, nee. Workfront-beheerders verifiëren eerst de instellingen en vervolgens zien gebruikers het nieuwe pictogram Meldingen nadat de overgang naar Experience Cloud heeft plaatsgevonden.
+In eerste instantie niet. Workfront-beheerders verifiëren eerst de instellingen en vervolgens zien gebruikers het nieuwe pictogram Meldingen nadat de overgang naar Experience Cloud heeft plaatsgevonden. Van daaruit zullen zij moeten leren hoe te om tot hun persoonlijke berichten toegang te hebben.
 +++
 
 +++Wat als mijn organisatie niet klaar is om over te stappen naar Experience Cloud?
 
-Als u de overgang opnieuw wilt plannen, dient u contact op te nemen met het team van Adobe Services. Alle klanten moeten echter naar de nieuwe ervaring met meldingen gaan, dus een eerdere goedkeuring wordt aanbevolen.
+Als u de overgang opnieuw wilt plannen, moet u contact opnemen met uw accountteam of de klantenondersteuning. Alle klanten moeten echter naar de nieuwe ervaring met meldingen gaan, dus een eerdere goedkeuring wordt aanbevolen.
 +++
 
 +++Zal dit gevolgen hebben voor de integratie of automatisering van Workfront?
 
 Nee. Alle bestaande integraties en automatiseringen zullen blijven functioneren zoals gebruikelijk.
 +++
+
