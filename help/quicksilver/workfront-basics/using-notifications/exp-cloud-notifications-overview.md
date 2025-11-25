@@ -20,7 +20,7 @@ Adobe Workfront verenigt alle DX-producten (Digital Experience) met één consis
 
 Na deze overgang hebt u toegang tot alle meldingen in Adobe Workfront en andere Adobe DX-toepassingen op één locatie, zodat u eenvoudig op de hoogte kunt blijven en uw voorkeuren kunt beheren.
 
-![ Mededelingen ](assets/announcements-center.png)
+![&#x200B; Mededelingen &#x200B;](assets/announcements-center.png)
 
 ## Waarom we deze wijziging maken
 
@@ -68,9 +68,9 @@ Workfront maakt deel uit van de Adobe-suite met producten voor digitale beleving
 
 1. In de hoger-juiste hoek van Workfront, klik het **pictogram van Meldingen** pictogram van Berichten ![.](assets/bell-icon.png)
 
-1. In de hoger-juiste hoek van het **Experience Cloud** paneel, klik het **pictogram van Montages** pictogram ![ van Montages ](assets/settings-icon.png).
+1. In de hoger-juiste hoek van het **Experience Cloud** paneel, klik het **pictogram van Montages** pictogram ![&#x200B; van Montages &#x200B;](assets/settings-icon.png).
 
-1. In de **sectie van Berichten**, klik de de tegelpijl van het pijlpictogram ![ Workfront ](assets/arrow-icon.png) op de **Workfront** tegel.
+1. In de **sectie van Berichten**, klik de de tegelpijl van het pijlpictogram ![&#x200B; Workfront &#x200B;](assets/arrow-icon.png) op de **Workfront** tegel.
 
 1. In **breng me op de hoogte over de volgende categorieën** sectie, selecteer het type van bericht u voor zowel **Vermeldingen** als **Verzoeken** wilt ontvangen:
    * **Vermeldingen**: Ontvang een bericht wanneer iemand u in een commentaar etiketteert.
