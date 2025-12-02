@@ -49,7 +49,7 @@ Objecten in Workfront (en dus ook in het Data Connect Data Lake) worden niet all
 >[!IMPORTANT]
 >
 >Het verstrekte entiteitrelatiediagram (ERD) is opzettelijk onvolledig aangezien een volledig ERD onleesbaar zou worden als gevolg van het grote aantal relaties binnen de toepassing.<br>
->Dit diagram verstrekt een voorbeeld van hoe de verhoudingen die in de lijst van het Project in de [ lijst van de Terminologie ](#terminology-table) hieronder sectie worden gedocumenteerd kunnen worden gebruikt om zich bij gegevens van de gegevensmening van het Project aan aangrenzende voorwerpen aan te sluiten. Er wordt verwacht dat een volledige ERD niet nodig is zodra dit patroon wordt begrepen voor de projectobjectrelaties
+>Dit diagram verstrekt een voorbeeld van hoe de verhoudingen die in de lijst van het Project in de [&#x200B; lijst van de Terminologie &#x200B;](#terminology-table) hieronder sectie worden gedocumenteerd kunnen worden gebruikt om zich bij gegevens van de gegevensmening van het Project aan aangrenzende voorwerpen aan te sluiten. Er wordt verwacht dat een volledige ERD niet nodig is zodra dit patroon wordt begrepen voor de projectobjectrelaties
 
 ## Datumtypen
 
@@ -1665,15 +1665,15 @@ De volgende tabel correleert objectnamen in Workfront (en hun namen in de interf
 >
 >Het type record wordt bepaald via de eigenschap `enumClass` . Het volgende is de verwachte types:<br>
 ><ul><li>CONDITION_OPTASK</li>
-&gt;<li>CONDITION_PROJ</li>
-&gt;<li>CONDITION_TASK</li>
-&gt;<li>PRIORITY_OPTASK</li>
-&gt;<li>PRIORITY_PROJ</li>
-&gt;<li>PRIORITY_TASK</li>
-&gt;<li>SEVERITY_OPTASK</li>
-&gt;<li>STATUS_OPTASK</li>
-&gt;<li>STATUS_PROJ</li>
-&gt;<li>STATUS_TASK</li></ul>
+>&gt;<li>CONDITION_PROJ</li>
+>&gt;<li>CONDITION_TASK</li>
+>&gt;<li>PRIORITY_OPTASK</li>
+>&gt;<li>PRIORITY_PROJ</li>
+>&gt;<li>PRIORITY_TASK</li>
+>&gt;<li>SEVERITY_OPTASK</li>
+>&gt;<li>STATUS_OPTASK</li>
+>&gt;<li>STATUS_PROJ</li>
+>&gt;<li>STATUS_TASK</li></ul>
 
 
 ### Document
