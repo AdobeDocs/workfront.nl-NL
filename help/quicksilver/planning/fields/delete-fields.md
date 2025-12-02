@@ -6,7 +6,7 @@ role: User, Admin
 recommendations: noDisplay, noCatalog
 author: Alina
 exl-id: ec48db42-2395-4439-97ae-e4f5242170b7
-source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
+source-git-commit: 476e10f2962f19fd17705cb5f20619d3b636aaa4
 workflow-type: tm+mt
 source-wordcount: '401'
 ht-degree: 0%
@@ -25,7 +25,7 @@ ht-degree: 0%
 
 In de Planning van Adobe Workfront, kunt u douanevelden tot stand brengen om informatie over verslagen op te slaan.
 
-Voor informatie over het creëren van douanegebieden in de Planning van Workfront, zie [&#x200B; gebieden &#x200B;](/help/quicksilver/planning/fields/create-fields.md) creëren.
+Voor informatie over het creëren van douanegebieden in de Planning van Workfront, zie [ gebieden ](/help/quicksilver/planning/fields/create-fields.md) creëren.
 
 U kunt Workfront-planningsvelden verwijderen die niet meer relevant zijn.
 
@@ -42,7 +42,7 @@ U kunt Workfront-planningsvelden verwijderen die niet meer relevant zijn.
    * Het veld Product Status opzoeken uit de campagne
    * Het veld Campagne verbonden vanuit het product.
 
-  Voor meer informatie, zie [&#x200B; Connect verslagtypes &#x200B;](/help/quicksilver/planning/architecture/connect-record-types.md).
+  Voor meer informatie, zie [ Connect verslagtypes ](/help/quicksilver/planning/architecture/connect-record-types.md).
 
 <!-- this is not possible yet, since fields cannot be shared yet; maybe move this up a bit, in this bullet list: * When you delete a field, it is deleted from all records associated with the field.-->
 
@@ -64,13 +64,13 @@ U kunt Workfront-planningsvelden verwijderen die niet meer relevant zijn.
    <td> 
 <ul> 
 <li><p>Alle Workfront en alle planningspakketten</p></li>
-<p>of</p>
+of
 <li><p>Willekeurige workflow en planningspakket</p></li></ul>
 
 <!--
 <p><span class="preview">To delete global record types:</span</p>
 <ul><li><p><span class="preview">Any Workfront package and a Planning Plus package</span></p></li>
-<p>Or</p>
+Or
 <li><p><span class="preview">Workflow and Planning Prime and Ultimate packages</span></p></li></ul>
 -->
 
@@ -89,7 +89,7 @@ U kunt Workfront-planningsvelden verwijderen die niet meer relevant zijn.
 </tbody> 
 </table>
 
-Voor meer informatie over de toegangsvereisten van Workfront, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer informatie over de toegangsvereisten van Workfront, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++   
 
@@ -169,7 +169,7 @@ Voor meer informatie over de toegangsvereisten van Workfront, zie [&#x200B; vere
 
 1. Zoek het veld dat u wilt verwijderen in de kolomkoppen en houd de cursor boven de kolomkop en klik vervolgens op de pijl omlaag na de veldnaam.
 
-   ![&#x200B; het menu van de Pijl na naam van gebied in benadrukte lijstkopbal &#x200B;](assets/arrow-menu-after-name-of-field-in-table-header-highlighted.png)
+   ![ het menu van de Pijl na naam van gebied in benadrukte lijstkopbal ](assets/arrow-menu-after-name-of-field-in-table-header-highlighted.png)
 
 1. Klik **Schrapping**. <!-- check this: they might replace it with **Delete field**-->
 

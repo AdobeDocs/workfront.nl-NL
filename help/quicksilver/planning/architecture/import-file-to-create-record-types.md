@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 2afd6d57-d658-4065-86f5-2324d3818d1f
-source-git-commit: 1f9a0e6064f83c6f0947e3c7ef596e96c934a687
+source-git-commit: 476e10f2962f19fd17705cb5f20619d3b636aaa4
 workflow-type: tm+mt
 source-wordcount: '801'
 ht-degree: 0%
@@ -40,7 +40,7 @@ Recordtypen zijn de objecttypen voor Adobe Workfront Planning. In de Planning va
    <td role="rowheader"><p>Adobe Workfront-pakket</p></td> 
    <td> 
 <p>Alle Workfront en alle planningspakketten</p>
-<p>of</p>
+of
 <p>Willekeurige workflow en planningspakket</p>
 <p>Neem voor meer informatie over wat er in elk planningspakket voor Workfront staat, contact op met uw Workfront-accountvertegenwoordiger. </p> 
    </td> 
@@ -57,7 +57,7 @@ Recordtypen zijn de objecttypen voor Adobe Workfront Planning. In de Planning va
 </tbody> 
 </table>
 
-Voor meer informatie over de toegangsvereisten van Workfront, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer informatie over de toegangsvereisten van Workfront, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++   
 
@@ -162,7 +162,7 @@ Recordtypen importeren met een Excel- of CSV-bestand:
    * Het eerste blad of recordtype wordt geselecteerd en de namen van de bijbehorende velden worden als kolomkoppen weergegeven. Het type van elk gebied wordt geselecteerd door gebrek.
    * Elke rij vertegenwoordigt een nieuwe record. Alleen de eerste 10 records worden weergegeven in het vak Voorbeeld en bewerken.
 
-   ![&#x200B; Voorproef en geef doos uit &#x200B;](assets/preview-and-edit-box.png)
+   ![ Voorproef en geef doos uit ](assets/preview-and-edit-box.png)
 
 1. (Optioneel) Klik op de naam van elk blad in het linkerdeelvenster om de informatie in het blad te bekijken.
 
@@ -172,13 +172,13 @@ Recordtypen importeren met een Excel- of CSV-bestand:
 
 1. (Optioneel) Schakel de bladen uit die u niet vanuit het linkerdeelvenster wilt importeren.
 
-   ![&#x200B; Uitgezochte bladen om drop-down met unselected in te voeren &#x200B;](assets/select-sheets-to-import-drop-down-with-unselected.png)
+   ![ Uitgezochte bladen om drop-down met unselected in te voeren ](assets/select-sheets-to-import-drop-down-with-unselected.png)
 
    Bladen die u hebt uitgeschakeld, worden weergegeven met een grijze achtergrond.
 
 1. (Optioneel) Klik op de pijl die omlaag wijst rechts van een kolomkop om een van de volgende handelingen uit te voeren, op het **Veld** -tabblad:
 
-   ![&#x200B; lusje van het Gebied op de de invoerdoos van het verslagtype &#x200B;](assets/field-tab-on-record-type-import-mapping-box.png)
+   ![ lusje van het Gebied op de de invoerdoos van het verslagtype ](assets/field-tab-on-record-type-import-mapping-box.png)
 
    * De naam van een veld wijzigen
    * Verander het **type van Gebied**
@@ -186,11 +186,11 @@ Recordtypen importeren met een Excel- of CSV-bestand:
 
 1. (Facultatief) klik het **lusje van de Verbinding** om de informatie in de kolom aan een verbonden gebied van andere verslagtypes in kaart te brengen.
 
-   ![&#x200B; het lusje van de Verbinding op de doos van de de invoerafbeelding van het verslagtype &#x200B;](assets/connection-tab-on-record-type-import-mapping-box.png)
+   ![ het lusje van de Verbinding op de doos van de de invoerafbeelding van het verslagtype ](assets/connection-tab-on-record-type-import-mapping-box.png)
 
    >[!TIP]
    >
-   >U kunt slechts aan gebieden van de Planning van Workfront verbonden verslagen in kaart brengen. U kunt geen velden toewijzen vanuit Workfront-, AEM Assets- of GenStudio Brands-verbindingen. Voor meer informatie, zie de sectie [&#x200B; Overwegingen over het invoeren van verslagtypes gebruikend een Excel of Csv- dossier &#x200B;](#considerations-about-importing-record-types-using-an-excel-or-csv-file) in dit artikel.
+   >U kunt slechts aan gebieden van de Planning van Workfront verbonden verslagen in kaart brengen. U kunt geen velden toewijzen vanuit Workfront-, AEM Assets- of GenStudio Brands-verbindingen. Voor meer informatie, zie de sectie [ Overwegingen over het invoeren van verslagtypes gebruikend een Excel of Csv- dossier ](#considerations-about-importing-record-types-using-an-excel-or-csv-file) in dit artikel.
 
 1. (Voorwaardelijk) na het bijwerken van informatie over het gebied, klik **sparen**.
 
