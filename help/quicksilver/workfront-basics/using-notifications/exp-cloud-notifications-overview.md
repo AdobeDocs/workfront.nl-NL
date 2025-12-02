@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 hide: true
 hidefromtoc: true
-source-git-commit: 32fc05b24c762fafcb50875fa014c5fe76d584d1
+source-git-commit: 0c21f5a1df8bf1bc54d4ca73ba8d02808432e321
 workflow-type: tm+mt
-source-wordcount: '674'
+source-wordcount: '689'
 ht-degree: 0%
 
 ---
@@ -16,11 +16,13 @@ ht-degree: 0%
 
 # Overzicht van Experience Cloud-berichten
 
-Adobe Workfront verenigt alle DX-producten (Digital Experience) met één consistent meldingssysteem, de zogenaamde Experience Cloud Notifications. Vanaf of rond februari 2026 worden uw bestaande Workfront Notification-services gemigreerd naar Adobe, een gecentraliseerd meldingssysteem waarvan ons team u op de hoogte zal stellen voordat dit gebeurt.
+Adobe Workfront-berichten gaan naar Adobe, het gecentraliseerde meldingssysteem, de zogenaamde Experience Cloud Notifications. Dit meldingssysteem wordt gebruikt door alle producten voor digitale ervaring.
 
-Na deze overgang hebt u toegang tot alle meldingen in Adobe Workfront en andere Adobe DX-toepassingen op één locatie, zodat u eenvoudig op de hoogte kunt blijven en uw voorkeuren kunt beheren.
+Vanaf of rond februari 2026 worden huidige Workfront-e-mail en -meldingen in de app gemigreerd naar Experience Cloud-berichten. Dit werk zal in fasen worden afgerond. Het Workfront-team zal uw organisatie op de hoogte stellen voordat de migratie wordt gestart.
 
-![&#x200B; Mededelingen &#x200B;](assets/announcements-center.png)
+Na deze overgang hebben gebruikers toegang tot alle berichten in Adobe Workfront en andere Adobe DX-toepassingen op één locatie, waardoor ze eenvoudiger op de hoogte blijven en hun voorkeuren beter kunnen beheren.
+
+![ Mededelingen ](assets/announcements-center.png)
 
 ## Waarom we deze wijziging maken
 
@@ -68,9 +70,9 @@ Workfront maakt deel uit van de Adobe-suite met producten voor digitale beleving
 
 1. In de hoger-juiste hoek van Workfront, klik het **pictogram van Meldingen** pictogram van Berichten ![.](assets/bell-icon.png)
 
-1. In de hoger-juiste hoek van het **Experience Cloud** paneel, klik het **pictogram van Montages** pictogram ![&#x200B; van Montages &#x200B;](assets/settings-icon.png).
+1. In de hoger-juiste hoek van het **Experience Cloud** paneel, klik het **pictogram van Montages** pictogram ![ van Montages ](assets/settings-icon.png).
 
-1. In de **sectie van Berichten**, klik de de tegelpijl van het pijlpictogram ![&#x200B; Workfront &#x200B;](assets/arrow-icon.png) op de **Workfront** tegel.
+1. In de **sectie van Berichten**, klik de de tegelpijl van het pijlpictogram ![ Workfront ](assets/arrow-icon.png) op de **Workfront** tegel.
 
 1. In **breng me op de hoogte over de volgende categorieën** sectie, selecteer het type van bericht u voor zowel **Vermeldingen** als **Verzoeken** wilt ontvangen:
    * **Vermeldingen**: Ontvang een bericht wanneer iemand u in een commentaar etiketteert.
