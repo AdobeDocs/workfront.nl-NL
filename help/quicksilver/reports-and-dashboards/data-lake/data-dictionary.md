@@ -7,9 +7,9 @@ description: Deze pagina bevat informatie over de structuur en inhoud van de geg
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 57985404-554e-4289-b871-b02d3427aa5c
-source-git-commit: e06db80d752d79157c758b3ecf3a8d4e7040e96d
+source-git-commit: 815bee06ce413005e362d2e38068d591696cad5b
 workflow-type: tm+mt
-source-wordcount: '8788'
+source-wordcount: '8878'
 ht-degree: 1%
 
 ---
@@ -20,7 +20,7 @@ Deze pagina bevat informatie over de structuur en inhoud van de gegevens in Work
 
 >[!NOTE]
 >
->De gegevens in Data Connect worden elke vier uur vernieuwd, zodat recente wijzigingen mogelijk niet direct worden doorgevoerd.
+>De gegevens in Data Connect worden elke 4 uur vernieuwd, zodat recente wijzigingen mogelijk niet direct worden doorgevoerd.
 
 ## Typen weergeven
 
@@ -49,7 +49,7 @@ Objecten in Workfront (en dus ook in het Data Connect Data Lake) worden niet all
 >[!IMPORTANT]
 >
 >Het verstrekte entiteitrelatiediagram (ERD) is opzettelijk onvolledig aangezien een volledig ERD onleesbaar zou worden als gevolg van het grote aantal relaties binnen de toepassing.<br>
->&#x200B;>Dit diagram verstrekt een voorbeeld van hoe de verhoudingen die in de lijst van het Project in de [&#x200B; lijst van de Terminologie &#x200B;](#terminology-table) hieronder sectie worden gedocumenteerd kunnen worden gebruikt om zich bij gegevens van de gegevensmening van het Project aan aangrenzende voorwerpen aan te sluiten. Er wordt verwacht dat een volledige ERD niet nodig is zodra dit patroon wordt begrepen voor de projectobjectrelaties
+>Dit diagram verstrekt een voorbeeld van hoe de verhoudingen die in de lijst van het Project in de [ lijst van de Terminologie ](#terminology-table) hieronder sectie worden gedocumenteerd kunnen worden gebruikt om zich bij gegevens van de gegevensmening van het Project aan aangrenzende voorwerpen aan te sluiten. Er wordt verwacht dat een volledige ERD niet nodig is zodra dit patroon wordt begrepen voor de projectobjectrelaties
 
 ## Datumtypen
 
@@ -67,7 +67,7 @@ De volgende tabel correleert objectnamen in Workfront (en hun namen in de interf
 >[!NOTE]
 >
 >Nieuwe velden kunnen zonder voorafgaande kennisgeving aan de objectweergaven worden toegevoegd ter ondersteuning van de veranderende gegevensbehoeften van de Workfront-toepassing. Wij waarschuwen tegen het gebruiken van &quot;UITGEZOCHTE&quot;vragen waar de stroomafwaartse gegevensontvanger niet bereid is om extra kolommen te behandelen aangezien zij worden toegevoegd.<br>
->&#x200B;>Als het anders noemen of het verwijderen van een kolom wordt vereist, zullen wij vooraf bericht van deze veranderingen verstrekken.
+>Als het anders noemen of het verwijderen van een kolom wordt vereist, zullen wij vooraf bericht van deze veranderingen verstrekken.
 
 ### Toegangsniveau
 
@@ -1660,17 +1660,21 @@ De volgende tabel correleert objectnamen in Workfront (en hun namen in de interf
         </tr>
     </tbody>
 </table>
-<div>* Het type record wordt geïdentificeerd via de eigenschap ` enumClass`. Het volgende is de verwachte types:<br>
-<ul><li>CONDITION_OPTASK</li>
-<li>CONDITION_PROJ</li>
-<li>CONDITION_TASK</li>
-<li>PRIORITY_OPTASK</li>
-<li>PRIORITY_PROJ</li>
-<li>PRIORITY_TASK</li>
-<li>SEVERITY_OPTASK</li>
-<li>STATUS_OPTASK</li>
-<li>STATUS_PROJ</li>
-<li>STATUS_TASK</li></ul></div>
+
+>[!NOTE]
+>
+>Het type record wordt bepaald via de eigenschap `enumClass` . Het volgende is de verwachte types:<br>
+><ul><li>CONDITION_OPTASK</li>
+&gt;<li>CONDITION_PROJ</li>
+&gt;<li>CONDITION_TASK</li>
+&gt;<li>PRIORITY_OPTASK</li>
+&gt;<li>PRIORITY_PROJ</li>
+&gt;<li>PRIORITY_TASK</li>
+&gt;<li>SEVERITY_OPTASK</li>
+&gt;<li>STATUS_OPTASK</li>
+&gt;<li>STATUS_PROJ</li>
+&gt;<li>STATUS_TASK</li></ul>
+
 
 ### Document
 
@@ -6601,6 +6605,11 @@ Beperkte beschikbaarheid van klanten
         </tr>
     </tbody>
 </table>
+
+>[!NOTE]
+>
+>Er zijn 3 teamtypes die in de de objecten van het Team lijsten worden opgeslagen: PROJECT, SJABLOON, en ADHOC. <br>
+>Elk van deze teamtypen wordt samen weergegeven in de Data Connect-weergaven voor gegevens in het meer. Als u het specifieke type team wilt isoleren dat u wilt retourneren, moet u filteren op de kolom `teamtype` . Bijvoorbeeld, als u slechts de traditionele teams wilt die deel van uw organisatorische structuren uitmaken, die in het gebied van Teams van de toepassing worden gevormd, zou u een vraag kunnen hebben die iets als dit kijkt: <code> uitgezocht * van teams_current waar teamtype = &quot;ADHOC&quot;;</code>
 
 ### Teamlid
 
