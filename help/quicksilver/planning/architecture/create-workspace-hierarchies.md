@@ -1,12 +1,12 @@
 ---
 title: Workspace-hiërarchieën maken
-description: U kunt meerdere werkruimtemhiërarchieën maken tussen de recordtypen in een werkruimte.
+description: Als werkruimtemanager kunt u meerdere werkruimtemhiërarchieën maken tussen de recordtypen in Adobe Workfront Planning. Nadat u recordtypes in een werkruimte verbindt en een hiërarchie creeert, worden de verslagtypes verbonden met elkaar, met één verslagtype dat als ouder en tot 6 andere verslagtypes wordt aangewezen die als kinderen worden gevormd.
 hide: true
 hidefromtoc: true
 exl-id: 2f83c427-4439-499d-a0b2-fc8630552cae
-source-git-commit: 476e10f2962f19fd17705cb5f20619d3b636aaa4
+source-git-commit: ff9371b639e7684a94c08b8cd6293b632fac9edf
 workflow-type: tm+mt
-source-wordcount: '117'
+source-wordcount: '248'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,14 @@ hidefromtoc: yes
 
 # Hiërarchieën voor werkruimten maken
 
-U kunt meerdere werkruimtemhiërarchieën maken tussen de recordtypen in een werkruimte.
+Als werkruimtemanager kunt u meerdere werkruimtemhiërarchieën maken tussen de recordtypen in Adobe Workfront Planning.
+
+Nadat u recordtypes in een werkruimte verbindt en een hiërarchie creeert, worden de verslagtypes verbonden met elkaar, met één verslagtype dat als ouder en tot 6 andere verslagtypes wordt aangewezen die als kinderen worden gevormd. <!--asking Robert how many we can have in one hierarchy; I think 7 total but not sure-->
+
+Hierarchieën genereren broodkruimels voor de recordtypen en records <!--ensure this is the case: does the breadcrumb show for both the RT and the record??--> die in de koppen worden weergegeven. Op deze manier weten gebruikers waar ze zich in de hiërarchie bevinden in elk stadium van hun workflow.
+
+Voor algemene informatie over hiërarchieën en broodkruimels, zie [ Hiërarchie en breadcrumb overzicht ](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md).
+
 
 ## Toegangsvereisten
 
@@ -69,6 +76,8 @@ of
 </tbody> 
 </table>
 
-Voor meer informatie over de toegangsvereisten van Workfront, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer informatie over de toegangsvereisten van Workfront, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+## Een werkruimtehiërarchie maken
