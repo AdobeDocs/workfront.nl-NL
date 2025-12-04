@@ -8,9 +8,9 @@ role: Admin
 recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
-source-git-commit: bc222ec76ac94a44c33ee166036d84c164b1da01
+source-git-commit: fb1b5bb34810652e5098f0dcad70062670d7c137
 workflow-type: tm+mt
-source-wordcount: '254'
+source-wordcount: '324'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ In dit artikel worden de Workfront-functies voor beperkte beschikbaarheid beschr
 
 <!--keep the sentence below for all future quarterly release pages-->
 
-Voor een lijst van alle beperkte beschikbaarheidseigenschappen die voor Adobe Workfront worden vrijgegeven, zie [&#x200B; Adobe Workfront beperkte de activiteit van de beschikbaarheidseigenschappen vrijgeven: artikelindex &#x200B;](/help/quicksilver/product-announcements/product-releases/limited-availability-release-activity/limited-availability-release-activity-article-index.md).
+Voor een lijst van alle beperkte beschikbaarheidseigenschappen die voor Adobe Workfront worden vrijgegeven, zie [ Adobe Workfront beperkte de activiteit van de beschikbaarheidseigenschappen vrijgeven: artikelindex ](/help/quicksilver/product-announcements/product-releases/limited-availability-release-activity/limited-availability-release-activity-article-index.md).
 
 ## Opmerkingen bij de release met functies voor beperkte beschikbaarheid
 
@@ -50,13 +50,19 @@ Voor de Geavanceerde Toewijzingen Geavanceerde Onderzoek, die een optie voor **H
 
 De KPI voor geplande uren in het scherm Geavanceerde toewijzingen kan niet meer worden bewerkt als de taakduur 0 is. Eerder kon u de geplande uren bewerken, maar de wijzigingen zijn niet opgeslagen.
 
-<!--### Maintenance Updates week of November 30-December 6, 2025
+### Onderhoudsupdates week van 30-december 6, 2025
+
+**het gebied van de Datum van het Tarief van de Uitwisseling verborgen wanneer datum-efficiënte wisselkoersen niet worden gebruikt**
+
+Het **gebied van de Datum van het Tarief van de Uitwisseling 0} in de Details van het Project > het gebied van de Financiën is nu verborgen wanneer het** gebruiken datum-efficiënte wisselkoersen van het systeem **controlevakje niet wordt geselecteerd.** Eerder, toen het uitgeven van een project, werd het datumgebied getoond op de projectdetails zelfs toen datum-efficiënte wisselkoersen niet werden toegelaten.
+
+<!--### Maintenance Updates week of December 7-13, 2025
 
 **Title**
 
 text
 
-### Maintenance Updates week of December 7-13, 2025
+### Maintenance Updates week of January 4-10, 2026
 
 **Title**
 
