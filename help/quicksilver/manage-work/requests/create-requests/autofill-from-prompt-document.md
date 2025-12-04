@@ -1,18 +1,18 @@
 ---
-title: Gebruik de Vulling van het AI-formulier om een aanvraag in te vullen met aanwijzingen of documenten
+title: Formuliervulling van AI gebruiken om een aanvraag in te vullen met vragen of documenten
 content-type: reference
 description: Met AI kunt u aanvraagvelden automatisch invullen door een vraag in te voeren of een document te leveren.
 author: Becky
 feature: Get Started with Workfront
 exl-id: 4a22f9ea-c9ee-4947-8683-9989c54903b1
-source-git-commit: aa3ae2a5d92420f4adcedb60a4f7404533eaa59b
+source-git-commit: 3c319ff406ca7705e618f3159edcf87d27d8229e
 workflow-type: tm+mt
-source-wordcount: '1345'
+source-wordcount: '1370'
 ht-degree: 0%
 
 ---
 
-# Gebruik de Vulling van het AI-formulier om een aanvraag in te vullen met aanwijzingen of documenten
+# Formuliervulling van AI gebruiken om een aanvraag in te vullen met vragen of documenten
 
 >[!NOTE]
 >
@@ -21,7 +21,7 @@ ht-degree: 0%
 >   * Maandbericht: 11 september 2025
 >   * Kwartaalversie: 16 oktober 2025
 >
->* Als u deze functionaliteit wilt gebruiken, moet uw organisatie voldoen aan de vereisten voor het gebruik van de Workfront AI Assistant. Voor details, zie [&#x200B; Vereisten aan AI Medewerker &#x200B;](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant).
+>* Als u deze functionaliteit wilt gebruiken, moet uw organisatie voldoen aan de vereisten voor het gebruik van de Workfront AI Assistant. Voor details, zie [ Vereisten aan AI Medewerker ](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant).
 
 Met AI-formuliervulling kunt u aanvraagvelden automatisch invullen op basis van een vraag die u invoert. U kunt ook velden vullen op basis van tekst, zoals e-mails, die zijn geüpload naar documenten. U kunt deze suggesties goedkeuren of verwerpen alvorens het verzoek in te dienen.
 
@@ -58,7 +58,7 @@ Gebruikers ontvangen geen suggesties voor gegevens waartoe zij anders geen toega
  </tbody> 
 </table>
 
-Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -71,10 +71,10 @@ Om AI de Vulling van de Vorm te gebruiken om verzoeken te vullen gebruikend een 
 * Uw organisatie moet een Select-, Prime- of Ultimate Workfront-abonnement hebben
 * Adobe moet een ondertekende Adobe Gen AI-overeenkomst hebben in het bestand
 
-  Voor meer informatie bij het ondertekenen van de overeenkomst, zie [&#x200B; de overeenkomst van Adobe Gen AI &#x200B;](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement) in het artikelAI Hulpoverzicht ondertekenen.
+  Voor meer informatie bij het ondertekenen van de overeenkomst, zie [ de overeenkomst van Adobe Gen AI ](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement) in het artikelAI Hulpoverzicht ondertekenen.
 * AI Assistant moet zijn ingeschakeld in de systeeminstellingen van uw organisatie. Dit wordt beheerd door uw Workfront-beheerder.
 
-  Voor meer informatie bij het toelaten van AI Medewerker in systeemmontages, zie [&#x200B; toelaten of AI Medewerker &#x200B;](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md) onbruikbaar maken.
+  Voor meer informatie bij het toelaten van AI Medewerker in systeemmontages, zie [ toelaten of AI Medewerker ](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md) onbruikbaar maken.
 
 ## Suggesties ophalen van een tekstprompt
 
@@ -90,21 +90,21 @@ Suggesties gebruiken op basis van een geplakte tekstprompt:
 
 1. Maak een aanvraag.
 
-   Voor instructies, zie [&#x200B; verzoeken &#x200B;](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md) creëren en voorleggen.
+   Voor instructies, zie [ verzoeken ](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md) creëren en voorleggen.
 
-1. Om de tekstherinnering op de volledige vorm toe te passen, klik het AI pictogram ![&#x200B; AI pictogram &#x200B;](assets/request-prompt-icon.png) onder de vormnaam.
+1. Om de tekstherinnering op de volledige vorm toe te passen, klik het AI pictogram ![ AI pictogram ](assets/request-prompt-icon.png) onder de vormnaam.
 
    of
 
-   Om de tekstherinnering voor één enkele sectie toe te passen, klik het AI pictogram ![&#x200B; AI pictogram &#x200B;](assets/request-prompt-icon.png) naast de sectienaam.
+   Om de tekstherinnering voor één enkele sectie toe te passen, klik het AI pictogram ![ AI pictogram ](assets/request-prompt-icon.png) naast de sectienaam.
 
 1. Plak de tekst in het snelle vak.
 1. Klik **Vul de vorm**.
 
    Workfront genereert suggesties voor het formulier.
-1. Voor elke gebiedssuggestie, keurt de uitgezochte **&#x200B;**&#x200B;goed of **verwerpt** voor dat gebied.
+1. Voor elke gebiedssuggestie, keurt de uitgezochte **** goed of **verwerpt** voor dat gebied.
 
-   ![&#x200B; Accepteer of verwerp suggestie &#x200B;](assets/accept-reject-suggestion.png)
+   ![ Accepteer of verwerp suggestie ](assets/accept-reject-suggestion.png)
 
    of
 
@@ -169,7 +169,7 @@ We plannen een campagne vergelijkbaar met de vakantiegroepen die we vorig jaar h
 
 ## Suggesties ophalen op basis van een document dat u uploadt
 
-Automatisch vullen kan veldwaarden voorstellen op basis van een document dat u uploadt.
+Formuliervulling met een AI-functie kan een aanvraag invullen aan de hand van aanwijzingen of documenten kunnen veldwaarden voorstellen op basis van een document dat u uploadt.
 
 Dit soort voorstellen controleert ook eerdere verzoeken om vergelijkbare contexten. Als de vraag bijvoorbeeld vermeldt dat de aanvraag voor een bepaalde client is, kan Workfront het factureringsadres voor die client automatisch zoeken en invoeren op basis van eerdere aanvragen.
 
@@ -234,8 +234,8 @@ Workfront-veldtypen bepalen of een veld automatisch kan worden ingevuld.
 
 <table>
 <tr>
-<td><b> Ondersteunde </b><br> automatisch vullen kan worden gevuld</td>
-<td><b> niet gestaafde </b> <br> automatisch-vulling vult niet</td>
+<td><b> Ondersteunde </b><br> formuliervulling aangedreven door AI kan worden gevuld</td>
+<td><b> Niet gestaafde </b> <br> Vulling van de Vorm die door AI wordt aangedreven vult niet</td>
 </tr>
 <tr>
 <td>
@@ -273,13 +273,13 @@ U kunt een document uploaden dat op het volledige formulier of op één sectie v
 
 1. Maak een aanvraag.
 
-   Voor instructies, zie [&#x200B; verzoeken &#x200B;](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md) creëren en voorleggen.
+   Voor instructies, zie [ verzoeken ](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md) creëren en voorleggen.
 
-1. Om het document op de volledige vorm toe te passen, klik het AI pictogram ![&#x200B; AI pictogram &#x200B;](assets/request-prompt-icon.png) onder de vormnaam.
+1. Om het document op de volledige vorm toe te passen, klik het AI pictogram ![ AI pictogram ](assets/request-prompt-icon.png) onder de vormnaam.
 
    of
 
-   Om het document voor één enkele sectie toe te passen, klik het AI pictogram ![&#x200B; AI pictogram &#x200B;](assets/request-prompt-icon.png) naast de sectienaam.
+   Om het document voor één enkele sectie toe te passen, klik het AI pictogram ![ AI pictogram ](assets/request-prompt-icon.png) naast de sectienaam.
 
 1. Klik **uploadt dossiers**, dan selecteer het dossier van uw dossiermanager.
 
@@ -289,9 +289,9 @@ U kunt een document uploaden dat op het volledige formulier of op één sectie v
 1. Klik **Vul de vorm** van **Vul de sectie**.
 
    Workfront genereert suggesties voor het formulier.
-1. Voor elke gebiedssuggestie, keurt de uitgezochte **&#x200B;**&#x200B;goed of **verwerpt** voor dat gebied.
+1. Voor elke gebiedssuggestie, keurt de uitgezochte **** goed of **verwerpt** voor dat gebied.
 
-   ![&#x200B; Accepteer of verwerp suggestie &#x200B;](assets/accept-reject-suggestion.png)
+   ![ Accepteer of verwerp suggestie ](assets/accept-reject-suggestion.png)
 
    of
 
@@ -306,4 +306,4 @@ U kunt een document uploaden dat op het volledige formulier of op één sectie v
 Als u niet de verwachte suggesties krijgt, kan het toe te schrijven zijn aan één van het volgende:
 
 * U moet ten minste één maand aanvraaggegevens in het systeem hebben voordat u veldwaarden van eerdere aanvragen kunt voorstellen.
-* Mogelijk hebt u de instructies voor het uploaden van documenten niet opgevolgd bij het uploaden van een document om suggesties van te trekken. Voor meer informatie, zie [&#x200B; Document uploadt gidsen &#x200B;](#document-upload-guardrails) in dit artikel.
+* Mogelijk hebt u de instructies voor het uploaden van documenten niet opgevolgd bij het uploaden van een document om suggesties van te trekken. Voor meer informatie, zie [ Document uploadt gidsen ](#document-upload-guardrails) in dit artikel.
