@@ -4,7 +4,7 @@ description: Verbeteringen voor eerste kwartaal 2026 verzoeken
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 93f01b5eed702565f31086a8e66777200f8204a2
+source-git-commit: 34e6f4386c768b94c3835d4a4d7e7deadc3fecda
 workflow-type: tm+mt
 source-wordcount: '346'
 ht-degree: 0%
@@ -15,7 +15,22 @@ ht-degree: 0%
 
 Op deze pagina worden de verbeteringen beschreven van Verzoeken die zijn aangebracht met de release Eerste kwartaal 2026 voor de voorvertoningsomgeving. Deze verbeteringen zullen beschikbaar worden gesteld in de productieomgeving, zoals vermeld.
 
-Voor een lijst van alle veranderingen beschikbaar op dit punt in Eerste Kwartaal 2026 versiecyclus, zie [&#x200B; Eerste Kwartaal 2026 releaseoverzicht &#x200B;](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar op dit punt in Eerste Kwartaal 2026 versiecyclus, zie [ Eerste Kwartaal 2026 releaseoverzicht ](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md).
+
+<!--## Share views in the Requests area and the My Requests widget
+
+>[!NOTE]
+>
+>Preview: December 4, 2025 
+>Production fast release: December 11, 2025  
+>Production for everyone: January 16, 2026  
+
+To make it easier to ensure to see the information you need, we've added the ability to share views to the new reporting experience. Now, you can share views with other users, teams, or groups.
+
+You can share request list views from both the Requests area in Workfront and the My Requests widget in Home. Sharing functionality is identical in both places, and view settings, including sharing, are preserved when moving between the My Requests widget and the Requests area.
+
+For information on request views, including sharing, see [Create and manage views in the Requests area](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md).-->
+
 
 ## Concepten van verzoeken opslaan in de nieuwe ervaring voor aanvragen
 
@@ -31,7 +46,7 @@ Eerder was deze functie niet beschikbaar in de nieuwe ervaring voor aanvragen.
 
 Concepten die zijn gemaakt op basis van de oudere ervaring die u opvraagt, zijn beschikbaar in de nieuwe ervaring die u opvraagt.
 
-Voor meer informatie over verzoekontwerpen, zie [&#x200B; verzoeken van concepten &#x200B;](/help/quicksilver/manage-work/requests/create-requests/create-requests-from-drafts.md) creëren.
+Voor meer informatie over verzoekontwerpen, zie [ verzoeken van concepten ](/help/quicksilver/manage-work/requests/create-requests/create-requests-from-drafts.md) creëren.
 
 ## Verzonden aanvragen verwijderen uit de nieuwe ervaring met aanvragen
 
@@ -45,25 +60,8 @@ Om het gemakkelijker te maken om uw verzoeken georganiseerd en ongecompliceerd t
 
 Verwijderen van aanvragen was eerder niet beschikbaar.
 
-Voor informatie en instructies, zie [&#x200B; een voorgelegd verzoek of verzoekontwerp &#x200B;](/help/quicksilver/manage-work/requests/create-requests/delete-request-draft.md) schrappen.
+Voor informatie en instructies, zie [ een voorgelegd verzoek of verzoekontwerp ](/help/quicksilver/manage-work/requests/create-requests/delete-request-draft.md) schrappen.
 
-<!--
-
-## Share views in the Requests area and the My Requests widget
-
->[!NOTE]
->
->Preview: November 20, 2025 
->Production fast release: December 11, 2025  
->Production for everyone: January 16, 2026  
-
-To make it easier to ensure to see the information you need, we've added the ability to share views to the new reporting experience. Now, you can share views with other users, teams, or groups.
-
-You can share request list views from both the Requests area in Workfront and the My Requests widget in Home. Sharing functionality is identical in both places, and view settings, including sharing, are preserved when moving between the My Requests widget and the Requests area.
-
-For information on request views, including sharing, see [Create and manage views in the Requests area](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md).
-
--->
 
 ## Nieuwe aanvragen maken door eerder ingediende aanvragen te kopiëren in de nieuwe ervaring met aanvragen
 
@@ -77,4 +75,4 @@ Om het gemakkelijker te maken om verzoeken voor te leggen, hebben wij de capacit
 
 Eerder was deze functionaliteit niet beschikbaar in de nieuwe ervaring die u opvraagt.
 
-Voor informatie bij het kopiëren en het voorleggen van een verzoek, zie [&#x200B; verzoeken &#x200B;](/help/quicksilver/manage-work/requests/create-requests/copy-and-submit-requests.md) kopiëren en voorleggen.
+Voor informatie bij het kopiëren en het voorleggen van een verzoek, zie [ verzoeken ](/help/quicksilver/manage-work/requests/create-requests/copy-and-submit-requests.md) kopiëren en voorleggen.
