@@ -5,9 +5,9 @@ description: De functie Projectgezondheid gebruikt de kracht van AI Assistant om
 author: Jenny
 feature: Get Started with Workfront
 exl-id: e4d200c6-7f35-4919-96d3-2880a655ed62
-source-git-commit: ed5a8725442a0b3de993a4e8f47280bfc7d88160
+source-git-commit: b95be2e0917b53195ac327880a2ea7399c1485de
 workflow-type: tm+mt
-source-wordcount: '1965'
+source-wordcount: '2060'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ De Medewerker van AI kan een Beoordeling van de Gezondheid van het Project voor 
 * Eén enkel programma
 * Meerdere projecten
 
-Voor meer informatie over AI Medewerker, zie [&#x200B; AI Hulpoverzicht &#x200B;](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md).
+Voor meer informatie over AI Medewerker, zie [ AI Hulpoverzicht ](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md).
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
@@ -55,31 +55,38 @@ Voor meer informatie over AI Medewerker, zie [&#x200B; AI Hulpoverzicht &#x200B;
    <td><p>U moet een systeembeheerder zijn om de configuraties van de Gezondheid van het Project te beheren </p>
    <p>Toegang tot projecten bewerken om projectgezondheidsconfiguraties toe te passen </p>
      <p>Toegang tot projecten weergeven om de configuraties van Projectgezondheid weer te geven </p>
+     <p>Toegang tot programma's bekijken om de Projectgezondheid voor alle projecten in een programma te gebruiken</p>
   </td> 
+  <tr> 
+   <td role="rowheader"><p>Objectmachtigingen</p></td> 
+   <td><p>Rechten voor projecten beheren om projectgezondheidsconfiguraties toe te passen </p>
+     <p>Toestemmingen aan projecten bekijken om de configuraties van de Gezondheid van het Project te bekijken </p>
+  </td> 
+  </tr> 
   </tr>  
     </tr>  
 </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 +++
 
 ## Inschrijven in de bètaversie van de projectgezondheid
 
-Als u Projectgezondheid wilt gebruiken, moet uw organisatie AI Assistant hebben ingeschakeld.
+Uw organisatie moet AI Medewerker hebben toegelaten om de Gezondheid van het Project te kunnen gebruiken.
 
 Als u AI Assistant en Projectgezondheid voor uw organisatie wilt inschakelen, moet u het volgende toepassen:
 
-* Uw organisatie moet zijn gemigreerd naar Adobe IMS (Identity Management System).
-* Uw organisatie moet een Select-, Prime- of Ultimate Workfront-abonnement hebben
+* Uw organisatie moet zijn gemigreerd naar het Adobe Identity Management System (IMS).
+* Uw organisatie moet beschikken over een Workfront- of Workflow Select-, Prime- of Ultimate-pakket.
 * De Adobe Unified Experience moet zijn ingeschakeld.
 * Adobe moet een ondertekende Adobe Gen AI-overeenkomst in het bestand hebben.
-* De Workfront-beheerder moet AI Assistant inschakelen voor gebruikers in uw organisatie. De Medewerker van AI wordt toegelaten door toegangsniveaus.
-* U moet de opties AI inschakelen en Projectgezondheid inschakelen selecteren in de sectie AI-voorkeuren bij Instellen > Systeem > Voorkeuren.
+* De Workfront-beheerder moet de AI-assistent inschakelen voor gebruikers in uw organisatie. De Medewerker van AI wordt toegelaten door toegangsniveaus.
+* U moet zowel de opties AI inschakelen als Projectgezondheid selecteren in het gedeelte AI-voorkeuren van het gedeelte Systeemvoorkeuren in Setup.
 
-  ![&#x200B; AI sectie van Voorkeur &#x200B;](assets/ai-preferences.png)
+  ![ AI sectie van Voorkeur ](assets/ai-preferences.png)
 
-Voor meer informatie, zie [&#x200B; AI Hulpoverzicht &#x200B;](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md) en [&#x200B; vorm systeemvoorkeur &#x200B;](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).
+Voor meer informatie, zie [ AI Hulpoverzicht ](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md) en [ vorm systeemvoorkeur ](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).
 
 ## Hoe de projectgezondheid wordt berekend
 
@@ -89,7 +96,7 @@ De Medewerker van AI geeft u een snelle beoordeling van de algemene staat van ee
 * Risico
 * In problemen
 
-Deze status wordt berekend met behulp van projectcomponenten, zoals voortgang van het project, onderschat werk en meer. Voor een volledige lijst van de componenten die worden gebruikt om de Gezondheid van het Project te meten, zie de [&#x200B; van het Project en van de programmalanden lijst &#x200B;](#project-and-program-states-list) sectie.
+Deze status wordt berekend met behulp van projectcomponenten, zoals voortgang van het project, onderschat werk en meer. Voor een volledige lijst van de componenten die worden gebruikt om de Gezondheid van het Project te meten, zie de [ van het Project en van de programmalanden lijst ](#project-and-program-states-list) sectie.
 
 Aan elke projectcomponent wordt een numerieke risicoscore toegewezen die van (0-100) gaat, die dan wordt gemiddeld om de algemene staat van de Gezondheid van het Project tot stand te brengen:
 
@@ -127,9 +134,12 @@ Projectvoorwaarden en Projectgezondheid zijn vergelijkbare concepten in Workfron
 
 De voorwaarden van het project geven een basismomentopname op hoe een project momenteel presteert gebaseerd slechts op de geplande, de geplande, en geschatte data. Deze kan handmatig worden ingesteld door de eigenaar van het project of automatisch door Workfront op basis van de projecttaken. Alternatief, is de Gezondheid van het Project vollediger en beoordeelt extra factoren, die u een hoger-niveauinzicht geven in hoe het presteert.
 
-Voor meer op de voorwaarden van het Project, zie [&#x200B; de voorwaarden van de Douane &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-conditions/custom-conditions.md).
+Raadpleeg de volgende artikelen voor meer informatie over projectvoorwaarden:
 
-## Lijst met project- en programmalanden
+* [Voorwaarde voor bijwerken voor een project](/help/quicksilver/manage-work/projects/updating-work-in-a-project/update-condition-on-project.md)
+* [ de voorwaarden van de Douane ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-conditions/custom-conditions.md).
+
+## Project- en programmalijst Projectgezondheidsstaten
 
 De onderstaande tabel bevat een uitsplitsing van de beschikbare staten die door AI Assistant aan uw project of programma worden toegewezen bij het genereren van een projectevaluatie.
 
@@ -184,7 +194,7 @@ De onderstaande tabel bevat een uitsplitsing van de beschikbare staten die door 
 
 ## Lijst met vragen voor AI Assistant
 
-Hieronder vindt u een lijst met aanwijzingen die u kunt gebruiken om AI-evaluatie te vragen om een projectevaluatie te genereren voor een project, programma of alle projecten in uw account.
+Hieronder ziet u een lijst met aanwijzingen die u kunt gebruiken om de AI-assistent te vragen een beoordeling van de gezondheid van het project te genereren voor een project, programma of alle projecten die u kunt bekijken.
 
 <table>
     <tr>
@@ -215,19 +225,21 @@ Hieronder vindt u een lijst met aanwijzingen die u kunt gebruiken om AI-evaluati
 
 ## Projectgezondheidsconfiguraties beheren
 
-Een configuratie van de projectgezondheid bevat specifieke criteria die bepalen hoe uw projectgezondheid wordt berekend. Nadat een configuratie wordt gecreeerd, kunt u het op een project dan toepassen.
+U moet een Beheerder van het Systeem zijn om de configuraties van de Gezondheid van het Project te beheren.
 
->[!NOTE]
->
->U moet een Beheerder van het Systeem zijn om de configuraties van de Gezondheid van het Project te beheren.
+Een configuratie van de projectgezondheid bevat specifieke criteria die bepalen hoe uw projectgezondheid wordt berekend. Nadat de beheerder van Workfront een configuratie creeert, kunt u het op een project dan toepassen.
+
+U kunt veelvoudige configuraties van de Gezondheid van het Project in uw systeem hebben.
 
 {{step-1-to-setup}}
 
-1. Klik **Voorkeur van het Project** in het linkerpaneel, dan uitgezochte **Gezondheid van het Project** in de drop-down die verschijnt.
+1. Klik **Voorkeur van het Project** in het linkerpaneel, dan selecteer **Gezondheid van het Project**.
 
-1. In de hoger-juiste hoek van de pagina, uitgezochte **Nieuwe Configuratie**.
+1. In de hoger-juiste hoek van de pagina, klik **Nieuwe Configuratie**.
 
-1. (Facultatief) op de pagina van configuratiedetails, vervang *Naamloze Configuratie* met een nieuwe configuratie **Naam**.
+   De **AI pagina van Montages** opent.
+
+1. (Facultatief) klik binnen de **Naamloze 1} titel van de Configuratie om de configuratie anders te noemen.**
 
 1. In **welke factoren u in de sectie van de projectgezondheid** zou willen omvatten, schrap om het even welke factor u inbegrepen niet wilt wanneer het bepalen van uw criteria van de projectgezondheid:
    * **kneep van het werkingsgebied**: Hoeveel het projectwerkingsgebied is uitgebreid sinds het begon.
@@ -249,49 +261,52 @@ Een configuratie van de projectgezondheid bevat specifieke criteria die bepalen 
 
 1. In **hoe schat u het werkingsgebied aan een project?** selecteert u welke projectfactor wordt verhoogd naarmate het projectbereik wordt vergroot.
 
-1. In **welke gebieden wilt u volledigheid controleren?** selecteert u een of meer velden die worden gecontroleerd om de volledigheid van het project te bepalen.
+1. In **wat wilt u vereiste gebieden controleren?** selecteert u een of meer velden die een waarde voor het project moeten bevatten.
 
-   ![&#x200B; de volledigheidsgebieden van het Project &#x200B;](assets/project-completeness-fields.png)
+   ![ Project vereiste gebieden voor projectgezondheid ](assets/project-completeness-fields.png)
 
+1. Klik **toevoegen** aan meer inheems of douaneproject of taakgebieden.
 
 1. Klik **sparen** in de hoger-juiste hoek.
 
 ## Projectgezondheidsconfiguraties toepassen
 
-Zodra een beheerder een configuratie van de Gezondheid van het Project heeft gecreeerd, kunnen de gebruikers met Edit toegang het op een project toepassen.
-
+Nadat de beheerder van Workfront een configuratie van de Gezondheid van het Project heeft gecreeerd, kunt u het op een project toepassen, als u beheertoestemmingen op een project hebt.
 
 {{step1-to-projects}}
 
 1. Voor de **pagina van Projecten**, selecteer een project.
 
-1. Klik het **Meer** pictogram ![&#x200B; Meer pictogram &#x200B;](assets/more-icon.png) aan het recht van de projectnaam, dan uitgezocht **geef** uit. Het **geeft het paneel van de Zijde van het Project** uit opent.
+1. Klik het **Meer** pictogram ![ Meer pictogram ](assets/more-icon.png) aan het recht van de projectnaam, dan uitgezocht **geef** uit. Het **geeft de doos van het Project** uit opent.
 
-1. In het linkerpaneel, uitgezochte **Montages van het Project**.
+1. In het linkerpaneel, klik **Montages van het Project**.
 
-1. Op het **gebied van de Configuratie van de Gezondheid van het 0&rbrace; Project, selecteer de configuratie u op dit project wilt toepassen.**
+1. Op het **gebied van de Configuratie van de Gezondheid van het 0} Project, selecteer de configuratie u op dit project wilt toepassen.**
 
-   ![&#x200B; gebied van de Configuratie van de Gezondheid van het Project &#x200B;](assets/project-health-configurations.png)
+   ![ gebied van de Configuratie van de Gezondheid van het Project ](assets/project-health-configurations.png)
 
-1. Klik **sparen** in de laag-linkerhoek van het paneel.
+1. Klik **sparen** in de laag-linkerhoek van de pagina.
 
 ## Een projectevaluatie genereren voor een project of programma
 
-Als u de toegang van de Mening voor een project of een programma hebt, kunt u zijn beoordeling van de Gezondheid van het Project produceren gebruikend AI medewerker.
+U kunt een beoordeling van de gezondheid van het Project van AI Medewerker op de volgende gebieden produceren:
 
-Als u een beoordeling voor een project produceert, kan dit of van de projectpagina worden gedaan, of door de projectnaam van verwijzingen te voorzien wanneer u de medewerker vraagt hoe het project presteert.
+* Voor een project, kunt u de beoordeling of van de projectpagina produceren, of door de projectnaam van verwijzingen te voorzien wanneer u de medewerker vraagt hoe een specifiek project presteert.
 
-Als u een beoordeling voor een programma produceert, kunt u dit van de pagina van de programmadetails doen.
+* Voor een programma kunt u de beoordeling genereren op de pagina Details van het programma.
 
 >[!NOTE]
 >
->Een beoordeling van de gezondheid van het Project kan niet voor een project worden geproduceerd tot het project is begonnen. U kunt vormen welke gebeurtenis een project teweegbrengt om in projectmontages te beginnen.
+>* U hebt weergavemachtigingen voor het project of het programma nodig om een evaluatie te genereren.
+>* Een beoordeling van de gezondheid van het Project kan niet voor een project worden geproduceerd tot het project is begonnen. U kunt configureren welke gebeurtenis een project activeert om te beginnen in de projectvoorkeuren
 
-Voor meer informatie, zie de volgende sectie in dit artikel: [&#x200B; beheert de configuraties van de projectgezondheid &#x200B;](#manage-project-health-configurations).
+Voor meer informatie, zie [ de configuraties van de projectgezondheid ](#manage-project-health-configurations) sectie in dit artikel beheren.
+
+Een projectevaluatie voor een project of programma genereren:
 
 1. Navigeer naar het project of het programma waarvoor u een beoordeling van de Gezondheid van het Project wilt produceren.
 
-1. Voor de pagina van project/programmadetails, klik het **pictogram AI van de Medewerker** AI Medewerker pictogram ![&#x200B; in de hoger-juiste hoek van het scherm. &#x200B;](assets/ai-assistant-icon.png) AI Assistant wordt geopend.
+1. Voor de pagina van project/programmadetails, klik het **pictogram AI van de Medewerker** AI Medewerker pictogram ![ in de hoger-juiste hoek van het scherm. ](assets/ai-assistant-icon.png) AI Assistant wordt geopend.
 
 1. Typ het volgende op **Vraag me over Workfront** gebied: *wat is de gezondheid van dit project?*
 
@@ -302,43 +317,43 @@ Voor meer informatie, zie de volgende sectie in dit artikel: [&#x200B; beheert d
    >[!NOTE]
    >
    >Als u tot AI Medewerker van een verschillende pagina in Workfront toegang hebt, kunt u *typen wat de gezondheid van de NAAM van het project [ PROJECT ] is?* of *wat is de gezondheid van de NAAM van het programma [ PROGRAMMA ]?* <br>
-   >Voor een volledige lijst van de huidige herinneringen kunt u ingaan, zie de volgende sectie in dit artikel: [&#x200B; AI Medewerker zet lijst &#x200B;](#ai-assistant-prompts-list) ertoe aan.
+   >Voor een volledige lijst van de huidige herinneringen kunt u ingaan, zie de sectie [ AI Medewerker herinneringenlijst ](#ai-assistant-prompts-list) in dit artikel.
 
-1. Klik **verzenden** pictogram ![&#x200B; verzendt pictogram &#x200B;](assets/send-icon.png). De projectevaluatie wordt gegenereerd en in het deelvenster weergegeven. Bovenaan elke projectevaluatie wordt een badge weergegeven die de huidige toestand van het project weerspiegelt.
+1. Klik **verzenden** pictogram ![ verzendt pictogram ](assets/send-icon.png). De projectevaluatie wordt gegenereerd en in het deelvenster weergegeven. Een badge toont bij de bovenkant van elke beoordeling van de Gezondheid van het Project, die op de huidige voorwaarde van het project wijst.
 
-   ![&#x200B; de gezondheidsbeoordeling van het Project &#x200B;](assets/health-assessment.png)
+   ![ de gezondheidsbeoordeling van het Project ](assets/health-assessment.png)
 
-   Als u een beoordeling voor een portefeuille produceert, zullen de veelvoudige badges worden vermeld die de voorwaarde van elk project in het programma tonen. Voor meer informatie over de badgeetiketten, zie de volgende sectie in dit artikel: [&#x200B; lijst van de project en van de programmastaten &#x200B;](#project-and-program-states-list).
+   Als u een beoordeling voor een programma produceert, zullen de veelvoudige badges worden vermeld die de voorwaarde van elk project in het programma tonen. Voor meer informatie over de badgeetiketten, zie de sectie [ lijst van project en van de programmastaten ](#project-and-program-states-list) in dit artikel.
 
 1. (Optioneel) Klik op een van de evaluatiepunten om de details ervan uit te breiden.
 
-1. (Optioneel) Klik in de modus Uitgebreide details op de taakkoppeling om de taakdetails te openen.
+1. (Optioneel) Klik in de modus Uitgebreide details op de projectkoppeling om de details van het project te openen.
 
-   ![&#x200B; Uitgebreide details &#x200B;](assets/expanded-details.png)
+   ![ Uitgebreide details ](assets/expanded-details.png)
 
-1. Na het herzien van de details van de projectgezondheid, klik het **Dichte** pictogram ![&#x200B; Dichte pictogram &#x200B;](assets/close-icon.png) in de hoger-juiste hoek van AI Medewerker.
+1. Na het herzien van de details van de projectgezondheid, klik het **Dichte** pictogram ![ Dichte pictogram ](assets/close-icon.png) in de hoger-juiste hoek van AI Medewerker.
 
 ## Een projectevaluatie genereren voor meerdere projecten
 
-U kunt een gecombineerde beoordeling van de Gezondheid van het Project voor alle projecten produceren u momenteel de toegang van de Mening (of hoger) voor hebt.
+U kunt een gecombineerde beoordeling van de Gezondheid van het Project voor alle projecten produceren waarvoor u momenteel de toestemmingen van de Mening of hoger hebt.
 
-Een project wordt alleen opgenomen in de gecombineerde projectevaluatie als het project is gestart. U kunt vormen welke gebeurtenis een project teweegbrengt om in projectmontages te beginnen. Voor meer informatie, zie de volgende sectie in dit artikel: [&#x200B; beheert de configuraties van de projectgezondheid &#x200B;](#manage-project-health-configurations).
+Een project wordt alleen opgenomen in de gecombineerde projectevaluatie als het project is gestart. U kunt vormen welke gebeurtenis een project teweegbrengt om in projectmontages te beginnen. Voor meer informatie, zie de sectie [ de configuraties van de projectgezondheid ](#manage-project-health-configurations) in dit artikel beheren.
 
-1. Klik het **pictogram AI van de Medewerker** AI Hulppictogram ![&#x200B; in de hoger-juiste hoek van het scherm. &#x200B;](assets/ai-assistant-icon.png) AI Assistant wordt geopend.
+1. Klik het **pictogram AI van de Medewerker** AI Hulppictogram ![ in de hoger-juiste hoek van het scherm. ](assets/ai-assistant-icon.png) AI Assistant wordt geopend.
 
 1. Typ het volgende in het **vraagt me over het gebied van Workfront**: *wat is de gezondheid van mijn projecten?*
 
-   Voor een volledige lijst van de huidige herinneringen kunt u ingaan, zie de volgende sectie in dit artikel: [&#x200B; AI Medewerker zet lijst &#x200B;](#ai-assistant-prompts-list) ertoe aan.
+   Voor een volledige lijst van de huidige herinneringen kunt u ingaan, zie de volgende sectie in dit artikel: [ AI Medewerker zet lijst ](#ai-assistant-prompts-list) ertoe aan.
 
-1. Klik **verzenden** pictogram ![&#x200B; verzendt pictogram &#x200B;](assets/send-icon.png). De projectevaluatie wordt gegenereerd en in het deelvenster weergegeven.
+1. Klik **verzenden** pictogram ![ verzendt pictogram ](assets/send-icon.png). De projectevaluatie wordt gegenereerd en in het deelvenster weergegeven.
 
-   ![&#x200B; Veelvoudige projectevaluatie &#x200B;](assets/multiple-projects-assessment.png)
+   ![ Veelvoudige projectevaluatie ](assets/multiple-projects-assessment.png)
 
    Wanneer het produceren van een beoordeling voor veelvoudige projecten, AI Medewerker groepeert de resultaten die op hoe de projecten momenteel presteren worden gebaseerd.
 
 1. (Optioneel) Klik op een van de badges voor de gezondheidsvoorwaarde van het project om de projectlijst uit te breiden en selecteer vervolgens een koppeling voor een specifiek project om naar de detailpagina van dat project te gaan.
 
-1. Na het herzien van de de gezondheidsdetails van projecten, klik het **dichte pictogram** dicht pictogram ![&#x200B; in de hoger-juiste hoek van AI Medewerker om het te sluiten.](assets/close-icon.png)
+1. Na het herzien van de de gezondheidsdetails van projecten, klik het **dichte pictogram** dicht pictogram ![ in de hoger-juiste hoek van AI Medewerker om het te sluiten.](assets/close-icon.png)
 
 <!--
 

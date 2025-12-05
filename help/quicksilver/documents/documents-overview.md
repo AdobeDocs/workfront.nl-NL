@@ -2,26 +2,28 @@
 content-type: overview;reference
 product-area: documents
 navigation-topic: documents-navigation-topic
-title: 'Documenten: artikelindex'
-description: Leer hoe u documenten kunt gebruiken.
+title: 'Documenten: Artikel Index'
+description: Leer hoe u documenten kunt gebruiken. Ter ondersteuning van uw werk kunt u in Adobe Workfront documenten toevoegen, weergeven, organiseren, beheren of goedkeuren.
 author: Courtney
 feature: Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 75635712-c237-4a83-9ab0-fe37c8069284
-source-git-commit: e2aef53f0ab8e76fb2c33aa91281fae0c4fece75
+source-git-commit: f4dc0d28f7565b9dbc3c9ff4ee388eb8cf748b7f
 workflow-type: tm+mt
-source-wordcount: '33'
+source-wordcount: '72'
 ht-degree: 0%
 
 ---
 
 # Documenten: artikelindex
 
-<!-- Audited: 1/2024 -->
+<!-- Audited: 12/2025 -->
 
-Deze sectie bevat de volgende subsecties:
+Ter ondersteuning van uw werk kunt u in Adobe Workfront documenten toevoegen, weergeven, organiseren, beheren of goedkeuren.
 
-* [&#x200B; voeg nieuwe documenten aan Adobe Workfront toe &#x200B;](../documents/adding-documents-to-workfront/add-new-documents-to-workfront.md)
-* [&#x200B; beheert documenten &#x200B;](../documents/managing-documents/manage-documents.md)
-* [&#x200B; organiseer documenten &#x200B;](../documents/organizing-documents/organize-documents.md)
+Voor informatie over het werken met documenten, bekijk de artikelen in de volgende subsecties:
+
+* [ voeg nieuwe documenten aan Adobe Workfront toe ](../documents/adding-documents-to-workfront/add-new-documents-to-workfront.md)
+* [ beheert documenten ](../documents/managing-documents/manage-documents.md)
+* [ organiseer documenten ](../documents/organizing-documents/organize-documents.md)
 * [Workfront- en Experience Manager Assets-integratie](../documents/workfront-and-experience-manager-integrations/wf-experience-manager-integrations.md)
