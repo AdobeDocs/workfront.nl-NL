@@ -20,7 +20,7 @@ ht-degree: 18%
 De volgende artikelen bevatten informatie over het koppelen van goedkeuringen aan werk, documenten of proefdrukken in Adobe Workfront.
 
 <!-- * [Limited document and proof decision for non-paid users overview](/help/quicksilver/review-and-approve-work/proof-doc-decision-limits.md) -->
-* [ Goedkeuringen van het Werk ](../review-and-approve-work/manage-approvals/manage-approvals.md)
+* [&#x200B; Goedkeuringen van het Werk &#x200B;](../review-and-approve-work/manage-approvals/manage-approvals.md)
 * [Verenigde goedkeuringen](../review-and-approve-work/document-reviews-and-approvals/document-reviews-and-approvals.md)
 * [Goedkeuringen van proefdrukken](../review-and-approve-work/proofing/proofing.md)
 * [Native integratie evalueren en goedkeuren](/help/quicksilver/review-and-approve-work/native-integrations/review-approva-native-integrations-toc.md)
