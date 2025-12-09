@@ -10,9 +10,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 7c323af9-8c33-48ad-9aff-96758e96b40b
-source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
+source-git-commit: 1f1db1c9184a6a8a2abcd3139e4e4e61d2f08bc4
 workflow-type: tm+mt
-source-wordcount: '307'
+source-wordcount: '328'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,11 @@ ht-degree: 0%
 # Overzicht van toegangsniveaus
 
 <!-- Audited: 12/2023 -->
+
+>[!NOTE]
+>
+>De informatie in dit artikel verwijst naar de oudere toegangsniveaus. Voor informatie over de nieuwe toegangsniveaus, zie [ Nieuw overzicht van toegangsniveaus ](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md).
+
 
 Als beheerder van Adobe Workfront, wijst u een toegangsniveau aan een gebruiker voor twee doeleinden toe:
 
@@ -30,7 +35,7 @@ Elk van de zes ingebouwde toegangsniveaus is verbonden aan één van de vijf Wor
 
 External is een niet-betaalde licentie die voornamelijk is ontworpen voor het delen van documenten met medewerkers die geen Workfront gebruiken.
 
-![&#x200B; de toegangsniveaus en vergunningen van de Oudheid &#x200B;](assets/access-levels-and-licenses-old.png)
+![ de toegangsniveaus en vergunningen van de Oudheid ](assets/access-levels-and-licenses-old.png)
 
 Raadpleeg de volgende artikelen voor informatie over onderwerpen die betrekking hebben op toegangsniveaus:
 
@@ -57,8 +62,18 @@ Raadpleeg de volgende artikelen voor informatie over onderwerpen die betrekking 
    <td> <p>Voor instructies op hoe te om een toegangsniveau aan een gebruiker toe te wijzen, zie <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref"> het profiel van een gebruiker </a> uitgeven.</p> </td> 
   </tr> 
   <tr> 
-   <td>Toegangsniveaus, standaard, licht, contribuant</td> 
-   <td> <p>Als u deze toegangsniveaus in uw milieu in plaats van Plan, het Werk, het Overzicht, of het Verzoek ziet, gebruikt uw organisatie het nieuwe model van het toegangsniveau. Voor informatie over het nieuwe model, zie <a href="../../../administration-and-setup/add-users/how-access-levels-work/access-level-overview.md" class="MCXref xref"> Nieuw overzicht van toegangsniveaus </a>.</p> </td> 
+   <td><b>Typen toegangsniveaus</b></td> 
+   <td><p>Er zijn twee soorten Niveaus van de Toegang in Workfront:</p>
+   <ul><li>Oudere toegangsniveaus</li>
+   <ul><li>Plan</li>
+   <li>Werk</li>
+   <li>Controleren</li>
+   <li>Verzoek</li></ul>
+   <li>Nieuwe toegangsniveaus:</li>
+   <ul><li>Standard</li>
+   <li>Licht</li>
+   <li>Medewerker</li></ul></ul> 
+   <p>Voor informatie over de nieuwe Niveaus van de Toegang, zie <a href="../../../administration-and-setup/add-users/how-access-levels-work/access-level-overview.md" class="MCXref xref"> Nieuw overzicht van toegangsniveaus </a>.</p> </td> 
   </tr> 
   <!--
   <tr> 

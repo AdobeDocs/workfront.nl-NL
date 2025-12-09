@@ -10,14 +10,18 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 5d85509d-276a-411e-813c-8b1fa2f512db
-source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
+source-git-commit: 1f1db1c9184a6a8a2abcd3139e4e4e61d2f08bc4
 workflow-type: tm+mt
-source-wordcount: '311'
+source-wordcount: '334'
 ht-degree: 0%
 
 ---
 
 # De toegangsniveaus en licenties van uw gebruikers weergeven
+
+>[!NOTE]
+>
+>De informatie in dit artikel verwijst naar de oudere toegangsniveaus. Voor informatie over de nieuwe toegangsniveaus, zie [ Nieuw overzicht van toegangsniveaus ](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md).
 
 U kunt zien welk toegangsniveau en vergunning aan elke gebruiker in een gebruikerslijst of een rapport worden toegewezen.
 
@@ -60,7 +64,7 @@ Door gebrek, alle gebruikers die als Actieve vertoning in de lijst worden geplaa
 
    In de kolom Licentie wordt de naam weergegeven van de licentie die aan elke gebruiker is toegewezen.
 
-1. In het **drop-down menu 0&rbrace; Groepering &lbrace;, klik** Type van Vergunning **.**
+1. In het **drop-down menu 0} Groepering {, klik** Type van Vergunning **.**
 
    In deze weergave worden de gebruikers gegroepeerd die dezelfde licentietypen hebben.
 

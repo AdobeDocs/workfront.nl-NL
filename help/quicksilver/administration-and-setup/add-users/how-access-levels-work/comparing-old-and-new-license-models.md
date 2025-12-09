@@ -10,16 +10,21 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 101a0ce2-dfa6-44ea-a197-22bc85ef50f5
-source-git-commit: a215cf721cc4d517ee39cfa864e29dbbbfeb0a31
+source-git-commit: 1f1db1c9184a6a8a2abcd3139e4e4e61d2f08bc4
 workflow-type: tm+mt
-source-wordcount: '299'
+source-wordcount: '329'
 ht-degree: 0%
 
 ---
 
 # Functionaliteit vergelijken in verschillende licentiemodellen
 
-In deze tabel staan de functies die beschikbaar zijn voor licenties in het verouderde en nieuwe licentiemodel.
+Er zijn twee soorten toegangsniveaus in Adobe Workfront:
+
+* Nieuwe toegangsniveaus. Voor informatie, zie [ Nieuw overzicht van toegangsniveaus ](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md).
+* Oudere toegangsniveaus. Voor informatie, zie [ overzicht van de Niveaus van de Toegang ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
+
+In de volgende tabel wordt de functionaliteit weergegeven die beschikbaar is voor licenties in het verouderde en nieuwe licentiemodel.
 
 <table style="table-layout:auto"> 
  <col> 

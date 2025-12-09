@@ -3,9 +3,9 @@ title: Overzicht van Hiërarchie en Breadcrumb
 description: U kunt meerdere werkruimtemhiërarchieën maken tussen de recordtypen in een werkruimte.
 hide: true
 hidefromtoc: true
-source-git-commit: f345cc0d41dc1bd62e7361fa0755cb7ba72465a0
+source-git-commit: 1f1db1c9184a6a8a2abcd3139e4e4e61d2f08bc4
 workflow-type: tm+mt
-source-wordcount: '405'
+source-wordcount: '612'
 ht-degree: 0%
 
 ---
@@ -28,12 +28,16 @@ hidefromtoc: yes
 
 Als werkruimtemanager, kunt u flexibele maar gestructureerde hiërarchieën tussen verslagtypes en andere objecten types in de Planning van Adobe Workfront bepalen.
 
+Hiërarchieën zijn verbindingen tussen recordtypen. U kunt maximaal vier record- en objecttypen in één hiërarchie laten verbinden.
+
+Voor informatie over het creëren van hiërarchieën, zie [ werkruimtescheidingen ](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md) creëren.
+
 Hieronder vindt u voordelen van het gebruik van hiërarchieën in uw werkruimten:
 
 * Om het werk te organiseren op een manier die weerspiegelt hoe uw teams eigenlijk plannen, werken, en leveren.
-* De gebruikers begrijpen waar zij zijn, hoe de verslagtypes verbinden, en hoe de strategie in uitvoering door naar een reeks broodkruimels te verwijzen die op hun plaats in het systeem wijzen.
-* Biedt een betere navigatie en zorgt voor helderheid en continuïteit in alle workflows.
-* De hiërarchieën dwingen geen rigide, systeem-bepaalde structuur af, en in plaats daarvan staat u toe om stromen te bepalen die passen hoe uw organisatie werkt, die zowel flexibiliteit als consistentie over alle stadia van het werk steunen.
+* Gebruikers kunnen zien waar ze zich bevinden, hoe recordtypen verbinding maken en hoe strategie in uitvoering stroomt door te verwijzen naar een set broodkruimels die hun plaats in het systeem aangeven.
+* Een betere navigatie bieden en zorgen voor helderheid en continuïteit in alle workflows.
+* Om stromen te bepalen die passen hoe uw organisatie werkt, ondersteunend zowel flexibiliteit als consistentie over alle stadia van het werk.
 
 ## Overwegingen bij het werken met hiërarchieën
 
@@ -52,11 +56,28 @@ Tactic A kan bijvoorbeeld tot zowel Campagne X als Campagne Y behoren.
    * De hiërarchieën kunnen zowel de types van het Verslag van de Planning als de objecten van Workfront omvatten.
 
      U kunt bijvoorbeeld een type Campagnerecord hebben met Planning Tactics en Workfront Projecten als onderliggende items.
-   * Algemene recordtypen kunnen voorkomen in meerdere werkruimten binnen meerdere hiërarchieën.
+
+     <!--asking if ONLY projects are supported here in slack; if yes, make a note to say that only Projects are supported; also add a note about AEM -->
+   * Algemene recordtypen kunnen voorkomen in meerdere werkruimten binnen meerdere hiërarchieën. <!--not sure if this AFTER they were added to another workspace; right now, I can see only the current workspace when building one??-->
    * Workfront-objecttypen kunnen ook in meerdere hiërarchieën en in verschillende werkruimten worden weergegeven.
-     <!--Not sure what this means: * Shared record can't be part of hierarchies.-->
+   * Algemene recordtypen kunnen geen deel uitmaken van hiërarchieën in verschillende werkruimten.
+
+     Als een campagne bijvoorbeeld een algemeen recordtype is en deel uitmaakt van een hiërarchie in Workspace 1, kan deze worden toegevoegd als een bestaand recordtype aan Workspace 2, maar kan deze daar geen deel uitmaken van een hiërarchie. <!--verifying that this is not connectable RT and it is about global ones - checking in slack-->
    * De recordtypen met verbindingen die geen corresponderend veld maken op hun gekoppelde recordtypen, kunnen ook deel uitmaken van hiërarchieën. Nieuwe verbindingen die tijdens hiërarchieopstelling worden gecreeerd zullen altijd tot een overeenkomstig gebied op de verbonden verslagtypes, door gebrek leiden.
 
 ## Overwegingen bij het weergeven van broodkruimels
+
+Wanneer u hiërarchieën tussen recordtypes creeert, produceren zij broodkruimels voor verslagen die tot die verslagtypes behoren.
+
+Bijvoorbeeld, als u een hiërarchie creeert en Campagnes met Tactics met Programma&#39;s en toen Projecten verbindt, wanneer u aan een verslag van om het even welke die types navigeert in de hiërarchie worden verbonden, kunt u bekijken waar in de hiërarchie het verslag wordt geplaatst.
+
+Overweeg het volgende:
+
+* Als een recordtype deel van veelvoudige hiërarchieën in veelvoudige werkruimten uitmaakt, kunt u tussen hiërarchieën van de broodkruimel van het verslag op de pagina van het verslag schakelen.
+* Broodkruimels werken in Workfront en Planning.
+
+  Wanneer u bijvoorbeeld een project bekijkt dat is verbonden met planningscampagnes en tactieken, maar ook met Workfront-portfolio&#39;s en -programma&#39;s, kunt u vanuit de breadcrumb schakelen tussen de hiërarchieën van zowel de Planning als de Workfront.
+
+  Voor meer informatie, zie [ de hiërarchieën van de werkruimte ](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md) creëren.
 
 

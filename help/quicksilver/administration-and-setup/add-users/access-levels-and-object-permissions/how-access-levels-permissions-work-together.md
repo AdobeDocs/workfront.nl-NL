@@ -3,28 +3,32 @@ title: Hoe de Niveaus van de Toegang en de Toestemmingen samen werken
 user-type: administrator
 content-type: reference
 product-area: system-administration
-keywords: toegang, model, trechter, diagram, niveaus, toestemmingen
+keywords: toegang, model, funnel, diagram, niveaus, toestemmingen
 navigation-topic: access-levels
 description: De beheerder van Adobe Workfront bepaalt welk toegangsniveau elke gebruiker zou moeten hebben. Dat toegangsniveau bepaalt wat de gebruikers kunnen zien en met objecten types en gebieden in het systeem doen.
 author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 594e002c-19e3-4baa-b5f8-223c3fdf8ca8
-source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
+source-git-commit: 1f1db1c9184a6a8a2abcd3139e4e4e61d2f08bc4
 workflow-type: tm+mt
-source-wordcount: '876'
+source-wordcount: '899'
 ht-degree: 0%
 
 ---
 
 # Hoe de toegangsniveaus en de toestemmingen samenwerken
 
+>[!NOTE]
+>
+>De informatie in dit artikel verwijst naar de oudere toegangsniveaus. Voor informatie over de nieuwe toegangsniveaus, zie [ Nieuw overzicht van toegangsniveaus ](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md).
+
 De beheerder van Adobe Workfront bepaalt welk toegangsniveau elke gebruiker zou moeten hebben. Dat toegangsniveau bepaalt wat de gebruikers kunnen zien en met objecten types en gebieden in het systeem doen.
 
 Gebruikers krijgen ook toegang tot afzonderlijke objecten wanneer andere gebruikers bepaalde machtigingen voor die objecten delen en verlenen.
 
 
-![&#x200B; het modelhiërarchie van de Veiligheid &#x200B;](assets/security-model-hierachy.png)
+![ het modelhiërarchie van de Veiligheid ](assets/security-model-hierachy.png)
 
 Bijvoorbeeld, als uw toegangsniveau zegt dat u taken kunt tot stand brengen, maar de toestemmingen u op een specifiek project ontvangt staan u niet toe om taken aan het toe te voegen, kunt u geen taken op het project toevoegen alhoewel u taken elders in Workfront kunt tot stand brengen.
 
@@ -43,7 +47,7 @@ De standaardtoegangsniveaus zijn:
 * Aanvrager (als bijlage bij de aanvraagvergunning gevoegd)
 * Externe gebruiker (toegevoegd aan de externe e-maillicentie)
 
-De Workfront-licentie voor elk standaard toegangsniveau bepaalt wat beschikbaar en configureerbaar is in het toegangsniveau. Voor informatie over de vergunningen van Workfront, zie [&#x200B; het vergunningsoverzicht van Adobe Workfront &#x200B;](../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md).
+De Workfront-licentie voor elk standaard toegangsniveau bepaalt wat beschikbaar en configureerbaar is in het toegangsniveau. Voor informatie over de vergunningen van Workfront, zie [ het vergunningsoverzicht van Adobe Workfront ](../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md).
 
 Voor de gebruikers die aan het worden toegewezen, bepaalt een toegangsniveau wat zij met de volgende objecten types en gebieden in Workfront kunnen zien en doen:
 
@@ -67,9 +71,9 @@ In een douanetoegangsniveau, kunt u de montages voor deze voorwerpen en gebieden
 >
 >Wij adviseren sterk dat u de ingebouwde toegangsniveaus onveranderd laat zodat u naar hen kunt verwijzen nadat u opstelling uw gebruikers. Als u een toegangsniveau wilt aanpassen, kopieert u het standaardtoegangsniveau en wijzigt u de kopie. (U kunt dit voor elk toegangsniveau behalve de Beheerder van het Systeem en Externe Gebruiker doen.)
 
-Voor een gedetailleerde verklaring van elk van de standaardtoegangsniveaus, zie [&#x200B; Ingebouwde toegangsniveaus &#x200B;](../../../administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md).
+Voor een gedetailleerde verklaring van elk van de standaardtoegangsniveaus, zie [ Ingebouwde toegangsniveaus ](../../../administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md).
 
-Voor instructies bij het toewijzen van een toegangsniveau aan een gebruiker, zie [&#x200B; het profiel van een gebruiker &#x200B;](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) uitgeven.
+Voor instructies bij het toewijzen van een toegangsniveau aan een gebruiker, zie [ het profiel van een gebruiker ](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) uitgeven.
 
 ## Machtigingen
 
@@ -81,7 +85,7 @@ Wanneer een gebruiker een object deelt met iemand in het systeem, kan hij of zij
    * Met externe gebruikers zonder Workfront-licentie (niet beschikbaar voor alle objecten)
    * Met een e-mailadres (alleen beschikbaar voor documenten)
 
-* **Contribute**: (niet beschikbaar voor alle voorwerpen)
+* **draag** bij: (niet beschikbaar voor alle voorwerpen)
 * **beheert**: Wanneer iemand een voorwerp deelt, worden de rechten van de ontvanger op het voorwerp bepaald door een combinatie van het de toegangsniveau van de ontvanger en de toestemmingen aan het voorwerp die door de aandeelhouder werden verleend. De laagste toegangsgraad beschikbaar in die combinatie is wat bepaalt wat de ontvanger met het voorwerp kan doen.
 
   >[!INFO]
