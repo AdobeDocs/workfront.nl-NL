@@ -21,8 +21,8 @@ ht-degree: 0%
 
 Er zijn twee soorten toegangsniveaus in Adobe Workfront:
 
-* Nieuwe toegangsniveaus. Voor informatie, zie [ Nieuw overzicht van toegangsniveaus ](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md).
-* Oudere toegangsniveaus. Voor informatie, zie [ overzicht van de Niveaus van de Toegang ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
+* Nieuwe toegangsniveaus. Voor informatie, zie [&#x200B; Nieuw overzicht van toegangsniveaus &#x200B;](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md).
+* Oudere toegangsniveaus. Voor informatie, zie [&#x200B; overzicht van de Niveaus van de Toegang &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
 
 In de volgende tabel wordt de functionaliteit weergegeven die beschikbaar is voor licenties in het verouderde en nieuwe licentiemodel.
 
