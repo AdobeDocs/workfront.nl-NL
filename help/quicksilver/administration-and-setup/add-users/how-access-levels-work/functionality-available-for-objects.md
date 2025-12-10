@@ -32,7 +32,7 @@ Het geeft ook aan welke handelingen Workfront-beheerders kunnen uitschakelen of 
 >[!NOTE]
 >
 >* Dit artikel beschrijft functionaliteit beschikbaar aan toegangsniveaus in het nieuwe het planmodel van Workfront. Om functionaliteit beschikbaar in het huidige planmodel te zien, zie [&#x200B; Functionaliteit beschikbaar voor elk objecten type voor diverse toegangsniveaus &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md).
->* Voor een lijst van functionaliteit beschikbaar aan de verschillende plannen in het nieuwe planmodel, zie [&#x200B; het Prijsverhoging van Adobe Workfront en het Verpakken &#x200B;](https://business.adobe.com/products/workfront/pricing.html).
+>* Voor een lijst van functionaliteit beschikbaar aan de verschillende plannen in het nieuwe planmodel, zie [&#x200B; het Prijsverhoging van Adobe Workfront en het Verpakken &#x200B;](https://business.adobe.com/nl/products/workfront/pricing.html).
 
 ## Projecten
 
