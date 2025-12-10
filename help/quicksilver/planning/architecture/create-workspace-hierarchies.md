@@ -4,9 +4,9 @@ description: Als werkruimtemanager kunt u meerdere werkruimtemhiërarchieën mak
 hide: true
 hidefromtoc: true
 exl-id: 2f83c427-4439-499d-a0b2-fc8630552cae
-source-git-commit: ff9371b639e7684a94c08b8cd6293b632fac9edf
+source-git-commit: 3d0a6932bda338af1e6b3dcba49bfc0ac486d919
 workflow-type: tm+mt
-source-wordcount: '248'
+source-wordcount: '619'
 ht-degree: 0%
 
 ---
@@ -34,8 +34,7 @@ Nadat u recordtypes in een werkruimte verbindt en een hiërarchie creeert, worde
 
 Hierarchieën genereren broodkruimels voor de recordtypen en records <!--ensure this is the case: does the breadcrumb show for both the RT and the record??--> die in de koppen worden weergegeven. Op deze manier weten gebruikers waar ze zich in de hiërarchie bevinden in elk stadium van hun workflow.
 
-Voor algemene informatie over hiërarchieën en broodkruimels, zie [&#x200B; Hiërarchie en breadcrumb overzicht &#x200B;](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md).
-
+Voor algemene informatie over hiërarchieën en broodkruimels, zie [ Hiërarchie en breadcrumb overzicht ](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md).
 
 ## Toegangsvereisten
 
@@ -76,8 +75,63 @@ of
 </tbody> 
 </table>
 
-Voor meer informatie over de toegangsvereisten van Workfront, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer informatie over de toegangsvereisten van Workfront, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Een werkruimtehiërarchie maken
+
+{#step1-to-planning}
+
+1. Klik op een werkruimtekaart.
+1. Klik **Meer** menu ![ Meer menu ](assets/more-menu.png) rechts van de werkruimtenaam, dan klik **Montages**.
+De **sectie van Hiërarchieën** opent door gebrek.
+1. Klik **Nieuwe hiërarchie** in de hoger-juiste hoek van de **pagina van Hiërarchieën**.
+1. Klik **toevoegen voorwerp** en selecteer een voorwerp van het dropdown menu. Dit wordt het bovenliggende object in uw hiërarchie.
+U kunt een recordtype selecteren in de huidige werkruimte of in Workfront.
+1. Klik **toevoegen voorwerp** om een tweede voorwerp toe te voegen dat het eerste kind in uw hiërarchie is, dan een ander voorwerp in het dropdown menu selecteren.
+   ![ Nieuwe hiërarchiedoos zonder gebied selecteerde ](assets/new-hierarchy-modal-without-connecte-fielf-selected.png)
+1. Klik **Uitgezochte verbonden gebied** om erop te wijzen welk gebied de twee voorwerpen verbindt.
+1. (Voorwaardelijk) Als een verbonden gebied tussen de twee objecten types bestaat, selecteer het van de lijst. Anders, klik **toevoegen nieuwe verbinding**.
+
+   >[!WARNING]
+   >
+   >Als **creeer corresponderend gebied op verbonden verslagtype** niet werd geselecteerd toen het verbonden gebied werd gecreeerd, moet u het gebied eerst uitgeven alvorens u kunt verdergaan.
+
+1. (Voorwaardelijk) Als u een nieuwe verbinding toevoegt, doe het volgende:
+
+   1. Voeg een naam voor uw verbonden gebied in de **doos van de Naam** toe.
+   1. Selecteer een van de volgende verbindingstypen:
+
+      * **Velen aan velen**
+      * **Één aan vele**
+      * **Velen aan één**
+      * **Één aan één**
+   1. Selecteer een van de volgende typen opnamen:
+
+      * **Naam en beeld**
+      * **Naam**
+      * **Beeld**
+Voor meer informatie, zie [ Connect verslagtypes ](/help/quicksilver/planning/architecture/connect-record-types.md).
+   1. Klik **sparen**.
+1. (Optioneel) Voeg na de bovenstaande stappen maximaal vier objecttypen toe aan uw hiërarchieën. U kunt eerst alle objecttypen toevoegen en vervolgens de verbindingsvelden tussen de objecttypen toevoegen.
+1. (Facultatief) klik **verwijder** pictogram ![ verwijderen pictogram ](assets/minus-icon.png) om een verbinding te verwijderen.
+1. Klik **sparen** om uw hiërarchie te bewaren.
+
+   >[!TIP]
+   >
+   >**sparen** knoop wordt gedimd als u niet alle verbonden gebieden op zijn plaats hebt.
+
+   De volgende dingen doen zich voor:
+
+   * De hiërarchie wordt toegevoegd aan de **sectie van Hiërarchieën** van de werkruimte.
+   * De verslagen die de verbindingsgebieden bevolken tonen alle verbindingen in hun broodkruimels, wanneer u naar de pagina van een verslag gaat.
+1. (Facultatief) Beweeg over een hiërarchie, dan klik **Meer** menu, dan klik één van het volgende:
+
+   * **geeft** uit: Dit opent **uitgeeft hiërarchie** doos waar u veranderingen kunt aanbrengen.
+   * **Schrapping**: Dit schrapt permanent de hiërarchie. Verwijderde hiërarchieën kunnen niet worden hersteld. Verbindingsvelden worden niet verwijderd.
+
+
+
+
+
