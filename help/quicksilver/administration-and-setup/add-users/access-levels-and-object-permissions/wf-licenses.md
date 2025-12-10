@@ -23,7 +23,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->De informatie in dit artikel verwijst naar de oudere toegangsniveaus. Voor informatie over de huidige toegangsniveaus, zie [ Nieuw overzicht van toegangsniveaus ](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md).
+>De informatie in dit artikel verwijst naar de oudere toegangsniveaus. Voor informatie over de huidige toegangsniveaus, zie [&#x200B; Nieuw overzicht van toegangsniveaus &#x200B;](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md).
 
 Uw organisatie heeft een aantal licenties aangeschaft bij de aanschaf van Adobe Workfront. Als Workfront-beheerder geeft u aan elke gebruiker een van de vijf typen Workfront-licenties wanneer u aan de gebruiker een toegangsniveau toewijst.
 
@@ -45,7 +45,7 @@ In deze tabel en in dit diagram ziet u de belangrijkste toegangsniveaus tot Work
 
 >[!NOTE]
 >
->De externe licentie is geen betaalde licentie. Het is vooral ontworpen voor het delen van documenten met medewerkers die geen Workfront gebruiken. Voor meer informatie, zie [ Ingebouwde toegangsniveaus ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md).
+>De externe licentie is geen betaalde licentie. Het is vooral ontworpen voor het delen van documenten met medewerkers die geen Workfront gebruiken. Voor meer informatie, zie [&#x200B; Ingebouwde toegangsniveaus &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md).
 
 ## Hoe een vergunning een toegangsniveau bepaalt
 
@@ -53,7 +53,7 @@ De vergunning verbonden aan een toegangsniveau bepaalt het algemene werkingsgebi
 
 U kunt een standaard toegangsniveau kopiëren en het exemplaar aanpassen zoals nodig voor uw gebruikers. Binnen het werkingsgebied van functionaliteit die door de vergunning voor het gekopieerde toegangsniveau wordt toegestaan, kunt u toegangsinstellingen aanpassen om aan de behoeften van de gebruiker te voldoen.
 
-Voor meer informatie, zie [ het overzicht van de Niveaus van de Toegang ](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md) en [ creeer of wijzig douanetoegangsniveaus ](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+Voor meer informatie, zie [&#x200B; het overzicht van de Niveaus van de Toegang &#x200B;](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md) en [&#x200B; creeer of wijzig douanetoegangsniveaus &#x200B;](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
 ## Aantal licenties
 
@@ -61,6 +61,6 @@ Wanneer u een toegangsniveau aan een gebruiker toewijst, wordt uw beschikbare ve
 
 Als u bijvoorbeeld het toegangsniveau Planner toewijst aan een gebruiker, wordt het aantal beschikbare licenties voor het abonnement met 1 verminderd.
 
-U kunt de licenties en toegangsniveaus weergeven die aan uw gebruikers zijn toegewezen. Voor meer informatie, zie [ van de de toegangsniveaus en vergunningen van uw gebruikers een lijst maken ](../../../administration-and-setup/add-users/access-levels-and-object-permissions/list-access-levels-and-licenses-for-your-users.md).
+U kunt de licenties en toegangsniveaus weergeven die aan uw gebruikers zijn toegewezen. Voor meer informatie, zie [&#x200B; van de de toegangsniveaus en vergunningen van uw gebruikers een lijst maken &#x200B;](../../../administration-and-setup/add-users/access-levels-and-object-permissions/list-access-levels-and-licenses-for-your-users.md).
 
-Voor informatie over het beheren van uw vergunningen, zie [ beschikbare vergunningen in uw systeem ](../../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md) beheren.
+Voor informatie over het beheren van uw vergunningen, zie [&#x200B; beschikbare vergunningen in uw systeem &#x200B;](../../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md) beheren.

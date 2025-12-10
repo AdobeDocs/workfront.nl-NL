@@ -21,7 +21,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->De informatie in dit artikel verwijst naar de oudere toegangsniveaus. Voor informatie over de huidige toegangsniveaus, zie [ Nieuw overzicht van toegangsniveaus ](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md).
+>De informatie in dit artikel verwijst naar de oudere toegangsniveaus. Voor informatie over de huidige toegangsniveaus, zie [&#x200B; Nieuw overzicht van toegangsniveaus &#x200B;](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md).
 
 U kunt zien welk toegangsniveau en vergunning aan elke gebruiker in een gebruikerslijst of een rapport worden toegewezen.
 
@@ -64,7 +64,7 @@ Door gebrek, alle gebruikers die als Actieve vertoning in de lijst worden geplaa
 
    In de kolom Licentie wordt de naam weergegeven van de licentie die aan elke gebruiker is toegewezen.
 
-1. In het **drop-down menu 0} Groepering {, klik** Type van Vergunning **.**
+1. In het **drop-down menu 0&rbrace; Groepering &lbrace;, klik** Type van Vergunning **.**
 
    In deze weergave worden de gebruikers gegroepeerd die dezelfde licentietypen hebben.
 
