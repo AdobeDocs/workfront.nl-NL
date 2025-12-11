@@ -21,7 +21,7 @@ U kunt het type informatie aanpassen dat u op het scherm weergeeft met behulp va
 
 In dit artikel wordt beschreven hoe u standaardweergaven voor lijsten en rapporten maakt en bewerkt.
 
-Voor meer informatie, zie [ Overzicht van Meningen in Adobe Workfront ](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+Voor meer informatie, zie [&#x200B; Overzicht van Meningen in Adobe Workfront &#x200B;](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
 ## Toegangsvereisten
 
@@ -55,14 +55,14 @@ Voor meer informatie, zie [ Overzicht van Meningen in Adobe Workfront ](../../..
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 +++
 
 ## Een weergave maken of aanpassen
 
 Het proces voor het maken of aanpassen van een weergave is afhankelijk van het feit of u een standaardweergave, een apparaatweergave of een toetsenbordweergave maakt of aanpast.
 
-* [ creeer of pas een standaardmening ](#create-or-customize-a-standard-view) aan
+* [&#x200B; creeer of pas een standaardmening &#x200B;](#create-or-customize-a-standard-view) aan
 * [Een eenvoudige weergave maken of aanpassen](#create-or-customize-an-agile-view)
 
 ### Een standaardweergave maken of aanpassen {#create-or-customize-a-standard-view}
@@ -73,7 +73,7 @@ U kunt een nieuwe standaardweergave maken of een bestaande standaardweergave aan
 
 1. Klik op de knop **+ Nieuwe weergave** om een nieuwe weergave te maken.
 of
-Klik **uitgeven** pictogram ![ geeft pictogram ](assets/edit-icon.png) uit dat op muis over rechts van een bestaande mening verschijnt u wilt uitgeven.
+Klik **uitgeven** pictogram ![&#x200B; geeft pictogram &#x200B;](assets/edit-icon.png) uit dat op muis over rechts van een bestaande mening verschijnt u wilt uitgeven.
 **past de vertoningen van de de dialoogdoos van de Mening** aan.
 
 1. In de **sectie van de Voorproef van de Kolom**, doe om het even welke volgend:
@@ -120,7 +120,7 @@ Klik **uitgeven** pictogram ![ geeft pictogram ](assets/edit-icon.png) uit dat o
      > * Werkelijke uren geeft een overzicht van de waarden voor de hoofdbovenliggende taken en de zelfstandige taken; deze geven geen overzicht van de getallen voor de bovenliggende taken of de onderliggende taken.
      > * De gegevensgebieden van de douane voor aantal en muntwaarden vatten alle taken samen: ouders, kinderen, ouders van ouders, en standalone taken.
      >
-     >Voor meer informatie over het gebruiken van groeperingen in een rapport, zie het artikel [ overzicht van Groepen in Adobe Workfront ](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
+     >Voor meer informatie over het gebruiken van groeperingen in een rapport, zie het artikel [&#x200B; overzicht van Groepen in Adobe Workfront &#x200B;](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
       * (Facultatief) klik **Geavanceerde Opties** om de volgende informatie voor de kolom te specificeren:
 
@@ -147,7 +147,7 @@ Klik **uitgeven** pictogram ![ geeft pictogram ](assets/edit-icon.png) uit dat o
          </tbody> 
         </table>
 
-        Voor meer informatie over voorwaardelijk het formatteren van meningen in rapporten, zie het artikel [ Voorwaardelijke het formatteren van het Gebruik in de Wijze van de Tekst ](../../../reports-and-dashboards/reports/text-mode/use-conditional-formatting-text-mode.md).
+        Voor meer informatie over voorwaardelijk het formatteren van meningen in rapporten, zie het artikel [&#x200B; Voorwaardelijke het formatteren van het Gebruik in de Wijze van de Tekst &#x200B;](../../../reports-and-dashboards/reports/text-mode/use-conditional-formatting-text-mode.md).
 
 1. (Voorwaardelijk) als u **Geavanceerde Opties** klikte, klik **Gedaan**.
 
@@ -167,7 +167,7 @@ Gegraveerde weergaven, ook wel de bestuursweergaven genoemd, worden alleen weerg
 
 Zij zijn preconfigured, maar u kunt bepaalde montages voor hen wijzigen.
 
-Voor meer informatie over de meningen van de Gelijkheid of van de Raad, zie het artikel [ een project in de Gelijke Mening ](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md) leiden.
+Voor meer informatie over de meningen van de Gelijkheid of van de Raad, zie het artikel [&#x200B; een project in de Gelijke Mening &#x200B;](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md) leiden.
 
 <!-- Legacy Agile views were deprecated with 25.3. This is old: 
 

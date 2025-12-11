@@ -27,14 +27,14 @@ Hier volgen enkele kenmerken van lijsten in [!DNL Workfront] :
 
 * Een [!DNL Workfront] -beheerder kan aangepaste lijsten maken die op verschillende gebieden van [!DNL Workfront] worden toegepast.
 
-  Voor meer informatie over het creëren van systeem-vlakke lijsten, zie het artikel [ creëren, uitgeven, en delen standaardfilters, meningen, en groeperingen ](../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-and-share-default-fvgs.md).
+  Voor meer informatie over het creëren van systeem-vlakke lijsten, zie het artikel [&#x200B; creëren, uitgeven, en delen standaardfilters, meningen, en groeperingen &#x200B;](../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-and-share-default-fvgs.md).
 
 * Hier volgen de typen lijsten in Workfront:
 
    * Standaardlijsten
    * Verbeterde lijsten
 
-  Voor meer informatie, zie de sectie [ het verschil tussen de norm en de verbeterde lijsten ](#the-difference-between-the-standard-and-the-enhanced-lists) in dit artikel.
+  Voor meer informatie, zie de sectie [&#x200B; het verschil tussen de norm en de verbeterde lijsten &#x200B;](#the-difference-between-the-standard-and-the-enhanced-lists) in dit artikel.
 
 ## Toegangsvereisten
 
@@ -66,7 +66,7 @@ Hier volgen enkele kenmerken van lijsten in [!DNL Workfront] :
  </tbody> 
 </table>
 
-Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -332,16 +332,16 @@ Hieronder vindt u de elementen van een lijst:
 
 Deze elementen worden standaard boven aan elke lijst weergegeven. Ze zijn vast en bewegen niet als u door de lijst schuift. Plaats de muis boven het pictogram voor elk element om het te identificeren.
 
-![ de elementen van de Lijst ](assets/nwe-list-elements.png)
+![&#x200B; de elementen van de Lijst &#x200B;](assets/nwe-list-elements.png)
 
 U kunt lijstelementen in de volgende gebieden aanpassen en hen met andere gebruikers delen:
 
-* Om het even welk systeem standaardlijst die in de sectie [ wordt gevonden wordt begonnen met lijsten in  [!DNL Adobe Workfront]](#default-workfront-lists) in dit artikel
+* Om het even welk systeem standaardlijst die in de sectie [&#x200B; wordt gevonden wordt begonnen met lijsten in  [!DNL Adobe Workfront]](#default-workfront-lists) in dit artikel
 * Elk rapport dat met u wordt gedeeld
 
 De bouwelementen voor lijsten zijn het zelfde als de bouwstenen voor rapporten.
 
-Voor meer informatie over het creëren van en het aanpassen van de bouwselementen van lijsten en rapporten, zie [ Meldend elementen: filters, meningen, en groeperingen ](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md).
+Voor meer informatie over het creëren van en het aanpassen van de bouwselementen van lijsten en rapporten, zie [&#x200B; Meldend elementen: filters, meningen, en groeperingen &#x200B;](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md).
 
 ## Handelingen weergeven
 
@@ -607,9 +607,9 @@ In de volgende tabel worden de overeenkomsten en verschillen tussen lijsten en r
  </tbody> 
 </table>
 
-*U moet toegang hebben tot filters, weergaven en groepen om deze te kunnen maken. Voor meer informatie, zie [ toegang van de Verlening tot filters, meningen, en groeperingen ](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md).
+*U moet toegang hebben tot filters, weergaven en groepen om deze te kunnen maken. Voor meer informatie, zie [&#x200B; toegang van de Verlening tot filters, meningen, en groeperingen &#x200B;](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md).
 
-**U moet toegang tot filters, meningen, en groeperingen evenals rapporten, dashboards, en kalenders hebben om hen te kunnen tot stand brengen. Voor meer informatie, zie [ toegang van de Verlening tot rapporten, dashboards, en kalenders ](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
+**U moet toegang tot filters, meningen, en groeperingen evenals rapporten, dashboards, en kalenders hebben om hen te kunnen tot stand brengen. Voor meer informatie, zie [&#x200B; toegang van de Verlening tot rapporten, dashboards, en kalenders &#x200B;](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
 
 ***U kunt lijsten voor rapporten aanpassen die op een dashboard worden geplaatst slechts als de schepper van het rapport de lijstelementen heeft gevormd om op het dashboard zichtbaar te zijn.
 
@@ -617,7 +617,7 @@ In de volgende tabel worden de overeenkomsten en verschillen tussen lijsten en r
 >
 >U kunt geen lijst aan een dashboard toevoegen zonder eerst een rapport te creëren en het toe te voegen aan het dashboard.
 
-Voor meer informatie over de bouw van een rapport, zie [ een douanerapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) creëren. Voor informatie over het creëren van douanesecties, zie [ douanetabellen of secties ](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md) creëren.
+Voor meer informatie over de bouw van een rapport, zie [&#x200B; een douanerapport &#x200B;](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) creëren. Voor informatie over het creëren van douanesecties, zie [&#x200B; douanetabellen of secties &#x200B;](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md) creëren.
 
 ## Het verschil tussen de standaard en de verbeterde lijsten
 
@@ -625,15 +625,15 @@ Voor meer informatie over de bouw van een rapport, zie [ een douanerapport ](../
 
 * Standaardlijsten
 
-  ![ Standaard projectlijst ](assets/standard-list-screen-shot-gray-groupings.png)
+  ![&#x200B; Standaard projectlijst &#x200B;](assets/standard-list-screen-shot-gray-groupings.png)
 
 * Verbeterde lijsten
 
-  ![ Verbeterde lijsten ](assets/enhanced-status-list.png)
+  ![&#x200B; Verbeterde lijsten &#x200B;](assets/enhanced-status-list.png)
 
 De mogelijkheden van elke verbeterde lijst zijn afhankelijk van de pagina waarvan u de lijst opent.
 
-Voor informatie over verbeterde lijsten, zie [ Gebruik verbeterde lijsten ](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
+Voor informatie over verbeterde lijsten, zie [&#x200B; Gebruik verbeterde lijsten &#x200B;](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
 
 
 
