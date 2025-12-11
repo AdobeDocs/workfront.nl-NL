@@ -6,7 +6,7 @@ description: U kunt extra fiatteurs of revisoren toevoegen aan een document dat 
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
-source-git-commit: c55af795069a05de3eb3d0d8599ab61f00168ddc
+source-git-commit: 72915fc9f3c262d9c90fd205c6be3776ac20e303
 workflow-type: tm+mt
 source-wordcount: '324'
 ht-degree: 0%
@@ -17,9 +17,9 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->De inhoud van dit artikel verwijst naar de functionaliteit voor bijgewerkte documentgoedkeuring die alleen beschikbaar is voor specifieke accounts. Voor informatie over standaardgoedkeuringsprocessen, zie de artikelen die in [&#x200B; worden vermeld goedkeuringen van het Werk &#x200B;](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
+>De inhoud van dit artikel verwijst naar de functionaliteit voor bijgewerkte documentgoedkeuring die alleen beschikbaar is voor specifieke accounts. Voor informatie over standaardgoedkeuringsprocessen, zie de artikelen die in [ worden vermeld goedkeuringen van het Werk ](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
 
-De verenigde goedkeuringen, die eerder als Nieuwe Goedkeuringen van het Document worden bedoeld, zijn een groots herontwerp van het bestaande goedkeuringsproces dat momenteel in ontwikkeling voor Adobe Workfront is. Momenteel beschikbaar in beperkte versie, is het ontworpen om een praktische en efficiënte oplossing voor ondernemingen te zijn die uitvoerige betrokkenheid van belanghebbenden en versie-specifieke documentgoedkeuringen vereisen. Het doordachte ontwerp en de doelgerichte nieuwe functies vergemakkelijken samenwerking, rolduidelijkheid en versiecontrole in het goedkeuringsproces, waardoor de efficiëntie en de verantwoordingsplicht worden verbeterd.
+De verenigde goedkeuringen, die eerder als Nieuwe Goedkeuringen van het Document worden bedoeld, zijn een holistische heropzet van het bestaande goedkeuringsproces dat momenteel in ontwikkeling voor Adobe Workfront is. Momenteel beschikbaar in beperkte versie, is het ontworpen om een praktische en efficiënte oplossing voor ondernemingen te zijn die uitvoerige betrokkenheid van belanghebbenden en versie-specifieke documentgoedkeuringen vereisen. Het doordachte ontwerp en de doelgerichte nieuwe functies vergemakkelijken samenwerking, rolduidelijkheid en versiecontrole in het goedkeuringsproces, waardoor de efficiëntie en de verantwoordingsplicht worden verbeterd.
 
 ## Belangrijke verschillen van proefdrukken en goedkeuring van oudere documenten
 
@@ -28,7 +28,7 @@ De verenigde goedkeuringen, die eerder als Nieuwe Goedkeuringen van het Document
 * Deelnemers aan documentgoedkeuring worden weergegeven in het overzicht van het document, niet op het tabblad voor de proefwerkstroom.
 * De verenigde goedkeuringen worden niet gesteund in het huidige rapporteringshulpmiddel.
 
-  U kunt zich bij de nieuwe bèta van de Dashboards van het Canvas aansluiten om [&#x200B; een rapportdashboard voor overzicht en goedkeuringen &#x200B;](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md) tot stand te brengen, of u kunt de de goedkeuringsmetriek van het Document gebruiken beschikbaar in nieuwe Dashboards van het Huis en van het Canvas verstrekt de volgende details over Verenigde Goedkeuringen:
+  U kunt zich bij de nieuwe bèta van de Dashboards van het Canvas aansluiten om [ een rapportdashboard voor overzicht en goedkeuringen ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md) tot stand te brengen, of u kunt de de goedkeuringsmetriek van het Document gebruiken beschikbaar in nieuwe Dashboards van het Huis en van het Canvas verstrekt de volgende details over Verenigde Goedkeuringen:
 
    * Goedkeuring bij besluit
    * Gemiddelde goedkeuringstijd
@@ -49,9 +49,9 @@ Met Verenigde Goedkeuringen, kunt u
 
 ## Gebruikend Verenigde Goedkeuringen
 
-Voor gebruikers die documentgoedkeuringen tot stand willen brengen of beheren, zie de artikelen die in [&#x200B; worden vermeld opstelling en verenigde goedkeuringen beheren: artikelindex &#x200B;](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/set-up-and-manage-doc-asset-approvals-toc.md)
+Voor gebruikers die documentgoedkeuringen tot stand willen brengen of beheren, zie de artikelen die in [ worden vermeld opstelling en verenigde goedkeuringen beheren: artikelindex ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/set-up-and-manage-doc-asset-approvals-toc.md)
 
-Voor gebruikers die documenten bekijken of goedkeuren waarvoor zij een verzoek hebben ontvangen, zie de artikelen die in [&#x200B; worden vermeld goedkeuren en documenten herzien: artikelindex &#x200B;](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-documents-toc.md).
+Voor gebruikers die documenten bekijken of goedkeuren waarvoor zij een verzoek hebben ontvangen, zie de artikelen die in [ worden vermeld goedkeuren en documenten herzien: artikelindex ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-documents-toc.md).
 
 <!--
 
