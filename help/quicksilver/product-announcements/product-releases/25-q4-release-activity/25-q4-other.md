@@ -5,7 +5,7 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 357b5a80-424a-475c-9163-82cffbbd253e
-source-git-commit: b78f794ece181da3f4db3a1b9b78e794b16a09ed
+source-git-commit: e08ac842214a9bcff0acba3f34316bb5cfa4c4aa
 workflow-type: tm+mt
 source-wordcount: '470'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Deze pagina bevat een beschrijving van de verbeteringen die zijn aangebracht met de release Vierde kwartaal 2025 voor de voorvertoningsomgeving. Deze verbeteringen zullen beschikbaar worden gesteld in de productieomgeving, zoals vermeld.
 
-Voor een lijst van alle veranderingen beschikbaar op dit punt in het Vierde Kwartaal 2025 versiecyclus, zie [&#x200B; Vierde Kwartaal 2025 releaseoverzicht &#x200B;](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar op dit punt in het Vierde Kwartaal 2025 versiecyclus, zie [ Vierde Kwartaal 2025 releaseoverzicht ](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-release-overview.md).
 
 ## Updates op het tabblad Rapportoverzicht
 
@@ -25,7 +25,7 @@ Voor een lijst van alle veranderingen beschikbaar op dit punt in het Vierde Kwar
 >* Voorbeeld: 13 oktober 2025
 >* Snelle productie: 13 oktober 2025
 >* Productie voor alle afnemers: 13 oktober 2025
->[!BADGE Uit schema &#x200B;]{type=Neutral}
+>[!BADGE Uit schema ]{type=Neutral}
 
 Het tabblad Overzicht van een rapport is bijgewerkt met de volgende verbeteringen:
 
@@ -67,9 +67,11 @@ De Adobe Unified Experience omvat:
 
 Uw beheerder van Workfront zal een bericht van het Centrum van de Aankondiging betreffende de datum ontvangen waarop uw organisatie naar de Adobe Verenigde Ervaring zal bewegen.
 
-Voor meer informatie, zie [&#x200B; Adobe Verenigde Ervaring voor Workfront &#x200B;](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
+Voor meer informatie, zie [ Adobe Verenigde Ervaring voor Workfront ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
-[&#x200B; Bekijk een videodemonstratie van deze eigenschap.](https://video.tv.adobe.com/v/3412388/){target=_blank}## Updates voor verbeterde lijsten
+[ Bekijk een videodemonstratie van deze eigenschap.](https://video.tv.adobe.com/v/3412388/){target=_blank}
+
+## Updates voor verbeterde lijsten
 
 >[!NOTE]
 >
@@ -82,4 +84,4 @@ Met onze geavanceerde lijstindeling kunt u filters en groepen gebruiken om uw we
 * Mijn verzoeken-widget
 * Prioriteiten
 
-Voor meer informatie, zie [&#x200B; Gebruik verbeterde lijsten &#x200B;](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
+Voor meer informatie, zie [ Gebruik verbeterde lijsten ](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
