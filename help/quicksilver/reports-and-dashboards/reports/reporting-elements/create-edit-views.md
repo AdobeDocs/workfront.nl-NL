@@ -6,9 +6,9 @@ description: U kunt het type informatie aanpassen dat u op het scherm weergeeft 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8fcd6320-c939-4195-8972-5c31575f78cb
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 0c0ffbeefb0eed8d1ca2a6e68ed19b40080726df
 workflow-type: tm+mt
-source-wordcount: '1713'
+source-wordcount: '898'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,9 @@ ht-degree: 0%
 
 U kunt het type informatie aanpassen dat u op het scherm weergeeft met behulp van weergaven. In Adobe Workfront kunt u verschillende typen weergaven gebruiken.
 
-In dit artikel wordt beschreven hoe u standaardweergaven voor lijsten en rapporten maakt en bewerkt, en hoe u flexibele weergaven maakt. Voor meer informatie, zie [&#x200B; Overzicht van Meningen in Adobe Workfront &#x200B;](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+In dit artikel wordt beschreven hoe u standaardweergaven voor lijsten en rapporten maakt en bewerkt.
+
+Voor meer informatie, zie [ Overzicht van Meningen in Adobe Workfront ](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
 ## Toegangsvereisten
 
@@ -53,14 +55,14 @@ In dit artikel wordt beschreven hoe u standaardweergaven voor lijsten en rapport
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 +++
 
 ## Een weergave maken of aanpassen
 
-Het proces voor het maken of aanpassen van een weergave is afhankelijk van het feit of u een standaardweergave of een blokweergave maakt of aanpast.
+Het proces voor het maken of aanpassen van een weergave is afhankelijk van het feit of u een standaardweergave, een apparaatweergave of een toetsenbordweergave maakt of aanpast.
 
-* [&#x200B; creeer of pas een standaardmening &#x200B;](#create-or-customize-a-standard-view) aan
+* [ creeer of pas een standaardmening ](#create-or-customize-a-standard-view) aan
 * [Een eenvoudige weergave maken of aanpassen](#create-or-customize-an-agile-view)
 
 ### Een standaardweergave maken of aanpassen {#create-or-customize-a-standard-view}
@@ -71,7 +73,7 @@ U kunt een nieuwe standaardweergave maken of een bestaande standaardweergave aan
 
 1. Klik op de knop **+ Nieuwe weergave** om een nieuwe weergave te maken.
 of
-Klik **uitgeven** pictogram ![&#x200B; geeft pictogram &#x200B;](assets/edit-icon.png) uit dat op muis over rechts van een bestaande mening verschijnt u wilt uitgeven.
+Klik **uitgeven** pictogram ![ geeft pictogram ](assets/edit-icon.png) uit dat op muis over rechts van een bestaande mening verschijnt u wilt uitgeven.
 **past de vertoningen van de de dialoogdoos van de Mening** aan.
 
 1. In de **sectie van de Voorproef van de Kolom**, doe om het even welke volgend:
@@ -118,7 +120,7 @@ Klik **uitgeven** pictogram ![&#x200B; geeft pictogram &#x200B;](assets/edit-ico
      > * Werkelijke uren geeft een overzicht van de waarden voor de hoofdbovenliggende taken en de zelfstandige taken; deze geven geen overzicht van de getallen voor de bovenliggende taken of de onderliggende taken.
      > * De gegevensgebieden van de douane voor aantal en muntwaarden vatten alle taken samen: ouders, kinderen, ouders van ouders, en standalone taken.
      >
-     >Voor meer informatie over het gebruiken van groeperingen in een rapport, zie het artikel [&#x200B; overzicht van Groepen in Adobe Workfront &#x200B;](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
+     >Voor meer informatie over het gebruiken van groeperingen in een rapport, zie het artikel [ overzicht van Groepen in Adobe Workfront ](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
       * (Facultatief) klik **Geavanceerde Opties** om de volgende informatie voor de kolom te specificeren:
 
@@ -145,7 +147,7 @@ Klik **uitgeven** pictogram ![&#x200B; geeft pictogram &#x200B;](assets/edit-ico
          </tbody> 
         </table>
 
-        Voor meer informatie over voorwaardelijk het formatteren van meningen in rapporten, zie het artikel [&#x200B; Voorwaardelijke het formatteren van het Gebruik in de Wijze van de Tekst &#x200B;](../../../reports-and-dashboards/reports/text-mode/use-conditional-formatting-text-mode.md).
+        Voor meer informatie over voorwaardelijk het formatteren van meningen in rapporten, zie het artikel [ Voorwaardelijke het formatteren van het Gebruik in de Wijze van de Tekst ](../../../reports-and-dashboards/reports/text-mode/use-conditional-formatting-text-mode.md).
 
 1. (Voorwaardelijk) als u **Geavanceerde Opties** klikte, klik **Gedaan**.
 
@@ -161,115 +163,116 @@ Klik **uitgeven** pictogram ![&#x200B; geeft pictogram &#x200B;](assets/edit-ico
 
 ### Een eenvoudige weergave maken of aanpassen {#create-or-customize-an-agile-view}
 
-U kunt een flexibele weergave maken of een bestaande, flexibele weergave aanpassen die u eerder hebt gemaakt.
+Gegraveerde weergaven, ook wel de bestuursweergaven genoemd, worden alleen weergegeven voor lijsten met taken en problemen in een project.
 
->[!IMPORTANT]
->
->Gegraveerde weergaven zijn alleen beschikbaar wanneer u een project weergeeft.
+Zij zijn preconfigured, maar u kunt bepaalde montages voor hen wijzigen.
 
-Voor meer informatie over de Gelijke meningen, zie het artikel [&#x200B; een project in de Gelijke Mening &#x200B;](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md) leiden.
+Voor meer informatie over de meningen van de Gelijkheid of van de Raad, zie het artikel [ een project in de Gelijke Mening ](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md) leiden.
+
+<!-- Legacy Agile views were deprecated with 25.3. This is old: 
 
 >[!NOTE]
 >
->Deze procedure is alleen van toepassing op de oudere Agile-weergave, niet op de bestuursweergave van een project.
+>This procedure only applies to the legacy Agile view, not to the board view of a project.
 
-U kunt als volgt een eenvoudige weergave maken of aanpassen:
+To create or customize an Agile view:
 
-1. Ga naar de lijst met taken in een project.
-1. Klik het **pictogram van de Raad** raad ![, en klik dan &#x200B;](assets/board-icon-for-agile-view.png) erfenis van het Gebruik &lbrace;**op de boordmening.**
+1. Go to the list of tasks on a project.
+1. Click the **Board** icon ![Board icon](assets/board-icon-for-agile-view.png), and then click **Use legacy agile** on the board view.
 
-1. (Voorwaardelijk) U kunt als volgt een bestaande beoordelingsweergave aanpassen:
+1. (Conditional) To customize an existing Agile view:
 
-   1. Klik het **drop-down menu van de Mening**, dan selecteer de Gelijke mening u wilt aanpassen.\
-      U kunt de standaardweergave Gelijk niet aanpassen.
+   1. Click the **View** drop-down menu, then select the Agile view you want to customize.  
+      You cannot customize the default Agile view.
+   
+   1. Click the **View** drop-down menu again, then click **Customize View**.  
+      ![Customize view](assets/view-agile-customize.png)
 
-   1. Klik opnieuw het **drop-down menu van de Mening**, dan klik **aanpassen Mening**.\
-      ![&#x200B; pas mening &#x200B;](assets/view-agile-customize.png) aan
+1. (Conditional) To create a new Agile view, click **New View**.  
+   The **Customize Agile View** dialog box displays.  
 
-1. (Voorwaardelijk) om een nieuwe Gelijke mening tot stand te brengen, klik **Nieuwe Mening**.\
-   Het **&#x200B;**&#x200B;de dialoogvakje van de Mening van de Gelijkheid aanpassen.
+1. In the **Customize Agile View** dialog box, specify a name for the Agile view.  
+   We recommend that you include the word "Agile" in your view name, so users know this is an Agile view.  
+   This name is displayed in the **View** drop-down menu when selecting a view.
 
-1. In **pas de dialoogdoos van de Mening van de Gelijkheid aan**, specificeer een naam voor de Gelijke mening.\
-   We raden u aan het woord &#39;Gelijk&#39; op te nemen in de weergavenaam, zodat gebruikers weten dat dit een Gegale weergave is.\
-   Deze naam wordt getoond in het **drop-down menu van de Mening** wanneer het selecteren van een mening.
+1. Define the status columns to display on the story board in the agile view. These are the task statuses that are defined by the Workfront administrator, as described in [Create or edit a status](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
 
-1. Definieer de statuskolommen die u wilt weergeven op het artikelbord in de Tegelweergave. Dit zijn de taakstatussen die door de beheerder van Workfront worden bepaald, zoals die in [&#x200B; wordt beschreven creeer of geef een status &#x200B;](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md) uit.
+   Only system statuses are available to use on the Agile story board. If a status is available only for an individual group you are a member of, the status is not available on the agile story board. Furthermore, tasks that are in a status that is available only to a custom group are not visible when viewing the project in an Agile view.
 
-   Alleen de systeemstatussen zijn beschikbaar voor gebruik op het artikel. Als een status alleen beschikbaar is voor een afzonderlijke groep waarvan u lid bent, is de status niet beschikbaar op de agile-artikelkaart. Bovendien zijn taken die zich in een status bevinden die alleen voor een aangepaste groep beschikbaar is, niet zichtbaar wanneer u het project in een georiënteerde weergave bekijkt.
-
-   Gebruikers kunnen artikelen over deze statuskolommen verplaatsen op het artikel in het artikel.\
-   Wanneer u statuskolommen definieert, kunt u het volgende doen:
+   Users can move stories among these status columns on the Agile story board.  
+   When defining status columns, you can do the following:
 
    <table style="table-layout:auto"> 
     <col> 
     <col>
     <tbody> 
      <tr> 
-      <td role="rowheader"><strong> herschikt statuskolommen:</strong> </td> 
-      <td> Sleep een statuskolom naar de volgorde waarin u deze wilt weergeven.<br><img src="assets/agile-project-reorderstatuses-350x141.png" alt="" style="width: 350;height: 141;"></td> 
+      <td role="rowheader"><strong>Reorder status columns:</strong> </td> 
+      <td> Drag a status column to the order where you want it to appear.<br><img src="assets/agile-project-reorderstatuses-350x141.png" alt="" style="width: 350;height: 141;"></td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong> verwijder statuskolommen:</strong> </td> 
-      <td>Klik op het pictogram (x) in de kolom die u wilt verwijderen.<br> u kunt niet de "Nieuwe"status verwijderen tenzij een douanestatus aan de mening is toegevoegd en die douanestatus met "Nieuw."evenaart<br> voor informatie over het creëren van een douanestatus, zie <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md" class="MCXref xref"> creeer of geef een status </a> uit.</td> 
+      <td role="rowheader"><strong>Remove status columns:</strong> </td> 
+      <td>Click the (x) icon on the column that you want to remove.<br>You cannot remove the "New" status unless a custom status has been added to the view and that custom status equates with "New."<br>For information about creating a custom status, see <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md" class="MCXref xref">Create or edit a status</a>.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong> voeg statuskolommen toe:</strong> </td> 
-      <td> <p>Klik <strong> plus </strong> pictogram, dan selecteer de status u wilt toevoegen.<br> Alle standaardsysteemstatussen worden getoond, evenals om het even welke douanestatus die met u zijn gedeeld.<br> u kunt tot 10 statussen aan vertoning vormen.</p></td> 
+      <td role="rowheader"><strong>Add status columns:</strong> </td> 
+      <td> <p>Click the <strong>Plus</strong> icon, then select the status you want to add.<br>All default system statuses are displayed, as well as any custom statuses that have been shared with you.<br>You can configure up to 10 statuses to display.</p></td> 
      </tr> 
     </tbody> 
    </table>
 
-   <!--
-        <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE FOR ADD STATUS COLUMNS: research this and add: [! What if the status has been shared with me or a group I'm in (so I can see it here), but the status hasn't been shared with another user who also has access to a project where I later apply this view? Can that user still see this status on the project?]) </p>
-       -->
+   *********   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE FOR ADD STATUS COLUMNS: research this and add: [! What if the status has been shared with me or a group I'm in (so I can see it here), but the status hasn't been shared with another user who also has access to a project where I later apply this view? Can that user still see this status on the project?]) </p>
+       *************
 
-1. In het **Geassocieerde Kleur van de Kaart aan** gebied, selecteer van de volgende opties:
+1. In the **Associate Card Color to** area, select from the following options:
 
    <table style="table-layout:auto"> 
     <col> 
     <col>
     <tbody> 
      <tr> 
-      <td role="rowheader"><strong> Artikel:</strong> </td> 
-      <td>Eventuele subtaken komen overeen met de kleur van de bovenliggende taak, zodat de kleuren van alle artikelen in een bepaalde sjabloon gelijk zijn.<br> de Kleuren worden willekeurig toegewezen aan taken wanneer zij worden gecreeerd als de taak geen subtaken heeft of geen oudertaak heeft.</td> 
+      <td role="rowheader"><strong>Story:</strong> </td> 
+      <td>Any subtasks match the color of the parent task, so that the colors of all stories in any given swimlane are the same.<br>Colors are randomly assigned to tasks when they are created if the task does not have any subtasks or does not have a parent task.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong> Vrije Vorm:</strong> </td> 
-      <td> Alle kaarten worden getoond als blauw door gebrek tot een gebruiker de kleur manueel verandert, zoals die in het artikel <a href="../../../agile/use-scrum-in-an-agile-team/scrum-board/categorize-stories-by-color.md" class="MCXref xref"> wordt beschreven Categoriseer verhalen door kleur op het board van het Trommel </a>. </td> 
+      <td role="rowheader"><strong>Free Form:</strong> </td> 
+      <td> All cards are displayed as blue by default until a user changes the color manually, as described in the article <a href="../../../agile/use-scrum-in-an-agile-team/scrum-board/categorize-stories-by-color.md" class="MCXref xref">Categorize stories by color on the Scrum board</a>. </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong> Prioriteit:</strong> </td> 
-      <td> <p> Kleuren worden als volgt gekoppeld aan de prioriteit van het artikel:</p> 
+      <td role="rowheader"><strong>Priority:</strong> </td> 
+      <td> <p> Colors are associated with the story priority, as follows:</p> 
        <ul> 
-        <li>Hoog = rood</li> 
-        <li>Medium = geel</li> 
-        <li>Laag = Groen <br> als uw beheerder van Workfront douaneprioriteiten voor uw systeem van Workfront heeft gevormd, is de hoogste prioriteit rood, het tweede hoogste is geel, en het resterende is groen.</li> 
+        <li>High = Red</li> 
+        <li>Medium = Yellow</li> 
+        <li>Low = Green<br>If your Workfront administrator has configured custom priorities for your Workfront system, the highest priority is red, the second-highest is yellow, and the remaining are green.</li> 
        </ul> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong> Eigenaar van de Taak:</strong> </td> 
-      <td> Alle artikelen met dezelfde primaire toewijzing hebben dezelfde kleur.<br> de primaire ontvanger is de gebruiker die eerst aan de taak werd toegewezen. </td> 
+      <td role="rowheader"><strong>Task Owner:</strong> </td> 
+      <td> All stories with the same primary assignee are the same color.<br>The primary assignee is the user who was first assigned to the task. </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. Op het **Extra Gebieden** gebied, klik **voegt Gebied** toe, dan selecteer het gebied u aan verhaalkaarten wilt toevoegen. (Dit zijn de zelfde gebieden u kunt toevoegen wanneer het creëren van het aanpassen van een mening of het creëren van kolommen voor een rapport.)\
-   Herhaal dit proces om maximaal drie extra velden aan de artikelkaarten toe te voegen.\
-   Wanneer u velden toevoegt aan artikelkaarten, zijn velden alleen-weergeven en alleen weergeven wanneer het veld is gevuld.
+1. In the **Additional Fields** area, click **Add Field**, then select the field you want to add to story cards. (These are the same fields you can add when creating customizing a view or creating columns for a report.)  
+   Repeat this process to add up to three additional fields to the story cards.  
+   When you add fields to story cards, fields are view-only and display only when the field is populated.
 
-   Standaard worden de volgende gegevenstypen weergegeven op de artikelkaart:
+   By default, the following types of data is displayed on the story card:
 
-   * Artikelnaam met een koppeling die rechtstreeks naar de taak verwijst
-   * De projectnaam met een verbinding direct aan het project\
-     Deze koppeling wordt alleen weergegeven wanneer de Tegelweergave op een herhaling wordt gebruikt. De koppeling wordt niet weergegeven wanneer u een flexibele weergave op een project gebruikt.
-   * De taakbeschrijving
-   * Huidige verplichting
-   * Het percentage voltooide bewerkingen weergeven en bewerken door het percentage aan te passen dat is voltooid of door het aantal punten of uren aan te passen dat is voltooid
-   * Toegewezen gebruikers
+   * Story name with a link directly to the task
+   * The project name with a link directly to the project  
+     This link is displayed only when using the agile view on an iteration; it is not displayed when using an Agile view on a project.
+   * The task description
+   * Current commitment
+   * View and edit the percent complete either by adjusting the percent complete itself or by adjusting the number of points or hours that are complete
+   * Assigned Users
 
-   U kunt aanvullende gegevens (inclusief aangepaste gegevens) weergeven op artikelkaarten. U wilt mogelijk om een aantal redenen extra velden weergeven op artikelkaarten. Bijvoorbeeld, zou u identiteitskaart van de Klant kunnen willen tonen als u aan verhalen voor veelvoudige klanten binnen het project werkt, of u zou de Datum van het Begin van de Taak kunnen willen tonen.
+   You can display additional data (including custom data) on story cards. You might want to display additional fields on story cards for any number of reasons. For example, you might want to display the Customer ID if you are working on stories for multiple customers within the project, or you might want to display the Task Start Date.
 
-1. Klik **sparen**.\
-   Uw toegang bepaalt hoe de weergave wordt opgeslagen. Als u de weergave hebt gemaakt, kunt u de wijzigingen opslaan. Als u dit niet doet, wordt u gevraagd een versie op te slaan. Houd er rekening mee dat wijzigingen die u aanbrengt in de weergave van invloed zijn op gebruikers met wie de weergave is gedeeld.
+1. Click **Save**.  
+   Your access dictates how the view is saved. If you created the view originally, you can save the changes; otherwise, you are prompted to save a version. Keep in mind that changes you make to the view impact users with whom the view has been shared.
 
-1. (Facultatief) klik het **pictogram van de Lijst** om aan de lijst van taken terug te keren.
+1. (Optional) Click the **List** icon to return to the list of tasks.
+
+-->
