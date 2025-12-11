@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Op deze pagina worden de projectverbeteringen beschreven die zijn aangebracht met de release Eerste kwartaal 2026 voor de voorvertoningsomgeving. Deze verbeteringen zullen beschikbaar worden gesteld in de productieomgeving, zoals vermeld.
 
-Voor een lijst van alle veranderingen beschikbaar op dit punt in Eerste Kwartaal 2026 versiecyclus, zie [ Eerste Kwartaal 2026 releaseoverzicht ](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar op dit punt in Eerste Kwartaal 2026 versiecyclus, zie [&#x200B; Eerste Kwartaal 2026 releaseoverzicht &#x200B;](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md).
 
 ## De lichte gebruikers kunnen tijd op projecten registreren
 
@@ -32,6 +32,6 @@ Voordat u een project kunt aanmelden, moet een gebruiker met een Light-licentie 
 * Toegang tot projecten op toegangsniveau bewerken
 * Contribute of hoger met rechten voor het project met toegang tot logboekuren
 
-Voor meer informatie, zie [ tijd van het Logboek ](/help/quicksilver/timesheets/create-and-manage-timesheets/log-time.md).
+Voor meer informatie, zie [&#x200B; tijd van het Logboek &#x200B;](/help/quicksilver/timesheets/create-and-manage-timesheets/log-time.md).
 
 
