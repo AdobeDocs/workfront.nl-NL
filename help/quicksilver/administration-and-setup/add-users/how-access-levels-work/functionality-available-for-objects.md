@@ -23,7 +23,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->De informatie in dit artikel verwijst naar de huidige toegangsniveaus. Voor informatie over de niveaus van de erfenistoegang, zie [ overzicht van de niveaus van de Toegang ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
+>De informatie in dit artikel verwijst naar de huidige toegangsniveaus. Voor informatie over de niveaus van de erfenistoegang, zie [&#x200B; overzicht van de niveaus van de Toegang &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
 
 De volgende lijsten maken een lijst van de functionaliteit beschikbaar voor elk objecten type in de diverse toegangsniveaus.
 
@@ -31,8 +31,8 @@ Het geeft ook aan welke handelingen Workfront-beheerders kunnen uitschakelen of 
 
 >[!NOTE]
 >
->* In dit artikel wordt de functionaliteit beschreven die beschikbaar is voor toegangsniveaus in het nieuwe Workfront-pakketmodel. Om functionaliteit beschikbaar in het huidige pakketmodel te zien, zie [ Functionaliteit beschikbaar voor elk objecten type voor diverse toegangsniveaus ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md).
->* Voor een lijst van functionaliteit beschikbaar aan de verschillende pakketten in het recentste model, zie [ het Prijsen en het Pakketten van Adobe Workfront ](https://business.adobe.com/products/workfront/pricing.html).
+>* In dit artikel wordt de functionaliteit beschreven die beschikbaar is voor toegangsniveaus in het nieuwe Workfront-pakketmodel. Om functionaliteit beschikbaar in het huidige pakketmodel te zien, zie [&#x200B; Functionaliteit beschikbaar voor elk objecten type voor diverse toegangsniveaus &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md).
+>* Voor een lijst van functionaliteit beschikbaar aan de verschillende pakketten in het recentste model, zie [&#x200B; het Prijsen en het Pakketten van Adobe Workfront &#x200B;](https://business.adobe.com/products/workfront/pricing.html).
 
 ## Projecten
 
@@ -345,9 +345,9 @@ Alleen gebruikers met een standaardlicentie kunnen volledige toegang tot resourc
 
 &#42; Met behulp van een toegangsniveau kunnen Workfront-beheerders deze functionaliteit uitschakelen of inschakelen.
 
-&#42;&#42; vereist extra toegang tot Financiële Gegevens en toestemmingen aan projectfinanciën. Als u de toegang van het Beheer van het Middel tot een gebruiker van de Planner verleent die geen toegang tot Financiële Gegevens heeft, kan de gebruiker nog de uurtoewijzingen in de Planner van het Middel zien, maar kan niet op de mening van Kosten schakelen of het BedrijfsGeval bekijken. Voor meer informatie, zie [ toegang van de Verlening tot financiële gegevens ](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md) en [ de financiële toestemmingen van het Aandeel op een voorwerp ](../../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md).
+&#42;&#42; vereist extra toegang tot Financiële Gegevens en toestemmingen aan projectfinanciën. Als u de toegang van het Beheer van het Middel tot een gebruiker van de Planner verleent die geen toegang tot Financiële Gegevens heeft, kan de gebruiker nog de uurtoewijzingen in de Planner van het Middel zien, maar kan niet op de mening van Kosten schakelen of het BedrijfsGeval bekijken. Voor meer informatie, zie [&#x200B; toegang van de Verlening tot financiële gegevens &#x200B;](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md) en [&#x200B; de financiële toestemmingen van het Aandeel op een voorwerp &#x200B;](../../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md).
 
-&#42;&#42;&#42; vereist toestemming om tot het voorwerp bij te dragen, met Make Toewijzingen die onder Geavanceerde Montages worden toegelaten. Voor informatie, zie de sectie [ geërfte toestemmingen en de hiërarchie van voorwerpen ](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md#sharing-an-object) in het artikel [ Overzicht van het delen van toestemmingen op voorwerpen ](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md) begrijpen.
+&#42;&#42;&#42; vereist toestemming om tot het voorwerp bij te dragen, met Make Toewijzingen die onder Geavanceerde Montages worden toegelaten. Voor informatie, zie de sectie [&#x200B; geërfte toestemmingen en de hiërarchie van voorwerpen &#x200B;](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md#sharing-an-object) in het artikel [&#x200B; Overzicht van het delen van toestemmingen op voorwerpen &#x200B;](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md) begrijpen.
 
 ## Scenario Planner, gebied
 
@@ -366,7 +366,7 @@ Alleen gebruikers met een standaardlicentie kunnen volledige toegang tot resourc
 >
 >De gebruikers kunnen een plan bekijken dat een andere gebruiker creeerde slechts als een verbinding aan het plan met hen wordt gedeeld.
 
-&#42; Gebruikers kunnen financiële gegevens alleen in een plan of initiatief bekijken als ze toegang hebben tot financiële gegevens. Voor meer informatie, zie [ toegang van de Verlening tot financiële gegevens ](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
+&#42; Gebruikers kunnen financiële gegevens alleen in een plan of initiatief bekijken als ze toegang hebben tot financiële gegevens. Voor meer informatie, zie [&#x200B; toegang van de Verlening tot financiële gegevens &#x200B;](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
 
 ## Gebied met Workfront-doelen
 
