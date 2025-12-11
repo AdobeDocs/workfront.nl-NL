@@ -5,9 +5,9 @@ description: U kunt lijsten van voorwerpen in  [!DNL Adobe Workfront]  bekijken 
 feature: Get Started with Workfront
 author: Nolan
 exl-id: d4262b8e-bbe0-4ac2-8f1f-5d32541311c8
-source-git-commit: f0b3b8aa64fa0b03a196bbcc2bdd037eeeb0f89e
+source-git-commit: ca16652aa06b4652d0d1b41156ed1ef96225c49a
 workflow-type: tm+mt
-source-wordcount: '1887'
+source-wordcount: '2017'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,14 @@ Hier volgen enkele kenmerken van lijsten in [!DNL Workfront] :
 
 * Een [!DNL Workfront] -beheerder kan aangepaste lijsten maken die op verschillende gebieden van [!DNL Workfront] worden toegepast.
 
-  Voor meer informatie over het creëren van systeem-vlakke lijsten, zie het artikel [&#x200B; creëren, uitgeven, en delen standaardfilters, meningen, en groeperingen &#x200B;](../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-and-share-default-fvgs.md).
+  Voor meer informatie over het creëren van systeem-vlakke lijsten, zie het artikel [ creëren, uitgeven, en delen standaardfilters, meningen, en groeperingen ](../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-and-share-default-fvgs.md).
+
+* Hier volgen de typen lijsten in Workfront:
+
+   * Standaardlijsten
+   * Verbeterde lijsten
+
+  Voor meer informatie, zie de sectie [ het verschil tussen de norm en de verbeterde lijsten ](#the-difference-between-the-standard-and-the-enhanced-lists) in dit artikel.
 
 ## Toegangsvereisten
 
@@ -59,7 +66,7 @@ Hier volgen enkele kenmerken van lijsten in [!DNL Workfront] :
  </tbody> 
 </table>
 
-Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -99,8 +106,8 @@ Hieronder vindt u een aantal objectlijsten die u kunt vinden in [!DNL Workfront]
 
 >[!NOTE]
 >
->* Deze lijst is niet uitgebreid. Elk van deze objecten lijsten kan ook op een rapport of een dashboard verschijnen. Bijvoorbeeld, toont een rapport van het Project of een dashboard dat een rapport van het Project bevat ook een lijst van projecten.
->* In deze lijst betekent &quot;selecteren&quot; dat u op de naam van het item moet klikken en niet op het selectievakje links van de naam.
+>Deze lijst is niet uitgebreid. Elk van deze objecten lijsten kan ook op een rapport of een dashboard verschijnen. Bijvoorbeeld, toont een rapport van het Project of een dashboard dat een rapport van het Project bevat ook een lijst van projecten.
+
 
 
 <table style="table-layout:auto"> 
@@ -124,7 +131,7 @@ Hieronder vindt u een aantal objectlijsten die u kunt vinden in [!DNL Workfront]
    <td>Lijst van programma's</td> 
    <td> 
     <ul> 
-     <li> <p>[!UICONTROL Portfolios] &gt;[!UICONTROL select a portfolio] &gt;[!UICONTROL Programs]</p> </li> 
+     <li> <p>[!UICONTROL Portfolios] &gt;[!UICONTROL click a portfolio] &gt;[!UICONTROL Programs]</p> </li> 
      <li data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <p>[!UICONTROL Programs]</p> </li> 
     </ul> </td> 
   </tr> 
@@ -133,26 +140,26 @@ Hieronder vindt u een aantal objectlijsten die u kunt vinden in [!DNL Workfront]
    <td> 
     <ul> 
      <li> <p>[!UICONTROL Projects]</p> </li> 
-     <li> <p>[!UICONTROL Portfolios] &gt;[!UICONTROL select a portfolio] &gt;[!UICONTROL Projects]</p> </li> 
-     <li> <p>[!UICONTROL Portfolios] &gt;[!UICONTROL select a portfolio] &gt;[!UICONTROL Programs] &gt;[!UICONTROL select a program] &gt;[!UICONTROL Projects]</p> </li> 
+     <li> <p>[!UICONTROL Portfolios] &gt;[!UICONTROL click a portfolio] &gt;[!UICONTROL Projects]</p> </li> 
+     <li> <p>[!UICONTROL Portfolios] &gt;[!UICONTROL click a portfolio] &gt;[!UICONTROL Programs] &gt;[!UICONTROL click a program] &gt;[!UICONTROL Projects]</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>Lijst met taken</td> 
    <td> 
     <ul> 
-     <li> <p>[!UICONTROL Projects] &gt;[!UICONTROL select a project] &gt; [!UICONTROL Tasks]</p> </li> 
-     <li> <p>[!UICONTROL Projects] &gt;[!UICONTROL select a project] &gt;[!UICONTROL Tasks] &gt;[!UICONTROL select a task] &gt;[!UICONTROL Subtasks]</p> </li> 
-     <li> <p>[!UICONTROL Projects] &gt;[!UICONTROL select a project] &gt;[!UICONTROL Tasks] &gt;[!UICONTROL select a task] &gt; [!UICONTROL Predecessors*]</p> </li> 
+     <li> <p>[!UICONTROL Projects] &gt;[!UICONTROL click a project] &gt; [!UICONTROL Tasks]</p> </li> 
+     <li> <p>[!UICONTROL Projects] &gt;[!UICONTROL click a project] &gt;[!UICONTROL Tasks] &gt;[!UICONTROL click a task] &gt;[!UICONTROL Subtasks]</p> </li> 
+     <li> <p>[!UICONTROL Projects] &gt;[!UICONTROL click a project] &gt;[!UICONTROL Tasks] &gt;[!UICONTROL click a task] &gt; [!UICONTROL Predecessors*]</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>Lijst met problemen</td> 
    <td> 
     <ul> 
-     <li> <p>[!UICONTROL Projects] &gt; [!UICONTROL select] een project &gt;[!UICONTROL Issues]</p> </li> 
-     <li> <p>[!UICONTROL Projects] &gt;[!UICONTROL select a project] &gt;[!UICONTROL Tasks] &gt;[!UICONTROL select a task] &gt; [!UICONTROL Issues]</p> </li> 
-     <li> <p>[!UICONTROL Projects] &gt;[!UICONTROL select a project] &gt;[!UICONTROL Tasks] &gt;[!UICONTROL select a task] &gt;[!UICONTROL Subtasks] &gt;[!UICONTROL select a task] &gt; [!UICONTROL Issues]</p> </li> 
+     <li> <p>[!UICONTROL Projects] &gt; [!UICONTROL click] een project &gt;[!UICONTROL Issues]</p> </li> 
+     <li> <p>[!UICONTROL Projects] &gt;[!UICONTROL click a project] &gt;[!UICONTROL Tasks] &gt;[!UICONTROL click a task] &gt; [!UICONTROL Issues]</p> </li> 
+     <li> <p>[!UICONTROL Projects] &gt;[!UICONTROL click a project] &gt;[!UICONTROL Tasks] &gt;[!UICONTROL click a task] &gt;[!UICONTROL Subtasks] &gt;[!UICONTROL click a task] &gt; [!UICONTROL Issues]</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -188,11 +195,11 @@ Hieronder vindt u een aantal objectlijsten die u kunt vinden in [!DNL Workfront]
    <td> 
     <ul> 
      <li> <p>[!UICONTROL Documents]</p> </li> 
-     <li> <p>[!UICONTROL Portfolios] &gt;[!UICONTROL select a portfolio] &gt; [!UICONTROL Documents]</p> </li> 
-     <li> <p>[!UICONTROL Portfolios] &gt; [!UICONTROL select a portfolio] &gt; [!UICONTROL Programs] &gt; [!UICONTROL select a program] &gt;[!UICONTROL Documents]</p> </li> 
-     <li> <p>[!UICONTROL Projects] &gt;[!UICONTROL select a project] &gt;[!UICONTROL Documents]</p> </li> 
-     <li> <p>[!UICONTROL Projects] &gt;[!UICONTROL select a project] &gt;[!UICONTROL Tasks] &gt;[!UICONTROL select a task] &gt; [!UICONTROL Documents]</p> </li> 
-     <li> <p>[!UICONTROL Projects] &gt; [!UICONTROL select] een project &gt; [!UICONTROL Issues] &gt; [!UICONTROL select an issue] &gt; [!UICONTROL Documents]</p> </li> 
+     <li> <p>[!UICONTROL Portfolios] &gt;[!UICONTROL click a portfolio] &gt; [!UICONTROL Documents]</p> </li> 
+     <li> <p>[!UICONTROL Portfolios] &gt; [!UICONTROL click a portfolio] &gt; [!UICONTROL Programs] &gt; [!UICONTROL click a program] &gt;[!UICONTROL Documents]</p> </li> 
+     <li> <p>[!UICONTROL Projects] &gt;[!UICONTROL click a project] &gt;[!UICONTROL Documents]</p> </li> 
+     <li> <p>[!UICONTROL Projects] &gt;[!UICONTROL click a project] &gt;[!UICONTROL Tasks] &gt;[!UICONTROL click a task] &gt; [!UICONTROL Documents]</p> </li> 
+     <li> <p>[!UICONTROL Projects] &gt; [!UICONTROL click] een project &gt; [!UICONTROL Issues] &gt; [!UICONTROL click an issue] &gt; [!UICONTROL Documents]</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -206,38 +213,38 @@ Hieronder vindt u een aantal objectlijsten die u kunt vinden in [!DNL Workfront]
    <td>Lijst van factureringssnelheden</td> 
    <td> 
     <ul> 
-     <li> <p>[!UICONTROL Projects] &gt;[!UICONTROL select a project] &gt;[!UICONTROL Billing Rates*]</p> </li> 
+     <li> <p>[!UICONTROL Projects] &gt;[!UICONTROL click a project] &gt;[!UICONTROL Billing Rates*]</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>Lijst met factureringsgegevens</td> 
    <td> 
     <ul> 
-     <li> <p>[!UICONTROL Projects] &gt; [!UICONTROL select a project] &gt; [!UICONTROL Billing Records]</p> </li> 
+     <li> <p>[!UICONTROL Projects] &gt; [!UICONTROL click a project] &gt; [!UICONTROL Billing Records]</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>Lijst van risico's</td> 
    <td> 
     <ul> 
-     <li> <p>[!UICONTROL Projects] &gt;[!UICONTROL select a project] &gt;[!UICONTROL Risks]</p> </li> 
+     <li> <p>[!UICONTROL Projects] &gt;[!UICONTROL click a project] &gt;[!UICONTROL Risks]</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>Lijst van uitgaven</td> 
    <td> 
     <ul> 
-     <li> <p>[!UICONTROL Projects] &gt;[!UICONTROL select] een project &gt;[!UICONTROL Expenses]</p> </li> 
-     <li> <p>[!UICONTROL Projects] &gt; [!UICONTROL select a project] &gt; [!UICONTROL Tasks] &gt; [!UICONTROL select a task] &gt;[!UICONTROL Expenses]</p> </li> 
+     <li> <p>[!UICONTROL Projects] &gt;[!UICONTROL click] een project &gt;[!UICONTROL Expenses]</p> </li> 
+     <li> <p>[!UICONTROL Projects] &gt; [!UICONTROL click a project] &gt; [!UICONTROL Tasks] &gt; [!UICONTROL click a task] &gt;[!UICONTROL Expenses]</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>Lijst met uurwaarden</td> 
    <td> 
     <ul> 
-     <li> <p>[!UICONTROL Projects] &gt;[!UICONTROL select] een project</p> </li> 
-     <li> <p>[!UICONTROL Projects] &gt;[!UICONTROL select a project] &gt;[!UICONTROL Tasks] &gt;[!UICONTROL select a task] &gt;[!UICONTROL Hours]</p> </li> 
-     <li> <p>[!UICONTROL Projects] &gt; [!UICONTROL select] een project &gt; [!UICONTROL Issues] &gt; [!UICONTROL select] een kwestie &gt;[!UICONTROL Hours]</p> </li>
+     <li> <p>[!UICONTROL Projects] &gt;[!UICONTROL click] een project</p> </li> 
+     <li> <p>[!UICONTROL Projects] &gt;[!UICONTROL click a project] &gt;[!UICONTROL Tasks] &gt;[!UICONTROL click a task] &gt;[!UICONTROL Hours]</p> </li> 
+     <li> <p>[!UICONTROL Projects] &gt; [!UICONTROL click] een project &gt; [!UICONTROL Issues] &gt; [!UICONTROL click] een kwestie &gt;[!UICONTROL Hours]</p> </li>
     </ul> </td> 
   </tr>
   <tr> 
@@ -252,7 +259,7 @@ Hieronder vindt u een aantal objectlijsten die u kunt vinden in [!DNL Workfront]
    <td> 
     <ul> 
      <li> <p>[!UICONTROL Setup] &gt;[!UICONTROL Groups]</p> </li>
-     <li> <p>[!UICONTROL Setup] &gt;[!UICONTROL Groups] &gt;[!UICONTROL select the parent group] &gt;[!UICONTROL Subgroups] </li> 
+     <li> <p>[!UICONTROL Setup] &gt;[!UICONTROL Groups] &gt;[!UICONTROL click the parent group] &gt;[!UICONTROL Subgroups] </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -325,16 +332,16 @@ Hieronder vindt u de elementen van een lijst:
 
 Deze elementen worden standaard boven aan elke lijst weergegeven. Ze zijn vast en bewegen niet als u door de lijst schuift. Plaats de muis boven het pictogram voor elk element om het te identificeren.
 
-![&#x200B; de elementen van de Lijst &#x200B;](assets/nwe-list-elements.png)
+![ de elementen van de Lijst ](assets/nwe-list-elements.png)
 
 U kunt lijstelementen in de volgende gebieden aanpassen en hen met andere gebruikers delen:
 
-* Om het even welk systeem standaardlijst die in de sectie [&#x200B; wordt gevonden wordt begonnen met lijsten in  [!DNL Adobe Workfront]](#default-workfront-lists) in dit artikel
+* Om het even welk systeem standaardlijst die in de sectie [ wordt gevonden wordt begonnen met lijsten in  [!DNL Adobe Workfront]](#default-workfront-lists) in dit artikel
 * Elk rapport dat met u wordt gedeeld
 
 De bouwelementen voor lijsten zijn het zelfde als de bouwstenen voor rapporten.
 
-Voor meer informatie over het creëren van en het aanpassen van de bouwselementen van lijsten en rapporten, zie [&#x200B; Meldend elementen: filters, meningen, en groeperingen &#x200B;](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md).
+Voor meer informatie over het creëren van en het aanpassen van de bouwselementen van lijsten en rapporten, zie [ Meldend elementen: filters, meningen, en groeperingen ](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md).
 
 ## Handelingen weergeven
 
@@ -600,58 +607,100 @@ In de volgende tabel worden de overeenkomsten en verschillen tussen lijsten en r
  </tbody> 
 </table>
 
-U moet toegang hebben tot filters, weergaven en groepen om deze te kunnen maken. Voor meer informatie, zie [&#x200B; toegang van de Verlening tot filters, meningen, en groeperingen &#x200B;](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md).
+*U moet toegang hebben tot filters, weergaven en groepen om deze te kunnen maken. Voor meer informatie, zie [ toegang van de Verlening tot filters, meningen, en groeperingen ](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md).
 
-U moet toegang hebben tot filters, weergaven en groepen, maar ook tot rapporten, dashboards en kalenders om deze te kunnen maken. Voor meer informatie, zie [&#x200B; toegang van de Verlening tot rapporten, dashboards, en kalenders &#x200B;](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
+**U moet toegang tot filters, meningen, en groeperingen evenals rapporten, dashboards, en kalenders hebben om hen te kunnen tot stand brengen. Voor meer informatie, zie [ toegang van de Verlening tot rapporten, dashboards, en kalenders ](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
 
-U kunt lijsten voor rapporten aanpassen die op een dashboard worden geplaatst slechts als de schepper van het rapport de lijstelementen heeft gevormd om op het dashboard zichtbaar te zijn.
+***U kunt lijsten voor rapporten aanpassen die op een dashboard worden geplaatst slechts als de schepper van het rapport de lijstelementen heeft gevormd om op het dashboard zichtbaar te zijn.
 
 >[!NOTE]
 >
 >U kunt geen lijst aan een dashboard toevoegen zonder eerst een rapport te creëren en het toe te voegen aan het dashboard.
 
-Voor meer informatie over de bouw van een rapport, zie [&#x200B; een douanerapport &#x200B;](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) creëren. Voor informatie over het creëren van douanesecties, zie [&#x200B; douanetabellen of secties &#x200B;](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md) creëren.
+Voor meer informatie over de bouw van een rapport, zie [ een douanerapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) creëren. Voor informatie over het creëren van douanesecties, zie [ douanetabellen of secties ](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md) creëren.
 
-## Het verschil tussen de bijgewerkte en de oudere lijsten
+## Het verschil tussen de standaard en de verbeterde lijsten
 
 [!DNL Workfront] bevat twee typen lijsten:
 
-* Oudere lijsten
+* Standaardlijsten
 
-  ![&#x200B; Blauwe groeperingen &#x200B;](assets/legacy-list-screen-shot-blue-groupings-350x101.png)
+  ![ Standaard projectlijst ](assets/standard-list-screen-shot-gray-groupings.png)
 
-* Bijgewerkte lijsten
+* Verbeterde lijsten
 
-  ![&#x200B; Grijze groeperingen &#x200B;](assets/updated-list-screen-shot-gray-groupings-350x71.png)
+  ![ Verbeterde lijsten ](assets/enhanced-status-list.png)
 
-In de volgende tabel ziet u een aantal verschillen tussen de verouderde en bijgewerkte lijsten in [!DNL Workfront] :
+De mogelijkheden van elke verbeterde lijst zijn afhankelijk van de pagina waarvan u de lijst opent.
 
-<!--
-<span style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode"> [Legacy does not equal Classic. Legacy lists appear in NWE and Classic. Updated lists appear in NWE and Classic.]</span>
--->
+Voor informatie over verbeterde lijsten, zie [ Gebruik verbeterde lijsten ](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
+
+
+
+In de volgende tabel ziet u enkele verschillen tussen de standaard- en de verbeterde lijst in [!DNL Workfront] :
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td><b>Oudere lijsten</b></td> 
-   <td><b>Bijgewerkte lijsten</b></td> 
+   <td><b>Standaardlijsten</b></td> 
+   <td><b>Verbeterde lijsten</b></td> 
   </tr> 
-  <td> <p>Vertoning <strong> 100 </strong> punten door gebrek</p> </td> 
-   <td> <p>Toon <strong> allen </strong> of tot <strong> 2000 </strong> punten door gebrek</p> </td> 
+  <tr>
+  <td> <p>Toon <strong> allen </strong> of tot <strong> 2000 </strong> punten door gebrek</p> </td> 
+   <td> Standaard maximaal 100 items weergeven en maximaal 2000 na het schuiven </td> 
+  </tr>
+
+<tr> 
+   <td>Pictogrammen boven aan de lijst zijn enigszins consistent in alle lijsten, ongeacht waar u ze opent. Sommige lijsten, taken, problemen of documenten hebben unieke pictogrammen die betrekking hebben op de functionaliteit van deze objecttypen. </td> 
+   <td>De pictogrammen boven aan de lijst verschillen, afhankelijk van de plaats waar u de lijst opent. Bovendien bevindt zich onder aan de lijst een blauwe balk die wordt weergegeven wanneer u items in de lijst selecteert.</td> 
+  </tr>
+
+<tr> 
+   <td> <p>Gebruik pictogrammen in de werkbalk boven aan de lijst voor interactie met items in de lijst</p> </td> 
+   <td> <p>Voer een van de volgende handelingen uit om te communiceren met items in de lijst, afhankelijk van wat u wilt bijwerken:</p>
+   <ul><li>Gebruik de pictogrammen in de werkbalk bovenaan voor bepaalde handelingen, zoals zoeken, nieuwe items toevoegen, sorteren of filteren</li>
+   <li>Selecteer een item in de lijst en gebruik de pictogrammen in de blauwe werkbalk onder aan de lijst voor bepaalde handelingen, zoals het verwijderen of weergeven van items</li></ul> 
+   </tr>   
+   </td> 
   </tr> 
   <tr> 
-   <td> <p>CTRL+F gebruiken om items in een lijst te zoeken</p> </td> 
-   <td> <p>Gebruik snelle filters om snel informatie in een grote lijst te zoeken</p> <p>Voor informatie over het gebruiken van snelle filters in lijsten, zie <a href="../../../workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md" class="MCXref xref"> de snelle filter op een lijst </a> toepassen.</p> </td> 
-  </tr> 
-  <tr> 
-   <td>U kunt aangepaste velden met tekstopmaak niet inline bewerken.</td> 
-   <td> <p>Tekst in aangepaste velden met opmaak kan worden geconfigureerd om vette, cursieve, onderstreepte, opsommingstekens, nummering, hyperlinks en blokaanhalingstekens toe te staan.</p> <p>Voor meer informatie, zie <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md"> een douaneformulier </a> creëren.</p> </td> 
-  </tr> 
-  <tr> 
-   <td>Met voorwaardelijke opmaak kunt u de tekstkleur van koppelingen in een lijst wijzigen</td> 
-   <td>Kan tekstkleurwijzigingen niet toepassen op koppelingen in een lijst</td> 
+   <td><p>U kunt wijzigingen in de celkleur toepassen op items in een lijst</p></td>
+   <td><p>U kunt wijzigingen in de celkleur alleen toepassen op items in een lijst in Workfront Planning. </p></td>
+   </td> 
+   <td></td> 
   </tr> 
  </tbody> 
 </table>
+
+<!--
+consider adding things like adding fields on the fly in an enhanced list when we will be able to do this-->
+
+<!--old table: 
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td><b>Legacy lists</b></td> 
+   <td><b>Updated lists</b></td> 
+  </tr> 
+  <td> <p>Display <strong>100</strong> items by default</p> </td> 
+   <td> <p>Display <strong>All</strong> or up to <strong>2000</strong> items by default</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>Use CTRL+F to find items in a list</p> </td> 
+   <td> <p>Use quick filters to quickly find information in a large list</p> <p>For information about using quick filters in lists, see <a href="../../../workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md" class="MCXref xref">Apply the quick filter to a list</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>You can't inline edit custom fields with rich text formatting.</td> 
+   <td> <p>Text in custom fields with formatting can be configured to allow bold, italics, underline, bullets, numbering, hyperlinks, and block quotes.</p> <p>For more information, see <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md">Create a custom form</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>Conditional formatting can change the text color of links in a list</td> 
+   <td>Cannot apply text color changes to links in a list</td> 
+  </tr> 
+ </tbody> 
+</table>
+-->
