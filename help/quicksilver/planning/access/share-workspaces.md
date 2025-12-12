@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 475a519d-d3bd-4461-8099-0e296d556d34
-source-git-commit: f2fe6ef78b3032f7a89d4c816cb11b525634c067
+source-git-commit: 5404cec0cb02d363154a3696b63aaedaafc82688
 workflow-type: tm+mt
-source-wordcount: '767'
+source-wordcount: '789'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ This article describes how you can share a view with others. For information abo
 
 >[!NOTE]
 >
->Het verlenen van toestemmingen aan een werkruimte geeft andere gebruikers geen toestemmingen aan de meningen op de verslagtypepagina&#39;s. U moet machtigingen verlenen aan afzonderlijke weergaven in een recordtypepagina om deze te kunnen delen met andere gebruikers. Voor informatie, zie [&#x200B; een mening &#x200B;](/help/quicksilver/planning/access/share-views.md) delen.
+>Het verlenen van toestemmingen aan een werkruimte geeft andere gebruikers geen toestemmingen aan de meningen op de verslagtypepagina&#39;s. U moet machtigingen verlenen aan afzonderlijke weergaven in een recordtypepagina om deze te kunnen delen met andere gebruikers. Voor informatie, zie [ een mening ](/help/quicksilver/planning/access/share-views.md) delen.
 
 
 ## Toegangsvereisten
@@ -63,7 +63,7 @@ of
 </tbody> 
 </table>
 
-Voor meer informatie over de toegangsvereisten van Workfront, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer informatie over de toegangsvereisten van Workfront, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -128,7 +128,7 @@ Voor meer informatie over de toegangsvereisten van Workfront, zie [&#x200B; vere
 
 ## Overwegingen bij het delen van werkruimten
 
-* Voor algemene informatie over het delen van voorwerpen in de Planning van Workfront, zie ook [&#x200B; Overzicht van het delen van toestemmingen in de Planning van Adobe Workfront &#x200B;](/help/quicksilver/planning/access/sharing-permissions-overview.md).
+* Voor algemene informatie over het delen van voorwerpen in de Planning van Workfront, zie ook [ Overzicht van het delen van toestemmingen in de Planning van Adobe Workfront ](/help/quicksilver/planning/access/sharing-permissions-overview.md).
 * U kunt werkruimten delen met gebruikers, teams, rollen, groepen, of bedrijven binnen uw organisatie.
 * Naast teams, groepen, bedrijven, en baanrollen, kunt u slechts met gebruikers delen die aan Adobe Admin Console zijn toegevoegd.
 * U kunt werkruimten niet delen met gebruikers buiten uw organisatie.
@@ -149,15 +149,15 @@ Een werkruimte delen met anderen:
 
 1. Open de werkruimte u wilt delen, dan **Aandeel** in de hoger-juiste hoek van het scherm klikken.
 
-   ![&#x200B; knoop van het Aandeel op werkruimte het hoogste recht &#x200B;](assets/share-button-on-workspace-top-right.png)
+   ![ knoop van het Aandeel op werkruimte het hoogste recht ](assets/share-button-on-workspace-top-right.png)
 
 1. In de **toegang van de Verlening tot dit werkruimte** gebied, begin de naam van een gebruiker, een groep, een team, een bedrijf, of baanrol te typen dan het te klikken wanneer het in de lijst toont.
 
-   ![&#x200B; delend UI met groepen &#x200B;](assets/sharing-ui-with-groups.png)
+   ![ delend UI met groepen ](assets/sharing-ui-with-groups.png)
 
    >[!NOTE]
    >
-   >   Naast teams, groepen, bedrijven, en baanrollen, kunt u slechts met gebruikers delen die aan Adobe Admin Console zijn toegevoegd. U kunt geen gebruikers met alleen Workfront toevoegen. Voor informatie, zie [&#x200B; gebruikers in Adobe Admin Console &#x200B;](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md) leiden.
+   >   Naast teams, groepen, bedrijven, en baanrollen, kunt u slechts met gebruikers delen die aan Adobe Admin Console zijn toegevoegd. U kunt geen gebruikers met alleen Workfront toevoegen. Voor informatie, zie [ gebruikers in Adobe Admin Console ](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md) leiden.
 
 
 1. Selecteer een van de volgende machtigingsniveaus in het keuzemenu:
@@ -165,7 +165,7 @@ Een werkruimte delen met anderen:
    * Contribute
    * Beheren
 
-     Voor informatie over toestemmingsniveaus en welke acties kunnen de gebruikers voor elk niveau uitvoeren, zie [&#x200B; Overzicht van het delen van toestemmingen in de Planning van Adobe Workfront &#x200B;](/help/quicksilver/planning/access/sharing-permissions-overview.md).
+     Voor informatie over toestemmingsniveaus en welke acties kunnen de gebruikers voor elk niveau uitvoeren, zie [ Overzicht van het delen van toestemmingen in de Planning van Adobe Workfront ](/help/quicksilver/planning/access/sharing-permissions-overview.md).
 1. Klik **verbinding van het Exemplaar** om een verbinding aan de werkruimte aan uw klembord te kopiëren.
 1. Deel de gekopieerde koppeling met anderen. Gebruikers die de koppeling ontvangen, moeten actieve gebruikers zijn en zich aanmelden bij Workfront om toegang te krijgen tot de werkruimte.
 1. Klik **sparen**.
@@ -179,16 +179,16 @@ Gebruikers die een koppeling openen naar een werkruimte waarvoor zij geen machti
 1. (Voorwaardelijk) Als u de manager van een werkruimte bent, zou u een verzoek van een andere gebruiker kunnen ontvangen om tot de mening op de volgende gebieden toegang te hebben:
 
    * Een melding in de app
-     ![&#x200B; In-app bericht voor toegangsverzoek &#x200B;](assets/in-app-notification-for-access-request.png)
+     ![ In-app bericht voor toegangsverzoek ](assets/in-app-notification-for-access-request.png)
    * Een e-mailmelding
-     ![&#x200B; E-mailbericht voor toegangsverzoek &#x200B;](assets/email-notification-for-access-request.png)
+     ![ E-mailbericht voor toegangsverzoek ](assets/email-notification-for-access-request.png)
 1. (Voorwaardelijk) Klik in het systeemvak in Workfront op de melding in de app.
 of
 Van het e-mailbericht, klik **Mening alle berichten**, dan klik het bericht in de lijst.
 
    De **hangende toegangsverzoeken** vakvertoningen.
 
-   ![&#x200B; de lijstgoedkeuringsdoos van Meldingen &#x200B;](assets/notifications-list-approval-box.png)
+   ![ de lijstgoedkeuringsdoos van Meldingen ](assets/notifications-list-approval-box.png)
 
 1. (Optioneel) Voor de gebruiker wiens machtigingen u wilt goedkeuren, selecteert u een van de volgende opties in het vervolgkeuzemenu rechts van de gebruikersnaam:
    * **Mening**
@@ -210,3 +210,5 @@ Van het e-mailbericht, klik **Mening alle berichten**, dan klik het bericht in d
 1. Klik **sparen**.
 
    De verwijderde gebruikers hebben geen toegang meer tot de werkruimte of de bijbehorende objecten.
+
+   Er is geen melding voor de gebruikers die uit de toegang tot de werkruimte zijn verwijderd, dat zij niet langer over deze machtigingen beschikken.

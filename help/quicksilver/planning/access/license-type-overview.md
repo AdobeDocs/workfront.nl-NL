@@ -6,7 +6,7 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 10dee6f9-06ff-435a-81a4-2125642fab59
-source-git-commit: c879d06cfe7ba76df3e974c160a7349f1503f17f
+source-git-commit: 5404cec0cb02d363154a3696b63aaedaafc82688
 workflow-type: tm+mt
 source-wordcount: '644'
 ht-degree: 0%
@@ -25,11 +25,11 @@ ht-degree: 0%
 Het Adobe Workfront-licentietype werkt in combinatie met uw Adobe Workfront-planningsbevoegdheden en geeft de volgende toegang:
 
 * Werkruimten of recordtypen weergeven, bijdragen of beheren
-* Weergaven weergeven of beheren.
+* Weergaven weergeven of beheren. <!--<span class="preview">and records</span>-->
 
-Voor informatie over toestemmingen aan voorwerpen in de Planning van Workfront, zie [&#x200B; Overzicht van het delen van toestemmingen in de Planning van Adobe Workfront &#x200B;](/help/quicksilver/planning/access/sharing-permissions-overview.md).
+Voor informatie over toestemmingen aan voorwerpen in de Planning van Workfront, zie [ Overzicht van het delen van toestemmingen in de Planning van Adobe Workfront ](/help/quicksilver/planning/access/sharing-permissions-overview.md).
 
-Voor informatie over toegang tot de Planning van Workfront, zie [&#x200B; Adobe die toegangsoverzicht van de Planning &#x200B;](/help/quicksilver/planning/access/access-overview.md) plant.
+Voor informatie over toegang tot de Planning van Workfront, zie [ Adobe die toegangsoverzicht van de Planning ](/help/quicksilver/planning/access/access-overview.md) plant.
 
 ## De relatie tussen Workfront-licentietypen en Workfront-planningsmachtigingen
 
@@ -48,7 +48,7 @@ Houd rekening met het volgende wanneer u werkt met bevoegdheden voor recordtypen
 
 | Adobe Workfront-licentietype | Hoogste machtigingen toegestaan in Adobe Workfront Planning |
 |------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Standard | <p>Gebruikers kunnen werkruimten, recordtypen en weergaven beheren. Ze kunnen werkruimten, recordtypen, records, velden en weergaven maken, bewerken of verwijderen.</p> <br> <p>Systeembeheerders hebben beheermachtigingen voor alle werkruimten, inclusief de werkruimten die ze niet hebben gemaakt.</p> |
+| Standard | <p>Gebruikers kunnen werkruimten, recordtypen <!--<span class="preview">records</span>--> en weergaven beheren. Ze kunnen werkruimten, recordtypen, records, velden en weergaven maken, bewerken of verwijderen.</p><br><p>Systeembeheerders hebben beheermachtigingen voor alle werkruimten, inclusief de werkruimten die ze niet hebben gemaakt.</p> |
 | Licht of medewerker | <p>De gebruikers kunnen de werkruimten bekijken die met hen, evenals de verslagtypes, verslagen, en gebieden van die werkruimten worden gedeeld.</p> <br> <p>Gebruikers kunnen de weergaven bekijken die met hen worden gedeeld, maar ze kunnen hun eigen weergaven niet maken. </p><br> <p>Gebruikers kunnen geen werkruimten, recordtypen, records of velden maken, bewerken of verwijderen.</p> |
 
 <!--Old: 
@@ -73,7 +73,7 @@ Gebruikers met alle andere licentietypen kunnen weergavemachtigingen hebben voor
 >
 >Er is een aanwijzing in het deelvak dat gebruikers geen machtigingen kunnen worden verleend om bij te dragen aan een werkruimte of een werkruimte te beheren wanneer zij een licentie op een lager niveau hebben, omdat deze machtigingsniveaus grijs worden weergegeven.
 >
->![&#x200B; Bevoegdheden grayed uit voor contributorgebruiker op werkruimte &#x200B;](assets/permissions-grayed-out-for-contributor-user-on-workspace.png)
+>![ Bevoegdheden grayed uit voor contributorgebruiker op werkruimte ](assets/permissions-grayed-out-for-contributor-user-on-workspace.png)
 
 
 ### Typen licenties en machtigingen voor weergaven
@@ -92,4 +92,4 @@ Gebruikers met alle andere licentietypen kunnen weergavemachtigingen hebben voor
 >
 >Er is een aanwijzing in het deelvak dat gebruikers geen machtigingen kunnen worden verleend om een weergave te beheren wanneer zij een licentie op een lager niveau hebben, omdat deze machtigingsniveaus grijs worden weergegeven.
 >
->![&#x200B; Bevoegdheden grayed uit voor lichte gebruiker op meningsaandeel &#x200B;](assets/permissions-grayed-out-for-light-user.png)
+>![ Bevoegdheden grayed uit voor lichte gebruiker op meningsaandeel ](assets/permissions-grayed-out-for-light-user.png)
