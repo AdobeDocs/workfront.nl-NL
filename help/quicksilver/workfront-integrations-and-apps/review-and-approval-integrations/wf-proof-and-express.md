@@ -8,9 +8,9 @@ author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 2eef36a6-8c61-4e7e-9760-23114f942250
-source-git-commit: 752c39b90e9206a335435350f8844c746a7127e0
+source-git-commit: 53aca72d33236e8680a8fd1c538f86ce14ac05a8
 workflow-type: tm+mt
-source-wordcount: '431'
+source-wordcount: '494'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ Workfront Proof met Adobe Express gebruiken om
  </tbody> 
 </table>
 
-Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -66,14 +66,14 @@ Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van W
 
 * U moet rechten hebben om toegang te krijgen tot Adobe Express en ten minste één Workfront-omgeving met een Workfront Standard-licentie.
 
-* De gebruikers moeten de [&#x200B; interactieve inhoud van het Overzicht met het de overzichtshulpmiddel van Adobe Workfront &#x200B;](/help/quicksilver/review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/review-proof-in-web-viewer-extension.md) installeren alvorens zij concepten in Adobe Express kunnen beginnen te herzien.
+* De gebruikers moeten de [ interactieve inhoud van het Overzicht met het de overzichtshulpmiddel van Adobe Workfront ](/help/quicksilver/review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/review-proof-in-web-viewer-extension.md) installeren alvorens zij concepten in Adobe Express kunnen beginnen te herzien.
 
 
 ## Goedkeuringswerkstromen instellen in Workfront
 
 Voordat gebruikers een goedkeuringswerkstroom kunnen toevoegen aan een Express-sjabloon, moet een Proefbeheerder met een Standard-licentie een goedkeuringswerkstroom maken in Workfront.
 
-Voor meer informatie, zie [&#x200B; Geautomatiseerde malplaatjes van het Werkschema &#x200B;](/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/create-manage-automated-workflow-templates.md) creëren en beheren.
+Voor meer informatie, zie [ Geautomatiseerde malplaatjes van het Werkschema ](/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/create-manage-automated-workflow-templates.md) creëren en beheren.
 
 ## Een goedkeuringswerkstroom toevoegen aan een Express-sjabloon
 
@@ -83,7 +83,7 @@ Wanneer een Uitdrukkelijke malplaatje wordt opnieuw gemengd, zal een goedkeuring
 
 Gebruikers moeten een Workfront-standaardlicentie hebben om Adobe Express om goedkeuring te vragen.
 
-Leer hoe te [&#x200B; goedkeuring op ontwerpen &#x200B;](https://helpx.adobe.com/nl/express/web/share-and-publish/share-and-collaborate/request-approval.html) krijgen.
+Leer hoe te [ goedkeuring op ontwerpen ](https://helpx.adobe.com/express/web/share-and-publish/share-and-collaborate/request-approval.html) krijgen.
 
 
 ## Express-sjablonen opnieuw mixen en verzenden voor revisie en goedkeuring
@@ -97,8 +97,13 @@ Gebruikers kunnen tijdens de gehele productie van inhoud en tijdens het revisie-
 * Opmerkingen lezen
 * en meer
 
-<!--Learn how to get approval on designs.   
-need link to help article-->
+### Een Workfront-project kiezen wanneer u goedkeuring aanvraagt
+
+Wanneer gebruikers goedkeuring aanvragen voor een opnieuw gemengde Express-sjabloon, kunnen ze een Workfront-project kiezen waarnaar ze de proefdruk verzenden. Hierdoor blijven alle gerelateerde elementen en proefdrukken georganiseerd binnen hetzelfde project.
+
+Als er geen project is geselecteerd, wordt de proefdruk standaard ingesteld op een Express-specific project.
+
+Voor meer informatie, zie [ malplaatjes voor overzicht en goedkeuring verzenden ](https://helpx.adobe.com/express/web/invite-collaborate/request-approval.html).
 
 ## Het opnieuw gemengde Uitdrukkelijke dossier bekijken en goedkeuren
 
