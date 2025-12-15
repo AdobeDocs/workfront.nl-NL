@@ -83,7 +83,7 @@ Wanneer een Uitdrukkelijke malplaatje wordt opnieuw gemengd, zal een goedkeuring
 
 Gebruikers moeten een Workfront-standaardlicentie hebben om Adobe Express om goedkeuring te vragen.
 
-Leer hoe te [&#x200B; goedkeuring op ontwerpen &#x200B;](https://helpx.adobe.com/express/web/share-and-publish/share-and-collaborate/request-approval.html) krijgen.
+Leer hoe te [&#x200B; goedkeuring op ontwerpen &#x200B;](https://helpx.adobe.com/nl/express/web/share-and-publish/share-and-collaborate/request-approval.html) krijgen.
 
 
 ## Express-sjablonen opnieuw mixen en verzenden voor revisie en goedkeuring
@@ -103,7 +103,7 @@ Wanneer gebruikers goedkeuring aanvragen voor een opnieuw gemengde Express-sjabl
 
 Als er geen project is geselecteerd, wordt de proefdruk standaard ingesteld op een Express-specific project.
 
-Voor meer informatie, zie [&#x200B; malplaatjes voor overzicht en goedkeuring verzenden &#x200B;](https://helpx.adobe.com/express/web/invite-collaborate/request-approval.html).
+Voor meer informatie, zie [&#x200B; malplaatjes voor overzicht en goedkeuring verzenden &#x200B;](https://helpx.adobe.com/nl/express/web/invite-collaborate/request-approval.html).
 
 ## Het opnieuw gemengde Uitdrukkelijke dossier bekijken en goedkeuren
 
