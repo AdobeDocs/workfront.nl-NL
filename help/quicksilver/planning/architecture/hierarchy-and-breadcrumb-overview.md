@@ -30,7 +30,7 @@ Als werkruimtemanager, kunt u flexibele maar gestructureerde hiërarchieën tuss
 
 Hiërarchieën zijn verbindingen tussen recordtypen, of tussen recordtypen en een Workfront-project.
 
-Voor informatie over het creëren van hiërarchieën, zie [ werkruimtescheidingen ](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md) creëren.
+Voor informatie over het creëren van hiërarchieën, zie [&#x200B; werkruimtescheidingen &#x200B;](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md) creëren.
 
 Hieronder vindt u voordelen van het gebruik van hiërarchieën in uw werkruimten:
 
@@ -86,6 +86,6 @@ Overweeg het volgende:
 
   Wanneer u bijvoorbeeld een project bekijkt dat is verbonden met planningscampagnes en tactieken, maar ook met Workfront-portfolio&#39;s en -programma&#39;s, kunt u schakelen tussen de objecttypen Planning en Workfront vanuit de breadcrumb.
 
-  Voor meer informatie, zie [ de hiërarchieën van de werkruimte ](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md) creëren.
+  Voor meer informatie, zie [&#x200B; de hiërarchieën van de werkruimte &#x200B;](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md) creëren.
 
 

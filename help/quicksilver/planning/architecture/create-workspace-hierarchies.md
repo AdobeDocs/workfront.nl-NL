@@ -37,7 +37,7 @@ Als er nog geen verbinding tussen twee recordtypen bestaat, kan deze worden gema
 
 Hierarchieën genereren broodkruimels voor de recordtypen en records <!--ensure this is the case: does the breadcrumb show for both the RT and the record??--> die in de koppen worden weergegeven. Op deze manier weten gebruikers waar ze zich in de hiërarchie bevinden in elk stadium van hun workflow.
 
-Voor algemene informatie over hiërarchieën en broodkruimels, zie [ Hiërarchie en breadcrumb overzicht ](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md).
+Voor algemene informatie over hiërarchieën en broodkruimels, zie [&#x200B; Hiërarchie en breadcrumb overzicht &#x200B;](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md).
 
 ## Toegangsvereisten
 
@@ -78,7 +78,7 @@ of
 </tbody> 
 </table>
 
-Voor meer informatie over de toegangsvereisten van Workfront, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer informatie over de toegangsvereisten van Workfront, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -87,13 +87,13 @@ Voor meer informatie over de toegangsvereisten van Workfront, zie [ vereisten va
 {#step1-to-planning}
 
 1. Klik op een werkruimtekaart.
-1. Klik **Meer** menu ![ Meer menu ](assets/more-menu.png) rechts van de werkruimtenaam, dan klik **Montages**.
+1. Klik **Meer** menu ![&#x200B; Meer menu &#x200B;](assets/more-menu.png) rechts van de werkruimtenaam, dan klik **Montages**.
 De **sectie van Hiërarchieën** opent door gebrek.
 1. Klik **Nieuwe hiërarchie** in de hoger-juiste hoek van de **pagina van Hiërarchieën**.
 1. Klik **toevoegen voorwerp** en selecteer een voorwerp van het dropdown menu. Dit wordt het eerste bovenliggende object in uw hiërarchie.
 De eerste ouder kan slechts een het verslagtype van de Planning zijn. Workfront-projecten kunnen niet worden geselecteerd als bovenliggende items van andere objecttypen in een hiërarchie.
 1. Klik **toevoegen voorwerp** om een tweede voorwerp toe te voegen dat het eerste kind in uw hiërarchie is, dan een ander voorwerp in het dropdown menu selecteren.
-   ![ Nieuwe hiërarchiedoos zonder gebied selecteerde ](assets/new-hierarchy-modal-without-connecte-fielf-selected.png)
+   ![&#x200B; Nieuwe hiërarchiedoos zonder gebied selecteerde &#x200B;](assets/new-hierarchy-modal-without-connecte-fielf-selected.png)
 1. Klik **Uitgezochte verbonden gebied** om erop te wijzen welk gebied de twee voorwerpen verbindt.
 1. (Voorwaardelijk) Als een verbonden gebied tussen de twee objecten types bestaat, selecteer het van de lijst. Anders, klik **toevoegen nieuwe verbinding**.
 
@@ -115,10 +115,10 @@ De eerste ouder kan slechts een het verslagtype van de Planning zijn. Workfront-
       * **Naam en beeld**
       * **Naam**
       * **Beeld**
-Voor meer informatie, zie [ Connect verslagtypes ](/help/quicksilver/planning/architecture/connect-record-types.md).
+Voor meer informatie, zie [&#x200B; Connect verslagtypes &#x200B;](/help/quicksilver/planning/architecture/connect-record-types.md).
    1. Klik **sparen**.
 1. (Optioneel) Voeg na de bovenstaande stappen maximaal vier objecttypen toe aan uw hiërarchieën. U kunt eerst alle objecttypen toevoegen en vervolgens de verbindingsvelden tussen de objecttypen toevoegen.
-1. (Facultatief) klik **verwijder** pictogram ![ verwijderen pictogram ](assets/minus-icon.png) om een verbinding te verwijderen.
+1. (Facultatief) klik **verwijder** pictogram ![&#x200B; verwijderen pictogram &#x200B;](assets/minus-icon.png) om een verbinding te verwijderen.
 1. Klik **sparen** om uw hiërarchie te bewaren.
 
    >[!TIP]
