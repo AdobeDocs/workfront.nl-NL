@@ -3,9 +3,9 @@ title: Overzicht van Hiërarchie en Breadcrumb
 description: U kunt meerdere werkruimtemhiërarchieën maken tussen de recordtypen in een werkruimte.
 hide: true
 hidefromtoc: true
-source-git-commit: 3d0a6932bda338af1e6b3dcba49bfc0ac486d919
+source-git-commit: 6aba4316228a320cf33e419249a64b3cf56e8f39
 workflow-type: tm+mt
-source-wordcount: '746'
+source-wordcount: '752'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Als werkruimtemanager, kunt u flexibele maar gestructureerde hiërarchieën tuss
 
 Hiërarchieën zijn verbindingen tussen recordtypen, of tussen recordtypen en een Workfront-project.
 
-Voor informatie over het creëren van hiërarchieën, zie [&#x200B; werkruimtescheidingen &#x200B;](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md) creëren.
+Voor informatie over het creëren van hiërarchieën, zie [ werkruimtescheidingen ](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md) creëren.
 
 Hieronder vindt u voordelen van het gebruik van hiërarchieën in uw werkruimten:
 
@@ -45,19 +45,17 @@ Hieronder vindt u voordelen van het gebruik van hiërarchieën in uw werkruimten
 * U kunt maximaal vier record- en objecttypen in één hiërarchie laten verbinden.
 * U kunt alleen de volgende objecttypen verbinden in een werkruimtehiërarchie:
    * De types van verslag die tot de werkruimte behoren u de hiërarchieën binnen bouwt.
-   * Workfront-projecten.
+   * Workfront-projecten. Workfront-projecten kunnen niet worden toegevoegd als bovenliggende bestanden van andere recordtypen. Ze zijn altijd het laatste kind in een hiërarchie.
 * U kunt de volgende objecttypen niet toevoegen in een hiërarchie:
-   * De types van verslag van andere werkruimten, zelfs wanneer zij als verbindbare of globale verslagtypes worden geplaatst.
+   * De types van verslag van andere werkruimten, zelfs wanneer zij als verbindbare of globale verslagtypes worden geplaatst. U kunt algemene recordtypen alleen aan hiërarchieën toevoegen wanneer ze zijn toegevoegd aan de werkruimte waaruit u de hiërarchie maakt.
    * Alle andere Workfront-objecten.
    * AEM Assets
-* De hiërarchieën kunnen zowel de types van het Verslag van de Planning als de objecten van Workfront tezelfdertijd omvatten.
+* De hiërarchieën kunnen zowel de types van het Verslag van de Planning als de projecten van Workfront tezelfdertijd omvatten.
 
        bijvoorbeeld, kunt u een het verslagtype van de Campagne met de Projecten van Tactics van de Planning en van Workfront als kinderen in de zelfde werkruimtehiërarchie hebben.
   * Als er al een verbinding bestaat tussen de geselecteerde recordtypen, gebruikt het systeem de bestaande verbinding opnieuw.
 * Als er geen verbinding bestaat, maakt Workfront er een als onderdeel van de hiërarchische instelling.
-* **creeer het overeenkomstige gebied op verbonden verslagtype** plaatsen moet voor het verbonden gebied worden aangezet.
-
-  De recordtypen met verbindingen die geen overeenkomstig gebied op hun verbonden verslagtypes tot stand brengen kunnen ook deel van hiërarchieën uitmaken, maar wanneer u een nieuwe verbinding tijdens hiërarchieopstelling creeert, zult u altijd een overeenkomstig gebied op het verbonden verslagtype moeten tot stand brengen.
+* **creeer corresponderend gebied op verbonden verslagtype** het plaatsen moet voor het verbonden gebied voor verslagen en voorwerpen worden aangezet die u in een hiërarchie wilt omvatten.
 * Hieronder vindt u regels voor hiërarchische instellingen:
    * Een recordtype kan slechts één bovenliggend recordtype in een bepaalde werkruimte hebben.
 
@@ -79,7 +77,7 @@ Tactic A kan bijvoorbeeld tot zowel Campagne X als Campagne Y behoren.
 
 Wanneer u hiërarchieën tussen recordtypes creeert, produceren zij broodkruimels voor verslagen die tot die verslagtypes behoren.
 
-Bijvoorbeeld, als u een hiërarchie creeert en Campagnes met Tactics, dan met Programma&#39;s, en dan met Projecten verbindt, wanneer u aan een verslag van om het even welke die types navigeert in de hiërarchie worden verbonden, kunt u bekijken waar in de hiërarchie het verslag wordt geplaatst.
+Bijvoorbeeld, als u een hiërarchie creeert en Campagnes met Tactics, dan met Activiteiten, en dan met Projecten verbindt, wanneer u aan een verslag van om het even welke die types navigeert in de hiërarchie worden verbonden, kunt u bekijken waar in de hiërarchie het verslag wordt geplaatst.
 
 Overweeg het volgende:
 
@@ -88,6 +86,6 @@ Overweeg het volgende:
 
   Wanneer u bijvoorbeeld een project bekijkt dat is verbonden met planningscampagnes en tactieken, maar ook met Workfront-portfolio&#39;s en -programma&#39;s, kunt u schakelen tussen de objecttypen Planning en Workfront vanuit de breadcrumb.
 
-  Voor meer informatie, zie [&#x200B; de hiërarchieën van de werkruimte &#x200B;](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md) creëren.
+  Voor meer informatie, zie [ de hiërarchieën van de werkruimte ](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md) creëren.
 
 

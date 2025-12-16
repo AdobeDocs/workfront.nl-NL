@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d6140b05-26c3-4298-a2f9-53695aa021cb
-source-git-commit: ca16652aa06b4652d0d1b41156ed1ef96225c49a
+source-git-commit: 78cf61d219cd1214a0846a45e2725fce7a8ebb2c
 workflow-type: tm+mt
-source-wordcount: '1381'
+source-wordcount: '1462'
 ht-degree: 0%
 
 ---
@@ -37,9 +37,9 @@ De werkruimte van Adobe GenStudio for Performance Marketing is beschikbaar in Ad
 
 U kunt de GenStudio-werkruimte vanuit plannings- en updategegevens weergeven in beide systemen.
 
-Voor informatie over het gebruiken van en het beheren van de werkruimte van GenStudio van de Marketing van de Prestaties van GenStudio, zie {de Gids van de Gebruiker van 0} Adobe GenStudio for Performance Marketing [.](https://experienceleague.adobe.com/nl/docs/genstudio-for-performance-marketing/user-guide/home)
+Voor informatie over het gebruiken van en het beheren van de werkruimte van GenStudio van de Marketing van de Prestaties van GenStudio, zie {de Gids van de Gebruiker van 0} Adobe GenStudio for Performance Marketing [.](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/home)
 
-Voor algemene informatie over GenStudio aan de Planningsintegratie van Workfront, zie [&#x200B; begonnen met de Planning van Adobe Workfront en de integratie van Adobe GenStudio for Performance Marketing &#x200B;](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md).
+Voor algemene informatie over GenStudio aan de Planningsintegratie van Workfront, zie [ begonnen met de Planning van Adobe Workfront en de integratie van Adobe GenStudio for Performance Marketing ](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md).
 
 >[!IMPORTANT]
 >
@@ -83,7 +83,7 @@ Voor algemene informatie over GenStudio aan de Planningsintegratie van Workfront
    <td role="rowheader"><p>Adobe GenStudio for Performance Marketing-gebruikersrollen</p></td> 
    <td><p><ul><li>Elke GenStudio-gebruikersrol voor toegang tot campagnes, producten en persoonlijke instellingen</li>
    <li>GenSudio System Manager toegang tot activeringen <!--and Events--></li></ul>
-   Voor informatie, zie <a href="https://experienceleague.adobe.com/nl/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles"> de rollen en de toestemmingen van de Gebruiker </a>. 
+   Voor informatie, zie <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles"> de rollen en de toestemmingen van de Gebruiker </a>. 
    </p>
   </td> 
   </tr>   
@@ -104,9 +104,9 @@ Voor algemene informatie over GenStudio aan de Planningsintegratie van Workfront
 </tbody> 
 </table>
 
-Voor informatie over de toegang van de Planning van Adobe Workfront, zie [&#x200B; Adobe Workfront het toegangsoverzicht van de Planning &#x200B;](/help/quicksilver/planning/access/access-overview.md).
+Voor informatie over de toegang van de Planning van Adobe Workfront, zie [ Adobe Workfront het toegangsoverzicht van de Planning ](/help/quicksilver/planning/access/access-overview.md).
 
-Voor meer informatie over Adobe GenStudio for Performance Marketing, zie {de Gids van de Gebruiker van 0} Adobe GenStudio for Performance Marketing [.](https://experienceleague.adobe.com/nl/docs/genstudio-for-performance-marketing/user-guide/home)
+Voor meer informatie over Adobe GenStudio for Performance Marketing, zie {de Gids van de Gebruiker van 0} Adobe GenStudio for Performance Marketing [.](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/home)
 
 +++   
 
@@ -141,7 +141,7 @@ Voor meer informatie over Adobe GenStudio for Performance Marketing, zie {de Gid
    <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
    <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
    <li>GenSudio System Manager to access Activations ****** and Events*********</li></ul>
-   For information, see <a href="https://experienceleague.adobe.com/nl/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
+   For information, see <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
    </p>
   </td> 
   </tr>   
@@ -208,17 +208,17 @@ CAN YOU DO THIS??
 
 >[!NOTE]
 >
->Alvorens de werkruimte van GenStudio te beheren, zie het artikel [&#x200B; begonnen worden met de Planning van Adobe Workfront en de integratie van Adobe GenStudio for Performance Marketing &#x200B;](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md) voor meer informatie.
+>Alvorens de werkruimte van GenStudio te beheren, zie het artikel [ begonnen worden met de Planning van Adobe Workfront en de integratie van Adobe GenStudio for Performance Marketing ](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md) voor meer informatie.
 >
 
 1. Meld u aan bij Workfront als een gebruiker die ook toegang heeft tot GenStudio.
-1. Klik het **[!UICONTROL Main Menu]** pictogram ![&#x200B; Belangrijkste Menu &#x200B;](/help/_includes/assets/main-menu-icon-left-nav.png) in de upper-left hoek, dan klik **[!UICONTROL Planning]**.
+1. Klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon-left-nav.png) in de upper-left hoek, dan klik **[!UICONTROL Planning]**.
 
    De hoofdpagina Workfront Planning wordt geopend.
 
 1. Klik **Andere werkruimten** en vind een werkruimte die een aanwijzing heeft die door het **Systeem** werd gecreeerd en de **GenStudio** markering op zijn kaart heeft.
 
-   ![&#x200B; de werkruimtekaart van GenStudio met markering &#x200B;](assets/genstudio-card-with-tag-highlighted.png)
+   ![ de werkruimtekaart van GenStudio met markering ](assets/genstudio-card-with-tag-highlighted.png)
 
 1. Klik de **werkruimtekaart van GenStudio** om de werkruimte van GenStudio in de Planning van Workfront te openen.
 1. Standaard worden de volgende GenStudio-recordtypen gemaakt en zichtbaar in Workfront Planning:
@@ -234,65 +234,68 @@ CAN YOU DO THIS??
 
    <!--check screen shot-->
 
-   ![&#x200B; GenStudio verslagtype kaart met markering &#x200B;](assets/genstudio-record-type-with-tag-and-tooltip-highlighted.png)
+   ![ GenStudio verslagtype kaart met markering ](assets/genstudio-record-type-with-tag-and-tooltip-highlighted.png)
 
-1. Klik **Meer** menu ![&#x200B; Meer menu &#x200B;](assets/more-menu.png) rechts van de werkruimtenaam, dan klik één van het volgende:
+1. Klik **Meer** menu ![ Meer menu ](assets/more-menu.png) rechts van de werkruimtenaam, dan klik één van het volgende:
 
    * **geeft** uit
 
-     Voor informatie, zie [&#x200B; werkruimten &#x200B;](/help/quicksilver/planning/architecture/edit-workspaces.md) uitgeven.
+     Voor informatie, zie [ werkruimten ](/help/quicksilver/planning/architecture/edit-workspaces.md) uitgeven.
      <!--* **Delete** - this will generate an error message, per Iskuhi, so don't document as an option/ possibility-->
 
      <!--For information, see [Delete workspaces](/help/quicksilver/planning/architecture/delete-workspaces.md). -->
 
 1. Klik **Aandeel** in de hoger-juiste hoek om de werkruimte met anderen te delen.
 
-   Voor informatie, zie [&#x200B; werkruimten van het Aandeel &#x200B;](/help/quicksilver/planning/access/share-workspaces.md)
+   Voor informatie, zie [ werkruimten van het Aandeel ](/help/quicksilver/planning/access/share-workspaces.md)
 
-   <!--
    >[!NOTE]
    >
-   >You cannot remove GenStudio users from the GenStudio workspace, after you share that workspace with them.-->
+   >De volgende beperkingen voor delen gelden:
+   >
+   >* U kunt GenStudio-gebruikers niet verwijderen uit de GenStudio-werkruimte nadat u de werkruimte met hen hebt gedeeld.
+   >* Als een gebruiker machtigingen heeft in GenStudio, kan de toegang niet worden gewijzigd in Weergeven in Workfront Planning. Ze moeten ten minste Contribute-machtigingen hebben in de GenStudio-werkruimte in Planning.
+   >* U kunt geërfte machtigingen voor GenStudio-recordtypen in de GenStudio-werkruimte niet uitschakelen.
 
 1. Klik op een van de kaarten met recordtypen om records voor dat type weer te geven.
 
-   Om het verslagtype, meningen, en gebieden te beheren, zie de sectie [&#x200B; GenStudio verslagtypes van de Planning van Workfront &#x200B;](#manage-genstudio-record-types-from-workfront-planning) in dit artikel beheren.
+   Om het verslagtype, meningen, en gebieden te beheren, zie de sectie [ GenStudio verslagtypes van de Planning van Workfront ](#manage-genstudio-record-types-from-workfront-planning) in dit artikel beheren.
 
 
 ## Recordtypen, weergaven en records beheren vanuit de GenStudio-werkruimte in Workfront Planning
 
 >[!NOTE]
 >
->Alvorens de werkruimte van GenStudio te beheren, zie het artikel [&#x200B; begonnen worden met de Planning van Adobe Workfront en de integratie van Adobe GenStudio for Performance Marketing &#x200B;](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md) voor meer informatie.
+>Alvorens de werkruimte van GenStudio te beheren, zie het artikel [ begonnen worden met de Planning van Adobe Workfront en de integratie van Adobe GenStudio for Performance Marketing ](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md) voor meer informatie.
 >
 
-1. Ga naar de werkruimte van GenStudio in de Planning van Workfront en open een verslagtype pagina, zoals die in de sectie [&#x200B; wordt beschreven beheert de werkruimte van GenStudio van de Planning van Workfront &#x200B;](#manage-the-genstudio-workspace-from-workfront-planning) in dit artikel.
+1. Ga naar de werkruimte van GenStudio in de Planning van Workfront en open een verslagtype pagina, zoals die in de sectie [ wordt beschreven beheert de werkruimte van GenStudio van de Planning van Workfront ](#manage-the-genstudio-workspace-from-workfront-planning) in dit artikel.
 
-1. Klik **Meer** menu ![&#x200B; Meer menu &#x200B;](assets/more-menu.png) rechts van een verslagtype naam, dan klik één van het volgende:
+1. Klik **Meer** menu ![ Meer menu ](assets/more-menu.png) rechts van een verslagtype naam, dan klik één van het volgende:
 
    * **geeft** uit
 
-     Voor informatie, zie [&#x200B; recordtypes &#x200B;](/help/quicksilver/planning/architecture/edit-record-types.md) uitgeven.
+     Voor informatie, zie [ recordtypes ](/help/quicksilver/planning/architecture/edit-record-types.md) uitgeven.
    * **beheert automatiseringen**
 
-     Voor informatie, zie [&#x200B; de automatisering van de Planning van Adobe Workfront &#x200B;](/help/quicksilver/planning/records/configure-automations-to-create-records.md) vormen.
+     Voor informatie, zie [ de automatisering van de Planning van Adobe Workfront ](/help/quicksilver/planning/records/configure-automations-to-create-records.md) vormen.
    * **beheer aanvraagformulieren**
 
      U kunt meerdere aanvraagformulieren maken. De aanvraagformulieren zijn beschikbaar op het gebied Verzoeken van Workfront en u kunt ze ook openbaar of via een koppeling delen.
 
-     Voor informatie, zie [&#x200B; creeer en beheer een verzoekvorm in de Planning van Adobe Workfront &#x200B;](/help/quicksilver/planning/requests/create-request-form.md).
+     Voor informatie, zie [ creeer en beheer een verzoekvorm in de Planning van Adobe Workfront ](/help/quicksilver/planning/requests/create-request-form.md).
 
 1. Ga als volgt te werk om een weergave of het recordtype te delen:
 
    * Klik **Aandeel** in de hoger-juiste hoek van de verslagtype pagina, dan klik één van het volgende:
       * **Deel het verslagtype**
-Voor informatie, zie [&#x200B; recordtypes van het Aandeel &#x200B;](/help/quicksilver/planning/access/share-record-types.md).
+Voor informatie, zie [ recordtypes van het Aandeel ](/help/quicksilver/planning/access/share-record-types.md).
       * **Deel de huidige mening**
-Voor informatie, zie [&#x200B; meningen van het Aandeel &#x200B;](/help/quicksilver/planning/access/share-views.md).
+Voor informatie, zie [ meningen van het Aandeel ](/help/quicksilver/planning/access/share-views.md).
       * **Exemplaar de meningsverbinding**
 Een koppeling naar de weergave wordt naar het klembord gekopieerd.
       * **Uitvoer de huidige mening**
-Voor informatie, zie [&#x200B; verslagen van de Uitvoer van de lijstmening &#x200B;](/help/quicksilver/planning/records/export-records-from-the-table-view.md).
+Voor informatie, zie [ verslagen van de Uitvoer van de lijstmening ](/help/quicksilver/planning/records/export-records-from-the-table-view.md).
 
         <!--
          >[!NOTE]
@@ -303,15 +306,15 @@ Voor informatie, zie [&#x200B; verslagen van de Uitvoer van de lijstmening &#x20
 
    * Klik op **+ View** om een weergave voor het GenStudio-recordtype te maken.
 
-     Voor informatie, zie [&#x200B; verslagmeningen &#x200B;](/help/quicksilver/planning/views/manage-record-views.md) leiden.
+     Voor informatie, zie [ verslagmeningen ](/help/quicksilver/planning/views/manage-record-views.md) leiden.
 
-   * Klik het **Volledige het schermpictogram** pictogram ![&#x200B; Open volledige mening in volledig het schermpictogram &#x200B;](assets/open-full-screen-icon.png) om het even welke mening op volledig-schermwijze te openen.
+   * Klik het **Volledige het schermpictogram** pictogram ![ Open volledige mening in volledig het schermpictogram ](assets/open-full-screen-icon.png) om het even welke mening op volledig-schermwijze te openen.
 
    * De elementen van een weergave vanuit elke weergave beheren.
 
      U kunt bijvoorbeeld het filter, de groepen, de sortering en de instellingen van een weergave wijzigen, indien beschikbaar.
 
-     Voor informatie, zie [&#x200B; verslagmeningen &#x200B;](/help/quicksilver/planning/views/manage-record-views.md) leiden.
+     Voor informatie, zie [ verslagmeningen ](/help/quicksilver/planning/views/manage-record-views.md) leiden.
 
 1. Voer een van de volgende handelingen uit om records toe te voegen:
 
@@ -321,7 +324,7 @@ Voor informatie, zie [&#x200B; verslagen van de Uitvoer van de lijstmening &#x20
 
    * Klik ergens in de tijdlijn- of kalenderweergave om records toe te voegen.
 
-     Voor informatie, zie [&#x200B; verslagen &#x200B;](/help/quicksilver/planning/records/create-records.md) creëren.
+     Voor informatie, zie [ verslagen ](/help/quicksilver/planning/records/create-records.md) creëren.
 
      Records zijn zowel in Workfront als in GenStudio zichtbaar.
 
@@ -335,13 +338,13 @@ Voor informatie, zie [&#x200B; verslagen van de Uitvoer van de lijstmening &#x20
 
    * Klik in een willekeurige weergave op een record om de detailpagina te openen.
 
-     Voor informatie, zie [&#x200B; verslagen &#x200B;](/help/quicksilver/planning/records/edit-records.md) uitgeven.
+     Voor informatie, zie [ verslagen ](/help/quicksilver/planning/records/edit-records.md) uitgeven.
 
      De wijzigingen die u aanbrengt in de GenStudio-werkruimte in Planning, zijn direct zichtbaar vanuit GenStudio.
 
 1. Selecteer een verslag in de lijstmening, dan klik **Schrapping**.
 
-   Voor informatie, zie [&#x200B; verslagen van de Schrapping &#x200B;](/help/quicksilver/planning/records/delete-records.md).
+   Voor informatie, zie [ verslagen van de Schrapping ](/help/quicksilver/planning/records/delete-records.md).
 
    Verwijderde records worden direct uit GenStudio verwijderd.
 
@@ -349,17 +352,17 @@ Voor informatie, zie [&#x200B; verslagen van de Uitvoer van de lijstmening &#x20
    >
    >Verwijderde records kunnen worden hersteld uit de tabelweergave Onlangs verwijderd vak in Workfront Planning. Records die uit GenStudio zijn verwijderd, kunnen ook uit de recent verwijderde bin in Workfront Planning worden hersteld.
 
-   Voor informatie, zie [&#x200B; schrapte verslagen &#x200B;](/help/quicksilver/planning/records/restore-deleted-records.md) herstellen
+   Voor informatie, zie [ schrapte verslagen ](/help/quicksilver/planning/records/restore-deleted-records.md) herstellen
 
 1. Klik op het pictogram + in de rechterbovenhoek van de tabelweergave om het volgende te maken:
 
-   * Opnamevelden
+   * Velden
 
-     Voor informatie, zie [&#x200B; gebieden &#x200B;](/help/quicksilver/planning/fields/create-fields.md) creëren
+     Voor informatie, zie [ gebieden ](/help/quicksilver/planning/fields/create-fields.md) creëren
 
-   * Verbindingen opnemen
+   * Verbindingen
 
-     Voor informatie, zie [&#x200B; Connect verslagtypes &#x200B;](/help/quicksilver/planning/architecture/connect-record-types.md)
+     Voor informatie, zie [ Connect verslagtypes ](/help/quicksilver/planning/architecture/connect-record-types.md)
 
      Velden die zijn gemaakt in de GenStudio-werkruimte, zijn zichtbaar in de volgende gebieden:
 
@@ -369,6 +372,7 @@ Voor informatie, zie [&#x200B; verslagen van de Uitvoer van de lijstmening &#x20
 
      >[!NOTE]
      >
+     >* U kunt alleen meer velden toevoegen als u beheermachtigingen hebt in GenStudio.
      >* Velden die zijn gemaakt in Workfront Planning zijn niet zichtbaar in de lijstweergave in GenStudio.
      >
      >* U kunt elk GenStudio-recordtype verbinden met het Brands GenStudio-recordtype.
@@ -386,5 +390,6 @@ Voor informatie, zie [&#x200B; verslagen van de Uitvoer van de lijstmening &#x20
 
    >[!NOTE]
    >
-   >U kunt de configuratie van een veld alleen bewerken en meer velden toevoegen als u beheerdersmachtigingen hebt in GenStudio.
+   >* U kunt de configuratie van een GenStudio-veld alleen bewerken als u beheerdersmachtigingen hebt in GenStudio.
+   >* U kunt een GenStudio-veld niet verwijderen.
 
