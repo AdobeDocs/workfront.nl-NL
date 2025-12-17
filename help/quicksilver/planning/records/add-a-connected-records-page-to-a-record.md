@@ -5,7 +5,7 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 6aba4316228a320cf33e419249a64b3cf56e8f39
+source-git-commit: 5b1993d49ff675b3bab1d470bc756b987fe19d1c
 workflow-type: tm+mt
 source-wordcount: '1513'
 ht-degree: 0%
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
-U kunt informatie van verbonden verslagen of voorwerpen bekijken door een lusje voor een Verbonden verslagenpagina aan een verslag toe te voegen. Hiermee voegt u de verbonden records in een tabelweergave toe aan het tabblad.
+U kunt informatie van verbonden verslagen of voorwerpen bekijken door een lusje voor een Verbonden verslagenpagina aan een verslag in de Planning van Adobe Workfront toe te voegen. Hiermee voegt u de verbonden records in een tabelweergave toe aan het tabblad.
 
 Houd rekening met het volgende wanneer u een pagina Verbonden records aan een record toevoegt:
 
@@ -38,12 +38,17 @@ Houd rekening met het volgende wanneer u een pagina Verbonden records aan een re
    * Table
    * <span class="preview">Timeline</span>
    * <span class="preview">Calendar</span>
+
+* <span class="preview">You can create one page per one object or record type. For example, you cannot create two connected record pages for connected projects or tactics.</span>
+
 -->
 
 * U kunt Verbonden recordpagina&#39;s toevoegen voor de volgende verbonden record- of objecttypen:
 
    * Workfront Planning-recordtypen
-   * Workfront-projecten, -programma&#39;s, -portfolio&#39;s, -groepen of -bedrijven. U kunt de verbonden Workfront-objecten ook weergeven als u geen toegangsrechten hebt in Workfront.
+   * Workfront-projecten
+
+     U kunt de verbonden Workfront-projecten ook weergeven als u geen toegangsrechten hebt in Workfront.
 
 ## Toegangsvereisten
 
@@ -73,7 +78,7 @@ Houd rekening met het volgende wanneer u een pagina Verbonden records aan een re
    <ul><li><p>Een Adobe Experience Manager Assets-licentie en integratie tussen AEM Assets en Workfront om AEM-middelen te verbinden met planningsrecordtypen.</p>
    <p>Voor informatie, zie <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md"> Adobe Workfront voor Experience Manager Assets en de Hoofdzaak van Activa: artikelindex </a>. </p></li>
    <li><p> Een Adobe GenStudio for Performance Marketing-licentie om recordtypen te verbinden met GenStudio Brands</p>
-   <p>Voor informatie, zie <a href="https://experienceleague.adobe.com/nl/docs/genstudio-for-performance-marketing/user-guide/get-started"> begonnen worden met Adobe GenStudio for Performance Marketing </a>.</p></li></ul>
+   <p>Voor informatie, zie <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started"> begonnen worden met Adobe GenStudio for Performance Marketing </a>.</p></li></ul>
    </td> 
   </tr>
 
@@ -92,23 +97,23 @@ Houd rekening met het volgende wanneer u een pagina Verbonden records aan een re
 </tbody> 
 </table>
 
-Voor meer informatie over de toegangsvereisten van Workfront, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer informatie over de toegangsvereisten van Workfront, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++   
 
 ## Een verbonden recordpagina toevoegen aan een record
 
-U moet eerst recordtypen verbinden met andere record- of objecttypen voordat u een gekoppelde recordpagina aan een record toevoegt.
+U moet recordtypes met andere verslagtypes of de projecten van Workfront eerst verbinden alvorens een verbonden verslagenpagina aan een verslag toe te voegen.
 
 1. Klik op de naam van de record om deze te openen vanuit een willekeurige weergave van een pagina met recordtypen.
 1. Klik **toevoegen pagina** van één van de volgende gebieden:
 
    * Het voorvertoningsvenster van de record
-   * De de detailspagina van het verslag, na het klikken van **Open in nieuw lusje** pictogram ![&#x200B; Open details in een nieuw lusjepictogram &#x200B;](assets/open-details-in-a-new-tab-icon.png) in de hoger-juiste hoek van de voorproefpagina.
+   * De de detailspagina van het verslag, na het klikken van **Open in nieuw lusje** pictogram ![ Open details in een nieuw lusjepictogram ](assets/open-details-in-a-new-tab-icon.png) in de hoger-juiste hoek van de voorproefpagina.
 
    **creeer pagina** doos opent.
 
-   ![&#x200B; voeg Verbonden verslagen pagina modaal &#x200B;](assets/add-connection-view-page-modal.png) toe
+   ![ voeg Verbonden verslagen pagina modaal ](assets/add-connection-view-page-modal.png) toe
 
 1. Voeg de **naam van de Pagina** toe, klik **Verbonden verslagenpagina**, dan klik **creeer**.
 
@@ -124,7 +129,7 @@ U moet eerst recordtypen verbinden met andere record- of objecttypen voordat u e
 
    De eerste vijf velden van de verbonden records worden standaard weergegeven. <!--No lookup fields display by default.-->
 
-   ![&#x200B; Publiek verbonden lijstmening onder campagnedetails &#x200B;](assets/audience-connected-table-view-under-campaign-details-page.png)
+   ![ Publiek verbonden lijstmening onder campagnedetails ](assets/audience-connected-table-view-under-campaign-details-page.png)
 
 1. (Optioneel) Klik op de naam van een verbonden record of objecttype in de lijst of zoek ernaar en klik vervolgens op de naam wanneer deze in de lijst wordt weergegeven.
 
@@ -137,10 +142,10 @@ U moet eerst recordtypen verbinden met andere record- of objecttypen voordat u e
    * Klik op de naam van een record. Hierdoor wordt de pagina van de record op een nieuw tabblad geopend.
    * Klik **verbinden** bij de bodem van de lijstmening om bestaande verslagen te verbinden, hen van de verbindingsdoos te selecteren, dan buiten de doos te klikken om het te sluiten. De records worden automatisch aan de tabel toegevoegd. De records moeten bestaan voordat u ze kunt toevoegen.
 
-   Voor meer informatie, zie [&#x200B; verbindt verslagen &#x200B;](/help/quicksilver/planning/records/connect-records.md).
+   Voor meer informatie, zie [ verbindt verslagen ](/help/quicksilver/planning/records/connect-records.md).
    * Bewerk alle informatie uit de verbonden records inline in de tabelweergave.
 
-   * Beweeg over de naam van een verbonden verslag, dan klik **Meer** menu ![&#x200B; Meer menu &#x200B;](assets/more-menu.png)
+   * Beweeg over de naam van een verbonden verslag, dan klik **Meer** menu ![ Meer menu ](assets/more-menu.png)
 
      of
 
@@ -153,7 +158,7 @@ U moet eerst recordtypen verbinden met andere record- of objecttypen voordat u e
       * **Verslag van het Tussenvoegsel boven of onder** om nieuwe verslagen aan het verbonden verslagtype toe te voegen. Nieuwe records die u hier toevoegt, worden ook gekoppeld aan de huidige record. Deze optie is niet beschikbaar in de blauwe balk wanneer u een record in de tabel selecteert.
       * **Schrapping** om het verslag te schrappen. Als u een verbonden record verwijdert, wordt deze verwijderd uit het recordtype en van elke locatie waar de record is verbonden.
 
-        Voor informatie over het uitgeven van verslagen in de lijstmening, zie [&#x200B; verslagen &#x200B;](/help/quicksilver/planning/records/edit-records.md) uitgeven.
+        Voor informatie over het uitgeven van verslagen in de lijstmening, zie [ verslagen ](/help/quicksilver/planning/records/edit-records.md) uitgeven.
 
         >[!TIP]
         >
@@ -173,7 +178,7 @@ U moet eerst recordtypen verbinden met andere record- of objecttypen voordat u e
    * Klik op de naam van een object. Hierdoor wordt de objectpagina op een nieuw tabblad geopend.
    * Klik **verbinden** bij de bodem van de lijstmening om bestaande voorwerpen te verbinden, hen van de verbindingsdoos te selecteren, dan buiten de doos te klikken om het te sluiten. De objecten worden automatisch aan de tabel toegevoegd. De objecten moeten bestaan voordat u ze kunt toevoegen.
 
-   Voor meer informatie, zie [&#x200B; verbindt verslagen &#x200B;](/help/quicksilver/planning/records/connect-records.md).
+   Voor meer informatie, zie [ verbindt verslagen ](/help/quicksilver/planning/records/connect-records.md).
 
    * Selecteer een van de objecten in de tabelweergave en klik op een van de volgende opties in de blauwe balk onder aan de lijst:
 
@@ -189,12 +194,12 @@ U moet eerst recordtypen verbinden met andere record- of objecttypen voordat u e
 
    * Klik **verbinden verslagen** in de hoger-juiste hoek van de verbonden verslagpagina om bestaande projecten te verbinden.
 
-   Voor informatie, zie [&#x200B; verbindt verslagen &#x200B;](/help/quicksilver/planning/records/connect-records.md).
+   Voor informatie, zie [ verbindt verslagen ](/help/quicksilver/planning/records/connect-records.md).
    * Bewerk de projectgegevens in de tabel inline.
    * Klik **Nieuwe rij** om een project zonder een malplaatje tot stand te brengen. Het nieuwe project wordt onmiddellijk verbonden met het huidige verslag.
 
-     Voor meer informatie, zie [&#x200B; de voorwerpen van Workfront van de Planning van Workfront creëren aangezien u hen met verslagen &#x200B;](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md) verbindt
-   * Beweeg over een project en klik **Meer** menu [&#x200B; Meer menu &#x200B;](assets/more-menu.png)
+     Voor meer informatie, zie [ de voorwerpen van Workfront van de Planning van Workfront creëren aangezien u hen met verslagen ](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md) verbindt
+   * Beweeg over een project en klik **Meer** menu [ Meer menu ](assets/more-menu.png)
 
      of
 
@@ -220,7 +225,7 @@ U moet eerst recordtypen verbinden met andere record- of objecttypen voordat u e
 
    of
 
-   Beweeg over de naam van het lusje, dan klik **Meer** ![&#x200B; Meer menu &#x200B;](assets/more-menu.png), dan klik **anders noemen** om aan nieuw Verbonden meningslusje anders te noemen.
+   Beweeg over de naam van het lusje, dan klik **Meer** ![ Meer menu ](assets/more-menu.png), dan klik **anders noemen** om aan nieuw Verbonden meningslusje anders te noemen.
 1. (Optioneel) Gebruik een van de volgende weergave-elementen op de werkbalk van een verbonden recordpagina om de tabelweergave te beheren:
 
    * Filters
@@ -230,7 +235,7 @@ U moet eerst recordtypen verbinden met andere record- of objecttypen voordat u e
    * Rijhoogte. Niet beschikbaar voor projecten.
    * Zoeken
 
-   Voor informatie, zie [&#x200B; de lijstmening &#x200B;](/help/quicksilver/planning/views/manage-the-table-view.md) leiden.
+   Voor informatie, zie [ de lijstmening ](/help/quicksilver/planning/views/manage-the-table-view.md) leiden.
 
    >[!NOTE]
    >
@@ -238,7 +243,7 @@ U moet eerst recordtypen verbinden met andere record- of objecttypen voordat u e
 
    <!--1. <span class="preview">(Optional) Click the dropdown menu to the right of the view name, then click **New view** to add a view. For more information, see the section [Manage multiple views from the connected records page](#manage-multiple-views-from-the-connected-records-page) in this article. </span>-->
 
-1. (Facultatief) Hover over de naam van het Verbonden lusje van de verslagenpagina, klik **Meer** ![&#x200B; Meer menu &#x200B;](assets/more-menu.png), dan klik **Schrapping** om aan tabel te verwijderen.
+1. (Facultatief) Hover over de naam van het Verbonden lusje van de verslagenpagina, klik **Meer** ![ Meer menu ](assets/more-menu.png), dan klik **Schrapping** om aan tabel te verwijderen.
 
 <!--
 <div class="preview">
