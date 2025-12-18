@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Op deze pagina vindt u een beschrijving van de verbeteringen in de integratie die zijn aangebracht met de release Eerste kwartaal 2026 voor de voorvertoningsomgeving. Deze verbeteringen zullen beschikbaar worden gesteld in de productieomgeving, zoals vermeld.
 
-Voor een lijst van alle veranderingen beschikbaar op dit punt in Eerste Kwartaal 2026 versiecyclus, zie [ Eerste Kwartaal 2026 releaseoverzicht ](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar op dit punt in Eerste Kwartaal 2026 versiecyclus, zie [&#x200B; Eerste Kwartaal 2026 releaseoverzicht &#x200B;](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md).
 
 
 ## Een Workfront-project kiezen wanneer u een revisie verzendt in Creative Cloud Express
@@ -30,7 +30,7 @@ U kunt een Workfront-project kiezen waarnaar u een proefdruk wilt verzenden. Hie
 
 Voorheen werd de proefdruk automatisch toegevoegd aan een Express-specifiek project.
 
-Voor meer informatie, zie [ de integratie van Adobe Express en van Workfront Proof ](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-express.md).
+Voor meer informatie, zie [&#x200B; de integratie van Adobe Express en van Workfront Proof &#x200B;](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-express.md).
 
 ## Bijgewerkte assenkiezer voor de inheemse integratie van Adobe Workfront for Experience Manager Assets
 
@@ -56,5 +56,5 @@ We hebben de assetkiezer geüpgraded in de Adobe Workfront for Experience Manage
 
 Om up-to-date te blijven met recente wijzigingen in de Workfront API, hebben we een nieuwe Salesforce-integratie gemaakt. De nieuwe integratie heeft dezelfde functionaliteit als de vorige versie en is bijgewerkt om te voorkomen dat de functionaliteit in de API verloren gaat.
 
-Voor instructies en verbindingen voor het downloaden en het installeren van de nieuwe integratie, zie [ Adobe Workfront voor Salesforce installeren ](/help/quicksilver/workfront-integrations-and-apps/using-workfront-with-salesforce/install-workfront-for-salesforce.md).
+Voor instructies en verbindingen voor het downloaden en het installeren van de nieuwe integratie, zie [&#x200B; Adobe Workfront voor Salesforce installeren &#x200B;](/help/quicksilver/workfront-integrations-and-apps/using-workfront-with-salesforce/install-workfront-for-salesforce.md).
 
