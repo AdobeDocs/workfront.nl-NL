@@ -8,9 +8,9 @@ role: Admin
 recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
-source-git-commit: fb1b5bb34810652e5098f0dcad70062670d7c137
+source-git-commit: 2e75f6aaba089a91a2306ad06a0f0d79a7524f75
 workflow-type: tm+mt
-source-wordcount: '324'
+source-wordcount: '417'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ In dit artikel worden de Workfront-functies voor beperkte beschikbaarheid beschr
 
 <!--keep the sentence below for all future quarterly release pages-->
 
-Voor een lijst van alle beperkte beschikbaarheidseigenschappen die voor Adobe Workfront worden vrijgegeven, zie [&#x200B; Adobe Workfront beperkte de activiteit van de beschikbaarheidseigenschappen vrijgeven: artikelindex &#x200B;](/help/quicksilver/product-announcements/product-releases/limited-availability-release-activity/limited-availability-release-activity-article-index.md).
+Voor een lijst van alle beperkte beschikbaarheidseigenschappen die voor Adobe Workfront worden vrijgegeven, zie [ Adobe Workfront beperkte de activiteit van de beschikbaarheidseigenschappen vrijgeven: artikelindex ](/help/quicksilver/product-announcements/product-releases/limited-availability-release-activity/limited-availability-release-activity-article-index.md).
 
 ## Opmerkingen bij de release met functies voor beperkte beschikbaarheid
 
@@ -35,6 +35,17 @@ Deze sectie bevat de releaseopmerkingen voor nieuwe functionaliteit.
 >Releasedatum productie: 20 november 2025
 
 U kunt nu op percentage-gebaseerde wijzigingen toepassen op een of meer factureringssnelheden voor de rol van de taak binnen een tariefkaart. In plaats van elke frequentie één voor één handmatig bij te werken, kunt u in één bewerking wijzigingen toepassen op alle geselecteerde snelheden.
+
+### KPI-beperkingen in geavanceerd zoeken
+
+>[!NOTE]
+>
+>Releasedatum productie: 18 december 2025
+
+Om de bruikbaarheid van het geavanceerde onderzoek in Geavanceerde Toewijzingen en personeelsplannen te verbeteren, is de lijst van KPIs u in de lijstkolommen kunt tonen nu beperkt. Door alleen de belangrijkste meetgegevens weer te geven, kunt u sneller informatie vinden.
+
+* In het Geavanceerde Geavanceerde Onderzoek van Toewijzingen, is **Beschikbare Capaciteit** KPI beschikbaar. Deze maatstaf vertegenwoordigt de totale basiscapaciteit van gebruikers.
+* In het het bemannen plan geavanceerd onderzoek, **Resterend de Capaciteit van de Toewijzing van het Staf** KPI is beschikbaar. Deze maatstaf geeft aan hoeveel capaciteit na toewijzingen nog beschikbaar is.
 
 ## Onderhoudsupdates voor functies voor beperkte beschikbaarheid
 
@@ -54,15 +65,15 @@ De KPI voor geplande uren in het scherm Geavanceerde toewijzingen kan niet meer 
 
 **het gebied van de Datum van het Tarief van de Uitwisseling verborgen wanneer datum-efficiënte wisselkoersen niet worden gebruikt**
 
-Het **gebied van de Datum van het Tarief van de Uitwisseling 0&rbrace; in de Details van het Project > het gebied van de Financiën is nu verborgen wanneer het** gebruiken datum-efficiënte wisselkoersen van het systeem **controlevakje niet wordt geselecteerd.** Eerder, toen het uitgeven van een project, werd het datumgebied getoond op de projectdetails zelfs toen datum-efficiënte wisselkoersen niet werden toegelaten.
+Het **gebied van de Datum van het Tarief van de Uitwisseling 0} in de Details van het Project > het gebied van de Financiën is nu verborgen wanneer het** gebruiken datum-efficiënte wisselkoersen van het systeem **controlevakje niet wordt geselecteerd.** Eerder, toen het uitgeven van een project, werd het datumgebied getoond op de projectdetails zelfs toen datum-efficiënte wisselkoersen niet werden toegelaten.
 
-<!--### Maintenance Updates week of December 7-13, 2025
+<!--### Maintenance Updates week of January 4-10, 2026
 
 **Title**
 
 text
 
-### Maintenance Updates week of January 4-10, 2026
+### Maintenance Updates week of January 11-17, 2026
 
 **Title**
 
