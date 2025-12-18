@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 2a640cd5-f4a8-4ff3-81b6-32f85f6e4535
-source-git-commit: 476e10f2962f19fd17705cb5f20619d3b636aaa4
+source-git-commit: ba5089fd02ca099d25ce0d3c2c2c039c2c6e2fe2
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '467'
 ht-degree: 1%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 <span class="preview"> de informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet.</span>
 
-<span class="preview"> voor informatie over snelle versies, zie [&#x200B; snelle versies voor uw organisatie &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
+<span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
 
 {{planning-important-intro}}
 
@@ -41,8 +41,8 @@ In de volgende tabel staan de limieten voor het aantal objecten dat u kunt maken
 | Aantal tekens voor een tekstveld met één regel | 1.000 tekens |
 | Aantal tekens voor een alineasveld | 10.000 tekens |
 | Aantal alineavelden voor één recordtype | 20 alineasvelden |
-| Grootte van het bestand dat u in een tabel met recordtypen kunt plakken | 1 MB |
-| Grootte van het bestand dat u kunt importeren via de API voor een recordtype-tabel | 1,5 MB |
+| Grootte van het bestand dat u kunt gebruiken om informatie in een recordtype-tabel te importeren | 1 MB |
+| Grootte van het bestand dat u kunt gebruiken om informatie in een recordtypetabel te importeren via de API | 1,5 MB |
 | De snelheid waarmee API-aanvragen kunnen worden ingediend | 200 verzoeken per minuut |
 | Aantal weergaven dat een gebruiker voor één recordtype kan maken | 100 |
 | De grootte van CSV van het dossier van Excel u kunt invoeren om recordtypes tot stand te brengen | 5 MB |
