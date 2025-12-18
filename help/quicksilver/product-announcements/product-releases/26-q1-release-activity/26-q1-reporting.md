@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Op deze pagina worden de verbeteringen beschreven die zijn aangebracht in de release First Quarter 2026 voor de voorvertoningsomgeving. Deze verbeteringen zullen beschikbaar worden gesteld in de productieomgeving, zoals vermeld.
 
-Voor een lijst van alle veranderingen beschikbaar op dit punt in Eerste Kwartaal 2026 versiecyclus, zie [ Eerste Kwartaal 2026 releaseoverzicht ](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar op dit punt in Eerste Kwartaal 2026 versiecyclus, zie [&#x200B; Eerste Kwartaal 2026 releaseoverzicht &#x200B;](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md).
 
 
 
@@ -63,7 +63,7 @@ We hebben een nieuwe optie Totaal tonen geïntroduceerd waarmee schijfgrafieken 
 
 Gebruikers kunnen ook een label voor het totaal weergeven of verbergen en een aangepaste labelwaarde opgeven.
 
-Voor meer informatie, zie [ een grafiekrapport in een Dashboard van het Canvas ](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-chart-report.md) bouwen.
+Voor meer informatie, zie [&#x200B; een grafiekrapport in een Dashboard van het Canvas &#x200B;](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-chart-report.md) bouwen.
 
 ## Nieuwe configuratieopties voor schijfgrafieken in canvasdashboards
 
@@ -78,7 +78,7 @@ We hebben twee nieuwe configuratieopties voor schijfgrafieken geïntroduceerd:
 * Segmentlabels verbergen: u kunt nu segmentlabels verbergen in een schijfdiagram als deze te lang zijn en van invloed zijn op de leesbaarheid van de grafiek.
 * Legenda van het diagram verbergen en verplaatsen: u kunt nu een legenda in het schijfdiagram verbergen. U kunt de positie van de legenda ook instellen op de rechterkant (standaard), linker-, boven- of onderkant van het diagram.
 
-Voor meer informatie, zie [ een grafiekrapport in een Dashboard van het Canvas ](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-chart-report.md) bouwen.
+Voor meer informatie, zie [&#x200B; een grafiekrapport in een Dashboard van het Canvas &#x200B;](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-chart-report.md) bouwen.
 
 ## Verbeteringen in aantal canvasdashboards groeperen
 
@@ -106,7 +106,7 @@ U kunt een lijn van de Verwijzing in Bar, Kolom, en grafieken van de Lijn nu bep
 
 Opmerking: de referentielijn is niet dynamisch en er kunnen geen meerdere referentielijnen worden toegepast. We onderzoeken toekomstige verbeteringen, maar er zijn geen onmiddellijke plannen.
 
-Voor meer informatie, zie [ een grafiekrapport in een Dashboard van het Canvas ](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-chart-report.md) bouwen.
+Voor meer informatie, zie [&#x200B; een grafiekrapport in een Dashboard van het Canvas &#x200B;](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-chart-report.md) bouwen.
 
 ## Assetiketten op grafiekrapporten aanpassen in Canvasdashboards
 
@@ -118,7 +118,7 @@ Voor meer informatie, zie [ een grafiekrapport in een Dashboard van het Canvas ]
 
 U kunt de asetiketten op de rapporten van de Grafiek nu aanpassen. Met deze nieuwe functie kunt u een label voor een vervangende as invoeren om weer te geven in plaats van het standaardobject en het standaardveldpad. Bovendien kunt u ervoor kiezen om de aslabels volledig te verbergen.
 
-Voor meer informatie, zie [ een grafiekrapport in een Dashboard van het Canvas ](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-chart-report.md) bouwen.
+Voor meer informatie, zie [&#x200B; een grafiekrapport in een Dashboard van het Canvas &#x200B;](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-chart-report.md) bouwen.
 
 ## Een rapport dupliceren in een Canvasdashboard
 
@@ -126,7 +126,7 @@ Voor meer informatie, zie [ een grafiekrapport in een Dashboard van het Canvas ]
 >
 >Voorvertoningsrelease: 23 oktober 2025
 >Productie voor alle afnemers: 23 oktober 2025
->[!BADGE Uit schema ]{type=Neutral}
+>[!BADGE Uit schema &#x200B;]{type=Neutral}
 
 U kunt een KPI, een lijst, of grafiekrapport in een Dashboard van het Canvas nu dupliceren nadat het is gecreeerd. Nadat het rapport is gedupliceerd, kunt u het rapport naar wens bewerken voordat u het opslaat.
 
