@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: adec4b8e-2964-479b-8cf0-79d3afa27b2a
-source-git-commit: 476e10f2962f19fd17705cb5f20619d3b636aaa4
+source-git-commit: 57592455c61f0ddd14f6d2bcc033b58a8cdc7028
 workflow-type: tm+mt
-source-wordcount: '347'
+source-wordcount: '428'
 ht-degree: 0%
 
 ---
@@ -16,13 +16,13 @@ ht-degree: 0%
 
 # Werkruimten verwijderen
 
-<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview"> de informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
 
 {{planning-important-intro}}
 
-In de Planning van Adobe Workfront, zijn de werkruimten gecentraliseerde plaatsen voor teams om het werk te plannen. Voor meer informatie, zie [&#x200B; werkruimten &#x200B;](/help/quicksilver/planning/architecture/create-workspaces.md) creëren.
+In de Planning van Adobe Workfront, zijn de werkruimten gecentraliseerde plaatsen voor teams om het werk te plannen. Voor meer informatie, zie [ werkruimten ](/help/quicksilver/planning/architecture/create-workspaces.md) creëren.
 
 U kunt werkruimten verwijderen die niet meer relevant zijn.
 
@@ -63,7 +63,7 @@ of
 </tbody> 
 </table>
 
-Voor meer informatie over de toegangsvereisten van Workfront, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer informatie over de toegangsvereisten van Workfront, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++   
 
@@ -140,13 +140,15 @@ Voor meer informatie over de toegangsvereisten van Workfront, zie [&#x200B; vere
 1. (Facultatief) ClicK **toon minder** om het aantal werkruimten te beperken die op het scherm tonen.
 1. Voer een van de volgende handelingen uit om een werkruimte te verwijderen:
 
-   * Beweeg over de werkruimtekaart, dan klik **Meer** menu ![&#x200B; Meer menu &#x200B;](assets/more-menu.png) in de hoger-juiste hoek van de kaart
-Of <!--Add this to the bullet below: <span class="preview">Search for a workspace by name and </span>-->
-   * Klik een werkruimtekaart om de werkruimte te openen, dan klik **Meer** menu ![&#x200B; Meer menu &#x200B;](assets/more-menu.png) rechts van de werkruimtenaam.
+   * Beweeg over de werkruimtekaart, dan klik **Meer** menu ![ Meer menu ](assets/more-menu.png) in de hoger-juiste hoek van de kaart
+of
+   * <span class="preview"> klik het **onderzoek** pictogram ![ van het Onderzoek ](assets/search-icon.png) in de hoger-juiste hoek van de pagina van Werkruimten aan onderzoek naar een werkruimte door naam </span> en klik een werkruimtekaart om de werkruimte te openen, dan klik het **Meer** menu ![ Meer menu ](assets/more-menu.png) aan het recht van de werkruimtenaam.
 1. Klik **Schrapping**.
 
-   ![&#x200B; permanent schrapt werkruimtebevestiging &#x200B;](assets/permanently-delete-workspace-confirmation.png)
+   ![ permanent schrapt werkruimtebevestiging ](assets/permanently-delete-workspace-confirmation.png)
 
 1. Het type &quot;**schrapt**&quot;in de verstrekte ruimte, dan klikt **permanent schrapt**. Dit is niet hoofdlettergevoelig.
 
    De werkruimte wordt verwijderd en kan niet worden hersteld. Alle recordtypen, records, velden en weergaven die eraan zijn gekoppeld, worden ook verwijderd. <!--ensure this is right at or before GA-->
+
+
