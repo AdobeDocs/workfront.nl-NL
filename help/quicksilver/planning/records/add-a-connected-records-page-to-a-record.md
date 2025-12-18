@@ -17,7 +17,7 @@ ht-degree: 0%
 
 <span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>
 
-<span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
+<span class="preview"> voor informatie over snelle versies, zie [&#x200B; snelle versies voor uw organisatie &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
 
 U kunt informatie van verbonden verslagen of voorwerpen bekijken door een lusje voor een Verbonden verslagenpagina aan een verslag in de Planning van Adobe Workfront toe te voegen. Hiermee voegt u de verbonden records in een tabelweergave toe aan het tabblad.
 
@@ -97,7 +97,7 @@ Houd rekening met het volgende wanneer u een pagina Verbonden records aan een re
 </tbody> 
 </table>
 
-Voor meer informatie over de toegangsvereisten van Workfront, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer informatie over de toegangsvereisten van Workfront, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++   
 
@@ -109,18 +109,18 @@ U moet recordtypes met andere verslagtypes of de projecten van Workfront eerst v
 1. Klik **toevoegen pagina** van één van de volgende gebieden:
 
    * Het voorvertoningsvenster van de record
-   * De de detailspagina van het verslag, na het klikken van **Open in nieuw lusje** pictogram ![ Open details in een nieuw lusjepictogram ](assets/open-details-in-a-new-tab-icon.png) in de hoger-juiste hoek van de voorproefpagina.
+   * De de detailspagina van het verslag, na het klikken van **Open in nieuw lusje** pictogram ![&#x200B; Open details in een nieuw lusjepictogram &#x200B;](assets/open-details-in-a-new-tab-icon.png) in de hoger-juiste hoek van de voorproefpagina.
 
    **creeer pagina** doos opent.
 
-   ![ voeg Verbonden verslagen pagina modaal ](assets/add-connection-view-page-modal.png) toe
+   ![&#x200B; voeg Verbonden verslagen pagina modaal &#x200B;](assets/add-connection-view-page-modal.png) toe
 
 1. Voeg de **naam van de Pagina** toe, klik **Verbonden verslagenpagina** voor het **type van Pagina**, dan klik **creeert**.
 1. (Optioneel) Klik op de naam van een verbonden record of objecttype in de lijst of zoek ernaar. Klik vervolgens op de naam wanneer deze in de lijst wordt weergegeven om de pagina voor dat record- of objecttype te maken.
 
 1. (Facultatief en voorwaardelijk) als meer dan één verbonden gebied van het verslag of objecten type u de pagina voor vertoningen bouwt, klik het gebied waarvan verslagen of voorwerpen u in de verbonden verslagenpagina van de **Uitgezochte verwijzingsgebied** lijst wilt tonen.
 
-   ![ Uitgezochte lijst van het verwijzingsgebied ](assets/select-reference-field-list-on-connected-records-page.png)
+   ![&#x200B; Uitgezochte lijst van het verwijzingsgebied &#x200B;](assets/select-reference-field-list-on-connected-records-page.png)
 
    Een van de volgende pagina&#39;s wordt toegevoegd aan de pagina voor verbonden records:
 
@@ -135,25 +135,25 @@ U moet recordtypes met andere verslagtypes of de projecten van Workfront eerst v
 
    De eerste vijf velden van de verbonden records worden standaard weergegeven. <!--No lookup fields display by default.-->
 
-   ![ Publiek verbonden lijstmening onder campagnedetails ](assets/audience-connected-table-view-under-campaign-details-page.png)
+   ![&#x200B; Publiek verbonden lijstmening onder campagnedetails &#x200B;](assets/audience-connected-table-view-under-campaign-details-page.png)
 
 1. (Voorwaardelijk) Afhankelijk van het type records dat u in de verbonden recordpagina weergeeft, voert u een van de volgende handelingen uit:
 
    * De tabelweergave van de records beheren
-Voor informatie, zie de sectie [ de mening van de verslaglijst in de verbonden verslagenpagina ](#manage-the-record-table-view-in-the-connected-records-page) in dit artikel beheren.
+Voor informatie, zie de sectie [&#x200B; de mening van de verslaglijst in de verbonden verslagenpagina &#x200B;](#manage-the-record-table-view-in-the-connected-records-page) in dit artikel beheren.
    * De lijstweergave van projecten beheren
-Voor informatie, zie de sectie [ de mening van de projectlijst in de verbonden verslagenpagina ](#manage-the-project-list-view-in-the-connected-records-page) in dit artikel beheren.
+Voor informatie, zie de sectie [&#x200B; de mening van de projectlijst in de verbonden verslagenpagina &#x200B;](#manage-the-project-list-view-in-the-connected-records-page) in dit artikel beheren.
 
 1. (Optioneel) Dubbelklik op de naam van de **Verbonden recordpagina** tab
 
    of
 
-   Beweeg over de naam van het lusje, dan klik **Meer** ![ Meer menu ](assets/more-menu.png), dan klik **anders noemen** om aan nieuwe verbonden verslagenpagina tabel anders te noemen.
+   Beweeg over de naam van het lusje, dan klik **Meer** ![&#x200B; Meer menu &#x200B;](assets/more-menu.png), dan klik **anders noemen** om aan nieuwe verbonden verslagenpagina tabel anders te noemen.
 
 
    <!--1. <span class="preview">(Optional) Click the dropdown menu to the right of the view name, then click **New view** to add a view. For more information, see the section [Manage multiple views from the connected records page](#manage-multiple-views-from-the-connected-records-page) in this article. </span>-->
 
-1. (Facultatief) Beweeg over de naam van de verbonden verslagenpagina tabel, klik **Meer** ![ Meer menu ](assets/more-menu.png), dan klik **Schrapping** om aan tabel te verwijderen.
+1. (Facultatief) Beweeg over de naam van de verbonden verslagenpagina tabel, klik **Meer** ![&#x200B; Meer menu &#x200B;](assets/more-menu.png), dan klik **Schrapping** om aan tabel te verwijderen.
 
 ### De weergave van de recordtabel in de verbonden recordpagina beheren
 
@@ -164,9 +164,9 @@ Wanneer u een verbonden verslagenpagina voor verbonden verslagen van de Planning
 De records die zijn verbonden met de record die u hebt geselecteerd, worden weergegeven in de tabelweergave.
 1. Klik **verbinden** bij de bodem van de lijstmening om bestaande verslagen te verbinden, hen van de verbindingsdoos te selecteren, dan buiten de doos te klikken om het te sluiten. De records worden automatisch toegevoegd aan de tabel en verbonden met de record die u hebt geselecteerd. De records moeten bestaan voordat u ze kunt toevoegen.
 
-   Voor meer informatie, zie [ verbindt verslagen ](/help/quicksilver/planning/records/connect-records.md).
+   Voor meer informatie, zie [&#x200B; verbindt verslagen &#x200B;](/help/quicksilver/planning/records/connect-records.md).
 1. Bewerk alle informatie uit de verbonden records inline in de tabelweergave.
-1. Beweeg over de naam van een verbonden verslag, dan klik **Meer** menu ![ Meer menu ](assets/more-menu.png)
+1. Beweeg over de naam van een verbonden verslag, dan klik **Meer** menu ![&#x200B; Meer menu &#x200B;](assets/more-menu.png)
 
    of
 
@@ -179,7 +179,7 @@ De records die zijn verbonden met de record die u hebt geselecteerd, worden weer
    * **Verslag van het Tussenvoegsel boven of onder** om nieuwe verslagen aan het verbonden verslagtype toe te voegen. Nieuwe records die u hier toevoegt, worden ook gekoppeld aan de huidige record. Deze optie is niet beschikbaar in de blauwe balk wanneer u een record in de tabel selecteert.
    * **Schrapping** om het verslag te schrappen. Als u een verbonden record verwijdert, wordt deze verwijderd uit het recordtype en van elke locatie waar de record is verbonden. De geschrapte verslagen beweging aan **onlangs schrapte** bak van hun verslagtype.
 
-     Voor informatie over het uitgeven van verslagen in de lijstmening, zie [ verslagen ](/help/quicksilver/planning/records/edit-records.md) uitgeven.
+     Voor informatie over het uitgeven van verslagen in de lijstmening, zie [&#x200B; verslagen &#x200B;](/help/quicksilver/planning/records/edit-records.md) uitgeven.
 
      >[!TIP]
      >
@@ -195,7 +195,7 @@ De records die zijn verbonden met de record die u hebt geselecteerd, worden weer
    * **de hoogte van de Rij**
    * **Onderzoek**
 
-   Voor informatie, zie [ de lijstmening ](/help/quicksilver/planning/views/manage-the-table-view.md) leiden.
+   Voor informatie, zie [&#x200B; de lijstmening &#x200B;](/help/quicksilver/planning/views/manage-the-table-view.md) leiden.
 
    >[!NOTE]
    >
@@ -228,12 +228,12 @@ Wanneer u een verbonden verslagenpagina voor verbonden projecten van Workfront c
 De projecten verbonden met het verslag u selecteerden tonen in de lijstmening.
 1. Klik **verbinden verslagen** in de hoger-juiste hoek van de verbonden verslagpagina om bestaande projecten te verbinden.
 
-   Voor informatie, zie [ verbindt verslagen ](/help/quicksilver/planning/records/connect-records.md).
+   Voor informatie, zie [&#x200B; verbindt verslagen &#x200B;](/help/quicksilver/planning/records/connect-records.md).
 1. Bewerk de projectgegevens in de tabel inline.
 1. Klik **Nieuwe rij** om een project zonder een malplaatje tot stand te brengen. Het nieuwe project wordt automatisch verbonden met het huidige verslag.
 
-   Voor meer informatie, zie [ de voorwerpen van Workfront van de Planning van Workfront creëren aangezien u hen met verslagen ](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md) verbindt
-1. Beweeg over een projectnaam in de lijst en klik **Meer** menu [ Meer menu ](assets/more-menu.png)
+   Voor meer informatie, zie [&#x200B; de voorwerpen van Workfront van de Planning van Workfront creëren aangezien u hen met verslagen &#x200B;](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md) verbindt
+1. Beweeg over een projectnaam in de lijst en klik **Meer** menu [&#x200B; Meer menu &#x200B;](assets/more-menu.png)
 
    of
 
@@ -250,30 +250,30 @@ De projecten verbonden met het verslag u selecteerden tonen in de lijstmening.
    1. Selecteer **Lijst** van het **type van Mening** gebied.
    1. Klik **creëren**.
 Er wordt een nieuwe lijstweergave toegevoegd aan het vervolgkeuzemenu Weergaven.
-   1. (Facultatief) Beweeg over de naam van een mening u creeerde, klik **Meer** menu ![ Meer menu ](assets/more-menu.png), dan klik één van de volgende opties:
+   1. (Facultatief) Beweeg over de naam van een mening u creeerde, klik **Meer** menu ![&#x200B; Meer menu &#x200B;](assets/more-menu.png), dan klik één van de volgende opties:
       * **noem** anders, om een nieuwe naam voor de mening toe te voegen.
       * <span class="preview">**Aandeel**</span>
 
-        Voor meer informatie, zie [ meningen van het Aandeel ](/help/quicksilver/planning/access/share-views.md).
+        Voor meer informatie, zie [&#x200B; meningen van het Aandeel &#x200B;](/help/quicksilver/planning/access/share-views.md).
 
         >[!NOTE]
         >
         >U kunt geen standaardweergave delen die door Workfront is gemaakt.
 
       * **Schrapping**
-Voor informatie, zie [ verslagmeningen van de Schrapping ](/help/quicksilver/planning/views/delete-record-views.md).
+Voor informatie, zie [&#x200B; verslagmeningen van de Schrapping &#x200B;](/help/quicksilver/planning/views/delete-record-views.md).
 
 
         ![](assets/view-more-menu-projects-connected-records-page.png)
-   1. Klik het **pictogram van de Filter** pictogram ![ van de Filter ](assets/filter-icon.png), en gebruik de filter om specifieke projecten te tonen.
+   1. Klik het **pictogram van de Filter** pictogram ![&#x200B; van de Filter &#x200B;](assets/filter-icon.png), en gebruik de filter om specifieke projecten te tonen.
 
       >[!TIP]
       >
       ><span class="preview"> voor mensen-type gebieden, als **Eigenaar**, of **Sponsor**, kunt u een vervanging gebruiken om projecten te tonen waar de het programma geopende gebruiker aan deze rollen wordt toegewezen.</span>
       >
-      >![ Filter met gebruikersvervanging voor project verbonden verslagenpagina ](assets/filter-with-user-wildcard-project-connected-records-page.png)
+      >![&#x200B; Filter met gebruikersvervanging voor project verbonden verslagenpagina &#x200B;](assets/filter-with-user-wildcard-project-connected-records-page.png)
       >
-   1. Klik het **pictogram van Kolommen** pictogram van Kolommen ![ ](assets/columns-icon.png) om kolommen in de lijst te verbergen of te tonen.
+   1. Klik het **pictogram van Kolommen** pictogram van Kolommen ![&#x200B; &#x200B;](assets/columns-icon.png) om kolommen in de lijst te verbergen of te tonen.
    1. Klik op het pictogram **+** rechtsboven in de tabelweergave om bestaande velden aan de tabel toe te voegen. Velden moeten bestaan voordat u ze kunt toevoegen.
 
       De **manager van de Kolom** doos opent. Ga als volgt te werk:

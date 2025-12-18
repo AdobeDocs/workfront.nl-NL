@@ -51,7 +51,7 @@ U kunt een project in een projectlijst of op het projectniveau schrappen.
  </tbody> 
 </table>
 
-Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -84,18 +84,18 @@ Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront
 
 ## Begrijp het proces om projecten te schrappen
 
-* [ Beperkingen voor het schrappen van projecten ](#limitations-for-deleting-projects)
+* [&#x200B; Beperkingen voor het schrappen van projecten &#x200B;](#limitations-for-deleting-projects)
 * [Het effect van het schrappen van projecten](#the-impact-of-deleting-projects)
 
 ### Beperkingen voor het verwijderen van projecten  {#limitations-for-deleting-projects}
 
 * Verwijderde items worden 30 dagen naar de prullenbak verplaatst en kunnen alleen door de Workfront-beheerder worden hersteld.
 
-  Voor meer informatie over het herstellen van voorwerpen, zie het artikel [ schrapte punten ](../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md) herstellen.
+  Voor meer informatie over het herstellen van voorwerpen, zie het artikel [&#x200B; schrapte punten &#x200B;](../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md) herstellen.
 
 * Als het project taken of kwesties met geregistreerde uren heeft, moet de Workfront of groepsbeheerder de schrapping van deze taken toestaan door de Voorkeur van de Taak &amp; van de Uitgave in uw instantie van Workfront te vormen zodat u het project kunt schrappen dat de taken bevat.
 
-  Voor meer informatie over het toelaten van de schrapping van taken, kwesties, of projecten waar de uren worden geregistreerd, zie de &quot;Schrapping&quot;sectie in [ de taak van het hele systeem vormen en voorkeur uitgeven ](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+  Voor meer informatie over het toelaten van de schrapping van taken, kwesties, of projecten waar de uren worden geregistreerd, zie de &quot;Schrapping&quot;sectie in [&#x200B; de taak van het hele systeem vormen en voorkeur uitgeven &#x200B;](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
   <!--
   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver,QuicksilverOrClassic.Draft mode">(NOTE: this bullet stays in NWE only forever)</p>
@@ -109,7 +109,7 @@ Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront
 
    * Documenten
 
-     U kunt geen project verwijderen dat een bijgevoegd document heeft dat is uitgecheckt. Voor meer informatie over het controleren van documenten, zie [ Controle uit documenten ](../../../documents/managing-documents/check-out-documents.md).
+     U kunt geen project verwijderen dat een bijgevoegd document heeft dat is uitgecheckt. Voor meer informatie over het controleren van documenten, zie [&#x200B; Controle uit documenten &#x200B;](../../../documents/managing-documents/check-out-documents.md).
 
    * Taken
    * Subtaken
@@ -124,14 +124,14 @@ Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront
    * Factureringstarieven
    * Factureringsgegevens
 
-     U kunt geen project schrappen dat de Verslagen van het Factureren met een status van Gevonden heeft. Voor meer informatie, zie [ het factureren verslagen ](../../projects/project-finances/create-billing-records.md) creëren.
+     U kunt geen project schrappen dat de Verslagen van het Factureren met een status van Gevonden heeft. Voor meer informatie, zie [&#x200B; het factureren verslagen &#x200B;](../../projects/project-finances/create-billing-records.md) creëren.
 
 * Afhankelijk van hoe uw beheerder van Workfront de Voorkeur van het Project, van de Taak, of van de Schrapping van de Uitgave in de Voorkeur van de Tijdopname &amp; van Uren van uw instantie van Workfront vormt, worden de uren geregistreerd voor de taken, de kwesties, of het project behandeld op één van de volgende manieren wanneer het schrappen van het project:
 
    * De uren blijven op timesheet als algemene tijd.
    * De uren worden verwijderd en worden hersteld als het project ooit wordt hersteld.
 
-  Voor meer informatie over het vormen van de schrappingsvoorkeur voor uren het programma geopende kwesties, zie [ timesheet en uurvoorkeur ](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md) vormen.
+  Voor meer informatie over het vormen van de schrappingsvoorkeur voor uren het programma geopende kwesties, zie [&#x200B; timesheet en uurvoorkeur &#x200B;](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md) vormen.
 
 * Als het project dat u verwijdert is gekoppeld aan een initiatief in het Workfront Scenario-abonnement:
 
@@ -139,9 +139,9 @@ Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront
    * Als het project u schrapt met het enige gepubliceerde initiatief van een plan verbonden is, wordt de aanwijzing dat het plan is gepubliceerd ook verwijderd.
    * Als u een geschrapt project terugkrijgt, wordt het project teruggekregen, maar zijn verbinding aan het initiatief wordt niet hersteld en het gebied van de Planner van het Scenario niet meer toont in de Details van het Project.
 
-     Voor de Scenario Planner is een aanvullende licentie vereist. Voor informatie over de Planner van het Scenario van Workfront, zie [ het overzicht van de Planner van het Scenario ](../../../scenario-planner/scenario-planner-overview.md).
+     Voor de Scenario Planner is een aanvullende licentie vereist. Voor informatie over de Planner van het Scenario van Workfront, zie [&#x200B; het overzicht van de Planner van het Scenario &#x200B;](../../../scenario-planner/scenario-planner-overview.md).
 
-     Voor informatie over projecten verbonden aan initiatieven in de Planner van het Scenario, zie [ Update of creeer projecten door initiatieven in de Planner van het Scenario te publiceren ](../../../scenario-planner/publish-scenarios-update-projects.md).
+     Voor informatie over projecten verbonden aan initiatieven in de Planner van het Scenario, zie [&#x200B; Update of creeer projecten door initiatieven in de Planner van het Scenario te publiceren &#x200B;](../../../scenario-planner/publish-scenarios-update-projects.md).
 
 * Als het project ook een activiteit voor een doel in de Doelen van Workfront is:
 
@@ -149,16 +149,16 @@ Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront
 
    * Als u het geschrapte project terugkrijgt, wordt het project ook hersteld als activiteit van het doel.
 
-     Hiervoor is een aanvullende licentie vereist. Voor informatie over de Doelen van Workfront, zie [ overzicht van de Doelen van Adobe Workfront ](../../../workfront-goals/goal-management/wf-goals-overview.md).
+     Hiervoor is een aanvullende licentie vereist. Voor informatie over de Doelen van Workfront, zie [&#x200B; overzicht van de Doelen van Adobe Workfront &#x200B;](../../../workfront-goals/goal-management/wf-goals-overview.md).
 
-     Voor informatie over het associëren van projecten met doelstellingen, zie [ projecten aan doelstellingen in de Doelen van Adobe Workfront ](../../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md) toevoegen.
+     Voor informatie over het associëren van projecten met doelstellingen, zie [&#x200B; projecten aan doelstellingen in de Doelen van Adobe Workfront &#x200B;](../../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md) toevoegen.
 
 ## Een project in een lijst verwijderen
 
 U kunt projecten uit een lijst van projecten schrappen.
 
 1. Ga naar een lijst van projecten of een projectrapport.
-1. Selecteer het project of de projecten die u wilt schrappen, dan klik het **pictogram van de Schrapping** pictogram van de Schrapping ![ bij de bovenkant van de lijst.](assets/delete-icon.png)
+1. Selecteer het project of de projecten die u wilt schrappen, dan klik het **pictogram van de Schrapping** pictogram van de Schrapping ![&#x200B; bij de bovenkant van de lijst.](assets/delete-icon.png)
 
 1. Klik **ja, schrap het** om de schrapping te bevestigen.
 
@@ -167,9 +167,9 @@ U kunt projecten uit een lijst van projecten schrappen.
 ## Een project op projectniveau verwijderen
 
 1. Ga naar het project u wilt schrappen.
-1. Klik het **Meer** pictogram ![ Meer menu ](assets/qs-more-menu.png) aan het recht van de projectnaam, dan klik **Project van de Schrapping**.
+1. Klik het **Meer** pictogram ![&#x200B; Meer menu &#x200B;](assets/qs-more-menu.png) aan het recht van de projectnaam, dan klik **Project van de Schrapping**.
 
-   ![ Meer uitgevouwen menu ](assets/more-icon-expanded-delete-project-highlighted.png)
+   ![&#x200B; Meer uitgevouwen menu &#x200B;](assets/more-icon-expanded-delete-project-highlighted.png)
 
 1. Klik **ja, schrap het**.
 
@@ -181,19 +181,19 @@ U kunt projecten uit een lijst van projecten schrappen.
 >
 >De informatie in deze sectie verwijst naar Adobe Workfront Planning, een extra mogelijkheid van Adobe Workfront.
 >
->Voor een lijst van vereisten om tot de Planning van Workfront toegang te hebben, zie [ het toegangsoverzicht van de Planning van Adobe Workfront ](/help/quicksilver/planning/access/access-overview.md).
+>Voor een lijst van vereisten om tot de Planning van Workfront toegang te hebben, zie [&#x200B; het toegangsoverzicht van de Planning van Adobe Workfront &#x200B;](/help/quicksilver/planning/access/access-overview.md).
 > 
->Voor algemene informatie over de Planning van Workfront, zie [ begonnen worden met de Planning van Adobe Workfront ](/help/quicksilver/planning/general/planning-overview.md).
+>Voor algemene informatie over de Planning van Workfront, zie [&#x200B; begonnen worden met de Planning van Adobe Workfront &#x200B;](/help/quicksilver/planning/general/planning-overview.md).
 
 U moet het volgende hebben alvorens u tot projecten van een Planning van Workfront toegang hebt en kunt schrappen verbonden verslagenpagina:
 
-* Planning recordtypen die met Workfront-projecten zijn verbonden. Voor informatie, zie [ verbind verslagtypes ](/help/quicksilver/planning/architecture/connect-record-types.md).
-* Planningsrecords. Voor informatie, zie [ verslagen ](/help/quicksilver/planning/records/create-records.md) creëren.
-* Een verbonden verslagenpagina die projecten toont die met een verslag van de Planning worden verbonden. Voor informatie, zie [ een Verbonden verslagenpagina aan een verslag ](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md) toevoegen.
+* Planning recordtypen die met Workfront-projecten zijn verbonden. Voor informatie, zie [&#x200B; verbind verslagtypes &#x200B;](/help/quicksilver/planning/architecture/connect-record-types.md).
+* Planningsrecords. Voor informatie, zie [&#x200B; verslagen &#x200B;](/help/quicksilver/planning/records/create-records.md) creëren.
+* Een verbonden verslagenpagina die projecten toont die met een verslag van de Planning worden verbonden. Voor informatie, zie [&#x200B; een Verbonden verslagenpagina aan een verslag &#x200B;](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md) toevoegen.
 
 Een record verwijderen uit een pagina met verbonden records:
 
-1. Van de verbonden verslagenpagina die projecten toont die met een verslag worden verbonden, houd over de naam van een project en klik **Meer** pictogram ![ Meer pictogram ](assets/more-icon.png)
+1. Van de verbonden verslagenpagina die projecten toont die met een verslag worden verbonden, houd over de naam van een project en klik **Meer** pictogram ![&#x200B; Meer pictogram &#x200B;](assets/more-icon.png)
 
    of
 
@@ -205,4 +205,4 @@ Een record verwijderen uit een pagina met verbonden records:
 
 ## Verwijderde projecten herstellen
 
-Een systeem of groepsbeheerder kan projecten herstellen binnen 30 dagen nadat zij worden geschrapt, zoals die in artikel [ worden beschreven herstelt geschrapte punten ](../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).
+Een systeem of groepsbeheerder kan projecten herstellen binnen 30 dagen nadat zij worden geschrapt, zoals die in artikel [&#x200B; worden beschreven herstelt geschrapte punten &#x200B;](../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).
