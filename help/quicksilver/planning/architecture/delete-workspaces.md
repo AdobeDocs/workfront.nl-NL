@@ -18,11 +18,11 @@ ht-degree: 0%
 
 <span class="preview"> de informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>
 
-<span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
+<span class="preview"> voor informatie over snelle versies, zie [&#x200B; snelle versies voor uw organisatie &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
 
 {{planning-important-intro}}
 
-In de Planning van Adobe Workfront, zijn de werkruimten gecentraliseerde plaatsen voor teams om het werk te plannen. Voor meer informatie, zie [ werkruimten ](/help/quicksilver/planning/architecture/create-workspaces.md) creëren.
+In de Planning van Adobe Workfront, zijn de werkruimten gecentraliseerde plaatsen voor teams om het werk te plannen. Voor meer informatie, zie [&#x200B; werkruimten &#x200B;](/help/quicksilver/planning/architecture/create-workspaces.md) creëren.
 
 U kunt werkruimten verwijderen die niet meer relevant zijn.
 
@@ -63,7 +63,7 @@ of
 </tbody> 
 </table>
 
-Voor meer informatie over de toegangsvereisten van Workfront, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer informatie over de toegangsvereisten van Workfront, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++   
 
@@ -140,12 +140,12 @@ Voor meer informatie over de toegangsvereisten van Workfront, zie [ vereisten va
 1. (Facultatief) ClicK **toon minder** om het aantal werkruimten te beperken die op het scherm tonen.
 1. Voer een van de volgende handelingen uit om een werkruimte te verwijderen:
 
-   * Beweeg over de werkruimtekaart, dan klik **Meer** menu ![ Meer menu ](assets/more-menu.png) in de hoger-juiste hoek van de kaart
+   * Beweeg over de werkruimtekaart, dan klik **Meer** menu ![&#x200B; Meer menu &#x200B;](assets/more-menu.png) in de hoger-juiste hoek van de kaart
 of
-   * <span class="preview"> klik het **onderzoek** pictogram ![ van het Onderzoek ](assets/search-icon.png) in de hoger-juiste hoek van de pagina van Werkruimten aan onderzoek naar een werkruimte door naam </span> en klik een werkruimtekaart om de werkruimte te openen, dan klik het **Meer** menu ![ Meer menu ](assets/more-menu.png) aan het recht van de werkruimtenaam.
+   * <span class="preview"> klik het **onderzoek** pictogram ![&#x200B; van het Onderzoek &#x200B;](assets/search-icon.png) in de hoger-juiste hoek van de pagina van Werkruimten aan onderzoek naar een werkruimte door naam </span> en klik een werkruimtekaart om de werkruimte te openen, dan klik het **Meer** menu ![&#x200B; Meer menu &#x200B;](assets/more-menu.png) aan het recht van de werkruimtenaam.
 1. Klik **Schrapping**.
 
-   ![ permanent schrapt werkruimtebevestiging ](assets/permanently-delete-workspace-confirmation.png)
+   ![&#x200B; permanent schrapt werkruimtebevestiging &#x200B;](assets/permanently-delete-workspace-confirmation.png)
 
 1. Het type &quot;**schrapt**&quot;in de verstrekte ruimte, dan klikt **permanent schrapt**. Dit is niet hoofdlettergevoelig.
 

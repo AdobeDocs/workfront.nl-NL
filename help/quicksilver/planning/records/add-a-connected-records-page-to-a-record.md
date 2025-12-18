@@ -17,7 +17,7 @@ ht-degree: 0%
 
 <span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>
 
-<span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
+<span class="preview"> voor informatie over snelle versies, zie [&#x200B; snelle versies voor uw organisatie &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
 
 U kunt informatie van verbonden verslagen of voorwerpen bekijken door een lusje voor een Verbonden verslagenpagina aan een verslag in de Planning van Adobe Workfront toe te voegen. Hiermee voegt u de verbonden records in een tabelweergave toe aan het tabblad.
 
@@ -97,7 +97,7 @@ Houd rekening met het volgende wanneer u een pagina Verbonden records aan een re
 </tbody> 
 </table>
 
-Voor meer informatie over de toegangsvereisten van Workfront, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer informatie over de toegangsvereisten van Workfront, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++   
 
@@ -109,11 +109,11 @@ U moet recordtypes met andere verslagtypes of de projecten van Workfront eerst v
 1. Klik **toevoegen pagina** van één van de volgende gebieden:
 
    * Het voorvertoningsvenster van de record
-   * De de detailspagina van het verslag, na het klikken van **Open in nieuw lusje** pictogram ![ Open details in een nieuw lusjepictogram ](assets/open-details-in-a-new-tab-icon.png) in de hoger-juiste hoek van de voorproefpagina.
+   * De de detailspagina van het verslag, na het klikken van **Open in nieuw lusje** pictogram ![&#x200B; Open details in een nieuw lusjepictogram &#x200B;](assets/open-details-in-a-new-tab-icon.png) in de hoger-juiste hoek van de voorproefpagina.
 
    **creeer pagina** doos opent.
 
-   ![ voeg Verbonden verslagen pagina modaal ](assets/add-connection-view-page-modal.png) toe
+   ![&#x200B; voeg Verbonden verslagen pagina modaal &#x200B;](assets/add-connection-view-page-modal.png) toe
 
 1. Voeg de **naam van de Pagina** toe, klik **Verbonden verslagenpagina**, dan klik **creeer**.
 
@@ -129,7 +129,7 @@ U moet recordtypes met andere verslagtypes of de projecten van Workfront eerst v
 
    De eerste vijf velden van de verbonden records worden standaard weergegeven. <!--No lookup fields display by default.-->
 
-   ![ Publiek verbonden lijstmening onder campagnedetails ](assets/audience-connected-table-view-under-campaign-details-page.png)
+   ![&#x200B; Publiek verbonden lijstmening onder campagnedetails &#x200B;](assets/audience-connected-table-view-under-campaign-details-page.png)
 
 1. (Optioneel) Klik op de naam van een verbonden record of objecttype in de lijst of zoek ernaar. Klik vervolgens op de naam wanneer deze in de lijst wordt weergegeven om de pagina voor dat record- of objecttype te maken.
 
@@ -145,10 +145,10 @@ U moet recordtypes met andere verslagtypes of de projecten van Workfront eerst v
    * Klik op de naam van een record. Hierdoor wordt de pagina van de record op een nieuw tabblad geopend.
    * Klik **verbinden** bij de bodem van de lijstmening om bestaande verslagen te verbinden, hen van de verbindingsdoos te selecteren, dan buiten de doos te klikken om het te sluiten. De records worden automatisch aan de tabel toegevoegd. De records moeten bestaan voordat u ze kunt toevoegen.
 
-     Voor meer informatie, zie [ verbindt verslagen ](/help/quicksilver/planning/records/connect-records.md).
+     Voor meer informatie, zie [&#x200B; verbindt verslagen &#x200B;](/help/quicksilver/planning/records/connect-records.md).
    * Bewerk alle informatie uit de verbonden records inline in de tabelweergave.
 
-   * Beweeg over de naam van een verbonden verslag, dan klik **Meer** menu ![ Meer menu ](assets/more-menu.png)
+   * Beweeg over de naam van een verbonden verslag, dan klik **Meer** menu ![&#x200B; Meer menu &#x200B;](assets/more-menu.png)
 
      of
 
@@ -161,7 +161,7 @@ U moet recordtypes met andere verslagtypes of de projecten van Workfront eerst v
       * **Verslag van het Tussenvoegsel boven of onder** om nieuwe verslagen aan het verbonden verslagtype toe te voegen. Nieuwe records die u hier toevoegt, worden ook gekoppeld aan de huidige record. Deze optie is niet beschikbaar in de blauwe balk wanneer u een record in de tabel selecteert.
       * **Schrapping** om het verslag te schrappen. Als u een verbonden record verwijdert, wordt deze verwijderd uit het recordtype en van elke locatie waar de record is verbonden.
 
-        Voor informatie over het uitgeven van verslagen in de lijstmening, zie [ verslagen ](/help/quicksilver/planning/records/edit-records.md) uitgeven.
+        Voor informatie over het uitgeven van verslagen in de lijstmening, zie [&#x200B; verslagen &#x200B;](/help/quicksilver/planning/records/edit-records.md) uitgeven.
 
         >[!TIP]
         >
@@ -177,7 +177,7 @@ U moet recordtypes met andere verslagtypes of de projecten van Workfront eerst v
    * **de hoogte van de Rij**. Niet beschikbaar voor projecten.
    * **Onderzoek**
 
-     Voor informatie, zie [ de lijstmening ](/help/quicksilver/planning/views/manage-the-table-view.md) leiden.
+     Voor informatie, zie [&#x200B; de lijstmening &#x200B;](/help/quicksilver/planning/views/manage-the-table-view.md) leiden.
 
      >[!NOTE]
      >
@@ -204,12 +204,12 @@ U moet recordtypes met andere verslagtypes of de projecten van Workfront eerst v
 
    * Klik **verbinden verslagen** in de hoger-juiste hoek van de verbonden verslagpagina om bestaande projecten te verbinden.
 
-     Voor informatie, zie [ verbindt verslagen ](/help/quicksilver/planning/records/connect-records.md).
+     Voor informatie, zie [&#x200B; verbindt verslagen &#x200B;](/help/quicksilver/planning/records/connect-records.md).
    * Bewerk de projectgegevens in de tabel inline.
    * Klik **Nieuwe rij** om een project zonder een malplaatje tot stand te brengen. Het nieuwe project wordt onmiddellijk verbonden met het huidige verslag.
 
-     Voor meer informatie, zie [ de voorwerpen van Workfront van de Planning van Workfront creëren aangezien u hen met verslagen ](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md) verbindt
-   * Beweeg over een project en klik **Meer** menu [ Meer menu ](assets/more-menu.png)
+     Voor meer informatie, zie [&#x200B; de voorwerpen van Workfront van de Planning van Workfront creëren aangezien u hen met verslagen &#x200B;](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md) verbindt
+   * Beweeg over een project en klik **Meer** menu [&#x200B; Meer menu &#x200B;](assets/more-menu.png)
 
      of
 
@@ -226,24 +226,24 @@ U moet recordtypes met andere verslagtypes of de projecten van Workfront eerst v
       1. Selecteer **Lijst** van het **type van Mening** gebied.
       1. Klik **creëren**.
 Er wordt een nieuwe lijstweergave toegevoegd aan het vervolgkeuzemenu Weergaven.
-      1. (Facultatief) Beweeg over de naam van een mening u creeerde, klik **Meer** menu ![ Meer menu ](assets/more-menu.png), dan klik één van de volgende opties:
+      1. (Facultatief) Beweeg over de naam van een mening u creeerde, klik **Meer** menu ![&#x200B; Meer menu &#x200B;](assets/more-menu.png), dan klik één van de volgende opties:
 
          * **noem** anders, om een nieuwe naam voor de mening toe te voegen.
          * <span class="preview">**Aandeel**</span>
-Voor meer informatie, zie [ meningen van het Aandeel ](/help/quicksilver/planning/access/share-views.md).
+Voor meer informatie, zie [&#x200B; meningen van het Aandeel &#x200B;](/help/quicksilver/planning/access/share-views.md).
          * **Schrapping**
-Voor informatie, zie [ verslagmeningen van de Schrapping ](/help/quicksilver/planning/views/delete-record-views.md).
+Voor informatie, zie [&#x200B; verslagmeningen van de Schrapping &#x200B;](/help/quicksilver/planning/views/delete-record-views.md).
 
            ![](assets/view-more-menu-projects-connected-records-page.png)
-   * Klik het **pictogram van de Filter** pictogram ![ van de Filter ](assets/filter-icon.png), en gebruik de filter om specifieke projecten te tonen.
+   * Klik het **pictogram van de Filter** pictogram ![&#x200B; van de Filter &#x200B;](assets/filter-icon.png), en gebruik de filter om specifieke projecten te tonen.
 
      >[!TIP]
      >
      ><span class="preview"> voor mensen-type gebieden, als **Eigenaar**, of **Sponsor**, kunt u een vervanging gebruiken om projecten te tonen waar de het programma geopende gebruiker aan deze rollen wordt toegewezen.</span>
      >
-     >![ Filter met gebruikersvervanging voor project verbonden verslagenpagina ](assets/filter-with-user-wildcard-project-connected-records-page.png)
+     >![&#x200B; Filter met gebruikersvervanging voor project verbonden verslagenpagina &#x200B;](assets/filter-with-user-wildcard-project-connected-records-page.png)
      >
-   * Klik het **pictogram van Kolommen** pictogram van Kolommen ![ ](assets/columns-icon.png) om kolommen in de lijst te verbergen of te tonen.
+   * Klik het **pictogram van Kolommen** pictogram van Kolommen ![&#x200B; &#x200B;](assets/columns-icon.png) om kolommen in de lijst te verbergen of te tonen.
    * Klik op het pictogram **+** rechtsboven in de tabelweergave om bestaande velden aan de tabel toe te voegen. Velden moeten bestaan voordat u ze kunt toevoegen.
 
      De **manager van de Kolom** doos opent. Ga als volgt te werk:
@@ -257,12 +257,12 @@ Voor informatie, zie [ verslagmeningen van de Schrapping ](/help/quicksilver/pla
 
    of
 
-   Beweeg over de naam van het lusje, dan klik **Meer** ![ Meer menu ](assets/more-menu.png), dan klik **anders noemen** om aan nieuw Verbonden meningslusje anders te noemen.
+   Beweeg over de naam van het lusje, dan klik **Meer** ![&#x200B; Meer menu &#x200B;](assets/more-menu.png), dan klik **anders noemen** om aan nieuw Verbonden meningslusje anders te noemen.
 
 
    <!--1. <span class="preview">(Optional) Click the dropdown menu to the right of the view name, then click **New view** to add a view. For more information, see the section [Manage multiple views from the connected records page](#manage-multiple-views-from-the-connected-records-page) in this article. </span>-->
 
-1. (Facultatief) Hover over de naam van het Verbonden lusje van de verslagenpagina, klik **Meer** ![ Meer menu ](assets/more-menu.png), dan klik **Schrapping** om aan tabel te verwijderen.
+1. (Facultatief) Hover over de naam van het Verbonden lusje van de verslagenpagina, klik **Meer** ![&#x200B; Meer menu &#x200B;](assets/more-menu.png), dan klik **Schrapping** om aan tabel te verwijderen.
 
 <!--
 <div class="preview">
