@@ -55,7 +55,7 @@ Weergaven kunnen worden gemaakt en beheerd op het gebied Verzoeken van Workfront
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -63,40 +63,40 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 U kunt een weergave maken in het gebied Verzoeken van Workfront of in de widget Mijn verzoeken in Home.
 
-1. Om tot de lijst van Verzoeken toegang te hebben, klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, of (als beschikbaar), klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon-left-nav.png) in de upper-left hoek, dan klik **[!UICONTROL Requests]**.
+1. Om tot de lijst van Verzoeken toegang te hebben, klik het **[!UICONTROL Main Menu]** pictogram ![&#x200B; Belangrijkste Menu &#x200B;](/help/_includes/assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, of (als beschikbaar), klik het **[!UICONTROL Main Menu]** pictogram ![&#x200B; Belangrijkste Menu &#x200B;](/help/_includes/assets/main-menu-icon-left-nav.png) in de upper-left hoek, dan klik **[!UICONTROL Requests]**.
 
 1. Ga als volgt te werk om de widget Mijn verzoeken te openen:
 
-   1. Klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, of (als beschikbaar), klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon-left-nav.png) in de upper-left hoek, dan klik **[!UICONTROL Home]**.
+   1. Klik het **[!UICONTROL Main Menu]** pictogram ![&#x200B; Belangrijkste Menu &#x200B;](/help/_includes/assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, of (als beschikbaar), klik het **[!UICONTROL Main Menu]** pictogram ![&#x200B; Belangrijkste Menu &#x200B;](/help/_includes/assets/main-menu-icon-left-nav.png) in de upper-left hoek, dan klik **[!UICONTROL Home]**.
    1. Zoek de widget Mijn verzoeken.
 
-      Voor meer informatie over Mijn widget van Verzoeken, zie [ Gebruik Mijn widget van Verzoeken ](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md).
+      Voor meer informatie over Mijn widget van Verzoeken, zie [&#x200B; Gebruik Mijn widget van Verzoeken &#x200B;](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md).
 
-1. In de lijst van Verzoeken of Mijn widget van Verzoeken, klik **dropdown** Meningen ![ en selecteer ](assets/view-icon-requests.png) Nieuwe mening **.**
+1. In de lijst van Verzoeken of Mijn widget van Verzoeken, klik **dropdown** Meningen ![&#x200B; en selecteer &#x200B;](assets/view-icon-requests.png) Nieuwe mening **.**
 
-   ![ Nieuwe mening ](assets/create-new-view.png)
+   ![&#x200B; Nieuwe mening &#x200B;](assets/create-new-view.png)
 
 1. Ga een naam voor de nieuwe mening in, en klik **creeer**.
-1. Ga aan [ uit uitgeven een mening op het gebied van Verzoeken ](#edit-a-view-in-the-requests-area).
+1. Ga aan [&#x200B; uit uitgeven een mening op het gebied van Verzoeken &#x200B;](#edit-a-view-in-the-requests-area).
 
 ## Een weergave bewerken in het gebied Verzoeken
 
 U kunt bestaande weergaven bewerken, inclusief de weergaven die u zojuist hebt gemaakt.
 
-1. Om tot de lijst van Verzoeken toegang te hebben, klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, of (als beschikbaar), klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon-left-nav.png) in de upper-left hoek, dan klik **[!UICONTROL Requests]**.
+1. Om tot de lijst van Verzoeken toegang te hebben, klik het **[!UICONTROL Main Menu]** pictogram ![&#x200B; Belangrijkste Menu &#x200B;](/help/_includes/assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, of (als beschikbaar), klik het **[!UICONTROL Main Menu]** pictogram ![&#x200B; Belangrijkste Menu &#x200B;](/help/_includes/assets/main-menu-icon-left-nav.png) in de upper-left hoek, dan klik **[!UICONTROL Requests]**.
 
 1. Ga als volgt te werk om de widget Mijn verzoeken te openen:
 
-   1. Klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, of (als beschikbaar), klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon-left-nav.png) in de upper-left hoek, dan klik **[!UICONTROL Home]**.
+   1. Klik het **[!UICONTROL Main Menu]** pictogram ![&#x200B; Belangrijkste Menu &#x200B;](/help/_includes/assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, of (als beschikbaar), klik het **[!UICONTROL Main Menu]** pictogram ![&#x200B; Belangrijkste Menu &#x200B;](/help/_includes/assets/main-menu-icon-left-nav.png) in de upper-left hoek, dan klik **[!UICONTROL Home]**.
    1. Zoek de widget Mijn verzoeken.
 
-      Voor meer informatie over Mijn widget van Verzoeken, zie [ Gebruik Mijn widget van Verzoeken ](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md).
+      Voor meer informatie over Mijn widget van Verzoeken, zie [&#x200B; Gebruik Mijn widget van Verzoeken &#x200B;](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md).
 
 1. Zoek in de lijst Verzoeken of de widget Mijn verzoeken de weergave die u wilt bewerken.
 
-1. (Facultatief) om een mening anders te noemen, klik **dropdown** Meningen ![ en klik het drie-punt menu naast de mening, ](assets/view-icon-requests.png) anders noemen **, dan type in de nieuwe naam voor de mening.**
-1. Klik de **dropdown** drop-down Meningen ![ en selecteer de mening u wilt uitgeven.](assets/view-icon-requests.png)
-1. <span class="preview"> om een douanegebied als kolom toe te voegen, klik **kolom** pictogram ![ voegt kolom ](assets/add-column.png) dichtbij het recht van het scherm toe, en klik het plusteken naast het gebied van de douanevorm dat u als kolom aan de mening wilt toevoegen.</span>
+1. (Facultatief) om een mening anders te noemen, klik **dropdown** Meningen ![&#x200B; en klik het drie-punt menu naast de mening, &#x200B;](assets/view-icon-requests.png) anders noemen **, dan type in de nieuwe naam voor de mening.**
+1. Klik de **dropdown** drop-down Meningen ![&#x200B; en selecteer de mening u wilt uitgeven.](assets/view-icon-requests.png)
+1. <span class="preview"> om een douanegebied als kolom toe te voegen, klik **kolom** pictogram ![&#x200B; voegt kolom &#x200B;](assets/add-column.png) dichtbij het recht van het scherm toe, en klik het plusteken naast het gebied van de douanevorm dat u als kolom aan de mening wilt toevoegen.</span>
 
    <span class="preview"> de gebieden van de Douane op vormen in bijlage aan het voorwerp in de lijst zijn beschikbaar om als kolommen toe te voegen.</span>
 
@@ -105,7 +105,7 @@ U kunt bestaande weergaven bewerken, inclusief de weergaven die u zojuist hebt g
    >U kunt momenteel geen kolommen toevoegen in de productieomgeving.
 1. (Facultatief) klik **Kolommen** en verberg, toon, of herschik de kolommen in de verzoeklijst.
 
-   ![ doos van Kolommen ](assets/columns-editing-box-in-requests-planning-tab.png)
+   ![&#x200B; doos van Kolommen &#x200B;](assets/columns-editing-box-in-requests-planning-tab.png)
 
    >[!TIP]
    >
@@ -113,7 +113,7 @@ U kunt bestaande weergaven bewerken, inclusief de weergaven die u zojuist hebt g
 
 1. (Facultatief) klik **Filters** en begin voorwaarden toe te voegen voor welke verzoeken u in de Planning tabel wilt bekijken.
 
-   ![ het Uitgeven filters in de Verzoeken tabel van de Planning ](assets/filters-editing-box-in-requests-planning-tab.png)
+   ![&#x200B; het Uitgeven filters in de Verzoeken tabel van de Planning &#x200B;](assets/filters-editing-box-in-requests-planning-tab.png)
 
    U kunt filteren op de volgende velden:
 
@@ -140,20 +140,20 @@ De aanvraaglijst wordt automatisch gefilterd, aangezien u de filtervoorwaarden t
 
 Een Workfront-beheerder kan de nieuwe weergave toevoegen aan lay-outsjablonen.
 
-Voor instructies, zie [ Filters, Mening, en Groepen aanpassen gebruikend een lay-outmalplaatje ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md).
+Voor instructies, zie [&#x200B; Filters, Mening, en Groepen aanpassen gebruikend een lay-outmalplaatje &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md).
 
 ## Een weergave delen
 
 U kunt weergaven delen die u maakt met andere gebruikers, teams of groepen.
 
-1. Om tot de lijst van Verzoeken toegang te hebben, klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, of (als beschikbaar), klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon-left-nav.png) in de upper-left hoek, dan klik **[!UICONTROL Requests]**.
+1. Om tot de lijst van Verzoeken toegang te hebben, klik het **[!UICONTROL Main Menu]** pictogram ![&#x200B; Belangrijkste Menu &#x200B;](/help/_includes/assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, of (als beschikbaar), klik het **[!UICONTROL Main Menu]** pictogram ![&#x200B; Belangrijkste Menu &#x200B;](/help/_includes/assets/main-menu-icon-left-nav.png) in de upper-left hoek, dan klik **[!UICONTROL Requests]**.
 
 1. Ga als volgt te werk om de widget Mijn verzoeken te openen:
 
-   1. Klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, of (als beschikbaar), klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon-left-nav.png) in de upper-left hoek, dan klik **[!UICONTROL Home]**.
+   1. Klik het **[!UICONTROL Main Menu]** pictogram ![&#x200B; Belangrijkste Menu &#x200B;](/help/_includes/assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, of (als beschikbaar), klik het **[!UICONTROL Main Menu]** pictogram ![&#x200B; Belangrijkste Menu &#x200B;](/help/_includes/assets/main-menu-icon-left-nav.png) in de upper-left hoek, dan klik **[!UICONTROL Home]**.
    1. Zoek de widget Mijn verzoeken.
 
-      Voor meer informatie over Mijn widget van Verzoeken, zie [ Gebruik Mijn widget van Verzoeken ](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md).
+      Voor meer informatie over Mijn widget van Verzoeken, zie [&#x200B; Gebruik Mijn widget van Verzoeken &#x200B;](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md).
 
 1. Zoek in de lijst Verzoeken of de widget Mijn verzoeken de weergave die u wilt delen.
 1. Houd de muisaanwijzer boven de weergave die u wilt delen en klik vervolgens op het menu met drie punten wanneer deze wordt weergegeven.
