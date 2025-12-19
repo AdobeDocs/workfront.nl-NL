@@ -18,7 +18,7 @@ ht-degree: 0%
 De volgende het werkpunten kunnen aan een team worden toegewezen van de Gelijkheid en aan de achterstand van dat team als verhalen worden toegevoegd, afhankelijk van de methodologie van de Gelijkheid het team gebruikt:
 
 * **[!UICONTROL Scrum Agile teams]:** Taken en problemen kunnen worden toegewezen aan het team van Adobe en worden toegevoegd aan de achterstand.
-* **[!UICONTROL Kanban Agile teams]:** de taken kunnen aan het team van de Gelijkheid worden toegewezen en aan de achterstand worden toegevoegd. De gebruikers kunnen de achterstand van de het verhaalraad van de Giel, zoals die in [[!UICONTROL Add the backlog] aan de Kanban raad ](../../agile/use-kanban-in-an-agile-team/view-the-backlog-on-the-kanban-board.md) wordt beschreven direct bekijken. Het team gebruikt deze achterstand om prioriteit te geven aan hun werkvoorraad en deze te beheren.
+* **[!UICONTROL Kanban Agile teams]:** de taken kunnen aan het team van de Gelijkheid worden toegewezen en aan de achterstand worden toegevoegd. De gebruikers kunnen de achterstand van de het verhaalraad van de Giel, zoals die in [[!UICONTROL Add the backlog] aan de Kanban raad &#x200B;](../../agile/use-kanban-in-an-agile-team/view-the-backlog-on-the-kanban-board.md) wordt beschreven direct bekijken. Het team gebruikt deze achterstand om prioriteit te geven aan hun werkvoorraad en deze te beheren.
 
 Taken of problemen kunnen vanaf elke locatie in [!DNL Adobe Workfront] aan het team worden toegewezen (en vervolgens aan de teamachterstand worden toegevoegd). Bijvoorbeeld, zou één enkel team werktaken van veelvoudige projecten kunnen worden toegewezen.
 
@@ -52,7 +52,7 @@ Taken of problemen kunnen vanaf elke locatie in [!DNL Adobe Workfront] aan het t
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -74,7 +74,7 @@ U kunt de volgorde van artikelen in de lijst met terugverwijzingen wijzigen met 
    >Als een taak of een kwestie een toegewezen team van Agile heeft en het project niet in een status is die met Huidig vergelijkt, tonen zij niet op de achterstand. Nochtans, beïnvloeden zij nog de backlogtelling in de kolom van de Orde.
 
 1. Selecteer een of meer artikelen en sleep de artikelen naar de volgorde waarin u ze op de achtergrond wilt weergeven.
-   ![ belemmering en dalings achterlogpunten ](assets/agile-backlog-drag-and-drop.png)
+   ![&#x200B; belemmering en dalings achterlogpunten &#x200B;](assets/agile-backlog-drag-and-drop.png)
 
 ### Artikelen onderverdelen {#break-down-stories}
 
@@ -93,7 +93,7 @@ Een artikel onderbreken:
 1. Ga naar de achtergrond die het artikel bevat dat u wilt onderbreken.
 1. Selecteer het artikel dat u wilt onderbreken en klik op **[!UICONTROL Breakdown Story]** .
 Het dialoogvenster [!UICONTROL Breakdown Story] wordt weergegeven.
-   ![ de dialoog van het Verhaal van de Onderbreking ](assets/backlog-breakdown-dialog.png)
+   ![&#x200B; de dialoog van het Verhaal van de Onderbreking &#x200B;](assets/backlog-breakdown-dialog.png)
 
 1. Geef een naam en een schatting voor het artikel op en geef aan of het artikel gereed is.
 1. Klik op **[!UICONTROL Add Story]** om een ander artikel te maken van het originele artikel.
@@ -101,7 +101,7 @@ Het dialoogvenster [!UICONTROL Breakdown Story] wordt weergegeven.
 
 ### Artikelen bewerken {#edit-stories}
 
-U kunt verhalen van [!UICONTROL Stories] of [!UICONTROL Issues] lusjes op de Achtergrond direct uitgeven aangezien u om het even welke taken of kwesties binnen een project in massa zou uitgeven, zoals die in [ worden beschreven taken in bulk ](../../manage-work/tasks/manage-tasks/edit-tasks.md#edit-tasks-in-bulk) in [ uitgeeft taken ](../../manage-work/tasks/manage-tasks/edit-tasks.md), en [ uitgeeft kwesties ](../../manage-work/issues/manage-issues/edit-issues.md).
+U kunt verhalen van [!UICONTROL Stories] of [!UICONTROL Issues] lusjes op de Achtergrond direct uitgeven aangezien u om het even welke taken of kwesties binnen een project in massa zou uitgeven, zoals die in [&#x200B; worden beschreven taken in bulk &#x200B;](../../manage-work/tasks/manage-tasks/edit-tasks.md#edit-tasks-in-bulk) in [&#x200B; uitgeeft taken &#x200B;](../../manage-work/tasks/manage-tasks/edit-tasks.md), en [&#x200B; uitgeeft kwesties &#x200B;](../../manage-work/issues/manage-issues/edit-issues.md).
 
 ## Nieuwe artikelen maken op de achtergrond {#create-new-stories-on-the-backlog}
 
@@ -116,9 +116,9 @@ Wanneer u een artikel maakt op basis van de achterstand, wordt het artikel gemaa
 
 Een artikel maken op basis van de historie:
 
-1. Klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, of (als beschikbaar), klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon-left-nav.png) in de upper-left hoek, dan klik **[!UICONTROL Teams]**.
+1. Klik het **[!UICONTROL Main Menu]** pictogram ![&#x200B; Belangrijkste Menu &#x200B;](/help/_includes/assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, of (als beschikbaar), klik het **[!UICONTROL Main Menu]** pictogram ![&#x200B; Belangrijkste Menu &#x200B;](/help/_includes/assets/main-menu-icon-left-nav.png) in de upper-left hoek, dan klik **[!UICONTROL Teams]**.
 
-1. (Facultatief) klik het **[!UICONTROL Switch team]** pictogram van de pictogram ![ Schakelaar teampictogram ](assets/switch-team-icon.png), dan of selecteer een nieuw team van het Trommel van het drop-down menu, of onderzoek naar een team in de onderzoeksbar en selecteer het wanneer het verschijnt.
+1. (Facultatief) klik het **[!UICONTROL Switch team]** pictogram van de pictogram ![&#x200B; Schakelaar teampictogram &#x200B;](assets/switch-team-icon.png), dan of selecteer een nieuw team van het Trommel van het drop-down menu, of onderzoek naar een team in de onderzoeksbar en selecteer het wanneer het verschijnt.
 
 1. Selecteer **[!UICONTROL Backlog]** in het linkerdeelvenster.
 1. Voer een van de volgende handelingen uit, afhankelijk van of u een taak of een uitgave wilt maken:
@@ -196,7 +196,7 @@ De taak of kwestie is nu beschikbaar op de teamachterstand.
 1. Selecteer de artikelen die u naar een herhaling of Kanban-bord wilt verplaatsen en klik op **[!UICONTROL More]** > **[!UICONTROL Move to]** .
 Als u het artikel naar een [!UICONTROL Kanban] -bord verplaatst, wordt het [!UICONTROL Move Story to the Kanban] -bord weergegeven.
 Als u het artikel naar een herhaling verplaatst, wordt het dialoogvenster [!UICONTROL Move Story to an Iteration] weergegeven.
-   ![ de dialoog van het Artikel van de Beweging ](assets/agile-backlog-addtoiteration.png)
+   ![&#x200B; de dialoog van het Artikel van de Beweging &#x200B;](assets/agile-backlog-addtoiteration.png)
 
 1. Voer een van de volgende handelingen uit:
 
@@ -210,10 +210,10 @@ Als u het artikel naar een herhaling verplaatst, wordt het dialoogvenster [!UICO
 
 Als u besluit dat uw team nog niet klaar is om aan een artikel te werken, kunt u het artikel naar de achtergrond verplaatsen.
 
-Voor meer informatie, zie [ een verhaal van de Beweging van de Gelijkheid ](../../agile/work-in-an-agile-environment/move-an-agile-story.md).
+Voor meer informatie, zie [&#x200B; een verhaal van de Beweging van de Gelijkheid &#x200B;](../../agile/work-in-an-agile-environment/move-an-agile-story.md).
 
 ### Artikelen exporteren uit de logbestandweergave {#export-stories-from-the-backlog}
 
 U kunt een of meer artikelen (inclusief taken en problemen) rechtstreeks vanaf de achtergrond exporteren.
 
-U voert verhalen van de achterstand op de zelfde manier uit dat u andere gegevens in [!DNL Workfront], zoals die in [ worden beschreven de gegevens van de Uitvoer ](../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md) uitvoert.
+U voert verhalen van de achterstand op de zelfde manier uit dat u andere gegevens in [!DNL Workfront], zoals die in [&#x200B; worden beschreven de gegevens van de Uitvoer &#x200B;](../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md) uitvoert.
