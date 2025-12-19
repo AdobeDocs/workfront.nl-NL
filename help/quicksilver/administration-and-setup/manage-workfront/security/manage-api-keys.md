@@ -29,11 +29,11 @@ ht-degree: 0%
 >* Serververificatie met JWT
 >* Gebruikersverificatie met OAuth2
 >
->Voor instructies bij vestiging deze authentificatiemethodes, zie [ tot toepassingen OAuth2 voor de integratie van Workfront leiden ](/help/quicksilver/administration-and-setup/configure-integrations/create-oauth-application.md)
+>Voor instructies bij vestiging deze authentificatiemethodes, zie [&#x200B; tot toepassingen OAuth2 voor de integratie van Workfront leiden &#x200B;](/help/quicksilver/administration-and-setup/configure-integrations/create-oauth-application.md)
 >
->Voor instructies bij het gebruiken van serverauthentificatie in Workfront, zie [ vormen en gebruiken de douaneOAuth 2 van uw organisatie toepassingen gebruikend stroom JWT ](/help/quicksilver/wf-api/api/oauth-app-jwt-flow.md)
+>Voor instructies bij het gebruiken van serverauthentificatie in Workfront, zie [&#x200B; vormen en gebruiken de douaneOAuth 2 van uw organisatie toepassingen gebruikend stroom JWT &#x200B;](/help/quicksilver/wf-api/api/oauth-app-jwt-flow.md)
 >
->Voor instructies bij het gebruiken van gebruikersauthentificatie in Workfront, zie [ vormen en gebruiken de douane OAuth 2 van uw organisatie toepassingen gebruikend de stroom van de vergunningscode ](/help/quicksilver/wf-api/api/oauth-app-code-token-flow.md)
+>Voor instructies bij het gebruiken van gebruikersauthentificatie in Workfront, zie [&#x200B; vormen en gebruiken de douane OAuth 2 van uw organisatie toepassingen gebruikend de stroom van de vergunningscode &#x200B;](/help/quicksilver/wf-api/api/oauth-app-code-token-flow.md)
 
 Adobe Workfront-beheerders kunnen de API-sleutels beheren die worden gebruikt om toepassingen in staat te stellen om namens een gebruiker toegang te krijgen tot Workfront, om zo kwetsbaarheden op het gebied van API-beveiliging tot een minimum te beperken.
 
@@ -71,7 +71,7 @@ Voorbeelden van toepassingen die gebruikmaken van de Workfront API zijn:
  </tbody> 
 </table>
 
-Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -117,8 +117,8 @@ U kunt API-sleutels voor gebruikers in andere rollen dan Workfront-beheerders ge
 
    1. Breid **Systeem** uit, dan klik **Enige Sign-On (SSO)**.
    1. Op het **gebied van het Type**, selecteer het type van SSO uw organisatiegebruik.
-   1. Met het geselecteerde type, scrol neer en ontruim **** checkbox toelaten.
-      ![ laat SSO ](assets/sysadmin-security-sso-disable-31620-350x320.png) toe
+   1. Met het geselecteerde type, scrol neer en ontruim **&#x200B;**&#x200B;checkbox toelaten.
+      ![&#x200B; laat SSO &#x200B;](assets/sysadmin-security-sso-disable-31620-350x320.png) toe
    1. Klik **sparen**.
 
 
@@ -154,7 +154,7 @@ U kunt API Toetsen vormen om voor alle gebruikers in uw systeem te verlopen. Wan
 
    Deze optie is standaard niet ingeschakeld.
 
-   Voor informatie over hoe te om gebruikerswachtwoorden te vormen om te verlopen, zie [ de voorkeur van de systeemveiligheid ](../../../administration-and-setup/manage-workfront/security/configure-security-preferences.md) vormen.
+   Voor informatie over hoe te om gebruikerswachtwoorden te vormen om te verlopen, zie [&#x200B; de voorkeur van de systeemveiligheid &#x200B;](../../../administration-and-setup/manage-workfront/security/configure-security-preferences.md) vormen.
 
 1. Klik **sparen**.
 
@@ -178,7 +178,7 @@ Als u zich zorgen maakt over een bepaalde inbreuk op de beveiliging van uw Workf
 >
 >De in dit gedeelte beschreven procedure is alleen van toepassing op organisaties die nog niet aan boord zijn gegaan bij het Adobe Business Platform. Aanmelden bij Workfront via de Workfront API is niet beschikbaar als uw organisatie is aangemeld bij het Adobe Business Platform.
 >
->Voor een lijst van procedures die verschillen gebaseerd op of uw organisatie aan het Van Bedrijfs Adobe Platform is genegeerd, zie [ Op platform-gebaseerde beleidsverschillen (Adobe Workfront/Adobe Bedrijfs Platform) ](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>Voor een lijst van procedures die verschillen gebaseerd op of uw organisatie aan het Van Bedrijfs Adobe Platform is genegeerd, zie [&#x200B; Op platform-gebaseerde beleidsverschillen (Adobe Workfront/Adobe Bedrijfs Platform) &#x200B;](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
 >[!NOTE]
 >
@@ -186,8 +186,8 @@ Als u zich zorgen maakt over een bepaalde inbreuk op de beveiliging van uw Workf
 
 Toepassingen van derden kunnen met Workfront communiceren via de API. Om de beveiliging van uw Workfront-site te verhogen, kunt u Workfront zodanig configureren dat de aanmeldingsaanvragen voor de API worden beperkt door een X.509-certificaat naar Workfront te uploaden. Als deze optie is ingeschakeld, moeten alle aanmeldingsaanvragen via de API naast gebruikersnaam en wachtwoord ook een clientcertificaat bevatten.
 
-* [ verkrijg het X.509- certificaat ](#obtain-the-x-509-certificate)
-* [ upload het certificaat aan Workfront ](#upload-the-certificate-to-workfront)
+* [&#x200B; verkrijg het X.509- certificaat &#x200B;](#obtain-the-x-509-certificate)
+* [&#x200B; upload het certificaat aan Workfront &#x200B;](#upload-the-certificate-to-workfront)
 * [Verifieer API login vraag wordt beperkt](#verify-api-login-calls-are-restricted)
 
 ### Het X.509-certificaat ophalen {#obtain-the-x-509-certificate}
@@ -198,7 +198,7 @@ Vraag een geldig X.509-certificaat aan bij een vertrouwde certificeringsinstanti
 
 Nadat u het X.509-certificaat van uw certificeringsinstantie hebt ontvangen, moet u het uploaden naar Workfront.
 
-1. Klik het **pictogram 1} van het Belangrijkste Menu** Belangrijkste menupictogram ![ in de hoger-juiste hoek van Adobe Workfront, dan klik ](assets/main-menu-icon.png) de montages van de Opstelling **** Gear pictogram ![.](assets/gear-icon-settings.png)
+1. Klik het **pictogram 1&rbrace; van het Belangrijkste Menu** Belangrijkste menupictogram ![&#x200B; in de hoger-juiste hoek van Adobe Workfront, dan klik &#x200B;](assets/main-menu-icon.png) de montages van de Opstelling **&#x200B;**&#x200B;Gear pictogram ![.](assets/gear-icon-settings.png)
 
 1. Breid **Systeem** uit, dan klik **Info van de Klant**.
 
