@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Op deze pagina worden de verbeteringen beschreven van Verzoeken die zijn aangebracht met de release Eerste kwartaal 2026 voor de voorvertoningsomgeving. Deze verbeteringen zullen beschikbaar worden gesteld in de productieomgeving, zoals vermeld.
 
-Voor een lijst van alle veranderingen beschikbaar op dit punt in Eerste Kwartaal 2026 versiecyclus, zie [ Eerste Kwartaal 2026 releaseoverzicht ](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar op dit punt in Eerste Kwartaal 2026 versiecyclus, zie [&#x200B; Eerste Kwartaal 2026 releaseoverzicht &#x200B;](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md).
 
 ## Gemaakt object-koppelingen zijn nu beschikbaar in de widget Aanvragen en Mijn verzoeken
 
@@ -62,7 +62,7 @@ Om het gemakkelijker te maken om de informatie te zien u nodig hebt, hebben wij 
 
 U kunt aanvraaglijstweergaven delen vanuit Workfront en de widget Mijn verzoeken vanuit Home. De functionaliteit voor delen is op beide plaatsen identiek en de weergave-instellingen, inclusief delen, blijven behouden wanneer u gaat schakelen tussen de widget Mijn verzoeken en het gebied Verzoeken.
 
-Voor informatie over verzoekmeningen, met inbegrip van het delen, zie [ meningen in het gebied van Verzoeken creëren en leiden ](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md).
+Voor informatie over verzoekmeningen, met inbegrip van het delen, zie [&#x200B; meningen in het gebied van Verzoeken creëren en leiden &#x200B;](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md).
 
 ## Aangepaste velden toevoegen aan de lijst met verzoeken en de widget Mijn verzoeken
 
@@ -97,7 +97,7 @@ Dit kan handig zijn wanneer u een filter toevoegt aan een weergave die door meer
 
 Het jokerteken is beschikbaar in velden waarin de waarde een gebruiker is.
 
-Voor meer informatie bij het vormen van meningen in de lijst van Verzoeken, met inbegrip van filters, zie [ tot meningen in het gebied van Verzoeken ](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md) leiden of uitgeven.
+Voor meer informatie bij het vormen van meningen in de lijst van Verzoeken, met inbegrip van filters, zie [&#x200B; tot meningen in het gebied van Verzoeken &#x200B;](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md) leiden of uitgeven.
 
 ## Formuliervulling aangedreven door AI is nu beschikbaar voor aanvragen
 
@@ -111,7 +111,7 @@ Om het gemakkelijker te maken om verzoeken tot stand te brengen, hebben wij Vorm
 
 Uw organisatie moet AI hebben toegelaten om tot deze functionaliteit toegang te hebben.
 
-Voor meer informatie over de Vulling van de Vorm die door AI wordt aangedreven, met inbegrip van wat wordt vereist om AI voor uw organisatie toe te laten, zie [ Vulling van de Vorm van het Gebruik aangedreven door AI om een verzoek in te vullen gebruikend herinneringen of documenten ](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md).
+Voor meer informatie over de Vulling van de Vorm die door AI wordt aangedreven, met inbegrip van wat wordt vereist om AI voor uw organisatie toe te laten, zie [&#x200B; Vulling van de Vorm van het Gebruik aangedreven door AI om een verzoek in te vullen gebruikend herinneringen of documenten &#x200B;](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md).
 
 
 ## Concepten van verzoeken opslaan in de nieuwe ervaring voor aanvragen
@@ -128,7 +128,7 @@ Eerder was deze functie niet beschikbaar in de nieuwe ervaring voor aanvragen.
 
 Concepten die zijn gemaakt op basis van de oudere ervaring die u opvraagt, zijn beschikbaar in de nieuwe ervaring die u opvraagt.
 
-Voor meer informatie over verzoekontwerpen, zie [ verzoeken van concepten ](/help/quicksilver/manage-work/requests/create-requests/create-requests-from-drafts.md) creëren.
+Voor meer informatie over verzoekontwerpen, zie [&#x200B; verzoeken van concepten &#x200B;](/help/quicksilver/manage-work/requests/create-requests/create-requests-from-drafts.md) creëren.
 
 ## Verzonden aanvragen verwijderen uit de nieuwe ervaring met aanvragen
 
@@ -142,7 +142,7 @@ Om het gemakkelijker te maken om uw verzoeken georganiseerd en ongecompliceerd t
 
 Eerder was deze functie niet beschikbaar in de nieuwe ervaring voor aanvragen.
 
-Voor informatie en instructies, zie [ een voorgelegd verzoek of verzoekontwerp ](/help/quicksilver/manage-work/requests/create-requests/delete-request-draft.md) schrappen.
+Voor informatie en instructies, zie [&#x200B; een voorgelegd verzoek of verzoekontwerp &#x200B;](/help/quicksilver/manage-work/requests/create-requests/delete-request-draft.md) schrappen.
 
 
 ## Nieuwe aanvragen maken door eerder ingediende aanvragen te kopiëren in de nieuwe ervaring met aanvragen
@@ -157,7 +157,7 @@ Om het gemakkelijker te maken om verzoeken voor te leggen, hebben wij de capacit
 
 Eerder was deze functionaliteit niet beschikbaar in de nieuwe ervaring die u opvraagt.
 
-Voor informatie bij het kopiëren en het voorleggen van een verzoek, zie [ verzoeken ](/help/quicksilver/manage-work/requests/create-requests/copy-and-submit-requests.md) kopiëren en voorleggen.
+Voor informatie bij het kopiëren en het voorleggen van een verzoek, zie [&#x200B; verzoeken &#x200B;](/help/quicksilver/manage-work/requests/create-requests/copy-and-submit-requests.md) kopiëren en voorleggen.
 
 
 
