@@ -7,7 +7,7 @@ description: U kunt het type gegevens aanpassen dat u in een lijst of rapport we
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 18016417-e24d-4797-9422-00915db47bb9
-source-git-commit: 66dd7354f3723e266b77cb2f367b09c022e8c95e
+source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
 workflow-type: tm+mt
 source-wordcount: '591'
 ht-degree: 0%
@@ -18,17 +18,17 @@ ht-degree: 0%
 
 <!--Audited: 11/2024-->
 
-U kunt het type gegevens aanpassen dat u in een lijst of rapport weergeeft door de weergave van de lijst of het rapport te beheren. U kunt objecten en de bijbehorende kenmerken in een weergave weergeven. Voor informatie over de voorwerpen van Adobe Workfront, zie [&#x200B; voorwerpen in Adobe Workfront &#x200B;](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md) begrijpen.
+U kunt het type gegevens aanpassen dat u in een lijst of rapport weergeeft door de weergave van de lijst of het rapport te beheren. U kunt objecten en de bijbehorende kenmerken in een weergave weergeven. Voor informatie over de voorwerpen van Adobe Workfront, zie [ voorwerpen in Adobe Workfront ](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md) begrijpen.
 
 ## Overwegingen over weergaven
 
 * U kunt bestaande weergaven aanpassen. Alle gebruikers die de weergaven kunnen bekijken, kunnen ook uw wijzigingen zien.
 * Uw Adobe Workfront-beheerder moet u toegang geven tot het bewerken van filters, weergaven en groepen om weergaven te kunnen maken.
 
-  Voor informatie over het verlenen van toegang, zie [&#x200B; Toegang van de Verlening tot filters, meningen, en groeperingen &#x200B;](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md).
+  Voor informatie over het verlenen van toegang, zie [ Toegang van de Verlening tot filters, meningen, en groeperingen ](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md).
 
 * Uw machtigingsniveau voor een weergave bepaalt hoe een weergave wordt opgeslagen. Als u de weergave oorspronkelijk hebt gemaakt, kunt u de wijzigingen opslaan, anders wordt u gevraagd een versie van de weergave op te slaan. Als u wijzigingen aanbrengt in een weergave die u met anderen hebt gedeeld, is dit ook van invloed op deze weergave.
-* U kunt een weergave die met u is gedeeld, alleen aanpassen als de gebruiker die deze heeft gedeeld, toegang tot Beheren heeft verleend. Voor informatie over het delen van een mening, zie [&#x200B; een filter, mening, of groepering &#x200B;](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md) delen.
+* U kunt een weergave die met u is gedeeld, alleen aanpassen als de gebruiker die deze heeft gedeeld, toegang tot Beheren heeft verleend. Voor informatie over het delen van een mening, zie [ een filter, mening, of groepering ](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md) delen.
 
 U kunt bestaande weergaven aanpassen, weergaven maken op basis van bestaande weergaven of geheel nieuwe weergaven maken.
 
@@ -38,8 +38,8 @@ Hieronder vindt u typen weergaven die u kunt toepassen in lijsten of rapporten i
 
 <table style="table-layout:auto">
     <tr>
-        <td><strong>Standaardweergaven</strong></td>
-        <td>U kunt ze toepassen op een lijst of rapport met objecten. Standaardweergaven zijn in hoge mate aanpasbaar. U kunt een standaardweergave aanpassen en met anderen delen. Voor informatie zie, <a href="/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md"> creeer of geef meningen in Adobe Workfront </a> uit.</td>
+        <td><strong>Standaardweergave</strong></td>
+        <td>U kunt het toepassen op om het even welke lijst of rapport van voorwerpen. Standaardweergaven zijn in hoge mate aanpasbaar. U kunt een standaardweergave aanpassen en met anderen delen. Voor informatie zie, <a href="/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md"> creeer of geef meningen in Adobe Workfront </a> uit.</td>
     </tr>
     <tr>
         <td><strong>Boekhouding</strong></td>
@@ -64,7 +64,7 @@ Hieronder vindt u typen weergaven die u kunt toepassen in lijsten of rapporten i
 
 U kunt de elementen van een standaardweergave delen.
 
-Voor informatie over hoe te om een standaardmening te delen, zie [&#x200B; een filter, mening, of groepering &#x200B;](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md) delen.
+Voor informatie over hoe te om een standaardmening te delen, zie [ een filter, mening, of groepering ](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md) delen.
 
 U kunt geen Gantt- en Board-weergaven delen. Iedereen met toegang tot de gebieden waar deze meningen tonen kan de zelfde informatie bekijken.
 
@@ -76,7 +76,7 @@ De mogelijkheid om een weergave te verwijderen werkt anders, afhankelijk van het
 
 U kunt Gantt- of Board-weergaven niet verwijderen.
 
-Voor meer informatie over het verwijderen van een standaardmening, zie [&#x200B; filters, meningen, en groeperingen &#x200B;](../../../reports-and-dashboards/reports/reporting-elements/remove-filters-views-groupings.md) verwijderen.
+Voor meer informatie over het verwijderen van een standaardmening, zie [ filters, meningen, en groeperingen ](../../../reports-and-dashboards/reports/reporting-elements/remove-filters-views-groupings.md) verwijderen.
 
 <!-- add something about the enhanced views here, when we have a link-->
 

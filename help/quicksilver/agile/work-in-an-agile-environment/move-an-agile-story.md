@@ -2,20 +2,20 @@
 product-area: agile-and-teams;projects
 navigation-topic: work-in-an-agile-environment
 title: Een flexibel artikel verplaatsen
-description: U kunt een flexibel artikel verplaatsen naar een andere herhaling (voor Scrum-teams) of naar de achtergrond (voor Kanban- en Scrum-teams).
+description: U kunt een artikel van de Gelijkheid of naar een verschillende herhaling (voor de teams van de Trommel), of naar de backlog (voor Kanban en de teams van de Trommel) verplaatsen.
 author: Jenny
 feature: Agile
 exl-id: 0058792e-66b8-4e54-8ce3-50171adff875
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
 workflow-type: tm+mt
 source-wordcount: '322'
 ht-degree: 1%
 
 ---
 
-# Een stapel artikel verplaatsen
+# Een flexibel artikel verplaatsen
 
-U kunt een flexibel artikel verplaatsen naar een andere herhaling (voor Scrum-teams) of naar de achtergrond (voor Kanban- en Scrum-teams).
+U kunt een artikel van de Gelijkheid of naar een verschillende herhaling (voor de teams van de Trommel), of naar de backlog (voor Kanban en de teams van de Trommel) verplaatsen.
 
 ## Toegangsvereisten
 
@@ -43,7 +43,7 @@ U kunt een flexibel artikel verplaatsen naar een andere herhaling (voor Scrum-te
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -54,7 +54,7 @@ Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van d
 1. Selecteer op het tabblad **[!UICONTROL Stories]** de artikelen die u wilt verplaatsen.
 1. Klik op **[!UICONTROL More]** > **[!UICONTROL Move to]** . Het dialoogvenster **[!UICONTROL Move To]** wordt weergegeven.
 
-   ![&#x200B; de dialoog van het Artikel van de Beweging &#x200B;](assets/iteration-story-move.png)
+   ![ de dialoog van het Artikel van de Beweging ](assets/iteration-story-move.png)
 
 1. Selecteer **team_name Achterlog**. In het bovenstaande voorbeeld, is de teamnaam **Marketing**.
 
@@ -74,13 +74,13 @@ U kunt een verhaal naar een verschillende herhaling voor uw team van het Trommel
 1. Selecteer op het tabblad **[!UICONTROL Stories]** de artikelen die u wilt verplaatsen.
 1. Klik op **[!UICONTROL More]** > **[!UICONTROL Move to]** . Het dialoogvenster **[!UICONTROL Move To]** wordt weergegeven.
 
-   ![&#x200B; de dialoog van het Artikel van de Beweging &#x200B;](assets/iteration-story-move.png)
+   ![ de dialoog van het Artikel van de Beweging ](assets/iteration-story-move.png)
 
 1. Selecteer **[!UICONTROL Another Iteration]**.
 1. Selecteer in het keuzemenu dat wordt weergegeven de herhaling waarnaar u het artikel wilt verplaatsen.
 
    >[!NOTE]
    >
-   >Het werkitem [!UICONTROL Planned Start Date] en [!UICONTROL Planned Completion Date] worden beïnvloed door een instelling op de pagina [!UICONTROL Edit Team] . Voor informatie, zie de sectie [[!UICONTROL Configure] hoe de data worden toegepast wanneer het toevoegen van het werkpunten aan een herhaling &#x200B;](../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configure-how-dates-are-applied-when-adding-work-items-to-an-iteration) in het artikel [&#x200B; vormen de Trommel &#x200B;](../../agile/get-started-with-agile-in-workfront/configure-scrum.md).
+   >Het werkitem [!UICONTROL Planned Start Date] en [!UICONTROL Planned Completion Date] worden beïnvloed door een instelling op de pagina [!UICONTROL Edit Team] . Voor informatie, zie de sectie [[!UICONTROL Configure] hoe de data worden toegepast wanneer het toevoegen van het werkpunten aan een herhaling ](../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configure-how-dates-are-applied-when-adding-work-items-to-an-iteration) in het artikel [ vormen de Trommel ](../../agile/get-started-with-agile-in-workfront/configure-scrum.md).
 
 1. Klik op **[!UICONTROL Move]**.

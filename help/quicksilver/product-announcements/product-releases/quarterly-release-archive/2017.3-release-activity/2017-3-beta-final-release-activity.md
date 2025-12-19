@@ -7,7 +7,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 880828f4-3908-4ef0-ab1f-774f8dee72b6
-source-git-commit: f5044d457ebf203269e8007075e98ba4c136660f
+source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
 workflow-type: tm+mt
 source-wordcount: '3791'
 ht-degree: 0%
@@ -22,42 +22,42 @@ Op deze pagina worden alle wijzigingen beschreven die het laatst beschikbaar zij
 >
 > De op deze pagina beschreven functionaliteit kan worden gewijzigd voordat deze beschikbaar is in de productieomgeving.
 
-Voor een lijst met alle wijzigingen die in 2017.3 zijn aangebracht, raadpleegt u  [&#x200B; 2017.3 overzicht van de versieactiviteit &#x200B;](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-release-activity-overview.md).
+Voor een lijst met alle wijzigingen die in 2017.3 zijn aangebracht, raadpleegt u  [ 2017.3 overzicht van de versieactiviteit ](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-release-activity-overview.md).
 
 De slotversie van Beta van 2017.3 bevat verbeteringen voor zowel Workfront-beheerders als andere gebruikers:
 
 **voor Beheerders**
 
-* [&#x200B; Nieuwe Configuratie voor het Terugroepen van Verzoeken op het Gebied van de Montages van de Goedkeuring &#x200B;](#new-configuration-for-recalling-requests-in-the-approval-settings-area)
+* [ Nieuwe Configuratie voor het Terugroepen van Verzoeken op het Gebied van de Montages van de Goedkeuring ](#new-configuration-for-recalling-requests-in-the-approval-settings-area)
 * [Standaardproefdrukrollen configureren](#configure-default-proof-roles)
 
 **voor Alle Gebruikers**
 
-* [&#x200B; Gebied van het Huis (Bijgewerkt Mijn Gebied van het Werk) &#x200B;](#home-area-updated-my-work-area)
+* [ Gebied van het Huis (Bijgewerkt Mijn Gebied van het Werk) ](#home-area-updated-my-work-area)
 
-* [&#x200B; Bijgewerkt Malplaatje van de Lay-out om het Gebied van het Huis &#x200B;](#updated-layout-template-to-support-the-home-area) te steunen
+* [ Bijgewerkt Malplaatje van de Lay-out om het Gebied van het Huis ](#updated-layout-template-to-support-the-home-area) te steunen
 
-* [&#x200B; Kanban voor Agile &#x200B;](#kanban-for-agile)
-* [&#x200B; omvat Kwesties op de Achtergrond van het Trommel voor een Team van de Giel &#x200B;](#include-issues-on-the-scrum-backlog-for-an-agile-team)
-* [&#x200B; omvat Kwesties op de Raad van het Verhaal van de Trommel &#x200B;](#include-issues-on-the-scrum-agile-story-board)
-* [&#x200B; pas Groepen en Filters op Backlog voor een Gelijk Team &#x200B;](#apply-groupings-and-filters-to-the-backlog-for-an-agile-team) toe
-* [&#x200B; Verbeterde @Tagging Functionality Keert in het Milieu van de Voorproef &#x200B;](#enhanced-tagging-functionality-returns-in-the-preview-environment) terug
-* [&#x200B; de Updates van het Systeem van de Filter in de Stroom van de Update is nu Persistent over Voorwerpen &#x200B;](#filter-system-updates-in-the-update-stream-is-now-persistent-across-objects)
-* [&#x200B; visualiseer Gegevens in het Rapport van het Gebruik &#x200B;](#visualize-data-in-the-utilization-report)
-* [&#x200B; de Verbetering van de Prestaties van het Rapport van het Gebruik &#x200B;](#utilization-report-performance-improvement)
-* [&#x200B; de Verbeteringen van het Document: Gestroomlijnde Interface &#x200B;](#document-enhancements-streamlined-interface)
-* [&#x200B; het Proofing Verbeteringen binnen Workfront &#x200B;](#proofing-enhancements-within-workfront)
-* [&#x200B; het Proofing Verbeteringen binnen zowel Workfront Proof als Workfront &#x200B;](#proofing-enhancements-within-both-workfront-proof-and-workfront)
-* [&#x200B; Rich Tekst die voor Updates en E-mail opmaakt &#x200B;](#rich-text-formatting-for-updates-and-emails)
-* [&#x200B; Nieuwe Gantt Grafiek herontwerpen &#x200B;](#new-gantt-chart-redesign)
-* [&#x200B; ingebouwde Rapporten bevatten bijgewerkte beschrijvingen &#x200B;](#built-in-reports-contain-updated-descriptions)
-* [&#x200B; brandend in Geëxporteerde Rapporten, Lijsten, en Dashboards &#x200B;](#branding-in-exported-reports-lists-and-dashboards)
-* [&#x200B; Verbeteringen wanneer het kopiëren van Taken en het bewegen van Taken of Kwesties &#x200B;](#improvements-when-copying-tasks-and-moving-tasks-or-issues)
-* [&#x200B; Nieuwe Groepering voor de Rapporten van het Huur van het Middel begrote: Datum van de toewijzing &#x200B;](#new-grouping-for-resource-budgeted-hour-reports-allocation-date)
-* {de Verbeteringen van de Planner van 0} Middel [&#128279;](#resource-planner-improvements)
-* [&#x200B; Mobiele Verbeteringen &#x200B;](#mobile-improvements)
-* [&#x200B; de Integratie van Workfront met Slack &#x200B;](#workfront-integration-with-slack)
-* [&#x200B; Vooruitzichten 365 Verbeteringen &#x200B;](#outlook-365-improvements)
+* [ Kanban voor Agile ](#kanban-for-agile)
+* [ omvat Kwesties op de Achtergrond van het Trommel voor een Team van de Giel ](#include-issues-on-the-scrum-backlog-for-an-agile-team)
+* [ omvat Kwesties op de Raad van het Verhaal van de Trommel ](#include-issues-on-the-scrum-agile-story-board)
+* [ pas Groepen en Filters op Backlog voor een Gelijk Team ](#apply-groupings-and-filters-to-the-backlog-for-an-agile-team) toe
+* [ Verbeterde @Tagging Functionality Keert in het Milieu van de Voorproef ](#enhanced-tagging-functionality-returns-in-the-preview-environment) terug
+* [ de Updates van het Systeem van de Filter in de Stroom van de Update is nu Persistent over Voorwerpen ](#filter-system-updates-in-the-update-stream-is-now-persistent-across-objects)
+* [ visualiseer Gegevens in het Rapport van het Gebruik ](#visualize-data-in-the-utilization-report)
+* [ de Verbetering van de Prestaties van het Rapport van het Gebruik ](#utilization-report-performance-improvement)
+* [ de Verbeteringen van het Document: Gestroomlijnde Interface ](#document-enhancements-streamlined-interface)
+* [ het Proofing Verbeteringen binnen Workfront ](#proofing-enhancements-within-workfront)
+* [ het Proofing Verbeteringen binnen zowel Workfront Proof als Workfront ](#proofing-enhancements-within-both-workfront-proof-and-workfront)
+* [ Rich Tekst die voor Updates en E-mail opmaakt ](#rich-text-formatting-for-updates-and-emails)
+* [ Nieuwe Gantt Grafiek herontwerpen ](#new-gantt-chart-redesign)
+* [ ingebouwde Rapporten bevatten bijgewerkte beschrijvingen ](#built-in-reports-contain-updated-descriptions)
+* [ brandend in Geëxporteerde Rapporten, Lijsten, en Dashboards ](#branding-in-exported-reports-lists-and-dashboards)
+* [ Verbeteringen wanneer het kopiëren van Taken en het bewegen van Taken of Kwesties ](#improvements-when-copying-tasks-and-moving-tasks-or-issues)
+* [ Nieuwe Groepering voor de Rapporten van het Huur van het Middel begrote: Datum van de toewijzing ](#new-grouping-for-resource-budgeted-hour-reports-allocation-date)
+* {de Verbeteringen van de Planner van 0} Middel [](#resource-planner-improvements)
+* [ Mobiele Verbeteringen ](#mobile-improvements)
+* [ de Integratie van Workfront met Slack ](#workfront-integration-with-slack)
+* [ Vooruitzichten 365 Verbeteringen ](#outlook-365-improvements)
 * [API-wijzigingen](#api-changes)
 
 ## Thuisgebied (Mijn werkgebied is bijgewerkt) {#home-area-updated-my-work-area}
@@ -80,7 +80,7 @@ De volgende functionaliteit is beschikbaar in het gedeelte Mijn werk, maar is no
 * Een ad-hocprobleem maken voor een project
 * Alleen goedkeuringen weergeven die aan u zijn gedelegeerd
 
-Voor meer informatie over het gebruiken van het nieuwe gebied van het Huis, zie [&#x200B; Gebruik het gebied van het Huis &#x200B;](../../../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md).
+Voor meer informatie over het gebruiken van het nieuwe gebied van het Huis, zie [ Gebruik het gebied van het Huis ](../../../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md).
 
 ## Bijgewerkte lay-outsjabloon ter ondersteuning van het thuisgebied {#updated-layout-template-to-support-the-home-area}
 
@@ -94,38 +94,38 @@ Zie &quot;Home aanpassen&quot; in &quot;Lay-outsjablonen maken en beheren&quot; 
 
 ## Kanban voor Agile  {#kanban-for-agile}
 
-Agile-teams kunnen nu een Kanban-methodologie in Workfront gebruiken, naast de reeds ondersteunde methode voor het opstellen van de scrubben.
+Agile-teams kunnen nu een Kanban-methodologie in Workfront gebruiken, naast de reeds ondersteunde methode voor de functie Scrum Agile.
 
-De methoden voor scrum en Kanban agile in Workfront verschillen op de volgende manieren:
+De methoden Scrum en Kanban Agile in Workfront verschillen op de volgende manieren:
 
 **Voordelen van het Gebruiken van Kanban in Workfront**
 
-* Geef de achterstand weer op de Kanban agile story board.
+* Geef de achterstand weer op de Kanban Agile story board.
 
   Zie voor meer informatie in .
 
-* Configureer items op de achtergrond die automatisch aan de Kanban-agile-artikelkaart moeten worden toegevoegd wanneer andere items naar een status worden verplaatst die gelijk is aan Voltooien.
+* Configureer items op de achtergrond die automatisch aan de Kanban Agile-artikelkaart moeten worden toegevoegd wanneer andere items naar een status worden verplaatst die gelijk is aan Voltooien.
 
-  Voor meer informatie, zie [&#x200B; verhalen vormen die automatisch van de achterstand &#x200B;](../../../../agile/get-started-with-agile-in-workfront/configure-kanban.md#configur5) in [&#x200B; worden toegevoegd vormt Kanban &#x200B;](../../../../agile/get-started-with-agile-in-workfront/configure-kanban.md).
+  Voor meer informatie, zie [ verhalen vormen die automatisch van de achterstand ](../../../../agile/get-started-with-agile-in-workfront/configure-kanban.md#configur5) in [ worden toegevoegd vormt Kanban ](../../../../agile/get-started-with-agile-in-workfront/configure-kanban.md).
 
-* Configureer een WIP-limiet (Work In Progress) die moet worden weergegeven op de Kanban-kaart voor onregelmatige artikelen.
+* Configureer een WIP-limiet (Work In Progress) die moet worden weergegeven op de Kanban Agile-artikelkaart.
 
-  Voor meer informatie, zie [&#x200B; het werk momenteel (WIP) grens &#x200B;](../../../../agile/get-started-with-agile-in-workfront/configure-kanban.md#configur4) in [&#x200B; vormen Kanban &#x200B;](../../../../agile/get-started-with-agile-in-workfront/configure-kanban.md).
+  Voor meer informatie, zie [ het werk momenteel (WIP) grens ](../../../../agile/get-started-with-agile-in-workfront/configure-kanban.md#configur4) in [ vormen Kanban ](../../../../agile/get-started-with-agile-in-workfront/configure-kanban.md).
 
 **Voordelen van het Gebruiken van Trommel in Workfront**
 
-* Voeg een set artikelen toe aan een flexibele herhaling en maak een artikelbord voor die herhaling.
+* Voeg een reeks artikelen toe aan een letterlijke tekst van het artikel en maak een artikelbord voor die herhaling.
 * Neem problemen op het vel-artikelbord op.
-* Inclusief problemen op de achtergrond van een &#39;agile&#39;-team.
+* Neem problemen op in de achterstand van een Agile-team.
 
-  Voor meer informatie, zie [&#x200B; vormen hoe de data worden toegepast wanneer het toevoegen van het werkpunten aan een herhaling &#x200B;](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur5) in [&#x200B; vormen het Trommel &#x200B;](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md).
+  Voor meer informatie, zie [ vormen hoe de data worden toegepast wanneer het toevoegen van het werkpunten aan een herhaling ](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur5) in [ vormen het Trommel ](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md).
 
 * Subtaken kunnen worden weergegeven op het artikelbord van de scrum.
 * Bekijk een uitvouwgrafiek om de vooruitgang tegen verhalen tijdens de herhaling te zien.
 
-  Voor meer informatie, zie [&#x200B; Overzicht van de de burndown grafiek van de Gelijkheid &#x200B;](../../../../agile/use-scrum-in-an-agile-team/burndown/burndown-chart-overview.md).
+  Voor meer informatie, zie [ Overzicht van de de burndown grafiek van de Gelijkheid ](../../../../agile/use-scrum-in-an-agile-team/burndown/burndown-chart-overview.md).
 
-Voor meer informatie over het toelaten van en het vormen Kanban voor een flexibel team, zie [&#x200B; Besluiten over een flexibele methodologie &#x200B;](../../../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md#deciding) in [&#x200B; creeer een flexibel team &#x200B;](../../../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md).
+Voor meer informatie over het toelaten van en het vormen Kanban voor een team van de Gelijkheid, zie [ Beslissen over een Gelijke methodologie ](../../../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md#deciding) in [ creeer een team van de Gelijkheid ](../../../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md).
 
 ## Inclusief problemen op de scrubbacklog voor een flexibel team {#include-issues-on-the-scrum-backlog-for-an-agile-team}
 
@@ -133,15 +133,15 @@ Voor meer informatie over het toelaten van en het vormen Kanban voor een flexibe
 >
 >Deze functionaliteit is verwijderd uit de productieomgeving op 14 november 2017. Het is de bedoeling dat dit begin 2018 opnieuw wordt geïntroduceerd in de voorvertoningsomgeving met een verbeterd ontwerp en een grotere stabiliteit. Deze is beschikbaar in de productieomgeving met de release van 2018.1.
 
-U kunt kwesties op de achterstand van uw agile team nu omvatten wanneer het gebruiken van de de agile methodologie van het Trommel (de kwesties worden niet getoond op de achterstand van een agile team wanneer het gebruiken van de methodologie Kanban). De bestaande teams van de Trommel moeten deze functionaliteit toelaten om kwesties worden omvat. De kwesties worden automatisch inbegrepen op de backlog voor de agile teams van de Trommel die na de versie van 2017.3 worden gecreeerd.
+U kunt nu kwesties op de achterstand van uw team van de Gielen wanneer het gebruiken van de Methode van de Agile van het Trommel (de kwesties worden niet getoond op de achterstand van een team van de Genile wanneer het gebruiken van de methodologie Kanban). De bestaande teams van de Trommel moeten deze functionaliteit toelaten om kwesties worden omvat. De kwesties worden automatisch inbegrepen op de achterstand voor de teams van de Groep van de Trommel die na de versie van 2017.3 worden gecreeerd.
 
 Voorafgaand aan deze wijziging konden alleen taken aan de achterstand worden toegevoegd. Als u een uitgave wilt toevoegen, moest u eerst de kwestie in een taak omzetten alvorens het kon worden toegevoegd.
 
 Omdat u nu toegang tot meer dan enkel taken op de backlog hebt, worden om het even welke meningen van de douanetaak die eerder op de backlog beschikbaar waren gekopieerd en aan de backlog toegevoegd als de meningen van het Punt van het Werk van de Douane van de Achtergrond.
 
-Voor informatie over het gebruiken van kwesties op de achtergrond, zie  [&#x200B; beheer agile backlog &#x200B;](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).
+Voor informatie over het gebruiken van kwesties op de achtergrond, zie  [ beheert de Gelijke achterstand ](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).
 
-Voor informatie over het toelaten van kwesties om op de achtergrond van een agile team van de Trommel beschikbaar te zijn, zie  [&#x200B; vormt hoe de datums worden toegepast wanneer het toevoegen van het werkpunten aan een herhaling &#x200B;](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur5) in [&#x200B; Scrum &#x200B;](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md) vormt.
+Voor informatie over het toelaten van kwesties om op de achtergrond van een team van de Trommel van de Kracht beschikbaar te zijn, zie  [ vormt hoe de datums worden toegepast wanneer het toevoegen van het werkpunten aan een herhaling ](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur5) in [ Scrum ](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md) vormt.
 
 ## Inclusief problemen op de prullenbak voor onscherpe artikelen {#include-issues-on-the-scrum-agile-story-board}
 
@@ -149,9 +149,9 @@ Voor informatie over het toelaten van kwesties om op de achtergrond van een agil
 >
 >Deze functionaliteit is verwijderd uit de productieomgeving op 14 november 2017. Het is de bedoeling dat dit begin 2018 opnieuw wordt geïntroduceerd in de voorvertoningsomgeving met een verbeterd ontwerp en een grotere stabiliteit. Deze is beschikbaar in de productieomgeving met de release van 2018.1.
 
-U kunt nu problemen opnemen op de whiteboardpagina wanneer u de methode voor de scrum agile gebruikt.
+U kunt nu problemen opnemen op het whiteboard wanneer u de methode voor het bepalen van de spreidingsschaal gebruikt.
 
-Voor meer informatie, zie [&#x200B; statuskolommen op het agile verhaalbord &#x200B;](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur2) in [&#x200B; vormen het Trommel &#x200B;](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md) vormen.
+Voor meer informatie, zie [ statuskolommen op de het verhaalraad van de Gelijkheid ](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur2) in [ vormen het Trommel ](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md) vormen.
 
 ## Groepen en filters toepassen op de achtergrond voor een flexibel team {#apply-groupings-and-filters-to-the-backlog-for-an-agile-team}
 
@@ -159,11 +159,11 @@ Voor meer informatie, zie [&#x200B; statuskolommen op het agile verhaalbord &#x2
 >
 >Deze functionaliteit is verwijderd uit de productieomgeving op 14 november 2017. Het is de bedoeling dat dit begin 2018 opnieuw wordt geïntroduceerd in de voorvertoningsomgeving met een verbeterd ontwerp en een grotere stabiliteit. Deze is beschikbaar in de productieomgeving met de release van 2018.1.
 
-De opties Groeperen en Filter zijn nu beschikbaar op de flexibele achterstand, zodat u uw achterstand kunt indelen op groepen en filteren voor specifieke taken en problemen.
+De opties Groeperen en Filter zijn nu beschikbaar op de Google-achterstand, zodat u uw achterstand kunt indelen op groepen en filteren op specifieke taken en problemen.
 
-Voorafgaand aan deze wijziging kon u op meningen op agile backlog van toepassing zijn.
+Voordat u deze wijziging aanbrengt, kunt u de weergaven toepassen op de Agile-achterstand.
 
-Zie voor meer informatie  [&#x200B; beheert agile backlog &#x200B;](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md) binnen  [&#x200B; beheer agile backlog &#x200B;](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).
+Zie voor meer informatie  [ beheert de Agile backlog ](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md) binnen  [ beheert de Gelijke achterstand ](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).
 
 ## RTF-opmaak voor updates en e-mails {#rich-text-formatting-for-updates-and-emails}
 
@@ -175,11 +175,11 @@ Nu kunt u belangrijke informatie benadrukken door de commentaren en updates te f
 
 Met de gereedschappen voor RTF-bestanden kunt u opmaakkenmerken toepassen op tekst, lijsten met opsommingstekens en nummers maken en hyperlinks toevoegen aan extra bronnen.
 
-Opmaak die wordt toegepast op opmerkingen in de updatestroom, wordt ook weergegeven in de e-mailmeldingen voor bijwerken. Om meer over het formatteren van uw commentaren te leren, zie [&#x200B; het werk van de Update &#x200B;](../../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+Opmaak die wordt toegepast op opmerkingen in de updatestroom, wordt ook weergegeven in de e-mailmeldingen voor bijwerken. Om meer over het formatteren van uw commentaren te leren, zie [ het werk van de Update ](../../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 ## Verbeterde @Tagging-functionaliteit Geeft als resultaat in de voorvertoningsomgeving {#enhanced-tagging-functionality-returns-in-the-preview-environment}
 
-U kunt het symbool @ opnieuw gebruiken om andere gebruikers in de Stroom van de Update van alle voorwerpen in het milieu van de Voorproef te etiketteren. In het verleden heeft @tagging de voor- en achternaam van de gecodeerde gebruiker in de updatestroom geplaatst. De verbeterde functie @tagging geeft nu alleen de voornaam van de gebruiker weer. Meer over het etiketteren van gebruikers in updates leren, zie [&#x200B; Tags anderen op updates &#x200B;](../../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
+U kunt het symbool @ opnieuw gebruiken om andere gebruikers in de Stroom van de Update van alle voorwerpen in het milieu van de Voorproef te etiketteren. In het verleden heeft @tagging de voor- en achternaam van de gecodeerde gebruiker in de updatestroom geplaatst. De verbeterde functie @tagging geeft nu alleen de voornaam van de gebruiker weer. Meer over het etiketteren van gebruikers in updates leren, zie [ Tags anderen op updates ](../../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
 
 ## De Updates van het Systeem van de filter in de Stroom van de Update zijn nu Blijvend over Voorwerpen {#filter-system-updates-in-the-update-stream-is-now-persistent-across-objects}
 
@@ -187,13 +187,13 @@ De optie Systeemupdates filteren is nu blijvend in alle objecten op de Workfront
 
 Voordat u deze wijziging aanbracht, moest u de systeemupdates voor elk object uitfilteren terwijl u door de Workfront-site bladerde.
 
-Voor meer informatie, zie [&#x200B; het werk van de Update &#x200B;](../../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+Voor meer informatie, zie [ het werk van de Update ](../../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 ## Gegevens visualiseren in het gebruiksrapport {#visualize-data-in-the-utilization-report}
 
  U kunt de gebruiksinformatie nu weergeven in een grafiekweergave. 
 
-Voor meer informatie, zie [&#x200B; Overzicht van het rapport van het Gebruik van het Middel &#x200B;](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md) in [&#x200B; Overzicht van het rapport van het Gebruik van het Middel &#x200B;](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
+Voor meer informatie, zie [ Overzicht van het rapport van het Gebruik van het Middel ](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md) in [ Overzicht van het rapport van het Gebruik van het Middel ](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
 
 ## Verbetering van de prestaties van het gebruiksrapport {#utilization-report-performance-improvement}
 
@@ -203,7 +203,7 @@ Voor meer informatie, zie [&#x200B; Overzicht van het rapport van het Gebruik va
 
 Nu wanneer het runnen van een rapport van het Gebruik, wordt u ertoe aangezet om een filter vóór het rapport toe te passen dat loopt. Deze wijziging zorgt ervoor dat de meest relevante informatie zo snel mogelijk wordt gegenereerd in het gebruiksrapport.
 
-Voor meer informatie over het in werking stellen van een rapport van het Gebruik, zie [&#x200B; Overzicht van het rapport van het Gebruik van het Middel &#x200B;](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md) in [&#x200B; Overzicht van het rapport van het Gebruik van het Middel &#x200B;](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
+Voor meer informatie over het in werking stellen van een rapport van het Gebruik, zie [ Overzicht van het rapport van het Gebruik van het Middel ](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md) in [ Overzicht van het rapport van het Gebruik van het Middel ](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
 
 ## Documentverbeteringen: gestroomlijnde interface {#document-enhancements-streamlined-interface}
 
@@ -213,9 +213,9 @@ Eerder waren deze opties beschikbaar door het dialoogvenster Documenten toevoege
 
 Zie de volgende informatie voor meer informatie:
 
-* [&#x200B; voegt documenten aan Adobe Workfront van uw dossiersysteem &#x200B;](../../../../documents/adding-documents-to-workfront/add-documents-from-file-system.md) toe
-* [&#x200B; Verzoek om een Document &#x200B;](../../../../documents/adding-documents-to-workfront/request-a-document.md)
-* [&#x200B; de documenten van de Verbinding van externe toepassingen &#x200B;](../../../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md) 
+* [ voegt documenten aan Adobe Workfront van uw dossiersysteem ](../../../../documents/adding-documents-to-workfront/add-documents-from-file-system.md) toe
+* [ Verzoek om een Document ](../../../../documents/adding-documents-to-workfront/request-a-document.md)
+* [ de documenten van de Verbinding van externe toepassingen ](../../../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md) 
 
 >[!NOTE]
 >
@@ -223,8 +223,8 @@ Zie de volgende informatie voor meer informatie:
 
 ## Verbeteringen voor proefdrukken in Workfront {#proofing-enhancements-within-workfront}
 
-* [&#x200B; Verbeterde Ervaring van de Gebruiker en Extra Functionaliteit &#x200B;](#improved-user-experience-and-additional-functionality)
-* [&#x200B; Deel direct van de het proef kijker &#x200B;](#share-directly-from-the-proofing-viewer)
+* [ Verbeterde Ervaring van de Gebruiker en Extra Functionaliteit ](#improved-user-experience-and-additional-functionality)
+* [ Deel direct van de het proef kijker ](#share-directly-from-the-proofing-viewer)
 * [Standaardproefdrukrollen configureren](#configure-default-proof-roles)
 
 ### Verbeterde gebruikerservaring en extra functionaliteit {#improved-user-experience-and-additional-functionality}
@@ -257,7 +257,7 @@ U kunt nu rechtstreeks vanuit de testviewer delen met specifieke Workfront-gebru
 
 Vóór deze wijziging kon u alleen delen door een koppeling te maken en die koppeling vervolgens met een gebruiker te delen. 
 
-Voor meer informatie, zie [&#x200B; een proef binnen Adobe Workfront &#x200B;](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md) in [&#x200B; Deel een bewijs binnen Adobe Workfront &#x200B;](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md).
+Voor meer informatie, zie [ een proef binnen Adobe Workfront ](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md) in [ Deel een bewijs binnen Adobe Workfront ](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md).
 
 ### Standaardproefdrukrollen configureren {#configure-default-proof-roles}
 
@@ -267,14 +267,14 @@ Dit is de standaardrol waaraan gebruikers worden toegewezen op een proef wanneer
 
 ## Verbeteringen voor proefdrukken in zowel Workfront Proof als Workfront {#proofing-enhancements-within-both-workfront-proof-and-workfront}
 
-* [&#x200B; Begin en Skip in HTML5 Video het proef kijker (de Kortere weg van het Toetsenbord) &#x200B;](#restart-and-skip-in-html5-video-proofing-viewer-keyboard-shortcuts)
+* [ Begin en Skip in HTML5 Video het proef kijker (de Kortere weg van het Toetsenbord) ](#restart-and-skip-in-html5-video-proofing-viewer-keyboard-shortcuts)
 * [Updates van de HTML5-testviewer](#html5-proofing-viewer-updates)
 
 ### Opnieuw starten en overslaan in HTML5 Video Proofing Viewer (sneltoetsen) {#restart-and-skip-in-html5-video-proofing-viewer-keyboard-shortcuts}
 
 Er zijn nu sneltoetsen in de HTML5 Proofing-viewer voor video waarmee u de video opnieuw kunt starten vanaf het begin en het einde van de video kunt overslaan.
 
-Voor meer informatie over de beschikbare toetsenbordkortere weg, zie [&#x200B; kortere weg van het Toetsenbord in de het proef Workfront Proof kijker &#x200B;](../../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/keyboard-shortcuts.md).
+Voor meer informatie over de beschikbare toetsenbordkortere weg, zie [ kortere weg van het Toetsenbord in de het proef Workfront Proof kijker ](../../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/keyboard-shortcuts.md).
 
 ### Updates van de HTML5-testviewer {#html5-proofing-viewer-updates}
 
@@ -320,7 +320,7 @@ Het nieuwe Gantt-diagram bevat de volgende verbeteringen:
 * Kleinere taakcellen in het lijstgedeelte van de grafiek
 * Opnieuw ontworpen opties voor instellingen, afdrukken en schakelen naar geprojecteerde datums.
 
-Voor meer informatie over het vormen van opties in de grafiek van Gantt, zie [&#x200B; vormen hoe de informatievertoningen op de Grafiek van Gantt &#x200B;](../../../../manage-work/gantt-chart/use-the-gantt-chart/configure-info-on-gantt-chart.md). 
+Voor meer informatie over het vormen van opties in de grafiek van Gantt, zie [ vormen hoe de informatievertoningen op de Grafiek van Gantt ](../../../../manage-work/gantt-chart/use-the-gantt-chart/configure-info-on-gantt-chart.md). 
 
 ## Ingebouwde rapporten bevatten bijgewerkte beschrijvingen {#built-in-reports-contain-updated-descriptions}
 
@@ -328,7 +328,7 @@ We hebben de beschrijvingen voor onze systeemrapporten in Workfront bijgewerkt, 
 
 Vóór deze verandering hadden de meeste van onze ingebouwde rapporten geen of zeer beperkte beschrijvingen.
 
-Voor meer informatie over ingebouwde rapporten, zie [&#x200B; de ingebouwde rapporten van Adobe Workfront van het Gebruik &#x200B;](../../../../reports-and-dashboards/reports/using-built-in-reports/use-workfront-built-in-reports.md).
+Voor meer informatie over ingebouwde rapporten, zie [ de ingebouwde rapporten van Adobe Workfront van het Gebruik ](../../../../reports-and-dashboards/reports/using-built-in-reports/use-workfront-built-in-reports.md).
 
 ## Markeren in Geëxporteerde rapporten, lijsten en dashboards {#branding-in-exported-reports-lists-and-dashboards}
 
@@ -344,7 +344,7 @@ De volgende .pdf-bestanden bevatten het logo van uw organisatie in het geëxport
 * Geëxporteerde en geleverde rapporten
 * Afgedrukte dashboards
 
-Voor meer informatie over het uitvoeren van gegevens van Workfront, zie [&#x200B; Gegevens van de Uitvoer &#x200B;](../../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md).
+Voor meer informatie over het uitvoeren van gegevens van Workfront, zie [ Gegevens van de Uitvoer ](../../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md).
 
 ## Verbeteringen bij het kopiëren van Taken en het bewegen van Taken of Kwesties {#improvements-when-copying-tasks-and-moving-tasks-or-issues}
 
@@ -352,9 +352,9 @@ Wij hebben de manier verbeterd u een taak kopieert of een taak of een kwestie be
 
 Voorafgaand aan deze verandering, was er geen gebied van het Onderzoek in **Uitgezocht een stap van de Ouder**, en de hiërarchie van taken was niet zichtbaar in de taaklijst.
 
-Voor meer informatie over het kopiëren van taken, zie [&#x200B; Kopiëren en dupliceren taken &#x200B;](../../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md).
+Voor meer informatie over het kopiëren van taken, zie [ Kopiëren en dupliceren taken ](../../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md).
 
-Voor meer informatie over het bewegen van kwesties, zie [&#x200B; kwesties van de Beweging &#x200B;](../../../../manage-work/issues/manage-issues/move-issues.md).
+Voor meer informatie over het bewegen van kwesties, zie [ kwesties van de Beweging ](../../../../manage-work/issues/manage-issues/move-issues.md).
 
 ## Nieuwe Configuratie voor het Herroepen van Verzoeken in het gebied van de Montages van de Goedkeuring {#new-configuration-for-recalling-requests-in-the-approval-settings-area}
 
@@ -362,7 +362,7 @@ We hebben een nieuwe instelling in het gedeelte Goedkeuringsinstellingen op syst
 
 Voordat deze wijziging plaatsvond, was het altijd toegestaan om de kwestie te herhalen. Toen de goedkeuring werd teruggeroepen, werd de goedkeuring volledig omzeild en werd de kwestie in de eerste status geplaatst, zonder dat er goedkeuring was toegevoegd.
 
-Voor meer informatie over goedkeuringsmontages, zie [&#x200B; globale goedkeuringsmontages &#x200B;](../../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md) vormen. 
+Voor meer informatie over goedkeuringsmontages, zie [ globale goedkeuringsmontages ](../../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md) vormen. 
 
 >[!NOTE]
 >
@@ -374,47 +374,47 @@ Wij hebben de capaciteit toegevoegd om uw resultaten tegen de Datum van de Toewi
 
 Voorafgaand aan deze wijziging kon u de Datum van Toewijzing in de mening van het rapport tonen, evenals het in een filter gebruiken, maar u kon dit gebied niet in een groepering gebruiken.
 
-Voor meer informatie over de Datum van de Toewijzing, zie [&#x200B; Verklarende woordenlijst van de terminologie van Adobe Workfront &#x200B;](../../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
+Voor meer informatie over de Datum van de Toewijzing, zie [ Verklarende woordenlijst van de terminologie van Adobe Workfront ](../../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
 
-Voor meer informatie over de bouw van een rapport, zie [&#x200B; een douanerapport &#x200B;](../../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) creëren.
+Voor meer informatie over de bouw van een rapport, zie [ een douanerapport ](../../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) creëren.
 
 ## Verbeteringen voor middelenplanner {#resource-planner-improvements}
 
-* [&#x200B; Planner van het Middel: Toon Gegevens door FTE &#x200B;](#resource-planner-show-data-by-fte)
-* [&#x200B; Planner van het Middel: Toon Gegevens door Week en Kwartaal &#x200B;](#resource-planner-show-data-by-week-and-quarter)
-* [&#x200B; Planner van het Middel: Mening door Gebruiker &#x200B;](#resource-planner-view-by-user)
-* [&#x200B; Planner van het Middel: De belemmering en Daling Projecten om Prioriteit &#x200B;](#resource-planner-drag-and-drop-projects-to-establish-priority) te vestigen
+* [ Planner van het Middel: Toon Gegevens door FTE ](#resource-planner-show-data-by-fte)
+* [ Planner van het Middel: Toon Gegevens door Week en Kwartaal ](#resource-planner-show-data-by-week-and-quarter)
+* [ Planner van het Middel: Mening door Gebruiker ](#resource-planner-view-by-user)
+* [ Planner van het Middel: De belemmering en Daling Projecten om Prioriteit ](#resource-planner-drag-and-drop-projects-to-establish-priority) te vestigen
 * [De Planner van het middel: Exporteer de gegevens in de Planner van het Middel aan Excel](#resource-planner-export-the-data-in-the-resource-planner-to-excel)
 
 ### Bronnen: Gegevens per FTE tonen {#resource-planner-show-data-by-fte}
 
 U kunt de toewijzing en beschikbaarheid van uw middelen door FTE in de Planner van het Middel nu tonen. Vóór deze wijziging kon u de waarden alleen in uren weergeven.
 
-Voor meer informatie over het gebruiken van de Planner van het Middel, zie [&#x200B; Overzicht van de Planner van het Middel &#x200B;](../../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
+Voor meer informatie over het gebruiken van de Planner van het Middel, zie [ Overzicht van de Planner van het Middel ](../../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
 
 ### Bronnen: Gegevens per week en per kwartaal weergeven {#resource-planner-show-data-by-week-and-quarter}
 
 U kunt het tijdkaderinterval voor uw Planner van het Middel nu veranderen om het tegen week of kwartaal te bekijken. Voordat deze wijziging plaatsvond, kon u de toewijzing en beschikbaarheid van uw middelen bekijken en deze slechts per maand begroten.
 
-Voor meer informatie over het gebruiken van de Planner van het Middel, zie [&#x200B; Overzicht van de Planner van het Middel &#x200B;](../../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
+Voor meer informatie over het gebruiken van de Planner van het Middel, zie [ Overzicht van de Planner van het Middel ](../../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
 
 ### Resourceplanner: Weergeven op gebruiker {#resource-planner-view-by-user}
 
 U kunt de informatie in de Planner van het Middel nu tonen door gebruiker, eerst, dan door projecten, rollen, en taken. U kunt ook een verschil weergeven tussen Geplande en Beschikbare uren of VTE voor gebruikers. Voorafgaand aan deze verandering, kon u de informatie in de Planner van het Middel door projecten en rollen tonen.
 
-Voor meer informatie over het gebruiken van de Planner van het Middel, zie [&#x200B; Overzicht van de Planner van het Middel &#x200B;](../../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
+Voor meer informatie over het gebruiken van de Planner van het Middel, zie [ Overzicht van de Planner van het Middel ](../../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
 
 ### Bronnen: projecten slepen en neerzetten om prioriteit vast te stellen {#resource-planner-drag-and-drop-projects-to-establish-priority}
 
 U kunt projecten nu in de gewenste volgorde van prioriteit slepen en neerzetten. Voorafgaand aan deze verandering, kon u de prioriteit van projecten vestigen slechts door hen manueel een aantal toe te wijzen.
 
-Voor meer informatie over het gebruiken van de Planner van het Middel, zie [&#x200B; Overzicht van de Planner van het Middel &#x200B;](../../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
+Voor meer informatie over het gebruiken van de Planner van het Middel, zie [ Overzicht van de Planner van het Middel ](../../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
 
 ### De Planner van het middel: Exporteer de gegevens in de Planner van het Middel aan Excel {#resource-planner-export-the-data-in-the-resource-planner-to-excel}
 
 U kunt de informatie in de Planner van het Middel nu naar een dossier van Excel uitvoeren.
 
-Voor meer informatie over het gebruiken van de Planner van het Middel, zie [&#x200B; Overzicht van de Planner van het Middel &#x200B;](../../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
+Voor meer informatie over het gebruiken van de Planner van het Middel, zie [ Overzicht van de Planner van het Middel ](../../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
 
 ## Mobiele verbeteringen {#mobile-improvements}
 
@@ -444,7 +444,7 @@ We lanceren een nieuwe integratie tussen Workfront en Slack. Als uw organisatie 
 * Uw werk goedkeuren
 * Heb toegang tot uw Favorieten en uw Recente lijsten van Punten
 
-Voor meer informatie over de toegang tot van Workfront van Slack, zie [&#x200B; Gebruikend Workfront met Slack.](https://support.workfront.com/hc/en-us/sections/115000458033)
+Voor meer informatie over de toegang tot van Workfront van Slack, zie [ Gebruikend Workfront met Slack.](https://support.workfront.com/hc/en-us/sections/115000458033)
 
 ## Outlook 365-verbeteringen {#outlook-365-improvements}
 
@@ -455,23 +455,23 @@ We hebben de volgende verbeteringen aangebracht in de invoegtoepassing Workfront
 
 ## API-wijzigingen {#api-changes}
 
-* [&#x200B; API 8 nu Beschikbaar &#x200B;](#api-8-now-available)
-* [&#x200B; Verwijderd en Vervangen Versies van API &#x200B;](#removed-and-deprecated-versions-of-the-api)
-* [&#x200B; 2017.3 de Eindversieactiviteit van Beta &#x200B;](#updated-message-format-for-event-subscriptions)
+* [ API 8 nu Beschikbaar ](#api-8-now-available)
+* [ Verwijderd en Vervangen Versies van API ](#removed-and-deprecated-versions-of-the-api)
+* [ 2017.3 de Eindversieactiviteit van Beta ](#updated-message-format-for-event-subscriptions)
 * [Abonnement voor gebeurtenissen retourneert voor niet-leverbare berichten](#event-subscription-retries-for-undeliverable-messages)
 
 ### API 8 nu beschikbaar {#api-8-now-available}
 
 Workfront API versie 8 is nu beschikbaar en biedt u nieuwe en bijgewerkte bronnen voor uw Workfront-integratie.
 
-Voor een lijst van veranderingen die aan Workfront API worden aangebracht, zie [&#x200B; Updates aan API Versie 8 &#x200B;](../../../../wf-api/api/new-api-version-8-updates.md).
+Voor een lijst van veranderingen die aan Workfront API worden aangebracht, zie [ Updates aan API Versie 8 ](../../../../wf-api/api/new-api-version-8-updates.md).
 
 ### Verwijderde en verwijderde versies van de API {#removed-and-deprecated-versions-of-the-api}
 
 ### Bijgewerkte berichtindeling voor abonnementen op gebeurtenissen
 
-Om nuttiger informatie voor uw integratie te verstrekken die de API van de Abonnementen van de Gebeurtenis van Workfront omvatten, hebben wij het uitgaande berichtformaat voor gesteunde middelen veranderd door de oude en nieuwe waarden te omvatten verbonden aan die middelen. Om mislukking te vermijden, zullen om het even welke integraties u de Abonnementen API van de Gebeurtenis van Workfront gebruikt het nieuwe formaat moeten worden bijgewerkt, zoals die in [&#x200B; wordt beschreven Abonnement API van de Gebeurtenis &#x200B;](../../../../wf-api/general/event-subs-api.md).
+Om nuttiger informatie voor uw integratie te verstrekken die de API van de Abonnementen van de Gebeurtenis van Workfront omvatten, hebben wij het uitgaande berichtformaat voor gesteunde middelen veranderd door de oude en nieuwe waarden te omvatten verbonden aan die middelen. Om mislukking te vermijden, zullen om het even welke integraties u de Abonnementen API van de Gebeurtenis van Workfront gebruikt het nieuwe formaat moeten worden bijgewerkt, zoals die in [ wordt beschreven Abonnement API van de Gebeurtenis ](../../../../wf-api/general/event-subs-api.md).
 
 ### Abonnement voor gebeurtenissen retourneert voor niet-leverbare berichten {#event-subscription-retries-for-undeliverable-messages}
 
-Het Workfront Event Subscription Framework biedt nu een mechanisme voor de afhandeling van door gebeurtenissen geïnitieerde uitgaande berichten die niet aan eindpunten van de klant worden geleverd. Om voortdurende berichtlevering te verzekeren, zouden de Klanten ervoor moeten zorgen dat om het even welke eindpunten die uitgaande berichten van gebeurtenisabonnementen verbruiken behoorlijk opstelling zijn. Voor meer informatie, zie [&#x200B; het abonnementsretry van de Gebeurtenis &#x200B;](../../../../wf-api/api/event-sub-retries.md).
+Het Workfront Event Subscription Framework biedt nu een mechanisme voor de afhandeling van door gebeurtenissen geïnitieerde uitgaande berichten die niet aan eindpunten van de klant worden geleverd. Om voortdurende berichtlevering te verzekeren, zouden de Klanten ervoor moeten zorgen dat om het even welke eindpunten die uitgaande berichten van gebeurtenisabonnementen verbruiken behoorlijk opstelling zijn. Voor meer informatie, zie [ het abonnementsretry van de Gebeurtenis ](../../../../wf-api/api/event-sub-retries.md).

@@ -6,7 +6,7 @@ description: U kunt op verschillende manieren artikelen aan een herhaling toevoe
 author: Jenny
 feature: Agile
 exl-id: b016fda1-789a-42b3-9f97-2c61c4ec0917
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
 workflow-type: tm+mt
 source-wordcount: '552'
 ht-degree: 0%
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 U kunt op de volgende manieren artikelen toevoegen aan een herhaling:
 
-* Van de backlog nadat de herhaling wordt gecreeerd, zoals die in [&#x200B; worden beschreven verhalen van de beweging van de achterstand aan een herhaling of [!UICONTROL Kanban] raad &#x200B;](../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md#move-stories-from-the-backlog-to-an-iteration-or--board) sectie in [&#x200B; beheert agile backlog &#x200B;](../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md)
+* Van de achterstand nadat de herhaling wordt gecreeerd, zoals die in [ worden beschreven verhalen van de beweging van de achterstand aan een herhaling of [!UICONTROL Kanban] raad ](../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md#move-stories-from-the-backlog-to-an-iteration-or--board) sectie in [ beheert de Begeleidende backlog ](../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md)
 
 * Van de [!UICONTROL Details] pagina van de individuele taak of kwestie
 * Van een taak of uitgiftenlijst
@@ -46,7 +46,7 @@ U kunt op de volgende manieren artikelen toevoegen aan een herhaling:
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -76,7 +76,7 @@ Wanneer u een bestaande taak aan een herhaling toevoegt, worden standaard de taa
 
    * Het project [!UICONTROL Planned Start Date] is *na* de Datum van het Begin van de herhaling en het project [!UICONTROL Planned Completion Date] is *na* de Datum van het Eind van de herhaling.
 
-U kunt de individuele teams van het Trommel vormen om de projectdata door gebrek, eerder dan de herhalingsdata te gebruiken. Voor informatie, zie de sectie [&#x200B; vormen hoe de data worden toegepast wanneer het toevoegen van het werkpunten aan een herhaling &#x200B;](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configure-how-dates-are-applied-when-adding-work-items-to-an-iteration) in artikel [&#x200B; Scrum &#x200B;](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md) vormt.
+U kunt de individuele teams van het Trommel vormen om de projectdata door gebrek, eerder dan de herhalingsdata te gebruiken. Voor informatie, zie de sectie [ vormen hoe de data worden toegepast wanneer het toevoegen van het werkpunten aan een herhaling ](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configure-how-dates-are-applied-when-adding-work-items-to-an-iteration) in artikel [ Scrum ](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md) vormt.
 
 ## Een artikel toevoegen aan een bestaande herhaling
 
@@ -95,7 +95,7 @@ U kunt om het even welke taak of kwestie aan om het even welke herhaling toevoeg
 of
 Ga naar het project, het rapport, of het dashboard dat de taak of de kwestie bevat u aan een herhaling wilt toevoegen. Selecteer vervolgens een of meer taken of problemen.
 
-1. Klik **[!UICONTROL More]** ![&#x200B; Meer pictogram &#x200B;](assets/more-icon.png) > **[!UICONTROL Add to Iteration]**.
+1. Klik **[!UICONTROL More]** ![ Meer pictogram ](assets/more-icon.png) > **[!UICONTROL Add to Iteration]**.
 U kunt geen taken of kwesties toewijzen die aan niet-flexibele teams worden toegewezen.
 
 1. Typ in het vak **[!UICONTROL Add To]** de naam van de herhaling en selecteer deze wanneer deze in de lijst wordt weergegeven.

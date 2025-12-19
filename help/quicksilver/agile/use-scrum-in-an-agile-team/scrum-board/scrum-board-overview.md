@@ -7,7 +7,7 @@ description: Het scorebord van het verhaal toont samen met de voltooiingsstatus 
 author: Jenny
 feature: Agile
 exl-id: 584288bb-2d98-4b69-8deb-d3b8e54d328c
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
 workflow-type: tm+mt
 source-wordcount: '797'
 ht-degree: 0%
@@ -20,14 +20,14 @@ ht-degree: 0%
 
 De [!UICONTROL Scrum] -kaart wordt samen met de voltooiingsstatus en het uitvouwdiagram weergegeven. Deze flexibele componenten zijn beschikbaar in de volgende situaties in [!UICONTROL Adobe Workfront]:
 
-* Op niet-gele iteraties. Voor meer details over het gebruiken van de agile verhaalraad, burndown grafiek, en voltooiingsstatus in een zuiver agile milieu (met backlogs en een herhaling), zie [&#x200B; Werk in een behendig milieu &#x200B;](../../../agile/work-in-an-agile-environment/work-in-an-agile-environment.md).
-* Wanneer u een project in een flexibele weergave weergeeft. Voor informatie over hoe u hefboomwerking de flexibele verhaalraad, burndown grafiek, en voltooiingsstatus binnen een bestaand project kunt, zie [&#x200B; een project in de Gelijke Mening &#x200B;](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md) leiden.
+* Op niet-gele iteraties. Voor meer details over het gebruiken van de agile verhaalraad, burndown grafiek, en voltooiingsstatus in een zuiver agile milieu (met backlogs en een herhaling), zie [ Werk in een behendig milieu ](../../../agile/work-in-an-agile-environment/work-in-an-agile-environment.md).
+* Wanneer u een project in een flexibele weergave weergeeft. Voor informatie over hoe u hefboomwerking de flexibele verhaalraad, burndown grafiek, en voltooiingsstatus binnen een bestaand project kunt, zie [ een project in de Gelijke Mening ](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md) leiden.
 
-![&#x200B; de iteratie van de Gelijkheid &#x200B;](assets/agile-iteration-with-callouts.png)
+![ de iteratie van de Gelijkheid ](assets/agile-iteration-with-callouts.png)
 
 ## Layout en functies van het artikelbord
 
-![&#x200B; het verhaalbord van de Gelijkheid &#x200B;](assets/agile-storyboard-callouts.png)
+![ het verhaalbord van de Gelijkheid ](assets/agile-storyboard-callouts.png)
 
 De whiteboard bestaat uit de volgende elementen:
 
@@ -40,7 +40,7 @@ De whiteboard bestaat uit de volgende elementen:
 
      In een project, lijkt deze kolom wanneer een taak minstens één subtaak heeft.
 
-     ![&#x200B; de kolom van het het verhaal van de ouder &#x200B;](assets/agile-parentstory-swimlane.png)
+     ![ de kolom van het het verhaal van de ouder ](assets/agile-parentstory-swimlane.png)
 
 * **Statussen van de Taak**: Wijs op hoe een verhaal door de herhaling of het project vordert dat op welke statuskolom wordt gebaseerd het verhaal binnen is.
 
@@ -73,4 +73,4 @@ Bijvoorbeeld, veronderstel dat Artikel A Subtask 1 en Subtask 2 bevat (en beide 
 
 Deze zelfde logica is op subtaken op het tweede niveau (subtaken van subtaken) van toepassing. Als een subtask één of meerdere subtasks op het tweede niveau heeft die aan het zelfde agile team worden toegewezen en tot de herhaling behoren, slechts wordt de subtask van het tweede niveau getoond in de backlog.
 
-Voor meer informatie over de backlog, zie [&#x200B; de agile backlog &#x200B;](../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md) leiden.
+Voor meer informatie over de backlog, zie [ leiden de Agile backlog ](../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).

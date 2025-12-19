@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: df8c4926-e258-49c0-ab9d-563ccaf7a6aa
-source-git-commit: df0686038adb1278339e872e122a311884cb6d29
+source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
 workflow-type: tm+mt
-source-wordcount: '680'
+source-wordcount: '676'
 ht-degree: 0%
 
 ---
@@ -65,7 +65,7 @@ of
 </tbody> 
 </table>
 
-Voor meer informatie over de toegangsvereisten van Workfront, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer informatie over de toegangsvereisten van Workfront, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -81,21 +81,21 @@ Zo wijzigt u het delen van een aanvraagformulier:
 
    De werkruimte wordt geopend en de recordtypen worden als kaarten weergegeven.
 
-1. Klik op een opnametype. Voor informatie over het creëren van een verslagtype, zie [&#x200B; recordtypes &#x200B;](/help/quicksilver/planning/architecture/create-record-types.md) creëren.
+1. Klik op een opnametype. Voor informatie over het creëren van een verslagtype, zie [ recordtypes ](/help/quicksilver/planning/architecture/create-record-types.md) creëren.
 
    De pagina met recordtypen wordt geopend in de weergave die u het laatst hebt geopend. Standaard wordt een pagina met recordtypen geopend in de tabelweergave.
 
-1. Klik **Meer** menu ![&#x200B; Meer menu &#x200B;](assets/more-menu.png) aan het recht van de naam van het verslagtype in de paginakop, dan klik **leidt verzoekvormen**.
+1. Klik **Meer** menu ![ Meer menu ](assets/more-menu.png) aan het recht van de naam van het verslagtype in de paginakop, dan klik **leidt verzoekvormen**.
 
    Alle aanvraagformulieren die aan het recordtype zijn gekoppeld, worden in een tabelweergave weergegeven.
-1. Beweeg over de naam van een verzoekvorm, dan klik **Meer** menu ![&#x200B; Meer menu &#x200B;](assets/more-menu.png) aan het recht van zijn naam, dan klik **Aandeel**.
+1. Beweeg over de naam van een verzoekvorm, dan klik **Meer** menu ![ Meer menu ](assets/more-menu.png) aan het recht van zijn naam, dan klik **Aandeel**.
 1. Werk de opties voor delen bij door een van de volgende opties te selecteren:
 
    * Iedereen met weergave of hogere toegang tot de werkruimte
    * Iedereen met een hogere of hogere toegang tot de werkruimte
    * Iedereen met de koppeling
 
-   Voor meer informatie, zie [&#x200B; creeer en beheer een verzoekvorm in de Planning van Adobe Workfront &#x200B;](/help/quicksilver/planning/requests/create-request-form.md).
+   Voor meer informatie, zie [ creeer en beheer een verzoekvorm in de Planning van Adobe Workfront ](/help/quicksilver/planning/requests/create-request-form.md).
 1. (Facultatief) klik **verbinding van het Exemplaar**, als u het delen van de verzoekvorm veranderde en u het aan de nieuwe groep mensen met een nieuwe verbinding wilt delen.
 
 ## Publiceren van een aanvraagformulier voor een recordtype ongedaan maken
@@ -108,20 +108,20 @@ Wanneer een aanvraagformulier irrelevant wordt en u wilt dat niemand er langer t
 
    De werkruimte wordt geopend en de recordtypen worden als kaarten weergegeven.
 
-1. Klik op een opnametype. Voor informatie over het creëren van een verslagtype, zie [&#x200B; recordtypes &#x200B;](/help/quicksilver/planning/architecture/create-record-types.md) creëren.
+1. Klik op een opnametype. Voor informatie over het creëren van een verslagtype, zie [ recordtypes ](/help/quicksilver/planning/architecture/create-record-types.md) creëren.
 
    De pagina met recordtypen wordt geopend in de weergave die u het laatst hebt geopend. Standaard wordt een pagina met recordtypen geopend in de tabelweergave.
 
-1. Klik **Meer** menu ![&#x200B; Meer menu &#x200B;](assets/more-menu.png) aan het recht van de naam van het verslagtype in de paginakop, dan klik **leidt verzoekvormen**.
+1. Klik **Meer** menu ![ Meer menu ](assets/more-menu.png) aan het recht van de naam van het verslagtype in de paginakop, dan klik **leidt verzoekvormen**.
 
    Alle aanvraagformulieren die aan het recordtype zijn gekoppeld, worden in een tabelweergave weergegeven.
-1. Beweeg over de naam van een verzoekvorm, dan klik **Meer** menu ![&#x200B; Meer menu &#x200B;](assets/more-menu.png) aan het recht van zijn naam, dan klik **unpublish**
+1. Beweeg over de naam van een verzoekvorm, dan klik **Meer** menu ![ Meer menu ](assets/more-menu.png) aan het recht van zijn naam, dan klik **unpublish**
 
 of
 
 Klik de naam van de verzoekvorm om het te openen, dan klik **unpublish** in de hoger-juiste hoek van de verzoekvorm.
 
-![&#x200B; Unpublish benadrukte knoop &#x200B;](assets/unpublish-button-highlighted.png)
+![ Unpublish benadrukte knoop ](assets/unpublish-button-highlighted.png)
 
 Onder aan het scherm verschijnt een bevestiging met de mededeling dat het formulier niet is gepubliceerd.
 
@@ -133,4 +133,4 @@ De **unpublish** verbinding of de knoopveranderingen in **publiceren**.
 
    Alle records die u eerder met het aanvraagformulier hebt toegevoegd, blijven op de recordtypepagina staan.
 
-   Alle eerder toegevoegde verzoeken blijven op het tabblad Planning in het gebied Verzoeken van Workfront.
+   Eventuele eerder toegevoegde verzoeken blijven in het gedeelte Aanvragen van Workfront.
