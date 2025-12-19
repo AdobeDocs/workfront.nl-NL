@@ -8,9 +8,9 @@ feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 author: Becky
 exl-id: 158430e5-8857-4bd8-86a6-2ba106b1638c
-source-git-commit: 711812d9fd4bf48bb7612c0339cee2cdbe08ef10
+source-git-commit: 31e5f5e039e25fa25f3038c23ee579ba1f830bb7
 workflow-type: tm+mt
-source-wordcount: '607'
+source-wordcount: '616'
 ht-degree: 0%
 
 ---
@@ -21,13 +21,13 @@ Als [!DNL Adobe Workfront] beheerder kunt u de OAuth2-toepassingen voor uw insta
 
 >[!NOTE]
 >
->* In de context van OAuth2, verwijst de &quot;toepassing Oauth2&quot;naar dit soort toegangsverbinding tussen een app en een server zoals [!DNL Workfront]. Voor meer informatie, zie [&#x200B; toepassingen OAuth2 voor  [!DNL Workfront]  integraties &#x200B;](../../administration-and-setup/configure-integrations/create-oauth-application.md) creëren
+>* In de context van OAuth2, verwijst de &quot;toepassing Oauth2&quot;naar dit soort toegangsverbinding tussen een app en een server zoals [!DNL Workfront]. Voor meer informatie, zie [ toepassingen OAuth2 voor  [!DNL Workfront]  integraties ](../../administration-and-setup/configure-integrations/create-oauth-application.md) creëren
 >* U kunt tot een totaal van tien Toepassingen OAuth2 in één keer hebben.
 
-* Voor informatie bij het creëren van douaneOAuth2 toepassingen, zie [&#x200B; toepassingen OAuth2 voor  [!DNL Workfront]  integraties &#x200B;](../../administration-and-setup/configure-integrations/create-oauth-application.md) creëren
-* Voor instructies bij het vormen van en het gebruiken van de toepassing OAuth2 met gebruikersgeloofsbrieven (de stroom van de vergunningscode), zie [&#x200B; vormen en gebruiken de douane OAuth 2 van uw organisatie toepassingen gebruikend de stroom van de vergunningscode &#x200B;](../../wf-api/api/oauth-app-code-token-flow.md).
-* Voor instructies bij het vormen van en het gebruiken van de toepassing OAuth2 die serverauthentificatie (stroom JWT) gebruiken, zie [&#x200B; vormen en gebruiken de douane OAuth 2 van uw organisatie toepassingen gebruikend stroom JWT &#x200B;](../../wf-api/api/oauth-app-jwt-flow.md).
-* Voor instructies bij het vormen van en het gebruiken van de toepassing OAuth2 die PKCE gebruiken, zie [&#x200B; vorm en gebruik de douane OAuth 2 van uw organisatie toepassingen gebruikend de stroom van PKCE &#x200B;](../../wf-api/api/oauth-app-pkce-flow.md).
+* Voor informatie, instructies, en details voor het creëren van douaneOAuth2 toepassingen, zie [ toepassingen OAuth2 voor  [!DNL Workfront]  integraties ](../../administration-and-setup/configure-integrations/create-oauth-application.md) creëren
+* Voor informatie, instructies, en details voor het vormen van en het gebruiken van de toepassing OAuth2 met gebruikersgeloofsbrieven (de stroom van de vergunningscode), zie [ vormen en gebruiken de douane OAuth 2 van uw organisatie toepassingen gebruikend de stroom van de vergunningscode ](../../wf-api/api/oauth-app-code-token-flow.md).
+* Voor informatie, zien de instructies, en de details voor het vormen en het gebruiken van de toepassing OAuth2 gebruikend serverauthentificatie (stroom JWT), [ de douaneOAuth 2 van uw organisatie toepassingen vormen en gebruiken gebruikend stroom JWT ](../../wf-api/api/oauth-app-jwt-flow.md).
+* Voor instructies bij het vormen van en het gebruiken van de toepassing OAuth2 die PKCE gebruiken, zie [ vorm en gebruik de douane OAuth 2 van uw organisatie toepassingen gebruikend de stroom van PKCE ](../../wf-api/api/oauth-app-pkce-flow.md).
 
 ## Toegangsvereisten
 
@@ -52,7 +52,7 @@ Als [!DNL Adobe Workfront] beheerder kunt u de OAuth2-toepassingen voor uw insta
  </tbody> 
 </table>
 
-Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -60,7 +60,7 @@ Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van W
 
 U moet [!UICONTROL OAuth2] -toepassingen voor uw organisatie maken voordat u deze kunt weergeven of beheren.
 
-Voor meer informatie, zie [&#x200B; toepassingen OAuth2 voor  [!DNL Workfront]  integraties &#x200B;](../../administration-and-setup/configure-integrations/create-oauth-application.md) creëren
+Voor meer informatie, zie [ toepassingen OAuth2 voor  [!DNL Workfront]  integraties ](../../administration-and-setup/configure-integrations/create-oauth-application.md) creëren
 
 ## Aangepaste OAuth2-toepassingen beheren
 
@@ -73,17 +73,17 @@ Voor meer informatie, zie [&#x200B; toepassingen OAuth2 voor  [!DNL Workfront]  
 
 1. Klik in het navigatievenster aan de linkerkant op **[!UICONTROL System]** en selecteer vervolgens **[!UICONTROL OAuth Applications]** .
 1. Klik op **[!UICONTROL Create app integration]**.
-1. Beweeg over de toepassing en klik **[!UICONTROL Edit]** ![&#x200B; uitgeven pictogram &#x200B;](assets/edit-icon.png) wanneer het op uiterst rechts verschijnt.
+1. Beweeg over de toepassing en klik **[!UICONTROL Edit]** ![ uitgeven pictogram ](assets/edit-icon.png) wanneer het op uiterst rechts verschijnt.
 1. (Optioneel) Bewerk de toepassingsdetails.
 
-   Voor gebieden met betrekking tot OAuth2 en JWT apps, zie [&#x200B; toepassingen OAuth2 voor  [!DNL Workfront]  integraties &#x200B;](../../administration-and-setup/configure-integrations/create-oauth-application.md) creëren.
+   Voor gebieden met betrekking tot OAuth2 en JWT apps, zie [ toepassingen OAuth2 voor  [!DNL Workfront]  integraties ](../../administration-and-setup/configure-integrations/create-oauth-application.md) creëren.
 
 ### Aangepaste OAuth2-toepassingen verwijderen {#delete-custom-oauth2-applications}
 
 {{step-1-to-setup}}
 
 1. Klik in het navigatievenster aan de linkerkant op **[!UICONTROL System]** en selecteer vervolgens **[!UICONTROL OAuth Applications]** .
-1. Beweeg over de toepassing en klik **[!UICONTROL Delete]** ![&#x200B; Schrapping &#x200B;](assets/delete.png) wanneer het op uiterst rechts verschijnt.
+1. Beweeg over de toepassing en klik **[!UICONTROL Delete]** ![ Schrapping ](assets/delete.png) wanneer het op uiterst rechts verschijnt.
 
 ## Clientgeheimen beheren in OAuth2-toepassingen
 
@@ -97,8 +97,8 @@ Voor meer informatie, zie [&#x200B; toepassingen OAuth2 voor  [!DNL Workfront]  
 >
 >U kunt het clientgeheim zelf niet weergeven. Als u uw Geheim van de Cliënt hebt verloren, moet u het schrappen en nieuwe creëren.
 >
->* Om een Geheim van de Cliënt te schrappen, zie [&#x200B; Geheim van de Cliënt van de Schrapping &#x200B;](#delete-client-secret) in dit artikel.
->* Om een nieuw Geheim van de Cliënt tot stand te brengen, zie [&#x200B; een toepassing OAuth2 &#x200B;](../../administration-and-setup/configure-integrations/create-oauth-application.md#create) in [&#x200B; creëren toepassingen OAuth2 voor  [!DNL Workfront]  integraties &#x200B;](../../administration-and-setup/configure-integrations/create-oauth-application.md).
+>* Om een Geheim van de Cliënt te schrappen, zie [ Geheim van de Cliënt van de Schrapping ](#delete-client-secret) in dit artikel.
+>* Om een nieuw Geheim van de Cliënt tot stand te brengen, zie [ een toepassing OAuth2 ](../../administration-and-setup/configure-integrations/create-oauth-application.md#create) in [ creëren toepassingen OAuth2 voor  [!DNL Workfront]  integraties ](../../administration-and-setup/configure-integrations/create-oauth-application.md).
 >
 
 {{step-1-to-setup}}
@@ -111,7 +111,7 @@ Voor meer informatie, zie [&#x200B; toepassingen OAuth2 voor  [!DNL Workfront]  
    * Laatst gebruikte datum
    * Notities
 
-     Om nota&#39;s aan een Geheim van de Cliënt toe te voegen, zie [&#x200B; nota&#39;s voor Geheim van de Cliënt &#x200B;](#add-or-edit-notes-for-client-secret) toevoegen of uitgeven.
+     Om nota&#39;s aan een Geheim van de Cliënt toe te voegen, zie [ nota&#39;s voor Geheim van de Cliënt ](#add-or-edit-notes-for-client-secret) toevoegen of uitgeven.
 
 ### Notities voor clientgeheim toevoegen of bewerken {#add-or-edit-notes-for-client-secret}
 
@@ -139,4 +139,4 @@ Voor meer informatie, zie [&#x200B; toepassingen OAuth2 voor  [!DNL Workfront]  
 1. Klik op **[!UICONTROL Create app integration]**.
 1. Houd de muisaanwijzer boven de toepassing en klik op het pictogram **[!UICONTROL Edit]** wanneer deze helemaal rechts wordt weergegeven.
 1. Zoek het clientgeheim dat u wilt verwijderen.
-1. Klik het **[!UICONTROL Delete]** pictogram ![&#x200B; Schrapping &#x200B;](assets/delete.png) naast het Geheim van de Cliënt.
+1. Klik het **[!UICONTROL Delete]** pictogram ![ Schrapping ](assets/delete.png) naast het Geheim van de Cliënt.

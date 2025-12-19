@@ -8,9 +8,9 @@ author: Lisa, Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 81e74a70-ea7e-4ed8-8b30-f01df0e73645
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 31e5f5e039e25fa25f3038c23ee579ba1f830bb7
 workflow-type: tm+mt
-source-wordcount: '419'
+source-wordcount: '418'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 Tijdens het werken aan een project, zou u kunnen ontdekken dat de onverwachte gebeurtenissen zich voordoen. U kunt die onverwachte gebeurtenissen als kwesties voor een bepaald project of een taak registreren. U kunt verzoeken ook voorleggen, die als kwesties op een project worden geregistreerd dat als Rij van het Verzoek wordt aangewezen. Kwesties en verzoeken worden in Adobe Workfront als onderling verwisselbaar beschouwd.
 
-Voor informatie over het creëren van kwesties in [!DNL Workfront], zie [&#x200B; kwesties &#x200B;](../../../manage-work/issues/manage-issues/create-issues.md) creëren. Voor informatie over het creëren van verzoeken in [!DNL Workfront], zie [&#x200B;  [!DNL Adobe Workfront]  verzoeken &#x200B;](../../../manage-work/requests/create-requests/create-submit-requests.md) creëren en voorleggen. Voor informatie over het associëren van de Types van Verzoek met projecten, zie [&#x200B; de Types van Verzoek voor een project &#x200B;](../../../manage-work/requests/create-and-manage-request-queues/define-request-types-for-project.md) bepalen.
+Voor informatie over het creëren van kwesties in [!DNL Workfront], zie [ kwesties ](../../../manage-work/issues/manage-issues/create-issues.md) creëren. Voor informatie over het creëren van verzoeken in [!DNL Workfront], zie [  [!DNL Adobe Workfront]  verzoeken ](../../../manage-work/requests/create-requests/create-submit-requests.md) creëren en voorleggen. Voor informatie over het associëren van de Types van Verzoek met projecten, zie [ de Types van Verzoek voor een project ](../../../manage-work/requests/create-and-manage-request-queues/define-request-types-for-project.md) bepalen.
 
 ## Toegangsvereisten
 
@@ -45,7 +45,7 @@ Voor informatie over het creëren van kwesties in [!DNL Workfront], zie [&#x200B
  </tbody> 
 </table>
 
-Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -73,12 +73,12 @@ Als [!DNL Workfront] beheerder, kunt u de namen van de verzoektypes in uw systee
 * In het **[!UICONTROL Queue Details]** -gebied van een project dat de problemen of aanvragen ontvangt.
 * Als er meer dan één aanvraagtype is geselecteerd voor een aanvraagwachtrij, gaat u in het veld **[!UICONTROL New Issue]Formulier** in het veld **[!UICONTROL Issue Type]** naar een nieuwe uitgave of een nieuwe aanvraag.
 
-  Voor meer informatie over het creëren van kwesties in [!DNL Workfront], zie [&#x200B; kwesties &#x200B;](../../../manage-work/issues/manage-issues/create-issues.md) creëren
+  Voor meer informatie over het creëren van kwesties in [!DNL Workfront], zie [ kwesties ](../../../manage-work/issues/manage-issues/create-issues.md) creëren
 
-  Voor meer informatie over het creëren van verzoeken in [!DNL Workfront], zie [&#x200B; creëren en voorleggen  [!DNL Adobe Workfront]  verzoeken &#x200B;](../../../manage-work/requests/create-requests/create-submit-requests.md).
+  Voor meer informatie over het creëren van verzoeken in [!DNL Workfront], zie [ creëren en voorleggen  [!DNL Adobe Workfront]  verzoeken ](../../../manage-work/requests/create-requests/create-submit-requests.md).
 
 * Op het **[!UICONTROL Queue Topic Detail]** formulier, wanneer u het onderwerp van de wachtrij configureert.\
-   Voor meer informatie over het creëren van de Onderwerpen van de Rij, zie [&#x200B; de Onderwerpen van de Rij &#x200B;](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md) creëren.
+   Voor meer informatie over het creëren van de Onderwerpen van de Rij, zie [ de Onderwerpen van de Rij ](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md) creëren.
 
 U kunt als volgt de namen van de aanvraagtypen aanpassen:
 
@@ -87,9 +87,9 @@ U kunt als volgt de namen van de aanvraagtypen aanpassen:
 1. Klik op **[!UICONTROL Project Preferences]** > **[!UICONTROL Statuses]** .
 
 1. Klik op de tab **[!UICONTROL Issues]** .
-1. Plaats de aanwijzer boven aan het tabblad **[!UICONTROL Issues]** boven de naam van een aanvraagtype en klik vervolgens op het pictogram **[!UICONTROL Edit]** dat wordt weergegeven.
+1. Klik boven aan het tabblad **[!UICONTROL Issues]** op het vervolgkeuzemenu, selecteer een type dat u zoekt en klik op het pictogram **[!UICONTROL Edit]** dat wordt weergegeven.
 
-   ![&#x200B; geef verzoektype naam &#x200B;](assets/edit-request-type-name-nwe.png) uit
+   ![ geef verzoektype naam ](assets/edit-request-type-name-nwe.png) uit
 
 1. Typ een nieuwe naam in het vak dat wordt weergegeven en druk op **[!UICONTROL Enter]** .
 
@@ -97,4 +97,4 @@ U kunt als volgt de namen van de aanvraagtypen aanpassen:
 
 U kunt elk aanvraagtype aan verschillende uitgavestatussen koppelen. U kunt ook de volgorde wijzigen waarin de statussen op een uitgave worden weergegeven, afhankelijk van het type uitgave.
 
-Voor meer informatie over het veranderen van de standaardorde van uitgevende statussen en het vormen van uitgavestatus, zie [&#x200B; een status &#x200B;](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md) sectie in [&#x200B; creëren of uitgeven een status &#x200B;](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
+Voor meer informatie over het veranderen van de standaardorde van uitgevende statussen en het vormen van uitgavestatus, zie [ een status ](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md) sectie in [ creëren of uitgeven een status ](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
