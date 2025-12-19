@@ -19,7 +19,7 @@ In dit artikel worden de functies beschreven die tijdens de release Eerste kwart
 
 <!--keep the sentence below for all future quarterly release pages-->
 
-Voor een lijst van alle eigenschappen die voor de Planning van Adobe Workfront worden vrijgegeven, zie [ de versieactiviteit van de Planning van Adobe Workfront: artikelindex ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+Voor een lijst van alle eigenschappen die voor de Planning van Adobe Workfront worden vrijgegeven, zie [&#x200B; de versieactiviteit van de Planning van Adobe Workfront: artikelindex &#x200B;](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
 ## Verbeteringen aan verbonden recordpagina&#39;s
 
@@ -36,7 +36,7 @@ Om u meer flexibiliteit te geven wanneer het werken met verbonden verslagpagina&
 * Er is een beperking toegevoegd om slechts één gekoppelde recordpagina per record of objecttype toe te staan. Voordat u deze upgrade uitvoert, kunt u meerdere pagina&#39;s toevoegen voor hetzelfde record- of objecttype. Nu kunt u meerdere weergaven voor hetzelfde recordtype gebruiken in één verbonden recordpagina.
 * Wij hebben a **Nieuwe rij** verbinding bij de bodem van een lijstmening toegevoegd en a **verbindt verslagen** knoop in het hoger-juiste gebied van de verbonden verslagenpagina. Voorafgaand aan deze verhoging, bestonden de **Nieuwe rij** verbinding en **verbinden verslagen** knoop slechts op een project verbonden pagina.
 
-Voor informatie, zie [ een Verbonden verslagenpagina aan een verslag ](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md) toevoegen.
+Voor informatie, zie [&#x200B; een Verbonden verslagenpagina aan een verslag &#x200B;](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md) toevoegen.
 
 ## De meningen van het aandeel in de Projecten Verbonden verslagenpagina
 
@@ -48,7 +48,7 @@ Voor informatie, zie [ een Verbonden verslagenpagina aan een verslag ](/help/qui
 
 Om het gemakkelijker te maken om de informatie te zien u wenst, hebben wij de capaciteit toegevoegd om meningen aan de Projecten te delen Verbonden registratiepagina. U kunt nu weergaven delen met andere gebruikers, teams of groepen.
 
-Voor informatie, zie [ een Verbonden verslagenpagina aan een verslag ](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md) toevoegen.
+Voor informatie, zie [&#x200B; een Verbonden verslagenpagina aan een verslag &#x200B;](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md) toevoegen.
 
 ## Huidige jokerteken voor gebruikers is nu beschikbaar in weergavefilters voor projectverbindingen
 
@@ -64,7 +64,7 @@ Dit kan handig zijn wanneer u een filter toevoegt aan een weergave die door meer
 
 Het jokerteken is beschikbaar in velden waarin de waarde een gebruiker is.
 
-Voor meer informatie bij het vormen van de meningen van de projectverbinding, met inbegrip van filters, zie [ een Verbonden verslagenpagina aan een verslag ](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md) toevoegen.
+Voor meer informatie bij het vormen van de meningen van de projectverbinding, met inbegrip van filters, zie [&#x200B; een Verbonden verslagenpagina aan een verslag &#x200B;](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md) toevoegen.
 
 <!--
 
@@ -131,7 +131,7 @@ We hebben de volgende verbeteringen aangebracht in de hoofdpagina Workspaces in 
 
 * Het **Andere werkruimten** lusje is anders genoemd aan **Alle werkruimten** en het omvat alle werkruimten u minstens toestemmingen aan Mening hebt, met inbegrip van degenen u creeerde.
 
-Voor informatie, zie [ werkruimten ](/help/quicksilver/planning/architecture/edit-workspaces.md) uitgeven.
+Voor informatie, zie [&#x200B; werkruimten &#x200B;](/help/quicksilver/planning/architecture/edit-workspaces.md) uitgeven.
 
 
 
@@ -149,7 +149,7 @@ Uw organisatie moet zowel Workfront Planning als Adobe GenStudio for Performance
 
 Voorafgaand aan deze verbetering, kon u het de verbindingsgebied van het Merk slechts manueel aan om het even welk verslagtype, met inbegrip van Producten en Personas toevoegen. U kunt het Brand GenStudio-recordtype nog steeds handmatig verbinden met andere recordtypen in Workfront Planning.
 
-Voor informatie, zie [ begonnen worden met de Planning van Adobe Workfront en de integratie van Adobe GenStudio for Performance Marketing ](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md).
+Voor informatie, zie [&#x200B; begonnen worden met de Planning van Adobe Workfront en de integratie van Adobe GenStudio for Performance Marketing &#x200B;](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md).
 
 ## Het verwijderen van GenStudio for Performance Marketing-gebruikersmachtigingen voor Planning beperken
 
@@ -163,7 +163,7 @@ Er is een hulplijn toegevoegd die voorkomt dat u de rechten van GenStudio for Pe
 
 Uw organisatie moet zowel Workfront Planning als Adobe GenStudio for Performance Marketing hebben.
 
-Voor informatie, zie [ begonnen worden met de Planning van Adobe Workfront en de integratie van Adobe GenStudio for Performance Marketing ](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md).
+Voor informatie, zie [&#x200B; begonnen worden met de Planning van Adobe Workfront en de integratie van Adobe GenStudio for Performance Marketing &#x200B;](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md).
 
 
 ## Openbaar delen van weergaven op een algemeen recordtype in een secundaire werkruimte is verwijderd
@@ -178,7 +178,7 @@ Voor informatie, zie [ begonnen worden met de Planning van Adobe Workfront en de
 
 We hebben het tabblad Openbaar delen verwijderd wanneer we een weergave voor een algemeen record in een secundaire werkruimte delen. U kunt een weergave niet openbaar delen vanuit een globaal recordtype dat aan een andere werkruimte is toegevoegd vanuit een bestaand globaal recordtype. U kunt een algemene recordtypeweergave vanuit de oorspronkelijke werkruimte openbaar delen.
 
-Voor informatie, zie [ meningen van het Aandeel ](/help/quicksilver/planning/access/share-views.md).
+Voor informatie, zie [&#x200B; meningen van het Aandeel &#x200B;](/help/quicksilver/planning/access/share-views.md).
 
 
 ## Connect GenStudio for Performance Marketing-merken met Workfront Planning-recordtypen
@@ -191,7 +191,7 @@ Voor informatie, zie [ meningen van het Aandeel ](/help/quicksilver/planning/acc
 
 U kunt nu Workfront Planning-recordtypen verbinden met Merken vanuit Adobe GenStudio for Performance Marketing. Uw organisatie moet zowel Workfront Planning als Adobe GenStudio for Performance Marketing hebben.
 
-Voor meer informatie, zie [ Connect verslagtypes ](/help/quicksilver/planning/architecture/connect-record-types.md).
+Voor meer informatie, zie [&#x200B; Connect verslagtypes &#x200B;](/help/quicksilver/planning/architecture/connect-record-types.md).
 
 
 ## Het nieuwe vakje van het gebiedsonderzoek in de Filters, de Gebieden, en de kleurenpictogrammen van de Rij in de meningen van de Planning
@@ -206,7 +206,7 @@ U kunt nu naar een specifiek veld zoeken wanneer u een weergave-element maakt in
 
 Deze verbetering is beschikbaar in alle verslagtypemeningen.
 
-Voor informatie, zie [ de lijstmening ](/help/quicksilver/planning/views/manage-the-table-view.md) leiden.
+Voor informatie, zie [&#x200B; de lijstmening &#x200B;](/help/quicksilver/planning/views/manage-the-table-view.md) leiden.
 
 
 ## Algemene recordtypen en de mogelijkheid om deze als bestaande recordtypen toe te voegen aan andere werkruimten
@@ -227,9 +227,9 @@ U kunt nu een recordtype toewijzen dat globaal moet zijn en het gebruiken in mee
 
 Raadpleeg de volgende artikelen voor meer informatie:
 
-* [ het type van het werkruimterecord overzicht ](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md)
+* [&#x200B; het type van het werkruimterecord overzicht &#x200B;](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md)
 
-* [ vorm verslagtype dwars-werkruimtemogelijkheden ](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md)
+* [&#x200B; vorm verslagtype dwars-werkruimtemogelijkheden &#x200B;](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md)
 
 * [Bestaande recordtypen uit een andere werkruimte toevoegen](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md)
 
@@ -245,7 +245,7 @@ Voor elk recordtype is een limiet van 30 verbindingsvelden ingesteld.
 
 NOTA: Als uw organisatie momenteel meer dan 30 verbindingsgebieden voor één verslagtype heeft, kunt u de extra gebieden houden die de grens van 30 overschrijden. U kunt echter geen verbindingsvelden toevoegen aan recordtypen die de limiet overschrijden. In de toekomst wordt de nieuwe limiet van 30 verbindingsvelden gehandhaafd.
 
-Voor meer informatie, zie [ Verbonden overzicht van de Types van Verslag ](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
+Voor meer informatie, zie [&#x200B; Verbonden overzicht van de Types van Verslag &#x200B;](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
 
 ## Gebruikersvriendelijke waarden instellen voor keuzen in selectievelden
 
@@ -267,7 +267,7 @@ Overweeg het volgende met deze verbetering:
 
 * De gekozen waarden worden weergegeven in kleine letters en worden gescheiden door onderstrepingstekens in het geval van keuzen voor meerdere woorden. Als u een label gebruikt dat al is gebruikt als een andere keuzenaam voor hetzelfde veld, voegt Workfront een volgnummer aan de waarde toe.
 
-Voor informatie, zie [ gebieden ](/help/quicksilver/planning/fields/create-fields.md) creëren.
+Voor informatie, zie [&#x200B; gebieden &#x200B;](/help/quicksilver/planning/fields/create-fields.md) creëren.
 
 
 
