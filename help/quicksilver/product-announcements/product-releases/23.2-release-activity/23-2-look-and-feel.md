@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Op deze pagina vindt u een beschrijving van kleine updates van de vormgeving van verschillende onderdelen van de Adobe Workfront-toepassing die binnen de releaseperiode van 23.2 zijn gemaakt. Deze verbeteringen worden minimaal twee weken na de release naar Preview beschikbaar gesteld in de productieomgeving.
 
-Voor een lijst van alle veranderingen beschikbaar met de versie 23.2, zie [ overzicht van de Versie 23.2 ](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar met de versie 23.2, zie [&#x200B; overzicht van de Versie 23.2 &#x200B;](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md).
 
 ## Updates voor de vormgeving van de lijst Concepten op het gebied Verzoeken
 
@@ -32,7 +32,7 @@ Enkele updates omvatten het volgende:
 * De afbeelding is uit de lijst Concepten verwijderd als de lijst geen verzoeken bevat
 * Paginering en kolomsortering toegevoegd aan de lijst.
 
-Voor meer informatie, zie [ verzoeken van concepten ](/help/quicksilver/manage-work/requests/create-requests/delete-request-draft.md) creëren.
+Voor meer informatie, zie [&#x200B; verzoeken van concepten &#x200B;](/help/quicksilver/manage-work/requests/create-requests/delete-request-draft.md) creëren.
 
 ## Selectie van slimme gebruikers beschikbaar in andere gebieden van Workfront
 
@@ -53,7 +53,7 @@ Aanvullende gebruikersgegevens worden nu weergegeven wanneer u gebruikers toevoe
 
 Wanneer u nu een gebruiker toevoegt aan de bovenstaande gebieden, naast de gebruikersnaam en avatar, worden ook de primaire rol en de e-mail van de gebruiker weergegeven. Zo kunt u beter onderscheid maken tussen meerdere gebruikers met dezelfde of vergelijkbare namen.
 
-Voor meer informatie, en om een videodemonstratie van een gelijkaardige eigenschap te bekijken, zie &quot;Slimme gebruikersselectie voor projectrollen in Edit en de gebieden van Details&quot;in [ 2.4 de verhogingen van het Project ](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-project-enhancements.md).
+Voor meer informatie, en om een videodemonstratie van een gelijkaardige eigenschap te bekijken, zie &quot;Slimme gebruikersselectie voor projectrollen in Edit en de gebieden van Details&quot;in [&#x200B; 2.4 de verhogingen van het Project &#x200B;](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-project-enhancements.md).
 
 ## Versiepictogram van document is bijgewerkt in Documentdetails
 
@@ -73,4 +73,4 @@ Enkele verbeteringen zijn onder meer:
 * Workfront controleert of u onmiddellijk toegang hebt tot de doelsjabloon nadat u de sjabloon hebt gekozen. Voorafgaand aan deze verbetering, een waarschuwingsbericht erop wijst die dat u niet de correcte toegang hebt getoond nadat u het exemplaar of de beweging bevestigde, die in extra stappen resulteerde en de actie niet werd toegestaan.
 * De mogelijkheid om toegang aan te vragen voor een sjabloon waarop u de sjabloontaak wilt kopiëren of verplaatsen zonder het vak Sjabloontaak kopiëren of verplaatsen te verlaten.
 
-Voor meer informatie, zie [ het Exemplaar en de taken van het bewegingsmalplaatje ](/help/quicksilver/manage-work/projects/create-and-manage-templates/copy-and-move-template-tasks.md).
+Voor meer informatie, zie [&#x200B; het Exemplaar en de taken van het bewegingsmalplaatje &#x200B;](/help/quicksilver/manage-work/projects/create-and-manage-templates/copy-and-move-template-tasks.md).

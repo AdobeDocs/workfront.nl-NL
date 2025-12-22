@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Op deze pagina worden alle verbeteringen beschreven die in de versie 20.3 van Agile zijn aangebracht in de productieomgeving. Deze verbeteringen zijn in de week van 10 augustus 2020 beschikbaar gesteld in de productieomgeving.
 
-Voor een lijst van alle veranderingen beschikbaar met de versie 20.3, zie [ overzicht van de versie 20.3 ](../../../product-announcements/product-releases/20.3-release-activity/20-3-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar met de versie 20.3, zie [&#x200B; overzicht van de versie 20.3 &#x200B;](../../../product-announcements/product-releases/20.3-release-activity/20-3-release-overview.md).
 
 ## Kies hoe lang kaarten op de Kanban-kaart blijven
 
@@ -26,7 +26,7 @@ Nu kunt u kiezen hoe lang voltooide kaarten op het Kanban-bord blijven.
 
 Eerder waren kaarten na 14 dagen van het Kanban-bord verdwenen.
 
-Voor meer informatie, zie [ Kanban ](../../../agile/get-started-with-agile-in-workfront/configure-kanban.md) vormen.
+Voor meer informatie, zie [&#x200B; Kanban &#x200B;](../../../agile/get-started-with-agile-in-workfront/configure-kanban.md) vormen.
 
 ## Agile boards laden 50 werkpunten tegelijk
 

@@ -17,13 +17,13 @@ ht-degree: 0%
 
 Op deze pagina worden alle verbeteringen beschreven die in de versie 23.2 van Agile zijn aangebracht voor de voorvertoningsomgeving. Deze verbeteringen worden beschikbaar gesteld in de productieomgeving met de release 23.2.
 
-Voor een lijst van alle veranderingen beschikbaar op dit punt in de 23.2 versiecyclus, zie [ 23.2 Overzicht van de Versie ](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar op dit punt in de 23.2 versiecyclus, zie [&#x200B; 23.2 Overzicht van de Versie &#x200B;](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md).
 
 ## Taken en problemen vanuit objectdetails toevoegen aan een Workfront-board of -werkstroom
 
 U kunt nu rechtstreeks vanuit de objectdetails bestaande taken of uitgaven toevoegen aan een Workfront-kaart of werkstroomkaartlijst. Om het even welke punten u aan een raad toevoegt zullen verbonden kaarten worden, en om het even welke punten die aan een werkstroom worden toegevoegd worden toegevoegd toegevoegd aan de kaartlijst als ongeplande kaarten.
 
-Voor meer informatie, zie [ bestaande taken of kwesties aan een raad ](/help/quicksilver/agile/get-started-with-boards/add-card-from-list-to-board.md) toevoegen.
+Voor meer informatie, zie [&#x200B; bestaande taken of kwesties aan een raad &#x200B;](/help/quicksilver/agile/get-started-with-boards/add-card-from-list-to-board.md) toevoegen.
 
 ## Interferingfunctionaliteit beschikbaar in Adobe Workfront Boards
 
@@ -35,15 +35,15 @@ Met verschillende nieuwe functies in Workfront Boards kunt u de functionaliteit 
 
 De naam van verzamelingen is gewijzigd in werkstromen. Met werkstromen kunt u gegevens op verschillende manieren visualiseren. U kunt punten op kaarten in een lijst, op een raad, of op een herhaling tonen. Kaarten in een werkstroom kunnen ook worden gedeeld door meerdere borden. U kunt workflows eenvoudig vereenvoudigen met behulp van kaarten en borden in een workstream.
 
-Voor meer informatie, zie [ werkstromen beheren ](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md), [ creeer een herhaling in een werkstroom ](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md), en [ gebruik de kaartlijst ](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md).
+Voor meer informatie, zie [&#x200B; werkstromen beheren &#x200B;](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md), [&#x200B; creeer een herhaling in een werkstroom &#x200B;](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md), en [&#x200B; gebruik de kaartlijst &#x200B;](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md).
 
-[ Bekijk een videodemonstratie van deze eigenschap ](https://video.tv.adobe.com/v/3417059/){target=_blank}
+[&#x200B; Bekijk een videodemonstratie van deze eigenschap &#x200B;](https://video.tv.adobe.com/v/3417059/){target=_blank}
 
 ## Taken en problemen uit lijsten en rapporten toevoegen aan een workstreamkaartlijst
 
 U kunt nu bestaande taken of problemen rechtstreeks vanuit een lijst- of rapportweergave toevoegen aan een werkstroom in Workfront-raden. Items die u aan de werkstroom toevoegt, worden als ongeplande kaarten toegevoegd aan de kaartlijst.
 
-Voor meer informatie, zie [ bestaande taken of kwesties aan een raad ](/help/quicksilver/agile/get-started-with-boards/add-card-from-list-to-board.md) toevoegen.
+Voor meer informatie, zie [&#x200B; bestaande taken of kwesties aan een raad &#x200B;](/help/quicksilver/agile/get-started-with-boards/add-card-from-list-to-board.md) toevoegen.
 
 ## Aangepaste velden toevoegen aan kaarten op de kaart
 
@@ -53,7 +53,7 @@ Net als in de standaardvelden kunt u het aangepaste veld weergeven in de volledi
 
 Alle gegevens van het aangepaste veld op de kaart zijn alleen-lezen.
 
-Voor meer informatie, zie [ aanpassen welke gebieden op een kaart ](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md) worden getoond.
+Voor meer informatie, zie [&#x200B; aanpassen welke gebieden op een kaart &#x200B;](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md) worden getoond.
 
 ## Taken en problemen uit lijsten en rapporten toevoegen aan een Workfront-board
 
@@ -61,7 +61,7 @@ U kunt nu bestaande taken of problemen rechtstreeks vanuit een lijst- of rapport
 
 Het veld Boards kan nu worden toegevoegd aan lijsten en rapporten voor taken of problemen. In dit veld worden alle gebieden weergegeven waaraan een taak of uitgave is toegevoegd.
 
-Voor meer informatie, zie [ bestaande taken of kwesties aan een raad ](/help/quicksilver/agile/get-started-with-boards/add-card-from-list-to-board.md) toevoegen.
+Voor meer informatie, zie [&#x200B; bestaande taken of kwesties aan een raad &#x200B;](/help/quicksilver/agile/get-started-with-boards/add-card-from-list-to-board.md) toevoegen.
 
 
 ## Uren vastleggen op verbonden kaarten aan boord
@@ -74,7 +74,7 @@ U kunt nu uren aanmelden op verbonden kaarten, net als bij een taak of uitgave. 
 
 De velden voor tijdregistratie worden standaard niet weergegeven op verbonden kaarten. U moet **Uren** in het Configure gebied onder Kaarten toelaten.
 
-Voor meer informatie, zie [ Gebruik verbonden kaarten op raad ](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
+Voor meer informatie, zie [&#x200B; Gebruik verbonden kaarten op raad &#x200B;](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
 
 
 ## Weergave van velden op een kaart aanpassen
@@ -86,9 +86,9 @@ Voor meer informatie, zie [ Gebruik verbonden kaarten op raad ](/help/quicksilve
 
 Er is nu aanpassingsmogelijkheden beschikbaar om te bepalen welke velden op een kaart worden weergegeven, zowel in de volledige weergave wanneer de kaart is geopend als in de weergave voor gecondenseerde kaarten op het bord. Wanneer u een veld uitschakelt, wordt dit in geen van beide weergaven weergegeven. U kunt een veld ook inschakelen in de volledige weergave en verbergen in de versmalde weergave.
 
-Voor meer informatie, zie [ aanpassen welke gebieden op een kaart ](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md) worden getoond.
+Voor meer informatie, zie [&#x200B; aanpassen welke gebieden op een kaart &#x200B;](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md) worden getoond.
 
-[ Bekijk een videodemonstratie van deze eigenschap ](https://video.tv.adobe.com/v/3415710/){target=_blank}
+[&#x200B; Bekijk een videodemonstratie van deze eigenschap &#x200B;](https://video.tv.adobe.com/v/3415710/){target=_blank}
 
 ## Een standaardstatus definiëren voor kaarten die naar een bordkolom worden verplaatst
 
@@ -100,9 +100,9 @@ U kunt nu een standaardstatus instellen om toe te passen op kaarten die naar een
 
 Eerder werd u gevraagd een status te selecteren voor elke kaart die naar de kolom werd verplaatst, als er meerdere statussen beschikbaar waren.
 
-Voor meer informatie, zie [ kolommen ](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md) leiden.
+Voor meer informatie, zie [&#x200B; kolommen &#x200B;](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md) leiden.
 
-[ Bekijk een videodemonstratie van deze eigenschap ](https://video.tv.adobe.com/v/3415711/){target=_blank}
+[&#x200B; Bekijk een videodemonstratie van deze eigenschap &#x200B;](https://video.tv.adobe.com/v/3415711/){target=_blank}
 
 ## Verzamelingen die nu beschikbaar zijn in Adobe Workfront Boards
 
@@ -114,9 +114,9 @@ U kunt nu verzamelingen maken op het dashboard voor borden. Een verzameling is e
 
 Het toevoegen van leden aan een verzameling werkt op dezelfde manier als het toevoegen van leden aan een board. Een persoon of team moet lid zijn in de verzameling voordat deze als leden aan een bestuur in de verzameling kunnen worden toegevoegd.
 
-Voor meer informatie, zie [ inzamelingen ](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md) leiden.
+Voor meer informatie, zie [&#x200B; inzamelingen &#x200B;](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md) leiden.
 
-[ Bekijk een videodemonstratie van deze eigenschap ](https://video.tv.adobe.com/v/3415609/){target=_blank}
+[&#x200B; Bekijk een videodemonstratie van deze eigenschap &#x200B;](https://video.tv.adobe.com/v/3415609/){target=_blank}
 
 ## Schattingsveld op verbonden kaarten naar veld Artikelpunten op Workfront-objecten
 
@@ -132,7 +132,7 @@ Eerder was de schatting van de kaart een handmatig item en werd deze niet toegew
 
 Het veld Schatting op zowel ad-hockaarten als op gekoppelde kaarten heeft bovendien geen tekenlimiet meer. Eerder was het maximumaantal tekens 99.
 
-Voor meer informatie, zie [ Gebruik verbonden kaarten op raad ](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
+Voor meer informatie, zie [&#x200B; Gebruik verbonden kaarten op raad &#x200B;](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
 
 ## Kaart voorvertonen in innamekolom
 

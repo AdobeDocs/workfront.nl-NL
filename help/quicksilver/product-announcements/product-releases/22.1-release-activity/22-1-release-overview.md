@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # 22.1 Overzicht van de release
 
-Deze pagina bevat informatie over de functionaliteit die is opgenomen in de release 22.1. Alle functies zijn beschikbaar in de nieuwe Adobe Workfront-ervaring. Sommige eigenschappen zijn ook beschikbaar in de Klassiek van Adobe Workfront; nochtans, [ zal de Klassiek van Workfront in Maart 2022 ](https://experienceleague.adobe.com/en/docs/workfront/using/home) worden stopgezet, die kort door de eind-van-levensdatum voor Workfront Classic in Juli 2022 wordt gevolgd.
+Deze pagina bevat informatie over de functionaliteit die is opgenomen in de release 22.1. Alle functies zijn beschikbaar in de nieuwe Adobe Workfront-ervaring. Sommige eigenschappen zijn ook beschikbaar in de Klassiek van Adobe Workfront; nochtans, [&#x200B; zal de Klassiek van Workfront in Maart 2022 &#x200B;](https://experienceleague.adobe.com/en/docs/workfront/using/home) worden stopgezet, die kort door de eind-van-levensdatum voor Workfront Classic in Juli 2022 wordt gevolgd.
 
 <!--
 <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -57,12 +57,12 @@ For specific release dates and times for each cluster, see the
 
 ## Verbeteringen voor Adobe Workfront
 
-* [ de verhogingen van de Beheerder ](#administrator-enhancements)
-* [ de verhogingen van het Project ](#project-enhancements)
-* [ Verbeteringen van het Beheer van het Middel ](#resource-management-enhancements)
-* [ Verbeteringen van verzoeken ](#requests-enhancements)
-* [ het Proofing verhogingen ](#proofing-enhancements)
-* [ Andere verhogingen ](#other-enhancements)
+* [&#x200B; de verhogingen van de Beheerder &#x200B;](#administrator-enhancements)
+* [&#x200B; de verhogingen van het Project &#x200B;](#project-enhancements)
+* [&#x200B; Verbeteringen van het Beheer van het Middel &#x200B;](#resource-management-enhancements)
+* [&#x200B; Verbeteringen van verzoeken &#x200B;](#requests-enhancements)
+* [&#x200B; het Proofing verhogingen &#x200B;](#proofing-enhancements)
+* [&#x200B; Andere verhogingen &#x200B;](#other-enhancements)
 * [Verbeteringen voor mobiele apparaten](#mobile-enhancements)
 
 ### Beheerdersverbeteringen {#administrator-enhancements}
@@ -365,7 +365,7 @@ For specific release dates and times for each cluster, see the
 
 ## Workfront Fusion-verbeteringen
 
-Nieuwe functies in Workfront Fusion zijn beschikbaar in Production op een cadence buiten de releaseplanning van 22.1. Voor meer informatie over de recentste eigenschappen, zie [ de versieactiviteit van de Fusie van Adobe Workfront ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
+Nieuwe functies in Workfront Fusion zijn beschikbaar in Production op een cadence buiten de releaseplanning van 22.1. Voor meer informatie over de recentste eigenschappen, zie [&#x200B; de versieactiviteit van de Fusie van Adobe Workfront &#x200B;](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 
 ## Verbeteringen in Workfront Scenario Planner
 
@@ -377,7 +377,7 @@ Er zijn op dit punt in de release geen Scenario Planner-updates. Dit gebied word
 
 ## Verbeteringen voor Workfront Proof
 
-Nieuwe functies in Workfront Proof zijn nu beschikbaar. Voor meer informatie, zie [ de versieactiviteit van Workfront Proof: Week van 29 November, 2021 ](../../../product-announcements/product-releases/workfront-proof-release-activity/wp-release-22-1.md).
+Nieuwe functies in Workfront Proof zijn nu beschikbaar. Voor meer informatie, zie [&#x200B; de versieactiviteit van Workfront Proof: Week van 29 November, 2021 &#x200B;](../../../product-announcements/product-releases/workfront-proof-release-activity/wp-release-22-1.md).
 
 ## Verbeteringen voor Workfront-doelen
 
@@ -391,17 +391,17 @@ Er zijn op dit moment geen updates voor Workfront Goals beschikbaar in de releas
 
 Voor API versie 14 hebben we een aantal bronnen en eindpunten gewijzigd. Sommige wijzigingen ondersteunen nieuwe functionaliteit en andere maken het voor u gemakkelijker om de informatie te gebruiken die beschikbaar is via de API.
 
-Voor informatie over wat nieuw en bijgewerkt is, zie [ wat in API versie 14 ](../../../wf-api/api/new-api-version-14.md) nieuw is.
+Voor informatie over wat nieuw en bijgewerkt is, zie [&#x200B; wat in API versie 14 &#x200B;](../../../wf-api/api/new-api-version-14.md) nieuw is.
 
-Voor informatie over API versies, zie [ API versioning en steunprogramma ](../../../wf-api/api/api-version-support-schedule.md).
+Voor informatie over API versies, zie [&#x200B; API versioning en steunprogramma &#x200B;](../../../wf-api/api/api-version-support-schedule.md).
 
 ## Workfront-onderhoudsupdates
 
-Voor informatie over de onderhoudsupdates die tijdens de versie 22.1 worden gemaakt, zie [ Updates van het Onderhoud van Workfront ](https://experience.workfront.com/s/article/Workfront-Maintenance-Updates-1882317350).
+Voor informatie over de onderhoudsupdates die tijdens de versie 22.1 worden gemaakt, zie [&#x200B; Updates van het Onderhoud van Workfront &#x200B;](https://experience.workfront.com/s/article/Workfront-Maintenance-Updates-1882317350).
 
 ## 22.1 Release-webinar
 
-De Workfront 22.1 Release Webinar werd gepresenteerd op 12 januari 2022. U kunt de webinar opname op de [ pagina van Gebeurtenissen op Workfront bekijken Één ](https://one.workfront.com/s/event).
+De Workfront 22.1 Release Webinar werd gepresenteerd op 12 januari 2022. U kunt de webinar opname op de [&#x200B; pagina van Gebeurtenissen op Workfront bekijken Één &#x200B;](https://one.workfront.com/s/event).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -417,7 +417,7 @@ De Workfront 22.1 Release Webinar werd gepresenteerd op 12 januari 2022. U kunt 
 
 ## Training-updates
 
-Ontdek de nieuwste updates van leerprogramma&#39;s, leerpaden, video&#39;s en handleidingen voor elke Adobe Workfront-productrelease. Voor meer informatie, zie de [ versie van de Opleiding pagina ](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) bijwerkt.
+Ontdek de nieuwste updates van leerprogramma&#39;s, leerpaden, video&#39;s en handleidingen voor elke Adobe Workfront-productrelease. Voor meer informatie, zie de [&#x200B; versie van de Opleiding pagina &#x200B;](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) bijwerkt.
 
 ## Functionaliteit wordt niet meer ondersteund
 
@@ -425,4 +425,4 @@ Ontdek de nieuwste updates van leerprogramma&#39;s, leerpaden, video&#39;s en ha
 
 Nu de ondersteuning voor Internet Explorer is afgeschaft, biedt Workfront nu officieel ondersteuning voor Microsoft Edge.
 
-Voor meer informatie over gesteunde browsers, zie [ browser van Adobe Workfront vereisten ](../../../workfront-basics/workfront-browser-requirements.md).
+Voor meer informatie over gesteunde browsers, zie [&#x200B; browser van Adobe Workfront vereisten &#x200B;](../../../workfront-basics/workfront-browser-requirements.md).

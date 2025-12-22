@@ -17,9 +17,9 @@ ht-degree: 0%
 
 Wanneer u een team creeert wordt u de Eigenaar van het Team, door gebrek.
 
-U kunt de Eigenaars van het Team voor alle teams bekijken wanneer u een rapport voor Teams creeert en het [!UICONTROL Owner Name] gebied in uw rapport omvat. (Voor meer informatie over het creëren van een rapport, zie [ een douanerapport ](../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) creëren.)
+U kunt de Eigenaars van het Team voor alle teams bekijken wanneer u een rapport voor Teams creeert en het [!UICONTROL Owner Name] gebied in uw rapport omvat. (Voor meer informatie over het creëren van een rapport, zie [&#x200B; een douanerapport &#x200B;](../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) creëren.)
 
-Voor informatie over hoe een [!DNL Adobe Workfront] beheerder een team van het [!UICONTROL Setup] gebied kan tot stand brengen, zie [ een team van het [!UICONTROL Setup] gebied ](../../administration-and-setup/add-users/create-and-manage-teams/create-a-team-from-setup.md) creëren.
+Voor informatie over hoe een [!DNL Adobe Workfront] beheerder een team van het [!UICONTROL Setup] gebied kan tot stand brengen, zie [&#x200B; een team van het [!UICONTROL Setup] gebied &#x200B;](../../administration-and-setup/add-users/create-and-manage-teams/create-a-team-from-setup.md) creëren.
 
 ## Toegangsvereisten
 
@@ -42,7 +42,7 @@ Voor informatie over hoe een [!DNL Adobe Workfront] beheerder een team van het [
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -50,9 +50,9 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 {{step1-to-team}}
 
-1. Klik het **[!UICONTROL Switch Teams]** pictogram van het pictogram ![ team van de Schakelaar ](assets/switch-team-icon.png), dan klik **[!UICONTROL Create New Team]**.
+1. Klik het **[!UICONTROL Switch Teams]** pictogram van het pictogram ![&#x200B; team van de Schakelaar &#x200B;](assets/switch-team-icon.png), dan klik **[!UICONTROL Create New Team]**.
 
-   ![ Uitgezocht creeer nieuw team.](assets/create-new-team.png)
+   ![&#x200B; Uitgezocht creeer nieuw team.](assets/create-new-team.png)
 
 1. Voer in het vak **[!UICONTROL New Team]** dat wordt weergegeven de volgende informatie in:
 
@@ -63,11 +63,11 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
      >[!NOTE]
      >
-     >Wanneer een team aan een groep of een subgroep wordt toegewezen, kunnen om het even welke groepsbeheerders van die groep of subgroep het team beheren zonder een lid van het te zijn. De beheerders van de groep kunnen naar het gebied van Teams van het Belangrijkste Menu gaan en de het teampictogram van de Teams van de Schakelaar ![ ](assets/switch-team-icon.png) klikken om van alle teams een lijst te maken die aan de groepen worden toegewezen die zij beheren.
+     >Wanneer een team aan een groep of een subgroep wordt toegewezen, kunnen om het even welke groepsbeheerders van die groep of subgroep het team beheren zonder een lid van het te zijn. De beheerders van de groep kunnen naar het gebied van Teams van het Belangrijkste Menu gaan en de het teampictogram van de Teams van de Schakelaar ![&#x200B; &#x200B;](assets/switch-team-icon.png) klikken om van alle teams een lijst te maken die aan de groepen worden toegewezen die zij beheren.
 
    * **[!UICONTROL This is an Agile Team]:** selecteer deze optie als u dit nieuwe team wilt vormen om een team van Agile te zijn.
 
-     Voor meer informatie over de teams van de Gelijkheid, zie [ een team van de Gelijkheid ](../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md) creëren.
+     Voor meer informatie over de teams van de Gelijkheid, zie [&#x200B; een team van de Gelijkheid &#x200B;](../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md) creëren.
 
    * **[!UICONTROL Team Members]:** typ de naam van een gebruiker die u aan het team wilt toevoegen en selecteer vervolgens de naam wanneer deze in de vervolgkeuzelijst wordt weergegeven.
 

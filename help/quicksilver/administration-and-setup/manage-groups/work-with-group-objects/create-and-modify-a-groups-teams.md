@@ -21,9 +21,9 @@ Wanneer u een groep bekijkt die u in het gebied Groepen beheert, kunt u met team
 
 Als er om het even welke groepen boven uw groep zijn, kunnen hun beheerders deze dingen voor uw groep ook doen. Hetzelfde geldt voor Workfront-beheerders (voor elke groep).
 
-Voor informatie over hoe de gebruikers met een vergunning van het Plan een team kunnen tot stand brengen, zie [ een team ](../../../people-teams-and-groups/create-and-manage-teams/create-a-team.md) creëren.
+Voor informatie over hoe de gebruikers met een vergunning van het Plan een team kunnen tot stand brengen, zie [&#x200B; een team &#x200B;](../../../people-teams-and-groups/create-and-manage-teams/create-a-team.md) creëren.
 
-Voor informatie over hoe een beheerder van Workfront een team kan tot stand brengen, zie [ een team van het gebied van de Opstelling ](../../../administration-and-setup/add-users/create-and-manage-teams/create-a-team-from-setup.md) creëren.
+Voor informatie over hoe een beheerder van Workfront een team kan tot stand brengen, zie [&#x200B; een team van het gebied van de Opstelling &#x200B;](../../../administration-and-setup/add-users/create-and-manage-teams/create-a-team-from-setup.md) creëren.
 
 ## Toegangsvereisten
 
@@ -49,7 +49,7 @@ Voor informatie over hoe een beheerder van Workfront een team kan tot stand bren
  </tbody> 
 </table>
 
-Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -57,10 +57,10 @@ Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront
 
 {{step-1-to-setup}}
 
-1. In het linkerpaneel, klik **Groepen** ![ Groepen ](assets/groups-icon.png).
+1. In het linkerpaneel, klik **Groepen** ![&#x200B; Groepen &#x200B;](assets/groups-icon.png).
 
 1. Klik op de naam van de groep waarvoor u teams wilt maken of wijzigen.
-1. In het linkerpaneel, klik **Teams** ![ Teams ](assets/teams.png) om van de teams een lijst te maken verbonden aan de groep en met om het even welke subgroups het kan hebben.
+1. In het linkerpaneel, klik **Teams** ![&#x200B; Teams &#x200B;](assets/teams.png) om van de teams een lijst te maken verbonden aan de groep en met om het even welke subgroups het kan hebben.
 
 1. Voer een van de volgende handelingen uit:
 
@@ -103,7 +103,7 @@ Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront
       </tbody> 
      </table>
 
-   * **geeft teams** uit: Selecteer minstens één team, klik **het** pictogram ![ uitgeven pictogram ](assets/edit-icon.png) uit, dan gebruik de volgende opties om het te vormen:
+   * **geeft teams** uit: Selecteer minstens één team, klik **het** pictogram ![&#x200B; uitgeven pictogram &#x200B;](assets/edit-icon.png) uit, dan gebruik de volgende opties om het te vormen:
 
      <table style="table-layout:auto"> 
       <col> 
@@ -152,5 +152,5 @@ Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront
       </tbody> 
      </table>
 
-   * **de teams van de Schrapping**: Selecteer minstens één team, dan klik het pictogram van de Schrapping ![ pictogram van de Schrapping ](assets/delete.png).
-   * **Uitvoer de lijst van teams**: Klik **het pictogram van de Uitvoer** ![ Uitvoer ](assets/export.png), dan selecteer het dossierformaat u voor de uitgevoerde lijst wilt.
+   * **de teams van de Schrapping**: Selecteer minstens één team, dan klik het pictogram van de Schrapping ![&#x200B; pictogram van de Schrapping &#x200B;](assets/delete.png).
+   * **Uitvoer de lijst van teams**: Klik **het pictogram van de Uitvoer** ![&#x200B; Uitvoer &#x200B;](assets/export.png), dan selecteer het dossierformaat u voor de uitgevoerde lijst wilt.

@@ -43,4 +43,4 @@ Met de Planner van het Scenario, kunt u scenario&#39;s door objectief of initiat
 * Om een doel van de groeioptimalisering te bereiken, hebben wij extra middelen binnen een specifieke vaardigheidsreeks nodig?
 * Om een rendementsdoelstelling te bereiken, moeten wij specifieke initiatieven aan een recentere datum duwen
 
-Voor meer informatie over de Planner van het Scenario, zie [ het overzicht van de Planner van het Scenario ](../../../scenario-planner/scenario-planner-overview.md).
+Voor meer informatie over de Planner van het Scenario, zie [&#x200B; het overzicht van de Planner van het Scenario &#x200B;](../../../scenario-planner/scenario-planner-overview.md).

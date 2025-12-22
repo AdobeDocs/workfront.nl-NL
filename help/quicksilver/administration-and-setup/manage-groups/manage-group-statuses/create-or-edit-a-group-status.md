@@ -19,15 +19,15 @@ ht-degree: 0%
 
 Als groepsbeheerder kunt u aangepaste statussen maken voor een groep die u beheert. Dit helpt de behoefte aan tientallen bedrijfs-brede douanestatus elimineren en staat meer autonomie in uw groepshiërarchieën toe.
 
-U kunt ook een status op systeemniveau bewerken voor een groep die u beheert als een Workfront-beheerder de status heeft ontgrendeld. Voor meer informatie, zie [ Vergrendelde en ontgrendelde systeem-vlakke statussen ](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/lock-or-unlock-a-custom-system-level-status.md).
+U kunt ook een status op systeemniveau bewerken voor een groep die u beheert als een Workfront-beheerder de status heeft ontgrendeld. Voor meer informatie, zie [&#x200B; Vergrendelde en ontgrendelde systeem-vlakke statussen &#x200B;](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/lock-or-unlock-a-custom-system-level-status.md).
 
 Als er om het even welke groepen boven uw groep zijn, kunnen hun beheerders deze dingen voor uw groep ook doen. Hetzelfde geldt voor Workfront-beheerders (voor elke groep).
 
 >[!NOTE]
 >
->De de groepsstatussen van de douane kunnen niet op een project worden getoond wanneer het bekijken van het project in een Gelijke mening. Alleen standaard- en aangepaste vergrendelde statussen zijn zichtbaar wanneer een project in een flexibele weergave wordt weergegeven. Voor informatie over het aanpassen van een Gelijke mening voor een project, zie de sectie [ creëren of aanpassen een Gelijke mening ](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md#create-or-customize-an-agile-view) in het artikel [ creeert of geeft meningen in Adobe Workfront ](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md) uit.
+>De de groepsstatussen van de douane kunnen niet op een project worden getoond wanneer het bekijken van het project in een Gelijke mening. Alleen standaard- en aangepaste vergrendelde statussen zijn zichtbaar wanneer een project in een flexibele weergave wordt weergegeven. Voor informatie over het aanpassen van een Gelijke mening voor een project, zie de sectie [&#x200B; creëren of aanpassen een Gelijke mening &#x200B;](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md#create-or-customize-an-agile-view) in het artikel [&#x200B; creeert of geeft meningen in Adobe Workfront &#x200B;](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md) uit.
 
-Voor algemene informatie over statussen, zie [ Overzicht van Statussen ](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/statuses-overview.md).
+Voor algemene informatie over statussen, zie [&#x200B; Overzicht van Statussen &#x200B;](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/statuses-overview.md).
 
 ## Toegangsvereisten
 
@@ -53,7 +53,7 @@ Voor algemene informatie over statussen, zie [ Overzicht van Statussen ](../../.
  </tbody> 
 </table>
 
-Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -61,7 +61,7 @@ Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront
 
 {{step-1-to-setup}}
 
-1. In het linkerpaneel, klik **Groepen** ![ Groepen ](assets/groups-icon.png).
+1. In het linkerpaneel, klik **Groepen** ![&#x200B; Groepen &#x200B;](assets/groups-icon.png).
 
 1. Klik op de naam van de groep waar u statussen wilt maken of aanpassen.
 1. In het linkerpaneel, klik **Statussen**.
@@ -76,15 +76,15 @@ Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront
    * Vergrendelde statussen die tot de groepen boven de subgroep behoren.
    * Ontgrendelde statussen die bij het maken van de subgroep behoorden tot de groepen boven de subgroep.
 
-     Nadat een subgroep is gemaakt, worden ontgrendelde statussen die in de bovenstaande groepen zijn gemaakt, niet opgenomen in de statuslijst van de subgroep. Nochtans, als iemand één van hen later sluit, wordt het dan inbegrepen in de de statuslijst van subgroup. Voor meer informatie, zie [ Hoe de groepen statussen ](../../../administration-and-setup/manage-groups/manage-group-statuses/how-groups-inherit-statuses.md) erven.
+     Nadat een subgroep is gemaakt, worden ontgrendelde statussen die in de bovenstaande groepen zijn gemaakt, niet opgenomen in de statuslijst van de subgroep. Nochtans, als iemand één van hen later sluit, wordt het dan inbegrepen in de de statuslijst van subgroup. Voor meer informatie, zie [&#x200B; Hoe de groepen statussen &#x200B;](../../../administration-and-setup/manage-groups/manage-group-statuses/how-groups-inherit-statuses.md) erven.
 
 1. Selecteer het lusje van het objecten type (**Project**, **Taken**, of **Kwesties**) dat u met de status wilt associëren.
 
 1. (Voorwaardelijk) als de status een uitgevende status is, zorg ervoor dat **Hoofdlijst** wordt geselecteerd.
 
-   ![ Hoofdlijst ](assets/master-list.png)
+   ![&#x200B; Hoofdlijst &#x200B;](assets/master-list.png)
 
-   Voor informatie over het aanpassen van de andere uitgevende types (het Rapport van de Bug, de Orde van de Verandering, Uitgave, Verzoek), zie [ standaardkwesties ](../../../administration-and-setup/set-up-workfront/configure-system-defaults/customize-default-issue-types.md) aanpassen.
+   Voor informatie over het aanpassen van de andere uitgevende types (het Rapport van de Bug, de Orde van de Verandering, Uitgave, Verzoek), zie [&#x200B; standaardkwesties &#x200B;](../../../administration-and-setup/set-up-workfront/configure-system-defaults/customize-default-issue-types.md) aanpassen.
 
 1. (Voorwaardelijk) om een nieuwe status tot stand te brengen, klik **voeg een Nieuwe Status** toe.
 
@@ -92,7 +92,7 @@ Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront
 
    Om een bestaande status uit te geven, muis over de status u wilt uitgeven, dan klik **uitgeven** optie die aan uiterst rechts toont.
 
-   ![ status van de Groep ](assets/group-statuses-edit.jpg)
+   ![&#x200B; status van de Groep &#x200B;](assets/group-statuses-edit.jpg)
 
    >[!NOTE]
    >U kunt een status voor uw groep alleen bewerken als:
@@ -156,7 +156,7 @@ Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront
 
    De status is nu beschikbaar voor alle projecten die aan uw groep of subgroep zijn gekoppeld. Als u deze hebt vergrendeld, kunt u deze gebruiken door lagere subgroepen.
 
-   U kunt de status zo configureren dat deze een standaardstatus voor de groep is. Voor meer informatie, zie [ Gebruik een douanestatus als standaardstatus voor een groep ](../../../administration-and-setup/manage-groups/manage-group-statuses/use-custom-statuses-as-default-statuses-group.md).
+   U kunt de status zo configureren dat deze een standaardstatus voor de groep is. Voor meer informatie, zie [&#x200B; Gebruik een douanestatus als standaardstatus voor een groep &#x200B;](../../../administration-and-setup/manage-groups/manage-group-statuses/use-custom-statuses-as-default-statuses-group.md).
 
 ## Een aangepaste status maken voor meerdere groepen
 
@@ -164,15 +164,15 @@ Als u een Workfront-beheerder bent, kunt u een aangepaste status voor meerdere g
 
 Als u een groepsbeheerder (of een beheerder van Workfront) bent, kunt u een douanestatus voor veelvoudige subgroepen binnen een groepshiërarchie tot stand brengen u door een status voor een hogere niveaugroep te creëren beheert, dan het verbergen van die status voor lagere subgroepen die het niet nodig hebben.
 
-1. Als u een beheerder van Workfront bent, creeer een systeem-brede ontgrendelde status zoals die in [ wordt beschreven creeer of geef een status ](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md) uit.
+1. Als u een beheerder van Workfront bent, creeer een systeem-brede ontgrendelde status zoals die in [&#x200B; wordt beschreven creeer of geef een status &#x200B;](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md) uit.
 1. In de doos in de hoger-juiste hoek, schrap **Statussen van het Systeem**, begin typend de naam van een groep waar u de status wilt verbergen, dan klik de naam wanneer het verschijnt.
-1. Beweeg over de status u van de groep wilt verbergen, dan **** klikken uitgeven wanneer het verschijnt.
+1. Beweeg over de status u van de groep wilt verbergen, dan **&#x200B;**&#x200B;klikken uitgeven wanneer het verschijnt.
 
-   ![ geeft status ](assets/hover-click-edit.jpg) uit
+   ![&#x200B; geeft status &#x200B;](assets/hover-click-edit.jpg) uit
 
 1. Laat de **optie van de Status van de Verbergen** toe die verschijnt.
 
-   ![ de status van de Huid ](assets/hide-group-status.png)
+   ![&#x200B; de status van de Huid &#x200B;](assets/hide-group-status.png)
 
 1. Klik **sparen**.
 

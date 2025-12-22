@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # Een flexibel artikel maken in een herhaling
 
-In dit artikel wordt beschreven hoe u een nieuw artikel in het deelvenster Geniet kunt maken wanneer u al in de herhaling werkt. Voor informatie over het creëren van een verhaal van de Gateway van een taak, kwestie, of ander gebied van [!DNL Adobe Workfront], zie [ verhalen aan een bestaande herhaling ](../../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md) toevoegen.
+In dit artikel wordt beschreven hoe u een nieuw artikel in het deelvenster Geniet kunt maken wanneer u al in de herhaling werkt. Voor informatie over het creëren van een verhaal van de Gateway van een taak, kwestie, of ander gebied van [!DNL Adobe Workfront], zie [&#x200B; verhalen aan een bestaande herhaling &#x200B;](../../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md) toevoegen.
 
 ## Toegangsvereisten
 
@@ -39,7 +39,7 @@ In dit artikel wordt beschreven hoe u een nieuw artikel in het deelvenster Genie
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -49,7 +49,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
    {{step1-to-team}}
 
-   1. (Facultatief) klik het **[!UICONTROL Switch team]** pictogram van de pictogram ![ Schakelaar teampictogram ](assets/switch-team-icon.png), dan of selecteer een nieuw team van het Trommel van het drop-down menu of onderzoek naar een team in de onderzoeksbar.
+   1. (Facultatief) klik het **[!UICONTROL Switch team]** pictogram van de pictogram ![&#x200B; Schakelaar teampictogram &#x200B;](assets/switch-team-icon.png), dan of selecteer een nieuw team van het Trommel van het drop-down menu of onderzoek naar een team in de onderzoeksbar.
 
    1. Selecteer **[!UICONTROL Iterations]** in het linkerdeelvenster.
    1. Klik op de naam van de specifieke herhaling waar u een artikel wilt maken.

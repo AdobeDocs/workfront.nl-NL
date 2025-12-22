@@ -19,6 +19,6 @@ ht-degree: 0%
 
 Deze sectie bevat de volgende subsecties:
 
-* [ Burndown ](../../agile/use-scrum-in-an-agile-team/burndown/burndown.md)
-* [ Herhalingen ](../../agile/use-scrum-in-an-agile-team/iterations/iterations.md)
+* [&#x200B; Burndown &#x200B;](../../agile/use-scrum-in-an-agile-team/burndown/burndown.md)
+* [&#x200B; Herhalingen &#x200B;](../../agile/use-scrum-in-an-agile-team/iterations/iterations.md)
 * [[!UICONTROL Scrum] board](../../agile/use-scrum-in-an-agile-team/scrum-board/scrum-board.md)

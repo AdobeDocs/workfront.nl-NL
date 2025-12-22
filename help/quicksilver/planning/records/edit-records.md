@@ -20,7 +20,7 @@ ht-degree: 0%
 
 <span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>
 
-<span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
+<span class="preview"> voor informatie over snelle versies, zie [&#x200B; snelle versies voor uw organisatie &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
 
 
 {{planning-important-intro}}
@@ -29,9 +29,9 @@ U kunt recordgegevens bewerken in Adobe Workfront Planning door de waarden te be
 
 U moet recordtypen maken voordat u records kunt maken en bewerken.
 
-Voor informatie, zie [ recordtypes ](/help/quicksilver/planning/architecture/create-record-types.md) creëren.
+Voor informatie, zie [&#x200B; recordtypes &#x200B;](/help/quicksilver/planning/architecture/create-record-types.md) creëren.
 
-Voor informatie over het creëren van verslagen, zie [ verslagen ](/help/quicksilver/planning/records/create-records.md) creëren.
+Voor informatie over het creëren van verslagen, zie [&#x200B; verslagen &#x200B;](/help/quicksilver/planning/records/create-records.md) creëren.
 
 &lt;!— vermeld hier dat de velden in de weergave Details hetzelfde zijn als die in de tabelweergave — dit artikel is gekoppeld vanuit de recordweergave Beheren om naar deze informatie te verwijzen.—>
 
@@ -67,7 +67,7 @@ Voor informatie over het creëren van verslagen, zie [ verslagen ](/help/quicksi
 </tbody> 
 </table>
 
-Voor meer informatie over de toegangsvereisten van Workfront, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer informatie over de toegangsvereisten van Workfront, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++   
 
@@ -146,7 +146,7 @@ Voor meer informatie over de toegangsvereisten van Workfront, zie [ vereisten va
 * U kunt records niet bulksgewijs bewerken. <!--this will probably change-->
 * URL&#39;s worden alleen herkend als koppelingen in tekstveldtypen voor één regel wanneer ze beginnen met: http://, https://, ftp:// of www. .
 * U kunt een omslagafbeelding aan elke record toevoegen. De afbeelding is uniek voor elke record en is niet van toepassing op alle records van hetzelfde moment.
-* U kunt de volgorde van de velden op een recordpagina bewerken en een omslagafbeelding voor een record toevoegen. Voor meer informatie, zie [ de lay-out van de verslagpagina beheren ](/help/quicksilver/planning/records/manage-the-record-page.md).
+* U kunt de volgorde van de velden op een recordpagina bewerken en een omslagafbeelding voor een record toevoegen. Voor meer informatie, zie [&#x200B; de lay-out van de verslagpagina beheren &#x200B;](/help/quicksilver/planning/records/manage-the-record-page.md).
 * U kunt de begin- en einddatums van een record bewerken door de grootte of de positie van de records in de tijdlijn- en de kalenderweergave te wijzigen.
 
   U kunt de grootte of positie van records niet wijzigen als de begin- en einddatum die u voor de record hebt gekozen, alleen-lezen zijn. Als u bijvoorbeeld opzoekings- of formulevelden gebruikt voor de begin- en einddatum van een record, kunt u de grootte of de positie van de record in een tijdlijn- en kalenderweergave niet wijzigen. <!--this also repeats below, for the timeline and the calendar views; also update there, if this changes-->
@@ -170,11 +170,11 @@ Ga als volgt te werk om de datums van de records te bewerken:
 
 Wanneer u records uit de tabelweergave bewerkt, ziet u welk veld wordt bewerkt door andere gebruikers op het moment dat u de record weergeeft.
 
-Voor meer informatie, zie [ verslagmeningen ](/help/quicksilver/planning/views/manage-record-views.md) leiden.
+Voor meer informatie, zie [&#x200B; verslagmeningen &#x200B;](/help/quicksilver/planning/views/manage-record-views.md) leiden.
 
 Wanneer u een nieuwe record toevoegt na de laatste record in een groep of subgroep, werkt Workfront automatisch de velden bij die zijn opgenomen in de groepen voor de nieuwe records. U kunt deze velden desgewenst handmatig bewerken en de records uit de groep verwijderen.
 
-Voor informatie, zie [ verslagen ](/help/quicksilver/planning/records/create-records.md) creëren.
+Voor informatie, zie [&#x200B; verslagen &#x200B;](/help/quicksilver/planning/records/create-records.md) creëren.
 
 {{step1-to-planning}}
 
@@ -189,16 +189,16 @@ Voor informatie, zie [ verslagen ](/help/quicksilver/planning/records/create-rec
    De records die aan het geselecteerde recordtype zijn gekoppeld, worden in de tabelweergave weergegeven.
 1. Klik in de rij van een record om informatie over de record inline te bewerken.
 
-   ![ geef verslagparagraafgebied met het formatteren van lijstmening ](assets/edit-record-paragraph-field-with-formatting-table-view.png) uit
+   ![&#x200B; geef verslagparagraafgebied met het formatteren van lijstmening &#x200B;](assets/edit-record-paragraph-field-with-formatting-table-view.png) uit
 
    >[!TIP]
    >
    >  U kunt de gegevens voor de volgende velden niet bewerken, omdat het alleen-lezen is en Workfront deze automatisch bijwerkt:
    >  
-   >  * Gekoppelde velden die worden gemaakt door het verbinden van recordtypen. Voor meer informatie, zie [ Connect verslagtypes ](/help/quicksilver/planning/architecture/connect-record-types.md).
+   >  * Gekoppelde velden die worden gemaakt door het verbinden van recordtypen. Voor meer informatie, zie [&#x200B; Connect verslagtypes &#x200B;](/help/quicksilver/planning/architecture/connect-record-types.md).
    >  * Velden van de volgende typen: Gemaakt door, Gemaakt op datum, Laatst gewijzigd door, Datum Laatst gewijzigd, Formule.
 
-1. (Facultatief en voorwaardelijk) wanneer u een alinea-type gebied uitgeeft, gebruik de volgende **het formatteren opties van de Tekst 0} Rich {:**
+1. (Facultatief en voorwaardelijk) wanneer u een alinea-type gebied uitgeeft, gebruik de volgende **het formatteren opties van de Tekst 0&rbrace; Rich &lbrace;:**
 
    * Vet
    * Cursief
@@ -207,9 +207,9 @@ Voor informatie, zie [ verslagen ](/help/quicksilver/planning/records/create-rec
    * Een lijst met opsommingstekens toevoegen
    * Een genummerde lijst toevoegen
 
-   ![ rijke teksttoolbar op paragraafgebied ](assets/rich-text-toolbar-on-paragraph-field.png)
+   ![&#x200B; rijke teksttoolbar op paragraafgebied &#x200B;](assets/rich-text-toolbar-on-paragraph-field.png)
 
-1. (Optioneel) Dubbelklik op een verbonden recordveld om gekoppelde records of objecten aan een andere record toe te voegen. Voor meer informatie, zie [ verbindt verslagen ](/help/quicksilver/planning/records/connect-records.md).
+1. (Optioneel) Dubbelklik op een verbonden recordveld om gekoppelde records of objecten aan een andere record toe te voegen. Voor meer informatie, zie [&#x200B; verbindt verslagen &#x200B;](/help/quicksilver/planning/records/connect-records.md).
 1. De pers **gaat** op uw toetsenbord binnen of klikt buiten een rij om uw veranderingen te bewaren. De wijzigingen worden automatisch opgeslagen. A **de Bewaarde** indicatorvertoningen kort in de hoger-juiste hoek van de lijstmening om te tonen dat de veranderingen werden bewaard.
 
 
@@ -221,7 +221,7 @@ Voor informatie, zie [ verslagen ](/help/quicksilver/planning/records/create-rec
    * Kopieer de informatie uit één cel en selecteer vervolgens meerdere cellen en plak dezelfde informatie in meerdere cellen. U kunt meerdere cellen selecteren en dezelfde gegevens in meerdere cellen van aangrenzende rijen en kolommen plakken.
    * Selecteer de rechterbenedenhoek van een bestaande cel die de informatie bevat die u wilt kopiëren, en sleep deze vervolgens over de aangrenzende cellen waar u dezelfde informatie wilt plakken. Alle cellen moeten hetzelfde type informatie bevatten.
 
-     ![ Dragable laag-juiste hoek voor exemplaardeeg in lijstmening ](assets/dragable-lower-right-corner-for-copy-paste-in-table-view.png)
+     ![&#x200B; Dragable laag-juiste hoek voor exemplaardeeg in lijstmening &#x200B;](assets/dragable-lower-right-corner-for-copy-paste-in-table-view.png)
 
 
    * Kopieer een of meerdere cellen van een externe bron (bijvoorbeeld een Excel-bestand) en plak ze in een van de volgende veldtypen:
@@ -242,7 +242,7 @@ Voor informatie, zie [ verslagen ](/help/quicksilver/planning/records/create-rec
    >* U kunt geen veldwaarden kopiëren en plakken op de recordpagina. Deze functionaliteit wordt alleen ondersteund in de tabelweergave van een recordtype.
    >* U kunt geen veldwaarden kopiëren en plakken voor de volgende veldtypen:
    >
-   >    * Velden opzoeken die worden gemaakt bij het verbinden van recordtypen. U kunt gekoppelde recordvelden kopiëren en plakken. Voor meer informatie, zie [ Connect verslagtypes ](/help/quicksilver/planning/architecture/connect-record-types.md).
+   >    * Velden opzoeken die worden gemaakt bij het verbinden van recordtypen. U kunt gekoppelde recordvelden kopiëren en plakken. Voor meer informatie, zie [&#x200B; Connect verslagtypes &#x200B;](/help/quicksilver/planning/architecture/connect-record-types.md).
    >    * Velden van de volgende typen: Gemaakt door, Gemaakt op, Laatst gewijzigd door, Datum Laatst gewijzigd
 
 1. (Optioneel) Gebruik de volgende sneltoetsen om het bewerken of kopiëren en plakken van recordgegevens ongedaan te maken of opnieuw uit te voeren:
@@ -254,18 +254,18 @@ Voor informatie, zie [ verslagen ](/help/quicksilver/planning/records/create-rec
    >
    >    U kunt de sneltoetsen meerdere malen achter elkaar gebruiken om meerdere wijzigingen ongedaan te maken.
 
-1. (Optioneel) Voeg een miniatuur toe aan een record. Voor informatie, zie [ een duimnagel aan een verslag ](/help/quicksilver/planning/records/add-thumbnails-to-records.md) toevoegen.
+1. (Optioneel) Voeg een miniatuur toe aan een record. Voor informatie, zie [&#x200B; een duimnagel aan een verslag &#x200B;](/help/quicksilver/planning/records/add-thumbnails-to-records.md) toevoegen.
 
 
 ### Een record bewerken in de tijdlijnweergave van een recordtype
 
 <!--add another step about drag and drop here when that is available-->
 
-1. Open de pagina met recordtypen in een tijdlijnweergave. Voor informatie, zie [ de chronologiemening ](/help/quicksilver/planning/views/manage-the-timeline-view.md) leiden.
+1. Open de pagina met recordtypen in een tijdlijnweergave. Voor informatie, zie [&#x200B; de chronologiemening &#x200B;](/help/quicksilver/planning/views/manage-the-timeline-view.md) leiden.
 
 1. Houd de muisaanwijzer boven de uiteinden van de balk van een record en klik, sleep de marge ervan naar een andere datum. Hiermee wordt automatisch de begin- of einddatum van de record bijgewerkt.
 
-   ![ Linker-eind bar op chronologiemening resize ](assets/left-end-bar-handle-to-resize-timeline-view.png)
+   ![&#x200B; Linker-eind bar op chronologiemening resize &#x200B;](assets/left-end-bar-handle-to-resize-timeline-view.png)
 
 1. Klik op een recordbalk en houd deze ingedrukt en sleep deze naar een andere positie om de tijdlijn en datums bij te werken. De begin- en einddatum van de record worden automatisch bijgewerkt.
 
@@ -275,16 +275,16 @@ Voor informatie, zie [ verslagen ](/help/quicksilver/planning/records/create-rec
 
 1. Klik op de balk van een record om het detailgebied te openen en alle velden te bewerken.
 
-   Voor informatie, zie [ een verslag van de voorproef van het verslag in een mening ](#edit-a-record-from-the-records-preview-in-a-view) sectie in dit artikel uitgeven.
+   Voor informatie, zie [&#x200B; een verslag van de voorproef van het verslag in een mening &#x200B;](#edit-a-record-from-the-records-preview-in-a-view) sectie in dit artikel uitgeven.
 
 ### Een record bewerken in de kalenderweergave van een recordtype
 
 <!--add another step about drag and drop here when that is available-->
 
-1. Open de pagina met recordtypen in een kalenderweergave. Voor informatie, zie [ de kalendermening ](/help/quicksilver/planning/views/manage-the-calendar-view.md) leiden.
+1. Open de pagina met recordtypen in een kalenderweergave. Voor informatie, zie [&#x200B; de kalendermening &#x200B;](/help/quicksilver/planning/views/manage-the-calendar-view.md) leiden.
 1. (Voorwaardelijk) Houd de muisaanwijzer boven de uiteinden van de balk met records in de kalenderweergave en klik, sleep de marges naar een andere datum. Hiermee wordt automatisch de begin- of einddatum van de record bijgewerkt.
 
-   ![ Linker-eind bar op kalendermening resize ](assets/left-end-bar-handle-to-resize-calendar-monthly-view.png)
+   ![&#x200B; Linker-eind bar op kalendermening resize &#x200B;](assets/left-end-bar-handle-to-resize-calendar-monthly-view.png)
 
 1. Klik op een recordbalk en houd deze ingedrukt en sleep deze naar een andere positie om de tijdlijn en datums bij te werken. De begin- en einddatum van de record worden automatisch bijgewerkt.
 
@@ -294,7 +294,7 @@ Voor informatie, zie [ verslagen ](/help/quicksilver/planning/records/create-rec
 
 1. Klik op de balk van een record om het detailgebied te openen en alle velden te bewerken.
 
-   Voor informatie, zie [ een verslag van de voorproef van het verslag in een mening ](#edit-a-record-from-the-records-preview-in-a-view) sectie in dit artikel uitgeven.
+   Voor informatie, zie [&#x200B; een verslag van de voorproef van het verslag in een mening &#x200B;](#edit-a-record-from-the-records-preview-in-a-view) sectie in dit artikel uitgeven.
 
 ### Een record uit de voorvertoning van de record bewerken in een weergave
 
@@ -312,13 +312,13 @@ Voor informatie, zie [ verslagen ](/help/quicksilver/planning/records/create-rec
 
    of
 
-   Van de lijstmening, klik het **Open pictogram van details** pictogram ![ Open detailspictogram op het gebied van de lijstnaam ](assets/open-details-icon-in-table-name-field.png) in de eerste kolom. De voorvertoning van de record wordt in de weergave geopend.
+   Van de lijstmening, klik het **Open pictogram van details** pictogram ![&#x200B; Open detailspictogram op het gebied van de lijstnaam &#x200B;](assets/open-details-icon-in-table-name-field.png) in de eerste kolom. De voorvertoning van de record wordt in de weergave geopend.
 
-   ![ doos van Details ](assets/details-box.png)
+   ![&#x200B; doos van Details &#x200B;](assets/details-box.png)
 
 1. (Facultatief) klik het **Meer** menu rechts van de titel van het verslag, dan klik **anders noemen**. Hiermee werkt u het veld bij dat wordt weergegeven als de titel van de record.
 
-   De titel van de record is het primaire veld van de record bij weergave in een tabelweergave. Voor informatie, zie [ Primair gebiedsoverzicht ](/help/quicksilver/planning/fields/primary-field-overview.md).
+   De titel van de record is het primaire veld van de record bij weergave in een tabelweergave. Voor informatie, zie [&#x200B; Primair gebiedsoverzicht &#x200B;](/help/quicksilver/planning/fields/primary-field-overview.md).
 
 1. Bewerk de veldinformatie in de voorvertoning van de record.
 
@@ -326,26 +326,26 @@ Voor informatie, zie [ verslagen ](/help/quicksilver/planning/records/create-rec
    >
    >  U kunt de gegevens voor de volgende velden niet bewerken, omdat het alleen-lezen is en Workfront deze automatisch bijwerkt:
    >  
-   >  * Velden opzoeken van andere records die zijn gemaakt door de recordtypen aan te sluiten. Voor meer informatie, zie [ Connect verslagtypes ](/help/quicksilver/planning/architecture/connect-record-types.md).
+   >  * Velden opzoeken van andere records die zijn gemaakt door de recordtypen aan te sluiten. Voor meer informatie, zie [&#x200B; Connect verslagtypes &#x200B;](/help/quicksilver/planning/architecture/connect-record-types.md).
    >  * Velden van de volgende typen: Gemaakt door, Gemaakt op datum, Laatst gewijzigd door, Datum Laatst gewijzigd, Formule.
 
-1. (Facultatief) klik **omslag** toevoegen om een omslagbeeld aan het verslag toe te voegen. Voor meer informatie, zie [ een omslagbeeld aan een verslag ](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md) toevoegen.
+1. (Facultatief) klik **omslag** toevoegen om een omslagbeeld aan het verslag toe te voegen. Voor meer informatie, zie [&#x200B; een omslagbeeld aan een verslag &#x200B;](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md) toevoegen.
 
-1. (Facultatief) Beweeg over het duimnagelpictogram, dan klik **Meer** ![ Meer menu ](assets/more-menu.png) > **geef duimnagel** uit om een duimnagelbeeld toe te voegen. Voor informatie, zie [ een duimnagel aan een verslag ](/help/quicksilver/planning/records/add-thumbnails-to-records.md) toevoegen.
+1. (Facultatief) Beweeg over het duimnagelpictogram, dan klik **Meer** ![&#x200B; Meer menu &#x200B;](assets/more-menu.png) > **geef duimnagel** uit om een duimnagelbeeld toe te voegen. Voor informatie, zie [&#x200B; een duimnagel aan een verslag &#x200B;](/help/quicksilver/planning/records/add-thumbnails-to-records.md) toevoegen.
 
    Workfront slaat uw wijzigingen automatisch op.
 
-1. (Facultatief) klik de **indicator in real time** ![ in real time indicatorpictogram ](assets/real-time-indicator-icon.png) in de hoger-juiste hoek van de de voorproefdoos van het verslag, dan laat **Medewerkers** het plaatsen toe om de gebieden te benadrukken die door anderen in real time worden uitgegeven.
+1. (Facultatief) klik de **indicator in real time** ![&#x200B; in real time indicatorpictogram &#x200B;](assets/real-time-indicator-icon.png) in de hoger-juiste hoek van de de voorproefdoos van het verslag, dan laat **Medewerkers** het plaatsen toe om de gebieden te benadrukken die door anderen in real time worden uitgegeven.
 
    De namen en avatars van alle gebruikers die tot het verslag tezelfdertijd toegang hebben tonen in dit gebied.
 
    Als de instelling is uitgeschakeld, worden de avatars en namen weergegeven in het gebied van de tijdindicator in real time en worden de velden die worden bewerkt niet gemarkeerd.
 
-   ![ re-time indicator uitgevouwen verslagvoorproefdoos ](assets/real-time-indicator-expanded-record-preview-box.png)
+   ![&#x200B; re-time indicator uitgevouwen verslagvoorproefdoos &#x200B;](assets/real-time-indicator-expanded-record-preview-box.png)
 
-1. (Facultatief) klik het **menu van de Uitvoer** pictogram van de Uitvoer in verslagdetailpagina ![ om de details van het verslag uit te voeren. ](assets/export-icon-in-record-details-page.png) Voor informatie, zie [ de details van een verslag ](/help/quicksilver/planning/records/export-the-record-page.md) uitvoeren.
+1. (Facultatief) klik het **menu van de Uitvoer** pictogram van de Uitvoer in verslagdetailpagina ![&#x200B; om de details van het verslag uit te voeren. &#x200B;](assets/export-icon-in-record-details-page.png) Voor informatie, zie [&#x200B; de details van een verslag &#x200B;](/help/quicksilver/planning/records/export-the-record-page.md) uitvoeren.
 
-1. (Facultatief) klik **Open in nieuw lusje** pictogram ![ Open details in een nieuw lusjepictogram ](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> in de hoger-juiste hoek van de voorproef van het verslag om de pagina van het verslag in een nieuw lusje te openen. Ga verder het uitgeven van het verslag zoals die in [ wordt beschreven geef een verslag van de pagina van het verslag ](#edit-a-record-from-the-records-page) sectie in dit artikel uit.
+1. (Facultatief) klik **Open in nieuw lusje** pictogram ![&#x200B; Open details in een nieuw lusjepictogram &#x200B;](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> in de hoger-juiste hoek van de voorproef van het verslag om de pagina van het verslag in een nieuw lusje te openen. Ga verder het uitgeven van het verslag zoals die in [&#x200B; wordt beschreven geef een verslag van de pagina van het verslag &#x200B;](#edit-a-record-from-the-records-page) sectie in dit artikel uit.
 
 ### Een record op de recordpagina bewerken
 
@@ -361,19 +361,19 @@ Voor informatie, zie [ verslagen ](/help/quicksilver/planning/records/create-rec
 
 1. Voer een van de volgende handelingen uit:
 
-   * Van om het even welke mening, toegang tot de voorproef van het verslag, zoals die in [ wordt beschreven geef een verslag van de voorproef van het verslag in een mening ](#edit-a-record-from-the-records-preview-in-a-view) sectie in dit artikel uit, dan klik **Open in nieuw lusje** pictogram ![ Open details in een nieuw lusjepictogram ](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> in de hoger-juiste hoek van de verslagvoorproef om de pagina van het verslag in een nieuw lusje te openen.
+   * Van om het even welke mening, toegang tot de voorproef van het verslag, zoals die in [&#x200B; wordt beschreven geef een verslag van de voorproef van het verslag in een mening &#x200B;](#edit-a-record-from-the-records-preview-in-a-view) sectie in dit artikel uit, dan klik **Open in nieuw lusje** pictogram ![&#x200B; Open details in een nieuw lusjepictogram &#x200B;](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> in de hoger-juiste hoek van de verslagvoorproef om de pagina van het verslag in een nieuw lusje te openen.
 
-   * Van de **mening van de Lijst**, houd over de naam van een verslag, dan klik het **Meer** menu ![ Meer menu ](assets/more-menu.png), dan klik **Mening**
+   * Van de **mening van de Lijst**, houd over de naam van een verslag, dan klik het **Meer** menu ![&#x200B; Meer menu &#x200B;](assets/more-menu.png), dan klik **Mening**
 
-     ![ Contextueel menu voor verslagrij ](assets/contextual-menu-for-record-row.png)
+     ![&#x200B; Contextueel menu voor verslagrij &#x200B;](assets/contextual-menu-for-record-row.png)
 
      De recordpagina wordt geopend.
 
-     ![ pagina van Details ](assets/details-page.png)
+     ![&#x200B; pagina van Details &#x200B;](assets/details-page.png)
 
 1. (Facultatief) klik het **Meer** menu rechts van de titel van het verslag, dan klik **anders noemen**. Hiermee werkt u het veld bij dat wordt weergegeven als de titel van de record.
 
-   De titel van de record is het primaire veld van de record bij weergave in een tabelweergave. Voor informatie, zie [ de lijstmening ](/help/quicksilver/planning/views/manage-the-table-view.md) leiden.
+   De titel van de record is het primaire veld van de record bij weergave in een tabelweergave. Voor informatie, zie [&#x200B; de lijstmening &#x200B;](/help/quicksilver/planning/views/manage-the-table-view.md) leiden.
 
 1. Klik op een bewerkbaar veld op de recordpagina om deze te bewerken.
 
@@ -381,7 +381,7 @@ Voor informatie, zie [ verslagen ](/help/quicksilver/planning/records/create-rec
    >
    >  U kunt de gegevens voor de volgende velden niet bewerken, omdat het alleen-lezen is en Workfront deze automatisch bijwerkt:
    >  
-   >  * Gekoppelde velden die worden gemaakt door het verbinden van recordtypen. Voor meer informatie, zie [ Connect verslagtypes ](/help/quicksilver/planning/architecture/connect-record-types.md).
+   >  * Gekoppelde velden die worden gemaakt door het verbinden van recordtypen. Voor meer informatie, zie [&#x200B; Connect verslagtypes &#x200B;](/help/quicksilver/planning/architecture/connect-record-types.md).
    >  * Velden van de volgende typen: Gemaakt door, Gemaakt op datum, Laatst gewijzigd door, Datum Laatst gewijzigd, Formule.
 
 1. (Optioneel) Klik op het informatiepictogram rechts van een veld dat de beschrijving van een veld weergeeft.
@@ -389,32 +389,32 @@ Voor informatie, zie [ verslagen ](/help/quicksilver/planning/records/create-rec
 
    of
 
-   Beweeg over het bestaande omslagbeeld, dan klik **Meer** menu ![ Meer menu ](assets/more-menu.png) > **uploadt** om een nieuw omslagbeeld voor het verslag toe te voegen.
+   Beweeg over het bestaande omslagbeeld, dan klik **Meer** menu ![&#x200B; Meer menu &#x200B;](assets/more-menu.png) > **uploadt** om een nieuw omslagbeeld voor het verslag toe te voegen.
 
-   Voor meer informatie, zie [ een omslagbeeld aan een verslag ](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md) toevoegen.
+   Voor meer informatie, zie [&#x200B; een omslagbeeld aan een verslag &#x200B;](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md) toevoegen.
 
-1. (Facultatief) Beweeg over een bestaande duimnagel, of het **duimnagelpictogram** ![ pictogram van het Verslag op detailspagina ](assets/record-thumbnail-icon-on-details-page.png), dan klik het **Meer** menu ![ Meer menu ](assets/more-menu.png) > **geeft duimnagel** uit om een duimnagel voor het verslag toe te voegen.
+1. (Facultatief) Beweeg over een bestaande duimnagel, of het **duimnagelpictogram** ![&#x200B; pictogram van het Verslag op detailspagina &#x200B;](assets/record-thumbnail-icon-on-details-page.png), dan klik het **Meer** menu ![&#x200B; Meer menu &#x200B;](assets/more-menu.png) > **geeft duimnagel** uit om een duimnagel voor het verslag toe te voegen.
 
-   Voor meer informatie, zie [ een duimnagel aan een verslag ](/help/quicksilver/planning/records/add-thumbnails-to-records.md) toevoegen.
+   Voor meer informatie, zie [&#x200B; een duimnagel aan een verslag &#x200B;](/help/quicksilver/planning/records/add-thumbnails-to-records.md) toevoegen.
 
    Workfront slaat uw wijzigingen automatisch op.
 
-1. (Facultatief) klik de **indicator in real time** ![ in real time indicatorpictogram ](assets/real-time-indicator-icon.png) in de hoger-juiste hoek van de pagina van het verslag, dan laat **samenwerkers** toe plaatsen tonen om de gebieden te benadrukken die door anderen in real time worden uitgegeven.
+1. (Facultatief) klik de **indicator in real time** ![&#x200B; in real time indicatorpictogram &#x200B;](assets/real-time-indicator-icon.png) in de hoger-juiste hoek van de pagina van het verslag, dan laat **samenwerkers** toe plaatsen tonen om de gebieden te benadrukken die door anderen in real time worden uitgegeven.
 
    De namen en avatars van alle gebruikers die tot het verslag tezelfdertijd toegang hebben tonen in dit gebied.
 
    Als de instelling is uitgeschakeld, worden de avatars en namen weergegeven in het gebied van de tijdindicator in real time en worden de velden die worden bewerkt niet gemarkeerd.
 
-   ![ Echte - tijdindicator uitgebreide doos van de verslagvoorproef ](assets/real-time-indicator-expanded-record-preview-box.png)
+   ![&#x200B; Echte - tijdindicator uitgebreide doos van de verslagvoorproef &#x200B;](assets/real-time-indicator-expanded-record-preview-box.png)
 
-1. (Facultatief) klik het **menu van de Uitvoer** pictogram van de Uitvoer in verslagdetailpagina ![ om de details van het verslag uit te voeren. ](assets/export-icon-in-record-details-page.png) Voor informatie, zie [ de details van een verslag ](/help/quicksilver/planning/records/export-the-record-page.md) uitvoeren.
+1. (Facultatief) klik het **menu van de Uitvoer** pictogram van de Uitvoer in verslagdetailpagina ![&#x200B; om de details van het verslag uit te voeren. &#x200B;](assets/export-icon-in-record-details-page.png) Voor informatie, zie [&#x200B; de details van een verslag &#x200B;](/help/quicksilver/planning/records/export-the-record-page.md) uitvoeren.
 
 
 ## Een record uit een Workfront-object bewerken in de sectie Planning
 
 Nadat u records met Workfront-objecten hebt verbonden, kunt u Workfront Planning-records in Workfront bewerken vanuit de sectie Planning van het object.
 
-Voor meer informatie, zie [ recordverbindingen van de voorwerpen van Workfront beheren ](/help/quicksilver/planning/records/manage-records-in-planning-section.md).
+Voor meer informatie, zie [&#x200B; recordverbindingen van de voorwerpen van Workfront beheren &#x200B;](/help/quicksilver/planning/records/manage-records-in-planning-section.md).
 
 ## Veldinstellingen voor één of meerdere selecties bewerken bij het bijwerken van de waarden
 
@@ -430,19 +430,19 @@ Als u informatie in een veld met één of meerdere selecties bijwerkt, kunt u ni
 
 U hebt mogelijk een veld met de naam Status dat één keuze bevat en de opties Nieuw en Gesloten bevat. U wilt dan een keuze toevoegen voor de status In uitvoering. U kunt de keuze toevoegen door een van de volgende handelingen uit te voeren:
 
-* Het veld bewerken. Voor informatie, zie [ gebieden ](/help/quicksilver/planning/fields/edit-fields.md) uitgeven
+* Het veld bewerken. Voor informatie, zie [&#x200B; gebieden &#x200B;](/help/quicksilver/planning/fields/edit-fields.md) uitgeven
 * Een nieuwe optie toevoegen tijdens het bewerken van de record in de tabelweergave, zoals hieronder wordt beschreven.
 
 Een nieuwe keuze toevoegen aan een bestaand selectieveld wanneer u een record bewerkt:
 
 1. Ga naar een pagina met recordtypen en open de tabelweergave.
-1. Voeg het veld Eén of Meerdere selecties toe waaraan u een keuze wilt toevoegen in de tabelweergave als een nieuwe kolom. Voor informatie, zie [ gebieden ](/help/quicksilver/planning/fields/create-fields.md) creëren.
+1. Voeg het veld Eén of Meerdere selecties toe waaraan u een keuze wilt toevoegen in de tabelweergave als een nieuwe kolom. Voor informatie, zie [&#x200B; gebieden &#x200B;](/help/quicksilver/planning/fields/create-fields.md) creëren.
 1. U kunt het veld inline bewerken door te dubbelklikken op de cel voor het veld.
 1. Typ de naam van de keus u wilt toevoegen, dan klik **kiezen** toevoegen.
 
-   ![ voeg keus op enig-uitgezocht gebied in lijstmening toe ](assets/add-choice-in-table-view-for-single-select-field.png)
+   ![&#x200B; voeg keus op enig-uitgezocht gebied in lijstmening toe &#x200B;](assets/add-choice-in-table-view-for-single-select-field.png)
 
    De nieuwe keuze wordt direct toegevoegd aan het veld Eén keuze.
 
-   <span class="preview"> een nieuwe keuzevrijheid wordt ook toegevoegd aan elke keus. U kunt de keuzevelden gebruiken in API-aanroepen of andere integraties. Voor informatie, zie [ gebieden ](/help/quicksilver/planning/fields/create-fields.md) creëren. </span>
+   <span class="preview"> een nieuwe keuzevrijheid wordt ook toegevoegd aan elke keus. U kunt de keuzevelden gebruiken in API-aanroepen of andere integraties. Voor informatie, zie [&#x200B; gebieden &#x200B;](/help/quicksilver/planning/fields/create-fields.md) creëren. </span>
 

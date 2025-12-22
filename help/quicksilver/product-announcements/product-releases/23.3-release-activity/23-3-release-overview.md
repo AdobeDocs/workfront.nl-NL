@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Deze pagina bevat informatie over de functionaliteit die is opgenomen in de release 23.3. Deze verbeteringen zijn beschikbaar gesteld in de productieomgeving met de release 23.3 op 20 en 21 juli 2023.
 
-De release van 23.3 webinar was op 29 juni 2023. U kunt [ voor webinar registreren om een opname op bestelling hier ](https://webinars.on24.com/adobe_workfront/whatsnewin233?partnerref=exlreleaseoverview) te bekijken.
+De release van 23.3 webinar was op 29 juni 2023. U kunt [&#x200B; voor webinar registreren om een opname op bestelling hier &#x200B;](https://webinars.on24.com/adobe_workfront/whatsnewin233?partnerref=exlreleaseoverview) te bekijken.
 
 <span class="preview"> off-cycle eigenschappen (die die aan Productie voorafgaand aan de 23.3 versiedatum vrijgeven) worden benadrukt in geel.</span>
 
@@ -36,7 +36,7 @@ De release van 23.3 webinar was op 29 juni 2023. U kunt [ voor webinar registrer
 >| <ul><li>23.8 (31 augustus 2023)</li><li>23.9 (28 september 2023)</li><li>23.10 (26 oktober 2023)</li></ul> | <ul><li>23.10 uur (week 26 oktober 2023)</li></ul> |
 >| <ul><li>Geen release (november 2023)</li><li>Geen vrijgave (december 2023)</li><li>24.1 (januari 2024)</li></ul> | <ul><li>24.1 (januari 2024)</li></ul> |
 >
->Voor meer informatie over het snelle versieproces, zie [ toelaten of onbruikbaar maken het snelle versieproces ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
+>Voor meer informatie over het snelle versieproces, zie [&#x200B; toelaten of onbruikbaar maken het snelle versieproces &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
 
 ## Verbeteringen voor Adobe Workfront
 
@@ -744,7 +744,7 @@ De release van 23.3 webinar was op 29 juni 2023. U kunt [ voor webinar registrer
 
 ### Workfront Fusion-verbeteringen
 
-Nieuwe functies in Workfront Fusion zijn beschikbaar in Production op een cadence buiten de releaseplanning van 23.3. Voor meer informatie over de recentste eigenschappen, zie [ de versieactiviteit van de Fusie van Adobe Workfront ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
+Nieuwe functies in Workfront Fusion zijn beschikbaar in Production op een cadence buiten de releaseplanning van 23.3. Voor meer informatie over de recentste eigenschappen, zie [&#x200B; de versieactiviteit van de Fusie van Adobe Workfront &#x200B;](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 
 ### Verbeteringen in Workfront Scenario Planner
 
@@ -752,19 +752,19 @@ Er zijn op dit punt in de release geen Scenario Planner-updates. Dit gebied word
 
 ### Verbeteringen voor Workfront Proof
 
-Nieuwe functies die binnen de releaseperiode van 23.3 naar Workfront Proof worden uitgebracht. Voor informatie over deze nieuwe eigenschappen nu beschikbaar in Voorproef, zie [ Adobe Workfront Bewijs met de 23.3 versie ](/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-overview.md).
+Nieuwe functies die binnen de releaseperiode van 23.3 naar Workfront Proof worden uitgebracht. Voor informatie over deze nieuwe eigenschappen nu beschikbaar in Voorproef, zie [&#x200B; Adobe Workfront Bewijs met de 23.3 versie &#x200B;](/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-overview.md).
 
 ### Verbeteringen voor Workfront-doelen
 
-Nieuwe functies die binnen de releaseperiode van 23.3 beschikbaar komen bij de release Workfront Goals. Voor informatie over deze nieuwe eigenschappen nu beschikbaar in Voorproef, zie [ de Doelen van Adobe Workfront met de 23.3 versie ](/help/quicksilver/product-announcements/product-releases/goals-release-activity/goals-23-3-release/goals-23-3-release.md).
+Nieuwe functies die binnen de releaseperiode van 23.3 beschikbaar komen bij de release Workfront Goals. Voor informatie over deze nieuwe eigenschappen nu beschikbaar in Voorproef, zie [&#x200B; de Doelen van Adobe Workfront met de 23.3 versie &#x200B;](/help/quicksilver/product-announcements/product-releases/goals-release-activity/goals-23-3-release/goals-23-3-release.md).
 
 ### API-versie 16
 
 Voor API versie 16 hebben we een aantal bronnen en eindpunten gewijzigd. Sommige wijzigingen ondersteunen nieuwe functionaliteit en andere maken het voor u gemakkelijker om de informatie te gebruiken die beschikbaar is via de API.
 
-Voor informatie over wat nieuw en bijgewerkt is, zie [ wat in API versie 16 ](/help/quicksilver/wf-api/api/new-api-version-16.md) nieuw is.
+Voor informatie over wat nieuw en bijgewerkt is, zie [&#x200B; wat in API versie 16 &#x200B;](/help/quicksilver/wf-api/api/new-api-version-16.md) nieuw is.
 
-Voor informatie over API versies, zie [ API versioning en steunprogramma ](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
+Voor informatie over API versies, zie [&#x200B; API versioning en steunprogramma &#x200B;](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
 
 ### Workfront-onderhoudsupdates
 
@@ -772,7 +772,7 @@ Voor informatie over de onderhoudsupdates die tijdens de versie 22.3 worden gema
 
 ### Training-updates
 
-Ontdek de nieuwste updates van leerprogramma&#39;s, leerpaden, video&#39;s en handleidingen voor elke Adobe Workfront-productrelease. Voor meer informatie, zie &quot;wat&quot;sectie van de [ pagina van de Leerprogramma&#39;s van Workfront ](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) Nieuw is.
+Ontdek de nieuwste updates van leerprogramma&#39;s, leerpaden, video&#39;s en handleidingen voor elke Adobe Workfront-productrelease. Voor meer informatie, zie &quot;wat&quot;sectie van de [&#x200B; pagina van de Leerprogramma&#39;s van Workfront &#x200B;](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) Nieuw is.
 
 ### Functionaliteit die binnenkort uit Workfront wordt verwijderd
 

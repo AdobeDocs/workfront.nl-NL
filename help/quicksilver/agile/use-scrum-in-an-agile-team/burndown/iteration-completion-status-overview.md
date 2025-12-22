@@ -20,7 +20,7 @@ De voltooiingsinformatie die in dit artikel wordt beschreven wordt getoond boven
 
 Voltooiingspercentage van een herhaling:
 
-![ het paneel van herhalingsdetails ](assets/burndown-percentcomplete-350x47.png)
+![&#x200B; het paneel van herhalingsdetails &#x200B;](assets/burndown-percentcomplete-350x47.png)
 
 Deze informatie wijst op de voltooiingsstatus van de herhaling voor de dag die momenteel in de burndown grafiek wordt geselecteerd. Standaard wordt de voltooiingsstatus weergegeven op basis van de datum van de huidige dag.
 
@@ -37,7 +37,7 @@ De volgende informatie is beschikbaar:
 
   Punten en uren zijn gekoppeld aan artikelen. Wanneer een artikel is gemarkeerd als [!UICONTROL Complete] , worden de punten of uren van dat artikel gemarkeerd als Voltooid.
 
-  Standaard worden punten gebruikt. U kunt dit veranderen door de montages voor uw team te wijzigen, zoals die in [ wordt beschreven leidt tot een Gelijk team ](../../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md).
+  Standaard worden punten gebruikt. U kunt dit veranderen door de montages voor uw team te wijzigen, zoals die in [&#x200B; wordt beschreven leidt tot een Gelijk team &#x200B;](../../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md).
 
 * **[!UICONTROL Points / Hours Per Day]:** (Beschikbaar slechts in herhalingen) het gemiddelde aantal punten of uren duidelijk [!UICONTROL Complete] elke dag sinds het begin van de herhaling door de huidige dag.
 
@@ -49,8 +49,8 @@ De volgende informatie is beschikbaar:
 
   Wanneer de [!UICONTROL Estimated Completion] -datum later is dan de einddatum die voor de herhaling is gedefinieerd, wordt het aantal resterende werkdagen tussen haakjes weergegeven als een rood aantal werkdagen naast de [!UICONTROL Estimated Completion] -datum.
 
-  Wanneer de [!UICONTROL Estimated Completion] -datum eerder is dan de geplande einddatum van de herhaling, wordt het aantal resterende werkdagen groen weergegeven. (De einddatum voor de herhaling wordt gespecificeerd wanneer de herhaling wordt gepland, zoals die in [ wordt beschreven leidt tot een herhaling ](../../../agile/use-scrum-in-an-agile-team/iterations/create-an-iteration.md); de einddatum voor het project is [!UICONTROL Planned Completion Date], of het is de huidige datum als [!UICONTROL Planned Completion Date] in het verleden is. [!UICONTROL Planned Completion Date] voor het project wordt berekend op basis van de duur van taken in het project.) Wanneer u de herhaling plant, als u de einddatum van de herhaling voor een niet-werkende dag plaatst en de herhaling op tijd eindigt, wordt de Geschatte datum van de Voltooiing geplaatst voor de laatste werkdag voorafgaand aan de datum van het herhalingseind die u plaatst (omdat het werk niet gepland is om op niet-werkende dagen te worden gebrand).
+  Wanneer de [!UICONTROL Estimated Completion] -datum eerder is dan de geplande einddatum van de herhaling, wordt het aantal resterende werkdagen groen weergegeven. (De einddatum voor de herhaling wordt gespecificeerd wanneer de herhaling wordt gepland, zoals die in [&#x200B; wordt beschreven leidt tot een herhaling &#x200B;](../../../agile/use-scrum-in-an-agile-team/iterations/create-an-iteration.md); de einddatum voor het project is [!UICONTROL Planned Completion Date], of het is de huidige datum als [!UICONTROL Planned Completion Date] in het verleden is. [!UICONTROL Planned Completion Date] voor het project wordt berekend op basis van de duur van taken in het project.) Wanneer u de herhaling plant, als u de einddatum van de herhaling voor een niet-werkende dag plaatst en de herhaling op tijd eindigt, wordt de Geschatte datum van de Voltooiing geplaatst voor de laatste werkdag voorafgaand aan de datum van het herhalingseind die u plaatst (omdat het werk niet gepland is om op niet-werkende dagen te worden gebrand).
 
   &quot;(+9 dagen)&quot; geeft bijvoorbeeld aan dat de geschatte einddatum 9 werkdagen later is dan de geplande einddatum van de herhaling.
 
-  Voor meer informatie, zie [ overzicht van de voltooiingsvoltooiingsstatus ](#Understanding-How-Days-Off-Affect-the-Burndown-Chart).
+  Voor meer informatie, zie [&#x200B; overzicht van de voltooiingsvoltooiingsstatus &#x200B;](#Understanding-How-Days-Off-Affect-the-Burndown-Chart).

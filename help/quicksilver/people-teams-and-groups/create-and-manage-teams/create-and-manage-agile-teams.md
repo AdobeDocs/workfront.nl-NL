@@ -15,4 +15,4 @@ ht-degree: 0%
 
 # Agile Teams maken en beheren
 
-Voor informatie over hoe te om de teams van de Gelijkheid tot stand te brengen en te beheren, zie [ een team van de Gelijkheid ](../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md) creëren.
+Voor informatie over hoe te om de teams van de Gelijkheid tot stand te brengen en te beheren, zie [&#x200B; een team van de Gelijkheid &#x200B;](../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md) creëren.

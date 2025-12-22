@@ -44,7 +44,7 @@ Een herhaling is een ingestelde hoeveelheid tijd die is gereserveerd voor het vo
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -82,15 +82,15 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
    De herhaling wordt nu weergegeven in de herhalingsweergave van de kaartlijst en in het metriekgebied op het iteratiebord.
 
-   Om kaarten aan een herhaling toe te voegen, zie [ Gebruik de kaartlijst ](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md).
+   Om kaarten aan een herhaling toe te voegen, zie [&#x200B; Gebruik de kaartlijst &#x200B;](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md).
 
 ## Een bestaande herhaling bewerken
 
 1. Om een werkstroom te openen, klik [!UICONTROL **de werkstroom van de Mening**].
 1. Open de herhaling op een van de volgende manieren:
 
-   * Voor het lusje van de Lijst van de Kaart, in de herhalingsmening, klik de [!UICONTROL **pictogram**] details van de Interlatie ![ van de Details van de Interlatie van 0}.](assets/iteration-details-button.png)
-   * Op de iteratieraad, klik de [!UICONTROL **pictogram**] details van de Interferatie ![ in het metrieke gebied op het hoogste recht van de Details van de Interferatie.](assets/iteration-details-button.png)
+   * Voor het lusje van de Lijst van de Kaart, in de herhalingsmening, klik de [!UICONTROL **pictogram**] details van de Interlatie ![&#x200B; van de Details van de Interlatie van 0&rbrace;.](assets/iteration-details-button.png)
+   * Op de iteratieraad, klik de [!UICONTROL **pictogram**] details van de Interferatie ![&#x200B; in het metrieke gebied op het hoogste recht van de Details van de Interferatie.](assets/iteration-details-button.png)
 
 1. Bewerk de herhaling naar wens in het deelvenster [!UICONTROL Iteration Configuration] .
 1. Om de iteratienaam te veranderen, breid [!UICONTROL **details van de Interlatie**] uit.
@@ -121,5 +121,5 @@ Use the [!UICONTROL Next Iteration] column to move cards from the current iterat
 ## Een herhaling verwijderen
 
 1. Klik het [!UICONTROL **lusje van de Lijst van de Kaart**] op de werkstroom en open de herhalingsmening.
-1. Klik het **pictogram van de Schrapping** ![ naast de herhaling 0}.](assets/delete.png)
+1. Klik het **pictogram van de Schrapping** ![&#x200B; naast de herhaling 0&rbrace;.](assets/delete.png)
 1. Klik [!UICONTROL **herhaling van de Schrapping**] op het bevestigingsbericht.

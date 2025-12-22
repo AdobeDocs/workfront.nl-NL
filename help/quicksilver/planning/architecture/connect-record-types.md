@@ -20,7 +20,7 @@ ht-degree: 0%
 
 <span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>
 
-<span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
+<span class="preview"> voor informatie over snelle versies, zie [&#x200B; snelle versies voor uw organisatie &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
 
 
 {{planning-important-intro}}
@@ -44,11 +44,11 @@ In dit artikel wordt beschreven hoe u twee recordtypen van Workfront Planning of
 
 Nadat u de verbinding tussen verslagen of objecten types vestigt, wordt een verbindingsgebied toegevoegd aan een het verslagtype van de Planning. In het verbindingsgebied, kunt u individuele verslagen met elkaar verbinden, en vertoningsgebieden van het verbonden verslag of objecten types op een verslag van de Planning van Workfront.
 
-Voor algemene informatie over verbindingstypes, zie [ Verbonden overzicht van recordtypes ](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
+Voor algemene informatie over verbindingstypes, zie [&#x200B; Verbonden overzicht van recordtypes &#x200B;](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
 
-Voor informatie over het verbinden van verslagen of verslagen met voorwerpen van andere toepassingen, zie [ verbindt verslagen ](/help/quicksilver/planning/records/connect-records.md).
+Voor informatie over het verbinden van verslagen of verslagen met voorwerpen van andere toepassingen, zie [&#x200B; verbindt verslagen &#x200B;](/help/quicksilver/planning/records/connect-records.md).
 
-Voor een voorbeeld van het verbinden van verslagtypes en verslagen, zie [ Voorbeeld van het verbinden van verslagtypes en verslagen ](/help/quicksilver/planning/architecture/example-connect-record-types-and-records.md).
+Voor een voorbeeld van het verbinden van verslagtypes en verslagen, zie [&#x200B; Voorbeeld van het verbinden van verslagtypes en verslagen &#x200B;](/help/quicksilver/planning/architecture/example-connect-record-types-and-records.md).
 
 <!--ensure this last linked article is right; the title and the link should have changed-->
 
@@ -105,7 +105,7 @@ Voor een voorbeeld van het verbinden van verslagtypes en verslagen, zie [ Voorbe
 </tbody> 
 </table>
 
-Voor meer informatie over de toegangsvereisten van Workfront, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer informatie over de toegangsvereisten van Workfront, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -187,13 +187,13 @@ Voor meer informatie over de toegangsvereisten van Workfront, zie [ vereisten va
 1. Klik op de kaart van een recordtype om de pagina met recordtypen te openen.
 1. Klik het **+** pictogram in de hoger-juiste hoek van de lijstmening, dan klik de **Nieuwe verbinding** tabel.
 
-   ![ Nieuw verbindingslusje met de opties van Workfront AEM ](assets/new-connection-tab-with-workfront-aem-options-no-buttons.png)
+   ![&#x200B; Nieuw verbindingslusje met de opties van Workfront AEM &#x200B;](assets/new-connection-tab-with-workfront-aem-options-no-buttons.png)
 
 1. Zoek naar een recordtype, of selecteer één van het volgende:
 
    * Een recordtype uit de huidige werkruimte
 
-     ![ multi-uitgezochte verbindingskiezer voor zelfde-werkruimte verslagtype ](assets/multi-select-connection-picker-record-type.png)
+     ![&#x200B; multi-uitgezochte verbindingskiezer voor zelfde-werkruimte verslagtype &#x200B;](assets/multi-select-connection-picker-record-type.png)
 
      >[!TIP]
      >
@@ -206,9 +206,9 @@ Voor meer informatie over de toegangsvereisten van Workfront, zie [ vereisten va
      >
      >**toestaat verbindend met dit verslagtype in andere werkruimten** het plaatsen moet voor een verslagtype in de **Geavanceerde montages** worden toegelaten <span class="preview"> of het **dwars-werkruimtemontages**</span> lusje van **geef verslagtype** doos uit, voor een verslagtype om van andere werkruimten toegankelijk te zijn. Als er geen recordtypen zijn die zijn geconfigureerd om verbinding te maken met andere werkruimten, wordt de sectie Werkruimte niet weergegeven.
      >
-     >Voor informatie, zie [ mogelijkheden van de dwars-werkruimte voor verslagtypes ](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md) vormen. <!--update screen shot at production-->
+     >Voor informatie, zie [&#x200B; mogelijkheden van de dwars-werkruimte voor verslagtypes &#x200B;](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md) vormen. <!--update screen shot at production-->
      >
-     >![ geef recordtype doos geavanceerde montages tabel uit ](assets/edit-record-type-box-advanced-settings-tab.png)
+     >![&#x200B; geef recordtype doos geavanceerde montages tabel uit &#x200B;](assets/edit-record-type-box-advanced-settings-tab.png)
 
      <!--Old:
         [!TIP]
@@ -216,21 +216,21 @@ Voor meer informatie over de toegangsvereisten van Workfront, zie [ vereisten va
         ![Edit record type box advanced settings tab](assets/edit-record-type-box-advanced-settings-tab.png)
         -->
 
-   Voor informatie, zie [ recordtypes ](/help/quicksilver/planning/architecture/edit-record-types.md) uitgeven.
+   Voor informatie, zie [&#x200B; recordtypes &#x200B;](/help/quicksilver/planning/architecture/edit-record-types.md) uitgeven.
 
    * A **Project, Portfolio, Programma, Bedrijf**, of **Groep** van de **de Objecttypes van Workfront** sectie.
 
-     ![ de selectie van de het projectverbinding van Workfront ](assets/multi-select-connection-picker-project.png)
+     ![&#x200B; de selectie van de het projectverbinding van Workfront &#x200B;](assets/multi-select-connection-picker-project.png)
 
    * **Experience Manager Assets** van de **Toepassingen van Adobe** sectie.
 
-     ![ de verbindingsselectie van AEM Assets ](assets/aem-assets-connection-selection.png)
+     ![&#x200B; de verbindingsselectie van AEM Assets &#x200B;](assets/aem-assets-connection-selection.png)
 
      Er wordt een tabblad Nieuwe verbinding geopend voor de geselecteerde record of het geselecteerde objecttype.
 
    * A **Merk** van Adobe GenStudio for Performance Marketing van de **Adobe GenStudio** sectie
 
-     ![ de verbindingsselectie van het Merk van GenStudio ](assets/brand-genstudio-connection-selection.png)
+     ![&#x200B; de verbindingsselectie van het Merk van GenStudio &#x200B;](assets/brand-genstudio-connection-selection.png)
 
 1. Werk het **gebied van de Naam** met de naam van het nieuwe verbonden gebied bij, aangezien het in de lijstmening of de verslagpagina van het originele verslagtype zal verschijnen. Hiermee maakt u de verbonden recordkolom (of het gekoppelde veld) in de tabelweergave van het oorspronkelijke recordtype. Standaard is de naam van het veld de naam van de record of het object waarmee u verbinding maakt.
 
@@ -241,7 +241,7 @@ Voor meer informatie over de toegangsvereisten van Workfront, zie [ vereisten va
 1. Werk het **gebied van de Beschrijving** bij door informatie over het verbonden verslaggebied toe te voegen. De beschrijving van een veld wordt weergegeven wanneer u de cursor op de kolom van het veld in een tabel plaatst.
 1. (Voorwaardelijk) wanneer u verslagtypes van twee verschillende werkruimten, een verslagtype en een de activavoorwerp van Adobe Experience Manager verbindt, of een verslagtype en een Merk van GenStudio selecteren **veelvoudige verslagen** toestaan. Als u deze optie selecteert, geeft u aan dat gebruikers meerdere records mogen toevoegen wanneer het veld voor het verbonden recordtype wordt weergegeven op de oorspronkelijke records. Dit is standaard geselecteerd.
 
-   ![ Nieuwe verbinding aan verslagtype van een andere werkruimte ](assets/new-connection-allow-multiple-records-box.png)
+   ![&#x200B; Nieuwe verbinding aan verslagtype van een andere werkruimte &#x200B;](assets/new-connection-allow-multiple-records-box.png)
 
 1. (Voorwaardelijk) Wanneer u recordtypes van de zelfde werkruimte, of een het verslagtype van de Planning met een objecten van Workfront type verbindt, selecteer één van het volgende:
 
@@ -416,7 +416,7 @@ Voor meer informatie over de toegangsvereisten van Workfront, zie [ vereisten va
    * **geef gebied** uit: Werk de **Naam** en de **Beschrijving** informatie van het gebied bij.
    * **geeft raadplegingsgebieden** uit: Voeg of verwijder om het even welke verbonden gebieden van het verslag toe.
 
-   ![ geef gebied en raadplegingsgebieden drop-down menu in lijstkolom uit ](assets/edit-field-and-lookup-fields-drop-down-menu-in-table-column.png)
+   ![&#x200B; geef gebied en raadplegingsgebieden drop-down menu in lijstkolom uit &#x200B;](assets/edit-field-and-lookup-fields-drop-down-menu-in-table-column.png)
 
    Volg de aanwijzingen in bovenstaande stappen 16-17 om opzoekvelden toe te voegen of te verwijderen. <!--ensure these step numbers stay accurate-->
 

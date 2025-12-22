@@ -17,17 +17,17 @@ ht-degree: 0%
 
 Op deze pagina worden alle andere verbeteringen beschreven die zijn aangebracht met de release 22.4 voor de voorvertoningsomgeving. Deze verbeteringen worden beschikbaar gesteld in de week van 3 oktober 2022.
 
-Voor een lijst van alle veranderingen beschikbaar met de versie 22.4, zie [ overzicht van de Versie 22.4 ](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar met de versie 22.4, zie [&#x200B; overzicht van de Versie 22.4 &#x200B;](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-release-overview.md).
 
 ## Adobe Workfront voor InDesign
 
 Deze insteekmodule is nu beschikbaar voor installatie in InDesign. Het staat u toe om tot de details van het het werkpunt toegang te hebben, met medewerkers op het gebied van Updates samen te werken, en proefdrukken voor overzicht-allen voor te leggen zonder XD te verlaten. Ga naar de Adobe Creative Cloud Marketplace om de insteekmodule vandaag te downloaden.
 
-Voor meer informatie over de stop, zie [[!DNL Adobe Workfront]  insteekmodule voor  [!DNL Creative Cloud]  Toepassingen ](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-cc.md).
+Voor meer informatie over de stop, zie [[!DNL Adobe Workfront]  insteekmodule voor  [!DNL Creative Cloud]  Toepassingen &#x200B;](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-cc.md).
 
-[ Download Adobe Workfront voor InDesign vandaag op de markt ](https://exchange.adobe.com/apps/cc/108938/adobe-workfront-for-indesign).
+[&#x200B; Download Adobe Workfront voor InDesign vandaag op de markt &#x200B;](https://exchange.adobe.com/apps/cc/108938/adobe-workfront-for-indesign).
 
-De beheerders kunnen ook [ een pakket met de stoppen ](https://helpx.adobe.com/in/enterprise/using/manage-extensions.html) van Admin Console tot stand brengen en aan gebruikers of op een beheerde of zelf-beheerde manier opstellen.
+De beheerders kunnen ook [&#x200B; een pakket met de stoppen &#x200B;](https://helpx.adobe.com/in/enterprise/using/manage-extensions.html) van Admin Console tot stand brengen en aan gebruikers of op een beheerde of zelf-beheerde manier opstellen.
 
 ## Objectmetagegevens synchroniseren met de native Experience Manager Assets-integratie
 
@@ -37,7 +37,7 @@ Als u wilt dat objectmetagegevens automatisch worden gesynchroniseerd, moet u de
 
 Eerder werden alleen projectvelden automatisch bijgewerkt.
 
-Voor meer informatie, zie [ de integratie van Experience Manager Assets as a Cloud Service ](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md) vormen.
+Voor meer informatie, zie [&#x200B; de integratie van Experience Manager Assets as a Cloud Service &#x200B;](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md) vormen.
 
 ## Metagegevens naar bovenliggende programma&#39;s en portfolio-objecten verplaatsen
 
@@ -45,7 +45,7 @@ Wanneer een element voor het eerst naar Experience Manager Assets of Assets Esse
 
 Eerder werden alleen de gegevens van het bovenliggende project verzonden.
 
-Voor meer informatie, zie [ een Document naar Experience Manager Assets of de Hoofdzaak van Activa ](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/send-to-aem.md) verzenden.
+Voor meer informatie, zie [&#x200B; een Document naar Experience Manager Assets of de Hoofdzaak van Activa &#x200B;](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/send-to-aem.md) verzenden.
 
 ## Uitgebreide teambeschrijving
 
@@ -55,7 +55,7 @@ Eerder was het schuiven door de beschrijving in een smal gebied de enige manier 
 
 Deze verbetering van de beschrijving is van toepassing op teams van zowel Agile als niet-Agile.
 
-Voor meer informatie, zie [ een team ](/help/quicksilver/people-teams-and-groups/create-and-manage-teams/create-a-team.md) creëren.
+Voor meer informatie, zie [&#x200B; een team &#x200B;](/help/quicksilver/people-teams-and-groups/create-and-manage-teams/create-a-team.md) creëren.
 
 ## Workfront Campaigns (Beta) - een nieuwe manier om uw werk te beheren
 

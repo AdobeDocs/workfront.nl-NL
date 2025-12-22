@@ -17,12 +17,12 @@ ht-degree: 0%
 
 # Een team maken vanuit het gedeelte Setup
 
-Als beheerder van Adobe Workfront, kunt u een team van het gebied van de Opstelling creëren. Voor informatie over teams, zie [ Overzicht van Teams ](../../../people-teams-and-groups/create-and-manage-teams/teams-overview.md).
+Als beheerder van Adobe Workfront, kunt u een team van het gebied van de Opstelling creëren. Voor informatie over teams, zie [&#x200B; Overzicht van Teams &#x200B;](../../../people-teams-and-groups/create-and-manage-teams/teams-overview.md).
 
 >[!NOTE]
 >
->* Een groepsbeheerder kan een team voor een groep tot stand brengen zij van het gebied van de Opstelling beheren. Voor meer informatie, zie [ de teams van een groep ](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-teams.md) creëren en wijzigen.
->* Een gebruiker met een Standard- of Plan-licentie kan ook een team maken vanuit het gebied Teams. Voor meer informatie, zie [ een team ](../../../people-teams-and-groups/create-and-manage-teams/create-a-team.md) creëren.
+>* Een groepsbeheerder kan een team voor een groep tot stand brengen zij van het gebied van de Opstelling beheren. Voor meer informatie, zie [&#x200B; de teams van een groep &#x200B;](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-teams.md) creëren en wijzigen.
+>* Een gebruiker met een Standard- of Plan-licentie kan ook een team maken vanuit het gebied Teams. Voor meer informatie, zie [&#x200B; een team &#x200B;](../../../people-teams-and-groups/create-and-manage-teams/create-a-team.md) creëren.
 
 ## Toegangsvereisten
 
@@ -53,7 +53,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -110,4 +110,4 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 Wanneer u een team creeert wordt u de teameigenaar, door gebrek.
 
-U kunt teameigenaars voor alle teams bekijken wanneer u een rapport voor teams creeert en het gebied van de Naam van de Eigenaar in uw rapport omvat. (Voor meer informatie over het creëren van een rapport, zie [ een douanerapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) creëren.)
+U kunt teameigenaars voor alle teams bekijken wanneer u een rapport voor teams creeert en het gebied van de Naam van de Eigenaar in uw rapport omvat. (Voor meer informatie over het creëren van een rapport, zie [&#x200B; een douanerapport &#x200B;](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) creëren.)

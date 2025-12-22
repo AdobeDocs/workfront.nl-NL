@@ -17,15 +17,15 @@ ht-degree: 0%
 
 Deze pagina bevat informatie over de functionaliteit die is opgenomen in de release 23.1. Deze verbeteringen zijn beschikbaar gesteld in de productieomgeving met de release van 23.2 op 6 en 7 april 2023.
 
-Voor uiteinden bij het voorbereiden voor de aanstaande versie, zie [ voorbereidingen treffen voor een driemaandelijkse versie van Adobe Workfront ](/help/quicksilver/product-announcements/product-releases/release-readiness.md).
+Voor uiteinden bij het voorbereiden voor de aanstaande versie, zie [&#x200B; voorbereidingen treffen voor een driemaandelijkse versie van Adobe Workfront &#x200B;](/help/quicksilver/product-announcements/product-releases/release-readiness.md).
 
 ## Wbinar vrijgeven
 
 In plaats van een releasewebinar nodigen we u uit om u aan te melden bij Adobe Summit om de volgende Workfront-sessies te bekijken:
 
-[ Impactful Ervaringen: Van Inhoud creatie aan Personalization ](https://reg.adobe.com/flow/adobe/as23/sessions/page/catalog/session/1661982243928001D5Z9) op 21 Maart, 2023, om nieuwe manieren te leren om, inhoud tot stand te brengen te beheren en te personaliseren en impactful ervaringen met grotere efficiency te leveren. Deze sessie wordt live gestreamd voor een virtueel publiek.
+[&#x200B; Impactful Ervaringen: Van Inhoud creatie aan Personalization &#x200B;](https://reg.adobe.com/flow/adobe/as23/sessions/page/catalog/session/1661982243928001D5Z9) op 21 Maart, 2023, om nieuwe manieren te leren om, inhoud tot stand te brengen te beheren en te personaliseren en impactful ervaringen met grotere efficiency te leveren. Deze sessie wordt live gestreamd voor een virtueel publiek.
 
-[ De Toekomst van Adobe Workfront ](https://reg.adobe.com/flow/adobe/as23/sessions/page/catalog/session/1661982239896001DoHU) op 23 Maart, 2023, om de visie voor Workfront en zijn plaats binnen het ecosysteem van Adobe te zien en een blik op de toekomstige roadmap te krijgen. Deze sessie wordt opgenomen en later beschikbaar als on-demand-inhoud.
+[&#x200B; De Toekomst van Adobe Workfront &#x200B;](https://reg.adobe.com/flow/adobe/as23/sessions/page/catalog/session/1661982239896001DoHU) op 23 Maart, 2023, om de visie voor Workfront en zijn plaats binnen het ecosysteem van Adobe te zien en een blik op de toekomstige roadmap te krijgen. Deze sessie wordt opgenomen en later beschikbaar als on-demand-inhoud.
 
 <span class="preview"> off-cycle eigenschappen (die die aan Productie voorafgaand aan de 23.2 versiedatum vrijgeven) worden benadrukt in geel.</span>
 
@@ -629,7 +629,7 @@ In plaats van een releasewebinar nodigen we u uit om u aan te melden bij Adobe S
 
 ### Workfront Fusion-verbeteringen
 
-Nieuwe functies in Workfront Fusion zijn beschikbaar in Production op een cadence buiten de releaseplanning van 23.2. Voor meer informatie over de recentste eigenschappen, zie [ de versieactiviteit van de Fusie van Adobe Workfront ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
+Nieuwe functies in Workfront Fusion zijn beschikbaar in Production op een cadence buiten de releaseplanning van 23.2. Voor meer informatie over de recentste eigenschappen, zie [&#x200B; de versieactiviteit van de Fusie van Adobe Workfront &#x200B;](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 
 ### Verbeteringen in Workfront Scenario Planner
 
@@ -641,23 +641,23 @@ Er zijn op dit moment geen Workfront Proof-updates beschikbaar. Dit gebied wordt
 
 ### Verbeteringen voor Workfront-doelen
 
-Nieuwe functies die beschikbaar zijn in de Workfront Goals release met 23.2 release. Voor informatie over deze nieuwe eigenschappen nu beschikbaar in Voorproef, zie [ Doelstellingen van Adobe Workfront met de 23.2 versie ](/help/quicksilver/product-announcements/product-releases/goals-release-activity/goals-23-2-release/goals-23-2-release.md).
+Nieuwe functies die beschikbaar zijn in de Workfront Goals release met 23.2 release. Voor informatie over deze nieuwe eigenschappen nu beschikbaar in Voorproef, zie [&#x200B; Doelstellingen van Adobe Workfront met de 23.2 versie &#x200B;](/help/quicksilver/product-announcements/product-releases/goals-release-activity/goals-23-2-release/goals-23-2-release.md).
 
 ### API-versie 16
 
 API versie 16 wordt vrijgegeven met de release 22.3. Voor API versie 16 hebben we een aantal bronnen en eindpunten gewijzigd. Sommige wijzigingen ondersteunen nieuwe functionaliteit en andere maken het voor u gemakkelijker om de informatie te gebruiken die beschikbaar is via de API.
 
-Voor informatie over wat nieuw en bijgewerkt is, zie [ wat in API versie 16 ](/help/quicksilver/wf-api/api/new-api-version-16.md) nieuw is.
+Voor informatie over wat nieuw en bijgewerkt is, zie [&#x200B; wat in API versie 16 &#x200B;](/help/quicksilver/wf-api/api/new-api-version-16.md) nieuw is.
 
-Voor informatie over API versies, zie [ API versioning en steunprogramma ](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
+Voor informatie over API versies, zie [&#x200B; API versioning en steunprogramma &#x200B;](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
 
 ### Workfront-onderhoudsupdates
 
-Voor informatie over de onderhoudsupdates die tijdens de versie 23.2 worden gemaakt, zie [ Updates van het Onderhoud van Workfront ](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates).
+Voor informatie over de onderhoudsupdates die tijdens de versie 23.2 worden gemaakt, zie [&#x200B; Updates van het Onderhoud van Workfront &#x200B;](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates).
 
 ### Training-updates
 
-Ontdek de nieuwste updates van leerprogramma&#39;s, leerpaden, video&#39;s en handleidingen voor elke Adobe Workfront-productrelease. Voor meer informatie, zie &quot;wat&quot;sectie van de [ pagina van de Leerprogramma&#39;s van Workfront ](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) Nieuw is.
+Ontdek de nieuwste updates van leerprogramma&#39;s, leerpaden, video&#39;s en handleidingen voor elke Adobe Workfront-productrelease. Voor meer informatie, zie &quot;wat&quot;sectie van de [&#x200B; pagina van de Leerprogramma&#39;s van Workfront &#x200B;](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) Nieuw is.
 
 ### Functionaliteit die binnenkort uit Workfront wordt verwijderd
 
@@ -665,7 +665,7 @@ De volgende functionaliteit wordt binnenkort verwijderd uit Workfront:
 
 #### **de externe pagina&#39;s van het dashboard niet meer dashboard URLs**
 
-Om de stabiliteit van het dashboard en de laadtijden te verbeteren, kunnen externe pagina&#39;s in dashboards niet meer verwijzen naar dashboard URL&#39;s. Systeembeheerders voor accounts die externe pagina&#39;s bevatten die verwijzen naar dashboards, ontvangen een melding in de app om hen op de hoogte te stellen van deze wijziging. Voor meer informatie, zie [ een externe pagina in een dashboard ](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md) inbedden.
+Om de stabiliteit van het dashboard en de laadtijden te verbeteren, kunnen externe pagina&#39;s in dashboards niet meer verwijzen naar dashboard URL&#39;s. Systeembeheerders voor accounts die externe pagina&#39;s bevatten die verwijzen naar dashboards, ontvangen een melding in de app om hen op de hoogte te stellen van deze wijziging. Voor meer informatie, zie [&#x200B; een externe pagina in een dashboard &#x200B;](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md) inbedden.
 
 #### **Veranderingen in Workfront Standaard API**
 
@@ -677,7 +677,7 @@ Eerder gebruikte de standaard-API Workfront API versie 2.0, die afgekeurd is.
 
 Als uw organisatie momenteel de verouderde Standaard API gebruikt, heeft uw beheerder van Workfront een bericht van het Aankondigingscentrum met verdere instructies betreffende het Standaard API ontvangen.
 
-Voor meer informatie, zie [ Integraties van de Update die standaard API versioning ](/help/quicksilver/wf-api/api/update-default-api-versioning.md) gebruiken.
+Voor meer informatie, zie [&#x200B; Integraties van de Update die standaard API versioning &#x200B;](/help/quicksilver/wf-api/api/update-default-api-versioning.md) gebruiken.
 
 
 <!--
