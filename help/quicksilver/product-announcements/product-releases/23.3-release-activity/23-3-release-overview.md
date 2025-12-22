@@ -744,7 +744,7 @@ De release van 23.3 webinar was op 29 juni 2023. U kunt [&#x200B; voor webinar r
 
 ### Workfront Fusion-verbeteringen
 
-Nieuwe functies in Workfront Fusion zijn beschikbaar in Production op een cadence buiten de releaseplanning van 23.3. Voor meer informatie over de recentste eigenschappen, zie [&#x200B; de versieactiviteit van de Fusie van Adobe Workfront &#x200B;](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
+Nieuwe functies in Workfront Fusion zijn beschikbaar in Production op een cadence buiten de releaseplanning van 23.3. Voor meer informatie over de recentste eigenschappen, zie [&#x200B; de versieactiviteit van de Fusie van Adobe Workfront &#x200B;](https://experienceleague.adobe.com/nl/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 
 ### Verbeteringen in Workfront Scenario Planner
 
@@ -768,11 +768,11 @@ Voor informatie over API versies, zie [&#x200B; API versioning en steunprogramma
 
 ### Workfront-onderhoudsupdates
 
-Voor informatie over de onderhoudsupdates die tijdens de versie 22.3 worden gemaakt, zie {de Updates van het Onderhoud van 0} Workfront [.](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates)
+Voor informatie over de onderhoudsupdates die tijdens de versie 22.3 worden gemaakt, zie {de Updates van het Onderhoud van 0} Workfront [.](https://experienceleague.adobe.com/nl/docs/workfront-known-issues/releases/current-updates)
 
 ### Training-updates
 
-Ontdek de nieuwste updates van leerprogramma&#39;s, leerpaden, video&#39;s en handleidingen voor elke Adobe Workfront-productrelease. Voor meer informatie, zie &quot;wat&quot;sectie van de [&#x200B; pagina van de Leerprogramma&#39;s van Workfront &#x200B;](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) Nieuw is.
+Ontdek de nieuwste updates van leerprogramma&#39;s, leerpaden, video&#39;s en handleidingen voor elke Adobe Workfront-productrelease. Voor meer informatie, zie &quot;wat&quot;sectie van de [&#x200B; pagina van de Leerprogramma&#39;s van Workfront &#x200B;](https://experienceleague.adobe.com/nl/docs/workfront-learn/tutorials-workfront/home) Nieuw is.
 
 ### Functionaliteit die binnenkort uit Workfront wordt verwijderd
 

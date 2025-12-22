@@ -709,7 +709,7 @@ Met deze upgrade biedt de Desktop Proofing Viewer ondersteuning voor Chrome vers
 
 ### Workfront Fusion-verbeteringen
 
-Nieuwe functies in Workfront Fusion zijn beschikbaar in Production op een cadence buiten de releaseplanning van 22.4. Voor meer informatie over de recentste eigenschappen, zie [&#x200B; de versieactiviteit van de Fusie van Adobe Workfront &#x200B;](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
+Nieuwe functies in Workfront Fusion zijn beschikbaar in Production op een cadence buiten de releaseplanning van 22.4. Voor meer informatie over de recentste eigenschappen, zie [&#x200B; de versieactiviteit van de Fusie van Adobe Workfront &#x200B;](https://experienceleague.adobe.com/nl/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 
 ### Verbeteringen in WorkfrontScenario-planner
 
@@ -733,7 +733,7 @@ Voor informatie over API versies, zie [&#x200B; API versioning en steunprogramma
 
 ### Workfront-onderhoudsupdates
 
-Voor informatie over de onderhoudsupdates die tijdens de versie 22.3 worden gemaakt, zie {de Updates van het Onderhoud van 0} Workfront [.](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates)
+Voor informatie over de onderhoudsupdates die tijdens de versie 22.3 worden gemaakt, zie {de Updates van het Onderhoud van 0} Workfront [.](https://experienceleague.adobe.com/nl/docs/workfront-known-issues/releases/current-updates)
 
 ### 22.4 Release-webinar
 
@@ -741,7 +741,7 @@ Het webinar van de release 22.4 zal op donderdag 22 september 2022 om 9 :00 AM P
 
 ### Training-updates
 
-Ontdek de nieuwste updates van leerprogramma&#39;s, leerpaden, video&#39;s en handleidingen voor elke Adobe Workfront-productrelease. Voor meer informatie, zie de [&#x200B; versie van de Opleiding pagina &#x200B;](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) bijwerkt.
+Ontdek de nieuwste updates van leerprogramma&#39;s, leerpaden, video&#39;s en handleidingen voor elke Adobe Workfront-productrelease. Voor meer informatie, zie de [&#x200B; versie van de Opleiding pagina &#x200B;](https://experienceleague.adobe.com/nl/docs/workfront-learn/tutorials-workfront/home) bijwerkt.
 
 ### Functionaliteit die wordt verwijderd met de 22.4-release
 
