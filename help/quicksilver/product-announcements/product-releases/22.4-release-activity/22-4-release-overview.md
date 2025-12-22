@@ -6,9 +6,9 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 04b09d8f-71bf-4c5b-b2f3-09c714740969
-source-git-commit: f4c1f2170d826b4b6f1e8189e1fecc1edb6e0d97
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
-source-wordcount: '3231'
+source-wordcount: '3232'
 ht-degree: 0%
 
 ---
@@ -678,7 +678,7 @@ Campagnes zijn in juli 2022 vrijgegeven voor Preview beta met de release 22.3.</
                         <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-other-enhancements.md" class="MCXref xref" xrefformat="{para}"> Uitgebreide teambeschrijving </a></p>
                         <p>In het gebied van Teams, kunt u de volledige teambeschrijving nu bekijken door de beschrijving te klikken om het in een pop-up te tonen. U kunt op URL's in de beschrijving klikken in het pop-upvenster en in de beschrijvingstekst klikken om deze te bewerken (als u toegang hebt om de teaminstellingen te bewerken).</p>
                         <p>Eerder was het schuiven door de beschrijving in een smal gebied de enige manier om alle inhoud te zien.</p>
-<p>Deze verbetering van de beschrijving is van toepassing op zowel mobiele als niet-flexibele teams.</p>
+<p>Deze verbetering van de beschrijving is van toepassing op teams van zowel Agile als niet-Agile.</p>
                     </td>
                     <td><p><b>Beschikbaar op deze data:</b></p>
                         <ul>
@@ -709,7 +709,7 @@ Met deze upgrade biedt de Desktop Proofing Viewer ondersteuning voor Chrome vers
 
 ### Workfront Fusion-verbeteringen
 
-Nieuwe functies in Workfront Fusion zijn beschikbaar in Production op een cadence buiten de releaseplanning van 22.4. Voor meer informatie over de recentste eigenschappen, zie [&#x200B; de versieactiviteit van de Fusie van Adobe Workfront &#x200B;](https://experienceleague.adobe.com/nl/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
+Nieuwe functies in Workfront Fusion zijn beschikbaar in Production op een cadence buiten de releaseplanning van 22.4. Voor meer informatie over de recentste eigenschappen, zie [ de versieactiviteit van de Fusie van Adobe Workfront ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 
 ### Verbeteringen in WorkfrontScenario-planner
 
@@ -727,21 +727,21 @@ Er zijn op dit moment geen updates voor Workfront Goals beschikbaar in de releas
 
 Voor API versie 14 hebben we een aantal bronnen en eindpunten gewijzigd. Sommige wijzigingen ondersteunen nieuwe functionaliteit en andere maken het voor u gemakkelijker om de informatie te gebruiken die beschikbaar is via de API.
 
-Voor informatie over wat nieuw en bijgewerkt is, zie [&#x200B; wat in API versie 14 &#x200B;](/help/quicksilver/wf-api/api/new-api-version-14.md) nieuw is.
+Voor informatie over wat nieuw en bijgewerkt is, zie [ wat in API versie 14 ](/help/quicksilver/wf-api/api/new-api-version-14.md) nieuw is.
 
-Voor informatie over API versies, zie [&#x200B; API versioning en steunprogramma &#x200B;](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
+Voor informatie over API versies, zie [ API versioning en steunprogramma ](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
 
 ### Workfront-onderhoudsupdates
 
-Voor informatie over de onderhoudsupdates die tijdens de versie 22.3 worden gemaakt, zie {de Updates van het Onderhoud van 0} Workfront [&#128279;](https://experienceleague.adobe.com/nl/docs/workfront-known-issues/releases/current-updates).
+Voor informatie over de onderhoudsupdates die tijdens de versie 22.3 worden gemaakt, zie {de Updates van het Onderhoud van 0} Workfront [.](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates)
 
 ### 22.4 Release-webinar
 
-De webinar met release 22.4 vindt donderdag 22 september 2022 om 9.00 uur PDT plaats. U kunt [&#x200B; voor webinar hier &#x200B;](https://event.on24.com/wcc/r/3915365/9E496D02A98ECB8C86B1D2D09DDAA443?partnerref=prodmgt) registreren.
+Het webinar van de release 22.4 zal op donderdag 22 september 2022 om 9 :00 AM PDT worden gehouden. U kunt [ voor webinar hier ](https://event.on24.com/wcc/r/3915365/9E496D02A98ECB8C86B1D2D09DDAA443?partnerref=prodmgt) registreren.
 
 ### Training-updates
 
-Ontdek de nieuwste updates van leerprogramma&#39;s, leerpaden, video&#39;s en handleidingen voor elke Adobe Workfront-productrelease. Voor meer informatie, zie de [&#x200B; versie van de Opleiding pagina &#x200B;](https://experienceleague.adobe.com/nl/docs/workfront-learn/tutorials-workfront/home) bijwerkt.
+Ontdek de nieuwste updates van leerprogramma&#39;s, leerpaden, video&#39;s en handleidingen voor elke Adobe Workfront-productrelease. Voor meer informatie, zie de [ versie van de Opleiding pagina ](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) bijwerkt.
 
 ### Functionaliteit die wordt verwijderd met de 22.4-release
 
@@ -772,4 +772,4 @@ De volgende functie wordt verwijderd in november 2022:
 
   Met dit gebeurtenistype konden klanten controleren wanneer machtigingen voor objecten werden bijgewerkt.
 
-  Voor meer informatie over de Abonnementen van de Gebeurtenis, evenals andere gebeurtenistypen die zullen blijven worden gesteund, zie [&#x200B; Abonnement API van de Gebeurtenis &#x200B;](/help/quicksilver/wf-api/general/event-subs-api.md)
+  Voor meer informatie over de Abonnementen van de Gebeurtenis, evenals andere gebeurtenistypen die zullen blijven worden gesteund, zie [ Abonnement API van de Gebeurtenis ](/help/quicksilver/wf-api/general/event-subs-api.md)

@@ -6,7 +6,7 @@ description: Wanneer u een artikeltegel weergeeft op het Kanban-bord, kunt u bep
 author: Jenny
 feature: Agile
 exl-id: 88d156ea-0913-425e-b3eb-6ae81d2d2336
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '427'
 ht-degree: 0%
@@ -37,7 +37,7 @@ Wanneer u een artikeltegel weergeeft op het artikelbord, is de informatie in de 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p>De projectnaam met een verbinding direct aan het project <br> Deze verbinding wordt getoond slechts op verhalen (oudertaken, niet subtasks) wanneer het gebruiken van de flexibele mening op een herhaling; het wordt niet getoond wanneer het gebruiken van een flexibele mening op een project.</p> </td> 
+   <td> <p>De projectnaam met een verbinding direct aan het project <br> Deze verbinding wordt getoond slechts op verhalen (oudertaken, niet subtasks) wanneer het gebruiken van de mening van de Gelijkheid op een herhaling; het wordt niet getoond wanneer het gebruiken van een Gelijke mening op een project.</p> </td> 
    <td>✓ </td> 
    <td> </td> 
   </tr> 
@@ -62,7 +62,7 @@ Wanneer u een artikeltegel weergeeft op het artikelbord, is de informatie in de 
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td> <p>Om het even welke extra gebieden (met inbegrip van douanevelden) die aan de veranderlijke mening zouden kunnen zijn toegevoegd door de gelijke mening te wijzigen, zoals die in "het Creëren van en het Aanpassen van een [!UICONTROL Agile] Mening"in <a href="../../../reports-and-dashboards/reports/reporting-elements/views-overview.md" class="MCXref xref"> overzicht van Meningen in [!UICONTROL Adobe Workfront]</a> wordt beschreven.</p> </td> 
+   <td> <p>Om het even welke extra gebieden (met inbegrip van douanevelden) die aan de Gelijke mening door de Gelijke mening te wijzigen zouden kunnen zijn toegevoegd, zoals die in "het Creëren van en het Aanpassen van een [!UICONTROL Agile] Mening"in <a href="../../../reports-and-dashboards/reports/reporting-elements/views-overview.md" class="MCXref xref"> overzicht van Meningen in [!UICONTROL Adobe Workfront]</a> wordt beschreven.</p> </td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
@@ -94,7 +94,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -102,14 +102,14 @@ Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van d
 
 {{step1-to-team}}
 
-1. (Facultatief) klik het **[!UICONTROL Switch team]** pictogram van de pictogram ![&#x200B; Schakelaar teampictogram &#x200B;](assets/switch-team-icon.png), dan of selecteer een nieuw team van het Trommel van het drop-down menu of onderzoek naar een team in de onderzoeksbar.
+1. (Facultatief) klik het **[!UICONTROL Switch team]** pictogram van de pictogram ![ Schakelaar teampictogram ](assets/switch-team-icon.png), dan of selecteer een nieuw team van het Trommel van het drop-down menu of onderzoek naar een team in de onderzoeksbar.
 
 1. Selecteer in het linkerdeelvenster **[!UICONTROL Iterations]** om een specifieke herhaling te kiezen of selecteer **[!UICONTROL Current Iteration]** .
 
-1. Ga naar het [!UICONTROL Scrum] &#39;agile story board&#39;.
+1. Ga naar het [!UICONTROL Scrum] artikel.
 1. Vouw het element [!UICONTROL story] uit om alle velden weer te geven die aan het artikel zijn gekoppeld.
 
-   ![&#x200B; verhaalkaart &#x200B;](assets/agile-storycard-scrum-2021-350x333.png)
+   ![ verhaalkaart ](assets/agile-storycard-scrum-2021-350x333.png)
 
 1. (Optioneel) Als u een veld wilt bewerken, klikt u op het veld en brengt u de gewenste wijzigingen aan.
 

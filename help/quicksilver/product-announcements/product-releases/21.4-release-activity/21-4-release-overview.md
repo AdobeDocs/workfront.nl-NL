@@ -8,7 +8,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 0897b269-c6f3-4b63-8956-b7f9fbe0a553
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '4718'
 ht-degree: 0%
@@ -62,15 +62,15 @@ For specific release dates and times for each cluster, see the [Adobe Workfront 
 
 ## Verbeteringen voor Adobe Workfront
 
-* [&#x200B; de verhogingen van de Beheerder &#x200B;](#administrator-enhancements)
-* [&#x200B; de verhogingen van het Gelijkaardig &#x200B;](#agile-enhancements)
-* [&#x200B; de verhogingen van het Project &#x200B;](#project-enhancements)
-* [&#x200B; Verbeteringen van het Beheer van het Middel &#x200B;](#resource-management-enhancements)
-* [&#x200B; Meldend verhogingen &#x200B;](#reporting-enhancements)
-* [&#x200B; Verbeteringen van verzoeken &#x200B;](#requests-enhancements)
-* [&#x200B; het Proofing verhogingen &#x200B;](#proofing-enhancements)
-* [&#x200B; de verhogingen van de Integratie &#x200B;](#integration-enhancements)
-* [&#x200B; Mobiele verhogingen &#x200B;](#mobile-enhancements)
+* [ de verhogingen van de Beheerder ](#administrator-enhancements)
+* [ de verhogingen van het Gelijkaardig ](#agile-enhancements)
+* [ de verhogingen van het Project ](#project-enhancements)
+* [ Verbeteringen van het Beheer van het Middel ](#resource-management-enhancements)
+* [ Meldend verhogingen ](#reporting-enhancements)
+* [ Verbeteringen van verzoeken ](#requests-enhancements)
+* [ het Proofing verhogingen ](#proofing-enhancements)
+* [ de verhogingen van de Integratie ](#integration-enhancements)
+* [ Mobiele verhogingen ](#mobile-enhancements)
 * [Andere verbeteringen](#other-enhancements)
 
 ### Beheerdersverbeteringen {#administrator-enhancements}
@@ -252,7 +252,7 @@ For specific release dates and times for each cluster, see the [Adobe Workfront 
    <td><strong> Beschikbaar op deze data:</strong> <p>Voorvertoning release: 9 september 2021<br></p> <p>Productieversie: met de release van 21.4</p> <p><strong> Beschikbaar in deze milieu's:</strong> </p> <p>De nieuwe Adobe Workfront-ervaring </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/21.4-release-activity/21-4-agile-enhancements.md#changes" class="MCXref xref" xrefformat="{para}"> Veranderingen in een wisselende mening op projecten </a> </p> <p>Als deel van de 21.3 versie, maakten wij verbeteringen aan de agile kaartkopbal en verhaalraad (zie <a href="../../../product-announcements/product-releases/21.3-release-activity/21-3-project-enhancements.md#agile" class="MCXref xref" xrefformat="{para}"> de kaartkopbal en de updates van het verhaalbord van de Gelijkheid </a>). Deze updates waren van toepassing op herhalingen en op de flexibele weergave van projecten.</p> <p>Met versie 21.4 herstellen wij deze verbeteringen voor de flexibele weergave van projecten. Er worden geen wijzigingen aangebracht in variabele herhalingen.</p> <p>Hier volgen de wijzigingen die worden teruggedraaid met betrekking tot de flexibele weergave van projecten:</p> 
+   <td> <p><a href="../../../product-announcements/product-releases/21.4-release-activity/21-4-agile-enhancements.md#changes" class="MCXref xref" xrefformat="{para}"> Veranderingen in de Gelijke mening op projecten </a> </p> <p>Als deel van de 21.3 versie, maakten wij verbeteringen aan de de kaartkopbal en verhaalborden van de Gelijkheid (zie <a href="../../../product-announcements/product-releases/21.3-release-activity/21-3-project-enhancements.md#agile" class="MCXref xref" xrefformat="{para}"> de kaartkopbal en de updates van het verhaalbord van de Gelijke kaart </a>). Deze updates zijn van toepassing op herhalingen en op de algemene weergave van projecten.</p> <p>Met versie 21.4 keren we deze verbeteringen voor de Google-weergave over projecten om. Er worden geen wijzigingen aangebracht in de iteraties van Agile.</p> <p>Hier volgen de wijzigingen die worden teruggedraaid met betrekking tot de algemene weergave van projecten:</p> 
     <ul> 
      <li> <p>De artikelkaarten en de bordkolommen hebben aanpasbare breedten.</p> </li> 
      <li> <p>Kolommen hebben geen achtergrondarcering.</p> </li> 
@@ -413,7 +413,7 @@ For specific release dates and times for each cluster, see the [Adobe Workfront 
 
 ## Workfront Fusion-verbeteringen
 
-Nieuwe functies in Workfront Fusion zijn beschikbaar in Production op een cadence buiten de releaseplanning van 21.4. Voor meer informatie over de recentste eigenschappen, zie [&#x200B; de versieactiviteit van de Fusie van Adobe Workfront &#x200B;](https://experienceleague.adobe.com/nl/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
+Nieuwe functies in Workfront Fusion zijn beschikbaar in Production op een cadence buiten de releaseplanning van 21.4. Voor meer informatie over de recentste eigenschappen, zie [ de versieactiviteit van de Fusie van Adobe Workfront ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 
 ## Verbeteringen in Workfront Scenario Planner
 
@@ -421,7 +421,7 @@ Nieuwe functies in Workfront Fusion zijn beschikbaar in Production op een cadenc
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">There are no Scenario Planner updates at this point in the release. This area will be updated when updates are available.</p>
 -->
 
-De release van Workfront Scenario Planner met 21.4 bevat nieuwe functies. Voor informatie over deze nieuwe eigenschappen nu beschikbaar in Voorproef, zie [&#x200B; de versieactiviteit van de Planner van het Scenario van Adobe Workfront &#x200B;](../../../product-announcements/product-releases/scenario-planner-release-activity/sp-release-activity.md).
+De release van Workfront Scenario Planner met 21.4 bevat nieuwe functies. Voor informatie over deze nieuwe eigenschappen nu beschikbaar in Voorproef, zie [ de versieactiviteit van de Planner van het Scenario van Adobe Workfront ](../../../product-announcements/product-releases/scenario-planner-release-activity/sp-release-activity.md).
 
 <!--
 <h2 data-mc-conditions="QuicksilverOrClassic.Draft mode">Workfront Proof enhancements</h2>
@@ -443,13 +443,13 @@ Er zijn op dit moment geen updates voor Workfront Goals beschikbaar in de releas
 
 Voor API versie 14 hebben we een aantal bronnen en eindpunten gewijzigd. Sommige wijzigingen ondersteunen nieuwe functionaliteit en andere maken het voor u gemakkelijker om de informatie te gebruiken die beschikbaar is via de API.
 
-Voor informatie over wat nieuw en bijgewerkt is, zie [&#x200B; wat in API versie 14 &#x200B;](../../../wf-api/api/new-api-version-14.md) nieuw is.
+Voor informatie over wat nieuw en bijgewerkt is, zie [ wat in API versie 14 ](../../../wf-api/api/new-api-version-14.md) nieuw is.
 
-Voor informatie over API versies, zie [&#x200B; API versioning en steunprogramma &#x200B;](../../../wf-api/api/api-version-support-schedule.md).
+Voor informatie over API versies, zie [ API versioning en steunprogramma ](../../../wf-api/api/api-version-support-schedule.md).
 
 ## 21.4 Release-webinar
 
-De Workfront 21.4 Release Webinar werd gepresenteerd op 23 september 2021. U kunt de webinar opname van de [&#x200B; pagina van Gebeurtenissen op Workfront bekijken Één &#x200B;](https://one.workfront.com/s/event).
+De Workfront 21.4 Release Webinar werd gepresenteerd op 23 september 2021. U kunt de webinar opname van de [ pagina van Gebeurtenissen op Workfront bekijken Één ](https://one.workfront.com/s/event).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -465,7 +465,7 @@ De Workfront 21.4 Release Webinar werd gepresenteerd op 23 september 2021. U kun
 
 ## Training-updates
 
-Ontdek de nieuwste updates van leerprogramma&#39;s, leerpaden, video&#39;s en handleidingen voor elke Adobe Workfront-productrelease. Voor meer informatie, zie de [&#x200B; versie van de Opleiding pagina &#x200B;](https://experienceleague.adobe.com/nl/docs/workfront-learn/tutorials-workfront/home) bijwerkt.
+Ontdek de nieuwste updates van leerprogramma&#39;s, leerpaden, video&#39;s en handleidingen voor elke Adobe Workfront-productrelease. Voor meer informatie, zie de [ versie van de Opleiding pagina ](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) bijwerkt.
 
 ## Functionaliteit wordt niet meer ondersteund
 
@@ -473,4 +473,4 @@ Ontdek de nieuwste updates van leerprogramma&#39;s, leerpaden, video&#39;s en ha
 
 Nu de ondersteuning voor Internet Explorer is afgeschaft, biedt Workfront nu officieel ondersteuning voor Microsoft Edge.
 
-Voor meer informatie over gesteunde browsers, zie [&#x200B; browser van Adobe Workfront vereisten &#x200B;](../../../workfront-basics/workfront-browser-requirements.md).
+Voor meer informatie over gesteunde browsers, zie [ browser van Adobe Workfront vereisten ](../../../workfront-basics/workfront-browser-requirements.md).

@@ -2,11 +2,11 @@
 product-area: agile-and-teams;projects
 navigation-topic: iterations
 title: Een flexibel artikel maken in een herhaling
-description: In dit artikel wordt beschreven hoe u een nieuw, flexibel artikel kunt maken wanneer u zich al in de herhaling bevindt.
+description: In dit artikel wordt beschreven hoe u een nieuw artikel in het deelvenster Geniet kunt maken wanneer u al in de herhaling werkt.
 author: Jenny
 feature: Agile
 exl-id: 9712e065-5fbf-4deb-a39f-36e0e918ed12
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '472'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # Een flexibel artikel maken in een herhaling
 
-In dit artikel wordt beschreven hoe u een nieuw, flexibel artikel kunt maken wanneer u zich al in de herhaling bevindt. Voor informatie over het creëren van een flexibel verhaal van een taak, kwestie, of ander gebied van [!DNL Adobe Workfront], zie [&#x200B; verhalen aan een bestaande herhaling &#x200B;](../../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md) toevoegen.
+In dit artikel wordt beschreven hoe u een nieuw artikel in het deelvenster Geniet kunt maken wanneer u al in de herhaling werkt. Voor informatie over het creëren van een verhaal van de Gateway van een taak, kwestie, of ander gebied van [!DNL Adobe Workfront], zie [ verhalen aan een bestaande herhaling ](../../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md) toevoegen.
 
 ## Toegangsvereisten
 
@@ -39,17 +39,17 @@ In dit artikel wordt beschreven hoe u een nieuw, flexibel artikel kunt maken wan
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Een flexibel artikel maken in een herhaling
 
-1. Ga naar de dynamische iteratie waar u het artikel wilt maken:
+1. Ga naar de letterlijke tekst waar u het artikel wilt maken:
 
    {{step1-to-team}}
 
-   1. (Facultatief) klik het **[!UICONTROL Switch team]** pictogram van de pictogram ![&#x200B; Schakelaar teampictogram &#x200B;](assets/switch-team-icon.png), dan of selecteer een nieuw team van het Trommel van het drop-down menu of onderzoek naar een team in de onderzoeksbar.
+   1. (Facultatief) klik het **[!UICONTROL Switch team]** pictogram van de pictogram ![ Schakelaar teampictogram ](assets/switch-team-icon.png), dan of selecteer een nieuw team van het Trommel van het drop-down menu of onderzoek naar een team in de onderzoeksbar.
 
    1. Selecteer **[!UICONTROL Iterations]** in het linkerdeelvenster.
    1. Klik op de naam van de specifieke herhaling waar u een artikel wilt maken.

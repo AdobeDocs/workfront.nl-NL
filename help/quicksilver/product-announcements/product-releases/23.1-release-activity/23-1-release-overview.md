@@ -6,7 +6,7 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: e86524d3-5f57-45b6-8582-102d2de92be4
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '2462'
 ht-degree: 0%
@@ -19,7 +19,7 @@ Deze pagina bevat informatie over de functionaliteit die is opgenomen in de rele
 
 Deze verbeteringen zijn beschikbaar gesteld in de productieomgeving met de release van 23.1 op 18 en 19 januari 2023.
 
-De webinar voor release 23.1 vond plaats op dinsdag 10 januari 2023. U kunt [&#x200B; voor webinar registreren om een opname op bestelling hier &#x200B;](https://event.on24.com/wcc/r/3995983/A5FC731C36313CE081AEBB3B1AA39C77) te bekijken.
+De webinar voor release 23.1 vond plaats op dinsdag 10 januari 2023. U kunt [ voor webinar registreren om een opname op bestelling hier ](https://event.on24.com/wcc/r/3995983/A5FC731C36313CE081AEBB3B1AA39C77) te bekijken.
 
 <span class="preview"> off-cycle eigenschappen (die die aan Productie voorafgaand aan de 23.1 versiedatum vrijgeven) worden benadrukt in geel.</span>
 
@@ -123,7 +123,7 @@ De webinar voor release 23.1 vond plaats op dinsdag 10 januari 2023. U kunt [&#x
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-agile-enhancements.md" class="MCXref xref" xrefformat="{para}"> Scrum planning voor de Boards van Workfront </a> <span style="color: #ff0000;"> Binnenkort verkrijgbaar!</span></p>
-                        <p>De nieuwe functies voor de planning van scrum in Adobe Workfront Boards bieden flexibele opties voor het beheer van uw flexibele processen. Met de volgende gereedschappen kunt u:
+                        <p>De nieuwe functies voor de planning van scrum in Adobe Workfront Boards bieden flexibele opties voor het beheer van uw mobiele processen. Met de volgende gereedschappen kunt u:
                         <ul>
                         <li>Trackwerk in herhalingen of sprints</li>
                         <li>De snelheid van het gebruik om teamverplichtingen te begeleiden</li>
@@ -497,7 +497,7 @@ De webinar voor release 23.1 vond plaats op dinsdag 10 januari 2023. U kunt [&#x
 
 ### Workfront Fusion-verbeteringen
 
-Nieuwe functies in Workfront Fusion zijn beschikbaar in Production op een cadence buiten de releaseplanning van 23.1. Voor meer informatie over de recentste eigenschappen, zie [&#x200B; de versieactiviteit van de Fusie van Adobe Workfront &#x200B;](https://experienceleague.adobe.com/nl/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
+Nieuwe functies in Workfront Fusion zijn beschikbaar in Production op een cadence buiten de releaseplanning van 23.1. Voor meer informatie over de recentste eigenschappen, zie [ de versieactiviteit van de Fusie van Adobe Workfront ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 
 ### Verbeteringen in WorkfrontScenario-planner
 
@@ -509,23 +509,23 @@ Er zijn op dit moment geen Workfront Proof-updates beschikbaar. Dit gebied wordt
 
 ### Verbeteringen voor Workfront-doelen
 
-Nieuwe functies die beschikbaar zijn in de Workfront Goals release met 23.1 release. Voor informatie over deze nieuwe eigenschappen nu beschikbaar in Voorproef, zie [&#x200B; de Doelen van Adobe Workfront met de 23.1 versie &#x200B;](/help/quicksilver/product-announcements/product-releases/goals-release-activity/goals-23-1-release/goals-23-1-release.md).
+Nieuwe functies die beschikbaar zijn in de Workfront Goals release met 23.1 release. Voor informatie over deze nieuwe eigenschappen nu beschikbaar in Voorproef, zie [ de Doelen van Adobe Workfront met de 23.1 versie ](/help/quicksilver/product-announcements/product-releases/goals-release-activity/goals-23-1-release/goals-23-1-release.md).
 
 ### API-versie 15
 
 Voor API versie 15 hebben we een aantal bronnen en eindpunten gewijzigd. Sommige wijzigingen ondersteunen nieuwe functionaliteit en andere maken het voor u gemakkelijker om de informatie te gebruiken die beschikbaar is via de API.
 
-Voor informatie over wat nieuw en bijgewerkt is, zie [&#x200B; wat in API versie 15 &#x200B;](/help/quicksilver/wf-api/api/new-api-version-15.md) nieuw is.
+Voor informatie over wat nieuw en bijgewerkt is, zie [ wat in API versie 15 ](/help/quicksilver/wf-api/api/new-api-version-15.md) nieuw is.
 
-Voor informatie over API versies, zie [&#x200B; API versioning en steunprogramma &#x200B;](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
+Voor informatie over API versies, zie [ API versioning en steunprogramma ](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
 
 ### Workfront-onderhoudsupdates
 
-Voor informatie over de onderhoudsupdates die tijdens de versie 22.3 worden gemaakt, zie {de Updates van het Onderhoud van 0} Workfront [.](https://experienceleague.adobe.com/nl/docs/workfront-known-issues/releases/current-updates)
+Voor informatie over de onderhoudsupdates die tijdens de versie 22.3 worden gemaakt, zie {de Updates van het Onderhoud van 0} Workfront [.](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates)
 
 ### Training-updates
 
-Ontdek de nieuwste updates van leerprogramma&#39;s, leerpaden, video&#39;s en handleidingen voor elke Adobe Workfront-productrelease. Voor meer informatie, zie &quot;wat&quot;sectie van de [&#x200B; pagina van de Leerprogramma&#39;s van Workfront &#x200B;](https://experienceleague.adobe.com/nl/docs/workfront-learn/tutorials-workfront/home) Nieuw is.
+Ontdek de nieuwste updates van leerprogramma&#39;s, leerpaden, video&#39;s en handleidingen voor elke Adobe Workfront-productrelease. Voor meer informatie, zie &quot;wat&quot;sectie van de [ pagina van de Leerprogramma&#39;s van Workfront ](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) Nieuw is.
 
 ### Functionaliteit die binnenkort uit Workfront wordt verwijderd
 
@@ -546,11 +546,11 @@ Bovendien worden alle artikelen die deze functionaliteit beschrijven, verwijderd
 
 De Controles van de lijst in Opstelling > Interface zullen met de versie 23.1 worden verwijderd.
 
-Sommige functies voor lijstbeheer gaan naar Instellingen > Interface > Filters/Weergaven/Groeperingsgebieden. Voor meer informatie, zie [&#x200B; creeer, geef, en deel standaardfilters, meningen, en groeperingen &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/create-and-share-default-fvgs.md) uit.
+Sommige functies voor lijstbeheer gaan naar Instellingen > Interface > Filters/Weergaven/Groeperingsgebieden. Voor meer informatie, zie [ creeer, geef, en deel standaardfilters, meningen, en groeperingen ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/create-and-share-default-fvgs.md) uit.
 
 #### **uitbreiding van Workfront voor Illustrator en InDesign**
 
-Wij vervangen de [&#x200B; uitbreiding van Workfront voor Illustrator en InDesign &#x200B;](/help/quicksilver/documents/workfront-for-adobe-creative-cloud/use-wf-adobe-cc.md) met bijgewerkte stop-ins van Creative Cloud. Vanaf eind 2022 is deze extensie niet meer beschikbaar voor installatie in de Adobe Exchange.
+Wij vervangen de [ uitbreiding van Workfront voor Illustrator en InDesign ](/help/quicksilver/documents/workfront-for-adobe-creative-cloud/use-wf-adobe-cc.md) met bijgewerkte stop-ins van Creative Cloud. Vanaf eind 2022 is deze extensie niet meer beschikbaar voor installatie in de Adobe Exchange.
 
 De functionaliteit in deze extensie en diverse verbeteringen zijn beschikbaar in de bijgewerkte Adobe Workfront for Creative Cloud Plugins:
 
@@ -583,6 +583,6 @@ De werklastbalans vervangt de bronnenplanner.
 
 Met dit gebeurtenistype konden klanten controleren wanneer machtigingen voor objecten werden bijgewerkt.
 
-Voor meer informatie over de Abonnementen van de Gebeurtenis, evenals andere gebeurtenistypen die zullen blijven worden gesteund, zie [&#x200B; Abonnement API van de Gebeurtenis &#x200B;](/help/quicksilver/wf-api/general/event-subs-api.md)
+Voor meer informatie over de Abonnementen van de Gebeurtenis, evenals andere gebeurtenistypen die zullen blijven worden gesteund, zie [ Abonnement API van de Gebeurtenis ](/help/quicksilver/wf-api/general/event-subs-api.md)
 
 

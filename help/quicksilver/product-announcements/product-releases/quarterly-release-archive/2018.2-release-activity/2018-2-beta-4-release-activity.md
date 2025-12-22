@@ -7,7 +7,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4b54b9e6-d1bf-4802-9d6c-9c3d3b6a6583
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '1705'
 ht-degree: 0%
@@ -22,7 +22,7 @@ Op deze pagina worden alle wijzigingen beschreven die het laatst beschikbaar zij
 >
 > De op deze pagina beschreven functionaliteit kan worden gewijzigd voordat deze beschikbaar is in de productieomgeving.
 
-Voor een lijst met alle wijzigingen die in 2018.2 zijn aangebracht, raadpleegt u  [&#x200B; 2018.2 overzicht van de versieactiviteit &#x200B;](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-release-activity-overview.md).
+Voor een lijst met alle wijzigingen die in 2018.2 zijn aangebracht, raadpleegt u  [ 2018.2 overzicht van de versieactiviteit ](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-release-activity-overview.md).
 
 De Beta 4-release van 2018.2 bevat de verbeteringen voor Workfront-beheerders en andere gebruikers:
 
@@ -32,15 +32,15 @@ De Beta 4-release van 2018.2 bevat de verbeteringen voor Workfront-beheerders en
 
 **voor Alle Gebruikers**
 
-* [&#x200B; het Werk lopende (WIP) Verbeteringen van de Grens op de Raad Kanban &#x200B;](#work-in-progress-wip-limit-enhancements-on-the-kanban-board)
-* [&#x200B; Verbeterde Interface voor het Vormen van Statussen voor een Gegraveerd Team &#x200B;](#improved-interface-for-configuring-statuses-for-an-agile-team)
-* [&#x200B; Bijgewerkte Lijst van het Werk (Linker Comité) in het Gebied van het Huis &#x200B;](#updated-work-list-left-panel-in-the-home-area)
-* [&#x200B; Nieuwe Desktop Proofing Viewer voor het Proofing Interactive (Rijke Media) Inhoud &#x200B;](#new-desktop-proofing-viewer-for-proofing-interactive-rich-media-content) 
-* [&#x200B; Uitvoer de Mening van de Gebruiker in de Planner van het Middel &#x200B;](#export-the-user-view-in-the-resource-planner)
-* [&#x200B; Steun voor de Drijven van het Team van Google &#x200B;](#support-for-google-team-drives)
-* [&#x200B; Nieuwe Grens van de Uitvoer voor de Grafiek van Gantt &#x200B;](#new-export-limit-for-the-gantt-chart)
-* [&#x200B; Deeg van de Optie van het Klembord nu toont als Grijs wanneer het Gebruiken van Internet Explorer of Safari &#x200B;](#paste-from-clipboard-option-now-displays-as-dimmed-when-using-internet-explorer-or-safari)
-* [&#x200B; Nieuwe Milieu van Beta voor Android samen met Nieuwe Eigenschappen &#x200B;](#new-beta-environment-for-android-along-with-new-features)
+* [ het Werk lopende (WIP) Verbeteringen van de Grens op de Raad Kanban ](#work-in-progress-wip-limit-enhancements-on-the-kanban-board)
+* [ Verbeterde Interface voor het Vormen van Statussen voor een Gegraveerd Team ](#improved-interface-for-configuring-statuses-for-an-agile-team)
+* [ Bijgewerkte Lijst van het Werk (Linker Comité) in het Gebied van het Huis ](#updated-work-list-left-panel-in-the-home-area)
+* [ Nieuwe Desktop Proofing Viewer voor het Proofing Interactive (Rijke Media) Inhoud ](#new-desktop-proofing-viewer-for-proofing-interactive-rich-media-content) 
+* [ Uitvoer de Mening van de Gebruiker in de Planner van het Middel ](#export-the-user-view-in-the-resource-planner)
+* [ Steun voor de Drijven van het Team van Google ](#support-for-google-team-drives)
+* [ Nieuwe Grens van de Uitvoer voor de Grafiek van Gantt ](#new-export-limit-for-the-gantt-chart)
+* [ Deeg van de Optie van het Klembord nu toont als Grijs wanneer het Gebruiken van Internet Explorer of Safari ](#paste-from-clipboard-option-now-displays-as-dimmed-when-using-internet-explorer-or-safari)
+* [ Nieuwe Milieu van Beta voor Android samen met Nieuwe Eigenschappen ](#new-beta-environment-for-android-along-with-new-features)
 * [Voorbeelden van filters voor berichten met gebeurtenisabonnementen](#examples-of-filters-for-event-subscriptions-messages)
 
 ## Beperkingen van lopende werkzaamheden (WIP) Verbeteringen op de Kanbanenraad {#work-in-progress-wip-limit-enhancements-on-the-kanban-board}
@@ -51,7 +51,7 @@ Nu kunt u de grenzen van het Werk in Voortgang (WIP) voor elke kolom op de karto
 
 Voorafgaand aan deze verandering, kon u slechts één grens vormen van WIP die op alle kolommen op de karton Kanban van toepassing was. 
 
-Zie de sectie voor meer informatie  [&#x200B; vorm het werk momenteel (WIP) grens &#x200B;](../../../../agile/get-started-with-agile-in-workfront/configure-kanban.md#configur4) in het artikel  [&#x200B; vorm Kanban &#x200B;](../../../../agile/get-started-with-agile-in-workfront/configure-kanban.md).
+Zie de sectie voor meer informatie  [ vorm het werk momenteel (WIP) grens ](../../../../agile/get-started-with-agile-in-workfront/configure-kanban.md#configur4) in het artikel  [ vorm Kanban ](../../../../agile/get-started-with-agile-in-workfront/configure-kanban.md).
 
 ### Werk de limiet voor lopende werkzaamheden rechtstreeks bij vanaf de Kanban Board
 
@@ -63,14 +63,14 @@ Zie voor meer informatie  in het artikel.
 
 ## Verbeterde Interface voor het Vormen van Statussen voor een Team van gal {#improved-interface-for-configuring-statuses-for-an-agile-team}
 
-De interface voor het vormen statussen voor een agile team is bijgewerkt met de volgende verbeteringen:
+De interface voor het configureren van statussen voor een Agile-team is bijgewerkt met de volgende verbeteringen:
 
 * Nieuwe vormgeving en nieuw gevoel
 * Statuskolommen opnieuw ordenen via slepen en neerzetten 
 
 Raadpleeg de volgende artikelen voor meer informatie:
 
-* [&#x200B; vorm Kanban &#x200B;](../../../../agile/get-started-with-agile-in-workfront/configure-kanban.md)
+* [ vorm Kanban ](../../../../agile/get-started-with-agile-in-workfront/configure-kanban.md)
 * [Scrum configureren](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md)
 
 ## Bijgewerkte werklijst (linkerdeelvenster) in het begingebied {#updated-work-list-left-panel-in-the-home-area}
@@ -81,7 +81,7 @@ De werklijst in het gebied Home bevat de volgende verbeteringen:
 
   Items die buiten het gebied Home worden weergegeven, worden nog steeds als ongelezen weergegeven in het gebied Home.
 
-  Voor meer informatie, zie [&#x200B; punten van de Vertoning in de Lijst van het Werk in het gebied van het Huis &#x200B;](../../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
+  Voor meer informatie, zie [ punten van de Vertoning in de Lijst van het Werk in het gebied van het Huis ](../../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
 
 * Er wordt nu onderscheid gemaakt tussen problemen en een uitgavepictogram dat naast de uitgave wordt weergegeven.
 * Goedkeuringen worden nu onderscheiden door het goedkeuringstype, waarbij het type goedkeuring wordt weergegeven. Mogelijke goedkeuringstypen zijn Task, Project, Issue, Access, Document, Timesheet en Proof.
@@ -102,7 +102,7 @@ De werklijst in het gebied Home bevat de volgende verbeteringen:
 
   Dit nummer is niet beschikbaar voor de groep Voltooid.
 
-  Voor meer informatie, zie [&#x200B; punten van de Vertoning in de Lijst van het Werk in het gebied van het Huis &#x200B;](../../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
+  Voor meer informatie, zie [ punten van de Vertoning in de Lijst van het Werk in het gebied van het Huis ](../../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
 
 * Wijzig de grootte van de werklijst via slepen en neerzetten. U kunt het formaat van de Lijst van het Werk aanpassen om tot de helft van het scherm te verbruiken. De grootte die u instelt, blijft behouden wanneer u de volgende keer naar Home gaat.
 
@@ -111,11 +111,11 @@ De werklijst in het gebied Home bevat de volgende verbeteringen:
 * Voor verzoeken, wordt de gebruikersavatar van de gebruiker die het verzoek maakte nu getoond, met de tekst &quot;[ Approver_name ] zou uw goedkeuring willen op.&quot;
 * Wanneer u een nieuwe persoonlijke taak maakt, wordt de knop &quot;Aan taak&quot; nu aangeduid als &quot;Persoonlijk&quot;.
 
-  Voor meer informatie, zie [&#x200B; het werkpunten van het gebied van het Huis &#x200B;](../../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md) in het artikel [&#x200B; creeer het werkpunten van het gebied van het Huis &#x200B;](../../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md).
+  Voor meer informatie, zie [ het werkpunten van het gebied van het Huis ](../../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md) in het artikel [ creeer het werkpunten van het gebied van het Huis ](../../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md).
 
 * De late punten worden vermeld als Late slechts na een uur voorbij de Geplande Voltooiingsdatum.
 
-Voor meer informatie over het gebied van het Huis, zie [&#x200B; Gebruik het gebied van het Huis &#x200B;](../../../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md).
+Voor meer informatie over het gebied van het Huis, zie [ Gebruik het gebied van het Huis ](../../../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md).
 
 ## Nieuwe Desktop Proofing Viewer voor het proefdrukken van interactieve (rijke media) inhoud {#new-desktop-proofing-viewer-for-proofing-interactive-rich-media-content}
 
@@ -137,15 +137,15 @@ De Desktop Proofing Viewer bevat de volgende verbeteringen ten opzichte van de v
 
 Zie voor meer informatie over het downloaden, installeren en gebruiken van de Desktop Proofing Viewer.
 
-Voor informatie over functionaliteitsverschillen tussen de Desktop het Proofing Kijker en op browser-gebaseerde het proeven kijkers, zie [&#x200B; Verschillen tussen de Kijker van het Web het Proofing en het Overzicht van de Kijker van het Proofing van de Desktop &#x200B;](../../../../review-and-approve-work/proofing/proofing-overview/understand-differences-between-web-viewer.md).
+Voor informatie over functionaliteitsverschillen tussen de Desktop het Proofing Kijker en op browser-gebaseerde het proeven kijkers, zie [ Verschillen tussen de Kijker van het Web het Proofing en het Overzicht van de Kijker van het Proofing van de Desktop ](../../../../review-and-approve-work/proofing/proofing-overview/understand-differences-between-web-viewer.md).
 
 ## De gebruikersweergave in de bronnenplanner exporteren {#export-the-user-view-in-the-resource-planner}
 
 Het exporteren van de gegevens vanuit de functie Bronnen is tijdelijk uitgeschakeld wanneer u deze weergeeft in de weergave Gebruiker om enkele prestatieproblemen op te lossen. Met deze versie, re-toelaten wij de uitvoer van gegevens wanneer het tonen van de Planner van het Middel in de Mening van de Gebruiker.
 
-Voor meer informatie over het uitvoeren van de gegevens van de Planner van het Middel naar Excel, zie de &quot;sectie van de Optie van de Uitvoer&quot;in [&#x200B; het navigatieoverzicht van de Planner van het Middel &#x200B;](../../../../resource-mgmt/resource-planning/resource-planner-navigation.md).
+Voor meer informatie over het uitvoeren van de gegevens van de Planner van het Middel naar Excel, zie de &quot;sectie van de Optie van de Uitvoer&quot;in [ het navigatieoverzicht van de Planner van het Middel ](../../../../resource-mgmt/resource-planning/resource-planner-navigation.md).
 
-Om aan ons huidige bètaprogramma voor de Planner van het Middel deel te nemen, zie {de Prestaties Beta van de Planner van 0} Middel.[&#128279;](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront)
+Om aan ons huidige bètaprogramma voor de Planner van het Middel deel te nemen, zie {de Prestaties Beta van de Planner van 0} Middel.[](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront)
 
 ## Systeeminstelling: sessiegegevens op externe pagina&#39;s {#system-setting-session-information-in-external-pages}
 
@@ -153,7 +153,7 @@ De Workfront-beheerder kan nu het gebruik van sessiegegevens (bijvoorbeeld sessi
 
 Voorafgaand aan deze wijziging konden gebruikers die externe pagina&#39;s konden maken, alle sessiegegevens gebruiken wanneer ze andere sites insloten in een Workfront-dashboard. 
 
-Voor meer informatie over het vormen van uw Voorkeur van het Systeem in Workfront, zie [&#x200B; de voorkeur van de systeemveiligheid &#x200B;](../../../../administration-and-setup/manage-workfront/security/configure-security-preferences.md) vormen.
+Voor meer informatie over het vormen van uw Voorkeur van het Systeem in Workfront, zie [ de voorkeur van de systeemveiligheid ](../../../../administration-and-setup/manage-workfront/security/configure-security-preferences.md) vormen.
 
 ## Ondersteuning voor Google-teamdrives {#support-for-google-team-drives}
 
@@ -161,7 +161,7 @@ U kunt nu een document of een map op een Google Team Drive koppelen vanuit Workf
 
 Voordat u deze upgrade uitvoert, kunt u een document of map koppelen die zich alleen op de Google My Drive bevindt.
 
-Voor meer informatie over het verbinden van documenten en omslagen van diverse toepassingen aan Workfront, zie [&#x200B; documenten van de Verbinding van externe toepassingen &#x200B;](../../../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
+Voor meer informatie over het verbinden van documenten en omslagen van diverse toepassingen aan Workfront, zie [ documenten van de Verbinding van externe toepassingen ](../../../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
 
 ## Nieuwe exportlimiet voor de Gantt-grafiek {#new-export-limit-for-the-gantt-chart}
 
@@ -169,7 +169,7 @@ U kunt nu maximaal 500 taken exporteren in het Gantt-diagram.
 
 Eerder kon u maximaal 250 taken exporteren.
 
-Voor meer informatie, zie [&#x200B; de Grafiek van Gantt naar PDF &#x200B;](../../../../manage-work/gantt-chart/use-the-gantt-chart/export-gantt-chart-to-pdf.md) uitvoeren.
+Voor meer informatie, zie [ de Grafiek van Gantt naar PDF ](../../../../manage-work/gantt-chart/use-the-gantt-chart/export-gantt-chart-to-pdf.md) uitvoeren.
 
 ## De optie Plakken van klembordoptie wordt nu weergegeven als Grijs bij gebruik van Internet Explorer of Safari {#paste-from-clipboard-option-now-displays-as-dimmed-when-using-internet-explorer-or-safari}
 
@@ -177,7 +177,7 @@ De optie Plakken van klembord wordt nu grijs weergegeven wanneer u de Internet E
 
 Vóór deze wijziging werd deze optie niet weergegeven wanneer Internet Explorer of Safari werd gebruikt. 
 
-Voor meer informatie over het kleven van beelden van het klembord, zie [&#x200B; beelden van het Klembord &#x200B;](../../../../documents/managing-documents/paste-image-clipboard.md) kleven.
+Voor meer informatie over het kleven van beelden van het klembord, zie [ beelden van het Klembord ](../../../../documents/managing-documents/paste-image-clipboard.md) kleven.
 
 ## Nieuwe Beta-omgeving voor Android en nieuwe functies {#new-beta-environment-for-android-along-with-new-features}
 
@@ -215,4 +215,4 @@ De volgende verbeteringen zijn nu beschikbaar voor de bètaversie van de mobiele
 
 ## Voorbeelden van filters voor berichten met gebeurtenisabonnementen {#examples-of-filters-for-event-subscriptions-messages}
 
-Om aan te tonen hoe u de Abonnementen van de Gebeurtenis kunt filtreren om slechts de berichten te ontvangen relevant voor uw organisatie, zijn de codefragmenten van het voorbeeld nu beschikbaar voor het filtreren van de stroom van gebeurtenissen die aan uw eindpunten komen. Meer leren over het bekijken van de het filtreren voorbeelden, zie [&#x200B; berichten van het de gebeurtenisabonnement van de Filter &#x200B;](../../../../wf-api/api/filter-event-sub-messages.md).
+Om aan te tonen hoe u de Abonnementen van de Gebeurtenis kunt filtreren om slechts de berichten te ontvangen relevant voor uw organisatie, zijn de codefragmenten van het voorbeeld nu beschikbaar voor het filtreren van de stroom van gebeurtenissen die aan uw eindpunten komen. Meer leren over het bekijken van de het filtreren voorbeelden, zie [ berichten van het de gebeurtenisabonnement van de Filter ](../../../../wf-api/api/filter-event-sub-messages.md).

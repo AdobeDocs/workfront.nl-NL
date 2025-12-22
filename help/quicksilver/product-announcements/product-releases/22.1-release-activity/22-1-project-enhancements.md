@@ -6,7 +6,7 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: d24f2aae-1c3d-41ed-ad17-6276bef2cf45
-source-git-commit: 0542587bb3254dec5664de493c1c321528cf7f3e
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '1202'
 ht-degree: 0%
@@ -25,7 +25,7 @@ in January 2022
 
 de week van 17 januari 2022.
 
-Voor een lijst van alle veranderingen beschikbaar met de versie 22.1, zie [&#x200B; overzicht van de Versie 22.1 &#x200B;](../../../product-announcements/product-releases/22.1-release-activity/22-1-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar met de versie 22.1, zie [ overzicht van de Versie 22.1 ](../../../product-announcements/product-releases/22.1-release-activity/22-1-release-overview.md).
 
 ## De standaardoptie voor voorgangers wijzigen bij het kopiëren of verplaatsen van taken
 
@@ -35,7 +35,7 @@ Voorafgaand aan deze verbetering, werd de Al optie Predecessors standaard geschr
 
 Zie de artikelen voor meer informatie:
 
-* [&#x200B; Exemplaar en dupliceer taken &#x200B;](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md)
+* [ Exemplaar en dupliceer taken ](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md)
 * [Taken verplaatsen](../../../manage-work/tasks/manage-tasks/move-tasks.md)
 
 ## Bijgewerkte werkbalk in dashboardlijst en rapporten in dashboards
@@ -49,7 +49,7 @@ De pagina&#39;s met de bijgewerkte werkbalk zijn:
 * Lijst met Mijn dashboards
 * Lijst met gedeelde dashboards
 
-Voor meer informatie, zie [&#x200B; dashboards &#x200B;](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-and-manage-dashboards.md) creëren en beheren.
+Voor meer informatie, zie [ dashboards ](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-and-manage-dashboards.md) creëren en beheren.
 
 ## Deelvenster Overzicht van aangepaste formulieren voor documenten toevoegen en bewerken
 
@@ -59,7 +59,7 @@ Met deze wijziging ziet u ook een nieuwe vormgeving in het overzicht van het doc
 
 Eerder moest u naar het tabblad Aangepaste formulieren in Documentdetails gaan om wijzigingen aan te brengen of aangepaste formulieren toe te voegen.
 
-Voor meer informatie, zie [&#x200B; Samenvatting voor documentoverzicht &#x200B;](../../../documents/managing-documents/summary-for-documents.md).
+Voor meer informatie, zie [ Samenvatting voor documentoverzicht ](../../../documents/managing-documents/summary-for-documents.md).
 
 ## Nieuwe ervaring bij het kopiëren van een of meerdere taken
 
@@ -71,13 +71,13 @@ Enkele verbeteringen zijn onder meer:
 * Workfront controleert of u toegang tot het bestemmingsproject onmiddellijk na het kiezen van het project hebt. Voorafgaand aan deze verbetering, een waarschuwingsbericht erop wijst die dat u niet de correcte toegang hebt getoond nadat u het exemplaar bevestigde, dat in extra stappen resulteerde en het exemplaar niet werd toegestaan.
 * De capaciteit om toegang voor een project te verzoeken waar u de taak wilt kopiëren zonder de doos van de Taak van het Exemplaar te verlaten.
 
-Voor meer informatie, zie [&#x200B; het Exemplaar en dupliceert taken &#x200B;](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md).
+Voor meer informatie, zie [ het Exemplaar en dupliceert taken ](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md).
 
 ## Nieuwe ervaring bij het verplaatsen van een of meerdere taken uit een lijst
 
 Om een verenigbare ervaring te bieden wanneer het uitvoeren van de zelfde taak, hebben wij nu de interface voor het bewegen van één of meerdere taken van een lijst bijgewerkt om de ervaring aan te passen wanneer het bewegen van de taak op het taakniveau. (We hebben de ervaring voor het verplaatsen van een taak op taakniveau bijgewerkt in een vorige Preview-release.)
 
-Voor meer informatie, zie [&#x200B; de taken van de Beweging &#x200B;](../../../manage-work/tasks/manage-tasks/move-tasks.md).
+Voor meer informatie, zie [ de taken van de Beweging ](../../../manage-work/tasks/manage-tasks/move-tasks.md).
 
 ## Nieuwe ervaring bij het verplaatsen van een taak op taakniveau
 
@@ -89,13 +89,13 @@ Enkele verbeteringen van deze nieuw herontworpen interface omvatten:
 * Workfront zal controleren of u toegang tot het bestemmingsproject onmiddellijk na het kiezen van het project hebt. Vóór deze verbetering, waarschuwde Workfront u dat u niet de correcte toegang hebt nadat u de beweging hebt bevestigd die in extra stappen resulteerde en de beweging niet werd toegestaan.
 * De capaciteit om toegang voor een project te verzoeken waar u de taak wilt bewegen zonder de doos van de Taak van de Beweging te verlaten.
 
-Voor meer informatie, zie [&#x200B; de taken van de Beweging &#x200B;](../../../manage-work/tasks/manage-tasks/move-tasks.md).
+Voor meer informatie, zie [ de taken van de Beweging ](../../../manage-work/tasks/manage-tasks/move-tasks.md).
 
 ## Nieuwe ervaring wanneer het omzetten van een kwestie in een project gebruikend een malplaatje op het emissieniveau
 
 >[!NOTE]
 >
->Deze functie is op 4 maart 2022 tijdelijk verwijderd uit de productieomgeving. Het werd later vrijgegeven in een gefaseerde uitrol die begon op 28 april 2022. De uitrol is op 5 mei 2022 voltooid. Dit is nu beschikbaar in Voorbeeld en Productie voor alle klanten. (Voor de recentste updates op het statuut van deze eigenschap die aan Productie vrijgeven, zie [&#x200B; overzicht van de Versie 2.3 &#x200B;](../../../product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md).)
+>Deze functie is op 4 maart 2022 tijdelijk verwijderd uit de productieomgeving. Het werd later vrijgegeven in een gefaseerde uitrol die begon op 28 april 2022. De uitrol is op 5 mei 2022 voltooid. Dit is nu beschikbaar in Voorbeeld en Productie voor alle klanten. (Voor de recentste updates op het statuut van deze eigenschap die aan Productie vrijgeven, zie [ overzicht van de Versie 2.3 ](../../../product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md).)
 
 Om uw gebruik van Workfront consistent te maken met de nieuwe Workfront-ervaring, hebben we de interface voor het converteren van een uitgave naar een project opnieuw ontworpen wanneer u een sjabloon gebruikt wanneer u deze converteert van de uitgavepagina.
 
@@ -103,21 +103,21 @@ U kunt nu gemakkelijker uw lijst met favorieten openen direct nadat u hebt gesel
 
 De opnieuw ontworpen interface past de ervaring aan wanneer het creëren van een project van een malplaatje dat wij onlangs ook hebben bijgewerkt.
 
-Voor meer informatie, zie [&#x200B; Bekeerling een kwestie in een project &#x200B;](../../../manage-work/issues/convert-issues/convert-issue-to-project.md).
+Voor meer informatie, zie [ Bekeerling een kwestie in een project ](../../../manage-work/issues/convert-issues/convert-issue-to-project.md).
 
 ## Uitgaven converteren naar projecten met behulp van een sjabloon uit lijsten, rapporten en dashboards
 
 >[!NOTE]
 >
->Deze functie is op 4 maart 2022 tijdelijk verwijderd uit de productieomgeving. Het werd later vrijgegeven in een gefaseerde uitrol die begon op 28 april 2022. De uitrol is op 5 mei 2022 voltooid. Dit is nu beschikbaar in Voorbeeld en Productie voor alle klanten. (Voor de recentste updates op het statuut van deze eigenschap die aan Productie vrijgeven, zie [&#x200B; overzicht van de Versie 2.3 &#x200B;](../../../product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md).)
+>Deze functie is op 4 maart 2022 tijdelijk verwijderd uit de productieomgeving. Het werd later vrijgegeven in een gefaseerde uitrol die begon op 28 april 2022. De uitrol is op 5 mei 2022 voltooid. Dit is nu beschikbaar in Voorbeeld en Productie voor alle klanten. (Voor de recentste updates op het statuut van deze eigenschap die aan Productie vrijgeven, zie [ overzicht van de Versie 2.3 ](../../../product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md).)
 
 Om de efficiency van uw werk te verhogen en het voor u gemakkelijker te maken om kwesties in een snel-afgewerkt milieu om te zetten, hebben wij de capaciteit toegevoegd om een kwestie in een project om te zetten gebruikend een malplaatje van een lijst, een rapport, of een dashboard.
 
 Vóór deze verbetering, bestond deze functionaliteit slechts toen u de kwestie van de uitgavepagina omzet.
 
-Voor meer informatie, zie [&#x200B; Bekeerling een kwestie in een project in Adobe Workfront &#x200B;](../../../manage-work/issues/convert-issues/convert-issue-to-project.md).
+Voor meer informatie, zie [ Bekeerling een kwestie in een project in Adobe Workfront ](../../../manage-work/issues/convert-issues/convert-issue-to-project.md).
 
-## Filteren op gebruikerslijst op Bestandtekengebieden toont gebruikers met de meeste toewijzingen eerst
+## In de gebruikerslijst op de gipsplaten worden gebruikers met de meeste toewijzingen eerst weergegeven
 
 >[!NOTE]
 >
@@ -129,20 +129,20 @@ Eerder werd het filter op gebruikerslijst op zowel Kanban als de Borden van de T
 
 Zie de volgende informatie voor meer informatie
 
-* [&#x200B; Filter door gebruiker op het board van het Trommel &#x200B;](../../../agile/use-scrum-in-an-agile-team/scrum-board/filter-by-user-scrum-board.md)
+* [ Filter door gebruiker op het board van het Trommel ](../../../agile/use-scrum-in-an-agile-team/scrum-board/filter-by-user-scrum-board.md)
 * [Filteren op gebruiker op Kanban-bord](../../../agile/use-kanban-in-an-agile-team/filter-by-user.md)
 
 ## De mogelijkheid beperken om documenten toe te voegen aan een sjabloon die u deelt
 
 Soms voegen mensen documenten aan een projectmalplaatje toe die denken dat zij hen aan een project toevoegen. Nu kunt u helpen voorkomen dit-wanneer u een malplaatje met de toegang van de Mening deelt, kunt u het nieuwe geavanceerde plaatsen onbruikbaar maken toevoegt Documenten. Hierdoor kunnen ontvangers geen documenten aan de sjabloon toevoegen.
 
-Voor instructies bij het delen van een malplaatje, zie [&#x200B; het projectmalplaatjes van het Aandeel &#x200B;](../../../manage-work/projects/create-and-manage-templates/share-project-template.md).
+Voor instructies bij het delen van een malplaatje, zie [ het projectmalplaatjes van het Aandeel ](../../../manage-work/projects/create-and-manage-templates/share-project-template.md).
 
-Voor informatie over het nieuwe geavanceerde plaatsen voegt Documenten toe, zie de sectie in het artikel [&#x200B; delend een malplaatje &#x200B;](../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
+Voor informatie over het nieuwe geavanceerde plaatsen voegt Documenten toe, zie de sectie in het artikel [ delend een malplaatje ](../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
 
 ## Een documentmap delen
 
 Nu kunt u een documentmap en de inhoud ervan delen vanuit het gebied Documenten. Eerder was dit niet mogelijk. U moest elk document in een omslag afzonderlijk delen.
 
-Voor meer informatie, zie [&#x200B; een documentomslag &#x200B;](../../../workfront-basics/grant-and-request-access-to-objects/share-a-document-folder.md) delen.
+Voor meer informatie, zie [ een documentomslag ](../../../workfront-basics/grant-and-request-access-to-objects/share-a-document-folder.md) delen.
 

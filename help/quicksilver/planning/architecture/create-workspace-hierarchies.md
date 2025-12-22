@@ -4,9 +4,9 @@ description: Als werkruimtemanager kunt u meerdere werkruimtemhiërarchieën mak
 hide: true
 hidefromtoc: true
 exl-id: 2f83c427-4439-499d-a0b2-fc8630552cae
-source-git-commit: 6aba4316228a320cf33e419249a64b3cf56e8f39
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
-source-wordcount: '662'
+source-wordcount: '917'
 ht-degree: 0%
 
 ---
@@ -28,22 +28,23 @@ hidefromtoc: yes
 
 # Hiërarchieën voor werkruimten maken
 
-Als werkruimtemanager kunt u meerdere werkruimtemhiërarchieën maken tussen de recordtypen in Adobe Workfront Planning.
+<span class="preview"> de informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>
 
+<span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
 
-Nadat recordtypen in een werkruimte zijn verbonden, kunt u een hiërarchie maken die deze verbindingen ordent. De hiërarchie organiseert verslagtypes in ouder-kind verhoudingen en kan tot vier niveaus van objecten types bevatten.
+Als werkruimtemanager kunt u veelvoudige werkruimtehiërarchieën tussen verslagtypes in de Planning van Adobe Workfront tot stand brengen.
+
+Nadat recordtypen in een werkruimte zijn verbonden, kunt u een hiërarchie maken die deze verbindingen ordent. In hiërarchieën worden record- en objecttypen geordend in relatie bovenliggend-onderliggend en kunnen maximaal vier niveaus van objecttypen worden opgenomen.
 
 Als er nog geen verbinding tussen twee recordtypen bestaat, kan deze worden gemaakt terwijl u de hiërarchie instelt. Zodra bepaald, vestigt de hiërarchie een gestructureerd weg over verwante verslagtypes binnen de werkruimte.
 
-Hierarchieën genereren broodkruimels voor de recordtypen en records <!--ensure this is the case: does the breadcrumb show for both the RT and the record??--> die in de koppen worden weergegeven. Op deze manier weten gebruikers waar ze zich in de hiërarchie bevinden in elk stadium van hun workflow.
+Hiërarchieën genereren broodkruimels voor de recordtypen en hun respectievelijke records <!--ensure this is the case: does the breadcrumb show for both the RT and the record??--> die in hun koppen worden weergegeven. Op deze manier weten gebruikers waar ze zich in de hiërarchie bevinden in elk stadium van hun workflow.
 
-Voor algemene informatie over hiërarchieën en broodkruimels, zie [&#x200B; Hiërarchie en breadcrumb overzicht &#x200B;](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md).
+Voor algemene informatie over hiërarchieën en broodkruimels, zie [ Hiërarchie en breadcrumb overzicht ](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md).
 
 ## Toegangsvereisten
 
 <!--check the access to see if you oversimplified???-->
-
-<!--Update the TOC for this to publish-->
 
 +++ Breid uit om de toegangsvereisten te bekijken om de stappen in dit artikel uit te voeren:  
 
@@ -78,7 +79,7 @@ of
 </tbody> 
 </table>
 
-Voor meer informatie over de toegangsvereisten van Workfront, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer informatie over de toegangsvereisten van Workfront, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -87,19 +88,32 @@ Voor meer informatie over de toegangsvereisten van Workfront, zie [&#x200B; vere
 {#step1-to-planning}
 
 1. Klik op een werkruimtekaart.
-1. Klik **Meer** menu ![&#x200B; Meer menu &#x200B;](assets/more-menu.png) rechts van de werkruimtenaam, dan klik **Montages**.
+1. Klik **Meer** menu ![ Meer menu ](assets/more-menu.png) rechts van de werkruimtenaam, dan klik **Montages**.
 De **sectie van Hiërarchieën** opent door gebrek.
 1. Klik **Nieuwe hiërarchie** in de hoger-juiste hoek van de **pagina van Hiërarchieën**.
-1. Klik **toevoegen voorwerp** en selecteer een voorwerp van het dropdown menu. Dit wordt het eerste bovenliggende object in uw hiërarchie.
-De eerste ouder kan slechts een het verslagtype van de Planning zijn. Workfront-projecten kunnen niet worden geselecteerd als bovenliggende items van andere objecttypen in een hiërarchie.
-1. Klik **toevoegen voorwerp** om een tweede voorwerp toe te voegen dat het eerste kind in uw hiërarchie is, dan een ander voorwerp in het dropdown menu selecteren.
-   ![&#x200B; Nieuwe hiërarchiedoos zonder gebied selecteerde &#x200B;](assets/new-hierarchy-modal-without-connecte-fielf-selected.png)
-1. Klik **Uitgezochte verbonden gebied** om erop te wijzen welk gebied de twee voorwerpen verbindt.
-1. (Voorwaardelijk) Als een verbonden gebied tussen de twee objecten types bestaat, selecteer het van de lijst. Anders, klik **toevoegen nieuwe verbinding**.
+1. Klik **toevoegen voorwerp** en selecteer een objecten type van het dropdown menu. Dit wordt het eerste objecttype in uw hiërarchie. <!--logged bug to correct to "Add object type"-->
 
-   >[!WARNING]
-   >
-   >Als **creeer corresponderend gebied op verbonden verslagtype** niet werd geselecteerd toen het verbonden gebied werd gecreeerd, moet u het gebied eerst uitgeven alvorens u kunt verdergaan.
+   Het eerste objecttype kan alleen een Planningsrecordtype zijn.
+
+   Workfront-projecten kunnen niet worden geselecteerd als bovenliggende items van andere objecttypen in een hiërarchie.
+
+1. Klik **toevoegen voorwerp** om een tweede objecten type toe te voegen dat het eerste kind in uw hiërarchie is, dan een ander objecten type in het dropdown menu selecteren.
+Elke extra objecttype wordt een onderliggend object van de vorige objecttypen.
+
+   ![ Nieuwe hiërarchiedoos zonder gebied selecteerde ](assets/new-hierarchy-modal-without-connecte-fielf-selected.png)
+
+1. Klik **Uitgezochte verbonden gebied** om erop te wijzen welk gebied de twee voorwerpen verbindt.
+1. (Voorwaardelijk) Als er meerdere verbindingsvelden zijn, selecteert u een veld in de lijst.
+
+   of
+
+   Klik **toevoegen nieuwe verbinding** om een nieuw verbindingsgebied toe te voegen.
+
+   Hiermee maakt u een verbindingsveld van het recordtype dat u als bovenliggend element gebruikt en een overeenkomstig verbindingsveld van het recordtype dat u als onderliggend element gebruikt.
+
+   Als u een verbinding met Workfront-projecten maakt, wordt er geen veld voor het project gemaakt.
+
+1. (Voorwaardelijk) als er geen verbonden beschikbare gebieden zijn, klik **creeer verbinding** en voeg een nieuwe verbinding toe, dan klik **sparen**.
 
 1. (Voorwaardelijk) Als u een nieuwe verbinding toevoegt, doe het volgende:
 
@@ -110,15 +124,27 @@ De eerste ouder kan slechts een het verslagtype van de Planning zijn. Workfront-
       * **Één aan vele**
       * **Velen aan één**
       * **Één aan één**
+
    1. Selecteer een van de volgende typen opnamen:
 
       * **Naam en beeld**
       * **Naam**
       * **Beeld**
-Voor meer informatie, zie [&#x200B; Connect verslagtypes &#x200B;](/help/quicksilver/planning/architecture/connect-record-types.md).
+
+      Voor meer informatie, zie [ Connect verslagtypes ](/help/quicksilver/planning/architecture/connect-record-types.md).
+
    1. Klik **sparen**.
+
+1. (Voorwaardelijk) als **creeer het overeenkomstige gebied op verbonden verslagtype** niet werd geselecteerd toen het verbonden gebied werd gecreeerd, zult u een fout krijgen en moet het volgende eerst doen: <!--check back on these steps; this is supposed to be seamless, but now you have to abandon creating a hierarchy to do this-->
+
+   1. Klik **annuleren** in de **Nieuwe hiërarchie** doos.
+   1. Klik op de pijl Vorige links van de naam van de werkruimte en klik vervolgens op de kaart van het recordtype dat u als bovenliggend element wilt kiezen.
+   1. Open de lijstmening van het verslagtype u in de stap hierboven selecteerde, dan ga naar het verbindingsgebied met het objecten type u als kind wilt gebruiken, over de kolomkopbal, dan klik **uitgeven** gebied.
+   1. Zet **aan creeer het corresponderende gebied op verbonden verslagtype** plaatsen, dan klik **sparen**.
+   1. Terugkeer aan het gebied van de Montages van de werkruimte **** en klik **Nieuwe hiërarchie** opnieuw, dan volg de stappen om een hiërarchie tot stand te brengen.
+
 1. (Optioneel) Voeg na de bovenstaande stappen maximaal vier objecttypen toe aan uw hiërarchieën. U kunt eerst alle objecttypen toevoegen en vervolgens de verbindingsvelden tussen de objecttypen toevoegen.
-1. (Facultatief) klik **verwijder** pictogram ![&#x200B; verwijderen pictogram &#x200B;](assets/minus-icon.png) om een verbinding te verwijderen.
+1. (Facultatief) klik **verwijder** pictogram ![ verwijderen pictogram ](assets/minus-icon.png) om een verbinding te verwijderen.
 1. Klik **sparen** om uw hiërarchie te bewaren.
 
    >[!TIP]
@@ -129,7 +155,11 @@ Voor meer informatie, zie [&#x200B; Connect verslagtypes &#x200B;](/help/quicksi
 
    * De hiërarchie wordt toegevoegd aan de **sectie van Hiërarchieën** van de werkruimte.
    * De verslagen die de verbindingsgebieden bevolken tonen alle verbindingen in hun broodkruimels, wanneer u naar de pagina van een verslag gaat.
-1. (Facultatief) Beweeg over een hiërarchie, dan klik **Meer** menu, dan klik één van het volgende:
+1. (Optioneel) Houd de muis boven een hiërarchie en klik vervolgens op het menu **Meer** .
+
+   ![ Hiërarchie Meer uitgevouwen menu ](assets/hierarchy-more-menu-expanded.png)
+
+1. Klik op een van de volgende opties:
 
    * **geeft** uit: Dit opent **uitgeeft hiërarchie** doos waar u veranderingen kunt aanbrengen.
    * **Schrapping**: Dit schrapt permanent de hiërarchie. Verwijderde hiërarchieën kunnen niet worden hersteld. Verbindingsvelden worden niet verwijderd.

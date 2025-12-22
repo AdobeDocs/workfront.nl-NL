@@ -5,7 +5,7 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9b78a58e-7ced-4b13-8108-40bd36339667
-source-git-commit: 7f24186c8803237a6f5116293b3c6a5fd1ea90f6
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '1653'
 ht-degree: 0%
@@ -32,7 +32,7 @@ Voorzien wordt dat maandelijkse en driemaandelijkse versies beschikbaar zullen z
 >
 >Voor de definitieve versie van elk kwartaal (25.4 dit kwartaal), zullen de gebruikers op het snelle versieschema één dag vroeg de versie ontvangen.
 >
->Voor meer informatie over het snelle versieproces, zie [&#x200B; toelaten of onbruikbaar maken het snelle versieproces &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
+>Voor meer informatie over het snelle versieproces, zie [ toelaten of onbruikbaar maken het snelle versieproces ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
 
 ## Verbeteringen voor Adobe Workfront
 
@@ -53,7 +53,7 @@ Voorzien wordt dat maandelijkse en driemaandelijkse versies beschikbaar zullen z
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Verbeteringen voor logica voor aangepaste formulieren</a></p><p>[!BADGE in productie &#x200B;]{type=Informative}</p>
+            Verbeteringen voor logica voor aangepaste formulieren</a></p><p>[!BADGE in productie ]{type=Informative}</p>
             <p>De builder van de logica voor aangepaste formulieren heeft een bijgewerkte interface waarmee u meer ruimte hebt voor het maken van logische regels. Dit nieuwe ontwerp kan gemakkelijker extra logische types aanpassen die in de toekomst kunnen worden toegevoegd.</p><p>Naast de huidige opties voor weergave en het overslaan van logica, is ook validatielogica beschikbaar.</p>
         </td>
         <td>
@@ -68,7 +68,7 @@ Voorzien wordt dat maandelijkse en driemaandelijkse versies beschikbaar zullen z
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Expressies die worden toegevoegd aan berekende aangepaste velden</a></p>
-            [!BADGE in productie &#x200B;]{type=Informative}
+            [!BADGE in productie ]{type=Informative}
             <p>De volgende expressies zijn nu beschikbaar in door Workfront berekende aangepaste velden: ARRAY, FORMAT, SWITCH, SORTASCARRAY, SORTDESCARRAY, ARRAYLENGTH, ARRAYELEMENT en ADDHOUR. Definities en voorbeelden van elke expressie zijn beschikbaar in de rekeneditor en op Experience League.</p>
         </td>
         <td>
@@ -105,7 +105,7 @@ Voorzien wordt dat maandelijkse en driemaandelijkse versies beschikbaar zullen z
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Desktop Proofing Viewer-update </a></p>[!BADGE in productie &#x200B;]{type=Informative}
+            Desktop Proofing Viewer-update </a></p>[!BADGE in productie ]{type=Informative}
             <p>De Desktop Proofing Viewer is bijgewerkt naar versie 2.1.45. Met deze update kan de viewer gebruiken
             <ul><li>Elektron versie 35</li><li>Chroom versie 134</li><ul></p>
         </td>
@@ -120,7 +120,7 @@ Voorzien wordt dat maandelijkse en driemaandelijkse versies beschikbaar zullen z
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Meerdere documenten tegelijk bewerken in een documentrapport </a></p>[!BADGE in productie &#x200B;]{type=Informative}
+            Meerdere documenten tegelijk bewerken in een documentrapport </a></p>[!BADGE in productie ]{type=Informative}
             <p>U kunt nu meerdere documenten tegelijk bewerken in een documentrapport. U kunt de beschrijvingen bewerken en aangepaste formulieren bijwerken.</p>
         </td>
         <td>
@@ -143,7 +143,7 @@ Voorzien wordt dat maandelijkse en driemaandelijkse versies beschikbaar zullen z
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-mobile-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Verbeteringen voor proefdrukken in de mobiele app (alleen iOS)</a><p>[!BADGE in productie &#x200B;]{type=Informative}</p></p>
+            Verbeteringen voor proefdrukken in de mobiele app (alleen iOS)</a><p>[!BADGE in productie ]{type=Informative}</p></p>
             <p>Er zijn verschillende verbeteringen beschikbaar voor de proefdrukfunctionaliteit in de mobiele app van Adobe Workfront:
             <ul>
             <li>U kunt nu een proefdrukbestand openen vanuit uw mobiele e-mailtoepassing via een koppeling die met u is gedeeld. Eerder werden koppelingen uit e-mailberichten niet ondersteund en moest u proefdrukken openen vanuit de mobiele app van Workfront.</li>
@@ -175,7 +175,7 @@ Voorzien wordt dat maandelijkse en driemaandelijkse versies beschikbaar zullen z
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-project-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Een opmerking toevoegen aan projecten wanneer u deze bewerkt in het vak Project bewerken</a><p>[!BADGE in productie &#x200B;]{type=Informative}</p>
+            Een opmerking toevoegen aan projecten wanneer u deze bewerkt in het vak Project bewerken</a><p>[!BADGE in productie ]{type=Informative}</p>
             <p>U kunt nu een opmerking aan een project toevoegen terwijl u deze bewerkt in het vak Project bewerken. U kunt ook een opmerking toevoegen aan meerdere projecten tegelijk wanneer u ze bulksgewijs bewerkt. Vóór deze update bestond deze functionaliteit niet tijdens het bewerken van projecten.</p>
         </td>
         <td>
@@ -199,7 +199,7 @@ Voorzien wordt dat maandelijkse en driemaandelijkse versies beschikbaar zullen z
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-reporting-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Documentgoedkeuring en beslissingsgegevens zijn nu beschikbaar in Data Connect</a><p>[!BADGE in productie &#x200B;]{type=Informative}</p>
+            Documentgoedkeuring en beslissingsgegevens zijn nu beschikbaar in Data Connect</a><p>[!BADGE in productie ]{type=Informative}</p>
             <p>U hebt nu toegang tot gegevens voor documentgoedkeuringen en -beslissingen in Data Connect. Deze gegevensset vormt een brug tussen documentgoedkeuringen van Workfront-proefdrukmogelijkheden en Frame.io-goedkeuringen die plaatsvinden op Workfront-documenten. U kunt nu de cyclustijd, het aantal cycli en de tijdlijneffecten illustreren voor late goedkeuringen via uw BI-visualisaties.</p>
         </td>
         <td>
@@ -212,7 +212,7 @@ Voorzien wordt dat maandelijkse en driemaandelijkse versies beschikbaar zullen z
     </tr>                          
     <tr>
         <td>
-            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-reporting-enhancements.md" class="MCXref xref" xrefformat="{para}">Updates van de Workfront-agenda</a></p><p>[!BADGE in productie &#x200B;]{type=Informative}</p>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-reporting-enhancements.md" class="MCXref xref" xrefformat="{para}">Updates van de Workfront-agenda</a></p><p>[!BADGE in productie ]{type=Informative}</p>
             <p>We hebben de look and feel van de Workfront-agenda aangepast aan een modern ontwerp dat aansluit bij andere delen van Workfront. Er zijn kleine functieverschillen met de huidige Workfront-kalender, waaronder:
             <ul>
             <li>Ad-hocitems toevoegen aan de kalender</li>
@@ -242,7 +242,7 @@ Voorzien wordt dat maandelijkse en driemaandelijkse versies beschikbaar zullen z
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Upgrade naar de nieuwe versie voor gebeurtenisabonnementen met de eindpunten voor versieverbeteringen</a></p>
-            [!BADGE in productie &#x200B;]{type=Informative}
+            [!BADGE in productie ]{type=Informative}
             <p>Workfront heeft nu versies van gebeurtenisabonnementen. De nieuwe versie is geen wijziging in de Workfront API, maar een wijziging in de functionaliteit voor abonnementen voor gebeurtenissen. U kunt uw gebeurtenisabonnementen op de nieuwe versie schakelen zonder een hiaat in uw gebeurtenisabonnement te creëren</p>
         </td>
         <td>
@@ -255,7 +255,7 @@ Voorzien wordt dat maandelijkse en driemaandelijkse versies beschikbaar zullen z
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Adobe Admin Console-gebruikerswijzigingen vertegenwoordigen als "Systeem" in de Workfront-updatefeed</a></p><p>[!BADGE in productie &#x200B;]{type=Informative}</p><p>Nu, wanneer de beheerder van de Adobe Admin Console een verandering in de gebruikersinformatie van een gebruiker van Workfront aanbrengt, registreert Workfront deze verandering in het de activiteitslusje van het Systeem van het gebied van de Updates van de gebruiker zoals die tot het "Systeem"behoort. Dit verwijst naar de Adobe Admin Console-beheerder.</p>
+            Adobe Admin Console-gebruikerswijzigingen vertegenwoordigen als "Systeem" in de Workfront-updatefeed</a></p><p>[!BADGE in productie ]{type=Informative}</p><p>Nu, wanneer de beheerder van de Adobe Admin Console een verandering in de gebruikersinformatie van een gebruiker van Workfront aanbrengt, registreert Workfront deze verandering in het de activiteitslusje van het Systeem van het gebied van de Updates van de gebruiker zoals die tot het "Systeem"behoort. Dit verwijst naar de Adobe Admin Console-beheerder.</p>
         </td>
         <td>
             <p><b>Beschikbaar op deze data:</b></p>
@@ -296,39 +296,39 @@ Als we het Workfront-platform blijven verbeteren, is het van cruciaal belang dat
 
 #### We verwijderen de oudere versie van de Agile-weergave in een project
 
-De oudere versie van Agile in een project wordt verwijderd uit Workfront met de release van 25.3 op 13 maart 2025. U kunt uw taken nog steeds bekijken in een mobiele weergave in een project door op het pictogram Boven te klikken. De bestaande oude agile-gereedschappen zijn nog steeds beschikbaar in het gebied Teams.
+De oudere versie van Agile in een project wordt verwijderd uit Workfront met de release van 25.3 op 13 maart 2025. U kunt uw taken nog steeds bekijken in een mobiele weergave in een project door op het pictogram Boven te klikken. De bestaande oudere Agile-gereedschappen zijn nog steeds beschikbaar in het gebied Teams.
 
-In de onderstaande afbeelding ziet u de oudere, flexibele optie die wordt verwijderd:
-![&#x200B; erfenis de verbinding van de agile mening &#x200B;](assets/project-agile-board-view.png)
+In de onderstaande afbeelding ziet u de oudere optie van Agile die wordt verwijderd:
+![ verbinding van de de meningsmening van erfenisGelijkle ](assets/project-agile-board-view.png)
 
 
 #### Verbeterde afgekeurde analysemogelijkheden
 
 Vanwege het lage en afnemende gebruik hebben we besloten om het product Enhanced Analytics in de week van 25 mei 2025 af te schaffen.
 We raden u aan ons Data Connect-product te beschouwen als een vervanging. Met Data Connect kunt u vergelijkbare aanpasbare visualisaties maken met de bedrijfsintelligentiegereedschappen van uw voorkeur.
-Voor meer informatie over deze veroudering, zie de [&#x200B; Verbeterde gids van de Vervanging van Analytics &#x200B;](/help/quicksilver/product-announcements/announcements/enhanced-analytics-deprecation.md).
+Voor meer informatie over deze veroudering, zie de [ Verbeterde gids van de Vervanging van Analytics ](/help/quicksilver/product-announcements/announcements/enhanced-analytics-deprecation.md).
 
 ## Aankondigingen
 
 ### Modernisering van de interface
 
-We werken de interface in Adobe Workfront bij om de gebruikerservaring te verbeteren en deze te verenigen met andere Adobe-toepassingen. Deze veranderingen worden vrijgegeven buiten het standaardversieschema. Voor een lijst van deze veranderingen, zie [&#x200B; Modernisering van de Interface &#x200B;](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
+We werken de interface in Adobe Workfront bij om de gebruikerservaring te verbeteren en deze te verenigen met andere Adobe-toepassingen. Deze veranderingen worden vrijgegeven buiten het standaardversieschema. Voor een lijst van deze veranderingen, zie [ Modernisering van de Interface ](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
 
 ### Workfront Fusion-verbeteringen
 
 >[!IMPORTANT]
 >
->De Workfront Fusion-documentatie is verplaatst naar een nieuwe locatie. Voor informatie, instructies, en versies voor Fusie, bezoek [&#x200B; de documentatie van de Fusie van Workfront &#x200B;](https://experienceleague.adobe.com/nl/docs/workfront-fusion/using/home).
+>De Workfront Fusion-documentatie is verplaatst naar een nieuwe locatie. Voor informatie, instructies, en versies voor Fusie, bezoek [ de documentatie van de Fusie van Workfront ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/home).
 >
 >Elk huidig Fusion-documentatieartikel bevat een koppeling naar het bijbehorende artikel op de nieuwe locatie. Werk uw bladwijzers bij.
 >
 >De huidige Fusion-documentatieset wordt niet meer bijgewerkt en wordt in de nabije toekomst verwijderd.
 
-Nieuwe functies in Workfront Fusion zijn beschikbaar in Production op een cadence buiten de standaard releaseschema. Voor meer informatie over de recentste eigenschappen, zie [&#x200B; de versieactiviteit van de Fusie van Adobe Workfront &#x200B;](https://experienceleague.adobe.com/nl/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
+Nieuwe functies in Workfront Fusion zijn beschikbaar in Production op een cadence buiten de standaard releaseschema. Voor meer informatie over de recentste eigenschappen, zie [ de versieactiviteit van de Fusie van Adobe Workfront ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 
 ### Verbeteringen voor Workfront-planning
 
-Nieuwe functies in Workfront Planning zijn beschikbaar in Production. Voor meer informatie over de recentste eigenschappen, zie [&#x200B; Adobe Workfront die Tweede Kwartaal 2025 versieactiviteit plant &#x200B;](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q2.md).
+Nieuwe functies in Workfront Planning zijn beschikbaar in Production. Voor meer informatie over de recentste eigenschappen, zie [ Adobe Workfront die Tweede Kwartaal 2025 versieactiviteit plant ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q2.md).
 
 ### Verbeteringen in Workfront Scenario Planner
 
@@ -346,14 +346,14 @@ Er zijn op dit moment geen updates voor Workfront Goals beschikbaar in de releas
 
 Voor API versie 19 hebben we een aantal bronnen en eindpunten gewijzigd. Sommige wijzigingen ondersteunen nieuwe functionaliteit en andere maken het voor u gemakkelijker om de informatie te gebruiken die beschikbaar is via de API.
 
-Voor informatie over wat nieuw en bijgewerkt is, zie [&#x200B; wat in API versie 19 &#x200B;](/help/quicksilver/wf-api/api/new-api-version-19.md) nieuw is.
+Voor informatie over wat nieuw en bijgewerkt is, zie [ wat in API versie 19 ](/help/quicksilver/wf-api/api/new-api-version-19.md) nieuw is.
 
-Voor informatie over welke API versies momenteel worden gesteund, zie [&#x200B; API versioning en steunprogramma &#x200B;](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
+Voor informatie over welke API versies momenteel worden gesteund, zie [ API versioning en steunprogramma ](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
 
 ### Workfront-onderhoudsupdates
 
-Voor informatie over de onderhoudsupdates die tijdens de Tweede Kwartaal 2025 versie worden gemaakt, zie [&#x200B; Updates van het Onderhoud van Workfront &#x200B;](https://experienceleague.adobe.com/nl/docs/workfront-known-issues/releases/current-updates).
+Voor informatie over de onderhoudsupdates die tijdens de Tweede Kwartaal 2025 versie worden gemaakt, zie [ Updates van het Onderhoud van Workfront ](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates).
 
 ### Training-updates
 
-Ontdek de nieuwste updates van leerprogramma&#39;s, leerpaden, video&#39;s en handleidingen voor elke Adobe Workfront-productrelease. Voor meer informatie, zie &quot;wat&quot;sectie van de [&#x200B; pagina van de Leerprogramma&#39;s van Workfront &#x200B;](https://experienceleague.adobe.com/nl/docs/workfront-learn/tutorials-workfront/home) Nieuw is.
+Ontdek de nieuwste updates van leerprogramma&#39;s, leerpaden, video&#39;s en handleidingen voor elke Adobe Workfront-productrelease. Voor meer informatie, zie &quot;wat&quot;sectie van de [ pagina van de Leerprogramma&#39;s van Workfront ](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) Nieuw is.

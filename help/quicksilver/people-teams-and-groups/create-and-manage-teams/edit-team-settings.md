@@ -6,7 +6,7 @@ description: Workfront-beheerders en gebruikers met een abonnement- of werkvergu
 author: Jenny
 feature: People Teams and Groups
 exl-id: b6761188-8630-446e-bc70-70fe272881ce
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '435'
 ht-degree: 0%
@@ -40,7 +40,7 @@ U kunt gebruikers aan een team toevoegen, het malplaatje van de teamlay-out plaa
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -48,7 +48,7 @@ Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van d
 
 {{step1-to-team}}
 
-1. Klik het **[!UICONTROL Switch team]** pictogram van het pictogram ![&#x200B; team van de Schakelaar &#x200B;](assets/switch-team-icon.png), dan of selecteer een nieuw team van het drop-down menu of onderzoek naar een team in de onderzoeksbar.
+1. Klik het **[!UICONTROL Switch team]** pictogram van het pictogram ![ team van de Schakelaar ](assets/switch-team-icon.png), dan of selecteer een nieuw team van het drop-down menu of onderzoek naar een team in de onderzoeksbar.
 
 1. Klik op het **[!UICONTROL More]** menu ![](assets/more-icon.png) en selecteer vervolgens **[!UICONTROL Edit]** .
 
@@ -66,7 +66,7 @@ Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van d
 
      >[!NOTE]
      >
-     >Wanneer een team aan een groep of een subgroep wordt toegewezen, kunnen om het even welke groepsbeheerders van die groep of subgroep het team beheren zonder een lid van het te zijn. De beheerders van de groep kunnen naar het gebied van Teams van het Belangrijkste Menu gaan en [!UICONTROL Switch Teams] het teampictogram van de pijl ![&#x200B; Schakelaar &#x200B;](assets/switch-team-icon.png) klikken om van alle teams een lijst te maken die aan de groepen worden toegewezen die zij beheren.
+     >Wanneer een team aan een groep of een subgroep wordt toegewezen, kunnen om het even welke groepsbeheerders van die groep of subgroep het team beheren zonder een lid van het te zijn. De beheerders van de groep kunnen naar het gebied van Teams van het Belangrijkste Menu gaan en [!UICONTROL Switch Teams] het teampictogram van de pijl ![ Schakelaar ](assets/switch-team-icon.png) klikken om van alle teams een lijst te maken die aan de groepen worden toegewezen die zij beheren.
 
      U kunt ervoor zorgen dat u de juiste groep aan het team koppelt door de muisaanwijzer boven de groep te plaatsen en op het informatiepictogram ![](assets/info-icon.png) te klikken dat naast de groep wordt weergegeven. Hier wordt knopinfo weergegeven met informatie over de groep, zoals de hiërarchie van de bovenliggende groepen en de bijbehorende beheerders.
 
@@ -77,14 +77,14 @@ Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van d
 
      Zie de sectie &quot;Een aangepaste sjabloon toepassen op een team&quot; in de gebieden [!UICONTROL My Work] en [!UICONTROL Work Requests] met lay-outsjablonen wijzigen voor meer informatie over het toepassen van een aangepaste lay-outsjabloon op een team.
 
-   * Bepaal of dit team een flexibel team is door de optie **[!UICONTROL This is an Agile Team]** te selecteren.
+   * Bepaal of dit team een team van Adobe is door de optie **[!UICONTROL This is an Agile Team]** te selecteren.
 
-     Voor meer informatie over mobiele teams en hoe te om het werk binnen een flexibel team te beheren, zie [&#x200B; een flexibel team &#x200B;](../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md) creëren.
+     Voor meer informatie over de teams van de Gelijkheid en hoe te om het werk binnen een team van de Gelijkheid te beheren, zie [ een team van de Gelijkheid ](../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md) creëren.
 
-   * Wijzig de knop [!UICONTROL Work On It] in een knop [!UICONTROL Start] . Voor meer informatie over hoe te om de [!UICONTROL Start] knoop te vormen, zie [&#x200B; het Werk op het knoop met a [!UICONTROL Start] knoop &#x200B;](../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md) vervangen.
+   * Wijzig de knop [!UICONTROL Work On It] in een knop [!UICONTROL Start] . Voor meer informatie over hoe te om de [!UICONTROL Start] knoop te vormen, zie [ het Werk op het knoop met a [!UICONTROL Start] knoop ](../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md) vervangen.
    * Pas de knop **[!UICONTROL Done]** aan. Zie voor meer informatie over het aanpassen van de knop [!UICONTROL Done] :
 
-      * [&#x200B; vorm de [!UICONTROL Done] knoop voor taken &#x200B;](../../people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-tasks.md)
+      * [ vorm de [!UICONTROL Done] knoop voor taken ](../../people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-tasks.md)
       * [De knop [!UICONTROL Done] configureren voor problemen](../../people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-issues.md)
 
 1. Klik op **[!UICONTROL Save Changes]**.

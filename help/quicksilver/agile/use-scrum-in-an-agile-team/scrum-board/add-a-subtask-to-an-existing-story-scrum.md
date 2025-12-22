@@ -6,7 +6,7 @@ description: Houd bij het maken van subtaken voor bestaande artikelen rekening m
 author: Jenny
 feature: Agile
 exl-id: 264e66e9-94c7-4904-baad-f733d39b4791
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '549'
 ht-degree: 0%
@@ -52,7 +52,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -60,21 +60,21 @@ Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van d
 
 {{step1-to-team}}
 
-1. (Facultatief) klik het **[!UICONTROL Switch team]** pictogram van de pictogram ![&#x200B; Schakelaar teampictogram &#x200B;](assets/switch-team-icon.png), dan of selecteer een nieuw team van het Trommel van het drop-down menu of onderzoek naar een team in de onderzoeksbar.
+1. (Facultatief) klik het **[!UICONTROL Switch team]** pictogram van de pictogram ![ Schakelaar teampictogram ](assets/switch-team-icon.png), dan of selecteer een nieuw team van het Trommel van het drop-down menu of onderzoek naar een team in de onderzoeksbar.
 
-1. Ga naar de flexibele iteratie of het project dat het artikel bevat waar u een subtaak wilt toevoegen. Voor informatie over hoe te om aan een herhaling te navigeren, zie [&#x200B; Mening een herhaling &#x200B;](../../../agile/use-scrum-in-an-agile-team/iterations/view-iteration.md).
+1. Ga naar de iteratie of het project van het Gezicht dat het verhaal bevat waar u een subtaak wilt toevoegen. Voor informatie over hoe te om aan een herhaling te navigeren, zie [ Mening een herhaling ](../../../agile/use-scrum-in-an-agile-team/iterations/view-iteration.md).
 1. Ga naar de artikeltegel op het artikelbord waar u een subtaak wilt toevoegen.
 1. Klik op **[!UICONTROL Add Subtask]** op de hoofdartikelkaart om een subtaak voor het artikel te maken.
 
-   ![&#x200B; voeg subtask &#x200B;](assets/agile-story-addsubtask-NWE.png) toe
+   ![ voeg subtask ](assets/agile-story-addsubtask-NWE.png) toe
 
    of
 
    Klik op **[!UICONTROL Add Subtask]** op een tegel voor een subtaak om een subtaak voor de subtaak te maken.
 
-   [!DNL Workfront] ondersteunt oneindige niveaus van subtaken, maar er worden slechts twee niveaus (subtaken van subtaken) weergegeven op de agile story-board.
+   [!DNL Workfront] ondersteunt oneindige niveaus van subtaken, maar er worden slechts twee niveaus (subtaken van subtaken) weergegeven op de artikelboard van Agile.
 
-   ![&#x200B; voeg subtask &#x200B;](assets/agile-story-addsubtask2-NWE.png) toe
+   ![ voeg subtask ](assets/agile-story-addsubtask2-NWE.png) toe
 
    Wanneer u een subtaak toevoegt aan een artikel dat momenteel geen swimanie heeft, wordt de bovenliggende taak opgewaardeerd tot de kolom [!UICONTROL Parent Story] en wordt de subtaak binnen de widget geplaatst.
 

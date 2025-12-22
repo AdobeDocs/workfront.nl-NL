@@ -7,7 +7,7 @@ description: Lees dit artikel om beter te begrijpen hoe het Kanban-bord werkt.
 author: Jenny
 feature: Agile
 exl-id: d7daa6c1-dae2-4e5c-a765-6a6ebdfaa331
-source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '457'
 ht-degree: 0%
@@ -20,21 +20,21 @@ ht-degree: 0%
 
 In de volgende secties krijgt u meer inzicht in de werking van het [!UICONTROL Kanban] -board.
 
-Voor een beschrijving van K [!UICONTROL anban] methodologie, zie [&#x200B; een team van de Gelijkheid &#x200B;](/help/quicksilver/agile/get-started-with-agile-in-workfront/create-an-agile-team.md) creëren.
+Voor een beschrijving van K [!UICONTROL anban] methodologie, zie [ een team van de Gelijkheid ](/help/quicksilver/agile/get-started-with-agile-in-workfront/create-an-agile-team.md) creëren.
 
-Als u in het migreren van een agile team [!UICONTROL Kanban] raad aan [!DNL Workfront] [!UICONTROL Boards] geinteresseerd bent, zie [&#x200B; de kaarten van het Team van de Migrate [!UICONTROL Kanban] aan  [!DNL Workfront]  raden &#x200B;](/help/quicksilver/agile/use-boards-agile-planning-tools/migrate-kanban-cards-to-boards.md).
+Als u in het migreren van een de teamraad van Agile [!UICONTROL Kanban] aan [!DNL Workfront] [!UICONTROL Boards] geinteresseerd bent, zie [ de kaarten van het Team van de Migrate [!UICONTROL Kanban] aan  [!DNL Workfront]  raden ](/help/quicksilver/agile/use-boards-agile-planning-tools/migrate-kanban-cards-to-boards.md).
 
 ## [!UICONTROL Kanban] indeling en functies van het bord
 
 De raad van [!UICONTROL Kanban] bestaat uit de volgende elementen:
 
-**de Kolom van de Achtergrond**: Toont alle taken die momenteel op de achterstand zijn. Deze kolom wordt niet standaard weergegeven. Voor meer informatie over de achterstand, met inbegrip van hoe te om het op de [!UICONTROL Kanban] raad te tonen, zie [&#x200B; de Agile backlog &#x200B;](../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md) leiden.
+**de Kolom van de Achtergrond**: Toont alle taken die momenteel op de achterstand zijn. Deze kolom wordt niet standaard weergegeven. Voor meer informatie over de achterstand, met inbegrip van hoe te om het op de [!UICONTROL Kanban] raad te tonen, zie [ de Agile backlog ](../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md) leiden.
 
 **de Statussen van het Verhaal**: Wijst erop hoe een verhaal gebaseerd op welke statuskolom het verhaal binnen is.
 
-Voor meer informatie, zie [&#x200B; de status van verhalen op de [!UICONTROL Kanban] raad &#x200B;](../../agile/use-kanban-in-an-agile-team/update-the-status-of-stories.md) bijwerken.
+Voor meer informatie, zie [ de status van verhalen op de [!UICONTROL Kanban] raad ](../../agile/use-kanban-in-an-agile-team/update-the-status-of-stories.md) bijwerken.
 
-De status van het verhaal kan voor het project worden aangepast door de gelijke mening te wijzigen, zoals die in de sectie [[!UICONTROL Create or customize an Agile view]](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md#create-or-customize-an-agile-view) in [&#x200B; wordt beschreven creeer of geef meningen in  [!DNL Adobe Workfront]](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md) uit.
+De statussen van het verhaal kunnen voor het project worden aangepast door de mening van de Gelijkheid te wijzigen, zoals die in de sectie [[!UICONTROL Create or customize an Agile view]](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md#create-or-customize-an-agile-view) in [ wordt beschreven creeer of geef meningen in  [!DNL Adobe Workfront]](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md) uit.
 
 >[!NOTE]
 >

@@ -6,7 +6,7 @@ description: U kunt een artikel of uitgave van het Klembord naar een andere herh
 author: Jenny
 feature: Agile
 exl-id: 72990251-0264-4e68-83ef-1a9cde5b685c
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '430'
 ht-degree: 0%
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 U kunt een artikel of uitgave van het [!UICONTROL Scrum] board naar een andere herhaling of naar de achtergrond verplaatsen, of het verwijderen van de [!UICONTROL Scrum] board. Wanneer u een artikel of uitgave verwijdert, wordt het artikel of de uitgave 30 dagen naar de prullenbak verplaatst en kan het alleen door de systeembeheerder worden hersteld.
 
-Om een taak of een kwestie uit de herhaling te verwijderen zonder het te schrappen of het te verzenden naar de backlog, ga naar het project en verwijder het flexibele team uit de taakkolom. Hierdoor wordt de taak of het probleem verwijderd van het Klembord, maar blijft het bestand op het project staan.
+Om een taak of een kwestie uit de herhaling te verwijderen zonder het te schrappen of het te verzenden naar de backlog, ga naar het project en verwijder het team van Ariel uit de taakkolom. Hierdoor wordt de taak of het probleem verwijderd van het Klembord, maar blijft het bestand op het project staan.
 
 ## Toegangsvereisten
 
@@ -44,7 +44,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -52,11 +52,11 @@ Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van d
 
 {{step1-to-team}}
 
-1. Klik het **[!UICONTROL Switch team]** pictogram van de pictogram ![&#x200B; Schakelaar teampictogram &#x200B;](assets/switch-team-icon.png), dan of selecteer een team van het Trommel van het drop-down menu of onderzoek naar een team in de onderzoeksbar.
+1. Klik het **[!UICONTROL Switch team]** pictogram van de pictogram ![ Schakelaar teampictogram ](assets/switch-team-icon.png), dan of selecteer een team van het Trommel van het drop-down menu of onderzoek naar een team in de onderzoeksbar.
 1. Selecteer in het linkerdeelvenster **[!UICONTROL Iterations]** om een specifieke herhaling te kiezen of selecteer **[!UICONTROL Current Iteration]** .
 1. Klik op het pictogram **[!UICONTROL More]** in het artikel of de uitgave en selecteer **[!UICONTROL Move to]** .
 
-   ![&#x200B; Schrap of beweeg verhaal van het Klembord van het Trommel &#x200B;](assets/scrum-delete-move-story.png)
+   ![ Schrap of beweeg verhaal van het Klembord van het Trommel ](assets/scrum-delete-move-story.png)
 
 1. Kies in het bevestigingsbericht een van de volgende opties:
 
@@ -73,7 +73,7 @@ Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van d
 
    >[!NOTE]
    >
-   >Het werkitem [!UICONTROL Planned Start Date] en [!UICONTROL Planned Completion Date] worden beïnvloed door een instelling op de pagina [!UICONTROL Edit Team] . Voor informatie, zie de sectie [[!UICONTROL Configure] hoe de data worden toegepast wanneer het toevoegen van het werkpunten aan een herhaling &#x200B;](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur5) in het artikel [&#x200B; vormen de Trommel &#x200B;](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md).
+   >Het werkitem [!UICONTROL Planned Start Date] en [!UICONTROL Planned Completion Date] worden beïnvloed door een instelling op de pagina [!UICONTROL Edit Team] . Voor informatie, zie de sectie [[!UICONTROL Configure] hoe de data worden toegepast wanneer het toevoegen van het werkpunten aan een herhaling ](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur5) in het artikel [ vormen de Trommel ](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md).
 
 1. Klik op **[!UICONTROL Move]**.
 
@@ -81,10 +81,10 @@ Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van d
 
 {{step1-to-team}}
 
-1. Klik het **[!UICONTROL Switch team]** pictogram van de pictogram ![&#x200B; Schakelaar teampictogram &#x200B;](assets/switch-team-icon.png), dan of selecteer een team van het Trommel van het drop-down menu of onderzoek naar een team in de onderzoeksbar.
+1. Klik het **[!UICONTROL Switch team]** pictogram van de pictogram ![ Schakelaar teampictogram ](assets/switch-team-icon.png), dan of selecteer een team van het Trommel van het drop-down menu of onderzoek naar een team in de onderzoeksbar.
 1. Selecteer in het linkerdeelvenster **[!UICONTROL Iterations]** om een specifieke herhaling te kiezen of selecteer **[!UICONTROL Current Iteration]** .
 1. Klik op het pictogram **[!UICONTROL More]** in het artikel of de uitgave en selecteer **[!UICONTROL Delete Story]** of **[!UICONTROL Delete Issue]** .
 
-   ![&#x200B; Schrap of beweeg verhaal van het Klembord van het Trommel &#x200B;](assets/scrum-delete-move-story.png)
+   ![ Schrap of beweeg verhaal van het Klembord van het Trommel ](assets/scrum-delete-move-story.png)
 
 1. Klik op **[!UICONTROL Yes, delete it]** in het bevestigingsbericht.

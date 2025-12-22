@@ -3,11 +3,11 @@ content-type: overview
 product-area: agile-and-teams
 navigation-topic: agile-navigation-topic
 title: 'Overzicht van gereedschappen voor mobiele planning: artikelindex'
-description: Als u een kaart maakt met behulp van ad-hockaarten en kaarten met een verbinding, kunt u gebruikmaken van extra flexibele planningstools op borden.
+description: Als u een kaart maakt met behulp van ad-hockaarten en kaarten met een verbinding, kunt u gebruikmaken van extra Agile-planningtools op borden.
 author: Jenny
 feature: Agile
 exl-id: c1d28eeb-e920-4f57-a94b-ffd928b384a4
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '193'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 <!-- Audited: 5/2025 -->
 
-Als u een kaart maakt met behulp van ad-hockaarten en aangesloten kaarten, kunt u gebruikmaken van extra flexibele planningstools.
+Wanneer u een kaart maakt met een ad-hockaart of een kaart met verbinding, kunt u gebruikmaken van extra Agile-planningtools.
 
 Tot de nuttige gereedschappen voor Kanban behoren:
 
@@ -36,7 +36,7 @@ Tot de nuttige gereedschappen voor rum behoren:
 >
 >Workstreams en de bijbehorende gereedschappen zijn alleen beschikbaar voor een specifieke groep klanten.
 
-U kunt om het even welk of al deze hulpmiddelen op een manier gebruiken die voor u en uw team werkt, zonder zich aan een specifieke behendige methodologie te verbinden.
+U kunt om het even welk of elk van deze hulpmiddelen op een manier gebruiken die voor u en uw team werkt, zonder zich aan een specifieke methodologie van de Gelijkheid te verbinden.
 
 Deze sectie bevat de volgende artikelen:
 
@@ -44,7 +44,7 @@ Deze sectie bevat de volgende artikelen:
 * [Een inlaatkolom aan een bord toevoegen](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md)
 * [Groepen aan boord gebruiken](/help/quicksilver/agile/use-boards-agile-planning-tools/group-cards-on-board.md)
 * [Afvalfunctie van kaart configureren](/help/quicksilver/agile/use-boards-agile-planning-tools/configure-card-falloff.md)
-* [Kanbankkaarten voor mobiele teams migreren naar Workfront-borden](/help/quicksilver/agile/use-boards-agile-planning-tools/migrate-kanban-cards-to-boards.md)
+* [Kanbankkaarten van het Agile-team migreren naar Workfront-borden](/help/quicksilver/agile/use-boards-agile-planning-tools/migrate-kanban-cards-to-boards.md)
 * [Werkstromen beheren](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md)
 * [De kaartlijst gebruiken](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md)
 * [Een herhaling in een werkstroom maken](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md)

@@ -3,11 +3,11 @@ content-type: overview
 product-area: agile-and-teams
 navigation-topic: scrum-board
 title: Overzicht van de scrollstructuur
-description: Het scorebord van het verhaal toont samen met de voltooiingsstatus en de burndown grafiek.
+description: Het scorebord voor het rasterverhaal wordt weergegeven samen met de voltooiingsstatus en het uitvouwdiagram.
 author: Jenny
 feature: Agile
 exl-id: 584288bb-2d98-4b69-8deb-d3b8e54d328c
-source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '797'
 ht-degree: 0%
@@ -18,16 +18,16 @@ ht-degree: 0%
 
 <!-- Audited: 5/2025 -->
 
-De [!UICONTROL Scrum] -kaart wordt samen met de voltooiingsstatus en het uitvouwdiagram weergegeven. Deze flexibele componenten zijn beschikbaar in de volgende situaties in [!UICONTROL Adobe Workfront]:
+Het [!UICONTROL Scrum] Google-artikelbord wordt samen met de voltooiingsstatus en het uitvouwdiagram weergegeven. Deze componenten van het Geavanceerd systeem zijn beschikbaar in de volgende situaties in [!UICONTROL Adobe Workfront]:
 
-* Op niet-gele iteraties. Voor meer details over het gebruiken van de agile verhaalraad, burndown grafiek, en voltooiingsstatus in een zuiver agile milieu (met backlogs en een herhaling), zie [&#x200B; Werk in een behendig milieu &#x200B;](../../../agile/work-in-an-agile-environment/work-in-an-agile-environment.md).
-* Wanneer u een project in een flexibele weergave weergeeft. Voor informatie over hoe u hefboomwerking de flexibele verhaalraad, burndown grafiek, en voltooiingsstatus binnen een bestaand project kunt, zie [&#x200B; een project in de Gelijke Mening &#x200B;](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md) leiden.
+* Op mobiele iteraties. Voor meer details over het gebruiken van de het verhaalraad van de Stijl, burndown grafiek, en voltooiingsstatus in een zuiver milieu van de Stijl (met backlogs en een herhaling), zie [ Werk in een milieu van de Stijl ](../../../agile/work-in-an-agile-environment/work-in-an-agile-environment.md).
+* Wanneer u een project weergeeft in een Google-weergave. Voor informatie over hoe u hefboomwerking de het verhaalraad van de Gelijkheid, burndown grafiek, en voltooiingsstatus binnen een bestaand project kunt, zie [ een project in de Gelijke Mening ](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md) leiden.
 
-![&#x200B; de iteratie van de Gelijkheid &#x200B;](assets/agile-iteration-with-callouts.png)
+![ de iteratie van de Gelijkheid ](assets/agile-iteration-with-callouts.png)
 
 ## Layout en functies van het artikelbord
 
-![&#x200B; het verhaalbord van de Gelijkheid &#x200B;](assets/agile-storyboard-callouts.png)
+![ het verhaalbord van de Gelijkheid ](assets/agile-storyboard-callouts.png)
 
 De whiteboard bestaat uit de volgende elementen:
 
@@ -35,22 +35,22 @@ De whiteboard bestaat uit de volgende elementen:
 
   In een herhaling wordt deze kolom alleen op het artikelbord weergegeven wanneer een of meer artikelen op het artikelbord ten minste één subtaak bevatten die aan de volgende vereisten voldoet:
 
-   * Toegewezen aan het zelfde agile team zoals de oudertaak.
+   * Toegewezen aan het zelfde team van gal zoals de oudertaak.
    * Behoort tot de herhaling.
 
      In een project, lijkt deze kolom wanneer een taak minstens één subtaak heeft.
 
-     ![&#x200B; de kolom van het het verhaal van de ouder &#x200B;](assets/agile-parentstory-swimlane.png)
+     ![ de kolom van het het verhaal van de ouder ](assets/agile-parentstory-swimlane.png)
 
 * **Statussen van de Taak**: Wijs op hoe een verhaal door de herhaling of het project vordert dat op welke statuskolom wordt gebaseerd het verhaal binnen is.
 
-  De statussen van de taak kunnen voor het project worden aangepast door de flexibele mening te wijzigen.
+  De statussen van de taak kunnen voor het project worden aangepast door de mening van de Gelijkheid te wijzigen.
 
 * **Waaier Lane**: Wanneer een ouderverhaal en zijn subtaken op de verhaalraad verschijnen, wordt een zwemweg gecreeerd specifiek voor het verhaal en zijn subtasks. Dit biedt een visueel onderscheid om beter te kunnen zien hoe de subtaken van een artikel zich over de hele whitepaper ontwikkelen.
 
   In een herhaling worden zwempaden alleen op het artikelbord weergegeven wanneer een artikel op het artikelbord ten minste één subtaak bevat die aan de volgende vereisten voldoet:
 
-   * Toegewezen aan het zelfde agile team zoals de oudertaak.
+   * Toegewezen aan het zelfde team van gal zoals de oudertaak.
    * Behoort tot de herhaling.
 
   In een project, verschijnen de zwemwegen wanneer een taak minstens één subtaak of één oudertaak heeft.
@@ -67,10 +67,10 @@ Deze zelfde logica is op subtaken op het tweede niveau (subtaken van subtaken) v
 
 ## Relatie tussen de Artikelraad en de Achtergrond
 
-De iteratieachterstand geeft alleen artikelen of subtaken weer waar u een schatting kunt instellen. Als een ouderverhaal subtaken heeft die op de verhaalraad worden getoond (omdat zij aan het zelfde agile team worden toegewezen en tot de herhaling behoren), wordt de oudertaak niet getoond op de backlog. In deze situatie worden alleen de subtaken weergegeven op de achtergrond, terwijl de subtaken en het bovenliggende artikel worden weergegeven op de artikellijst.
+De iteratieachterstand geeft alleen artikelen of subtaken weer waar u een schatting kunt instellen. Als een ouderverhaal subtaken heeft die op de verhaalraad worden getoond (omdat zij aan het zelfde team van gal worden toegewezen en tot de herhaling behoren), wordt de oudertaak niet getoond op de backlog. In deze situatie worden alleen de subtaken weergegeven op de achtergrond, terwijl de subtaken en het bovenliggende artikel worden weergegeven op de artikellijst.
 
-Bijvoorbeeld, veronderstel dat Artikel A Subtask 1 en Subtask 2 bevat (en beide subtaken worden toegewezen aan het zelfde agile team). In deze situatie wordt artikel A weergegeven op de whiteboard in een zwempad met Subtask 1 en Subtask 2. Nochtans, slechts worden Subtask 1 en Subtask 2 getoond in de backlog.
+Bijvoorbeeld, veronderstel dat Artikel A Subtask 1 en Subtask 2 bevat (en beide subtaken worden toegewezen aan het zelfde team van gal). In deze situatie wordt artikel A weergegeven op de whiteboard in een zwempad met Subtask 1 en Subtask 2. Nochtans, slechts worden Subtask 1 en Subtask 2 getoond in de backlog.
 
-Deze zelfde logica is op subtaken op het tweede niveau (subtaken van subtaken) van toepassing. Als een subtask één of meerdere subtasks op het tweede niveau heeft die aan het zelfde agile team worden toegewezen en tot de herhaling behoren, slechts wordt de subtask van het tweede niveau getoond in de backlog.
+Deze zelfde logica is op subtaken op het tweede niveau (subtaken van subtaken) van toepassing. Als een subtask één of meerdere subtasks op het tweede niveau heeft die aan het zelfde team van gal worden toegewezen en tot de herhaling behoren, slechts wordt de subtask van het tweede niveau getoond in de backlog.
 
-Voor meer informatie over de backlog, zie [&#x200B; leiden de Agile backlog &#x200B;](../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).
+Voor meer informatie over de backlog, zie [ leiden de Agile backlog ](../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).

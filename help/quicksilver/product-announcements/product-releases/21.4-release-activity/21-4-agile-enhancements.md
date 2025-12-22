@@ -5,7 +5,7 @@ author: Luke
 draft: Probably
 feature: Product Announcements, Agile
 exl-id: 2c59b8b2-7239-4d20-a8c6-5938c2c4db93
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '408'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Op deze pagina worden alle verbeteringen beschreven die in de versie 21.4 van Agile zijn aangebracht voor de voorvertoningsomgeving. Deze verbeteringen zullen beschikbaar worden gesteld in de productieomgeving in de week van 4 oktober 2021.
 
-Voor een lijst van alle veranderingen beschikbaar met de versie 21.4, zie [&#x200B; overzicht van de Versie 21.4 &#x200B;](../../../product-announcements/product-releases/21.4-release-activity/21-4-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar met de versie 21.4, zie [ overzicht van de Versie 21.4 ](../../../product-announcements/product-releases/21.4-release-activity/21-4-release-overview.md).
 
 ## Toewijzingen van gebruikers aan Kanban- en Scrum-borden
 
@@ -24,7 +24,7 @@ We hebben de artikelkaarten op Kanban- en Scrum-borden bijgewerkt om het gemakke
 
 Zie voor meer informatie
 
-* [&#x200B; wijs gebruikers aan een verhaal op het karton Kanban toe &#x200B;](../../../agile/use-kanban-in-an-agile-team/assign-users-to-a-story.md)
+* [ wijs gebruikers aan een verhaal op het karton Kanban toe ](../../../agile/use-kanban-in-an-agile-team/assign-users-to-a-story.md)
 * [Gebruikers toewijzen aan een artikel op het Klembord](../../../agile/use-scrum-in-an-agile-team/scrum-board/assign-users-to-a-story-scrum.md)
 
 ## Configureer hoe datums worden toegepast bij het toevoegen van werkitems aan een scrubherhaling
@@ -33,19 +33,19 @@ Wanneer u een werkitem aan een herhaling toevoegt, worden de geplande begindatum
 
 Deze optie is alleen van toepassing op rumteams en niet op Kanban-teams.
 
-Voor meer informatie, zie [&#x200B; Scrum &#x200B;](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md) vormen.
+Voor meer informatie, zie [ Scrum ](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md) vormen.
 
-## Wijzigingen in de flexibele weergave van projecten
+## Wijzigingen in de gegaveerde weergave van projecten
 
 >[!NOTE]
 >
 >Deze functie is op 16 september 2021 uitgebracht aan de voorvertoningsomgeving.
 
-Als deel van de 21.3 versie, maakten wij verbeteringen aan de agile kaartkopbal en verhaalraad (zie [&#x200B; de kaartkopbal en de updates van het verhaalbord van de Gelijkheid &#x200B;](../../../product-announcements/product-releases/21.3-release-activity/21-3-project-enhancements.md#agile)). Deze updates waren van toepassing op herhalingen en op de flexibele weergave van projecten.
+Als deel van de 21.3 versie, maakten wij verbeteringen aan de de kaartkopbal en verhaalborden van de Gelijkheid (zie [ de kaartkopbal en de updates van het verhaalbord van de Gelijke kaart ](../../../product-announcements/product-releases/21.3-release-activity/21-3-project-enhancements.md#agile)). Deze updates zijn van toepassing op herhalingen en op de algemene weergave van projecten.
 
-Met versie 21.4 herstellen wij deze verbeteringen voor de flexibele weergave van projecten. Er worden geen wijzigingen aangebracht in variabele herhalingen.
+Met versie 21.4 keren we deze verbeteringen voor de Google-weergave over projecten om. Er worden geen wijzigingen aangebracht in de iteraties van Agile.
 
-Hier volgen de wijzigingen die worden teruggedraaid met betrekking tot de flexibele weergave van projecten:
+Hier volgen de wijzigingen die worden teruggedraaid met betrekking tot de algemene weergave van projecten:
 
 * De artikelkaarten en de bordkolommen hebben aanpasbare breedten.
 * Kolommen hebben geen achtergrondarcering.
@@ -56,5 +56,5 @@ Hier volgen de wijzigingen die worden teruggedraaid met betrekking tot de flexib
 
 U kunt nu een nieuw artikel maken of een uitgave rechtstreeks vanaf het Kanban-bord publiceren. Zo kunt u snel een nieuw artikel toevoegen zonder dat u naar een project, rapport of dashboard hoeft te gaan om een taak te maken.
 
-Voor meer informatie, zie [&#x200B; verhalen en kwesties van de raad Kanban &#x200B;](../../../agile/use-kanban-in-an-agile-team/add-story-from-kanban-board.md) toevoegen.
+Voor meer informatie, zie [ verhalen en kwesties van de raad Kanban ](../../../agile/use-kanban-in-an-agile-team/add-story-from-kanban-board.md) toevoegen.
 

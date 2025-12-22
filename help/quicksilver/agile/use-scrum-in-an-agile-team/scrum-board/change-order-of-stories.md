@@ -6,7 +6,7 @@ description: De volgorde waarin artikelen op het artikelbord worden weergegeven,
 author: Jenny
 feature: Agile
 exl-id: 326d78e0-06de-4b98-8fa6-102e0fd89d76
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '395'
 ht-degree: 0%
@@ -42,7 +42,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -50,13 +50,13 @@ Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van d
 
 {{step1-to-team}}
 
-1. (Facultatief) klik het **[!UICONTROL Switch team]** pictogram van de pictogram ![&#x200B; Schakelaar teampictogram &#x200B;](assets/switch-team-icon.png), dan of selecteer een nieuw team van het Trommel van het drop-down menu of onderzoek naar een team in de onderzoeksbar.
+1. (Facultatief) klik het **[!UICONTROL Switch team]** pictogram van de pictogram ![ Schakelaar teampictogram ](assets/switch-team-icon.png), dan of selecteer een nieuw team van het Trommel van het drop-down menu of onderzoek naar een team in de onderzoeksbar.
 
 1. Ga naar de herhaling of het project dat de artikelen bevat die u wilt opnieuw ordenen.
 1. Sleep een artikelkaart of een doek naar de gewenste verticale locatie in een statuskolom op het artikelbord.
 
 ## De artikelvolgorde in een project wijzigen
 
-In tegenstelling tot flexibele herhalingen kunt u de artikelvolgorde niet wijzigen wanneer u een project in een flexibele weergave bekijkt. Als u de artikelvolgorde voor een project wilt wijzigen, moet u het project in een standaardweergave bekijken.
+In tegenstelling tot de iteraties van Adobe kunt u de artikelvolgorde niet wijzigen wanneer u een project in een Google-weergave bekijkt. Als u de artikelvolgorde voor een project wilt wijzigen, moet u het project in een standaardweergave bekijken.
 
-Voor informatie over hoe te om de projectweergave te veranderen, zie [[!UICONTROL Manage a project] in de [!UICONTROL Agile] Mening &#x200B;](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md). Selecteer een standaardweergave in plaats van een flexibele weergave te selecteren.
+Voor informatie over hoe te om de projectweergave te veranderen, zie [[!UICONTROL Manage a project] in de [!UICONTROL Agile] Mening ](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md). Selecteer een standaardweergave in plaats van een beoordelingsweergave te selecteren.

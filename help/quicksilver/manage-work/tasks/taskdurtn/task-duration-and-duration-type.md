@@ -8,7 +8,7 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: c81e485a-7e8c-4907-8e6c-9991681c3541
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '1653'
 ht-degree: 0%
@@ -45,7 +45,7 @@ De volgende twee scenario&#39;s bestaan bij het berekenen van de duur in Adobe W
 
    1. Workfront houdt rekening met of het programma van het project of dat van de gebruiker die aan de taak wordt toegewezen.
 
-      Uw Workfront of groepsbeheerder bepaalt welk schema Workfront gebruikt wanneer een taak aan één gebruiker wordt toegewezen. Voor informatie, zie [&#x200B; systeem-brede projectvoorkeur &#x200B;](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) vormen.
+      Uw Workfront of groepsbeheerder bepaalt welk schema Workfront gebruikt wanneer een taak aan één gebruiker wordt toegewezen. Voor informatie, zie [ systeem-brede projectvoorkeur ](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) vormen.
 
    1. Als de gebruiker of het project geen programma hebben, gebruikt Workfront het systeemGebrek programma.
 
@@ -55,7 +55,7 @@ De volgende twee scenario&#39;s bestaan bij het berekenen van de duur in Adobe W
 
    1. Workfront houdt rekening met het projectschema of met dat van de primaire ontvanger.
 
-      Uw Workfront of groepsbeheerder bepaalt welk schema Workfront gebruikt wanneer een taak aan veelvoudige gebruikers wordt toegewezen. Voor informatie, zie [&#x200B; systeem-brede projectvoorkeur &#x200B;](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) vormen.
+      Uw Workfront of groepsbeheerder bepaalt welk schema Workfront gebruikt wanneer een taak aan veelvoudige gebruikers wordt toegewezen. Voor informatie, zie [ systeem-brede projectvoorkeur ](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) vormen.
 
    1. Als de primaire ontvanger of het project geen programma hebben, gebruikt Workfront het systeemGebrek programma.
 
@@ -63,7 +63,7 @@ De volgende twee scenario&#39;s bestaan bij het berekenen van de duur in Adobe W
 
 >[!NOTE]
 >
->Wanneer rekening houdend met de tijd van de Primaire Ontvanger op een project, zouden de geplande data van de taak kunnen aanpassen, maar de Duur van de taak blijft het zelfde. Voor informatie over het nemen van rekening met de tijd van de Primaire Ontvanger wanneer het plannen van een project, zie [&#x200B; systeem-brede projectvoorkeur &#x200B;](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) vormen.
+>Wanneer rekening houdend met de tijd van de Primaire Ontvanger op een project, zouden de geplande data van de taak kunnen aanpassen, maar de Duur van de taak blijft het zelfde. Voor informatie over het nemen van rekening met de tijd van de Primaire Ontvanger wanneer het plannen van een project, zie [ systeem-brede projectvoorkeur ](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) vormen.
 
 ## Eenheden van tijd voor de Duur van de Taak
 
@@ -90,7 +90,7 @@ Wanneer u de duur van taken in een lijst bijwerkt, kunt u de volgende afkortinge
 
 **VOORBEELD**
 
-Als u wilt erop wijzen dat de Duur van een taak 3 Verstreken Dag is, zou u &quot;3 ED&quot;op het gebied van de Duur in een taaklijst typen.  U kunt de aangewezen optie voor de Eenheid van de Duur van Tijd van het beschikbare drop-down menu ook selecteren wanneer het uitgeven van een taak of in de sectie van de Details van de Taak. Voor informatie over het uitgeven van taken, zie [&#x200B; taken &#x200B;](../../../manage-work/tasks/manage-tasks/edit-tasks.md) uitgeven.
+Als u wilt erop wijzen dat de Duur van een taak 3 Verstreken Dag is, zou u &quot;3 ED&quot;op het gebied van de Duur in een taaklijst typen.  U kunt de aangewezen optie voor de Eenheid van de Duur van Tijd van het beschikbare drop-down menu ook selecteren wanneer het uitgeven van een taak of in de sectie van de Details van de Taak. Voor informatie over het uitgeven van taken, zie [ taken ](../../../manage-work/tasks/manage-tasks/edit-tasks.md) uitgeven.
 
 
 >[!ENDSHADEBOX]
@@ -119,7 +119,7 @@ Met het type Duur kunt u de volgende vragen beantwoorden:
 * Hoe groot is de baan?
 * Hoe lang duurt het nog?
 
-![&#x200B; duration_type_triangle.png &#x200B;](assets/duration_type_triangle.png)
+![ duration_type_triangle.png ](assets/duration_type_triangle.png)
 
 ## Definieer duurtypen
 
@@ -153,14 +153,14 @@ Met het type Duur kunt u de volgende vragen beantwoorden:
   <tr> 
    <th scope="col"> <p><strong> Eenvoudig </strong> </p> </th> 
    <td scope="col"> <p>Bepaalt de Geplande Uren en de Duur (die het zelfde zijn, voor dit Type van Duur) gebaseerd op het aantal uren elke toegewezen ontvanger wordt. </p> <p>Workfront berekent de geplande uren door de geplande toegewezen uren voor elke ontvanger op te tellen. </p> <p>U kunt de hoeveelheid uren waarvoor elke toegewezen persoon is toegewezen handmatig wijzigen en het aantal geplande uren en de hoeveelheid tijdsduur worden dienovereenkomstig aangepast. Als u een totaal aantal toegewezen uren kiest voor alle toegewezen personen, wordt dat aantal gelijkelijk over elke toegewezen persoon verdeeld.</p> <p>Voor meer gedetailleerde informatie, zie <a href="../../../manage-work/tasks/taskdurtn/simple-duration-type.md" class="MCXref xref"> overzicht van het Type van Duur: Eenvoudig </a>.</p> </td> 
-   <td scope="col"> <p>De uren worden gelijkmatig verdeeld over toegewezen uren als u een totaal aantal toegewezen uren kiest. Nochtans, als projectmanager, kunt u de uren voor elke toegewezen persoon manueel aanpassen. </p> <p>U kunt Geplande uren en Duur van een taak met het Eenvoudige Type van Duur inline of op het taakniveau uitgeven. </p> <p>Als een nieuw team aan een taak wordt toegewezen, wordt het Type van Duur automatisch geplaatst aan Eenvoudig en kan niet worden veranderd. De taakduur voor een flexibel team moet langer zijn dan 0 minuten.</p> </td> 
+   <td scope="col"> <p>De uren worden gelijkmatig verdeeld over toegewezen uren als u een totaal aantal toegewezen uren kiest. Nochtans, als projectmanager, kunt u de uren voor elke toegewezen persoon manueel aanpassen. </p> <p>U kunt Geplande uren en Duur van een taak met het Eenvoudige Type van Duur inline of op het taakniveau uitgeven. </p> <p>Als een team van de Gelijkheid aan een taak wordt toegewezen, wordt het Type van Duur automatisch geplaatst aan Eenvoudig en kan niet worden veranderd. De taakduur voor een Agile-team moet langer zijn dan 0 minuten.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Het type Duur van nieuwe taken
 
-Het type van Duur van een nieuwe taak past het Type van Duur aan opstelling in uw systeem aan. Het standaardtype van Duur is Berekende Toewijzing. Uw beheerder van Workfront of een groepsbeheerder kan het Type van standaardDuur voor uw systeem of voor de groep bijwerken verbonden aan het project. Voor informatie, zie [&#x200B; de taak en de uitgevende voorkeur van het systeem brede &#x200B;](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md) vormen.
+Het type van Duur van een nieuwe taak past het Type van Duur aan opstelling in uw systeem aan. Het standaardtype van Duur is Berekende Toewijzing. Uw beheerder van Workfront of een groepsbeheerder kan het Type van standaardDuur voor uw systeem of voor de groep bijwerken verbonden aan het project. Voor informatie, zie [ de taak en de uitgevende voorkeur van het systeem brede ](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md) vormen.
 
 ## De originele Duur van een oudertaak
 
@@ -181,8 +181,8 @@ Overweeg het volgende:
 * Wanneer het berekenen van de duur van de oudertaak, berekent het systeem eerst de duur door de bovengenoemde formule en dan past het het programma toe.
 
 
-Voor meer informatie, zie [&#x200B; Overzicht van taak Oorspronkelijke Duur en Origineel Gepland Uren &#x200B;](/help/quicksilver/manage-work/tasks/task-information/task-original-duration-and-original-planned-hours.md).
+Voor meer informatie, zie [ Overzicht van taak Oorspronkelijke Duur en Origineel Gepland Uren ](/help/quicksilver/manage-work/tasks/task-information/task-original-duration-and-original-planned-hours.md).
 
 ## Het type duur van een taak wijzigen
 
-Voor informatie over het veranderen van het Type van Duur van een taak, zie [&#x200B; het Type van Duur van een taak &#x200B;](../../../manage-work/tasks/taskdurtn/update-duration-type-of-task.md) bijwerken.
+Voor informatie over het veranderen van het Type van Duur van een taak, zie [ het Type van Duur van een taak ](../../../manage-work/tasks/taskdurtn/update-duration-type-of-task.md) bijwerken.

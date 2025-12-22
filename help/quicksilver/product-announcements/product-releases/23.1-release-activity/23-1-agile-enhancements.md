@@ -6,7 +6,7 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4bd041a5-a6e3-4fe3-ae23-45980701e904
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '889'
 ht-degree: 0%
@@ -17,11 +17,11 @@ ht-degree: 0%
 
 Op deze pagina worden alle verbeteringen beschreven die in de versie 23.1 van Agile zijn aangebracht voor de voorvertoningsomgeving. Deze verbeteringen zullen beschikbaar worden gesteld in de productieomgeving in de week van 16 januari 2023.
 
-Voor een lijst van alle veranderingen beschikbaar met de versie 23.1, zie [&#x200B; overzicht van de Versie 23.1 &#x200B;](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar met de versie 23.1, zie [ overzicht van de Versie 23.1 ](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-release-overview.md).
 
 ## Scrumplanning voor Workfront Boards
 
-De nieuwe functies voor de planning van scrum in Adobe Workfront Boards bieden flexibele opties voor het beheer van uw flexibele processen. Met de volgende gereedschappen kunt u:
+De nieuwe functies voor de planning van scrum in Adobe Workfront Boards bieden flexibele opties voor het beheer van uw mobiele processen. Met de volgende gereedschappen kunt u:
 
 * Trackwerk in herhalingen of sprints
 * De snelheid van het gebruik om teamverplichtingen te begeleiden
@@ -41,9 +41,9 @@ Datumtoewijzing is ook van toepassing op verbonden controlelijstitems die worden
 
 De vervaldatum op zowel de aangesloten kaarten als de ad hoc kaarten omvat nu ook een tijdveld.
 
-Voor meer informatie, zie [&#x200B; Gebruik verbonden kaarten op raad &#x200B;](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
+Voor meer informatie, zie [ Gebruik verbonden kaarten op raad ](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
 
-[&#x200B; Bekijk een videodemonstratie van deze eigenschap &#x200B;](https://video.tv.adobe.com/v/3411952/){target=_blank}
+[ Bekijk een videodemonstratie van deze eigenschap ](https://video.tv.adobe.com/v/3411952/){target=_blank}
 
 ## Controlelijstitems en Workfront-subtaken zijn nu gekoppeld
 
@@ -55,9 +55,9 @@ Wanneer u een aangesloten kaart aan een raad voor een taak van Workfront toevoeg
 
 Eerder waren items en subtaken in de controlelijst niet gekoppeld. Als u een subtaak in het bord wilt opnemen, kunt u deze importeren als een aparte, aangesloten kaart of handmatig een item uit de controlelijst aan een kaart toevoegen.
 
-Voor meer informatie, zie [&#x200B; Verbonden kaarten van het Gebruik op raad &#x200B;](/help/quicksilver/agile/get-started-with-boards/connected-cards.md) en [&#x200B; controlelijstitems op kaarten &#x200B;](/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md) beheren.
+Voor meer informatie, zie [ Verbonden kaarten van het Gebruik op raad ](/help/quicksilver/agile/get-started-with-boards/connected-cards.md) en [ controlelijstitems op kaarten ](/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md) beheren.
 
-[&#x200B; Bekijk een videodemonstratie van deze eigenschap &#x200B;](https://video.tv.adobe.com/v/3411951/){target=_blank}
+[ Bekijk een videodemonstratie van deze eigenschap ](https://video.tv.adobe.com/v/3411951/){target=_blank}
 
 ## Kaartteller aan boord van kolommen
 
@@ -67,7 +67,7 @@ Voor meer informatie, zie [&#x200B; Verbonden kaarten van het Gebruik op raad &#
 
 Een nieuwe configuratie-instelling is beschikbaar om een kaartteller voor alle kolommen op een board in te schakelen. Als u de grens van het KLOOFJE op een kolom gebruikt, wordt een afzonderlijke kaartteller niet toegevoegd.
 
-Voor meer informatie, zie [&#x200B; de kolommen van het Comité beheren &#x200B;](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md).
+Voor meer informatie, zie [ de kolommen van het Comité beheren ](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md).
 
 ## Zoeken en sorteren op het dashboard voor tekengebieden
 
@@ -77,7 +77,7 @@ Voor meer informatie, zie [&#x200B; de kolommen van het Comité beheren &#x200B;
 
 U kunt het dashboard van de boards nu sorteren op bordnaam of datum, en naar een specifieke raad in de lijst zoeken.
 
-Voor meer informatie, zie [&#x200B; Gebruik het dashboard van Borden &#x200B;](/help/quicksilver/agile/get-started-with-boards/use-boards-page.md).
+Voor meer informatie, zie [ Gebruik het dashboard van Borden ](/help/quicksilver/agile/get-started-with-boards/use-boards-page.md).
 
 ## Statusweergave op kaart
 
@@ -87,9 +87,9 @@ Voor meer informatie, zie [&#x200B; Gebruik het dashboard van Borden &#x200B;](/
 
 Als aan een kaart op een kaart de status is toegewezen, wordt de status nu weergegeven op de kaart zodat u de kaart niet hoeft te openen om de status te zien. Deze verbetering geldt zowel voor ad-hockaarten als voor kaarten met een verbinding.
 
-Voor meer informatie, zie [&#x200B; Gebruik verbonden kaarten op raad &#x200B;](/help/quicksilver/agile/get-started-with-boards/connected-cards.md) en [&#x200B; voeg een ad hoc kaart aan a raad &#x200B;](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md) toe.
+Voor meer informatie, zie [ Gebruik verbonden kaarten op raad ](/help/quicksilver/agile/get-started-with-boards/connected-cards.md) en [ voeg een ad hoc kaart aan a raad ](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md) toe.
 
-![&#x200B; status op kaart &#x200B;](/help/quicksilver/product-announcements/product-releases/assets/boards-connected-card-details-110922.png)
+![ status op kaart ](/help/quicksilver/product-announcements/product-releases/assets/boards-connected-card-details-110922.png)
 
 ## Koppelbare kaarten zijn nu beschikbaar op borden
 
@@ -109,7 +109,7 @@ U kunt de volledige URL kopiëren en naar iemand anders verzenden. Ze zullen rec
 
 Eerder waren er koppelingen beschikbaar naar borden, maar niet naar specifieke kaarten.
 
-Voor informatie over kaarten, zie [&#x200B; een ad hoc kaart aan a raad &#x200B;](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md) toevoegen en [&#x200B; Gebruik verbonden kaarten op raad &#x200B;](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
+Voor informatie over kaarten, zie [ een ad hoc kaart aan a raad ](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md) toevoegen en [ Gebruik verbonden kaarten op raad ](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
 
 ## Filteren op verbinding aan boord
 
@@ -119,9 +119,9 @@ Voor informatie over kaarten, zie [&#x200B; een ad hoc kaart aan a raad &#x200B;
 
 De lijst met filters op een bord bevat nu de optie om via verbinding te filteren. Hierin ziet u alle aangesloten kaarten voor een bepaald project. U kunt ook filteren op kaarten die niet zijn aangesloten.
 
-Voor meer informatie, zie [&#x200B; Filter en onderzoek in een raad &#x200B;](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md).
+Voor meer informatie, zie [ Filter en onderzoek in een raad ](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md).
 
-[&#x200B; Bekijk een videodemonstratie van deze eigenschap &#x200B;](https://video.tv.adobe.com/v/3412381/){target=_blank}
+[ Bekijk een videodemonstratie van deze eigenschap ](https://video.tv.adobe.com/v/3412381/){target=_blank}
 
 ## Kaarten archiveren van een bord volgens een schema
 
@@ -133,6 +133,6 @@ U kunt een kaart zodanig configureren dat kaarten volgens een schema worden gear
 
 Als u de kaarten weer wilt weergeven nadat ze van het bord zijn gevallen, kunt u het bordfilter instellen op het weergeven van gearchiveerde kaarten.
 
-Voor meer informatie, zie [&#x200B; kaart het wegvallen &#x200B;](/help/quicksilver/agile/use-boards-agile-planning-tools/configure-card-falloff.md) vormen.
+Voor meer informatie, zie [ kaart het wegvallen ](/help/quicksilver/agile/use-boards-agile-planning-tools/configure-card-falloff.md) vormen.
 
-[&#x200B; Bekijk een videodemonstratie van deze eigenschap &#x200B;](https://video.tv.adobe.com/v/3412323/){target=_blank}
+[ Bekijk een videodemonstratie van deze eigenschap ](https://video.tv.adobe.com/v/3412323/){target=_blank}
