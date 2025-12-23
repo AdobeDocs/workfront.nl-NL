@@ -5,7 +5,7 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 34921b12ad902ba7390e4ea34825331280e7a8d6
+source-git-commit: 98ef4a4f0a30dc90956132cb715393a29170d715
 workflow-type: tm+mt
 source-wordcount: '1042'
 ht-degree: 0%
@@ -18,13 +18,13 @@ ht-degree: 0%
 
 <span class="preview"> de informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>
 
-<span class="preview"> voor informatie over snelle versies, zie [&#x200B; snelle versies voor uw organisatie &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
+<span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
 
 Als werkruimtemanager, kunt u flexibele maar gestructureerde hiërarchieën tussen verbonden verslagtypes en andere objecten types in de Planning van Adobe Workfront bepalen.
 
 Hiërarchieën zijn verbindingen tussen recordtypen, of tussen recordtypen en een Workfront-project.
 
-Voor informatie over het creëren van hiërarchieën, zie [&#x200B; werkruimtescheidingen &#x200B;](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md) creëren.
+Voor informatie over het creëren van hiërarchieën, zie [ werkruimtescheidingen ](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md) creëren.
 
 Hieronder vindt u voordelen van het gebruik van hiërarchieën in uw werkruimten:
 
@@ -46,8 +46,9 @@ Hieronder vindt u voordelen van het gebruik van hiërarchieën in uw werkruimten
    * AEM Assets.
 * De hiërarchieën kunnen zowel de types van het Verslag van de Planning als de projecten van Workfront tezelfdertijd omvatten.
 
-       bijvoorbeeld, kunt u een het verslagtype van de Campagne met de Projecten van Tactics van de Planning en van Workfront als kinderen in de zelfde werkruimtehiërarchie hebben.
-  * Als er al een verbinding bestaat tussen de geselecteerde recordtypen, gebruikt het systeem de bestaande verbinding opnieuw.
+  U kunt bijvoorbeeld een type Campagne-record hebben met Planning Tactics en Workfront Projecten als de onderliggende elementen in dezelfde werkruimtehiërarchie.
+
+* Als er al een verbinding bestaat tussen de geselecteerde recordtypen, gebruikt het systeem de bestaande verbinding opnieuw.
 * Als er geen verbinding bestaat, maakt Workfront er een als onderdeel van de hiërarchische instelling.
 * **creeer corresponderend gebied op verbonden verslagtype** het plaatsen moet voor het verbonden gebied voor verslagen en objecten types worden aangezet die u in een hiërarchie wilt omvatten.
 * U kunt een recordtype niet verwijderen als het deel uitmaakt van een hiërarchie.
@@ -80,7 +81,7 @@ Wanneer u hiërarchieën tussen recordtypes creeert, produceren zij broodkruimel
 
 Bijvoorbeeld, als u een hiërarchie creeert en Campagnes met Tactics, dan met Activiteiten, en dan met Projecten verbindt, wanneer u aan een verslag van om het even welke die types navigeert in de hiërarchie worden verbonden, kunt u bekijken waar in de hiërarchie het verslag wordt geplaatst.
 
-![&#x200B; Breadcrumb &#x200B;](assets/breadcrumbs-on-project.png)
+![ Breadcrumb ](assets/breadcrumbs-on-project.png)
 
 Overweeg het volgende:
 
@@ -90,7 +91,7 @@ Overweeg het volgende:
 
   Wanneer u bijvoorbeeld een project bekijkt dat is verbonden met planningscampagnes en tactieken, maar ook met Workfront-portfolio&#39;s en -programma&#39;s, kunt u schakelen tussen de objecttypen Planning en Workfront vanuit de breadcrumb.
 
-  Voor meer informatie, zie [&#x200B; de hiërarchieën van de werkruimte &#x200B;](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md) creëren.
+  Voor meer informatie, zie [ de hiërarchieën van de werkruimte ](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md) creëren.
 * Wanneer u een record bewerkt, zijn de wijzigingen zichtbaar vanuit alle werkruimten en alle hiërarchieën waarin de record deel uitmaakt.
 
 

@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 2a640cd5-f4a8-4ff3-81b6-32f85f6e4535
-source-git-commit: 34921b12ad902ba7390e4ea34825331280e7a8d6
+source-git-commit: 98ef4a4f0a30dc90956132cb715393a29170d715
 workflow-type: tm+mt
-source-wordcount: '514'
+source-wordcount: '523'
 ht-degree: 2%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 2%
 
 <span class="preview"> de informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet.</span>
 
-<span class="preview"> voor informatie over snelle versies, zie [&#x200B; snelle versies voor uw organisatie &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
+<span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
 
 {{planning-important-intro}}
 
@@ -54,7 +54,7 @@ In de volgende tabel staan de limieten voor het aantal objecten dat u kunt maken
 | Aantal entiteiten (gebruikers, rollen, teams, bedrijven, groepen) u kunt een voorwerp van de Planning met delen | 100 |
 | <span class="preview"> Aantal verslagtypes in een hiërarchie </span> | 4 |
 | <span class="preview"> Aantal hiërarchieën in een werkruimte </span> | 5 |
-| <span class="preview"> Aantal ouder verbonden verslagen aan één kind in een hiërarchie </span> | 10 |
+| <span class="preview"> Aantal verslagen van een type van ouderverslag dat met één verslag van een type van het kindverslag wordt verbonden, binnen een hiërarchie </span> | 10 |
 | Aantal verslagen die met één verslag in een multi-uitgezochte verbindingstype worden verbonden, <span class="preview"> zonder een hiërarchie die tussen de verslagen </span> wordt gevormd | 500 |
 
 *Wij adviseren om niet te veel werkruimten te hebben, aangezien zij moeilijk zouden kunnen worden te beheren en uw werkschema&#39;s zouden te gefragmenteerd kunnen zijn.
