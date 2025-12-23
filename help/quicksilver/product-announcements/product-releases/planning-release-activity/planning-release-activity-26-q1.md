@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 46f3be50925d2e830c572ce9bbad0d3b320f6a95
+source-git-commit: d956671b535d5c7a11d0fb17dc003a665a4f0597
 workflow-type: tm+mt
-source-wordcount: '1501'
+source-wordcount: '1798'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,48 @@ In dit artikel worden de functies beschreven die tijdens de release Eerste kwart
 
 <!--keep the sentence below for all future quarterly release pages-->
 
-Voor een lijst van alle eigenschappen die voor de Planning van Adobe Workfront worden vrijgegeven, zie [&#x200B; de versieactiviteit van de Planning van Adobe Workfront: artikelindex &#x200B;](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+Voor een lijst van alle eigenschappen die voor de Planning van Adobe Workfront worden vrijgegeven, zie [ de versieactiviteit van de Planning van Adobe Workfront: artikelindex ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+## Recordtypehiërarchieën maken in werkruimten
+
+>[!NOTE]
+>
+>Voorbeeld: 23 december 2025
+>Snelle productie: 14 januari 2026
+>Productie voor iedereen: 15 januari 2026
+
+U kunt nu flexibele, maar gestructureerde hiërarchieën definiëren tussen record- of objecttypen.
+
+Hiërarchieën zijn verbindingen tussen recordtypen. U kunt maximaal vier record- en objecttypen verbinden in één hiërarchie en u kunt maximaal vijf hiërarchieën opnemen in één werkruimte. Het eerste recordtype in de hiërarchie is het eerste bovenliggende element.
+
+U kunt hiërarchieën gebruiken om het werk te organiseren en visualiseren hoe de strategie in uitvoering stroomt.
+
+Overweeg het volgende wanneer het bouwen van hiërarchieën:
+
+* U kunt slechts de types van het Verslag van de Planning van één werkruimte en de projecten van Workfront in een hiërarchie verbinden.
+* Een recordtype of project kan slechts één bovenliggend item in dezelfde werkruimte hebben.
+* Een recordtype kan het bovenliggende element in meerdere hiërarchieën zijn.
+* Connectable recordtypes kunnen niet in hiërarchieën in werkruimten buiten hun worden gebruikt.
+* Algemene recordtypen kunnen alleen in hiërarchieën worden gebruikt in de werkruimten waarin ze zijn gemaakt of waaraan ze zijn toegevoegd.
+
+Voor meer informatie, zie [ Hiërarchie en breadcrumb overzicht ](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md).
+
+## Nieuwe standaardkruimels toegevoegd aan recordpagina&#39;s
+
+>[!NOTE]
+>
+>Voorbeeld: 23 december 2025
+>Snelle productie: 14 januari 2026
+>Productie voor iedereen: 15 januari 2026
+
+Wanneer u hiërarchieën tussen recordtypes creeert, produceren zij broodkruimels voor verslagen die tot die verslagtypes behoren.
+
+Recordbroodkruimels weerspiegelen hun plaats in een hiërarchie. Nadat u hiërarchieën hebt gemaakt, ziet u boven aan de pagina de breadcrumb van een record die aangeeft welke andere bovenliggende of onderliggende objecten ermee zijn verbonden. Hiërarchieën zijn consistent in Workfront en Planning.
+
+Bijvoorbeeld, kunt u de hiërarchie van de Planning van een project bekijken wanneer het met de types van het Verslag van de Planning in zijn breadcrumb van de Planning verbonden is, en zijn hiërarchie van Workfront wanneer het met de objecten van Workfront types, zoals Portfolio&#39;s of Programma&#39;s, in Workfront wordt verbonden.
+
+Voor informatie, zie [ Hiërarchie en breadcrumb overzicht ](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md).
+
 
 ## Verbeteringen aan verbonden recordpagina&#39;s
 
@@ -36,7 +77,7 @@ Om u meer flexibiliteit te geven wanneer het werken met verbonden verslagpagina&
 * Er is een beperking toegevoegd om slechts één gekoppelde recordpagina per record of objecttype toe te staan. Voordat u deze upgrade uitvoert, kunt u meerdere pagina&#39;s toevoegen voor hetzelfde record- of objecttype. Nu kunt u meerdere weergaven voor hetzelfde recordtype gebruiken in één verbonden recordpagina.
 * Wij hebben a **Nieuwe rij** verbinding bij de bodem van een lijstmening toegevoegd en a **verbindt verslagen** knoop in het hoger-juiste gebied van de verbonden verslagenpagina. Voorafgaand aan deze verhoging, bestonden de **Nieuwe rij** verbinding en **verbinden verslagen** knoop slechts op een project verbonden pagina.
 
-Voor informatie, zie [&#x200B; een Verbonden verslagenpagina aan een verslag &#x200B;](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md) toevoegen.
+Voor informatie, zie [ een Verbonden verslagenpagina aan een verslag ](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md) toevoegen.
 
 ## De meningen van het aandeel in de Projecten Verbonden verslagenpagina
 
@@ -48,7 +89,7 @@ Voor informatie, zie [&#x200B; een Verbonden verslagenpagina aan een verslag &#x
 
 Om het gemakkelijker te maken om de informatie te zien u wenst, hebben wij de capaciteit toegevoegd om meningen aan de Projecten te delen Verbonden registratiepagina. U kunt nu weergaven delen met andere gebruikers, teams of groepen.
 
-Voor informatie, zie [&#x200B; een Verbonden verslagenpagina aan een verslag &#x200B;](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md) toevoegen.
+Voor informatie, zie [ een Verbonden verslagenpagina aan een verslag ](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md) toevoegen.
 
 ## Huidige jokerteken voor gebruikers is nu beschikbaar in weergavefilters voor projectverbindingen
 
@@ -64,56 +105,8 @@ Dit kan handig zijn wanneer u een filter toevoegt aan een weergave die door meer
 
 Het jokerteken is beschikbaar in velden waarin de waarde een gebruiker is.
 
-Voor meer informatie bij het vormen van de meningen van de projectverbinding, met inbegrip van filters, zie [&#x200B; een Verbonden verslagenpagina aan een verslag &#x200B;](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md) toevoegen.
+Voor meer informatie bij het vormen van de meningen van de projectverbinding, met inbegrip van filters, zie [ een Verbonden verslagenpagina aan een verslag ](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md) toevoegen.
 
-<!--
-
-## Create record type hierarchies in workspaces
-
->[!NOTE]
->
->Preview: December 18, 2025 
->Production fast: January 14, 2026 
->Production all: January 15, 2026 
-
-You can now define flexible but structured hierarchies between record or object types.  
-
-Hierarchies are connections between record types. You can have up to 4 record and object types connected in one hierarchy, and you can have multiple hierarchies in one workspace. The first record type in the hierarchy is a parent, and all the other record or object types are its children objects.  
-
-You can use hierarchies to organize work in a way that reflects how your teams actually plan, operate, and deliver and to visualize how strategy flows into execution. 
-
-Consider the following when building hierarchies: 
-
-* You can have multiple hierarchies in a workspace 
-* You can connect only Planning record types from one workspace and Workfront projects in a hierarchy.  
-* A record type or a project can only have one parent in the same workspace. 
-* A record type can be the parent in multiple hierarchies 
-* Connectable record types cannot be used in hierarchies in other workspaces than their own. 
-* Global record types can be used in hierarchies only in the workspaces that they were created in or have been added to.  
-
-When you create hierarchies between record types, they generate breadcrumbs for records that belong to those record types. 
-
-For more information, see [Hierarchy and breadcrumb overview](help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md).
-
--->
-
-<!--
-
-## New unified breadcrumbs added to records' pages
-
->[!NOTE]
->
->Preview: December 18, 2025 
->Production fast: January 14, 2026 
->Production for all: January 15, 2026 
-
-We have added breadcrumbs to a record's page to reflect its spot in a hierarchy. After you create hierarchies, you can see a record's breadcrumb at the top of its page, indicating what other parent or children objects are connected to it. Hierarchies are consistent across Workfront and Planning.  
-
-For example, you can view a project's Planning hierarchy when it's connected to Planning record types in its Planning breadcrumb, and its Workfront hierarchy when it's connected to Workfront object types, like Portfolios or Programs, in Workfront.  
-
-For information, see [Hierarchy and breadcrumb overview](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md).
-
--->
 
 ## Verbeteringen voor hoofdpagina van Workspace
 
@@ -131,8 +124,7 @@ We hebben de volgende verbeteringen aangebracht in de hoofdpagina Workspaces in 
 
 * Het **Andere werkruimten** lusje is anders genoemd aan **Alle werkruimten** en het omvat alle werkruimten u minstens toestemmingen aan Mening hebt, met inbegrip van degenen u creeerde.
 
-Voor informatie, zie [&#x200B; werkruimten &#x200B;](/help/quicksilver/planning/architecture/edit-workspaces.md) uitgeven.
-
+Voor informatie, zie [ werkruimten ](/help/quicksilver/planning/architecture/edit-workspaces.md) uitgeven.
 
 
 ## Het veld Merkverbinding standaard toevoegen aan Producten en persoonlijke instellingen in de GenStudio-werkruimte
@@ -142,7 +134,7 @@ Voor informatie, zie [&#x200B; werkruimten &#x200B;](/help/quicksilver/planning/
 >Voorbeeld: 11 december 2025
 >Snelle productie: 11 december 2025
 >Productie voor iedereen: 11 december 2025
->[!BADGE Uit schema &#x200B;]{type=Neutral}
+>[!BADGE Uit schema ]{type=Neutral}
 
 Het verbindingsveld met het GenStudio for Performance Marketing-merk wordt nu standaard toegevoegd aan de recordtypen Producten en Persoonlijk in de GenStudio-werkruimte van Workfront Planning.
 
@@ -150,7 +142,7 @@ Uw organisatie moet zowel Workfront Planning als Adobe GenStudio for Performance
 
 Voorafgaand aan deze verbetering, kon u het de verbindingsgebied van het Merk slechts manueel aan om het even welk verslagtype, met inbegrip van Producten en Personas toevoegen. U kunt het Brand GenStudio-recordtype nog steeds handmatig verbinden met andere recordtypen in Workfront Planning.
 
-Voor informatie, zie [&#x200B; begonnen worden met de Planning van Adobe Workfront en de integratie van Adobe GenStudio for Performance Marketing &#x200B;](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md).
+Voor informatie, zie [ begonnen worden met de Planning van Adobe Workfront en de integratie van Adobe GenStudio for Performance Marketing ](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md).
 
 ## Het verwijderen van GenStudio for Performance Marketing-gebruikersmachtigingen voor Planning beperken
 
@@ -159,13 +151,13 @@ Voor informatie, zie [&#x200B; begonnen worden met de Planning van Adobe Workfro
 >Voorbeeld: 11 december 2025
 >Snelle productie: 11 december 2025
 >Productie voor iedereen: 11 december 2025
->[!BADGE Uit schema &#x200B;]{type=Neutral}
+>[!BADGE Uit schema ]{type=Neutral}
 
 Er is een hulplijn toegevoegd die voorkomt dat u de rechten van GenStudio for Performance Marketing-gebruikers verwijdert van Workfront-planningsobjecten. Met deze verbetering, kunt u GenStudio gebruikers niet meer uit de werkruimte van GenStudio in Planning verwijderen, noch kunt u Geërfte toestemmingen voor verslagtypes in de werkruimte van GenStudio onbruikbaar maken, als die toestemmingen GenStudio gebruikers omvatten. Voorafgaand aan deze verbetering, toen u deze gebruikers uit de werkruimte van GenStudio in Planning verwijdert, zouden zij toestemmingen om types in GenStudio eveneens te registreren verliezen.
 
 Uw organisatie moet zowel Workfront Planning als Adobe GenStudio for Performance Marketing hebben.
 
-Voor informatie, zie [&#x200B; begonnen worden met de Planning van Adobe Workfront en de integratie van Adobe GenStudio for Performance Marketing &#x200B;](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md).
+Voor informatie, zie [ begonnen worden met de Planning van Adobe Workfront en de integratie van Adobe GenStudio for Performance Marketing ](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md).
 
 
 ## Openbaar delen van weergaven op een algemeen recordtype in een secundaire werkruimte is verwijderd
@@ -180,7 +172,7 @@ Voor informatie, zie [&#x200B; begonnen worden met de Planning van Adobe Workfro
 
 We hebben het tabblad Openbaar delen verwijderd wanneer we een weergave voor een algemeen record in een secundaire werkruimte delen. U kunt een weergave niet openbaar delen vanuit een globaal recordtype dat aan een andere werkruimte is toegevoegd vanuit een bestaand globaal recordtype. U kunt een algemene recordtypeweergave vanuit de oorspronkelijke werkruimte openbaar delen.
 
-Voor informatie, zie [&#x200B; meningen van het Aandeel &#x200B;](/help/quicksilver/planning/access/share-views.md).
+Voor informatie, zie [ meningen van het Aandeel ](/help/quicksilver/planning/access/share-views.md).
 
 
 ## Connect GenStudio for Performance Marketing-merken met Workfront Planning-recordtypen
@@ -193,7 +185,7 @@ Voor informatie, zie [&#x200B; meningen van het Aandeel &#x200B;](/help/quicksil
 
 U kunt nu Workfront Planning-recordtypen verbinden met Merken vanuit Adobe GenStudio for Performance Marketing. Uw organisatie moet zowel Workfront Planning als Adobe GenStudio for Performance Marketing hebben.
 
-Voor meer informatie, zie [&#x200B; Connect verslagtypes &#x200B;](/help/quicksilver/planning/architecture/connect-record-types.md).
+Voor meer informatie, zie [ Connect verslagtypes ](/help/quicksilver/planning/architecture/connect-record-types.md).
 
 
 ## Het nieuwe vakje van het gebiedsonderzoek in de Filters, de Gebieden, en de kleurenpictogrammen van de Rij in de meningen van de Planning
@@ -208,7 +200,7 @@ U kunt nu naar een specifiek veld zoeken wanneer u een weergave-element maakt in
 
 Deze verbetering is beschikbaar in alle verslagtypemeningen.
 
-Voor informatie, zie [&#x200B; de lijstmening &#x200B;](/help/quicksilver/planning/views/manage-the-table-view.md) leiden.
+Voor informatie, zie [ de lijstmening ](/help/quicksilver/planning/views/manage-the-table-view.md) leiden.
 
 
 ## Algemene recordtypen en de mogelijkheid om deze als bestaande recordtypen toe te voegen aan andere werkruimten
@@ -229,9 +221,9 @@ U kunt nu een recordtype toewijzen dat globaal moet zijn en het gebruiken in mee
 
 Raadpleeg de volgende artikelen voor meer informatie:
 
-* [&#x200B; het type van het werkruimterecord overzicht &#x200B;](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md)
+* [ het type van het werkruimterecord overzicht ](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md)
 
-* [&#x200B; vorm verslagtype dwars-werkruimtemogelijkheden &#x200B;](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md)
+* [ vorm verslagtype dwars-werkruimtemogelijkheden ](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md)
 
 * [Bestaande recordtypen uit een andere werkruimte toevoegen](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md)
 
@@ -247,7 +239,7 @@ Voor elk recordtype is een limiet van 30 verbindingsvelden ingesteld.
 
 NOTA: Als uw organisatie momenteel meer dan 30 verbindingsgebieden voor één verslagtype heeft, kunt u de extra gebieden houden die de grens van 30 overschrijden. U kunt echter geen verbindingsvelden toevoegen aan recordtypen die de limiet overschrijden. In de toekomst wordt de nieuwe limiet van 30 verbindingsvelden gehandhaafd.
 
-Voor meer informatie, zie [&#x200B; Verbonden overzicht van de Types van Verslag &#x200B;](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
+Voor meer informatie, zie [ Verbonden overzicht van de Types van Verslag ](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
 
 ## Gebruikersvriendelijke waarden instellen voor keuzen in selectievelden
 
@@ -269,7 +261,7 @@ Overweeg het volgende met deze verbetering:
 
 * De gekozen waarden worden weergegeven in kleine letters en worden gescheiden door onderstrepingstekens in het geval van keuzen voor meerdere woorden. Als u een label gebruikt dat al is gebruikt als een andere keuzenaam voor hetzelfde veld, voegt Workfront een volgnummer aan de waarde toe.
 
-Voor informatie, zie [&#x200B; gebieden &#x200B;](/help/quicksilver/planning/fields/create-fields.md) creëren.
+Voor informatie, zie [ gebieden ](/help/quicksilver/planning/fields/create-fields.md) creëren.
 
 
 
