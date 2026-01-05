@@ -6,7 +6,7 @@ description: Wanneer u  [!DNL Jira]  kwesties met  [!DNL Adobe Workfront]  taken
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 79ac6ff1-2f7d-4abc-8735-398f6aac5191
-source-git-commit: b1b55b8046aa771abb2cceda333940ccf827356a
+source-git-commit: e06713b8871ba5e7bfae58f67ee246c9c1163a63
 workflow-type: tm+mt
 source-wordcount: '1492'
 ht-degree: 0%
@@ -21,9 +21,9 @@ ht-degree: 0%
 >
 >We raden u aan Workfront Automation and Integration te gebruiken voor de integratiebehoeften van uw organisatie met Jira.
 >
->Voor een overzicht van de Automatisering en de Integratie van Workfront, zie [&#x200B; het overzicht van de Fusie van Adobe Workfront &#x200B;](https://experienceleague.adobe.com/nl/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+>Voor een overzicht van de Automatisering en de Integratie van Workfront, zie [ het overzicht van de Fusie van Adobe Workfront ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 >
->Voor informatie over de specifieke mogelijkheden van de modules van de Automatisering en van de Integratie van Workfront voor Jira, zie {de modules van de Software van 0} Jira [.](https://experienceleague.adobe.com/nl/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/jira-software-modules)
+>Voor informatie over de specifieke mogelijkheden van de modules van de Automatisering en van de Integratie van Workfront voor Jira, zie {de modules van de Software van 0} Jira [.](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/jira-modules-new)
 
 <!--
 
@@ -35,19 +35,19 @@ ht-degree: 0%
 >
 >Eight ready-to-use Workfront Automation and Integration templates for Jira will be available by August to help replicate common workflows and accelerate implementation. Templates are fully customizable to meet specific business needs and can be extended as requirements evolve. 
 > 
->For an overview of Workfront Automation and Integration, see [Adobe Workfront Fusion overview](https://experienceleague.adobe.com/nl/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview). 
+>For an overview of Workfront Automation and Integration, see [Adobe Workfront Fusion overview](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview). 
 >
->For information about the specific capabilities of the Workfront Automation and Integration modules for Jira, see [Jira Software modules](https://experienceleague.adobe.com/nl/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/jira-software-modules). 
+>For information about the specific capabilities of the Workfront Automation and Integration modules for Jira, see [Jira Software modules](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/jira-software-modules). 
 
 -->
 
 Wanneer u [!DNL Jira] -problemen koppelt aan [!DNL Adobe Workfront] -taken of -problemen, kunnen uw gebruikers items in één toepassing bijwerken en wordt de tegenhanger van dat item ook bijgewerkt voor de gebruikers die in de tweede toepassing werken.
 
-Voor meer informatie over het verbinden van punten tussen [!DNL Workfront] en [!DNL Jira], zie [&#x200B; punten van de Verbinding tussen Adobe Workfront en Jira &#x200B;](../../workfront-integrations-and-apps/use-workfront-with-jira/link-items-between-wf-jira.md).
+Voor meer informatie over het verbinden van punten tussen [!DNL Workfront] en [!DNL Jira], zie [ punten van de Verbinding tussen Adobe Workfront en Jira ](../../workfront-integrations-and-apps/use-workfront-with-jira/link-items-between-wf-jira.md).
 
 Terwijl u [!DNL Workfront] instelt voor [!DNL Jira] , kunt u als [!DNL Jira] systeembeheerder bepaalde velden in de ene toepassing configureren om te synchroniseren met velden uit gekoppelde items in de andere toepassing.
 
-Voor meer informatie over het synchroniseren van gebieden tussen verbonden [!DNL Jira] en [!DNL Workfront] punten, zie [&#x200B;  [!DNL Adobe Workfront for Jira]](../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md) vormen.
+Voor meer informatie over het synchroniseren van gebieden tussen verbonden [!DNL Jira] en [!DNL Workfront] punten, zie [  [!DNL Adobe Workfront for Jira]](../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md) vormen.
 
 ## Toegangsvereisten
 
@@ -79,7 +79,7 @@ Voor meer informatie over het synchroniseren van gebieden tussen verbonden [!DNL
  </tbody> 
 </table>
 
-Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -89,21 +89,21 @@ Voordat u items kunt koppelen tussen [!DNL Workfront] en [!DNL Jira] , moet u:
 
 * Installeer [!DNL Workfront for Jira] .
 
-  Voor instructies bij het installeren van [!DNL Workfront for Jira], zie [&#x200B; installeren  [!DNL Adobe Workfront for Jira]](../../workfront-integrations-and-apps/use-workfront-with-jira/install-workfront-for-jira.md).
+  Voor instructies bij het installeren van [!DNL Workfront for Jira], zie [ installeren  [!DNL Adobe Workfront for Jira]](../../workfront-integrations-and-apps/use-workfront-with-jira/install-workfront-for-jira.md).
 
 * Configureer [!DNL Workfront for Jira].
 
-  Voor instructies bij het vormen [!DNL Workfront for Jira], zie [&#x200B; vormen  [!DNL Adobe Workfront for Jira]](../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md).
+  Voor instructies bij het vormen [!DNL Workfront for Jira], zie [ vormen  [!DNL Adobe Workfront for Jira]](../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md).
 
 * Koppel items tussen [!DNL Workfront] en [!DNL Jira] .
 
-  Voor instructies, zie [&#x200B; punten van de Verbinding tussen  [!DNL Adobe Workfront]  en  [!DNL Jira]](../../workfront-integrations-and-apps/use-workfront-with-jira/link-items-between-wf-jira.md).
+  Voor instructies, zie [ punten van de Verbinding tussen  [!DNL Adobe Workfront]  en  [!DNL Jira]](../../workfront-integrations-and-apps/use-workfront-with-jira/link-items-between-wf-jira.md).
 
 ## Gekoppelde items bijwerken in [!DNL Workfront]
 
 Als u voornamelijk in [!DNL Workfront] werkt, kunt u uw werkitems in [!DNL Workfront] en hun tegenhangers in [!DNL Jira] ook bijwerken. Deze update vindt plaats door de integratie van [!DNL Workfront] for [!DNL Jira] , waarvoor geen [!DNL Jira] -licentie vereist is.
 
-Zolang de [!DNL Workfront] beheerder [!DNL Workfront for Jira] heeft geconfigureerd om de velden tussen gekoppelde items te synchroniseren, worden bepaalde velden die u in [!DNL Workfront] bijwerkt ook bijgewerkt voor het gekoppelde [!DNL Jira] -probleem. Voor meer informatie over het bijwerken van punten in [!DNL Workfront], zie [&#x200B; kwesties &#x200B;](../../manage-work/issues/manage-issues/edit-issues.md) uitgeven en [&#x200B; taken &#x200B;](../../manage-work/tasks/manage-tasks/edit-tasks.md) uitgeven.
+Zolang de [!DNL Workfront] beheerder [!DNL Workfront for Jira] heeft geconfigureerd om de velden tussen gekoppelde items te synchroniseren, worden bepaalde velden die u in [!DNL Workfront] bijwerkt ook bijgewerkt voor het gekoppelde [!DNL Jira] -probleem. Voor meer informatie over het bijwerken van punten in [!DNL Workfront], zie [ kwesties ](../../manage-work/issues/manage-issues/edit-issues.md) uitgeven en [ taken ](../../manage-work/tasks/manage-tasks/edit-tasks.md) uitgeven.
 
 In de volgende lijst wordt aangegeven welke [!DNL Workfront] -velden worden gesynchroniseerd met [!DNL Jira] -velden op gekoppelde items:
 
@@ -211,7 +211,7 @@ De tijd die u in [!DNL Workfront] opneemt, heeft geen invloed op de tijd van de 
 Er wordt een opmerking toegevoegd aan de tab **[!DNL Workfront]** in [!DNL Jira] en aan de tab **[!UICONTROL Updates]** van het item in [!DNL Workfront] om de logboekregistratie van de tijd op te nemen.\
 De tijd wordt ook weergegeven op het tabblad **[!UICONTROL Hours]** van het [!DNL Workfront] -item.
 
-* [&#x200B; tijd van het Logboek voor Gekoppelde  [!DNL Jira]  en  [!DNL Workfront]  punten &#x200B;](#log-time-for-linked-jira-and-workfront-items)
+* [ tijd van het Logboek voor Gekoppelde  [!DNL Jira]  en  [!DNL Workfront]  punten ](#log-time-for-linked-jira-and-workfront-items)
 * [De tijd van het logboek van  [!DNL Jira]  aan a [!DNL Workfront]  punt](#log-time-from-jira-to-a-workfront-item)
 
 ### Logtijd voor gekoppelde [!DNL Jira] en [!DNL Workfront] items
@@ -220,7 +220,7 @@ U kunt tijd vastleggen vanuit een [!DNL Jira] -uitgave die is gekoppeld aan een 
 
 >[!IMPORTANT]
 >
->Als de gebruiker die zich aanmeldt op de tijd in [!DNL Jira] , niet bestaat in [!DNL Workfront] , wordt door de integratie een nieuwe actieve gebruiker in Workfront gemaakt als **[!UICONTROL Automatically create a user in [!DNL Workfront]&#x200B;if the [!DNL Jira] user does not have a* [!DNL Workfront]&#x200B;account]* * is ingesteld op &#x200B;** [!UICONTROL Always]** . Deze gebruiker neemt geen [!DNL Workfront] -licentie in. U kunt actieve gebruikers toewijzen aan werkitems in [!DNL Workfront] , maar u kunt deze gebruikers niet opnemen in updates. Voor informatie over het vormen van de automatische verwezenlijking van [!DNL Workfront] gebruikers van [!DNL Jira], zie [&#x200B; het Vormen  [!DNL Workfront for Jira]](../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md).
+>Als de gebruiker die zich aanmeldt op de tijd in [!DNL Jira] , niet bestaat in [!DNL Workfront] , wordt door de integratie een nieuwe actieve gebruiker in Workfront gemaakt als **[!UICONTROL Automatically create a user in [!DNL Workfront]&#x200B;if the [!DNL Jira] user does not have a* [!DNL Workfront]&#x200B;account]* * is ingesteld op **[!UICONTROL Always]** . Deze gebruiker neemt geen [!DNL Workfront] -licentie in. U kunt actieve gebruikers toewijzen aan werkitems in [!DNL Workfront] , maar u kunt deze gebruikers niet opnemen in updates. Voor informatie over het vormen van de automatische verwezenlijking van [!DNL Workfront] gebruikers van [!DNL Jira], zie [ het Vormen  [!DNL Workfront for Jira]](../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md).
 
 U kunt als volgt de tijd voor een item in [!DNL Jira] vastleggen en deze zowel in [!DNL Jira] als [!DNL Workfront] laten opnemen:
 
