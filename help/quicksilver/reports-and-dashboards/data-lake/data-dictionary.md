@@ -7,9 +7,9 @@ description: Deze pagina bevat informatie over de structuur en inhoud van de geg
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 57985404-554e-4289-b871-b02d3427aa5c
-source-git-commit: 815bee06ce413005e362d2e38068d591696cad5b
+source-git-commit: c669086f5954f9e2cf850887f4100e53c0c3e716
 workflow-type: tm+mt
-source-wordcount: '8878'
+source-wordcount: '8904'
 ht-degree: 1%
 
 ---
@@ -40,16 +40,59 @@ In Data Connect kunt u een aantal weergavetypen gebruiken om uw Workfront-gegeve
 
 <!-- Custom view -->
 
-## Relatiediagram voor entiteit
+## Relatiediagrammen van entiteiten
 
-Objecten in Workfront (en dus ook in het Data Connect Data Lake) worden niet alleen gedefinieerd door hun individuele waarden, maar ook door hun relaties met andere objecten. In het onderstaande diagram voor de entiteitsrelatie wordt een overzicht op hoog niveau gegeven van objectrelaties in Data Connect. Het diagram kan worden bekeken en gedownload gebruikend de volgende verbinding:
+Objecten in Workfront (en dus ook in het Data Connect Data Lake) worden niet alleen gedefinieerd door hun individuele waarden, maar ook door hun relaties met andere objecten.
 
-[Relatiediagram van gegevensConnect-entiteit](/help/quicksilver/reports-and-dashboards/data-lake/assets/Workfront-data-lake_entity-relationship-diagram.pdf)
+De onderstaande ERD&#39;s (eenheidrelaties) bieden een overzicht op hoog niveau van de objectrelaties in Data Connect voor Workfront-kernobjecten.
 
 >[!IMPORTANT]
 >
->Het verstrekte entiteitrelatiediagram (ERD) is opzettelijk onvolledig aangezien een volledig ERD onleesbaar zou worden als gevolg van het grote aantal relaties binnen de toepassing.<br>
->Dit diagram verstrekt een voorbeeld van hoe de verhoudingen die in de lijst van het Project in de [&#x200B; lijst van de Terminologie &#x200B;](#terminology-table) hieronder sectie worden gedocumenteerd kunnen worden gebruikt om zich bij gegevens van de gegevensmening van het Project aan aangrenzende voorwerpen aan te sluiten. Er wordt verwacht dat een volledige ERD niet nodig is zodra dit patroon wordt begrepen voor de projectobjectrelaties
+>De diagrammen worden gecentreerd rond afzonderlijke objecten en vertegenwoordigen geen volledig entiteitrelatiediagram voor de volledige Workfront-toepassing. <br>
+>Deze diagrammen zijn bedoeld om voorbeelden te geven van hoe de relaties kunnen worden gebruikt om gegevens aan aangrenzende objecten te koppelen.
+
+### Voorbeeld van entiteitrelatiediagrammen
+
++++ Uitbreiden om de voorbeelddiagrammen weer te geven
+
+>[!TIP]
+>
+>Om een diagram in meer detail te bekijken, klik op het beeld met de rechtermuisknop aan en selecteer **Open beeld in nieuw lusje**.
+
+
+### Toewijzingen
+
+![ het diagram van de entiteitverhouding van Taken entiteit ](assets/Assignment-centered-ERD.png)
+
+
+### Documenten en documentgoedkeuringen
+
+![ Documenten en document goedkeurings entiteitrelatiediagram ](assets/Document-and-Document-Approvals-centered-ERD.png)
+
+### Uren en timesheets
+
+![ Uren en Timesheets entiteitrelatiediagram ](assets/Hours-and-Timesheet-centered-ERD.png)
+
+
+### Problemen
+
+![ de entiteitrelatiediagram van Kwesties ](assets/Issue-centered-ERD.png)
+
+### Projecten
+
+![ de entiteitrelatiediagram van Projecten ](assets/Project-centered-ERD.png)
+
+
+### Taken
+
+![ het diagram van de entiteitverhouding van Taken ](assets/Task-centered-ERD.png)
+
+
+### Gebruikers
+
+![ het diagram van de entiteitverhouding van Gebruikers ](assets/User-centered-ERD.png)
+
++++
 
 ## Datumtypen
 
@@ -1665,15 +1708,15 @@ De volgende tabel correleert objectnamen in Workfront (en hun namen in de interf
 >
 >Het type record wordt bepaald via de eigenschap `enumClass` . Het volgende is de verwachte types:<br>
 ><ul><li>CONDITION_OPTASK</li>
->&gt;<li>CONDITION_PROJ</li>
->&gt;<li>CONDITION_TASK</li>
->&gt;<li>PRIORITY_OPTASK</li>
->&gt;<li>PRIORITY_PROJ</li>
->&gt;<li>PRIORITY_TASK</li>
->&gt;<li>SEVERITY_OPTASK</li>
->&gt;<li>STATUS_OPTASK</li>
->&gt;<li>STATUS_PROJ</li>
->&gt;<li>STATUS_TASK</li></ul>
+&gt;<li>CONDITION_PROJ</li>
+&gt;<li>CONDITION_TASK</li>
+&gt;<li>PRIORITY_OPTASK</li>
+&gt;<li>PRIORITY_PROJ</li>
+&gt;<li>PRIORITY_TASK</li>
+&gt;<li>SEVERITY_OPTASK</li>
+&gt;<li>STATUS_OPTASK</li>
+&gt;<li>STATUS_PROJ</li>
+&gt;<li>STATUS_TASK</li></ul>
 
 
 ### Document
