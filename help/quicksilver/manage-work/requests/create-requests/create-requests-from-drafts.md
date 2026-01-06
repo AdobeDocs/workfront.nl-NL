@@ -6,9 +6,9 @@ description: Naast het gebruik van de beschikbare concepten die Workfront u voor
 author: Becky
 feature: Work Management
 exl-id: 664004e7-04c8-4a1f-b682-7b82d349643d
-source-git-commit: bc7312a10f1851b9f85b2c1ceac5b01dba078f32
+source-git-commit: 319c45bc6617269f358af1e7b5f6132a8694710b
 workflow-type: tm+mt
-source-wordcount: '863'
+source-wordcount: '836'
 ht-degree: 0%
 
 ---
@@ -48,7 +48,7 @@ Naast het gebruik van de beschikbare concepten die Workfront u voorstelt wanneer
  </tbody> 
 </table>
 
-Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -58,13 +58,13 @@ U moet het volgende doen alvorens u een verzoek van een ontwerp kunt tot stand b
 
 * Start met het maken van een aanvraag. Hiermee slaat u het verzoek automatisch als een concept op in de sectie Concepten.
 
-  Voor informatie over het creëren van verzoeken, zie [&#x200B; Adobe Workfront verzoeken &#x200B;](../../../manage-work/requests/create-requests/create-submit-requests.md) creëren en voorleggen.
+  Voor informatie over het creëren van verzoeken, zie [ Adobe Workfront verzoeken ](../../../manage-work/requests/create-requests/create-submit-requests.md) creëren en voorleggen.
 
 ## Verzoeken maken op basis van concepten
 
 De procedure voor het maken van verzoeken vanuit concepten verschilt tussen de nieuwe ervaring die u opvraagt en de ervaring die u hebt opgedaan.
 
-* <span class="preview">[&#x200B; creeer verzoeken van concepten in nieuwe het vragen ervaring &#x200B;](#create-requests-from-drafts-in-the-new-requesting-experience)</span>
+* <span class="preview">[ creeer verzoeken van concepten in nieuwe het vragen ervaring ](#create-requests-from-drafts-in-the-new-requesting-experience)</span>
 * [Verzoeken maken op basis van concepten uit de oudere aanvraagervaring](#create-requests-from-drafts-in-the-legacy-requesting-experience)
 
 <div class="preview">
@@ -82,12 +82,16 @@ De procedure voor het maken van verzoeken vanuit concepten verschilt tussen de n
    * In de lijst met verzoeken in de widget Mijn verzoeken thuis
    * In het dialoogvenster Nieuw verzoek (bevat alleen concepten van verzoeken die zijn gemaakt met het geselecteerde formulier)
 
-1. Werk de informatie voor het verzoek bij zoals die in [&#x200B; wordt beschreven leidt tot en legt verzoeken van Adobe Workfront &#x200B;](../../../manage-work/requests/create-requests/create-submit-requests.md) voor.
+   >[!NOTE]
+   >
+   >Concepten die zijn gemaakt in de oudere aanvraagervaring, zijn niet beschikbaar in de nieuwe aanvraagervaring.
+
+1. Werk de informatie voor het verzoek bij zoals die in [ wordt beschreven leidt tot en legt verzoeken van Adobe Workfront ](../../../manage-work/requests/create-requests/create-submit-requests.md) voor.
 1. (Facultatief en voorwaardelijk) op om het even welk punt tijdens het ingaan van het verzoek, klik **verwerpen** ontwerp als u het ontwerp wilt schrappen. Hiermee verwijdert u het concept.
 
-   Als u uw ontwerp door fout hebt verworpen, kunt u **&#x200B;**&#x200B;in het bericht bij de bodem van het scherm onmiddellijk klikken ongedaan maken. Deze optie is slechts enkele seconden beschikbaar.
+   Als u uw ontwerp door fout hebt verworpen, kunt u **** in het bericht bij de bodem van het scherm onmiddellijk klikken ongedaan maken. Deze optie is slechts enkele seconden beschikbaar.
 
-   Voor meer informatie over het schrappen van concepten, zie [&#x200B; een voorgelegd verzoek of verzoekontwerp &#x200B;](../../../manage-work/requests/create-requests/delete-request-draft.md) schrappen.
+   Voor meer informatie over het schrappen van concepten, zie [ een voorgelegd verzoek of verzoekontwerp ](../../../manage-work/requests/create-requests/delete-request-draft.md) schrappen.
 
 1. (Optioneel) Als u wijzigingen in het concept wilt opslaan zonder het te verzenden, laat u de pagina Nieuw verzoek achter. Wijzigingen worden automatisch opgeslagen.
 
@@ -112,7 +116,7 @@ De procedure voor het maken van verzoeken vanuit concepten verschilt tussen de n
 1. Controleer de informatie over elk concept in de volgende kolommen van de lijst Concepten:
 
    | Onderwerp | Dit is de naam die u hebt opgegeven bij het maken van uw verzoek. |
-   |---|---|
+   | --- | --- |
    | Pad | De naam van de verzoekrij, onderwerpgroepen, en rijonderwerpen waar u oorspronkelijk van plan was om het verzoek voor te leggen. |
    | Invoerdatum | De datum waarop u het maken van de aanvraag hebt gestart. |
    | Datum laatste update | De laatste van uw laatste update. Als u het niet bijwerkte aangezien u eerst het verzoek begon, zouden de Datum van de Ingang en de Laatste Datum van de Update het zelfde moeten zijn. |
@@ -125,14 +129,14 @@ De procedure voor het maken van verzoeken vanuit concepten verschilt tussen de n
    >
    >U kunt geen permanente filters toepassen in de sectie Concepten van het gebied Verzoeken. Bovendien zijn er geen opties om de weergave van de lijst met concepten te wijzigen of te wijzigen.
 
-1. Werk de informatie voor het verzoek bij zoals die in [&#x200B; wordt beschreven leidt tot en legt verzoeken van Adobe Workfront &#x200B;](../../../manage-work/requests/create-requests/create-submit-requests.md) voor.
-1. (Facultatief en voorwaardelijk) op om het even welk punt tijdens het ingaan van het verzoek, klik **verwerpen** ontwerp als u het ontwerp wilt schrappen. Hiermee verwijdert u het concept dat niet kan worden hersteld. Voor meer informatie over het schrappen van concepten, zie [&#x200B; een verzoekontwerp &#x200B;](../../../manage-work/requests/create-requests/delete-request-draft.md) schrappen.
+1. Werk de informatie voor het verzoek bij zoals die in [ wordt beschreven leidt tot en legt verzoeken van Adobe Workfront ](../../../manage-work/requests/create-requests/create-submit-requests.md) voor.
+1. (Facultatief en voorwaardelijk) op om het even welk punt tijdens het ingaan van het verzoek, klik **verwerpen** ontwerp als u het ontwerp wilt schrappen. Hiermee verwijdert u het concept dat niet kan worden hersteld. Voor meer informatie over het schrappen van concepten, zie [ een verzoekontwerp ](../../../manage-work/requests/create-requests/delete-request-draft.md) schrappen.
 
 1. (Facultatief) klik **annuleert** in de laag-linkerhoek van de pagina als u uw actie wilt terugkeren en het ontwerp houden.
 
 1. Voer een van de volgende handelingen uit nadat u de informatie voor het verzoek hebt voltooid:
 
-   * Klik **voorleggen** als u bereid bent om het verzoek voor te leggen. De aanvraag wordt opgeslagen in de sectie Verzenden. Afhankelijk van de Verpletterende Regel van de Rij van het Verzoek, zou dit verzoek aan een verschillend project dan kunnen worden verpletterd die als Rij van het Verzoek wordt aangewezen. Voor informatie over het verpletteren van regels, zie [&#x200B; het Verpletteren van Regels &#x200B;](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md) creëren.
+   * Klik **voorleggen** als u bereid bent om het verzoek voor te leggen. De aanvraag wordt opgeslagen in de sectie Verzenden. Afhankelijk van de Verpletterende Regel van de Rij van het Verzoek, zou dit verzoek aan een verschillend project dan kunnen worden verpletterd die als Rij van het Verzoek wordt aangewezen. Voor informatie over het verpletteren van regels, zie [ het Verpletteren van Regels ](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md) creëren.
 
      of
 
@@ -141,9 +145,4 @@ De procedure voor het maken van verzoeken vanuit concepten verschilt tussen de n
      ![](assets/nwe-submit-close-discard-draft-buttons-on-new-request-350x340.png)
 
      Wanneer u het verzoek indient, wordt het concept verwijderd en kan het niet worden hersteld.
-
-   >[!NOTE]
-   >
-   >In de nieuwe ervaring met aanvragen staan concepten in dezelfde lijst als de ingediende verzoeken.
-   >Voor meer informatie bij het creëren van verzoeken in de nieuwe ervaring, zie [&#x200B; verzoeken tot stand brengen en ontwerpen in Workfront Web app &#x200B;](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md#create-requests-and-generate-drafts-in-the-workfront-web-app) in het artikel produceren en verzoeken voorleggen.
 
