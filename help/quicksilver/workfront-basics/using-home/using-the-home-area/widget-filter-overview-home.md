@@ -6,7 +6,7 @@ description: U kunt kiezen uit een aantal widgets om de inhoud aan te passen die
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 58f79e81-df6b-456f-9e91-4e00a1c2a8a2
-source-git-commit: 884ade1102e685ec01af2790b17acb50c2114ca7
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '1092'
 ht-degree: 0%
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 <span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>
 
-<span class="preview"> voor informatie over snelle versies, zie [&#x200B; snelle versies voor uw organisatie &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken.</span>
+<span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken.</span>
 
 U kunt filters op de volgende widgets gebruiken om werk te zoeken en te organiseren:
 
@@ -276,7 +276,7 @@ In de productieomgeving:
       <td> <p>Verzoeken weergeven 
       <ul>
       <li>Dat u hebt ingediend en nog steeds open is. </li> 
-      <li>Zonder de datum van daadwerkelijke voltooiing of het waarvan het oplossen van voorwerp geen Werkelijke Voltooiingsdatum heeft zijn vermeld in Mijn Open Verzoeken subtab. </li> 
+      <li>Zonder de datum van daadwerkelijke voltooiing of het waarvan het oplossen van voorwerp geen Werkelijke Voltooiingsdatum heeft zijn vermeld in Mijn Open Verzoeken subtab.  </li> 
       </ul>
       <p><b> NOTA </b> 
       Verzoeken die zich niet in een status bevinden die gelijk is aan Gesloten, worden als open beschouwd.</p> </td> 
@@ -290,7 +290,7 @@ In de voorvertoningsomgeving:
 
 De widget Mijn verzoeken heeft een aanpasbaar filter waarmee u kunt bepalen welke verzoeken in de widget worden weergegeven. U kunt dit filter voor verschillende gebieden en waarden vormen, en voorwaarden stapelen gebruikend EN en OF.
 
-Voor instructies bij het vormen van de filter in Mijn widget van Verzoeken, zie [&#x200B; verzoeken van de Filter &#x200B;](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md#filter-requests) in het artikel Gebruik Mijn widget van Verzoeken.
+Voor instructies bij het vormen van de filter in Mijn widget van Verzoeken, zie [ verzoeken van de Filter ](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md#filter-requests) in het artikel Gebruik Mijn widget van Verzoeken.
 
 </div>
 

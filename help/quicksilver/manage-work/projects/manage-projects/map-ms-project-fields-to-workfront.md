@@ -6,7 +6,7 @@ description: Projecten in Adobe Workfront en Microsoft Project zijn meestal comp
 author: Alina
 feature: Work Management
 exl-id: 381eb6ad-8084-406b-90f9-44460b58a04c
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '396'
 ht-degree: 0%
@@ -18,13 +18,13 @@ ht-degree: 0%
 Projecten in Adobe Workfront en Microsoft Project zijn meestal compatibel. Met de twee toepassingen kunt u het volgende doen:
 
 * Projecten exporteren uit Microsoft Project en deze importeren in Workfront
-* Exporteer projecten uit Workfront en importeer ze naar Microsoft Project. 
+* Exporteer projecten uit Workfront en importeer ze naar Microsoft Project.
 
-Voor meer informatie over het invoeren van projecten van het Project van Microsoft in Workfront, zie [&#x200B; een project van het Project van Microsoft invoeren &#x200B;](../../../manage-work/projects/create-projects/import-project-from-ms-project.md).
+Voor meer informatie over het invoeren van projecten van het Project van Microsoft in Workfront, zie [ een project van het Project van Microsoft invoeren ](../../../manage-work/projects/create-projects/import-project-from-ms-project.md).
 
-Voor meer informatie over het uitvoeren van een project van Workfront om het in het Project van Microsoft in te voeren, zie [&#x200B; Uitvoer een project aan het Project van Microsoft &#x200B;](../../../manage-work/projects/manage-projects/export-project-to-ms-project.md).
+Voor meer informatie over het uitvoeren van een project van Workfront om het in het Project van Microsoft in te voeren, zie [ Uitvoer een project aan het Project van Microsoft ](../../../manage-work/projects/manage-projects/export-project-to-ms-project.md).
 
-Bij het uitvoeren van dergelijke invoer van gegevens, is het belangrijk om te begrijpen hoe de informatie van één toepassing aan andere vertaalt. Meestal zult u enkele handmatige wijzigingen in het project moeten aanbrengen nadat u het importeren hebt voltooid. 
+Bij het uitvoeren van dergelijke invoer van gegevens, is het belangrijk om te begrijpen hoe de informatie van één toepassing aan andere vertaalt. Meestal zult u enkele handmatige wijzigingen in het project moeten aanbrengen nadat u het importeren hebt voltooid.
 
 ## Overzicht van veldtoewijzing
 
@@ -64,4 +64,4 @@ Deze velden omvatten onder meer, maar zijn niet beperkt tot:
 
   >[!NOTE]
   >
-  >Omdat de Beperkingen niet tussen het Project van Microsoft en Workfront in kaart brengen, zorg ervoor dat er voorgangersverhoudingen tussen de taken zijn. Anders is het mogelijk dat de geplande begin- en einddatum van de taken in het geïmporteerde project niet nauwkeurig zijn. 
+  >Omdat de Beperkingen niet tussen het Project van Microsoft en Workfront in kaart brengen, zorg ervoor dat er voorgangersverhoudingen tussen de taken zijn. Anders is het mogelijk dat de geplande begin- en einddatum van de taken in het geïmporteerde project niet nauwkeurig zijn.

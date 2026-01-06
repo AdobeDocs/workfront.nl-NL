@@ -7,7 +7,7 @@ description: De index van de Prestaties van het Programma (SPI) beschrijft het v
 author: Lisa
 feature: Work Management
 exl-id: 38259774-f22b-4b69-9e22-5b541118a7de
-source-git-commit: 23a4d055871c9138818e70fa1cd936581dbd7552
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '396'
 ht-degree: 0%
@@ -51,18 +51,18 @@ De index van de Prestaties van het Programma (SPI) beschrijft het verband tussen
  </tbody> 
 </table>
 
-Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Overzicht van de prestatie-index (SPI) voor schema
 
-* [&#x200B; wat de waarde SPI &#x200B;](#what-the-spi-value-shows) toont
+* [ wat de waarde SPI ](#what-the-spi-value-shows) toont
 * [Hoe Workfront SPI berekent](#how-workfront-calculates-spi)
 
 ### Wat de SPI waarde toont {#what-the-spi-value-shows}
 
-Projectmanagers begrijpen dat een SPI-waarde van 1 betekent dat het project op schema of op schema ligt.  Waarden groter dan 1 geven aan dat een project voor de planning ligt en waarden kleiner dan 1 betekenen dat een project achter schema ligt.  Hoe verder van 1, hoe verder van het plan wordt afgeweken.
+Projectmanagers begrijpen dat een SPI-waarde van 1 betekent dat het project op schema of op schema ligt.  Waarden groter dan 1 geven aan dat een project voor de planning ligt en waarden kleiner dan 1 betekenen dat een project achter schema ligt.  Hoe verder van 1, hoe verder van het plan wordt afgeweken.
 
 | **SPI Waarde** | **Verwijzing van &quot;op Programma&quot;** |
 |---|---|
@@ -82,9 +82,9 @@ SPI = (Total Planned Hours x % Complete) / Planned Hours Scheduled to Date*
 
 *&#42;als Geplande die uren aan Datum = 0, SPI = 1* worden gepland.
 
-Het geplande programma van uren aan Datum wordt berekend op de minuut wanneer u de berekeningen uitvoert. Het toont het aantal Geplande Uren die aan de huidige datum worden gepland. Het kan automatisch worden herberekend wanneer u uw financiële gegevens om correct verandert te zijn. Er is geen veld in Workfront dat deze waarde aangeeft.
+Het geplande programma van uren aan Datum wordt berekend op de minuut wanneer u de berekeningen uitvoert. Het toont het aantal Geplande Uren die aan de huidige datum worden gepland. Het kan automatisch worden herberekend wanneer u uw financiële gegevens om correct verandert te zijn. Er is geen veld in Workfront dat deze waarde aangeeft.
 
-Bijvoorbeeld, als u een project met 1 taak hebt en de taak 10 geplande uren en een Duur van 10 dagen heeft, is het Geplande Programma van Uren aan Datum op de 5de dag 5. 
+Bijvoorbeeld, als u een project met 1 taak hebt en de taak 10 geplande uren en een Duur van 10 dagen heeft, is het Geplande Programma van Uren aan Datum op de 5de dag 5.
 
 ## SPI zoeken in een project of taak
 
@@ -95,6 +95,6 @@ Bijvoorbeeld, als u een project met 1 taak hebt en de taak 10 geplande uren en e
 
    1. Klik **Details van de Taak** in het linkerpaneel, dan bekijk het **Financiën** gebied.
 
-      ![&#x200B; SPI op project &#x200B;](assets/spi-on-project-nwe.png)
+      ![ SPI op project ](assets/spi-on-project-nwe.png)
 
 1. Vind het **CPI/SPI/CSI** gebied.

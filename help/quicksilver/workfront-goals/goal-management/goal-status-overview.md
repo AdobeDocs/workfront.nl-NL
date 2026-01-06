@@ -7,7 +7,7 @@ description: De status van het doel geeft aan of een doel actief is en momenteel
 author: Alina
 feature: Workfront Goals
 exl-id: dc70dfac-2bdd-41ab-b316-0cd20f749423
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '793'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 >
 >Adobe Workfront Goals kan niet meer worden aangeschaft.
 >
->Voor extra informatie over toegang tot de Doelen van Workfront, zie [&#x200B; Vereisten om de Doelen van Workfront &#x200B;](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md) te gebruiken.
+>Voor extra informatie over toegang tot de Doelen van Workfront, zie [ Vereisten om de Doelen van Workfront ](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md) te gebruiken.
 
 <!--Old:
 
@@ -58,29 +58,29 @@ ht-degree: 0%
   | Gesloten | Nee | Ja | Nee | - |
 
 * Als u een gesloten doel opent, wordt ook de voortgang van het doel bijgewerkt.
-* Bepaalde acties die u uitvoert op een doel, werken ook zijn status bij. Raadpleeg de volgende artikelen voor informatie over het bijwerken van de status van doelen:
+* Bepaalde acties die u uitvoert op een doel, werken ook zijn status bij. Raadpleeg de volgende artikelen voor informatie over het bijwerken van de status van doelen:
 
-   * [&#x200B; creeer doelstellingen in de Doelen van Adobe Workfront &#x200B;](../../workfront-goals/goal-management/create-goals.md)
-   * [&#x200B; activeer doelstellingen in de Doelen van Adobe Workfront &#x200B;](../../workfront-goals/goal-management/activate-goals.md)
-   * [&#x200B; Schrap en deactiveer doelstellingen in de Doelen van Adobe Workfront &#x200B;](../../workfront-goals/goal-management/delete-and-deactivate-goals.md)
+   * [ creeer doelstellingen in de Doelen van Adobe Workfront ](../../workfront-goals/goal-management/create-goals.md)
+   * [ activeer doelstellingen in de Doelen van Adobe Workfront ](../../workfront-goals/goal-management/activate-goals.md)
+   * [ Schrap en deactiveer doelstellingen in de Doelen van Adobe Workfront ](../../workfront-goals/goal-management/delete-and-deactivate-goals.md)
    * [Doelen sluiten en opnieuw openen in Adobe Workfront-doelen](../../workfront-goals/goal-management/close-and-reopen-goals.md)
 
 ## Overzicht van doelstatussen in Workfront-doelen
 
-Voor informatie over het creëren van de doelstellingen van Workfront, zie [&#x200B; doelstellingen in de Doelen van Adobe Workfront &#x200B;](../../workfront-goals/goal-management/create-goals.md) creëren.
+Voor informatie over het creëren van de doelstellingen van Workfront, zie [ doelstellingen in de Doelen van Adobe Workfront ](../../workfront-goals/goal-management/create-goals.md) creëren.
 
-Voor informatie over het activeren van doelstellingen, zie [&#x200B; doelstellingen in de Doelen van Adobe Workfront &#x200B;](../../workfront-goals/goal-management/activate-goals.md) activeren.
+Voor informatie over het activeren van doelstellingen, zie [ doelstellingen in de Doelen van Adobe Workfront ](../../workfront-goals/goal-management/activate-goals.md) activeren.
 
 De doelstellingen kunnen één van de volgende statussen in de Doelen van Workfront hebben:
 
-* [&#x200B; Ontwerp &#x200B;](#draft)
-* [&#x200B; Actief &#x200B;](#active)
-* [&#x200B; Inactief &#x200B;](#inactive)
+* [ Ontwerp ](#draft)
+* [ Actief ](#active)
+* [ Inactief ](#inactive)
 * [Gesloten](#closed)
 
 ### Concept {#draft}
 
-* Dit is de standaardstatus voor een pas gecreëerd doel. Voor informatie over het creëren van doelstellingen, zie [&#x200B; doelstellingen in de Doelen van Adobe Workfront &#x200B;](../../workfront-goals/goal-management/create-goals.md) creëren.
+* Dit is de standaardstatus voor een pas gecreëerd doel. Voor informatie over het creëren van doelstellingen, zie [ doelstellingen in de Doelen van Adobe Workfront ](../../workfront-goals/goal-management/create-goals.md) creëren.
 * De Workfront-doelstellingen boeken geen vooruitgang op een geformuleerd doel.
 * U kunt de voortgang van een geformuleerd doel niet bijwerken.
 * U kunt gestelde doelen niet sluiten of deactiveren, omdat ze geen voortgangsgegevens bevatten.
@@ -97,7 +97,7 @@ De doelstellingen kunnen één van de volgende statussen in de Doelen van Workfr
 
 ### Actief {#active}
 
-* U kunt een opgesteld doel slechts activeren wanneer u het met een resultaat associeert, een activiteit, of een ander doel aan het richten. Als u het doel activeert, verandert de status in Actief. Voor informatie over het activeren van doelstellingen, zie [&#x200B; doelstellingen in de Doelen van Adobe Workfront &#x200B;](../../workfront-goals/goal-management/activate-goals.md) activeren.
+* U kunt een opgesteld doel slechts activeren wanneer u het met een resultaat associeert, een activiteit, of een ander doel aan het richten. Als u het doel activeert, verandert de status in Actief. Voor informatie over het activeren van doelstellingen, zie [ doelstellingen in de Doelen van Adobe Workfront ](../../workfront-goals/goal-management/activate-goals.md) activeren.
 * De Doelen van Workfront registreert vooruitgang op actieve doelstellingen.
 * Actieve doelstellingen dragen bij tot de voortgangsberekening van andere doelstellingen en worden in grafieken in aanmerking genomen.
 * Actieve doelstellingen worden weergegeven op de volgende gebieden van Workfront Goals:
@@ -112,7 +112,7 @@ De doelstellingen kunnen één van de volgende statussen in de Doelen van Workfr
 
 * U kunt een actief doel deactiveren wanneer de eigenaar er tijdelijk of permanent aan heeft gewerkt. U kunt het voor historische informatie bewaren. Hiermee wordt de status van het doel bijgewerkt naar Inactief.
 
-  Voor informatie over het deactiveren van doelstellingen, zie de &quot;Deactivate doelstellingen&quot;sectie in het artikel [&#x200B; schrapt en doelstellingen in de Doelen van Adobe Workfront &#x200B;](../../workfront-goals/goal-management/delete-and-deactivate-goals.md) deactiveert.
+  Voor informatie over het deactiveren van doelstellingen, zie de &quot;Deactivate doelstellingen&quot;sectie in het artikel [ schrapt en doelstellingen in de Doelen van Adobe Workfront ](../../workfront-goals/goal-management/delete-and-deactivate-goals.md) deactiveert.
 
 * U kunt een geschreven of gesloten doel niet deactiveren.
 * U kunt een inactief doel opnieuw activeren en eraan blijven werken.
@@ -127,7 +127,7 @@ De doelstellingen kunnen één van de volgende statussen in de Doelen van Workfr
 
 ### Gesloten {#closed}
 
-* U kunt een doel sluiten als u wilt aangeven dat u het hebt bereikt of dat u er niet meer aan werkt, en dat u dat ook in de toekomst niet zult doen. Voor informatie over het sluiten van doelstellingen, zie [&#x200B; dicht en heropen doelstellingen in de Doelen van Adobe Workfront &#x200B;](../../workfront-goals/goal-management/close-and-reopen-goals.md).
+* U kunt een doel sluiten als u wilt aangeven dat u het hebt bereikt of dat u er niet meer aan werkt, en dat u dat ook in de toekomst niet zult doen. Voor informatie over het sluiten van doelstellingen, zie [ dicht en heropen doelstellingen in de Doelen van Adobe Workfront ](../../workfront-goals/goal-management/close-and-reopen-goals.md).
 
   >[!TIP]
   >

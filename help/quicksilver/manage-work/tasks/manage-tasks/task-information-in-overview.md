@@ -6,7 +6,7 @@ description: U kunt de informatie van een taak bekijken of uitgeven door tot het
 author: Alina
 feature: Work Management
 exl-id: 4980b28f-914d-4cf9-813f-14983aac660b
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '2102'
 ht-degree: 0%
@@ -21,12 +21,12 @@ ht-degree: 0%
 
 U kunt de informatie van een taak bekijken of uitgeven door tot het gebied van het Overzicht van de sectie van de Details van de Taak toegang te hebben. Er is een beperkt aantal velden dat u kunt weergeven of bewerken in de sectie Taakdetails.
 
-Voor informatie over het uitgeven van alle informatie voor een taak zie [&#x200B; taken &#x200B;](../../../manage-work/tasks/manage-tasks/edit-tasks.md) uitgeven.
+Voor informatie over het uitgeven van alle informatie voor een taak zie [ taken ](../../../manage-work/tasks/manage-tasks/edit-tasks.md) uitgeven.
 
 Dit artikel beschrijft om informatie op het gebied van het Overzicht van de Details van de Taak te bekijken of uit te geven. Raadpleeg de volgende artikelen voor informatie over het bijwerken van andere taakdetails:
 
-* [&#x200B; beheer taakfinanciën in de sectie van de Details van de Taak &#x200B;](../../../manage-work/tasks/manage-tasks/task-finances-in-details.md)
-* [&#x200B; voeg een douanevorm aan een voorwerp &#x200B;](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md) toe
+* [ beheer taakfinanciën in de sectie van de Details van de Taak ](../../../manage-work/tasks/manage-tasks/task-finances-in-details.md)
+* [ voeg een douanevorm aan een voorwerp ](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md) toe
 * [Aangepaste formulieren beheren die zijn gekoppeld aan objecten](../../../workfront-basics/work-with-custom-forms/manage-custom-forms-attached-to-objects.md)
 
 ## Toegangsvereisten
@@ -65,7 +65,7 @@ Dit artikel beschrijft om informatie op het gebied van het Overzicht van de Deta
  </tbody> 
 </table>
 
-Voor meer informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -111,7 +111,7 @@ Voor meer informatie, zie [&#x200B; vereisten van de Toegang in de documentatie 
 
    >[!NOTE]
    >
-   >Afhankelijk van hoe uw Workfront-beheerder of groepsbeheerder onze lay-outsjabloon instelt, kunnen de velden in de sectie Taakdetails opnieuw worden gerangschikt of niet worden weergegeven. Voor informatie, zie [&#x200B; de mening van Details aanpassen gebruikend een lay-outmalplaatje &#x200B;](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
+   >Afhankelijk van hoe uw Workfront-beheerder of groepsbeheerder onze lay-outsjabloon instelt, kunnen de velden in de sectie Taakdetails opnieuw worden gerangschikt of niet worden weergegeven. Voor informatie, zie [ de mening van Details aanpassen gebruikend een lay-outmalplaatje ](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
 
 1. Klik **uitgeven** pictogram ![](assets/edit-icon.png) in de hoger-juiste hoek van de sectie van Details, dan klik **Overzicht**.
 
@@ -122,7 +122,7 @@ Voor meer informatie, zie [&#x200B; vereisten van de Toegang in de documentatie 
 1. Bewerk elk veld dat u kunt bewerken door één keer op het veld te klikken of klik op **+Toevoegen** om informatie toe te voegen aan een leeg veld.
 1. U kunt de volgende velden weergeven of bewerken.
 
-   Niet alle velden kunnen worden bewerkt.  
+   Niet alle velden kunnen worden bewerkt.
 
    <table style="table-layout:auto"> 
     <col> 
@@ -199,7 +199,7 @@ Voor meer informatie, zie [&#x200B; vereisten van de Toegang in de documentatie 
             <td>H</td> 
            </tr> 
            <tr> 
-            <td>Dagen. Dit is de standaardinstelling. </td> 
+            <td>Dagen. Dit is de standaardinstelling. </td> 
             <td>D</td> 
            </tr> 
            <tr> 
@@ -365,7 +365,7 @@ Voor meer informatie, zie [&#x200B; vereisten van de Toegang in de documentatie 
    -->
 
    <!--
-   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Click <strong>Custom Forms</strong> to add or forms or edit information on the existing custom forms.&nbsp;</p>
+   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Click <strong>Custom Forms</strong> to add or forms or edit information on the existing custom forms. </p>
    -->
 
    <!--
@@ -385,7 +385,7 @@ Voor meer informatie, zie [&#x200B; vereisten van de Toegang in de documentatie 
      -->
 
    <!--
-   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Click&nbsp;<strong>Finance</strong>, then <strong>Edit Finance</strong> to view or edit financial information for the task. </p>
+   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Click <strong>Finance</strong>, then <strong>Edit Finance</strong> to view or edit financial information for the task. </p>
    -->
 
    <!--

@@ -6,9 +6,9 @@ description: In dit artikel wordt beschreven hoe u doelen kunt vinden en beheren
 author: Alina
 feature: Workfront Goals
 exl-id: a729f334-6ca4-4cf5-a3ef-01a7effb7153
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '392'
+source-wordcount: '363'
 ht-degree: 0%
 
 ---
@@ -68,7 +68,7 @@ In dit artikel wordt beschreven hoe u strategische doelen in Adobe Workfront kun
  </tbody> 
 </table>
 
-Voor meer informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -128,19 +128,16 @@ Voor meer informatie, zie [&#x200B; vereisten van de Toegang in de documentatie 
 
 ## Toegang tot Workfront-doelen
 
-1. Klik het **pictogram van het 1&rbrace; pictogram van het Belangrijkste Menu** ![&#x200B; in de hoger-juiste hoek, dan klik &#x200B;](assets/main-menu-icon.png) Doelen **.**
+{{step1-to-goals}}
 
-   <!-- drafted for Shell release: Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
-   -->
-
-   De vertoningen van de Lijst van het Doel.
+De vertoningen van de Lijst van het Doel.
 
 
-   >[!IMPORTANT]
-   >
-   >   Wanneer u de correcte toegang tot de Doelen van Workfront hebt, kunt u doelstellingen bekijken die u of iedereen anders in de Lijst van het Beleid, door gebrek wordt gecreeerd.
+>[!IMPORTANT]
+>
+>   Wanneer u de correcte toegang tot de Doelen van Workfront hebt, kunt u doelstellingen bekijken die u of iedereen anders in de Lijst van het Beleid, door gebrek wordt gecreeerd.
 
-   <!--   
+<!--   
    (NOTE: This might change when sharing is in place; right now, with sharing in place, they can VIEW all goals in the system but they cannot EDIT the ones others created!)
    -->
 
@@ -150,7 +147,7 @@ Voor meer informatie, zie [&#x200B; vereisten van de Toegang in de documentatie 
 
    Klik **Nieuw doel** om een nieuw doel toe te voegen.
 
-   Voor informatie over het creëren van doelstellingen, zie [&#x200B; doelstellingen in de Doelen van Adobe Workfront &#x200B;](../../workfront-goals/goal-management/create-goals.md) creëren.
+   Voor informatie over het creëren van doelstellingen, zie [ doelstellingen in de Doelen van Adobe Workfront ](../../workfront-goals/goal-management/create-goals.md) creëren.
 
 ## Afzonderlijke doelen openen en beheren
 
@@ -196,13 +193,16 @@ To access an individual goal in the Production environment:
 
 Om tot een individueel doel toegang te hebben:
 
-1. Klik het **Belangrijkste pictogram van het Menu** in de hoger-juiste hoek van Workfront, dan klik **Doelen**.
+{{step1-to-goals}}
+
 De vertoningen van de Lijst van het Goal door gebrek.
-   ![&#x200B; Lijst van het Doel &#x200B;](assets/goal-list-unshimmed.png)
+
+![ Lijst van het Doel ](assets/goal-list-unshimmed.png)
+
 1. Klik op de naam van een doel in de lijst.
 De doelpagina wordt weergegeven.
-   ![&#x200B; Goal pagina &#x200B;](assets/goal-page-unshimmed.png)
-1. Klik het **Meer** menu ![&#x200B; Meer pictogram &#x200B;](assets/more-icon.png) aan het recht van de doelnaam om het doel uit te geven of te delen.
-1. Klik **de details van het Doel** in het linkerpaneel om informatie over het doel uit te geven. Voor meer informatie, zie [&#x200B; doelstellingen van de Update in de sectie van de Details van het Doel in de Doelen van Adobe Workfront &#x200B;](../goal-management/update-goals-in-goal-details-panel.md).
+   ![ Goal pagina ](assets/goal-page-unshimmed.png)
+1. Klik het **Meer** menu ![ Meer pictogram ](assets/more-icon.png) aan het recht van de doelnaam om het doel uit te geven of te delen.
+1. Klik **de details van het Doel** in het linkerpaneel om informatie over het doel uit te geven. Voor meer informatie, zie [ doelstellingen van de Update in de sectie van de Details van het Doel in de Doelen van Adobe Workfront ](../goal-management/update-goals-in-goal-details-panel.md).
 
 

@@ -7,7 +7,7 @@ description: Wanneer het toevoegen van predecessor verhoudingen aan taken zou u 
 author: Alina
 feature: Work Management
 exl-id: 142e9637-841c-43d1-b297-e42c28a9e010
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '253'
 ht-degree: 0%
@@ -16,11 +16,11 @@ ht-degree: 0%
 
 # Overzicht van taakafhankelijkheidslus
 
-Wanneer het toevoegen van predecessor verhoudingen aan taken zou u gebiedsdeellijnen kunnen ontmoeten. Voor informatie over predecessors, zie [&#x200B; Overzicht van taakvoordecessors &#x200B;](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md).
+Wanneer het toevoegen van predecessor verhoudingen aan taken zou u gebiedsdeellijnen kunnen ontmoeten. Voor informatie over predecessors, zie [ Overzicht van taakvoordecessors ](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md).
 
 ## Overzicht van afhankelijkheidslus
 
-De lijnen van de afhankelijkheid gebeuren wanneer u twee of meer taken hebt die van elkaar afhangen om worden voltooid. Adobe Workfront staat u niet toe om een voorganger verhouding tussen taken tot stand te brengen als het tot een gebiedsdeellijn leidt.
+De lijnen van de afhankelijkheid gebeuren wanneer u twee of meer taken hebt die van elkaar afhangen om worden voltooid. Adobe Workfront staat u niet toe om een voorganger verhouding tussen taken tot stand te brengen als het tot een gebiedsdeellijn leidt.
 
 **Voorbeeld:** Taak 2 is een voorganger aan Taak 1, wat betekent u Taak 2 moet voltooien alvorens u aan Taak 1 kunt beginnen te werken.
 
@@ -36,4 +36,4 @@ Als u probeert om Taak 1 een voorganger aan Taak 2 te maken, krijgt u een fout v
 * Een gebiedsdeellijn kan ook voorkomen als u probeert om een ouder tot voorganger van een kind te maken.
 * In het geval van een gebiedsdeellijn kunt u niet de taken of het project bewaren. Om de gebiedsdeellijn te bevestigen, moet u de voorgangersverhouding tussen de taken opnieuw evalueren die in het foutenbericht worden vermeld en de conflicten verwijderen alvorens u de taken of het project kunt bewaren.
 
- 
+

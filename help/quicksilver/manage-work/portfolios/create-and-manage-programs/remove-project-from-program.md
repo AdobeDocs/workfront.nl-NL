@@ -6,7 +6,7 @@ description: Wanneer u het niet meer nodig hebt, kunt u een project uit een prog
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 3dfd10e6-bcd0-48fb-b6aa-6e08cc52b230
-source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '201'
 ht-degree: 0%
@@ -21,7 +21,7 @@ U kunt een project uit een programma verwijderen door één van het volgende te 
 * Verwijder het permanent uit het huidige programma en koppel het niet aan een ander programma.
 * Verwijder het project definitief.
 
-  Voor informatie over het schrappen van projecten, zie [&#x200B; projecten &#x200B;](../../../manage-work/projects/manage-projects/delete-projects.md) schrappen.
+  Voor informatie over het schrappen van projecten, zie [ projecten ](../../../manage-work/projects/manage-projects/delete-projects.md) schrappen.
 
 ## Toegangsvereisten
 
@@ -51,7 +51,7 @@ U kunt een project uit een programma verwijderen door één van het volgende te 
  </tbody> 
 </table>
 
-*For informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)
+*For informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)
 
 +++
 

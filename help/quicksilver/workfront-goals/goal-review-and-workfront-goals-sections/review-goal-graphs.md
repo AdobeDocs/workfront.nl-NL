@@ -6,9 +6,9 @@ description: U kunt de algemene gezondheid van uw doelstellingen en hun vooruitg
 author: Alina
 feature: Workfront Goals
 exl-id: 8d5f3617-c7bf-44ce-99b0-d4ebda106f25
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '912'
+source-wordcount: '899'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ U kunt de algemene gezondheid van uw doelstellingen en hun vooruitgangstendens i
 
 >[!IMPORTANT]
 >
->U kunt een totaal aantal voor uw doelstellingen in de sectie van Grafieken voor een geselecteerde periode zien. Nochtans, neemt de Doelen van Workfront slechts doelstellingen met een status van Actief en Gesloten in aanmerking wanneer het berekenen van de algemene status van de doelvooruitgang en het percentage voltooide.
+>U kunt een totaal aantal voor uw doelstellingen in de sectie van Grafieken voor een geselecteerde periode zien. Nochtans, neemt de Doelen van Workfront slechts doelstellingen met een status van Actief en Gesloten in aanmerking wanneer het berekenen van de algemene status van de doelvooruitgang en het percentage voltooide.
 
 ## Toegangsvereisten
 
@@ -71,7 +71,7 @@ U kunt de algemene gezondheid van uw doelstellingen en hun vooruitgangstendens i
 </tbody>
 </table>
 
-Voor meer informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -157,16 +157,13 @@ De volgende grafieken zijn beschikbaar in de sectie Grafieken of de Doelen van W
 
 ## Voortgang van doel van grafieken controleren
 
-1. Klik het **pictogram van het 1&rbrace; pictogram van het Belangrijkste Menu** ![&#x200B; > &#x200B;](assets/main-menu-icon.png) Doelen **in de hoger-juiste hoek.**
+{{step1-to-goals}}
 
-   <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-review-and-workfront-goals-sections/assets/three-line-main-menu-icon.png) in the upper-left corner)
-   -->
-
-   Dit opent het gebied van de Doelen van Workfront.
+Dit opent het gebied van de Doelen van Workfront.
 
 1. Klik **Grafieken** in het linkerpaneel.
 
-   ![&#x200B; Grafieken in linkerpaneel &#x200B;](assets/graphs-in-left-panel.png)
+   ![ Grafieken in linkerpaneel ](assets/graphs-in-left-panel.png)
 
    De sectie Grafieken wordt weergegeven.
 
@@ -177,7 +174,7 @@ De volgende grafieken zijn beschikbaar in de sectie Grafieken of de Doelen van W
 
 1. (Optioneel) Selecteer het type informatie dat u wilt weergeven door de filters in de rechterbovenhoek van de sectie Grafieken bij te werken.
 
-   Voor meer informatie over het filtreren van doelstellingen, zie [&#x200B; informatie van de Filter in de Doelen van Adobe Workfront &#x200B;](../../workfront-goals/goal-management/filter-information-wf-goals.md).
+   Voor meer informatie over het filtreren van doelstellingen, zie [ informatie van de Filter in de Doelen van Adobe Workfront ](../../workfront-goals/goal-management/filter-information-wf-goals.md).
 
    >[!TIP]
    >
@@ -185,7 +182,7 @@ De volgende grafieken zijn beschikbaar in de sectie Grafieken of de Doelen van W
 
 1. Bekijk de informatie in de onderstaande tabel wanneer u de Goal Health Chart bekijkt.
 
-   ![&#x200B; Grafiek van de Gang &#x200B;](assets/gauge-graph-wf-align-350x230.png)
+   ![ Grafiek van de Gang ](assets/gauge-graph-wf-align-350x230.png)
 
    | Totaal aantal doelstellingen | Het getal onder aan het diagram geeft het aantal doelen in de geselecteerde periode aan, in alle statussen die u hebt geselecteerd. |
    |---|---|
@@ -195,7 +192,7 @@ De volgende grafieken zijn beschikbaar in de sectie Grafieken of de Doelen van W
 
 1. Bekijk de informatie in de onderstaande tabel wanneer u de grafiek van de voortgang van het beleid bekijkt.
 
-   ![&#x200B; grafiek van de Lijn &#x200B;](assets/line-graph-wf-align-350x161.png)
+   ![ grafiek van de Lijn ](assets/line-graph-wf-align-350x161.png)
 
    <table style="table-layout:auto"> 
     <col> 
@@ -224,4 +221,4 @@ De volgende grafieken zijn beschikbaar in de sectie Grafieken of de Doelen van W
 
    Klik **Basislijn** bij de bodem van de vooruitgangsgrafiek om de verwachte vooruitgang uit de grafiek te verwijderen.
 
- 
+

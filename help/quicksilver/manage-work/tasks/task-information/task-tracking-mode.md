@@ -7,7 +7,7 @@ description: U kunt de instelling van de modus Tekstspatiëring van een taak aan
 author: Alina
 feature: Work Management
 exl-id: 397b5593-ac01-40cf-b683-fcf671a53d26
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '646'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 U kunt de instelling van de modus Tekstspatiëring van een taak aanpassen wanneer u een taak maakt of bewerkt om te bepalen hoe en wanneer de voortgangsstatusindicatoren van een taak worden weergegeven. Adobe Workfront geeft voortgangsstatusvlaggen weer wanneer u bepaalde instellingen configureert voor het bijhouden van de voortgang van taken.
 
-Voor meer informatie over de Voortgangsstatus van taken, zie [&#x200B; Overzicht van de Status van de Voortgang van de Taak &#x200B;](../../../manage-work/tasks/task-information/task-progress-status.md).
+Voor meer informatie over de Voortgangsstatus van taken, zie [ Overzicht van de Status van de Voortgang van de Taak ](../../../manage-work/tasks/task-information/task-progress-status.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -29,23 +29,23 @@ Voor meer informatie over de Voortgangsstatus van taken, zie [&#x200B; Overzicht
 <p>To set the tracking mode:</p>
 <ol>
 <li value="1">Go to the task you want to set the tracking mode for.</li>
-<li value="2"> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <strong>More</strong> icon <img src="assets/qs-more-icon-on-an-object.png">next to the name of the task, then click&nbsp;<strong>Edit</strong>.</p> <p>The Edit Task dialog box opens. </p> </li>
-<li value="3"> <p>In the&nbsp;<strong>Settings</strong> section, use the&nbsp;<strong>Tracking Mode</strong> drop-down menu to select the Tracking Mode for the task.</p> <p>For more information about the tracking mode options, see the <a href="#tracking-mode-options" class="MCXref xref" xrefformat="{para}">Tracking Mode options</a> section in this article. </p> </li>
-<li value="4">Click&nbsp;<strong>Save Changes.</strong></li>
+<li value="2"> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <strong>More</strong> icon <img src="assets/qs-more-icon-on-an-object.png">next to the name of the task, then click <strong>Edit</strong>.</p> <p>The Edit Task dialog box opens. </p> </li>
+<li value="3"> <p>In the <strong>Settings</strong> section, use the <strong>Tracking Mode</strong> drop-down menu to select the Tracking Mode for the task.</p> <p>For more information about the tracking mode options, see the <a href="#tracking-mode-options" class="MCXref xref" xrefformat="{para}">Tracking Mode options</a> section in this article. </p> </li>
+<li value="4">Click <strong>Save Changes.</strong></li>
 </ol>
 </div>
 -->
 
 ## Opties voor trackingmodus {#tracking-mode-options}
 
-Als taakeigenaar of projectmanager kunt u bepalen hoe Workfront de status van de voortgang van elke taak aangeeft. Voor informatie over hoe te om het Volgen Wijze op uw taken te plaatsen, zie [&#x200B; Reeks het Volgen Wijze voor taken &#x200B;](../../../manage-work/tasks/task-information/set-tracking-mode-for-tasks.md).
+Als taakeigenaar of projectmanager kunt u bepalen hoe Workfront de status van de voortgang van elke taak aangeeft. Voor informatie over hoe te om het Volgen Wijze op uw taken te plaatsen, zie [ Reeks het Volgen Wijze voor taken ](../../../manage-work/tasks/task-information/set-tracking-mode-for-tasks.md).
 
 U kunt uit de volgende opties selecteren:
 
-* [&#x200B; Gebruiker moet &#x200B;](#user-must-update) bijwerken
-* [&#x200B; veronderstel op Tijd &#x200B;](#assume-on-time)
-* [&#x200B; negeer Late Waarschuwingen &#x200B;](#ignore-late-warnings)
-* [&#x200B; Auto Volledig &#x200B;](#auto-complete)
+* [ Gebruiker moet ](#user-must-update) bijwerken
+* [ veronderstel op Tijd ](#assume-on-time)
+* [ negeer Late Waarschuwingen ](#ignore-late-warnings)
+* [ Auto Volledig ](#auto-complete)
 * [Voorganger](#predecessor)
 
 ### Gebruiker moet bijwerken {#user-must-update}
@@ -71,9 +71,9 @@ De volgende uitzonderingen bestaan:
 
 >[!IMPORTANT]
 >
->Als u wilt dat taken automatisch worden voltooid, markeert u de taak Voltooien wanneer de projecttijd opnieuw wordt berekend. Als het Type van Update van het project aan Automatisch of Automatisch en bij Verandering wordt geplaatst, wordt de projectchronologie dagelijks berekend. Voor informatie over chronologieherberekeningen over projecten, zie [&#x200B; projectchronologie &#x200B;](../../../manage-work/projects/manage-projects/recalculate-project-timeline.md) opnieuw berekenen.
+>Als u wilt dat taken automatisch worden voltooid, markeert u de taak Voltooien wanneer de projecttijd opnieuw wordt berekend. Als het Type van Update van het project aan Automatisch of Automatisch en bij Verandering wordt geplaatst, wordt de projectchronologie dagelijks berekend. Voor informatie over chronologieherberekeningen over projecten, zie [ projectchronologie ](../../../manage-work/projects/manage-projects/recalculate-project-timeline.md) opnieuw berekenen.
 >
->De tijd van de datum van daadwerkelijke voltooiing is middernacht van de dag wanneer de chronologie automatisch wordt berekend. De tijd die wordt gebruikt om deze tijdstempel te genereren is de tijdzone van uw systeem zoals die door uw Workfront-beheerder in het gedeelte Klantgegevens van Setup is gedefinieerd. Voor informatie over het plaatsen van de tijdzone van uw systeem, zie [&#x200B; basisinformatie voor uw systeem &#x200B;](../../../administration-and-setup/get-started-wf-administration/configure-basic-info.md) vormen.
+>De tijd van de datum van daadwerkelijke voltooiing is middernacht van de dag wanneer de chronologie automatisch wordt berekend. De tijd die wordt gebruikt om deze tijdstempel te genereren is de tijdzone van uw systeem zoals die door uw Workfront-beheerder in het gedeelte Klantgegevens van Setup is gedefinieerd. Voor informatie over het plaatsen van de tijdzone van uw systeem, zie [ basisinformatie voor uw systeem ](../../../administration-and-setup/get-started-wf-administration/configure-basic-info.md) vormen.
 
 ### Voorganger {#predecessor}
 

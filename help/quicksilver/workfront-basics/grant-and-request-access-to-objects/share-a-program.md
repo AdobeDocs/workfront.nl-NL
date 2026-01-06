@@ -7,7 +7,7 @@ description: Uw Adobe Workfront-beheerder kan u toegang verlenen tot weergave- o
 author: Courtney
 feature: Get Started with Workfront
 exl-id: bfa6ce97-24ad-44b3-9c2f-7fac6b748f94
-source-git-commit: 4ae96f67b15838403ffce32317d871d6904d6d95
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '892'
 ht-degree: 0%
@@ -17,9 +17,9 @@ ht-degree: 0%
 # Een programma delen
 
 
-Uw Adobe Workfront-beheerder kan u toegang verlenen tot weergave- of bewerkingsprogramma&#39;s wanneer u uw toegangsniveau toewijst. U moet een licentie voor het abonnement hebben om toegang te hebben tot het bewerken van een programma. Voor meer informatie, zie [&#x200B; toegang van de Verlening tot programma&#39;s &#x200B;](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-programs.md).
+Uw Adobe Workfront-beheerder kan u toegang verlenen tot weergave- of bewerkingsprogramma&#39;s wanneer u uw toegangsniveau toewijst. U moet een licentie voor het abonnement hebben om toegang te hebben tot het bewerken van een programma. Voor meer informatie, zie [ toegang van de Verlening tot programma&#39;s ](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-programs.md).
 
-Samen met het toegangsniveau dat u wordt verleend, kunt u toestemmingen ook ontvangen om specifieke programma&#39;s van gebruikers te bekijken of te beheren die hen met u kunnen delen. Voor meer informatie over toegangsniveaus en toestemmingen, zie [&#x200B; hoe de toegangsniveaus en de toestemmingen samen &#x200B;](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md) werken.
+Samen met het toegangsniveau dat u wordt verleend, kunt u toestemmingen ook ontvangen om specifieke programma&#39;s van gebruikers te bekijken of te beheren die hen met u kunnen delen. Voor meer informatie over toegangsniveaus en toestemmingen, zie [ hoe de toegangsniveaus en de toestemmingen samen ](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md) werken.
 
 Machtigingen gelden specifiek voor elk item in Workfront en definiëren welke handelingen gebruikers op dat item kunnen uitvoeren.
 
@@ -53,13 +53,13 @@ Machtigingen gelden specifiek voor elk item in Workfront en definiëren welke ha
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Overwegingen bij het delen van een programma
 
-Naast de overwegingen hieronder, zie ook [&#x200B; Overzicht van het delen van toestemmingen op voorwerpen &#x200B;](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+Naast de overwegingen hieronder, zie ook [ Overzicht van het delen van toestemmingen op voorwerpen ](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
 >[!NOTE]
 >
@@ -69,15 +69,15 @@ Naast de overwegingen hieronder, zie ook [&#x200B; Overzicht van het delen van t
 
 * U kunt programma&#39;s afzonderlijk delen, maar u kunt ook verschillende programma&#39;s tegelijk delen.
 
-  Voor meer informatie over het delen van punten in Workfront, zie [&#x200B; een voorwerp &#x200B;](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md) delen.
+  Voor meer informatie over het delen van punten in Workfront, zie [ een voorwerp ](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md) delen.
 
 * U kunt alleen weergavemachtigingen of beheermachtigingen verlenen voor programma&#39;s:
 
 * Wanneer u een programma deelt, erven de gebruikers de zelfde toestemmingen aan alle kindvoorwerpen verbonden aan het programma, door gebrek.
 
-  Voor meer informatie over de hiërarchie van voorwerpen in Workfront, zie [&#x200B; voorwerpen in Adobe Workfront &#x200B;](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md) begrijpen.
+  Voor meer informatie over de hiërarchie van voorwerpen in Workfront, zie [ voorwerpen in Adobe Workfront ](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md) begrijpen.
 
-* U kunt overgeërfde machtigingen uit het programma verwijderen. Zie voor meer informatie over het verwijderen van machtigingen uit objecten  [&#x200B; verwijdert toestemmingen uit voorwerpen &#x200B;](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md).
+* U kunt overgeërfde machtigingen uit het programma verwijderen. Zie voor meer informatie over het verwijderen van machtigingen uit objecten   [ verwijdert toestemmingen uit voorwerpen ](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md).
 
 ## Een programma delen
 
@@ -87,7 +87,7 @@ Naast de overwegingen hieronder, zie ook [&#x200B; Overzicht van het delen van t
 
 1. Aan het recht van de programmanaam, klik **Aandeel**. Het **de dialoogvakje van de Naam van het Programma van het Aandeel []** opent.
 
-   ![&#x200B; het programmaknoop van het Aandeel &#x200B;](assets/share-program-button.png)
+   ![ het programmaknoop van het Aandeel ](assets/share-program-button.png)
 
 1. In de **programmatoegang van de Verlening tot** gebied, begin typend de naam van de gebruiker, het team, de rol, de groep, of het bedrijf u het programma met wilt delen, dan klik de naam wanneer het in de drop-down lijst verschijnt.
 
@@ -109,7 +109,7 @@ Naast de overwegingen hieronder, zie ook [&#x200B; Overzicht van het delen van t
 
 1. (Optioneel) Klik op het pictogram Geavanceerde opties naast het machtigingsniveau dat u hebt toegekend om specifieke machtigingen voor het programma te configureren.
 
-   ![&#x200B; gevormde geavanceerde toestemmingsopties &#x200B;](assets/advanced-options-icon.png)
+   ![ gevormde geavanceerde toestemmingsopties ](assets/advanced-options-icon.png)
 
 1. (Facultatief) om geërfte toestemmingen voor de kindvoorwerpen van het programma uit te zetten, klik **Draai** gealigneerd met **Geërfde toestemmingen**.
 
@@ -121,9 +121,9 @@ Naast de overwegingen hieronder, zie ook [&#x200B; Overzicht van het delen van t
 
 {{step1-to-programs}}
 
-1. Op de **pagina van Programma&#39;s**, selecteer de doos links van elk programma u wilt delen, dan klik het **pictogram van het Aandeel** ![&#x200B; Aandeel &#x200B;](assets/share-icon.png) bij de bovenkant van de pagina. Het deelmodaal wordt geopend.
+1. Op de **pagina van Programma&#39;s**, selecteer de doos links van elk programma u wilt delen, dan klik het **pictogram van het Aandeel** ![ Aandeel ](assets/share-icon.png) bij de bovenkant van de pagina. Het deelmodaal wordt geopend.
 
-   ![&#x200B; Bulk deelt programma&#39;s &#x200B;](assets/bulk-share-programs.png)
+   ![ Bulk deelt programma&#39;s ](assets/bulk-share-programs.png)
 
 1. In de **programmatoegang van de Verlening tot** gebied, begin typend de naam van de gebruiker, het team, de rol, de groep, of het bedrijf u de programma&#39;s met wilt delen, dan klik de naam wanneer het in de drop-down lijst verschijnt.
 
@@ -145,7 +145,7 @@ Naast de overwegingen hieronder, zie ook [&#x200B; Overzicht van het delen van t
 
 1. (Optioneel) Klik op het pictogram Geavanceerde opties naast het machtigingsniveau dat u hebt toegekend om specifieke machtigingen voor de programma&#39;s te configureren.
 
-   ![&#x200B; gevormde geavanceerde toestemmingsopties &#x200B;](assets/advanced-options-icon.png)
+   ![ gevormde geavanceerde toestemmingsopties ](assets/advanced-options-icon.png)
 
 1. Klik **sparen**.
 
@@ -155,18 +155,18 @@ In de volgende tabel wordt weergegeven welke machtigingen u gebruikers kunt verl
 
 | **Acties** | **leiden** | **Mening** |
 |---|---|---|
-| Programmadetails bewerken | ✓ |   |
+| Programmadetails bewerken | ✓ |   |
 | Een programma weergeven | ✓ | ✓ |
-| Een programma verwijderen | ✓ |   |
-| Een aangepast formulier bijvoegen | ✓ |   |
-| Een aangepast veld bewerken | ✓ |   |
-| Een project toevoegen of verwijderen &#42; | ✓ |   |
-| Een project goedkeuren | ✓ |   |
+| Een programma verwijderen | ✓ |   |
+| Een aangepast formulier bijvoegen | ✓ |   |
+| Een aangepast veld bewerken | ✓ |   |
+| Een project toevoegen of verwijderen &#42; | ✓ |   |
+| Een project goedkeuren | ✓ |   |
 | Een documentmap toevoegen &#42; | ✓ | ✓ |
 | Een document toevoegen | ✓ | ✓ |
 | Updates/opmerkingen toevoegen | ✓ | ✓ |
 | Delen | ✓ | ✓ |
-| Delen op het hele systeem |   | ✓ |
+| Delen op het hele systeem |   | ✓ |
 
 *This de toestemmingen worden gecontroleerd door het toegangsniveau en de toestemmingen op andere voorwerpen, zoals projecten.
 

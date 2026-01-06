@@ -6,7 +6,7 @@ description: U kunt informatie bewerken over programma's die u hebt gemaakt of o
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 7dcdfc5a-3fc1-48a8-ae28-a6a0a458732e
-source-git-commit: 4897f165a7316a52b968601b45f95f7045f63840
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '1025'
 ht-degree: 0%
@@ -47,7 +47,7 @@ U kunt een programma op de programmapagina bewerken of een of meerdere programma
  </tbody> 
 </table>
 
-Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -58,7 +58,7 @@ Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van W
 
    >[!TIP]
    >
-   >U kunt een programma openen vanuit het portfolio waaraan het is gekoppeld, door eerst naar het portfolio te gaan en vervolgens op **[!UICONTROL Programs]** te klikken in het linkerdeelvenster. Voor meer informatie, zie [&#x200B; een programma &#x200B;](../../../manage-work/portfolios/create-and-manage-programs/create-program.md) creëren.
+   >U kunt een programma openen vanuit het portfolio waaraan het is gekoppeld, door eerst naar het portfolio te gaan en vervolgens op **[!UICONTROL Programs]** te klikken in het linkerdeelvenster. Voor meer informatie, zie [ een programma ](../../../manage-work/portfolios/create-and-manage-programs/create-program.md) creëren.
 
 1. (Optioneel) Als u de beperkte informatie over het programma wilt bewerken, klikt u op **[!UICONTROL Program Details]** in het linkerdeelvenster.
 
@@ -66,11 +66,11 @@ Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van W
    >
    >Ga naar stap 4 als u alle informatie over het programma wilt bewerken.
 
-   ![&#x200B; de details van het Programma met de sectie van de douanevorm &#x200B;](assets/program-details-with-a-custom-form-section-nwe-350x137.png)
+   ![ de details van het Programma met de sectie van de douanevorm ](assets/program-details-with-a-custom-form-section-nwe-350x137.png)
 
    >[!NOTE]
    >
-   >Afhankelijk van de manier waarop uw [!DNL Workfront] -beheerder of groepsbeheerder uw lay-outsjabloon heeft gewijzigd, kunnen de velden in het [!UICONTROL Program Details] -gebied opnieuw worden gerangschikt of niet worden weergegeven. Voor informatie, zie [&#x200B; de [!UICONTROL Details] mening aanpassen gebruikend een lay-outmalplaatje &#x200B;](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
+   >Afhankelijk van de manier waarop uw [!DNL Workfront] -beheerder of groepsbeheerder uw lay-outsjabloon heeft gewijzigd, kunnen de velden in het [!UICONTROL Program Details] -gebied opnieuw worden gerangschikt of niet worden weergegeven. Voor informatie, zie [ de [!UICONTROL Details] mening aanpassen gebruikend een lay-outmalplaatje ](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
 
    <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: the above note will also come to the Edit Program box)</p>
@@ -79,10 +79,10 @@ Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van W
    Ga als volgt te werk om informatie in de sectie [!UICONTROL Details] te bewerken:
 
    1. (Optioneel) Klik op het pictogram **[!UICONTROL Collapse All]** in de rechterbovenhoek om alle gebieden samen te vouwen.
-   1. (Facultatief en voorwaardelijk) wanneer een gebied wordt doen ineenstorten, klik de **juist-richt pijl** ![&#x200B; juist richtende pijl &#x200B;](assets/right-pointing-arrow.png) naast elk gebied om het gebied uit te breiden u wilt uitgeven.
+   1. (Facultatief en voorwaardelijk) wanneer een gebied wordt doen ineenstorten, klik de **juist-richt pijl** ![ juist richtende pijl ](assets/right-pointing-arrow.png) naast elk gebied om het gebied uit te breiden u wilt uitgeven.
    1. Voor informatie over de velden die zichtbaar zijn in de sectie [!UICONTROL Program Details] , gaat u verder met het bewerken van het programma in het vak [!UICONTROL Edit Program] , zoals hieronder wordt beschreven.
    1. (Optioneel) Als er geen aangepaste formulieren aan het programma zijn gekoppeld, typt u de naam van een formulier in het veld **[!UICONTROL Add custom form]** , selecteert u het formulier wanneer het in de lijst wordt weergegeven en klikt u op **[!UICONTROL Save Changes]** .
-   1. (Facultatief) klik het **[!UICONTROL Export]** pictogram ![&#x200B; pictogram van de Uitvoer &#x200B;](assets/export.png) om de [!UICONTROL Overview] en informatie van de douaneformulieren naar een dossier van PDF uit te voeren, dan klik **[!UICONTROL Export]**. Selecteer een van de volgende opties:
+   1. (Facultatief) klik het **[!UICONTROL Export]** pictogram ![ pictogram van de Uitvoer ](assets/export.png) om de [!UICONTROL Overview] en informatie van de douaneformulieren naar een dossier van PDF uit te voeren, dan klik **[!UICONTROL Export]**. Selecteer een van de volgende opties:
 
       * Alles selecteren (wordt alleen weergegeven als er ten minste één aangepast formulier is gekoppeld)
       * [!UICONTROL Overview]
@@ -90,19 +90,19 @@ Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van W
 
       Het PDF-bestand wordt naar uw computer gedownload.
 
-      ![&#x200B; de portefeuilledetails van de Uitvoer &#x200B;](assets/export-portfolio-details-box-with-export-button-350x368.png)
+      ![ de portefeuilledetails van de Uitvoer ](assets/export-portfolio-details-box-with-export-button-350x368.png)
 
-      Voor meer informatie, zie [&#x200B; de douaneformulieren en objecten details van de Uitvoer &#x200B;](../../../workfront-basics/work-with-custom-forms/export-custom-forms-details.md).
+      Voor meer informatie, zie [ de douaneformulieren en objecten details van de Uitvoer ](../../../workfront-basics/work-with-custom-forms/export-custom-forms-details.md).
 
 
 1. Voer een van de volgende handelingen uit als u alle informatie over een of meer programma&#39;s wilt bewerken:
 
-   * Klik het **[!UICONTROL More]** menu ![&#x200B; Meer menu &#x200B;](assets/more-icon.png) naast de programmanaam, toen **[!UICONTROL Edit].**
-   * Ga naar een lijst van programma&#39;s en selecteer één of meerdere programma dat u wilt uitgeven, dan klik het **[!UICONTROL Edit]** pictogram ![&#x200B; uitgeven pictogram &#x200B;](assets/edit-icon.png) bij de bovenkant van de lijst.
+   * Klik het **[!UICONTROL More]** menu ![ Meer menu ](assets/more-icon.png) naast de programmanaam, toen **[!UICONTROL Edit].**
+   * Ga naar een lijst van programma&#39;s en selecteer één of meerdere programma dat u wilt uitgeven, dan klik het **[!UICONTROL Edit]** pictogram ![ uitgeven pictogram ](assets/edit-icon.png) bij de bovenkant van de lijst.
 
      Het vak **[!UICONTROL Edit Program]** wordt weergegeven.
 
-     ![&#x200B; geef programmadoos &#x200B;](assets/edit-program-0925.png) uit
+     ![ geef programmadoos ](assets/edit-program-0925.png) uit
 
      Alle programmavelden zijn beschikbaar in het vak [!UICONTROL Edit Program] en worden gegroepeerd op de gebieden die in het linkerdeelvenster worden vermeld.
 
@@ -115,7 +115,7 @@ Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van W
 
    >[!TIP]
    >
-   >Om douanevelden voor verscheidene programma&#39;s in een tijd opnieuw te berekenen, selecteer veelvoudige programma&#39;s in een lijst, en klik **Meer** menu ![&#x200B; Meer menu &#x200B;](assets/more-icon.png) bij de bovenkant van de lijst, dan **opnieuw berekend Uitdrukkingen**.
+   >Om douanevelden voor verscheidene programma&#39;s in een tijd opnieuw te berekenen, selecteer veelvoudige programma&#39;s in een lijst, en klik **Meer** menu ![ Meer menu ](assets/more-icon.png) bij de bovenkant van de lijst, dan **opnieuw berekend Uitdrukkingen**.
 
 ### [!UICONTROL Overview] {#overview}
 
@@ -123,7 +123,7 @@ Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van W
 1. Klik op **[!UICONTROL Overview]** en geef de volgende velden op:
 
    <!--
-   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;note below drafted for now)</p>
+   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: note below drafted for now)</p>
    -->
 
    <!--
@@ -174,7 +174,7 @@ Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van W
 
    >[!NOTE]
    >
-   >Afhankelijk van de manier waarop de [!DNL Workfront] -beheerder de machtigingen voor de secties in het aangepaste formulier instelt, kan niet iedereen dezelfde velden op een aangepast formulier weergeven of bewerken. De machtigingen voor het bewerken van velden in een sectie van een aangepast formulier zijn afhankelijk van de machtigingen die u hebt voor het programma zelf. Voor informatie over het plaatsen van toestemmingen op secties van een douaneformulier, zie [&#x200B; een douaneformulier &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren.
+   >Afhankelijk van de manier waarop de [!DNL Workfront] -beheerder de machtigingen voor de secties in het aangepaste formulier instelt, kan niet iedereen dezelfde velden op een aangepast formulier weergeven of bewerken. De machtigingen voor het bewerken van velden in een sectie van een aangepast formulier zijn afhankelijk van de machtigingen die u hebt voor het programma zelf. Voor informatie over het plaatsen van toestemmingen op secties van een douaneformulier, zie [ een douaneformulier ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren.
 
 1. Werk alle velden in de aangepaste formulieren bij en klik op **[!UICONTROL Save]** of ga verder met de volgende sectie.
 
@@ -183,7 +183,7 @@ Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van W
 1. Bewerk een programma zoals hierboven beschreven.
 1. Klik op **[!UICONTROL Comment]**.
 
-   ![&#x200B; doos van de Commentaar in Edit doos van het Programma &#x200B;](assets/comment-box-on-edit-program.png)
+   ![ doos van de Commentaar in Edit doos van het Programma ](assets/comment-box-on-edit-program.png)
 
 1. Voeg een opmerking toe in het veld **[!UICONTROL Add an update to each program]** .
 1. (Optioneel) Klik op het pictogram **[!UICONTROL People]** om een gebruiker of een team aan de opmerking toe te voegen.
@@ -203,7 +203,7 @@ Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van W
 Wanneer u programma&#39;s bulksgewijs bewerkt, worden alle gegevens die u bijwerkt, toegepast op alle geselecteerde programma&#39;s, waarbij de oorspronkelijke gegevens van elk programma worden genegeerd.
 
 1. Ga naar een lijst met programma&#39;s en selecteer meerdere programma&#39;s.
-1. Klik **uitgeven** pictogram ![&#x200B; uitgeven pictogram &#x200B;](assets/edit-icon.png) bij de bovenkant van de lijst.
+1. Klik **uitgeven** pictogram ![ uitgeven pictogram ](assets/edit-icon.png) bij de bovenkant van de lijst.
 
    **geeft Programma&#39;s** doos uit opent.
 1. Werk de informatie in de volgende secties bij:
@@ -212,5 +212,5 @@ Wanneer u programma&#39;s bulksgewijs bewerkt, worden alle gegevens die u bijwer
    * Aangepaste Forms
    * Opmerking
 
-   Voor meer informatie, zie de sectie [&#x200B; programma&#39;s &#x200B;](#edit-programs-1) in dit artikel uitgeven, die met Stap 4 beginnen. <!--ensure this stays accurate-->
+   Voor meer informatie, zie de sectie [ programma&#39;s ](#edit-programs-1) in dit artikel uitgeven, die met Stap 4 beginnen. <!--ensure this stays accurate-->
 

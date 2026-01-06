@@ -6,9 +6,9 @@ description: U kunt prioriteiten stellen aan uw projecten in Portfolio Optimizer
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 54e33746-5995-49de-8e21-bf973f0694a6
-source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
+source-git-commit: 714e6e09f1429f0382c36d17d3f2aca95edcfbc6
 workflow-type: tm+mt
-source-wordcount: '435'
+source-wordcount: '421'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Houd rekening met het volgende wanneer u [!UICONTROL Portfolio Optimizer] gebrui
 
 * De prioriteit van projecten in Portfolio Optimizer is zichtbaar in [!DNL Resource Planner], als het daar wordt toegelaten. In [!DNL Resource Planner] ontvangen projecten bronnen in de volgorde van hun [!UICONTROL Resource Planner] prioriteit, en niet die van de [!UICONTROL Portfolio Priority] .
 
-  Voor informatie over het prioriteren van projecten in [!UICONTROL Resource Planner], zie het artikel [&#x200B; projecten van Prioriteit in [!UICONTROL Resource Planner]](../../../resource-mgmt/resource-planning/prioritize-projects-resource-planner.md).
+  Voor informatie over het prioriteren van projecten in [!UICONTROL Resource Planner], zie het artikel [ projecten van Prioriteit in [!UICONTROL Resource Planner]](../../../resource-mgmt/resource-planning/prioritize-projects-resource-planner.md).
 
 * In het gebied **[!UICONTROL Project Prioritization]** van [!UICONTROL Portfolio Optimizer] worden projecten standaard in de volgorde [!UICONTROL Planned Start Dates] en [!UICONTROL Net Value] weergegeven.
 
@@ -60,7 +60,7 @@ Houd rekening met het volgende wanneer u [!UICONTROL Portfolio Optimizer] gebrui
  </tbody> 
 </table>
 
-*For informatie, zie [&#x200B; vereisten van de Toegang voor de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*For informatie, zie [ vereisten van de Toegang voor de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -94,15 +94,14 @@ Houd rekening met het volgende wanneer u [!UICONTROL Portfolio Optimizer] gebrui
 
 ## De prioriteit van de projecten in de [!UICONTROL Portfolio Optimizer] wijzigen
 
-1. Klik het **[!UICONTROL Main Menu]** pictogram van het pictogram ![&#x200B; Belangrijkste Menu &#x200B;](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront.
+{{step1-to-portfolios}}
 
-1. Klik op **[!UICONTROL Portfolios]**.
 1. (Optioneel) Selecteer het juiste filter in de vervolgkeuzelijst **[!UICONTROL Filter]** om de juiste lijst met portfolio&#39;s weer te geven.
 1. Klik op de naam van een portfolio om het te openen.
 1. Klik op **[!UICONTROL Portfolio Optimization]** in het linkerdeelvenster.
 1. Wijzig in het gebied [!UICONTROL project optization] de prioriteit van uw projecten door de projecten in volgorde van prioriteit te slepen en vervolgens naar de gewenste weergavepositie te slepen.
 
-   ![&#x200B; Portfolio optimizer met projecten &#x200B;](assets/portfolio-optimizer-with-projects-nwe-350x89.png)
+   ![ Portfolio optimizer met projecten ](assets/portfolio-optimizer-with-projects-nwe-350x89.png)
 
    Klik op **[!UICONTROL Set Priority]** in het gebied voor projectoptimalisatie wanneer u klaar bent met het herschikken van uw projecten. De projecten krijgen een nieuw nummer op basis van de nieuwe bestelling.
 
@@ -114,4 +113,4 @@ Houd rekening met het volgende wanneer u [!UICONTROL Portfolio Optimizer] gebrui
 
    U kunt de prioriteit van het project zien zoals deze wordt weergegeven in [!UICONTROL Portfolio Optimizer] in de functie Bronnen door de instelling **[!UICONTROL Display Portfolio Priorities]** in de functie Bronnen in te schakelen.
 
-   Voor informatie over het prioriteren van projecten in [!UICONTROL Resource Planner], zie het artikel [&#x200B; projecten van Prioriteit in [!UICONTROL Resource Planner]](../../../resource-mgmt/resource-planning/prioritize-projects-resource-planner.md).
+   Voor informatie over het prioriteren van projecten in [!UICONTROL Resource Planner], zie het artikel [ projecten van Prioriteit in [!UICONTROL Resource Planner]](../../../resource-mgmt/resource-planning/prioritize-projects-resource-planner.md).

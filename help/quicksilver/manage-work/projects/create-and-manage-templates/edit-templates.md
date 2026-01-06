@@ -6,7 +6,7 @@ description: U kunt projectmalplaatjes uitgeven om op veranderingen in de proces
 author: Alina
 feature: Work Management
 exl-id: da0fca31-6a50-4862-ad9a-a453ef968773
-source-git-commit: 76379d5433cc13ee412c8c1045316ef253b3ee7d
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '5672'
 ht-degree: 0%
@@ -72,7 +72,7 @@ U kunt één sjabloon tegelijk bewerken of sjablonen bulksgewijs bewerken.
  </tbody> 
 </table>
 
-*For meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*For meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -113,7 +113,7 @@ U kunt één sjabloon tegelijk bewerken of sjablonen bulksgewijs bewerken.
 
 1. Ga naar de sjabloon die u wilt bewerken.
 1. (Voorwaardelijk) om beperkte informatie over het malplaatje uit te geven, klik **Details van het Malplaatje** in het linkerpaneel, dan ga naar de gebieden die in het linkerpaneel worden vermeld om informatie voor elk gebied uit te geven.
-1. Om informatie in de sectie van Details uit te geven, **uitgeef** pictogram ![&#x200B; pictogram &#x200B;](assets/edit-icon.png), dan uitgezocht van om het even welke hieronder gebieden, of klik **geef allen** uit om informatie op alle gebieden uit te geven:
+1. Om informatie in de sectie van Details uit te geven, **uitgeef** pictogram ![ pictogram ](assets/edit-icon.png), dan uitgezocht van om het even welke hieronder gebieden, of klik **geef allen** uit om informatie op alle gebieden uit te geven:
 
    * Overzicht
    * Aangepaste Forms
@@ -126,20 +126,20 @@ U kunt één sjabloon tegelijk bewerken of sjablonen bulksgewijs bewerken.
    >
    >Voor informatie over alle velden die in het gebied Details worden weergegeven, gaat u verder met het bewerken van alle velden in het vak Sjabloon bewerken hieronder.
 
-1. (Voorwaardelijk) om alle informatie over het malplaatje uit te geven, klik **Meer** menu ![&#x200B; Meer pictogram &#x200B;](assets/more-icon.png) naast de naam van het malplaatje, dan klik **uitgeven**.
+1. (Voorwaardelijk) om alle informatie over het malplaatje uit te geven, klik **Meer** menu ![ Meer pictogram ](assets/more-icon.png) naast de naam van het malplaatje, dan klik **uitgeven**.
 
    Het **geeft Malplaatje** vakje uit opent. De secties in dit vakje bevatten de gebieden beschikbaar in de sectie van de Details van het Malplaatje, evenals extra gebieden.
 
 1. U kunt de gegevens in de volgende secties bewerken:
 
-   * [&#x200B; Naam van het Malplaatje &#x200B;](#template-name)
+   * [ Naam van het Malplaatje ](#template-name)
    * [Overzicht](#overview-preview)
-   * [&#x200B; Financiën &#x200B;](#finance-preview)
-   * [&#x200B; Aangepaste Forms &#x200B;](#custom-forms-preview)
-   * [&#x200B; Montages van het Malplaatje &#x200B;](#template-settings)
-   * [&#x200B; Montages van Taken &#x200B;](#task-settings)
-   * [&#x200B; Montages van de Uitgave &#x200B;](#issue-settings)
-   * [&#x200B; Toegang &#x200B;](#access-preview)
+   * [ Financiën ](#finance-preview)
+   * [ Aangepaste Forms ](#custom-forms-preview)
+   * [ Montages van het Malplaatje ](#template-settings)
+   * [ Montages van Taken ](#task-settings)
+   * [ Montages van de Uitgave ](#issue-settings)
+   * [ Toegang ](#access-preview)
    * [Opmerking](#comment)
    <!--* [Linked folders](#linked-folders-conditional-availability) -->
 
@@ -159,7 +159,7 @@ U kunt één sjabloon tegelijk bewerken of sjablonen bulksgewijs bewerken.
 1. Je template bewerken zoals hierboven beschreven.
 1. In **geef Malplaatje** doos uit, klik **Overzicht**.
 
-   ![&#x200B; geef de sectie van het Kader van het malplaatjekader Overzicht &#x200B;](assets/edit-template-box-overview-section.png) uit
+   ![ geef de sectie van het Kader van het malplaatjekader Overzicht ](assets/edit-template-box-overview-section.png) uit
 
 1. Werk de volgende velden bij:
 
@@ -264,7 +264,7 @@ U kunt één sjabloon tegelijk bewerken of sjablonen bulksgewijs bewerken.
 1. Je template bewerken zoals hierboven beschreven.
 1. In **geef Malplaatje** doos uit, klik **Financiën**.
 
-   ![&#x200B; geef de sectie van de Financiën van de malplaatjedoos uit &#x200B;](assets/edit-template-box-finance-section.png)
+   ![ geef de sectie van de Financiën van de malplaatjedoos uit ](assets/edit-template-box-finance-section.png)
 
 1. Werk de volgende velden bij:
 
@@ -369,13 +369,13 @@ U kunt één sjabloon tegelijk bewerken of sjablonen bulksgewijs bewerken.
 1. Je template bewerken zoals hierboven beschreven.
 1. In **geef Malplaatje** doos uit, klik **Douane Forms**.
 
-   ![&#x200B; geef de sectie van Forms van de de malplaatjedoos van de Douane uit &#x200B;](assets/edit-template-box-custom-forms-section.png)
+   ![ geef de sectie van Forms van de de malplaatjedoos van de Douane uit ](assets/edit-template-box-custom-forms-section.png)
 
    De namen van de aangepaste formulieren die al aan de sjabloon zijn gekoppeld, worden in het linkerdeelvenster weergegeven.
 
 1. Klik binnen **voeg douaneformulier** gebied toe en selecteer de douanevorm of de vormen die u met het malplaatje wilt associëren. U moet aangepaste formulieren maken voordat u ze in dit veld kunt selecteren.
 
-   Alleen actieve aangepaste formulieren worden in de lijst weergegeven. Voor meer informatie over de bouw van douaneformulieren, zie [&#x200B; een douaneformulier &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren.
+   Alleen actieve aangepaste formulieren worden in de lijst weergegeven. Voor meer informatie over de bouw van douaneformulieren, zie [ een douaneformulier ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren.
 
    U kunt maximaal tien aangepaste formulieren aan een sjabloon toevoegen.
 
@@ -396,7 +396,7 @@ U kunt één sjabloon tegelijk bewerken of sjablonen bulksgewijs bewerken.
 1. Je template bewerken zoals hierboven beschreven.
 1. In **geef Malplaatje** doos uit, klik **de Montages van het Project**.
 
-   ![&#x200B; geef de sectie van de Montages van het Malplaatje van het malplaatjevakje uit &#x200B;](assets/edit-template-box-project-settings-section.png)
+   ![ geef de sectie van de Montages van het Malplaatje van het malplaatjevakje uit ](assets/edit-template-box-project-settings-section.png)
 
 1. Werk de volgende velden bij:
 
@@ -532,15 +532,15 @@ U kunt één sjabloon tegelijk bewerken of sjablonen bulksgewijs bewerken.
 
 U kunt de gebreken bepalen die met alle nieuwe taken zullen worden geassocieerd wanneer u hen aan een project toevoegt dat van het malplaatje wordt gecreeerd.
 
-Voor informatie over hoe deze montages het creëren van nieuwe taken beïnvloeden, zie [&#x200B; takenoverzicht &#x200B;](../../../manage-work/tasks/create-tasks/create-tasks-overview.md) creëren.
+Voor informatie over hoe deze montages het creëren van nieuwe taken beïnvloeden, zie [ takenoverzicht ](../../../manage-work/tasks/create-tasks/create-tasks-overview.md) creëren.
 
 1. Je template bewerken zoals hierboven beschreven.
 1. In **geef Malplaatje** doos uit, klik **de Montages van de Taak**.
 
-   ![&#x200B; geef de sectie van de Montages van de Taak van het malplaatjevakje uit &#x200B;](assets/edit-template-box-task-settings-section.png)
+   ![ geef de sectie van de Montages van de Taak van het malplaatjevakje uit ](assets/edit-template-box-task-settings-section.png)
 
-1. In het **vakje van het Proces van de Goedkeuring Standaard van de Taak 0&rbrace;, selecteer het Proces van de Goedkeuring u met alle nieuwe taken wilt associëren wanneer u hen aan een project toevoegt dat van dit malplaatje wordt gecreeerd.** U moet een goedkeuringsproces voor taken creëren alvorens u het met taken kunt associëren. Alleen actieve goedkeuringsprocessen worden in de lijst weergegeven. Voor meer informatie over het creëren van de Processen van de Goedkeuring, zie [&#x200B; Creërend de Processen van de Goedkeuring &#x200B;](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
-1. In het **vakje van de Aangepaste Forms van de Taak Standaard**, selecteer de douanevorm of de vormen die u met alle nieuwe taken wilt associëren wanneer u hen aan een project toevoegt dat van dit malplaatje wordt gecreeerd. U moet aangepaste formulieren maken voordat u ze in dit veld kunt selecteren. Alleen actieve aangepaste formulieren worden in de lijst weergegeven. Voor meer informatie over de bouw van douaneformulieren, zie [&#x200B; een douaneformulier &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren. U kunt maximaal tien aangepaste formulieren aan een taak koppelen.
+1. In het **vakje van het Proces van de Goedkeuring Standaard van de Taak 0}, selecteer het Proces van de Goedkeuring u met alle nieuwe taken wilt associëren wanneer u hen aan een project toevoegt dat van dit malplaatje wordt gecreeerd.** U moet een goedkeuringsproces voor taken creëren alvorens u het met taken kunt associëren. Alleen actieve goedkeuringsprocessen worden in de lijst weergegeven. Voor meer informatie over het creëren van de Processen van de Goedkeuring, zie [ Creërend de Processen van de Goedkeuring ](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
+1. In het **vakje van de Aangepaste Forms van de Taak Standaard**, selecteer de douanevorm of de vormen die u met alle nieuwe taken wilt associëren wanneer u hen aan een project toevoegt dat van dit malplaatje wordt gecreeerd. U moet aangepaste formulieren maken voordat u ze in dit veld kunt selecteren. Alleen actieve aangepaste formulieren worden in de lijst weergegeven. Voor meer informatie over de bouw van douaneformulieren, zie [ een douaneformulier ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren. U kunt maximaal tien aangepaste formulieren aan een taak koppelen.
 1. (Optioneel) Selecteer **Werkinspanning van het Gebruik om taak Geplande Uren** automatisch te berekenen als u het beheren van taakinspanning wilt toelaten door de Werkinspanning in plaats van Geplande Uren in het project te gebruiken dat van het malplaatje wordt gecreeerd.
 1. (Voorwaardelijk en optioneel) Als u Werkinspanning gebruiken hebt geselecteerd om taken Geplande uren automatisch te berekenen, klikt u op het vervolgkeuzemenu om het percentage voor elk niveau van de Werkinspanning bij te werken. De volgende percentagewaarden zijn de standaardwaarden:
 
@@ -550,7 +550,7 @@ Voor informatie over hoe deze montages het creëren van nieuwe taken beïnvloede
    | Medium | 50% |
    | Groot | 75% |
 
-   Voor informatie over het gebruiken van de Werkinspanning om de inspanning op taken op projecten te beheren, zie [&#x200B; Overzicht van de Werkinspanning van het Werk &#x200B;](../../../manage-work/tasks/task-information/work-effort.md).
+   Voor informatie over het gebruiken van de Werkinspanning om de inspanning op taken op projecten te beheren, zie [ Overzicht van de Werkinspanning van het Werk ](../../../manage-work/tasks/task-information/work-effort.md).
 
 1. (Optioneel) Ga door met het bewerken van de volgende sectie, afhankelijk van de informatie die u wilt wijzigen.
 
@@ -565,7 +565,7 @@ Door publicatie-instellingen te bewerken, kunt u voorkomen dat gebruikers inline
 1. Je template bewerken zoals hierboven beschreven.
 1. In **geef Malplaatje** doos uit, klik **de Montages van de Uitgave**.
 
-   ![&#x200B; geef de sectie van de Montages van de Montages van de Sjabloondoos uit &#x200B;](assets/edit-template-box-issue-settings-section.png)
+   ![ geef de sectie van de Montages van de Montages van de Sjabloondoos uit ](assets/edit-template-box-issue-settings-section.png)
 
 1. (Facultatief) schrap **staat gebruikers toe om kwesties binnen** optie toe te voegen. Deze optie is standaard ingeschakeld.
 
@@ -577,9 +577,9 @@ Door publicatie-instellingen te bewerken, kunt u voorkomen dat gebruikers inline
 
    Wanneer het onbruikbaar maken van deze optie, kunnen de gebruikers met toestemmingen om kwesties aan het project toe te voegen dat van het malplaatje wordt gecreeerd dit doen door de Nieuwe knoop van de Uitgave of een verzoekrij te gebruiken verbonden aan het project.
 
-   Voor meer informatie over het vormen van uitgeven montages op projecten, zie de [&#x200B; sectie van de Montages van de Uitgave &#x200B;](../../../manage-work/projects/manage-projects/edit-projects.md#issue) in artikel [&#x200B; projecten &#x200B;](../../../manage-work/projects/manage-projects/edit-projects.md) uitgeven.
+   Voor meer informatie over het vormen van uitgeven montages op projecten, zie de [ sectie van de Montages van de Uitgave ](../../../manage-work/projects/manage-projects/edit-projects.md#issue) in artikel [ projecten ](../../../manage-work/projects/manage-projects/edit-projects.md) uitgeven.
 
-   Voor informatie over het creëren van kwesties op projecten, zie [&#x200B; kwesties &#x200B;](../../../manage-work/issues/manage-issues/create-issues.md) creëren.
+   Voor informatie over het creëren van kwesties op projecten, zie [ kwesties ](../../../manage-work/issues/manage-issues/create-issues.md) creëren.
 
 1. (Optioneel) Ga door met het bewerken van de volgende sectie, afhankelijk van de informatie die u wilt wijzigen.
 
@@ -592,7 +592,7 @@ Door publicatie-instellingen te bewerken, kunt u voorkomen dat gebruikers inline
 1. Je template bewerken zoals hierboven beschreven.
 1. In **geef Malplaatje** doos uit, klik **Toegang**.
 
-   ![&#x200B; geef de sectie van de Toegang van het malplaatjevakje uit &#x200B;](assets/edit-template-box-access-section.png)
+   ![ geef de sectie van de Toegang van het malplaatjevakje uit ](assets/edit-template-box-access-section.png)
 
    De toegang u voor uw malplaatje specificeert zal de Toegang van gebruikers verbonden aan het project worden wanneer het malplaatje wordt gebruikt om een project tot stand te brengen.
 
@@ -669,7 +669,7 @@ For instructions on editing Linked folders, see [Edit workflow values in a proje
 1. Je template bewerken zoals hierboven beschreven.
 1. In **geef Malplaatje** doos uit, klik **Commentaar**.
 
-   ![&#x200B; geef de sectie van de Commentaar van het malplaatjevakje uit &#x200B;](assets/edit-template-box-comment-section.png)
+   ![ geef de sectie van de Commentaar van het malplaatjevakje uit ](assets/edit-template-box-comment-section.png)
 1. Voeg een commentaar over de update toe u maakt, extra gebruikers etiketteert, of selecteert **Privé aan mijn bedrijf** doos om de update privé aan gebruikers in uw bedrijf te houden, dan klik **sparen**.
 
    >[!TIP]
@@ -690,15 +690,15 @@ Editing templates in bulk differs depending on which environment you are using.
 {{step1-to-templates}}
 
 1. Selecteer verschillende sjablonen in de lijst.
-1. Klik **uitgeven** pictogram ![&#x200B; uitgeven pictogram &#x200B;](assets/edit-icon.png).
+1. Klik **uitgeven** pictogram ![ uitgeven pictogram ](assets/edit-icon.png).
 
    Het **geeft de dialoogvakje van Malplaatjes** uit opent.
 
-   ![&#x200B; geeft malplaatjes uit &#x200B;](assets/bulk-edit-templates-0925.png)
+   ![ geeft malplaatjes uit ](assets/bulk-edit-templates-0925.png)
 
 1. Klik op de secties aan de linkerkant om alle geselecteerde sjablonen te bewerken.
 
-   Voor meer informatie over het uitgeven van informatie over malplaatjes, zie [&#x200B; een malplaatje &#x200B;](#edit-a-template) sectie in dit artikel uitgeven.
+   Voor meer informatie over het uitgeven van informatie over malplaatjes, zie [ een malplaatje ](#edit-a-template) sectie in dit artikel uitgeven.
 
 1. Werk de volgende secties van de geselecteerde sjablonen bij:
 
@@ -762,9 +762,9 @@ Nadat u de sjabloon hebt gemaakt en de sjabloongegevens hebt bewerkt, kunt u er 
 
 Het toevoegen van taken aan een malplaatje is gelijkaardig aan het toevoegen van taken aan een project.
 
-Voor meer informatie over het toevoegen van taken aan een project, zie [&#x200B; tot taken in een project &#x200B;](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md) leiden.
+Voor meer informatie over het toevoegen van taken aan een project, zie [ tot taken in een project ](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md) leiden.
 
-Wanneer u taken aan een sjabloon toevoegt, veranderen de Duur van de sjabloon en de Dagen van begin en voltooiing van de sjabloon dienovereenkomstig. Voor informatie over de Dagen van het Begin en van de Voltooiing van het malplaatje en van de malplaatjetaken, zie [&#x200B; Overzicht van Begin en de Dagen van de Voltooiing in een malplaatje &#x200B;](../../../manage-work/projects/create-and-manage-templates/overview-of-start-completion-day-on-template.md).
+Wanneer u taken aan een sjabloon toevoegt, veranderen de Duur van de sjabloon en de Dagen van begin en voltooiing van de sjabloon dienovereenkomstig. Voor informatie over de Dagen van het Begin en van de Voltooiing van het malplaatje en van de malplaatjetaken, zie [ Overzicht van Begin en de Dagen van de Voltooiing in een malplaatje ](../../../manage-work/projects/create-and-manage-templates/overview-of-start-completion-day-on-template.md).
 
 ## Meer items aan een sjabloon toevoegen
 
@@ -775,23 +775,23 @@ Het toevoegen van de volgende punten aan een malplaatje is identiek aan het toev
 * Documenten
 * Risico&#39;s
 
-  Voor meer informatie over het creëren van risico&#39;s, zie [&#x200B; risico&#39;s op projecten &#x200B;](/help/quicksilver/manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md) creëren en uitgeven.
+  Voor meer informatie over het creëren van risico&#39;s, zie [ risico&#39;s op projecten ](/help/quicksilver/manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md) creëren en uitgeven.
 
 * Goedkeuringsprocessen
 
-  Voor informatie over het associëren van goedkeuringsprocessen met het werk, zie [&#x200B; een nieuw of bestaand goedkeuringsproces met het werk &#x200B;](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md) associëren.
+  Voor informatie over het associëren van goedkeuringsprocessen met het werk, zie [ een nieuw of bestaand goedkeuringsproces met het werk ](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md) associëren.
 
 * Factureringstarieven
 
-  Het toevoegen van factureringstarieven voor een malplaatje is gelijkaardig aan het toevoegen van factureringstarieven aan een project. Voor meer informatie, zie [&#x200B; het Facturerings van de Rol van de Opheffing van de Baan op het projectniveau &#x200B;](/help/quicksilver/manage-work/projects/project-finances/override-job-role-billing-rates-at-the-project-level.md).
+  Het toevoegen van factureringstarieven voor een malplaatje is gelijkaardig aan het toevoegen van factureringstarieven aan een project. Voor meer informatie, zie [ het Facturerings van de Rol van de Opheffing van de Baan op het projectniveau ](/help/quicksilver/manage-work/projects/project-finances/override-job-role-billing-rates-at-the-project-level.md).
 
 * Uitgaven
 
-  Voor meer informatie over het toevoegen van uitgaven, zie [&#x200B; projectuitgaven beheren &#x200B;](../../../manage-work/projects/project-finances/manage-project-expenses.md).
+  Voor meer informatie over het toevoegen van uitgaven, zie [ projectuitgaven beheren ](../../../manage-work/projects/project-finances/manage-project-expenses.md).
 
 * Wachtrij
 
-  Voor informatie over het toevoegen van de Details van de Rij aan een project of een malplaatje, zie [&#x200B; een Rij van het Verzoek &#x200B;](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-request-queue.md) creëren.
+  Voor informatie over het toevoegen van de Details van de Rij aan een project of een malplaatje, zie [ een Rij van het Verzoek ](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-request-queue.md) creëren.
 
 * Onderwerpgroepen en onderwerpen in de wachtrij
 
@@ -805,11 +805,11 @@ U kunt de volgende punten aan de taken in het malplaatje toevoegen:
 * Documenten
 * Uitgaven
 
-  Voor meer informatie over het toevoegen van uitgaven, zie [&#x200B; projectuitgaven beheren &#x200B;](../../../manage-work/projects/project-finances/manage-project-expenses.md).
+  Voor meer informatie over het toevoegen van uitgaven, zie [ projectuitgaven beheren ](../../../manage-work/projects/project-finances/manage-project-expenses.md).
 
 * Goedkeuringen
 
-  Voor meer informatie over het associëren van goedkeuringen met het werk, zie [&#x200B; een nieuw of bestaand goedkeuringsproces met het werk &#x200B;](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md) associëren.
+  Voor meer informatie over het associëren van goedkeuringen met het werk, zie [ een nieuw of bestaand goedkeuringsproces met het werk ](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md) associëren.
 
 
 ## Een sjabloon activeren of deactiveren
@@ -820,12 +820,12 @@ De gedeactiveerde malplaatjes beïnvloeden geen bestaande projecten die gebruike
 
 Een sjabloon deactiveren:
 
-1. Ga naar een actief malplaatje, dan klik **Meer** ![&#x200B; meer pictogram &#x200B;](assets/more-icon.png) menu naast de malplaatjenaam, dan klik **Deactivate**.
+1. Ga naar een actief malplaatje, dan klik **Meer** ![ meer pictogram ](assets/more-icon.png) menu naast de malplaatjenaam, dan klik **Deactivate**.
 
-   ![&#x200B; Deactivate malplaatje &#x200B;](assets/deactivate-template-link-in-more-menu.png)
+   ![ Deactivate malplaatje ](assets/deactivate-template-link-in-more-menu.png)
 
    De sjabloon is niet meer actief en gebruikers kunnen het niet meer vinden om er projecten van te maken.
-1. (Facultatief) om het malplaatje te activeren, klik **Meer** ![&#x200B; &#x200B;](assets/more-icon.png) menu naast de malplaatjenaam, dan klik **activeert**.
+1. (Facultatief) om het malplaatje te activeren, klik **Meer** ![ ](assets/more-icon.png) menu naast de malplaatjenaam, dan klik **activeert**.
 
    Het malplaatje is nu actief en kan aan projecten worden vastgemaakt of worden gebruikt om projecten tot stand te brengen.
 
@@ -1258,7 +1258,7 @@ For information about how these settings affect creating new tasks, see [Create 
 
 1. In the **Task Default Approval Process** box, select the Approval Process you want to associate with all new tasks when you add them to a project created from this template. You must create an Approval Process for tasks before you can associate it with tasks. Only active approval processes display in the list. For more information about creating Approval Processes, see [Creating Approval Processes](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
 1. In the **Task Default Custom Forms** box, select the custom form or forms that you want to associate with all new tasks when you add them to a project created from this template. You must build the custom forms before they are available to select in this field. Only active custom forms display in the list. You can associate up to ten custom forms with a task.
-1. (Optional) **Select Use Work Effort to automatically calculate task Planned Hours** if you want to enable managing task effort by using&nbsp;Work Effort instead of Planned Hours in the project created from the template.
+1. (Optional) **Select Use Work Effort to automatically calculate task Planned Hours** if you want to enable managing task effort by using Work Effort instead of Planned Hours in the project created from the template.
 1. (Conditional and optional) If you selected Use Work Effort to automatically calculate task Planned Hours, click the drop-down menu to update the percentage for each level of Work Effort. The following percentage values are the defaults:
  
    | Work Effort level |Percentage value|

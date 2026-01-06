@@ -7,7 +7,7 @@ description: Om het datumformaat voor de data in  [!DNL Adobe Workfront]  te ver
 feature: Get Started with Workfront
 author: Becky
 exl-id: 9fac92fb-e3d1-4537-b324-4b35447cef28
-source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '392'
 ht-degree: 0%
@@ -44,19 +44,19 @@ U kunt datumnotaties op de volgende manieren wijzigen in Workfront, afhankelijk 
 
   ![](assets/field-format-in-advanced-options-of-a-view-highlighted.png)
 
-  Voor meer informatie, zie [&#x200B; een douanerapport &#x200B;](../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) creëren.
+  Voor meer informatie, zie [ een douanerapport ](../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) creëren.
 
 * Als u de datumnotatie wilt wijzigen in alle uitgaande e-mailmeldingen voor uw hele organisatie, moet u de instelling [!UICONTROL Default Email Locale] bijwerken in het [!UICONTROL Customer Info] -gebied in [!UICONTROL Setup] .
 
   ![](assets/default-email-locale-field.png)
 
-  Voor meer informatie, zie [&#x200B; basisinformatie voor uw systeem &#x200B;](../../administration-and-setup/get-started-wf-administration/configure-basic-info.md) vormen.
+  Voor meer informatie, zie [ basisinformatie voor uw systeem ](../../administration-and-setup/get-started-wf-administration/configure-basic-info.md) vormen.
 
 * Als u de indeling van alle datums in alle uitgaande e-mailberichten voor één gebruiker wilt wijzigen, moet u de instelling [!UICONTROL Email Locale] in het vak [!UICONTROL Edit Person] bijwerken wanneer u het profiel van een gebruiker bewerkt.
 
   ![](assets/email-locale-for-user-profile-highlighted.png)
 
-  Voor meer informatie, zie [&#x200B; het profiel van een gebruiker &#x200B;](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) uitgeven.
+  Voor meer informatie, zie [ het profiel van een gebruiker ](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) uitgeven.
 
 <!--drafted because we should not document steps for a third-party application
 
@@ -65,7 +65,7 @@ To change your language settings in Chrome:
 1. Click the 3-dots in the top right corner of your Chrome interface, then click **Settings**.
 1. On the left area of the Settings page, expand **Advanced**, then click **Languages**.  
    Or  
-   Search for *language*&nbsp;at the top of the Settings page, then click **Languages**.
+   Search for *language*  at the top of the Settings page, then click **Languages**.
 
 1. In the **Language** list, locate the language and region that use your preferred date format.
 

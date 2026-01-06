@@ -7,7 +7,7 @@ description: De uren die u in Adobe Workfront inlogt op uw werkitems worden besc
 author: Alina
 feature: Work Management
 exl-id: c4b0e431-1765-416d-89f5-6ac663ac1d4f
-source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '1276'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Werkelijke uren geven de werkelijke tijd aan waarin u een taak, uitgave of proje
 
 Wij adviseren dat de uren op het werkpunten zouden moeten worden geregistreerd, die taken en kwesties zijn. Als Workfront-beheerder kunt u gebruikers echter toestaan zich ook aan te melden bij projecten, afhankelijk van de workflows van uw organisatie.
 
-Voor meer informatie over hoe te opstelling uw systeem om gebruikers toe te staan om tijd op projecten te registreren, zie [&#x200B; timesheet en uurvoorkeur &#x200B;](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md) vormen.
+Voor meer informatie over hoe te opstelling uw systeem om gebruikers toe te staan om tijd op projecten te registreren, zie [ timesheet en uurvoorkeur ](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md) vormen.
 
 ## Toegangsvereisten
 
@@ -55,7 +55,7 @@ Voor meer informatie over hoe te opstelling uw systeem om gebruikers toe te staa
  </tbody> 
 </table>
 
-Voor meer informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -78,7 +78,7 @@ Voor meer informatie, zie [&#x200B; vereisten van de Toegang in de documentatie 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
-   <td> <p>View or higher access to Tasks,&nbsp;Projects, or Issues</p> </td> 
+   <td> <p>View or higher access to Tasks, Projects, or Issues</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -142,8 +142,8 @@ Werkelijke uren zoeken in de sectie Details is identiek voor projecten, taken en
 Werkelijke uren zoeken in taakdetails:
 
 1. Ga naar een taak u de Ware Uren voor wilt herzien.
-1. In het linkerpaneel, klik **Details van de Taak**. De **vertoningen van de 1&rbrace; sectie van het Overzicht &lbrace;.**
-1. Bepaal de plaats van de **Ware 1&rbrace; waarde van Uren {in de** 3} sectie van de Werktijd. **&#x200B;**&#x200B;Dit is het totaal aantal uren dat op deze taak is aangemeld.
+1. In het linkerpaneel, klik **Details van de Taak**. De **vertoningen van de 1} sectie van het Overzicht {.**
+1. Bepaal de plaats van de **Ware 1} waarde van Uren {in de** 3} sectie van de Werktijd. **** Dit is het totaal aantal uren dat op deze taak is aangemeld.
 1. (Optioneel en voorwaardelijk) Als de eigenlijke werkuren-veldverwijzing is toegevoegd aan een project, taak of aangepast formulier, gaat u naar het aangepaste formulier en zoekt u de werkuren in het aangepaste veld. Dit is het totaal aantal uren dat voor het object is geregistreerd.
 
 ### Werkelijke uren in de sectie Uren {#actual-hours-in-the-hours-section}
@@ -154,7 +154,7 @@ Werkelijke uren zoeken in de sectie Uren van een taak:
 
 1. Ga naar een taak u de Ware Uren voor wilt herzien.
 
-1. In het linkerpaneel, klik **Uren**. Een lijst van uuringangen die op de taakvertoningen worden geregistreerd, met de **1&rbrace; kolom die van Uren &lbrace;het totale aantal Werkelijke Uren voor de taak tonen.**
+1. In het linkerpaneel, klik **Uren**. Een lijst van uuringangen die op de taakvertoningen worden geregistreerd, met de **1} kolom die van Uren {het totale aantal Werkelijke Uren voor de taak tonen.**
 
 1. Zorg ervoor dat de **Standaard** mening en de **groepering van het Project** op deze lijst worden toegepast.
 1. De Ware Uren voor de taakvertoningen in de groeperingslijn voor de **Ware kolom van Uren**.
@@ -163,7 +163,7 @@ Werkelijke uren zoeken in de sectie Uren van een taak:
 
 Wanneer het bouwen van taken, kwesties, of projectrapporten, kunt u de Werkelijke Uren en de Echte Echte waarden van de Uur van de Oudheid voor elke taak, kwestie, of project in het rapport tonen.
 
-Voor informatie over het verschil tussen Ware Uren en Verouderde Werkelijke Uren zie de sectie [&#x200B; Werkelijke Uren vs Verouderde Werkelijke Uren &#x200B;](#actual-hours-vs-legacy-actual-hours) in dit artikel.
+Voor informatie over het verschil tussen Ware Uren en Verouderde Werkelijke Uren zie de sectie [ Werkelijke Uren vs Verouderde Werkelijke Uren ](#actual-hours-vs-legacy-actual-hours) in dit artikel.
 
 Werkelijke uren en Werkelijke uren verouderd weergeven in een taakrapport:
 
@@ -172,11 +172,11 @@ Werkelijke uren en Werkelijke uren verouderd weergeven in een taakrapport:
 1. Op de **pagina van Rapporten**, klik **Nieuw Rapport**, dan kies **Taak** als uw voorwerp.
 1. In de bodem-juiste hoek van de pagina, klik **voegt Kolom** toe.
 1. In **toon in deze kolom** drop-down gebied, begin **Werkelijke Uren** te typen, dan het gebied te selecteren wanneer het in de lijst verschijnt.
-1. Herhaal de stap hierboven om het **Oude Echte Echte 1&rbrace; gebied van Uren &lbrace;aan het rapport toe te voegen.**
+1. Herhaal de stap hierboven om het **Oude Echte Echte 1} gebied van Uren {aan het rapport toe te voegen.**
 
 1. In de bodem-linkerhoek van de pagina, klik **sparen + Sluiten** om het rapport te bewaren.
 
-1. In de **Naam dit Rapport om het** dialoogvakje te bewaren, ga een nieuwe rapportnaam in, dan klik **&#x200B;**&#x200B;van toepassing zijn.
+1. In de **Naam dit Rapport om het** dialoogvakje te bewaren, ga een nieuwe rapportnaam in, dan klik **** van toepassing zijn.
 1. Herhaal dezelfde stappen voor een project- of probleemrapport.
 
 ### Werkelijke uren aan hulpmiddelen voor bronnenbeheer {#actual-hours-in-resource-management-tools}
@@ -184,11 +184,11 @@ Werkelijke uren en Werkelijke uren verouderd weergeven in een taakrapport:
 Als u de vooruitgang wilt zien van het werk uw gebruikers aan hun toegewezen taken en kwesties doen, kunt u hen in de volgende hulpmiddelen van het Beheer van het Middel bekijken:
 
 * Het gebruiksrapport.\
-  Voor informatie, zie [&#x200B; Overzicht van het rapport van het Gebruik van het Middel &#x200B;](../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
+  Voor informatie, zie [ Overzicht van het rapport van het Gebruik van het Middel ](../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
 
 * De bronnenplanner.
 
-  Voor informatie, zie [&#x200B; Beschikbare Mening, Geplant, en Ware Uren of VTE in de Planner van het Middel wanneer het gebruiken van de mening van de Gebruiker &#x200B;](../../../resource-mgmt/resource-planning/view-hours-fte-user-view-resource-planner.md).
+  Voor informatie, zie [ Beschikbare Mening, Geplant, en Ware Uren of VTE in de Planner van het Middel wanneer het gebruiken van de mening van de Gebruiker ](../../../resource-mgmt/resource-planning/view-hours-fte-user-view-resource-planner.md).
 
 
 ### Werkelijke uren in de Workfront API
@@ -206,16 +206,16 @@ Met de volgende versie van de Workfront API die later in 2025 wordt uitgebracht,
 * **Ware Uren**: Uren die voor project, taken, of kwesties na Mei 2021 worden geregistreerd. Ze worden in uren opgeslagen in de Workfront-database en hun waardeveld is `actualWorkRequiredDouble` .
 * **Verouderde Werkelijke Uren**: Uren die voor projecten, taken, of kwesties worden geregistreerd om het even welke tijd, met inbegrip van vóór Mei 2021. Ze worden in de Workfront-database opgeslagen als minuten en hun waardeveld is `actualWorkRequired` .
 
-Voor informatie over API versies, zie [&#x200B; API versioning en steunprogramma &#x200B;](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
+Voor informatie over API versies, zie [ API versioning en steunprogramma ](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
 
 >[!IMPORTANT]
 >
 >De werkelijke kosten van het project berekenen de oude werkelijke uren.
 
-Voor informatie over het gebruiken van Werkelijke Uren in berekende kolommen of gebieden, zie [&#x200B; FAQs van het Rapport &#x200B;](/help/quicksilver/reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md).
+Voor informatie over het gebruiken van Werkelijke Uren in berekende kolommen of gebieden, zie [ FAQs van het Rapport ](/help/quicksilver/reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md).
 
 ## Logtijd
 
 U kunt tijd op taken, kwesties, en projecten op veelvoudige manieren registreren.
 
-Voor meer informatie, zie [&#x200B; tijd van het Logboek &#x200B;](../../../timesheets/create-and-manage-timesheets/log-time.md).
+Voor meer informatie, zie [ tijd van het Logboek ](../../../timesheets/create-and-manage-timesheets/log-time.md).

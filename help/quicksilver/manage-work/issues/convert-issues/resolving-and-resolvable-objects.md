@@ -7,7 +7,7 @@ description: Een oplosbaar object is een probleem waarvan de resolutie is gekopp
 author: Alina
 feature: Work Management
 exl-id: 2ff034ec-6116-42af-a55f-1fb24fc12b2f
-source-git-commit: 0542587bb3254dec5664de493c1c321528cf7f3e
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '1760'
 ht-degree: 0%
@@ -22,7 +22,7 @@ Een oplosbaar object is een probleem waarvan de resolutie is gekoppeld aan een o
 
 Wanneer u een kwestie in een taak of een project omzet, wordt de kwestie het Oplosbare Voorwerp van de taak of het project.
 
-U kunt een kwestie aan een het oplossen Voorwerp manueel ook verbinden, dat een taak, een project, of een kwestie kan zijn. Voor informatie, zie [&#x200B; manueel de resolutie van een kwestie aan andere kwesties, taken, of projecten &#x200B;](../../../manage-work/issues/convert-issues/manually-tie-resolution-of-issue-to-ptis.md) binden.
+U kunt een kwestie aan een het oplossen Voorwerp manueel ook verbinden, dat een taak, een project, of een kwestie kan zijn. Voor informatie, zie [ manueel de resolutie van een kwestie aan andere kwesties, taken, of projecten ](../../../manage-work/issues/convert-issues/manually-tie-resolution-of-issue-to-ptis.md) binden.
 
 In dit scenario, wordt de originele kwestie het Resolvable Voorwerp van de taak, het project, of de kwestie.
 
@@ -36,11 +36,11 @@ U kunt selecteren om het Resolvable Voorwerp te houden aangezien u het in een ta
 >
 >Oplosbare objecten zijn altijd problemen waarvan de resolutie en status afhankelijk kunnen zijn van de resolutie en status van het object dat ze hebben opgelost. Het oplossen van Voorwerpen kan kwesties, taken, of projecten zijn.
 
-Voor informatie over vestiging voorkeur voor de behandeling van Oplosbare Voorwerpen, zie [&#x200B; de taak van het hele systeem vormen en voorkeur uitgeven &#x200B;](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+Voor informatie over vestiging voorkeur voor de behandeling van Oplosbare Voorwerpen, zie [ de taak van het hele systeem vormen en voorkeur uitgeven ](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
 <!--WRITER
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(Note: drafted and just pointed the user to the article linked above)&nbsp;</p>
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(Note: drafted and just pointed the user to the article linked above) </p>
 <p>To establish the system default for what happens to the issue as it is being converted to a task or a project:</p>
 <ol>
 <li value="1">Log in to Workfront as a Workfront administrator <span>or group administrator.</span></li>
@@ -81,12 +81,12 @@ Afhankelijk van de manier de Workfront of de groepsbeheerder de systeem- of groe
 De volgende scenario&#39;s bestaan:
 
 * Als de Workfront of de groepsbeheerder de optie De oorspronkelijke uitgave behouden heeft en zijn resolutie aan de taak en de optie De oorspronkelijke uitgave behouden heeft en zijn resolutie aan het geselecteerde project bindt en Toestaan dat deze instellingen tijdens de conversie worden gewijzigd niet selecteert, kunt u deze instellingen niet wijzigen wanneer u uitgaven converteert naar taken of projecten.\
-  ![&#x200B; gebied van de voorkeurenkwesties van het Project &#x200B;](assets/qs-setup-project-preferences-issues-area-some-boxes-unselected-350x217.png)
+  ![ gebied van de voorkeurenkwesties van het Project ](assets/qs-setup-project-preferences-issues-area-some-boxes-unselected-350x217.png)
 
 * Als de Workfront of de groepsbeheerder de optie De oorspronkelijke uitgave behouden heeft en zijn resolutie aan de taak en de optie De oorspronkelijke uitgave behouden heeft en de resolutie aan het geselecteerde of niet-geselecteerde project vastlegt en de optie Deze instellingen tijdens de conversie wijzigen toestaan is geselecteerd, kunt u deze instellingen wijzigen terwijl u uitgaven omzet in taken of projecten.\
-  ![&#x200B; Optie om kwestie &#x200B;](assets/qs-options-to-keep-issue-when-coverting-it-inside-the-issue-350x113.png) te houden
+  ![ Optie om kwestie ](assets/qs-options-to-keep-issue-when-coverting-it-inside-the-issue-350x113.png) te houden
 
-Voor meer informatie over het omzetten van kwesties in taken en projecten, zie [&#x200B; Overzicht van het omzetten van kwesties in Adobe Workfront &#x200B;](../../../manage-work/issues/convert-issues/convert-issues.md).
+Voor meer informatie over het omzetten van kwesties in taken en projecten, zie [ Overzicht van het omzetten van kwesties in Adobe Workfront ](../../../manage-work/issues/convert-issues/convert-issues.md).
 
 <!--WRITER
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -107,7 +107,7 @@ Voor meer informatie over het omzetten van kwesties in taken en projecten, zie [
 <li><p><strong>Issue</strong></p></li>
 </ul><p>The field for the resolving object displays. </p></li>
 <li value="5">After selecting the object, start typing the name of a specific project, task, or issue in the available field and select it when it appears in the drop-down list. </li>
-<li value="6">Click <strong>Save</strong>&nbsp;<strong>Changes</strong>.<br>The original issue becomes the Resolvable Object for the project, task, or issue you selected in step 4 and 5.<br><note type="note">
+<li value="6">Click <strong>Save</strong> <strong>Changes</strong>.<br>The original issue becomes the Resolvable Object for the project, task, or issue you selected in step 4 and 5.<br><note type="note">
 One project, task, or issue may have multiple issues as Resolvable Objects.
 </note></li>
 </ol>
@@ -117,7 +117,7 @@ One project, task, or issue may have multiple issues as Resolvable Objects.
 
 ## De status van het verwijderbare object synchroniseren met die van het oplosbare object {#synchronize-the-status-of-the-resolvable-object-with-that-of-the-resolving-object}
 
-* [&#x200B; synchroniseer statussen wanneer het Resolving Voorwerp een kwestie &#x200B;](#synchronize-statuses-when-the-resolving-object-is-an-issue) is
+* [ synchroniseer statussen wanneer het Resolving Voorwerp een kwestie ](#synchronize-statuses-when-the-resolving-object-is-an-issue) is
 * [Synchroniseer statussen wanneer het Oplossende Voorwerp een taak of een project is](#synchronize-statuses-when-the-resolving-object-is-a-task-or-a-project)
 
 ### Statussen synchroniseren wanneer het oplossen van object een probleem is {#synchronize-statuses-when-the-resolving-object-is-an-issue}
@@ -130,7 +130,7 @@ Wanneer een kwestie het Oplosbare Voorwerp van een taak of een project is, breng
 
 Wanneer de douanestatus van een project aan een standaardstatus evenaart die geen verandering in de uitgiftestatus teweegbrengt, brengt de verandering in de projectstatus geen verandering in status voor de kwestie teweeg.
 
-* [&#x200B; synchroniseer de Standaardstatus van het Resolving Voorwerp met de StandaardStatus van het Resolvable Voorwerp &#x200B;](#synchronize-the-default-status-of-the-resolving-object-with-the-default-status-of-the-resolvable-object)
+* [ synchroniseer de Standaardstatus van het Resolving Voorwerp met de StandaardStatus van het Resolvable Voorwerp ](#synchronize-the-default-status-of-the-resolving-object-with-the-default-status-of-the-resolvable-object)
 * [Synchroniseer de Status van de Douane van het Resolving Voorwerp met de Status van de Douane van het Oplosbare Voorwerp](#synchronize-the-custom-status-of-the-resolving-object-with-the-custom-status-of-the-resolvable-object)
 
 #### Synchroniseer de Standaardstatus van het Oplossende Voorwerp met de Standaardstatus van het Oplosbare Voorwerp {#synchronize-the-default-status-of-the-resolving-object-with-the-default-status-of-the-resolvable-object}
@@ -167,7 +167,7 @@ De volgende standaardprojectstatussen brengen de volgende veranderingen in de st
 
 Wanneer u de status van de taak of het project wijzigt in een aangepaste status, verandert de status van de uitgave alleen in de status van een aangepaste uitgave als aan de volgende twee voorwaarden is voldaan:
 
-* De status Oplosbaar probleem automatisch bijwerken wanneer de status van de optie Oplossend object wijzigt is geselecteerd. Voor meer informatie, zie [&#x200B; Opstelling Adobe Workfront om Oplosbare Voorwerpen &#x200B;](#set-up-adobe-workfront-to-handle-resolvable-objects) te behandelen.
+* De status Oplosbaar probleem automatisch bijwerken wanneer de status van de optie Oplossend object wijzigt is geselecteerd. Voor meer informatie, zie [ Opstelling Adobe Workfront om Oplosbare Voorwerpen ](#set-up-adobe-workfront-to-handle-resolvable-objects) te behandelen.
 
 * De douanestatus van het project of de taak heeft de zelfde drie-lettercode zoals de status van de uitgiftedouane.
 
@@ -175,7 +175,7 @@ U kunt aangepaste statussen maken met dezelfde sleutel voor zowel uitgaven als p
 
 Stel dat u een aangepaste status voor een project maakt met de naam Launched met de drieletterige code-LCD, die gelijk is aan Current. Vervolgens maakt u een aangepaste status voor uitgave met de naam Project Launched, ook met de lettercode LCD, die overeenkomt met In uitvoering. Wanneer u het project als Gelanceerd merkt, zal de kwestie automatisch de status in Ganceerd Project veranderen. Als de status van het probleem Oplosbaar probleem automatisch bijwerken wanneer de status van de instelling voor het wijzigen van objecten wordt uitgeschakeld, verandert de status van het probleem in Bezig.
 
-Voor meer informatie over het creëren van een douanestatus, zie [&#x200B; een status &#x200B;](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md) creëren of uitgeven.
+Voor meer informatie over het creëren van een douanestatus, zie [ een status ](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md) creëren of uitgeven.
 
 ## Synchroniseer het percentage voltooide van een Oplossend Voorwerp met dat van het Oplosbare Voorwerp
 
@@ -198,7 +198,7 @@ Het vinden van het het oplossen van voorwerp is identiek voor taken en projecten
 1. Op de linkerkant van de pagina, selecteer de **Details van de Taak** of **Details van het Project** tabel.
 1. Bij de bodem van de **sectie van het Overzicht**, bepaal de plaats van **Dit lost** gebied op waar het Resolvable Voorwerp van de taak of het project wordt getoond.
 
-   ![&#x200B; dit lost gebied &#x200B;](assets/this-resolves-field.png) op
+   ![ dit lost gebied ](assets/this-resolves-field.png) op
 
    >[!NOTE]
    >
@@ -208,7 +208,7 @@ Het vinden van het het oplossen van voorwerp is identiek voor taken en projecten
 
 In een lijst van kwesties, kunt u kwesties identificeren die als het oplossen van voorwerpen via statuspictogrammen door dit pictogram in de **pictogrammen van de Status** of **kolommen van Vlaggen** worden geëtiketteerd:
 
-![&#x200B; Resolving voorwerp &#x200B;](assets/resolving-icon.png)
+![ Resolving voorwerp ](assets/resolving-icon.png)
 
 ## De informatie van Objecten van de mening Oplosbaar en van het Oplossen in een rapport
 

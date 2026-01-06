@@ -6,7 +6,7 @@ description: Uw Adobe Workfront-beheerder kan u toegang verlenen tot financiële
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 0d0e13d9-b234-48d3-a818-5b6fb36a4688
-source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '504'
 ht-degree: 0%
@@ -15,11 +15,11 @@ ht-degree: 0%
 
 # Financiële machtigingen delen op een object
 
-Uw Adobe Workfront-beheerder kan u toegang verlenen tot financiële gegevens wanneer u uw toegangsniveau toewijst. Voor meer informatie, zie [&#x200B; toegang van de Verlening tot financiële gegevens &#x200B;](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
+Uw Adobe Workfront-beheerder kan u toegang verlenen tot financiële gegevens wanneer u uw toegangsniveau toewijst. Voor meer informatie, zie [ toegang van de Verlening tot financiële gegevens ](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
 
 Samen met het toegangsniveau dat de gebruikers worden verleend, kunt u hen toestemmingen aan Mening verlenen of financiën voor specifieke projecten, taken, of kwesties beheren die u toegang hebt om te delen.
 
-Voor informatie over welke gebruikers in elk toegangsniveau met financiële gegevens kunnen doen, zie de sectie [&#x200B; Financiële gegevens &#x200B;](../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md#financia) in de artikel [&#x200B; Functionaliteit beschikbaar voor elk objecten type &#x200B;](../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md).
+Voor informatie over welke gebruikers in elk toegangsniveau met financiële gegevens kunnen doen, zie de sectie [ Financiële gegevens ](../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md#financia) in de artikel [ Functionaliteit beschikbaar voor elk objecten type ](../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md).
 
 ## Toegangsvereisten
 
@@ -41,7 +41,7 @@ Voor informatie over welke gebruikers in elk toegangsniveau met financiële gege
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>View or higher access to Projects, Tasks, Issues, and Financial&nbsp;Data</p> <p><b>NOTE</b>
+   <td> <p>View or higher access to Projects, Tasks, Issues, and Financial  Data</p> <p><b>NOTE</b>
    
    If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
@@ -80,7 +80,7 @@ Voor informatie over welke gebruikers in elk toegangsniveau met financiële gege
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -117,7 +117,7 @@ Financiële machtigingen verlenen aan een object:
 
 ## Financiële toestemming voor alle niveaus voor delen
 
-In de volgende tabel wordt weergegeven welke financiële machtigingen gebruikers krijgen wanneer u hun weergavemachtigingen, Contribute- of beheermachtigingen voor objecten toekent: 
+In de volgende tabel wordt weergegeven welke financiële machtigingen gebruikers krijgen wanneer u hun weergavemachtigingen, Contribute- of beheermachtigingen voor objecten toekent:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -136,26 +136,26 @@ In de volgende tabel wordt weergegeven welke financiële machtigingen gebruikers
   <tr> 
    <td>Factureringsrecords beheren</td> 
    <td>✓</td> 
-   <td> <p> </p> </td> 
-   <td> </td> 
+   <td> <p>  </p> </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td>Rollenfacturering en -kosten beheren/weergeven</td> 
    <td>✓</td> 
-   <td> </td> 
-   <td> </td> 
+   <td>  </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td>Gebruikersfacturering en kostentarieven beheren/bekijken</td> 
    <td>✓</td> 
-   <td> </td> 
-   <td> </td> 
+   <td>  </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td>Financiën weergeven</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <td> ✓</td> 
+   <td>  ✓</td> 
   </tr> 
   <tr> 
    <td>De informatie van de mening door Kosten in de hulpmiddelen van de Planning van het Middel</td> 
@@ -166,8 +166,8 @@ In de volgende tabel wordt weergegeven welke financiële machtigingen gebruikers
   <tr> 
    <td>De middelen van de begroting in de hulpmiddelen van de Planning van Middelen*</td> 
    <td>✓</td> 
-   <td> </td> 
-   <td> </td> 
+   <td>  </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td>De middelen van de mening in de hulpmiddelen van de Planning van het Middel*</td> 
@@ -180,4 +180,4 @@ In de volgende tabel wordt weergegeven welke financiële machtigingen gebruikers
 
 &#42; vereist de extra toegang van het Beheer van het Middel.
 
-Voor informatie over de toegang van het Beheer van het Middel, zie [&#x200B; Toegang van de Verlening tot het Beheer van het Middel &#x200B;](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md).
+Voor informatie over de toegang van het Beheer van het Middel, zie [ Toegang van de Verlening tot het Beheer van het Middel ](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md).

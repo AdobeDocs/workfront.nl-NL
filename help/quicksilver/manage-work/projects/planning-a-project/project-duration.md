@@ -7,7 +7,7 @@ description: Adobe Workfront berekent de duur van een project door rekening te h
 author: Alina
 feature: Work Management
 exl-id: b558eaad-669b-4079-b61a-07df227edfa2
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '253'
 ht-degree: 0%
@@ -30,7 +30,7 @@ Project Duration = Completion Date of the latest task - Start Date of the earlie
 >
 >De duur van kwesties op het project beïnvloedt niet de Duur van het Project.
 
-De duur van het project telt het aantal dagen tussen de twee taakdata die op Programma verbonden aan het project of de gebruikers worden gebaseerd die aan de taken worden toegewezen. Voor informatie over welk programma Workfront gebruikt om duur te berekenen, zie [&#x200B; Overzicht van Programma&#39;s &#x200B;](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/schedules-overview.md).
+De duur van het project telt het aantal dagen tussen de twee taakdata die op Programma verbonden aan het project of de gebruikers worden gebaseerd die aan de taken worden toegewezen. Voor informatie over welk programma Workfront gebruikt om duur te berekenen, zie [ Overzicht van Programma&#39;s ](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/schedules-overview.md).
 
 ## Soorten projectduur
 
@@ -40,13 +40,13 @@ Er zijn twee soorten de Duur van het Project en de formules waardoor Workfront h
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Check these formulas? Should they be divided by the hours per day?!) </p>
 -->
 
-* **Geplande Duur**: 
+* **Geplande Duur**:
 
   ```
   Project Planned Duration = Planned Completion Date of the latest task - Planned Start Date of the earliest task / Typical hour per day
   ```
 
-* **Ware Duur**: 
+* **Ware Duur**:
 
   ```
   Project Actual Duration = Actual Completion Date of the latest task - Actual Start Date of the earliest task / Typical hour per day
@@ -58,8 +58,8 @@ U kunt het geplande project en de werkelijke duur vinden in de volgende gebieden
 
 * . In het gebied van de Details van het Project, in de sectie van het Overzicht.
 
-  Voor meer informatie over het Overzicht sub-lusje van een project, zie het artikel [&#x200B; informatie in het gebied van het projectoverzicht &#x200B;](../../../manage-work/projects/manage-projects/understand-project-overview-area.md) leiden.
+  Voor meer informatie over het Overzicht sub-lusje van een project, zie het artikel [ informatie in het gebied van het projectoverzicht ](../../../manage-work/projects/manage-projects/understand-project-overview-area.md) leiden.
 
 * In een rapport van het Project, door de Duur of de Ware gebieden van de Duur in het rapport op te nemen.
 
-  Voor meer informatie over het creëren van rapporten, zie het artikel [&#x200B; een douanerapport &#x200B;](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) creëren.
+  Voor meer informatie over het creëren van rapporten, zie het artikel [ een douanerapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) creëren.

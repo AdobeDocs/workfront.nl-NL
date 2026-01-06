@@ -6,9 +6,9 @@ description: U kunt roltoewijzing voor alle baanrollen bekijken die aan het werk
 author: Alina, Lisa
 feature: Work Management
 exl-id: 76f70cb6-f707-4a73-bc81-e755e2d0a33d
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '476'
+source-wordcount: '458'
 ht-degree: 0%
 
 ---
@@ -21,10 +21,10 @@ U kunt roltoewijzing voor alle baanrollen bekijken die aan het werkpunten in een
 >
 >In dit artikel wordt verwezen naar het weergeven van de taakrollen die horen bij taken en problemen in een project en de toegewezen geplande uren in het deelvenster Rollen van een project. Raadpleeg het volgende voor informatie over het combineren van geplande uren met initiatiefuren via het deelvenster Roltoewijzing bij gebruik van de Adobe Workfront Scenario-planner:
 >
->* [&#x200B; toon roltoewijzing voor projecten en initiatieven in de taaklijst &#x200B;](../../../scenario-planner/show-role-allocation-task-list-nwe.md)
->* [&#x200B; toon roltoewijzing voor projecten en initiatieven in de Balancer van de Werkbelasting &#x200B;](../../../scenario-planner/show-role-allocation-workload-balancer.md)
+>* [ toon roltoewijzing voor projecten en initiatieven in de taaklijst ](../../../scenario-planner/show-role-allocation-task-list-nwe.md)
+>* [ toon roltoewijzing voor projecten en initiatieven in de Balancer van de Werkbelasting ](../../../scenario-planner/show-role-allocation-workload-balancer.md)
 >
->  U moet een vergunning Scenario Planner hebben om initiatiefuren in het paneel van de Toewijzing van de Rol te zien. Voor informatie over de Planner van het Scenario, zie [&#x200B; begonnen worden met de Planner van het Scenario &#x200B;](../../../scenario-planner/get-started-with-scenario-planning.md).
+>  U moet een vergunning Scenario Planner hebben om initiatiefuren in het paneel van de Toewijzing van de Rol te zien. Voor informatie over de Planner van het Scenario, zie [ begonnen worden met de Planner van het Scenario ](../../../scenario-planner/get-started-with-scenario-planning.md).
 >
 >Als uw bedrijf in het verleden de Adobe Scenario Planner heeft gekocht, is er van alles overgebleven. De functie Scenario Planner kan niet meer worden aangeschaft.
 
@@ -61,7 +61,7 @@ U kunt roltoewijzing voor alle baanrollen bekijken die aan het werkpunten in een
  </tbody> 
 </table>
 
-Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -104,18 +104,19 @@ U moet het volgende hebben:
 
 ## Geplande uren van project weergeven in het deelvenster Roltoewijzing
 
-1. Klik het **pictogram van het 1&rbrace; pictogram van het Belangrijkste Menu** ![&#x200B; in de hoger-juiste hoek van Adobe Workfront, dan klik &#x200B;](assets/main-menu-icon.png) Projecten **.**
-1. Klik op de naam van een project om het te openen. Hiermee opent u de projectpagina.
+{{step1-to-projects}}
+
+1. Klik op de naam van een project om het te openen. Hiermee opent u de projectpagina.
 1. Klik op een van de volgende opties in het linkerdeelvenster:
 
    * **Taken**
    * **de Balancer van de Werkbelasting**
 
-1. Klik het **pictogram van de roltoewijzing van de Show** pictogram ![&#x200B; tonen het pictogram van de roltoewijzing &#x200B;](assets/show-role-allocation-icon.png).
+1. Klik het **pictogram van de roltoewijzing van de Show** pictogram ![ tonen het pictogram van de roltoewijzing ](assets/show-role-allocation-icon.png).
 
    Het deelvenster Roltoewijzing wordt weergegeven.
 
-   ![&#x200B; het toewijzingspaneel van de Rol met geplande slechts uren &#x200B;](assets/role-allocation-panel-planned-hours-only-350x316.png)
+   ![ het toewijzingspaneel van de Rol met geplande slechts uren ](assets/role-allocation-panel-planned-hours-only-350x316.png)
 
 1. Herzie de volgende informatie in het **deelvenster van de Toewijzing van de Rol**:
 

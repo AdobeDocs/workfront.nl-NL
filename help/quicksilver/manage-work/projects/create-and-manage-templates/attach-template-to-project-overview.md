@@ -8,7 +8,7 @@ description: Wanneer u een malplaatje aan een bestaand project vastmaakt, wijzig
 author: Alina
 feature: Work Management
 exl-id: 7f0137b6-ce8e-4b66-ad55-e6dc2aae09d9
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '1258'
 ht-degree: 0%
@@ -19,16 +19,16 @@ ht-degree: 0%
 
 Wanneer u een malplaatje aan een bestaand project vastmaakt, wijzigt u sommige informatie over het project volgens dat van het malplaatje. Een deel van de informatie over het project blijft ongewijzigd.
 
-Voor informatie over hoe te om een malplaatje aan een project vast te maken, zie [&#x200B; een malplaatje aan een project &#x200B;](../../../manage-work/projects/create-and-manage-templates/attach-template-to-project.md) vastmaken.
+Voor informatie over hoe te om een malplaatje aan een project vast te maken, zie [ een malplaatje aan een project ](../../../manage-work/projects/create-and-manage-templates/attach-template-to-project.md) vastmaken.
 
 ## Overwegingen bij het toevoegen van sjablonen aan projecten
 
 Overweeg het volgende wanneer het toevoegen van malplaatjes aan projecten:
 
 * U kunt alleen actieve sjablonen aan projecten koppelen.
-* U kunt een malplaatje aan een project vastmaken wanneer het project in een status van Voltooid, Dead, of in In afwachting van Goedkeuring is, slechts wanneer uw beheerder van Adobe Workfront of een groepsbeheerder deze functionaliteit op het gebied van de Voorkeur van het Project heeft toegelaten. Voor informatie over het plaatsen van projectvoorkeur, zie [&#x200B; systeem-brede projectvoorkeur &#x200B;](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) vormen.
+* U kunt een malplaatje aan een project vastmaken wanneer het project in een status van Voltooid, Dead, of in In afwachting van Goedkeuring is, slechts wanneer uw beheerder van Adobe Workfront of een groepsbeheerder deze functionaliteit op het gebied van de Voorkeur van het Project heeft toegelaten. Voor informatie over het plaatsen van projectvoorkeur, zie [ systeem-brede projectvoorkeur ](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) vormen.
 * Tenzij u specifieke malplaatjetaken van wordt toegevoegd in het gehechtheidsproces uitsluiten, worden alle malplaatjetaken toegevoegd aan het bestaande project.
-* De meeste sjablooninstellingen worden toegevoegd aan het project. Sommige projectinstellingen blijven behouden. Voor informatie, zie de sectie [&#x200B; veranderingen in projectgebieden begrijpen wanneer het vastmaken van een malplaatje &#x200B;](#understand-changes-to-project-fields-when-attaching-a-template) in dit artikel.
+* De meeste sjablooninstellingen worden toegevoegd aan het project. Sommige projectinstellingen blijven behouden. Voor informatie, zie de sectie [ veranderingen in projectgebieden begrijpen wanneer het vastmaken van een malplaatje ](#understand-changes-to-project-fields-when-attaching-a-template) in dit artikel.
 
 ## Wijzigingen in projectvelden begrijpen bij het koppelen van een sjabloon {#understand-changes-to-project-fields-when-attaching-a-template}
 
@@ -38,7 +38,7 @@ Overweeg het volgende wanneer het toevoegen van malplaatjes aan projecten:
 
 Sommige malplaatjemontages brengen automatisch over naar het project, tenzij u hen specifiek merkt om tijdens het proces van de malplaatjegehechtheid worden uitgesloten. Wanneer u hen merkt om worden uitgesloten, worden de waarden van het projectgebied bewaard.
 
-Nochtans, zijn niet alle projectgebieden beschikbaar om in het proces te leiden om een malplaatje aan een project vast te maken. Voor informatie, zie [&#x200B; een malplaatje aan een project &#x200B;](../../../manage-work/projects/create-and-manage-templates/attach-template-to-project.md) vastmaken.
+Nochtans, zijn niet alle projectgebieden beschikbaar om in het proces te leiden om een malplaatje aan een project vast te maken. Voor informatie, zie [ een malplaatje aan een project ](../../../manage-work/projects/create-and-manage-templates/attach-template-to-project.md) vastmaken.
 
 De volgende lijst beschrijft het gebrek voor wat met projectgebieden gebeurt wanneer u een malplaatje vastmaakt en welke gebieden u tijdens het gehechtheidsproces kunt beheren om het standaardgedrag met voeten te treden:
 
@@ -55,167 +55,167 @@ De volgende lijst beschrijft het gebrek voor wat met projectgebieden gebeurt wan
   <tr> 
    <td>Beschrijving</td> 
    <td>Projectinformatie blijft behouden</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td> <p>Status</p> </td> 
    <td>Projectinformatie blijft behouden</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>URL</td> 
    <td>Wordt overgedragen van een sjabloon als het veld leeg is in het project</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Prioriteit</td> 
    <td>Projectinformatie blijft behouden</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Type voorwaarde</td> 
    <td>Projectinformatie blijft behouden</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Planningsmodus</td> 
    <td>Projectinformatie blijft behouden</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Geplande data</td> 
    <td>Wijzigen op basis van de toegevoegde taken</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Werkelijke datums</td> 
    <td>Wijzigen op basis van de toegevoegde taken</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Portfolio</td> 
    <td>Projectinformatie blijft behouden</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Programma</td> 
    <td>Projectinformatie blijft behouden</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Groep</td> 
    <td>Projectinformatie blijft behouden</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Bedrijf</td> 
    <td>Wordt overgedragen van een sjabloon als het veld leeg is in het project</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Geplande uren</td> 
    <td>Wijzigen op basis van de toegevoegde taken</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Projecteigenaar</td> 
    <td>Wordt overgedragen van een sjabloon als het veld leeg is in het project</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Projectsponsor</td> 
    <td>Wordt overgedragen van een sjabloon als het veld leeg is in het project</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Resource Manager</td> 
    <td>Toegevoegd aan de lijst van bestaande middelmanagers op het project</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Aangepaste Forms</td> 
    <td>Toegevoegd aan het project, naast formulieren die al in het project staan</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Begroting</td> 
    <td>Projectinformatie blijft behouden</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Valuta</td> 
    <td>Projectinformatie blijft behouden</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>PIM</td> 
    <td>Projectinformatie blijft behouden</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>EAC</td> 
    <td>Projectinformatie blijft behouden</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Gepland voordeel</td> 
    <td>Projectinformatie blijft behouden</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Werkelijk voordeel</td> 
    <td>Projectinformatie blijft behouden</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Mijlpad</td> 
    <td>Wordt overgedragen van een sjabloon als het veld leeg is in het project</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Voltooiingsmodus</td> 
    <td>Projectinformatie blijft behouden</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Samenvattingsmodus</td> 
    <td>Projectinformatie blijft behouden</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Type update</td> 
    <td>Projectinformatie blijft behouden</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Schema</td> 
    <td>Projectinformatie blijft behouden</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Gebruikerstijd uit</td> 
    <td>Projectinformatie blijft behouden</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Modus Bronniveaus</td> 
    <td>Projectinformatie blijft behouden</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Risico (projectveld)</td> 
    <td>Projectinformatie blijft behouden</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Brongroepen</td> 
    <td>Toegevoegd aan de lijst met bestaande bronnenpools in het project</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Uurtypen</td> 
    <td> <p>Als deze optie tijdens het bijlageproces niet is geselecteerd, blijft de instelling Uurtypen voor het project ongewijzigd. </p> <p>Indien geselecteerd, brengt het malplaatje het plaatsen over naar het project. Als het filtreren van het Type van Uur aan ja zowel op het project als het malplaatje wordt geplaatst, worden de uurtypes van het malplaatje toegevoegd aan degenen op het project.</p> </td> 
-   <td> <p> </p> <p> </p> <p> </p> <p>✓</p> </td> 
+   <td> <p> </p> <p> </p> <p> </p> <p>✓</p> </td> 
   </tr> 
   <tr> 
    <td>Herinneringsmeldingen</td> 
@@ -230,27 +230,27 @@ De volgende lijst beschrijft het gebrek voor wat met projectgebieden gebeurt wan
   <tr> 
    <td>Standaard aangepaste Forms</td> 
    <td>Projectinformatie blijft behouden</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Werkinspanning</td> 
    <td>Projectinformatie blijft behouden</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
    <td><span> staat gebruikers toe om kwesties inline toe te voegen </span> </td> 
    <td><span> de informatie van het Project wordt bewaard </span> </td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Alle instellingen</td> 
    <td>De montages van het malplaatje beschrijven die van het project</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Taken</td> 
    <td>Toegevoegd aan de bodem van de taaklijst, naast de bestaande projecttaken</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Documenten</td> 
@@ -270,12 +270,12 @@ De volgende lijst beschrijft het gebrek voor wat met projectgebieden gebeurt wan
   <tr> 
    <td>Factureringstarieven</td> 
    <td> <p>Overgeboekt van een sjabloon naast de bestaande factureringstarieven voor het project. </p> <p>Als er een verschillend tarief voor de zelfde baanrol op zowel het project als het malplaatje is, blijft het tarief op het project onveranderd. </p> </td> 
-   <td> <p> </p> <p>✓</p> </td> 
+   <td> <p> </p> <p>✓</p> </td> 
   </tr> 
   <tr> 
    <td>Factureringsgegevens</td> 
    <td>Projectinformatie blijft behouden</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Uitgaven</td> 
@@ -284,7 +284,7 @@ De volgende lijst beschrijft het gebrek voor wat met projectgebieden gebeurt wan
   </tr> 
   <tr> 
    <td>Financiële informatie</td> 
-   <td> <p>Wanneer dit in het gehechtheidsproces wordt geselecteerd, worden de volgende gebieden of overgebracht of toegevoegd aan het project: </p> 
+   <td> <p>Wanneer dit in het gehechtheidsproces wordt geselecteerd, worden de volgende gebieden of overgebracht of toegevoegd aan het project: </p> 
     <ul> 
      <li> <p>Vaste kosten</p> <p>Wanneer de optie wordt geselecteerd, wordt de bijgewerkte Vaste Kosten van het project berekend gebruikend de volgende formule:</p> <p><code>Updated Project Fixed Cost = Original Project Fixed Cost + Template Fixed Cost</code> </p> </li> 
      <li> <p>Vaste inkomsten</p> <p>Wanneer de optie is geselecteerd, wordt de bijgewerkte vaste opbrengst van het project berekend aan de hand van de volgende formule:</p> <p><code>Updated Project Fixed Revenue = Original Project Fixed Revenue + Template Fixed Revenue </code> </p> </li> 
@@ -295,22 +295,22 @@ De volgende lijst beschrijft het gebrek voor wat met projectgebieden gebeurt wan
      <li> <p>De vaste kosten en de vaste opbrengsten van het project blijven behouden.</p> </li> 
      <li> <p>De kosten en de Types van Inkomsten op de taken die van het malplaatje worden toegevoegd worden geplaatst aan Geen Kosten en niet Billable</p> </li> 
     </ul> </td> 
-   <td> <p> </p> <p> </p> <p> </p> <p> </p> <p> </p> <p> </p> <p>✓</p> </td> 
+   <td> <p> </p> <p> </p> <p> </p> <p> </p> <p> </p> <p> </p> <p>✓</p> </td> 
   </tr> 
   <tr> 
    <td>Uren</td> 
    <td>Projectinformatie blijft behouden</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>De Details van de rij, de Groepen van het Onderwerp, de Onderwerpen van de Rij, die Regels verpletteren</td> 
    <td> <p>Van sjabloon overgedragen</p> <p>Als u de <strong> optie van de Eigenschappen van de Rij &amp; van de Opstelling van Kwesties </strong> tijdens het gehechtheidsproces selecteert, beschrijven de Details van de Rij van het malplaatje die van het project. In dit geval, worden de Verpletterende Regels, de Onderwerpen van de Rij, en de Groepen van het Onderwerp van het malplaatje toegevoegd aan die van het project. <br> als het project opstelling als verzoekrij is en het malplaatje u aan het project vastmaakt niet opstelling als verzoekrij, wordt de rijinformatie van het project verwijderd als u de <strong> gecontroleerde doos van de Eigenschappen &amp; van de Rij van de Rij </strong> verlaat. <br> als u de <strong> Eigenschappen van de Rij &amp; doos van de Opstelling van de Uitgave </strong> schrapt, worden alle montages van de Opstelling van de Rij van het project bewaard en geen montages van de Opstelling van de Rij van het malplaatje zijn in bijlage.</p> </td> 
-   <td> <p> </p> <p> </p> <p> </p> <p> </p> <p> </p> <p> </p> <p> </p> <p>✓</p> </td> 
+   <td> <p> </p> <p> </p> <p> </p> <p> </p> <p> </p> <p> </p> <p> </p> <p>✓</p> </td> 
   </tr> 
   <tr> 
    <td>Taakbeperkingen</td> 
    <td> <p>Van sjabloon overgedragen </p> <p>Als deze optie tijdens het bijlageproces is uitgeschakeld, worden de taakbeperkingen zo snel mogelijk of zo laat mogelijk ingesteld, afhankelijk van het projectschema van het instellen. </p> </td> 
-   <td> <p> </p> <p> </p> <p style="text-align: center;">✓</p> </td> 
+   <td> <p> </p> <p> </p> <p style="text-align: center;">✓</p> </td> 
   </tr> 
   <tr> 
    <td>Taakvoorgangers</td> 
@@ -325,7 +325,7 @@ De volgende lijst beschrijft het gebrek voor wat met projectgebieden gebeurt wan
  </tbody> 
 </table>
 
- 
+
 
 <!--WRITER
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -368,17 +368,17 @@ Attaching a template to a project is not the same as creating a project from a t
 <li> <p><b>Access settings</b> </p> </li>
 </ul>
 <ul>
-<li> <p><b>Custom&nbsp;Forms</b>:&nbsp;Template custom forms are added to the project, in addition to existing project custom forms. If the fields from the template custom forms already exist on the project and contain information, they preserve the information already on the project. You cannot edit them during attaching the template. </p> </li>
+<li> <p><b>Custom Forms</b>: Template custom forms are added to the project, in addition to existing project custom forms. If the fields from the template custom forms already exist on the project and contain information, they preserve the information already on the project. You cannot edit them during attaching the template. </p> </li>
 </ul>
 <ul>
-<li> <p><b>Start&nbsp;From</b> </p> </li>
+<li> <p><b>Start From</b> </p> </li>
 </ul>
 <p><strong>Project fields that are populated and they remain unchanged after attaching the template</strong></p>
 <p>The following fields remain unchanged on the project, even if they are also populated on the template, and they cannot be managed during attaching the template: </p>
 <ul>
 <li> <p style="font-weight: bold;">URL</p> </li>
 <li> <p style="font-weight: bold;">Project Owner</p> </li>
-<li> <p style="font-weight: bold;">Project&nbsp;Sponsor</p> </li>
+<li> <p style="font-weight: bold;">Project Sponsor</p> </li>
 <li> <p style="font-weight: bold;">Group</p> </li>
 <li> <p style="font-weight: bold;">Company</p> </li>
 <li> <p style="font-weight: bold;">Currency</p> </li>
@@ -389,8 +389,8 @@ Attaching a template to a project is not the same as creating a project from a t
 <li class="preview" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <p style="font-weight: bold;">Issue Settings fields</p> </li>
 </ul>
 </div>
-<p>&nbsp;</p>
+<p> </p>
 </div>
 -->
 
- 
+

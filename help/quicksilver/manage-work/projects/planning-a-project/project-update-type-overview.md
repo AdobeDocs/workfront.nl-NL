@@ -7,7 +7,7 @@ description: Het updatetype van een project geeft aan hoe Adobe Workfront de tij
 author: Alina
 feature: Work Management
 exl-id: a6394961-2ac8-4b95-aa1b-dba8108c612f
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '515'
 ht-degree: 0%
@@ -18,19 +18,19 @@ ht-degree: 0%
 
 Het updatetype van een project geeft aan hoe Adobe Workfront de tijdlijn van een project berekent. Wijzigingen in het projectplan kunnen wijzigingen in de tijdlijn van het project veroorzaken. De tijdlijn van het project moet automatisch of handmatig opnieuw worden berekend om ervoor te zorgen dat deze aan deze wijzigingen voldoet.
 
-Voor informatie over het opnieuw berekenen van de projectchronologie, zie [&#x200B; projectchronologie &#x200B;](../../../manage-work/projects/manage-projects/recalculate-project-timeline.md) opnieuw berekenen.
+Voor informatie over het opnieuw berekenen van de projectchronologie, zie [ projectchronologie ](../../../manage-work/projects/manage-projects/recalculate-project-timeline.md) opnieuw berekenen.
 
 ## Typen projectupdate
 
 Er zijn vier updatetypen voor een project, afhankelijk van wanneer u Workfront wilt de projectchronologie opnieuw berekenen. Kies een updatetype in de onderstaande lijst.
 
-Voor informatie over hoe te om het Type van Update van het project bij te werken, zie [&#x200B; het Type van projectupdate &#x200B;](../../../manage-work/projects/manage-projects/select-project-update-type.md) selecteren.
+Voor informatie over hoe te om het Type van Update van het project bij te werken, zie [ het Type van projectupdate ](../../../manage-work/projects/manage-projects/select-project-update-type.md) selecteren.
 
 >[!IMPORTANT]
 >
 >Als de tijdlijn van een project langer is dan 15 jaar, berekent Workfront de tijdlijn niet automatisch of bij wijziging. Het updatetype van een project langer dan 15 jaar is altijd Handmatig.
 
-* **Automatisch en op Verandering:** dit is het gebrek dat plaatst. De projectchronologie wordt bijgewerkt telkens als een verandering in het project of in een ander project voorkomt dat de chronologie van afhankelijk is. De projecttijdlijn wordt ook elke avond bijgewerkt. \
+* **Automatisch en op Verandering:** dit is het gebrek dat plaatst. De projectchronologie wordt bijgewerkt telkens als een verandering in het project of in een ander project voorkomt dat de chronologie van afhankelijk is. De projecttijdlijn wordt ook elke avond bijgewerkt.\
   Dit is de aanbevolen instelling omdat de tijdlijn van het project altijd up-to-date is.
 
   Wanneer u een taak of het project bijwerkt en een tijdlijnherberekening activeert, worden alle beschikbare datums onmiddellijk weergegeven, zodat u kunt doorgaan met werken. Voor projecten met meer dan 100 taken worden datums die langere berekeningen vereisen, grijs weergegeven.
@@ -49,5 +49,5 @@ Voor informatie over hoe te om het Type van Update van het project bij te werken
   >
   >Een project herberekent niet automatisch elke nacht als het in de status van de Planning is. Het herberekent alleen op verandering.
 
-* **Hand slechts:** de projectchronologie wordt bijgewerkt slechts wanneer u de optie om **Chronologie** opnieuw te berekenen, zoals die in de sectie &quot;Handmatige herberekening&quot;in de artikel [&#x200B; wordt beschreven projectchronologie &#x200B;](../../../manage-work/projects/manage-projects/recalculate-project-timeline.md) opnieuw berekent.\
+* **Hand slechts:** de projectchronologie wordt bijgewerkt slechts wanneer u de optie om **Chronologie** opnieuw te berekenen, zoals die in de sectie &quot;Handmatige herberekening&quot;in de artikel [ wordt beschreven projectchronologie ](../../../manage-work/projects/manage-projects/recalculate-project-timeline.md) opnieuw berekent.\
   U kunt deze optie selecteren als u in één keer veel wijzigingen aanbrengt in het project en u wilt dat de tijdlijnherberekening plaatsvindt nadat alle wijzigingen zijn aangebracht (in plaats van na elke afzonderlijke wijziging).

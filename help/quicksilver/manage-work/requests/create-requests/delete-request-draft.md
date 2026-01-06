@@ -6,9 +6,9 @@ description: U kunt ingediende aanvragen verwijderen of concepten aanvragen.
 author: Becky
 feature: Work Management
 exl-id: 9098ada7-0e6b-4de2-97ad-5c6e590fbba3
-source-git-commit: d87df92f548b19901374e982d1759efade644e17
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '752'
+source-wordcount: '638'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ In de erfenis die om ervaring verzoekt, kunt u verzoekconcepten schrappen. U kun
 
 Zie voor meer informatie:
 
-* [&#x200B; creeer en verzend Adobe Workfront verzoeken &#x200B;](../../../manage-work/requests/create-requests/create-submit-requests.md)
+* [ creeer en verzend Adobe Workfront verzoeken ](../../../manage-work/requests/create-requests/create-submit-requests.md)
 * [Verzoeken maken op basis van concepten](../../../manage-work/requests/create-requests/create-requests-from-drafts.md)
 
 ## Toegangsvereisten
@@ -59,7 +59,7 @@ Zie voor meer informatie:
  </tbody> 
 </table>
 
-Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -76,14 +76,15 @@ U kunt aanvragen verwijderen in het gedeelte Verzoeken van Workfront of in de wi
 
 ### Een aanvraag verwijderen uit het menu met drie punten
 
-1. Om tot de lijst van Verzoeken toegang te hebben, klik het **[!UICONTROL Main Menu]** pictogram ![&#x200B; Belangrijkste Menu &#x200B;](/help/_includes/assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, of (als beschikbaar), klik het **[!UICONTROL Main Menu]** pictogram ![&#x200B; Belangrijkste Menu &#x200B;](/help/_includes/assets/main-menu-icon-left-nav.png) in de upper-left hoek, dan klik **[!UICONTROL Requests]**.
+{{step1-to-requests}}
 
 1. Ga als volgt te werk om de widget Mijn verzoeken te openen:
 
-   1. Klik het **[!UICONTROL Main Menu]** pictogram ![&#x200B; Belangrijkste Menu &#x200B;](/help/_includes/assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, of (als beschikbaar), klik het **[!UICONTROL Main Menu]** pictogram ![&#x200B; Belangrijkste Menu &#x200B;](/help/_includes/assets/main-menu-icon-left-nav.png) in de upper-left hoek, dan klik **[!UICONTROL Home]**.
+   {{step1-to-home}}
+
    1. Zoek de widget Mijn verzoeken.
 
-      Voor meer informatie over Mijn widget van Verzoeken, zie [&#x200B; Gebruik Mijn widget van Verzoeken &#x200B;](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md).
+      Voor meer informatie over Mijn widget van Verzoeken, zie [ Gebruik Mijn widget van Verzoeken ](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md).
 
 1. Houd de muisaanwijzer boven de aanvraag <!--or draft --> die u wilt verwijderen in de lijst Verzoeken of de widget Mijn verzoeken.
 
@@ -106,14 +107,15 @@ U kunt aanvragen verwijderen in het gedeelte Verzoeken van Workfront of in de wi
 
 ### Verzoeken om bulkverwijdering
 
-1. Om tot de lijst van Verzoeken toegang te hebben, klik het **[!UICONTROL Main Menu]** pictogram ![&#x200B; Belangrijkste Menu &#x200B;](/help/_includes/assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, of (als beschikbaar), klik het **[!UICONTROL Main Menu]** pictogram ![&#x200B; Belangrijkste Menu &#x200B;](/help/_includes/assets/main-menu-icon-left-nav.png) in de upper-left hoek, dan klik **[!UICONTROL Requests]**.
+{{step1-to-requests}}
 
 1. Ga als volgt te werk om de widget Mijn verzoeken te openen:
 
-   1. Klik het **[!UICONTROL Main Menu]** pictogram ![&#x200B; Belangrijkste Menu &#x200B;](/help/_includes/assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, of (als beschikbaar), klik het **[!UICONTROL Main Menu]** pictogram ![&#x200B; Belangrijkste Menu &#x200B;](/help/_includes/assets/main-menu-icon-left-nav.png) in de upper-left hoek, dan klik **[!UICONTROL Home]**.
+   {{step1-to-home}}
+
    1. Zoek de widget Mijn verzoeken.
 
-      Voor meer informatie over Mijn widget van Verzoeken, zie [&#x200B; Gebruik Mijn widget van Verzoeken &#x200B;](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md).
+      Voor meer informatie over Mijn widget van Verzoeken, zie [ Gebruik Mijn widget van Verzoeken ](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md).
 
 1. Klik in de lijst Verzoeken of de widget Mijn verzoeken op het vakje links van elke aanvraag die u wilt verwijderen.
 1. In de blauwe bar bij de bodem van de pagina, klik **Schrapping**.
@@ -134,7 +136,7 @@ U moet het volgende doen alvorens u een verzoekontwerp kunt schrappen:
 
 * Start met het maken van een aanvraag. Hiermee slaat u het verzoek automatisch als een concept op in de sectie Concepten.
 
-  Voor informatie over het creëren van verzoeken, zie [&#x200B; Adobe Workfront verzoeken &#x200B;](../../../manage-work/requests/create-requests/create-submit-requests.md) creëren en voorleggen.
+  Voor informatie over het creëren van verzoeken, zie [ Adobe Workfront verzoeken ](../../../manage-work/requests/create-requests/create-submit-requests.md) creëren en voorleggen.
 
 ### Een aanvraagconcept verwijderen
 

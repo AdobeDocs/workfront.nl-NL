@@ -7,9 +7,9 @@ description: Projecten, taken en problemen hebben een werkelijke begindatum in A
 author: Alina
 feature: Work Management
 exl-id: 4357b072-24f6-4f89-b624-f066f8af0722
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '542'
+source-wordcount: '525'
 ht-degree: 0%
 
 ---
@@ -46,7 +46,7 @@ Projecten, taken en problemen hebben een werkelijke begindatum in Adobe Workfron
  </tbody> 
 </table>
 
-Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -77,7 +77,7 @@ Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van W
 
 ## Overwegingen over werkelijke begindatums in Workfront
 
-* De daadwerkelijke Datum van het Begin wordt gevestigd in de sectie van Details van projecten, taken, en kwesties. 
+* De daadwerkelijke Datum van het Begin wordt gevestigd in de sectie van Details van projecten, taken, en kwesties.
 * De daadwerkelijke Datum van het Begin van een project, een taak, of een kwestie is niet bevolkt wanneer deze punten worden gecreeerd.
 * De werkelijke begindatum wordt ingevuld wanneer het werk daadwerkelijk begint met het project, de taak of de uitgave.
 * De daadwerkelijke Datum van het Begin toont niet op het lusje van de Details van het Project als het werk aan het project nog niet is begonnen.
@@ -96,7 +96,7 @@ Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van W
 
      >[!IMPORTANT]
      >
-     >De daadwerkelijke Datum van het Begin van het Project bevolkt niet wanneer het project als Huidig wordt gemerkt. De werkelijke werkzaamheden moeten beginnen met de taken van het project voordat de werkelijke begindatum van het project wordt ingevuld.
+     >De daadwerkelijke Datum van het Begin van het Project bevolkt niet wanneer het project als Huidig wordt gemerkt. De werkelijke werkzaamheden moeten beginnen met de taken van het project voordat de werkelijke begindatum van het project wordt ingevuld.
 
      In deze gevallen wordt de werkelijke begindatum van het project ingesteld op de datum en het tijdstip waarop deze handelingen voor de vroegste taak van het project zijn uitgevoerd. Dit wijst erop dat het project eigenlijk op deze datum en tijd begon.
 
@@ -107,11 +107,12 @@ U kunt de werkelijke begindatum van een project vinden in de volgende gebieden:
 * In de sectie Details van een Project.
 * In een projectrapport of een mening, wanneer u de Ware Datum van het Begin voor het objectenProject in het rapport toevoegt.
 
-  Voor informatie over het creëren van rapporten, zie het artikel [&#x200B; een douanerapport &#x200B;](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) creëren.
+  Voor informatie over het creëren van rapporten, zie het artikel [ een douanerapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) creëren.
 
 U kunt als volgt de werkelijke begindatum vinden in de sectie Details van het project:
 
-1. Klik het **pictogram van het 1&rbrace; pictogram van het Belangrijkste Menu** ![&#x200B; in de hoger-juiste hoek van Workfront, dan klik &#x200B;](assets/main-menu-icon.png) Projecten **.**
+{{step1-to-projects}}
+
 1. Klik op het project waarvoor u de werkelijke begindatum wilt weergeven.
 1. Klik **Details van het Project** in het linkerpaneel, dan ga naar de **sectie van het Overzicht**.
 

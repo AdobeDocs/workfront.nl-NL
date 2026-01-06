@@ -7,7 +7,7 @@ description: Bij het beheren van taken en uitgaven kunt u slimme toewijzingen ge
 author: Lisa
 feature: Work Management
 exl-id: 8d17eff6-5ff0-4985-b575-4934a3bb7c0b
-source-git-commit: a0b635953245cf307b558d343ad234a27c96da94
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '554'
 ht-degree: 0%
@@ -24,9 +24,9 @@ De slimme taken zijn suggesties die Adobe Workfront aan u voorstelt wanneer u he
 
 >[!NOTE]
 >
->Bij het voorstellen van gebruikers houden slimme toewijzingen geen rekening met de beschikbaarheid van de gebruiker. De beschikbaarheid volgens de planning is echter van invloed op de geplande en verwachte datum van taken en problemen wanneer deze worden toegewezen. Voor informatie over programma&#39;s, zie het artikel [&#x200B; een programma &#x200B;](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md) creëren.
+>Bij het voorstellen van gebruikers houden slimme toewijzingen geen rekening met de beschikbaarheid van de gebruiker. De beschikbaarheid volgens de planning is echter van invloed op de geplande en verwachte datum van taken en problemen wanneer deze worden toegewezen. Voor informatie over programma&#39;s, zie het artikel [ een programma ](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md) creëren.
 
-Dit artikel bevat algemene informatie over slimme toewijzingen. Voor informatie over het gebruiken van slimme taken om taken en kwesties aan gebruikers toe te wijzen, zie [&#x200B; Slimme taken &#x200B;](../../../manage-work/tasks/assign-tasks/make-smart-assignments.md) maken.
+Dit artikel bevat algemene informatie over slimme toewijzingen. Voor informatie over het gebruiken van slimme taken om taken en kwesties aan gebruikers toe te wijzen, zie [ Slimme taken ](../../../manage-work/tasks/assign-tasks/make-smart-assignments.md) maken.
 
 ## Overzicht van slimme toewijzingen
 
@@ -43,23 +43,23 @@ U kunt slimme toewijzingen weergeven op de volgende plaatsen waar u taken of pro
 
 * Een uitgiftenlijst of rapport in de kolom Toewijzingen
 
-  ![&#x200B; de kolom van de Lijsten van de Uitgave &#x200B;](assets/smart-assignments-issue-list.png)
+  ![ de kolom van de Lijsten van de Uitgave ](assets/smart-assignments-issue-list.png)
 
 * Een taaklijst of rapport in de kolom van Taken
 
-  ![&#x200B; de kolom van Toewijzingen van de Lijst van de Taak &#x200B;](assets/smart-assignments-task-list.png)
+  ![ de kolom van Toewijzingen van de Lijst van de Taak ](assets/smart-assignments-task-list.png)
 
 * Een taakkoptekst in het veld Toewijzingen
 
-  ![&#x200B; het gebied van Toewijzingen van de kopbal van de Taak &#x200B;](assets/smart-assignments-task-header-nwe-350x302.png)
+  ![ het gebied van Toewijzingen van de kopbal van de Taak ](assets/smart-assignments-task-header-nwe-350x302.png)
 
 * Een uitgiftekop in het veld Toewijzingen
 
-  ![&#x200B; het gebied van de kopbalToewijzingen van de Uitgave &#x200B;](assets/smart-assignments-issue-header.png)
+  ![ het gebied van de kopbalToewijzingen van de Uitgave ](assets/smart-assignments-issue-header.png)
 
 * Het deelvenster Overzicht van taken of uitgaven in het gebied Toewijzingen
 
-  ![&#x200B; het gebied van de Kaarten van het Summiere paneel &#x200B;](assets/issue-assignments-summary-panel.png)
+  ![ het gebied van de Kaarten van het Summiere paneel ](assets/issue-assignments-summary-panel.png)
 
 <!--* The Assignments field in the New Task box, when adding a task to a project
 
@@ -73,7 +73,7 @@ U kunt slimme toewijzingen weergeven op de volgende plaatsen waar u taken of pro
 
 * Werklastverdeling in het gedeelte Toegewezen aan als u een taak of uitgave toewijst
 
-  ![&#x200B; het gebied van de Toewijzingen van de Balans van de Werkbelasting &#x200B;](assets/smart-assignments-workload-balancer-bulk-assignments.png)
+  ![ het gebied van de Toewijzingen van de Balans van de Werkbelasting ](assets/smart-assignments-workload-balancer-bulk-assignments.png)
 
 ## Criteria voor slimme toewijzingen
 
@@ -144,7 +144,7 @@ De geïdentificeerde taken worden vermeld in de **Gebruikers en teams** en **de 
 >
 >The following criteria applies for tasks only when the first phase of the task smart assignment calculation did not find any matches. For information, see the section [First phase of smart assignment calculation for tasks](#first-phase-of-smart-assignment-calculation-for-tasks) in this article. The following criteria always applies for issues, by default. -->
 
-![&#x200B; Slimme taak van het Voorbeeld &#x200B;](assets/smart-assignments-issue-header.png)
+![ Slimme taak van het Voorbeeld ](assets/smart-assignments-issue-header.png)
 
 De gebruikers worden geadviseerd in de slimme drop-down lijst van Toewijzingen die op een combinatie van de volgende criteria (die in orde van belangrijkst tot minst belangrijk worden vermeld) wordt gebaseerd:
 
@@ -192,7 +192,7 @@ De gebruikers worden geadviseerd in de slimme drop-down lijst van Toewijzingen d
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <h2>Make smart assignments</h2>
-<p>(NOTE:&nbsp;this was moved to its own article: make-smart-assignments.) </p>
+<p>(NOTE: this was moved to its own article: make-smart-assignments.) </p>
 <p>Smart assignments are available in most locations where you can make assignments in Workfront.</p>
 <p>You can use smart assignments on tasks and issues that have previously been assigned to a job role or a team.</p> <note type="note">
 You must have a Plan or a Work license and have at least Contribute permissions to a task or an issue to be able to make assignments to the task or the issue. You must have the Make Assignments option enabled in your permission level to make assignments.

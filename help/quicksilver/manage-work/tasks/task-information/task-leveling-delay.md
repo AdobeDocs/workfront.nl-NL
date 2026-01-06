@@ -6,7 +6,7 @@ description: Soms kunnen er conflicten optreden tussen taakplanningen in een pro
 author: Alina
 feature: Work Management
 exl-id: 6695448c-76ce-460c-aa59-63a3d5e2e18d
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '386'
 ht-degree: 0%
@@ -19,7 +19,7 @@ Soms kunnen er conflicten optreden tussen taakplanningen in een project. U kunt 
 
 Als projectmanager, of de taak toegewezen, kunt u een Vertraging van het Niveaus op individuele taken ook toevoegen om van om het even welke middel of het plannen conflicten rekenschap te geven. Met andere woorden, een taak zou met een vertraging kunnen worden gepland om ervoor te zorgen dat wanneer Adobe Workfront niveaus de taken een realistischer programma middelconflicten overtreedt.
 
-Door een niveauvertraging toe te voegen aan een taak, past u de verwachte Voltooiingsdatum van de taak aan. Voor informatie over de voorgenomen voltooiingsdatum, zie [&#x200B; Overzicht van de Verwachte Datum van de Voltooiing voor projecten, taken, en kwesties &#x200B;](../../../manage-work/projects/planning-a-project/project-projected-completion-date.md).
+Door een niveauvertraging toe te voegen aan een taak, past u de verwachte Voltooiingsdatum van de taak aan. Voor informatie over de voorgenomen voltooiingsdatum, zie [ Overzicht van de Verwachte Datum van de Voltooiing voor projecten, taken, en kwesties ](../../../manage-work/projects/planning-a-project/project-projected-completion-date.md).
 
 ## Toegangsvereisten
 
@@ -49,7 +49,7 @@ Door een niveauvertraging toe te voegen aan een taak, past u de verwachte Voltoo
  </tbody> 
 </table>
 
-Voor meer informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -93,7 +93,7 @@ Voor meer informatie, zie [&#x200B; vereisten van de Toegang in de documentatie 
    Maak een keuze uit de volgende opties voor tijdseenheden:
 
    * Minuten
-   * Uren. Dit is de standaardinstelling.
+   * Uren. Dit is de standaardinstelling.
    * Dagen
    * Weken
    * Maanden
@@ -107,6 +107,6 @@ Voor meer informatie, zie [&#x200B; vereisten van de Toegang in de documentatie 
    >
    >De verstreken tijd is een eenheid van tijd voor de Duur van een taak. Dit is de tijd tussen de Geplande Datum van het Begin en de Geplande Datum van de Voltooiing van een taak die vakantie, weekends, en onderbreking omvat. Met andere woorden, de verstreken tijd is de doorloop van kalenderdagen.
 
-1. Klik **sparen**. 
+1. Klik **sparen**.
 
- 
+

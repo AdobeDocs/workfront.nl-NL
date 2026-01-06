@@ -7,7 +7,7 @@ description: U kunt taken toewijzen aan of de toewijzing van taken door gebruike
 author: Lisa
 feature: Work Management
 exl-id: e774f2db-494d-4f93-8727-3c073e5f930b
-source-git-commit: 1211a441b542df49480d933d4c25b0c31ef0883d
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '875'
 ht-degree: 0%
@@ -30,12 +30,12 @@ U kunt taken toewijzen aan of de toewijzing van taken door gebruikers, teams of 
 
 Dit artikel bevat algemene informatie over het effect van het wijzigen van taaktaken. Raadpleeg de volgende artikelen voor informatie over het toewijzen van taken:
 
-* Voor informatie over het toewijzen van taken, zie [&#x200B; taken toewijzen &#x200B;](../../../manage-work/tasks/assign-tasks/assign-tasks.md) en [&#x200B; veelvoudige gebruikerstoewijzingen in een taaklijst &#x200B;](../../../manage-work/tasks/assign-tasks/modify-multiple-assignments-in-task-list.md) wijzigen.
+* Voor informatie over het toewijzen van taken, zie [ taken toewijzen ](../../../manage-work/tasks/assign-tasks/assign-tasks.md) en [ veelvoudige gebruikerstoewijzingen in een taaklijst ](../../../manage-work/tasks/assign-tasks/modify-multiple-assignments-in-task-list.md) wijzigen.
 
 * Voor informatie over het wijzigen van taken op veelvoudige taken in het Plannende gebied, zie &quot;veelvoudige gebruikerstoewijzingen aan taken in de Plannende gebieden wijzigen&quot;.
-* Voor informatie over het toewijzen van taken die de Balancer van de Werklast gebruiken, zie [&#x200B; Overzicht van het toewijzen van het werk in de Balancer van de Werkbelasting &#x200B;](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
+* Voor informatie over het toewijzen van taken die de Balancer van de Werklast gebruiken, zie [ Overzicht van het toewijzen van het werk in de Balancer van de Werkbelasting ](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
 
-Sommige informatie in dit artikel is ook van toepassing op toewijzingen aan kwesties. Voor meer informatie over het toewijzen van kwesties, en extra overwegingen, zie [&#x200B; Overzicht van het wijzigen van de taken van de kwestie &#x200B;](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md).
+Sommige informatie in dit artikel is ook van toepassing op toewijzingen aan kwesties. Voor meer informatie over het toewijzen van kwesties, en extra overwegingen, zie [ Overzicht van het wijzigen van de taken van de kwestie ](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md).
 
 ## Wanneer moet u gebruikerstoewijzingen wijzigen voor taken
 
@@ -46,7 +46,7 @@ U kunt de gebruikerstoewijzingen voor taken om diverse redenen, met inbegrip van
 
   >[!NOTE]
   >
-  >Wanneer u gebruikers aan het werk toewijst, heeft de beschikbaarheid volgens hun planning invloed op de geplande en de verwachte taakdatum. Voor informatie over programma&#39;s, zie [&#x200B; een programma &#x200B;](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md) creëren.
+  >Wanneer u gebruikers aan het werk toewijst, heeft de beschikbaarheid volgens hun planning invloed op de geplande en de verwachte taakdatum. Voor informatie over programma&#39;s, zie [ een programma ](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md) creëren.
 
 * Een specifieke rol of een gebruiker wordt geplaatst als ontvanger voor veelvoudige taken en u wilt snel alle punten wijzigen die aan een verschillende gebruiker of een rol moeten worden toegewezen
 
@@ -54,7 +54,7 @@ U kunt de gebruikerstoewijzingen voor taken om diverse redenen, met inbegrip van
 
 Overweeg het volgende wanneer het toewijzen van veelvoudige middelen aan een het werkpunt:
 
-* Gebruikers kunnen meer dan één taakrol aan hun profiel koppelen. Voor informatie over het associëren van gebruikers met baanrollen, zie [&#x200B; het profiel van een gebruiker &#x200B;](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) uitgeven.
+* Gebruikers kunnen meer dan één taakrol aan hun profiel koppelen. Voor informatie over het associëren van gebruikers met baanrollen, zie [ het profiel van een gebruiker ](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) uitgeven.
 
 * Taken of problemen worden doorgaans eerst toegewezen aan een of meer functies of aan een team. Wanneer de projecten klaar zijn om te beginnen, zouden zij ook aan gebruikers kunnen moeten worden toegewezen.\
   Als een taak of een kwestie aan één of veelvoudige rollen wordt toegewezen en u dan ook een gebruiker toewijst, beslist Adobe Workfront welke baanrol aan de extra gebruiker (als om het even welk) te associëren volgens de volgende regels:
@@ -67,7 +67,7 @@ Overweeg het volgende wanneer het toewijzen van veelvoudige middelen aan een het
 
 ## Hoe het verwijderen van toegewezen beïnvloedt taakuren en toewijzingspercentages
 
-Het verwijderen van gebruikers kan taakuren en toewijzingspercentages beïnvloeden. Het effect dat het verwijderen van een gebruiker op de taak heeft hangt van het Type van Duur af dat voor de taak werd geselecteerd. Voor informatie over het Type van Duur, zie [&#x200B; Overzicht van het Type van Duur en van de Duur van de Taak &#x200B;](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
+Het verwijderen van gebruikers kan taakuren en toewijzingspercentages beïnvloeden. Het effect dat het verwijderen van een gebruiker op de taak heeft hangt van het Type van Duur af dat voor de taak werd geselecteerd. Voor informatie over het Type van Duur, zie [ Overzicht van het Type van Duur en van de Duur van de Taak ](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
 
 Wanneer u een gebruiker uit een taak met de volgende Types van Duur schrapt:
 
@@ -85,7 +85,7 @@ Wanneer u een gebruiker uit een taak met de volgende Types van Duur schrapt:
 
 U kunt toewijzingen van één taak tegelijk verwijderen of u kunt toewijzingen van meerdere taken bulksgewijs verwijderen.
 
-Voor meer informatie over het verwijderen van taken uit taken in bulk, zie [&#x200B; veelvoudige gebruikerstoewijzingen in een taaklijst &#x200B;](../../../manage-work/tasks/assign-tasks/modify-multiple-assignments-in-task-list.md) wijzigen.
+Voor meer informatie over het verwijderen van taken uit taken in bulk, zie [ veelvoudige gebruikerstoewijzingen in een taaklijst ](../../../manage-work/tasks/assign-tasks/modify-multiple-assignments-in-task-list.md) wijzigen.
 
 Houd rekening met het volgende wanneer u toewijzingen verwijdert uit taken:
 

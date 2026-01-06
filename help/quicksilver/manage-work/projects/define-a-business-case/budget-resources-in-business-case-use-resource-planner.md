@@ -5,7 +5,7 @@ description: Als deel van middelplanning, kunt u de project-vlakke Planner van h
 author: Becky
 feature: Work Management
 exl-id: 51ebb940-111c-442f-a8a6-287a04d2db68
-source-git-commit: aa3ae2a5d92420f4adcedb60a4f7404533eaa59b
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '1206'
 ht-degree: 0%
@@ -18,13 +18,13 @@ ht-degree: 0%
 
 Als deel van middelplanning, kunt u de project-vlakke Planner van het Middel gebruiken om de baanrollen noodzakelijk voor de voltooiing van het werk in een project te voorzien wanneer u het bedrijfscase bouwt.
 
-Voor meer informatie over het creëren van een bedrijfsgeval, zie [&#x200B; een BedrijfsGeval voor een project &#x200B;](../../../manage-work/projects/define-a-business-case/create-business-case.md) creëren.
+Voor meer informatie over het creëren van een bedrijfsgeval, zie [ een BedrijfsGeval voor een project ](../../../manage-work/projects/define-a-business-case/create-business-case.md) creëren.
 
 >[!TIP]
 >
->De informatie u in de project-vlakke Planner van het Middel ingaat is ook zichtbaar in de systeem-vlakke Planner van het Middel. Het omgekeerde geldt ook. Voor informatie over de Planner van het Middel, zie [&#x200B; Overzicht van de Planner van het Middel &#x200B;](../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
+>De informatie u in de project-vlakke Planner van het Middel ingaat is ook zichtbaar in de systeem-vlakke Planner van het Middel. Het omgekeerde geldt ook. Voor informatie over de Planner van het Middel, zie [ Overzicht van de Planner van het Middel ](../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
 
-U kunt middelen in de bedrijfscase ook begroten gebruikend de Planner van het Scenario van Adobe Workfront. Voor meer informatie, zie [&#x200B; middelen van de Begroting in het BedrijfsGeval gebruikend de Planner van het Scenario &#x200B;](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md).
+U kunt middelen in de bedrijfscase ook begroten gebruikend de Planner van het Scenario van Adobe Workfront. Voor meer informatie, zie [ middelen van de Begroting in het BedrijfsGeval gebruikend de Planner van het Scenario ](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md).
 
 ## Toegangsvereisten
 
@@ -64,7 +64,7 @@ U kunt middelen in de bedrijfscase ook begroten gebruikend de Planner van het Sc
  </tbody> 
 </table>
 
-Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -72,7 +72,7 @@ Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van W
 
 Voordat u begint, moet u het volgende doen:
 
-* Voldoe aan alle voorwaarden voor middelplanning in Adobe Workfront. Voor informatie, zie [&#x200B; overzicht van de Planner van het Middel &#x200B;](../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
+* Voldoe aan alle voorwaarden voor middelplanning in Adobe Workfront. Voor informatie, zie [ overzicht van de Planner van het Middel ](../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
 
 * Brongroepen koppelen aan het project.
 
@@ -82,9 +82,9 @@ Voordat u begint, moet u het volgende doen:
 
   >[!NOTE]
   >
-  >U kunt geen middelen begroten die aan kwesties in de BedrijfsGeval worden toegewezen. U kunt ze begroten in de bronnenplanner op systeemniveau. Voor meer informatie over de Planner van het Middel, zie [&#x200B; Overzicht van de Planner van het Middel &#x200B;](../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
+  >U kunt geen middelen begroten die aan kwesties in de BedrijfsGeval worden toegewezen. U kunt ze begroten in de bronnenplanner op systeemniveau. Voor meer informatie over de Planner van het Middel, zie [ Overzicht van de Planner van het Middel ](../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
 
-* Hoewel dit geen voorwaarde is, adviseren wij ook dat u op Geplande Uren voor de taken op het project wijst. Dit helpt u begrijpen hoeveel werk een taak zou kunnen moeten voltooien die met het besluit van veel tijd de middelen voor de voltooiing van de taak zou moeten worden begroot. Voor informatie over het associëren van taken met Geplande Uren, zie [&#x200B; taken &#x200B;](../../../manage-work/tasks/manage-tasks/edit-tasks.md) uitgeven.
+* Hoewel dit geen voorwaarde is, adviseren wij ook dat u op Geplande Uren voor de taken op het project wijst. Dit helpt u begrijpen hoeveel werk een taak zou kunnen moeten voltooien die met het besluit van veel tijd de middelen voor de voltooiing van de taak zou moeten worden begroot. Voor informatie over het associëren van taken met Geplande Uren, zie [ taken ](../../../manage-work/tasks/manage-tasks/edit-tasks.md) uitgeven.
 
 ## Bronnenpools toepassen op een project en budgetbronnen in de bedrijfscase
 
@@ -114,7 +114,7 @@ Om de Pools van het Middel en de middelen van het begrotingsproject in het Bedri
 
    Dit gebruikt de begrotingsuren van het project om de begrote arbeidskosten voor het project te berekenen.
 
-   De Scenario Planner is alleen beschikbaar in de nieuwe Adobe Workfront-ervaring en vereist een aanvullende licentie. Voor informatie over de Planner van het Scenario van Workfront, zie [&#x200B; het overzicht van de Planner van het Scenario &#x200B;](../../../scenario-planner/scenario-planner-overview.md).
+   De Scenario Planner is alleen beschikbaar in de nieuwe Adobe Workfront-ervaring en vereist een aanvullende licentie. Voor informatie over de Planner van het Scenario van Workfront, zie [ het overzicht van de Planner van het Scenario ](../../../scenario-planner/scenario-planner-overview.md).
 
    >[!NOTE]
    >
@@ -126,15 +126,15 @@ Om de Pools van het Middel en de middelen van het begrotingsproject in het Bedri
 
    >[!TIP]
    >
-   >Als het project reeds met de Pools van het Middel wordt geassocieerd, toont de Planner van het Middel door gebrek. Om meer Pools van het Middel aan het project toe te voegen, geef het project uit. Voor informatie over het uitgeven van een project, zie [&#x200B; projecten &#x200B;](../../../manage-work/projects/manage-projects/edit-projects.md) uitgeven.
+   >Als het project reeds met de Pools van het Middel wordt geassocieerd, toont de Planner van het Middel door gebrek. Om meer Pools van het Middel aan het project toe te voegen, geef het project uit. Voor informatie over het uitgeven van een project, zie [ projecten ](../../../manage-work/projects/manage-projects/edit-projects.md) uitgeven.
 
 1. Klik **toepassen**.
 
    De Planner van het Middel wordt getoond, voor het geselecteerde project.
 
-   Door gebrek, zijn de eerste 20 baanrollen verbonden aan dit project vermeld in de sectie van de Begroting van het Middel in alfabetische orde. 
+   Door gebrek, zijn de eerste 20 baanrollen verbonden aan dit project vermeld in de sectie van de Begroting van het Middel in alfabetische orde.
 
-   Voor meer informatie over de Planner van het Middel, zie [&#x200B; Overzicht van de Planner van het Middel &#x200B;](../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
+   Voor meer informatie over de Planner van het Middel, zie [ Overzicht van de Planner van het Middel ](../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
 
    <!--![BC_resource_budgeting_area.png](assets/bc-resource-budgeting-area-350x276.png)-->
 
@@ -152,7 +152,7 @@ Om de Pools van het Middel en de middelen van het begrotingsproject in het Bedri
    >   
    >
 
-    
+
 
 1. Klik **vandaag** om aan timeframe van vandaag terug te keren.
 1. (Facultatief) klik **Week**, **Maand** of **Kwartaal** aan vertoningsinformatie voor het project in verschillende timeframes.
@@ -164,7 +164,7 @@ Om de Pools van het Middel en de middelen van het begrotingsproject in het Bedri
    >
    >U kunt gegevens gedurende maximaal 12 tijdsperioden tegelijk exporteren.
 
-1. (Facultatief) klik het **Volledige pictogram van het Scherm** ![&#x200B; full_screen_RP_in_BC.png &#x200B;](assets/full-screen-rp-in-bc.png) om de Planner van het Middel op het volledige schermwijze te tonen.
+1. (Facultatief) klik het **Volledige pictogram van het Scherm** ![ full_screen_RP_in_BC.png ](assets/full-screen-rp-in-bc.png) om de Planner van het Middel op het volledige schermwijze te tonen.
 
 1. Werk het **BDG** (Begonnen uren) gebied met Uur, FTE, of de waarden van Kosten voor de gebruikers, de rollen, of het project bij door één van het volgende te doen:
 
@@ -174,7 +174,7 @@ Om de Pools van het Middel en de middelen van het begrotingsproject in het Bedri
 
    * Klik het **pictogram van Opties** voor het project of de baanrollen en selecteer een optie om de uren voor rollen, gebruikers, of het project automatisch te begroten.
 
-   Voor meer informatie over het in de begroting opnemen in de Mening van het Project van de Planner van het Middel, zie [&#x200B; de middelen van de Begroting in de Planner van het Middel gebruikend de meningen van het Project en van de Rol &#x200B;](../../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md).
+   Voor meer informatie over het in de begroting opnemen in de Mening van het Project van de Planner van het Middel, zie [ de middelen van de Begroting in de Planner van het Middel gebruikend de meningen van het Project en van de Rol ](../../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md).
 
    >[!NOTE]
    >
@@ -182,7 +182,7 @@ Om de Pools van het Middel en de middelen van het begrotingsproject in het Bedri
 
 1. (Facultatief) om te begrijpen of u de in de begroting opgenomen Uren, FTEs, of Kosten aan een ander tijdkader kunt bewegen, klik het **pictogram van Opties**, dan **Adjust het Begrotende Datums**.
 
-   Voor meer informatie over het aanpassen van in de begroting opgenomen data, zie [&#x200B; het opnemen van data in de Planner van het Middel &#x200B;](../../../resource-mgmt/resource-planning/adjust-budgeting-dates.md) aanpassen.
+   Voor meer informatie over het aanpassen van in de begroting opgenomen data, zie [ het opnemen van data in de Planner van het Middel ](../../../resource-mgmt/resource-planning/adjust-budgeting-dates.md) aanpassen.
 
 1. Klik **sparen**.
 
@@ -194,4 +194,4 @@ Om de Pools van het Middel en de middelen van het begrotingsproject in het Bedri
 
    De informatie over budgettering die in het bedrijfscase wordt gespecificeerd, wordt ook getoond in de Planner van het Middel.
 
-   Wanneer u een project kopieert, hebt u de optie om de Begrotingshours aan het nieuwe project ook te kopiëren. Alleen uren die in de bronnenplanner zijn opgenomen, worden gekopieerd. Voor meer informatie, zie [&#x200B; een project &#x200B;](../manage-projects/copy-project.md) kopiëren.
+   Wanneer u een project kopieert, hebt u de optie om de Begrotingshours aan het nieuwe project ook te kopiëren. Alleen uren die in de bronnenplanner zijn opgenomen, worden gekopieerd. Voor meer informatie, zie [ een project ](../manage-projects/copy-project.md) kopiëren.

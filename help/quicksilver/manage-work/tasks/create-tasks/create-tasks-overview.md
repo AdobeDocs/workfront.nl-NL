@@ -6,7 +6,7 @@ description: U kunt taken in een project slechts tot stand brengen nadat u het p
 author: Alina
 feature: Work Management
 exl-id: 7bd6578e-9288-4793-ba07-a0c126c479b9
-source-git-commit: c1b8af0d8a95714bb597db7a429794773358cf05
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '885'
 ht-degree: 0%
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 U kunt taken in een project slechts tot stand brengen nadat u het project creeerde.
 
-Bijvoorbeeld, na het creëren van een project, zou u taken kunnen willen toevoegen en hen wijzigen om het projectplan te organiseren. Voor meer informatie over het creëren van een project, zie [&#x200B; een project &#x200B;](../../../manage-work/projects/create-projects/create-project.md) creëren. Voor informatie over het creëren van taken, zie [&#x200B; taken in een project &#x200B;](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md) creëren.
+Bijvoorbeeld, na het creëren van een project, zou u taken kunnen willen toevoegen en hen wijzigen om het projectplan te organiseren. Voor meer informatie over het creëren van een project, zie [ een project ](../../../manage-work/projects/create-projects/create-project.md) creëren. Voor informatie over het creëren van taken, zie [ taken in een project ](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md) creëren.
 
 In dit artikel worden overwegingen, beperkingen en standaardinstellingen beschreven die van toepassing zijn bij het maken van taken.
 
@@ -25,15 +25,15 @@ In dit artikel worden overwegingen, beperkingen en standaardinstellingen beschre
 
 U kunt taken op een project op de volgende manieren tot stand brengen:
 
-* Van kras, zoals die in [&#x200B; wordt beschreven creeer taken in een project &#x200B;](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md).
-* De taken van het exemplaar aan het zelfde project of aan een nieuw project of dubbele taken op het zelfde project, zoals die in [&#x200B; worden beschreven Exemplaar en dubbele taken &#x200B;](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md).
-* De taken van de beweging van een project aan een andere, zoals die in [&#x200B; worden beschreven de taken van de Beweging &#x200B;](../../../manage-work/tasks/manage-tasks/move-tasks.md).
+* Van kras, zoals die in [ wordt beschreven creeer taken in een project ](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md).
+* De taken van het exemplaar aan het zelfde project of aan een nieuw project of dubbele taken op het zelfde project, zoals die in [ worden beschreven Exemplaar en dubbele taken ](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md).
+* De taken van de beweging van een project aan een andere, zoals die in [ worden beschreven de taken van de Beweging ](../../../manage-work/tasks/manage-tasks/move-tasks.md).
 
 ## Beperkingen bij het maken van taken
 
 Wanneer u de correcte toegang en de toestemmingen hebt kunt u taken op een project tot stand brengen. Het volgende is echter het geval wanneer u geen taken kunt maken:
 
-* Uw Adobe Workfront-beheerder of een groepsbeheerder moet het toevoegen van taken aan een project in de status Voltooid of Dode inschakelen in het gedeelte Projectvoorkeuren. Voor informatie over het plaatsen van projectvoorkeur, zie [&#x200B; systeem-brede projectvoorkeur &#x200B;](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) vormen.
+* Uw Adobe Workfront-beheerder of een groepsbeheerder moet het toevoegen van taken aan een project in de status Voltooid of Dode inschakelen in het gedeelte Projectvoorkeuren. Voor informatie over het plaatsen van projectvoorkeur, zie [ systeem-brede projectvoorkeur ](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) vormen.
 * U kunt geen taken aan een project toevoegen dat in Hangende Goedkeuring is.
 
 ## Het maximumaantal taken dat voor een project is toegestaan
@@ -56,7 +56,7 @@ Er zijn twee typen standaardgegevens die Workfront automatisch bijwerkt voor tak
 
 * Standaardinformatie op systeemniveau
 
-  Uw beheerder van Workfront of een groepsbeheerder vestigt de systeem-vlakke gebreken voor taken op het gebied van Taken &amp; van Kwesties van de Voorkeur van het Project. Voor informatie over taak en kwestie voorkeur, zie [&#x200B; de taak van het hele systeem vormen en voorkeur van de kwestie &#x200B;](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md) of [&#x200B; vormt taak en geeft voorkeur voor een groep &#x200B;](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md) uit.
+  Uw beheerder van Workfront of een groepsbeheerder vestigt de systeem-vlakke gebreken voor taken op het gebied van Taken &amp; van Kwesties van de Voorkeur van het Project. Voor informatie over taak en kwestie voorkeur, zie [ de taak van het hele systeem vormen en voorkeur van de kwestie ](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md) of [ vormt taak en geeft voorkeur voor een groep ](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md) uit.
 
 * Standaardinformatie op projectniveau
 
@@ -64,7 +64,7 @@ Er zijn twee typen standaardgegevens die Workfront automatisch bijwerkt voor tak
 
 Wanneer u een taak aan een project toevoegt, afhankelijk van hoe het project opstelling is, zou Workfront automatisch een goedkeuringsproces of douaneformulieren aan de taak kunnen vastmaken.
 
-Voor informatie over het vormen van een project om deze door gebrek toe te voegen, zie de &quot;sectie van Taken&quot;in [&#x200B; projecten &#x200B;](../../../manage-work/projects/manage-projects/edit-projects.md) artikel uitgeven.
+Voor informatie over het vormen van een project om deze door gebrek toe te voegen, zie de &quot;sectie van Taken&quot;in [ projecten ](../../../manage-work/projects/manage-projects/edit-projects.md) artikel uitgeven.
 
 Wanneer het bepalen van standaardinformatie die met taken moet worden geassocieerd die aan een project op het projectniveau worden toegevoegd, overweeg het volgende:
 
@@ -77,17 +77,17 @@ Wanneer het bepalen van standaardinformatie die met taken moet worden geassociee
    * Wanneer een malplaatje aan een bestaand project in bijlage is, bewaart het project het originele proces van de taakgoedkeuring en de montages van douaneformulieren als zij worden bepaald. Als zij niet worden bepaald, worden de montages van het malplaatje de montages voor het project.
    * Wanneer een malplaatje aan een bestaand project in bijlage is, behouden de taken die aan het project van het malplaatje worden toegevoegd het goedkeuringsproces en de montages van douaneformulieren die zij op het malplaatje hadden, ongeacht de taakmontages op het project.
 
-  Voor informatie over het vastmaken van een malplaatje aan een project, zie [&#x200B; een malplaatje aan een project &#x200B;](../../../manage-work/projects/create-and-manage-templates/attach-template-to-project.md) vastmaken.
+  Voor informatie over het vastmaken van een malplaatje aan een project, zie [ een malplaatje aan een project ](../../../manage-work/projects/create-and-manage-templates/attach-template-to-project.md) vastmaken.
 
 * Wanneer u het project kopieert, brengen de taak standaardmontages naar het nieuwe project over.
 
-  Voor informatie over het kopiëren van een project, zie [&#x200B; een project &#x200B;](../../../manage-work/projects/manage-projects/copy-project.md) kopiëren.
+  Voor informatie over het kopiëren van een project, zie [ een project ](../../../manage-work/projects/manage-projects/copy-project.md) kopiëren.
 
 * Wanneer u taken van één project aan een ander kopieert en het bestemmingsproject verschillende standaardmontages voor taken heeft, behouden de gekopieerde taken de standaardmontages van het originele project, tenzij zij in het het kopiëren proces worden ontruimd.
 * Wanneer u een taak dupliceert voor hetzelfde project, worden de aangepaste formulieren en het goedkeuringsproces overgebracht naar de dubbele taak.
 
-  Voor informatie over het kopiëren en het dupliceren van taken, zie [&#x200B; Kopiëren en dupliceren taken &#x200B;](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md).
+  Voor informatie over het kopiëren en het dupliceren van taken, zie [ Kopiëren en dupliceren taken ](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md).
 
 * Wanneer u de taak naar een ander project verplaatst, worden de standaardtaakmontages bewaard op de taken van het originele project, ongeacht de taak standaardmontages op het nieuwe project.
 
-  Voor informatie over het bewegen van taken, zie [&#x200B; de taken van de Beweging &#x200B;](../../../manage-work/tasks/manage-tasks/move-tasks.md).
+  Voor informatie over het bewegen van taken, zie [ de taken van de Beweging ](../../../manage-work/tasks/manage-tasks/move-tasks.md).

@@ -7,7 +7,7 @@ description: U kunt de taakbeperking Vaste datums gebruiken wanneer u specifieke
 author: Alina
 feature: Work Management
 exl-id: 084f54a6-e757-405c-b388-5d5f61608e71
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '437'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 # Overzicht van taakbeperking: Vaste datums
 
-U kunt de taakbeperking Vaste datums gebruiken wanneer u specifieke informatie wilt over de exacte begindatum en einddatum van uw taken. Voor meer informatie over taakbeperkingen, zie [&#x200B; Overzicht van de Beperking van de Taak &#x200B;](../../../manage-work/tasks/task-constraints/task-constraint-overview.md).
+U kunt de taakbeperking Vaste datums gebruiken wanneer u specifieke informatie wilt over de exacte begindatum en einddatum van uw taken. Voor meer informatie over taakbeperkingen, zie [ Overzicht van de Beperking van de Taak ](../../../manage-work/tasks/task-constraints/task-constraint-overview.md).
 
 ## Overzicht van de beperking Vaste datums
 
@@ -39,14 +39,14 @@ Houd rekening met het volgende wanneer u de beperking Vaste datums gebruikt:
 
    * Ongeacht het programma van het project, wanneer de beperkingsdata van de taak binnen de Data van het Begin en van de Voltooiing van het project zijn, zijn er geen veranderingen in de Restrictie van de Taak of de projectdata.
 
-  Voor informatie over het bewegen van taken, zie [&#x200B; de taken van de Beweging &#x200B;](../../../manage-work/tasks/manage-tasks/move-tasks.md). Voor informatie over het kopiëren van taken, zie [&#x200B; Kopiëren en dupliceren taken &#x200B;](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md).
+  Voor informatie over het bewegen van taken, zie [ de taken van de Beweging ](../../../manage-work/tasks/manage-tasks/move-tasks.md). Voor informatie over het kopiëren van taken, zie [ Kopiëren en dupliceren taken ](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md).
 
-Voor informatie over hoe te om de Restrictie van de Taak op een taak bij te werken, zie [&#x200B; de Restrictie van de Taak van een taak &#x200B;](../../../manage-work/tasks/task-constraints/update-task-constraint-of-task.md) bijwerken.
+Voor informatie over hoe te om de Restrictie van de Taak op een taak bij te werken, zie [ de Restrictie van de Taak van een taak ](../../../manage-work/tasks/task-constraints/update-task-constraint-of-task.md) bijwerken.
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <h2>Use the Fixed Dates Task Constraint</h2>
-<p>(NOTE:&nbsp;replaced with new article linked above) </p>
+<p>(NOTE: replaced with new article linked above) </p>
 <p>To update the Task Constraint to Finish No Later Than:</p>
 <ol>
 <li value="1">Go to a task whose Task Constraint you want to update.</li>

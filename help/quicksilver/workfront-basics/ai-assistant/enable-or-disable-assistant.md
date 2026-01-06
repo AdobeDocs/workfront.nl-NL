@@ -5,9 +5,9 @@ description: U kunt bepalen welke toegangsniveaus in uw organisatie toegang hebb
 author: Becky
 feature: Get Started with Workfront
 exl-id: eec9f484-e29b-4256-b9ef-b45eb2e78eac
-source-git-commit: 184636b0d8df85e75502fc3650900244cfbd0e80
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '240'
+source-wordcount: '212'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ Als beheerder van Workfront kunt u bepalen welke gebruikers in uw organisatie AI
  </tbody> 
 </table>
 
-Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -48,9 +48,10 @@ Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van W
 
 AI-assistent inschakelen voor een bepaald toegangsniveau:
 
-1. Klik het **[!UICONTROL Main Menu]** pictogram ![&#x200B; Belangrijkste Menu &#x200B;](/help/_includes/assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, of (als beschikbaar), klik het **[!UICONTROL Main Menu]** pictogram ![&#x200B; Belangrijkste Menu &#x200B;](/help/_includes/assets/main-menu-icon-left-nav.png) in de upper-left hoek, dan klik **[!UICONTROL Setup]** ![&#x200B; pictogram van de Opstelling &#x200B;](/help/_includes/assets/gear-icon-setup.png).
+{{step-1-to-setup}}
+
 1. Selecteer **Niveaus van de Toegang** in de linkernavigatie.
-1. Selecteer het gewenste toegangsniveau, dan klik **uitgeven** ![&#x200B; pictogram &#x200B;](assets/edit-icon.png) boven de lijst uitgeven pictogram.
+1. Selecteer het gewenste toegangsniveau, dan klik **uitgeven** ![ pictogram ](assets/edit-icon.png) boven de lijst uitgeven pictogram.
 1. In het **Vastgestelde extra beperkingen..** gebied van **geeft het vakje van het Niveau van de Toegang** uit, uncheck **onbruikbaar maken de Medewerker van Workfront AI** checkbox.
 1. Klik **sparen**.
 1. Herhaal stap 3-5 voor elk toegangsniveau u AI Medewerker voor wilt toelaten.

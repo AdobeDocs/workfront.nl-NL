@@ -6,7 +6,7 @@ description: We raden u aan sjablonen die u niet meer gebruikt, te deactiveren i
 author: Alina
 feature: Work Management
 exl-id: 41e0979c-f8ef-4a07-8848-e4ee8cc212c5
-source-git-commit: 87bf2a4485d3b0c29fcfe8e00dcca57874cdec04
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '361'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # Projectsjablonen verwijderen
 
-We raden u aan sjablonen die u niet meer gebruikt, te deactiveren in plaats van deze te verwijderen, zodat u in de loop der tijd historische informatie over uw projecten kunt bijhouden. Voor informatie over het deactiveren van een malplaatje, zie [&#x200B; projectmalplaatjes &#x200B;](../../../manage-work/projects/create-and-manage-templates/edit-templates.md) uitgeven.
+We raden u aan sjablonen die u niet meer gebruikt, te deactiveren in plaats van deze te verwijderen, zodat u in de loop der tijd historische informatie over uw projecten kunt bijhouden. Voor informatie over het deactiveren van een malplaatje, zie [ projectmalplaatjes ](../../../manage-work/projects/create-and-manage-templates/edit-templates.md) uitgeven.
 
 >[!IMPORTANT]
 >
@@ -49,7 +49,7 @@ We raden u aan sjablonen die u niet meer gebruikt, te deactiveren in plaats van 
  </tbody> 
 </table>
 
-Voor meer informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -69,7 +69,7 @@ Voor meer informatie, zie [&#x200B; vereisten van de Toegang in de documentatie 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to&nbsp;Templates that includes access to Delete</p> <p> <img src="assets/template-access-level-with-advanced-settings-350x113.png" style="width: 350;height: 113;"> </p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Edit access to Templates that includes access to Delete</p> <p> <img src="assets/template-access-level-with-advanced-settings-350x113.png" style="width: 350;height: 113;"> </p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -83,7 +83,7 @@ Voor meer informatie, zie [&#x200B; vereisten van de Toegang in de documentatie 
 * De taken die aan projecten werden toegevoegd toen het malplaatje in bijlage was blijven op de projecten. Nochtans, wordt de informatie van de malplaatjetaak verbonden aan de taken geschrapt.
 * De naam van het malplaatje is niet meer vermeld in het **Malplaatje** gebied op het **Overzicht** sub-lusje van het project.
 
-* U kunt een onlangs verwijderde sjabloon uit de prullenbak herstellen. Voor informatie over het terugkrijgen van punten van de Prullenbak, zie [&#x200B; geschrapte punten &#x200B;](../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md) herstellen.
+* U kunt een onlangs verwijderde sjabloon uit de prullenbak herstellen. Voor informatie over het terugkrijgen van punten van de Prullenbak, zie [ geschrapte punten ](../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md) herstellen.
 
 ## Een sjabloon verwijderen
 
@@ -95,6 +95,6 @@ Hiermee wordt een lijst met sjablonen geopend
 
    of
 
-   Klik de naam van een malplaatje om tot het toegang te hebben, dan klik **Meer** menu ![&#x200B; Meer pictogram &#x200B;](assets/more-icon.png), dan **Schrapping Malplaatje > ja, schrap het**.
+   Klik de naam van een malplaatje om tot het toegang te hebben, dan klik **Meer** menu ![ Meer pictogram ](assets/more-icon.png), dan **Schrapping Malplaatje > ja, schrap het**.
 
    Het malplaatje is niet meer beschikbaar om met een project worden geassocieerd.

@@ -6,7 +6,7 @@ description: U kunt machtigingen delen of verwijderen voor een object dat u hebt
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 7c14702e-ac55-4266-88a7-f31618f84218
-source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '1289'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Wanneer het delen van een voorwerp met iemand in het systeem, kunt u de ontvange
 
 U hoeft geen Adobe Workfront-beheerder te zijn om machtigingen te delen voor objecten waartoe u toegang hebt, maar uw machtigingen voor objecten werken binnen de toegangsniveaus die door de Workfront-beheerder zijn ingesteld.
 
-U kunt machtigingen delen of verwijderen voor een object dat u hebt gemaakt of een object dat met u is gedeeld. Wanneer u niet de schepper van het voorwerp bent, moet u de toegang van het Aandeel op het voorwerp hebben dat u in uw toegangsniveau naast de toestemmingen van het Aandeel op het voorwerp wilt delen. Voor informatie over toegangsniveaus, zie [&#x200B; Nieuw overzicht van toegangsniveaus &#x200B;](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md) of [&#x200B; overzicht van de Niveaus van de Toegang &#x200B;](../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
+U kunt machtigingen delen of verwijderen voor een object dat u hebt gemaakt of een object dat met u is gedeeld. Wanneer u niet de schepper van het voorwerp bent, moet u de toegang van het Aandeel op het voorwerp hebben dat u in uw toegangsniveau naast de toestemmingen van het Aandeel op het voorwerp wilt delen. Voor informatie over toegangsniveaus, zie [ Nieuw overzicht van toegangsniveaus ](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md) of [ overzicht van de Niveaus van de Toegang ](../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
 
 >[!NOTE]
 >
@@ -34,37 +34,37 @@ U kunt machtigingen delen of verwijderen voor een object dat u hebt gemaakt of e
 
 U kunt de volgende objecten in Workfront delen met andere gebruikers:
 
-* **Projecten**: Voor meer informatie, zie [&#x200B; een project in Adobe Workfront &#x200B;](../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md) delen.
+* **Projecten**: Voor meer informatie, zie [ een project in Adobe Workfront ](../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md) delen.
 
-* **Malplaatjes**: Voor meer informatie, zie [&#x200B; projectmalplaatjes van het Aandeel &#x200B;](../../manage-work/projects/create-and-manage-templates/share-project-template.md).
+* **Malplaatjes**: Voor meer informatie, zie [ projectmalplaatjes van het Aandeel ](../../manage-work/projects/create-and-manage-templates/share-project-template.md).
 
-* **Portfolio&#39;s**: Voor meer informatie, zie [&#x200B; een portefeuille &#x200B;](../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio.md) delen.
+* **Portfolio&#39;s**: Voor meer informatie, zie [ een portefeuille ](../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio.md) delen.
 
-* **Programma&#39;s**: Voor informatie, zie [&#x200B; een programma &#x200B;](../../workfront-basics/grant-and-request-access-to-objects/share-a-program.md) delen.
+* **Programma&#39;s**: Voor informatie, zie [ een programma ](../../workfront-basics/grant-and-request-access-to-objects/share-a-program.md) delen.
 
-* **Taken**: Voor informatie, zie [&#x200B; een taak &#x200B;](../../workfront-basics/grant-and-request-access-to-objects/share-a-task.md) delen.
+* **Taken**: Voor informatie, zie [ een taak ](../../workfront-basics/grant-and-request-access-to-objects/share-a-task.md) delen.
 
-* **Kwesties**: Voor informatie, zie [&#x200B; een kwestie &#x200B;](../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md) delen.
+* **Kwesties**: Voor informatie, zie [ een kwestie ](../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md) delen.
 
-* **Documenten**: Voor informatie, zie [&#x200B; een document &#x200B;](../../workfront-basics/grant-and-request-access-to-objects/document-permissions.md) delen.
+* **Documenten**: Voor informatie, zie [ een document ](../../workfront-basics/grant-and-request-access-to-objects/document-permissions.md) delen.
 
-* **de Omslagen van het Document**: Voor informatie, zie [&#x200B; een documentomslag &#x200B;](../../workfront-basics/grant-and-request-access-to-objects/share-a-document-folder.md) delen.
+* **de Omslagen van het Document**: Voor informatie, zie [ een documentomslag ](../../workfront-basics/grant-and-request-access-to-objects/share-a-document-folder.md) delen.
 
-* **Proofs**: Voor informatie, zie [&#x200B; een Bewijs binnen Workfront &#x200B;](/help/quicksilver/review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md) delen.
+* **Proofs**: Voor informatie, zie [ een Bewijs binnen Workfront ](/help/quicksilver/review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md) delen.
 
-* **Rapporten, dashboards, en kalenders**: Voor informatie, zie [&#x200B; rapporten, dashboards, en kalenders van het Aandeel &#x200B;](../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md). Zie ook de volgende artikelen:
+* **Rapporten, dashboards, en kalenders**: Voor informatie, zie [ rapporten, dashboards, en kalenders van het Aandeel ](../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md).  Zie ook de volgende artikelen:
 
    * [Een rapport delen in Adobe Workfront](../../reports-and-dashboards/reports/creating-and-managing-reports/share-report.md)
    * [Een dashboard delen](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/share-dashboard.md)
    * [Een kalenderrapport delen](../../reports-and-dashboards/reports/calendars/share-a-calendar-report.md)
 
-* **Filters, meningen, en groeperingen**: Voor informatie, zie [&#x200B; een filter, mening, of groepering &#x200B;](../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md) delen.
+* **Filters, meningen, en groeperingen**: Voor informatie, zie [ een filter, mening, of groepering ](../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md) delen.
 
-* **Plannen**: Voor informatie, zie [&#x200B; een plan in de Planner van het Scenario delen &#x200B;](../../scenario-planner/share-a-plan.md).
+* **Plannen**: Voor informatie, zie [ een plan in de Planner van het Scenario delen ](../../scenario-planner/share-a-plan.md).
 
   Hiervoor is een aanvullende licentie vereist.
 
-* **Doelen**: Voor informatie, zie [&#x200B; een doel in de Doelen van Workfront delen &#x200B;](../../workfront-goals/workfront-goals-settings/share-a-goal.md).
+* **Doelen**: Voor informatie, zie [ een doel in de Doelen van Workfront delen ](../../workfront-goals/workfront-goals-settings/share-a-goal.md).
 
   Hiervoor is een aanvullende licentie vereist.
 
@@ -87,13 +87,13 @@ U kunt de volgende objecten in Workfront delen met andere gebruikers:
   >
   >Zie voor meer informatie:
   >
-  >* [&#x200B; Deel een plan in de Planner van het Scenario &#x200B;](../../scenario-planner/share-a-plan.md)
-  >* [&#x200B; Deel een doel in de Doelen van Workfront &#x200B;](../../workfront-goals/workfront-goals-settings/share-a-goal.md)
+  >* [ Deel een plan in de Planner van het Scenario ](../../scenario-planner/share-a-plan.md)
+  >* [ Deel een doel in de Doelen van Workfront ](../../workfront-goals/workfront-goals-settings/share-a-goal.md)
 
 * Workfront stuurt meldingen naar gebruikers wanneer u een object met hen deelt. Meldingen gaan uit wanneer beide instellingen zijn ingeschakeld:
 
-   * Het **Aandeel van Objecten aan Gebruiker** en het **Aandeel van Objecten aan de e-mailberichten van het Team** worden toegelaten in het gebied van de Opstelling door een systeem of groepsbeheerder. Voor informatie, zie [&#x200B; gebeurtenisberichten voor iedereen in het systeem &#x200B;](/help/quicksilver/administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md) vormen.
-   * **Iemand deelt een voorwerp met me** en **Iemand deelt een voorwerp met mijn team** berichten worden toegelaten in de het profielpagina van de gebruiker. Voor informatie, zie [&#x200B; uw eigen e-mailberichten &#x200B;](/help/quicksilver/workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md) wijzigen.
+   * Het **Aandeel van Objecten aan Gebruiker** en het **Aandeel van Objecten aan de e-mailberichten van het Team** worden toegelaten in het gebied van de Opstelling door een systeem of groepsbeheerder. Voor informatie, zie [ gebeurtenisberichten voor iedereen in het systeem ](/help/quicksilver/administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md) vormen.
+   * **Iemand deelt een voorwerp met me** en **Iemand deelt een voorwerp met mijn team** berichten worden toegelaten in de het profielpagina van de gebruiker. Voor informatie, zie [ uw eigen e-mailberichten ](/help/quicksilver/workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md) wijzigen.
 
   De instellingen op systeem- of groepsniveau moeten eerst zijn ingeschakeld voordat u de meldingsinstellingen voor de gebruiker kunt inschakelen.
 
@@ -160,17 +160,17 @@ Machtigingen in Workfront worden hiërarchisch overgeërfd. Dit betekent dat als
 
 Als u een gebruiker bijvoorbeeld Contribute-machtigingen geeft aan een project, heeft de gebruiker Contribute-machtigingen voor alle taken en uitgaven (onderliggende objecten) die aan dat project zijn gekoppeld.
 
-In het bovenstaande voorbeeld kunt u machtigingen niet beperken tot onderliggende objecten. Als u niet wilt dat de gebruiker Contribute toestemmingen aan kindvoorwerpen verbonden aan het project heeft, moet u de Geërfte Toestemmingen van de voorwerpen manueel verwijderen en dan de toestemmingen voor de individuele gebruiker, met inbegrip van om het even welke Geavanceerde Montages aanpassen. 
+In het bovenstaande voorbeeld kunt u machtigingen niet beperken tot onderliggende objecten. Als u niet wilt dat de gebruiker Contribute toestemmingen aan kindvoorwerpen verbonden aan het project heeft, moet u de Geërfte Toestemmingen van de voorwerpen manueel verwijderen en dan de toestemmingen voor de individuele gebruiker, met inbegrip van om het even welke Geavanceerde Montages aanpassen.
 
-Voor meer informatie over de hiërarchie en de onderlinge afhankelijkheid van voorwerpen in Workfront, zie de sectie [&#x200B; Interdependentie en hiërarchie van voorwerpen &#x200B;](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#interdependency-and-hierarchy-of-objects) in het artikel [&#x200B; de voorwerpen van Adobe Workfront overzicht &#x200B;](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+Voor meer informatie over de hiërarchie en de onderlinge afhankelijkheid van voorwerpen in Workfront, zie de sectie [ Interdependentie en hiërarchie van voorwerpen ](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#interdependency-and-hierarchy-of-objects) in het artikel [ de voorwerpen van Adobe Workfront overzicht ](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
 >[!NOTE]
 >
->Uw Workfront-beheerder kan overgeërfde machtigingen voor documenten op uw toegangsniveau uitschakelen. Voor meer informatie over het onbruikbaar maken van geërfte toestemmingen voor documenten in het toegangsniveau, zie [&#x200B; tot douanetoegangsniveaus &#x200B;](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md) leiden of wijzigen.
+>Uw Workfront-beheerder kan overgeërfde machtigingen voor documenten op uw toegangsniveau uitschakelen.  Voor meer informatie over het onbruikbaar maken van geërfte toestemmingen voor documenten in het toegangsniveau, zie [ tot douanetoegangsniveaus ](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md) leiden of wijzigen.
 
-### Machtigingen die zijn verkregen door het lidmaatschap van een organisatie  {#permissions-acquired-through-organizational-memberships}
+### Machtigingen die zijn verkregen door het lidmaatschap van een organisatie   {#permissions-acquired-through-organizational-memberships}
 
-Als u beheerdersmachtigingen toekent aan een groep gebruikers voor een object en u weergavemachtigingen toekent aan een individuele gebruiker in die groep voor hetzelfde object, heeft de gebruiker het hoogste machtigingsniveau (Beheren) dat is toegekend via het groepslidmaatschap voor het object. 
+Als u beheerdersmachtigingen toekent aan een groep gebruikers voor een object en u weergavemachtigingen toekent aan een individuele gebruiker in die groep voor hetzelfde object, heeft de gebruiker het hoogste machtigingsniveau (Beheren) dat is toegekend via het groepslidmaatschap voor het object.
 
 Als u lagere toestemmingen aan een gebruiker wilt verlenen die reeds deel van een organisatorische eenheid (Groep, Team, de Rol van de Baan, of Bedrijf) met een hoger toestemmingsniveau uitmaakt, moet u de toestemmingen uit de organisatorische eenheid verwijderen, en gebruikers individueel met een lager niveau van toestemmingen toevoegen.
 
@@ -179,10 +179,10 @@ Als u lagere toestemmingen aan een gebruiker wilt verlenen die reeds deel van ee
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <h2>Remove permissions from objects</h2>
 <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">AL: draft/ hide this div when Becky makes Remove permissions from objects live and replace with the drafted content with the link at the top of this section</p>
-<p>You can remove permissions from objects you have access to Share. Removing permissions from objects is identical for all objects that can be shared.&nbsp;</p> <note type="note">
-&nbsp;You cannot remove permissions when you share items in bulk. You can remove permissions only when selecting individual items.&nbsp;
+<p>You can remove permissions from objects you have access to Share. Removing permissions from objects is identical for all objects that can be shared.  </p> <note type="note">
+  You cannot remove permissions when you share items in bulk. You can remove permissions only when selecting individual items.  
 </note>
-<p>To remove permissions from objects consider the following:&nbsp;</p>
+<p>To remove permissions from objects consider the following:  </p>
 <ul>
 <li><a href="#remove-entities-from-the-sharing-list-of-an-object" class="MCXref xref">Remove entities from the sharing list of an object</a> </li>
 <li><a href="#remove-inherited-permissions" class="MCXref xref">Remove inherited permissions</a> </li>
@@ -190,38 +190,38 @@ Als u lagere toestemmingen aan een gebruiker wilt verlenen die reeds deel van ee
 </ul>
 <p><strong>Remove entities from the sharing list of an object</strong></p>
 <p>You can remove entities from the sharing list of an object to remove their permissions from the object.</p>
-<p>To remove permissions from objects:&nbsp;</p>
+<p>To remove permissions from objects:  </p>
 <ol>
 <li value="1">Navigate to an object on which you want to modify the permissions.</li>
-<li value="2">Click the <strong>Actions</strong> menu, then click <strong>Sharing</strong>.<br>For example, on a project, click <strong>Project Actions</strong>, then <strong>Sharing</strong>.&nbsp;</li>
+<li value="2">Click the <strong>Actions</strong> menu, then click <strong>Sharing</strong>.<br>For example, on a project, click <strong>Project Actions</strong>, then <strong>Sharing</strong>.  </li>
 <li value="3">Click the <strong>x</strong> next to the name of a user, team, group, company, job role to remove them.<br></li>
 <li value="4">In the <strong><User Name>'s Workfront access will be removed from this</strong> drop-down menu, select whether you want their access to be removed just from the object you have selected, or from all children objects associated with it.<br>The following scenarios exist:
 <ul>
-<li>If you remove the entity only from the object, that entity loses their permissions on the object, and their inherited permissions to the children objects. If they are granted permissions to the children items individually, they retain the same permissions on all children objects associated with it when you select this option.&nbsp;</li>
-<li>If you remove the entity from the object and all the children objects, that entity loses their permissions to the object as well as all children objects, even when they have been given individual permission on each child object.&nbsp;</li>
+<li>If you remove the entity only from the object, that entity loses their permissions on the object, and their inherited permissions to the children objects. If they are granted permissions to the children items individually, they retain the same permissions on all children objects associated with it when you select this option.  </li>
+<li>If you remove the entity from the object and all the children objects, that entity loses their permissions to the object as well as all children objects, even when they have been given individual permission on each child object.  </li>
 </ul></li>
 <li value="5">Click <strong>Save</strong>.</li>
 </ol>
 <p> <p><strong>Remove inherited permissions</strong></p> </p>
-<p>Inherited permissions can be removed from objects allowing for owners to specifically&nbsp;identify who will get access to children objects regardless of the access of a user to a parent object. Only users with Manage permission are able to remove inherited permissions.</p>
+<p>Inherited permissions can be removed from objects allowing for owners to specifically  identify who will get access to children objects regardless of the access of a user to a parent object. Only users with Manage permission are able to remove inherited permissions.</p>
 <p>To remove inherited permissions:</p>
 <ol>
 <li value="1">Navigate to an object to which you have Manage permissions. <br>For example, navigate to a task.</li>
 <li value="2">Go to the sharing list as described in the <a href="#Share" class="MCXref xref">Overview of sharing permissions on objects</a> section in this article. </li>
-<li value="3">Select the <strong>X</strong>&nbsp;mark next to <strong>Inherited Permission</strong>&nbsp;on the sharing box to remove&nbsp;anyone listed there.<br><br>This ensures that no one who is granted permissions to the parent object (for example, the project) has permissions to this task by default. You must list&nbsp; individual entities in the sharing list of the task to grant permissions on the task.<br><note type="note">
+<li value="3">Select the <strong>X</strong>  mark next to <strong>Inherited Permission</strong>  on the sharing box to remove  anyone listed there.<br><br>This ensures that no one who is granted permissions to the parent object (for example, the project) has permissions to this task by default. You must list   individual entities in the sharing list of the task to grant permissions on the task.<br><note type="note">
 You cannot remove individual entities from the Inherited Permissions list. You can only disable the Inherited Permissions for all entities listed.
 </note></li>
-<li value="4">Click <strong>Save</strong>.&nbsp;</li>
+<li value="4">Click <strong>Save</strong>.  </li>
 </ol>
 <p><strong>Make an object private</strong></p>
-<p>If you have shared an object system-wide, or you have shared it with external uses by making it public, you can make it private again by removing the system-wide or public permissions.&nbsp;</p>
+<p>If you have shared an object system-wide, or you have shared it with external uses by making it public, you can make it private again by removing the system-wide or public permissions.  </p>
 <p>For more information about making an object available system-wide, or publicly, see the section <a href="#Share" class="MCXref xref">Overview of sharing permissions on objects</a> in this article.</p>
 <p>To make an object private:</p>
 <ol>
 <li value="1">Go to the object you want to make private.<br>For example, navigate to a report.</li>
 <li value="2">Click <strong>Report Actions</strong>, then <strong>Sharing</strong>.<br><br></li>
 <li value="3">Click <strong>Remove public access</strong> to remove the access of external users to viewing the report.</li>
-<li value="4">Click <strong>Remove system-wide access</strong> to stop sharing it with all Workfront users.&nbsp;</li>
+<li value="4">Click <strong>Remove system-wide access</strong> to stop sharing it with all Workfront users.  </li>
 <li value="5">Click <strong>Save</strong>.</li>
 </ol>
 </div>
@@ -229,16 +229,16 @@ You cannot remove individual entities from the Inherited Permissions list. You c
 
 ## Een object delen
 
-Voor informatie over hoe te om voorwerpen te delen, zie [&#x200B; een voorwerp &#x200B;](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md) delen.
+Voor informatie over hoe te om voorwerpen te delen, zie [ een voorwerp ](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md) delen.
 
 ## Rechten van objecten verwijderen
 
-Voor informatie over hoe te om toestemmingen uit voorwerpen te verwijderen, zie [&#x200B; toestemmingen uit voorwerpen &#x200B;](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md) verwijderen.
+Voor informatie over hoe te om toestemmingen uit voorwerpen te verwijderen, zie [ toestemmingen uit voorwerpen ](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md) verwijderen.
 
 ## Machtigingen aanvragen voor objecten
 
-Wanneer iemand u een koppeling stuurt naar een object waarvoor u geen weergavemachtigingen hebt, of wanneer u over minder machtigingen voor een object beschikt en u een hoger machtigingsniveau wilt aanvragen, kunt u machtigingen voor het object aanvragen. 
+Wanneer iemand u een koppeling stuurt naar een object waarvoor u geen weergavemachtigingen hebt, of wanneer u over minder machtigingen voor een object beschikt en u een hoger machtigingsniveau wilt aanvragen, kunt u machtigingen voor het object aanvragen.
 
-U kunt toegang tot een object aanvragen bij iedereen die toestemming voor delen heeft voor het object. 
+U kunt toegang tot een object aanvragen bij iedereen die toestemming voor delen heeft voor het object.
 
-Voor meer informatie over het verzoeken van toestemmingen aan voorwerpen, zie [&#x200B; Toegang van het Verzoek tot voorwerpen &#x200B;](../../workfront-basics/grant-and-request-access-to-objects/request-access.md).
+Voor meer informatie over het verzoeken van toestemmingen aan voorwerpen, zie [ Toegang van het Verzoek tot voorwerpen ](../../workfront-basics/grant-and-request-access-to-objects/request-access.md).

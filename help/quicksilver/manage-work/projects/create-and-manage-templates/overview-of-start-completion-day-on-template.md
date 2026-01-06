@@ -6,7 +6,7 @@ description: U kunt projectmalplaatjes gebruiken om de meeste herhaalbare proces
 author: Alina
 feature: Work Management
 exl-id: caa0e7b1-37c3-4973-92ce-cc93df4e4186
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '714'
 ht-degree: 0%
@@ -50,7 +50,7 @@ Hier volgen enkele acties die de Voltooiingsdag van de sjabloontaken kunnen wijz
 
 ## Werken met sjablonen die zijn gepland na voltooiing
 
-U kunt een sjabloon plannen vanaf Voltooiingsdag. Voor meer informatie, zie [&#x200B; projectmalplaatjes &#x200B;](../../../manage-work/projects/create-and-manage-templates/edit-templates.md) uitgeven.
+U kunt een sjabloon plannen vanaf Voltooiingsdag. Voor meer informatie, zie [ projectmalplaatjes ](../../../manage-work/projects/create-and-manage-templates/edit-templates.md) uitgeven.
 
 Denk aan het volgende wanneer u werkt met sjablonen die vanaf de Voltooiingsdatum zijn gepland:
 

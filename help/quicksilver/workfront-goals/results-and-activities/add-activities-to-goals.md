@@ -7,7 +7,7 @@ description: Met activiteiten wordt de voortgang van een doel gemeten. Zonder bi
 author: Alina
 feature: Workfront Goals
 exl-id: 4d6ef324-4b5c-402b-b64d-b1a2a7d2ab57
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '389'
 ht-degree: 0%
@@ -68,7 +68,7 @@ Met activiteiten wordt de voortgang van een doel gemeten. Zonder resultaten, act
 </tbody>
 </table>
 
-Voor meer informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -132,13 +132,13 @@ Voor meer informatie, zie [&#x200B; vereisten van de Toegang in de documentatie 
 
 U moet een bestaand doel hebben om er activiteiten aan toe te voegen.
 
-Voor informatie over het creëren van doelstellingen, zie [&#x200B; doelstellingen in de Doelen van Adobe Workfront &#x200B;](../../workfront-goals/goal-management/create-goals.md) creëren.
+Voor informatie over het creëren van doelstellingen, zie [ doelstellingen in de Doelen van Adobe Workfront ](../../workfront-goals/goal-management/create-goals.md) creëren.
 
 >[!IMPORTANT]
 >
 >Een doel kan niet meer dan 1000 activiteiten, resultaten, of gerichte doelstellingen hebben.
 
-Voor meer informatie over activiteiten, zie [&#x200B; begonnen worden met resultaten en activiteiten in de Doelen van Adobe Workfront &#x200B;](../../workfront-goals/results-and-activities/get-started-with-results-and-activities.md).
+Voor meer informatie over activiteiten, zie [ begonnen worden met resultaten en activiteiten in de Doelen van Adobe Workfront ](../../workfront-goals/results-and-activities/get-started-with-results-and-activities.md).
 
 ## Een activiteit toevoegen aan een doel
 
@@ -152,7 +152,7 @@ Adding activities to goals differs depending on which environment you use.
 
    ![Add activity inside goal](assets/add-activity-inside-goal-details-highlighted-350x152.png)
 
-1. From the **Activity Type** drop-down menu, select the type of activity you want to associate with your goal.&nbsp;Select **Manual progress bar** or **Project**. Manual progress bar is the default selection. 
+1. From the **Activity Type** drop-down menu, select the type of activity you want to associate with your goal. Select **Manual progress bar** or **Project**. Manual progress bar is the default selection. 
 1. (Conditional) Depending on which activity type you selected, do the following:
 
    1. If you selected **Manual progress bar**:
@@ -193,14 +193,14 @@ Adding activities to goals differs depending on which environment you use.
 -->
 
 
-1. Klik het **&#x200B;**&#x200B;Belangrijkste pictogram van het Menu ![&#x200B; Belangrijkste &#x200B;](assets/main-menu-icon.png), toen **Doelen**.
+1. Klik het **** Belangrijkste pictogram van het Menu ![ Belangrijkste ](assets/main-menu-icon.png), toen **Doelen**.
 1. Klik in de lijst met doelen op de naam van een doel om de pagina met het doel te openen.
 1. Klik **indicatoren van de Voortgang** in het linkerpaneel.
 1. Van het Nieuwe drop-down menu van de vooruitgangsindicator, klik **creeer activiteit**.
 
    Het vak Nieuwe activiteit wordt geopend.
 
-   ![&#x200B; Nieuwe activiteitendoos &#x200B;](assets/new-activity-box-unshimmed.png)
+   ![ Nieuwe activiteitendoos ](assets/new-activity-box-unshimmed.png)
 
 1. Typ een naam voor de activiteit in het veld Naam activiteit. Dit is een verplicht veld.
 1. (Facultatief) verwijder uw naam uit het **bezit van de Activiteit** gebied als u de activiteit aan een andere gebruiker wilt toewijzen. Standaard bent u de eigenaar van een activiteit die u maakt.
