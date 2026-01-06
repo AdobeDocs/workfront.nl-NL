@@ -29,9 +29,9 @@ Workfront-partners maken gebruik van Workfront UI Extensions, een krachtig frame
 
 InApp werkt samen met klanten van Adobe Workfront om dagelijkse knelpunten om te zetten in herhaalbare oplossingen met voorspelbare resultaten. De groeiende bibliotheek met oplossingen helpt nauwkeurigheid, snelheid en verantwoordingsplicht te bevorderen door live gegevens te gebruiken van waar mensen werken. InApp kunnen leiders zien wat er nu gebeurt en plannen wat er daarna moet gebeuren. Gebruikers kunnen de AtAppStore Adobe Exchange-apps bekijken die momenteel beschikbaar zijn en klaar zijn om te installeren, de apps selecteren die aan hun huidige prioriteiten voldoen en schalen wanneer hun behoeften toenemen.
 
-* [ Updater van Excel ](https://exchange.adobe.com/apps/ec/abtt1rq7o9/atapp-excel-updater): De Updater van Excel biedt u een rendabele weg om gegevens in Workfront te integreren zonder het moeten API leren, code schrijven, of opstelling een server, en is ideaal voor zowel eenmalige als terugkomende gegevensladingen.
+* [&#x200B; Updater van Excel &#x200B;](https://exchange.adobe.com/apps/ec/abtt1rq7o9/atapp-excel-updater): De Updater van Excel biedt u een rendabele weg om gegevens in Workfront te integreren zonder het moeten API leren, code schrijven, of opstelling een server, en is ideaal voor zowel eenmalige als terugkomende gegevensladingen.
 
-* [ Recalc Helper ](https://exchange.adobe.com/apps/ec/abv755903t/atapp-recalc-helper): De oplossing van de Helper van Recalc verstrekt u een snelle manier om de aangepaste vorm berekende uitdrukkingen, projectchronologie, of projectfinanciën voor alle punten gemakkelijk opnieuw te berekenen die een geselecteerd filter, recht van binnen Workfront aanpassen.
+* [&#x200B; Recalc Helper &#x200B;](https://exchange.adobe.com/apps/ec/abv755903t/atapp-recalc-helper): De oplossing van de Helper van Recalc verstrekt u een snelle manier om de aangepaste vorm berekende uitdrukkingen, projectchronologie, of projectfinanciën voor alle punten gemakkelijk opnieuw te berekenen die een geselecteerd filter, recht van binnen Workfront aanpassen.
 
 * UberTimesheet: UberTimesheet-oplossing kan de acceptatie van Workfront door uw gebruikers verbeteren en uitbreiden door het voor iedereen eenvoudig en handig te maken om de tijd van zijn browser, tablet of smartphone te volgen.
 
@@ -100,7 +100,7 @@ Een app aanschaffen
 1. Klik op de naam van de app.
 1. Klik op de knop in de rechterbovenhoek van de appenlijst.
 1. Klik **ja, ga** voort en keur dan de overeenkomst van de eindgebruikervergunning goed.
-   ![ bevestigt vergunningsovereenkomst ](assets/2-aquire-application.png)
+   ![&#x200B; bevestigt vergunningsovereenkomst &#x200B;](assets/2-aquire-application.png)
 
 ### Handelingen voor systeembeheerders
 
@@ -114,13 +114,13 @@ Systeembeheerders worden doorgaans per e-mail op de hoogte gesteld wanneer een g
 
 **Admin Console**
 
-Systeembeheerders kunnen zich aanmelden bij de Admin Console op [ https://adminconsole.adobe.com/ ](https://adminconsole.adobe.com/) en naar Producten > Toepassingsintegratie navigeren om alle opgehaalde of aangevraagde apps weer te geven.
+Systeembeheerders kunnen zich aanmelden bij de Admin Console op [&#x200B; https://adminconsole.adobe.com/ &#x200B;](https://adminconsole.adobe.com/) en naar Producten > Toepassingsintegratie navigeren om alle opgehaalde of aangevraagde apps weer te geven.
 
 Zodra een systeembeheerder toegang tot de verzoeken heeft, kunnen zij de toepassing herzien en goedkeuren. Sommige toepassingen vragen de beheerder mogelijk toestemming te geven voor gegevenstoegang en de app toe te wijzen aan productprofielen of specifieke gebruikers.
 
 Nadat de app is goedgekeurd, kan deze worden geïnstalleerd.
 
-![ overzicht en keurt apps ](assets/3-manage.png) goed
+![&#x200B; overzicht en keurt apps &#x200B;](assets/3-manage.png) goed
 
 ## Toepassingen installeren
 
@@ -130,7 +130,7 @@ Zodra een app is aangeschaft, kan deze rechtstreeks in Workfront worden geïnsta
 1. Klik op App-details weergeven.
 1. Selecteer een omgeving links op het scherm of voeg een nieuwe omgeving toe.
 1. Klik **opstellen**.
-   ![ stel app ](assets/10-env-details-2.png) op
+   ![&#x200B; stel app &#x200B;](assets/10-env-details-2.png) op
 1. Wijs installatie- of gebruiksrechten toe (indien vereist).
 
    Als uw organisatie de toegang tot toepassingen beheert via productprofielen of gebruikersgroepen, wijst u de toepassing toe aan het juiste profiel of de juiste groep zodat gebruikers door kunnen gaan met de installatie en het gebruik.
@@ -141,7 +141,7 @@ Zodra opgesteld, zal partnerapp in het lay-outmalplaatje van Workfront beschikba
 
 Als u de app aan de lay-outsjabloon wilt toevoegen, opent u de lay-outsjabloon en gaat u naar het hoofdmenu of het secundaire menugebied. Voeg de app toe met het pictogram Toevoegen.
 
-![ voeg app aan het lay-outmalplaatje toe ](assets/add-to-lt.png)
+![&#x200B; voeg app aan het lay-outmalplaatje toe &#x200B;](assets/add-to-lt.png)
 
 ## Contact opnemen met App-ondersteuning
 
