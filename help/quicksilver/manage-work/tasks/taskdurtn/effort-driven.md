@@ -16,11 +16,11 @@ ht-degree: 0%
 
 # Overzicht van het Duur Type: Door de inspanning gestuurde
 
-Geforceerde inspanning is een duurtype dat u voor een taak in Adobe Workfront kunt plaatsen. Voor algemene informatie over de Types van Duur in Workfront, zie [ Overzicht van het Type van Duur en van de Duur van de Taak ](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
+Geforceerde inspanning is een duurtype dat u voor een taak in Adobe Workfront kunt plaatsen. Voor algemene informatie over de Types van Duur in Workfront, zie [&#x200B; Overzicht van het Type van Duur en van de Duur van de Taak &#x200B;](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
 
 ## Overzicht van het type door de inspanning bepaalde duur
 
-Uw Workfront of een groepsbeheerder kan het standaardtype Duur van uw systeem of groep instellen als Gedreven inspanning. In dit geval, zullen alle nieuwe taken met dit Type van Duur worden gecreeerd. Voor informatie over het veranderen van uw taak en geef voorkeur uit als deel van uw systeem-niveau of groep-vlakke projectvoorkeur uit, zie [ systeembrede taak en uitgiftevoorkeur ](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md) vormen.
+Uw Workfront of een groepsbeheerder kan het standaardtype Duur van uw systeem of groep instellen als Gedreven inspanning. In dit geval, zullen alle nieuwe taken met dit Type van Duur worden gecreeerd. Voor informatie over het veranderen van uw taak en geef voorkeur uit als deel van uw systeem-niveau of groep-vlakke projectvoorkeur uit, zie [&#x200B; systeembrede taak en uitgiftevoorkeur &#x200B;](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md) vormen.
 
 In dit scenario, is er een risico om het projectplan willekeurig te verkorten, tenzij u, als projectleider, de tijd neemt om te overwegen of de taak eigenlijk een Efort Gedreven taak is.
 
@@ -46,15 +46,15 @@ Planned Hours (in hours) = Duration (in days)
 
 U kunt de duur van de taak handmatig aanpassen.
 
-Workfront gaat ervan uit dat er 8 werkuren per werkdag zijn. Uw Workfront- of groepsbeheerder bepaalt de uren per werkdag met de instelling Meestvoorkomende uren per werkdag in de projectvoorkeuren in Setup. Voor meer informatie over het veranderen van uw taak en geef voorkeur als deel van uw systeem-vlakke projectvoorkeur uit, zie [ de taak van het hele systeem vormen en geven voorkeur ](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md) uit.
+Workfront gaat ervan uit dat er 8 werkuren per werkdag zijn. Uw Workfront- of groepsbeheerder bepaalt de uren per werkdag met de instelling Meestvoorkomende uren per werkdag in de projectvoorkeuren in Setup. Voor meer informatie over het veranderen van uw taak en geef voorkeur als deel van uw systeem-vlakke projectvoorkeur uit, zie [&#x200B; de taak van het hele systeem vormen en geven voorkeur &#x200B;](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md) uit.
 
 >[!TIP]
 >
->Workfront beschouwt het Programma voor elke die middel aan de taak wordt toegewezen om het percentage van toewijzing voor elke middel voor de taak te bepalen. Voor informatie over het creëren van en het toewijzen van programma&#39;s aan gebruikers, zie [ een programma ](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md) creëren.
+>Workfront beschouwt het Programma voor elke die middel aan de taak wordt toegewezen om het percentage van toewijzing voor elke middel voor de taak te bepalen. Voor informatie over het creëren van en het toewijzen van programma&#39;s aan gebruikers, zie [&#x200B; een programma &#x200B;](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md) creëren.
 
 Overweeg de volgende scenario&#39;s:
 
-* [ de Middelen worden toegewezen 100% aan de taak ](#resources-are-allocated-100-to-the-task)
+* [&#x200B; de Middelen worden toegewezen 100% aan de taak &#x200B;](#resources-are-allocated-100-to-the-task)
 * [De middelen worden toegewezen voor diverse percentages van tijd aan de taak](#resources-are-allocated-for-various-percentages-of-time-to-the-task)
 
 ### De middelen worden 100% toegewezen aan de taak {#resources-are-allocated-100-to-the-task}
@@ -131,7 +131,7 @@ In de volgende tabel ziet u hoe de geplande duur verandert door bronnen aan de t
 
 ## Verander het Type van Duur van een taak in Gedreven Inspanning
 
-Voor informatie over het veranderen van het Type van Duur van een taak, zie [ het Type van Duur van een taak ](../../../manage-work/tasks/taskdurtn/update-duration-type-of-task.md) bijwerken.
+Voor informatie over het veranderen van het Type van Duur van een taak, zie [&#x200B; het Type van Duur van een taak &#x200B;](../../../manage-work/tasks/taskdurtn/update-duration-type-of-task.md) bijwerken.
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: replaced with new article linked above)</p>

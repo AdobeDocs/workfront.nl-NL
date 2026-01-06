@@ -21,7 +21,7 @@ ht-degree: 0%
 
 De geplande uitvoeringsdatum van een project is de datum waarop het project moet worden voltooid.
 
-Voor het geplande begin en de geplande einddatum van een project wordt uitgegaan van de datum van de taken van het project. In dit artikel wordt beschreven hoe u de geplande voltooiingsdatum van een project handmatig of automatisch kunt instellen. Voor meer informatie over de Geplande Datum van de Voltooiing van een taak, zie [ Overzicht van de taak Geplande Datum van de Voltooiing ](../../../manage-work/tasks/task-information/task-planned-completion-date.md).
+Voor het geplande begin en de geplande einddatum van een project wordt uitgegaan van de datum van de taken van het project. In dit artikel wordt beschreven hoe u de geplande voltooiingsdatum van een project handmatig of automatisch kunt instellen. Voor meer informatie over de Geplande Datum van de Voltooiing van een taak, zie [&#x200B; Overzicht van de taak Geplande Datum van de Voltooiing &#x200B;](../../../manage-work/tasks/task-information/task-planned-completion-date.md).
 
 De geplande Voltooiingsdatum van een project kan manueel of automatisch worden geplaatst, afhankelijk van of u het project van het Begin of van de Datum van de Voltooiing plant.
 
@@ -54,7 +54,7 @@ De geplande Voltooiingsdatum van een project kan manueel of automatisch worden g
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -107,13 +107,13 @@ Een project plannen vanaf de voltooiingsdatum:
 
 1. Klik **Nieuw Project**, dan uitgezocht **Nieuw Project** van dropdown.
 
-   Voor meer informatie over het creëren van projecten, zie het artikel [ een project ](../../../manage-work/projects/create-projects/create-project.md) creëren.
+   Voor meer informatie over het creëren van projecten, zie het artikel [&#x200B; een project &#x200B;](../../../manage-work/projects/create-projects/create-project.md) creëren.
 
 1. Selecteer **Details van het Project** in het linkerpaneel.
 
-1. Klik **uitgeven het pictogram van het Project** ![ geeft pictogram ](/help/quicksilver/manage-work/projects/planning-a-project/assets/qs-edit-icon.png) in de hoger-juiste hoek uit en selecteert dan **Overzicht** in de drop-down die verschijnt.
+1. Klik **uitgeven het pictogram van het Project** ![&#x200B; geeft pictogram &#x200B;](/help/quicksilver/manage-work/projects/planning-a-project/assets/qs-edit-icon.png) in de hoger-juiste hoek uit en selecteert dan **Overzicht** in de drop-down die verschijnt.
 
-1. In de **sectie van de Datums van het 0} Project {, klik het** gebied van de Wijze van het Programma **, dan selecteer** Datum van de Voltooiing **.**
+1. In de **sectie van de Datums van het 0&rbrace; Project &lbrace;, klik het** gebied van de Wijze van het Programma **, dan selecteer** Datum van de Voltooiing **.**
 
 1. Specificeer de **Geplande Datum van de Voltooiing** van het project.
 1. Klik **sparen Veranderingen**.
@@ -130,20 +130,20 @@ Een project plannen vanaf de begindatum:
 
 1. Klik **Nieuw Project**, dan uitgezocht **Nieuw Project** van drop-down die verschijnt.
 
-   Voor meer informatie over het creëren van projecten, zie het artikel [ een project ](../../../manage-work/projects/create-projects/create-project.md) creëren.
+   Voor meer informatie over het creëren van projecten, zie het artikel [&#x200B; een project &#x200B;](../../../manage-work/projects/create-projects/create-project.md) creëren.
 
 1. Selecteer **Details van het Project** in het linkerpaneel.
 
-1. Klik **uitgeven het pictogram van het Project** ![ geeft pictogram ](/help/quicksilver/manage-work/projects/planning-a-project/assets/qs-edit-icon.png) in de hoger-juiste hoek uit en selecteert dan **Overzicht** in de drop-down die verschijnt.
+1. Klik **uitgeven het pictogram van het Project** ![&#x200B; geeft pictogram &#x200B;](/help/quicksilver/manage-work/projects/planning-a-project/assets/qs-edit-icon.png) in de hoger-juiste hoek uit en selecteert dan **Overzicht** in de drop-down die verschijnt.
 
-1. In de **sectie van de Datums van het 0} Project {, klik het** gebied van de Wijze van het Programma **, dan selecteer** Datum van het Begin **.**
+1. In de **sectie van de Datums van het 0&rbrace; Project &lbrace;, klik het** gebied van de Wijze van het Programma **, dan selecteer** Datum van het Begin **.**
 
 1. Specificeer de **Geplande Datum van het Begin** van het project.
 1. Klik **sparen Veranderingen**.
 
    Aangezien u begint taken aan uw project toe te voegen, berekent de **Geplande Datum van de Voltooiing** van het project gebaseerd op de totale Duur van alle taken.
 
-   Voor meer informatie over de Duur van de Taak, zie het artikel [ Overzicht van het Type van Duur en van de Duur van de Taak ](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
+   Voor meer informatie over de Duur van de Taak, zie het artikel [&#x200B; Overzicht van het Type van Duur en van de Duur van de Taak &#x200B;](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
 
    De geplande datum van voltooiing van het project valt in dit geval samen met de geplande datum van voltooiing van de laatste taak van het project.
 

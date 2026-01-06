@@ -72,7 +72,7 @@ U kunt doelstellingen opnieuw openen die zijn gesloten wanneer zij opnieuw relev
 </tbody>
 </table>
 
-Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -131,22 +131,22 @@ Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Work
 
 ## Overwegingen bij het sluiten of opnieuw openen van doelen
 
-* U moet toegang tot Edit Doelstellingen in uw toegangsniveau hebben alvorens u doelstellingen kunt sluiten en heropenen. Voor informatie over het verlenen van toegang tot Doelen, zie [ Toegang verlenen tot de Doelen van Adobe Workfront ](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md).
+* U moet toegang tot Edit Doelstellingen in uw toegangsniveau hebben alvorens u doelstellingen kunt sluiten en heropenen. Voor informatie over het verlenen van toegang tot Doelen, zie [&#x200B; Toegang verlenen tot de Doelen van Adobe Workfront &#x200B;](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md).
 * U kunt alleen actieve doelen sluiten. U kunt geen doelstellingen sluiten die in het statuut van Ontwerp zijn.
 
-  Voor informatie over doelstatussen, zie [ overzicht van de Goal status in de Doelen van Adobe Workfront ](../../workfront-goals/goal-management/goal-status-overview.md).
+  Voor informatie over doelstatussen, zie [&#x200B; overzicht van de Goal status in de Doelen van Adobe Workfront &#x200B;](../../workfront-goals/goal-management/goal-status-overview.md).
 
 * Het sluiten van doelstellingen sluit in zijn vooruitgang en staat u toe om te schatten hoe goed u in het verwezenlijken van het deed.
 
   >[!CAUTION]
   >
-  >Wanneer het sluiten van een doel dat actieve bijdragende doelstellingen heeft, verandert zijn vooruitgang na het sluiten om de vooruitgang van de bijdragende actieve doelstellingen te wijzen. Voor informatie over het richten van doelstellingen, zie [ doelstellingen door hen in de Doelen van Adobe Workfront ](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md) te verbinden.
+  >Wanneer het sluiten van een doel dat actieve bijdragende doelstellingen heeft, verandert zijn vooruitgang na het sluiten om de vooruitgang van de bijdragende actieve doelstellingen te wijzen. Voor informatie over het richten van doelstellingen, zie [&#x200B; doelstellingen door hen in de Doelen van Adobe Workfront &#x200B;](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md) te verbinden.
 
-* Werk de voortgangsindicatoren van het doel bij voordat u het doel sluit om ervoor te zorgen dat het doel wordt gesloten met een nauwkeurige voortgangswaarde. Als alle voortgangsindicatoren zijn bereikt, moet het streefpercentage voltooid 100% zijn en is uw doel bereikt. Voor informatie over het bijwerken van uw doelstellingen, zie [ het doel van de Update vooruitgang in de Doelen van Adobe Workfront ](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md).
-* Laat eventuele laatste opmerkingen staan als een update van de doelen die u sluit. Voor informatie over het toevoegen van commentaren aan doelstellingen, zie [ doelcommentaren in de Doelen van Adobe Workfront beheren ](../../workfront-goals/goal-management/manage-goal-comments.md).
+* Werk de voortgangsindicatoren van het doel bij voordat u het doel sluit om ervoor te zorgen dat het doel wordt gesloten met een nauwkeurige voortgangswaarde. Als alle voortgangsindicatoren zijn bereikt, moet het streefpercentage voltooid 100% zijn en is uw doel bereikt. Voor informatie over het bijwerken van uw doelstellingen, zie [&#x200B; het doel van de Update vooruitgang in de Doelen van Adobe Workfront &#x200B;](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md).
+* Laat eventuele laatste opmerkingen staan als een update van de doelen die u sluit. Voor informatie over het toevoegen van commentaren aan doelstellingen, zie [&#x200B; doelcommentaren in de Doelen van Adobe Workfront beheren &#x200B;](../../workfront-goals/goal-management/manage-goal-comments.md).
 * U kunt de voortgang van resultaten en activiteiten niet meer bijwerken voor een doel dat u sluit.
 * U kunt een gesloten doel opnieuw openen als u aan het wilt blijven werken.
-* Als het doel niet is bereikt, kunt u overwegen de meeste informatie naar de volgende periode (kwartaal of jaar) te kopiëren. Dit is een grote optie voor doelstellingen die van één tijdspanne aan volgende of doelstellingen hetzelfde zijn die u misschien nog moet proberen te bereiken in het volgende tijdsbestek. Voor informatie over het kopiëren van doelstellingen, zie [ doelstellingen van het Exemplaar in de Doelen van Adobe Workfront ](../../workfront-goals/goal-management/copy-goals.md). U kunt ook de tijdsperiode voor het doel bijwerken in plaats van deze naar een andere periode te kopiëren.
+* Als het doel niet is bereikt, kunt u overwegen de meeste informatie naar de volgende periode (kwartaal of jaar) te kopiëren. Dit is een grote optie voor doelstellingen die van één tijdspanne aan volgende of doelstellingen hetzelfde zijn die u misschien nog moet proberen te bereiken in het volgende tijdsbestek. Voor informatie over het kopiëren van doelstellingen, zie [&#x200B; doelstellingen van het Exemplaar in de Doelen van Adobe Workfront &#x200B;](../../workfront-goals/goal-management/copy-goals.md). U kunt ook de tijdsperiode voor het doel bijwerken in plaats van deze naar een andere periode te kopiëren.
 * Workfront verwijdert de opmerkingen van een gesloten doel wanneer u het opnieuw opent. Als u de commentaren moet houden, adviseren wij kopiëren het gesloten doel met inbegrip van om het even welke resultaten verbonden aan het, eerder dan het heropenen van het.
 
 
@@ -195,22 +195,22 @@ De lijst met doelstellingen wordt geopend.
 
 1. (Optioneel) Wijzig de filters om alleen actieve doelen weer te geven.
 
-   Voor informatie over het filtreren van informatie in de Doelen van Workfront, zie [ informatie van de Filter in de Doelen van Adobe Workfront ](../goal-management/filter-information-wf-goals.md).
+   Voor informatie over het filtreren van informatie in de Doelen van Workfront, zie [&#x200B; informatie van de Filter in de Doelen van Adobe Workfront &#x200B;](../goal-management/filter-information-wf-goals.md).
 1. Klik op een actief doel.
 
    De doelpagina wordt geopend.
 
-   ![ Goal pagina ](assets/goal-page-unshimmed.png)
-1. Klik het **Meer** menu ![ Meer pictogram ](assets/more-icon.png) aan het recht van de doelnaam, dan klik **dicht**.
+   ![&#x200B; Goal pagina &#x200B;](assets/goal-page-unshimmed.png)
+1. Klik het **Meer** menu ![&#x200B; Meer pictogram &#x200B;](assets/more-icon.png) aan het recht van de doelnaam, dan klik **dicht**.
 
    Het doel wordt gesloten en u ontvangt een bevestiging in de hoger-juiste hoek van het scherm.
 
-   ![ de dichte bevestiging van het Doel ](assets/goal-close-confirmation-with-add-closing-notes-link.png)
+   ![&#x200B; de dichte bevestiging van het Doel &#x200B;](assets/goal-close-confirmation-with-add-closing-notes-link.png)
 
 1. (Facultatief) in de bevestigingsdoos, klik **toevoegen sluitende nota&#39;s** om commentaren over dit doel toe te voegen en waarom u het moet sluiten.
 1. Voeg sluitende nota&#39;s toe, dan klik **nota&#39;s** toevoegen.
 
-   ![ voeg sluitende nota&#39;s doos ](assets/add-closing-notes-box-unshimmed.png) toe
+   ![&#x200B; voeg sluitende nota&#39;s doos &#x200B;](assets/add-closing-notes-box-unshimmed.png) toe
 
    De commentaren tonen in de sectie van de Details van het Doel van de pagina, in het Sluiten nota&#39;s gebied.
 
@@ -258,11 +258,11 @@ De lijst met doelstellingen wordt geopend.
 
 1. (Optioneel) Wijzig de filters om alleen doelen weer te geven die zijn gesloten.
 
-   Voor informatie over het filtreren van informatie in de Doelen van Workfront, zie [ informatie van de Filter in de Doelen van Adobe Workfront ](../goal-management/filter-information-wf-goals.md).
+   Voor informatie over het filtreren van informatie in de Doelen van Workfront, zie [&#x200B; informatie van de Filter in de Doelen van Adobe Workfront &#x200B;](../goal-management/filter-information-wf-goals.md).
 1. Klik op de naam van een gesloten doel.
 
    De doelpagina wordt geopend.
-1. Klik het **Meer** menu ![ Meer pictogram ](assets/more-icon.png) aan het recht van de doelnaam, dan **heropen** > **opnieuw open**.
+1. Klik het **Meer** menu ![&#x200B; Meer pictogram &#x200B;](assets/more-icon.png) aan het recht van de doelnaam, dan **heropen** > **opnieuw open**.
 
    De volgende dingen doen zich voor:
    * Het doel is nu open en het heeft een status van Actief.

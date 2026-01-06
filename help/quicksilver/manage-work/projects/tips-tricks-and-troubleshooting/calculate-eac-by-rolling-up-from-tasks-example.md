@@ -18,12 +18,12 @@ ht-degree: 0%
 
 ## EAC-methode: rollen vanaf taken of subtaken
 
-* [ PIM= op uur-Gebaseerde ](#pim-hour-based)
+* [&#x200B; PIM= op uur-Gebaseerde &#x200B;](#pim-hour-based)
 * [PIM= op basis van kosten](#pim-cost-based)
 
 ### PIM= op uurbasis {#pim-hour-based}
 
-* [ Eenvoudig voorbeeld: het project heeft geen kindtaken ](#simple-example-project-has-no-children-tasks)
+* [&#x200B; Eenvoudig voorbeeld: het project heeft geen kindtaken &#x200B;](#simple-example-project-has-no-children-tasks)
 * [Gecompliceerd voorbeeld: project heeft onderliggende taken](#complicated-example-project-has-children-tasks)
 
 #### Eenvoudig voorbeeld: project heeft geen onderliggende taken {#simple-example-project-has-no-children-tasks}
@@ -429,64 +429,64 @@ EAC Methode = Rolup van taken/subtaken
 </table>
 
 1. Voer vanuit Projecthandelingen de herberekening van financiën uit
-1. **CPI****for Taak 1** = .14 berekend als volgt:\
-   **CPI****for Taak 1** = ** de Ware Kosten van de Arbeid + IncurredActualExpenseCost &lt;> 0 *DAN*
+1. **CPI**&#x200B;**for Taak 1** = .14 berekend als volgt:\
+   **CPI**&#x200B;**for Taak 1** = ** de Ware Kosten van de Arbeid + IncurredActualExpenseCost &lt;> 0 *DAN*
 
    ```
    CPI = (TotalBudgetedCostWorkPerformed + IncurredPlannedExpenseCost) / (ActualLaborCost + IncurredActualExpenseCost)
    ```
 
    * ELSE* CPI = CPI_Labor\
-     **CPI****for Taak 1** = (100+300) / (2500+400)\
-     **CPI****for Taak 1** = 400/2900\
-     **CPI****for Taak 1** = .14
+     **CPI**&#x200B;**for Taak 1** = (100+300) / (2500+400)\
+     **CPI**&#x200B;**for Taak 1** = 400/2900\
+     **CPI**&#x200B;**for Taak 1** = .14
 
-1. **EAC****for Taak 1** = $13.400.00\
-   **CPI Arbeid****for Taak 1** = ALS de Ware Arbeidskosten &lt;> 0 DAN
+1. **EAC**&#x200B;**for Taak 1** = $13.400.00\
+   **CPI Arbeid**&#x200B;**for Taak 1** = ALS de Ware Arbeidskosten &lt;> 0 DAN
 
    ```
    CPI_Labor = TotalBudgetedCostWorkPerformed / Actual Labor Cost
    ```
 
    ELSE CPI_Labor = 1\
-   **CPI Arbeid****for Taak 1** = 100/2500\
-   **CPI Arbeid****for Taak 1** = .04
+   **CPI Arbeid**&#x200B;**for Taak 1** = 100/2500\
+   **CPI Arbeid**&#x200B;**for Taak 1** = .04
 
-   **Ecc Arbeid****for Taak 1** = *ALS* CPI_Labor &lt;> 0 *DAN*
+   **Ecc Arbeid**&#x200B;**for Taak 1** = *ALS* CPI_Labor &lt;> 0 *DAN*
 
    ```
    EAC Labor = Planned Labor Cost / CPI_Labor
    ```
 
    * ELSE* EAC Labour = Geplande loonkosten + Werkelijke loonkosten\
-     **Ecc Arbeid****voor Taak 1** = 500.00/.04\
-     **Ecc Arbeid****voor Taak 1** = $12.500.00
+     **Ecc Arbeid**&#x200B;**voor Taak 1** = 500.00/.04\
+     **Ecc Arbeid**&#x200B;**voor Taak 1** = $12.500.00
 
-   **uitgaven EAC****voor Taak 1** = IncurredActualExpenseCost + NotIncurredPlannedExpense\
-   **uitgaven EAC****voor Taak 1** = $400.00 + $500.00\
-   **uitgaven EAC****voor Taak 1** = $900.00
+   **uitgaven EAC**&#x200B;**voor Taak 1** = IncurredActualExpenseCost + NotIncurredPlannedExpense\
+   **uitgaven EAC**&#x200B;**voor Taak 1** = $400.00 + $500.00\
+   **uitgaven EAC**&#x200B;**voor Taak 1** = $900.00
 
-   **EAC****for Taak 1** = EC Arbeid + EAC Uitgaven\
-   **EAC****for Taak 1** = $12.500.00 + $900.00\
-   **EAC****for Taak 1** = $13.400.00
+   **EAC**&#x200B;**for Taak 1** = EC Arbeid + EAC Uitgaven\
+   **EAC**&#x200B;**for Taak 1** = $12.500.00 + $900.00\
+   **EAC**&#x200B;**for Taak 1** = $13.400.00
 
 1. Hier zijn de waarden CPI/EAC voor Taak 2 en Taak 3:\
    Taak 2 = .19 / $8.433.33\
    Taak 3 = .44 / $6.950.00***
 
 1. CPI voor het project = .32\
-   **CPI****for Project** = ** de Ware Kosten van de Arbeid + IncurredActualExpenseCost &lt;> 0 *DAN*
+   **CPI**&#x200B;**for Project** = ** de Ware Kosten van de Arbeid + IncurredActualExpenseCost &lt;> 0 *DAN*
 
    ```
    CPI = (TotalBudgetedCostWorkPerformed + IncurredPlannedExpenseCost)/(ActualLaborCost + IncurredActualExpenseCost)
    ```
 
    * ELSE* CPI = CPI_Labor\
-     **CPI****for Project** = (1000 + 2300) / (7500 + 2700)\
-     **CPI****for Project** = 3300/10200\
-     **CPI****for Project** = .32
+     **CPI**&#x200B;**for Project** = (1000 + 2300) / (7500 + 2700)\
+     **CPI**&#x200B;**for Project** = 3300/10200\
+     **CPI**&#x200B;**for Project** = .32
 
 1. EAC voor het project is $ 28.783,33\
-   **EAC****for Project** = EAC Taak 1 + EAC Taak 2 + EAC Taak 3\
-   **EAC****for Project** = $13.400.00 + $8.433.33 + $6.950.00\
-   **EAC****for Project** = $28.783.33
+   **EAC**&#x200B;**for Project** = EAC Taak 1 + EAC Taak 2 + EAC Taak 3\
+   **EAC**&#x200B;**for Project** = $13.400.00 + $8.433.33 + $6.950.00\
+   **EAC**&#x200B;**for Project** = $28.783.33

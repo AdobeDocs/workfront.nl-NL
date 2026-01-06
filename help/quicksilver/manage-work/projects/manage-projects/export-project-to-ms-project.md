@@ -20,7 +20,7 @@ U kunt Adobe Workfront-projecten exporteren naar Microsoft Project.
 >[!IMPORTANT]
 >
 >* Niet alle Workfront-velden worden overgebracht naar het Microsoft-projectbestand.\
->  Voor meer informatie over de verenigbaarheid van gebieden tussen het Project van Workfront en van Microsoft, zie de gebieden van het Project van Microsoft van de artikel [ Kaart aan de projecten van Adobe Workfront ](../../../manage-work/projects/manage-projects/map-ms-project-fields-to-workfront.md).
+>  Voor meer informatie over de verenigbaarheid van gebieden tussen het Project van Workfront en van Microsoft, zie de gebieden van het Project van Microsoft van de artikel [&#x200B; Kaart aan de projecten van Adobe Workfront &#x200B;](../../../manage-work/projects/manage-projects/map-ms-project-fields-to-workfront.md).
 >* Wij adviseren dat u het aantal tijden beperkt u projecten van één toepassing aan een andere overbrengt.
 >
 
@@ -54,7 +54,7 @@ U kunt Adobe Workfront-projecten exporteren naar Microsoft Project.
  </tbody> 
 </table>
 
-*For meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*For meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -89,15 +89,15 @@ U kunt Adobe Workfront-projecten exporteren naar Microsoft Project.
 
 U kunt een project van Workfront van de projectpagina of van een projectlijst of een rapport uitvoeren.
 
-1. Ga naar het project u wilt uitvoeren en **klikken Meer** pictogram ![ Meer menu ](assets/qs-more-menu.png) rechts van de projectnaam
+1. Ga naar het project u wilt uitvoeren en **klikken Meer** pictogram ![&#x200B; Meer menu &#x200B;](assets/qs-more-menu.png) rechts van de projectnaam
 
-   ![ Meer dropdown ](assets/project-level-more-drop-down-expanded-nwe-350x516.png)
+   ![&#x200B; Meer dropdown &#x200B;](assets/project-level-more-drop-down-expanded-nwe-350x516.png)
 
    of
 
-   Ga naar een projectlijst of een rapport en selecteer een project, dan klik het Meer pictogram ![ Meer menu ](assets/qs-more-menu.png) bij de bovenkant van de lijst.
+   Ga naar een projectlijst of een rapport en selecteer een project, dan klik het Meer pictogram ![&#x200B; Meer menu &#x200B;](assets/qs-more-menu.png) bij de bovenkant van de lijst.
 
-   ![ Meer uitgevouwen menu ](assets/more-menu-expanded-in-a-list-one-project-selected-nwe.png)
+   ![&#x200B; Meer uitgevouwen menu &#x200B;](assets/more-menu-expanded-in-a-list-one-project-selected-nwe.png)
 
 1. Klik **het Project van MS van de Uitvoer**.
 

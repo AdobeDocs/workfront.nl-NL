@@ -21,7 +21,7 @@ ht-degree: 0%
 <p>(NOTE: the status of goals in "red" used to be called At Risk. Now, it is "in trouble") </p>
 -->
 
-Doelen met een vooruitgang in de problemen dreigen niet te worden verwezenlijkt en worden in de doelstellingen van Adobe Workfront weergegeven door een rode voortgangsbalk. U moet uw doelstellingen vaak herzien en begrijpen waarom de vooruitgang achterloopt. Voor informatie over doelvooruitgang, zie [ Overzicht van doelvooruitgang en voorwaarde in de Doelen van Adobe Workfront ](../../workfront-goals/goal-management/calculate-goal-progress.md).
+Doelen met een vooruitgang in de problemen dreigen niet te worden verwezenlijkt en worden in de doelstellingen van Adobe Workfront weergegeven door een rode voortgangsbalk. U moet uw doelstellingen vaak herzien en begrijpen waarom de vooruitgang achterloopt. Voor informatie over doelvooruitgang, zie [&#x200B; Overzicht van doelvooruitgang en voorwaarde in de Doelen van Adobe Workfront &#x200B;](../../workfront-goals/goal-management/calculate-goal-progress.md).
 
 ## Toegangsvereisten
 
@@ -71,7 +71,7 @@ Doelen met een vooruitgang in de problemen dreigen niet te worden verwezenlijkt 
 </tbody>
 </table>
 
-Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -130,7 +130,7 @@ Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Work
 
 ## Aanbevelingen voor het voorkomen van doelstellingen om een vooruitgang van In Trouble te bereiken
 
-Voordat de doelstellingen een stap voorwaarts in Problemen bereiken, kunt u ze vaak volgen en de voortgang ervan aanpassen wanneer ze een voortgang in Bij risico bereiken. Doelen die gevaar lopen, dreigen in de problemen te raken. Voor meer informatie over doelvooruitgang, zie [ Overzicht van doelvooruitgang en voorwaarde in de Doelen van Adobe Workfront ](../../workfront-goals/goal-management/calculate-goal-progress.md)
+Voordat de doelstellingen een stap voorwaarts in Problemen bereiken, kunt u ze vaak volgen en de voortgang ervan aanpassen wanneer ze een voortgang in Bij risico bereiken. Doelen die gevaar lopen, dreigen in de problemen te raken. Voor meer informatie over doelvooruitgang, zie [&#x200B; Overzicht van doelvooruitgang en voorwaarde in de Doelen van Adobe Workfront &#x200B;](../../workfront-goals/goal-management/calculate-goal-progress.md)
 
 Voordat uw doelstellingen een stap verder gaan in Problemen, raden we het volgende aan:
 
@@ -139,7 +139,7 @@ Voordat uw doelstellingen een stap verder gaan in Problemen, raden we het volgen
 
 ## Herzie in-probleemdoelstellingen in de Lijst van het Doel
 
-U kunt doelstellingen in om het even welk gedeelte van de Doelen van Workfront herzien. Voor informatie over de secties van de Doelen van Workfront, zie [ Overzicht van de secties van de Doelen van Adobe Workfront ](../../workfront-goals/goal-review-and-workfront-goals-sections/overview-of-wf-goals-sections.md).
+U kunt doelstellingen in om het even welk gedeelte van de Doelen van Workfront herzien. Voor informatie over de secties van de Doelen van Workfront, zie [&#x200B; Overzicht van de secties van de Doelen van Adobe Workfront &#x200B;](../../workfront-goals/goal-review-and-workfront-goals-sections/overview-of-wf-goals-sections.md).
 
 Dit artikel beschrijft hoe te om doelstellingen in de Lijst van het Doel te herzien.
 
@@ -149,7 +149,7 @@ Hiermee opent u standaard het gebied Workfront Goals en de sectie Goal List.
 
 1. (Aanbevolen) Pas de volgende filters voor het gebied van de Lijst van het Beleid aan overzicht bij risicodoelstellingen:
 
-   * Klik **Bedrijf 0}, dan** Mijn Teams **, toen** Mijn Groepen **, toen** Persoonlijke **doelstellingen in deze orde om doelstellingen te bekijken die tot uw organisatie, uw teams, groepen, en toen uw eigen doelstellingen behoren.**
+   * Klik **Bedrijf 0&rbrace;, dan** Mijn Teams **, toen** Mijn Groepen **, toen** Persoonlijke **doelstellingen in deze orde om doelstellingen te bekijken die tot uw organisatie, uw teams, groepen, en toen uw eigen doelstellingen behoren.**
 
      >[!TIP]
      >
@@ -163,11 +163,11 @@ Hiermee opent u standaard het gebied Workfront Goals en de sectie Goal List.
 
      De indicator van de vooruitgangsbar toont in rood voor elk doel in de doellijst.
 
-     Voor meer informatie over het filtreren van doelstellingen die alle andere criteria in het juiste paneel gebruiken, zie [ informatie van de Filter in de Doelen van Adobe Workfront ](../../workfront-goals/goal-management/filter-information-wf-goals.md).
+     Voor meer informatie over het filtreren van doelstellingen die alle andere criteria in het juiste paneel gebruiken, zie [&#x200B; informatie van de Filter in de Doelen van Adobe Workfront &#x200B;](../../workfront-goals/goal-management/filter-information-wf-goals.md).
 
 1. Houd de cursor boven de voortgangsbalkindicator om te zien wat het werkelijke voortgangspercentage is en wat de verwachte waarde voor de huidige dag is.
 
-   ![ GOal vooruitgang hover detail ](assets/goal-progress-hover-over-detail-unshimmed.png)
+   ![&#x200B; GOal vooruitgang hover detail &#x200B;](assets/goal-progress-hover-over-detail-unshimmed.png)
 
 1. (Optioneel) Gebruik de filters om doelen te zoeken die bij een specifieke eigenaar horen.
 
@@ -175,9 +175,9 @@ Hiermee opent u standaard het gebied Workfront Goals en de sectie Goal List.
 
 1. Klik een doelnaam om de doelpagina te openen, dan klik **Indicatoren van de Voortgang** in het linkerpaneel. Bekijk welke vooruitgangsindicator het doel veroorzaakt om achter te zijn en de vooruitgang van de indicator gealigneerd bij te werken, in de **Ware vooruitgangs** kolom van de lijst van voortgangsindicatoren.
 
-   Voor informatie over het bijwerken van resultaten en activiteiten, zie [ het doel van de Update vooruitgang in de Doelen van Adobe Workfront ](../goal-review-and-workfront-goals-sections/check-in-goals.md)
+   Voor informatie over het bijwerken van resultaten en activiteiten, zie [&#x200B; het doel van de Update vooruitgang in de Doelen van Adobe Workfront &#x200B;](../goal-review-and-workfront-goals-sections/check-in-goals.md)
 
-   ![ Ware vooruitgang ](assets/actual-progress-editable-column-in-indicator-list-unshimmed.png)
+   ![&#x200B; Ware vooruitgang &#x200B;](assets/actual-progress-editable-column-in-indicator-list-unshimmed.png)
 
    >[!NOTE]
    >

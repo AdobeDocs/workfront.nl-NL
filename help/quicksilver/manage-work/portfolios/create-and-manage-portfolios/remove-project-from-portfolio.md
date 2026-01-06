@@ -50,7 +50,7 @@ U kunt ook projecten uit een portfolio verwijderen, zodat deze ook uit [!DNL Ado
  </tbody> 
 </table>
 
-*For informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*For informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -88,9 +88,9 @@ U kunt ook projecten uit een portfolio verwijderen, zodat deze ook uit [!DNL Ado
 1. Ga naar een Portfolio en klik op **[!UICONTROL Projects]** in het linkerdeelvenster.
 1. Selecteer het project dat u wilt verwijderen.
 
-   ![ verwijdert projectknoop ](assets/nwe-remove-projects-button-inside-portfolio-350x141.png)
+   ![&#x200B; verwijdert projectknoop &#x200B;](assets/nwe-remove-projects-button-inside-portfolio-350x141.png)
 
 1. Klik op **[!UICONTROL Remove Projects]**.
 1. Klik op **[!UICONTROL Delete]** om het project uit [!DNL Workfront] te verwijderen of op **[!UICONTROL Remove]** **[!UICONTROL from Portfolio]** om het uit de geselecteerde Portfolio te verwijderen.
 
-1. (Optioneel en voorwaardelijk) Zoek het project dat u uit het portfolio hebt verwijderd en koppel het aan een ander portfolio. Voor informatie over het associëren van projecten met portefeuilles zie [ projecten aan een portefeuille ](../../../manage-work/portfolios/create-and-manage-portfolios/add-projects-to-portfolios.md) toevoegen.
+1. (Optioneel en voorwaardelijk) Zoek het project dat u uit het portfolio hebt verwijderd en koppel het aan een ander portfolio. Voor informatie over het associëren van projecten met portefeuilles zie [&#x200B; projecten aan een portefeuille &#x200B;](../../../manage-work/portfolios/create-and-manage-portfolios/add-projects-to-portfolios.md) toevoegen.

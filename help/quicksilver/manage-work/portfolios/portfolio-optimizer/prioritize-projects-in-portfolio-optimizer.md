@@ -26,7 +26,7 @@ Houd rekening met het volgende wanneer u [!UICONTROL Portfolio Optimizer] gebrui
 
 * De prioriteit van projecten in Portfolio Optimizer is zichtbaar in [!DNL Resource Planner], als het daar wordt toegelaten. In [!DNL Resource Planner] ontvangen projecten bronnen in de volgorde van hun [!UICONTROL Resource Planner] prioriteit, en niet die van de [!UICONTROL Portfolio Priority] .
 
-  Voor informatie over het prioriteren van projecten in [!UICONTROL Resource Planner], zie het artikel [ projecten van Prioriteit in [!UICONTROL Resource Planner]](../../../resource-mgmt/resource-planning/prioritize-projects-resource-planner.md).
+  Voor informatie over het prioriteren van projecten in [!UICONTROL Resource Planner], zie het artikel [&#x200B; projecten van Prioriteit in [!UICONTROL Resource Planner]](../../../resource-mgmt/resource-planning/prioritize-projects-resource-planner.md).
 
 * In het gebied **[!UICONTROL Project Prioritization]** van [!UICONTROL Portfolio Optimizer] worden projecten standaard in de volgorde [!UICONTROL Planned Start Dates] en [!UICONTROL Net Value] weergegeven.
 
@@ -60,7 +60,7 @@ Houd rekening met het volgende wanneer u [!UICONTROL Portfolio Optimizer] gebrui
  </tbody> 
 </table>
 
-*For informatie, zie [ vereisten van de Toegang voor de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*For informatie, zie [&#x200B; vereisten van de Toegang voor de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -101,7 +101,7 @@ Houd rekening met het volgende wanneer u [!UICONTROL Portfolio Optimizer] gebrui
 1. Klik op **[!UICONTROL Portfolio Optimization]** in het linkerdeelvenster.
 1. Wijzig in het gebied [!UICONTROL project optization] de prioriteit van uw projecten door de projecten in volgorde van prioriteit te slepen en vervolgens naar de gewenste weergavepositie te slepen.
 
-   ![ Portfolio optimizer met projecten ](assets/portfolio-optimizer-with-projects-nwe-350x89.png)
+   ![&#x200B; Portfolio optimizer met projecten &#x200B;](assets/portfolio-optimizer-with-projects-nwe-350x89.png)
 
    Klik op **[!UICONTROL Set Priority]** in het gebied voor projectoptimalisatie wanneer u klaar bent met het herschikken van uw projecten. De projecten krijgen een nieuw nummer op basis van de nieuwe bestelling.
 
@@ -113,4 +113,4 @@ Houd rekening met het volgende wanneer u [!UICONTROL Portfolio Optimizer] gebrui
 
    U kunt de prioriteit van het project zien zoals deze wordt weergegeven in [!UICONTROL Portfolio Optimizer] in de functie Bronnen door de instelling **[!UICONTROL Display Portfolio Priorities]** in de functie Bronnen in te schakelen.
 
-   Voor informatie over het prioriteren van projecten in [!UICONTROL Resource Planner], zie het artikel [ projecten van Prioriteit in [!UICONTROL Resource Planner]](../../../resource-mgmt/resource-planning/prioritize-projects-resource-planner.md).
+   Voor informatie over het prioriteren van projecten in [!UICONTROL Resource Planner], zie het artikel [&#x200B; projecten van Prioriteit in [!UICONTROL Resource Planner]](../../../resource-mgmt/resource-planning/prioritize-projects-resource-planner.md).

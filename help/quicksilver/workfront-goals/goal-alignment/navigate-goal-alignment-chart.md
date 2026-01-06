@@ -21,7 +21,7 @@ Gebruik de sectie Goal Alignment om een holistische mening van doelgroepering ov
 
 Zie ook de volgende artikelen voor informatie over de uitlijning van doelen en hoe u dit kunt bereiken:
 
-* [ Goal groeperingsoverzicht in de Doelen van Adobe Workfront ](../../workfront-goals/goal-alignment/goal-alignment-overview.md)
+* [&#x200B; Goal groeperingsoverzicht in de Doelen van Adobe Workfront &#x200B;](../../workfront-goals/goal-alignment/goal-alignment-overview.md)
 * [Richt doelstellingen door hen in de Doelen van Adobe Workfront te verbinden](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md)
 
 ## Toegangsvereisten
@@ -65,7 +65,7 @@ Zie ook de volgende artikelen voor informatie over de uitlijning van doelen en h
  </tbody> 
 </table>
 
-Voor informatie, zie [ vereisten van de Toegang tot de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [&#x200B; vereisten van de Toegang tot de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++ 
 
@@ -128,7 +128,7 @@ Or
 {{step1-to-goals}}
 
 1. Klik **Goal Alignment** in het linkerpaneel.
-1. Gebruik de filters in de rechterbovenhoek van het uitlijningsdiagram om alleen doelen te selecteren die voor u van belang zijn. Voor informatie over het gebruiken van filters in de Doelen van Workfront, zie [ informatie van de Filter in de Doelen van Adobe Workfront ](../../workfront-goals/goal-management/filter-information-wf-goals.md).
+1. Gebruik de filters in de rechterbovenhoek van het uitlijningsdiagram om alleen doelen te selecteren die voor u van belang zijn. Voor informatie over het gebruiken van filters in de Doelen van Workfront, zie [&#x200B; informatie van de Filter in de Doelen van Adobe Workfront &#x200B;](../../workfront-goals/goal-management/filter-information-wf-goals.md).
 
    De doelstellingen die uw filters aanpassen tonen in de groeperingstabel op kaarten.
 
@@ -180,11 +180,11 @@ Or
 
    De doelstellingen die aan andere doelstellingen worden gericht tonen het aantal gerichte doelstellingen onder de doelkaart.
 
-   ![ de grafiekpijl van de Groepering ](assets/alignment-chart-arrow-for-aligned-goals-highlighted-350x241.png)
+   ![&#x200B; de grafiekpijl van de Groepering &#x200B;](assets/alignment-chart-arrow-for-aligned-goals-highlighted-350x241.png)
 
 1. Klik het **neer-richten pijl** pictogram onder een doel om de kinddoelstellingen verder uit te breiden en te bekijken.
 
-   ![ de grafiekpijl van de Groepering ](assets/alignment-chart-arrow-for-aligned-goals-highlighted-350x241.png)
+   ![&#x200B; de grafiekpijl van de Groepering &#x200B;](assets/alignment-chart-arrow-for-aligned-goals-highlighted-350x241.png)
 
    >[!TIP]
    >
@@ -192,7 +192,7 @@ Or
 
 1. (Voorwaardelijk) als het huidige filter sommige doelstellingen sluit die aan een groepering deelnemen, een waarschuwingsbericht toont om erop te wijzen dat niet alle doelstellingen tonen.
 
-   ![ Uitgesloten Hoofddoel ](assets/parent-goal-excluded-by-filter-alignment-section-350x230.png)
+   ![&#x200B; Uitgesloten Hoofddoel &#x200B;](assets/parent-goal-excluded-by-filter-alignment-section-350x230.png)
 
 1. Klik **tonen hen** om de doelstellingen te tonen die momenteel door de filter worden geëlimineerd.
 
@@ -201,14 +201,14 @@ Or
    * Verbonden doelen die eerder door het filter zijn geëlimineerd, worden nu weergegeven in het uitlijningsdiagram.
    * Het filter in de rechterbovenhoek is geel omlijnd om aan te geven dat het momenteel niet wordt toegepast.
 
-     ![ Geel filterhoogtepunt ](assets/reapply-filter-link-and-yellow-filter-highlight-350x120.png)
+     ![&#x200B; Geel filterhoogtepunt &#x200B;](assets/reapply-filter-link-and-yellow-filter-highlight-350x120.png)
 
      Een filterkoppeling Opnieuw toepassen wordt links van de filternaam weergegeven.
 
 1. (Facultatief) klik **filter opnieuw toepassen** om op de originele resultaten terug te keren en de doelhiërarchie te tonen.
 1. (Optioneel) Houd de voortgangsindicator boven om te begrijpen waar de voortgang van het doel voor de huidige dag moet zijn.
 
-   ![ Muis over groeperingsgrafiek ](assets/progress-mouse-over-alignment-chart-350x163.png)
+   ![&#x200B; Muis over groeperingsgrafiek &#x200B;](assets/progress-mouse-over-alignment-chart-350x163.png)
 
    De volgende informatie wordt weergegeven:
 
@@ -231,7 +231,7 @@ Or
     </tbody> 
    </table>
 
-1. Klik op een doelkaart om de doelpagina te openen. Voor informatie over het uitgeven van bestaande doelstellingen, zie [ doelstellingen in de Doelen van Adobe Workfront ](../../workfront-goals/goal-management/edit-goals.md) uitgeven. Voor informatie over het bijwerken van vooruitgang voor doelstellingen, zie [ het doel van de Update vooruitgang in de Doelen van Adobe Workfront ](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md).
+1. Klik op een doelkaart om de doelpagina te openen. Voor informatie over het uitgeven van bestaande doelstellingen, zie [&#x200B; doelstellingen in de Doelen van Adobe Workfront &#x200B;](../../workfront-goals/goal-management/edit-goals.md) uitgeven. Voor informatie over het bijwerken van vooruitgang voor doelstellingen, zie [&#x200B; het doel van de Update vooruitgang in de Doelen van Adobe Workfront &#x200B;](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md).
 
 1. Klik de naar boven wijzende pijl van het huidige-niveaudoel om aan het vorige niveau in de hiërarchie van de grafiek terug te keren.
 

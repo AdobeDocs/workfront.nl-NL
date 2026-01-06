@@ -23,7 +23,7 @@ U kunt de Status van een project aan een status manueel bijwerken die Volledige 
 
 Anders markeert Adobe Workfront automatisch het project als voltooid wanneer alle taken en problemen van het project zijn voltooid en goedgekeurd.
 
-Voor meer informatie over de Wijze van de Voltooiing van het project, zie [ projecten ](/help/quicksilver/manage-work/projects/manage-projects/edit-projects.md) uitgeven.
+Voor meer informatie over de Wijze van de Voltooiing van het project, zie [&#x200B; projecten &#x200B;](/help/quicksilver/manage-work/projects/manage-projects/edit-projects.md) uitgeven.
 
 ## Toegangsvereisten
 
@@ -54,7 +54,7 @@ Voor meer informatie over de Wijze van de Voltooiing van het project, zie [ proj
  </tbody> 
 </table>
 
-Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -97,10 +97,10 @@ Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Work
 1. Ga naar het project waarvan status u wilt bijwerken.
 1. In de projectkopbal, klik de naam van de status op het **gebied van de Status**, dan selecteer een nieuwe status.
 
-   ![ het projectstatus van de Verandering ](assets/change-project-status-in-header-drop-down-nwe-350x371.png)
+   ![&#x200B; het projectstatus van de Verandering &#x200B;](assets/change-project-status-in-header-drop-down-nwe-350x371.png)
 
    of
 
-   Klik het **Meer** menu ![ Meer menu ](assets/qs-more-menu.png) naast de naam van het project en klik **uitgeven** en selecteren een nieuwe status op het **7} gebied van de Status {, dan klik** sparen **.**
+   Klik het **Meer** menu ![&#x200B; Meer menu &#x200B;](assets/qs-more-menu.png) naast de naam van het project en klik **uitgeven** en selecteren een nieuwe status op het **7&rbrace; gebied van de Status &lbrace;, dan klik** sparen **.**
 
    De projectstatus wordt bijgewerkt naar de status die u hebt geselecteerd.

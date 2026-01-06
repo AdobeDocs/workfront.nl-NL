@@ -19,7 +19,7 @@ Om veiligheidsredenen is het belangrijk dat u zich regelmatig afmeldt bij [!DNL 
 
 >[!NOTE]
 >
->Normaal kan een [!DNL Workfront] beheerder deze hoeveelheid tijd aan overal tussen 15 minuten en 7 dagen van inactiviteit veranderen, zoals die in [ wordt verklaard vormt de voorkeur van de systeemveiligheid ](../../../administration-and-setup/manage-workfront/security/configure-security-preferences.md), maar deze functionaliteit is momenteel niet beschikbaar. We werken aan verificatieverbeteringen die automatische afmelding na een bepaalde periode van inactiviteit mogelijk maken.
+>Normaal kan een [!DNL Workfront] beheerder deze hoeveelheid tijd aan overal tussen 15 minuten en 7 dagen van inactiviteit veranderen, zoals die in [&#x200B; wordt verklaard vormt de voorkeur van de systeemveiligheid &#x200B;](../../../administration-and-setup/manage-workfront/security/configure-security-preferences.md), maar deze functionaliteit is momenteel niet beschikbaar. We werken aan verificatieverbeteringen die automatische afmelding na een bepaalde periode van inactiviteit mogelijk maken.
 
 <!--
 ><MadCap:conditionalText style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -54,7 +54,7 @@ Om veiligheidsredenen is het belangrijk dat u zich regelmatig afmeldt bij [!DNL 
  </tbody> 
 </table>
 
-Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -62,5 +62,5 @@ Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront
 
 {{step1-click-main-menu}}
 
-1. Klik **[!UICONTROL Logout]** ![ Logout pictogram ](assets/logout-icon.png).
+1. Klik **[!UICONTROL Logout]** ![&#x200B; Logout pictogram &#x200B;](assets/logout-icon.png).
 1. Hiermee keert u terug naar de aanmeldingspagina waar u uw gebruikersnaam en wachtwoord opnieuw kunt invoeren.

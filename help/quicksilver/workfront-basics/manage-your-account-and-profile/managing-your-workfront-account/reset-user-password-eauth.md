@@ -51,12 +51,12 @@ Neem contact op met de [!DNL Workfront] -beheerder als u wilt weten welk abonnem
 {{step-1-to-users}}
 
 1. Selecteer **[!UICONTROL User]** waarvoor opnieuw wachtwoord moet worden ingesteld.
-   ![ selecteer de gebruiker ](assets/100520classicnweselectuser-350x105.png)
+   ![&#x200B; selecteer de gebruiker &#x200B;](assets/100520classicnweselectuser-350x105.png)
 
 1. Klik op de knop **[!UICONTROL More]** die verschijnt nadat u de gewenste **[!UICONTROL User]** optie hebt gekozen en selecteer de optie **[!UICONTROL Send Forgot Password Email]** in het keuzemenu.
 
-   ![ verzend Forgot wachtwoord e-mail ](assets/100520classicnwesendemail-350x134.png)
+   ![&#x200B; verzend Forgot wachtwoord e-mail &#x200B;](assets/100520classicnwesendemail-350x134.png)
 
 Nadat u de optie **[!UICONTROL Send Forgot Password Email]** hebt geselecteerd, wordt een e-mail verzonden naar de geselecteerde gebruiker die instructies bevat waarmee deze zijn of haar eigen wachtwoord kan wijzigen.
 
-![ E-mail van het Terugstellen ](assets/pwresetemail-resized-350x461.png)
+![&#x200B; E-mail van het Terugstellen &#x200B;](assets/pwresetemail-resized-350x461.png)

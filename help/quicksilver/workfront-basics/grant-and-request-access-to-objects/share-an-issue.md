@@ -15,9 +15,9 @@ ht-degree: 0%
 
 # Een uitgave delen
 
-Uw Adobe Workfront-beheerder verleent gebruikers toegang tot weergave- of bewerkingsproblemen wanneer zij toegangsniveaus toewijzen. Voor meer informatie over het verlenen van toegang tot kwesties, zie [ Toegang van de Verlening tot kwesties ](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md).
+Uw Adobe Workfront-beheerder verleent gebruikers toegang tot weergave- of bewerkingsproblemen wanneer zij toegangsniveaus toewijzen. Voor meer informatie over het verlenen van toegang tot kwesties, zie [&#x200B; Toegang van de Verlening tot kwesties &#x200B;](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md).
 
-Samen met het toegangsniveau dat gebruikers wordt verleend, kunt u hen toestemmingen aan Mening, Contribute, of Manage ook verlenen specifieke kwesties die u toegang hebt om te delen. Voor meer informatie over toegangsniveaus en toestemmingen, zie [ hoe de toegangsniveaus en de toestemmingen samen ](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md) werken.
+Samen met het toegangsniveau dat gebruikers wordt verleend, kunt u hen toestemmingen aan Mening, Contribute, of Manage ook verlenen specifieke kwesties die u toegang hebt om te delen. Voor meer informatie over toegangsniveaus en toestemmingen, zie [&#x200B; hoe de toegangsniveaus en de toestemmingen samen &#x200B;](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md) werken.
 
 Machtigingen gelden specifiek voor één item in Workfront en definiëren welke handelingen u op dat item kunt uitvoeren.
 
@@ -51,20 +51,20 @@ Machtigingen gelden specifiek voor één item in Workfront en definiëren welke 
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Overwegingen bij het delen van problemen
 
-Naast de overwegingen hieronder, zie ook [ Overzicht van het delen van toestemmingen op voorwerpen ](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+Naast de overwegingen hieronder, zie ook [&#x200B; Overzicht van het delen van toestemmingen op voorwerpen &#x200B;](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
 >[!NOTE]
 >
 >Een Workfront-beheerder kan machtigingen toevoegen of verwijderen voor alle items in het systeem, zonder de eigenaar van die items te zijn.
 
 * De maker van een uitgave beschikt standaard over de machtiging Beheren.
-* U kunt kwesties individueel delen, of u kunt verscheidene van hen tegelijkertijd delen. Delen is hetzelfde als delen van andere objecten in Workfront. Voor meer informatie over het delen van punten in Workfront, zie [ een voorwerp ](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md) delen.
+* U kunt kwesties individueel delen, of u kunt verscheidene van hen tegelijkertijd delen. Delen is hetzelfde als delen van andere objecten in Workfront. Voor meer informatie over het delen van punten in Workfront, zie [&#x200B; een voorwerp &#x200B;](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md) delen.
 * U kunt de volgende toestemmingen aan een kwestie verlenen:
 
    * Weergave
@@ -73,25 +73,25 @@ Naast de overwegingen hieronder, zie ook [ Overzicht van het delen van toestemmi
 
 * Als u een uitgave deelt, nemen alle documenten die aan de uitgave zijn gekoppeld dezelfde machtigingen over.
 
-  De Workfront-beheerder kan opgeven of documenten machtigingen van hogere objecten moeten overnemen op het toegangsniveau van de gebruiker. Voor meer informatie over het beperken van geërfte toestemmingen op documenten, zie [ tot douanetoegangsniveaus ](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md) leiden of wijzigen.
+  De Workfront-beheerder kan opgeven of documenten machtigingen van hogere objecten moeten overnemen op het toegangsniveau van de gebruiker. Voor meer informatie over het beperken van geërfte toestemmingen op documenten, zie [&#x200B; tot douanetoegangsniveaus &#x200B;](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md) leiden of wijzigen.
 
-* U kunt overgeërfde machtigingen verwijderen uit een uitgave. Voor meer informatie, zie [ toestemmingen uit voorwerpen ](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md) verwijderen.
+* U kunt overgeërfde machtigingen verwijderen uit een uitgave. Voor meer informatie, zie [&#x200B; toestemmingen uit voorwerpen &#x200B;](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md) verwijderen.
 
 ## Manieren om een probleem te delen
 
 * Handmatig, wat vergelijkbaar is met het delen van andere objecten in Workfront.
 * Automatisch, door één van het volgende te doen:
 
-   * Geef de machtigingen voor een van de bovenliggende objecten van de uitgave op: project, programma of portfolio. De kwesties erven de toestemmingen van hun oudervoorwerpen. Voor informatie over het bekijken van geërfte toestemmingen op voorwerpen, zie [ Mening geërfte toestemmingen op voorwerpen ](../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md).
-   * Voeg entiteiten aan het Delen van het Project op een malplaatje toe dat wordt gebruikt om het project tot stand te brengen de kwestie is. Voor informatie over het delen van projecten van malplaatjes, zie [ een malplaatje ](../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md) delen.
+   * Geef de machtigingen voor een van de bovenliggende objecten van de uitgave op: project, programma of portfolio. De kwesties erven de toestemmingen van hun oudervoorwerpen. Voor informatie over het bekijken van geërfte toestemmingen op voorwerpen, zie [&#x200B; Mening geërfte toestemmingen op voorwerpen &#x200B;](../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md).
+   * Voeg entiteiten aan het Delen van het Project op een malplaatje toe dat wordt gebruikt om het project tot stand te brengen de kwestie is. Voor informatie over het delen van projecten van malplaatjes, zie [&#x200B; een malplaatje &#x200B;](../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md) delen.
 
-   * Specificeer de toestemmingen op alle kwesties in een project wanneer u het project uitgeeft. Voor informatie over het beheren van de toegang tot kwesties of verzoeken op het project dat op de toestemmingen van een gebruiker aan het project wordt gebaseerd, zie de [](../../manage-work/projects/manage-projects/edit-projects.md#access) sectie in het artikel [ projecten ](../../manage-work/projects/manage-projects/edit-projects.md) uitgeven.
+   * Specificeer de toestemmingen op alle kwesties in een project wanneer u het project uitgeeft. Voor informatie over het beheren van de toegang tot kwesties of verzoeken op het project dat op de toestemmingen van een gebruiker aan het project wordt gebaseerd, zie de [&#128279;](../../manage-work/projects/manage-projects/edit-projects.md#access) sectie in het artikel [&#x200B; projecten &#x200B;](../../manage-work/projects/manage-projects/edit-projects.md) uitgeven.
 
      >[!TIP]
      >
      >Als u niet specificeert welke toestemmingen van de uitgave u gebruikers wilt hebben wanneer zij aan de kwesties op het project worden toegewezen, ontvangen zij de zelfde toestemmingen die zij op het project door gebrek hebben.
 
-   * Geef de machtigingen op die gebruikers ontvangen bij problemen die ze in een aanvraagwachtrij verzenden wanneer ze een aanvraagwachtrij maken. Voor informatie, zie [ een Rij van het Verzoek ](../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md) creëren.
+   * Geef de machtigingen op die gebruikers ontvangen bij problemen die ze in een aanvraagwachtrij verzenden wanneer ze een aanvraagwachtrij maken. Voor informatie, zie [&#x200B; een Rij van het Verzoek &#x200B;](../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md) creëren.
 
      >[!IMPORTANT]
      >
@@ -163,9 +163,9 @@ Naast de overwegingen hieronder, zie ook [ Overzicht van het delen van toestemmi
 
 1. Navigeer naar de uitgave die u wilt delen.
 
-1. Aan het recht van de voorwaardennaam, klik **Aandeel**. Het **2} dialoogvakje van de Naam van de Uitgave 1} van het Aandeel {opent.[]**
+1. Aan het recht van de voorwaardennaam, klik **Aandeel**. Het **2&rbrace; dialoogvakje van de Naam van de Uitgave 1&rbrace; van het Aandeel &lbrace;opent.[]**
 
-   ![ de kwestie van het Aandeel knoop ](assets/share-issue-button.png)
+   ![&#x200B; de kwestie van het Aandeel knoop &#x200B;](assets/share-issue-button.png)
 
 1. In de **Uitgiftetoegang van de Verlening tot** gebied, begin typend de naam van de gebruiker, het team, de rol, de groep, of het bedrijf u de kwestie met wilt delen, dan klik de naam wanneer het in de drop-down lijst verschijnt.
 
@@ -187,7 +187,7 @@ Naast de overwegingen hieronder, zie ook [ Overzicht van het delen van toestemmi
 
 1. (Optioneel) Klik op het pictogram Geavanceerde opties naast het machtigingsniveau dat u hebt toegekend om specifieke machtigingen voor de uitgave te configureren.
 
-   ![ gevormde geavanceerde toestemmingsopties ](assets/advanced-permission-options.png)
+   ![&#x200B; gevormde geavanceerde toestemmingsopties &#x200B;](assets/advanced-permission-options.png)
 
 1. (Facultatief) om de kwestie snel te delen gebruikend een verbinding, klik **verbinding van het Exemplaar** en door:sturen het aan de ontvanger.
 
@@ -197,9 +197,9 @@ Naast de overwegingen hieronder, zie ook [ Overzicht van het delen van toestemmi
 
 1. Navigeer naar het project dat de kwesties bevat u wilt delen.
 
-1. In het **lusje van Kwesties** op de projectpagina, selecteer de doos links van elke kwestie u wilt delen, dan klik het **pictogram van het Aandeel** ![ Aandeel ](assets/share-icon.png) bij de bovenkant van de pagina. Het deelmodaal wordt geopend.
+1. In het **lusje van Kwesties** op de projectpagina, selecteer de doos links van elke kwestie u wilt delen, dan klik het **pictogram van het Aandeel** ![&#x200B; Aandeel &#x200B;](assets/share-icon.png) bij de bovenkant van de pagina. Het deelmodaal wordt geopend.
 
-   ![ Bulk deelt kwesties ](assets/bulk-share-issues.png)
+   ![&#x200B; Bulk deelt kwesties &#x200B;](assets/bulk-share-issues.png)
 
 1. In de **Uitgiftetoegang van de Verlening tot** gebied, begin typend de naam van de gebruiker, het team, de rol, de groep, of het bedrijf u de kwesties met wilt delen, dan klik de naam wanneer het in de drop-down lijst verschijnt.
 
@@ -222,7 +222,7 @@ Naast de overwegingen hieronder, zie ook [ Overzicht van het delen van toestemmi
 
 1. (Optioneel) Klik op het pictogram Geavanceerde opties naast het machtigingsniveau dat u hebt toegekend om specifieke machtigingen voor de problemen te configureren.
 
-   ![ gevormde geavanceerde toestemmingsopties ](assets/advanced-permission-options.png)
+   ![&#x200B; gevormde geavanceerde toestemmingsopties &#x200B;](assets/advanced-permission-options.png)
 
 1. Klik **sparen**.
 

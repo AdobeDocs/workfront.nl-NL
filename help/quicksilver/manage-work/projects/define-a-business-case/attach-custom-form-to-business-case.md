@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Aangepaste Forms wordt gebruikt om informatie te verzamelen die niet in bestaande Adobe Workfront-velden wordt weergegeven.
 
-Voor meer informatie over het creëren van Douane Forms, zie het artikel [ een douaneformulier ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren.
+Voor meer informatie over het creëren van Douane Forms, zie het artikel [&#x200B; een douaneformulier &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren.
 
 ## Toegangsvereisten
 
@@ -49,7 +49,7 @@ Voor meer informatie over het creëren van Douane Forms, zie het artikel [ een d
  </tbody> 
 </table>
 
-Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -61,15 +61,15 @@ U kunt Aangepaste Forms op de volgende gebieden aan een project koppelen:
 * Wanneer het uitgeven van een project, in het Edit vakje van het Project.
 * Wanneer het uitgeven van veelvoudige projecten in bulk, van een lijst van projecten.
 
-  Voor informatie over het vastmaken van douaneformulieren aan projecten terwijl het uitgeven van één of veelvoudige projecten, zie het artikel [ projecten ](../../../manage-work/projects/manage-projects/edit-projects.md) uitgeven.
+  Voor informatie over het vastmaken van douaneformulieren aan projecten terwijl het uitgeven van één of veelvoudige projecten, zie het artikel [&#x200B; projecten &#x200B;](../../../manage-work/projects/manage-projects/edit-projects.md) uitgeven.
 
 * Bij het bouwen van het BedrijfsGeval van een project, in het BedrijfsGeval zoals die in dit artikel wordt beschreven.
 
-Voor informatie over het vastmaken van douaneformulieren aan voorwerpen, zie [ een douaneformulier aan een voorwerp ](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md) toevoegen.
+Voor informatie over het vastmaken van douaneformulieren aan voorwerpen, zie [&#x200B; een douaneformulier aan een voorwerp &#x200B;](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md) toevoegen.
 
 ## Aangepaste Forms aan de bedrijfscase koppelen
 
-Als u een aangepaste versie wilt toevoegen van een Business Case, moet uw Workfront-beheerder deze optie selecteren in Setup. Voor meer informatie over het toelaten van douaneformulieren in Opstelling, zie [ systeem-brede projectvoorkeur ](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) vormen.
+Als u een aangepaste versie wilt toevoegen van een Business Case, moet uw Workfront-beheerder deze optie selecteren in Setup. Voor meer informatie over het toelaten van douaneformulieren in Opstelling, zie [&#x200B; systeem-brede projectvoorkeur &#x200B;](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) vormen.
 
 Een aangepast formulier bijvoegen:
 
@@ -79,7 +79,7 @@ Een aangepast formulier bijvoegen:
 
 1. (Optioneel) Als u de aangepaste formulierdetails wilt uitbreiden, klikt u op de pijl links van de aangepaste formuliernaam.
 
-   ![ breid de details van de douanevorm uit ](assets/expand-custom-form-details.png)
+   ![&#x200B; breid de details van de douanevorm uit &#x200B;](assets/expand-custom-form-details.png)
 
 <!--1. (Optional) Select **Edit Custom Form**.  
   ![Edit custom form](assets/acf1-350x122.png)

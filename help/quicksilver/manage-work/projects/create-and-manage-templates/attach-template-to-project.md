@@ -19,7 +19,7 @@ ht-degree: 0%
 
 U kunt een malplaatje aan een project of tijdens de aanvankelijke creatiefase van het project of vastmaken nadat het is gecreeerd.
 
-Voor meer informatie over het creëren van een project dat een malplaatje gebruikt, zie [ een project creëren gebruikend een malplaatje ](../../../manage-work/projects/create-projects/create-project-from-template.md).
+Voor meer informatie over het creëren van een project dat een malplaatje gebruikt, zie [&#x200B; een project creëren gebruikend een malplaatje &#x200B;](../../../manage-work/projects/create-projects/create-project-from-template.md).
 
 ## Toegangsvereisten
 
@@ -50,7 +50,7 @@ Voor meer informatie over het creëren van een project dat een malplaatje gebrui
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -115,19 +115,19 @@ U kunt een malplaatje aan een project van de projectpagina of van een projectlij
 
 1. Voor de **pagina van Projecten**, selecteer het project u een malplaatje aan wilt vastmaken.
 
-1. Klik **Meer** pictogram ![ meer drop-down ](assets/more-dropdown.png) rechts van de projectnaam.
+1. Klik **Meer** pictogram ![&#x200B; meer drop-down &#x200B;](assets/more-dropdown.png) rechts van de projectnaam.
 
-   ![ Meer pictogram ](assets/qs-more-icon-on-an-object.png)
+   ![&#x200B; Meer pictogram &#x200B;](assets/qs-more-icon-on-an-object.png)
 
    of
 
-   Ga naar een projectlijst of een rapport en selecteer een project, dan klik het **Meer** pictogram ![ meer drop-down ](assets/more-dropdown.png) bij de bovenkant van de lijst.
+   Ga naar een projectlijst of een rapport en selecteer een project, dan klik het **Meer** pictogram ![&#x200B; meer drop-down &#x200B;](assets/more-dropdown.png) bij de bovenkant van de lijst.
 
-   ![ Meer uitgevouwen menu ](assets/more-menu-expanded.png)
+   ![&#x200B; Meer uitgevouwen menu &#x200B;](assets/more-menu-expanded.png)
 
 1. Klik **Sjabloon** vastmaken. De **vertoningen van het Malplaatje van de Band** doos.
 
-1. Begin het typen van de naam van het malplaatje dat u op het **gebied van Malplaatjes van het Onderzoek** wilt vastmaken {, dan het klikken wanneer het in de lijst toont.
+1. Begin het typen van de naam van het malplaatje dat u op het **gebied van Malplaatjes van het Onderzoek** wilt vastmaken &lbrace;, dan het klikken wanneer het in de lijst toont.
 
    of
 
@@ -141,11 +141,11 @@ U kunt een malplaatje aan een project van de projectpagina of van een projectlij
    * Totaal aantal taken
    * Namen van bijgevoegde aangepaste formulieren
 
-   ![ Band malplaatjedoos ](assets/attach-template-box-template-preview-area-nwe-350x282.png)
+   ![&#x200B; Band malplaatjedoos &#x200B;](assets/attach-template-box-template-preview-area-nwe-350x282.png)
 
-1. (Facultatief) klik het **pictogram van Favorieten** pictogram van Favorieten ![ aan het recht van de malplaatjenaam om het als favoriet te merken en het te bewegen naar de ](assets/favorites-icon-small.png) Favorieten **lijst.**
+1. (Facultatief) klik het **pictogram van Favorieten** pictogram van Favorieten ![&#x200B; aan het recht van de malplaatjenaam om het als favoriet te merken en het te bewegen naar de &#x200B;](assets/favorites-icon-small.png) Favorieten **lijst.**
 
-1. (Facultatief) klik het **pictogram van Favorieten** pictogram van Favorieten ![ opnieuw om het uit de ](assets/favorites-icon-selected.png) **lijst van Favorieten te verwijderen.**
+1. (Facultatief) klik het **pictogram van Favorieten** pictogram van Favorieten ![&#x200B; opnieuw om het uit de &#x200B;](assets/favorites-icon-selected.png) **lijst van Favorieten te verwijderen.**
 1. Klik **aanpassen en verbinden**. Het **Sjabloon** zijpaneel van de Band opent.
 
 1. (Optioneel) Werk de gegevens in de volgende secties bij:
@@ -214,13 +214,13 @@ U kunt een malplaatje aan een project van de projectpagina of van een projectlij
 
    >[!TIP]
    >
-   >Als u meer dan één malplaatje aan het project vastmaakt, slechts zal het malplaatje u eerst in bijlage op dit gebied tonen. Voor informatie, zie [ veelvoudige malplaatjes aan een bestaand project vastmaken en de informatie van het meningsmalplaatje ](#attach-multiple-templates-to-an-existing-project-and-view-template-information) sectie in dit artikel.
+   >Als u meer dan één malplaatje aan het project vastmaakt, slechts zal het malplaatje u eerst in bijlage op dit gebied tonen. Voor informatie, zie [&#x200B; veelvoudige malplaatjes aan een bestaand project vastmaken en de informatie van het meningsmalplaatje &#x200B;](#attach-multiple-templates-to-an-existing-project-and-view-template-information) sectie in dit artikel.
 
-1. (Optioneel) Verwijder sjabloongegevens uit het project waar u de sjabloon hebt gekoppeld. Voor informatie, zie [ malplaatjeinformatie uit een project ](../../../manage-work/projects/create-and-manage-templates/remove-template-from-project.md) verwijderen.
+1. (Optioneel) Verwijder sjabloongegevens uit het project waar u de sjabloon hebt gekoppeld. Voor informatie, zie [&#x200B; malplaatjeinformatie uit een project &#x200B;](../../../manage-work/projects/create-and-manage-templates/remove-template-from-project.md) verwijderen.
 
 ## Meerdere sjablonen koppelen aan een bestaand project en sjablooninformatie weergeven {#attach-multiple-templates-to-an-existing-project-and-view-template-information}
 
-U kunt veelvoudige malplaatjes (één tegelijkertijd) aan het zelfde project vastmaken na de stappen die in de sectie [ worden beschreven een malplaatje aan een bestaand project ](#attach-a-template-to-an-existing-project) in dit artikel vastmaken. Dit voegt de taken en andere informatie van elk malplaatje aan het project toe.
+U kunt veelvoudige malplaatjes (één tegelijkertijd) aan het zelfde project vastmaken na de stappen die in de sectie [&#x200B; worden beschreven een malplaatje aan een bestaand project &#x200B;](#attach-a-template-to-an-existing-project) in dit artikel vastmaken. Dit voegt de taken en andere informatie van elk malplaatje aan het project toe.
 
 >[!TIP]
 >
@@ -236,6 +236,6 @@ Om te bekijken welke malplaatje wordt toegepast op een project:
 
 1. Bepaal de plaats van de naam van het malplaatje in bijlage aan het project op het **gebied van het Malplaatje** bij de bodem van de **sectie van het Overzicht** onder **verhoudingen van het Project**.
 
-   ![ informatie van het Malplaatje over een project ](assets/nwe-template-info-on-project-350x356.png)
+   ![&#x200B; informatie van het Malplaatje over een project &#x200B;](assets/nwe-template-info-on-project-350x356.png)
 
 

@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # Een taak delen
 
-Uw Adobe Workfront-beheerder kan u toegang verlenen tot weergave- of bewerkingstaken wanneer zij toegangsniveaus toewijzen. Voor meer informatie over het verlenen van toegang tot taken, zie [ Toegang van de Verlening tot taken ](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md).
+Uw Adobe Workfront-beheerder kan u toegang verlenen tot weergave- of bewerkingstaken wanneer zij toegangsniveaus toewijzen. Voor meer informatie over het verlenen van toegang tot taken, zie [&#x200B; Toegang van de Verlening tot taken &#x200B;](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md).
 
 Samen met het toegangsniveau dat gebruikers worden verleend, kunt u hen toestemmingen aan Mening, Contribute, of Manage ook verlenen specifieke taken die u toegang hebt om te delen.
 
@@ -51,17 +51,17 @@ Machtigingen gelden specifiek voor één item in Workfront en definiëren welke 
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Overwegingen bij het delen van een taak
 
-Naast de overwegingen hieronder, zie ook [ Overzicht van het delen van toestemmingen op voorwerpen ](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+Naast de overwegingen hieronder, zie ook [&#x200B; Overzicht van het delen van toestemmingen op voorwerpen &#x200B;](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
 * De maker van een taak beschikt standaard over de machtiging Beheren.
 * U kunt taken afzonderlijk delen, maar u kunt ook meerdere taken tegelijk in bulk delen.\
-  Taken delen is hetzelfde als andere objecten delen. Voor meer informatie over het delen van punten in Workfront, zie [ een voorwerp ](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md) delen.
+  Taken delen is hetzelfde als andere objecten delen. Voor meer informatie over het delen van punten in Workfront, zie [&#x200B; een voorwerp &#x200B;](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md) delen.
 
 * U kunt de volgende toestemmingen aan een taak verlenen:
 
@@ -69,12 +69,12 @@ Naast de overwegingen hieronder, zie ook [ Overzicht van het delen van toestemmi
    * Beheren
    * Contribute
 * Wanneer u een taak deelt, erven de gebruikers de zelfde toestemmingen op alle kindvoorwerpen verbonden aan de taak door gebrek. Ze nemen bijvoorbeeld dezelfde machtigingen over voor de onderliggende taken, problemen en documenten die aan de taak zijn gekoppeld.\
-  Zie voor meer informatie over de hiërarchie van objecten in Workfront   [ Begrijp voorwerpen in Adobe Workfront ](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+  Zie voor meer informatie over de hiërarchie van objecten in Workfront   [&#x200B; Begrijp voorwerpen in Adobe Workfront &#x200B;](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
-  De Workfront-beheerder kan opgeven of documenten machtigingen van hogere objecten moeten overnemen op het toegangsniveau van de gebruiker. Voor meer informatie over het beperken van geërfte toestemmingen op documenten, zie [ tot douanetoegangsniveaus ](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md) leiden of wijzigen.
+  De Workfront-beheerder kan opgeven of documenten machtigingen van hogere objecten moeten overnemen op het toegangsniveau van de gebruiker. Voor meer informatie over het beperken van geërfte toestemmingen op documenten, zie [&#x200B; tot douanetoegangsniveaus &#x200B;](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md) leiden of wijzigen.
 
 * U kunt overgeërfde toestemmingen van een taak verwijderen.\
-  Voor meer informatie over het verwijderen van erfrechten uit objecten raadpleegt u   [ verwijdert toestemmingen uit voorwerpen ](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md).
+  Voor meer informatie over het verwijderen van erfrechten uit objecten raadpleegt u   [&#x200B; verwijdert toestemmingen uit voorwerpen &#x200B;](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md).
 
 ## Manieren om een taak te delen
 
@@ -84,10 +84,10 @@ U kunt een taak op de volgende manieren delen:
 
 * Automatisch, door het volgende te doen:
 
-   * Geef de machtigingen voor een van de bovenliggende objecten van de taak op: project, programma of portfolio. Taken nemen de machtigingen over van de bovenliggende objecten. Voor informatie over het bekijken van geërfte toestemmingen op voorwerpen, zie [ Mening geërfte toestemmingen op voorwerpen ](../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md).
-   * Voeg entiteiten aan het Delen van het Project op een malplaatje toe dat wordt gebruikt om het project tot stand te brengen de taak is. Voor informatie over het delen van projecten van malplaatjes, zie [ een malplaatje ](../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md) delen.
+   * Geef de machtigingen voor een van de bovenliggende objecten van de taak op: project, programma of portfolio. Taken nemen de machtigingen over van de bovenliggende objecten. Voor informatie over het bekijken van geërfte toestemmingen op voorwerpen, zie [&#x200B; Mening geërfte toestemmingen op voorwerpen &#x200B;](../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md).
+   * Voeg entiteiten aan het Delen van het Project op een malplaatje toe dat wordt gebruikt om het project tot stand te brengen de taak is. Voor informatie over het delen van projecten van malplaatjes, zie [&#x200B; een malplaatje &#x200B;](../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md) delen.
 
-   * Specificeer de toestemmingen op alle taken in een project wanneer u het project uitgeeft.  Voor informatie over het beheren van de toegang tot taken op het project dat op de toestemmingen van een gebruiker aan het project wordt gebaseerd, zie de [](../../manage-work/projects/manage-projects/edit-projects.md#access) sectie in het artikel [ projecten ](../../manage-work/projects/manage-projects/edit-projects.md) uitgeven.
+   * Specificeer de toestemmingen op alle taken in een project wanneer u het project uitgeeft.  Voor informatie over het beheren van de toegang tot taken op het project dat op de toestemmingen van een gebruiker aan het project wordt gebaseerd, zie de [&#128279;](../../manage-work/projects/manage-projects/edit-projects.md#access) sectie in het artikel [&#x200B; projecten &#x200B;](../../manage-work/projects/manage-projects/edit-projects.md) uitgeven.
 
   >[!TIP]
   >
@@ -97,9 +97,9 @@ U kunt een taak op de volgende manieren delen:
 
 1. Navigeer naar de taak die u wilt delen.
 
-1. Aan het recht van de taaknaam, klik **Aandeel**. Het **de dialoogvakje van de Naam van de Taak 1} van het Aandeel [ opent.]**
+1. Aan het recht van de taaknaam, klik **Aandeel**. Het **de dialoogvakje van de Naam van de Taak 1&rbrace; van het Aandeel [ opent.]**
 
-   ![ de taakknoop van het Aandeel ](assets/share-task-button.png)
+   ![&#x200B; de taakknoop van het Aandeel &#x200B;](assets/share-task-button.png)
 
 1. In de **taaktoegang van de Verlening tot** gebied, begin typend de naam van de gebruiker, het team, de rol, de groep, of het bedrijf u de taak met wilt delen, dan klik de naam wanneer het in de drop-down lijst verschijnt.
 
@@ -121,7 +121,7 @@ U kunt een taak op de volgende manieren delen:
 
 1. (Optioneel) Klik op het pictogram Geavanceerde opties naast het machtigingsniveau dat u hebt toegekend om specifieke machtigingen voor de taak te configureren.
 
-   ![ gevormde geavanceerde toestemmingsopties ](assets/advanced-permission-options.png)
+   ![&#x200B; gevormde geavanceerde toestemmingsopties &#x200B;](assets/advanced-permission-options.png)
 
 1. (Facultatief) om geërfte toestemmingen voor de kindvoorwerpen van de taak uit te zetten, klik **Draai** gealigneerd met **Geërfde toestemmingen**.
 
@@ -134,9 +134,9 @@ U kunt een taak op de volgende manieren delen:
 
 1. Navigeer naar het project dat de taken bevat u wilt delen.
 
-1. In het **lusje van Taken** op de projectpagina, selecteer de doos links van elke taak u wilt delen, dan klik het **pictogram van het Aandeel** ![ Aandeel ](assets/share-icon.png) bij de bovenkant van de pagina. Het deelmodaal wordt geopend.
+1. In het **lusje van Taken** op de projectpagina, selecteer de doos links van elke taak u wilt delen, dan klik het **pictogram van het Aandeel** ![&#x200B; Aandeel &#x200B;](assets/share-icon.png) bij de bovenkant van de pagina. Het deelmodaal wordt geopend.
 
-   ![ Bulk deelt taken ](assets/bulk-share-tasks.png)
+   ![&#x200B; Bulk deelt taken &#x200B;](assets/bulk-share-tasks.png)
 
 1. In de **taaktoegang van de Verlening tot** gebied, begin typend de naam van de gebruiker, het team, de rol, de groep, of het bedrijf u de taken met wilt delen, dan klik de naam wanneer het in de drop-down lijst verschijnt.
 
@@ -159,7 +159,7 @@ U kunt een taak op de volgende manieren delen:
 
 1. (Optioneel) Klik op het pictogram Geavanceerde opties naast het machtigingsniveau dat u hebt toegekend om specifieke machtigingen voor de taken te configureren.
 
-   ![ gevormde geavanceerde toestemmingsopties ](assets/advanced-permission-options.png)
+   ![&#x200B; gevormde geavanceerde toestemmingsopties &#x200B;](assets/advanced-permission-options.png)
 
 1. Klik **sparen**.
 

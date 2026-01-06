@@ -23,7 +23,7 @@ In de erfenis die om ervaring verzoekt, kunt u verzoekconcepten schrappen. U kun
 
 Zie voor meer informatie:
 
-* [ creeer en verzend Adobe Workfront verzoeken ](../../../manage-work/requests/create-requests/create-submit-requests.md)
+* [&#x200B; creeer en verzend Adobe Workfront verzoeken &#x200B;](../../../manage-work/requests/create-requests/create-submit-requests.md)
 * [Verzoeken maken op basis van concepten](../../../manage-work/requests/create-requests/create-requests-from-drafts.md)
 
 ## Toegangsvereisten
@@ -59,7 +59,7 @@ Zie voor meer informatie:
  </tbody> 
 </table>
 
-Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -84,7 +84,7 @@ U kunt aanvragen verwijderen in het gedeelte Verzoeken van Workfront of in de wi
 
    1. Zoek de widget Mijn verzoeken.
 
-      Voor meer informatie over Mijn widget van Verzoeken, zie [ Gebruik Mijn widget van Verzoeken ](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md).
+      Voor meer informatie over Mijn widget van Verzoeken, zie [&#x200B; Gebruik Mijn widget van Verzoeken &#x200B;](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md).
 
 1. Houd de muisaanwijzer boven de aanvraag <!--or draft --> die u wilt verwijderen in de lijst Verzoeken of de widget Mijn verzoeken.
 
@@ -115,7 +115,7 @@ U kunt aanvragen verwijderen in het gedeelte Verzoeken van Workfront of in de wi
 
    1. Zoek de widget Mijn verzoeken.
 
-      Voor meer informatie over Mijn widget van Verzoeken, zie [ Gebruik Mijn widget van Verzoeken ](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md).
+      Voor meer informatie over Mijn widget van Verzoeken, zie [&#x200B; Gebruik Mijn widget van Verzoeken &#x200B;](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md).
 
 1. Klik in de lijst Verzoeken of de widget Mijn verzoeken op het vakje links van elke aanvraag die u wilt verwijderen.
 1. In de blauwe bar bij de bodem van de pagina, klik **Schrapping**.
@@ -136,7 +136,7 @@ U moet het volgende doen alvorens u een verzoekontwerp kunt schrappen:
 
 * Start met het maken van een aanvraag. Hiermee slaat u het verzoek automatisch als een concept op in de sectie Concepten.
 
-  Voor informatie over het creëren van verzoeken, zie [ Adobe Workfront verzoeken ](../../../manage-work/requests/create-requests/create-submit-requests.md) creëren en voorleggen.
+  Voor informatie over het creëren van verzoeken, zie [&#x200B; Adobe Workfront verzoeken &#x200B;](../../../manage-work/requests/create-requests/create-submit-requests.md) creëren en voorleggen.
 
 ### Een aanvraagconcept verwijderen
 

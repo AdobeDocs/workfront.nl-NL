@@ -54,7 +54,7 @@ De automatische chronologieherberekening gebeurt zonder speciale toegang voor om
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -86,7 +86,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 ## Automatische herberekening
 
-Door gebrek, worden de projectchronologie automatisch opnieuw berekend dagelijks wanneer het projectwerkingsgebied verandert of elke nacht. De beheerder van Workfront bepaalt of om chronologie elke nacht of met elke werkingsgebiedverandering automatisch te berekenen door de montages van Chronologie in het gebied van de Voorkeur van het Project van Opstelling te beheren. Voor meer informatie, zie [ chronologieherberekeningen voor projecten ](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md) vormen.
+Door gebrek, worden de projectchronologie automatisch opnieuw berekend dagelijks wanneer het projectwerkingsgebied verandert of elke nacht. De beheerder van Workfront bepaalt of om chronologie elke nacht of met elke werkingsgebiedverandering automatisch te berekenen door de montages van Chronologie in het gebied van de Voorkeur van het Project van Opstelling te beheren. Voor meer informatie, zie [&#x200B; chronologieherberekeningen voor projecten &#x200B;](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md) vormen.
 
 >[!IMPORTANT]
 >
@@ -99,7 +99,7 @@ Door gebrek, worden de projectchronologie automatisch opnieuw berekend dagelijks
 >   ![](assets/project-warning-to-manually-recalculate-timeline.png)
 >
 
-* [ Automatische herberekening van projectchronologie ](#automatic-recalculation-of-project-timelines)
+* [&#x200B; Automatische herberekening van projectchronologie &#x200B;](#automatic-recalculation-of-project-timelines)
 * [Handelingen die een automatische herberekening van projecttijdlijnen activeren](#actions-that-trigger-an-automatic-recalculation-of-project-timelines)
 
 
@@ -111,9 +111,9 @@ Workfront herberekent dagelijks tijdlijnen alleen voor projecten waarbij aan all
 * Huidige status hebben.
 * Het updatetype van het project wordt geplaatst aan Automatisch of Automatisch en bij Verandering.
 
-  Voor informatie, zie [ Overzicht van het Type van Update van het Project ](../../../manage-work/projects/planning-a-project/project-update-type-overview.md).
+  Voor informatie, zie [&#x200B; Overzicht van het Type van Update van het Project &#x200B;](../../../manage-work/projects/planning-a-project/project-update-type-overview.md).
 
-* Hebt u een datum voor laatste update in de afgelopen 3 maanden. Een Workfront-beheerder kan deze standaardfunctionaliteit wijzigen. Voor meer informatie, zie [ chronologieherberekeningen voor projecten ](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md) vormen.
+* Hebt u een datum voor laatste update in de afgelopen 3 maanden. Een Workfront-beheerder kan deze standaardfunctionaliteit wijzigen. Voor meer informatie, zie [&#x200B; chronologieherberekeningen voor projecten &#x200B;](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md) vormen.
 
 * De laatste berekeningsdatum van de projecttijdlijn valt niet binnen de huidige kalenderdag. Dit betekent dat de laatste berekeningsdatum van de projectchronologie vóór 00 :00 van de huidige dag is.
 
@@ -130,7 +130,7 @@ or changes made to another project that the timeline is dependent on
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: above, the last part is drafted because of this: I don't think this is right because we told people that in the case of cross-project predecessors, the timeline must be calculated manually for the successor to see the updates in the predecessor's project. Drafting for now.)</p>
 -->
 
-Voor informatie, zie [ het Type van projectupdate ](../../../manage-work/projects/manage-projects/select-project-update-type.md) selecteren.
+Voor informatie, zie [&#x200B; het Type van projectupdate &#x200B;](../../../manage-work/projects/manage-projects/select-project-update-type.md) selecteren.
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -163,25 +163,25 @@ Diverse bereikwijzigingen in de levensduur van een project berekenen de projectt
 * Het bijwerken van het Type van Duur, de Beperking van de Taak, of het aantal wijzers op de taken.
 * Het bijwerken van taak predecessor verhoudingen.
 * Het toevoegen van een goedkeuring aan een taak die ook tijd aan de Geplande Datum van Voltooiing van de taak toevoegt.\
-  Voor meer informatie over goedkeuringsmontages, zie [ globale goedkeuringsmontages ](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md) vormen.
+  Voor meer informatie over goedkeuringsmontages, zie [&#x200B; globale goedkeuringsmontages &#x200B;](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md) vormen.
 
 ## Handmatige herberekening {#manual-recalculation}
 
 Als projecteigenaar, kunt u de chronologie voor individuele projecten manueel opnieuw berekenen. De Workfront-beheerder kan alle tijdlijnen in Workfront handmatig opnieuw berekenen.
 
-* [ herberekent chronologie voor individuele projecten of in bulk ](#recalculate-timelines-for-individual-projects-or-in-bulk)
-* [ manueel herberekent chronologie in bulk in het Edit vakje van Projecten ](#manually-recalculate-timelines-in-bulk-in-the-edit-projects-box)
+* [&#x200B; herberekent chronologie voor individuele projecten of in bulk &#x200B;](#recalculate-timelines-for-individual-projects-or-in-bulk)
+* [&#x200B; manueel herberekent chronologie in bulk in het Edit vakje van Projecten &#x200B;](#manually-recalculate-timelines-in-bulk-in-the-edit-projects-box)
 * [Tijdlijnen voor alle projecten in het systeem opnieuw berekenen (alleen voor Workfront-beheerders)](#recalculate-timelines-for-all-projects-in-the-system-workfront-administrators-only)
 
 ### Tijdlijnen voor afzonderlijke projecten of bulksgewijs opnieuw berekenen {#recalculate-timelines-for-individual-projects-or-in-bulk}
 
 U kunt de chronologie van een project in Workfront van de projectpagina of van een projectlijst of rapport opnieuw berekenen.
 
-1. Ga naar het project u de chronologie voor wilt opnieuw berekenen en **Meer** pictogram ![ klikken Meer menu ](assets/qs-more-menu.png) links van de projectnaam.
+1. Ga naar het project u de chronologie voor wilt opnieuw berekenen en **Meer** pictogram ![&#x200B; klikken Meer menu &#x200B;](assets/qs-more-menu.png) links van de projectnaam.
 
    of
 
-   Ga naar een projectlijst of een rapport en selecteer één of verscheidene projecten, dan klik **Meer** pictogram ![ Meer menu ](assets/qs-more-menu.png) bij de bovenkant van de lijst.
+   Ga naar een projectlijst of een rapport en selecteer één of verscheidene projecten, dan klik **Meer** pictogram ![&#x200B; Meer menu &#x200B;](assets/qs-more-menu.png) bij de bovenkant van de lijst.
 
    ![](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
 
@@ -213,7 +213,7 @@ U kunt de tijdlijnen van verschillende projecten handmatig opnieuw berekenen doo
 
 Workfront-beheerders kunnen de tijdlijndiagnose opnieuw berekenen om alle tijdlijnen in het Workfront-systeem onmiddellijk opnieuw te berekenen. Hierdoor kunnen alle projectbeheerders de invloed van externe wijzigingen direct zien op zowel geplande als geplande data.
 
-Voor meer informatie over het opnieuw berekenen van chronologie voor de volledige plaats van Workfront, zie de sectie opnieuw berekende chronologie voor de volledige instantie van Workfront in [ vormen chronologieherberekeningen voor projecten ](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md).
+Voor meer informatie over het opnieuw berekenen van chronologie voor de volledige plaats van Workfront, zie de sectie opnieuw berekende chronologie voor de volledige instantie van Workfront in [&#x200B; vormen chronologieherberekeningen voor projecten &#x200B;](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

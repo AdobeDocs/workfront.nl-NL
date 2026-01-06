@@ -65,7 +65,7 @@ U kunt een project aanvragen wanneer u een nieuw project toevoegt in de volgende
  </tbody> 
 </table>
 
-Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -101,24 +101,24 @@ Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront
 
 1. Voer een van de volgende handelingen uit:
 
-   * Klik de **pictogram van het 1} Belangrijkste Menu** Belangrijkste lijnen van het Menu ![ in de upper-left hoek, of het ](assets/lines-main-menu.png) Belangrijkste pictogram van het Menu **pictogram van het Menu** ![ in de hoger-juiste hoek, klik ](assets/main-menu-icon.png) Projecten **, dan breid** Nieuw Project **uit.**
+   * Klik de **pictogram van het 1&rbrace; Belangrijkste Menu** Belangrijkste lijnen van het Menu ![&#x200B; in de upper-left hoek, of het &#x200B;](assets/lines-main-menu.png) Belangrijkste pictogram van het Menu **pictogram van het Menu** ![&#x200B; in de hoger-juiste hoek, klik &#x200B;](assets/main-menu-icon.png) Projecten **, dan breid** Nieuw Project **uit.**
    * Ga naar een portefeuille, dan breid **Nieuw Project** uit.
    * Ga naar een programma, dan breid **Nieuw Project** uit.
-   * Als u een groepsbeheerder bent, kunt u een project in de sectie van Projecten van een groep ook tot stand brengen u beheert. Voor meer informatie, zie [ tot stand brengen en wijzigen de projecten van een groep ](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md).
+   * Als u een groepsbeheerder bent, kunt u een project in de sectie van Projecten van een groep ook tot stand brengen u beheert. Voor meer informatie, zie [&#x200B; tot stand brengen en wijzigen de projecten van een groep &#x200B;](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md).
 
 1. Klik **Project van het Verzoek**.
 
-   ![ Nieuwe projectdropdown ](assets/new-project-dropdown-nwe-350x358.png)
+   ![&#x200B; Nieuwe projectdropdown &#x200B;](assets/new-project-dropdown-nwe-350x358.png)
 
 1. Voer een van de volgende handelingen uit:
 
    * Volg dezelfde stappen als voor het creëren van een project terwijl het bepalen van een BedrijfsGeval. (aanbevolen)
 
-     Voor informatie, zie [ een BedrijfsGeval voor een project ](../../../manage-work/projects/define-a-business-case/create-business-case.md) creëren.
+     Voor informatie, zie [&#x200B; een BedrijfsGeval voor een project &#x200B;](../../../manage-work/projects/define-a-business-case/create-business-case.md) creëren.
 
    * Creeer een project van kras of het gebruiken van een malplaatje en verander de status in **Gevraagde**.
 
-     Voor informatie, zie [ een project ](../../../manage-work/projects/create-projects/create-project.md) of [ creëren een project gebruikend een malplaatje ](../../../manage-work/projects/create-projects/create-project-from-template.md).
+     Voor informatie, zie [&#x200B; een project &#x200B;](../../../manage-work/projects/create-projects/create-project.md) of [&#x200B; creëren een project gebruikend een malplaatje &#x200B;](../../../manage-work/projects/create-projects/create-project-from-template.md).
 
    Het project u verzoekt heeft een status van **Gevraagde** en het toont op **Gevraagde Projecten** tabel van een Portfolio, als u het met een Portfolio associeerde.
 

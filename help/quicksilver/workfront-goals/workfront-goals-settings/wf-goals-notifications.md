@@ -24,7 +24,7 @@ ht-degree: 0%
 >
 >Adobe Workfront Goals kan niet meer worden aangeschaft.
 >
->Voor extra informatie over toegang tot de Doelen van Workfront, zie [ Vereisten om de Doelen van Workfront ](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md) te gebruiken.
+>Voor extra informatie over toegang tot de Doelen van Workfront, zie [&#x200B; Vereisten om de Doelen van Workfront &#x200B;](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md) te gebruiken.
 
 <!--Old:
 
@@ -47,9 +47,9 @@ ht-degree: 0%
 
 De Doelen van Adobe Workfront komt met een reeks gebeurtenisberichten die u voor uw rekening kunt toelaten. Deze gebeurtenismeldingen activeren e-mailcommunicatie telkens wanneer aan de door de gebeurtenis gedefinieerde voorwaarde wordt voldaan.
 
-Voor informatie over welke berichten u voor de Doelen van Workfront kunt toelaten, zie [ Meldingen: Doelen ](../../workfront-basics/using-notifications/notifications-goals.md).
+Voor informatie over welke berichten u voor de Doelen van Workfront kunt toelaten, zie [&#x200B; Meldingen: Doelen &#x200B;](../../workfront-basics/using-notifications/notifications-goals.md).
 
-Voor informatie over het beheren van berichten in Adobe Workfront, zie [ uw eigen e-mailberichten wijzigen ](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+Voor informatie over het beheren van berichten in Adobe Workfront, zie [&#x200B; uw eigen e-mailberichten wijzigen &#x200B;](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -152,4 +152,4 @@ A personal goal is a goal where you are designated as the owner.
 
 Wanneer de gebeurtenis plaatsvindt die wordt gedefinieerd door het bericht dat u hebt ingeschakeld, ontvangt u een e-mail met een beschrijving van de gebeurtenis. Hieronder ziet u een voorbeeld van een e-mail met de kennisgeving dat u bent toegewezen als eigenaar van een nieuw doel:
 
-![ het bericht van Doelen e-mail ](assets/wf-align-notification-email-350x164.png)
+![&#x200B; het bericht van Doelen e-mail &#x200B;](assets/wf-align-notification-email-350x164.png)

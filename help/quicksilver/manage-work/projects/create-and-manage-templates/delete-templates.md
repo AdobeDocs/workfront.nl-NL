@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # Projectsjablonen verwijderen
 
-We raden u aan sjablonen die u niet meer gebruikt, te deactiveren in plaats van deze te verwijderen, zodat u in de loop der tijd historische informatie over uw projecten kunt bijhouden. Voor informatie over het deactiveren van een malplaatje, zie [ projectmalplaatjes ](../../../manage-work/projects/create-and-manage-templates/edit-templates.md) uitgeven.
+We raden u aan sjablonen die u niet meer gebruikt, te deactiveren in plaats van deze te verwijderen, zodat u in de loop der tijd historische informatie over uw projecten kunt bijhouden. Voor informatie over het deactiveren van een malplaatje, zie [&#x200B; projectmalplaatjes &#x200B;](../../../manage-work/projects/create-and-manage-templates/edit-templates.md) uitgeven.
 
 >[!IMPORTANT]
 >
@@ -49,7 +49,7 @@ We raden u aan sjablonen die u niet meer gebruikt, te deactiveren in plaats van 
  </tbody> 
 </table>
 
-Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -83,7 +83,7 @@ Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Work
 * De taken die aan projecten werden toegevoegd toen het malplaatje in bijlage was blijven op de projecten. Nochtans, wordt de informatie van de malplaatjetaak verbonden aan de taken geschrapt.
 * De naam van het malplaatje is niet meer vermeld in het **Malplaatje** gebied op het **Overzicht** sub-lusje van het project.
 
-* U kunt een onlangs verwijderde sjabloon uit de prullenbak herstellen. Voor informatie over het terugkrijgen van punten van de Prullenbak, zie [ geschrapte punten ](../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md) herstellen.
+* U kunt een onlangs verwijderde sjabloon uit de prullenbak herstellen. Voor informatie over het terugkrijgen van punten van de Prullenbak, zie [&#x200B; geschrapte punten &#x200B;](../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md) herstellen.
 
 ## Een sjabloon verwijderen
 
@@ -95,6 +95,6 @@ Hiermee wordt een lijst met sjablonen geopend
 
    of
 
-   Klik de naam van een malplaatje om tot het toegang te hebben, dan klik **Meer** menu ![ Meer pictogram ](assets/more-icon.png), dan **Schrapping Malplaatje > ja, schrap het**.
+   Klik de naam van een malplaatje om tot het toegang te hebben, dan klik **Meer** menu ![&#x200B; Meer pictogram &#x200B;](assets/more-icon.png), dan **Schrapping Malplaatje > ja, schrap het**.
 
    Het malplaatje is niet meer beschikbaar om met een project worden geassocieerd.

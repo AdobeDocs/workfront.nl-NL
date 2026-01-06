@@ -46,7 +46,7 @@ Projecten, taken en problemen hebben een werkelijke begindatum in Adobe Workfron
  </tbody> 
 </table>
 
-Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -107,7 +107,7 @@ U kunt de werkelijke begindatum van een project vinden in de volgende gebieden:
 * In de sectie Details van een Project.
 * In een projectrapport of een mening, wanneer u de Ware Datum van het Begin voor het objectenProject in het rapport toevoegt.
 
-  Voor informatie over het creëren van rapporten, zie het artikel [ een douanerapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) creëren.
+  Voor informatie over het creëren van rapporten, zie het artikel [&#x200B; een douanerapport &#x200B;](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) creëren.
 
 U kunt als volgt de werkelijke begindatum vinden in de sectie Details van het project:
 

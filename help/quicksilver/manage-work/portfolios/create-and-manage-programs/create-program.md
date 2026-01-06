@@ -57,7 +57,7 @@ Bijvoorbeeld, kunt u een het Belastingjaar 2024 Portfolio hebben van de Marketin
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -97,16 +97,16 @@ U kunt in Workfront een programma maken met een van de volgende methoden:
 
   Als Workfront-beheerder kunt u programma&#39;s importeren met behulp van een startfunctie.
 
-  Voor informatie over het invoeren van gegevens gebruikend schop-begin in Workfront, zie [ Gegevens van de Invoer in Adobe Workfront gebruikend een Kick-Begin malplaatje ](/help/quicksilver/administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
+  Voor informatie over het invoeren van gegevens gebruikend schop-begin in Workfront, zie [&#x200B; Gegevens van de Invoer in Adobe Workfront gebruikend een Kick-Begin malplaatje &#x200B;](/help/quicksilver/administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
 
 
 * Voeg programma&#39;s toe aangezien u hen van een verslagtype in de Planning van Workfront verbindt.
 
   U moet een extra Workfront-planningspakket hebben.
 
-  Voor informatie over toegang tot de Planning van Workfront, zie [ Adobe Workfront die toegangsoverzicht van de Planning ](/help/quicksilver/planning/access/access-overview.md) plant.
+  Voor informatie over toegang tot de Planning van Workfront, zie [&#x200B; Adobe Workfront die toegangsoverzicht van de Planning &#x200B;](/help/quicksilver/planning/access/access-overview.md) plant.
 
-  Voor informatie over het creëren van portefeuilles door hen aan verslagen toe te voegen, zie de sectie &quot;verslagen tot stand brengen aangezien u hen&quot;in artikel [ verbindt tot verslagen ](/help/quicksilver/planning/records/create-records.md).
+  Voor informatie over het creëren van portefeuilles door hen aan verslagen toe te voegen, zie de sectie &quot;verslagen tot stand brengen aangezien u hen&quot;in artikel [&#x200B; verbindt tot verslagen &#x200B;](/help/quicksilver/planning/records/create-records.md).
 
 ## Een programma maken
 
@@ -181,10 +181,10 @@ U kunt de volgende informatie opgeven:
 1. Klik op **[!UICONTROL Save Changes]**.
 1. Klik op **[!UICONTROL Projects]** in het linkerdeelvenster en **[!UICONTROL Add Projects]** om projecten aan het programma toe te voegen.
 
-   Voor informatie over het toevoegen van projecten aan programma&#39;s, zie [ een project aan een programma ](../../../manage-work/portfolios/create-and-manage-programs/add-project-to-program.md) toevoegen.
+   Voor informatie over het toevoegen van projecten aan programma&#39;s, zie [&#x200B; een project aan een programma &#x200B;](../../../manage-work/portfolios/create-and-manage-programs/add-project-to-program.md) toevoegen.
 
 1. Klik op **[!UICONTROL Save Changes]**.
-1. (Facultatief) klik **[!UICONTROL More menu]** ![ Meer menu ](assets/more-icon.png) naast de programmanaam en klik **[!UICONTROL Deactivate Program]**.
+1. (Facultatief) klik **[!UICONTROL More menu]** ![&#x200B; Meer menu &#x200B;](assets/more-icon.png) naast de programmanaam en klik **[!UICONTROL Deactivate Program]**.
 
    Wanneer u een programma deactiveert, wordt het programma niet meer weergegeven in een lijst met programma&#39;s wanneer gebruikers het aan een project proberen toe te voegen. U hebt nog steeds toegang tot het programma vanuit het [!UICONTROL Programs] -gebied.
 
@@ -251,4 +251,4 @@ De volgende informatie wordt weergegeven in de koptekst van een programma:
 
 U kunt bestaande programma&#39;s toevoegen aan een portfolio. Omdat programma&#39;s niet in twee verschillende portfolio&#39;s kunnen bestaan, wordt de bestaande portfolio permanent verplaatst wanneer u een bestaand programma toevoegt.
 
-Voor meer informatie, zie [ een bestaand programma aan een portefeuille ](../../../manage-work/portfolios/create-and-manage-programs/move-program.md) toevoegen.
+Voor meer informatie, zie [&#x200B; een bestaand programma aan een portefeuille &#x200B;](../../../manage-work/portfolios/create-and-manage-programs/move-program.md) toevoegen.

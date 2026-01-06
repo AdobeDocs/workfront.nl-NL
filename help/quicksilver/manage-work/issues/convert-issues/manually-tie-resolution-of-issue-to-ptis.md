@@ -23,7 +23,7 @@ U kunt de resolutie van een kwestie aan de resolutie van een project, een taak, 
 >
 >Wanneer u de resolutie van een uitgave koppelt aan de resolutie van een ander object, kunt u de status van de oorspronkelijke uitgave niet meer handmatig bewerken.
 
-Voor meer informatie over het oplossen van en het oplossen van oplosbare voorwerpen, zie [ Overzicht van het Oplossen van en Oplosbare Voorwerpen ](../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md).
+Voor meer informatie over het oplossen van en het oplossen van oplosbare voorwerpen, zie [&#x200B; Overzicht van het Oplossen van en Oplosbare Voorwerpen &#x200B;](../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md).
 
 ## Toegangsvereisten
 
@@ -53,7 +53,7 @@ Voor meer informatie over het oplossen van en het oplossen van oplosbare voorwer
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -93,9 +93,9 @@ Voordat u begint, moet u:
 ## De oplossing van een kwestie voor de oplossing van een andere kwestie, een andere taak, of een ander project
 
 1. Navigeer naar een kwestie waarvan u aan de resolutie van een andere kwestie of aan de resolutie van een taak of een project wilt verbinden.
-1. Klik de **Details van de Uitgave** in het linkerpaneel, dan breid het **3} gebied van het Overzicht {uit.**
+1. Klik de **Details van de Uitgave** in het linkerpaneel, dan breid het **3&rbrace; gebied van het Overzicht &lbrace;uit.**
 
-   ![ pictogram van de Details van de Uitgave ](assets/qs-issue-details-icon-expanded-with-overview-section-350x462.png)
+   ![&#x200B; pictogram van de Details van de Uitgave &#x200B;](assets/qs-issue-details-icon-expanded-with-overview-section-350x462.png)
 
 1. Klik **die door** gebied wordt opgelost, en selecteer van de volgende types van het oplossen van voorwerpen:
 

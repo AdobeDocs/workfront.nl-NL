@@ -21,7 +21,7 @@ Het begin niet later dan (SNLT) is een Restrictie van de Taak die een taak plant
 Overweeg het volgende wanneer het werken met de SNLT beperking:
 
 * Gebruik de beperking Begin niet later dan wanneer het project gepland is vanaf de datum van voltooiing. In dit geval, kunt u een zachte beperking op een taak verstrekken alvorens het andere afhankelijke taken dwingt om als Op Risico te tonen.
-* Het begin niet later dan is de standaardbeperking als een project een planningswijze van Programma van de Datum van de Voltooiing en systeem of groepgebrek voor de Datum van het Begin van een taak vandaag gebruikt. Voor informatie over waar te om de standaardBeperking voor een nieuwe taak te plaatsen, verwijs naar [ de taak van het hele systeem vormen en voorkeur van de uitgave ](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md) uitgeven.
+* Het begin niet later dan is de standaardbeperking als een project een planningswijze van Programma van de Datum van de Voltooiing en systeem of groepgebrek voor de Datum van het Begin van een taak vandaag gebruikt. Voor informatie over waar te om de standaardBeperking voor een nieuwe taak te plaatsen, verwijs naar [&#x200B; de taak van het hele systeem vormen en voorkeur van de uitgave &#x200B;](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md) uitgeven.
 * Wanneer u de SNLT beperking met een Programma van het Project van de Datum van het Begin gebruikt, plant Adobe Workfront de taak zoals het zo snel mogelijk een taak zou doen.
 * Wanneer u een taak met een SNLT beperking aan een ander project beweegt of kopieert, zou de beperking van de taak of de data van het project afhankelijk van kunnen veranderen wat de beperkingsdata zijn en wat de Data van het Begin en van de Voltooiing van het project zijn. De volgende scenario&#39;s bestaan:
 
@@ -37,11 +37,11 @@ Overweeg het volgende wanneer het werken met de SNLT beperking:
 
       * Ongeacht het programma van het project, wanneer de beperkingsdatum van de taak binnen de Datums van het Begin en van de Voltooiing van het project is, zijn er geen veranderingen in de Beperking van de Taak of de projectdata.
 
-  Voor informatie over het bewegen van taken, zie [ de taken van de Beweging ](../../../manage-work/tasks/manage-tasks/move-tasks.md).
+  Voor informatie over het bewegen van taken, zie [&#x200B; de taken van de Beweging &#x200B;](../../../manage-work/tasks/manage-tasks/move-tasks.md).
 
-  Voor informatie over het kopiëren van taken, zie [ Kopiëren en dupliceren taken ](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md).
+  Voor informatie over het kopiëren van taken, zie [&#x200B; Kopiëren en dupliceren taken &#x200B;](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md).
 
-Voor informatie over hoe te om de Restrictie van de Taak op een taak bij te werken, zie [ de Restrictie van de Taak van een taak ](../../../manage-work/tasks/task-constraints/update-task-constraint-of-task.md) bijwerken.
+Voor informatie over hoe te om de Restrictie van de Taak op een taak bij te werken, zie [&#x200B; de Restrictie van de Taak van een taak &#x200B;](../../../manage-work/tasks/task-constraints/update-task-constraint-of-task.md) bijwerken.
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

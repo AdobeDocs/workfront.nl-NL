@@ -29,11 +29,11 @@ U kunt problemen toewijzen aan of de toewijzing van problemen door gebruikers, t
 
 Dit artikel bevat algemene informatie over het effect van het wijzigen van de toewijzing van kwesties. Raadpleeg de volgende artikelen voor informatie over het toewijzen van problemen:
 
-* Voor informatie over het toewijzen van kwesties, zie [ kwesties ](../../../manage-work/issues/manage-issues/assign-issues.md) toewijzen en [ gebruikerstaken voor veelvoudige kwesties in een lijst ](../../../manage-work/issues/manage-issues/edit-assignments-for-multiple-issues.md) wijzigen.
+* Voor informatie over het toewijzen van kwesties, zie [&#x200B; kwesties &#x200B;](../../../manage-work/issues/manage-issues/assign-issues.md) toewijzen en [&#x200B; gebruikerstaken voor veelvoudige kwesties in een lijst &#x200B;](../../../manage-work/issues/manage-issues/edit-assignments-for-multiple-issues.md) wijzigen.
 
-* Voor informatie over het toewijzen van kwesties die de Balancer van de Werklast gebruiken, zie [ Overzicht van het toewijzen van het werk in de Balancer van de Werkbelasting ](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
+* Voor informatie over het toewijzen van kwesties die de Balancer van de Werklast gebruiken, zie [&#x200B; Overzicht van het toewijzen van het werk in de Balancer van de Werkbelasting &#x200B;](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
 
-Sommige informatie in dit artikel is ook van toepassing op taken. Voor meer informatie over het toewijzen van taken, en extra overwegingen, zie [ Overzicht van het wijzigen van taaktaken ](../../../manage-work/tasks/assign-tasks/modify-task-assignments-overview.md).
+Sommige informatie in dit artikel is ook van toepassing op taken. Voor meer informatie over het toewijzen van taken, en extra overwegingen, zie [&#x200B; Overzicht van het wijzigen van taaktaken &#x200B;](../../../manage-work/tasks/assign-tasks/modify-task-assignments-overview.md).
 
 ## Wanneer kan de gebruikerstoewijzingen bij problemen worden gewijzigd?
 
@@ -47,7 +47,7 @@ Mogelijk wilt u de gebruikerstoewijzingen wijzigen om verschillende redenen, waa
 
 U kunt toewijzingen verwijderen uit één uitgave tegelijk of uit meerdere uitgaven in bulk.
 
-Voor meer informatie over het verwijderen van taken uit kwesties in bulk, zie [ gebruikerstoewijzingen voor veelvoudige kwesties in een lijst ](../../../manage-work/issues/manage-issues/edit-assignments-for-multiple-issues.md) wijzigen.
+Voor meer informatie over het verwijderen van taken uit kwesties in bulk, zie [&#x200B; gebruikerstoewijzingen voor veelvoudige kwesties in een lijst &#x200B;](../../../manage-work/issues/manage-issues/edit-assignments-for-multiple-issues.md) wijzigen.
 
 Houd rekening met het volgende wanneer u toewijzingen verwijdert uit problemen:
 

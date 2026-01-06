@@ -67,7 +67,7 @@ Of u nu CEO, manager of individuele medewerker bent, u kunt doelstellingen in de
 </tbody>
 </table>
 
-Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -128,16 +128,16 @@ Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Work
 
 ## Richtlijnen voor het maken van doelen
 
-Voordat we beginnen met Workfront Goals, raden we u aan om te lezen over onze aanbevelingen en richtlijnen voor het effectief beheren van doelen. Voor meer informatie over richtlijnen voor het creëren van en het leiden van doelstellingen, zie [ overzicht van de Doelen van Adobe Workfront ](../../workfront-goals/goal-management/wf-goals-overview.md).
+Voordat we beginnen met Workfront Goals, raden we u aan om te lezen over onze aanbevelingen en richtlijnen voor het effectief beheren van doelen. Voor meer informatie over richtlijnen voor het creëren van en het leiden van doelstellingen, zie [&#x200B; overzicht van de Doelen van Adobe Workfront &#x200B;](../../workfront-goals/goal-management/wf-goals-overview.md).
 
 ## Doelen maken
 
-In dit artikel wordt beschreven hoe u een strategisch doel maakt in Workfront Goals. Voor informatie over het creëren van een bedrijfscasedoel, zie [ BedrijfsGevallendoelstellingen ](../../manage-work/projects/define-a-business-case/create-business-case-goals.md) creëren.
+In dit artikel wordt beschreven hoe u een strategisch doel maakt in Workfront Goals. Voor informatie over het creëren van een bedrijfscasedoel, zie [&#x200B; BedrijfsGevallendoelstellingen &#x200B;](../../manage-work/projects/define-a-business-case/create-business-case-goals.md) creëren.
 
 U kunt een strategisch doel op een van de volgende manieren maken:
 
-* [ creeer een doel van kras ](#create-a-goal-from-scratch)
-* [ Exemplaar een bestaand doel ](#copy-an-existing-goal)
+* [&#x200B; creeer een doel van kras &#x200B;](#create-a-goal-from-scratch)
+* [&#x200B; Exemplaar een bestaand doel &#x200B;](#copy-an-existing-goal)
 * [Een resultaat of activiteit omzetten in een doel](#convert-a-result-or-activity-to-a-goal)
 
 ### Een geheel nieuwe doelstelling maken {#create-a-goal-from-scratch}
@@ -227,7 +227,7 @@ De vertoningen van de doellijst.
 
    De Nieuwe doeldoos toont.
 
-   ![ Nieuwe doeldoos ](assets/new-goal-box-unshimmed.png)
+   ![&#x200B; Nieuwe doeldoos &#x200B;](assets/new-goal-box-unshimmed.png)
 
 1. Voer in de volgende velden gegevens in:
    * **Goal naam**: Ga een naam voor het doel in. Dit is een verplicht veld.
@@ -252,24 +252,24 @@ De vertoningen van de doellijst.
    Voer ten minste een van de volgende handelingen uit om een te activeren doel voor te bereiden:
    * Een resultaat toevoegen
 
-     Voor informatie over het toevoegen van resultaten, zie [ resultaten aan doelstellingen in de Doelen van Adobe Workfront ](../results-and-activities/add-results-to-goals.md) toevoegen.
+     Voor informatie over het toevoegen van resultaten, zie [&#x200B; resultaten aan doelstellingen in de Doelen van Adobe Workfront &#x200B;](../results-and-activities/add-results-to-goals.md) toevoegen.
    * Een activiteit toevoegen
 
-     Voor informatie over het toevoegen van activiteiten, zie [ activiteiten aan doelstellingen in de Doelen van Adobe Workfront ](../results-and-activities/add-activities-to-goals.md) toevoegen.
+     Voor informatie over het toevoegen van activiteiten, zie [&#x200B; activiteiten aan doelstellingen in de Doelen van Adobe Workfront &#x200B;](../results-and-activities/add-activities-to-goals.md) toevoegen.
    * Nog een doel uitlijnen
 
-     Voor informatie over het richten van doelstellingen, zie [ doelstellingen door hen in de Doelen van Adobe Workfront ](../goal-alignment/align-goals-by-connecting-them.md) te verbinden.
+     Voor informatie over het richten van doelstellingen, zie [&#x200B; doelstellingen door hen in de Doelen van Adobe Workfront &#x200B;](../goal-alignment/align-goals-by-connecting-them.md) te verbinden.
 
 
 ### Een bestaand doel kopiëren {#copy-an-existing-goal}
 
 U kunt een doel creëren door bestaande te kopiëren.
 
-Voor informatie over het kopiëren van doelstellingen, zie [ doelstellingen van het Exemplaar in de Doelen van Adobe Workfront ](../../workfront-goals/goal-management/copy-goals.md).
+Voor informatie over het kopiëren van doelstellingen, zie [&#x200B; doelstellingen van het Exemplaar in de Doelen van Adobe Workfront &#x200B;](../../workfront-goals/goal-management/copy-goals.md).
 
 ### Een resultaat of activiteit omzetten in een doel {#convert-a-result-or-activity-to-a-goal}
 
 U kunt een doel tot stand brengen door het resultaat of de activiteit van een bestaand doel in een doel om te zetten. Het nieuwe doel wordt uitgelijnd op het oorspronkelijke doel.
 
-Voor informatie over het omzetten van resultaten en activiteiten in doelstellingen, zie [ doelstellingen richten door resultaten en activiteiten in doelstellingen ](../../workfront-goals/goal-alignment/align-goals-by-converting-results-activities.md) om te zetten.
+Voor informatie over het omzetten van resultaten en activiteiten in doelstellingen, zie [&#x200B; doelstellingen richten door resultaten en activiteiten in doelstellingen &#x200B;](../../workfront-goals/goal-alignment/align-goals-by-converting-results-activities.md) om te zetten.
 
