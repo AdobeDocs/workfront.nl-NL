@@ -62,35 +62,35 @@ De onderstaande ERD&#39;s (eenheidrelaties) bieden een overzicht op hoog niveau 
 
 ### Toewijzingen
 
-![ het diagram van de entiteitverhouding van Taken entiteit ](assets/Assignment-centered-ERD.png)
+![&#x200B; het diagram van de entiteitverhouding van Taken entiteit &#x200B;](assets/Assignment-centered-ERD.png)
 
 
 ### Documenten en documentgoedkeuringen
 
-![ Documenten en document goedkeurings entiteitrelatiediagram ](assets/Document-and-Document-Approvals-centered-ERD.png)
+![&#x200B; Documenten en document goedkeurings entiteitrelatiediagram &#x200B;](assets/Document-and-Document-Approvals-centered-ERD.png)
 
 ### Uren en timesheets
 
-![ Uren en Timesheets entiteitrelatiediagram ](assets/Hours-and-Timesheet-centered-ERD.png)
+![&#x200B; Uren en Timesheets entiteitrelatiediagram &#x200B;](assets/Hours-and-Timesheet-centered-ERD.png)
 
 
 ### Problemen
 
-![ de entiteitrelatiediagram van Kwesties ](assets/Issue-centered-ERD.png)
+![&#x200B; de entiteitrelatiediagram van Kwesties &#x200B;](assets/Issue-centered-ERD.png)
 
 ### Projecten
 
-![ de entiteitrelatiediagram van Projecten ](assets/Project-centered-ERD.png)
+![&#x200B; de entiteitrelatiediagram van Projecten &#x200B;](assets/Project-centered-ERD.png)
 
 
 ### Taken
 
-![ het diagram van de entiteitverhouding van Taken ](assets/Task-centered-ERD.png)
+![&#x200B; het diagram van de entiteitverhouding van Taken &#x200B;](assets/Task-centered-ERD.png)
 
 
 ### Gebruikers
 
-![ het diagram van de entiteitverhouding van Gebruikers ](assets/User-centered-ERD.png)
+![&#x200B; het diagram van de entiteitverhouding van Gebruikers &#x200B;](assets/User-centered-ERD.png)
 
 +++
 
@@ -1708,15 +1708,15 @@ De volgende tabel correleert objectnamen in Workfront (en hun namen in de interf
 >
 >Het type record wordt bepaald via de eigenschap `enumClass` . Het volgende is de verwachte types:<br>
 ><ul><li>CONDITION_OPTASK</li>
-&gt;<li>CONDITION_PROJ</li>
-&gt;<li>CONDITION_TASK</li>
-&gt;<li>PRIORITY_OPTASK</li>
-&gt;<li>PRIORITY_PROJ</li>
-&gt;<li>PRIORITY_TASK</li>
-&gt;<li>SEVERITY_OPTASK</li>
-&gt;<li>STATUS_OPTASK</li>
-&gt;<li>STATUS_PROJ</li>
-&gt;<li>STATUS_TASK</li></ul>
+>&gt;<li>CONDITION_PROJ</li>
+>&gt;<li>CONDITION_TASK</li>
+>&gt;<li>PRIORITY_OPTASK</li>
+>&gt;<li>PRIORITY_PROJ</li>
+>&gt;<li>PRIORITY_TASK</li>
+>&gt;<li>SEVERITY_OPTASK</li>
+>&gt;<li>STATUS_OPTASK</li>
+>&gt;<li>STATUS_PROJ</li>
+>&gt;<li>STATUS_TASK</li></ul>
 
 
 ### Document
