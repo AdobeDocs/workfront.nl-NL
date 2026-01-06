@@ -3,13 +3,13 @@ title: Toepassingen ophalen en installeren vanuit Adobe Exchange
 description: Met Workfront UI-extensies, powered by Adobe App Builder, kunnen klanten en partners aangepaste gebruikerservaringen maken.
 author: Courtney
 feature: Digital Content and Documents
-source-git-commit: 0a90da6978fc9b380d237dab74af1f14eabb857a
+exl-id: acbbd926-ca8f-4374-b1b3-297292b173bc
+source-git-commit: 92d4cd209a4e40f80420a3aebb116077cd2141a8
 workflow-type: tm+mt
-source-wordcount: '1059'
+source-wordcount: '1277'
 ht-degree: 1%
 
 ---
-
 
 # Toepassingen ophalen en installeren vanuit Adobe Exchange
 
@@ -27,25 +27,41 @@ Workfront-partners maken gebruik van Workfront UI Extensions, een krachtig frame
 
 #### Resultaten in realtime, direct in Adobe Workfront
 
-Wij werken samen met Adobe Workfront-klanten om dagelijkse knelpunten om te zetten in herhaalbare oplossingen met voorspelbare resultaten. Onze groeiende bibliotheek met oplossingen helpt u om nauwkeurigheid, snelheid en verantwoordingsplicht te bevorderen met behulp van live gegevens van waar mensen werken. U kunt leiders helpen zien wat er nu gebeurt en plannen wat er verder moet gebeuren. Ontdek de AtAppStore Adobe Exchange-apps die momenteel beschikbaar zijn en klaar zijn om te worden geïnstalleerd, kies de apps die aan uw huidige prioriteiten voldoen en schaal deze vervolgens naarmate uw behoeften toenemen.
+InApp werkt samen met klanten van Adobe Workfront om dagelijkse knelpunten om te zetten in herhaalbare oplossingen met voorspelbare resultaten. De groeiende bibliotheek met oplossingen helpt nauwkeurigheid, snelheid en verantwoordingsplicht te bevorderen door live gegevens te gebruiken van waar mensen werken. InApp kunnen leiders zien wat er nu gebeurt en plannen wat er daarna moet gebeuren. Gebruikers kunnen de AtAppStore Adobe Exchange-apps bekijken die momenteel beschikbaar zijn en klaar zijn om te installeren, de apps selecteren die aan hun huidige prioriteiten voldoen en schalen wanneer hun behoeften toenemen.
 
-* [&#x200B; Updater van Excel &#x200B;](https://exchange.adobe.com/apps/ec/abtt1rq7o9/atapp-excel-updater): De Updater van Excel biedt u een rendabele weg om gegevens in Workfront te integreren zonder het moeten API leren, code schrijven, of opstelling een server, en is ideaal voor zowel eenmalige als terugkomende gegevensladingen.
+* [ Updater van Excel ](https://exchange.adobe.com/apps/ec/abtt1rq7o9/atapp-excel-updater): De Updater van Excel biedt u een rendabele weg om gegevens in Workfront te integreren zonder het moeten API leren, code schrijven, of opstelling een server, en is ideaal voor zowel eenmalige als terugkomende gegevensladingen.
 
-* [&#x200B; Recalc Helper &#x200B;](https://exchange.adobe.com/apps/ec/abv755903t/atapp-recalc-helper): De oplossing van de Helper van Recalc verstrekt u een snelle manier om de aangepaste vorm berekende uitdrukkingen, projectchronologie, of projectfinanciën voor alle punten gemakkelijk opnieuw te berekenen die een geselecteerd filter, recht van binnen Workfront aanpassen.
+* [ Recalc Helper ](https://exchange.adobe.com/apps/ec/abv755903t/atapp-recalc-helper): De oplossing van de Helper van Recalc verstrekt u een snelle manier om de aangepaste vorm berekende uitdrukkingen, projectchronologie, of projectfinanciën voor alle punten gemakkelijk opnieuw te berekenen die een geselecteerd filter, recht van binnen Workfront aanpassen.
 
 * UberTimesheet: UberTimesheet-oplossing kan de acceptatie van Workfront door uw gebruikers verbeteren en uitbreiden door het voor iedereen eenvoudig en handig te maken om de tijd van zijn browser, tablet of smartphone te volgen.
 
 ### Workfocus
 
-Workfocus biedt geavanceerde automatiserings- en integratieoplossingen voor Workfront. Hun toepassingen zijn gericht op:
+WorkFocus is een Adobe Gold Solutions-partner die gespecialiseerd is in Adobe Workfront, Workfront Fusion, Workfront Planning, Firefly, AEM Assets en automatisering voor bedrijven. We helpen organisaties om automatisering op verantwoorde wijze te schalen door een Fusion Center of Excellence (FCoE) op te richten dat wordt aangedreven door onze eigen FCoE-toepassing.
 
-* Tijdlijnen stroomlijnen
+#### Fusion Center of Excellence (FCoE)-toepassing
 
-* Fusion-workflows automatiseren
+Met de toepassing WorkFocus Fusion Center of Excellence kunnen organisaties de waarde van Adobe Workfront Fusion in de hele onderneming beheren, schalen en maximaliseren.
 
-* Samenwerking tussen instanties inschakelen
+Vele teams worstelen met gefragmenteerde scenario&#39;s van de Fusie, beperkte zichtbaarheid in automatiseringseigendom en waarde, inconsistente normen, en automatiseringswildgroei. De FCoE-toepassing lost deze uitdagingen op door een centraal systeem voor registratie voor Fusion-automatisering te bieden.
 
-Workfocus-apps zijn ontworpen om op een native manier in Workfront te werken, waarbij gebruik wordt gemaakt van UI-extensies om gebruikers krachtige gereedschappen te bieden die de productiviteit verhogen en de handmatige inspanning verminderen.
+De belangrijkste mogelijkheden omvatten:
+
+* Gecentraliseerd bestuur en eigendom van fusiescenario&#39;s
+* Scenario-levenscyclusbeheer van inname via ondersteuning
+* ROI en waardetracering
+* Standaarden, documentatie en foutafhandeling op bedrijfsniveau
+* Schaalbaar bedrijfsmodel voor bedrijfsacceptatie
+
+Het resultaat is snellere tijd-aan-waarde, verminderd risico, en meetbare bedrijfsgevolgen van Fusion.
+
+#### Aan de slag met WorkFocus
+
+Het WorkFocus-team nodigt organisaties uit een aangepaste demonstratie van het Fusion Center of Excellence te plannen en een gratis proefversie van de toepassing in te stellen.
+
+Vooruitblikkend, omvat de routekaart de release van het Workfront Core Center of Excellence en het Workfront Planning Center of Excellence in 2026. Door een klant te worden van het Fusion Center of Excellence, krijgen organisaties de kans om invloed uit te oefenen op de routekaart voor deze komende oplossingen en om de toekomst van het Workfront-bestuur van bedrijven vorm te geven.
+
+WorkFocus is erg benieuwd hoe het als een strategische partner kan dienen in Workfront, Workfront Fusion, Workfront Planning, Firefly, AEM Assets en de end-to-end Content Supply chain.
 
 ## Vereisten en machtigingen
 
@@ -84,7 +100,7 @@ Een app aanschaffen
 1. Klik op de naam van de app.
 1. Klik op de knop in de rechterbovenhoek van de appenlijst.
 1. Klik **ja, ga** voort en keur dan de overeenkomst van de eindgebruikervergunning goed.
-   ![&#x200B; bevestigt vergunningsovereenkomst &#x200B;](assets/2-aquire-application.png)
+   ![ bevestigt vergunningsovereenkomst ](assets/2-aquire-application.png)
 
 ### Handelingen voor systeembeheerders
 
@@ -98,13 +114,13 @@ Systeembeheerders worden doorgaans per e-mail op de hoogte gesteld wanneer een g
 
 **Admin Console**
 
-Systeembeheerders kunnen zich aanmelden bij de Admin Console op [&#x200B; https://adminconsole.adobe.com/ &#x200B;](https://adminconsole.adobe.com/) en naar Producten > Toepassingsintegratie navigeren om alle opgehaalde of aangevraagde apps weer te geven.
+Systeembeheerders kunnen zich aanmelden bij de Admin Console op [ https://adminconsole.adobe.com/ ](https://adminconsole.adobe.com/) en naar Producten > Toepassingsintegratie navigeren om alle opgehaalde of aangevraagde apps weer te geven.
 
 Zodra een systeembeheerder toegang tot de verzoeken heeft, kunnen zij de toepassing herzien en goedkeuren. Sommige toepassingen vragen de beheerder mogelijk toestemming te geven voor gegevenstoegang en de app toe te wijzen aan productprofielen of specifieke gebruikers.
 
 Nadat de app is goedgekeurd, kan deze worden geïnstalleerd.
 
-![&#x200B; overzicht en keurt apps &#x200B;](assets/3-manage.png) goed
+![ overzicht en keurt apps ](assets/3-manage.png) goed
 
 ## Toepassingen installeren
 
@@ -114,7 +130,7 @@ Zodra een app is aangeschaft, kan deze rechtstreeks in Workfront worden geïnsta
 1. Klik op App-details weergeven.
 1. Selecteer een omgeving links op het scherm of voeg een nieuwe omgeving toe.
 1. Klik **opstellen**.
-   ![&#x200B; stel app &#x200B;](assets/10-env-details-2.png) op
+   ![ stel app ](assets/10-env-details-2.png) op
 1. Wijs installatie- of gebruiksrechten toe (indien vereist).
 
    Als uw organisatie de toegang tot toepassingen beheert via productprofielen of gebruikersgroepen, wijst u de toepassing toe aan het juiste profiel of de juiste groep zodat gebruikers door kunnen gaan met de installatie en het gebruik.
@@ -125,7 +141,7 @@ Zodra opgesteld, zal partnerapp in het lay-outmalplaatje van Workfront beschikba
 
 Als u de app aan de lay-outsjabloon wilt toevoegen, opent u de lay-outsjabloon en gaat u naar het hoofdmenu of het secundaire menugebied. Voeg de app toe met het pictogram Toevoegen.
 
-![&#x200B; voeg app aan het lay-outmalplaatje toe &#x200B;](assets/add-to-lt.png)
+![ voeg app aan het lay-outmalplaatje toe ](assets/add-to-lt.png)
 
 ## Contact opnemen met App-ondersteuning
 
