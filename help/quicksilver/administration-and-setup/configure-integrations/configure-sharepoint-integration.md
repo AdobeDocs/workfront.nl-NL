@@ -8,7 +8,7 @@ author: Becky
 feature: System Setup and Administration, Workfront Integrations and Apps, Digital Content and Documents
 role: Admin
 exl-id: fd45e1bc-9a35-4960-a73a-ff845216afe4
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+source-git-commit: 53596271a838733b858c0b14a4e22b07a7cd20f6
 workflow-type: tm+mt
 source-wordcount: '1671'
 ht-degree: 0%
@@ -33,11 +33,11 @@ ht-degree: 0%
 >
 >* Voor de nieuwe SharePoint-integratie is mogelijk geen configuratie van een beheerder vereist en deze kan door individuele gebruikers worden ingesteld. Voor een vloeiende overgang naar de nieuwe SharePoint-integratie moet een Workfront-beheerder echter kleine wijzigingen aanbrengen in het gedeelte Workfront Setup.
 >
->    Voor informatie en instructies, zie [&#x200B; de integratie van erfenisSharePoint voor voortdurende toegang tot documenten &#x200B;](#configure-the-legacy-sharepoint-integration-for-continued-access-to-documents) in dit artikel vormen.
+>    Voor informatie en instructies, zie [ de integratie van erfenisSharePoint voor voortdurende toegang tot documenten ](#configure-the-legacy-sharepoint-integration-for-continued-access-to-documents) in dit artikel vormen.
 >    
 >* We raden gebruikers aan documenten te koppelen die momenteel via de verouderde [!DNL SharePoint] -integratie aan elkaar zijn gekoppeld.
 >    
->    Voor instructies bij het verbinden van documenten, zie [&#x200B; documenten van de Verbinding van externe toepassingen &#x200B;](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
+>    Voor instructies bij het verbinden van documenten, zie [ documenten van de Verbinding van externe toepassingen ](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
 
 U kunt [!DNL Workfront] integreren met [!DNL SharePoint Online] , zodat gebruikers in Workfront kunnen navigeren naar documenten van het type [!DNL SharePoint] , deze kunnen koppelen en toevoegen. De geleverde functionaliteit is vergelijkbaar met die van andere [!DNL Workfront] -integraties, zoals [!DNL Google Drive] , [!DNL Box] en [!DNL Dropbox] .
 
@@ -66,7 +66,7 @@ Deze integratie is alleen compatibel met [!DNL SharePoint Online] . Op-premise i
  </tbody> 
 </table>
 
-Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -80,9 +80,9 @@ Individuele gebruikers kunnen documenten koppelen via de nieuwe [!DNL SharePoint
 
 De eerste keer dat een gebruiker de [!DNL Workfront] [!DNL SharePoint] -integratie verbindt met zijn [!DNL SharePoint] -account, ziet en accepteert hij alle machtigingen die [!DNL Workfront] gebruikt bij interactie met zijn [!UICONTROL SharePoint] -account, of kan hij of zij rechten aanvragen bij zijn of haar Microsoft-beheerder. Met leesmachtigingen kan [!DNL Workfront] bestanden weergeven en openen op [!DNL SharePoint] en met schrijfmachtigingen kan de gebruiker bestanden uploaden naar [!DNL SharePoint] .
 
-![&#x200B; toestemmingen van SharePoint &#x200B;](assets/sharepoint-permissions.png)
+![ toestemmingen van SharePoint ](assets/sharepoint-permissions.png)
 
-Voor instructies bij het verbinden van documenten door de nieuwe [!DNL SharePoint] integratie, zie [&#x200B; Verbinding een extern document aan  [!DNL Workfront]](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md#link-an-external-document-to-workfront)
+Voor instructies bij het verbinden van documenten door de nieuwe [!DNL SharePoint] integratie, zie [ Verbinding een extern document aan  [!DNL Workfront]](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md#link-an-external-document-to-workfront)
 
 >[!NOTE]
 >
@@ -94,19 +94,19 @@ Voor instructies bij het verbinden van documenten door de nieuwe [!DNL SharePoin
 
 ### Documenten van SharePoint koppelen
 
-Voor instructies bij het verbinden van documenten van SharePoint door de nieuwe [!DNL SharePoint] integratie, zie [&#x200B; Verbinding een extern document aan  [!DNL Workfront]](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md#link-an-external-document-to-workfront).
+Voor instructies bij het verbinden van documenten van SharePoint door de nieuwe [!DNL SharePoint] integratie, zie [ Verbinding een extern document aan  [!DNL Workfront]](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md#link-an-external-document-to-workfront).
 
 ### Documenten naar SharePoint verzenden
 
 Een document naar SharePoint verzenden:
 
-1. Klik **verzenden naar** pictogram ![&#x200B; verzenden naar &#x200B;](assets/send-to-icon.png) en selecteren SharePoint (Grafiek API).
+1. Klik **verzenden naar** pictogram ![ verzenden naar ](assets/send-to-icon.png) en selecteren SharePoint (Grafiek API).
 1. (Optioneel) Zoek in de zoekbalk naar de site of map waarnaar u het document wilt verzenden.
 1. Selecteer de site of map in de lijst.
 
-   * De plaatsen zijn duidelijk met ![&#x200B; pictogram van de Plaats &#x200B;](assets/site-icon.png).
+   * De plaatsen zijn duidelijk met ![ pictogram van de Plaats ](assets/site-icon.png).
 
-   * De omslagen zijn duidelijk met ![&#x200B; pictogram van de Omslag &#x200B;](assets/folder-icon.png).
+   * De omslagen zijn duidelijk met ![ pictogram van de Omslag ](assets/folder-icon.png).
 
    * Bestanden zijn niet gemarkeerd met een pictogram.
 
@@ -168,7 +168,7 @@ Door de verouderde [!DNL SharePoint] integratie opnieuw te configureren, hebben 
 > * De oudere [!DNL SharePoint] integratie wordt geëtiketteerd &quot;[!DNL SharePoint]&quot;.
 > * De nieuwe [!DNL SharePoint] integratie wordt geëtiketteerd &quot;[!UICONTROL [!DNL SharePoint] (Graph API)]&quot;.
 
-1. Klik het **[!UICONTROL Main Menu]** pictogram ![&#x200B; Belangrijkste Menu &#x200B;](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, of (als beschikbaar), klik het **[!UICONTROL Main Menu]** pictogram ![&#x200B; Belangrijkste Menu &#x200B;](/help/_includes/assets/main-menu-icon-left-nav.png) in de upper-left hoek, dan klik **[!UICONTROL Setup]** ![&#x200B; pictogram van de Opstelling &#x200B;](/help/_includes/assets/gear-icon-setup.png).
+1. Klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, of (als beschikbaar), klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon-left-nav.png) in de upper-left hoek, dan klik **[!UICONTROL Setup]** ![ pictogram van de Opstelling ](/help/_includes/assets/gear-icon-setup.png).
 1. Selecteer **[!UICONTROL Documents]** in de linkernavigatie en selecteer vervolgens **[!UICONTROL Cloud Providers]** .
 1. Zorg ervoor dat de optie **[!DNL SharePoint]** en **[!UICONTROL [!DNL SharePoint] (Graph API)]** beide zijn ingeschakeld.
 1. Klik op **[!UICONTROL Save]**.
@@ -189,10 +189,10 @@ Uw [!DNL SharePoint] clientgeheim verloopt één keer per jaar. Om ervoor te zor
 
 1. Add `/_layouts/15/appregnew.aspx` to the end of the URL in the search bar at the top of your browser window.-->
 
-1. Produceer een nieuw cliëntgeheim zoals die in [&#x200B; wordt beschreven Vervang een het verlopen cliëntgeheim in a  [!DNL SharePoint]  toe:voegen-binnen &#x200B;](https://docs.microsoft.com/en-us/sharepoint/dev/sp-add-ins/replace-an-expiring-client-secret-in-a-sharepoint-add-in#generate-a-new-secret).
+1. Produceer een nieuw cliëntgeheim zoals die in [ wordt beschreven Vervang een het verlopen cliëntgeheim in a  [!DNL SharePoint]  toe:voegen-binnen ](https://docs.microsoft.com/en-us/sharepoint/dev/sp-add-ins/replace-an-expiring-client-secret-in-a-sharepoint-add-in#generate-a-new-secret).
 1. Kopieer dit clientgeheim naar een beveiligde locatie.
 1. Meld u aan bij [!DNL Workfront] als beheerder.
-1. In Workfront, klik het **[!UICONTROL Main Menu]** pictogram ![&#x200B; Belangrijkste Menu &#x200B;](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, of (als beschikbaar), klik het **[!UICONTROL Main Menu]** pictogram ![&#x200B; Belangrijkste Menu &#x200B;](/help/_includes/assets/main-menu-icon-left-nav.png) in de upper-left hoek, dan klik **[!UICONTROL Setup]** ![&#x200B; pictogram van de Opstelling &#x200B;](/help/_includes/assets/gear-icon-setup.png).
+1. In Workfront, klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, of (als beschikbaar), klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon-left-nav.png) in de upper-left hoek, dan klik **[!UICONTROL Setup]** ![ pictogram van de Opstelling ](/help/_includes/assets/gear-icon-setup.png).
 1. Klik in het linkerdeelvenster op **[!UICONTROL Documents]** > **[!UICONTROL [!DNL SharePoint] Integration]** .
 1. Klik op de [!DNL SharePoint] -integratie die u wilt bijwerken en klik vervolgens op **[!UICONTROL Edit]** .
 1. Bepaal de plaats van de **sectie van Info van de Verbinding** van het het uitgeven venster, dan ga het nieuwe Geheim van de Cliënt in het **[!UICONTROL SharePoint Client Secret]** gebied in.
@@ -411,8 +411,8 @@ For instructions, see [Link an external document to [!DNL Workfront]](../../docu
 
 ## Problemen oplossen
 
-* [&#x200B; Probleem: De gebruikers ervaren op authentificatie-gebaseerde fouten wanneer het gebruiken van de  [!DNL SharePoint]  integratie.](#problem-users-experience-authentication-based-errors-when-using-the-sharepoint-integration)
-* [&#x200B; Probleem: Wanneer het proberen om  [!DNL SharePoint]  dossiers in  [!DNL Workfront] te doorbladeren, zie ik geen of alle van mijn plaatsinzamelingen.](#problem-when-attempting-to-browse-sharepoint-files-in-workfront-i-do-not-see-any-or-all-of-my-site-collections)
+* [ Probleem: De gebruikers ervaren op authentificatie-gebaseerde fouten wanneer het gebruiken van de  [!DNL SharePoint]  integratie.](#problem-users-experience-authentication-based-errors-when-using-the-sharepoint-integration)
+* [ Probleem: Wanneer het proberen om  [!DNL SharePoint]  dossiers in  [!DNL Workfront] te doorbladeren, zie ik geen of alle van mijn plaatsinzamelingen.](#problem-when-attempting-to-browse-sharepoint-files-in-workfront-i-do-not-see-any-or-all-of-my-site-collections)
 * [Probleem: ik heb geen toegang tot eerder verbonden omslagen en documenten in  [!DNL SharePoint].](#problem-i-cannot-access-previously-linked-folders-and-documents-in-sharepoint)
 
 ### Probleem: gebruikers ervaren op verificatie gebaseerde fouten bij het gebruik van de [!DNL SharePoint] -integratie. {#problem-users-experience-authentication-based-errors-when-using-the-sharepoint-integration}
@@ -446,7 +446,7 @@ Gebruikers met [!UICONTROL Full Control] toegang hebben alle benodigde machtigin
  </tbody> 
 </table>
 
-Voor instructies bij het creëren van en het uitgeven van toestemmingsniveaus, zie [&#x200B; hoe te tot toestemmingsniveaus &#x200B;](https://docs.microsoft.com/en-us/sharepoint/how-to-create-and-edit-permission-levels) in de documentatie van Microsoft leiden en uitgeven.
+Voor instructies bij het creëren van en het uitgeven van toestemmingsniveaus, zie [ hoe te tot toestemmingsniveaus ](https://docs.microsoft.com/en-us/sharepoint/how-to-create-and-edit-permission-levels) in de documentatie van Microsoft leiden en uitgeven.
 
 <!--
 
@@ -503,7 +503,7 @@ Als de gebruiker die een map [!DNL SharePoint] heeft gekoppeld, niet langer kan 
 
 Een gebruiker met toegang tot de map moet de map opnieuw koppelen om ervoor te zorgen dat hij of zij toegang kan blijven krijgen.
 
-Voor informatie bij het verbinden van omslagen van externe leveranciers, zie [&#x200B; documenten van de Verbinding van externe toepassingen &#x200B;](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
+Voor informatie bij het verbinden van omslagen van externe leveranciers, zie [ documenten van de Verbinding van externe toepassingen ](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
 
 <!--
 
