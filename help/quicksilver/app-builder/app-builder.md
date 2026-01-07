@@ -30,7 +30,7 @@ Nadat een toepassing is gemaakt in de Adobe App Builder, kan een Workfront-behee
 
 In dit artikel wordt beschreven hoe u toegang krijgt tot de App Builder en een sjabloon gebruikt om een toepassing te maken.
 
-Voor informatie over het toevoegen van een douanetoepassing aan lay-outmalplaatjes, zie [ het belangrijkste menu aanpassen gebruikend een lay-outmalplaatje ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md) en [ pas het linkerpaneel aan gebruikend een lay-outmalplaatje ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md).
+Voor informatie over het toevoegen van een douanetoepassing aan lay-outmalplaatjes, zie [&#x200B; het belangrijkste menu aanpassen gebruikend een lay-outmalplaatje &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md) en [&#x200B; pas het linkerpaneel aan gebruikend een lay-outmalplaatje &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md).
 
 ## Vereisten
 
@@ -44,7 +44,7 @@ U moet het volgende hebben:
 
 Als u UI-extensies wilt maken, moet u toegang hebben tot Adobe App Builder in de Adobe Developer Console.
 
-De extra instructies zijn beschikbaar op de [ plaats van Adobe Developer ](https://developer.adobe.com/uix/docs/guides/get-access/).
+De extra instructies zijn beschikbaar op de [&#x200B; plaats van Adobe Developer &#x200B;](https://developer.adobe.com/uix/docs/guides/get-access/).
 
 ### Ontwikkelaars toevoegen aan de Adobe Admin Console
 
@@ -55,7 +55,7 @@ De extra instructies zijn beschikbaar op de [ plaats van Adobe Developer ](https
 1. Ga naar Productie: https://adminconsole.adobe.com/
 1. In de **sectie van Gebruikers**, klik **Ontwikkelaars** > **voegt ontwikkelaars** toe.
 
-   ![ voeg gebruikers in de admin console ](assets/manage-users-admin-console.png) toe
+   ![&#x200B; voeg gebruikers in de admin console &#x200B;](assets/manage-users-admin-console.png) toe
 
    >[!NOTE]
    >
@@ -64,7 +64,7 @@ De extra instructies zijn beschikbaar op de [ plaats van Adobe Developer ](https
 1. Voeg de e-mail van de gebruiker toe. De toepassing moet zoeken naar bestaande gebruikers die al vanuit de Admin Console zijn toegevoegd.
 1. Voeg noodzakelijke producten aan het ontwikkelaarprofiel toe en klik **sparen**.
 
-   ![ voeg ontwikkelaars ](assets/add-developer.png) toe
+   ![&#x200B; voeg ontwikkelaars &#x200B;](assets/add-developer.png) toe
 
 ### Toegang tot App Builder krijgen
 
@@ -76,7 +76,7 @@ Als AppBuilder behoorlijk wordt gevormd, zou u project van malplaatje als deel v
 
 U moet de Adobe Developer Console gebruiken om uw UI-extensie te maken.
 
-De extra instructies zijn beschikbaar op de [ plaats van Adobe Developer ](https://developer.adobe.com/uix/docs/guides/creating-project-in-dev-console/).
+De extra instructies zijn beschikbaar op de [&#x200B; plaats van Adobe Developer &#x200B;](https://developer.adobe.com/uix/docs/guides/creating-project-in-dev-console/).
 
 1. Meld u met uw Adobe ID aan bij de Adobe Developer Console.
 1. Kies uw account en uw profiel of organisatie.
@@ -86,7 +86,7 @@ De extra instructies zijn beschikbaar op de [ plaats van Adobe Developer ](https
    >
    >Als u niet de optie ziet om een project van een malplaatje tot stand te brengen, dan bent u misconfigured in de Admin Console en hebt geen toegang tot de catalogus van App Builder. Deze optie wordt alleen weergegeven wanneer u toegang hebt tot AppBuilder.
 
-   ![ creeer van malplaatje ](assets/create-from-template.png)
+   ![&#x200B; creeer van malplaatje &#x200B;](assets/create-from-template.png)
 
 1. Selecteer **App Builder**.
 1. Ga de titel van het a **Project** en **App naam** in. Beide hebben gebreken, maar het is gemakkelijker om het project te identificeren u later wilt als u de waarde aanpast.
@@ -107,16 +107,16 @@ De extra instructies zijn beschikbaar op GitHub en de plaats van Adobe Developer
 1. Start het instellen van de app door deze uit te voeren: `aio app init example-app` vervang &#39;example-app&#39; door uw toepassingsnaam. Als u niet zeker bent van toepassingsnamen, ziet u een lijst met toepassingsnamen met de opdracht `aio console project list` .
 1. Selecteer uw organisatie en project uit de beschikbare opties.
 
-   ![ bevelresultaat ](assets/1-command-result.png)
-   ![ selecteer een project ](assets/2-select-a-project.png)
+   ![&#x200B; bevelresultaat &#x200B;](assets/1-command-result.png)
+   ![&#x200B; selecteer een project &#x200B;](assets/2-select-a-project.png)
 
 1. Blader door alle beschikbare sjablonen en kies de **@adobe/workfront-ui-ext-tpl** voor uw project.
 
-   ![ kies een malplaatje ](assets/3-choose-template.png)
+   ![&#x200B; kies een malplaatje &#x200B;](assets/3-choose-template.png)
 
 1. Selecteer en typ de projectnaam die u in de Adobe Developer Console hebt gemaakt.
 
-   ![ uitgezocht en ga projectnaam ](assets/4-select-and-enter-project-name.png) in
+   ![&#x200B; uitgezocht en ga projectnaam &#x200B;](assets/4-select-and-enter-project-name.png) in
 
 1. Beantwoord de vragen voor de toepassing:
 
@@ -125,17 +125,17 @@ De extra instructies zijn beschikbaar op GitHub en de plaats van Adobe Developer
    * Selecteer een eerste versienummer waarmee u wilt beginnen.
    * De sjabloon maakt de code voor een primaire navigatieknop als u &quot;Een aangepaste knop toevoegen aan hoofdmenu-item&quot; selecteert wanneer u wordt gevraagd wat u hierna wilt doen.&quot;
 
-   ![ uitgezocht gedaan ](assets/5-select-done.png)
+   ![&#x200B; uitgezocht gedaan &#x200B;](assets/5-select-done.png)
 
 1. Bevestig de voltooiing door op Ik ben klaar te klikken. De code die wordt gegenereerd op basis van de sjabloon, wordt momenteel gegenereerd.
 
-   ![ generatie in proces ](assets/6-generation-in-process.png)
+   ![&#x200B; generatie in proces &#x200B;](assets/6-generation-in-process.png)
 
 1. Wacht tot u een bericht ziet dat de app-initialisatie is voltooid. Dan kunt u het project in winde (de Code van Visual Studio wordt geadviseerd) openen en tot de src omslag toegang hebben.
 
-   Voor meer informatie over de omslagen en de dossiers in uw project, zie de [ de ontwikkelaarplaats van Adobe ](https://developer.adobe.com/app-builder/docs/get_started/app_builder_get_started/first-app#anatomy-of-an-app-builder-application).
+   Voor meer informatie over de omslagen en de dossiers in uw project, zie de [&#x200B; de ontwikkelaarplaats van Adobe &#x200B;](https://developer.adobe.com/app-builder/docs/get_started/app_builder_get_started/first-app#anatomy-of-an-app-builder-application).
 
-Voor meer informatie over de omslagen en de dossiers in uw project, zie de [ plaats van Adobe Developer ](https://developer.adobe.com/app-builder/docs/get_started/app_builder_get_started/first-app#anatomy-of-an-app-builder-application).
+Voor meer informatie over de omslagen en de dossiers in uw project, zie de [&#x200B; plaats van Adobe Developer &#x200B;](https://developer.adobe.com/app-builder/docs/get_started/app_builder_get_started/first-app#anatomy-of-an-app-builder-application).
 
 ## De extensies maken in VSCode
 
@@ -181,7 +181,7 @@ Aangepaste toepassingen toestaan in het hoofdmenu van Workfront:
 
 1. Voeg het volgende codefragment toe:
 
-   ![ codefragment ](assets/7-extension-registration-step1-from-sam.png)
+   ![&#x200B; codefragment &#x200B;](assets/7-extension-registration-step1-from-sam.png)
 
    In dit voorbeeld ziet u een hoofdmenu-item. U moet de id, het label, het pictogram en de URL bijwerken naar de juiste namen voor uw toepassing. Wanneer u meerdere items toevoegt, moet u ervoor zorgen dat de id uniek is.
 
@@ -214,7 +214,7 @@ Aangepaste toepassingen toestaan in navigatie in het linkerdeelvenster van Workf
    },  
    ```
 
-   ![ uitbreidingsregistratie ](assets/8-extension-registration-file-step2.png)
+   ![&#x200B; uitbreidingsregistratie &#x200B;](assets/8-extension-registration-file-step2.png)
 
    * In dit voorbeeld ziet u een navigatiepunt in het linkerdeelvenster met de naam Mijn taak. U moet de id, het label, het pictogram en de URL bijwerken naar de juiste namen voor uw toepassing.
    * In dit voorbeeld ziet u een navigatiepunt in het linkerdeelvenster voor het objecttype Project. U moet deze items afzonderlijk maken voor elk object waarvoor ze in Workfront worden ondersteund. De volgende objecten zijn beschikbaar: project, taak, uitgave, portfolio en programma.
@@ -378,7 +378,7 @@ Widgets hebben toegang tot dezelfde gedeelde context als andere extensiepunten, 
 
 Een toepassing kan op een aangepast Workfront-formulier worden ingesloten met het veldtype &quot;UI Extensions&quot;. Wanneer u het veld hebt toegevoegd, selecteert u een formulierwidget, is de lijst met widgets gebaseerd op actieve apps op uw IMS-org of op de lokale actieve toepassing wanneer `extensionoverride=TRUE` .
 
-![ gebied van Uitbreidingen UI in een douanevorm ](assets/ui-extensions-field.png)
+![&#x200B; gebied van Uitbreidingen UI in een douanevorm &#x200B;](assets/ui-extensions-field.png)
 
 ### App.js configureren
 
@@ -396,10 +396,10 @@ Een toepassing kan op een aangepast Workfront-formulier worden ingesloten met he
            /> 
    ```
 
-   ![ codevoorbeeld ](assets/9-app-file-step-1-from-sam.png)
+   ![&#x200B; codevoorbeeld &#x200B;](assets/9-app-file-step-1-from-sam.png)
 1. Sla uw werk op.
 
-Voor meer informatie bij het ontwikkelen van en het runnen van de toepassing, zie de [ de ontwikkelaarplaats van Adobe ](https://developer.adobe.com/app-builder/docs/get_started/app_builder_get_started/first-app#develop-the-application).
+Voor meer informatie bij het ontwikkelen van en het runnen van de toepassing, zie de [&#x200B; de ontwikkelaarplaats van Adobe &#x200B;](https://developer.adobe.com/app-builder/docs/get_started/app_builder_get_started/first-app#develop-the-application).
 
 
 ## Gedeelde context
@@ -448,4 +448,4 @@ De markering uitschakelen
 
 ## Toepassingen publiceren en de verzending goedkeuren
 
-Om de toepassing te publiceren en het goed te keuren, volg de instructies op de [ plaats van Adobe Developer ](https://developer.adobe.com/uix/docs/guides/publication/).
+Om de toepassing te publiceren en het goed te keuren, volg de instructies op de [&#x200B; plaats van Adobe Developer &#x200B;](https://developer.adobe.com/uix/docs/guides/publication/).

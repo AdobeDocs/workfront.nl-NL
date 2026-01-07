@@ -47,7 +47,7 @@ De nieuwe dialoog is nu in overeenstemming met andere gebieden van Workfront. De
 
 We hebben de dialoogvensters voor het toevoegen en bewerken van bedrijven bijgewerkt met een modern ontwerp dat aansluit bij andere gebieden van Workfront.
 
-Voor meer informatie, zie [ bedrijven ](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md) creëren en uitgeven.
+Voor meer informatie, zie [&#x200B; bedrijven &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md) creëren en uitgeven.
 
 ## Projecten
 
@@ -77,7 +77,7 @@ De volgende wijzigingen zijn opgenomen in deze update:
 
 U kunt de verwijderde velden nog steeds vinden wanneer u geavanceerde toewijzingen voor sjabloontaken uitvoert.
 
-Voor informatie, zie [ malplaatjetaken ](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-template-task.md) uitgeven.
+Voor informatie, zie [&#x200B; malplaatjetaken &#x200B;](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-template-task.md) uitgeven.
 
 
 ### Nieuwe ervaring bij het bewerken van grote hoeveelheden en het toewijzen van taken in één keer of in grote hoeveelheden
@@ -104,7 +104,7 @@ De volgende wijzigingen zijn opgenomen in deze update:
 
 U kunt de verwijderde velden nog steeds vinden wanneer u geavanceerde taken toewijst aan taken.
 
-Voor informatie, zie [ taken ](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md) uitgeven.
+Voor informatie, zie [&#x200B; taken &#x200B;](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md) uitgeven.
 
 ### De update van de interface wanneer het omzetten van een taak in een project gebruikend een malplaatje
 
@@ -112,7 +112,7 @@ Voor informatie, zie [ taken ](/help/quicksilver/manage-work/tasks/manage-tasks/
 
 Wij hebben Omzetten in projectvakje bijgewerkt wanneer het omzetten van een taak in een project gebruikend een malplaatje. Het ontwerp van het vak komt nu overeen met het vak Project bewerken.
 
-Voor informatie, zie [ een taak in een project ](/help/quicksilver/manage-work/tasks/manage-tasks/convert-task-to-project.md) omzetten.
+Voor informatie, zie [&#x200B; een taak in een project &#x200B;](/help/quicksilver/manage-work/tasks/manage-tasks/convert-task-to-project.md) omzetten.
 
 ### Nieuwe ervaring bij het bewerken van grote hoeveelheden en problemen met één of meerdere toewijzingen
 
@@ -134,7 +134,7 @@ De volgende wijzigingen zijn opgenomen in deze update:
 
 U kunt de verwijderde velden bijwerken wanneer u geavanceerde toewijzingen maakt voor problemen.
 
-Voor informatie, zie [ kwesties ](/help/quicksilver/manage-work/issues/manage-issues/edit-issues.md) uitgeven.
+Voor informatie, zie [&#x200B; kwesties &#x200B;](/help/quicksilver/manage-work/issues/manage-issues/edit-issues.md) uitgeven.
 
 ### De updates van de interface voor Nieuw en geeft het vakje van het Risico in een douanedashboard op een project uit
 
@@ -142,7 +142,7 @@ Voor informatie, zie [ kwesties ](/help/quicksilver/manage-work/issues/manage-is
 
 We hebben de vormgeving van de vakken Nieuwe risico&#39;s en Risico&#39;s bewerken bijgewerkt wanneer u een bestaand risico maakt of bijwerkt. Het nieuwe ontwerp komt nu overeen met andere delen van Workfront.  Om tot het nieuwe ontwerp toegang te hebben, creeer een risicorapport en plaats het op een dashboard, dan voeg het dashboard aan een project toe en beheer de risico&#39;s van het dashboard.
 
-Voor informatie, zie [ risico&#39;s op projecten ](/help/quicksilver/manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md) creëren en uitgeven.
+Voor informatie, zie [&#x200B; risico&#39;s op projecten &#x200B;](/help/quicksilver/manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md) creëren en uitgeven.
 
 ## Gebruikers
 
@@ -159,7 +159,7 @@ Wij hebben de blik en het gevoel van de persoonlijke tijd van kalender, met inbe
 
 Om deze veranderingen te bekijken, ga naar uw gebruikersprofiel en klik **Tijd van** in het linkerpaneel.
 
-Voor meer informatie, zie [ persoonlijke tijd van ](/help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md) vormen en [ de goedkeuringsverzoek van de Afgevaardigde ](/help/quicksilver/review-and-approve-work/manage-approvals/delegate-approval-requests.md).
+Voor meer informatie, zie [&#x200B; persoonlijke tijd van &#x200B;](/help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md) vormen en [&#x200B; de goedkeuringsverzoek van de Afgevaardigde &#x200B;](/help/quicksilver/review-and-approve-work/manage-approvals/delegate-approval-requests.md).
 
 ## Interface-updates gemaakt in Q4
 
@@ -181,7 +181,7 @@ Als u deze wijziging wilt bekijken, gaat u naar Setup > Bedrijven > Selecteer ee
 
 De vakken Nieuw pad en Bewerken van milestone-pad hebben nu een nieuwe interface. De lijst met mijlpaden heeft een nieuw uiterlijk en bepaalde functionaliteit op dit gebied kan zijn gewijzigd.
 
-Voor informatie, zie [ een milestone weg ](/help/quicksilver/administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md) creëren.
+Voor informatie, zie [&#x200B; een milestone weg &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md) creëren.
 
 ### Interface-updates bij het toevoegen of bewerken van groepstijdlijnprofielen
 
@@ -191,7 +191,7 @@ We hebben de vormgeving van de pagina Tijdlijnprofiel bijgewerkt tijdens het bew
 
 Als u deze wijzigingen wilt weergeven, gaat u naar Instellen > Groepen > Een groepsnaam > Tijdbladprofielen selecteren en voegt u een nieuw profiel toe of bewerkt u een bestaand profiel.
 
-Voor meer informatie, zie [ creeer, geef uit, en wijs timesheet profielen ](/help/quicksilver/timesheets/create-and-manage-timesheets/create-timesheet-profiles.md) toe.
+Voor meer informatie, zie [&#x200B; creeer, geef uit, en wijs timesheet profielen &#x200B;](/help/quicksilver/timesheets/create-and-manage-timesheets/create-timesheet-profiles.md) toe.
 
 
 ### Interface-updates voor de statuslijsten
@@ -215,7 +215,7 @@ Een zichtbare verandering in de interface is dat om een strengheid het gebrek te
 
 Ga naar Instellingen > Projectvoorkeuren > Ernsten om deze wijzigingen weer te geven.
 
-Voor meer informatie, zie [ creeer of pas de controles van de kwestie ](/help/quicksilver/administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-issue-severities.md) aan.
+Voor meer informatie, zie [&#x200B; creeer of pas de controles van de kwestie &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-issue-severities.md) aan.
 
 ### Interface-updates voor het gebied Prioriteiten in Setup
 
@@ -227,7 +227,7 @@ Een zichtbare verandering in de interface is dat om van een prioriteit het gebre
 
 Ga naar Instellingen > Projectvoorkeuren > Prioriteiten om deze wijzigingen weer te geven.
 
-Voor meer informatie, zie [ prioriteiten ](/help/quicksilver/administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md) creëren en aanpassen.
+Voor meer informatie, zie [&#x200B; prioriteiten &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md) creëren en aanpassen.
 
 ### Interface werkt bij het toevoegen of bewerken van het tijdbladprofiel in het gedeelte Setup
 
@@ -237,14 +237,14 @@ We hebben de vormgeving van de pagina Timesheet Profile (Engelstalig) bijgewerkt
 
 Als u deze wijzigingen wilt weergeven, gaat u naar Instellen > Tijdschema en uren > Werkbladprofielen en voegt u een nieuw profiel toe of bewerkt u een bestaand profiel.
 
-Voor meer informatie, zie [ creeer, geef uit, en wijs timesheet profielen ](/help/quicksilver/timesheets/create-and-manage-timesheets/create-timesheet-profiles.md) toe.
+Voor meer informatie, zie [&#x200B; creeer, geef uit, en wijs timesheet profielen &#x200B;](/help/quicksilver/timesheets/create-and-manage-timesheets/create-timesheet-profiles.md) toe.
 
 ### Interface-updates voor de vakken New en Copy Scorecard
 
 **de versie van de Voorproef: 4 September, 2025; De versie van de Productie: 11 september, 2025**
 
 We hebben de vormgeving van de keuzelijsten Nieuw en Scorecard kopiëren aangepast aan het ontwerp in andere onderdelen van de toepassing. U kunt het bijgewerkte ontwerp bekijken wanneer het creëren van of het kopiëren van een scorecard in het gebied van de Opstelling van Workfront.\
-Voor informatie, zie [ een scorecard ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md) creëren.
+Voor informatie, zie [&#x200B; een scorecard &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md) creëren.
 
 ### Interface-updates voor de lijst met lay-outsjablonen in een groep
 
@@ -254,7 +254,7 @@ We hebben de vormgeving van de lijst met lay-outsjablonen in het linkerdeelvenst
 
 Ga naar Instellingen > Groepen > Selecteer een groep > Lay-outsjablonen om deze wijzigingen weer te geven.
 
-Voor meer informatie, zie [ creeer en wijzig de lay-outmalplaatjes van een groep ](/help/quicksilver/administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
+Voor meer informatie, zie [&#x200B; creeer en wijzig de lay-outmalplaatjes van een groep &#x200B;](/help/quicksilver/administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
 
 
 ### Interface-updates bij het bewerken van een scorebord
@@ -283,7 +283,7 @@ We hebben de dialoogvensters voor het toevoegen en bewerken van factureringsreco
 
 Als u deze wijzigingen wilt bekijken, gaat u naar Projecten > Een project selecteren > Factureringsrecords > een factureringsrecord toevoegen of een factureringsrecord bewerken
 
-Voor informatie, zie [ het factureren verslagen ](/help/quicksilver/manage-work/projects/project-finances/create-billing-records.md) creëren.
+Voor informatie, zie [&#x200B; het factureren verslagen &#x200B;](/help/quicksilver/manage-work/projects/project-finances/create-billing-records.md) creëren.
 
 ### Interface-updates voor het vak Update naar gebruiker verzenden in groepen
 
@@ -293,7 +293,7 @@ We hebben de weergave van de update Naar gebruiker verzenden bijgewerkt wanneer 
 
 Het vak Update naar gebruiker verzenden komt nu overeen met andere gebieden van Workfront wanneer u een update naar een of meerdere gebruikers verzendt.
 
-Voor informatie, zie [ Mening en beheer het lidmaatschap van een groep ](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-memberships.md) en [ Mening en beheer subgroepsleden ](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-subgroups/view-and-manage-subgroup-members.md).
+Voor informatie, zie [&#x200B; Mening en beheer het lidmaatschap van een groep &#x200B;](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-memberships.md) en [&#x200B; Mening en beheer subgroepsleden &#x200B;](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-subgroups/view-and-manage-subgroup-members.md).
 
 ### Interface-updates voor onlangs verwijderde items
 
@@ -303,7 +303,7 @@ We hebben de vormgeving van de onlangs verwijderde items in het gedeelte Setup a
 
 Ga naar Setup > Prullenbak > Recent verwijderd om deze wijziging weer te geven.
 
-Voor informatie, zie [ schrapte punten ](/help/quicksilver/administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md) herstellen.
+Voor informatie, zie [&#x200B; schrapte punten &#x200B;](/help/quicksilver/administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md) herstellen.
 
 
 ### De updates van de interface voor het gebied van Voorwaarden in Opstelling
@@ -316,7 +316,7 @@ Een zichtbare verhoging in de interface is dat **uitgeeft** en **schrapt** knope
 
 Ga naar Instellingen > Projectvoorkeuren > Voorwaarden om deze wijzigingen weer te geven.
 
-Voor meer informatie, zie [ creeer of geef een douanevoorwaarde ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md) uit.
+Voor meer informatie, zie [&#x200B; creeer of geef een douanevoorwaarde &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md) uit.
 
 ### Interface-updates voor de lijst met tijdlijnprofielen in een groep
 
@@ -332,7 +332,7 @@ Als u deze wijzigingen wilt weergeven, gaat u naar Instellen > Groepen > Een gro
 
 Wij hebben de blik en het gevoel van de Nieuwe en Edit de dozen van het Type van Uur wanneer het toevoegen van of het uitgeven van uurtypes aan het gebied van de Types van Uur van Opstelling bijgewerkt. Het gebied van de Types van Uur toont onder het gebied van Timesheet &amp; van Uren van Opstelling. De vakken Type nieuwe en Type bewerkingstijd komen nu overeen met andere delen van Workfront.
 
-Voor informatie, zie [ de Types van Uur ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/hour-types.md) leiden.
+Voor informatie, zie [&#x200B; de Types van Uur &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/hour-types.md) leiden.
 
 ### De updates van de interface van de Logboeken van de Controle in Opstelling
 
@@ -369,7 +369,7 @@ We hebben interface-updates geïntroduceerd tijdens het bewerken van portfolio&#
 >De instelling Expressies opnieuw berekenen is verwijderd bij het bewerken van grote hoeveelheden. U kunt aangepaste expressies nog steeds bulksgewijs herberekenen wanneer u meerdere portfolio&#39;s in een lijst selecteert en op de optie Expressies opnieuw berekenen klikt in het menu Meer van de werkbalk.
 
 
-Voor informatie, zie [ portefeuilles ](/help/quicksilver/manage-work/portfolios/create-and-manage-portfolios/edit-portfolios.md) uitgeven.
+Voor informatie, zie [&#x200B; portefeuilles &#x200B;](/help/quicksilver/manage-work/portfolios/create-and-manage-portfolios/edit-portfolios.md) uitgeven.
 
 +++
 
@@ -383,7 +383,7 @@ Voor informatie, zie [ portefeuilles ](/help/quicksilver/manage-work/portfolios/
 
 We hebben de vormgeving van het vak Program bewerken aangepast aan het ontwerp van andere gebieden van Workfront.
 
-Voor informatie, zie [ programma&#39;s ](/help/quicksilver/manage-work/portfolios/create-and-manage-programs/edit-programs.md) uitgeven.
+Voor informatie, zie [&#x200B; programma&#39;s &#x200B;](/help/quicksilver/manage-work/portfolios/create-and-manage-programs/edit-programs.md) uitgeven.
 
 +++
 
@@ -399,7 +399,7 @@ Wij hebben de blik en het gevoel van de Pagina van de Tarieven van de Facturerin
 
 Ga naar een project > Factureringssnelheden om deze wijziging weer te geven.
 
-Voor informatie, zie [ de FactureringsTarieven van de Rol van de Opheffing van de Baan op het projectniveau ](/help/quicksilver/manage-work/projects/project-finances/override-job-role-billing-rates-at-the-project-level.md).
+Voor informatie, zie [&#x200B; de FactureringsTarieven van de Rol van de Opheffing van de Baan op het projectniveau &#x200B;](/help/quicksilver/manage-work/projects/project-finances/override-job-role-billing-rates-at-the-project-level.md).
 
 ### De updates van de interface voor een projectlijst of rapport wanneer het toepassen van de mening van de Mijlpaal
 
@@ -407,7 +407,7 @@ Voor informatie, zie [ de FactureringsTarieven van de Rol van de Opheffing van d
 
 Wij hebben de blik en het gevoel van een projectlijst of een rapport bijgewerkt wanneer u de mening van de Mijlpaal op hen toepast.
 
-De projectlijst of het rapport komt nu overeen met het ontwerp van andere gebieden van Workfront. Voor informatie, zie [ Gebruik de mening van de Mijlpaal ](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-milestone-view.md).
+De projectlijst of het rapport komt nu overeen met het ontwerp van andere gebieden van Workfront. Voor informatie, zie [&#x200B; Gebruik de mening van de Mijlpaal &#x200B;](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-milestone-view.md).
 
 <!--### Interface updates for the Edit Tasks box
 
@@ -429,7 +429,7 @@ For information, see [Edit tasks](/help/quicksilver/manage-work/tasks/manage-tas
 
 We hebben de vormgeving van het vak Sjablonen bewerken bulksgewijs bijgewerkt in een lijst met sjablonen. De organisatie van informatie over het Edit vakje van malplaatjes past nu de enig-malplaatje uitgeeft doos aan.
 
-Voor informatie, zie [ projectmalplaatjes ](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-templates.md) uitgeven.
+Voor informatie, zie [&#x200B; projectmalplaatjes &#x200B;](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-templates.md) uitgeven.
 
 ### De veranderingen van de interface voor Converteren een taak in een project zonder een malplaatje
 
@@ -437,7 +437,7 @@ Voor informatie, zie [ projectmalplaatjes ](/help/quicksilver/manage-work/projec
 
 Wij hebben interfaceupdates aan de Bekeerling aan de doos van het Project toen het omzetten van een taak in een project zonder een malplaatje geïntroduceerd. De doos past nu het ontwerp van andere gebieden van Workfront aan.
 
-Voor informatie, zie [ een taak in een project ](/help/quicksilver/manage-work/tasks/manage-tasks/convert-task-to-project.md) omzetten.
+Voor informatie, zie [&#x200B; een taak in een project &#x200B;](/help/quicksilver/manage-work/tasks/manage-tasks/convert-task-to-project.md) omzetten.
 
 ### Interface-updates bij het toevoegen van objecten aan programma&#39;s en portfolio&#39;s
 
@@ -458,7 +458,7 @@ Raadpleeg de volgende artikelen voor meer informatie:
 
 * [Een bestaand programma toevoegen aan een portfolio](/help/quicksilver/manage-work/portfolios/create-and-manage-programs/move-program.md)
 * [Projecten toevoegen aan een portfolio](/help/quicksilver/manage-work/portfolios/create-and-manage-portfolios/add-projects-to-portfolios.md)
-* [ voeg een project aan een programma ](/help/quicksilver/manage-work/portfolios/create-and-manage-programs/add-project-to-program.md) toe
+* [&#x200B; voeg een project aan een programma &#x200B;](/help/quicksilver/manage-work/portfolios/create-and-manage-programs/add-project-to-program.md) toe
 
 ### De updates van de interface aan de Nieuwe doos van het Onderwerp van de Rij van projecten en malplaatjes
 
@@ -470,7 +470,7 @@ Raadpleeg de volgende artikelen voor meer informatie:
 
 Wij hebben de blik en het gevoel van het Nieuwe vakje van het Onderwerp van de Rij bijgewerkt wanneer u een nieuw rijonderwerp aan een project of een malplaatje toevoegt, om het ontwerp van andere gebieden van Workfront aan te passen.
 
-Voor informatie, zie [ de Onderwerpen van de Rij ](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-queue-topics.md) creëren.
+Voor informatie, zie [&#x200B; de Onderwerpen van de Rij &#x200B;](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-queue-topics.md) creëren.
 
 ### Interface werkt bij het uitgeven van een Onderwerp van de Rij op een project of een malplaatje bij
 
@@ -484,7 +484,7 @@ We hebben de ervaring bijgewerkt bij het bewerken van een rijonderwerp voor proj
 
 Er is een kleine functiewijziging geïntroduceerd met deze update. Nu, wanneer het klikken van een Onderwerp van de Rij, wordt u genomen direct aan de het uitgeven pagina van het Onderwerp van de Rij, in plaats van een pagina voor de Details van het Onderwerp van de Rij.
 
-Voor informatie, zie [ de Onderwerpen van de Rij ](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-queue-topics.md) creëren.
+Voor informatie, zie [&#x200B; de Onderwerpen van de Rij &#x200B;](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-queue-topics.md) creëren.
 
 ### De update van de interface voor Edit de doos van de Uitgaven van een project
 
@@ -496,7 +496,7 @@ Voor informatie, zie [ de Onderwerpen van de Rij ](/help/quicksilver/manage-work
 
 We hebben het dialoogvenster bijgewerkt voor het bewerken van projectkosten, zodat dit overeenkomt met andere onderdelen van de toepassing. Het bijgewerkte dialoogvenster is beschikbaar wanneer u uitgaven in projecten of sjablonen bewerkt.
 
-Voor informatie, zie [ projectuitgaven beheren ](/help/quicksilver/manage-work/projects/project-finances/manage-project-expenses.md).
+Voor informatie, zie [&#x200B; projectuitgaven beheren &#x200B;](/help/quicksilver/manage-work/projects/project-finances/manage-project-expenses.md).
 
 
 ### De updates van de interface voor het registreren van tijd op een project, een taak, of een kwestie in de sectie van Uren
@@ -509,7 +509,7 @@ Voor informatie, zie [ projectuitgaven beheren ](/help/quicksilver/manage-work/p
 
 Wij hebben de blik en het gevoel van de de tijddoos van het Logboek bijgewerkt wanneer het registreren van tijd voor een project, een taak, of een kwestie in de sectie van Uren, om het ontwerp van andere gebieden van Workfront aan te passen.
 
-Voor informatie, zie [ tijd van het Logboek ](/help/quicksilver/timesheets/create-and-manage-timesheets/log-time.md).
+Voor informatie, zie [&#x200B; tijd van het Logboek &#x200B;](/help/quicksilver/timesheets/create-and-manage-timesheets/log-time.md).
 
 ### Interface-updates voor een bedrijfscase van een project
 
@@ -519,7 +519,7 @@ Wij hebben de blik en het gevoel van het BedrijfsGeval van het project bijgewerk
 
 Ga naar Projecten > Een project selecteren > Hoofd-kleine letter om deze wijziging weer te geven.
 
-Voor meer informatie, zie [ een bedrijfsgeval voor een project ](/help/quicksilver/manage-work/projects/define-a-business-case/create-business-case.md) creëren.
+Voor meer informatie, zie [&#x200B; een bedrijfsgeval voor een project &#x200B;](/help/quicksilver/manage-work/projects/define-a-business-case/create-business-case.md) creëren.
 
 ### Nieuwe kijk en mening van de sectie van de Details van de Rij op een malplaatje
 
@@ -527,7 +527,7 @@ Voor meer informatie, zie [ een bedrijfsgeval voor een project ](/help/quicksilv
 
 Wij hebben de blik en het gevoel van de sectie van de Details van de Rij van een malplaatje bijgewerkt. De vormgeving van de sectie Wachtrijdetails komt nu overeen met die van andere delen van Workfront.
 
-Voor informatie, zie [ een Rij van het Verzoek ](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-request-queue.md) creëren.
+Voor informatie, zie [&#x200B; een Rij van het Verzoek &#x200B;](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-request-queue.md) creëren.
 
 <!--### Interface updates when bulk editing templates
 
@@ -563,7 +563,7 @@ Raadpleeg de volgende artikelen voor meer informatie:
 Wij hebben de blik en het gevoel van een Groep van het Onderwerp bijgewerkt wanneer het uitgeven van het op een malplaatje. De pagina voor het bewerken van onderwerpgroepen komt nu overeen met het ontwerp van andere gebieden van Workfront.
 Er is een kleine functiewijziging toegepast op de Onderwerpgroep. Als u een onderwerpgroep wilt bewerken, selecteert u de onderwerpgroep in de lijst en klikt u op het pictogram Bewerken. U wordt niet meer naar de detailpagina van de Groep van het Onderwerp geleid alvorens u kunt uitgeven.
 
-Voor meer informatie, zie [ de Groepen van het Onderwerp ](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-topic-groups.md) creëren.
+Voor meer informatie, zie [&#x200B; de Groepen van het Onderwerp &#x200B;](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-topic-groups.md) creëren.
 
 ### Interface-updates voor factureringsrecords
 
@@ -573,7 +573,7 @@ We hebben het uiterlijk van de pagina&#39;s met factureringsgegevens voor Billab
 
 Als u deze wijzigingen wilt bekijken, gaat u naar een project > Factureringsrecords > selecteert u een factureringsrecord > Billable Hours, Billable Expenses of Fixed Revenues > voegt u nieuwe factureerbare uren, factureerbare uitgaven of vaste inkomsten toe.
 
-Voor informatie, zie [ het factureren verslagen ](/help/quicksilver/manage-work/projects/project-finances/create-billing-records.md) creëren.
+Voor informatie, zie [&#x200B; het factureren verslagen &#x200B;](/help/quicksilver/manage-work/projects/project-finances/create-billing-records.md) creëren.
 
 ### Interface-updates voor het vak MS-projectbestand importeren
 
@@ -589,7 +589,7 @@ Ga naar Projecten > Nieuw project > MS-project importeren om deze wijziging weer
 
 We hebben het dialoogvenster bijgewerkt waarin u een nieuwe uitgave aan een project kunt toevoegen, zodat deze overeenkomt met andere onderdelen van de toepassing. Het bijgewerkte dialoogvenster is beschikbaar wanneer u uitgaven toevoegt aan projecten of sjablonen.
 
-Voor informatie, zie [ projectuitgaven beheren ](/help/quicksilver/manage-work/projects/project-finances/manage-project-expenses.md).
+Voor informatie, zie [&#x200B; projectuitgaven beheren &#x200B;](/help/quicksilver/manage-work/projects/project-finances/manage-project-expenses.md).
 
 +++
 
@@ -603,7 +603,7 @@ Voor informatie, zie [ projectuitgaven beheren ](/help/quicksilver/manage-work/p
 
 We hebben het uiterlijk van de lijst met personen op een sjabloon aangepast aan het ontwerp van andere gebieden van Workfront.
 
-Het werken met mensen aan een sjabloon is vergelijkbaar met het werken met mensen aan een project. Voor informatie, zie [ het Team van het Project beheren ](/help/quicksilver/manage-work/projects/planning-a-project/manage-project-team.md).
+Het werken met mensen aan een sjabloon is vergelijkbaar met het werken met mensen aan een project. Voor informatie, zie [&#x200B; het Team van het Project beheren &#x200B;](/help/quicksilver/manage-work/projects/planning-a-project/manage-project-team.md).
 
 ### Interface-updates voor de lijst met voorgangers in een sjabloon
 
@@ -611,7 +611,7 @@ Het werken met mensen aan een sjabloon is vergelijkbaar met het werken met mense
 
 We hebben de vormgeving van de lijsten met voorgangers in een sjabloon aangepast aan het ontwerp van andere gebieden van Workfront.
 
-Het toevoegen van predecessors voor een malplaatjetaak is gelijkaardig aan het toevoegen van predecessors aan een projecttaak. Voor informatie, zie [ een voorgangersverhouding creëren gebruikend het gebied van Voorgangers ](/help/quicksilver/manage-work/tasks/use-prdcssrs/create-predecessors-in-predecessors-area.md).
+Het toevoegen van predecessors voor een malplaatjetaak is gelijkaardig aan het toevoegen van predecessors aan een projecttaak. Voor informatie, zie [&#x200B; een voorgangersverhouding creëren gebruikend het gebied van Voorgangers &#x200B;](/help/quicksilver/manage-work/tasks/use-prdcssrs/create-predecessors-in-predecessors-area.md).
 
 ### De veranderingen van de interface wanneer het uitgeven van een Verpletterende Regel voor een malplaatje
 
@@ -621,7 +621,7 @@ Wij hebben de blik en het gevoel van een Verpletterende Regel bijgewerkt, wannee
 
 Om het Verpletteren van Regel uit te geven, selecteer de Verpletterende Regel van de lijst en klik het Edit pictogram.
 
-Voor informatie, zie [ het Verpletteren van Regels ](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-routing-rules.md) creëren.
+Voor informatie, zie [&#x200B; het Verpletteren van Regels &#x200B;](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-routing-rules.md) creëren.
 
 ### De veranderingen van de interface aan de beheersgebieden van de verzoekrij van een malplaatje
 
@@ -637,9 +637,9 @@ Als u een item in een van deze lijsten wilt bewerken of verwijderen, selecteert 
 
 Zie voor meer informatie
 
-* [ creeer de Onderwerpen van de Rij ](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
-* [ creeer de Groepen van het Onderwerp ](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-topic-groups.md).
-* [ creeer het Verpletteren van Regels ](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-routing-rules.md).
+* [&#x200B; creeer de Onderwerpen van de Rij &#x200B;](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
+* [&#x200B; creeer de Groepen van het Onderwerp &#x200B;](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-topic-groups.md).
+* [&#x200B; creeer het Verpletteren van Regels &#x200B;](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-routing-rules.md).
 
 +++
 
@@ -669,7 +669,7 @@ Wij hebben de blik en het gevoel van de persoonlijke tijd van kalender, met inbe
 
 Om deze veranderingen te bekijken, ga naar uw gebruikersprofiel en klik **Tijd van** in het linkerpaneel.
 
-Voor meer informatie, zie [ persoonlijke tijd van ](/help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md) vormen en [ de goedkeuringsverzoek van de Afgevaardigde ](/help/quicksilver/review-and-approve-work/manage-approvals/delegate-approval-requests.md).
+Voor meer informatie, zie [&#x200B; persoonlijke tijd van &#x200B;](/help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md) vormen en [&#x200B; de goedkeuringsverzoek van de Afgevaardigde &#x200B;](/help/quicksilver/review-and-approve-work/manage-approvals/delegate-approval-requests.md).
 
 ### Interface-updates voor het dialoogvenster Nieuwe gebruiker
 
@@ -679,7 +679,7 @@ We hebben de vormgeving van het dialoogvenster Nieuwe gebruiker aangepast aan he
 
 Ga naar Gebruikers > Nieuwe gebruiker > Nieuwe gebruiker om deze wijziging weer te geven.
 
-Voor informatie, zie [ gebruikers ](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/add-users.md) en [ Updates aan het gebruikersprofiel van Workfront ](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md#updates-to-the-workfront-user-profile) op het [ Vierde Kwartaal 2025 de verbeteringspagina van de Beheerder ](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md) toevoegen.
+Voor informatie, zie [&#x200B; gebruikers &#x200B;](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/add-users.md) en [&#x200B; Updates aan het gebruikersprofiel van Workfront &#x200B;](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md#updates-to-the-workfront-user-profile) op het [&#x200B; Vierde Kwartaal 2025 de verbeteringspagina van de Beheerder &#x200B;](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md) toevoegen.
 
 
 ### Interface-updates voor het dialoogvenster Gebruikers importeren
@@ -690,7 +690,7 @@ Het dialoogvenster voor het importeren van nieuwe gebruikers via een spreadsheet
 
 Ga naar Gebruikers > Nieuwe gebruiker > Gebruikers importeren om deze wijziging weer te geven.
 
-Voor informatie, zie [ de gebruikers van de Invoer ](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/import-users.md).
+Voor informatie, zie [&#x200B; de gebruikers van de Invoer &#x200B;](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/import-users.md).
 
 +++
 
@@ -710,7 +710,7 @@ Deze update bevat visuele wijzigingen in de lijst met lay-outsjablonen. Er is ge
 
 Ga naar Setup > Interface > Layout Templates om de wijziging weer te geven.
 
-Voor informatie, zie [ lay-outmalplaatjes ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md) creëren en beheren.
+Voor informatie, zie [&#x200B; lay-outmalplaatjes &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md) creëren en beheren.
 
 ### Interface-updates voor portfolio&#39;s in een groep
 
@@ -728,7 +728,7 @@ We hebben de dialoogvensters bijgewerkt voor het toevoegen van een subgroep, het
 
 Ga naar Instellingen > Groepen > Selecteer een groep > Subgroepen om deze wijzigingen weer te geven. (De dialoogvensters voor het toevoegen, bewerken en kopiëren van een subgroep uit de hoofdlijst met groepen zijn al bijgewerkt.)
 
-Voor informatie, zie [ een subgroep ](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-subgroups/create-a-subgroup.md) creëren en [ leiden een subgroep ](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md).
+Voor informatie, zie [&#x200B; een subgroep &#x200B;](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-subgroups/create-a-subgroup.md) creëren en [&#x200B; leiden een subgroep &#x200B;](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md).
 
 ### Updates voor de sectie feeds bijwerken van Setup weergeven en weergeven
 
@@ -736,7 +736,7 @@ Voor informatie, zie [ een subgroep ](/help/quicksilver/administration-and-setup
 
 Wij hebben de blik en het gevoel van alle lusjes en subtabs in de sectie van de Doelen van de Update van Opstelling bijgewerkt. Het gedeelte feeds bijwerken wordt weergegeven onder het gebied Interface van Setup. Nu komen alle tabbladen in de sectie feeds bijwerken overeen met andere gebieden van Workfront.
 
-Voor informatie, zie [ systeemupdates ](/help/quicksilver/administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md) vormen
+Voor informatie, zie [&#x200B; systeemupdates &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md) vormen
 
 ### Zoeken naar updates voor het vak Add fields in de sectie Update Feeds van Setup
 
@@ -744,7 +744,7 @@ Voor informatie, zie [ systeemupdates ](/help/quicksilver/administration-and-set
 
 We hebben de vormgeving van het vak Toevoegen in de sectie feeds bijwerken van Instellen bijgewerkt. Het gedeelte feeds bijwerken wordt weergegeven onder het gebied Interface van Setup. Wanneer u nu velden toevoegt op een subtabblad van het tabblad Bijgehouden velden, krijgt het vak Velden toevoegen een nieuw uiterlijk en zijn enkele interface-elementen bijgewerkt.
 
-Voor informatie, zie [ systeemupdates ](/help/quicksilver/administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md) vormen.
+Voor informatie, zie [&#x200B; systeemupdates &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md) vormen.
 
 ### Nieuwe vormgeving van de lijsten in de sectie Timesheets &amp; Hours in het gedeelte Setup
 
@@ -758,7 +758,7 @@ We hebben de vormgeving van de volgende lijsten in de sectie Timesheets &amp; Ho
 
 Deze lijsten komen nu overeen met andere gebieden van Workfront.
 
-Voor informatie, zie [ creeer, geef, en wijs timesheet profielen ](/help/quicksilver/timesheets/create-and-manage-timesheets/create-timesheet-profiles.md) uit.
+Voor informatie, zie [&#x200B; creeer, geef, en wijs timesheet profielen &#x200B;](/help/quicksilver/timesheets/create-and-manage-timesheets/create-timesheet-profiles.md) uit.
 
 ### Interface-updates voor de pagina Companies
 
@@ -770,7 +770,7 @@ Deze update bevat visuele wijzigingen in de lijst met bedrijven. Er is geen func
 
 Ga naar Setup > Companies om de wijziging weer te geven.
 
-Voor informatie, zie [ bedrijven ](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md) creëren en uitgeven.
+Voor informatie, zie [&#x200B; bedrijven &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md) creëren en uitgeven.
 
 
 ### Bijwerken naar de lijst Toegangsniveaus in Setup
@@ -797,7 +797,7 @@ Er zijn enkele kleine wijzigingen in de functionaliteit van deze update:
 * Als u op het tabblad Uitzonderingen een alledaagse gebeurtenis wilt wijzigen in een gebeurtenis van een gedeeltelijke dag of een gebeurtenis van een gedeeltelijke dag in een gebeurtenis van alle dagen, moet u de bestaande gebeurtenis verwijderen en vervolgens een nieuwe gebeurtenis maken.
 
 
-Voor informatie, zie [ een programma ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md) creëren.
+Voor informatie, zie [&#x200B; een programma &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md) creëren.
 
 ### Bijwerken naar het dialoogvenster Toegangsniveaus
 
@@ -818,7 +818,7 @@ We hebben de pagina Klantgegevens bijgewerkt met een modern ontwerp dat aansluit
 
 Ga naar Instellen > Systeem > Klantgegevens om deze wijziging weer te geven.
 
-Voor informatie, zie [ basisinformatie voor uw systeem ](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-basic-info.md) vormen.
+Voor informatie, zie [&#x200B; basisinformatie voor uw systeem &#x200B;](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-basic-info.md) vormen.
 
 ### Interface-updates voor de pagina Gegevens importeren (Kick-start)
 
@@ -826,7 +826,7 @@ Voor informatie, zie [ basisinformatie voor uw systeem ](/help/quicksilver/admin
 
 We hebben de pagina Gegevens importeren (Kick-Starts) in het gedeelte Setup bijgewerkt met een moderner ontwerp dat consistent is met andere gebieden van Workfront. Bovendien is het Kick-Start-importproces gestroomlijnd, zodat het geselecteerde bestand direct wordt geüpload. U moet niet meer een afzonderlijke **uploaden** knoop klikken om de invoer te voltooien na het kiezen van het dossier.
 
-Voor informatie, zie [ Gegevens van de Invoer in Workfront gebruikend een Kick-Begin malplaatje ](/help/quicksilver/administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
+Voor informatie, zie [&#x200B; Gegevens van de Invoer in Workfront gebruikend een Kick-Begin malplaatje &#x200B;](/help/quicksilver/administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
 
 ### De updates van de interface aan de lijst van de Types van Uitgaven
 
@@ -836,7 +836,7 @@ Wij hebben de blik en het gevoel van de lijst van de Types van Uitgaven in het g
 
 Er is een kleine functiewijziging toegepast op de lijst Type kosten. Als u een uitgaventype wilt bewerken of verwijderen, selecteert u het in de lijst en klikt u op het desbetreffende pictogram. Merk op dat u niet de standaarduitgaventypes kunt uitgeven of schrappen.
 
-Voor informatie, zie [ de types van douanevergoeding ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/create-custom-expense-types.md) creëren.
+Voor informatie, zie [&#x200B; de types van douanevergoeding &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/create-custom-expense-types.md) creëren.
 
 ### Interface-update voor het tabblad Access Log in Setup
 
@@ -852,7 +852,7 @@ Ga naar Setup > Aanmelden als > Logbestand voor toegang kiezen boven aan het sch
 
 We hebben de vormgeving van de keuzelijsten Nieuw en Scorecard kopiëren aangepast aan het ontwerp in andere onderdelen van de toepassing. U kunt het bijgewerkte ontwerp bekijken wanneer het creëren van of het kopiëren van een scorecard in het gebied van de Opstelling van Workfront.
 
-Voor informatie, zie [ een scorecard ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md) creëren.
+Voor informatie, zie [&#x200B; een scorecard &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md) creëren.
 
 ### Interface-updates voor onlangs herstelde items van een groep
 
@@ -862,7 +862,7 @@ We hebben het uiterlijk van de onlangs herstelde items voor groepen aangepast aa
 
 Ga naar Instellingen > Groepen > Naam van groep selecteren > Onlangs hersteld om deze wijziging weer te geven.
 
-Voor informatie, zie [ Mening en beheer onlangs herstelde punten van een groep ](/help/quicksilver/administration-and-setup/manage-groups/work-with-group-objects/view-manage-groups-recently-restored-objects.md).
+Voor informatie, zie [&#x200B; Mening en beheer onlangs herstelde punten van een groep &#x200B;](/help/quicksilver/administration-and-setup/manage-groups/work-with-group-objects/view-manage-groups-recently-restored-objects.md).
 
 
 ### Interface updates to the Diagnostics page in Setup
@@ -873,7 +873,7 @@ We hebben het uiterlijk van de pagina Diagnostics in het gedeelte Setup (Instell
 
 Ga naar Setup > System > Diagnostics om deze wijziging weer te geven.
 
-Voor informatie, zie [ Diagnose van het Gebruik om geautomatiseerde processen ](/help/quicksilver/administration-and-setup/manage-workfront/run-diagnostics/use-diagnostics-to-trigger-automated-processes.md) teweeg te brengen.
+Voor informatie, zie [&#x200B; Diagnose van het Gebruik om geautomatiseerde processen &#x200B;](/help/quicksilver/administration-and-setup/manage-workfront/run-diagnostics/use-diagnostics-to-trigger-automated-processes.md) teweeg te brengen.
 
 ### Interface werkt bij het toevoegen van een factureringstarief aan een malplaatje
 
@@ -911,7 +911,7 @@ Het gedeelte Geavanceerd zoeken is als volgt bijgewerkt:
 * Het filter op het tabblad Geavanceerd zoeken wijkt enigszins af. Het filter is nu niet vooraf gevuld. U moet het van knevel voorzien en het filter van kras bouwen. Het filter blijft niet behouden als de pagina wordt vernieuwd.
 * De functie Geavanceerd zoeken is nu volledig scherm. U moet weg van de pagina navigeren eerder dan het sluiten van de dialoog.
 
-Voor meer informatie, zie [ Onderzoek  [!DNL Adobe Workfront]](/help/quicksilver/workfront-basics/navigate-workfront/search/search-workfront.md).
+Voor meer informatie, zie [&#x200B; Onderzoek  [!DNL Adobe Workfront]](/help/quicksilver/workfront-basics/navigate-workfront/search/search-workfront.md).
 
 ### Interface-update voor het verlenen van toegang tot uw Workfront-account
 
@@ -957,7 +957,7 @@ Specifieke klanten kunnen deze verandering bekijken door naar de Verwante projec
 
 Wij hebben de blik en het gevoel van &quot;sparen als malplaatje&quot;doos bijgewerkt die wanneer het bewaren van een project als malplaatje toont. Het nieuwe ontwerp bevat een gestroomlijnde interface, waarbij alle secties in één samenhangend formulier worden weergegeven. U kunt navigeren met koppelingen in het linkerdeelvenster. Het nieuwe ontwerp komt overeen met andere gebieden en andere objecten in de toepassing.
 
-Voor informatie, zie [ sparen een project als malplaatje ](/help/quicksilver/manage-work/projects/manage-projects/save-project-as-template.md).
+Voor informatie, zie [&#x200B; sparen een project als malplaatje &#x200B;](/help/quicksilver/manage-work/projects/manage-projects/save-project-as-template.md).
 
 ### Updates weergeven en weergeven voor het vak Uitgave verwijderen
 
@@ -965,7 +965,7 @@ Voor informatie, zie [ sparen een project als malplaatje ](/help/quicksilver/man
 
 We hebben de vormgeving van het venster Verwijderen bijgewerkt wanneer we een of meerdere problemen verwijderen. Het uitgiftevak Verwijderen komt nu overeen met andere gebieden van Workfront.
 
-Voor informatie, zie [ kwesties van de Schrapping ](/help/quicksilver/manage-work/issues/manage-issues/delete-issues.md).
+Voor informatie, zie [&#x200B; kwesties van de Schrapping &#x200B;](/help/quicksilver/manage-work/issues/manage-issues/delete-issues.md).
 
 ### Bekijk updates van de Nieuwe en geef risicovakjes voor een project of een malplaatje uit
 
@@ -973,7 +973,7 @@ Voor informatie, zie [ kwesties van de Schrapping ](/help/quicksilver/manage-wor
 
 Wij hebben de blik en het gevoel van het Nieuwe risico en uitgeeft risicomakken bijgewerkt wanneer het toevoegen van risico&#39;s of het uitgeven van hen op een project of een malplaatje in de sectie van Risks. Het ontwerp van de vakken komt nu overeen met andere delen van Workfront.
 
-Voor informatie, zie [ risico&#39;s in projecten ](/help/quicksilver/manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md#create-and-edit-risks-on-projects) creëren en uitgeven.
+Voor informatie, zie [&#x200B; risico&#39;s in projecten &#x200B;](/help/quicksilver/manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md#create-and-edit-risks-on-projects) creëren en uitgeven.
 
 ### Wijzigingen voor weergave in het vak Sjabloon kopiëren
 
@@ -981,7 +981,7 @@ Voor informatie, zie [ risico&#39;s in projecten ](/help/quicksilver/manage-work
 
 We hebben de vormgeving van het vak Sjabloon kopiëren aangepast aan het ontwerp van andere gebieden van Workfront.
 
-Voor informatie, zie [ een projectmalplaatje ](/help/quicksilver/manage-work/projects/create-and-manage-templates/copy-template.md) kopiëren.
+Voor informatie, zie [&#x200B; een projectmalplaatje &#x200B;](/help/quicksilver/manage-work/projects/create-and-manage-templates/copy-template.md) kopiëren.
 
 
 +++
@@ -997,7 +997,7 @@ Preview-release: 19 juni 2025; Production release: 26 juni 2025
 
 We hebben de blik en het gevoel van het verslag-Expense aangepast aan het ontwerp van andere gebieden van Workfront.
 
-Voor informatie, zie [ een douanerapport ](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) creëren.
+Voor informatie, zie [&#x200B; een douanerapport &#x200B;](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) creëren.
 
 ### Bijgewerkte rapporten met nieuwe opmaak
 
@@ -1012,7 +1012,7 @@ Deze update bevat visuele wijzigingen in de lijsten en werkbalken van de rapport
 * Tarieven
 * Layoutsjablonen
 
-Voor informatie, zie [ een douanerapport ](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) creëren.
+Voor informatie, zie [&#x200B; een douanerapport &#x200B;](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) creëren.
 
 ### URL&#39;s met /tile of /qstile worden niet meer ondersteund in Workfront-dashboards
 
@@ -1039,7 +1039,7 @@ We hebben het uiterlijk van het organigram van een Workfront-gebruiker aangepast
 
 Om deze verandering te bekijken, ga naar een gebruikersprofiel van Workfront en klik **Org Grafiek** in het linkerpaneel. (Deze functie is beschikbaar via het Workfront-gebruikersprofiel, niet via het Adobe-gebruikersprofiel.)
 
-Voor informatie, zie [ Mening de organisatorische grafiek ](/help/quicksilver/people-teams-and-groups/work-directly-with-others/view-the-org-chart.md).
+Voor informatie, zie [&#x200B; Mening de organisatorische grafiek &#x200B;](/help/quicksilver/people-teams-and-groups/work-directly-with-others/view-the-org-chart.md).
 
 
 ### Interface-update naar de nieuwe pagina voor gebruikersregistratie
@@ -1112,7 +1112,7 @@ We hebben de vormgeving van de onlangs herstelde items in het gedeelte Setup aan
 
 Ga naar Setup > Prullenbak > Onlangs hersteld om deze wijziging weer te geven.
 
-Voor informatie, zie [ Mening herstelde punten ](/help/quicksilver/administration-and-setup/manage-workfront/manage-deleted-items/view-restored-items.md).
+Voor informatie, zie [&#x200B; Mening herstelde punten &#x200B;](/help/quicksilver/administration-and-setup/manage-workfront/manage-deleted-items/view-restored-items.md).
 
 ### De updates van de interface aan het gebied van het Beheer van het Middel in Opstelling
 
@@ -1120,7 +1120,7 @@ Voor informatie, zie [ Mening herstelde punten ](/help/quicksilver/administratio
 
 Wij hebben de blik en het gevoel van de voorkeur van het Beheer van Middelen in het gebied van de Opstelling bijgewerkt, om het ontwerp van andere gebieden van Workfront aan te passen.
 
-Voor informatie, zie [ de voorkeur van het Beheer van het Middel ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md) vormen.
+Voor informatie, zie [&#x200B; de voorkeur van het Beheer van het Middel &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md) vormen.
 
 ### De updates van de interface aan een lijst van de Weg van de Mijlpaal in Opstelling
 
@@ -1128,7 +1128,7 @@ Voor informatie, zie [ de voorkeur van het Beheer van het Middel ](/help/quicksi
 
 Wij hebben de blik en het gevoel van de lijst van de Weg van de Mijlpaal in het gebied van de Opstelling bijgewerkt, om het ontwerp van andere gebieden van Workfront aan te passen.
 
-Voor informatie, zie [ een milestone weg ](/help/quicksilver/administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md) creëren.
+Voor informatie, zie [&#x200B; een milestone weg &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md) creëren.
 
 ### Interface-update voor het vak Type risico bewerken in Setup
 
@@ -1136,7 +1136,7 @@ Voor informatie, zie [ een milestone weg ](/help/quicksilver/administration-and-
 
 Wij hebben de blik en het gevoel van het Edit vakje van het Type van Risico bijgewerkt wanneer u een bestaand Type van Risico in het gebied van de Opstelling van Workfront bijwerkt. Het nieuwe ontwerp komt nu overeen met andere delen van Workfront.
 
-Voor informatie, zie [ uitgeven en creeer risicstypes ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/edit-create-risk-types.md).
+Voor informatie, zie [&#x200B; uitgeven en creeer risicstypes &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/edit-create-risk-types.md).
 
 ### De update van de interface aan het Nieuwe vakje van het Type van Risico in Opstelling
 
@@ -1144,7 +1144,7 @@ Voor informatie, zie [ uitgeven en creeer risicstypes ](/help/quicksilver/admini
 
 Wij hebben de blik en het gevoel van het Nieuwe vakje van het Type van Risico bijgewerkt wanneer u een nieuw Type van Risico in het gebied van de Opstelling van Workfront toevoegt. Het nieuwe ontwerp komt nu overeen met andere delen van Workfront.
 
-Voor informatie, zie [ uitgeven en creeer risicstypes ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/edit-create-risk-types.md).
+Voor informatie, zie [&#x200B; uitgeven en creeer risicstypes &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/edit-create-risk-types.md).
 
 ### De update van de interface in de dialoogvensters van de Types van Uitgaven in Opstelling
 
@@ -1152,7 +1152,7 @@ Voor informatie, zie [ uitgeven en creeer risicstypes ](/help/quicksilver/admini
 
 We hebben de vormgeving van de dialoogvensters voor het toevoegen en bewerken van kostentypen in het gedeelte Setup bijgewerkt, zodat deze overeenkomen met het ontwerp van andere gebieden van Workfront.
 
-Voor informatie, zie [ de types van douanevergoeding ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/create-custom-expense-types.md) creëren.
+Voor informatie, zie [&#x200B; de types van douanevergoeding &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/create-custom-expense-types.md) creëren.
 
 ### De bijgewerkte ervaring in het gebied van Niveaus van de Toegang in Opstelling
 
@@ -1404,7 +1404,7 @@ We hebben de vormgeving van het gebied Wachtrij details voor een project aangepa
 
 Met deze update is de vormgeving van het gebied Wachtrij details van een sjabloon niet gewijzigd.
 
-Voor informatie, zie [ een Rij van het Verzoek ](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-request-queue.md) creëren.
+Voor informatie, zie [&#x200B; een Rij van het Verzoek &#x200B;](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-request-queue.md) creëren.
 
 ### Bijgewerkte weergave van een projectmijlpaden in een projectweergave
 
@@ -1414,7 +1414,7 @@ Wanneer het toegang tot van de mijlpaden van een projectlijst of een rapport, he
 
 Met deze update hebben we ook informatie toegevoegd over de kleuren en kleurcodes van elke mijlpaal.
 
-Voor informatie, zie [ een milestone weg ](/help/quicksilver/administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md) creëren.
+Voor informatie, zie [&#x200B; een milestone weg &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md) creëren.
 
 
 #### Nieuwe vormgeving van de sectie Projecten van een portfolio
@@ -1436,7 +1436,7 @@ We hebben verbeteringen aangebracht in de lijst met projecten in het gedeelte Pr
 
 We hebben de blik en het gevoel van het rapport Mijlpaal Path aangepast aan het ontwerp van andere gebieden van Workfront.
 
-Voor informatie, zie [ een douanerapport ](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) creëren.
+Voor informatie, zie [&#x200B; een douanerapport &#x200B;](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) creëren.
 
 ### Bijgewerkte rapporten met nieuwe opmaak
 
@@ -1451,7 +1451,7 @@ Deze update bevat visuele wijzigingen in de lijsten en werkbalken van de rapport
 * Scorecards
 * Planningen
 
-Voor informatie, zie [ een douanerapport ](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) creëren.
+Voor informatie, zie [&#x200B; een douanerapport &#x200B;](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) creëren.
 
 ### De updates van de interface voor het het bedrijfvakje van de Schrapping in een rapport van het Bedrijf
 
@@ -1481,7 +1481,7 @@ Deze update bevat visuele wijzigingen in de lijsten en werkbalken van de volgend
 * Tijdbladprofiel
 * Gebruikersdelegatie
 
-Voor informatie, zie [ een douanerapport ](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) creëren.
+Voor informatie, zie [&#x200B; een douanerapport &#x200B;](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) creëren.
 
 ### Bijgewerkte rapporten met nieuwe opmaak
 
@@ -1496,7 +1496,7 @@ Deze update bevat visuele wijzigingen in de lijsten en werkbalken van de volgend
 * Aangepaste Forms
 * Tijd uit
 
-Voor informatie, zie [ een douanerapport ](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) creëren.
+Voor informatie, zie [&#x200B; een douanerapport &#x200B;](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) creëren.
 
 ### Het bijgewerkte rapport Toegangsniveau met nieuwe opmaak
 
@@ -1583,7 +1583,7 @@ Deze update bevat de volgende wijzigingen:
 * Ingevoegde scheidingslijnen om elke groep duidelijk te scheiden.
 * De handeling Verwijderen is gemarkeerd door deze in rood weer te geven.
 
-Voor informatie, zie [ het werk van de Update ](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+Voor informatie, zie [&#x200B; het werk van de Update &#x200B;](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 
 

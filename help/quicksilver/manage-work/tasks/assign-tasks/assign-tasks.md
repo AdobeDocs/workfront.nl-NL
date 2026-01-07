@@ -40,20 +40,20 @@ U kunt taken aan gebruikers, baanrollen, of teams toewijzen om erop te wijzen wi
 >* Koppel de gebruikers in een gedeactiveerd team aan een actief team en wijs het het werkpunt aan het actieve team opnieuw toe.
 >
 
-Het aantal gebruikers dat aan een taak en het programma van de taakeigenaar wordt toegewezen kan de geplande data van een taak wijzigen die in het veranderen van de chronologie van het project resulteert. Voor informatie over het effect van het toewijzen van veelvoudige gebruikers aan een taak, zie [ Overzicht van het wijzigen van taaktaken ](../../../manage-work/tasks/assign-tasks/modify-task-assignments-overview.md).
+Het aantal gebruikers dat aan een taak en het programma van de taakeigenaar wordt toegewezen kan de geplande data van een taak wijzigen die in het veranderen van de chronologie van het project resulteert. Voor informatie over het effect van het toewijzen van veelvoudige gebruikers aan een taak, zie [&#x200B; Overzicht van het wijzigen van taaktaken &#x200B;](../../../manage-work/tasks/assign-tasks/modify-task-assignments-overview.md).
 
 Naast dit artikel raden we u aan de volgende artikelen te lezen voor meer informatie over het toewijzen van taken:
 
-* [ Overzicht van het wijzigen van taaktaken ](../../../manage-work/tasks/assign-tasks/modify-task-assignments-overview.md)
-* [ Slim overzicht van taken ](../../../manage-work/tasks/assign-tasks/smart-assignments.md)
-* [ maak slimme taken ](../../../manage-work/tasks/assign-tasks/make-smart-assignments.md)
-* [ creeer geavanceerde taken ](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md)
-* [ wijzigt veelvoudige gebruikerstoewijzingen in een taaklijst ](../../../manage-work/tasks/assign-tasks/modify-multiple-assignments-in-task-list.md)
-* [ geef taken ](../../../manage-work/tasks/manage-tasks/edit-tasks.md) uit
-* [ Plan een projectoverzicht ](../../../manage-work/projects/planning-a-project/plan-project.md)
-* [ Overzicht van de taak Geplande Datum van de Voltooiing ](../../../manage-work/tasks/task-information/task-planned-completion-date.md)
-* [ plaats het project Geplande Datum van de Voltooiing ](../../../manage-work/projects/planning-a-project/project-planned-completion-date.md)
-* [ vorm systeem-brede projectvoorkeur ](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)
+* [&#x200B; Overzicht van het wijzigen van taaktaken &#x200B;](../../../manage-work/tasks/assign-tasks/modify-task-assignments-overview.md)
+* [&#x200B; Slim overzicht van taken &#x200B;](../../../manage-work/tasks/assign-tasks/smart-assignments.md)
+* [&#x200B; maak slimme taken &#x200B;](../../../manage-work/tasks/assign-tasks/make-smart-assignments.md)
+* [&#x200B; creeer geavanceerde taken &#x200B;](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md)
+* [&#x200B; wijzigt veelvoudige gebruikerstoewijzingen in een taaklijst &#x200B;](../../../manage-work/tasks/assign-tasks/modify-multiple-assignments-in-task-list.md)
+* [&#x200B; geef taken &#x200B;](../../../manage-work/tasks/manage-tasks/edit-tasks.md) uit
+* [&#x200B; Plan een projectoverzicht &#x200B;](../../../manage-work/projects/planning-a-project/plan-project.md)
+* [&#x200B; Overzicht van de taak Geplande Datum van de Voltooiing &#x200B;](../../../manage-work/tasks/task-information/task-planned-completion-date.md)
+* [&#x200B; plaats het project Geplande Datum van de Voltooiing &#x200B;](../../../manage-work/projects/planning-a-project/project-planned-completion-date.md)
+* [&#x200B; vorm systeem-brede projectvoorkeur &#x200B;](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)
 * [Overzicht van het toewijzen van werk in de werklastverdeler](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)
 
 ## Toegangsvereisten
@@ -85,7 +85,7 @@ Naast dit artikel raden we u aan de volgende artikelen te lezen voor meer inform
  </tbody>
 </table>
 
-Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -93,10 +93,10 @@ Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront
 
 Overweeg het volgende wanneer het toewijzen van veelvoudige middelen aan een het werkpunt:
 
-* Gebruikers kunnen meer dan één taakrol aan hun profiel koppelen. Voor informatie over het associëren van gebruikers met baanrollen, zie [ het profiel van een gebruiker ](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) uitgeven.
+* Gebruikers kunnen meer dan één taakrol aan hun profiel koppelen. Voor informatie over het associëren van gebruikers met baanrollen, zie [&#x200B; het profiel van een gebruiker &#x200B;](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) uitgeven.
 
 * Als u meerdere gebruikers aan een taak of uitgave toewijst, wordt de eerste gebruiker die u selecteert, automatisch aangewezen als de eigenaar van de taak of uitgave.
-Voor instructies bij het veranderen van dit, zie de informatie over de Primaire optie van het Merk in het artikel [ Geavanceerde taken ](create-advanced-assignments.md) creëren.
+Voor instructies bij het veranderen van dit, zie de informatie over de Primaire optie van het Merk in het artikel [&#x200B; Geavanceerde taken &#x200B;](create-advanced-assignments.md) creëren.
 
 * Een team kan geen primaire ontvanger zijn voor een taak of kwestie. Alleen een gebruiker of een taakrol kan worden aangewezen als primair op een taak of kwestie.
 
@@ -144,13 +144,13 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
 ## Eén taak toewijzen
 
 1. Ga naar een taak die u wilt toewijzen.
-1. Klik **toewijzen aan** in het **3} gebied van Taken {in de kopbal van de taak**
+1. Klik **toewijzen aan** in het **3&rbrace; gebied van Taken &lbrace;in de kopbal van de taak**
 
    of
 
    Klik op de naam van de toewijzingen als de taak al is toegewezen.
 
-   ![ Taken ](assets/assignments-from-task-header-0825.png)
+   ![&#x200B; Taken &#x200B;](assets/assignments-from-task-header-0825.png)
 
 1. Voer een van de volgende handelingen uit:
 
@@ -160,22 +160,22 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
      >
      >Wanneer u een gebruikerstoewijzing toevoegt, ziet u de avatar, de primaire rol van de gebruiker of hun e-mailadres om onderscheid te maken tussen gebruikers met identieke namen. Gebruikers moeten aan ten minste één taakrol zijn gekoppeld om deze te kunnen bekijken terwijl u ze toevoegt.
      >
-     >De instelling Contactinfo weergeven moet zijn ingeschakeld op uw toegangsniveau zodat gebruikers de e-mails van gebruikers kunnen bekijken. Voor informatie, zie [ toegang van de Verlening tot gebruikers ](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
+     >De instelling Contactinfo weergeven moet zijn ingeschakeld op uw toegangsniveau zodat gebruikers de e-mails van gebruikers kunnen bekijken. Voor informatie, zie [&#x200B; toegang van de Verlening tot gebruikers &#x200B;](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 
-   * (Voorwaardelijk) klik één van de namen in de **Gebruikers en teams** of **de rollen van de Baan** lijsten wanneer zij tonen. Voor meer informatie, zie [ Slim toewijzingsoverzicht ](../../../manage-work/tasks/assign-tasks/smart-assignments.md).
+   * (Voorwaardelijk) klik één van de namen in de **Gebruikers en teams** of **de rollen van de Baan** lijsten wanneer zij tonen. Voor meer informatie, zie [&#x200B; Slim toewijzingsoverzicht &#x200B;](../../../manage-work/tasks/assign-tasks/smart-assignments.md).
 
      U kunt de naam typen van een gebruiker, team of taakrol die u wilt toewijzen aan de taak, en deze vervolgens selecteren wanneer deze wordt weergegeven in de lijst.
 
    * Klik **Geavanceerd**.
 
-     Voor informatie over hoe te om geavanceerde taken te maken, zie [ Geavanceerde taken ](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md) creëren.
+     Voor informatie over hoe te om geavanceerde taken te maken, zie [&#x200B; Geavanceerde taken &#x200B;](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md) creëren.
 
 1. Klik **sparen**.
 1. (Facultatief en voorwaardelijk) klik het **pictogram van X** naast de naam van de taak in het juiste paneel van de taak om een taak te verwijderen, als u **Geavanceerd** klikte.
 
 ## Een taak in een lijst toewijzen bij inlinebewerking
 
-U kunt taken toewijzen in een lijst of rapport wanneer een van de toewijzingsvelden zichtbaar is in de lijstweergave. Dit is een snellere manier om taken toe te wijzen. In dit artikel wordt beschreven hoe u toewijzingen voor één taak in een lijst kunt wijzigen. Voor informatie over het wijzigen van veelvoudige taken voor veelvoudige taken in een lijst, zie [ veelvoudige gebruikerstoewijzingen in een taaklijst ](../../../manage-work/tasks/assign-tasks/modify-multiple-assignments-in-task-list.md) wijzigen.
+U kunt taken toewijzen in een lijst of rapport wanneer een van de toewijzingsvelden zichtbaar is in de lijstweergave. Dit is een snellere manier om taken toe te wijzen. In dit artikel wordt beschreven hoe u toewijzingen voor één taak in een lijst kunt wijzigen. Voor informatie over het wijzigen van veelvoudige taken voor veelvoudige taken in een lijst, zie [&#x200B; veelvoudige gebruikerstoewijzingen in een taaklijst &#x200B;](../../../manage-work/tasks/assign-tasks/modify-multiple-assignments-in-task-list.md) wijzigen.
 
 Afhankelijk van welk veld zichtbaar is in de weergave, kunt u de volgende entiteiten aan de taak toewijzen:
 
@@ -196,7 +196,7 @@ Taken in een lijst toewijzen:
    | Handmatig opslaan | U moet uw wijzigingen handmatig opslaan. U kunt uw wijzigingen herstellen voordat u ze opslaat. |
    | Tijdlijnplanning | U moet uw wijzigingen handmatig opslaan. U kunt uw wijzigingen herstellen voordat u ze opslaat. Het opslaan van uw wijzigingen en alle projectafhankelijkheden is sneller dan wanneer u Handmatig opslaan selecteert. |
 
-   Voor meer informatie over besparingstaken aangezien u hen in een lijst uitgeeft, zie [ taken in een lijst ](../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md) uitgeven.
+   Voor meer informatie over besparingstaken aangezien u hen in een lijst uitgeeft, zie [&#x200B; taken in een lijst &#x200B;](../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md) uitgeven.
 
 1. Voer een van de volgende handelingen uit om taken toe te wijzen:
 
@@ -207,14 +207,14 @@ Taken in een lijst toewijzen:
      >
      >Wanneer u een gebruikerstoewijzing toevoegt, ziet u de avatar, de primaire rol van de gebruiker of hun e-mailadres om onderscheid te maken tussen gebruikers met identieke namen. Gebruikers moeten aan ten minste één taakrol zijn gekoppeld om deze te kunnen bekijken terwijl u ze toevoegt.
      >
-     >De instelling Contactinfo weergeven moet zijn ingeschakeld op uw toegangsniveau zodat gebruikers de e-mails van gebruikers kunnen bekijken. Voor informatie, zie [ Toegang van de Verlening tot gebruikers ](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)
+     >De instelling Contactinfo weergeven moet zijn ingeschakeld op uw toegangsniveau zodat gebruikers de e-mails van gebruikers kunnen bekijken. Voor informatie, zie [&#x200B; Toegang van de Verlening tot gebruikers &#x200B;](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)
 
      <!--<span class="preview">When adding a job role assignment, you can search for the job role or location. Select a Job role to use the default billing rate for the assignment, or select a Rate Card job role to use the billing rate from the rate card. For more information on rate cards, see [Manage rate cards](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>-->
 
 
-1. (Voorwaardelijk) op het gebied van Taken, klik **Geavanceerd** bij de bodem van de lijst, of het **pictogram van Mensen** ![ het pictogram van Mensen ](assets/teams.png) in de hoger-juiste hoek van de toewijzingsdoos, om **Geavanceerde de doos van Toewijzingen** te openen en geavanceerde taken tot stand te brengen.
+1. (Voorwaardelijk) op het gebied van Taken, klik **Geavanceerd** bij de bodem van de lijst, of het **pictogram van Mensen** ![&#x200B; het pictogram van Mensen &#x200B;](assets/teams.png) in de hoger-juiste hoek van de toewijzingsdoos, om **Geavanceerde de doos van Toewijzingen** te openen en geavanceerde taken tot stand te brengen.
 
-   Voor meer informatie, zie [ Geavanceerde taken ](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md) creëren.
+   Voor meer informatie, zie [&#x200B; Geavanceerde taken &#x200B;](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md) creëren.
 
    >[!TIP]
    >
@@ -238,7 +238,7 @@ Taken in een lijst toewijzen:
 
 1. U kunt de taken blijven toewijzen met de nieuwe ervaring.
 
-   Voor meer informatie, zie de sectie [ veelvoudige taken in bulk van een lijst in de nieuwe ervaring ](#assign-multiple-tasks-in-bulk-from-a-list-in-the-new-experience) in dit artikel toewijzen.
+   Voor meer informatie, zie de sectie [&#x200B; veelvoudige taken in bulk van een lijst in de nieuwe ervaring &#x200B;](#assign-multiple-tasks-in-bulk-from-a-list-in-the-new-experience) in dit artikel toewijzen.
 
 1. (Facultatief) klik **Schakelaar terug naar oude ervaring** bij de bodem van **uitgeeft de doos van Taken** om de oude ervaring te openen.
 
@@ -264,9 +264,9 @@ Taken in een lijst toewijzen:
    >
    >U kunt niet het toewijzingspercentage of het aantal uren per middel specificeren als de taken u selecteerde verschillende Types van Duur of van de taken hebben u selecteerde verschillende Types van Duur.
 
-   Voor informatie over het Type van Duur op taken, zie [ Overzicht van het Type van Duur van de Taak en van de Duur ](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
+   Voor informatie over het Type van Duur op taken, zie [&#x200B; Overzicht van het Type van Duur van de Taak en van de Duur &#x200B;](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
 
-1. (Facultatief) selecteer een rol die de gebruiker op de taak van **zou moeten vervullen kies een rol** drop-down menu in de **3} kolom van de Rol van de Ontvanger {wanneer u gebruikers aan taken toewijst.** Als u geen rol selecteert, selecteert Workfront automatisch de Primaire Rol van de gebruiker.
+1. (Facultatief) selecteer een rol die de gebruiker op de taak van **zou moeten vervullen kies een rol** drop-down menu in de **3&rbrace; kolom van de Rol van de Ontvanger &lbrace;wanneer u gebruikers aan taken toewijst.** Als u geen rol selecteert, selecteert Workfront automatisch de Primaire Rol van de gebruiker.
 
 1. (Optioneel) Als u bestaande toewijzingen uit alle taken wilt verwijderen, voert u een van de volgende handelingen uit:
 
@@ -301,21 +301,21 @@ Taken in een lijst toewijzen:
    >
    >Als om het even welke taken reeds wordt toegewezen, worden de middelen u hier op wijst toegevoegd aan de taken in plaats van het vervangen van de bestaande middelen op de taken.
 
-1. Klik binnen het **gebied van het Type van Duur 0} {en kies een Type van Duur.**
+1. Klik binnen het **gebied van het Type van Duur 0&rbrace; &lbrace;en kies een Type van Duur.**
 
-   Voor informatie over het Type van Duur op taken, zie [ Overzicht van het Type van Duur van de Taak en van de Duur ](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
+   Voor informatie over het Type van Duur op taken, zie [&#x200B; Overzicht van het Type van Duur van de Taak en van de Duur &#x200B;](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
 
 1. (Voorwaardelijk) afhankelijk van welk **Type van Duur** u selecteerde, werk de volgende gebieden bij:
 
    * Duur
    * Geplande uren
 
-     Voor meer informatie, zie [ taken ](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md) uitgeven.
+     Voor meer informatie, zie [&#x200B; taken &#x200B;](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md) uitgeven.
 
 1. (Optioneel) Als u bestaande toewijzingen uit alle taken wilt verwijderen, klikt u op **x** naast hun naam in het **gebied van het Onderzoek mensen, rollen, of teams**.
 
 1. Klik **sparen**.
-1. (Facultatief en voorwaardelijk) wanneer **aan** of de **3} gebieden van Taken {in uw lijst van taken wordt toegewezen, klik binnen één van deze kolommen voor een taak, dan klik het** X pictogram **naast de naam van een ontvanger om het uit de taak te verwijderen**
+1. (Facultatief en voorwaardelijk) wanneer **aan** of de **3&rbrace; gebieden van Taken &lbrace;in uw lijst van taken wordt toegewezen, klik binnen één van deze kolommen voor een taak, dan klik het** X pictogram **naast de naam van een ontvanger om het uit de taak te verwijderen**
 
 
 <!--
