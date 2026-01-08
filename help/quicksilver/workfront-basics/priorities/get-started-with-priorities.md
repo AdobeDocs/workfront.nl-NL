@@ -27,7 +27,7 @@ Met Prioriteiten kunt u genieten van
 
 De de werklijst van Prioriteiten en punten van het kalendervertoningswerk die aan u worden toegewezen. U kunt geen werkitems zien die aan uw team zijn toegewezen.
 
-<span class="preview"> de beheerder van Workfront kan prioriteiten voor uw gebruiker in het Malplaatje van de Lay-out toelaten. Voor meer informatie, zie [ het Belangrijkste Menu aanpassen gebruikend een lay-outmalplaatje ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).</span>
+<span class="preview"> de beheerder van Workfront kan prioriteiten voor uw gebruiker in het Malplaatje van de Lay-out toelaten. Voor meer informatie, zie [&#x200B; het Belangrijkste Menu aanpassen gebruikend een lay-outmalplaatje &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).</span>
 
 ## Uw werk zoeken en ordenen
 
@@ -103,7 +103,7 @@ Nadat je werk hebt gefilterd, kun je objecten groeperen op
 * Status
 * Project
 
-Voor meer informatie, zie [ Filter en groepeer uw werk in Prioriteiten ](/help/quicksilver/workfront-basics/priorities/filter-group-work-priorities.md).
+Voor meer informatie, zie [&#x200B; Filter en groepeer uw werk in Prioriteiten &#x200B;](/help/quicksilver/workfront-basics/priorities/filter-group-work-priorities.md).
 
 ### Prioriteit geven aan belangrijke werkitems met Mijn focus
 
@@ -116,9 +116,9 @@ Mijn focus is een kolom in de werklijst die u helpt bij het bepalen van de prior
 
 Zodra u nadrukniveaus aan uw het werkpunten hebt toegewezen, kunt u de kolom aan oppervlakte urgente punten bij de bovenkant van uw werklijst sorteren.
 
-Voor meer informatie, zie [ belangrijke het werkpunten ](/help/quicksilver/workfront-basics/priorities/prioritize-work-items.md) Prioriteit geven.
+Voor meer informatie, zie [&#x200B; belangrijke het werkpunten &#x200B;](/help/quicksilver/workfront-basics/priorities/prioritize-work-items.md) Prioriteit geven.
 
-![ Lijst van het Werk ](assets/worklist.png)
+![&#x200B; Lijst van het Werk &#x200B;](assets/worklist.png)
 
 ### De kalenderweergave gebruiken
 
@@ -132,10 +132,10 @@ In Prioriteiten, kunt u het werkpunten bijwerken om uw details van het het werkp
 >
 >Licenties voor licht, revisie, contribuant en aanvrager hebben beperkte toegang tot Prioriteiten. Zie voor meer informatie over hoe deze licentietypen kunnen werken met taken en problemen
 >
->* [ Toegang tot voorwerpen en gebieden door voor nieuwe vergunningen ](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-to-objects-areas-license-types.md)
->* [ Functionaliteit beschikbaar voor elk objecten type voor nieuwe toegangsniveaus ](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md)
->* [ Toegang tot voorwerpen en gebieden door vergunningstype ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-to-objects-and-areas-by-license-type.md)
->* [ Functionaliteit beschikbaar voor elk objecten type ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md)
+>* [&#x200B; Toegang tot voorwerpen en gebieden door voor nieuwe vergunningen &#x200B;](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-to-objects-areas-license-types.md)
+>* [&#x200B; Functionaliteit beschikbaar voor elk objecten type voor nieuwe toegangsniveaus &#x200B;](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md)
+>* [&#x200B; Toegang tot voorwerpen en gebieden door vergunningstype &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-to-objects-and-areas-by-license-type.md)
+>* [&#x200B; Functionaliteit beschikbaar voor elk objecten type &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md)
 
 
 ### Updates toevoegen en weergeven
@@ -144,17 +144,17 @@ Voeg een update van een taak of kwestie toe om uw vooruitgang aan anderen mee te
 
 In de sectie Updates worden systeemupdates weergegeven en maximaal 200 van de meest recente updates die gebruikers in de afgelopen 90 dagen hebben uitgevoerd.
 
-Voor meer informatie, zie [ commentaren in Prioriteiten toevoegen en bekijken ](/help/quicksilver/workfront-basics/priorities/add-view-updates-priorities.md).
+Voor meer informatie, zie [&#x200B; commentaren in Prioriteiten toevoegen en bekijken &#x200B;](/help/quicksilver/workfront-basics/priorities/add-view-updates-priorities.md).
 
-![ Update, logboektijd, en upload ](assets/update-log-upload.png)
+![&#x200B; Update, logboektijd, en upload &#x200B;](assets/update-log-upload.png)
 
 ### Logtijd
 
 U kunt tijd voor het werkpunten registreren om op het aantal uren te wijzen u het werken aan hen doorbrengt. U kunt tijd ook registreren die niet met het werk, zoals vakantie, zieke tijd, of tijd verwant is u in vergaderingen doorbrengt. De tijd u registreert toont in uw timesheet.
 
-Voor meer informatie, zie [ tijd van het Logboek in Prioriteiten ](/help/quicksilver/workfront-basics/priorities/log-time-priorities.md).
+Voor meer informatie, zie [&#x200B; tijd van het Logboek in Prioriteiten &#x200B;](/help/quicksilver/workfront-basics/priorities/log-time-priorities.md).
 
-![ Update, logboektijd, en upload ](assets/update-log-upload.png)
+![&#x200B; Update, logboektijd, en upload &#x200B;](assets/update-log-upload.png)
 
 ### Bestanden uploaden
 
@@ -165,18 +165,18 @@ Upload bestanden rechtstreeks naar het gebied Documenten van de taak of uitgave,
 * Extra bestanden toevoegen
 * Bestanden importeren uit de integratie van verbonden documenten
 
-Voor meer informatie, zie [ dossiers in Prioriteiten ](/help/quicksilver/workfront-basics/priorities/upload-files-in-priorities.md) uploaden.
+Voor meer informatie, zie [&#x200B; dossiers in Prioriteiten &#x200B;](/help/quicksilver/workfront-basics/priorities/upload-files-in-priorities.md) uploaden.
 
-![ Update, logboektijd, en upload ](assets/update-log-upload.png)
+![&#x200B; Update, logboektijd, en upload &#x200B;](assets/update-log-upload.png)
 
 
 ### Snelle koppelingen toevoegen
 
 U kunt veelgebruikte koppelingen insluiten in de detailpagina van het werkitem. Met snelle koppelingen kunt u de koppeling snel bezoeken of kopiëren.
 
-![ Snelle verbindingen ](assets/quick-links.png)
+![&#x200B; Snelle verbindingen &#x200B;](assets/quick-links.png)
 
-Voor meer informatie, zie [ snelle verbindingen in Prioriteiten toevoegen en beheren ](/help/quicksilver/workfront-basics/priorities/quick-links-priorities.md).
+Voor meer informatie, zie [&#x200B; snelle verbindingen in Prioriteiten toevoegen en beheren &#x200B;](/help/quicksilver/workfront-basics/priorities/quick-links-priorities.md).
 
 ### Documenten weergeven
 
@@ -196,9 +196,9 @@ Via het tabblad Documenten op een taak of uitgave kunt u
 
 Met de functie [!DNL Catch me up] kunt u zien wat u hebt gemist. Vangst me omhoog zal updates, geüploade documenten, goedkeuringen, en andere opmerkelijke veranderingen over uw projecten binnen de volgende termijnen samenvatten: 24 uren, 3 dagen, 7 dagen.
 
-Voor meer informatie, zie [ Vangst op het werk in Prioriteiten ](/help/quicksilver/workfront-basics/priorities/catch-me-up.md).
+Voor meer informatie, zie [&#x200B; Vangst op het werk in Prioriteiten &#x200B;](/help/quicksilver/workfront-basics/priorities/catch-me-up.md).
 
-![ Vangst me omhoog ](assets/catch-me-up.png)
+![&#x200B; Vangst me omhoog &#x200B;](assets/catch-me-up.png)
 
 <!--need new screen for prod-->
 
