@@ -4,9 +4,9 @@ description: Verbeteringen in document en goedkeuring eerste kwartaal 2026
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: bde12a27b918fc98c7596d16b78b46d465c9e90a
+source-git-commit: 8d177d1081590f6a6733f29e0d615828394394c7
 workflow-type: tm+mt
-source-wordcount: '333'
+source-wordcount: '277'
 ht-degree: 0%
 
 ---
@@ -15,19 +15,19 @@ ht-degree: 0%
 
 Op deze pagina vindt u een beschrijving van de verbeteringen in Document en Goedkeuring die zijn aangebracht met de release Eerste kwartaal 2026 voor de voorvertoningsomgeving. Deze verbeteringen zullen beschikbaar worden gesteld in de productieomgeving, zoals vermeld.
 
-Voor een lijst van alle veranderingen beschikbaar op dit punt in Eerste Kwartaal 2026 versiecyclus, zie [&#x200B; Eerste Kwartaal 2026 releaseoverzicht &#x200B;](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar op dit punt in Eerste Kwartaal 2026 versiecyclus, zie [ Eerste Kwartaal 2026 releaseoverzicht ](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md).
 
-## Brandmerken instellen voor de AI-revisor in Workfront
+<!--## Set up brands for the AI reviewer in Workfront
 
 >[!NOTE]
 >
->Voorbeeld: 8 januari 2026
->Snelle productie: 8 januari 2026\
->Productie voor iedereen: 8 januari 2026
+>Preview: January 8, 2026 
+>Production fast release: January 8, 2026  
+>Production for everyone: January 8, 2026  
 
-U kunt nu merken instellen voor de AI-revisor in het gedeelte Workfront Setup. Op deze manier kunt u het AI-controleproces aanpassen op basis van de brandingrichtlijnen van uw organisatie.
+You can now set up brands for the AI reviewer in the Workfront Setup area. This allows you to customize the AI review process based on your organization's branding guidelines.
 
-De AI-revisor bevindt zich momenteel in bètaversie.
+The AI reviewer is currently in beta.-->
 
 ## Een Workfront-project kiezen wanneer een revisie wordt verzonden in Adobe Express
 
@@ -41,7 +41,7 @@ U kunt een Workfront-project kiezen waarnaar u een proefdruk wilt verzenden. Hie
 
 Voorheen werd de proefdruk automatisch toegevoegd aan een Express-specifiek project.
 
-Voor meer informatie, zie [&#x200B; de integratie van Adobe Express en van Workfront Proof &#x200B;](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-express.md).
+Voor meer informatie, zie [ de integratie van Adobe Express en van Workfront Proof ](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-express.md).
 
 ## Integratie tussen organisaties voor Adobe Express met Workfront-proefdrukken
 
@@ -53,7 +53,7 @@ Voor meer informatie, zie [&#x200B; de integratie van Adobe Express en van Workf
 
 We introduceren ondersteuning voor verschillende organisaties voor Adobe Express met Workfront Proofing. Dankzij deze uitbreiding kunnen klanten die in meerdere IMS-organisaties werken, probleemloos proofing-workflows gebruiken en beheren.
 
-Voor meer informatie, zie [&#x200B; begonnen worden met de integratie van Adobe Express en Workfront Proof &#x200B;](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-express.md).
+Voor meer informatie, zie [ begonnen worden met de integratie van Adobe Express en Workfront Proof ](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-express.md).
 
 
 ## Adobe Experience Manager is nu beschikbaar met de integratie Frame.io
@@ -66,5 +66,5 @@ Voor meer informatie, zie [&#x200B; begonnen worden met de integratie van Adobe 
 
 U kunt nu de Experience Manager Assets-&#x200B; gebruiken om uw digitale middelen te beheren en op te slaan die de controle- en goedkeuringscyclus hebben doorlopen. Dankzij deze integratie kunt u de mogelijkheden van Adobe Experience Manager, Frame.io en Workfront benutten om uw contentbeheer en samenwerkingsprocessen te stroomlijnen.
 
-Voor meer informatie, zie [&#x200B; Gebruik Adobe Experience Manager met de integratie Frame.io &#x200B;](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md).
+Voor meer informatie, zie [ Gebruik Adobe Experience Manager met de integratie Frame.io ](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md).
 
