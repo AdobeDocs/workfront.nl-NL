@@ -18,7 +18,7 @@ ht-degree: 0%
 
 <span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>
 
-<span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
+<span class="preview"> voor informatie over snelle versies, zie [&#x200B; snelle versies voor uw organisatie &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
 
 {{planning-important-intro}}
 
@@ -32,13 +32,13 @@ De types van verslag zijn de bouwstenen van een werkruimte van de Planning van W
 
 Recordtypen zijn geordend in werkruimten.
 
-Voor informatie over werkruimten, zie [ werkruimten ](/help/quicksilver/planning/architecture/create-workspaces.md) creëren.
+Voor informatie over werkruimten, zie [&#x200B; werkruimten &#x200B;](/help/quicksilver/planning/architecture/create-workspaces.md) creëren.
 
 ## Overzicht van recordtypen
 
 In de Planning van Workfront, kunt u de types van douaneverslag tot stand brengen die aan de behoeften van uw organisatie voldoen.
 
-Voor informatie over het creëren van verslagtypes, zie [ recordtypes ](/help/quicksilver/planning/architecture/create-record-types.md) creëren.
+Voor informatie over het creëren van verslagtypes, zie [&#x200B; recordtypes &#x200B;](/help/quicksilver/planning/architecture/create-record-types.md) creëren.
 
 * Wanneer u een werkruimte maakt op basis van een sjabloon, worden recordtypen gemaakt in de volgende werkruimtesecties:
 
@@ -50,8 +50,8 @@ Voor informatie over het creëren van verslagtypes, zie [ recordtypes ](/help/qu
 * Wanneer u een recordtype maakt in een werkruimte die u zelf hebt gemaakt, kunt u het recordtype in elke gewenste sectie plaatsen die u in de werkruimte maakt.
 * Wanneer u een recordtype maakt, kunnen alleen u en de personen die u toegangsrechten tot de werkruimte geven, het recordtype weergeven.
 * U moet een werkruimte maken voordat u recordtypen voor de werkruimte kunt maken.
-* Voor beperkingen over hoeveel verslagtypes u in één werkruimte of instantie van Workfront kunt hebben, zie [ overzicht van de objectbeperkingen van de Planning van Adobe Workfront ](/help/quicksilver/planning/general/limitations-overview.md).
-* <span class="preview"> u kunt verslagtypes als globaal aanwijzen. Algemene recordtypen kunnen als bestaande recordtypen aan andere werkruimten worden toegevoegd. Voor meer informatie, zie [ ConfConfigure cross-workspace mogelijkheden voor verslagtypesign ](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).</span>
+* Voor beperkingen over hoeveel verslagtypes u in één werkruimte of instantie van Workfront kunt hebben, zie [&#x200B; overzicht van de objectbeperkingen van de Planning van Adobe Workfront &#x200B;](/help/quicksilver/planning/general/limitations-overview.md).
+* <span class="preview"> u kunt verslagtypes als globaal aanwijzen. Algemene recordtypen kunnen als bestaande recordtypen aan andere werkruimten worden toegevoegd. Voor meer informatie, zie [&#x200B; ConfConfigure cross-workspace mogelijkheden voor verslagtypesign &#x200B;](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).</span>
 
 
 <!--
