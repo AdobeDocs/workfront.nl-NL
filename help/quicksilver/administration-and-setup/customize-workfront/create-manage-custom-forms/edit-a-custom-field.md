@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 8eea97e7-1d05-4145-b1fd-855a6d111107
-source-git-commit: f2c3abc4e47e004faf7ce2a5e7a3bf4edfdaa566
+source-git-commit: 2f7b5c9d3a934708f3128ed9e4efa76b12619913
 workflow-type: tm+mt
-source-wordcount: '400'
+source-wordcount: '409'
 ht-degree: 0%
 
 ---
@@ -27,11 +27,11 @@ U kunt ook de eigenschappen bewerken van een aangepast veld, sectie-einde of wid
 
 >[!NOTE]
 >
->De uitsluiting van rapporten, filters, weergaven en groepen vindt plaats nadat het veld inactief is geworden. Bestaande rapportelementen die het veld gebruiken, worden niet gewijzigd of verwijderd wanneer het veld inactief wordt gemarkeerd.
+>Als u een bestaand veld inactief markeert, is het niet meer beschikbaar om vanaf dat punt elementen en aangepaste formulieren te rapporteren. Als het inactieve veld momenteel wordt gebruikt in een rapport of formulier, blijven het veld en de historische gegevens van het veld op hun plaats.
 
-Als u een aangepast veld uit een aangepast formulier verwijdert, bestaat het nog steeds op alle andere formulieren waaraan het is toegevoegd en kunt u het op een formulier of in het gebied Velden bewerken. Voor informatie bij het schrappen van een gebied, zie [&#x200B; een douanegebied of widget van het systeem &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/delete-a-custom-field.md) schrappen.
+Als u een aangepast veld uit een aangepast formulier verwijdert, bestaat het nog steeds op alle andere formulieren waaraan het is toegevoegd en kunt u het op een formulier of in het gebied Velden bewerken. Voor informatie bij het schrappen van een gebied, zie [ een douanegebied of widget van het systeem ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/delete-a-custom-field.md) schrappen.
 
-Voor informatie over douanegebieden en widgets in douanevormen, zie [&#x200B; een douanevorm &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren.
+Voor informatie over douanegebieden en widgets in douanevormen, zie [ een douanevorm ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren.
 
 ## Toegangsvereisten
 
@@ -57,7 +57,7 @@ Voor informatie over douanegebieden en widgets in douanevormen, zie [&#x200B; ee
  </tbody> 
 </table>
 
-Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -70,7 +70,7 @@ Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van W
 1. Klik **Nieuw Gebied van de Douane**.
 1. Voer in het vak dat wordt weergegeven de vereiste en optionele informatie in voor het item dat u toevoegt.
 
-   Voor meer informatie, zie [&#x200B; een douaneformulier &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren.
+   Voor meer informatie, zie [ een douaneformulier ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren.
 
 1. Klik **creëren**.
 
@@ -80,10 +80,10 @@ Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van W
 
 1. Klik **Aangepaste Forms**.
 1. Klik **Gebieden** om het gebied van Gebieden te openen, of **Secties** om het gebied van Secties te openen.
-1. Selecteer het douanegebied, de sectieonderbreking, of widget, dan klik ![&#x200B; uitgeven pictogram &#x200B;](assets/edit-icon.png).
+1. Selecteer het douanegebied, de sectieonderbreking, of widget, dan klik ![ uitgeven pictogram ](assets/edit-icon.png).
 1. Wijzig in het vak dat wordt weergegeven de opties die beschikbaar zijn voor het item dat u bewerkt.
 
-   Voor meer informatie, zie [&#x200B; een douaneformulier &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren.
+   Voor meer informatie, zie [ een douaneformulier ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren.
 
-1. Wanneer u wordt gebeëindigd, geeft de klik **&#x200B;**&#x200B;uit.
+1. Wanneer u wordt gebeëindigd, geeft de klik **** uit.
 
