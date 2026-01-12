@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
+source-git-commit: 895fcc9e8bfc6ef21e82ae6dab4c370b0e267cad
 workflow-type: tm+mt
-source-wordcount: '3143'
+source-wordcount: '3165'
 ht-degree: 0%
 
 ---
@@ -80,7 +80,7 @@ Raadpleeg de volgende artikelen voor informatie over het beheren van records in 
 </tbody> 
 </table>
 
-Voor meer informatie over de toegangsvereisten van Workfront, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer informatie over de toegangsvereisten van Workfront, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++   
 
@@ -146,16 +146,26 @@ Voor meer informatie over de toegangsvereisten van Workfront, zie [&#x200B; vere
 </tbody> 
 </table> -->
 
+## Overwegingen bij het maken van records
+
+<!--
+* Depending which workspace they are added from, records added to global record types are visible by the following types of users:
+
+    * Records added to the original workspace of a global record type are visible from the original workspace and all secondary workspaces where the record type is added. (***************check with Lilit on this one*************)
+    * Records added to a secondary workspace of a global record type are visible only from the workspace they were created and the original workspace of the global record type. 
+    For more information, see [Cross-workspace record type overview](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md). -->
+
+* Afhankelijk van hun machtigingen voor de werkruimte en recordtypen kunnen gebruikers op de volgende manieren records maken:
+
+   * Gebruikers met de machtiging Weergeven voor de werkruimte en het recordtype kunnen alleen records maken met de knop Verzoek om record op de pagina met recordtypen.
+   * Gebruikers met de machtigingen Contribute en Manage voor de werkruimte en het recordtype kunnen records maken met de knop New record op de pagina met recordtypen.
+
+  >[!IMPORTANT]
+  >
+  >Een werkruimtemanager moet een aanvraagformulier voor het recordtype maken, zodat gebruikers met de machtiging Weergeven records kunnen toevoegen met een aanvraagformulier. Anders kunnen gebruikers met de machtiging Weergeven geen records maken.
+
+
 ## Records maken met de knop Nieuwe record of Verzoek om record maken vanuit elke recordtypeweergave
-
-Gebruikers met de machtiging Weergeven voor de werkruimte en het recordtype kunnen alleen records maken met de knop Verzoek om record op de pagina met recordtypen.
-
-Gebruikers met de machtigingen Contribute en Manage voor de werkruimte en het recordtype kunnen records maken met de knop New record op de pagina met recordtypen.
-
-
->[!IMPORTANT]
->
->Een werkruimtemanager moet een aanvraagformulier voor het recordtype maken, zodat gebruikers met de machtiging Weergeven records kunnen toevoegen met een aanvraagformulier. Anders kunnen gebruikers met de machtiging Weergeven geen records maken.
 
 {{step1-to-planning}}
 
@@ -163,7 +173,7 @@ Gebruikers met de machtigingen Contribute en Manage voor de werkruimte en het re
 
    De werkruimte wordt geopend en de recordtypen worden als kaarten weergegeven.
 
-1. Klik op een opnametype. Voor informatie over het creëren van een verslagtype, zie [&#x200B; recordtypes &#x200B;](/help/quicksilver/planning/architecture/create-record-types.md) creëren.
+1. Klik op een opnametype. Voor informatie over het creëren van een verslagtype, zie [ recordtypes ](/help/quicksilver/planning/architecture/create-record-types.md) creëren.
 
    De pagina met recordtypen wordt geopend in de weergave die u het laatst hebt geopend. Standaard wordt een pagina met recordtypen geopend in de tabelweergave.
 Alle records van het geselecteerde type worden in de weergave weergegeven.
@@ -181,9 +191,9 @@ Alle records van het geselecteerde type worden in de weergave weergegeven.
    1. Klik één van de volgende manieren om een verslag tot stand te brengen, dan **ga** verder:
 
       * **voeg manueel** toe. Het voorvertoningsvak van de record wordt geopend.\
-        Voeg informatie over het verslag toe, zoals die in [&#x200B; wordt beschreven creeer verslagen door hen inline van de 1&rbrace; sectie van de verslagtype lijstmening &lbrace;in dit artikel toe te voegen, beginnend met stap 6. &#x200B;](#create-records-by-adding-them-inline-from-the-record-type-table-view)<!--insure this stays accurate-->
+        Voeg informatie over het verslag toe, zoals die in [ wordt beschreven creeer verslagen door hen inline van de 1} sectie van de verslagtype lijstmening {in dit artikel toe te voegen, beginnend met stap 6. ](#create-records-by-adding-them-inline-from-the-record-type-table-view)<!--insure this stays accurate-->
       * **uploadt van dossier**
-Voeg verslagen toe, zoals die in het artikel [&#x200B; worden beschreven verslagen door informatie van een CSV of dossier van Excel &#x200B;](/help/quicksilver/planning/records/import-file-to-create-records.md) in te voeren, die met stap 6 beginnen. <!--ensure this stays accurate-->
+Voeg verslagen toe, zoals die in het artikel [ worden beschreven verslagen door informatie van een CSV of dossier van Excel ](/help/quicksilver/planning/records/import-file-to-create-records.md) in te voeren, die met stap 6 beginnen. <!--ensure this stays accurate-->
       * **leg een verzoek** voor
 Het aanvraagformulier van het recordtype wordt geopend.
 
@@ -193,14 +203,14 @@ Het aanvraagformulier van het recordtype wordt geopend.
         >
         >Sommige recordtypen kunnen meerdere formulieren hebben. Klik op een pictogram om het te openen.
 
-        Voeg het verslag, zoals die in het artikel [&#x200B; wordt beschreven voor:leggen Adobe Workfront planningsverzoeken voor om verslagen &#x200B;](/help/quicksilver/planning/requests/submit-requests.md) tot stand te brengen, beginnend met stap 6. <!--ensure this stays accurate-->
+        Voeg het verslag, zoals die in het artikel [ wordt beschreven voor:leggen Adobe Workfront planningsverzoeken voor om verslagen ](/help/quicksilver/planning/requests/submit-requests.md) tot stand te brengen, beginnend met stap 6. <!--ensure this stays accurate-->
 
-      ![&#x200B; Drie manieren om archiefkeus modaal &#x200B;](assets/three-ways-to-create-records-choice-modal.png) te creëren
+      ![ Drie manieren om archiefkeus modaal ](assets/three-ways-to-create-records-choice-modal.png) te creëren
 
 1. (Voorwaardelijk) als u **verslag van het Verzoek** klikte, doe het volgende:
 
    1. (Voorwaardelijk) Als het recordtype meer dan één aanvraagformulier heeft, klikt u op een formulier om het te kiezen.
-   2. Ga verder toevoegend informatie in de vorm om het verslag tot stand te brengen, zoals die in het artikel [&#x200B; wordt beschreven Voorlegt Adobe Workfront Planningsverzoeken om verslagen &#x200B;](/help/quicksilver/planning/requests/submit-requests.md) tot stand te brengen, beginnend met stap 6. <!--ensure this stays accurate-->
+   2. Ga verder toevoegend informatie in de vorm om het verslag tot stand te brengen, zoals die in het artikel [ wordt beschreven Voorlegt Adobe Workfront Planningsverzoeken om verslagen ](/help/quicksilver/planning/requests/submit-requests.md) tot stand te brengen, beginnend met stap 6. <!--ensure this stays accurate-->
 
 1. (Voorwaardelijk) Controleer de nieuwe records.
 
@@ -236,7 +246,7 @@ You can import records from other applications by linking them to existing recor
 
 U kunt records maken in de tabelweergave van een recordtypepagina terwijl u deze inline toevoegt.
 
-Voor informatie over het uitgeven van verslaginformatie, zie [&#x200B; verslagen &#x200B;](/help/quicksilver/planning/records/edit-records.md) uitgeven.
+Voor informatie over het uitgeven van verslaginformatie, zie [ verslagen ](/help/quicksilver/planning/records/edit-records.md) uitgeven.
 
 {{step1-to-planning}}
 
@@ -244,7 +254,7 @@ Voor informatie over het uitgeven van verslaginformatie, zie [&#x200B; verslagen
 
    De werkruimte wordt geopend en de recordtypen worden als kaarten weergegeven.
 
-1. Klik op een opnametype. Voor informatie over het creëren van een verslagtype, zie [&#x200B; recordtypes &#x200B;](/help/quicksilver/planning/architecture/create-record-types.md) creëren.
+1. Klik op een opnametype. Voor informatie over het creëren van een verslagtype, zie [ recordtypes ](/help/quicksilver/planning/architecture/create-record-types.md) creëren.
 
    De pagina met recordtypen wordt geopend in de weergave die u het laatst hebt geopend. Standaard wordt een pagina met recordtypen geopend in de tabelweergave.
 Records van het geselecteerde type worden weergegeven in de weergave.
@@ -258,11 +268,11 @@ Records van het geselecteerde type worden weergegeven in de weergave.
      >Wanneer u een nieuwe record toevoegt na de laatste record in een groep of subgroep, vult Workfront automatisch de velden in de groepen in. U kunt deze velden desgewenst handmatig bewerken en de records uit de groep verwijderen.
 
    * Klik **Verschuiving + gaat** op uw toetsenbord van om het even welke kolom of rij van de lijst binnen. Hiermee voegt u een lege rij toe onder de record waaruit u begint.
-   * Beweeg over het primaire gebied van een verslag, klik **Meer** menu ![&#x200B; Meer menu &#x200B;](assets/more-menu.png) aan het recht van het gebied, dan klik **verslag van het Tussenvoegsel boven** of **hieronder verslag van het Tussenvoegsel**.
+   * Beweeg over het primaire gebied van een verslag, klik **Meer** menu ![ Meer menu ](assets/more-menu.png) aan het recht van het gebied, dan klik **verslag van het Tussenvoegsel boven** of **hieronder verslag van het Tussenvoegsel**.
 
-   ![&#x200B; Toevoegend een nieuwe campagne in lijstrij &#x200B;](assets/adding-a-new-campaign-in-table-row.png)
+   ![ Toevoegend een nieuwe campagne in lijstrij ](assets/adding-a-new-campaign-in-table-row.png)
 
-   Workfront uploadt automatisch een miniatuur naar elke nieuwe record. U kunt deze afbeeldingen later wijzigen. Voor informatie, zie [&#x200B; een omslagbeeld aan een verslag &#x200B;](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md) toevoegen.
+   Workfront uploadt automatisch een miniatuur naar elke nieuwe record. U kunt deze afbeeldingen later wijzigen. Voor informatie, zie [ een omslagbeeld aan een verslag ](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md) toevoegen.
 
    Er wordt een nieuwe record aan de tabel toegevoegd.
 
@@ -270,7 +280,7 @@ Records van het geselecteerde type worden weergegeven in de weergave.
 
    of
 
-   Klik het **Open detailleert** pictogram ![&#x200B; Open detailspictogram op het gebied van de lijstnaam &#x200B;](assets/open-details-icon-in-table-name-field.png) links van de verslagnaam.
+   Klik het **Open detailleert** pictogram ![ Open detailspictogram op het gebied van de lijstnaam ](assets/open-details-icon-in-table-name-field.png) links van de verslagnaam.
 
    Het voorbeeldvak wordt in de tabel geopend.
 
@@ -278,7 +288,7 @@ Records van het geselecteerde type worden weergegeven in de weergave.
 
    >[!NOTE]
    >
-   >  * Er zijn geen verplichte velden voor records. Nochtans, adviseren wij dat u informatie voor het primaire gebied van een verslag toevoegt, aangezien het nuttig is om verslagen te identificeren wanneer het verbinden van verslagen aan elkaar. Voor meer informatie over primaire gebieden, zie [&#x200B; de lijstmening &#x200B;](/help/quicksilver/planning/views/manage-the-table-view.md) beheren en [&#x200B; Primair gebiedsoverzicht &#x200B;](/help/quicksilver/planning/fields/primary-field-overview.md).
+   >  * Er zijn geen verplichte velden voor records. Nochtans, adviseren wij dat u informatie voor het primaire gebied van een verslag toevoegt, aangezien het nuttig is om verslagen te identificeren wanneer het verbinden van verslagen aan elkaar. Voor meer informatie over primaire gebieden, zie [ de lijstmening ](/help/quicksilver/planning/views/manage-the-table-view.md) beheren en [ Primair gebiedsoverzicht ](/help/quicksilver/planning/fields/primary-field-overview.md).
    >
    >  * Velden die naar andere recordtypen of berekende velden verwijzen, zijn alleen-lezen velden.
 
@@ -286,13 +296,13 @@ Records van het geselecteerde type worden weergegeven in de weergave.
 
    of
 
-   Klik de naam van het nieuwe verslag of **Open detailleert** pictogram ![&#x200B; Open detailspictogram op het gebied van de lijstnaam &#x200B;](assets/open-details-icon-in-table-name-field.png) links van de verslagnaam om de voorproefdoos te openen en de informatie van het verslag op het detailsgebied uit te geven.
+   Klik de naam van het nieuwe verslag of **Open detailleert** pictogram ![ Open detailspictogram op het gebied van de lijstnaam ](assets/open-details-icon-in-table-name-field.png) links van de verslagnaam om de voorproefdoos te openen en de informatie van het verslag op het detailsgebied uit te geven.
 
    >[!TIP]
    >
    >U kunt tot het **Open detailleert** pictogram slechts van het naamgebied van het verslag toegang hebben wanneer het gebied van de Naam een primair gebied is.
 
-1. (Facultatief) van de voorproefdoos van het verslag, klik **Open in nieuw lusje** pictogram ![&#x200B; Open details in een nieuw lusjepictogram &#x200B;](assets/open-details-in-a-new-tab-icon.png) in de hoger-juiste hoek om de pagina van het verslag in een nieuw lusje te openen. Ga door met het bewerken van de record op de recordpagina. Voor informatie, zie [&#x200B; verslagen &#x200B;](/help/quicksilver/planning/records/edit-records.md) uitgeven.
+1. (Facultatief) van de voorproefdoos van het verslag, klik **Open in nieuw lusje** pictogram ![ Open details in een nieuw lusjepictogram ](assets/open-details-in-a-new-tab-icon.png) in de hoger-juiste hoek om de pagina van het verslag in een nieuw lusje te openen. Ga door met het bewerken van de record op de recordpagina. Voor informatie, zie [ verslagen ](/help/quicksilver/planning/records/edit-records.md) uitgeven.
 
    Workfront slaat uw wijzigingen automatisch op.
 
@@ -308,7 +318,7 @@ Records van het geselecteerde type worden weergegeven in de weergave.
 
 U kunt records maken in de tijdlijnweergave van een recordtypepagina door te dubbelklikken in de tijdlijn.
 
-Voor informatie over het creëren van een chronologiemening, zie [&#x200B; de chronologiemening &#x200B;](/help/quicksilver/planning/views/manage-the-timeline-view.md) leiden.
+Voor informatie over het creëren van een chronologiemening, zie [ de chronologiemening ](/help/quicksilver/planning/views/manage-the-timeline-view.md) leiden.
 
 {{step1-to-planning}}
 
@@ -329,7 +339,7 @@ Voor informatie over het creëren van een chronologiemening, zie [&#x200B; de ch
 
    Het **Nieuwe verslag** vakje opent. <!--might need a new screen shot for Production - might add a title etc-->
 
-   ![&#x200B; Nieuw verslagvakje op chronologie met naamloze verslagbar &#x200B;](assets/new-record-small-box-on-timeline.png)
+   ![ Nieuw verslagvakje op chronologie met naamloze verslagbar ](assets/new-record-small-box-on-timeline.png)
 
    >[!NOTE]
    >
@@ -355,15 +365,15 @@ Voor informatie over het creëren van een chronologiemening, zie [&#x200B; de ch
 
 1. (Optioneel) Klik op een van de volgende pictogrammen:
 
-   * **breid** uit ![&#x200B; pictogram &#x200B;](assets/expand-icon.png) om de verslagdetails in het voorproefvenster te openen.
-   * **Schrapping** ![&#x200B; pictogram van de Schrapping &#x200B;](assets/delete-icon.png) om het verslag te schrappen.
-   * **dicht** ![&#x200B; dicht pictogram &#x200B;](assets/close-icon.png) om de nieuwe verslagdoos te sluiten.
+   * **breid** uit ![ pictogram ](assets/expand-icon.png) om de verslagdetails in het voorproefvenster te openen.
+   * **Schrapping** ![ pictogram van de Schrapping ](assets/delete-icon.png) om het verslag te schrappen.
+   * **dicht** ![ dicht pictogram ](assets/close-icon.png) om de nieuwe verslagdoos te sluiten.
 
    Het verslag wordt toegevoegd aan de chronologie evenals aan de lijst en kalendermeningen onmiddellijk, tenzij u het **pictogram van de Schrapping** klikte.
 
 1. (Optioneel) Houd de muisaanwijzer boven een van de marges van de recordbalk in de tijdlijn en sleep de uiteinden van de balk naar een andere datum. Hiermee wijzigt u automatisch de begin- en einddatum van de record.
 
-   Voor informatie, zie [&#x200B; verslagen &#x200B;](/help/quicksilver/planning/records/edit-records.md) uitgeven.
+   Voor informatie, zie [ verslagen ](/help/quicksilver/planning/records/edit-records.md) uitgeven.
 
 1. (Optioneel) Klik op de recordbalk in de tijdlijn om het detailvenster van de record te openen en de gegevens van de record bij te werken, te verwijderen of opmerkingen toe te voegen.
 
@@ -379,7 +389,7 @@ Voor informatie over het creëren van een chronologiemening, zie [&#x200B; de ch
 
 U kunt records maken in de kalenderweergave van een recordtypepagina door ergens in de kalender te dubbelklikken.
 
-Voor informatie over het creëren van een kalendermening, zie [&#x200B; de kalendermening &#x200B;](/help/quicksilver/planning/views/manage-the-calendar-view.md) leiden.
+Voor informatie over het creëren van een kalendermening, zie [ de kalendermening ](/help/quicksilver/planning/views/manage-the-calendar-view.md) leiden.
 
 {{step1-to-planning}}
 
@@ -400,7 +410,7 @@ Voor informatie over het creëren van een kalendermening, zie [&#x200B; de kalen
 
    Het **Nieuwe verslag** vakje opent. <!--(********might need a new screen shot for Production - might add a title etc*********ALSO CHECK IF THE SAME ONE NEEDS REPLACING FOR TIMELINE?????)-->
 
-   ![&#x200B; Nieuwe verslagdoos op kalender met naamloze verslagbar &#x200B;](assets/new-record-small-box-on-calendar.png)
+   ![ Nieuwe verslagdoos op kalender met naamloze verslagbar ](assets/new-record-small-box-on-calendar.png)
 
 1. Werk de volgende gegevens bij:
 
@@ -421,14 +431,14 @@ Voor informatie over het creëren van een kalendermening, zie [&#x200B; de kalen
 
 1. (Optioneel) Klik op een van de volgende pictogrammen:
 
-   * **breid** uit ![&#x200B; pictogram &#x200B;](assets/expand-icon.png) om de verslagdetails in het voorproefvenster te openen.
-   * **Schrapping** ![&#x200B; pictogram van de Schrapping &#x200B;](assets/delete-icon.png) om het verslag te schrappen.
-   * **dicht** ![&#x200B; dicht pictogram &#x200B;](assets/close-icon.png) om de nieuwe verslagdoos te sluiten.
+   * **breid** uit ![ pictogram ](assets/expand-icon.png) om de verslagdetails in het voorproefvenster te openen.
+   * **Schrapping** ![ pictogram van de Schrapping ](assets/delete-icon.png) om het verslag te schrappen.
+   * **dicht** ![ dicht pictogram ](assets/close-icon.png) om de nieuwe verslagdoos te sluiten.
 
    Het verslag wordt toegevoegd aan de kalender evenals aan de lijst en chronologiemeningen onmiddellijk, tenzij u het **pictogram van de Schrapping** klikte.
 1. (Facultatief en voorwaardelijk) kies **Maand** van het hoger-hoekdropdown menu, over één van de marges van de verslagbar in de kalender, dan belemmering en laat vallen de einden van de bar aan een verschillende datum. Hiermee wijzigt u automatisch de begin- en einddatum van de record.
 
-   Voor informatie, zie [&#x200B; verslagen &#x200B;](/help/quicksilver/planning/records/edit-records.md) uitgeven.
+   Voor informatie, zie [ verslagen ](/help/quicksilver/planning/records/edit-records.md) uitgeven.
 1. (Optioneel) Klik op de recordbalk in de kalender om het venster met de details van de record te openen en de gegevens van de record bij te werken, te verwijderen of opmerkingen toe te voegen.
 
    >[!TIP]
@@ -441,7 +451,7 @@ Voor informatie over het creëren van een kalendermening, zie [&#x200B; de kalen
 
 ## Records maken door deze te kopiëren en te plakken vanuit een externe lijst
 
-1. Begin creërend verslagen in de mening van de Lijst, zoals die in sectie [&#x200B; wordt beschreven creeer verslagen door hen aan een verslagtype &#x200B;](#create-records-by-manually-adding-them-to-a-record-type) in dit artikel manueel toe te voegen.
+1. Begin creërend verslagen in de mening van de Lijst, zoals die in sectie [ wordt beschreven creeer verslagen door hen aan een verslagtype ](#create-records-by-manually-adding-them-to-a-record-type) in dit artikel manueel toe te voegen.
 
    Zorg ervoor dat de tabelweergave de kolommen (of de velden) bevat die u wilt vullen met de nieuwe recordgegevens.
 
@@ -470,7 +480,7 @@ Voor informatie over het creëren van een kalendermening, zie [&#x200B; de kalen
 
 ## Records maken door deze te dupliceren
 
-Voor informatie over het dupliceren van verslagen, zie [&#x200B; Dubbele verslagen &#x200B;](/help/quicksilver/planning/records/copy-or-duplicate-records.md).
+Voor informatie over het dupliceren van verslagen, zie [ Dubbele verslagen ](/help/quicksilver/planning/records/copy-or-duplicate-records.md).
 
 ## Records maken terwijl u ze verbindt
 
@@ -485,17 +495,17 @@ In deze sectie wordt beschreven hoe u Workfront Planning-records kunt maken terw
 >
 >Het maken van Workfront-projecten en -portfolio&#39;s wanneer u deze koppelt aan Workfront-planningsrecords, lijkt op het maken van planningsrecords wanneer u deze verbindt met andere records.
 >
->Voor informatie over het creëren van de voorwerpen van Workfront van de Planning van Workfront, zie [&#x200B; de voorwerpen van Workfront van Workfront Planning tot stand brengen aangezien u hen met verslagen &#x200B;](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md) verbindt.
+>Voor informatie over het creëren van de voorwerpen van Workfront van de Planning van Workfront, zie [ de voorwerpen van Workfront van Workfront Planning tot stand brengen aangezien u hen met verslagen ](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md) verbindt.
 
 U moet het volgende hebben voordat u nieuwe records kunt toevoegen door deze te verbinden vanuit bestaande records:
 
-* Verbonden recordtypen. Voor informatie, zie [&#x200B; verbind verslagtypes &#x200B;](/help/quicksilver/planning/architecture/connect-record-types.md).
+* Verbonden recordtypen. Voor informatie, zie [ verbind verslagtypes ](/help/quicksilver/planning/architecture/connect-record-types.md).
 * Records.
-* De correcte toegang en de toestemmingen in de Planning van Workfront en Workfront, zoals die in de sectie [&#x200B; vereisten van de Toegang &#x200B;](#access-requirements) in dit artikel worden beschreven.
+* De correcte toegang en de toestemmingen in de Planning van Workfront en Workfront, zoals die in de sectie [ vereisten van de Toegang ](#access-requirements) in dit artikel worden beschreven.
 
 Om verslagen tot stand te brengen aangezien u hen van andere verslagen verbindt:
 
-1. Begin verbindend de verslagen van de Planning van Workfront, zoals die in het artikel [&#x200B; worden beschreven verbindt verslagen &#x200B;](/help/quicksilver/planning/records/connect-records.md). U kunt records verbinden vanuit de volgende gebieden:
+1. Begin verbindend de verslagen van de Planning van Workfront, zoals die in het artikel [ worden beschreven verbindt verslagen ](/help/quicksilver/planning/records/connect-records.md). U kunt records verbinden vanuit de volgende gebieden:
 
    * Een verbindingsveld in de volgende gebieden van Workfront Planning:
 
@@ -504,14 +514,14 @@ Om verslagen tot stand te brengen aangezien u hen van andere verslagen verbindt:
 
    * Een verbindingsveld in het gedeelte Planning van een project, portfolio of programma in Workfront.
 
-     Voor informatie, zie [&#x200B; recordverbindingen van de voorwerpen van Workfront beheren &#x200B;](/help/quicksilver/planning/records/manage-records-in-planning-section.md).
+     Voor informatie, zie [ recordverbindingen van de voorwerpen van Workfront beheren ](/help/quicksilver/planning/records/manage-records-in-planning-section.md).
 
 1. (Voorwaardelijk) Als u geen verslag kunt vinden wanneer het proberen om het aan te sluiten, **+ toevoegen** klikken
 
    of
 Typ een naam en klik vervolgens op **+ Toevoegen** . De knop **+ Toevoegen** wordt gevolgd door de naam van het recordtype waarmee u verbinding maakt. Bijvoorbeeld, &quot;voeg merken&quot;toe wanneer het toevoegen van een merk aan een bestaande campagne. De naam die u hebt getypt, volgt ook de knop Toevoegen.
 
-   ![&#x200B; voeg knoop toe om verslagen in benadrukte context te creëren &#x200B;](assets/add-button-to-create-records-in-context-highlighted.png)
+   ![ voeg knoop toe om verslagen in benadrukte context te creëren ](assets/add-button-to-create-records-in-context-highlighted.png)
 
    De record wordt gemaakt en toegevoegd aan het verbonden recordveld.
 
@@ -531,23 +541,23 @@ Klik op de naam van de pagina om de detailpagina te openen en informatie toe te 
 
 Nadat iemand een aanvraagformulier voor een recordtype heeft gemaakt en er een koppeling naar heeft gedeeld, kunt u een aanvraag indienen waarmee een record voor dat recordtype wordt gemaakt.
 
-Voor informatie, zie [&#x200B; creeer en beheer een verzoekvorm in de Planning van Adobe Workfront &#x200B;](/help/quicksilver/planning/requests/create-request-form.md).
+Voor informatie, zie [ creeer en beheer een verzoekvorm in de Planning van Adobe Workfront ](/help/quicksilver/planning/requests/create-request-form.md).
 
 Zowel Workfront-gebruikers als gebruikers buiten uw organisatie kunnen aanvragen indienen bij de planning van recordtypen en records maken als ze een koppeling naar het aanvraagformulier hebben.
 
-Voor informatie, zie [&#x200B; de Verzoeken van de Planning van Adobe Workfront voorleggen om verslagen &#x200B;](/help/quicksilver/planning/requests/submit-requests.md) tot stand te brengen.
+Voor informatie, zie [ de Verzoeken van de Planning van Adobe Workfront voorleggen om verslagen ](/help/quicksilver/planning/requests/submit-requests.md) tot stand te brengen.
 
 ## Records maken bij het importeren van recordtypen uit een CSV- of Excel-bestand
 
 U kunt records importeren wanneer u recordtypen importeert met een CSV- of Excel-bestand.
 
-Voor informatie, zie [&#x200B; recordtypes &#x200B;](/help/quicksilver/planning/architecture/create-record-types.md) creëren.
+Voor informatie, zie [ recordtypes ](/help/quicksilver/planning/architecture/create-record-types.md) creëren.
 
 ## Records maken door records te importeren uit een CSV- of Excel-bestand
 
 U kunt records voor bestaande recordtypen importeren wanneer u gegevens uit een CSV- of Excel-bestand importeert.
 
-Voor informatie, zie [&#x200B; verslagen tot stand brengen door informatie van een CSV of dossier van Excel &#x200B;](/help/quicksilver/planning/records/import-file-to-create-records.md) in te voeren.
+Voor informatie, zie [ verslagen tot stand brengen door informatie van een CSV of dossier van Excel ](/help/quicksilver/planning/records/import-file-to-create-records.md) in te voeren.
 
 ## Records maken met behulp van automatisering
 
@@ -555,7 +565,7 @@ U kunt automatiseringen in de Planning van Workfront vormen die, wanneer geactiv
 
 U kunt de automatisering in de verslagpagina in de Planning van Workfront vormen en activeren. De verbonden record die wordt gemaakt, wordt in het verbonden veld van het recordtype geplaatst waaruit u de automatisering uitvoert.
 
-Voor informatie, zie [&#x200B; voorwerpen creëren gebruikend het verslag van de Planning van Adobe Workfront automatiseringen &#x200B;](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md).
+Voor informatie, zie [ voorwerpen creëren gebruikend het verslag van de Planning van Adobe Workfront automatiseringen ](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md).
 
 
 
