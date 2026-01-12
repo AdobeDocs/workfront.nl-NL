@@ -21,7 +21,7 @@ Met logische regels kunt u de velden op een aangepast formulier verder aanpassen
 
 Dit artikel bevat voorbeelden van expressies die worden gebruikt om geavanceerde logica op aangepaste velden samen te stellen.
 
-Voor meer informatie over het toevoegen van logica aan een douaneformulier, zie [ logische regels aan douaneformulieren en gebieden ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md) toevoegen.
+Voor meer informatie over het toevoegen van logica aan een douaneformulier, zie [&#x200B; logische regels aan douaneformulieren en gebieden &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md) toevoegen.
 
 ## Toegangsvereisten
 
@@ -47,7 +47,7 @@ Voor meer informatie over het toevoegen van logica aan een douaneformulier, zie 
  </tbody> 
 </table>
 
-Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -71,7 +71,7 @@ IF({ownerID}!=$$USER&&{DE:DV - Dropdown - Control Dates}="2",CONCAT("Only ",{own
 
 Wanneer iedereen die niet de projecteigenaar (met inbegrip van de systeembeheerder) is probeert om **X Rusland** te selecteren, wordt een fout getoond:
 
-![ slechts de projecteigenaar Claire Stevens kan X Rush ](assets/sla-xrush.png) selecteren
+![&#x200B; slechts de projecteigenaar Claire Stevens kan X Rush &#x200B;](assets/sla-xrush.png) selecteren
 
 ### Datumvalidatie gebaseerd op keuze in vorige veld
 
@@ -89,7 +89,7 @@ IF(
 
 Als de gebruiker een datum selecteert die voorafgaat aan de toegestane datum, wordt in het bericht de vroegste datum weergegeven die ze kunnen selecteren:
 
-![ Geselecteerde datum is Maart 28 maar de vroegste beschikbare datum is 3 April ](assets/date-validation-based-on-previous-choice.png)
+![&#x200B; Geselecteerde datum is Maart 28 maar de vroegste beschikbare datum is 3 April &#x200B;](assets/date-validation-based-on-previous-choice.png)
 
 ### Minimum aantal tekens met de optie om te overschrijven
 
@@ -103,11 +103,11 @@ IF({DE:DV - Override}!="Disable Validation"&&LEN({DE:DV - Text - Min Length})<"7
 
 De handhaving van de bevestiging kan worden met voeten getreden door de controledoos te selecteren:
 
-![ doos van de Controle om bevestiging ](assets/disable-validation-checkbox.png) onbruikbaar te maken
+![&#x200B; doos van de Controle om bevestiging &#x200B;](assets/disable-validation-checkbox.png) onbruikbaar te maken
 
 Er wordt een lopend aantal tekens in het tekstveld opgenomen:
 
-![ Aantal van het Karakter van 5 beschikbare, 2 resterende ](assets/running-character-count.png)
+![&#x200B; Aantal van het Karakter van 5 beschikbare, 2 resterende &#x200B;](assets/running-character-count.png)
 
 ### Een veld vergrendelen zodat alleen de eigenaar het kan bewerken
 
@@ -121,7 +121,7 @@ IF({ownerID}!=$$USER,IF(ISBLANK({ownerID}),"Project Owner will provide this.",CO
 
 Als een gebruiker die niet de projecteigenaar is op het gebied probeert te typen, zien zij een bericht verklarend dat slechts de projecteigenaar het gebied kan uitgeven.
 
-![ slechts Claire Stevens kan dit gebied ](assets/only-project-owner-can-edit.png) uitgeven
+![&#x200B; slechts Claire Stevens kan dit gebied &#x200B;](assets/only-project-owner-can-edit.png) uitgeven
 
 ### Met Typeahead kunnen waarden worden toegestaan of geweigerd op basis van andere veldwaarden
 
@@ -137,7 +137,7 @@ IF({DE:DV - Text - Budget}>"10000",
 
 Als de waarde op het begrotingsgebied meer dan $10.000 is, dan slechts kunnen de gebruikers met een rol van de Directeur van typeahead worden geselecteerd, zelfs als er geen rolfilter op de typeahead configuratie wordt toegelaten.
 
-![ het bedrag van de Begroting vereist Directeur goedkeuring ](assets/budget-director.png)
+![&#x200B; het bedrag van de Begroting vereist Directeur goedkeuring &#x200B;](assets/budget-director.png)
 
 ### Waarden die minder dan tien dagen na de ingangsdatum liggen, niet toestaan
 
@@ -151,11 +151,11 @@ IF({DE:DV - Override}!="Disable Validation"&&ISBLANK({DE:DV - Date - Deadline})!
 
 Een waarde die minder dan 10 dagen na de ingangsdatum ligt, activeert de validatie:
 
-![ Geselecteerde datum is Maart 28 maar de vroegste beschikbare datum is 4 April ](assets/earliest-deadline-date.png)
+![&#x200B; Geselecteerde datum is Maart 28 maar de vroegste beschikbare datum is 4 April &#x200B;](assets/earliest-deadline-date.png)
 
 Een lege waarde activeert het validatiebericht niet:
 
-![ Lege waarde voor datum ](assets/blank-date-allowed.png)
+![&#x200B; Lege waarde voor datum &#x200B;](assets/blank-date-allowed.png)
 
 ### Nauwkeurige/minimale/maximale selecties afdwingen in een veld met meerdere selecties
 
@@ -181,4 +181,4 @@ IF({DE:DV - Override}!="Disable Validation"&&ARRAYLENGTH(ARRAY({DE:DV - Checkbox
 
 De gebruiker ziet validatiefouten als hij of zij niet het juiste aantal opties selecteert.
 
-![ de foutenvoorbeelden van de Bevestiging ](assets/min-max-selections.png)
+![&#x200B; de foutenvoorbeelden van de Bevestiging &#x200B;](assets/min-max-selections.png)
