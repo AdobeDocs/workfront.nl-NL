@@ -46,13 +46,13 @@ Als u ten minste één merk hebt ingesteld in Workfront, kunt u meerdere AI-revi
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Vereisten
 
-Voordat u begint, moet u richtlijnen voor het maken van afbeeldingsmerken in Workfront instellen. Voor meer informatie, zie [ opstellingsmerken voor de AI Reviewer ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md).
+Voordat u begint, moet u richtlijnen voor het maken van afbeeldingsmerken in Workfront instellen. Voor meer informatie, zie [&#x200B; opstellingsmerken voor de AI Reviewer &#x200B;](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md).
 
 ## Een AI-revisor toevoegen
 
