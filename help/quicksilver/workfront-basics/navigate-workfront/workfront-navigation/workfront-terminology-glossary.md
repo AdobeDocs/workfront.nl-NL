@@ -6,9 +6,9 @@ description: De  [!DNL Adobe Workfront]  verklarende woordenlijst lijsten algeme
 author: Alina
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: 8f7249e08268a8cb784d4c0ecc8c534542fa80cf
 workflow-type: tm+mt
-source-wordcount: '17858'
+source-wordcount: '17893'
 ht-degree: 0%
 
 ---
@@ -1263,7 +1263,11 @@ Uur-items kunnen een van de volgende statussen in Workfront hebben:
   <tr> 
    <td>[!UICONTROL Last Note]</td> 
    <td> <p>In dit veld wordt de laatste update weergegeven die een gebruiker voor een object heeft ingevoerd. Dit is de meest recente activiteit of interactie op een voorwerp.</p> <p>De kolom [!UICONTROL Last Note] is leeg als de tekst van de laatste notitie van een object is verwijderd. Wanneer een nieuwe notitie op het object wordt ingevoerd, wordt deze de laatste notitie en wordt deze opnieuw weergegeven in de kolom.</p>
-   <p>Wanneer dit veld wordt toegevoegd aan een [!UICONTROL Task] -rapport, worden de resterende updates voor onderliggende objecten, zoals problemen, subtaken, documenten, enzovoort, weergegeven. — van de taak wordt niet weergegeven in deze kolom.</p> </td> 
+   <p>Wanneer dit veld wordt toegevoegd aan een [!UICONTROL Task] -rapport, worden de resterende updates van onderliggende objecten (zoals problemen, subtaken of documenten) van de taak niet weergegeven in deze kolom.</p> 
+   <p><b>OPMERKING</p>
+   <p>De laatste notitie die met de API aan een object is toegevoegd, wordt niet weergegeven in een rapport in Workfront. Het veld [!DNL Last Note] is leeg als de laatste update voor een object is toegevoegd met de API. </p>
+
+</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Last Viewed By]</td> 
@@ -2106,7 +2110,7 @@ Uur-items kunnen een van de volgende statussen in Workfront hebben:
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Optimized"> 
    <td>[!UICONTROL Scenario] (in [!DNL Workfront Fusion]) </td> 
-   <td> <p>Een scenario bestaat uit een reeks stappen (modules) die aangeven hoe gegevens moeten worden overgebracht en getransformeerd tussen apps/services.</p> <p>Voor informatie over scenario's in [!DNL Workfront Fusion], zie <a href="https://experienceleague.adobe.com/nl/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/scenario-overview">[!DNL Adobe Workfront Fusion] scenario overzicht </a>.</p> </td> 
+   <td> <p>Een scenario bestaat uit een reeks stappen (modules) die aangeven hoe gegevens moeten worden overgebracht en getransformeerd tussen apps/services.</p> <p>Voor informatie over scenario's in [!DNL Workfront Fusion], zie <a href="https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/scenario-overview">[!DNL Adobe Workfront Fusion] scenario overzicht </a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Scenario] (in de [!DNL Workfront Scenario Planner] ) </td> 

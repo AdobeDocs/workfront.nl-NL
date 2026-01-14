@@ -6,9 +6,9 @@ description: Gebruikerstoewijzingen wijzigen voor meerdere uitgaven in een lijst
 author: Lisa
 feature: Work Management
 exl-id: e1e75027-1847-44cf-afeb-b19394dc3ea5
-source-git-commit: 0358e79bd606d0035959bba2a47256456b529b18
+source-git-commit: 8f7249e08268a8cb784d4c0ecc8c534542fa80cf
 workflow-type: tm+mt
-source-wordcount: '521'
+source-wordcount: '523'
 ht-degree: 0%
 
 ---
@@ -30,10 +30,10 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
 U kunt gebruikerstoewijzingen aan veelvoudige kwesties gelijktijdig wijzigen. Zie ook de volgende artikelen voor informatie over het bewerken van uitgaven of het een voor een toewijzen van uitgaven:
 
-* [&#x200B; geeft kwesties &#x200B;](../../../manage-work/issues/manage-issues/edit-issues.md) uit
+* [ geeft kwesties ](../../../manage-work/issues/manage-issues/edit-issues.md) uit
 * [Problemen toewijzen](../../../manage-work/issues/manage-issues/assign-issues.md)
 
-Voor algemene informatie over het toewijzen van kwesties, zie [&#x200B; Overzicht van het wijzigen van uitgiftetaken &#x200B;](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md).
+Voor algemene informatie over het toewijzen van kwesties, zie [ Overzicht van het wijzigen van uitgiftetaken ](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md).
 
 >[!NOTE]
 >
@@ -53,7 +53,7 @@ Voor algemene informatie over het toewijzen van kwesties, zie [&#x200B; Overzich
   </tr> 
   <tr> 
    <td>Adobe Workfront-licentie</td> 
-   <td> <p>Standard</p>
+   <td> <p>Medewerker of hoger</p>
    <p>Aanvraag of hoger</p> </td> 
   </tr> 
   <tr> 
@@ -67,7 +67,7 @@ Voor algemene informatie over het toewijzen van kwesties, zie [&#x200B; Overzich
  </tbody> 
 </table>
 
-Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -103,7 +103,7 @@ Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van W
       De lijst met uitgaven filtert automatisch voor uw filtercriteria.
    1. (Facultatief) klik **sparen als nieuw**, dan **sparen**.
 
-1. Selecteer de kwesties waarvoor u taken wilt wijzigen, dan klik **uitgeven** pictogram ![&#x200B; uitgeven pictogram &#x200B;](assets/qs-edit-icon.png).
+1. Selecteer de kwesties waarvoor u taken wilt wijzigen, dan klik **uitgeven** pictogram ![ uitgeven pictogram ](assets/qs-edit-icon.png).
 
    **geeft Kwesties** vertoningen uit. Het aantal geselecteerde items wordt in de linkerbovenhoek van de pagina weergegeven.
 
@@ -111,9 +111,9 @@ Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van W
 
    >[!TIP]
    >
-   >Slechts wijzen die aan alle geselecteerde kwesties worden toegewezen tonen in het **1&rbrace; gebied van Taken &lbrace;.**
+   >Slechts wijzen die aan alle geselecteerde kwesties worden toegewezen tonen in het **1} gebied van Taken {.**
 
-   ![&#x200B; gebied van Taken in bulk-geef kwesties &#x200B;](assets/assignments-area-on-bulk-edit-issues.png) uit
+   ![ gebied van Taken in bulk-geef kwesties ](assets/assignments-area-on-bulk-edit-issues.png) uit
 
 1. Typ de naam van een gebruiker, rol of team om toewijzingen toe te voegen aan alle geselecteerde problemen.
 

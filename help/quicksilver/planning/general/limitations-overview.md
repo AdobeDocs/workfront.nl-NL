@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 2a640cd5-f4a8-4ff3-81b6-32f85f6e4535
-source-git-commit: 98ef4a4f0a30dc90956132cb715393a29170d715
+source-git-commit: 9a7ab1928bfd25c197fca65eddfba1bc01977ea7
 workflow-type: tm+mt
-source-wordcount: '523'
-ht-degree: 2%
+source-wordcount: '464'
+ht-degree: 3%
 
 ---
 
@@ -18,9 +18,9 @@ ht-degree: 2%
 
 # Overzicht van beperkingen van Adobe Workfront-planningsobjecten
 
-<span class="preview"> de informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet.</span>
+<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases.</span>   
 
-<span class="preview"> voor informatie over snelle versies, zie [&#x200B; snelle versies voor uw organisatie &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -49,13 +49,13 @@ In de volgende tabel staan de limieten voor het aantal objecten dat u kunt maken
 | Aantal rijen dat u in een CSV- of Excel-bestand kunt importeren om recordtypen te maken | 25.000 |
 | Aantal kolommen dat u in een CSV- of Excel-bestand kunt importeren om recordtypen te maken | 500 |
 | Aantal formulevelden voor één recordtype | 20 |
-| <span class="preview"> Aantal verbindingsgebieden voor één verslagtype </span> | <span class="preview"> 30 </span> |
+| Aantal verbindingsvelden voor één recordtype | 30 |
 | Aantal tekens in een expressie van een formulerveld | 50.000 |
 | Aantal entiteiten (gebruikers, rollen, teams, bedrijven, groepen) u kunt een voorwerp van de Planning met delen | 100 |
-| <span class="preview"> Aantal verslagtypes in een hiërarchie </span> | 4 |
-| <span class="preview"> Aantal hiërarchieën in een werkruimte </span> | 5 |
-| <span class="preview"> Aantal verslagen van een type van ouderverslag dat met één verslag van een type van het kindverslag wordt verbonden, binnen een hiërarchie </span> | 10 |
-| Aantal verslagen die met één verslag in een multi-uitgezochte verbindingstype worden verbonden, <span class="preview"> zonder een hiërarchie die tussen de verslagen </span> wordt gevormd | 500 |
+| Aantal recordtypen in een hiërarchie | 4 |
+| Aantal hiërarchieën in een werkruimte | 5 |
+| Aantal records van een bovenliggend recordtype dat is verbonden met één record van een onderliggend recordtype, binnen een hiërarchie | 10 |
+| Aantal verslagen die met één verslag in een multi-uitgezochte verbindingstype worden verbonden, zonder een hiërarchie die tussen de verslagen wordt gevormd | 500 |
 
 *Wij adviseren om niet te veel werkruimten te hebben, aangezien zij moeilijk zouden kunnen worden te beheren en uw werkschema&#39;s zouden te gefragmenteerd kunnen zijn.
 

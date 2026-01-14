@@ -6,7 +6,7 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 0da08e30-51a8-4163-ae1e-821a099fac3b
-source-git-commit: 98ef4a4f0a30dc90956132cb715393a29170d715
+source-git-commit: 9a7ab1928bfd25c197fca65eddfba1bc01977ea7
 workflow-type: tm+mt
 source-wordcount: '233'
 ht-degree: 0%
@@ -39,14 +39,9 @@ De artikelen in de volgende secties beschrijven hoe u de werkruimten van de Plan
 * [Werkruimten verwijderen](/help/quicksilver/planning/architecture/delete-workspaces.md)
 * [Werkruimten bewerken](/help/quicksilver/planning/architecture/edit-workspaces.md)
 * [Recordtypen verwijderen](/help/quicksilver/planning/architecture/delete-record-types.md)
-
-<div class="preview">
-
 * [Overzicht van recordtypen voor verschillende werkruimten](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md)
 * [Mogelijkheden tussen werkruimten configureren voor recordtypen](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md)
 * [Bestaande recordtypen uit een andere werkruimte toevoegen](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md)
 * [Het gebied Instellingen van een recordtype configureren](/help/quicksilver/planning/architecture/configure-record-type-settings.md)
-* [Overzicht van hiërarchieën en broodkruimels](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md)
+* [Overzicht van hiërarchie en broodkruimel](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md)
 * [Hiërarchieën voor werkruimten maken](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md)
-
-</div>
