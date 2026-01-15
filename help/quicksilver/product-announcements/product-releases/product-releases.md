@@ -18,9 +18,9 @@ ht-degree: 8%
 
 Hieronder vindt u koppelingen naar aanvullende informatie over huidige en eerdere releases.
 
-Voor informatie over het de versieschema van Adobe Workfront, zie [ de versieschema en proces van Adobe Workfront ](../../product-announcements/product-releases/workfront-release-schedule.md).
+Voor informatie over het de versieschema van Adobe Workfront, zie [&#x200B; de versieschema en proces van Adobe Workfront &#x200B;](../../product-announcements/product-releases/workfront-release-schedule.md).
 
-Voor informatie bij het helpen van uw organisatie aanpassen regelmatig aan nieuwe versies, zie [ bereidheid van de Versie ](../../product-announcements/product-releases/release-readiness.md).
+Voor informatie bij het helpen van uw organisatie aanpassen regelmatig aan nieuwe versies, zie [&#x200B; bereidheid van de Versie &#x200B;](../../product-announcements/product-releases/release-readiness.md).
 
 <!--
 <table style="table-layout:auto"> 

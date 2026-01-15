@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Op deze pagina worden de verbeteringen beschreven die zijn aangebracht met de release Eerste kwartaal 2026 voor de voorvertoningsomgeving. Deze verbeteringen zullen beschikbaar worden gesteld in de productieomgeving, zoals vermeld.
 
-Voor een lijst van alle veranderingen beschikbaar op dit punt in Eerste Kwartaal 2026 versiecyclus, zie [ Eerste Kwartaal 2026 releaseoverzicht ](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar op dit punt in Eerste Kwartaal 2026 versiecyclus, zie [&#x200B; Eerste Kwartaal 2026 releaseoverzicht &#x200B;](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md).
 
 
 ## Selectielimieten voor velden met meerdere selecties
@@ -28,7 +28,7 @@ Voor een lijst van alle veranderingen beschikbaar op dit punt in Eerste Kwartaal
 
 Velden die meerdere selecties mogelijk maken, zoals selectievakjes en meerkeuzevelden, zijn nu beperkt tot 5000 selecties wanneer een gebruiker het formulier invult.
 
-Voor meer informatie, zie [ informatie op de gebieden van de douanevorm ](/help/quicksilver/workfront-basics/work-with-custom-forms/edit-custom-forms.md) uitgeven.
+Voor meer informatie, zie [&#x200B; informatie op de gebieden van de douanevorm &#x200B;](/help/quicksilver/workfront-basics/work-with-custom-forms/edit-custom-forms.md) uitgeven.
 
 
 
@@ -51,6 +51,6 @@ De Adobe Unified Experience omvat:
 
 Uw beheerder van Workfront zal een bericht van het Centrum van de Aankondiging betreffende de datum ontvangen waarop uw organisatie naar de Adobe Verenigde Ervaring zal bewegen.
 
-Voor meer informatie, zie [ Adobe Verenigde Ervaring voor Workfront ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
+Voor meer informatie, zie [&#x200B; Adobe Verenigde Ervaring voor Workfront &#x200B;](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
-[ Bekijk een videodemonstratie van deze eigenschap.](https://video.tv.adobe.com/v/3412388/){target=_blank}
+[&#x200B; Bekijk een videodemonstratie van deze eigenschap.](https://video.tv.adobe.com/v/3412388/){target=_blank}
