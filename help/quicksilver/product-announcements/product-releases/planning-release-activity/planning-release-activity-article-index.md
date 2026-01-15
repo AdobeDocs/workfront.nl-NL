@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: b3f1002b-e3b4-48e5-9a64-467d4f7a15b2
-source-git-commit: e8d0b180e39025e3d6775d1f90dbd5c8fad9025e
+source-git-commit: 1c9a13aa927b6c21d27d860d228be98d44a80987
 workflow-type: tm+mt
-source-wordcount: '140'
+source-wordcount: '152'
 ht-degree: 2%
 
 ---
@@ -22,14 +22,18 @@ Dit artikel bevat een lijst met artikelen over releaseactiviteiten met betrekkin
 
 Voor informatie over de huidige de versieactiviteit van de Planning van Workfront, zie het volgende artikel:
 
-* [Eerste kwartaal van 2026: releaseactiviteit voor Adobe Workfront Planning](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q1.md)
+* [Tweede kwartaal 2026: releaseactiviteit voor Adobe Workfront Planning](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q2.md)
+
 
 
 >[!ENDSHADEBOX]
 
 <!-- for every new release, add the new release page in the first bullet (above) and move that first note to the list below; update the date of the most recent release in the statement below-->
 
-Raadpleeg de volgende artikelen voor meer informatie over functies die zijn uitgebracht vóór de productierelease op 10 april 2025:
+Raadpleeg de volgende artikelen voor meer informatie over functies die vóór de productierelease op 16 januari 2026 zijn uitgebracht:
+
+* 2026
+   * [Eerste kwartaal van 2026: releaseactiviteit voor Adobe Workfront Planning](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q1.md)
 
 * 2025
    * [Vierde kwartaal 2025 de versieactiviteit voor de Planning van Adobe Workfront](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q4.md)
