@@ -23,15 +23,15 @@ Als Adobe Workfront-beheerder of groepsbeheerder kunt u een lay-outsjabloon gebr
 
 >[!NOTE]
 >
->De belangrijkste opties van het Menu die de gebruikers zien hangen van hun vergunningstype af en welke montages in hun toegangsniveau worden gevormd. Sommige gebruikers die deze lay-outsjabloon gebruiken, zien mogelijk niet alle opties die u hier kiest. Voor meer informatie zie [ hoe de toegangsniveaus en de toestemmingen samen ](../../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md) en [ Configureerbare toegang tot functionaliteit voor elk objecten type ](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md) werken.
+>De belangrijkste opties van het Menu die de gebruikers zien hangen van hun vergunningstype af en welke montages in hun toegangsniveau worden gevormd. Sommige gebruikers die deze lay-outsjabloon gebruiken, zien mogelijk niet alle opties die u hier kiest. Voor meer informatie zie [&#x200B; hoe de toegangsniveaus en de toestemmingen samen &#x200B;](../../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md) en [&#x200B; Configureerbare toegang tot functionaliteit voor elk objecten type &#x200B;](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md) werken.
 >
->U zou verschillende opties in het Belangrijkste Menu kunnen zien als uw organisatie op de Adobe Workfront Verenigde Ervaring is ingezien. Voor informatie, zie [ Adobe Verenigde Ervaring voor Workfront ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
+>U zou verschillende opties in het Belangrijkste Menu kunnen zien als uw organisatie op de Adobe Workfront Verenigde Ervaring is ingezien. Voor informatie, zie [&#x200B; Adobe Verenigde Ervaring voor Workfront &#x200B;](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
-Voor informatie over het creëren van lay-outmalplaatjes, zie [ lay-outmalplaatjes ](../use-layout-templates/create-and-manage-layout-templates.md) creëren en beheren.
+Voor informatie over het creëren van lay-outmalplaatjes, zie [&#x200B; lay-outmalplaatjes &#x200B;](../use-layout-templates/create-and-manage-layout-templates.md) creëren en beheren.
 
-Voor informatie over lay-outmalplaatjes voor groepen, zie [ tot stand brengen en wijzigen de lay-outmalplaatjes van een groep ](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
+Voor informatie over lay-outmalplaatjes voor groepen, zie [&#x200B; tot stand brengen en wijzigen de lay-outmalplaatjes van een groep &#x200B;](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
 
-Nadat u een lay-outmalplaatje hebt gevormd, moet u het aan gebruikers voor veranderingen toewijzen u aanbracht om aan anderen zichtbaar te zijn. Voor informatie over het toewijzen van een lay-outmalplaatje aan gebruikers, zie [ gebruikers aan een lay-outmalplaatje ](../use-layout-templates/assign-users-to-layout-template.md) toewijzen.
+Nadat u een lay-outmalplaatje hebt gevormd, moet u het aan gebruikers voor veranderingen toewijzen u aanbracht om aan anderen zichtbaar te zijn. Voor informatie over het toewijzen van een lay-outmalplaatje aan gebruikers, zie [&#x200B; gebruikers aan een lay-outmalplaatje &#x200B;](../use-layout-templates/assign-users-to-layout-template.md) toewijzen.
 
 ## Toegangsvereisten
 
@@ -60,13 +60,13 @@ Nadat u een lay-outmalplaatje hebt gevormd, moet u het aan gebruikers voor veran
  </tbody> 
 </table>
 
-Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Het hoofdmenu aanpassen
 
-1. Begin werkend aan een lay-outmalplaatje, zoals die in [ wordt beschreven creeer en beheer lay-outmalplaatjes ](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
+1. Begin werkend aan een lay-outmalplaatje, zoals die in [&#x200B; wordt beschreven creeer en beheer lay-outmalplaatjes &#x200B;](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 1. Klik **Vastgestelde HoofdMenu** in de hoger-juiste hoek van het malplaatje.
 
    Het vak Hoofdmenu wordt geopend en u kunt de gebieden zien die momenteel worden weergegeven in het hoofdmenu voor de sjabloon, plus de items die beschikbaar zijn om toe te voegen. Hieronder vindt u alle mogelijke items die u kunt toevoegen:
@@ -88,14 +88,14 @@ Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront
 
      >[!NOTE]
      >
-     >Voor de Scenario Planner is een aanvullende licentie vereist. Voor informatie over de Planner van het Scenario van Workfront, zie [ het overzicht van de Planner van het Scenario ](../../../scenario-planner/scenario-planner-overview.md).
+     >Voor de Scenario Planner is een aanvullende licentie vereist. Voor informatie over de Planner van het Scenario van Workfront, zie [&#x200B; het overzicht van de Planner van het Scenario &#x200B;](../../../scenario-planner/scenario-planner-overview.md).
 
    * Teams
    * Gebruikers
 
      >[!NOTE]
      >
-     >Slechts kunnen de gebruikers met een vergunning van het Plan (in het huidige vergunningsmodel), of de gebruikers met een Standaardvergunning (in het nieuwe vergunningsmodel) het pictogram van Gebruikers van het gebied van Gebruikers ![ ](assets/users-icon-in-main-menu.png) in het Belangrijkste Menu zien.
+     >Slechts kunnen de gebruikers met een vergunning van het Plan (in het huidige vergunningsmodel), of de gebruikers met een Standaardvergunning (in het nieuwe vergunningsmodel) het pictogram van Gebruikers van het gebied van Gebruikers ![&#x200B; &#x200B;](assets/users-icon-in-main-menu.png) in het Belangrijkste Menu zien.
 
    * Verzoeken
    * Timesheets
@@ -105,7 +105,7 @@ Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront
 
      >[!NOTE]
      >
-     >Voor doelen is een extra licentie vereist. Voor informatie over de Doelen van Workfront, zie [ overzicht van de Doelen van Adobe Workfront ](../../../workfront-goals/goal-management/wf-goals-overview.md).
+     >Voor doelen is een extra licentie vereist. Voor informatie over de Doelen van Workfront, zie [&#x200B; overzicht van de Doelen van Adobe Workfront &#x200B;](../../../workfront-goals/goal-management/wf-goals-overview.md).
 
    * Mijn updates
    * Borden
@@ -114,19 +114,19 @@ Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront
 
      >[!NOTE]
      >
-     >Voor planning is een aanvullende licentie vereist. Voor informatie over de Planning van Workfront, zie [ begonnen worden met de Planning van Adobe Workfront ](/help/quicksilver/planning/general/planning-overview.md).
+     >Voor planning is een aanvullende licentie vereist. Voor informatie over de Planning van Workfront, zie [&#x200B; begonnen worden met de Planning van Adobe Workfront &#x200B;](/help/quicksilver/planning/general/planning-overview.md).
 
    * Aangepaste toepassing
 
      >[!NOTE]
      >
-     > Aangepaste toepassingen moeten afzonderlijk worden gemaakt voordat ze beschikbaar komen als opties in het hoofdmenu. Voor meer informatie, zie [ een douanetoepassing voor Workfront met Adobe App Builder ](/help/quicksilver/app-builder/app-builder.md) creëren.
+     > Aangepaste toepassingen moeten afzonderlijk worden gemaakt voordat ze beschikbaar komen als opties in het hoofdmenu. Voor meer informatie, zie [&#x200B; een douanetoepassing voor Workfront met Adobe App Builder &#x200B;](/help/quicksilver/app-builder/app-builder.md) creëren.
 
 1. Voer een van de volgende handelingen uit:
 
-   * Verberg ![ pictogram van de Verbergen ](assets/remove-icon---x-in-circle.png) **Actieve punten** dat u niet wilt tonen
-   * Toon ![ pictogram van de Show ](assets/add-icon-plus-in-circle.png) **Beschikbare punten** die u op het Belangrijkste Menu wilt tonen.
-   * De belemmering ![ pictogram van de belemmering ](assets/move-icon---dots.png) **Actieve punten** om hun vertoningsorde op het Belangrijkste Menu te veranderen.
+   * Verberg ![&#x200B; pictogram van de Verbergen &#x200B;](assets/remove-icon---x-in-circle.png) **Actieve punten** dat u niet wilt tonen
+   * Toon ![&#x200B; pictogram van de Show &#x200B;](assets/add-icon-plus-in-circle.png) **Beschikbare punten** die u op het Belangrijkste Menu wilt tonen.
+   * De belemmering ![&#x200B; pictogram van de belemmering &#x200B;](assets/move-icon---dots.png) **Actieve punten** om hun vertoningsorde op het Belangrijkste Menu te veranderen.
 
 1. Klik **Gedaan**.
 
@@ -138,4 +138,4 @@ Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront
 
    Als u wordt gebeëindigd aanpassend, klik **sparen en sluit**.
 
-Voor meer informatie over lay-outmalplaatjes, zie [ lay-outmalplaatjes ](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md) creëren en beheren.
+Voor meer informatie over lay-outmalplaatjes, zie [&#x200B; lay-outmalplaatjes &#x200B;](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md) creëren en beheren.

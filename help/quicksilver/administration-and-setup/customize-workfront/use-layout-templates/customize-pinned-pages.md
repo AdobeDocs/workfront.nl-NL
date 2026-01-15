@@ -17,17 +17,17 @@ ht-degree: 0%
 
 # Vastgezette pagina&#39;s aanpassen met behulp van een lay-outsjabloon
 
-In een lay-outsjabloon kunt u de pagina&#39;s vastzetten die gebruikers altijd beschikbaar moeten hebben boven aan Adobe Workfront. Deze kunnen of pagina&#39;s zijn die via het Belangrijkste het menupictogram van het Menu ![ Belangrijkste ](assets/main-menu-icon.png) of het Belangrijkste het menupictogram van het Menu ![ ](assets/main-menu-icon-left-nav.png) worden betreden wanneer beschikbaar, of dashboards.
+In een lay-outsjabloon kunt u de pagina&#39;s vastzetten die gebruikers altijd beschikbaar moeten hebben boven aan Adobe Workfront. Deze kunnen of pagina&#39;s zijn die via het Belangrijkste het menupictogram van het Menu ![&#x200B; Belangrijkste &#x200B;](assets/main-menu-icon.png) of het Belangrijkste het menupictogram van het Menu ![&#x200B; &#x200B;](assets/main-menu-icon-left-nav.png) worden betreden wanneer beschikbaar, of dashboards.
 
 Om het even welke spelden die uw gebruikers op hun hebben toegevoegd worden getoond rechts van de spelden u in het lay-outmalplaatje toevoegt.
 
-Voor meer informatie over het pinnen van pagina&#39;s, zie [ Pagina&#39;s vastzetten om uw werkruimte ](../../../workfront-basics/the-new-workfront-experience/pin-pages.md) aan te passen.
+Voor meer informatie over het pinnen van pagina&#39;s, zie [&#x200B; Pagina&#39;s vastzetten om uw werkruimte &#x200B;](../../../workfront-basics/the-new-workfront-experience/pin-pages.md) aan te passen.
 
-Voor meer informatie over lay-outmalplaatjes, zie [ lay-outmalplaatjes ](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md) creëren en beheren.
+Voor meer informatie over lay-outmalplaatjes, zie [&#x200B; lay-outmalplaatjes &#x200B;](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md) creëren en beheren.
 
-Voor informatie over lay-outmalplaatjes voor groepen, zie [ tot stand brengen en wijzigen de lay-outmalplaatjes van een groep ](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
+Voor informatie over lay-outmalplaatjes voor groepen, zie [&#x200B; tot stand brengen en wijzigen de lay-outmalplaatjes van een groep &#x200B;](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
 
-Nadat u een lay-outmalplaatje hebt gevormd, moet u het aan gebruikers voor veranderingen toewijzen u aanbracht om aan anderen zichtbaar te zijn. Voor informatie over het toewijzen van een lay-outmalplaatje aan gebruikers, zie [ gebruikers aan een lay-outmalplaatje ](../use-layout-templates/assign-users-to-layout-template.md) toewijzen.
+Nadat u een lay-outmalplaatje hebt gevormd, moet u het aan gebruikers voor veranderingen toewijzen u aanbracht om aan anderen zichtbaar te zijn. Voor informatie over het toewijzen van een lay-outmalplaatje aan gebruikers, zie [&#x200B; gebruikers aan een lay-outmalplaatje &#x200B;](../use-layout-templates/assign-users-to-layout-template.md) toewijzen.
 
 ## Toegangsvereisten
 
@@ -55,13 +55,13 @@ Nadat u een lay-outmalplaatje hebt gevormd, moet u het aan gebruikers voor veran
  </tbody> 
 </table>
 
-Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Pagina&#39;s vastzetten met een lay-outsjabloon
 
-1. Begin werkend aan een lay-outmalplaatje, zoals die in [ wordt beschreven creeer en beheer lay-outmalplaatjes ](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
+1. Begin werkend aan een lay-outmalplaatje, zoals die in [&#x200B; wordt beschreven creeer en beheer lay-outmalplaatjes &#x200B;](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 1. Onder **Hoogste navigatiegebied**, klik **voeg nieuwe speld** toe.
 
 1. Voer een van de volgende handelingen uit in het keuzemenu dat wordt weergegeven:
@@ -92,11 +92,11 @@ Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront
      >
      >Voor het weergeven van de doelen, scenario&#39;s en planningsgebieden zijn aanvullende licenties vereist.
      >
-     >* Voor informatie over de Doelen van Workfront, zie [ overzicht van de Doelen van Adobe Workfront ](../../../workfront-goals/goal-management/wf-goals-overview.md).
+     >* Voor informatie over de Doelen van Workfront, zie [&#x200B; overzicht van de Doelen van Adobe Workfront &#x200B;](../../../workfront-goals/goal-management/wf-goals-overview.md).
      >
-     >* Voor informatie over de Planner van het Scenario van Workfront, zie [ het overzicht van de Planner van het Scenario ](../../../scenario-planner/scenario-planner-overview.md).
+     >* Voor informatie over de Planner van het Scenario van Workfront, zie [&#x200B; het overzicht van de Planner van het Scenario &#x200B;](../../../scenario-planner/scenario-planner-overview.md).
      >
-     >* Voor informatie over de Planning van Workfront, zie [ begonnen worden met de Planning van Adobe Workfront ](/help/quicksilver/planning/general/planning-overview.md).
+     >* Voor informatie over de Planning van Workfront, zie [&#x200B; begonnen worden met de Planning van Adobe Workfront &#x200B;](/help/quicksilver/planning/general/planning-overview.md).
 
    * Klik **toevoegen een Dashboard**
       * Typ een beschrijvende naam op het <!--**Quick link name**-->**Naam van de Douane** gebied
@@ -105,11 +105,11 @@ Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront
 
 1. Herhaal de vorige stap om andere pagina&#39;s vast te zetten.
 
-1. (Facultatief) om een speld te bewegen, over het speld te bewegen en het Meer menupictogram ![ Meer pictogram ](assets/more-icon.png) naast de speldnaam te klikken, dan **Beweging links** of **Beweging** om het speld in de gekozen richting te verschuiven of **Beweging aan voorzijde** te klikken om het speld aan de meest linkse positie te verschuiven.
+1. (Facultatief) om een speld te bewegen, over het speld te bewegen en het Meer menupictogram ![&#x200B; Meer pictogram &#x200B;](assets/more-icon.png) naast de speldnaam te klikken, dan **Beweging links** of **Beweging** om het speld in de gekozen richting te verschuiven of **Beweging aan voorzijde** te klikken om het speld aan de meest linkse positie te verschuiven.
 
-1. (Facultatief) om een speld anders te noemen, over het speld te bewegen en het Meer menupictogram ![ Meer pictogram ](assets/more-icon.png) naast de speldnaam te klikken, dan **anders noemt speld**. Ga een nieuwe naam in, dan klik **sparen**.
+1. (Facultatief) om een speld anders te noemen, over het speld te bewegen en het Meer menupictogram ![&#x200B; Meer pictogram &#x200B;](assets/more-icon.png) naast de speldnaam te klikken, dan **anders noemt speld**. Ga een nieuwe naam in, dan klik **sparen**.
 
-1. (Facultatief) om een speld te schrappen, over het speld te bewegen en het Meer menupictogram ![ Meer pictogram ](assets/more-icon.png) naast de speldnaam te klikken, dan **verwijdert speld**.
+1. (Facultatief) om een speld te schrappen, over het speld te bewegen en het Meer menupictogram ![&#x200B; Meer pictogram &#x200B;](assets/more-icon.png) naast de speldnaam te klikken, dan **verwijdert speld**.
 
 1. Blijf het lay-outmalplaatje aanpassen. U kunt **klikken** op elk ogenblik van toepassing zijn om uw vooruitgang te bewaren.
 
