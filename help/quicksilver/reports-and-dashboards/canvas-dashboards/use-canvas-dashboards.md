@@ -17,9 +17,9 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->De functie Canvasdashboards is momenteel alleen beschikbaar voor gebruikers die deelnemen aan de bètafase. Onderdelen van het onderdeel zijn mogelijk niet compleet of werken niet zoals bedoeld in deze fase. Gelieve te leggen om het even welke terugkoppelen betreffende uw ervaring door de instructies in [ te volgen verstrekken ](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) sectie in het de bètaoverzichtsartikel van de dashboards van het Canvas terugkoppelt.
+>De functie Canvasdashboards is momenteel alleen beschikbaar voor gebruikers die deelnemen aan de bètafase. Onderdelen van het onderdeel zijn mogelijk niet compleet of werken niet zoals bedoeld in deze fase. Gelieve te leggen om het even welke terugkoppelen betreffende uw ervaring door de instructies in [&#x200B; te volgen verstrekken &#x200B;](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) sectie in het de bètaoverzichtsartikel van de dashboards van het Canvas terugkoppelt.
 >
->Als u feedback hebt over een mogelijk probleem met een probleem of een technisch probleem, stuurt u een ticket naar Workfront Support. Voor meer informatie, zie [ de Steun van de Klant van het Contact ](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).
+>Als u feedback hebt over een mogelijk probleem met een probleem of een technisch probleem, stuurt u een ticket naar Workfront Support. Voor meer informatie, zie [&#x200B; de Steun van de Klant van het Contact &#x200B;](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).
 >
 >Deze bètaversie is niet beschikbaar op de volgende cloudproviders:
 >
@@ -37,7 +37,7 @@ Navigeer naar de sectie Dashboards in Adobe Workfront om toegang te krijgen tot 
 
 1. In het linkerpaneel, klik **de Dashboards van het Canvas**.
 1. Klik op de naam van een bestaand dashboard om dit te openen.
-   ![ Open een dashboard ](assets/open-dashboard.png)
+   ![&#x200B; Open een dashboard &#x200B;](assets/open-dashboard.png)
 
 <!--## Navigating the Dashboard
 
@@ -57,7 +57,7 @@ U kunt tabelrapporten tijdelijk aanpassen op dashboards. Deze veranderingen zijn
 
 1. In het linkerpaneel, klik **de Dashboards van het Canvas**.
 1. Klik op de naam van een bestaand dashboard om dit te openen.
-   ![ Open een dashboard ](assets/open-dashboard.png)
+   ![&#x200B; Open een dashboard &#x200B;](assets/open-dashboard.png)
 1. Zoek het tabelrapport dat u wilt aanpassen.
 1. Kies een van de volgende opties om het rapport aan te passen:
 

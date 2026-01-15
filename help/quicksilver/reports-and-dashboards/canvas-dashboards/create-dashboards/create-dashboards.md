@@ -17,8 +17,8 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->De functie Canvasdashboards is momenteel alleen beschikbaar voor gebruikers die deelnemen aan de bètafase. Onderdelen van het onderdeel zijn mogelijk niet compleet of werken niet zoals bedoeld in deze fase. Gelieve te dienen om het even welke terugkoppelen betreffende uw ervaring door de instructies in [ te volgen verstrekt ](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) sectie in het de bètaoverzichtsartikel van de dashboards van het Canvas.<br>
->Als u feedback hebt over een mogelijk probleem met een probleem of een technisch probleem, stuurt u een ticket naar Workfront Support. Voor meer informatie, zie [ de Steun van de Klant van het Contact ](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
+>De functie Canvasdashboards is momenteel alleen beschikbaar voor gebruikers die deelnemen aan de bètafase. Onderdelen van het onderdeel zijn mogelijk niet compleet of werken niet zoals bedoeld in deze fase. Gelieve te dienen om het even welke terugkoppelen betreffende uw ervaring door de instructies in [&#x200B; te volgen verstrekt &#x200B;](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) sectie in het de bètaoverzichtsartikel van de dashboards van het Canvas.<br>
+>Als u feedback hebt over een mogelijk probleem met een probleem of een technisch probleem, stuurt u een ticket naar Workfront Support. Voor meer informatie, zie [&#x200B; de Steun van de Klant van het Contact &#x200B;](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
 >Deze bètaversie is niet beschikbaar op de volgende cloudproviders:
 >
 >* Je eigen sleutel voor Amazon Web Services
@@ -59,7 +59,7 @@ Met Canvasdashboards kunt u rapporten maken en toevoegen aan een aanpasbaar dash
 </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 +++
 
 ## Vereisten
@@ -109,12 +109,12 @@ Nadat u een dashboard hebt gemaakt, voegt u de rapporten toe aan het dashboard. 
 Er zijn drie typen rapporten die u kunt maken in Canvasdashboards:
 
 * **KPI**: Dit rapport toont uw zeer belangrijke gegevens van de prestatiesindicator als aantal.
-Voor meer, zie [ een KPI- rapport ](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-kpi-report.md) bouwen.
+Voor meer, zie [&#x200B; een KPI- rapport &#x200B;](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-kpi-report.md) bouwen.
 
 * **Grafiek**: Dit rapport toont uw gegevens als bar, kolom, lijn, of cirkeldiagram.
-Voor meer, zie [ een grafiekrapport ](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-chart-report.md) bouwen.
+Voor meer, zie [&#x200B; een grafiekrapport &#x200B;](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-chart-report.md) bouwen.
 
 * **Lijst**: Dit rapport toont uw gegevens in een lijstformaat.
-Voor meer, zie [ een lijstrapport ](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-table-report.md) bouwen.
+Voor meer, zie [&#x200B; een lijstrapport &#x200B;](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-table-report.md) bouwen.
 
-Voor meer informatie bij het toevoegen van een bestaand rapport aan een dashboard, zie [ een bestaand rapport aan een dashboard ](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/add-existing-report.md) toevoegen.
+Voor meer informatie bij het toevoegen van een bestaand rapport aan een dashboard, zie [&#x200B; een bestaand rapport aan een dashboard &#x200B;](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/add-existing-report.md) toevoegen.
