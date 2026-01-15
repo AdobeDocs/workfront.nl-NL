@@ -5,16 +5,14 @@ title: Weergaven maken en beheren in het gebied Verzoeken
 description: Als u gebruikmaakt van de nieuwe ervaring voor aanvragen, kunt u weergaven maken en opslaan voor het gebied Verzoeken.
 author: Becky
 feature: Work Management
-source-git-commit: 4061163b8b761bc3922bfb95da6c0110b6ee5871
+source-git-commit: d8e5e6d313eb39c9ac26e7cb60113beac5637890
 workflow-type: tm+mt
-source-wordcount: '706'
+source-wordcount: '717'
 ht-degree: 0%
 
 ---
 
 # Weergaven maken en beheren in het gebied Verzoeken
-
-<span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Het is beschikbaar slechts in het milieu van de Sandbox van de Voorproef.</span>
 
 Als u gebruikmaakt van de nieuwe ervaring voor aanvragen, kunt u weergaven maken en opslaan voor het gebied Verzoeken. Deze weergaven omvatten filters en kolomschikkingen.
 
@@ -56,7 +54,7 @@ Weergaven kunnen worden gemaakt en beheerd op het gebied Verzoeken in Workfront.
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -68,12 +66,12 @@ U kunt een weergave maken in het gebied Verzoeken van Workfront.
 
    {{step1-to-requests}}
 
-1. In de lijst van Verzoeken, klik de **drop-down** Meningen van de Mening ![&#x200B; en selecteer &#x200B;](assets/view-icon-requests.png) Nieuwe mening **.**
+1. In de lijst van Verzoeken, klik de **drop-down** Meningen van de Mening ![ en selecteer ](assets/view-icon-requests.png) Nieuwe mening **.**
 
-   ![&#x200B; Nieuwe mening &#x200B;](assets/create-new-view.png)
+   ![ Nieuwe mening ](assets/create-new-view.png)
 
 1. Ga een naam voor de nieuwe mening in, en klik **creeer**.
-1. Ga aan [&#x200B; uit uitgeven een mening op het gebied van Verzoeken &#x200B;](#edit-a-view-in-the-requests-area).
+1. Ga aan [ uit uitgeven een mening op het gebied van Verzoeken ](#edit-a-view-in-the-requests-area).
 
 ## Een weergave bewerken in het gebied Verzoeken
 
@@ -84,18 +82,18 @@ U kunt bestaande weergaven bewerken, inclusief de weergaven die u zojuist hebt g
    {{step1-to-requests}}
 1. Zoek in de lijst Verzoeken de weergave die u wilt bewerken.
 
-1. (Facultatief) om een mening anders te noemen, klik **dropdown** Meningen ![&#x200B; en klik het drie-punt menu naast de mening, &#x200B;](assets/view-icon-requests.png) anders noemen **, dan type in de nieuwe naam voor de mening.**
-1. Klik de **dropdown** drop-down Meningen ![&#x200B; en selecteer de mening u wilt uitgeven.](assets/view-icon-requests.png)
-1. <span class="preview"> om een douanegebied als kolom toe te voegen, klik **kolom** pictogram ![&#x200B; voegt kolom &#x200B;](assets/add-column.png) dichtbij het recht van het scherm toe, en klik het plusteken naast het gebied van de douanevorm dat u als kolom aan de mening wilt toevoegen.</span>
+1. (Facultatief) om een mening anders te noemen, klik **dropdown** Meningen ![ en klik het drie-punt menu naast de mening, ](assets/view-icon-requests.png) anders noemen **, dan type in de nieuwe naam voor de mening.**
+1. Klik de **dropdown** drop-down Meningen ![ en selecteer de mening u wilt uitgeven.](assets/view-icon-requests.png)
+1. Om een douanegebied als kolom toe te voegen, klik **kolom** pictogram ![ toevoegen kolom ](assets/add-column.png) dichtbij het recht van het scherm, en klik het plusteken naast het gebied van de douanevorm dat u als kolom aan de mening wilt toevoegen.
 
-   <span class="preview"> de gebieden van de Douane op vormen in bijlage aan het voorwerp in de lijst zijn beschikbaar om als kolommen toe te voegen.</span>
+   >U kunt aangepaste velden op formulieren die aan het object in de lijst zijn gekoppeld, toevoegen als kolommen.
 
    >[!TIP]
    >
    >U kunt momenteel geen kolommen toevoegen in de productieomgeving.
 1. (Facultatief) klik **Kolommen** en verberg, toon, of herschik de kolommen in de verzoeklijst.
 
-   ![&#x200B; doos van Kolommen &#x200B;](assets/columns-editing-box-in-requests-planning-tab.png)
+   ![ doos van Kolommen ](assets/columns-editing-box-in-requests-planning-tab.png)
 
    >[!TIP]
    >
@@ -103,7 +101,7 @@ U kunt bestaande weergaven bewerken, inclusief de weergaven die u zojuist hebt g
 
 1. (Facultatief) klik **Filters** en begin voorwaarden toe te voegen voor welke verzoeken u in de Planning tabel wilt bekijken.
 
-   ![&#x200B; het Uitgeven filters in de Verzoeken tabel van de Planning &#x200B;](assets/filters-editing-box-in-requests-planning-tab.png)
+   ![ het Uitgeven filters in de Verzoeken tabel van de Planning ](assets/filters-editing-box-in-requests-planning-tab.png)
 
    U kunt filteren op de volgende velden:
 
@@ -114,7 +112,7 @@ U kunt bestaande weergaven bewerken, inclusief de weergaven die u zojuist hebt g
    * **Status**: De status van het verzoek.
    * **ingegaan door**: De naam van de gebruiker die het verzoek toevoegde. Als het verzoek door iemand buiten Workfront werd toegevoegd, **ingegaan door** gebied toont `N/A`.
 
-   <span class="preview"> in het milieu van de Voorproef, kunt u door om het even welke douanegebieden ook filtreren die aan de mening zijn toegevoegd.</span>
+   U kunt ook filteren door aangepaste velden die aan de weergave zijn toegevoegd.
 
    U kunt veelvoudige filters hebben die door of **worden aangesloten en** of **of**.
 De aanvraaglijst wordt automatisch gefilterd, aangezien u de filtervoorwaarden toevoegt.
@@ -125,12 +123,13 @@ De aanvraaglijst wordt automatisch gefilterd, aangezien u de filtervoorwaarden t
 >
 > * Wijzigingen in weergaven worden automatisch opgeslagen.
 > * Wijzigingen in weergaven zijn zichtbaar voor iedereen die de weergave gebruikt.
+> * Om ervoor te zorgen dat de mening op de persoon van toepassing is die de mening, ongeacht gebruikt wie het creeerde, kunt u het &quot;me (het programma geopende gebruiker)&quot;filtervervanging op om het even welk gebied gebruiken dat gebruikers als waarde heeft.
 
 ## Voeg de weergave toe aan een lay-outsjabloon.
 
 Een Workfront-beheerder kan de nieuwe weergave toevoegen aan lay-outsjablonen.
 
-Voor instructies, zie [&#x200B; Filters, Mening, en Groepen aanpassen gebruikend een lay-outmalplaatje &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md).
+Voor instructies, zie [ Filters, Mening, en Groepen aanpassen gebruikend een lay-outmalplaatje ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md).
 
 ## Een weergave delen
 

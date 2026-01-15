@@ -6,17 +6,15 @@ feature: Work Management
 role: User
 topic: Collaboration
 exl-id: 3d7581d0-e99c-4204-b1e5-04fde72251bb
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: b58814d68d582a08457d1d4685d110c2bdd2087c
 workflow-type: tm+mt
-source-wordcount: '1539'
+source-wordcount: '1517'
 ht-degree: 0%
 
 ---
 
 # Verzoeken kopiëren en verzenden
 
-
-<span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Het is beschikbaar slechts in het milieu van de Sandbox van de Voorproef.</span>
 
 Wanneer u regelmatig vergelijkbare verzoeken indient, kunt u een bestaand verzonden verzoek kopiëren. In dit geval kunt u een bestaande aanvraag kopiëren, er minimale wijzigingen in aanbrengen en deze opnieuw verzenden als een nieuw verzoek.
 
@@ -53,7 +51,7 @@ Wanneer u regelmatig vergelijkbare verzoeken indient, kunt u een bestaand verzon
  </tbody> 
 </table>
 
-Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -70,7 +68,7 @@ U moet een verzoek hebben dat u of iemand in uw organisatie eerder heeft ingedie
 
   Raadpleeg de volgende artikelen voor meer informatie:
 
-   * [&#x200B; creeer een Rij van het Verzoek &#x200B;](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)
+   * [ creeer een Rij van het Verzoek ](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)
    * [Projecten bewerken](../../../manage-work/projects/manage-projects/edit-projects.md)
 
 * U kunt de kopie van de oorspronkelijke aanvraag bijwerken voordat u deze opnieuw indient als een nieuwe aanvraag.
@@ -83,12 +81,12 @@ U moet een verzoek hebben dat u of iemand in uw organisatie eerder heeft ingedie
      >
      >Als het rijonderwerp slechts in de verzoekrij was, kunt u nog het verzoek kopiëren en voorleggen en het zal onder de verzoekrij zelf worden bewaard.
 
-   * De verzoekrij wordt niet meer gepubliceerd als Rij van het Verzoek van de Hulp. Voor informatie, zie [&#x200B; een Rij van het Verzoek &#x200B;](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md) creëren.
+   * De verzoekrij wordt niet meer gepubliceerd als Rij van het Verzoek van de Hulp. Voor informatie, zie [ een Rij van het Verzoek ](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md) creëren.
    * Als de verzoekrij geen rijonderwerp heeft en het originele verzoek werd voorgelegd vóór Januari 2022.
 
    * De status van het project verbonden aan de verzoekrij is niet meer Huidig.
 
-* U kunt een kopie van een omgezette aanvraag kopiëren en verzenden als de aanvraag tijdens het conversieproces is behouden. Voor meer informatie, zie [&#x200B; Overzicht van het omzetten van kwesties in Adobe Workfront &#x200B;](../../../manage-work/issues/convert-issues/convert-issues.md).
+* U kunt een kopie van een omgezette aanvraag kopiëren en verzenden als de aanvraag tijdens het conversieproces is behouden. Voor meer informatie, zie [ Overzicht van het omzetten van kwesties in Adobe Workfront ](../../../manage-work/issues/convert-issues/convert-issues.md).
 
   >[!TIP]
   >
@@ -133,7 +131,7 @@ U moet een verzoek hebben dat u of iemand in uw organisatie eerder heeft ingedie
      >
      >Als de weg van de weg van het originele verzoek verandert, dan wijzigde de maker van de verzoekrij de rij.
 
-1. (Optioneel) Werk de gegevens van de gekopieerde aanvraag bij. Afhankelijk van welke gebieden de schepper van de verzoekrij in de **Nieuwe Uitgevende Gebieden** sectie van de Rij **&#x200B;**&#x200B;subtab van de Details van de Rij op het project werd toegelaten, zou u om het even welke volgende gebieden kunnen vinden:
+1. (Optioneel) Werk de gegevens van de gekopieerde aanvraag bij. Afhankelijk van welke gebieden de schepper van de verzoekrij in de **Nieuwe Uitgevende Gebieden** sectie van de Rij **** subtab van de Details van de Rij op het project werd toegelaten, zou u om het even welke volgende gebieden kunnen vinden:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -224,8 +222,6 @@ U moet een verzoek hebben dat u of iemand in uw organisatie eerder heeft ingedie
 
    Het gekopieerde verzoek wordt verzonden als een nieuw verzoek in de aanvraagwachtrij die u hebt opgegeven.
 
-<div class="preview">
-
 ## Verzoeken kopiëren en verzenden met de nieuwe ervaring die u opvraagt
 
 U kunt aanvragen kopiëren en verzenden in het gebied Verzoeken van Workfront of vanuit de widget Mijn verzoeken in Home.
@@ -238,7 +234,7 @@ U kunt aanvragen kopiëren en verzenden in het gebied Verzoeken van Workfront of
 
    1. Zoek de widget Mijn verzoeken.
 
-      Voor meer informatie over Mijn widget van Verzoeken, zie [&#x200B; Gebruik Mijn widget van Verzoeken &#x200B;](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md).
+      Voor meer informatie over Mijn widget van Verzoeken, zie [ Gebruik Mijn widget van Verzoeken ](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md).
 
 1. Houd de muisaanwijzer boven de aanvraag die u wilt kopiëren in de lijst Verzoeken of de widget Mijn verzoeken.
 
@@ -263,5 +259,4 @@ U kunt aanvragen kopiëren en verzenden in het gebied Verzoeken van Workfront of
 
    Het gekopieerde verzoek wordt als een nieuw verzoek ingediend.
 
-</div>
 
