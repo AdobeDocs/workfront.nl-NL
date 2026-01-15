@@ -7,7 +7,7 @@ description: U kunt gegevens op een aangepast formulier bewerken nadat het formu
 author: Alina
 feature: Get Started with Workfront
 exl-id: c2b6afde-91a8-4e17-8e1a-3428b48e500a
-source-git-commit: 4897f165a7316a52b968601b45f95f7045f63840
+source-git-commit: 6dce5e15a41587cd9febf82ffc0a62d3b7e121d1
 workflow-type: tm+mt
 source-wordcount: '1207'
 ht-degree: 0%
@@ -16,11 +16,9 @@ ht-degree: 0%
 
 # Gegevens bewerken in aangepaste formuliervelden
 
-{{preview-fast-release-general}}
-
 <!--Audited: 10/2025-->
 
-U kunt gegevens op een aangepast formulier bewerken nadat het formulier aan een object is gekoppeld. Voor informatie over het toevoegen van douaneformulieren aan voorwerpen, zie [&#x200B; een douaneformulier aan een voorwerp &#x200B;](../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md) toevoegen.
+U kunt gegevens op een aangepast formulier bewerken nadat het formulier aan een object is gekoppeld. Voor informatie over het toevoegen van douaneformulieren aan voorwerpen, zie [ een douaneformulier aan een voorwerp ](../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md) toevoegen.
 
 ## Toegangsvereisten
 
@@ -55,7 +53,7 @@ U kunt gegevens op een aangepast formulier bewerken nadat het formulier aan een 
  </tbody> 
 </table>
 
-Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -90,25 +88,25 @@ Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van W
 
 ## Vereisten
 
-* Uw Workfront-beheerder of een Abonnementsgebruiker met beheerdersrechten voor aangepaste formulieren moet aangepaste formulieren maken in uw omgeving. Voor meer informatie, zie [&#x200B; een douaneformulier &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren.
+* Uw Workfront-beheerder of een Abonnementsgebruiker met beheerdersrechten voor aangepaste formulieren moet aangepaste formulieren maken in uw omgeving. Voor meer informatie, zie [ een douaneformulier ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren.
 * Er moeten aangepaste formulieren aan een object zijn gekoppeld.
 
-  Voor informatie over hoe te om douaneformulieren op een voorwerp toe te passen, zie [&#x200B; een douaneformulier aan een voorwerp &#x200B;](../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md) toevoegen.
+  Voor informatie over hoe te om douaneformulieren op een voorwerp toe te passen, zie [ een douaneformulier aan een voorwerp ](../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md) toevoegen.
 
 ## Informatie bewerken op een aangepast formulier
 
 Het bewerken van gegevens op een aangepast formulier dat aan een object is gekoppeld, is voor de meeste objecten hetzelfde.
 
-Voor informatie over welke voorwerpen een douanevorm kunnen hebben, zie [&#x200B; overzicht van de Vorm van de Douane &#x200B;](../../administration-and-setup/customize-workfront/create-manage-custom-forms/custom-forms-overview.md).
+Voor informatie over welke voorwerpen een douanevorm kunnen hebben, zie [ overzicht van de Vorm van de Douane ](../../administration-and-setup/customize-workfront/create-manage-custom-forms/custom-forms-overview.md).
 
 1. Ga naar een lijst met objecten waarvoor u gegevens op het aangepaste formulier wilt bewerken, behalve een lijst met herhalingen.
-1. Selecteer één of verscheidene voorwerpen in de lijst, dan klik **uitgeven** pictogram ![&#x200B; pictogram &#x200B;](assets/edit-icon.png) bij de bovenkant van de lijst uitgeven.
+1. Selecteer één of verscheidene voorwerpen in de lijst, dan klik **uitgeven** pictogram ![ pictogram ](assets/edit-icon.png) bij de bovenkant van de lijst uitgeven.
 1. Klik **Forms van de Douane** in het linkerpaneel, binnen **uitgeven &lt; voorwerp >** doos.
 
    Wanneer er een douaneformulier in bijlage aan het voorwerp is, toont de naam van de vormvertoningen als gebied in de **sectie van de Forms van de Douane**.
 1. Voer de gegevens in een veld in waartoe u toegang hebt.
 
-   ![&#x200B; geef doos met douanevormen op het Factureren Verslag uit &#x200B;](assets/edit-box-with-custom-forms-on-billing-record.png)
+   ![ geef doos met douanevormen op het Factureren Verslag uit ](assets/edit-box-with-custom-forms-on-billing-record.png)
 
    Als er meerdere aangepaste formulieren aan het object zijn gekoppeld, doet u dit voor elk formulier.
 
@@ -122,9 +120,9 @@ Voor informatie over welke voorwerpen een douanevorm kunnen hebben, zie [&#x200B
 
    >[!NOTE]
    >
-   ><span class="preview"> de Gebieden die veelvoudige selecties toestaan kunnen beperken hoeveel opties u kunt kiezen. De dozen van de controle en multi-uitgezochte dropdowns zijn beperkt tot 5000 selecties.</span>
+   >Velden waarin meerdere selecties zijn toegestaan, beperken mogelijk het aantal opties dat u kunt kiezen. Selectievakjes en meerkeuzevrijheid zijn beperkt tot 5000 selecties.
 
-   Voor informatie over alle gebiedstypes, zie [&#x200B; een douaneformulier &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren.
+   Voor informatie over alle gebiedstypes, zie [ een douaneformulier ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren.
 
 1. Klik **sparen**.
 
@@ -134,11 +132,11 @@ Voor informatie over welke voorwerpen een douanevorm kunnen hebben, zie [&#x200B
    >
    >![](assets/nwe-required-custom-field.png)
 
-   Wanneer iemand gegevens wijzigt in een ander object waarnaar wordt verwezen door berekende aangepaste velden in het object, worden de wijzigingen niet automatisch doorgevoerd in het object. Voor informatie over het manueel bijwerken van alle berekende douanegebieden in uw voorwerp, zie [&#x200B; alle berekende douanegebieden voor een voorwerp &#x200B;](#recalculate-all-calculated-custom-fields-for-an-object) in dit artikel opnieuw berekenen.
+   Wanneer iemand gegevens wijzigt in een ander object waarnaar wordt verwezen door berekende aangepaste velden in het object, worden de wijzigingen niet automatisch doorgevoerd in het object. Voor informatie over het manueel bijwerken van alle berekende douanegebieden in uw voorwerp, zie [ alle berekende douanegebieden voor een voorwerp ](#recalculate-all-calculated-custom-fields-for-an-object) in dit artikel opnieuw berekenen.
 
    Wanneer afhankelijke velden op de pagina worden gewijzigd, worden berekende velden op het aangepaste formulier dynamisch opnieuw berekend in real-time. U kunt de nieuwe berekende veldwaarde zien zonder het formulier op te slaan, maar deze wordt pas daadwerkelijk toegepast op het formulier en het object als u de wijzigingen opslaat. Dit geldt zowel voor berekende velden op standaardformulieren als voor aangepaste formulieren.
 
-   U kunt ook handmatig alle berekende aangepaste velden voor een object bijwerken wanneer u het object samen met andere objecten in een lijst bulksgewijs bewerkt. Voor instructies, zie [&#x200B; alle berekende douanegebieden voor veelvoudige voorwerpen in een lijst opnieuw berekenen wanneer het uitgeven van de voorwerpen &#x200B;](#recalculate-all-calculated-custom-fields-for-multiple-objects-in-a-list-when-editing-the-objects) in dit artikel.
+   U kunt ook handmatig alle berekende aangepaste velden voor een object bijwerken wanneer u het object samen met andere objecten in een lijst bulksgewijs bewerkt. Voor instructies, zie [ alle berekende douanegebieden voor veelvoudige voorwerpen in een lijst opnieuw berekenen wanneer het uitgeven van de voorwerpen ](#recalculate-all-calculated-custom-fields-for-multiple-objects-in-a-list-when-editing-the-objects) in dit artikel.
 
 1. (Voorwaardelijk) Als u de aangepaste velden voor een aangepaste herhalingsformulier wilt bijwerken, gaat u als volgt te werk:
 
@@ -150,7 +148,7 @@ Voor informatie over welke voorwerpen een douanevorm kunnen hebben, zie [&#x200B
 
       Klik **uitgeven** pictogram op het zelfde gebied om de gebieden op de in bijlage vormen te beginnen uitgeven.
 
-      ![&#x200B; geef de vorm van de iteratie douane &#x200B;](assets/edit-iteration-custom-form.png) uit
+      ![ geef de vorm van de iteratie douane ](assets/edit-iteration-custom-form.png) uit
 
    1. Klik **sparen Veranderingen**.
 
