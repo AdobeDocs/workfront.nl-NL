@@ -8,16 +8,14 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: cbeaa0d7-a61a-4806-a871-96663d9ce124
-source-git-commit: edc83693ef068e50aed06324f006cd8aa70ac019
+source-git-commit: c037b4f9e5530d8dd796bed25021f7073f16061f
 workflow-type: tm+mt
-source-wordcount: '569'
+source-wordcount: '530'
 ht-degree: 0%
 
 ---
 
 # Objectkoppen aanpassen met een lay-outsjabloon
-
-{{preview-fast-release-general}}
 
 Als Adobe Workfront-beheerder of groepsbeheerder kunt u een lay-outsjabloon gebruiken om de velden te configureren die gebruikers in de objectkoptekst zien wanneer ze de pagina van een object openen.
 
@@ -25,13 +23,13 @@ Als Adobe Workfront-beheerder of groepsbeheerder kunt u een lay-outsjabloon gebr
 >
 >Het aanpassen van objecten kopballen is momenteel beschikbaar voor projecten, taken, en kwesties.
 
-![&#x200B; de kopbalgebieden van Objecten &#x200B;](assets/object-header-fields.png)
+![ de kopbalgebieden van Objecten ](assets/object-header-fields.png)
 
-Voor informatie over het creëren van lay-outmalplaatjes, zie [&#x200B; lay-outmalplaatjes &#x200B;](../use-layout-templates/create-and-manage-layout-templates.md) creëren en beheren.
+Voor informatie over het creëren van lay-outmalplaatjes, zie [ lay-outmalplaatjes ](../use-layout-templates/create-and-manage-layout-templates.md) creëren en beheren.
 
-Voor informatie over lay-outmalplaatjes voor groepen, zie [&#x200B; tot stand brengen en wijzigen de lay-outmalplaatjes van een groep &#x200B;](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
+Voor informatie over lay-outmalplaatjes voor groepen, zie [ tot stand brengen en wijzigen de lay-outmalplaatjes van een groep ](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
 
-Nadat u een lay-outmalplaatje hebt gevormd, moet u het aan gebruikers voor veranderingen toewijzen u aanbracht om aan anderen zichtbaar te zijn. Voor informatie over het toewijzen van een lay-outmalplaatje aan gebruikers, zie [&#x200B; gebruikers aan een lay-outmalplaatje &#x200B;](../use-layout-templates/assign-users-to-layout-template.md) toewijzen.
+Nadat u een lay-outmalplaatje hebt gevormd, moet u het aan gebruikers voor veranderingen toewijzen u aanbracht om aan anderen zichtbaar te zijn. Voor informatie over het toewijzen van een lay-outmalplaatje aan gebruikers, zie [ gebruikers aan een lay-outmalplaatje ](../use-layout-templates/assign-users-to-layout-template.md) toewijzen.
 
 ## Toegangsvereisten
 
@@ -59,13 +57,13 @@ Nadat u een lay-outmalplaatje hebt gevormd, moet u het aan gebruikers voor veran
  </tbody> 
 </table>
 
-Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Objectkoppen aanpassen
 
-1. Begin werkend aan een lay-outmalplaatje, zoals die in [&#x200B; wordt beschreven creeer en beheer lay-outmalplaatjes &#x200B;](../../customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
+1. Begin werkend aan een lay-outmalplaatje, zoals die in [ wordt beschreven creeer en beheer lay-outmalplaatjes ](../../customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 1. In **pas aan welke gebruikers** drop-down menu zien, selecteren **Projecten**, **Taken**, of **Kwesties**.
 
    <!--when this will be possible for more than 3 objects, at production, make this more general: update the sentence above to say "select an object you want to customize in the Customize what users see drop-down menu). -->
@@ -79,7 +77,7 @@ Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van W
 
    <!--(NOTE: make sure the default names of these fields have not changed; otherwise, update screen shot)-->
 
-   ![&#x200B; de kopbalgebieden van Objecten verbergen en bewegen pictogrammen &#x200B;](assets/object-header-field-x-and-grab-icons-in-lt.png)
+   ![ de kopbalgebieden van Objecten verbergen en bewegen pictogrammen ](assets/object-header-field-x-and-grab-icons-in-lt.png)
 
 1. U kunt maximaal vijf velden in de koptekst van een object opnemen.
 Als u al vijf velden hebt geselecteerd, moet u een veld verwijderen voordat u een nieuw veld kunt toevoegen.
@@ -93,22 +91,13 @@ Als u al vijf velden hebt geselecteerd, moet u een veld verwijderen voordat u ee
    >
    >* Wanneer u het veld &quot;Opgelost door&quot; toevoegt aan de koptekst van een probleem, verandert het veld in &quot;Probleem oplossen, Taak of Project&quot; wanneer er een object is dat is gekoppeld aan het probleem.
 
-   ![&#x200B; voeg gebied aan kopbal toe &#x200B;](assets/add-field-to-header-in-lt-list.png)
+   ![ voeg gebied aan kopbal toe ](assets/add-field-to-header-in-lt-list.png)
 
 1. (Optioneel) Sleep de velden in een andere volgorde.
 
-1. <span class="preview"> in het milieu van de Voorproef: Ga verder het aanpassen van het lay-outmalplaatje. U kunt **klikken** op elk ogenblik van toepassing zijn om uw vooruitgang te bewaren.</span>
-
-   <span class="preview"> Of </span>
-
-   <span class="preview"> als u wordt gebeëindigd aanpassend, klik **sparen en sluit**.</span>
-
-1. In de productieomgeving: doorgaan met het aanpassen van de lay-outsjabloon.
+1. Blijf het lay-outmalplaatje aanpassen. U kunt **klikken** op elk ogenblik van toepassing zijn om uw vooruitgang te bewaren.
 
    of
 
-   Als u wordt gebeëindigd aanpassend, klik **sparen**.
+   Als u wordt gebeëindigd aanpassend, klik **sparen en sluit**.
 
-   >[!TIP]
-   >
-   >U kunt **klikken sparen** op elk ogenblik om uw vooruitgang te bewaren, dan blijven het malplaatje later wijzigen.

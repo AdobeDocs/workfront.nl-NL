@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: ded9ab1e-c5f4-476b-ac81-0497dbe6b24d
-source-git-commit: a561620e218cafc0af861d2b157b8dc7c83dd7ed
+source-git-commit: c037b4f9e5530d8dd796bed25021f7073f16061f
 workflow-type: tm+mt
-source-wordcount: '564'
+source-wordcount: '525'
 ht-degree: 0%
 
 ---
@@ -18,8 +18,6 @@ ht-degree: 0%
 # Merk Adobe Workfront met een lay-outsjabloon
 
 <!--Audited: 09/2024-->
-
-{{preview-fast-release-general}}
 
 >[!IMPORTANT]
 >
@@ -29,11 +27,11 @@ ht-degree: 0%
 
 U kunt een lay-outmalplaatje gebruiken om de logo&#39;s op het hoogste navigatiegebied en op het Belangrijkste Menu voor bepaalde groepen, teams, baanrollen, en gebruikers aan te passen. Dit is vooral handig voor groepen in een grote organisatie die hun eigen merk hebben.
 
-Voor informatie over lay-outmalplaatjes voor groepen, zie [&#x200B; tot stand brengen en wijzigen de lay-outmalplaatjes van een groep &#x200B;](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
+Voor informatie over lay-outmalplaatjes voor groepen, zie [ tot stand brengen en wijzigen de lay-outmalplaatjes van een groep ](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
 
 >[!NOTE]
 >
->Een beheerder van Workfront kan de zelfde branding aanpassingen voor de volledige organisatie op het systeemniveau maken, zoals die in [&#x200B; wordt verklaard merk uw instantie van Adobe Workfront &#x200B;](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md). Maar het brandmerken in een lay-outmalplaatje treedt systeem-vlakke branding met voeten.
+>Een beheerder van Workfront kan de zelfde branding aanpassingen voor de volledige organisatie op het systeemniveau maken, zoals die in [ wordt verklaard merk uw instantie van Adobe Workfront ](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md). Maar het brandmerken in een lay-outmalplaatje treedt systeem-vlakke branding met voeten.
 
 <!-- Maybe add a section about deleting these 2 settings to revert to default branding? -->
 
@@ -63,14 +61,14 @@ Voor informatie over lay-outmalplaatjes voor groepen, zie [&#x200B; tot stand br
  </tbody> 
 </table>
 
-Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Merk Adobe Workfront met een lay-outsjabloon
 
-1. Begin werkend aan een lay-outmalplaatje, zoals die in [&#x200B; wordt beschreven creeer en beheer lay-outmalplaatjes &#x200B;](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
-1. Klik de benedenpijl ![&#x200B; benedenpijl &#x200B;](assets/dropdown-arrow.png) onder **aanpassen wat de gebruikers** zien, dan **Brandend** klikken.
+1. Begin werkend aan een lay-outmalplaatje, zoals die in [ wordt beschreven creeer en beheer lay-outmalplaatjes ](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
+1. Klik de benedenpijl ![ benedenpijl ](assets/dropdown-arrow.png) onder **aanpassen wat de gebruikers** zien, dan **Brandend** klikken.
 1. Breng een van de volgende wijzigingen aan om Workfront aan te passen met brandingafbeeldingen voor diegenen aan wie deze lay-outsjabloon is toegewezen.
 
    <table style="table-layout:auto"> 
@@ -88,20 +86,10 @@ Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van W
     </tbody> 
    </table>
 
-1. <span class="preview"> in het milieu van de Voorproef: Ga verder het aanpassen van het lay-outmalplaatje. U kunt **klikken** op elk ogenblik van toepassing zijn om uw vooruitgang te bewaren.</span>
-
-   <span class="preview"> Of </span>
-
-   <span class="preview"> als u wordt gebeëindigd aanpassend, klik **sparen en sluit**.</span>
-
-1. In de productieomgeving: doorgaan met het aanpassen van de lay-outsjabloon.
+1. Blijf het lay-outmalplaatje aanpassen. U kunt **klikken** op elk ogenblik van toepassing zijn om uw vooruitgang te bewaren.
 
    of
 
-   Als u wordt gebeëindigd aanpassend, klik **sparen**.
+   Als u wordt gebeëindigd aanpassend, klik **sparen en sluit**.
 
-   >[!TIP]
-   >
-   >U kunt **klikken sparen** op elk ogenblik om uw vooruitgang te bewaren, dan blijven het malplaatje later wijzigen.
-
-Voor meer informatie over lay-outmalplaatjes, zie [&#x200B; lay-outmalplaatjes &#x200B;](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md) creëren en beheren.
+Voor meer informatie over lay-outmalplaatjes, zie [ lay-outmalplaatjes ](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md) creëren en beheren.

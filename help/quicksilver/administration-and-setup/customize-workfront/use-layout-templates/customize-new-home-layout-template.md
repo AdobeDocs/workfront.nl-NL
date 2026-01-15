@@ -8,16 +8,14 @@ author: Lisa and Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: b9997e79-a893-49dd-8c90-290399b2d2f7
-source-git-commit: a561620e218cafc0af861d2b157b8dc7c83dd7ed
+source-git-commit: c037b4f9e5530d8dd796bed25021f7073f16061f
 workflow-type: tm+mt
-source-wordcount: '862'
+source-wordcount: '837'
 ht-degree: 0%
 
 ---
 
 # Home aanpassen met een lay-outsjabloon
-
-{{preview-fast-release-general}}
 
 U kunt een lay-outmalplaatje gebruiken om te vormen wat de gebruikers zien wanneer zij eerst Huis openen.
 
@@ -33,13 +31,13 @@ U kunt configureren:
 > 
 >Beheerders kunnen nieuwe widgets toevoegen aan gebruikers. Als een eindgebruiker echter zijn widgetvolgorde of achtergrondselectie al heeft aangepast, worden deze specifieke aanpassingen niet gewijzigd.
 
-Voor informatie over Huis, zie [&#x200B; begonnen worden met Huis &#x200B;](/help/quicksilver/workfront-basics/using-home/using-the-home-area/get-started-with-home.md).
+Voor informatie over Huis, zie [ begonnen worden met Huis ](/help/quicksilver/workfront-basics/using-home/using-the-home-area/get-started-with-home.md).
 
-Voor informatie over het creëren van lay-outmalplaatjes, zie [&#x200B; lay-outmalplaatjes &#x200B;](../use-layout-templates/create-and-manage-layout-templates.md) creëren en beheren.
+Voor informatie over het creëren van lay-outmalplaatjes, zie [ lay-outmalplaatjes ](../use-layout-templates/create-and-manage-layout-templates.md) creëren en beheren.
 
-Voor informatie over lay-outmalplaatjes voor groepen, zie [&#x200B; tot stand brengen en wijzigen de lay-outmalplaatjes van een groep &#x200B;](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
+Voor informatie over lay-outmalplaatjes voor groepen, zie [ tot stand brengen en wijzigen de lay-outmalplaatjes van een groep ](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
 
-Nadat u een lay-outmalplaatje hebt gevormd, moet u het aan gebruikers voor veranderingen toewijzen u aanbracht om aan anderen zichtbaar te zijn. Voor informatie over het toewijzen van een lay-outmalplaatje aan gebruikers, zie [&#x200B; gebruikers aan een lay-outmalplaatje &#x200B;](../use-layout-templates/assign-users-to-layout-template.md) toewijzen.
+Nadat u een lay-outmalplaatje hebt gevormd, moet u het aan gebruikers voor veranderingen toewijzen u aanbracht om aan anderen zichtbaar te zijn. Voor informatie over het toewijzen van een lay-outmalplaatje aan gebruikers, zie [ gebruikers aan een lay-outmalplaatje ](../use-layout-templates/assign-users-to-layout-template.md) toewijzen.
 
 ## Toegangsvereisten
 
@@ -67,7 +65,7 @@ Nadat u een lay-outmalplaatje hebt gevormd, moet u het aan gebruikers voor veran
  </tbody> 
 </table>
 
-Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -75,9 +73,9 @@ Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van W
 
 Home aanpassen met een lay-outsjabloon:
 
-1. Begin werkend aan een lay-outmalplaatje, zoals die in [&#x200B; wordt beschreven creeer en beheer lay-outmalplaatjes &#x200B;](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
+1. Begin werkend aan een lay-outmalplaatje, zoals die in [ wordt beschreven creeer en beheer lay-outmalplaatjes ](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
-1. Klik de benedenpijl ![&#x200B; benedenpijl &#x200B;](assets/dropdown-arrow.png) onder **aanpassen welke gebruikers** zien, dan **Workspace van het Huis** klikken.
+1. Klik de benedenpijl ![ benedenpijl ](assets/dropdown-arrow.png) onder **aanpassen welke gebruikers** zien, dan **Workspace van het Huis** klikken.
 
 1. Klik op een van de volgende tabbladen aan de rechterkant:
 
@@ -136,11 +134,11 @@ Home aanpassen met een lay-outsjabloon:
    >
    >* De opties Filter, Kolommen en Groep zijn gekoppeld aan de opties voor het aanpassen van de lijst in het Lay-outsjabloon. Wijzigingen die u hier aanbrengt, worden ook op deze instellingen toegepast.
    >* Gebruikers moeten ten minste toegang tot weergaven maken hebben om de configuratie van de beheerderskolom correct toe te passen op hun startpagina&#39;s.
-   ></p>
-   >   <li><p>Plaats een standaardFilter of een Groep voor widget, door over een optie te hangen en <b> te klikken Reeks als gebrek </b>. Het huidige gebrek toont een blauw <b> Standaard </b> badge aan zijn recht.</p></li>
-   >   <li><p>Voeg een bestaand filter, een bestaande kolom of een bestaande groep toe aan de lijst met beschikbare opties door op de knop met het plusteken onder aan elke lijst te klikken om een optie aan die lijst toe te voegen. Merk op dat alleen bestaande filters, velden (voor kolommen) of groepen op deze manier kunnen worden toegevoegd.</p></li>
-   >   </ul>
-   >   <p>
+   </p>
+      <li><p>Plaats een standaardFilter of een Groep voor widget, door over een optie te hangen en <b> te klikken Reeks als gebrek </b>. Het huidige gebrek toont een blauw <b> Standaard </b> badge aan zijn recht.</p></li>
+      <li><p>Voeg een bestaand filter, een bestaande kolom of een bestaande groep toe aan de lijst met beschikbare opties door op de knop met het plusteken onder aan elke lijst te klikken om een optie aan die lijst toe te voegen. Merk op dat alleen bestaande filters, velden (voor kolommen) of groepen op deze manier kunnen worden toegevoegd.</p></li>
+      </ul>
+      <p>
 
    >[!NOTE]
    >
@@ -152,17 +150,11 @@ Home aanpassen met een lay-outsjabloon:
       </tbody> 
       </table>
 
-1. <span class="preview"> in het milieu van de Voorproef: Ga verder het aanpassen van het lay-outmalplaatje. U kunt **klikken** op elk ogenblik van toepassing zijn om uw vooruitgang te bewaren.</span>
-
-   <span class="preview"> Of </span>
-
-   <span class="preview"> als u wordt gebeëindigd aanpassend, klik **sparen en sluit**.</span>
-
-1. In de productieomgeving: doorgaan met het aanpassen van de lay-outsjabloon.
+1. Blijf het lay-outmalplaatje aanpassen. U kunt **klikken** op elk ogenblik van toepassing zijn om uw vooruitgang te bewaren.
 
    of
 
-   Als u wordt gebeëindigd aanpassend, klik **sparen** in de bodem-linkerhoek.
+   Als u wordt gebeëindigd aanpassend, klik **sparen en sluit**.
 
    >[!IMPORTANT]
    >

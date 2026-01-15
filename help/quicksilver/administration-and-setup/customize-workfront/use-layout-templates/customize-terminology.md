@@ -8,16 +8,14 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 3ab3ca43-d8e9-4545-a862-e6bf9419ef16
-source-git-commit: a561620e218cafc0af861d2b157b8dc7c83dd7ed
+source-git-commit: c037b4f9e5530d8dd796bed25021f7073f16061f
 workflow-type: tm+mt
-source-wordcount: '659'
+source-wordcount: '638'
 ht-degree: 0%
 
 ---
 
 # De terminologie van de gebruikersinterface aanpassen met behulp van een lay-outsjabloon
-
-{{preview-fast-release-general}}
 
 Als Adobe Workfront-beheerder kunt u een lay-outsjabloon gebruiken om de labels van bepaalde objecten die in Workfront worden weergegeven, aan te passen aan de termen die in uw organisatie worden gebruikt.
 
@@ -36,14 +34,14 @@ Nadat u een lay-outsjabloon hebt opgeslagen waarin u de terminologie hebt gewijz
 >[!NOTE]
 >
 >* In het gebied Outlook Add-in worden de aangepaste labels niet weergegeven.
->* Er kunnen grammatica en andere problemen optreden wanneer u labels aanpast. Als u bijvoorbeeld &quot;Issue&quot; wijzigt in &quot;Request&quot;, kunnen er plaatsen in de gebruikersinterface zijn waar de uitdrukking &quot;An request&quot; wordt weergegeven. Voor meer informatie, zie [&#x200B; Implicaties van het aanpassen van objecten namen &#x200B;](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#implications-of-customizing-object-names) in het artikel [&#x200B; voorwerpen in Adobe Workfront &#x200B;](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md) begrijpen
+>* Er kunnen grammatica en andere problemen optreden wanneer u labels aanpast. Als u bijvoorbeeld &quot;Issue&quot; wijzigt in &quot;Request&quot;, kunnen er plaatsen in de gebruikersinterface zijn waar de uitdrukking &quot;An request&quot; wordt weergegeven. Voor meer informatie, zie [ Implicaties van het aanpassen van objecten namen ](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#implications-of-customizing-object-names) in het artikel [ voorwerpen in Adobe Workfront ](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md) begrijpen
 >
 
-Voor meer informatie over lay-outmalplaatjes, zie [&#x200B; lay-outmalplaatjes &#x200B;](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md) creëren en beheren.
+Voor meer informatie over lay-outmalplaatjes, zie [ lay-outmalplaatjes ](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md) creëren en beheren.
 
-Voor informatie over lay-outmalplaatjes voor groepen, zie [&#x200B; tot stand brengen en wijzigen de lay-outmalplaatjes van een groep &#x200B;](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
+Voor informatie over lay-outmalplaatjes voor groepen, zie [ tot stand brengen en wijzigen de lay-outmalplaatjes van een groep ](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
 
-Nadat u een lay-outmalplaatje hebt gevormd, moet u het aan gebruikers voor veranderingen toewijzen u aanbracht om aan anderen zichtbaar te zijn. Voor informatie over het toewijzen van een lay-outmalplaatje aan gebruikers, zie [&#x200B; gebruikers aan een lay-outmalplaatje &#x200B;](../use-layout-templates/assign-users-to-layout-template.md) toewijzen.
+Nadat u een lay-outmalplaatje hebt gevormd, moet u het aan gebruikers voor veranderingen toewijzen u aanbracht om aan anderen zichtbaar te zijn. Voor informatie over het toewijzen van een lay-outmalplaatje aan gebruikers, zie [ gebruikers aan een lay-outmalplaatje ](../use-layout-templates/assign-users-to-layout-template.md) toewijzen.
 
 ## Toegangsvereisten
 
@@ -71,17 +69,17 @@ Nadat u een lay-outmalplaatje hebt gevormd, moet u het aan gebruikers voor veran
  </tbody> 
 </table>
 
-Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## De terminologie van de gebruikersinterface aanpassen
 
-1. Begin werkend aan een lay-outmalplaatje, zoals die in [&#x200B; wordt beschreven creeer en beheer lay-outmalplaatjes &#x200B;](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
+1. Begin werkend aan een lay-outmalplaatje, zoals die in [ wordt beschreven creeer en beheer lay-outmalplaatjes ](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 1. Klik **Vastgestelde Terminologie** dichtbij de hoger-juiste hoek van de pagina.
 1. Voer een van de volgende handelingen uit:
 
-   * Om een alternatieve termijn te gebruiken die door Workfront wordt verstrekt, klik de benedenpijl ![&#x200B; neer pijl &#x200B;](assets/dropdown-arrow.png) naast het etiket, dan klik het alternatieve etiket u in de drop-down lijst wilt.
+   * Om een alternatieve termijn te gebruiken die door Workfront wordt verstrekt, klik de benedenpijl ![ neer pijl ](assets/dropdown-arrow.png) naast het etiket, dan klik het alternatieve etiket u in de drop-down lijst wilt.
 
      >[!NOTE]
      >
@@ -139,17 +137,11 @@ Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van W
    >
    >Nadat u op Gereed hebt geklikt (en zelfs nadat u de lay-outsjabloon hebt opgeslagen), kunt u altijd terugkeren naar de instelling Terminologie instellen en op Herstellen klikken naast aangepaste termen om deze weer in de standaardtoestand te brengen.
 
-1. <span class="preview"> in het milieu van de Voorproef: Ga verder het aanpassen van het lay-outmalplaatje. U kunt **klikken** op elk ogenblik van toepassing zijn om uw vooruitgang te bewaren.</span>
-
-   <span class="preview"> Of </span>
-
-   <span class="preview"> als u wordt gebeëindigd aanpassend, klik **sparen en sluit**.</span>
-
-1. In de productieomgeving: doorgaan met het aanpassen van de lay-outsjabloon.
+1. Blijf het lay-outmalplaatje aanpassen. U kunt **klikken** op elk ogenblik van toepassing zijn om uw vooruitgang te bewaren.
 
    of
 
-   Als u wordt gebeëindigd aanpassend, klik **sparen**.
+   Als u wordt gebeëindigd aanpassend, klik **sparen en sluit**.
 
 1. Om uw terminologiewijzigingen te zien:
 
@@ -160,4 +152,4 @@ Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van W
    >
    >Dit is ook vereist voor iedereen die de lay-outsjabloon heeft gebruikt voordat u de terminologiewijzigingen aanbrengt.
 
-Voor meer informatie over lay-outmalplaatjes, zie [&#x200B; lay-outmalplaatjes &#x200B;](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md) creëren en beheren.
+Voor meer informatie over lay-outmalplaatjes, zie [ lay-outmalplaatjes ](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md) creëren en beheren.
