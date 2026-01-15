@@ -24,7 +24,7 @@ ht-degree: 0%
 
 U kunt records weergeven in een tijdlijnweergave wanneer u de pagina met recordtypen opent in Adobe Workfront Planning.
 
-Voor informatie over verslagmeningen, zie [ verslagmeningen ](/help/quicksilver/planning/views/manage-record-views.md) leiden.
+Voor informatie over verslagmeningen, zie [&#x200B; verslagmeningen &#x200B;](/help/quicksilver/planning/views/manage-record-views.md) leiden.
 
 ## Toegangsvereisten
 
@@ -67,7 +67,7 @@ Voor informatie over verslagmeningen, zie [ verslagmeningen ](/help/quicksilver/
 </tbody> 
 </table>
 
-Voor meer informatie over de toegangsvereisten van Workfront, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer informatie over de toegangsvereisten van Workfront, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++ 
 
@@ -156,9 +156,9 @@ Overweeg het volgende:
 Een tijdlijnweergave beheren:
 
 1. Ga naar de pagina met recordtypen waarvoor u de tijdlijn wilt weergeven.
-1. Creeer een chronologiemening, zoals die in artikel [ wordt beschreven beheer verslagmeningen ](/help/quicksilver/planning/views/manage-record-views.md).
+1. Creeer een chronologiemening, zoals die in artikel [&#x200B; wordt beschreven beheer verslagmeningen &#x200B;](/help/quicksilver/planning/views/manage-record-views.md).
 
-   ![ de meningsvoorbeeld van de Chronologie ](assets/timeline-view-example.png)
+   ![&#x200B; de meningsvoorbeeld van de Chronologie &#x200B;](assets/timeline-view-example.png)
 
    De records die zijn gekoppeld aan het geselecteerde recordtype, worden standaard als balken in een tijdlijn weergegeven en gesorteerd in chronologische volgorde van hun begindatum.
 
@@ -172,7 +172,7 @@ Een tijdlijnweergave beheren:
 
    * Als er tussenruimten of overlappingen zijn gevonden tussen de datums van de kwartalen, ontvangt u mogelijk een melding dat aangepaste kwartalen nu kunnen worden ingesteld en wellicht moeten worden bewerkt.
 
-     ![ het bericht van het kwartier van de Douane mist of hiaten tussen kwartalen ](assets/custom-quarter-notification-missing-or-gaps.png)
+     ![&#x200B; het bericht van het kwartier van de Douane mist of hiaten tussen kwartalen &#x200B;](assets/custom-quarter-notification-missing-or-gaps.png)
 
      >[!TIP]
      >
@@ -180,7 +180,7 @@ Een tijdlijnweergave beheren:
 
    * Als kwarten gedeeltelijk zijn opgezet, en sommige maanden binnen hetzelfde jaar missen, zou u een bericht kunnen ontvangen wanneer u scrolt om de ontbrekende kwarten te tonen dat de rest van het jaar met de ontbrekende kwarten moet worden opgesteld.
 
-   ![ Ontbrekend origineel bericht van douanekwartalen op chronologiemening ](assets/missing-custom-quarters-original-message-on-timeline-view.png)
+   ![&#x200B; Ontbrekend origineel bericht van douanekwartalen op chronologiemening &#x200B;](assets/missing-custom-quarters-original-message-on-timeline-view.png)
 
    De waarschuwingsberichten over de aangepaste kwartalen worden één keer per gebruiker weergegeven.
 
@@ -188,7 +188,7 @@ Een tijdlijnweergave beheren:
    >
    >Als het aangepaste kwart niet goed is opgeslagen, worden de klassieke kwartalen weergegeven in de tijdlijnweergave.
    >Nadat u aangepaste kwartalen hebt ingesteld in het gedeelte Instellen, worden in de tijdlijnweergave de aangepaste kwartalen weergegeven in plaats van de klassieke kwartalen.
-   >Voor informatie, zie [ douanekwarten ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md) toelaten.
+   >Voor informatie, zie [&#x200B; douanekwarten &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md) toelaten.
 
 1. (Voorwaardelijk) als u een beheerder van Workfront bent, klik **ga naar Opstelling** aan opstelling uw kwarten. Als niet, klik **O.K.** en vraag uw beheerder van Workfront aan opstelling de douanekwartalen.
 
@@ -196,7 +196,7 @@ Een tijdlijnweergave beheren:
    >
    >De knop Ga naar setup wordt alleen weergegeven voor de Workfront-beheerder.
 
-1. (Optioneel en voorwaardelijk) Wanneer de naam van de record wordt afgekapt, houdt u de muisaanwijzer boven een recordbalk om de volledige naam van de record en aanvullende informatie weer te geven. Voor informatie over vestiging bar truncation in de chronologie, zie de sectie [ de montages van de chronologiemening ](#edit-the-timeline-view-settings) in dit artikel uitgeven.
+1. (Optioneel en voorwaardelijk) Wanneer de naam van de record wordt afgekapt, houdt u de muisaanwijzer boven een recordbalk om de volledige naam van de record en aanvullende informatie weer te geven. Voor informatie over vestiging bar truncation in de chronologie, zie de sectie [&#x200B; de montages van de chronologiemening &#x200B;](#edit-the-timeline-view-settings) in dit artikel uitgeven.
 
 1. Voer een van de volgende handelingen uit om door de tijdlijn te navigeren:
 
@@ -212,9 +212,9 @@ Een tijdlijnweergave beheren:
 
 1. Ga als volgt te werk om snel records te zoeken die overeenkomen met een trefwoord:
 
-   1. Klik het **pictogram van het Onderzoek** pictogram van het 1} Onderzoek ![ en begin een sleutelwoord verbonden aan om het even welk gebied van een verslag te typen dat op het scherm toont. ](assets/search-icon.png) Het aantal juiste overeenkomsten wordt weergegeven naast het zoekitem en de record met de juiste overeenkomst wordt gemarkeerd.
+   1. Klik het **pictogram van het Onderzoek** pictogram van het 1&rbrace; Onderzoek ![&#x200B; en begin een sleutelwoord verbonden aan om het even welk gebied van een verslag te typen dat op het scherm toont. &#x200B;](assets/search-icon.png) Het aantal juiste overeenkomsten wordt weergegeven naast het zoekitem en de record met de juiste overeenkomst wordt gemarkeerd.
 
-      ![ vakje van het Onderzoek en de mening van de resultaatchronologie ](assets/search-box-and-results-timeline-view.png)
+      ![&#x200B; vakje van het Onderzoek en de mening van de resultaatchronologie &#x200B;](assets/search-box-and-results-timeline-view.png)
 
       U kunt elk woord of speciaal teken gebruiken dat op het scherm zichtbaar is.
 
@@ -224,16 +224,16 @@ Een tijdlijnweergave beheren:
    1. (Optioneel) Als er meer dan één overeenkomst is, klikt u op de pijl-omhoog of -omlaag rechts van het trefwoord Zoeken om alle overeenkomende items in de tabel te zoeken.
    1. Klik het **x** pictogram in het onderzoeksvakje om het onderzoekssleutelwoord te ontruimen.
 
-   1. (Facultatief) klik het **Volledige het schermpictogram** pictogram ![ open volledig het schermpictogram ](assets/open-full-screen-icon.png) om de mening in volledig scherm te openen, dan de **Uitgang volledig scherm** pictogram ![ van de Uitgang het volledige het schermpictogram ](assets/exit-full-screen-icon.png) of Escape op uw toetsenbord om het volledige scherm weg te gaan.
+   1. (Facultatief) klik het **Volledige het schermpictogram** pictogram ![&#x200B; open volledig het schermpictogram &#x200B;](assets/open-full-screen-icon.png) om de mening in volledig scherm te openen, dan de **Uitgang volledig scherm** pictogram ![&#x200B; van de Uitgang het volledige het schermpictogram &#x200B;](assets/exit-full-screen-icon.png) of Escape op uw toetsenbord om het volledige scherm weg te gaan.
 
 1. (Facultatief) klik **Uitsplitsing** om verbonden verslagen op de chronologie te tonen.
 
-   Voor informatie, zie het sectie [ Gebruik de eigenschap van de Onderverdeling aan vertoning verbonden verslagen in de chronologiemening ](#break-down-connected-records-in-the-timeline-view) in dit artikel.
+   Voor informatie, zie het sectie [&#x200B; Gebruik de eigenschap van de Onderverdeling aan vertoning verbonden verslagen in de chronologiemening &#x200B;](#break-down-connected-records-in-the-timeline-view) in dit artikel.
 1. Voer een van de volgende handelingen uit om records te maken in de tijdlijnweergave of de datums ervan te bewerken:
 
    * Dubbelklik ergens op de tijdlijn om een record te maken.
 
-     Voor informatie, zie [ verslagen ](/help/quicksilver/planning/records/create-records.md) creëren.
+     Voor informatie, zie [&#x200B; verslagen &#x200B;](/help/quicksilver/planning/records/create-records.md) creëren.
 
    >[!TIP]
    >
@@ -243,7 +243,7 @@ Een tijdlijnweergave beheren:
 
    * Sleep records om de positie en datums in de tijdlijn bij te werken. Als u de balken van de records verplaatst, worden de begin- en einddatum onmiddellijk bijgewerkt.
 
-     Voor informatie, zie [ verslagen ](/help/quicksilver/planning/records/edit-records.md) uitgeven.
+     Voor informatie, zie [&#x200B; verslagen &#x200B;](/help/quicksilver/planning/records/edit-records.md) uitgeven.
 
    >[!TIP]
    >
@@ -252,7 +252,7 @@ Een tijdlijnweergave beheren:
 1. Werk de volgende weergave-elementen bij zoals in de onderstaande subsecties wordt beschreven:
    * [Filters](#add-filters)
    * [Groepering](#add-grouping)
-   * [ Montages ](#edit-the-timeline-view-settings)
+   * [&#x200B; Montages &#x200B;](#edit-the-timeline-view-settings)
      <!--* [Sort](#add-sort) not yet in timeline; also check the anchor and make sure it's correct-->
 
 ### Filters toevoegen
@@ -278,7 +278,7 @@ Houd rekening met het volgende wanneer u werkt met filters in de tijdlijnweergav
 
 Een filter toevoegen aan een tijdlijnweergave:
 
-1. Creeer een chronologiemening voor een verslagtype pagina, zoals die in artikel [ wordt beschreven beheer verslagmeningen ](/help/quicksilver/planning/views/manage-record-views.md).
+1. Creeer een chronologiemening voor een verslagtype pagina, zoals die in artikel [&#x200B; wordt beschreven beheer verslagmeningen &#x200B;](/help/quicksilver/planning/views/manage-record-views.md).
 1. Selecteer een chronologiemening, dan klik **Filters** in de hoger-juiste hoek van de lijst.
 1. Klik **toevoegen voorwaarde** en voeg de volgende informatie toe:
 
@@ -352,7 +352,7 @@ Een filter toevoegen aan een tijdlijnweergave:
 
    * Selecteer een waarde voor het geselecteerde veld.
 
-   ![ de lijstmening van de Filter UI ](assets/filter-ui-table-view.png)
+   ![&#x200B; de lijstmening van de Filter UI &#x200B;](assets/filter-ui-table-view.png)
 
    Er is geen limiet voor het aantal filtervoorwaarden dat u kunt toevoegen.
 
@@ -365,7 +365,7 @@ Dit is de standaardoptie.
 
    1. (Facultatief) voeg extra filtergroeperingen toe en sluit zich bij hen aan door **EN** of **OF** exploitanten.
 
-      ![ Multi-tiered filters in meningen ](assets/multi-tiered-filters-in-views.png)
+      ![&#x200B; Multi-tiered filters in meningen &#x200B;](assets/multi-tiered-filters-in-views.png)
 
    De lijst met records wordt automatisch gefilterd op basis van de filtercriteria.  <!--at this time, you can't name and save the filter - but will this change?!-->
    <!-- asked on the task for the simple filters whether there is a limitation for how many statements a filter can have?!-->
@@ -398,10 +398,10 @@ Houd rekening met het volgende wanneer u werkt met groepen in de tijdlijnweergav
 
 Een groep toevoegen in de tijdlijnweergave:
 
-1. Creeer een chronologiemening voor een verslagtype, zoals die in artikel [ wordt beschreven beheer verslagmeningen ](/help/quicksilver/planning/views/manage-record-views.md).
+1. Creeer een chronologiemening voor een verslagtype, zoals die in artikel [&#x200B; wordt beschreven beheer verslagmeningen &#x200B;](/help/quicksilver/planning/views/manage-record-views.md).
 1. Klik **Groepering** in de hoger-juiste hoek van de chronologiemening.
 
-   ![ het groeperen van UI chronologiemening met verbonden gebieden ](assets/grouping-ui-timeline-view-with-linked-fields.png)
+   ![&#x200B; het groeperen van UI chronologiemening met verbonden gebieden &#x200B;](assets/grouping-ui-timeline-view-with-linked-fields.png)
 
 1. Klik één van de voorgestelde gebieden, of klik **kies een verschillend gebied**, en onderzoek naar een verschillend gebied, dan klik het wanneer het in de lijst toont.
 
@@ -411,7 +411,7 @@ Een groep toevoegen in de tijdlijnweergave:
 
    Het aantal velden dat voor de groepering is geselecteerd, wordt weergegeven naast het pictogram Groeperen.
 
-   ![ groepering die in chronologiemening wordt toegepast ](assets/grouping-applied-in-timeline-view.png)
+   ![&#x200B; groepering die in chronologiemening wordt toegepast &#x200B;](assets/grouping-applied-in-timeline-view.png)
 
 1. In de **verslagen van de Groep door** doos, belemmering en laat vallen de groeperingen in de correcte orde.
 
@@ -422,7 +422,7 @@ Een groep toevoegen in de tijdlijnweergave:
    Klik **ontruimen allen** om alle gebieden te verwijderen.
 
 1. Klik buiten de **verslagen van de Groep door** doos om het te sluiten.
-1. (Facultatief) klik **Montages**, toen **Kleur** aan kleur-code groeperingen. Voor meer informatie, zie [ uitgeven de sectie van de chronologiemening montages ](#edit-the-timeline-view-settings) in dit artikel.
+1. (Facultatief) klik **Montages**, toen **Kleur** aan kleur-code groeperingen. Voor meer informatie, zie [&#x200B; uitgeven de sectie van de chronologiemening montages &#x200B;](#edit-the-timeline-view-settings) in dit artikel.
 
 <!-- 
 
@@ -436,7 +436,7 @@ this is not possible right now; if this is the same functionality as the table v
 
 Werk de instellingen van de tijdlijnweergave bij om aan te geven wat en hoe informatie wordt weergegeven in het tijdlijngedeelte van de weergave.
 
-1. Creeer een chronologiemening voor een verslagtype, zoals die in artikel [ wordt beschreven beheer verslagmeningen ](/help/quicksilver/planning/views/manage-record-views.md).
+1. Creeer een chronologiemening voor een verslagtype, zoals die in artikel [&#x200B; wordt beschreven beheer verslagmeningen &#x200B;](/help/quicksilver/planning/views/manage-record-views.md).
 1. Klik **Montages**.
 1. Klik **Datum en tijd** in het linkerpaneel, dan de datum van het a **Begin** en een **einddatum** om op de chronologie te tonen. U kunt de standaardbegin- en einddatum kiezen of een datumveld kiezen dat beschikbaar is.
 
@@ -450,9 +450,9 @@ Werk de instellingen van de tijdlijnweergave bij om aan te geven wat en hoe info
 
 1. (Voorwaardelijk en facultatief) als uw een beheerder van Workfront bent, klik **gaan naar Opstelling** in de **doos van de Douane van het Gebruik** om naar het gebied van de Opstelling en opstellings douanekwarten te gaan. Nadat u aangepaste kwarten hebt ingesteld, kunt u deze weergeven in de tijdlijnweergave in plaats van in de klassieke kwartalen. Als u geen beheerder van Workfront bent, kunt u verzoeken dat de douanekwarten voor uw organisatie van een beheerder worden toegelaten.
 
-   Voor informatie, zie [ douanekwarten ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md) toelaten.
+   Voor informatie, zie [&#x200B; douanekwarten &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md) toelaten.
 
-   ![ de douane van het kwartalen van het Gebruik waarschuwing binnen de montages van de chronologiemening ](assets/use-custom-quarters-warning-inside-timelive-view-settings.png)
+   ![&#x200B; de douane van het kwartalen van het Gebruik waarschuwing binnen de montages van de chronologiemening &#x200B;](assets/use-custom-quarters-warning-inside-timelive-view-settings.png)
 
    >[!TIP]
    >
@@ -469,7 +469,7 @@ Werk de instellingen van de tijdlijnweergave bij om aan te geven wat en hoe info
 
    >[!NOTE]
    >
-   >    U moet eerst miniaturen toevoegen in de tabelweergave voordat u ze kunt weergeven in de tijdlijnweergave. Voor meer informatie, zie [ een duimnagel aan een verslag ](/help/quicksilver/planning/records/add-thumbnails-to-records.md) toevoegen.
+   >    U moet eerst miniaturen toevoegen in de tabelweergave voordat u ze kunt weergeven in de tijdlijnweergave. Voor meer informatie, zie [&#x200B; een duimnagel aan een verslag &#x200B;](/help/quicksilver/planning/records/add-thumbnails-to-records.md) toevoegen.
 
 1. Klik **toevoegen gebied**, dan klik binnen het **vakje van het Onderzoek gebieden**, en klik het gebied u wilt toevoegen.
 
@@ -483,11 +483,11 @@ Werk de instellingen van de tijdlijnweergave bij om aan te geven wat en hoe info
 
    Aan de rechterkant wordt een voorvertoning weergegeven van hoe de balken eruit zullen zien op de tijdlijn.
 
-   ![ de chronologiemontages van het paneel van de Details van het Verslag met voorproef ](assets/record-details-panel-timeline-settings-with-preview.png)
+   ![&#x200B; de chronologiemontages van het paneel van de Details van het Verslag met voorproef &#x200B;](assets/record-details-panel-timeline-settings-with-preview.png)
 
 1. (Facultatief en voorwaardelijk) als u de chronologie op de Standaardwijze toont, selecteer **de details van de bar van de Kortting** plaatsen. Als deze optie is geselecteerd, wordt de informatie op de recordbalken ingekort en wordt deze alleen volledig weergegeven wanneer u de muisaanwijzer op de balken plaatst. Deze instelling is standaard uitgeschakeld en de recordgegevens worden volledig op de balken weergegeven.
 
-   ![ Truncate die op benadrukte doos van chronologiemontages wordt toegelaten ](assets/truncate-setting-enabled-on-timeline-settings-highlighted.png)
+   ![&#x200B; Truncate die op benadrukte doos van chronologiemontages wordt toegelaten &#x200B;](assets/truncate-setting-enabled-on-timeline-settings-highlighted.png)
 
    >[!TIP]
    >
@@ -496,7 +496,7 @@ Werk de instellingen van de tijdlijnweergave bij om aan te geven wat en hoe info
 
 1. Klik **Kleur** in het linkerpaneel, om de kleuren van de verslagen en de groeperingen in de chronologie aan te passen.
 
-   ![ het lusje van de Kleur chronologiemening ](assets/color-tab-timeline-view.png)
+   ![&#x200B; het lusje van de Kleur chronologiemening &#x200B;](assets/color-tab-timeline-view.png)
 
    U kunt de kleur definiëren van de hoofdrecord en van de verbonden records wanneer u de optie Onderverdeling in de standaardweergave gebruikt.
 
@@ -529,7 +529,7 @@ Werk de instellingen van de tijdlijnweergave bij om aan te geven wat en hoe info
 
 1. (Voorwaardelijk) als u **waarden van het Gebied** voor de verslagkleuren selecteerde, selecteer een gebied van **gelijke de verslagkleur aan** drop-down menu.
 
-   ![ de selecteur van het Gebied drop-down menu in chronologiemening ](assets/field-selector-drop-down-menu-timeline-view.png)
+   ![&#x200B; de selecteur van het Gebied drop-down menu in chronologiemening &#x200B;](assets/field-selector-drop-down-menu-timeline-view.png)
 
    Alleen velden met opties voor kleurcodes worden weergegeven in het keuzemenu.
 
@@ -566,19 +566,19 @@ Houd rekening met het volgende wanneer u de tijdlijn van de records splitst op b
 
   Als u zowel portefeuilles als projecten in de chronologiemening van een het verslagtype van de Planning van Workfront wilt tonen, zowel moeten de portefeuilles als de projecten met het verslag van de Planning of met een verslag worden verbonden dat met het verslag van de Planning wordt verbonden waarvan chronologiemening u beheert.
 * U kunt geen Adobe GenStudio-merken weergeven die zijn verbonden met planningsrecordtypen.
-Voor informatie, zie [ verbind verslagtypes ](/help/quicksilver/planning/architecture/connect-record-types.md).
+Voor informatie, zie [&#x200B; verbind verslagtypes &#x200B;](/help/quicksilver/planning/architecture/connect-record-types.md).
 * U kunt alleen recordtypen weergeven die zijn gekoppeld aan ten minste twee datumvelden.
 * De datumvelden voor de recordtypen die u in de tijdlijnweergave wilt weergeven, moeten zichtbaar zijn in de tabelweergave van het geselecteerde recordtype, als opzoekvelden.
-* De begin- en einddatums van de recordtypen die u in de tijdlijnweergave wilt weergeven, moeten in chronologische volgorde worden weergegeven. Als een record bijvoorbeeld een startdatum van 31 januari en een einddatum van 1 januari heeft, wordt deze niet weergegeven in de tijdlijnweergave. Voor meer informatie, zie de sectie [ een chronologiemening ](#manage-a-timeline-view) in dit artikel beheren.
+* De begin- en einddatums van de recordtypen die u in de tijdlijnweergave wilt weergeven, moeten in chronologische volgorde worden weergegeven. Als een record bijvoorbeeld een startdatum van 31 januari en een einddatum van 1 januari heeft, wordt deze niet weergegeven in de tijdlijnweergave. Voor meer informatie, zie de sectie [&#x200B; een chronologiemening &#x200B;](#manage-a-timeline-view) in dit artikel beheren.
 * Er geldt een limiet van 5 recordtypen die u kunt opnemen in de indeling van een record.
 
 #### Verbonden records opsplitsen
 
-1. Creeer een chronologiemening voor een verslagtype, zoals die in artikel [ wordt beschreven beheer verslagmeningen ](/help/quicksilver/planning/views/manage-record-views.md).
+1. Creeer een chronologiemening voor een verslagtype, zoals die in artikel [&#x200B; wordt beschreven beheer verslagmeningen &#x200B;](/help/quicksilver/planning/views/manage-record-views.md).
 1. Van de **Standaard** of **Compacte** wijzen, klik **Onderbreking** in de hoger-juiste hoek van de chronologiemening.
 1. Vouw **Uitgezocht een verbonden verslagtype** doos uit en selecteer een verbonden verslagtype. <!--add a new screen shot - submitted a bug to remove the "the"-->
 
-   ![ de plukker en knoop van de Onderbreking op chronologiemening ](assets/breakdown-picker-and-button-on-timeline.png)
+   ![&#x200B; de plukker en knoop van de Onderbreking op chronologiemening &#x200B;](assets/breakdown-picker-and-button-on-timeline.png)
 
    >[!TIP]
    >
@@ -593,7 +593,7 @@ Voor informatie, zie [ verbind verslagtypes ](/help/quicksilver/planning/archite
    Er wordt een pijl naar rechts weergegeven op de geselecteerde balk van de record in de tijdlijn als deze zijn verbonden met andere records.
 1. Klik op de pijl naar rechts om een recordtype uit te vouwen en de bijbehorende verbindingen weer te geven. <!--update screen shot at production-->
 
-   ![ Campagnes die door programma&#39;s in de chronologiemening worden verdeeld ](assets/campaigns-broken-down-by-programs-in-timeline-highlighted.png)
+   ![&#x200B; Campagnes die door programma&#39;s in de chronologiemening worden verdeeld &#x200B;](assets/campaigns-broken-down-by-programs-in-timeline-highlighted.png)
 
    >[!IMPORTANT]
    >

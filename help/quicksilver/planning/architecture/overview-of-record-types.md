@@ -32,13 +32,13 @@ De types van verslag zijn de bouwstenen van een werkruimte van de Planning van W
 
 Recordtypen zijn geordend in werkruimten.
 
-Voor informatie over werkruimten, zie [ werkruimten ](/help/quicksilver/planning/architecture/create-workspaces.md) creëren.
+Voor informatie over werkruimten, zie [&#x200B; werkruimten &#x200B;](/help/quicksilver/planning/architecture/create-workspaces.md) creëren.
 
 ## Overzicht van recordtypen
 
 In de Planning van Workfront, kunt u de types van douaneverslag tot stand brengen die aan de behoeften van uw organisatie voldoen.
 
-Voor informatie over het creëren van verslagtypes, zie [ recordtypes ](/help/quicksilver/planning/architecture/create-record-types.md) creëren.
+Voor informatie over het creëren van verslagtypes, zie [&#x200B; recordtypes &#x200B;](/help/quicksilver/planning/architecture/create-record-types.md) creëren.
 
 * Wanneer u een werkruimte maakt op basis van een sjabloon, worden recordtypen gemaakt in de volgende werkruimtesecties:
 
@@ -51,13 +51,13 @@ Voor informatie over het creëren van verslagtypes, zie [ recordtypes ](/help/qu
 * Wanneer u een recordtype maakt, hebben alleen u en de personen die u machtigingen geeft voor toegang tot de werkruimte en het recordtype er toegang toe.
 * U moet een werkruimte maken voordat u recordtypen voor de werkruimte kunt maken.
 
-  Voor beperkingen over hoeveel verslagtypes u in één werkruimte of instantie van Workfront kunt hebben, zie [ overzicht van de objectbeperkingen van de Planning van Adobe Workfront ](/help/quicksilver/planning/general/limitations-overview.md).
+  Voor beperkingen over hoeveel verslagtypes u in één werkruimte of instantie van Workfront kunt hebben, zie [&#x200B; overzicht van de objectbeperkingen van de Planning van Adobe Workfront &#x200B;](/help/quicksilver/planning/general/limitations-overview.md).
 * Als u recordtypen in meerdere werkruimten wilt gebruiken, kunt u recordtypen toewijzen als globaal of als aanpasbaar.
 
    * Algemene recordtypen kunnen als bestaande recordtypen aan andere werkruimten worden toegevoegd.
    * Verbindbare recordtypen kunnen worden verbonden met andere werkruimten.
 
-  Voor meer informatie, zie [ mogelijkheden van de dwars-werkruimte voor verslagtypes ](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md) vormen.
+  Voor meer informatie, zie [&#x200B; mogelijkheden van de dwars-werkruimte voor verslagtypes &#x200B;](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md) vormen.
 
 
 <!--

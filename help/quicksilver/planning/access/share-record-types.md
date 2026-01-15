@@ -31,8 +31,8 @@ U kunt een recordtype met anderen delen om samenwerking te verzekeren wanneer he
 >Gebruikers met toegang tot een werkruimte krijgen automatisch minstens weergavemachtigingen voor alle recordtypen in de werkruimte.
 >Als u weergaven deelt, geeft u gebruikers geen machtigingen om gegevenstypen op te nemen. Alleen werkruimten delen kan gebruikers machtigingen verlenen om gegevenstypen op te nemen.
 >
->* Voor algemene informatie over het delen van voorwerpen in de Planning van Workfront, zie ook [ Overzicht van het delen van toestemmingen in de Planning van Adobe Workfront ](/help/quicksilver/planning/access/sharing-permissions-overview.md).
->* Voor meer informatie, zie de [ Overwegingen wanneer het delen van verslagtypes ](#considerations-when-sharing-record-types) sectie in dit artikel.
+>* Voor algemene informatie over het delen van voorwerpen in de Planning van Workfront, zie ook [&#x200B; Overzicht van het delen van toestemmingen in de Planning van Adobe Workfront &#x200B;](/help/quicksilver/planning/access/sharing-permissions-overview.md).
+>* Voor meer informatie, zie de [&#x200B; Overwegingen wanneer het delen van verslagtypes &#x200B;](#considerations-when-sharing-record-types) sectie in dit artikel.
 
 ## Toegangsvereisten
 
@@ -85,7 +85,7 @@ of
 </table>
 
 
-Voor meer informatie over de toegangsvereisten van Workfront, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer informatie over de toegangsvereisten van Workfront, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -183,7 +183,7 @@ Voor meer informatie over de toegangsvereisten van Workfront, zie [ vereisten va
 
 * U kunt een globaal recordtype delen, zowel vanuit de oorspronkelijke als vanuit andere secundaire werkruimten waar het is toegevoegd.
 
-  Voor informatie, zie [ overzicht van het type van werkruimterecord over de werkruimte ](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md).
+  Voor informatie, zie [&#x200B; overzicht van het type van werkruimterecord over de werkruimte &#x200B;](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md).
 
 
 
@@ -202,7 +202,7 @@ U kunt machtigingen aanpassen voor afzonderlijke recordtypen in een werkruimte a
 
    Het **vakje van het Aandeel** opent.
 
-   ![ Toestemmingen voor verslagtypes met geërfte toestemmingen op ](assets/permissions-for-record-types-with-inherited-permissions-on.png)
+   ![&#x200B; Toestemmingen voor verslagtypes met geërfte toestemmingen op &#x200B;](assets/permissions-for-record-types-with-inherited-permissions-on.png)
 
 1. (Facultatief) in **die toegang** heeft, kan **iedereen in de werkruimte** optie bekijken door gebrek worden geselecteerd.  Alle gebruikers met de machtiging Weergave of hoger voor de werkruimte kunnen het recordtype weergeven.
 
@@ -230,11 +230,11 @@ U kunt machtigingen aanpassen voor afzonderlijke recordtypen in een werkruimte a
 
    >[!IMPORTANT]
    >
-   >* Naast teams, groepen, bedrijven, en baanrollen, kunt u slechts met gebruikers delen die aan Adobe Admin Console zijn toegevoegd. U kunt geen gebruikers met alleen Workfront toevoegen. Voor informatie, zie [ gebruikers in Adobe Admin Console ](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md) leiden.
+   >* Naast teams, groepen, bedrijven, en baanrollen, kunt u slechts met gebruikers delen die aan Adobe Admin Console zijn toegevoegd. U kunt geen gebruikers met alleen Workfront toevoegen. Voor informatie, zie [&#x200B; gebruikers in Adobe Admin Console &#x200B;](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md) leiden.
    >* U kunt gebruikers nooit meer machtigingen geven voor een recordtype dan op een werkruimte.
    >* U kunt gebruikers niet minder bevoegdheden geven dan Beheren voor een recordtype, als zij beheerdersmachtigingen voor de werkruimte hebben.
    >* U kunt gebruikers minder bevoegdheden geven aan het recordtype als zij over Contribute-machtigingen voor de werkruimte beschikken.
-   > Voor meer informatie, zie [ Overzicht van het delen van toestemmingen in de Planning van Adobe Workfront ](/help/quicksilver/planning/access/sharing-permissions-overview.md).
+   > Voor meer informatie, zie [&#x200B; Overzicht van het delen van toestemmingen in de Planning van Adobe Workfront &#x200B;](/help/quicksilver/planning/access/sharing-permissions-overview.md).
 
 1. Om gebruikers te geven die geen toestemmingen aan de werkruimtetoegang hebben om een verslagtype, op de **toegang van de Verlening tot dit mening** gebied te bekijken, begin de naam van een gebruiker, een groep, een team, een bedrijf, of baanrol te typen, dan het te klikken wanneer het in de lijst toont.
 
@@ -267,7 +267,7 @@ U kunt gebruikersmachtigingen verwijderen uit een recordtype. Ze behouden echter
    Het **vakje van het Aandeel** opent.
 1. Vind de gebruiker, de groep, het team, het bedrijf, of de baanrol die de toestemmingen u wilt verwijderen, het drop-down menu van toestemmingen rechts van hun naam uitbreiden, dan **verwijderen** klikken. <!--check the screen shot below - the UI text for View might not be accurate-->
 
-   ![ verwijdert optie op verslagtype dat drop-down deelt ](assets/remove-option-on-record-type-sharing-drop-down.png)
+   ![&#x200B; verwijdert optie op verslagtype dat drop-down deelt &#x200B;](assets/remove-option-on-record-type-sharing-drop-down.png)
 
 1. Klik **sparen**.
 
