@@ -54,7 +54,7 @@ Weergaven kunnen worden gemaakt en beheerd op het gebied Verzoeken in Workfront.
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -66,12 +66,12 @@ U kunt een weergave maken in het gebied Verzoeken van Workfront.
 
    {{step1-to-requests}}
 
-1. In de lijst van Verzoeken, klik de **drop-down** Meningen van de Mening ![ en selecteer ](assets/view-icon-requests.png) Nieuwe mening **.**
+1. In de lijst van Verzoeken, klik de **drop-down** Meningen van de Mening ![&#x200B; en selecteer &#x200B;](assets/view-icon-requests.png) Nieuwe mening **.**
 
-   ![ Nieuwe mening ](assets/create-new-view.png)
+   ![&#x200B; Nieuwe mening &#x200B;](assets/create-new-view.png)
 
 1. Ga een naam voor de nieuwe mening in, en klik **creeer**.
-1. Ga aan [ uit uitgeven een mening op het gebied van Verzoeken ](#edit-a-view-in-the-requests-area).
+1. Ga aan [&#x200B; uit uitgeven een mening op het gebied van Verzoeken &#x200B;](#edit-a-view-in-the-requests-area).
 
 ## Een weergave bewerken in het gebied Verzoeken
 
@@ -82,9 +82,9 @@ U kunt bestaande weergaven bewerken, inclusief de weergaven die u zojuist hebt g
    {{step1-to-requests}}
 1. Zoek in de lijst Verzoeken de weergave die u wilt bewerken.
 
-1. (Facultatief) om een mening anders te noemen, klik **dropdown** Meningen ![ en klik het drie-punt menu naast de mening, ](assets/view-icon-requests.png) anders noemen **, dan type in de nieuwe naam voor de mening.**
-1. Klik de **dropdown** drop-down Meningen ![ en selecteer de mening u wilt uitgeven.](assets/view-icon-requests.png)
-1. Om een douanegebied als kolom toe te voegen, klik **kolom** pictogram ![ toevoegen kolom ](assets/add-column.png) dichtbij het recht van het scherm, en klik het plusteken naast het gebied van de douanevorm dat u als kolom aan de mening wilt toevoegen.
+1. (Facultatief) om een mening anders te noemen, klik **dropdown** Meningen ![&#x200B; en klik het drie-punt menu naast de mening, &#x200B;](assets/view-icon-requests.png) anders noemen **, dan type in de nieuwe naam voor de mening.**
+1. Klik de **dropdown** drop-down Meningen ![&#x200B; en selecteer de mening u wilt uitgeven.](assets/view-icon-requests.png)
+1. Om een douanegebied als kolom toe te voegen, klik **kolom** pictogram ![&#x200B; toevoegen kolom &#x200B;](assets/add-column.png) dichtbij het recht van het scherm, en klik het plusteken naast het gebied van de douanevorm dat u als kolom aan de mening wilt toevoegen.
 
    >U kunt aangepaste velden op formulieren die aan het object in de lijst zijn gekoppeld, toevoegen als kolommen.
 
@@ -121,7 +121,7 @@ De aanvraaglijst wordt automatisch gefilterd, aangezien u de filtervoorwaarden t
 
 Een Workfront-beheerder kan de nieuwe weergave toevoegen aan lay-outsjablonen.
 
-Voor instructies, zie [ Filters, Mening, en Groepen aanpassen gebruikend een lay-outmalplaatje ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md).
+Voor instructies, zie [&#x200B; Filters, Mening, en Groepen aanpassen gebruikend een lay-outmalplaatje &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md).
 
 ## Een weergave delen
 
