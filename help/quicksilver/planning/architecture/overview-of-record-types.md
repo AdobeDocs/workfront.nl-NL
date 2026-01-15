@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 1de095b3-78d9-44df-a678-51f4238deb91
-source-git-commit: 40891b0e960e38c4fca55eec428a4e3a6397b316
+source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '352'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 # Overzicht van recordtypen
 
-<span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview"> voor informatie over snelle versies, zie [&#x200B; snelle versies voor uw organisatie &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -32,26 +32,32 @@ De types van verslag zijn de bouwstenen van een werkruimte van de Planning van W
 
 Recordtypen zijn geordend in werkruimten.
 
-Voor informatie over werkruimten, zie [&#x200B; werkruimten &#x200B;](/help/quicksilver/planning/architecture/create-workspaces.md) creëren.
+Voor informatie over werkruimten, zie [ werkruimten ](/help/quicksilver/planning/architecture/create-workspaces.md) creëren.
 
 ## Overzicht van recordtypen
 
 In de Planning van Workfront, kunt u de types van douaneverslag tot stand brengen die aan de behoeften van uw organisatie voldoen.
 
-Voor informatie over het creëren van verslagtypes, zie [&#x200B; recordtypes &#x200B;](/help/quicksilver/planning/architecture/create-record-types.md) creëren.
+Voor informatie over het creëren van verslagtypes, zie [ recordtypes ](/help/quicksilver/planning/architecture/create-record-types.md) creëren.
 
 * Wanneer u een werkruimte maakt op basis van een sjabloon, worden recordtypen gemaakt in de volgende werkruimtesecties:
 
    * **Operationele Types van Verslag**: De types van verslag die strategische plannen, initiatieven, of gepland werk vertegenwoordigen. Campagne, Activiteit, Tactiek, Opportunity zijn bijvoorbeeld operationele recordtypen.
    * **Taxonomies**: De types van verslag die attributen over een operationeel verslagtype vangen. Regio, Adres, Publiek zijn bijvoorbeeld taxonomieën.
 
-  U kunt de naam van deze secties wijzigen, deze verwijderen of meer secties maken.
+  U kunt de secties en de recordtypen een andere naam geven of verwijderen of meer maken.
 
 * Wanneer u een recordtype maakt in een werkruimte die u zelf hebt gemaakt, kunt u het recordtype in elke gewenste sectie plaatsen die u in de werkruimte maakt.
-* Wanneer u een recordtype maakt, kunnen alleen u en de personen die u toegangsrechten tot de werkruimte geven, het recordtype weergeven.
+* Wanneer u een recordtype maakt, hebben alleen u en de personen die u machtigingen geeft voor toegang tot de werkruimte en het recordtype er toegang toe.
 * U moet een werkruimte maken voordat u recordtypen voor de werkruimte kunt maken.
-* Voor beperkingen over hoeveel verslagtypes u in één werkruimte of instantie van Workfront kunt hebben, zie [&#x200B; overzicht van de objectbeperkingen van de Planning van Adobe Workfront &#x200B;](/help/quicksilver/planning/general/limitations-overview.md).
-* <span class="preview"> u kunt verslagtypes als globaal aanwijzen. Algemene recordtypen kunnen als bestaande recordtypen aan andere werkruimten worden toegevoegd. Voor meer informatie, zie [&#x200B; ConfConfigure cross-workspace mogelijkheden voor verslagtypesign &#x200B;](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).</span>
+
+  Voor beperkingen over hoeveel verslagtypes u in één werkruimte of instantie van Workfront kunt hebben, zie [ overzicht van de objectbeperkingen van de Planning van Adobe Workfront ](/help/quicksilver/planning/general/limitations-overview.md).
+* Als u recordtypen in meerdere werkruimten wilt gebruiken, kunt u recordtypen toewijzen als globaal of als aanpasbaar.
+
+   * Algemene recordtypen kunnen als bestaande recordtypen aan andere werkruimten worden toegevoegd.
+   * Verbindbare recordtypen kunnen worden verbonden met andere werkruimten.
+
+  Voor meer informatie, zie [ mogelijkheden van de dwars-werkruimte voor verslagtypes ](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md) vormen.
 
 
 <!--

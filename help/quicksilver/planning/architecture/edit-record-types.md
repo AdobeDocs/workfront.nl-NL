@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7d6de742-9657-4286-968c-1fc78ebbb94e
-source-git-commit: 476e10f2962f19fd17705cb5f20619d3b636aaa4
+source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
 workflow-type: tm+mt
-source-wordcount: '634'
+source-wordcount: '571'
 ht-degree: 0%
 
 ---
@@ -16,13 +16,13 @@ ht-degree: 0%
 
 # Recordtypen bewerken
 
-<span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview"> voor informatie over snelle versies, zie [&#x200B; snelle versies voor uw organisatie &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
-Recordtypen zijn de objecttypen voor Adobe Workfront Planning. U kunt de weergave van recordtypen bewerken die u of iemand anders heeft gemaakt. Voor informatie over het creëren van het verslagtypes van de Planning van Workfront, zie [&#x200B; recordtypes &#x200B;](/help/quicksilver/planning/architecture/create-record-types.md) creëren.
+Recordtypen zijn de objecttypen voor Adobe Workfront Planning. U kunt de weergave van recordtypen bewerken die u of iemand anders heeft gemaakt. Voor informatie over het creëren van het verslagtypes van de Planning van Workfront, zie [ recordtypes ](/help/quicksilver/planning/architecture/create-record-types.md) creëren.
 
 ## Toegangsvereisten
 
@@ -49,7 +49,7 @@ Recordtypen zijn de objecttypen voor Adobe Workfront Planning. U kunt de weergav
 of
 <li><p>Willekeurige workflow en planningpakket voor Prime of Ultimate</p></li></ul>
 
-<div class="preview">
+
 <p>Globale recordtypen configureren:</p>
 
 <ul> 
@@ -58,8 +58,7 @@ of
 <li><p>Willekeurige workflow en planningpakket voor Prime of Ultimate</p></li></ul>
 <p>Neem voor meer informatie over wat er in elk planningspakket voor Workfront staat, contact op met uw Workfront-accountvertegenwoordiger. </p>
 
-</div>
-   </td> </tr>
+</td> </tr>
   <tr> 
    <td role="rowheader"><p>Adobe Workfront-licentie</p></td> 
    <td><p>Standard</p>
@@ -73,7 +72,7 @@ of
 </tbody> 
 </table>
 
-Voor meer informatie over de toegangsvereisten van Workfront, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer informatie over de toegangsvereisten van Workfront, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++   
 
@@ -145,16 +144,15 @@ Voor meer informatie over de toegangsvereisten van Workfront, zie [&#x200B; vere
    De werkruimtepagina wordt geopend en de recordtypen worden weergegeven.
 1. Voer een van de volgende handelingen uit:
 
-   * Beweeg over de kaart van een verslagtype en klik **Meer** menu ![&#x200B; Meer menu &#x200B;](assets/more-menu.png) in de hoger-juiste hoek van de kaart van het verslagtype, dan klik **uitgeven**
-     <span class="preview"> of **Montages**</span>
+   * Beweeg over de kaart van een verslagtype en klik **Meer** menu ![ Meer menu ](assets/more-menu.png) in de hoger-juiste hoek van de kaart van het verslagtype, dan klik **uitgeven** of **Montages**
 of
-   * Klik een kaart van het verslagtype om de verslagtype pagina te openen, klik **Meer** menu ![&#x200B; &#x200B;](assets/more-menu.png) rechts van de naam van het verslagtype, dan klik **uitgeven** <span class="preview"> of **Montages**</span>.
+   * Klik een kaart van het verslagtype om de verslagtype pagina te openen, klik **Meer** menu ![ ](assets/more-menu.png) rechts van de naam van het verslagtype, dan klik **uitgeven** of **Montages**.
 
-   <span class="preview">![&#x200B; Meer menuopties van verslagtype kaart met Montages &#x200B;](assets/more-menu-options-from-record-type-card-with-settings-link.png)</span>
+   ![ Meer menuopties van verslagtype kaart met Montages ](assets/more-menu-options-from-record-type-card-with-settings-link.png)
 
-1. In **geef verslagtype** doos uit, opent het **3&rbrace; lusje van de Verschijning &lbrace;door gebrek.**<!--update screen shot below at production-->
+1. In **geef verslagtype** doos uit, opent het **3} lusje van de Verschijning {door gebrek.**
 
-   ![&#x200B; Weergavetabblad van recordtekstvak bewerken &#x200B;](assets/edit-record-type-box-appearance-tab.png)
+   ![ Weergavetabblad van recordtekstvak bewerken ](assets/edit-record-type-box-appearance-tab.png)
 
    Werk de volgende informatie in het **Verschijning** lusje bij:
 
@@ -164,20 +162,20 @@ of
       * Selecteer een kleur om het recordtype te identificeren. Dit is de kleur van het pictogram voor recordtype.
       * Selecteer een pictogram in de lijst of typ de naam van een pictogram om te beschrijven wat het vertegenwoordigt en selecteer het pictogram wanneer het wordt weergegeven. Dit is het pictogram van het recordtype. Een bestandspictogram is standaard geselecteerd.
 
-1. (Facultatief en voorwaardelijk) als u een systeembeheerder bent, klik de **Geavanceerde montages** <span class="preview"> of **dwars-werkruimtemontages**</span> tabel en werk informatie over de dwars-werkruimtemogelijkheden van het verslagtype bij.
+1. (Facultatief en voorwaardelijk) als u een systeembeheerder bent, klik het **lusje van de montages van de 1} dwars-werkruimte en werk informatie over de mogelijkheden van de dwars-werkruimte van het verslagtype bij.**
 
-   Voor meer informatie, zie [&#x200B; mogelijkheden van de dwars-werkruimte voor verslagtypes &#x200B;](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md) vormen. <!--update screen shot at production - Jan 2026-->
+   Voor meer informatie, zie [ mogelijkheden van de dwars-werkruimte voor verslagtypes ](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md) vormen.
 
-   ![&#x200B; geef verslagtype doos met geavanceerde montages tabel &#x200B;](assets/edit-record-type-box-advanced-settings-tab.png) uit
+   ![ geef verslagtype doos met dwars-werkruimte montages tabel uit ](assets/edit-record-type-box-advanced-settings-tab.png)
 
 1. Klik **sparen**.
 
-   Als u selecteerde om dit verslag van andere werkruimten te verbinden, **pictogram** verbindbare verslag ![&#x200B; verbind van ander spaties pictogram &#x200B;](assets/connect-from-other-workspaces-icon.png) vertoningen op de verslagkaart.
+   Als u selecteerde om dit verslag van andere werkruimten te verbinden, **pictogram** verbindbare verslag ![ verbind van ander spaties pictogram ](assets/connect-from-other-workspaces-icon.png) vertoningen op de verslagkaart.
 
-   <span class="preview"> Als u selecteerde om toe te staan toevoegend dit verslag aan andere werkruimten, **Globale 2&rbrace; pictogram van het verslag** Globale verslagtype ![&#x200B; vertoningen op de verslagkaart. &#x200B;](assets/global-icon.png)</span>
+   Als u selecteerde om toe te staan toevoegend dit verslag aan andere werkruimten, **pictogram van het 1} Globale verslag** Globale verslagtype ![ vertoningen op de verslagkaart.](assets/global-icon.png)
 
 1. (Optioneel) Klik op de kaart met recordtype in de werkruimte om de pagina van het recordtype te openen en geef vervolgens het recordtype in de koptekst een andere naam.
 
 1. (Optioneel) Als u een ander recordtype wilt bewerken, vouwt u de pijl omlaag naar rechts van de naam van een recordtype uit, zoekt u naar een recordtype en selecteert u deze pijl wanneer deze in de lijst wordt weergegeven.
 
-   ![&#x200B; het type van Verslag drop-down op verslagtype pagina met onderzoeksdoos &#x200B;](assets/record-type-drop-down-on-record-type-page-with-search-box.png)
+   ![ het type van Verslag drop-down op verslagtype pagina met onderzoeksdoos ](assets/record-type-drop-down-on-record-type-page-with-search-box.png)

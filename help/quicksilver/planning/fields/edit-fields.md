@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 6c35c313-d6ed-428b-b70d-2ea242da4e8f
-source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
+source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
 workflow-type: tm+mt
-source-wordcount: '979'
+source-wordcount: '919'
 ht-degree: 0%
 
 ---
@@ -18,17 +18,17 @@ ht-degree: 0%
 
 <!--leave the choice value information in yellow till January 2026-->
 
-<span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview"> voor informatie over snelle versies, zie [&#x200B; snelle versies voor uw organisatie &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
 U kunt de instellingen van bestaande velden bewerken in Adobe Workfront Planning.
 
-Voor informatie over het creëren van de gebieden van de Planning van Adobe Workfront, zie [&#x200B; gebieden &#x200B;](/help/quicksilver/planning/fields/create-fields.md) creëren.
+Voor informatie over het creëren van de gebieden van de Planning van Adobe Workfront, zie [ gebieden ](/help/quicksilver/planning/fields/create-fields.md) creëren.
 
-In dit artikel wordt beschreven hoe u de instellingen voor Workfront-planningsvelden kunt bewerken. Voor informatie over het uitgeven van gebiedswaarden voor verslagen, zie [&#x200B; verslagen &#x200B;](/help/quicksilver/planning/records/edit-records.md) uitgeven.
+In dit artikel wordt beschreven hoe u de instellingen voor Workfront-planningsvelden kunt bewerken. Voor informatie over het uitgeven van gebiedswaarden voor verslagen, zie [ verslagen ](/help/quicksilver/planning/records/edit-records.md) uitgeven.
 
 ## Toegangsvereisten
 
@@ -62,7 +62,7 @@ In dit artikel wordt beschreven hoe u de instellingen voor Workfront-planningsve
 </tbody> 
 </table>
 
-Voor meer informatie over de toegangsvereisten van Workfront, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer informatie over de toegangsvereisten van Workfront, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++     
 
@@ -147,7 +147,7 @@ U moet het volgende in overweging nemen voordat u wijzigingen aanbrengt in de co
   >Er is geen bericht aan andere gebruikers dat de gebiedsconfiguratie is veranderd.
 
 * U kunt bestaande opzoekvelden van verbonden records bewerken.
-* Naast het uitgeven van het gebied zoals die in [&#x200B; wordt beschreven geef gebiedsmontages &#x200B;](#edit-field-settings-1) sectie in dit artikel uit, kunt u één enkele of multi-uitgezochte keuzen van het gebied uitgeven wanneer u een verslag in de lijstmening uitgeeft, aangezien u de gebiedswaarden bijwerkt. Voor informatie, zie [&#x200B; nieuwe keuzen aan een bestaand uitgezocht gebied toevoegen wanneer het uitgeven van verslagen in de 1&rbrace; sectie van de lijstmening in dit artikel.](#add-new-choices-to-an-existing-select-field-when-editing-records-in-the-table-view)
+* Naast het uitgeven van het gebied zoals die in [ wordt beschreven geef gebiedsmontages ](#edit-field-settings-1) sectie in dit artikel uit, kunt u één enkele of multi-uitgezochte keuzen van het gebied uitgeven wanneer u een verslag in de lijstmening uitgeeft, aangezien u de gebiedswaarden bijwerkt. Voor informatie, zie [ nieuwe keuzen aan een bestaand uitgezocht gebied toevoegen wanneer het uitgeven van verslagen in de 1} sectie van de lijstmening in dit artikel.](#add-new-choices-to-an-existing-select-field-when-editing-records-in-the-table-view)
 
 <!--at production - April 10, 2025 - remove the last bullet altogether-->
 
@@ -176,11 +176,11 @@ U moet het volgende in overweging nemen voordat u wijzigingen aanbrengt in de co
 
    Dubbelklik op de kolomkop voor het veld.
 
-   ![&#x200B; het menu van de Pijl na naam van gebied in benadrukte lijstkopbal &#x200B;](assets/arrow-menu-after-name-of-field-in-table-header-highlighted.png)
+   ![ het menu van de Pijl na naam van gebied in benadrukte lijstkopbal ](assets/arrow-menu-after-name-of-field-in-table-header-highlighted.png)
 
 1. De informatie van de update over het gebied en klikt **sparen**.
 
-   Voor informatie, zie [&#x200B; gebieden &#x200B;](/help/quicksilver/planning/fields/create-fields.md) creëren.
+   Voor informatie, zie [ gebieden ](/help/quicksilver/planning/fields/create-fields.md) creëren.
 
    <!--insert screen shot when finalized-->
 
@@ -194,7 +194,7 @@ U moet het volgende in overweging nemen voordat u wijzigingen aanbrengt in de co
 
 1. (Voorwaardelijk) voor verbonden verslaggebieden, klik **uitgeeft raadplegingsgebieden** en voeg of verwijder om het even welke raadplegingsgebieden van het verbonden verslagtype toe.
 
-   Voor meer informatie, zie [&#x200B; Connect verslagtypes &#x200B;](/help/quicksilver/planning/architecture/connect-record-types.md).
+   Voor meer informatie, zie [ Connect verslagtypes ](/help/quicksilver/planning/architecture/connect-record-types.md).
 
 
 ## Nieuwe keuzen toevoegen aan een bestaand selectieveld bij het bewerken van records in de tabelweergave
@@ -211,19 +211,19 @@ U kunt nieuwe keuzen aan een bestaand enig of multi-uitgezochte gebied toevoegen
 
 U hebt mogelijk een veld met de naam Status dat één keuze bevat en de opties Nieuw en Gesloten bevat. U wilt dan een keuze toevoegen voor de status In uitvoering. U kunt de keuze toevoegen door een van de volgende handelingen uit te voeren:
 
-* Het veld bewerken. Voor informatie, zie de sectie [&#x200B; gebiedsmontages &#x200B;](#edit-field-settings-1) in dit artikel uitgeven.
+* Het veld bewerken. Voor informatie, zie de sectie [ gebiedsmontages ](#edit-field-settings-1) in dit artikel uitgeven.
 * Een nieuwe optie toevoegen tijdens het bewerken van de record in de tabelweergave, zoals hieronder wordt beschreven.
 
 Een nieuwe keuze toevoegen aan een bestaand selectieveld wanneer u een record bewerkt:
 
 1. Ga naar een pagina met recordtypen en open de tabelweergave.
-1. Voeg het veld Eén of Meerdere selecties toe waaraan u een keuze wilt toevoegen in de tabelweergave als een nieuwe kolom. Voor informatie, zie [&#x200B; gebieden &#x200B;](/help/quicksilver/planning/fields/create-fields.md) creëren.
+1. Voeg het veld Eén of Meerdere selecties toe waaraan u een keuze wilt toevoegen in de tabelweergave als een nieuwe kolom. Voor informatie, zie [ gebieden ](/help/quicksilver/planning/fields/create-fields.md) creëren.
 1. U kunt het veld inline bewerken door te dubbelklikken op de cel voor het veld.
 1. Typ de naam van de keus u wilt toevoegen, dan klik **kiezen** toevoegen.
 
-   ![&#x200B; voeg keus op enig-uitgezocht gebied in lijstmening toe &#x200B;](assets/add-choice-in-table-view-for-single-select-field.png)
+   ![ voeg keus op enig-uitgezocht gebied in lijstmening toe ](assets/add-choice-in-table-view-for-single-select-field.png)
 
    De nieuwe keuze wordt direct toegevoegd aan het veld Eén keuze.
 
-   <span class="preview"> een nieuwe waarde wordt ook toegevoegd aan elke keus. U kunt de keuzevelden gebruiken in API-aanroepen of andere integraties. Voor informatie, zie [&#x200B; gebieden &#x200B;](/help/quicksilver/planning/fields/create-fields.md) creëren.</span>
+   Aan elke keuze wordt ook een nieuwe waarde toegevoegd. U kunt de keuzevelden gebruiken in API-aanroepen of andere integraties. Voor informatie, zie [ gebieden ](/help/quicksilver/planning/fields/create-fields.md) creëren.
 

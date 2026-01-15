@@ -6,9 +6,9 @@ description: Met Home kunt u uw werk beheren. U kunt deze flexibele ruimte aanpa
 author: Courtney
 feature: Get Started with Workfront
 exl-id: eddb2db0-88c5-40f9-ba05-14839a3dfc7f
-source-git-commit: ba5089fd02ca099d25ce0d3c2c2c039c2c6e2fe2
+source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
 workflow-type: tm+mt
-source-wordcount: '1134'
+source-wordcount: '991'
 ht-degree: 0%
 
 ---
@@ -17,9 +17,9 @@ ht-degree: 0%
 
 <!--Audited: 12/2023-->
 
-<span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview"> voor informatie over snelle versies, zie [&#x200B; snelle versies voor uw organisatie &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 >[!IMPORTANT]
 >
@@ -37,7 +37,7 @@ Het nieuwe Huis wordt ontworpen om hoogst aanpasbaar te zijn, toestaand u om wid
 
 Widgets vormen de basis van het nieuwe startpunt. Door widgets aan uw startpagina toe te voegen, kunt u het type informatie kiezen dat wordt weergegeven om optimaal aan uw werkbehoeften te voldoen. Sommige widgets zijn alleen beschikbaar voor specifieke licentietypen, aangezien de objecten die ze bijhouden alleen beschikbaar zijn voor die licenties.
 
-Voor informatie bij het toevoegen van, het bewegen van, het resizing van, of het schrappen van widgets, zie [&#x200B; toevoegen, uitgeven, of verwijder widgets in Nieuw Huis &#x200B;](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md).
+Voor informatie bij het toevoegen van, het bewegen van, het resizing van, of het schrappen van widgets, zie [ toevoegen, uitgeven, of verwijder widgets in Nieuw Huis ](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md).
 
 Hieronder vindt u een overzicht van de 11 widgets die u momenteel kunt kiezen, en een overzicht van de gegevens die worden weergegeven:
 
@@ -67,16 +67,13 @@ Hieronder vindt u een overzicht van de 11 widgets die u momenteel kunt kiezen, e
     Toont al uw hangende, toegewezen, gedelegeerde en verzonden goedkeuringen; een knoop om goedkeuringen te delegeren; en knopen om goedkeuringsbesluiten direct binnen widget te nemen.
 
 * **metriek van de Goedkeuring van het Document**\
-        Toont 2 grafieken met informatie over gemiddelde tijd en besluiten van de documentgoedkeuring evenals lijstmeningen van hangende en achterstallige goedkeuringen. U moet [&#x200B; Verenigde Goedkeuringen &#x200B;](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md) hebben die worden toegelaten om deze widget te gebruiken.
+        Toont 2 grafieken met informatie over gemiddelde tijd en besluiten van de documentgoedkeuring evenals lijstmeningen van hangende en achterstallige goedkeuringen. U moet [ Verenigde Goedkeuringen ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md) hebben die worden toegelaten om deze widget te gebruiken.
 
 * **Vermeldingen**\
-    In de productieomgeving worden recente commentaarthreads uit Workfront weergegeven, vergelijkbaar met de pagina Mijn updates. U kunt de antwoordknoop gebruiken om een antwoord binnen widget samen te stellen. Deze widget bevat ook opmerkingen over taken en problemen die u hebt toegewezen, die u hebt toegewezen aan een andere gebruiker, die u hebt, waarop u primair contact hebt gemaakt of die u hebt gemaakt, zolang de taak of uitgave in de afgelopen 30 dagen is bijgewerkt.
+        U ziet hier recente opmerkingen die u hebt gemaakt of opmerkingen waar andere gebruikers u labelden die u in de afgelopen twee weken hebt toegevoegd. U kunt de antwoordknoop gebruiken om een antwoord binnen widget samen te stellen.
 
-  <div class="preview">
+  <!--old: In the Production environment, it displays recent comment threads from across Workfront, similar to the My Updates page. You can use the reply button to compose a reply within the widget. This widget also shows comments made on tasks and issues that you are assigned to, that you assigned to another user, that you own, that you are primary contact on, or that you created—as long as the task or issue has been updated in the last 30 days.-->
 
-  In de voorvertoningsomgeving worden recente opmerkingen die u hebt gemaakt of opmerkingen weergegeven waar andere gebruikers u labelden die u in de afgelopen twee weken hebt toegevoegd. U kunt de antwoordknoop gebruiken om een antwoord binnen widget samen te stellen.
-
-  </div>
 
 * **aan-doet**\
     Met deze unieke widget kunt u items toevoegen aan een persoonlijke controlelijst die u kunt bewerken. To-dos worden bijgehouden als taken in uw persoonlijke project, en blijven tot twee weken na voltooiing.
@@ -149,12 +146,12 @@ U kunt een beetje persoonlijke flakkering aan uw Homepage toevoegen door een kle
 
 1. Ga naar uw startpagina door een van de volgende handelingen uit te voeren:
 
-   * Als het Huis als uw het landen pagina wordt geplaatst, klik het **pictogram van Adobe Workfront** het Pictogram van Adobe Workfront ![&#x200B; in de upper-left hoek van uw scherm.](assets/home-icon-30x29.png)
-   * Klik het **Belangrijkste pictogram van het Menu** in de hoger-juiste hoek van het scherm, of het **Belangrijkste pictogram van het Menu** pictogram van het Menu ![&#x200B; Hoofd &#x200B;](assets/main-menu-icon.png) in de upper-left hoek, als beschikbaar, dan klik **Huis**.
+   * Als het Huis als uw het landen pagina wordt geplaatst, klik het **pictogram van Adobe Workfront** het Pictogram van Adobe Workfront ![ in de upper-left hoek van uw scherm.](assets/home-icon-30x29.png)
+   * Klik het **Belangrijkste pictogram van het Menu** in de hoger-juiste hoek van het scherm, of het **Belangrijkste pictogram van het Menu** pictogram van het Menu ![ Hoofd ](assets/main-menu-icon.png) in de upper-left hoek, als beschikbaar, dan klik **Huis**.
 
 1. Klik **aanpassen** bij de hoger-juiste hoek van het scherm.
 
-   ![&#x200B; pas Knoop &#x200B;](assets/customize-button.png) aan
+   ![ pas Knoop ](assets/customize-button.png) aan
 
    Het deelvenster Aanpassen wordt geopend.
 
