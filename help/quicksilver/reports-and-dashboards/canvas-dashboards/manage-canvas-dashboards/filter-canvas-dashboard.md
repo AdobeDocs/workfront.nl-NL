@@ -6,21 +6,19 @@ description: U kunt een filter op een dashboard van het Canvas toepassen nadat h
 author: Courtney and Jenny
 feature: Reports and Dashboards
 exl-id: 156e9d3f-49f6-4372-9749-c7124ff5baee
-source-git-commit: 39a8d670baa19aa37e29b0312e6c9a296569f44c
+source-git-commit: c6458d777726092d74e8b031f5c14dfd58710e11
 workflow-type: tm+mt
-source-wordcount: '1013'
+source-wordcount: '989'
 ht-degree: 0%
 
 ---
 
 # Een canvasdashboard filteren
 
-<span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Het is beschikbaar slechts in het milieu van de Voorproef voor alle klanten.</span>
-
 >[!IMPORTANT]
 >
->De functie Canvasdashboards is momenteel alleen beschikbaar voor gebruikers die deelnemen aan de bètafase. Onderdelen van het onderdeel zijn mogelijk niet compleet of werken niet zoals bedoeld in deze fase. Gelieve te dienen om het even welke terugkoppelen betreffende uw ervaring door de instructies in [&#x200B; te volgen verstrekt &#x200B;](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) sectie in het de bètaoverzichtsartikel van de dashboards van het Canvas.<br>
->Als u feedback hebt over een mogelijk probleem met een probleem of een technisch probleem, stuurt u een ticket naar Workfront Support. Voor meer informatie, zie [&#x200B; de Steun van de Klant van het Contact &#x200B;](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
+>De functie Canvasdashboards is momenteel alleen beschikbaar voor gebruikers die deelnemen aan de bètafase. Onderdelen van het onderdeel zijn mogelijk niet compleet of werken niet zoals bedoeld in deze fase. Gelieve te dienen om het even welke terugkoppelen betreffende uw ervaring door de instructies in [ te volgen verstrekt ](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) sectie in het de bètaoverzichtsartikel van de dashboards van het Canvas.<br>
+>Als u feedback hebt over een mogelijk probleem met een probleem of een technisch probleem, stuurt u een ticket naar Workfront Support. Voor meer informatie, zie [ de Steun van de Klant van het Contact ](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
 >Deze bètaversie is niet beschikbaar op de volgende cloudproviders:
 >
 >* Je eigen sleutel voor Amazon Web Services
@@ -68,14 +66,14 @@ U kunt een filter op een dashboard van het Canvas toepassen dat herinneringen be
 </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 +++
 
 ## Vereisten
 
 U moet een dashboard maken voordat u het kunt filteren.
 
-Voor meer informatie, zie [&#x200B; een Dashboard van het Canvas &#x200B;](/help/quicksilver/reports-and-dashboards/canvas-dashboards/create-dashboards/create-dashboards.md) creëren.
+Voor meer informatie, zie [ een Dashboard van het Canvas ](/help/quicksilver/reports-and-dashboards/canvas-dashboards/create-dashboards/create-dashboards.md) creëren.
 
 ## Een dashboard filteren
 
@@ -113,7 +111,7 @@ Met een dashboardfilter, kunt u een gemeenschappelijke filter over alle rapporte
 
    1. Selecteer **uitgeven** pictogram aan het recht van de regeldoos.
 
-      ![&#x200B; geef pictogram &#x200B;](assets/edit-icon.png) uit
+      ![ geef pictogram ](assets/edit-icon.png) uit
 
    1. Klik **toevoegen voorwaarde** en voeg dan de volgende informatie toe:
       * Selecteer een veld waarop u wilt filteren.
@@ -121,7 +119,7 @@ Met een dashboardfilter, kunt u een gemeenschappelijke filter over alle rapporte
 
    1. (Facultatief) klik **toevoegen filtergroep** om een andere reeks het filtreren criteria toe te voegen. De standaardoperator tussen de sets is AND. Klik op de operator om deze te wijzigen in OR.
 
-1. Ga aan [&#x200B; Deel 2 te werk: Creeer een dashboardherinnering &#x200B;](#part-2-define-a-dashboard-prompt).
+1. Ga aan [ Deel 2 te werk: Creeer een dashboardherinnering ](#part-2-define-a-dashboard-prompt).
 
 
 ### Deel 2: Een dashboardprompt definiëren
@@ -148,7 +146,7 @@ Met een dashboardprompt kunnen gebruikers extra aangepaste filters toepassen op 
 
    1. Klik **toevoegen nieuwe optie**.
 
-   1. Ga de snelle naam op het **gebied van de Waarde van de Optie 0&rbrace; in.**
+   1. Ga de snelle naam op het **gebied van de Waarde van de Optie 0} in.**
 
    1. Klik **toevoegen voorwaarde** en specificeer dan het gebied u tegen en de bepaling wilt filtreren die bepaalt welk soort voorwaarde het gebied moet ontmoeten.
 
@@ -161,7 +159,7 @@ Met een dashboardprompt kunnen gebruikers extra aangepaste filters toepassen op 
 
 1. Klik **sparen** om de filter op het dashboard toe te passen.
 
-1. Ga aan [&#x200B; Deel 3 te werk: Pas een dashboardherinnering &#x200B;](#step-3-apply-a-dashboard-prompt) toe.
+1. Ga aan [ Deel 3 te werk: Pas een dashboardherinnering ](#step-3-apply-a-dashboard-prompt) toe.
 
 ### Stap 3: Een dashboardprompt toepassen
 
@@ -176,11 +174,10 @@ Alle gebruikers met toegang tot een dashboard kunnen een dashboardherinnering op
 1. In de upper-left hoek van de pagina van dashboarddetails, klik **Filters**. Het paneel Filters wordt geopend.
 
 1. In **toon verslagen waar...** sectie, kies een voorwaarde voor één of alle getoonde herinneringen. De herinnering wordt toegepast en de toegepaste filters van het a **dashboard** markering verschijnt in de hoek van de rapportwidget.
-   ![&#x200B; Uitgezochte voorwaarde &#x200B;](assets/prompts-list.png)
+   ![ Uitgezochte voorwaarde ](assets/prompts-list.png)
 
-1. Klik het **Dichte** pictogram ![&#x200B; dicht pictogram &#x200B;](assets/close-icon.png) in de hoger-juiste hoek om het paneel te verbergen.
+1. Klik het **Dichte** pictogram ![ dicht pictogram ](assets/close-icon.png) in de hoger-juiste hoek om het paneel te verbergen.
 
-<span class="preview">
 
 ## Een dashboard filteren op valutatype
 
@@ -195,6 +192,4 @@ Het valutatype voor het dashboard wijzigen,
 1. Klik op het vervolgkeuzemenu Valuta in de rechterbovenhoek van de pagina met dashboarddetails.
 1. Selecteer het gewenste valutatype in de lijst.
 
-   ![&#x200B; daling van de veranderingsmunt neer &#x200B;](assets/filter-by-currency.png)
-
-</span>
+   ![ daling van de veranderingsmunt neer ](assets/filter-by-currency.png)
