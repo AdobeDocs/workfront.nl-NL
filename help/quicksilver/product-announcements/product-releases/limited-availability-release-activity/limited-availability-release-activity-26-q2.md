@@ -22,7 +22,7 @@ In dit artikel worden de Workfront-functies voor beperkte beschikbaarheid beschr
 
 <!--keep the sentence below for all future quarterly release pages-->
 
-Voor een lijst van alle beperkte beschikbaarheidseigenschappen die voor Adobe Workfront worden vrijgegeven, zie [ Adobe Workfront beperkte de activiteit van de beschikbaarheidseigenschappen vrijgeven: artikelindex ](/help/quicksilver/product-announcements/product-releases/limited-availability-release-activity/limited-availability-release-activity-article-index.md).
+Voor een lijst van alle beperkte beschikbaarheidseigenschappen die voor Adobe Workfront worden vrijgegeven, zie [&#x200B; Adobe Workfront beperkte de activiteit van de beschikbaarheidseigenschappen vrijgeven: artikelindex &#x200B;](/help/quicksilver/product-announcements/product-releases/limited-availability-release-activity/limited-availability-release-activity-article-index.md).
 
 ## Opmerkingen bij de release met functies voor beperkte beschikbaarheid
 
