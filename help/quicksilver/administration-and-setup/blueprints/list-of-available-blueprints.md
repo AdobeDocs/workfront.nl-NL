@@ -8,9 +8,9 @@ author: Jenny
 feature: System Setup and Administration
 role: Admin
 exl-id: a5cdcb89-71c0-43f0-a5cf-dc99fac542ba
-source-git-commit: a31b6f9af4682c64da9e5a887f2bd2e13f259ce3
+source-git-commit: 08305c9e82b7ba56a1a03fa351e643916bbfe44e
 workflow-type: tm+mt
-source-wordcount: '1941'
+source-wordcount: '1939'
 ht-degree: 0%
 
 ---
@@ -19,9 +19,9 @@ ht-degree: 0%
 
 <!-- Audited: 5/2025 -->
 
-De volgende [!DNL Adobe Workfront] -blauwdrukken zijn beschikbaar voor systeembeheerders. Voor meer informatie over blauwdrukken, zie [&#x200B; Overzicht van Vervagen &#x200B;](/help/quicksilver/administration-and-setup/blueprints/blueprints-overview.md).
+De volgende [!DNL Adobe Workfront] -blauwdrukken zijn beschikbaar voor systeembeheerders. Voor meer informatie over blauwdrukken, zie [ Overzicht van Vervagen ](/help/quicksilver/administration-and-setup/blueprints/blueprints-overview.md).
 
-[!BADGE &#x200B; Nieuw!]{type=Informative} **[!UICONTROL Active User Analysis Reports]**
+**[!UICONTROL Active User Analysis Reports]**
 Deze blauwdruk bevat een dashboard om beheerders te helpen gebruikersinstellingen te valideren, onjuiste uitlijningen te identificeren en te zorgen voor configuratieondersteuning voor bedoeld gebruik door de toepassing. &#x200B;
 
 **[!UICONTROL Add New Employee IT Checklist]**
@@ -30,7 +30,7 @@ Deze blauwdruk bevat een sjabloon die de [!DNL Workfront] Professional Services 
 **[!UICONTROL Annual Budget Planning]**
 Deze blauwdruk bevat een sjabloon die de [!DNL Workfront] Professional Services Organization al jaren gebruikt tijdens implementatieafspraken met financiële teams om de activiteiten rond de jaarlijkse begrotingsplanning te organiseren. De sjabloon helpt verwachtingen in te stellen bij de leiders van bedrijfseenheden en begeleidt hen door het proces om budgetten tijdens het jaarlijkse planningsproces aan te vragen en te reserveren.
 
-[!BADGE &#x200B; Nieuw!]{type=Informative} **[!UICONTROL Baseline Dashboard]**
+**[!UICONTROL Baseline Dashboard]**
 Deze blauwdruk bevat een dashboard om u te helpen slimmere, snellere projectbesluiten maken. De basislijnen geven u de capaciteit om te vergelijken wat gepland tegenover was wat gebeurde, latend u probleemtaken, werkingsgebied creep, en projecttendensen in een oogopslag. Het basislijndashboard bevat de volgende rapporten: Basislijn | In uitvoering zijnde projecten, basislijn | Voltooide projecten, basislijn | In uitvoering Taken, en Basislijn | Voltooide taken.
 
 **[!UICONTROL Contracted Services Delivery Plan]**
@@ -42,16 +42,16 @@ Deze blauwdruk bevat een sjabloon die de [!DNL Workfront] Professional Services 
 **[!UICONTROL Deactivate Terminated Employee IT Checklist]**
 Deze blauwdruk bevat een sjabloon die de [!DNL Workfront] Professional Services Organization al jaren gebruikt tijdens implementatieafspraken met IT-teams van bedrijven om de verschillende activiteiten te beheren die moeten plaatsvinden wanneer een werknemer zijn baan beëindigt. Het is essentieel om de toegang van de werknemers te deactiveren en andere systeemveranderingen aan te brengen om risicoblootstelling te verminderen en ervoor te zorgen andere teamleden productief kunnen blijven in de afwezigheid van de vertrekkende werknemer.
 
-**[!UICONTROL Digital Asset Production] (Geïntegreerd)**
+**[!UICONTROL Digital Asset Production](Geïntegreerd)**
 De [!UICONTROL Digital Asset Production] -blauwdruk voor geïntegreerde processen bevat een sjabloon die het werk ordent voor een standaard digitaal productieproces. Het malplaatje verstrekt een len proces voor originele digitale activa verwezenlijking voor een team dat op standaardwerkende procedures baseert om te bepalen hoe te om het werk te doen en het project slechts gebruikt om aan het werk voorrang te geven en vooruitgang te volgen.
 
-**[!UICONTROL Digital Asset Production] (Beheerd)**
+**[!UICONTROL Digital Asset Production](Beheerd)**
 Het [!UICONTROL Digital Asset Production] -pakket bevat een sjabloon waarmee het werk voor een standaard digitaal productieproces wordt georganiseerd. Het is bedoeld als toegangspunt voor het beheer van het maken van digitale middelen in Workfront. Met dit pakket kunt u een basis maken voor het maken van digitale inhoud en deze vervolgens aanpassen aan de behoeften van andere creatieve processen voor digitale materialen.
 
-**[!UICONTROL Digital Asset Revision] (Geïntegreerd)**
+**[!UICONTROL Digital Asset Revision](Geïntegreerd)**
 De [!UICONTROL Digital Asset Revision] -blauwdruk voor een geïntegreerd proces bevat één sjabloon om het werkproces te organiseren dat gepaard gaat met het reviseren van een bestaand element. Het malplaatje verstrekt een len proces voor een team dat zich op standaardwerkende procedures baseert om te bepalen hoe te het werk te doen en het project slechts gebruikt om aan het werk voorrang te geven en vooruitgang te volgen.
 
-**[!UICONTROL Digital Asset Revision] (Beheerd)**
+**[!UICONTROL Digital Asset Revision](Beheerd)**
 Het [!UICONTROL Digital Asset Revision] -pakket bevat één sjabloon om het werk te ordenen dat is gekoppeld aan een revisie van een bestaand element. De sjabloon biedt een gestroomlijnd proces voor een elementrevisie en creëert tegelijkertijd een consistente ervaring in vergelijking met een nieuw project voor middelenproductie.
 
 **[!UICONTROL Edit Transferring Employee IT Checklist]**
@@ -99,10 +99,10 @@ Deze blauwdruk bevat één dashboard met 12 rapporten om mensen managers zichtba
 **[!UICONTROL Post-Implementation: New Use Case Rollout]**
 Deze blauwdruk bevat één enkel malplaatje dat het werk organiseert dat een [!DNL Workfront] klant zal moeten voltooien om de uitbreiding aan volgende processen na hun aanvankelijke implementatie te beheren.
 
-**[!UICONTROL Print Asset Production] (Geïntegreerd)**
+**[!UICONTROL Print Asset Production](Geïntegreerd)**
 Het [!UICONTROL Print Asset Production] -pakket bevat een sjabloon waarmee het werk wordt gerangschikt voor een standaardafdrukproductieproces. Het malplaatje verstrekt een len proces voor de originele verwezenlijking van drukactiva voor een team dat zich op standaardwerkende procedures baseert om te bepalen hoe te het werk te doen en het project slechts gebruikt om aan het werk voorrang te geven en vooruitgang te volgen.
 
-**[!UICONTROL Print Asset Production] (Beheerd)**
+**[!UICONTROL Print Asset Production](Beheerd)**
 Het [!UICONTROL Print Asset Production] -pakket bevat een sjabloon waarmee het werk wordt gerangschikt voor een standaardafdrukproductieproces. Dit pakket is bedoeld als ingangspunt voor het beheer van het maken van afdrukmiddelen in Workfront. Met dit pakket kunt u een basis maken voor het maken van afdrukinhoud en deze vervolgens aanpassen aan de behoeften van andere creatieve processen voor gedrukte materialen.
 
 **[!UICONTROL Print: Direct Mail Asset Production]**
@@ -126,10 +126,10 @@ Gebruik deze blauwdruk om ervoor te zorgen dat u de juiste instellingen en infor
 **[!UICONTROL Risk Control Self Assessment: Quarterly Attestation]**
 [!UICONTROL Risk Control Self Assessment] (RSCA) definieert een proces om risico&#39;s te identificeren en de besturingselementen te meten die uw organisatie heeft om deze risico&#39;s te beperken. Dit malplaatje verstrekt een structuur om u te helpen een eerste risicoregister opbouwen, een plan opstellen om elk risico te verlichten, en documentatie verstrekken om het controlewerk te tonen.
 
-**[!UICONTROL Social Asset Production] (Geïntegreerd)**
+**[!UICONTROL Social Asset Production](Geïntegreerd)**
 Het [!UICONTROL Social Asset Production] -pakket bevat een sjabloon die het werk ordent om een sociaal artefact te maken. Het malplaatje verstrekt een len proces voor originele sociale activa creatie voor een team dat op standaardwerkende procedures baseert om te bepalen hoe te om het werk te doen en het project slechts gebruikt om werk voorrang te geven en vooruitgang te volgen.
 
-**[!UICONTROL Social Asset Production] (Beheerd)**
+**[!UICONTROL Social Asset Production](Beheerd)**
 Het [!UICONTROL Social Asset Production] -pakket bevat een sjabloon die het werk ordent om een sociaal artefact te maken. Het is bedoeld als toegangspunt voor het beheren van sociale activa creëren in Workfront. Met dit pakket kunt u een basis leggen voor alle processen voor het maken van sociale inhoud door deze aan te passen aan de behoeften van andere creatieve processen voor sociale inhoud.
 
 **[!UICONTROL Software Implementations/App Development]**
@@ -154,11 +154,11 @@ Deze blauwdruk bevat één dashboard met 7 rapporten om u te helpen de waarde va
 
 Deze blauwdruk bevat één dashboard met 7 rapporten om u te helpen de waarde van Workfront realiseren. Met deze rapporten kunt u de waarden van Reviseren en goedkeuren omzetten in meetbare voordelen die u in de loop der tijd kunt bijhouden om betere resultaten te behalen.
 
-**[!UICONTROL Video Asset Production] (Geïntegreerd)**
+**[!UICONTROL Video Asset Production](Geïntegreerd)**
 
 Het [!UICONTROL Video Asset Production] -pakket bevat een sjabloon waarmee het werkproces voor een standaard videoproductieproces wordt georganiseerd. Het malplaatje verstrekt een len proces voor de originele videoactiva verwezenlijking voor een team dat zich op standaard werkende procedures baseert om te bepalen hoe te het werk te doen en het project slechts gebruikt om aan het werk voorrang te geven en vooruitgang te volgen.
 
-**[!UICONTROL Video Asset Production] (Beheerd)**
+**[!UICONTROL Video Asset Production](Beheerd)**
 Het pakket [!UICONTROL Video Asset Production] bevat een sjabloon waarmee het werk voor een standaardvideoproductieproces wordt georganiseerd. Dit pakket is bedoeld als ingangspunt voor het beheer van het maken van video-elementen in Workfront. Met dit pakket kunt u een basis maken voor het maken van video-inhoud en deze vervolgens aanpassen aan de behoeften van andere creatieve processen voor gespecialiseerde typen videomateriaal.
 
 **[!UICONTROL [!DNL Workfront] Communication and Launch Template]**
