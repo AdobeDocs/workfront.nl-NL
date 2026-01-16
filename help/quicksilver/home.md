@@ -49,7 +49,7 @@ Welkom bij de startpagina voor Adobe Workfront-producten en technische documenta
 * [Second Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md)
 * [Third Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md)
 * [Fourth Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md)
-* [Adobe Workfront Fusion release activity](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)
+* [Adobe Workfront Fusion release activity](https://experienceleague.adobe.com/nl/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)
 * [Adobe Workfront Planning Fourth Quarter 2025 release activity](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-24-q4.md)
 
 -->
@@ -60,8 +60,8 @@ Welkom bij de startpagina voor Adobe Workfront-producten en technische documenta
 
 >[!TAB  Bekende Kwesties ]
 
-* [&#x200B; Bekende Kwesties &#x200B;](https://experienceleague.adobe.com/en/docs/workfront-known-issues/issues/overview)
-* [&#x200B; Updates van het Onderhoud &#x200B;](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates)
+* [&#x200B; Bekende Kwesties &#x200B;](https://experienceleague.adobe.com/nl/docs/workfront-known-issues/issues/overview)
+* [&#x200B; Updates van het Onderhoud &#x200B;](https://experienceleague.adobe.com/nl/docs/workfront-known-issues/releases/current-updates)
 
 
 >[!ENDTABS]
@@ -80,7 +80,7 @@ Welkom bij de startpagina voor Adobe Workfront-producten en technische documenta
     <td>
     <ul>
     <li><a href="/help/quicksilver/administration-and-setup/get-started-wf-administration/get-started-with-wf-administration.md">Aan de slag met Workfront Administration</a></li>
-    <li><a href="https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/get-started-fusion-toc">Aan de slag met Workfront Fusion</li>
+    <li><a href="https://experienceleague.adobe.com/nl/docs/workfront-fusion/using/get-started-with-fusion/get-started-fusion-toc">Aan de slag met Workfront Fusion</li>
     <li><a href="/help/quicksilver/app-builder/install-apps-on-exchange.md">Toepassingen ophalen en installeren vanuit Adobe Exchange</a></li>
     </ul>
  </td>
@@ -120,8 +120,8 @@ Het zoeken naar documentatie kan efficiënter zijn met een paar strategische ben
 
 ### Secties voor leren en training verkennen
 
-* **de Materialen van de Opleiding**: Navigeer aan de [&#x200B; de opleiding van Workfront &#x200B;](https://experienceleague.adobe.com/en/browse/workfront) pagina voor een bibliotheek van opleidingsvideo&#39;s en artikelen die worden ontworpen om u te helpen de eigenschappen en de montages van Workfront beter begrijpen. U kunt tot betaalde trainingsmaterialen bij [&#x200B; leren.adobe.com &#x200B;](https://learning.adobe.com/) ook toegang hebben.
-* **Cursussen**: Vind [&#x200B; gestructureerde het leren cursussen &#x200B;](https://experienceleague.adobe.com/home?Solution=Workfront#courses) die u door het gebruiken van diverse eigenschappen van Workfront in een logische opeenvolging begeleiden.
+* **de Materialen van de Opleiding**: Navigeer aan de [&#x200B; de opleiding van Workfront &#x200B;](https://experienceleague.adobe.com/nl/browse/workfront) pagina voor een bibliotheek van opleidingsvideo&#39;s en artikelen die worden ontworpen om u te helpen de eigenschappen en de montages van Workfront beter begrijpen. U kunt tot betaalde trainingsmaterialen bij [&#x200B; leren.adobe.com &#x200B;](https://learning.adobe.com/) ook toegang hebben.
+* **Cursussen**: Vind [&#x200B; gestructureerde het leren cursussen &#x200B;](https://experienceleague.adobe.com/home?lang=nl-NL&Solution=Workfront#courses) die u door het gebruiken van diverse eigenschappen van Workfront in een logische opeenvolging begeleiden.
 
 ### Antwoorden zoeken in communityforums
 
