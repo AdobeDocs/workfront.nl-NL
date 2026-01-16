@@ -8,7 +8,7 @@ role: Admin
 recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
-source-git-commit: 387a84c4bf511424a0c15bd65748987c1611cee5
+source-git-commit: 7dca87a4f73fed9597f2a623b969569aa03cf5b3
 workflow-type: tm+mt
 source-wordcount: '114'
 ht-degree: 0%
@@ -22,7 +22,7 @@ In dit artikel worden de Workfront-functies voor beperkte beschikbaarheid beschr
 
 <!--keep the sentence below for all future quarterly release pages-->
 
-Voor een lijst van alle beperkte beschikbaarheidseigenschappen die voor Adobe Workfront worden vrijgegeven, zie [&#x200B; Adobe Workfront beperkte de activiteit van de beschikbaarheidseigenschappen vrijgeven: artikelindex &#x200B;](/help/quicksilver/product-announcements/product-releases/limited-availability-release-activity/limited-availability-release-activity-article-index.md).
+Voor een lijst van alle beperkte beschikbaarheidseigenschappen die voor Adobe Workfront worden vrijgegeven, zie [ Adobe Workfront beperkte de activiteit van de beschikbaarheidseigenschappen vrijgeven: artikelindex ](/help/quicksilver/product-announcements/product-releases/limited-availability-release-activity/limited-availability-release-activity-article-index.md).
 
 ## Opmerkingen bij de release met functies voor beperkte beschikbaarheid
 
@@ -48,6 +48,12 @@ In deze sectie worden de problemen beschreven die zijn opgelost in de wekelijkse
 text
 
 ### Maintenance Updates week of January 25-31, 2026
+
+**Title**
+
+text
+
+### Maintenance Updates week of February 1-7, 2026
 
 **Title**
 
