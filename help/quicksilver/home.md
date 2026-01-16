@@ -60,8 +60,8 @@ Welkom bij de startpagina voor Adobe Workfront-producten en technische documenta
 
 >[!TAB  Bekende Kwesties ]
 
-* [ Bekende Kwesties ](https://experienceleague.adobe.com/en/docs/workfront-known-issues/issues/overview)
-* [ Updates van het Onderhoud ](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates)
+* [&#x200B; Bekende Kwesties &#x200B;](https://experienceleague.adobe.com/en/docs/workfront-known-issues/issues/overview)
+* [&#x200B; Updates van het Onderhoud &#x200B;](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates)
 
 
 >[!ENDTABS]
@@ -120,9 +120,9 @@ Het zoeken naar documentatie kan efficiënter zijn met een paar strategische ben
 
 ### Secties voor leren en training verkennen
 
-* **de Materialen van de Opleiding**: Navigeer aan de [ de opleiding van Workfront ](https://experienceleague.adobe.com/en/browse/workfront) pagina voor een bibliotheek van opleidingsvideo&#39;s en artikelen die worden ontworpen om u te helpen de eigenschappen en de montages van Workfront beter begrijpen. U kunt tot betaalde trainingsmaterialen bij [ leren.adobe.com ](https://learning.adobe.com/) ook toegang hebben.
-* **Cursussen**: Vind [ gestructureerde het leren cursussen ](https://experienceleague.adobe.com/home?Solution=Workfront#courses) die u door het gebruiken van diverse eigenschappen van Workfront in een logische opeenvolging begeleiden.
+* **de Materialen van de Opleiding**: Navigeer aan de [&#x200B; de opleiding van Workfront &#x200B;](https://experienceleague.adobe.com/en/browse/workfront) pagina voor een bibliotheek van opleidingsvideo&#39;s en artikelen die worden ontworpen om u te helpen de eigenschappen en de montages van Workfront beter begrijpen. U kunt tot betaalde trainingsmaterialen bij [&#x200B; leren.adobe.com &#x200B;](https://learning.adobe.com/) ook toegang hebben.
+* **Cursussen**: Vind [&#x200B; gestructureerde het leren cursussen &#x200B;](https://experienceleague.adobe.com/home?Solution=Workfront#courses) die u door het gebruiken van diverse eigenschappen van Workfront in een logische opeenvolging begeleiden.
 
 ### Antwoorden zoeken in communityforums
 
-* **Vraag Vragen**: Als de documentatie uw vraag niet beantwoordt, probeer post in de [ Communautaire forums van Workfront ](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront?profile.language=en) waar andere gebruikers en deskundigen hulp kunnen aanbieden.
+* **Vraag Vragen**: Als de documentatie uw vraag niet beantwoordt, probeer post in de [&#x200B; Communautaire forums van Workfront &#x200B;](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront?profile.language=en) waar andere gebruikers en deskundigen hulp kunnen aanbieden.
