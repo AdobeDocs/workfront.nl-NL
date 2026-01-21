@@ -1,15 +1,15 @@
 ---
 title: 'Het 30-daagse startblok: uw strategische startpunt implementeren'
-description: Leer hoe te om de Planning van Workfront (WFP) uit te voeren gebruikend een strategie die psychologische veiligheid voorrang geeft, verstoring minimaliseert, en snelle wint levert.
+description: Leer hoe u Workfront Planning kunt implementeren met behulp van een strategie die psychologische veiligheid prioriteit geeft, verstoring minimaliseert en snelle wint biedt.
 feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 hidefromtoc: true
 hide: true
-source-git-commit: 77ef50ebd583f0a46324e5cbdc4feea9d21f4280
+source-git-commit: 1158a49fc0b39ef49f23326935d4635530501687
 workflow-type: tm+mt
-source-wordcount: '971'
+source-wordcount: '975'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 ## Goal
 
-Leer hoe te om de Planning van Workfront (WFP) uit te voeren gebruikend een strategie die psychologische veiligheid voorrang geeft, verstoring minimaliseert, en snelle wint levert.
+Leer hoe u Workfront Planning kunt implementeren met behulp van een strategie die psychologische veiligheid prioriteit geeft, verstoring minimaliseert en snelle wint biedt.
 
 
 
@@ -48,9 +48,9 @@ Om deze evolutionaire verschuiving te activeren, kiest u een proefteam dat klaar
 
 
 
-* **de Parallelle Weg (dubbel-Volgend):** het team handhaaft hun huidige werkschema terwijl gelijktijdig het modelleren van hun volgende planningscyclus in WFP. Dit creëert &quot;spiergeheugen&quot; en vertrouwen zonder het risico van één enkel punt van falen.
+* **de Parallelle Weg (dubbel-Volgend):** het team handhaaft hun huidige werkschema terwijl gelijktijdig het modelleren van hun volgende planningscyclus in de Planning van Workfront. Dit creëert &quot;spiergeheugen&quot; en vertrouwen zonder het risico van één enkel punt van falen.
 
-* **Schone onderbreking:** na een aanvankelijke ontwerpoefening die steekproefgegevens gebruikt om het model te bevestigen, beweegt het team hun &quot;levende&quot;planningsbeginpunt rechtstreeks in WFP voor hun volgende cyclus.
+* **Schone onderbreking:** na een aanvankelijke ontwerpoefening die steekproefgegevens gebruikt om het model te bevestigen, beweegt het team hun &quot;levende&quot;planningsbeginpunt direct in de Planning van Workfront voor hun volgende cyclus.
 
 
 
@@ -82,7 +82,7 @@ Deze **team-Eerste** architectuur staat u toe:
 
 * **verbind strategie om te werken:** laat het verband tussen uw planningsverslagen en de werkschemamodule toe.
 
-* **spiegel huidige gegevens:** gebruik de bestaande hulpmiddelen van het team (Excel/Kern) om WFP te bevolken, ervoor zorgend de gegevens zich vertrouwd en relevant voelen.
+* **spiegel huidige gegevens:** gebruik de bestaande hulpmiddelen van het team (Excel/Kern) om de Planning van Workfront te bevolken, die de gegevens verzekeren zich vertrouwd en relevant voelt.
 
 * **Gebouwd voor flexibiliteit:** Herinner dat de Planning van Workfront wordt ontworpen om te evolueren. U kunt met team-vlakke processen beginnen en hen gemakkelijk opheffen of migreren aan onderneming-vlakke bestuur wanneer de zaken klaar zijn.
 
@@ -102,7 +102,7 @@ Doel voor uw eerste belangrijkste win tegen Dag 15: **geautomatiseerde projectve
 
 ### Dagen 16-30: geleidelijke overgang naar Enterprise-schaal
 
-Met het &quot;bliksemmoment&quot;bereikte, verplaats het beginpunt van het team in WFP. Aangezien dit **team-Eerste** model slaagt, begint u de weg naar **Schaal van de Onderneming** door patronen te identificeren die werken.
+Met het &#39;bliksemmoment&#39; bereikt, verplaats het beginpunt van het team naar Workfront Planning. Aangezien dit **team-Eerste** model slaagt, begint u de weg naar **Schaal van de Onderneming** door patronen te identificeren die werken.
 
 
 
@@ -110,7 +110,7 @@ Met het &quot;bliksemmoment&quot;bereikte, verplaats het beginpunt van het team 
 
 * **observeer en normaliseer:** Gebruik Primaire Workspace om waar te nemen hoe het proefteam het hulpmiddel gebruikt. Deze voorbeelden in de praktijk zullen uw uiteindelijke ondernemingsontwerp bepalen.
 
-* **erfenisspreadsheets voor ontmanteling:** Ga volledig naar WFP als de procesmaturen.
+* **erfenisspreadsheets voor ontmanteling:** Ga volledig naar Workfront Planning als het proces volwassen wordt.
 
 * **de machtsgebruikers van de Verschuiving:** gebruik de **lijstmening** voor direct, high-snelheid planbeheer.
 
@@ -126,7 +126,7 @@ Zoek naar deze vroege gezondheidsindicatoren:
 
 * **Efficiëntie:** de automatisering vermindert de tijd van strategische goedkeuring aan projectbegin.
 
-* **Vertrouwen:** Belanghebbenden gebruiken de chronologie van WFP eerder dan handstatusdekken voor overzichten.
+* **Vertrouwen:** Belanghebbenden gebruiken de chronologie van de Planning van Workfront eerder dan handstatusdekken voor overzichten.
 
 
 

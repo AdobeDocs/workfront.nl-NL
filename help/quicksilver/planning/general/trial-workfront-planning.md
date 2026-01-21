@@ -7,9 +7,9 @@ role: User, Admin
 recommendations: noDisplay, noCatalog
 hidefromtoc: true
 hide: true
-source-git-commit: 895fcc9e8bfc6ef21e82ae6dab4c370b0e267cad
+source-git-commit: 1158a49fc0b39ef49f23326935d4635530501687
 workflow-type: tm+mt
-source-wordcount: '743'
+source-wordcount: '718'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 Adobe Workfront biedt momenteel een gratis proefperiode van 60 dagen voor Adobe Workfront Planning.
 
-De proef is beschikbaar tussen de volgende data: 1 maart - 1 mei 2026.
+De proef is beschikbaar tussen de volgende data: 2 maart - 1 mei 2026.
 
 >[!NOTE]
 >
@@ -43,7 +43,7 @@ Uw bedrijf moet het volgende hebben om deel te kunnen nemen aan de gratis proefv
 
 * Een nieuw Adobe Workfront- of workflowpakket
 De Workfront Planning-test is niet beschikbaar voor de oudere Workfront-pakketten
-Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 * Toegang tot de Adobe Admin Console
 * Deel zijn van het Identity Management-systeem (IMS)
 * De ondertekende juridische overeenkomst is beschikbaar in het Workfront-exemplaar van uw organisatie
@@ -52,13 +52,13 @@ Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van W
 
 Een van uw Workfront-beheerders moet een juridische overeenkomst controleren en ondertekenen voordat iedereen in uw organisatie toegang krijgt tot de gratis proefversie van Workfront Planning.
 
-U kunt de overeenkomst beoordelen en ondertekenen voordat de proefversie op 1 maart 2026 begint.
+U kunt de overeenkomst beoordelen en ondertekenen voordat de proefversie op 2 maart 2026 begint.
 
 <!--check the steps here at release-->
 
 1. Voer een van de volgende handelingen uit om de juridische overeenkomst te beoordelen en te accepteren:
 
-   1. Voer vóór 1 maart 2026 de volgende handelingen uit:
+   1. Voer vóór 2 maart 2026 de volgende handelingen uit:
       1. Meld u als systeembeheerder aan bij Adobe Workfront.
       1. Volg in-app banner die informatie over de **Proefversie van de Planning van Workfront** bevat
 
@@ -68,7 +68,7 @@ U kunt de overeenkomst beoordelen en ondertekenen voordat de proefversie op 1 ma
       1. Klik **Overeenkomst van de Proefproef van het Overzicht**. <!--not sure if this will be available in the email/ banner, or if they can go to System Preferences to do this - might need to adjust the steps here-->
       1. Klik **goedkeuren**, na het herzien van de overeenkomst.
 
-   1. Voer na 1 maart 2026, wanneer de proefversie wordt gestart, de volgende handelingen uit:
+   1. Voer na 2 maart 2026, wanneer de proefversie wordt gestart, de volgende handelingen uit:
 
       1. Meld u als systeembeheerder aan bij Adobe Workfront.
       1. Volg in-app banner die informatie over de **Proefversie van de Planning van Workfront** bevat
@@ -85,15 +85,15 @@ U kunt de overeenkomst beoordelen en ondertekenen voordat de proefversie op 1 ma
 
          Uw organisatie is nu ingeschreven voor de planningproef van Workfront tot 1 mei 2026.
 
-         Na Maart 1, 2026, worden de volgende toestemmingen verleend aan de gegevens beschikbaar in de **Werkruimten van de Beste praktijk** tabel in het **Proefproject van de Planning** gebied:
+         Na Maart 2, 2026, worden de volgende toestemmingen verleend aan de gegevens beschikbaar in de **Werkruimten van de Beste praktijk** tabel in het **Proefproject van de Planning** gebied:
 
          * Alle systeembeheerders beschikken over beheermachtigingen.
          * Alle andere gebruikers beschikken over weergavemachtigingen.
-      1. (Voorwaardelijk) na 1 Maart, 2026, begin het onderzoeken van de **Werkruimten van de Beste praktijk** tabel en aandeelwerkruimten of hun voorwerp met anderen.
+      1. (Voorwaardelijk) na 2 Maart, 2026, begin het onderzoeken van de **Werkruimten van de Beste praktijk** tabel en aandeelwerkruimten of hun voorwerp met anderen.
 
-         Voor meer informatie over het gebruiken van de Planning van Workfront, zie [&#x200B; begonnen worden met de Planning van Adobe Workfront &#x200B;](/help/quicksilver/planning/general/planning-overview.md).
+         Voor meer informatie over het gebruiken van de Planning van Workfront, zie [ begonnen worden met de Planning van Adobe Workfront ](/help/quicksilver/planning/general/planning-overview.md).
 
-         Voor beste praktijken over het gebruiken van de Planning van Workfront, zie [&#x200B; de Planning van Adobe Workfront beste praktijken &#x200B;](/help/quicksilver/planning/general/planning-best-practices.md).
+         Voor beste praktijken over het gebruiken van de Planning van Workfront, zie [ de Planning van Adobe Workfront beste praktijken ](/help/quicksilver/planning/general/planning-best-practices.md).
 
 <!-- finish these steps and check to see if the UI elements are spelled correctly; also if the trial agreement is accessible according to the steps above - ???  -->
 
@@ -101,9 +101,10 @@ U kunt de overeenkomst beoordelen en ondertekenen voordat de proefversie op 1 ma
 
 Hier volgen enkele belangrijke datums die zijn gekoppeld aan de gratis proefversie van Adobe Workfront Planning:
 
-* **Maart 1, 2026** - de proeflanceringen van de Planning van Workfront.
+* **Maart 2, 2026** - de proeflanceringen van de Planning van Workfront.
 * **Mei 1, 2026** - de proefsluiting van de Planning van Workfront en uw toegang tot Planning wordt verwijderd. Workfront beveiligt uw gegevens nadat de proefversie is afgelopen tot 30 november 2026. Als u tijdens deze periode Workfront Planning aanschaft, krijgt u weer toegang tot Planning en uw gegevens.
-* **30 November, 2026** - Workfront maakt niet meer uw gegevens beschikbaar na deze datum. U kunt nog steeds Workfront Planning aanschaffen, maar uw gegevens worden na deze datum verwijderd.
+<!--Lauren wanted this out: 
+* **November 30, 2026** - Workfront no longer makes your data available after this date. You can still purchase Workfront Planning, but your data is removed after this date. -->
 
 <!--## Overview of the access to Workfront Planning -->
 

@@ -1,5 +1,5 @@
 ---
-title: 'De blauwdruk van Succes: Uw campagnehiërarchie modelleren'
+title: 'Het kader van Succes: modelleer uw campagnehiërarchie'
 description: Leer hoe u uw complexe bedrijfsprocessen vertaalt in een schaalbare, beheerde campagnehiërarchie met behulp van 'Graviteitscentra' en een architectuur met meerdere werkruimten.
 feature: Workfront Planning
 role: User, Admin
@@ -7,15 +7,15 @@ author: Alina
 recommendations: noDisplay, noCatalog
 hidefromtoc: true
 hide: true
-source-git-commit: 77ef50ebd583f0a46324e5cbdc4feea9d21f4280
+source-git-commit: 1158a49fc0b39ef49f23326935d4635530501687
 workflow-type: tm+mt
-source-wordcount: '1056'
+source-wordcount: '1060'
 ht-degree: 0%
 
 ---
 
 
-# De blauwdruk van Succes: Uw campagnehiërarchie modelleren
+# Het kader voor succes: modelleer uw campagnehiërarchie
 
 
 
@@ -31,7 +31,7 @@ Naarmate uw marketingactiviteiten worden geschaald, wordt ook de complexiteit va
 
 
 
-De &quot;blauwdruk van Succes&quot;is een kader voor het modelleren van uw campagnehiërarchie in de Planning van Workfront (WFP). Het verplaatst u van &quot;spreadsheetchaos&quot;naar een geregeerd, object-georiënteerd model dat ervoor zorgt dat elk team de zelfde taal spreekt terwijl het handhaven van de behendigheid zij moeten uitvoeren.
+De &quot;blauwdruk van Succes&quot;is een kader voor het modelleren van uw campagnehiërarchie in de Planning van Workfront. Het verplaatst u van &quot;spreadsheetchaos&quot;naar een geregeerd, object-georiënteerd model dat ervoor zorgt dat elk team de zelfde taal spreekt terwijl het handhaven van de behendigheid zij moeten uitvoeren.
 
 
 
@@ -77,14 +77,14 @@ Zodra de kernweg wordt gevestigd, kunnen de organisaties verkiezen om extra lage
 
 * **Plannen van het Kanaal:** Een laag tussen *Campagnes* en *Tactics* aan groep de dwars-functionele strategieën (bijvoorbeeld, &quot;Digitale Strategie&quot;).
 
-* **Activiteiten WFP:** in laag-volume milieu&#39;s (typisch &lt;5.000 te leveren producten/jaar), verkiezen sommige teams om individuele &quot;Ervaringen&quot;als verslagen te volgen WFP alvorens zij projecten worden.
+* **de Planning van Workfront Activiteiten:** in laag-volumemilieu&#39;s (typisch &lt;5.000 te leveren items/jaar), verkiezen sommige teams om individuele &quot;Ervaringen&quot;als verslagen van de Planning van Workfront te volgen alvorens zij projecten worden.
 
 
 >[!TIP]
 >
 >**Cruciale Uiteinde: De 5.000 Geleverbare Drempel**
 >
->Als uw organisatie meer dan 5.000 activiteiten per jaar produceert, zou u **&#x200B;**&#x200B;altijd individueel het te leveren volgen aan de **module van het Werkschema** moeten ontladen. Het beheren van high-volume &quot;Ervaring&quot;verslagen in Planning kan tot gegevensaccumulatie leiden die uw strategische zicht verbergt. De Planning van het gebruik voor &quot;waarom&quot;en &quot;wat,&quot;en de module van het Werkschema voor het hoge volume &quot;hoe.&quot;
+>Als uw organisatie meer dan 5.000 activiteiten per jaar produceert, zou u **** altijd individueel het te leveren volgen aan de **module van het Werkschema** moeten ontladen. Het beheren van high-volume &quot;Ervaring&quot;verslagen in Planning kan tot gegevensaccumulatie leiden die uw strategische zicht verbergt. De Planning van het gebruik voor &quot;waarom&quot;en &quot;wat,&quot;en de module van het Werkschema voor het hoge volume &quot;hoe.&quot;
 
 
 
@@ -156,9 +156,9 @@ Terwijl de Planning van Workfront de toekomst van strategische intentie is, is z
 
 * **de Aanbeveling:** schrapt nog niet uw Portfolio&#39;s en Programma&#39;s. In plaats daarvan, gebruik **automatiseringen van de Fusie** om een brug tot stand te brengen.
 
-* **hoe het werkt:** wanneer een Tactische of Campagne in WFP wordt gecreeerd, kan de Fusie die verslag in een overeenkomstige Portfolio of Programma in de module van het Werkschema automatisch weerspiegelen. Zo kunt u:
+* **hoe het werkt:** wanneer een Tactische of Campagne in de Planning van Workfront wordt gecreeerd, kan de Fusie die verslag in een overeenkomstige Portfolio of Programma in de module van het Werkschema automatisch weerspiegelen. Zo kunt u:
 
-   1. Geniet van superieure **strategische visualisatie van WFP** (Chronologie/Kalenders).
+   1. Geniet van de superieure **strategische visualisatie van de Planning van Workfront** (Chronologie/Kalenders).
 
    2. Handhaaf uw **erfenis die** in de module van het Werkschema voor bewaarders rapporteert die nog niet klaar zijn om naar Canvas te bewegen.
 
@@ -170,12 +170,12 @@ Terwijl de Planning van Workfront de toekomst van strategische intentie is, is z
 
 * **wijs Primaire Werkruimten aan.** Zorg ervoor dat elk recordtype één thuiswerkruimte (zwaartepunt) heeft die als aggregator voor rapportage fungeert.
 
-* **Prioritize Forms for Intake.** Gebruik recordformulieren voor groepen met minder geavanceerde WFP om de integriteit van metagegevens te garanderen. Terwijl de Gebruikers van de Macht van directe gegevensingang in de meningen van de Lijst kunnen profiteren, zou dit met voorzichtigheid moeten worden benaderd: bulkveranderingen in een lijst kunnen tot gegevenskopzorgen voor andere belanghebbenden gemakkelijk leiden.
+* **Prioritize Forms for Intake.** Gebruik recordformulieren voor groepen met minder geavanceerde functies in Workfront Planning om de integriteit van metagegevens te garanderen. Terwijl de Gebruikers van de Macht van directe gegevensingang in de meningen van de Lijst kunnen profiteren, zou dit met voorzichtigheid moeten worden benaderd: bulkveranderingen in een lijst kunnen tot gegevenskopzorgen voor andere belanghebbenden gemakkelijk leiden.
 
 
 ### Niet doen:
 
-* **zeg niet &quot;Kern&quot;.** verwijs specifiek naar de **module van het Werkschema** en de **4&rbrace; voorwerpen van het Project &lbrace;wanneer het spreken over uitvoering.**
+* **zeg niet &quot;Kern&quot;.** verwijs specifiek naar de **module van het Werkschema** en de **4} voorwerpen van het Project {wanneer het spreken over uitvoering.**
 
 * **niet overcompliceer.** Elk extra hiërarchisch niveau voegt een &quot;beheerbelasting&quot; toe. Voeg alleen niveaus toe die een zakelijke vraag beantwoorden die u momenteel niet kunt beantwoorden.
 
