@@ -71,7 +71,7 @@ In dit artikel wordt uitgelegd hoe u het object kunt vinden en het probleem verv
 
    **Voorbeeld:** Gebied 1 op Vorm 1 = ja, Gebied 2 op Vorm 2 = ja, Gebied 3 op Vorm 3 = ja. Dit betekent ‘Het berekende aangepaste veld bestaat op formulier 1’ of ‘Het berekende aangepaste veld bestaat op formulier 2’, enzovoort.
 
-1. In het **[!UICONTROL Search icon]** ![ pictogram van het Onderzoek ](assets/search-icon.png) in de hoger-juiste hoek van het scherm, klik **[!UICONTROL Advanced Search]**.
+1. In het **[!UICONTROL Search icon]** ![&#x200B; pictogram van het Onderzoek &#x200B;](assets/search-icon.png) in de hoger-juiste hoek van het scherm, klik **[!UICONTROL Advanced Search]**.
 1. Klik op het object van het aangepaste formulier (bijvoorbeeld Issue), klik op **[!UICONTROL Filter your results]** en klik vervolgens op **[!UICONTROL Add a filter]** .
 1. Typ de naam van een veld Selectievakje in het veld **[!UICONTROL Start typing field name]** en selecteer het veld wanneer het wordt weergegeven in de lijst. Selecteer vervolgens **[!UICONTROL Equal]** en typ **[!UICONTROL Yes]** (zonder aanhalingstekens) in het volgende vak.
 
@@ -99,7 +99,7 @@ In dit artikel wordt uitgelegd hoe u het object kunt vinden en het probleem verv
 
 ## Een van de aangepaste formulieren uit het object verwijderen en de berekening daar bewerken {#remove-one-of-the-custom-forms-from-the-object-and-edit-the-calculation-there}
 
-1. Vind het voorwerp waar de douaneformulieren in bijlage zijn, zoals die in [ wordt verklaard vinden het voorwerp waar de douaneformulieren ](#find-the-object-where-the-custom-forms-are-attached) in dit artikel in bijlage zijn, dan open het voorwerp.
+1. Vind het voorwerp waar de douaneformulieren in bijlage zijn, zoals die in [&#x200B; wordt verklaard vinden het voorwerp waar de douaneformulieren &#x200B;](#find-the-object-where-the-custom-forms-are-attached) in dit artikel in bijlage zijn, dan open het voorwerp.
 1. Verwijder een van de aangepaste formulieren van het object en sla het object op.
 
    >[!NOTE]
@@ -118,7 +118,7 @@ In dit artikel wordt uitgelegd hoe u het object kunt vinden en het probleem verv
 >
 >Gegevens gaan verloren in de objecten waaraan het aangepaste formulier al is gekoppeld wanneer u deze stappen uitvoert. Als het berekende veld echter verwijst naar statische velden en niet naar berekende velden, kunt u met de optie [!UICONTROL Recalculate Custom Expressions] voor het object de verloren gegevens herstellen
 
-1. Vind het voorwerp waar de douaneformulieren in bijlage zijn, zoals die in [ wordt verklaard vinden het voorwerp waar de douaneformulieren ](#find-the-object-where-the-custom-forms-are-attached) in dit artikel in bijlage zijn.
+1. Vind het voorwerp waar de douaneformulieren in bijlage zijn, zoals die in [&#x200B; wordt verklaard vinden het voorwerp waar de douaneformulieren &#x200B;](#find-the-object-where-the-custom-forms-are-attached) in dit artikel in bijlage zijn.
 1. Verwijder het veld uit alle aangepaste formulieren die aan het object zijn gekoppeld en sla de formulieren vervolgens op.
 
 1. Voeg het aangepaste veld met de nieuwe berekening toe aan de aangepaste formulieren.
@@ -133,7 +133,7 @@ In dit artikel wordt uitgelegd hoe u het object kunt vinden en het probleem verv
 
 Als u wilt voorkomen dat gegevens verloren gaan in het bestaande berekende aangepaste veld of als u de bewerkte berekening wilt uitvoeren in slechts een van de aangepaste formulieren die aan het object zijn gekoppeld dat u hebt gevonden:
 
-1. Vind het voorwerp waar de douaneformulieren in bijlage zijn, zoals die in [ wordt verklaard vinden het voorwerp waar de douaneformulieren ](#find-the-object-where-the-custom-forms-are-attached) in dit artikel in bijlage zijn.
+1. Vind het voorwerp waar de douaneformulieren in bijlage zijn, zoals die in [&#x200B; wordt verklaard vinden het voorwerp waar de douaneformulieren &#x200B;](#find-the-object-where-the-custom-forms-are-attached) in dit artikel in bijlage zijn.
 1. Voeg een nieuw berekend aangepast veld met de berekening die u nodig hebt toe aan een of alle formulieren.
 1. Verander de naam van het oude berekende douanegebied **verouderd**.
 
