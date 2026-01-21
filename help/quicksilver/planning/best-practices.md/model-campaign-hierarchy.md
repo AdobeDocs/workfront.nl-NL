@@ -84,7 +84,7 @@ Zodra de kernweg wordt gevestigd, kunnen de organisaties verkiezen om extra lage
 >
 >**Cruciale Uiteinde: De 5.000 Geleverbare Drempel**
 >
->Als uw organisatie meer dan 5.000 activiteiten per jaar produceert, zou u **** altijd individueel het te leveren volgen aan de **module van het Werkschema** moeten ontladen. Het beheren van high-volume &quot;Ervaring&quot;verslagen in Planning kan tot gegevensaccumulatie leiden die uw strategische zicht verbergt. De Planning van het gebruik voor &quot;waarom&quot;en &quot;wat,&quot;en de module van het Werkschema voor het hoge volume &quot;hoe.&quot;
+>Als uw organisatie meer dan 5.000 activiteiten per jaar produceert, zou u **&#x200B;**&#x200B;altijd individueel het te leveren volgen aan de **module van het Werkschema** moeten ontladen. Het beheren van high-volume &quot;Ervaring&quot;verslagen in Planning kan tot gegevensaccumulatie leiden die uw strategische zicht verbergt. De Planning van het gebruik voor &quot;waarom&quot;en &quot;wat,&quot;en de module van het Werkschema voor het hoge volume &quot;hoe.&quot;
 
 
 
@@ -175,7 +175,7 @@ Terwijl de Planning van Workfront de toekomst van strategische intentie is, is z
 
 ### Niet doen:
 
-* **zeg niet &quot;Kern&quot;.** verwijs specifiek naar de **module van het Werkschema** en de **4} voorwerpen van het Project {wanneer het spreken over uitvoering.**
+* **zeg niet &quot;Kern&quot;.** verwijs specifiek naar de **module van het Werkschema** en de **4&rbrace; voorwerpen van het Project &lbrace;wanneer het spreken over uitvoering.**
 
 * **niet overcompliceer.** Elk extra hiërarchisch niveau voegt een &quot;beheerbelasting&quot; toe. Voeg alleen niveaus toe die een zakelijke vraag beantwoorden die u momenteel niet kunt beantwoorden.
 
