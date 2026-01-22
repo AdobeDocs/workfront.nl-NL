@@ -7,9 +7,9 @@ author: Alina
 recommendations: noDisplay, noCatalog
 hidefromtoc: true
 hide: true
-source-git-commit: 66dd7354f3723e266b77cb2f367b09c022e8c95e
+source-git-commit: 54a6e633e903c73a78b36e90fb27edb445dc8d47
 workflow-type: tm+mt
-source-wordcount: '1838'
+source-wordcount: '1883'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ U kunt een Adobe Workfront-planningsrecord op de volgende manieren delen:
 
 * Een koppeling naar de record delen.
 
-  Voor meer informatie, zie [&#x200B; verslagen van het Aandeel gebruikend een verbinding &#x200B;](/help/quicksilver/planning/records/share-records.md).
+  Voor meer informatie, zie [ verslagen van het Aandeel gebruikend een verbinding ](/help/quicksilver/planning/records/share-records.md).
 
 * Deel alle records in een werkruimte met andere gebruikers door de werkruimte en het recordtype te delen.
 
@@ -53,7 +53,7 @@ U kunt een Adobe Workfront-planningsrecord op de volgende manieren delen:
 >Gebruikers met toegang tot een werkruimte krijgen automatisch minstens weergavemachtigingen voor alle records in de werkruimte.
 >Als u weergaven deelt, geeft u gebruikers geen machtigingen voor records. Alleen werkruimten delen kan gebruikers machtigingen verlenen voor het opnemen van typen en records.
 >
->Voor algemene informatie over het delen van voorwerpen in de Planning van Workfront, zie ook [&#x200B; Overzicht van het delen van toestemmingen in de Planning van Adobe Workfront &#x200B;](/help/quicksilver/planning/access/sharing-permissions-overview.md).
+>Voor algemene informatie over het delen van voorwerpen in de Planning van Workfront, zie ook [ Overzicht van het delen van toestemmingen in de Planning van Adobe Workfront ](/help/quicksilver/planning/access/sharing-permissions-overview.md).
 
 
 ## Toegangsvereisten
@@ -106,7 +106,7 @@ of
 </tbody> 
 </table>
 
-Voor meer informatie over de toegangsvereisten van Workfront, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer informatie over de toegangsvereisten van Workfront, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -184,13 +184,13 @@ Als werkruimtebeheerder kunt u machtigingen aanpassen aan afzonderlijke records.
 
 1. Voer een van de volgende handelingen uit:
 
-   * Van de lijstmening, houd over de naam van een verslag, klik **Meer** menu ![&#x200B; Meer menu &#x200B;](assets/more-menu.png), dan klik **Aandeel**.
+   * Van de lijstmening, houd over de naam van een verslag, klik **Meer** menu ![ Meer menu ](assets/more-menu.png), dan klik **Aandeel**.
    * Van de lijstmening, selecteer een verslag, dan klik **Aandeel** op de blauwe toolbar bij de bodem van de lijst.
    * Van om het even welke mening, klik de naam van een verslag, dan klik **Aandeel** in de hoger-juiste hoek van de de detailspagina van het verslag.
 
    Het **vakje van het Aandeel** opent.
 
-   ![&#x200B; Toestemmingen voor verslagen met geërfte toestemmingen op &#x200B;](assets/permissions-for-records-with-inherited-permissions-on.png)
+   ![ Toestemmingen voor verslagen met geërfte toestemmingen op ](assets/permissions-for-records-with-inherited-permissions-on.png)
 
 1. (Facultatief) in **die toegang** heeft, kan **iedereen in de werkruimte** optie bekijken door gebrek worden geselecteerd.  Alle gebruikers die **Mening** of hogere toestemmingen aan de werkruimte en verslagtype hebben hebben de zelfde toestemmingen aan het verslag.
 
@@ -198,7 +198,7 @@ Als werkruimtebeheerder kunt u machtigingen aanpassen aan afzonderlijke records.
 
    >[!TIP]
    >
-   >U kunt afzonderlijke entiteiten niet verwijderen uit de lijst Geërfde machtigingen.
+   >U kunt afzonderlijke entiteiten niet verwijderen uit de lijst Geërfde machtigingen. <!--test this!-->
 
 1. (Optioneel en voorwaardelijk) Als u de record wilt delen met specifieke entiteiten en deze een andere toegang tot het recordtype wilt geven dan ze al hebben voor de werkruimte, gaat u als volgt te werk:
 
@@ -220,10 +220,11 @@ Als werkruimtebeheerder kunt u machtigingen aanpassen aan afzonderlijke records.
 
    >[!IMPORTANT]
    >
-   >* Naast teams, groepen, bedrijven, en baanrollen, kunt u slechts met gebruikers delen die aan Adobe Admin Console zijn toegevoegd. U kunt geen gebruikers met alleen Workfront toevoegen. Voor informatie, zie [&#x200B; gebruikers in Adobe Admin Console &#x200B;](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md) leiden.
+   >* Naast teams, groepen, bedrijven, en baanrollen, kunt u slechts met gebruikers delen die aan Adobe Admin Console zijn toegevoegd. U kunt geen gebruikers met alleen Workfront toevoegen. Voor informatie, zie [ gebruikers in Adobe Admin Console ](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md) leiden.
    >* Als gebruikers over Contribute- of Beheren-machtigingen voor de werkruimte en het recordtype beschikken, behouden zij de machtiging Beheren voor de record. De machtiging Weergeven is grijs. <!--this is not dimmed at this time, Lilit to check-->
    >* U kunt gebruikers niet minder machtigingen geven voor de record als ze Contribute of hoger hebben voor het recordtype.
-   > Voor meer informatie, zie [&#x200B; Overzicht van het delen van toestemmingen in de Planning van Adobe Workfront &#x200B;](/help/quicksilver/planning/access/sharing-permissions-overview.md).
+   > Voor meer informatie, zie [ Overzicht van het delen van toestemmingen in de Planning van Adobe Workfront ](/help/quicksilver/planning/access/sharing-permissions-overview.md).
+   >* Wanneer u een verslag met een gebruiker deelt, hun primaire baanrol <span class="preview"> en hun e-mail </span> ook tonen op het gebied. U moet de instelling Contactgegevens weergeven hebben ingeschakeld voor het object Users in uw toegangsniveau om de e-mail van de gebruiker te kunnen zien.
 
 1. Om gebruikers te geven die geen toestemmingen aan de werkruimtetoegang hebben om een verslag, op de **toegang van de Verlening tot dit mening** gebied te bekijken, begin de naam van een gebruiker, een groep, een team, een bedrijf, of baanrol te typen, dan het te klikken wanneer het in de lijst toont.
 
@@ -242,9 +243,9 @@ Als werkruimtebeheerder kunt u machtigingen aanpassen aan afzonderlijke records.
    * Het recordtype als ze nooit eerder machtigingen hadden
    * De werkruimte, als zij geen toestemmingen aan de werkruimte hadden alvorens het verslag met hen werd gedeeld.
 
-   Voor informatie, zie [&#x200B; de Planning van Adobe Workfront berichten: artikelindex &#x200B;](/help/quicksilver/planning/notifications/notifications-information.md).
+   Voor informatie, zie [ de Planning van Adobe Workfront berichten: artikelindex ](/help/quicksilver/planning/notifications/notifications-information.md).
 
-1. Deel de gekopieerde koppeling met anderen. Gebruikers die de koppeling ontvangen, moeten actieve gebruikers zijn en zich aanmelden bij Workfront om de pagina met recordtypen te kunnen openen en weergeven in de geselecteerde weergave. Zij moeten toestemmingen aan het verslagtype hebben om het te kunnen bekijken. Voor meer informatie, zie ook [&#x200B; verslagen van het Aandeel gebruikend een verbinding &#x200B;](/help/quicksilver/planning/records/share-records.md).
+1. Deel de gekopieerde koppeling met anderen. Gebruikers die de koppeling ontvangen, moeten actieve gebruikers zijn en zich aanmelden bij Workfront om de pagina met recordtypen te kunnen openen en weergeven in de geselecteerde weergave. Zij moeten toestemmingen aan het verslagtype hebben om het te kunnen bekijken. Voor meer informatie, zie ook [ verslagen van het Aandeel gebruikend een verbinding ](/help/quicksilver/planning/records/share-records.md).
 
 ## Machtigingen verwijderen uit een record
 
@@ -255,14 +256,14 @@ U kunt gebruikersmachtigingen uit een record verwijderen. Ze behouden echter ten
 1. Open de werkruimte waarvan de records die u niet meer wilt delen, u wilt ophouden met delen en klik vervolgens op een opnametype-kaart. Hierdoor wordt de pagina met recordtypen geopend.
 1. Voer een van de volgende handelingen uit:
 
-   * Van de lijstmening, houd over de naam van een verslag, klik **Meer** menu ![&#x200B; Meer menu &#x200B;](assets/more-menu.png), dan klik **Aandeel**.
+   * Van de lijstmening, houd over de naam van een verslag, klik **Meer** menu ![ Meer menu ](assets/more-menu.png), dan klik **Aandeel**.
    * Van de lijstmening, selecteer een verslag, dan klik **Aandeel** op de blauwe toolbar bij de bodem van de lijst.
    * Van om het even welke mening, klik de naam van een verslag, dan klik **Aandeel** in de hoger-juiste hoek van de de detailspagina van het verslag.
 
    Het **vakje van het Aandeel** opent.
 1. Vind de gebruiker, de groep, het team, het bedrijf, of de baanrol die de toestemmingen u wilt verwijderen, het drop-down menu van toestemmingen rechts van hun naam uitbreiden, dan **verwijderen** klikken. <!--check the screen shot below - the UI text for View might not be accurate-->
 
-   ![&#x200B; verwijdert toestemmingen op verslag &#x200B;](assets/remove-option-on-record-sharing-drop-down.png)
+   ![ verwijdert toestemmingen op verslag ](assets/remove-option-on-record-sharing-drop-down.png)
 
 1. Klik **sparen**.
 
