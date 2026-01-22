@@ -19,7 +19,7 @@ In dit artikel worden de functies beschreven die tijdens de release van het twee
 
 <!--keep the sentence below for all future quarterly release pages-->
 
-Voor een lijst van alle eigenschappen die voor de Planning van Adobe Workfront worden vrijgegeven, zie [ de versieactiviteit van de Planning van Adobe Workfront: artikelindex ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+Voor een lijst van alle eigenschappen die voor de Planning van Adobe Workfront worden vrijgegeven, zie [&#x200B; de versieactiviteit van de Planning van Adobe Workfront: artikelindex &#x200B;](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
 ## E-mails weergeven in typekopvelden van gebruikers in Workfront Planning
 
@@ -50,6 +50,6 @@ Raadpleeg de volgende artikelen voor meer informatie:
 
 U kunt de gebieden van Mensen aan raadplegingsgebieden nu toevoegen wanneer het verbinden van twee het verslagtypes van de Planning.
 
-Voor informatie, zie [ verbind de Types van Verslag ](/help/quicksilver/planning/architecture/connect-record-types.md).
+Voor informatie, zie [&#x200B; verbind de Types van Verslag &#x200B;](/help/quicksilver/planning/architecture/connect-record-types.md).
 
 
