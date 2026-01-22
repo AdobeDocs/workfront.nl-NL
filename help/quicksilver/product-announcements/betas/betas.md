@@ -29,10 +29,10 @@ De volgende functies zijn momenteel beschikbaar in bèta:
 
 * Projectgezondheid
 
-  Voor informatie, zie [ Overzicht van de Gezondheid van het Project ](/help/quicksilver/workfront-basics/ai-assistant/project-health-overview.md).
+  Voor informatie, zie [&#x200B; Overzicht van de Gezondheid van het Project &#x200B;](/help/quicksilver/workfront-basics/ai-assistant/project-health-overview.md).
 
 * De Workfront AI Reviewer
-Voor informatie, zie [ begonnen worden met de Reviewer van Workfront AI ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md).
+Voor informatie, zie [&#x200B; begonnen worden met de Reviewer van Workfront AI &#x200B;](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md).
 
 
 
