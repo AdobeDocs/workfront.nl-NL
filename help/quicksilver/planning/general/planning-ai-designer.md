@@ -66,7 +66,7 @@ Raadpleeg de volgende artikelen voor informatie over Workfront Planning:
 </tbody> 
 </table>
 
-Voor meer informatie over de toegangsvereisten van Workfront, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer informatie over de toegangsvereisten van Workfront, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -80,7 +80,7 @@ U kunt op dit moment een verzoek indienen om deel te nemen aan het programma voo
 
 * Als u de Designer voor planning wilt gebruiken, moet uw organisatie voldoen aan de vereisten voor het gebruik van de Workfront AI Assistant.
 
-  Voor details, zie [ Vereisten aan AI Medewerker ](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant).
+  Voor details, zie [&#x200B; Vereisten aan AI Medewerker &#x200B;](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant).
 
 * Om de Planning Designer te gebruiken, moet een systeembeheerder het in het gebied van de Voorkeur van het Systeem van uw Opstelling toelaten.
 
@@ -125,7 +125,7 @@ U kunt of de Planning Designer of de Medewerker van AI gebruiken om het even wel
 
   Het maken van records uit een geïmporteerd document is alleen beschikbaar in de plannings-Designer en niet in de AI-assistent.
 
-  Voor informatie over de toegelaten dossiertypes en de grootte, zie de &quot;sectie van de Garanties van het Document&quot;in het artikel [ Vulling van de Vorm van het Gebruik aangedreven door AI om een verzoek in te vullen gebruikend herinneringen of documenten ](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md).
+  Voor informatie over de toegelaten dossiertypes en de grootte, zie de &quot;sectie van de Garanties van het Document&quot;in het artikel [&#x200B; Vulling van de Vorm van het Gebruik aangedreven door AI om een verzoek in te vullen gebruikend herinneringen of documenten &#x200B;](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md).
 
   <!--* Generate thumbnail and over image for a record (not available yet, maybe Q2) -->
 
@@ -136,19 +136,19 @@ Als beheerder van Workfront, moet u eerst de Planning Designer voor uw organisat
 <!--add steps here-->
 
 1. Meld u als systeembeheerder aan bij Workfront.
-1. Klik **** Belangrijkste het menupictogram van het Hoofdmenu ![ ](assets/main-menu-shell.png) in de upper-left hoek van het scherm, dan klik **Opstelling**.
+1. Klik **&#x200B;**&#x200B;Belangrijkste het menupictogram van het Hoofdmenu ![&#x200B; &#x200B;](assets/main-menu-shell.png) in de upper-left hoek van het scherm, dan klik **Opstelling**.
 1. Klik **Systeem** > in het linkerpaneel, dan ga naar het **AI voorkeur** gebied.
 1. Schakel de volgende instellingen in:
    * **laat AI** toe
    * **Opt binnen aan AI Bèta&#39;s**
    * **Planning Designer**
 
-   ![ plannende Designer die in de Voorkeur van het Systeem plaatst ](assets/planning-designer-toggle-in-system-preferences.png)
+   ![&#x200B; plannende Designer die in de Voorkeur van het Systeem plaatst &#x200B;](assets/planning-designer-toggle-in-system-preferences.png)
 1. Klik **sparen**.
 
    Alle gebruikers in het systeem die een Standaard vergunning hebben kunnen nu het **Ontwerp met AI** knoop op de belangrijkste pagina van Werkruimten in het planningsgebied zien. <!--check screen shot-->
 
-   ![ Ontwerp met AI knoop op de pagina van Werkruimten ](assets/design-with-ai-button-on-workspaces-page.png)
+   ![&#x200B; Ontwerp met AI knoop op de pagina van Werkruimten &#x200B;](assets/design-with-ai-button-on-workspaces-page.png)
 
    Alle gebruikers kunnen nu de Planning Designer starten en gebruiken om Workfront Planning-objecten te maken en bij te werken.
 
@@ -156,7 +156,7 @@ Als beheerder van Workfront, moet u eerst de Planning Designer voor uw organisat
 
 U kunt voorwerpen in de Planning van Workfront tot stand brengen of bijwerken hetzij door de Planning Designer, of de Medewerker van AI te gebruiken, tenzij anders gespecificeerd.
 
-1. Login aan Workfront, dan klik het **pictogram van het Belangrijkste Menu** het belangrijkste menu van Lijnen ![ in de upper-left hoek.](assets/lines-main-menu.png)
+1. Login aan Workfront, dan klik het **pictogram van het Belangrijkste Menu** het belangrijkste menu van Lijnen ![&#x200B; in de upper-left hoek.](assets/lines-main-menu.png)
 
 1. Klik **Planning**. Het planningsgebied wordt geopend.
 
@@ -164,7 +164,7 @@ U kunt voorwerpen in de Planning van Workfront tot stand brengen of bijwerken he
 
    Het **Planning Designer** venster opent.
 
-   ![ plannend het venster van Designer ](assets/planning-designer-window.png)
+   ![&#x200B; plannend het venster van Designer &#x200B;](assets/planning-designer-window.png)
 
 1. Typ in de beschikbare ruimte opdrachten voor de AI-assistent en klik vervolgens op Enter wanneer u klaar bent.
 
@@ -198,8 +198,8 @@ U kunt voorwerpen in de Planning van Workfront tot stand brengen of bijwerken he
 
    U kunt werkruimten, recordtypen, velden, weergaven en records in het voorvertoningsgebied rechts van de vraag bekijken.
 1. (Optioneel) Typ aanvullende vragen om uw objecten verder te bewerken.
-1. (Optioneel) Klik op het **pictogram** pictogram ![ van de voorvertoning van de AI-werkruimte verbergen of weergeven ](assets/hide-show-preview-screen-in-planning-designer.png) om het voorvertoningsscherm rechts te openen of te sluiten.
-1. Klik de **Open werkruimte in nieuw lusjepictogram** ![ Open werkruimte in nieuw lusjepictogram ](assets/open-workspace-on-new-tab-icon.png) om de werkruimte te openen u in een nieuw lusje bijwerkt.
+1. (Optioneel) Klik op het **pictogram** pictogram ![&#x200B; van de voorvertoning van de AI-werkruimte verbergen of weergeven &#x200B;](assets/hide-show-preview-screen-in-planning-designer.png) om het voorvertoningsscherm rechts te openen of te sluiten.
+1. Klik de **Open werkruimte in nieuw lusjepictogram** ![&#x200B; Open werkruimte in nieuw lusjepictogram &#x200B;](assets/open-workspace-on-new-tab-icon.png) om de werkruimte te openen u in een nieuw lusje bijwerkt.
 1. Klik het **Dichte** pictogram **X** om de Planning Designer te sluiten en het gebied van Werkruimten te openen.
 1. Open de werkruimte die u hebt bewerkt met de Designer voor planning en breng verdere wijzigingen in de objecten aan.
 

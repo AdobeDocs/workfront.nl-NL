@@ -48,7 +48,7 @@ Uw bedrijf moet het volgende hebben om deel te kunnen nemen aan de gratis proefv
 
 * Een nieuw Adobe Workfront- of workflowpakket
 De Workfront Planning-test is niet beschikbaar voor de oudere Workfront-pakketten.
-Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 * Toegang tot de Adobe Admin Console
 * Deel zijn van het Identity Management-systeem (IMS)
 * De ondertekende overeenkomst voor juridische proeven is beschikbaar in het Workfront-exemplaar van uw organisatie
@@ -115,9 +115,9 @@ Voer een van de volgende handelingen uit om de juridische overeenkomst te beoord
 
       Begin het onderzoeken van de **Beste werkruimten van de Praktijk** tabel en deel werkruimten of hun voorwerp met anderen.
 
-      Voor meer informatie over het gebruiken van de Planning van Workfront, zie [ begonnen worden met de Planning van Adobe Workfront ](/help/quicksilver/planning/general/planning-overview.md).
+      Voor meer informatie over het gebruiken van de Planning van Workfront, zie [&#x200B; begonnen worden met de Planning van Adobe Workfront &#x200B;](/help/quicksilver/planning/general/planning-overview.md).
 
-      Voor beste praktijken over het gebruiken van de Planning van Workfront, zie [ de Planning van Adobe Workfront beste praktijken ](/help/quicksilver/planning/general/planning-best-practices.md).
+      Voor beste praktijken over het gebruiken van de Planning van Workfront, zie [&#x200B; de Planning van Adobe Workfront beste praktijken &#x200B;](/help/quicksilver/planning/general/planning-best-practices.md).
 
 ## Machtigingen voor planningsgegevens van Workfront tijdens de gratis proefperiode
 
