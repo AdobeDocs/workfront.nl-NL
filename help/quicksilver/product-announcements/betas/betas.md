@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: c46e625f-b3d5-4bdd-827b-5b16493cdc6b
-source-git-commit: 167037c90b2da8164db62fe6304ce935104bdf05
+source-git-commit: d84264110fe6abe2a260cc46483c78b9b0034b9b
 workflow-type: tm+mt
-source-wordcount: '131'
+source-wordcount: '112'
 ht-degree: 0%
 
 ---
@@ -29,13 +29,11 @@ De volgende functies zijn momenteel beschikbaar in bèta:
 
 * Projectgezondheid
 
-  Voor informatie, zie [&#x200B; Overzicht van de Gezondheid van het Project &#x200B;](/help/quicksilver/workfront-basics/ai-assistant/project-health-overview.md).
+  Voor informatie, zie [ Overzicht van de Gezondheid van het Project ](/help/quicksilver/workfront-basics/ai-assistant/project-health-overview.md).
 
 * De Workfront AI Reviewer
-Voor informatie, zie [&#x200B; begonnen worden met de Reviewer van Workfront AI &#x200B;](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md).
+Voor informatie, zie [ begonnen worden met de Reviewer van Workfront AI ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md).
 
-* AI-formuliervulling
-Voor informatie, zie [&#x200B; Vulling van de Vorm van het Gebruik AI om een verzoek in te vullen gebruikend herinneringen of documenten &#x200B;](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md).
 
 
 <!--
