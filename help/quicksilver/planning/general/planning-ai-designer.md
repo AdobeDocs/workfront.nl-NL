@@ -1,31 +1,41 @@
 ---
 title: Aan de slag met de Adobe Workfront Planning Designer
-description: Met Adobe Planning Designer kunt u een nieuwe werkruimte genereren, compleet met recordtypen en velden in Workfront Planning, of objecten toevoegen aan een werkruimte of de wijzigingshistorie weergeven voor records.
-author: Alina, Becky
-feature: Workfront Planning
-role: User, Admin
+description: Met Adobe Planning Designer kunt u een nieuwe werkruimte genereren, compleet met recordtypen en velden in Workfront Planning, objecten toevoegen aan een werkruimte of de wijzigingshistorie weergeven voor records.
 recommendations: noDisplay, noCatalog
 hidefromtoc: true
 hide: true
-source-git-commit: bf34bfa2059d227eca3faa3d719adcf4d711e457
+source-git-commit: 866b237db5d109b0a435145119a6412e41d960ab
 workflow-type: tm+mt
-source-wordcount: '851'
+source-wordcount: '1020'
 ht-degree: 0%
 
 ---
 
 
+<!--add these at release to the metadata:
+
+author: Alina, Becky
+feature: Workfront Planning
+role: User, Admin -->
+
 # Ga aan de slag met de Adobe Workfront Planning Designer
 
 {{planning-important-intro}}
 
-Met Adobe Planning Designer kunt u een nieuwe werkruimte genereren, compleet met recordtypen en velden in Workfront Planning, of objecten toevoegen aan een werkruimte of de wijzigingshistorie weergeven voor records.
+Met de Adobe Planning Designer aangedreven door AI kunt u een nieuwe werkruimte genereren, objecten toevoegen aan een werkruimte (recordtypen, records, weergaven of velden) of de wijzigingshistorie weergeven voor records.
 
 >[!IMPORTANT]
 >
->De Planning Designer is momenteel alleen beschikbaar voor gebruikers die deelnemen aan de gesloten bètafase.
+>De plannings-Designer is momenteel alleen beschikbaar voor gebruikers die deelnemen aan het Closed Beta-programma.
 
-## Toegangsvereisten <!--edit theses-->
+Raadpleeg de volgende artikelen voor informatie over Workfront Planning:
+
+* [Algemene informatie over Adobe Workfront Planning](/help/quicksilver/planning/planning-information.md)
+* [Aan de slag met Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md)
+* [Toegangsoverzicht voor Adobe Workfront Planning](/help/quicksilver/planning/access/access-overview.md)
+
+
+## Toegangsvereisten
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven. 
 
@@ -56,7 +66,7 @@ Met Adobe Planning Designer kunt u een nieuwe werkruimte genereren, compleet met
 </tbody> 
 </table>
 
-Voor meer informatie over de toegangsvereisten van Workfront, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer informatie over de toegangsvereisten van Workfront, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -68,54 +78,30 @@ U kunt op dit moment een verzoek indienen om deel te nemen aan het programma voo
 
 ## Overwegingen bij de planning van Designer
 
-<!--these are from the AI Assistant - edit these-->
+* Als u de Designer voor planning wilt gebruiken, moet uw organisatie voldoen aan de vereisten voor het gebruik van de Workfront AI Assistant.
 
-* Als u de Planning Designer wilt gebruiken, moet u eerst de AI Assistant voor uw organisatie inschakelen. De AI Assistant is alleen beschikbaar voor iedereen in uw organisatie als het volgende is ingeschakeld:
-
-   * De AI-assistent moet zijn ingeschakeld voor uw organisatie voordat deze beschikbaar is voor gebruikers in uw bedrijf. Voor informatie, zie [&#x200B; AI Hulpoverzicht &#x200B;](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md).
-   * Nadat Workfront de AI Assistant voor uw organisatie heeft ingeschakeld, is deze beschikbaar voor de Workfront-hoofdbeheerder. Voor informatie, zie [&#x200B; basisinformatie voor uw systeem &#x200B;](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-basic-info.md) vormen.
-
-   * De Workfront-beheerder moet de AI-assistent inschakelen voor alle andere gebruikers. Voor meer informatie, zie [&#x200B; toelaten of AI Medewerker &#x200B;](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md) onbruikbaar maken.
-
-   * De AI Assistant werkt in de context van elke pagina. De aanvragen die u voor de AI-assistent indient, moeten verwijzen naar functionaliteit die beschikbaar is op de pagina die u hebt geopend.
+  Voor details, zie [ Vereisten aan AI Medewerker ](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant).
 
 * Om de Planning Designer te gebruiken, moet een systeembeheerder het in het gebied van de Voorkeur van het Systeem van uw Opstelling toelaten.
 
-* De acties die door de AI Medewerker in het Gebied van de Planning worden uitgevoerd zijn in de context van uw toestemmingen van de Planning van Workfront en uw toegangsniveau van Workfront. Raadpleeg de volgende artikelen voor meer informatie:
+* U kunt herinneringen gebruiken om de voorwerpen van de Planning te bouwen of door de Medewerker van Workfront te gebruiken AI van het Gebied van de Planning, of door de Planning Designer te gebruiken.
+
+* De acties die door de Medewerker van AI in het Gebied van de Planning of worden uitgevoerd door de Planning Designer zijn in de context van uw toestemmingen van de Planning van Workfront en uw toegangsniveau van Workfront.
+
+  Raadpleeg de volgende artikelen voor meer informatie:
 
    * [Overzicht van het delen van machtigingen in Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md)
    * [Overzicht van licentietype bij gebruik van Adobe Workfront Planning](/help/quicksilver/planning/access/license-type-overview.md)
 
-* Wijzigingen die de AI-assistent namens de gebruiker aanbrengt, worden bijgehouden in het deelvenster Historie van de record.
+* Wijzigingen die door de planningsDesigner namens de gebruiker zijn aangebracht, worden bijgehouden in het historievenster van de record.
 
 * Met opdrachten kunt u handelingen ongedaan maken. U kunt bijvoorbeeld &quot;Laatste wijziging ongedaan maken&quot; typen om de wijziging ongedaan te maken.
 
-* Wanneer u een object maakt, bijwerkt of verwijdert via AI Assistant, geeft AI Assistant de beoogde acties weer en wordt om bevestiging gevraagd. U kunt de acties vervolgens bevestigen of annuleren.
+* Wanneer het creëren van, het bijwerken van, of het schrappen van een voorwerp door de Planning Designer, toont het de voorgenomen acties en verzoekt om bevestiging. U kunt de acties vervolgens bevestigen of annuleren.
 
-—>
+* Wanneer u werkruimten en recordtypen maakt met de Designer voor planning, worden ook automatisch weergaven en velden gemaakt.
 
 ## Momenteel beschikbare functionaliteit voor de Planning Designer
-
-<!--edit these- they are from the Ai Assistant: 
-
-Currently, the AI Assistant is available in the Planning area of Workfront for the following pages:
-
-* Workspace page
-* Record type page
-* Record page
-
-You can use the AI Assistant to perform the following actions, at this time:
-
-* Search for records. You can search by information contained in any record fields. 
-* Create records. An ID with a link to the new record displays after the record is created. You can specify the fields you want to update during the creation process, like dates or description. 
-* Create records based on a document that you upload. Workfront supports the following document formats for the AI Assistant:
-
-    PPTX, PDF, DOCX, XLSX, PPT, DOC, TXT, and most image formats
-* Update fields for the records you see on the screen
-* Delete records
-* Restore records that you just deleted
-
--->
 
 U kunt of de Planning Designer of de Medewerker van AI gebruiken om het even welke volgende acties uit te voeren:
 
@@ -135,17 +121,13 @@ U kunt of de Planning Designer of de Medewerker van AI gebruiken om het even wel
 
 * Aangepaste weergaven maken
 
-* Maak records door een document te importeren. Het maken van records uit een geïmporteerd document is alleen beschikbaar in de plannings-Designer en niet in de AI-assistent. <!--add information about supported files-->
+* Maak records door een document te importeren.
+
+  Het maken van records uit een geïmporteerd document is alleen beschikbaar in de plannings-Designer en niet in de AI-assistent.
+
+  Voor informatie over de toegelaten dossiertypes en de grootte, zie de &quot;sectie van de Garanties van het Document&quot;in het artikel [ Vulling van de Vorm van het Gebruik aangedreven door AI om een verzoek in te vullen gebruikend herinneringen of documenten ](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md).
 
   <!--* Generate thumbnail and over image for a record (not available yet, maybe Q2) -->
-
-## Zoek de plannings-Designer in Workfront Planning
-
-U kunt tot de Planning Designer van de belangrijkste pagina van de Planning van Workfront toegang hebben.
-
-<!--add screen shot-->
-
-U kunt de Medewerker van AI ook gebruiken om uit de zelfde functionaliteit voordeel te halen die de Planning Designer verstrekt.
 
 ## De Planing Designer voor uw organisatie inschakelen
 
@@ -153,15 +135,36 @@ Als beheerder van Workfront, moet u eerst de Planning Designer voor uw organisat
 
 <!--add steps here-->
 
+1. Meld u als systeembeheerder aan bij Workfront.
+1. Klik **** Belangrijkste het menupictogram van het Hoofdmenu ![ ](assets/main-menu-shell.png) in de upper-left hoek van het scherm, dan klik **Opstelling**.
+1. Klik **Systeem** > in het linkerpaneel, dan ga naar het **AI voorkeur** gebied.
+1. Schakel de volgende instellingen in:
+   * **laat AI** toe
+   * **Opt binnen aan AI Bèta&#39;s**
+   * **Planning Designer**
+
+   ![ plannende Designer die in de Voorkeur van het Systeem plaatst ](assets/planning-designer-toggle-in-system-preferences.png)
+1. Klik **sparen**.
+
+   Alle gebruikers in het systeem die een Standaard vergunning hebben kunnen nu het **Ontwerp met AI** knoop op de belangrijkste pagina van Werkruimten in het planningsgebied zien. <!--check screen shot-->
+
+   ![ Ontwerp met AI knoop op de pagina van Werkruimten ](assets/design-with-ai-button-on-workspaces-page.png)
+
+   Alle gebruikers kunnen nu de Planning Designer starten en gebruiken om Workfront Planning-objecten te maken en bij te werken.
+
 ## Objecten maken of bijwerken met de planningsversie van Designer
 
 U kunt voorwerpen in de Planning van Workfront tot stand brengen of bijwerken hetzij door de Planning Designer, of de Medewerker van AI te gebruiken, tenzij anders gespecificeerd.
 
-1. Login aan Workfront, dan klik het **pictogram van het Belangrijkste Menu** het belangrijkste menu van Dots ![&#x200B; in de hoger-juiste hoek van het scherm, of het &#x200B;](assets/dots-main-menu.png) Belangrijkste **pictogram** het belangrijkste menu van Lijnen ![&#x200B; in de upper-left hoek, als beschikbaar.](assets/lines-main-menu.png)
+1. Login aan Workfront, dan klik het **pictogram van het Belangrijkste Menu** het belangrijkste menu van Lijnen ![ in de upper-left hoek.](assets/lines-main-menu.png)
 
 1. Klik **Planning**. Het planningsgebied wordt geopend.
 
 1. Klik **Ontwerp met AI**.
+
+   Het **Planning Designer** venster opent.
+
+   ![ plannend het venster van Designer ](assets/planning-designer-window.png)
 
 1. Typ in de beschikbare ruimte opdrachten voor de AI-assistent en klik vervolgens op Enter wanneer u klaar bent.
 
@@ -189,9 +192,16 @@ U kunt voorwerpen in de Planning van Workfront tot stand brengen of bijwerken he
 
    <!--* Generate thumbnail and over image for a record (not available yet, maybe Q2) -->
 
-   Een visuele voorvertoning wordt weergegeven met een voorbeeld van wat de assistent kan bouwen.
+1. Nadat u een succesvol antwoord hebt ontvangen, volgt u de koppelingen in het snelle gebied om het object van uw verzoek te maken, bij te werken of te bekijken.
 
-1. Nadat u een succesvol antwoord hebt ontvangen, volgt u de koppelingen in de opdrachtregel om het object van uw verzoek te maken, bij te werken of te bekijken.
+   Als u ermee akkoord gaat uw objecten te maken, worden de wijzigingen rechts van het snelle gebied weergegeven.
+
+   U kunt werkruimten, recordtypen, velden, weergaven en records in het voorvertoningsgebied rechts van de vraag bekijken.
+1. (Optioneel) Typ aanvullende vragen om uw objecten verder te bewerken.
+1. (Optioneel) Klik op het **pictogram** pictogram ![ van de voorvertoning van de AI-werkruimte verbergen of weergeven ](assets/hide-show-preview-screen-in-planning-designer.png) om het voorvertoningsscherm rechts te openen of te sluiten.
+1. Klik de **Open werkruimte in nieuw lusjepictogram** ![ Open werkruimte in nieuw lusjepictogram ](assets/open-workspace-on-new-tab-icon.png) om de werkruimte te openen u in een nieuw lusje bijwerkt.
+1. Klik het **Dichte** pictogram **X** om de Planning Designer te sluiten en het gebied van Werkruimten te openen.
+1. Open de werkruimte die u hebt bewerkt met de Designer voor planning en breng verdere wijzigingen in de objecten aan.
 
 
 
