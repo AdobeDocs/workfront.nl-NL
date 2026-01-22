@@ -26,9 +26,9 @@ ht-degree: 0%
 
 U kunt recordtypen verwijderen wanneer deze niet meer relevant zijn.
 
-Als u echter recordtypen verwijdert, wordt ook alle informatie verwijderd die aan de recordtypen is gekoppeld. Voor meer informatie, zie de [ Overwegingen wanneer het schrappen van verslagtypes ](#considerations-when-deleting-record-types) sectie in dit artikel.
+Als u echter recordtypen verwijdert, wordt ook alle informatie verwijderd die aan de recordtypen is gekoppeld. Voor meer informatie, zie de [&#x200B; Overwegingen wanneer het schrappen van verslagtypes &#x200B;](#considerations-when-deleting-record-types) sectie in dit artikel.
 
-Voor informatie over verslagtypes, zie [ overzicht van de types van Verslag ](/help/quicksilver/planning/architecture/overview-of-record-types.md).
+Voor informatie over verslagtypes, zie [&#x200B; overzicht van de types van Verslag &#x200B;](/help/quicksilver/planning/architecture/overview-of-record-types.md).
 
 <!-- last sentence might need to be deleted when we can recover or replace deleted record types-->
 
@@ -73,7 +73,7 @@ of
 </tbody> 
 </table>
 
-Voor meer informatie over de toegangsvereisten van Workfront, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer informatie over de toegangsvereisten van Workfront, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++   
 
@@ -152,7 +152,7 @@ Voor meer informatie over de toegangsvereisten van Workfront, zie [ vereisten va
 
 * U kunt geen algemeen recordtype verwijderen dat aan andere werkruimten is toegevoegd.
 
-  Voor meer informatie, zie de sectie [ globale verslagtypes van de Schrapping ](#delete-global-record-types) in dit artikel.
+  Voor meer informatie, zie de sectie [&#x200B; globale verslagtypes van de Schrapping &#x200B;](#delete-global-record-types) in dit artikel.
 
 ## Recordtypen verwijderen
 
@@ -168,13 +168,13 @@ Voor meer informatie over de toegangsvereisten van Workfront, zie [ vereisten va
 1. Voer een van de volgende handelingen uit:
 
    * Beweeg over de kaart van het verslagtype, klik **Meer** menu, toen **Schrapping**.
-   * Klik de kaart voor het verslagtype dat u, en van de verslagtype pagina wilt schrappen, **Meer** menu ![ Meer menu ](assets/more-menu.png) aan het recht van de verslagtype naam klikken, dan **Schrapping**.
+   * Klik de kaart voor het verslagtype dat u, en van de verslagtype pagina wilt schrappen, **Meer** menu ![&#x200B; Meer menu &#x200B;](assets/more-menu.png) aan het recht van de verslagtype naam klikken, dan **Schrapping**.
 
      >[!TIP]
      >
      >U kunt geen globaal recordtype verwijderen uit de secundaire werkruimte waar het is toegevoegd van de pagina met recordtypen. U kunt deze alleen verwijderen van de kaart met recordtypen in de werkruimte.
 
-     ![ permanent schrapt verslagtype bevestiging ](assets/permanently-delete-record-type-confirmation.png)
+     ![&#x200B; permanent schrapt verslagtype bevestiging &#x200B;](assets/permanently-delete-record-type-confirmation.png)
 
 
 1. Het type **schrapt** in de bevestigingsdoos, dan klikt **permanent schrapt**. Dit is niet hoofdlettergevoelig.
@@ -199,12 +199,12 @@ Alle records en velden worden ook verwijderd en kunnen niet worden hersteld.
 
 1. (Voorwaardelijk) doe één van het volgende, afhankelijk van of het globale verslagtype aan secundaire werkruimten is toegevoegd:
 
-   * Als het verslagtype niet aan een secundaire werkruimte werd toegevoegd, klik op **Meer** menu ![ Meer menu ](assets/more-menu.png) op de kaart van het verslagtype, of rechts van de naam van het verslagtype op zijn pagina, dan klik **Schrapping**.
+   * Als het verslagtype niet aan een secundaire werkruimte werd toegevoegd, klik op **Meer** menu ![&#x200B; Meer menu &#x200B;](assets/more-menu.png) op de kaart van het verslagtype, of rechts van de naam van het verslagtype op zijn pagina, dan klik **Schrapping**.
    * Als het recordtype aan minstens één andere secundaire werkruimte werd toegevoegd, eerst, ga naar de secundaire werkruimte en schrap het globale verslag van die ruimte.
 
-     Voor informatie, zie de sectie [ een globaal verslagtype van een secundaire werkruimte ](#delete-a-global-record-type-from-a-secondary-workspace) in dit artikel schrappen.
+     Voor informatie, zie de sectie [&#x200B; een globaal verslagtype van een secundaire werkruimte &#x200B;](#delete-a-global-record-type-from-a-secondary-workspace) in dit artikel schrappen.
 
-1. (Voorwaardelijk) blijven het schrappen van het verslagtype, zoals die in de sectie [ wordt beschreven de verslagtypes van Schrapping ](#delete-record-types-1) in dit artikel.
+1. (Voorwaardelijk) blijven het schrappen van het verslagtype, zoals die in de sectie [&#x200B; wordt beschreven de verslagtypes van Schrapping &#x200B;](#delete-record-types-1) in dit artikel.
 
    De volgende dingen doen zich voor:
 
@@ -235,10 +235,10 @@ Een algemeen recordtype uit een secundaire werkruimte verwijderen:
 
 1. Ga naar het algemene recordtype in de secundaire werkruimte.
 
-1. (Facultatief) klik op **Meer** menu ![ Meer menu ](assets/more-menu.png) op de kaart van het verslagtype, dan klik **Schrapping**.
+1. (Facultatief) klik op **Meer** menu ![&#x200B; Meer menu &#x200B;](assets/more-menu.png) op de kaart van het verslagtype, dan klik **Schrapping**.
 1. (Voorwaardelijk) Type **schrapt** op het verstrekte gebied, dan klik **permanent schrapt**.
 
-   ![ Schrap secundaire globale doos van de verslagtype bevestiging ](assets/delete-secondary-global-record-type.png)
+   ![&#x200B; Schrap secundaire globale doos van de verslagtype bevestiging &#x200B;](assets/delete-secondary-global-record-type.png)
 
    De volgende dingen doen zich voor:
 

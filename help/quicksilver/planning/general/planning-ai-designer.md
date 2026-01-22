@@ -56,7 +56,7 @@ Met Adobe Planning Designer kunt u een nieuwe werkruimte genereren, compleet met
 </tbody> 
 </table>
 
-Voor meer informatie over de toegangsvereisten van Workfront, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer informatie over de toegangsvereisten van Workfront, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -72,10 +72,10 @@ U kunt op dit moment een verzoek indienen om deel te nemen aan het programma voo
 
 * Als u de Planning Designer wilt gebruiken, moet u eerst de AI Assistant voor uw organisatie inschakelen. De AI Assistant is alleen beschikbaar voor iedereen in uw organisatie als het volgende is ingeschakeld:
 
-   * De AI-assistent moet zijn ingeschakeld voor uw organisatie voordat deze beschikbaar is voor gebruikers in uw bedrijf. Voor informatie, zie [ AI Hulpoverzicht ](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md).
-   * Nadat Workfront de AI Assistant voor uw organisatie heeft ingeschakeld, is deze beschikbaar voor de Workfront-hoofdbeheerder. Voor informatie, zie [ basisinformatie voor uw systeem ](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-basic-info.md) vormen.
+   * De AI-assistent moet zijn ingeschakeld voor uw organisatie voordat deze beschikbaar is voor gebruikers in uw bedrijf. Voor informatie, zie [&#x200B; AI Hulpoverzicht &#x200B;](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md).
+   * Nadat Workfront de AI Assistant voor uw organisatie heeft ingeschakeld, is deze beschikbaar voor de Workfront-hoofdbeheerder. Voor informatie, zie [&#x200B; basisinformatie voor uw systeem &#x200B;](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-basic-info.md) vormen.
 
-   * De Workfront-beheerder moet de AI-assistent inschakelen voor alle andere gebruikers. Voor meer informatie, zie [ toelaten of AI Medewerker ](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md) onbruikbaar maken.
+   * De Workfront-beheerder moet de AI-assistent inschakelen voor alle andere gebruikers. Voor meer informatie, zie [&#x200B; toelaten of AI Medewerker &#x200B;](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md) onbruikbaar maken.
 
    * De AI Assistant werkt in de context van elke pagina. De aanvragen die u voor de AI-assistent indient, moeten verwijzen naar functionaliteit die beschikbaar is op de pagina die u hebt geopend.
 
@@ -157,7 +157,7 @@ Als beheerder van Workfront, moet u eerst de Planning Designer voor uw organisat
 
 U kunt voorwerpen in de Planning van Workfront tot stand brengen of bijwerken hetzij door de Planning Designer, of de Medewerker van AI te gebruiken, tenzij anders gespecificeerd.
 
-1. Login aan Workfront, dan klik het **pictogram van het Belangrijkste Menu** het belangrijkste menu van Dots ![ in de hoger-juiste hoek van het scherm, of het ](assets/dots-main-menu.png) Belangrijkste **pictogram** het belangrijkste menu van Lijnen ![ in de upper-left hoek, als beschikbaar.](assets/lines-main-menu.png)
+1. Login aan Workfront, dan klik het **pictogram van het Belangrijkste Menu** het belangrijkste menu van Dots ![&#x200B; in de hoger-juiste hoek van het scherm, of het &#x200B;](assets/dots-main-menu.png) Belangrijkste **pictogram** het belangrijkste menu van Lijnen ![&#x200B; in de upper-left hoek, als beschikbaar.](assets/lines-main-menu.png)
 
 1. Klik **Planning**. Het planningsgebied wordt geopend.
 
