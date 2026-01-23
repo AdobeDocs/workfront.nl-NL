@@ -35,7 +35,7 @@ Elke gebruiker kan de AI Reviewer toevoegen aan een revisie- en goedkeuringsaanv
 * Uw instantie van Workfront moet Verenigde Goedkeuringen hebben toegelaten.
 * Uw organisatie moet GenStudio Foundation hebben.
 * Adobe moet een ondertekende Adobe Gen AI-overeenkomst in het bestand hebben.
-Voor meer informatie bij het ondertekenen van de overeenkomst, zie [ Ondertekenen de overeenkomst van Adobe Gen AI ](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement).
+Voor meer informatie bij het ondertekenen van de overeenkomst, zie [&#x200B; Ondertekenen de overeenkomst van Adobe Gen AI &#x200B;](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement).
 
 ## Deelnemen aan de bèta
 
@@ -62,14 +62,14 @@ Als u een niet-ondersteund bestandstype uploadt, wordt de optie AI Reviewer niet
 
 De Workfront AI Reviewer gebruikt de richtlijnen voor het merk wanneer u uw inhoud controleert. Workfront-beheerders kunnen richtlijnen voor het merk instellen in het gedeelte Workfront Setup. In GenStudio Foundation gemaakte merken zijn ook beschikbaar in Workfront.
 
-Voor meer informatie, zie [ opstellingsmerken voor de AI Reviewer ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md).
+Voor meer informatie, zie [&#x200B; opstellingsmerken voor de AI Reviewer &#x200B;](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md).
 
 
 ## AI-revisoren maken
 
 Als er ten minste één merk is ingesteld, kunnen Workfront-beheerders beginnen met het maken van AI Reviewers in het gedeelte Setup. Die AI-revisoren kunnen vervolgens worden toegewezen aan goedkeuringssjablonen en aan individuele controle- en goedkeuringsaanvragen. Op dit moment kunnen AI-revisoren alleen controleren aan de hand van richtlijnen voor afbeeldingsmerken.
 
-Voor meer informatie, zie [ AI Reviewers ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/set-up-ai-reviewer.md) creëren.
+Voor meer informatie, zie [&#x200B; AI Reviewers &#x200B;](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/set-up-ai-reviewer.md) creëren.
 
 ## AI-revisoren toevoegen aan aanvraag voor beoordeling en goedkeuring
 
@@ -83,18 +83,18 @@ Gebruikers kunnen AI-revisoren toevoegen aan goedkeuringssjablonen om automatisc
 
 Zodra gecreeerd, kunnen de goedkeuringsmalplaatjes op activa in het gebied van Documenten van een project, een taak, of een kwestie worden toegepast.
 
-Voor meer informatie, zie [ een Malplaatje van de Goedkeuring voor activa en documenten ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md) creëren.
+Voor meer informatie, zie [&#x200B; een Malplaatje van de Goedkeuring voor activa en documenten &#x200B;](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md) creëren.
 
-![ malplaatjelijst die AI recensenten toont ](assets/ai-review-templates.png)
+![&#x200B; malplaatjelijst die AI recensenten toont &#x200B;](assets/ai-review-templates.png)
 
 ### Individuele beoordeling en goedkeuringsaanvraag
 
 Wanneer gebruikers individuele revisie- en goedkeuringsverzoeken maken, kunnen ze een AI Reviewer toevoegen in samenwerking met andere deelnemers of kunnen ze één aanvraag maken met alleen de AI Reviewer om te controleren of de producten voldoen aan het merk.
 
-Voor meer informatie, zie [ een documentoverzicht of goedkeuringsverzoek ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md) creëren.
+Voor meer informatie, zie [&#x200B; een documentoverzicht of goedkeuringsverzoek &#x200B;](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md) creëren.
 
 
-![ AI recensent die aan individueel goedkeuringsverzoek wordt toegevoegd ](assets/ad-ai-reviewer-to-request.png)
+![&#x200B; AI recensent die aan individueel goedkeuringsverzoek wordt toegevoegd &#x200B;](assets/ad-ai-reviewer-to-request.png)
 
 ## Bekijk de score en feedback van AI Reviewer
 
@@ -106,10 +106,10 @@ De AI Reviewer is niet ontworpen als besluitvormer in de beoordelings- en goedke
 
 Als de afbeelding lang voldoet aan de richtlijnen voor het merk, kan de ontwerper een nieuwe versie uploaden en kan de eigenaar van de goedkeuring een tweede revisie- en goedkeuringsaanvraag maken met de AI Reviewer, zodat u tussen de versies kunt schakelen en feedback kunt vergelijken.
 
-Voor meer informatie bij het bekijken van scores en koppel terug, zie [ de score en terugkoppelen van de Revisor van de Mening AI ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/view-ai-reviewer-feedback.md).
+Voor meer informatie bij het bekijken van scores en koppel terug, zie [&#x200B; de score en terugkoppelen van de Revisor van de Mening AI &#x200B;](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/view-ai-reviewer-feedback.md).
 
 
-![ AI recensent terugkoppelt ](assets/ai-reviewer-feedback.png)
+![&#x200B; AI recensent terugkoppelt &#x200B;](assets/ai-reviewer-feedback.png)
 
 
 <!--## Video Walkthrough
