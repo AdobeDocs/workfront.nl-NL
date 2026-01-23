@@ -4,9 +4,9 @@ description: Met Adobe Planning Designer kunt u een nieuwe werkruimte genereren,
 recommendations: noDisplay, noCatalog
 hidefromtoc: true
 hide: true
-source-git-commit: 866b237db5d109b0a435145119a6412e41d960ab
+source-git-commit: bd3dde54d986416af847b2f3b2a1e8570d5ce3f2
 workflow-type: tm+mt
-source-wordcount: '1020'
+source-wordcount: '1278'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Raadpleeg de volgende artikelen voor informatie over Workfront Planning:
 * [Toegangsoverzicht voor Adobe Workfront Planning](/help/quicksilver/planning/access/access-overview.md)
 
 
-## Toegangsvereisten
+## Toegangsvereisten <!--edit theses??-->
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven. 
 
@@ -66,26 +66,35 @@ Raadpleeg de volgende artikelen voor informatie over Workfront Planning:
 </tbody> 
 </table>
 
-Voor meer informatie over de toegangsvereisten van Workfront, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer informatie over de toegangsvereisten van Workfront, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Inschrijven in het programma Closed Beta voor de Planning Designer
 
-<!--edit this Or create a new article under Beta programs?? -->
+U kunt op dit moment een verzoek indienen om deel te nemen aan het programma voor gesloten Beta voor de Planning Designer door ons een e-mail te sturen naar sargism@adobe.com.
 
-U kunt op dit moment een verzoek indienen om deel te nemen aan het programma voor gesloten Beta voor de Planning Designer.
+Nadat wij de e-mail ontvangen, zal ons team van de Techniek de Planning Designer in uw exemplaar van Workfront aanzetten.
+
+>[!IMPORTANT]
+>
+>Uw bedrijf moet eerst de AI-assistent-overeenkomst accepteren voordat de Planning Designer beschikbaar is in uw systeem.
 
 ## Overwegingen bij de planning van Designer
 
-* Als u de Designer voor planning wilt gebruiken, moet uw organisatie voldoen aan de vereisten voor het gebruik van de Workfront AI Assistant.
+* Als u de Planning Designer wilt gebruiken, moet u eerst de AI Assistant voor uw organisatie inschakelen. De AI-assistent moet als volgt beschikbaar zijn voor iedereen in uw organisatie:
 
-  Voor details, zie [&#x200B; Vereisten aan AI Medewerker &#x200B;](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant).
+   * Workfront moet de AI Assistant beschikbaar stellen voor uw organisatie.
 
-* Om de Planning Designer te gebruiken, moet een systeembeheerder het in het gebied van de Voorkeur van het Systeem van uw Opstelling toelaten.
+     Voor details, zie [ Vereisten aan AI Medewerker ](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant).
+   * Nadat Workfront de AI-assistent voor uw organisatie beschikbaar heeft gesteld, kan de beheerder van de Workfront deze openen.
 
-* U kunt herinneringen gebruiken om de voorwerpen van de Planning te bouwen of door de Medewerker van Workfront te gebruiken AI van het Gebied van de Planning, of door de Planning Designer te gebruiken.
+     Voor informatie, zie [ basisinformatie voor uw systeem ](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-basic-info.md) vormen.
+   * De Workfront-beheerder moet de AI Assistant-overeenkomst accepteren en vervolgens de AI-assistent voor alle andere gebruikers inschakelen.
 
+     Voor meer informatie, zie [ toelaten of AI Medewerker ](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md) onbruikbaar maken.
+* Nadat uw Beheerder van het Systeem de Medewerker van AI voor uw organisatie aanzette, is de Medewerker van de Planning beschikbaar voor alle gebruikers, door gebrek, als het voor uw organisatie ter beschikking is gesteld.
+* De acties die door de Planning Designer worden uitgevoerd kunnen ook door de Medewerker van AI worden uitgevoerd, wanneer u het in het Gebied van de Planning gebruikt.
 * De acties die door de Medewerker van AI in het Gebied van de Planning of worden uitgevoerd door de Planning Designer zijn in de context van uw toestemmingen van de Planning van Workfront en uw toegangsniveau van Workfront.
 
   Raadpleeg de volgende artikelen voor meer informatie:
@@ -93,11 +102,13 @@ U kunt op dit moment een verzoek indienen om deel te nemen aan het programma voo
    * [Overzicht van het delen van machtigingen in Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md)
    * [Overzicht van licentietype bij gebruik van Adobe Workfront Planning](/help/quicksilver/planning/access/license-type-overview.md)
 
-* Wijzigingen die door de planningsDesigner namens de gebruiker zijn aangebracht, worden bijgehouden in het historievenster van de record.
+* Wijzigingen die door de AI Assistant of de Planning Designer namens de gebruiker worden aangebracht, worden bijgehouden in het deelvenster Historie van de record.
 
-* Met opdrachten kunt u handelingen ongedaan maken. U kunt bijvoorbeeld &quot;Laatste wijziging ongedaan maken&quot; typen om de wijziging ongedaan te maken.
+* De acties van de Planning Designer zijn permanent en kunnen onomkeerbaar zijn. Zo kan het verwijderen van een veld niet ongedaan worden gemaakt. Alle acties die door de Designer worden voorgesteld, bekijken voordat u ze accepteert.
 
-* Wanneer het creëren van, het bijwerken van, of het schrappen van een voorwerp door de Planning Designer, toont het de voorgenomen acties en verzoekt om bevestiging. U kunt de acties vervolgens bevestigen of annuleren.
+  >[!IMPORTANT]
+  >
+  >Wanneer het creëren van, het bijwerken van, of het schrappen van een voorwerp door de Planning Designer, zal de herinnering om bevestiging slechts voor de acties vragen die onomkeerbaar zijn. Het verwijderen van bijvoorbeeld een recordtype of werkruimte is onomkeerbaar. Het verwijderen van een record is niet mogelijk. De Planning Designer vraagt alleen om bevestiging wanneer wordt geprobeerd een recordtype of werkruimte te verwijderen.
 
 * Wanneer u werkruimten en recordtypen maakt met de Designer voor planning, worden ook automatisch weergaven en velden gemaakt.
 
@@ -107,7 +118,7 @@ U kunt of de Planning Designer of de Medewerker van AI gebruiken om het even wel
 
 * Werkruimten maken en configureren
 
-* Recordtypen maken
+* Recordtypen maken, zoals algemene recordtypen definiëren en toevoegen aan werkruimten
 
 * Ontwerpvelden of formuleringsvelden
 
@@ -121,56 +132,44 @@ U kunt of de Planning Designer of de Medewerker van AI gebruiken om het even wel
 
 * Aangepaste weergaven maken
 
-* Maak records door een document te importeren.
+* Records maken door een document te importeren
 
-  Het maken van records uit een geïmporteerd document is alleen beschikbaar in de plannings-Designer en niet in de AI-assistent.
+  U kunt bijvoorbeeld een afbeelding van een organigram in uw bedrijf uploaden en de plannings-Designer kan er een werkruimte op maken.
 
-  Voor informatie over de toegelaten dossiertypes en de grootte, zie de &quot;sectie van de Garanties van het Document&quot;in het artikel [&#x200B; Vulling van de Vorm van het Gebruik aangedreven door AI om een verzoek in te vullen gebruikend herinneringen of documenten &#x200B;](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md).
+  Het maken van objecten uit een geïmporteerd document is alleen beschikbaar in de plannings-Designer en niet in de AI-assistent.
+
+  >[!IMPORTANT]
+  >
+  >Hoewel wij .XLSX en .CSV dossiertypes steunen, kunnen zij niet voor grootschalige verslaginvoer door de Planning Designer worden gebruikt.
+  >Als u een wezenlijk aantal verslagen op dit ogenblik moet invoeren, adviseren wij dat u dit doet door de handmogelijkheden te gebruiken beschikbaar in Planning.
+  >
+  >Voor meer informatie, zie [ verslagen tot stand brengen door informatie van een CSV of dossier van Excel ](/help/quicksilver/planning/records/import-file-to-create-records.md) in te voeren.
+  >Voor dossiertype beperkingen, zie &quot;suggesties krijgen die op een document worden gebaseerd u&quot;sectie in het [ Vulling van de Vorm van het Gebruik door AI wordt aangedreven om een verzoek in te vullen gebruikend herinneringen of documenten ](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md).
+
 
   <!--* Generate thumbnail and over image for a record (not available yet, maybe Q2) -->
-
-## De Planing Designer voor uw organisatie inschakelen
-
-Als beheerder van Workfront, moet u eerst de Planning Designer voor uw organisatie toelaten.
-
-<!--add steps here-->
-
-1. Meld u als systeembeheerder aan bij Workfront.
-1. Klik **&#x200B;**&#x200B;Belangrijkste het menupictogram van het Hoofdmenu ![&#x200B; &#x200B;](assets/main-menu-shell.png) in de upper-left hoek van het scherm, dan klik **Opstelling**.
-1. Klik **Systeem** > in het linkerpaneel, dan ga naar het **AI voorkeur** gebied.
-1. Schakel de volgende instellingen in:
-   * **laat AI** toe
-   * **Opt binnen aan AI Bèta&#39;s**
-   * **Planning Designer**
-
-   ![&#x200B; plannende Designer die in de Voorkeur van het Systeem plaatst &#x200B;](assets/planning-designer-toggle-in-system-preferences.png)
-1. Klik **sparen**.
-
-   Alle gebruikers in het systeem die een Standaard vergunning hebben kunnen nu het **Ontwerp met AI** knoop op de belangrijkste pagina van Werkruimten in het planningsgebied zien. <!--check screen shot-->
-
-   ![&#x200B; Ontwerp met AI knoop op de pagina van Werkruimten &#x200B;](assets/design-with-ai-button-on-workspaces-page.png)
-
-   Alle gebruikers kunnen nu de Planning Designer starten en gebruiken om Workfront Planning-objecten te maken en bij te werken.
 
 ## Objecten maken of bijwerken met de planningsversie van Designer
 
 U kunt voorwerpen in de Planning van Workfront tot stand brengen of bijwerken hetzij door de Planning Designer, of de Medewerker van AI te gebruiken, tenzij anders gespecificeerd.
 
-1. Login aan Workfront, dan klik het **pictogram van het Belangrijkste Menu** het belangrijkste menu van Lijnen ![&#x200B; in de upper-left hoek.](assets/lines-main-menu.png)
+1. Login aan Workfront, dan klik het **pictogram van het Belangrijkste Menu** Belangrijkste menu van Lijnen ![ in de upper-left hoek, dan klik ](assets/lines-main-menu.png) Planning **.**
 
-1. Klik **Planning**. Het planningsgebied wordt geopend.
+   Het **Planning** gebied opent.
+
+   ![ Ontwerp met AI knoop op de pagina van Werkruimten ](assets/design-with-ai-button-on-workspaces-page.png)
 
 1. Klik **Ontwerp met AI**.
 
    Het **Planning Designer** venster opent.
 
-   ![&#x200B; plannend het venster van Designer &#x200B;](assets/planning-designer-window.png)
+   ![ plannend het venster van Designer ](assets/planning-designer-window.png)
 
-1. Typ in de beschikbare ruimte opdrachten voor de AI-assistent en klik vervolgens op Enter wanneer u klaar bent.
+1. Typ in de beschikbare ruimte de vragen voor de AI-assistent en klik op Enter wanneer u klaar bent.
 
    <!--add screen shot-->
 
-   U kunt bijvoorbeeld een aanvraag typen die vergelijkbaar is met de onderstaande aanvragen:
+   U kunt bijvoorbeeld aanwijzingen typen die vergelijkbaar zijn met de onderstaande vragen:
 
    * Een werkruimte maken en configureren met vijf recordtypen voor het beheren van campagnes
 
@@ -196,12 +195,35 @@ U kunt voorwerpen in de Planning van Workfront tot stand brengen of bijwerken he
 
    Als u ermee akkoord gaat uw objecten te maken, worden de wijzigingen rechts van het snelle gebied weergegeven.
 
-   U kunt werkruimten, recordtypen, velden, weergaven en records in het voorvertoningsgebied rechts van de vraag bekijken.
+   U kunt werkruimten, recordtypen, velden, weergaven en records weergeven in het voorvertoningsgebied rechts van de vraag.
+
+   >[!TIP]
+   >
+   >Sommige objecten worden direct gemaakt, zonder dat dit hoeft te worden bevestigd.
+
 1. (Optioneel) Typ aanvullende vragen om uw objecten verder te bewerken.
-1. (Optioneel) Klik op het **pictogram** pictogram ![&#x200B; van de voorvertoning van de AI-werkruimte verbergen of weergeven &#x200B;](assets/hide-show-preview-screen-in-planning-designer.png) om het voorvertoningsscherm rechts te openen of te sluiten.
-1. Klik de **Open werkruimte in nieuw lusjepictogram** ![&#x200B; Open werkruimte in nieuw lusjepictogram &#x200B;](assets/open-workspace-on-new-tab-icon.png) om de werkruimte te openen u in een nieuw lusje bijwerkt.
+1. (Facultatief) klik **tonen of het voorproefscherm** pictogram ![ verbergen of tonen het pictogram van het voorproefscherm ](assets/hide-show-preview-screen-in-planning-designer.png) om het voorproefscherm op het recht te openen of te sluiten.
+1. Klik de **Open werkruimte in nieuw lusjepictogram** ![ Open werkruimte in nieuw lusjepictogram ](assets/open-workspace-on-new-tab-icon.png) om de werkruimte te openen u in een nieuw lusje bijwerkt.
 1. Klik het **Dichte** pictogram **X** om de Planning Designer te sluiten en het gebied van Werkruimten te openen.
 1. Open de werkruimte die u hebt bewerkt met de Designer voor planning en breng verdere wijzigingen in de objecten aan.
+
+## Schakel de Planing Designer voor uw organisatie uit
+
+Nadat uw Workfront-beheerder de AI Assistant-overeenkomst heeft geaccepteerd, is de Planning Designer standaard ingeschakeld voor iedereen in uw organisatie.
+
+U schakelt als volgt:
+
+1. Meld u als systeembeheerder aan bij Workfront.
+1. Klik **** Belangrijkste het menupictogram van het Hoofdmenu ![ ](assets/main-menu-shell.png) in de upper-left hoek van het scherm, dan klik **Opstelling**.
+1. Klik **Systeem** > in het linkerpaneel, dan ga naar het **AI voorkeur** gebied.
+1. Draai van de **Planning Designer** plaatsen. <!--add new screen shot with info icon-->
+
+   ![ plannende Designer die in de Voorkeur van het Systeem plaatst ](assets/planning-designer-toggle-in-system-preferences.png)
+1. Klik **sparen**.
+
+   Dit verwijdert de Planning Designer voor alle gebruikers in het systeem.
+
+
 
 
 
