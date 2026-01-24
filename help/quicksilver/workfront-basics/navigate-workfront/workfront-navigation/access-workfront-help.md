@@ -24,8 +24,8 @@ Naast het zoeken naar Help-documentatie hebt u ook toegang tot de volgende [!DNL
 
 * De Zelfstudies van Workfront: Voor meer informatie, zie [[!DNL Workfront]  Zelfstudies &#x200B;](https://experienceleague.adobe.com/nl/docs/workfront-learn/tutorials-workfront/home).
 
-* [!UICONTROL Innovation Lab]: Voor meer informatie, zie [&#x200B; [!UICONTROL Innovation Lab] &#x200B;](https://experienceleaguecommunities.adobe.com/t5/workfront-ideas/idb-p/workfront-ideas).
-* [!UICONTROL [!DNL Workfront] Community]: Voor meer informatie, zie [&#x200B; de [!UICONTROL [!DNL Adobe Workfront] Gemeenschap] &#x200B;](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront)
+* [!UICONTROL Innovation Lab]: Voor meer informatie, zie [&#x200B; [!UICONTROL Innovation Lab] &#x200B;](https://experienceleaguecommunities.adobe.com/t5/workfront-ideas/idb-p/workfront-ideas?profile.language=nl).
+* [!UICONTROL [!DNL Workfront] Community]: Voor meer informatie, zie [&#x200B; de [!UICONTROL [!DNL Adobe Workfront] Gemeenschap] &#x200B;](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront?profile.language=nl)
 
 ## Help van binnenuit openen [!DNL Workfront]
 

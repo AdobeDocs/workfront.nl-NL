@@ -25,7 +25,7 @@ Als geverifieerde gebruiker kunt u het volgende doen:
 
 Om over een idee te stemmen:
 
-1. Login aan de [!DNL Adobe Workfront] Gemeenschap op de [!DNL Adobe Experience League] plaats bij volgende URL: [[!DNL Adobe Workfront]  Gemeenschap &#x200B;](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront).
+1. Login aan de [!DNL Adobe Workfront] Gemeenschap op de [!DNL Adobe Experience League] plaats bij volgende URL: [[!DNL Adobe Workfront]  Gemeenschap &#x200B;](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront?profile.language=nl).
 
 1. Klik op de tab **[!UICONTROL Ideas]** .
 
@@ -48,4 +48,4 @@ Wanneer de kritische drempel van 450 punten is bereikt, heeft het idee een van d
 * **[!UICONTROL Delivered]:** Er is een oplossing gemaakt en geleverd. Er worden geen verdere updates beschikbaar gesteld en opmerkingen worden uitgeschakeld.
 * **[!UICONTROL Archived]**: Ideeën die het 18-maanden-teken bereiken (vanaf de verzenddatum) en minder dan 300 punten hebben, worden gearchiveerd.
 
-Om begonnen te worden of meer te leren, login aan het [&#x200B; Laboratorium van de Innovatie &#x200B;](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront).
+Om begonnen te worden of meer te leren, login aan het [&#x200B; Laboratorium van de Innovatie &#x200B;](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront?profile.language=nl).

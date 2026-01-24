@@ -137,7 +137,7 @@ Als u vragen hebt of problemen hebt met het indienen van een aanvraag, belt u he
 1. (Optioneel) Klik op de knop **[!UICONTROL Close case]** om het hoofdlettergebruik te sluiten.
 
 
-<!--drafted: I took the information above from this blog post by Jon Chen (on September 13, 2022): https://experienceleaguecommunities.adobe.com/t5/workfront-blogs/how-to-submit-a-support-ticket-on-experience-league/ba-p/461737)
+<!--drafted: I took the information above from this blog post by Jon Chen (on September 13, 2022): https://experienceleaguecommunities.adobe.com/t5/workfront-blogs/how-to-submit-a-support-ticket-on-experience-league/ba-p/461737?profile.language=nl)
 
 - this is the information that was there before - pointing to WorkfrontOne: 
 

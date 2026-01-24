@@ -125,4 +125,4 @@ Het zoeken naar documentatie kan efficiënter zijn met een paar strategische ben
 
 ### Antwoorden zoeken in communityforums
 
-* **Vraag Vragen**: Als de documentatie uw vraag niet beantwoordt, probeer post in de [&#x200B; Communautaire forums van Workfront &#x200B;](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront?profile.language=en) waar andere gebruikers en deskundigen hulp kunnen aanbieden.
+* **Vraag Vragen**: Als de documentatie uw vraag niet beantwoordt, probeer post in de [&#x200B; Communautaire forums van Workfront &#x200B;](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront?profile.language=nl) waar andere gebruikers en deskundigen hulp kunnen aanbieden.

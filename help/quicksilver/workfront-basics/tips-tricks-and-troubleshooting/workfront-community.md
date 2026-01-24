@@ -54,7 +54,7 @@ Als u uw wachtwoord voor de communautaire site niet meer onthoudt, kunt u contac
 
 ### Wat is de URL voor de [!DNL Workfront] community?
 
-De [!DNL Workfront] Gemeenschap is beschikbaar op de [!DNL Adobe Experience League] website bij volgende URL: [[!DNL Workfront]  Gemeenschap &#x200B;](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront).
+De [!DNL Workfront] Gemeenschap is beschikbaar op de [!DNL Adobe Experience League] website bij volgende URL: [[!DNL Workfront]  Gemeenschap &#x200B;](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront?profile.language=nl).
 
 ### Wat is mijn subdomein? {#what-s-my-subdomain}
 

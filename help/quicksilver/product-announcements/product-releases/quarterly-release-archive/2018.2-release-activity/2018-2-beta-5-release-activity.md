@@ -155,7 +155,7 @@ Voorafgaand aan deze verbetering, zou de naburige kolom aan het recht van de res
 
 Voor informatie over het resizing van het opnieuw ordenen van kolommen in lijsten, zie [&#x200B; kolombreedte en orde wijzigen &#x200B;](../../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md).
 
-Om aan ons bèta testend programma voor de huidige lijstverbeteringen deel te nemen, zie [&#x200B; Nieuwe Studie van Lijsten.](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront) (Aanmelding vereist)
+Om aan ons bèta testend programma voor de huidige lijstverbeteringen deel te nemen, zie [&#x200B; Nieuwe Studie van Lijsten.](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront?profile.language=nl) (Aanmelding vereist)
 
 ## Pictogramondersteuning voor de nieuwe projectlijsten {#icon-support-for-the-new-project-lists}
 

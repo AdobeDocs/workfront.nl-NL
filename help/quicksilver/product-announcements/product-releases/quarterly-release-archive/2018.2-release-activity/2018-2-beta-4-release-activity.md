@@ -145,7 +145,7 @@ Het exporteren van de gegevens vanuit de functie Bronnen is tijdelijk uitgeschak
 
 Voor meer informatie over het uitvoeren van de gegevens van de Planner van het Middel naar Excel, zie de &quot;sectie van de Optie van de Uitvoer&quot;in [&#x200B; het navigatieoverzicht van de Planner van het Middel &#x200B;](../../../../resource-mgmt/resource-planning/resource-planner-navigation.md).
 
-Om aan ons huidige bètaprogramma voor de Planner van het Middel deel te nemen, zie {de Prestaties Beta van de Planner van 0} Middel.[&#128279;](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront)
+Om aan ons huidige bètaprogramma voor de Planner van het Middel deel te nemen, zie {de Prestaties Beta van de Planner van 0} Middel.[&#128279;](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront?profile.language=nl)
 
 ## Systeeminstelling: sessiegegevens op externe pagina&#39;s {#system-setting-session-information-in-external-pages}
 
