@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: c46e625f-b3d5-4bdd-827b-5b16493cdc6b
-source-git-commit: d84264110fe6abe2a260cc46483c78b9b0034b9b
+source-git-commit: b52c188d767ee37699ead71ed90642458d9889fa
 workflow-type: tm+mt
-source-wordcount: '112'
+source-wordcount: '143'
 ht-degree: 0%
 
 ---
@@ -29,11 +29,14 @@ De volgende functies zijn momenteel beschikbaar in bèta:
 
 * Projectgezondheid
 
-  Voor informatie, zie [&#x200B; Overzicht van de Gezondheid van het Project &#x200B;](/help/quicksilver/workfront-basics/ai-assistant/project-health-overview.md).
+  Voor informatie, zie [ Overzicht van de Gezondheid van het Project ](/help/quicksilver/workfront-basics/ai-assistant/project-health-overview.md).
 
 * De Workfront AI Reviewer
-Voor informatie, zie [&#x200B; begonnen worden met de Reviewer van Workfront AI &#x200B;](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md).
+Voor informatie, zie [ begonnen worden met de Reviewer van Workfront AI ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md).
 
+* De Adobe Workfront Planning Designer is beschikbaar in Gesloten Beta. U kunt ons via e-mail verzoeken om toegang tot dit programma.
+
+  Voor informatie, zie [ begonnen worden met de Planning Designer van Adobe Workfront ](/help/quicksilver/planning/general/planning-ai-designer.md).
 
 
 <!--
