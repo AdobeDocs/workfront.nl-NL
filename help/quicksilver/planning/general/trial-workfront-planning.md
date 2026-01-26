@@ -57,7 +57,7 @@ Uw bedrijf moet aan de volgende vereisten voldoen om aan de gratis proefversie v
    * Ultimate
 
   De Workfront Planning-test is niet beschikbaar voor de oudere Workfront-pakketten.
-Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 * Toegang hebben tot de Adobe Admin Console
 * Maakt deel uit van het Identity Management System (IMS)
 * Accepteer de juridische evaluatieovereenkomst die beschikbaar is in het Workfront-exemplaar van uw organisatie vanaf 26 januari 2026. U moet een Workfront-beheerder zijn om de proefovereenkomst te accepteren.
@@ -136,9 +136,9 @@ Voer een van de volgende handelingen uit om de juridische overeenkomst te beoord
 
       Begin het onderzoeken van de **Beste werkruimten van de Praktijk** tabel en deel werkruimten of hun voorwerp met anderen.
 
-      Voor meer informatie over het gebruiken van de Planning van Workfront, zie [ begonnen worden met de Planning van Adobe Workfront ](/help/quicksilver/planning/general/planning-overview.md).
+      Voor meer informatie over het gebruiken van de Planning van Workfront, zie [&#x200B; begonnen worden met de Planning van Adobe Workfront &#x200B;](/help/quicksilver/planning/general/planning-overview.md).
 
-      Voor beste praktijken over het gebruiken van de Planning van Workfront, zie [ de Planning van Adobe Workfront beste praktijken ](/help/quicksilver/planning/general/planning-best-practices.md).
+      Voor beste praktijken over het gebruiken van de Planning van Workfront, zie [&#x200B; de Planning van Adobe Workfront beste praktijken &#x200B;](/help/quicksilver/planning/general/planning-best-practices.md).
 
 ## Machtigingen voor planningsgegevens van Workfront tijdens de gratis proefperiode
 
