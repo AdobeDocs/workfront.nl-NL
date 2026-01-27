@@ -19,11 +19,11 @@ ht-degree: 0%
 
 Als u een aangepaste interne Help-site maakt die informatie bevat over hoe uw organisatie Workfront gebruikt, kunt u het pictogram Hoofdmenu Help configureren om naar die site te gaan.
 
-![ knoop van de Hulp van de Douane ](assets/custom-help-with-left-menu.png)
+![&#x200B; knoop van de Hulp van de Douane &#x200B;](assets/custom-help-with-left-menu.png)
 
 Dit heeft geen invloed op contextgevoelige Help-koppelingen in Workfront, die gebruikers naar de Help-site van Workfront brengen.
 
-Voor informatie over hoe de gebruikers tot zowel een douaneHulp URL toegang hebben die u in Workfront en de regelmatige de hulpplaats van Workfront vormt, zie [ Hulp van Adobe Workfront van de Toegang ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/access-workfront-help.md).
+Voor informatie over hoe de gebruikers tot zowel een douaneHulp URL toegang hebben die u in Workfront en de regelmatige de hulpplaats van Workfront vormt, zie [&#x200B; Hulp van Adobe Workfront van de Toegang &#x200B;](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/access-workfront-help.md).
 
 ## Toegangsvereisten
 
@@ -49,7 +49,7 @@ Voor informatie over hoe de gebruikers tot zowel een douaneHulp URL toegang hebb
  </tbody> 
 </table>
 
-Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
