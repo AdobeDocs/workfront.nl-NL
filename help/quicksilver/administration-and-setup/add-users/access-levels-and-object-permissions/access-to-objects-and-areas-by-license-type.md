@@ -22,7 +22,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->De informatie in dit artikel verwijst naar de oudere toegangsniveaus. Voor informatie over de huidige toegangsniveaus, zie [ Nieuw overzicht van toegangsniveaus ](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md).
+>De informatie in dit artikel verwijst naar de oudere toegangsniveaus. Voor informatie over de huidige toegangsniveaus, zie [&#x200B; Nieuw overzicht van toegangsniveaus &#x200B;](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md).
 
 In de onderstaande tabel ziet u het hoogste toegangsniveau (Bewerken of Weergave) dat door elk van de Adobe Workfront-licenties wordt toegestaan voor de objecten en gebieden in Workfront.
 
@@ -31,11 +31,11 @@ In de onderstaande tabel ziet u het hoogste toegangsniveau (Bewerken of Weergave
 
   >[!NOTE]
   >
-  >Wanneer een andere gebruiker een object deelt, kan de deler machtigingen opgeven die hun mogelijkheid beperken om het object te bewerken. Voor meer informatie over de nieuwe vergunningstypes, zie [ Overzicht van het delen van toestemmingen op voorwerpen ](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+  >Wanneer een andere gebruiker een object deelt, kan de deler machtigingen opgeven die hun mogelijkheid beperken om het object te bewerken. Voor meer informatie over de nieuwe vergunningstypes, zie [&#x200B; Overzicht van het delen van toestemmingen op voorwerpen &#x200B;](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
   >[!NOTE]
   >
-  >Dit artikel bevat informatie over objecttoegang voor de oudere licentietypen. Voor informatie over de nieuwe licentietypen, zie [ Nieuw overzicht van toegangsniveaus ](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md) en [ Nieuw overzicht van vergunningen ](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md).
+  >Dit artikel bevat informatie over objecttoegang voor de oudere licentietypen. Voor informatie over de nieuwe licentietypen, zie [&#x200B; Nieuw overzicht van toegangsniveaus &#x200B;](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md) en [&#x200B; Nieuw overzicht van vergunningen &#x200B;](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md).
 
 |   | Plan | Werk | Controleren | Verzoek | Extern |
 |---|---|---|---|---|---|
@@ -59,24 +59,24 @@ In de onderstaande tabel ziet u het hoogste toegangsniveau (Bewerken of Weergave
 
 >[!NOTE]
 >
->Gebruikers met een revisielicentie of een aanvraaglicentie hebben beperkte mogelijkheden voor delen. Voor meer informatie, zie [ overzicht van Vergunningen ](../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md).
+>Gebruikers met een revisielicentie of een aanvraaglicentie hebben beperkte mogelijkheden voor delen. Voor meer informatie, zie [&#x200B; overzicht van Vergunningen &#x200B;](../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md).
 >
 >Externe gebruikers kunnen niet zoeken naar items in Workfront. Ze kunnen documenten en kalenders weergeven die specifiek met hen worden gedeeld. Ze kunnen ook de gebruikers zien die items met hen delen.
 
 In de volgende artikelen vindt u gedetailleerde informatie over wat de toegangsniveaus voor elk object en gebied toestaan:
 
-* [ de toegang van de Verlening tot projecten ](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md)
-* [ de toegang van de Verlening tot taken ](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md)
-* [ de toegang van de Verlening tot kwesties ](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md)
-* [ de toegang van de Verlening tot documenten ](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-documents.md)
-* [ de toegang van de Verlening tot portefeuilles ](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-portfolios.md)
-* [ de toegang van de Verlening tot programma&#39;s ](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-programs.md)
-* [ de toegang van de vergunning tot rapporten, dashboards, en kalenders ](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md)
-* [ de toegang van de Verlening tot filters, meningen, en groeperingen ](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md)
-* [ de toegang van de Verlening tot gebruikers ](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)
+* [&#x200B; de toegang van de Verlening tot projecten &#x200B;](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md)
+* [&#x200B; de toegang van de Verlening tot taken &#x200B;](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md)
+* [&#x200B; de toegang van de Verlening tot kwesties &#x200B;](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md)
+* [&#x200B; de toegang van de Verlening tot documenten &#x200B;](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-documents.md)
+* [&#x200B; de toegang van de Verlening tot portefeuilles &#x200B;](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-portfolios.md)
+* [&#x200B; de toegang van de Verlening tot programma&#39;s &#x200B;](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-programs.md)
+* [&#x200B; de toegang van de vergunning tot rapporten, dashboards, en kalenders &#x200B;](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md)
+* [&#x200B; de toegang van de Verlening tot filters, meningen, en groeperingen &#x200B;](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md)
+* [&#x200B; de toegang van de Verlening tot gebruikers &#x200B;](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)
 * [Toegang verlenen aan teams](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-teams.md)
-* [ de toegang van de Verlening tot malplaatjes ](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-templates.md)
-* [ de toegang van de Verlening tot financiële gegevens ](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md)
-* [ de toegang van de Verlening tot het Beheer van het Middel ](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md)
-* [ de toegang van de Verlening tot de Planner van het Scenario ](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-sp.md)
+* [&#x200B; de toegang van de Verlening tot malplaatjes &#x200B;](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-templates.md)
+* [&#x200B; de toegang van de Verlening tot financiële gegevens &#x200B;](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md)
+* [&#x200B; de toegang van de Verlening tot het Beheer van het Middel &#x200B;](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md)
+* [&#x200B; de toegang van de Verlening tot de Planner van het Scenario &#x200B;](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-sp.md)
 * [Toegang tot Adobe Workfront-doelen verlenen](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md)

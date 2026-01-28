@@ -23,7 +23,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->De informatie in dit artikel verwijst naar de oudere toegangsniveaus. Voor informatie over de huidige toegangsniveaus, zie [ Nieuw overzicht van toegangsniveaus ](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md).
+>De informatie in dit artikel verwijst naar de oudere toegangsniveaus. Voor informatie over de huidige toegangsniveaus, zie [&#x200B; Nieuw overzicht van toegangsniveaus &#x200B;](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md).
 
 
 Als beheerder van Adobe Workfront, wijst u een toegangsniveau aan een gebruiker voor twee doeleinden toe:
@@ -35,7 +35,7 @@ Elk van de zes ingebouwde toegangsniveaus is verbonden aan één van de vijf Wor
 
 External is een niet-betaalde licentie die voornamelijk is ontworpen voor het delen van documenten met medewerkers die geen Workfront gebruiken.
 
-![ de toegangsniveaus en vergunningen van de Oudheid ](assets/access-levels-and-licenses-old.png)
+![&#x200B; de toegangsniveaus en vergunningen van de Oudheid &#x200B;](assets/access-levels-and-licenses-old.png)
 
 Raadpleeg de volgende artikelen voor informatie over onderwerpen die betrekking hebben op toegangsniveaus:
 

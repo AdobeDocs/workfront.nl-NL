@@ -21,7 +21,7 @@ ht-degree: 0%
 
 Voor alle niet-betaalde Workfront-licenties op de nieuwe plannen geldt een beperking van het aantal bewijzen en documentatiebeschikkingen. Wanneer de gebruikers hun toegewezen aantal besluiten bereiken, worden zij bevorderd aan een Lichte vergunning door gebrek.
 
-U kunt de optie voor automatisch bijwerken uitschakelen in het installatiegebied. Meer over leren hoe auto-upgrades werken, zie [ Beperkt document en proefdrukbesluit voor niet-betaalde gebruikers overzicht ](/help/quicksilver/review-and-approve-work/proof-doc-decision-limits.md).
+U kunt de optie voor automatisch bijwerken uitschakelen in het installatiegebied. Meer over leren hoe auto-upgrades werken, zie [&#x200B; Beperkt document en proefdrukbesluit voor niet-betaalde gebruikers overzicht &#x200B;](/help/quicksilver/review-and-approve-work/proof-doc-decision-limits.md).
 
 >[!IMPORTANT]
 >
