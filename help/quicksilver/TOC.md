@@ -3,9 +3,9 @@ user-guide-title: Handleiding voor Workfront
 user-guide-description: Gebruik de documenten, zelfstudies en aanvullende bronnen om te leren hoe u Adobe Workfront in uw organisatie implementeert en effectief gebruikt.
 role: User
 feature-set: Workfront
-source-git-commit: bf34bfa2059d227eca3faa3d719adcf4d711e457
+source-git-commit: 0ccf02a333b41705a582bcb10ab9a90198123997
 workflow-type: tm+mt
-source-wordcount: '13724'
+source-wordcount: '13721'
 ht-degree: 0%
 
 ---
@@ -134,7 +134,7 @@ ht-degree: 0%
          * [23.3 Andere verbeteringen](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-other-enhancements.md)
          * [Updates weergeven en voelen tijdens de releaseperiode van 23.3](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-look-and-feel-updates.md)
       * 23.2 Release {#release-23-2}
-         * [&#x200B; 23.2 Overzicht van de Versie &#x200B;](product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md)
+         * [ 23.2 Overzicht van de Versie ](product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md)
          * [23.2 Beheerdersverbeteringen](product-announcements/product-releases/23.2-release-activity/23-2-admin-enhancements.md)
          * [23.2 Verbeteringen aan mobiele apparaten](product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md)
          * [23.2 Verbeteringen van het projectbeheer](product-announcements/product-releases/23.2-release-activity/23-2-project-enhancements.md)
@@ -516,25 +516,25 @@ ht-degree: 0%
          * [Controleverslagen weergeven en exporteren](administration-and-setup/add-users/create-and-manage-users/view-and-export-audit-logs.md)
          * [Aanmeldingsgegevens van gebruikers weergeven](administration-and-setup/add-users/create-and-manage-users/view-user-login-info.md)
          * [Gebruikers beheren in de Adobe Admin Console](administration-and-setup/add-users/create-and-manage-users/admin-console.md)
-      * Hoe de nieuwe toegangsniveaus werken {#access-levels}
-         * [Hoe de nieuwe toegangsniveaus werken](administration-and-setup/add-users/how-access-levels-work/access-levels-toc.md)
-         * [Overzicht van nieuwe toegangsniveaus](administration-and-setup/add-users/how-access-levels-work/access-level-overview.md)
-         * [Overzicht van nieuwe licenties](administration-and-setup/add-users/how-access-levels-work/licenses-overview.md)
-         * [Toegang tot objecten en gebieden met nieuwe licenties](administration-and-setup/add-users/how-access-levels-work/access-to-objects-areas-license-types.md)
-         * [Beschikbare functionaliteit voor elk objecttype voor nieuwe toegangsniveaus](administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md)
-         * [Schakel de optie voor automatische upgrade voor niet-betaalde gebruikers uit in het nieuwe licentieplan](administration-and-setup/add-users/how-access-levels-work/disable-auto-upgrade.md)
+      * Hoe de toegangsniveaus werken {#access-levels}
+         * [Hoe de toegangsniveaus werken](administration-and-setup/add-users/how-access-levels-work/access-levels-toc.md)
+         * [Overzicht van toegangsniveaus](administration-and-setup/add-users/how-access-levels-work/access-level-overview.md)
+         * [Overzicht van licenties](administration-and-setup/add-users/how-access-levels-work/licenses-overview.md)
+         * [Toegang tot objecten en gebieden via licenties](administration-and-setup/add-users/how-access-levels-work/access-to-objects-areas-license-types.md)
+         * [Beschikbare functionaliteit voor elk objecttype](administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md)
+         * [De optie Automatisch upgraden uitschakelen voor niet-betaalde gebruikers](administration-and-setup/add-users/how-access-levels-work/disable-auto-upgrade.md)
          * [Functionaliteit vergelijken in verschillende licentiemodellen](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/comparing-old-and-new-license-models.md)
          * [Toegangsvereisten in Workfront-documentatie](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)
-      * Hoe de toegangsniveaus werken {#legacy-access-levels}
-         * [Hoe de toegangsniveaus werken](administration-and-setup/add-users/access-levels-and-object-permissions/access-levels.md)
-         * [Overzicht van toegang](administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)
-         * [Overzicht van licenties](administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md)
-         * [Toegangsniveaus en machtigingen](administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md)
-         * [Toegang tot objecten en gebieden per licentietype](administration-and-setup/add-users/access-levels-and-object-permissions/access-to-objects-and-areas-by-license-type.md)
-         * [Functionaliteit voor elk objecttype](administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md)
-         * [Configureerbare toegang voor elk objecttype](administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md)
-         * [Ingebouwde toegangsniveaus](administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md)
-         * [Toegangsniveaus en licenties voor gebruikers weergeven](administration-and-setup/add-users/access-levels-and-object-permissions/list-access-levels-and-licenses-for-your-users.md)
+      * Hoe de niveaus van de erfenistoegang werken {#legacy-access-levels}
+         * [Hoe de niveaus van de erfenistoegang werken](administration-and-setup/add-users/access-levels-and-object-permissions/access-levels.md)
+         * [Overzicht van verouderd toegangsniveau](administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)
+         * [Overzicht van verouderde licenties](administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md)
+         * [Verouderde toegangsniveaus en machtigingen](administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md)
+         * [Toegang tot objecten en gebieden per licentietype (verouderd)](administration-and-setup/add-users/access-levels-and-object-permissions/access-to-objects-and-areas-by-license-type.md)
+         * [Functionaliteit voor elk objecttype (verouderd)](administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md)
+         * [Configureerbare toegang voor elk type object (verouderd)](administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md)
+         * [Ingebouwde toegangsniveaus (verouderd)](administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md)
+         * [Toegangsniveaus en licenties voor gebruikers weergeven (verouderd)](administration-and-setup/add-users/access-levels-and-object-permissions/list-access-levels-and-licenses-for-your-users.md)
       * Toegang tot Workfront configureren {#configure-access}
          * [Toegang configureren](administration-and-setup/add-users/configure-and-grant-access/configure-access.md)
          * [Aangepaste toegangsniveaus maken of wijzigen](administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)
@@ -802,8 +802,8 @@ ht-degree: 0%
       * [Lijst met beschikbare blauwdrukken](administration-and-setup/blueprints/list-of-available-blueprints.md)
    * Beheer in de Adobe Admin Console {#admin-in-admin-console}
       * [Workfront Administration in de Adobe Admin Console](administration-and-setup/adobe-admin-console/wf-admin-in-admin-console.md)
-      * [&#x200B; voorbereidingen treffen voor Adobe Admin Console &#x200B;](administration-and-setup/adobe-admin-console/prep-for-admin-console.md)
-      * [&#x200B; Begrijpend de Migratie van Workfront aan Adobe Admin Console &#x200B;](administration-and-setup/adobe-admin-console/understand-wf-migration-to-admin-console.md)
+      * [ voorbereidingen treffen voor Adobe Admin Console ](administration-and-setup/adobe-admin-console/prep-for-admin-console.md)
+      * [ Begrijpend de Migratie van Workfront aan Adobe Admin Console ](administration-and-setup/adobe-admin-console/understand-wf-migration-to-admin-console.md)
    * Tips, trucs en probleemoplossing voor beheer en installatie {#admin-setup-tips}
       * [Tips, trucs en probleemoplossing](administration-and-setup/tips-tricks-and-troubleshooting/ttt-admin-setup.md)
       * [Groepbeheerders moeten een hogere toegang hebben dan de beheerders die ze beheren](administration-and-setup/tips-tricks-and-troubleshooting/group-admin-access-level.md)
@@ -1013,7 +1013,7 @@ ht-degree: 0%
          * [Updates toevoegen in Adobe Workfront View](workfront-basics/mobile-apps/using-workfront-view/add-updates-in-workfront-view.md)
       * Tips, trucs en probleemoplossing voor Adobe Workfront Mobile Apps {#tips-tricks-for-mobile-apps}
          * [Tips, trucs en probleemoplossing voor Adobe Workfront Mobile Apps](workfront-basics/mobile-apps/tips-tricks-and-troubleshooting/tips-tricks-and-troubleshooting-mobile.md)
-         * [&#x200B; Bericht van de Fout op de Mobiele App van Adobe Workfront: &quot;Uw rekening is niet toegelaten API.&quot;](workfront-basics/mobile-apps/tips-tricks-and-troubleshooting/error-message-on-mobile-app.md)
+         * [ Bericht van de Fout op de Mobiele App van Adobe Workfront: &quot;Uw rekening is niet toegelaten API.&quot;](workfront-basics/mobile-apps/tips-tricks-and-troubleshooting/error-message-on-mobile-app.md)
    * Tips, trucs en probleemoplossing voor Adobe Workfront Basics {#tips-tricks-for-basics}
       * [Tips, trucs en probleemoplossing voor Adobe Workfront: artikelindex](workfront-basics/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-basics.md)
       * [Je snelle gids voor hulp in Adobe Workfront](workfront-basics/tips-tricks-and-troubleshooting/guide-for-help-in-workfront.md)
@@ -1177,7 +1177,7 @@ ht-degree: 0%
          * [Elementen en mappen ontkoppelen of verwijderen uit Experience Manager Assets of Elementen.](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/unlink-or-delete-aem-assets.md)
          * [Workflows gebruiken in de integratie met Experience Manager Assets Essentials](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md)
          * [Workfront Fusion gebruiken om een Workfront-uitgave om te zetten in een project dat Adobe Experience Manager-workflows bevat](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-fusion-to-create-project-with-workflows.md)
-         * [&#x200B; los de Integratie van Adobe Experience Manager  problemen op](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/troubleshoot-aem-asset-integration.md)
+         * [ los de Integratie van Adobe Experience Manager ](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/troubleshoot-aem-asset-integration.md) problemen op
    * Migreren vanaf verouderde of verbeterde connectors {#migrate-from-legacy-enhanced-connectors}
       * [Migreren vanaf verouderde of verbeterde connectors](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/migrate-from-legacy-enhanced-connectors.md)
       * [Migreren van de verouderde of verbeterde aansluiting naar Workfront for Adobe Experience Manager as a Cloud Service-integratie](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/migrate-to-workfont-integration.md)
@@ -1774,7 +1774,7 @@ ht-degree: 0%
          * [KPI-vragen](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/kpi-queries.md)
          * [Vragen over vliegplannen](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/flight-plan-queries.md)
          * [Vragen over projectactiviteiten](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/project-activity-queries.md)
-         * [&#x200B; de vragen van de de treemap van het Project &#x200B;](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/project-tree-map-queries.md)
+         * [ de vragen van de de treemap van het Project ](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/project-tree-map-queries.md)
          * [Activiteit door teamvragen](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/team-queries.md)
       * Tips, trucs en probleemoplossing voor Data Connect{#troubleshooting-data-connect}
          * [Tips, trucs en probleemoplossing voor Data Connect](/help/quicksilver/reports-and-dashboards/data-lake/tips-tricks-troubleshooting/tips-tricks-troubleshooting-data-connect.md)
@@ -2136,8 +2136,8 @@ ht-degree: 0%
       * [Overzicht van velden](planning/fields/fields-overview.md)
       * [Velden maken](planning/fields/create-fields.md)
       * [Veldinstellingen bewerken](planning/fields/edit-fields.md)
-      * [&#x200B; schrapt gebieden &#x200B;](planning/fields/delete-fields.md)
-      * [&#x200B; overzicht van de gebieden van de Formule &#x200B;](planning/fields/formula-fields.md)
+      * [ schrapt gebieden ](planning/fields/delete-fields.md)
+      * [ overzicht van de gebieden van de Formule ](planning/fields/formula-fields.md)
       * [Velden importeren uit Adobe Workfront](planning/fields/import-fields-from-workfront.md)
       * [Overzicht van primair veld](planning/fields/primary-field-overview.md)
    * Toegang tot Adobe Workfront Planning {#adobe-workfront-planning-access}
@@ -2151,7 +2151,7 @@ ht-degree: 0%
       * [Records delen](planning/access/share-records.md)
       * [Machtigingen aanvragen voor een weergave of werkruimte](planning/access/request-permissions.md)
    * Adobe Workfront-planningsrecords {#adobe-workfront-planning-records}
-      * [&#x200B; Verslagen: artikelindex &#x200B;](planning/records/records-information.md)
+      * [ Verslagen: artikelindex ](planning/records/records-information.md)
       * [Records maken](planning/records/create-records.md)
       * [Records maken door gegevens te importeren uit een CSV- of Excel-bestand](planning/records/import-file-to-create-records.md)
       * [Overzicht van verbonden records](planning/records/connected-records-overview.md)
@@ -2194,7 +2194,7 @@ ht-degree: 0%
       * [E-mailberichten voor Adobe Workfront Planning beheren](planning/notifications/manage-planning-email-notifications.md)
       * [In-app-berichten voor Adobe Workfront-planning beheren](planning/notifications/manage-planning-in-app-notifications.md)
    * Adobe Workfront Planning and Gen Studio for Performance Marketing Integration {#planning-and-genstudio-integration}
-      * [&#x200B; de Planning van Adobe Workfront en de integratie van Adobe GenStudio for Performance Marketing: artikelindex &#x200B;](planning/planning-and-genstudio-integration/planning-and-genstudio-integration-article-index.md)
+      * [ de Planning van Adobe Workfront en de integratie van Adobe GenStudio for Performance Marketing: artikelindex ](planning/planning-and-genstudio-integration/planning-and-genstudio-integration-article-index.md)
       * [Ga aan de slag met de Adobe Workfront Planning and Adobe GenStudio for Performance Marketing integratie](planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md)
       * [De GenStudio-werkruimte beheren in Adobe Workfront Planning](planning/planning-and-genstudio-integration/manage-gen-studio-workspace-in-planning.md)
       * [Een Workfront-planningswerkruimte promoten naar GenStudio](planning/planning-and-genstudio-integration/promote-planning-workspace-to-genstudio.md)
@@ -2219,7 +2219,7 @@ ht-degree: 0%
          * [Werk bij met de Adobe Workfront-insteekmodule](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-update.md)
          * [Werkitems markeren die zijn voltooid met de Adobe Workfront-insteekmodule](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-complete.md)
          * [Logtijd met de Adobe Workfront-insteekmodule](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-log-time.md)
-         * [&#x200B; [!DNL Adobe Workfront]  berichten van Adobe Creative Cloud beheren](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-notifications.md)
+         * [ [!DNL Adobe Workfront]  berichten van Adobe Creative Cloud beheren](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-notifications.md)
       * Documenten en proefdrukken uploaden met de Adobe Workfront-insteekmodule voor Creative Cloud-toepassingen {#upload-docs-proofs-wf-cc}
          * [Upload documenten en proef van  [!DNL Adobe Workfront plugin]  aan  [!DNL Creative Cloud]](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/upload-documents-and-proofs.md)
          * [Documenten en proefdrukken uploaden met de Adobe Workfront-insteekmodule voor Creative Cloud-toepassingen](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-docs-proofs-toc.md)
@@ -2541,11 +2541,11 @@ ht-degree: 0%
       * [Geslaagde tekens in API-reacties](wf-api/api/escaped-characters-api.md)
       * [Vorm en gebruik de douane OAuth 2 van uw organisatie toepassingen gebruikend de stroom van de vergunningscode](wf-api/api/oauth-app-code-token-flow.md)
       * [Configureer en gebruik de aangepaste OAuth 2-toepassingen van uw organisatie met behulp van JWT-flow](wf-api/api/oauth-app-jwt-flow.md)
-      * [&#x200B; vorm en gebruik de douane OAuth 2 toepassingen van uw organisatie die de stroom PKCE gebruiken &#x200B;](wf-api/api/oauth-app-pkce-flow.md)
+      * [ vorm en gebruik de douane OAuth 2 toepassingen van uw organisatie die de stroom PKCE gebruiken ](wf-api/api/oauth-app-pkce-flow.md)
       * [Vervalsing van API-intern](wf-api/api/deprecation-api-internal.md)
-      * [&#x200B; wat in API versie 21  nieuw is](/help/quicksilver/wf-api/api/new-api-version-21.md)
-      * [&#x200B; wat in API versie 20  nieuw is](/help/quicksilver/wf-api/api/new-api-version-20.md)
-      * [&#x200B; wat in API versie 19  nieuw is](wf-api/api/new-api-version-19.md)
+      * [ wat in API versie 21 ](/help/quicksilver/wf-api/api/new-api-version-21.md) nieuw is
+      * [ wat in API versie 20 ](/help/quicksilver/wf-api/api/new-api-version-20.md) nieuw is
+      * [ wat in API versie 19 ](wf-api/api/new-api-version-19.md) nieuw is
       * [Nieuwe functies in API-versie 18](wf-api/api/new-api-version-18.md)
       * [Nieuwe functies in API-versie 17](wf-api/api/new-api-version-17.md)
       * [Nieuwe functies in API-versie 16](wf-api/api/new-api-version-16.md)

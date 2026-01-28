@@ -1,5 +1,5 @@
 ---
-title: Schakel de optie Automatisch upgraden voor niet-betaalde gebruikers uit in het nieuwe licentieplan
+title: Schakel de optie Automatisch upgraden voor gebruikers zonder betaling uit
 user-type: administrator
 content-type: reference
 product-area: system-administration
@@ -10,18 +10,18 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 58c76187-fc74-4ab4-80e8-c3e296a84f27
-source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
+source-git-commit: 0ccf02a333b41705a582bcb10ab9a90198123997
 workflow-type: tm+mt
-source-wordcount: '198'
+source-wordcount: '188'
 ht-degree: 0%
 
 ---
 
-# Schakel de optie voor automatische upgrade voor niet-betaalde gebruikers uit in het nieuwe licentieplan
+# De optie Automatisch upgraden uitschakelen voor niet-betaalde gebruikers
 
 Voor alle niet-betaalde Workfront-licenties op de nieuwe plannen geldt een beperking van het aantal bewijzen en documentatiebeschikkingen. Wanneer de gebruikers hun toegewezen aantal besluiten bereiken, worden zij bevorderd aan een Lichte vergunning door gebrek.
 
-U kunt de optie voor automatisch bijwerken uitschakelen in het installatiegebied. Meer over leren hoe auto-upgrades werken, zie [&#x200B; Beperkt document en proefdrukbesluit voor niet-betaalde gebruikers overzicht &#x200B;](/help/quicksilver/review-and-approve-work/proof-doc-decision-limits.md).
+U kunt de optie voor automatisch bijwerken uitschakelen in het installatiegebied. Meer over leren hoe auto-upgrades werken, zie [ Beperkt document en proefdrukbesluit voor niet-betaalde gebruikers overzicht ](/help/quicksilver/review-and-approve-work/proof-doc-decision-limits.md).
 
 >[!IMPORTANT]
 >

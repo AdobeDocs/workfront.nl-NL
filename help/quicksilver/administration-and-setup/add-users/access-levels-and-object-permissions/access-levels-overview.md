@@ -1,5 +1,5 @@
 ---
-title: Overzicht van toegangsniveaus
+title: Overzicht van oudere toegangsniveaus
 user-type: administrator
 content-type: reference
 product-area: system-administration
@@ -10,20 +10,20 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 7c323af9-8c33-48ad-9aff-96758e96b40b
-source-git-commit: 3d0a6932bda338af1e6b3dcba49bfc0ac486d919
+source-git-commit: 0ccf02a333b41705a582bcb10ab9a90198123997
 workflow-type: tm+mt
-source-wordcount: '328'
+source-wordcount: '330'
 ht-degree: 0%
 
 ---
 
-# Overzicht van toegangsniveaus
+# Overzicht van verouderde toegangsniveaus
 
 <!-- Audited: 12/2023 -->
 
 >[!NOTE]
 >
->De informatie in dit artikel verwijst naar de oudere toegangsniveaus. Voor informatie over de huidige toegangsniveaus, zie [&#x200B; Nieuw overzicht van toegangsniveaus &#x200B;](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md).
+>De informatie in dit artikel verwijst naar de oudere toegangsniveaus. Voor informatie over de huidige toegangsniveaus, zie [ Nieuw overzicht van toegangsniveaus ](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md).
 
 
 Als beheerder van Adobe Workfront, wijst u een toegangsniveau aan een gebruiker voor twee doeleinden toe:
@@ -35,7 +35,7 @@ Elk van de zes ingebouwde toegangsniveaus is verbonden aan één van de vijf Wor
 
 External is een niet-betaalde licentie die voornamelijk is ontworpen voor het delen van documenten met medewerkers die geen Workfront gebruiken.
 
-![&#x200B; de toegangsniveaus en vergunningen van de Oudheid &#x200B;](assets/access-levels-and-licenses-old.png)
+![ de toegangsniveaus en vergunningen van de Oudheid ](assets/access-levels-and-licenses-old.png)
 
 Raadpleeg de volgende artikelen voor informatie over onderwerpen die betrekking hebben op toegangsniveaus:
 
