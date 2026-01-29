@@ -25,7 +25,7 @@ U kunt Adobe Workfront-planningsrecords met elkaar of met objecten van andere to
 
 In dit artikel worden overwegingen beschreven waarmee u rekening moet houden wanneer u records verbindt in Workfront Planning.
 
-Voor informatie over hoe u verslagen met elkaar of met een ander voorwerp kunt verbinden, zie [ verbindt verslagen ](/help/quicksilver/planning/records/connect-records.md).
+Voor informatie over hoe u verslagen met elkaar of met een ander voorwerp kunt verbinden, zie [&#x200B; verbindt verslagen &#x200B;](/help/quicksilver/planning/records/connect-records.md).
 
 ## Vereisten
 
@@ -34,7 +34,7 @@ U moet verbinding maken met het volgende voordat u verbinding kunt maken met rec
 * Twee recordtypen
 * Een recordtype met een object uit een andere toepassing
 
-Voor meer informatie, zie [ Verbonden overzicht van recordtypes ](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
+Voor meer informatie, zie [&#x200B; Verbonden overzicht van recordtypes &#x200B;](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
 
 
 ## Overwegingen bij het verbinden van records
@@ -52,9 +52,9 @@ Voor meer informatie, zie [ Verbonden overzicht van recordtypes ](/help/quicksil
 
 * Iedereen met toegang tot de Planning en de Mening van Workfront of hogere toestemmingen aan de werkruimte en een verslagtype kan de verbindingen zien die u tussen verslagen of tussen verslagen en andere voorwerpen van toepassingen maakt. Ze kunnen verbonden records en objecten bekijken, ongeacht hun machtigingen in de toepassingen waarmee u verbinding maakt.
 * U kunt de verbindingen van iedereen anders weergeven en bewerken als u beheerdersmachtigingen hebt voor de werkruimte en het recordtype waarin de verbonden records zich bevinden.
-* U kunt één record verbinden met een of meerdere objecten vanuit een andere toepassing. Dit is afhankelijk van het type verbinding dat u hebt geselecteerd bij het verbinden van de recordtypen. Voor meer informatie, zie de &quot;types van Verbindingen&quot;sectie in het artikel [ Verbonden overzicht van recordtypes ](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
-* Wanneer verbonden recordtypen deel uitmaken van hiërarchieën, kunt u tot om het even welk objecten type binnen de hiërarchie van de verslagpagina&#39;s toegang hebben. Voor informatie, zie [ Hiërarchie en breadcrumb overzicht ](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md).
-* Wanneer verbonden recordtypen deel uitmaken van hiërarchieën, kunt u één record van een onderliggend recordtype verbinden met maximaal 10 records van een bovenliggend recordtype. Voor informatie, zie [ Hiërarchie en breadcrumb overzicht ](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md).
+* U kunt één record verbinden met een of meerdere objecten vanuit een andere toepassing. Dit is afhankelijk van het type verbinding dat u hebt geselecteerd bij het verbinden van de recordtypen. Voor meer informatie, zie de &quot;types van Verbindingen&quot;sectie in het artikel [&#x200B; Verbonden overzicht van recordtypes &#x200B;](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
+* Wanneer verbonden recordtypen deel uitmaken van hiërarchieën, kunt u tot om het even welk objecten type binnen de hiërarchie van de verslagpagina&#39;s toegang hebben. Voor informatie, zie [&#x200B; Hiërarchie en breadcrumb overzicht &#x200B;](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md).
+* Wanneer verbonden recordtypen deel uitmaken van hiërarchieën, kunt u één record van een onderliggend recordtype verbinden met maximaal 10 records van een bovenliggend recordtype. Voor informatie, zie [&#x200B; Hiërarchie en breadcrumb overzicht &#x200B;](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md).
 
 ## Gebieden waar u records kunt verbinden
 
@@ -75,7 +75,7 @@ U kunt records in de volgende gebieden handmatig verbinden met andere records of
    * Het gedeelte Planning van een Workfront-object.
    * Een veld voor een planningsverbinding in het aangepaste formulier van een Workfront-object.
 
-  Voor informatie, zie [ recordverbindingen van de voorwerpen van Workfront beheren ](/help/quicksilver/planning/records/manage-records-in-planning-section.md).
+  Voor informatie, zie [&#x200B; recordverbindingen van de voorwerpen van Workfront beheren &#x200B;](/help/quicksilver/planning/records/manage-records-in-planning-section.md).
 
 ### Records automatisch verbinden
 
@@ -87,7 +87,7 @@ Nadat u recordtypen met elkaar hebt verbonden of een recordtype met een objectty
 
   Wanneer aan een door u gedefinieerde voorwaarde wordt voldaan, wordt een record of een object gemaakt en wordt deze automatisch verbonden met de record waaruit u de automatisering activeert.
 
-  Voor informatie, zie [ de automatisering van de Planning van Adobe Workfront ](/help/quicksilver/planning/records/configure-automations-to-create-records.md) vormen.
+  Voor informatie, zie [&#x200B; de automatisering van de Planning van Adobe Workfront &#x200B;](/help/quicksilver/planning/records/configure-automations-to-create-records.md) vormen.
 
 * aanvraagformulieren gebruiken om records te maken
 
@@ -97,4 +97,4 @@ Nadat u recordtypen met elkaar hebt verbonden of een recordtype met een objectty
   >
   >U kunt een record niet loskoppelen van de oorspronkelijke aanvraag.
 
-  Voor informatie, zie [ de Verzoeken van de Planning van Adobe Workfront voorleggen om verslagen ](/help/quicksilver/planning/requests/submit-requests.md) tot stand te brengen.
+  Voor informatie, zie [&#x200B; de Verzoeken van de Planning van Adobe Workfront voorleggen om verslagen &#x200B;](/help/quicksilver/planning/requests/submit-requests.md) tot stand te brengen.
