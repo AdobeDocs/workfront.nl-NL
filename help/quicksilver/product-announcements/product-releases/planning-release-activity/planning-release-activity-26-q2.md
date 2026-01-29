@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 03142ce47e7b123eea63b409749346469f5feb14
+source-git-commit: f5d6918889b7fed1159274105ee706a027f621bf
 workflow-type: tm+mt
-source-wordcount: '488'
+source-wordcount: '476'
 ht-degree: 0%
 
 ---
@@ -19,9 +19,9 @@ In dit artikel worden de functies beschreven die tijdens de release van het twee
 
 <!--keep the sentence below for all future quarterly release pages-->
 
-Voor een lijst van alle eigenschappen die voor de Planning van Adobe Workfront worden vrijgegeven, zie [&#x200B; de versieactiviteit van de Planning van Adobe Workfront: artikelindex &#x200B;](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+Voor een lijst van alle eigenschappen die voor de Planning van Adobe Workfront worden vrijgegeven, zie [ de versieactiviteit van de Planning van Adobe Workfront: artikelindex ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
-## Velden configureren die worden weergegeven op de pagina Details van een record
+## Velden configureren die worden weergegeven in het voorvertoningsvak Details van een record
 
 >[!NOTE]
 >
@@ -29,11 +29,11 @@ Voor een lijst van alle eigenschappen die voor de Planning van Adobe Workfront w
 >Snelle productie: 12 februari 2026
 >Productie voor iedereen: 16 april 2026
 
-We hebben een instelling geïntroduceerd waarmee u recordvelden kunt weergeven of verbergen in de voorvertoning Details en paginagebieden, op basis van de velden die worden weergegeven in de tabelweergave.
+We hebben een instelling geïntroduceerd waarmee u recordvelden kunt weergeven of verbergen in het voorvertoningsvak Details van een record, op basis van de velden die worden weergegeven in de tabelweergave. 
 
-U kunt kiezen of u velden die zijn verborgen in de tabelweergave wilt opnemen in of uitsluiten van het gebied Details van een record. Als deze instelling is uitgeschakeld, worden verborgen velden niet weergegeven in het gebied Details.
+Met deze nieuwe instelling kunt u aangeven of u velden die in de tabelweergave zijn verborgen, wilt opnemen in of wilt uitsluiten van het voorbeeldgebied Details van de record.
 
-Voor informatie, zie [&#x200B; de lay-out van de verslagpagina beheren &#x200B;](/help/quicksilver/planning/records/manage-the-record-page.md).
+Voor informatie, zie [ de lay-out van de verslagpagina beheren ](/help/quicksilver/planning/records/manage-the-record-page.md).
 
 ## Nieuw veld voor planningsverbinding voor oorspronkelijke aanvraag
 
@@ -47,7 +47,7 @@ U kunt nu het verbindingsveld Origineel verzoek toevoegen aan een recordtype. Wa
 
 Voorafgaand aan deze verbetering, kon u het originele verzoek bekijken en toegang hebben dat tot het verslag slechts van het gebied van Verzoeken leidde.
 
-Voor informatie, zie [&#x200B; verbind verslagtypes &#x200B;](/help/quicksilver/planning/architecture/connect-record-types.md).
+Voor informatie, zie [ verbind verslagtypes ](/help/quicksilver/planning/architecture/connect-record-types.md).
 
 ## Goedkeuringsregels maken voor aanvragen in Workfront Planning
 
@@ -63,7 +63,7 @@ Als een aanvraagformulier bijvoorbeeld het veld ‘Campagnertype’ heeft, kan e
 
 Goedkeuringsregels worden gemaakt op het aanvraagformulier.
 
-Voor informatie en instructies, zie [&#x200B; goedkeuringsregels aan een verzoekvorm &#x200B;](/help/quicksilver/planning/requests/add-approval-to-request-form.md#add-approval-rules-to-a-request-form) in het artikel toevoegen een goedkeuring aan een verzoekvorm in de Planning van Adobe Workfront.
+Voor informatie en instructies, zie [ goedkeuringsregels aan een verzoekvorm ](/help/quicksilver/planning/requests/add-approval-to-request-form.md#add-approval-rules-to-a-request-form) in het artikel toevoegen een goedkeuring aan een verzoekvorm in de Planning van Adobe Workfront.
 
 ## E-mails weergeven in typekopvelden van gebruikers in Workfront Planning
 
@@ -94,6 +94,6 @@ Raadpleeg de volgende artikelen voor meer informatie:
 
 U kunt de gebieden van Mensen aan raadplegingsgebieden nu toevoegen wanneer het verbinden van twee het verslagtypes van de Planning.
 
-Voor informatie, zie [&#x200B; verbind de Types van Verslag &#x200B;](/help/quicksilver/planning/architecture/connect-record-types.md).
+Voor informatie, zie [ verbind de Types van Verslag ](/help/quicksilver/planning/architecture/connect-record-types.md).
 
 

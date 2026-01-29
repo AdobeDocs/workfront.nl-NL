@@ -3,9 +3,9 @@ title: Aan de slag met de gratis proefversie van Adobe Workfront Planning
 description: Adobe Workfront biedt een gratis proefperiode van 60 dagen voor Adobe Workfront Planning. Deze proef is uw kans om te zien hoe Planning een grootbeeldoplossingsstrategie verbindt met het dagelijkse werk dat het doet gebeuren. De planning verstrekt gecentraliseerde zichtbaarheid in uw marketing levenscyclus, toelatend betere samenwerking over teams, real time het volgen van campagnes, en geautomatiseerde werkschema's. U kunt aangepaste werkruimten maken en het werk visualiseren met interactieve tijdlijnen en kalenders. In deze proefperiode zult u zien hoe de planning uw dagelijkse werk helpt af te stemmen op strategische doelstellingen, de uitvoering te stroomlijnen en meetbare resultaten voor uw organisatie te stimuleren.
 hidefromtoc: true
 hide: true
-source-git-commit: b52c188d767ee37699ead71ed90642458d9889fa
+source-git-commit: f5d6918889b7fed1159274105ee706a027f621bf
 workflow-type: tm+mt
-source-wordcount: '1134'
+source-wordcount: '1148'
 ht-degree: 0%
 
 ---
@@ -57,7 +57,7 @@ Uw bedrijf moet aan de volgende vereisten voldoen om aan de gratis proefversie v
    * Ultimate
 
   De Workfront Planning-test is niet beschikbaar voor de oudere Workfront-pakketten.
-Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 * Toegang hebben tot de Adobe Admin Console
 * Maakt deel uit van het Identity Management System (IMS)
 * Accepteer de juridische evaluatieovereenkomst die beschikbaar is in het Workfront-exemplaar van uw organisatie vanaf 26 januari 2026. U moet een Workfront-beheerder zijn om de proefovereenkomst te accepteren.
@@ -136,18 +136,19 @@ Voer een van de volgende handelingen uit om de juridische overeenkomst te beoord
 
       Begin het onderzoeken van de **Beste werkruimten van de Praktijk** tabel en deel werkruimten of hun voorwerp met anderen.
 
-      Voor meer informatie over het gebruiken van de Planning van Workfront, zie [&#x200B; begonnen worden met de Planning van Adobe Workfront &#x200B;](/help/quicksilver/planning/general/planning-overview.md).
+      Voor meer informatie over het gebruiken van de Planning van Workfront, zie [ begonnen worden met de Planning van Adobe Workfront ](/help/quicksilver/planning/general/planning-overview.md).
 
-      Voor beste praktijken over het gebruiken van de Planning van Workfront, zie [&#x200B; de Planning van Adobe Workfront beste praktijken &#x200B;](/help/quicksilver/planning/general/planning-best-practices.md).
+      Voor beste praktijken over het gebruiken van de Planning van Workfront, zie [ de Planning van Adobe Workfront beste praktijken ](/help/quicksilver/planning/general/planning-best-practices.md).
 
 ## Machtigingen voor planningsgegevens van Workfront tijdens de gratis proefperiode
 
 * **tussen 2 Maart - 1 mei, 2026**:
 
-  U wordt verleend de volgende toestemmingen aan de gegevens beschikbaar in **de werkruimten van de Beste praktijk** lusje in het **Proefversie van de Planning** gebied:
+  U krijgt de volgende toestemmingen aan de werkruimten in het Gebied van de Planning tijdens de vrije proef toe:
 
-   * Alle Systeembeheerders hebben beheermachtigingen voor het tabblad Werkruimten voor aanbevolen procedures in het planningsgebied.
-   * Alle andere gebruikers hebben de toestemmingen van de Mening aan het lusje van de Werkruimten van Beste praktijken in het Gebied van de Planning.
+   * Alle systeembeheerders hebben beheermachtigingen voor het tabblad Werkruimten.
+   * Alle andere gebruikers hebben de toestemmingen van de Mening aan het lusje van Werkruimten, maar de Beheerder van het Systeem kan hen verlenen leidt toestemmingen aan werkruimten.
+   * Alle gebruikers, met inbegrip van de Beheerder van het Systeem, hebben de toestemmingen van de Mening aan het lusje van de Werkruimten van Beste praktijken in het Gebied van de Planning.
 
 * **na 1 Mei, 2026:**
 
