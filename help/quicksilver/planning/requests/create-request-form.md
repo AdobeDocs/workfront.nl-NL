@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
+source-git-commit: 2ffd06f2f50d14b6d33bc79c92616ebed1d58fed
 workflow-type: tm+mt
-source-wordcount: '2670'
+source-wordcount: '3518'
 ht-degree: 0%
 
 ---
@@ -19,9 +19,9 @@ ht-degree: 0%
 
 <!--take Preview and Production references at Production time-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
 
 
 {{planning-important-intro}}
@@ -30,7 +30,7 @@ U kunt een aanvraagformulier maken en dit koppelen aan een recordtype in Adobe W
 
 In dit artikel wordt beschreven hoe een werkruimtebeheerder een aanvraagformulier kan maken dat is gekoppeld aan een recordtype.
 
-Voor informatie over het voorleggen van een verzoek aan een verslagtype om een verslag tot stand te brengen, zie [&#x200B; de Verzoeken van de Planning van Adobe Workfront voorleggen om verslagen &#x200B;](/help/quicksilver/planning/requests/submit-requests.md) tot stand te brengen.
+Voor informatie over het voorleggen van een verzoek aan een verslagtype om een verslag tot stand te brengen, zie [ de Verzoeken van de Planning van Adobe Workfront voorleggen om verslagen ](/help/quicksilver/planning/requests/submit-requests.md) tot stand te brengen.
 
 ## Toegangsvereisten
 
@@ -65,7 +65,7 @@ of
 </tbody> 
 </table>
 
-Voor meer informatie over de toegangsvereisten van Workfront, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer informatie over de toegangsvereisten van Workfront, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -73,7 +73,7 @@ Voor meer informatie over de toegangsvereisten van Workfront, zie [&#x200B; vere
 
 Er zijn beperkingen in de manier waarop bepaalde velden worden weergegeven op het aanvraagformulier en hoe de waarden ervan later worden weergegeven op de records of op de pagina met aanvraagdetails nadat u een aanvraag hebt ingediend.
 
-Voor informatie over het voorleggen van de verzoeken van de Planning van Workfront, zie [&#x200B; de Verzoeken van de Planning van Adobe Workfront voorleggen om verslagen &#x200B;](/help/quicksilver/planning/requests/submit-requests.md) tot stand te brengen.
+Voor informatie over het voorleggen van de verzoeken van de Planning van Workfront, zie [ de Verzoeken van de Planning van Adobe Workfront voorleggen om verslagen ](/help/quicksilver/planning/requests/submit-requests.md) tot stand te brengen.
 
 * Hieronder volgt een aantal beperkingen voor de weergave van bepaalde velden in aanvraagformulieren, records die zijn gemaakt op een aanvraagformulier of op de pagina met aanvraagdetails:
 
@@ -114,11 +114,11 @@ U kunt een verzoekvorm van het verslagtype tot stand brengen verbonden aan de vo
 
    De werkruimte wordt geopend en de recordtypen worden als kaarten weergegeven.
 
-1. Klik op een opnametype. Voor informatie over het creëren van een verslagtype, zie [&#x200B; recordtypes &#x200B;](/help/quicksilver/planning/architecture/create-record-types.md) creëren.
+1. Klik op een opnametype. Voor informatie over het creëren van een verslagtype, zie [ recordtypes ](/help/quicksilver/planning/architecture/create-record-types.md) creëren.
 
    De pagina met recordtypen wordt geopend in de weergave die u het laatst hebt geopend. Standaard wordt een pagina met recordtypen geopend in de tabelweergave.
 
-1. Klik **Meer** menu ![&#x200B; Meer menu &#x200B;](assets/more-menu.png) rechts van de naam van het verslagtype in de paginakop, dan klik **creeer verzoekvorm** of **beheer verzoekvormen**, als u reeds een vorm hebt en u extra degenen wilt creëren.
+1. Klik **Meer** menu ![ Meer menu ](assets/more-menu.png) rechts van de naam van het verslagtype in de paginakop, dan klik **creeer verzoekvorm** of **beheer verzoekvormen**, als u reeds een vorm hebt en u extra degenen wilt creëren.
 1. (Voorwaardelijk) als u een andere vorm wilt toevoegen, klik **Nieuwe verzoekvorm**.
 
    Het vak Aanvraagformulier maken wordt geopend.
@@ -131,7 +131,7 @@ U kunt een verzoekvorm van het verslagtype tot stand brengen verbonden aan de vo
 1. Klik **creëren**.
 
    Het aanvraagformulier voor het geselecteerde recordtype wordt geopend op het tabblad Formulier.
-1. Ga aan [&#x200B; verder vormen de vorm &#x200B;](#configure-the-form).
+1. Ga aan [ opstellingsdetails voor de verzoekvorm ](#set-up-details-for-the-request-form) verder.
 
 <!--
 
@@ -166,12 +166,16 @@ U kunt een verzoekvorm van het verslagtype tot stand brengen verbonden aan de vo
 Formulierdetails worden verdeeld in tabbladen.
 
 * Het **lusje van de Vorm** staat u toe om gebieden en inhoudselementen aan de vorm toe te voegen
-* Het **lusje van de Configuratie** staat u toe om een goedkeuringsproces voor de vorm te plaatsen, en om de opties van de verzoekvoltooiing te plaatsen&lt;.
+* Het **lusje van de Configuratie** staat u toe om een goedkeuringsproces voor de vorm te plaatsen, en om de opties van de verzoekvoltooiing te plaatsen.
+
+  >[!NOTE]
+  >
+  ><span class="preview"> in het milieu van de Voorproef, vervangt het lusje van Montages het lusje van de Configuratie.</span>
   <!--* <span class="preview">The **Automations** tab allows you to automate what will occur based on features of the request made with the form.</span>-->
 
 #### Formuliergegevens instellen
 
-1. Beginnen creërend of het uitgeven van een verzoekvorm, zoals die in de sectie [&#x200B; wordt beschreven Begin creërend een verzoekvorm &#x200B;](#begin-creating-a-request-form).
+1. Beginnen creërend of het uitgeven van een verzoekvorm, zoals die in de sectie [ wordt beschreven Begin creërend een verzoekvorm ](#begin-creating-a-request-form).
 
    of
 
@@ -179,7 +183,7 @@ Formulierdetails worden verdeeld in tabbladen.
 
    Het aanvraagformulier voor het geselecteerde recordtype wordt geopend op het tabblad Formulier.
 
-   ![&#x200B; de verzoekvorm van campagnes geeft wijze uit &#x200B;](assets/campaigns-request-form-edit-mode.png)
+   ![ de verzoekvorm van campagnes geeft wijze uit ](assets/campaigns-request-form-edit-mode.png)
 
    Het aanvraagformulier bevat standaard de volgende informatie:
 
@@ -223,23 +227,31 @@ Formulierdetails worden verdeeld in tabbladen.
    * **Beschrijvende tekst**
    * **de onderbreking van de Sectie**
 
-   Voor meer informatie over de bouw van een douaneformulier, zie [&#x200B; een douaneformulier &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren.
+   Voor meer informatie over de bouw van een douaneformulier, zie [ een douaneformulier ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren.
 
 1. (Facultatief) klik **Voorproef** om te bekijken hoe de vorm voor andere gebruikers zal tonen wanneer zij het zullen gebruiken om een nieuw verslag voor te leggen.
-1. Ga aan [&#x200B; de details van de Configuratie van de Opstelling &#x200B;](#set-up-configuration-details) verder als u meer details voor de vorm wilt vormen, of naar [&#x200B; Volledige creatie van de verzoekvorm &#x200B;](#complete-request-form-creation) gaan.
+1. Ga op een van de volgende manieren te werk:
+
+   * [ de details van de Configuratie van de opstelling ](#set-up-configuration-details) als u meer details voor de vorm in het milieu van de Productie wilt vormen
+   * <span class="preview">[ vorm montages ](#configure-settings) als u meer details voor de vorm in het milieu van de Productie wilt vormen </span>
+   * [ Volledige verwezenlijking van de verzoekvorm ](#complete-request-form-creation) als u geen verdere montages wilt vormen.
 
 #### Configuratiegegevens instellen
 
+>[!NOTE]
+>
+>Dit tabblad is alleen beschikbaar in de productieomgeving.
+
 Op het tabblad Configuratie kunt u het goedkeuringsproces instellen en configureren wanneer een aanvraag die op basis van dit formulier is gemaakt, wordt gemarkeerd als Voltooid.
 
-1. Beginnen creërend of het uitgeven van een verzoekvorm, zoals die in de sectie [&#x200B; wordt beschreven Begin creërend een verzoekvorm &#x200B;](#begin-creating-a-request-form).
+1. Beginnen creërend of het uitgeven van een verzoekvorm, zoals die in de sectie [ wordt beschreven Begin creërend een verzoekvorm ](#begin-creating-a-request-form).
 
    Het aanvraagformulier voor het geselecteerde recordtype wordt geopend op het tabblad Formulier.
-1. (Facultatief) opstelling om het even welke vormdetails, zoals die in [&#x200B; worden beschreven de details van de Vorm van de Opstelling &#x200B;](#set-up-form-details).
+1. (Facultatief) opstelling om het even welke vormdetails, zoals die in [ worden beschreven de details van de Vorm van de Opstelling ](#set-up-form-details).
 
 1. (Facultatief) als u fiatteurs wilt toevoegen, klik het **lusje van de Configuratie**, dan voeg minstens één gebruiker of team aan het **Approvers** gebied toe om nieuwe verzoeken voor deze verslagvorm goed te keuren.
 
-   ![&#x200B; het lusje van de Configuratie &#x200B;](assets/configuration-tab.png)
+   ![ het lusje van de Configuratie ](assets/configuration-tab.png)
 
    <!--below bullet list is duplicated in the Add approval to a request form article-->
 
@@ -248,13 +260,89 @@ Op het tabblad Configuratie kunt u het goedkeuringsproces instellen en configure
    * Als u meer dan één fiatteur toevoegt en de optie Alleen één beslissing is vereist is niet ingeschakeld, moeten alle fiatteurs een beslissing nemen voordat een aanvraag wordt goedgekeurd of afgewezen.
    * Als een team als fiatteur wordt geplaatst, wordt slechts één besluit vereist van het team.
 
-   Voor meer informatie over het toevoegen van goedkeuringen aan aanvraagvormen, zie [&#x200B; goedkeuring aan een verzoekvorm &#x200B;](/help/quicksilver/planning/requests/add-approval-to-request-form.md) toevoegen.
+   Voor meer informatie over het toevoegen van goedkeuringen aan aanvraagvormen, zie [ goedkeuring aan een verzoekvorm ](/help/quicksilver/planning/requests/add-approval-to-request-form.md) toevoegen.
 
 1. (Voorwaardelijk) als u het verslag wilt worden gecreeerd nadat om het even welke fiatteurs het heeft goedgekeurd, controleer **slechts één besluit wordt vereist** checkbox.
 
 1. Selecteer of u een aanvraag die op basis van dit formulier is gemaakt, als volledig wilt markeren wanneer het aangevraagde object wordt gemaakt of wanneer het gevraagde object is voltooid.
 1. (Voorwaardelijk) Als u ervoor hebt gekozen dat de aanvraag wordt gemarkeerd als voltooid wanneer het gewenste object is voltooid, selecteert u het veld en de waarde die aangeven wanneer het object is voltooid. U kunt bijvoorbeeld de status van het veld en de waarde Voltooien selecteren om de aanvraag te voltooien wanneer de status van het gemaakte object is ingesteld op Voltooien.
-1. Ga aan <!--[Set up Automations details](#set-up-configuration-details) if you want to configure more details for the form, or go to -->[&#x200B; Volledige creatie van de verzoekvorm &#x200B;](#complete-request-form-creation) verder.
+1. Ga aan <!--[Set up Automations details](#set-up-configuration-details) if you want to configure more details for the form, or go to -->[ Volledige creatie van de verzoekvorm ](#complete-request-form-creation) verder.
+
+<div class="preview">
+
+### Instellingen configureren
+
+>[!NOTE]
+>
+>Dit tabblad is alleen beschikbaar in de voorvertoningsomgeving.
+
+Op het tabblad Instellingen kunt u goedkeuringsregels instellen en configureren wanneer een aanvraag die op basis van dit formulier is gemaakt, wordt gemarkeerd als Voltooid.
+
+#### Goedkeuringsregels configureren
+
+In de goedkeuringsregels wordt het goedkeuringsproces gedefinieerd op basis van de veldwaarden in de ingediende aanvragen.
+
+Als een aanvraagformulier bijvoorbeeld het veld ‘Campagnertype’ heeft, kan een regel worden gemaakt die de aanvraag naar één persoon verzendt wanneer het veld de waarde ‘Digitaal’ heeft en naar een andere persoon wanneer deze de waarde ‘Afdrukken’ heeft.
+
+Houd rekening met het volgende wanneer u goedkeuringsregels toevoegt:
+
+* Regels krijgen prioriteit op volgorde. Als aan de eerste regelvoorwaarden wordt voldaan, wordt die regel toegepast, zelfs als ook aan de voorwaarden voor verdere regels in de lijst wordt voldaan.
+* Als aan geen voorwaarden wordt voldaan, dan wordt de standaardregel toegepast.
+* U kunt een of meerdere fiatteurs toevoegen aan een goedkeuringsregel.
+* Als ten minste één fiatteur het verzoek afwijst, wordt het verzoek afgewezen en wordt de record niet gemaakt. Het verzoek blijft op het gebied van verzoeken van Workfront.
+* Als u meer dan één fiatteur toevoegt en de optie Alleen één beslissing is vereist is niet ingeschakeld, moeten alle fiatteurs een beslissing nemen voordat een aanvraag wordt goedgekeurd of afgewezen.
+* Als een team als fiatteur wordt geplaatst, wordt slechts één besluit vereist van het team.
+
+Voor meer informatie over het toevoegen van goedkeuringen, zie [ goedkeuring aan een verzoekvorm ](/help/quicksilver/planning/requests/add-approval-to-request-form.md) toevoegen.
+
+Goedkeuringsregels instellen voor een aanvraagformulier:
+
+1. Beginnen creërend of het uitgeven van een verzoekvorm, zoals die in de sectie [ wordt beschreven Begin creërend een verzoekvorm ](#begin-creating-a-request-form).
+
+   Het aanvraagformulier voor het geselecteerde recordtype wordt geopend op het tabblad Formulier.
+1. (Facultatief) opstelling om het even welke vormdetails, zoals die in [ worden beschreven de details van de Vorm van de Opstelling ](#set-up-form-details).
+
+1. Beginnen vormend goedkeuringsregels, klik goedkeurt ![ pictogram ](assets/approvals-icon-on-form.png) in de linkernavigatie.
+
+1. (Facultatief) als u een standaardgoedkeuringsproces wilt plaatsen, voeg minstens één gebruiker of team aan het **Approvers** gebied van het gebied van de Standaard goedkeuringsregel toe, dan klik **slechts één besluit wordt vereist** checkbox als u het verslag wilt worden gecreeerd nadat om het even welke standaard fiatteurs het heeft goedgekeurd.
+
+   ![ gebied van de Standaard goedkeuringsregel ](assets/default-approvers.png)
+
+   <!--below bullet list is duplicated in the Add approval to a request form article-->
+
+1. (Optioneel) Ga als volgt te werk voor elke aanvullende goedkeuringsregel:
+
+   1. Klik **toevoegen goedkeuringsregel**
+   1. Klik op de titel van de tijdelijke aanduiding &quot;Naamloze goedkeuringsregel&quot; en voer een naam in voor de goedkeuringsregel.
+   1. Klik **Uitgezocht een gebied** en selecteer het gebied dat de regel activeert.
+   1. Selecteer de operator voor de regel. Operatoren variëren afhankelijk van het type veld.
+   1. Als de geselecteerde operator een waarde nodig heeft, klikt u op het plusteken en voegt u een of meer waarden toe.
+   1. (Optioneel) Voeg meer voorwaarden toe met AND of OR door op Voorwaarde toevoegen te klikken en de aanvullende voorwaarde te configureren.
+   1. Op het gebied van Acties van de goedkeuringsregel, op het **Approvers** gebied, voeg bij huur één gebruiker of team toe die bij de fiatteur moet worden geplaatst wanneer de voorwaarde wordt voldaan aan.
+   1. (Voorwaardelijk) als u het verslag wilt worden gecreeerd nadat om het even welke fiatteurs het heeft goedgekeurd, controleer **slechts één besluit wordt vereist** checkbox.
+
+1. (Facultatief) om het verpletteren van regels te herschikken, klik de belemmeringshandvat op de linkerkant van de regel en sleep de regel aan de gewenste plaats.
+
+   De standaardregel kan niet opnieuw worden geordend.
+
+1. (Facultatief) om een verpletterende regel te schrappen, klik **X** rechts van de regel.
+1. Klik **sparen** om de goedkeuringsregels te bewaren.
+1. Ga aan [ reeks opties van de verzoekvoltooiing ](#set-request-completion-options) verder
+
+#### Opties voor het voltooien van een verzoek instellen
+
+Met de opties voor Voltooiing kunt u instellen of een aanvraag is gemarkeerd als voltooid wanneer het aangevraagde object wordt gemaakt of wanneer het gemaakte object is voltooid. U definieert wanneer het object voltooid is op basis van een opgegeven voorwaarde.
+
+1. Beginnen creërend of het uitgeven van een verzoekvorm, zoals die in de sectie [ wordt beschreven Begin creërend een verzoekvorm ](#begin-creating-a-request-form).
+
+   Het aanvraagformulier voor het geselecteerde recordtype wordt geopend op het tabblad Formulier.
+1. (Facultatief) opstelling om het even welke vormdetails, zoals die in [ worden beschreven de details van de Vorm van de Opstelling ](#set-up-form-details).
+
+1. Selecteer of u een aanvraag die op basis van dit formulier is gemaakt, als volledig wilt markeren wanneer het aangevraagde object wordt gemaakt of wanneer het gevraagde object is voltooid.
+1. (Voorwaardelijk) Als u ervoor hebt gekozen dat de aanvraag wordt gemarkeerd als voltooid wanneer het gewenste object is voltooid, selecteert u het veld en de waarde die aangeven wanneer het object is voltooid. U kunt bijvoorbeeld de status van het veld en de waarde Voltooien selecteren om de aanvraag te voltooien wanneer de status van het gemaakte object is ingesteld op Voltooien.
+1. Ga aan <!--[Set up Automations details](#set-up-configuration-details) if you want to configure more details for the form, or go to -->[ Volledige creatie van de verzoekvorm ](#complete-request-form-creation) verder.
+
+</div>
 
 <!--
  
@@ -287,8 +375,8 @@ For information on creating automations in other areas of Workfront Planning, se
 
 ### Volledig aanvraagformulier maken
 
-1. Creeer en opstelling de vorm zoals die in [&#x200B; wordt beschreven Begin creërend een verzoekvorm &#x200B;](#begin-creating-a-request-form) en [&#x200B; opstellingsdetails voor de verzoekvorm &#x200B;](#set-up-details-for-the-request-form) wordt beschreven.
-1. (Facultatief) klik het **Meer** menu ![&#x200B; Meer menu &#x200B;](assets/more-menu.png) rechts van de naam van de vorm in de kopbal, dan klik **uitgeven** om de naam van de vorm bij te werken.
+1. Creeer en opstelling de vorm zoals die in [ wordt beschreven Begin creërend een verzoekvorm ](#begin-creating-a-request-form) en [ opstellingsdetails voor de verzoekvorm ](#set-up-details-for-the-request-form) wordt beschreven.
+1. (Facultatief) klik het **Meer** menu ![ Meer menu ](assets/more-menu.png) rechts van de naam van de vorm in de kopbal, dan klik **uitgeven** om de naam van de vorm bij te werken.
 
 1. Klik **publiceren** om de vorm te publiceren en een unieke verbinding voor het te verkrijgen.
 
@@ -301,7 +389,7 @@ For information on creating automations in other areas of Workfront Planning, se
 
 1. Klik **Aandeel** om de vorm met anderen te delen.
 
-   Voor informatie over het delen van een verzoekvorm, zie [&#x200B; een sectie van de verzoekvorm &#x200B;](#share-a-request-form) in dit artikel delen
+   Voor informatie over het delen van een verzoekvorm, zie [ een sectie van de verzoekvorm ](#share-a-request-form) in dit artikel delen
 1. Klik op de pijl die naar links wijst links van de naam van het formulier in de koptekst om het formulier te sluiten.
 
    De **vorm van het Verzoek** lijstmening opent en de vorm wordt toegevoegd aan het.
@@ -313,15 +401,15 @@ For information on creating automations in other areas of Workfront Planning, se
 
    De werkruimte wordt geopend en de recordtypen worden als kaarten weergegeven.
 
-1. Klik op een opnametype. Voor informatie over het creëren van een verslagtype, zie [&#x200B; recordtypes &#x200B;](/help/quicksilver/planning/architecture/create-record-types.md) creëren.
+1. Klik op een opnametype. Voor informatie over het creëren van een verslagtype, zie [ recordtypes ](/help/quicksilver/planning/architecture/create-record-types.md) creëren.
 
    De pagina met recordtypen wordt geopend in de weergave die u het laatst hebt geopend. Standaard wordt een pagina met recordtypen geopend in de tabelweergave.
 
-1. Klik **Meer** menu ![&#x200B; Meer menu &#x200B;](assets/more-menu.png) aan het recht van de naam van het verslagtype in de paginakop, dan klik **leidt verzoekvormen**.
+1. Klik **Meer** menu ![ Meer menu ](assets/more-menu.png) aan het recht van de naam van het verslagtype in de paginakop, dan klik **leidt verzoekvormen**.
 
    Alle aanvraagformulieren die aan het recordtype zijn gekoppeld, worden in een tabelweergave weergegeven.
 
-1. (Facultatief) Beweeg over de naam van een verzoekvorm in de lijstmening, dan klik **Meer** menu ![&#x200B; Meer menu &#x200B;](assets/more-menu.png) rechts van de vormnaam, en klik één van het volgende:
+1. (Facultatief) Beweeg over de naam van een verzoekvorm in de lijstmening, dan klik **Meer** menu ![ Meer menu ](assets/more-menu.png) rechts van de vormnaam, en klik één van het volgende:
 
    * **geef vorm** uit: Klik dit om informatie over de vorm verder uit te geven.
    * **unpublish**: Klik dit om de vorm ongedaan te maken die het uit het gebied van Verzoeken in Workfront verwijdert.
@@ -329,33 +417,33 @@ For information on creating automations in other areas of Workfront Planning, se
    * **verbinding van het Exemplaar**: Klik dit om snel de verbinding van de verzoekvorm te kopiëren zonder de vorm te openen.
    * **Schrapping**: Klik dit om de vorm te schrappen. Alle aanvragen en records die met het formulier zijn toegevoegd, worden niet verwijderd. Het formulier kan niet worden hersteld.
 
-   ![&#x200B; Meer menu op verzoekvorm van de lijst van de verzoekvormen &#x200B;](assets/more-menu-on-request-form-from-request-forms-list.png)
+   ![ Meer menu op verzoekvorm van de lijst van de verzoekvormen ](assets/more-menu-on-request-form-from-request-forms-list.png)
 
 1. Klik op de pijl die naar links wijst links van **Request-formulieren** in de header om de aanvraagformuliertabel te sluiten.
 
    De pagina met recordtypen wordt geopend.
-1. (Facultatief en voorwaardelijk) klik **Meer** menu ![&#x200B; Meer menu &#x200B;](assets/more-menu.png) aan het recht van de naam van het verslagtype in de kopbal, dan doe één van het volgende:
+1. (Facultatief en voorwaardelijk) klik **Meer** menu ![ Meer menu ](assets/more-menu.png) aan het recht van de naam van het verslagtype in de kopbal, dan doe één van het volgende:
 
    1. Klik **de verzoekvorm van de Update** om het even welke veranderingen in de verzoekvorm aan te brengen, dan klik een verzoekvorm om het te openen en uit te geven.
    1. Klik **verbinding van het Exemplaar om vorm** te verzoeken om de verbinding met de vorm met anderen te delen.
 
-1. (Facultatief) ga naar het **gebied van Verzoeken** in Workfront en vind de gedeelde vorm om een verzoek voor te leggen. Voor informatie, zie [&#x200B; de Verzoeken van de Planning van Adobe Workfront voorleggen om verslagen &#x200B;](/help/quicksilver/planning/requests/submit-requests.md) tot stand te brengen.
+1. (Facultatief) ga naar het **gebied van Verzoeken** in Workfront en vind de gedeelde vorm om een verzoek voor te leggen. Voor informatie, zie [ de Verzoeken van de Planning van Adobe Workfront voorleggen om verslagen ](/help/quicksilver/planning/requests/submit-requests.md) tot stand te brengen.
 
 ## Een aanvraagformulier delen
 
-1. Creeer een verzoekvorm zoals die in [&#x200B; wordt beschreven creeer een verzoekvorm voor een verslagtype &#x200B;](#create-a-request-form-for-a-record-type) sectie in dit artikel.
-1. Klik **Meer** menu ![&#x200B; Meer menu &#x200B;](assets/more-menu.png) rechts van de naam van de verzoekvorm op de pagina van het verslagtype.
+1. Creeer een verzoekvorm zoals die in [ wordt beschreven creeer een verzoekvorm voor een verslagtype ](#create-a-request-form-for-a-record-type) sectie in dit artikel.
+1. Klik **Meer** menu ![ Meer menu ](assets/more-menu.png) rechts van de naam van de verzoekvorm op de pagina van het verslagtype.
 1. Klik **Aandeel** om de vorm met anderen te delen.
 
 1. Om de vorm intern te delen, selecteer het **Interne delende** lusje, onderzoek naar de naam van een gebruiker, team, baanrol, groep, of bedrijf in de **toegang van de Verlening om dit vorm** gebied voor te leggen, dan het te selecteren wanneer het in de lijst verschijnt. De **voorlegt** toestemming wordt geselecteerd door gebrek voor elke entiteit.
 
-   ![&#x200B; doos van het Aandeel voor aanvraagvorm &#x200B;](assets/share-box-for-request-form.png)
+   ![ doos van het Aandeel voor aanvraagvorm ](assets/share-box-for-request-form.png)
 
 1. (Facultatief) klik het drop-down menu na de naam van een entiteit, dan klik **verwijderen** om hen uit de lijst te verwijderen en ophouden delend de vorm met hen.
 
    >[!NOTE]
    >
-   >Naast teams, groepen, bedrijven, en baanrollen, kunt u slechts met gebruikers delen die aan Adobe Admin Console zijn toegevoegd. U kunt geen gebruikers met alleen Workfront toevoegen. Voor informatie, zie [&#x200B; gebruikers in Adobe Admin Console &#x200B;](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md) leiden.
+   >Naast teams, groepen, bedrijven, en baanrollen, kunt u slechts met gebruikers delen die aan Adobe Admin Console zijn toegevoegd. U kunt geen gebruikers met alleen Workfront toevoegen. Voor informatie, zie [ gebruikers in Adobe Admin Console ](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md) leiden.
 
 1. In **die verzoeken door deze vorm** sectie kan voorleggen, selecteer van de volgende opties om erop te wijzen welke types van gebruikers tot deze vorm kunnen toegang hebben:
 
@@ -365,7 +453,7 @@ For information on creating automations in other areas of Workfront Planning, se
 1. (Facultatief) klik **verbinding van het Exemplaar** om de verbinding met de vorm met mensen te delen die toegang hebben om dit te doen. De koppeling wordt naar het klembord gekopieerd.
 1. Om de vorm openbaar te delen, selecteer het **Openbare delen** lusje, dan laat **openbare verbinding** plaatsen toe creëren.
 
-   ![&#x200B; Openbaar het delen voor verzoekvorm &#x200B;](assets/share-request-form-publicly-tab.png)
+   ![ Openbaar het delen voor verzoekvorm ](assets/share-request-form-publicly-tab.png)
 
    >[!WARNING]
    >
@@ -393,6 +481,6 @@ For information on creating automations in other areas of Workfront Planning, se
 
    De opties voor het delen van formulieren worden opgeslagen en de koppeling wordt naar het klembord gekopieerd. U kunt deze nu delen met anderen.
 
-   Voor informatie over het creëren van verslagen die een verbinding aan een verzoekvorm gebruiken, zie [&#x200B; verzoeken van de Planning van Adobe Workfront voorleggen &#x200B;](/help/quicksilver/planning/requests/submit-requests.md).
+   Voor informatie over het creëren van verslagen die een verbinding aan een verzoekvorm gebruiken, zie [ verzoeken van de Planning van Adobe Workfront voorleggen ](/help/quicksilver/planning/requests/submit-requests.md).
 
-1. Klik **sparen** in de laag-juiste hoek van het **3&rbrace; lusje van de Vorm &lbrace;om de vorm te bewaren.**
+1. Klik **sparen** in de laag-juiste hoek van het **3} lusje van de Vorm {om de vorm te bewaren.**
