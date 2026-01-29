@@ -59,7 +59,7 @@ Lees de volgende artikelen voor meer informatie over [!DNL Admin Console] :
 
 ### Wat moet ik als klant doen om de migratie te vergemakkelijken?
 
-Er wordt contact opgenomen met bestaande klanten om migraties te plannen. De collega&#39;s die ondersteuning bieden voor het migratieteam zullen klanten door het proces laten lopen, advies geven over [!DNL Admin Console] -installatie en koppelingen verschaffen naar documentatie die nodig is om de stap zo eenvoudig en probleemloos mogelijk te maken. Herzie [[!DNL Adobe Business Platform]  en  [!DNL Admin Console]  Veelgestelde vragen &#x200B;](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/workfront/faq) voor meer informatie.
+Er wordt contact opgenomen met bestaande klanten om migraties te plannen. De collega&#39;s die ondersteuning bieden voor het migratieteam zullen klanten door het proces laten lopen, advies geven over [!DNL Admin Console] -installatie en koppelingen verschaffen naar documentatie die nodig is om de stap zo eenvoudig en probleemloos mogelijk te maken. Herzie [[!DNL Adobe Business Platform]  en  [!DNL Admin Console]  Veelgestelde vragen &#x200B;](https://experienceleague.adobe.com/nl/docs/support-resources/adobe-support-tools-guide/workfront/faq) voor meer informatie.
 
 ### Hoe gaat u met [!DNL Adobe Admin Console] voor bedrijven die dit al hebben ingeschakeld voor gefedereerde id&#39;s anders dan met [!DNL Workfront] SSO is ingesteld?
 
