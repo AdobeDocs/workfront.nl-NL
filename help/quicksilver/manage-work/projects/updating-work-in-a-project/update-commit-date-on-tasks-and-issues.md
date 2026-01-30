@@ -24,7 +24,7 @@ ht-degree: 0%
 
 <span class="preview">For information about the current release, see [Third Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>-->
 
-U kunt de datum van Vastleggen van een taak of een kwestie manueel bijwerken waaraan u wordt toegewezen. Voor meer informatie over Commit Dates in Adobe Workfront, zie [ Overzicht van de Datum van het Vastleggen ](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
+U kunt de datum van Vastleggen van een taak of een kwestie manueel bijwerken waaraan u wordt toegewezen. Voor meer informatie over Commit Dates in Adobe Workfront, zie [&#x200B; Overzicht van de Datum van het Vastleggen &#x200B;](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
 
 ## Toegangsvereisten
 
@@ -68,7 +68,7 @@ U kunt de datum van Vastleggen van een taak of een kwestie manueel bijwerken waa
  </tbody> 
 </table>
 
-Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -123,7 +123,7 @@ U kunt de Vastlegdatum van een taak of kwestie op de volgende gebieden van Workf
 * De taak- of uitgiftekop
 
   Uw Workfront of groepsbeheerder moet de datum Vastleggen toevoegen aan de taak- of uitgiftekoptekst van uw lay-outsjabloon om deze weer te geven vanaf de taak- of uitgiftepagina.
-Voor informatie, zie [ objecten kopballen aanpassen gebruikend een lay-outmalplaatje ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
+Voor informatie, zie [&#x200B; objecten kopballen aanpassen gebruikend een lay-outmalplaatje &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
 
 Het bijwerken van de Vastlegdatum is identiek voor taken en kwesties.
 
@@ -133,23 +133,23 @@ Het bijwerken van de Vastlegdatum is identiek voor taken en kwesties.
 >
 >Raadpleeg de volgende artikelen voor meer informatie:
 >
->* [ Overzicht van de Samenvatting ](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
->* [ pas het Summiere paneel aan gebruikend een lay-outmalplaatje ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
+>* [&#x200B; Overzicht van de Samenvatting &#x200B;](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
+>* [&#x200B; pas het Summiere paneel aan gebruikend een lay-outmalplaatje &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
 
 
 1. Ga naar een taak of een kwestie die u aan als **Eigenaar** wordt toegewezen.
 
-   Voor meer informatie over het ontdekken wie de Eigenaar van de Taak voor een kwestie of een taak is, zie de sectie [ taken ](../../../manage-work/tasks/manage-tasks/edit-tasks.md#assignments) in het artikel [ uitgeven taken ](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
+   Voor meer informatie over het ontdekken wie de Eigenaar van de Taak voor een kwestie of een taak is, zie de sectie [&#x200B; taken &#x200B;](../../../manage-work/tasks/manage-tasks/edit-tasks.md#assignments) in het artikel [&#x200B; uitgeven taken &#x200B;](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
 
-1. (Voorwaardelijk en facultatief) als uw Workfront of groepsbeheerder de Vastlegdatum aan uw taak of uitgiftekopbal toevoegde, klik het **gebied van de Datum** Vastleggen {in de kopbal, dan selecteer een datum van de kalender. Ga als volgt te werk als de datum vastleggen zich niet in de koptekst bevindt.
+1. (Voorwaardelijk en facultatief) als uw Workfront of groepsbeheerder de Vastlegdatum aan uw taak of uitgiftekopbal toevoegde, klik het **gebied van de Datum** Vastleggen &lbrace;in de kopbal, dan selecteer een datum van de kalender. Ga als volgt te werk als de datum vastleggen zich niet in de koptekst bevindt.
 
-   ![ verbind datum in taakkopbal ](assets/commit-date-task-header.png)
+   ![&#x200B; verbind datum in taakkopbal &#x200B;](assets/commit-date-task-header.png)
 
 1. Klik **Details van de Taak** of **Details van de Uitgave** in het linkerpaneel.
 1. Klik **Overzicht** om het uit te breiden.
 1. Werk het **gebied van de Datum** vast.
 
-   ![ de Taak begaan datum uitgezocht in de detailspagina ](assets/task-commit-date-edit-highlighted-details-page.png)
+   ![&#x200B; de Taak begaan datum uitgezocht in de detailspagina &#x200B;](assets/task-commit-date-edit-highlighted-details-page.png)
 
 1. Klik **sparen Veranderingen**.
 
@@ -159,16 +159,16 @@ Het bijwerken van de Vastlegdatum is identiek voor taken en kwesties.
 
      In plaats daarvan worden de Datum vastleggen en de verwachte Voltooiingsdatum van de taak of uitgave hetzelfde.
 
-     ![ Taak geprojecteerde voltooiingsdatum in benadrukte details ](assets/task-projected-completion-date-in-details-highlighted-nwe-350x230.png)
+     ![&#x200B; Taak geprojecteerde voltooiingsdatum in benadrukte details &#x200B;](assets/task-projected-completion-date-in-details-highlighted-nwe-350x230.png)
 
    * De eigenaar van het project wordt in een Workfront-melding in de app op de hoogte gesteld van het feit dat u een nieuwe Vastlegdatum voor de taak of uitgave hebt voorgesteld.
    * De eigenaar van het project wordt in de sectie Updates op de hoogte gesteld van het feit dat u een nieuwe Vastlegdatum hebt voorgesteld en zij kunnen, op dit moment, de Geplande Voltooiingsdatum van de taak of kwestie bijwerken om de Vastleggingsdatum aan te passen u voorstelde.
 
-     ![ bericht van de eigenaar van het Project in updatestroom die datum begaan beïnvloedt de projectchronologie ](assets/project-owner-notification-update-stream-that-commit-date-affects-project-timeline.png)
+     ![&#x200B; bericht van de eigenaar van het Project in updatestroom die datum begaan beïnvloedt de projectchronologie &#x200B;](assets/project-owner-notification-update-stream-that-commit-date-affects-project-timeline.png)
 
 
      <!--![Project owner notification in update stream that commit date affects the project timeline](assets/project-owner-notification-update-stream-that-commit-date-affects-project-timeline-highlighted-nwe-350x139.png)-->
 
-     Voor informatie over de berichten en de updates die door deze verandering worden teweeggebracht, zie de sectie &quot;Meldingen en updates die door de Vastlegdatum&quot;in het artikel [ worden teweeggebracht het overzicht van de Datum van de Overeenkomst ](/help/quicksilver/manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md) vastleggen.
+     Voor informatie over de berichten en de updates die door deze verandering worden teweeggebracht, zie de sectie &quot;Meldingen en updates die door de Vastlegdatum&quot;in het artikel [&#x200B; worden teweeggebracht het overzicht van de Datum van de Overeenkomst &#x200B;](/help/quicksilver/manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md) vastleggen.
 
 <!--at the Production update stream when removing legacy - replace the last bullet with: The Project Owner is notified in the Systems Activity and the All tabs of the Updates section that you have suggested a new Commit Date. They can then update the Planned Completion Date accordingly by editing the task or the issue.-->

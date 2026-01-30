@@ -19,7 +19,7 @@ ht-degree: 0%
 
 U kunt de status van een taak bijwerken om anderen te informeren over waar de taak is (en het algemene project) en hoe de taak vordert.
 
-De standaardstatussen zijn Nieuw, Bezig en Voltooid. Uw Adobe Workfront-beheerder kan aangepaste statussen toevoegen aan uw organisatie. Voor meer informatie, zie [ een status ](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md) creëren of uitgeven.
+De standaardstatussen zijn Nieuw, Bezig en Voltooid. Uw Adobe Workfront-beheerder kan aangepaste statussen toevoegen aan uw organisatie. Voor meer informatie, zie [&#x200B; een status &#x200B;](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md) creëren of uitgeven.
 
 U kunt taakstatussen handmatig bijwerken of u kunt Workfront toestaan deze automatisch bij te werken wanneer bepaalde handelingen plaatsvinden.
 
@@ -52,7 +52,7 @@ U kunt taakstatussen handmatig bijwerken of u kunt Workfront toestaan deze autom
  </tbody> 
 </table>
 
-Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -91,7 +91,7 @@ Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Work
    * U kunt niet de Status van een oudertaak bijwerken om te voltooien wanneer de Summiere Wijze van de Voltooiing van het project aan Automatisch wordt geplaatst en subtasks niet worden voltooid.
    * U kunt de Status van een oudertaak bijwerken om te voltooien wanneer de Summiere Wijze van de Voltooiing van het project aan Handboek wordt geplaatst en subtaken worden voltooid of onvolledig.
 
-  Voor meer informatie, zie [ projecten ](../manage-projects/edit-projects.md) uitgeven.
+  Voor meer informatie, zie [&#x200B; projecten &#x200B;](../manage-projects/edit-projects.md) uitgeven.
 
 ## Taakstatus handmatig bijwerken
 
@@ -111,18 +111,18 @@ De taakstatus in de taakkoptekst handmatig bijwerken:
 
    of
 
-   Dubbelklik binnen de **Volledige** bel van de Percentage {om een nieuw percentage manueel in te gaan.
+   Dubbelklik binnen de **Volledige** bel van de Percentage &lbrace;om een nieuw percentage manueel in te gaan.
 
-   ![ Percentage volledige statuswidgets taakkopbal ](assets/percent-complete-status-widgets-task-header.png)
+   ![&#x200B; Percentage volledige statuswidgets taakkopbal &#x200B;](assets/percent-complete-status-widgets-task-header.png)
 
 1. (Optioneel) Voer een van de volgende handelingen uit om aanvullende informatie over de update op te geven:
 
    * Om een nota over de update toe te voegen, ga naar de **sectie van Updates** en klik **Nieuwe commentaar**, dan typ een nota.
 
-     ![ Toevoegend een update aan een taak ](assets/add-update-to-task.png)
+     ![&#x200B; Toevoegend een update aan een taak &#x200B;](assets/add-update-to-task.png)
 
-   * Om bepaalde gebruikers over de update op de hoogte te brengen, typ hun namen op het **mensen van de Markering of team** gebied dat verschijnt wanneer u een commentaar typt. Voor meer informatie, zie [ Tags anderen op updates ](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
-   * Om de taak bij te werken begaat datum, klik **Details van de Taak**, dan geef het **gebied van de Datum** toe. Voor informatie, zie [ taken ](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md) uitgeven.
+   * Om bepaalde gebruikers over de update op de hoogte te brengen, typ hun namen op het **mensen van de Markering of team** gebied dat verschijnt wanneer u een commentaar typt. Voor meer informatie, zie [&#x200B; Tags anderen op updates &#x200B;](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
+   * Om de taak bij te werken begaat datum, klik **Details van de Taak**, dan geef het **gebied van de Datum** toe. Voor informatie, zie [&#x200B; taken &#x200B;](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md) uitgeven.
 
 
    >[!IMPORTANT]
@@ -150,7 +150,7 @@ Workfront werkt de bestaande status van een taak automatisch bij naar een andere
 
 >[!NOTE]
 >
->De statussen in de volgende tabel zijn standaardsysteemstatussen. Uw Workfront-beheerder of een groepsbeheerder kan de naam van de statussen in uw exemplaar van Workfront wijzigen. Voor informatie over het creëren van en het leiden van statussen in Workfront, zie [ een status ](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md) creëren of uitgeven.
+>De statussen in de volgende tabel zijn standaardsysteemstatussen. Uw Workfront-beheerder of een groepsbeheerder kan de naam van de statussen in uw exemplaar van Workfront wijzigen. Voor informatie over het creëren van en het leiden van statussen in Workfront, zie [&#x200B; een status &#x200B;](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md) creëren of uitgeven.
 
 <table style="table-layout:auto"> 
  <col> 

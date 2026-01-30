@@ -62,7 +62,7 @@ Als u besluit dat een project ergens in de toekomst opnieuw zal voorkomen, kunt 
  </tbody> 
 </table>
 
-Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -159,7 +159,7 @@ Saving a project as a template differs in the Production and the Preview environ
 -->
 
 1. Ga naar het project dat u als malplaatje wilt bewaren.
-1. Klik **Meer** menu ![ Meer pictogram ](assets/qs-more-icon-on-an-object.png) rechts van de projectnaam in de kopbal, dan **sparen als Malplaatje**.
+1. Klik **Meer** menu ![&#x200B; Meer pictogram &#x200B;](assets/qs-more-icon-on-an-object.png) rechts van de projectnaam in de kopbal, dan **sparen als Malplaatje**.
 1. In **sparen als Malplaatje** sectie, specificeer de volgende informatie voor het malplaatje:
 
    <table style="table-layout:auto"> 
@@ -194,17 +194,17 @@ Saving a project as a template differs in the Production and the Preview environ
    Als u de volgorde van de formulieren wilt wijzigen, sleept u de formulieren en zet u ze neer in de juiste volgorde.
 Om een vorm te verwijderen, selecteer het, dan klik **verwijdert**. Klik **annuleren** om de geselecteerde vormen te verwijderen.
 
-   ![ gebied van de Vorm van de Douane in sparen als malplaatjevakje ](assets/custom-forms-ara-in-save-as-template-box.png)
+   ![&#x200B; gebied van de Vorm van de Douane in sparen als malplaatjevakje &#x200B;](assets/custom-forms-ara-in-save-as-template-box.png)
 
 1. Werk indien nodig gegevens bij in de bijgevoegde aangepaste formulieren. De informatie wordt naar de sjabloon overgedragen.
 
 1. Klik **Opties** in het linkerpaneel, dan selecteren checkbox naast om het even welke informatie u naar het malplaatje wilt overbrengen. Niet-geselecteerde items worden niet naar de sjabloon overgebracht. Alle opties zijn standaard uitgeschakeld.
 
-   ![ gebied van Opties in sparen als malplaatjedoos ](assets/options-area-in-save-as-template-box.png)
+   ![&#x200B; gebied van Opties in sparen als malplaatjedoos &#x200B;](assets/options-area-in-save-as-template-box.png)
 
 1. Klik **uitsluiten** in het linkerpaneel, dan om het even welke taken selecteren die u van het project wilt uitsluiten. Standaard zijn alle taken uitgeschakeld.
 
-   ![ sluit gebied in sparen als malplaatjedoos ](assets/exclude-area-save-as-template-box.png) uit
+   ![&#x200B; sluit gebied in sparen als malplaatjedoos &#x200B;](assets/exclude-area-save-as-template-box.png) uit
 
 1. Klik **Einde en sparen Malplaatje** in de hoger-juiste hoek van het scherm.
 

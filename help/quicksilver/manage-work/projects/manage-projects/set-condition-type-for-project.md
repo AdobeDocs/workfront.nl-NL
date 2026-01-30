@@ -50,7 +50,7 @@ Als projectmanager, kunt u bepalen hoe de Voorwaarde van een project door het Ty
  </tbody> 
 </table>
 
-Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -88,10 +88,10 @@ Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront
 1. Ga naar het project waarvoor u het Type van Voorwaarde wilt bijwerken.
 1. Voer een van de volgende handelingen uit:
 
-   * Klik het **Meer** menu ![ Meer menu ](assets/qs-more-menu.png) aan het recht van de projectnaam, dan klik **uitgeven**.
+   * Klik het **Meer** menu ![&#x200B; Meer menu &#x200B;](assets/qs-more-menu.png) aan het recht van de projectnaam, dan klik **uitgeven**.
    * Klik **Details van het Project** in het linkerpaneel.
 
-   ![ het voorwaardetype van de Update ](assets/update-condition-type-nwe-350x108.png)
+   ![&#x200B; het voorwaardetype van de Update &#x200B;](assets/update-condition-type-nwe-350x108.png)
 
 1. Op het **gebied van het Type van Voorwaarde**, kies één van het volgende:
 
@@ -99,7 +99,7 @@ Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront
 
      In dit geval, kan de projecteigenaar de Voorwaarde van het project in de projectkopbal, of de sectie van de Details van het Project bijwerken.
 
-   * **Status van de Voortgang:** Workfront plaatst de Voorwaarde die op de Voortgangsstatus van het project wordt gebaseerd. Voor informatie over hoe de Status van de Voortgang wordt berekend, zie [ Overzicht van de Status van de Voortgang van het Project ](../../../manage-work/projects/planning-a-project/project-progress-status.md).
+   * **Status van de Voortgang:** Workfront plaatst de Voorwaarde die op de Voortgangsstatus van het project wordt gebaseerd. Voor informatie over hoe de Status van de Voortgang wordt berekend, zie [&#x200B; Overzicht van de Status van de Voortgang van het Project &#x200B;](../../../manage-work/projects/planning-a-project/project-progress-status.md).
 
 1. Klik **sparen** wanneer u het Type van Voorwaarde in de Edit doos van het Project wijzigt.
 

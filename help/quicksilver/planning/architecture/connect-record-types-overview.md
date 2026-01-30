@@ -20,13 +20,13 @@ ht-degree: 0%
 
 <span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>
 
-<span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken.</span>
+<span class="preview"> voor informatie over snelle versies, zie [&#x200B; snelle versies voor uw organisatie &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken.</span>
 
 U kunt aangeven dat afzonderlijke recordtypen op elkaar betrekking hebben of op objecten van andere toepassingen door deze met elkaar te verbinden.
 
 Dit artikel is een overzicht van recordtypeverbindingen en beschrijft de types van verbindingen u tussen verslag en objecten types kunt vestigen.
 
-Voor informatie over u verbindt verslagtypes, zie [ verbind verslagtypes ](/help/quicksilver/planning/architecture/connect-record-types.md).
+Voor informatie over u verbindt verslagtypes, zie [&#x200B; verbind verslagtypes &#x200B;](/help/quicksilver/planning/architecture/connect-record-types.md).
 
 ## Overwegingen bij het verbinden van recordtypen
 
@@ -48,14 +48,14 @@ Voor informatie over u verbindt verslagtypes, zie [ verbind verslagtypes ](/help
 
       * Twee recordtypen
 
-        Standaard kunt u twee recordtypen verbinden vanuit dezelfde werkruimte. U kunt ook recordtypen instellen om verbinding te maken met recordtypen van andere werkruimten als uw organisatie een hoger Workfront- of planningspakket heeft aangeschaft. Voor meer informatie, zie [ recordtypes ](/help/quicksilver/planning/architecture/edit-record-types.md) uitgeven.
+        Standaard kunt u twee recordtypen verbinden vanuit dezelfde werkruimte. U kunt ook recordtypen instellen om verbinding te maken met recordtypen van andere werkruimten als uw organisatie een hoger Workfront- of planningspakket heeft aangeschaft. Voor meer informatie, zie [&#x200B; recordtypes &#x200B;](/help/quicksilver/planning/architecture/edit-record-types.md) uitgeven.
       * Een recordtype en een objecttype uit een andere toepassing.
 
-     Voor informatie over hoe u verslag en objecten types kunt verbinden, zie [ verbind verslagtypes ](/help/quicksilver/planning/architecture/connect-record-types.md).
+     Voor informatie over hoe u verslag en objecten types kunt verbinden, zie [&#x200B; verbind verslagtypes &#x200B;](/help/quicksilver/planning/architecture/connect-record-types.md).
 
      Nadat u handmatig recordtypen hebt verbonden met andere record- of objecttypen, kunt u afzonderlijke records en objecten verbinden.
 
-     Voor informatie, zie [ verbindt verslagen ](/help/quicksilver/planning/records/connect-records.md).
+     Voor informatie, zie [&#x200B; verbindt verslagen &#x200B;](/help/quicksilver/planning/records/connect-records.md).
 
    * In de volgende gevallen wordt automatisch een verbinding tussen entiteiten tot stand gebracht:
 
@@ -63,13 +63,13 @@ Voor informatie over u verbindt verslagtypes, zie [ verbind verslagtypes ](/help
 
         De verbinding tussen de recordtypen of het recordtype en het objecttype van een andere toepassing wordt automatisch gemaakt wanneer de automatisering de verbonden record of het verbonden object maakt.
 
-        Voor informatie, zie [ de automatisering van de Planning van Adobe Workfront ](/help/quicksilver/planning/records/configure-automations-to-create-records.md) vormen.
+        Voor informatie, zie [&#x200B; de automatisering van de Planning van Adobe Workfront &#x200B;](/help/quicksilver/planning/records/configure-automations-to-create-records.md) vormen.
 
       * Wanneer u aanvraagformulieren configureert voor een recordtype om een record of een object te maken.
 
         De verbinding tussen het verslagtype en het type van verzoekvoorwerp wordt automatisch gecreeerd wanneer u verzendt en een verzoek goedkeurt van de Planning dat tot een verslag leidt.
 
-        Voor informatie, zie [ de Verzoeken van de Planning van Adobe Workfront voorleggen om verslagen ](/help/quicksilver/planning/requests/submit-requests.md) tot stand te brengen.
+        Voor informatie, zie [&#x200B; de Verzoeken van de Planning van Adobe Workfront voorleggen om verslagen &#x200B;](/help/quicksilver/planning/requests/submit-requests.md) tot stand te brengen.
 
         U kunt het originele verzoek op het **Onderwerp** gebied op het gebied van Verzoeken van Workfront bekijken, <span class="preview"> of op het Originele gebied van de verzoekverbinding in de Planning van Workfront.</span>
 
@@ -108,7 +108,7 @@ Voor informatie over u verbindt verslagtypes, zie [ verbind verslagtypes ](/help
         >* Een Adobe Experience Manager Assets-licentie
         >* Een Adobe GenStudio for Performance Marketing-licentie
         >* Het geval van Workfront van uw organisatie moet aan het Bedrijfsplatform van Adobe of Adobe Admin Console worden betreden om de verslagen van de Planning van Workfront met Adobe Experience Manager Assets te verbinden.
-        >Voor informatie over Adobe Admin Console, zie [ Adobe Verenigde Veelgestelde vragen van de Ervaring ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md).
+        >Voor informatie over Adobe Admin Console, zie [&#x200B; Adobe Verenigde Veelgestelde vragen van de Ervaring &#x200B;](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md).
 
 * Wanneer twee recordtypen of een recordtype en een objecttype van een andere toepassing worden verbonden, bestaan de volgende scenario&#39;s:
 
@@ -121,15 +121,15 @@ Voor informatie over u verbindt verslagtypes, zie [ verbind verslagtypes ](/help
       * Wanneer u het veld Overeenkomende gegevens maken inschakelt voor de instelling van gekoppelde recordtypen en u het recordtype ‘Campagne’ koppelt aan het recordtype ‘Product’, wordt een gekoppeld recordveld (verbindingsveld) met de naam ‘Gekoppeld product’ gemaakt voor het recordtype ‘Campagne’. Er wordt automatisch een gekoppeld recordtype met de naam &quot;Campagne&quot; gemaakt in het recordtype product.
       * Wanneer u het Create corresponderende gebied op verbonden verslagtype het plaatsen onbruikbaar maakt en u het &quot;Campagne&quot;verslagtype met het &quot;product&quot;verslagtype verbindt, wordt een verbonden verslaggebied (verbindingsgebied) dat u &quot;Gekoppeld Product&quot;noemt gecreeerd op het verslagtype van de Campagne. Een gekoppeld recordtype dat automatisch &#39;Campagne&#39; wordt genoemd, wordt niet gemaakt in het recordtype Product.
 
-     Voor meer informatie, zie [ Connect verslagtypes ](/help/quicksilver/planning/architecture/connect-record-types.md).
+     Voor meer informatie, zie [&#x200B; Connect verslagtypes &#x200B;](/help/quicksilver/planning/architecture/connect-record-types.md).
 
    * **wanneer u een verslagtype met een objecten type van een andere toepassing** verbindt:
 
       * Er wordt een gekoppeld recordveld gemaakt op het recordtype waarmee u verbinding maakt. Er wordt automatisch geen gekoppeld recordveld gemaakt op het objecttype van de andere toepassing.
       * Planningsrecordvelden zijn niet toegankelijk vanuit Workfront-objecten.
-      * De verslagen van de planning zijn zichtbaar van de sectie van de Planning van het voorwerp van Workfront. Voor informatie, zie [ recordverbindingen van de voorwerpen van Workfront beheren ](/help/quicksilver/planning/records/manage-records-in-planning-section.md).
-      * U kunt een aangepast veld voor de planningsverbinding maken en dit koppelen aan het aangepaste formulier van een Workfront-object. Voor informatie, zie [ een douaneformulier ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren.
-      * De gebieden van het verslag van de planning zijn toegankelijk van de activa van Experience Manager wanneer uw beheerder van Workfront de meta-gegevensafbeelding door de integratie tussen Workfront en Adobe Experience Manager Assets vormt. Voor meer informatie, zie [ activa meta-gegevensafbeelding tussen Adobe Workfront en Experience Manager Assets ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping) vormen.
+      * De verslagen van de planning zijn zichtbaar van de sectie van de Planning van het voorwerp van Workfront. Voor informatie, zie [&#x200B; recordverbindingen van de voorwerpen van Workfront beheren &#x200B;](/help/quicksilver/planning/records/manage-records-in-planning-section.md).
+      * U kunt een aangepast veld voor de planningsverbinding maken en dit koppelen aan het aangepaste formulier van een Workfront-object. Voor informatie, zie [&#x200B; een douaneformulier &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren.
+      * De gebieden van het verslag van de planning zijn toegankelijk van de activa van Experience Manager wanneer uw beheerder van Workfront de meta-gegevensafbeelding door de integratie tussen Workfront en Adobe Experience Manager Assets vormt. Voor meer informatie, zie [&#x200B; activa meta-gegevensafbeelding tussen Adobe Workfront en Experience Manager Assets &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping) vormen.
       * De gebieden van het verslag van de planning zijn niet toegankelijk van de Banden in GenStudio for Performance Marketing.
 
    * **wanneer u raadplegingsgebieden van het verslag of het voorwerp toevoegt u met** verbindt: Naast het creëren van een verbonden verslaggebied, kunt u met gebieden van het verbonden verslag of objecttype ook verbinden dat raadplegingsgebieden wordt genoemd. Een gekoppeld veld (of opzoekveld) met informatie uit de record waarmee u verbinding maakt, wordt weergegeven in de record waaruit u verbinding maakt.
@@ -146,7 +146,7 @@ Voor informatie over u verbindt verslagtypes, zie [ verbind verslagtypes ](/help
      >
      >Iedereen met de toestemmingen van de Mening of hoger aan de werkruimte kan de informatie in de raadplegingsgebieden, ongeacht hun toestemmingen of toegangsniveau in de toepassing van de verbonden objecten types of hun toestemmingen in andere werkruimten bekijken.
 
-     De verbonden verslaggebieden worden voorafgegaan door het het gebiedspictogram van de verhouding ![ ](assets/relationship-field-icon.png).
+     De verbonden verslaggebieden worden voorafgegaan door het het gebiedspictogram van de verhouding ![&#x200B; &#x200B;](assets/relationship-field-icon.png).
 
      Gekoppelde velden worden voorafgegaan door een pictogram dat het veldtype aangeeft. Gekoppelde velden (of opzoekvelden) worden bijvoorbeeld voorafgegaan door pictogrammen die aangeven dat een veld een getal, alinea of datum is.
 
@@ -156,7 +156,7 @@ Voor informatie over u verbindt verslagtypes, zie [ verbind verslagtypes ](/help
      >
      >Bijvoorbeeld, als de Geplande Datum van het Begin van een project als 3 :00 PM in Workfront toont, zal het als 15 :00 in de Planning van Workfront op een ingevoerd raadplegingsgebied tonen.
 
-   * U moet recordtypen verbinden om hiërarchieën te kunnen maken in Workfront Planning. Wanneer recordtypeverbindingen niet bestaan, worden zij automatisch gecreeerd wanneer u een hiërarchie creeert. Voor informatie, zie [ de hiërarchieën van de werkruimte ](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md) creëren.
+   * U moet recordtypen verbinden om hiërarchieën te kunnen maken in Workfront Planning. Wanneer recordtypeverbindingen niet bestaan, worden zij automatisch gecreeerd wanneer u een hiërarchie creeert. Voor informatie, zie [&#x200B; de hiërarchieën van de werkruimte &#x200B;](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md) creëren.
 
 
 ## Verbindingstypen
@@ -187,11 +187,11 @@ Hieronder ziet u de verbindingstypen waaruit u kunt kiezen wanneer u recordtypen
    * [Veel tot veel](#many-to-many-connection-type)
    * [Eén naar vele](#one-to-many-connection-type)
    * [Vele tot één](#many-to-one-connection-type)
-   * [ Één aan één ](#many-to-one-connection-type)
+   * [&#x200B; Één aan één &#x200B;](#many-to-one-connection-type)
 
 ### Multi-select verbindingstype
 
-![ multi-uitgezochte verbindingstype ](assets/multi-select-connection-picker.png)
+![&#x200B; multi-uitgezochte verbindingstype &#x200B;](assets/multi-select-connection-picker.png)
 
 Wanneer u een multi-uitgezochte verbinding tussen verslagtypes creeert, kunt u veelvoudige verbonden verslagen op het verbindingsgebied van het originele verslagtype dan selecteren.
 
@@ -206,7 +206,7 @@ Nadat u dit verbindingstype hebt geselecteerd, kunt u het verbindingstype niet m
 
 ### Single-select verbindingstype
 
-![ Enige uitgezochte verbindingstype ](assets/single-select-connection-picker.png)
+![&#x200B; Enige uitgezochte verbindingstype &#x200B;](assets/single-select-connection-picker.png)
 
 Wanneer u een single-select verbinding tussen recordtypes creeert, kunt u één verslag in het verbindingsgebied van het originele verslagtype dan selecteren.
 
@@ -226,7 +226,7 @@ Nadat u dit verbindingstype hebt geselecteerd, kunt u het verbindingstype niet m
 
 ### Vele-aan-vele verbindingstype
 
-![ Velen aan vele verbindingsplukker ](assets/many-to-many-connection-picker.png)
+![&#x200B; Velen aan vele verbindingsplukker &#x200B;](assets/many-to-many-connection-picker.png)
 
 Wanneer u een veel-op-veel verbinding tussen recordtypes creeert, kunt u veelvoudige verslagen op het verbindingsgebied van beide verslagtypes dan selecteren.
 
@@ -238,7 +238,7 @@ Wanneer u dit verbindingstype selecteert, kunt u het verbindingstype niet wijzig
 
 ### Een-op-veel verbindingstype
 
-![ Één aan vele verbindingsplukker ](assets/one-to-many-connection-picker.png)
+![&#x200B; Één aan vele verbindingsplukker &#x200B;](assets/one-to-many-connection-picker.png)
 
 
 Wanneer u een een-op-veel verbinding maakt tussen recordtypen, kunt u vervolgens meerdere records in het verbindingsveld in het huidige recordtype selecteren, maar met het bijbehorende verbindingsveld in het recordtype waarmee u verbinding maakt, kunt u slechts één record selecteren. Het verbonden verslaggebied dat automatisch op het tweede verslagtype wordt gecreeerd wordt automatisch geplaatst aan een vele-aan-één relatietype.
@@ -251,7 +251,7 @@ Wanneer u dit verbindingstype selecteert, kunt u het later alleen wijzigen in ee
 
 ### Vele-aan-één verbindingstype
 
-![ Velen aan één verbindingsplukker ](assets/many-to-one-connection-picker.png)
+![&#x200B; Velen aan één verbindingsplukker &#x200B;](assets/many-to-one-connection-picker.png)
 
 
 Wanneer u een veel-op-één verbinding tussen recordtypes creeert, kunt u elke verslag in het huidige verslagtype met slechts één verslag van het verbonden verslagtype verbinden. Het verbonden verslaggebied dat automatisch op het tweede verslagtype wordt gecreeerd wordt automatisch geplaatst aan een één-aan-vele relatietype.
@@ -264,7 +264,7 @@ Wanneer u dit verbindingstype selecteert, kunt u het later alleen wijzigen in ee
 
 ### Een-op-een verbindingstype
 
-![ Één aan één verbindingsplukker ](assets/one-to-one-connection-picker.png)
+![&#x200B; Één aan één verbindingsplukker &#x200B;](assets/one-to-one-connection-picker.png)
 
 Wanneer u een één-op-één verbinding tussen verslagtypes creeert, in beide verslagtypes kunt u elke verslag slechts met één verslag van het andere verslagtype verbinden.
 

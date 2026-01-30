@@ -46,7 +46,7 @@ Projecten, taken en problemen hebben een werkelijke begindatum in Adobe Workfron
  </tbody> 
 </table>
 
-Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -107,7 +107,7 @@ U kunt de werkelijke begindatum van een project vinden in de volgende gebieden:
 * In de sectie Details van een Project.
 * In een projectrapport of een mening, wanneer u de **Ware Datum van het Begin** voor het voorwerp van het Project in het rapport toevoegt.
 
-  Voor informatie over het creëren van rapporten, zie het artikel [ een douanerapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) creëren.
+  Voor informatie over het creëren van rapporten, zie het artikel [&#x200B; een douanerapport &#x200B;](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) creëren.
 
 U kunt als volgt de werkelijke begindatum vinden in de sectie Details van het project:
 
@@ -116,7 +116,7 @@ U kunt als volgt de werkelijke begindatum vinden in de sectie Details van het pr
 1. Klik op het project waarvoor u de werkelijke begindatum wilt weergeven.
 1. Klik **Details van het Project** in het linkerpaneel, dan ga naar de **sectie van het Overzicht**.
 
-   ![ benadrukt de daadwerkelijke van het Project begindatum ](assets/nwe-project-actual-start-date--highlighted-350x367.png)
+   ![&#x200B; benadrukt de daadwerkelijke van het Project begindatum &#x200B;](assets/nwe-project-actual-start-date--highlighted-350x367.png)
 
    De **Ware Datum van het Begin** vertoningen langs andere projectdata.
 
