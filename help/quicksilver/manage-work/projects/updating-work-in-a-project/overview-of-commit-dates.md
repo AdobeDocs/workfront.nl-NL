@@ -7,9 +7,9 @@ description: De datum van het Vastleggen is de datum een gebruiker aan taak of e
 author: Alina
 feature: Work Management
 exl-id: 47072433-bb8e-4210-947a-8bfa41ec47a9
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
 workflow-type: tm+mt
-source-wordcount: '869'
+source-wordcount: '876'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 De datum van het Vastleggen is de datum een gebruiker aan taak of een kwestie toezegt om de taak of de kwestie te voltooien. Dit verschilt van de geplande afsluitende datum van een taak of kwestie aangezien het een realistischere schatting van de afwerkingsdatum is die slechts door de gebruiker wordt gegeven die het werk leidt.
 
-Voor informatie over de Geplande Datum van de Voltooiing, zie [&#x200B; Overzicht van de taak Geplande Datum van de Voltooiing &#x200B;](../../../manage-work/tasks/task-information/task-planned-completion-date.md).
+Voor informatie over de Geplande Datum van de Voltooiing, zie [ Overzicht van de taak Geplande Datum van de Voltooiing ](../../../manage-work/tasks/task-information/task-planned-completion-date.md).
 
 ## Overzicht van datum vastleggen
 
@@ -36,8 +36,8 @@ Houd rekening met het volgende wanneer u werkt met datums toewijzen:
 * Datums vastleggen worden niet automatisch ingesteld door Adobe Workfront. Wanneer u een taak of een kwestie creeert, is er geen datum die aan het wordt toegewezen.
 * Als u aan een taak of een kwestie wordt toegewezen, kunt u de Vastlegdatum plaatsen door één van het volgende te doen:
 
-   * Laat Workfront de Vastlegdatum plaatsen om de bestaande Geplande Datum van Voltooiing van de taak of de kwestie te passen door het Werk aan het, Uitgave van het Begin, of Taak van het Begin op de taak of de kwestie te klikken. Voor informatie, zie [&#x200B; het Werk op het knoop met een knoop van het Begin vervangen &#x200B;](../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md).
-   * Stel handmatig de datum voor vastleggen in op basis van het tijdstip waarop de taak of het probleem wordt voltooid. Dit is uw schatting en uw verplichting, als toegewezen, aan de Projectleider dat u de taak of de kwestie tegen een bepaalde datum zult hebben voltooid. Voor informatie, zie [&#x200B; Update Commit Dates op taken en kwesties &#x200B;](/help/quicksilver/manage-work/projects/updating-work-in-a-project/update-commit-date-on-tasks-and-issues.md).
+   * Laat Workfront de Vastlegdatum plaatsen om de bestaande Geplande Datum van Voltooiing van de taak of de kwestie te passen door het Werk aan het, Uitgave van het Begin, of Taak van het Begin op de taak of de kwestie te klikken. Voor informatie, zie [ het Werk op het knoop met een knoop van het Begin vervangen ](../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md).
+   * Stel handmatig de datum voor vastleggen in op basis van het tijdstip waarop de taak of het probleem wordt voltooid. Dit is uw schatting en uw verplichting, als toegewezen, aan de Projectleider dat u de taak of de kwestie tegen een bepaalde datum zult hebben voltooid. Voor informatie, zie [ Update Commit Dates op taken en kwesties ](/help/quicksilver/manage-work/projects/updating-work-in-a-project/update-commit-date-on-tasks-and-issues.md).
 
 >[!NOTE]
 >
@@ -50,15 +50,15 @@ Houd rekening met het volgende wanneer u werkt met datums toewijzen:
 >* Elke andere aangewezen persoon
 >* Een andere gebruiker met machtigingen voor de taak
 >
->Voor meer informatie over de Eigenaar van de Taak, zie [&#x200B; taken &#x200B;](../../../manage-work/tasks/manage-tasks/edit-tasks.md) uitgeven.
+>Voor meer informatie over de Eigenaar van de Taak, zie [ taken ](../../../manage-work/tasks/manage-tasks/edit-tasks.md) uitgeven.
 
 ## De datum van vastleggen van taken en problemen zoeken
 
 U kunt de Vastlegdatum van taken en kwesties op de volgende gebieden van Workfront vinden:
 
 * De pagina Details
-* Het deelvenster Samenvatting nadat een Workfront- of groepsbeheerder het heeft toegevoegd aan uw lay-outsjabloon. Voor informatie, zie [&#x200B; het Summiere paneel aanpassen gebruikend een lay-outmalplaatje &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
-* De kopbal van een taak of kwestie nadat een Workfront of groepsbeheerder het aan uw lay-outmalplaatje toevoegt. Voor informatie, zie [&#x200B; objecten kopballen aanpassen gebruikend een lay-outmalplaatje &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
+* Het deelvenster Samenvatting nadat een Workfront- of groepsbeheerder het heeft toegevoegd aan uw lay-outsjabloon. Voor informatie, zie [ het Summiere paneel aanpassen gebruikend een lay-outmalplaatje ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
+* De kopbal van een taak of kwestie nadat een Workfront of groepsbeheerder het aan uw lay-outmalplaatje toevoegt. Voor informatie, zie [ objecten kopballen aanpassen gebruikend een lay-outmalplaatje ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
 
 ## Meldingen en updates die worden geactiveerd door het wijzigen van de Vastlegdatum {#notifications-and-updates-triggered-by-changing-the-commit-date}
 
@@ -72,9 +72,9 @@ Als u de datum vastleggen voor een taak of uitgave handmatig instelt, worden de 
 
 * De verandering van de Datum van het Vastleggen bevolkt in de Activiteit van het Systeem en de Alle lusjes van de sectie van de Update van de taak of de kwestie.
 
-  ![&#x200B; verbind het bericht van de datumverandering &#x200B;](assets/project-owner-notification-update-stream-that-commit-date-affects-project-timeline.png)
+  ![ verbind het bericht van de datumverandering ](assets/project-owner-notification-update-stream-that-commit-date-affects-project-timeline.png)
 
-  De verandering van de Datum van het Vastleggen toont in het gebied van Updates van de taak of de kwestie wanneer de beheerder van Workfront deze update in het gebied van de Eigendommen van Updates in Opstelling toelaat. Voor informatie, zie [&#x200B; systeem-geleide updates &#x200B;](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md).
+  De verandering van de Datum van het Vastleggen toont in het gebied van Updates van de taak of de kwestie wanneer de beheerder van Workfront deze update in het gebied van de Eigendommen van Updates in Opstelling toelaat. Voor informatie, zie [ systeem-geleide updates ](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md).
 
   Als een projecteigenaar de wijziging niet wil accepteren, raden we hem aan om een opmerking terug te sturen naar de gebruiker die een nieuwe datum voorstelt via het tabblad Opmerkingen in de sectie Updates. Vraag hem of haar om de datum vastleggen te wijzigen in de oorspronkelijk geplande datum of een nieuwe datum te selecteren.
 
@@ -88,9 +88,9 @@ Als u de datum vastleggen voor een taak of uitgave handmatig instelt, worden de 
   >
   >Raadpleeg de volgende artikelen voor meer informatie:
   >
-  >* [&#x200B; Overzicht van de Samenvatting &#x200B;](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
-  >* [&#x200B; pas het Summiere paneel aan gebruikend een lay-outmalplaatje &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
-  >* [&#x200B; pas objecten kopballen aan gebruikend een lay-outmalplaatje &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md)
+  >* [ Overzicht van de Samenvatting ](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
+  >* [ pas het Summiere paneel aan gebruikend een lay-outmalplaatje ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
+  >* [ pas objecten kopballen aan gebruikend een lay-outmalplaatje ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md)
 
 <!--this is no longer possible: 
 >[!NOTE]
@@ -98,20 +98,20 @@ Als u de datum vastleggen voor een taak of uitgave handmatig instelt, worden de 
 >If you want to see how the timeline of the project is affected by accepting to change the Planned Completion Date of the task, click **Project Timeline**. This opens the task list where you can evaluate the date changes and the project timeline.
 >
 >
->![](assets/project-owner-notification-update-stream-that-commit-date-affects-project-timeline-highlighted-nwe-350x139.png)  >
+>![Project owner notification update stream about commit date change](assets/project-owner-notification-update-stream-that-commit-date-affects-project-timeline-highlighted-nwe-350x139.png)  >
 >
 -->
 
 
 * De verwachte Voltooiingsdatum van de taak of de kwestie wordt geplaatst aan de zelfde datum omdat de taak nu een nauwkeurigere aanwijzing heeft van wanneer het waarschijnlijk zal worden voltooid.
 
-  Voor meer informatie, zie [&#x200B; Overzicht van de Verwachte Datum van de Voltooiing voor projecten, taken, en kwesties &#x200B;](../../../manage-work/projects/planning-a-project/project-projected-completion-date.md).
+  Voor meer informatie, zie [ Overzicht van de Verwachte Datum van de Voltooiing voor projecten, taken, en kwesties ](../../../manage-work/projects/planning-a-project/project-projected-completion-date.md).
 
-  ![](assets/task-projected-completion-date-in-details-highlighted-nwe-350x230.png)
+  ![ Taak geprojecteerde voltooiingsdatum in benadrukte details ](assets/task-projected-completion-date-in-details-highlighted-nwe-350x230.png)
 
 * De eigenaar van het project wordt in het gebied Meldingen op de hoogte gesteld van het feit dat een taak of uitgifte Vastlegdatum is gewijzigd.
 
-  ![&#x200B; verbind het bericht van de datumverandering &#x200B;](assets/in-product-notification-commit-date-changed-nwe-350x149.png)
+  ![ verbind het bericht van de datumverandering ](assets/in-product-notification-commit-date-changed-nwe-350x149.png)
 
   <!--
   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: the tip below is actually wrong and the updates feeds should not control this setting, but at this time it does, according to this issue in Hub: https://hub.workfront.com/issue/61e1aa5e0002a186fdd0a73a10db0fc3/updates?email-source=comm</p>
@@ -119,11 +119,11 @@ Als u de datum vastleggen voor een taak of uitgave handmatig instelt, worden de 
 
   >[!TIP]
   >
-  >Het bericht dat de Datum van het Vastleggen is veranderd wordt verzonden naar de Eigenaar van het Project slechts wanneer de beheerder van Workfront het tonen van de Datum van het Vastleggen in het gebied van de Eigendommen van Updates in Opstelling toelaat. Voor informatie, zie [&#x200B; systeem-geleide updates &#x200B;](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md).
+  >Het bericht dat de Datum van het Vastleggen is veranderd wordt verzonden naar de Eigenaar van het Project slechts wanneer de beheerder van Workfront het tonen van de Datum van het Vastleggen in het gebied van de Eigendommen van Updates in Opstelling toelaat. Voor informatie, zie [ systeem-geleide updates ](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md).
 
-Voor informatie over de extra functionaliteit die wanneer het bijwerken van een het werkpunt beschikbaar is, zie [&#x200B; het werk van de Update &#x200B;](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+Voor informatie over de extra functionaliteit die wanneer het bijwerken van een het werkpunt beschikbaar is, zie [ het werk van de Update ](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-Voor informatie over het bijwerken verbind Datums voor taken en kwesties, zie [&#x200B; Update Commit Data op taken en kwesties &#x200B;](../../../manage-work/projects/updating-work-in-a-project/update-commit-date-on-tasks-and-issues.md).
+Voor informatie over het bijwerken verbind Datums voor taken en kwesties, zie [ Update Commit Data op taken en kwesties ](../../../manage-work/projects/updating-work-in-a-project/update-commit-date-on-tasks-and-issues.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

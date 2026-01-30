@@ -7,9 +7,9 @@ description: De gebruikers die met een project in één of andere capaciteit wor
 author: Alina
 feature: Work Management
 exl-id: ceb25fb1-57fc-476c-b92c-fc41aadc0b5b
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
 workflow-type: tm+mt
-source-wordcount: '476'
+source-wordcount: '479'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Gebruikers die deel uitmaken van het toekomstige projectteam op een malplaatjeve
 
 ## Projectteamleden
 
-U kunt gebruikers aan een projectteam of manueel of automatisch toewijzen. Voor meer informatie, zie de sectie gebruikers aan een Team van het Project in het artikel [&#x200B; toevoegen leidt het Team van het Project &#x200B;](../../../manage-work/projects/planning-a-project/manage-project-team.md).
+U kunt gebruikers aan een projectteam of manueel of automatisch toewijzen. Voor meer informatie, zie de sectie gebruikers aan een Team van het Project in het artikel [ toevoegen leidt het Team van het Project ](../../../manage-work/projects/planning-a-project/manage-project-team.md).
 
 Wanneer u gebruikers aan het Team van het Project manueel toevoegt, ontvangen zij de toestemmingen van de Mening aan het project evenals de taken, de kwesties, en de documenten van het project.
 
@@ -53,10 +53,10 @@ Om op rol-gebaseerde goedkeuringen op een project te gebruiken, moeten de gebrui
 
 Zie de volgende artikelen voor informatie over hoe te om een gebruiker aan het projectteam toe te voegen en hoe te om hen een baanrol toe te wijzen:
 
-* [&#x200B; beheer het Team van het Project &#x200B;](../../../manage-work/projects/planning-a-project/manage-project-team.md)
+* [ beheer het Team van het Project ](../../../manage-work/projects/planning-a-project/manage-project-team.md)
 * [Gebruikersprofiel bewerken](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)
 
-Als u niet de gebruiker wilt vereisen om op het projectteam voor op rol-gebaseerde goedkeuringen te zijn, kunt u dit in goedkeuringsmontages controleren. Voor meer informatie, zie [&#x200B; globale goedkeuringsmontages &#x200B;](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md) vormen.
+Als u niet de gebruiker wilt vereisen om op het projectteam voor op rol-gebaseerde goedkeuringen te zijn, kunt u dit in goedkeuringsmontages controleren. Voor meer informatie, zie [ globale goedkeuringsmontages ](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md) vormen.
 
 ## Projecten die ik heb ingeschakeld, filter
 
@@ -64,7 +64,7 @@ Als een gebruiker in het gebied van Mensen van een project vermeld is, verschijn
 
 U kunt zien of de Projecten I zijn op filter in de het gebiedsheader van Projecten wordt geselecteerd. U kunt het toepassen vanuit het deelvenster Filters of vanuit de koptekst.
 
-![](assets/nwe-project-list-buttons-350x187.png)
+![ de filterknopen van het Project ](assets/nwe-project-list-buttons-350x187.png)
 
 >[!NOTE]
 >

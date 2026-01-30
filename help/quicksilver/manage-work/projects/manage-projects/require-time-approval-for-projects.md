@@ -6,9 +6,9 @@ description: U kunt het project vormen om te vereisen dat de uren tegen het proj
 author: Alina
 feature: Work Management
 exl-id: e4a27640-9f5c-4a9f-82cc-3384694594af
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
 workflow-type: tm+mt
-source-wordcount: '785'
+source-wordcount: '790'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 <!--audited: 08/2024-->
 
 U kunt het project vormen om te vereisen dat de uren tegen het project worden geregistreerd door de Eigenaar van het Project worden goedgekeurd. Als deze configuratie zo is, moeten de uren eerst worden goedgekeurd door de eigenaar van het project voordat ze in aanmerking komen voor gebruik op een factureringsrecord.\
-Voor meer informatie over het factureren verslagen, zie het artikel [&#x200B; het factureren verslagen &#x200B;](../../../manage-work/projects/project-finances/create-billing-records.md) creëren.
+Voor meer informatie over het factureren verslagen, zie het artikel [ het factureren verslagen ](../../../manage-work/projects/project-finances/create-billing-records.md) creëren.
 
 >[!NOTE]
 >
@@ -73,7 +73,7 @@ Voor meer informatie over het factureren verslagen, zie het artikel [&#x200B; he
  </tbody> 
 </table>
 
-Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -129,7 +129,7 @@ Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van W
 U kunt als volgt de goedkeuring van een projectmanager urenlang voor het project vereisen:
 
 1. Ga naar het project waar u goedkeuring urenlang wilt vereisen.
-1. Klik het **Meer** pictogram ![&#x200B; Meer pictogram &#x200B;](assets/more-icon.png) aan het recht van de projectnaam, dan klik **uitgeven**.\
+1. Klik het **Meer** pictogram ![ Meer pictogram ](assets/more-icon.png) aan het recht van de projectnaam, dan klik **uitgeven**.\
    Het dialoogvenster Project bewerken wordt weergegeven.
 
 1. In de **sectie van de Montages van het Project**, uitgezochte **vereist tijd om voor dit project** worden goedgekeurd.
@@ -142,7 +142,7 @@ Als projectmanager, kunt u uren goedkeuren of verwerpen die voor taken, kwesties
 
 Het goedkeuren van de uren op het projectniveau heeft geen invloed op timesheet van om het even welke gebruikers die de uren registreerden. Bijvoorbeeld, kunnen de uren in het project door de projectmanager worden goedgekeurd, maar timesheet is nog te worden goedgekeurd door de manager van de gebruiker of timesheet fiatteur.
 
-Als u opstelling een project om goedkeuring op de geregistreerde uren te vereisen, moet de projectmanager de uren goedkeuren opdat zij beschikbaar zijn om in een factureringsverslag voor het project te worden omvat. Voor meer informatie over het creëren van het factureren verslagen, zie het artikel [&#x200B; het factureren verslagen &#x200B;](../../../manage-work/projects/project-finances/create-billing-records.md) creëren.
+Als u opstelling een project om goedkeuring op de geregistreerde uren te vereisen, moet de projectmanager de uren goedkeuren opdat zij beschikbaar zijn om in een factureringsverslag voor het project te worden omvat. Voor meer informatie over het creëren van het factureren verslagen, zie het artikel [ het factureren verslagen ](../../../manage-work/projects/project-finances/create-billing-records.md) creëren.
 
 Uren voor een project goedkeuren of afwijzen:
 
@@ -152,12 +152,12 @@ Uren voor een project goedkeuren of afwijzen:
 1. De uren die voor kwesties, taken, en de projectvertoning worden geregistreerd en zouden een status van **moeten hebben voorgelegd**.\
    Klik op het vakje links van de uurvermeldingen om de uren te selecteren die u wilt goedkeuren.
 
-1. Klik **goedkeuren** pictogram ![](assets/approve-hours-icon.png) bij de bovenkant van de uurlijst.\
+1. Klik **goedkeuren** pictogram ![ pictogram ](assets/approve-hours-icon.png) bij de bovenkant van de uurlijst goedkeuren.\
    Het statuut van de urenveranderingen in **Goedgekeurd**.\
    Als u later de goedgekeurde uren verwerpt, verandert het statuut van de uren in **niet Goedgekeurd**.\
-   Wanneer u de goedgekeurde uren in een het facturerings verslag omvat, verandert het statuut van de uren in **In rekening gebracht en goedgekeurd**. De uren die aan een factureringsverslag worden toegevoegd kunnen niet worden geschrapt. Voor meer informatie over het creëren van het factureren verslagen, zie het artikel [&#x200B; het factureren verslagen &#x200B;](../../../manage-work/projects/project-finances/create-billing-records.md) creëren
+   Wanneer u de goedgekeurde uren in een het facturerings verslag omvat, verandert het statuut van de uren in **In rekening gebracht en goedgekeurd**. De uren die aan een factureringsverslag worden toegevoegd kunnen niet worden geschrapt. Voor meer informatie over het creëren van het factureren verslagen, zie het artikel [ het factureren verslagen ](../../../manage-work/projects/project-finances/create-billing-records.md) creëren
 
-1. (Facultatief) klik **Afwijzen** pictogram ![](assets/reject-hours-icon.png) om de tijdingangen op het project te verwerpen.\
+1. (Facultatief) klik **pictogram van de Weigering** het urenpictogram van de Weigering ![ om de tijdingangen op het project te verwerpen.](assets/reject-hours-icon.png)\
    Het statuut van de urenveranderingen in **Afgewezen**.
 
    >[!NOTE]

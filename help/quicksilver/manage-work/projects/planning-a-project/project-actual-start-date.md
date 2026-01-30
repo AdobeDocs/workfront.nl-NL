@@ -7,9 +7,9 @@ description: Projecten, taken en problemen hebben een werkelijke begindatum in A
 author: Alina
 feature: Work Management
 exl-id: 4357b072-24f6-4f89-b624-f066f8af0722
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
 workflow-type: tm+mt
-source-wordcount: '525'
+source-wordcount: '530'
 ht-degree: 0%
 
 ---
@@ -46,7 +46,7 @@ Projecten, taken en problemen hebben een werkelijke begindatum in Adobe Workfron
  </tbody> 
 </table>
 
-Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -105,9 +105,9 @@ Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van W
 U kunt de werkelijke begindatum van een project vinden in de volgende gebieden:
 
 * In de sectie Details van een Project.
-* In een projectrapport of een mening, wanneer u de Ware Datum van het Begin voor het objectenProject in het rapport toevoegt.
+* In een projectrapport of een mening, wanneer u de **Ware Datum van het Begin** voor het voorwerp van het Project in het rapport toevoegt.
 
-  Voor informatie over het creëren van rapporten, zie het artikel [&#x200B; een douanerapport &#x200B;](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) creëren.
+  Voor informatie over het creëren van rapporten, zie het artikel [ een douanerapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) creëren.
 
 U kunt als volgt de werkelijke begindatum vinden in de sectie Details van het project:
 
@@ -116,8 +116,8 @@ U kunt als volgt de werkelijke begindatum vinden in de sectie Details van het pr
 1. Klik op het project waarvoor u de werkelijke begindatum wilt weergeven.
 1. Klik **Details van het Project** in het linkerpaneel, dan ga naar de **sectie van het Overzicht**.
 
-   De daadwerkelijke Datum van het Begin toont langs andere projectdata.
+   ![ benadrukt de daadwerkelijke van het Project begindatum ](assets/nwe-project-actual-start-date--highlighted-350x367.png)
 
-   ![](assets/nwe-project-actual-start-date--highlighted-350x367.png)
+   De **Ware Datum van het Begin** vertoningen langs andere projectdata.
 
 

@@ -6,9 +6,9 @@ description: Door een Type van Update voor een project te selecteren, kunt u con
 author: Alina
 feature: Work Management
 exl-id: ffdfffec-d217-4daa-9849-cb0c794992c0
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
 workflow-type: tm+mt
-source-wordcount: '652'
+source-wordcount: '664'
 ht-degree: 0%
 
 ---
@@ -53,7 +53,7 @@ De volgende wijzigingen in de taken van het project activeren bijvoorbeeld een u
  </tbody> 
 </table>
 
-Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -62,11 +62,11 @@ Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van W
 Wanneer de taken bijwerken, werken hun oudervoorwerpen (oudertaken of het project) op de tijd bij die door het Type van Update wordt vermeld.  Om een Type van Update voor uw project te specificeren:
 
 1. Ga naar het project waarvan Type van Update u wilt specificeren.
-1. Klik het Meer menu ![&#x200B; Meer pictogram &#x200B;](assets/more-icon.png) naast de naam van het project, dan klik **uitgeven**.
+1. Klik het Meer menu ![ Meer pictogram ](assets/more-icon.png) naast de naam van het project, dan klik **uitgeven**.
 
-1. Klik **&#x200B;**&#x200B;Montages van het Project **&#x200B;**.
+1. Klik **** Montages van het Project ****.
 
-   ![](assets/update-type-field-on-project-edit-box-nwe-350x378.png)
+   ![ het typegebied van de Update op project geeft doos uit ](assets/update-type-field-on-project-edit-box-nwe-350x378.png)
 
 1. Op het **gebied van het Type van Update**, selecteer of u Workfront de chronologie van het project wilt automatisch dagelijks berekenen, wanneer er een verandering is, of als u de projectmanager het manueel wilt berekenen.
 
@@ -81,7 +81,7 @@ Wanneer de taken bijwerken, werken hun oudervoorwerpen (oudertaken of het projec
 
      Wanneer u een taak of het project bijwerkt en een tijdlijnherberekening activeert, worden alle beschikbare datums onmiddellijk weergegeven, zodat u kunt doorgaan met werken. Voor projecten met meer dan 100 taken worden datums die langere berekeningen vereisen, grijs weergegeven.
 
-     ![](assets/dates-dimmed-when-insline-editing-350x146.png)
+     ![ Verduisterde Data wanneer het inlineuitgeven ](assets/dates-dimmed-when-insline-editing-350x146.png)
 
      Dit geeft aan dat de herberekening nog niet is voltooid en dat de datums kunnen worden gewijzigd.
 
@@ -95,7 +95,7 @@ Wanneer de taken bijwerken, werken hun oudervoorwerpen (oudertaken of het projec
      >
      >Een project herberekent niet automatisch elke nacht als het in de status van de Planning is. Het herberekent alleen op verandering.
 
-   * **Hand slechts:** de projectchronologie wordt bijgewerkt slechts wanneer u de optie om **Chronologie** opnieuw te berekenen, zoals die in de sectie &quot;Handmatige herberekening&quot;in de artikel [&#x200B; wordt beschreven projectchronologie &#x200B;](../../../manage-work/projects/manage-projects/recalculate-project-timeline.md) opnieuw berekent.\
+   * **Hand slechts:** de projectchronologie wordt bijgewerkt slechts wanneer u de optie om **Chronologie** opnieuw te berekenen, zoals die in de sectie &quot;Handmatige herberekening&quot;in de artikel [ wordt beschreven projectchronologie ](../../../manage-work/projects/manage-projects/recalculate-project-timeline.md) opnieuw berekent.\
      U kunt deze optie selecteren als u in één keer veel wijzigingen aanbrengt in het project en u wilt dat de tijdlijnherberekening plaatsvindt nadat alle wijzigingen zijn aangebracht (in plaats van na elke afzonderlijke wijziging).
 
 1. Klik **sparen**.
