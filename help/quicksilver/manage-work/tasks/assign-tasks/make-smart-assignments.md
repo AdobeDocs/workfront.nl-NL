@@ -23,7 +23,7 @@ De slimme taken zijn suggesties voor gebruikers, rollen, of teams die Adobe Work
 
 <!--<span class="preview">There are two separate algorithms in Workfront that calculate smart assignments that work differently for tasks and for issues.</span> -->
 
-Voor meer informatie over de criteria die in het bepalen van slimme taken worden gebruikt, zie [ Slim toewijzingsoverzicht ](/help/quicksilver/manage-work/tasks/assign-tasks/smart-assignments.md).
+Voor meer informatie over de criteria die in het bepalen van slimme taken worden gebruikt, zie [&#x200B; Slim toewijzingsoverzicht &#x200B;](/help/quicksilver/manage-work/tasks/assign-tasks/smart-assignments.md).
 
 ## Toegangsvereisten
 
@@ -54,7 +54,7 @@ Voor meer informatie over de criteria die in het bepalen van slimme taken worden
  </tbody>
 </table>
 
-Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -82,9 +82,9 @@ Slimme toewijzingen zijn beschikbaar op de meeste locaties waar u toewijzingen k
    <!--* <span class="preview">**Suggested assignments**: Displays assignments identified in the first phase of the task smart assignment algorithm.</span> -->
    * **Gebruikers en teams** of **de rollen van de Baan** <!--or **Rate card job roles**: Assignments identified in the second phase of the task smart assignment's algorithm calculation.-->
 
-   ![ Slim toewijzingsvoorbeeld in taaklijst ](assets/smart-assignments-task-list.png)
+   ![&#x200B; Slim toewijzingsvoorbeeld in taaklijst &#x200B;](assets/smart-assignments-task-list.png)
 
-   Voor meer informatie, zie [ Slim toewijzingsoverzicht ](../../../manage-work/tasks/assign-tasks/smart-assignments.md).
+   Voor meer informatie, zie [&#x200B; Slim toewijzingsoverzicht &#x200B;](../../../manage-work/tasks/assign-tasks/smart-assignments.md).
 
 1. Selecteer de bron in de lijst met aanbevelingen door op de naam ervan te klikken.
 

@@ -16,13 +16,13 @@ ht-degree: 0%
 
 # Overzicht duur: berekend werk
 
-Berekend werk is een Duur Type dat u voor een taak in Adobe Workfront kunt plaatsen. Voor algemene informatie over de Types van Duur in Workfront, zie [ Overzicht van het Type van Duur en van de Duur van de Taak ](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
+Berekend werk is een Duur Type dat u voor een taak in Adobe Workfront kunt plaatsen. Voor algemene informatie over de Types van Duur in Workfront, zie [&#x200B; Overzicht van het Type van Duur en van de Duur van de Taak &#x200B;](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
 
 ## Overzicht van het berekende type van de Duur van het Werk
 
 Het Berekende Werk bepaalt de hoeveelheid inspanning (Geplande Uren) nodig voor de te voltooien taak. Wij adviseren dat u het Berekende Type van Duur van het Werk gebruikt wanneer de middelen die aan de taak worden toegewezen voor de volledige duur van de taak worden toegewezen.
 
-Uw Workfront of een groepsbeheerder kan het standaard Duur Type van uw systeem of groep als Berekend Werk plaatsen. In dit geval, zullen alle nieuwe taken met dit Type van Duur worden gecreeerd. Voor informatie over het veranderen van uw taak en geef voorkeur uit als deel van uw systeem-niveau of groep-vlakke projectvoorkeur uit, zie [ systeembrede taak en uitgiftevoorkeur ](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md) vormen.
+Uw Workfront of een groepsbeheerder kan het standaard Duur Type van uw systeem of groep als Berekend Werk plaatsen. In dit geval, zullen alle nieuwe taken met dit Type van Duur worden gecreeerd. Voor informatie over het veranderen van uw taak en geef voorkeur uit als deel van uw systeem-niveau of groep-vlakke projectvoorkeur uit, zie [&#x200B; systeembrede taak en uitgiftevoorkeur &#x200B;](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md) vormen.
 
 Aangezien de middelen aan een taak worden toegevoegd, kan een projectmanager verwachten om de geplande inspanningsverhoging te zien. Om te illustreren, vertegenwoordigt een één-uur planningsvergadering met drie middelen drie totale vereiste uren van het werk, en een één-uurplanning vergadering met tien middelen vertegenwoordigt tien vereiste uren van werk. Hierbij wordt ervan uitgegaan dat elke bron met 100% toewijzing aan de taak wordt toegewezen.
 
@@ -80,11 +80,11 @@ In het volgende voorbeeld is de instelling voor de typische uren per werkdag 8 i
 
 In dit geval wordt elke toegewezen persoon voor 100% toegewezen aan de taak Berekend werk.
 
-![ Berekend type van de werkduur ](assets/calcwork-350x71.png)
+![&#x200B; Berekend type van de werkduur &#x200B;](assets/calcwork-350x71.png)
 
 ## Verander het Type van Duur van een taak in Berekend Werk
 
-Voor informatie over het veranderen van het Type van Duur van een taak, zie [ het Type van Duur van een taak ](../../../manage-work/tasks/taskdurtn/update-duration-type-of-task.md) bijwerken.
+Voor informatie over het veranderen van het Type van Duur van een taak, zie [&#x200B; het Type van Duur van een taak &#x200B;](../../../manage-work/tasks/taskdurtn/update-duration-type-of-task.md) bijwerken.
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: replaced with new article linked above)</p>

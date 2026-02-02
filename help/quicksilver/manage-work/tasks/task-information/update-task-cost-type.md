@@ -19,7 +19,7 @@ De geplande en werkelijke kosten van de taken en hun arbeidskosten worden bepaal
 
 U kunt het Type van Kosten voor individuele taken binnen het project vormen. Elk kostentype beïnvloedt de Geplande Kosten en de Ware Waarden van Kosten.
 
-Voor informatie over het volgen van kosten in Adobe Workfront, zie [ Kosten van het Spoor ](../../../manage-work/projects/project-finances/track-costs.md).
+Voor informatie over het volgen van kosten in Adobe Workfront, zie [&#x200B; Kosten van het Spoor &#x200B;](../../../manage-work/projects/project-finances/track-costs.md).
 
 ## Toegangsvereisten
 
@@ -49,7 +49,7 @@ Voor informatie over het volgen van kosten in Adobe Workfront, zie [ Kosten van 
  </tbody> 
 </table>
 
-Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -84,7 +84,7 @@ Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Work
 1. Klik **Details van de Taak** in het linkerpaneel, dan breid het **Financiën** gebied uit.
 1. Dubbelklik **Type van Kosten** en selecteer het kostentype dat u op de taak wilt toepassen.
 
-   ![ het kostentype van de Taak opties in de Details van de Taak ](assets/task-cost-type-options-in-tasks-details-nwe-350x233.png)
+   ![&#x200B; het kostentype van de Taak opties in de Details van de Taak &#x200B;](assets/task-cost-type-options-in-tasks-details-nwe-350x233.png)
 
    Selecteer een van de volgende opties:
 
@@ -93,6 +93,6 @@ Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Work
    * Uur gebruiker
    * Rol Uur
 
-   Voor meer informatie over elk type van taakkosten, zie [ Kosten van het Spoor ](../../../manage-work/projects/project-finances/track-costs.md).
+   Voor meer informatie over elk type van taakkosten, zie [&#x200B; Kosten van het Spoor &#x200B;](../../../manage-work/projects/project-finances/track-costs.md).
 
 1. Klik **sparen** **Veranderingen** **.**

@@ -17,7 +17,7 @@ ht-degree: 0%
 
 In Adobe Workfront kunt u op meerdere manieren voorgangersrelaties maken. Eén methode is het koppelen van taken.
 
-Voor informatie over voorgangerstaken, zie [ Overzicht van taakvoorgangers ](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md).
+Voor informatie over voorgangerstaken, zie [&#x200B; Overzicht van taakvoorgangers &#x200B;](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md).
 
 Door taken in een keten op te nemen, kunt u het systeem toestaan om automatisch de voorgangersrelaties te maken voor geselecteerde taken, in plaats van handmatig zelf een relatie te maken voor elke taak. De verschillende types van voorgangersverhouding kunnen nog tussen taken worden gebruikt.
 
@@ -49,7 +49,7 @@ Door taken in een keten op te nemen, kunt u het systeem toestaan om automatisch 
  </tbody> 
 </table>
 
-Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -85,7 +85,7 @@ Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Work
 1. Klik **Taken** in het linkerpaneel.
 1. (Voorwaardelijk) Uitgezochte **Autosave** in de hoger-juiste hoek van de taaklijst, dan selecteer de taken die u wilt ketenen.
 
-   ![ Autosave pictogram op benadrukte ](assets/nwe-autosave-icon-on-highlighted-350x295.png)
+   ![&#x200B; Autosave pictogram op benadrukte &#x200B;](assets/nwe-autosave-icon-on-highlighted-350x295.png)
 
    >[!IMPORTANT]
    >
@@ -99,7 +99,7 @@ Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Work
    * **begin-Begin**
    * **begin-Afwerking**
 
-   Voor meer informatie over de types van voorgangsafhankelijkheid, zie [ Overzicht van de types van taakgebiedsdeel ](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
+   Voor meer informatie over de types van voorgangsafhankelijkheid, zie [&#x200B; Overzicht van de types van taakgebiedsdeel &#x200B;](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
 
 1. (Facultatief) klik **Unchain** als sommige taken eerder zijn geketend.
 

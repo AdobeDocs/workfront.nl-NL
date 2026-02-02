@@ -16,7 +16,7 @@ ht-degree: 0%
 
 # Overzicht van taakafhankelijkheidslus
 
-Wanneer het toevoegen van predecessor verhoudingen aan taken zou u gebiedsdeellijnen kunnen ontmoeten. Voor informatie over predecessors, zie [ Overzicht van taakvoordecessors ](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md).
+Wanneer het toevoegen van predecessor verhoudingen aan taken zou u gebiedsdeellijnen kunnen ontmoeten. Voor informatie over predecessors, zie [&#x200B; Overzicht van taakvoordecessors &#x200B;](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md).
 
 ## Overzicht van afhankelijkheidslus
 
@@ -26,9 +26,9 @@ De lijnen van de afhankelijkheid gebeuren wanneer u twee of meer taken hebt die 
 
 Als u probeert om Taak 1 een voorganger aan Taak 2 te maken, krijgt u een fout van de gebiedsdeellijn omdat u geen Taak 1 kunt beginnen tot Taak 2 is voltooid, maar taak 2 kan niet zijn begonnen tot Taak 1 wordt gebeëindigd.
 
-![ bericht van de de lusfout van de Afhankelijkheid ](assets/dependency-loop-error-message-350x209.png)
+![&#x200B; bericht van de de lusfout van de Afhankelijkheid &#x200B;](assets/dependency-loop-error-message-350x209.png)
 
-![ lijn van de Afhankelijkheid in taaklijst ](assets/dependency-loop-in-task-list-nwe-350x97.png)
+![&#x200B; lijn van de Afhankelijkheid in taaklijst &#x200B;](assets/dependency-loop-in-task-list-nwe-350x97.png)
 
 ## Overwegingen over gebiedsdeellijnen
 

@@ -53,7 +53,7 @@ Wanneer een taak in een project een grotere hoeveelheid inspanning vereist om te
  </tbody> 
 </table>
 
-Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -199,13 +199,13 @@ Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Work
 ## Een taak omzetten in een project
 
 1. Ga naar de taak die u in een project wilt omzetten.
-1. Klik het **Meer** pictogram ![ Meer pictogram ](assets/more-icon.png), toen **Bekeerling in Project**.
+1. Klik het **Meer** pictogram ![&#x200B; Meer pictogram &#x200B;](assets/more-icon.png), toen **Bekeerling in Project**.
 1. Kies een van de volgende opties:
 
    * **Nieuw Project**, om een project te creëren zonder een malplaatje te gebruiken
    * Een malplaatje in **Uitgezocht van de sectie van Malplaatjes**
 
-     ![ zet taak in het drop-down menu van de projectsjabloonoptie om ](assets/convert-task-to-project-template-option-dropdown-nwe-350x209.png)
+     ![&#x200B; zet taak in het drop-down menu van de projectsjabloonoptie om &#x200B;](assets/convert-task-to-project-template-option-dropdown-nwe-350x209.png)
 
 1. Klik **verdergaan** op het bericht dat verschijnt.
 1. In de **Bekeerling aan de doos van het Project**, specificeer het volgende:
@@ -214,11 +214,11 @@ Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Work
    * **Beschrijving**: Beschrijf het doel voor dit project.
    * (Voorwaardelijk) als u hebt geselecteerd om een project van een malplaatje tot stand te brengen, werk de beschikbare gebieden in de **Bekeerling in de doos van het Project** bij.
 
-     Voor meer informatie over het uitgeven van gebieden op projecten, zie [ projecten ](../../../manage-work/projects/manage-projects/edit-projects.md) uitgeven.
+     Voor meer informatie over het uitgeven van gebieden op projecten, zie [&#x200B; projecten &#x200B;](../../../manage-work/projects/manage-projects/edit-projects.md) uitgeven.
 
      >[!TIP]
      >
-     >Als u velden in het gedeelte Financiën in het vak Converteren naar project wilt bijwerken, moet u toegang tot financiële gegevens op uw toegangsniveau bewerken hebben. Als u toegang van de Mening tot Financiële Gegevens in uw toegangsniveau hebt alle financiële informatie van de malplaatjeoverdrachten aan het nieuwe project en u kunt niet het uitgeven terwijl u de kwestie omzet. Voor informatie, zie [ toegang van de Verlening tot financiële gegevens ](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md) en [ Deel een malplaatje ](../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
+     >Als u velden in het gedeelte Financiën in het vak Converteren naar project wilt bijwerken, moet u toegang tot financiële gegevens op uw toegangsniveau bewerken hebben. Als u toegang van de Mening tot Financiële Gegevens in uw toegangsniveau hebt alle financiële informatie van de malplaatjeoverdrachten aan het nieuwe project en u kunt niet het uitgeven terwijl u de kwestie omzet. Voor informatie, zie [&#x200B; toegang van de Verlening tot financiële gegevens &#x200B;](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md) en [&#x200B; Deel een malplaatje &#x200B;](../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
 
    * (Facultatief) voeg **Aangepaste Forms** aan het nieuwe project toe.
 
