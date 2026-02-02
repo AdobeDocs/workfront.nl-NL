@@ -6,16 +6,16 @@ description: Het Type van Duur van een taak identificeert het verband tussen het
 author: Alina
 feature: Work Management
 exl-id: 2f01566c-c3e0-4f59-bf53-2a67806a205c
-source-git-commit: c1b8af0d8a95714bb597db7a429794773358cf05
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '286'
+source-wordcount: '292'
 ht-degree: 0%
 
 ---
 
 # Werk het Type van Duur van een taak bij
 
-Het Type van Duur van een taak identificeert het verband tussen het aantal middelen die aan een taak, de totale inspanning, en de totale Duur van de taak worden toegewezen. Voor meer informatie, zie [&#x200B; Overzicht van het Type van Duur en van de Duur van de Taak &#x200B;](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
+Het Type van Duur van een taak identificeert het verband tussen het aantal middelen die aan een taak, de totale inspanning, en de totale Duur van de taak worden toegewezen. Voor meer informatie, zie [ Overzicht van het Type van Duur en van de Duur van de Taak ](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
 
 ## Toegangsvereisten
 
@@ -45,7 +45,7 @@ Het Type van Duur van een taak identificeert het verband tussen het aantal midde
  </tbody> 
 </table>
 
-Voor meer informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -78,7 +78,7 @@ Voor meer informatie, zie [&#x200B; vereisten van de Toegang in de documentatie 
 
 Naast het bijwerken van het Type van Duur van een taak zoals die in dit artikel wordt beschreven, kunt u het Type van Duur ook bijwerken wanneer het uitgeven van een taak of wanneer het maken van geavanceerde taken. Zie voor meer informatie:
 
-* [&#x200B; geef taken &#x200B;](../../../manage-work/tasks/manage-tasks/edit-tasks.md) uit
+* [ geef taken ](../../../manage-work/tasks/manage-tasks/edit-tasks.md) uit
 * [Geavanceerde toewijzingen maken](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md)
 
 U kunt als volgt het type duur van een taak bijwerken:
@@ -87,15 +87,15 @@ U kunt als volgt het type duur van een taak bijwerken:
 1. Klik de **sectie van Taken** in het linkerpaneel.
 1. Klik **Details van de Taak** in het linkerpaneel, dan in het gebied van het Overzicht klikt **Type van Duur**.
 
-   ![](assets/duration-type-all-options-on-overview-350x155.png)
+   ![ het type van Duur alle opties op Overzicht ](assets/duration-type-all-options-on-overview-350x155.png)
 
 1. Selecteer een van de volgende opties
 
    | Duur | Meer informatie |
    |---|---|
-   | Berekend werk | Voor informatie, zie [&#x200B; overzicht van het Type van Duur: Berekend Werk &#x200B;](../../../manage-work/tasks/taskdurtn/calculated-work.md). |
-   | Inzet gedreven | Voor informatie, zie [&#x200B; overzicht van het Type van Duur: Gedreven inspanning &#x200B;](../../../manage-work/tasks/taskdurtn/effort-driven.md). |
-   | Berekende toewijzing | Voor informatie, zie [&#x200B; overzicht van het Type van Duur: Berekende Toewijzing &#x200B;](../../../manage-work/tasks/taskdurtn/calculated-assignment.md). |
-   | eenvoudig | Voor informatie, zie [&#x200B; overzicht van het Type van Duur: Eenvoudig &#x200B;](../../../manage-work/tasks/taskdurtn/simple-duration-type.md). |
+   | Berekend werk | Voor informatie, zie [ overzicht van het Type van Duur: Berekend Werk ](../../../manage-work/tasks/taskdurtn/calculated-work.md). |
+   | Inzet gedreven | Voor informatie, zie [ overzicht van het Type van Duur: Gedreven inspanning ](../../../manage-work/tasks/taskdurtn/effort-driven.md). |
+   | Berekende toewijzing | Voor informatie, zie [ overzicht van het Type van Duur: Berekende Toewijzing ](../../../manage-work/tasks/taskdurtn/calculated-assignment.md). |
+   | eenvoudig | Voor informatie, zie [ overzicht van het Type van Duur: Eenvoudig ](../../../manage-work/tasks/taskdurtn/simple-duration-type.md). |
 
 1. Klik **sparen Veranderingen**.

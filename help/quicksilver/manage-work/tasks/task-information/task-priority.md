@@ -7,9 +7,9 @@ description: U kunt een prioriteit voor een taak bepalen om erop te wijzen hoe b
 author: Alina
 feature: Work Management
 exl-id: 653b62fe-6195-4288-ac05-f89e4a6113fd
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '275'
+source-wordcount: '277'
 ht-degree: 2%
 
 ---
@@ -46,7 +46,7 @@ U kunt een prioriteit voor een taak bepalen om erop te wijzen hoe belangrijk de 
  </tbody> 
 </table>
 
-Voor meer informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -79,7 +79,7 @@ Voor meer informatie, zie [&#x200B; vereisten van de Toegang in de documentatie 
 
 Houd rekening met het volgende wanneer u taakprioriteiten gebruikt:
 
-* Adobe Workfront-beheerders kunnen prioriteitslabels in Workfront wijzigen of ze kunnen nieuwe prioriteiten maken. Hierdoor kunnen de opties die u hebt voor het veld Prioriteit in uw Workfront-instantie afwijken van de opties die hieronder worden vermeld. Voor informatie over het aanpassen van de namen van prioriteiten in uw instantie, zie [&#x200B; prioriteiten &#x200B;](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md) creëren en aanpassen.
+* Adobe Workfront-beheerders kunnen prioriteitslabels in Workfront wijzigen of ze kunnen nieuwe prioriteiten maken. Hierdoor kunnen de opties die u hebt voor het veld Prioriteit in uw Workfront-instantie afwijken van de opties die hieronder worden vermeld. Voor informatie over het aanpassen van de namen van prioriteiten in uw instantie, zie [ prioriteiten ](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md) creëren en aanpassen.
 * Aan elk prioritair label is een nummer gekoppeld dat niet kan worden gewijzigd.
 
   U zou vertrouwd met de nummeringsopeenvolging voor prioriteiten moeten worden die in uw organisatie worden gebruikt.
@@ -102,5 +102,5 @@ Houd rekening met het volgende wanneer u taakprioriteiten gebruikt:
 
 1. Ga naar de taak waarvan prioriteit u wilt wijzigen.
 1. Klik **Details van de Taak** in het linkerpaneel.
-1. Klik **uitgeven** pictogram ![](assets/qs-edit-icon.png), dan op het **4&rbrace; gebied van het Overzicht &lbrace;, selecteer een waarde voor het** Prioritaire **gebied.**
+1. Klik **uitgeven** pictogram ![ geeft pictogram ](assets/qs-edit-icon.png) uit, dan op het **Overzicht** gebied, selecteer een waarde voor het **Prioriteit** gebied.
 1. Klik **sparen** **Veranderingen**.

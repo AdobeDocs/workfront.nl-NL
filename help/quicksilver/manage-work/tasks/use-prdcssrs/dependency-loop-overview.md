@@ -7,16 +7,16 @@ description: Wanneer het toevoegen van predecessor verhoudingen aan taken zou u 
 author: Alina
 feature: Work Management
 exl-id: 142e9637-841c-43d1-b297-e42c28a9e010
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '253'
+source-wordcount: '262'
 ht-degree: 0%
 
 ---
 
 # Overzicht van taakafhankelijkheidslus
 
-Wanneer het toevoegen van predecessor verhoudingen aan taken zou u gebiedsdeellijnen kunnen ontmoeten. Voor informatie over predecessors, zie [&#x200B; Overzicht van taakvoordecessors &#x200B;](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md).
+Wanneer het toevoegen van predecessor verhoudingen aan taken zou u gebiedsdeellijnen kunnen ontmoeten. Voor informatie over predecessors, zie [ Overzicht van taakvoordecessors ](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md).
 
 ## Overzicht van afhankelijkheidslus
 
@@ -26,9 +26,9 @@ De lijnen van de afhankelijkheid gebeuren wanneer u twee of meer taken hebt die 
 
 Als u probeert om Taak 1 een voorganger aan Taak 2 te maken, krijgt u een fout van de gebiedsdeellijn omdat u geen Taak 1 kunt beginnen tot Taak 2 is voltooid, maar taak 2 kan niet zijn begonnen tot Taak 1 wordt gebeëindigd.
 
-![](assets/dependency-loop-error-message-350x209.png)
+![ bericht van de de lusfout van de Afhankelijkheid ](assets/dependency-loop-error-message-350x209.png)
 
-![](assets/dependency-loop-in-task-list-nwe-350x97.png)
+![ lijn van de Afhankelijkheid in taaklijst ](assets/dependency-loop-in-task-list-nwe-350x97.png)
 
 ## Overwegingen over gebiedsdeellijnen
 

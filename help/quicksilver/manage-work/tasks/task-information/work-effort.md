@@ -7,9 +7,9 @@ description: Overzicht van de werkprestaties
 author: Alina
 feature: Work Management
 exl-id: 70f51e4b-43cc-427a-99e4-ebb056bb1070
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '1474'
+source-wordcount: '1488'
 ht-degree: 0%
 
 ---
@@ -86,7 +86,7 @@ In dit artikel wordt beschreven wat de werkinspanning is en hoe u deze moet gebr
  </tbody> 
 </table>
 
-Voor meer informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -120,25 +120,25 @@ Voor meer informatie, zie [&#x200B; vereisten van de Toegang in de documentatie 
 
 ## Overwegingen bij het gebruik van werkinspanningen
 
-* Wanneer de projecttaken 0 Geplande Uren hebben en u de Werkinspanning van het Gebruik toelaat om taak Geplande Uren automatisch te berekenen die op het project plaatsen, zal het standaardniveau van de Werkinspanning verbonden aan hen Medium zijn. De geplande uren worden automatisch bijgewerkt voor eenvoudige taken van het Type van Duur. Voor meer informatie, zie de sectie [&#x200B; Niveaus van de Werkinspanning &#x200B;](#levels-of-work-effort) in dit artikel.
-* Wanneer de projecttaken Geplande Uren hebben die meer dan 0 zijn en u de Werkinspanning van het Gebruik toelaat om taak Geplande Uren automatisch te berekenen die op het project plaatsen, het niveau van de Inspanning van het Werk volgens de hoeveelheid Geplande Uren zonder de hoeveelheid Geplande Uren voor de Eenvoudige taken van het Type van Duur te veranderen. Voor meer informatie, zie de sectie [&#x200B; Hoe Workfront de Werkinspanning berekent die op Geplande Uren &#x200B;](#how-workfront-calculates-work-effort-based-on-planned-hours) in dit artikel wordt gebaseerd.
-* Wanneer de projecttaken 0 Geplande Uren hebben en u de Werkinspanning van het Gebruik toelaat om taak Geplande Uren automatisch te berekenen die op het project plaatsen, dan update het niveau van de Werkinspanning van Medium aan Klein of Groot, de Geplande Uren ook bijwerken. Voor meer informatie, zie de sectie [&#x200B; hoe Workfront Geplande Uren berekent die op de Werkinspanning &#x200B;](#how-workfront-calculates-planned-hours-based-on-work-effort) in dit artikel worden gebaseerd.
+* Wanneer de projecttaken 0 Geplande Uren hebben en u de Werkinspanning van het Gebruik toelaat om taak Geplande Uren automatisch te berekenen die op het project plaatsen, zal het standaardniveau van de Werkinspanning verbonden aan hen Medium zijn. De geplande uren worden automatisch bijgewerkt voor eenvoudige taken van het Type van Duur. Voor meer informatie, zie de sectie [ Niveaus van de Werkinspanning ](#levels-of-work-effort) in dit artikel.
+* Wanneer de projecttaken Geplande Uren hebben die meer dan 0 zijn en u de Werkinspanning van het Gebruik toelaat om taak Geplande Uren automatisch te berekenen die op het project plaatsen, het niveau van de Inspanning van het Werk volgens de hoeveelheid Geplande Uren zonder de hoeveelheid Geplande Uren voor de Eenvoudige taken van het Type van Duur te veranderen. Voor meer informatie, zie de sectie [ Hoe Workfront de Werkinspanning berekent die op Geplande Uren ](#how-workfront-calculates-work-effort-based-on-planned-hours) in dit artikel wordt gebaseerd.
+* Wanneer de projecttaken 0 Geplande Uren hebben en u de Werkinspanning van het Gebruik toelaat om taak Geplande Uren automatisch te berekenen die op het project plaatsen, dan update het niveau van de Werkinspanning van Medium aan Klein of Groot, de Geplande Uren ook bijwerken. Voor meer informatie, zie de sectie [ hoe Workfront Geplande Uren berekent die op de Werkinspanning ](#how-workfront-calculates-planned-hours-based-on-work-effort) in dit artikel worden gebaseerd.
 * Wanneer u inline taken uitgeeft en zowel de Geplande Uren als het gebied van de Werkinspanning voor taak tezelfdertijd wijzigt, zullen de Geplande Uren met de waarde worden bijgewerkt u specificeert, terwijl de waarde van de Werkinspanning wordt berekend gebaseerd op uw bijgewerkte Geplande Uren.
-* Wanneer u de waarde voor Werkinspanning van een taak bijwerkt, wordt de duur niet meer automatisch berekend op basis van de geplande uren. Voor meer informatie over hoe de Duur voor de Eenvoudige taken van de Duur berekent, zie [&#x200B; Overzicht van het Type van Duur: Eenvoudig &#x200B;](../../../manage-work/tasks/taskdurtn/simple-duration-type.md).
+* Wanneer u de waarde voor Werkinspanning van een taak bijwerkt, wordt de duur niet meer automatisch berekend op basis van de geplande uren. Voor meer informatie over hoe de Duur voor de Eenvoudige taken van de Duur berekent, zie [ Overzicht van het Type van Duur: Eenvoudig ](../../../manage-work/tasks/taskdurtn/simple-duration-type.md).
 * Wanneer u het Type van Duur van een taak van Eenvoudig in om het even welk ander type verandert, wordt het gebied van de Werkinspanning verborgen op de taak. De geplande uren blijven ongewijzigd.
-* U kunt het werkinspanningsniveau niet bijwerken op een bovenliggende taak. Het niveau van de Werkinspanning voor een oudertaak wordt automatisch berekend gebaseerd op het aantal Geplande Uren voor de taken die een rollup van alle kindtaken is. Voor informatie over oudertaken, zie [&#x200B; subtasks &#x200B;](../../../manage-work/tasks/create-tasks/create-subtasks.md) creëren.
+* U kunt het werkinspanningsniveau niet bijwerken op een bovenliggende taak. Het niveau van de Werkinspanning voor een oudertaak wordt automatisch berekend gebaseerd op het aantal Geplande Uren voor de taken die een rollup van alle kindtaken is. Voor informatie over oudertaken, zie [ subtasks ](../../../manage-work/tasks/create-tasks/create-subtasks.md) creëren.
 
 ## Inschakelen met Werkinspanning in plaats van Geplande uren
 
-1. Ga naar een project en klik **Meer** menu ![](assets/more-icon.png), dan klik **uitgeven**.
+1. Ga naar een project en klik **Meer** menu ![ Meer pictogram ](assets/more-icon.png), dan klik **uitgeven**.
 1. Klik **Montages van de Taak**, dan selecteren de optie **Werkinspanning van het Gebruik om taak Geplande uren** automatisch te berekenen. Deze optie is standaard uitgeschakeld.
 
-   ![](assets/nwe-work-effort-on-projects-350x182.png)
+   ![ de inspanning van het werk aan projecten ](assets/nwe-work-effort-on-projects-350x182.png)
 
-   Voor meer informatie over het toelaten van het gebruik van de Werkinspanning op een project, zie de &quot;sectie van de Montages van Taken&quot;in [&#x200B; projecten &#x200B;](../../../manage-work/projects/manage-projects/edit-projects.md) artikel uitgeven.
+   Voor meer informatie over het toelaten van het gebruik van de Werkinspanning op een project, zie de &quot;sectie van de Montages van Taken&quot;in [ projecten ](../../../manage-work/projects/manage-projects/edit-projects.md) artikel uitgeven.
 
 1. Klik **Taken** op het linkerpaneel, dan klik de naam van een taak om tot het toegang te hebben.
-1. Klik **Meer** menu ![](assets/more-icon.png), dan klik **uitgeven**. Zorg ervoor dat de taak een eenvoudig type duur heeft.
+1. Klik het **Meer** menu ![ Meer pictogram ](assets/more-icon.png), dan klik **uitgeven**. Zorg ervoor dat de taak een eenvoudig type duur heeft.
 
    >[!TIP]
    >
@@ -146,11 +146,11 @@ Voor meer informatie, zie [&#x200B; vereisten van de Toegang in de documentatie 
 
 1. In het **gebied van het Overzicht**, klik het drop-down menu van de Werkinspanning van het Werk om de hoeveelheid inspanning te verbeteren nodig om de taak te voltooien.
 
-   ![](assets/work-effort-on-edit-task-page-350x239.png)
+   ![ de inspanning van het Werk op Edit de pagina van de Taak ](assets/work-effort-on-edit-task-page-350x239.png)
 
    Raadpleeg de volgende artikelen voor meer informatie over het bijwerken van het veld Werkinspanning op een taak:
 
-   * De &quot;sectie van het Overzicht&quot;in [&#x200B; geeft taken &#x200B;](../../../manage-work/tasks/manage-tasks/edit-tasks.md) artikel uit
+   * De &quot;sectie van het Overzicht&quot;in [ geeft taken ](../../../manage-work/tasks/manage-tasks/edit-tasks.md) artikel uit
    * [Taakgegevens beheren in het gebied Overzicht van taakdetails](../../../manage-work/tasks/manage-tasks/task-information-in-overview.md)
 
 ## Niveaus van de Werkinspanning {#levels-of-work-effort}
@@ -159,9 +159,9 @@ Als projectmanager, kunt u drie niveaus van de Inspanning van het Werk voor uw p
 
 Bij het instellen van het niveau van de werkinspanning moet u zich de vraag stellen: &quot;Hoeveel tijd zou een gebruiker die aan deze taak wordt toegewezen dagelijks aan het moeten besteden om het in tijd te krijgen?&quot;
 
-In de volgende tabel worden de mogelijke niveaus van de werkinspanning en de bijbehorende standaardpercentages weergegeven. Als projectmanager, kunt u de percentages bijwerken om aan de behoeften van uw organisatie te passen. U doet dit terwijl u een project bewerkt. Voor informatie over het uitgeven van projecten, zie [&#x200B; projecten &#x200B;](../../../manage-work/projects/manage-projects/edit-projects.md) uitgeven.
+In de volgende tabel worden de mogelijke niveaus van de werkinspanning en de bijbehorende standaardpercentages weergegeven. Als projectmanager, kunt u de percentages bijwerken om aan de behoeften van uw organisatie te passen. U doet dit terwijl u een project bewerkt. Voor informatie over het uitgeven van projecten, zie [ projecten ](../../../manage-work/projects/manage-projects/edit-projects.md) uitgeven.
 
-Als beheerder van Workfront, bepaalt u de Typische uren per het werkdag in het gebied van de Voorkeur van het Project van Opstelling. Dit is de dagelijkse hoeveelheid tijd die als arbeidstijd wordt beschouwd. Voor informatie over het vormen van de Voorkeur van het Project voor uw geval van Workfront, zie [&#x200B; systeem-brede projectvoorkeur &#x200B;](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) vormen.
+Als beheerder van Workfront, bepaalt u de Typische uren per het werkdag in het gebied van de Voorkeur van het Project van Opstelling. Dit is de dagelijkse hoeveelheid tijd die als arbeidstijd wordt beschouwd. Voor informatie over het vormen van de Voorkeur van het Project voor uw geval van Workfront, zie [ systeem-brede projectvoorkeur ](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) vormen.
 
 >[!NOTE]
 >
@@ -228,7 +228,7 @@ Work Effort level = 20 / 2 / 8 = 125 % = Large
 
 ## Werkinspanning zoeken voor taken en projecten
 
-* [&#x200B; Werkinspanning voor projecten &#x200B;](#work-effort-for-projects)
+* [ Werkinspanning voor projecten ](#work-effort-for-projects)
 * [Werkinspanning voor taken](#work-effort-for-tasks)
 
 ### Werkinspanning voor projecten {#work-effort-for-projects}

@@ -7,7 +7,7 @@ description: Adobe Workfront bepaalt de Voortgangsstatus van een taak door de vo
 author: Alina
 feature: Work Management
 exl-id: 38e5f89e-bdfa-433c-9371-3c3003ada3a3
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
 source-wordcount: '777'
 ht-degree: 0%
@@ -18,13 +18,13 @@ ht-degree: 0%
 
 <!-- Audited: 1/2024 -->
 
-Adobe Workfront bepaalt de Voortgangsstatus van een taak door de vooruitgang van de taak over zijn chronologie te bekijken. U kunt Workfront vormen om de Voorwaarde van een project te bepalen dat op de waarde van de Status van de Voortgang van de taken wordt gebaseerd. Voor meer informatie over het vormen van de Voorwaarde van het project, zie het artikel [&#x200B; Overzicht van het Type van de Voorwaarde en van de Voorwaarde van het Project &#x200B;](../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md).
+Adobe Workfront bepaalt de Voortgangsstatus van een taak door de vooruitgang van de taak over zijn chronologie te bekijken. U kunt Workfront vormen om de Voorwaarde van een project te bepalen dat op de waarde van de Status van de Voortgang van de taken wordt gebaseerd. Voor meer informatie over het vormen van de Voorwaarde van het project, zie het artikel [ Overzicht van het Type van de Voorwaarde en van de Voorwaarde van het Project ](../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md).
 
 ## Criteria die de status van de voortgang van taken bepalen
 
-Voor informatie over de Voortgangsstatus van een project, zie [&#x200B; Overzicht van de Status van de Voortgang van het Project &#x200B;](../../../manage-work/projects/planning-a-project/project-progress-status.md).
+Voor informatie over de Voortgangsstatus van een project, zie [ Overzicht van de Status van de Voortgang van het Project ](../../../manage-work/projects/planning-a-project/project-progress-status.md).
 
-Voor informatie over het volgen van de vooruitgang van uw taken, zie [&#x200B; het Traceren van de Wijze overzicht van de Taak &#x200B;](../../../manage-work/tasks/task-information/task-tracking-mode.md).
+Voor informatie over het volgen van de vooruitgang van uw taken, zie [ het Traceren van de Wijze overzicht van de Taak ](../../../manage-work/tasks/task-information/task-tracking-mode.md).
 
 De volgende criteria bepalen de Voortgangsstatus van een taak:
 
@@ -69,18 +69,18 @@ The different date types in our projects tell us how tasks are progressing over 
 
 * On Time
 
-  ![](assets/on-time-progress-status-350x233.png)
+  ![On time progress status](assets/on-time-progress-status-350x233.png)
 
 * At Risk
 
-  ![](assets/at-risk-progress-status-350x233.png)
+  ![At risk progress status](assets/at-risk-progress-status-350x233.png)
 
 * Behind
 
-  ![](assets/behind-progress-status-350x233.png)
+  ![Behind progress status](assets/behind-progress-status-350x233.png)
 
 * Late
 
-  ![](assets/late-progress-status-350x233.png)
+  ![Late progress status](assets/late-progress-status-350x233.png)
 
 -->

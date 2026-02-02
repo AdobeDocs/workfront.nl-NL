@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: dbde5419-02ce-456b-a430-b2825d81fb87
-source-git-commit: c1b8af0d8a95714bb597db7a429794773358cf05
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '875'
+source-wordcount: '890'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 U kunt terugkomende taken voor taken tot stand brengen u als deel van één enkel project moet herhalen.
 
-Voor algemene informatie over terugkomende taken, met inbegrip van het effect van het uitgeven van een bestaande terugkomende taak, zie [&#x200B; Terugkerende takenoverzicht &#x200B;](../../../manage-work/tasks/manage-tasks/recurring-tasks-overview.md).
+Voor algemene informatie over terugkomende taken, met inbegrip van het effect van het uitgeven van een bestaande terugkomende taak, zie [ Terugkerende takenoverzicht ](../../../manage-work/tasks/manage-tasks/recurring-tasks-overview.md).
 
 ## Toegangsvereisten
 
@@ -52,7 +52,7 @@ Voor algemene informatie over terugkomende taken, met inbegrip van het effect va
  </tbody> 
 </table>
 
-Voor meer informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -97,10 +97,10 @@ Voor meer informatie, zie [&#x200B; vereisten van de Toegang in de documentatie 
 
    Het dialoogvenster Nieuwe taak wordt weergegeven.
 
-   ![](assets/nwe-create-task-small-screen-350x272.png)
+   ![ creeer taak klein scherm ](assets/nwe-create-task-small-screen-350x272.png)
 
 1. Klik **Meer opties** dan ga een naam voor de taak op het **gebied van de Naam van de Taak** in.
-1. Werk de taak verder bij op dezelfde manier als wanneer u een nieuwe taak toevoegt. Voor meer informatie over het toevoegen van een nieuwe taak, zie [&#x200B; tot taken in een project &#x200B;](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md) leiden.
+1. Werk de taak verder bij op dezelfde manier als wanneer u een nieuwe taak toevoegt. Voor meer informatie over het toevoegen van een nieuwe taak, zie [ tot taken in een project ](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md) leiden.
 
    >[!TIP]
    >
@@ -109,7 +109,7 @@ Voor meer informatie, zie [&#x200B; vereisten van de Toegang in de documentatie 
 1. Klik **Overzicht** in het linkerpaneel.
 1. De rol neer aan de **sectie van het Programma van de Herhaling**, dan selecteert **maakt dit een terugkomende taak** optie.
 
-   ![](assets/recurrence-schedule-section-new-recurring-tasks-nwe-350x351.png)
+   ![ de programmaselectie van de Opkomst nieuwe terugkomende taken ](assets/recurrence-schedule-section-new-recurring-tasks-nwe-350x351.png)
 
 1. In de **drop-down lijst van de Frequentie**, selecteer het aantal tijdeenheden wanneer u de taak en het type van tijdeenheden wilt voorkomen. Selecteer een van de volgende opties:
 
@@ -148,7 +148,7 @@ Voor meer informatie, zie [&#x200B; vereisten van de Toegang in de documentatie 
 
    >[!NOTE]
    >
-   >Als u een Uitzondering van het Programma verbonden aan het programma van het project hebt, kunnen de terugkomende taken niet tijdens de uitzondering beginnen. De terugkomende taken die tijdens de planningsuitzondering voorkomen zijn gepland om op de eerste werkdag te beginnen die de uitzondering volgt. Voor meer informatie over planningsuitzonderingen, zie het artikel [&#x200B; een programma &#x200B;](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md) creëren.
+   >Als u een Uitzondering van het Programma verbonden aan het programma van het project hebt, kunnen de terugkomende taken niet tijdens de uitzondering beginnen. De terugkomende taken die tijdens de planningsuitzondering voorkomen zijn gepland om op de eerste werkdag te beginnen die de uitzondering volgt. Voor meer informatie over planningsuitzonderingen, zie het artikel [ een programma ](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md) creëren.
 
 1. Op **begint** gebied, selecteer de datum en de tijd wanneer u de terugkomende taken wilt beginnen.
 1. Op **beëindigt** gebied, selecteer de datum en de tijd wanneer u de terugkomende taken wilt voltooien
@@ -161,9 +161,9 @@ Voor meer informatie, zie [&#x200B; vereisten van de Toegang in de documentatie 
 
    De takenlijst wordt weergegeven. De terugkomende taak wordt gecreeerd als ouder, en alle recurrences zijn zijn zijn kinderen. Workfront heeft de namen van de onderliggende taken automatisch gegenereerd. Hierbij wordt de naam gebruikt die u voor het bovenliggende onderdeel hebt opgegeven, gevolgd door een getal. De terugkomende taken worden geplaatst aan het eind van de taaklijst.
 
-   Voor meer informatie over welke gebieden auto-gevuld van de ouder terugkomende taak zijn, zie [&#x200B; Terugkerende takenoverzicht &#x200B;](../../../manage-work/tasks/manage-tasks/recurring-tasks-overview.md).
+   Voor meer informatie over welke gebieden auto-gevuld van de ouder terugkomende taak zijn, zie [ Terugkerende takenoverzicht ](../../../manage-work/tasks/manage-tasks/recurring-tasks-overview.md).
 
-   ![](assets/recurring-tasks-in-task-list-nwe-350x87.png)
+   ![ REcurring taken in taaklijst ](assets/recurring-tasks-in-task-list-nwe-350x87.png)
 
 1. (Optioneel) Wijzig elke terugkerende taak op dezelfde manier als elke andere taak in het project.
 
@@ -171,4 +171,4 @@ Voor meer informatie, zie [&#x200B; vereisten van de Toegang in de documentatie 
 
    >[!IMPORTANT]
    >
-   >Het aanpassen van de bovenliggende recidieven nadat de kinderen individueel zijn aangepast kan leiden tot verschillende informatie tussen de kinderen of tussen de kinderen en de ouder. Voor meer informatie, zie [&#x200B; Terugkerende takenoverzicht &#x200B;](../../../manage-work/tasks/manage-tasks/recurring-tasks-overview.md).
+   >Het aanpassen van de bovenliggende recidieven nadat de kinderen individueel zijn aangepast kan leiden tot verschillende informatie tussen de kinderen of tussen de kinderen en de ouder. Voor meer informatie, zie [ Terugkerende takenoverzicht ](../../../manage-work/tasks/manage-tasks/recurring-tasks-overview.md).

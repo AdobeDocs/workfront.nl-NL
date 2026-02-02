@@ -6,9 +6,9 @@ description: In Adobe Workfront kunnen taken bovenliggende en onderliggende rela
 author: Alina
 feature: Work Management
 exl-id: 3d970794-b5ea-422f-bc92-51846cb7db35
-source-git-commit: ac24b2486b9fc5a0b8c2944a6ec240140238b908
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '572'
+source-wordcount: '578'
 ht-degree: 0%
 
 ---
@@ -49,7 +49,7 @@ In Adobe Workfront kunnen taken bovenliggende en onderliggende relaties hebben. 
  </tbody> 
 </table>
 
-Voor meer informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -96,12 +96,12 @@ U kunt subtaken maken in de takenlijst of de taaksubtaaksectie.
 1. (Voorwaardelijk) als de taak die u wilt maken de kindtaak niet direct onder de taak wordt gevestigd die u de ouder wilt maken, sleep en laat vallen het aan de aangewezen plaats in de takenlijst.
 1. Selecteer de taak die u een subtaak wilt maken en voer een van de volgende handelingen uit:
 
-   * Klik **Inspringen** pictogram ![](assets/indent-icon-nwe-33x29.png) om van de geselecteerde taak een subtaak aan de taak direct boven het te maken.
+   * Klik het **pictogram van de Inspringen** ![ pictogram ](assets/indent-icon-nwe-33x29.png) om de geselecteerde taak een subtask aan de taak direct boven het te maken.
    * Als u een standaard Engels QWERTY-toetsenbord gebruikt, drukt u op Option + > (Mac) of Alt + > (Windows) op het toetsenbord. Andere talen kunnen de opdrachten Option + , (Mac) of Alt + , (Windows) gebruiken om te laten inspringen.
 
      >[!TIP]
      >
-     >De sneltoetsen werken niet wanneer u taken bewerkt in inline bewerken. In dit geval gebruikt u het pictogram Inspringen ![](assets/indent-icon-nwe-33x29.png) om subtaken te maken.
+     >De sneltoetsen werken niet wanneer u taken bewerkt in inline bewerken. In dit geval, gebruik het pictogram van de Paragraaf ![ Inspringen pictogram ](assets/indent-icon-nwe-33x29.png) om subtaken tot stand te brengen.
 
    * Sleep de taak over de taak die u als bovenliggende taak wilt aanwijzen.
 
@@ -121,7 +121,7 @@ U kunt subtaken maken in de takenlijst of de taaksubtaaksectie.
 1. Klik de **subtasks** sectie in het linkerpaneel, als beschikbaar.
 1. Klik **Nieuwe Taak.**
 
-   Voor informatie over het creëren van taken, zie [&#x200B; taken in een project &#x200B;](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md) creëren.
+   Voor informatie over het creëren van taken, zie [ taken in een project ](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md) creëren.
 
 1. Klik **creëren taak.**
 
@@ -132,7 +132,7 @@ U kunt subtaken maken in de takenlijst of de taaksubtaaksectie.
 1. Ga naar het project waar u een subtaak een belangrijkste taak wilt maken.
 1. Klik de **sectie van Taken** in het linkerpaneel.
 1. Selecteer de subtaak die u als hoofdtaak wilt uitvoeren.
-1. Klik het **Uitspringen** pictogram ![](assets/outdent-icon-nwe-31x29.png) om subtask een hoofdtaak te maken.
+1. Klik het **pictogram** Uitspringen pictogram ![ van 0} Uitspringen {om subtask een hoofdtaak te maken.](assets/outdent-icon-nwe-31x29.png)
 
    of
 

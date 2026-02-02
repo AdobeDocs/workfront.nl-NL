@@ -7,9 +7,9 @@ description: Berekende toewijzing is een Duur Type dat u voor een taak in Adobe 
 author: Alina
 feature: Work Management
 exl-id: 5f1f6109-5d54-4c3f-9aa5-dc6ce165a1cd
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '481'
+source-wordcount: '485'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 <!-- Audited: 5/2025 -->
 
-Berekende toewijzing is een Duur Type dat u voor een taak in Adobe Workfront kunt plaatsen. Voor algemene informatie over de Types van Duur in Workfront, zie [&#x200B; Overzicht van het Type van Duur en van de Duur van de Taak &#x200B;](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
+Berekende toewijzing is een Duur Type dat u voor een taak in Adobe Workfront kunt plaatsen. Voor algemene informatie over de Types van Duur in Workfront, zie [ Overzicht van het Type van Duur en van de Duur van de Taak ](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
 
 ## Overzicht van het berekende Type van Duur van de Toewijzing
 
@@ -27,7 +27,7 @@ Berekende toewijzing is een Duur Type dat u voor een taak in Adobe Workfront kun
 -->
 
 * Wanneer u een Berekend Type van Duur van de Taak gebruikt, moet u zowel een Duur als een aantal Geplande Uren voor de taak specificeren. Workfront verdeelt dan de hoeveelheid Geplande Uren door de hoeveelheid uren in de Duur, dan door het aantal middelen die aan de taak worden toegewezen om het toewijzingspercentage (berekent de taak) voor elke middel te berekenen. Elke bron heeft dezelfde waarde voor het toewijzingspercentage. In dit geval kunt u de toewijzingswaarden voor elke bron niet wijzigen.
-* Uw Workfront of een groepsbeheerder kan het standaard Duur Type van uw systeem of groep als Berekende Toewijzing plaatsen. In dit geval, zullen alle nieuwe taken met dit Type van Duur worden gecreeerd. Voor informatie over het veranderen van uw taak en geef voorkeur uit als deel van uw systeem-niveau of groep-vlakke projectvoorkeur uit, zie [&#x200B; systeembrede taak en uitgiftevoorkeur &#x200B;](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md) vormen.
+* Uw Workfront of een groepsbeheerder kan het standaard Duur Type van uw systeem of groep als Berekende Toewijzing plaatsen. In dit geval, zullen alle nieuwe taken met dit Type van Duur worden gecreeerd. Voor informatie over het veranderen van uw taak en geef voorkeur uit als deel van uw systeem-niveau of groep-vlakke projectvoorkeur uit, zie [ systeembrede taak en uitgiftevoorkeur ](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md) vormen.
 
   In dit geval, heeft de taak een gebrek van een Duur van één dag en een gebrek van 0 uren Geplande Uren. Tenzij de projectmanager een nauwkeurigere Duur plaatst en het Geplande gebied van Uren met een realistische raming bevolkt, dan lijken de middelen onderverdeeld.
 
@@ -46,11 +46,11 @@ Planned Hours / Duration / Number of Resources = Allocation Percentage for each 
 
 In het onderstaande scenario heeft elke taak bijvoorbeeld een Duur van 3 dagen. De projectmanager voert handmatig zowel de Duur (3 dagen of 24 uur) als de Geplande Uren in, waardoor het toewijzingspercentage (of het toewijzingspercentage) wordt berekend:
 
-![](assets/calcassign-350x80.png)
+![ Berekend type van toewijzingsduur ](assets/calcassign-350x80.png)
 
 ## Verander het Type van Duur van een taak in Berekende Taak
 
-Voor informatie over het veranderen van het Type van Duur van een taak, zie [&#x200B; het Type van Duur van een taak &#x200B;](../../../manage-work/tasks/taskdurtn/update-duration-type-of-task.md) bijwerken.
+Voor informatie over het veranderen van het Type van Duur van een taak, zie [ het Type van Duur van een taak ](../../../manage-work/tasks/taskdurtn/update-duration-type-of-task.md) bijwerken.
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: replaced with new article linked above)</p>

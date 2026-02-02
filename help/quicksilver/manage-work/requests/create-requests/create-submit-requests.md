@@ -6,9 +6,9 @@ description: Geplande werkzaamheden worden in Adobe Workfront vertegenwoordigd d
 author: Becky
 feature: Work Management
 exl-id: 8b023a3d-326d-4d63-9e1e-8171553a9e23
-source-git-commit: 2b4c13babecd3675f82699282c3dd42191c73df1
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '2532'
+source-wordcount: '2575'
 ht-degree: 0%
 
 ---
@@ -29,13 +29,13 @@ ht-degree: 0%
 Geplande werkzaamheden worden in Adobe Workfront vertegenwoordigd door projecten en taken. U kunt echter werken in een omgeving waar ongeplande werkzaamheden, in de vorm van verzoeken, op elk moment kunnen worden uitgevoerd. Workfront biedt een workflow voor het aanpassen van dit type omgeving via het gebruik van Request Queues.
 
 Nadat u een verzoek in een Rij van het Verzoek creeert, kunt u of het toewijzen om worden voltooid of u kunt het in een taak of een project omzetten.\
-Voor meer informatie over het omzetten van kwesties in een taak of een project, zie het artikel [&#x200B; Overzicht van het omzetten van kwesties in Adobe Workfront &#x200B;](../../../manage-work/issues/convert-issues/convert-issues.md).
+Voor meer informatie over het omzetten van kwesties in een taak of een project, zie het artikel [ Overzicht van het omzetten van kwesties in Adobe Workfront ](../../../manage-work/issues/convert-issues/convert-issues.md).
 
 U kunt op de volgende manieren een Workfront-aanvraag maken:
 
 * Geheel opnieuw, zoals beschreven in dit artikel.
-* Van concepten. Voor informatie, zie [&#x200B; verzoeken van concepten &#x200B;](../../../manage-work/requests/create-requests/create-requests-from-drafts.md) creëren.
-* Van een bestaand verzoek, door een exemplaar te kopiëren en voor te leggen. Voor informatie, zie [&#x200B; Exemplaar en leg verzoeken &#x200B;](../../../manage-work/requests/create-requests/copy-and-submit-requests.md) voor.
+* Van concepten. Voor informatie, zie [ verzoeken van concepten ](../../../manage-work/requests/create-requests/create-requests-from-drafts.md) creëren.
+* Van een bestaand verzoek, door een exemplaar te kopiëren en voor te leggen. Voor informatie, zie [ Exemplaar en leg verzoeken ](../../../manage-work/requests/create-requests/copy-and-submit-requests.md) voor.
 
 U kunt op de volgende manieren een Workfront-planningsverzoek helemaal zelf maken om records te maken in Workfront Planning:
 
@@ -43,7 +43,7 @@ U kunt op de volgende manieren een Workfront-planningsverzoek helemaal zelf make
 
 * Vanuit een formulier voor planningsaanvragen van Workfront in het gebied Verzoeken van Workfront.
 
-  Uw organisatie moet een pakket voor Workfront-planning aanschaffen. Voor informatie, zie [&#x200B; de Verzoeken van de Planning van Adobe Workfront voorleggen om verslagen &#x200B;](/help/quicksilver/planning/requests/submit-requests.md) tot stand te brengen.
+  Uw organisatie moet een pakket voor Workfront-planning aanschaffen. Voor informatie, zie [ de Verzoeken van de Planning van Adobe Workfront voorleggen om verslagen ](/help/quicksilver/planning/requests/submit-requests.md) tot stand te brengen.
 
 ## Toegangsvereisten
 
@@ -75,7 +75,7 @@ U kunt op de volgende manieren een Workfront-planningsverzoek helemaal zelf make
  </tbody> 
 </table>
 
-Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -83,25 +83,25 @@ Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van W
 
 Een Workfront-beheerder moet aanvraagwachtrijen maken en beschikbaar stellen aan gebruikers voordat deze functie kan worden gebruikt. Een gebruiker met een Planner-licentie en met de machtiging Bewerken tot projecten en Beheren voor een specifiek project kan ook aanvraagwachtrijen maken.
 
-Voor informatie over hoe te om de Rijen van Verzoeken tot stand te brengen, zie het artikel [&#x200B; een Rij van het Verzoek &#x200B;](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md) creëren.
+Voor informatie over hoe te om de Rijen van Verzoeken tot stand te brengen, zie het artikel [ een Rij van het Verzoek ](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md) creëren.
 
 Een Workfront-beheerder moet de volgende componenten van een aanvraagwachtrij maken:
 
 * Een project in Huidige status, die als Rij van het Verzoek van de Hulp wordt gepubliceerd.
 * De Onderwerpen van de rij.\
-  Voor meer informatie, zie het artikel [&#x200B; leidt tot de Onderwerpen van de Rij &#x200B;](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
+  Voor meer informatie, zie het artikel [ leidt tot de Onderwerpen van de Rij ](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
 
 * Verpletterend Regels.\
-  Voor meer informatie, zie het artikel [&#x200B; het Verpletteren van Regels &#x200B;](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md) creëren.
+  Voor meer informatie, zie het artikel [ het Verpletteren van Regels ](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md) creëren.
 
 * (Optioneel) Onderwerpgroepen.\
-  Voor meer informatie, zie het artikel [&#x200B; creëren de Groepen van het Onderwerp &#x200B;](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md).
+  Voor meer informatie, zie het artikel [ creëren de Groepen van het Onderwerp ](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md).
 
 * (Optioneel) Aangepast formulier aanvragen.\
-  Voor meer informatie, zie het artikel [&#x200B; een douaneformulier &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren.
+  Voor meer informatie, zie het artikel [ een douaneformulier ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren.
 
 * (Optioneel) Verzoek om goedkeuring.\
-  Voor meer informatie, zie het artikel [&#x200B; een goedkeuringsproces voor het werkpunten &#x200B;](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md) creëren.
+  Voor meer informatie, zie het artikel [ een goedkeuringsproces voor het werkpunten ](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md) creëren.
 
 ## Verzoeken maken en concepten genereren in de Workfront-webapp
 
@@ -120,7 +120,7 @@ U kunt doorgaan met het verzenden van de aanvraag, of u kunt alle beschikbare ge
 >* Als de structuur van een aanvraagwachtrij verandert, hebt u geen toegang meer tot bestaande concepten. Bijvoorbeeld, als een rijonderwerp wordt verwijderd, of een onderwerpgroep wordt toegevoegd, zijn de bewaarde concepten niet meer toegankelijk.
 >
 
-Voor informatie over het creëren van verzoeken van bestaande concepten, zie [&#x200B; verzoeken van concepten &#x200B;](../../../manage-work/requests/create-requests/create-requests-from-drafts.md) creëren. Voor informatie over het schrappen van verzoekconcepten, zie ook [&#x200B; Schrapping een verzoekontwerp &#x200B;](../../../manage-work/requests/create-requests/delete-request-draft.md).
+Voor informatie over het creëren van verzoeken van bestaande concepten, zie [ verzoeken van concepten ](../../../manage-work/requests/create-requests/create-requests-from-drafts.md) creëren. Voor informatie over het schrappen van verzoekconcepten, zie ook [ Schrapping een verzoekontwerp ](../../../manage-work/requests/create-requests/delete-request-draft.md).
 
 Een aanvraag maken in de Workfront-webapp:
 
@@ -158,7 +158,7 @@ Een aanvraag maken in de Workfront-webapp:
      >
      >Workfront slaat alleen een pad op als je er een aanvraag voor hebt ingediend. Er worden geen paden voor opgestelde verzoeken gemaakt.
 
-     ![](assets/list-of-recent-paths-and-request-queues-when-entering-new-request-nwe-350x295.png)
+     ![ Lijst van recente wegen en verzoekrijen wanneer het ingaan van een nieuw verzoek ](assets/list-of-recent-paths-and-request-queues-when-entering-new-request-nwe-350x295.png)
 
    * Van de **sectie van de Vragen van het Verzoek**, selecteer een verzoekrij.
    * Voer een trefwoord in dat bij een eerder geopend pad hoort om naar een aanvraagwachtrij te zoeken.
@@ -169,7 +169,7 @@ Een aanvraag maken in de Workfront-webapp:
      >
      >Wanneer u een naam typt die een speciaal karakter bevat, de verzoekrij, het rijonderwerp, of de vertoning van de onderwerpgroep zelfs wanneer u het typen van het karakter weglaat.
 
-     ![](assets/request-queue-search-findings-with-highlighted-results-350x210.png)
+     ![ de bevindingen van het de rijonderzoek van het verzoek met benadrukte resultaten ](assets/request-queue-search-findings-with-highlighted-results-350x210.png)
 
      De lijst met beschikbare aanvraagrijen en recente paden wordt dynamisch bijgewerkt en bevat alleen paden die het trefwoord bevatten dat in de resultaten is gemarkeerd.
 
@@ -196,7 +196,7 @@ Een aanvraag maken in de Workfront-webapp:
    >* De naam van de verzoekrij is de naam van het project dat als Rij van het Verzoek van de Hulp is gepubliceerd.
    >* De beschrijving van het project dat als de geselecteerde vertoningen van de verzoekrij aan het recht van de naam van de verzoekrij wordt gevormd.
    >   
-   >Voor meer informatie over hoe te om een project als Rij van het Verzoek van de Hulp te publiceren, zie het artikel [&#x200B; een Rij van het Verzoek &#x200B;](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md) creëren.
+   >Voor meer informatie over hoe te om een project als Rij van het Verzoek van de Hulp te publiceren, zie het artikel [ een Rij van het Verzoek ](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md) creëren.
 
 1. In de **Nieuwe verzoek** vorm, doe één van het volgende:
 
@@ -206,7 +206,7 @@ Een aanvraag maken in de Workfront-webapp:
 
      De drie meest recente concepten van drie verschillende rijonderwerpen worden standaard weergegeven.
 
-     ![](assets/new-drafts-after-new-request-area-was-removed-350x162.png)
+     ![ Nieuwe concepten nadat het nieuwe verzoekgebied werd verwijderd ](assets/new-drafts-after-new-request-area-was-removed-350x162.png)
 
    * Voer een nieuwe aanvraag in de geselecteerde wachtrij in.
 
@@ -219,11 +219,11 @@ Een aanvraag maken in de Workfront-webapp:
    >Wanneer u over een Onderwerpgroep of een Onderwerp van de Rij beweegt, toont het gebied van de Beschrijving aan het recht. Dit bevat extra informatie over de onderwerpgroep of het rijonderwerp.
    >
    >
-   >![](assets/show-description-on-queue-topic-when-submitting-request-nwe-350x81.png)
+   >![ toon beschrijving op rijonderwerp wanneer het voorleggen van verzoek ](assets/show-description-on-queue-topic-when-submitting-request-nwe-350x81.png)
    >
 
    U kunt tot 10 rijen van Onderwerpgroepen hebben die in uw Rij van het Verzoek worden gebouwd.\
-   Voor meer informatie over hoe te om tot de Groepen van het Onderwerp te leiden, zie het artikel [&#x200B; tot de Groepen van het Onderwerp &#x200B;](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md). Voor meer informatie over het creëren van de Onderwerpen van de Rij, zie het artikel [&#x200B; de Onderwerpen van de Rij &#x200B;](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md) creëren.
+   Voor meer informatie over hoe te om tot de Groepen van het Onderwerp te leiden, zie het artikel [ tot de Groepen van het Onderwerp ](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md). Voor meer informatie over het creëren van de Onderwerpen van de Rij, zie het artikel [ de Onderwerpen van de Rij ](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md) creëren.
 
    >[!TIP]
    >
@@ -321,25 +321,25 @@ Een aanvraag maken in de Workfront-webapp:
 
 1. Voer een van de volgende handelingen uit:
 
-   * Klik **voorleggen** als u bereid bent om het verzoek voor te leggen. De aanvraag wordt opgeslagen in de sectie Verzenden. Afhankelijk van de Verpletterende Regel van de Rij van het Verzoek, zou dit verzoek aan een verschillend project dan kunnen worden verpletterd die als Rij van het Verzoek wordt aangewezen. Voor informatie over het verpletteren van regels, zie [&#x200B; het Verpletteren van Regels &#x200B;](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md) creëren.
+   * Klik **voorleggen** als u bereid bent om het verzoek voor te leggen. De aanvraag wordt opgeslagen in de sectie Verzenden. Afhankelijk van de Verpletterende Regel van de Rij van het Verzoek, zou dit verzoek aan een verschillend project dan kunnen worden verpletterd die als Rij van het Verzoek wordt aangewezen. Voor informatie over het verpletteren van regels, zie [ het Verpletteren van Regels ](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md) creëren.
 
      of
 
      Klik **dicht** als u niet behoorlijk bereid bent om het voor te leggen en u zou kunnen terugkomen en het later beëindigen. Uw verzoek wordt opgeslagen in de sectie Concepten. De volgende keer dat u een aanvraag voor deze aanvraagwachtrij verzendt, is deze beschikbaar.
 
-     ![](assets/nwe-submit-close-discard-draft-buttons-on-new-request-350x340.png)
+     ![ voorleggen, sluiten, verwerpen ontwerp knoop op nieuw verzoek ](assets/nwe-submit-close-discard-draft-buttons-on-new-request-350x340.png)
 
    Wanneer u het verzoek indient, wordt het concept automatisch verwijderd en kan het niet worden hersteld.
 
    Voorgelegde verzoeken worden vermeld in de **Voorgelegde** sectie van het gebied van Verzoeken. Als u de nieuwe ervaring gebruikt, voorlegde Workfront verzoeken vertoning op het **Workfront** lusje van het gebied van Verzoeken.
 
-   Voor informatie over het richten van inkomende verzoeken, zie het artikel [&#x200B; werk en teamverzoeken &#x200B;](../../../people-teams-and-groups/work-with-team-requests/manage-work-and-team-requests.md) leiden.
+   Voor informatie over het richten van inkomende verzoeken, zie het artikel [ werk en teamverzoeken ](../../../people-teams-and-groups/work-with-team-requests/manage-work-and-team-requests.md) leiden.
 
-   Voor informatie over de plaats bepalen van voorgelegde of opgestelde verzoeken, zie ook [&#x200B; plaats voorgelegde verzoeken &#x200B;](../../../manage-work/requests/create-requests/locate-submitted-requests.md).
+   Voor informatie over de plaats bepalen van voorgelegde of opgestelde verzoeken, zie ook [ plaats voorgelegde verzoeken ](../../../manage-work/requests/create-requests/locate-submitted-requests.md).
 
 ## Verzoeken maken van buiten Workfront
 
-U kunt een directe koppeling naar een aanvraagwachtrij delen wanneer u een nieuwe aanvraag indient en deze insluiten in andere toepassingen. Gebruikers die via internet of andere toepassingen toegang krijgen tot deze koppeling, moeten zich ook aanmelden met een actieve Workfront-account om toegang te krijgen tot deze wachtrij en aanvragen naar deze wachtrij te kunnen verzenden. Voor informatie, zie [&#x200B; een verbinding aan een verzoekrij &#x200B;](../../../manage-work/requests/create-requests/share-link-to-request-queue.md) delen.
+U kunt een directe koppeling naar een aanvraagwachtrij delen wanneer u een nieuwe aanvraag indient en deze insluiten in andere toepassingen. Gebruikers die via internet of andere toepassingen toegang krijgen tot deze koppeling, moeten zich ook aanmelden met een actieve Workfront-account om toegang te krijgen tot deze wachtrij en aanvragen naar deze wachtrij te kunnen verzenden. Voor informatie, zie [ een verbinding aan een verzoekrij ](../../../manage-work/requests/create-requests/share-link-to-request-queue.md) delen.
 
 ## Verzoeken maken via e-mail naar Workfront
 
@@ -351,7 +351,7 @@ De hoofdtekst van de e-mail wordt toegevoegd als de aanvraagbeschrijving.
 >
 >HTML-opmaak wordt verwijderd wanneer de aanvraag Workfront binnengaat, maar handtekeningen en bestaande inhoud van de Reply-to-thread worden niet verwijderd en weergegeven in de beschrijving van de aanvraag.
 
-Voor informatie over hoe te om een Rij van het Verzoek toe te laten om verzoeken door e-mail te ontvangen, zie [&#x200B; gebruikers toelaten om een kwestie in een project van de Rij van het Verzoek te e-mailen &#x200B;](../../../manage-work/requests/create-requests/enable-email-issues-into-projects.md).
+Voor informatie over hoe te om een Rij van het Verzoek toe te laten om verzoeken door e-mail te ontvangen, zie [ gebruikers toelaten om een kwestie in een project van de Rij van het Verzoek te e-mailen ](../../../manage-work/requests/create-requests/enable-email-issues-into-projects.md).
 
 ## Verzoeken maken met de mobiele Workfront-app
 
@@ -359,7 +359,7 @@ U kunt aanvragen verzenden via de mobiele app op uw smartphone. U kunt een nieuw
 
 Raadpleeg de sectie Verzoeken in de artikelen voor informatie over het verzenden van aanvragen via de mobiele app:
 
-* [&#x200B; Adobe Workfront voor Android &#x200B;](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md#requests)
+* [ Adobe Workfront voor Android ](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md#requests)
 * [Adobe Workfront voor iOS](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md#requests)
 
 ## Verzoeken maken vanuit andere toepassingen
@@ -367,7 +367,7 @@ Raadpleeg de sectie Verzoeken in de artikelen voor informatie over het verzenden
 U kunt aanvragen verzenden met alle toepassingen die zijn geïntegreerd met Workfront:
 
 * U kunt een aangepaste integratie maken tussen Workfront en een andere toepassing waarmee u aanvragen naar Workfront kunt verzenden vanuit de andere toepassing.\
-  Voor meer informatie over de integratie van douaneWorkfront, zie de artikel [&#x200B; integratie van Adobe Workfront &#x200B;](../../../administration-and-setup/configure-integrations/workfront-integrations-1.md).
+  Voor meer informatie over de integratie van douaneWorkfront, zie de artikel [ integratie van Adobe Workfront ](../../../administration-and-setup/configure-integrations/workfront-integrations-1.md).
 
 ## Verzoeken maken met een Workfront-aanvraagformulier voor planning
 
@@ -377,9 +377,9 @@ Uw organisatie moet een Workfront-planningspakket aanschaffen om planningsaanvra
 
 Raadpleeg de volgende artikelen voor meer informatie:
 
-* [&#x200B; creeer en beheer een verzoekvorm in de Planning van Adobe Workfront &#x200B;](/help/quicksilver/planning/requests/create-request-form.md).
-* [&#x200B; legt de Verzoeken van de Planning van Adobe Workfront voor om verslagen &#x200B;](/help/quicksilver/planning/requests/submit-requests.md) tot stand te brengen.
+* [ creeer en beheer een verzoekvorm in de Planning van Adobe Workfront ](/help/quicksilver/planning/requests/create-request-form.md).
+* [ legt de Verzoeken van de Planning van Adobe Workfront voor om verslagen ](/help/quicksilver/planning/requests/submit-requests.md) tot stand te brengen.
 
 ## Verzonden aanvragen zoeken
 
-Voor informatie over de plaats bepalen van voorgelegde of opgestelde verzoeken, zie [&#x200B; plaats voorgelegde verzoeken &#x200B;](../../../manage-work/requests/create-requests/locate-submitted-requests.md).
+Voor informatie over de plaats bepalen van voorgelegde of opgestelde verzoeken, zie [ plaats voorgelegde verzoeken ](../../../manage-work/requests/create-requests/locate-submitted-requests.md).

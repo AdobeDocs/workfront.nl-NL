@@ -1,5 +1,5 @@
 ---
-title: 'Het kader van Succes: modelleer uw campagnehiërarchie'
+title: 'De architectuur van Succes: modelleer uw campagnehiërarchie'
 description: Leer hoe u uw complexe bedrijfsprocessen vertaalt in een schaalbare, beheerde campagnehiërarchie met behulp van 'Graviteitscentra' en een architectuur met meerdere werkruimten.
 feature: Workfront Planning
 role: User, Admin
@@ -7,7 +7,7 @@ author: Alina
 recommendations: noDisplay, noCatalog
 hidefromtoc: true
 hide: true
-source-git-commit: 54a6e633e903c73a78b36e90fb27edb445dc8d47
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
 source-wordcount: '1060'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 ---
 
 
-# Het kader voor succes: modelleer uw campagnehiërarchie
+# De architectuur van succes: modelleer uw campagnehiërarchie
 
 <!--see the file again for additional comments from Seth and others-->
 
@@ -84,7 +84,7 @@ Zodra de kernweg wordt gevestigd, kunnen de organisaties verkiezen om extra lage
 >
 >**Cruciale Uiteinde: De 5.000 Geleverbare Drempel**
 >
->Als uw organisatie meer dan 5.000 activiteiten per jaar produceert, zou u **&#x200B;**&#x200B;altijd individueel het te leveren volgen aan de **module van het Werkschema** moeten ontladen. Het beheren van high-volume &quot;Ervaring&quot;verslagen in Planning kan tot gegevensaccumulatie leiden die uw strategische zicht verbergt. De Planning van het gebruik voor &quot;waarom&quot;en &quot;wat,&quot;en de module van het Werkschema voor het hoge volume &quot;hoe.&quot;
+>Als uw organisatie meer dan 5.000 activiteiten per jaar produceert, zou u **** altijd individueel het te leveren volgen aan de **module van het Werkschema** moeten ontladen. Het beheren van high-volume &quot;Ervaring&quot;verslagen in Planning kan tot gegevensaccumulatie leiden die uw strategische zicht verbergt. De Planning van het gebruik voor &quot;waarom&quot;en &quot;wat,&quot;en de module van het Werkschema voor het hoge volume &quot;hoe.&quot;
 
 
 
@@ -175,7 +175,7 @@ Terwijl de Planning van Workfront de toekomst van strategische intentie is, is z
 
 ### Niet doen:
 
-* **zeg niet &quot;Kern&quot;.** verwijs specifiek naar de **module van het Werkschema** en de **4&rbrace; voorwerpen van het Project &lbrace;wanneer het spreken over uitvoering.**
+* **zeg niet &quot;Kern&quot;.** verwijs specifiek naar de **module van het Werkschema** en de **4} voorwerpen van het Project {wanneer het spreken over uitvoering.**
 
 * **niet overcompliceer.** Elk extra hiërarchisch niveau voegt een &quot;beheerbelasting&quot; toe. Voeg alleen niveaus toe die een zakelijke vraag beantwoorden die u momenteel niet kunt beantwoorden.
 

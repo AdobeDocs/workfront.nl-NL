@@ -7,9 +7,9 @@ description: Een voorganger is de taak waarvan een andere taak (een opvolger of 
 author: Alina
 feature: Work Management
 exl-id: b2020a50-0921-4ed2-8a34-1a0411992b99
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '1179'
+source-wordcount: '1184'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 CONTEXT SENSITIVE HELP article. DO NOT CHANGE THE NAME OF THE ARTICLE/ DO NOT MOVE OR DELETE! -->
 
-Een voorganger is de taak waarvan een andere taak (een opvolger of afhankelijke taak genoemd) afhankelijk is. Adobe Workfront ondersteunt vijf typen afhankelijkheden van voorgangers. Om voorgangsafhankelijkheden te begrijpen, zie [&#x200B; Overzicht van de types van taakgebiedsdeel &#x200B;](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
+Een voorganger is de taak waarvan een andere taak (een opvolger of afhankelijke taak genoemd) afhankelijk is. Adobe Workfront ondersteunt vijf typen afhankelijkheden van voorgangers. Om voorgangsafhankelijkheden te begrijpen, zie [ Overzicht van de types van taakgebiedsdeel ](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
 
 ## Overzicht van voorgangers
 
@@ -38,13 +38,13 @@ Wanneer het op predecessors aankomt, wordt de projectchronologie beïnvloed door
 
 * Afhankelijkheid van voorgangers
 * Lagwaarde en -type\
-  Voor meer informatie over zowel gebiedsdeel als de vertragingen, zie [&#x200B; Voorbeelden van voorgangerswaarden in een taaklijst &#x200B;](#examples-of-predecessor-values-in-a-task-list).
+  Voor meer informatie over zowel gebiedsdeel als de vertragingen, zie [ Voorbeelden van voorgangerswaarden in een taaklijst ](#examples-of-predecessor-values-in-a-task-list).
 
   Bijvoorbeeld, als taak A een voorganger is om B in een eindstartverhouding te taken, en taak B heeft een taakbeperking van zo snel mogelijk, dan wijst Workfront taak B een geplande begindatum onmiddellijk na de geplande voltooiingsdatum van taak A toe, ongeacht of voorganger wordt afgedwongen of niet.
 
 Als u relaties met voorgangers wilt begrijpen, moet u begrijpen:
 
-* **Types van Afhankelijkheid:** Predecessors zijn verbonden door diverse gebiedstypes. Voor meer informatie over gebiedsdeeltypes, zie [&#x200B; Overzicht van de types van taakgebiedsdeel &#x200B;](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
+* **Types van Afhankelijkheid:** Predecessors zijn verbonden door diverse gebiedstypes. Voor meer informatie over gebiedsdeeltypes, zie [ Overzicht van de types van taakgebiedsdeel ](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
 
 * **Uitvoerend een voorganger:** wanneer het afdwingen van een voorganger, kan de opvolgertaak absoluut niet beginnen tot voorganger voltooit. De opvolgertaak wordt weergegeven als onmiddellijk starten nadat de voorganger is voltooid.
 
@@ -53,20 +53,20 @@ Als u relaties met voorgangers wilt begrijpen, moet u begrijpen:
   Met een afgedwongen voorganger staat Workfront niet toe dat de opvolgertaak wordt gemarkeerd als Bezig of Voltooid totdat de voorganger is voltooid.
 
   Workfront staat echter toe dat er uren worden gerapporteerd over de taak.\
-  Voor meer informatie bij het afdwingen van predecessors, zie [&#x200B; predecessors &#x200B;](../../../manage-work/tasks/use-prdcssrs/enforced-predecessors.md) afdwingen.
+  Voor meer informatie bij het afdwingen van predecessors, zie [ predecessors ](../../../manage-work/tasks/use-prdcssrs/enforced-predecessors.md) afdwingen.
 
 * **Markeringen:** u kunt lagen in uw gebiedsdelen bouwen die tot een vertraging leiden die na de voltooiing van een voorgangerstaak en vóór de opvolgertaak moet voorkomen kan beginnen. Lags beïnvloeden de tijdlijn van het project.
 
-  Om vertragingstypes te begrijpen, zie [&#x200B; Overzicht van de Types van Lag &#x200B;](../../../manage-work/tasks/use-prdcssrs/lag-types.md).
+  Om vertragingstypes te begrijpen, zie [ Overzicht van de Types van Lag ](../../../manage-work/tasks/use-prdcssrs/lag-types.md).
 
 ## Relaties van voorgangers maken
 
 Zie een of meer van de volgende artikelen om voordecessors te maken:
 
-* Om predecessors te vestigen die het lusje van Predecessors van de taak gebruiken, zie [&#x200B; een voorgangersverhouding creëren gebruikend het gebied van Predecessors &#x200B;](../../../manage-work/tasks/use-prdcssrs/create-predecessors-in-predecessors-area.md).
-* Om predecessors in een taaklijst te vestigen, zie [&#x200B; een voorgangersverhouding op de taaklijst &#x200B;](../../../manage-work/tasks/use-prdcssrs/create-predecessors-on-task-list.md) creëren.
-* Om predecessor verhoudingen te vestigen door taken in een keten te plaatsen, zie [&#x200B; predecessor verhoudingen tot stand brengen door taken &#x200B;](../../../manage-work/tasks/use-prdcssrs/create-predecessors-by-chaining-tasks.md) in een keten te brengen.
-* Om dwars-project predecessors te vestigen, zie [&#x200B; tot dwars-project predecessors &#x200B;](../../../manage-work/tasks/use-prdcssrs/cross-project-predecessors.md) leiden.
+* Om predecessors te vestigen die het lusje van Predecessors van de taak gebruiken, zie [ een voorgangersverhouding creëren gebruikend het gebied van Predecessors ](../../../manage-work/tasks/use-prdcssrs/create-predecessors-in-predecessors-area.md).
+* Om predecessors in een taaklijst te vestigen, zie [ een voorgangersverhouding op de taaklijst ](../../../manage-work/tasks/use-prdcssrs/create-predecessors-on-task-list.md) creëren.
+* Om predecessor verhoudingen te vestigen door taken in een keten te plaatsen, zie [ predecessor verhoudingen tot stand brengen door taken ](../../../manage-work/tasks/use-prdcssrs/create-predecessors-by-chaining-tasks.md) in een keten te brengen.
+* Om dwars-project predecessors te vestigen, zie [ tot dwars-project predecessors ](../../../manage-work/tasks/use-prdcssrs/cross-project-predecessors.md) leiden.
 
 ## De voorgangers van een taak zoeken {#locate-the-predecessors-of-a-task}
 
@@ -80,13 +80,13 @@ Als u de voorgangers van een taak wilt zoeken, voert u een van de volgende hande
 
       Het getal in de kolom **#** toont het vorige taaknummer. Bijvoorbeeld &quot;6&quot;betekent de zesde taak in het project.
 
-      ![&#x200B; Predecessors sectie van taak &#x200B;](assets/predecessors-area-with-task-header.png)
+      ![ Predecessors sectie van taak ](assets/predecessors-area-with-task-header.png)
 
 * Ga naar het project u werkt aan en doe het volgende:
 
    1. Klik de **Taken** tabel.
    1. Kies de **StandaardMening** bij de bovenkant van de taaklijst.
-   1. De **1&rbrace; kolom van Predecessors &lbrace;toont de aantallen van de voorgangertaak.**
+   1. De **1} kolom van Predecessors {toont de aantallen van de voorgangertaak.**
 
       Voor een dwars-projectvoorganger, toont de kolom van Voorgangers het verwijzingsaantal van het project predecessor tot behoort en het aantal van de taak, die door een dubbelpunt wordt gescheiden.
 
@@ -94,7 +94,7 @@ Als u de voorgangers van een taak wilt zoeken, voert u een van de volgende hande
 
       Houd de muisaanwijzer boven deze waarde voor meer informatie over de voorganger, het project en de datums.
 
-      ![&#x200B; Details van de Predecessor &#x200B;](assets/predecessor-details-in-task-list.png)
+      ![ Details van de Predecessor ](assets/predecessor-details-in-task-list.png)
 
 ## Voorbeelden van voorgangerswaarden in een takenlijst {#examples-of-predecessor-values-in-a-task-list}
 
@@ -120,11 +120,11 @@ U kunt voorganger-informatie weergeven in de volgende gebieden van Workfront. Di
 
 * Op taakniveau, in de sectie Predecessors.
 
-  Voor informatie over het bekijken van voorgangersinformatie in de sectie van Predecessors, zie de sectie [&#x200B; plaats van de voorgangers van een taak &#x200B;](#locate-the-predecessors-of-a-task) in dit artikel.
+  Voor informatie over het bekijken van voorgangersinformatie in de sectie van Predecessors, zie de sectie [ plaats van de voorgangers van een taak ](#locate-the-predecessors-of-a-task) in dit artikel.
 
 * In het Gantt-diagram.
 
-  Voor informatie over het tonen van predecessors in de grafiek van Gantt, zie [&#x200B; vormen hoe de informatievertoningen op de Grafiek van Gantt &#x200B;](../../../manage-work/gantt-chart/use-the-gantt-chart/configure-info-on-gantt-chart.md).
+  Voor informatie over het tonen van predecessors in de grafiek van Gantt, zie [ vormen hoe de informatievertoningen op de Grafiek van Gantt ](../../../manage-work/gantt-chart/use-the-gantt-chart/configure-info-on-gantt-chart.md).
 
 * In een takenlijst.
 
@@ -132,12 +132,12 @@ U kunt voorganger-informatie weergeven in de volgende gebieden van Workfront. Di
 
    * Pas de ingebouwde standaardweergave toe in een takenlijst.
 
-     Voor informatie over het bekijken van voorgangersinformatie in de Standaardmening, zie de sectie [&#x200B; plaats van de voorgangers van een taak &#x200B;](#locate-the-predecessors-of-a-task) in dit artikel.
+     Voor informatie over het bekijken van voorgangersinformatie in de Standaardmening, zie de sectie [ plaats van de voorgangers van een taak ](#locate-the-predecessors-of-a-task) in dit artikel.
 
    * Bouw een taakmening of een rapport en voeg de kolom Predecessors aan die mening toe.
 
-     Voor meer informatie over de bouw van een aangepaste mening voor taken met voorgangersinformatie, zie [&#x200B; Mening: voorgangersdetails &#x200B;](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-predecessor-details.md).
+     Voor meer informatie over de bouw van een aangepaste mening voor taken met voorgangersinformatie, zie [ Mening: voorgangersdetails ](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-predecessor-details.md).
 
 * In de taakkopbal wanneer het toegang tot van de taak.
 
-  ![](assets/qs-predecessor-info-in-task-header-350x141.png)
+  ![ Info van de Predecessor in taakkopbal ](assets/qs-predecessor-info-in-task-header-350x141.png)

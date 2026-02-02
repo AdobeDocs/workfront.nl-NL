@@ -6,9 +6,9 @@ description: Standaard berekent Adobe Workfront de duur van een taak met een typ
 author: Alina
 feature: Work Management
 exl-id: 47a9b095-2b7d-4ed0-8cb6-e6bd5e37ce9c
-source-git-commit: c1b8af0d8a95714bb597db7a429794773358cf05
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '439'
+source-wordcount: '450'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ Standaard berekent Adobe Workfront de duur van een taak met een type eenvoudige 
 
 U kunt Geplande uren en Duur van een taak met het Eenvoudige Type van Duur inline of op het taakniveau in het gebied van Taken uitgeven.
 
-Voor meer informatie over het uitgeven van informatie gealigneerd, zie [&#x200B; gealigneerd punten in een lijst in Adobe Workfront &#x200B;](../../../workfront-basics/navigate-workfront/use-lists/inline-edit-objects.md) uitgeven.
+Voor meer informatie over het uitgeven van informatie gealigneerd, zie [ gealigneerd punten in een lijst in Adobe Workfront ](../../../workfront-basics/navigate-workfront/use-lists/inline-edit-objects.md) uitgeven.
 
 In dit artikel wordt beschreven hoe u de Geplande uren en Duur voor een taak met een Eenvoudig Duur Type op het taakniveau, in het gebied van Taken kunt bijwerken.
 
@@ -51,7 +51,7 @@ In dit artikel wordt beschreven hoe u de Geplande uren en Duur voor een taak met
  </tbody> 
 </table>
 
-Voor meer informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -91,13 +91,13 @@ Om de Geplande Uren en Duur van een taak met een Eenvoudig Type van Duur in de G
 1. Klik in een takenlijst op de naam van de taak waarvoor u het type duur wilt wijzigen.
 1. Voer een van de volgende handelingen uit:
 
-   * Klik **Meer** pictogram ![](assets/qs-more-icon-on-an-object.png) naast de naam van de taak, geef **uit**, dan **Taken**.
+   * Klik het **Meer** pictogram ![ Meer pictogram op een voorwerp ](assets/qs-more-icon-on-an-object.png) naast de naam van de taak, klik **uitgeven**, toen **Taken**.
    * Klik **Toegewezen aan** of de naam van de taken in het gebied van Taken van de taakkopbal, dan klik **Geavanceerd**.
 
 1. Ga een totale waarde voor de **Geplande Uren** voor alle taken in, bijvoorbeeld, 10 uren. Het totale aantal geplande uren wordt gelijkelijk verdeeld over alle middelen die aan de taak worden toegewezen.
 1. (Optioneel) Pas handmatig de geplande uren aan van elke bron die aan de taak is toegewezen. Het totale aantal geplande uren voor de taakupdates om de nieuwe uren te weerspiegelen die individueel aan uw middelen worden toegewezen.
 1. Ga een waarde voor de taak **Duur** in, bijvoorbeeld 2 Dagen.
 
-   ![](assets/advanced-assignments-simple-duration-multiple-resources-nwe-350x198.png)
+   ![ Geavanceerde taken eenvoudige duur veelvoudige middelen ](assets/advanced-assignments-simple-duration-multiple-resources-nwe-350x198.png)
 
 1. Klik **sparen**.
