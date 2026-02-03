@@ -70,7 +70,7 @@ In dit artikel wordt beschreven hoe u een lijstweergave kunt maken of bewerken o
 </tbody> 
 </table>
 
-Voor meer informatie over de toegangsvereisten van Workfront, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer informatie over de toegangsvereisten van Workfront, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++ 
 
@@ -80,9 +80,9 @@ Voor meer informatie over de toegangsvereisten van Workfront, zie [ vereisten va
 
    * Workfront-projecten
 
-  Voor informatie over het creëren van een verbonden verslagenpagina, zie [ een Verbonden verslagenpagina aan een verslag ](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md) toevoegen.
-* Voordat u een lijstweergave kunt weergeven in een verbonden recordpagina van een record, moet u Workfront-projecten verbinden met de recordtypen Planning. Voor informatie, zie [ verbind verslagtypes ](/help/quicksilver/planning/architecture/connect-record-types.md).
-* Lijstweergaven zijn vergelijkbaar met Uitgebreide lijsten. Voor meer informatie, zie [ Gebruik verbeterde lijsten ](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
+  Voor informatie over het creëren van een verbonden verslagenpagina, zie [&#x200B; een Verbonden verslagenpagina aan een verslag &#x200B;](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md) toevoegen.
+* Voordat u een lijstweergave kunt weergeven in een verbonden recordpagina van een record, moet u Workfront-projecten verbinden met de recordtypen Planning. Voor informatie, zie [&#x200B; verbind verslagtypes &#x200B;](/help/quicksilver/planning/architecture/connect-record-types.md).
+* Lijstweergaven zijn vergelijkbaar met Uitgebreide lijsten. Voor meer informatie, zie [&#x200B; Gebruik verbeterde lijsten &#x200B;](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
 
 
 ## Een lijstweergave beheren {#manage-a-list-view}
@@ -91,30 +91,30 @@ Voor meer informatie over de toegangsvereisten van Workfront, zie [ vereisten va
 
 1. Klik op een werkruimtekaart en klik vervolgens op een opnametype.
 1. Klik vanuit een willekeurige weergave op de naam van een record om de voorvertoning of detailpagina van de record te openen.
-1. Voeg a **Verbonden verslagenpagina** voor verbonden projecten toe zoals die in het artikel [ worden beschreven een Verbonden verslagenpagina aan een verslag ](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md) toevoegen.
+1. Voeg a **Verbonden verslagenpagina** voor verbonden projecten toe zoals die in het artikel [&#x200B; worden beschreven een Verbonden verslagenpagina aan een verslag &#x200B;](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md) toevoegen.
 
    Op de pagina Verbonden records worden projecten weergegeven die zijn verbonden met de record in de lijstweergave.
 
-   ![ Projecten op verbonden verslagenpagina in lijstmening ](assets/projects-on-connected-records-page-list-view.png)
+   ![&#x200B; Projecten op verbonden verslagenpagina in lijstmening &#x200B;](assets/projects-on-connected-records-page-list-view.png)
 
 <!--BELOW IS ALL FROM TABLE VIEW - EDIT EVERYTHING-->
 
-1. Creeer een lijstmening, zoals die in artikel [ wordt beschreven beheer verslagmeningen ](/help/quicksilver/planning/views/manage-record-views.md).
+1. Creeer een lijstmening, zoals die in artikel [&#x200B; wordt beschreven beheer verslagmeningen &#x200B;](/help/quicksilver/planning/views/manage-record-views.md).
 
-   ![ de meningsvoorbeeld van de Lijst ](assets/table-view-example.png)
+   ![&#x200B; de meningsvoorbeeld van de Lijst &#x200B;](assets/table-view-example.png)
 
 1. (Facultatief) klik **de hoogte van de Rij**, dan selecteer van de volgende opties om de hoogte van de lijstrijen te wijzigen:
    * Kort
    * Medium
    * Lang
 
-1. (Facultatief) klik het **Volledige het schermpictogram** pictogram ![ open volledig het schermpictogram ](assets/open-full-screen-icon.png) om de mening in volledig scherm te openen, dan de **Uitgang volledig scherm** pictogram ![ van de Uitgang het volledige het schermpictogram ](assets/exit-full-screen-icon.png) of Escape op uw toetsenbord om het volledige scherm weg te gaan.
+1. (Facultatief) klik het **Volledige het schermpictogram** pictogram ![&#x200B; open volledig het schermpictogram &#x200B;](assets/open-full-screen-icon.png) om de mening in volledig scherm te openen, dan de **Uitgang volledig scherm** pictogram ![&#x200B; van de Uitgang het volledige het schermpictogram &#x200B;](assets/exit-full-screen-icon.png) of Escape op uw toetsenbord om het volledige scherm weg te gaan.
 
 1. Werk de volgende weergave-elementen bij zoals in de onderstaande subsecties wordt beschreven:
    * [Kolommen (of velden)](#add-columns-or-fields)
    * [Rijen (of records)](#add-rows-or-records)
-   * [ Filters ](#add-filters)
-   * [ Soort ](#add-a-sort)
+   * [&#x200B; Filters &#x200B;](#add-filters)
+   * [&#x200B; Soort &#x200B;](#add-a-sort)
    * [Groepering](#add-groupings)
    * [Rijkleuren](#add-row-colors)
    * [Real-time aanwezigheidsindicator](#enable-the-real-time-presence-indicator)
@@ -124,7 +124,7 @@ Voor meer informatie over de toegangsvereisten van Workfront, zie [ vereisten va
 
 In de kolomkoppen van een tabelweergave worden de velden weergegeven die zijn gekoppeld aan de records in de weergave. Velden die in de tabelweergave worden weergegeven, worden ook weergegeven in de sectie Details van een record.
 
-Voor meer informatie, zie [ verslagen ](/help/quicksilver/planning/records/edit-records.md) uitgeven.
+Voor meer informatie, zie [&#x200B; verslagen &#x200B;](/help/quicksilver/planning/records/edit-records.md) uitgeven.
 
 <!--this is not available yet:You can display record fields (or columns) in both a table and a timeline view. However, the number of columns displayed in the table of the timeline view is limited and you cannot add columns in addition to those selected by default.-->
 
@@ -134,11 +134,11 @@ U kunt maximaal 500 velden (of kolommen) toevoegen aan een tabelweergave.
 
 1. Ga naar een verslagtype pagina en klik een lusje van de lijstmening, of klik **+ Mening** om een nieuwe mening toe te voegen, dan **Lijst** te kiezen.
 
-1. Begin toevoegend gebieden (of kolommen), zoals die in het artikel [ worden beschreven creeer gebieden ](/help/quicksilver/planning/fields/create-fields.md).
+1. Begin toevoegend gebieden (of kolommen), zoals die in het artikel [&#x200B; worden beschreven creeer gebieden &#x200B;](/help/quicksilver/planning/fields/create-fields.md).
 
    De kolommen die u toevoegt, zijn zichtbaar voor alle gebruikers die toegang hebben tot het recordtype en worden toegevoegd als nieuwe velden op de pagina van de record.
 
-1. (Optioneel) Klik op het pictogram **Velden** pictogram ![ op de werkbalk, zoek naar een veld en schakel vervolgens de schakeloptie rechts van de veldnaam uit om het veld te verbergen.](assets/fields-icon.png)
+1. (Optioneel) Klik op het pictogram **Velden** pictogram ![&#x200B; op de werkbalk, zoek naar een veld en schakel vervolgens de schakeloptie rechts van de veldnaam uit om het veld te verbergen.](assets/fields-icon.png)
 
 1. Voer een van de volgende handelingen uit om de kolommen in de tabel opnieuw te ordenen:
 
@@ -146,7 +146,7 @@ U kunt maximaal 500 velden (of kolommen) toevoegen aan een tabelweergave.
 
    * Klik **Gebieden** in de toolbar van de lijst, dan belemmering en laat vallen de gebieden in de gewenste orde, dan klik buiten het **zicht en orde van Gebieden** vakje om het te sluiten.
 
-     ![ Gebieden die lijstmeningstoolbar plaatsen uitgevouwen ](assets/fields-setting-table-view-toolbar-expanded.png)
+     ![&#x200B; Gebieden die lijstmeningstoolbar plaatsen uitgevouwen &#x200B;](assets/fields-setting-table-view-toolbar-expanded.png)
 
      >[!TIP]
      >
@@ -160,13 +160,13 @@ U kunt maximaal 500 velden (of kolommen) toevoegen aan een tabelweergave.
 
 1. (Facultatief) Beweeg over een gebiedsnaam in de kolomkopbal van om het even welk gebied dat niet in de eerste kolom van de lijst toont, klik de naar beneden wijzende pijl rechts van de gebiedsnaam, dan klik **Reeks als primair gebied**.
 
-   ![ Reeks als primaire gebiedsoptie in lijstmening ](assets/set-as-primary-field-option-table-view.png)
+   ![&#x200B; Reeks als primaire gebiedsoptie in lijstmening &#x200B;](assets/set-as-primary-field-option-table-view.png)
 
 1. Klik **Vastgesteld gebied** om te bevestigen.
 
    Het veld wordt een primair veld, wat betekent dat het wordt weergegeven als de eerste kolom van de tabelweergave. Het vorige primaire veld gaat naar de tweede kolom.
 
-   Primaire velden worden de titel van de record en worden weergegeven in het koptekstgebied van de pagina van de record, en overal waar de records worden weergegeven. De recordtitel wordt bijvoorbeeld weergegeven in verbonden velden en in alle weergaven. Voor meer informatie over primaire gebieden, zie [ Primair gebiedsoverzicht ](/help/quicksilver/planning/fields/primary-field-overview.md).
+   Primaire velden worden de titel van de record en worden weergegeven in het koptekstgebied van de pagina van de record, en overal waar de records worden weergegeven. De recordtitel wordt bijvoorbeeld weergegeven in verbonden velden en in alle weergaven. Voor meer informatie over primaire gebieden, zie [&#x200B; Primair gebiedsoverzicht &#x200B;](/help/quicksilver/planning/fields/primary-field-overview.md).
 
 1. Klik en sleep de kolomscheidingslijnen en zet deze op de gewenste plaats neer om de kolommen breder te maken.
 
@@ -184,16 +184,16 @@ U kunt maximaal 500 velden (of kolommen) toevoegen aan een tabelweergave.
    >
    >Het aantal verborgen velden wordt links van het pictogram Velden op de werkbalk weergegeven.
    >
-   ><span class="preview"> door gebrek, tonen de verborgen gebieden niet in de 1} 2} voorproefdoos van de Details van het verslag {. **** Alle velden worden weergegeven op de pagina Details van de record. Voor informatie, zie [ de lay-out van de verslagpagina beheren ](/help/quicksilver/planning/records/manage-the-record-page.md)</span>
+   ><span class="preview"> door gebrek, tonen de verborgen gebieden niet in de 1&rbrace; 2&rbrace; voorproefdoos van de Details van het verslag &lbrace;. **&#x200B;**&#x200B;Alle velden worden weergegeven op de pagina Details van de record. Voor informatie, zie [&#x200B; de lay-out van de verslagpagina beheren &#x200B;](/help/quicksilver/planning/records/manage-the-record-page.md)</span>
 
 
 1. Klik het **pictogram van Gebieden** en laat knevel toe verbonden aan de gebieden u in de kolommen van de lijst wilt tonen. Alle velden worden standaard weergegeven.
 
 1. Ga als volgt te werk om snel records te zoeken die overeenkomen met een trefwoord:
 
-   1. In het **vakje van het 1} Onderzoek** pictogram van het Onderzoek ![ en begin een sleutelwoord verbonden aan om het even welk gebied van een verslag te typen dat op het scherm toont. ](assets/search-icon.png) Het aantal juiste overeenkomsten wordt weergegeven naast het zoekitem en het veld met de juiste overeenkomst wordt gemarkeerd.
+   1. In het **vakje van het 1&rbrace; Onderzoek** pictogram van het Onderzoek ![&#x200B; en begin een sleutelwoord verbonden aan om het even welk gebied van een verslag te typen dat op het scherm toont. &#x200B;](assets/search-icon.png) Het aantal juiste overeenkomsten wordt weergegeven naast het zoekitem en het veld met de juiste overeenkomst wordt gemarkeerd.
 
-      ![ vakje van het Onderzoek met resultaten blauw overzicht in lijstmening ](assets/search-box-with-results-blue-outline-table-view.png)
+      ![&#x200B; vakje van het Onderzoek met resultaten blauw overzicht in lijstmening &#x200B;](assets/search-box-with-results-blue-outline-table-view.png)
 
       U kunt elk woord of speciaal teken gebruiken dat op het scherm zichtbaar is.
 
@@ -214,15 +214,15 @@ U kunt tot 50.000 verslagen (of rijen) voor recordtypeS hebben.
 
 1. Ga naar een verslagtype pagina en klik een lusje van de lijstmening, of klik **+ Mening** om een nieuwe mening toe te voegen, dan **Lijst** te kiezen.
 
-1. Begin toevoegend verslagen (of rijen), zoals die in het artikel [ worden beschreven creeer verslagen ](/help/quicksilver/planning/records/create-records.md).
+1. Begin toevoegend verslagen (of rijen), zoals die in het artikel [&#x200B; worden beschreven creeer verslagen &#x200B;](/help/quicksilver/planning/records/create-records.md).
 
    De records die u in de tabelweergave toevoegt, worden direct opgeslagen en zijn zichtbaar voor alle gebruikers met de machtiging Weergave of hoger voor de werkruimte.
 
-1. (Facultatief) voeg een duimnagel aan elk verslag toe, en klik **Gebieden** in de hoger-juiste hoek van de lijst, dan selecteren de knevel voor het **3} gebied van de Duimnagel {om het links van het primaire gebied te tonen.** Deze optie is standaard uitgeschakeld.
+1. (Facultatief) voeg een duimnagel aan elk verslag toe, en klik **Gebieden** in de hoger-juiste hoek van de lijst, dan selecteren de knevel voor het **3&rbrace; gebied van de Duimnagel &lbrace;om het links van het primaire gebied te tonen.** Deze optie is standaard uitgeschakeld.
 
-   Voor informatie, zie [ een duimnagel aan een verslag ](/help/quicksilver/planning/records/add-thumbnails-to-records.md) toevoegen.
+   Voor informatie, zie [&#x200B; een duimnagel aan een verslag &#x200B;](/help/quicksilver/planning/records/add-thumbnails-to-records.md) toevoegen.
 
-1. (Facultatief) selecteer één of veelvoudige verslagen in een rij, dan belemmering en laat vallen het **pictogram van de handvat** handvat ![ links van het verslag om de rijen opnieuw in orde te brengen.](assets/handle-icon.png)
+1. (Facultatief) selecteer één of veelvoudige verslagen in een rij, dan belemmering en laat vallen het **pictogram van de handvat** handvat ![&#x200B; links van het verslag om de rijen opnieuw in orde te brengen.](assets/handle-icon.png)
 
    >[!NOTE]
    >
@@ -256,7 +256,7 @@ Houd rekening met het volgende wanneer u werkt met filters in de tabelweergave:
 
 Een filter toevoegen aan een tabelweergave:
 
-1. Creeer een lijstmening voor een verslagtype pagina, zoals die in artikel [ wordt beschreven beheer verslagmeningen ](/help/quicksilver/planning/views/manage-record-views.md).
+1. Creeer een lijstmening voor een verslagtype pagina, zoals die in artikel [&#x200B; wordt beschreven beheer verslagmeningen &#x200B;](/help/quicksilver/planning/views/manage-record-views.md).
 1. Selecteer een lijstmening, dan klik **Filters** in de hoger-juiste hoek van de lijst.
 1. Klik **toevoegen voorwaarde** en voeg de volgende informatie toe:
 
@@ -330,7 +330,7 @@ Een filter toevoegen aan een tabelweergave:
 
    * Selecteer een waarde voor het geselecteerde veld.
 
-   ![ de lijstmening van de Filter UI ](assets/filter-ui-table-view.png)
+   ![&#x200B; de lijstmening van de Filter UI &#x200B;](assets/filter-ui-table-view.png)
 
    Er is geen limiet voor het aantal filtervoorwaarden dat u kunt toevoegen.
 
@@ -342,7 +342,7 @@ Een filter toevoegen aan een tabelweergave:
 
    1. (Facultatief) voeg extra **EN** of **OF** exploitanten tussen veelvoudige voorwaardengroeperingen toe.
 
-      ![ Multi-tiered filters in meningen ](assets/multi-tiered-filters-in-views.png)
+      ![&#x200B; Multi-tiered filters in meningen &#x200B;](assets/multi-tiered-filters-in-views.png)
 
    De lijst met records wordt automatisch gefilterd.  <!--at this time, you can't name and save the filter - but will this change?!-->
    <!-- asked on the task for the simple filters whether there is a limitation for how many statements a filter can have?!-->
@@ -381,8 +381,8 @@ Houd rekening met het volgende wanneer u records in de tabelweergave sorteert:
 
 Ga als volgt te werk om <!--ungrouped (add this when sorting for groupings will be available--> records te sorteren:
 
-1. Creeer een lijstmening, zoals die in artikel [ wordt beschreven beheer verslagmeningen ](/help/quicksilver/planning/views/manage-record-views.md).
-1. Klik het **pictogram van de Soort** van de Soort ![ in de hoger-juiste hoek van de lijst](assets/sort-icon.png)
+1. Creeer een lijstmening, zoals die in artikel [&#x200B; wordt beschreven beheer verslagmeningen &#x200B;](/help/quicksilver/planning/views/manage-record-views.md).
+1. Klik het **pictogram van de Soort** van de Soort ![&#x200B; in de hoger-juiste hoek van de lijst](assets/sort-icon.png)
 
    of
 
@@ -406,7 +406,7 @@ Ga als volgt te werk om <!--ungrouped (add this when sorting for groupings will 
 
 1. Klik buiten de **verslagen van de Soort door** doos om het te sluiten.
 
-   ![ Sorterend in lijstmening ](assets/sorting-in-table-view.png)
+   ![&#x200B; Sorterend in lijstmening &#x200B;](assets/sorting-in-table-view.png)
 
    De gegevens in de tabel worden gesorteerd op basis van de geselecteerde criteria.
 
@@ -436,10 +436,10 @@ Overweeg het volgende:
 
 Een groep toevoegen:
 
-1. Creeer een chronologiemening voor een verslagtype, zoals die in artikel [ wordt beschreven beheer verslagmeningen ](/help/quicksilver/planning/views/manage-record-views.md).
+1. Creeer een chronologiemening voor een verslagtype, zoals die in artikel [&#x200B; wordt beschreven beheer verslagmeningen &#x200B;](/help/quicksilver/planning/views/manage-record-views.md).
 1. Klik **Groepering** in de hoger-juiste hoek van de lijstmening.
 
-   ![ het Groeperen UI lijstmening met verbonden gebieden ](assets/grouping-ui-table-view-with-linked-fields.png)
+   ![&#x200B; het Groeperen UI lijstmening met verbonden gebieden &#x200B;](assets/grouping-ui-table-view-with-linked-fields.png)
 
 1. Klik één van de voorgestelde gebieden, of klik **kies een verschillend gebied**, onderzoek naar een verschillend gebied, dan klik het wanneer het in de lijst toont.
 
@@ -449,7 +449,7 @@ Een groep toevoegen:
 
    Het aantal velden dat voor de groepering is geselecteerd, wordt weergegeven naast het pictogram Groeperen.
 
-   ![ groepering die in lijstmening wordt toegepast ](assets/grouping-applied-in-table-view.png)
+   ![&#x200B; groepering die in lijstmening wordt toegepast &#x200B;](assets/grouping-applied-in-table-view.png)
 
 
 
@@ -466,7 +466,7 @@ Een groep toevoegen:
 
    1. Klik het **Groeperen** pictogram, dan **breid allen** uit, of **vouwt allen** samen. Hiermee worden alle groepen en subgroepen in de tabelweergave uitgebreid.
 
-      ![ breid uit en vouwt alle knopen op de mening van de lijstlijst van het groeperingsvakje samen ](assets/expand-collapse-all-buttons-on-grouping-box-table-view.png)
+      ![&#x200B; breid uit en vouwt alle knopen op de mening van de lijstlijst van het groeperingsvakje samen &#x200B;](assets/expand-collapse-all-buttons-on-grouping-box-table-view.png)
 
    1. Klik met de rechtermuisknop op een van de groeperingsheaders in de tabelweergave en klik vervolgens op een van de volgende opties:
       * **breid groep** uit
@@ -495,11 +495,11 @@ To sort grouped records:
 
    Bijvoorbeeld, om campagnes met een status van Actief in groen te tonen, selecteer **Status**, dan een bepaling en een waarde voor het gebied kiezen.
 
-   ![ de kleurendoos van de Rij met Actieve geselecteerde status en standaardkleurenkeus ](assets/row-colors-box-with-active-status-selected-default-color-choice.png)
+   ![&#x200B; de kleurendoos van de Rij met Actieve geselecteerde status en standaardkleurenkeus &#x200B;](assets/row-colors-box-with-active-status-selected-default-color-choice.png)
 
 1. Klik op het vervolgkeuzemenu voor de kleurkiezer in de linkerbovenhoek van de voorwaarde die u hebt geselecteerd, om de kleur voor de voorwaarde te kiezen en klik vervolgens buiten het kleurkiezervak om deze te sluiten.
 
-   ![ Vervolgkeuzelijst van de kleurenplukker in de doos van de Kleuren van de Rij benadrukte ](assets/drop-down-color-picker-menu-in-row-colors-box-highlighted.png)
+   ![&#x200B; Vervolgkeuzelijst van de kleurenplukker in de doos van de Kleuren van de Rij benadrukte &#x200B;](assets/drop-down-color-picker-menu-in-row-colors-box-highlighted.png)
 
 1. (Facultatief) klik **toevoegt voorwaarde** om meer gebieden en waarden aan de eerste reeks voorwaarden toe te voegen
 
@@ -509,7 +509,7 @@ To sort grouped records:
 
    U kunt bijvoorbeeld campagnes in de status Planning geel weergeven door een nieuwe set voorwaarden te definiëren.
 
-   ![ de kleurendoos van de Rij met Actieve en de statusvlekkers van de Planning ](assets/row-colors-box-with-active-and-planning-status-custom-colors.png)
+   ![&#x200B; de kleurendoos van de Rij met Actieve en de statusvlekkers van de Planning &#x200B;](assets/row-colors-box-with-active-and-planning-status-custom-colors.png)
 
 1. (Facultatief) zet **toe is op de volledige rij** het plaatsen in de hoger-juiste hoek van de de kleurendoos van de Rij. De volledige rij waaraan aan de voorwaarde wordt voldaan, wordt automatisch weergegeven in de geselecteerde kleur.
 

@@ -49,7 +49,7 @@ Wanneer iemand op een commentaar of een systeemupdate op een het werkvoorwerp an
 >
 >Het is niet mogelijk te antwoorden op systeemupdates op het tabblad Systeemactiviteit. Alle antwoorden op systeemupdates die vóór 11 april 2024 in de oudere opmerkingervaring zijn gemaakt, worden weergegeven als alleen-lezen.
 
-In dit artikel wordt beschreven hoe u reageert op opmerkingen van de meeste objecten in Workfront. Voor verschillen tussen de secties van Updates van diverse voorwerpen, zie [ het sectieoverzicht van Updates ](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
+In dit artikel wordt beschreven hoe u reageert op opmerkingen van de meeste objecten in Workfront. Voor verschillen tussen de secties van Updates van diverse voorwerpen, zie [&#x200B; het sectieoverzicht van Updates &#x200B;](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
 ## Toegangsvereisten
 
@@ -87,7 +87,7 @@ In dit artikel wordt beschreven hoe u reageert op opmerkingen van de meeste obje
  </tbody> 
    </table>
 
-Voor meer informatie, zie [ vereisten van de Toegang voor de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer informatie, zie [&#x200B; vereisten van de Toegang voor de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -120,14 +120,14 @@ Voor meer informatie, zie [ vereisten van de Toegang voor de documentatie van Wo
 
 ## Reageren op een update of een antwoord in Workfront
 
-U kunt reageren op een opmerking in de thread van een object dat u kunt weergeven, of u kunt zich aanmelden als Workfront of groepsbeheerder en reageren op een opmerking namens een andere gebruiker. Voor meer informatie, zie [ Login als een andere gebruiker ](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md).
+U kunt reageren op een opmerking in de thread van een object dat u kunt weergeven, of u kunt zich aanmelden als Workfront of groepsbeheerder en reageren op een opmerking namens een andere gebruiker. Voor meer informatie, zie [&#x200B; Login als een andere gebruiker &#x200B;](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md).
 
 ### Een opmerking beantwoorden
 
 Reageren op een opmerking in de sectie Updates van een object is vergelijkbaar voor de meeste objecten in Workfront.
 
 1. Ga naar het object waaraan u een antwoord wilt toevoegen.
-1. Klik **Updates**, dan klik het **3} lusje van Commentaren {voor het voorwerp en vind de commentaar of het antwoord waarop u wilt antwoorden**
+1. Klik **Updates**, dan klik het **3&rbrace; lusje van Commentaren &lbrace;voor het voorwerp en vind de commentaar of het antwoord waarop u wilt antwoorden**
 
    of
 
@@ -136,19 +136,19 @@ Reageren op een opmerking in de sectie Updates van een object is vergelijkbaar v
 1. (Facultatief) om tekst van een vorige update in uw antwoord te omvatten, klik het **Meer** menu in de hoger-juiste hoek van de commentaar u wilt antwoorden aan, dan **antwoord van het Citaat** klikken. De tekst van de vorige update wordt weergegeven in het invoergebied, gemarkeerd met een verticale grijze lijn.
 1. Klik **Reageren**.
 
-   ![ Antwoord om lege doos ](assets/reply-to-update-empty-box.png) bij te werken
+   ![&#x200B; Antwoord om lege doos &#x200B;](assets/reply-to-update-empty-box.png) bij te werken
 
-   U kunt de gebruikers zien die actief in het gesprek bij de bodem van **betrokken zijn voeg antwoord toe..** doos en u kunt meer toevoegen, of degenen verwijderen die niet meer relevant zijn. Deze gebruikers ontvangen, samen met gebruikers die op het object zijn geabonneerd, een melding wanneer het object wordt bijgewerkt of geantwoord. U kunt ook tags toewijzen aan meer gebruikers om deze in uw antwoord op te nemen.  Om meer gebruikers te etiketteren, zie [ Tags anderen op updates ](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
+   U kunt de gebruikers zien die actief in het gesprek bij de bodem van **betrokken zijn voeg antwoord toe..** doos en u kunt meer toevoegen, of degenen verwijderen die niet meer relevant zijn. Deze gebruikers ontvangen, samen met gebruikers die op het object zijn geabonneerd, een melding wanneer het object wordt bijgewerkt of geantwoord. U kunt ook tags toewijzen aan meer gebruikers om deze in uw antwoord op te nemen.  Om meer gebruikers te etiketteren, zie [&#x200B; Tags anderen op updates &#x200B;](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
 
    >[!TIP]
    >
    >   Om extra antwoorden aan een bestaand antwoord toe te voegen, kunt u beginnen in **te typen toevoegt antwoord...** doos, of **antwoordt** op de originele commentaar. Uw antwoord wordt toegevoegd aan het eind van de draad.
 
-1. Begin uw antwoord te typen en gebruik om het even welke extra opties van de Rich toolbar van de Tekst. Voor informatie over het gebruiken van Rijke Tekst of andere het bijwerken mogelijkheden, zie [ het werk van de Update ](../updating-work-items-and-viewing-updates/update-work.md).
+1. Begin uw antwoord te typen en gebruik om het even welke extra opties van de Rich toolbar van de Tekst. Voor informatie over het gebruiken van Rijke Tekst of andere het bijwerken mogelijkheden, zie [&#x200B; het werk van de Update &#x200B;](../updating-work-items-and-viewing-updates/update-work.md).
 
 1. Klik **voorleggen** om het antwoord te bewaren.
 
-1. (Facultatief) klik het **Meer** menu ![ Meer menu ](assets/more-menu.png) in de hoger-juiste hoek van de commentaar u voor meer opties wilt antwoorden om het antwoord te beheren. Voor meer informatie, zie [ het werk van de Update ](../updating-work-items-and-viewing-updates/update-work.md).
+1. (Facultatief) klik het **Meer** menu ![&#x200B; Meer menu &#x200B;](assets/more-menu.png) in de hoger-juiste hoek van de commentaar u voor meer opties wilt antwoorden om het antwoord te beheren. Voor meer informatie, zie [&#x200B; het werk van de Update &#x200B;](../updating-work-items-and-viewing-updates/update-work.md).
 
 <!--
 ### Reply to an update or reply in the legacy Updates section
@@ -184,9 +184,9 @@ U kunt op de volgende manieren reageren op een update van een e-mailmelding:
 
 Hieronder ziet u een voorbeeld van een e-mailmelding die wordt geactiveerd als gevolg van een update op het tabblad Updates van een taak:
 
-![ email.png ](assets/email-350x202.png)
+![&#x200B; email.png &#x200B;](assets/email-350x202.png)
 
-Voor informatie, zie [ Reageren op e-mailberichten ](../updating-work-items-and-viewing-updates/reply-to-email-notifications.md).
+Voor informatie, zie [&#x200B; Reageren op e-mailberichten &#x200B;](../updating-work-items-and-viewing-updates/reply-to-email-notifications.md).
 
 
 

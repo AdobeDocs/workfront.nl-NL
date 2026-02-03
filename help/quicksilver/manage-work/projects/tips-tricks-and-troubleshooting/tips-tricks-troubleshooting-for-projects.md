@@ -16,9 +16,9 @@ ht-degree: 0%
 
 Deze sectie bevat de volgende artikelen:
 
-* [ Veelgestelde vragen van Projecten ](../../../manage-work/projects/tips-tricks-and-troubleshooting/projects-faqs.md)
-* [ de status van het Project zal niet van Volledig in Huidige ](../../../manage-work/projects/tips-tricks-and-troubleshooting/project-status-does-not-change-from-complete-to-current.md) veranderen
-* [ het voorbeeld van de Berekening - bereken EAC op het Niveau van het Project ](../../../manage-work/projects/tips-tricks-and-troubleshooting/calculate-eac-at-project-level-example.md)
+* [&#x200B; Veelgestelde vragen van Projecten &#x200B;](../../../manage-work/projects/tips-tricks-and-troubleshooting/projects-faqs.md)
+* [&#x200B; de status van het Project zal niet van Volledig in Huidige &#x200B;](../../../manage-work/projects/tips-tricks-and-troubleshooting/project-status-does-not-change-from-complete-to-current.md) veranderen
+* [&#x200B; het voorbeeld van de Berekening - bereken EAC op het Niveau van het Project &#x200B;](../../../manage-work/projects/tips-tricks-and-troubleshooting/calculate-eac-at-project-level-example.md)
 * [Voorbeeld van berekening - EAC berekenen als een roll-up van taken](../../../manage-work/projects/tips-tricks-and-troubleshooting/calculate-eac-by-rolling-up-from-tasks-example.md)
 
   <!--
