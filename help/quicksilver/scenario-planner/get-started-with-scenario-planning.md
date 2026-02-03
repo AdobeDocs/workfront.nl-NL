@@ -2,10 +2,9 @@
 title: Aan de slag met de functie Scenario Planner
 description: Met de Adobe Workfront Scenario Planner kunt u plannen op bedrijfsniveau maken waarin de algemene strategische resultaten van uw bedrijf worden beschreven. U kunt verscheidene initiatieven voor een plan bepalen en hen plaatsen in diverse scenario's om de optimale oplossing voor de uitvoering van het plan te vinden.
 author: Alina
-draft: Probably
 feature: Workfront Scenario Planner
 exl-id: a6afe39f-1663-493d-a582-0a396ce138c2
-source-git-commit: 86ee649cdf0ac04230035a94a1326c45b67d36d2
+source-git-commit: 187505de92f9a912547018865f2742bfecec77ad
 workflow-type: tm+mt
 source-wordcount: '769'
 ht-degree: 0%
@@ -16,7 +15,7 @@ ht-degree: 0%
 
 U kunt de [!DNL Adobe Workfront Scenario Planner] gebruiken om ondernemings-vlakke plannen te bouwen die de algemene strategische resultaten van uw bedrijf schetsen. U kunt verscheidene initiatieven voor een plan bepalen en hen plaatsen in diverse scenario&#39;s om de optimale oplossing voor de uitvoering van het plan te vinden.
 
-Voor een overzicht op hoog niveau van [!DNL Workfront Scenario Planner], zie [&#x200B; het  [!DNL Scenario Planner]  overzicht &#x200B;](../scenario-planner/scenario-planner-overview.md).
+Voor een overzicht op hoog niveau van [!DNL Workfront Scenario Planner], zie [ het  [!DNL Scenario Planner]  overzicht ](../scenario-planner/scenario-planner-overview.md).
 
 
 ## Benaderingen voor het gebruiken van [!DNL Workfront Scenario Planner]
@@ -58,13 +57,13 @@ De [!DNL Workfront Scenario Planner] wordt weergegeven.
 
    Klik op **[!UICONTROL New Plan]** om een nieuw abonnement toe te voegen.
 
-   Voor informatie over het creëren van plannen, zie [&#x200B; plannen in de Planner van het Scenario creëren en uitgeven &#x200B;](../scenario-planner/create-and-edit-plans.md).
+   Voor informatie over het creëren van plannen, zie [ plannen in de Planner van het Scenario creëren en uitgeven ](../scenario-planner/create-and-edit-plans.md).
 
 ## [!DNL Workfront Scenario Planner] objecten
 
-In de onderstaande tabel worden de [!DNL Workfront Scenario Planner] -objecten beschreven. Uw [!DNL Workfront] beheerder kan hun naam in uw systeem aanpassen door een lay-outmalplaatje te wijzigen en het toe te wijzen aan gebruikers, teams, of groepen. Voor informatie over het aanpassen van objecten namen die een lay-outmalplaatje gebruiken, zie [&#x200B; gebruikersinterfaceterminologie aanpassen gebruikend een lay-outmalplaatje &#x200B;](../administration-and-setup/customize-workfront/use-layout-templates/customize-terminology.md).
+In de onderstaande tabel worden de [!DNL Workfront Scenario Planner] -objecten beschreven. Uw [!DNL Workfront] beheerder kan hun naam in uw systeem aanpassen door een lay-outmalplaatje te wijzigen en het toe te wijzen aan gebruikers, teams, of groepen. Voor informatie over het aanpassen van objecten namen die een lay-outmalplaatje gebruiken, zie [ gebruikersinterfaceterminologie aanpassen gebruikend een lay-outmalplaatje ](../administration-and-setup/customize-workfront/use-layout-templates/customize-terminology.md).
 
-Voor informatie over [!DNL Workfront] voorwerpen, zie [&#x200B; voorwerpen in Adobe Workfront &#x200B;](../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md) begrijpen.
+Voor informatie over [!DNL Workfront] voorwerpen, zie [ voorwerpen in Adobe Workfront ](../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md) begrijpen.
 
 | Objectnaam | Beschrijving |
 |---|---|

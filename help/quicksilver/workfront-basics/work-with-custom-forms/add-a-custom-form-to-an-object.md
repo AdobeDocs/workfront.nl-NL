@@ -7,9 +7,9 @@ description: U kunt een bestaand aangepast formulier toevoegen aan de objecten h
 author: Alina
 feature: Get Started with Workfront
 exl-id: c06666a7-ab78-4311-8fcb-1d1a68034133
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: 187505de92f9a912547018865f2742bfecec77ad
 workflow-type: tm+mt
-source-wordcount: '730'
+source-wordcount: '740'
 ht-degree: 0%
 
 ---
@@ -67,7 +67,7 @@ U kunt een aangepast formulier alleen toevoegen aan de typen objecten waarvoor h
  </tbody> 
 </table>
 
-Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -102,19 +102,19 @@ Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van W
 
 ## Vereisten
 
-Uw Workfront-beheerder of een gebruiker met een licentie en beheerdersrechten voor aangepaste formulieren moet aangepaste formulieren maken in uw omgeving voordat u deze aan objecten kunt toevoegen. Voor meer informatie, zie [&#x200B; een douaneformulier &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren.
+Uw Workfront-beheerder of een gebruiker met een licentie en beheerdersrechten voor aangepaste formulieren moet aangepaste formulieren maken in uw omgeving voordat u deze aan objecten kunt toevoegen. Voor meer informatie, zie [ een douaneformulier ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren.
 
 ## Een aangepast formulier toevoegen aan een object
 
 U kunt op twee manieren een aangepast formulier aan een object toevoegen:
 
-* [&#x200B; voeg een douanevorm aan een voorwerp toe door het voorwerp uit te geven &#x200B;](#add-a-custom-form-to-an-object-by-editing-the-object)
+* [ voeg een douanevorm aan een voorwerp toe door het voorwerp uit te geven ](#add-a-custom-form-to-an-object-by-editing-the-object)
 * [Een aangepast formulier aan een object toevoegen vanuit het gebied Details](#add-a-custom-form-to-an-object-from-the-details-area)
 
 ### Een aangepast formulier aan een object toevoegen door het object te bewerken {#add-a-custom-form-to-an-object-by-editing-the-object}
 
 1. Ga naar het object waaraan u het aangepaste formulier wilt toevoegen.
-1. Klik **Meer** menu ![](assets/more-icon.png), dan klik **uitgeven** ![](assets/edit-icon.png).
+1. Klik het **Meer** menu ![ Meer menu ](assets/more-icon.png), dan klik **uitgeven** ![ pictogram ](assets/edit-icon.png) uitgeeft.
 1. Klik **Forms van de Douane** > **Forms** toevoegen, dan selecteren tot 10 vormen van het drop-down menu.
 
 1. (Optioneel) Werk de gegevens in de bewerkbare velden op het aangepaste formulier bij.
@@ -152,17 +152,17 @@ drafted for bulk-editing projects. When it releases to Prod for projects, take "
 >
 >Het toevoegen van aangepaste formulieren aan objecten is hetzelfde voor alle objecten, behalve voor projecten.
 >
->Voor informatie over het toevoegen van douaneformulieren aan projecten in bulk, zie het artikel [&#x200B; projecten &#x200B;](../../manage-work/projects/manage-projects/edit-projects.md) uitgeven.
+>Voor informatie over het toevoegen van douaneformulieren aan projecten in bulk, zie het artikel [ projecten ](../../manage-work/projects/manage-projects/edit-projects.md) uitgeven.
 
 
 1. Blader naar een lijst met objecten.
 1. Selecteer meerdere objecten in de lijst.
 
-1. Klik **Meer** menu ![](assets/more-icon.png), dan klik **uitgeven** pictogram ![](assets/edit-icon.png).
+1. Klik het **Meer** menu ![ Meer menu ](assets/more-icon.png), dan klik **uitgeven** pictogram ![ uitgeven pictogram ](assets/edit-icon.png).
 
    of
 
-   Klik **uitgeven** pictogram ![](assets/edit-icon.png) bij de bovenkant van de lijst.
+   Klik **uitgeven** pictogram ![ uitgeven pictogram ](assets/edit-icon.png) bij de bovenkant van de lijst.
 1. Klik **Forms van de Douane** in het linkerpaneel.
 1. in **maak een selectie** drop-down menu, selecteer de vorm u met alle geselecteerde voorwerpen wilt associëren.
 

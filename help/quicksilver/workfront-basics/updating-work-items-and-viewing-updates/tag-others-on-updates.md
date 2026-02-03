@@ -6,9 +6,9 @@ description: Wanneer u updatecommentaren op een Adobe Workfront-object opgeeft, 
 author: Alina
 feature: Get Started with Workfront
 exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: 187505de92f9a912547018865f2742bfecec77ad
 workflow-type: tm+mt
-source-wordcount: '955'
+source-wordcount: '960'
 ht-degree: 0%
 
 ---
@@ -47,9 +47,9 @@ In plaats van deze gebruikers op het object te plaatsen door ze eraan toe te wij
 
 ## Overwegingen over het coderen van gebruikers in updates
 
-* Gebruikers die updates hebben gecodeerd, moeten een persoonlijke melding inschakelen in hun profiel om de e-mailmelding te ontvangen. Voor meer informatie, zie [&#x200B; uw eigen e-mailberichten wijzigen &#x200B;](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+* Gebruikers die updates hebben gecodeerd, moeten een persoonlijke melding inschakelen in hun profiel om de e-mailmelding te ontvangen. Voor meer informatie, zie [ uw eigen e-mailberichten wijzigen ](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
-  Voor informatie over het toevoegen van updates aan de voorwerpen van Workfront, zie [&#x200B; het werk van de Update &#x200B;](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+  Voor informatie over het toevoegen van updates aan de voorwerpen van Workfront, zie [ het werk van de Update ](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 * Wanneer een kwestie in een project of een taak wordt omgezet, worden de updates gekopieerd aan het nieuwe project of de taak, maar de geëtiketteerde gebruikers niet. Om het gesprek voort te zetten, moet u de deelnemers opnieuw etiketteren.
 
@@ -88,7 +88,7 @@ In plaats van deze gebruikers op het object te plaatsen door ze eraan toe te wij
  </tbody> 
 </table>
 
-Voor informatie, zie [&#x200B; vereisten van de Toegang voor de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang voor de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -126,7 +126,7 @@ U kunt op de volgende manieren tags toewijzen aan anderen bij updates:
 
 U kunt ook gebruikers verwijderen die per ongeluk zijn gelabeld wanneer u een opmerking bewerkt of erop reageert.
 
-1. Begin het bijwerken van een het werkpunt, zoals die in [&#x200B; wordt beschreven Werk van de Update &#x200B;](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). Als eigenaar van de opmerking wordt u automatisch gelabeld en toegevoegd aan het gebied Tagpersonen of -teams in het opmerkingvak.
+1. Begin het bijwerken van een het werkpunt, zoals die in [ wordt beschreven Werk van de Update ](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). Als eigenaar van de opmerking wordt u automatisch gelabeld en toegevoegd aan het gebied Tagpersonen of -teams in het opmerkingvak.
 
    >[!TIP]
    >
@@ -144,9 +144,9 @@ U kunt ook gebruikers verwijderen die per ongeluk zijn gelabeld wanneer u een op
    > 
    >Gebruikers moeten aan ten minste één taakrol zijn gekoppeld om deze te kunnen bekijken terwijl u ze in een update codeert.
    > 
-   >De instelling Contactinfo weergeven moet zijn ingeschakeld op uw toegangsniveau zodat gebruikers de e-mails van gebruikers kunnen bekijken. Voor informatie, zie [&#x200B; toegang van de Verlening tot gebruikers &#x200B;](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
+   >De instelling Contactinfo weergeven moet zijn ingeschakeld op uw toegangsniveau zodat gebruikers de e-mails van gebruikers kunnen bekijken. Voor informatie, zie [ toegang van de Verlening tot gebruikers ](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 
-   ![&#x200B; markering een gebruiker &#x200B;](assets/tag-others-unified-commenting-with-all-tab.png)
+   ![ markering een gebruiker ](assets/tag-others-unified-commenting-with-all-tab.png)
 
 1. (Facultatief) om de update privé te maken, laat **Privé aan mijn bedrijf** in de laag-juiste hoek van de updatedoos toe. Hierdoor is de update alleen zichtbaar voor gebruikers in uw bedrijf.
 
@@ -160,20 +160,20 @@ U kunt ook gebruikers verwijderen die per ongeluk zijn gelabeld wanneer u een op
 
    >[!NOTE]
    >
-   >Alle gebruikers en teamleden die in het veld &quot;Tagpersonen of -teams&quot; worden vermeld, ontvangen een melding in de app voor de update en ontvangen mogelijk een e-mail, afhankelijk van de configuratie van hun instellingen voor e-mailmeldingen. Gebruikers die zichzelf in een opmerking of antwoord labelen, ontvangen een melding voor die opmerking of reactie en kunnen hun naam als lid van de thread voor de rest van de thread zien, maar ontvangen geen andere melding tenzij ze zichzelf opnieuw labelen. Voor meer informatie, zie [&#x200B; uw eigen e-mailberichten &#x200B;](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md) wijzigen en [&#x200B; gebeurtenisberichten voor iedereen in het systeem &#x200B;](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md) vormen.
+   >Alle gebruikers en teamleden die in het veld &quot;Tagpersonen of -teams&quot; worden vermeld, ontvangen een melding in de app voor de update en ontvangen mogelijk een e-mail, afhankelijk van de configuratie van hun instellingen voor e-mailmeldingen. Gebruikers die zichzelf in een opmerking of antwoord labelen, ontvangen een melding voor die opmerking of reactie en kunnen hun naam als lid van de thread voor de rest van de thread zien, maar ontvangen geen andere melding tenzij ze zichzelf opnieuw labelen. Voor meer informatie, zie [ uw eigen e-mailberichten ](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md) wijzigen en [ gebeurtenisberichten voor iedereen in het systeem ](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md) vormen.
 
 1. Klik **voorleggen**.\
    Aan gebruikers die zijn opgenomen in de update, wordt automatisch weergavemachtiging toegekend aan het object en deze gebruikers kunnen updates die aan het object zijn toegevoegd, weergeven en erop reageren.
 
    De namen van de getagde entiteiten worden naast hun avatars (maximaal twee entiteiten) weergegeven. Als er meerdere entiteiten zijn gelabeld, wordt de naam van de eerste entiteit weergegeven, plus het aantal extra entiteiten dat is gelabeld.
 
-   ![](assets/members-icons-expanded-unshimmed.png)
+   ![ uitgevouwen de pictogrammen van Leden ](assets/members-icons-expanded-unshimmed.png)
 
    Wanneer u in de opmerkingstekst bent gelabeld, wordt uw naam gemarkeerd in die opmerkingen.
 
-   Voor informatie over de extra functionaliteit die beschikbaar is wanneer het bijwerken van een het werkpunt, zie [&#x200B; het werk van de Update &#x200B;](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+   Voor informatie over de extra functionaliteit die beschikbaar is wanneer het bijwerken van een het werkpunt, zie [ het werk van de Update ](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-1. (Optioneel) Klik op het **Meer** menu ![](assets/more-menu.png) in de rechterbovenhoek van de opmerking en klik vervolgens op **Bewerken** . Verwijder om het even welke geëtiketteerde gebruikers, dan klik **voorleggen**.
+1. (Facultatief) klik het **Meer** menu ![ Meer menu ](assets/more-menu.png) in de hoger-juiste hoek van de opmerking, dan klik **uitgeven**. Verwijder om het even welke geëtiketteerde gebruikers, dan klik **voorleggen**.
 
    >[!IMPORTANT]
    >
@@ -206,7 +206,7 @@ You can manually tag users in the legacy Updates section.
    >
    >You must have the View Contact Info setting enabled in your access level for Users to view users' emails. For information, see [Grant access to users](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 
-   ![](assets/tag-users-in-update.png)
+   ![Tag users in update](assets/tag-users-in-update.png)
 
 1. (Optional) To make the update private, enable **Private to my company** in the lower-right corner of the update box. This makes the update visible just to users in your company. The **Private to my company** option is available only when a Company is specified in your Workfront profile. 
 
@@ -225,10 +225,10 @@ You can manually tag users in the legacy Updates section.
 
    You can see who has been tagged in each reply at the top of the update thread. These users, along with any users subscribed to the object, receive a notification whenever an update or reply is made on the object.
 
-   ![](assets/tagging-transparency-350x192.png)
+   ![Tagging transparency](assets/tagging-transparency-350x192.png)
 -->
 
-Voor informatie over de extra functionaliteit die beschikbaar is wanneer het bijwerken van een het werkpunt, zie [&#x200B; het werk van de Update &#x200B;](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+Voor informatie over de extra functionaliteit die beschikbaar is wanneer het bijwerken van een het werkpunt, zie [ het werk van de Update ](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 
 

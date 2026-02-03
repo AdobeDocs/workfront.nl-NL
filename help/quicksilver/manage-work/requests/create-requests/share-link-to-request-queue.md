@@ -2,10 +2,9 @@
 title: Een koppeling delen naar een aanvraagwachtrij
 description: U kunt een verbinding aan een verzoekrij, een onderwerpgroep, of een rijonderwerp delen aangezien u het verzoek voorlegt.
 author: Becky
-draft: Probably
 feature: Work Management
 exl-id: 91e456ae-a192-4f3a-afff-b3c48854e295
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: 187505de92f9a912547018865f2742bfecec77ad
 workflow-type: tm+mt
 source-wordcount: '288'
 ht-degree: 0%
@@ -49,13 +48,13 @@ U kunt een verbinding aan een verzoekrij, een onderwerpgroep, of een rijonderwer
  </tbody> 
 </table>
 
-Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Een koppeling delen naar een aanvraagwachtrij
 
-1. Begin een verzoek voor te leggen zoals die in [&#x200B; wordt beschreven creeer en voorlegt de verzoeken van Adobe Workfront &#x200B;](../../../manage-work/requests/create-requests/create-submit-requests.md).
+1. Begin een verzoek voor te leggen zoals die in [ wordt beschreven creeer en voorlegt de verzoeken van Adobe Workfront ](../../../manage-work/requests/create-requests/create-submit-requests.md).
 1. Voer een van de volgende handelingen uit:
 
    * Selecteer een aanvraagwachtrij in het veld Request Type
@@ -75,6 +74,6 @@ Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van W
    * De gekopieerde koppeling delen met anderen
    * Deze pagina als externe pagina insluiten op een dashboard
 
-     Voor informatie over het inbedden van een verzoekrij in een dashboard, zie [&#x200B; een verzoekrij in een dashboard &#x200B;](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-request-queue-dashboard.md) inbedden.
+     Voor informatie over het inbedden van een verzoekrij in een dashboard, zie [ een verzoekrij in een dashboard ](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-request-queue-dashboard.md) inbedden.
 
    Gebruikend de gedeelde verbinding, kunnen andere gebruikers direct aan de verzoekrij, onderwerpgroep, of rijonderwerp navigeren u selecteerde. Ze kunnen dit ook doen als het verzoek niet is verzonden en als concept is opgeslagen.
