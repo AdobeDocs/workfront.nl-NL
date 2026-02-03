@@ -6,16 +6,14 @@ description: Adobe Workfront heeft API-versie 21 uitgebracht op 23 oktober 2025.
 author: Becky
 feature: Workfront API
 role: Developer
-source-git-commit: 040e714c2f81ba764c7895be430446add1250a83
+source-git-commit: 7166a6b51a45b744a33df697c2bc8080427908a8
 workflow-type: tm+mt
-source-wordcount: '954'
+source-wordcount: '932'
 ht-degree: 0%
 
 ---
 
 # Nieuwe functies in API-versie 21
-
-<span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Het is beschikbaar slechts in het milieu van de Sandbox van de Voorproef.</span>
 
 >[!IMPORTANT]
 >
@@ -680,8 +678,6 @@ Een object Rate vertegenwoordigt een factureringssnelheid in Workfront.
 
 Een object Role (taakrol) vertegenwoordigt een functionele capaciteit of een vaardigheid die een gebruiker zou kunnen opvullen, zoals Designer of Product Manager.
 
-<div class="preview">
-
 <table>
   <col/>
   <col/>
@@ -709,8 +705,6 @@ Een object Role (taakrol) vertegenwoordigt een functionele capaciteit of een vaa
     </tr>
   </tbody>
 </table>
-
-</div>
 
 ### ScheduledReport (SCHREP)
 
