@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: 233051de458917fd3b40a675914552ccd7d2f474
 workflow-type: tm+mt
-source-wordcount: '7642'
+source-wordcount: '7726'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 0%
 
 U kunt een project in Adobe Workfront zo vaak uitgeven zoals vaak nodig. Wij adviseren dat u projecten na hun statusveranderingen in Huidig minimaal uitgeeft, om verwarring te vermijden door berichten over de veranderingen naar het volledige projectteam te verzenden.
 
-Ideaal gezien, zou u een project moeten uitgeven wanneer het project in de status van de Planning is. Voor informatie over het projectteam, zie [&#x200B; Overzicht van het Team van het Project &#x200B;](../../../manage-work/projects/planning-a-project/project-team-overview.md).
+Ideaal gezien, zou u een project moeten uitgeven wanneer het project in de status van de Planning is. Voor informatie over het projectteam, zie [ Overzicht van het Team van het Project ](../../../manage-work/projects/planning-a-project/project-team-overview.md).
 
 ## Toegangsvereisten
 
@@ -68,7 +68,7 @@ Ideaal gezien, zou u een project moeten uitgeven wanneer het project in de statu
  </tbody> 
 </table>
 
-*For meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*For meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -110,7 +110,7 @@ Er zijn enkele beperkingen die kunnen voorkomen dat u projecten kunt bewerken.
 Houd rekening met het volgende wanneer u projecten bewerkt:
 
 * U kunt geen projecten uitgeven die in een Proces van de Goedkeuring zijn, behalve registrerentijd en het veranderen van de Status.
-* U kunt documenten of malplaatjes aan een project vastmaken dat een status van Voltooid heeft, Dead, of in Hangende Goedkeuring slechts als uw beheerder van Workfront of een groepsbeheerder deze functionaliteit op het gebied van de Voorkeur van het Project toeliet. Voor informatie over het plaatsen van projectvoorkeur, zie [&#x200B; systeem-brede projectvoorkeur &#x200B;](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) vormen.
+* U kunt documenten of malplaatjes aan een project vastmaken dat een status van Voltooid heeft, Dead, of in Hangende Goedkeuring slechts als uw beheerder van Workfront of een groepsbeheerder deze functionaliteit op het gebied van de Voorkeur van het Project toeliet. Voor informatie over het plaatsen van projectvoorkeur, zie [ systeem-brede projectvoorkeur ](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) vormen.
 * U kunt de volgende informatie over een project alleen bewerken in de status Dead of Voltooid:
 
    * Bestaande uitgaven wijzigen.
@@ -122,41 +122,41 @@ Door een project uit te geven kunt u informatie en montages voor het project, ev
 
 Sommige montages die in dit artikel worden vermeld zouden van hun standaardstatus door hun staat in het malplaatje kunnen worden gewijzigd waarvan het project werd gecreeerd.
 
-Voor informatie over het uitgeven van malplaatjes, zie [&#x200B; projectmalplaatjes &#x200B;](../../../manage-work/projects/create-and-manage-templates/edit-templates.md) uitgeven.
+Voor informatie over het uitgeven van malplaatjes, zie [ projectmalplaatjes ](../../../manage-work/projects/create-and-manage-templates/edit-templates.md) uitgeven.
 
-Voor informatie over het creëren van een project van een malplaatje, zie [&#x200B; een project creëren gebruikend een malplaatje &#x200B;](/help/quicksilver/manage-work/projects/create-projects/create-project-from-template.md).
+Voor informatie over het creëren van een project van een malplaatje, zie [ een project creëren gebruikend een malplaatje ](/help/quicksilver/manage-work/projects/create-projects/create-project-from-template.md).
 
 {{step1-to-projects}}
 
 1. (Facultatief) klik **Projecten I** of **Projecten I Bezit** in de hoger-juiste hoek om projecten te tonen waar u de eigenaar of de projecten bent waar u deel van het projectteam uitmaakt.
 
-   ![&#x200B; Projecten op mijn eigen knopen &#x200B;](assets/projects-on-my-own-buttons-350x302.png)
+   ![ Projecten op mijn eigen knopen ](assets/projects-on-my-own-buttons-350x302.png)
 
    >[!NOTE]
    >
-   >Als u een groepsbeheerder bent, kunt u de projecten van uw groep in het gebied van Groepen evenals in het gebied van Projecten zien en uitgeven. Voor meer informatie, zie [&#x200B; tot stand brengen en wijzigen de projecten van een groep &#x200B;](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md).
+   >Als u een groepsbeheerder bent, kunt u de projecten van uw groep in het gebied van Groepen evenals in het gebied van Projecten zien en uitgeven. Voor meer informatie, zie [ tot stand brengen en wijzigen de projecten van een groep ](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md).
 
 1. Klik de naam van het project u wilt uitgeven om de projectpagina te openen.
 
 1. (Facultatief) om beperkte informatie over een project uit te geven, klik **Details van het Project** in het linkerpaneel. Ga naar stap 5 als u alle informatie over het project wilt bewerken. <!--accurate?!-->
 
-   ![&#x200B; uitgevouwen de details van het Project &#x200B;](assets/nwe-project-details-expanded-350x298.png)
+   ![ uitgevouwen de details van het Project ](assets/nwe-project-details-expanded-350x298.png)
 
    >[!NOTE]
    >
-   >Afhankelijk van hoe uw Workfront-beheerder of groepsbeheerder uw lay-outsjabloon heeft gewijzigd, kunnen de velden in het gebied Projectdetails opnieuw worden gerangschikt of niet worden weergegeven. Voor informatie, zie [&#x200B; de mening van Details aanpassen gebruikend een lay-outmalplaatje &#x200B;](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
+   >Afhankelijk van hoe uw Workfront-beheerder of groepsbeheerder uw lay-outsjabloon heeft gewijzigd, kunnen de velden in het gebied Projectdetails opnieuw worden gerangschikt of niet worden weergegeven. Voor informatie, zie [ de mening van Details aanpassen gebruikend een lay-outmalplaatje ](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
 
    Ga als volgt te werk om de gegevens in de sectie Details te bewerken:
 
-   1. (Facultatief) klik **Vouw Alle** pictogram ![&#x200B; samen vouwt al pictogram &#x200B;](assets/collapse-icon.png) in de hoger-juiste hoek om alle gebieden samen te vouwen.
-   1. (Facultatief en voorwaardelijk) wanneer een gebied wordt doen ineenstorten, klik de **juist-richt pijl** ![&#x200B; juist richtende pijl &#x200B;](assets/right-pointing-arrow.png) naast elk gebied om het gebied uit te breiden u wilt uitgeven.
+   1. (Facultatief) klik **Vouw Alle** pictogram ![ samen vouwt al pictogram ](assets/collapse-icon.png) in de hoger-juiste hoek om alle gebieden samen te vouwen.
+   1. (Facultatief en voorwaardelijk) wanneer een gebied wordt doen ineenstorten, klik de **juist-richt pijl** ![ juist richtende pijl ](assets/right-pointing-arrow.png) naast elk gebied om het gebied uit te breiden u wilt uitgeven.
    1. Raadpleeg de volgende artikelen voor meer informatie over het bewerken van informatie op het tabblad Projectdetails:
 
-      * [&#x200B; beheert informatie in het gebied van het projectoverzicht &#x200B;](../../../manage-work/projects/manage-projects/understand-project-overview-area.md)
+      * [ beheert informatie in het gebied van het projectoverzicht ](../../../manage-work/projects/manage-projects/understand-project-overview-area.md)
       * [Informatie beheren in het gebied Projectfinanciering](../../../manage-work/projects/project-finances/manage-project-finance-area.md)
 
    1. (Facultatief) om een douaneformulier vast te maken, begin de naam van een vorm in **te typen voeg douaneformulier** toe, dan selecteer het wanneer het in de lijst toont, dan klik **sparen Veranderingen**.
-   1. (Facultatief) klik het **pictogram van de Uitvoer** pictogram van de Uitvoer ![&#x200B; om het Overzicht en de informatie van de douaneformulieren naar een dossier van PDF uit te voeren, dan klik &#x200B;](assets/export.png) Uitvoer **.** Selecteer een van de volgende opties:
+   1. (Facultatief) klik het **pictogram van de Uitvoer** pictogram van de Uitvoer ![ om het Overzicht en de informatie van de douaneformulieren naar een dossier van PDF uit te voeren, dan klik ](assets/export.png) Uitvoer **.** Selecteer een van de volgende opties:
 
       * Alles selecteren (wordt alleen weergegeven als er ten minste één aangepast formulier is gekoppeld)
       * Overzicht
@@ -164,18 +164,18 @@ Voor informatie over het creëren van een project van een malplaatje, zie [&#x20
 
       Het PDF-bestand wordt naar uw computer gedownload.
 
-      ![&#x200B; de doos van de de vertoningdetails van de Uitvoer met de uitvoerknoop &#x200B;](assets/export-issue-details-selection-box-with-export-button-350x418.png)
+      ![ de doos van de de vertoningdetails van de Uitvoer met de uitvoerknoop ](assets/export-issue-details-selection-box-with-export-button-350x418.png)
 
-      Voor meer informatie, zie [&#x200B; de douaneformulieren en objecten details van de Uitvoer &#x200B;](../../../workfront-basics/work-with-custom-forms/export-custom-forms-details.md).
+      Voor meer informatie, zie [ de douaneformulieren en objecten details van de Uitvoer ](../../../workfront-basics/work-with-custom-forms/export-custom-forms-details.md).
 
    Voor informatie over de gebieden zichtbaar in de sectie van de Details van het Project, ga met het uitgeven van het project in het Edit vakje van het Project zoals hieronder beschreven verder.
-1. Om alle informatie over het project uit te geven, klik **Meer** menu ![&#x200B; &#x200B;](assets/qs-more-menu.png) naast de naam van het project, dan klik **uitgeven**.
+1. Om alle informatie over het project uit te geven, klik **Meer** menu ![ ](assets/qs-more-menu.png) naast de naam van het project, dan klik **uitgeven**.
 
    of
 
-   Van een lijst van projecten, selecteer één of veelvoudige projecten, dan klik **uitgeven** pictogram ![&#x200B; pictogram &#x200B;](assets/edit-icon.png) bij de bovenkant van de lijst uitgeven.
+   Van een lijst van projecten, selecteer één of veelvoudige projecten, dan klik **uitgeven** pictogram ![ pictogram ](assets/edit-icon.png) bij de bovenkant van de lijst uitgeven.
 
-   Voor meer informatie over het uitgeven van projecten in bulk, zie de sectie [&#x200B; projecten in bulk &#x200B;](#edit-projects-in-bulk) in dit artikel uitgeven.
+   Voor meer informatie over het uitgeven van projecten in bulk, zie de sectie [ projecten in bulk ](#edit-projects-in-bulk) in dit artikel uitgeven.
 
    Het **geeft de doos van het Project** uit opent.
 
@@ -187,31 +187,31 @@ Voor informatie over het creëren van een project van een malplaatje, zie [&#x20
 
    >[!NOTE]
    >
-   >Afhankelijk van de manier waarop uw Workfront-beheerder of groepsbeheerder uw lay-outsjabloon heeft gewijzigd, kunnen de gebieden in het linkerdeelvenster van het vak Project bewerken of de velden in deze gebieden opnieuw worden gerangschikt of niet worden weergegeven. Voor informatie, zie [&#x200B; de mening van Details aanpassen gebruikend een lay-outmalplaatje &#x200B;](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
+   >Afhankelijk van de manier waarop uw Workfront-beheerder of groepsbeheerder uw lay-outsjabloon heeft gewijzigd, kunnen de gebieden in het linkerdeelvenster van het vak Project bewerken of de velden in deze gebieden opnieuw worden gerangschikt of niet worden weergegeven. Voor informatie, zie [ de mening van Details aanpassen gebruikend een lay-outmalplaatje ](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
 
-1. (Voorwaardelijk) als u het **Meer** menu klikte en dan **&#x200B;**&#x200B;uitgeeft, werk informatie in om het even welke volgende die gebieden bij in het linkerpaneel worden vermeld:
+1. (Voorwaardelijk) als u het **Meer** menu klikte en dan **** uitgeeft, werk informatie in om het even welke volgende die gebieden bij in het linkerpaneel worden vermeld:
 
-   * [&#x200B; de Naam van het Project &#x200B;](#project-name)
+   * [ de Naam van het Project ](#project-name)
    * [Overzicht](#overview)
-   * [&#x200B; Aangepaste Forms &#x200B;](#custom-forms)
-   * [&#x200B; Financiën &#x200B;](#finance)
-   * [&#x200B; Montages van het Project &#x200B;](#project-settings)
-   * [&#x200B; Montages van de Taak &#x200B;](#task-settings)
-   * [&#x200B; Montages van de Uitgave &#x200B;](#issue-settings)
+   * [ Aangepaste Forms ](#custom-forms)
+   * [ Financiën ](#finance)
+   * [ Montages van het Project ](#project-settings)
+   * [ Montages van de Taak ](#task-settings)
+   * [ Montages van de Uitgave ](#issue-settings)
    * [Toegang](#access)
    * [Opmerking](#comment)
 
 
    >[!NOTE]
    >
-   >Afhankelijk van de manier waarop uw Workfront-beheerder onze lay-outsjabloon instelt voor het gebied Details van het project, kunnen de secties en velden in het vak Project bewerken in uw omgeving verschillen. Voor informatie, zie [&#x200B; de mening van Details aanpassen gebruikend een lay-outmalplaatje &#x200B;](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
+   >Afhankelijk van de manier waarop uw Workfront-beheerder onze lay-outsjabloon instelt voor het gebied Details van het project, kunnen de secties en velden in het vak Project bewerken in uw omgeving verschillen. Voor informatie, zie [ de mening van Details aanpassen gebruikend een lay-outmalplaatje ](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
 
 ### Projectnaam {#project-name}
 
 1. Bewerk uw project zoals hierboven beschreven.
 1. Klik **Naam van het Project** in het linkerpaneel.
 
-   ![&#x200B; het naamgebied van het Project in geeft projectdoos uit &#x200B;](assets/nwe-project-name-in-edit-project-box-350x125.png)
+   ![ het naamgebied van het Project in geeft projectdoos uit ](assets/nwe-project-name-in-edit-project-box-350x125.png)
 
 1. Werk de naam van het project bij.
 
@@ -222,7 +222,7 @@ Voor informatie over het creëren van een project van een malplaatje, zie [&#x20
 1. Bewerk uw project zoals hierboven beschreven.
 1. Klik **Overzicht** in het linkerpaneel.
 
-   ![&#x200B; gebied van het Overzicht in project geeft doos uit &#x200B;](assets/nwe-overview-in-edit-project-box-350x172.png)
+   ![ gebied van het Overzicht in project geeft doos uit ](assets/nwe-overview-in-edit-project-box-350x172.png)
 
 1. Werk de volgende informatie over het project bij:
 
@@ -335,7 +335,7 @@ Voor informatie over het creëren van een project van een malplaatje, zie [&#x20
    >
    >Gebruikers moeten aan ten minste één taakrol zijn gekoppeld om deze te kunnen bekijken terwijl u ze toevoegt.
    >
-   >De instelling Contactinfo weergeven moet zijn ingeschakeld op uw toegangsniveau zodat gebruikers de e-mails van gebruikers kunnen bekijken. Voor informatie, zie [&#x200B; toegang van de Verlening tot gebruikers &#x200B;](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
+   >De instelling Contactinfo weergeven moet zijn ingeschakeld op uw toegangsniveau zodat gebruikers de e-mails van gebruikers kunnen bekijken. Voor informatie, zie [ toegang van de Verlening tot gebruikers ](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 
 1. (Optioneel) Ga door met het bewerken van de volgende secties, afhankelijk van de gegevens die u wilt wijzigen
 
@@ -368,13 +368,13 @@ Informatie over aangepaste formulieren bewerken tijdens het bewerken van een pro
 1. Bewerk uw project zoals hierboven beschreven.
 1. Klik **Forms van de Douane** in het linkerpaneel.
 
-   ![&#x200B; Douane vormen in uitgeeft projectvakje &#x200B;](assets/nwe-custom-forms-in-edit-project-box-350x170.png)
+   ![ Douane vormen in uitgeeft projectvakje ](assets/nwe-custom-forms-in-edit-project-box-350x170.png)
 
 1. Klik **voeg de doos van de douanevorm** toe en selecteer een vorm van de lijst om het aan het project vast te maken. Standaard worden de eerste 40 formulieren in alfabetische volgorde weergegeven. Als het formulier niet in de lijst wordt weergegeven, typt u de naam en selecteert u het vervolgens wanneer het in de lijst wordt weergegeven.
 
    >[!NOTE]
    >
-   >U moet aangepaste formulieren maken voordat u ze in dit veld kunt selecteren. Alleen actieve aangepaste formulieren worden in de lijst weergegeven. Voor meer informatie over de bouw van douaneformulieren, zie [&#x200B; een douaneformulier &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren. U kunt maximaal tien aangepaste formulieren aan een project toevoegen.
+   >U moet aangepaste formulieren maken voordat u ze in dit veld kunt selecteren. Alleen actieve aangepaste formulieren worden in de lijst weergegeven. Voor meer informatie over de bouw van douaneformulieren, zie [ een douaneformulier ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren. U kunt maximaal tien aangepaste formulieren aan een project toevoegen.
 
 
 1. (Voorwaardelijk) Als u een aangepast formulier aan het project hebt gekoppeld, bewerkt u alle velden op het formulier. U moet alle vereiste gebieden specificeren alvorens u het project kunt bewaren.
@@ -403,7 +403,7 @@ Velden bewerken in het gebied Financiën:
 1. Bewerk uw project zoals hierboven beschreven.
 1. Klik **Financiën** in het linkerpaneel.
 
-   ![&#x200B; het gebied van de Financiën in het project geeft doos uit &#x200B;](assets/nwe-finance-in-edit-project-box-350x183.png)
+   ![ het gebied van de Financiën in het project geeft doos uit ](assets/nwe-finance-in-edit-project-box-350x183.png)
 
 1. Werk de volgende financiële informatie voor het project bij:
 
@@ -461,7 +461,7 @@ Velden bewerken in het gebied Financiën:
 1. Bewerk uw project zoals hierboven beschreven.
 1. Klik **Montages van het Project** in het linkerpaneel.
 
-   ![&#x200B; gebied van de montages van het Project in het project geeft doos uit &#x200B;](assets/nwe-project-settings-in-edit-project-box-350x380.png)
+   ![ gebied van de montages van het Project in het project geeft doos uit ](assets/nwe-project-settings-in-edit-project-box-350x380.png)
 
 1. Werk de volgende gegevens bij:
 
@@ -541,7 +541,7 @@ Velden bewerken in het gebied Financiën:
        <td> <p> <p>Selecteer een van de volgende opties:</p> 
        <ul> 
        <li> <p>Selecteer <strong> Nr </strong> om alle project-specifieke uurtypes beschikbaar te maken op het project. (Dit is de standaardselectie)</p> <p>of</p> </li> 
-       <li>Selecteer <strong> ja </strong> om slechts een ondergroep van de project-specifieke uurtypes beschikbaar op het project te maken, dan de uurtypes te selecteren u van het <b> 3&rbrace; gebied van de Types van Uur &lbrace;beschikbaar wilt maken.</b></li> 
+       <li>Selecteer <strong> ja </strong> om slechts een ondergroep van de project-specifieke uurtypes beschikbaar op het project te maken, dan de uurtypes te selecteren u van het <b> 3} gebied van de Types van Uur {beschikbaar wilt maken.</b></li> 
        <p><b>TIP</b></p>
        <p>Het <b> gebied van de Types van Uur </b> is niet editable wanneer u <b> Nr </b> selecteert.</p> 
        <p>Als u deze optie selecteert, worden alleen de uurstypen die u selecteert, beschikbaar gemaakt om te selecteren wanneer u zich aanmeldt in uren voor het project (of voor taken en problemen binnen het project). U moet minstens één uurtype selecteren; als u deze optie selecteert en u geen uurtypes selecteert, worden alle uurtypes ter beschikking gesteld op het project.</p> </ul>
@@ -580,26 +580,26 @@ Velden bewerken in het gebied Financiën:
 
 U kunt de gebreken bepalen die met alle nieuwe taken zullen worden geassocieerd wanneer u hen aan het project toevoegt.
 
-Voor informatie over hoe deze montages het creëren van nieuwe taken beïnvloeden, zie de gebreken van de sectie [&#x200B; Taak wanneer het toevoegen van taken aan een project &#x200B;](../../../manage-work/tasks/create-tasks/create-tasks-overview.md#understa) in het artikel [&#x200B; leidt tot takenoverzicht &#x200B;](../../../manage-work/tasks/create-tasks/create-tasks-overview.md).
+Voor informatie over hoe deze montages het creëren van nieuwe taken beïnvloeden, zie de gebreken van de sectie [ Taak wanneer het toevoegen van taken aan een project ](../../../manage-work/tasks/create-tasks/create-tasks-overview.md#understa) in het artikel [ leidt tot takenoverzicht ](../../../manage-work/tasks/create-tasks/create-tasks-overview.md).
 
 1. Bewerk uw project zoals hierboven beschreven.
 1. Klik **Montages van de Taak** in het linkerpaneel.
 
-   ![&#x200B; de montages van de Taak in uitgeeft projectdoos &#x200B;](assets/nwe-task-settings-in-edit-project-box-350x211.png)
+   ![ de montages van de Taak in uitgeeft projectdoos ](assets/nwe-task-settings-in-edit-project-box-350x211.png)
 
-1. In het **vakje van het Proces van de Goedkeuring van het Standaard van de Taak 0&rbrace;, selecteer het proces van de taakgoedkeuring u met alle nieuwe taken wilt associëren wanneer u hen aan het project toevoegt.**
+1. In het **vakje van het Proces van de Goedkeuring van het Standaard van de Taak 0}, selecteer het proces van de taakgoedkeuring u met alle nieuwe taken wilt associëren wanneer u hen aan het project toevoegt.**
 
-   Uw beheerder van Workfront (of een gebruiker met administratieve toegang tot de processen van de Goedkeuring) moet een systeem-niveau of groep-vlakke goedkeuringsproces voor een taak tot stand brengen alvorens u het met een project kunt associëren. Alleen actieve goedkeuringsprocessen worden in de lijst weergegeven. Voor informatie over het creëren van de Processen van de Goedkeuring, zie [&#x200B; een goedkeuringsproces voor het werkpunten &#x200B;](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md) creëren. Voor informatie over hoe de veranderingen in de groep van het project of de veranderingen in het goedkeuringsproces goedkeuringsmontages beïnvloeden, zie [&#x200B; hoe de groep en de veranderingen van het goedkeuringsproces aangewezen goedkeuringsprocessen &#x200B;](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md) beïnvloeden.
+   Uw beheerder van Workfront (of een gebruiker met administratieve toegang tot de processen van de Goedkeuring) moet een systeem-niveau of groep-vlakke goedkeuringsproces voor een taak tot stand brengen alvorens u het met een project kunt associëren. Alleen actieve goedkeuringsprocessen worden in de lijst weergegeven. Voor informatie over het creëren van de Processen van de Goedkeuring, zie [ een goedkeuringsproces voor het werkpunten ](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md) creëren. Voor informatie over hoe de veranderingen in de groep van het project of de veranderingen in het goedkeuringsproces goedkeuringsmontages beïnvloeden, zie [ hoe de groep en de veranderingen van het goedkeuringsproces aangewezen goedkeuringsprocessen ](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md) beïnvloeden.
 
    Bij projecten voor het bewerken van grote hoeveelheden bestaan de volgende scenario&#39;s:
 
    * Wanneer u veelvoudige projecten van de zelfde groep selecteert, zowel systeem-niveau als groep-specifieke processen van de taakgoedkeuring tonen op dit gebied.
    * Wanneer u veelvoudige projecten van verschillende groepen selecteert, slechts worden de systeem-vlakke processen van de taakgoedkeuring getoond op dit gebied.
 
-1. In het **vakje van de Aangepaste Forms van het Standaard van de Taak 0&rbrace;, selecteer de douanevorm of de vormen die u met alle nieuwe taken wilt associëren wanneer u hen aan het project toevoegt.** U moet aangepaste formulieren maken voordat u ze in dit veld kunt selecteren. Alleen actieve aangepaste formulieren worden in de lijst weergegeven. Voor meer informatie over de bouw van douaneformulieren, zie [&#x200B; een douaneformulier &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren. U kunt maximaal tien aangepaste formulieren aan een taak koppelen.
+1. In het **vakje van de Aangepaste Forms van het Standaard van de Taak 0}, selecteer de douanevorm of de vormen die u met alle nieuwe taken wilt associëren wanneer u hen aan het project toevoegt.** U moet aangepaste formulieren maken voordat u ze in dit veld kunt selecteren. Alleen actieve aangepaste formulieren worden in de lijst weergegeven. Voor meer informatie over de bouw van douaneformulieren, zie [ een douaneformulier ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren. U kunt maximaal tien aangepaste formulieren aan een taak koppelen.
 1. (Optioneel) Selecteer **Werkinspanning van het Gebruik om taak Geplande Uren** automatisch te berekenen als u het beheren van taakinspanning wilt toelaten door de Werkinspanning in plaats van Geplande Uren te gebruiken.
 
-   ![&#x200B; de inspanning van het Werk in uitgeeft projectdoos &#x200B;](assets/nwe-work-effort-on-projects-350x182.png)
+   ![ de inspanning van het Werk in uitgeeft projectdoos ](assets/nwe-work-effort-on-projects-350x182.png)
 
 1. (Voorwaardelijk en optioneel) Als u Werkinspanning gebruiken hebt geselecteerd om taken Geplande uren automatisch te berekenen, klikt u op het vervolgkeuzemenu voor elk inspanningsniveau en selecteert u een percentage voor elk niveau. De volgende percentagewaarden zijn standaardwaarden:
 
@@ -611,7 +611,7 @@ Voor informatie over hoe deze montages het creëren van nieuwe taken beïnvloede
 
    >[!TIP]
    >
-   >Wanneer het Type van Projectupdate aan Automatisch wordt geplaatst en u dit het plaatsen selecteert, werken de Geplande Uren van de taken volgens de taakDuur en het percentage van de Werkinspanning bij, als zij aan nul worden geplaatst. Voor meer informatie over het gebruiken van de Werkinspanning van het Werk om inspanning voor een taak te plannen, zie [&#x200B; Overzicht van de Werkinspanning van het Werk &#x200B;](../../../manage-work/tasks/task-information/work-effort.md).
+   >Wanneer het Type van Projectupdate aan Automatisch wordt geplaatst en u dit het plaatsen selecteert, werken de Geplande Uren van de taken volgens de taakDuur en het percentage van de Werkinspanning bij, als zij aan nul worden geplaatst. Voor meer informatie over het gebruiken van de Werkinspanning van het Werk om inspanning voor een taak te plannen, zie [ Overzicht van de Werkinspanning van het Werk ](../../../manage-work/tasks/task-information/work-effort.md).
 
 1. (Optioneel) Ga door met het bewerken van de volgende secties, afhankelijk van de gegevens die u wilt wijzigen.
 
@@ -624,7 +624,7 @@ Voor informatie over hoe deze montages het creëren van nieuwe taken beïnvloede
 1. Bewerk uw project zoals hierboven beschreven.
 1. Klik **Montages van de Uitgave** in het linkerpaneel.
 
-   ![&#x200B; uitgeeft montages in uitgeeft projectdoos &#x200B;](assets/nwe-issue-settings-in-edit-project-box-350x306.png)
+   ![ uitgeeft montages in uitgeeft projectdoos ](assets/nwe-issue-settings-in-edit-project-box-350x306.png)
 
 1. (Facultatief) schrap **staat gebruikers toe om kwesties binnen** optie toe te voegen. Deze optie is standaard geselecteerd.
 
@@ -632,7 +632,7 @@ Voor informatie over hoe deze montages het creëren van nieuwe taken beïnvloede
 
    >[!TIP]
    >
-   >Schakel deze optie uit als u wilt dat gebruikers de velden Nieuw probleem of de aangepaste formulieren voor nieuwe uitgaven invullen. Als u gebruikers inline toegang geeft tot uitgaven, kunnen ze de velden Nieuwe uitgave en aangepaste formulieren omzeilen wanneer ze problemen maken. Voor informatie over het plaatsen van gebieden en douanevormen voor nieuwe kwesties, zie [&#x200B; een Rij van het Verzoek &#x200B;](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md) creëren.
+   >Schakel deze optie uit als u wilt dat gebruikers de velden Nieuw probleem of de aangepaste formulieren voor nieuwe uitgaven invullen. Als u gebruikers inline toegang geeft tot uitgaven, kunnen ze de velden Nieuwe uitgave en aangepaste formulieren omzeilen wanneer ze problemen maken. Voor informatie over het plaatsen van gebieden en douanevormen voor nieuwe kwesties, zie [ een Rij van het Verzoek ](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md) creëren.
 
    Wanneer u deze optie uitschakelt, kunnen gebruikers met machtigingen voor het toevoegen van uitgaven aan het project of de taken dat op de volgende manieren doen:
 
@@ -653,10 +653,19 @@ Voor informatie over hoe deze montages het creëren van nieuwe taken beïnvloede
 
 ### Toegang {#access}
 
+U kunt bepalen welke toestemmingengebruikers voor het project, evenals de taken en de kwesties in het project ontvangen wanneer zij met om het even welk van deze objecten types in wisselwerking staan.
+
+>[!IMPORTANT]
+>
+>Als u de machtigingen voor het project, de taken en de problemen wijzigt wanneer u het project bewerkt, bepaalt u hoe de machtigingen worden verleend wanneer gebruikers met deze objecttypen werken nadat de toegang is gewijzigd.
+>
+>Als u deze configuratie wijzigt, worden de machtigingen van de gebruikers voor deze objecttypen niet met terugwerkende kracht gewijzigd in items die de gebruikers al hebben toegewezen of opgenomen in.
+
+
 1. Bewerk uw project zoals hierboven beschreven.
 1. Klik **Toegang** in het linkerpaneel.
 
-   ![&#x200B; het gebied van de Toegang in uitgeeft projectdoos &#x200B;](assets/nwe-access-in-edit-project-box-350x262.png)
+   ![ het gebied van de Toegang in uitgeeft projectdoos ](assets/nwe-access-in-edit-project-box-350x262.png)
 
 1. Specificeer de volgende **informatie van de Toegang** voor het project:
 
@@ -703,9 +712,9 @@ Voor informatie over hoe deze montages het creëren van nieuwe taken beïnvloede
 1. Bewerk uw project zoals hierboven beschreven.
 1. Klik **Commentaar** in het linkerpaneel.
 
-   ![&#x200B; project-commentaar-in-geef-project-doos &#x200B;](assets/project-comment-in-edit-project-box.png)
+   ![ project-commentaar-in-geef-project-doos ](assets/project-comment-in-edit-project-box.png)
 
-1. Voeg een opmerking toe aan de beschikbare ruimte. Workfront voegt de opmerking toe in het gedeelte Updates van het project. Voor meer informatie over het bijwerken van het werk, zie [&#x200B; het werk van de Update &#x200B;](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+1. Voeg een opmerking toe aan de beschikbare ruimte. Workfront voegt de opmerking toe in het gedeelte Updates van het project. Voor meer informatie over het bijwerken van het werk, zie [ het werk van de Update ](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. Klik **sparen**.
 
 
@@ -715,7 +724,7 @@ U kunt een beperkte hoeveelheid informatie in de projectheader uitgeven.
 
 Uw systeem of groepsbeheerder kan de gebieden aanpassen u in de projectkopbal ziet.
 
-![&#x200B; kopbal van het Project &#x200B;](assets/project-header-350x18.png)
+![ kopbal van het Project ](assets/project-header-350x18.png)
 
 De volgende gebieden zijn inbegrepen in de projectheader, door gebrek.
 
@@ -732,7 +741,7 @@ De volgende gebieden zijn inbegrepen in de projectheader, door gebrek.
 
   >[!NOTE]
   >
-  >U kunt dit gebied uitgeven slechts wanneer het Type van Voorwaarde van het project Handboek is. Wanneer het Voorwaardetype aan de Status van de Voortgang wordt geplaatst, berekent Workfront de voorwaarde die op de vooruitgang van de taken wordt gebaseerd. Voor informatie, zie [&#x200B; Overzicht van het Type van de Voorwaarde en van de Voorwaarde van het Project &#x200B;](../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md).
+  >U kunt dit gebied uitgeven slechts wanneer het Type van Voorwaarde van het project Handboek is. Wanneer het Voorwaardetype aan de Status van de Voortgang wordt geplaatst, berekent Workfront de voorwaarde die op de vooruitgang van de taken wordt gebaseerd. Voor informatie, zie [ Overzicht van het Type van de Voorwaarde en van de Voorwaarde van het Project ](../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md).
 
 * Status
 * Goedkeuringsbeslissingen nemen als u in een huidig goedkeuringsproces als fiatteur bent ingesteld
@@ -749,21 +758,21 @@ Houd rekening met het volgende wanneer u projecten bulksgewijs bewerkt:
 
 * Wanneer u projecten selecteert die verschillende waarden voor het zelfde gebied hebben, toont het gebied een &quot;Veelvoudige waarde&quot;indicator in het Edit de projectvakje. Naast velden die selectievakjes, keuzerondjes en schakelingen zijn, staat een indicator &quot;Meerdere waarden&quot;.
 
-  ![&#x200B; Veelvoudige waardeindicator voor data in bulk geeft projectdoos uit &#x200B;](assets/multiple-values-indicator-dates-bulk-edit-projects.png)
+  ![ Veelvoudige waardeindicator voor data in bulk geeft projectdoos uit ](assets/multiple-values-indicator-dates-bulk-edit-projects.png)
 
 * Naast de indicator &quot;Meerdere waarden&quot; worden velden met meerdere opties op een van de volgende manieren weergegeven wanneer de gekozen opties verschillen op ten minste een van de geselecteerde projecten:
 
    * Velden voor selectievakjes hebben een regel in plaats van een selectievakje voor de optie die voor sommige maar niet voor alle geselecteerde projecten is ingeschakeld.
 
-     ![&#x200B; Veelvoudige de controledozen van de waardeindicator in bulk geeft projectdoos uit &#x200B;](assets/multiple-values-indicator-check-boxes-bulk-edit-projects.png)
+     ![ Veelvoudige de controledozen van de waardeindicator in bulk geeft projectdoos uit ](assets/multiple-values-indicator-check-boxes-bulk-edit-projects.png)
 
    * Velden van het type van-/uitschakelen worden grijs weergegeven, met de knevel in het midden voor de optie die voor sommige maar niet voor alle geselecteerde projecten is ingeschakeld.
 
-  ![&#x200B; Veelvoudige die waarden in bulk worden benadrukt geeft projecten &#x200B;](assets/multiple-values-highlighted-bulk-edit-projects.png) uit
+  ![ Veelvoudige die waarden in bulk worden benadrukt geeft projecten ](assets/multiple-values-highlighted-bulk-edit-projects.png) uit
 
    * In velden van het type keuzerondje waarin sommige opties zijn geselecteerd, maar niet alle opties, worden alle keuzerondjes als leeg weergegeven.
 
-     ![&#x200B; Veelvoudige de radioknopen van de waardeindicator bulksgewijs uitgeeft projectvakje &#x200B;](assets/multiple-values-indicator-radio-buttons-bulk-edit-projects.png)
+     ![ Veelvoudige de radioknopen van de waardeindicator bulksgewijs uitgeeft projectvakje ](assets/multiple-values-indicator-radio-buttons-bulk-edit-projects.png)
 
 * Wanneer u een optie bijwerkt in een veld met meerdere opties (zoals een veld dat wordt weergegeven als een set gereedschappen of selectievakjes), moeten alle andere opties overeenkomen met de geselecteerde projecten.
 
@@ -778,14 +787,14 @@ Projecten in bulk bewerken:
 {{step1-to-projects}}
 
 1. Selecteer meerdere projecten in de lijst.
-1. Klik **uitgeven** pictogram ![&#x200B; uitgeven pictogram &#x200B;](assets/edit-icon.png) bij de bovenkant van de lijst.
+1. Klik **uitgeven** pictogram ![ uitgeven pictogram ](assets/edit-icon.png) bij de bovenkant van de lijst.
 **geeft Projecten** dialoogdoos uit opent.
 
-   ![&#x200B; geef projecten in bulk modaal &#x200B;](assets/edit-projects-in-bulk-modal-unshimmed.png) uit
+   ![ geef projecten in bulk modaal ](assets/edit-projects-in-bulk-modal-unshimmed.png) uit
 
-Afhankelijk van de manier waarop uw Workfront-beheerder of groepsbeheerder uw lay-outsjabloon heeft gewijzigd, kunnen de gebieden in het linkerdeelvenster van het vak Project bewerken of de velden in deze gebieden opnieuw worden gerangschikt of niet worden weergegeven. Voor informatie, zie [&#x200B; de mening van Details aanpassen gebruikend een lay-outmalplaatje &#x200B;](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
+Afhankelijk van de manier waarop uw Workfront-beheerder of groepsbeheerder uw lay-outsjabloon heeft gewijzigd, kunnen de gebieden in het linkerdeelvenster van het vak Project bewerken of de velden in deze gebieden opnieuw worden gerangschikt of niet worden weergegeven. Voor informatie, zie [ de mening van Details aanpassen gebruikend een lay-outmalplaatje ](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
 
-1. Klik **Overzicht** om algemene informatie over de geselecteerde projecten uit te geven.  Voor meer informatie over het uitgeven van het gebied van het Overzicht, zie het sectie [&#x200B; Overzicht &#x200B;](#overview) in dit artikel.
+1. Klik **Overzicht** om algemene informatie over de geselecteerde projecten uit te geven.  Voor meer informatie over het uitgeven van het gebied van het Overzicht, zie het sectie [ Overzicht ](#overview) in dit artikel.
 
    >[!TIP]
    >
@@ -795,7 +804,7 @@ Afhankelijk van de manier waarop uw Workfront-beheerder of groepsbeheerder uw la
 
    De douaneformulieren die aan alle geselecteerde projecten in bijlage zijn tonen in de **vormen van de Douane in gemeenschappelijke** onderafdeling in het **gebied van de Douane Forms**.
 
-   ![&#x200B; de vormen van de Douane in bulk geven projecten uit &#x200B;](assets/custom-forms-in-common-unshimmed.png)
+   ![ de vormen van de Douane in bulk geven projecten uit ](assets/custom-forms-in-common-unshimmed.png)
 
    >[!TIP]
    >
@@ -804,7 +813,7 @@ Afhankelijk van de manier waarop uw Workfront-beheerder of groepsbeheerder uw la
 1. Begin typend de naam van een douanevorm in het **toevoegen douanevorm** gebied.
 
 
-   ![&#x200B; Forms reeds in bijlage indicator in bulk het uitgeven projecten &#x200B;](assets/forms-already-attached-indication-in-bulk-editing-projects-unshimmed.png)
+   ![ Forms reeds in bijlage indicator in bulk het uitgeven projecten ](assets/forms-already-attached-indication-in-bulk-editing-projects-unshimmed.png)
 
    De douaneformulieren die reeds in bijlage aan de geselecteerde projecten zijn tonen in de **Verbonden vormen** onderafdeling in **voegen douaneformulier** gebied toe.
 
@@ -820,22 +829,22 @@ Afhankelijk van de manier waarop uw Workfront-beheerder of groepsbeheerder uw la
    >
    >Als u aangepaste formulieren verwijdert, gaan alle bestaande aangepaste veldgegevens over de formulieren verloren. Dit kan niet worden hersteld.
 
-   Voor meer informatie over het uitgeven van douaneformulieren, zie de sectie [&#x200B; Forms van de Douane &#x200B;](#custom-forms) in dit artikel.
+   Voor meer informatie over het uitgeven van douaneformulieren, zie de sectie [ Forms van de Douane ](#custom-forms) in dit artikel.
 
 1. Klik **Financiën** om financiële informatie voor alle geselecteerde projecten uit te geven.
-Voor meer informatie over het uitgeven van het gebied van de Financiën, zie de sectie [&#x200B; Financiën &#x200B;](#finance) in dit artikel.
+Voor meer informatie over het uitgeven van het gebied van de Financiën, zie de sectie [ Financiën ](#finance) in dit artikel.
 1. Klik **Montages van het Project** om de montages voor alle geselecteerde projecten uit te geven.
-Voor meer informatie over het uitgeven van het gebied van de Montages van het Project, zie de sectie [&#x200B; Montages van het Project &#x200B;](#project-settings) in dit artikel.
+Voor meer informatie over het uitgeven van het gebied van de Montages van het Project, zie de sectie [ Montages van het Project ](#project-settings) in dit artikel.
 1. Klik **Montages van de Taak** om de taakmontages voor alle geselecteerde projecten uit te geven.
-Voor meer informatie over het uitgeven van het gebied van de Montages van de Taak, zie de sectie [&#x200B; Montages van de Taak &#x200B;](#task-settings) in dit artikel.
+Voor meer informatie over het uitgeven van het gebied van de Montages van de Taak, zie de sectie [ Montages van de Taak ](#task-settings) in dit artikel.
 1. Klik **Montages van de Uitgave** om de uitgevende montages voor alle geselecteerde projecten uit te geven.
-Voor meer informatie over het uitgeven van het gebied van de Montages van de Uitgave, zie de sectie [&#x200B; Montages van de Uitgave &#x200B;](#issue-settings) in dit artikel.
+Voor meer informatie over het uitgeven van het gebied van de Montages van de Uitgave, zie de sectie [ Montages van de Uitgave ](#issue-settings) in dit artikel.
 1. Klik **Toegang** om de toegangsmontages voor alle geselecteerde projecten uit te geven.
-Voor meer informatie over het uitgeven van het gebied van de Toegang, zie de sectie [&#x200B; Toegang &#x200B;](#access) in dit artikel.
-1. Klik **Commentaar**, dan voeg een commentaar in de verstrekte ruimte toe. Workfront voegt de commentaar in het **&#x200B;**&#x200B;gebied van Updates van elk project toe. Voor informatie over het bijwerken van het werk, zie [&#x200B; het werk van de Update &#x200B;](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+Voor meer informatie over het uitgeven van het gebied van de Toegang, zie de sectie [ Toegang ](#access) in dit artikel.
+1. Klik **Commentaar**, dan voeg een commentaar in de verstrekte ruimte toe. Workfront voegt de commentaar in het **** gebied van Updates van elk project toe. Voor informatie over het bijwerken van het werk, zie [ het werk van de Update ](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. (Facultatief) om het even welke informatie te verwijderen u in de Edit doos van Projecten toevoegde, beweegt over een uitgegeven gebied, dan klik **x** verwerpen pictogram aan het hoger-recht van het gebied.
 
-   ![&#x200B; verwerp pictogram voor gebied uitgeeft projecten in bulk &#x200B;](assets/discard-icon-for-field-edit-projects-in-bulk-unshimmed.png)
+   ![ verwerp pictogram voor gebied uitgeeft projecten in bulk ](assets/discard-icon-for-field-edit-projects-in-bulk-unshimmed.png)
 
 1. (Facultatief) klik **annuleren** bij de bodem van **projecten** pagina uitgeven om alle veranderingen te verwijderen die aan alle projecten worden aangebracht.
 1. Klik **sparen**.
