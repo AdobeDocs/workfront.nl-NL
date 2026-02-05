@@ -20,17 +20,17 @@ ht-degree: 0%
 
 <span class="preview"> de informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>
 
-<span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
+<span class="preview"> voor informatie over snelle versies, zie [&#x200B; snelle versies voor uw organisatie &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
 
 Als werkruimtenmanager, kunt u een verslagtype toevoegen dat in een andere werkruimte aan een werkruimte bestaat die u in de Planning van Adobe Workfront beheert.
 
 Een werkruimtemanager moet eerst een recordtype aanwijzen als een globaal recordtype voordat u dit kunt toevoegen aan werkruimten die u als een bestaand recordtype beheert. Workspace-managers kunnen een recordtype als globaal aanwijzen wanneer ze deze maken of bewerken, door de instellingen voor de werkruimte van het recordtype te definiëren.
 
-Voor informatie, zie [ mogelijkheden van de dwars-werkruimte voor verslagtypes ](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md) vormen.
+Voor informatie, zie [&#x200B; mogelijkheden van de dwars-werkruimte voor verslagtypes &#x200B;](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md) vormen.
 
 In dit artikel wordt beschreven hoe u een recordtype uit een bestaand recordtype kunt toevoegen.
 
-Alvorens verslagen aan een werkruimte van een globaal verslagtype toe te voegen, zie ook het artikel [ overzicht van de types van het interwerkruimterecord ](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md).
+Alvorens verslagen aan een werkruimte van een globaal verslagtype toe te voegen, zie ook het artikel [&#x200B; overzicht van de types van het interwerkruimterecord &#x200B;](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md).
 
 
 ## Toegangsvereisten
@@ -67,7 +67,7 @@ of
 </tbody> 
 </table>
 
-Voor meer informatie over de toegangsvereisten van Workfront, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer informatie over de toegangsvereisten van Workfront, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++   
 
@@ -116,12 +116,12 @@ And
 >
 >Zorg ervoor dat er ten minste één recordtype is opgegeven dat globaal is in ten minste één andere primaire werkruimte.
 >
->Voor informatie, zie [ mogelijkheden van de dwars-werkruimte voor verslagtypes ](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md) vormen.
+>Voor informatie, zie [&#x200B; mogelijkheden van de dwars-werkruimte voor verslagtypes &#x200B;](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md) vormen.
 
 1. Ga naar een werkruimte waar u een recordtype (secundaire werkruimte) wilt creëren.
-1. Begin creërend een verslagtype, zoals die in het artikel [ wordt beschreven creeer verslagtypes ](/help/quicksilver/planning/architecture/create-record-types.md), dan klik **voegt bestaand** toe. <!--check this - the option might have been renamed in the UI-->
+1. Begin creërend een verslagtype, zoals die in het artikel [&#x200B; wordt beschreven creeer verslagtypes &#x200B;](/help/quicksilver/planning/architecture/create-record-types.md), dan klik **voegt bestaand** toe. <!--check this - the option might have been renamed in the UI-->
 
-   ![ Modal om verslagtype met optie toe te voegen van een andere werkruimte ](assets/add-record-type-from-existing-workspace-option-when-creating-records.png)
+   ![&#x200B; Modal om verslagtype met optie toe te voegen van een andere werkruimte &#x200B;](assets/add-record-type-from-existing-workspace-option-when-creating-records.png)
 
    >[!TIP]
    >
@@ -130,7 +130,7 @@ And
 1. Klik **verdergaan**.
 1. In **kies het verslagtype** doos, klik de kaart voor het verslagtype dat u van een bestaande werkruimte wilt toevoegen, dan klik **toevoegen**.
 
-   <span class="preview"> het verslagtype wordt toegevoegd aan de secundaire werkruimte die u selecteerde en het **globale verslagtype** pictogram ![ Globale verslagpictogram op de secundaire werkruimte ](assets/global-icon-secondary-workspace.png) vertoningen op de kaart van het verslagtype. </span>
+   <span class="preview"> het verslagtype wordt toegevoegd aan de secundaire werkruimte die u selecteerde en het **globale verslagtype** pictogram ![&#x200B; Globale verslagpictogram op de secundaire werkruimte &#x200B;](assets/global-icon-secondary-workspace.png) vertoningen op de kaart van het verslagtype. </span>
    <span class="preview"> het globale verslagtype pictogram omvat een pijl wanneer getoond op een verslagtype in de secundaire werkruimte, om erop te wijzen dat het verslagtype van een bestaand verslagtype werd toegevoegd.</span>
 
    De volgende dingen doen zich voor:
@@ -147,7 +147,7 @@ And
      >
      >U kunt de weergave, aanvullende instellingen of originele velden van het nieuwe recordtype niet bewerken. U kunt het recordtype en alle oorspronkelijke velden en instellingen alleen vanuit de oorspronkelijke werkruimte bewerken.
      >
-1. <span class="preview"> (Facultatieve) Bedekking over het globale verslagtype pictogram ![ Globaal verslagpictogram op de secundaire werkruimte ](assets/global-icon-secondary-workspace.png) om de naam van de originele werkruimte te bekijken waar het verslagtype van werd toegevoegd. </span>
+1. <span class="preview"> (Facultatieve) Bedekking over het globale verslagtype pictogram ![&#x200B; Globaal verslagpictogram op de secundaire werkruimte &#x200B;](assets/global-icon-secondary-workspace.png) om de naam van de originele werkruimte te bekijken waar het verslagtype van werd toegevoegd. </span>
 1. (Optioneel) Klik en sleep het nieuwe recordtype naar een willekeurige sectie in de werkruimte.
 1. (Facultatief) klik het **Meer** menu op de kaart van het nieuwe verslagtype of rechts van de naam van het verslagtype op zijn pagina, dan klik één van het volgende:
 
@@ -156,7 +156,7 @@ And
 
      Weergaven die worden toegevoegd vanuit de secundaire werkruimte, worden niet verwijderd. <!--checking with Lilit - not sure if this is by design??-->
 
-   Voor meer informatie, zie de sectie &quot;schrap globale verslagtypes&quot;in het artikel [ schrapt verslagtypes ](/help/quicksilver/planning/architecture/delete-record-types.md).
+   Voor meer informatie, zie de sectie &quot;schrap globale verslagtypes&quot;in het artikel [&#x200B; schrapt verslagtypes &#x200B;](/help/quicksilver/planning/architecture/delete-record-types.md).
 
 <!--This will be released later with another epic: 
 1. In the table view, click the **+** icon in the upper-right corner to add new fields. For information, see [Create fields](/help/quicksilver/planning/fields/create-fields.md).
