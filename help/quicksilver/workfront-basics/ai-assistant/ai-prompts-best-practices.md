@@ -18,7 +18,7 @@ Workfront AI Assistant is een krachtig hulpmiddel dat u helpt uw werk beter uit 
 
 In dit artikel, zult u over de huidige beste praktijken voor AI Medewerker, met inbegrip van hoe te om duidelijke herinneringen te schrijven, welke objecten types u om informatie kunt vragen over, en hoe te om tot extra middelen toegang te hebben om informatie te verifiëren wanneer nodig.
 
-Voor meer informatie over AI Medewerker, zie [ AI HulpOverzicht ](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md).
+Voor meer informatie over AI Medewerker, zie [&#x200B; AI HulpOverzicht &#x200B;](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md).
 
 >[!NOTE]
 >
@@ -52,16 +52,16 @@ Om tot de nuttigste informatie van AI Medewerker toegang te hebben, is het belan
 * **omvat timeframes**: Het geven van AI Medewerker specifieke timeframes voor een voorwerp zal helpen de gegevens verminderen het moet verwerken en in gerichtere informatie in zijn reactie zal resulteren.
 * **vraagt slechts één ding tegelijkertijd**: Wanneer de veelvoudige, niet verwante verzoeken in één enkele herinnering inbegrepen zijn, zal AI Medewerker niet de juiste informatie kunnen verstrekken.
 
-Voor informatie over geadviseerde herinneringen, zie de volgende sectie in dit artikel: [ Prompt voorbeelden ](#prompt-examples).
+Voor informatie over geadviseerde herinneringen, zie de volgende sectie in dit artikel: [&#x200B; Prompt voorbeelden &#x200B;](#prompt-examples).
 
 
 ### AI Assistant-reacties controleren
 
 In dit stadium in de ontwikkeling van AI Assistant wordt aangeraden om de informatie te controleren die wordt verschaft wanneer wordt gevraagd om informatie over Workfront-processen. U kunt dit doen door de artikelverbinding te klikken die in de Bronsectie in de snelle reactie wordt verstrekt.
 
-![ Bronsectie ](assets/sources-section.png)
+![&#x200B; Bronsectie &#x200B;](assets/sources-section.png)
 
-Voor meer informatie over herinneringen voor de processen van Workfront, zie [ Vragen om over de acties van Workfront ](#prompts-to-learn-about-workfront-actions) in dit artikel te leren.
+Voor meer informatie over herinneringen voor de processen van Workfront, zie [&#x200B; Vragen om over de acties van Workfront &#x200B;](#prompts-to-learn-about-workfront-actions) in dit artikel te leren.
 
 
 ## Vragen, voorbeelden
