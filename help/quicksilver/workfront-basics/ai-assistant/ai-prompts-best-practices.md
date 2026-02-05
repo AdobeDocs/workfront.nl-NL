@@ -1,24 +1,24 @@
 ---
-title: AI Assistant vraagt om tips voor tips en trucs
+title: AI Assistant-aanwijzingen en tips en trucs
 content-type: reference
 description: Leer over de beste praktijken voor het gebruiken van AI Medewerker en bekijk een lijst van snelle voorbeelden.
 author: Jenny
 feature: Get Started with Workfront
 exl-id: 34a60482-e060-49f9-bbaf-8aed85845e26
-source-git-commit: 4bab0129d694d7134a5dae90474678226368ca78
+source-git-commit: dc472e93541641ee1c960ec7246365200f522a17
 workflow-type: tm+mt
-source-wordcount: '741'
+source-wordcount: '743'
 ht-degree: 0%
 
 ---
 
-# AI Assistant vraagt om tips voor tips en trucs
+# AI Assistant-aanwijzingen en tips en trucs
 
 Workfront AI Assistant is een krachtig hulpmiddel dat u helpt uw werk beter uit te voeren door nuttige informatie over uw accountgegevens en specifieke objecttypen te bieden.
 
 In dit artikel, zult u over de huidige beste praktijken voor AI Medewerker, met inbegrip van hoe te om duidelijke herinneringen te schrijven, welke objecten types u om informatie kunt vragen over, en hoe te om tot extra middelen toegang te hebben om informatie te verifiëren wanneer nodig.
 
-Voor meer informatie over AI Medewerker, zie [&#x200B; AI HulpOverzicht &#x200B;](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md).
+Voor meer informatie over AI Medewerker, zie [ AI HulpOverzicht ](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md).
 
 >[!NOTE]
 >
@@ -52,16 +52,16 @@ Om tot de nuttigste informatie van AI Medewerker toegang te hebben, is het belan
 * **omvat timeframes**: Het geven van AI Medewerker specifieke timeframes voor een voorwerp zal helpen de gegevens verminderen het moet verwerken en in gerichtere informatie in zijn reactie zal resulteren.
 * **vraagt slechts één ding tegelijkertijd**: Wanneer de veelvoudige, niet verwante verzoeken in één enkele herinnering inbegrepen zijn, zal AI Medewerker niet de juiste informatie kunnen verstrekken.
 
-Voor informatie over geadviseerde herinneringen, zie de volgende sectie in dit artikel: [&#x200B; Prompt voorbeelden &#x200B;](#prompt-examples).
+Voor informatie over geadviseerde herinneringen, zie de volgende sectie in dit artikel: [ Prompt voorbeelden ](#prompt-examples).
 
 
 ### AI Assistant-reacties controleren
 
 In dit stadium in de ontwikkeling van AI Assistant wordt aangeraden om de informatie te controleren die wordt verschaft wanneer wordt gevraagd om informatie over Workfront-processen. U kunt dit doen door de artikelverbinding te klikken die in de Bronsectie in de snelle reactie wordt verstrekt.
 
-![&#x200B; Bronsectie &#x200B;](assets/sources-section.png)
+![ Bronsectie ](assets/sources-section.png)
 
-Voor meer informatie over herinneringen voor de processen van Workfront, zie [&#x200B; Vragen om over de acties van Workfront &#x200B;](#prompts-to-learn-about-workfront-actions) in dit artikel te leren.
+Voor meer informatie over herinneringen voor de processen van Workfront, zie [ Vragen om over de acties van Workfront ](#prompts-to-learn-about-workfront-actions) in dit artikel te leren.
 
 
 ## Vragen, voorbeelden
