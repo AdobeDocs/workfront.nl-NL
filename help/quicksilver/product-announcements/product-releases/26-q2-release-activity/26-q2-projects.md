@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Op deze pagina worden de projectverbeteringen beschreven die zijn aangebracht met de release Tweede kwartaal 2026 voor de voorvertoningsomgeving. Deze verbeteringen zullen beschikbaar worden gesteld in de productieomgeving, zoals vermeld.
 
-Voor een lijst van alle veranderingen beschikbaar op dit punt in het Tweede Kwartaal 2026 versiecyclus, zie [ Tweede Kwartaal 2026 releaseoverzicht ](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar op dit punt in het Tweede Kwartaal 2026 versiecyclus, zie [&#x200B; Tweede Kwartaal 2026 releaseoverzicht &#x200B;](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md).
 
 ## Bijgewerkte ervaring bij het toewijzen van sjabloontaken in één keer of in één keer
 
@@ -23,7 +23,7 @@ Voor een lijst van alle veranderingen beschikbaar op dit punt in het Tweede Kwar
 >
 >Voorbeeld: 5 februari 2026
 >Productie: vanaf 5 februari 2026\
->[!BADGE  Van programma ]{type=Neutral}
+>[!BADGE &#x200B; Van programma &#x200B;]{type=Neutral}
 
 We hebben de sectie Toewijzingen in het vak Sjabloontaken bewerken bijgewerkt wanneer u enkele sjabloontaken bewerkt of bulksgewijs bewerkt.  
 De volgende wijzigingen zijn opgenomen in deze update: 
@@ -36,7 +36,7 @@ De volgende wijzigingen zijn opgenomen in deze update: 
 
 * De optie Terug naar oude ervaring is verwijderd.
 
-Voor informatie, zie [ malplaatjetaken ](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-template-task.md) uitgeven
+Voor informatie, zie [&#x200B; malplaatjetaken &#x200B;](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-template-task.md) uitgeven
 
 ## Bijgewerkte ervaring bij het toewijzen van taken in één keer of in één keer
 
@@ -59,7 +59,7 @@ De volgende wijzigingen zijn opgenomen in deze update:
 
 * De optie Terug naar oude ervaring is verwijderd.
 
-Voor informatie, zie [ taken ](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md) uitgeven.
+Voor informatie, zie [&#x200B; taken &#x200B;](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md) uitgeven.
 
 
 
