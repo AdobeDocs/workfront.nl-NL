@@ -4,9 +4,9 @@ description: Verbeteringen van projecten in het tweede kwartaal van 2026
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 7cde2f693336649d3d965100e33b71795ddc65a2
+source-git-commit: c4ec10bde03404befd75464841f8d3c90421dde8
 workflow-type: tm+mt
-source-wordcount: '164'
+source-wordcount: '272'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,28 @@ ht-degree: 0%
 
 Op deze pagina worden de projectverbeteringen beschreven die zijn aangebracht met de release Tweede kwartaal 2026 voor de voorvertoningsomgeving. Deze verbeteringen zullen beschikbaar worden gesteld in de productieomgeving, zoals vermeld.
 
-Voor een lijst van alle veranderingen beschikbaar op dit punt in het Tweede Kwartaal 2026 versiecyclus, zie [&#x200B; Tweede Kwartaal 2026 releaseoverzicht &#x200B;](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar op dit punt in het Tweede Kwartaal 2026 versiecyclus, zie [ Tweede Kwartaal 2026 releaseoverzicht ](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md).
+
+## Bijgewerkte ervaring bij het toewijzen van sjabloontaken in één keer of in één keer
+
+>[!NOTE]
+>
+>Voorbeeld: 5 februari 2026
+>Productie: vanaf 5 februari 2026\
+>[!BADGE  Van programma ]{type=Neutral}
+
+We hebben de sectie Toewijzingen in het vak Sjabloontaken bewerken bijgewerkt wanneer u enkele sjabloontaken bewerkt of bulksgewijs bewerkt.  
+De volgende wijzigingen zijn opgenomen in deze update: 
+
+* Er is een nieuwe ervaring om middelen aan malplaatjetaken toe te wijzen. Dit is nu zowel beschikbaar bij het bewerken van één sjabloontaak als bij het bulksgewijs bewerken van verschillende sjabloontaken. De volgende velden zijn toegevoegd aan de sectie Toewijzingen: 
+
+   * Toewijzingen 
+   * Eigenaar of Taakeigenaar 
+   * Rol van de gemachtigde 
+
+* De optie Terug naar oude ervaring is verwijderd.
+
+Voor informatie, zie [ malplaatjetaken ](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-template-task.md) uitgeven
 
 ## Bijgewerkte ervaring bij het toewijzen van taken in één keer of in één keer
 
@@ -38,7 +59,7 @@ De volgende wijzigingen zijn opgenomen in deze update:
 
 * De optie Terug naar oude ervaring is verwijderd.
 
-Voor informatie, zie [&#x200B; taken &#x200B;](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md) uitgeven.
+Voor informatie, zie [ taken ](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md) uitgeven.
 
 
 
