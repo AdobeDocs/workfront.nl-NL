@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: 53596271a838733b858c0b14a4e22b07a7cd20f6
+source-git-commit: b2f1bbfbbec23a5400552eb0f989e0a0dc58413c
 workflow-type: tm+mt
-source-wordcount: '1181'
+source-wordcount: '1343'
 ht-degree: 0%
 
 ---
@@ -26,24 +26,41 @@ ht-degree: 0%
 
 {{planning-important-intro}}
 
-Nadat u een recordtype hebt geselecteerd in het gedeelte Adobe Workfront Planning, kunt u alle records van dat type weergeven in de volgende weergaven:
+Nadat u een recordtype hebt geselecteerd in het gedeelte Adobe Workfront Planning, kunt u alle records van dat type op verschillende manieren weergeven.
+
+U kunt records weergeven in weergaven van verschillende indelingen die u de flexibiliteit bieden om informatie te verkennen en te begrijpen op de manier die het beste voor u werkt. Of u nu een gestructureerd overzicht, een chronologisch artikel, een op datum gebaseerde lay-out of een eenvoudige schuifbare lijst wilt, elke weergave biedt een uniek perspectief.
+
+U kunt records weergeven in de volgende weergaven:
 
 * Tabel
 
-  Voor meer informatie, zie [&#x200B; de lijstmening &#x200B;](/help/quicksilver/planning/views/manage-the-table-view.md) leiden.
+  Voor meer informatie, zie [ de lijstmening ](/help/quicksilver/planning/views/manage-the-table-view.md) leiden.
 
 * Tijdlijn
 
-  Voor meer informatie, zie [&#x200B; de chronologiemening &#x200B;](/help/quicksilver/planning/views/manage-the-timeline-view.md) leiden.
+  Voor meer informatie, zie [ de chronologiemening ](/help/quicksilver/planning/views/manage-the-timeline-view.md) leiden.
 
 * Kalender
 
-  Voor meer informatie, zie [&#x200B; de kalendermening &#x200B;](/help/quicksilver/planning/views/manage-the-calendar-view.md) leiden.
+  Voor meer informatie, zie [ de kalendermening ](/help/quicksilver/planning/views/manage-the-calendar-view.md) leiden.
+
+* Lijst
+
+  U kunt records in een verbonden recordpagina weergeven in een lijstweergave.
+
+  >[!IMPORTANT]
+  >
+  >U kunt geen lijstmening op een lijst van verslagen op een verslagtypepagina toepassen. U kunt een lijstmening in een Verbonden verslagpagina van een verslag slechts op een lijst van verbonden projecten toepassen. <!--this will change-->
+
+  Raadpleeg de volgende artikelen voor meer informatie:
+
+   * [Een verbonden recordpagina toevoegen aan een record](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md)
+   * [De lijstweergave beheren](/help/quicksilver/planning/views/manage-the-list-view.md)
 
 In dit artikel wordt de volgende informatie over recordweergaven beschreven:
 
-* [&#x200B; creeer en geef een mening &#x200B;](#create-or-edit-record-views) uit
-* [&#x200B; laat de aanwezigheidsindicatoren in real time in een mening toe &#x200B;](#enable-the-real-time-presence-indicator-in-a-view)
+* [ creeer en geef een mening ](#create-or-edit-record-views) uit
+* [ laat de aanwezigheidsindicatoren in real time in een mening toe ](#enable-the-real-time-presence-indicator-in-a-view)
   <!--* [Add a view as a favorite](#add-a-view-as-a-favorite) - not possible yet-->
 
 Raadpleeg ook de volgende artikelen voor meer informatie over het beheren van de opnamen van Workfront Planning:
@@ -93,7 +110,7 @@ Raadpleeg ook de volgende artikelen voor meer informatie over het beheren van de
 </tbody> 
 </table>
 
-Voor meer informatie over de toegangsvereisten van Workfront, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer informatie over de toegangsvereisten van Workfront, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -192,34 +209,42 @@ In de volgende tabel worden de overeenkomsten en verschillen tussen de tabel-, t
 
 <!--some of these are NOT available right now; if you make this public, comment out the ones not there-->
 
-| Functie | Tabelweergave | Tijdlijnweergave | Kalenderweergave |
-|-----------------------------------------------------------------------|------------|---------------|--------------|
-| Records in een lijst of tabel weergeven | ✓ |              | |
-| Alle velden standaard weergeven als kolommen in de tabel | ✓ |              |    |
-| Velden (of kolommen) verbergen of weergeven | ✓ |               |    |
-| Veldwaarden bewerken voor elke record | ✓ |               |             |
-| Records toevoegen als nieuwe rijen in de weergave | ✓ |               |        |
-| Velden toevoegen als nieuwe kolommen in de weergave | ✓ |               |         |
-| Rijen kopiëren uit een externe lijst en deze in een tabel plakken | ✓ |               |          |
-| Records in een tijdlijn weergeven |            | ✓ |             |
-| Filterrecords | ✓ | ✓ | ✓ |
-| Records weergeven op een kalender |           |              | ✓ |
-| Groepsrecords | ✓ | ✓ |  |
-| Records sorteren | ✓ |              |  |
-| Kleurcoderecords | ✓ | ✓ | ✓ |
-| Kleurcodegroepen |           | ✓ |  |
-| Specifieke records zoeken | ✓ | ✓ |  |
-| De weergave delen met anderen | ✓ | ✓ | ✓ |
-| De recordpagina openen vanuit de weergave | ✓ | ✓ |    |
-| Records weergeven per jaar en kwartaal |           | ✓ |    |
-| Records weergeven per maand |           | ✓ | ✓ |
-| Records per week weergeven |           |               | ✓ |
-| Informatie exporteren uit een weergave | ✓ |               |    |
-| Weergeven op volledig scherm | ✓ | ✓ | ✓ |
-| Records maken in de weergave | ✓ | ✓ | ✓ |
-| Records onderbreken op basis van hun verbindingen |          | ✓ |    |
+| Functie | Tabelweergave | Tijdlijnweergave | Kalenderweergave | Lijstweergave |
+|-----------------------------------------------------------------------|------------|---------------|--------------|---------|
+| Records in tabelindeling weergeven | ✓ |              | | ✓ |
+| Alle velden weergeven als kolommen in een tabel of lijst | ✓ |              |    | ✓ |
+| Velden (of kolommen) verbergen of weergeven | ✓ |               |    | ✓ |
+| Veldwaarden bewerken voor elke record | ✓ |               |             | ✓ |
+| Records toevoegen als nieuwe rijen in de weergave | ✓ |               |        | ✓ |
+| Velden toevoegen als nieuwe kolommen in de weergave | ✓ |               |         | ✓ |
+| Rijen kopiëren uit een externe lijst en deze in een tabel plakken | ✓ |               |          | ✓ |
+| Records in een tijdlijn weergeven |            | ✓ |             |  |
+| Filterrecords | ✓ | ✓ | ✓ | ✓ |
+| Records weergeven op een kalender |           |              | ✓ |  |
+| Groepsrecords | ✓ | ✓ |  |  |
+| Records sorteren | ✓ |              |  | ✓ |
+| Kleurcoderecords | ✓ | ✓ | ✓ |  |
+| Kleurcodegroepen |           | ✓ |  |  |
+| Specifieke records zoeken | ✓ | ✓ |  | ✓ |
+| De weergave delen met anderen | ✓ | ✓ | ✓ | ✓ |
+| De recordpagina openen vanuit de weergave | ✓ | ✓ |    | ✓ |
+| Records weergeven per jaar en kwartaal |           | ✓ |    |  |
+| Records weergeven per maand |           | ✓ | ✓ |  |
+| Records per week weergeven |           |               | ✓ |  |
+| Informatie exporteren uit een weergave | ✓ |               |    |  |
+| Weergeven op volledig scherm | ✓ | ✓ | ✓ |  |
+| Records maken in de weergave | ✓ | ✓ | ✓ | ✓ |
+| Records onderbreken op basis van hun verbindingen |          | ✓ |    |  |
 
 ## Weergaven maken of bewerken {#create-or-edit-views}
+
+De informatie in deze sectie is van toepassing op de volgende weergavetypen:
+
+* Tabel
+* Tijdlijn
+* Kalender
+
+Voor informatie over lijstmeningen, zie [ de lijstmening ](/help/quicksilver/planning/views/manage-the-list-view.md) leiden.
 
 {{step1-to-planning}}
 
@@ -234,7 +259,7 @@ In de volgende tabel worden de overeenkomsten en verschillen tussen de tabel-, t
 
    Standaard worden alle records van het geselecteerde type weergegeven in de tabelweergave.
 
-1. Klik het drop-down pictogram ![&#x200B; pictogram Dropdown &#x200B;](assets/drop-down-icon.png) naast de huidige meningsnaam, dan klik **+ Nieuwe mening**.
+1. Klik het drop-down pictogram ![ pictogram Dropdown ](assets/drop-down-icon.png) naast de huidige meningsnaam, dan klik **+ Nieuwe mening**.
 
 1. Selecteer een van de volgende typen weergaven:
 
@@ -253,12 +278,12 @@ In de volgende tabel worden de overeenkomsten en verschillen tussen de tabel-, t
    >Anders worden de opties Tijdlijn en Kalender grijs weergegeven.
    >  
 
-   ![&#x200B; creeer meningsdoos &#x200B;](assets/create-view-box.png)
+   ![ creeer meningsdoos ](assets/create-view-box.png)
 
 1. (Facultatief) om een bestaande mening uit te geven, klik het drop-down menu rechts van de naam van de huidige mening, dan typ de naam van een mening in het **gebied van het Onderzoek** en druk binnengaan op uw toetsenbord.
 1. (Optioneel) Sleep vanuit het vervolgkeuzemenu Weergave en zet de weergaven neer op volgorde van uw voorkeur.
 
-   ![&#x200B; de types van Mening drop-down van verslagtype lijst &#x200B;](assets/view-types-drop-down-from-record-type-list.png)
+   ![ de types van Mening drop-down van verslagtype lijst ](assets/view-types-drop-down-from-record-type-list.png)
 
 1. (Voorwaardelijk) klik **daarna**, wanneer het creëren van een chronologie of een kalendermening.
 
@@ -278,21 +303,21 @@ In de volgende tabel worden de overeenkomsten en verschillen tussen de tabel-, t
    >
    >U moet aggregators voor datumgebieden (MAX of MIN) gebruiken wanneer u raadplegingsgebieden wanneer het verbinden van verslagtypes selecteert. Alleen wanneer u de aggregators toevoegt, kunt u de datums van de verbindingen gebruiken als begin- en einddatum voor de tijdlijn- en kalenderweergave.
    >
-   >Voor informatie, zie [&#x200B; verbind verslagtypes &#x200B;](/help/quicksilver/planning/architecture/connect-record-types.md).
+   >Voor informatie, zie [ verbind verslagtypes ](/help/quicksilver/planning/architecture/connect-record-types.md).
 
 1. Klik **creëren**.
 
    De weergave wordt weergegeven als een nieuw tabblad. De weergaven worden in chronologische volgorde weergegeven vanaf het moment waarop ze zijn gemaakt of met u zijn gedeeld.
-1. (Facultatief) klik **Meer** menu ![&#x200B; meer inlasteken neer pictogrammeningen &#x200B;](assets/more-caret-down-icon-views.png) naast de laatste mening om alle meningen voor het geselecteerde verslagtype te tonen.
+1. (Facultatief) klik **Meer** menu ![ meer inlasteken neer pictogrammeningen ](assets/more-caret-down-icon-views.png) naast de laatste mening om alle meningen voor het geselecteerde verslagtype te tonen.
 
    De extra meningsvertoning onder **Meer** menu na het laatste meningslusje. Het aantal naast **meer** menu toont het aantal extra meningen.
-1. (Facultatief) om een mening anders te noemen nadat het wordt gecreeerd, klik het meningsdrop-down menu, dan klik **Meer** menu ![&#x200B; Meer menu &#x200B;](assets/more-menu.png) > **anders noemen** om de meningsnaam bij te werken
+1. (Facultatief) om een mening anders te noemen nadat het wordt gecreeerd, klik het meningsdrop-down menu, dan klik **Meer** menu ![ Meer menu ](assets/more-menu.png) > **anders noemen** om de meningsnaam bij te werken
 
    of
 
    Dubbelklik op de weergavenaam en typ de nieuwe naam.  <!--ensure there is not another saving step here?!-->
 
-1. (Facultatief) klik het **Volledige het schermpictogram** pictogram ![&#x200B; Open volledig het schermpictogram &#x200B;](assets/open-full-screen-icon.png) om het even welke mening in volledig scherm te openen, dan de **Uitgang volledig scherm** pictogram ![&#x200B; van de Uitgang het volledige het schermpictogram &#x200B;](assets/exit-full-screen-icon.png) of Escape op uw toetsenbord om het volledige scherm weg te gaan.
+1. (Facultatief) klik het **Volledige het schermpictogram** pictogram ![ Open volledig het schermpictogram ](assets/open-full-screen-icon.png) om het even welke mening in volledig scherm te openen, dan de **Uitgang volledig scherm** pictogram ![ van de Uitgang het volledige het schermpictogram ](assets/exit-full-screen-icon.png) of Escape op uw toetsenbord om het volledige scherm weg te gaan.
 
 1. (Optioneel) Raadpleeg de volgende artikelen voor informatie over het beheren van een bepaald weergavetype:
 
@@ -304,11 +329,15 @@ In de volgende tabel worden de overeenkomsten en verschillen tussen de tabel-, t
 
 U kunt zien of andere gebruikers records op hetzelfde moment bewerken als u door de aanwezigheidsindicatoren in real time in de weergave te volgen.
 
+>[!NOTE]
+>
+>U kunt aanwezigheidsindicatoren in real time niet in een lijstmening bekijken.
+
 De avatars van andere gebruikers die recordinformatie uitgeven tezelfdertijd zoals u in de hoger-juiste hoek van alle verslagmeningen toont, door gebrek.
 
 Wanneer u de tabelweergave weergeeft, kunt u ook bekijken welk veld een andere gebruiker bewerkt op het moment dat u de record weergeeft.
 
-Voor meer informatie, zie [&#x200B; de lijstmening &#x200B;](/help/quicksilver/planning/views/manage-the-table-view.md) leiden.
+Voor meer informatie, zie [ de lijstmening ](/help/quicksilver/planning/views/manage-the-table-view.md) leiden.
 
 
 
