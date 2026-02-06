@@ -7,7 +7,7 @@ description: Dit rapportfilter geeft alle rapporten weer die automatisch worden 
 author: Lisa and Jenny
 feature: Reports and Dashboards
 exl-id: 7b937384-80c9-4bc7-94be-5573cf86b35b
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: be102fd5f490b12837a231774253c030973c1c4f
 workflow-type: tm+mt
 source-wordcount: '179'
 ht-degree: 0%
@@ -49,7 +49,7 @@ Dit rapportfilter geeft alle rapporten weer die automatisch worden geleverd in A
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -66,8 +66,7 @@ Dit filter toepassen:
 1. In het **plaats de Regels van de Filter voor uw gebied van het Rapport**, kopieer en kleef de volgende code:
 
    ```
-   scheduledReportID=0
-   scheduledReportID_Mod=notnull
+    scheduledReportsOM:ID_Mod=notblank
    ```
 
 1. Klik **sparen Filter**.
