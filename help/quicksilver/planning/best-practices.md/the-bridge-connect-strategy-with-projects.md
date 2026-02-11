@@ -97,7 +97,7 @@ Voor organisaties met hoge volumeverzoeken of geavanceerde automatiseringsbehoef
 
 Voor deze aanpak hebt u een licentie voor Adobe Workfront Fusion nodig.
 
-Voor meer informatie zie [&#x200B; Opstelling en beheer Workfront Fusion: artikelindex &#x200B;](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/set-up-and-manage-fusion/set-up-and-manage-workfront-fusion-toc).
+Voor meer informatie zie [&#x200B; Opstelling en beheer Workfront Fusion: artikelindex &#x200B;](https://experienceleague.adobe.com/nl/docs/workfront-fusion/using/set-up-and-manage-fusion/set-up-and-manage-workfront-fusion-toc).
 
 * **de voorleggingstrekkers van het Gebruik:** Omdat de vormen één enkele, schone voorleggingsgebeurtenis verstrekken, kunnen zij als trekkers voor de automatisering van de Fusie worden gebruikt. Een Fusion-scenario kan een formulierverzending detecteren en direct een gekoppeld project genereren in Workfront.
 
