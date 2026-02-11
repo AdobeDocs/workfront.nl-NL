@@ -51,7 +51,7 @@ Hieronder vindt u de niveaus van een geslaagde planningimplementatie en de artef
 
    * **Personas:** Belanghebbenden voor dit niveau kunnen de Medewerker van de Marketing, een VP van Marketing, of andere strategische lood zijn.
 
-  Voor informatie, zie [ recordtypes ](/help/quicksilver/planning/architecture/create-record-types.md) creëren.
+  Voor informatie, zie [&#x200B; recordtypes &#x200B;](/help/quicksilver/planning/architecture/create-record-types.md) creëren.
 
 * **Niveau 2: De Takken van het Kanaal (de Planning van Workfront)**
 
@@ -91,7 +91,7 @@ Het kan handig zijn om de volgende aanvullende items te maken:
 
 Een marketingsysteem van bedrijfsniveau met record is niet in één werkruimte ingebouwd. Het gebruikt een &quot;hub-en-sprekende&quot;architectuur waar verslagtypes in hun natuurlijke centra van zwaartekracht worden beheerd.
 
-Voor meer informatie, zie [ uitrollen uw strategisch huis: een 30 dagllanceerpad ](/help/quicksilver/planning/best-practices.md/30-day-launchpad.md).
+Voor meer informatie, zie [&#x200B; uitrollen uw strategisch huis: een 30 dagllanceerpad &#x200B;](/help/quicksilver/planning/best-practices.md/30-day-launchpad.md).
 
 Om uw architectuur te bouwen die de hub-en-sprekende benadering gebruikt, moet u het volgende tot stand brengen:
 
@@ -103,7 +103,7 @@ Om uw architectuur te bouwen die de hub-en-sprekende benadering gebruikt, moet u
 
 U moet eerst één gecentraliseerde werkruimte voor uw globale classificaties tot stand brengen om de belangrijkste concepten te bepalen iedereen in uw organisatie moet begrijpen. Maak bijvoorbeeld de volgende recordtypen in een centrale werkruimte: merken, regio&#39;s, producten, personen.
 
-Voor informatie, zie [ recordtypes ](/help/quicksilver/planning/architecture/create-record-types.md) creëren.
+Voor informatie, zie [&#x200B; recordtypes &#x200B;](/help/quicksilver/planning/architecture/create-record-types.md) creëren.
 
 Stel het volgende in wanneer u uw classificaties maakt:
 
@@ -166,7 +166,7 @@ We raden het volgende aan:
 
   Wanneer een Tactic of Campagne in de Planning van Workfront wordt gecreeerd, kan dat verslag een overeenkomstige Portfolio of een Programma in Workfront produceren.
 
-  Voor informatie, zie [ voorwerpen creëren gebruikend het verslag van de Planning van Adobe Workfront automatiseringen ](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md).
+  Voor informatie, zie [&#x200B; voorwerpen creëren gebruikend het verslag van de Planning van Adobe Workfront automatiseringen &#x200B;](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md).
 
 Zo kunt u:
 

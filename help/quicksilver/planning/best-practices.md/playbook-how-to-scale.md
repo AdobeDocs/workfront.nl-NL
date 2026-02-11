@@ -73,7 +73,7 @@ Schaal zonder schuld door &quot;Global Lanes&quot; en &quot;Local Playground&quo
 
 ### B. Lokale speelplaatsen
 
-* **Experimentele Voorwerpen**: Gebieden of verslagtypes specifiek voor de tactische behoeften van een team (b.v., de 2} van een Sociaal team of team van het Web `Influencer Handle`).`URL Slug`
+* **Experimentele Voorwerpen**: Gebieden of verslagtypes specifiek voor de tactische behoeften van een team (b.v., de 2&rbrace; van een Sociaal team of team van het Web `Influencer Handle`).`URL Slug`
 
 * **Beheerd door**: Het Team leidt (met lichte begeleiding).
 
@@ -91,7 +91,7 @@ Wij geloven dat de meest efficiënte manier om dit te navigeren is te erkennen d
 
 1. **de Teams vergen relevantie**: De onderneming realiseert slechts waarde wanneer zijn teams actief uitvoeren. Daarom moet het bestuur **de teams** dienen door structuur te verstrekken die hun bekende operationele behoeften steunt.
 
-2. **de Onderneming vereist zicht**: De leiders kunnen geïnformeerde besluiten slechts nemen wanneer het gegeven schoon genoeg is om samen te voegen. Daarom moeten de teams de onderneming **** dienen door de minimum levensvatbare meta-gegevens te verstrekken die voor portefeuillezicht worden vereist.
+2. **de Onderneming vereist zicht**: De leiders kunnen geïnformeerde besluiten slechts nemen wanneer het gegeven schoon genoeg is om samen te voegen. Daarom moeten de teams de onderneming **&#x200B;**&#x200B;dienen door de minimum levensvatbare meta-gegevens te verstrekken die voor portefeuillezicht worden vereist.
 
 
 
@@ -261,7 +261,7 @@ Het succes in een beheerd het schrapen model vereist meer dan enkel hulpmiddelco
 
    * Faciliteert de **Weg van de Looptijd van het Gebied** (het bevorderen van lokale successen aan globale normen).
 
-   * Handhaaft de **Primaire 1} meningen van Workspace voor uitvoerende rapportering.**
+   * Handhaaft de **Primaire 1&rbrace; meningen van Workspace voor uitvoerende rapportering.**
 
    * Leidt de maandelijkse **Semantische Controle** over werkruimten.
 
