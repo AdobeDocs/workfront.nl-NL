@@ -24,7 +24,7 @@ Wanneer het delen van een voorwerp met iemand in het systeem, kunt u de ontvange
 
 U hoeft geen Adobe Workfront-beheerder te zijn om machtigingen te delen voor objecten waartoe u toegang hebt, maar uw machtigingen voor objecten werken binnen de toegangsniveaus die door de Workfront-beheerder zijn ingesteld.
 
-U kunt machtigingen delen of verwijderen voor een object dat u hebt gemaakt of een object dat met u is gedeeld. Wanneer u niet de schepper van het voorwerp bent, moet u de toegang van het Aandeel op het voorwerp hebben dat u in uw toegangsniveau naast de toestemmingen van het Aandeel op het voorwerp wilt delen. Voor informatie over toegangsniveaus, zie [ Nieuw overzicht van toegangsniveaus ](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md) of [ overzicht van de Niveaus van de Toegang ](../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
+U kunt machtigingen delen of verwijderen voor een object dat u hebt gemaakt of een object dat met u is gedeeld. Wanneer u niet de schepper van het voorwerp bent, moet u de toegang van het Aandeel op het voorwerp hebben dat u in uw toegangsniveau naast de toestemmingen van het Aandeel op het voorwerp wilt delen. Voor informatie over toegangsniveaus, zie [&#x200B; Nieuw overzicht van toegangsniveaus &#x200B;](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md) of [&#x200B; overzicht van de Niveaus van de Toegang &#x200B;](../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
 
 >[!NOTE]
 >
@@ -34,37 +34,37 @@ U kunt machtigingen delen of verwijderen voor een object dat u hebt gemaakt of e
 
 U kunt de volgende objecten in Workfront delen met andere gebruikers:
 
-* **Projecten**: Voor meer informatie, zie [ een project in Adobe Workfront ](../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md) delen.
+* **Projecten**: Voor meer informatie, zie [&#x200B; een project in Adobe Workfront &#x200B;](../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md) delen.
 
-* **Malplaatjes**: Voor meer informatie, zie [ projectmalplaatjes van het Aandeel ](../../manage-work/projects/create-and-manage-templates/share-project-template.md).
+* **Malplaatjes**: Voor meer informatie, zie [&#x200B; projectmalplaatjes van het Aandeel &#x200B;](../../manage-work/projects/create-and-manage-templates/share-project-template.md).
 
-* **Portfolio&#39;s**: Voor meer informatie, zie [ een portefeuille ](../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio.md) delen.
+* **Portfolio&#39;s**: Voor meer informatie, zie [&#x200B; een portefeuille &#x200B;](../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio.md) delen.
 
-* **Programma&#39;s**: Voor informatie, zie [ een programma ](../../workfront-basics/grant-and-request-access-to-objects/share-a-program.md) delen.
+* **Programma&#39;s**: Voor informatie, zie [&#x200B; een programma &#x200B;](../../workfront-basics/grant-and-request-access-to-objects/share-a-program.md) delen.
 
-* **Taken**: Voor informatie, zie [ een taak ](../../workfront-basics/grant-and-request-access-to-objects/share-a-task.md) delen.
+* **Taken**: Voor informatie, zie [&#x200B; een taak &#x200B;](../../workfront-basics/grant-and-request-access-to-objects/share-a-task.md) delen.
 
-* **Kwesties**: Voor informatie, zie [ een kwestie ](../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md) delen.
+* **Kwesties**: Voor informatie, zie [&#x200B; een kwestie &#x200B;](../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md) delen.
 
-* **Documenten**: Voor informatie, zie [ een document ](../../workfront-basics/grant-and-request-access-to-objects/document-permissions.md) delen.
+* **Documenten**: Voor informatie, zie [&#x200B; een document &#x200B;](../../workfront-basics/grant-and-request-access-to-objects/document-permissions.md) delen.
 
-* **de Omslagen van het Document**: Voor informatie, zie [ een documentomslag ](../../workfront-basics/grant-and-request-access-to-objects/share-a-document-folder.md) delen.
+* **de Omslagen van het Document**: Voor informatie, zie [&#x200B; een documentomslag &#x200B;](../../workfront-basics/grant-and-request-access-to-objects/share-a-document-folder.md) delen.
 
-* **Proofs**: Voor informatie, zie [ een Bewijs binnen Workfront ](/help/quicksilver/review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md) delen.
+* **Proofs**: Voor informatie, zie [&#x200B; een Bewijs binnen Workfront &#x200B;](/help/quicksilver/review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md) delen.
 
-* **Rapporten, dashboards, en kalenders**: Voor informatie, zie [ rapporten, dashboards, en kalenders van het Aandeel ](../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md).  Zie ook de volgende artikelen:
+* **Rapporten, dashboards, en kalenders**: Voor informatie, zie [&#x200B; rapporten, dashboards, en kalenders van het Aandeel &#x200B;](../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md).  Zie ook de volgende artikelen:
 
    * [Een rapport delen in Adobe Workfront](../../reports-and-dashboards/reports/creating-and-managing-reports/share-report.md)
    * [Een dashboard delen](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/share-dashboard.md)
    * [Een kalenderrapport delen](../../reports-and-dashboards/reports/calendars/share-a-calendar-report.md)
 
-* **Filters, meningen, en groeperingen**: Voor informatie, zie [ een filter, mening, of groepering ](../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md) delen.
+* **Filters, meningen, en groeperingen**: Voor informatie, zie [&#x200B; een filter, mening, of groepering &#x200B;](../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md) delen.
 
-* **Plannen**: Voor informatie, zie [ een plan in de Planner van het Scenario delen ](../../scenario-planner/share-a-plan.md).
+* **Plannen**: Voor informatie, zie [&#x200B; een plan in de Planner van het Scenario delen &#x200B;](../../scenario-planner/share-a-plan.md).
 
   Hiervoor is een aanvullende licentie vereist.
 
-* **Doelen**: Voor informatie, zie [ een doel in de Doelen van Workfront delen ](../../workfront-goals/workfront-goals-settings/share-a-goal.md).
+* **Doelen**: Voor informatie, zie [&#x200B; een doel in de Doelen van Workfront delen &#x200B;](../../workfront-goals/workfront-goals-settings/share-a-goal.md).
 
   Hiervoor is een aanvullende licentie vereist.
 
@@ -87,13 +87,13 @@ U kunt de volgende objecten in Workfront delen met andere gebruikers:
   >
   >Zie voor meer informatie:
   >
-  >* [ Deel een plan in de Planner van het Scenario ](../../scenario-planner/share-a-plan.md)
-  >* [ Deel een doel in de Doelen van Workfront ](../../workfront-goals/workfront-goals-settings/share-a-goal.md)
+  >* [&#x200B; Deel een plan in de Planner van het Scenario &#x200B;](../../scenario-planner/share-a-plan.md)
+  >* [&#x200B; Deel een doel in de Doelen van Workfront &#x200B;](../../workfront-goals/workfront-goals-settings/share-a-goal.md)
 
 * Workfront stuurt meldingen naar gebruikers wanneer u een object met hen deelt. Meldingen gaan uit wanneer beide instellingen zijn ingeschakeld:
 
-   * Het **Aandeel van Objecten aan Gebruiker** en het **Aandeel van Objecten aan de e-mailberichten van het Team** worden toegelaten in het gebied van de Opstelling door een systeem of groepsbeheerder. Voor informatie, zie [ gebeurtenisberichten voor iedereen in het systeem ](/help/quicksilver/administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md) vormen.
-   * **Iemand deelt een voorwerp met me** en **Iemand deelt een voorwerp met mijn team** berichten worden toegelaten in de het profielpagina van de gebruiker. Voor informatie, zie [ uw eigen e-mailberichten ](/help/quicksilver/workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md) wijzigen.
+   * Het **Aandeel van Objecten aan Gebruiker** en het **Aandeel van Objecten aan de e-mailberichten van het Team** worden toegelaten in het gebied van de Opstelling door een systeem of groepsbeheerder. Voor informatie, zie [&#x200B; gebeurtenisberichten voor iedereen in het systeem &#x200B;](/help/quicksilver/administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md) vormen.
+   * **Iemand deelt een voorwerp met me** en **Iemand deelt een voorwerp met mijn team** berichten worden toegelaten in de het profielpagina van de gebruiker. Voor informatie, zie [&#x200B; uw eigen e-mailberichten &#x200B;](/help/quicksilver/workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md) wijzigen.
 
   De instellingen op systeem- of groepsniveau moeten eerst zijn ingeschakeld voordat u de meldingsinstellingen voor de gebruiker kunt inschakelen.
 
@@ -164,11 +164,11 @@ Als u een gebruiker bijvoorbeeld Contribute-machtigingen geeft aan een project, 
 
 In het bovenstaande voorbeeld kunt u machtigingen niet beperken tot onderliggende objecten. Als u niet wilt dat de gebruiker Contribute toestemmingen aan kindvoorwerpen verbonden aan het project heeft, moet u de Geërfte Toestemmingen van de voorwerpen manueel verwijderen en dan de toestemmingen voor de individuele gebruiker, met inbegrip van om het even welke Geavanceerde Montages aanpassen.
 
-Voor meer informatie over de hiërarchie en de onderlinge afhankelijkheid van voorwerpen in Workfront, zie de sectie [ Interdependentie en hiërarchie van voorwerpen ](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#interdependency-and-hierarchy-of-objects) in het artikel [ de voorwerpen van Adobe Workfront overzicht ](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+Voor meer informatie over de hiërarchie en de onderlinge afhankelijkheid van voorwerpen in Workfront, zie de sectie [&#x200B; Interdependentie en hiërarchie van voorwerpen &#x200B;](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#interdependency-and-hierarchy-of-objects) in het artikel [&#x200B; de voorwerpen van Adobe Workfront overzicht &#x200B;](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
 >[!NOTE]
 >
->Uw Workfront-beheerder kan overgeërfde machtigingen voor documenten op uw toegangsniveau uitschakelen.  Voor meer informatie over het onbruikbaar maken van geërfte toestemmingen voor documenten in het toegangsniveau, zie [ tot douanetoegangsniveaus ](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md) leiden of wijzigen.
+>Uw Workfront-beheerder kan overgeërfde machtigingen voor documenten op uw toegangsniveau uitschakelen.  Voor meer informatie over het onbruikbaar maken van geërfte toestemmingen voor documenten in het toegangsniveau, zie [&#x200B; tot douanetoegangsniveaus &#x200B;](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md) leiden of wijzigen.
 
 ### Machtigingen die zijn verkregen door het lidmaatschap van een organisatie   {#permissions-acquired-through-organizational-memberships}
 
@@ -231,11 +231,11 @@ You cannot remove individual entities from the Inherited Permissions list. You c
 
 ## Een object delen
 
-Voor informatie over hoe te om voorwerpen te delen, zie [ een voorwerp ](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md) delen.
+Voor informatie over hoe te om voorwerpen te delen, zie [&#x200B; een voorwerp &#x200B;](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md) delen.
 
 ## Rechten van objecten verwijderen
 
-Voor informatie over hoe te om toestemmingen uit voorwerpen te verwijderen, zie [ toestemmingen uit voorwerpen ](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md) verwijderen.
+Voor informatie over hoe te om toestemmingen uit voorwerpen te verwijderen, zie [&#x200B; toestemmingen uit voorwerpen &#x200B;](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md) verwijderen.
 
 ## Machtigingen aanvragen voor objecten
 
@@ -243,4 +243,4 @@ Wanneer iemand u een koppeling stuurt naar een object waarvoor u geen weergavema
 
 U kunt toegang tot een object aanvragen bij iedereen die toestemming voor delen heeft voor het object.
 
-Voor meer informatie over het verzoeken van toestemmingen aan voorwerpen, zie [ Toegang van het Verzoek tot voorwerpen ](../../workfront-basics/grant-and-request-access-to-objects/request-access.md).
+Voor meer informatie over het verzoeken van toestemmingen aan voorwerpen, zie [&#x200B; Toegang van het Verzoek tot voorwerpen &#x200B;](../../workfront-basics/grant-and-request-access-to-objects/request-access.md).
