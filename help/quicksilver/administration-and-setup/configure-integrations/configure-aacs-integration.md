@@ -6,9 +6,9 @@ description: U kunt uw werk met uw inhoud in  [!DNL Experience Manager Assets] v
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
-source-git-commit: 85ccee879fd4ba5a80b6e885458839901f83d26e
+source-git-commit: 315428ec517b3a6c0edae387b3a866093a49a2b2
 workflow-type: tm+mt
-source-wordcount: '1658'
+source-wordcount: '1669'
 ht-degree: 0%
 
 ---
@@ -75,7 +75,7 @@ U kunt uw werk in [!DNL Experience Manager Assets] &#x200B; met uw inhoud verbin
   </tr>
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -83,7 +83,7 @@ Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van d
 
 Voordat u begint,
 
-* U moet [!DNL Workfront] en [!DNL Adobe Experience Manager Assets] aan een Organisatie-id hebben gekoppeld in de [!DNL Adobe Admin Console] . Voor meer informatie zie, [&#x200B; Op platform-gebaseerde beleidsverschillen ([!DNL Adobe Workfront]/ [!DNL Adobe Business Platform]) &#x200B;](/help/quicksilver/administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+* U moet [!DNL Workfront] en [!DNL Adobe Experience Manager Assets] aan een Organisatie-id hebben gekoppeld in de [!DNL Adobe Admin Console] . Voor meer informatie zie, [ Op platform-gebaseerde beleidsverschillen ([!DNL Adobe Workfront]/ [!DNL Adobe Business Platform]) ](/help/quicksilver/administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
 
 ## De integratiegegevens instellen
@@ -100,9 +100,9 @@ Voordat u begint,
 1. Voer in het veld **[!UICONTROL Name]** de naam in die gebruikers moeten zien wanneer ze met deze integratie werken in Workfront en Experience Manager Assets.
 1. In het veld **[!UICONTROL Navigation URL]** vult het systeem automatisch de URL van de navigatie. Deze alleen-lezen URL wordt gebruikt om vanuit [!DNL Experience Manager] snel toegang te krijgen tot de [!UICONTROL Main Menu] -instantie van uw organisatie.
 1. Kies een gegevensopslagruimte in het vervolgkeuzemenu **[!UICONTROL [!DNL Experience Manager] Assets repository]** . Het systeem vult automatisch alle [!DNL Experience Manager] opslagplaatsen in die zijn gekoppeld aan de organisatie-id waaraan uw gebruikersprofiel is toegewezen.
-   ![&#x200B; kies de bewaarplaats van de ervaringsmanager &#x200B;](assets/setup-information.png)
+   ![ kies de bewaarplaats van de ervaringsmanager ](assets/setup-information.png)
 
-1. Klik **[!UICONTROL Save]** of beweging op [&#x200B; de meta-gegevens van de Opstelling (Facultatieve) &#x200B;](#set-up-metadata-optional) sectie in dit artikel.
+1. Klik **[!UICONTROL Save]** of beweging op [ de meta-gegevens van de Opstelling (Facultatieve) ](#set-up-metadata-optional) sectie in dit artikel.
 
    >[!NOTE]
    >
@@ -122,10 +122,10 @@ Voordat u metagegevensvelden gaat toewijzen, moet u metagegevensvelden zowel in 
 
 U kunt als volgt metagegevensvelden configureren:
 
-1. Vorm een meta-gegevensschema in [!DNL Experience Manager Assets] zoals die in [&#x200B; wordt verklaard vormt activa meta-gegevensafbeelding tussen Adobe  [!DNL Workfront]  en  [!DNL Experience Manager Assets] &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
+1. Vorm een meta-gegevensschema in [!DNL Experience Manager Assets] zoals die in [ wordt verklaard vormt activa meta-gegevensafbeelding tussen Adobe  [!DNL Workfront]  en  [!DNL Experience Manager Assets] ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
 
 
-1. Aangepaste formuliervelden configureren in Workfront. [!DNL Workfront] bevat veel ingebouwde aangepaste velden die u kunt gebruiken. Nochtans, kunt u uw eigen douanegebieden ook tot stand brengen zoals die in [&#x200B; worden verklaard creeer een douanevorm &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+1. Aangepaste formuliervelden configureren in Workfront. [!DNL Workfront] bevat veel ingebouwde aangepaste velden die u kunt gebruiken. Nochtans, kunt u uw eigen douanegebieden ook tot stand brengen zoals die in [ worden verklaard creeer een douanevorm ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 +++ **breid uit om meer informatie over gesteunde gebieden van Workfront en van Experience Manager Assets te zien** 
 
@@ -147,12 +147,12 @@ U kunt elk door Workfront ondersteund veld toewijzen aan een tag in Experience M
 >
 >Als u wilt dat het label het meest linkse item in de codestructuur is, moet het worden gevolgd door een dubbele punt. In dit voorbeeld zou de veldwaarde in Workfront `landscapes:` zijn om aan de landscapes-tag toe te wijzen.
 >
->![&#x200B; de structuur van de Omslag in AEM &#x200B;](assets/aem-folder-structure-with-red-boxes.png)
+>![ de structuur van de Omslag in AEM ](assets/aem-folder-structure-with-red-boxes.png)
 
 
 Nadat u de tags in Experience Manager Assets hebt gemaakt, worden deze weergegeven onder de vervolgkeuzelijst Codes in de sectie Metagegevens. Als u een veld aan een tag wilt koppelen, selecteert u `xcm:keywords` in het vervolgkeuzemenu Experience Manager Assets-veld in het gebied voor metagegevenstoewijzing.
 
-Voor meer informatie over markeringen in Experience Manager Assets, met inbegrip van hoe te om markeringen tot stand te brengen en te beheren, zie [&#x200B; het Beheer Markeringen &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-64/administering/contentmanagement/tags).
+Voor meer informatie over markeringen in Experience Manager Assets, met inbegrip van hoe te om markeringen tot stand te brengen en te beheren, zie [ het Beheer Markeringen ](https://experienceleague.adobe.com/en/docs/experience-manager-64/administering/contentmanagement/tags).
 
 **de gebieden van het de douaneschema-meta-gegevens van Experience Manager Assets**
 
@@ -160,7 +160,7 @@ U kunt zowel ingebouwde als aangepaste Workfront-velden toewijzen aan aangepaste
 
 Aangepaste metagegevensvelden die zijn gemaakt in Experience Manager Assets, worden in hun eigen sectie geordend in het instellingsgebied voor metagegevens.
 
-![&#x200B; sectie van douanemetagegevens &#x200B;](assets/custom-metadata.png)
+![ sectie van douanemetagegevens ](assets/custom-metadata.png)
 
 <!-- 
 link to documentation about creating schema - waiting on response from Anuj about best article to link to
@@ -200,8 +200,8 @@ Metagegevens toewijzen voor elementen:
 
 1. Doorzoek in het veld [!DNL Experience Manager Assets] de vooraf ingevulde categorieën of voer in het zoekveld ten minste twee letters in voor toegang tot extra categorieën.
 1. Herhaal stap 2 en 3 zo nodig.
-   ![&#x200B; meta-gegevensgebieden &#x200B;](assets/metadata-no-asset-toggle.png)
-1. Klik [!UICONTROL Save] of beweging op de [&#x200B; sectie van de Werkschema&#39;s van de Opstelling &#x200B;](#set-up-workflows-optional) in dit artikel.
+   ![ meta-gegevensgebieden ](assets/metadata-no-asset-toggle.png)
+1. Klik [!UICONTROL Save] of beweging op de [ sectie van de Werkschema&#39;s van de Opstelling ](#set-up-workflows-optional) in dit artikel.
 
 <!--
 
@@ -264,7 +264,7 @@ U kunt maximaal 100 gekoppelde mappen per mappenstructuur maken.
 1. Kies een mappad om aan te geven waar u alle gekoppelde mappen aan deze integratie wilt koppelen.
 1. (Voorwaardelijk) Ga als volgt te werk om een mapstructuur (geneste mappen) aan deze integratie toe te voegen:
 
-   1. Klik **toevoegen omslag** pictogram ![&#x200B; omslag &#x200B;](assets/add-folder-aem.png) toevoegt.
+   1. Klik **toevoegen omslag** pictogram ![ omslag ](assets/add-folder-aem.png) toevoegt.
    1. Op het **het type van Naam** gebied, selecteer hoe u de omslag wilt noemen:
 
       * **Naam**: Type in een naam voor de omslag.
@@ -278,18 +278,22 @@ U kunt maximaal 100 gekoppelde mappen per mappenstructuur maken.
       >   `/`, `:`, `[`, `]`, `|`, `*`
 
    1. Om een genestelde omslag aan de omslagboom toe te voegen, klik het drie-punt menu naast de omslag u een genestelde omslag binnen wilt creëren en **selecteren voegt Omslag** toe. Vul de velden in zoals wordt beschreven in Stap de vorige stap.
-   1. Om een omslag aan Workfront te verbinden, selecteer de omslag en klik **maak verbonden omslag**   pictogram ![&#x200B; omslag van de Verbinding &#x200B;](assets/link-folder.png).
-   1. (Facultatief) om een omslag uit te geven, selecteer de omslag en klik **uitgeven het pictogram van de Omslag** ![&#x200B; pictogram geeft pictogram &#x200B;](assets/edit-icon.png) uit.
-   1. (Facultatief) om een omslag te schrappen, de omslag te selecteren en de **omslag van de Schrapping** pictogram ![&#x200B; omslag van de Schrapping &#x200B;](assets/delete-folder.png) te klikken.
+   1. Om een omslag aan Workfront te verbinden, selecteer de omslag en klik **maak verbonden omslag**   pictogram ![ omslag van de Verbinding ](assets/link-folder.png).
+   1. (Facultatief) om een omslag uit te geven, selecteer de omslag en klik **uitgeven het pictogram van de Omslag** ![ pictogram geeft pictogram ](assets/edit-icon.png) uit.
+   1. (Facultatief) om een omslag te schrappen, de omslag te selecteren en de **omslag van de Schrapping** pictogram ![ omslag van de Schrapping ](assets/delete-folder.png) te klikken.
 1. (Voorwaardelijk) om een andere omslagboom toe te voegen, **+ voeg omslagboom** toe en volg de stappen in Stap 5.
 
-1. Klik **[!UICONTROL Save]**, of beweging op [&#x200B; publiceer activa die naar de sectie van Adobe Experience Manager Assets &#x200B;](#publish-assets-that-are-sent-to-adobe-experience-manager-assets) in dit artikel worden verzonden.
+1. Klik **[!UICONTROL Save]**, of beweging op [ publiceer activa die naar de sectie van Adobe Experience Manager Assets ](#publish-assets-that-are-sent-to-adobe-experience-manager-assets) in dit artikel worden verzonden.
+
 
 >[!NOTE]
 >
->* Met deze integratie worden niet meer dan 100 mappen gemaakt, ongeacht het aantal mappenstructuren dat is gemaakt. Dankzij de integratie met 4 mapstructuren kunnen bijvoorbeeld maximaal 100 mappen worden gemaakt, niet 400 mappen.
->* De eerste map in de mappenstructuur wordt automatisch gemarkeerd als gekoppeld aan Workfront. Als u deze map niet wilt koppelen, kunt u deze ontkoppelen.
+>* De Inheemse Integratie van Workfront AEM kan **niet meer dan 100 omslagen per project per integratie** tot stand brengen, ongeacht hoeveel omslagbomen inbegrepen zijn.
+>   * Voorbeeld: integratie met 4 mapstructuren in één project kan tot 100 mappen maken, niet 400.
+>* De eerste map in elke mappenstructuur wordt automatisch gemarkeerd als gekoppeld aan Workfront. Als u deze map niet wilt koppelen, kunt u deze ontkoppelen.
 >* Als er geen mapstructuur is opgegeven, wordt de hoofdmap de gekoppelde map.
+
+
 
 
 ### Elementen publiceren die naar Adobe Experience Manager Assets worden verzonden
@@ -297,7 +301,7 @@ U kunt maximaal 100 gekoppelde mappen per mappenstructuur maken.
 1. Schakel **[!UICONTROL Publish assets automatically]** in.
 1. Schakel het vakje naast de locatie in waar u de elementen wilt publiceren die naar Adobe Experience Manager-elementen zijn verzonden. U kunt een van beide of beide opties inschakelen.
 1. (Voorwaardelijk) Als u de optie Brand Portal hebt ingeschakeld, selecteert u de Brand Portal waar u elementen wilt publiceren.
-1. Klik **[!UICONTROL Save]** of beweging op de [&#x200B; Opstelling verbonden omslagen (Facultatieve) &#x200B;](#set-up-linked-folders-optional) sectie in dit artikel.
+1. Klik **[!UICONTROL Save]** of beweging op de [ Opstelling verbonden omslagen (Facultatieve) ](#set-up-linked-folders-optional) sectie in dit artikel.
 
 ## Gekoppelde mappen instellen (optioneel)
 
