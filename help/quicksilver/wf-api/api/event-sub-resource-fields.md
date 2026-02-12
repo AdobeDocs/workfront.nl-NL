@@ -18,7 +18,7 @@ ht-degree: 1%
 
 De het middelgebieden van het abonnement van de gebeurtenis vertegenwoordigen trekkers voor gebeurtenissen die in een gebeurtenisabonnement resulteren die een uitgaand bericht verzenden naar een gevormd eindpunt. Wanneer een middelgebied wordt uitgegeven, wordt een gebeurtenis van de UPDATE teweeggebracht.
 
-Gegevens kunnen worden gefilterd met geneste filters. Voor meer informatie, zie [ Gebruikend genestelde filters ](/help/quicksilver/wf-api/general/event-subs-api.md#using-nested-filters) in het Abonnement API van de artikelgebeurtenis.
+Gegevens kunnen worden gefilterd met geneste filters. Voor meer informatie, zie [&#x200B; Gebruikend genestelde filters &#x200B;](/help/quicksilver/wf-api/general/event-subs-api.md#using-nested-filters) in het Abonnement API van de artikelgebeurtenis.
 
 In de volgende tabel worden de velden weergegeven die beschikbaar zijn voor bronnen met abonnementen voor gebeurtenissen:
 
