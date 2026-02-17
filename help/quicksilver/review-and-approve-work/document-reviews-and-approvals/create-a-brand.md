@@ -6,9 +6,10 @@ description: Brandmerken instellen voor de AI Reviewer
 author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
-source-git-commit: cd2a5560fdf446e8e971afcb640af38b4d301d40
+exl-id: b2788f3f-43d2-46f3-8502-bb833f8a0970
+source-git-commit: 07b401c70dfd209d13c34cf62844f334f3260af1
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '429'
 ht-degree: 0%
 
 ---
@@ -42,13 +43,19 @@ De AI Reviewer gebruikt merkrichtlijnen om inhoud tijdens het revisieproces te e
    <td> <p>U moet systeembeheerder zijn.</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Admin Console-machtigingen</td> 
-   <td> <p>Je moet GenStudio Brand Manager gebruiken.</p></td> 
+   <td role="rowheader">Admin Console-machtigingen*</td> 
+   <td> <p>Je moet GenStudio Brand Manager gebruiken.</p>
+    <p>NOTA: Om de Manager van het Merk van GenStudio te selecteren, moet u de stappen volgen die in <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/configure-brand-permissions"> worden geschetst de toestemmingen van het Merk toewijzen </a>.</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
+
+
+
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -59,7 +66,8 @@ Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van d
 * Uw instantie van Workfront moet Verenigde Goedkeuringen hebben toegelaten.
 * Uw organisatie moet GenStudio Foundation hebben.
 * Adobe moet een ondertekende Adobe Gen AI-overeenkomst in het bestand hebben.
-Voor meer informatie bij het ondertekenen van de overeenkomst, zie [&#x200B; Ondertekenen de overeenkomst van Adobe Gen AI &#x200B;](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement).
+Voor meer informatie bij het ondertekenen van de overeenkomst, zie [ Ondertekenen de overeenkomst van Adobe Gen AI ](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement).
+
 
 ## Een merk maken met een PDF
 
@@ -69,7 +77,7 @@ Voor meer informatie bij het ondertekenen van de overeenkomst, zie [&#x200B; Ond
 1. Klik **voeg merk** in de hoger-juiste hoek van het scherm toe.
 1. Geef het merk een naam.
 1. Klik op PDF&#39;s uploaden om bestanden met een merk te uploaden.
-   ![&#x200B; uploadt brandmerk pdfs &#x200B;](assets/upload-PDF.png)
+   ![ uploadt brandmerk pdfs ](assets/upload-PDF.png)
 1. Klik **verdergaan**.
 1. Upload één of meerdere dossiers van PDF die uw merkrichtlijnen bevatten, dan klik **merk** toevoegen.
 1. Nadat de bestanden zijn geüpload, controleert u de geëxtraheerde merkelementen om te controleren of deze overeenkomen met de richtlijnen voor uw merk.
@@ -78,7 +86,7 @@ Voor meer informatie bij het ondertekenen van de overeenkomst, zie [&#x200B; Ond
    >
    >Richtlijnen worden gegenereerd op basis van uw bestanden en generatieve AI-technologie en zijn mogelijk onjuist. Lees de uitgepakte richtlijnen voor ontbrekende of onjuiste details en bewerk deze voordat u dit merk publiceert.
 
-1. Wanneer gebeëindigd, publiceer **&#x200B;**&#x200B;om het merk voor de AI Recensent beschikbaar te maken.
+1. Wanneer gebeëindigd, publiceer **** om het merk voor de AI Recensent beschikbaar te maken.
 
 ## Handmatig een merk maken
 
@@ -117,7 +125,7 @@ Voor meer informatie bij het ondertekenen van de overeenkomst, zie [&#x200B; Ond
     </tr>
     </table>
 
-   ![&#x200B; voeg merkelementen manueel toe &#x200B;](assets/brand-elements.png)
+   ![ voeg merkelementen manueel toe ](assets/brand-elements.png)
 
 
-1. Wanneer gebeëindigd, publiceer **&#x200B;**&#x200B;om het merk voor de AI Recensent beschikbaar te maken.
+1. Wanneer gebeëindigd, publiceer **** om het merk voor de AI Recensent beschikbaar te maken.
