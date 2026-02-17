@@ -45,7 +45,7 @@ De AI Reviewer gebruikt merkrichtlijnen om inhoud tijdens het revisieproces te e
   <tr> 
    <td role="rowheader">Admin Console-machtigingen*</td> 
    <td> <p>Je moet GenStudio Brand Manager gebruiken.</p>
-    <p>NOTA: Om de Manager van het Merk van GenStudio te selecteren, moet u de stappen volgen die in <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/configure-brand-permissions"> worden geschetst de toestemmingen van het Merk toewijzen </a>.</p>
+    <p>NOTA: Om de Manager van het Merk van GenStudio te selecteren, moet u de stappen volgen die in <a href="https://experienceleague.adobe.com/nl/docs/genstudio-for-performance-marketing/user-guide/intro/configure-brand-permissions"> worden geschetst de toestemmingen van het Merk toewijzen </a>.</p>
    </td> 
   </tr> 
  </tbody> 
