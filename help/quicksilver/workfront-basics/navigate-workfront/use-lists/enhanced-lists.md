@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Uitgebreide lijsten zijn beschikbaar in sommige gebieden van Adobe Workfront. Deze lijsten gebruiken een lijstformaat voor het tonen van de lijstitems, en zij hebben een verschillend uiterlijk dan de standaardlijsten. Het beheer van weergaven wordt ook verbeterd, zoals filteren, groeperen, kolommen beheren en zoeken.
 
-Voor informatie over de standaardlijsten, zie [ begonnen worden met lijsten in Adobe Workfront ](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
+Voor informatie over de standaardlijsten, zie [&#x200B; begonnen worden met lijsten in Adobe Workfront &#x200B;](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
 
 >[!NOTE]
 >
@@ -43,7 +43,7 @@ Voor informatie over de standaardlijsten, zie [ begonnen worden met lijsten in A
  </tbody> 
 </table>
 
-Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -88,7 +88,7 @@ Voer een van de volgende handelingen uit afhankelijk van de verbeterde lijst die
    >
    >Elk veldtype heeft zijn eigen bewerkingsopties. Sommige velden zijn mogelijk alleen-lezen.
 
-![ Verbeterd lijstvoorbeeld ](assets/glist-exchange-rates.png)
+![&#x200B; Verbeterd lijstvoorbeeld &#x200B;](assets/glist-exchange-rates.png)
 
 ## Items bewerken met de actiebalk
 
@@ -110,15 +110,15 @@ U kunt de actiebalk in een uitgebreide lijst gebruiken om items in de lijst te b
 
    Als er geen acties beschikbaar zijn voor het geselecteerde item, wordt op de actiebalk &#39;&#39;Geen beschikbare acties&#39;&#39; weergegeven.
 
-   ![ de bar van de Actie voorbeeld ](assets/glist-action-bar-statuses.png)
+   ![&#x200B; de bar van de Actie voorbeeld &#x200B;](assets/glist-action-bar-statuses.png)
 
-1. Beweeg over het primaire gebied van een lijstitem, dan klik **Meer** menu ![ Meer menupictogram ](assets/more-icon.png) om extra acties te zien. Sommige acties kunnen specifiek zijn voor die lijst.
+1. Beweeg over het primaire gebied van een lijstitem, dan klik **Meer** menu ![&#x200B; Meer menupictogram &#x200B;](assets/more-icon.png) om extra acties te zien. Sommige acties kunnen specifiek zijn voor die lijst.
 
    >[!TIP]
    >
    >Het primaire veld wordt weergegeven in de eerste kolom van de lijst.
 
-   ![ Meer menuvoorbeeld ](assets/glist-more-menu-priorities.png)
+   ![&#x200B; Meer menuvoorbeeld &#x200B;](assets/glist-more-menu-priorities.png)
 
 ## Kolommen aanpassen
 
@@ -126,10 +126,10 @@ Afhankelijk van de objecten die u in een uitgebreide lijst weergeeft, kunt u kol
 
 1. Klik **Kolommen** boven de lijst.
 
-   ![ de kolomvoorbeeld van de Vertoning ](assets/glist-display-move-columns.png)
+   ![&#x200B; de kolomvoorbeeld van de Vertoning &#x200B;](assets/glist-display-move-columns.png)
 
 1. Met de schakelopties kunt u kolommen in de lijst weergeven of verbergen.
-1. Om de kolommen opnieuw in orde te brengen, klik het **pictogram van de Belemmering** pictogram ![ en beweeg een kolom aan uw gewenste plaats. ](assets/drag-icon.png) Als u kolommen verplaatst, wordt de lijst automatisch gewijzigd.
+1. Om de kolommen opnieuw in orde te brengen, klik het **pictogram van de Belemmering** pictogram ![&#x200B; en beweeg een kolom aan uw gewenste plaats. &#x200B;](assets/drag-icon.png) Als u kolommen verplaatst, wordt de lijst automatisch gewijzigd.
 
    >[!NOTE]
    >
@@ -139,7 +139,7 @@ Afhankelijk van de objecten die u in een uitgebreide lijst weergeeft, kunt u kol
 
    Een indicator verschijnt op de **knoop van Kolommen** wanneer de kolommen worden verborgen. De indicator wordt niet weergegeven wanneer u de kolommen opnieuw ordent.
 
-   ![ Indicator voor verborgen kolommen ](assets/glist-columns-hidden-indicator.png)
+   ![&#x200B; Indicator voor verborgen kolommen &#x200B;](assets/glist-columns-hidden-indicator.png)
 
 ## Kolommen toevoegen en verwijderen met Kolombeheer
 
@@ -159,7 +159,7 @@ Kolommen toevoegen en verwijderen:
 
 1. Klik **sparen**.
 
-   ![ Manager van de Kolom ](assets/glist-column-manager.png)
+   ![&#x200B; Manager van de Kolom &#x200B;](assets/glist-column-manager.png)
 
    De lijst werkt de kolommen bij volgens de keuzes die u hebt gemaakt.
 
@@ -175,8 +175,8 @@ Een nieuwe weergave maken:
 
 1. Klik de **drop-down Meningen** en selecteer **Nieuwe mening**.
 1. Ga een naam voor de mening in, en klik **creeer**.
-1. (Optioneel) U kunt de kolommen verbergen, weergeven of opnieuw rangschikken. Voor meer informatie, zie [ kolommen in een verbeterde lijst ](#customize-columns-in-an-enhanced-list) aanpassen.
-1. (Optioneel) Filter en groepeer de lijstitems. Voor meer informatie, zie [ de punten van de Filter en van de groep in een verbeterde lijst ](#filter-and-group-items-in-an-enhanced-list).
+1. (Optioneel) U kunt de kolommen verbergen, weergeven of opnieuw rangschikken. Voor meer informatie, zie [&#x200B; kolommen in een verbeterde lijst &#x200B;](#customize-columns-in-an-enhanced-list) aanpassen.
+1. (Optioneel) Filter en groepeer de lijstitems. Voor meer informatie, zie [&#x200B; de punten van de Filter en van de groep in een verbeterde lijst &#x200B;](#filter-and-group-items-in-an-enhanced-list).
 
    Wijzigingen in weergaven worden automatisch opgeslagen en de wijzigingen zijn zichtbaar voor iedereen die de weergave gebruikt.
 
@@ -215,7 +215,7 @@ Met filters vermindert u de hoeveelheid informatie die u in de lijst weergeeft. 
 1. Selecteer een filtermodifier, zoals &quot;Heeft een van de opties,&quot; &quot;Heeft geen van de opties&quot;, &quot;Is ervoor&quot; of &quot;Is erna&quot;. De opties voor wijzigingstoetsen zijn afhankelijk van het type veld waarop u filtert.
 1. Selecteer de veldwaarde(n). Afhankelijk van het veldtype waarop u filtert, wordt u mogelijk gevraagd het item in een lijst te selecteren, ernaar te zoeken of een kalender te gebruiken om een datumbereik te selecteren.
 
-   ![ Filter in verbeterde lijsten ](assets/glist-filter-with-options.png)
+   ![&#x200B; Filter in verbeterde lijsten &#x200B;](assets/glist-filter-with-options.png)
 
    Het filter wordt automatisch toegepast op de lijst.
 
@@ -228,22 +228,22 @@ Met filters vermindert u de hoeveelheid informatie die u in de lijst weergeeft. 
 
    Een indicator verschijnt op de **knoop van de Filter** wanneer een filter op de lijst wordt toegepast.
 
-   ![ Toegepaste indicator van de Filter ](assets/glist-filter-applied-indicator.png)
+   ![&#x200B; Toegepaste indicator van de Filter &#x200B;](assets/glist-filter-applied-indicator.png)
 
 ### Groepen gebruiken
 
 1. Klik **Groep** boven de lijst.
 1. Selecteer een groepering om uw lijst te organiseren.
 
-   ![ Uitgezochte een groepering ](assets/glist-grouping-choose-a-group-by.png)
+   ![&#x200B; Uitgezochte een groepering &#x200B;](assets/glist-grouping-choose-a-group-by.png)
 
 1. Wanneer de groepering wordt toegepast, kunt u de opties van de Groep opnieuw openen om alle groeperingen in één keer samen te vouwen of uit te breiden, de groepering te veranderen om te groeperen door een verschillend gebied, of alle groeperingen te ontruimen.
 
-   ![ Groepering in verbeterde lijsten ](assets/glist-group-by-due-date-priorities.png)
+   ![&#x200B; Groepering in verbeterde lijsten &#x200B;](assets/glist-group-by-due-date-priorities.png)
 
    Een indicator verschijnt op de **knoop van de Groep** wanneer het groeperen wordt toegepast op de lijst.
 
-   ![ groepering toegepaste indicator ](assets/glist-grouping-applied-indicator.png)
+   ![&#x200B; groepering toegepaste indicator &#x200B;](assets/glist-grouping-applied-indicator.png)
 
 ## Sorteren en zoeken in een uitgebreide lijst
 
@@ -257,16 +257,16 @@ Afzonderlijke kolommen sorteren:
    >
    >Sommige kolommen kunnen niet sorteerbaar zijn, afhankelijk van de lijst.
 
-   ![ Soort door een kolom ](assets/glist-sort-by-column.png)
+   ![&#x200B; Soort door een kolom &#x200B;](assets/glist-sort-by-column.png)
 
 Uw werk in een groep sorteren:
 
 1. Klik **Groep** en selecteer als u in het stijgen of dalende orde wilt sorteren.
 
-   ![ Soort in een groepering ](assets/sort-in-groups.png)
+   ![&#x200B; Soort in een groepering &#x200B;](assets/sort-in-groups.png)
 
 Zoeken:
 
 1. Typ uw zoekterm in het zoekveld boven de lijst. De resultaten worden tijdens het typen in de lijst gemarkeerd.
 
-   ![ benadrukte termijn van het Onderzoek ](assets/glist-search-highlighted.png)
+   ![&#x200B; benadrukte termijn van het Onderzoek &#x200B;](assets/glist-search-highlighted.png)
