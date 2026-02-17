@@ -1,273 +1,279 @@
 ---
-title: 'Afspeelboek: Beheerde schaling na de eerste Win'
-description: Leer hoe u Adobe Workfront Planning kunt implementeren na uw eerste geslaagde implementatie
+title: 'Maak van uw eerste Win een duurzaam momentum: een speelboek voor beheerde schaling'
+description: Leer hoe u Adobe Workfront Planning kunt implementeren na uw eerste geslaagde implementatie.
 feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-hidefromtoc: true
-hide: true
 exl-id: 54df36b3-01a3-4fd3-b2d3-64ffb2fe5918
-source-git-commit: 52bf41e146a11a4af4fbebfe5bb20a9765f2bc7b
+source-git-commit: 699add479d958b9f3fc01ae30513ddf6689620f1
 workflow-type: tm+mt
-source-wordcount: '2025'
+source-wordcount: '2483'
 ht-degree: 0%
 
 ---
 
-# Afspeelboek: beheerde schaling na eerste win
+# Maak van uw eerste win een duurzame impuls: een speelboek voor beheerde schaling
 
 {{planning-important-intro}}
 
-**Versie**: 1.0
 
-**Context**: &quot;Wij hebben ons eerste gebruiksgeval geland, en nu wil iedereen binnen.&quot;
+Het lanceren van uw eerste succesvolle Adobe Workfront-planningsgebruikscase is een doorbraakmoment: de vraag stijgt, nieuwe teams willen toegang, en de leiding ziet de mogelijkheid van bedrijfsbrede zichtbaarheid.
 
+Maar dit is ook de meest fragiele fase van adoptie: ga te snel naar stijf bestuur en je riskeert teams terug te drijven naar spreadsheets; ga te losjes en je herstelt de wildgroei die je wil oplossen.
 
+Dit playbook schetst een evenwichtige benadering van hoe te om de Planning van Workfront als verzoeningsmotor te gebruiken die voorrang geeft aan zichtbaarheid eerst, lokale innovatie toelaat, en ondernemingsnormen om uit echt operationeel succes te voorschijn te komen eerder dan voortijdig wordt opgelegd.
 
-## &#x200B;1. De &quot;Succesvolle overvulling&quot;
+Hieronder vindt u lessen uit onze ervaring en enkele tips over waar u op moet letten.
 
-Soms voelt het alsof de gevaarlijkste fase van de goedkeuring van het WFP onmiddellijk volgt na de eerste succesvolle gebruikszaak of de POC. Het enthousiasme is groot, maar de angst voor &quot;technische schulden&quot; en &quot;administratieve wildgroei&quot; kan leiden tot twee even schadelijke reacties:
+## &#x200B;1. De succestrap
 
-1. **over-Governance**: Het sluiten onderaan het systeem zo strak dat de nieuwe teams aan spreadsheets terugkeren.
+Soms voelt het alsof de gevaarlijkste fase van de goedkeuring van de Workfront-planning onmiddellijk volgt na de eerste geslaagde gebruikszaak of concepttest. Het enthousiasme is groot, maar de angst voor technische schulden en administratieve wildgroei kan leiden tot twee even schadelijke reacties:
 
-2. **Nul-Governance**: Het laten van elk team tot hun eigen gebieden en verslagtypes leiden, die de gefragmenteerde meta-gegevensuitbreiding ontspannen in erfenismilieu&#39;s wordt gevonden.
+* **over bestuur**: Het sluiten onderaan het systeem zo strak dat de nieuwe teams aan spreadsheets terugkeren.
 
+* **Nul bestuur**: Het laten van elk team tot hun eigen gebieden en verslagtypes leiden, die de gefragmenteerde meta-gegevensuitbreiding ontspannen in erfenismilieu&#39;s wordt gevonden.
 
+## &#x200B;2. De kerngedachte: Workfront Planning als verzoeningsmotor
 
-## &#x200B;2. De kernfilosofie: WFP als de &quot;verzoeningsmotor&quot;
+In plaats van te proberen te voorkomen dat teams anders zouden zijn, positioneren we Workfront Planning als de plaats waar die verschillen zichtbaar worden gemaakt, zodat ze met elkaar in overeenstemming kunnen worden gebracht.
 
-In plaats van het proberen om teams van verschillend te verhinderen te zijn, plaatsen wij WFP als plaats waar die verschillen zichtbaar worden gemaakt **zodat kunnen zij worden verzoend**.
+Om deze inspanning te steunen, overweeg het volgende:
 
+* **beheert adoptiesnelheid**: Het is natuurlijk om voorzichtig te voelen over zich het uitbreiden in een nieuw hulpmiddel alvorens bestaande milieu&#39;s te optimaliseren. Terwijl het kiezen om eerste te vereenvoudigen verstrekt een hoogst geregeerd stichting, kan het tijd-aan-waarde voor teams klaar vertragen om zich te richten. Wij geloven de meest efficiënte manier om door deze verandering te leiden is te erkennen dat de zichtbaarheid Stap 1 is; het momentum naar een gedeeld, bedrijfsklaar hulpmiddel (het bewegen zich van de wildgroei van presentaties en spreadsheets) is wat uiteindelijk langetermijndoelstellingen ontmoedigt.
 
+  Wij adviseren dat in plaats van een mandaat om eerst op te schonen, u een kleiner deel van middelen aan aan aan de gang zijnde onderhoud en een beduidend groter deel aan het oplossen van dringende bedrijfsbehoeften toewijst.
 
-* **het Leiden de Snelheid van de Goedkeuring**: Het is natuurlijk om voorzichtig te voelen over zich uitzettend in een nieuw hulpmiddel alvorens &quot;schoonmaakbeurt&quot;bestaande milieu&#39;s. Terwijl het kiezen om **te vereenvoudigen Eerste** verstrekt een hoogst geregeerd stichting, kan het tijd-aan-waarde voor teams klaar vertragen om zich te richten. Wij geloven de meest efficiënte manier om door deze verandering te leiden is te erkennen dat **de zichtbaarheid Stap 1** is. Momentum naar een gedeeld, bedrijfsklaar hulpmiddel (dat zich van de wildgroei van PPT&#39;s en spreadsheets beweegt) is wat uiteindelijk langetermijndoelen ontmoedigt.
+  Als u bijvoorbeeld een jaar alleen aan &#39;schoonmaken&#39;-taxonomieën besteedt, levert dat weinig incrementele waarde op. Het bieden van zichtbaarheid tussen verschillende teams biedt echter de transformatieve waarde die uw belanghebbenden nodig hebben, terwijl u de uniforme gegevensstructuur biedt die u nodig hebt om de omgeving in de loop der tijd te besturen.
 
+  U kunt dwars-teamzicht door een verenigde ondernemingskalender of een geconsolideerde go-aan marktroadmap bereiken.
 
+* **erkent de realiteit**: De onafhankelijke teams ontwikkelen natuurlijk hun eigen processen, die vaak verborgen in gesiloed spreadsheets blijven. Door deze processen zichtbaar te maken in een gedeelde omgeving, plaatst u ze op één plaats waar ze uiteindelijk kunnen worden aangepakt en verbeterd.
 
-  **Aanbeveling**: In plaats van een &quot;Schrapping eerst&quot;mandaat, adviseren wij het toewijzen van een kleiner deel van middelen aan aan aan de gang zijnde onderhoud en een beduidend groter deel aan het oplossen van dringende bedrijfsbehoeften. Als u bijvoorbeeld een jaar alleen aan &#39;schoonmaken&#39;-taxonomieën besteedt, levert dat weinig incrementele waarde op. Nochtans, leverend **dwars-teamzicht** (b.v., door een Verenigde Kalender van de Onderneming of een geconsolideerde GTM roadmap) verstrekt de transformatieve waarde uw belanghebbenden, terwijl het verstrekken van de verenigde gegevensstructuur u het milieu in tijd moet regeren.
-
-* **Bevestig de Realiteit**: De Onafhankelijke teams ontwikkelen natuurlijk hun eigen processen, die vaak verborgen in gesiloed spreadsheets blijven. De overgang naar WFP leidt niet tot een rommelige situatie; het schijnt een licht op reeds bestaand. Door deze processen zichtbaar te maken in een gedeelde omgeving, plaatst u ze op één plaats waar ze uiteindelijk kunnen worden aangepakt en verbeterd.
-
-* **het Signaal van de Voortgang**: Wanneer een team om hun eigen gebieden vraagt, is het niet &quot;uitdijen&quot;-het is **Goedkeuring**. Het betekent dat ze WFP zien als hun werkruimte.
-
-* **beheert Schuld, verberg het niet**: Het is natuurlijk om bezorgd over de inspanning te zijn die wordt vereist om divergerende taxonomieën later schoon te maken. Het alternatief, dat strenge standaarden te vroeg dwingt, zorgt er echter vaak voor dat teams terugkeren naar spreadsheets waar hun processen (en hun schulden) verborgen blijven. Door teams toe te staan om in WFP met hun huidige classificaties te beginnen, verplaatst u die schuld in een zichtbare, beheerde omgeving. Dit maakt van de uiteindelijke verzoening een iteratieve taak in plaats van één enkel, overweldigend migratieproject.
-
-
-
-## &#x200B;3. Het bestuursmodel &quot;Lanes on a Road&quot;
-
-Schaal zonder schuld door &quot;Global Lanes&quot; en &quot;Local Playground&quot; te definiëren.
+  >[!IMPORTANT]
+  >
+  >De overgang naar de Planning van Workfront leidt niet tot een puinhoop; het doet een licht op wat reeds bestaat.
 
 
+* **Bevestig het teken van vooruitgang**: Wanneer een team om hun eigen gebieden vraagt, is het niet &quot;uitdijen&quot;. Beschouw het als een teken van adoptie. Het betekent dat het team Workfront Planning ziet als hun werkruimte.
 
-### A. De mondiale landschappen
+* **beheert schuld, verberg het niet**: Het is natuurlijk om zich over de inspanning bezorgd te zijn die wordt vereist om divergerende taxonomieën later schoon te maken. Maar het alternatief — het dwingen van strenge normen te vroeg — drijft teams vaak terug naar spreadsheets waar hun processen (en hun schuld) verborgen blijven. Door teams toe te staan om in de Planning van Workfront met hun huidige classificaties te beginnen, verplaatst u die schuld in een zichtbare, beheerde omgeving. Dit maakt van de uiteindelijke verzoening een iteratieve taak in plaats van één enkel, overweldigend migratieproject.
 
-* **Gecontroleerde Voorwerpen**: Voorwerpen die elk team voor onderneming het melden (b.v., `Strategic Pillar`, `Region`, `Fiscal Quarter`) moet gebruiken.
+## &#x200B;3. Het model voor het beheer van de autonomie
 
-* **Beheerd door**: Centrale COE/marketing Ops Admin.
+U definieert de rijstroken op de weg en de lokale speelplaatsen (of de gerealiseerde standaardinstellingen en sjablonen), terwijl u teams de flexibiliteit geeft om hun eigen pad binnen de paden te kiezen.
 
-* **Regel**: Deze gebieden zijn &quot;Gedeeld&quot;en verplicht.
+Houd rekening met de volgende onderdelen van het model voor het beheer van de geleide autonomie:
 
+* [De mondiale rijstroken](#the-global-lanes)
+* [Lokale speelplaatsen](#the-local-playgrounds-or-the-spokes)
 
+Zie ook voor informatie:
 
-### B. Lokale speelplaatsen
+* [Leer uw strategische huis: een 30-daagse lancering](/help/quicksilver/planning/best-practices.md/30-day-launchpad.md)
+* [Uw succes archiveren: uw campagnehiërarchie modelleren](/help/quicksilver/planning/best-practices.md/model-campaign-hierarchy.md)
 
-* **Experimentele Voorwerpen**: Gebieden of verslagtypes specifiek voor de tactische behoeften van een team (b.v., de 2&rbrace; van een Sociaal team of team van het Web `Influencer Handle`).`URL Slug`
+### De mondiale rijstroken
 
-* **Beheerd door**: Het Team leidt (met lichte begeleiding).
+Hieronder volgen de kenmerken van de globale rijstroken:
 
-* **Regel**: De teams kunnen hier innoveren. Als een veld &quot;Lokaal&quot; wordt goedgekeurd door >3 teams, wordt het &quot;Bevorderd&quot; tot een Global Lane.
+* **Gecontroleerde voorwerpen**: Voorwerpen die elk team voor onderneming moet gebruiken die (bijvoorbeeld, `Strategic Pillar` rapporteert, `Region`, `Fiscal Quarter`).
 
+* **Beheerd door**: Het Centrum van Uitmuntendheid of de Beheerder van de Verrichtingen van de Marketing.
 
+* **Regel**: Deze gebieden worden gedeeld en verplicht.
 
-## &#x200B;4. De paradox van bestuur: eerst ploegen, normen volgen
+### De lokale speelplaatsen (of de &quot;spokes&quot;)
 
-Een gemeenschappelijke uitdaging in het schrapen van WFP beslist wat eerst komt: **de Governance van de Onderneming** of **Operationele Groepering van het Team**.
+Hier volgt een overzicht van de kenmerken van de lokale speelplaatsen
 
+* **Experimentele Voorwerpen**: Gebieden of verslagtypes specifiek voor de tactische behoeften van een team (bijvoorbeeld, sociale teams `Influencer Handle` of Webteam `URL Slug`).
 
+* **Beheerd door**: De Leiding van het Team (met lichte begeleiding).
+
+* **Regel**: De teams kunnen hier innoveren. Als een lokaal veld door meer dan drie teams wordt ingenomen, kan het worden bevorderd tot een wereldkoers.
+
+## &#x200B;4. Overweeg de paradox van het bestuur: eerst zullen teams en de normen volgen
+
+Een gemeenschappelijke uitdaging bij het schalen van de Planning van Workfront beslist wat eerst komt: ondernemingsbestuur of de operationele aanpassing van het team.
 
 Wij geloven dat de meest efficiënte manier om dit te navigeren is te erkennen dat ondernemingswaarde op een tweerichtingsstraat wordt gebouwd:
 
-1. **de Teams vergen relevantie**: De onderneming realiseert slechts waarde wanneer zijn teams actief uitvoeren. Daarom moet het bestuur **de teams** dienen door structuur te verstrekken die hun bekende operationele behoeften steunt.
+* **de Teams vergen relevantie**: De onderneming realiseert slechts waarde wanneer zijn teams actief uitvoeren. Daarom moet governance de teams dienen door te voorzien in een structuur die hun bekende operationele behoeften ondersteunt.
 
-2. **de Onderneming vereist zicht**: De leiders kunnen geïnformeerde besluiten slechts nemen wanneer het gegeven schoon genoeg is om samen te voegen. Daarom moeten de teams de onderneming **&#x200B;**&#x200B;dienen door de minimum levensvatbare meta-gegevens te verstrekken die voor portefeuillezicht worden vereist.
+* **de onderneming vereist zicht**: De leiders kunnen geïnformeerde besluiten slechts nemen wanneer het gegeven genoeg schoon is om samen te voegen. Daarom moeten de teams de onderneming dienen door de minimaal haalbare metagegevens te verstrekken die nodig zijn voor de zichtbaarheid van het portfolio.
 
+Het doel van beheerde schaling is de doorsnede van deze twee behoeften te vinden door voldoende te standaardiseren om zichtbaarheid te bieden, maar niet zozeer dat u teamuitvoering tegenhoudt.
 
+Overweeg de volgende stappen om uw governancemodel op te bouwen:
 
-Het doel van &quot;Beheerde het Schalen&quot;is de doorsnede van deze twee behoefte-die genoeg gestandaardiseerd om zicht te verstrekken, maar niet zo veel te vinden dat u teamuitvoering stagneert.
+* [Prioriteiten uitlijnen: gegevens versus visualisatie](#align-priorities-data-vs-visualization)
+* [De door de dienst geleide waarnemingsfase](#the-service-led-observation-phase)
+* [Retroactieve harmonisatie](#retroactive-harmonization)
 
+### Prioriteiten uitlijnen: gegevens versus visualisatie
 
+Houd er bij het schalen rekening mee dat de definitie van waarde voor verschillende personen staat:
 
-### A. het richten van Prioriteiten: Gegevens versus Visualisatie
+* **de beheerder of de producteigenaar** waarden verenigde taxonomieën en classificaties. Hun doel is een schone gegevensarchitectuur die scalability op lange termijn steunt.
 
-Bij het schalen moet u er rekening mee houden dat de definitie van &quot;Waarde&quot; verschilt tussen personen:
+* **de belanghebbende of leider** waarden visualisatie en insight die in een globale kalender of een portfoliochronologie kunnen worden gevangen. Hun doel is het bepalen van het bliksemmoment dat de gegevens actioneerbaar maakt.
 
-* **Admin/de Eigenaar van het Product**: De waarden **verenigde taxonomieën en classificaties**. Hun doel is een schone gegevensarchitectuur die scalability op lange termijn steunt.
+>[!NOTE]
+>
+>De strategie bestaat erin de behoefte van de belanghebbenden aan visualisatie te gebruiken als prikkel voor de naleving door het team van de behoefte van de beheerder aan gegevensnormen. U krijgt de verenigde taxonomie door de kalender te leveren die leiderschap eist.
 
-* **Stakeholder/Leader**: De waarden **visualisatie en insight** (b.v., een Globale Kalender of een Chronologie van Portfolio). Hun doel is het &#39;bliksemmoment&#39; dat de gegevens actioneerbaar maakt.
 
+### De door de dienst geleide waarnemingsfase
 
+Tijdens vroege schaal-omhoog, is de rol van de beheerder deze uitwisseling tussen teams en de onderneming te vergemakkelijken.
 
-**de Strategie**: Gebruik de behoefte van de belanghebbende aan visualisatie als *stimulans* voor de naleving van het team met de behoefte van admin aan gegevensnormen. U krijgt de verenigde taxonomie door de &quot;Super Calendar&quot;te leveren die de leiding vereist.
+Als beheerder, kunt u deze uitwisseling vergemakkelijken door het volgende te doen:
 
+* **Prioriseer verrichting over normalisatie**: Het is beter om teams actief te hebben die in gesiloed werkruimten plannen dan hen te hebben die door een gebrek aan globale definities worden tegengehouden. Deze activiteit is de ruwe gegevens die worden vereist om gezonde, echte normen te bouwen.
 
+* **identificeer de zichtbaarheidsminima**: Het werk met leiding om de 3-5 gebieden te identificeren die voor onderneming rapportering (bijvoorbeeld, `Strategic Alignment`, `Start Date`, `Budget`) moeten schoon zijn. Focus uw handhavingsenergie alleen op de velden voor minimale zichtbaarheid.
 
-### B. De waarnemingsfase volgens de dienstregeling
+### Bestuur als dienst
 
-Tijdens de vroege uitbreiding is het de taak van de beheerder om deze uitwisseling tussen teams en de onderneming te vergemakkelijken.
+Zodra een patroon van bekende behoeften over teams verschijnt, kan de onderneming zich bewegen om die patronen in de globale dienst te consolideren. Dit is bestuur als een dienst.
 
-* **Prioriseer Verrichting over Normalisatie**: Het is beter om teams actief te hebben die in gesiloed werkruimten plannen dan hen te hebben die door een gebrek aan globale definities worden tegengehouden. Deze activiteit is de &quot;ruwe gegevens&quot;die worden vereist om gezonde, echte normen te bouwen.
+Doe het volgende om te bereiken of als dienst te bestuur:
 
-* **identificeer de &quot;Minimums van de Zichtbaarheid&quot;**: Het werk met leiding om de 3-5 gebieden te identificeren die ** schoon voor onderneming moet zijn die rapporteert (b.v., `Strategic Alignment`, `Start Date`, `Budget`). Nadruk ALLEEN hier uw handhavingsenergie.
+* **neem succesvolle patronen** waar: Identificeer de winnende taxonomieën die de teams reeds hebben gebouwd en goedgekeurd.
 
+* **Bereik de samenwerkende handdruk**: Breng teamkampioenen samen om hun lokale successen in een gedeelde ondernemingsnorm te verfijnen.
 
+* **opstellen als dienst**: Leer de nieuwe globale wegen niet als beperking, maar als manier om het melden en de dwars-teamgroepering voor de mensen die het werk doen te vereenvoudigen.
 
-### B. Retroactieve harmonisatie (Bestuur als dienst)
+>[!IMPORTANT]
+>
+>Bedenk dat governance een antwoord moet zijn op operationeel succes en geen voorwaarde daarvoor.
 
-Zodra een patroon van &quot;bekende behoeften&quot;over teams verschijnt, kan de onderneming zich bewegen om die patronen in de globale dienst te consolideren.
+## &#x200B;5. Schaalmechanismen voor het beheer van velden
 
-1. **neem Succesvolle Patronen** waar: Identificeer de &quot;winnende&quot;taxonomieën die de teams reeds hebben gebouwd en goedgekeurd.
+### Het op patronen gebaseerde veldgroeimodel
 
-2. **de Collaborative Handshake**: Breng teamkampioenen samen om hun lokale successen in een gedeelde ondernemingsnorm te verfijnen.
+Voor de toepassing van deze filosofie is een doordachte aanpak van de gegevensstructuur vereist. Om te voorkomen dat het bestuur zich uitbreidt, weerstand bieden aan de drang om voor elk individueel verzoek globale velden te maken.
 
-3. **opstellen als Dienst**: Leer de nieuwe globale wegen niet als &quot;beperking,&quot;maar als manier om het melden en de dwars-teamgroepering voor de mensen die het werk doen te vereenvoudigen.
+In plaats daarvan, gebruik de volgende weg van de gebiedsrijpheid om reëel gebruik uw ondernemingsnormen te laten begeleiden:
 
+* **Niveau 1: Lokaal experiment**: Team A leidt tot een douanegebied in hun werkruimte.
 
+* **Niveau 2: De erkenning van het Patroon**: De beheerders merkt Teams B en C gebruiken of vragen om een gelijkaardig gebied.
 
-**Zeer belangrijke Takeaway**: Het bestuur zou een reactie op operationeel succes, niet een eerste vereiste voor het moeten zijn.
+* **Niveau 3: De normalisatie van de onderneming**: De beheerder leidt tot één enkele, gestandaardiseerde versie van dat gebied als verslagtype in Globale Taxonomie Workspace en synchroniseert het aan de teams.
 
+### Velden verwijderen
 
+U bereikt een punt waarop velden niet meer relevant zijn en u moet ze opnieuw invoegen.
 
-## &#x200B;5. Schaalmethoden: het op patronen gebaseerde groeimodel
+Aangezien Workfront Planning momenteel geen native archieffunctie voor velden heeft, is voor het verwijderen van een lokaal veld een bewust &#39;soft pensionering&#39; vereist om historische gegevens te behouden zonder de interface te verstoren.
 
-Voor de toepassing van deze filosofie is een doordachte aanpak van de gegevensstructuur vereist. Om &#39;Governance Sprawl&#39; te voorkomen, weerstand tegen de drang om globale velden te bouwen voor elk individueel verzoek. In plaats daarvan, gebruik de **Weg van de Looptijd van het Gebied** om het gebruik van de echte wereld uw ondernemingsnormen te laten begeleiden:
+Velden verwijderen:
 
+1. Voer een gegevensmigratie uit. Met een tabelweergave (of Fusion) kunt u in grote hoeveelheden waarden kopiëren van het lokale schaduwveld naar het nieuwe algemene rijveld. Zorg ervoor dat de gegevens tijdens deze verplaatsing worden gevalideerd en schoongemaakt.
 
+2. Naam van e-veld wijzigen voor afschrijving: wijzig de naam van het lokale veld met een voorvoegsel zoals `[DEPRECATED]` of `z_` (bijvoorbeeld `z_Language (Old)` ). Hiermee wordt het veld onder aan veldkiezers geplaatst en wordt aan gebruikers doorgegeven dat dit niet langer de bron van de waarheid moet zijn.
 
-1. **Niveau 1: Lokale Experiment**: Team A leidt tot een douanegebied in hun werkruimte.
+3. Verwijder het vervangen veld uit alle recordformulieren. Dit is de meest kritieke stap. Zo voorkomt u dat nieuwe gegevens worden ingevoerd terwijl de oude gegevens zichtbaar blijven in bestaande tabelweergaven of -rapporten, indien nodig.
 
-2. **Niveau 2: De Erkenning van het patroon**: Admin merkt de Teams B en C gebruiken of vragen om een gelijkaardig gebied.
+4. Start de sunset-periode door het vervangen veld (vooraf ingevuld en verwijderd uit de formulieren) 30-60 dagen lang te bewaren om er zeker van te zijn dat er tijdens de migratie geen gegevens zijn overgeslagen. Als de gegevens na deze periode volledig in overeenstemming zijn met de algemene regel, kan het lokale veld uit de werkruimte worden verwijderd.
 
-3. **Niveau 3: De Normalisatie van de Onderneming**: Admin leidt tot één enkele, gestandaardiseerde versie van dat gebied als verslagtype in **Globale taxonomie Workspace** en synchroniseert het aan teams.
+## &#x200B;6. Vermijd het wegdrijven van de Workfront
 
+Om planning te verhinderen worden onoverzichtelijk, doe het volgende:
 
+* **begrijp de abstractielaag**: Elk gebied in Planning zou een strategische vraag moeten beantwoorden. Als een veld alleen wordt gebruikt voor tactische tracering (als het veld bijvoorbeeld een vraag beantwoordt zoals &quot;Is dit bewijs goedgekeurd?&quot;), moet u het veld in Workfront bewaren.
 
-### De mechanisch van &quot;Zachte Pensionering&quot;
+* **bereikt consolidatie eerst**: Als een team een nieuw meta-gegevensgebied wil, nodig hen uit om de Globale Taxonomie eerst te controleren. Dit vereist dat het toekenningsteam read-only toegang tot de Globale werkruimte van de Taxonomie leidt (zie Sectie 7). Door hun tactische behoeften in kaart te brengen aan een bestaand strategisch gebied, kunt u onnodig dubbel voorkomen en rapporteringsintegriteit handhaven.
 
-Omdat WFP momenteel geen inheemse eigenschap &quot;van het Archief&quot;voor gebieden heeft, vereist het terugtrekken van een lokaal gebied een opzettelijk &quot;Zachte Pensionering&quot;proces om historische gegevens te bewaren zonder UI te beknotten:
+## &#x200B;7. Het alleen-lezen toegangszichtbaarheidsmodel
 
+U kunt het gesiloade gevoel zonder het lawaai van gesiloed werk oplossen door teams read-only toegang tot de Globale werkruimte van de Taxonomie toe te staan om te zien welke concepten op hun eigen werkschema&#39;s zouden kunnen van toepassing zijn.
 
+Overweeg het volgende:
 
-1. **Migratie van Gegevens**: Gebruik een lijstmening (of Fusie) aan bulk-exemplaarwaarden van het lokale &quot;gebied van de Schaduw&quot;in het nieuwe Globale gebied van de Lijn. Zorg ervoor dat de gegevens tijdens deze verplaatsing worden gevalideerd en schoongemaakt.
+* **het probleem**: De teams (in de spokes) voelen geïsoleerd omdat zij slechts hun eigen verslagen zien.
 
-2. **noem voor Verdringing** anders: noem het lokale gebied met een prefix als `[DEPRECATED]` of `z_` (b.v., `z_Language (Old)`). Hiermee wordt het veld onder aan veldkiezers geplaatst en wordt aan gebruikers doorgegeven dat het niet langer de &quot;Source of Truth&quot; is.
+* **de moeilijke situatie**: De teams van de subsidie read-only toegang tot de werkruimten die als Primair voor die gedeelde verslagtypes worden aangewezen.
 
-3. **de Verwijdering van de Vorm**: **dit is de meest kritieke stap.** verwijder het afgekeurde gebied van al **Verslag Forms**. Zo voorkomt u dat nieuwe gegevens worden ingevoerd terwijl de oude gegevens zichtbaar blijven in bestaande tabelweergaven of -rapporten, indien nodig.
+  Voor informatie, zie [ de werkruimten van het Aandeel ](/help/quicksilver/planning/access/share-workspaces.md).
 
-4. **de &quot;Zonsondergang&quot;Periode**: houd het afgekeurde gebied (vooraf bepaald en van-vorm) voor 30-60 dagen om ervoor te zorgen geen gegevens tijdens migratie werd gemist. Als de gegevens na deze periode volledig in overeenstemming zijn met de algemene regel, kan het lokale veld uit de werkruimte worden verwijderd.
+* **het resultaat**: De teams kunnen de bredere ondernemingscontext voor inspiratie en groepering zien, maar hun lokale werkruimte blijft schoon en op hun specifieke taken geconcentreerd.
 
+## &#x200B;8. Groei beheren door middel van workshops
 
+De schaalbaarheid van de planning van Workfront is net zo&#39;n culturele uitdaging als een technische uitdaging. Gebruik gerichte workshops om de bestuurskloof te overbruggen.
 
-## &#x200B;6. Vermijden van de &quot;Core Drift&quot; (de &quot;Abstraction Rule&quot;)
+Hieronder volgen ideeën voor workshops die u kunt gebruiken:
 
-Om te verhinderen dat Planning zo onoverzichtelijk wordt als Kern:
+* [De workshop &quot;Noodzakelijke puinhopen&quot;](#the-necessary-mess-discovery-workshop)
+* [De uitlijningssessie &quot;Strategische zichtbaarheid&quot;](#the-strategic-visibility-alignment-session)
+* [De &#39;Spoke-to-global&#39; showcase](#the-spoke-to-global-showcase)
+* [De kantooruren voor &quot;On-Continue Support&quot;](#the-ongoing-support-office-hours)
 
-* **de Laag van de Afname**: Elk gebied in WFP zou a **Strategische Vraag** moeten beantwoorden. Als een veld alleen wordt gebruikt voor tactische tracering (bijvoorbeeld &quot;Is dit bewijs goedgekeurd?&quot;), moet u het veld in de kern bewaren.
+### De workshop &quot;Noodzakelijke puinhopen&quot;
 
-* **Consolidatie eerst**: Als een team een nieuw meta-gegevensgebied wil, nodig hen uit om de Globale Taxonomie eerst te controleren. Dit vereist verlenend team leidt **read-Only toegang** tot de Globale werkruimte van de Taxonomie (zie Sectie 7). Door hun tactische behoeften in kaart te brengen aan een bestaand strategisch gebied, voorkomt u onnodig dubbel werk en handhaaft u rapportintegriteit.
+* **Publiek**: De regionale Beelden van de Marketing leiden en de kampioenen van Ops.
 
+* **Doel**: Documenteer de huidige gesiloed realiteit, of de daadwerkelijke gefragmenteerde operationele gegevens.
 
-
-## &#x200B;7. Het zichtbaarheidsmodel &quot;Alleen-lezen toegang&quot;
-
-Los het &quot;Siloed&quot;-gevoel op zonder het lawaai van &quot;Siloed&quot;-werk.
-
-* **het Probleem**: De teams in spokes voelen geïsoleerd omdat zij slechts hun eigen verslagen zien.
-
-* **Repareren**: De teams van de toelage **read-Only toegang tot de werkruimten die als &quot;Primair&quot;voor die gedeelde verslagtypes** worden aangewezen.
-
-* **het Resultaat**: Zij kunnen de bredere ondernemingscontext voor inspiratie en groepering zien, maar hun lokale werkruimte blijft schoon en op hun specifieke taken geconcentreerd.
-
-
-
-## &#x200B;8. Groei beheren via Workshops
-
-De schaalverdeling van het KP is net zo&#39;n culturele uitdaging als een technische uitdaging. Gebruik gerichte workshops om de &quot;Governance Gap&quot; te overbruggen.
-
-
-
-### A. De evaluatieworkshop &quot;Noodzaak Mess&quot;
-
-* **Publiek**: De regionale Marketing leidt en opent Champions.
-
-* **Doel**: Documenteer de huidige &quot;Gedetailleerde Realiteit&quot;(de gefragmenteerde operationele gegevens).
-
-* **het Bericht**: &quot;Wij zijn hier niet om uw gebieden te schrappen. We zijn hier om te begrijpen hoe ze een verband leggen met de mondiale strategie.&quot;
+* **het bericht**: &quot;Wij zijn hier niet om uw gebieden te schrappen. We zijn hier om te begrijpen hoe ze een verband leggen met de mondiale strategie.&quot;
 
 * **Resultaat**: Een ontwerp afbeelding van lokale tactische gebieden aan globale strategische wegen.
 
+### De uitlijningssessie &quot;Strategische zichtbaarheid&quot;
 
+* **Publiek**: De belanghebbenden van de Marketing op hoog niveau (bijvoorbeeld, mensen in leiderschapsrollen).
 
-### B. De uitlijningssessie &quot;Strategische zichtbaarheid&quot;
+* **Doel**: Vernieuw de vereenvoudiging-eerste angst.
 
-* **Publiek**: Belanghebbenden van de Marketing op hoog niveau (leiding).
+* **het bericht**: &quot;Wij hebben geen perfecte taxonomie nodig om te beginnen. We gebruiken Workfront Planning als de omgeving om de perfecte taxonomie te bouwen.&quot;
 
-* **Doel**: bevestig &quot;eerst&quot;angst.
+* **Resultaat**: Goedkeuring om met de Planning van Workfront als verzoeningsmotor vooruit te gaan terwijl Workfront in zijn huidige staat blijft.
 
-* **het Bericht**: &quot;Wij hebben geen perfecte taxonomie nodig om te beginnen. Wij gebruiken WFP als milieu om ** de perfecte taxonomie te bouwen.&quot;
+### De &#39;Spoke-to-global&#39; showcase
 
-* **Resultaat**: Goedkeuring om met WFP als verzoeningsmotor vooruit te gaan terwijl de Kern in zijn huidige staat blijft.
+* **Publiek**: Nieuwe teams die de Planning van Workfront onderzoeken.
 
+* **Doel**: Verminder het gesiloade gevoel.
 
+* **het bericht**: &quot;Zie hoe het lokale werk van Team A automatisch het aangewezen Primaire Workspace voedt? U kunt dezelfde zichtbaarheid ook voor uw werk hebben.&quot;
 
-### C. De &quot;Spoke-to-Global&quot; Showcase
+* **Resultaat**: Opt-binnen van nieuwe afdelingen die het voordeel zien van worden verbonden zonder hun lokale onafhankelijkheid te verliezen.
 
-* **Publiek**: Nieuwe teams die WFP onderzoeken.
+### De kantooruren voor &quot;On-Continue Support&quot;
 
-* **Doel**: Verminder het &quot;gesiloed&quot;gevoel.
-
-* **het Bericht**: &quot;Zie hoe het lokale werk van Team A automatisch de aangewezen Primaire Workspace voedt? U kunt dezelfde zichtbaarheid ook voor uw werk hebben.&quot;
-
-* **Resultaat**: Opt-binnen van nieuwe afdelingen die het voordeel zien van &quot;verbonden&quot;worden zonder hun lokale onafhankelijkheid te verliezen.
-
-
-
-### D. De kantooruren van de &quot;permanente ondersteuning&quot;
-
-* **Publiek**: Alle gebruikers WFP (huidig en prospectief).
+* **Publiek**: Alle gebruikers van de Planning van Workfront (huidig en prospectief).
 
 * **Doel**: Verstrek een terugkomende, laag-stkes milieu voor het oplossen van problemen en tactische begeleiding.
 
-* **het Bericht**: &quot;Er zijn geen verkeerde vragen. We zijn hier om u te helpen uw specifieke planningsuitdagingen in real time op te lossen.&quot;
+* **het bericht**: &quot;Er zijn geen verkeerde vragen. We zijn hier om u te helpen uw specifieke planningsuitdagingen in real time op te lossen.&quot;
 
 * **Resultaat**: Verhoogd gebruikersvertrouwen, snellere resolutie van technische wrijving, en de identificatie van nieuwe patronen die globale normalisatie zouden kunnen rechtvaardigen.
 
-
-
 ## &#x200B;9. Schaalpersoneel: taken en verantwoordelijkheden
 
-Het succes in een beheerd het schrapen model vereist meer dan enkel hulpmiddelconfiguratie; het vereist een duidelijke verdeling van rollen over de Globale en teams van de Lijn.
+Het succes in een beheerd het schrapen model vereist meer dan enkel hulpmiddelconfiguratie. Het vereist een duidelijke verdeling van rollen over Globaal en de teams van de Leiding.
 
+In de onderstaande subsecties vindt u ideeën voor de belangrijkste spelers bij het beheren van het schaalmodel.
 
+### The enterprise architect (Central Centre of Excellence or Marketing Operations)
 
-### A. De Enterprise Architect (Central COE/Marketing Ops)
-
-* **Nadruk**: De integriteit van de onderneming, systeemprestaties, en **verenigde gegevenstaxonomie**.
+* **Nadruk**: De integriteit van de onderneming, systeemprestaties, en verenigde gegevenstaxonomie.
 
 * **Verantwoordelijkheden**:
 
-   * Beheert **Globale Taxonomy Workspace**.
+   * Beheert de Global Taxonomy Workspace.
 
-   * Faciliteert de **Weg van de Looptijd van het Gebied** (het bevorderen van lokale successen aan globale normen).
+   * Vergemakkelijkt de weg van de gebiedsrijpheid door lokale successen aan mondiale normen te bevorderen.
 
-   * Handhaaft de **Primaire 1&rbrace; meningen van Workspace voor uitvoerende rapportering.**
+   * Behoudt de primaire Workspace-weergaven voor de rapportage door managers.
 
-   * Leidt de maandelijkse **Semantische Controle** over werkruimten.
+   * Leest de maandelijkse semantische controle over werkruimten.
 
-
-
-### B. The Spoke Champion (eigenaar van teamproces)
+### De spreker (de eigenaar van het Proces van het Team)
 
 * **Nadruk**: De relevantie van het team en adoptiesnelheid.
 
@@ -277,51 +283,49 @@ Het succes in een beheerd het schrapen model vereist meer dan enkel hulpmiddelco
 
    * Heeft de lokale werkruimtestructuur en aangepaste veldexperimenten.
 
-   * Verzekert het team de **Geleide Gateway** (Forms) voor gegevensingang gebruikt.
+   * Zorgt ervoor het team de Geleide Gateway Forms voor gegevensingang gebruikt.
 
-   * Deelneemt aan **Samenwerken Handdruk** tijdens harmonisatie.
+   * Deelneemt aan de gezamenlijke handshake tijdens de harmonisatie.
 
+### De uitvoerende sponsor (marketingleider)
 
-
-### C. De uitvoerend sponsor (marktleider)
-
-* **Nadruk**: Strategische groepering, zicht OKR, en **portefeuillevisualisatie (b.v., Globale Calendaring)**.
+* **Nadruk**: Strategische groepering, zicht OKR, en portefeuillvisualisatie (bijvoorbeeld, globale kalender).
 
 * **Verantwoordelijkheden**:
 
-   * Bepaalt de onderneming **Marketing OKRs** in de Globale werkruimte van de Taxonomie.
+   * Bepaalt de onderneming die OKRs in de Globale werkruimte van de Taxonomie op de markt brengt.
 
-   * Met deze optie wordt de waarde van &quot;Visibility Step 1&quot; toegewezen aan andere leiders.
+   * Beheert de waarde van Visibility Stap 1 aan andere leiders.
 
    * Versterkt de toewijzing van 80/20-middelen (waarde boven opschonen).
 
-
-
-### D. Inschakelingsleiding (wijzigingsbeheer)
+### De uitloop inschakelen (Wijzigingsbeheer)
 
 * **Focus**: De culturele verschuiving en de vaardigheidsontwikkeling.
 
 * **Verantwoordelijkheden**:
 
-   * De gastheren terugkomende **Uren van het Bureau** en **Workshops van de Ontdekking**.
+   * Gastheren die terugkerende kantooruren en de Aanraakpunten van de Werkplaatsen van de Ontdekking ontvangen.
 
-   * Behoudt de interne showcase &quot;Success Story&quot;.
+   * Behoudt de interne showcase van het Verhaal van het Succes.
 
    * Hiermee worden technische wrijvingspunten aangegeven die de Enterprise Architect kan oplossen.
 
-
-
 ## &#x200B;10. Controlelijst voor het schalen van het volgende team
 
-* [ ] **identificeer Champion**: Wie is de &quot;Eigenaar van het Proces&quot;of &quot;Kampion&quot;van dit nieuwe team?
+Alle ervaringen met een geslaagde implementatie moeten een checklist genereren die u kunt gebruiken voor verdere implementaties.
 
-* [ ] **bepaalt de &quot;Lokale Delta&quot;**: Welke 2-3 gebieden heeft dit team nodig dat de Globale norm momenteel niet verstrekt?
+Hieronder volgen enkele voorbeelden van wat een controlelijst moet bevatten:
 
-* [ ] **Kaart aan Globale Lanes**: Welke bestaande Globale gebieden kunnen 80% van hun behoeften voldoen?
+* [ ] **identificeer Champion**: Wie is de Eigenaar of de Kampioen van het Proces van dit nieuwe team?
 
-* [ ] **Globale Zichtbaarheid van de Verlening**: Geef hen read-Only toegang tot de relevante Primaire Werkruimten en de Globale werkruimte van de Taxonomie op Dag 1.
+* [ ] **bepaalt lokale delta**: Welke 2-3 gebieden dit team nodig heeft dat de Globale norm momenteel niet verstrekt?
 
-* [ ] **Vestig Handoff**: Hoe voert hun werk &quot;de relevante Primaire Werkruimten&quot;? (bijvoorbeeld via een globaal recordtype of een specifieke zoekopdracht).
+* [ ] **Kaart aan globale wegen**: Welke bestaande Globale gebieden kunnen 80% van de behoeften van het toekomstige team voldoen?
+
+* [ ] **globale zicht van de Verlening**: Geef hen read-only toegang tot de relevante Primaire werkruimten en de Globale werkruimte van de Taxonomie op Dag 1.
+
+* [ ] **Vestig het handoff**: Hoe voert hun werk de relevante Primaire werkruimten? Hun werk kan bijvoorbeeld via een algemeen recordtype of een specifiek opzoekveld worden doorgegeven aan de relevante primaire werkruimten.
 
 <!--original content: 
 

@@ -5,12 +5,10 @@ feature: Workfront Planning
 role: Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-hidefromtoc: true
-hide: true
 exl-id: 90b0e019-1b42-4ab2-8b4c-69f85e4c4d78
-source-git-commit: 52bf41e146a11a4af4fbebfe5bb20a9765f2bc7b
+source-git-commit: 699add479d958b9f3fc01ae30513ddf6689620f1
 workflow-type: tm+mt
-source-wordcount: '1236'
+source-wordcount: '1237'
 ht-degree: 0%
 
 ---
@@ -68,7 +66,7 @@ Hoewel een complexe taxonomie voor de hele onderneming nog niet vereist is, moet
 * A **Globale classificatiewerkruimte** (de hub): Dit zou de algemene structuur en de nomenclatuur van uw systeem moeten zijn.
 * Een eerste **werkruimte van het Team** (sprak): Dit zou een individuele benadering van het team aan het werk moeten aanpassen.
 
-Voor informatie, zie [&#x200B; werkruimten &#x200B;](/help/quicksilver/planning/architecture/create-workspaces.md) creëren.
+Voor informatie, zie [ werkruimten ](/help/quicksilver/planning/architecture/create-workspaces.md) creëren.
 
 Met deze team-eerste architectuur kunt u:
 
@@ -80,7 +78,7 @@ Met deze team-eerste architectuur kunt u:
 
 * **verbind strategie om te werken:** laat het verband tussen uw planningsverslagen en de voorwerpen van Workfront toe.
 
-  Voor informatie, zie [&#x200B; Verbonden overzicht van recordtypes &#x200B;](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
+  Voor informatie, zie [ Verbonden overzicht van recordtypes ](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
 
 * **spiegel huidige gegevens:** gebruik de bestaande hulpmiddelen van het team (bijvoorbeeld, Excel of andere kerntoepassingen) om de Planning van Workfront te bevolken, die de gegevens verzekeren zich vertrouwd en relevant voelt.
 
@@ -96,7 +94,7 @@ Hiervoor moet u het volgende implementeren:
 
 2. De creatie van een gekoppeld project in Workfront aanmoedigen.
 
-Voor informatie, zie [&#x200B; de automatisering van de Planning van Adobe Workfront &#x200B;](/help/quicksilver/planning/records/configure-automations-to-create-records.md) vormen.
+Voor informatie, zie [ de automatisering van de Planning van Adobe Workfront ](/help/quicksilver/planning/records/configure-automations-to-create-records.md) vormen.
 
 Dit zorgt ervoor dat uw team hun strategische intent ziet automatisch uitvoeringswerk teweegbrengen. Dit doorbraakmoment bewijst de waarde van de brug tussen strategie en werk en bouwt inkoop.
 
@@ -110,7 +108,7 @@ Om van team-eerste aan ondernemingsschaal te bewegen, overweeg het volgende:
 
 * **introduceer de inlaatvorm:** gebruik een verzoekvorm als nieuwe gateway voor strategische verzoeken om gegevensintegriteit te verzekeren.
 
-  Voor informatie, zie [&#x200B; creeer en beheer een verzoekvorm in de Planning van Adobe Workfront &#x200B;](/help/quicksilver/planning/requests/create-request-form.md).
+  Voor informatie, zie [ creeer en beheer een verzoekvorm in de Planning van Adobe Workfront ](/help/quicksilver/planning/requests/create-request-form.md).
 
 * **observeer en normaliseer:** gebruik de Globale classificatiewerkruimte om waar te nemen hoe het proefteam het hulpmiddel gebruikt. Deze voorbeelden in de praktijk zullen uw uiteindelijke ondernemingsontwerp bepalen.
 
@@ -118,11 +116,11 @@ Om van team-eerste aan ondernemingsschaal te bewegen, overweeg het volgende:
 
 * **de machtsgebruikers van de Verschuiving:** gebruik de mening van de verslaglijst voor direct, high-velocity planbeheer.
 
-  Voor informatie, zie [&#x200B; de lijstmening &#x200B;](/help/quicksilver/planning/views/manage-the-table-view.md) leiden.
+  Voor informatie, zie [ de lijstmening ](/help/quicksilver/planning/views/manage-the-table-view.md) leiden.
 
 ## Overzicht van succesmeetgegevens voor het lanceerpad
 
-We raden u aan voortdurend naar succesmarkeringen te zoeken en uw bevindingen aan te passen.
+We raden u aan voortdurend te zoeken naar succesmarkeringen en uw bevindingen aan te passen.
 
 Zoek naar deze vroege gezondheidsindicatoren:
 
