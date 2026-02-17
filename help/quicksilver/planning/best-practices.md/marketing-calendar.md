@@ -97,7 +97,7 @@ Als uw organisatie reeds Adobe Workfront gebruikt, begint het worden begonnen me
 
 Als de handmatige rapportering uw team leidt, begin het gesprek. Bespreek met uw Workfront-beheerder of u Workfront Planning wilt inschakelen of neem contact op met Adobe om te leren hoe Planning realtime helderheid kan brengen in uw campagnestrategie.
 
-Als u de Planning van Workfront hebt gezien of reeds het gekocht en u wilt beginnen het te onderzoeken, zie [ begonnen worden met de Planning van Adobe Workfront ](/help/quicksilver/planning/general/planning-overview.md).
+Als u de Planning van Workfront hebt gezien of reeds het gekocht en u wilt beginnen het te onderzoeken, zie [&#x200B; begonnen worden met de Planning van Adobe Workfront &#x200B;](/help/quicksilver/planning/general/planning-overview.md).
 
 ## Aanbevolen werkwijzen om deze vast te leggen
 

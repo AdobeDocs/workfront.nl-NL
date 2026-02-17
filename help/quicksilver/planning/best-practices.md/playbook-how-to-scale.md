@@ -198,7 +198,7 @@ Overweeg het volgende:
 
 * **de moeilijke situatie**: De teams van de subsidie read-only toegang tot de werkruimten die als Primair voor die gedeelde verslagtypes worden aangewezen.
 
-  Voor informatie, zie [ de werkruimten van het Aandeel ](/help/quicksilver/planning/access/share-workspaces.md).
+  Voor informatie, zie [&#x200B; de werkruimten van het Aandeel &#x200B;](/help/quicksilver/planning/access/share-workspaces.md).
 
 * **het resultaat**: De teams kunnen de bredere ondernemingscontext voor inspiratie en groepering zien, maar hun lokale werkruimte blijft schoon en op hun specifieke taken geconcentreerd.
 
