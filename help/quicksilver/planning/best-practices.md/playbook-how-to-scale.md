@@ -21,9 +21,9 @@ ht-degree: 0%
 >
 >Uw organisatie moet een Workfront Planning Prime of hoger pakket hebben om de functies te kunnen ondersteunen die in dit artikel worden aanbevolen.
 >
->Voor een lijst van vereisten om tot de Planning van Workfront toegang te hebben, zie [ het toegangsoverzicht van de Planning van Adobe Workfront ](/help/quicksilver/planning/access/access-overview.md).
+>Voor een lijst van vereisten om tot de Planning van Workfront toegang te hebben, zie [&#x200B; het toegangsoverzicht van de Planning van Adobe Workfront &#x200B;](/help/quicksilver/planning/access/access-overview.md).
 > 
->Voor algemene informatie over de Planning van Workfront, zie [ begonnen worden met de Planning van Adobe Workfront ](/help/quicksilver/planning/general/planning-overview.md).
+>Voor algemene informatie over de Planning van Workfront, zie [&#x200B; begonnen worden met de Planning van Adobe Workfront &#x200B;](/help/quicksilver/planning/general/planning-overview.md).
 
 
 Het lanceren van uw eerste succesvolle Adobe Workfront-planningsgebruikscase is een doorbraakmoment: de vraag stijgt, nieuwe teams willen toegang, en de leiding ziet de mogelijkheid van bedrijfsbrede zichtbaarheid.
@@ -206,7 +206,7 @@ Overweeg het volgende:
 
 * **de moeilijke situatie**: De teams van de subsidie read-only toegang tot de werkruimten die als Primair voor die gedeelde verslagtypes worden aangewezen.
 
-  Voor informatie, zie [ de werkruimten van het Aandeel ](/help/quicksilver/planning/access/share-workspaces.md).
+  Voor informatie, zie [&#x200B; de werkruimten van het Aandeel &#x200B;](/help/quicksilver/planning/access/share-workspaces.md).
 
 * **het resultaat**: De teams kunnen de bredere ondernemingscontext voor inspiratie en groepering zien, maar hun lokale werkruimte blijft schoon en op hun specifieke taken geconcentreerd.
 

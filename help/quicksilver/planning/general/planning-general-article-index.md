@@ -30,7 +30,7 @@ Lees de volgende artikelen:
 * [Adobe Workfront Planning Release Activity for 2023](/help/quicksilver/planning/general/release-activity-archives-2023.md)
 * [Overzicht van beperkingen van Adobe Workfront-planningsobjecten](/help/quicksilver/planning/general/limitations-overview.md)
 * [Aanbevelingen voor Adobe Workfront-planning](/help/quicksilver/planning/general/planning-best-practices.md)
-* [ worden begonnen met de Planning Designer van Adobe Workfront ](/help/quicksilver/planning/general/planning-ai-designer.md)
+* [&#x200B; worden begonnen met de Planning Designer van Adobe Workfront &#x200B;](/help/quicksilver/planning/general/planning-ai-designer.md)
   <!--* [Get started with the Adobe Workfront Planning free trial](/help/quicksilver/planning/general/trial-workfront-planning.md)-->
 
 

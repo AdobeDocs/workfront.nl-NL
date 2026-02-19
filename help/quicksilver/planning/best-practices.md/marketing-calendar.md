@@ -21,9 +21,9 @@ ht-degree: 0%
 >
 >Uw organisatie moet een Workfront Planning Prime of hoger pakket hebben om de functies te kunnen ondersteunen die in dit artikel worden aanbevolen.
 >
->Voor een lijst van vereisten om tot de Planning van Workfront toegang te hebben, zie [ het toegangsoverzicht van de Planning van Adobe Workfront ](/help/quicksilver/planning/access/access-overview.md).
+>Voor een lijst van vereisten om tot de Planning van Workfront toegang te hebben, zie [&#x200B; het toegangsoverzicht van de Planning van Adobe Workfront &#x200B;](/help/quicksilver/planning/access/access-overview.md).
 > 
->Voor algemene informatie over de Planning van Workfront, zie [ begonnen worden met de Planning van Adobe Workfront ](/help/quicksilver/planning/general/planning-overview.md).
+>Voor algemene informatie over de Planning van Workfront, zie [&#x200B; begonnen worden met de Planning van Adobe Workfront &#x200B;](/help/quicksilver/planning/general/planning-overview.md).
 
 Elke week verliezen marketingteams een hele dag aan rapportage, niet aan strategie of creatief werk.
 
@@ -105,7 +105,7 @@ Als uw organisatie reeds Adobe Workfront gebruikt, begint het worden begonnen me
 
 Als de handmatige rapportering uw team leidt, begin het gesprek. Bespreek met uw Workfront-beheerder of u Workfront Planning wilt inschakelen of neem contact op met Adobe om te leren hoe Planning realtime helderheid kan brengen in uw campagnestrategie.
 
-Als u de Planning van Workfront hebt gezien of reeds het gekocht en u wilt beginnen het te onderzoeken, zie [ begonnen worden met de Planning van Adobe Workfront ](/help/quicksilver/planning/general/planning-overview.md).
+Als u de Planning van Workfront hebt gezien of reeds het gekocht en u wilt beginnen het te onderzoeken, zie [&#x200B; begonnen worden met de Planning van Adobe Workfront &#x200B;](/help/quicksilver/planning/general/planning-overview.md).
 
 ## Aanbevolen werkwijzen om deze vast te leggen
 
