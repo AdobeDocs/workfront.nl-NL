@@ -6,16 +6,24 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 54df36b3-01a3-4fd3-b2d3-64ffb2fe5918
-source-git-commit: 699add479d958b9f3fc01ae30513ddf6689620f1
+source-git-commit: 7f3ca12d89a2a5fbebc12b3df8a40edbb17d0ead
 workflow-type: tm+mt
-source-wordcount: '2483'
+source-wordcount: '2549'
 ht-degree: 0%
 
 ---
 
 # Maak van uw eerste win een duurzame impuls: een speelboek voor beheerde schaling
 
-{{planning-important-intro}}
+>[!IMPORTANT]
+>
+>De informatie in dit artikel verwijst naar Adobe Workfront Planning, een extra mogelijkheid van Adobe Workfront.
+>
+>Uw organisatie moet een Workfront Planning Prime of hoger pakket hebben om de functies te kunnen ondersteunen die in dit artikel worden aanbevolen.
+>
+>Voor een lijst van vereisten om tot de Planning van Workfront toegang te hebben, zie [ het toegangsoverzicht van de Planning van Adobe Workfront ](/help/quicksilver/planning/access/access-overview.md).
+> 
+>Voor algemene informatie over de Planning van Workfront, zie [ begonnen worden met de Planning van Adobe Workfront ](/help/quicksilver/planning/general/planning-overview.md).
 
 
 Het lanceren van uw eerste succesvolle Adobe Workfront-planningsgebruikscase is een doorbraakmoment: de vraag stijgt, nieuwe teams willen toegang, en de leiding ziet de mogelijkheid van bedrijfsbrede zichtbaarheid.
@@ -198,7 +206,7 @@ Overweeg het volgende:
 
 * **de moeilijke situatie**: De teams van de subsidie read-only toegang tot de werkruimten die als Primair voor die gedeelde verslagtypes worden aangewezen.
 
-  Voor informatie, zie [&#x200B; de werkruimten van het Aandeel &#x200B;](/help/quicksilver/planning/access/share-workspaces.md).
+  Voor informatie, zie [ de werkruimten van het Aandeel ](/help/quicksilver/planning/access/share-workspaces.md).
 
 * **het resultaat**: De teams kunnen de bredere ondernemingscontext voor inspiratie en groepering zien, maar hun lokale werkruimte blijft schoon en op hun specifieke taken geconcentreerd.
 

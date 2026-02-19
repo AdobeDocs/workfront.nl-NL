@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 567ab223-b282-4b98-9655-7b9766fba869
-source-git-commit: 699add479d958b9f3fc01ae30513ddf6689620f1
+source-git-commit: 7f3ca12d89a2a5fbebc12b3df8a40edbb17d0ead
 workflow-type: tm+mt
-source-wordcount: '1090'
+source-wordcount: '1156'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,15 @@ ht-degree: 0%
 
 # Bouw de brug: verbindend strategische intentie met projecten
 
-{{planning-important-intro}}
+>[!IMPORTANT]
+>
+>De informatie in dit artikel verwijst naar Adobe Workfront Planning, een extra mogelijkheid van Adobe Workfront.
+>
+>Uw organisatie moet een Workfront Planning Prime of hoger pakket hebben om de functies te kunnen ondersteunen die in dit artikel worden aanbevolen.
+>
+>Voor een lijst van vereisten om tot de Planning van Workfront toegang te hebben, zie [ het toegangsoverzicht van de Planning van Adobe Workfront ](/help/quicksilver/planning/access/access-overview.md).
+> 
+>Voor algemene informatie over de Planning van Workfront, zie [ begonnen worden met de Planning van Adobe Workfront ](/help/quicksilver/planning/general/planning-overview.md).
 
 Leer hoe u een strategische thread kunt maken tussen uw plannen op hoog niveau in Adobe Workfront Planning en uw dagelijkse uitvoering in Workfront. U kunt een brug tussen strategie en uitvoering bouwen gebruikend verbindingen.
 
@@ -42,7 +50,7 @@ Een verbindingsveld fungeert als de technische handshake tussen recordtypen.
 
 Dit veldtype is de motor achter alle relaties in Workfront Planning. Het is een expressie van intentie, in die zin dat wordt vastgelegd dat een specifiek recordtype (zoals een Kanaaltactiek) mag worden gekoppeld aan andere objecttypen, ongeacht of ze in Planning of Workfront wonen.
 
-Voor informatie, zie [&#x200B; Verbonden overzicht van recordtypes &#x200B;](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
+Voor informatie, zie [ Verbonden overzicht van recordtypes ](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
 
 ### Definiëren wanneer verbinding moet worden gemaakt
 
@@ -78,7 +86,7 @@ Dit kan op de volgende manieren worden gedaan:
 
   Handmatig maken resulteert in een leeg project zonder specifieke aangepaste formulieren.
 
-  Voor informatie, zie [&#x200B; verbindt verslagen &#x200B;](/help/quicksilver/planning/records/connect-records.md).
+  Voor informatie, zie [ verbindt verslagen ](/help/quicksilver/planning/records/connect-records.md).
 
 * Automatisch, door de automatisering van de Planning van Workfront te gebruiken, voor complexere behoeften.
 
@@ -86,7 +94,7 @@ Dit kan op de volgende manieren worden gedaan:
 
   Dit staat voor menselijk toezicht of placeholder verwezenlijking toe, die ervoor zorgen dat de projecten slechts in uw werkschemamilieu worden geproduceerd wanneer zij echt nodig zijn.
 
-  Voor informatie, zie [&#x200B; voorwerpen creëren gebruikend het verslag van de Planning van Adobe Workfront automatiseringen &#x200B;](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md)
+  Voor informatie, zie [ voorwerpen creëren gebruikend het verslag van de Planning van Adobe Workfront automatiseringen ](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md)
 
 
 ### Automatische activering maken
@@ -95,7 +103,7 @@ Voor organisaties met hoge volumeverzoeken of geavanceerde automatiseringsbehoef
 
 Voor deze aanpak hebt u een licentie voor Adobe Workfront Fusion nodig.
 
-Voor meer informatie zie [&#x200B; Opstelling en beheer Workfront Fusion: artikelindex &#x200B;](https://experienceleague.adobe.com/nl/docs/workfront-fusion/using/set-up-and-manage-fusion/set-up-and-manage-workfront-fusion-toc).
+Voor meer informatie zie [ Opstelling en beheer Workfront Fusion: artikelindex ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/set-up-and-manage-fusion/set-up-and-manage-workfront-fusion-toc).
 
 * **de voorleggingstrekkers van het Gebruik:** Omdat de vormen één enkele, schone voorleggingsgebeurtenis verstrekken, kunnen zij als trekkers voor de automatisering van de Fusie worden gebruikt. Een Fusion-scenario kan een formulierverzending detecteren en direct een gekoppeld project genereren in Workfront.
 
