@@ -23,11 +23,11 @@ ht-degree: 0%
 >
 >De informatie in dit artikel verwijst naar Adobe Workfront Planning, een extra mogelijkheid van Adobe Workfront.
 >
->Voor een lijst van vereisten om tot de Planning van Workfront toegang te hebben, zie [ het toegangsoverzicht van de Planning van Adobe Workfront ](/help/quicksilver/planning/access/access-overview.md).
+>Voor een lijst van vereisten om tot de Planning van Workfront toegang te hebben, zie [&#x200B; het toegangsoverzicht van de Planning van Adobe Workfront &#x200B;](/help/quicksilver/planning/access/access-overview.md).
 > 
->Voor algemene informatie over de Planning van Workfront, zie [ begonnen worden met de Planning van Adobe Workfront ](/help/quicksilver/planning/general/planning-overview.md).
+>Voor algemene informatie over de Planning van Workfront, zie [&#x200B; begonnen worden met de Planning van Adobe Workfront &#x200B;](/help/quicksilver/planning/general/planning-overview.md).
 >
->Voor meer informatie, adviseren wij ook het raadplegen van de artikelen in [ Adobe Workfront die beste praktijken plant: artikelindex ](/help/quicksilver/planning/best-practices.md/best-practices-article-index.md).
+>Voor meer informatie, adviseren wij ook het raadplegen van de artikelen in [&#x200B; Adobe Workfront die beste praktijken plant: artikelindex &#x200B;](/help/quicksilver/planning/best-practices.md/best-practices-article-index.md).
 
 Als leider van marketing verrichtingen, kunt u de Planning van Adobe Workfront gebruiken om het werk over de marketing levenscyclus voor al uw teams te organiseren.
 
@@ -113,7 +113,7 @@ Recordtypen zijn de bouwstenen van een Workfront Planning Workspace. U kunt defi
   Bijvoorbeeld, kan een type van het kanaalverslag zoals **E-mail** een lijst opslaan van het steunen van te leveren voorwerpen, of als inheemse meta-gegevens, of als verbinding aan een standalone **levert** verslagtype.
 * ⛔ Voeg geen nieuw recordtype toe als de gegevens die u opslaat slechts relevant zijn voor één recordtype.
 
-  Bijvoorbeeld, kan het 1} verslagtype van de Campagne van de a **{een enig-uitgezocht gebied genoemd** Grootte van de Campagne **hebben die slechts relevant wanneer direct verbonden met een specifieke campagne is.** Maak in plaats daarvan een veld om deze gegevens vast te leggen.
+  Bijvoorbeeld, kan het 1&rbrace; verslagtype van de Campagne van de a **&lbrace;een enig-uitgezocht gebied genoemd** Grootte van de Campagne **hebben die slechts relevant wanneer direct verbonden met een specifieke campagne is.** Maak in plaats daarvan een veld om deze gegevens vast te leggen.
 
 #### Hoe moet ik mijn recordtypen labelen?
 
@@ -175,7 +175,7 @@ Velden zijn kenmerken van recordtypen en worden als kolommen weergegeven in de t
 
 * ✅ Gebruik weergaven met filters en groepen om een momentopname weer te geven van wat u nodig hebt om te zien. U kunt de gegevens filteren en groeperen om een meer verbruikbare manier te hebben om te begrijpen wat gepland is. U kunt de records groeperen op metagegevensvelden.
 
-  Bijvoorbeeld, kunt u een chronologiemening voor uw **1} verslagtype van de Campagne hebben {dat u door** Soorten van het Doel **kunt groeperen en het door** Datum **filtreren om slechts het huidige jaar te tonen.**
+  Bijvoorbeeld, kunt u een chronologiemening voor uw **1&rbrace; verslagtype van de Campagne hebben &lbrace;dat u door** Soorten van het Doel **kunt groeperen en het door** Datum **filtreren om slechts het huidige jaar te tonen.**
 
 #### Waarom zie ik niet alle records in mijn tijdlijnweergave?
 
@@ -203,7 +203,7 @@ Gebruik de functie voor delen om anderen de juiste machtigingen te geven voor we
    * **draag** bij: De mensen kunnen verslagen tot stand brengen, uitgeven en schrappen.
    * **Mening**: De mensen kunnen verslagen bekijken.
 
-* ✅ Hoewel vele klanten voelen alsof zij **** toestemmingen aan werkruimten aan de meeste mensen zouden verlenen, beperkt **** toestemmingen beheren {tot een uitgezochte groep vertrouwde op mensen die niet per ongeluk een verslagtype zullen schrappen of anders onnodige verslagtypes en gebieden creëren. Ze kunnen de werkruimte bewerken, delen en zelfs verwijderen. Dit machtigingsniveau verleent hun volledige administratieve toegang tot de Workspace.
+* ✅ Hoewel vele klanten voelen alsof zij **&#x200B;**&#x200B;toestemmingen aan werkruimten aan de meeste mensen zouden verlenen, beperkt **&#x200B;**&#x200B;toestemmingen beheren &lbrace;tot een uitgezochte groep vertrouwde op mensen die niet per ongeluk een verslagtype zullen schrappen of anders onnodige verslagtypes en gebieden creëren. Ze kunnen de werkruimte bewerken, delen en zelfs verwijderen. Dit machtigingsniveau verleent hun volledige administratieve toegang tot de Workspace.
 
   Een standaardgebruikerslicentie is vereist voor iemand die beheerdersmachtigingen voor een werkruimte heeft.
 
@@ -211,7 +211,7 @@ Gebruik de functie voor delen om anderen de juiste machtigingen te geven voor we
 
   Een Standaard gebruikersvergunning wordt vereist voor iemand om **te hebben** toestemmingen bijdragen aan een werkruimte.
 
-* ✅ geef gebruikers {de toestemmingen van de Mening ****, als u hen enkel records wilt bekijken.
+* ✅ geef gebruikers &lbrace;de toestemmingen van de Mening **&#x200B;**, als u hen enkel records wilt bekijken.
 
 #### Hoe zou ik toestemmingen moeten beheren om types te registreren?
 
@@ -267,7 +267,7 @@ U kunt voor elk recordtype een aanvraagformulier maken wanneer u wilt dat gebrui
 
 #### Hoe moet ik een aanvraagformulier voor een recordtype maken of bewerken?
 
-* ✅ Om het even welke gebruiker met Manage toegang tot de werkruimte kan de stappen volgen die in artikel [ worden beschreven creeert en beheert een verzoekvorm in de Planning van Adobe Workfront ](/help/quicksilver/planning/requests/create-request-form.md).
+* ✅ Om het even welke gebruiker met Manage toegang tot de werkruimte kan de stappen volgen die in artikel [&#x200B; worden beschreven creeert en beheert een verzoekvorm in de Planning van Adobe Workfront &#x200B;](/help/quicksilver/planning/requests/create-request-form.md).
 
 
 #### Wie kan nieuwe records verzenden met behulp van het aanvraagformulier?

@@ -66,7 +66,7 @@ In dit artikel wordt beschreven hoe u een lijstweergave kunt maken of bewerken o
 </tbody> 
 </table>
 
-Voor meer informatie over de toegangsvereisten van Workfront, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer informatie over de toegangsvereisten van Workfront, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++ 
 
@@ -76,26 +76,26 @@ Voor meer informatie over de toegangsvereisten van Workfront, zie [ vereisten va
 
    * Workfront-projecten
 
-  Voor informatie over het creëren van een verbonden verslagenpagina, zie [ een Verbonden verslagenpagina aan een verslag ](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md) toevoegen.
-* Voordat u een lijstweergave kunt weergeven in een verbonden recordpagina van een record, moet u Workfront-projecten verbinden met de recordtypen Planning. Voor informatie, zie [ verbind verslagtypes ](/help/quicksilver/planning/architecture/connect-record-types.md).
-* Lijstweergaven zijn vergelijkbaar met Uitgebreide lijsten. Voor meer informatie, zie [ Gebruik verbeterde lijsten ](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
+  Voor informatie over het creëren van een verbonden verslagenpagina, zie [&#x200B; een Verbonden verslagenpagina aan een verslag &#x200B;](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md) toevoegen.
+* Voordat u een lijstweergave kunt weergeven in een verbonden recordpagina van een record, moet u Workfront-projecten verbinden met de recordtypen Planning. Voor informatie, zie [&#x200B; verbind verslagtypes &#x200B;](/help/quicksilver/planning/architecture/connect-record-types.md).
+* Lijstweergaven zijn vergelijkbaar met Uitgebreide lijsten. Voor meer informatie, zie [&#x200B; Gebruik verbeterde lijsten &#x200B;](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
 
 
 ## Een lijstweergave beheren {#manage-a-list-view}
 
-Voor meer informatie over het beheren van lijstmeningen in Workfront, zie [ Uitgebreide lijsten van het Gebruik ](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
+Voor meer informatie over het beheren van lijstmeningen in Workfront, zie [&#x200B; Uitgebreide lijsten van het Gebruik &#x200B;](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
 
 {{step1-to-planning}}
 
 1. Klik op een werkruimtekaart en klik vervolgens op een opnametype.
 1. Klik vanuit een willekeurige weergave op de naam van een record om de voorvertoning of detailpagina van de record te openen.
-1. Voeg a **Verbonden verslagenpagina** voor verbonden projecten toe zoals die in het artikel [ worden beschreven een Verbonden verslagenpagina aan een verslag ](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md) toevoegen.
+1. Voeg a **Verbonden verslagenpagina** voor verbonden projecten toe zoals die in het artikel [&#x200B; worden beschreven een Verbonden verslagenpagina aan een verslag &#x200B;](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md) toevoegen.
 
    Op de pagina Verbonden records worden projecten weergegeven die zijn verbonden met de record in de lijstweergave.
 
    <!--add new screen shot when they release Row colors/ special formatting for rows-->
 
-   ![ Projecten op verbonden verslagenpagina in lijstmening ](assets/projects-on-connected-records-page-list-view.png)
+   ![&#x200B; Projecten op verbonden verslagenpagina in lijstmening &#x200B;](assets/projects-on-connected-records-page-list-view.png)
 
 1. (Optioneel) Voer een van de volgende handelingen uit om de lijstweergave te wijzigen:
 
@@ -103,7 +103,7 @@ Voor meer informatie over het beheren van lijstmeningen in Workfront, zie [ Uitg
 
       Weergaven worden door het hele systeem gedeeld. Als u een mening van Projecten voor één verslagtype creeert, kunt u het op andere verslagtypes bekijken die verbonden projecten tonen.
 
-   1. Beweeg over de naam van een bestaande mening en klik **Meer** menu ![ Meer menu ](assets/more-menu.png), dan klik één van het volgende:
+   1. Beweeg over de naam van een bestaande mening en klik **Meer** menu ![&#x200B; Meer menu &#x200B;](assets/more-menu.png), dan klik één van het volgende:
       * **noem** anders, om de mening een nieuwe naam te geven
       * **Aandeel**, om de mening met anderen te delen
       * **Schrapping**, om de mening te schrappen.
@@ -116,8 +116,8 @@ Voor meer informatie over het beheren van lijstmeningen in Workfront, zie [ Uitg
       >
       <!--* <span class="preview">You can reset a view that was shared with you after you modified it to restore its original preferences, or you can copy it with your changes and share the copy. For more information, see [Use enhanced lists](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md). </span>
         -->
-   1. Klik het **pictogram van de Filter** pictogram ![ van de Filter ](assets/filter-icon.png) om een filter aan de mening toe te voegen. De resultaten worden direct in de lijst gefilterd. U kunt filters niet opslaan en een naam geven. Filters worden onthouden wanneer u de pagina in de toekomst opent en maken deel uit van gedeelde weergaven.
-   1. Klik het **pictogram van Kolommen** pictogram van Kolommen ![ ](assets/columns-icon.png) om te selecteren welke kolommen aan vertoning of in de mening te verbergen.
+   1. Klik het **pictogram van de Filter** pictogram ![&#x200B; van de Filter &#x200B;](assets/filter-icon.png) om een filter aan de mening toe te voegen. De resultaten worden direct in de lijst gefilterd. U kunt filters niet opslaan en een naam geven. Filters worden onthouden wanneer u de pagina in de toekomst opent en maken deel uit van gedeelde weergaven.
+   1. Klik het **pictogram van Kolommen** pictogram van Kolommen ![&#x200B; &#x200B;](assets/columns-icon.png) om te selecteren welke kolommen aan vertoning of in de mening te verbergen.
    1. Houd de cursor boven de naam van een kolom en klik op de pijl omlaag links van de kolomnaam en klik op een van de volgende opties:
       * **noem** anders, om a **Eigen etiket** voor de kolom toe te voegen. De naam van het oorspronkelijke veld in Workfront verandert niet.
       * **Soort**, om de lijst door het geselecteerde gebied te sorteren. Aan de kolomkop wordt een sorteerpictogram toegevoegd dat de richting van het sorteren aangeeft.
@@ -162,7 +162,7 @@ U kunt het primaire veld niet verwijderen in de lijstweergave die in de eerste k
 
    Sommige velden zijn alleen-lezen. Het percentage voltooide van een project is bijvoorbeeld een veld dat door het systeem wordt berekend en u kunt het niet handmatig bewerken.
 
-1. Beweeg over de naam van een punt in de lijst en klik **Meer** menu [ Meer menu ](assets/more-menu.png) en klik **Mening** om het project in een ander lusje te openen
+1. Beweeg over de naam van een punt in de lijst en klik **Meer** menu [&#x200B; Meer menu &#x200B;](assets/more-menu.png) en klik **Mening** om het project in een ander lusje te openen
 
    of
 
@@ -171,5 +171,5 @@ U kunt het primaire veld niet verwijderen in de lijstweergave die in de eerste k
    * **Schrapping** om het project te schrappen. Als u een project verwijdert, wordt de verbinding met het project verbroken en verplaatst naar de prullenbak van Workfront. Workfront-beheerders kunnen verwijderde projecten herstellen tot 30 dagen nadat ze zijn verwijderd.
    * **maak** los om het project van het verslag los te maken. Als u een project loskoppelt, verwijdert u het project en alle waarden van de opzoekvelden uit de huidige record.
 
-   ![ bar van Acties in de Verbonden mening van de Lijst van de verslagenpagina ](assets/actions-bar-connected-records-page-list-view.png)
+   ![&#x200B; bar van Acties in de Verbonden mening van de Lijst van de verslagenpagina &#x200B;](assets/actions-bar-connected-records-page-list-view.png)
 
