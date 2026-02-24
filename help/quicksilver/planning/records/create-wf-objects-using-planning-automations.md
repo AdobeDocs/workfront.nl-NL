@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: c669217a-40e2-471f-951d-93157a34f1ee
-source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
+source-git-commit: 11b72c797203dcf364281665bc60cf67d25c8b5d
 workflow-type: tm+mt
-source-wordcount: '715'
+source-wordcount: '724'
 ht-degree: 0%
 
 ---
@@ -28,11 +28,11 @@ U kunt bijvoorbeeld een bestaande automatisering gebruiken die een Workfront-pla
 
 In dit artikel wordt beschreven hoe u Workfront Planning-records of Workfront-objecten kunt maken met behulp van een bestaande automatisering.
 
-Voor informatie over het creëren van automatiseringen voor een verslagtype, zie [&#x200B; de automatisering van de Planning van Adobe Workfront vormen om verslagen &#x200B;](/help/quicksilver/planning/records/configure-automations-to-create-records.md) tot stand te brengen.
+Voor informatie over het creëren van automatiseringen voor een verslagtype, zie [ de automatisering van de Planning van Adobe Workfront vormen om verslagen ](/help/quicksilver/planning/records/configure-automations-to-create-records.md) tot stand te brengen.
 
 Nadat u records of Workfront-objecten hebt gemaakt met behulp van automatisering, worden deze automatisch gekoppeld aan de records waaruit u de automatisering uitvoert.
 
-Voor meer informatie over verbonden verslagen, zie [&#x200B; Verbonden verslagenoverzicht &#x200B;](/help/quicksilver/planning/records/connected-records-overview.md).
+Voor meer informatie over verbonden verslagen, zie [ Verbonden verslagenoverzicht ](/help/quicksilver/planning/records/connected-records-overview.md).
 
 U kunt de volgende items maken met behulp van automatisering in Workfront Planning:
 
@@ -41,7 +41,6 @@ U kunt de volgende items maken met behulp van automatisering in Workfront Planni
 * Een groep
 * Een programma
 * Een portfolio
-* Een project
 
 ## Toegangsvereisten
 
@@ -83,7 +82,7 @@ U kunt de volgende items maken met behulp van automatisering in Workfront Planni
 </tbody> 
 </table>
 
-Voor meer informatie over de toegangsvereisten van Workfront, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer informatie over de toegangsvereisten van Workfront, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++   
 
@@ -157,14 +156,25 @@ Voor meer informatie over de toegangsvereisten van Workfront, zie [&#x200B; vere
 
   `[ Name of the record ] Name of the field choice`
 
-  Voor meer informatie, zie het [&#x200B; Gebruik een automatisering van de Planning van Workfront om een voorwerp of een verslag &#x200B;](#use-a-workfront-planning-automation-to-create-an-object-or-a-record) sectie in dit artikel tot stand te brengen.
+  Voor meer informatie, zie het [ Gebruik een automatisering van de Planning van Workfront om een voorwerp of een verslag ](#use-a-workfront-planning-automation-to-create-an-object-or-a-record) sectie in dit artikel tot stand te brengen.
 
 * Nieuwe objecten of records overschrijven bestaande in hetzelfde veld niet. Als u dezelfde automatisering meerdere keren voor dezelfde record trigt, worden de nieuwe objecten of records in hetzelfde verbonden veld van de oorspronkelijke record toegevoegd, naast de objecten of records die u eerder hebt gemaakt.
+
+
 
 <!--hide this for now; they are trying to remove this limitation: * The automation adds additional objects only in the Many to many or One to many connection type fields. In the all other cases, the automation creates the object, but it does not connect it to the original record from which the automation is triggered.-->
 
 
 ## Een Workfront-planningsautomatisering gebruiken om een object of record te maken
+
+<!--For Feb 26 and add Preview disclosure at the top:
+
+<span class="preview">When you choose a Field value change-automation, Workfront Planning creates the objects automatically, when the conditions you define are met. </span>
+
+For information, see [Configure Adobe Workfront Planning automations to create records](/help/quicksilver/planning/records/configure-automations-to-create-records.md).</span>
+-->
+
+In deze sectie wordt beschreven hoe u objecten maakt met een Button-automatisering.
 
 1. Open in Workfront Planning de pagina met recordtypen die de automatisering bevat die u wilt gebruiken om automatisch records of objecten te maken en te verbinden.
 1. Open de tabelweergave.
@@ -173,7 +183,7 @@ Voor meer informatie over de toegangsvereisten van Workfront, zie [&#x200B; vere
    Onder aan de tabel wordt een blauwe balk weergegeven met extra knoppen, zoals automatiseringsknoppen.
 1. Klik op de knop Automatisering op de blauwe balk.
 
-   ![&#x200B; knoop van de Automatisering &#x200B;](assets/automation-custom-button.png)
+   ![ knoop van de Automatisering ](assets/automation-custom-button.png)
 
    De volgende dingen doen zich voor:
 

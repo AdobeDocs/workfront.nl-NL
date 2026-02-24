@@ -4,7 +4,7 @@ description: Adobe Workfront biedt een gratis proefperiode van 60 dagen voor Ado
 hidefromtoc: true
 hide: true
 exl-id: fcad60b2-05e8-4774-8135-129bc1d3f9ce
-source-git-commit: 6863bc640eb401042797cfd47872fb658a2fbbae
+source-git-commit: 11b72c797203dcf364281665bc60cf67d25c8b5d
 workflow-type: tm+mt
 source-wordcount: '1490'
 ht-degree: 0%
@@ -64,7 +64,7 @@ Uw bedrijf moet aan de volgende vereisten voldoen om aan de gratis proefversie v
    * Ultimate
 
   De Workfront Planning-test is niet beschikbaar voor de oudere Workfront-pakketten.
-Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 * Toegang hebben tot de Adobe Admin Console
 * Maakt deel uit van het Identity Management System (IMS)
 * Accepteer de juridische evaluatieovereenkomst die beschikbaar is in het Workfront-exemplaar van uw organisatie vanaf 26 januari 2026. U moet een Workfront-beheerder zijn om de proefovereenkomst te accepteren.
@@ -81,7 +81,7 @@ De volgende belangrijke datums zijn gekoppeld aan de gratis proefversie van Adob
   De volgende objecten worden toegevoegd aan je Workfront-exemplaar:
 
    * De banners van de Planning van Workfront blijven voor alle gebruikers tonen.
-   * De **proefovereenkomst van het Overzicht** voorkeur wordt toegevoegd aan het **3&rbrace; gebied van de Opstelling.**
+   * De **proefovereenkomst van het Overzicht** voorkeur wordt toegevoegd aan het **3} gebied van de Opstelling.**
 
   De volgende scenario&#39;s bestaan:
 
@@ -98,7 +98,7 @@ De volgende belangrijke datums zijn gekoppeld aan de gratis proefversie van Adob
   De volgende items worden uit je Workfront-exemplaar verwijderd:
 
    * De testbanners van Workfront Planning.
-   * De **proefovereenkomst van het Overzicht** voorkeur wordt verwijderd uit het **3&rbrace; gebied van de Opstelling.**
+   * De **proefovereenkomst van het Overzicht** voorkeur wordt verwijderd uit het **3} gebied van de Opstelling.**
 
 * **Mei 1, 2026**: De proefsluiting van de Planning van Workfront en uw toegang tot Planning wordt verwijderd.
 
@@ -132,9 +132,9 @@ Alle gebruikers in uw organisatie ontvangen het volgende Workfront-planningspakk
 
 ## Aanvullende informatie over Workfront Planning
 
-Voor algemene informatie over de Planning van Workfront, zie [&#x200B; begonnen worden met de Planning van Adobe Workfront &#x200B;](/help/quicksilver/planning/general/planning-overview.md).
+Voor algemene informatie over de Planning van Workfront, zie [ begonnen worden met de Planning van Adobe Workfront ](/help/quicksilver/planning/general/planning-overview.md).
 
-Voor beste praktijken op hoe te om de Planning van Workfront uit te voeren, zie [&#x200B; de Planning beste praktijken van Adobe Workfront: artikelindex &#x200B;](/help/quicksilver/planning/best-practices.md/best-practices-article-index.md).
+Voor beste praktijken op hoe te om de Planning van Workfront uit te voeren, zie [ de Planning beste praktijken van Adobe Workfront: artikelindex ](/help/quicksilver/planning/best-practices.md/best-practices-article-index.md).
 
 <!--
 
@@ -203,9 +203,9 @@ Ga op een van de volgende manieren te werk om de juridische overeenkomst te beoo
 
    Begin het onderzoeken van de **werkruimten van de Steekproef** tabel en overzicht, gebruik, of deelwerkruimten die met u worden gedeeld.
 
-   Voor meer informatie over het gebruiken van de Planning van Workfront, zie [&#x200B; begonnen worden met de Planning van Adobe Workfront &#x200B;](/help/quicksilver/planning/general/planning-overview.md).
+   Voor meer informatie over het gebruiken van de Planning van Workfront, zie [ begonnen worden met de Planning van Adobe Workfront ](/help/quicksilver/planning/general/planning-overview.md).
 
-   Voor beste praktijken op hoe te om de Planning van Workfront uit te voeren, zie [&#x200B; de Planning beste praktijken van Adobe Workfront: artikelindex &#x200B;](/help/quicksilver/planning/best-practices.md/best-practices-article-index.md).
+   Voor beste praktijken op hoe te om de Planning van Workfront uit te voeren, zie [ de Planning beste praktijken van Adobe Workfront: artikelindex ](/help/quicksilver/planning/best-practices.md/best-practices-article-index.md).
 
 <!--uncomment this on March 2: 
 
@@ -247,7 +247,7 @@ You can review sample Planning workspaces and their objects as well as create yo
     >
     >Standard license users can create workspaces that will display in the **Workspaces** area.
 
-1. Click **Generate with AI** to let the AI Assistant build a workspace for you, based on your specifications.
+1. Click **Generate with AI** to let the AI Assistant build a workspace for you, based on your specifications. (**********have they changed the button to Generate or is it Create???*********)
 
     For information, see [Get started with the Adobe Workfront Planning Designer](/help/quicksilver/planning/general/planning-ai-designer.md).
 
@@ -288,7 +288,14 @@ You can review sample Planning workspaces and their objects as well as create yo
         For information, see [Share views](/help/quicksilver/planning/access/share-views.md). 
 
     For additional information about how to implement Workfront Planning and how to create a center of governance for it, see the section [Additional information about Workfront Planning](#additional-information-about-workfront-planning) in this article.
+1. (Optional) To edit the workspace you created, do one of the following: 
 
+    * Open the workspace and manually make changes to it. 
+    
+        For information, see [Edit workspaces](/help/quicksilver/planning/architecture/edit-workspaces.md). 
+    * Click **Edit with AI** next to the workspace name to open the **Planning Designer** and use AI to make further changes to the workspace. 
+
+        For information, see [Get started with the Adobe Workfront Planning Designer](/help/quicksilver/planning/general/planning-ai-designer.md).
 1. (Optional) To remove the Planning area from the Main Menu for users, customize the the Layout Templates assigned to the users and remove it from the **Set Main Menu** area of the Layout Template. 
 
     For information, see [Customize the Main Menu using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
