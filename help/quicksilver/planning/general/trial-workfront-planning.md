@@ -64,7 +64,7 @@ Uw bedrijf moet aan de volgende vereisten voldoen om aan de gratis proefversie v
    * Ultimate
 
   De Workfront Planning-test is niet beschikbaar voor de oudere Workfront-pakketten.
-Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 * Toegang hebben tot de Adobe Admin Console
 * Maakt deel uit van het Identity Management System (IMS)
 * Accepteer de juridische evaluatieovereenkomst die beschikbaar is in het Workfront-exemplaar van uw organisatie vanaf 26 januari 2026. U moet een Workfront-beheerder zijn om de proefovereenkomst te accepteren.
@@ -81,7 +81,7 @@ De volgende belangrijke datums zijn gekoppeld aan de gratis proefversie van Adob
   De volgende objecten worden toegevoegd aan je Workfront-exemplaar:
 
    * De banners van de Planning van Workfront blijven voor alle gebruikers tonen.
-   * De **proefovereenkomst van het Overzicht** voorkeur wordt toegevoegd aan het **3} gebied van de Opstelling.**
+   * De **proefovereenkomst van het Overzicht** voorkeur wordt toegevoegd aan het **3&rbrace; gebied van de Opstelling.**
 
   De volgende scenario&#39;s bestaan:
 
@@ -98,7 +98,7 @@ De volgende belangrijke datums zijn gekoppeld aan de gratis proefversie van Adob
   De volgende items worden uit je Workfront-exemplaar verwijderd:
 
    * De testbanners van Workfront Planning.
-   * De **proefovereenkomst van het Overzicht** voorkeur wordt verwijderd uit het **3} gebied van de Opstelling.**
+   * De **proefovereenkomst van het Overzicht** voorkeur wordt verwijderd uit het **3&rbrace; gebied van de Opstelling.**
 
 * **Mei 1, 2026**: De proefsluiting van de Planning van Workfront en uw toegang tot Planning wordt verwijderd.
 
@@ -132,9 +132,9 @@ Alle gebruikers in uw organisatie ontvangen het volgende Workfront-planningspakk
 
 ## Aanvullende informatie over Workfront Planning
 
-Voor algemene informatie over de Planning van Workfront, zie [ begonnen worden met de Planning van Adobe Workfront ](/help/quicksilver/planning/general/planning-overview.md).
+Voor algemene informatie over de Planning van Workfront, zie [&#x200B; begonnen worden met de Planning van Adobe Workfront &#x200B;](/help/quicksilver/planning/general/planning-overview.md).
 
-Voor beste praktijken op hoe te om de Planning van Workfront uit te voeren, zie [ de Planning beste praktijken van Adobe Workfront: artikelindex ](/help/quicksilver/planning/best-practices.md/best-practices-article-index.md).
+Voor beste praktijken op hoe te om de Planning van Workfront uit te voeren, zie [&#x200B; de Planning beste praktijken van Adobe Workfront: artikelindex &#x200B;](/help/quicksilver/planning/best-practices.md/best-practices-article-index.md).
 
 <!--
 
@@ -203,9 +203,9 @@ Ga op een van de volgende manieren te werk om de juridische overeenkomst te beoo
 
    Begin het onderzoeken van de **werkruimten van de Steekproef** tabel en overzicht, gebruik, of deelwerkruimten die met u worden gedeeld.
 
-   Voor meer informatie over het gebruiken van de Planning van Workfront, zie [ begonnen worden met de Planning van Adobe Workfront ](/help/quicksilver/planning/general/planning-overview.md).
+   Voor meer informatie over het gebruiken van de Planning van Workfront, zie [&#x200B; begonnen worden met de Planning van Adobe Workfront &#x200B;](/help/quicksilver/planning/general/planning-overview.md).
 
-   Voor beste praktijken op hoe te om de Planning van Workfront uit te voeren, zie [ de Planning beste praktijken van Adobe Workfront: artikelindex ](/help/quicksilver/planning/best-practices.md/best-practices-article-index.md).
+   Voor beste praktijken op hoe te om de Planning van Workfront uit te voeren, zie [&#x200B; de Planning beste praktijken van Adobe Workfront: artikelindex &#x200B;](/help/quicksilver/planning/best-practices.md/best-practices-article-index.md).
 
 <!--uncomment this on March 2: 
 
