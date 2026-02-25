@@ -42,7 +42,7 @@ U moet AI Medewerker voor uw organisatie toelaten alvorens u het voor een toegan
  </tbody> 
 </table>
 
-Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -59,7 +59,7 @@ AI Assistant inschakelen voor uw organisatie:
 >[!IMPORTANT]
 >
 >U moet een ondertekende AI-overeenkomst voor Gen-bestanden hebben met Adobe voordat u AI Assistant kunt gebruiken.
->Voor meer informatie over de Overeenkomst van Gen AI, zie [ Ondertekenen de overeenkomst van Adobe Gen AI ](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement) in het artikelAI Medewerker in Workfront.
+>Voor meer informatie over de Overeenkomst van Gen AI, zie [&#x200B; Ondertekenen de overeenkomst van Adobe Gen AI &#x200B;](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement) in het artikelAI Medewerker in Workfront.
 
 ## AI-assistent voor een toegangsniveau in- of uitschakelen
 
@@ -68,7 +68,7 @@ AI-assistent inschakelen voor een bepaald toegangsniveau:
 {{step-1-to-setup}}
 
 1. Selecteer **Niveaus van de Toegang** in de linkernavigatie.
-1. Selecteer het gewenste toegangsniveau, dan klik **uitgeven** ![ pictogram ](assets/edit-icon.png) boven de lijst uitgeven pictogram.
+1. Selecteer het gewenste toegangsniveau, dan klik **uitgeven** ![&#x200B; pictogram &#x200B;](assets/edit-icon.png) boven de lijst uitgeven pictogram.
 1. In het **Vastgestelde extra beperkingen..** gebied van **geeft het vakje van het Niveau van de Toegang** uit, uncheck **onbruikbaar maken de Medewerker van Workfront AI** checkbox.
 1. Klik **sparen**.
 1. Herhaal stap 3-5 voor elk toegangsniveau u AI Medewerker voor wilt toelaten.
