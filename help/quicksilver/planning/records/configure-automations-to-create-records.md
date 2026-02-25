@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: cde20e5a-15a2-413a-8de4-ccf6eeb4395f
-source-git-commit: 11b72c797203dcf364281665bc60cf67d25c8b5d
+source-git-commit: bddf24f667f0538786caf0b19af75d0adf99da91
 workflow-type: tm+mt
 source-wordcount: '1600'
 ht-degree: 0%
@@ -35,7 +35,7 @@ U kunt bijvoorbeeld een automatisering maken die een Workfront-planningscampagne
 
 In dit artikel wordt beschreven hoe u automatiseringen kunt beheren, zoals het bewerken, uitschakelen, verwijderen en activeren van objecten en records.
 
-Voor informatie over hoe u verslagen of voorwerpen creeert gebruikend een bestaande automatisering, zie [&#x200B; voorwerpen creëren gebruikend het verslag van de Planning van Adobe Workfront automatiseringen &#x200B;](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md).
+Voor informatie over hoe u verslagen of voorwerpen creeert gebruikend een bestaande automatisering, zie [ voorwerpen creëren gebruikend het verslag van de Planning van Adobe Workfront automatiseringen ](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md).
 
 ## Toegangsvereisten
 
@@ -70,7 +70,7 @@ Voor informatie over hoe u verslagen of voorwerpen creeert gebruikend een bestaa
 </tbody> 
 </table>
 
-Voor meer informatie over de toegangsvereisten van Workfront, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer informatie over de toegangsvereisten van Workfront, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++   
 
@@ -142,7 +142,7 @@ U moet een automatisering voor een verslagtype in de Planning van Workfront vorm
 1. Klik op een recordtypekaart en klik vervolgens op de naam van een record.
 
    De pagina met recordtypen wordt geopend.
-1. Klik **Meer** menu ![&#x200B; Meer menu &#x200B;](assets/more-menu.png) aan het recht van de naam van het verslagtype, dan klik **leiden automatiseringen**.
+1. Klik **Meer** menu ![ Meer menu ](assets/more-menu.png) aan het recht van de naam van het verslagtype, dan klik **leiden automatiseringen**.
 
    De lijst met beschikbare automatiseringen voor het geselecteerde recordtype wordt geopend.
 
@@ -169,7 +169,21 @@ De pagina met gegevens over automatisering wordt geopend.
       1. <span class="preview">Choose a field from the drop-down menu. These are fields associated with the record type you selected.</span> 
       1. <span class="preview">Continue defining conditions for the selected field.</span>
       1. <span class="preview">Click **Add condition** to add up to 5 fields and define their condition.</span>
+
+         <span class="preview">You can add any of the following types of fields:</span> 
+
+         <div class="preview">
+
+         * Single-select
+         * Multi-select
+         * Single-line text
+         * Paragraph
+         * Number
+         * Checkbox
+         * Date
          
+         </div>
+
          <span class="preview">Workfront Planning will create objects automatically when the conditions are met. </span>
 
          ![Field value change trigger selected](assets/field-value-change-trigger-selected.png)
@@ -177,6 +191,8 @@ De pagina met gegevens over automatisering wordt geopend.
          >[!TIP]
          >
          ><span class="preview">The modifier in each condition changes with the type of fields you select.</span>
+         >
+         
    
    -->
 
@@ -249,7 +265,7 @@ Op het **gebied van de Kaart**, werk de volgende informatie bij:
 1. (Facultatief en voorwaardelijk) als u selecteerde om een verslag tot stand te brengen, **voegt gebieden** toe om extra raadplegingsgebieden van één verslag aan een andere in kaart te brengen.
 1. (Voorwaardelijk) als er geen verbindingsgebieden tussen het originele verslagtype en het verslagtype zijn dat op het **wordt geselecteerd het type van Verslag** gebied, **klikken voegt verbonden gebied** toe.
 
-   ![&#x200B; opstelling van de Automatisering om een verslag &#x200B;](assets/automation-setup-create-record.png) te creëren
+   ![ opstelling van de Automatisering om een verslag ](assets/automation-setup-create-record.png) te creëren
 
    De volgende twee velden worden gemaakt:
 
@@ -259,11 +275,11 @@ Op het **gebied van de Kaart**, werk de volgende informatie bij:
      Bijvoorbeeld, als u een automatisering voor Campagnes vormt om een ander verslagtype automatisch tot stand te brengen genoemd Banden en u **klikt voeg verbonden gebied** toe, worden de volgende gebieden gecreeerd:
 
       * Het **Verbonden verslag** verbindingsgebied wordt gecreeerd voor het **Merken** verslagtype.
-      * Het **Merken** verbindingsgebied wordt gecreeerd voor het **3&rbrace; verslagtype van Campagnes &lbrace;.**
+      * Het **Merken** verbindingsgebied wordt gecreeerd voor het **3} verslagtype van Campagnes {.**
 
 1. (Facultatief) als er geen verbindingsgebieden tussen het originele verslagtype en het voorwerp van Workfront dat op het gebied van Acties wordt geselecteerd zijn, klik **voeg verbonden gebied** toe.
 
-   ![&#x200B; opstelling van de Automatisering om veelvoudige projecten &#x200B;](assets/automation-setup-create-multiple-projects.png) tot stand te brengen
+   ![ opstelling van de Automatisering om veelvoudige projecten ](assets/automation-setup-create-multiple-projects.png) tot stand te brengen
 
    Het volgende wordt gemaakt:
 
@@ -281,17 +297,17 @@ Op het **gebied van de Kaart**, werk de volgende informatie bij:
 1. Klik op een recordtypekaart en klik vervolgens op de naam van een record.
 
    De pagina met recordtypen wordt geopend.
-1. Klik **Meer** menu ![&#x200B; Meer menu &#x200B;](assets/more-menu.png) aan het recht van de naam van het verslagtype, dan klik **leiden automatiseringen**.
+1. Klik **Meer** menu ![ Meer menu ](assets/more-menu.png) aan het recht van de naam van het verslagtype, dan klik **leiden automatiseringen**.
 
    De lijst met beschikbare automatiseringen voor het geselecteerde recordtype wordt geopend.
 
 1. (Optioneel) Voer een van de volgende handelingen uit om een automatisering te bewerken, uit te schakelen of te verwijderen:
 
-   1. Van de lijst van automatiseringen, houd over de naam van een bewaarde automatisering, dan klik **Meer** menu ![&#x200B; Meer menu &#x200B;](assets/more-menu.png).
+   1. Van de lijst van automatiseringen, houd over de naam van een bewaarde automatisering, dan klik **Meer** menu ![ Meer menu ](assets/more-menu.png).
 
    1. Klik **uitgeven** om de volgende informatie bij te werken:
 
-      * Klik **Meer** menu ![&#x200B; Meer menu &#x200B;](assets/more-menu.png) rechts van de automatiseringsnaam, dan klik **uitgeven** om de naam van de automatisering te veranderen.
+      * Klik **Meer** menu ![ Meer menu ](assets/more-menu.png) rechts van de automatiseringsnaam, dan klik **uitgeven** om de naam van de automatisering te veranderen.
       * Om het even welke gebieden in de automatisering, behalve het **gebied van Acties**.
 
         >[!TIP]
@@ -303,7 +319,7 @@ Op het **gebied van de Kaart**, werk de volgende informatie bij:
 
       Records die zijn gemaakt met een uitgeschakelde automatisering, blijven verbonden met de oorspronkelijk geselecteerde record.
 
-      Om het opnieuw beschikbaar te maken, klik **Meer** menu ![&#x200B; &#x200B;](assets/more-menu.png) opnieuw, dan klik **activeren**.
+      Om het opnieuw beschikbaar te maken, klik **Meer** menu ![ ](assets/more-menu.png) opnieuw, dan klik **activeren**.
    1. Klik **Schrapping** om de automatisering te schrappen. Een verwijderde automatisering kan niet worden hersteld.
 
       Records die zijn gemaakt met een verwijderde automatisering, blijven verbonden met de oorspronkelijk geselecteerde record.
