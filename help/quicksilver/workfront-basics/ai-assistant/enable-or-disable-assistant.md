@@ -5,9 +5,9 @@ description: U kunt bepalen welke toegangsniveaus in uw organisatie toegang hebb
 author: Becky
 feature: Get Started with Workfront
 exl-id: eec9f484-e29b-4256-b9ef-b45eb2e78eac
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: e8e10f02f77f6c1df9f0af380eb16cc6bbc3b5d1
 workflow-type: tm+mt
-source-wordcount: '212'
+source-wordcount: '308'
 ht-degree: 0%
 
 ---
@@ -15,6 +15,8 @@ ht-degree: 0%
 # AI-assistent in- of uitschakelen
 
 Als beheerder van Workfront kunt u bepalen welke gebruikers in uw organisatie AI Assistant hebben ingeschakeld. Dit wordt beheerd door toegangsniveaus.
+
+U moet AI Medewerker voor uw organisatie toelaten alvorens u het voor een toegangsniveau kunt toelaten.
 
 ## Toegangsvereisten
 
@@ -40,18 +42,33 @@ Als beheerder van Workfront kunt u bepalen welke gebruikers in uw organisatie AI
  </tbody> 
 </table>
 
-Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## AI Assistant in Workfront inschakelen of uitschakelen
+## AI Assistant voor uw organisatie in- of uitschakelen
+
+AI Assistant inschakelen voor uw organisatie:
+
+{{step-1-to-setup}}
+
+1. Selecteer **Systeem** in de linkernavigatie, dan selecteren **Voorkeur**.
+1. De rol neer aan de **AI sectie van de Voorkeur**.
+1. Schakelaar **laat AI** knevel toe.
+
+>[!IMPORTANT]
+>
+>U moet een ondertekende AI-overeenkomst voor Gen-bestanden hebben met Adobe voordat u AI Assistant kunt gebruiken.
+>Voor meer informatie over de Overeenkomst van Gen AI, zie [ Ondertekenen de overeenkomst van Adobe Gen AI ](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement) in het artikelAI Medewerker in Workfront.
+
+## AI-assistent voor een toegangsniveau in- of uitschakelen
 
 AI-assistent inschakelen voor een bepaald toegangsniveau:
 
 {{step-1-to-setup}}
 
 1. Selecteer **Niveaus van de Toegang** in de linkernavigatie.
-1. Selecteer het gewenste toegangsniveau, dan klik **uitgeven** ![&#x200B; pictogram &#x200B;](assets/edit-icon.png) boven de lijst uitgeven pictogram.
+1. Selecteer het gewenste toegangsniveau, dan klik **uitgeven** ![ pictogram ](assets/edit-icon.png) boven de lijst uitgeven pictogram.
 1. In het **Vastgestelde extra beperkingen..** gebied van **geeft het vakje van het Niveau van de Toegang** uit, uncheck **onbruikbaar maken de Medewerker van Workfront AI** checkbox.
 1. Klik **sparen**.
 1. Herhaal stap 3-5 voor elk toegangsniveau u AI Medewerker voor wilt toelaten.

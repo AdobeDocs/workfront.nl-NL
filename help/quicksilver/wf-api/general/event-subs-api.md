@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: 0fd415767680d877c9dd1de448f7903e6616d155
+source-git-commit: 159c3b4a3627e29123afd96115e965d3bba8329c
 workflow-type: tm+mt
-source-wordcount: '3097'
+source-wordcount: '3387'
 ht-degree: 0%
 
 ---
@@ -87,7 +87,7 @@ De volgende Workfront-objecten worden ondersteund door gebeurtenisabonnementen.
 
 >[!NOTE]
 >
->Voor een lijst van gebieden die door de voorwerpen van het gebeurtenisabonnement worden gesteund, zie &lbrace;de gebieden van het het abonnementsmiddel van de Gebeurtenis [.](../../wf-api/api/event-sub-resource-fields.md)
+>Voor een lijst van gebieden die door de voorwerpen van het gebeurtenisabonnement worden gesteund, zie {de gebieden van het het abonnementsmiddel van de Gebeurtenis [.](../../wf-api/api/event-sub-resource-fields.md)
 
 ## Verificatie van abonnement op gebeurtenis
 
@@ -96,7 +96,7 @@ Uw Workfront-gebruiker heeft het volgende nodig om een gebeurtenissenabonnement 
 * Een toegangsniveau van &quot;Beheerder van het Systeem&quot;wordt vereist om de Abonnementen van de Gebeurtenis te gebruiken.
 * Een header `sessionID` is vereist om de API voor abonnementen op gebeurtenissen te gebruiken
 
-  Voor meer informatie, zie [&#x200B; Authentificatie &#x200B;](api-basics.md#authentication) in [&#x200B; API Grondbeginselen &#x200B;](api-basics.md).
+  Voor meer informatie, zie [ Authentificatie ](api-basics.md#authentication) in [ API Grondbeginselen ](api-basics.md).
 
 ## Overlappingen van gebeurtenisabonnementen voorkomen
 
@@ -513,7 +513,7 @@ Workfront heeft twee versies van gebeurtenisabonnementen.
 
 De capaciteit om gebeurtenisabonnementen te bevorderen of te degraderen zorgt ervoor dat wanneer de veranderingen in de structuur van gebeurtenissen worden aangebracht, de bestaande abonnementen niet breken, toestaand u om aan de nieuwe versie zonder een hiaat in uw gebeurtenisabonnement te testen en te bevorderen.
 
-Voor meer informatie over gebeurtenisabonnement versioning, met inbegrip van specifieke verschillen tussen de versie en belangrijke data, zie [&#x200B; het abonnement van de Gebeurtenis versioning &#x200B;](/help/quicksilver/wf-api/general/event-subs-versioning.md).
+Voor meer informatie over gebeurtenisabonnement versioning, met inbegrip van specifieke verschillen tussen de versie en belangrijke data, zie [ het abonnement van de Gebeurtenis versioning ](/help/quicksilver/wf-api/general/event-subs-versioning.md).
 
 >[!NOTE]
 >
@@ -877,7 +877,7 @@ Met deze connector wordt het filter toegepast op de nieuwe status of oude status
 
 ### Geneste filters gebruiken
 
-Met Gebeurtenisabonnement kunt u filteren op geneste velden van gebeurtenissen met behulp van de geneste veldnamen. Als u bijvoorbeeld een bericht wilt filteren waarin `newState.data.customField1 = 'myCustomeFieldValue'` , kunt u het volgende abonnement met filter maken:
+Met Gebeurtenisabonnement kunt u filteren op geneste velden van gebeurtenissen met behulp van de geneste veldnamen. Als u bijvoorbeeld een bericht wilt filteren waarin `newState.data.customField1 = 'myCustomFieldValue'` , kunt u het volgende abonnement met filter maken:
 
 ```
 {
@@ -918,6 +918,103 @@ Dubbel geneste filters kunnen ook worden benaderd.
 ],
 "filterConnector": 'AND'
 ```
+
+### Filtergroepen gebruiken (combinatiefilters)
+
+Gebeurtenisabonnementen ondersteunen filtergroepen samen met standaardfilters ter ondersteuning van geneste logische voorwaarden.
+
+Met filtergroepen kunt u geneste logische voorwaarden (AND/OR) maken in uw gebeurtenisabonnementfilters.
+
+Elke filtergroep kan:
+
+* De eigen connector: `AND` of `OR`
+* Meerdere filters, elk met dezelfde syntaxis en hetzelfde gedrag als zelfstandige filters
+
+Alle filters binnen een groep ondersteunen:
+
+* Vergelijkingsoperatoren: `eq`, `ne`, `gt`, `gte`, `lt`, `lte`, `contains`, `notContains`, `containsOnly`, `changed`
+* Statusopties: `newState`, `oldState`
+* Doelveld: elke geldige objectveldnaam
+
+Een groep moet minimaal 2 filters bevatten
+
+```
+{
+  "objCode": "TASK",
+  "eventType": "UPDATE",
+  "authToken": "token",
+  "url": "https://domain-for-subscription.com/API/endpoint/UpdatedTasks",
+  "filters": [
+    {
+      "fieldName": "percentComplete",
+      "fieldValue": "100",
+      "comparison": "lt"
+    },
+    {
+      "type": "group",
+      "connector": "OR",
+      "filters": [
+        {
+          "fieldName": "status",
+          "fieldValue": "CUR",
+          "comparison": "eq"
+        },
+        {
+          "fieldName": "priority",
+          "fieldValue": "1",
+          "comparison": "eq"
+        }
+      ]
+    }
+  ],
+  "filterConnector": "AND"
+}
+```
+
+In dit voorbeeld wordt getoond:
+
+
+* Filter op hoofdniveau (buiten de groep):
+
+  { &quot;`fieldName`&quot;: &quot;`percentComplete`&quot;, &quot;`fieldValue`&quot;: &quot;`100`&quot;, &quot;`comparison`&quot;: &quot;`lt`&quot; }
+
+  Dit filter controleert of het percentComplete gebied van de bijgewerkte taak minder dan 100 is.
+
+* Filtergroep (geneste filters met `OR`):
+
+  { &quot;`type`&quot;: &quot;`group`&quot;, &quot;`connector`&quot;: &quot;`OR`&quot;, &quot;`filters`&quot;: [{ &quot;`fieldName`&quot;: &quot;`status`&quot;, &quot;`fieldValue`&quot;: &quot;`CUR`&quot;, &quot;`comparison`&quot;: &quot;`eq`&quot; }, `fieldName` &quot;`priority`&quot;, &quot;`fieldValue`&quot;: &quot;`1`&quot;, &quot;`comparison`&quot;: &quot;`eq`&quot; }]
+
+  Deze groep evalueert twee interne filters:
+
+   * De eerste controles als de taakstatus &quot;CUR&quot;(huidig) evenaart.
+
+   * De tweede controleert of de prioriteit gelijk is aan &quot;1&quot; (hoge prioriteit).
+
+  Omdat de schakelaar &quot;OF&quot;is, zal deze groep overgaan als één van beide voorwaarde waar is.
+
+* Top-Level Connector (filterConnector: `AND`):
+
+  De buitenste connector tussen de filters op hoofdniveau is `AND` .
+
+  Dit betekent dat zowel het filter op hoofdniveau als de groep moeten worden doorgegeven voordat de gebeurtenis overeenkomt.
+
+* Het abonnement wordt geactiveerd wanneer:
+
+  De percentComplete is minder dan 100
+
+  EN
+
+  De status is &quot;CUR&quot; OF de prioriteit is &quot;1&quot;.
+
+#### Prestaties en beperkingen
+
+Om consistente prestaties en onderhoudbaarheid te garanderen:
+
+* Elk abonnement ondersteunt maximaal tien filtergroepen (waarbij elke groep meerdere filters bevat).
+* Elke filtergroep kan maximaal vijf filters bevatten om mogelijke verslechtering van de prestaties tijdens de gebeurtenisverwerking te voorkomen.
+* Terwijl het hebben van tot 10 filtergroepen (elk met 5 filters) wordt gesteund, gelieve te merken dat een groot aantal actieve abonnementen met complexe filterlogica in een vertraging tijdens gebeurtenisevaluatie kan resulteren.
+
+Als u vindt dat u deze limieten overschrijdt, kunt u uw logica vereenvoudigen of het abonnement opsplitsen in meerdere kleinere.
 
 ### Verbindingsvelden gebruiken
 
