@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Op deze pagina worden de verbeteringen beschreven die in Documenten zijn aangebracht met de release Tweede kwartaal 2026 voor de voorvertoningsomgeving. Deze verbeteringen zullen beschikbaar worden gesteld in de productieomgeving, zoals vermeld.
 
-Voor een lijst van alle veranderingen beschikbaar op dit punt in het Tweede Kwartaal 2026 versiecyclus, zie [ Tweede Kwartaal 2026 releaseoverzicht ](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar op dit punt in het Tweede Kwartaal 2026 versiecyclus, zie [&#x200B; Tweede Kwartaal 2026 releaseoverzicht &#x200B;](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md).
 
 <!--
 
@@ -58,5 +58,5 @@ Met goedkeuringswerkstroomsjablonen kunt u:
 * Verminder handmatige opstellingstijd tijdens het starten van de goedkeuring
 * Ervoor zorgen dat de vereiste belanghebbenden op het juiste moment worden betrokken
 
-Voor meer informatie, zie [ een malplaatje van het goedkeuringswerkschema voor documenten ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md) creëren.
+Voor meer informatie, zie [&#x200B; een malplaatje van het goedkeuringswerkschema voor documenten &#x200B;](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md) creëren.
 

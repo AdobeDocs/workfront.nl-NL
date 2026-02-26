@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Op deze pagina worden de verbeteringen beschreven die zijn aangebracht in de release Tweede kwartaal 2026 voor Voorvertoning. Deze verbeteringen zullen beschikbaar worden gesteld in de productieomgeving, zoals vermeld.
 
-Voor een lijst van alle veranderingen beschikbaar op dit punt in het Tweede Kwartaal 2026 versiecyclus, zie [ Tweede Kwartaal 2026 releaseoverzicht ](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md).
+Voor een lijst van alle veranderingen beschikbaar op dit punt in het Tweede Kwartaal 2026 versiecyclus, zie [&#x200B; Tweede Kwartaal 2026 releaseoverzicht &#x200B;](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md).
 
 ## Aangepaste veldlabels die worden weergegeven bij het samenstellen van rapporten
 
@@ -29,7 +29,7 @@ Het label van het aangepaste veld wordt nu vóór de veldnaam en het object weer
 
 Het label van het aangepaste veld is bedoeld voor de systeeminterface, terwijl de veldnaam vaak wordt gebruikt voor de API- en back-endopslagdoeleinden en wellicht niet zo nuttig is bij het zoeken naar een veld.
 
-Voor meer informatie, zie [ een douanerapport ](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) creëren.
+Voor meer informatie, zie [&#x200B; een douanerapport &#x200B;](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) creëren.
 
 <!--
 
