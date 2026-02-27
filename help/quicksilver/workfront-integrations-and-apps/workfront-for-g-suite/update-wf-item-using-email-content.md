@@ -7,9 +7,9 @@ description: U kunt een bestaand project, een bestaande taak of een bestaand pro
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 2ac392f5-98a3-4ab6-a0e3-cda378f0f68b
-source-git-commit: 1e5b3c7d087c34870ccb0f4e65021358f08b81bf
+source-git-commit: 228fd22f1894689c0d256270350cc82954901641
 workflow-type: tm+mt
-source-wordcount: '681'
+source-wordcount: '145'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Om stabielere en scalable integratie te leveren, verschuiven wij naar een moderne, flexibele integratiebenadering gebruikend Workfront Automation and Integration (Fusion). Als deel van dit overgangsproces, zal volgende Workfront voor de functionaliteit van Google Workspace niet beschikbaar na **28 Februari, 2026** zijn:
+>Om stabielere en scalable integratie te leveren, zijn wij op een moderne, flexibele integratiebenadering verschoven gebruikend Workfront Automation and Integration (Fusion). Als deel van dit overgangsproces, is de volgende Workfront voor de functionaliteit van Google Workspace **niet meer beschikbaar**:
 >
 >* Google Workspace-functionaliteit openen vanuit Workfront
 >
@@ -26,56 +26,58 @@ ht-degree: 0%
 >
 >We raden u aan Workfront Automation and Integration te gebruiken voor de integratiebehoeften van uw organisatie met Google Workspace.
 >
->Voor een overzicht van de Automatisering en de Integratie van Workfront, zie [&#x200B; het overzicht van de Fusie van Adobe Workfront &#x200B;](https://experienceleague.adobe.com/nl/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+>Voor een overzicht van de Automatisering en de Integratie van Workfront, zie [ het overzicht van de Fusie van Adobe Workfront ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 >
->Voor informatie over de specifieke mogelijkheden van de modules van de Automatisering en van de Integratie van Workfront voor Google Workspace, zie [&#x200B; modules van Gmail &#x200B;](https://experienceleague.adobe.com/nl/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/gmail-modules) en [&#x200B; modules van de Kalender van Google &#x200B;](https://experienceleague.adobe.com/nl/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-calendar-modules).
+>Voor informatie over de specifieke mogelijkheden van de modules van de Automatisering en van de Integratie van Workfront voor Google Workspace, zie [ modules van Gmail ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/gmail-modules) en [ modules van de Kalender van Google ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-calendar-modules).
 
-U kunt een bestaand project, een taak, of een kwestie bijwerken met informatie van niet [!DNL Adobe Workfront] e-mail.
+<!--
 
-## Toegangsvereisten
+You can update an existing project, task, or issue with information from a non-[!DNL Adobe Workfront] email.
 
-+++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
+## Access requirements
+
++++ Expand to view access requirements for the functionality in this article.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-pakket</td> 
-   <td> <p>Alle</p> </td> 
+   <td role="rowheader">Adobe Workfront package</td> 
+   <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie</td> 
-   <td> <p>Standard</p><p>Werk of hoger</p>
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> <p>Standard</p><p>Work or higher</p>
   </tr> 
  </tbody> 
 </table>
 
-Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 +++
 
-## Vereisten
+## Prerequisites
 
-Voordat u een [!DNL Workfront] -item kunt bijwerken met e-mailinhoud uit [!DNL Google Workspace] , moet u
+Before you can update a [!DNL Workfront] item using email content from [!DNL Google Workspace], you must
 
-* Installeren [!DNL Workfront for Google Workspace]\
-   Voor instructies, zie [&#x200B; installeren  [!DNL Adobe Workfront for Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/install-workfront-for-gsuite.md).
+* Install [!DNL Workfront for Google Workspace]\
+   For instructions, see [Install [!DNL Adobe Workfront for Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/install-workfront-for-gsuite.md).
 
-## Een [!DNL Workfront] -item bijwerken met e-mailinhoud uit [!DNL Google Workspace]
+## Update a [!DNL Workfront] item using email content from [!DNL Google Workspace]
 
-1. Als het [!UICONTROL Workfront for Google Workspace] paneel niet wordt getoond, klik het pictogram van Workfront ![&#x200B; Workfront &#x200B;](assets/wf-lion-icon.png) in [!DNL Google Workspace] toe:voegen-ons sidebar bij uiterst rechts van de pagina.
-1. Open het e-mailbericht in [!DNL Google Workspace] en klik op **[!UICONTROL Post as a new update]** in het deelvenster [!DNL Google Workspace] .
-1. Klik onder **[!UICONTROL Type]** op de vervolgkeuzepijl en klik vervolgens op het type object waar u de update wilt toevoegen.
-1. Klik op de optie **[!UICONTROL Search for]** , typ de naam van het object waaraan u de update wilt toevoegen en selecteer het item wanneer dit in de onderstaande lijst wordt weergegeven.
+1. If the [!UICONTROL Workfront for Google Workspace] panel is not displayed, click the Workfront icon ![Workfront icon](assets/wf-lion-icon.png) in the [!DNL Google Workspace] add-ons sidebar at the far-right of the page.
+1. With the email message open in [!DNL Google Workspace], click **[!UICONTROL Post as a new update]** in the [!DNL Google Workspace] panel.
+1. Under **[!UICONTROL Type]**, click the drop-down arrow, then click the type of object where you want to add the update.
+1. Click the **[!UICONTROL Search for]** option, start typing the name of the object where you want to add the update, then select the item when it appears in the list below.
 
-   Deze optie is afhankelijk van de optie die u in stap 3 hebt geselecteerd. Dit kan **[!UICONTROL Search for a project]** , **[!UICONTROL Search for a task]** of **[!UICONTROL Search for an issue]** zijn.
+   This option varies, depending on what you selected in step 3. It might be **[!UICONTROL Search for a project]**, **[!UICONTROL Search for a task]**, or **[!UICONTROL Search for an issue]**.
 
    >[!NOTE]
    >
-   >Wanneer u de naam van een taak typt, worden persoonlijke ad-hoctaken uitgesloten van de onderstaande lijst met namen.
+   >When you are typing the name of a task, ad hoc personal tasks are excluded from the list of name that appears below.
 
-1. Voer een van de volgende optionele wijzigingen in:
+1. Make any of these optional changes:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -83,34 +85,36 @@ Voordat u een [!DNL Workfront] -item kunt bijwerken met e-mailinhoud uit [!DNL G
     <tbody> 
      <tr> 
       <td role="rowheader">[!UICONTROL Update]</td> 
-      <td>Bewerk het gedeelte van deze tekst dat is ontleend aan de onderwerpregel en hoofdtekst van de e-mail.</td> 
+      <td>Edit any part of this text, which is taken from the email's subject line and body text.</td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">[!UICONTROL Include email attachments]</td> 
-      <td><p>(Alleen beschikbaar als het e-mailbericht ten minste één bijlage bevat.) Klik op deze optie om bijlagen op te slaan op het tabblad [!UICONTROL Documents] voor de taak of uitgave. </p><p>Als u geen bijlage wilt bewaren, klik X rechts van zijn naam. </p><p>Als het e-mailbericht koppelingen naar documenten bevat in [!DNL Google Drive] , worden de koppelingen opgeslagen op het tabblad [!UICONTROL Overview] van de taak of uitgave die u maakt. </p><p>Belangrijk: <span style="color: #ff1493;"><span style="color: #000000;"> opdat dit werkt, moet uw </span></span>[!DNL Workfront] beheerder <span style="color: #ff1493;"><span style="color: #000000;"> [!DNL Google Drive] om met [!DNL Workfront]</span></span> machtigen te werken</p>
-      <p>Als u deze optie inschakelt, blijft deze ingeschakeld voor andere e-mails die u converteert naar taken, problemen en updates.</p></td> 
+      <td><p>(Available only if the email contains at least one attachment.) Click this option to save attachments in the [!UICONTROL Documents] tab for the task or issue. </p><p>If you do not want to save an attachment, click the X to the right of its name. </p><p>If the email contains links to documents in [!DNL Google Drive], the links are saved to the [!UICONTROL Overview] tab of the task or issue you are creating. </p><p>Important: <span style="color: #ff1493;"><span style="color: #000000;">In order for this to work, your</span></span>[!DNL Workfront] administrator<span style="color: #ff1493;"><span style="color: #000000;"> must authorize [!DNL Google Drive] to work with [!DNL Workfront]</span></span></p>
+      <p>If you enable this option, it remains enabled for other emails you convert to tasks, issues, and updates.</p></td> 
      </tr> 
      <tr data-mc-conditions=""> 
-      <td role="rowheader">Waarschuwen</td> 
-      <td>Klik op <strong>[!UICONTROL Notify]</strong> , klik op de optie <strong>[!UICONTROL Search for a user or team]</strong> die wordt weergegeven, typ vervolgens de naam van de persoon of het team en klik op de naam wanneer deze wordt weergegeven in de onderstaande lijst. Herhaal deze bewerking voor elke persoon en elk team dat u wilt toevoegen en klik op <strong>[!UICONTROL Save]</strong> .</td> 
+      <td role="rowheader">Notify</td> 
+      <td>Click <strong>[!UICONTROL Notify]</strong>, click the <strong>[!UICONTROL Search for a user or team]</strong> option that appears, then start typing the name of the person or team and click it when it appears in the list below. Repeat this for each person and team you want to add, then click <strong>[!UICONTROL Save]</strong>.</td> 
      </tr> 
     </tbody> 
    </table>
 
-1. Klik op **[!UICONTROL Update]**.
+1. Click **[!UICONTROL Update]**.
 
-   Wanneer u de browser vernieuwt, wordt in een bericht met een koppeling onder aan het deelvenster [!DNL Workfront for Google Workspace] bevestigd dat u de e-mail hebt geconverteerd naar een update:
+   When you refresh your browser, a message with a link at the bottom of the [!DNL Workfront for Google Workspace] panel confirms that you have converted the email to an update:
 
-   U kunt op de koppeling klikken om naar de tab [!UICONTROL Updates] in [!DNL Workfront] te gaan voor het object dat u in stap 4 hebt opgegeven.
+   You can click the link to go to the [!UICONTROL Updates] tab in [!DNL Workfront] for the object you specified in step 4.
 
-   U kunt deze stappen herhalen om zelfde e-mail in updates, taak, en kwesties (zie [&#x200B; tot een kwestie van Adobe Workfront in  [!DNL Google Workspace]  gebruikend e-mailinhoud &#x200B;](../../workfront-integrations-and-apps/workfront-for-g-suite/create-wf-issue-in-g-suite-using-email-content.md) leiden) om te zetten. Wanneer u uw browser vernieuwt of op een ander moment terugkeert naar de e-mail, worden alle koppelingen die u voor de e-mail hebt gemaakt, onder in het deelvenster [!UICONTROL Workfront for Google Workspace] weergegeven.
+   You can repeat these steps to convert the same email to updates, task, and issues (see [Create an Adobe Workfront issue in [!DNL Google Workspace] using email content](../../workfront-integrations-and-apps/workfront-for-g-suite/create-wf-issue-in-g-suite-using-email-content.md)). When you refresh your browser or return to the email at another time, all links you have created for the email are listed at the bottom of the [!UICONTROL Workfront for Google Workspace] panel.
 
-1. (Optioneel) Ga op een van de volgende manieren te werk om met de update te werken in het invoegvenster van [!DNL Workfront] :
+1. (Optional) Continue to work with the update in the [!DNL Workfront] add-on panel by doing any of the following:
 
-   * Als u nog een update wilt toevoegen op het tabblad **[!UICONTROL Updates]** , klikt u op **[!UICONTROL Start a new update]** en typt u de informatie.
+   * To add another update on the **[!UICONTROL Updates]** tab, click **[!UICONTROL Start a new update]** and type the information.
 
-   * Als u wilt reageren op een update op het tabblad **[!UICONTROL Updates]** , klikt u op **[!UICONTROL Reply]** en typt u uw antwoord.
+   * To reply to an update on the **[!UICONTROL Updates]** tab, click **[!UICONTROL Reply]** and type your reply.
 
-     Voor beide bovenstaande opties kunt u op **[!UICONTROL Notify]** klikken om ontvangers voor het antwoord op te geven, zoals in stap 5. Als u klaar bent, klikt u op **[!UICONTROL Post]** om de update of het antwoord toe te voegen.
+      For both of the options above, you can click **[!UICONTROL Notify]** to specify recipients for the reply as in step 5. When you are ready, click **[!UICONTROL Post]** to add the update or reply.
 
-   * Klik op het tabblad **[!UICONTROL Details]** om de details van het nieuwe project, de nieuwe taak of de nieuwe uitgave weer te geven.
+   * Click the **[!UICONTROL Details]** tab to view the details for the new project, task, or issue.
+
+   -->

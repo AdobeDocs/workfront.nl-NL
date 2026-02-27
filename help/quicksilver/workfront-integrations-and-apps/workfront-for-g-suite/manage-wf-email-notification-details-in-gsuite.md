@@ -7,9 +7,9 @@ description: In Google Workspace, wanneer u een bericht e-mail opent Adobe  [!DN
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: d5ca31d8-3667-4405-a523-3dc248a94746
-source-git-commit: 1e5b3c7d087c34870ccb0f4e65021358f08b81bf
+source-git-commit: 228fd22f1894689c0d256270350cc82954901641
 workflow-type: tm+mt
-source-wordcount: '519'
+source-wordcount: '169'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Om stabielere en scalable integratie te leveren, verschuiven wij naar een moderne, flexibele integratiebenadering gebruikend Workfront Automation and Integration (Fusion). Als deel van dit overgangsproces, zal volgende Workfront voor de functionaliteit van Google Workspace niet beschikbaar na **28 Februari, 2026** zijn:
+>Om stabielere en scalable integratie te leveren, zijn wij op een moderne, flexibele integratiebenadering verschoven gebruikend Workfront Automation and Integration (Fusion). Als deel van dit overgangsproces, is de volgende Workfront voor de functionaliteit van Google Workspace **niet meer beschikbaar**:
 >
 >* Google Workspace-functionaliteit openen vanuit Workfront
 >
@@ -26,89 +26,93 @@ ht-degree: 0%
 >
 >We raden u aan Workfront Automation and Integration te gebruiken voor de integratiebehoeften van uw organisatie met Google Workspace.
 >
->Voor een overzicht van de Automatisering en de Integratie van Workfront, zie [&#x200B; het overzicht van de Fusie van Adobe Workfront &#x200B;](https://experienceleague.adobe.com/nl/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+>Voor een overzicht van de Automatisering en de Integratie van Workfront, zie [ het overzicht van de Fusie van Adobe Workfront ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 >
->Voor informatie over de specifieke mogelijkheden van de modules van de Automatisering en van de Integratie van Workfront voor Google Workspace, zie [&#x200B; modules van Gmail &#x200B;](https://experienceleague.adobe.com/nl/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/gmail-modules) en [&#x200B; modules van de Kalender van Google &#x200B;](https://experienceleague.adobe.com/nl/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-calendar-modules).
+>Voor informatie over de specifieke mogelijkheden van de modules van de Automatisering en van de Integratie van Workfront voor Google Workspace, zie [ modules van Gmail ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/gmail-modules) en [ modules van de Kalender van Google ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-calendar-modules).
 
-Wanneer u in [!DNL Google Workspace] een e-mailbericht opent dat [!DNL Adobe Workfront] heeft verzonden, kunt u de bijbehorende details van het werkitem weergeven en reageren zonder uw [!UICONTROL Inbox] te verlaten. Als er acties beschikbaar zijn, zoals het goedkeuren van een aanvraag, kunt u die acties rechtstreeks vanuit [!DNL Workfront for Google Workspace] uitvoeren.
+<!--
+
+In [!DNL Google Workspace], when you open a notification email [!DNL Adobe Workfront] has sent, you can view the associated work item details and respond without leaving your [!UICONTROL Inbox]. If actions are available, such as approving a request, you can perform those actions directly from [!DNL Workfront for Google Workspace].
 
 >[!NOTE]
 >
-> [!DNL Workfront for Google Workspace] ondersteunt bijna elk type e-mailmelding dat u kunt ontvangen van [!DNL Workfront] (ongeveer 120 verschillende typen). [!UICONTROL Daily digest] e-mailberichten die vanuit [!DNL Workfront] zijn verzonden, worden niet weergegeven in [!DNL Workfront for Google Workspace] . Voor informatie over de [!DNL Workfront] types van e-mailbericht, zie [&#x200B; uw eigen e-mailberichten wijzigen &#x200B;](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+> [!DNL Workfront for Google Workspace] supports almost every type of email notification you can receive from [!DNL Workfront] (about 120 different types). [!UICONTROL Daily digest] emails sent from [!DNL Workfront] do not appear in [!DNL Workfront for Google Workspace]. For information about the [!DNL Workfront] email notification types, see [Modify your own email notifications](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
-## Toegangsvereisten
+## Access requirements
 
-+++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
++++ Expand to view access requirements for the functionality in this article.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-pakket</td> 
-   <td> <p>Alle</p> </td> 
+   <td role="rowheader">Adobe Workfront package</td> 
+   <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie</td> 
-   <td> <p>Standard</p><p>Werk of hoger</p>
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> <p>Standard</p><p>Work or higher</p>
   </tr> 
  </tbody> 
 </table>
 
-Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 +++
 
-## Vereisten
+## Prerequisites
 
-Voordat u meldingsgegevens kunt beheren vanuit [!DNL Google Workspace] , moet u
+Before you can manage notification details from [!DNL Google Workspace], you must
 
-* Installeren [!DNL Workfront for Google Workspace]\
-   Voor instructies, zie [&#x200B; installeren  [!DNL Adobe Workfront for Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/install-workfront-for-gsuite.md).
+* Install [!DNL Workfront for Google Workspace]\
+   For instructions, see [Install [!DNL Adobe Workfront for Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/install-workfront-for-gsuite.md).
 
-## [!DNL Adobe Workfront] -meldingsgegevens beheren vanuit [!DNL Google Workspace]
+## Manage [!DNL Adobe Workfront] notification details from [!DNL Google Workspace]
 
-1. Als het [!DNL Workfront for Google Workspace] paneel niet wordt getoond, klik het [!DNL Workfront] pictogram ![&#x200B; pictogram van Workfront &#x200B;](assets/wf-lion-icon.png) in [!DNL Google Workspace] toe:voegen-ons sidebar bij uiterst rechts van de pagina.
-1. Open in [!DNL Google Workspace] een [!DNL Workfront] -meldingsbericht.
-1. Klik op **[!UICONTROL View all updates]** als deze boven in het deelvenster wordt weergegeven.
-1. Klik op **[!UICONTROL Details]**.
-1. Klik op de beschikbare opties.
+1. If the [!DNL Workfront for Google Workspace] panel is not displayed, click the [!DNL Workfront] icon ![Workfront icon](assets/wf-lion-icon.png) in the [!DNL Google Workspace] add-ons sidebar at the far-right of the page.
+1. In [!DNL Google Workspace], open a [!DNL Workfront] notification email.
+1. Click **[!UICONTROL View all updates]** if it is displayed near the top of the panel.
+1. Click **[!UICONTROL Details]**.
+1. Click any available options.
 
-   De opties die worden weergegeven, hebben betrekking op het type e-mailmelding dat u hebt geopend. Als het bijvoorbeeld een e-mailmelding is waarin u wordt gevraagd een taak goed te keuren, ziet u **[!UICONTROL Approve]** en **[!UICONTROL Reject]** in plaats van opties zoals **[!UICONTROL Work on It]** of **[!UICONTROL Done]** :
+   The options that might display relate to the type of email notification you have opened. For example, if it's an email notification asking you to approve a task, you see **[!UICONTROL Approve]** and **[!UICONTROL Reject]** instead of options such as **[!UICONTROL Work on It]** or **[!UICONTROL Done]**:
 
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <thead> 
      <tr> 
-      <th>Type e-mailmelding</th> 
-      <th>Handeling</th> 
+      <th>Type of email notification</th> 
+      <th>Action</th> 
      </tr> 
     </thead> 
     <tbody> 
      <tr> 
-      <td>Taak of probleem</td> 
-      <td><strong>[!UICONTROL Approve]</strong> het, <strong>[!UICONTROL Reject]</strong> het, <strong>[!UICONTROL Grant]</strong> toegang tot het, <strong>[!UICONTROL Ignore]</strong> een verzoek om toegang tot het, <strong>[!UICONTROL Work on it]</strong>, of klik een optie om erop te wijzen dat u <strong>[!UICONTROL Done]</strong> met het bent</td> 
+      <td>Task or issue</td> 
+      <td><strong>[!UICONTROL Approve]</strong> it, <strong>[!UICONTROL Reject]</strong> it, <strong>[!UICONTROL Grant]</strong> access to it, <strong>[!UICONTROL Ignore]</strong> a request for access to it, <strong>[!UICONTROL Work on it]</strong>, or click an option to indicate that you are <strong>[!UICONTROL Done]</strong> with it</td> 
      </tr> 
      <tr> 
       <td>Project</td> 
-      <td><strong>[!UICONTROL Approve]</strong> het, <strong>[!UICONTROL Reject]</strong> het, <strong>[!UICONTROL Grant]</strong> toegang tot het, of <strong>[!UICONTROL Ignore]</strong> een verzoek om toegang tot het</td> 
+      <td><strong>[!UICONTROL Approve]</strong> it, <strong>[!UICONTROL Reject]</strong> it, <strong>[!UICONTROL Grant]</strong> access to it, or <strong>[!UICONTROL Ignore]</strong> a request for access to it</td> 
      </tr> 
      <tr> 
       <td>Document</td> 
-      <td><strong>[!UICONTROL Approve]</strong> het, <strong>[!UICONTROL Reject]</strong> het, <strong>[!UICONTROL Grant]</strong> toegang tot het, of <strong>[!UICONTROL Ignore]</strong> een verzoek om toegang tot het</td> 
+      <td><strong>[!UICONTROL Approve]</strong> it, <strong>[!UICONTROL Reject]</strong> it, <strong>[!UICONTROL Grant]</strong> access to it, or <strong>[!UICONTROL Ignore]</strong> a request for access to it</td> 
      </tr> 
      <tr> 
-      <td>Bijwerken </td> 
-      <td> <p>Geef een gedeelte van de volledige lijst met updates voor het item weer, zodat u de context hebt die u nodig hebt voor <strong>[!UICONTROL Post]</strong> een nieuwe update of een <strong>[!UICONTROL Reply]</strong> . U kunt op <strong>[!UICONTROL Notify]</strong> klikken om bepaalde gebruikers te waarschuwen voor uw reactie. </p> <p>Zie <a href="../../workfront-integrations-and-apps/workfront-for-g-suite/reply-to-wf-update-notification-from-gsuite.md" class="MCXref xref"> Reageren op een [!DNL Adobe Workfront] updatemelding van [!DNL Google Workspace]</a> voor meer informatie.</p> </td> 
+      <td>Update </td> 
+      <td> <p>View any part of the entire list of updates for the item so that you have the context you need to <strong>[!UICONTROL Post]</strong> a new update or a <strong>[!UICONTROL Reply]</strong>. You can click <strong>[!UICONTROL Notify]</strong> to alert particular users about your reply. </p> <p>For more information, see <a href="../../workfront-integrations-and-apps/workfront-for-g-suite/reply-to-wf-update-notification-from-gsuite.md" class="MCXref xref">Reply to a [!DNL Adobe Workfront] update notification from [!DNL Google Workspace]</a>.</p> </td> 
      </tr> 
      <tr> 
-      <td>Goedkeuringsaanvraag</td> 
-      <td><strong>[!UICONTROL Approve]</strong> of <strong>[!UICONTROL Reject]</strong> het (u kunt uw mening veranderen door de andere optie te klikken), het downloaden, zijn eigenaar bekijken of zijn verwijzingsaantal bekijken</td> 
+      <td>Approval request</td> 
+      <td><strong>[!UICONTROL Approve]</strong> or <strong>[!UICONTROL Reject]</strong> it (you can change your mind by clicking the other option), download it, view its owner, or view its reference number</td> 
      </tr> 
      <tr> 
-      <td>Een wijziging in de status van een project</td> 
-      <td> Bekijk alle huidige informatie over het project, inclusief aangepaste formulieren. </td> 
+      <td>A change in a project's status</td> 
+      <td> View all the current information about the project, including any custom forms. </td> 
      </tr> 
     </tbody> 
    </table>
+
+   -->

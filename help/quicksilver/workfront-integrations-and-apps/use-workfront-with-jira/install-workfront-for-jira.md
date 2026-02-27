@@ -6,9 +6,9 @@ description: U kunt  [!DNL Adobe Workfront]  voor  [!DNL Jira]  gebruiken om uw 
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: f6e0feb1-349f-459f-9f93-c7492cb15f11
-source-git-commit: 53596271a838733b858c0b14a4e22b07a7cd20f6
+source-git-commit: 204324d5a5aaffbe47d31709096e739b62acecb8
 workflow-type: tm+mt
-source-wordcount: '574'
+source-wordcount: '96'
 ht-degree: 0%
 
 ---
@@ -17,13 +17,13 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Om stabielere en scalable integratie te leveren, verschuiven wij naar een moderne, flexibele integratiebenadering gebruikend Workfront Automation and Integration (Fusion). Als deel van dit overgangsproces, zal Workfront voor de integratie van Jira niet beschikbaar na **28 Februari, 2026** zijn.
+>Om stabielere en scalable integratie te leveren, zijn wij op een moderne, flexibele integratiebenadering verschoven gebruikend Workfront Automation and Integration (Fusion). Als deel van dit overgangsproces, is Workfront voor de integratie van Jira **niet meer beschikbaar**.
 >
 >We raden u aan Workfront Automation and Integration te gebruiken voor de integratiebehoeften van uw organisatie met Jira.
 >
->Voor een overzicht van de Automatisering en de Integratie van Workfront, zie [&#x200B; het overzicht van de Fusie van Adobe Workfront &#x200B;](https://experienceleague.adobe.com/nl/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+>Voor een overzicht van de Automatisering en de Integratie van Workfront, zie [ het overzicht van de Fusie van Adobe Workfront ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 >
->Voor informatie over de specifieke mogelijkheden van de modules van de Automatisering en van de Integratie van Workfront voor Jira, zie {de modules van de Software van 0} Jira [.](https://experienceleague.adobe.com/nl/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/jira-modules-new)
+>Voor informatie over de specifieke mogelijkheden van de modules van de Automatisering en van de Integratie van Workfront voor Jira, zie {de modules van de Software van 0} Jira [.](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/jira-modules-new)
 
 <!--
 
@@ -35,100 +35,104 @@ ht-degree: 0%
 >
 >Eight ready-to-use Workfront Automation and Integration templates for Jira will be available by August to help replicate common workflows and accelerate implementation. Templates are fully customizable to meet specific business needs and can be extended as requirements evolve. 
 > 
->For an overview of Workfront Automation and Integration, see [Adobe Workfront Fusion overview](https://experienceleague.adobe.com/nl/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview). 
+>For an overview of Workfront Automation and Integration, see [Adobe Workfront Fusion overview](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview). 
 >
->For information about the specific capabilities of the Workfront Automation and Integration modules for Jira, see [Jira Software modules](https://experienceleague.adobe.com/nl/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/jira-software-modules). 
+>For information about the specific capabilities of the Workfront Automation and Integration modules for Jira, see [Jira Software modules](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/jira-software-modules). 
 
 -->
 
-Met [!DNL Adobe Workfront for Jira] kunt u uw [!DNL Jira] - en [!DNL Workfront] -systemen integreren.
+<!--
 
-Nadat u de invoegtoepassing hebt geïnstalleerd, kunt u workflows definiëren waarmee automatisch [!DNL Jira] -problemen worden gemaakt wanneer [!DNL Workfront] -werkitems worden gemaakt. De items in beide toepassingen worden gekoppeld en sommige van de gegevens ervan kunnen automatisch in beide systemen worden bijgewerkt.
+You can use [!DNL Adobe Workfront for Jira] to integrate your [!DNL Jira] and [!DNL Workfront] systems.
 
-Alle gebruikers in [!DNL Workfront] en [!DNL Jira] kunnen van deze integratie profiteren. Ze hebben alleen een licentie nodig voor het systeem waarin ze het meest werken, en niet voor beide systemen.
+After installing the add-on, you can define workflows that create [!DNL Jira] issues automatically when [!DNL Workfront] work items are created. The items in both applications become linked, and some of their information can be automatically updated in both systems. 
 
-Deze invoegtoepassing is beschikbaar voor de [!UICONTROL Server] - en [!UICONTROL OnDemand] (of [!UICONTROL Cloud] ) -versies van [!DNL Jira] Software. Deze invoegtoepassing is niet beschikbaar voor de [!DNL Data Center] -versie van [!DNL Jira] Software.
+All users in [!DNL Workfront] and [!DNL Jira] can benefit from this integration. They only need a license for the system in which they work the most, and not for both systems. 
 
-Voor een lijst van [!DNL Jira] versies die [!DNL Workfront for Jira] momenteel steunt, zie [[!DNL [!DNL Workfront for Jira]] &#x200B;](https://marketplace.atlassian.com/apps/1218653/workfront-for-jira?hosting=cloud&tab=overview) bij de Atlassiaanse Marketplace.
+This add-on is available for the [!UICONTROL Server] and [!UICONTROL OnDemand] (or [!UICONTROL Cloud]) versions of [!DNL Jira] Software. This add-on is not available for the [!DNL Data Center] version of [!DNL Jira] Software.
 
-## Toegangsvereisten
+For a list of [!DNL Jira] versions that [!DNL Workfront for Jira] currently supports, see [[!DNL [!DNL Workfront for Jira]]](https://marketplace.atlassian.com/apps/1218653/workfront-for-jira?hosting=cloud&tab=overview) at the Atlassian Marketplace.
 
-+++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
+## Access requirements
+
++++ Expand to view access requirements for the functionality in this article.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-pakket</td> 
-   <td><p>Alle</p>
+   <td role="rowheader">Adobe Workfront package</td> 
+   <td><p>Any</p>
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td role="rowheader">Adobe Workfront license</td> 
    <td><p>Standard </p>
        <p>Plan </p>
    </td>
   </tr> 
   <tr> 
-   <td role="rowheader">Toegang tot Jira</td> 
-   <td> <p>Toegang tot systeembeheerder</p> <p>Belangrijk: wij adviseren dat u afzonderlijke rekeningen van de systeembeheerder in Jira en Workfront creeert om aan deze integratie te wijden, eerder dan het gebruiken van bestaande die aan gebruikers zouden kunnen worden vastgemaakt.</p> </td> 
+   <td role="rowheader">Jira access</td> 
+   <td> <p>System administrator access</p> <p>Important:  We recommend that you create separate system administrator accounts in Jira and Workfront to dedicate to this integration, rather than using existing ones that might be attached to users.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau</td> 
-   <td> <p>U moet een Workfront-beheerder zijn.</p> </td> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>You must be a Workfront administrator.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 +++
 
-## Installeren [!DNL Workfront] voor [!DNL Jira]
+## Install [!DNL Workfront] for [!DNL Jira]
 
-[!DNL Workfront] voor [!DNL Jira] OnDemand installeren is hetzelfde als op een [!DNL Jira] Server-instantie installeren.
+Installing [!DNL Workfront] for [!DNL Jira] OnDemand is identical to installing it on a [!DNL Jira] Server instance.
 
-U moet een [!DNL Jira] -beheerder zijn om de [!DNL Workfront] add-on te installeren.
+You must be a [!DNL Jira] administrator to install the [!DNL Workfront] add-on.
 
-Als u geen [!DNL Jira] beheerder bent, kunt u naar de [!DNL Workfront] add-on bladeren en vragen of deze kan worden geïnstalleerd. Uw verzoek wordt naar de [!DNL Jira] -beheerder verzonden voor goedkeuring en installatie.
+If you are not a [!DNL Jira] administrator, you can browse for the [!DNL Workfront] add-on and request it to be installed. Your request is sent to the [!DNL Jira] administrator for approval and installation. 
 
-Voor meer informatie over het verzoeken van om toe:voegen-op om op uw [!DNL Jira] toepassing te worden geïnstalleerd, zie [&#x200B; het Leiden gebruikersverzoeken om toe:voegen-ons.](https://confluence.atlassian.com/upm/managing-user-requests-for-add-ons-781394968.html)
+For more information about requesting an add-on to be installed on your [!DNL Jira] application, see [Managing user requests for add-ons.](https://confluence.atlassian.com/upm/managing-user-requests-for-add-ons-781394968.html)
 
-Ga als volgt te werk om [!DNL Workfront for Jira] te installeren:
+To install [!DNL Workfront for Jira]:
 
-1. Meld u aan bij [!DNL Jira] als [!DNL Jira] -beheerder.
-1. Vind **[!DNL Workfront for Jira]** toe:voegen-op in [[!DNL Atlassian Marketplace] &#x200B;](https://marketplace.atlassian.com/apps/1218653/workfront-for-jira?hosting=cloud&tab=overview).
+1. Log in to [!DNL Jira] as a [!DNL Jira] administrator.
+1. Find the **[!DNL Workfront for Jira]** add-on in the [[!DNL Atlassian Marketplace]](https://marketplace.atlassian.com/apps/1218653/workfront-for-jira?hosting=cloud&tab=overview).
 
-1. Klik op **[!UICONTROL Get it now]** om de toepassing te installeren.
+1. Click **[!UICONTROL Get it now]** to install it.
 
-   Nadat de installatie is voltooid, kunt u zich aanmelden bij [!DNL Workfront] vanuit [!DNL Jira] en uw integratie configureren.
+   After the installation completes, you can log in to [!DNL Workfront] from [!DNL Jira] and configure your integration.
 
-   Voor meer informatie, zie [&#x200B; Adobe Workfront voor Jira &#x200B;](../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md) vormen.
+   For more information, see [Configure Adobe Workfront for Jira](../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md).
 
-## Overwegingen bij een [!DNL Jira Server] -installatie
+## Considerations for a [!DNL Jira Server] installation
 
 >[!NOTE]
 >
->Deze vereisten zijn niet van toepassing op de [!UICONTROL OnDemand] ([!UICONTROL Cloud]) versie van [!DNL Jira] Software.
+>These requirements do not apply to the [!UICONTROL OnDemand] ([!UICONTROL Cloud]) version of [!DNL Jira] Software.
 
-Hoewel het installeren van de [!DNL Workfront] invoegtoepassing in de twee [!DNL Jira] -omgevingen vergelijkbaar is, moet u rekening houden met het volgende wanneer u werkt met een [!DNL Jira Server] -installatie:
+Although installing the [!DNL Workfront] add-on in the two [!DNL Jira] environments is similar, you must consider the following when working with a [!DNL Jira Server] installation:
 
-* Wanneer u de invoegtoepassing configureert in [!DNL Jira] , is het adres dat is opgegeven in het veld **[!DNL JIRA Base URL]** mogelijk niet dezelfde URL die u gebruikt om [!DNL Jira] op uw persoonlijke server te openen. **[!DNL JIRA Base URL]** moet een openbaar-toegankelijk adres zijn dat met uw privé server gebruikend NATIONAAL of omgekeerde volmachtsprotocollen wordt verbonden, zodat [!DNL Workfront] tot het kan toegang hebben om verzoeken aan uw server te doen.
+* When configuring the add-on in [!DNL Jira], the address specified in the **[!DNL JIRA Base URL]** field may not be the same URL you use to access [!DNL Jira] on your private server. The **[!DNL JIRA Base URL]** must be a publicly-accessible address connected to your private server using NAT or reverse proxy protocols, so [!DNL Workfront] can access it to make requests to your server.  
 
-* U moet SSL-codering gebruiken om de communicatie tussen [!DNL Jira] en [!DNL Workfront] te beveiligen. Wanneer u SSL inschakelt, moet u over een volledige SSL-certificaatstapel van een certificeringsinstantie beschikken. Wij ondersteunen zelfondertekende certificaten niet.
-* U moet ervoor zorgen dat het [!DNL jira.workfront.com] -domein toegankelijk is vanaf uw bedrijfsservers. Het dient als een middleware-omgeving tussen [!DNL Workfront] en [!DNL Jira] en is vereist voor de invoegtoepassing.
+* You must use SSL encryption to secure the communication between [!DNL Jira] and [!DNL Workfront]. When you enable SSL, you must have a full SSL certificate stack from a certificate authority. We do not support self-signed certificates. 
+* You must ensure that the [!DNL jira.workfront.com] domain is accessible from your corporate servers. It serves as a middleware environment between [!DNL Workfront] and [!DNL Jira] and is required for the add-on to operate.
 
-  U moet ook de volgende statische IP adressen aan de lijst van gewenste personen op uw firewall voor uitgaande en binnenkomende verbindingen toevoegen.
+   You must also add the following static IP addresses to the allowlist on your firewall for outbound and inbound connections.
 
-  `35.162.128.73`
+   `35.162.128.73`
 
-  `34.213.36.118`
+   `34.213.36.118`
 
-  `35.160.0.242`
+   `35.160.0.242`
 
-  `3.209.27.146`
+   `3.209.27.146`
 
-  `18.205.251.4`
+   `18.205.251.4`
 
-  Voor meer informatie over het vormen van uw firewall voor optimale functionaliteit met [!DNL Workfront], zie [&#x200B; Vormend Uw Firewall &#x200B;](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
+   For more information about configuring your firewall for optimal functionality with [!DNL Workfront], see [Configuring Your Firewall](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
+
+-->

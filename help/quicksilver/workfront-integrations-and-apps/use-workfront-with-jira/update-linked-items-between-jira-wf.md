@@ -6,9 +6,9 @@ description: Wanneer u  [!DNL Jira]  kwesties met  [!DNL Adobe Workfront]  taken
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 79ac6ff1-2f7d-4abc-8735-398f6aac5191
-source-git-commit: e06713b8871ba5e7bfae58f67ee246c9c1163a63
+source-git-commit: 204324d5a5aaffbe47d31709096e739b62acecb8
 workflow-type: tm+mt
-source-wordcount: '1492'
+source-wordcount: '126'
 ht-degree: 0%
 
 ---
@@ -17,13 +17,13 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Om stabielere en scalable integratie te leveren, verschuiven wij naar een moderne, flexibele integratiebenadering gebruikend Workfront Automation and Integration (Fusion). Als deel van dit overgangsproces, zal Workfront voor de integratie van Jira niet beschikbaar na **28 Februari, 2026** zijn.
+>Om stabielere en scalable integratie te leveren, zijn wij op een moderne, flexibele integratiebenadering verschoven gebruikend Workfront Automation and Integration (Fusion). Als deel van dit overgangsproces, is Workfront voor de integratie van Jira **niet meer beschikbaar**.
 >
 >We raden u aan Workfront Automation and Integration te gebruiken voor de integratiebehoeften van uw organisatie met Jira.
 >
->Voor een overzicht van de Automatisering en de Integratie van Workfront, zie [&#x200B; het overzicht van de Fusie van Adobe Workfront &#x200B;](https://experienceleague.adobe.com/nl/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+>Voor een overzicht van de Automatisering en de Integratie van Workfront, zie [ het overzicht van de Fusie van Adobe Workfront ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 >
->Voor informatie over de specifieke mogelijkheden van de modules van de Automatisering en van de Integratie van Workfront voor Jira, zie {de modules van de Software van 0} Jira [.](https://experienceleague.adobe.com/nl/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/jira-modules-new)
+>Voor informatie over de specifieke mogelijkheden van de modules van de Automatisering en van de Integratie van Workfront voor Jira, zie {de modules van de Software van 0} Jira [.](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/jira-modules-new)
 
 <!--
 
@@ -35,245 +35,249 @@ ht-degree: 0%
 >
 >Eight ready-to-use Workfront Automation and Integration templates for Jira will be available by August to help replicate common workflows and accelerate implementation. Templates are fully customizable to meet specific business needs and can be extended as requirements evolve. 
 > 
->For an overview of Workfront Automation and Integration, see [Adobe Workfront Fusion overview](https://experienceleague.adobe.com/nl/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview). 
+>For an overview of Workfront Automation and Integration, see [Adobe Workfront Fusion overview](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview). 
 >
->For information about the specific capabilities of the Workfront Automation and Integration modules for Jira, see [Jira Software modules](https://experienceleague.adobe.com/nl/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/jira-software-modules). 
+>For information about the specific capabilities of the Workfront Automation and Integration modules for Jira, see [Jira Software modules](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/jira-software-modules). 
 
 -->
 
-Wanneer u [!DNL Jira] -problemen koppelt aan [!DNL Adobe Workfront] -taken of -problemen, kunnen uw gebruikers items in één toepassing bijwerken en wordt de tegenhanger van dat item ook bijgewerkt voor de gebruikers die in de tweede toepassing werken.
+<!--
 
-Voor meer informatie over het verbinden van punten tussen [!DNL Workfront] en [!DNL Jira], zie [&#x200B; punten van de Verbinding tussen Adobe Workfront en Jira &#x200B;](../../workfront-integrations-and-apps/use-workfront-with-jira/link-items-between-wf-jira.md).
+When you link [!DNL Jira] issues to [!DNL Adobe Workfront] tasks or issues, your users can update items in one application and the counterpart of that item also updates for the users working in the second application.
 
-Terwijl u [!DNL Workfront] instelt voor [!DNL Jira] , kunt u als [!DNL Jira] systeembeheerder bepaalde velden in de ene toepassing configureren om te synchroniseren met velden uit gekoppelde items in de andere toepassing.
+For more information about linking items between [!DNL Workfront] and [!DNL Jira], see [Link items between Adobe Workfront and Jira](../../workfront-integrations-and-apps/use-workfront-with-jira/link-items-between-wf-jira.md).
 
-Voor meer informatie over het synchroniseren van gebieden tussen verbonden [!DNL Jira] en [!DNL Workfront] punten, zie [&#x200B;  [!DNL Adobe Workfront for Jira]](../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md) vormen.
+As you are setting up [!DNL Workfront] for [!DNL Jira], as a [!DNL Jira] system administrator, you can configure certain fields from one application to synchronize with fields from linked items in the other application.
 
-## Toegangsvereisten
+For more information about synchronizing fields between linked [!DNL Jira] and [!DNL Workfront] items, see [Configure [!DNL Adobe Workfront for Jira]](../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md).
 
-+++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
+## Access requirements
+
++++ Expand to view access requirements for the functionality in this article.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-pakket</td> 
-   <td><p>Alle</p>
+   <td role="rowheader">Adobe Workfront package</td> 
+   <td><p>Any</p>
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td role="rowheader">Adobe Workfront license</td> 
    <td><p>Standard </p>
        <p>Plan </p>
    </td>
   </tr> 
   <tr> 
-   <td role="rowheader">Toegang tot Jira</td> 
-   <td> <p>Toegang tot systeembeheerder</p> <p>Belangrijk: wij adviseren dat u afzonderlijke rekeningen van de systeembeheerder in Jira en Workfront creeert om aan deze integratie te wijden, eerder dan het gebruiken van bestaande die aan gebruikers zouden kunnen worden vastgemaakt.</p> </td> 
+   <td role="rowheader">Jira access</td> 
+   <td> <p>System administrator access</p> <p>Important:  We recommend that you create separate system administrator accounts in Jira and Workfront to dedicate to this integration, rather than using existing ones that might be attached to users.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuraties op toegangsniveau</td> 
-   <td> <p>U moet een Workfront-beheerder zijn.</p> </td> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>You must be a Workfront administrator.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 +++
 
-## Vereisten
+## Prerequisites
 
-Voordat u items kunt koppelen tussen [!DNL Workfront] en [!DNL Jira] , moet u:
+Before you can link items between [!DNL Workfront] and [!DNL Jira], you must:
 
-* Installeer [!DNL Workfront for Jira] .
+* Install [!DNL Workfront for Jira].
 
-  Voor instructies bij het installeren van [!DNL Workfront for Jira], zie [&#x200B; installeren  [!DNL Adobe Workfront for Jira]](../../workfront-integrations-and-apps/use-workfront-with-jira/install-workfront-for-jira.md).
+   For instructions on installing [!DNL Workfront for Jira], see [Install [!DNL Adobe Workfront for Jira]](../../workfront-integrations-and-apps/use-workfront-with-jira/install-workfront-for-jira.md).
 
-* Configureer [!DNL Workfront for Jira].
+* Configure [!DNL Workfront for Jira].
 
-  Voor instructies bij het vormen [!DNL Workfront for Jira], zie [&#x200B; vormen  [!DNL Adobe Workfront for Jira]](../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md).
+   For instructions on configuring [!DNL Workfront for Jira], see [Configure [!DNL Adobe Workfront for Jira]](../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md).
 
-* Koppel items tussen [!DNL Workfront] en [!DNL Jira] .
+* Link items between [!DNL Workfront] and [!DNL Jira].
 
-  Voor instructies, zie [&#x200B; punten van de Verbinding tussen  [!DNL Adobe Workfront]  en  [!DNL Jira]](../../workfront-integrations-and-apps/use-workfront-with-jira/link-items-between-wf-jira.md).
+   For instructions, see [Link items between [!DNL Adobe Workfront] and [!DNL Jira]](../../workfront-integrations-and-apps/use-workfront-with-jira/link-items-between-wf-jira.md).
 
-## Gekoppelde items bijwerken in [!DNL Workfront]
+## Update linked items in [!DNL Workfront]
 
-Als u voornamelijk in [!DNL Workfront] werkt, kunt u uw werkitems in [!DNL Workfront] en hun tegenhangers in [!DNL Jira] ook bijwerken. Deze update vindt plaats door de integratie van [!DNL Workfront] for [!DNL Jira] , waarvoor geen [!DNL Jira] -licentie vereist is.
+If you work primarily in [!DNL Workfront], you can update your work items in [!DNL Workfront] and their counterparts in [!DNL Jira] also update. This update happens through the integration of [!DNL Workfront] for [!DNL Jira] which does not require you to have a [!DNL Jira] license. 
 
-Zolang de [!DNL Workfront] beheerder [!DNL Workfront for Jira] heeft geconfigureerd om de velden tussen gekoppelde items te synchroniseren, worden bepaalde velden die u in [!DNL Workfront] bijwerkt ook bijgewerkt voor het gekoppelde [!DNL Jira] -probleem. Voor meer informatie over het bijwerken van punten in [!DNL Workfront], zie [&#x200B; kwesties &#x200B;](../../manage-work/issues/manage-issues/edit-issues.md) uitgeven en [&#x200B; taken &#x200B;](../../manage-work/tasks/manage-tasks/edit-tasks.md) uitgeven.
+As long as your [!DNL Workfront] administrator has configured [!DNL Workfront for Jira] to synchronize the fields between linked items, certain fields that you update in [!DNL Workfront] also update for the linked [!DNL Jira] issue. For more information about updating items in [!DNL Workfront], see [Edit issues](../../manage-work/issues/manage-issues/edit-issues.md) and [Edit tasks](../../manage-work/tasks/manage-tasks/edit-tasks.md).
 
-In de volgende lijst wordt aangegeven welke [!DNL Workfront] -velden worden gesynchroniseerd met [!DNL Jira] -velden op gekoppelde items:
+The following list shows which [!DNL Workfront] fields synchronize with [!DNL Jira] fields on linked items: 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <thead> 
   <tr> 
-   <th><strong> Bijgewerkt [!DNL Workfront] gebied </strong> </th> 
-   <th><strong> Gesynchroniseerd [!DNL Jira] gebied/update </strong> </th> 
+   <th><strong>Updated [!DNL Workfront] field</strong> </th> 
+   <th><strong>Synchronized [!DNL Jira] field/ update</strong> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
    <td>[!UICONTROL Issue or Task name]</td> 
-   <td> <p>[!UICONTROL Issue name]</p> <p>Er wordt een opmerking over de naamwijziging toegevoegd aan het tabblad <strong>[!DNL Workfront]</strong> van het [!DNL Jira] -probleem. </p> </td> 
+   <td> <p>[!UICONTROL Issue name]</p> <p>A comment about the Name change is added to the <strong>[!DNL Workfront]</strong> tab of the [!DNL Jira] issue. </p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Issue or Task Description]</td> 
-   <td> <p> [!UICONTROL Issue Description]</p> <p>Er wordt een opmerking over de bijgewerkte beschrijving toegevoegd aan het tabblad <strong>[!DNL Workfront]</strong> van de [!DNL Jira] -uitgave.<br></p> </td> 
+   <td> <p> [!UICONTROL Issue Description]</p> <p>A comment about the updated Description is added to the <strong>[!DNL Workfront]</strong> tab of the [!DNL Jira] issue.<br></p> </td> 
   </tr> 
   <tr> 
-   <td> <p> [!UICONTROL Uploaded Documents]</p> <p>Opmerking: documenten die zijn gekoppeld aan [!DNL Workfront] -items van een externe server, worden niet overgebracht naar [!DNL Jira] -uitgaven. Alleen documenten die rechtstreeks naar [!DNL Workfront] -items zijn geüpload, worden ook bijgewerkt naar de gekoppelde [!DNL Jira] -uitgaven. </p> </td> 
-   <td> <p>[!UICONTROL Attachments]</p> <p>Er wordt een opmerking over de geüploade bijlagen toegevoegd aan het tabblad <strong>[!DNL Workfront]</strong> van de uitgave [!DNL Jira] .<br></p> </td> 
+   <td> <p> [!UICONTROL Uploaded Documents]</p> <p>Note: Documents which are linked to [!DNL Workfront] items from an external server are not transferred to [!DNL Jira] issues. Only documents uploaded directly to [!DNL Workfront] items are also updated to the linked [!DNL Jira] issues. </p> </td> 
+   <td> <p>[!UICONTROL Attachments]</p> <p>A comment about the uploaded attachments is added to the <strong>[!DNL Workfront]</strong> tab of the [!DNL Jira] issue.<br></p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Planned Completion Date]</td> 
-   <td> <p>[!UICONTROL Due Date]</p> <p>Er wordt een opmerking toegevoegd over het feit dat [!UICONTROL Due Date] is gewijzigd aan het tabblad [!DNL Workfront] van de uitgave [!DNL Jira] . </p> <p>Opmerking: u moet <strong>[!UICONTROL Due Date]</strong> inschakelen voordat uw [!DNL Jira] -problemen dit veld kunnen zien bijgewerkt in [!UICONTROL Jira] . </p> </td> 
+   <td> <p>[!UICONTROL Due Date]</p> <p>A comment about the [!UICONTROL Due Date] having changed is added to the [!DNL Workfront] tab of the [!DNL Jira] issue. </p> <p>Note: You must enable <strong>[!UICONTROL Due Date]</strong> for your [!DNL Jira] issues to be able to see this field updated in [!UICONTROL Jira]. </p> </td> 
   </tr> 
   <tr> 
-   <td>Aangepaste Forms- en aangepaste velden</td> 
-   <td> <p> Geef deze weer in het deelvenster [!DNL Workfront] rechts van de uitgave [!DNL Jira] . <br> slechts de Gebieden van de Douane die een daadwerkelijke waardevertoning in het paneel hebben.<br></p> <p>Opmerking: in de secties Aangepaste formulieren wordt het toegangsniveau van de [!DNL Workfront] -beheerder weergegeven. </p> </td> 
+   <td>Custom Forms and Custom Fields</td> 
+   <td> <p> Display in the [!DNL Workfront] right panel of the [!DNL Jira] issue. <br>Only the Custom Fields that have an actual value display in the panel.<br></p> <p>Note: Custom Form sections are displayed with the access level of the [!DNL Workfront] administrator. </p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Issue or Task Priority]</td> 
-   <td>Wordt weergegeven in het deelvenster [!DNL Workfront] rechts van de uitgave [!DNL Jira] . <br> Het veld uitgave <strong>[!UICONTROL Priority]</strong> in [!DNL Jira] wordt niet bijgewerkt. </td> 
+   <td>Displays in the [!DNL Workfront] right panel of the [!DNL Jira] issue. <br>It does not update the issue <strong>[!UICONTROL Priority]</strong> field in [!DNL Jira]. </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Log time] </td> 
-   <td> <p>Er wordt een opmerking over de aangemelde tijd toegevoegd op het tabblad <strong>[!DNL Workfront]</strong> van de [!DNL Jira] -uitgave. Dit omvat de naam van de gebruiker die de tijd registreert, evenals de gebruiker voor wie de tijd wordt geregistreerd, voor het geval zij verschillend zijn. Er is geen tijd aangemeld op de tab <strong>[!UICONTROL Work log]</strong> in [!DNL Jira] .<br></p> </td> 
+   <td> <p>A comment about the logged time is added in the <strong>[!DNL Workfront]</strong> tab of the [!DNL Jira] issue. This includes the name of the user who logs the time, as well as the user for whom the time is logged, in case they are different. No time is logged in the <strong>[!UICONTROL Work log]</strong> tab in [!DNL Jira].<br></p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Comments]</td> 
-   <td> <p>De opmerking wordt toegevoegd aan het tabblad <strong>[!DNL Workfront]</strong> van de [!DNL Jira] -uitgave. Het wordt niet toegevoegd aan het tabblad <strong>[!UICONTROL Comments]</strong> van het [!DNL Jira] -probleem</p> <p>Opmerking: wanneer u twee bestaande items handmatig koppelt, worden de opmerkingen die aan het [!DNL Workfront] -item zijn toegevoegd voordat u het item koppelt aan [!DNL Jira] , niet gesynchroniseerd met het [!DNL Jira] -probleem. </p> <p>Jira-opmerkingen worden wel gesynchroniseerd met Workfront.</td> 
+   <td> <p>The comment is added to the <strong>[!DNL Workfront]</strong> tab of the [!DNL Jira] issue. It is not added to the <strong>[!UICONTROL Comments]</strong> tab of the [!DNL Jira] issue</p> <p>Note: When you link two existing items manually, the comments that were added to the [!DNL Workfront] item before linking it to [!DNL Jira] do not synchronize to the [!DNL Jira] issue. </p> <p>Jira comments do synchronize to Workfront.</td> 
   </tr> 
  </tbody> 
 </table>
 
-## Gekoppelde items bijwerken in [!DNL Jira]
+## Update linked items in [!DNL Jira]
 
-Als u voornamelijk in [!DNL Jira] werkt, kunt u uw werkitems in [!DNL Jira] en hun tegenhangers in [!DNL Workfront] ook bijwerken. U hoeft geen [!DNL Workfront] licentie te hebben voor de [!DNL Workfront] items die zijn gekoppeld aan uw [!DNL Jira] -uitgaven om de updates te ontvangen die u maakt in [!DNL Jira] .
+If you work primarily in [!DNL Jira], you can update your work items in [!DNL Jira] and their counterparts in [!DNL Workfront] also update. You do not have to have a [!DNL Workfront] license for the [!DNL Workfront] items linked to your [!DNL Jira] issues to receive the updates you are making in [!DNL Jira]. 
 
-Op voorwaarde dat de [!DNL Workfront] beheerder [!DNL Workfront] for [!DNL Jira] heeft geconfigureerd voor het synchroniseren van de velden tussen gekoppelde items, worden bepaalde velden die u bijwerkt in [!DNL Jira] ook bijgewerkt voor het gekoppelde [!DNL Workfront] -item.
+On condition that your [!DNL Workfront] administrator has configured [!DNL Workfront] for [!DNL Jira] to synchronize the fields between linked items, certain fields which you update in [!DNL Jira] also update for the linked [!DNL Workfront] item. 
 
-In de volgende lijst wordt aangegeven welke [!DNL Jira] -velden worden gesynchroniseerd met [!DNL Workfront] -velden op gekoppelde items:
+The following list shows which [!DNL Jira] fields synchronize with [!DNL Workfront] fields on linked items: 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <thead> 
   <tr> 
-   <th><strong> Bijgewerkt [!DNL Jira] Gebied </strong> </th> 
-   <th><strong> Gesynchroniseerd [!DNL Workfront] Gebied/Update </strong> </th> 
+   <th><strong>Updated [!DNL Jira] Field</strong> </th> 
+   <th><strong>Synchronized [!DNL Workfront] Field/ Update</strong> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
    <td>[!UICONTROL Issue Status]</td> 
-   <td> <p> [!UICONTROL Issue or Task Status]</p> <p>De status van de kwestie in [!DNL Jira] syncs met de volgende statussen, of statussen die met de volgende statussen, in Workfront gelijkstellen:</p> 
+   <td> <p> [!UICONTROL Issue or Task Status]</p> <p>Issue status in [!DNL Jira] syncs with the following statuses, or statuses that equate with the following statuses, in Workfront:</p> 
     <ul> 
      <li> <p>[!UICONTROL New] ([!UICONTROL NEW])</p> </li> 
      <li> <p>[!UICONTROL In Progress] ([!UICONTROL INP])</p> </li> 
      <li> <p>[!UICONTROL Closed]/[!UICONTROL Complete] ([!UICONTROL CLS]/[!UICONTROL CPL])</p> </li> 
-    </ul> <p>Opmerking: de status [!DNL Jira] wordt gesynchroniseerd met de eerste [!DNL Workfront] -status die gelijk is aan de juiste status.</p> <p>Voor meer informatie over statussen van punten in [!DNL Workfront], zie <a href="../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md" class="MCXref xref"> creeer of geef een status </a> uit.</p> </td> 
+    </ul> <p>Note: The [!DNL Jira] status syncs with the first [!DNL Workfront] status that equates with the appropriate status.</p> <p>For more information about statuses of items in [!DNL Workfront], see <a href="../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md" class="MCXref xref">Create or edit a status</a>.</p> </td> 
   </tr>
   <tr> 
    <td>[!UICONTROL Issue Attachments]</td> 
-   <td> [!UICONTROL Issue or Task Documents]<br> Een opmerking over het uploaden van een nieuw document in [!DNL Jira] wordt toegevoegd aan het tabblad [!UICONTROL Updates] van de [!DNL Workfront] uitgave of taak.  </td> 
+   <td> [!UICONTROL Issue or Task Documents]<br>A comment about uploading a new document in [!DNL Jira] is added to the [!UICONTROL Updates] tab of the [!DNL Workfront] issue or task.  </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Due Date]</td> 
-   <td> <p> Er wordt een opmerking over de wijziging van de [!UICONTROL Due Date] in [!DNL Jira] toegevoegd aan het tabblad [!UICONTROL Updates] van de [!DNL Workfront] -uitgave of -taak. </p> <p>Opmerking: er zijn geen datums gewijzigd voor het probleem of de taak van [!DNL Workfront] . </p> </td> 
+   <td> <p> A comment about the change of the [!UICONTROL Due Date] in [!DNL Jira] is added to the [!UICONTROL Updates] tab of the [!DNL Workfront] issue or task. </p> <p>Note: No dates change on the [!DNL Workfront] issue or task. </p> </td> 
   </tr> 
   <tr> 
-   <td> Meldingstijd in het deelvenster [!DNL Workfront] rechts of in het menu [!UICONTROL More] in het venster [!DNL Jira] .<br></td> 
-   <td> <p>Uren <br> naast het toevoegen van de uren het programma geopend Jira aan het verbonden [!DNL Workfront] punt, wordt een commentaar over logboektijd toegevoegd aan het [!UICONTROL Updates] lusje van het [!DNL Workfront] punt.</p> <p>Voor meer informatie over het registreren van tijd op verbonden [!DNL Jira] kwesties, met inbegrip van het bijwerken van de [!DNL Jira] gebruiker die de tijd binnen registreert [!DNL Workfront], zie <a href="#log-time-for-linked-jira-and-workfront-items" class="MCXref xref"> tijd van het Logboek voor Gekoppelde [!DNL Jira] en [!DNL Workfront] punten </a>.</p> </td> 
+   <td> Log time in the [!DNL Workfront] right panel or from the [!UICONTROL More] menu on the [!DNL Jira] issue<br></td> 
+   <td> <p>Hours<br>In addition to adding the hours logged in Jira to the linked [!DNL Workfront] item, a comment about logging time is added to the [!UICONTROL Updates] tab of the [!DNL Workfront] item.</p> <p>For more information about logging time on linked [!DNL Jira] issues, including updating the [!DNL Jira] user who is logging the time in [!DNL Workfront], see <a href="#log-time-for-linked-jira-and-workfront-items" class="MCXref xref">Log time for Linked [!DNL Jira] and [!DNL Workfront] items</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td> Opmerkingen <br><br></td> 
-   <td> <p>Opmerkingen worden toegevoegd aan het tabblad [!UICONTROL Updates] van het [!DNL Workfront] -probleem of de <strong>[!UICONTROL Comments]</strong> -taak als de [!UICONTROL SYNCHRONIZE FROM JIRA TO WORKFRONT] -instelling in de sectie [!UICONTROL Setup] van het tabblad <strong>[!UICONTROL Always]</strong> .</p> <p>Voor informatie over het vormen van de montages van Workfront in [!DNL Jira], zie <a href="../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md"> het Vormen [!DNL Workfront for Jira]</a>.</p> <p>Voor informatie over het becommentariëren over punten van verbonden [!DNL Jira] kwesties, zie <a href="#comment-from-a-linked-jira-issue" class="MCXref xref"> Commentaar van een verbonden [!DNL Jira] kwestie </a>.</p> </td> 
+   <td> Comments <br><br></td> 
+   <td> <p>Comments are added to the [!UICONTROL Updates] tab of the [!DNL Workfront] issue or task if the <strong>[!UICONTROL Comments]</strong> setting in the [!UICONTROL SYNCHRONIZE FROM JIRA TO WORKFRONT] section of the [!UICONTROL Setup] tab to <strong>[!UICONTROL Always]</strong>.</p> <p>For information about configuring Workfront settings in [!DNL Jira], see <a href="../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md">Configuring [!DNL Workfront for Jira]</a>.</p> <p>For information about commenting on items from linked [!DNL Jira] issues, see <a href="#comment-from-a-linked-jira-issue" class="MCXref xref">Comment from a linked [!DNL Jira] issue</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Logtijd van gekoppelde [!DNL Jira] uitgaven
+## Log time from linked [!DNL Jira] issues
 
-De tijd die u opneemt voor een [!DNL Jira] item in [!DNL Jira] , wordt ook overgebracht naar het gekoppelde [!DNL Workfront] item, ongeacht de locatie in [!DNL Jira] waar u de tijd registreert.\
-Wanneer u zich aanmeldt in Jira in het deelvenster [!DNL Workfront] , wordt de tijd alleen in [!DNL Workfront] opgenomen.\
-De tijd die u in [!DNL Workfront] opneemt, heeft geen invloed op de tijd van de gekoppelde uitgave in [!DNL Jira] .
+The time that you record for a [!DNL Jira] item in [!DNL Jira] will also transfer to the linked [!DNL Workfront] item, regardless of where in [!DNL Jira] you log the time.\
+When you log time in Jira in the [!DNL Workfront] panel, the time is recorded only in [!DNL Workfront].\
+The time you record in [!DNL Workfront] does not affect the time of the linked issue in [!DNL Jira]. 
 
 >[!NOTE]
 >
->Als de tijd wordt toegevoegd aan een [!DNL Jira] -item dat is gekoppeld aan een [!DNL Workfront] -taak, is de [!UICONTROL Hour Type] voor de tijd in [!DNL Workfront] gelijk aan [!UICONTROL Task Time] . Als de tijd wordt toegevoegd aan een [!DNL Jira] -item dat is gekoppeld aan een [!DNL Workfront] -uitgave, is de [!UICONTROL Hour Type] voor de tijd in [!DNL Workfront] [!UICONTROL Issue Time] .
+>If the time is added to a [!DNL Jira] item linked to a [!DNL Workfront] task, the [!UICONTROL Hour Type] for the time in [!DNL Workfront] is [!UICONTROL Task Time]. If the time is added to a [!DNL Jira] item linked to a [!DNL Workfront] issue, the [!UICONTROL Hour Type] for the time in [!DNL Workfront] is [!UICONTROL Issue Time].
 
-Er wordt een opmerking toegevoegd aan de tab **[!DNL Workfront]** in [!DNL Jira] en aan de tab **[!UICONTROL Updates]** van het item in [!DNL Workfront] om de logboekregistratie van de tijd op te nemen.\
-De tijd wordt ook weergegeven op het tabblad **[!UICONTROL Hours]** van het [!DNL Workfront] -item.
+A comment is added to the **[!DNL Workfront]** tab in [!DNL Jira] and to the **[!UICONTROL Updates]** tab of the item in [!DNL Workfront] to record logging the time.\
+The time is also displayed in the **[!UICONTROL Hours]** tab of the [!DNL Workfront] item. 
 
-* [&#x200B; tijd van het Logboek voor Gekoppelde  [!DNL Jira]  en  [!DNL Workfront]  punten &#x200B;](#log-time-for-linked-jira-and-workfront-items)
-* [De tijd van het logboek van  [!DNL Jira]  aan a [!DNL Workfront]  punt](#log-time-from-jira-to-a-workfront-item)
+* [Log time for Linked [!DNL Jira] and [!DNL Workfront] items](#log-time-for-linked-jira-and-workfront-items) 
+* [Log time from [!DNL Jira] to a [!DNL Workfront] item](#log-time-from-jira-to-a-workfront-item)
 
-### Logtijd voor gekoppelde [!DNL Jira] en [!DNL Workfront] items
+### Log time for Linked [!DNL Jira] and [!DNL Workfront] items 
 
-U kunt tijd vastleggen vanuit een [!DNL Jira] -uitgave die is gekoppeld aan een [!DNL Workfront] -item en de tijd wordt zowel op de [!DNL Jira] -uitgave als op het [!DNL Workfront] -item vastgelegd.
+You can log time from a [!DNL Jira] issue linked to a [!DNL Workfront] item, and the time is recorded both on the [!DNL Jira] issue as well as the [!DNL Workfront] item. 
 
 >[!IMPORTANT]
 >
->Als de gebruiker die zich aanmeldt op de tijd in [!DNL Jira] , niet bestaat in [!DNL Workfront] , wordt door de integratie een nieuwe actieve gebruiker in Workfront gemaakt als **[!UICONTROL Automatically create a user in [!DNL Workfront]&#x200B;if the [!DNL Jira] user does not have a* [!DNL Workfront]&#x200B;account]* * is ingesteld op &#x200B;** [!UICONTROL Always]** . Deze gebruiker neemt geen [!DNL Workfront] -licentie in. U kunt actieve gebruikers toewijzen aan werkitems in [!DNL Workfront] , maar u kunt deze gebruikers niet opnemen in updates. Voor informatie over het vormen van de automatische verwezenlijking van [!DNL Workfront] gebruikers van [!DNL Jira], zie [&#x200B; het Vormen  [!DNL Workfront for Jira]](../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md).
+>If the user logging the time in [!DNL Jira] does not exist in [!DNL Workfront], the integration creates a new active user in Workfront if the **[!UICONTROL Automatically create a user in [!DNL Workfront]&#x200B;if the [!DNL Jira] user does not have a* [!DNL Workfront]&#x200B;account]** is set to **[!UICONTROL Always]**. This user does not occupy a [!DNL Workfront] license. You can assign active users to work items in [!DNL Workfront], but you cannot include them in updates. For information about configuring the automatic creation of [!DNL Workfront] users from [!DNL Jira], see [Configuring [!DNL Workfront for Jira]](../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md).
 
-U kunt als volgt de tijd voor een item in [!DNL Jira] vastleggen en deze zowel in [!DNL Jira] als [!DNL Workfront] laten opnemen:
+To log time for an item in [!DNL Jira] and have it recorded both in [!DNL Jira] and [!DNL Workfront]:
 
-1. Meld u aan bij [!DNL Jira] .
-1. Ga naar het [!DNL Jira] -probleem dat aan het [!DNL Workfront] -item is gekoppeld.
-1. Vouw het menu **[!UICONTROL More]** uit en klik op **[!UICONTROL Log work]** .
+1. Log into [!DNL Jira].
+1. Go to the [!DNL Jira] issue which is linked to the [!DNL Workfront] item.
+1. Expand the **[!UICONTROL More]** menu and click **[!UICONTROL Log work]**.
 
-1. Geef in het veld **[!UICONTROL Time Spent]** de hoeveelheid tijd op die u aan dit probleem hebt besteed. U moet de tijd opgeven met de volgende tijdsperiodes:
+1. In the **[!UICONTROL Time Spent]** field, specify the amount of time spent working on this issue. You must specify the time using the following time periods:
 
    * [!UICONTROL Weeks] (w)
    * [!UICONTROL Days] (d)
    * [!UICONTROL Hours] (h)
 
-1. Voeg informatie toe aan uw tijdinvoer, inclusief een **[!UICONTROL Work Description]** en klik vervolgens op **[!UICONTROL Log]** .\
-   De tijd wordt toegevoegd aan het tabblad **[!UICONTROL Work log]** van het [!DNL Jira] -item en aan het [!DNL Workfront] -item dat eraan is gekoppeld.\
-   De werkbeschrijving van de tijdinvoer wordt opgenomen als een opmerking bij het uuritem in [!DNL Workfront] .
+1. Continue adding information to your time entry, including a **[!UICONTROL Work Description]**, then click **[!UICONTROL Log]**.\
+   The time is added to the **[!UICONTROL Work log]** tab of the [!DNL Jira] item, as well as to the [!DNL Workfront] item linked to it.\
+   The work description of the time entry is recorded as a note on the hour entry in [!DNL Workfront]. 
 
-### Logtijd van [!DNL Jira] naar een [!DNL Workfront] -item
+### Log time from [!DNL Jira] to a [!DNL Workfront] item 
 
-U kunt de tijd van het gekoppelde [!DNL Workfront] -item vanuit het [!DNL Jira] -probleem gewoon vastleggen zonder deze keer naar het [!DNL Jira] -probleem op te nemen.
+You can log time just to the linked [!DNL Workfront] item from the [!DNL Jira] issue without recording this time to the [!DNL Jira] issue. 
 
-1. Meld u aan bij [!DNL Jira] .
-1. Navigeer naar een [!DNL Jira] -uitgave die is gekoppeld aan een [!DNL Workfront] -item.
+1. Log into [!DNL Jira].
+1. Navigate to a [!DNL Jira] issue which is linked to a [!DNL Workfront] item.
 
-   De details van het [!DNL Workfront] -item moeten worden weergegeven in het rechterdeelvenster van de uitgave van [!DNL Workfront] .
+   The details of the [!DNL Workfront] item should display in the [!DNL Workfront] right panel of the issue.
 
-1. Klik op het pictogram **[!UICONTROL Log Time]** .
+1. Click the **[!UICONTROL Log Time]** icon.
 
-1. Geef op hoeveel **[!UICONTROL Hours]** en **[!UICONTROL Minutes]** u wilt aanmelden voor de uitgave.
+1. Specify the amount of **[!UICONTROL Hours]** and **[!UICONTROL Minutes]** you want to log for the issue.
 
-1. Klik op **[!UICONTROL Log Time]**.
+1. Click **[!UICONTROL Log Time]**.
 
-   De tijd wordt toegevoegd aan het item [!DNL Workfront] .
+   The time is added to the [!DNL Workfront] item.
 
-   Deze keer wordt niet toegevoegd aan het tabblad [!UICONTROL Work Log] van het [!DNL Jira] -probleem.
+   This time is not added to the [!UICONTROL Work Log] tab of the [!DNL Jira] issue. 
 
-## Opmerking van een gekoppelde [!DNL Jira] uitgave {#comment-from-a-linked-jira-issue}
+## Comment from a linked [!DNL Jira] issue {#comment-from-a-linked-jira-issue}
 
-Wanneer u in het [!DNL Jira] rechterdeelvenster [!DNL Workfront] een opmerking maakt over een [!DNL Jira] -item, wordt de opmerking ook toegevoegd aan het tabblad [!UICONTROL Updates] van het gekoppelde item in Workfront.
+When you comment on a [!DNL Jira] item from the [!DNL Workfront] right panel in [!DNL Jira], the comment is also added to the [!UICONTROL Updates] tab of the linked item in Workfront. 
 
-Opmerkingen van [!DNL Jira] naar een [!DNL Workfront] -item:
+To comment from [!DNL Jira] to a [!DNL Workfront] item:
 
-1. Meld u aan bij [!DNL Jira] .
-1. Navigeer naar een [!DNL Jira] -uitgave die is gekoppeld aan een [!DNL Workfront] -item.
+1. Log into [!DNL Jira].
+1. Navigate to a [!DNL Jira] issue which is linked to a [!DNL Workfront] item.
 
-   De details van het [!DNL Workfront] -item moeten worden weergegeven in het rechterdeelvenster van de uitgave van [!DNL Workfront] .
+   The details of the [!DNL Workfront] item should display in the [!DNL Workfront] right panel of the issue.
 
-1. Klik op het pictogram **[!UICONTROL Comments]** in het deelvenster [!DNL Workfront] of op de tab **[!UICONTROL Comments]** .
+1. Click the **[!UICONTROL Comments]** icon in the [!DNL Workfront] panel or on the **[!UICONTROL Comments]** tab.
 
-1. Typ een opmerking en klik op **[!UICONTROL Send]** .
+1. Start typing a comment, then click **[!UICONTROL Send]**.
 
-   De opmerking wordt toegevoegd aan het volgende:
+   The comment is added to the following:
 
-   * Het tabblad **[!DNL Workfront]** van het [!DNL Jira] -probleem.
-   * Het tabblad **[!UICONTROL Comments]** van het [!DNL Jira] -probleem.
-   * Het tabblad **[!UICONTROL Updates]** van het gekoppelde item in Workfront.
+   * The **[!DNL Workfront]** tab of the [!DNL Jira] issue.
+   * The **[!UICONTROL Comments]** tab of the [!DNL Jira] issue.
+   * The **[!UICONTROL Updates]** tab of the linked item in Workfront.
+
+-->

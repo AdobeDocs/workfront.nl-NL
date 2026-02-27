@@ -7,9 +7,9 @@ description: U kunt  [!DNL Adobe Workfront]  voor Google Workspace toe:voegen-op
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: eb11d62d-86ed-49fc-8bbc-6f04eb30865d
-source-git-commit: 1e5b3c7d087c34870ccb0f4e65021358f08b81bf
+source-git-commit: 228fd22f1894689c0d256270350cc82954901641
 workflow-type: tm+mt
-source-wordcount: '248'
+source-wordcount: '131'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Om stabielere en scalable integratie te leveren, verschuiven wij naar een moderne, flexibele integratiebenadering gebruikend Workfront Automation and Integration (Fusion). Als deel van dit overgangsproces, zal volgende Workfront voor de functionaliteit van Google Workspace niet beschikbaar na **28 Februari, 2026** zijn:
+>Om stabielere en scalable integratie te leveren, zijn wij op een moderne, flexibele integratiebenadering verschoven gebruikend Workfront Automation and Integration (Fusion). Als deel van dit overgangsproces, is de volgende Workfront voor de functionaliteit van Google Workspace **niet meer beschikbaar**:
 >
 >* Google Workspace-functionaliteit openen vanuit Workfront
 >
@@ -26,44 +26,48 @@ ht-degree: 0%
 >
 >We raden u aan Workfront Automation and Integration te gebruiken voor de integratiebehoeften van uw organisatie met Google Workspace.
 >
->Voor een overzicht van de Automatisering en de Integratie van Workfront, zie [&#x200B; het overzicht van de Fusie van Adobe Workfront &#x200B;](https://experienceleague.adobe.com/nl/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+>Voor een overzicht van de Automatisering en de Integratie van Workfront, zie [ het overzicht van de Fusie van Adobe Workfront ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 >
->Voor informatie over de specifieke mogelijkheden van de modules van de Automatisering en van de Integratie van Workfront voor Google Workspace, zie [&#x200B; modules van Gmail &#x200B;](https://experienceleague.adobe.com/nl/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/gmail-modules) en [&#x200B; modules van de Kalender van Google &#x200B;](https://experienceleague.adobe.com/nl/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-calendar-modules).
+>Voor informatie over de specifieke mogelijkheden van de modules van de Automatisering en van de Integratie van Workfront voor Google Workspace, zie [ modules van Gmail ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/gmail-modules) en [ modules van de Kalender van Google ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-calendar-modules).
 
-U kunt de invoegtoepassing [!DNL Adobe Workfront for Google Workspace] installeren vanaf de Marketplace van [!DNL Google Workspace] .
+<!--
 
-## Toegangsvereisten
+You can install the [!DNL Adobe Workfront for Google Workspace] add-on from the [!DNL Google Workspace] Marketplace.
 
-+++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
+## Access requirements
+
++++ Expand to view access requirements for the functionality in this article.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-pakket</td> 
-   <td> <p>Alle</p> </td> 
+   <td role="rowheader">Adobe Workfront package</td> 
+   <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie</td> 
-   <td> <p>Standard</p><p>Werk of hoger</p>
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> <p>Standard</p><p>Work or higher</p>
   </tr> 
  </tbody> 
 </table>
 
-Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 +++
 
-## Installeren [!DNL Workfront for Google Workspace]
+## Install [!DNL Workfront for Google Workspace]
 
-1. Klik op de volgende koppeling: [[!DNL Workfront for Google Workspace] &#x200B;](https://workspace.google.com/marketplace/app/adobe_workfront/811980987828)
+1. Click the following link: [[!DNL Workfront for Google Workspace]](https://workspace.google.com/marketplace/app/adobe_workfront/811980987828)
 
-   of
+   Or
 
-   Klik op het pictogram met het plusteken in de zijbalk met invoegtoepassingen uiterst rechts van een [!DNL Google Workspace] app ([!DNL Google Workspace] , [!DNL Gmail] of [!DNL Google Calendar] ). [!DNL Google Drive] Zoek naar *[!DNL Workfront for Google Workspace]* en klik vervolgens op het app-item [!DNL Workfront for Google Workspace] dat wordt weergegeven.
+   Click the plus sign icon in the [!DNL Google Workspace] add-ons sidebar at the far-right of a [!DNL Google Workspace] app ([!DNL Gmail], [!DNL Google Calendar], or [!DNL Google Drive]). Search for *[!DNL Workfront for Google Workspace]*, then click the [!DNL Workfront for Google Workspace] app item that appears.
 
-1. Klik op **[!UICONTROL Install]** en volg de aanwijzingen die worden weergegeven.
-1. (Voorwaardelijk) in uw [!DNL Google Workspace] app, als u niet het [!DNL Workfront] pictogram ![&#x200B; pictogram van Workfront &#x200B;](assets/wf-lion-icon.png) in [!DNL Google Workspace] toe:voegen-ons sidebar bij uiterst rechts van de pagina ziet, vernieuw de pagina.
+1. Click **[!UICONTROL Install]**, then follow the prompts that appear.
+1. (Conditional) In your [!DNL Google Workspace] app, if you don't see the [!DNL Workfront] icon ![Workfront icon](assets/wf-lion-icon.png) in the [!DNL Google Workspace] add-ons sidebar at the far-right of the page, refresh the page.
 
-Voor informatie over het registreren binnen, zie [&#x200B; Login en uit van  [!DNL Adobe Workfront for Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/log-in-and-out-wf-for-gsuite.md).
+For information about logging in, see [Log in and out of [!DNL Adobe Workfront for Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/log-in-and-out-wf-for-gsuite.md).
+
+-->

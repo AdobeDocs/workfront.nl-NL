@@ -6,10 +6,10 @@ description: Om app te installeren alvorens het in  [!DNL Salesforce]  AppExchan
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 4fea9d8f-7729-4fee-86d3-1a986be29f74
-source-git-commit: dc72ef4a3c5d55c418330af984f146f61f202d84
+source-git-commit: 6af620284ed9c710196d8976a9f6cac1b3b36cf1
 workflow-type: tm+mt
-source-wordcount: '921'
-ht-degree: 1%
+source-wordcount: '109'
+ht-degree: 0%
 
 ---
 
@@ -19,227 +19,230 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->Om stabielere en scalable integratie te leveren, verschuiven wij naar een moderne, flexibele integratiebenadering gebruikend Workfront Automation and Integration (Fusion). Als deel van dit overgangsproces, zal Workfront voor de integratie van Salesforce niet beschikbaar na **28 Februari, 2026** zijn.
+>Om stabielere en scalable integratie te leveren, zijn wij op een moderne, flexibele integratiebenadering verschoven gebruikend Workfront Automation and Integration (Fusion). Als deel van dit overgangsproces, is Workfront voor de integratie van Salesforce **niet meer beschikbaar**.
 >
 >We raden u aan Workfront Automation and Integration te gebruiken voor de integratiebehoeften van uw organisatie met Salesforce.
 >
->Voor een overzicht van de Automatisering en de Integratie van Workfront, zie [&#x200B; het overzicht van de Fusie van Adobe Workfront &#x200B;](https://experienceleague.adobe.com/nl/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+>Voor een overzicht van de Automatisering en de Integratie van Workfront, zie [ het overzicht van de Fusie van Adobe Workfront ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 >
->Voor informatie over de specifieke mogelijkheden van de modules van de Automatisering en van de Integratie van Workfront voor Salesforce, zie [&#x200B; modules van Salesforce &#x200B;](https://experienceleague.adobe.com/nl/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/salesforce-modules).
+>Voor informatie over de specifieke mogelijkheden van de modules van de Automatisering en van de Integratie van Workfront voor Salesforce, zie [ modules van Salesforce ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/salesforce-modules).
 
-Als [!DNL Salesforce] - en [!DNL Adobe Workfront] beheerder kunt u [!DNL Workfront for Salesforce] installeren zodat [!DNL Salesforce] -gebruikers [!DNL Workfront] -aanvragen kunnen verzenden en automatisch projecten kunnen maken zonder Salesforce te verlaten.
+<!--
 
-Voor algemeen begrip over wat u kunt verwachten door [!DNL Workfront for Salesforce] te installeren, zie [[!DNL Adobe Workfront for Salesforce]  overzicht &#x200B;](../../workfront-integrations-and-apps/using-workfront-with-salesforce/workfront-for-salesforce-overview.md).
+As a [!DNL Salesforce] and [!DNL Adobe Workfront] administrator, you can install [!DNL Workfront for Salesforce] to allow your [!DNL Salesforce] users to submit [!DNL Workfront] requests and automatically create projects without ever leaving Salesforce.
 
-* [Vereisten voor het Installeren en het Gebruiken  [!DNL Workfront for Salesforce]](#prerequisites-for-installing-and-using-workfront-for-salesforce)
-* [Installeren  [!DNL Workfront for Salesforce]](#installing-workfrontfor-salesforce)
+For a general understanding about what you can expect by installing [!DNL Workfront for Salesforce], see [[!DNL Adobe Workfront for Salesforce] overview](../../workfront-integrations-and-apps/using-workfront-with-salesforce/workfront-for-salesforce-overview.md).
+
+* [Prerequisites for Installing and Using [!DNL Workfront for Salesforce]](#prerequisites-for-installing-and-using-workfront-for-salesforce)
+* [Installing [!DNL Workfront for Salesforce]](#installing-workfrontfor-salesforce)
 
 >[!NOTE]
 >
->De meest recente versie van deze integratie is uitgebracht op 30 oktober 2025.
+>The most recent version of this integration was released October 30, 2025.
 
-## Toegangsvereisten
+## Access requirements
 
-+++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
++++ Expand to view access requirements for the functionality in this article.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-pakket</td> 
-   <td> <p>Alle</p> </td> 
+   <td role="rowheader">Adobe Workfront package</td> 
+   <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td role="rowheader">Adobe Workfront license</td> 
    <td> <p>Standard</p>
    <p>Plan</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 +++
 
-## Vereisten voor installatie en gebruik [!DNL Workfront for Salesforce] {#prerequisites-for-installing-and-using-workfront-for-salesforce}
+## Prerequisites for Installing and Using [!DNL Workfront for Salesforce] {#prerequisites-for-installing-and-using-workfront-for-salesforce}
 
-* U moet een [!DNL Salesforce] -instantie hebben met toegang tot een systeembeheerder-account om de app te installeren.
-* U moet een [!DNL Workfront] -instantie hebben met toegang tot een systeembeheerder-account om de integratie te configureren.
-* [!UICONTROL Salesforce] gebruikers moeten een [!DNL Workfront] -account hebben om het volgende te kunnen doen:
+* You must have a [!DNL Salesforce] instance with access to a system administrator account in order to install the app.
+* You must have a [!DNL Workfront] instance with access to a system administrator account in order to configure the integration.
+* [!UICONTROL Salesforce] users must have a [!DNL Workfront] account in order to be able to:
 
-   * [!DNL Workfront] aanvragen maken van [!DNL Salesforce]
-   * [!DNL Workfront] aanvragen of projecten weergeven in Salesforce
+    * Create [!DNL Workfront] requests from [!DNL Salesforce]
+    * View [!DNL Workfront] requests or projects in Salesforce
 
-## Installeren [!DNL Workfront for Salesforce]  {#installing-workfront-for-salesforce}
+## Installing [!DNL Workfront for Salesforce]  {#installing-workfront-for-salesforce}
 
-U moet een [!DNL Salesforce] - en [!DNL Workfront] -systeembeheerder zijn om [!DNL Workfront for Salesforce] te installeren en configureren.
+You must be a [!DNL Salesforce] and a [!DNL Workfront] system administrator to install and configure [!DNL Workfront for Salesforce]. 
 
-In de volgende subsecties wordt beschreven hoe u [!DNL Workfront] kunt installeren voor uw [!DNL Salesforce] productieomgeving. U kunt dezelfde stappen volgen om [!DNL Workfront] voor uw [!DNL Salesforce] Sandbox-omgeving te installeren.
+The following subsections describe how to install [!DNL Workfront] for your [!DNL Salesforce] Production environment. You can follow the same steps to install [!DNL Workfront] for your [!DNL Salesforce] Sandbox environment.
 
-* [Het installeren van  [!DNL Workfront for Salesforce]  alvorens het in  [!DNL AppExchange]  Marketplace beschikbaar wordt](#installing-workfront-for-salesforce-before-it-becomes-available-in-the-appexchange-marketplace)
-* [Het installeren van  [!DNL Workfront for Salesforce]  in het  [!DNL Salesforce Classic]  Kader](#installing-workfront-for-salesforce-in-the-salesforce-classic-framework)
-* [Het installeren van  [!DNL Workfront for Salesforce]  in het  [!DNL Salesforce Lightning Experience]  Kader](#installing-workfront-for-salesforce-in-the-salesforce-lightning-experience-framework)
+* [Installing [!DNL Workfront for Salesforce] before It Becomes Available in the [!DNL AppExchange] Marketplace](#installing-workfront-for-salesforce-before-it-becomes-available-in-the-appexchange-marketplace)
+* [Installing [!DNL Workfront for Salesforce] in the [!DNL Salesforce Classic] Framework](#installing-workfront-for-salesforce-in-the-salesforce-classic-framework)
+* [Installing [!DNL Workfront for Salesforce] in the [!DNL Salesforce Lightning Experience] Framework](#installing-workfront-for-salesforce-in-the-salesforce-lightning-experience-framework)
 
-### [!DNL Workfront for Salesforce] installeren voordat deze beschikbaar wordt in de [!DNL AppExchange] Marketplace {#installing-workfront-for-salesforce-before-it-becomes-available-in-the-appexchange-marketplace}
+### Installing [!DNL Workfront for Salesforce] before It Becomes Available in the [!DNL AppExchange] Marketplace {#installing-workfront-for-salesforce-before-it-becomes-available-in-the-appexchange-marketplace}
 
-[!DNL Workfront for Salesforce] is binnenkort beschikbaar in [!DNL Salesforce AppExchange] .
+[!DNL Workfront for Salesforce] will be available in the [!DNL Salesforce AppExchange] soon.
 
-U kunt als volgt de app installeren voordat deze beschikbaar is:
+To install the app before it's available:
 
-1. Ga in uw productieomgeving naar
+1. In your Production environment, go to
 
-   [&#x200B; https://login.salesforce.com/packaging/installPackage.apexp?p0=04tJ9000000HCqp](https://login.salesforce.com/packaging/installPackage.apexp?p0=04tJ9000000HCqp)
+   [https://login.salesforce.com/packaging/installPackage.apexp?p0=04tJ9000000HCqp](https://login.salesforce.com/packaging/installPackage.apexp?p0=04tJ9000000HCqp)
 
-   Ga in uw Sandbox-omgeving naar
+   In your Sandbox environment, go to
 
-   [&#x200B; https://test.salesforce.com/packaging/installPackage.apexp?p0=04tJ9000000HCqp](https://test.salesforce.com/packaging/installPackage.apexp?p0=04tJ9000000HCqp)
+   [https://test.salesforce.com/packaging/installPackage.apexp?p0=04tJ9000000HCqp](https://test.salesforce.com/packaging/installPackage.apexp?p0=04tJ9000000HCqp)
 
    >[!NOTE]
    >
-   >U moet zijn aangemeld bij Salesforce om deze pagina&#39;s te openen.
+   >You must be logged into Salesforce to access these pages.
 
-1. Schakel het selectievakje **[!UICONTROL Yes, grant access to these third-party web sites]** in.
+1. Check the **[!UICONTROL Yes, grant access to these third-party web sites]** box.
 
-   Er wordt een laadscherm weergegeven. De installatie kan enige tijd duren.
+   A loading screen displays. The installation may take some time.
 
-1. Klik op **[!UICONTROL Done]** wanneer de installatie is voltooid.
+1. Click **[!UICONTROL Done]** when the installation completes.
 
-1. Ga naar **[!UICONTROL Setup]** > **[!UICONTROL Security]Besturingselementen** > **[!UICONTROL Remote Site Settings]** .
-1. (Voorwaardelijk) Selecteer Workfront in de lijst.
+1. Navigate to **[!UICONTROL Setup]** > **[!UICONTROL Security] Controls** > **[!UICONTROL Remote Site Settings]**.
+1. (Conditional) Select Workfront from the list.
+    
+    Or
+    
+    If you do not see your [!DNL Workfront] URL listed in the **[!UICONTROL All Remote Sites]** list, click **[!UICONTROL New Remote Site]**.
 
-   of
+1. (Conditional) If adding the site, specify the **[!UICONTROL Remote Site Name]**.
 
-   Als de [!DNL Workfront] URL niet wordt weergegeven in de lijst **[!UICONTROL All Remote Sites]** , klikt u op **[!UICONTROL New Remote Site]** .
+   For example, *[!DNL Workfront]*.
 
-1. (Voorwaardelijk) Geef bij het toevoegen van de site de waarde **[!UICONTROL Remote Site Name]** op.
+1. (Conditional) If adding the site, specify the **[!UICONTROL Remote Site URL]**.
 
-   Bijvoorbeeld *[!DNL Workfront]* .
+   For example, *yourDomain.my.workfront.com*.
 
-1. (Voorwaardelijk) Geef bij het toevoegen van de site de waarde **[!UICONTROL Remote Site URL]** op.
+1. Click **[!UICONTROL Save]**.
 
-   Bijvoorbeeld, *yourDomain.my.workfront.com*.
+   The [!DNL Workfront] app is now installed on your [!DNL Salesforce] instance and the **[!UICONTROL WorkfrontOpportunities]** and **[!UICONTROL WorkfrontAccounts]** [!UICONTROL Visualforce] Pages have been created in your environment.
 
-1. Klik op **[!UICONTROL Save]**.
+   [!DNL Salesforce] users can use the app once you add the [!DNL Workfront] section to their [!UICONTROL Opportunity] or [!UICONTROL Account] page layouts.\
+   For information about configuring the Workfront section for users, see [Configure the Adobe Workfront section for Salesforce users](../../workfront-integrations-and-apps/using-workfront-with-salesforce/configure-wf-section-for-salesforce-users.md).
 
-   De [!DNL Workfront] -app is nu geïnstalleerd op uw [!DNL Salesforce] -instantie en de **[!UICONTROL WorkfrontOpportunities]** - en **[!UICONTROL WorkfrontAccounts]** [!UICONTROL Visualforce] -pagina&#39;s zijn gemaakt in uw omgeving.
+### Installing [!DNL Workfront] for [!DNL Salesforce] in the [!DNL Salesforce Classic] Framework 
 
-   [!DNL Salesforce] -gebruikers kunnen de app gebruiken nadat u de sectie [!DNL Workfront] aan hun [!UICONTROL Opportunity] - of [!UICONTROL Account] -paginalay-outs hebt toegevoegd.\
-   Voor informatie over het vormen van de sectie van Workfront voor gebruikers, zie [&#x200B; de sectie van Adobe Workfront voor de gebruikers van Salesforce &#x200B;](../../workfront-integrations-and-apps/using-workfront-with-salesforce/configure-wf-section-for-salesforce-users.md) vormen.
+1. Log in to [!DNL Salesforce] as a system administrator.
+1. Go to **Setup.**
+1. In the **Build** section, click **AppExchange Marketplace**.
 
-### [!DNL Workfront] for [!DNL Salesforce] installeren in het [!DNL Salesforce Classic] framework
+1. In the **Search AppExchange Apps** box, type **Workfront**.
 
-1. Meld u aan bij [!DNL Salesforce] als systeembeheerder.
-1. Ga naar **Opstelling.**
-1. In de **bouwt** sectie, klik **de Marketplace van AppExchange**.
+1. Click the Workfront app when you find it, then click **Get It Now**.
+1. Click **[!UICONTROL Install in Production]** to install the [!DNL Workfront] app in your [!DNL Salesforce] Production environment. (recommended)
+1. After you have read and agreed with the terms and conditions, enable the **[!UICONTROL I have read and agree to the terms and conditions]** field.
+1. Click **[!UICONTROL Confirm and Install]**.
+1. Select **[!UICONTROL Install for All Users]** (recommended), then click **[!UICONTROL Install]**. 
 
-1. In het **Onderzoek AppExchange Apps** vakje, type **Workfront**.
+1. (Conditional) If asked if you want to approve a third party access, you must select **[!UICONTROL Yes, grant access to these third-party web sites]**, then click **[!UICONTROL Continue]**. 
 
-1. Klik Workfront app wanneer u het vindt, dan klik **krijgt het** nu.
-1. Klik op **[!UICONTROL Install in Production]** om de [!DNL Workfront] -toepassing in uw [!DNL Salesforce] productieomgeving te installeren. (aanbevolen)
-1. Nadat u de voorwaarden hebt gelezen en ermee akkoord gaat, schakelt u het veld **[!UICONTROL I have read and agree to the terms and conditions]** in.
-1. Klik op **[!UICONTROL Confirm and Install]**.
-1. Selecteer **[!UICONTROL Install for All Users]** (aanbevolen) en klik op **[!UICONTROL Install]** .
+1. Click **[!UICONTROL Done]** when the installation completes. 
 
-1. (Voorwaardelijk) Als u wordt gevraagd of u een toegang van derden wilt goedkeuren, moet u **[!UICONTROL Yes, grant access to these third-party web sites]** selecteren en vervolgens op **[!UICONTROL Continue]** klikken.
-
-1. Klik op **[!UICONTROL Done]** wanneer de installatie is voltooid.
-
-   De app [!DNL Workfront] wordt weergegeven onder **[!UICONTROL Installed Packages]** .
-
-
-1. Ga naar **[!UICONTROL Setup>Security Controls>Remote Site Settings]**.
-1. (Voorwaardelijk) Als de [!DNL Workfront] URL niet wordt weergegeven in de lijst **[!UICONTROL All Remote Sites]** , klikt u op **[!UICONTROL New Remote Site]** .
-
-1. (Voorwaardelijk) Geef bij het toevoegen van de site de waarde **[!UICONTROL Remote Site Name]** op.
-Bijvoorbeeld *[!DNL Workfront]* .
-
-1. (Voorwaardelijk) Geef bij het toevoegen van de site de waarde **[!UICONTROL Remote Site URL]** op.
-Bijvoorbeeld, *yourDomain.my.workfront.com*.
-
-1. Klik op **[!UICONTROL Save]**.\
-   De [!DNL Workfront] -app is nu geïnstalleerd op uw [!DNL Salesforce] -instantie. De **[!UICONTROL WorkfrontOpportunities]** - en **[!UICONTROL WorkfrontAccounts]** [!UICONTROL Visualforce] -pagina&#39;s zijn gemaakt in uw omgeving.\
-   [!DNL Salesforce] -gebruikers kunnen de app nog niet gebruiken totdat u de sectie [!DNL Workfront] toevoegt aan hun [!UICONTROL Opportunity] - of [!UICONTROL Account] -paginalay-outs.\
-   Voor informatie over het vormen van de [!DNL Workfront] sectie voor gebruikers, zie [&#x200B; de  [!DNL Adobe Workfront]  sectie voor  [!DNL Salesforce]  gebruikers &#x200B;](../../workfront-integrations-and-apps/using-workfront-with-salesforce/configure-wf-section-for-salesforce-users.md) vormen.
-
-### [!DNL Workfront for Salesforce] installeren in het [!DNL Salesforce Lightning Experience] Framework
-
-1. Meld u aan bij [!DNL Salesforce] als systeembeheerder.
-1. Klik op het pictogram **[!UICONTROL Setup]** en klik vervolgens op **[!UICONTROL Setup]** .
-
-1. Vouw **[!UICONTROL PLATFORM TOOLS]** uit in de sectie **[!UICONTROL Apps].**
-
-1. Klik op **[!DNL AppExchange Marketplace]**.
-1. Typ **[!UICONTROL Search [!DNL AppExchange] Apps]** in het vak **[!DNL Workfront]** .
-
-1. Klik Workfront app wanneer u het vindt, dan klik **krijgt het** nu.
-1. Klik op **[!UICONTROL Open Login Screen]**.\
-   U moet zich aanmelden met uw [!DNL Workfront] beheerdersaccount voor [!DNL Salesforce] .
-
-1. Klik op **[!UICONTROL Allow]**.
-1. Klik in het vak **[!UICONTROL Install in This Org]** op **[!UICONTROL Install Here]** om [!DNL Workfront] te installeren in de [!DNL Salesforce] productieomgeving. (aanbevolen)
-
-1. Nadat u de voorwaarden hebt gelezen en ermee akkoord gaat, schakelt u het veld **[!UICONTROL I have read and agree to the terms and conditions]** in.
-1. Klik op **[!UICONTROL Confirm and Install]**.
-1. Selecteer **[!UICONTROL Install for All Users]** (aanbevolen) en klik op **[!UICONTROL Install]** .
-
-1. (Voorwaardelijk) Als u wordt gevraagd of u een toegang van derden wilt goedkeuren, moet u **[!UICONTROL Yes, grant access to these third-party web sites]** selecteren en vervolgens op **[!UICONTROL Continue]** klikken.
-
-1. Klik op **[!UICONTROL Done]** wanneer de installatie is voltooid.
-
-   De app [!DNL Workfront] wordt weergegeven onder **[!UICONTROL Installed Packages]** .
-
-1. Ga naar **[!UICONTROL Setup].**
-1. Vouw **[!UICONTROL SETTINGS]** uit in de sectie **[!UICONTROL Security].**
-
-1. Klik op **[!UICONTROL Remote Site Settings]**.
-1. (Voorwaardelijk) Als de [!DNL Workfront] URL niet wordt weergegeven in de lijst **[!UICONTROL All Remote Sites]** , klikt u op **[!UICONTROL New Remote Site]** .
-
-1. (Voorwaardelijk) Geef bij het toevoegen van de site de waarde **[!UICONTROL Remote Site Name]** op.
-Bijvoorbeeld *[!DNL Workfront]* .
-
-1. (Voorwaardelijk) Geef bij het toevoegen van de site de waarde **[!UICONTROL Remote Site URL]** op.
-Bijvoorbeeld, *yourDomain.my.workfront.com*.
-
-1. Klik op **[!UICONTROL Save]**.
-
-   De [!DNL Workfront] -app is nu geïnstalleerd op uw [!DNL Salesforce] -instantie en de **[!DNL Workfront]** -component wordt nu toegevoegd aan uw omgeving.
-
-   [!UICONTROL Salesforce] -gebruikers kunnen de [!DNL Workfront] -app gebruiken nadat u de [!DNL Workfront] -sectie hebt toegevoegd aan hun [!UICONTROL Opportunity] - of [!UICONTROL Account] -paginalay-outs.\
-   Voor informatie over het vormen van de [!DNL Workfront] sectie voor gebruikers, zie [&#x200B; de  [!DNL Adobe Workfront]  sectie voor  [!DNL Salesforce]  gebruikers &#x200B;](../../workfront-integrations-and-apps/using-workfront-with-salesforce/configure-wf-section-for-salesforce-users.md) vormen.
-
-## Machtigingen configureren voor de integratie van Workfront for Salesforce
-
-### Machtigingen voor `workfront_business`
-
-1. Navigeer aan **Opstelling** > **Veiligheid** > **Vertrouwde URLs**.
-1. Selecteer `workfront_business` in de lijst.
-1. Klik **uitgeven**.
-1. Controleer onder CSP-richtlijnen de volgende opties:
-
-   * connect-src (scripts)
-   * font-src (fonts)
-   * frame-src (iframe-inhoud)
-   * img-src (afbeeldingen)
-   * media-src (audio en video)
-   * style-src (opmaakmodellen)
-
-1. Klik **sparen**.
+   The [!DNL Workfront] app is listed under **[!UICONTROL Installed Packages]**.
 
 
-### Machtigingen voor workfront_session
+1. Navigate to **[!UICONTROL Setup>Security Controls>Remote Site Settings]**.
+1. (Conditional) If you do not see your [!DNL Workfront] URL listed in the **[!UICONTROL All Remote Sites]** list, click **[!UICONTROL New Remote Site]**.
 
-1. Navigeer aan **Opstelling** > **Veiligheid** > **Vertrouwde URLs**.
-1. Selecteer `workfront_session` in de lijst.
-1. Klik **uitgeven**.
-1. Controleer onder CSP-richtlijnen de volgende opties:
+1. (Conditional) If adding the site, specify the **[!UICONTROL Remote Site Name]**.
+   For example, *[!DNL Workfront]*.
+
+1. (Conditional) If adding the site, specify the **[!UICONTROL Remote Site URL]**.
+   For example, *yourDomain.my.workfront.com*.
+
+1. Click **[!UICONTROL Save]**.\
+   The [!DNL Workfront] app is now installed on your [!DNL Salesforce] instance. The **[!UICONTROL WorkfrontOpportunities]** and **[!UICONTROL WorkfrontAccounts]** [!UICONTROL Visualforce] pages have been created in your environment.\
+   [!DNL Salesforce] users cannot yet use the app until you add the [!DNL Workfront] section to their [!UICONTROL Opportunity] or [!UICONTROL Account] page layouts.\
+   For information about configuring the [!DNL Workfront] section for users, see [Configure the [!DNL Adobe Workfront] section for [!DNL Salesforce] users](../../workfront-integrations-and-apps/using-workfront-with-salesforce/configure-wf-section-for-salesforce-users.md).
+
+### Installing [!DNL Workfront for Salesforce] in the [!DNL Salesforce Lightning Experience] Framework  
+
+1. Log in to [!DNL Salesforce] as a system administrator.
+1. Click the **[!UICONTROL Setup] icon**, then click **[!UICONTROL Setup]**.
+
+1. In the **[!UICONTROL PLATFORM TOOLS]** section, expand **[!UICONTROL Apps].**
+
+1. Click **[!DNL AppExchange Marketplace]**.
+1. In the **[!UICONTROL Search [!DNL AppExchange] Apps]** box, type **[!DNL Workfront]**.
+
+1. Click the Workfront app when you find it, then click **Get It Now**.
+1. Click **[!UICONTROL Open Login Screen]**.\
+   You must sign in with your [!DNL Workfront] administrator account for [!DNL Salesforce].
+
+1. Click **[!UICONTROL Allow]**.
+1. In the **[!UICONTROL Install in This Org]** box, click **[!UICONTROL Install Here]** to install [!DNL Workfront] in your [!DNL Salesforce] Production environment. (recommended)
+
+1. After you have read and agreed with the terms and conditions, enable the **[!UICONTROL I have read and agree to the terms and conditions]** field.
+1. Click **[!UICONTROL Confirm and Install]**.
+1. Select **[!UICONTROL Install for All Users]** (recommended), then click **[!UICONTROL Install]**. 
+
+1. (Conditional) If asked if you want to approve a third party access, you must select **[!UICONTROL Yes, grant access to these third-party web sites]**, then click **[!UICONTROL Continue]**.
+
+1. Click **[!UICONTROL Done]** when the installation completes. 
+
+   The [!DNL Workfront] app is listed under **[!UICONTROL Installed Packages]**.
+
+1. Navigate to **[!UICONTROL Setup].**
+1. In the **[!UICONTROL SETTINGS]** section, expand **[!UICONTROL Security].**
+
+1. Click **[!UICONTROL Remote Site Settings]**.
+1. (Conditional) If you do not see your [!DNL Workfront] URL listed in the **[!UICONTROL All Remote Sites]** list, click **[!UICONTROL New Remote Site]**.
+
+1. (Conditional) If adding the site, specify the **[!UICONTROL Remote Site Name]**.
+   For example, *[!DNL Workfront]*.
+
+1. (Conditional) If adding the site, specify the **[!UICONTROL Remote Site URL]**.
+   For example, *yourDomain.my.workfront.com*.
+
+1. Click **[!UICONTROL Save]**.
+
+   The [!DNL Workfront] app is now installed on your [!DNL Salesforce] instance, and the **[!DNL Workfront]** component is now added to your environment.
+
+      [!UICONTROL Salesforce] users can use the [!DNL Workfront] app once you add the [!DNL Workfront] section to their [!UICONTROL Opportunity] or [!UICONTROL Account] page layouts.\
+   For information about configuring the [!DNL Workfront] section for users, see [Configure the [!DNL Adobe Workfront] section for [!DNL Salesforce] users](../../workfront-integrations-and-apps/using-workfront-with-salesforce/configure-wf-section-for-salesforce-users.md). 
+
+## Configure permissions for the Workfront for Salesforce integration
+
+### Permissions for `workfront_business`
+
+1. Navigate to **Setup** > **Security** > **Trusted URLs**.
+1. Select `workfront_business` from the list.
+1. Click **Edit**. 
+1. Under CSP Directives check the following options:
 
    * connect-src (scripts)
    * font-src (fonts)
-   * frame-src (iframe-inhoud)
-   * img-src (afbeeldingen)
-   * media-src (audio en video)
-   * style-src (opmaakmodellen)
+   * frame-src (iframe content)
+   * img-src (images)
+   * media-src (audio and video)
+   * style-src (stylesheets)
 
-1. Klik **sparen**.
+1. Click **Save**. 
 
+
+### Permissions for workfront_session
+
+1. Navigate to **Setup** > **Security** > **Trusted URLs**.
+1. Select `workfront_session` from the list.
+1. Click **Edit**.
+1. Under CSP Directives check the following options:
+
+   * connect-src (scripts)
+   * font-src (fonts)
+   * frame-src (iframe content)
+   * img-src (images)
+   * media-src (audio and video)
+   * style-src (stylesheets)
+
+1. Click **Save**. 
+
+-->
