@@ -5,9 +5,9 @@ author: Alina
 feature: Workfront Planning
 role: User, Admin
 exl-id: fcad60b2-05e8-4774-8135-129bc1d3f9ce
-source-git-commit: 61c6bc0770416e02390f4e3de869d9e2565897d4
+source-git-commit: ce3ca4d55fd3fe0630da4961f27159fe5e31612a
 workflow-type: tm+mt
-source-wordcount: '2122'
+source-wordcount: '2168'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ De Planning van Adobe Workfront verstrekt gecentraliseerde zichtbaarheid in uw m
 
 >[!IMPORTANT]
 >
->* Adobe Workfront biedt een gratis proefperiode van 60 dagen voor Adobe Workfront Planning.
+>* Adobe Workfront biedt een gratis proefversie van 60 dagen van Adobe Workfront Planning aan alle klanten van Adobe Workfront die niet ook klanten van Workfront Planning zijn.
 >
 >* De proef is beschikbaar tussen de volgende data: 2 maart - 1 mei 2026.
 >
@@ -60,7 +60,7 @@ Uw bedrijf moet aan de volgende vereisten voldoen om aan de gratis proefversie v
    * Ultimate
 
   De Workfront Planning-test is niet beschikbaar voor de oudere Workfront-pakketten.
-Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 * Toegang hebben tot de Adobe Admin Console
 * Maakt deel uit van het Identity Management System (IMS)
 * Accepteer de juridische evaluatieovereenkomst die beschikbaar is in het Workfront-exemplaar van uw organisatie tussen 26 januari en 1 april 2026. U moet een Workfront-beheerder zijn om de proefovereenkomst te accepteren.
@@ -69,15 +69,15 @@ Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van W
 
 De volgende belangrijke datums zijn gekoppeld aan de gratis proefversie van Adobe Workfront Planning:
 
-* **Januari 26, 2026**: De vrije proefbanners van de Planning van Workfront werden vrijgegeven aan klanten van Workfront. De banners bevatten het volgende:
+* **Januari 26, 2026**: De vrije proefbanners van de Planning van Workfront werden vrijgegeven aan klanten van Workfront. De banners omvatten het volgende:
    * Een koppeling naar dit document.
    * Het venster voor acceptatie van de proefovereenkomst. Alleen een Workfront-beheerder kan de overeenkomst accepteren. U kunt de proefovereenkomst op elk moment accepteren vanaf deze datum.
 * **Maart 2, 2026**: De gestarte test van de Planning van Workfront.
 
   Met de start van de proefversie worden de volgende items toegevoegd aan uw Workfront-exemplaar:
 
-   * De banners van de Planning van Workfront blijven voor alle gebruikers tonen.
-   * De **proefovereenkomst van het Overzicht** voorkeur wordt toegevoegd aan het **3&rbrace; gebied van de Opstelling.**
+   * De banners van de Planning van Workfront blijven voor alle gebruikers tonen. Een koppeling naar dit document wordt opgenomen in de banners.
+   * De **proefovereenkomst van het Overzicht** voorkeur wordt toegevoegd aan het **3} gebied van de Opstelling.**
 
   De volgende scenario&#39;s bestaan:
 
@@ -87,13 +87,14 @@ De volgende belangrijke datums zijn gekoppeld aan de gratis proefversie van Adob
   >
   >Het gebied van de Planning toont in het Belangrijkste Menu voor alle gebruikers in het systeem, ongeacht hun de vergunningstype van Workfront.
 
-   * Als uw Workfront-beheerder de overeenkomst vóór deze datum niet heeft geaccepteerd, moet hij deze eerst accepteren voordat u toegang hebt tot Workfront Planning.
+   * Als uw Workfront-beheerder de overeenkomst vóór deze datum niet heeft geaccepteerd, worden de banners die de evaluatieprogramma&#39;s voor de planning bekendmaken voor alle gebruikers weergegeven, maar is Planning nog niet beschikbaar in het hoofdmenu. Uw systeembeheerder moet de overeenkomst eerst goedkeuren alvorens u toegang tot de Planning van Workfront kunt hebben.
+
 * **1 April, 2026**: U kunt niet meer in de proef inschrijven.
 
   De volgende items worden uit je Workfront-exemplaar verwijderd:
 
    * De testbanners van Workfront Planning.
-   * De **proefovereenkomst van het Overzicht** voorkeur wordt verwijderd uit het **3&rbrace; gebied van de Opstelling.**
+   * De **proefovereenkomst van het Overzicht** voorkeur wordt verwijderd uit het **3} gebied van de Opstelling.**
 
 * **Mei 1, 2026**: De proefsluiting van de Planning van Workfront en uw toegang tot Planning wordt verwijderd.
 
@@ -126,9 +127,9 @@ Alle gebruikers in uw organisatie ontvangen het volgende Workfront-planningspakk
 
 ## Aanvullende informatie over Workfront Planning
 
-Voor algemene informatie over de Planning van Workfront, zie [&#x200B; begonnen worden met de Planning van Adobe Workfront &#x200B;](/help/quicksilver/planning/general/planning-overview.md).
+Voor algemene informatie over de Planning van Workfront, zie [ begonnen worden met de Planning van Adobe Workfront ](/help/quicksilver/planning/general/planning-overview.md).
 
-Voor beste praktijken op hoe te om de Planning van Workfront uit te voeren, zie [&#x200B; de Planning beste praktijken van Adobe Workfront: artikelindex &#x200B;](/help/quicksilver/planning/best-practices.md/best-practices-article-index.md).
+Voor beste praktijken op hoe te om de Planning van Workfront uit te voeren, zie [ de Planning beste praktijken van Adobe Workfront: artikelindex ](/help/quicksilver/planning/best-practices.md/best-practices-article-index.md).
 
 <!--
 
@@ -150,7 +151,7 @@ De proef begon en uw organisatie ontving toegang om de proef van de Planning op 
 
 >[!WARNING]
 >
->Deze periode is nu gesloten. Voor meer informatie, zie de sectie [&#x200B; Inschrijving in de proef van de Planning tussen 2 Maart en 1 April, 2026 &#x200B;](#enroll-in-the-planning-trial-between-march-2-and-april-1-2026) in dit artikel.
+>Deze periode is nu gesloten. Voor meer informatie, zie de sectie [ Inschrijving in de proef van de Planning tussen 2 Maart en 1 April, 2026 ](#enroll-in-the-planning-trial-between-march-2-and-april-1-2026) in dit artikel.
 
 1. (Voorwaardelijk) Meld u aan bij Adobe Workfront als systeembeheerder.
 1. Voer een van de volgende handelingen uit:
@@ -197,9 +198,9 @@ De proef begon en uw organisatie ontving toegang om de proef van de Planning op 
 
    Begin het onderzoeken van de **werkruimten van de Steekproef** tabel en overzicht, gebruik, of deelwerkruimten die met u worden gedeeld.
 
-Voor meer informatie over het gebruiken van de Planning van Workfront, zie [&#x200B; begonnen worden met de Planning van Adobe Workfront &#x200B;](/help/quicksilver/planning/general/planning-overview.md).
+Voor meer informatie over het gebruiken van de Planning van Workfront, zie [ begonnen worden met de Planning van Adobe Workfront ](/help/quicksilver/planning/general/planning-overview.md).
 
-Voor beste praktijken op hoe te om de Planning van Workfront uit te voeren, zie [&#x200B; de Planning beste praktijken van Adobe Workfront: artikelindex &#x200B;](/help/quicksilver/planning/best-practices.md/best-practices-article-index.md).
+Voor beste praktijken op hoe te om de Planning van Workfront uit te voeren, zie [ de Planning beste praktijken van Adobe Workfront: artikelindex ](/help/quicksilver/planning/best-practices.md/best-practices-article-index.md).
 
 
 ## Ervaar Workfront Planning via de gratis proefperiode
@@ -208,7 +209,7 @@ U kunt de werkruimten van de steekproefplanning en hun voorwerpen herzien, evena
 
 1. (Voorwaardelijk en vereist) Als Workfront-beheerder ondertekent u de gratis proefovereenkomst.
 
-   Voor informatie, zie de sectie [&#x200B; Inschrijving in de vrije proef van de Planning van Adobe Workfront &#x200B;](#enroll-in-the-adobe-workfront-planning-free-trial) in dit artikel.
+   Voor informatie, zie de sectie [ Inschrijving in de vrije proef van de Planning van Adobe Workfront ](#enroll-in-the-adobe-workfront-planning-free-trial) in dit artikel.
 1. Klik het **Belangrijkste pictogram van het Menu** ![](assets/main-menu-shell.png), dan klik **Planning**. Het pictogram toont a **etiket van de a** Proefversie naast het.
 
    Het **Planning** gebied opent in de **werkruimten van de Steekproef** tabel.
@@ -216,9 +217,9 @@ U kunt de werkruimten van de steekproefplanning en hun voorwerpen herzien, evena
 
    * **Globale Classificaties &amp; Taxonomies**: Bevat de objecten van de steekproefplanning types die de stichting van een Systeem van de Marketing van Verslag zijn.
 
-     Alle recordtypen in deze werkruimte kunnen de bouwstenen van uw planningsstructuur van Workfront vormen. Alle recordtypen zijn globaal en kunnen worden toegevoegd of verbonden vanuit alle andere werkruimten. Voor meer informatie, zie [&#x200B; overzicht van het type van het werkruimterecord over de werkruimte &#x200B;](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md).
+     Alle recordtypen in deze werkruimte kunnen de bouwstenen van uw planningsstructuur van Workfront vormen. Alle recordtypen zijn globaal en kunnen worden toegevoegd of verbonden vanuit alle andere werkruimten. Voor meer informatie, zie [ overzicht van het type van het werkruimterecord over de werkruimte ](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md).
 
-     Voor onze aanbeveling op hoe te om de Globale werkruimte van Belastingen te gebruiken, zie [&#x200B; Draai uw eerste win in duurzame dynamiek: een playbook voor beheerde het schrapen &#x200B;](/help/quicksilver/planning/best-practices.md/playbook-how-to-scale.md).
+     Voor onze aanbeveling op hoe te om de Globale werkruimte van Belastingen te gebruiken, zie [ Draai uw eerste win in duurzame dynamiek: een playbook voor beheerde het schrapen ](/help/quicksilver/planning/best-practices.md/playbook-how-to-scale.md).
    * Aanvullende voorbeeldwerkruimten: de volgende werkruimten dienen als voorbeelden van wat een voorbeeldbedrijf (Fréscopa) nodig kan hebben als specifieke werkruimten, recordtypen, velden en weergaven aan de architectuur van zijn organisatie en werkstructuur:
 
       * **Fréscopa Globale Marketing**
@@ -232,17 +233,17 @@ U kunt de werkruimten van de steekproefplanning en hun voorwerpen herzien, evena
 
 1. Klik **creeer werkruimte** om uw eigen werkruimte tot stand te brengen.
 
-   Voor informatie, zie [&#x200B; werkruimten &#x200B;](/help/quicksilver/planning/architecture/create-workspaces.md) creëren.
+   Voor informatie, zie [ werkruimten ](/help/quicksilver/planning/architecture/create-workspaces.md) creëren.
 
    Als Beheerder van het Systeem, uw nieuwe werkruimtevertoning op **Alle werkruimten** en **Werkruimten I op** lusjes is.
 
    >[!TIP]
    >
-   >De standaard vergunningsgebruikers kunnen werkruimten tot stand brengen die in het **1&rbrace; gebied van de Werkruimten &lbrace;zullen tonen.**
+   >De standaard vergunningsgebruikers kunnen werkruimten tot stand brengen die in het **1} gebied van de Werkruimten {zullen tonen.**
 
 1. Klik **creëren met AI** om de AI Medewerker te laten een werkruimte voor u bouwen, die op uw specificaties wordt gebaseerd. <!--(**********have they changed the button to Generate or is it Create???*********)-->
 
-   Voor informatie, zie [&#x200B; begonnen worden met de Planning Designer van Adobe Workfront &#x200B;](/help/quicksilver/planning/general/planning-ai-designer.md).
+   Voor informatie, zie [ begonnen worden met de Planning Designer van Adobe Workfront ](/help/quicksilver/planning/general/planning-ai-designer.md).
 
    >[!IMPORTANT]
    >
@@ -252,13 +253,13 @@ U kunt de werkruimten van de steekproefplanning en hun voorwerpen herzien, evena
 
    * Recordtypen
 
-     Voor informatie, zie [&#x200B; recordtypes &#x200B;](/help/quicksilver/planning/architecture/create-record-types.md) creëren.
+     Voor informatie, zie [ recordtypes ](/help/quicksilver/planning/architecture/create-record-types.md) creëren.
    * Records
 
-     Voor informatie, zie [&#x200B; verslagen &#x200B;](/help/quicksilver/planning/records/create-records.md) creëren.
+     Voor informatie, zie [ verslagen ](/help/quicksilver/planning/records/create-records.md) creëren.
    * Weergaven
 
-     Voor informatie, zie [&#x200B; verslagmeningen &#x200B;](/help/quicksilver/planning/views/manage-record-views.md) leiden.
+     Voor informatie, zie [ verslagmeningen ](/help/quicksilver/planning/views/manage-record-views.md) leiden.
    * Velden
 
      U kunt aangepaste velden maken voor elk recordtype, deze importeren uit Workfront of verbindingen maken met andere recordtypen, Workfront-objecttypen of objecttypen uit andere toepassingen.
@@ -272,26 +273,26 @@ U kunt de werkruimten van de steekproefplanning en hun voorwerpen herzien, evena
 
    * Werkruimten
 
-     Voor informatie, zie [&#x200B; de werkruimten van het Aandeel &#x200B;](/help/quicksilver/planning/access/share-workspaces.md).
+     Voor informatie, zie [ de werkruimten van het Aandeel ](/help/quicksilver/planning/access/share-workspaces.md).
    * Recordtypen
 
-     Voor informatie, zie [&#x200B; recordtypes van het Aandeel &#x200B;](/help/quicksilver/planning/access/share-record-types.md).
+     Voor informatie, zie [ recordtypes van het Aandeel ](/help/quicksilver/planning/access/share-record-types.md).
    * Weergaven
 
-     Voor informatie, zie [&#x200B; meningen van het Aandeel &#x200B;](/help/quicksilver/planning/access/share-views.md).
+     Voor informatie, zie [ meningen van het Aandeel ](/help/quicksilver/planning/access/share-views.md).
 
-   Voor extra informatie over hoe te om de Planning van Workfront uit te voeren en hoe te om een centrum van bestuur voor het tot stand te brengen, zie de sectie [&#x200B; Aanvullende informatie over de Planning van Workfront &#x200B;](#additional-information-about-workfront-planning) in dit artikel.
+   Voor extra informatie over hoe te om de Planning van Workfront uit te voeren en hoe te om een centrum van bestuur voor het tot stand te brengen, zie de sectie [ Aanvullende informatie over de Planning van Workfront ](#additional-information-about-workfront-planning) in dit artikel.
 1. (Optioneel) Voer een van de volgende handelingen uit om de gemaakte werkruimte te bewerken:
 
    * Open de werkruimte en breng de wijzigingen handmatig aan.
 
-     Voor informatie, zie [&#x200B; werkruimten &#x200B;](/help/quicksilver/planning/architecture/edit-workspaces.md) uitgeven.
+     Voor informatie, zie [ werkruimten ](/help/quicksilver/planning/architecture/edit-workspaces.md) uitgeven.
    * Klik **uitgeven met AI** naast de werkruimtenaam om **de Planning Designer** te openen en AI te gebruiken om verdere veranderingen in de werkruimte aan te brengen.
 
-     Voor informatie, zie [&#x200B; begonnen worden met de Planning Designer van Adobe Workfront &#x200B;](/help/quicksilver/planning/general/planning-ai-designer.md).
+     Voor informatie, zie [ begonnen worden met de Planning Designer van Adobe Workfront ](/help/quicksilver/planning/general/planning-ai-designer.md).
 1. (Facultatief) om het planningsgebied van het **Belangrijkste Menu** voor gebruikers te verwijderen, pas de **Malplaatjes van de Lay-out** aan de gebruikers worden toegewezen en verwijder het uit het **Vastgestelde Belangrijkste gebied van het Menu** van het Malplaatje van de Lay-out.
 
-   Voor informatie, zie [&#x200B; het Belangrijkste Menu aanpassen gebruikend een lay-outmalplaatje &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
+   Voor informatie, zie [ het Belangrijkste Menu aanpassen gebruikend een lay-outmalplaatje ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
 
    >[!TIP]
    >
