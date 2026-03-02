@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7e440fc0-45ad-4f73-ae7e-5374e4ae1480
-source-git-commit: 35f9c4012d8d47e6cd5402029ceaf487b1942ce9
+source-git-commit: 8fdc6d1b72967b2a52295c31cb83d43594817d6f
 workflow-type: tm+mt
-source-wordcount: '1169'
+source-wordcount: '1323'
 ht-degree: 2%
 
 ---
@@ -34,7 +34,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
 >
 >Merk op dat voor de definitieve versie van elk kwartaal (26.4 dit kwartaal), gebruikers op het snelle versieschema één dag vroeg (15 april 2026) de versie zullen ontvangen.
 >
->Voor meer informatie over het snelle versieproces, zie [&#x200B; toelaten of onbruikbaar maken het snelle versieproces &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
+>Voor meer informatie over het snelle versieproces, zie [ toelaten of onbruikbaar maken het snelle versieproces ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
 
 ## Verbeteringen voor Adobe Workfront
 
@@ -276,11 +276,11 @@ We are updating the interface throughout Adobe Workfront to improve the user exp
 
 ### Workfront Fusion-verbeteringen
 
-Nieuwe functies in Workfront Fusion zijn beschikbaar in Production op een cadence buiten de standaard releaseschema. Voor meer informatie over de recentste eigenschappen, zie [&#x200B; de versieactiviteit van de Fusie van Adobe Workfront &#x200B;](https://experienceleague.adobe.com/nl/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
+Nieuwe functies in Workfront Fusion zijn beschikbaar in Production op een cadence buiten de standaard releaseschema. Voor meer informatie over de recentste eigenschappen, zie [ de versieactiviteit van de Fusie van Adobe Workfront ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 
 ### Verbeteringen voor Workfront-planning
 
-Nieuwe functies in Workfront Planning zijn beschikbaar in Production. Voor meer informatie over de recentste eigenschappen, zie [&#x200B; Tweede Kwartaal 2026 versieactiviteit voor de Planning van Adobe Workfront &#x200B;](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q2.md).
+Nieuwe functies in Workfront Planning zijn beschikbaar in Production. Voor meer informatie over de recentste eigenschappen, zie [ Tweede Kwartaal 2026 versieactiviteit voor de Planning van Adobe Workfront ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q2.md).
 
 Er zijn geen updates voor het volgende op dit punt in de versie:
 
@@ -302,6 +302,30 @@ Deze update geldt voor zowel Mac als Windows.
 
 ## Aankondigingen
 
+### De Workfront Planning-proefversie is nu beschikbaar
+
+[!BADGE  Van programma ]{type=Neutral}
+
+>[!NOTE]
+>
+>* Voorbeeld en productie voor iedereen: 2 maart 2026
+>* U moet de proefovereenkomst goedkeuren beschikbaar in uw milieu alvorens u tot het Proefmilieu van de Planning kunt toegang hebben.
+>* U hoeft de Adobe AI Agent-overeenkomst niet te ondertekenen om de Planning Designer tijdens de proefperiode te gebruiken.
+
+De Workfront Planning Proefversie is nu beschikbaar voor alle klanten van Workfront.
+
+De gratis proefversie biedt Workfront-klanten 60 dagen toegang tot de Prime-licentie voor Workfront Planning, vanaf 2 maart 2026. De proefperiode loopt af op 1 mei 2026.
+
+Het gratis Workfront-planningsonderzoek biedt het volgende:
+
+* Een gekromde, multi-werkruimte planningsomgeving
+* Voorbeeldgegevens om u een idee te geven waar u moet beginnen
+* Training en begeleiding in producten
+* Duidelijke aanwijzing van mijlpalen tijdens uw opstelling die voor specifieke rollen worden gemaakt.
+* De Planning Designer - een AI aangedreven medewerker die u kan helpen het milieu bouwen u wilt
+
+Voor meer informatie, zie [ begonnen worden met de vrije proef van de Planning van Adobe Workfront ](/help/quicksilver/planning/general/trial-workfront-planning.md).
+
 ### API-versie 21
 
 Workfront API versie 21 is uitgebracht op 23 oktober 2025. Voor API versie 21 hebben we een aantal bronnen en eindpunten gewijzigd. Sommige wijzigingen ondersteunen nieuwe functionaliteit en andere maken het voor u gemakkelijker om de informatie te gebruiken die beschikbaar is via de API.
@@ -312,9 +336,9 @@ Workfront API versie 21 is uitgebracht op 23 oktober 2025. Voor API versie 21 he
 >
 > Voor velden met meerdere selecties verzendt versie 2 van Event-abonnementen altijd als een array. Versie 1 heeft een array verzonden als er meer dan één waarde is geselecteerd. Als er slechts één waarde is geselecteerd, wordt een tekenreeks verzonden.
 
-Voor informatie over wat nieuw en bijgewerkt is, zie [&#x200B; wat in API versie 21 &#x200B;](/help/quicksilver/wf-api/api/new-api-version-21.md) nieuw is.
+Voor informatie over wat nieuw en bijgewerkt is, zie [ wat in API versie 21 ](/help/quicksilver/wf-api/api/new-api-version-21.md) nieuw is.
 
-Voor informatie over API versies, zie [&#x200B; API versioning en steunprogramma &#x200B;](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
+Voor informatie over API versies, zie [ API versioning en steunprogramma ](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
 
 ### Andere Workfront-integratieovergangen
 
@@ -325,13 +349,13 @@ Om stabielere en scalable integratie te leveren, verschuiven wij naar een modern
 * Workfront voor Salesforce.
 
 We raden u aan Workfront Automation and Integration te gebruiken voor de integratiebehoeften van uw organisatie met Google Workspace.
-Voor een overzicht van de Automatisering en de Integratie van Workfront, zie [&#x200B; het overzicht van de Fusie van Adobe Workfront &#x200B;](https://experienceleague.adobe.com/nl/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+Voor een overzicht van de Automatisering en de Integratie van Workfront, zie [ het overzicht van de Fusie van Adobe Workfront ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 
 
 ### Workfront-onderhoudsupdates
 
-Voor informatie over de onderhoudsupdates die tijdens de Tweede Kwartaal 2025 versie worden gemaakt, zie [&#x200B; Updates van het Onderhoud van Workfront &#x200B;](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=nl-NL).
+Voor informatie over de onderhoudsupdates die tijdens de Tweede Kwartaal 2025 versie worden gemaakt, zie [ Updates van het Onderhoud van Workfront ](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Training-updates
 
-Ontdek de nieuwste updates van leerprogramma&#39;s, leerpaden, video&#39;s en handleidingen voor elke Adobe Workfront-productrelease. Voor meer informatie, zie &quot;wat&quot;sectie van de [&#x200B; pagina van de Leerprogramma&#39;s van Workfront &#x200B;](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=nl-NL) Nieuw is.
+Ontdek de nieuwste updates van leerprogramma&#39;s, leerpaden, video&#39;s en handleidingen voor elke Adobe Workfront-productrelease. Voor meer informatie, zie &quot;wat&quot;sectie van de [ pagina van de Leerprogramma&#39;s van Workfront ](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html) Nieuw is.
