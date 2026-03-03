@@ -6,9 +6,9 @@ description: De  [!DNL Adobe Workfront]  verklarende woordenlijst lijsten algeme
 author: Alina
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: 8f7249e08268a8cb784d4c0ecc8c534542fa80cf
+source-git-commit: 087589f3d7a3fbb1611045b921e804aec3db9a74
 workflow-type: tm+mt
-source-wordcount: '17893'
+source-wordcount: '17947'
 ht-degree: 0%
 
 ---
@@ -1446,13 +1446,26 @@ Uur-items kunnen een van de volgende statussen in Workfront hebben:
   <tr> 
    <td>[!UICONTROL Note Text]</td> 
    <td> <p>Hiermee wordt de tekst weergegeven van een update die een gebruiker heeft ingevoerd voor een willekeurig object. </p> </td> 
-  </tr> 
-  <tr data-mc-conditions=""> 
-   <td>[!UICONTROL Number of Linked Goals]</td> 
+  </tr>
+
+<tr data-mc-conditions="">
+
+<td>[!UICONTROL Number of Linked Goals]</td> 
    <td> <p>In een [!UICONTROL Project] -rapport is dit het aantal strategische doelen dat aan het project is gekoppeld. Voor informatie over het associëren van projecten met strategische doelstellingen, zie <a href="../../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md"> projecten aan doelstellingen in [!DNL Adobe Workfront Goals]</a> toevoegen.</p> 
    <p>Voor informatie over strategische doelstellingen, zie ook "[!UICONTROL Goal]"in dit artikel.</p> 
    <p>Dit veld is alleen zichtbaar als uw organisatie [!DNL Workfront Goals] heeft aangeschaft. Voor informatie over het beheren van strategische doelstellingen die [!DNL Workfront Goals] gebruiken, zie <a href="../../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md"> projecten aan doelstellingen in [!UICONTROL Adobe Workfront Goals]</a> toevoegen. </p> </td> 
-  </tr> 
+  </tr>
+
+<tr>
+
+<td>[!UICONTROL Number of Children]</td> 
+   <td> <p>In een [!UICONTROL Project] -rapport is dit het aantal onderliggende of subtaken van een taak. 
+   <p><b>TIP</b></p>
+   U kunt de berekening <code>{numberOfChildren}</code> aan een berekend douanegebied op taak douaneformulier toevoegen om op een douaneveld het aantal kinderen van de taak te tonen. Voor meer informatie, zie <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md"> een berekend gebied aan een vorm </a> toevoegen. 
+    </td>
+
+
+</tr> 
   <tr> 
    <td>[!UICONTROL Object]</td> 
    <td> <p>De informatie die u in [!DNL Adobe Workfront] weergeeft, wordt vertegenwoordigd door objecten die in de [!DNL Workfront] -database zijn opgeslagen. De objecten zijn de drijvende kracht achter de informatie in Workfront. Voorbeelden van objecten zijn:</p> 
@@ -2110,7 +2123,7 @@ Uur-items kunnen een van de volgende statussen in Workfront hebben:
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Optimized"> 
    <td>[!UICONTROL Scenario] (in [!DNL Workfront Fusion]) </td> 
-   <td> <p>Een scenario bestaat uit een reeks stappen (modules) die aangeven hoe gegevens moeten worden overgebracht en getransformeerd tussen apps/services.</p> <p>Voor informatie over scenario's in [!DNL Workfront Fusion], zie <a href="https://experienceleague.adobe.com/nl/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/scenario-overview">[!DNL Adobe Workfront Fusion] scenario overzicht </a>.</p> </td> 
+   <td> <p>Een scenario bestaat uit een reeks stappen (modules) die aangeven hoe gegevens moeten worden overgebracht en getransformeerd tussen apps/services.</p> <p>Voor informatie over scenario's in [!DNL Workfront Fusion], zie <a href="https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/scenario-overview">[!DNL Adobe Workfront Fusion] scenario overzicht </a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Scenario] (in de [!DNL Workfront Scenario Planner] ) </td> 
