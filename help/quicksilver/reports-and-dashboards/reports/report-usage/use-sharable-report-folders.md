@@ -49,7 +49,7 @@ U kunt deelbare rapportomslagen gebruiken om rapporten te organiseren en die oms
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -78,7 +78,7 @@ Alleen systeembeheerders kunnen mappen op hoofdniveau maken. Nadat een deelbare 
 1. Voer een naam in voor de map.
 1. Klik **creëren**.
 
-![ creeer een shareable omslag ](assets/add-sharable-folder.png)
+![&#x200B; creeer een shareable omslag &#x200B;](assets/add-sharable-folder.png)
 
 ## Een submap maken in een deelbare rapportmap
 
@@ -105,7 +105,7 @@ Wanneer u een map deelt met gebruikers, overerven zij toegang tot alle submappen
    * Gebruikers kunnen de toegang beheren om mapgegevens te bewerken en items toe te voegen of te verwijderen. U kunt gebruikers met Manage toegang ook toestaan om omslagen te schrappen of de omslag te delen door **Schrapping** en **Aandeel** in de extra montages te selecteren.
 1. Klik **sparen**.
 
-   ![ deel een omslag en verfijnen toegang ](assets/share-settings-sharable-folders.png)
+   ![&#x200B; deel een omslag en verfijnen toegang &#x200B;](assets/share-settings-sharable-folders.png)
 
 ## Een rapport verplaatsen naar een deelbare map
 
@@ -117,7 +117,7 @@ Om een rapport in een omslag te bewegen, moet u **hebben leiden** rechten op zow
 1. Klik **Beweging aan omslag** in de actiebar bij de bodem van het scherm.
 1. Vind de omslag u het rapport wilt bewegen aan, dan klik **Beweging**. De rapportboom wordt doen ineenstorten door gebrek, zodat kunt u de omslagen moeten uitbreiden om de bestemmingsomslag te vinden.
 
-   ![ verplaats een rapport naar een shareable omslag ](assets/move-to-folder.png)
+   ![&#x200B; verplaats een rapport naar een shareable omslag &#x200B;](assets/move-to-folder.png)
 
 ## Een deelbare rapportmap verwijderen
 
@@ -134,7 +134,7 @@ De rapportmachtigingen die via de mapmachtigingen zijn verleend, worden verwijde
 
 ## Nieuwe lijstervaring voor deelbare mappen
 
-Wanneer u deelbare mappen opent in het gebied Rapporten, ziet u een nieuwe lijstervaring waarmee u uw mappen en rapporten eenvoudig kunt weergeven en beheren. Voor meer informatie over de nieuwe lijstervaring, zie [ Uitgebreide lijsten van het Gebruik ](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
+Wanneer u deelbare mappen opent in het gebied Rapporten, ziet u een nieuwe lijstervaring waarmee u uw mappen en rapporten eenvoudig kunt weergeven en beheren. Voor meer informatie over de nieuwe lijstervaring, zie [&#x200B; Uitgebreide lijsten van het Gebruik &#x200B;](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
 
 >[!NOTE]
 >
