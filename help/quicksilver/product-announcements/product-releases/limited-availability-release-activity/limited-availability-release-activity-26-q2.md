@@ -9,9 +9,9 @@ recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
 exl-id: 32c616b2-5bba-434e-9918-c27f6518693d
-source-git-commit: 56e5af94e0e98cf680db182f10143f5503e4260b
+source-git-commit: caad1c709da790e28df39a4a6092ef1ebfa42357
 workflow-type: tm+mt
-source-wordcount: '192'
+source-wordcount: '367'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ In dit artikel worden de Workfront-functies voor beperkte beschikbaarheid beschr
 
 <!--keep the sentence below for all future quarterly release pages-->
 
-Voor een lijst van alle beperkte beschikbaarheidseigenschappen die voor Adobe Workfront worden vrijgegeven, zie [&#x200B; Adobe Workfront beperkte de activiteit van de beschikbaarheidseigenschappen vrijgeven: artikelindex &#x200B;](/help/quicksilver/product-announcements/product-releases/limited-availability-release-activity/limited-availability-release-activity-article-index.md).
+Voor een lijst van alle beperkte beschikbaarheidseigenschappen die voor Adobe Workfront worden vrijgegeven, zie [ Adobe Workfront beperkte de activiteit van de beschikbaarheidseigenschappen vrijgeven: artikelindex ](/help/quicksilver/product-announcements/product-releases/limited-availability-release-activity/limited-availability-release-activity-article-index.md).
 
 ## Opmerkingen bij de release met functies voor beperkte beschikbaarheid
 
@@ -42,7 +42,27 @@ Er is een nieuwe ervaring voor het toewijzen van resources aan taken. Dit is nu 
 * Eigenaar of Taakeigenaar
 * Rol van de gemachtigde
 
-Voor informatie, zie [&#x200B; taken &#x200B;](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md) uitgeven.
+Voor informatie, zie [ taken ](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md) uitgeven.
+
+### Factureringstarieven voor personeelsplannen behouden
+
+>[!NOTE]
+>
+>Releasedatum productie: 5 maart 2026
+
+Wij hebben het **Levende 1} gebied van de Facturering van het Faciliteit {aan de sectie van de Financiën van de pagina van de Details van het Plan van het Personeel toegevoegd.**
+
+Wanneer deze vlag aan Vals (weg) wordt geplaatst, worden de het facturerings tarieven niet bewaard en de tariefhiërarchie wordt gebruikt voor de berekeningen van het factureringstarief.
+
+Wanneer deze markering is ingesteld op Waar (ingeschakeld):
+
+* De huidige factureringspercentages van de toegewezen middelen in het personeelsplan blijven behouden en eventuele wijzigingen in de tarieven in de hiërarchie worden niet weerspiegeld in het gebied Middelen van het personeelsplan.
+* Als u een nieuwe rij aan de lijst van Middelen toevoegt, wordt het aanvankelijke het factureren tarief dat uit de het factureren tariefhiërarchie komt bewaard.
+* Als een gebruiker de factureringssnelheidswaarde manueel heeft met voeten getreden alvorens de vlag werd aangezet, wordt het met voeten getreden tarief bewaard. Als de markering eenmaal is ingeschakeld, zijn handmatige overschrijvingen van de factureringssnelheid niet toegestaan.
+
+Nadat de conservering is geactiveerd, kan deze niet worden uitgeschakeld.
+
+Wanneer u een personeelsplan kopieert dat de vlag heeft aangezet, wordt de vlag automatisch uitgezet op het exemplaar. De middelmanager moet de vlag aanzetten als het op het nieuwe personeelsplan nodig is.
 
 <!--### Title
 
@@ -53,23 +73,27 @@ Voor informatie, zie [&#x200B; taken &#x200B;](/help/quicksilver/manage-work/tas
 text
 -->
 
-## Onderhoudsupdates voor functies voor beperkte beschikbaarheid
+<!--
 
-In deze sectie worden de problemen beschreven die zijn opgelost in de wekelijkse Workfront-updates voor functies voor beperkte beschikbaarheid.
+## Maintenance Updates for limited availability features
 
-<!--### Maintenance Updates week of February 8-14, 2026
+This section describes the issues fixed in the weekly Workfront updates for limited availability features.
 
-**Title**
 
-text
 
-### Maintenance Updates week of February 15-21, 2026
+### Maintenance Updates week of March 1-7, 2026
 
 **Title**
 
 text
 
-### Maintenance Updates week of February 22-28, 2026
+### Maintenance Updates week of March 8-14, 2026
+
+**Title**
+
+text
+
+### Maintenance Updates week of March 15-21, 2026
 
 **Title**
 
