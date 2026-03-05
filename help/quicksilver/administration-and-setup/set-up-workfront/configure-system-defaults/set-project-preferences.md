@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 1a1affed-1b06-442c-98b2-9f360eee767b
-source-git-commit: 20ebcb74c79aea67ea7cb1ba083dfea623fe7c16
+source-git-commit: 20ea292d49c691335e98459ff3eb00051a78577d
 workflow-type: tm+mt
-source-wordcount: '2226'
+source-wordcount: '2257'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Als [!DNL Adobe Workfront] beheerder, kunt u de standaardvoorkeur voor alle proj
 
 >[!NOTE]
 >
->Deze voorkeuren zijn standaard vergrendeld en groepsbeheerders kunnen deze op groepsniveau niet wijzigen, tenzij u ze voor alle groepen in het systeem ontgrendelt. Voor meer informatie, zie [&#x200B; het Slot of ontgrendelt projectvoorkeur voor alle groepen in het systeem &#x200B;](../../../administration-and-setup/set-up-workfront/configure-system-defaults/lock-or-unlock-project-preferences-for-groups-system.md).
+>Deze voorkeuren zijn standaard vergrendeld en groepsbeheerders kunnen deze op groepsniveau niet wijzigen, tenzij u ze voor alle groepen in het systeem ontgrendelt. Voor meer informatie, zie [ het Slot of ontgrendelt projectvoorkeur voor alle groepen in het systeem ](../../../administration-and-setup/set-up-workfront/configure-system-defaults/lock-or-unlock-project-preferences-for-groups-system.md).
 
 ## Toegangsvereisten
 
@@ -54,7 +54,7 @@ Als [!DNL Adobe Workfront] beheerder, kunt u de standaardvoorkeur voor alle proj
  </tbody> 
 </table>
 
-Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -65,13 +65,13 @@ Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van W
 1. Klik in het linkerdeelvenster op **[!UICONTROL Project Preferences]** > **[!UICONTROL Projects]** .
 
 1. Op de **pagina van de Voorkeur van het Project**, ga met één van de 4 hieronder vermelde secties verder om voorkeur voor [!UICONTROL Project Status], [!UICONTROL Timelines], [!UICONTROL Business Cases], en [!UICONTROL Life after Death] te vormen.
-1. Als u alle groepen door de organisatie wilt om de zelfde projectvoorkeur te gebruiken, zorg ervoor dat elke voorkeur gesloten ![&#x200B; knevel van het Slot &#x200B;](assets/lock-toggle-button.png) is (dit is het gebrek).
+1. Als u alle groepen door de organisatie wilt om de zelfde projectvoorkeur te gebruiken, zorg ervoor dat elke voorkeur gesloten ![ knevel van het Slot ](assets/lock-toggle-button.png) is (dit is het gebrek).
 
    >[!IMPORTANT]
    >
    >Als een projectvoorkeur is vergrendeld, worden alle wijzigingen die u in die voorkeur aanbrengt, overgeërfd door alle groepen in het systeem. Het is belangrijk om met de gebruikers en de groepen door uw organisatie te communiceren om ervoor te zorgen dat alle behoeften rekenschap worden gegeven in de manier u projectvoorkeur vormt.
 
-   Voor informatie over het ontgrendelen van een voorkeur zodat alle groepen het op hun kunnen vormen en beheren, zie [&#x200B; Vergrendelen of projectvoorkeur voor alle groepen in het systeem &#x200B;](../../../administration-and-setup/set-up-workfront/configure-system-defaults/lock-or-unlock-project-preferences-for-groups-system.md) ontgrendelen.
+   Voor informatie over het ontgrendelen van een voorkeur zodat alle groepen het op hun kunnen vormen en beheren, zie [ Vergrendelen of projectvoorkeur voor alle groepen in het systeem ](../../../administration-and-setup/set-up-workfront/configure-system-defaults/lock-or-unlock-project-preferences-for-groups-system.md) ontgrendelen.
 
 1. Klik op **[!UICONTROL Save]**.
 
@@ -139,7 +139,7 @@ Configureer een of meer van de volgende voorkeuren voor nieuwe projecten in het 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Estimate at Completion &#x200B;]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Estimate at Completion ]</p> </td> 
    <td> <p>Bepaal welke gegevens [!DNL Workfront] gebruikt om [!UICONTROL Estimate at Completion] (EAC) te berekenen die de geprojecteerde totale kosten van een project vertegenwoordigt.</p> 
     <ul> 
      <li><strong>[!UICONTROL Calculate at project level]</strong>: EAC voor de bovenliggende taak en het bovenliggende project worden bepaald door [!UICONTROL Actual Hours] of [!UICONTROL Actual Labor Cost] in te voeren in de EAC-indelingen. Deze berekening bevat [!UICONTROL Actual Hours] of [!UICONTROL Costs and Expenses] die rechtstreeks aan de bovenliggende taak of het bovenliggende project zijn toegevoegd.</li> 
@@ -237,16 +237,18 @@ Configureer een of meer van de volgende voorkeuren voor nieuwe projecten in het 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader"> <p>[!UICONTROL Custom Quarters]</p> </td> 
-   <td> <p>Aangepaste jaarlijkse kwartalen configureren voor de gebruikers die aan projecten zullen werken. Aangepaste kwartalen zijn gewoonlijk kwartalen die niet overeenkomen met de traditionele uitsplitsing van kwartalen gedurende een kalenderjaar. U kunt meerdere aangepaste kwarten toevoegen. Voor meer informatie, zie <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref" data-mc-variable-override=""> douanekwarten </a> toelaten.</p>  <p><b> NOTA </b>: </p><p>[!DNL Workfront] beheerders kunnen [!UICONTROL Custom Quarters] -voorkeuren niet ontgrendelen.</p> </td> 
+   <td> <span class="preview"> het gebied van de Kwarten van de Douane is verwijderd uit de sectie van de Voorkeur van het Project in het milieu van de Voorproef.</span> 
+   <span class="preview"> voor meer informatie, zie <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref" data-mc-variable-override=""> douanekwarten </a> toelaten.</p></span>
+   <p>In de omgeving van de Productie, vorm douane jaarlijkse kwartalen voor de gebruikers die aan projecten zullen werken. Aangepaste kwartalen zijn gewoonlijk kwartalen die niet overeenkomen met de traditionele uitsplitsing van kwartalen gedurende een kalenderjaar. U kunt meerdere aangepaste kwarten toevoegen.   <p><b> NOTA </b>: </p><p>[!DNL Workfront] beheerders kunnen [!UICONTROL Custom Quarters] -voorkeuren niet ontgrendelen en groepsbeheerders kunnen deze instellingen niet op groepsniveau bewerken.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ### [!UICONTROL Business Cases] {#business-cases}
 
-U kunt een BedrijfsGeval voor pas gecreëerde projecten door het systeem tot stand brengen om projectverzoeken voor te leggen. U kunt voorkeuren definiëren om te bepalen welke gebieden zichtbaar zijn op het **[!UICONTROL Business Case]** -formulier. We raden u aan deze opties in te schakelen, zodat andere gereedschappen, zoals de [!UICONTROL Portfolio Optimizer] , correct worden bijgewerkt. Voor meer informatie over wat elke gebiedsvertoningen, zie [&#x200B; een BedrijfsGeval bepalen: artikelindex &#x200B;](../../../manage-work/projects/define-a-business-case/define-business-case.md).
+U kunt een BedrijfsGeval voor pas gecreëerde projecten door het systeem tot stand brengen om projectverzoeken voor te leggen. U kunt voorkeuren definiëren om te bepalen welke gebieden zichtbaar zijn op het **[!UICONTROL Business Case]** -formulier. We raden u aan deze opties in te schakelen, zodat andere gereedschappen, zoals de [!UICONTROL Portfolio Optimizer] , correct worden bijgewerkt. Voor meer informatie over wat elke gebiedsvertoningen, zie [ een BedrijfsGeval bepalen: artikelindex ](../../../manage-work/projects/define-a-business-case/define-business-case.md).
 
-Nadat de [!DNL Workfront] beheerder de secties op [!UICONTROL Business Case] toelaat, kan een Eigenaar van het Project een BedrijfsGeval op het projectniveau tot stand brengen. Voor informatie over het creëren van een BedrijfsGeval, zie [&#x200B; een BedrijfsGeval voor een project &#x200B;](../../../manage-work/projects/define-a-business-case/create-business-case.md) creëren.
+Nadat de [!DNL Workfront] beheerder de secties op [!UICONTROL Business Case] toelaat, kan een Eigenaar van het Project een BedrijfsGeval op het projectniveau tot stand brengen. Voor informatie over het creëren van een BedrijfsGeval, zie [ een BedrijfsGeval voor een project ](../../../manage-work/projects/define-a-business-case/create-business-case.md) creëren.
 
 ### [!UICONTROL Life After Death]  {#life-after-death}
 

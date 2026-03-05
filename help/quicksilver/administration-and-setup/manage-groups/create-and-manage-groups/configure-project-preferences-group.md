@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: c69097fb-99e4-441b-9599-fd8af2dd7116
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 20ea292d49c691335e98459ff3eb00051a78577d
 workflow-type: tm+mt
-source-wordcount: '2736'
+source-wordcount: '2833'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 0%
 # Projectvoorkeuren voor een groep configureren
 
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
 
 Als u een groepsbeheerder en een beheerder van Adobe Workfront een projectvoorkeur voor alle groepen in het systeem ontgrendelt, kunt u die voorkeur voor uw groep vormen om alle verdere projecten te beïnvloeden die uw groep creeert.
 
@@ -30,14 +30,14 @@ Als er groepen zijn boven de groep die u beheert, kunnen hun beheerders dit ook 
 >
 >* Een niet-vergrendelde voorkeur blijft meestal voor onbepaalde tijd ontgrendeld. Als de beheerder van Workfront het opnieuw sluit, wordt het systeem opnieuw plaatsend dat en de montages voor de voorkeur door de groepsbeheerders wordt gemaakt worden verloren.
 >* De voorkeuren die zijn ingesteld voor de groep die is gekoppeld aan een project, hebben voorrang op de voorkeuren die zijn ingesteld voor de thuisgroep van de gebruiker die het project maakt.
->* Sommige voorkeuren op groepsniveau zijn van invloed op projectsjablonen die u voor de groep maakt. Voor meer informatie, zie de sectie [&#x200B; Mening, werk met, en creeer malplaatjes voor uw groep van het gebied van Groepen &#x200B;](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md#view) in het artikel [&#x200B; creeer en wijzig het projectmalplaatjes van een groep &#x200B;](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md).
+>* Sommige voorkeuren op groepsniveau zijn van invloed op projectsjablonen die u voor de groep maakt. Voor meer informatie, zie de sectie [ Mening, werk met, en creeer malplaatjes voor uw groep van het gebied van Groepen ](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md#view) in het artikel [ creeer en wijzig het projectmalplaatjes van een groep ](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md).
 >
->* Nadat een beheerder van Workfront een voorkeur op het systeemniveau ontgrendelt, kunt u het vormen en dan het sluiten om ervoor te zorgen dat iedereen in uw groep en in zijn subgroepen de zelfde configuratie gebruikt. Dit is parallel aan de mogelijkheid dat een Workfront-beheerder een voorkeur voor iedereen in het systeem moet configureren en vergrendelen. Voor meer informatie, zie [&#x200B; Slot of ontgrendel een project, een taak, of een uitgiftevoorkeur voor subgroups &#x200B;](../../../administration-and-setup/manage-groups/create-and-manage-groups/lock-or-unlock-a-group-preference.md).
+>* Nadat een beheerder van Workfront een voorkeur op het systeemniveau ontgrendelt, kunt u het vormen en dan het sluiten om ervoor te zorgen dat iedereen in uw groep en in zijn subgroepen de zelfde configuratie gebruikt. Dit is parallel aan de mogelijkheid dat een Workfront-beheerder een voorkeur voor iedereen in het systeem moet configureren en vergrendelen. Voor meer informatie, zie [ Slot of ontgrendel een project, een taak, of een uitgiftevoorkeur voor subgroups ](../../../administration-and-setup/manage-groups/create-and-manage-groups/lock-or-unlock-a-group-preference.md).
 >
 
-Configuratie op groepsniveau is ook mogelijk voor taak- en uitgavenvoorkeuren en voor voorkeuren voor tijdbladen en uren. Voor informatie, zie [&#x200B; taak en geef voorkeur voor een groep &#x200B;](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md) uit en [&#x200B; vorm timesheet en uurvoorkeur voor een groep &#x200B;](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-timesheet-hour-preferences-group.md).
+Configuratie op groepsniveau is ook mogelijk voor taak- en uitgavenvoorkeuren en voor voorkeuren voor tijdbladen en uren. Voor informatie, zie [ taak en geef voorkeur voor een groep ](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md) uit en [ vorm timesheet en uurvoorkeur voor een groep ](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-timesheet-hour-preferences-group.md).
 
-Voor informatie over hoe een beheerder van Workfront een projectvoorkeur ontgrendelt, zie [&#x200B; Vergrendelen of projectvoorkeur voor alle groepen in het systeem &#x200B;](../../../administration-and-setup/set-up-workfront/configure-system-defaults/lock-or-unlock-project-preferences-for-groups-system.md) ontgrendelen.
+Voor informatie over hoe een beheerder van Workfront een projectvoorkeur ontgrendelt, zie [ Vergrendelen of projectvoorkeur voor alle groepen in het systeem ](../../../administration-and-setup/set-up-workfront/configure-system-defaults/lock-or-unlock-project-preferences-for-groups-system.md) ontgrendelen.
 
 ## Toegangsvereisten
 
@@ -63,7 +63,7 @@ Voor informatie over hoe een beheerder van Workfront een projectvoorkeur ontgren
  </tbody> 
 </table>
 
-Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -75,7 +75,7 @@ Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van W
 
 {{step-1-to-setup}}
 
-1. In het linkerpaneel, klik **Groepen** ![&#x200B; pictogram van Groepen &#x200B;](assets/groups-icon.png).
+1. In het linkerpaneel, klik **Groepen** ![ pictogram van Groepen ](assets/groups-icon.png).
 
 1. Klik op de naam van de groep waarvan u de projectvoorkeuren wilt configureren.
 1. In het linkerpaneel, klik **Voorkeur van het Project**.
@@ -85,9 +85,9 @@ Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van W
    >
    >Als u de muisaanwijzer boven een voorkeur houdt en knopinfo wordt weergegeven om aan te geven dat deze vergrendeld is, kunt u de Workfront-beheerder vragen deze te ontgrendelen voor alle groepen in de organisatie.
 
-* [&#x200B; Status van het Project &#x200B;](#project-status)
-* [&#x200B; Chronologie &#x200B;](#timelines)
-* [&#x200B; Bedrijfs Gevallen &#x200B;](#business-cases)
+* [ Status van het Project ](#project-status)
+* [ Chronologie ](#timelines)
+* [ Bedrijfs Gevallen ](#business-cases)
 * [Na de dood](#life-after-death)
 
 ### Projectstatus {#project-status}
@@ -166,7 +166,7 @@ Configureer een of meer van de volgende voorkeuren voor nieuwe projecten die aan
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Schema vanuit</td> 
+   <td role="rowheader"><b>Schema vanuit</b></td> 
    <td> <p>Bepaal of de nieuwe projecten van de Datum van het Begin of van de Datum van de Voltooiing gepland zijn wanneer zij worden gecreeerd.</p> 
     <ul> 
      <li><strong> Datum van het Begin </strong>: De nieuwe taken blijven aan zo spoedig mogelijk de Beperking van de Taak en de projectmanagers in gebreke worden ertoe aangezet om een Geplande Datum van het Begin voor het project te verstrekken.</li> 
@@ -174,7 +174,7 @@ Configureer een of meer van de volgende voorkeuren voor nieuwe projecten die aan
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Gebruikerstijd uit</td> 
+   <td role="rowheader"><b>Gebruikerstijd uit</b></td> 
    <td> <p>Bepaal of de tijd van de Primaire Ontvanger van een taak de geplande data voor die taak op een project aanpast.</p> 
     <ul> 
      <li> <p><strong> Overweeg gebruikerstijd van taakduur </strong>: Om het even welke tijd van gepland voor Primaire Assignee van een taak past de geplande data van de taak aan als de tijd van tijdens de duur van de taak voorkomt. Dit is de standaardinstelling. </p> <p>Als bijvoorbeeld een taak met een beperking van zo snel mogelijk op 1 juni moet beginnen en op 3 juni moet worden voltooid, en de primaire ontvanger op 2 juni als tijdelijke taak moet worden aangemerkt, worden de geplande data van de taak aangepast aan 1 juni tot en met 4 juni.</p> <p><b> BELANGRIJK </b>: De Duur van de taak verandert niet wanneer u dit het plaatsen selecteert. Alleen de geplande datums veranderen, afhankelijk van de Taakbeperking.</p> </li> 
@@ -222,7 +222,7 @@ Configureer een of meer van de volgende voorkeuren voor nieuwe projecten die aan
     </ul> <p>Voor meer informatie over programma's, zie <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref" data-mc-variable-override=""> een programma </a> creëren.</p></td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Tijdlijnberekeningen </p> </td> 
+   <td role="rowheader"> <p><b>Tijdlijnberekeningen</b></p> </td> 
    <td> 
     <ul> 
      <li><strong> Typische uren per het werkdag </strong>: Plaats het aantal uren in een typische werkdag voor de gebruikers die aan projecten zullen werken. De standaardwaarde is 8 uur.</li> 
@@ -233,16 +233,21 @@ Configureer een of meer van de volgende voorkeuren voor nieuwe projecten die aan
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader"> <p><strong> Kwarten van de Douane </strong> </p> </td> 
-   <td> <p>Aangepaste jaarlijkse kwartalen configureren voor de gebruikers die aan projecten zullen werken. Aangepaste kwartalen zijn gewoonlijk kwartalen die niet overeenkomen met de traditionele uitsplitsing van kwartalen gedurende een kalenderjaar. U kunt meerdere aangepaste kwarten toevoegen. Voor meer informatie, zie <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref" data-mc-variable-override=""> douanekwarten </a> toelaten.</p> <p><b> NOTA </b>: De beheerders van Workfront kunnen de voorkeur van Kwarters van de Douane niet ontgrendelen.</p> </td> 
+   <td> 
+   <span class="preview"> het gebied van Kwarters van de Douane is verwijderd uit de sectie van de Voorkeur van het Project van de Groep in het milieu van de Voorproef.</span>
+   <p>Aangepaste kwartalen zijn gewoonlijk kwartalen die niet overeenkomen met de traditionele uitsplitsing van kwartalen gedurende een kalenderjaar. Een beheerder van Workfront kan veelvoudige douanekwartalen in het <b> gebied van de Opstelling </b> toevoegen. Voor meer informatie, zie <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref" data-mc-variable-override=""> douanekwarten </a> toelaten.</p>  
+   <p><b>BELANGRIJK<b></p>
+   <p>U kunt de configuratie Aangepast kwartaal niet wijzigen als een groepsbeheerder. <p>Workfront-beheerders kunnen de voorkeuren voor Aangepaste tekens niet ontgrendelen, zodat groepsbeheerders deze kunnen beheren.</p> <p>Het gebied van Kwarten van de Douane is read-only voor groepsbeheerders.</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
 
 ### Zakelijke zaken {#business-cases}
 
-U kunt een BedrijfsGeval voor pas gecreëerde projecten tot stand brengen verbonden aan de groep om projectverzoeken voor te leggen. U kunt voorkeur bepalen om te bepalen welke gebieden op het **BedrijfsGeval** vorm zichtbaar zijn. We raden u aan deze opties in te schakelen, zodat andere gereedschappen, zoals Portfolio Optimizer, correct worden bijgewerkt. Voor meer informatie over wat elke gebiedsvertoningen, zie [&#x200B; een BedrijfsGeval bepalen: artikelindex &#x200B;](../../../manage-work/projects/define-a-business-case/define-business-case.md).
+U kunt een BedrijfsGeval voor pas gecreëerde projecten tot stand brengen verbonden aan de groep om projectverzoeken voor te leggen. U kunt voorkeur bepalen om te bepalen welke gebieden op het **BedrijfsGeval** vorm zichtbaar zijn. We raden u aan deze opties in te schakelen, zodat andere gereedschappen, zoals Portfolio Optimizer, correct worden bijgewerkt. Voor meer informatie over wat elke gebiedsvertoningen, zie [ een BedrijfsGeval bepalen: artikelindex ](../../../manage-work/projects/define-a-business-case/define-business-case.md).
 
-Nadat de beheerder van Workfront de secties op het BedrijfsGeval toelaat, kan een Eigenaar van het Project een BedrijfsGeval op het projectniveau dan creëren. Voor informatie over het creëren van een BedrijfsGeval, zie [&#x200B; een BedrijfsGeval voor een project &#x200B;](../../../manage-work/projects/define-a-business-case/create-business-case.md) creëren.
+Nadat de beheerder van Workfront de secties op het BedrijfsGeval toelaat, kan een Eigenaar van het Project een BedrijfsGeval op het projectniveau dan creëren. Voor informatie over het creëren van een BedrijfsGeval, zie [ een BedrijfsGeval voor een project ](../../../manage-work/projects/define-a-business-case/create-business-case.md) creëren.
 
 ### Na de dood  {#life-after-death}
 

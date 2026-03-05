@@ -6,7 +6,7 @@ description: U kunt een rapport filteren op het tijdframe van een datum die op e
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 7dea484c-d38e-4786-85d0-f4c106cfa46f
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 20ea292d49c691335e98459ff3eb00051a78577d
 workflow-type: tm+mt
 source-wordcount: '947'
 ht-degree: 0%
@@ -49,7 +49,7 @@ U kunt een rapport filteren op het tijdframe van een datum die op een object bes
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -57,7 +57,7 @@ Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van d
 
 Het rapport moet worden gecreeerd alvorens u zijn resultaten kunt filtreren.
 
-Voor meer informatie bij het creëren van rapporten, zie [&#x200B; een rapport &#x200B;](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-report.md) creëren.
+Voor meer informatie bij het creëren van rapporten, zie [ een rapport ](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-report.md) creëren.
 
 ## Een rapport filteren op de tijdlijn van een datum {#filter-a-report-by-the-timeframe-of-a-date}
 
@@ -70,7 +70,7 @@ Voor meer informatie bij het creëren van rapporten, zie [&#x200B; een rapport &
 1. Klik **toevoegen een Regel van de Filter**, dan **Uitgezocht een gebied**.
 
 1. In **selecteer een gebied** dialoogdoos, uitgezochte **Uur**, toen **Datum van de Ingang**.
-   ![&#x200B; het Filtreren het rapport van uur door timeframe &#x200B;](assets/qs-filtering-hour-report-by-timeframe-350x357.png)
+   ![ het Filtreren het rapport van uur door timeframe ](assets/qs-filtering-hour-report-by-timeframe-350x357.png)
 
 1. Selecteer een van de volgende opties in het keuzemenu dat wordt weergegeven:
 
@@ -148,11 +148,11 @@ Als u bijvoorbeeld een uurrapport maakt en de uren wilt weergeven die zijn ingev
   </tr> 
   <tr> 
    <td role="rowheader">Volgende week</td> 
-   <td>Geeft uren weer waarbij de ingangsdatum een datum is in de week na de huidige week, waarbij de week op zondag begint en op zaterdag eindigt. </td> 
+   <td>Geeft uren weer waarbij de ingangsdatum een datum is in de week na de huidige week, waarbij de week op zondag begint en op zaterdag eindigt. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Vorige week</td> 
-   <td>Geeft uren weer waarbij de ingangsdatum een datum is in de week voorafgaand aan de huidige week, waarbij de week op zondag begint en op zaterdag eindigt. </td> 
+   <td>Geeft uren weer waarbij de ingangsdatum een datum is in de week voorafgaand aan de huidige week, waarbij de week op zondag begint en op zaterdag eindigt. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Deze maand</td> 
@@ -182,7 +182,7 @@ Als u bijvoorbeeld een uurrapport maakt en de uren wilt weergeven die zijn ingev
   </tr> 
   <tr> 
    <td role="rowheader">Laatste kwartier</td> 
-   <td> <p>Geeft uren weer waarbij de ingangsdatum een datum is in het kwartaal voorafgaand aan het huidige kwartaal, waarbij kwartalen hierboven zijn gedefinieerd.</p> <p>Opmerking: als uw Workfront-beheerder aangepaste kwartalen voor uw systeem heeft ingeschakeld en gedefinieerd, worden de ingebouwde filters voor kwartalen vervangen door uw aangepaste kwartgegevens. Voor meer informatie over het toelaten van douanekwartalen, zie <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref"> douanekwarten </a> toelaten.</p> </td> 
+   <td> <p>Geeft uren weer waarbij de ingangsdatum een datum is in het kwartaal voorafgaand aan het huidige kwartaal, waarbij kwartalen hierboven zijn gedefinieerd.</p> <p><b>OPMERKING</b></p>  Als uw Workfront-beheerder aangepaste kwartalen voor uw systeem heeft ingeschakeld en gedefinieerd, worden de ingebouwde filters voor kwartalen vervangen door uw aangepaste kwartgegevens. Voor meer informatie over het toelaten van douanekwartalen, zie <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref"> douanekwarten </a> toelaten.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Dit jaar</td> 
@@ -194,7 +194,7 @@ Als u bijvoorbeeld een uurrapport maakt en de uren wilt weergeven die zijn ingev
   </tr> 
   <tr> 
    <td role="rowheader">Vorig jaar</td> 
-   <td> <p>Geeft uren weer waarbij de datum van binnenkomst een datum is in het laatste jaar, waarbij het laatste jaar begint op 1 januari en eindigt op 31 december van het jaar dat voorafgaat aan het lopende jaar.</p> <p>Opmerking: er is geen ingebouwde tijdsperiode voor het belastingjaar. U kunt een rapport creëren en de informatie door datum filtreren gebruikend een douanebepaling voor de datumwaaier van het fiscale jaar, zoals het in uw organisatie wordt bepaald. Als u een tijdpad voor een belastingjaar ter plekke wilt kiezen, gebruikt u een vraag in plaats van een filter. </p> </td> 
+   <td> <p>Geeft uren weer waarbij de datum van binnenkomst een datum is in het laatste jaar, waarbij het laatste jaar begint op 1 januari en eindigt op 31 december van het jaar dat voorafgaat aan het lopende jaar.</p> <p>Opmerking: er is geen ingebouwde tijdsperiode voor het belastingjaar. U kunt een rapport creëren en de informatie door datum filtreren gebruikend een douanebepaling voor de datumwaaier van het fiscale jaar, zoals het in uw organisatie wordt bepaald. Als u een tijdpad voor een belastingjaar ter plekke wilt kiezen, gebruikt u een vraag in plaats van een filter. </p> </td> 
   </tr> 
  </tbody> 
 </table>
