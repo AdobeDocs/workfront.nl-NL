@@ -8,7 +8,10 @@ description: Als beheerder van Adobe Workfront, kan gebruikers toegang tot menin
 author: Becky
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 85085b2e03e2dc9db50b49e89b4cf2c0f8b74093
+hide: true
+hidefromtoc: true
+exl-id: 2227cdb7-909c-429d-a078-4f508157a679
+source-git-commit: 1389c6a1f41a14bafd6b70e2e079e40d22d47b07
 workflow-type: tm+mt
 source-wordcount: '155'
 ht-degree: 0%
@@ -21,7 +24,7 @@ ht-degree: 0%
 
 Om een bedrijfsprofiel aan een gebruiker toe te wijzen, moet u een groep en een bijbehorend toegangsniveau toewijzen.
 
-Voor meer informatie over Bedrijfs Profielen, zie [&#x200B; overzicht Bedrijfs van profielen &#x200B;](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/business-profiles.md).
+Voor meer informatie over Bedrijfs Profielen, zie [ overzicht Bedrijfs van profielen ](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/business-profiles.md).
 
 ## Een bedrijfsprofiel voor een gebruiker maken
 
