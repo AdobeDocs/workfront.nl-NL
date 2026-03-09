@@ -3,14 +3,14 @@ product-area: requests
 navigation-topic: create-requests
 title: Verzonden verzoeken weergeven
 description: Leer over de gebieden van Adobe Workfront waar u verzoeken kunt bekijken die u of iemand anders heeft ingediend of verzoeken die u nooit hebt verzonden en als concepten bent opgeslagen.
-author: Becky
+author: Alina
 feature: Requests
 topic: Collaboration
 role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
-source-wordcount: '1506'
+source-wordcount: '1363'
 ht-degree: 0%
 
 ---
@@ -68,7 +68,7 @@ In het gebied Verzoeken worden de volgende verzoeken weergegeven, afhankelijk va
  </tbody> 
 </table>
 
-Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -85,50 +85,43 @@ U kunt voorgelegde verzoeken op het gebied van Verzoeken bekijken, die verbindin
 
 >[!NOTE]
 >
->Koppelingen naar gemaakte objecten zijn alleen beschikbaar in de nieuwe verzoekervaring voor planningsverzoeken, in gevallen waarin het verzoek zelf een object heeft gemaakt. Als een Workfront-verzoek wordt geconverteerd naar een project of ander object, is een koppeling naar dat geconverteerde object niet beschikbaar in de lijst met aanvragen in de nieuwe verzoekervaring.
+>Koppelingen naar gemaakte objecten zijn alleen beschikbaar in de nieuwe verzoekervaring voor planningsverzoeken, in gevallen waarin het verzoek zelf een record heeft gemaakt.
+>
+>Als een Workfront-verzoek wordt geconverteerd naar een project of ander object, is een koppeling naar dat geconverteerde object niet beschikbaar in de lijst met aanvragen in de nieuwe verzoekervaring.
 
 Om verzoeken te bekijken die u of andere gebruikers in de nieuwe het vragen ervaring hebben voorgelegd:
 
 {{step1-to-requests}}
 
-1. Zorg ervoor dat de **nieuwe ervaring van het Gebruik** knevel in de hoger-juiste hoek van het scherm wordt toegelaten.
+1. Zorg ervoor dat het **gebruik nieuwe ervaring** plaatsen in de hoger-juiste hoek van het scherm wordt aangezet.
 
-   De lijst Verzoeken wordt weergegeven.
+   De lijst met aanvragen wordt weergegeven.
 
 1. (Optioneel) Als u naar een aanvraag wilt zoeken, typt u in de zoekbalk rechtsboven in de lijst. Zoekresultaten worden weergegeven terwijl u typt.
 1. (Facultatief) klik **Filters** en begin voorwaarden voor de verzoeken toe te voegen u wilt tonen.
 
-   U kunt filteren op de volgende velden:
+   Voor meer informatie over filters, zie [ meningen in het gebied van Verzoeken ](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md) creëren en leiden.
 
-   * **Workspace**: De werkruimte de verzoekvorm wordt geassocieerd met.
-   * **Type van Verslag**: Het verslagtype het verzoekvorm wordt geassocieerd met.
-   * **Datum van de Ingang**: De datum toen het verzoek werd voorgelegd.
-   * **vorm van het Verzoek**: De naam van de verzoekvorm die wordt gebruikt om het verzoek voor te leggen.
-   * **Status**: De status van het verzoek.
-   * **ingegaan door**: De naam van de gebruiker die het verzoek toevoegde. Als het verzoek door iemand buiten Workfront werd toegevoegd, **ingegaan door** gebied toont `N/A`.
+1. (Facultatief) klik het **drop-down menu van Meningen** om uw mening bij te werken of het met anderen te delen.
 
-   U kunt veelvoudige filters hebben die door of **worden aangesloten en** of **of**.
-De aanvraaglijst wordt automatisch gefilterd, aangezien u de filtervoorwaarden toevoegt.
-1. (Optioneel) Gebruik weergaven om de aandacht te vestigen op de verzoeken die u wilt weergeven.
-
-   Voor instructies, zie [&#x200B; meningen in het gebied van Verzoeken &#x200B;](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md) creëren of uitgeven.
-1. (Optioneel) Controleer de status van een aanvraag door de kolom Status te controleren. De volgende statussen zijn beschikbaar in de nieuwe ervaring die u opvraagt:
+   Voor informatie, zie [ meningen in het gebied van Verzoeken ](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md) creëren of uitgeven.
+1. (Facultatief) controleer het statuut van een verzoek door de **kolom van de Status** te controleren. De volgende statussen zijn beschikbaar in de nieuwe ervaring die u opvraagt:
 
    * **Ontwerp**: Dit verzoek is nog niet voorgelegd.
    * **In afwachting van Overzicht**: (De Planning slechts) Dit verzoek heeft fiatteurs, en geen van de fiatteurs hebben het verzoek geopend.
    * **In Overzicht**: (Planning slechts) Dit verzoek heeft fiatteurs en minstens één fiatteur heeft het verzoek geopend, maar geen besluit is genomen.
-   * **Verworpen**: (Planning slechts) Dit verzoek heeft fiatteurs en is verworpen.
+   * **Verworpen**: (Planning slechts) Dit verzoek heeft fiatteurs en is verworpen. Met dit verzoek wordt geen record gemaakt.
    * **Bezig**:
       * Workfront-verzoeken: het verzoek is omgezet en het werk is aan de gang.
       * Aanvragen voor Workfront-planning: De voltooiing van de aanvraag wordt toegewezen aan een specifiek planningsveld en de veldwaarde komt nog niet overeen met de voltooiingswaarde.
 
-        Voor meer informatie, zie [&#x200B; de details van de Configuratie van de Opstelling &#x200B;](/help/quicksilver/planning/requests/create-request-form.md#set-up-configuration-details) in artikel creëren en beheren een verzoekvorm in de Planning van Adobe Workfront.
+        Voor meer informatie, zie [ de details van de Configuratie van de Opstelling ](/help/quicksilver/planning/requests/create-request-form.md#set-up-configuration-details) in artikel creëren en beheren een verzoekvorm in de Planning van Adobe Workfront.
    * **Volledig**: Het verzoek wordt voltooid.
 
 >[!NOTE]
 >
->* Als u de Planning van Workfront hebt, verschijnen uw verzoeken van Workfront en van de Planning in de zelfde lijst. Workfront-aanvragen geven de waarde `Issue` weer in de kolom Objecttype.
->* De lijst met verzoeken wordt weergegeven met 50 verzoeken. Schuif naar de onderkant van de lijst om meer verzoeken weer te geven.
+>* Als u de Planning van Workfront hebt, verschijnen uw verzoeken van Workfront en van de Planning in de zelfde lijst. De verzoeken van Workfront tonen de waarde `Issue` in de **het type van Objecten** kolom.
+>* Er worden standaard maximaal 50 verzoeken weergegeven in de lijst in het gebied Verzoeken. Schuif naar de onderkant van de lijst om meer verzoeken weer te geven.
 
 ### Verzonden aanvragen in de oudere versie weergeven en ervaringen aanvragen
 
@@ -145,7 +138,7 @@ Om verzoeken te bekijken die u of andere gebruikers in de erfenis hebben voorgel
    >
    >U kunt de kolommen in de lijst Verzendverzoeken niet aanpassen.
 
-   ![&#x200B; voorgelegde verzoeken nieuwe lijst &#x200B;](assets/nwe-submitted-requests-new-list-350x57.png)
+   ![ voorgelegde verzoeken nieuwe lijst ](assets/nwe-submitted-requests-new-list-350x57.png)
 
 
 1. De volgende kolommen worden standaard weergegeven:
@@ -189,17 +182,17 @@ Om verzoeken te bekijken die u of andere gebruikers in de erfenis hebben voorgel
    >
    >Wanneer u bij de lijst Verzendverzoeken vandaan navigeert, blijft de geselecteerde sorteeroptie behouden.
 
-1. (Facultatief) selecteer een verzoek in de lijst, dan klik de **Open Samenvatting** pictogram ![&#x200B; Open samenvatting met tekst &#x200B;](assets/open-summary-with-text-nwe.png) om het Samenvattingspaneel te openen en extra informatie over het verzoek te tonen, commentaren, documenten toe te voegen, of het toe te wijzen. Voor informatie over het Summiere paneel, zie [&#x200B; Overzicht &#x200B;](../../../workfront-basics/the-new-workfront-experience/summary-overview.md).
+1. (Facultatief) selecteer een verzoek in de lijst, dan klik de **Open Samenvatting** pictogram ![ Open samenvatting met tekst ](assets/open-summary-with-text-nwe.png) om het Samenvattingspaneel te openen en extra informatie over het verzoek te tonen, commentaren, documenten toe te voegen, of het toe te wijzen. Voor informatie over het Summiere paneel, zie [ Overzicht ](../../../workfront-basics/the-new-workfront-experience/summary-overview.md).
 
    >[!TIP]
    >
    >Als het deelvenster Samenvatting al is geopend, verandert het pictogram Samenvatting openen in Samenvatting sluiten.
 
-1. (Facultatief en voorwaardelijk) klik het **X** pictogram in de hoger-juiste hoek of het **Dichte Samenvatting** pictogram ![&#x200B; dicht overzicht met tekst &#x200B;](assets/close-summary-with-text-nwe.png) om het Summiere Comité te sluiten.
+1. (Facultatief en voorwaardelijk) klik het **X** pictogram in de hoger-juiste hoek of het **Dichte Samenvatting** pictogram ![ dicht overzicht met tekst ](assets/close-summary-with-text-nwe.png) om het Summiere Comité te sluiten.
 
-   Als een kwestie in een taak of een project werd omgezet en de kwestie in het omzettingsproces werd geschrapt, is het Summiere paneel leeg. Voor informatie over het omzetten van kwesties, zie [&#x200B; Overzicht van het omzetten van kwesties in Adobe Workfront &#x200B;](../../../manage-work/issues/convert-issues/convert-issues.md).
+   Als een kwestie in een taak of een project werd omgezet en de kwestie in het omzettingsproces werd geschrapt, is het Summiere paneel leeg. Voor informatie over het omzetten van kwesties, zie [ Overzicht van het omzetten van kwesties in Adobe Workfront ](../../../manage-work/issues/convert-issues/convert-issues.md).
 
-1. Van het **pictogram van de Filter** ![&#x200B; pictogram van de Filter &#x200B;](assets/filter-nwepng.png) in het hoogste recht van de lijst, selecteer om het even welke filters die in de hieronder lijst worden vermeld.
+1. Van het **pictogram van de Filter** ![ pictogram van de Filter ](assets/filter-nwepng.png) in het hoogste recht van de lijst, selecteer om het even welke filters die in de hieronder lijst worden vermeld.
 
    >[!TIP]
    >
@@ -232,17 +225,19 @@ Om verzoeken te bekijken die u of andere gebruikers in de erfenis hebben voorgel
     </tbody> 
    </table>
 
-1. (Facultatief) klik het **pictogram** pictogram van het Onderzoek ![&#x200B; bij de bovenkant van de lijst om naar een verzoek door naam te zoeken. &#x200B;](assets/search-icon.png) De lijst wordt bijgewerkt met resultaten die overeenkomen met uw zoekcriteria.
-
-1. (Voorwaardelijk) Als u alleen Workfront Request-wachtrijen wilt weergeven, zoekt of filtert u naar `Issue` -objecttypen. </span>
-
+1. (Facultatief) klik het **pictogram** pictogram van het Onderzoek ![ bij de bovenkant van de lijst om naar een verzoek door naam te zoeken. ](assets/search-icon.png) De lijst wordt bijgewerkt met resultaten die overeenkomen met uw zoekcriteria.
 
    <!--
-   <li value="9" data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p>Click the <strong>Complete</strong> subtab to view requests that have been completed.</p> <p>(NOTE: this step will stay drafted even after release. We can't see Completed at this time!) <br>Requests with an Actual Completion Date or whose resolving object has an Actual Completion Date are listed in the Complete subtab.<br>Once a request receives an Actual Completion Date, it stays in the Recently Completed area for 10 business days. After that, it is moved to the Completed area. <br>For information about resolving and resolvable objects, see the article <a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md" class="MCXref xref">Overview of Resolving and Resolvable Objects </a>.</p> </li>
+
+   1. (Conditional) To display only Workfront Request queues, search or filter for `Issue` object types.</span>
    -->
 
    <!--
-   <li value="10" data-mc-conditions="QuicksilverOrClassic.Draft mode">(Optional) Select an option from the <strong>Sort by</strong> drop-down menu to sort the requests by the following criteria:   (NOTE: this step will stay drafted even after release. We can't see Completed at this time!)  
+   <li> <p>Click the <strong>Complete</strong> subtab to view requests that have been completed.</p> <p>(NOTE: this step will stay drafted even after release. We can't see Completed at this time!) <br>Requests with an Actual Completion Date or whose resolving object has an Actual Completion Date are listed in the Complete subtab.<br>Once a request receives an Actual Completion Date, it stays in the Recently Completed area for 10 business days. After that, it is moved to the Completed area. <br>For information about resolving and resolvable objects, see the article <a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md" class="MCXref xref">Overview of Resolving and Resolvable Objects </a>.</p> </li>
+   -->
+
+   <!--
+   <li>(Optional) Select an option from the <strong>Sort by</strong> drop-down menu to sort the requests by the following criteria:   (NOTE: this step will stay drafted even after release. We can't see Completed at this time!)  
    <ul>
    <li><strong>Assigned To</strong>: Requests are sorted alphabetically by the name of the assignee using the following criteria: 
    <ul>
@@ -260,21 +255,20 @@ Om verzoeken te bekijken die u of andere gebruikers in de erfenis hebben voorgel
    </ul></li>
    -->
 
-1. Klik **Concepten** om alle opgestelde verzoeken te bekijken. Workfront slaat een onbeperkt aantal concepten op voor elke aanvraagwachtrij in deze map. Wanneer u een nieuw verzoek voor een rijonderwerp ingaat dat reeds een ontwerp heeft, zult u worden ertoe aangezet om een bestaand ontwerp te gebruiken. Voor meer informatie, zie [&#x200B; verzoeken van concepten &#x200B;](../../../manage-work/requests/create-requests/create-requests-from-drafts.md) creëren.
+1. Klik **Concepten** om alle opgestelde verzoeken te bekijken. Workfront slaat een onbeperkt aantal concepten op voor elke aanvraagwachtrij in deze map. Wanneer u een nieuw verzoek voor een rijonderwerp ingaat dat reeds een ontwerp heeft, zult u worden ertoe aangezet om een bestaand ontwerp te gebruiken. Voor meer informatie, zie [ verzoeken van concepten ](../../../manage-work/requests/create-requests/create-requests-from-drafts.md) creëren.
 
-1. (Facultatief en voorwaardelijk) als uw organisatie een pakket van de Planning van Workfront kocht, klik het **Planning** lusje, dan klik **voorgelegde** in het linkerpaneel om de verzoeken van de Planning van Workfront te bekijken.
+   <!--Planning tab has been removed and no longer visible in legacy Requests area: 
+   (Optional and conditional) If your organization purchased a Workfront Planning package, click the **Planning** tab, then click **Submitted** in the left panel to view Workfront Planning requests. 
+      Use **Filters** and **Columns** to update the information in the Planning request list. 
+      ![Planning tab submitted section in Requests area](assets/workfront-planning-tab-submitted-section-in-requests-area.png)
+      For information, see [Submit Adobe Workfront Planning requests to create records](/help/quicksilver/planning/requests/submit-requests.md).
+   -->
 
-   De Filters van het gebruik **en** Kolommen **om de informatie in de lijst van het Verzoek van de Planning bij te werken.**
 
-   ![&#x200B; het lusje van de Planning voorgelegde sectie in het gebied van Verzoeken &#x200B;](assets/workfront-planning-tab-submitted-section-in-requests-area.png)
+1. (Facultatief) controleer het statuut van een verzoek door de **kolom van de Status** te controleren. De volgende statussen zijn beschikbaar in de nieuwe ervaring die u opvraagt:
 
-   Voor informatie, zie [&#x200B; de Verzoeken van de Planning van Adobe Workfront voorleggen om verslagen &#x200B;](/help/quicksilver/planning/requests/submit-requests.md) tot stand te brengen.
-
-
-1. (Optioneel) Controleer de status van een aanvraag door de kolom Status te controleren. De volgende statussen zijn beschikbaar in de nieuwe ervaring die u opvraagt:
-
-   * Ontwerp: Dit verzoek is nog niet ingediend.
-   * In uitvoering
-   * Voltooid
+   * **Ontwerp**: Dit verzoek is nog niet voorgelegd.
+   * **Bezig**
+   * **Volledig**
 
 

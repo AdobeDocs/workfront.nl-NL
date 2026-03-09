@@ -3,12 +3,12 @@ product-area: requests
 navigation-topic: create-and-manage-request-queues
 title: Forms voor projectinname maken
 description: Met formulieren voor het opnemen van projecten kunt u het maken van projecten in Workfront vereenvoudigen
-author: Becky
+author: Alina
 feature: Work Management, Requests
 role: User, Admin
 hide: true
 hidefromtoc: true
-source-git-commit: 5ff71313c550d949079e7426b657a0a4e19a656c
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
 source-wordcount: '1329'
 ht-degree: 0%
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 <span class="preview"> de informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>
 
-<span class="preview"> voor informatie over snelle versies, zie [&#x200B; snelle versies voor uw organisatie &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
+<span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
 
 De de innameformulieren van het project zijn een type van verzoekvorm die gebruikers toestaat om projecten aan te vragen. De projecten worden gecreeerd van de vorm, zonder het moeten een project van een voorgelegde kwestie tot stand brengen.
 
@@ -55,7 +55,7 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -69,7 +69,7 @@ De innameformulieren voor projecten bevatten de volgende mogelijkheden:
 
 Workfront-formulieren voor projectopname ondersteunen Workfront Planning Automations om de gemaakte projectspecifieke eigenschappen te configureren.
 
-Voor meer informatie bij de automatisering van de Planning, zie [&#x200B; de automatisering van de Planning van Adobe Workfront &#x200B;](/help/quicksilver/planning/records/configure-automations-to-create-records.md) vormen.
+Voor meer informatie bij de automatisering van de Planning, zie [ de automatisering van de Planning van Adobe Workfront ](/help/quicksilver/planning/records/configure-automations-to-create-records.md) vormen.
 
 ### Goedkeuringsconfiguratie
 
@@ -94,7 +94,7 @@ De volgende veldtypen worden momenteel niet ondersteund in Project Intake Forms:
 
 Formulieren voor het opnemen van projecten kunnen alleen worden gebruikt met de nieuwe ervaring die u opvraagt.
 
-Voor informatie over de nieuwe het vragen ervaring, zie [&#x200B; verzoeken &#x200B;](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md) creëren en voorleggen.
+Voor informatie over de nieuwe het vragen ervaring, zie [ verzoeken ](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md) creëren en voorleggen.
 
 #### Delen
 
@@ -157,7 +157,7 @@ Formulieren voor het opnemen van projecten bieden geen ondersteuning voor openba
    * **Beschrijvende tekst**
    * **de onderbreking van de Sectie**
 
-   Voor meer informatie over de bouw van een douaneformulier, zie [&#x200B; een douaneformulier &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren.
+   Voor meer informatie over de bouw van een douaneformulier, zie [ een douaneformulier ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren.
 
 1. Klik het **lusje van Automaties** op de linkerkant van de vorm, dan doe om het even welke volgend:
 
@@ -178,9 +178,9 @@ Formulieren voor het opnemen van projecten bieden geen ondersteuning voor openba
    * Alle fiatteurs moeten een besluit nemen voordat een project wordt goedgekeurd of afgewezen.
    * Als een team als fiatteur wordt geplaatst, wordt slechts één besluit vereist van het team.
 
-     Voor meer informatie over het toevoegen van goedkeuringen aan aanvraagvormen, zie [&#x200B; goedkeuring aan een verzoekvorm &#x200B;](/help/quicksilver/planning/requests/add-approval-to-request-form.md) toevoegen.
+     Voor meer informatie over het toevoegen van goedkeuringen aan aanvraagvormen, zie [ goedkeuring aan een verzoekvorm ](/help/quicksilver/planning/requests/add-approval-to-request-form.md) toevoegen.
 
-1. (Facultatief) klik het **Meer** menu ![&#x200B; Meer menu &#x200B;](assets/more-menu.png) rechts van de naam van de vorm in de kopbal, dan klik **uitgeven** om de naam van de vorm bij te werken.
+1. (Facultatief) klik het **Meer** menu ![ Meer menu ](assets/more-menu.png) rechts van de naam van de vorm in de kopbal, dan klik **uitgeven** om de naam van de vorm bij te werken.
 
 1. Klik **publiceren** om de vorm te publiceren en een unieke verbinding voor het te verkrijgen.
 
@@ -196,7 +196,7 @@ Formulieren voor het opnemen van projecten bieden geen ondersteuning voor openba
 
    De **vorm van het Verzoek** lijstmening opent en de vorm wordt toegevoegd aan het.
 
-1. (Facultatief) Beweeg over de naam van een verzoekvorm in de lijstmening, dan klik **Meer** menu ![&#x200B; Meer menu &#x200B;](assets/more-menu.png) rechts van de vormnaam, en klik één van het volgende:
+1. (Facultatief) Beweeg over de naam van een verzoekvorm in de lijstmening, dan klik **Meer** menu ![ Meer menu ](assets/more-menu.png) rechts van de vormnaam, en klik één van het volgende:
 
    * **geef vorm** uit: Klik dit om informatie over de vorm verder uit te geven.
    * **unpublish**: Klik dit om de vorm ongedaan te maken die het uit het gebied van Verzoeken in Workfront verwijdert.

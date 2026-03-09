@@ -6,9 +6,9 @@ description: Wanneer u aan een doel begint te werken en het in uw organisatie ir
 author: Alina
 feature: Workfront Goals
 exl-id: 3089adeb-3e56-492a-82fe-536f57079b73
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
-source-wordcount: '590'
+source-wordcount: '603'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,8 @@ Wanneer u aan een doel begint te werken en het in uw organisatie irrelevant word
  <tr>
   <td> <p>Adobe Workfront-pakket</p> </td> 
    <td> 
-   <p>Adobe Workfront Ultimate</p>
+   <p>Adobe Workfront Ultimate</p><p><b>OPMERKING</b></p>
+<p>Neem contact op met uw Workfront-vertegenwoordiger als u een ander Workfront-pakket hebt.</p>
    </td> 
   </tr>
  <tr>
@@ -67,7 +68,7 @@ Wanneer u aan een doel begint te werken en het in uw organisatie irrelevant word
 </tbody>
 </table>
 
-Voor meer informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -129,21 +130,21 @@ Voor meer informatie, zie [&#x200B; vereisten van de Toegang in de documentatie 
 
 U kunt een doel deactiveren dat niet meer relevant is en dat u in de toekomst wellicht opnieuw wilt activeren.
 
-* [&#x200B; Overwegingen wanneer het deactiveren van doelstellingen &#x200B;](#considerations-when-deactivating-goals)
+* [ Overwegingen wanneer het deactiveren van doelstellingen ](#considerations-when-deactivating-goals)
 * [Doelen deactiveren](#deactivate-goals)
 
 ### Overwegingen bij het deactiveren van doelen
 
 Herinner het volgende wanneer het deactiveren van doelstellingen:
 
-* U kunt doelen alleen deactiveren in een actieve status. Voor informatie over het activeren van een doel, zie [&#x200B; doelstellingen in de Doelen van Adobe Workfront &#x200B;](../../workfront-goals/goal-management/activate-goals.md) activeren.
+* U kunt doelen alleen deactiveren in een actieve status. Voor informatie over het activeren van een doel, zie [ doelstellingen in de Doelen van Adobe Workfront ](../../workfront-goals/goal-management/activate-goals.md) activeren.
 
   >[!TIP]
   >
   >U kunt doelen in een conceptstatus niet deactiveren.
 
 * Workfront berekent niet langer de voortgang van gedeactiveerde doelen.
-* Niet-actieve doelen worden niet meer weergegeven in het gedeelte Grafieken van Workfront Goals, of er wordt hiermee rekening mee gehouden. Voor informatie over de grafieken van de Doelen van Workfront, zie [&#x200B; grafieken van het Overzicht om de tendensen van de doelvooruitgang in de Doelen van Adobe Workfront te begrijpen &#x200B;](../../workfront-goals/goal-review-and-workfront-goals-sections/review-goal-graphs.md).
+* Niet-actieve doelen worden niet meer weergegeven in het gedeelte Grafieken van Workfront Goals, of er wordt hiermee rekening mee gehouden. Voor informatie over de grafieken van de Doelen van Workfront, zie [ grafieken van het Overzicht om de tendensen van de doelvooruitgang in de Doelen van Adobe Workfront te begrijpen ](../../workfront-goals/goal-review-and-workfront-goals-sections/review-goal-graphs.md).
 
   <!--* The Check-in section. For information about the Check-in page, see [Update goal progress in Adobe Workfront Goals](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md). -->
 
@@ -185,15 +186,15 @@ De vertoningen van de doellijst.
 
 1. (Optioneel) Wijzig de filters om alleen actieve doelen weer te geven.
 
-   Voor informatie over het filtreren van informatie in de Doelen van Workfront, zie [&#x200B; informatie van de Filter in de Doelen van Adobe Workfront &#x200B;](../goal-management/filter-information-wf-goals.md).
+   Voor informatie over het filtreren van informatie in de Doelen van Workfront, zie [ informatie van de Filter in de Doelen van Adobe Workfront ](../goal-management/filter-information-wf-goals.md).
 
 1. Klik op een actief doel.
 
    De doelpagina wordt geopend.
 
-   ![&#x200B; Goal pagina &#x200B;](assets/goal-page-unshimmed.png)
+   ![ Goal pagina ](assets/goal-page-unshimmed.png)
 
-1. Klik het **Meer** menu ![&#x200B; Meer pictogram &#x200B;](assets/more-icon.png) aan het recht van de doelnaam, dan klik **Deactivate**.
+1. Klik het **Meer** menu ![ Meer pictogram ](assets/more-icon.png) aan het recht van de doelnaam, dan klik **Deactivate**.
 
 1. Het doel wordt gedeactiveerd en zijn status wordt Inactief.
 
@@ -201,7 +202,7 @@ De vertoningen van de doellijst.
 
 U kunt doelstellingen schrappen die niet meer of zou nooit relevant kunnen zijn.
 
-* [&#x200B; Overwegingen wanneer het schrappen van doelstellingen &#x200B;](#considerations-when-deleting-goals)
+* [ Overwegingen wanneer het schrappen van doelstellingen ](#considerations-when-deleting-goals)
 * [Doelstellingen verwijderen](#delete-goals)
 
 ### Overwegingen bij het verwijderen van doelen {#considerations-when-deleting-goals}
@@ -238,7 +239,7 @@ Deleting  goals differs depending on which environment you use.
 De vertoningen van de doellijst.
 
 1. Klik op de naam van een doel. Hierdoor wordt de doelpagina geopend.
-1. Klik het **Meer** menu ![&#x200B; Meer pictogram &#x200B;](assets/more-icon.png) aan het recht van de doelnaam, dan klik **Goal van de Schrapping**, toen **Schrapping**.
+1. Klik het **Meer** menu ![ Meer pictogram ](assets/more-icon.png) aan het recht van de doelnaam, dan klik **Goal van de Schrapping**, toen **Schrapping**.
 
    Het doel en de activiteiten en resultaten ervan worden eveneens geschrapt en kunnen niet worden teruggevorderd. De projecten die met het doel of de kinddoelstellingen werden geassocieerd worden niet geschrapt.
 

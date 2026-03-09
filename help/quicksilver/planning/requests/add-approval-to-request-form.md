@@ -3,12 +3,12 @@ title: Goedkeuring toevoegen aan een aanvraagformulier in Adobe Workfront-planni
 description: U kunt een goedkeuringsproces aan een formulier van het de planningsverzoek van Adobe Workfront toevoegen, om een goedkeuring voor elk voorgelegd verzoek in werking te stellen, alvorens het tot een verslag leidt.
 feature: Workfront Planning
 role: User, Admin
-author: Alina, Becky
+author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 058148db-1795-4d39-be87-271008ae3d47
-source-git-commit: f5d6918889b7fed1159274105ee706a027f621bf
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
-source-wordcount: '1192'
+source-wordcount: '1210'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 <span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>
 
-<span class="preview"> voor informatie over snelle versies, zie [&#x200B; snelle versies voor uw organisatie &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
+<span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
 
 {{planning-important-intro}}
 
@@ -29,9 +29,9 @@ U kunt een goedkeuringsproces aan een formulier van het de planningsverzoek van 
 
 In dit artikel wordt beschreven hoe een werkruimtebeheerder een goedkeuring kan toevoegen aan een aanvraagformulier dat is gekoppeld aan een recordtype.
 
-Voor informatie over het creëren van een verzoekvorm in de Planning van Workfront, zie [&#x200B; een verzoekvorm in de Planning van Adobe Workfront creëren en beheren &#x200B;](/help/quicksilver/planning/requests/create-request-form.md).
+Voor informatie over het creëren van een verzoekvorm in de Planning van Workfront, zie [ een verzoekvorm in de Planning van Adobe Workfront creëren en beheren ](/help/quicksilver/planning/requests/create-request-form.md).
 
-Voor informatie over het voorleggen van een verzoek aan een verslagtype om een verslag tot stand te brengen, zie [&#x200B; de Verzoeken van de Planning van Adobe Workfront voorleggen om verslagen &#x200B;](/help/quicksilver/planning/requests/submit-requests.md) tot stand te brengen.
+Voor informatie over het voorleggen van een verzoek aan een verslagtype om een verslag tot stand te brengen, zie [ de Verzoeken van de Planning van Adobe Workfront voorleggen om verslagen ](/help/quicksilver/planning/requests/submit-requests.md) tot stand te brengen.
 
 ## Toegangsvereisten
 
@@ -67,14 +67,14 @@ of
 </tbody> 
 </table>
 
-Voor meer informatie over de toegangsvereisten van Workfront, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer informatie over de toegangsvereisten van Workfront, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Overwegingen bij het toevoegen van goedkeuringen aan een aanvraagformulier
 
 * U kunt een of meerdere fiatteurs toevoegen aan een aanvraagformulier. U kunt alleen gebruikers toevoegen als fiatteurs.
-* U kunt goedkeuringsgegevens weergeven in een record die is gemaakt door een aanvraagformulier in te dienen in de velden Goedgekeurd door en Goedgekeurd. Voor informatie, zie [&#x200B; gebieden &#x200B;](/help/quicksilver/planning/fields/create-fields.md) creëren.
+* U kunt goedkeuringsgegevens weergeven in een record die is gemaakt door een aanvraagformulier in te dienen in de velden Goedgekeurd door en Goedgekeurd. Voor informatie, zie [ gebieden ](/help/quicksilver/planning/fields/create-fields.md) creëren.
 * Wanneer u meerdere fiatteurs toevoegt aan een aanvraagformulier, moeten alle fiatteurs het verzoek accepteren voordat een record wordt gemaakt in Workfront Planning.
 * Als alle fiatteurs het verzoek goedkeuren, wordt een verslag gecreeerd voor het verslagtype verbonden aan het verzoekformulier.
 * Als minstens één fiatteur het verzoek verwerpt, en alle anderen het goedkeuren, wordt een verzoek gecreeerd voor het gebied van Verzoeken in Workfront, maar geen verslag wordt gecreeerd voor het verslagtype verbonden aan het verzoekformulier.
@@ -82,12 +82,12 @@ Voor meer informatie over de toegangsvereisten van Workfront, zie [&#x200B; vere
 
 ## Een goedkeuring toevoegen aan een aanvraagformulier in de productieomgeving
 
-1. Begin creërend een verzoekvorm voor een verslagtype, zoals die in [&#x200B; wordt beschreven creeer en beheer een verzoekvorm in de Planning van Adobe Workfront &#x200B;](/help/quicksilver/planning/requests/create-request-form.md).
+1. Begin creërend een verzoekvorm voor een verslagtype, zoals die in [ wordt beschreven creeer en beheer een verzoekvorm in de Planning van Adobe Workfront ](/help/quicksilver/planning/requests/create-request-form.md).
 1. Klik **Configuratie**.
 
    De **vertoningen van het het gebiedsgebied van de Configuratie**.
 
-   ![&#x200B; het lusje van de Configuratie &#x200B;](assets/configuration-tab.png)
+   ![ het lusje van de Configuratie ](assets/configuration-tab.png)
 1. Op het **Approvers** gebied, begin de naam van een gebruiker of een team te typen dat u als fiatteur wilt plaatsen, dan het selecteren wanneer het in de lijst toont.
 1. (Facultatief en voorwaardelijk) als u meer dan één fiatteur hebt geplaatst, en slechts één fiatteur nodig om een besluit te nemen, laat **slechts één besluit toe wordt vereist** optie.
 
@@ -119,21 +119,19 @@ Voor meer informatie over de toegangsvereisten van Workfront, zie [&#x200B; vere
    >   Het exemplaar van Workfront van uw organisatie moet aan de Verenigde Ervaring van Adobe worden ingezien zodat de gebruikers e-mail en in-app berichten kunnen ontvangen.
 
 
-   Voor informatie over het goedkeuren van verzoeken, zie [&#x200B; een verzoek &#x200B;](/help/quicksilver/planning/requests/approve-request.md) goedkeuren.
+   Voor informatie over het goedkeuren van verzoeken, zie [ een verzoek ](/help/quicksilver/planning/requests/approve-request.md) goedkeuren.
 
 <div class="preview">
 
-## Goedkeuringsregels toevoegen aan een aanvraagformulier
-
->[!NOTE]
->
->Deze functionaliteit is alleen beschikbaar in de voorvertoningsomgeving.
+## Goedkeuringsregels toevoegen aan een aanvraagformulier in de voorbeeldomgeving
 
 In de goedkeuringsregels wordt het goedkeuringsproces gedefinieerd op basis van de veldwaarden in de ingediende aanvragen.
 
 Als een aanvraagformulier bijvoorbeeld het veld ‘Campagnertype’ heeft, kan een regel worden gemaakt die de aanvraag naar één persoon verzendt wanneer het veld de waarde ‘Digitaal’ heeft en naar een andere persoon wanneer deze de waarde ‘Afdrukken’ heeft.
 
 Houd rekening met het volgende wanneer u goedkeuringsregels toevoegt:
+
+<!--below bullet list is duplicated in the Add approval to a request form in the Production environment section above-->
 
 * U kunt een of meerdere fiatteurs toevoegen aan een goedkeuringsregel.
 * Als ten minste één fiatteur het verzoek afwijst, wordt het verzoek afgewezen en wordt de record niet gemaakt. Het verzoek blijft op het gebied van verzoeken van Workfront.
@@ -142,18 +140,16 @@ Houd rekening met het volgende wanneer u goedkeuringsregels toevoegt:
 
 Goedkeuringsregels instellen voor een aanvraagformulier:
 
-1. Begin creërend een verzoekvorm voor een verslagtype, zoals die in [&#x200B; wordt beschreven creeer en beheer een verzoekvorm in de Planning van Adobe Workfront &#x200B;](/help/quicksilver/planning/requests/create-request-form.md).
-1. Klik **Montages**.
+1. Begin creërend een verzoekvorm voor een verslagtype, zoals die in artikel [ wordt beschreven creeer en beheer een verzoekvorm in de Planning van Adobe Workfront ](/help/quicksilver/planning/requests/create-request-form.md).
+1. Wanneer de verzoekvorm opent, klik **Montages**.
 
-   Het tabblad Instellingen wordt weergegeven.
+   Het **lusje van Montages** opent.
 
-1. Beginnen vormend goedkeuringsregels, klik **goedkeurt** ![&#x200B; pictogram van Goedkeuringen &#x200B;](assets/approvals-icon-on-form.png) in het linkerpaneel.
+1. Beginnen vormend goedkeuringsregels, klik **goedkeurt** ![ pictogram van Goedkeuringen ](assets/approvals-icon-on-form.png) in het linkerpaneel.
 
 1. (Facultatief) als u een standaardgoedkeuringsproces wilt plaatsen, voeg minstens één gebruiker of team aan het **Approvers** gebied van de **Standaard goedkeuringsregel** toe, dan klik **slechts één besluit wordt vereist** checkbox als u het verslag wilt worden gecreeerd nadat om het even welke standaardfiatteurs het hebben goedgekeurd.
 
-   ![&#x200B; gebied van de Standaard goedkeuringsregel &#x200B;](assets/default-approvers.png)
-
-   <!--below bullet list is duplicated in the Add approval to a request form article-->
+   ![ gebied van de Standaard goedkeuringsregel ](assets/default-approvers.png)
 
 1. (Optioneel) Begin goedkeuringsregels toe te voegen. Voer voor elke goedkeuringsregel de volgende handelingen uit:
 
@@ -163,8 +159,8 @@ Goedkeuringsregels instellen voor een aanvraagformulier:
    1. Selecteer de operator voor de regel. Operatoren variëren afhankelijk van het type veld.
    1. Als de geselecteerde operator een waarde nodig heeft, klikt u op het plusteken en voegt u een of meer waarden toe.
    1. (Facultatief) klik **toevoegt voorwaarde** om meer voorwaarden toe te voegen en hen te verbinden door **en** of **of** verklaringen door de extra voorwaarden zoals in stappen C-E te vormen.
-   1. Op het **gebied van Acties** van de goedkeuringsregel, op het **goedkeurt** gebied, voeg bij huur één gebruiker of team toe die bij de goedkeuraar moet worden geplaatst wanneer de voorwaarde wordt voldaan aan.
-   1. (Voorwaardelijk) als u het verslag wilt worden gecreeerd nadat om het even welke fiatteurs het heeft goedgekeurd, controleer **slechts één besluit wordt vereist** checkbox.
+   1. Op het **gebied van Acties** van de goedkeuringsregel, op het **goedkeurt** gebied, voeg minstens één gebruiker of team toe dat bij de goedkeuraar moet worden geplaatst wanneer de voorwaarde wordt voldaan aan.
+   1. (Voorwaardelijk en facultatief) Als u het verslag wilt worden gecreeerd nadat om het even welke fiatteurs het heeft goedgekeurd, controleer **slechts één besluit wordt vereist** checkbox. Anders moeten alle fiatteurs een besluit nemen over de goedkeuring voordat het verzoek wordt aanvaard of afgewezen.
 
 1. Klik **sparen** om de goedkeuringsregels te bewaren.
 1. (Facultatief) klik **publiceren** als u nooit de verzoekvorm eerder hebt gedeeld.

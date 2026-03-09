@@ -6,9 +6,9 @@ description: U kunt de uitlijning tussen twee doelen verwijderen als het niet la
 author: Alina
 feature: Workfront Goals
 exl-id: a6196356-ca11-4759-9cff-64850a60208e
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
-source-wordcount: '428'
+source-wordcount: '441'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ U kunt de uitlijning tussen twee doelen verwijderen als het niet langer logisch 
 
 Raadpleeg de volgende artikelen voor informatie over het uitlijnen van doelen:
 
-* [&#x200B; richt doelstellingen door hen in de Doelen van Adobe Workfront te verbinden &#x200B;](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md)
+* [ richt doelstellingen door hen in de Doelen van Adobe Workfront te verbinden ](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md)
 * [Richt doelstellingen door resultaten en activiteiten aan doelstellingen om te zetten](../../workfront-goals/goal-alignment/align-goals-by-converting-results-activities.md)
 
 ## Toegangsvereisten
@@ -43,7 +43,8 @@ Raadpleeg de volgende artikelen voor informatie over het uitlijnen van doelen:
  <tr>
   <td> <p>Adobe Workfront-pakket</p> </td> 
    <td> 
-   <p>Adobe Workfront Ultimate</p>
+   <p>Adobe Workfront Ultimate</p><p><b>OPMERKING</b></p>
+<p>Neem contact op met uw Workfront-vertegenwoordiger als u een ander Workfront-pakket hebt.</p>
    </td> 
   </tr> 
  <tr>
@@ -71,7 +72,7 @@ Raadpleeg de volgende artikelen voor informatie over het uitlijnen van doelen:
 </tbody>
 </table>
 
-Voor meer informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 <!--Old:
@@ -165,9 +166,9 @@ Removing goal alignment differs depending on which environment you use.
 1. Heb toegang tot het **gebied van Doelen** in Workfront en klik de naam van een doel om de pagina van het doel te openen.
 1. Van de pagina van het doel van een ouderdoel, klik **Indicatoren van de Voortgang** in het linkerpaneel.
 
-   ![&#x200B; REmove doel groepering &#x200B;](assets/remove-goal-alignment-from-list-unshimmed.png)
+   ![ REmove doel groepering ](assets/remove-goal-alignment-from-list-unshimmed.png)
 
-1. In het **Type: Goal** groeperen, selecteer een doel, dan klik **losmaakt** pictogram ![&#x200B; los pictogram &#x200B;](assets/disconnect-goal-to-remove-alignment-icon-unshimmed.png) bij de bovenkant van de lijst los.
+1. In het **Type: Goal** groeperen, selecteer een doel, dan klik **losmaakt** pictogram ![ los pictogram ](assets/disconnect-goal-to-remove-alignment-icon-unshimmed.png) bij de bovenkant van de lijst los.
 
    Het vak Verbinding verbreken wordt weergegeven.
 

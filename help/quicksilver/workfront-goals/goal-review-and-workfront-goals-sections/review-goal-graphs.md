@@ -6,9 +6,9 @@ description: U kunt de algemene gezondheid van uw doelstellingen en hun vooruitg
 author: Alina
 feature: Workfront Goals
 exl-id: 8d5f3617-c7bf-44ce-99b0-d4ebda106f25
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
-source-wordcount: '899'
+source-wordcount: '912'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,8 @@ U kunt de algemene gezondheid van uw doelstellingen en hun vooruitgangstendens i
  <tr>
   <td> <p>Adobe Workfront-pakket</p> </td> 
    <td> 
-   <p>Adobe Workfront Ultimate</p>
+   <p>Adobe Workfront Ultimate</p><p><b>OPMERKING</b></p>
+<p>Neem contact op met uw Workfront-vertegenwoordiger als u een ander Workfront-pakket hebt.</p>
    </td> 
   </tr>
  <tr>
@@ -71,7 +72,7 @@ U kunt de algemene gezondheid van uw doelstellingen en hun vooruitgangstendens i
 </tbody>
 </table>
 
-Voor meer informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -163,7 +164,7 @@ Dit opent het gebied van de Doelen van Workfront.
 
 1. Klik **Grafieken** in het linkerpaneel.
 
-   ![&#x200B; Grafieken in linkerpaneel &#x200B;](assets/graphs-in-left-panel.png)
+   ![ Grafieken in linkerpaneel ](assets/graphs-in-left-panel.png)
 
    De sectie Grafieken wordt weergegeven.
 
@@ -174,7 +175,7 @@ Dit opent het gebied van de Doelen van Workfront.
 
 1. (Optioneel) Selecteer het type informatie dat u wilt weergeven door de filters in de rechterbovenhoek van de sectie Grafieken bij te werken.
 
-   Voor meer informatie over het filtreren van doelstellingen, zie [&#x200B; informatie van de Filter in de Doelen van Adobe Workfront &#x200B;](../../workfront-goals/goal-management/filter-information-wf-goals.md).
+   Voor meer informatie over het filtreren van doelstellingen, zie [ informatie van de Filter in de Doelen van Adobe Workfront ](../../workfront-goals/goal-management/filter-information-wf-goals.md).
 
    >[!TIP]
    >
@@ -182,7 +183,7 @@ Dit opent het gebied van de Doelen van Workfront.
 
 1. Bekijk de informatie in de onderstaande tabel wanneer u de Goal Health Chart bekijkt.
 
-   ![&#x200B; Grafiek van de Gang &#x200B;](assets/gauge-graph-wf-align-350x230.png)
+   ![ Grafiek van de Gang ](assets/gauge-graph-wf-align-350x230.png)
 
    | Totaal aantal doelstellingen | Het getal onder aan het diagram geeft het aantal doelen in de geselecteerde periode aan, in alle statussen die u hebt geselecteerd. |
    |---|---|
@@ -192,7 +193,7 @@ Dit opent het gebied van de Doelen van Workfront.
 
 1. Bekijk de informatie in de onderstaande tabel wanneer u de grafiek van de voortgang van het beleid bekijkt.
 
-   ![&#x200B; grafiek van de Lijn &#x200B;](assets/line-graph-wf-align-350x161.png)
+   ![ grafiek van de Lijn ](assets/line-graph-wf-align-350x161.png)
 
    <table style="table-layout:auto"> 
     <col> 

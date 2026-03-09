@@ -6,9 +6,9 @@ description: Als u een doel deelt, geeft u beheermachtigingen voor een doel aan 
 author: Alina
 feature: Workfront Goals
 exl-id: 747449cf-9092-4b9f-9add-db2e7d3fab48
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
-source-wordcount: '724'
+source-wordcount: '737'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,8 @@ Als u een doel deelt, geeft u beheermachtigingen voor een doel aan iemand die di
  <tr>
   <td> <p>Adobe Workfront-pakket</p> </td> 
    <td> 
-   <p>Adobe Workfront Ultimate</p>
+   <p>Adobe Workfront Ultimate</p><p><b>OPMERKING</b></p>
+<p>Neem contact op met uw Workfront-vertegenwoordiger als u een ander Workfront-pakket hebt.</p>
    </td> 
   </tr>
  <tr>
@@ -65,7 +66,7 @@ Als u een doel deelt, geeft u beheermachtigingen voor een doel aan iemand die di
 </tbody>
 </table>
 
-Voor meer informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -174,11 +175,11 @@ De vertoningen van de Lijst van het Doel.
 
 1. Klik het **Meer pictogram** naast de doelnaam, dan klik **Aandeel**.
 
-   ![&#x200B; Meer menu &#x200B;](assets/more-menu-highlighted-goal-details-panel-with-share-link-350x156.png)
+   ![ Meer menu ](assets/more-menu-highlighted-goal-details-panel-with-share-link-350x156.png)
 
    Het vak Goal Access wordt weergegeven.
 
-   ![&#x200B; Toegang van het Doel &#x200B;](assets/goal-access-sharing-box-manage-system-wide-deselected-350x400.png)
+   ![ Toegang van het Doel ](assets/goal-access-sharing-box-manage-system-wide-deselected-350x400.png)
 
 1. Voer een van de volgende handelingen uit:
 
@@ -195,7 +196,7 @@ De vertoningen van de Lijst van het Doel.
 
 ## Opties voor algemene machtigingen
 
-De volgende lijst maakt een lijst van de toestemmingen die u kunt verlenen wanneer het delen van een doel. Voor meer informatie over de toegangsgebruikers die op hun vergunning worden gebaseerd, zie [&#x200B; de toegang van de Verlening tot de Doelen van Adobe Workfront &#x200B;](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md).
+De volgende lijst maakt een lijst van de toestemmingen die u kunt verlenen wanneer het delen van een doel. Voor meer informatie over de toegangsgebruikers die op hun vergunning worden gebaseerd, zie [ de toegang van de Verlening tot de Doelen van Adobe Workfront ](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md).
 
 <table border="1" cellspacing="15" cellpadding="1"> 
  <col> 
@@ -279,8 +280,8 @@ De volgende lijst maakt een lijst van de toestemmingen die u kunt verlenen wanne
 
 **U moet toegang tot de Projecten van de Mening hebben en toestemming van de Mening aan de toegevoegde projecten of die u aan het doel wilt toevoegen om hen te bekijken.
 
-Voor informatie over het niveau van de projecttoegang, zie [&#x200B; Toegang van de Verlening tot projecten &#x200B;](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md).
+Voor informatie over het niveau van de projecttoegang, zie [ Toegang van de Verlening tot projecten ](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md).
 
-Voor informatie over projecttoestemmingen, zie [&#x200B; een project in Adobe Workfront &#x200B;](../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md) delen.
+Voor informatie over projecttoestemmingen, zie [ een project in Adobe Workfront ](../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md) delen.
 
 
