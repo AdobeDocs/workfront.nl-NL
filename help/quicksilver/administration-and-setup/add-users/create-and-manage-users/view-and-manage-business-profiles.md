@@ -24,7 +24,7 @@ ht-degree: 0%
 
 Om een bedrijfsprofiel aan een gebruiker toe te wijzen, moet u een groep en een bijbehorend toegangsniveau toewijzen.
 
-Voor meer informatie over Bedrijfs Profielen, zie [ overzicht Bedrijfs van profielen ](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/business-profiles.md).
+Voor meer informatie over Bedrijfs Profielen, zie [&#x200B; overzicht Bedrijfs van profielen &#x200B;](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/business-profiles.md).
 
 ## Een bedrijfsprofiel voor een gebruiker maken
 
