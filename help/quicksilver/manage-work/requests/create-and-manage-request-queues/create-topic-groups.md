@@ -51,7 +51,7 @@ De Groepen van het onderwerp worden geassocieerd met de Queues van het Verzoek. 
  </tbody> 
 </table>
 
-Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -59,7 +59,7 @@ Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront
 
 Bijvoorbeeld, als u een Rij van het Verzoek voor de Verzoeken van de Marketing hebt, kunt u een Groep van het Onderwerp van de Campagne van de Dag van de Moeder&quot;, met een tweede-vlakke Onderwerpgroep van &quot;Digitale Media&quot;, en een extra tweede-vlakke Onderwerpgroep van &quot;Media van de Druk.&quot; hebben Dan, kunt u de veelvoudige Onderwerpen van de Rij binnen elke Groep van het Onderwerp hebben. Bijvoorbeeld, &quot;Banner Ad&quot;en &quot;Blog&quot;kunnen de Onderwerpen van de Rij voor de &quot;Digitale Media&quot;Onderwerpgroep zijn.
 
-Voor meer informatie over hoe te om de Rijen van het Verzoek tot stand te brengen, zie [ een Rij van het Verzoek ](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md) creëren.
+Voor meer informatie over hoe te om de Rijen van het Verzoek tot stand te brengen, zie [&#x200B; een Rij van het Verzoek &#x200B;](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md) creëren.
 
 Overweeg het volgende wanneer het werken met onderwerpgroepen:
 
@@ -70,12 +70,12 @@ Overweeg het volgende wanneer het werken met onderwerpgroepen:
 
 ## Onderwerpgroepen maken
 
-Wij adviseren dat u de Groepen van het Onderwerp creeert alvorens u een Onderwerp van de Rij creeert. Nochtans, kan een Groep van het Onderwerp binnen in de bouwer van het Onderwerp van de Rij worden gecreeerd. Voor meer informatie over het creëren van de Onderwerpen van de Rij, zie [ de Onderwerpen van de Rij ](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md) creëren.
+Wij adviseren dat u de Groepen van het Onderwerp creeert alvorens u een Onderwerp van de Rij creeert. Nochtans, kan een Groep van het Onderwerp binnen in de bouwer van het Onderwerp van de Rij worden gecreeerd. Voor meer informatie over het creëren van de Onderwerpen van de Rij, zie [&#x200B; de Onderwerpen van de Rij &#x200B;](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md) creëren.
 
 Een onderwerpgroep maken:
 
 1. Ga naar het project dat u als Rij van het Verzoek van de Hulp publiceerde.\
-   Voor meer informatie over het publiceren van een project als Rij van het Verzoek van de Hulp, zie [ een Rij van het Verzoek ](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md) creëren.
+   Voor meer informatie over het publiceren van een project als Rij van het Verzoek van de Hulp, zie [&#x200B; een Rij van het Verzoek &#x200B;](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md) creëren.
 
 1. Klik **Groepen van het Onderwerp** in het linkerpaneel.
 1. Klik **Nieuwe Groep van het Onderwerp**.
@@ -90,5 +90,5 @@ Een onderwerpgroep maken:
 
 1. Klik **sparen**.\
    Dit leidt tot een nieuwe Groep van het Onderwerp in uw Rij van het Verzoek. U kunt nu extra categorieën selecteren in het eerste vervolgkeuzemenu onder Wachtrij aanvragen.\
-   Voor meer informatie over het voorleggen van verzoeken, zie [ Adobe Workfront verzoeken ](../../../manage-work/requests/create-requests/create-submit-requests.md) creëren en voorleggen.
+   Voor meer informatie over het voorleggen van verzoeken, zie [&#x200B; Adobe Workfront verzoeken &#x200B;](../../../manage-work/requests/create-requests/create-submit-requests.md) creëren en voorleggen.
 1. Om een bestaande Groep van het Onderwerp uit te geven, selecteer de Groep van het Onderwerp van de lijst van de Groepen van het Onderwerp, dan geef de details in het venster uit dat opent. Klik **sparen** om de veranderingen te bewaren.

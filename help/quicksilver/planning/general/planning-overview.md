@@ -21,17 +21,17 @@ ht-degree: 0%
 
 <span class="preview"> de benadrukte informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>
 
-<span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
+<span class="preview"> voor informatie over snelle versies, zie [&#x200B; snelle versies voor uw organisatie &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
 
 >[!IMPORTANT]
 >
 >De informatie in dit artikel verwijst naar Adobe Workfront Planning, een extra mogelijkheid van Adobe Workfront.
 >
->Voor een lijst van vereisten om tot de Planning van Workfront toegang te hebben, zie [ het toegangsoverzicht van de Planning van Adobe Workfront ](/help/quicksilver/planning/access/access-overview.md).
+>Voor een lijst van vereisten om tot de Planning van Workfront toegang te hebben, zie [&#x200B; het toegangsoverzicht van de Planning van Adobe Workfront &#x200B;](/help/quicksilver/planning/access/access-overview.md).
 
 Dit artikel bevat algemene informatie over Workfront Planning.
 
-Voor de volledige lijst van artikelen die documentatie voor de Planning van Workfront bevatten, zie [ Algemene informatie en artikelindex voor de Planning van Adobe Workfront ](/help/quicksilver/planning/planning-information.md).
+Voor de volledige lijst van artikelen die documentatie voor de Planning van Workfront bevatten, zie [&#x200B; Algemene informatie en artikelindex voor de Planning van Adobe Workfront &#x200B;](/help/quicksilver/planning/planning-information.md).
 
 ## Inleiding tot Adobe Workfront Planning
 
@@ -165,9 +165,9 @@ Nadat uw organisatie een pakket van de Planning van Workfront, als beheerder van
 
      De standaardgebruikers en de Beheerders van het Systeem hebben Planning die door gebrek wordt toegelaten.
 
-  Voor meer informatie, zie [ het Belangrijkste Menu aanpassen gebruikend een lay-outmalplaatje ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md) en [ wijs gebruikers aan een lay-outmalplaatje ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md) toe.
+  Voor meer informatie, zie [&#x200B; het Belangrijkste Menu aanpassen gebruikend een lay-outmalplaatje &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md) en [&#x200B; wijs gebruikers aan een lay-outmalplaatje &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md) toe.
 
-* Wijs gebruikers een Workfront-licentie en Workfront Planning-machtigingen toe waarmee ze objecten kunnen weergeven of maken in Workfront Planning. Voor meer informatie over het verlenen van toegang tot en het toelaten van anderen om de Planning van Workfront te gebruiken, zie [ het Overzicht van de de toegang van de Planning van Adobe Workfront ](/help/quicksilver/planning/access/access-overview.md).
+* Wijs gebruikers een Workfront-licentie en Workfront Planning-machtigingen toe waarmee ze objecten kunnen weergeven of maken in Workfront Planning. Voor meer informatie over het verlenen van toegang tot en het toelaten van anderen om de Planning van Workfront te gebruiken, zie [&#x200B; het Overzicht van de de toegang van de Planning van Adobe Workfront &#x200B;](/help/quicksilver/planning/access/access-overview.md).
 
 ## Workfront Planning terminologie
 
@@ -175,7 +175,7 @@ Hoewel Workfront Planning onderdeel is van Workfront, wordt het geleverd met eig
 
 Het raamwerk voor Workfront Planning is volledig aanpasbaar. U kunt alle recordtypen, hun kenmerken en alle bijbehorende velden maken op basis van de exacte behoeften van uw organisatie.
 
-Er gelden beperkingen voor het aantal Workfront Planning-objecten dat u kunt maken. Voor meer informatie, zie [ overzicht van de objectbeperkingen van de Planning van Adobe Workfront ](/help/quicksilver/planning/general/limitations-overview.md).
+Er gelden beperkingen voor het aantal Workfront Planning-objecten dat u kunt maken. Voor meer informatie, zie [&#x200B; overzicht van de objectbeperkingen van de Planning van Adobe Workfront &#x200B;](/help/quicksilver/planning/general/limitations-overview.md).
 
 Hieronder vindt u de belangrijkste Workfront-planningsobjecten en -concepten:
 
@@ -195,9 +195,9 @@ Hieronder vindt u de belangrijkste Workfront-planningsobjecten en -concepten:
 
 De werkruimten vertegenwoordigen het kader van een organisatorische eenheid. Zij zijn inzamelingen van recordtypes die de operationele levenscyclus van een bepaalde organisatie bepalen.
 
-![ de werkruimte van de marketing met verslagtype taxonomieën die pagina openen ](assets/marketing-workspace-with-record-type-taxonomies-opening-page.png)
+![&#x200B; de werkruimte van de marketing met verslagtype taxonomieën die pagina openen &#x200B;](assets/marketing-workspace-with-record-type-taxonomies-opening-page.png)
 
-Voor meer informatie, zie [ werkruimten ](/help/quicksilver/planning/architecture/create-workspaces.md) creëren.
+Voor meer informatie, zie [&#x200B; werkruimten &#x200B;](/help/quicksilver/planning/architecture/create-workspaces.md) creëren.
 
 ### Recordtypen
 
@@ -211,25 +211,25 @@ In Workfront zijn bijvoorbeeld al de objecttypen Program, Portfolio, Project, Ta
 
 In de Planning van Workfront, kunt u om het even welke verslagtypes tot stand brengen die aan de werkschema&#39;s van uw organisatie voldoen. Later kunt u bepalen hoe de recordtypen op elkaar betrekking hebben of hoe afhankelijk van het formulier is.
 
-Voor meer informatie, zie [ overzicht van de types van Verslag ](/help/quicksilver/planning/architecture/overview-of-record-types.md).
+Voor meer informatie, zie [&#x200B; overzicht van de types van Verslag &#x200B;](/help/quicksilver/planning/architecture/overview-of-record-types.md).
 
 ### Records
 
 Een record is een instantie van een recordtype.
 
-![ Verslagen die in lijst van het campagnerecord worden benadrukt ](assets/records-highlighted-in-campaign-record-type-list.png)
+![&#x200B; Verslagen die in lijst van het campagnerecord worden benadrukt &#x200B;](assets/records-highlighted-in-campaign-record-type-list.png)
 
 Nadat u een recordtype aan een werkruimte hebt toegevoegd, kunt u records van dat type op de pagina van het recordtype toevoegen.
 
 &#39;Campagne&#39; kan bijvoorbeeld een recordtype zijn en &#39;Summer Campaign for EMEA&#39; is een record van het type Campagne-record.
 
-Voor meer informatie, zie [ verslagen ](/help/quicksilver/planning/records/create-records.md) creëren.
+Voor meer informatie, zie [&#x200B; verslagen &#x200B;](/help/quicksilver/planning/records/create-records.md) creëren.
 
 ### Workspace-sjablonen
 
 U kunt een werkruimte maken met vooraf gedefinieerde sjablonen. U kunt de vooraf gedefinieerde recordtypen en -velden gebruiken die in een sjabloon voorkomen, of u kunt uw eigen recordtypen toevoegen.
 
-![ pagina van de Werkruimten met malplaatjeminiaturen ](assets/workspaces-page-with-templates-thumbnails.png)
+![&#x200B; pagina van de Werkruimten met malplaatjeminiaturen &#x200B;](assets/workspaces-page-with-templates-thumbnails.png)
 
 Adobe Workfront Planning bevat de volgende sjablonen:
 
@@ -239,13 +239,13 @@ Adobe Workfront Planning bevat de volgende sjablonen:
 * Verkoopbeheer
 * Productbeheer
 
-Voor meer informatie, zie [ Lijst van werkruimtesjablonen ](/help/quicksilver/planning/architecture/workspace-templates.md).
+Voor meer informatie, zie [&#x200B; Lijst van werkruimtesjablonen &#x200B;](/help/quicksilver/planning/architecture/workspace-templates.md).
 
 ### Velden
 
 Velden zijn kenmerken die u kunt toevoegen aan recordtypen. Velden bevatten informatie over het recordtype.
 
-![ drop-down lijst van verslaggebieden ](assets/drop-down-list-of-record-fields.png)
+![&#x200B; drop-down lijst van verslaggebieden &#x200B;](assets/drop-down-list-of-record-fields.png)
 
 Overwegingen bij recordvelden:
 
@@ -257,7 +257,7 @@ Overwegingen bij recordvelden:
 
 * De gebieden zijn volledig klantgericht en zijn toegankelijk slechts in de Planning van Workfront. U hebt vanuit Workfront geen toegang tot Workfront-planningsvelden.
 
-Voor meer informatie, zie [ gebieden ](/help/quicksilver/planning/fields/create-fields.md) creëren.
+Voor meer informatie, zie [&#x200B; gebieden &#x200B;](/help/quicksilver/planning/fields/create-fields.md) creëren.
 
 Een nieuw recordtype is standaard gekoppeld aan de volgende vooraf gedefinieerde velden:
 
@@ -296,13 +296,13 @@ In Workfront Planning kunt u een verbinding maken tussen de volgende entiteiten:
 
   U moet een Adobe Experience Manager-licentie hebben om recordtypen te verbinden met Experience Manager-objecten.
 
-  ![ Nieuw verbindingslusje met de opties van Workfront AEM ](assets/new-connection-tab-with-workfront-aem-options.png)
+  ![&#x200B; Nieuw verbindingslusje met de opties van Workfront AEM &#x200B;](assets/new-connection-tab-with-workfront-aem-options.png)
 
 * Een recordtype en een Adobe GenStudio for Performance Marketing-merk.
 
   U moet een Adobe GenStudio for Performance Marketing-licentie hebben om recordtypen te verbinden met GenStudio Brands.
 
-  ![ Nieuw verbindingslusje met de optie van het Merk van Adobe GenStudio ](assets/new-connection-tab-with-genstudio-option.png)
+  ![&#x200B; Nieuw verbindingslusje met de optie van het Merk van Adobe GenStudio &#x200B;](assets/new-connection-tab-with-genstudio-option.png)
 
 Nadat u een verbinding tot stand hebt gebracht tussen de recordtypen of de record- en objecttypen, kunt u afzonderlijke records of objecten van die typen met elkaar verbinden. De verbinding tussen de verslagen toont als verbonden verslaggebied, of een verbinding.
 
@@ -314,7 +314,7 @@ Nadat u de verbinding tussen twee recordtypen tot stand hebt gebracht en u afzon
 
 Bijvoorbeeld, als u een type van het verslag van de Campagne met een de objecten van het Project van Workfront type verbindt, kunt u het gebied van de Begroting van verbonden projecten op de campagneverslagen tonen.
 
-![ voeg raadplegingsgebieden doos ](assets/add-lookup-fields-modal.png) toe
+![&#x200B; voeg raadplegingsgebieden doos &#x200B;](assets/add-lookup-fields-modal.png) toe
 
 >[!TIP]
 >
@@ -339,19 +339,19 @@ Zie de volgende artikelen voor informatie over het verbinden van recordtypen, re
 
 Nadat de recordtypen in een werkruimte zijn verbonden, kunt u hiërarchieën maken die deze verbindingen ordenen. In hiërarchieën worden record- en objecttypen geordend in relatie bovenliggend-onderliggend en kunnen maximaal vier niveaus van objecttypen worden opgenomen.
 
-![ Hiërarchieën op het gebied van de Montages van de werkruimte ](assets/hierarchies-in-workspace-settings-area.png)
+![&#x200B; Hiërarchieën op het gebied van de Montages van de werkruimte &#x200B;](assets/hierarchies-in-workspace-settings-area.png)
 
 Als er nog geen verbinding tussen twee recordtypen bestaat, kan deze worden gemaakt terwijl u de hiërarchie instelt. Zodra bepaald, vestigt de hiërarchie een gestructureerd weg over verwante verslagtypes binnen de werkruimte.
 
 De hiërarchie produceert broodkruimels voor hun respectieve verslagen die in hun kopballen tonen. Op deze manier weten gebruikers waar ze zich in de hiërarchie bevinden in elk stadium van hun workflow.
 
-Voor algemene informatie over hiërarchieën en broodkruimels, zie [ Hiërarchie en breadcrumb overzicht ](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md).
+Voor algemene informatie over hiërarchieën en broodkruimels, zie [&#x200B; Hiërarchie en breadcrumb overzicht &#x200B;](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md).
 
 ### Weergaven
 
 Records worden in verschillende typen weergaven op hun respectievelijke pagina met recordtypen weergegeven.
 
-![ de types van Mening drop-down van verslagtype lijst ](assets/view-types-drop-down-from-record-type-list.png)
+![&#x200B; de types van Mening drop-down van verslagtype lijst &#x200B;](assets/view-types-drop-down-from-record-type-list.png)
 
 Weergaven bevatten gepersonaliseerde instellingen van een specifiek weergavetype, zoals de lijst met velden (kolommen), een lijst met records (rijen), de volgorde (sortering), een toegepast of toepasselijk filter en een groep.
 
@@ -359,18 +359,18 @@ Hieronder ziet u weergavetypen die u kunt toepassen op de pagina met recordtypen
 
 * **mening van de Lijst**: De verslagen van vertoningen en hun gebieden, met inbegrip van verbonden en raadplegingsgebieden, in een lijstformaat. De rijen van de tabel zijn de afzonderlijke records en de kolommen zijn de recordvelden. De tabelweergave is de standaardweergave.
 
-  ![ de meningsvoorbeeld van de Lijst ](assets/table-view-example.png)
+  ![&#x200B; de meningsvoorbeeld van de Lijst &#x200B;](assets/table-view-example.png)
 
 * **mening van de Chronologie**: De verslagen van vertoningen die minstens twee Datum-type gebieden in een chronologische chronologische chronologische chronologie hebben. U kunt maximaal vijf verbonden recordtypen en de bijbehorende records weergeven in de tijdlijnweergave.
 
-  ![ groepering die in chronologiemening wordt toegepast ](assets/grouping-applied-in-timeline-view.png)
+  ![&#x200B; groepering die in chronologiemening wordt toegepast &#x200B;](assets/grouping-applied-in-timeline-view.png)
 
 * **mening van de Kalender**: De verslagen van vertoningen die minstens twee Datum-type gebieden in een kalenderformaat hebben.
-  ![ de meningsvoorbeeld van de Kalender ](assets/calendar-view-example.png)
+  ![&#x200B; de meningsvoorbeeld van de Kalender &#x200B;](assets/calendar-view-example.png)
 
 <!-- add List view here when it's possible to display Planning RTs in it??-->
 
-Voor meer informatie, zie [ verslagmeningen ](/help/quicksilver/planning/views/manage-record-views.md) leiden.
+Voor meer informatie, zie [&#x200B; verslagmeningen &#x200B;](/help/quicksilver/planning/views/manage-record-views.md) leiden.
 
 ### Automatisering
 
@@ -380,17 +380,17 @@ U kunt de automatisering in de verslagtype pagina in de Planning van Workfront v
 
 U kunt bijvoorbeeld een automatisering maken die een Workfront-planningscampagne uitvoert en een merk maakt dat u aan de campagne kunt koppelen.
 
-Voor informatie over hoe u voorwerpen gebruikend een bestaande automatisering creeert, zie [ voorwerpen creëren gebruikend het verslag van de Planning van Adobe Workfront automatiseringen ](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md).
+Voor informatie over hoe u voorwerpen gebruikend een bestaande automatisering creeert, zie [&#x200B; voorwerpen creëren gebruikend het verslag van de Planning van Adobe Workfront automatiseringen &#x200B;](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md).
 
 ### Formulieren aanvragen
 
 U kunt een aanvraagformulier maken en dit koppelen aan een recordtype in Adobe Workfront Planning. U kunt het formulier vervolgens met anderen delen en ze kunnen aanvragen indienen om records van dat type te maken.
 
-Voor meer informatie, zie [ creeer en beheer een verzoekvorm in de Planning van Adobe Workfront ](/help/quicksilver/planning/requests/create-request-form.md).
+Voor meer informatie, zie [&#x200B; creeer en beheer een verzoekvorm in de Planning van Adobe Workfront &#x200B;](/help/quicksilver/planning/requests/create-request-form.md).
 
 ## Adobe Workfront-planning zoeken
 
-Om van de Planning van Adobe de plaats te bepalen, zorg ervoor dat uw organisatie toegang tot de Planning van Workfront heeft ontvangen en dat uw systeem of groepsbeheerder het Gebied van de Planning aan uw Belangrijkste Menu heeft toegevoegd. Voor informatie, zie [ het toegangsoverzicht van de Planning van Adobe ](/help/quicksilver/planning/access/access-overview.md).
+Om van de Planning van Adobe de plaats te bepalen, zorg ervoor dat uw organisatie toegang tot de Planning van Workfront heeft ontvangen en dat uw systeem of groepsbeheerder het Gebied van de Planning aan uw Belangrijkste Menu heeft toegevoegd. Voor informatie, zie [&#x200B; het toegangsoverzicht van de Planning van Adobe &#x200B;](/help/quicksilver/planning/access/access-overview.md).
 
 Workfront-planning zoeken:
 
@@ -398,33 +398,33 @@ Workfront-planning zoeken:
 
 {{step1-click-main-menu-shell-only}}
 
-1. Klik **Planning** ![ pictogram van de Planning ](assets/planning-icon.png).
+1. Klik **Planning** ![&#x200B; pictogram van de Planning &#x200B;](assets/planning-icon.png).
 
    De hoofdpagina Workfront Planning wordt geopend.
 
-   ![ Planning landende paginadmin ](assets/planning-landing-page-admin.png)
+   ![&#x200B; Planning landende paginadmin &#x200B;](assets/planning-landing-page-admin.png)
 
    >[!TIP]
    >
-   >    Uw Workfront-beheerder kan het planningsgebied toevoegen aan de optie Landingspagina selecteren in uw lay-outsjabloon, zodat u Planning kunt openen zodra u zich aanmeldt bij Workfront. Voor informatie, zie [ de het landen pagina aanpassen gebruikend een lay-outmalplaatje ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-landing-page.md).
+   >    Uw Workfront-beheerder kan het planningsgebied toevoegen aan de optie Landingspagina selecteren in uw lay-outsjabloon, zodat u Planning kunt openen zodra u zich aanmeldt bij Workfront. Voor informatie, zie [&#x200B; de het landen pagina aanpassen gebruikend een lay-outmalplaatje &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-landing-page.md).
 
 1. (Voorwaardelijk en optioneel) Als u een Workfront-beheerder bent, klikt u op een van de volgende tabbladen:
    * **Werkruimten ik** ben: De werkruimten van vertoningen die u creeerde of werkruimten die met u worden gedeeld.
    * **Andere werkruimten**: Toont alle andere werkruimten in het systeem.
 
-   Voor alle andere gebruikers, zowel werkruimten die zij creeerden of met hen worden gedeeld tonen in het **1} gebied van de Werkruimten {.**
+   Voor alle andere gebruikers, zowel werkruimten die zij creeerden of met hen worden gedeeld tonen in het **1&rbrace; gebied van de Werkruimten &lbrace;.**
 
 1. (Optioneel en aanbevolen) Ga door met een aantal van de volgende acties om uw werkstructuur te maken:
 
-   1. Maak een werkruimte helemaal opnieuw of gebruik een sjabloon. Voor informatie, zie [ werkruimten ](/help/quicksilver/planning/architecture/create-workspaces.md) creëren.
+   1. Maak een werkruimte helemaal opnieuw of gebruik een sjabloon. Voor informatie, zie [&#x200B; werkruimten &#x200B;](/help/quicksilver/planning/architecture/create-workspaces.md) creëren.
 
-   1. Voeg secties toe aan de nieuwe werkruimte. Voor informatie, zie [ werkruimten ](/help/quicksilver/planning/architecture/edit-workspaces.md) uitgeven.
+   1. Voeg secties toe aan de nieuwe werkruimte. Voor informatie, zie [&#x200B; werkruimten &#x200B;](/help/quicksilver/planning/architecture/edit-workspaces.md) uitgeven.
    1. Wijzig de naam van de bestaande secties in de nieuwe werkruimte.
-   1. Voeg recordtypen toe aan de nieuwe werkruimte. Voor informatie, zie [ recordtypes ](/help/quicksilver/planning/architecture/create-record-types.md) creëren.
+   1. Voeg recordtypen toe aan de nieuwe werkruimte. Voor informatie, zie [&#x200B; recordtypes &#x200B;](/help/quicksilver/planning/architecture/create-record-types.md) creëren.
 
    1. Klik op de naam van een recordtype om de pagina van het recordtype te openen. De pagina met recordtypen wordt standaard in de tabelweergave geopend.
 
-      U kunt ook een tijdlijn of een kalenderweergave maken. Voor informatie, zie [ verslagmeningen ](/help/quicksilver/planning/views/manage-record-views.md) leiden.
+      U kunt ook een tijdlijn of een kalenderweergave maken. Voor informatie, zie [&#x200B; verslagmeningen &#x200B;](/help/quicksilver/planning/views/manage-record-views.md) leiden.
 
    1. Voeg in de tabelweergave records toe door rijen toe te voegen
 
@@ -435,23 +435,23 @@ Workfront-planning zoeken:
       Raadpleeg de volgende artikelen voor meer informatie:
 
       * [Records maken](/help/quicksilver/planning/records/create-records.md)
-      * [ creeer gebieden ](/help/quicksilver/planning/fields/create-fields.md).
+      * [&#x200B; creeer gebieden &#x200B;](/help/quicksilver/planning/fields/create-fields.md).
 
 ## Aanvullende bronnen voor Workfront Planning
 
-* [ Algemene informatie en artikelindex voor de Planning van Adobe Workfront ](/help/quicksilver/planning/planning-information.md): Een index van alle artikelen die documentatie over de Planning van Workfront bevatten, die door gebied van belang wordt gegroepeerd.
-* [ de Planning AI van Adobe Workfront Hulpoverzicht ](/help/quicksilver/planning/general/planning-ai-assistant-overview.md): Met de Medewerker van Workfront AI voor de Planning kunt u naar verslagen zoeken, of, verslagen tot stand brengen bijwerken en schrappen door bevelen te gebruiken en de medewerker het werk voor u te laten doen.
+* [&#x200B; Algemene informatie en artikelindex voor de Planning van Adobe Workfront &#x200B;](/help/quicksilver/planning/planning-information.md): Een index van alle artikelen die documentatie over de Planning van Workfront bevatten, die door gebied van belang wordt gegroepeerd.
+* [&#x200B; de Planning AI van Adobe Workfront Hulpoverzicht &#x200B;](/help/quicksilver/planning/general/planning-ai-assistant-overview.md): Met de Medewerker van Workfront AI voor de Planning kunt u naar verslagen zoeken, of, verslagen tot stand brengen bijwerken en schrappen door bevelen te gebruiken en de medewerker het werk voor u te laten doen.
 
   <!--
     >[!NOTE]
     >
     >    The Workfront AI Assistant has been temporarily removed and it will be available at a later date.-->
 
-* [ Adobe Workfront planningsmodules voor de Fusie van Workfront ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules): Met de modules van de Planning van Adobe Workfront, kunt u een scenario teweegbrengen wanneer de gebeurtenissen in de Planning van Workfront voorkomen. U kunt ook records maken, lezen, bijwerken en verwijderen of een aangepaste API-aanroep naar uw Adobe Workfront Planning-account uitvoeren.
+* [&#x200B; Adobe Workfront planningsmodules voor de Fusie van Workfront &#x200B;](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules): Met de modules van de Planning van Adobe Workfront, kunt u een scenario teweegbrengen wanneer de gebeurtenissen in de Planning van Workfront voorkomen. U kunt ook records maken, lezen, bijwerken en verwijderen of een aangepaste API-aanroep naar uw Adobe Workfront Planning-account uitvoeren.
 
-* [ de Planning API van Adobe Workfront basiscs ](/help/quicksilver/planning/general/planning-api-basics.md): Het doel voor de Planning API van Adobe Workfront is bouwintegratie met Planning te vereenvoudigen door een REST-ful architectuur te introduceren die over HTTP werkt.
+* [&#x200B; de Planning API van Adobe Workfront basiscs &#x200B;](/help/quicksilver/planning/general/planning-api-basics.md): Het doel voor de Planning API van Adobe Workfront is bouwintegratie met Planning te vereenvoudigen door een REST-ful architectuur te introduceren die over HTTP werkt.
 
-* [ worden begonnen met de de Planning van Adobe Workfront en integratie van Adobe GenStudio for Performance Marketing ](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md): U kunt verslagen van GenStudio for Performance Marketing in de werkruimte van GenStudio in de Planning van Workfront beheren.
+* [&#x200B; worden begonnen met de de Planning van Adobe Workfront en integratie van Adobe GenStudio for Performance Marketing &#x200B;](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md): U kunt verslagen van GenStudio for Performance Marketing in de werkruimte van GenStudio in de Planning van Workfront beheren.
 
-* **de Planning van Workfront rapporteringsmogelijkheden**: U kunt de informatie van de Planning van Workfront in een rapport in Workfront nu bekijken gebruikend het Dashboard van het Canvas van Workfront. Voor informatie, zie [ Overzicht van de Dashboards van het Canvas ](/help/quicksilver/reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md).
+* **de Planning van Workfront rapporteringsmogelijkheden**: U kunt de informatie van de Planning van Workfront in een rapport in Workfront nu bekijken gebruikend het Dashboard van het Canvas van Workfront. Voor informatie, zie [&#x200B; Overzicht van de Dashboards van het Canvas &#x200B;](/help/quicksilver/reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md).
 

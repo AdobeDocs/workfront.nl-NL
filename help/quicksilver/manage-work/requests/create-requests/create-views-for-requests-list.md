@@ -18,7 +18,7 @@ ht-degree: 0%
 
 <span class="preview"> de informatie op deze pagina verwijst naar functionaliteit nog niet algemeen beschikbaar. Deze optie is alleen beschikbaar in de voorvertoningsomgeving voor alle klanten. Na de maandelijkse versies aan Productie, zijn de zelfde eigenschappen ook beschikbaar in het milieu van de Productie voor klanten die snelle versies toeliet. </span>
 
-<span class="preview"> voor informatie over snelle versies, zie [ snelle versies voor uw organisatie ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
+<span class="preview"> voor informatie over snelle versies, zie [&#x200B; snelle versies voor uw organisatie &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) toelaten of onbruikbaar maken. </span>
 
 
 
@@ -33,7 +33,7 @@ Als u de nieuwe verzoekervaring in Adobe Workfront gebruikt, kunt u meningen voo
 >
 >* Deze functionaliteit is alleen beschikbaar in de nieuwe ervaring die u opvraagt op het gebied Verzoeken.
 >* De weergave-instellingen zijn ook beschikbaar in de widget Mijn verzoeken in Home. De weergaven in het gebied Verzoeken zijn echter gescheiden van die in de widget Mijn verzoeken.
->* De lijst met verzoeken in het gebied Verzoeken gebruikt de uitgebreide lijst in Workfront. Voor meer informatie, zie [ Gebruik verbeterde lijsten ](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
+>* De lijst met verzoeken in het gebied Verzoeken gebruikt de uitgebreide lijst in Workfront. Voor meer informatie, zie [&#x200B; Gebruik verbeterde lijsten &#x200B;](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
 
 ## Toegangsvereisten
 
@@ -66,7 +66,7 @@ Als u de nieuwe verzoekervaring in Adobe Workfront gebruikt, kunt u meningen voo
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -80,12 +80,12 @@ U kunt een weergave maken in het gebied Verzoeken van Workfront wanneer u de nie
 
 1. Verzeker het **gebruik nieuwe ervaring** het plaatsen wordt aangezet.
 
-1. In de **lijst van Verzoeken**, klik de **3} dropdown menu van Meningen** dropdown ![ en klik ](assets/view-icon-requests.png) Nieuwe mening **.**
+1. In de **lijst van Verzoeken**, klik de **3&rbrace; dropdown menu van Meningen** dropdown ![&#x200B; en klik &#x200B;](assets/view-icon-requests.png) Nieuwe mening **.**
 
-   ![ Nieuwe mening ](assets/create-new-view.png)
+   ![&#x200B; Nieuwe mening &#x200B;](assets/create-new-view.png)
 
 1. Ga een naam voor de nieuwe mening in, en klik **creeer**.
-1. Ga aan [ uit uitgeven een mening op het gebied van Verzoeken ](#edit-a-view-in-the-requests-area).
+1. Ga aan [&#x200B; uit uitgeven een mening op het gebied van Verzoeken &#x200B;](#edit-a-view-in-the-requests-area).
 
 ## Een weergave voor aanvragen bewerken
 
@@ -104,12 +104,12 @@ De wijzigingen die u aanbrengt in een weergave, zijn zichtbaar voor alle gebruik
    {{step1-to-requests}}
 
 1. Verzeker het **gebruik nieuwe ervaring** het plaatsen wordt aangezet.
-1. In de **lijst van Verzoeken**, bepaal de plaats van de mening die u van het **** dropdown menu van Meningen ![ dropdown ](assets/view-icon-requests.png) wilt uitgeven Meningen.
+1. In de **lijst van Verzoeken**, bepaal de plaats van de mening die u van het **&#x200B;**&#x200B;dropdown menu van Meningen ![&#x200B; dropdown &#x200B;](assets/view-icon-requests.png) wilt uitgeven Meningen.
 
-1. Klik de **dropdown** Meningen 1} van Meningen ![ en klik het drie-punt menu naast de mening, uitgezocht ](assets/view-icon-requests.png) anders noemen **, dan type in de nieuwe naam voor de mening.**
+1. Klik de **dropdown** Meningen 1&rbrace; van Meningen ![&#x200B; en klik het drie-punt menu naast de mening, uitgezocht &#x200B;](assets/view-icon-requests.png) anders noemen **, dan type in de nieuwe naam voor de mening.**
 1. Druk op Enter om de nieuwe naam op te slaan.
-1. Klik de **dropdown** drop-down Meningen ![ en selecteer de mening u wilt uitgeven.](assets/view-icon-requests.png)
-1. Om een gebied als kolom toe te voegen, klik **kolom** pictogram ![ toevoegen kolom ](assets/add-column.png) in de hoger-juiste hoek van de lijst.
+1. Klik de **dropdown** drop-down Meningen ![&#x200B; en selecteer de mening u wilt uitgeven.](assets/view-icon-requests.png)
+1. Om een gebied als kolom toe te voegen, klik **kolom** pictogram ![&#x200B; toevoegen kolom &#x200B;](assets/add-column.png) in de hoger-juiste hoek van de lijst.
 
    De **manager van de Kolom** opent.
 1. Klik het plusteken naast het gebied dat u als kolom aan de mening wilt toevoegen, dan klik **sparen**.
@@ -156,7 +156,7 @@ De aanvraaglijst wordt automatisch gefilterd, aangezien u de filtervoorwaarden t
 
 Een Workfront-beheerder kan de nieuwe weergave toevoegen aan lay-outsjablonen.
 
-Voor instructies, zie [ Filters, Mening, en Groepen aanpassen gebruikend een lay-outmalplaatje ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md).
+Voor instructies, zie [&#x200B; Filters, Mening, en Groepen aanpassen gebruikend een lay-outmalplaatje &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md).
 
 ## Een weergave delen
 
@@ -172,4 +172,4 @@ U kunt weergaven delen die u maakt met andere gebruikers, teams of groepen.
 1. In het **vakje van het Aandeel**, ga de mensen, de teams, de rollen, de groepen, of de bedrijven in die u de mening met wilt delen, dan hen van de lijst selecteren wanneer zij verschijnen.
 1. Klik **sparen**.
 
-   De weergave wordt gedeeld met de entiteiten die u aangeeft. Ze kunnen de bijgewerkte weergave-elementen die u voor de weergave hebt bewerkt, bekijken voordat ze deze delen. <span class="preview"> als zij de mening bijwerken, zullen hun veranderingen niet zichtbaar aan anderen, tenzij zij een exemplaar van de zelfde mening maken en hun veranderingen bewaren alvorens zij het exemplaar delen. Voor meer informatie, zie [ Gebruik verbeterde lijsten ](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md). </span>
+   De weergave wordt gedeeld met de entiteiten die u aangeeft. Ze kunnen de bijgewerkte weergave-elementen die u voor de weergave hebt bewerkt, bekijken voordat ze deze delen. <span class="preview"> als zij de mening bijwerken, zullen hun veranderingen niet zichtbaar aan anderen, tenzij zij een exemplaar van de zelfde mening maken en hun veranderingen bewaren alvorens zij het exemplaar delen. Voor meer informatie, zie [&#x200B; Gebruik verbeterde lijsten &#x200B;](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md). </span>
