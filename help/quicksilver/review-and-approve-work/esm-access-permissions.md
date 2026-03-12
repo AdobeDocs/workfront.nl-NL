@@ -6,10 +6,8 @@ description: Adobe Enterprise Storage-machtigingen en toegangsoverzicht
 author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
-hide: true
-hidefromtoc: true
 exl-id: 758d17e6-f31f-42b7-a9e6-6bd1821f5c15
-source-git-commit: 522175549d1a2b19c9e6a47a7e4b0d63ac08e3a3
+source-git-commit: 8b8f638f089ff967fe7d4fb641b23f5836ac86b5
 workflow-type: tm+mt
 source-wordcount: '851'
 ht-degree: 0%
@@ -39,7 +37,7 @@ De toegang tot documenten gedraagt zich verschillend afhankelijk van of het proj
 
 Als u Adobe Enterprise Storage hebt ingeschakeld in uw Workfront-omgeving, kunt u zowel Adobe Enterprise Storage-projecten als oudere Workfront-opslagprojecten maken. Bij verouderde Workfront-opslagprojecten wordt een pictogram weergegeven naast de projectnaam, waar deze ook wordt weergegeven in Workfront. Adobe Enterprise Storage-projecten geven geen pictogram weer.
 
-![&#x200B; pictogram van de erfeniswerkfront opslag naast projectnaam &#x200B;](assets/legacy-project-icon.png)
+![ pictogram van de erfeniswerkfront opslag naast projectnaam ](assets/legacy-project-icon.png)
 
 
 ### Omgevingen die alleen gebruikmaken van Adobe Enterprise Storage
