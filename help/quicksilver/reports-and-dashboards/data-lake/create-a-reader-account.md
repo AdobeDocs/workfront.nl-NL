@@ -20,7 +20,7 @@ Als u toegang wilt krijgen tot gegevens van Data Connect, moet u eerst een Snowf
 
 Nadat u een verbinding hebt gemaakt, kunt u de bijbehorende URL en gebruikersnaam vinden door erop te klikken op de pagina Data Connect (Hoofdmenu > Setup > Systeem > Data Connect) onder het tabblad Bestaande verbindingen.
 
-Voor informatie bij het gebruiken van een pas gecreëerde verbinding met een extern product, zie [ een verbinding aan de Gegevens van Workfront vestigen verbind ](/help/quicksilver/reports-and-dashboards/data-lake/share-data-externally.md).
+Voor informatie bij het gebruiken van een pas gecreëerde verbinding met een extern product, zie [&#x200B; een verbinding aan de Gegevens van Workfront vestigen verbind &#x200B;](/help/quicksilver/reports-and-dashboards/data-lake/share-data-externally.md).
 
 ## Toegangsvereisten
 
@@ -49,7 +49,7 @@ Voor informatie bij het gebruiken van een pas gecreëerde verbinding met een ext
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -63,7 +63,7 @@ U moet een nieuwe Snowflake-lezeraccount voor uw organisatie maken voordat u ver
 
 Een lezeraccount maken:
 
-1. Klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, of (als beschikbaar), klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon-left-nav.png) in de upper-left hoek, dan klik **Opstelling**.
+1. Klik het **[!UICONTROL Main Menu]** pictogram ![&#x200B; Belangrijkste Menu &#x200B;](/help/_includes/assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, of (als beschikbaar), klik het **[!UICONTROL Main Menu]** pictogram ![&#x200B; Belangrijkste Menu &#x200B;](/help/_includes/assets/main-menu-icon-left-nav.png) in de upper-left hoek, dan klik **Opstelling**.
 
 1. In het linkerpaneel, klik **Systeem** > **Gegevens verbinden**.
 
@@ -71,7 +71,7 @@ Een lezeraccount maken:
 
 1. Na voltooiing wordt een dialoogvenster weergegeven waarin wordt uitgelegd dat uw lezeraccount nu actief is. Vernieuw de browser pagina om toegang tot **te krijgen creeer Nieuwe Verbinding** knoop.
 
-![ de rekening van Reader creeerde dialoog ](/help/quicksilver/reports-and-dashboards/data-lake/assets/data-connect-reader-account-created.png)
+![&#x200B; de rekening van Reader creeerde dialoog &#x200B;](/help/quicksilver/reports-and-dashboards/data-lake/assets/data-connect-reader-account-created.png)
 
 ## Verbinding maken
 
@@ -80,7 +80,7 @@ Een lezeraccount maken:
 >In juni 2026 zijn gebruikersgegevens/wachtwoordgegevens vereist voor het gebruik van meervoudige verificatie (MFA). Wij adviseren overschakeling aan of RSA of op PAT-Gebaseerde authentificatie voor de rekeningen van de de dienstgebruiker die worden gebruikt om gegevens van Gegevens te laden verbindt in derdevisualiseringshulpmiddelen, gegevensverwerkers, en manuscripten die niet met MFA in het authentificatieproces zullen werken.
 
 
-1. Klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, of (als beschikbaar), klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon-left-nav.png) in de upper-left hoek, dan klik **Opstelling**.
+1. Klik het **[!UICONTROL Main Menu]** pictogram ![&#x200B; Belangrijkste Menu &#x200B;](/help/_includes/assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, of (als beschikbaar), klik het **[!UICONTROL Main Menu]** pictogram ![&#x200B; Belangrijkste Menu &#x200B;](/help/_includes/assets/main-menu-icon-left-nav.png) in de upper-left hoek, dan klik **Opstelling**.
 
 1. In het linkerpaneel, klik **Systeem** > **Gegevens verbinden**.
 
@@ -88,7 +88,7 @@ Een lezeraccount maken:
 
 1. In het venster dat verschijnt, ga een naam voor uw verbinding in **de verwijzingsbeschrijving van de Verbinding** en een gebruikersbenaming in **de gebruiker van de Verbinding** in, dan klik **produceert Verbinding**.
 
-   ![ creeer nieuwe verbinding ](/help/quicksilver/reports-and-dashboards/data-lake/assets/new-reader-connection.png) {width="500"}
+   ![&#x200B; creeer nieuwe verbinding &#x200B;](/help/quicksilver/reports-and-dashboards/data-lake/assets/new-reader-connection.png) {width="500"}
 
 1. Kies een verificatiemethode voor de verbinding:
    * [Wachtwoordverificatie](#password-authentication)
@@ -101,13 +101,13 @@ Een lezeraccount maken:
 
 1. A **Standaardwachtwoord** wordt geproduceerd, evenals URL waar uw gegevens door Snowflake kunnen worden bekeken. U moet het wachtwoord gebruiken met de gebruikersnaam die u hebt gekozen om u voor het eerst aan te melden bij Snowflake, zodat u niet alleen de URL, maar ook een record kunt bijhouden. Controleer de doos die u verklaart dit hebt gedaan, dan klik **dicht**.
 
-   ![ Standaard rekeningswachtwoord ](/help/quicksilver/reports-and-dashboards/data-lake/assets/default-password-reader-account.png) {width="500"}
+   ![&#x200B; Standaard rekeningswachtwoord &#x200B;](/help/quicksilver/reports-and-dashboards/data-lake/assets/default-password-reader-account.png) {width="500"}
 
 1. Open Snowflake gebruikend browser om aan URL van de vorige stap te navigeren, ga de gebruikersbenaming in u en het standaardwachtwoord van de vorige stap selecteerde, dan klik **binnen Teken**.
 
 1. Nadat u zich voor het eerst hebt aangemeld, wordt u gevraagd een nieuw wachtwoord te kiezen. Ga een wachtwoord van uw keus in zowel het **Nieuwe wachtwoord** in en **bevestig wachtwoord** gebieden, dan klik **voorleggen**.
 
-   ![ het wachtwoord van Snowflake van het Terugstellen ](/help/quicksilver/reports-and-dashboards/data-lake/assets/reset-snowflake-password.png) {width="300"}
+   ![&#x200B; het wachtwoord van Snowflake van het Terugstellen &#x200B;](/help/quicksilver/reports-and-dashboards/data-lake/assets/reset-snowflake-password.png) {width="300"}
 
 1. U kunt nu uw gebruikersnaam en nieuw wachtwoord gebruiken om toegang te krijgen tot uw Data Connect Data Lake in Snowflake of het hulpprogramma voor bedrijfsvisualisatie van uw keuze.
 
@@ -121,7 +121,7 @@ Een lezeraccount maken:
 
 1. Er wordt een PAT-token gegenereerd dat kan worden gebruikt voor verificatie en de URL van de Snowflake-omgeving wordt opgegeven. U kunt het PAT en de gebruikersnaam gebruiken u om met Snowflake van uw derdevisualisatiehulpmiddel of gegevensverwerker te verbinden. Zorg ervoor dat u er een record van en de URL bij houdt. Controleer de doos die u verklaart dit hebt gedaan, dan klik **dicht**.
 
-   ![ programmatic dialoog van het toegangstoken ](/help/quicksilver/reports-and-dashboards/data-lake/assets/pat-test.png)
+   ![&#x200B; programmatic dialoog van het toegangstoken &#x200B;](/help/quicksilver/reports-and-dashboards/data-lake/assets/pat-test.png)
 
 
 ### RSA-sleutelverificatie
@@ -142,10 +142,10 @@ U moet de sleutel van RSA met de gebruikersbenaming gebruiken u verkoos om binne
 
 ## Een lezeraccount intrekken
 
-1. Klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, of (als beschikbaar), klik het **[!UICONTROL Main Menu]** pictogram ![ Belangrijkste Menu ](/help/_includes/assets/main-menu-icon-left-nav.png) in de upper-left hoek, dan klik **Opstelling**.
+1. Klik het **[!UICONTROL Main Menu]** pictogram ![&#x200B; Belangrijkste Menu &#x200B;](/help/_includes/assets/main-menu-icon.png) in de hoger-juiste hoek van Adobe Workfront, of (als beschikbaar), klik het **[!UICONTROL Main Menu]** pictogram ![&#x200B; Belangrijkste Menu &#x200B;](/help/_includes/assets/main-menu-icon-left-nav.png) in de upper-left hoek, dan klik **Opstelling**.
 
 1. In het linkerpaneel, klik **Systeem** > **Toegang van Gegevens**.
 
-1. Klik op het trashcan pictogram van de Schrapping ![ pictogram van de Schrapping ](/help/quicksilver/reports-and-dashboards/data-lake/assets/delete.png) rechts van de rekening u zou willen intrekken.
+1. Klik op het trashcan pictogram van de Schrapping ![&#x200B; pictogram van de Schrapping &#x200B;](/help/quicksilver/reports-and-dashboards/data-lake/assets/delete.png) rechts van de rekening u zou willen intrekken.
 
 1. In het venster dat verschijnt, controleer de doos om te bevestigen en dan **Schrapping** te klikken.
