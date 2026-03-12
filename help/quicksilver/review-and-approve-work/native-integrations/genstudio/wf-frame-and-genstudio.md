@@ -88,7 +88,7 @@ Voor meer informatie over het creëren van de malplaatjes van het goedkeuringswe
 
 Wanneer een gebruiker een revisie start in GenStudio for Performance Marketing, kiest hij of zij gewoon de sjabloon die hij of zij nodig heeft. Gebruikers kunnen op elk gewenst moment eenvoudig een sjabloon voor een uniforme goedkeuringswerkstroom wijzigen door revisoren en fasen toe te voegen of te verwijderen.
 
-Voor meer informatie, zie [&#x200B; overzicht en goedkeuring van het Verzoek &#x200B;](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/approve/request-review).
+Voor meer informatie, zie [&#x200B; overzicht en goedkeuring van het Verzoek &#x200B;](https://experienceleague.adobe.com/nl/docs/genstudio-for-performance-marketing/user-guide/approve/request-review).
 
 ## GenStudio for Performance Marketing-conceptinhoud in de viewer Frame.io controleren en goedkeuren
 
@@ -107,4 +107,4 @@ Voor meer informatie bij het gebruiken van de kijker Frame.io, zie [&#x200B; Com
 
 Nadat het element is gecontroleerd en goedgekeurd, kunt u het revisiebesluit bekijken en de inhoud rechtstreeks vanuit GenStudio for Performance Marketing publiceren.
 
-Voor meer informatie, zie [&#x200B; goedgekeurde inhoud &#x200B;](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/approve/publish-content) publiceren.
+Voor meer informatie, zie [&#x200B; goedgekeurde inhoud &#x200B;](https://experienceleague.adobe.com/nl/docs/genstudio-for-performance-marketing/user-guide/approve/publish-content) publiceren.
