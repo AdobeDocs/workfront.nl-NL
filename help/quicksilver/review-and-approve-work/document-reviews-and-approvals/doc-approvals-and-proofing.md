@@ -50,11 +50,11 @@ U kunt revisoren, fiatteurs of een combinatie van beide toewijzen:
 Om deelnemers toe te wijzen:
 
 1. Selecteer het document dat u hebt geüpload en open de samenvatting van het document.
-   ![ Open documentsamenvatting ](assets/open-doc-summary.png)
+   ![&#x200B; Open documentsamenvatting &#x200B;](assets/open-doc-summary.png)
 
 1. De rol neer aan de sectie van Goedkeuringen, dan klikt **toevoegt**.
 
-1. (Optioneel) Kies een bestaande goedkeuringssjabloon. Gebruikers met een standaardlicentie kunnen herbruikbare goedkeuringssjablonen maken in het gedeelte Setup. Voor meer informatie, zie [ een malplaatje van het goedkeuringswerkschema voor documenten ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md) creëren.
+1. (Optioneel) Kies een bestaande goedkeuringssjabloon. Gebruikers met een standaardlicentie kunnen herbruikbare goedkeuringssjablonen maken in het gedeelte Setup. Voor meer informatie, zie [&#x200B; een malplaatje van het goedkeuringswerkschema voor documenten &#x200B;](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md) creëren.
 
 1. (Optioneel) Stel een deadline in voor de goedkeuring. Gebruikers en teams worden 72 uur per e-mail op de hoogte gesteld en 24 uur vóór de opgegeven deadline.
 
@@ -62,7 +62,7 @@ Om deelnemers toe te wijzen:
 
 1. Als u een revisor wilt toevoegen, klikt u op de knop Revisor en typt u de naam van een gebruiker of team.
 
-   ![ voegt fiatteurs ](assets/add-approvers.png) toe
+   ![&#x200B; voegt fiatteurs &#x200B;](assets/add-approvers.png) toe
 
 1. Zodra u alle recensenten en fiatteurs hebt toegevoegd, klik **voorleggen Verzoek**. Deelnemers worden via e-mail op de hoogte gesteld.
 
@@ -77,11 +77,11 @@ Een nieuwe versie toevoegen:
 1. Zodra het document eindigt uploadend, selecteer het document, dan klik **creeer bewijs** > **Eenvoudige proef**.
 
 1. Selecteer het document opnieuw en open het document Summary.
-   ![ Open documentsamenvatting ](assets/open-doc-summary.png)
+   ![&#x200B; Open documentsamenvatting &#x200B;](assets/open-doc-summary.png)
 
 1. De rol neer aan de sectie van Goedkeuringen, dan klikt **toevoegt**.
 
-1. (Optioneel) Kies een bestaande goedkeuringssjabloon. Gebruikers met een standaardlicentie kunnen herbruikbare goedkeuringssjablonen maken in het gedeelte Setup. Voor meer informatie, zie [ een malplaatje van het goedkeuringswerkschema voor documenten ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md) creëren.
+1. (Optioneel) Kies een bestaande goedkeuringssjabloon. Gebruikers met een standaardlicentie kunnen herbruikbare goedkeuringssjablonen maken in het gedeelte Setup. Voor meer informatie, zie [&#x200B; een malplaatje van het goedkeuringswerkschema voor documenten &#x200B;](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md) creëren.
 
 1. (Optioneel) Stel een deadline in voor de goedkeuring. Gebruikers en teams worden 72 uur per e-mail op de hoogte gesteld en 24 uur vóór de opgegeven deadline.
 
@@ -89,7 +89,7 @@ Een nieuwe versie toevoegen:
 
 1. Als u een revisor wilt toevoegen, klikt u op de knop Revisor en typt u een gebruiker- of teamnaam. Kies vervolgens een revisor uit de vorige versie.
 
-   ![ voegt fiatteurs ](assets/add-approvers.png) toe
+   ![&#x200B; voegt fiatteurs &#x200B;](assets/add-approvers.png) toe
 
 1. Zodra u alle recensenten en fiatteurs hebt toegevoegd, klik **voorleggen Verzoek**. Deelnemers worden via e-mail op de hoogte gesteld.
 
@@ -106,13 +106,13 @@ Een document controleren en goedkeuren:
 
 1. Zodra u in Workfront bent, klik **gaan aan proef**.
 
-1. Bekijk de inhoud en voeg eventuele opmerkingen of markeringen toe. Voor meer informatie over hoe te om de het proeven kijker te gebruiken, zie [ proefdrukken van het Overzicht binnen Adobe Workfront: artikelindex ](/help/quicksilver/review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md).
+1. Bekijk de inhoud en voeg eventuele opmerkingen of markeringen toe. Voor meer informatie over hoe te om de het proeven kijker te gebruiken, zie [&#x200B; proefdrukken van het Overzicht binnen Adobe Workfront: artikelindex &#x200B;](/help/quicksilver/review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md).
 
 1. Kies een van de volgende beslissingen:
 
    * **keur** goed: Het document vereist geen veranderingen en is klaar voor gebruik.
    * **keur met veranderingen** goed: Het document vereist veranderingen en is klaar voor gebruik zodra zij worden gemaakt. Aanvullende goedkeuring is niet vereist.
-   * **het werk van behoeften**: Het document vereist veranderingen en is niet klaar voor gebruik. Nadat de opgegeven wijzigingen zijn aangebracht, moet het document worden geüpload als een nieuwe versie en door een andere goedkeuringsronde worden geleid. Voor meer informatie bij het uploaden van een nieuwe versie, zie [ een nieuwe versie creëren zoals nodig ](#create-a-new-version-as-needed) in dit artikel.
+   * **het werk van behoeften**: Het document vereist veranderingen en is niet klaar voor gebruik. Nadat de opgegeven wijzigingen zijn aangebracht, moet het document worden geüpload als een nieuwe versie en door een andere goedkeuringsronde worden geleid. Voor meer informatie bij het uploaden van een nieuwe versie, zie [&#x200B; een nieuwe versie creëren zoals nodig &#x200B;](#create-a-new-version-as-needed) in dit artikel.
 
 Nadat u een beslissing hebt genomen, wordt de eigenaar van het document via e-mail op de hoogte gesteld.
 
@@ -147,7 +147,7 @@ U kunt revisoren, fiatteurs of een combinatie van beide toewijzen:
 Om deelnemers toe te wijzen:
 
 1. Selecteer het document dat u hebt geüpload en open de samenvatting van het document.
-   ![ Open documentsamenvatting ](assets/open-doc-summary.png)
+   ![&#x200B; Open documentsamenvatting &#x200B;](assets/open-doc-summary.png)
 
 1. De rol neer aan de **goedkeurt** sectie, dan klikt **creeert werkschema**.
 
@@ -179,7 +179,7 @@ Om deelnemers toe te wijzen:
    >
    >Als u meerdere fasen toevoegt, gaat de goedkeuringswerkstroom verder in de volgorde waarin de fasen worden weergegeven. Wanneer alle vereiste beslissingen worden genomen, begint de volgende fase en wordt de vorige fase vergrendeld.
 
-   ![ nieuw stadium ](assets/new-stage.png)
+   ![&#x200B; nieuw stadium &#x200B;](assets/new-stage.png)
 
 1. Zodra u alle recensenten en fiatteurs hebt toegevoegd, klik **goedkeuringen van het Verzoek**. Deelnemers worden via e-mail op de hoogte gesteld.
 
@@ -195,7 +195,7 @@ Een nieuwe versie toevoegen:
 1. Zodra het document eindigt uploadend, selecteer het document, dan klik **creeer bewijs** > **Eenvoudige proef**.
 
 1. Selecteer het document opnieuw en open het document Summary.
-   ![ Open documentsamenvatting ](assets/open-doc-summary.png)
+   ![&#x200B; Open documentsamenvatting &#x200B;](assets/open-doc-summary.png)
 
 1. De rol neer aan de **goedkeurt** sectie, dan klikt **creeert werkschema**.
 
@@ -227,7 +227,7 @@ Een nieuwe versie toevoegen:
    >
    >Als u meerdere fasen toevoegt, gaat de goedkeuringswerkstroom verder in de volgorde waarin de fasen worden weergegeven. Wanneer alle vereiste beslissingen worden genomen, begint de volgende fase en wordt de vorige fase vergrendeld.
 
-   ![ nieuw stadium ](assets/new-stage.png)
+   ![&#x200B; nieuw stadium &#x200B;](assets/new-stage.png)
 
 1. Zodra u alle recensenten en fiatteurs hebt toegevoegd, klik **goedkeuringen van het Verzoek**. Deelnemers worden via e-mail op de hoogte gesteld.
 
@@ -243,13 +243,13 @@ Een document controleren en goedkeuren:
 
 1. Zodra u in Workfront bent, klik **gaan aan proef**.
 
-1. Bekijk de inhoud en voeg eventuele opmerkingen of markeringen toe. Voor meer informatie over hoe te om de het proeven kijker te gebruiken, zie [ proefdrukken van het Overzicht binnen Adobe Workfront: artikelindex ](/help/quicksilver/review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md).
+1. Bekijk de inhoud en voeg eventuele opmerkingen of markeringen toe. Voor meer informatie over hoe te om de het proeven kijker te gebruiken, zie [&#x200B; proefdrukken van het Overzicht binnen Adobe Workfront: artikelindex &#x200B;](/help/quicksilver/review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md).
 
 1. Kies een van de volgende beslissingen:
 
    * **keur** goed: Het document vereist geen veranderingen en is klaar voor gebruik.
    * **keur met veranderingen** goed: Het document vereist veranderingen en is klaar voor gebruik zodra zij worden gemaakt. Aanvullende goedkeuring is niet vereist.
-   * **het werk van behoeften**: Het document vereist veranderingen en is niet klaar voor gebruik. Nadat de opgegeven wijzigingen zijn aangebracht, moet het document worden geüpload als een nieuwe versie en door een andere goedkeuringsronde worden geleid. Voor meer informatie bij het uploaden van een nieuwe versie, zie [ een nieuwe versie creëren zoals nodig ](#create-a-new-version-as-needed) in dit artikel.
+   * **het werk van behoeften**: Het document vereist veranderingen en is niet klaar voor gebruik. Nadat de opgegeven wijzigingen zijn aangebracht, moet het document worden geüpload als een nieuwe versie en door een andere goedkeuringsronde worden geleid. Voor meer informatie bij het uploaden van een nieuwe versie, zie [&#x200B; een nieuwe versie creëren zoals nodig &#x200B;](#create-a-new-version-as-needed) in dit artikel.
 
 Nadat u een beslissing hebt genomen, wordt de eigenaar van het document via e-mail op de hoogte gesteld.
 

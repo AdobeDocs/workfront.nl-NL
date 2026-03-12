@@ -55,13 +55,13 @@ U moet de volgende toegang hebben om de stappen in dit artikel uit te voeren:
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Samenvatting voor documenten in de ervaring met oudere documenten
 
-Als uw organisatie zich in een verouderde Workfront-opslagruimte bevindt, ziet u het gebied met verouderde documenten wanneer u documenten in Workfront opent. Voor meer informatie over de opslag van erfenisWorkfront, zie [ Verschillen tussen de opslag van erfenisWorkfront en de ondernemingsopslag van Adobe ](/help/quicksilver/review-and-approve-work/esm-overview.md).
+Als uw organisatie zich in een verouderde Workfront-opslagruimte bevindt, ziet u het gebied met verouderde documenten wanneer u documenten in Workfront opent. Voor meer informatie over de opslag van erfenisWorkfront, zie [&#x200B; Verschillen tussen de opslag van erfenisWorkfront en de ondernemingsopslag van Adobe &#x200B;](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 ### De overzichtsweergave openen in de ervaring met oudere documenten
 
@@ -69,9 +69,9 @@ Als uw organisatie zich in een verouderde Workfront-opslagruimte bevindt, ziet u
 
 1. Voor de **pagina van Documenten**, selecteer een document in de lijst.
 
-1. In de hoger-juiste hoek van de pagina, klik het **Open Samenvatting** pictogram ![ Open Summiere pictogram ](assets/qs-summary-in-new-toolbar-small.png). Het **Samenvatting van het Document** zijpaneel opent.
+1. In de hoger-juiste hoek van de pagina, klik het **Open Samenvatting** pictogram ![&#x200B; Open Summiere pictogram &#x200B;](assets/qs-summary-in-new-toolbar-small.png). Het **Samenvatting van het Document** zijpaneel opent.
 
-   ![ Summiere details ](assets/document-summary-panel.png)
+   ![&#x200B; Summiere details &#x200B;](assets/document-summary-panel.png)
 
    Nadat u de samenvatting hebt geopend, blijft deze geopend op deze pagina (zelfs als u op andere documenten klikt) totdat u deze handmatig sluit.
 
@@ -87,19 +87,19 @@ In de sectie Details kunt u overzichtsgegevens op hoog niveau weergeven en commu
 
 Vouw de sectie Overzicht uit om een miniatuur van een afbeelding weer te geven of te downloaden, open een proefdruk, werk de basisbeschrijving bij, check het document uit en nog veel meer.
 
-![ Overzicht van het Overzicht van het Document ](assets/details-section.png)
+![&#x200B; Overzicht van het Overzicht van het Document &#x200B;](assets/details-section.png)
 
 #### Aangepaste Forms {#custom-forms}
 
-Met de sectie Aangepaste Forms kunt u aangepaste formulieren die aan het document zijn gekoppeld, toevoegen, bewerken of weergeven. Typ de naam van het aangepaste formulier om het aan het document toe te voegen. Voor meer informatie, zie [ een douanevorm aan een document ](../../documents/managing-documents/add-custom-form-documents.md) toevoegen of uitgeven.
+Met de sectie Aangepaste Forms kunt u aangepaste formulieren die aan het document zijn gekoppeld, toevoegen, bewerken of weergeven. Typ de naam van het aangepaste formulier om het aan het document toe te voegen. Voor meer informatie, zie [&#x200B; een douanevorm aan een document &#x200B;](../../documents/managing-documents/add-custom-form-documents.md) toevoegen of uitgeven.
 
-![ voeg een douanevorm in documentsamenvatting toe ](assets/custom-forms-section.png)
+![&#x200B; voeg een douanevorm in documentsamenvatting toe &#x200B;](assets/custom-forms-section.png)
 
 ### Updates
 
-In de sectie Updates kunt u een update weergeven van iemand die in het document of de proefdruk is aangebracht. In het overzicht worden de eerste twee opmerkingen weergegeven. Voor meer informatie over updates, zie [ Commentaar op een proef ](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/comment-on-proof.md).
+In de sectie Updates kunt u een update weergeven van iemand die in het document of de proefdruk is aangebracht. In het overzicht worden de eerste twee opmerkingen weergegeven. Voor meer informatie over updates, zie [&#x200B; Commentaar op een proef &#x200B;](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/comment-on-proof.md).
 
-![ sectie van Updates in Samenvattend paneel ](assets/updates-section.png)
+![&#x200B; sectie van Updates in Samenvattend paneel &#x200B;](assets/updates-section.png)
 
 ### Goedkeuringen
 
@@ -107,14 +107,14 @@ Gebruik de sectie Goedkeuringen om goedkeuring van een document te vragen. U kun
 
 Goedkeuringen van proefdrukken moeten worden toegevoegd aan de proefwerkstroom. Zie voor meer informatie over goedkeuringen
 
-* [ goedkeurend het werk ](../../review-and-approve-work/manage-approvals/approving-work.md)
+* [&#x200B; goedkeurend het werk &#x200B;](../../review-and-approve-work/manage-approvals/approving-work.md)
 * [Documentgoedkeuring aanvragen](../../review-and-approve-work/manage-approvals/request-document-approvals.md)
 
-![ de summiere goedkeuringen van het Document ](assets/approvals-section.png)
+![&#x200B; de summiere goedkeuringen van het Document &#x200B;](assets/approvals-section.png)
 
 ### Versies
 
-In de sectie Versies kunt u het aantal versies weergeven dat voor een bepaald document is gemaakt. Klik het Meer pictogram ![ Meer pictogram ](assets/more-icon.png) om het volgende te doen:
+In de sectie Versies kunt u het aantal versies weergeven dat voor een bepaald document is gemaakt. Klik het Meer pictogram ![&#x200B; Meer pictogram &#x200B;](assets/more-icon.png) om het volgende te doen:
 
 * Open een proefdruk.
 * Download een proefdruk of document.
@@ -122,17 +122,17 @@ In de sectie Versies kunt u het aantal versies weergeven dat voor een bepaald do
 * Ga naar Documentdetails.
 * Een proefdruk of document verwijderen.
 
-![ de summiere versies van het Document ](assets/versions-section.png)
+![&#x200B; de summiere versies van het Document &#x200B;](assets/versions-section.png)
 
 ## Overzicht van documenten in de nieuwe documentervaring
 
-Als uw organisatie bedrijfsopslag gebruikt, zult u het nieuwe documentengebied zien wanneer u tot documenten in Workfront toegang hebt. Voor meer informatie over ondernemingsopslag, zie [ overzicht van de ondernemingsopslag van Adobe ](/help/quicksilver/review-and-approve-work/esm-overview.md).
+Als uw organisatie bedrijfsopslag gebruikt, zult u het nieuwe documentengebied zien wanneer u tot documenten in Workfront toegang hebt. Voor meer informatie over ondernemingsopslag, zie [&#x200B; overzicht van de ondernemingsopslag van Adobe &#x200B;](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 ### Details
 
 In de sectie Details kunt u overzichtsgegevens op hoog niveau weergeven en communiceren met aangepaste formulieren.
 
-![ de summiere details van het Document in nieuwe documentervaring ](assets/summary-details.png)
+![&#x200B; de summiere details van het Document in nieuwe documentervaring &#x200B;](assets/summary-details.png)
 
 ### Goedkeuringen
 
@@ -141,9 +141,9 @@ Gebruik de sectie Goedkeuringen om een goedkeuringswerkstroom te maken. U kunt d
 Voor meer informatie over goedkeuringen en Frame.io, zie
 
 * [Begin met de integratie Frame.io](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/get-started-with-frame-integration.md)
-* [ creeer een documentoverzicht of goedkeuringsverzoek ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
+* [&#x200B; creeer een documentoverzicht of goedkeuringsverzoek &#x200B;](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
 
-![ de summiere goedkeuringen van het Document in nieuwe documentervaring ](assets/summary-approvals.png)
+![&#x200B; de summiere goedkeuringen van het Document in nieuwe documentervaring &#x200B;](assets/summary-approvals.png)
 
 
 <!-- resubmit the approval and cancel the previous decision, or delete the approval. Document approvers can use the Summary to make a decision.-->
@@ -161,10 +161,10 @@ In de sectie Versies kunt u het aantal versies weergeven dat voor een bepaald do
 * De versie delen
 * De versie verwijderen
 
-![ de summiere versies van het Document in nieuwe documentervaring ](assets/summary-versions.png)
+![&#x200B; de summiere versies van het Document in nieuwe documentervaring &#x200B;](assets/summary-versions.png)
 
 ### Historie
 
 In de sectie Historie kunt u een lijst weergeven met alle activiteiten die betrekking hebben op het document.
 
-![ de summiere geschiedenis van het Document in nieuwe documentervaring ](assets/summary-history.png)
+![&#x200B; de summiere geschiedenis van het Document in nieuwe documentervaring &#x200B;](assets/summary-history.png)

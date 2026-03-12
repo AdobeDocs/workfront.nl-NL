@@ -46,13 +46,13 @@ U kunt een document voorvertonen vanuit het gebied Documenten. Dit is vooral han
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Een voorvertoning van een document weergeven in het gebied Oudere documenten
 
-Als uw organisatie zich in een verouderde Workfront-opslagruimte bevindt, ziet u het gebied met verouderde documenten wanneer u documenten in Workfront opent. Voor meer informatie over de opslag van erfenisWorkfront, zie [ Verschillen tussen de opslag van erfenisWorkfront en de ondernemingsopslag van Adobe ](/help/quicksilver/review-and-approve-work/esm-overview.md).
+Als uw organisatie zich in een verouderde Workfront-opslagruimte bevindt, ziet u het gebied met verouderde documenten wanneer u documenten in Workfront opent. Voor meer informatie over de opslag van erfenisWorkfront, zie [&#x200B; Verschillen tussen de opslag van erfenisWorkfront en de ondernemingsopslag van Adobe &#x200B;](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 Een voorbeeld van een document bekijken:
 
@@ -74,7 +74,7 @@ Een voorbeeld van een document bekijken:
 
 ## Een voorvertoning van een document weergeven in het gebied Nieuwe documenten
 
-Als uw organisatie bedrijfsopslag gebruikt, zult u het nieuwe documentengebied zien wanneer u tot documenten in Workfront toegang hebt. Voor meer informatie over ondernemingsopslag, zie [ overzicht van de ondernemingsopslag van Adobe ](/help/quicksilver/review-and-approve-work/esm-overview.md).
+Als uw organisatie bedrijfsopslag gebruikt, zult u het nieuwe documentengebied zien wanneer u tot documenten in Workfront toegang hebt. Voor meer informatie over ondernemingsopslag, zie [&#x200B; overzicht van de ondernemingsopslag van Adobe &#x200B;](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 Voor sommige bestandsindelingen kan geen voorbeeld worden weergegeven.
 
@@ -152,6 +152,6 @@ Een voorbeeld van een document bekijken:
 
 1. Ga naar het project, de taak, of de kwestie die het document bevat, dan selecteren **Documenten** in het linkerpaneel.
 1. Zoek het gewenste document en klik op de naam van het document.
-   ![ voorproef van het Document ](assets/preview-new-doc.png)
+   ![&#x200B; voorproef van het Document &#x200B;](assets/preview-new-doc.png)
 
 

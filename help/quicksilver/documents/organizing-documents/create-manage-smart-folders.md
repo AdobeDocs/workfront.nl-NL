@@ -22,7 +22,7 @@ De eerste keer dat u het gebied Documenten opent, hebt u standaard toegang tot t
 >[!NOTE]
 >
 >Deze functionaliteit is niet beschikbaar in het nieuwe documentengebied.<br>
->Als uw organisatie bedrijfsopslag gebruikt, zult u het nieuwe documentengebied zien wanneer u tot documenten in Workfront toegang hebt. Voor meer informatie over ondernemingsopslag, zie [ overzicht van de ondernemingsopslag van Adobe ](/help/quicksilver/review-and-approve-work/esm-overview.md).
+>Als uw organisatie bedrijfsopslag gebruikt, zult u het nieuwe documentengebied zien wanneer u tot documenten in Workfront toegang hebt. Voor meer informatie over ondernemingsopslag, zie [&#x200B; overzicht van de ondernemingsopslag van Adobe &#x200B;](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 ## Toegangsvereisten
 
@@ -49,7 +49,7 @@ De eerste keer dat u het gebied Documenten opent, hebt u standaard toegang tot t
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -57,7 +57,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 U kunt mappen weergeven in miniaturen, standaard- of lijstweergave. Als u de weergave wilt wijzigen, gebruikt u de weergaveopties in de rechterbovenhoek.
 
-![ geef Slimme Omslag ](assets/screenshot-2016-07-07-12.46.54.png) uit
+![&#x200B; geef Slimme Omslag &#x200B;](assets/screenshot-2016-07-07-12.46.54.png) uit
 
 ## Een slimme map maken 
 
@@ -73,7 +73,7 @@ U kunt mappen weergeven in miniaturen, standaard- of lijstweergave. Als u de wee
 ## Een slimme map bewerken 
 
 1. Ga naar het **gebied van Documenten** dat de slimme omslag bevat die u wilt uitgeven.
-1. In de **Mappen** kolom, klik het **Meer** pictogram ![ Meer menu ](assets/more-icon.png) naast de slimme omslag die u wilt uitgeven.
+1. In de **Mappen** kolom, klik het **Meer** pictogram ![&#x200B; Meer menu &#x200B;](assets/more-icon.png) naast de slimme omslag die u wilt uitgeven.
 1. Klik **uitgeven**.
 
 1. Breng uw veranderingen aan, dan klik **sparen Omslag**.

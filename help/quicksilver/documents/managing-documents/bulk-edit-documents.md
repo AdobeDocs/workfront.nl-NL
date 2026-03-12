@@ -62,20 +62,20 @@ U hebt mogelijk een aangepast formulier met een selectievakje met drie selectiev
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Samengevoegde documenten bewerken in het gebied met oudere documenten
 
-Als uw organisatie zich op verouderde Workfront Storage bevindt, wordt het gedeelte met verouderde documenten weergegeven wanneer u documenten in Workfront opent. Voor meer informatie over de Opslag van Workfront, zie [ Verschillen tussen de ondernemingsopslag van Adobe en erfenisWorkfront opslag ](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-enterprise-storage-and-legacy-workfront-storage).
+Als uw organisatie zich op verouderde Workfront Storage bevindt, wordt het gedeelte met verouderde documenten weergegeven wanneer u documenten in Workfront opent. Voor meer informatie over de Opslag van Workfront, zie [&#x200B; Verschillen tussen de ondernemingsopslag van Adobe en erfenisWorkfront opslag &#x200B;](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-enterprise-storage-and-legacy-workfront-storage).
 
 Documenten in bulk bewerken:
 
 1. Navigeer naar het tabblad Documenten van een project of het gebied Documenten vanuit het hoofdmenu.
 1. Druk op Ctrl of cmd op het toetsenbord en selecteer de documenten die u wilt bewerken.
-1. Klik het Edit pictogram ![ uitgeven pictogram ](assets/edit-icon.png).
-   ![ geef pictogramplaats op pagina uit ](assets/edit-multiple-documents.png)
+1. Klik het Edit pictogram ![&#x200B; uitgeven pictogram &#x200B;](assets/edit-icon.png).
+   ![&#x200B; geef pictogramplaats op pagina uit &#x200B;](assets/edit-multiple-documents.png)
 1. (Facultatief) voeg of geef de **Beschrijving** uit. Als de beschrijving op elk document verschillend is, zult u _Veelvoudige waarden_ in de beschrijvingsdoos zien. U kunt dezelfde beschrijving toevoegen voor alle documenten, maar u kunt afzonderlijke documentbeschrijvingen niet bewerken als u deze bulksgewijs bewerkt.
 1. Breng de volgende wijzigingen aan in aangepaste formulieren:
 
@@ -98,14 +98,14 @@ Documenten in bulk bewerken:
 ## Documenten bulksgewijs bewerken in het nieuwe documentgebied
 
 
-Als uw organisatie bedrijfsopslag gebruikt, zult u het nieuwe documentengebied zien wanneer u tot documenten in Workfront toegang hebt. Voor meer informatie over ondernemingsopslag, zie [ overzicht van de ondernemingsopslag van Adobe ](/help/quicksilver/review-and-approve-work/esm-overview.md).
+Als uw organisatie bedrijfsopslag gebruikt, zult u het nieuwe documentengebied zien wanneer u tot documenten in Workfront toegang hebt. Voor meer informatie over ondernemingsopslag, zie [&#x200B; overzicht van de ondernemingsopslag van Adobe &#x200B;](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 Documenten in bulk bewerken:
 
 1. Ga naar het project, de taak, of de kwestie die het document bevat, dan selecteren **Documenten**.
 1. Druk op Ctrl of cmd op het toetsenbord en selecteer de documenten die u wilt bewerken.
 1. Klik op Bewerken onder aan de pagina.
-   ![ geef veelvoudige documenten uit ](assets/bulk-edit-documents.png)
+   ![&#x200B; geef veelvoudige documenten uit &#x200B;](assets/bulk-edit-documents.png)
 1. (Facultatief) voeg of geef de **Beschrijving** uit. Als de beschrijving op elk document verschillend is, zult u _Veelvoudige waarden_ in de beschrijvingsdoos zien. U kunt dezelfde beschrijving toevoegen voor alle documenten, maar u kunt afzonderlijke documentbeschrijvingen niet bewerken als u deze bulksgewijs bewerkt.
 1. Breng de volgende wijzigingen aan in aangepaste formulieren:
 
@@ -125,9 +125,9 @@ Documenten in bulk bewerken:
 
 1. Navigeer naar een bestaand documentrapport.
 of
-Creeer een documentrapport zoals die in [ wordt beschreven een douanerapport ](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) creëren.
+Creeer een documentrapport zoals die in [&#x200B; wordt beschreven een douanerapport &#x200B;](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) creëren.
 1. Selecteer de documenten die u wilt bewerken.
-1. Klik het Edit pictogram ![ uitgeven pictogram ](assets/edit-icon.png).
+1. Klik het Edit pictogram ![&#x200B; uitgeven pictogram &#x200B;](assets/edit-icon.png).
 1. (Facultatief) voeg of geef de **Beschrijving** uit. Als de beschrijving op elk document verschillend is, zult u _Veelvoudige waarden_ in de beschrijvingsdoos zien. U kunt dezelfde beschrijving toevoegen voor alle documenten, maar u kunt afzonderlijke documentbeschrijvingen niet bewerken als u deze bulksgewijs bewerkt.
 1. Breng de volgende wijzigingen aan in aangepaste formulieren:
 

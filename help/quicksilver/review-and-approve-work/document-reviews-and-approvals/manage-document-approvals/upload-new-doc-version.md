@@ -57,7 +57,7 @@ Als de nieuwste documentversie wordt verwijderd, blijven de vorige versies vergr
  </tbody> 
 </table>
 
-Voor informatie, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor informatie, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -79,7 +79,7 @@ Een nieuwe versie toevoegen:
 1. Sleep het nieuwe bestand naar het vorige document. Hiermee wordt automatisch een nieuwe versie gemaakt.
 
 1. Zodra het document eindigt uploadend, selecteer het document, dan klik **Details van het Document**.
-   ![ open de pagina van documentdetails ](assets/open-doc-details.png)
+   ![&#x200B; open de pagina van documentdetails &#x200B;](assets/open-doc-details.png)
 
 
 1. In het linkerpaneel, klik **goedkeurt**, dan klik **toevoegen**.
@@ -91,14 +91,14 @@ Een nieuwe versie toevoegen:
 
    >[!TIP]
    >
-   >   Gebruikers met een standaardlicentie kunnen herbruikbare goedkeuringssjablonen maken in het gedeelte Setup. Voor meer informatie, zie [ een malplaatje van het goedkeuringswerkschema voor documenten ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md) creëren.
+   >   Gebruikers met een standaardlicentie kunnen herbruikbare goedkeuringssjablonen maken in het gedeelte Setup. Voor meer informatie, zie [&#x200B; een malplaatje van het goedkeuringswerkschema voor documenten &#x200B;](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md) creëren.
 
 
 1. (Optioneel) Stel een deadline in voor de goedkeuring. Gebruikers en teams worden 72 uur per e-mail op de hoogte gesteld en 24 uur vóór de opgegeven deadline.
 
 1. Zodra u alle recensenten en fiatteurs hebt toegevoegd, klik **voorleggen Verzoek**. Deelnemers worden via e-mail op de hoogte gesteld.
 
-   ![ voorlegt nieuwe versie voor goedkeuring ](assets/add-previous-participants.png)
+   ![&#x200B; voorlegt nieuwe versie voor goedkeuring &#x200B;](assets/add-previous-participants.png)
 
 
 
@@ -108,7 +108,7 @@ Een nieuwe versie toevoegen:
 
 ## Gebruik slepen en neerzetten om een nieuwe versie toe te voegen in de voorvertoningsomgeving in het gebied voor oudere documenten
 
-Als uw organisatie in Workfront is opgeslagen, wordt het gedeelte met verouderde documenten weergegeven wanneer u documenten in Workfront opent. Voor meer informatie over de opslag van Workfront, zie [ Opslag van Workfront vs. de ondernemingsopslag van Adobe ](/help/quicksilver/review-and-approve-work/esm-overview.md#workfront-storage-vs-adobe-enterprise-storage).
+Als uw organisatie in Workfront is opgeslagen, wordt het gedeelte met verouderde documenten weergegeven wanneer u documenten in Workfront opent. Voor meer informatie over de opslag van Workfront, zie [&#x200B; Opslag van Workfront vs. de ondernemingsopslag van Adobe &#x200B;](/help/quicksilver/review-and-approve-work/esm-overview.md#workfront-storage-vs-adobe-enterprise-storage).
 
 >[!NOTE]
 >
@@ -125,7 +125,7 @@ Een nieuwe versie toevoegen:
 1. Sleep het nieuwe bestand naar het vorige document. Hiermee wordt automatisch een nieuwe versie gemaakt.
 
 1. Nadat het document is geüpload, selecteert u het document dat u wilt openen in het deelvenster Documentoverzicht. Hier ziet u het versienummer boven in het deelvenster.
-   ![ open de pagina van documentdetails ](assets/open-doc-details.png)
+   ![&#x200B; open de pagina van documentdetails &#x200B;](assets/open-doc-details.png)
 
 
 1. De rol neer aan de **goedkeurt** sectie.
@@ -163,7 +163,7 @@ Een nieuwe versie toevoegen:
 
    >[!TIP]
    >
-   >   Gebruikers met een standaardlicentie kunnen herbruikbare goedkeuringssjablonen maken in het gedeelte Setup. Voor meer informatie, zie [ een malplaatje van het goedkeuringswerkschema voor documenten ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md) creëren.
+   >   Gebruikers met een standaardlicentie kunnen herbruikbare goedkeuringssjablonen maken in het gedeelte Setup. Voor meer informatie, zie [&#x200B; een malplaatje van het goedkeuringswerkschema voor documenten &#x200B;](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md) creëren.
 
 
 
@@ -171,7 +171,7 @@ Een nieuwe versie toevoegen:
 
    De goedkeuringswerkstroom wordt gestart en de fiatteurs ontvangen een melding dat hun goedkeuring voor de nieuwe documentversie is vereist. De vorige documentversie is vergrendeld en eventuele onopgeloste goedkeuringen van de vorige versie worden ingetrokken.
 
-   ![ verzoek goedkeuring ](assets/request-approval.png)
+   ![&#x200B; verzoek goedkeuring &#x200B;](assets/request-approval.png)
    <!--1. To add all previous participants, click **Add all**. You can also add new participants or remove previous participants as needed.-->
 
 

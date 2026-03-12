@@ -16,13 +16,13 @@ ht-degree: 0%
 
 # Een document delen op verouderde Workfront-opslagsystemen
 
-De beheerder van Workfront controleert wie documenten in het gebied van Niveaus van de Toegang in Opstelling kunnen bekijken of uitgeven. Voor meer informatie, zie [ toegang van de Verlening tot documenten ](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-documents.md).
+De beheerder van Workfront controleert wie documenten in het gebied van Niveaus van de Toegang in Opstelling kunnen bekijken of uitgeven. Voor meer informatie, zie [&#x200B; toegang van de Verlening tot documenten &#x200B;](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-documents.md).
 
 Gebruikers kunnen ook documenten delen die ze hebben geüpload of waartoe ze toegang hebben, zodat anderen toestemming krijgen om ze te bekijken of te beheren.
 
 * Machtigingen zijn van toepassing op afzonderlijke items en definiëren welke handelingen iemand kan uitvoeren.
 * De persoon die een document uploadt krijgt automatisch volledige controle (beheermachtigingen).
-* Om een volledige omslag te delen, zie [ een documentomslag ](../../workfront-basics/grant-and-request-access-to-objects/share-a-document-folder.md) delen.
+* Om een volledige omslag te delen, zie [&#x200B; een documentomslag &#x200B;](../../workfront-basics/grant-and-request-access-to-objects/share-a-document-folder.md) delen.
 
 
 
@@ -55,7 +55,7 @@ Gebruikers kunnen ook documenten delen die ze hebben geüpload of waartoe ze toe
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -63,7 +63,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 ## Documenten delen in het gebied Oudere documenten
 
-Als uw organisatie zich in een verouderde Workfront-opslagruimte bevindt, ziet u het gebied met verouderde documenten wanneer u documenten in Workfront opent. Voor meer informatie over de opslag van erfenisWorkfront, zie [ Verschillen tussen de opslag van erfenisWorkfront en de ondernemingsopslag van Adobe ](/help/quicksilver/review-and-approve-work/esm-overview.md).
+Als uw organisatie zich in een verouderde Workfront-opslagruimte bevindt, ziet u het gebied met verouderde documenten wanneer u documenten in Workfront opent. Voor meer informatie over de opslag van erfenisWorkfront, zie [&#x200B; Verschillen tussen de opslag van erfenisWorkfront en de ondernemingsopslag van Adobe &#x200B;](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 ### Een afzonderlijk document delen in het gebied met oudere documenten
 
@@ -73,11 +73,11 @@ De gebruiker die een document naar Workfront uploadt, beschikt standaard over de
 
 1. Op de **pagina van Documenten**, houd over het document over u wilt delen en klik de **verbinding van de Details van het Document** die verschijnt. De **detailleert van het Document** pagina opent.
 
-   ![ verbinding van de Details van het Document ](assets/document-details-link.png)
+   ![&#x200B; verbinding van de Details van het Document &#x200B;](assets/document-details-link.png)
 
-1. Klik het **Meer** pictogram ![ Meer pictogram ](assets/more-icon.png) aan het recht van de documentnaam, dan klik **Aandeel**. Het **de dialoogvakje van de Naam van het Document 1} Aandeel [ opent.]**
+1. Klik het **Meer** pictogram ![&#x200B; Meer pictogram &#x200B;](assets/more-icon.png) aan het recht van de documentnaam, dan klik **Aandeel**. Het **de dialoogvakje van de Naam van het Document 1&rbrace; Aandeel [ opent.]**
 
-   ![ Deel een document ](assets/share-a-document-350x160.png)
+   ![&#x200B; Deel een document &#x200B;](assets/share-a-document-350x160.png)
 
 1. In het **document van de Verlening toegang tot** gebied, begin typend de naam van de gebruiker, het team, de rol, de groep, of het bedrijf u het document met wilt delen, dan klik de naam wanneer het in de drop-down lijst verschijnt.
 
@@ -91,7 +91,7 @@ De gebruiker die een document naar Workfront uploadt, beschikt standaard over de
    * **slechts kunnen de uitgenodigde mensen toegang hebben:** slechts de gebruikers die aan het document worden uitgenodigd kunnen tot het (Gebrek) toegang hebben.
    * **iedereen in het systeem kan** bekijken: Alle gebruikers in het systeem kunnen het document zonder een uitnodiging bekijken.
 
-1. (Facultatief) om het document openbaar te maken, klik het tandwielpictogram ![ selecteren het tandwielpictogram ](assets/gear-icon.png), dan klik de doos in-lijn met **maak dit openbaar aan externe gebruikers**. De **openbare verbinding van het Exemplaar** knoop verschijnt bij de bodem van de dialoogdoos.
+1. (Facultatief) om het document openbaar te maken, klik het tandwielpictogram ![&#x200B; selecteren het tandwielpictogram &#x200B;](assets/gear-icon.png), dan klik de doos in-lijn met **maak dit openbaar aan externe gebruikers**. De **openbare verbinding van het Exemplaar** knoop verschijnt bij de bodem van de dialoogdoos.
 
 1. Klik op de vervolgkeuzelijst rechts van de gebruikersnaam en selecteer het machtigingsniveau voor dit document:
 
@@ -100,7 +100,7 @@ De gebruiker die een document naar Workfront uploadt, beschikt standaard over de
 
 1. (Optioneel) Klik op het pictogram Geavanceerde opties naast het machtigingsniveau dat u hebt toegekend om specifieke machtigingen voor het document te configureren.
 
-   ![ gevormde geavanceerde toestemmingsopties ](assets/advanced-options-icon.png)
+   ![&#x200B; gevormde geavanceerde toestemmingsopties &#x200B;](assets/advanced-options-icon.png)
 
 1. (Facultatief) om geërfte toestemmingen voor de kindvoorwerpen van het document uit te zetten, klik **Draai** gealigneerd met **Geërfde toestemmingen**.
 
@@ -118,9 +118,9 @@ De gebruiker die een document naar Workfront uploadt, beschikt standaard over de
 
 1. In **Alle Documenten** lusje op de **pagina van Documenten**, onderdruk **Bevel** (Mac) of **CTRL** (Vensters) op uw toetsenbord, dan klik op elk document u wilt delen.
 
-1. Bij de bovenkant van de pagina, klik het **pictogram van het Aandeel** van het Aandeel ![. ](assets/share-icon.png) Het deelmodaal wordt geopend.
+1. Bij de bovenkant van de pagina, klik het **pictogram van het Aandeel** van het Aandeel ![. &#x200B;](assets/share-icon.png) Het deelmodaal wordt geopend.
 
-   ![ pictogram van het Aandeel ](assets/share-documents-in-bulk.png)
+   ![&#x200B; pictogram van het Aandeel &#x200B;](assets/share-documents-in-bulk.png)
 
 1. In het **document van de Verlening toegang tot** gebied, begin typend de naam van de gebruiker, het team, de rol, de groep, of het bedrijf u de documenten met wilt delen, dan klik de naam wanneer het in de drop-down lijst verschijnt.
 
@@ -141,13 +141,13 @@ De gebruiker die een document naar Workfront uploadt, beschikt standaard over de
 
 1. (Optioneel) Klik op het pictogram Geavanceerde opties naast het machtigingsniveau dat u hebt toegekend om specifieke machtigingen voor de documenten te configureren.
 
-   ![ gevormde geavanceerde toestemmingsopties ](assets/advanced-options-icon.png)
+   ![&#x200B; gevormde geavanceerde toestemmingsopties &#x200B;](assets/advanced-options-icon.png)
 
 1. Klik **sparen**.
 
 ### Documentmachtigingen in ervaring met verouderd document
 
-Machtigingen gelden specifiek voor één item in Workfront en definiëren welke handelingen u op dat item kunt uitvoeren. Voor informatie over objecten toestemmingen, zie [ Overzicht van het delen van toestemmingen op voorwerpen ](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+Machtigingen gelden specifiek voor één item in Workfront en definiëren welke handelingen u op dat item kunt uitvoeren. Voor informatie over objecten toestemmingen, zie [&#x200B; Overzicht van het delen van toestemmingen op voorwerpen &#x200B;](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
 +++ Uitvouwen om een gedetailleerde lijst met documentmachtigingen weer te geven
 
@@ -305,16 +305,16 @@ In de volgende tabel wordt aangegeven welke machtigingen u gebruikers kunt verle
 
 &#42; Actie wordt gedeeld door zowel Documenten als Documentmappen.
 
-&#42;&#42; U moet een aparte proefdruklicentie aan uw Workfront-account hebben gekoppeld om documenten te kunnen controleren. Neem contact op met uw accountmanager voor het verkrijgen van een proefdruklicentie. Voor meer informatie over het proef in Workfront, zie [ het Bewijzen ](../../review-and-approve-work/proofing/proofing.md).
+&#42;&#42; U moet een aparte proefdruklicentie aan uw Workfront-account hebben gekoppeld om documenten te kunnen controleren. Neem contact op met uw accountmanager voor het verkrijgen van een proefdruklicentie. Voor meer informatie over het proef in Workfront, zie [&#x200B; het Bewijzen &#x200B;](../../review-and-approve-work/proofing/proofing.md).
 
 +++
 
 ## Documenten delen in het nieuwe documentgebied
 
 
-Workfront gaat over naar de Adobe Enterprise Storage-oplossing om Adobe Creative Cloud-producten beter te kunnen aansluiten. Als uw organisatie bedrijfsopslag gebruikt, zult u het nieuwe documentengebied zien wanneer u tot documenten in Workfront toegang hebt. Voor meer informatie over ondernemingsopslag, zie [ overzicht van de ondernemingsopslag van Adobe ](/help/quicksilver/review-and-approve-work/esm-overview.md).
+Workfront gaat over naar de Adobe Enterprise Storage-oplossing om Adobe Creative Cloud-producten beter te kunnen aansluiten. Als uw organisatie bedrijfsopslag gebruikt, zult u het nieuwe documentengebied zien wanneer u tot documenten in Workfront toegang hebt. Voor meer informatie over ondernemingsopslag, zie [&#x200B; overzicht van de ondernemingsopslag van Adobe &#x200B;](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
-Als uw Workfront-exemplaar gebruikmaakt van Adobe Enterprise Storage, kunt u afzonderlijke documenten niet rechtstreeks delen. In plaats daarvan, beheert u toegang op het project, de taak, of de kwestie. Voor meer informatie, zie [ hoe de toestemmingen van het document ](/help/quicksilver/review-and-approve-work/esm-access-permissions.md#how-document-permissions-work) werken.
+Als uw Workfront-exemplaar gebruikmaakt van Adobe Enterprise Storage, kunt u afzonderlijke documenten niet rechtstreeks delen. In plaats daarvan, beheert u toegang op het project, de taak, of de kwestie. Voor meer informatie, zie [&#x200B; hoe de toestemmingen van het document &#x200B;](/help/quicksilver/review-and-approve-work/esm-access-permissions.md#how-document-permissions-work) werken.
 
 >[!IMPORTANT]
 >
@@ -326,13 +326,13 @@ Als uw Workfront-exemplaar gebruikmaakt van Adobe Enterprise Storage, kunt u afz
 
 ## Overwegingen bij het delen van documenten op oudere Workfront-opslagsystemen
 
-Naast de overwegingen hieronder, zie ook [ Overzicht van het delen van toestemmingen op voorwerpen ](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+Naast de overwegingen hieronder, zie ook [&#x200B; Overzicht van het delen van toestemmingen op voorwerpen &#x200B;](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
 >[!NOTE]
 >
 >Een Workfront-beheerder kan machtigingen toevoegen of verwijderen voor alle items in het systeem, zonder de eigenaar van die items te zijn.
 
-* Het delen van een document is vergelijkbaar met het delen van andere objecten in Workfront. Voor informatie over hoe te om documenten in Workfront te delen, zie [ een voorwerp ](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md) delen.
+* Het delen van een document is vergelijkbaar met het delen van andere objecten in Workfront. Voor informatie over hoe te om documenten in Workfront te delen, zie [&#x200B; een voorwerp &#x200B;](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md) delen.
 * U kunt documenten de volgende machtigingen geven:
 
    * Weergave
@@ -346,12 +346,12 @@ Naast de overwegingen hieronder, zie ook [ Overzicht van het delen van toestemmi
 
 * U kunt een document delen met iemand die geen Workfront-account heeft, door het e-mailadres ervan toe te voegen in het veld Toegang tot document geven.
 * Als u een document deelt, hebben gebruikers dezelfde toegang tot alle documentversies en alle documentproefdrukken.\
-  Voor meer informatie over het proef in Workfront, zie [ het Bewijzen ](../../review-and-approve-work/proofing/proofing.md) sectie.
+  Voor meer informatie over het proef in Workfront, zie [&#x200B; het Bewijzen &#x200B;](../../review-and-approve-work/proofing/proofing.md) sectie.
 
 * U kunt machtigingen voor documenten overnemen van de objecten waaraan ze zijn gekoppeld. Uw Workfront-beheerder kan de overerving van machtigingen voor documenten op uw toegangsniveau beperken.
 
-  Voor meer informatie over het beperken van geërfte toestemmingen op documenten, zie [ tot douanetoegangsniveaus ](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md) leiden of wijzigen.
+  Voor meer informatie over het beperken van geërfte toestemmingen op documenten, zie [&#x200B; tot douanetoegangsniveaus &#x200B;](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md) leiden of wijzigen.
 
-  U kunt overgeërfde machtigingen voor documenten handmatig verwijderen. Voor meer informatie, zie [ toestemmingen uit voorwerpen ](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md) verwijderen
+  U kunt overgeërfde machtigingen voor documenten handmatig verwijderen. Voor meer informatie, zie [&#x200B; toestemmingen uit voorwerpen &#x200B;](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md) verwijderen
 
 * Een bijgevoegd document neemt alleen machtigingen over van het object waaraan het is gekoppeld. Als u een map voor het object maakt en het document naar de map verplaatst, neemt deze de machtigingen van de map over. Maar als u een map maakt op een bovenliggend of bovenliggend object en het document naar die map verplaatst, worden de machtigingen van die map niet overgenomen.

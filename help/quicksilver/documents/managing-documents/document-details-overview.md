@@ -20,7 +20,7 @@ Op de pagina Documentdetails kunt u de eigenschappen van een document dat is gek
 
 ## Gebied met verouderde documenten
 
-Als uw organisatie zich in een verouderde Workfront-opslagruimte bevindt, ziet u het gebied met verouderde documenten wanneer u documenten in Workfront opent. Voor meer informatie over de opslag van erfenisWorkfront, zie [ Verschillen tussen de opslag van erfenisWorkfront en de ondernemingsopslag van Adobe ](/help/quicksilver/review-and-approve-work/esm-overview.md).
+Als uw organisatie zich in een verouderde Workfront-opslagruimte bevindt, ziet u het gebied met verouderde documenten wanneer u documenten in Workfront opent. Voor meer informatie over de opslag van erfenisWorkfront, zie [&#x200B; Verschillen tussen de opslag van erfenisWorkfront en de ondernemingsopslag van Adobe &#x200B;](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 
 
@@ -35,7 +35,7 @@ U kunt de volgende handelingen uitvoeren voor zowel documenten als proefdrukken 
 * De documentbeschrijving bewerken
 * Een document inchecken of uitchecken
 
-Bovendien kunt u het Meer pictogram ![ Meer menu ](assets/more-icon.png) naast de documentnaam gebruiken om de volgende acties uit te voeren:
+Bovendien kunt u het Meer pictogram ![&#x200B; Meer menu &#x200B;](assets/more-icon.png) naast de documentnaam gebruiken om de volgende acties uit te voeren:
 
 * Delen
 * Verplaatsen
@@ -53,9 +53,9 @@ U kunt de volgende acties uitvoeren vanaf de pagina met documentdetails als u zi
 * Een proefdruk vergrendelen of ontgrendelen
 * Aangepaste proefdrukvelden bewerken
 
-  Proofing Custom Fields moet worden ingesteld in Workfront Proof. Voor meer informatie, zie [ douanegebieden in Workfront Proof ](../../workfront-proof/wp-acct-admin/account-settings/create-and-manage-custom-fields.md) creëren en beheren.
+  Proofing Custom Fields moet worden ingesteld in Workfront Proof. Voor meer informatie, zie [&#x200B; douanegebieden in Workfront Proof &#x200B;](../../workfront-proof/wp-acct-admin/account-settings/create-and-manage-custom-fields.md) creëren en beheren.
 
-![ de details van het Document ](assets/doc-details-full-legacy.png)
+![&#x200B; de details van het Document &#x200B;](assets/doc-details-full-legacy.png)
 
 ### De pagina Documentdetails openen in het gebied met oudere documenten
 
@@ -63,12 +63,12 @@ U kunt de volgende acties uitvoeren vanaf de pagina met documentdetails als u zi
 
 1. Beweeg over het document, dan klik **Details van het Document**.
 
-   ![ de details van het Document ](assets/doc-details-legacy.png)
+   ![&#x200B; de details van het Document &#x200B;](assets/doc-details-legacy.png)
 
 
 ## Nieuw documentgebied
 
-Als uw organisatie bedrijfsopslag gebruikt, zult u het nieuwe documentengebied zien wanneer u tot documenten in Workfront toegang hebt. Voor meer informatie over ondernemingsopslag, zie [ overzicht van de ondernemingsopslag van Adobe ](/help/quicksilver/review-and-approve-work/esm-overview.md).
+Als uw organisatie bedrijfsopslag gebruikt, zult u het nieuwe documentengebied zien wanneer u tot documenten in Workfront toegang hebt. Voor meer informatie over ondernemingsopslag, zie [&#x200B; overzicht van de ondernemingsopslag van Adobe &#x200B;](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 U kunt de volgende handelingen voor documenten uitvoeren vanaf de pagina Documentdetails:
 
@@ -91,7 +91,7 @@ U kunt de volgende handelingen voor documenten uitvoeren vanaf de pagina Documen
 </tr>
 </table>
 
-![ de details van het Document meer menupictogram ](assets/more-menu-new-doc.png)
+![&#x200B; de details van het Document meer menupictogram &#x200B;](assets/more-menu-new-doc.png)
 
 
 ### Open het deelvenster Documentdetails in het nieuwe documentgebied
@@ -99,4 +99,4 @@ U kunt de volgende handelingen voor documenten uitvoeren vanaf de pagina Documen
 1. Ga naar het project, de taak, of de kwestie die het document bevat, dan selecteren **Documenten** in het linkerpaneel.
 1. Selecteer het document, dan klik **Details van de Mening**.
 
-   ![ de details van het Document ](assets/doc-details.png)
+   ![&#x200B; de details van het Document &#x200B;](assets/doc-details.png)

@@ -46,7 +46,7 @@ U kunt een aangepast formulier toevoegen aan een document of aan een documentver
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -56,41 +56,41 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 ## Een aangepast formulier toevoegen in het gebied met verouderde documenten
 
-Als uw organisatie zich op verouderde Workfront Storage bevindt, wordt het gedeelte met verouderde documenten weergegeven wanneer u documenten in Workfront opent. Voor meer informatie over de Opslag van Workfront, zie [ Verschillen tussen de ondernemingsopslag van Adobe en erfenisWorkfront opslag ](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-enterprise-storage-and-legacy-workfront-storage).
+Als uw organisatie zich op verouderde Workfront Storage bevindt, wordt het gedeelte met verouderde documenten weergegeven wanneer u documenten in Workfront opent. Voor meer informatie over de Opslag van Workfront, zie [&#x200B; Verschillen tussen de ondernemingsopslag van Adobe en erfenisWorkfront opslag &#x200B;](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-enterprise-storage-and-legacy-workfront-storage).
 
 Een aangepast formulier toevoegen aan een document:
 
 1. Ga naar het project, de taak, of de kwestie die het document bevat, dan selecteren **Documenten**.
 1. Zoek het document dat u nodig hebt.
 
-1. Klik het **Summiere** pictogram van de Samenvatting ![ ](assets/summary-panel-icon.png), dan vind de **sectie van Details**.
+1. Klik het **Summiere** pictogram van de Samenvatting ![&#x200B; &#x200B;](assets/summary-panel-icon.png), dan vind de **sectie van Details**.
 1. In **voeg douanevorm** doos toe, begin typend en selecteer een douanevorm. Het formulier wordt automatisch in het document opgeslagen.
 
    >[!NOTE]
    >
-   >Alleen actieve aangepaste formulieren worden weergegeven in de vervolgkeuzelijst. U kunt maximaal 10 aangepaste formulieren per document toevoegen. Als u een douaneformulier moet creëren, zie [ een douaneformulier ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren.
+   >Alleen actieve aangepaste formulieren worden weergegeven in de vervolgkeuzelijst. U kunt maximaal 10 aangepaste formulieren per document toevoegen. Als u een douaneformulier moet creëren, zie [&#x200B; een douaneformulier &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) creëren.
 
 ## Een aangepast formulier bewerken in het gebied Oudere documenten
 
 1. Ga naar het project, de taak, of de kwestie die het document bevat, dan selecteren **Documenten**.
 1. Zoek het document dat u nodig hebt.
 
-1. Klik het **Summiere** pictogram van de Samenvatting ![ ](assets/summary-panel-icon.png), dan vind de **sectie van Details** dichtbij de bovenkant.
+1. Klik het **Summiere** pictogram van de Samenvatting ![&#x200B; &#x200B;](assets/summary-panel-icon.png), dan vind de **sectie van Details** dichtbij de bovenkant.
 1. Klik **uitgeven** in de hoger-juiste hoek, dan breid de gewenste vorm uit.
 1. Breng de noodzakelijke veranderingen aan, dan klik **sparen**.
 
-   ![ geef douanevorm ](assets/edit-custom-form-350x265.png) uit
+   ![&#x200B; geef douanevorm &#x200B;](assets/edit-custom-form-350x265.png) uit
 
 ## Een aangepast formulier toevoegen in het nieuwe documentgebied
 
-Als uw organisatie bedrijfsopslag gebruikt, zult u het nieuwe documentengebied zien wanneer u tot documenten in Workfront toegang hebt. Voor meer informatie over ondernemingsopslag, zie [ overzicht van de ondernemingsopslag van Adobe ](/help/quicksilver/review-and-approve-work/esm-overview.md).
+Als uw organisatie bedrijfsopslag gebruikt, zult u het nieuwe documentengebied zien wanneer u tot documenten in Workfront toegang hebt. Voor meer informatie over ondernemingsopslag, zie [&#x200B; overzicht van de ondernemingsopslag van Adobe &#x200B;](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 Een aangepast formulier toevoegen aan een document:
 
 1. Ga naar het project, de taak, of de kwestie die het document bevat, dan selecteren **Documenten**.
 1. Selecteer het gewenste document.
 1. In de **sectie van Details** op het recht, klik **uitgeven**.
-   ![ geef knoop in detailsectie uit ](assets/edit-custom-form.png)
+   ![&#x200B; geef knoop in detailsectie uit &#x200B;](assets/edit-custom-form.png)
 1. Op het **gebied van de Douane Forms**, begin typend en selecteer een douanevorm.
 1. Klik **sparen**. Het aangepaste formulier wordt weergegeven in de sectie Details.
 
@@ -100,6 +100,6 @@ Een aangepast formulier toevoegen aan een document:
 1. Ga naar het project, de taak, of de kwestie die het document bevat, dan selecteren **Documenten**.
 1. Selecteer het gewenste document.
 1. In de **sectie van Details** op het recht, klik **uitgeven**.
-   ![ geef knoop in detailsectie uit ](assets/edit-custom-form.png)
+   ![&#x200B; geef knoop in detailsectie uit &#x200B;](assets/edit-custom-form.png)
 1. In de **sectie van de Douane Forms**, vind de vorm u wilt uitgeven.
 1. Breng de noodzakelijke veranderingen aan, dan klik **sparen**.
